@@ -81,11 +81,11 @@
     </message>
     <message>
         <source>The VirtualBox Linux kernel driver is either not loaded or not set up correctly. Please try setting it up again by executing&lt;br/&gt;&lt;br/&gt;  &lt;font color=blue&gt;&apos;/sbin/vboxconfig&apos;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;as root.&lt;br/&gt;&lt;br/&gt;If your system has EFI Secure Boot enabled you may also need to sign the kernel modules (vboxdrv, vboxnetflt, vboxnetadp, vboxpci) before you can load them. Please see your Linux system&apos;s documentation for more information.</source>
-        <translation type="unfinished"></translation>
+        <translation>VirtualBox Linux-kärndrivrutin är antingen inte inläst eller inte konfigurerad korrekt. Konfigurera den igen genom att köra &lt;br/&gt;&lt;br/&gt;  &lt;font color=blue&gt;&apos;/sbin/vboxconfig&apos;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;som root.&lt;br/&gt;&lt;br/&gt;Om ditt system har EFI Secure Boot aktiverat kan du också behöva signera kärnmodulerna (vboxdrv, vboxnetflt, vboxnetadp, vboxpci) innan du kan läsa in dem. Se dokumentationen för ditt Linux-system för mer information.</translation>
     </message>
     <message>
         <source>The VirtualBox kernel modules do not match this version of VirtualBox. The installation of VirtualBox was apparently not successful. Executing&lt;br/&gt;&lt;br/&gt;  &lt;font color=blue&gt;&apos;/sbin/vboxconfig&apos;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;may correct this. Make sure that you are not mixing builds of VirtualBox from different sources.</source>
-        <translation type="unfinished"></translation>
+        <translation>VirtualBox kärnmoduler stämmer inte överens med denna version av VirtualBox. Installationen av VirtualBox lyckades antagligen inte. Kör &lt;br/&gt;&lt;br/&gt;  &lt;font color=blue&gt;&apos;/sbin/vboxconfig&apos;&lt;/font&gt;&lt;br/&gt;&lt;br/&gt;kan lösa detta problem. Försäkra dig om att du inte blandar versioner av VirtualBox från olika källor.</translation>
     </message>
 </context>
 <context>
@@ -2536,7 +2536,7 @@
     <name>UIApplianceUnverifiedCertificateViewer</name>
     <message>
         <source>Unverifiable Certificate! Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Certifikatet går inte att verifiera. Fortsätta?</translation>
     </message>
     <message>
         <source>&lt;b&gt;The appliance is signed by an unverified self signed certificate issued by &apos;%1&apos;. We recommend to only proceed with the importing if you are sure you should trust this entity.&lt;/b&gt;</source>
@@ -2628,7 +2628,7 @@
     </message>
     <message>
         <source>When checked, output to the virtual audio device will reach the host. Otherwise the guest is muted.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer utgången till virtuella ljudenheten att nå värden. Annars kommer gästen att tystas.</translation>
     </message>
     <message>
         <source>Enable Audio &amp;Input</source>
@@ -2636,7 +2636,7 @@
     </message>
     <message>
         <source>When checked, the guest will be able to capture audio input from the host. Otherwise the guest will capture only silence.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer gästen att kunna fånga ljudingången från värden. Annars kommer gästen att fånga endast tystnad.</translation>
     </message>
 </context>
 <context>
@@ -12820,7 +12820,7 @@
     </message>
     <message>
         <source>When chosen, you will be notified about stable updates to VirtualBox.</source>
-        <translation type="unfinished"></translation>
+        <translation>När markerad kommer du vill notifierad om alla stabila uppdateringar till VirtualBox.</translation>
     </message>
     <message>
         <source>&amp;All New Releases</source>
@@ -12828,7 +12828,7 @@
     </message>
     <message>
         <source>When chosen, you will be notified about all new VirtualBox releases.</source>
-        <translation type="unfinished"></translation>
+        <translation>När markerad kommer du vill notifierad om alla nya VirtualBox-utgåvor.</translation>
     </message>
     <message>
         <source>All New Releases and &amp;Pre-Releases</source>
@@ -12836,15 +12836,15 @@
     </message>
     <message>
         <source>When chosen, you will be notified about all new VirtualBox releases and pre-release versions of VirtualBox.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer du bli notifierad om alla nya VirtualBox-utgåvor och förutgåvor av VirtualBox.</translation>
     </message>
     <message>
         <source>All New Releases, &amp;Pre-Releases and Testing Builds</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla nya utgåvor, &amp;förutgåvor och testbyggnationer</translation>
     </message>
     <message>
         <source>When chosen, you will be notified about all new VirtualBox releases, pre-release versions and testing builds of VirtualBox.</source>
-        <translation type="unfinished"></translation>
+        <translation>När markerad kommer du vill notifierad om alla nya VirtualBox-utgåvor, förutgåvor och testbyggnationer av VirtualBox.</translation>
     </message>
 </context>
 <context>
@@ -13772,27 +13772,27 @@
     </message>
     <message>
         <source>VISO Content</source>
-        <translation type="unfinished"></translation>
+        <translation>VISO-innehåll</translation>
     </message>
     <message>
         <source>Creates VISO file with the selected content</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar VISO-fil med markerat innehåll</translation>
     </message>
     <message>
         <source>Opens the help browser and navigates to the related section</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppnar hjälpbläddraren och navigerar till relaterat avsnitt</translation>
     </message>
     <message>
         <source>VISO Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>VISO-namn:</translation>
     </message>
     <message>
         <source>Custom VISO options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassade VISO-alternativ:</translation>
     </message>
     <message>
         <source>Holds the name of the VISO medium.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller namnet på detta VISO-media.</translation>
     </message>
     <message>
         <source>Show Hidden Objects</source>
@@ -13800,31 +13800,31 @@
     </message>
     <message>
         <source>When checked, multiple hidden objects are shown in the file browser</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer flera dolda objekt att visas i filbläddraren</translation>
     </message>
     <message>
         <source>VISO Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>VISO-skapare</translation>
     </message>
     <message>
         <source>Has Removed Child</source>
-        <translation type="unfinished"></translation>
+        <translation>Har borttaget barn</translation>
     </message>
     <message>
         <source>VISO Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>VISO-bläddrare</translation>
     </message>
     <message>
         <source>Child/children removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Barn borttagna</translation>
     </message>
     <message>
         <source>Host Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Värdbläddrare</translation>
     </message>
     <message>
         <source>The list of custom options delimited with &apos;;&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Listan över anpassade alternativ avgränsade med &apos;;&apos;.</translation>
     </message>
     <message>
         <source>Dialog Settings</source>
@@ -13832,11 +13832,11 @@
     </message>
     <message>
         <source>Select a VISO file to load</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en VISO-fil att läsa in</translation>
     </message>
     <message>
         <source>Select a file to save VISO content to</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en fil att spara VISO-innehåll till</translation>
     </message>
     <message>
         <source>&amp;Save and Close</source>
@@ -13844,7 +13844,7 @@
     </message>
     <message>
         <source>VISO Options</source>
-        <translation type="unfinished"></translation>
+        <translation>VISO-alternativ</translation>
     </message>
 </context>
 <context>
