@@ -1668,11 +1668,11 @@
     </message>
     <message>
         <source>&amp;Soft Keyboard...</source>
-        <translation>&amp;Virtuellt tangentbord...</translation>
+        <translation>&amp;Visuellt tangentbord...</translation>
     </message>
     <message>
         <source>Display soft keyboard</source>
-        <translation>Visa virtuellt tangentbord</translation>
+        <translation>Visa visuellt tangentbord</translation>
     </message>
     <message>
         <source>Guest Control Terminal...</source>
@@ -5688,11 +5688,11 @@
     </message>
     <message>
         <source>Close dialog without saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng dialogen utan att spara</translation>
     </message>
     <message>
         <source>Reset Changes (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ ändringar (%1)</translation>
     </message>
     <message>
         <source>Help</source>
@@ -7269,7 +7269,7 @@
     </message>
     <message>
         <source>Close dialog without saving</source>
-        <translation>Stäng dialog utan att spara</translation>
+        <translation>Stäng dialogen utan att spara</translation>
     </message>
     <message>
         <source>Reset Changes (%1)</source>
@@ -9668,7 +9668,7 @@
     </message>
     <message>
         <source>When checked, show the Mini ToolBar in full-screen and seamless modes.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad visas miniverktygsraden i helskärmsläge och sömlöst läge.</translation>
     </message>
     <message>
         <source>Show at &amp;Top of Screen</source>
@@ -9676,7 +9676,7 @@
     </message>
     <message>
         <source>When checked, show the Mini ToolBar at the top of the screen, rather than in its default position at the bottom of the screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad visas miniverktygsraden överst på skärmen, istället för dess standardposition nederst på skärmen.</translation>
     </message>
 </context>
 <context>
@@ -9710,7 +9710,7 @@
     </message>
     <message>
         <source>When checked, the virtual machine will support the Input Output APIC (I/O APIC), which may slightly decrease performance. Note: don&apos;t disable this feature after having installed a Windows guest operating system!</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer den virtuella maskinen att ha stöd för I/O APIC vilket kan de lite minskad prestanda. Observera: inaktivera inte denna funktion efter att du installerat ett Windows-gästoperativsystem!</translation>
     </message>
     <message>
         <source>Enable &amp;EFI (special OSes only)</source>
@@ -9722,27 +9722,27 @@
     </message>
     <message>
         <source>When checked, the RTC device will report the time in UTC, otherwise in local (host) time. Unix usually expects the hardware clock to be set to UTC.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer RTC-enheten att rapportera tiden i UTC, annars i lokaltid (värd). Unix förväntar sig att hårdvaruklockan ställs in till UTC.</translation>
     </message>
     <message>
         <source>Enable Hardware Clock in &amp;UTC Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera hårdvaruklocka i &amp;UTC-tid</translation>
     </message>
     <message>
         <source>Enable &amp;Secure Boot</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera &amp;Secure Boot</translation>
     </message>
     <message>
         <source>When checked, the secure boot emulation will be enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer secure boot-emulering att aktiveras.</translation>
     </message>
     <message>
         <source>&amp;Reset Keys to Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ &amp;nycklar till standard</translation>
     </message>
     <message>
         <source>Resets secure boot keys to default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställer nycklar för secure boot till standard.</translation>
     </message>
 </context>
 <context>
@@ -9990,11 +9990,11 @@
     </message>
     <message>
         <source>IPv4 Prefix</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv4-prefix</translation>
     </message>
     <message>
         <source>IPv6 Prefix</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv6-prefix</translation>
     </message>
     <message>
         <source>DHCP Server</source>
@@ -10002,7 +10002,7 @@
     </message>
     <message>
         <source>Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Leverantör</translation>
     </message>
     <message>
         <source>Profile</source>
@@ -10014,7 +10014,7 @@
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -10030,15 +10030,15 @@
     </message>
     <message>
         <source>Reset changes in current network details</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ ändringar i aktuella nätverksdetaljer</translation>
     </message>
     <message>
         <source>Apply changes in current network details</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa ändringar i aktuella nätverksdetaljer</translation>
     </message>
     <message>
         <source>Close dialog without saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng dialogen utan att spara</translation>
     </message>
     <message>
         <source>Show dialog help</source>
@@ -10046,7 +10046,7 @@
     </message>
     <message>
         <source>Reset Changes (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ ändringar (%1)</translation>
     </message>
     <message>
         <source>Apply Changes (%1)</source>
@@ -10062,7 +10062,7 @@
     </message>
     <message>
         <source>Select Subnet</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj subnät</translation>
     </message>
     <message>
         <source>N&amp;ame:</source>
@@ -10074,7 +10074,7 @@
     </message>
     <message>
         <source>&amp;Provider:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Leverantör:</translation>
     </message>
     <message>
         <source>Holds the cloud provider for this network.</source>
@@ -10098,7 +10098,7 @@
     </message>
     <message>
         <source>Selects the id for this network.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer ett id för detta nätverk.</translation>
     </message>
     <message>
         <source>Reset changes in current interface details</source>
@@ -10118,11 +10118,11 @@
     </message>
     <message>
         <source>Holds the mask for this network.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller masken för detta nätverk.</translation>
     </message>
     <message>
         <source>&amp;Lower Bound:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lägre gräns:</translation>
     </message>
     <message>
         <source>Holds the lower address bound for this network.</source>
@@ -10130,7 +10130,7 @@
     </message>
     <message>
         <source>&amp;Upper Bound:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ö&amp;vre gräns:</translation>
     </message>
     <message>
         <source>Holds the upper address bound for this network.</source>
@@ -10146,11 +10146,11 @@
     </message>
     <message>
         <source>Configure Adapter &amp;Automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera nätkortet &amp;automatiskt</translation>
     </message>
     <message>
         <source>Configure Adapter &amp;Manually</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera nätkortet &amp;manuellt</translation>
     </message>
     <message>
         <source>&amp;IPv4 Address:</source>
@@ -10234,7 +10234,7 @@
     </message>
     <message>
         <source>&amp;General Options</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;llmänna alternativ</translation>
     </message>
     <message>
         <source>&amp;Port Forwarding</source>
@@ -10242,7 +10242,7 @@
     </message>
     <message>
         <source>IPv&amp;4 Prefix:</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;4-prefix:</translation>
     </message>
     <message>
         <source>Holds the IPv4 prefix for this network.</source>
@@ -10250,7 +10250,7 @@
     </message>
     <message>
         <source>IPv&amp;6 Prefix:</source>
-        <translation type="unfinished"></translation>
+        <translation>IPv&amp;6-prefix:</translation>
     </message>
     <message>
         <source>Holds the IPv6 prefix for this network.</source>
@@ -10258,7 +10258,7 @@
     </message>
     <message>
         <source>Enable &amp;DHCP</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera &amp;DHCP</translation>
     </message>
     <message>
         <source>When checked, this network will support DHCP.</source>
@@ -10266,7 +10266,7 @@
     </message>
     <message>
         <source>&amp;Enable IPv6</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;ktivera IPv6</translation>
     </message>
     <message>
         <source>When checked, this network will support IPv6.</source>
@@ -10880,7 +10880,7 @@
     </message>
     <message>
         <source>Contains a list of port forwarding rules.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller en regellista över postomdirigeringar.</translation>
     </message>
     <message>
         <source>Add New Rule</source>
@@ -11523,11 +11523,11 @@
     </message>
     <message>
         <source>The current state differs from the state stored in the current snapshot</source>
-        <translation type="unfinished">Det aktuella tillståndet skiljer sig från det tillstånd som lagrats i den aktuella ögonblicksbilden</translation>
+        <translation>Det aktuella tillståndet skiljer sig från det tillstånd som lagrats i den aktuella ögonblicksbilden</translation>
     </message>
     <message>
         <source>The current state is identical to the state stored in the current snapshot</source>
-        <translation type="unfinished">Det aktuella tillståndet är identiskt med det tillstånd som lagrats i den aktuella ögonblicksbilden</translation>
+        <translation>Det aktuella tillståndet är identiskt med det tillstånd som lagrats i den aktuella ögonblicksbilden</translation>
     </message>
     <message>
         <source>%1 since %2</source>
@@ -11552,12 +11552,12 @@
     <message>
         <source>Taken at %1</source>
         <comment>Snapshot (time)</comment>
-        <translation type="unfinished">Sparat klockan %1</translation>
+        <translation>Sparat klockan %1</translation>
     </message>
     <message>
         <source>Taken on %1</source>
         <comment>Snapshot (date + time)</comment>
-        <translation type="unfinished">Sparat den %1</translation>
+        <translation>Sparat den %1</translation>
     </message>
 </context>
 <context>
@@ -11585,35 +11585,35 @@
     <name>UISoftKeyboard</name>
     <message>
         <source>Layout Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Layoutredigerare</translation>
     </message>
     <message>
         <source>Return Back to Layout List</source>
-        <translation type="unfinished"></translation>
+        <translation>Återgå till layoutlista</translation>
     </message>
     <message>
         <source>Back to Layout List</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillbaka till layoutlista</translation>
     </message>
     <message>
         <source>Physical Layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Fysisk layout</translation>
     </message>
     <message>
         <source>English Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Engelska</translation>
     </message>
     <message>
         <source>Name of the Layout in English</source>
-        <translation type="unfinished"></translation>
+        <translation>Swedish</translation>
     </message>
     <message>
         <source>Native Language Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Svenska</translation>
     </message>
     <message>
         <source>Name of the Layout in the native Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Svenska</translation>
     </message>
     <message>
         <source>Scan Code</source>
@@ -11625,7 +11625,7 @@
     </message>
     <message>
         <source>Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Position</translation>
     </message>
     <message>
         <source>The physical position of the key. Not editable</source>
@@ -11657,71 +11657,71 @@
     </message>
     <message>
         <source>Use the selected layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd markerad layout</translation>
     </message>
     <message>
         <source>Edit the selected layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera markerad layout</translation>
     </message>
     <message>
         <source>Delete the selected layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort markerad layout</translation>
     </message>
     <message>
         <source>Copy the selected layout</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera markerad layout</translation>
     </message>
     <message>
         <source>Save the selected layout into File</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara markerad layout till fil</translation>
     </message>
     <message>
         <source>Layout List</source>
-        <translation type="unfinished"></translation>
+        <translation>Layoutlista</translation>
     </message>
     <message>
         <source>Close the layout list</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng layoutlistan</translation>
     </message>
     <message>
         <source>Web browser go back</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare: Gå bakåt</translation>
     </message>
     <message>
         <source>Web browser go the home page</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare: Gå till hemsida</translation>
     </message>
     <message>
         <source>Web browser go forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare: Gå framåt</translation>
     </message>
     <message>
         <source>Web browser reload the current page</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare: Uppdatera aktuell sida</translation>
     </message>
     <message>
         <source>Web browser stop loading the page</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare: Stoppa inläsning av sidan</translation>
     </message>
     <message>
         <source>Web browser search</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare: Sök</translation>
     </message>
     <message>
         <source>Jump back to previous media track</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoppa bakåt till föregående mediaspår</translation>
     </message>
     <message>
         <source>Jump to next media track</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoppa till nästa mediaspår</translation>
     </message>
     <message>
         <source>Stop playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa uppspelning</translation>
     </message>
     <message>
         <source>Play or pause playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela upp eller pausa uppspelning</translation>
     </message>
     <message>
         <source>Start email application</source>
@@ -11733,7 +11733,7 @@
     </message>
     <message>
         <source>Show &apos;My Computer&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa &quot;Min dator&quot;</translation>
     </message>
     <message>
         <source>Show Media folder</source>
@@ -11757,15 +11757,15 @@
     </message>
     <message>
         <source>Provide a file name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange ett filnamn</translation>
     </message>
     <message>
         <source> is an invalid file name</source>
-        <translation type="unfinished"></translation>
+        <translation> är ett ogiltigt filnamn</translation>
     </message>
     <message>
         <source> is saved</source>
-        <translation type="unfinished"></translation>
+        <translation> är sparad</translation>
     </message>
     <message>
         <source>Copy</source>
@@ -11781,15 +11781,15 @@
     </message>
     <message>
         <source>Reset the keyboard and release all keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ tangentbordet och släpp alla tangenter</translation>
     </message>
     <message>
         <source>Click to change the color.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att ändra färgen.</translation>
     </message>
     <message>
         <source>This color theme is not editable.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta färgtema är inte redigeringsbart.</translation>
     </message>
     <message>
         <source>Keyboard Settings</source>
@@ -11805,7 +11805,7 @@
     </message>
     <message>
         <source>Hide Multimedia Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj multimediatangenter</translation>
     </message>
     <message>
         <source>Color Themes</source>
@@ -11833,7 +11833,7 @@
     </message>
     <message>
         <source>Soft Keyboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Visuellt tangentbord</translation>
     </message>
     <message>
         <source>&lt;p&gt;Following layouts are edited/copied but not saved:&lt;/p&gt;%1&lt;p&gt;Closing this dialog will cause loosing the changes. Proceed?&lt;/p&gt;</source>
@@ -11845,11 +11845,11 @@
     </message>
     <message>
         <source>The file will be saved under:&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen kommer att sparas under:&lt;br&gt;</translation>
     </message>
     <message>
         <source>Power off</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng av</translation>
     </message>
     <message>
         <source>Help</source>
@@ -11857,11 +11857,11 @@
     </message>
     <message>
         <source>The file %1 has been deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 har tagits bort</translation>
     </message>
     <message>
         <source>Deleting the file %1 has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Borttagning av filen %1 har misslyckats</translation>
     </message>
     <message>
         <source>Close</source>
@@ -12206,11 +12206,11 @@
     </message>
     <message>
         <source>Holds the snapshot name</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller ögonblicksbildnamnet</translation>
     </message>
     <message>
         <source>Holds the snapshot description</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller beskrivning av ögonblicksbilden</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -12226,11 +12226,11 @@
     </message>
     <message>
         <source>Take Snapshot and close the dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara ögonblicksbild och stäng dialogen</translation>
     </message>
     <message>
         <source>Close dialog without taking a snapshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng dialogen utan att spara en ögonblicksbild</translation>
     </message>
     <message>
         <source>Show dialog help</source>
@@ -12601,7 +12601,7 @@
     </message>
     <message>
         <source>Adds new USB filter with all fields initially set to empty strings. Note that such a filter will match any attached USB device.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till nytt USB-filter med alla fält initialt inställda till tomma strängar. Observera att ett sådant filter kommer att matcha alla anslutna USB-enheter.</translation>
     </message>
     <message>
         <source>Add Filter From Device</source>
@@ -12609,7 +12609,7 @@
     </message>
     <message>
         <source>Adds new USB filter with all fields set to the values of the selected USB device attached to the host PC.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägger till nytt USB-filter med alla fält inställda till värden för den markerade USB-enheten ansluten till värddatorn.</translation>
     </message>
     <message>
         <source>Edit Filter</source>
@@ -12646,7 +12646,7 @@
     <message>
         <source>%1, Active</source>
         <comment>col.1 text, col.1 state</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1, Aktiv</translation>
     </message>
 </context>
 <context>
@@ -12804,7 +12804,7 @@
     </message>
     <message>
         <source>Selects how often the new version check should be performed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer hur ofta kontroll efter ny version ska genomföras.</translation>
     </message>
     <message>
         <source>Next Check:</source>
@@ -13005,7 +13005,7 @@
     </message>
     <message>
         <source>List All Virtual Machines</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista alla virtuella maskiner</translation>
     </message>
     <message>
         <source>Show Cloud Virtual Machines</source>
@@ -13312,7 +13312,7 @@
     </message>
     <message>
         <source>Close dialog without saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng dialogen utan att spara</translation>
     </message>
     <message>
         <source>Show dialog help</source>
