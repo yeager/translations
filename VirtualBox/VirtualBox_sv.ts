@@ -234,11 +234,14 @@
     </message>
     <message>
         <source>We haven&apos;t found public key id_rsa[.pub] in suitable locations. If you have one, please put it under one of those folders OR copy content to the edit box below:&lt;br&gt;&lt;br&gt;%1&lt;br&gt;&lt;br&gt;If you don&apos;t have one, please consider using one of the following tools to generate it:&lt;br&gt;&lt;br&gt;%2</source>
-        <translation type="unfinished"></translation>
+        <translation variants="yes">
+            <lengthvariant>Vi har inte hittat public key id_rsa[.pub] på en lämplig plats. Om du har en, lägg den under en av dessa mappar ELLER kopiera innehållet till redigeringsrutan nedan:&lt;br&gt;&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Om du inte har en, överväg att använda ett av följande verktyg för att generera den:&lt;br&gt;&lt;br&gt;%2</lengthvariant>
+            <lengthvariant></lengthvariant>
+        </translation>
     </message>
     <message>
         <source>We haven&apos;t found public key id_rsa[.pub] in suitable location. If you have one, please put it under specified folder OR copy content to the edit box below:&lt;br&gt;&lt;br&gt;%1&lt;br&gt;&lt;br&gt;If you don&apos;t have one, please consider using the following tool to generate it:&lt;br&gt;&lt;br&gt;%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Vi har inte hittat public key id_rsa[.pub] på en lämplig plats. Om du har en, lägg den under angiven mapp ELLER kopiera innehållet till redigeringsrutan nedan:&lt;br&gt;&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Om du inte har en, överväg att använda följande verktyg för att generera den:&lt;br&gt;&lt;br&gt;%2</translation>
     </message>
     <message>
         <source>Paste public key</source>
@@ -5119,7 +5122,7 @@
     </message>
     <message>
         <source>When checked, machine windows will be raised when the mouse pointer moves over them.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer maskinfönstren att höjas när muspekaren rör sig över dem.</translation>
     </message>
     <message>
         <source>&amp;Disable Host Screen Saver</source>
@@ -5127,7 +5130,7 @@
     </message>
     <message>
         <source>When checked, screen saver of the host OS is disabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer skärmsläckaren för värdoperativsystemet att inaktiveras.</translation>
     </message>
 </context>
 <context>
@@ -13584,7 +13587,7 @@
     </message>
     <message>
         <source>Holds the VRDP Server port number. You may specify 0 (zero), to select port 3389, the standard port for RDP.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller VRDP-serverns portnummer. Du kan ange 0 (noll) för att välja port 3389, standardporten för RDP.</translation>
     </message>
     <message>
         <source>Authentication &amp;Method:</source>
@@ -13592,7 +13595,7 @@
     </message>
     <message>
         <source>Selects the VRDP authentication method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer VRDP-autentiseringsmetoden.</translation>
     </message>
     <message>
         <source>Authentication &amp;Timeout:</source>
@@ -13600,7 +13603,7 @@
     </message>
     <message>
         <source>Holds the timeout for guest authentication, in milliseconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller tidsgränsen för gästautentisering, i millisekunder.</translation>
     </message>
     <message>
         <source>Extended Features:</source>
@@ -13612,15 +13615,15 @@
     </message>
     <message>
         <source>When checked, multiple simultaneous connections to the VM are permitted.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer flera samtidiga anslutningar till virtuella maskinen att tillåtas.</translation>
     </message>
     <message>
         <source>&amp;Security Method:</source>
-        <translation type="unfinished"></translation>
+        <translation>Säk&amp;erhetsmetod:</translation>
     </message>
     <message>
         <source>Selects the VRDP security method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer VRDP-säkerhetsmetoden.</translation>
     </message>
 </context>
 <context>
@@ -13886,7 +13889,7 @@
     </message>
     <message>
         <source>Please choose the source to add cloud virtual machine from.  This can be one of known cloud service providers below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj källan att lägga till virtuell molnmaskin från.  Detta kan vara en av de kända molntjänstleverantörerna nedan.</translation>
     </message>
     <message>
         <source>&amp;Instances:</source>
@@ -13894,7 +13897,7 @@
     </message>
     <message>
         <source>Please choose one of cloud service profiles you have registered to add virtual machine from.  Existing instance list will be updated.  To continue, select at least one instance to add virtual machine on the basis of it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en av molntjänstprofilerna som du har registrerat för att lägga till virtuell maskin från.  Befintlig instanslista kommer att uppdateras.  För att fortsätta, välj minst en instans att lägga till virtuell maskin baserat på det.</translation>
     </message>
     <message>
         <source>&amp;Provider:</source>
@@ -13902,7 +13905,7 @@
     </message>
     <message>
         <source>Selects cloud service provider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer leverantör för molntjänst.</translation>
     </message>
     <message>
         <source>P&amp;rofile:</source>
@@ -13918,7 +13921,7 @@
     </message>
     <message>
         <source>Opens cloud profile manager...</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppnar hanteraren för molnprofiler...</translation>
     </message>
     <message>
         <source>Lists all the cloud VM instances.</source>
@@ -14573,7 +14576,7 @@
     </message>
     <message>
         <source>Please choose the type of file that you would like to use for the new virtual hard disk. If you do not need to use it with other virtualization software you can leave this setting unchanged.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj den typ av fil som du vill använda för den nya virtuella hårddisken. Om du inte behöver använda den med andra virtualiseringsprogram så kan du lämna denna inställning oförändrad.</translation>
     </message>
     <message>
         <source>Storage on physical hard disk</source>
@@ -14581,19 +14584,19 @@
     </message>
     <message>
         <source>Please choose whether the new virtual hard disk file should grow as it is used (dynamically allocated) or if it should be created at its maximum size (fixed size).</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj huruvida den nya virtuella hårddiskfilen ska växa när den används (dynamiskt allokerad) eller om den ska skapas med sin maximal storlek (fast storlek).</translation>
     </message>
     <message>
         <source>&lt;p&gt;A &lt;b&gt;dynamically allocated&lt;/b&gt; hard disk file will only use space on your physical hard disk as it fills up (up to a maximum &lt;b&gt;fixed size&lt;/b&gt;), although it will not shrink again automatically when space on it is freed.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;En &lt;b&gt;dynamiskt allokerad&lt;/b&gt; hårddiskfil kommer endast använda utrymme på din fysiska hårddisk när den fylls upp till (upp till ett maximal &lt;b&gt;fast storlek&lt;/b&gt;), dock kommer den inte att minska igen automatiskt när utrymme frigörs.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;A &lt;b&gt;fixed size&lt;/b&gt; hard disk file may take longer to create on some systems but is often faster to use.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;En hårddiskfil med &lt;b&gt;fast storlek&lt;/b&gt; kan ta längre tid att skapa på vissa system men är oftast snabbare att använda.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;You can also choose to &lt;b&gt;split&lt;/b&gt; the hard disk file into several files of up to two gigabytes each. This is mainly useful if you wish to store the virtual machine on removable USB devices or old systems, some of which cannot handle very large files.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du kan även välja att &lt;b&gt;dela upp&lt;/b&gt; hårddiskfilen i flera filer med upp till två gigabyte var. Detta är oftast användbart om du önskar att lagra den virtuella maskinen på flyttbara USB-enheter eller äldre system, vilka inte kan hantera mycket stora filer.</translation>
     </message>
     <message>
         <source>Hard Disk File &amp;Type and Variant</source>
