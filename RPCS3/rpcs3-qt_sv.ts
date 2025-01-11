@@ -57,113 +57,113 @@
     <message numerus="yes">
         <location filename="../localized.cpp" line="18"/>
         <source>%Ln day(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln dygn</numerusform>
+            <numerusform>%Ln dygn</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../localized.cpp" line="19"/>
         <source>%Ln hour(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln timme</numerusform>
+            <numerusform>%Ln timmar</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../localized.cpp" line="20"/>
         <source>%Ln minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln minut</numerusform>
+            <numerusform>%Ln minuter</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../localized.cpp" line="21"/>
         <source>%Ln second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln sekund</numerusform>
+            <numerusform>%Ln sekunder</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="28"/>
         <source>%0 and %1</source>
         <comment>Days and hours</comment>
-        <translation type="unfinished"></translation>
+        <translation>%0 och %1</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="36"/>
         <source>%0 and %1</source>
         <comment>Hours and minutes</comment>
-        <translation type="unfinished"></translation>
+        <translation>%0 och %1</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="42"/>
         <source>%0 and %1</source>
         <comment>Minutes and seconds</comment>
-        <translation type="unfinished"></translation>
+        <translation>%0 och %1</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="74"/>
         <location filename="../localized.h" line="61"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänt</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="82"/>
         <source>480</source>
-        <translation type="unfinished"></translation>
+        <translation>480</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="83"/>
         <source>576</source>
-        <translation type="unfinished"></translation>
+        <translation>576</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="84"/>
         <source>720</source>
-        <translation type="unfinished"></translation>
+        <translation>720</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="85"/>
         <source>1080</source>
-        <translation type="unfinished"></translation>
+        <translation>1080</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="86"/>
         <source>480 16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>480 16:9</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="87"/>
         <source>576 16:9</source>
-        <translation type="unfinished"></translation>
+        <translation>576 16:9</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="94"/>
         <source>LPCM 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>LPCM 2.0</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="95"/>
         <source>LPCM 5.1</source>
-        <translation type="unfinished"></translation>
+        <translation>LPCM 5.1</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="96"/>
         <source>LPCM 7.1</source>
-        <translation type="unfinished"></translation>
+        <translation>LPCM 7.1</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="97"/>
         <source>Dolby Digital 5.1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dolby Digital 5.1</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="98"/>
         <source>DTS 5.1</source>
-        <translation type="unfinished"></translation>
+        <translation>DTS 5.1</translation>
     </message>
     <message>
         <location filename="../localized.cpp" line="105"/>
@@ -213,12 +213,12 @@
     <message>
         <location filename="../localized.h" line="33"/>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Hem</translation>
     </message>
     <message>
         <location filename="../localized.h" line="34"/>
         <source>Network</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätverk</translation>
     </message>
     <message>
         <location filename="../localized.h" line="35"/>
@@ -1991,7 +1991,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="29"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="30"/>
@@ -2001,7 +2001,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="31"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="32"/>
@@ -2480,7 +2480,7 @@ Double-click: Set breakpoints.</source>
     <message>
         <location filename="../dimensions_dialog.cpp" line="631"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm</translation>
     </message>
     <message>
         <location filename="../dimensions_dialog.cpp" line="632"/>
@@ -2775,19 +2775,19 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="995"/>
         <source>Disabled</source>
         <comment>Enable TSX</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="996"/>
         <source>Enabled</source>
         <comment>Enable TSX</comment>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverad</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="997"/>
         <source>Forced</source>
         <comment>Enable TSX</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tvingad</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1003"/>
@@ -2799,13 +2799,13 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1004"/>
         <source>OpenGL</source>
         <comment>Video renderer</comment>
-        <translation type="unfinished"></translation>
+        <translation>OpenGL</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1005"/>
         <source>Vulkan</source>
         <comment>Video renderer</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vulkan</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1011"/>
@@ -2847,13 +2847,13 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1022"/>
         <source>720p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>720p</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1023"/>
         <source>480p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>480p</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1024"/>
@@ -2877,13 +2877,13 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1027"/>
         <source>1600x1080p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>1600x1080p</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1028"/>
         <source>1440x1080p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>1440x1080p</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1029"/>
@@ -2955,7 +2955,7 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1050"/>
         <source>Disabled</source>
         <comment>MSAA</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1051"/>
@@ -3033,7 +3033,7 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1087"/>
         <source>Disabled</source>
         <comment>Microphone handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1088"/>
@@ -3891,7 +3891,7 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1385"/>
         <source>Swedish keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Svenskt tangentbord</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1386"/>
@@ -3969,7 +3969,7 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1408"/>
         <source>Disabled</source>
         <comment>3D Display Mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1409"/>
@@ -4300,12 +4300,12 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../game_compatibility.cpp" line="228"/>
         <source>Downloading Database</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar databas</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="123"/>
         <source>Playable</source>
-        <translation type="unfinished"></translation>
+        <translation>Spelbart</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="123"/>
@@ -4315,7 +4315,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../game_compatibility.h" line="124"/>
         <source>Ingame</source>
-        <translation type="unfinished"></translation>
+        <translation>Spelproblem</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="124"/>
@@ -4325,7 +4325,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../game_compatibility.h" line="125"/>
         <source>Intro</source>
-        <translation type="unfinished"></translation>
+        <translation>Intro</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="125"/>
@@ -4335,7 +4335,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../game_compatibility.h" line="126"/>
         <source>Loadable</source>
-        <translation type="unfinished"></translation>
+        <translation>Inläsbart</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="126"/>
@@ -4345,7 +4345,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../game_compatibility.h" line="127"/>
         <source>Nothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingenting</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="127"/>
@@ -4355,7 +4355,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../game_compatibility.h" line="128"/>
         <source>No results found</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga resultat hittades</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="128"/>
@@ -4365,7 +4365,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../game_compatibility.h" line="129"/>
         <source>Database missing</source>
-        <translation type="unfinished"></translation>
+        <translation>Databas saknas</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="129"/>
@@ -4376,7 +4376,7 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="../game_compatibility.h" line="130"/>
         <source>Retrieving...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar...</translation>
     </message>
     <message>
         <location filename="../game_compatibility.h" line="130"/>
@@ -4389,12 +4389,12 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="../game_list_frame.cpp" line="56"/>
         <source>Game List</source>
-        <translation type="unfinished"></translation>
+        <translation>Spellista</translation>
     </message>
     <message>
         <location filename="../game_list_frame.cpp" line="113"/>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikon</translation>
     </message>
     <message>
         <location filename="../game_list_frame.cpp" line="113"/>
@@ -4434,7 +4434,7 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="../game_list_frame.cpp" line="117"/>
         <source>Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Version</translation>
     </message>
     <message>
         <location filename="../game_list_frame.cpp" line="117"/>
@@ -4544,7 +4544,7 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="../game_list_frame.cpp" line="129"/>
         <source>Loading games</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in spel</translation>
     </message>
     <message>
         <location filename="../game_list_frame.cpp" line="129"/>
@@ -5404,7 +5404,7 @@ Notes:
     <message>
         <location filename="../gs_frame.cpp" line="1138"/>
         <source>Exit Game?</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta spelet?</translation>
     </message>
     <message>
         <location filename="../gs_frame.cpp" line="1139"/>
@@ -5600,7 +5600,7 @@ Some thread has probably deadlocked. Aborting.</source>
     <message>
         <location filename="../infinity_dialog.cpp" line="729"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm</translation>
     </message>
     <message>
         <location filename="../infinity_dialog.cpp" line="730"/>
@@ -6244,7 +6244,7 @@ File was too small.</source>
         <location filename="../localized_emu.h" line="54"/>
         <source>Save</source>
         <comment>Save Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../localized_emu.h" line="55"/>
@@ -7320,7 +7320,7 @@ Subject:</source>
     <message>
         <location filename="../localized_emu.h" line="224"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../localized_emu.h" line="225"/>
@@ -7966,7 +7966,7 @@ Subject:</source>
         <location filename="../log_frame.cpp" line="234"/>
         <location filename="../log_frame.cpp" line="242"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm</translation>
     </message>
     <message>
         <location filename="../log_frame.cpp" line="249"/>
@@ -8069,7 +8069,7 @@ Subject:</source>
     <message>
         <location filename="../log_viewer.cpp" line="31"/>
         <source>Log Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Loggvisare</translation>
     </message>
     <message>
         <location filename="../log_viewer.cpp" line="65"/>
@@ -8213,17 +8213,17 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="26"/>
         <source>RPCS3</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="76"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök...</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="152"/>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkiv</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="159"/>
@@ -8248,37 +8248,37 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="224"/>
         <source>Emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulering</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="235"/>
         <source>Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfiguration</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="239"/>
         <source>USB Devices</source>
-        <translation type="unfinished"></translation>
+        <translation>USB-enheter</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="254"/>
         <source>Mice</source>
-        <translation type="unfinished"></translation>
+        <translation>Möss</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="283"/>
         <source>Manage</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="300"/>
         <source>Utilities</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktyg</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="326"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="330"/>
@@ -8298,7 +8298,7 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="382"/>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="386"/>
@@ -8355,20 +8355,20 @@ Subject:</source>
         <location filename="../main_window.cpp" line="1997"/>
         <location filename="../main_window.cpp" line="2022"/>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Paus</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="503"/>
         <location filename="../main_window.ui" line="965"/>
         <source>Start emulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta emulering</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="515"/>
         <location filename="../main_window.ui" line="974"/>
         <location filename="../main_window.cpp" line="262"/>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="518"/>
@@ -8447,7 +8447,7 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="582"/>
         <source>Advanced</source>
-        <translation type="unfinished"></translation>
+        <translation>Avancerat</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="585"/>
@@ -8502,17 +8502,17 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="628"/>
         <source>Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="631"/>
         <source>Exit RPCS3</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta RPCS3</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="634"/>
         <source>Exit the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta programmet.</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="642"/>
@@ -8612,12 +8612,12 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="745"/>
         <source>About RPCS3</source>
-        <translation type="unfinished"></translation>
+        <translation>Om RPCS3</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="750"/>
         <source>About Qt</source>
-        <translation type="unfinished"></translation>
+        <translation>Om Qt</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="758"/>
@@ -8926,12 +8926,12 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="1173"/>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>Engelska</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="1178"/>
         <source>Screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Skärmbilder</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="1183"/>
@@ -9141,12 +9141,12 @@ Subject:</source>
     <message>
         <location filename="../main_window.cpp" line="296"/>
         <source>Update Available!</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatering tillgänglig!</translation>
     </message>
     <message>
         <location filename="../main_window.cpp" line="298"/>
         <source>Download Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta uppdatering</translation>
     </message>
     <message>
         <location filename="../main_window.cpp" line="395"/>
@@ -9222,7 +9222,7 @@ Subject:</source>
     <message>
         <location filename="../main_window.cpp" line="569"/>
         <source>Unknown error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänt fel.</translation>
     </message>
     <message>
         <location filename="../main_window.cpp" line="572"/>
@@ -9315,7 +9315,8 @@ DLC</source>
         <source>
 Update</source>
         <comment>Block for package type (Update)</comment>
-        <translation type="unfinished"></translation>
+        <translation>
+Uppdatera</translation>
     </message>
     <message>
         <location filename="../main_window.cpp" line="910"/>
@@ -9416,7 +9417,7 @@ Version %0</source>
         <location filename="../main_window.cpp" line="1301"/>
         <location filename="../main_window.cpp" line="1308"/>
         <source>Warning!</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning!</translation>
     </message>
     <message>
         <location filename="../main_window.cpp" line="1296"/>
@@ -10237,17 +10238,17 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <location filename="../msg_dialog_frame.cpp" line="66"/>
         <source>&amp;Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ja</translation>
     </message>
     <message>
         <location filename="../msg_dialog_frame.cpp" line="67"/>
         <source>&amp;No</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nej</translation>
     </message>
     <message>
         <location filename="../msg_dialog_frame.cpp" line="101"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ok</translation>
     </message>
 </context>
 <context>
@@ -10373,7 +10374,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <location filename="../pad_motion_settings_dialog.cpp" line="47"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../pad_motion_settings_dialog.h" line="66"/>
@@ -11908,7 +11909,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="../raw_mouse_settings_dialog.cpp" line="149"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../raw_mouse_settings_dialog.cpp" line="218"/>
@@ -12244,7 +12245,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     <message>
         <location filename="../rpcn_settings_dialog.cpp" line="663"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../rpcn_settings_dialog.cpp" line="688"/>
@@ -14816,7 +14817,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="../settings_dialog.cpp" line="844"/>
         <source>Disabled</source>
         <comment>MSAA</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../settings_dialog.cpp" line="853"/>
@@ -15104,7 +15105,7 @@ Preview:
         <location filename="../settings_dialog.cpp" line="2488"/>
         <source>Disabled</source>
         <comment>Accurate PPU 128 Reservations</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <location filename="../settings_dialog.cpp" line="2564"/>
@@ -15349,7 +15350,7 @@ Preview:
     <message>
         <location filename="../skylander_dialog.cpp" line="714"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm</translation>
     </message>
     <message>
         <location filename="../skylander_dialog.cpp" line="715"/>
