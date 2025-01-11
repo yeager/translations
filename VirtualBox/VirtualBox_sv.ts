@@ -5059,31 +5059,31 @@
     </message>
     <message>
         <source>When checked, disks attached to this virtual machine will be encrypted.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer diskar anslutna till denna virtuella maskin att krypteras.</translation>
     </message>
     <message>
         <source>Disk Encryption C&amp;ipher:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Chiffer för diskkryptering:</translation>
     </message>
     <message>
         <source>Holds the cipher to be used for encrypting the virtual machine disks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller chiffret som används för kryptering av virtuella maskindiskar.</translation>
     </message>
     <message>
         <source>E&amp;nter New Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;nge nytt lösenord:</translation>
     </message>
     <message>
         <source>Holds the encryption password for disks attached to this virtual machine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller lösenordet för kryptering för diskar anslutna till denna virtuella maskin.</translation>
     </message>
     <message>
         <source>C&amp;onfirm New Password:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bekräfta nytt lösenord:</translation>
     </message>
     <message>
         <source>Confirms the disk encryption password.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräftar lösenordet för diskkryptering.</translation>
     </message>
     <message>
         <source>Leave Unchanged</source>
@@ -6846,19 +6846,19 @@
     </message>
     <message>
         <source>You are trying to enable disk encryption for this virtual machine. However, this requires the &lt;i&gt;%1&lt;/i&gt; to be installed. Please install the Extension Pack from the VirtualBox download site.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du försöker att aktivera diskkryptering för denna virtuella maskin. Dock kräver detta att &lt;i&gt;%1&lt;/i&gt; installeras. Installera utökningspaketet från VirtualBox hämtningssida.</translation>
     </message>
     <message>
         <source>Disk encryption cipher type not specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Chiffer  för diskkryptering inte angivet.</translation>
     </message>
     <message>
         <source>Disk encryption password empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lösenordet för diskkryptering är tomt.</translation>
     </message>
     <message>
         <source>Disk encryption passwords do not match.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lösenorden för diskkryptering stämmer inte överens.</translation>
     </message>
 </context>
 <context>
@@ -8256,11 +8256,11 @@
     <message>
         <source>&lt;p&gt;You must specify a machine to start, using the command line.&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;</source>
         <comment>There will be a usage text passed as argument.</comment>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du måste ange en maskin att starta med kommandoraden.&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;tr&gt;&lt;td&gt;Usage: VirtualBoxVM --startvm &amp;lt;name|UUID&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Starts the VirtualBox virtual machine with the given name or unique identifier (UUID).&lt;/td&gt;&lt;/tr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;tr&gt;&lt;td&gt;Användning: VirtualBoxVM --startvm &amp;lt;namn|UUID&amp;gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Startar virtuell VirtualBox-maskin med angivet namn eller unik identifierare (UUID).&lt;/td&gt;&lt;/tr&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Failed to create the VirtualBoxClient COM object.&lt;/p&gt;&lt;p&gt;The application will now terminate.&lt;/p&gt;</source>
@@ -8284,7 +8284,7 @@
     </message>
     <message>
         <source>Encryption password for &lt;nobr&gt;ID = &apos;%1&apos;&lt;/nobr&gt; is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Krypteringslösenordet för &lt;nobr&gt;ID = &apos;%1&apos;&lt;/nobr&gt; är ogiltigt.</translation>
     </message>
     <message>
         <source>&lt;p&gt;One or more disk image files are not currently accessible. As a result, you will not be able to operate virtual machines that use these files until they become accessible later.&lt;/p&gt;&lt;p&gt;Press &lt;b&gt;Check&lt;/b&gt; to open the Virtual Media Manager window and see which files are inaccessible, or press &lt;b&gt;Ignore&lt;/b&gt; to ignore this message.&lt;/p&gt;</source>
@@ -8312,7 +8312,7 @@
     </message>
     <message>
         <source>Failed to save the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att spara inställningarna.</translation>
     </message>
     <message>
         <source>&lt;p&gt;Are you sure you want to delete the optical drive?&lt;/p&gt;&lt;p&gt;You will not be able to insert any optical disks or ISO images or install the Guest Additions without it!&lt;/p&gt;</source>
@@ -8376,7 +8376,7 @@
     </message>
     <message>
         <source>Failed to acquire host network interface parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för värdnätverksgränssnitt.</translation>
     </message>
     <message>
         <source>Failed to create a DHCP server for the network interface &lt;b&gt;%1&lt;/b&gt;.</source>
@@ -8388,35 +8388,35 @@
     </message>
     <message>
         <source>Failed to acquire DHCP server parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få DHCP-serverparameter.</translation>
     </message>
     <message>
         <source>Failed to acquire cloud provider manager parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för molnleverantörshanterare.</translation>
     </message>
     <message>
         <source>Failed to acquire cloud provider parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få molnleverantörsparameter.</translation>
     </message>
     <message>
         <source>Failed to create cloud profile.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa molnprofil.</translation>
     </message>
     <message>
         <source>Failed to save cloud profiles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att spara molnprofiler.</translation>
     </message>
     <message>
         <source>Failed to import cloud profiles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att importera molnprofiler.</translation>
     </message>
     <message>
         <source>Failed to acquire cloud profile parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få molnprofilparameter.</translation>
     </message>
     <message>
         <source>Failed to create cloud client.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa molnklient.</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to remove the cloud profile &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;?&lt;/nobr&gt;&lt;/p&gt;</source>
@@ -8472,11 +8472,11 @@
     </message>
     <message>
         <source>Drag and drop operation from host to guest failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra och släpp-åtgärd från värd till gäst misslyckades.</translation>
     </message>
     <message>
         <source>Drag and drop operation from guest to host failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra och släpp-åtgärd från gäst till värd misslyckades.</translation>
     </message>
     <message>
         <source>Failed to enable recording for the virtual machine &lt;b&gt;%1&lt;/b&gt;.</source>
@@ -8516,7 +8516,7 @@
     </message>
     <message>
         <source>Failed to acquire machine parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få maskinparameter.</translation>
     </message>
     <message>
         <source>&lt;p&gt;This controller has optical devices attached.  You have requested storage bus change to type which doesn&apos;t support optical devices.&lt;/p&gt;&lt;p&gt;If you proceed optical devices will be removed.&lt;/p&gt;</source>
@@ -8541,7 +8541,7 @@
     <message>
         <source>Terminate</source>
         <comment>cloud instance</comment>
-        <translation type="unfinished"></translation>
+        <translation>Stäng ner</translation>
     </message>
     <message>
         <source>&lt;p&gt;You are about to remove following cloud virtual machines from the machine list:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Would you like to delete the instances and boot volumes of these machines as well?&lt;/p&gt;</source>
@@ -8623,7 +8623,7 @@
     </message>
     <message>
         <source>Experimental build warning!</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning för experimentell byggnation!</translation>
     </message>
     <message>
         <source>Invalid Password ...</source>
@@ -8679,7 +8679,7 @@
     </message>
     <message>
         <source>Failed to acquire cloud machine settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få molnmaskinsinställningar.</translation>
     </message>
     <message>
         <source>Can&apos;t create medium ...</source>
@@ -8811,7 +8811,7 @@
     </message>
     <message>
         <source>Name already busy ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnet är upptaget ...</translation>
     </message>
     <message>
         <source>The name &lt;b&gt;%1&lt;/b&gt; is being used for several networks.</source>
@@ -8863,7 +8863,7 @@
     </message>
     <message>
         <source>Failed to acquire VirtualBox parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få VirtualBox-parameter.</translation>
     </message>
     <message>
         <source>Appliance failure ...</source>
@@ -8871,43 +8871,43 @@
     </message>
     <message>
         <source>Failed to acquire appliance parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få applianceparameter.</translation>
     </message>
     <message>
         <source>Host failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Värdfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire host parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få värdparameter.</translation>
     </message>
     <message>
         <source>Medium failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mediafel ...</translation>
     </message>
     <message>
         <source>Failed to acquire medium parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få mediaparameter.</translation>
     </message>
     <message>
         <source>Session failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sessionsfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire session parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få sessionsparameter.</translation>
     </message>
     <message>
         <source>Machine failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Maskinfel ...</translation>
     </message>
     <message>
         <source>Snapshot failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ögonblicksbildsfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire snapshot parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för ögonblicksbild.</translation>
     </message>
     <message>
         <source>DHCP server failure ...</source>
@@ -8915,7 +8915,7 @@
     </message>
     <message>
         <source>Failed to acquire cloud network parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få molnnätverksparameter.</translation>
     </message>
     <message>
         <source>Host network interface failure ...</source>
@@ -8927,15 +8927,15 @@
     </message>
     <message>
         <source>Failed to acquire host only network parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för endast-värd-nätverk.</translation>
     </message>
     <message>
         <source>NAT network failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>NAT-nätverksfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire NAT network parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få NAT-nätverksparameter.</translation>
     </message>
     <message>
         <source>Display failure ...</source>
@@ -8943,7 +8943,7 @@
     </message>
     <message>
         <source>Failed to acquire display parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få skärmparameter.</translation>
     </message>
     <message>
         <source>Update failure ...</source>
@@ -8951,11 +8951,11 @@
     </message>
     <message>
         <source>Failed to acquire update agent parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för uppdateringsagent.</translation>
     </message>
     <message>
         <source>VSD failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>VSD-fel ...</translation>
     </message>
     <message>
         <source>VSD form failure ...</source>
@@ -8967,7 +8967,7 @@
     </message>
     <message>
         <source>Failed to acquire cloud machine parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få molnmaskinsparameter.</translation>
     </message>
     <message>
         <source>Failed to change the parameter of the medium &lt;b&gt;%1&lt;/b&gt;.</source>
@@ -8979,11 +8979,11 @@
     </message>
     <message>
         <source>Graphics adapter failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Grafikkortsfel ...</translation>
     </message>
     <message>
         <source>Failed to change graphics adapter parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för grafikkort.</translation>
     </message>
     <message>
         <source>Audio adapter failure ...</source>
@@ -8991,7 +8991,7 @@
     </message>
     <message>
         <source>Failed to change audio adapter parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för ljudkort.</translation>
     </message>
     <message>
         <source>Network adapter failure ...</source>
@@ -8999,27 +8999,27 @@
     </message>
     <message>
         <source>Failed to change network adapter parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för nätverkskort.</translation>
     </message>
     <message>
         <source>Failed to change DHCP server parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för DHCP-server.</translation>
     </message>
     <message>
         <source>Failed to change cloud network parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för molnnätverk.</translation>
     </message>
     <message>
         <source>Failed to change host network interface parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för värdnätverksgränssnitt.</translation>
     </message>
     <message>
         <source>Failed to change host only network parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för endast-värd-nätverk.</translation>
     </message>
     <message>
         <source>Failed to change NAT network parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för NAT-nätverk.</translation>
     </message>
     <message>
         <source>Can&apos;t enumerate USB devices ...</source>
@@ -9027,7 +9027,7 @@
     </message>
     <message>
         <source>Failed to enumerate host USB devices.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att räkna upp värd-USB-enheter.</translation>
     </message>
     <message>
         <source>Can&apos;t open medium ...</source>
@@ -9063,7 +9063,7 @@
     </message>
     <message>
         <source>Failed to create machine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa maskin.</translation>
     </message>
     <message>
         <source>Can&apos;t find machine ...</source>
@@ -9083,7 +9083,7 @@
     </message>
     <message>
         <source>Failed to acquire Extension Pack Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få utökningspakethanterare.</translation>
     </message>
     <message>
         <source>Can&apos;t create VFS explorer ...</source>
@@ -9151,7 +9151,7 @@
     </message>
     <message>
         <source>Failed to create a cloud network.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa ett molnnätverk.</translation>
     </message>
     <message>
         <source>Can&apos;t remove cloud network ...</source>
@@ -9167,7 +9167,7 @@
     </message>
     <message>
         <source>Failed to create a host only network.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa ett endast-värd-nätverk.</translation>
     </message>
     <message>
         <source>Can&apos;t remove host only network ...</source>
@@ -9183,7 +9183,7 @@
     </message>
     <message>
         <source>Failed to create a NAT network.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa ett NAT-nätverk.</translation>
     </message>
     <message>
         <source>Can&apos;t remove NAT network ...</source>
@@ -9203,7 +9203,7 @@
     </message>
     <message>
         <source>Failed to remove cloud profile.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ta bort molnprofil.</translation>
     </message>
     <message>
         <source>Can&apos;t save cloud profiles ...</source>
@@ -9219,7 +9219,7 @@
     </message>
     <message>
         <source>Failed to refresh cloud machine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att uppdatera molnmaskin.</translation>
     </message>
     <message>
         <source>Can&apos;t create cloud client ...</source>
@@ -9308,12 +9308,12 @@
     <message>
         <source>&lt;nobr&gt;Error ID:&lt;/nobr&gt;</source>
         <comment>runtime error info</comment>
-        <translation type="unfinished"></translation>
+        <translation>&lt;nobr&gt;Fel-ID:&lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Severity:</source>
         <comment>runtime error info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Allvarlighet:</translation>
     </message>
     <message>
         <source>Unable to validate guest additions image ...</source>
@@ -9325,7 +9325,7 @@
     </message>
     <message>
         <source>Guest additions inactive ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gästtillägg inaktiva ...</translation>
     </message>
     <message>
         <source>Extension Pack failure ...</source>
@@ -9333,15 +9333,15 @@
     </message>
     <message>
         <source>Failed to acquire Extension Pack Manager parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för utökningspakethanterare.</translation>
     </message>
     <message>
         <source>Failed to acquire Extension Pack parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få utökningspaketparameter.</translation>
     </message>
     <message>
         <source>Failed to acquire VSD parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få VSD-parametern.</translation>
     </message>
     <message>
         <source>Failed to acquire VSD form parameter.</source>
@@ -9353,7 +9353,7 @@
     </message>
     <message>
         <source>Failed to create VSD.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa VSD.</translation>
     </message>
     <message>
         <source>Can&apos;t open extension pack ...</source>
@@ -9429,11 +9429,11 @@
     </message>
     <message>
         <source>Platform failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Plattformsfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire platform parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få plattformsparameter.</translation>
     </message>
     <message>
         <source>Platform properties failure ...</source>
@@ -9441,7 +9441,7 @@
     </message>
     <message>
         <source>Failed to acquire platform properties parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för plattformsegenskaper.</translation>
     </message>
     <message>
         <source>System properties failure ...</source>
@@ -9449,7 +9449,7 @@
     </message>
     <message>
         <source>Failed to acquire system properties parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för systemegenskaper.</translation>
     </message>
     <message>
         <source>Storage controller failure ...</source>
@@ -9457,15 +9457,15 @@
     </message>
     <message>
         <source>Failed to acquire storage controller parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för lagringskontroller.</translation>
     </message>
     <message>
         <source>Medium attachment failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Mediaanslutningsfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire medium attachment parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för mediaanslutningar.</translation>
     </message>
     <message>
         <source>Debugger failure ...</source>
@@ -9473,11 +9473,11 @@
     </message>
     <message>
         <source>Failed to acquire machine debugger parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få maskinfelsökningsparameter.</translation>
     </message>
     <message>
         <source>Failed to acquire graphics adapter parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för grafikkort.</translation>
     </message>
     <message>
         <source>Audio settings failure ...</source>
@@ -9485,15 +9485,15 @@
     </message>
     <message>
         <source>Failed to acquire audio settings parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få ljudinställningsparameter.</translation>
     </message>
     <message>
         <source>Failed to acquire audio adapter parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få ljudkortsparameter.</translation>
     </message>
     <message>
         <source>Failed to acquire network adapter parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få nätverkskortsparameter.</translation>
     </message>
     <message>
         <source>Console failure ...</source>
@@ -9501,31 +9501,31 @@
     </message>
     <message>
         <source>Failed to acquire console parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få konsollparameter.</translation>
     </message>
     <message>
         <source>Guest failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gästfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire guest parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få gästparameter.</translation>
     </message>
     <message>
         <source>Guest OS type failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel i gästoperativsystemstyp ...</translation>
     </message>
     <message>
         <source>Failed to acquire guest OS type parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för gästoperativsystemstyp.</translation>
     </message>
     <message>
         <source>Mouse failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Musfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire mouse parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få musparameter.</translation>
     </message>
     <message>
         <source>Emulated USB failure ...</source>
@@ -9533,7 +9533,7 @@
     </message>
     <message>
         <source>Failed to acquire emulated USB parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få emulerad USB-parameter.</translation>
     </message>
     <message>
         <source>Recording settings failure ...</source>
@@ -9541,15 +9541,15 @@
     </message>
     <message>
         <source>Failed to acquire recording settings parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för inspelningsinställningar.</translation>
     </message>
     <message>
         <source>VRDE server failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>VRDE-serverfel ...</translation>
     </message>
     <message>
         <source>Failed to acquire VRDE server parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för VRDE-server.</translation>
     </message>
     <message>
         <source>VRDE server info failure ...</source>
@@ -9557,15 +9557,15 @@
     </message>
     <message>
         <source>Failed to acquire VRDE server info parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att få parameter för VRDE-serverinformation.</translation>
     </message>
     <message>
         <source>Failed to change display parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra skärmparametern.</translation>
     </message>
     <message>
         <source>Keyboard failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangentbordsfel ...</translation>
     </message>
     <message>
         <source>Can&apos;t reset machine ...</source>
@@ -9614,11 +9614,11 @@
     </message>
     <message>
         <source>Failed to change machine debugger parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för maskinfelsökning.</translation>
     </message>
     <message>
         <source>Failed to change cloud profile parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra parametern för molnprofil.</translation>
     </message>
     <message>
         <source>Failed to change update agent parameter.</source>
@@ -9626,15 +9626,15 @@
     </message>
     <message>
         <source>Failed to change keyboard parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra tangentbordsparametern.</translation>
     </message>
     <message>
         <source>Failed to change mouse parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra musparametern.</translation>
     </message>
     <message>
         <source>Failed to change VSD parameter.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra VSD-parametern.</translation>
     </message>
 </context>
 <context>
@@ -11010,7 +11010,7 @@
     </message>
     <message>
         <source>Holds the recording mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller inspelningsläget.</translation>
     </message>
     <message>
         <source>File &amp;Path:</source>
@@ -11564,7 +11564,7 @@
     <name>UISnapshotPane</name>
     <message>
         <source>Contains the snapshot tree of the current virtual machine</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller ögonblicksbildträdet för aktuella virtuella maskinen</translation>
     </message>
     <message>
         <source>Name</source>
@@ -11574,7 +11574,7 @@
     <message>
         <source>Taken</source>
         <comment>snapshot</comment>
-        <translation type="unfinished"></translation>
+        <translation>Sparad</translation>
     </message>
     <message>
         <source>Snapshot %1</source>
