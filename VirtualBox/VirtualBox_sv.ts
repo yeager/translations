@@ -3000,11 +3000,11 @@
     <name>UICloudProfileManager</name>
     <message>
         <source>Cloud Profile Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera molnprofiler</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -3016,19 +3016,19 @@
     </message>
     <message>
         <source>Reset changes in current cloud profile details</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ ändringar i aktuella molnprofildetaljer</translation>
     </message>
     <message>
         <source>Apply changes in current cloud profile details</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa ändringar i aktuella molnprofilsdetaljer</translation>
     </message>
     <message>
         <source>Close dialog without saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng dialogen utan att spara</translation>
     </message>
     <message>
         <source>Reset Changes (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ ändringar (%1)</translation>
     </message>
     <message>
         <source>Apply Changes (%1)</source>
@@ -3064,19 +3064,19 @@
     </message>
     <message>
         <source>Contains cloud profile settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller inställningar för molnprofiler</translation>
     </message>
     <message>
         <source>Enter a name for the new profile...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange ett namn för nya profilen...</translation>
     </message>
     <message>
         <source>Enter a name for this profile...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange ett namn för denna profil...</translation>
     </message>
     <message>
         <source>Reset changes in current profile details</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ ändringar i aktuella profildetaljer</translation>
     </message>
     <message>
         <source>Add</source>
@@ -3084,7 +3084,7 @@
     </message>
     <message>
         <source>Add a new profile with following name</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till en ny profil med följande namn</translation>
     </message>
     <message>
         <source>Add Profile (%1)</source>
@@ -3092,7 +3092,7 @@
     </message>
     <message>
         <source>Apply changes in current profile details</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa ändringar i aktuella profildetaljer</translation>
     </message>
     <message>
         <source>Source</source>
@@ -3100,11 +3100,11 @@
     </message>
     <message>
         <source>List VMs</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista virtuella maskiner</translation>
     </message>
     <message>
         <source>Registered cloud providers and profiles</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrerade molnleverantörer och profiler</translation>
     </message>
 </context>
 <context>
