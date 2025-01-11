@@ -11,32 +11,32 @@
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="220"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avbryt</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="224"/>
         <source>Specify ID of System Call or Function Call below. You need to use a Hexadecimal ID.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange id för systemanrop eller funktionsanrop nedan. Du kommer behöva använda ett hexadecimalt id.</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="227"/>
         <source>Currently it gets an id of &quot;Unset&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>För närvarande får det ett id med &quot;Unset&quot;.</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="285"/>
         <source>Current value: %1 (%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuellt värde: %1 (%2)</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="285"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="285"/>
         <source>Conversion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertering misslyckades</translation>
     </message>
 </context>
 <context>
@@ -49,7 +49,7 @@
     <message>
         <location filename="../rsx_debugger.cpp" line="388"/>
         <source>Save Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara bild</translation>
     </message>
 </context>
 <context>
@@ -2006,7 +2006,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="32"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../auto_pause_settings_dialog.cpp" line="49"/>
@@ -2147,7 +2147,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <location filename="../camera_settings_dialog.ui" line="38"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../camera_settings_dialog.ui" line="44"/>
@@ -2379,7 +2379,7 @@ Applies on all breakpoints in all threads regardless if set before or after chan
         <location filename="../debugger_frame.cpp" line="1243"/>
         <location filename="../debugger_frame.cpp" line="1434"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../debugger_frame.cpp" line="325"/>
@@ -2439,7 +2439,7 @@ Double-click: Set breakpoints.</source>
         <location filename="../debugger_frame.cpp" line="1244"/>
         <location filename="../debugger_frame.cpp" line="1435"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../debugger_frame.cpp" line="1246"/>
@@ -2485,7 +2485,7 @@ Double-click: Set breakpoints.</source>
     <message>
         <location filename="../dimensions_dialog.cpp" line="632"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa</translation>
     </message>
     <message>
         <location filename="../dimensions_dialog.cpp" line="633"/>
@@ -3759,7 +3759,7 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1356"/>
         <source>Swedish</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Svenska</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1357"/>
@@ -4197,12 +4197,12 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../infinity_dialog.cpp" line="479"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa</translation>
     </message>
     <message>
         <location filename="../infinity_dialog.cpp" line="480"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../infinity_dialog.cpp" line="507"/>
@@ -4247,12 +4247,12 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../find_dialog.cpp" line="7"/>
         <source>Find string</source>
-        <translation type="unfinished"></translation>
+        <translation>Söksträng</translation>
     </message>
     <message>
         <location filename="../find_dialog.cpp" line="10"/>
         <source>Search...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök...</translation>
     </message>
     <message>
         <location filename="../find_dialog.cpp" line="12"/>
@@ -4267,22 +4267,22 @@ This can be useful if your device does not have enough regular buttons.</source>
     <message>
         <location filename="../find_dialog.cpp" line="15"/>
         <source>First</source>
-        <translation type="unfinished"></translation>
+        <translation>Första</translation>
     </message>
     <message>
         <location filename="../find_dialog.cpp" line="16"/>
         <source>Last</source>
-        <translation type="unfinished"></translation>
+        <translation>Sista</translation>
     </message>
     <message>
         <location filename="../find_dialog.cpp" line="17"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa</translation>
     </message>
     <message>
         <location filename="../find_dialog.cpp" line="18"/>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående</translation>
     </message>
     <message>
         <location filename="../find_dialog.cpp" line="115"/>
@@ -4454,7 +4454,7 @@ Make sure you are connected to the internet.</source>
     <message>
         <location filename="../game_list_frame.cpp" line="119"/>
         <source>Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg</translation>
     </message>
     <message>
         <location filename="../game_list_frame.cpp" line="119"/>
@@ -4560,7 +4560,7 @@ Make sure you are connected to the internet.</source>
         <location filename="../game_list_frame.cpp" line="2585"/>
         <location filename="../game_list_frame.cpp" line="2624"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../game_list_frame.cpp" line="212"/>
@@ -5215,7 +5215,7 @@ Your configuration will revert to the global pad settings.</source>
         <location filename="../game_list_frame.cpp" line="2340"/>
         <location filename="../game_list_frame.cpp" line="2373"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../game_list_frame.cpp" line="2405"/>
@@ -5503,12 +5503,12 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
     <message>
         <location filename="../gui_settings.cpp" line="165"/>
         <source>Don&apos;t show again</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa inte igen</translation>
     </message>
     <message>
         <location filename="../gui_settings.cpp" line="218"/>
         <source>Close Running Game?</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng körande spel?</translation>
     </message>
     <message>
         <location filename="../gui_settings.cpp" line="219"/>
@@ -5523,7 +5523,7 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
     <message>
         <location filename="../gui_settings.cpp" line="227"/>
         <source>Exit RPCS3?</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta RPCS3?</translation>
     </message>
     <message>
         <location filename="../gui_settings.cpp" line="228"/>
@@ -5605,12 +5605,12 @@ Some thread has probably deadlocked. Aborting.</source>
     <message>
         <location filename="../infinity_dialog.cpp" line="730"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa</translation>
     </message>
     <message>
         <location filename="../infinity_dialog.cpp" line="731"/>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <location filename="../infinity_dialog.cpp" line="744"/>
@@ -5667,12 +5667,12 @@ File was too small.</source>
     <message>
         <location filename="../instruction_editor_dialog.cpp" line="40"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../instruction_editor_dialog.cpp" line="41"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../instruction_editor_dialog.cpp" line="55"/>
@@ -6220,7 +6220,7 @@ File was too small.</source>
         <location filename="../localized_emu.h" line="50"/>
         <source>OK</source>
         <comment>Message Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../localized_emu.h" line="51"/>
@@ -7310,7 +7310,7 @@ Subject:</source>
     <message>
         <location filename="../localized_emu.h" line="222"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../localized_emu.h" line="223"/>
@@ -8303,7 +8303,7 @@ Subject:</source>
     <message>
         <location filename="../main_window.ui" line="386"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Språk</translation>
     </message>
     <message>
         <location filename="../main_window.ui" line="419"/>
@@ -9382,7 +9382,7 @@ Version %0</source>
         <location filename="../main_window.cpp" line="1415"/>
         <location filename="../main_window.cpp" line="1649"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../main_window.cpp" line="1099"/>
@@ -10137,7 +10137,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="../midi_creator.cpp" line="19"/>
         <source>None</source>
         <comment>MIDI device</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
 </context>
 <context>
@@ -10160,12 +10160,12 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <location filename="../dimensions_dialog.cpp" line="431"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa</translation>
     </message>
     <message>
         <location filename="../dimensions_dialog.cpp" line="432"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../dimensions_dialog.cpp" line="455"/>
@@ -10363,12 +10363,12 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <location filename="../pad_motion_settings_dialog.ui" line="247"/>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../pad_motion_settings_dialog.ui" line="254"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../pad_motion_settings_dialog.cpp" line="47"/>
@@ -11719,7 +11719,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="../ps_move_tracker_dialog.ui" line="100"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../ps_move_tracker_dialog.ui" line="106"/>
@@ -11946,7 +11946,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="../recvmessage_dialog_frame.cpp" line="55"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../recvmessage_dialog_frame.cpp" line="72"/>
@@ -12007,7 +12007,7 @@ Selecting ignore starts the emulator without Vulkan support.</source>
     <message>
         <location filename="../render_creator.cpp" line="111"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning</translation>
     </message>
     <message>
         <location filename="../render_creator.cpp" line="112"/>
@@ -12873,12 +12873,12 @@ Note that the reset password token is different from the email verification toke
     <message>
         <location filename="../rpcn_settings_dialog.cpp" line="95"/>
         <source>Account</source>
-        <translation type="unfinished"></translation>
+        <translation>Konto</translation>
     </message>
     <message>
         <location filename="../rpcn_settings_dialog.cpp" line="96"/>
         <source>Friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänner</translation>
     </message>
     <message>
         <location filename="../rpcn_settings_dialog.cpp" line="109"/>
@@ -13193,7 +13193,7 @@ Note that the reset password token is different from the email verification toke
     <message>
         <location filename="../save_manager_dialog.cpp" line="241"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../save_manager_dialog.cpp" line="511"/>
@@ -13299,12 +13299,12 @@ Note that the reset password token is different from the email verification toke
     <message>
         <location filename="../sendmessage_dialog_frame.cpp" line="51"/>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../sendmessage_dialog_frame.cpp" line="52"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../sendmessage_dialog_frame.cpp" line="70"/>
@@ -13322,7 +13322,7 @@ Note that the reset password token is different from the email verification toke
     <message>
         <location filename="../settings_dialog.ui" line="23"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../settings_dialog.ui" line="61"/>
@@ -14670,7 +14670,7 @@ Note that the reset password token is different from the email verification toke
         <location filename="../settings_dialog.cpp" line="148"/>
         <source>Settings</source>
         <comment>Settings dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../settings_dialog.cpp" line="282"/>
@@ -15140,7 +15140,7 @@ Preview:
     <message>
         <location filename="../shortcut_dialog.ui" line="14"/>
         <source>Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Genvägar</translation>
     </message>
     <message>
         <location filename="../shortcut_dialog.ui" line="22"/>
@@ -15284,12 +15284,12 @@ Preview:
     <message>
         <location filename="../skylander_dialog.cpp" line="583"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa</translation>
     </message>
     <message>
         <location filename="../skylander_dialog.cpp" line="584"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../skylander_dialog.cpp" line="611"/>
@@ -15354,7 +15354,7 @@ Preview:
     <message>
         <location filename="../skylander_dialog.cpp" line="715"/>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa</translation>
     </message>
     <message>
         <location filename="../skylander_dialog.cpp" line="716"/>
@@ -15766,7 +15766,7 @@ Please contact a developer.</source>
     <message>
         <location filename="../trophy_manager_dialog.cpp" line="1020"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <location filename="../trophy_manager_dialog.cpp" line="1079"/>
@@ -16176,7 +16176,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="../vfs_dialog_usb_tab.cpp" line="150"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>R&amp;edigera</translation>
     </message>
 </context>
 <context>
@@ -16189,7 +16189,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="../vfs_tool_dialog.ui" line="20"/>
         <source>Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg</translation>
     </message>
     <message>
         <location filename="../vfs_tool_dialog.ui" line="36"/>
@@ -16202,52 +16202,52 @@ Stop the emulator now?</source>
     <message>
         <location filename="../welcome_dialog.ui" line="20"/>
         <source>Welcome to RPCS3</source>
-        <translation type="unfinished"></translation>
+        <translation>Välkommen till RPCS3</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="98"/>
         <source>RPCS3 PlayStation 3 Emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3 PlayStation 3-emulator</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="180"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 does not condone piracy. You must dump your own games.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;span style=&quot; font-weight:600; color:#ff0000;&quot;&gt;RPCS3 tolererar inte piratkopiering. Du måste dumpa dina egna spel.&lt;/span&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="190"/>
         <source>Create desktop shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa skrivbordsgenväg</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="197"/>
         <source>Create Start Menu shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa genväg på startmenyn</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="204"/>
         <source>Use Dark Theme (can be configured later)</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd mörkt tema (kan konfigureras senare)</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="238"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="248"/>
         <source>Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="271"/>
         <source>I have read the Quickstart guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Jag har läst snabbstartsguiden</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.ui" line="291"/>
         <source>Show at startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa vid uppstart</translation>
     </message>
     <message>
         <location filename="../welcome_dialog.cpp" line="27"/>
@@ -16281,7 +16281,7 @@ Stop the emulator now?</source>
     <message>
         <location filename="../welcome_dialog.cpp" line="55"/>
         <source>&amp;Create Application Menu shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skapa genväg på programmenyn</translation>
     </message>
 </context>
 </TS>
