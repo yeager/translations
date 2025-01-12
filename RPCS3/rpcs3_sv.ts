@@ -36,7 +36,7 @@
     <name>Buffer</name>
     <message>
         <source>Save Image At</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara bild i</translation>
     </message>
     <message>
         <source>Save Image</source>
@@ -1775,7 +1775,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
     <message>
         <source>Invalid Memory For Breakpoints!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt minne för brytpunkter!</translation>
     </message>
     <message>
         <source>Cannot set breakpoints on non-SPU executable memory!</source>
@@ -1944,17 +1944,19 @@ It might be blocked by another application.</source>
     <name>config_checker</name>
     <message>
         <source>Interesting!</source>
-        <translation type="unfinished"></translation>
+        <translation>Intressant!</translation>
     </message>
     <message>
         <source>Found config.
 It seems to match the default config.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hittade konfiguration.
+Den verkar matcha standardkonfigurationen.</translation>
     </message>
     <message>
         <source>Found config.
 Some settings seem to deviate from the default config:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hittade konfiguration.
+Några inställningar verkar skilja sig från standardkonfigurationen:</translation>
     </message>
     <message>
         <source>Ooops!</source>
@@ -1962,7 +1964,7 @@ Some settings seem to deviate from the default config:</source>
     </message>
     <message>
         <source>Cannot find any config!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte hitta någon konfiguration!</translation>
     </message>
 </context>
 <context>
@@ -2167,31 +2169,31 @@ File was too small.</source>
     </message>
     <message>
         <source>Add new segment</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till nytt segment</translation>
     </message>
     <message>
         <source>Remove segment</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort segment</translation>
     </message>
     <message>
         <source>Save To ELF</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara till ELF</translation>
     </message>
     <message>
         <source>Save To An ELF file</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara till en ELF-fil</translation>
     </message>
     <message>
         <source>Segment Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Segmentstorlek:</translation>
     </message>
     <message>
         <source>PPU Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>PPU-adress:</translation>
     </message>
     <message>
         <source>LS Address:</source>
-        <translation type="unfinished"></translation>
+        <translation>LS-adress:</translation>
     </message>
     <message>
         <source>Flags:</source>
@@ -2199,19 +2201,19 @@ File was too small.</source>
     </message>
     <message>
         <source>Segment Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Segmentstorlek</translation>
     </message>
     <message>
         <source>PPU Address</source>
-        <translation type="unfinished"></translation>
+        <translation>PPU-adress</translation>
     </message>
     <message>
         <source>LS Address</source>
-        <translation type="unfinished"></translation>
+        <translation>LS-adress</translation>
     </message>
     <message>
         <source>Segment Flags</source>
-        <translation type="unfinished"></translation>
+        <translation>Segmentflaggor</translation>
     </message>
     <message>
         <source>Failed To Add Segment</source>
@@ -2245,7 +2247,7 @@ File was too small.</source>
     </message>
     <message>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Fånga</translation>
     </message>
     <message>
         <source>Save Failure</source>
@@ -2253,31 +2255,36 @@ File was too small.</source>
     </message>
     <message>
         <source>Failed to save SPU ELF.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att spara SPU ELF.</translation>
     </message>
 </context>
 <context>
     <name>emu_settings</name>
     <message>
         <source>Config Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurationsfel</translation>
     </message>
     <message>
         <source>Failed to load default config:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa in standardkonfiguration:
+%0</translation>
     </message>
     <message>
         <source>Failed to load global config:
 File: %0
 Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa in global konfiguration:
+Fil: %0
+Fel: %1</translation>
     </message>
     <message>
         <source>Failed to load custom config:
 File: %0
 Error: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa in anpassad konfiguration:
+Fil: %0
+Fel: %1</translation>
     </message>
     <message>
         <source>Fix invalid settings?</source>
@@ -2310,12 +2317,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>RPCS3 Scheduler</source>
         <comment>Thread Scheduler Mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3-schemaläggare</translation>
     </message>
     <message>
         <source>RPCS3 Alternative Scheduler</source>
         <comment>Thread Scheduler Mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3 alternativ schemaläggare</translation>
     </message>
     <message>
         <source>Operating System</source>
@@ -2470,7 +2477,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Infinite</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>Obegränsat</translation>
     </message>
     <message>
         <source>Disabled</source>
@@ -2585,7 +2592,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Raw</source>
         <comment>Mouse handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rå</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -2695,17 +2702,17 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Null (use real Buzzers)</source>
         <comment>Buzz handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null (använd riktiga Buzzers)</translation>
     </message>
     <message>
         <source>1 controller (1-4 players)</source>
         <comment>Buzz handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>1 kontroller (1-4 spelare)</translation>
     </message>
     <message>
         <source>2 controllers (5-7 players)</source>
         <comment>Buzz handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>2 kontroller (5-7 spelare)</translation>
     </message>
     <message>
         <source>Null</source>
@@ -2715,12 +2722,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>1 controller</source>
         <comment>Turntable handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>1 kontroller</translation>
     </message>
     <message>
         <source>2 controllers</source>
         <comment>Turntable handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>2 kontroller</translation>
     </message>
     <message>
         <source>Null</source>
@@ -2730,12 +2737,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>1 controller</source>
         <comment>GHLtar handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>1 kontroller</translation>
     </message>
     <message>
         <source>2 controllers</source>
         <comment>GHLtar handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>2 kontroller</translation>
     </message>
     <message>
         <source>Disconnected</source>
@@ -2755,7 +2762,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Simulated</source>
         <comment>PSN Status</comment>
-        <translation type="unfinished"></translation>
+        <translation>Simulerad</translation>
     </message>
     <message>
         <source>RPCN</source>
@@ -2830,7 +2837,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Show Min And Max</source>
         <comment>Perf Graph Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Visa min och max</translation>
     </message>
     <message>
         <source>Show 1% Low And Average</source>
@@ -2845,22 +2852,22 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Top Left</source>
         <comment>Performance overlay position</comment>
-        <translation type="unfinished"></translation>
+        <translation>Övre vänstra hörnet</translation>
     </message>
     <message>
         <source>Top Right</source>
         <comment>Performance overlay position</comment>
-        <translation type="unfinished"></translation>
+        <translation>Övre högra hörnet</translation>
     </message>
     <message>
         <source>Bottom Left</source>
         <comment>Performance overlay position</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nedre vänstra hörnet</translation>
     </message>
     <message>
         <source>Bottom Right</source>
         <comment>Performance overlay position</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nedre högra hörnet</translation>
     </message>
     <message>
         <source>Interpreter (static)</source>
@@ -2870,7 +2877,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Recompiler (LLVM)</source>
         <comment>PPU decoder</comment>
-        <translation type="unfinished"></translation>
+        <translation>Omkompilerare (LLVM)</translation>
     </message>
     <message>
         <source>Interpreter (static)</source>
@@ -2885,22 +2892,22 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Recompiler (ASMJIT)</source>
         <comment>SPU decoder</comment>
-        <translation type="unfinished"></translation>
+        <translation>Omkompilerare (ASMJIT)</translation>
     </message>
     <message>
         <source>Recompiler (LLVM)</source>
         <comment>SPU decoder</comment>
-        <translation type="unfinished"></translation>
+        <translation>Omkompilerare (LLVM)</translation>
     </message>
     <message>
         <source>Enter with circle</source>
         <comment>Enter button assignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enter med cirkel</translation>
     </message>
     <message>
         <source>Enter with cross</source>
         <comment>Enter button assignment</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enter med kryss</translation>
     </message>
     <message>
         <source>Stereo</source>
@@ -2930,27 +2937,27 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Linear PCM 2 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
-        <translation type="unfinished"></translation>
+        <translation>Linjär PCM 2 kanaler 48 kHz</translation>
     </message>
     <message>
         <source>Linear PCM 5.1 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
-        <translation type="unfinished"></translation>
+        <translation>Linjär PCM 5.1-kanaler 48 kHz</translation>
     </message>
     <message>
         <source>Linear PCM 7.1 Ch. 48 kHz</source>
         <comment>Audio format flag</comment>
-        <translation type="unfinished"></translation>
+        <translation>Linjär PCM 7.1-kanaler 48 kHz</translation>
     </message>
     <message>
         <source>Dolby Digital 5.1 Ch.</source>
         <comment>Audio format flag</comment>
-        <translation type="unfinished"></translation>
+        <translation>Dolby Digital 5.1-kanaler.</translation>
     </message>
     <message>
         <source>DTS 5.1 Ch.</source>
         <comment>Audio format flag</comment>
-        <translation type="unfinished"></translation>
+        <translation>.DTS 5.1-kanaler.</translation>
     </message>
     <message>
         <source>None</source>
@@ -3010,17 +3017,17 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Stereo LFE</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Stereo LFE</translation>
     </message>
     <message>
         <source>Quadraphonic</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kvadrofonisk</translation>
     </message>
     <message>
         <source>Quadraphonic LFE</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kvadrofonisk LFE</translation>
     </message>
     <message>
         <source>Surround 5.1</source>
@@ -3555,11 +3562,11 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Counted in lines: -</source>
-        <translation type="unfinished"></translation>
+        <translation>Räknat i rader: -</translation>
     </message>
     <message>
         <source>Counted in total: -</source>
-        <translation type="unfinished"></translation>
+        <translation>Räknat totalt: -</translation>
     </message>
     <message>
         <source>First</source>
@@ -3579,11 +3586,11 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Counted in lines: %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Räknat i rader: %0</translation>
     </message>
     <message>
         <source>Counted in total: %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Räknat totalt: %0</translation>
     </message>
 </context>
 <context>
@@ -6773,7 +6780,7 @@ Subject:</source>
     </message>
     <message>
         <source>Filter log</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrera logg</translation>
     </message>
     <message>
         <source>Enter text</source>
@@ -6801,7 +6808,7 @@ Subject:</source>
     </message>
     <message>
         <source>Cannot find any game boot!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte hitta någon speluppstart!</translation>
     </message>
 </context>
 <context>
@@ -7903,12 +7910,15 @@ Vänta...</translation>
         <source>Old firmware detected.
 The newest firmware version is %1 and you are trying to install version %2
 Continue installation?</source>
-        <translation type="unfinished"></translation>
+        <translation>Äldre firmware upptäcktes.
+Den senaste firmware-versionen är %1 och du försöker att installera version %2
+Fortsätta installationen?</translation>
     </message>
     <message>
         <source>Firmware of version %1 has already been installed.
 Overwrite current installation with version %2?</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware av version %1 har redan installerats.
+Skriv över aktuella installationen med version %2?</translation>
     </message>
     <message>
         <source>Installing firmware version %1
@@ -8219,7 +8229,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge</translation>
     </message>
     <message>
         <source>Tools</source>
@@ -8327,15 +8337,15 @@ Tip: SPU floats are commented along forming instructions.</source>
     <name>minifig_creator_dialog</name>
     <message>
         <source>Figure Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>Figurskapare</translation>
     </message>
     <message>
         <source>--Unknown--</source>
-        <translation type="unfinished"></translation>
+        <translation>--Okänd--</translation>
     </message>
     <message>
         <source>Figure Number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Figurnummer:</translation>
     </message>
     <message>
         <source>Create</source>
@@ -8347,28 +8357,29 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Error converting value</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid konvertering av värdet</translation>
     </message>
     <message>
         <source>Figure number entered is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Figurnumret som angavs är ogiltigt!</translation>
     </message>
     <message>
         <source>Create Figure File</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa figurfil</translation>
     </message>
     <message>
         <source>Dimensions Figure (*.bin);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensions-figur (*.bin);;</translation>
     </message>
     <message>
         <source>Failed to create minifig file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa minifig-fil!</translation>
     </message>
     <message>
         <source>Failed to create minifig file:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa minifig-fil:
+%1</translation>
     </message>
 </context>
 <context>
@@ -9817,7 +9828,7 @@ No graphics will be rendered.</source>
     </message>
     <message>
         <source>Del</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Account:</source>
@@ -9845,7 +9856,7 @@ No graphics will be rendered.</source>
     </message>
     <message>
         <source>You already have a server with this description &amp; hostname in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har redan en server med denna beskrivning och värdnamn i listan.</translation>
     </message>
     <message>
         <source>Please enter your username.
@@ -9855,7 +9866,13 @@ Note that these restrictions apply:
 - Username can only contain a-z A-Z 0-9 &apos;-&apos; &apos;_&apos;
 - Username is case sensitive
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Ange ditt användarnamn.
+
+Observera att dessa begränsningar gäller:
+- Användarnamn måste vara mellan 3 och 16 tecken
+- Användarnamn får endast innehålla a-z A-Z 0-9 &apos;-&apos; &apos;_&apos;
+- Användarnamn är skiftlägeskänsliga
+</translation>
     </message>
     <message>
         <source>Please choose your password:
@@ -9871,11 +9888,16 @@ Note that these restrictions apply:
 - Your email won&apos;t be used for anything beyond sending you this token or the password reset token.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>En e-postadress krävs. Observera följande:
+- En giltig e-postadress krävs för att ta emot ett token som validerar ditt konto.
+- Din e-postadress kommer inte användas för något förutom att skicka dig detta 
+   token eller token för lösenordsåterställning.
+
+</translation>
     </message>
     <message>
         <source>RPCN: Account Creation</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Skapa konto</translation>
     </message>
     <message>
         <source>You are about to create an account with:
@@ -9883,32 +9905,37 @@ Note that these restrictions apply:
 -Email:%1
 
 Is this correct?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du är på väg att skapa ett konto med:
+-Användarnamn:%0
+-E-postadress:%1
+
+Är detta korrekt?</translation>
     </message>
     <message>
         <source>Failed to connect to RPCN server:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ansluta till RPCN-server:
+%0</translation>
     </message>
     <message>
         <source>Error Connecting</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid anslutning</translation>
     </message>
     <message>
         <source>An account with that username already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett konto med det användarnamnet finns redan!</translation>
     </message>
     <message>
         <source>This email provider is banned!</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna e-postleverantör är bannlyst!</translation>
     </message>
     <message>
         <source>An account with that email already exists!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett konto med den e-postadress finns redan!</translation>
     </message>
     <message>
         <source>Unknown creation error!</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänt fel vid skapandet!</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -9916,12 +9943,13 @@ Is this correct?</source>
     </message>
     <message>
         <source>Error Creating Account!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid skapandet av konto!</translation>
     </message>
     <message>
         <source>Failed to create the account:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa kontot:
+%0</translation>
     </message>
     <message>
         <source>Your account has been created successfully!
@@ -9929,29 +9957,35 @@ Your account authentification was saved.
 Now all you need is to enter the token that was sent to your email.
 You can skip this step by leaving it empty and entering it later in the Edit Account section too.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt konto har nu skapats!
+Din kontoautentisering har sparats.
+Allt du behöver göra nu är att ange det token som skickades till din e-postadress.
+Du kan hoppa över detta steg genom att lämna det tomt och ange den senare i Redigera konto-sektionen.
+</translation>
     </message>
     <message>
         <source>Failed to connect to RPCN:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ansluta till RPCN:
+%0</translation>
     </message>
     <message>
         <source>Error connecting to RPCN!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid anslutning till RPCN!</translation>
     </message>
     <message>
         <source>Failed to authentify to RPCN:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att autentisera till RPCN:
+%0</translation>
     </message>
     <message>
         <source>Error authentifying to RPCN!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid autentisering till RPCN!</translation>
     </message>
     <message>
         <source>RPCN Account Valid!</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN Kontot är giltigt!</translation>
     </message>
     <message>
         <source>Your account is valid!</source>
@@ -9962,7 +9996,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     <name>rpcn_account_edit_dialog</name>
     <message>
         <source>RPCN: Edit Account</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Redigera konto</translation>
     </message>
     <message>
         <source>Username:</source>
@@ -9974,15 +10008,15 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Set Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Ställ in lösenord</translation>
     </message>
     <message>
         <source>Token:</source>
-        <translation type="unfinished"></translation>
+        <translation>Token:</translation>
     </message>
     <message>
         <source>Resend Token</source>
-        <translation type="unfinished"></translation>
+        <translation>Skicka token igen</translation>
     </message>
     <message>
         <source>Change Password</source>
@@ -9994,68 +10028,69 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Please enter your password:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange ditt lösenord:</translation>
     </message>
     <message>
         <source>RPCN Password Saved</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN Lösenord sparat</translation>
     </message>
     <message>
         <source>Your password was saved successfully!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt lösenord har sparats!</translation>
     </message>
     <message>
         <source>Missing Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Saknar inmatning</translation>
     </message>
     <message>
         <source>You need to enter a username and a password!</source>
-        <translation type="unfinished"></translation>
+        <translation>Du behöver ange ett användarnamn och ett lösenord!</translation>
     </message>
     <message>
         <source>Invalid Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt användarnamn</translation>
     </message>
     <message>
         <source>Username must be between 3 and 16 characters and can only contain &apos;-&apos;, &apos;_&apos; or alphanumeric characters.</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarnamn måste vara mellan 3 och 16 tecken långt och får endast innehålla &apos;-&apos;, &apos;_&apos; eller alfanumeriska tecken.</translation>
     </message>
     <message>
         <source>Invalid Token</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt token</translation>
     </message>
     <message>
         <source>The token you have received should be 16 characters long and contain only 0-9 A-F.</source>
-        <translation type="unfinished"></translation>
+        <translation>Token som du har tagit emot ska vara 16 tecken långt och får endast innehålla 0-9 A-F.</translation>
     </message>
     <message>
         <source>Failed to connect to RPCN server:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ansluta till RPCN-servern:
+%0</translation>
     </message>
     <message>
         <source>Error Connecting!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid anslutning!</translation>
     </message>
     <message>
         <source>The server has no email verification and doesn&apos;t need a token!</source>
-        <translation type="unfinished"></translation>
+        <translation>Servern har ingen e-postverifiering och behöver inte ett token!</translation>
     </message>
     <message>
         <source>A database related error happened on the server!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett databasrelaterat fel inträffade på servern!</translation>
     </message>
     <message>
         <source>You can only ask for a token mail once every 24 hours!</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan endast fråga efter ett token en gång per dygn!</translation>
     </message>
     <message>
         <source>The mail couldn&apos;t be sent successfully!</source>
-        <translation type="unfinished"></translation>
+        <translation>E-postmeddelandet kunde inte skickas korrekt!</translation>
     </message>
     <message>
         <source>The username/password pair is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarnamn/lösenord är ogiltigt!</translation>
     </message>
     <message>
         <source>Unknown error</source>
@@ -10063,49 +10098,51 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Error Sending Token!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid sändning av token!</translation>
     </message>
     <message>
         <source>Failed to send the token:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skicka token:
+%0</translation>
     </message>
     <message>
         <source>Token Sent!</source>
-        <translation type="unfinished"></translation>
+        <translation>Token skickat!</translation>
     </message>
     <message>
         <source>Your token was successfully resent to the email associated with your account!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt token skickades igen till e-postadressen kopplat till ditt konto!</translation>
     </message>
     <message>
         <source>Please confirm your username:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta ditt användarnamn:</translation>
     </message>
     <message>
         <source>RPCN: Change Password</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Ändra lösenord</translation>
     </message>
     <message>
         <source>Do you already have a reset password token?
 Note that the reset password token is different from the email verification token.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har redan fått ett token för lösenordsåterställning?
+Observera att token för lösenordsåterställning är annorlunda från token för e-postverifiering.</translation>
     </message>
     <message>
         <source>Please enter the email you used to create the account:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange e-postadressen som du använde för att skapa kontot:</translation>
     </message>
     <message>
         <source>The server has no email verification and doesn&apos;t support password changes!</source>
-        <translation type="unfinished"></translation>
+        <translation>Servern har ingen e-postverifiering och har inte stöd för lösenordsändringar!</translation>
     </message>
     <message>
         <source>You can only ask for a reset password token once every 24 hours!</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan endast fråga efter ett token för lösenordsåterställning en gång varje dygn!</translation>
     </message>
     <message>
         <source>The username/email pair is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarnamn/e-post är ogiltiga!</translation>
     </message>
     <message>
         <source>Unknown error!</source>
@@ -10113,24 +10150,25 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Error Sending Password Reset Token!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid sändning av token för lösenordsåterställning!</translation>
     </message>
     <message>
         <source>Failed to send the password reset token:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skicka token för lösenordsåterställning:
+%0</translation>
     </message>
     <message>
         <source>Password Reset Token Sent!</source>
-        <translation type="unfinished"></translation>
+        <translation>Token för lösenordsåterställning skickat!</translation>
     </message>
     <message>
         <source>The reset password token has successfully been sent!</source>
-        <translation type="unfinished"></translation>
+        <translation>Token för lösenordsåterställning har skickats!</translation>
     </message>
     <message>
         <source>Please enter the password reset token you received:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange token för lösenordsåterställning som du fick:</translation>
     </message>
     <message>
         <source>Please enter your new password:</source>
@@ -10138,20 +10176,21 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>The username/token pair is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarnamn/token är ogiltigt!</translation>
     </message>
     <message>
         <source>Error Sending Password Reset Token</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid sändning av token för lösenordsåterställning</translation>
     </message>
     <message>
         <source>Failed to change the password:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra lösenordet:
+%0</translation>
     </message>
     <message>
         <source>Password Successfully Changed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Lösenordet har ändrats!</translation>
     </message>
     <message>
         <source>Your password has been successfully changed!</source>
@@ -10277,7 +10316,9 @@ Note that the reset password token is different from the email verification toke
         <source>The token appears to be invalid:
 -Token should be 16 characters long
 -Token should only contain 0-9 and A-F</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta token verkar vara ogiltigt:
+-Token ska vara 16 tecken långt
+-Token får endast innehålla 0-9 och A-F</translation>
     </message>
 </context>
 <context>
@@ -12394,7 +12435,7 @@ Preview:
     <name>skylander_creator_dialog</name>
     <message>
         <source>Skylander Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>Skylander-skapare</translation>
     </message>
     <message>
         <source>--Unknown--</source>
@@ -12418,11 +12459,11 @@ Preview:
     </message>
     <message>
         <source>Error converting value</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid konvertering av värdet</translation>
     </message>
     <message>
         <source>ID entered is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Angivet ID är ogiltigt!</translation>
     </message>
     <message>
         <source>Variant entered is invalid!</source>
@@ -12451,11 +12492,11 @@ Preview:
     <name>skylander_dialog</name>
     <message>
         <source>Skylanders Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Skylanders-hanterare</translation>
     </message>
     <message>
         <source>Active Portal Skylanders:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skylanders på aktiv portal:</translation>
     </message>
     <message>
         <source>Skylander %1</source>
@@ -12475,7 +12516,7 @@ Preview:
     </message>
     <message>
         <source>Select Skylander File</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj Skylanders-fil</translation>
     </message>
     <message>
         <source>Skylander (*.sky *.bin *.dmp *.dump);;All Files (*)</source>
@@ -12483,25 +12524,27 @@ Preview:
     </message>
     <message>
         <source>Failed to open the skylander file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att öppna skylander-filen!</translation>
     </message>
     <message>
         <source>Failed to open the skylander file(%1)!
 File may already be in use on the portal.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att öppna skylander-filen (%1)
+Filen kanske redan används i portalen.</translation>
     </message>
     <message>
         <source>Failed to read the skylander file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa skylander-filen!</translation>
     </message>
     <message>
         <source>Failed to read the skylander file(%1)!
 File was too small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa skylander-filen (%1)!
+Filen var för liten.</translation>
     </message>
     <message>
         <source>Unknown (Id:%1 Var:%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänd (Id:%1 Var:%2)</translation>
     </message>
     <message>
         <source>None</source>
@@ -13095,27 +13138,27 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Reset All</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ alla</translation>
     </message>
     <message>
         <source>Confirm Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta nollställning</translation>
     </message>
     <message>
         <source>Reset all entries and file system directories?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ alla poster och filsystemskataloger?</translation>
     </message>
     <message>
         <source>Vendor ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillverkar-ID:</translation>
     </message>
     <message>
         <source>Product ID:</source>
-        <translation type="unfinished"></translation>
+        <translation>Produkt-ID:</translation>
     </message>
     <message>
         <source>Serial:</source>
-        <translation type="unfinished"></translation>
+        <translation>Serienummer:</translation>
     </message>
 </context>
 <context>
@@ -13209,11 +13252,18 @@ Stop the emulator now?</source>
 				Otherwise, further discussion and support can be found on the &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;Forums&lt;/a&gt; or on our &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt; server.
 			&lt;/p&gt;
 		</source>
-        <translation type="unfinished"></translation>
+        <translation>
+			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
+				För att komma igång måste du först installera ett &lt;span style=&quot;font-weight:600;&quot;&gt;PlayStation 3-firmware&lt;/span&gt;.&lt;br&gt;
+				Referera till &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;Snabbstartguiden&lt;/a&gt; som hittas på den officiella webbsidan för ytterligare information.&lt;br&gt;
+				Om du har ytterligare frågor, referera till &lt;a %0 href=&quot;https://rpcs3.net/faq&quot;&gt;Frågor och svar&lt;/a&gt;.&lt;br&gt;
+				Annars kan ytterligare diskussioner och stöd hittas på våra &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;Forum&lt;/a&gt; eller på vår &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt;-server.
+			&lt;/p&gt;
+		</translation>
     </message>
     <message>
         <source>&amp;Create Launchpad shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;kapa Launchpad-genväg</translation>
     </message>
     <message>
         <source>&amp;Create Application Menu shortcut</source>
