@@ -7024,11 +7024,11 @@ Subject:</source>
     </message>
     <message>
         <source>Exit RPCS3, move the log file to a custom location</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta RPCS3, flytta loggfilen till en anpassad plats</translation>
     </message>
     <message>
         <source>Exit the application and save the log to a user-defined location</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta programmet och spara loggen till en användardefinierad plats</translation>
     </message>
     <message>
         <source>Exit</source>
@@ -7460,11 +7460,11 @@ Subject:</source>
     </message>
     <message>
         <source>Turntable</source>
-        <translation type="unfinished"></translation>
+        <translation>Skivspelare</translation>
     </message>
     <message>
         <source>USIO</source>
-        <translation type="unfinished"></translation>
+        <translation>USIO</translation>
     </message>
     <message>
         <source>PS Move (Fake)</source>
@@ -7504,7 +7504,7 @@ Subject:</source>
     </message>
     <message>
         <source>PS Move</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move</translation>
     </message>
     <message>
         <source>Operating System</source>
@@ -7532,7 +7532,7 @@ Subject:</source>
     </message>
     <message>
         <source>Missing Firmware Detected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Saknat firmware har upptäckts!</translation>
     </message>
     <message>
         <source>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
@@ -7666,7 +7666,7 @@ DLC</translation>
 Update</source>
         <comment>Block for package type (Update)</comment>
         <translation>
-Uppdatera</translation>
+Uppdatering</translation>
     </message>
     <message>
         <source>
@@ -7718,7 +7718,7 @@ Version %0</translation>
     </message>
     <message>
         <source>RPCS3 Package Installer</source>
-        <translation type="unfinished"></translation>
+        <translation>Paketinstallerare för RPCS3</translation>
     </message>
     <message>
         <source>Installing package, please wait...</source>
@@ -7747,7 +7747,7 @@ Version %0</translation>
     </message>
     <message>
         <source>Successfully installed software from package(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Programvaran installerades från paket(en)!</translation>
     </message>
     <message>
         <source>Warning!</source>
@@ -7803,7 +7803,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>Extraction Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Extraheringskatalog</translation>
     </message>
     <message>
         <source>Select PS3UPDAT.PUP To Install</source>
@@ -7815,7 +7815,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>RPCS3 Firmware Installer</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installerare för RPCS3</translation>
     </message>
     <message>
         <source>Install firmware: %1?</source>
@@ -7827,7 +7827,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>Select TAR To extract</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj TAR att extrahera</translation>
     </message>
     <message>
         <source>All tar files (*.tar *.TAR *.tar.aa.* *.TAR.AA.*);;All files (*.*)</source>
@@ -7835,20 +7835,21 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>TAR Extraction</source>
-        <translation type="unfinished"></translation>
+        <translation>TAR-extrahering</translation>
     </message>
     <message>
         <source>Extracting encrypted TARs
 Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Extraherar krypterade TARar
+Vänta...</translation>
     </message>
     <message>
         <source>The following TAR file(s) could not be extracted:</source>
-        <translation type="unfinished"></translation>
+        <translation>Följande TAR-fil(er) kunde inte extraheras:</translation>
     </message>
     <message>
         <source>TAR extraction failed</source>
-        <translation type="unfinished"></translation>
+        <translation>TAR-extrahering misslyckades</translation>
     </message>
     <message>
         <source>Firmware Installation Failed</source>
@@ -7912,7 +7913,8 @@ Overwrite current installation with version %2?</source>
     <message>
         <source>Installing firmware version %1
 Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Installerar firmware-version %1
+Vänta...</translation>
     </message>
     <message>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
@@ -7926,7 +7928,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
-        <translation type="unfinished"></translation>
+        <translation>PS3-firmware och LLE-moduler installerades!</translation>
     </message>
     <message>
         <source>Select binary files</source>
@@ -7934,7 +7936,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>All Binaries (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN files (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX files (*.sprx *.SPRX);;SDAT/EDAT files (*.sdat *.SDAT *.edat *.EDAT);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla binärer (*.bin *.BIN *.self *.SELF *.sprx *.SPRX *.sdat *.SDAT *.edat *.EDAT);;BIN-filer (*.bin *.BIN);;SELF files (*.self *.SELF);;SPRX-filer (*.sprx *.SPRX);;SDAT/EDAT-filer (*.sdat *.SDAT *.edat *.EDAT);;Alla filer (*.*)</translation>
     </message>
     <message>
         <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters, can be prefixed with &quot;KLIC=0x&quot; from the log message)
@@ -8019,7 +8021,7 @@ Would you like to install shortcuts to the installed software and precompile cac
     </message>
     <message>
         <source>Select a folder containing one or more games</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en mapp som innehåller ett eller flera spel</translation>
     </message>
     <message>
         <source>Failed to locate log</source>
@@ -8072,7 +8074,8 @@ Check anyway?</source>
     <message>
         <source>The file could not be opened:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen kunde inte öppnas:
+%0</translation>
     </message>
     <message>
         <source>Auto-updater</source>
@@ -8161,7 +8164,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>Successfully added software to game list from path(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Programvaran lades till till spellistan från sökväg(ar)!</translation>
     </message>
     <message>
         <source>PARAM.SFO Information</source>
@@ -10336,7 +10339,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Recent Players</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste spelare</translation>
     </message>
     <message>
         <source>Failed to connect to RPCN:
@@ -10345,7 +10348,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Error connecting to RPCN!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid anslutning till RPCN!</translation>
     </message>
     <message>
         <source>Failed to authentify to RPCN:
@@ -10362,7 +10365,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Error removing a friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid borttagning av en vän!</translation>
     </message>
     <message>
         <source>An error occurred while trying to remove a friend!</source>
@@ -10458,7 +10461,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>The username you entered is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarnamnet du angav är ogiltigt!</translation>
     </message>
     <message>
         <source>Error adding friend!</source>
@@ -10685,59 +10688,59 @@ Note that the reset password token is different from the email verification toke
     <name>save_manager_dialog</name>
     <message>
         <source>Save Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparningshanterare</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikon</translation>
     </message>
     <message>
         <source>Title &amp; Subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel och undertext</translation>
     </message>
     <message>
         <source>Last Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Senast ändrad</translation>
     </message>
     <message>
         <source>Save ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparnings-id</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteckningar</translation>
     </message>
     <message>
         <source>Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonstorlek:</translation>
     </message>
     <message>
         <source>Search:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök:</translation>
     </message>
     <message>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;täng</translation>
     </message>
     <message>
         <source>Select an item to view details</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en post för att visa detaljer</translation>
     </message>
     <message>
         <source>Delete Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort markering</translation>
     </message>
     <message>
         <source>View Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa mapp</translation>
     </message>
     <message>
         <source>Loading save data</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in sparat data</translation>
     </message>
     <message>
         <source>Loading save data, please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in sparat data, vänta...</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -10745,18 +10748,19 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Delete Confirmation</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta borttagning</translation>
     </message>
     <message>
         <source>Are you sure you want to delete:
 %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill ta bort:
+%1?</translation>
     </message>
     <message numerus="yes">
         <source>Are you sure you want to delete these %n items?</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Är du säker på att du vill ta bort denna %n post?</numerusform>
+            <numerusform>Är du säker på att du vill ta bort dessa %n poster?</numerusform>
         </translation>
     </message>
     <message>
@@ -10765,25 +10769,27 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>&amp;Open Save Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Ö&amp;ppna sparningskatalog</translation>
     </message>
     <message>
         <source>%1 items selected</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 poster markerade</translation>
     </message>
     <message>
         <source>Last modified: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Senast ändrad: %1</translation>
     </message>
     <message>
         <source>Details:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Detaljer:
+</translation>
     </message>
     <message>
         <source>Note:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Anteckning:
+</translation>
     </message>
 </context>
 <context>
@@ -10797,7 +10803,7 @@ Note that the reset password token is different from the email verification toke
     <name>screenshot_preview</name>
     <message>
         <source>Screenshot Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Skärmbildsvisare</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
@@ -10805,15 +10811,15 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>&amp;Open file location</source>
-        <translation type="unfinished"></translation>
+        <translation>Ö&amp;ppna filplats</translation>
     </message>
     <message>
         <source>To &amp;Normal Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Till &amp;normal storlek</translation>
     </message>
     <message>
         <source>&amp;Stretch to size</source>
-        <translation type="unfinished"></translation>
+        <translation>Sträck ut till sto&amp;rlek</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
