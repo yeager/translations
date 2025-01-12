@@ -3598,7 +3598,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Games that can be properly played from start to finish</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel som kan spelas hela vägen från början till slut</translation>
     </message>
     <message>
         <source>Ingame</source>
@@ -3606,7 +3606,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Games that either can&apos;t be finished, have serious glitches or have insufficient performance</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel som antingen inte kan spelas klart, har allvarliga problem eller har otillräcklig prestanda</translation>
     </message>
     <message>
         <source>Intro</source>
@@ -3614,7 +3614,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Games that display image but don&apos;t make it past the menus</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel som visar en bild men kommer inte förbi menyerna</translation>
     </message>
     <message>
         <source>Loadable</source>
@@ -3622,7 +3622,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Games that display a black screen with a framerate on the window&apos;s title</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel som visar en svart skärm med en bildfrekvens på fönstrets titel</translation>
     </message>
     <message>
         <source>Nothing</source>
@@ -3630,7 +3630,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Games that don&apos;t initialize properly, not loading at all and/or crashing the emulator</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel som inte initieras korrekt, inte läses in alls och/eller kraschar emulatorn</translation>
     </message>
     <message>
         <source>No results found</source>
@@ -3638,7 +3638,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>There is no entry for this game or application in the compatibility database yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns ingen post för detta spel eller program i kompatibilitetsdatabasen ännu.</translation>
     </message>
     <message>
         <source>Database missing</source>
