@@ -2507,7 +2507,7 @@ Double-click: Set breakpoints.</source>
         <location filename="../dimensions_dialog.cpp" line="695"/>
         <location filename="../dimensions_dialog.cpp" line="736"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../dimensions_dialog.cpp" line="712"/>
@@ -3345,7 +3345,7 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1221"/>
         <source>None</source>
         <comment>Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1222"/>
@@ -3531,7 +3531,7 @@ This change will only be final when you save the config.</source>
         <location filename="../emu_settings.cpp" line="1293"/>
         <source>None</source>
         <comment>Audio Provider</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../emu_settings.cpp" line="1294"/>
@@ -5622,7 +5622,7 @@ Some thread has probably deadlocked. Aborting.</source>
         <location filename="../infinity_dialog.cpp" line="749"/>
         <location filename="../infinity_dialog.cpp" line="782"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../infinity_dialog.cpp" line="799"/>
@@ -10129,7 +10129,7 @@ Tip: SPU floats are commented along forming instructions.</source>
         <location filename="../microphone_creator.cpp" line="19"/>
         <source>None</source>
         <comment>Microphone device</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
 </context>
 <context>
@@ -10210,7 +10210,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <location filename="../dimensions_dialog.cpp" line="544"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../dimensions_dialog.cpp" line="546"/>
@@ -11176,7 +11176,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <location filename="../patch_creator_dialog.ui" line="86"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <location filename="../patch_creator_dialog.ui" line="104"/>
@@ -11638,19 +11638,19 @@ Log:
         <location filename="../pkg_install_dialog.cpp" line="65"/>
         <source>Update</source>
         <comment>Package type info (Update)</comment>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <location filename="../pkg_install_dialog.cpp" line="71"/>
         <source>%0</source>
         <comment>Package type info</comment>
-        <translation type="unfinished"></translation>
+        <translation>%0</translation>
     </message>
     <message>
         <location filename="../pkg_install_dialog.cpp" line="77"/>
         <source>v.%0</source>
         <comment>Version info</comment>
-        <translation type="unfinished"></translation>
+        <translation>v.%0</translation>
     </message>
     <message>
         <location filename="../pkg_install_dialog.cpp" line="82"/>
@@ -11664,7 +11664,9 @@ Log:
 
 %0</source>
         <comment>Changelog info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ändringslogg:
+
+%0</translation>
     </message>
     <message>
         <location filename="../pkg_install_dialog.cpp" line="92"/>
@@ -11675,7 +11677,7 @@ Log:
     <message>
         <location filename="../pkg_install_dialog.cpp" line="111"/>
         <source>Install</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera</translation>
     </message>
     <message>
         <location filename="../pkg_install_dialog.cpp" line="143"/>
@@ -11740,7 +11742,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="../ps_move_tracker_dialog.ui" line="147"/>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <location filename="../ps_move_tracker_dialog.ui" line="186"/>
@@ -11765,7 +11767,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <location filename="../ps_move_tracker_dialog.ui" line="261"/>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <location filename="../ps_move_tracker_dialog.ui" line="285"/>
@@ -12033,7 +12035,7 @@ No graphics will be rendered.</source>
     <message>
         <location filename="../rpcn_settings_dialog.cpp" line="146"/>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <location filename="../rpcn_settings_dialog.cpp" line="147"/>
@@ -14857,7 +14859,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <location filename="../settings_dialog.cpp" line="1237"/>
         <source>None</source>
         <comment>Camera Device</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../settings_dialog.cpp" line="1238"/>
@@ -15111,7 +15113,7 @@ Preview:
         <location filename="../settings_dialog.cpp" line="2564"/>
         <source>None</source>
         <comment>Stylesheets</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../settings_dialog.cpp" line="2569"/>
@@ -15402,7 +15404,7 @@ File was too small.</source>
     <message>
         <location filename="../skylander_dialog.cpp" line="831"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
 </context>
 <context>
@@ -15861,12 +15863,12 @@ Check the log for more information.</source>
     <message>
         <location filename="../update_manager.cpp" line="139"/>
         <source>Checking For Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Leta efter uppdateringar</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="216"/>
         <source>Your version is already up to date!</source>
-        <translation type="unfinished"></translation>
+        <translation>Din version är redan uppdaterad!</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="238"/>
@@ -15897,17 +15899,17 @@ Check the log for more information.</source>
     <message>
         <location filename="../update_manager.cpp" line="380"/>
         <source>• %0: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>• %0: %1</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="383"/>
         <source>Update Available</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatering tillgänglig</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="385"/>
         <source>Don&apos;t show again for this version</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa inte detta igen för denna version</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="389"/>
@@ -15919,7 +15921,9 @@ Check the log for more information.</source>
         <source>Changelog:
 
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändringslogg:
+
+%0</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="427"/>
@@ -15929,12 +15933,12 @@ Check the log for more information.</source>
     <message>
         <location filename="../update_manager.cpp" line="454"/>
         <source>Downloading Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar uppdatering</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="461"/>
         <source>Updating RPCS3</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar RPCS3</translation>
     </message>
     <message>
         <location filename="../update_manager.cpp" line="765"/>
