@@ -2281,7 +2281,7 @@ Error: %1</source>
     </message>
     <message>
         <source>Fix invalid settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>Korrigera ogiltiga inställningar?</translation>
     </message>
     <message>
         <source>Your config file contained one or more unrecognized values for settings.
@@ -2320,7 +2320,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Operating System</source>
         <comment>Thread Scheduler Mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Operativsystem</translation>
     </message>
     <message>
         <source>Disabled</source>
@@ -2340,7 +2340,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Disable Video Output</source>
         <comment>Video renderer</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera videoutmatning</translation>
     </message>
     <message>
         <source>OpenGL</source>
@@ -2375,12 +2375,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>1080p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>1080p</translation>
     </message>
     <message>
         <source>1080i</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>1080i</translation>
     </message>
     <message>
         <source>720p</source>
@@ -2395,17 +2395,17 @@ This change will only be final when you save the config.</source>
     <message>
         <source>480i</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>480i</translation>
     </message>
     <message>
         <source>576p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>576p</translation>
     </message>
     <message>
         <source>576i</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>576i</translation>
     </message>
     <message>
         <source>1600x1080p</source>
@@ -2420,37 +2420,37 @@ This change will only be final when you save the config.</source>
     <message>
         <source>1280x1080p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>1280x1080p</translation>
     </message>
     <message>
         <source>960x1080p</source>
         <comment>Resolution</comment>
-        <translation type="unfinished"></translation>
+        <translation>960x1080p</translation>
     </message>
     <message>
         <source>Off</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>Av</translation>
     </message>
     <message>
         <source>30</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>30</translation>
     </message>
     <message>
         <source>50</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>50</translation>
     </message>
     <message>
         <source>60</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>60</translation>
     </message>
     <message>
         <source>120</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>120</translation>
     </message>
     <message>
         <source>Display</source>
@@ -2490,17 +2490,17 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Ultra</source>
         <comment>Shader Precision</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ultra</translation>
     </message>
     <message>
         <source>High</source>
         <comment>Shader Precision</comment>
-        <translation type="unfinished"></translation>
+        <translation>Hög</translation>
     </message>
     <message>
         <source>Low</source>
         <comment>Shader Precision</comment>
-        <translation type="unfinished"></translation>
+        <translation>Låg</translation>
     </message>
     <message>
         <source>Nearest</source>
@@ -2525,17 +2525,17 @@ This change will only be final when you save the config.</source>
     <message>
         <source>XAudio2</source>
         <comment>Audio renderer</comment>
-        <translation type="unfinished"></translation>
+        <translation>XAudio2</translation>
     </message>
     <message>
         <source>Cubeb</source>
         <comment>Audio renderer</comment>
-        <translation type="unfinished"></translation>
+        <translation>Cubeb</translation>
     </message>
     <message>
         <source>FAudio</source>
         <comment>Audio renderer</comment>
-        <translation type="unfinished"></translation>
+        <translation>FAudio</translation>
     </message>
     <message>
         <source>Disabled</source>
@@ -2545,12 +2545,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Standard</source>
         <comment>Microphone handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>SingStar</source>
         <comment>Microphone handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>SingStar</translation>
     </message>
     <message>
         <source>Real SingStar</source>
@@ -2560,12 +2560,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Rocksmith</source>
         <comment>Microphone handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rocksmith</translation>
     </message>
     <message>
         <source>Null</source>
         <comment>Keyboard handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>Basic</source>
@@ -2575,7 +2575,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Null</source>
         <comment>Mouse handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>Basic</source>
@@ -2590,22 +2590,22 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Unknown</source>
         <comment>Camera type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Okänd</translation>
     </message>
     <message>
         <source>EyeToy</source>
         <comment>Camera type</comment>
-        <translation type="unfinished"></translation>
+        <translation>EyeToy</translation>
     </message>
     <message>
         <source>PS Eye</source>
         <comment>Camera type</comment>
-        <translation type="unfinished"></translation>
+        <translation>PS Eye</translation>
     </message>
     <message>
         <source>UVC 1.1</source>
         <comment>Camera type</comment>
-        <translation type="unfinished"></translation>
+        <translation>UVC 1.1</translation>
     </message>
     <message>
         <source>No</source>
@@ -2630,7 +2630,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Null</source>
         <comment>Camera handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>Fake</source>
@@ -2640,17 +2640,17 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Qt</source>
         <comment>Camera handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Qt</translation>
     </message>
     <message>
         <source>Null</source>
         <comment>Music handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>Qt</source>
         <comment>Music handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Qt</translation>
     </message>
     <message>
         <source>Single-threaded</source>
@@ -2665,7 +2665,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Null</source>
         <comment>Move handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>Real</source>
@@ -2680,7 +2680,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Mouse</source>
         <comment>Move handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mus</translation>
     </message>
     <message>
         <source>Raw Mouse</source>
@@ -2710,7 +2710,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Null</source>
         <comment>Turntable handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>1 controller</source>
@@ -2725,7 +2725,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Null</source>
         <comment>GHLtar handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>1 controller</source>
@@ -2740,17 +2740,17 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Disconnected</source>
         <comment>Internet Status</comment>
-        <translation type="unfinished"></translation>
+        <translation>Frånkopplad</translation>
     </message>
     <message>
         <source>Connected</source>
         <comment>Internet Status</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ansluten</translation>
     </message>
     <message>
         <source>Disconnected</source>
         <comment>PSN Status</comment>
-        <translation type="unfinished"></translation>
+        <translation>Frånkopplad</translation>
     </message>
     <message>
         <source>Simulated</source>
@@ -2760,7 +2760,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>RPCN</source>
         <comment>PSN Status</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCN</translation>
     </message>
     <message>
         <source>As Host</source>
@@ -2795,7 +2795,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>PS3</source>
         <comment>RSX FIFO Accuracy</comment>
-        <translation type="unfinished"></translation>
+        <translation>PS3</translation>
     </message>
     <message>
         <source>None</source>
@@ -2805,27 +2805,27 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Minimal</source>
         <comment>Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Minimal</translation>
     </message>
     <message>
         <source>Low</source>
         <comment>Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Låg</translation>
     </message>
     <message>
         <source>Medium</source>
         <comment>Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Medel</translation>
     </message>
     <message>
         <source>High</source>
         <comment>Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Hög</translation>
     </message>
     <message>
         <source>Minimal</source>
         <comment>Perf Graph Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Minimal</translation>
     </message>
     <message>
         <source>Show Min And Max</source>
@@ -2840,7 +2840,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Show All</source>
         <comment>Perf Graph Detail Level</comment>
-        <translation type="unfinished"></translation>
+        <translation>Visa alla</translation>
     </message>
     <message>
         <source>Top Left</source>
@@ -2905,27 +2905,27 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Stereo</source>
         <comment>Audio format</comment>
-        <translation type="unfinished"></translation>
+        <translation>Stereo</translation>
     </message>
     <message>
         <source>Surround 5.1</source>
         <comment>Audio format</comment>
-        <translation type="unfinished"></translation>
+        <translation>Surround 5.1</translation>
     </message>
     <message>
         <source>Surround 7.1</source>
         <comment>Audio format</comment>
-        <translation type="unfinished"></translation>
+        <translation>Surround 7.1</translation>
     </message>
     <message>
         <source>Manual</source>
         <comment>Audio format</comment>
-        <translation type="unfinished"></translation>
+        <translation>Manuellt</translation>
     </message>
     <message>
         <source>Automatic</source>
         <comment>Audio format</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Linear PCM 2 Ch. 48 kHz</source>
@@ -2960,22 +2960,22 @@ This change will only be final when you save the config.</source>
     <message>
         <source>CellAudio</source>
         <comment>Audio Provider</comment>
-        <translation type="unfinished"></translation>
+        <translation>CellAudio</translation>
     </message>
     <message>
         <source>RSXAudio</source>
         <comment>Audio Provider</comment>
-        <translation type="unfinished"></translation>
+        <translation>RSXAudio</translation>
     </message>
     <message>
         <source>HDMI 0</source>
         <comment>Audio Avport</comment>
-        <translation type="unfinished"></translation>
+        <translation>HDMI 0</translation>
     </message>
     <message>
         <source>HDMI 1</source>
         <comment>Audio Avport</comment>
-        <translation type="unfinished"></translation>
+        <translation>HDMI 1</translation>
     </message>
     <message>
         <source>AV multiout</source>
@@ -2985,12 +2985,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>SPDIF 0</source>
         <comment>Audio Avport</comment>
-        <translation type="unfinished"></translation>
+        <translation>SPDIF 0</translation>
     </message>
     <message>
         <source>SPDIF 1</source>
         <comment>Audio Avport</comment>
-        <translation type="unfinished"></translation>
+        <translation>SPDIF 1</translation>
     </message>
     <message>
         <source>Auto</source>
@@ -3000,12 +3000,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Mono</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mono</translation>
     </message>
     <message>
         <source>Stereo</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Stereo</translation>
     </message>
     <message>
         <source>Stereo LFE</source>
@@ -3025,47 +3025,47 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Surround 5.1</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Surround 5.1</translation>
     </message>
     <message>
         <source>Surround 7.1</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Surround 7.1</translation>
     </message>
     <message>
         <source>Japan</source>
         <comment>License Area</comment>
-        <translation type="unfinished"></translation>
+        <translation>Japan</translation>
     </message>
     <message>
         <source>America</source>
         <comment>License Area</comment>
-        <translation type="unfinished"></translation>
+        <translation>Amerika</translation>
     </message>
     <message>
         <source>Europe, Oceania, Middle East, Russia</source>
         <comment>License Area</comment>
-        <translation type="unfinished"></translation>
+        <translation>Europa, Oceanien, Mellanöstern, Ryssland</translation>
     </message>
     <message>
         <source>Southeast Asia</source>
         <comment>License Area</comment>
-        <translation type="unfinished"></translation>
+        <translation>Sydöstra Asien</translation>
     </message>
     <message>
         <source>Korea</source>
         <comment>License Area</comment>
-        <translation type="unfinished"></translation>
+        <translation>Korea</translation>
     </message>
     <message>
         <source>China</source>
         <comment>License Area</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kina</translation>
     </message>
     <message>
         <source>Other</source>
         <comment>License Area</comment>
-        <translation type="unfinished"></translation>
+        <translation>Annan</translation>
     </message>
     <message>
         <source>Safe</source>
@@ -3080,67 +3080,67 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Japanese</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Japanska</translation>
     </message>
     <message>
         <source>English (US)</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Engelska (USA)</translation>
     </message>
     <message>
         <source>French</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Franska</translation>
     </message>
     <message>
         <source>Spanish</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Spanska</translation>
     </message>
     <message>
         <source>German</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tyska</translation>
     </message>
     <message>
         <source>Italian</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Italienska</translation>
     </message>
     <message>
         <source>Dutch</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nederländska</translation>
     </message>
     <message>
         <source>Portuguese (Portugal)</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Portugisiska (Portugal)</translation>
     </message>
     <message>
         <source>Russian</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ryska</translation>
     </message>
     <message>
         <source>Korean</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Koreanska</translation>
     </message>
     <message>
         <source>Chinese (Traditional)</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kinesiska (traditionell)</translation>
     </message>
     <message>
         <source>Chinese (Simplified)</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kinesiska (förenklad)</translation>
     </message>
     <message>
         <source>Finnish</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Finska</translation>
     </message>
     <message>
         <source>Swedish</source>
@@ -3150,107 +3150,107 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Danish</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Danska</translation>
     </message>
     <message>
         <source>Norwegian</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Norska</translation>
     </message>
     <message>
         <source>Polish</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Polska</translation>
     </message>
     <message>
         <source>English (UK)</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Engelska (UK)</translation>
     </message>
     <message>
         <source>Portuguese (Brazil)</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Portugisiska (Brasilien)</translation>
     </message>
     <message>
         <source>Turkish</source>
         <comment>System Language</comment>
-        <translation type="unfinished"></translation>
+        <translation>Turkiska</translation>
     </message>
     <message>
         <source>English keyboard (US standard)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Engelskt tangentbord (USA-standard)</translation>
     </message>
     <message>
         <source>Japanese keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Japanskt tangentbord</translation>
     </message>
     <message>
         <source>Japanese keyboard (Kana state)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Japanskt tangentbord (Kana-tillstånd)</translation>
     </message>
     <message>
         <source>German keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tyskt tangentbord</translation>
     </message>
     <message>
         <source>Spanish keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Spanskt tangentbord</translation>
     </message>
     <message>
         <source>French keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Franskt tangentbord</translation>
     </message>
     <message>
         <source>Italian keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Italienskt tangentbord</translation>
     </message>
     <message>
         <source>Dutch keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nederländskt tangentbord</translation>
     </message>
     <message>
         <source>Portuguese keyboard (Portugal)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Portugisiskt tangentbord (Portugal)</translation>
     </message>
     <message>
         <source>Russian keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ryskt tangentbord</translation>
     </message>
     <message>
         <source>English keyboard (UK standard)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Engelskt tangentbord (UK-standard)</translation>
     </message>
     <message>
         <source>Korean keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Koreanskt tangentbord</translation>
     </message>
     <message>
         <source>Norwegian keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Norskt tangentbord</translation>
     </message>
     <message>
         <source>Finnish keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Finskt tangentbord</translation>
     </message>
     <message>
         <source>Danish keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Danskt tangentbord</translation>
     </message>
     <message>
         <source>Swedish keyboard</source>
@@ -3260,52 +3260,52 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Chinese keyboard (Traditional)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kinesiskt tangentbord (traditionellt)</translation>
     </message>
     <message>
         <source>Chinese keyboard (Simplified)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Kinesiskt tangentbord (förenklat)</translation>
     </message>
     <message>
         <source>French keyboard (Switzerland)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Franskt tangentbord (Schweiz)</translation>
     </message>
     <message>
         <source>German keyboard (Switzerland)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tyskt tangentbord (Schweiz)</translation>
     </message>
     <message>
         <source>French keyboard (Canada)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Franskt tangentbord (Kanada)</translation>
     </message>
     <message>
         <source>French keyboard (Belgium)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Franskt tangentbord (Belgien)</translation>
     </message>
     <message>
         <source>Polish keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Polskt tangentbord</translation>
     </message>
     <message>
         <source>Portuguese keyboard (Brazil)</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Portugisiskt tangentbord (Brasilien)</translation>
     </message>
     <message>
         <source>Turkish keyboard</source>
         <comment>Keyboard Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Turkiskt tangentbord</translation>
     </message>
     <message>
         <source>Automatic (Default)</source>
         <comment>Exclusive Fullscreen Mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt (standard)</translation>
     </message>
     <message>
         <source>Prefer borderless fullscreen</source>
@@ -3325,7 +3325,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Side-by-side</source>
         <comment>3D Display Mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Sida-vid-sida</translation>
     </message>
     <message>
         <source>Over-under</source>
@@ -3380,12 +3380,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Keyboard</source>
         <comment>Midi Device Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Keyboard</translation>
     </message>
     <message>
         <source>Drums</source>
         <comment>Midi Device Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Trummor</translation>
     </message>
     <message>
         <source>Accurate XFloat</source>
@@ -3408,11 +3408,11 @@ This change will only be final when you save the config.</source>
     <name>emulated_pad_settings_dialog</name>
     <message>
         <source>Confirm Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta nollställning</translation>
     </message>
     <message>
         <source>Reset all buttons of all players?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ alla knappar för alla spelare?</translation>
     </message>
     <message>
         <source>Configure Emulated Buzz</source>
@@ -3495,7 +3495,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>--Unknown--</source>
-        <translation type="unfinished"></translation>
+        <translation>--Okänd--</translation>
     </message>
     <message>
         <source>Figure Number:</source>
@@ -3503,7 +3503,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Series:</source>
-        <translation type="unfinished"></translation>
+        <translation>Serie:</translation>
     </message>
     <message>
         <source>Create</source>
@@ -6697,23 +6697,23 @@ Subject:</source>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Töm</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopiera</translation>
     </message>
     <message>
         <source>&amp;Open log file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ö&amp;ppna loggfil</translation>
     </message>
     <message>
         <source>&amp;Save filtered log</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;para filtrerad logg</translation>
     </message>
     <message>
         <source>&amp;Filter log</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Filtrera logg</translation>
     </message>
     <message>
         <source>&amp;Check config</source>
@@ -6721,11 +6721,11 @@ Subject:</source>
     </message>
     <message>
         <source>&amp;Show Timestamps</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa ti&amp;dsstämplar</translation>
     </message>
     <message>
         <source>&amp;Show Threads</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visa trådar</translation>
     </message>
     <message>
         <source>&amp;Last actions only</source>
@@ -6761,7 +6761,7 @@ Subject:</source>
     </message>
     <message>
         <source>Select log file</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj loggfil</translation>
     </message>
     <message>
         <source>Log files (*.log *.gz);;All files (*.*)</source>
@@ -6769,7 +6769,7 @@ Subject:</source>
     </message>
     <message>
         <source>Save to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara till fil</translation>
     </message>
     <message>
         <source>Filter log</source>
@@ -6785,15 +6785,15 @@ Subject:</source>
     </message>
     <message>
         <source>Failed to open &apos;%0&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att öppna &apos;%0&apos;</translation>
     </message>
     <message>
         <source>Pasting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistrar in...</translation>
     </message>
     <message>
         <source>Filtering...</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrerar...</translation>
     </message>
     <message>
         <source>Ooops!</source>
@@ -9023,7 +9023,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Null</source>
-        <translation type="unfinished"></translation>
+        <translation>Null</translation>
     </message>
     <message>
         <source>Keyboard</source>
@@ -9802,11 +9802,11 @@ No graphics will be rendered.</source>
     <name>rpcn_account_dialog</name>
     <message>
         <source>RPCN: Account</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Konto</translation>
     </message>
     <message>
         <source>Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Server:</translation>
     </message>
     <message>
         <source>Add</source>
@@ -9818,27 +9818,27 @@ No graphics will be rendered.</source>
     </message>
     <message>
         <source>Account:</source>
-        <translation type="unfinished"></translation>
+        <translation>Konto:</translation>
     </message>
     <message>
         <source>Create Account</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa konto</translation>
     </message>
     <message>
         <source>Edit Account</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera konto</translation>
     </message>
     <message>
         <source>Test Account</source>
-        <translation type="unfinished"></translation>
+        <translation>Testa konto</translation>
     </message>
     <message>
         <source>Current ID: %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuellt ID: %0</translation>
     </message>
     <message>
         <source>Existing Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Befintlig server</translation>
     </message>
     <message>
         <source>You already have a server with this description &amp; hostname in the list.</source>
@@ -9858,7 +9858,9 @@ Note that these restrictions apply:
         <source>Please choose your password:
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ditt lösenord:
+
+</translation>
     </message>
     <message>
         <source>An email address is required, please note:
@@ -9907,7 +9909,7 @@ Is this correct?</source>
     </message>
     <message>
         <source>Unknown error</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänt fel</translation>
     </message>
     <message>
         <source>Error Creating Account!</source>
@@ -9950,7 +9952,7 @@ You can skip this step by leaving it empty and entering it later in the Edit Acc
     </message>
     <message>
         <source>Your account is valid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt konto är giltigt!</translation>
     </message>
 </context>
 <context>
@@ -10306,15 +10308,15 @@ Note that the reset password token is different from the email verification toke
     <name>rpcn_friends_dialog</name>
     <message>
         <source>RPCN: Friends - Logged in as %0</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Vänner - Inloggad som %0</translation>
     </message>
     <message>
         <source>RPCN: Friends - %0 (Not logged in)</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Vänner - %0 (inte inloggad)</translation>
     </message>
     <message>
         <source>RPCN: Friends</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Vänner</translation>
     </message>
     <message>
         <source>Friends</source>
@@ -10356,7 +10358,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>&amp;Remove Friend</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort vän</translation>
     </message>
     <message>
         <source>Error removing a friend!</source>
@@ -10400,7 +10402,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>&amp;Reject Request</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Neka förfrågan</translation>
     </message>
     <message>
         <source>Error adding a friend!</source>
@@ -10432,7 +10434,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>&amp;Send Friend Request</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skicka vänförfrågan</translation>
     </message>
     <message>
         <source>Error sending a friend request!</source>
@@ -10468,7 +10470,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Friend was successfully added!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vännen lades till!</translation>
     </message>
 </context>
 <context>
