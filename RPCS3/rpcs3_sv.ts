@@ -2520,7 +2520,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Disable Audio Output</source>
         <comment>Audio renderer</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera ljudutmatning</translation>
     </message>
     <message>
         <source>XAudio2</source>
@@ -2570,7 +2570,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Basic</source>
         <comment>Keyboard handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Grundläggande</translation>
     </message>
     <message>
         <source>Null</source>
@@ -2580,7 +2580,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Basic</source>
         <comment>Mouse handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Grundläggande</translation>
     </message>
     <message>
         <source>Raw</source>
@@ -11034,7 +11034,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Audio Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljud ut</translation>
     </message>
     <message>
         <source>Audio Format</source>
@@ -11050,7 +11050,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Dump to File</source>
-        <translation type="unfinished"></translation>
+        <translation>Dumpa till fil</translation>
     </message>
     <message>
         <source>Audio Device</source>
@@ -11058,11 +11058,11 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Audio Output Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Format för ljudutmatning</translation>
     </message>
     <message>
         <source>Audio Provider</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljudleverantör</translation>
     </message>
     <message>
         <source>RSXAudio Avport</source>
@@ -11070,7 +11070,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Music Handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Musikhanterare</translation>
     </message>
     <message>
         <source>Volume</source>
@@ -11082,11 +11082,11 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Buffering</source>
-        <translation type="unfinished"></translation>
+        <translation>Buffring</translation>
     </message>
     <message>
         <source>Enable Buffering</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera buffring</translation>
     </message>
     <message>
         <source>Audio Buffer Duration: 0ms</source>
@@ -11106,27 +11106,27 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Microphone Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mikrofontyp:</translation>
     </message>
     <message>
         <source>Mic1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mik1:</translation>
     </message>
     <message>
         <source>Mic3:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mik3:</translation>
     </message>
     <message>
         <source>Mic2:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mik2:</translation>
     </message>
     <message>
         <source>Mic4:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mik4:</translation>
     </message>
     <message>
         <source>I/O</source>
-        <translation type="unfinished"></translation>
+        <translation>In/ut</translation>
     </message>
     <message>
         <source>Guitar Hero Live Emulated Guitar</source>
@@ -11134,23 +11134,23 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Move Handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Move-hanterare</translation>
     </message>
     <message>
         <source>DJ Hero Emulated Turntable</source>
-        <translation type="unfinished"></translation>
+        <translation>DJ Hero-emulerad skivspelare</translation>
     </message>
     <message>
         <source>Mouse Handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Mushanterare</translation>
     </message>
     <message>
         <source>Buzz! Emulated Controller</source>
-        <translation type="unfinished"></translation>
+        <translation>Buzz!-emulerad kontroller</translation>
     </message>
     <message>
         <source>Keyboard Handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangentbordshanterare</translation>
     </message>
     <message>
         <source>Pad Handler Mode</source>
@@ -11158,11 +11158,11 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Camera Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerainmatning</translation>
     </message>
     <message>
         <source>Camera Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd kamera</translation>
     </message>
     <message>
         <source>Camera</source>
@@ -11170,31 +11170,31 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Camera Handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerahanterare</translation>
     </message>
     <message>
         <source>Emulated MIDI Device 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulerad MIDI-enhet 1</translation>
     </message>
     <message>
         <source>Emulated MIDI Device 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulerad MIDI-enhet 3</translation>
     </message>
     <message>
         <source>Emulated MIDI Device 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulerad MIDI-enhet 2</translation>
     </message>
     <message>
         <source>Enable Background Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera bakgrundsinmatning</translation>
     </message>
     <message>
         <source>Keep Pads Connected</source>
-        <translation type="unfinished"></translation>
+        <translation>Håll handkontroller anslutna</translation>
     </message>
     <message>
         <source>Show PS Move Cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa PS Move-markör</translation>
     </message>
     <message>
         <source>Lock Overlay Input To Player One</source>
@@ -11218,23 +11218,23 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Enter Button Assignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilldelning av Enter-knapp</translation>
     </message>
     <message>
         <source>Disk Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Diskcache</translation>
     </message>
     <message>
         <source>Clear cache automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm cache automatiskt</translation>
     </message>
     <message>
         <source>Cache size: 3072 MB</source>
-        <translation type="unfinished"></translation>
+        <translation>Cachestorlek: 3072 MB</translation>
     </message>
     <message>
         <source>Keyboard Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangentbordstyp</translation>
     </message>
     <message>
         <source>Console Time</source>
@@ -11246,15 +11246,15 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Homebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Homebrew</translation>
     </message>
     <message>
         <source>Enable /host_root/</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera /host_root/</translation>
     </message>
     <message>
         <source>Empty /dev_hdd0/tmp/</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm /dev_hdd0/tmp/</translation>
     </message>
     <message>
         <source>Network</source>
@@ -11286,11 +11286,11 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>PSN Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>PSN-konfiguration</translation>
     </message>
     <message>
         <source>PSN Status</source>
-        <translation type="unfinished"></translation>
+        <translation>PSN-status</translation>
     </message>
     <message>
         <source>Country</source>
@@ -11530,15 +11530,15 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Show mouse cursor in Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa muspekare i helskärm</translation>
     </message>
     <message>
         <source>Lock mouse cursor in Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås muspekare i helskärm</translation>
     </message>
     <message>
         <source>Hide mouse cursor if idle</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj muspekare om overksam</translation>
     </message>
     <message>
         <source>ms</source>
@@ -11546,7 +11546,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Resize game window on boot</source>
-        <translation type="unfinished"></translation>
+        <translation>Storleksändra spelfönstret vid uppstart</translation>
     </message>
     <message>
         <source>Resize manually</source>
@@ -11582,11 +11582,11 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Reset the game window title to default</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ spelfönstrets titel till standard</translation>
     </message>
     <message>
         <source>Edit the game window title</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera spelfönstrets titel</translation>
     </message>
     <message>
         <source>Edit</source>
@@ -11602,7 +11602,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Show framerate graph</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa graf över bildfrekvens</translation>
     </message>
     <message>
         <source>Show frametime graph</source>
@@ -11610,7 +11610,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Detail Level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Detaljnivå:</translation>
     </message>
     <message>
         <source>Position:</source>
@@ -11618,7 +11618,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Horizontal Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontell marginal:</translation>
     </message>
     <message>
         <source>Centered</source>
@@ -11626,7 +11626,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Vertical Margin:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal marginal:</translation>
     </message>
     <message>
         <source>Update Interval:</source>
@@ -11654,7 +11654,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>UI Stylesheets</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilmallar för grafiskt gränssnitt</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -11698,7 +11698,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Enable Pad Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera kontrollernavigering</translation>
     </message>
     <message>
         <source>Allow Global Pad Navigation</source>
@@ -11706,7 +11706,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>UI Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ för grafiskt gränssnitt</translation>
     </message>
     <message>
         <source>Show Welcome Screen</source>
@@ -11754,7 +11754,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Discord Status:</source>
-        <translation type="unfinished"></translation>
+        <translation>Discord-status:</translation>
     </message>
     <message>
         <source>Installation ID</source>
@@ -12062,17 +12062,17 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     </message>
     <message>
         <source>dd MMM yyyy HH:mm</source>
-        <translation type="unfinished"></translation>
+        <translation>yyyy-MM-dd HH:mm</translation>
     </message>
     <message>
         <source>Maximum size: %0 MB</source>
         <comment>Maximum cache size</comment>
-        <translation type="unfinished"></translation>
+        <translation>Maximal storlek: %0 MB</translation>
     </message>
     <message>
         <source>Unlimited (Default)</source>
         <comment>Max SPURS threads</comment>
-        <translation type="unfinished"></translation>
+        <translation>Obegränsat (standard)</translation>
     </message>
     <message>
         <source>%0 Hz</source>
@@ -12151,17 +12151,17 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>GPU Model</source>
         <comment>Game window title</comment>
-        <translation type="unfinished"></translation>
+        <translation>GPU-modell</translation>
     </message>
     <message>
         <source>CPU Model</source>
         <comment>Game window title</comment>
-        <translation type="unfinished"></translation>
+        <translation>CPU-modell</translation>
     </message>
     <message>
         <source>Thread Count</source>
         <comment>Game window title</comment>
-        <translation type="unfinished"></translation>
+        <translation>Trådantal</translation>
     </message>
     <message>
         <source>System Memory</source>
@@ -12171,7 +12171,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Framerate</source>
         <comment>Game window title</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bildfrekvens</translation>
     </message>
     <message>
         <source>Renderer</source>
@@ -12275,11 +12275,11 @@ Preview:
     <message>
         <source>Default (Bright)</source>
         <comment>Stylesheets</comment>
-        <translation type="unfinished"></translation>
+        <translation>Standard (Ljust)</translation>
     </message>
     <message>
         <source>Remove obsolete settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort föråldrade inställningar?</translation>
     </message>
     <message>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
