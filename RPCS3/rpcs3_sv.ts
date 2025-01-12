@@ -1163,7 +1163,7 @@ Choose a stylesheet and click Apply to change between styles.</source>
     </message>
     <message>
         <source>Shows the initial welcome screen upon starting RPCS3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visar den initiala välkomstskärmen vid start av RPCS3.</translation>
     </message>
     <message>
         <source>Shows a confirmation dialog when the game window is being closed.</source>
@@ -1673,7 +1673,7 @@ Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</sou
         <translation>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 är en Sony PlayStation 3-emulator och felsökare baserad på öppen källkod.&lt;br&gt;
-				Den är skriven i C++ för Windows, Linux, FreeBSD samt MacOS och är finansierad med &lt;a %0 href=&quot;https://rpcs3.net/patreon&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
+				Den är skriven i C++ för Windows, Linux, FreeBSD samt MacOS och är finansierad via &lt;a %0 href=&quot;https://rpcs3.net/patreon&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
 				Våra utvecklare och bidragsgivare arbetar alltid hårt för att försäkra att detta projekt blir det bästa det kan bli.&lt;br&gt;
 				Det finns fortfarande mycket mer att göra med implementationer och optimeringar.
 			&lt;/p&gt;
@@ -2099,15 +2099,15 @@ Double-click: Set breakpoints.</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta</translation>
     </message>
     <message>
         <source>Unknown Figure</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänd figur</translation>
     </message>
     <message>
         <source>None</source>
@@ -4077,7 +4077,7 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Open %0 Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ö&amp;ppna mapp för %0</translation>
     </message>
     <message>
         <source>Game Data</source>
@@ -4512,11 +4512,11 @@ Some thread has probably deadlocked. Aborting.</source>
     </message>
     <message>
         <source>PS3 Game/Application Is Unresponsive</source>
-        <translation type="unfinished"></translation>
+        <translation>PS3-spel/program svarar inte</translation>
     </message>
     <message>
         <source>Terminate RPCS3</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta RPCS3</translation>
     </message>
     <message>
         <source>Keep Waiting</source>
@@ -4529,7 +4529,7 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
     </message>
     <message>
         <source>Creating Save-State / Do Not Close RPCS3</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar sparat tillstånd / Stäng inte av RPCS3</translation>
     </message>
     <message>
         <source>Please wait...</source>
@@ -5084,33 +5084,37 @@ File was too small.</source>
         <source>You have earned a bronze trophy.
 %0</source>
         <comment>Trophy text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat en bronstrofé.
+%0</translation>
     </message>
     <message>
         <source>You have earned a silver trophy.
 %0</source>
         <comment>Trophy text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat en silvertrofé.
+%0</translation>
     </message>
     <message>
         <source>You have earned a gold trophy.
 %0</source>
         <comment>Trophy text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat en guldtrofé.
+%0</translation>
     </message>
     <message>
         <source>You have earned a platinum trophy.
 %0</source>
         <comment>Trophy text</comment>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat en platinatrofé.
+%0</translation>
     </message>
     <message>
         <source>Compiling shaders</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompilerar shaders</translation>
     </message>
     <message>
         <source>Compiling PPU Modules</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompilerar PPU-moduler</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -5240,12 +5244,12 @@ File was too small.</source>
     <message>
         <source>Mouse and keyboard are now used as emulated devices.</source>
         <comment>Mouse and keyboard emulated</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mus och tangentbord används nu som emulerade enheter.</translation>
     </message>
     <message>
         <source>Mouse and keyboard are now used as pad.</source>
         <comment>Mouse and keyboard pad</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mus och tangentbord används nu som kontroller.</translation>
     </message>
     <message>
         <source>ERROR: Game data is corrupted. The application will continue.</source>
@@ -6860,11 +6864,11 @@ Subject:</source>
     </message>
     <message>
         <source>Game List Icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikoner för spellista</translation>
     </message>
     <message>
         <source>Game List Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge för spellista</translation>
     </message>
     <message>
         <source>Game Categories</source>
@@ -6888,7 +6892,7 @@ Subject:</source>
     </message>
     <message>
         <source>Boot Test</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppstartstest</translation>
     </message>
     <message>
         <source>Boot Game</source>
@@ -6896,23 +6900,23 @@ Subject:</source>
     </message>
     <message>
         <source>Boot Savestate</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta upp sparat tillstånd</translation>
     </message>
     <message>
         <source>Install Packages/Raps/Edats</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera paket/Rap/Edat</translation>
     </message>
     <message>
         <source>Install application from a .pkg file</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera program från en .pkg-fil</translation>
     </message>
     <message>
         <source>Install Firmware</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera firmware</translation>
     </message>
     <message>
         <source>Install firmware from PS3UPDAT.PUP</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera firmware från PS3UPDAT.PUP</translation>
     </message>
     <message>
         <source>Pause</source>
@@ -6952,11 +6956,11 @@ Subject:</source>
     </message>
     <message>
         <source>Pads</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller</translation>
     </message>
     <message>
         <source>Configure controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera kontroller</translation>
     </message>
     <message>
         <source>Audio</source>
@@ -6988,7 +6992,7 @@ Subject:</source>
     </message>
     <message>
         <source>Configure advanced emulator settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera avancerade emulatorinställningar</translation>
     </message>
     <message>
         <source>Emulator</source>
@@ -6996,7 +7000,7 @@ Subject:</source>
     </message>
     <message>
         <source>Configure Emulator settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulatorinställningar</translation>
     </message>
     <message>
         <source>GUI</source>
@@ -7004,7 +7008,7 @@ Subject:</source>
     </message>
     <message>
         <source>Configure GUI settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera inställningar för grafiskt gränssnitt</translation>
     </message>
     <message>
         <source>Auto Pause</source>
@@ -7016,7 +7020,7 @@ Subject:</source>
     </message>
     <message>
         <source>Exit And Save Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta och spara logg</translation>
     </message>
     <message>
         <source>Exit RPCS3, move the log file to a custom location</source>
@@ -7040,11 +7044,11 @@ Subject:</source>
     </message>
     <message>
         <source>Save Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparat data</translation>
     </message>
     <message>
         <source>Manage save data</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera sparat data</translation>
     </message>
     <message>
         <source>Trophies</source>
@@ -7060,7 +7064,7 @@ Subject:</source>
     </message>
     <message>
         <source>Manage user accounts</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera användarkonton</translation>
     </message>
     <message>
         <source>Cg Disasm</source>
@@ -7080,11 +7084,11 @@ Subject:</source>
     </message>
     <message>
         <source>Decrypt PS3 Binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Avkryptera PS3-binärer</translation>
     </message>
     <message>
         <source>Extract MSELF</source>
-        <translation type="unfinished"></translation>
+        <translation>Extrahera MSELF</translation>
     </message>
     <message>
         <source>Extract PUP</source>
@@ -7092,7 +7096,7 @@ Subject:</source>
     </message>
     <message>
         <source>Extract Encrypted TAR</source>
-        <translation type="unfinished"></translation>
+        <translation>Extrahera krypterad TAR</translation>
     </message>
     <message>
         <source>Extract files from special .tar files inside PS3UPDAT.PUP</source>
@@ -7104,7 +7108,7 @@ Subject:</source>
     </message>
     <message>
         <source>Show Log/TTY</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa logg/TTY</translation>
     </message>
     <message>
         <source>Support Us</source>
@@ -7132,15 +7136,15 @@ Subject:</source>
     </message>
     <message>
         <source>Show Game Compatibility in Grid Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa spelkompatibilitet i rutnätsläge</translation>
     </message>
     <message>
         <source>Game List Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera spellista</translation>
     </message>
     <message>
         <source>RAP Files</source>
-        <translation type="unfinished"></translation>
+        <translation>RAP-filer</translation>
     </message>
     <message>
         <source>Check for Updates</source>
@@ -7148,7 +7152,7 @@ Subject:</source>
     </message>
     <message>
         <source>View The Welcome Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa välkomstdialogen</translation>
     </message>
     <message>
         <source>Virtual File System</source>
@@ -7156,19 +7160,19 @@ Subject:</source>
     </message>
     <message>
         <source>List Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Töm listan</translation>
     </message>
     <message>
         <source>List Freeze</source>
-        <translation type="unfinished"></translation>
+        <translation>Frys listan</translation>
     </message>
     <message>
         <source>Tiny</source>
-        <translation>Mycket litet</translation>
+        <translation>Mycket små</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation>Litet</translation>
+        <translation>Små</translation>
     </message>
     <message>
         <source>Medium</source>
@@ -7176,7 +7180,7 @@ Subject:</source>
     </message>
     <message>
         <source>Large</source>
-        <translation>Stort</translation>
+        <translation>Stora</translation>
     </message>
     <message>
         <source>List View</source>
@@ -7296,15 +7300,15 @@ Subject:</source>
     </message>
     <message>
         <source>Show Title Bars</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa titelrader</translation>
     </message>
     <message>
         <source>Create LLVM Caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa LLVM-cachar</translation>
     </message>
     <message>
         <source>Remove Custom Configurations</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort anpassade konfigurationer</translation>
     </message>
     <message>
         <source>Remove Custom Pad Configurations</source>
@@ -7380,7 +7384,7 @@ Subject:</source>
     </message>
     <message>
         <source>Stop And Create Savestate</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa och skapa sparat tillstånd</translation>
     </message>
     <message>
         <source>Game Patches</source>
@@ -7416,7 +7420,7 @@ Subject:</source>
     </message>
     <message>
         <source>Boot VSH/XMB</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta upp VSH/XMB</translation>
     </message>
     <message>
         <source>Patch Creator</source>
@@ -7516,7 +7520,7 @@ Subject:</source>
     </message>
     <message>
         <source>&amp;Play last played game</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spela senast spelade spel</translation>
     </message>
     <message>
         <source>Update Available!</source>
@@ -7593,11 +7597,11 @@ Subject:</source>
     </message>
     <message>
         <source>Boot Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppstart misslyckades</translation>
     </message>
     <message>
         <source>Booting failed: %1 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppstart misslyckades: %1 %2</translation>
     </message>
     <message>
         <source>Select (S)ELF To Boot</source>
@@ -7795,7 +7799,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>All mself files (*.mself *.MSELF);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla mself-filer (*.mself *.MSELF);;Alla filer (*.*)</translation>
     </message>
     <message>
         <source>Extraction Directory</source>
@@ -7803,7 +7807,7 @@ Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus sof
     </message>
     <message>
         <source>Select PS3UPDAT.PUP To Install</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj PS3UPDAT.PUP att installera</translation>
     </message>
     <message>
         <source>PS3 update file (PS3UPDAT.PUP);;All pup files (*.pup *.PUP);;All files (*.*)</source>
@@ -8184,7 +8188,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Adress</translation>
     </message>
     <message>
         <source>Words</source>
@@ -8192,7 +8196,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>%0</source>
-        <translation type="unfinished"></translation>
+        <translation>%0</translation>
     </message>
     <message>
         <source>Control</source>
@@ -8216,7 +8220,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktyg</translation>
     </message>
     <message>
         <source>View
@@ -8544,7 +8548,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>D-Pad</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsknappar</translation>
     </message>
     <message>
         <source>Up</source>
@@ -8580,7 +8584,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Left Stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster spak</translation>
     </message>
     <message>
         <source>Orientation Reset</source>
@@ -8608,7 +8612,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>%</source>
-        <translation type="unfinished"></translation>
+        <translation>%</translation>
     </message>
     <message>
         <source>Pressure Sensitivity Deadzone</source>
@@ -8780,7 +8784,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Right Stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger spak</translation>
     </message>
     <message>
         <source>PgUp</source>
@@ -8848,11 +8852,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Guitar</source>
-        <translation type="unfinished"></translation>
+        <translation>Gitarr</translation>
     </message>
     <message>
         <source>Drum</source>
-        <translation type="unfinished"></translation>
+        <translation>Trumma</translation>
     </message>
     <message>
         <source>DJ</source>
@@ -8868,11 +8872,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Skateboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Skateboard</translation>
     </message>
     <message>
         <source>GunCon 3</source>
-        <translation type="unfinished"></translation>
+        <translation>GunCon 3</translation>
     </message>
     <message>
         <source>Top Shot Elite</source>
@@ -8909,7 +8913,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <source>PS3 Controller</source>
         <comment>PlayStation 3 Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>PS3-handkontroller</translation>
     </message>
     <message>
         <source>Dance Dance Revolution</source>
@@ -8924,27 +8928,27 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Drum Kit</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rock Band</translation>
     </message>
     <message>
         <source>Rock Band Pro</source>
         <comment>Harmonix Rock Band Pro-Drum Kit</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rock Band Pro</translation>
     </message>
     <message>
         <source>Rock Band</source>
         <comment>Harmonix Rock Band Guitar</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rock Band</translation>
     </message>
     <message>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Drum Kit</comment>
-        <translation type="unfinished"></translation>
+        <translation>Guitar Hero</translation>
     </message>
     <message>
         <source>Guitar Hero</source>
         <comment>RedOctane Guitar Hero Guitar</comment>
-        <translation type="unfinished"></translation>
+        <translation>Guitar Hero</translation>
     </message>
     <message>
         <source>Rock Revolution</source>
@@ -8964,7 +8968,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <source>GunCon 3</source>
         <comment>GunCon 3 Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>GunCon 3</translation>
     </message>
     <message>
         <source>Top Shot Elite</source>
@@ -8995,7 +8999,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Name cannot be empty</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnet får inte vara tomt</translation>
     </message>
     <message>
         <source>Must choose a name without &apos;.&apos;</source>
@@ -9043,7 +9047,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>XInput</source>
-        <translation type="unfinished"></translation>
+        <translation>XInput</translation>
     </message>
     <message>
         <source>MMJoystick</source>
@@ -9055,7 +9059,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Evdev</source>
-        <translation type="unfinished"></translation>
+        <translation>Evdev</translation>
     </message>
     <message>
         <source>Default Null Device</source>
@@ -9122,15 +9126,15 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollsumma</translation>
     </message>
     <message>
         <source>Patch Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchversion</translation>
     </message>
     <message>
         <source>Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteckningar</translation>
     </message>
     <message>
         <source>Author</source>
@@ -9142,15 +9146,15 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Patch Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchnamn</translation>
     </message>
     <message>
         <source>Game</source>
-        <translation type="unfinished"></translation>
+        <translation>Spel</translation>
     </message>
     <message>
         <source>Title ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel-id</translation>
     </message>
     <message>
         <source>Game Versions</source>
@@ -9162,7 +9166,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>&amp;Add Instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lägg till instruktion</translation>
     </message>
     <message>
         <source>&amp;Add Instruction Above</source>
@@ -9227,7 +9231,7 @@ The export of invalid patches is not allowed.</source>
     <name>patch_manager_dialog</name>
     <message>
         <source>Patch Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchhanterare</translation>
     </message>
     <message>
         <source>Filter patches</source>
@@ -9239,7 +9243,7 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Patch Information</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchinformation</translation>
     </message>
     <message>
         <source>Game Title</source>
@@ -9255,7 +9259,7 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Hash</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollsumma</translation>
     </message>
     <message>
         <source>Description</source>
@@ -9263,7 +9267,7 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Patch Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchversion</translation>
     </message>
     <message>
         <source>Author</source>
@@ -9293,15 +9297,15 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
     </message>
     <message>
         <source>Show Patch File</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa patchfil</translation>
     </message>
     <message>
         <source>Remove Patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort patch</translation>
     </message>
     <message>
         <source>Remove Patch?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort patch?</translation>
     </message>
     <message>
         <source>Do you really want to remove the selected patch?
@@ -9326,7 +9330,7 @@ This action is immediate and irreversible!</source>
     </message>
     <message>
         <source>Collapse</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll in</translation>
     </message>
     <message>
         <source>Expand Children</source>
@@ -9338,15 +9342,15 @@ This action is immediate and irreversible!</source>
     </message>
     <message>
         <source>Expand</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ut</translation>
     </message>
     <message>
         <source>Expand All</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ut alla</translation>
     </message>
     <message>
         <source>Collapse All</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll in alla</translation>
     </message>
     <message>
         <source>What do you want to do with the patch file?</source>
@@ -9369,7 +9373,7 @@ Log:
     </message>
     <message>
         <source>Nothing to import</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingenting att importera</translation>
     </message>
     <message>
         <source>None of the found %0 patches were imported.%1</source>
@@ -9424,15 +9428,15 @@ Log:
     </message>
     <message>
         <source>%0</source>
-        <translation type="unfinished"></translation>
+        <translation>%0</translation>
     </message>
     <message>
         <source>Downloading latest patches</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar senaste patchar</translation>
     </message>
     <message>
         <source>Download successful</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtningen lyckades</translation>
     </message>
     <message>
         <source>Your patch file is already up to date.</source>
@@ -9440,7 +9444,7 @@ Log:
     </message>
     <message>
         <source>Update patches?</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera patchar?</translation>
     </message>
     <message>
         <source>New patches are available.
@@ -9469,7 +9473,7 @@ Log:
     </message>
     <message>
         <source>All serials</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla serienummer</translation>
     </message>
     <message>
         <source>All versions</source>
@@ -10125,7 +10129,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Please enter your new password:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange ditt nya lösenord:</translation>
     </message>
     <message>
         <source>The username/token pair is invalid!</source>
@@ -10146,7 +10150,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Your password has been successfully changed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ditt lösenord har nu ändrats!</translation>
     </message>
 </context>
 <context>
@@ -11656,15 +11660,15 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>UI Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Färger för grafiskt gränssnitt</translation>
     </message>
     <message>
         <source>Use custom UI Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd anpassade färger för grafikt gränssnitt</translation>
     </message>
     <message>
         <source>Gamelist icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikoner för spellista</translation>
     </message>
     <message>
         <source>Save manager icons</source>
@@ -11676,7 +11680,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg</translation>
     </message>
     <message>
         <source>Maximum log blocks (0 = no limit)</source>
@@ -11704,15 +11708,15 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Show Welcome Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa välkomstskärm</translation>
     </message>
     <message>
         <source>Show Exit Game Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa dialog för avsluta spel</translation>
     </message>
     <message>
         <source>Show Boot Game Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa dialog för starta upp spel</translation>
     </message>
     <message>
         <source>Show PKG Installation Dialog</source>
@@ -11732,7 +11736,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Show Restart Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa omstartsdialog</translation>
     </message>
     <message>
         <source>Check for updates on startup</source>
@@ -11764,7 +11768,7 @@ Note that the reset password token is different from the email verification toke
     </message>
     <message>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Felsök</translation>
     </message>
     <message>
         <source>Debug Output</source>
@@ -12288,11 +12292,11 @@ Preview:
     </message>
     <message>
         <source>Main Window Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Genvägar för huvudfönstret</translation>
     </message>
     <message>
         <source>Game Window Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Genvägar för spelfönstret</translation>
     </message>
 </context>
 <context>
@@ -12639,27 +12643,27 @@ Please contact a developer.</source>
     </message>
     <message>
         <source>Platinum Relevant</source>
-        <translation type="unfinished"></translation>
+        <translation>Platina relevant</translation>
     </message>
     <message>
         <source>Show Platinum Relevant</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa Platina relevant</translation>
     </message>
     <message>
         <source>Time Unlocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Tid upplåst</translation>
     </message>
     <message>
         <source>Show Time Unlocked</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa Tid upplåst</translation>
     </message>
     <message>
         <source>Show Not Earned Trophies</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa inte förtjänade troféer</translation>
     </message>
     <message>
         <source>Show Earned Trophies</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa förtjänade troféer</translation>
     </message>
     <message>
         <source>Show Hidden Trophies</source>
@@ -12679,11 +12683,11 @@ Please contact a developer.</source>
     </message>
     <message>
         <source>Show Platinum Trophies</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa platinatroféer</translation>
     </message>
     <message>
         <source>Trophy Icon Size: %0x%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonstorlek för trofé: %0x%1</translation>
     </message>
     <message>
         <source>Game Icon Size: %0x%1</source>
@@ -12699,7 +12703,7 @@ Please contact a developer.</source>
     </message>
     <message>
         <source>Trophy View Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Visningsalternativ för troféer</translation>
     </message>
     <message>
         <source>Icon Options</source>
@@ -12739,15 +12743,15 @@ Please contact a developer.</source>
     </message>
     <message>
         <source>Platinum trophies can only be unlocked ingame.</source>
-        <translation type="unfinished"></translation>
+        <translation>Platinatroféer kan endast låsas upp i spelet.</translation>
     </message>
     <message>
         <source>Earned</source>
-        <translation type="unfinished"></translation>
+        <translation>Förtjänad</translation>
     </message>
     <message>
         <source>Not Earned</source>
-        <translation type="unfinished"></translation>
+        <translation>Inte förtjänad</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -12764,7 +12768,8 @@ Please contact a developer.</source>
     <message>
         <source>Are you sure you want to delete the trophies for:
 %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill ta bort troféerna för:
+%1?</translation>
     </message>
     <message>
         <source>Loading trophies</source>
@@ -12838,12 +12843,13 @@ Please contact a developer.</source>
     <name>update_manager</name>
     <message>
         <source>Auto-updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk uppdatering</translation>
     </message>
     <message>
         <source>An error occurred during the auto-updating process.
 Check the log for more information.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel inträffade under automatisk uppdateringsprocess.
+Kontrollera loggen för mer information.</translation>
     </message>
     <message>
         <source>Checking For Updates</source>
@@ -12855,23 +12861,23 @@ Check the log for more information.</source>
     </message>
     <message>
         <source>&lt;br&gt;You can empower our project at &lt;a href=&quot;https://rpcs3.net/patreon&quot;&gt;RPCS3 Patreon&lt;/a&gt;.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br&gt;Du kan hjälpa vårt projekt på &lt;a href=&quot;https://rpcs3.net/patreon&quot;&gt;RPCS3 Patreon&lt;/a&gt;.&lt;br&gt;</translation>
     </message>
     <message>
         <source>A better version of RPCS3 is available!&lt;br&gt;&lt;br&gt;Current version: %0 (%1)&lt;br&gt;Better version: %2 (%3)&lt;br&gt;%4&lt;br&gt;Do you want to update?</source>
-        <translation type="unfinished"></translation>
+        <translation>En bättre version av RPCS3 finns tillgänglig!&lt;br&gt;&lt;br&gt;Aktuell version: %0 (%1)&lt;br&gt;Bättre version: %2 (%3)&lt;br&gt;%4&lt;br&gt;Vill du uppdatera?</translation>
     </message>
     <message>
         <source>A new version of RPCS3 is available!&lt;br&gt;&lt;br&gt;Current version: %0 (%1)&lt;br&gt;Latest version: %2 (%3)&lt;br&gt;Your version is %4 behind.&lt;br&gt;%5&lt;br&gt;Do you want to update?</source>
-        <translation type="unfinished"></translation>
+        <translation>En ny version av RPCS3 finns tillgänglig!&lt;br&gt;&lt;br&gt;Aktuell version: %0 (%1)&lt;br&gt;Senaste version: %2 (%3)&lt;br&gt;Din version är %4 bakom.&lt;br&gt;%5&lt;br&gt;Vill du uppdatera?</translation>
     </message>
     <message>
         <source>You&apos;re currently using a custom or PR build.&lt;br&gt;&lt;br&gt;Latest version: %0 (%1)&lt;br&gt;The latest version is %2 old.&lt;br&gt;%3&lt;br&gt;Do you want to update to the latest official RPCS3 version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du använder för närvarande en anpassad eller PR-byggnation.&lt;br&gt;&lt;br&gt;Senaste version: %0 (%1)&lt;br&gt;Senaste versionen är %2 gammal.&lt;br&gt;%3&lt;br&gt;Vill du uppdatera till senaste officiella RPCS3-versionen?</translation>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>Inte tillgänglig</translation>
     </message>
     <message>
         <source>• %0: %1</source>
@@ -12887,7 +12893,7 @@ Check the log for more information.</source>
     </message>
     <message>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>För att se ändringloggen, klicka på &quot;Visa detaljer&quot;.</translation>
     </message>
     <message>
         <source>Changelog:
@@ -12899,7 +12905,7 @@ Check the log for more information.</source>
     </message>
     <message>
         <source>Please stop the emulation before trying to update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa emuleringen innan du försöker uppdatera.</translation>
     </message>
     <message>
         <source>Downloading Update</source>
@@ -12911,7 +12917,7 @@ Check the log for more information.</source>
     </message>
     <message>
         <source>Update successful!&lt;br&gt;RPCS3 will now restart.&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdateringen lyckades!&lt;br&gt;RPCS3 kommer nu startas om.&lt;br&gt;</translation>
     </message>
 </context>
 <context>
@@ -13180,7 +13186,7 @@ Stop the emulator now?</source>
         <translation>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 är en Sony PlayStation 3-emulator och felsökare baserad på öppen källkod.&lt;br&gt;
-				Den är skriven i C++ för Windows, Linux, FreeBSD samt MacOS och är finansierad med &lt;a %0 href=&quot;https://rpcs3.net/patreon&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
+				Den är skriven i C++ för Windows, Linux, FreeBSD samt MacOS och är finansierad via &lt;a %0 href=&quot;https://rpcs3.net/patreon&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
 				Våra utvecklare och bidragsgivare arbetar alltid hårt för att försäkra att detta projekt blir det bästa det kan bli.&lt;br&gt;
 				Det finns fortfarande mycket mer att göra med implementationer och optimeringar.
 			&lt;/p&gt;
