@@ -3,6 +3,6 @@ $ lrelease VirtualBox_sv.ts
 
 Updating 'VirtualBox_sv.qm'...
 
-    Genererade 2779 översättningar (2779 slutförda och 0 oavslutade)
+    Genererade 2835 översättningar (2835 slutförda och 0 oavslutade)
     
-    Ignorerade 656 oöversatta källtexter
+    Ignorerade 600 oöversatta källtexter
