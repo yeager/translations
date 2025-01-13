@@ -1327,7 +1327,7 @@ Simulated is only available in custom configurations.</source>
     </message>
     <message>
         <source>DNS used to resolve hostnames by applications.</source>
-        <translation type="unfinished"></translation>
+        <translation>DNS används för att slå upp värdnamn för program.</translation>
     </message>
     <message>
         <source>DNS Swap List.
@@ -1346,7 +1346,7 @@ This will automatically forward ports bound on 0.0.0.0 if your router has UPNP e
     </message>
     <message>
         <source>Changes the RPCN country.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrar RPCN-landet.</translation>
     </message>
     <message>
         <source>The console region defines the license area of the PS3.
@@ -1373,7 +1373,8 @@ In these cases having the cross button assigned can often lead to confusion.</so
     <message>
         <source>Required for some Homebrew.
 If unsure, do not use this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Krävs för vissa Homebrew.
+Om osäker, använd inte detta alternativ.</translation>
     </message>
     <message>
         <source>Required for some Homebrew or Game Mods.
@@ -1839,7 +1840,8 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <message>
         <source>The selected camera is not available.
 It might be blocked by another application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda kameran är inte tillgänglig.
+Den kanske blockeras av ett annat program.</translation>
     </message>
     <message>
         <source>%0x%1, %2-%3 FPS, Format=%4</source>
@@ -1858,23 +1860,23 @@ It might be blocked by another application.</source>
     <name>cg_disasm_window</name>
     <message>
         <source>Cg Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation>Cg Disasm</translation>
     </message>
     <message>
         <source>&amp;Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Töm</translation>
     </message>
     <message>
         <source>Open &amp;Cg binary program</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna binära &amp;Cg-programmet</translation>
     </message>
     <message>
         <source>Select Cg program object</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj Cg-programobjekt</translation>
     </message>
     <message>
         <source>Cg program objects (*.fpo;*.vpo);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Cg-programobjekt (*.fpo;*.vpo);;</translation>
     </message>
 </context>
 <context>
@@ -1971,15 +1973,15 @@ Några inställningar verkar skilja sig från standardkonfigurationen:</translat
     <name>debugger_frame</name>
     <message>
         <source>Debugger [Press F1 for Help]</source>
-        <translation type="unfinished"></translation>
+        <translation>Felsökare [Tryck F1 för hjälp]</translation>
     </message>
     <message>
         <source>Choose a thread</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en tråd</translation>
     </message>
     <message>
         <source>Go To Address</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till adress</translation>
     </message>
     <message>
         <source>Go To PC</source>
@@ -1987,19 +1989,19 @@ Några inställningar verkar skilja sig från standardkonfigurationen:</translat
     </message>
     <message>
         <source>Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Stega</translation>
     </message>
     <message>
         <source>Step Over</source>
-        <translation type="unfinished"></translation>
+        <translation>Stega över</translation>
     </message>
     <message>
         <source>Breakpoint Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Brytpunktsinställningar</translation>
     </message>
     <message>
         <source>Pause All Threads On Hit</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausa alla trådar vid träff</translation>
     </message>
     <message>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
@@ -2063,7 +2065,7 @@ Double-click: Set breakpoints.</source>
     </message>
     <message>
         <source>Source Address: </source>
-        <translation type="unfinished"></translation>
+        <translation>Källadress: </translation>
     </message>
     <message>
         <source>Load PC: </source>
@@ -5895,7 +5897,9 @@ Subject:</source>
 
 Subject:</source>
         <comment>SENDMESSAGE_DIALOG</comment>
-        <translation type="unfinished"></translation>
+        <translation>Skicka vänförfrågan till %0 ?
+
+Ämne:</translation>
     </message>
     <message>
         <source>Recording aborted!</source>
@@ -5919,7 +5923,7 @@ Subject:</source>
     </message>
     <message>
         <source>RPCN Connection Error</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCN Anslutningsfel</translation>
     </message>
     <message>
         <source>RPCN Login Error: Identification Error</source>
@@ -5961,22 +5965,22 @@ Subject:</source>
     <message>
         <source>RPCN: Friend added: %0</source>
         <comment>RCPN Friends</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Vän lades till: %0</translation>
     </message>
     <message>
         <source>RPCN: Friend removed: %0</source>
         <comment>RCPN Friends</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Vän togs bort: %0</translation>
     </message>
     <message>
         <source>RPCN: %0 logged in</source>
         <comment>RCPN Friends</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: %0 loggade in</translation>
     </message>
     <message>
         <source>RPCN: %0 logged out</source>
         <comment>RCPN Friends</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: %0 loggade ut</translation>
     </message>
     <message>
         <source>Home Menu</source>
@@ -6182,12 +6186,12 @@ Subject:</source>
     <message>
         <source>Show PS Move Cursor</source>
         <comment>Input</comment>
-        <translation type="unfinished"></translation>
+        <translation>Visa PS Move-markör</translation>
     </message>
     <message>
         <source>Camera Flip</source>
         <comment>Input</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vänd kamera</translation>
     </message>
     <message>
         <source>Pad Handler Mode</source>
@@ -6255,7 +6259,7 @@ Subject:</source>
     </message>
     <message>
         <source>Overlays</source>
-        <translation type="unfinished"></translation>
+        <translation>Överlägg</translation>
     </message>
     <message>
         <source>Show Trophy Popups</source>
@@ -6309,7 +6313,7 @@ Subject:</source>
     <message>
         <source>Enable Framerate Graph</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera bildfrekvensgraf</translation>
     </message>
     <message>
         <source>Enable Frametime Graph</source>
@@ -6319,7 +6323,7 @@ Subject:</source>
     <message>
         <source>Detail level</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Detaljnivå</translation>
     </message>
     <message>
         <source>Framerate Graph Detail Level</source>
@@ -6354,22 +6358,22 @@ Subject:</source>
     <message>
         <source>Center Horizontally</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Centrera horisontellt</translation>
     </message>
     <message>
         <source>Center Vertically</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Centrera vertikalt</translation>
     </message>
     <message>
         <source>Horizontal Margin</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Horisontell marginal</translation>
     </message>
     <message>
         <source>Vertical Margin</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal marginal</translation>
     </message>
     <message>
         <source>Font Size</source>
@@ -6383,7 +6387,7 @@ Subject:</source>
     </message>
     <message>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Felsök</translation>
     </message>
     <message>
         <source>Debug Overlay</source>
@@ -6415,11 +6419,11 @@ Subject:</source>
     </message>
     <message>
         <source>Save Emulation State</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara emuleringstillstånd</translation>
     </message>
     <message>
         <source>Save Emulation State And Exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara emuleringstillstånd och avsluta</translation>
     </message>
     <message>
         <source>Reload Last Emulation State</source>
@@ -6451,7 +6455,7 @@ Subject:</source>
     </message>
     <message>
         <source>Platinum relevant</source>
-        <translation type="unfinished"></translation>
+        <translation>Platina relevant</translation>
     </message>
     <message>
         <source>Bronze</source>
@@ -6526,7 +6530,7 @@ Subject:</source>
     </message>
     <message>
         <source>Creating savestate. Please wait...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar sparat tillstånd. Vänta...</translation>
     </message>
     <message>
         <source>Scanning PPU Executable...</source>
@@ -8405,11 +8409,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     <name>msg_dialog_frame</name>
     <message>
         <source>Normal dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal dialog</translation>
     </message>
     <message>
         <source>Error dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Feldialog</translation>
     </message>
     <message>
         <source>&amp;Yes</source>
@@ -8534,7 +8538,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Handlers</source>
-        <translation type="unfinished"></translation>
+        <translation>Hanterare</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -8638,7 +8642,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Enable Vibration</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera vibration</translation>
     </message>
     <message>
         <source>Large</source>
@@ -12872,22 +12876,26 @@ Please contact a developer.</source>
     <message>
         <source>You have earned the Bronze trophy.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat bronstrofén.
+%1</translation>
     </message>
     <message>
         <source>You have earned the Silver trophy.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat silvertrofén.
+%1</translation>
     </message>
     <message>
         <source>You have earned the Gold trophy.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat guldtrofén.
+%1</translation>
     </message>
     <message>
         <source>You have earned the Platinum trophy.
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har förtjänat platinatrofén.
+%1</translation>
     </message>
 </context>
 <context>
