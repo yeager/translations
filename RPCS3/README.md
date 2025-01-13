@@ -7,10 +7,15 @@ Release the file in Linguist to create the .qm file (or use Qt lrelease)
 
 Copy the .qm file to qt6/translations, start RPCS3 and select your language from the Help menu.
 
+.
 
 $ lrelease *ts
+
 Updating 'rpcs3_sv.qm'...
+
     Genererade 1704 översättningar (1704 slutförda och 0 oavslutade)
+    
     Ignorerade 1201 oöversatta källtexter
+    
 
 ![image](https://github.com/user-attachments/assets/7367b87b-fd1e-4d05-b2ed-9085af1d8997)
