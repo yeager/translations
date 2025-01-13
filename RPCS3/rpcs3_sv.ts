@@ -7663,7 +7663,10 @@ Subject:</source>
 
 Path:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Det valda paketet är ogiltigt!
+
+Sökväg:
+%0</translation>
     </message>
     <message>
         <source>
@@ -7959,7 +7962,7 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     </message>
     <message>
         <source>Enter KLIC of %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange KLIC för %0</translation>
     </message>
     <message>
         <source>Decryption failed with provided KLIC.
@@ -7968,7 +7971,7 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     </message>
     <message>
         <source>Hexadecimal value.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hexadecimalt värde.</translation>
     </message>
     <message>
         <source>Restart %0</source>
@@ -8008,30 +8011,33 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     </message>
     <message>
         <source>Add Start menu shortcut(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till genväg(ar) på startmenyn</translation>
     </message>
     <message>
         <source>Add dock shortcut(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till dockgenväg(ar)</translation>
     </message>
     <message>
         <source>Add launcher shortcut(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till genväg(ar) på Launcher</translation>
     </message>
     <message>
         <source>Precompile caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkompilera cachar</translation>
     </message>
     <message>
         <source>%1
 Would you like to install shortcuts to the installed software and precompile caches? (%2 new software detected)
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>%1
+Vill du installera genvägar till den installerade programvaran och förkompilera cachar? (%2 ny programvara upptäcktes)
+
+</translation>
     </message>
     <message>
         <source>Spend time building data needed for game boot now instead of at launch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spendera tid nu för att bygga data som behövs för att starta upp spel istället för vid uppstart.</translation>
     </message>
     <message>
         <source>Select a folder containing one or more games</source>
@@ -8039,7 +8045,7 @@ Would you like to install shortcuts to the installed software and precompile cac
     </message>
     <message>
         <source>Failed to locate log</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att hitta loggen</translation>
     </message>
     <message>
         <source>Failed to locate log files.
