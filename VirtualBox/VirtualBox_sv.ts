@@ -1640,7 +1640,7 @@
     </message>
     <message>
         <source>Open Host-only Network Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna egenskaper för endast-värd-nätverk</translation>
     </message>
     <message>
         <source>Refresh Host-only Networks</source>
@@ -1805,7 +1805,7 @@
     </message>
     <message>
         <source>&amp;Activity Overview...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aktivitetsöversikt...</translation>
     </message>
     <message>
         <source>Activity Monitor</source>
@@ -2692,15 +2692,15 @@
     </message>
     <message>
         <source>Holds the amount of base memory the virtual machine will have.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller mängden basminne som den virtuella maskinen ska ha.</translation>
     </message>
     <message>
         <source>Minimum possible base memory size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minsta möjliga storlek för basminnet.</translation>
     </message>
     <message>
         <source>Maximum possible base memory size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximal möjlig storlek för basminnet.</translation>
     </message>
 </context>
 <context>
@@ -4500,7 +4500,7 @@
     <message>
         <source>Settings File Location</source>
         <comment>details (general)</comment>
-        <translation type="unfinished"></translation>
+        <translation>Plats för inställningsfil</translation>
     </message>
     <message>
         <source>Groups</source>
@@ -4854,7 +4854,7 @@
     <message>
         <source>Graphics Controller</source>
         <comment>details (display)</comment>
-        <translation type="unfinished"></translation>
+        <translation>Grafikkontroller</translation>
     </message>
     <message>
         <source>USB 1.1 (OHCI) Controller</source>
@@ -5234,7 +5234,7 @@
     <message>
         <source>Result&amp;nbsp;Code:</source>
         <comment>error info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Resultatkod:</translation>
     </message>
     <message>
         <source>Component:</source>
@@ -5249,17 +5249,17 @@
     <message>
         <source>Callee:</source>
         <comment>error info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Anropare:</translation>
     </message>
     <message>
         <source>Callee&amp;nbsp;RC:</source>
         <comment>error info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Anropare&amp;nbsp;RC:</translation>
     </message>
     <message>
         <source>Result&amp;nbsp;Detail:</source>
         <comment>error info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Resultatdetaij:</translation>
     </message>
 </context>
 <context>
@@ -6815,7 +6815,7 @@
     </message>
     <message>
         <source>The virtual machine is configured to use 3D acceleration. This will work only if you pick a different graphics controller (%1). Either disable 3D acceleration or switch to required graphics controller type. The latter will be done automatically if you confirm your changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den virtuella maskinen är konfigurerad att använda 3D-acceleration. Detta fungerar endast om du väljer en annan grafikkontroller (%1). Antingen inaktivera 3D-acceleration eller växla till nödvändig grafikkontrollertyp. Den senare kommer att väljas automatiskt om du bekräftar dina ändringar.</translation>
     </message>
     <message>
         <source>The virtual machine is configured to use a graphics controller other than the recommended one (%1). Please consider switching unless you have a reason to keep the currently selected graphics controller.</source>
@@ -9868,7 +9868,7 @@
     <message>
         <source>Not selected</source>
         <comment>network adapter name</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inte vald</translation>
     </message>
     <message>
         <source>Holds the name of the internal network that this network card will be connected to. You can create a new internal network by choosing a name which is not used by any other network cards in this virtual machine or others.</source>
@@ -12108,7 +12108,7 @@
     </message>
     <message>
         <source>Adds new storage attachment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägger till ny lagringsanslutning.</translation>
     </message>
     <message>
         <source>Removes selected storage attachment.</source>
@@ -12140,11 +12140,11 @@
     </message>
     <message>
         <source>Choose/Create a Virtual Hard Disk...</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj/skapa en virtuell hårddisk...</translation>
     </message>
     <message>
         <source>Choose/Create a Virtual Optical Disk...</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj/skapa en virtuell optisk disk...</translation>
     </message>
     <message>
         <source>Choose/Create a Virtual Floppy Disk...</source>
@@ -12176,7 +12176,7 @@
     </message>
     <message>
         <source>Remove Disk From Virtual Drive</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort disk från virtuell enhet</translation>
     </message>
 </context>
 <context>
@@ -13115,11 +13115,11 @@
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ</translation>
     </message>
     <message>
         <source>Show Pie Chart</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa pajdiagram</translation>
     </message>
     <message>
         <source>Draw Area Chart</source>
@@ -13127,19 +13127,19 @@
     </message>
     <message>
         <source>CPU Load</source>
-        <translation type="unfinished"></translation>
+        <translation>CPU-last</translation>
     </message>
     <message>
         <source>Guest Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Gästlast</translation>
     </message>
     <message>
         <source>VMM Load</source>
-        <translation type="unfinished"></translation>
+        <translation>VMM-last</translation>
     </message>
     <message>
         <source>RAM Usage</source>
-        <translation type="unfinished"></translation>
+        <translation>RAM-användning</translation>
     </message>
     <message>
         <source>Total</source>
@@ -13155,43 +13155,43 @@
     </message>
     <message>
         <source>Network Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätverksfrekvens</translation>
     </message>
     <message>
         <source>Receive Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Mottagningsfrekvens</translation>
     </message>
     <message>
         <source>Transmit Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Sändningsfrekvens</translation>
     </message>
     <message>
         <source>Total Received</source>
-        <translation type="unfinished"></translation>
+        <translation>Totalt mottaget</translation>
     </message>
     <message>
         <source>Total Transmitted</source>
-        <translation type="unfinished"></translation>
+        <translation>Totalt skickat</translation>
     </message>
     <message>
         <source>Write Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivfrekvens</translation>
     </message>
     <message>
         <source>Read Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Läsfrekvens</translation>
     </message>
     <message>
         <source>Total Written</source>
-        <translation type="unfinished"></translation>
+        <translation>Totalt skrivet</translation>
     </message>
     <message>
         <source>Total Read</source>
-        <translation type="unfinished"></translation>
+        <translation>Totalt läst</translation>
     </message>
     <message>
         <source>VM Exits</source>
-        <translation type="unfinished"></translation>
+        <translation>VM-avslut</translation>
     </message>
     <message>
         <source>Current</source>
@@ -13207,7 +13207,7 @@
     </message>
     <message>
         <source>VM Uptime</source>
-        <translation type="unfinished"></translation>
+        <translation>VM-upptid</translation>
     </message>
     <message>
         <source>Clipboard Mode</source>
@@ -13215,11 +13215,11 @@
     </message>
     <message>
         <source>Drag and Drop Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra och släpp-läge</translation>
     </message>
     <message>
         <source>VM Execution Engine</source>
-        <translation type="unfinished"></translation>
+        <translation>VM-körningsmotor</translation>
     </message>
     <message>
         <source>Nested Paging</source>
@@ -13231,7 +13231,7 @@
     </message>
     <message>
         <source>Paravirtualization Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Paravirtualiseringsgränssnitt</translation>
     </message>
     <message>
         <source>Guest Additions</source>
@@ -13247,12 +13247,12 @@
     </message>
     <message>
         <source>&amp;Guest Control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gästkontroll</translation>
     </message>
     <message>
         <source>turned off</source>
         <comment>Screen</comment>
-        <translation type="unfinished"></translation>
+        <translation>avstängd</translation>
     </message>
     <message>
         <source>Active</source>
@@ -13282,17 +13282,17 @@
     <message>
         <source>not set</source>
         <comment>Execution Engine</comment>
-        <translation type="unfinished"></translation>
+        <translation>inte inställd</translation>
     </message>
     <message>
         <source>Not Detected</source>
         <comment>Guest OS Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inte upptäckt</translation>
     </message>
     <message>
         <source>Not Detected</source>
         <comment>Guest Additions Version</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inte upptäckt</translation>
     </message>
     <message>
         <source>Copy All</source>
@@ -13300,7 +13300,7 @@
     </message>
     <message>
         <source>VM &amp;Activity</source>
-        <translation type="unfinished"></translation>
+        <translation>VM-&amp;aktivitet</translation>
     </message>
     <message>
         <source>Close</source>
@@ -13328,7 +13328,7 @@
     </message>
     <message>
         <source>This metric requires guest additions to work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta mättal kräver gästtillägg för att fungera.</translation>
     </message>
     <message>
         <source>Export</source>
@@ -13336,37 +13336,37 @@
     </message>
     <message>
         <source>Export activity data of the machine &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera aktivitetsdata för maskinen &quot;%1&quot;</translation>
     </message>
     <message>
         <source>Displays the configuration details of the guest system</source>
-        <translation type="unfinished"></translation>
+        <translation>Visar konfigurationsdetaljer för gästsystemet</translation>
     </message>
     <message>
         <source>Displays the runtime information of the guest system</source>
-        <translation type="unfinished"></translation>
+        <translation>Visar körtidsinformation för gästsystemet</translation>
     </message>
     <message>
         <source>Change 1st Dataseries&apos; Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra första dataseriens färg</translation>
     </message>
     <message>
         <source>Change 2nd Dataseries&apos; Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra andra dataseriens färg</translation>
     </message>
     <message>
         <source>Disk IO</source>
-        <translation type="unfinished"></translation>
+        <translation>Disk in/ut</translation>
     </message>
     <message>
         <source>Sec.</source>
         <comment>short from seconds</comment>
-        <translation type="unfinished"></translation>
+        <translation>s.</translation>
     </message>
     <message>
         <source>Min.</source>
         <comment>short from minutes</comment>
-        <translation type="unfinished"></translation>
+        <translation>min.</translation>
     </message>
 </context>
 <context>
@@ -14175,19 +14175,19 @@
     </message>
     <message>
         <source>Open Virtualization Format 0.9</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Virtualization Format 0.9</translation>
     </message>
     <message>
         <source>Open Virtualization Format 1.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Virtualization Format 1.0</translation>
     </message>
     <message>
         <source>Open Virtualization Format 2.0</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Virtualization Format 2.0</translation>
     </message>
     <message>
         <source>Write in new OVF 2.0 format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv i nya OVF 2.0-formatet.</translation>
     </message>
     <message>
         <source>&lt;p&gt;Please choose a format to export the virtual appliance to.&lt;/p&gt;&lt;p&gt;The &lt;b&gt;Open Virtualization Format&lt;/b&gt; supports only &lt;b&gt;ovf&lt;/b&gt; or &lt;b&gt;ova&lt;/b&gt; extensions. If you use the &lt;b&gt;ovf&lt;/b&gt; extension, several files will be written separately. If you use the &lt;b&gt;ova&lt;/b&gt; extension, all the files will be combined into one Open Virtualization Format archive.&lt;/p&gt;&lt;p&gt;The &lt;b&gt;Oracle Cloud Infrastructure&lt;/b&gt; format supports exporting to remote cloud servers only. Main virtual disk of each selected machine will be uploaded to remote server.&lt;/p&gt;</source>
@@ -14199,7 +14199,7 @@
     </message>
     <message>
         <source>Export to cloud service provider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera till molntjänstleverantör.</translation>
     </message>
     <message>
         <source>MAC Address &amp;Policy:</source>
@@ -14231,15 +14231,15 @@
     </message>
     <message>
         <source>Additionally:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ytterligare:</translation>
     </message>
     <message>
         <source>&amp;Write Manifest file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skriv Manifest-fil</translation>
     </message>
     <message>
         <source>&amp;Include ISO image files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Inkludera ISO-avbildningsfiler</translation>
     </message>
     <message>
         <source>Include ISO image files into exported VM archive.</source>
@@ -14263,15 +14263,15 @@
     </message>
     <message>
         <source>Virtual &amp;machines</source>
-        <translation type="unfinished"></translation>
+        <translation>Virtuella &amp;maskiner</translation>
     </message>
     <message>
         <source>Format &amp;settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Format&amp;inställningar</translation>
     </message>
     <message>
         <source>&amp;Appliance settings</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Appliance-inställningar</translation>
     </message>
     <message>
         <source>&amp;Profile:</source>
@@ -14287,7 +14287,7 @@
     </message>
     <message>
         <source>Format settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Formatinställningar</translation>
     </message>
     <message>
         <source>Virtual machines</source>
@@ -14303,7 +14303,7 @@
     </message>
     <message>
         <source>Contains a list of Virtual Machines</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller en lista över virtuella maskiner</translation>
     </message>
     <message>
         <source>Selects cloud profile.</source>
@@ -14311,11 +14311,11 @@
     </message>
     <message>
         <source>Cloud Profile Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera molnprofiler</translation>
     </message>
     <message>
         <source>Opens cloud profile manager...</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppnar hanteraren för molnprofil...</translation>
     </message>
 </context>
 <context>
