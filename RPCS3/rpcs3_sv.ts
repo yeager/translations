@@ -1745,7 +1745,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     <name>basic_mouse_settings_dialog</name>
     <message>
         <source>Configure Basic Mouse Handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera grundläggande mushanterare</translation>
     </message>
     <message>
         <source>Confirm Reset</source>
@@ -2080,18 +2080,18 @@ Double-click: Set breakpoints.</source>
     </message>
     <message>
         <source>RSX Command Detail</source>
-        <translation type="unfinished"></translation>
+        <translation>RSX-kommandodetalj</translation>
     </message>
 </context>
 <context>
     <name>dimensions_dialog</name>
     <message>
         <source>Dimensions Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensions-hanterare</translation>
     </message>
     <message>
         <source>Active Dimensions Figures:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiva Dimensions-figurer:</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -2119,33 +2119,35 @@ Double-click: Set breakpoints.</source>
     </message>
     <message>
         <source>Select Dimensions File</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj Dimensions-fil</translation>
     </message>
     <message>
         <source>Dimensions Figure (*.bin);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensions-figur (*.bin);;</translation>
     </message>
     <message>
         <source>Failed to open the figure file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att öppna figurfilen!</translation>
     </message>
     <message>
         <source>Failed to open the figure file(%1)!
 File may already be in use on the base.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att öppna figurfilen (%1)
+Filen kanske redan används på plattan.</translation>
     </message>
     <message>
         <source>Failed to read the figure file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa figurfilen!</translation>
     </message>
     <message>
         <source>Failed to read the figure file(%1)!
 File was too small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa figurfilen (%1)!
+Filen var för liten.</translation>
     </message>
     <message>
         <source>Blank Tag</source>
-        <translation type="unfinished"></translation>
+        <translation>Blank tagg</translation>
     </message>
 </context>
 <context>
@@ -2469,7 +2471,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Auto</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>PS3 Native</source>
@@ -2489,12 +2491,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Auto</source>
         <comment>MSAA</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Auto</source>
         <comment>Shader Precision</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Ultra</source>
@@ -3004,7 +3006,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Auto</source>
         <comment>Audio Channel Layout</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Mono</source>
@@ -4597,11 +4599,11 @@ Några tråd har antagligen deadlocked. Avbryter.</translation>
     <name>infinity_dialog</name>
     <message>
         <source>Infinity Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinity-hanterare</translation>
     </message>
     <message>
         <source>Active Infinity Figures:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiva Infinity-figurer:</translation>
     </message>
     <message>
         <source>Play Set/Power Disc</source>
@@ -4665,25 +4667,27 @@ Några tråd har antagligen deadlocked. Avbryter.</translation>
     </message>
     <message>
         <source>Infinity Figure (*.bin);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinity-figur (*.bin);;</translation>
     </message>
     <message>
         <source>Failed to open the figure file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att öppna figurfilen!</translation>
     </message>
     <message>
         <source>Failed to open the figure file(%1)!
 File may already be in use on the base.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att öppna figurfilen (%1)
+Filen kanske redan används på plattan.</translation>
     </message>
     <message>
         <source>Failed to read the figure file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa figurfilen!</translation>
     </message>
     <message>
         <source>Failed to read the figure file(%1)!
 File was too small.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att läsa figurfilen (%1)!
+Filen var för liten.</translation>
     </message>
 </context>
 <context>
@@ -6605,7 +6609,7 @@ Subject:</source>
     <name>log_frame</name>
     <message>
         <source>Log</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg</translation>
     </message>
     <message>
         <source>Channel %0</source>
@@ -6637,7 +6641,7 @@ Subject:</source>
     </message>
     <message>
         <source>ANSI Code (TTY)</source>
-        <translation type="unfinished"></translation>
+        <translation>ANSI-kod (TTY)</translation>
     </message>
     <message>
         <source>Nothing</source>
@@ -6669,7 +6673,7 @@ Subject:</source>
     </message>
     <message>
         <source>Trace</source>
-        <translation type="unfinished"></translation>
+        <translation>Spåra</translation>
     </message>
     <message>
         <source>Stack Mode (Log)</source>
@@ -6681,7 +6685,7 @@ Subject:</source>
     </message>
     <message>
         <source>Show Thread Prefix</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa trådprefix</translation>
     </message>
     <message>
         <source>Enable TTY</source>
@@ -7343,7 +7347,7 @@ Subject:</source>
     </message>
     <message>
         <source>Remove All Caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort alla cachar</translation>
     </message>
     <message>
         <source>Remove Savestates</source>
@@ -7351,7 +7355,7 @@ Subject:</source>
     </message>
     <message>
         <source>Clean up Game List</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa upp i spellistan</translation>
     </message>
     <message>
         <source>Skylanders Portal</source>
@@ -7435,7 +7439,7 @@ Subject:</source>
     </message>
     <message>
         <source>Patch Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchskapare</translation>
     </message>
     <message>
         <source>Cameras</source>
@@ -7467,7 +7471,7 @@ Subject:</source>
     </message>
     <message>
         <source>GHLtar</source>
-        <translation type="unfinished"></translation>
+        <translation>GHLtar</translation>
     </message>
     <message>
         <source>Turntable</source>
@@ -7487,7 +7491,7 @@ Subject:</source>
     </message>
     <message>
         <source>GunCon 3</source>
-        <translation type="unfinished"></translation>
+        <translation>GunCon 3</translation>
     </message>
     <message>
         <source>Top Shot Elite</source>
@@ -7503,7 +7507,7 @@ Subject:</source>
     </message>
     <message>
         <source>Raw Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Rå mus</translation>
     </message>
     <message>
         <source>VFS Tool</source>
@@ -8123,7 +8127,7 @@ Check anyway?</source>
     </message>
     <message>
         <source>Confirm Removal</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta borttagning</translation>
     </message>
     <message>
         <source>Remove all caches?</source>
@@ -9259,11 +9263,11 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Filter patches</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrera patchar</translation>
     </message>
     <message>
         <source>Only show owned games</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast ägda spel</translation>
     </message>
     <message>
         <source>Patch Information</source>
@@ -9275,7 +9279,7 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Serial</source>
-        <translation type="unfinished"></translation>
+        <translation>Serienummer</translation>
     </message>
     <message>
         <source>Game Version</source>
@@ -9299,11 +9303,11 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteckningar</translation>
     </message>
     <message>
         <source>Configurable Values</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurerbara värden</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -9386,14 +9390,17 @@ This action is immediate and irreversible!</source>
     </message>
     <message>
         <source>Validate</source>
-        <translation type="unfinished"></translation>
+        <translation>Validera</translation>
     </message>
     <message>
         <source>
 
 Log:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>
+
+Logg:
+%0</translation>
     </message>
     <message>
         <source>Nothing to import</source>
@@ -9405,7 +9412,7 @@ Log:
     </message>
     <message>
         <source>Import successful</source>
-        <translation type="unfinished"></translation>
+        <translation>Importen lyckades</translation>
     </message>
     <message>
         <source>Imported %0/%1 patches to:
@@ -9414,7 +9421,7 @@ Log:
     </message>
     <message>
         <source>Import failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Importen misslyckades</translation>
     </message>
     <message>
         <source>The patch file could not be imported.
@@ -9425,7 +9432,7 @@ Log:
     </message>
     <message>
         <source>Validation successful</source>
-        <translation type="unfinished"></translation>
+        <translation>Validering lyckades</translation>
     </message>
     <message>
         <source>The patch file passed the validation.</source>
@@ -9433,7 +9440,7 @@ Log:
     </message>
     <message>
         <source>Validation failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Validering misslyckades</translation>
     </message>
     <message>
         <source>Errors were found in the patch file.
@@ -9474,7 +9481,9 @@ Log:
         <source>New patches are available.
 
 Do you want to update?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nya patchar finns tillgängliga.
+
+Vill du uppdatera?</translation>
     </message>
     <message>
         <source>Your patch file is now up to date</source>
@@ -9718,19 +9727,19 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <name>raw_mouse_settings_dialog</name>
     <message>
         <source>Configure Raw Mouse Handler</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera rå mushanterare</translation>
     </message>
     <message>
         <source>Confirm Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta nollställning</translation>
     </message>
     <message>
         <source>Reset settings of all players?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ inställningar för alla spelare?</translation>
     </message>
     <message>
         <source>[ Waiting %1 ]</source>
-        <translation type="unfinished"></translation>
+        <translation>[ Väntar %1 ]</translation>
     </message>
     <message>
         <source>Disabled</source>
@@ -9742,7 +9751,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     </message>
     <message>
         <source>Mouse Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Musacceleration</translation>
     </message>
     <message>
         <source>Player %0</source>
@@ -9804,7 +9813,7 @@ No changes were made.</source>
     <name>render_creator</name>
     <message>
         <source>Vulkan Check Timeout</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsgräns för Vulkan-kontroll</translation>
     </message>
     <message>
         <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
@@ -9819,7 +9828,8 @@ Selecting ignore starts the emulator without Vulkan support.</source>
     <message>
         <source>Vulkan is not supported on this Mac.
 No graphics will be rendered.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vulkan stöds inte på denna Mac.
+Ingen grafik kommer att renderas.</translation>
     </message>
 </context>
 <context>
@@ -10995,7 +11005,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Anti-Aliasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Antialiasing</translation>
     </message>
     <message>
         <source>ZCULL Accuracy</source>
@@ -11966,7 +11976,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Auto</source>
         <comment>Preferred SPU threads</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Haswell/Broadwell TSX Warning</source>
@@ -12022,7 +12032,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Auto</source>
         <comment>Anisotropic filter override</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>%1x</source>
@@ -12032,7 +12042,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Auto</source>
         <comment>Number of Shader Compiler Threads</comment>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Precise (Slowest)</source>
@@ -12594,15 +12604,16 @@ Filen var för liten.</translation>
     <message>
         <source>The selected command is bugged.
 Please contact a developer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det valda kommandot är trasigt.
+Kontakta en utvecklare.</translation>
     </message>
     <message>
         <source>Please select a proper value first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ett lämpligt värde först.</translation>
     </message>
     <message>
         <source>Please select a proper custom command first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ett lämpligt anpassat kommando först.</translation>
     </message>
 </context>
 <context>
