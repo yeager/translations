@@ -3741,11 +3741,11 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
     <message>
         <source>PlayStation Move</source>
-        <translation type="unfinished"></translation>
+        <translation>PlayStation Move</translation>
     </message>
     <message>
         <source>Show PlayStation Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa PlayStation Move</translation>
     </message>
     <message>
         <source>Supported Resolutions</source>
@@ -3761,7 +3761,7 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
     <message>
         <source>Show Sound Formats</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa ljudformat</translation>
     </message>
     <message>
         <source>Parental Level</source>
@@ -3769,7 +3769,7 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
     <message>
         <source>Show Parental Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa föräldranivåer</translation>
     </message>
     <message>
         <source>Last Played</source>
@@ -3777,7 +3777,7 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
     <message>
         <source>Show Last Played</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa senast spelat</translation>
     </message>
     <message>
         <source>Time Played</source>
@@ -3785,7 +3785,7 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
     <message>
         <source>Show Time Played</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa tid spelat</translation>
     </message>
     <message>
         <source>Compatibility</source>
@@ -3793,7 +3793,7 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
     <message>
         <source>Show Compatibility</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa kompatibilitet</translation>
     </message>
     <message>
         <source>Space On Disk</source>
@@ -3801,7 +3801,7 @@ Försäkra dig om att du är ansluten till internet.</translation>
     </message>
     <message>
         <source>Show Space On Disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa utrymme på disk</translation>
     </message>
     <message>
         <source>Loading games</source>
@@ -3832,11 +3832,11 @@ Falling back to local database.
     </message>
     <message>
         <source>Successfully created shortcut(s).</source>
-        <translation type="unfinished"></translation>
+        <translation>Genväg(ar) skapades.</translation>
     </message>
     <message>
         <source>Failed to create shortcut(s)!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa genväg(ar)!</translation>
     </message>
     <message>
         <source>&amp;Reboot with global configuration</source>
@@ -3887,11 +3887,11 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Reboot with savestate</source>
-        <translation type="unfinished"></translation>
+        <translation>Sta&amp;rta om med sparat tillstånd</translation>
     </message>
     <message>
         <source>&amp;Boot with savestate</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;tarta upp med sparat tillstånd</translation>
     </message>
     <message>
         <source>&amp;Change Custom Configuration</source>
@@ -3931,27 +3931,27 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Remove Custom Gamepad Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort anpassad gamepad-konfiguration</translation>
     </message>
     <message>
         <source>&amp;Remove Shaders Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort Shaders-cache</translation>
     </message>
     <message>
         <source>&amp;Remove PPU Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort PPU-cache</translation>
     </message>
     <message>
         <source>&amp;Remove SPU Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort SPU-cache</translation>
     </message>
     <message>
         <source>&amp;Remove HDD1 Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort HDD1-cache</translation>
     </message>
     <message>
         <source>&amp;Remove All Caches</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort alla cachar</translation>
     </message>
     <message>
         <source>Confirm Removal</source>
@@ -3959,15 +3959,15 @@ Falling back to local database.
     </message>
     <message>
         <source>Remove all caches?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort alla cachar?</translation>
     </message>
     <message>
         <source>&amp;Remove Savestates</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort sparade tillstånd</translation>
     </message>
     <message>
         <source>Remove savestates?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort sparade tillstånd?</translation>
     </message>
     <message>
         <source>&amp;Manage Game</source>
@@ -3979,15 +3979,15 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Create Start Menu Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skapa genväg på startmenyn</translation>
     </message>
     <message>
         <source>&amp;Create Launchpad Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;kapa Launchpad-genväg</translation>
     </message>
     <message>
         <source>&amp;Create Application Menu Shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skapa genväg på programmenyn</translation>
     </message>
     <message>
         <source>&amp;Hide From Game List</source>
@@ -4003,7 +4003,7 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Reset Time Played</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nollställ tid spelat</translation>
     </message>
     <message>
         <source>&amp;Remove %1</source>
@@ -4019,11 +4019,11 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Replace Custom Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ersätt anpassad ikon</translation>
     </message>
     <message>
         <source>&amp;Remove Custom Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort anpassad ikon</translation>
     </message>
     <message>
         <source>&amp;Import Hover Gif</source>
@@ -4067,7 +4067,7 @@ Falling back to local database.
     </message>
     <message>
         <source>Remove Custom Icon of %0?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort anpassad ikon för %0?</translation>
     </message>
     <message>
         <source>Remove Custom Hover Gif of %0?</source>
@@ -4079,11 +4079,11 @@ Falling back to local database.
     </message>
     <message>
         <source>Failed to remove the old file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ta bort gamla filen!</translation>
     </message>
     <message>
         <source>Failed to import the new file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att importera nya filen!</translation>
     </message>
     <message>
         <source>&amp;Open Folder</source>
@@ -4091,7 +4091,7 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Open Disc Game Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ö&amp;ppna skivspelsmapp</translation>
     </message>
     <message>
         <source>&amp;Open %0 Folder</source>
@@ -4107,7 +4107,7 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Open Cache Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Öpp&amp;na cachemapp</translation>
     </message>
     <message>
         <source>&amp;Open Config Data Folder</source>
@@ -4123,11 +4123,11 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Open Recordings Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna mapp fö&amp;r inspelningar</translation>
     </message>
     <message>
         <source>&amp;Open Screenshots Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppn&amp;a mapp för skärmbilder</translation>
     </message>
     <message>
         <source>&amp;Copy Info</source>
@@ -4159,7 +4159,7 @@ Falling back to local database.
     </message>
     <message>
         <source>The PS3 application is still running, it cannot be removed!</source>
-        <translation type="unfinished"></translation>
+        <translation>PS3-programmet körs fortfarande. Det kan inte tas bort!</translation>
     </message>
     <message>
         <source>%0 - %1
@@ -4172,7 +4172,10 @@ Falling back to local database.
 Disc Game Info:
 Path: %0
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+Information om skivspel:
+Sökväg: %0
+</translation>
     </message>
     <message>
         <source>Size: %0
@@ -4202,7 +4205,9 @@ Path: %0
         <source>
 Current free disk space: %0
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+Aktuellt ledigt diskutrymme: %0
+</translation>
     </message>
     <message>
         <source>
@@ -4218,7 +4223,7 @@ Permanently remove selected (optional) contents from drive?
     </message>
     <message>
         <source>Confirm %0 Removal</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta borttagning av %0</translation>
     </message>
     <message>
         <source>Remove title from game list (Disc Game path is not removed!)</source>
@@ -4230,11 +4235,11 @@ Permanently remove selected (optional) contents from drive?
     </message>
     <message>
         <source>Remove icons and shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort ikoner och genvägar</translation>
     </message>
     <message>
         <source>Remove savestates</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort sparade tillstånd</translation>
     </message>
     <message>
         <source>Remove captures</source>
@@ -4242,11 +4247,11 @@ Permanently remove selected (optional) contents from drive?
     </message>
     <message>
         <source>Remove recordings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort inspelningar</translation>
     </message>
     <message>
         <source>Remove screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort skärmbilder</translation>
     </message>
     <message>
         <source>Title located under auto-detection &quot;games&quot; folder cannot be removed</source>
@@ -4265,7 +4270,8 @@ Caches and custom configs have been left intact.</source>
     <message>
         <source>Failed to remove %0 from drive!
 Path: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ta bort %0 från enhet!
+Sökväg: %1</translation>
     </message>
     <message>
         <source>Rename Title</source>
@@ -4290,21 +4296,23 @@ You can clear the line in order to use the original title.</source>
     </message>
     <message>
         <source>Confirm Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Bekräfta nollställning</translation>
     </message>
     <message>
         <source>Reset time played?
 
 %0 [%1]</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ tid spelat?
+
+%0 [%1]</translation>
     </message>
     <message>
         <source>Remove custom game configuration?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort anpassad spelkonfiguration?</translation>
     </message>
     <message>
         <source>Failed to remove configuration file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ta bort konfigurationsfilen!</translation>
     </message>
     <message>
         <source>Remove custom pad configuration?
@@ -4321,19 +4329,19 @@ Your configuration will revert to the global pad settings.</source>
     </message>
     <message>
         <source>Remove shaders cache?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort shaders-cache?</translation>
     </message>
     <message>
         <source>Remove PPU cache?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort PPU-cache?</translation>
     </message>
     <message>
         <source>Remove SPU cache?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort SPU-cache?</translation>
     </message>
     <message>
         <source>Remove HDD1 cache?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort HDD1-cache?</translation>
     </message>
     <message>
         <source>OK</source>
@@ -4354,7 +4362,8 @@ Your configuration will revert to the global pad settings.</source>
     <message>
         <source>%0
 Progress: %1/%2 caches compiled</source>
-        <translation type="unfinished"></translation>
+        <translation>%0
+Förlopp: %1/%2 cachar kompilerade</translation>
     </message>
     <message>
         <source>PPU Cache Batch Removal</source>
@@ -4370,7 +4379,7 @@ Progress: %1/%2 caches compiled</source>
     </message>
     <message>
         <source>%0/%1 caches cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>%0/%1 cachar tömda</translation>
     </message>
     <message>
         <source>SPU Cache Batch Removal</source>
@@ -4386,11 +4395,11 @@ Progress: %1/%2 caches compiled</source>
     </message>
     <message>
         <source>Removing all custom configurations</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort alla anpassade konfigurationer</translation>
     </message>
     <message>
         <source>%0/%1 custom configurations cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>%0/%1 anpassade konfigurationer tömda</translation>
     </message>
     <message>
         <source>Custom Pad Configuration Batch Removal</source>
@@ -4410,11 +4419,11 @@ Progress: %1/%2 caches compiled</source>
     </message>
     <message>
         <source>Removing all shader caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort alla shader-cachar</translation>
     </message>
     <message>
         <source>%0/%1 shader caches cleared</source>
-        <translation type="unfinished"></translation>
+        <translation>%0/%1 shader-cachar tömda</translation>
     </message>
 </context>
 <context>
@@ -4922,19 +4931,19 @@ Filen var för liten.</translation>
     <name>localized_emu</name>
     <message>
         <source>D-Pad Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsknapp upp</translation>
     </message>
     <message>
         <source>D-Pad Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsknapp ner</translation>
     </message>
     <message>
         <source>D-Pad Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsknapp vänster</translation>
     </message>
     <message>
         <source>D-Pad Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsknapp höger</translation>
     </message>
     <message>
         <source>Select</source>
@@ -4990,19 +4999,19 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Left Stick Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster spak upp</translation>
     </message>
     <message>
         <source>Left Stick Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster spak ner</translation>
     </message>
     <message>
         <source>Left Stick Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster spak vänster</translation>
     </message>
     <message>
         <source>Left Stick Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster spak höger</translation>
     </message>
     <message>
         <source>Left Stick X-Axis</source>
@@ -5014,19 +5023,19 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Right Stick Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger spak upp</translation>
     </message>
     <message>
         <source>Right Stick Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger spak ner</translation>
     </message>
     <message>
         <source>Right Stick Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger spak vänster</translation>
     </message>
     <message>
         <source>Right Stick Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger spak höger</translation>
     </message>
     <message>
         <source>Right Stick X-Axis</source>
@@ -5189,17 +5198,17 @@ Filen var för liten.</translation>
     <message>
         <source>Space</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mellanslag</translation>
     </message>
     <message>
         <source>Backspace</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Backsteg</translation>
     </message>
     <message>
         <source>Shift</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Skift</translation>
     </message>
     <message>
         <source>[Enter Text]</source>
@@ -5659,7 +5668,8 @@ Space Needed: %0 KB</source>
         <source>In progress.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Pågår.
+(%0)</translation>
     </message>
     <message>
         <source>Message size error.
@@ -5671,13 +5681,15 @@ Space Needed: %0 KB</source>
         <source>Name too long.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Namnet är för långt.
+(%0)</translation>
     </message>
     <message>
         <source>No lock.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inget lås.
+(%0)</translation>
     </message>
     <message>
         <source>Not empty.
@@ -5690,7 +5702,8 @@ Space Needed: %0 KB</source>
         <source>Not supported.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Stöds inte.
+(%0)</translation>
     </message>
     <message>
         <source>File-system specific error.
@@ -5708,19 +5721,22 @@ Space Needed: %0 KB</source>
         <source>Filesystem not mounted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filsystemet inte monterat.
+(%0)</translation>
     </message>
     <message>
         <source>Not SData.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inte SData.
+(%0)</translation>
     </message>
     <message>
         <source>Incorrect version in sys_load_param.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Felaktig version i sys_load_param.
+(%0)</translation>
     </message>
     <message>
         <source>Pointer is null.
@@ -5770,22 +5786,22 @@ Space needed: %0 KB</source>
     <message>
         <source>There is no saved data.</source>
         <comment>Savedata entry info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inget sparat data.</translation>
     </message>
     <message>
         <source>New Saved Data</source>
         <comment>Savedata Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nytt sparat data</translation>
     </message>
     <message>
         <source>Select to create a new entry</source>
         <comment>Savedata Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Välj för att skapa en ny post</translation>
     </message>
     <message>
         <source>Do you want to save this data?</source>
         <comment>Savedata Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vill du spara detta data?</translation>
     </message>
     <message>
         <source>Do you really want to delete this data?
@@ -5971,7 +5987,7 @@ Subject:</source>
     <message>
         <source>RPCN: Received friend request: %0</source>
         <comment>RCPN Friends</comment>
-        <translation type="unfinished"></translation>
+        <translation>RPCN: Tog emot vänförfrågan: %0</translation>
     </message>
     <message>
         <source>RPCN: Friend added: %0</source>
@@ -6168,7 +6184,7 @@ Subject:</source>
     <message>
         <source>Output Scaling</source>
         <comment>Video</comment>
-        <translation type="unfinished"></translation>
+        <translation>Utmatningsskalning</translation>
     </message>
     <message>
         <source>FidelityFX CAS Sharpening Intensity</source>
@@ -7034,7 +7050,7 @@ Subject:</source>
     </message>
     <message>
         <source>Auto Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk paus</translation>
     </message>
     <message>
         <source>Configure Auto Pause</source>
@@ -7094,7 +7110,7 @@ Subject:</source>
     </message>
     <message>
         <source>Kernel Explorer</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärnutforskare</translation>
     </message>
     <message>
         <source>Memory Viewer</source>
@@ -7338,19 +7354,19 @@ Subject:</source>
     </message>
     <message>
         <source>Remove Shader Caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort shaders-cachar</translation>
     </message>
     <message>
         <source>Remove PPU Caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort PPU-cachar</translation>
     </message>
     <message>
         <source>Remove SPU Caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort SPU-cachar</translation>
     </message>
     <message>
         <source>Remove HDD1 Caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort HDD1-cachar</translation>
     </message>
     <message>
         <source>Remove All Caches</source>
@@ -7358,7 +7374,7 @@ Subject:</source>
     </message>
     <message>
         <source>Remove Savestates</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort sparade tillstånd</translation>
     </message>
     <message>
         <source>Clean up Game List</source>
@@ -7366,11 +7382,11 @@ Subject:</source>
     </message>
     <message>
         <source>Skylanders Portal</source>
-        <translation type="unfinished"></translation>
+        <translation>Skylanders Portal</translation>
     </message>
     <message>
         <source>Infinity Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinity Base</translation>
     </message>
     <message>
         <source>Dimensions Toypad</source>
@@ -7390,11 +7406,11 @@ Subject:</source>
     </message>
     <message>
         <source>Remove Firmware Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort firmware-cache</translation>
     </message>
     <message>
         <source>Create Firmware Cache</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa firmware-cache</translation>
     </message>
     <message>
         <source>Create RSX Capture</source>
@@ -7402,7 +7418,7 @@ Subject:</source>
     </message>
     <message>
         <source>Create Savestate</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa sparat tillstånd</translation>
     </message>
     <message>
         <source>Stop And Create Savestate</source>
@@ -7494,7 +7510,7 @@ Subject:</source>
     </message>
     <message>
         <source>PS Move (Mouse)</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move (Mus)</translation>
     </message>
     <message>
         <source>GunCon 3</source>
@@ -7510,7 +7526,7 @@ Subject:</source>
     </message>
     <message>
         <source>Basic Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundläggande mus</translation>
     </message>
     <message>
         <source>Raw Mouse</source>
@@ -7518,11 +7534,11 @@ Subject:</source>
     </message>
     <message>
         <source>VFS Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>VFS-verktyg</translation>
     </message>
     <message>
         <source>PS Move Tracker</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move-spårare</translation>
     </message>
     <message>
         <source>PS Move</source>
@@ -7575,7 +7591,7 @@ Subject:</source>
     </message>
     <message>
         <source>The selected file or folder is invalid or corrupted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda filen eller mappen är ogiltig eller skadad.</translation>
     </message>
     <message>
         <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
@@ -7583,7 +7599,7 @@ Subject:</source>
     </message>
     <message>
         <source>Additional content could not be installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ytterligare innehåll kunde inte installeras.</translation>
     </message>
     <message>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
@@ -7591,11 +7607,11 @@ Subject:</source>
     </message>
     <message>
         <source>The emulator could not create files required for booting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulatorn kunde inte skapa filer som krävs för att starta upp.</translation>
     </message>
     <message>
         <source>This disc type is not supported yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna skivtyp stöds ännu inte.</translation>
     </message>
     <message>
         <source>Savestate data is corrupted or it&apos;s not an RPCS3 savestate.</source>
@@ -7615,7 +7631,7 @@ Subject:</source>
     </message>
     <message>
         <source>&lt;br /&gt;&lt;br /&gt;For information on setting up the emulator and dumping your PS3 games, read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;br /&gt;&lt;br /&gt;För information om hur man konfigurerar emulatorn och dumpar dina PS3-spel, läs &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;snabbstartsguiden&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>Boot Failed</source>
@@ -7627,7 +7643,7 @@ Subject:</source>
     </message>
     <message>
         <source>Select (S)ELF To Boot</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj (S)ELF att starta upp</translation>
     </message>
     <message>
         <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;All executable files (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;All files (*.*)</source>
@@ -7635,15 +7651,15 @@ Subject:</source>
     </message>
     <message>
         <source>(S)ELF files (*.elf *.self);;ELF files (*.elf);;SELF files (*.self);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>(S)ELF-filer (*.elf *.self);;ELF-filer (*.elf);;SELF-filer (*.self);;Alla filer (*.*)</translation>
     </message>
     <message>
         <source>Select Savestate To Boot</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj sparat tillstånd att starta upp</translation>
     </message>
     <message>
         <source>Savestate files (*.SAVESTAT *.SAVESTAT.zst *.SAVESTAT.gz);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Filer för sparade tillstånd (*.SAVESTAT *.SAVESTAT.zst *.SAVESTAT.gz);;Alla filer (*.*)</translation>
     </message>
     <message>
         <source>Select Game Folder</source>
@@ -7659,7 +7675,7 @@ Subject:</source>
     </message>
     <message>
         <source>Select packages and/or rap files to install</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj paket och/eller rap-filer att installera</translation>
     </message>
     <message>
         <source>All relevant (*.pkg *.PKG *.rap *.RAP *.edat *.EDAT);;Package files (*.pkg *.PKG);;Rap files (*.rap *.RAP);;Edat files (*.edat *.EDAT);;All files (*.*)</source>
@@ -7735,7 +7751,7 @@ Version %0</translation>
     </message>
     <message>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka på &quot;Visa detaljer&quot; för att se ändringsloggen.</translation>
     </message>
     <message>
         <source>%0</source>
@@ -7783,14 +7799,20 @@ Version %0</translation>
 Update is for version %1, but you have version %2.
 
 Tried to install: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Paketet kan inte installeras över något aktuellt data.
+Uppdateringen är för version %1, men du har version %2.
+
+Försökt att installera: %3</translation>
     </message>
     <message>
         <source>Package cannot be installed on top of the current data.
 Update is for version %1, but you don&apos;t have any data installed.
 
 Tried to install: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Paketet kan inte installeras över något aktuellt data.
+Uppdateringen är för version %1, men du har inget data installerat.
+
+Försökt att installera: %2</translation>
     </message>
     <message>
         <source>version %1</source>
@@ -7805,7 +7827,10 @@ Tried to install: %2</source>
 Update is for unknown version, but you have version %1.
 
 Tried to install: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Paketet kan inte installeras över något aktuellt data.
+Uppdateringen är för en okänd version, men du har version %1.
+
+Försökt att installera: %2</translation>
     </message>
     <message>
         <source>Failure!</source>
@@ -7878,51 +7903,51 @@ Vänta...</translation>
     </message>
     <message>
         <source>Firmware Installation Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades</translation>
     </message>
     <message>
         <source>Firmware installation failed: The provided path is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Angiven sökväg är tom.</translation>
     </message>
     <message>
         <source>Firmware installation failed: The selected firmware file couldn&apos;t be opened.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Vald firmware-fil kunde inte öppnas.</translation>
     </message>
     <message>
         <source>Firmware installation failed: The provided file is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Angiven fil är tom.</translation>
     </message>
     <message>
         <source>Firmware installation failed: The provided file is not a PUP file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Angiven fil är inte en PUP-fil.</translation>
     </message>
     <message>
         <source>Firmware installation failed: The provided file is incomplete. Try redownloading it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Angiven fil är inte komplett. Prova att hämta den igen.</translation>
     </message>
     <message>
         <source>Firmware installation failed: The provided file is corrupted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Angiven fil är skadad.</translation>
     </message>
     <message>
         <source>Firmware installation failed: The provided file&apos;s contents are corrupted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Angivet filinnehåll är skadat.</translation>
     </message>
     <message>
         <source>Firmware installation failed: Couldn&apos;t retrieve available disk space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Kunde inte hämta tillgängligt diskutrymme.</translation>
     </message>
     <message>
         <source>Firmware installation failed: Out of disk space.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Slut på diskutrymme.</translation>
     </message>
     <message>
         <source>Firmware extraction failed: VFS mounting failed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-extrahering misslyckades: VFS-montering misslyckades.</translation>
     </message>
     <message>
         <source>Firmware installation failed: Firmware contents could not be extracted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installation misslyckades: Firmware-innehållet kunde inte extraheras.</translation>
     </message>
     <message>
         <source>Old firmware detected.
@@ -7946,7 +7971,7 @@ Vänta...</translation>
     </message>
     <message>
         <source>Firmware installation failed: Firmware could not be decompressed</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-installationen misslyckades: Firmware kunde inte packas upp</translation>
     </message>
     <message>
         <source>The firmware contents could not be extracted.
@@ -7978,7 +8003,8 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <source>Decryption failed with provided KLIC.
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekryptering misslyckades med tillhandahållen KLIC.
+%0</translation>
     </message>
     <message>
         <source>Hexadecimal value.</source>
@@ -8069,11 +8095,11 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
     </message>
     <message>
         <source>Select Disc Game Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj mapp för skivspel</translation>
     </message>
     <message>
         <source>Failed to insert disc</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att mata in skiva</translation>
     </message>
     <message>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
@@ -8081,11 +8107,11 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
     </message>
     <message>
         <source>Select rpcs3.log or config.yml</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj rpcs3.log eller config.yml</translation>
     </message>
     <message>
         <source>Log or Config files (*.log *.gz *.txt *.yml);;Log files (*.log *.gz);;Config Files (*.yml);;Text Files (*.txt);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg eller konfigurationsfiler (*.log *.gz *.txt *.yml);;Loggfiler (*.log *.gz);;Konfigurationsfiler (*.yml);;Textfiler (*.txt);;Alla filer (*.*)</translation>
     </message>
     <message>
         <source>Weird file!</source>
@@ -8096,7 +8122,10 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
 %0
 
 Check anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna fil verkar ha en oväntad typ:
+%0
+
+Kontrollera ändå?</translation>
     </message>
     <message>
         <source>Failed to open file</source>
@@ -8110,19 +8139,19 @@ Check anyway?</source>
     </message>
     <message>
         <source>Auto-updater</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk uppdaterare</translation>
     </message>
     <message>
         <source>The auto-updater isn&apos;t available for your OS currently.</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatiska uppdateraren är inte tillgänglig för ditt operativsystem för tillfället.</translation>
     </message>
     <message>
         <source>HDD1 Caches Removed</source>
-        <translation type="unfinished"></translation>
+        <translation>HDD1-cachar togs bort</translation>
     </message>
     <message>
         <source>HDD1 caches successfully removed</source>
-        <translation type="unfinished"></translation>
+        <translation>HDD1-cachar togs bort</translation>
     </message>
     <message>
         <source>Error</source>
@@ -8130,7 +8159,7 @@ Check anyway?</source>
     </message>
     <message>
         <source>Could not remove HDD1 caches</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte ta bort HDD1-cachar</translation>
     </message>
     <message>
         <source>Confirm Removal</source>
@@ -8142,31 +8171,31 @@ Check anyway?</source>
     </message>
     <message>
         <source>Caches Removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Cachar togs bort</translation>
     </message>
     <message>
         <source>%0 cache(s) successfully removed</source>
-        <translation type="unfinished"></translation>
+        <translation>%0 cachar togs bort</translation>
     </message>
     <message>
         <source>Could not remove %0 of %1 cache(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte ta bort %0 av %1 cach(e/ar)</translation>
     </message>
     <message>
         <source>Remove savestates?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort sparade tillstånd?</translation>
     </message>
     <message>
         <source>Savestates Removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparade tillstånd togs bort</translation>
     </message>
     <message>
         <source>Savestates successfully removed</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparade tillstånd togs bort</translation>
     </message>
     <message>
         <source>Could not remove savestates</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte ta bort sparade tillstånd</translation>
     </message>
     <message>
         <source>Remove invalid game paths from game list?
@@ -8183,7 +8212,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>Remove firmware cache?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort firmware-cache?</translation>
     </message>
     <message>
         <source>Nothing to add!</source>
@@ -8191,7 +8220,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>Could not find any new software.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte hitta någon ny programvara.</translation>
     </message>
     <message>
         <source>Successfully added software to game list from path(s)!</source>
@@ -9525,7 +9554,7 @@ Log:
     <message>
         <source>DLC</source>
         <comment>Package type info (DLC)</comment>
-        <translation type="unfinished"></translation>
+        <translation>DLC</translation>
     </message>
     <message>
         <source>Update</source>
@@ -9576,11 +9605,15 @@ Log:
     <message>
         <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
-        <translation type="unfinished"></translation>
+        <translation variants="yes">
+            <lengthvariant>Du är på väg att installera flera paket.
+Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installera&quot; för att fortsätta.</lengthvariant>
+            <lengthvariant></lengthvariant>
+        </translation>
     </message>
     <message>
         <source>Batch PKG Installation</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera flera PKG</translation>
     </message>
 </context>
 <context>
