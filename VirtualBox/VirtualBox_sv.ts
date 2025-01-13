@@ -582,7 +582,7 @@
     </message>
     <message>
         <source>&amp;VirtualBox Bug Tracker...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;VirtualBox felhanterare...</translation>
     </message>
     <message>
         <source>Open the browser and go to the VirtualBox product bug tracker</source>
@@ -978,7 +978,7 @@
     </message>
     <message>
         <source>&amp;Virtual Media Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Virtuell mediahanterare</translation>
     </message>
     <message>
         <source>Open the Virtual Media Manager</source>
@@ -986,7 +986,7 @@
     </message>
     <message>
         <source>&amp;Cloud Profile Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera &amp;molnprofil</translation>
     </message>
     <message>
         <source>Open the Cloud Profile Manager</source>
@@ -998,7 +998,7 @@
     </message>
     <message>
         <source>&amp;Take...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;para...</translation>
     </message>
     <message>
         <source>Snapshot Pane</source>
@@ -1364,7 +1364,7 @@
     </message>
     <message>
         <source>Dock Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Dockikon</translation>
     </message>
     <message>
         <source>Show Monitor Preview</source>
@@ -1512,7 +1512,7 @@
     </message>
     <message>
         <source>Invert Current Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Invertera aktuell markering</translation>
     </message>
     <message>
         <source>Show Properties of Current Object(s)</source>
@@ -1544,11 +1544,11 @@
     </message>
     <message>
         <source>Restore Snapshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ ögonblicksbild</translation>
     </message>
     <message>
         <source>Open Snapshot Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna egenskaper för ögonblicksbild</translation>
     </message>
     <message>
         <source>Clone Virtual Machine</source>
@@ -1596,11 +1596,11 @@
     </message>
     <message>
         <source>Release selected disk image</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla loss markerad diskavbildning</translation>
     </message>
     <message>
         <source>Release Disk Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla loss diskavbildning</translation>
     </message>
     <message>
         <source>Open pane with selected disk image properties</source>
@@ -1608,7 +1608,7 @@
     </message>
     <message>
         <source>Open Disk Image Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna egenskaper för diskavbildning</translation>
     </message>
     <message>
         <source>&amp;Search</source>
@@ -1660,11 +1660,11 @@
     </message>
     <message>
         <source>Open Cloud Profile Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna egenskaper för molnprofil</translation>
     </message>
     <message>
         <source>Show Cloud Profile Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa hjälp för molnprofil</translation>
     </message>
     <message>
         <source>&amp;Soft Keyboard...</source>
@@ -1725,7 +1725,7 @@
     </message>
     <message>
         <source>VISO Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>VISO-skapare</translation>
     </message>
     <message>
         <source>&amp;Add</source>
@@ -1733,11 +1733,11 @@
     </message>
     <message>
         <source>Add selected item(s) to VISO</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till markerade post(er) till VISO</translation>
     </message>
     <message>
         <source>Remove selected item(s) from VISO</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort markerade post(er) från VISO</translation>
     </message>
     <message>
         <source>&amp;New Directory</source>
@@ -1753,7 +1753,7 @@
     </message>
     <message>
         <source>Rename the selected object</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn på markerat objekt</translation>
     </message>
     <message>
         <source>R&amp;eset</source>
@@ -1809,7 +1809,7 @@
     </message>
     <message>
         <source>Activity Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivitetsövervakare</translation>
     </message>
     <message>
         <source>Navigate to the vm activity overview</source>
@@ -1825,7 +1825,7 @@
     </message>
     <message>
         <source>&amp;Extension Pack Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera &amp;tilläggspaket</translation>
     </message>
     <message>
         <source>Open the Extension Pack Manager</source>
@@ -8995,7 +8995,7 @@
     </message>
     <message>
         <source>Network adapter failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel i nätverkskort ...</translation>
     </message>
     <message>
         <source>Failed to change network adapter parameter.</source>
@@ -9321,7 +9321,7 @@
     </message>
     <message>
         <source>Unable to validate extension pack ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte validera tilläggspaket ...</translation>
     </message>
     <message>
         <source>Guest additions inactive ...</source>
@@ -9329,7 +9329,7 @@
     </message>
     <message>
         <source>Extension Pack failure ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel i tilläggspaket ...</translation>
     </message>
     <message>
         <source>Failed to acquire Extension Pack Manager parameter.</source>
@@ -9876,7 +9876,7 @@
     </message>
     <message>
         <source>Holds how this virtual adapter is attached to the real network of the Host OS.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller hur detta virtuella kort ansluts till det riktiga nätverket för värdoperativsystemet.</translation>
     </message>
     <message>
         <source>Holds the network adapter on the host system that traffic to and from this network card will go through.</source>
@@ -9884,7 +9884,7 @@
     </message>
     <message>
         <source>Holds the driver to be used with this network card.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller drivrutinen som ska användas med detta nätverkskort.</translation>
     </message>
     <message>
         <source>Holds the name of the NAT network that this network card will be connected to. You can create and remove networks using the Network Manager tool in the virtual machine manager window.</source>
@@ -9955,7 +9955,7 @@
     </message>
     <message>
         <source>Displays a window to configure port forwarding rules.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visar ett fönstret för att konfigurera portomdirigeringsregler.</translation>
     </message>
 </context>
 <context>
@@ -10892,19 +10892,19 @@
     </message>
     <message>
         <source>Remove Selected Rule</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort markerad regel</translation>
     </message>
     <message>
         <source>Adds new port forwarding rule.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägger till ny portomdirigeringsregel.</translation>
     </message>
     <message>
         <source>Copies selected port forwarding rule.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopierar markerad portomdirigeringsregel.</translation>
     </message>
     <message>
         <source>Removes selected port forwarding rule.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort markerad portomdirigeringsregel.</translation>
     </message>
 </context>
 <context>
@@ -11018,11 +11018,11 @@
     </message>
     <message>
         <source>Holds the filename VirtualBox uses to save the recorded content.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller filnamnet som VirtualBox använder för att spara inspelat innehåll.</translation>
     </message>
     <message>
         <source>Frame Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bil&amp;dstorlek:</translation>
     </message>
     <message>
         <source>User Defined</source>
@@ -11030,15 +11030,15 @@
     </message>
     <message>
         <source>Holds the resolution (frame size) of the recorded video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller upplösningen (bildstorlek) för inspelad video.</translation>
     </message>
     <message>
         <source>Holds the horizontal resolution (frame width) of the recorded video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller horisontell upplösning (bildbredd) för inspelad video.</translation>
     </message>
     <message>
         <source>Holds the vertical resolution (frame height) of the recorded video.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller vertikal upplösning (bildhöjd) för inspelad video.</translation>
     </message>
     <message>
         <source>Frame R&amp;ate:</source>
@@ -11046,7 +11046,7 @@
     </message>
     <message>
         <source>Holds the maximum number of frames per second. Additional frames will be skipped. Reducing this value will increase the number of skipped frames and reduce the file size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller maximala antalet bildrutor per sekund. Fler bildrutor än värdet kommer att hoppas över. Minskning av detta värde kommer att öka antalet bildrutor som hoppas över och minska filstorleken.</translation>
     </message>
     <message>
         <source>fps</source>
@@ -11058,11 +11058,11 @@
     </message>
     <message>
         <source>Minimum possible frame rate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minsta möjliga bildfrekvens.</translation>
     </message>
     <message>
         <source>Maximum possible frame rate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximal möjlig bildfrekvens.</translation>
     </message>
     <message>
         <source>&amp;Video Quality:</source>
@@ -11070,7 +11070,7 @@
     </message>
     <message>
         <source>Holds the quality. Increasing this value will make the video look better at the cost of an increased file size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller kvaliteten. Ökning av detta värde kommer att göra att videon ser bättre ut på bekostnad av ökad filstorlek.</translation>
     </message>
     <message>
         <source>kbps</source>
@@ -11078,7 +11078,7 @@
     </message>
     <message>
         <source>Holds the bitrate in kilobits per second. Increasing this value will make the video look better at the cost of an increased file size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller bitfrekvensen i kilobit per sekund. Ökning av detta värde kommer att göra att videon ser bättre ut på bekostnad av ökad filstorlek.</translation>
     </message>
     <message>
         <source>low</source>
@@ -11101,7 +11101,7 @@
     </message>
     <message>
         <source>Holds the quality. Increasing this value will make the audio sound better at the cost of an increased file size.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller kvaliteten. Ökning av detta värde kommer att göra att ljudet låter bättre på bekostnad av ökad filstorlek.</translation>
     </message>
     <message>
         <source>Scree&amp;ns:</source>
@@ -11290,11 +11290,11 @@
     </message>
     <message>
         <source>Holds the path of the shared folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller sökvägen för delade mappen</translation>
     </message>
     <message>
         <source>Apply the changes and close this dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa ändringarna och stäng denna dialog</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -11322,7 +11322,7 @@
     </message>
     <message>
         <source>Where to automatically mount the folder in the guest.  A drive letter (e.g. &apos;G:&apos;) for Windows and OS/2 guests, path for the others.  If left empty the guest will pick something fitting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Var mappen ska automatiskt monteras i gästen.  En enhetsbokstav (t.ex. &apos;G&apos;) för Windows och OS/2-gäster, sökvägar för andra.  Om lämnad tom så kommer gästen att välja något passande.</translation>
     </message>
     <message>
         <source>&amp;Make Permanent</source>
@@ -11330,7 +11330,7 @@
     </message>
     <message>
         <source>When checked, this shared folder will be permanent.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer denna delade mapp att vara permanent.</translation>
     </message>
 </context>
 <context>
@@ -11876,7 +11876,7 @@
     </message>
     <message>
         <source>&lt;nobr&gt;&lt;b&gt;Click&lt;/b&gt; to toggle indicator presence.&lt;/nobr&gt;&lt;br&gt;&lt;nobr&gt;&lt;b&gt;Drag&amp;Drop&lt;/b&gt; to change indicator position.&lt;/nobr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;nobr&gt;&lt;b&gt;Klicka&lt;/b&gt; för att växla indikatorns synlighet.&lt;/nobr&gt;&lt;br&gt;&lt;nobr&gt;&lt;b&gt;Dra &amp;och släpp&lt;/b&gt; för att ändra indikatorns position.&lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Enable Status Bar</source>
@@ -11884,7 +11884,7 @@
     </message>
     <message>
         <source>Allows to modify VM status-bar contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåter ändring av innehållet för VM-statusraden.</translation>
     </message>
 </context>
 <context>
@@ -12913,7 +12913,7 @@
     </message>
     <message>
         <source>Host CPU Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Värdens CPU-last</translation>
     </message>
     <message>
         <source>User</source>
@@ -12929,7 +12929,7 @@
     </message>
     <message>
         <source>Host RAM Usage</source>
-        <translation type="unfinished"></translation>
+        <translation>Värdens RAM-användning</translation>
     </message>
     <message>
         <source>Free</source>
@@ -12937,7 +12937,7 @@
     </message>
     <message>
         <source>Host File System</source>
-        <translation type="unfinished"></translation>
+        <translation>Värdens filsystem</translation>
     </message>
     <message>
         <source>N/A</source>
@@ -12949,15 +12949,15 @@
     </message>
     <message>
         <source>CPU Guest</source>
-        <translation type="unfinished"></translation>
+        <translation>CPU-gäst</translation>
     </message>
     <message>
         <source>CPU VMM</source>
-        <translation type="unfinished"></translation>
+        <translation>CPU VMM</translation>
     </message>
     <message>
         <source>RAM Used/Total</source>
-        <translation type="unfinished"></translation>
+        <translation>RAM använt/totalt</translation>
     </message>
     <message>
         <source>RAM %</source>
@@ -12965,19 +12965,19 @@
     </message>
     <message>
         <source>Network Up Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätverk sändfrekvens</translation>
     </message>
     <message>
         <source>Network Down Rate</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätverk mottagfrekvens</translation>
     </message>
     <message>
         <source>Network Up Total</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätverk sänd totalt</translation>
     </message>
     <message>
         <source>Network Down Total</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätverk mottag totalt</translation>
     </message>
     <message>
         <source>Disk Read Rate</source>
@@ -12997,7 +12997,7 @@
     </message>
     <message>
         <source>VM Exits</source>
-        <translation type="unfinished"></translation>
+        <translation>VM-avslut</translation>
     </message>
     <message>
         <source>Lists all currently active virtual machines.</source>
@@ -13123,7 +13123,7 @@
     </message>
     <message>
         <source>Draw Area Chart</source>
-        <translation type="unfinished"></translation>
+        <translation>Rita områdesdiagram</translation>
     </message>
     <message>
         <source>CPU Load</source>
@@ -13685,7 +13685,7 @@
     </message>
     <message>
         <source>Holds the number of virtual CPUs in the virtual machine. You need hardware virtualization support on your host system to use more than one virtual CPU.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller antalet virtuella CPUer i den virtuella maskinen. Du behöver hårdvarustöd för virtualisering på ditt värdsystem för att använda fler än en virtuell CPU.</translation>
     </message>
     <message>
         <source>%1 CPU</source>
@@ -13694,7 +13694,7 @@
     </message>
     <message>
         <source>Minimum possible virtual CPU count.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minsta möjliga antal virtuella CPUer.</translation>
     </message>
     <message>
         <source>%1 CPUs</source>
@@ -13703,7 +13703,7 @@
     </message>
     <message>
         <source>Maximum possible virtual CPU count.</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximalt antal möjliga virtuella CPUer.</translation>
     </message>
 </context>
 <context>
@@ -13996,31 +13996,31 @@
     </message>
     <message>
         <source>Holds a name for the new virtual machine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller ett namn för den nya virtuella maskinen.</translation>
     </message>
     <message>
         <source>Specifies The location of the new virtual machine in host&apos;s storage.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger platsen för den nya virtuella maskinen i värdens lagring.</translation>
     </message>
     <message>
         <source>MAC Address P&amp;olicy:</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;olicy för hårdvaruadresser:</translation>
     </message>
     <message>
         <source>Determines MAC address policy for clonning:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fastställer policyn för hårdvaruadresser vid kloning:</translation>
     </message>
     <message>
         <source>Include all network adapter MAC addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkludera alla hårdvaruadresser för nätverkskort</translation>
     </message>
     <message>
         <source>Include all network adapter MAC addresses during cloning.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkludera alla hårdvaruadresser för nätverkskort under kloningen.</translation>
     </message>
     <message>
         <source>Include only NAT network adapter MAC addresses</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Inkludera endast-NAT hårdvaruadresser för nätverkskort</translation>
     </message>
     <message>
         <source>Include only NAT network adapter MAC addresses during cloning.</source>
@@ -14044,7 +14044,7 @@
     </message>
     <message>
         <source>Keep Hard&amp;ware UUIDs</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll hårdvaru-&amp;UUIDer</translation>
     </message>
     <message>
         <source>When chosen, all the virtual disks of the source vm are also cloned.</source>
@@ -14084,7 +14084,7 @@
     </message>
     <message>
         <source>Current &amp;Machine State</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuellt &amp;maskintillstånd</translation>
     </message>
     <message>
         <source>Current &amp;Snapshot Tree Branch</source>
@@ -14350,31 +14350,31 @@
     </message>
     <message>
         <source>Appliance is not signed</source>
-        <translation type="unfinished"></translation>
+        <translation>Appliance är inte signerad</translation>
     </message>
     <message>
         <source>Appliance signed by %1 (trusted)</source>
-        <translation type="unfinished"></translation>
+        <translation>Appliance signerad av %1 (pålitlig)</translation>
     </message>
     <message>
         <source>Appliance signed by %1 (expired!)</source>
-        <translation type="unfinished"></translation>
+        <translation>Appliance signerad av %1 (utgången!)</translation>
     </message>
     <message>
         <source>Unverified signature by %1!</source>
-        <translation type="unfinished"></translation>
+        <translation>Overifierad signatur av %1!</translation>
     </message>
     <message>
         <source>Self signed by %1 (trusted)</source>
-        <translation type="unfinished"></translation>
+        <translation>Självsignerad av %1 (pålitlig)</translation>
     </message>
     <message>
         <source>Self signed by %1 (expired!)</source>
-        <translation type="unfinished"></translation>
+        <translation>Självsignerad av %1 (utgången!)</translation>
     </message>
     <message>
         <source>Unverified self signed signature by %1!</source>
-        <translation type="unfinished"></translation>
+        <translation>Overifierad självsignerad signatur av %1!</translation>
     </message>
     <message>
         <source>Local File System</source>
@@ -14386,11 +14386,11 @@
     </message>
     <message>
         <source>Import from cloud service provider.</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera från molntjänstleverantör.</translation>
     </message>
     <message>
         <source>&amp;File:</source>
-        <translation type="unfinished">&amp;Fil:</translation>
+        <translation>&amp;Fil:</translation>
     </message>
     <message>
         <source>&amp;Machines:</source>
@@ -14418,31 +14418,31 @@
     </message>
     <message>
         <source>Holds the path of the file selected for import.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller sökvägen för filen som ska importeras.</translation>
     </message>
     <message>
         <source>Include all network adapter MAC addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkludera alla nätverkskorts hårdvaruadresser</translation>
     </message>
     <message>
         <source>Include all network adapter MAC addresses during importing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkludera alla nätverkskorts hårdvaruadresser under import.</translation>
     </message>
     <message>
         <source>Include only NAT network adapter MAC addresses</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkludera endast NAT-nätverkskorts hårdvaruadresser</translation>
     </message>
     <message>
         <source>Include only NAT network adapter MAC addresses during importing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkludera endast NAT-nätverkskorts hårdvaruadresser under import.</translation>
     </message>
     <message>
         <source>Generate new MAC addresses for all network adapters</source>
-        <translation type="unfinished"></translation>
+        <translation>Generera nya hårdvaruadresser för alla nätverkskort</translation>
     </message>
     <message>
         <source>Generate new MAC addresses for all network adapters during importing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Generera nya hårdvaruadresser för alla nätverkskort under import.</translation>
     </message>
     <message>
         <source>&amp;Profile:</source>
@@ -14450,19 +14450,19 @@
     </message>
     <message>
         <source>&amp;Machine Base Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Basmapp för maskin:</translation>
     </message>
     <message>
         <source>MAC Address &amp;Policy:</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;olicy för hårdvaruadresser:</translation>
     </message>
     <message>
         <source>Additional Options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ytterligare alternativ:</translation>
     </message>
     <message>
         <source>&amp;Import hard drives as VDI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Importera hårddiskar som VDI</translation>
     </message>
     <message>
         <source>When checked, all the hard drives that belong to this appliance will be imported in VDI format.</source>
@@ -14478,19 +14478,19 @@
     </message>
     <message>
         <source>Selects cloud profile.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer molnprofil.</translation>
     </message>
     <message>
         <source>Cloud Profile Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Hantera molnprofiler</translation>
     </message>
     <message>
         <source>Opens cloud profile manager...</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppnar hanteraren för molnprofiler...</translation>
     </message>
     <message>
         <source>Holds the path to the base virtual machine folder. This folder is used when creating new virtual machine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Håller sökvägen till basmappen för virtuella maskiner. Denna mapp används när nya virtuella maskiner skapas.</translation>
     </message>
 </context>
 <context>
