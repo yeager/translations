@@ -150,19 +150,19 @@
     </message>
     <message>
         <source>Store App</source>
-        <translation type="unfinished"></translation>
+        <translation>Store-app</translation>
     </message>
     <message>
         <source>TV App</source>
-        <translation type="unfinished"></translation>
+        <translation>TV-app</translation>
     </message>
     <message>
         <source>Video App</source>
-        <translation type="unfinished"></translation>
+        <translation>Video-app</translation>
     </message>
     <message>
         <source>Broadcast Video</source>
-        <translation type="unfinished"></translation>
+        <translation>Sändningsvideo</translation>
     </message>
     <message>
         <source>Disc Game</source>
@@ -182,11 +182,11 @@
     </message>
     <message>
         <source>Store</source>
-        <translation type="unfinished"></translation>
+        <translation>Store</translation>
     </message>
     <message>
         <source>Web TV</source>
-        <translation type="unfinished"></translation>
+        <translation>Webb-tv</translation>
     </message>
     <message>
         <source>Operating System</source>
@@ -194,7 +194,7 @@
     </message>
     <message>
         <source>PS2 Classics</source>
-        <translation type="unfinished"></translation>
+        <translation>PS2 Classics</translation>
     </message>
     <message>
         <source>PS2 Game</source>
@@ -202,7 +202,7 @@
     </message>
     <message>
         <source>PS1 Classics</source>
-        <translation type="unfinished"></translation>
+        <translation>PS1 Classics</translation>
     </message>
     <message>
         <source>PSP Game</source>
@@ -210,11 +210,11 @@
     </message>
     <message>
         <source>PSP Minis</source>
-        <translation type="unfinished"></translation>
+        <translation>PSP Minis</translation>
     </message>
     <message>
         <source>PSP Remasters</source>
-        <translation type="unfinished"></translation>
+        <translation>PSP Remasters</translation>
     </message>
     <message>
         <source>PS3 Game Data</source>
@@ -222,15 +222,15 @@
     </message>
     <message>
         <source>PS2 Emulator Data</source>
-        <translation type="unfinished"></translation>
+        <translation>PS2 emulatordata</translation>
     </message>
     <message>
         <source>PS3 Save Data</source>
-        <translation type="unfinished"></translation>
+        <translation>PS3 sparat data</translation>
     </message>
     <message>
         <source>PSP Minis Save Data</source>
-        <translation type="unfinished"></translation>
+        <translation>PSP Minis sparat data</translation>
     </message>
     <message>
         <source>Trophy</source>
@@ -289,50 +289,57 @@
     <name>QObject</name>
     <message>
         <source>Pause the SPU Thread!</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausa SPU-tråden!</translation>
     </message>
     <message>
         <source>Cannot perform SPU capture due to the thread needing manual pausing!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte genomföra SPU-fångst på grund av tråd behöver manuella pauser!</translation>
     </message>
     <message>
         <source>Tracking not supported!</source>
-        <translation type="unfinished"></translation>
+        <translation>Spårning stöds inte!</translation>
     </message>
     <message>
         <source>The PS Move tracking is not yet supported on this operating system.</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move-spårning stöds ännu inte på detta operativsystem.</translation>
     </message>
     <message>
         <source>RPCS3 should never be run from a temporary location!
 Please install RPCS3 in a persistent location.
 Current location:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3 ska aldrig köras från en temporär plats!
+Installera RPCS3 på en bestående plats.
+Aktuell plats:
+%0</translation>
     </message>
     <message>
         <source>RPCS3 should never be run from an archive!
 Please install RPCS3 in a persistent location.
 Current location:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3 ska aldrig köras från ett arkiv!
+Installera RPCS3 på en bestående plats.
+Aktuell plats:
+%0</translation>
     </message>
     <message>
         <source>Invalid command-line arguments!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltiga kommandoradsargument!</translation>
     </message>
     <message>
         <source>Cannot perform multiple installations at the same time!</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte genomföra flera installationer på samma gång!</translation>
     </message>
     <message>
         <source>Missing command-line arguments!</source>
-        <translation type="unfinished"></translation>
+        <translation>Saknar kommandoradsargument!</translation>
     </message>
     <message>
         <source>Cannot run no-gui mode without boot target.
 Terminating...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte köra no-gui-läge utan uppstartsmål.
+Avslutar...</translation>
     </message>
 </context>
 <context>
@@ -9797,7 +9804,7 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     </message>
     <message>
         <source>Reservation is inactive</source>
-        <translation type="unfinished"></translation>
+        <translation>Reservering är inaktiv</translation>
     </message>
     <message>
         <source>Error</source>
@@ -9806,7 +9813,8 @@ Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed
     <message>
         <source>This value could not be converted.
 No changes were made.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta värde kunde inte konverteras.
+Inga ändringar gjordes.</translation>
     </message>
 </context>
 <context>
@@ -9819,7 +9827,9 @@ No changes were made.</source>
         <source>Querying for Vulkan-compatible devices is taking too long. This is usually caused by malfunctioning graphics drivers, reinstalling them could fix the issue.
 
 Selecting ignore starts the emulator without Vulkan support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökning efter Vulkan-kompatibla enheter tar för lång tid. Detta orsakas oftast av felaktiga grafikdrivrutiner. Installera om dem kan lösa detta problem.
+
+Välja Ignorera kommer att starta emulatorn utan Vulkan-stöd.</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -10405,7 +10415,8 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     <message>
         <source>Failed to connect to RPCN:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ansluta till RPCN:
+%0</translation>
     </message>
     <message>
         <source>Error connecting to RPCN!</source>
@@ -10414,11 +10425,12 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     <message>
         <source>Failed to authentify to RPCN:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att autentisera till RPCN:
+%0</translation>
     </message>
     <message>
         <source>Error authentifying to RPCN!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid autentisering till RPCN!</translation>
     </message>
     <message>
         <source>&amp;Remove Friend</source>
@@ -10430,7 +10442,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>An error occurred while trying to remove a friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel inträffade vid försök att ta bort en vän!</translation>
     </message>
     <message>
         <source>Friend removed!</source>
@@ -10438,7 +10450,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>You&apos;ve successfully removed a friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har tagit bort en vän!</translation>
     </message>
     <message>
         <source>&amp;Cancel Request</source>
@@ -10446,19 +10458,19 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Error cancelling friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid avbryt för vänförfrågan!</translation>
     </message>
     <message>
         <source>An error occurred while trying to cancel friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel inträffade vid försök att avbryta en vänförfrågan!</translation>
     </message>
     <message>
         <source>Friend request cancelled!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänförfrågan avbröts!</translation>
     </message>
     <message>
         <source>You&apos;ve successfully cancelled the friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har avbrutit vänförfrågan!</translation>
     </message>
     <message>
         <source>&amp;Accept Request</source>
@@ -10470,11 +10482,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Error adding a friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel när en vän skulle läggas till!</translation>
     </message>
     <message>
         <source>An error occurred while trying to add a friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel inträffade vid försök att lägga till en vän!</translation>
     </message>
     <message>
         <source>Friend added!</source>
@@ -10482,19 +10494,19 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>You&apos;ve successfully added a friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har lagt till en vän!</translation>
     </message>
     <message>
         <source>Error rejecting friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid nekande av vänförfrågan!</translation>
     </message>
     <message>
         <source>An error occurred while trying to reject the friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel inträffade vid försök att neka vänförfrågan!</translation>
     </message>
     <message>
         <source>You&apos;ve successfully rejected the friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Du har nekat vänförfrågan!</translation>
     </message>
     <message>
         <source>&amp;Send Friend Request</source>
@@ -10502,11 +10514,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Error sending a friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid sändning av vänförfrågan!</translation>
     </message>
     <message>
         <source>An error occurred while trying to send a friend request!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel inträffade vid försök att skicka en vänförfrågan!</translation>
     </message>
     <message>
         <source>Add a friend</source>
@@ -10518,7 +10530,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Error validating username!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid validering av användarnamn!</translation>
     </message>
     <message>
         <source>The username you entered is invalid!</source>
@@ -10526,11 +10538,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Error adding friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel när vän skulle läggas till!</translation>
     </message>
     <message>
         <source>An error occurred while adding a friend!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel inträffade när en vän skulle läggas till!</translation>
     </message>
     <message>
         <source>Friend was successfully added!</source>
@@ -11053,7 +11065,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Output Scaling</source>
-        <translation type="unfinished"></translation>
+        <translation>Utmatningsskalning</translation>
     </message>
     <message>
         <source>RCAS Sharpening Strength</source>
@@ -11089,7 +11101,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Multithreaded RSX</source>
-        <translation type="unfinished"></translation>
+        <translation>Flertrådad RSX</translation>
     </message>
     <message>
         <source>Asynchronous Texture Streaming</source>
@@ -11145,7 +11157,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Master: 0%</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvudvolym: 0%</translation>
     </message>
     <message>
         <source>Buffering</source>
@@ -11197,7 +11209,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Guitar Hero Live Emulated Guitar</source>
-        <translation type="unfinished"></translation>
+        <translation>Guitar Hero Live emulaterad gitarr</translation>
     </message>
     <message>
         <source>Move Handler</source>
@@ -11417,7 +11429,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Silence All Logs</source>
-        <translation type="unfinished"></translation>
+        <translation>Tysta alla loggar</translation>
     </message>
     <message>
         <source>Sleep Timers Accuracy</source>
@@ -11437,7 +11449,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Firmware Libraries</source>
-        <translation type="unfinished"></translation>
+        <translation>Firmware-bibliotek</translation>
     </message>
     <message>
         <source>Read Depth Buffers</source>
@@ -11489,7 +11501,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Exclusive Fullscreen Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Exklusivt helskärmsläge</translation>
     </message>
     <message>
         <source>Driver Wake-Up Delay</source>
@@ -11501,7 +11513,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>VBlank Frequency</source>
-        <translation type="unfinished"></translation>
+        <translation>VBlank-frekvens</translation>
     </message>
     <message>
         <source>60 Hz</source>
@@ -11521,7 +11533,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Exit RPCS3 when process finishes</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta RPCS3 när processen är färdig</translation>
     </message>
     <message>
         <source>Pause emulation on RPCS3 focus loss</source>
@@ -11541,11 +11553,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Show trophy popups</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa trofépopup</translation>
     </message>
     <message>
         <source>Show RPCN popups</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa RPCN-popup</translation>
     </message>
     <message>
         <source>Show shader compilation hint</source>
@@ -11573,11 +11585,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Start games in fullscreen mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta spel i helskärmsläge</translation>
     </message>
     <message>
         <source>Use native user interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd inbyggt användargränssnitt</translation>
     </message>
     <message>
         <source>Max LLVM Compile Threads</source>
@@ -11661,11 +11673,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Performance Overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Prestandaöverlägg</translation>
     </message>
     <message>
         <source>Enable performance overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera prestandaöverlägg</translation>
     </message>
     <message>
         <source>Show framerate graph</source>
@@ -11689,7 +11701,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Centered</source>
-        <translation type="unfinished"></translation>
+        <translation>Centrerad</translation>
     </message>
     <message>
         <source>Vertical Margin:</source>
@@ -11741,11 +11753,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Save manager icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara hanterarikoner</translation>
     </message>
     <message>
         <source>Trophy manager icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikoner för troféhanterare</translation>
     </message>
     <message>
         <source>Log</source>
@@ -11825,7 +11837,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Installation ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Installations-ID</translation>
     </message>
     <message>
         <source>UUID-placeholder</source>
@@ -11893,7 +11905,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Enable performance report</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera prestandarapport</translation>
     </message>
     <message>
         <source>Hook static functions</source>
@@ -11913,7 +11925,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Set DAZ and FTZ</source>
-        <translation type="unfinished"></translation>
+        <translation>Ställ in DAZ och FTZ</translation>
     </message>
     <message>
         <source>Accurate PPU Saturation Bit</source>
@@ -11954,7 +11966,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     <message>
         <source>Save custom configuration</source>
         <comment>Settings dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Spara anpassad konfiguration</translation>
     </message>
     <message>
         <source>Settings: [%0] %1</source>
@@ -12092,7 +12104,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Not needed for %0 renderer</source>
         <comment>Graphics adapter</comment>
-        <translation type="unfinished"></translation>
+        <translation>Behövs inte för %0-renderare</translation>
     </message>
     <message>
         <source>Default</source>
@@ -12105,7 +12117,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Master: %0 %</source>
         <comment>Master volume</comment>
-        <translation type="unfinished"></translation>
+        <translation>Huvudvolym: %0 %</translation>
     </message>
     <message>
         <source>Audio Buffer Duration: %0 ms</source>
@@ -12173,7 +12185,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Font Size: %0 px</source>
         <comment>Performance overlay font size</comment>
-        <translation type="unfinished"></translation>
+        <translation>Typsnittsstorlek: %0 px</translation>
     </message>
     <message>
         <source>Opacity: %0 %</source>
@@ -12307,17 +12319,17 @@ Preview:
     <message>
         <source>Choose gamelist icon color</source>
         <comment>Settings: color dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Välj ikonfärg för spellista</translation>
     </message>
     <message>
         <source>Choose save manager icon color</source>
         <comment>Settings: color dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Välj ikonfärg för sparhanterare</translation>
     </message>
     <message>
         <source>Choose trophy manager icon color</source>
         <comment>Settings: color dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Välj ikonfärg för troféhanterare</translation>
     </message>
     <message>
         <source>Always Enabled</source>
@@ -12408,7 +12420,7 @@ Preview:
     </message>
     <message>
         <source>Start/Stop Recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta/stoppa inspelning</translation>
     </message>
     <message>
         <source>Screenshot</source>
@@ -12440,7 +12452,7 @@ Preview:
     </message>
     <message>
         <source>Mute/Unmute Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyst/aktivera ljud</translation>
     </message>
     <message>
         <source>Volume Up</source>
@@ -13197,7 +13209,7 @@ Stop the emulator now?</source>
     <name>vfs_tool_dialog</name>
     <message>
         <source>VFS Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>VFS-verktyg</translation>
     </message>
     <message>
         <source>Path</source>
@@ -13205,7 +13217,7 @@ Stop the emulator now?</source>
     </message>
     <message>
         <source>Result</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultat</translation>
     </message>
 </context>
 <context>
