@@ -1890,19 +1890,19 @@ Den kanske blockeras av ett annat program.</translation>
     <name>cheat_manager_dialog</name>
     <message>
         <source>Error converting value</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid konvertering av värdet</translation>
     </message>
     <message>
         <source>Couldn&apos;t convert the search value you typed to the integer type you selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte konvertera sökvärdet som du angav till den heltalstyp du valde</translation>
     </message>
     <message>
         <source>Nothing found</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingenting hittades</translation>
     </message>
     <message>
         <source>Too many entries to display (%0)</source>
-        <translation type="unfinished"></translation>
+        <translation>För många poster att visa (%0)</translation>
     </message>
     <message>
         <source>0x%0</source>
@@ -1914,39 +1914,39 @@ Den kanske blockeras av ett annat program.</translation>
     </message>
     <message>
         <source>Unsigned 8 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Unsigned 8 bits</translation>
     </message>
     <message>
         <source>Unsigned 16 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Unsigned 16 bits</translation>
     </message>
     <message>
         <source>Unsigned 32 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Unsigned 32 bits</translation>
     </message>
     <message>
         <source>Unsigned 64 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Unsigned 64 bits</translation>
     </message>
     <message>
         <source>Signed 8 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Signed 8 bits</translation>
     </message>
     <message>
         <source>Signed 16 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Signed 16 bits</translation>
     </message>
     <message>
         <source>Signed 32 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Signed 32 bits</translation>
     </message>
     <message>
         <source>Signed 64 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Signed 64 bits</translation>
     </message>
     <message>
         <source>Float 32 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Float 32 bits</translation>
     </message>
 </context>
 <context>
@@ -4587,11 +4587,11 @@ Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
     </message>
     <message>
         <source>Performing this action will close the current game.&lt;br&gt;Do you really want to continue?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Genomföra denna åtgärd kommer att stänga aktuellt spel.&lt;br&gt;Vill du verkligen fortsätta?&lt;br&gt;&lt;br&gt;Allt osparat förlopp kommer att förloras!&lt;br&gt;</translation>
     </message>
     <message>
         <source>Booting another game will close the current game.&lt;br&gt;Do you really want to boot another game?&lt;br&gt;&lt;br&gt;Any unsaved progress will be lost!&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta upp ett annat spel kommer att stänga det aktuella spelet.&lt;br&gt;Vill du verkligen starta upp ett annat spel?&lt;br&gt;&lt;br&gt;Allt osparat förlopp kommer att förloras!&lt;br&gt;</translation>
     </message>
     <message>
         <source>Exit RPCS3?</source>
@@ -9166,7 +9166,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <name>patch_creator_dialog</name>
     <message>
         <source>Patch Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchskapare</translation>
     </message>
     <message>
         <source>Type</source>
@@ -9226,7 +9226,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Valid Patch</source>
-        <translation type="unfinished"></translation>
+        <translation>Giltig patch</translation>
     </message>
     <message>
         <source>&amp;Add Instruction</source>
@@ -9234,27 +9234,27 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>&amp;Add Instruction Above</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lägg till instruktion ovan</translation>
     </message>
     <message>
         <source>&amp;Add Instruction Below</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lägg till instruktion nedan</translation>
     </message>
     <message>
         <source>&amp;Move Instruction(s) Up</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Flytta instruktion upp</translation>
     </message>
     <message>
         <source>&amp;Move Instruction(s) Down</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Flytta instruktion ner</translation>
     </message>
     <message>
         <source>&amp;Remove Instruction(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort instruktion(er)</translation>
     </message>
     <message>
         <source>&amp;Clear Table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Töm tabell</translation>
     </message>
     <message>
         <source>Offset invalid!</source>
@@ -9267,7 +9267,7 @@ The offset has to be a hexadecimal number with 8 digits at most.</source>
     </message>
     <message>
         <source>Validation Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Validering misslyckades</translation>
     </message>
     <message>
         <source>Patch invalid!</source>
@@ -9288,7 +9288,7 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Instruction %0: Type &apos;%1&apos; is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Instruktion %0: Typ &apos;%1&apos; är ogiltig!</translation>
     </message>
 </context>
 <context>
@@ -9351,13 +9351,15 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>Incompatible patches detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkompatibla patchar upptäcktes</translation>
     </message>
     <message>
         <source>Some of your patches are not compatible with the current version of RPCS3&apos;s Patch Manager.
 
 Make sure that all the patches located in &quot;%0&quot; contain the proper formatting that is required for the Patch Manager Version %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Några av dina patchar är inte kompatibla med de aktuella versionen av RPCS3s patchhanterare.
+
+Försäkra dig om att alla patchar som i finns &quot;%0&quot; innehåller korrekt formatering som är nödvändig för patchhanteraren version %1.</translation>
     </message>
     <message>
         <source>Show Patch File</source>
@@ -9374,7 +9376,8 @@ Make sure that all the patches located in &quot;%0&quot; contain the proper form
     <message>
         <source>Do you really want to remove the selected patch?
 This action is immediate and irreversible!</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen ta bort markerad patch?
+Denna åtgärd är direkt och går inte ångra!</translation>
     </message>
     <message>
         <source>Success</source>
@@ -9382,7 +9385,7 @@ This action is immediate and irreversible!</source>
     </message>
     <message>
         <source>The patch was successfully removed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen togs bort!</translation>
     </message>
     <message>
         <source>Failure</source>
@@ -9390,7 +9393,7 @@ This action is immediate and irreversible!</source>
     </message>
     <message>
         <source>The patch could not be removed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchen kunde inte tas bort!</translation>
     </message>
     <message>
         <source>Collapse</source>
@@ -9418,7 +9421,7 @@ This action is immediate and irreversible!</source>
     </message>
     <message>
         <source>What do you want to do with the patch file?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vad vill du göra med patchfilen?</translation>
     </message>
     <message>
         <source>Import</source>
@@ -9444,7 +9447,7 @@ Logg:
     </message>
     <message>
         <source>None of the found %0 patches were imported.%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen av de %0 patchar som hittades importerades.%1</translation>
     </message>
     <message>
         <source>Import successful</source>
@@ -9453,7 +9456,8 @@ Logg:
     <message>
         <source>Imported %0/%1 patches to:
 %2%3</source>
-        <translation type="unfinished"></translation>
+        <translation>Importerade %0/%1 patchar till:
+%2%3</translation>
     </message>
     <message>
         <source>Import failed</source>
@@ -9464,7 +9468,10 @@ Logg:
 
 Log:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchfilen kunde inte importeras.
+
+Logg:
+%0</translation>
     </message>
     <message>
         <source>Validation successful</source>
@@ -9472,7 +9479,7 @@ Log:
     </message>
     <message>
         <source>The patch file passed the validation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Patchfilen klarade valideringen.</translation>
     </message>
     <message>
         <source>Validation failed</source>
@@ -9483,15 +9490,18 @@ Log:
 
 Log:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel hittades i patchfilen.
+
+Logg:
+%0</translation>
     </message>
     <message>
         <source>Errors were found in the patch file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel hittades i patchfilen.</translation>
     </message>
     <message>
         <source>To see the error log, please click &quot;Show Details&quot;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka på &quot;Visa detaljer&quot; för att se felloggen.</translation>
     </message>
     <message>
         <source>%0</source>
@@ -9507,7 +9517,7 @@ Log:
     </message>
     <message>
         <source>Your patch file is already up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din patchfil är redan uppdaterad.</translation>
     </message>
     <message>
         <source>Update patches?</source>
@@ -9523,22 +9533,25 @@ Vill du uppdatera?</translation>
     </message>
     <message>
         <source>Your patch file is now up to date</source>
-        <translation type="unfinished"></translation>
+        <translation>Din patchfil är nu uppdaterad</translation>
     </message>
     <message>
         <source>Errors were found in the downloaded patch file.
 
 Log:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel hittades i den hämtade patchfilen.
+
+Logg:
+%0</translation>
     </message>
     <message>
         <source>Errors were found in the downloaded patch file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel hittades i den hämtade patchfilen.</translation>
     </message>
     <message>
         <source>All titles - Warning: These patches apply to all games!</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla titlar - Varning: Dessa patchar tillämpas på alla spel!</translation>
     </message>
     <message>
         <source>All serials</source>
@@ -9620,7 +9633,7 @@ Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installe
     <name>ps_move_tracker_dialog</name>
     <message>
         <source>Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Dialog</translation>
     </message>
     <message>
         <source>Preview</source>
@@ -9628,7 +9641,7 @@ Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installe
     </message>
     <message>
         <source>Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>Histogram</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -9636,15 +9649,15 @@ Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installe
     </message>
     <message>
         <source>Min Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Min radie</translation>
     </message>
     <message>
         <source>Max Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Max radie</translation>
     </message>
     <message>
         <source>PS Move</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move</translation>
     </message>
     <message>
         <source>Color</source>
@@ -9652,15 +9665,15 @@ Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installe
     </message>
     <message>
         <source>Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyans</translation>
     </message>
     <message>
         <source>Hue Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgnyans tröskelvärde</translation>
     </message>
     <message>
         <source>Saturation Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Mättnad tröskelvärde</translation>
     </message>
     <message>
         <source>Input Format</source>
@@ -9672,27 +9685,27 @@ Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installe
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished"></translation>
+        <translation>Visning</translation>
     </message>
     <message>
         <source>Filter Small Contours</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtrera små konturer</translation>
     </message>
     <message>
         <source>Freeze Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Frys bildruta</translation>
     </message>
     <message>
         <source>Show All Contours</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa alla konturer</translation>
     </message>
     <message>
         <source>Draw Contours</source>
-        <translation type="unfinished"></translation>
+        <translation>Rita konturer</translation>
     </message>
     <message>
         <source>Draw Overlays</source>
-        <translation type="unfinished"></translation>
+        <translation>Rita överlägg</translation>
     </message>
     <message>
         <source>RGBA</source>
@@ -9712,55 +9725,55 @@ Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installe
     </message>
     <message>
         <source>HSV Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>HSV färgnyans</translation>
     </message>
     <message>
         <source>HSV Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>HSV färgmättnad</translation>
     </message>
     <message>
         <source>HSV Value</source>
-        <translation type="unfinished"></translation>
+        <translation>HSV ljusintensitet</translation>
     </message>
     <message>
         <source>Binary</source>
-        <translation type="unfinished"></translation>
+        <translation>Binär</translation>
     </message>
     <message>
         <source>Contours</source>
-        <translation type="unfinished"></translation>
+        <translation>Konturer</translation>
     </message>
     <message>
         <source>Hues</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgnyanser</translation>
     </message>
     <message>
         <source>PS Move #%0</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move #%0</translation>
     </message>
     <message>
         <source>Color: R=%0, G=%1, B=%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg: R=%0, G=%1, B=%2</translation>
     </message>
     <message>
         <source>Hue: %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgnyans: %0</translation>
     </message>
     <message>
         <source>Hue Threshold: %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgnyans tröskelvärde: %0</translation>
     </message>
     <message>
         <source>Saturation Threshold: %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgmättnad tröskelvärde: %0</translation>
     </message>
     <message>
         <source>Min Radius: %0 %</source>
-        <translation type="unfinished"></translation>
+        <translation>Min radie: %0 %</translation>
     </message>
     <message>
         <source>Max Radius: %0 %</source>
-        <translation type="unfinished"></translation>
+        <translation>Max radie: %0 %</translation>
     </message>
 </context>
 <context>
@@ -9833,7 +9846,7 @@ Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installe
     </message>
     <message>
         <source>Lose reservation on OK</source>
-        <translation type="unfinished"></translation>
+        <translation>Lös reservation på OK</translation>
     </message>
     <message>
         <source>Reservation is inactive</source>
@@ -13014,7 +13027,7 @@ Kontrollera loggen för mer information.</translation>
     </message>
     <message>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
-        <translation>För att se ändringloggen, klicka på &quot;Visa detaljer&quot;.</translation>
+        <translation>Klicka på &quot;Visa detaljer&quot; för att se ändringsloggen.</translation>
     </message>
     <message>
         <source>Changelog:
@@ -13087,7 +13100,13 @@ Username: %1
 
 This will remove all files in:
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill ta bort följande användare?
+
+Användar-ID: %0
+Användarnamn: %1
+
+Detta kommer ta bort alla filer i:
+%2</translation>
     </message>
     <message>
         <source>Rename User</source>
@@ -13109,7 +13128,7 @@ Nytt användarnamn: </translation>
     </message>
     <message>
         <source>Name must be between 3 and 16 characters and only consist of letters, numbers, underscores, and hyphens.</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn måste vara mellan 3 och 16 bokstäver och endast innehålla bokstäver, siffror, understreck och bindestreck.</translation>
     </message>
     <message>
         <source>Cannot add more users.</source>
@@ -13135,7 +13154,9 @@ Nytt användarnamn: </translation>
         <source>In order to change the user you have to stop the emulator first.
 
 Stop the emulator now?</source>
-        <translation type="unfinished"></translation>
+        <translation>För att kunnda ändra användaren så måste du stoppa emulatorn först.
+
+Stoppa emulatorn nu?</translation>
     </message>
     <message>
         <source>&amp;Sort By</source>
