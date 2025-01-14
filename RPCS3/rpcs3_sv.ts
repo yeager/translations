@@ -1723,7 +1723,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
     <message>
         <source>Auto Pause Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Hanterare för automatisk paus</translation>
     </message>
     <message>
         <source>Unset</source>
@@ -2315,7 +2315,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Safe</source>
         <comment>SPU block size</comment>
-        <translation type="unfinished"></translation>
+        <translation>Säker</translation>
     </message>
     <message>
         <source>Mega</source>
@@ -2530,7 +2530,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Bilinear</source>
         <comment>Output Scaling Mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bilinjär</translation>
     </message>
     <message>
         <source>FidelityFX Super Resolution</source>
@@ -2635,12 +2635,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Flip horizontally</source>
         <comment>Camera flip</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vänd horisontellt</translation>
     </message>
     <message>
         <source>Flip vertically</source>
         <comment>Camera flip</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vänd vertikalt</translation>
     </message>
     <message>
         <source>Flip both axes</source>
@@ -2675,12 +2675,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Single-threaded</source>
         <comment>Pad handler mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enkeltrådad</translation>
     </message>
     <message>
         <source>Multi-threaded</source>
         <comment>Pad handler mode</comment>
-        <translation type="unfinished"></translation>
+        <translation>Flertrådad</translation>
     </message>
     <message>
         <source>Null</source>
@@ -2690,7 +2690,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Real</source>
         <comment>Move handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Riktig</translation>
     </message>
     <message>
         <source>Fake</source>
@@ -2705,7 +2705,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Raw Mouse</source>
         <comment>Move handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rå mus</translation>
     </message>
     <message>
         <source>Gun</source>
@@ -3826,7 +3826,10 @@ Försäkra dig om att du är ansluten till internet.</translation>
 Falling back to local database.
 
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att hämta kompatibilitetsdatabasen från nätet!
+Faller tillbaka på lokala databasen.
+
+%0</translation>
     </message>
     <message>
         <source>Success!</source>
@@ -3897,7 +3900,7 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Change Custom Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Ä&amp;ndra anpassad konfiguration</translation>
     </message>
     <message>
         <source>&amp;Create Custom Configuration From Global Settings</source>
@@ -4105,7 +4108,7 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Open Custom Config Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppn&amp;a mapp för anpassad konfiguration</translation>
     </message>
     <message>
         <source>&amp;Open Cache Folder</source>
@@ -4113,7 +4116,7 @@ Falling back to local database.
     </message>
     <message>
         <source>&amp;Open Config Data Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna &amp;mapp för konfigurationsdata</translation>
     </message>
     <message>
         <source>&amp;Open Savestate Folder</source>
@@ -4233,7 +4236,7 @@ Permanently remove selected (optional) contents from drive?
     </message>
     <message>
         <source>Remove caches and custom configs</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort cachar och anpassade konfigurationer</translation>
     </message>
     <message>
         <source>Remove icons and shortcuts</source>
@@ -4537,7 +4540,8 @@ Please increase the limit before running RPCS3.</source>
     <message>
         <source>Stopping emulator took too long.
 Some thread has probably deadlocked. Aborting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppandet av emulatorn tog för lång tid.
+Någon tråd har antagligen deadlocked. Avbryter.</translation>
     </message>
     <message>
         <source>PS3 Game/Application Is Unresponsive</source>
@@ -4554,7 +4558,8 @@ Some thread has probably deadlocked. Aborting.</source>
     <message>
         <source>Waiting for %0 second(s) already to stop emulation without success.
 Keep waiting or terminate RPCS3 unsafely at your own risk?</source>
-        <translation type="unfinished"></translation>
+        <translation>Väntat i %0 sekund(er) redan för att stoppa emulatorn utan att lyckas.
+Fortsätt vänta eller avsluta RPCS3 på din egen risk?</translation>
     </message>
     <message>
         <source>Creating Save-State / Do Not Close RPCS3</source>
@@ -4681,7 +4686,7 @@ Några tråd har antagligen deadlocked. Avbryter.</translation>
     </message>
     <message>
         <source>Select Infinity File</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj Infinity-fil</translation>
     </message>
     <message>
         <source>Infinity Figure (*.bin);;</source>
@@ -8508,7 +8513,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Use LED as a battery indicator</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd LED som en batteriindikator</translation>
     </message>
     <message>
         <source>LED battery indicator brightness</source>
@@ -8754,7 +8759,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Enter</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter</translation>
     </message>
     <message>
         <source>PS Button</source>
@@ -8762,7 +8767,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Backspace</source>
-        <translation type="unfinished"></translation>
+        <translation>Backspace</translation>
     </message>
     <message>
         <source>R1</source>
@@ -8854,19 +8859,19 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>PgUp</source>
-        <translation type="unfinished"></translation>
+        <translation>PgUp</translation>
     </message>
     <message>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Home</translation>
     </message>
     <message>
         <source>End</source>
-        <translation type="unfinished"></translation>
+        <translation>End</translation>
     </message>
     <message>
         <source>PgDown</source>
-        <translation type="unfinished"></translation>
+        <translation>PgDown</translation>
     </message>
     <message>
         <source>Squircle Values</source>
@@ -8890,7 +8895,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Show Emulated Values</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa emulerade värden</translation>
     </message>
     <message>
         <source>Stick Interpolation</source>
@@ -8930,7 +8935,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Dance Mat</source>
-        <translation type="unfinished"></translation>
+        <translation>Dansmatta</translation>
     </message>
     <message>
         <source>PS Move Navigation</source>
@@ -8954,7 +8959,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>uDraw GameTablet</source>
-        <translation type="unfinished"></translation>
+        <translation>uDraw GameTablet</translation>
     </message>
     <message>
         <source>Relative</source>
@@ -8970,7 +8975,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Custom Controller</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad handkontroller</translation>
     </message>
     <message>
         <source>No Device Detected</source>
@@ -8984,12 +8989,12 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <source>Dance Dance Revolution</source>
         <comment>Dance Dance Revolution Mat</comment>
-        <translation type="unfinished"></translation>
+        <translation>Dance Dance Revolution</translation>
     </message>
     <message>
         <source>DJ Hero Turntable</source>
         <comment>DJ Hero Turntable</comment>
-        <translation type="unfinished"></translation>
+        <translation>DJ Hero-skivspelare</translation>
     </message>
     <message>
         <source>Rock Band</source>
@@ -9069,11 +9074,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Must choose a name without &apos;.&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Måste välja ett namn utan &apos;.&apos;</translation>
     </message>
     <message>
         <source>Please choose a non-existing name</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ett unikt namn</translation>
     </message>
     <message>
         <source>Reserved</source>
@@ -9109,7 +9114,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>PS Move</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move</translation>
     </message>
     <message>
         <source>XInput</source>
@@ -11060,7 +11065,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Framelimit</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildgräns</translation>
     </message>
     <message>
         <source>Anisotropic Filter</source>
@@ -11652,7 +11657,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Ignore doubleclicks for Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorera dubbelklick för helskärm</translation>
     </message>
     <message>
         <source>Ignore keyboard hotkeys</source>
@@ -12463,11 +12468,11 @@ Preview:
     </message>
     <message>
         <source>Add Log Mark</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till loggmärke</translation>
     </message>
     <message>
         <source>Mouse lock</source>
-        <translation type="unfinished"></translation>
+        <translation>Muslås</translation>
     </message>
     <message>
         <source>Start/Stop Recording</source>
@@ -12483,15 +12488,15 @@ Preview:
     </message>
     <message>
         <source>Savestate</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparat tillstånd</translation>
     </message>
     <message>
         <source>RSX Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>RSX-fångst</translation>
     </message>
     <message>
         <source>Toggle Framelimit</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla bildgräns</translation>
     </message>
     <message>
         <source>Toggle Keyboard</source>
@@ -13215,7 +13220,7 @@ Stoppa emulatorn nu?</translation>
     </message>
     <message>
         <source>Used %0 directory:</source>
-        <translation type="unfinished"></translation>
+        <translation>Använt %0 katalog:</translation>
     </message>
     <message>
         <source>Choose a directory</source>
