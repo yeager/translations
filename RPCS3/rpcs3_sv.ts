@@ -680,7 +680,7 @@ The lighter the game is on the hardware, the more power is saved by it. (until t
     </message>
     <message>
         <source>Leave this enabled unless you are a developer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lämna denna aktiverad såvida inte du är en utvecklare.</translation>
     </message>
     <message>
         <source>Creates PPU logs.
@@ -845,7 +845,8 @@ Although it currently also pauses gameplay, it is not recommended to rely on it 
     <message>
         <source>Automatically puts the game window in fullscreen.
 Double click on the game window or press Alt+Enter to toggle fullscreen and windowed mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sätter automatiskt spelfönstret i helskärmsläge.
+Dubbelklicka på spelfönstret eller tryck Alt+Enter för att växla helskärm och fönsterläge.</translation>
     </message>
     <message>
         <source>Prevent the display from sleeping while a game is running.
@@ -856,7 +857,8 @@ This option will be disabled if the current platform does not support display sl
     <message>
         <source>Configure the game window title.
 Changing this and/or adding the framerate may cause buggy or outdated recording software to not notice RPCS3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera spelfönstrets titel.
+Ändring av denna och/eller lägga till bildfrekvensen kan orsaka fel eller utdaterade inspelningsprogram att inte märka av RPCS3.</translation>
     </message>
     <message>
         <source>Automatically resizes the game window on boot.
@@ -1174,7 +1176,7 @@ Choose a stylesheet and click Apply to change between styles.</source>
     </message>
     <message>
         <source>Shows a confirmation dialog when the game window is being closed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visar en bekräftelsedialog när spelfönstret stängs.</translation>
     </message>
     <message>
         <source>Shows a confirmation dialog when a game was booted while another game is running.</source>
@@ -2653,7 +2655,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Fake</source>
         <comment>Camera handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Fejk</translation>
     </message>
     <message>
         <source>Qt</source>
@@ -2693,7 +2695,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Fake</source>
         <comment>Move handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Fejk</translation>
     </message>
     <message>
         <source>Mouse</source>
@@ -2798,12 +2800,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Fast</source>
         <comment>RSX FIFO Accuracy</comment>
-        <translation type="unfinished"></translation>
+        <translation>Snabb</translation>
     </message>
     <message>
         <source>Atomic</source>
         <comment>RSX FIFO Accuracy</comment>
-        <translation type="unfinished"></translation>
+        <translation>Atomisk</translation>
     </message>
     <message>
         <source>Ordered &amp; Atomic</source>
@@ -3088,12 +3090,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Safe</source>
         <comment>Asynchronous Queue Scheduler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Säker</translation>
     </message>
     <message>
         <source>Fast</source>
         <comment>Asynchronous Queue Scheduler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Snabb</translation>
     </message>
     <message>
         <source>Japanese</source>
@@ -11024,7 +11026,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Thread Scheduler</source>
-        <translation type="unfinished"></translation>
+        <translation>Trådschemaläggare</translation>
     </message>
     <message>
         <source>Description</source>
@@ -11035,7 +11037,10 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
 
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Peka med muspekaren på ett alternativ för att visa en beskrivning här.
+
+
+</translation>
     </message>
     <message>
         <source>GPU</source>
@@ -11471,7 +11476,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>SPU Profiler</source>
-        <translation type="unfinished"></translation>
+        <translation>SPU-profilerare</translation>
     </message>
     <message>
         <source>Silence All Logs</source>
@@ -11703,7 +11708,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Game Window Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel för spelfönstret</translation>
     </message>
     <message>
         <source>Reset the game window title to default</source>
@@ -11731,7 +11736,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Show frametime graph</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa graf över bildtid</translation>
     </message>
     <message>
         <source>Detail Level:</source>
@@ -11763,15 +11768,15 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacitet:</translation>
     </message>
     <message>
         <source>Framerate datapoints:</source>
-        <translation type="unfinished"></translation>
+        <translation>Datapunkter för bildfrekvens:</translation>
     </message>
     <message>
         <source>Frametime datapoints:</source>
-        <translation type="unfinished"></translation>
+        <translation>Datapunkter för bildtid:</translation>
     </message>
     <message>
         <source>GUI</source>
@@ -11847,19 +11852,19 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Show PKG Installation Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa dialog för PKG-installation</translation>
     </message>
     <message>
         <source>Show PUP Installation Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa dialog för PUP-installation</translation>
     </message>
     <message>
         <source>Show Obsolete Settings Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa föråldrad inställningsdialog</translation>
     </message>
     <message>
         <source>Show Duplicate Buttons Dialog</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa dialog för dubbletta knappar</translation>
     </message>
     <message>
         <source>Show Restart Dialog</source>
@@ -11947,7 +11952,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Automatically start games after boot</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta automatiskt spel efter uppstart</translation>
     </message>
     <message>
         <source>Enable performance report</source>
@@ -12075,7 +12080,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Unfortunately, your CPU model does not support this instruction set.</source>
         <comment>Enable TSX</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tyvärr har din CPU-modell inte stöd för detta instruktionsset.</translation>
     </message>
     <message>
         <source>720p (Recommended)</source>
@@ -12241,12 +12246,12 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>Framerate datapoints: %0</source>
         <comment>Framerate graph datapoints</comment>
-        <translation type="unfinished"></translation>
+        <translation>Datapunkter för bildfrekvens: %0</translation>
     </message>
     <message>
         <source>Frametime datapoints: %0</source>
         <comment>Frametime graph datapoints</comment>
-        <translation type="unfinished"></translation>
+        <translation>Datapunkter för bildtid: %0</translation>
     </message>
     <message>
         <source>Background darkening: %0 %</source>
@@ -12332,7 +12337,7 @@ Preview:
     <message>
         <source>Game Window Title Format</source>
         <comment>Game window title</comment>
-        <translation type="unfinished"></translation>
+        <translation>Format för spelfönstertitel</translation>
     </message>
     <message>
         <source>Error</source>
@@ -12340,7 +12345,7 @@ Preview:
     </message>
     <message>
         <source>Failed to create new installation ID!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa nytt installations-id!</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -12408,7 +12413,7 @@ Preview:
     </message>
     <message>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din konfigurationsfil innehåller en eller flera föråldrade poster.&lt;br&gt;Överväg att ta bort dem för de kan skapa problem för andra versioner av RPCS3.&lt;br&gt;&lt;br&gt;Vill du att programmet ska ta bort dem åt dig nu?&lt;br&gt;Denna ändring kommer genomföras när du sparar konfigurationen.</translation>
     </message>
 </context>
 <context>
