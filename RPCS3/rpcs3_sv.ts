@@ -1809,7 +1809,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
     <message>
         <source>Failed to set breakpoints.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ställa in brytpunkter.</translation>
     </message>
     <message>
         <source>&amp;Rename</source>
@@ -2178,7 +2178,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>PPU Address: 0x00000000, LS Address: 0x00000, Segment Size: 0x00000, Flags: 0x0</source>
-        <translation type="unfinished"></translation>
+        <translation>PPU-adress: 0x00000000, LS-adress: 0x00000, Segmentstorlek: 0x00000, Flaggor: 0x0</translation>
     </message>
     <message>
         <source>Add new segment</source>
@@ -2230,12 +2230,13 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Failed To Add Segment</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att lägga till segment</translation>
     </message>
     <message>
         <source>Segment parameters are incorrect:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Segmentparametrar är felaktiga:
+%1</translation>
     </message>
     <message>
         <source>SPU segment size must be 4 bytes aligned.</source>
@@ -2256,7 +2257,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>PPU Address: 0x%0, LS Address: 0x%1, Segment Size: 0x%2, Flags: 0x%3</source>
-        <translation type="unfinished"></translation>
+        <translation>PPU-adress: 0x%0, LS-adress: 0x%1, Segmentstorlek: 0x%2, Flaggor: 0x%3</translation>
     </message>
     <message>
         <source>Capture</source>
@@ -2575,7 +2576,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Real SingStar</source>
         <comment>Microphone handler</comment>
-        <translation type="unfinished"></translation>
+        <translation>Riktig SingStar</translation>
     </message>
     <message>
         <source>Rocksmith</source>
@@ -3390,12 +3391,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Guitar (17 frets)</source>
         <comment>Midi Device Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Gitarr (17 greppband)</translation>
     </message>
     <message>
         <source>Guitar (22 frets)</source>
         <comment>Midi Device Type</comment>
-        <translation type="unfinished"></translation>
+        <translation>Gitarr (22 greppband)</translation>
     </message>
     <message>
         <source>Keyboard</source>
@@ -3436,43 +3437,43 @@ This change will only be final when you save the config.</source>
     </message>
     <message>
         <source>Configure Emulated Buzz</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad Buzz</translation>
     </message>
     <message>
         <source>Configure Emulated Turntable</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad skivspelare</translation>
     </message>
     <message>
         <source>Configure Emulated GHLtar</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad GHLtar</translation>
     </message>
     <message>
         <source>Configure Emulated USIO</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad USIO</translation>
     </message>
     <message>
         <source>Configure Emulated PS Move (Real)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad PS Move (Riktig)</translation>
     </message>
     <message>
         <source>Configure Emulated PS Move (Fake)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad PS Move (Fejk)</translation>
     </message>
     <message>
         <source>Configure Emulated PS Move (Mouse)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad PS Move (Mus)</translation>
     </message>
     <message>
         <source>Configure Emulated GunCon 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad GunCon 3</translation>
     </message>
     <message>
         <source>Configure Emulated Top Shot Elite</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad Top Shot Elite</translation>
     </message>
     <message>
         <source>Configure Emulated Top Shot Fearmaster</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera emulerad Top Shot Fearmaster</translation>
     </message>
     <message>
         <source>Press the &quot;Combo&quot; button in combination with any of the other combo buttons to trigger their related PS Move button.
@@ -3481,11 +3482,11 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Current Basic Mouse Config</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell konfiguration för grundläggande mus</translation>
     </message>
     <message>
         <source>Current Raw Mouse Config</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell konfiguration för rå mus</translation>
     </message>
     <message>
         <source>Player %0</source>
@@ -3511,7 +3512,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     <name>figure_creator_dialog</name>
     <message>
         <source>Figure Creator</source>
-        <translation type="unfinished"></translation>
+        <translation>Figurskapare</translation>
     </message>
     <message>
         <source>--Unknown--</source>
@@ -3519,7 +3520,7 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Figure Number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Figurnummer:</translation>
     </message>
     <message>
         <source>Series:</source>
@@ -3535,32 +3536,33 @@ This can be useful if your device does not have enough regular buttons.</source>
     </message>
     <message>
         <source>Error converting value</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid konvertering av värdet</translation>
     </message>
     <message>
         <source>Figure number entered is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Figurnumret som angavs är ogiltigt!</translation>
     </message>
     <message>
         <source>Series number entered is invalid!</source>
-        <translation type="unfinished"></translation>
+        <translation>Serienumret som angavs är ogiltigt!</translation>
     </message>
     <message>
         <source>Create Figure File</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa figurfil</translation>
     </message>
     <message>
         <source>Infinity Figure (*.bin);;</source>
-        <translation type="unfinished"></translation>
+        <translation>Infinity-figur (*.bin);;</translation>
     </message>
     <message>
         <source>Failed to create figure file!</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa figure-fil!</translation>
     </message>
     <message>
         <source>Failed to create figure file:
 %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa figure-fil:
+%1</translation>
     </message>
 </context>
 <context>
@@ -4512,7 +4514,7 @@ Anteckningar:
     <name>gui_application</name>
     <message>
         <source>Experimental Build Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning för experimentellt bygge</translation>
     </message>
     <message>
         <source>
@@ -4524,7 +4526,15 @@ Anteckningar:
 					Do you wish to use this build anyway?
 				&lt;/p&gt;
 			</source>
-        <translation type="unfinished"></translation>
+        <translation>
+				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
+					Observera att denna byggnation inte är en officiell RPCS3-utgåva.&lt;br&gt;
+					Detta bygge innehåller ändringar som kan ge spelproblem eller till och med &lt;b&gt;skada&lt;/b&gt; ditt data.&lt;br&gt;
+					Vi rekommenderar att hämta ner och använd en officiell version från &lt;a %0 href=&apos;https://rpcs3.net/download&apos;&gt;RPCS3-webbsidan&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+					Byggets ursprung: %1&lt;br&gt;
+					Vill du fortfarande använda detta bygge ändå?
+				&lt;/p&gt;
+			</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -4535,7 +4545,10 @@ Anteckningar:
 Some games will crash.
 
 Please increase the limit before running RPCS3.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuella gränsen för maximalt antal filbeskrivare är för låg.
+Vissa spel kommer att krascha.
+
+Öka denna gräns innan du kör RPCS3.</translation>
     </message>
     <message>
         <source>Stopping emulator took too long.
@@ -4575,11 +4588,11 @@ Fortsätt vänta eller avsluta RPCS3 på din egen risk?</translation>
     </message>
     <message>
         <source>%0 written, %1 second(s) passed%2</source>
-        <translation type="unfinished"></translation>
+        <translation>%0 skrevs, %1 sekund(er) passerat%2</translation>
     </message>
     <message>
         <source>If Stuck, Report To Developers</source>
-        <translation type="unfinished"></translation>
+        <translation>Om den fastnar, rapportera till utvecklarna</translation>
     </message>
 </context>
 <context>
@@ -4791,7 +4804,7 @@ Filen var för liten.</translation>
     <name>kernel_explorer</name>
     <message>
         <source>Kernel Explorer | %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärnutforskare | %1</translation>
     </message>
     <message>
         <source>Refresh</source>
@@ -4803,7 +4816,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Kernel</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärna</translation>
     </message>
     <message>
         <source>Process Info</source>
@@ -4811,7 +4824,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Shared Memory</source>
-        <translation type="unfinished"></translation>
+        <translation>Delat minne</translation>
     </message>
     <message>
         <source>Virtual Memory</source>
@@ -4855,7 +4868,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>PRX Modules</source>
-        <translation type="unfinished"></translation>
+        <translation>PRX-moduler</translation>
     </message>
     <message>
         <source>SPU Ports</source>
@@ -4875,11 +4888,11 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Semaphores</source>
-        <translation type="unfinished"></translation>
+        <translation>Semaforer</translation>
     </message>
     <message>
         <source>File Descriptors</source>
-        <translation type="unfinished"></translation>
+        <translation>Filbeskrivare</translation>
     </message>
     <message>
         <source>Light Weight Condition Variables</source>
@@ -4915,11 +4928,11 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Sockets</source>
-        <translation type="unfinished"></translation>
+        <translation>Uttag</translation>
     </message>
     <message>
         <source>SPURS %1</source>
-        <translation type="unfinished"></translation>
+        <translation>SPURS %1</translation>
     </message>
     <message>
         <source>IO-EA Table</source>
@@ -5290,7 +5303,7 @@ Filen var för liten.</translation>
     <message>
         <source>ERROR: Game data is corrupted. The application will continue.</source>
         <comment>Game Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>FEL: Speldatat är skadat. Programmet kommer att fortsätta.</translation>
     </message>
     <message>
         <source>ERROR: HDD boot game is corrupted. The application will continue.</source>
@@ -5300,7 +5313,7 @@ Filen var för liten.</translation>
     <message>
         <source>ERROR: Game data is corrupted. The application will be terminated.</source>
         <comment>Game Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>FEL: Speldatat är skadat. Programmet kommer att avslutas.</translation>
     </message>
     <message>
         <source>ERROR: HDD boot game is corrupted. The application will be terminated.</source>
@@ -5311,13 +5324,15 @@ Filen var för liten.</translation>
         <source>ERROR: Not enough available space. The application will continue.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>FEL: Inte tillräckligt med ledigt utrymme. Programmet kommer att fortsätta.
+Utrymme som krävs: %0 KB</translation>
     </message>
     <message>
         <source>ERROR: Not enough available space. The application will be terminated.
 Space needed: %0 KB</source>
         <comment>Game Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>FEL: Inte tillräckligt med ledigt utrymme. Programmet kommer att avslutas.
+Utrymme som krävs: %0 KB</translation>
     </message>
     <message>
         <source>Directory name: %0</source>
@@ -5329,7 +5344,9 @@ Space needed: %0 KB</source>
 
 Please remove the game data for this title.</source>
         <comment>Game Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Det har inträffat ett fel!
+
+Ta bort speldatat för denna titel.</translation>
     </message>
     <message>
         <source>There has been an error!
@@ -5342,7 +5359,8 @@ Please reinstall the HDD boot game.</source>
         <source>Not enough space to create HDD boot game.
 Space Needed: %0 KB</source>
         <comment>HDD Game Check Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inte tillräckligt med utrymme för att skapa HDD-uppstartsspel.
+Utrymme som krävs: %0 KB</translation>
     </message>
     <message>
         <source>HDD boot game %0 is corrupt!</source>
@@ -5363,17 +5381,18 @@ Space Needed: %0 KB</source>
         <source>Not enough space to create game data.
 Space Needed: %0 KB</source>
         <comment>Gamedata Check Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inte tillräckligt med utrymme för att skapa speldata.
+Utrymme som krävs: %0 KB</translation>
     </message>
     <message>
         <source>The game data in %0 is corrupt!</source>
         <comment>Gamedata Check Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Speldata i %0 är skadat!</translation>
     </message>
     <message>
         <source>The game data in %0 could not be found!</source>
         <comment>Gamedata Check Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Speldatat i %0 kunde inte hittas!</translation>
     </message>
     <message>
         <source>Error: %0</source>
@@ -5390,7 +5409,8 @@ Space Needed: %0 KB</source>
         <source>Invalid argument or flag.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt argument eller flagga.
+(%0)</translation>
     </message>
     <message>
         <source>The feature is not yet implemented.
@@ -5402,7 +5422,8 @@ Space Needed: %0 KB</source>
         <source>Memory allocation failed.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Minnesallokering misslyckades.
+(%0)</translation>
     </message>
     <message>
         <source>The resource with the specified identifier does not exist.
@@ -5414,13 +5435,15 @@ Space Needed: %0 KB</source>
         <source>The file does not exist.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filen finns inte.
+(%0)</translation>
     </message>
     <message>
         <source>The file is in an unrecognized format / The file is not a valid ELF file.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filen är i ett okänt format / Filen är inte i en giltig ELF-fil.
+(%0)</translation>
     </message>
     <message>
         <source>Resource deadlock is avoided.
@@ -5432,13 +5455,15 @@ Space Needed: %0 KB</source>
         <source>Operation not permitted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Åtgärden tillåts inte.
+(%0)</translation>
     </message>
     <message>
         <source>The device or resource is busy.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enheten eller resursen är upptagen.
+(%0)</translation>
     </message>
     <message>
         <source>The operation is timed out.
@@ -5480,13 +5505,15 @@ Space Needed: %0 KB</source>
         <source>The file is a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filen är en katalog.
+(%0)</translation>
     </message>
     <message>
         <source>Operation cancelled.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Åtgärden avbröts.
+(%0)</translation>
     </message>
     <message>
         <source>Entry already exists.
@@ -5498,13 +5525,15 @@ Space Needed: %0 KB</source>
         <source>Port is already connected.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Porten är redan ansluten.
+(%0)</translation>
     </message>
     <message>
         <source>Port is not connected.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Porten är inte ansluten.
+(%0)</translation>
     </message>
     <message>
         <source>Failure in authorizing SELF. Program authentication fail.
@@ -5516,13 +5545,15 @@ Space Needed: %0 KB</source>
         <source>The file is not MSELF.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filen är inte en MSELF.
+(%0)</translation>
     </message>
     <message>
         <source>System version error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Systemversionsfel.
+(%0)</translation>
     </message>
     <message>
         <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
@@ -5564,13 +5595,15 @@ Space Needed: %0 KB</source>
         <source>File too large.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filen är för stor.
+(%0)</translation>
     </message>
     <message>
         <source>Too many links.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>För många länkar.
+(%0)</translation>
     </message>
     <message>
         <source>File table overflow.
@@ -5602,7 +5635,8 @@ Space Needed: %0 KB</source>
         <source>Read-only filesystem.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Skrivskyddat filsystem.
+(%0)</translation>
     </message>
     <message>
         <source>Illegal seek.
@@ -5638,7 +5672,8 @@ Space Needed: %0 KB</source>
         <source>Too many files open.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>För många öppnade filer.
+(%0)</translation>
     </message>
     <message>
         <source>No device.
@@ -5651,7 +5686,8 @@ Space Needed: %0 KB</source>
         <source>Not a directory.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inte en katalog.
+(%0)</translation>
     </message>
     <message>
         <source>No such device or IO.
@@ -5815,7 +5851,9 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen ta bort detta data?
+
+%0</translation>
     </message>
     <message>
         <source>Successfully removed data!
@@ -6167,7 +6205,7 @@ Subject:</source>
     <message>
         <source>Enable Time Stretching</source>
         <comment>Audio</comment>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera tidsutsträckning</translation>
     </message>
     <message>
         <source>Time Stretching Threshold</source>
@@ -6284,7 +6322,7 @@ Subject:</source>
     <message>
         <source>VBlank Frequency</source>
         <comment>Advanced</comment>
-        <translation type="unfinished"></translation>
+        <translation>VBlank-frekvens</translation>
     </message>
     <message>
         <source>VBlank NTSC Fixup</source>
@@ -6298,12 +6336,12 @@ Subject:</source>
     <message>
         <source>Show Trophy Popups</source>
         <comment>Overlays</comment>
-        <translation type="unfinished"></translation>
+        <translation>Visa trofépopup</translation>
     </message>
     <message>
         <source>Show RPCN Popups</source>
         <comment>Overlays</comment>
-        <translation type="unfinished"></translation>
+        <translation>Visa RPCN-popup</translation>
     </message>
     <message>
         <source>Show Shader Compilation Hint</source>
@@ -6337,12 +6375,12 @@ Subject:</source>
     </message>
     <message>
         <source>Performance Overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Prestandaöverlägg</translation>
     </message>
     <message>
         <source>Enable Performance Overlay</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera prestandaöverlägg</translation>
     </message>
     <message>
         <source>Enable Framerate Graph</source>
@@ -6352,7 +6390,7 @@ Subject:</source>
     <message>
         <source>Enable Frametime Graph</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera bildtidsgraf</translation>
     </message>
     <message>
         <source>Detail level</source>
@@ -6372,12 +6410,12 @@ Subject:</source>
     <message>
         <source>Framerate Datapoints</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Datapunkter för bildfrekvens</translation>
     </message>
     <message>
         <source>Frametime Datapoints</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Datapunkter för bildtid</translation>
     </message>
     <message>
         <source>Metrics Update Interval</source>
@@ -6417,7 +6455,7 @@ Subject:</source>
     <message>
         <source>Opacity</source>
         <comment>Performance Overlay</comment>
-        <translation type="unfinished"></translation>
+        <translation>Opacitet</translation>
     </message>
     <message>
         <source>Debug</source>
@@ -6608,7 +6646,7 @@ Subject:</source>
     </message>
     <message>
         <source>The PS3 application has likely crashed, you can close it.</source>
-        <translation type="unfinished"></translation>
+        <translation>PS3-programmet har antagligen kraschat. Du kan stänga det.</translation>
     </message>
     <message>
         <source>SaveState failed: Game saving is in progress, wait until finished.</source>
@@ -7513,7 +7551,7 @@ Subject:</source>
     </message>
     <message>
         <source>PS Move (Fake)</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move (Fejk)</translation>
     </message>
     <message>
         <source>PS Move (Mouse)</source>
@@ -7525,11 +7563,11 @@ Subject:</source>
     </message>
     <message>
         <source>Top Shot Elite</source>
-        <translation type="unfinished"></translation>
+        <translation>Top Shot Elite</translation>
     </message>
     <message>
         <source>Top Shot Fearmaster</source>
-        <translation type="unfinished"></translation>
+        <translation>Top Shot Fearmaster</translation>
     </message>
     <message>
         <source>Basic Mouse</source>
@@ -7630,7 +7668,7 @@ Subject:</source>
     </message>
     <message>
         <source>A game or PS3 application is still running or has yet to be fully stopped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett spel eller PS3-program körs fortfarande eller har ännu inte helt stoppats.</translation>
     </message>
     <message>
         <source>Unknown error.</source>
@@ -8242,19 +8280,19 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     <name>memory_viewer_panel</name>
     <message>
         <source>Memory Viewer Of %0</source>
-        <translation type="unfinished"></translation>
+        <translation>Minnesvisare för %0</translation>
     </message>
     <message>
         <source>Memory Viewer Of RSX[0x55555555]</source>
-        <translation type="unfinished"></translation>
+        <translation>Minnesvisare för RSX[0x55555555]</translation>
     </message>
     <message>
         <source>Memory Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Minnesvisare</translation>
     </message>
     <message>
         <source>Memory Viewer Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ för minnesvisare</translation>
     </message>
     <message>
         <source>Address</source>
@@ -8295,11 +8333,12 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     <message>
         <source>View
 image</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa
+bild</translation>
     </message>
     <message>
         <source>Memory Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Minnessökning</translation>
     </message>
     <message>
         <source>Search...</source>
@@ -8311,7 +8350,7 @@ image</source>
     </message>
     <message>
         <source>Case Insensitive</source>
-        <translation type="unfinished"></translation>
+        <translation>Inte skiftlägeskänslig</translation>
     </message>
     <message>
         <source>When using string mode, the characters&apos; case will not matter both in string and in memory.
@@ -8320,11 +8359,11 @@ Warning: this may reduce performance of the search.</source>
     </message>
     <message>
         <source>Select search mode(s)..</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj sökläge(n)..</translation>
     </message>
     <message>
         <source>Deselect All Modes</source>
-        <translation type="unfinished"></translation>
+        <translation>Avmarkera alla lägen</translation>
     </message>
     <message>
         <source>String</source>
@@ -8344,7 +8383,7 @@ Warning: this may reduce performance of the search.</source>
     </message>
     <message>
         <source>Instruction</source>
-        <translation type="unfinished"></translation>
+        <translation>Instruktion</translation>
     </message>
     <message>
         <source>RegEx Instruction</source>
@@ -9354,7 +9393,7 @@ The export of invalid patches is not allowed.</source>
     </message>
     <message>
         <source>N/A</source>
-        <translation type="unfinished"></translation>
+        <translation>Inte tillgänglig</translation>
     </message>
     <message>
         <source>Incompatible patches detected</source>
@@ -9408,11 +9447,11 @@ Denna åtgärd är direkt och går inte ångra!</translation>
     </message>
     <message>
         <source>Expand Children</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ut barn</translation>
     </message>
     <message>
         <source>Collapse Children</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll in barn</translation>
     </message>
     <message>
         <source>Expand</source>
@@ -10791,11 +10830,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>&amp;Select Entry</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Välj post</translation>
     </message>
     <message>
         <source>Save New Entry</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara ny post</translation>
     </message>
     <message>
         <source>&amp;Cancel</source>
@@ -10987,11 +11026,11 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>PPU Decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>PPU-avkodare</translation>
     </message>
     <message>
         <source>SPU Decoder</source>
-        <translation type="unfinished"></translation>
+        <translation>SPU-avkodare</translation>
     </message>
     <message>
         <source>SPU XFloat Accuracy</source>
@@ -11019,7 +11058,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>TSX Instructions</source>
-        <translation type="unfinished"></translation>
+        <translation>TSX-instruktioner</translation>
     </message>
     <message>
         <source>SPU Block Size</source>
@@ -11145,7 +11184,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Strict Rendering Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Strikt renderingsläge</translation>
     </message>
     <message>
         <source>VSync</source>
@@ -11229,7 +11268,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Enable Time Stretching</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera tidsutsträckning</translation>
     </message>
     <message>
         <source>Time Stretching Threshold: 0%</source>
@@ -11545,7 +11584,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Disable Asynchronous Memory Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera asynkron minneshanterare</translation>
     </message>
     <message>
         <source>Vulkan Queue Scheduler</source>
@@ -11921,7 +11960,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Disable Video Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera videoutmatning</translation>
     </message>
     <message>
         <source>Disable Vulkan Memory Allocator</source>
