@@ -1404,11 +1404,11 @@ Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</sou
     </message>
     <message>
         <source>This controller is disabled and will appear as disconnected to software. Choose another handler to enable it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna handkontroller är inaktiverad och kommer att visas som frånkopplad för programmet. Välj en annan hanterare för att aktivera den.</translation>
     </message>
     <message>
         <source>This port is currently assigned to a custom controller by the application and can&apos;t be changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denna port är för närvarande tilldelad till en anpassad handkontroller av programmet och kan inte ändras.</translation>
     </message>
     <message>
         <source>While it is possible to use a keyboard as a pad in RPCS3, the use of an actual controller is strongly recommended.&lt;br&gt;To bind mouse movement to a button or joystick, click on the desired button to activate it, then click and hold while dragging the mouse to a direction.</source>
@@ -1805,7 +1805,7 @@ Restart of the game is required to apply. You can enable/disable this in the set
     </message>
     <message>
         <source>Unknown error while setting breakpoint!</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänt fel vid inställning av brytpunkt!</translation>
     </message>
     <message>
         <source>Failed to set breakpoints.</source>
@@ -2265,7 +2265,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Save Failure</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparningsfel</translation>
     </message>
     <message>
         <source>Failed to save SPU ELF.</source>
@@ -5416,7 +5416,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>The feature is not yet implemented.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Funktionen är ännu inte implementerad.
+(%0)</translation>
     </message>
     <message>
         <source>Memory allocation failed.
@@ -5475,13 +5476,15 @@ Utrymme som krävs: %0 KB</translation>
         <source>The operation is aborted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Åtgärden är avbruten.
+(%0)</translation>
     </message>
     <message>
         <source>Invalid memory access.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltig minnesåtkomst.
+(%0)</translation>
     </message>
     <message>
         <source>State of the target thread is invalid.
@@ -5589,7 +5592,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>Syscall was interrupted.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Syscall avbröts.
+(%0)</translation>
     </message>
     <message>
         <source>File too large.
@@ -5666,7 +5670,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>Filesystem mounting failed.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Montering av filsystem misslyckades.
+(%0)</translation>
     </message>
     <message>
         <source>Too many files open.
@@ -5885,7 +5890,9 @@ Space needed: %0 KB</source>
 
 %0</source>
         <comment>Savedata entry info</comment>
-        <translation type="unfinished"></translation>
+        <translation>Vill du skriva över sparat data?
+
+%0</translation>
     </message>
     <message>
         <source>Saving...</source>
@@ -6172,7 +6179,7 @@ Subject:</source>
     </message>
     <message>
         <source>Discard the current settings&apos; changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkasta aktuella ändringar i inställningarna?</translation>
     </message>
     <message>
         <source>Discard</source>
@@ -6210,7 +6217,7 @@ Subject:</source>
     <message>
         <source>Time Stretching Threshold</source>
         <comment>Audio</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tröskelvärde för tidsutsträckning</translation>
     </message>
     <message>
         <source>Video</source>
@@ -6219,7 +6226,7 @@ Subject:</source>
     <message>
         <source>Frame Limit</source>
         <comment>Video</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bildgräns</translation>
     </message>
     <message>
         <source>Anisotropic Filter Override</source>
@@ -6800,7 +6807,7 @@ Subject:</source>
     </message>
     <message>
         <source>&amp;Check config</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrollera konfiguration</translation>
     </message>
     <message>
         <source>&amp;Show Timestamps</source>
@@ -7019,7 +7026,7 @@ Subject:</source>
     </message>
     <message>
         <source>Send Open System Menu CMD</source>
-        <translation type="unfinished"></translation>
+        <translation>Skicka kommando för Öppna systemmeny</translation>
     </message>
     <message>
         <source>CPU</source>
@@ -7099,7 +7106,7 @@ Subject:</source>
     </message>
     <message>
         <source>Configure Auto Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera automatisk paus</translation>
     </message>
     <message>
         <source>Exit And Save Log</source>
@@ -7375,7 +7382,7 @@ Subject:</source>
     </message>
     <message>
         <source>Open RSX Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna RSX-fångst</translation>
     </message>
     <message>
         <source>Add Games</source>
@@ -7459,7 +7466,7 @@ Subject:</source>
     </message>
     <message>
         <source>Create RSX Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa RSX-fångst</translation>
     </message>
     <message>
         <source>Create Savestate</source>
@@ -7523,7 +7530,7 @@ Subject:</source>
     </message>
     <message>
         <source>Check Config</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollera konfiguration</translation>
     </message>
     <message>
         <source>Shortcuts</source>
@@ -7712,7 +7719,7 @@ Subject:</source>
     </message>
     <message>
         <source>Select RSX Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj RSX-fångst</translation>
     </message>
     <message>
         <source>RRC files (*.rrc *.RRC *.rrc.gz *.RRC.GZ);;All files (*.*)</source>
@@ -7792,7 +7799,7 @@ Version %0</translation>
     </message>
     <message>
         <source>PKG Decrypter / Installer</source>
-        <translation type="unfinished"></translation>
+        <translation>PKG-avkrypterare / Installerare</translation>
     </message>
     <message>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
@@ -8567,7 +8574,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     <name>pad_motion_settings_dialog</name>
     <message>
         <source>Motion Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Rörelsekontroller</translation>
     </message>
     <message>
         <source>Device</source>
@@ -8642,7 +8649,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Motion Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Rörelsekontroller</translation>
     </message>
     <message>
         <source>Configure</source>
@@ -8698,7 +8705,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Orientation Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ orientering</translation>
     </message>
     <message>
         <source>-</source>
@@ -8730,7 +8737,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Trigger Thresholds</source>
-        <translation type="unfinished"></translation>
+        <translation>Tröskelvärden för avtryckare</translation>
     </message>
     <message>
         <source>Enable Vibration</source>
@@ -8750,7 +8757,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Mouse Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Musacceleration</translation>
     </message>
     <message>
         <source>x</source>
@@ -8762,11 +8769,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Mouse Deadzone</source>
-        <translation type="unfinished"></translation>
+        <translation>Dödläge för mus</translation>
     </message>
     <message>
         <source>Mouse Movement Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge för musrörelser</translation>
     </message>
     <message>
         <source>L1</source>
@@ -8930,7 +8937,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Stick Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisa spak</translation>
     </message>
     <message>
         <source>Show Emulated Values</source>
@@ -8942,11 +8949,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Gamepad Settings: [%0] %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Gamepad-inställningar: [%0] %1</translation>
     </message>
     <message>
         <source>Gamepad Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Gamepad-inställningar</translation>
     </message>
     <message>
         <source>Player %0</source>
@@ -8970,7 +8977,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>DJ</source>
-        <translation type="unfinished"></translation>
+        <translation>DJ</translation>
     </message>
     <message>
         <source>Dance Mat</source>
@@ -8978,7 +8985,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>PS Move Navigation</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move-navigering</translation>
     </message>
     <message>
         <source>Skateboard</source>
@@ -8990,11 +8997,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Top Shot Elite</source>
-        <translation type="unfinished"></translation>
+        <translation>Top Shot Elite</translation>
     </message>
     <message>
         <source>Top Shot Fearmaster</source>
-        <translation type="unfinished"></translation>
+        <translation>Top Shot Fearmaster</translation>
     </message>
     <message>
         <source>uDraw GameTablet</source>
@@ -9018,7 +9025,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>No Device Detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen enhet upptäcktes</translation>
     </message>
     <message>
         <source>PS3 Controller</source>
@@ -9063,17 +9070,17 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <source>Rock Revolution</source>
         <comment>Rock Revolution Drum Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>Rock Revolution</translation>
     </message>
     <message>
         <source>PS Move Navigation</source>
         <comment>PS Move Navigation Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>PS Move-navigering</translation>
     </message>
     <message>
         <source>RIDE Skateboard</source>
         <comment>Tony Hawk RIDE Skateboard Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>RIDE Skateboard</translation>
     </message>
     <message>
         <source>GunCon 3</source>
@@ -9083,17 +9090,17 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <source>Top Shot Elite</source>
         <comment>Top Shot Elite Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>Top Shot Elite</translation>
     </message>
     <message>
         <source>Top Shot Fearmaster</source>
         <comment>Top Shot Fearmaster Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>Top Shot Fearmaster</translation>
     </message>
     <message>
         <source>uDraw GameTablet</source>
         <comment>uDraw GameTablet Controller</comment>
-        <translation type="unfinished"></translation>
+        <translation>uDraw GameTablet</translation>
     </message>
     <message>
         <source>Choose a unique name</source>
@@ -9121,7 +9128,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Reserved</source>
-        <translation type="unfinished"></translation>
+        <translation>Reserverad</translation>
     </message>
     <message>
         <source>Warning!</source>
@@ -9129,7 +9136,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>The %0 button &lt;b&gt;%1&lt;/b&gt; of &lt;b&gt;Player %2&lt;/b&gt; was assigned at least twice.&lt;br&gt;Please consider adjusting the configuration.&lt;br&gt;&lt;br&gt;Continue anyway?&lt;br&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Knappen %0 &lt;b&gt;%1&lt;/b&gt; för &lt;b&gt;Spelare %2&lt;/b&gt; tilldelades minst två gånger.&lt;br&gt;Fundera på att justera konfigurationen.&lt;br&gt;&lt;br&gt;Fortsätta ändå?&lt;br&gt;</translation>
     </message>
     <message>
         <source>Null</source>
@@ -9161,7 +9168,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>MMJoystick</source>
-        <translation type="unfinished"></translation>
+        <translation>MMJoystick</translation>
     </message>
     <message>
         <source>SDL</source>
@@ -9189,11 +9196,11 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Skateboard #%0</source>
-        <translation type="unfinished"></translation>
+        <translation>Skateboard #%0</translation>
     </message>
     <message>
         <source>PS Move #%0</source>
-        <translation type="unfinished"></translation>
+        <translation>PS Move #%0</translation>
     </message>
     <message>
         <source>XInput Pad #%0</source>
@@ -9201,7 +9208,7 @@ Tip: SPU floats are commented along forming instructions.</source>
     </message>
     <message>
         <source>Joystick #%0</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspak #%0</translation>
     </message>
     <message>
         <source> (disconnected)</source>
