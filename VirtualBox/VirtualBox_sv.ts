@@ -3253,7 +3253,7 @@
     <message>
         <source>Minimal</source>
         <comment>ParavirtProvider</comment>
-        <translation type="unfinished"></translation>
+        <translation>Minimal</translation>
     </message>
     <message>
         <source>Hyper-V</source>
@@ -4247,7 +4247,7 @@
     <message>
         <source>Undefined</source>
         <comment>GuestSessionStatus</comment>
-        <translation type="unfinished"></translation>
+        <translation>Odefinierad</translation>
     </message>
     <message>
         <source>Started</source>
@@ -4452,7 +4452,7 @@
     <message>
         <source>Keyboard Extension</source>
         <comment>IndicatorType</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tangentbordsutökning</translation>
     </message>
     <message>
         <source>TLS</source>
@@ -8703,7 +8703,7 @@
     </message>
     <message>
         <source>Public key missing ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Publik nyckel saknas ...</translation>
     </message>
     <message>
         <source>Public key file path is empty.</source>
@@ -11753,7 +11753,7 @@
     </message>
     <message>
         <source>Error! Could not create folder under</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel! Kunde inte skapa mapp under</translation>
     </message>
     <message>
         <source>Provide a file name</source>
@@ -12482,7 +12482,7 @@
     </message>
     <message>
         <source>When chosen, enables the virtual USB OHCI controller of this machine. The USB OHCI controller provides USB 1.0 support.</source>
-        <translation type="unfinished"></translation>
+        <translation>När vald aktiveras det virtuella USB OHCI-styrkortet för denna maskin. USB OHCI-styrkortet ger USB 1.0-stöd.</translation>
     </message>
     <message>
         <source>USB &amp;2.0 (OHCI + EHCI) Controller</source>
@@ -12490,7 +12490,7 @@
     </message>
     <message>
         <source>When chosen, enables the virtual USB OHCI and EHCI controllers of this machine. Together they provide USB 2.0 support.</source>
-        <translation type="unfinished"></translation>
+        <translation>När vald aktiveras de virtuella styrkorten USB OHCI och EHCI för denna maskin. Tillsammans ger de USB 2.0-stöd.</translation>
     </message>
     <message>
         <source>USB &amp;3.0 (xHCI) Controller</source>
@@ -12498,7 +12498,7 @@
     </message>
     <message>
         <source>When chosen, enables the virtual USB xHCI controller of this machine. The USB xHCI controller provides USB 3.0 support.</source>
-        <translation type="unfinished"></translation>
+        <translation>När vald aktiveras det virtuella USB xHCI-styrkortet för denna maskin. USB xHCI-styrkortet ger USB 3.0-stöd.</translation>
     </message>
 </context>
 <context>
@@ -13373,7 +13373,7 @@
     <name>UIVMLogViewerWidget</name>
     <message>
         <source>Delete the current bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort aktuellt bokmärke</translation>
     </message>
     <message>
         <source>Delete all bookmarks</source>
@@ -13389,11 +13389,11 @@
     </message>
     <message>
         <source>Select or enter a term which will be used in filtering the log text</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj eller ange en term som ska användas i filtrering av loggtexten</translation>
     </message>
     <message>
         <source>Add the filter term to the set of filter terms</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till filtertermen till uppsättningen av filtertermer</translation>
     </message>
     <message>
         <source>Showing %1/%2</source>
@@ -13401,11 +13401,11 @@
     </message>
     <message>
         <source>The filter terms list, select one to remove or click the button on the right side to remove them all</source>
-        <translation type="unfinished"></translation>
+        <translation>Listan över filtertermer, välj en att ta bort eller klicka på knappen till höger för att ta bort dem alla</translation>
     </message>
     <message>
         <source>The type of boolean operator for filter operation</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ av boolesk operator för filteråtgärden</translation>
     </message>
     <message>
         <source>Show Line Numbers</source>
@@ -13413,15 +13413,15 @@
     </message>
     <message>
         <source>When checked, show line numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad, visa radnummer</translation>
     </message>
     <message>
         <source>Wrap Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Radbryt rader</translation>
     </message>
     <message>
         <source>When checked, wrap lines</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad, radbryt rader</translation>
     </message>
     <message>
         <source>Font Size</source>
@@ -13429,15 +13429,15 @@
     </message>
     <message>
         <source>Log viewer font size</source>
-        <translation type="unfinished"></translation>
+        <translation>Typsnittsstorlek för loggvisare</translation>
     </message>
     <message>
         <source>Open a font dialog to select font face for the logviewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna en typsnittsdialog för att välja typsnitt för loggvisaren</translation>
     </message>
     <message>
         <source>Reset options to application defaults</source>
-        <translation type="unfinished"></translation>
+        <translation>Nollställ alternativ till programmets standardvärden</translation>
     </message>
     <message>
         <source>Enter a search string here</source>
@@ -13445,11 +13445,11 @@
     </message>
     <message>
         <source>Search for the next occurrence of the string (F3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök efter nästa förekomst av strängen (F3)</translation>
     </message>
     <message>
         <source>Search for the previous occurrence of the string (Shift+F3)</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök efter tidigare förekomst av strängen (Skift+F3)</translation>
     </message>
     <message>
         <source>C&amp;ase Sensitive</source>
@@ -13457,23 +13457,23 @@
     </message>
     <message>
         <source>When checked, perform case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad, genomför skiftlägeskänslig sökning</translation>
     </message>
     <message>
         <source>Ma&amp;tch Whole Word</source>
-        <translation type="unfinished"></translation>
+        <translation>Mat&amp;cha hela ord</translation>
     </message>
     <message>
         <source>When checked, search matches only complete words</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad komemr endast hela ord att matcha sökningen</translation>
     </message>
     <message>
         <source>&amp;Highlight All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Framhäv alla</translation>
     </message>
     <message>
         <source>When checked, all occurence of the search text are highlighted</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer alla förekomster för söktexten att framhävas</translation>
     </message>
     <message>
         <source>Filtered</source>
@@ -13481,7 +13481,7 @@
     </message>
     <message>
         <source>Bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Bokmärke</translation>
     </message>
     <message>
         <source>Save VirtualBox Log As</source>
@@ -13489,15 +13489,15 @@
     </message>
     <message>
         <source>Go to the next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till nästa bokmärke</translation>
     </message>
     <message>
         <source>Go to the previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till föregående bokmärke</translation>
     </message>
     <message>
         <source>Go to selected bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till valt bokmärke</translation>
     </message>
     <message>
         <source>Help</source>
@@ -13521,11 +13521,11 @@
     </message>
     <message>
         <source>Select machines to show their log</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj maskiner för att visa deras logg</translation>
     </message>
     <message>
         <source>&lt;p&gt;No log files for the machine %1 found. Press the &lt;b&gt;Reload&lt;/b&gt; button to reload the log folder &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;&lt;/nobr&gt;.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Inga loggfiler för maskinen %1 hittades. Tryck på &lt;b&gt;Uppdatera&lt;/b&gt;-knappen för att uppdateras loggmappen &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;&lt;/nobr&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>%1 - Log Viewer</source>
@@ -13537,11 +13537,11 @@
     </message>
     <message>
         <source>Embed to manager window</source>
-        <translation type="unfinished"></translation>
+        <translation>Bädda in i hanterarfönstret</translation>
     </message>
     <message>
         <source>Embed to Manager Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Bädda in i hanterarfönstret</translation>
     </message>
     <message>
         <source>Find</source>
