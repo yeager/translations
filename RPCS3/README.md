@@ -13,9 +13,9 @@ $ lrelease *ts
 
 Updating 'rpcs3_sv.qm'...
 
-    Genererade 2183 översättningar (2183 slutförda och 0 oavslutade)
+    Genererade 2231 översättningar (2231 slutförda och 0 oavslutade)
     
-    Ignorerade 722 oöversatta källtexter
+    Ignorerade 674 oöversatta källtexter
     
 
 ![image](https://github.com/user-attachments/assets/7367b87b-fd1e-4d05-b2ed-9085af1d8997)
