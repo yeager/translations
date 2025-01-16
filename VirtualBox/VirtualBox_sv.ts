@@ -9880,7 +9880,7 @@
     </message>
     <message>
         <source>Holds the network adapter on the host system that traffic to and from this network card will go through.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller nätverkskortet på värdsystemet som trafik till och från detta nätverkskort kommer gå igenom.</translation>
     </message>
     <message>
         <source>Holds the driver to be used with this network card.</source>
@@ -9888,19 +9888,19 @@
     </message>
     <message>
         <source>Holds the name of the NAT network that this network card will be connected to. You can create and remove networks using the Network Manager tool in the virtual machine manager window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller namnet på NAT-nätverket som detta nätverkskort kommer att anslutas till. Du kan skapa och ta bort nätverk med verktyget Nätverkshanterare i hanterarfönstret för virtuella maskinen.</translation>
     </message>
     <message>
         <source>Holds the name of the host-only network that this network card will be connected to. You can add and remove networks using the Network Manager tool in the virtual machine manager window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller namnet på endast-värd-nätverket som detta nätverkskort ska anslutas till. Du kan lägga till och ta bort nätverk med verktyget Nätverkshanterare i hanterarfönstret för virtuella maskinen.</translation>
     </message>
     <message>
         <source>Holds the virtual network adapter on the host system that traffic to and from this network card will go through. You can create and remove adapters using the Network Manager tool in the virtual machine manager window.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller virtuella nätverketskortet på värdsystemet som trafik till och från detta nätverkskort ska gå igenom. Du kan skapa och ta bort nätverk med verktyget Nätverkshanterare i hanterarfönstret för virtuella maskinen.</translation>
     </message>
     <message>
         <source>(experimental) Holds the name of the cloud network that this network card will be connected to. You can add and remove networks using the Network Manager tool in the virtual machine manager window.</source>
-        <translation type="unfinished"></translation>
+        <translation>(experimentellt) Innehåller namnet på molnnätverket som detta nätverkskort ska anslutas till. Du kan lägga till och ta bort nätverk med verktyget Nätverkshanterare i hanterarfönstret för virtuella maskinen.</translation>
     </message>
 </context>
 <context>
@@ -9947,7 +9947,7 @@
     </message>
     <message>
         <source>When checked, the virtual network cable is plugged in.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer den virtuella nätverkskabeln att kopplas in.</translation>
     </message>
     <message>
         <source>&amp;Port Forwarding</source>
@@ -11617,11 +11617,11 @@
     </message>
     <message>
         <source>Scan Code</source>
-        <translation type="unfinished"></translation>
+        <translation>Scan Code</translation>
     </message>
     <message>
         <source>The scan code the key produces. Not editable</source>
-        <translation type="unfinished"></translation>
+        <translation>Den scancode som tangenten producerar. Inte redigeringsbar</translation>
     </message>
     <message>
         <source>Position</source>
@@ -11629,11 +11629,11 @@
     </message>
     <message>
         <source>The physical position of the key. Not editable</source>
-        <translation type="unfinished"></translation>
+        <translation>Fysiska positionen för tangenten. Inte redigerbar</translation>
     </message>
     <message>
         <source>Base</source>
-        <translation type="unfinished"></translation>
+        <translation>Bas</translation>
     </message>
     <message>
         <source>Shift</source>
@@ -11649,11 +11649,11 @@
     </message>
     <message>
         <source>Captions</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildtexter</translation>
     </message>
     <message>
         <source>Selected Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Vald tangent</translation>
     </message>
     <message>
         <source>Use the selected layout</source>
@@ -11773,7 +11773,7 @@
     </message>
     <message>
         <source>This will delete the keyboard layout file as well. Proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta kommer även att ta bort tangentbordslayoutfilen. Fortsätta?</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -11797,11 +11797,11 @@
     </message>
     <message>
         <source>Hide NumPad</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj numeriskt tangentbord</translation>
     </message>
     <message>
         <source>Hide OS/Menu Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj OS/menytangenter</translation>
     </message>
     <message>
         <source>Hide Multimedia Keys</source>
@@ -11813,23 +11813,23 @@
     </message>
     <message>
         <source>Button Background Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Knappens bakgrundsfärg</translation>
     </message>
     <message>
         <source>Button Font Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Knappens typsnittsfärg</translation>
     </message>
     <message>
         <source>Button Hover Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Knappens hovringsfärg</translation>
     </message>
     <message>
         <source>Button Edit Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Knappens redigeringsfärg</translation>
     </message>
     <message>
         <source>Pressed Button Font Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Typsnittsfärg för tryckt knapp</translation>
     </message>
     <message>
         <source>Soft Keyboard</source>
@@ -11837,7 +11837,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Following layouts are edited/copied but not saved:&lt;/p&gt;%1&lt;p&gt;Closing this dialog will cause loosing the changes. Proceed?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Följande layouter redigeras/kopieras men sparas inte:&lt;/p&gt;%1&lt;p&gt;Stängning av denna dialog kommer att innebära att ändringar förloras. Fortsätta?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Layout</source>
@@ -11908,19 +11908,19 @@
     </message>
     <message>
         <source>&lt;nobr&gt;Expands/Collapses&amp;nbsp;item.&lt;/nobr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;nobr&gt;Fäller&amp;nbsp;ut/fäller&amp;nbsp;in&amp;nbsp;post.&lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>&lt;nobr&gt;Adds&amp;nbsp;hard&amp;nbsp;disk.&lt;/nobr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;nobr&gt;Lägger&amp;nbsp;till&amp;nbsp;hårddisk.&lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>&lt;nobr&gt;Adds&amp;nbsp;optical&amp;nbsp;drive.&lt;/nobr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;nobr&gt;Lägger&amp;nbsp;till&amp;nbsp;optisk&amp;nbsp;enhet.&lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>&lt;nobr&gt;Adds&amp;nbsp;floppy&amp;nbsp;drive.&lt;/nobr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;nobr&gt;Lägger&amp;nbsp;till&amp;nbsp;diskettenhet.&lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Information</source>
@@ -11940,7 +11940,7 @@
     </message>
     <message>
         <source>Holds the name of the storage controller currently selected in the Storage Tree.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller namnet på lagringsstyrkortet som för närvarande är markerat i Lagringsträd.</translation>
     </message>
     <message>
         <source>&amp;Type:</source>
@@ -11960,7 +11960,7 @@
     </message>
     <message>
         <source>When checked, allows to use host I/O caching capabilities.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad tillåts att använda värd-I/O-cachingförmågor.</translation>
     </message>
     <message>
         <source>Use Host I/O Cache</source>
@@ -11980,7 +11980,7 @@
     </message>
     <message>
         <source>When checked, the virtual disk will not be removed when the guest system ejects it.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer virtuella disken inte att tas bort när gästsystemet matar ut den.</translation>
     </message>
     <message>
         <source>&amp;Live CD/DVD</source>
@@ -11988,7 +11988,7 @@
     </message>
     <message>
         <source>When checked, the guest system will see the virtual disk as a solid-state device.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer gästsystemet att se den virtuella disken som en Solid State-enhet.</translation>
     </message>
     <message>
         <source>&amp;Solid-state Drive</source>
@@ -11996,11 +11996,11 @@
     </message>
     <message>
         <source>When checked, the guest system will see the virtual disk as a hot-pluggable device.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer gästsystemet att se den virtuella disken som en enhet som kan anslutas/kopplas från under drift (hot-pluggable).</translation>
     </message>
     <message>
         <source>&amp;Hot-pluggable</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hot-pluggable</translation>
     </message>
     <message>
         <source>Type (Format):</source>
@@ -12024,7 +12024,7 @@
     </message>
     <message>
         <source>Lists all storage controllers for this machine and the virtual images and host drives attached to them.</source>
-        <translation type="unfinished"></translation>
+        <translation>Listar alla lagringsstyrkort för denna maskin och de virtuella avbildningar och värdenheter som är anslutna till dem.</translation>
     </message>
     <message>
         <source>Add Controller</source>
@@ -12112,7 +12112,7 @@
     </message>
     <message>
         <source>Removes selected storage attachment.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort markerade lagringsanslutningar.</translation>
     </message>
     <message>
         <source>Hard &amp;Disk:</source>
@@ -12128,7 +12128,7 @@
     </message>
     <message>
         <source>Choose a virtual optical disk or a physical drive to use with the virtual drive. The virtual machine will see a disk inserted into the drive with the data in the file or on the disk in the physical drive as its contents.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en virtuell optisk disk eller fysisk enhet att använda med den virtuella enheten. Den virtuella maskinen kommer se en disk inmatad i enheten med datat i filen eller disken i den fysiska enheten som sitt innehåll.</translation>
     </message>
     <message>
         <source>Floppy &amp;Drive:</source>
