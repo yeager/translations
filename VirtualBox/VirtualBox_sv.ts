@@ -878,7 +878,7 @@
     </message>
     <message>
         <source>Suspend execution of selected virtual machines</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt körning av de markerade virtuella maskinerna</translation>
     </message>
     <message>
         <source>Reset selected virtual machines</source>
@@ -1030,7 +1030,7 @@
     </message>
     <message>
         <source>Open pane with the selected snapshot properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna panel med egenskaper för markerad ögonblicksbild</translation>
     </message>
     <message>
         <source>&amp;Clone...</source>
@@ -1074,7 +1074,7 @@
     </message>
     <message>
         <source>Open pane with selected host-only network properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna panel med egenskaper för markerat endast-värd-nätverk</translation>
     </message>
     <message>
         <source>Refresh the list of host-only networks</source>
@@ -1130,7 +1130,7 @@
     </message>
     <message>
         <source>Open pane with selected cloud profile properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna panel med egenskaper för markerad molnprofil</translation>
     </message>
     <message>
         <source>Help</source>
@@ -1146,7 +1146,7 @@
     </message>
     <message>
         <source>Display the virtual machine session information window</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa informationsfönster för virtuell maskinsession</translation>
     </message>
     <message>
         <source>File Manager...</source>
@@ -1158,7 +1158,7 @@
     </message>
     <message>
         <source>Send the ACPI Shutdown signal to the virtual machine</source>
-        <translation type="unfinished"></translation>
+        <translation>Skicka ACPI-Stäng ner-signal till virtuella maskinen</translation>
     </message>
     <message>
         <source>&amp;View</source>
@@ -1170,7 +1170,7 @@
     </message>
     <message>
         <source>Switch between normal and full-screen mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla mellan normal och helskärmsläge</translation>
     </message>
     <message>
         <source>S&amp;caled Mode</source>
@@ -1182,7 +1182,7 @@
     </message>
     <message>
         <source>Automatically resize the guest display when the window is resized</source>
-        <translation type="unfinished"></translation>
+        <translation>Storleksändra automatiskt gästskärmen när fönstret är storleksändrat</translation>
     </message>
     <message>
         <source>Take guest display screenshot</source>
@@ -1198,7 +1198,7 @@
     </message>
     <message>
         <source>Display virtual machine settings window to configure video/audio recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa fönstret för virtuella maskininställningar för att konfigurera video-/ljudinspelning</translation>
     </message>
     <message>
         <source>Enable guest video/audio recording</source>
@@ -1206,7 +1206,7 @@
     </message>
     <message>
         <source>Allow remote desktop (RDP) connections to this machine</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåt fjärrskrivbordsanslutningar (RDP) till denna maskin</translation>
     </message>
     <message>
         <source>&amp;Menu Bar</source>
@@ -1262,7 +1262,7 @@
     </message>
     <message>
         <source>Display global preferences window to configure keyboard shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa fönstret för globala inställningar för att konfigurera tangentbordsgenvägar</translation>
     </message>
     <message>
         <source>&amp;Insert %1</source>
@@ -1271,7 +1271,7 @@
     </message>
     <message>
         <source>Send the %1 sequence to the virtual machine</source>
-        <translation type="unfinished"></translation>
+        <translation>Skicka %1-sekvensen till virtuella maskinen</translation>
     </message>
     <message>
         <source>&amp;Mouse</source>
@@ -1355,7 +1355,7 @@
     </message>
     <message>
         <source>Insert the Guest Additions disk file into the virtual optical drive</source>
-        <translation type="unfinished"></translation>
+        <translation>Mata in diskfilen för Gästtillägg i den virtuella optiska enheten</translation>
     </message>
     <message>
         <source>&amp;Logging</source>
@@ -1376,7 +1376,7 @@
     </message>
     <message>
         <source>Disable Dock Icon Overlay</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera överlägg för dockikon</translation>
     </message>
     <message>
         <source>Scale to %1%</source>
@@ -1420,7 +1420,7 @@
     </message>
     <message>
         <source>Export selected virtual machine to OCI</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera markerad virtuell maskin till OCI</translation>
     </message>
     <message>
         <source>Try</source>
@@ -1604,7 +1604,7 @@
     </message>
     <message>
         <source>Open pane with selected disk image properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna panel med egenskaper för markerad diskavbildning</translation>
     </message>
     <message>
         <source>Open Disk Image Properties</source>
@@ -1677,7 +1677,7 @@
     <message>
         <source>Guest Control Terminal...</source>
         <comment>debug action</comment>
-        <translation type="unfinished"></translation>
+        <translation>Terminal för gästkontroll...</translation>
     </message>
     <message>
         <source>[Root]</source>
@@ -1713,11 +1713,11 @@
     </message>
     <message>
         <source>Reread all the log files and refresh pages</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs om alla loggfiler och uppdatera sidorna</translation>
     </message>
     <message>
         <source>Toggle guest session panel of the file manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla panel för gästsession för filhanteraren</translation>
     </message>
     <message>
         <source>Toggle Guest Session Panel</source>
@@ -1757,7 +1757,7 @@
     </message>
     <message>
         <source>R&amp;eset</source>
-        <translation type="unfinished"></translation>
+        <translation>N&amp;ollställ</translation>
     </message>
     <message>
         <source>&amp;Medium Selector</source>
@@ -1793,11 +1793,11 @@
     </message>
     <message>
         <source>VM Activity Monitor</source>
-        <translation type="unfinished"></translation>
+        <translation>Övervakare för virtuell maskinaktivitet</translation>
     </message>
     <message>
         <source>Export the chart data into a text file</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera diagramdata till en textfil</translation>
     </message>
     <message>
         <source>Export Data to File</source>
@@ -1813,7 +1813,7 @@
     </message>
     <message>
         <source>Navigate to the vm activity overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Navigera till översikt för virtuell maskinaktivitet</translation>
     </message>
     <message>
         <source>&amp;Welcome Screen</source>
@@ -1829,7 +1829,7 @@
     </message>
     <message>
         <source>Open the Extension Pack Manager</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna hanteraren för tilläggspaket</translation>
     </message>
     <message>
         <source>&amp;Network Manager</source>
@@ -1841,11 +1841,11 @@
     </message>
     <message>
         <source>&amp;VM Activity Overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Översikt för virtuell &amp;maskinaktivitet</translation>
     </message>
     <message>
         <source>Open the VM Activity Overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna översikt för virtuell maskinaktivitet</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
@@ -1870,7 +1870,7 @@
     </message>
     <message>
         <source>Create console connection to be able to use ssh/vnc clients</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa konsollanslutning för att kunna använda SSH/VNC-klienter</translation>
     </message>
     <message>
         <source>&amp;Delete Connection</source>
@@ -1878,7 +1878,7 @@
     </message>
     <message>
         <source>Delete console connection to disconnect ssh/vnc clients</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort konsollanslutning för att koppla från SSH/VNC-klienter</translation>
     </message>
     <message>
         <source>&amp;Configure Console Applications</source>
@@ -1886,7 +1886,7 @@
     </message>
     <message>
         <source>Open configuration dialog to edit console application settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna konfigurationsdialog för att redigera inställningar för konsollprogram</translation>
     </message>
     <message>
         <source>&amp;Copy Command (serial) for Unix</source>
@@ -1898,7 +1898,7 @@
     </message>
     <message>
         <source>Copy console command for serial connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera konsollkommando för serieanslutning</translation>
     </message>
     <message>
         <source>&amp;Copy Command (VNC) for Unix</source>
@@ -1910,7 +1910,7 @@
     </message>
     <message>
         <source>Copy console command for VNC connection</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera konsollkommando för VNC-anslutning</translation>
     </message>
     <message>
         <source>Show &amp;Log</source>
@@ -1930,11 +1930,11 @@
     </message>
     <message>
         <source>Terminate cloud instance of selected virtual machines</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta molninstansen för markerade virtuella maskiner</translation>
     </message>
     <message>
         <source>Open the machine activity monitor pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna övervakningspanelen för maskinaktivitet</translation>
     </message>
     <message>
         <source>&amp;File Manager</source>
@@ -2022,7 +2022,7 @@
     </message>
     <message>
         <source>Remove selected cloud console profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort markerad molnkonsollprofil</translation>
     </message>
     <message>
         <source>Remove Cloud Console Profile</source>
@@ -2034,7 +2034,7 @@
     </message>
     <message>
         <source>Open pane with selected cloud console properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna panel med egenskaper för markerad molnkonsoll</translation>
     </message>
     <message>
         <source>Open Cloud Console Properties</source>
@@ -2062,7 +2062,7 @@
     </message>
     <message>
         <source>Switch to selected virtual machine&apos;s activity monitor pane</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla till övervakningspanel för markerad virtuell maskins aktivitet</translation>
     </message>
     <message>
         <source>Refresh Viewed Log</source>
@@ -2086,7 +2086,7 @@
     </message>
     <message>
         <source>Navigate to VM Activity Overview</source>
-        <translation type="unfinished"></translation>
+        <translation>Navigera till översikt för virtuell maskinaktivitet</translation>
     </message>
     <message>
         <source>Remove Inaccessible Media</source>
@@ -2122,7 +2122,7 @@
     </message>
     <message>
         <source>Open the browser and go to the VirtualBox user guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna webbläsaren och gå till VirtualBox användarguide</translation>
     </message>
     <message>
         <source>&amp;Preferences</source>
@@ -2162,7 +2162,7 @@
     </message>
     <message>
         <source>Rename Selected VISO File Object</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn på markerat VISO-filobjekt</translation>
     </message>
     <message>
         <source>Open</source>
@@ -9911,7 +9911,7 @@
     </message>
     <message>
         <source>Holds the type of the virtual network adapter. Depending on this value, VirtualBox will provide different network hardware to the virtual machine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller typen för det virtuella nätverkskortet. Beroende på dett värde kommer VirtualBox att tillhandahålla olika nätverkshårdvaror till den virtuella maskinen.</translation>
     </message>
     <message>
         <source>&amp;Promiscuous Mode:</source>
@@ -9919,7 +9919,7 @@
     </message>
     <message>
         <source>Holds the promiscuous mode policy of the network adapter when attached to an internal network, host only network or a bridge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller policyn för promiskuöst läge för nätverkskortet när ansluten till ett internt nätverk, endast-värd-nätverk eller en brygga.</translation>
     </message>
     <message>
         <source>&amp;MAC Address:</source>
@@ -9927,7 +9927,7 @@
     </message>
     <message>
         <source>Holds the MAC address of this adapter. It contains exactly 12 characters chosen from {0-9,A-F}. Note that the second character must be an even digit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller hårdvaruadressen för detta kort. Det innehåller en exakt 12 tecken lång sträng som väljs från {0-9,A-F}. Observera att det andra tecknet måste vara en jämn siffra.</translation>
     </message>
     <message>
         <source>Generates a new random MAC address.</source>
@@ -9939,7 +9939,7 @@
     </message>
     <message>
         <source>Holds the configuration settings for the network attachment driver. The settings should be of the form name=value and will depend on the driver. Use shift-enter to add a new entry.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller konfigurationsinställningar för drivrutinen för nätverkanslutning. Inställningen ska vara i formatet namn=värde och är beroende av drivrutinen. Använd Skift-Enter för att lägga till en ny post.</translation>
     </message>
     <message>
         <source>&amp;Cable Connected</source>
@@ -11174,7 +11174,7 @@
     </message>
     <message>
         <source>Selects the serial port number. You can choose one of the standard serial ports or select User-defined and specify port parameters manually.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer serieportsnumret. Du kan välja en av de standardiserade serieportarna eller välj Användardefinierad och ange portparametrar manuellt.</translation>
     </message>
     <message>
         <source>&amp;IRQ:</source>
@@ -11182,7 +11182,7 @@
     </message>
     <message>
         <source>Holds the IRQ number of this serial port. This should be a whole number between &apos;0&apos; and &apos;255&apos;. Values greater than &apos;15&apos; may only be used if the I/O APIC setting is enabled for this virtual machine.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller IRQ-numret för denna serieport. Detta bör vara ett heltal mellan &apos;0&apos; och &apos;255&apos;. Värden större än &apos;15&apos; kan endast användas om I/O APIC-inställningen är aktiverad för denna virtuella maskin.</translation>
     </message>
     <message>
         <source>I/O Po&amp;rt:</source>
@@ -11190,7 +11190,7 @@
     </message>
     <message>
         <source>Holds the base I/O port address of this serial port. Valid values are integer numbers in range from &apos;0&apos; to &apos;0xFFFF&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehåller bas-I/O-portadressen för denna serieport. Giltiga värden är heltal i intervallet från &apos;0&apos; till &apos;0xFFFF&apos;.</translation>
     </message>
     <message>
         <source>Port &amp;Mode:</source>
@@ -11198,7 +11198,7 @@
     </message>
     <message>
         <source>Selects the working mode of this serial port. If you select Disconnected, the guest OS will detect the serial port but will not be able to operate it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Väljer arbetsläget för denna serieport. Om du väljer Frånkopplad kommer gästoperativsystemet att upptäcka serieporten men inte kunna arbeta med den.</translation>
     </message>
     <message>
         <source>&amp;Connect to existing pipe/socket</source>
@@ -11206,7 +11206,7 @@
     </message>
     <message>
         <source>When checked, the virtual machine will assume that the pipe or socket specified in the Path/Address field exists and try to use it. Otherwise, the pipe or socket will be created by the virtual machine when it starts.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer den virtuella maskinen att anta att röret eller uttaget som angetts i Sökväg/Adress-fältet finns och försöker att använda dem. Om inte kommer röret eller uttaget att skapas av den virtuella maskinen när den startas.</translation>
     </message>
     <message>
         <source>&amp;Path/Address:</source>
@@ -11214,7 +11214,7 @@
     </message>
     <message>
         <source>In Host Pipe mode: Holds the path to the serial port&apos;s pipe on the host. Examples: &quot;\\.\pipe\myvbox&quot; or &quot;/tmp/myvbox&quot;, for Windows and UNIX-like systems respectively. In Host Device mode: Holds the host serial device name. Examples: &quot;COM1&quot; or &quot;/dev/ttyS0&quot;. In Raw File mode: Holds the file-path on the host system, where the serial output will be dumped. In TCP mode: Holds the TCP &quot;port&quot; when in server mode, or &quot;hostname:port&quot; when in client mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>I Värdrörsläge: Innehåller sökvägen till serieporterns rör på värden. Exempel: &quot;\\.\pipe\minvbox&quot; eller &quot;/tmp/minvbox&quot;, för Windows och UNIX-liknande system respektive. I Värdenhetsläget: Innehåller värdens serieenhetsnamn: Exempel: &quot;COM1&quot; eller &quot;/dev/ttyS0&quot;. I Råfilsläge: Innehåller filsökvägen på värdsystemet där serieutdata kommer att dumpas. I TCP-läget: Innehåller TCP-&quot;porten&quot; när i serverläge eller &quot;värdnamn:port&quot; när i klientläge.</translation>
     </message>
 </context>
 <context>
@@ -13032,15 +13032,15 @@
     </message>
     <message>
         <source>&lt;p&gt;Sends the ACPI Power Button press event to the virtual machine.&lt;/p&gt;&lt;p&gt;Normally, the guest operating system running inside the virtual machine will detect this event and perform a clean shutdown procedure. This is a recommended way to turn off the virtual machine because all applications running inside it will get a chance to save their data and state.&lt;/p&gt;&lt;p&gt;If the machine doesn&apos;t respond to this action then the guest operating system may be misconfigured or doesn&apos;t understand ACPI Power Button events at all. In this case you should select the &lt;b&gt;Power off the machine&lt;/b&gt; action to stop virtual machine execution.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Skickar tryckhändelsen ACPI Power Button till den virtuella maskinen.&lt;/p&gt;&lt;p&gt;Oftast kommer gästoperativsystemet som kör inne i den virtuella maskinen att upptäcka denna händelse och genomföra en ren avstängningsprocedur. Detta är det rekommenderade sättet att stänga av en virtuell maskin eftersom alla program som kör inne i den kommer att få en chans att spara sitt data och tillstånd.&lt;/p&gt;&lt;p&gt;Om maskinen inte svarar på denna åtgärd kan gästoperativsystemet vara felkonfigurerat eller inte förstår ACPI Power Button-händelser alls. I detta fall bör du välja åtgärden &lt;b&gt;Stänga av maskinen&lt;/b&gt; för att stoppa körningen av den virtuella maskinen.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Skickar tryckhändelsen ACPI Power Button till den virtuella maskinen.&lt;/p&gt;&lt;p&gt;Oftast kommer gästoperativsystemet som kör inne i den virtuella maskinen att upptäcka denna händelse och genomföra en ren avstängningsprocedur. Detta är det rekommenderade sättet att stänga ner en virtuell maskin eftersom alla program som kör inne i den kommer att få en chans att spara sitt data och tillstånd.&lt;/p&gt;&lt;p&gt;Om maskinen inte svarar på denna åtgärd kan gästoperativsystemet vara felkonfigurerat eller inte förstår ACPI Power Button-händelser alls. I detta fall bör du välja åtgärden &lt;b&gt;Stänga av maskinen&lt;/b&gt; för att stoppa körningen av den virtuella maskinen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>S&amp;end the shutdown signal</source>
-        <translation>S&amp;kicka avstängningssignal</translation>
+        <translation>S&amp;kicka nerstängningssignal</translation>
     </message>
     <message>
         <source>&lt;p&gt;Turns off the virtual machine.&lt;/p&gt;&lt;p&gt;Note that this action will stop machine execution immediately so that the guest operating system running inside it will not be able to perform a clean shutdown procedure which may result in &lt;i&gt;data loss&lt;/i&gt; inside the virtual machine. Selecting this action is recommended only if the virtual machine does not respond to the &lt;b&gt;Send the shutdown signal&lt;/b&gt; action.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Stänger av den virtuella maskinen.&lt;/p&gt;&lt;p&gt;Observera att denna åtgärd kommer att stoppa maskinkörningen omedelbart så att det gästoperativsystem som kör inne i den inte kommer att kunna genomföra en ren avstängningsprocedur, vilket kan leda till att &lt;i&gt;data förloras&lt;/i&gt; inne i den virtuella maskinen. Val av denna åtgärd rekommenderas endast om den virtuella maskinen inte svarar på åtgärden &lt;b&gt;Skicka avstängningssignal&lt;/b&gt;.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Stänger av den virtuella maskinen.&lt;/p&gt;&lt;p&gt;Observera att denna åtgärd kommer att stoppa maskinkörningen omedelbart så att det gästoperativsystem som kör inne i den inte kommer att kunna genomföra en ren avstängningsprocedur, vilket kan leda till att &lt;i&gt;data förloras&lt;/i&gt; inne i den virtuella maskinen. Val av denna åtgärd rekommenderas endast om den virtuella maskinen inte svarar på åtgärden &lt;b&gt;Skicka nerstängningssignal&lt;/b&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&amp;Power off the machine</source>
