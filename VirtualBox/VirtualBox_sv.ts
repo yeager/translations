@@ -8251,7 +8251,7 @@
     </message>
     <message>
         <source>&lt;b&gt;%1&lt;/b&gt; is an option for the VirtualBox VM runner (VirtualBoxVM) application, not the VirtualBox Manager.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;%1&lt;/b&gt; är ett alternativ för programmet VirtualBox VM runner (VirtualBoxVM) inte VirtualBox Manager.</translation>
     </message>
     <message>
         <source>&lt;p&gt;You must specify a machine to start, using the command line.&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;</source>
@@ -8264,15 +8264,15 @@
     </message>
     <message>
         <source>&lt;p&gt;Failed to create the VirtualBoxClient COM object.&lt;/p&gt;&lt;p&gt;The application will now terminate.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Misslyckades med att skapa ett COM-klientobjekt för VirtualBox.&lt;/p&gt;&lt;p&gt;Programmet kommer nu att avslutas.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Failed to acquire the VirtualBox COM object.&lt;/p&gt;&lt;p&gt;The application will now terminate.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Misslyckades med att hämta VirtualBox COM-objekt.&lt;/p&gt;&lt;p&gt;Programmet kommer nu att avslutas.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The reason for this error are most likely wrong permissions of the IPC daemon socket due to an installation problem. Please check the permissions of &lt;font color=blue&gt;&apos;/tmp&apos;&lt;/font&gt; and &lt;font color=blue&gt;&apos;/tmp/.vbox-*-ipc/&apos;&lt;/font&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Anledningen för detta fel är antagligen felaktiga rättigheter för IPC-demonuttaget på grund av ett installationsproblem. Kontrollera rättigheterna för &lt;font color=blue&gt;&apos;/tmp&apos;&lt;/font&gt; samt &lt;font color=blue&gt;&apos;/tmp/.vbox-*-ipc/&apos;&lt;/font&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to set the global VirtualBox extra data for key &lt;i&gt;%1&lt;/i&gt; to value &lt;i&gt;{%2}&lt;/i&gt;.</source>
@@ -8288,23 +8288,23 @@
     </message>
     <message>
         <source>&lt;p&gt;One or more disk image files are not currently accessible. As a result, you will not be able to operate virtual machines that use these files until they become accessible later.&lt;/p&gt;&lt;p&gt;Press &lt;b&gt;Check&lt;/b&gt; to open the Virtual Media Manager window and see which files are inaccessible, or press &lt;b&gt;Ignore&lt;/b&gt; to ignore this message.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;En eller flera diskavbildningsfiler är för närvarande inte tillgängliga. Som ett resultat av detta kommer du inte kunna hantera virtuella maskiner som använder dessa filer tills de har blivit åtkomliga.&lt;/p&gt;&lt;p&gt;Tryck på &lt;b&gt;Kontrollera&lt;/b&gt; för att öppna fönstret för virtuell mediahanterare och se vilka filer som inte är åtkomliga, eller tryck på &lt;b&gt;Ignorera&lt;/b&gt; för att ignorera detta meddelande.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;You are about to start all of the following virtual machines:&lt;/p&gt;&lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This could take some time and consume a lot of host system resources. Do you wish to proceed?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du är på väg att starta alla av följande virtuella maskiner:&lt;/p&gt;&lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;&lt;p&gt;Detta kan ta lite tid och konsumera en hel del av värdsystemets resurser. Vill du fortsätta?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;You are about to restore snapshot &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;.&lt;/p&gt;&lt;p&gt;You can create a snapshot of the current state of the virtual machine first by checking the box below; if you do not do this the current state will be permanently lost. Do you wish to proceed?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du är på väg att återskapa ögonblicksbilden &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;.&lt;/p&gt;&lt;p&gt;Du kan skapa en ögonblicksbild av det aktuella tillståndet för den virtuella maskinen först genom att kryssa i rutan nedan. Om du inte gör detta kommer det aktuella tillståndet att permanent förloras. Vill du fortsätta?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Deleting the snapshot will cause the state information saved in it to be lost, and storage data spread over several image files that VirtualBox has created together with the snapshot will be merged into one file. This can be a lengthy process, and the information in the snapshot cannot be recovered.&lt;/p&gt;&lt;/p&gt;Are you sure you want to delete the selected snapshot &lt;b&gt;%1&lt;/b&gt;?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Borttagning av ögonblicksbilden kommer att orsaka att tillståndsinformationen som sparats förloras och lagringsdata som spridits över flera avbildningsfiler som VirtualBox har skapat tillsammans med ögonblicksbilden kommer att slås samman till en fil. Detta kan ta en bra stund att göra och informationen i ögonblicksbilden kommer inte gå att återskapa.&lt;/p&gt;&lt;/p&gt;Är du säker på att du vill ta bort den markerade ögonblicksbilden &lt;b&gt;%1&lt;/b&gt;?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Deleting the snapshot %1 will temporarily need more storage space. In the worst case the size of image %2 will grow by %3, however on this filesystem there is only %4 free.&lt;/p&gt;&lt;p&gt;Running out of storage space during the merge operation can result in corruption of the image and the VM configuration, i.e. loss of the VM and its data.&lt;/p&gt;&lt;p&gt;You may continue with deleting the snapshot at your own risk.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Borttagning av ögonblicksbilden %1 kommer temporärt att behöva mer lagringsutrymme. I värsta fall kommer storleken för avbildningen %2 att växa med %3, dock finns det endast %4 ledigt på detta filsystem.&lt;/p&gt;&lt;p&gt;Få slut på lagringsutrymme under en sammanslagningsåtgärd kan resultera i att avbildningen och konfigurationen för den virtuella maskinen blir skadad, alltså att den virtuella maskinen och dess data förloras.&lt;/p&gt;&lt;p&gt;Du kan fortsätta med borttagningen av ögonblicksbilden på egen risk.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to change the snapshot &lt;b&gt;%1&lt;/b&gt; of the virtual machine &lt;b&gt;%2&lt;/b&gt;.</source>
@@ -8316,7 +8316,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Are you sure you want to delete the optical drive?&lt;/p&gt;&lt;p&gt;You will not be able to insert any optical disks or ISO images or install the Guest Additions without it!&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Är du säker på att du vill ta bort den optiska enheten?&lt;/p&gt;&lt;p&gt;Du kommer inte kunna mata in några optiska enheter, ISO-avbildningar eller installera gästtillägg utan den!&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to attach the optical drive (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) to the slot &lt;i&gt;%2&lt;/i&gt; of the machine &lt;b&gt;%3&lt;/b&gt;.</source>
@@ -8344,15 +8344,15 @@
     </message>
     <message>
         <source>&lt;p&gt;Are you sure you want to release the disk image file &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?&lt;/p&gt;&lt;p&gt;This will detach it from the following virtual machine(s): &lt;b&gt;%2&lt;/b&gt;.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Är du säker på att du vill koppla loss diskavbildningsfilen &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?&lt;/p&gt;&lt;p&gt;Detta kommer att koppla loss den från följande virtuella maskin(er): &lt;b&gt;%2&lt;/b&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The changes you requested require this disk to be released from the machines it is attached to.&lt;/p&gt;&lt;p&gt;Are you sure you want to release the disk image file &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?&lt;/p&gt;&lt;p&gt;This will detach it from the following virtual machine(s): &lt;b&gt;%2&lt;/b&gt;.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Ändringarna som du begärde kräver att denna disk kopplas loss från maskinerna den är ansluten till.&lt;/p&gt;&lt;p&gt;Är du säker på att du vill koppla loss diskavbildningsfilen &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?&lt;/p&gt;&lt;p&gt;Detta kommer att koppla loss den från följande virtuella maskin(er): &lt;b&gt;%2&lt;/b&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to delete the storage unit of the virtual hard disk &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?&lt;/p&gt;&lt;p&gt;If you select &lt;b&gt;Delete&lt;/b&gt; then the specified storage unit will be permanently deleted. This operation &lt;b&gt;cannot be undone&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;If you select &lt;b&gt;Keep&lt;/b&gt; then the hard disk will be only removed from the list of known hard disks, but the storage unit will be left untouched which makes it possible to add this hard disk to the list later again.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Vill du ta bort lagringsenheten för den virtuella hårddisken &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?&lt;/p&gt;&lt;p&gt;Om du väljer &lt;b&gt;Ta bort&lt;/b&gt; kommer den angivna lagringsenheten att permanent tas bort. Denna åtgärd &lt;b&gt;kan inte ångras&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Om du väljer &lt;b&gt;Behåll&lt;/b&gt; så kommer hårddisken endast att tas bort från listan över kända hårddiskar men lagringsenheten att lämnas orörd vilket gör det möjligt att lägga till denna hårddisk till listan igen senare.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to detach the optical drive (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) from the slot &lt;i&gt;%2&lt;/i&gt; of the machine &lt;b&gt;%3&lt;/b&gt;.</source>
@@ -8424,7 +8424,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Do you want to import cloud profiles from external files?&lt;/p&gt;&lt;p&gt;VirtualBox cloud profiles will be overwritten and their data will be lost.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Vill du importera molnprofiler från externa filer?&lt;/p&gt;&lt;p&gt;VirtualBox molnprofiler kommer att skrivas över och deras data kommer att förloras.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Import</source>
@@ -8444,23 +8444,23 @@
     </message>
     <message>
         <source>&lt;p&gt;A critical error has occurred while running the virtual machine and the machine execution should be stopped.&lt;/p&gt;&lt;p&gt;For help, please see the Community section on &lt;a href=https://www.virtualbox.org&gt;https://www.virtualbox.org&lt;/a&gt; or your support contract. Please provide the contents of the log file &lt;tt&gt;VBox.log&lt;/tt&gt;, which you can find in the virtual machine log directory, as well as a description of what you were doing when this error happened. Note that you can also access the above file by selecting &lt;b&gt;Show Log&lt;/b&gt; from the &lt;b&gt;Machine&lt;/b&gt; menu of the main VirtualBox window.&lt;/p&gt;&lt;p&gt;Press &lt;b&gt;OK&lt;/b&gt; to power off the machine.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Ett kritiskt fel har inträffat under körning av den virtuella maskinen och maskinkörningen bör stoppas.&lt;/p&gt;&lt;p&gt;För mer hjälp, se Community-sektionen på &lt;a href=https://www.virtualbox.org&gt;https://www.virtualbox.org&lt;/a&gt; eller ditt supportkontrakt. Tillhandahåll innehållet i loggfilen &lt;tt&gt;VBox.log&lt;/tt&gt;, som du kan hitta i loggkatalogen för den virtuella maskinen, såväl som en beskrivning av vad du gjorde när detta fel inträffade. Observera att du även kan komma åt ovanstående fil genom att välja &lt;b&gt;Visa logg&lt;/b&gt; från &lt;b&gt;Maskin&lt;/b&gt;-menyn i huvudfönstret för VirtualBox.&lt;/p&gt;&lt;p&gt;Tryck på &lt;b&gt;OK&lt;/b&gt; för att stänga av maskinen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The virtual machine window will be now switched to &lt;b&gt;full-screen&lt;/b&gt; mode. You can go back to windowed mode at any time by pressing &lt;b&gt;%1&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Note that the &lt;i&gt;Host&lt;/i&gt; key is currently defined as &lt;b&gt;%2&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Note that the main menu bar is hidden in full-screen mode. You can access it by pressing &lt;b&gt;Host+Home&lt;/b&gt;.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Fönstret för den virtuella maskinen kommer nu växlas till &lt;b&gt;helskärmsläge&lt;/b&gt;. Du kan gå tillbaka till fönsterläge när du vill genom att trycka på &lt;b&gt;%1&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Observera att &lt;i&gt;Värdtangenten&lt;/i&gt; för närvarande är definierad som &lt;b&gt;%2&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Observera att huvudmenyraden är dold i helskärmsläget. Du kan komma åt den genom att trycka på &lt;b&gt;Värd+Home&lt;/b&gt;.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Could not switch the guest display to full-screen mode due to insufficient guest video memory.&lt;/p&gt;&lt;p&gt;You should configure the virtual machine to have at least &lt;b&gt;%1&lt;/b&gt; of video memory.&lt;/p&gt;&lt;p&gt;Press &lt;b&gt;Ignore&lt;/b&gt; to switch to full-screen mode anyway or press &lt;b&gt;Cancel&lt;/b&gt; to cancel the operation.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Kunde inte växla gästskärmen till helskärmsläge på grund av otillräckligt grafikminne för gästen.&lt;/p&gt;&lt;p&gt;Du bör konfigurera den virtuella maskinen att ha minst &lt;b&gt;%1&lt;/b&gt; grafikminne.&lt;/p&gt;&lt;p&gt;Tryck på &lt;b&gt;Ignorera&lt;/b&gt; för att växla till helskärmsläge ändå eller tryck på &lt;b&gt;Avbryt&lt;/b&gt; för att avbryta åtgärden.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The &lt;b&gt;VirtualBox Guest Additions&lt;/b&gt; disk image file has been successfully downloaded from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; and saved locally as &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;, &lt;/nobr&gt;but the SHA-256 checksum verification failed.&lt;/p&gt;&lt;p&gt;Please do the download, installation and verification manually.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Diskavbildningsfilen för &lt;b&gt;VirtualBox gästtillägg&lt;/b&gt; har hämtats ner från &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; och sparats lokalt som &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;, &lt;/nobr&gt;men SHA-256-kontrollsumman stämmer inte.&lt;/p&gt;&lt;p&gt;Hämta ner, installera och verifiera manuellt.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The &lt;b&gt;&lt;nobr&gt;%1&lt;/nobr&gt;&lt;/b&gt; has been successfully downloaded from &lt;nobr&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/nobr&gt; and saved locally as &lt;nobr&gt;&lt;b&gt;%3&lt;/b&gt;, &lt;/nobr&gt;but the SHA-256 checksum verification failed.&lt;/p&gt;&lt;p&gt;Please do the download, installation and verification manually.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;&lt;b&gt;&lt;nobr&gt;%1&lt;/nobr&gt;&lt;/b&gt; har hämtats ner från &lt;nobr&gt;&lt;a href=&quot;%2&quot;&gt;%2&lt;/a&gt;&lt;/nobr&gt; och sparats lokalt som &lt;nobr&gt;&lt;b&gt;%3&lt;/b&gt;, &lt;/nobr&gt;men SHA-256-kontrollsumman stämmer inte.&lt;/p&gt;&lt;p&gt;Hämta ner, installera och verifiera manuellt.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Do you want to delete the downloaded file &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?</source>
@@ -8512,7 +8512,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Could not insert the &lt;b&gt;%1&lt;/b&gt; disk image file into the virtual machine &lt;b&gt;%2&lt;/b&gt;, as the machine has no optical drives. Please add a drive using the storage page of the virtual machine settings window.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Kunde inte mata in diskavbildningsfilen &lt;b&gt;%1&lt;/b&gt; i den virtuella maskinen &lt;b&gt;%2&lt;/b&gt; eftersom maskinen inte har någon optisk enhet. Lägg till en enhet med hjälp av lagringssidan i inställningsfönstret för den virtuella maskinen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to acquire machine parameter.</source>
@@ -8520,15 +8520,15 @@
     </message>
     <message>
         <source>&lt;p&gt;This controller has optical devices attached.  You have requested storage bus change to type which doesn&apos;t support optical devices.&lt;/p&gt;&lt;p&gt;If you proceed optical devices will be removed.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Detta styrkort har optiska enheter anslutna.  Du har begärt att lagringsbussen ändras till en typ som inte har stöd för optiska enheter.&lt;/p&gt;&lt;p&gt;Om du fortsätter kommer dessa optiska enheter att tas bort.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;This controller has devices attached.  You have requested storage bus change to type which supports smaller amount of attached devices.&lt;/p&gt;&lt;p&gt;If you proceed excessive devices will be removed.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Denna kontroller har enheter anslutna.  Du har begärt att lagringsbussen ändras till en typ som har stöd för ett mindre antal anslutna enheter.&lt;/p&gt;&lt;p&gt;Om du fortsätter kommer dessa överflödiga enheter att tas bort.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The virtual machine execution ran into a non-fatal problem as described below. We suggest that you take appropriate action to prevent the problem from recurring.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Körningen av den virtuella maskinen sprang på ett icke-ödesdigert problem som beskrivs nedan. Vi föreslår att du tar lämpliga åtgärder för att förhindra att problemet händer igen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to set global host settings.</source>
@@ -8545,7 +8545,7 @@
     </message>
     <message>
         <source>&lt;p&gt;You are about to remove following cloud virtual machines from the machine list:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Would you like to delete the instances and boot volumes of these machines as well?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du är på väg att ta bort följande virtuella molnmaskiner från maskinlistan:&lt;/p&gt;&lt;p&gt;%1&lt;/p&gt;&lt;p&gt;Vill du ta bort instanserna och uppstartsvolymer för dessa maskiner också?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Delete everything</source>
@@ -8565,7 +8565,7 @@
     </message>
     <message>
         <source>&lt;p&gt;This will clear the optical disk list by releasing inaccessible DVDs from the virtual machines they are attached to and removing them from the list of registered media.&lt;p&gt;Are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Detta kommer att tömma den optiska disklistan genom att koppla loss oåtkomliga dvd-skivor från de virtuella maskiner som de är anslutna till och ta bort dem från listan över registrerade media.&lt;p&gt;Är du säker?</translation>
     </message>
     <message>
         <source>Clear</source>
@@ -8573,19 +8573,19 @@
     </message>
     <message>
         <source>&lt;p&gt;This will clear the floppy disk list by releasing inaccessible disks from the virtual machines they are attached to and removing them from the list of registered media.&lt;p&gt;Are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Detta kommer att tömma diskettlistan genom att koppla loss oåtkomliga diskar från de virtuella maskinerna som de är anslutna till och ta bort dem från listan över registrerade media.&lt;p&gt;Är du säker?</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to remove the cloud network &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;?&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;If this network is in use by one or more virtual machine network adapters these adapters will no longer be usable until you correct their settings by either choosing a different network name or a different adapter attachment type.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Vill du ta bort molnnätverket &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;?&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Om detta nätverk används av ett eller flera nätverkskort på virtuella maskiner kommer dessa inte längre att vara användbara tills du har ändrat deras inställningar genom att antingen välja ett annat nätverksnamn eller en annan typ av anslutning.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to remove the host-only network &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;?&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;If this network is in use by one or more virtual machine network adapters these adapters will no longer be usable until you correct their settings by either choosing a different network name or a different adapter attachment type.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Vill du ta bort endast-värd-nätverket &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;?&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Om detta nätverk används av en eller flera virtuella maskiners nätverkskort kommer dessa inte längre att vara användbara tills du har ändrat deras inställningar antingen genom att välja ett annat nätverksnamn eller en annan anslutningstyp.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to close the Cloud Profile Manager?&lt;/p&gt;&lt;p&gt;There seems to be an unsaved changes. You can choose to &lt;b&gt;Accept&lt;/b&gt; or &lt;b&gt;Reject&lt;/b&gt; them automatically or cancel to keep the dialog opened.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Vill du stänga hanteraren för molnprofiler?&lt;/p&gt;&lt;p&gt;Det verkar finnas osparade ändringar. Du kan välja att &lt;b&gt;Acceptera&lt;/b&gt; eller &lt;b&gt;Neka&lt;/b&gt; dem automatiskt eller avbryta för att behålla dialogrutan öppen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Accept</source>
@@ -8675,7 +8675,7 @@
     </message>
     <message>
         <source>&lt;p&gt;You are trying to move machine &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt; to group &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;&lt;/nobr&gt; which already have another item with the same name.&lt;/p&gt;&lt;p&gt;Please resolve this name conflict and try again.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du försöker att flytta maskinen &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt; till gruppen &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;&lt;/nobr&gt; som redan har en annan post med samma namn.&lt;/p&gt;&lt;p&gt;Lös denna namnkonflikt och försök igen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to acquire cloud machine settings.</source>
@@ -9389,7 +9389,7 @@
     </message>
     <message>
         <source>&lt;p&gt;You are going to restore default secure boot keys.&lt;/p&gt;&lt;p&gt;If you proceed your current keys will be rewritten. You may not be able to boot affected VM anymore.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du är på väg att återställa standardnycklarna för secure boot.&lt;/p&gt;&lt;p&gt;Om du fortsätter kommer dina aktuella nycklar skrivas över. Du kanske inte kommer kunna starta upp påverkade virtuella maskiner längre.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;To open a VISO file you will have to discard the current content.&lt;/p&gt;&lt;p&gt;Are you sure you want to proceed?&lt;/p&gt;</source>
@@ -9397,11 +9397,11 @@
     </message>
     <message>
         <source>&lt;p&gt;The &lt;b&gt;VirtualBox Guest Additions&lt;/b&gt; disk image file has been successfully downloaded from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; and saved locally as &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Do you wish to continue with Guest Additions installation?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Diskavbildningsfilen för &lt;b&gt;VirtualBox gästtillägg&lt;/b&gt; har hämtats ner från &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; och sparats lokalt som &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Vill du fortsätta med installationen av gästtillägg?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Could not find the &lt;b&gt;VirtualBox User Guide&lt;/b&gt; &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Do you wish to download this file from the Internet?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Kunde inte hitta &lt;b&gt;VirtualBox användarguide&lt;/b&gt; &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Vill du hämta ner denna fil från internet?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Are you sure you want to download the &lt;b&gt;VirtualBox User Guide&lt;/b&gt; from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; (size %2 bytes)?&lt;/p&gt;</source>
@@ -9409,15 +9409,15 @@
     </message>
     <message>
         <source>&lt;p&gt;The VirtualBox User Guide has been successfully downloaded from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; but can&apos;t be saved locally as &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Please choose another location for that file.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;VirtualBox användarguide har hämtats ner från &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; men kan inte sparas lokalt som &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Välj en annan plats för den filen.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the &apos;vboxusers&apos; group.  Please see the user guide for a more detailed explanation</source>
-        <translation type="unfinished"></translation>
+        <translation>VirtualBox tillåts inte för närvarande att komma åt USB-enheter.  Du kan ändra detta genom att lägga till din användare till gruppen &apos;vboxusers&apos;.  Se användarguiden för en mer detaljerad förklaring</translation>
     </message>
     <message>
         <source>VirtualBox is not currently allowed to access USB devices.  You can change this by allowing your user to access the &apos;usbfs&apos; folder and files.  Please see the user guide for a more detailed explanation</source>
-        <translation type="unfinished"></translation>
+        <translation>VirtualBox tillåts inte för närvarande att komma åt USB-enheter.  Du kan ändra detta genom att tillåta att din användare kommer åt &apos;usbfs&apos; mappar och filer.  Se användarguiden för en mer detaljerad förklaring</translation>
     </message>
     <message>
         <source>User guide downloaded ...</source>
@@ -9425,7 +9425,7 @@
     </message>
     <message>
         <source>&lt;p&gt;The VirtualBox User Guide has been successfully downloaded from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; and saved locally as &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;VirtualBox användarguide har hämtats ner från &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; och sparats lokalt som &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Platform failure ...</source>
@@ -9610,7 +9610,7 @@
     </message>
     <message>
         <source>&lt;p&gt;You have the &lt;b&gt;Auto capture keyboard&lt;/b&gt; option turned on. This will cause the Virtual Machine to automatically &lt;b&gt;capture&lt;/b&gt; the keyboard every time the VM window is activated and make it unavailable to other applications running on your host machine: when the keyboard is captured, all keystrokes (including system ones like Alt-Tab) will be directed to the VM.&lt;/p&gt;&lt;p&gt;You can press the &lt;b&gt;host key combo&lt;/b&gt; at any time to &lt;b&gt;uncapture&lt;/b&gt; the keyboard and mouse (if it is captured) and return them to normal operation. The currently assigned host key combo is shown on the status bar at the bottom of the Virtual Machine window. This icon, together with the mouse icon placed nearby, indicate the current keyboard and mouse capture state.&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Du har alternativet &lt;b&gt;Fånga automatiskt tangentbordet&lt;/b&gt; aktiverat. Detta innebär att den virtuella maskinen automatiskt &lt;b&gt;fångar&lt;/b&gt; tangentbordet varje gång som det virtuella maskinfönstret aktiveras och gör det otillgängligt för andra program som körs på din värdmaskin när tangentbordet är fångat, alla tangenttryckningar (inklusive systemtangenter som Alt-Tab) kommer att dirigeras till den virtuella maskinen.&lt;/p&gt;&lt;p&gt;Du kan trycka på &lt;b&gt;värdtangentskombinationen&lt;/b&gt; när som helst för att &lt;b&gt;avfånga&lt;/b&gt; tangentbordet och musen (om den är fångad) och återlämna dem till normal operation. Den för närvarande tilldelade värdtangentkombinationen visas på statusraden nederst i det virtuella maskinfönstret. Denna ikon, tillsammans med musikonen bredvid, indikerar det aktuella fångsttillståndet för tangentbord och mus.&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Failed to change machine debugger parameter.</source>
