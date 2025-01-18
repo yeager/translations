@@ -2540,11 +2540,11 @@
     </message>
     <message>
         <source>&lt;b&gt;The appliance is signed by an unverified self signed certificate issued by &apos;%1&apos;. We recommend to only proceed with the importing if you are sure you should trust this entity.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Denna appliance är signerad av ett icke-verifierat självsignerat certifikat utfärdat av &apos;%1&apos;. Vi rekommenderar att endast fortsätta med importen om du är säker på att du kan lita på denna entitet.&lt;/b&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;The appliance is signed by an unverified certificate issued to &apos;%1&apos;. We recommend to only proceed with the importing if you are sure you should trust this entity.&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Denna appliance är signerad av ett icke-verifierat certifikat utfärdat till &apos;%1&apos;. Vi rekommenderar att endast fortsätta med importen om du är säker på att du kan lita på denna entitet.&lt;/b&gt;</translation>
     </message>
     <message>
         <source>True</source>
@@ -2565,7 +2565,7 @@
     </message>
     <message>
         <source>Subject</source>
-        <translation type="unfinished"></translation>
+        <translation>Ämne</translation>
     </message>
     <message>
         <source>Not Valid Before</source>
@@ -2602,7 +2602,7 @@
     </message>
     <message>
         <source>X.509 Version Number</source>
-        <translation type="unfinished"></translation>
+        <translation>X.509-versionsnummer</translation>
     </message>
 </context>
 <context>
@@ -7008,27 +7008,27 @@
     </message>
     <message>
         <source>The I/O APIC feature is not currently enabled in the Motherboard section of the System page. This is needed to support a chipset of type ICH9. It will be enabled automatically if you confirm your changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>I/O APIC-funktionen är för närvarande inte aktiverad i Moderkort-sektionen för System-sidan. Detta krävs för att ge stöd för ett chipset av typen ICH9. Den kommer att automatiskt aktiveras om du bekräftar dina ändringar.</translation>
     </message>
     <message>
         <source>The USB controller emulation is not currently enabled on the USB page. This is needed to support an emulated USB pointing device. It will be enabled automatically if you confirm your changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Emulering av USB-kontroller är för närvarande inte aktiverad på USB-sidan. Detta krävs för att ge stöd för en emulerad USB-pekenhet. Detta kommer att automatiskt aktiveras om du bekräftar dina ändringar.</translation>
     </message>
     <message>
         <source>The I/O APIC feature is not currently enabled in the Motherboard section of the System page. This is needed to support more than one virtual processor. It will be enabled automatically if you confirm your changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>I/O APIC-funktionen är för närvarande inte aktiverad i Moderkort-sektionen för System-sidan. Detta krävs för att ge stöd för fler än en virtuell processor. Den kommer att automatiskt aktiveras om du bekräftar dina ändringar.</translation>
     </message>
     <message>
         <source>Please consider lowering the number of CPUs assigned to the virtual machine rather than setting the processor execution cap.</source>
-        <translation type="unfinished"></translation>
+        <translation>Överväg att sänka antalet processorer tilldelade till den virtuella maskinen istället för att inställa in processorns körningsgräns.</translation>
     </message>
     <message>
         <source>Lowering the processor execution cap may result in a decline in performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sänkning av processorns körningsgräns kan resultera i en minskning i prestanda.</translation>
     </message>
     <message>
         <source>The nested paging is not currently enabled in the Acceleration section of the System page. This is needed to support nested hardware virtualization. It will be enabled automatically if you confirm your changes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nested paging-funktionen är för närvarande inte aktiverad i Acceleration-sektionen för System-sidan. Detta krävs för att ge stöd för virtualisering med nästlad hårdvara. Den kommer att automatiskt aktiveras om du bekräftar dina ändringar.</translation>
     </message>
 </context>
 <context>
@@ -8276,11 +8276,11 @@
     </message>
     <message>
         <source>Failed to set the global VirtualBox extra data for key &lt;i&gt;%1&lt;/i&gt; to value &lt;i&gt;{%2}&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ställa in globala extradata för VirtualBox för nyckeln &lt;i&gt;%1&lt;/i&gt; till värdet &lt;i&gt;{%2}&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Failed to set the extra data for key &lt;i&gt;%1&lt;/i&gt; of machine &lt;i&gt;%2&lt;/i&gt; to value &lt;i&gt;{%3}&lt;/i&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ställa in extra data för nyckeln &lt;i&gt;%1&lt;/i&gt; för maskinen &lt;i&gt;%2&lt;/i&gt; till värdet &lt;i&gt;{%3}&lt;/i&gt;.</translation>
     </message>
     <message>
         <source>Encryption password for &lt;nobr&gt;ID = &apos;%1&apos;&lt;/nobr&gt; is invalid.</source>
@@ -8308,7 +8308,7 @@
     </message>
     <message>
         <source>Failed to change the snapshot &lt;b&gt;%1&lt;/b&gt; of the virtual machine &lt;b&gt;%2&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ändra ögonblicksbilden &lt;b&gt;%1&lt;/b&gt; för den virtuella maskinen &lt;b&gt;%2&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to save the settings.</source>
@@ -8320,27 +8320,27 @@
     </message>
     <message>
         <source>Failed to attach the optical drive (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) to the slot &lt;i&gt;%2&lt;/i&gt; of the machine &lt;b&gt;%3&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ansluta den optiska enheten (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) till platsen &lt;i&gt;%2&lt;/i&gt; för maskinen &lt;b&gt;%3&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to attach the floppy drive (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) to the slot &lt;i&gt;%2&lt;/i&gt; of the machine &lt;b&gt;%3&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ansluta diskettenheten (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) till platsen &lt;i&gt;%2&lt;/i&gt; för maskinen &lt;b&gt;%3&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>The current port forwarding rules are not valid. All of the host or guest address values should be correct or empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>De aktuella reglerna för portomdirigering är inte giltiga. Alla värden för värd- eller gästadresser bör vara korrekta eller tomma.</translation>
     </message>
     <message>
         <source>The current port forwarding rules are not valid. None of the guest address values may be empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>De aktuella reglerna för portomdirigering är inte giltiga. Inget av värdena för gästadress får vara tomma.</translation>
     </message>
     <message>
         <source>The current port forwarding rules are not valid. Rule names should be unique.</source>
-        <translation type="unfinished"></translation>
+        <translation>De aktuella reglerna för portomdirigering är inte giltiga. Regelnamn måste vara unika.</translation>
     </message>
     <message>
         <source>The current port forwarding rules are not valid. Few rules have same host ports and conflicting IP addresses.</source>
-        <translation type="unfinished"></translation>
+        <translation>De aktuella reglerna för portomdirigering är inte giltiga. Ett fåtal regler har samma värdportar och samma IP-adresser.</translation>
     </message>
     <message>
         <source>&lt;p&gt;Are you sure you want to release the disk image file &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;?&lt;/p&gt;&lt;p&gt;This will detach it from the following virtual machine(s): &lt;b&gt;%2&lt;/b&gt;.&lt;/p&gt;</source>
@@ -8356,11 +8356,11 @@
     </message>
     <message>
         <source>Failed to detach the optical drive (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) from the slot &lt;i&gt;%2&lt;/i&gt; of the machine &lt;b&gt;%3&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att koppla loss den optiska enheten (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) från platsen &lt;i&gt;%2&lt;/i&gt; för maskinen &lt;b&gt;%3&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to detach the floppy drive (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) from the slot &lt;i&gt;%2&lt;/i&gt; of the machine &lt;b&gt;%3&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att koppla loss diskettenheten (&lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;) från platsen &lt;i&gt;%2&lt;/i&gt; för maskinen &lt;b&gt;%3&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to open the disk image file &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/nobr&gt;.</source>
@@ -8420,7 +8420,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Do you want to remove the cloud profile &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;?&lt;/nobr&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Vill du ta bort molnprofilen &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;?&lt;/nobr&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;Do you want to import cloud profiles from external files?&lt;/p&gt;&lt;p&gt;VirtualBox cloud profiles will be overwritten and their data will be lost.&lt;/p&gt;</source>
@@ -8436,7 +8436,7 @@
     </message>
     <message>
         <source>Failed to create the virtual disk image storage &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;.&lt;/nobr&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att skapa lagring för den virtuella diskavbildningen &lt;nobr&gt;&lt;b&gt;%1&lt;/b&gt;.&lt;/nobr&gt;</translation>
     </message>
     <message>
         <source>Bad password or authentication failure.</source>
@@ -8488,27 +8488,27 @@
     </message>
     <message>
         <source>Failed to connect the network adapter cable of the virtual machine &lt;b&gt;%1&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att ansluta nätverkskortskabeln för den virtuella maskinen &lt;b&gt;%1&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to disconnect the network adapter cable of the virtual machine &lt;b&gt;%1&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att koppla från nätverkskortskabeln för den virtuella maskinen &lt;b&gt;%1&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to enable the audio adapter output for the virtual machine &lt;b&gt;%1&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att aktivera ljudkortets utgång för den virtuella maskinen &lt;b&gt;%1&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to disable the audio adapter output for the virtual machine &lt;b&gt;%1&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att inaktivera ljudkortets utgång för den virtuella maskinen &lt;b&gt;%1&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to enable the audio adapter input for the virtual machine &lt;b&gt;%1&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att aktivera ljudkortets ingång för den virtuella maskinen &lt;b&gt;%1&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>Failed to disable the audio adapter input for the virtual machine &lt;b&gt;%1&lt;/b&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att inaktivera ljudkortets ingång för den virtuella maskinen &lt;b&gt;%1&lt;/b&gt;.</translation>
     </message>
     <message>
         <source>&lt;p&gt;Could not insert the &lt;b&gt;%1&lt;/b&gt; disk image file into the virtual machine &lt;b&gt;%2&lt;/b&gt;, as the machine has no optical drives. Please add a drive using the storage page of the virtual machine settings window.&lt;/p&gt;</source>
@@ -8536,7 +8536,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Are you sure you want to terminate the cloud instance of the following virtual machines?&lt;/p&gt;&lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Är du säker på att du vill avsluta molninstansen för följande virtuella maskiner?&lt;/p&gt;&lt;p&gt;&lt;b&gt;%1&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
         <source>Terminate</source>
@@ -9393,7 +9393,7 @@
     </message>
     <message>
         <source>&lt;p&gt;To open a VISO file you will have to discard the current content.&lt;/p&gt;&lt;p&gt;Are you sure you want to proceed?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;För att öppna en VISO-fil så behöver du förkasta det aktuella innehållet.&lt;/p&gt;&lt;p&gt;Är du säker på att du vill fortsätta?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The &lt;b&gt;VirtualBox Guest Additions&lt;/b&gt; disk image file has been successfully downloaded from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; and saved locally as &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Do you wish to continue with Guest Additions installation?&lt;/p&gt;</source>
@@ -9405,7 +9405,7 @@
     </message>
     <message>
         <source>&lt;p&gt;Are you sure you want to download the &lt;b&gt;VirtualBox User Guide&lt;/b&gt; from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; (size %2 bytes)?&lt;/p&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;p&gt;Är du säker på att du vill hämta ner filen &lt;b&gt;VirtualBox användarguide&lt;/b&gt; från &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; (storlek %2 byte)?&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;The VirtualBox User Guide has been successfully downloaded from &lt;nobr&gt;&lt;a href=&quot;%1&quot;&gt;%1&lt;/a&gt;&lt;/nobr&gt; but can&apos;t be saved locally as &lt;nobr&gt;&lt;b&gt;%2&lt;/b&gt;.&lt;/nobr&gt;&lt;/p&gt;&lt;p&gt;Please choose another location for that file.&lt;/p&gt;</source>
@@ -14398,7 +14398,7 @@
     </message>
     <message>
         <source>These are the the suggested settings of the cloud VM import procedure, they are influencing the resulting local VM instance. You can change many of the properties shown by double-clicking on the items and disable others using the check boxes below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dessa är de föreslagna inställningarna för importprocessen för virtuella molnmaskiner som påverkar den resulterande lokala virtuella maskininstansen. Du kan ändra många av egenskaperna genom att dubbelklicka på posterna och inaktivera andra genom kryssrutorna nedan.</translation>
     </message>
     <message>
         <source>Source</source>
@@ -14410,7 +14410,7 @@
     </message>
     <message>
         <source>Please choose the source to import appliance from.  This can be a local file system to import OVF archive or one of known cloud service providers to import cloud VM from.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj källan att importera appliance från.  Detta kan vara ett lokalt filsystem för att importera OVF-arkiv eller en av de kända molntjänstleverantörerna att importera virtuella molnmaskiner från.</translation>
     </message>
     <message>
         <source>&amp;Source:</source>
@@ -14466,15 +14466,15 @@
     </message>
     <message>
         <source>When checked, all the hard drives that belong to this appliance will be imported in VDI format.</source>
-        <translation type="unfinished"></translation>
+        <translation>När kryssad kommer alla hårddiskar som tillhör denna appliance att importeras i VDI-format.</translation>
     </message>
     <message>
         <source>Please choose one of cloud service profiles you have registered to import virtual machine from.  Corresponding machines list will be updated.  To continue, select one of machines to import below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en av molntjänstprofilerna som du har registrerat för att importera virtuell maskin från.  Motsvarande maskinlista kommer att uppdateras.  Välj en av maskinerna att importera nedan för att fortsätta.</translation>
     </message>
     <message>
         <source>Please choose a file to import the virtual appliance from.  VirtualBox currently supports importing appliances saved in the Open Virtualization Format (OVF).  To continue, select the file to import below.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en fil att importera den virtuella appliancen från.  VirtualBox har för närvarande stöd för att importera appliances sparade i Open Virtualization Format (OVF).  Välj filen att importera nedan för att fortsätta.</translation>
     </message>
     <message>
         <source>Selects cloud profile.</source>
