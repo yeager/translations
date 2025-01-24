@@ -341,6 +341,13 @@ Terminating...</source>
         <translation>Kan inte köra no-gui-läge utan uppstartsmål.
 Avslutar...</translation>
     </message>
+    <message>
+        <source>RPCS3 should never be run from a OneDrive path!
+Please move RPCS3 to a location not synced by OneDrive.
+Current location:
+%0</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Tooltips</name>
@@ -2476,7 +2483,7 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Display</source>
         <comment>Frame limit</comment>
-        <translation type="unfinished"></translation>
+        <translation>Visning</translation>
     </message>
     <message>
         <source>Auto</source>
@@ -5035,11 +5042,11 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Left Stick X-Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster spak X-axel</translation>
     </message>
     <message>
         <source>Left Stick Y-Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster spak Y-axel</translation>
     </message>
     <message>
         <source>Right Stick Up</source>
@@ -5059,11 +5066,11 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Right Stick X-Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger spak X-axel</translation>
     </message>
     <message>
         <source>Right Stick Y-Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger spak Y-axel</translation>
     </message>
     <message>
         <source>Mouse 1</source>
@@ -5208,12 +5215,12 @@ Filen var för liten.</translation>
     <message>
         <source>Enter</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Enter</translation>
     </message>
     <message>
         <source>Back</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Bakåt</translation>
     </message>
     <message>
         <source>Space</source>
@@ -5258,7 +5265,7 @@ Filen var för liten.</translation>
     <message>
         <source>Enter</source>
         <comment>Enter Dialog List</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Enter</translation>
     </message>
     <message>
         <source>Back</source>
@@ -6260,7 +6267,7 @@ Subject:</source>
     <message>
         <source>Keep Pads Connected</source>
         <comment>Input</comment>
-        <translation type="unfinished"></translation>
+        <translation>Håll handkontroller anslutna</translation>
     </message>
     <message>
         <source>Show PS Move Cursor</source>
@@ -6481,7 +6488,7 @@ Subject:</source>
     <message>
         <source>Disable Video Output</source>
         <comment>Debug</comment>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera videoutmatning</translation>
     </message>
     <message>
         <source>Texture LOD Bias Addend</source>
@@ -6847,7 +6854,7 @@ Subject:</source>
     </message>
     <message>
         <source>Trace</source>
-        <translation type="unfinished"></translation>
+        <translation>Spåra</translation>
     </message>
     <message>
         <source>Select log file</source>
@@ -7158,7 +7165,7 @@ Subject:</source>
     </message>
     <message>
         <source>Cg Disasm</source>
-        <translation type="unfinished"></translation>
+        <translation>Cg Disasm</translation>
     </message>
     <message>
         <source>Kernel Explorer</source>
@@ -10679,7 +10686,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     <name>rsx_debugger</name>
     <message>
         <source>RSX Debugger</source>
-        <translation type="unfinished"></translation>
+        <translation>RSX-felsökare</translation>
     </message>
     <message>
         <source>Frame</source>
@@ -10829,7 +10836,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Save ID</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparnings-id</translation>
     </message>
     <message>
         <source>Entry Notes</source>
