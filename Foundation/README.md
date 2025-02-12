@@ -3,3 +3,5 @@ Place this directory and file under the Foundation "localization" folder. i.e C:
 
 Arbete pågår! Granskning sker just nu.
 Lägg denna katalog och fil under mappen "localization" i Foundation. t.ex. C:\Games\Foundation\localization\sv
+
+https://store.steampowered.com/app/690830/Foundation/
