@@ -1,0 +1,1258 @@
+{
+”404": {
+”message": ”Tyvärr, ingenting här...”,
+”returnButton": ”Gå tillbaka”
+},
+”komponenter": {
+”wrappedSelect": {
+”noResults": ”Inga alternativ”
+}
+},
+”general": {
+”server": {
+”supportArchive": {
+”title": ”Supportarkiv”
+},
+”versions": {
+”title": ”Versioner”
+},
+”reboot": {
+”title": ”Starta om Recalbox”
+},
+”shutdown": {
+”title": ”Stäng av Recalbox”
+}
+},
+”virtualDevices": {
+”tooltip": ”Kom åt virtuella enheter”,
+”title": ”Virtuella enheter”,
+”keyboard": ”Tangentbord”,
+”gamepad": ”Gamepad”,
+”trackpad": ”Trackpad”
+},
+”helpButton": {
+”tooltip": ”Hjälp”
+},
+”confirmDialog": {
+”cancel": ”Avbryt”,
+”valid": ”Validera”,
+”defaultMessage": ”Är du säker på att du vill göra det?”
+},
+”return": ”bakåt”,
+”tables": {
+”searchLabel": ”Sök”,
+”noDataMessage": ”Ok det var trist...”
+},
+”copyToClipboard": ”Kopierat till urklipp”,
+”notify": {
+”updateSuccess": ”Uppdatering färdig”,
+”mediaDeleted": ”Media togs bort”,
+”updateError": ”Fel vid uppdatering:”,
+”ERR_NETWORK": ”Nätverksfel”,
+”ERR_BAD_REQUEST": ”Felaktig begäran”,
+”esStart": ”Starta EmulationStation”,
+”esShutdown": ”Stoppa EmulationStation”,
+”esReboot": ”Starta om EmulationStation”,
+”screenshots": {
+”view": ”Visa”,
+”screenshotTaken": ”Skärmbild sparad”
+},
+”support": {
+”label": ”Ditt supportarkiv är tillgängligt”,
+”archiveDownload": ”Hämta”
+},
+”400": ”Felaktig begäran”,
+”401": ”Obehörig”,
+”403": ”Förbjuden”,
+”404": ”Hittades inte”,
+”411": ”Längd krävs”,
+”418": ”Jag är en tekanna”
+},
+”upload": {
+”clearAll": ”Töm allt”,
+”removeUploaded": ”Ta bort uppladdade filer”,
+”pickFiles": ”Välj filer”,
+”minimize": ”Minimera”,
+”maximize": ”Maximera”,
+”close": ”Stäng”,
+”abortUpload": ”Avbryt uppladdning”,
+”status": ”Status :”
+}
+},
+”i18nMenu": {
+”english": ”Engelska”,
+”french": ”Franska”,
+”swedish": ”Svenska”
+},
+”menu": {
+”home": ”Hem”,
+”monitoring": ”Monitorering”,
+”settings": ”Inställningar”,
+”emulation": ”Emulering”,
+”screenshots": ”Skärmbilder”,
+”patreon": ”Patreon”
+},
+”home": {
+”preview": {
+”title": ”Förhandsvisa”,
+”system": ”system”,
+”roms": ”roms”,
+”sharePercent": ”Dela uppdelning %”
+},
+”system": {
+”title": ”Aktuellt system”,
+”es": {
+”start": ”Starta EmulationStation”,
+”stop": ”Stoppa EmulationStation”,
+”restart": ”Starta om EmulationStation”
+},
+”manufacturer": ”Tillverkare”,
+”yearOfRelease": ”Lanseringsår”,
+”cpu": ”CPU”,
+”ram": ”RAM”,
+”gpu": ”GPU”,
+”soundChip": ”Ljudchip”
+},
+”game": {
+”title": ”Aktuellt spel”,
+”stop": ”Stoppa spelet”,
+”metaData": {
+”iconLabel": ”Information om spelet”,
+”modal": {
+”publisher": ”Utgivare”,
+”developer": ”Utvecklare”,
+”releaseDate": ”Lanseringsdatum”,
+”rating": ”Betyg”,
+”players": ”Spelare”,
+”genres": ”Genrer”
+}
+}
+}
+},
+”monitoring": {
+”cpuVsMemory": {
+”temperature": {
+”title": ”CPU °C ( SENASTE 30S )”
+},
+”memory": {
+”title": ”ANVÄNT MINNE % ( SENASTE 30S )”
+}
+},
+”cores": {
+”title": ”ANVÄNDNING AV CPU-KÄRNOR”,
+”used": ”Använda”,
+”free": ”Tillgängliga”
+}
+},
+”settings": {
+”menu": {
+”system": ”system”,
+”audio": ”ljud”,
+”network": ”nätverk”,
+”virtual_devices": ”Virtuella enheter”
+},
+”system": {
+”internationalisering": {
+”title": ”Språk”,
+”langSelect": {
+”label": ”Systemspråk”,
+”help": ”Detta alternativ låter dig välja språket för din Recalbox.”
+},
+”keyboardSelect": {
+”label": ”Tangentbordslayout”,
+”help": ”Detta alternativ låter dig välja din tangentbordslayout.”,
+”options": {}
+},
+”timeZoneSelect": {
+”label": ”Tidszon”,
+”help": ”Detta alternativ låter dig välja din tidszon.”,
+”options": {}
+}
+},
+”externalScreen": {
+”title": ”Extern skärm”,
+”prefered": {
+”label": ”Föredragen extern skärm”,
+”help": {
+”availableOptions": ”Detta alternativ låter dig ange en extern skärm att använda.”,
+”0": ”Du kan hitta mer information på följande sida: https://wiki.recalbox.com/en/tutorials/video/display-configuration/external-screen-configuration”
+}
+},
+”forceresolution": {
+”label": ”Tvinga upplösning”,
+”help": {
+”availableOptions": ”Detta alternativ låter dig tvinga fram en upplösning.”,
+”0": ”Du kan hitta mer information på följande sida: https://wiki.recalbox.com/en/tutorials/video/display-configuration/external-screen-configuration”
+}
+},
+”forcefrequency": {
+”label": ”Tvinga frekvens”,
+”help": {
+”availableOptions": ”Detta alternativ låter dig tvinga fram en frekvens.”,
+”0": ”Du kan hitta mer information på följande sida: https://wiki.recalbox.com/en/tutorials/video/display-configuration/external-screen-configuration”
+}
+}
+},
+”splashScreen": {
+”title": ”Startskärm”,
+”enabled": {
+”label": ”Aktivera startskärm”,
+”help": ”Detta alternativ låter dig aktivera eller inaktivera startskärmar.”
+},
+”splashLength": {
+”label": ”Varaktighet för stänkskärm”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja uppspelningstiden för stänkskärmsvideor. Tillgängliga alternativ (i sekunder):”,
+”0": ”<b>0 :</b> Videon stoppas när emuleringsstationen är redo att starta”,
+”1": ”<b>-1 :</b> All video spelas upp innan emuleringsstationen startar (standard)”,
+”2": ”<b>> 0 :</b> Tiden som videon spelas upp innan emuleringsstationen startar”
+}
+},
+”splashSelect": {
+”label": ”Val av stänkskärm”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja vilken stänkskärm du vill använda. Tillgängliga alternativ:”,
+”0": ”<b>all</b> väljer över alla stänkskärmar.”,
+”1": ”<b>recalbox</b> väljer endast recalbox-stänkskärmar.”,
+”2": ”<b>custom</b> väljer endast anpassade stänkskärmar.”
+}
+}
+},
+”specialKey": {
+”title": ”Snabbtangent”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du blockera åtkomst till emulatormenyer med snabbtangent + B. Tillgängliga alternativ:”,
+”default": ”<b>default</b> är standardbeteendet med alla alternativ.”,
+”nomenu": ”<b>nomenu</b> inaktiverar menyn.”,
+”none": ”<b>none</b> inaktiverar snabbtangenten.”
+},
+”behaviourSelect": {
+”label": ”Beteende”,
+”options": {}
+}
+},
+”updates": {
+”title": ”uppdateringar”,
+”aktiverad": {
+”label": ”Leta efter uppdateringar vid uppstart”,
+”help": ”Med det här alternativet kan du be din Recalbox att verifiera om det finns en uppdatering vid uppstart.”
+}
+},
+”debuglogs": {
+”title": ”Felsök”,
+”label": ”Aktivera felsökningsläge”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera felsökningsläget. \n\nOm du inte behöver använda felsökningsläget ska du inaktivera det. Det här alternativet kan göra din spelupplevelse mycket långsammare.”
+},
+”brightness": {
+”title": ”Ljusstyrka”,
+”label": ”Ljusstyrkans kraft”,
+”help": ”Med det här alternativet kan du definiera skärmens ljusstyrka. Endast användbart på Anbernic RG353 och Odroid Go Advance.”
+},
+”minitft": {
+”title": ”Mini TFT-skärm”,
+”label": ”Aktivera fbcp”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera Framebuffer Copy Program (fbcp).”
+},
+”power": {
+”switch": {
+”title": ”Strömbrytare”,
+”label": ”Välj din knappbrytare”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja strömbrytare. Tillgängliga alternativ:”,
+”0": ”<b>ATX_RASPI_R2_6</b> motsvarar ATXRaspi-knappar.”,
+”1": ”<b>MAUSBERRY</b> motsvarar Mausberry-knappar.”,
+”2": ”<b>REMOTEPIBOARD_2003</b> motsvarar knappar för RemotePi-kort.”,
+”3": ”<b>REMOTEPIBOARD_2005</b> motsvarar knapparna på RemotePi Board.”,
+”4": ”<b>WITTYPI</b> motsvarar Witty Pi-knappar.”,
+”5": ”<b>PIN56ONOFF</b> motsvarar en av/på-knapp mellan GPIO3 och jord.”,
+”6": ”<b>PIN56PUSH</b> motsvarar en tryckknapp mellan GPIO3 och jord.”,
+”7": ”<b>PIN356ONOFFRESET</b> motsvarar en av/på-knapp mellan GPIO2 och jord.”,
+”8": ”<b>PIN356PUSHRESET</b> motsvarar en tryckknapp mellan GPIO3 och jord.”
+}
+}
+},
+”battery": {
+”title": ”Batteri”,
+”hidden": {
+”label": ”Dölj batteriikonen”,
+”help": ”Om du har en synlig batteriikon kan du dölja den med detta alternativ. Om du inte har någon synlig ikon från början kommer det här alternativet inte att visa någon!”
+}
+},
+”services": {
+”title": ”Tjänster”,
+”managerEnabled": {
+”label": ”Aktiverar chef”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera den här webbhanteraren.”
+},
+”sambaEnabled": {
+”label": ”Aktiverar Samba”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera Samba-protokollet.”
+},
+”virtualGamepadsEnabled": {
+”label": ”Aktiverar virtuella enheter”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera virtuella enheter (styrenhet/ tangentbord/pekplatta).”
+},
+”sshEnabled": {
+”label": ”Aktiverar SSH-protokollet”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera SSH-protokollet.”
+}
+},
+”skärmsläckare": {
+”title": ”Skärmsläckare”,
+”time": {
+”label": ”Fördröjning”,
+”help": ”Med det här alternativet kan du välja fördröjningen innan skärmsläckaren startar, i sekunder. Standard: 5 minuter”
+},
+”type": {
+”label": ”Typ”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja typ av skärmsläckare. Tillgängliga alternativ:”,
+”dim": ”<b>dim</b> minskar skärmljuset.”,
+”black": ”<b>black</b> slår om till en svart skärm.”,
+”demo": ”<b>demo</b> startar ett slumpmässigt spel som demo.”,
+”gameclip": ”<b>gameclip</b> visar ett slumpmässigt spelklipp från scrap.”
+}
+},
+”demo": {
+”systemlist": {
+”label": ”Visad systemlista (demo/gameclip)”,
+”help": ”Med det här alternativet kan du ställa in systemlistan från vilken ES kommer att köra slumpmässiga spel. Tom lista eller obefintlig nyckel innebär alla tillgängliga system.”
+},
+”duration": {
+”label": ”Demonstrationens varaktighet ( 30 à 600 s )”,
+”help": ”Med det här alternativet kan du definiera tiden för speldemos. Standardvärde: 90s.”
+},
+”infoscreenduration": {
+”label": ”Infoskärmens varaktighet ( 15 à 30 s )”,
+”help": ”Med det här alternativet kan du definiera visningstiden för informationsskärmen i speldemos. Standardvärde: 6s.”
+}
+},
+”gameclip": {
+”showhelpitems": {
+”label": ”Visa knappar längst ner i spelklippen”,
+”help": ”Med det här alternativet kan du dölja synliga åtgärdsknappar längst ned i spelklippen.”
+},
+”showclippingitem": {
+”label": ”Visa ”Tryck på Start” på spelklipp”,
+”help": ”Med det här alternativet kan du visa ”Tryck på Start” i mitten av skärmen.”
+}
+}
+},
+”hat": {
+”wpaf": {
+”title": ”Fläkt”,
+”enabled": {
+”label": ”Aktivera fläkt”,
+”help": ”Med det här alternativet kan du aktivera fläkt på ditt kort som följer en specifik hatt. Om du använder en hatt som RGB Dual kan du inte använda det här alternativet.”
+},
+”board": {
+”label": ”Val av hatt”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja vilken hatt du vill använda. Om du använder en hatt som RGB Dual kan du inte använda det här alternativet. Tillgängliga alternativ:”,
+”0": ”<b>wspoehatb</b> motsvarar Waveshare PoE-kort.”,
+”1": ”<b>argonforty</b> motsvarar brädan i Argon One-väskor.”,
+”2": ”<b>piboy</b> motsvarar Experimental Pi PiBoy-kort.”,
+”3": ”<b>rpipoeplus</b> motsvarar Raspberry Pi PoE+-kortet.”,
+”4": ”<b>fanshim</b> motsvarar Pimoroni fan SHIM-kortet.”
+}
+}
+}
+},
+”secondminitft": {
+”title": ”Andra mini TFT-skärmen”,
+”enabled": {
+”label": ”Aktivera den andra mini TFT-skärmen”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera en andra mini-TFT-skärm.”
+},
+”type": {
+”label": ”Val av typ”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja typ av mini TFT-skärm. Tillgängliga alternativ:”,
+”0": ”<b>overlay</b> motsvarar en konfiguration via /boot/config.txt eller /boot/config.ini efter kortet.”,
+”1": ”<b>default</b> motsvarar alla andra fall.”
+}
+},
+”resolution": {
+”label": ”Val av resolution”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja upplösning för mini TFT-skärmen. Tillgängliga alternativ:”,
+”0": ”<b>240p</b> motsvarar en upplösning på 320x240.”,
+”1": ”<b>320p</b> motsvarar en upplösning på 480x320.”
+}
+},
+”imagestretchenabled": {
+”label": ”Aktivera bildsträckning”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera bildstretchning.”
+},
+”imageenlargeenabled": {
+”label": ”Aktivera bildförstoring”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera förstoring av bilden så att den fyller hela skärmen.”
+},
+”imagealphaenabled": {
+”label": ”Aktivera alfakanal”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera användningen av alfakanal om det är lämpligt.”
+},
+”imageignoreaspectenabled": {
+”label": ”Aktivera ignorerad bildaspekt”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att ignorera bildaspekter.”
+},
+”disablevideoines": {
+”label": ”Inaktivera videoskrap”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att spela upp skrotvideor på den andra mini-TFT-skärmen.”
+},
+”backlightcontrol": {
+”label": ”Contrôle de la luminosité”,
+”help": ”Detta alternativ gör det möjligt att kontrollera ljusstyrkan på minidisplayen TFT. För att kunna använda det måste din skärm vara styrd av en PWM.”
+},
+”usemarquee": {
+”label": ”Använd markeringar”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera användning av markiser.”
+},
+”sleepenabled": {
+”label": ”Aktivera viloläge”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera viloläge.”
+}
+}
+},
+”audio": {
+”backgroundMusic": {
+”title": ”Bakgrundsmusik”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera bakgrundsmusik. Du måste starta om EmulationStation för att aktivera den här funktionen”,
+”toggleButtonLabel": ”Aktivera bakgrundsmusik”
+},
+”volym": {
+”title": ”Volym”,
+”help": ”Med det här alternativet kan du ändra volymen.”
+},
+”music": {
+”volym": {
+”title": ”Musikvolym”,
+”help": ”Med det här alternativet kan du ändra musikvolymen.”
+}
+},
+”audioOutput": {
+”title": ”Ljudutgång”,
+”help": ”Med det här alternativet kan du välja ljudutgång.”,
+”select": {
+”options": {
+”label": ”Välj ljudutgång”
+}
+}
+},
+”mode": {
+”title": ”Ljudläge”,
+”help": {
+”title": ”Med det här alternativet kan du välja vilket ljud som ska höras i menyerna. Tillgängliga alternativ:”,
+”0": ”<b>musicxorvideosound</b> spelar musik eller videoljud.”,
+”1": ”<b>musicandvideosound</b> spelar upp musik och videoljud.”,
+”2": ”<b>musiconly</b> spelar bara upp musik.”,
+”3": ”<b>videosoundonly</b> spelar bara upp videoljud.”,
+”4": ”<b>none</b> spelar inte upp någon musik eller något videoljud.”
+},
+”select": {
+”options": {
+”label": ”Välj ljudläge”
+}
+}
+}
+},
+”network": {
+”server": {
+”title": ”Server”,
+”hostname": {
+”label": ”Värdnamn”,
+”help": ”Med det här alternativet kan du ange namnet på din Recalbox i ditt lokala nätverk.”
+}
+},
+”wifi": {
+”title": ”Wi-Fi”,
+”region": {
+”title": ”Landskod för Wifi”,
+”help": ”Standardvärdet är JP eftersom det här landet är det mest tillåtande för wifi.”
+},
+”ip": {
+”title": ”IP-adress för Recalbox”,
+”help": ”Med det här alternativet kan du ange en IP-adress för din Recalbox.”
+},
+”netmask": {
+”title": ”Nätmask”,
+”help": ”Med det här alternativet kan du ange en nätmask för din Recalbox.”
+},
+”gateway": {
+”title": ”IP-adress för gateway”,
+”help": ”Med det här alternativet kan du ange en gateway-IP-adress för din Recalbox.”
+},
+”nameservers": {
+”title": ”Server(s) för domännamn”,
+”help": ”Med det här alternativet kan du ange en eller flera IP-adresser för domännamnservrar. Varje IP-adress måste separeras med ett mellanslag.”
+},
+”priority": {
+”title": ”Prioritet”,
+”help": ”Med det här alternativet kan du redigera prioriteten för din wifi-anslutning.”
+},
+”toggleButtonLabel": ”Aktivera Wi-Fi”,
+”help": ”Observera: felaktig konfiguration kan leda till att din recalbox inte är tillgänglig i nätverket.\n\nLösenorden är krypterade och visas inte igen. Detta betyder inte att fälten är oanvändbara! Om du anger ett nytt värde kommer det att skriva över det gamla.”,
+”ssid": {
+”title": ”SSID”,
+”help": ”Med det här alternativet kan du fylla i namnet på din wifi-anslutning.”
+},
+”key": {
+”title": ”Nyckel”,
+”help": ”Med det här alternativet kan du fylla i det associerade lösenordet för din wifi-anslutning.”
+}
+}
+},
+”emustation": {
+”display": {
+”title": ”Skärm”,
+”videomode": {
+”label": ”Videoläge”,
+”help": ”Med det här alternativet kan du välja en upplösningsskärm för din Recalbox. Det finns två grupper av videolägen: CEA och DMT. Se till att läget är kompatibelt med din ursprungliga skärmupplösning.”
+},
+”force43": {
+”label": ”Force 4/3-format”,
+”help": ”Med det här alternativet kan du välja om du vill tvinga frontend att visa i 4/3-format.”
+}
+},
+”menus": {
+”title": ”Menyer”,
+”menuStyle": {
+”label": ”Menystil”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja vilka menyer som ska vara tillgängliga för spelare. Tillgängliga alternativ:”,
+”bartop": ”<b>bartop</b> har filtrerade alternativ, lämpliga för bartops.”,
+”default": ”<b>default</b> är den fullt aktiverade menyn.”,
+”none": ”<b>none</b> låter dig bara välja spel. Med det här alternativet kommer du inte att ha avstängningsalternativet tillgängligt!”
+}
+},
+”systemSelectedAsDefault": {
+”label": ”System valt som standard”,
+”help": ”Med det här alternativet kan du välja vilket system som ska väljas vid uppstart.”
+},
+”startFromFirstSystem": {
+”label": ”Starta på spellistan från det första systemet (eller det som valts)”,
+”help": ”Med det här alternativet kan du välja om du vill starta direkt i spellistan från det första systemet (eller det som valts).”
+},
+”disableSystemSelection": {
+”label": ”Inaktivera systemvalet”,
+”help": ”Med det här alternativet kan du välja om du vill starta och visa ENDAST det första systemet (eller det som valts).”
+},
+”quickSystemSelect": {
+”label": ”Aktivera snabbt val av system”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera snabbt systemval.”
+},
+”systemsorting": {
+”label": ”Systemsortering”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du sortera system. Tillgängliga alternativ:”,
+”0": ”<b>default</b> motsvarar standardsorteringen.”,
+”1": ”<b>namn</b> sorterar endast efter namn.”,
+”2": ”<b>releasedate</b> sorterar endast efter utgivningsdatum.”,
+”3": ”<b>1typ2namn</b> sorterar efter typ och sedan efter namn.”,
+”4": ”<b>1type2releasedate</b> sorterar efter typ och sedan efter utgivningsdatum.”,
+”5": ”<b>1tillverkare2namn</b> sorterar efter tillverkare och sedan efter namn.”,
+”6": ”<b>1manufacturer2releasedate</b> sorterar efter tillverkare och sedan efter utgivningsdatum.”,
+”7": ”<b>1type2manufacturer3name</b> sorterar efter typ, sedan efter tillverkare och efter namn.”,
+”8": ”<b>1type2manufacturer3releasedate</b> sorterar efter typ, sedan efter tillverkare och efter utgivningsdatum.”
+}
+},
+”showOnlyScrapedGames": {
+”label": ”Visa endast skrapade spel”,
+”help": ”Med det här alternativet kan du bara visa spel som ingår i gamelist.xml-filerna (snabbare visningstider).”
+},
+”clock": {
+”label": ”Visa klocka”,
+”help": ”Med det här alternativet kan du visa en klocka i menyerna.”
+}
+},
+”filter": {
+”title": ”Filter”,
+”showonlylatestversion": {
+”label": ”Visa endast den senaste versionen (bêta)”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera visning av den senaste versionen av ett spel.”
+},
+”favoritesonly": {
+”label": ”Visa endast favoriter”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera visning av endast favoriter i varje system.”
+},
+”showhidden": {
+”label": ”Visa dolda spel”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera visning av dolda spel i varje system.”
+},
+”filteradultgames": {
+”label": ”Dölj spel för vuxna”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera visning av spel som identifieras som vuxenspel i varje system.”
+},
+”hidepreinstalledgames": {
+”label": ”Dölj förinstallerade spel”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera visning av förinstallerade spel.”
+},
+”hidenogames": {
+”label": ”Dölj inga spel”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera visning av element som inte identifieras som spel (bios, etc.).”
+},
+”displaybyfilename": {
+”label": ”Visa efter filnamn”,
+”help": ”Med det här alternativet kan du visa spel efter deras filnamn i stället för efter deras spelnamn.”
+}
+},
+”virtualsystem": {
+”title": ”Virtuella system”,
+”allgames": {
+”label": ”Aktivera alla spel”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera det virtuella systemet All games.”
+},
+”multiplayer": {
+”label": ”Aktivera flerspelarläge”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera Multiplayers virtuella system.”
+},
+”lastplayed": {
+”label": ”Aktivera Senast spelad”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera det virtuella systemet Last played.”
+},
+”lightgun": {
+”label": ”Avaktivera ljuspistol”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera det virtuella systemet Lightgun.”
+},
+”ports": {
+”label": ”Dölj portar”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera det virtuella systemet Ports.”
+},
+”tate": {
+”label": ”Aktivera Tate”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera det virtuella systemet Tate.”
+}
+},
+”tateonly": {
+”label": ”Visa endast tate-spel i spellistor”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera visning av endast tate-spel i spellistor.”
+},
+”theme": {
+”title": ”Teman”,
+”folder": {
+”label": ”Val av tema”,
+”help": ”Med det här alternativet kan du välja vilket tema som ska användas.”
+},
+”transition": {
+”label": ”Övergångsstil vid spelstart”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du definiera övergångsstilen vid spelstart. Tillgängliga alternativ:”,
+”0": ”<b>fade</b> gör en fade-skärm som blir svart.”,
+”1": ”<b>slide</b> zoomar till spelbilden (eller dess namn om det inte finns några data).”,
+”2": ”<b>instant</b> startar spelet utan någon animation.”
+}
+},
+”region": {
+”label": ”Region”,
+”help": ”Med det här alternativet kan du välja vilken region som ska användas med teman för att visa logotyper för motsvarande system.”
+},
+”carousel": {
+”label": ”Karusellanimering”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja vilken animering som ska utföras när du rör dig mellan olika system. Tillgängliga alternativ:”,
+”0": ”Om det är aktiverat kommer övergången mellan systemen att vara smidig.”,
+”1": ”Om inaktiverat kommer övergången mellan systemen att vara omedelbar.”
+}
+}
+},
+”popups": {
+”title": ”Popup-menyer”,
+”showhelp": {
+”label": ”Visa hjälp”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera popup-fönster för hjälp.”
+},
+”popup": {
+”help": {
+”label": ”Durée d'affichage de la popup d'aide”,
+”help": ”Med det här alternativet kan du ändra tidsperioden för visning av popup-fönstret för hjälp.”
+},
+”music": {
+”label": ”Durée d'affichage de la popup de musique”,
+”help": ”Med det här alternativet kan du ändra tidsperioden för visning av popup-fönstret för musik.”
+},
+”netplay": {
+”label": ”Durée d'affichage de la popup de netplay”,
+”help": ”Med det här alternativet kan du ändra tidsperioden för visning av popup-fönstret för netplay.”
+}
+}
+}
+},
+”scraper": {
+”settings": {
+”title": ”Inställningar”,
+”getNameFrom": {
+”title": ”Hämta namn från”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du välja hur du vill hämta spelnamn. Tillgängliga alternativ:”,
+”0": ”<b>0</b> från scrapper-resultat (standard)”,
+”1": ”<b>1</b> från filnamn”,
+”2": ”<b>2</b> från filnamnet odekorerat (dvs: (text) och [text] borttagna)”
+}
+}
+},
+”screenscraper": {
+”medias": {
+”title": ”Media”,
+”media": {
+”title": ”Bildtyp”,
+”help": ”Med det här alternativet kan du välja om du vill ladda ner en bildtyp.”
+},
+”miniatyrbild": {
+”title": ”Typ av miniatyrbild”,
+”help": ”Med det här alternativet kan du välja om du vill ladda ner en miniatyrbildstyp.”
+},
+”video": {
+”title": ”Videotyp”,
+”help": ”Med det här alternativet kan du välja om du vill ladda ner en videotyp.”
+},
+”maps": {
+”title": ”Hämta kartor”,
+”help": ”Med det här alternativet kan du välja om du vill ladda ner kartor.”
+},
+”manual": {
+”title": ”Hämta manualer”,
+”help": ”Med det här alternativet kan du välja om du vill ladda ner manualer.”
+},
+”p2k": {
+”title": ”Ladda ner konfigurationer för PAD till tangentbord”,
+”help": ”Med det här alternativet kan du välja om du vill ladda ner konfigurationer för pad2keyboard.”
+}
+},
+”auth": {
+”title": ”Inloggningsuppgifter”,
+”user": {
+”title": ”Användare”,
+”help": ”Detta alternativ låter dig fylla i ditt användarnamn för ditt ScreenScraper-konto.”
+},
+”password": {
+”title": ”Lösenord”,
+”help": ”Det här alternativet låter dig fylla i ditt associerade lösenord för ditt ScreenScraper-konto.”
+}
+},
+”i18n": {
+”title": ”Språk”,
+”language": {
+”title": ”Favoritspråk”,
+”help": ”Med det här alternativet kan du välja vilket språk som ska användas för dina scraps.”
+},
+”region": {
+”title": ”Favoritregion”,
+”help": ”Med det här alternativet kan du välja din favoritregion.”
+},
+”regionPriority": {
+”title": ”Val av spelregion”,
+”help": {
+”title": ”Med det här alternativet kan du välja vilken region som ska användas. Tillgängliga alternativ:”,
+”0": ”<b>DetectedRegion</b> väljer den upptäckta regionen.”,
+”1": ”<b>favoriteRegion</b> väljer favoritregionen.”
+}
+}
+}
+}
+},
+”kodi": {
+”status": {
+”title": ”Status”,
+”enableKodi": {
+”label": ”Aktivera Kodi”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera Kodi.”
+},
+”kodiAtStartup": {
+”label": ”Starta Kodi vid uppstart”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera automatisk start av Kodi vid start.”
+},
+”launchWithX": {
+”label": ”Tangent X startar Kodi”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att komma åt Kodi med X-knappen på en SNES-kontroll.”
+}
+},
+”video": {
+”title": ”Video”,
+”select": {
+”options": {
+”label": ”Välj läge”,
+”help": ”Med det här alternativet kan du välja en upplösning för Kodi.”
+}
+}
+},
+”network": {
+”title": ”Nätverk”,
+”waitMode": {
+”label": ”Vänteläge”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du redigera vänteläget vid Kodi-start. Tillgängliga alternativ:”,
+”required": ”<b>krävs</b> Kodi startar inte innan den kan nå den angivna IP-adressen.”,
+”önskar": ”<b>wish</b> använder en nedräkningstimer innan den startar.”,
+”nonce": ”<b>nonce</b> inget värde.”
+}
+},
+”waitTime": {
+”label": ”Väntetid”,
+”help": ”Med det här alternativet kan du ange väntetiden (sekunder) innan Kodi-starten misslyckas (\”krävs\”) eller fortsätter (\”önskas\”).”
+},
+”waitHost": {
+”label": ”IP-adress”,
+”help": ”Med det här alternativet kan du definiera en IP-adress som måste nås för att bekräfta att den är tillgänglig.”
+}
+}
+},
+”hyperion": {
+”settings": {
+”title": ”Inställningar”,
+”activateHyperion": {
+”label": ”Aktivera Hyperion”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera Hyperion\n\nDen här funktionen är faktiskt inte tillgänglig i Recalbox, men den kommer tillbaka så snart som möjligt.”
+}
+}
+}
+},
+”emulation": {
+”meny": {
+”global": ”global”,
+”netplay": ”netplay”,
+”retroachievements": ”retroachievements”,
+”bios": ”bios”,
+”systems": ”system / roms”,
+”controllers": ”controllers”
+},
+”global": {
+”display": {
+”title": ”Skärm”,
+”ratio": {
+”label": ”Skärmförhållande”,
+”help": ”Med det här alternativet kan du välja det förhållande som är anpassat till din skärm. Standardinställning: \”auto\”.”,
+”options": {
+”automatisk": ”Automatisk”,
+”anpassad": ”Anpassad”
+}
+},
+”videomode": {
+”label": ”Videoläge”,
+”help": ”Med det här alternativet kan du använda en specifik skärmupplösning. Det finns två grupper av videolägen: CEA och DMT. Se till att läget är kompatibelt med din ursprungliga skärmupplösning.”
+},
+”shaders": {
+”label": ”Aktivera shaders”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera användning av shaders.”
+},
+”shaderset": {
+”label": ”Uppsättning av shaders”,
+”help": {
+”availableShaders": ”Med det här alternativet kan du välja om du vill använda en definierad shaderset eller en egen shader. Tillgängliga shaders:”,
+”none": ”<b>none</b> Aktivera inte shaders.”,
+”retro": ”<b>retro</b> ställer in den bästa shadern för varje system, som valts av communityn. Detta ger dig den spelupplevelse som ligger närmast originalsystemet.”,
+”crtcurved": ”<b>crtcurved</b> använder shaders med en lätt rundning för att återskapa CRT-skärmar.”,
+”scanlines": ”<b>scanlines</b> aktiverar scanlines för alla emulatorer.”,
+”custom": ”<b>custom</b> gör att du kan välja och aktivera en anpassad shader.”
+}
+},
+”customshaders": {
+”label": ”Anpassad shader”,
+”help": ”Med det här alternativet kan du, om du har valt att använda en anpassad shader, välja vilken shader som ska användas.”
+},
+”integerscale": {
+”label": ”Möjliggör pixelperfekt”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera pixelperfekt bildskalning. Aktiverar läget ”Pixel Perfect” för bildskalning som ger en exakt återgivning av spelen på en modern skärm.”
+},
+”smooth": {
+”title": ”Smidigt spel”,
+”label": ”Aktiverar spelutjämning”,
+”help": ”Med det här alternativet kan du göra dina spel smidigare.”
+},
+”recalboxoverlays": {
+”label": ”Recalbox-överlägg”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera standardöverlägg.”
+},
+”showfps": {
+”label": ”Visningsfrekvens”,
+”help": ”Med det här alternativet kan du visa frekvensen i menyer och i spelet.”
+},
+”vulkandriver": {
+”label": ”Aktiverar videodrivrutinen Vulkan”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera användningen av videodrivrutinen Vulkan.”
+}
+},
+”saves": {
+”title": ”Spara”,
+”autosave": {
+”label": ”Aktiverar automatisk säkerhetskopiering / laddning”,
+”help": ”Med det här alternativet kan du skapa en automatisk säkerhetskopia av ditt spel när du avslutar det och sedan ladda det igen när du startar om det.\n\nNär spelet har startats och säkerhetskopian har laddats använder du det speciella reset-kommandot om du vill återgå till spelets titelskärm.”
+},
+”showsavestatebeforerun": {
+”label": ”Visa sparstatus vid start”,
+”help": ”Det här alternativet visar tillgängliga sparlägen innan ett spel startas.”
+}
+},
+”security": {
+”title": ”Säkerhet”,
+”quitpresstwice": {
+”label": ”Tryck två gånger för att avsluta spelet”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att trycka två gånger på snabbtangent + Start för att avsluta ett spel.”
+}
+},
+”autorun": {
+”title": ”Autorun”,
+”enabled": {
+”label": ”Aktivera start vid spel”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att automatiskt starta ett specifikt spel vid start. Obs: Om Kodi också har definierats för att starta, har Kodi prioritet.”
+}
+},
+”tate": {
+”title": ”Tate”,
+”gamerotation": {
+”label": ”Spelrotation”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du definiera rotationen av spelskärmen för tate-spel. Tillgängliga alternativ:”,
+”0": ”<b>0</b> lämnar dig spel som de är.”,
+”1": ”<b>1</b> vrider spelskärmen 90° åt vänster.”,
+”2": ”<b>2</b> vänder upp och ner på spelskärmen.”,
+”3": ”<b>3</b> vrider spelskärmen 90° åt höger.”
+}
+}
+},
+”virtualarcade": {
+”title": ”Arcade”,
+”activate": {
+”label": ”Aktiverar 'Arcade' metasystem”,
+”help": ”Aktivera metasystemet Arcade för att gruppera alla spel från piFBA, FBN (libretro), MAME och eventuellt Neogeo till ett enda ”Arcade”-system."”
+},
+”inkluderaNeogeo": {
+”label": ”Inkludera Neogeo”,
+”help": ”Inkludera NeoGeo eller inte i metasystemet \”Arcade\”.”
+},
+”hideOriginals": {
+”label": ”Dölj originalsystem”,
+”help": ”Dölj inkluderade system eller låt dem stå kvar i systemlistan.”
+},
+”manufacturers": {
+”label": ”Tillverkarens virtuella system”,
+”help": ”Det här alternativet gör att du kan välja tillverkare som har sina egna system.”
+}
+},
+”arcade": {
+”view": {
+”enhanced": {
+”label": ”Aktivera förbättrad vy”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera den förbättrade vyn i arkadvyn.”
+},
+”hideclones": {
+”label": ”Vik kloner som standard”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att automatiskt vika kloner.”
+},
+”hidebios": {
+”label": ”Dölj bios”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att dölja bios-filer.”
+},
+”hidenonworking": {
+”label": ”Dölj spel som inte fungerar”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera möjligheten att dölja spel som inte fungerar.”
+}
+},
+”usedatabasenames": {
+”label": ”Använd alltid officiella namn”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera användningen av officiella namn.”
+}
+},
+”translation": {
+”title": ”Retroarch-översättning”,
+”translate": {
+”label": ”Aktiverar automatisk Retroarch-översättning”,
+”help": ”Med det här alternativet kan du aktivera automatisk översättning. Du måste ha ett konto på https://ztranslate.net/ för att kunna använda den här funktionen.”
+},
+”translateFrom": {
+”label": ”Källans språk”,
+”help": ”Med det här alternativet kan du definiera källspråket som kan påskynda eller ge mer exakta resultat.”
+},
+”translateTo": {
+”label": ”Målspråk”,
+”help": ”Med det här alternativet kan du välja originalspråk för de texter som ska översättas. Standardvärdet är hämtat från systemspråket eller, om systemspråket inte är definierat, inställt på auto (EN).”
+},
+”translateApiKey": {
+”label": ”zTranslate API-nyckel”,
+”help": ”Med det här alternativet kan du lägga till din API-översättningsnyckel. Du måste gå till https://ztranslate.net och skapa ett konto om du inte har ett ännu. \n\nValidera ditt konto, logga sedan in och gå till inställningssidan och hämta API-nyckeln längst ner.”
+},
+”translateUrl": {
+”label": ”URL till annan översättningstjänst”,
+”help": ”Med det här alternativet kan du ange om du vill använda ett annat översättningssystem. Om du vill använda en annan översättningstjänst eller ett anpassat API-anrop ska du använda den här nyckeln för att ange webbadressen som ska anropas.\n\nOm nyckeln inte är tom används den i stället för zTranslations API-nyckel.”
+}
+},
+”rewind": {
+”title": ”Spola tillbaka”,
+”label": ”Aktiverar återspolning”,
+”help": ”Det här alternativet gör att du kan spola tillbaka spelet medan du spelar. Det här kan göra vissa emulatorer (snes, psx) långsammare om du aktiverar det och fungerar inte med alla emulatorer.”
+},
+”softpatching": {
+”title": ”Softpatching”,
+”select": {
+”label": ”Softpatcha spel vid spelstart”,
+”help": {
+”availableOptions": ”Med det här alternativet kan du patcha ett spel i farten, utan att ändra dina roms. Tillgängliga alternativ:”,
+”0": ”<b>auto</b> kommer att tillämpa endast 1 patch varje gång automatiskt.”,
+”1": ”<b>select</b> kommer att be dig välja en eller flera patchar att applicera om du vill.”,
+”2": ”<b>disable</b> ignorerar helt patchar om de finns.”,
+”3": ”<b>launchLast</b> kommer att använda den valda patchen i spelalternativen.”
+}
+}
+},
+”retroachievements": {
+”title": ”Retroachievements”,
+”activate": {
+”label": ”Aktivera RetroAchievements”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera användningen av Retroachievements. RetroAchievements.org är en community-webbplats där du kan vinna skräddarsydda prestationer för retrospel.\n\nPrestationer görs av och för communityt.”
+},
+”hardcore": {
+”label": ”Aktivera Hardcore-läge”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera hardcore-läget. När det är aktiverat avaktiverar Hardcore-läget alla möjligheter att spara i emulatorn! Du kommer inte att kunna spara eller ladda om spelet medan du spelar. \n\nDu måste slutföra spelet och få alla prestationer första gången, precis som på originalkonsolen.”
+},
+”username": {
+”label": ”Logga in”,
+”help": ”Med det här alternativet kan du fylla i din inloggning för ditt Retroachievements-konto.”
+},
+”password": {
+”label": ”Lösenord”,
+”help": ”Med det här alternativet kan du ange ditt lösenord till ditt Retroachievements-konto.”
+}
+},
+”netplay": {
+”title": ”Netplay”,
+”activate": {
+”label": ”Aktiverar netplay”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera Netplay. \n\nNetplay är en funktion som möjliggör nätverksbaserat flerspelarläge med vissa emulatorer via peer-to-peer (P2P)-nätverk.”
+},
+”nickname": {
+”label": ”Smeknamn”,
+”help": ”Med det här alternativet kan du konfigurera ditt smeknamn.\n\nVar försiktig så att du inte skriver in några speciella eller accentuerade tecken, det förhindrar att Netplay fungerar.”
+},
+”port": {
+”label": ”Port”,
+”help": ”Med det här alternativet kan du definiera en annan port för anslutning till Netplay. Standardvärde: 55435”
+},
+”relay": {
+”label": ”Netplay MITM Server relä”,
+”help": ”Med det här alternativet kan du välja en reläserver för anslutning till Netplay.\n\nMed alternativet Netplay MITM, Relay Server kan du åsidosätta öppningen av modemportarna.\nDärmed kan båda sidorna av anslutningen dirigeras via en mellanliggande server.\n\nDetta påverkar dock hastigheten med vilken data synkroniseras och därmed spelets responstid.”
+},
+”lobby": {
+”label": ”Libretro-lobby”,
+”help": ”Med det här alternativet kan du ange en annan adress för Netplay-lobbyn. \n\nURL för listan över libretro-lobbyn som ska användas. \n\nURL:en \”http://lobby.libretro.com/list/\” är konfigurerad som standard.”
+}
+}
+},
+”bios": {
+”loader": ”Kontrollerar BIOS på servern ...”,
+”dialogs": {
+”remove": {
+”text": ”Är du säker på att du vill ta bort det här BIOS:et?”
+}
+},
+”tableHeader": {
+”system": ”System”,
+”bios": ”BIOS”,
+”currentMd5": ”Aktuell MD5”,
+”md5": ”Förväntade MD5”,
+”valid": ”Giltighet”
+},
+”tooltips": {
+”green": ”Verifierat BIOS”,
+”yellow": ”Valfritt BIOS finns inte eller fel MD5”,
+”red": ”Obligatoriskt BIOS saknas eller fel MD5”,
+”delete": ”Radera BIOS”,
+”redFilter": {
+”label": ”Filter saknas eller fel MD5 obligatorisk BIOS”
+},
+”orangeFilter": {
+”label": ”Filter saknas eller fel MD5 valfritt BIOS”
+},
+”greenFilter": {
+”label": ”Filter giltigt BIOS”
+},
+”refresh": {
+”label": ”Uppdatera lista”
+}
+},
+”help": {
+”tooltip": ”Allt om färgkoder”,
+”title": ”BIOS-status”,
+”green": {
+”title": ”Presentera BIOS + giltig MD5”
+},
+”yellow_1": {
+”title": ”Valfritt nuvarande BIOS + fel MD5”,
+”text": ”Det kan fungera, men eftersom ingen från oss har testat det kan vi inte garantera något.”
+},
+”yellow_2": {
+”title": ”Valfritt BIOS saknas”,
+”text": ”Det kan fungera, så länge du inte använder ett spel eller en funktion som kräver detta valfria BIOS”
+},
+”red": {
+”title": ”Obligatoriskt BIOS saknas eller fel MD5”
+}
+}
+},
+”roms": {
+”dialogs": {
+”remove": {
+”text": ”Är du säker på att du vill ta bort den här ROM:en?”
+}
+}
+},
+”controllers": {
+”bluetooth": {
+”title": ”Bluetooth”,
+”enabled": {
+”label": ”Stöd för Bluetooth-styrenheter”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för Bluetooth-kontroller.”
+},
+”ertm": {
+”label": ”Aktivering av ERTM-protokoll”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för ERTM-protokollet.”
+},
+”autopaironboot": {
+”label": ”Automatisk parning vid start”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera automatisk parning vid start.”
+}
+},
+”db9": {
+”title": ”DB9”,
+”enabled": {
+”label": ”Stöd för DB9-styrenheter”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för DB9-kontroller.”
+},
+”settings": {
+”label": ”Inställningar”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera DB9-styrenheter.”
+}
+},
+”osd": {
+”title": ”OSD”,
+”enabled": {
+”label": ”Visa alltid pad OSD”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera pad OSD överallt eller inte.”
+},
+”type": {
+”label": ”Typ av pad OSD”,
+”help": ”Med det här alternativet kan du välja vilken pad som ska visas för OSD.”
+}
+},
+”gamecon": {
+”title": ”Gamecon”,
+”enabled": {
+”label": ”Stöd för Gamecon-kontroller”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för Gamecon-kontroller.”
+},
+”settings": {
+”label": ”Inställningar”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera Gamecon-kontroller.”
+}
+},
+”gpio": {
+”title": ”GPIO”,
+”enabled": {
+”label": ”Stöd för GPIO-kontroller”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för GPIO-kontroller.”
+},
+”settings": {
+”label": ”Inställningar”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera GPIO-styrenheter.”
+}
+},
+”ps3": {
+”title": ”PS3”,
+”enabled": {
+”label": ”Stöd för PS3-kontroller”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för Bluetooth-kontroller.”
+},
+”driver": {
+”label": ”Drivrutin att använda”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för Bluetooth-kontroller.”,
+”0": ”<b>bluez</b> motsvarar bluez-kloner.”,
+”1": ”<b>official</b> motsvarar officiella styrenheter.”,
+”2": ”<b>shanwan</b> motsvarar shanwan-kloner.”
+}
+},
+”steam": {
+”title": ”Steam”,
+”enabled": {
+”label": ”Stöd för Steam-kontroller”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för Steam-kontroller.”
+}
+},
+”xarcade": {
+”title": ”XArcade”,
+”enabled": {
+”label": ”Stöd för XArcade Tankstik och kompatibla kontroller”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för XArcade Tankstik-styrenheter och kompatibla styrenheter.”
+}
+},
+”joycond": {
+”title": ”Joycon”,
+”enabled": {
+”label": ”Stöd för Joycon-kontroller”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera stöd för Joycon-kontroller.”
+}
+},
+”swapvalidateandcancel": {
+”title": ”Knappar”,
+”enabled": {
+”label": ”Invertera validerings- och avbrytknappar”,
+”help": ”Med det här alternativet kan du invertera validerings- och avbrytknapparna.”
+}
+},
+”rumble": {
+”title": ”Rumble”,
+”enabled": {
+”label": ”Aktivera rumble”,
+”help": ”Med det här alternativet kan du aktivera rumble på kompatibla styrenheter.”
+}
+},
+”inputdriver": {
+”title": ”Drivrutin”,
+”label": ”Styrenhetens drivrutin”,
+”help": {
+”availableOptions": ”Tillgängliga alternativ:”,
+”0": ”<b>auto</b> väljer förare automatiskt.”,
+”1": ”<b>udev</b> för att använda systemdrivrutinen.”,
+”2": ”<b>sdl2</b> för att använda programdrivrutinen.”
+}
+}
+},
+”screenshots": {
+”verktygstips": ”Ta en skärmdump”,
+”dialogs": {
+”remove": {
+”text": ”Är du säker på att du vill ta bort det här mediet?”
+}
+}
+},
+”system": {
+”tooltip": {
+”harNetplay": {
+”label": ”Visa endast Netplay-kompatibla system”
+}
+}
+}
+},
+”patreon": {
+”title": ”Patreon”,
+”privatekey": {
+”label": ”Nyckel”,
+”help": ”Med det här alternativet kan du fylla i din Patreon-nyckel som du hittar på www.recalbox.com.”
+},
+”scraper": {
+”source": {
+”label": ”Skrapkälla”,
+”help": ”Om du är chef på nivå 2 eller 3 kan du med det här alternativet välja källan till dina skrapningar.”
+},
+”auto": {
+”label": ”Aktivera automatisk skrotning”,
+”help": ”Med det här alternativet kan du aktivera eller inaktivera auto-scrap.”
+}
+},
+”music": {
+”remoteplaylist": {
+”enable": {
+”label": ”Aktivera spellista för låntagare”,
+”help": ”Med det här alternativet kan du inaktivera musikspellistan.”
+}
+}
+}
+}
+}
