@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: developers@cacti.net\n"
 "POT-Creation-Date: 2024-04-20 13:36-0400\n"
-"PO-Revision-Date: 2025-03-14 00:46+0800\n"
+"PO-Revision-Date: 2025-03-18 09:18+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
-"Language-Team: \n"
+"Language-Team: Swedish <http://translate.cacti.net/projects/cacti/intropage/sv/>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 3.5\n"
 
 #: display.php:40
@@ -30,8 +30,7 @@ msgstr "En eller flera paneler togs bort på grund av otillräcklig behörighet.
 msgid "You can disable rows above in <b>Configure > Settings > General > Hide Cacti Dashboard</b> and use the whole page for Intropage "
 msgstr "Du kan inaktivera raderna ovan i <b>Konfigurera &gt; Inställningar &gt; Allmänt &gt; Dölj Cacti Dashboard</b> och använda hela sidan för Intropage "
 
-#: display.php:194 include/functions.php:1622 include/functions.php:1671
-#: include/functions.php:1715
+#: display.php:194 include/functions.php:1622 include/functions.php:1671 include/functions.php:1715
 msgid "Default"
 msgstr "Standard"
 
@@ -55,8 +54,7 @@ msgstr "Lägg till ny instrumentpanel"
 msgid "Remove current dashboard"
 msgstr "Ta bort nuvarande instrumentpanel"
 
-#: display.php:267 display.php:269 display.php:273 display.php:275
-#: display.php:279 display.php:281
+#: display.php:267 display.php:269 display.php:273 display.php:275 display.php:279 display.php:281
 #, php-format
 msgid "Number of lines - %d"
 msgstr "Antal rader - %d"
@@ -311,17 +309,17 @@ msgstr "%s sekunder"
 #: include/functions.php:826
 #, php-format
 msgid "%s Min"
-msgstr "%s minuter"
+msgstr "%s min"
 
 #: include/functions.php:826
 #, php-format
 msgid "%s Minutes"
-msgstr "%s Protokoll"
+msgstr "%s minuter"
 
 #: include/functions.php:833
 #, php-format
 msgid "%s Hours"
-msgstr "%s Timmar"
+msgstr "%s timmar"
 
 #: include/functions.php:833
 #, php-format
@@ -368,7 +366,7 @@ msgstr "Paneler ..."
 #: include/functions.php:1433 include/functions.php:1441
 #, php-format
 msgid "%s (no permission)"
-msgstr "%s (ingen tillåtelse)"
+msgstr "%s (ingen behörighet)"
 
 #: include/functions.php:1495
 msgid "Cannot add to Dashboard. Custom timespan."
@@ -414,7 +412,7 @@ msgstr "Normal användare"
 #: include/settings.php:146
 #, php-format
 msgid "[edit: %s]"
-msgstr "[redigera | redigera wikitext: %s]"
+msgstr "[redigera: %s]"
 
 #: include/settings.php:155
 msgid "System Level Panels"
@@ -474,7 +472,7 @@ msgstr "Automatiskt avinstallera paneler"
 
 #: include/variables.php:52
 msgid "If a Panel is installed and required plugin is removed, automatically uninstall the panel too"
-msgstr "Om en panel är installerad och det plugin som krävs tas bort, avinstalleras panelen också automatiskt"
+msgstr "Om en panel är installerad och det tillägget som krävs tas bort, avinstalleras panelen också automatiskt"
 
 #: include/variables.php:57
 msgid "Automatic Page Refresh"
@@ -501,8 +499,7 @@ msgstr "Varje minut"
 msgid "Every %d Minutes"
 msgstr "Var %d minut"
 
-#: include/variables.php:65 include/variables.php:129 include/variables.php:162
-#: include/variables.php:180
+#: include/variables.php:65 include/variables.php:129 include/variables.php:162 include/variables.php:180
 msgid "Every Hour"
 msgstr "Varje timme"
 
@@ -514,10 +511,7 @@ msgstr "Viktig period"
 msgid "From now to past. Affects row coloring, older events will not be highlighted, only displayed"
 msgstr "Från nu till dåtid. Påverkar radfärgning, äldre händelser kommer inte att markeras, bara visas"
 
-#: include/variables.php:74 panellib/graphs.php:355 panellib/graphs.php:533
-#: panellib/mactrack.php:111 panellib/poller.php:143 panellib/poller.php:348
-#: panellib/system.php:346 panellib/thold.php:293 panellib/thold.php:377
-#: panellib/thold.php:393
+#: include/variables.php:74 panellib/graphs.php:355 panellib/graphs.php:533 panellib/mactrack.php:111 panellib/poller.php:143 panellib/poller.php:348 panellib/system.php:346 panellib/thold.php:293 panellib/thold.php:377 panellib/thold.php:393
 msgid "Disabled"
 msgstr "Inaktiverad"
 
@@ -535,7 +529,7 @@ msgstr "4 timmar"
 
 #: include/variables.php:78
 msgid "1 day"
-msgstr "1 dag"
+msgstr "1 dygn"
 
 #: include/variables.php:83
 msgid "Number of panel lines"
@@ -548,7 +542,7 @@ msgstr "Hur många rader i panelen"
 #: include/variables.php:87 include/variables.php:88 include/variables.php:89
 #, php-format
 msgid "%d lines"
-msgstr "%d linjer"
+msgstr "%d rader"
 
 #: include/variables.php:94
 msgid "Trend Timespan"
@@ -569,16 +563,13 @@ msgstr "Den tid, i minuter, som Intropages bakgrundspolering kan köras innan de
 #: include/variables.php:106 setup.php:99
 #, php-format
 msgid "%d Minute"
-msgstr "%d Minut"
+msgstr "%d minut"
 
-#: include/variables.php:107 include/variables.php:108
-#: include/variables.php:109 include/variables.php:110
-#: include/variables.php:111 include/variables.php:112 setup.php:100
-#: setup.php:101 setup.php:102 setup.php:103 setup.php:104 setup.php:105
-#: setup.php:106 setup.php:107
+#: include/variables.php:107 include/variables.php:108 include/variables.php:109 include/variables.php:110 include/variables.php:111 include/variables.php:112 setup.php:100 setup.php:101 setup.php:102 setup.php:103 setup.php:104 setup.php:105 setup.php:106
+#: setup.php:107
 #, php-format
 msgid "%d Minutes"
-msgstr "%d Protokoll"
+msgstr "%d minuter"
 
 #: include/variables.php:113 setup.php:108
 #, php-format
@@ -597,13 +588,11 @@ msgstr "Hur många rader av loggen som ska analyseras. Rader = i panelen, 2x rad
 msgid "How often analyze DB"
 msgstr "Hur ofta analyserar DB"
 
-#: include/variables.php:125 include/variables.php:158
-#: include/variables.php:176
+#: include/variables.php:125 include/variables.php:158 include/variables.php:176
 msgid "Poller runs this task. It could cause long poller run."
 msgstr "Poller kör den här uppgiften. Det kan orsaka lång pollerkörning."
 
-#: include/variables.php:130 include/variables.php:163
-#: include/variables.php:181
+#: include/variables.php:130 include/variables.php:163 include/variables.php:181
 msgid "Every Day"
 msgstr "Varje dag"
 
@@ -621,7 +610,9 @@ msgstr "Analyze DB - Nivå av db-kontroll"
 
 #: include/variables.php:138
 msgid "Quick - No Check rows for incorrect links<br/>Fast - check only not properly closed tables<br/>Changed - check tables changed from last check<br/>Medium - with rows scan<br/>Extended - full rows and keys<br/>Medium and extended may cause a slow page load!"
-msgstr "Quick - Nej Kontrollera rader för felaktiga länkar<br/>Fast - kontrollera endast inte korrekt stängda tabeller<br/>Changed - kontrollera tabeller som ändrats från den senaste kontrollen<br/>Medium - med radsökning<br/>Extended - fullständiga rader och nycklar<br/>Medium och utökad kan orsaka en långsam sidladdning!"
+msgstr ""
+"Quick - Nej Kontrollera rader för felaktiga länkar<br/>Fast - kontrollera endast inte korrekt stängda tabeller<br/>Changed - kontrollera tabeller som ändrats från den senaste kontrollen<br/>Medium - med radsökning<br/>Extended - fullständiga rader och "
+"nycklar<br/>Medium och utökad kan orsaka en långsam sidladdning!"
 
 #: include/variables.php:141
 msgid "Quick"
@@ -694,12 +685,12 @@ msgstr "När underhållet startar"
 #: include/variables.php:201
 #, php-format
 msgid "%d Day Before"
-msgstr "%d Dagen före"
+msgstr "%d dygn före"
 
 #: include/variables.php:202 include/variables.php:203
 #, php-format
 msgid "%d Days Before"
-msgstr "%d Dagar före"
+msgstr "%d dygn före"
 
 #: include/variables.php:208
 msgid "Network stats in"
@@ -725,13 +716,8 @@ msgstr "Inställningar för larm"
 msgid "Alarm DB check Aborted Clients"
 msgstr "Larm DB-kontroll Avbrutna klienter"
 
-#: include/variables.php:223 include/variables.php:230
-#: include/variables.php:237 include/variables.php:244
-#: include/variables.php:251 include/variables.php:258
-#: include/variables.php:265 include/variables.php:272
-#: include/variables.php:279 include/variables.php:286
-#: include/variables.php:293 include/variables.php:300
-#: include/variables.php:307
+#: include/variables.php:223 include/variables.php:230 include/variables.php:237 include/variables.php:244 include/variables.php:251 include/variables.php:258 include/variables.php:265 include/variables.php:272 include/variables.php:279 include/variables.php:286
+#: include/variables.php:293 include/variables.php:300 include/variables.php:307
 msgid "If this event has occurred, trigger the selected Normal, Warning, or Alert status color."
 msgstr "Om den här händelsen har inträffat utlöser du den valda statusfärgen Normal, Varning eller Varning."
 
@@ -851,8 +837,7 @@ msgstr "Larm Röd/Gul Sämsta tillgänglighet"
 msgid "Availability below these levels will trigger either a Yellow or a Red status color."
 msgstr "Tillgänglighet under dessa nivåer utlöser antingen en gul eller en röd statusfärg."
 
-#: include/variables.php:351 include/variables.php:352
-#: include/variables.php:353
+#: include/variables.php:351 include/variables.php:352 include/variables.php:353
 msgid "Yellow / Red"
 msgstr "Gul / Röd"
 
@@ -872,21 +857,15 @@ msgstr "Värdvarningar"
 msgid "Host alerts (up/down/recovering) in last 30 minutes"
 msgstr "Värdaviseringar (upp/ned/återställning) under de senaste 30 minuterna"
 
-#: panellib/alert.php:119 panellib/alert.php:264 panellib/analyze.php:154
-#: panellib/analyze.php:1270 panellib/misc.php:336 panellib/misc.php:407
-#: panellib/misc.php:499 panellib/misc.php:571 panellib/thold.php:485
+#: panellib/alert.php:119 panellib/alert.php:264 panellib/analyze.php:154 panellib/analyze.php:1270 panellib/misc.php:336 panellib/misc.php:407 panellib/misc.php:499 panellib/misc.php:571 panellib/thold.php:485
 msgid "Date"
 msgstr "Datum"
 
-#: panellib/alert.php:120 panellib/alert.php:265 panellib/busiest.php:569
-#: panellib/busiest.php:1402 panellib/top5.php:143 panellib/top5.php:305
-#: panellib/top5.php:386 panellib/top5.php:473 panellib/top5.php:556
-#: panellib/top5.php:636 panellib/top5.php:718
+#: panellib/alert.php:120 panellib/alert.php:265 panellib/busiest.php:569 panellib/busiest.php:1402 panellib/top5.php:143 panellib/top5.php:305 panellib/top5.php:386 panellib/top5.php:473 panellib/top5.php:556 panellib/top5.php:636 panellib/top5.php:718
 msgid "Host"
 msgstr "Värd"
 
-#: panellib/alert.php:121 panellib/alert.php:266 panellib/poller.php:121
-#: panellib/poller.php:306
+#: panellib/alert.php:121 panellib/alert.php:266 panellib/poller.php:121 panellib/poller.php:306
 msgid "State"
 msgstr "Län"
 
@@ -894,19 +873,13 @@ msgstr "Län"
 msgid "More records, use detail window"
 msgstr "Fler poster, använd detaljfönstret"
 
-#: panellib/alert.php:185 panellib/alert.php:326 panellib/analyze.php:1048
-#: panellib/graphs.php:371 panellib/poller.php:283 panellib/poller.php:452
-#: panellib/system.php:191 panellib/system.php:592 panellib/thold.php:309
-#: panellib/top5.php:178 panellib/top5.php:258 panellib/top5.php:338
-#: panellib/top5.php:423
+#: panellib/alert.php:185 panellib/alert.php:326 panellib/analyze.php:1048 panellib/graphs.php:371 panellib/poller.php:283 panellib/poller.php:452 panellib/system.php:191 panellib/system.php:592 panellib/thold.php:309 panellib/top5.php:178 panellib/top5.php:258
+#: panellib/top5.php:338 panellib/top5.php:423
 msgid "Waiting for data"
 msgstr "Väntar på data"
 
-#: panellib/alert.php:188 panellib/alert.php:329 panellib/busiest.php:596
-#: panellib/busiest.php:1428 panellib/graphs.php:144 panellib/graphs.php:237
-#: panellib/graphs.php:374 panellib/top5.php:181 panellib/top5.php:261
-#: panellib/top5.php:341 panellib/top5.php:426 panellib/top5.php:508
-#: panellib/top5.php:589 panellib/top5.php:669 panellib/top5.php:755
+#: panellib/alert.php:188 panellib/alert.php:329 panellib/busiest.php:596 panellib/busiest.php:1428 panellib/graphs.php:144 panellib/graphs.php:237 panellib/graphs.php:374 panellib/top5.php:181 panellib/top5.php:261 panellib/top5.php:341 panellib/top5.php:426
+#: panellib/top5.php:508 panellib/top5.php:589 panellib/top5.php:669 panellib/top5.php:755
 msgid "You don't have permissions to any hosts"
 msgstr "Du har inte behörighet till några värdar"
 
@@ -916,7 +889,7 @@ msgstr "Paneler för analys"
 
 #: panellib/analyze.php:32
 msgid "Panels that analyze the current behavior of Cacti and it's plugins."
-msgstr "Paneler som analyserar det aktuella beteendet hos Cacti och dess plugins."
+msgstr "Paneler som analyserar det aktuella beteendet hos Cacti och dess tillägg."
 
 #: panellib/analyze.php:37
 msgid "Analyze Logins"
@@ -970,9 +943,7 @@ msgstr "IP adress"
 msgid "Status"
 msgstr "Status"
 
-#: panellib/analyze.php:167 panellib/analyze.php:1280 panellib/misc.php:353
-#: panellib/misc.php:430 panellib/misc.php:517 panellib/misc.php:596
-#: panellib/system.php:551 panellib/top5.php:387 panellib/top5.php:719
+#: panellib/analyze.php:167 panellib/analyze.php:1280 panellib/misc.php:353 panellib/misc.php:430 panellib/misc.php:517 panellib/misc.php:596 panellib/system.php:551 panellib/top5.php:387 panellib/top5.php:719
 msgid "Failed"
 msgstr "Misslyckad"
 
@@ -1096,18 +1067,11 @@ msgstr "Minnestabeller: %s"
 #: panellib/analyze.php:532
 #, php-format
 msgid "All tables: %s"
-msgstr "Alla bord: %s"
+msgstr "Alla tabeller: %s"
 
-#: panellib/analyze.php:571 panellib/analyze.php:678 panellib/analyze.php:711
-#: panellib/analyze.php:763 panellib/analyze.php:792 panellib/analyze.php:823
-#: panellib/analyze.php:853 panellib/analyze.php:882 panellib/analyze.php:910
-#: panellib/analyze.php:936 panellib/analyze.php:1382 panellib/analyze.php:1424
-#: panellib/analyze.php:1515 panellib/analyze.php:1555
-#: panellib/analyze.php:1608 panellib/analyze.php:1645
-#: panellib/analyze.php:1688 panellib/analyze.php:1744
-#: panellib/analyze.php:1777 panellib/analyze.php:1809
-#: panellib/analyze.php:1841 panellib/poller.php:112 panellib/poller.php:321
-#: panellib/system.php:350 panellib/system.php:385 panellib/system.php:766
+#: panellib/analyze.php:571 panellib/analyze.php:678 panellib/analyze.php:711 panellib/analyze.php:763 panellib/analyze.php:792 panellib/analyze.php:823 panellib/analyze.php:853 panellib/analyze.php:882 panellib/analyze.php:910 panellib/analyze.php:936
+#: panellib/analyze.php:1382 panellib/analyze.php:1424 panellib/analyze.php:1515 panellib/analyze.php:1555 panellib/analyze.php:1608 panellib/analyze.php:1645 panellib/analyze.php:1688 panellib/analyze.php:1744 panellib/analyze.php:1777 panellib/analyze.php:1809
+#: panellib/analyze.php:1841 panellib/poller.php:112 panellib/poller.php:321 panellib/system.php:350 panellib/system.php:385 panellib/system.php:766
 msgid "N/A"
 msgstr "N/A"
 
@@ -1142,8 +1106,7 @@ msgstr "RRD Cleaner senaste körning"
 msgid "%s: %s"
 msgstr "%s: %s"
 
-#: panellib/analyze.php:636 panellib/analyze.php:642 panellib/analyze.php:1474
-#: panellib/analyze.php:1480
+#: panellib/analyze.php:636 panellib/analyze.php:642 panellib/analyze.php:1474 panellib/analyze.php:1480
 msgid "It is recommended to run this tool at least occasionally"
 msgstr "Det rekommenderas att köra det här verktyget åtminstone ibland"
 
@@ -1195,7 +1158,7 @@ msgstr "Enheter med förvald offentlig/privat gemenskap: %s"
 #: panellib/analyze.php:947
 #, php-format
 msgid "Plugin Monitor - Unmonitored hosts: %s"
-msgstr "Plugin Monitor - Värdar som inte övervakas: %s"
+msgstr "Tilläggsövervakning - Värdar som inte övervakas: %s"
 
 #: panellib/analyze.php:955 panellib/analyze.php:1862
 #, php-format
@@ -1210,11 +1173,8 @@ msgstr "Allt OK"
 msgid "DS stats: "
 msgstr "DS-statistik: "
 
-#: panellib/analyze.php:1003 panellib/busiest.php:165 panellib/busiest.php:285
-#: panellib/busiest.php:396 panellib/busiest.php:616 panellib/busiest.php:751
-#: panellib/busiest.php:871 panellib/busiest.php:1001 panellib/busiest.php:1117
-#: panellib/busiest.php:1234 panellib/busiest.php:1448
-#: panellib/busiest.php:1590 panellib/busiest.php:1713
+#: panellib/analyze.php:1003 panellib/busiest.php:165 panellib/busiest.php:285 panellib/busiest.php:396 panellib/busiest.php:616 panellib/busiest.php:751 panellib/busiest.php:871 panellib/busiest.php:1001 panellib/busiest.php:1117 panellib/busiest.php:1234
+#: panellib/busiest.php:1448 panellib/busiest.php:1590 panellib/busiest.php:1713
 msgid "Panel needs DS stats enabled."
 msgstr "Panelen behöver DS-statistik aktiverad."
 
@@ -1254,8 +1214,7 @@ msgstr "Analysera inloggningsdetaljer"
 msgid "User"
 msgstr "Användare"
 
-#: panellib/analyze.php:1273 panellib/misc.php:409 panellib/misc.php:502
-#: panellib/misc.php:574
+#: panellib/analyze.php:1273 panellib/misc.php:409 panellib/misc.php:502 panellib/misc.php:574
 msgid "Result"
 msgstr "Resultat"
 
@@ -1332,7 +1291,7 @@ msgstr "Enheter med förvald offentlig/privat gemenskap - %s"
 #: panellib/analyze.php:1845
 #, php-format
 msgid "Plugin Monitor - Unmonitored hosts - %s"
-msgstr "Plugin Monitor - Oövervakade värdar - %s"
+msgstr "Tilläggsövervakning - Oövervakade värdar - %s"
 
 #: panellib/busiest.php:31
 msgid "The busiest"
@@ -1398,56 +1357,35 @@ msgstr "Den mest trafikerade gränssnittsanvändningen"
 msgid "Ports with the highest interface utilization"
 msgstr "Portar med högsta gränssnittsanvändning"
 
-#: panellib/busiest.php:168 panellib/busiest.php:288 panellib/busiest.php:399
-#: panellib/busiest.php:619 panellib/busiest.php:754 panellib/busiest.php:874
-#: panellib/busiest.php:1004 panellib/busiest.php:1120
-#: panellib/busiest.php:1237 panellib/busiest.php:1451
+#: panellib/busiest.php:168 panellib/busiest.php:288 panellib/busiest.php:399 panellib/busiest.php:619 panellib/busiest.php:754 panellib/busiest.php:874 panellib/busiest.php:1004 panellib/busiest.php:1120 panellib/busiest.php:1237 panellib/busiest.php:1451
 #: panellib/busiest.php:1593 panellib/busiest.php:1716
 msgid "Please enable and configure DS stats"
 msgstr "Aktivera och konfigurera DS-statistik"
 
-#: panellib/busiest.php:170 panellib/busiest.php:290 panellib/busiest.php:401
-#: panellib/busiest.php:621 panellib/busiest.php:756 panellib/busiest.php:876
-#: panellib/busiest.php:1006 panellib/busiest.php:1122
-#: panellib/busiest.php:1239 panellib/busiest.php:1453
+#: panellib/busiest.php:170 panellib/busiest.php:290 panellib/busiest.php:401 panellib/busiest.php:621 panellib/busiest.php:756 panellib/busiest.php:876 panellib/busiest.php:1006 panellib/busiest.php:1122 panellib/busiest.php:1239 panellib/busiest.php:1453
 #: panellib/busiest.php:1595 panellib/busiest.php:1718
 msgid "Ask admin to enable DS stats"
 msgstr "Be administratören att aktivera DS-statistik"
 
-#: panellib/busiest.php:218 panellib/busiest.php:338 panellib/busiest.php:473
-#: panellib/busiest.php:689 panellib/busiest.php:811 panellib/busiest.php:1053
-#: panellib/busiest.php:1169 panellib/busiest.php:1310
-#: panellib/busiest.php:1523 panellib/busiest.php:1649 panellib/top5.php:144
-#: panellib/top5.php:474
+#: panellib/busiest.php:218 panellib/busiest.php:338 panellib/busiest.php:473 panellib/busiest.php:689 panellib/busiest.php:811 panellib/busiest.php:1053 panellib/busiest.php:1169 panellib/busiest.php:1310 panellib/busiest.php:1523 panellib/busiest.php:1649
+#: panellib/top5.php:144 panellib/top5.php:474
 msgid "Average"
 msgstr "Medel"
 
-#: panellib/busiest.php:219 panellib/busiest.php:339 panellib/busiest.php:474
-#: panellib/busiest.php:690 panellib/busiest.php:812 panellib/busiest.php:1054
-#: panellib/busiest.php:1170 panellib/busiest.php:1311
-#: panellib/busiest.php:1524 panellib/busiest.php:1650
+#: panellib/busiest.php:219 panellib/busiest.php:339 panellib/busiest.php:474 panellib/busiest.php:690 panellib/busiest.php:812 panellib/busiest.php:1054 panellib/busiest.php:1170 panellib/busiest.php:1311 panellib/busiest.php:1524 panellib/busiest.php:1650
 msgid "Peak"
 msgstr "Topp"
 
-#: panellib/busiest.php:259 panellib/busiest.php:370 panellib/busiest.php:514
-#: panellib/busiest.php:725 panellib/busiest.php:843 panellib/busiest.php:1088
-#: panellib/busiest.php:1204 panellib/busiest.php:1345
-#: panellib/busiest.php:1562 panellib/busiest.php:1684
+#: panellib/busiest.php:259 panellib/busiest.php:370 panellib/busiest.php:514 panellib/busiest.php:725 panellib/busiest.php:843 panellib/busiest.php:1088 panellib/busiest.php:1204 panellib/busiest.php:1345 panellib/busiest.php:1562 panellib/busiest.php:1684
 msgid "Average of all allowed DS"
 msgstr "Medelvärde för alla tillåtna DS"
 
-#: panellib/busiest.php:263 panellib/busiest.php:374 panellib/busiest.php:518
-#: panellib/busiest.php:729 panellib/busiest.php:847 panellib/busiest.php:977
-#: panellib/busiest.php:1093 panellib/busiest.php:1209
-#: panellib/busiest.php:1350 panellib/busiest.php:1566
+#: panellib/busiest.php:263 panellib/busiest.php:374 panellib/busiest.php:518 panellib/busiest.php:729 panellib/busiest.php:847 panellib/busiest.php:977 panellib/busiest.php:1093 panellib/busiest.php:1209 panellib/busiest.php:1350 panellib/busiest.php:1566
 #: panellib/busiest.php:1688 panellib/busiest.php:1816
 msgid "Waiting for data or you don't have permission for any device with this template."
 msgstr "Väntar på data eller så har du inte behörighet för någon enhet med den här mallen."
 
-#: panellib/busiest.php:267 panellib/busiest.php:378 panellib/busiest.php:522
-#: panellib/busiest.php:733 panellib/busiest.php:851 panellib/busiest.php:981
-#: panellib/busiest.php:1097 panellib/busiest.php:1213
-#: panellib/busiest.php:1354 panellib/busiest.php:1570
+#: panellib/busiest.php:267 panellib/busiest.php:378 panellib/busiest.php:522 panellib/busiest.php:733 panellib/busiest.php:851 panellib/busiest.php:981 panellib/busiest.php:1097 panellib/busiest.php:1213 panellib/busiest.php:1354 panellib/busiest.php:1570
 #: panellib/busiest.php:1692 panellib/busiest.php:1820
 msgid "You don't have permissions to any hosts or there isn't any host with this template"
 msgstr "Du har inte behörighet till några värdar eller så finns det ingen värd med den här mallen"
@@ -1476,10 +1414,9 @@ msgstr "Tidsintervall senaste 5 minuter"
 msgid "Busiest 30 Host MIB CPU utilization (last hour)"
 msgstr "De 30 mest trafikerade MIB-processorerna för värden (senaste timmen)"
 
-#: panellib/busiest.php:1090 panellib/busiest.php:1206
-#: panellib/busiest.php:1347
+#: panellib/busiest.php:1090 panellib/busiest.php:1206 panellib/busiest.php:1347
 msgid "Install TopX plugin for more DS statistics"
-msgstr "Installera TopX-plugin för mer DS-statistik"
+msgstr "Installera TopX-tillägg för mer DS-statistik"
 
 #: panellib/busiest.php:1109
 msgid "Busiest 30 ucd/net Load (last hour)"
@@ -1503,7 +1440,7 @@ msgstr "Grafiska paneler"
 
 #: panellib/graphs.php:32
 msgid "Panels that provide information about Cacti and it's plugins in a Graphical way."
-msgstr "Paneler som ger information om Cacti och dess plugins på ett grafiskt sätt."
+msgstr "Paneler som ger information om Cacti och dess tillägg på ett grafiskt sätt."
 
 #: panellib/graphs.php:37 panellib/graphs.php:386 panellib/graphs.php:424
 msgid "Data Sources"
@@ -1545,8 +1482,7 @@ msgstr "Enheter: "
 msgid "Down"
 msgstr "Nere"
 
-#: panellib/graphs.php:328 panellib/graphs.php:527 panellib/poller.php:145
-#: panellib/poller.php:350
+#: panellib/graphs.php:328 panellib/graphs.php:527 panellib/poller.php:145 panellib/poller.php:350
 msgid "Recovering"
 msgstr "Påväg upp"
 
@@ -1554,8 +1490,7 @@ msgstr "Påväg upp"
 msgid "Data Type"
 msgstr "Datatyp"
 
-#: panellib/graphs.php:441 panellib/graphs.php:650 panellib/top5.php:388
-#: panellib/top5.php:720
+#: panellib/graphs.php:441 panellib/graphs.php:650 panellib/top5.php:388 panellib/top5.php:720
 msgid "Total"
 msgstr "Totalt"
 
@@ -1597,27 +1532,27 @@ msgstr "MacTrack-paneler"
 
 #: panellib/mactrack.php:32
 msgid "Panels that provide information about Cacti's MacTrack plugins."
-msgstr "Paneler som ger information om Cactis MacTrack-plugins."
+msgstr "Paneler som ger information om Cactis MacTrack-tillägg."
 
 #: panellib/mactrack.php:37
 msgid "MacTrack Plugin"
-msgstr "MacTrack Plugin"
+msgstr "MacTrack-tillägg"
 
 #: panellib/mactrack.php:38
 msgid "Various MacTrack collection and site statistics."
-msgstr "Olika MacTrack-samlingar och webbplatsstatistik."
+msgstr "Olika MacTrack-samlingar och platsstatistik."
 
 #: panellib/mactrack.php:53 panellib/mactrack.php:184
 msgid "MacTrack Sites"
-msgstr "MacTrack-webbplatser"
+msgstr "MacTrack-platser"
 
 #: panellib/mactrack.php:54
 msgid "Various MacTrack Site statistics."
-msgstr "Diverse statistik från MacTracks webbplats."
+msgstr "Diverse statistik från MacTracks-plats."
 
 #: panellib/mactrack.php:81 panellib/mactrack.php:134
 msgid "MacTrack Plugin not Installed/Running"
-msgstr "MacTrack Plugin är inte installerat eller körs"
+msgstr "MacTrack-tillägget är inte installerat eller körs"
 
 #: panellib/mactrack.php:97
 #, php-format
@@ -1663,11 +1598,11 @@ msgstr "Okänd"
 
 #: panellib/mactrack.php:118 panellib/mactrack.php:173 panellib/thold.php:312
 msgid "You don't have plugin permission"
-msgstr "Du har inte behörighet till plugin"
+msgstr "Du har inte behörighet till tillägget"
 
 #: panellib/mactrack.php:138 panellib/mactrack.php:191
 msgid "Site"
-msgstr "Webbplats"
+msgstr "Plats"
 
 #: panellib/mactrack.php:140 panellib/mactrack.php:193
 msgid "IPs"
@@ -1691,7 +1626,7 @@ msgstr "Fel på enheten"
 
 #: panellib/mactrack.php:170 panellib/mactrack.php:225
 msgid "No mactrack sites found"
-msgstr "Inga mactrack-webbplatser hittades"
+msgstr "Inga mactrack-platser hittades"
 
 #: panellib/misc.php:31
 msgid "Miscellaneous Panels"
@@ -1711,11 +1646,11 @@ msgstr "Kontroll av Cacti-systemklockan för drift från en känd baslinje och k
 
 #: panellib/misc.php:53
 msgid "Maint Plugin Details"
-msgstr "Detaljer om underhållsplugin"
+msgstr "Detaljer om underhållstillägg"
 
 #: panellib/misc.php:54
 msgid "Maint Plugin details on upcoming schedules"
-msgstr "Maint Plugin detaljer om kommande scheman"
+msgstr "Maint-tilläggsdetaljer om kommande scheman"
 
 #: panellib/misc.php:69
 msgid "Webseer Details"
@@ -1723,15 +1658,15 @@ msgstr "Webseer Detaljer"
 
 #: panellib/misc.php:70
 msgid "Plugin webseer URL Service Check Details"
-msgstr "Plugin webseer URL Service Kontrollera detaljer"
+msgstr "Tillägget webseer URL-tjänstkontroll"
 
 #: panellib/misc.php:85
 msgid "Servcheck plugin Details"
-msgstr "Servcheck plugin Detaljer"
+msgstr "Detaljer för Servcheck-tillägget"
 
 #: panellib/misc.php:86
 msgid "Plugin ServCheck Details"
-msgstr "Plugin ServCheck Detaljer"
+msgstr "Detaljer om ServCheck-tillägget"
 
 #: panellib/misc.php:117
 msgid "No NTP server configured"
@@ -1794,15 +1729,15 @@ msgstr "Det gick inte att matcha DNS-värdnamn (%s)."
 
 #: panellib/misc.php:287
 msgid "Maint plugin is not installed/enabled"
-msgstr "Maint plugin är inte installerat/aktiverat"
+msgstr "Maint-tillägget är inte installerat/aktiverat"
 
 #: panellib/misc.php:307
 msgid "Plugin Webseer isn't installed or started"
-msgstr "Plugin Webseer är inte installerat eller startat"
+msgstr "Tillägget Webseer är inte installerat eller startat"
 
 #: panellib/misc.php:319
 msgid "Webseer plugin no longer supported, use plugin servcheck instead"
-msgstr "Webseer-plugin stöds inte längre, använd plugin-servcheck istället"
+msgstr "Webseer-tillägget stöds inte längre, använd tillägget servcheck istället"
 
 #: panellib/misc.php:320 panellib/misc.php:486
 msgid "Number of checks (all/disabled): "
@@ -1824,18 +1759,17 @@ msgstr "URL"
 msgid "HTTP code"
 msgstr "HTTP-kod"
 
-#: panellib/misc.php:348 panellib/misc.php:425 panellib/misc.php:512
-#: panellib/misc.php:591
+#: panellib/misc.php:348 panellib/misc.php:425 panellib/misc.php:512 panellib/misc.php:591
 msgid "OK"
 msgstr "OK"
 
 #: panellib/misc.php:390
 msgid "Webseer Plugin - Details"
-msgstr "Webseer Plugin - Detaljer"
+msgstr "Webseer-tillägget - Detaljer"
 
 #: panellib/misc.php:461
 msgid "Plugin Servcheck isn't installed or started"
-msgstr "Plugin Servcheck är inte installerat eller startat"
+msgstr "Tillägget Servcheck är inte installerat eller startat"
 
 #: panellib/misc.php:487
 msgid "Status (ok/error): "
@@ -1855,7 +1789,7 @@ msgstr "Typ"
 
 #: panellib/misc.php:555
 msgid "Servcheck Plugin - Details"
-msgstr "Servcheck Plugin - Detaljer"
+msgstr "Servcheck-tillägget - Detaljer"
 
 #: panellib/poller.php:31
 msgid "Poller Panels"
@@ -1867,7 +1801,7 @@ msgstr "Paneler som ger information om Cactis röstningsprocess."
 
 #: panellib/poller.php:37
 msgid "Poller Information"
-msgstr "Poller Information"
+msgstr "Poller-information"
 
 #: panellib/poller.php:38
 msgid "Various information about your Cacti poller."
@@ -1916,7 +1850,7 @@ msgstr "Okänd/ned"
 #: panellib/poller.php:164 panellib/top5.php:329 panellib/top5.php:660
 #, php-format
 msgid "%s Secs"
-msgstr "%s Sekunder"
+msgstr "%s sekunder"
 
 #: panellib/poller.php:171 panellib/poller.php:367
 msgid "(ok)"
@@ -1952,7 +1886,7 @@ msgstr "Poller-utdataposter "
 
 #: panellib/poller.php:447
 msgid "Items"
-msgstr "Artiklar"
+msgstr "Poster"
 
 #: panellib/syslog.php:31
 msgid "Syslog Panels"
@@ -1968,7 +1902,7 @@ msgstr "Syslog Detaljer"
 
 #: panellib/syslog.php:38
 msgid "Various Syslog Plugin statistics."
-msgstr "Diverse statistik för Syslog Plugin."
+msgstr "Diverse statistik för syslog-tillägg."
 
 #: panellib/syslog.php:171
 msgid "Incoming"
@@ -1984,7 +1918,7 @@ msgstr "Meddelanden"
 
 #: panellib/syslog.php:197
 msgid "Syslog plugin not installed/running"
-msgstr "Syslog-plugin är inte installerat eller körs"
+msgstr "Syslog-tillägget är inte installerat eller körs"
 
 #: panellib/system.php:31
 msgid "System Panels"
@@ -2180,7 +2114,7 @@ msgstr "Paneler för trösklar"
 
 #: panellib/thold.php:32
 msgid "Panels that provide information about Cacti Thresholding Plugin."
-msgstr "Paneler som ger information om Cacti Thresholding Plugin."
+msgstr "Paneler som ger information om Cacti-tröskelvärdestillägg."
 
 #: panellib/thold.php:37 panellib/thold.php:434
 msgid "Last Threshold Events"
@@ -2188,7 +2122,7 @@ msgstr "Händelser vid senaste tröskelvärdet"
 
 #: panellib/thold.php:38
 msgid "Threshold Plugin Latest Events"
-msgstr "Threshold Plugin Senaste händelser"
+msgstr "Tröskelvärdestillägget - Senaste händelser"
 
 #: panellib/thold.php:53
 msgid "Threshold"
@@ -2196,11 +2130,11 @@ msgstr "Tröskel"
 
 #: panellib/thold.php:54
 msgid "Threshold Plugin Graph (all, trigerred, ...)"
-msgstr "Tröskelvärde Plugin Graph (alla, trigerred, ...)"
+msgstr "Graf för tröskelvärdestillägget (alla, utlösta, ...)"
 
 #: panellib/thold.php:87 panellib/thold.php:441
 msgid "Plugin Thold isn't installed or started"
-msgstr "Plugin Thold är inte installerat eller startat"
+msgstr "Tillägget Thold är inte installerat eller startat"
 
 #: panellib/thold.php:179 panellib/thold.php:506
 msgid "Without events yet"
@@ -2212,11 +2146,11 @@ msgstr "Tröskelvärden: "
 
 #: panellib/thold.php:208 panellib/thold.php:332
 msgid "Thold plugin not installed/running"
-msgstr "Thold plugin är inte installerat och körs inte"
+msgstr "Thold-tillägget är inte installerat och körs inte"
 
 #: panellib/thold.php:238
 msgid "Trigerred"
-msgstr "Trigerred"
+msgstr "Utlöst"
 
 #: panellib/thold.php:266 panellib/thold.php:369 panellib/thold.php:385
 msgid "Breached"
@@ -2328,7 +2262,7 @@ msgstr "Topp 20 värdar med sämst opinionssiffror"
 
 #: setup.php:61
 msgid "Intropage Viewer"
-msgstr "Intropage Viewer"
+msgstr "Intropage-visare"
 
 #: setup.php:62
 msgid "Intropage Administration"
@@ -2354,7 +2288,7 @@ msgstr "Tidsspann Senaste 1 dagen"
 #: setup.php:95 setup.php:96 setup.php:97 setup.php:98
 #, php-format
 msgid "%d Seconds"
-msgstr "%d Sekunder"
+msgstr "%d sekunder"
 
 #: setup.php:109 setup.php:110 setup.php:111 setup.php:112
 #, php-format
@@ -2364,7 +2298,7 @@ msgstr "%d timmar"
 #: setup.php:113
 #, php-format
 msgid "%d Day"
-msgstr "%d Dag"
+msgstr "%d dygn"
 
 #, fuzzy
 #~ msgid "Sort by - red-yellow-green-grey"
