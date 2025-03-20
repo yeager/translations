@@ -122,7 +122,7 @@ För allt du behöver veta om hur du använder ScummVM, se vår [användardokume
 
 
 
-### Changelog
+### Ändringslogg
 
 
 
