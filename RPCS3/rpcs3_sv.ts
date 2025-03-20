@@ -367,46 +367,56 @@ Aktuell plats:
 LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Dessa bibliotek är LLE som standard (nedre listan), om du väljer dem växlar du till HLE.
+LLE - ”Low Level Emulated”, funktionskoden i den valda SPRX-filen kommer att användas för exporterade firmware-funktioner.
+HLE - ”High Level Emulated”, alternativ emulatorkod kommer att användas istället för exporterade firmwarefunktioner.
+Om fel val görs kommer spelen inte att fungera! Om du är osäker, lämna båda listorna tomma. HLEing alla SPRX gör det möjligt att starta utan firmware installerad. (experimentell)</translation>
     </message>
     <message>
         <source>These libraries are HLE&apos;d by default (upper list), selection will switch to LLE.
 LLE - &quot;Low Level Emulated&quot;, function code inside the selected SPRX file will be used for exported firmware functions.
 HLE - &quot;High Level Emulated&quot;, alternative emulator code will be used instead for exported firmware functions.
 If chosen wrongly, games will not work! If unsure, leave both lists empty. HLEing all SPRX allows to boot without firmware installed. (experimental)</source>
-        <translation type="unfinished"></translation>
+        <translation>Dessa bibliotek är HLE som standard (övre listan), om du väljer dem växlar du till LLE.
+LLE - ”Low Level Emulated”, funktionskoden i den valda SPRX-filen kommer att användas för exporterade firmware-funktioner.
+HLE - ”High Level Emulated”, alternativ emulatorkod kommer att användas istället för exporterade firmwarefunktioner.
+Om fel val görs kommer spelen inte att fungera! Om du är osäker, lämna båda listorna tomma. HLEing alla SPRX gör det möjligt att starta utan firmware installerad. (experimentell)</translation>
     </message>
     <message>
         <source>Select to LLE. (HLE by default)</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj till LLE. (HLE som standard)</translation>
     </message>
     <message>
         <source>Select to HLE. (LLE by default)</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj till HLE. (LLE som standard)</translation>
     </message>
     <message>
         <source>Increases the amount of usable system memory to match a DECR console and more.
 Causes some software to behave differently than on retail hardware.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ökar mängden användbart systemminne för att matcha en DECR-konsol och mer.
+Viss programvara beter sig annorlunda än på den vanliga hårdvaran.</translation>
     </message>
     <message>
         <source>Forces RSX pauses on SPU MFC_GETLLAR and SPU MFC_PUTLLUC operations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Framtvingar RSX-pauser på SPU MFC_GETLLAR- och SPU MFC_PUTLLUC-operationer.</translation>
     </message>
     <message>
         <source>Accurately processes SPU DMA operations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Behandlar SPU DMA-operationer på ett korrekt sätt.</translation>
     </message>
     <message>
         <source>Legacy option. Fixup result vector values in Non-Java Mode in PPU LLVM.
 If unsure, do not modify this setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gammalt alternativ. Fixa resultatvektorvärden i icke-Java-läge i PPU LLVM.
+Om du är osäker, ändra inte denna inställning.</translation>
     </message>
     <message>
         <source>Use accurate double-precision FMA instructions in PPU and SPU backends.
 While disabling it might give a decent performance boost if your CPU doesn&apos;t support FMA, it may also introduce subtle bugs that otherwise do not occur.
 You shouldn&apos;t disable it if your CPU supports FMA.</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd korrekta FMA-instruktioner med dubbel precision i PPU- och SPU-backends.
+Att inaktivera det kan ge en hyfsad prestandaökning om din CPU inte stöder FMA, men det kan också introducera subtila buggar som annars inte skulle uppstå.
+Du bör inte inaktivera det om din CPU stöder FMA.</translation>
     </message>
     <message>
         <source>Fixup NaN results in vector instructions in PPU backends.
@@ -415,15 +425,15 @@ If unsure, do not modify this setting.</source>
     </message>
     <message>
         <source>Stop writing any logs after game startup. Don&apos;t use unless you believe it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sluta skriva några loggar efter spelstart. Använd inte om du inte tror att det är nödvändigt.</translation>
     </message>
     <message>
         <source>Initializes render target memory using vm memory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Initialiserar målminnet för rendering med hjälp av vm-minne.</translation>
     </message>
     <message>
         <source>Writes depth buffer values to vm memory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriver djupbuffertvärden till vm-minnet.</translation>
     </message>
     <message>
         <source>Obey RSX memory tiling configuration when writing GPU data to vm memory.
@@ -453,14 +463,19 @@ May degrade performance.</source>
         <source>Force host memory management calls to be inlined instead of handled asynchronously.
 This can cause severe performance degradation and stuttering in some games.
 This option is only needed by developers to debug problems with texture cache memory protection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tvinga anrop till värdminneshantering att inlines istället för att hanteras asynkront.
+Detta kan orsaka allvarlig prestandaförsämring och hackande i vissa spel.
+Det här alternativet behövs endast av utvecklare för att felsöka problem med texturcacheminnesskydd.</translation>
     </message>
     <message>
         <source>Changes ZCULL report synchronization behaviour. Experiment to find the best option for your game. Approximate mode is recommended for most games.
 · Precise is the most accurate to PS3 behaviour. Required for accurate visuals in some titles such as Demon&apos;s Souls and The Darkness.
 · Approximate is a much faster way to generate occlusion data which may not always match what the PS3 would generate. Works well with most PS3 games.
 · Relaxed changes the synchronization method completely and can greatly improve performance in some games or completely break others.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrar ZCULL-rapportens synkroniseringsbeteende. Experimentera för att hitta det bästa alternativet för ditt spel. Ungefärligt läge rekommenderas för de flesta spel.
+- Exakt är det mest exakta PS3-beteendet. Krävs för korrekta bilder i vissa titlar som Demon&apos;s Souls och The Darkness.
+- Ungefärlig är ett mycket snabbare sätt att generera ocklusionsdata som kanske inte alltid matchar vad PS3 skulle generera. Fungerar bra med de flesta PS3-spel.
+- Avslappnat ändrar synkroniseringsmetoden helt och hållet och kan avsevärt förbättra prestandan i vissa spel eller helt förstöra andra.</translation>
     </message>
     <message>
         <source>Limits the maximum number of SPURS threads in each thread group.
@@ -552,7 +567,8 @@ If it&apos;s not available, FAudio could be used instead.</source>
     <message>
         <source>Controls which PS3 audio API is used.
 Games use CellAudio, while VSH requires RSXAudio.</source>
-        <translation type="unfinished"></translation>
+        <translation>Styr vilket API för PS3-ljud som används.
+Spel använder CellAudio, medan VSH kräver RSXAudio.</translation>
     </message>
     <message>
         <source>Controls which avport is used to sample audio data from.</source>
@@ -560,11 +576,11 @@ Games use CellAudio, while VSH requires RSXAudio.</source>
     </message>
     <message>
         <source>Controls which device is used by audio backend.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollerar vilken enhet som används av ljudbakänden.</translation>
     </message>
     <message>
         <source>Saves all audio as a raw wave file. If unsure, leave this unchecked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparar allt ljud som en rå wave-fil. Om du är osäker, lämna detta omarkerat.</translation>
     </message>
     <message>
         <source>Uses 16-bit audio samples instead of default 32-bit floating point.
@@ -626,7 +642,10 @@ Rocksmith should be used with a Rocksmith dongle.</source>
 This is by far the fastest option and should always be used.
 Should you face compatibility issues, fall back to one of the Interpreters and retry.
 If unsure, use this option.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompilerar om och cachar spelets PPU-kod med hjälp av LLVM Recompiler en gång innan det körs för första gången.
+Detta är det överlägset snabbaste alternativet och bör alltid användas.
+Om du stöter på kompatibilitetsproblem kan du gå tillbaka till en av tolkarna och försöka igen.
+Om du är osäker, använd det här alternativet.</translation>
     </message>
     <message>
         <source>Searches the game&apos;s directory and precompiles extra PPU and SPU modules during boot.
@@ -636,7 +655,7 @@ Only disable this if you want to get ingame more quickly.</source>
     </message>
     <message>
         <source>Interpreter (slow). Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tolkprogram (långsamt). Prova detta om SPU Recompiler (LLVM) inte fungerar.</translation>
     </message>
     <message>
         <source>Alternative interpreter (slow). May be faster than static interpreter. Try this if SPU Recompiler (LLVM) doesn&apos;t work.</source>
@@ -2120,7 +2139,8 @@ Några inställningar verkar skilja sig från standardkonfigurationen:</translat
     <message>
         <source>When set: a breakpoint hit will pause the emulation instead of the current thread.
 Applies on all breakpoints in all threads regardless if set before or after changing this setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>När den är inställd: en träff på en brytpunkt pausar emuleringen istället för den aktuella tråden.
+Gäller för alla brytpunkter i alla trådar oavsett om de ställts in före eller efter ändring av denna inställning.</translation>
     </message>
     <message>
         <source>OK</source>
@@ -2155,7 +2175,30 @@ Key Down: Scroll one instruction downwards. (address is incremented)
 Key Page-Up: Scroll upwards with steps count equal to the viewed instruction count.
 Key Page-Down: Scroll downwards with steps count equal to the viewed instruction count.
 Double-click: Set breakpoints.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangenterna Ctrl+G: Gå till den inskrivna adressen.
+Tangenter Ctrl+B: Öppna inställningar för brytpunkter.
+Tangenter Ctrl+C: Kopiera instruktionsinnehåll.
+Tangenter Ctrl+F: Hitta tråd.
+Tangenter Alt+S: Fånga SPU-bilder av vald SPU eller generaliserad form när den används från PPU.
+Tangenter Alt+S: Startar en minnesvisare som pekar på den aktuella RSX-semaforplatsen när den används från RSX.
+Tangenterna Alt+R: Läs in den senast sparade SPU-lägesbilden.
+Tangenter Alt+F5: Visa dialogrutan SPU disassmebler.
+Tangent D: Loggar SPU MFC-kommandon, MFC-felsökningsinställningen måste vara aktiverad.
+Tangent D: Även PPU anropshistorik logger, tolk och icke-noll anropshistorikstorlek måste användas.
+Tangent E: Instruktionsredigerare: klicka på den instruktion du vill ändra och tryck sedan på E.
+Tangent F: Dedikerad omkopplare för flyttalsläge för SPU-trådar.
+Tangent R: Registerredigerare för vald tråd.
+Tangent N: Visar nästa instruktion som tråden kommer att utföra efter den markerade instruktionen, gör ingenting om målet inte är förutsägbart.
+Tangent M: Visar minnesvyn med initialadressen som pekar på den markerade instruktionen.
+Tangent I: Visa detaljer om RSX-metoden.
+Tangent F10: Utför step-over på instruktioner. (hoppa över funktionsanrop)
+Tangent F11: Utför single-stepping på instruktioner.
+Tangent F1: Visa denna hjälpdialog.
+Tangent Up: Bläddra en instruktion uppåt. (adressen dementeras)
+Tangent ned: Bläddra en instruktion nedåt. (adressen inkrementeras)
+Tangent Page-Up: Bläddra uppåt med ett stegantal som är lika med det visade instruktionsantalet.
+Tangent Page-Down: Bläddra nedåt med ett stegantal som är lika med det visade instruktionsantalet.
+Dubbelklicka: Ställ in brytpunkter.</translation>
     </message>
     <message>
         <source>Max MFC cmds logged</source>
@@ -7541,7 +7584,7 @@ Subject:</source>
     </message>
     <message>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Övrigt</translation>
     </message>
     <message>
         <source>Show Hidden Entries</source>
@@ -7569,7 +7612,7 @@ Subject:</source>
     </message>
     <message>
         <source>Remove Custom Pad Configurations</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort anpassade kontrollerkonfigurationer</translation>
     </message>
     <message>
         <source>Remove Shader Caches</source>
@@ -7609,7 +7652,7 @@ Subject:</source>
     </message>
     <message>
         <source>Dimensions Toypad</source>
-        <translation type="unfinished"></translation>
+        <translation>Dimensions Toypad</translation>
     </message>
     <message>
         <source>Cheats</source>
@@ -7673,7 +7716,7 @@ Subject:</source>
     </message>
     <message>
         <source>Play Hover Gifs</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela upp hovrande GIFs</translation>
     </message>
     <message>
         <source>Boot VSH/XMB</source>
@@ -7835,11 +7878,11 @@ Subject:</source>
     </message>
     <message>
         <source>Savestate data is corrupted or it&apos;s not an RPCS3 savestate.</source>
-        <translation type="unfinished"></translation>
+        <translation>Data för sparat tillstånd är skadat eller är inte ett RPCS3-sparat tillstånd.</translation>
     </message>
     <message>
         <source>Savestate versioning data differs from your RPCS3 build.</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionsdata för sparat tillstånd skiljer sig från din RPCS3-version.</translation>
     </message>
     <message>
         <source>A game or PS3 application is still running or has yet to be fully stopped.</source>
@@ -8057,7 +8100,10 @@ Försökt att installera: %2</translation>
 %1!
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
-        <translation type="unfinished"></translation>
+        <translation>Programvaran kunde inte installeras från paketet:
+%1!
+Detta orsakas troligen av en extern störning från ett felaktigt antivirusprogram.
+Lägg till RPCS3 på vitlistan för ditt antivirusprogram eller använd ett bättre antivirusprogram.</translation>
     </message>
     <message>
         <source>Select MSELF To extract</source>
@@ -8212,7 +8258,8 @@ Lägg till RPCS3 på vitlistan för ditt antivirusprogram eller använd ett bät
     <message>
         <source>Hint: KLIC (KLicense key) is a 16-byte long string. (32 hexadecimal characters, can be prefixed with &quot;KLIC=0x&quot; from the log message)
 And is logged with some sceNpDrm* functions when the game/application which owns &quot;%0&quot; is running.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tips: KLIC (KLicense key) är en 16 byte lång sträng. (32 hexadecimala tecken, kan prefixas med ”KLIC=0x” från loggmeddelandet)
+Och loggas med vissa sceNpDrm*-funktioner när spelet/applikationen som äger ”%0” körs.</translation>
     </message>
     <message>
         <source>Enter KLIC of %0</source>
@@ -8301,11 +8348,12 @@ Vill du installera genvägar till den installerade programvaran och förkompiler
     <message>
         <source>Failed to locate log files.
 Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created without permission issues.</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckades med att hitta loggfiler.
+Kontrollera att RPCS3.log och RPCS3.log.gz är skrivbara och kan skapas utan behörighetsproblem.</translation>
     </message>
     <message>
         <source>Select RPCS3&apos;s log saving location (saving %0)</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj var RPCS3:s logg ska sparas (spara %0)</translation>
     </message>
     <message>
         <source>Select Disc Game Folder</source>
@@ -8317,7 +8365,7 @@ Make sure that RPCS3.log and RPCS3.log.gz are writable and can be created withou
     </message>
     <message>
         <source>Make sure that the emulation is running and that the selected path belongs to a valid disc game.</source>
-        <translation type="unfinished"></translation>
+        <translation>Försäkra dig om att emuleringen är igång och att den valda sökvägen tillhör till ett giltigt skivspel.</translation>
     </message>
     <message>
         <source>Select rpcs3.log or config.yml</source>
@@ -8414,7 +8462,8 @@ Kontrollera ändå?</translation>
     <message>
         <source>Remove invalid game paths from game list?
 Undetectable games (zombies) as well as corrupted games will be removed from the game list file (games.yml)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort ogiltiga spelsökvägar från spellistan?
+Oidentifierade spel (zombies) samt korrupta spel kommer att tas bort från spellistfilen (games.yml)</translation>
     </message>
     <message>
         <source>Summary</source>
@@ -8442,7 +8491,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>PARAM.SFO Information</source>
-        <translation type="unfinished"></translation>
+        <translation>PARAM.SFO-information</translation>
     </message>
     <message>
         <source>Boot Recent Savestate</source>
@@ -11955,19 +12004,19 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Pause emulation on RPCS3 focus loss</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausa emulering vid fokusförlust på RPCS3</translation>
     </message>
     <message>
         <source>Pause emulation after loading savestates</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausa emulering efter inläsning av sparade tillstånd</translation>
     </message>
     <message>
         <source>Pause emulation during home menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausa emuleringen under hemmenyn</translation>
     </message>
     <message>
         <source>Prevent display sleep while running games</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhindra att skärmen sover när du kör spel</translation>
     </message>
     <message>
         <source>Show trophy popups</source>
@@ -12011,7 +12060,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Max LLVM Compile Threads</source>
-        <translation type="unfinished"></translation>
+        <translation>Max LLVM-kompileringstrådar</translation>
     </message>
     <message>
         <source>Viewport</source>
@@ -12023,7 +12072,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Ignore keyboard hotkeys</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorera snabbtangenter</translation>
     </message>
     <message>
         <source>Show mouse cursor in Fullscreen</source>
@@ -12191,7 +12240,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Pad Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollerinmatning</translation>
     </message>
     <message>
         <source>Enable Pad Navigation</source>
@@ -12401,7 +12450,10 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
 
 Control how RPCS3 utilizes the threads of your system.
 Each option heavily depends on the game and on your CPU, it&apos;s recommended to try each option to find out which performs the best.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändring av trådschemaläggaren stöds inte på processorer med mindre än %0 trådar.
+
+Kontrollera hur RPCS3 använder trådarna i ditt system.
+Varje alternativ beror i hög grad på spelet och på din CPU, det rekommenderas att du provar varje alternativ för att ta reda på vilket som fungerar bäst.</translation>
     </message>
     <message>
         <source>Auto</source>
@@ -12410,7 +12462,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     </message>
     <message>
         <source>Haswell/Broadwell TSX Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>TSX-varning för Haswell/Broadwell</translation>
     </message>
     <message>
         <source>TSX-FA Warning</source>
@@ -12448,15 +12500,15 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     </message>
     <message>
         <source>Precise (Slowest)</source>
-        <translation type="unfinished"></translation>
+        <translation>Exakt (långsammast)</translation>
     </message>
     <message>
         <source>Approximate (Fast)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ungefärlig (snabb)</translation>
     </message>
     <message>
         <source>Relaxed (Fastest)</source>
-        <translation type="unfinished"></translation>
+        <translation>Avslappnad (snabbast)</translation>
     </message>
     <message>
         <source>100% (1280x720) (Default)</source>
@@ -12759,7 +12811,12 @@ That means using TSX may break games or even &lt;font color=&quot;red&quot;&gt;&
 We recommend to disable this feature and update your computer BIOS.
 
 Do you wish to use TSX anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3 har upptäckt att du använder TSX-funktioner på en Haswell- eller Broadwell-processor.
+Intel har inaktiverat dessa funktioner i nyare Microcode-revisioner eftersom de kan leda till oförutsedda beteenden.
+Det innebär att användning av TSX kan förstöra spel eller till och med &lt;font color=”red”&gt;&lt;b&gt;skada&lt;/b&gt;&lt;/font&gt; dina data.
+Vi rekommenderar att du inaktiverar den här funktionen och uppdaterar datorns BIOS.
+
+Vill du använda TSX ändå?</translation>
     </message>
     <message>
         <source>RPCS3 has detected your CPU only supports TSX-FA.
@@ -12767,7 +12824,11 @@ That means using TSX may break games or even &lt;font color=&quot;red&quot;&gt;&
 We recommend to disable this feature.
 
 Do you wish to use TSX anyway?</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3 har upptäckt att din CPU endast har stöd för TSX-FA.
+Det innebär att användning av TSX kan förstöra spel eller till och med &lt;font color=”red”&gt;&lt;b&gt;skada&lt;/b&gt;&lt;/font&gt; dina data.
+Vi rekommenderar att du inaktiverar den här funktionen.
+
+Vill du använda TSX ändå?</translation>
     </message>
     <message>
         <source>All (%1)</source>
