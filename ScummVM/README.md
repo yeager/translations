@@ -56,7 +56,7 @@ För de otåliga bland er, här är hur man får igång ScummVM i fem enkla steg
 
 >
 
-> Om du vill lägga till flera spel på en gång håller du ned shift-tangenten och klickar sedan på ”Lägg till spel” - etiketten ändras till ”Masstillägg” och om du trycker på den ombeds du igen att välja en katalog, men den här gången söker ScummVM igenom alla underkataloger efter spel som stöds.
+> Om du vill lägga till flera spel på en gång håller du ned shift-tangenten och klickar sedan på ”Lägg till spel” - etiketten ändras till ”Lägg till flera” och om du trycker på den ombeds du igen att välja en katalog, men den här gången söker ScummVM igenom alla underkataloger rekursivt efter spel som stöds.
 
 
 
