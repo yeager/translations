@@ -18,9 +18,7 @@ ScummVM var ursprungligen utformat för att köra LucasArts SCUMM-spel, men med 
 
 
 
-För mer information, kompatibilitetslistor, detaljer om donationer, den
-
-senaste versionen, lägesrapporter och mycket mer, besök ScummVM:s [webbsida](https://www.scummvm.org/).
+För mer information, kompatibilitetslistor, detaljer om donationer, senaste versionen, lägesrapporter och mycket mer, besök ScummVM:s [webbsida](https://www.scummvm.org/).
 
 
 
