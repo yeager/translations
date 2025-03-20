@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
 <TS version="2.1" language="sv_SE" sourcelanguage="en_US">
+    <extra-po-header-language>sv_SE</extra-po-header-language>
+    <extra-po-header-language_team></extra-po-header-language_team>
+    <extra-po-header-last_translator>Daniel Nylander &lt;github@danielnylander.se&gt;</extra-po-header-last_translator>
+    <extra-po-header-po_revision_date></extra-po-header-po_revision_date>
+    <extra-po-header-pot_creation_date></extra-po-header-pot_creation_date>
+    <extra-po-header-project_id_version></extra-po-header-project_id_version>
+    <extra-po-header-x_generator>Poedit 3.5</extra-po-header-x_generator>
+    <extra-po-headers>Project-Id-Version,POT-Creation-Date,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,Plural-Forms,X-Language,X-Source-Language,X-Qt-Contexts,X-Generator</extra-po-headers>
 <context>
     <name>AutoPauseConfigDialog</name>
     <message>
@@ -346,7 +354,10 @@ Avslutar...</translation>
 Please move RPCS3 to a location not synced by OneDrive.
 Current location:
 %0</source>
-        <translation type="unfinished"></translation>
+        <translation>RPCS3 ska aldrig köras från en OneDrive-sökväg!
+Flytta RPCS3 till en plats som inte synkroniseras av OneDrive.
+Aktuell plats:
+%0</translation>
     </message>
 </context>
 <context>
@@ -1537,6 +1548,12 @@ Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</sou
         <source>Left-click: remap this button.&lt;br&gt;Shift + Left-click: add an additional button mapping.&lt;br&gt;Alt + Left-click: differentiate between trigger press and release (only XInput for now).&lt;br&gt;Right-click: clear this button mapping.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Disable SPU GETLLAR spin optimization.
+This can cause severe performance degradation and stuttering in many games.
+This option is only needed for a select number of games.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>about_dialog</name>
@@ -1549,12 +1566,66 @@ Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</sou
         <translation>RPCS3 PlayStation 3-emulator</translation>
     </message>
     <message>
+        <source>GitHub</source>
+        <translation>GitHub</translation>
+    </message>
+    <message>
+        <source>Website</source>
+        <translation>Webbsida</translation>
+    </message>
+    <message>
+        <source>Forum</source>
+        <translation>Forum</translation>
+    </message>
+    <message>
+        <source>Discord</source>
+        <translation>Discord</translation>
+    </message>
+    <message>
+        <source>Wiki</source>
+        <translation>Wiki</translation>
+    </message>
+    <message>
+        <source>Patreon</source>
+        <translation>Patreon</translation>
+    </message>
+    <message>
+        <source>Close</source>
+        <translation>Stäng</translation>
+    </message>
+    <message>
+        <source>RPCS3 Version: %1</source>
+        <translation>RPCS3 Version: %1</translation>
+    </message>
+    <message>
+        <source>Developers:</source>
+        <translation>Utvecklare:</translation>
+    </message>
+    <message>
+        <source>Contributors:</source>
+        <translation>Bidragsgivare:</translation>
+    </message>
+    <message>
+        <source>Supporters:</source>
+        <translation>Supportrar:</translation>
+    </message>
+    <message>
+        <source>RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.
+It is written in C++ for Windows, Linux, FreeBSD and MacOS, funded with %0.
+Our developers and contributors are always working hard to ensure this project is the best that it can be.
+There are still plenty of implementations to make and optimizations to do.</source>
+        <translation>RPCS3 är en Sony PlayStation 3-emulator och felsökare med öppen källkod.
+Den är skriven i C++ för Windows, Linux, FreeBSD och MacOS, finansierad via %0.
+Våra utvecklare och bidragsgivare arbetar alltid hårt för att säkerställa att detta projekt är det bästa det kan vara.
+Det finns fortfarande många implementeringar att göra och optimeringar att göra.</translation>
+    </message>
+    <message>
         <source>&lt;p&gt;&lt;b&gt;Developers:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;¬cornytrace&lt;br&gt;¬ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Utvecklare:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;¬cornytrace&lt;br&gt;¬ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;b&gt;Utvecklare:&lt;/b&gt;&lt;br&gt;&lt;br&gt;¬DH&lt;br&gt;¬AlexAltea&lt;br&gt;¬Hykem&lt;br&gt;¬Oil&lt;br&gt;Nekotekina&lt;br&gt;¬Bigpet&lt;br&gt;¬gopalsr83&lt;br&gt;¬tambry&lt;br&gt;¬vlj&lt;br&gt;kd-11&lt;br&gt;¬jarveson&lt;br&gt;¬raven02&lt;br&gt;AniLeo&lt;br&gt;¬cornytrace&lt;br&gt;¬ssshadow&lt;br&gt;¬Numan&lt;br&gt;hcorion&lt;br&gt;Megamouse&lt;br&gt;¬flash-fire&lt;br&gt;DAGINATSUKO&lt;br&gt;GalCiv&lt;br&gt;eladash&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Contributors:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;br&gt;FlexBy&lt;br&gt;Dunastique&lt;br&gt;Jonathan44062&lt;br&gt;yurinator557&lt;br&gt;Satan&lt;br&gt;HoldTheMourning&lt;br&gt;illusion0001&lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Bidragsgivare:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;br&gt;FlexBy&lt;br&gt;Dunastique&lt;br&gt;Jonathan44062&lt;br&gt;yurinator557&lt;br&gt;Satan&lt;br&gt;HoldTheMourning&lt;br&gt;illusion0001&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;p&gt;&lt;b&gt;Bidragsgivare:&lt;/b&gt;&lt;br&gt;&lt;br&gt;BlackDaemon&lt;br&gt;elisha464&lt;br&gt;Aishou&lt;br&gt;krofna&lt;br&gt;xsacha&lt;br&gt;danilaml&lt;br&gt;unknownbrackets&lt;br&gt;Zangetsu38&lt;br&gt;lioncash&lt;br&gt;achurch&lt;br&gt;darkf&lt;br&gt;Syphurith&lt;br&gt;Blaypeg&lt;br&gt;Survanium90&lt;br&gt;georgemoralis&lt;br&gt;ikki84&lt;br&gt;scribam&lt;br&gt;TGE&lt;br&gt;velocity&lt;br&gt;Farseer&lt;br&gt;Dangles&lt;br&gt;ruipin&lt;br&gt;jbeich&lt;br&gt;CookiePLMonster&lt;br&gt;Whatcookie&lt;br&gt;rajkosto&lt;br&gt;Admiral Thrawn&lt;br&gt;FlexBy&lt;br&gt;Dunastique&lt;br&gt;Jonathan44062&lt;br&gt;yurinator557&lt;br&gt;Satan&lt;br&gt;HoldTheMourning&lt;br&gt;illusion0001&lt;/p&gt;</translation>
     </message>
     <message>
         <source>&lt;p&gt;&lt;b&gt;Supporters:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
@@ -1601,7 +1672,7 @@ Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</sou
           &lt;br&gt;Vekkar
           &lt;br&gt;Jackson Abney
           &lt;/p&gt;</source>
-        <translation>&lt;p&gt;&lt;b&gt;Personer som gett oss sitt stöd:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
+        <translation type="vanished">&lt;p&gt;&lt;b&gt;Personer som gett oss sitt stöd:&lt;/b&gt;&lt;br&gt;&lt;br&gt;Howard Garrison&lt;br&gt;EXPotemkin&lt;br&gt;Marko V.&lt;br&gt;danhp&lt;br&gt;Jake (5315825)&lt;br&gt;Ian Reid&lt;br&gt;Tad Sherlock&lt;br&gt;Tyler Friesen&lt;br&gt;Folzar&lt;br&gt;Payton Williams&lt;br&gt;RedPill Australia&lt;br&gt;yanghong&lt;br&gt;Mohammed El-Serougi&lt;br&gt;Дима ~Ximer13~ Кулин&lt;br&gt;James Reed&lt;br&gt;BaroqueSonata&lt;br&gt;Bonzay0&lt;br&gt;Henrijs Kons&lt;br&gt;eoiz&lt;br&gt;Lena Stöffler&lt;br&gt;Michael Holder&lt;br&gt;Max Bosse&lt;br&gt;Tyler Whisinnand&lt;br&gt;Gato Harvey&lt;br&gt;cain4355&lt;br&gt;Thomas Peltier&lt;br&gt;Loli Co.&lt;br&gt;MapleLoonie&lt;br&gt;Travis McEwen&lt;br&gt;Scott Singratsomboune&lt;br&gt;T.E&lt;br&gt;Lukas Rieger&lt;br&gt;Dane Madsen&lt;br&gt;JMS&lt;br&gt;Jonatan R&lt;br&gt;Luke Johnson&lt;br&gt;Thomas Zaorski&lt;br&gt;MyOwnFan&lt;br&gt;Alexandros Mandravillis&lt;br&gt;Socker Bopper&lt;br&gt;Faris Leonhart&lt;br&gt;Fabien Net&lt;br&gt;Raves&lt;br&gt;Barrowsx&lt;br&gt;kilsuton&lt;br&gt;Max Mason&lt;br&gt;Ethan Condon&lt;br&gt;jfidone&lt;br&gt;iaDRM&lt;br&gt;Kazer2.0&lt;br&gt;Bryce Quintin&lt;br&gt;Yuri Kunde Schlesner&lt;br&gt;Abdulla Altayer&lt;br&gt;Nicolas Jallamion&lt;br&gt;Vorvek&lt;br&gt;Ian Faddis&lt;br&gt;Leon&lt;br&gt;Mohammad Taleb&lt;br&gt;Jokez&lt;br&gt;crashX&lt;br&gt;Raveskirza&lt;br&gt;Grant Deacon&lt;br&gt;michael&lt;br&gt;David Zech&lt;br&gt;Ben Manoochehri&lt;br&gt;Adnan Kovacevic&lt;br&gt;Mighty J&lt;br&gt;Sam Shan Jiang&lt;br&gt;TheAnig&lt;br&gt;Rodney Coleman&lt;br&gt;FiniteAce&lt;br&gt;Kian Soon Alex Chiam&lt;br&gt;yukkuri&lt;br&gt;Justin Chadwick&lt;br&gt;toxic Itzi&lt;br&gt;Templerror&lt;br&gt;Myles Wesley Carlson&lt;br&gt;Max Bosse&lt;br&gt;Ethan Clark&lt;br&gt;LupineDream&lt;br&gt;CheatCodesOfLife&lt;br&gt;Jan Zykmund&lt;br&gt;Francesco Cinquemani&lt;br&gt;Andylg&lt;br&gt;Julia H de Camargos&lt;br&gt;Suvodip Mitra&lt;br&gt;Goh&lt;br&gt;Dmitry&lt;br&gt;Steel Brain&lt;br&gt;VarieZ&lt;br&gt;William Swango&lt;br&gt;Matthew Messersmith&lt;br&gt;Duane Locsin&lt;br&gt;Shuddertrix&lt;br&gt;Loweys Litsman&lt;br&gt;Shuddertrix&lt;br&gt;Mason Ferrie&lt;br&gt;Richard Kaplan&lt;br&gt;Hugues Valois&lt;br&gt;richard(lath..ch@)&lt;br&gt;Johnathan (Virtuous John)&lt;br&gt;eoiz&lt;br&gt;Dany Huguenin&lt;br&gt;doobieashtray&lt;br&gt;dean(mag..94@)&lt;br&gt;Pommier Jean-Philippe&lt;br&gt;Douglas Alan Albino&lt;br&gt;Ryan Mull&lt;br&gt;Thor-Erling Engen&lt;br&gt;Nick Carpenter&lt;br&gt;curryking3&lt;br&gt;Jared Tracton&lt;br&gt;alex(koo..oh@)&lt;br&gt;Jason O&apos;Brien&lt;br&gt;Skeletal Charizard&lt;br&gt;Ace00&lt;br&gt;Brandon Corujo&lt;br&gt;HyperBitHero&lt;br&gt;佳文 李&lt;br&gt;sorryboi
           &lt;br&gt;Johnson Bui
           &lt;br&gt;itachi1986
           &lt;br&gt;Mortano
@@ -1647,38 +1718,6 @@ Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</sou
           &lt;/p&gt;</translation>
     </message>
     <message>
-        <source>GitHub</source>
-        <translation>GitHub</translation>
-    </message>
-    <message>
-        <source>Website</source>
-        <translation>Webbsida</translation>
-    </message>
-    <message>
-        <source>Forum</source>
-        <translation>Forum</translation>
-    </message>
-    <message>
-        <source>Discord</source>
-        <translation>Discord</translation>
-    </message>
-    <message>
-        <source>Wiki</source>
-        <translation>Wiki</translation>
-    </message>
-    <message>
-        <source>Patreon</source>
-        <translation>Patreon</translation>
-    </message>
-    <message>
-        <source>Close</source>
-        <translation>Stäng</translation>
-    </message>
-    <message>
-        <source>RPCS3 Version: %1</source>
-        <translation>RPCS3 Version: %1</translation>
-    </message>
-    <message>
         <source>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.&lt;br&gt;
@@ -1687,7 +1726,7 @@ Can be reset to current wall clock time by clicking &quot;Set to Now&quot;.</sou
 				There are still plenty of implementations to make and optimizations to do.
 			&lt;/p&gt;
 		</source>
-        <translation>
+        <translation type="vanished">
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 är en Sony PlayStation 3-emulator och felsökare baserad på öppen källkod.&lt;br&gt;
 				Den är skriven i C++ för Windows, Linux, FreeBSD samt MacOS och är finansierad via &lt;a %0 href=&quot;https://rpcs3.net/patreon&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
@@ -1822,6 +1861,18 @@ Restart of the game is required to apply. You can enable/disable this in the set
         <source>&amp;Rename</source>
         <translation>&amp;Byt namn</translation>
     </message>
+    <message>
+        <source>Add Breakpoint</source>
+        <translation>Lägg till brytpunkt</translation>
+    </message>
+    <message>
+        <source>Disable BPM</source>
+        <translation>Inaktivera BPM</translation>
+    </message>
+    <message>
+        <source>Enable BPM</source>
+        <translation>Aktivera BPM</translation>
+    </message>
 </context>
 <context>
     <name>camera_settings_dialog</name>
@@ -1914,14 +1965,6 @@ Den kanske blockeras av ett annat program.</translation>
         <translation>För många poster att visa (%0)</translation>
     </message>
     <message>
-        <source>0x%0</source>
-        <translation>0x%0</translation>
-    </message>
-    <message>
-        <source>0x%1</source>
-        <translation>0x%1</translation>
-    </message>
-    <message>
         <source>Unsigned 8 bits</source>
         <translation>Unsigned 8 bits</translation>
     </message>
@@ -1957,6 +2000,14 @@ Den kanske blockeras av ett annat program.</translation>
         <source>Float 32 bits</source>
         <translation>Float 32 bits</translation>
     </message>
+    <message>
+        <source>0x%0</source>
+        <translation type="vanished">0x%0</translation>
+    </message>
+    <message>
+        <source>0x%1</source>
+        <translation type="vanished">0x%1</translation>
+    </message>
 </context>
 <context>
     <name>config_checker</name>
@@ -1983,6 +2034,53 @@ Några inställningar verkar skilja sig från standardkonfigurationen:</translat
     <message>
         <source>Cannot find any config!</source>
         <translation>Kan inte hitta någon konfiguration!</translation>
+    </message>
+</context>
+<context>
+    <name>debugger_add_bp_window</name>
+    <message>
+        <source>Add a breakpoint</source>
+        <translation>Lägg till en brytpunkt</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adress</translation>
+    </message>
+    <message>
+        <source>Address here</source>
+        <translation>Adress här</translation>
+    </message>
+    <message>
+        <source>Memory Read</source>
+        <translation>Minnesläsning</translation>
+    </message>
+    <message>
+        <source>Memory Write</source>
+        <translation>Minnesskrivning</translation>
+    </message>
+    <message>
+        <source>Memory Read&amp;Write</source>
+        <translation>Minne läs&amp;skriv</translation>
+    </message>
+    <message>
+        <source>Execution</source>
+        <translation>Körning</translation>
+    </message>
+    <message>
+        <source>Add</source>
+        <translation>Lägg till</translation>
+    </message>
+    <message>
+        <source>Add BP error</source>
+        <translation>Lägg till BP-fel</translation>
+    </message>
+    <message>
+        <source>Address is empty!</source>
+        <translation>Adressen är tom!</translation>
+    </message>
+    <message>
+        <source>Address is invalid!</source>
+        <translation>Adressen är ogiltig!</translation>
     </message>
 </context>
 <context>
@@ -2072,10 +2170,6 @@ Double-click: Set breakpoints.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>SPU Disassmebler Properties</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
@@ -2085,6 +2179,14 @@ Double-click: Set breakpoints.</source>
     </message>
     <message>
         <source>Load PC: </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Add BP</source>
+        <translation>Lägg till BP</translation>
+    </message>
+    <message>
+        <source>SPU Disassembler Properties</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2163,7 +2265,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Blank Tag</source>
-        <translation>Blank tagg</translation>
+        <translation type="vanished">Blank tagg</translation>
     </message>
 </context>
 <context>
@@ -2318,7 +2420,12 @@ Consider that a correction might render them invalid for other versions of RPCS3
 
 Do you wish to let the program correct them for you?
 This change will only be final when you save the config.</source>
-        <translation type="unfinished"></translation>
+        <translation>Din konfigurationsfil innehöll ett eller flera okända värden för inställningar.
+Deras standardvärden kommer att användas tills de har korrigerats.
+Tänk på att en korrigering kan göra dem ogiltiga för andra versioner av RPCS3.
+
+Vill du låta programmet korrigera dem åt dig?
+Denna ändring blir slutgiltig först när du sparar konfigurationen.</translation>
     </message>
     <message>
         <source>Safe</source>
@@ -2328,12 +2435,12 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Mega</source>
         <comment>SPU block size</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mega</translation>
     </message>
     <message>
         <source>Giga</source>
         <comment>SPU block size</comment>
-        <translation type="unfinished"></translation>
+        <translation>Giga</translation>
     </message>
     <message>
         <source>RPCS3 Scheduler</source>
@@ -2539,11 +2646,6 @@ This change will only be final when you save the config.</source>
         <source>Bilinear</source>
         <comment>Output Scaling Mode</comment>
         <translation>Bilinjär</translation>
-    </message>
-    <message>
-        <source>FidelityFX Super Resolution</source>
-        <comment>Output Scaling Mode</comment>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Disable Audio Output</source>
@@ -3431,6 +3533,11 @@ This change will only be final when you save the config.</source>
         <source>Inaccurate XFloat</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>FidelityFX Super Resolution 1</source>
+        <comment>Output Scaling Mode</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>emulated_pad_settings_dialog</name>
@@ -3485,7 +3592,8 @@ This change will only be final when you save the config.</source>
     <message>
         <source>Press the &quot;Combo&quot; button in combination with any of the other combo buttons to trigger their related PS Move button.
 This can be useful if your device does not have enough regular buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryck på ”Combo”-knappen i kombination med någon av de andra combo-knapparna för att utlösa deras relaterade PS Move-knapp.
+Detta kan vara användbart om din enhet inte har tillräckligt med vanliga knappar.</translation>
     </message>
     <message>
         <source>Current Basic Mouse Config</source>
@@ -3847,10 +3955,6 @@ Faller tillbaka på lokala databasen.
     <message>
         <source>Successfully created shortcut(s).</source>
         <translation>Genväg(ar) skapades.</translation>
-    </message>
-    <message>
-        <source>Failed to create shortcut(s)!</source>
-        <translation>Misslyckades med att skapa genväg(ar)!</translation>
     </message>
     <message>
         <source>&amp;Reboot with global configuration</source>
@@ -4439,6 +4543,14 @@ Förlopp: %1/%2 cachar kompilerade</translation>
         <source>%0/%1 shader caches cleared</source>
         <translation>%0/%1 shader-cachar tömda</translation>
     </message>
+    <message>
+        <source>Failed to create one or more shortcuts!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Failed to create shortcut(s)!</source>
+        <translation type="vanished">Misslyckades med att skapa genväg(ar)!</translation>
+    </message>
 </context>
 <context>
     <name>game_list_grid</name>
@@ -4524,26 +4636,6 @@ Anteckningar:
         <translation>Varning för experimentellt bygge</translation>
     </message>
     <message>
-        <source>
-				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
-					Please understand that this build is not an official RPCS3 release.&lt;br&gt;
-					This build contains changes that may break games, or even &lt;b&gt;damage&lt;/b&gt; your data.&lt;br&gt;
-					We recommend to download and use the official build from the &lt;a %0 href=&apos;https://rpcs3.net/download&apos;&gt;RPCS3 website&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
-					Build origin: %1&lt;br&gt;
-					Do you wish to use this build anyway?
-				&lt;/p&gt;
-			</source>
-        <translation>
-				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
-					Observera att denna byggnation inte är en officiell RPCS3-utgåva.&lt;br&gt;
-					Detta bygge innehåller ändringar som kan ge spelproblem eller till och med &lt;b&gt;skada&lt;/b&gt; ditt data.&lt;br&gt;
-					Vi rekommenderar att hämta ner och använd en officiell version från &lt;a %0 href=&apos;https://rpcs3.net/download&apos;&gt;RPCS3-webbsidan&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
-					Byggets ursprung: %1&lt;br&gt;
-					Vill du fortfarande använda detta bygge ändå?
-				&lt;/p&gt;
-			</translation>
-    </message>
-    <message>
         <source>Warning</source>
         <translation>Varning</translation>
     </message>
@@ -4600,6 +4692,44 @@ Fortsätt vänta eller avsluta RPCS3 på din egen risk?</translation>
     <message>
         <source>If Stuck, Report To Developers</source>
         <translation>Om den fastnar, rapportera till utvecklarna</translation>
+    </message>
+    <message>
+        <source>Please understand that this build is not an official RPCS3 release.
+This build contains changes that may break games, or even &lt;b&gt;damage&lt;/b&gt; your data.
+We recommend to download and use the official build from the %0.
+
+Build origin: %1
+Do you wish to use this build anyway?</source>
+        <translation>Observera att denna version inte är en officiell RPCS3-version.
+Den här versionen innehåller ändringar som kan förstöra spel eller till och med &lt;b&gt;skada&lt;/b&gt; dina data.
+Vi rekommenderar att du hämtar och använder den officiella versionen från %0.
+
+Byggversionens ursprung: %1
+Vill du använda den här versionen ändå?</translation>
+    </message>
+    <message>
+        <source>RPCS3 website</source>
+        <translation>RPCS3s webbsida</translation>
+    </message>
+    <message>
+        <source>
+				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
+					Please understand that this build is not an official RPCS3 release.&lt;br&gt;
+					This build contains changes that may break games, or even &lt;b&gt;damage&lt;/b&gt; your data.&lt;br&gt;
+					We recommend to download and use the official build from the &lt;a %0 href=&apos;https://rpcs3.net/download&apos;&gt;RPCS3 website&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+					Build origin: %1&lt;br&gt;
+					Do you wish to use this build anyway?
+				&lt;/p&gt;
+			</source>
+        <translation type="vanished">
+				&lt;p style=&quot;white-space: nowrap;&quot;&gt;
+					Observera att denna byggnation inte är en officiell RPCS3-utgåva.&lt;br&gt;
+					Detta bygge innehåller ändringar som kan ge spelproblem eller till och med &lt;b&gt;skada&lt;/b&gt; ditt data.&lt;br&gt;
+					Vi rekommenderar att hämta ner och använd en officiell version från &lt;a %0 href=&apos;https://rpcs3.net/download&apos;&gt;RPCS3-webbsidan&lt;/a&gt;.&lt;br&gt;&lt;br&gt;
+					Byggets ursprung: %1&lt;br&gt;
+					Vill du fortfarande använda detta bygge ändå?
+				&lt;/p&gt;
+			</translation>
     </message>
 </context>
 <context>
@@ -4951,7 +5081,7 @@ Filen var för liten.</translation>
     </message>
     <message>
         <source>Display Buffers</source>
-        <translation type="unfinished"></translation>
+        <translation>Visningsbuffertar</translation>
     </message>
 </context>
 <context>
@@ -5195,17 +5325,17 @@ Filen var för liten.</translation>
     <message>
         <source>Save Dialog</source>
         <comment>Save Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Spardialog</translation>
     </message>
     <message>
         <source>Delete Save</source>
         <comment>Save Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort sparning</translation>
     </message>
     <message>
         <source>Load Save</source>
         <comment>Save Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Läs in sparning</translation>
     </message>
     <message>
         <source>Save</source>
@@ -5215,12 +5345,12 @@ Filen var för liten.</translation>
     <message>
         <source>Enter</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished">Enter</translation>
+        <translation>Enter</translation>
     </message>
     <message>
         <source>Back</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished">Bakåt</translation>
+        <translation>Bakåt</translation>
     </message>
     <message>
         <source>Space</source>
@@ -5265,7 +5395,7 @@ Filen var för liten.</translation>
     <message>
         <source>Enter</source>
         <comment>Enter Dialog List</comment>
-        <translation type="unfinished">Enter</translation>
+        <translation>Enter</translation>
     </message>
     <message>
         <source>Back</source>
@@ -5360,7 +5490,9 @@ Ta bort speldatat för denna titel.</translation>
 
 Please reinstall the HDD boot game.</source>
         <comment>Game Error</comment>
-        <translation type="unfinished"></translation>
+        <translation>Det har uppstått ett fel!
+
+Installera om hårddiskspelet.</translation>
     </message>
     <message>
         <source>Not enough space to create HDD boot game.
@@ -5509,7 +5641,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>Shortage of the kernel resources.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Brist på kärnresurser.
+(%0)</translation>
     </message>
     <message>
         <source>The file is a directory.
@@ -5549,7 +5682,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>Failure in authorizing SELF. Program authentication fail.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid auktorisering av SELF. Autentiseringen av programmet misslyckades.
+(%0)</translation>
     </message>
     <message>
         <source>The file is not MSELF.
@@ -5569,31 +5703,36 @@ Utrymme som krävs: %0 KB</translation>
         <source>Fatal system error occurred while authorizing SELF. SELF auth failure.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ett fatalt systemfel inträffade när SELF auktoriserades. Fel vid autentisering av SELF.
+(%0)</translation>
     </message>
     <message>
         <source>Math domain violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Överträdelse i matematikdomän.
+(%0)</translation>
     </message>
     <message>
         <source>Math range violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Överträdelse i matematikintervall.
+(%0)</translation>
     </message>
     <message>
         <source>Illegal multi-byte sequence in input.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Otillåten multi-byte-sekvens i indata.
+(%0)</translation>
     </message>
     <message>
         <source>File position error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Fel i filens position.
+(%0)</translation>
     </message>
     <message>
         <source>Syscall was interrupted.
@@ -5620,7 +5759,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>File table overflow.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Överflöd i filtabell.
+(%0)</translation>
     </message>
     <message>
         <source>No space left on device.
@@ -5640,7 +5780,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>Broken pipe.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Trasig rörledning.
+(%0)</translation>
     </message>
     <message>
         <source>Read-only filesystem.
@@ -5653,25 +5794,29 @@ Utrymme som krävs: %0 KB</translation>
         <source>Illegal seek.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Otillåten sökning.
+(%0)</translation>
     </message>
     <message>
         <source>Arg list too long.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Argumentlistan för lång.
+(%0)</translation>
     </message>
     <message>
         <source>Access violation.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Åtkomstöverträdelse.
+(%0)</translation>
     </message>
     <message>
         <source>Invalid file descriptor.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltig filbeskrivare.
+(%0)</translation>
     </message>
     <message>
         <source>Filesystem mounting failed.
@@ -5705,19 +5850,22 @@ Utrymme som krävs: %0 KB</translation>
         <source>No such device or IO.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ingen sådan enhet eller IO.
+(%0)</translation>
     </message>
     <message>
         <source>Cross-device link error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Fel på länk mellan enheter.
+(%0)</translation>
     </message>
     <message>
         <source>Bad Message.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Felaktigt meddelande.
+(%0)</translation>
     </message>
     <message>
         <source>In progress.
@@ -5730,7 +5878,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>Message size error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Fel i meddelandets storlek.
+(%0)</translation>
     </message>
     <message>
         <source>Name too long.
@@ -5764,13 +5913,15 @@ Utrymme som krävs: %0 KB</translation>
         <source>File-system specific error.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filsystemspecifikt fel.
+(%0)</translation>
     </message>
     <message>
         <source>Overflow occurred.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Överflöde inträffade.
+(%0)</translation>
     </message>
     <message>
         <source>Filesystem not mounted.
@@ -5797,7 +5948,8 @@ Utrymme som krävs: %0 KB</translation>
         <source>Pointer is null.
 (%0)</source>
         <comment>Error code</comment>
-        <translation type="unfinished"></translation>
+        <translation>Pekaren är noll.
+(%0)</translation>
     </message>
     <message>
         <source>An error has occurred.
@@ -5809,12 +5961,12 @@ Utrymme som krävs: %0 KB</translation>
     <message>
         <source>On Screen Keyboard</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tangentbord på skärmen</translation>
     </message>
     <message>
         <source>The Home Menu can&apos;t be opened while the On Screen Keyboard is busy!</source>
         <comment>OSK Dialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Hemmenyn kan inte öppnas när skärmtangentbordet är upptaget!</translation>
     </message>
     <message>
         <source>Error - Save data corrupted</source>
@@ -6262,7 +6414,7 @@ Subject:</source>
     <message>
         <source>Background Input Enabled</source>
         <comment>Input</comment>
-        <translation type="unfinished"></translation>
+        <translation>Bakgrundsinmatning aktiverad</translation>
     </message>
     <message>
         <source>Keep Pads Connected</source>
@@ -6501,7 +6653,7 @@ Subject:</source>
     </message>
     <message>
         <source>SaveState</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparat tillstånd</translation>
     </message>
     <message>
         <source>Save Emulation State</source>
@@ -6686,6 +6838,14 @@ Subject:</source>
         <source>Unknown</source>
         <translation>Okänt</translation>
     </message>
+    <message>
+        <source>Show hidden trophies</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide hidden trophies</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>log_frame</name>
@@ -6711,11 +6871,11 @@ Subject:</source>
     </message>
     <message>
         <source>Go-To On The Debugger</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till i felsökaren</translation>
     </message>
     <message>
         <source>Show Thread On The Debugger</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa tråd i felsökaren</translation>
     </message>
     <message>
         <source>Stack Mode (TTY)</source>
@@ -6778,11 +6938,11 @@ Subject:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Show the thread that corresponds to the thread ID from lthe log text on the debugger.</source>
+        <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Jump to the selected hexadecimal address from the TTY text on the debugger.</source>
+        <source>Show the thread that corresponds to the thread ID from the log text on the debugger.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -7197,7 +7357,7 @@ Subject:</source>
     </message>
     <message>
         <source>Extract files from special .tar files inside PS3UPDAT.PUP</source>
-        <translation type="unfinished"></translation>
+        <translation>Extrahera filer från speciella .tar-filer inuti PS3UPDAT.PUP</translation>
     </message>
     <message>
         <source>Show Debugger</source>
@@ -7213,7 +7373,7 @@ Subject:</source>
     </message>
     <message>
         <source>To ensure continued improvements of RPCS3, become a part of our Patreon group!</source>
-        <translation type="unfinished"></translation>
+        <translation>För att säkerställa fortsatta förbättringar av RPCS3, bli en del av vår Patreon-grupp!</translation>
     </message>
     <message>
         <source>About RPCS3</source>
@@ -7634,7 +7794,8 @@ Subject:</source>
     <message>
         <source>Commercial games require the firmware (PS3UPDAT.PUP file) to be installed.
 &lt;br&gt;For information about how to obtain the required firmware read the &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;quickstart guide&lt;/a&gt;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommersiella spel kräver att en firmware (filen PS3UPDAT.PUP) installeras.
+&lt;br&gt;För information om hur du skaffar denna nödvändiga firmware, läs &lt;a %0 href=”https://rpcs3.net/quickstart”&gt;snabbstartguiden&lt;/a&gt;.</translation>
     </message>
     <message>
         <source>Locate PS3UPDAT.PUP</source>
@@ -7646,7 +7807,7 @@ Subject:</source>
     </message>
     <message>
         <source>Disc could not be mounted properly. Make sure the disc is not in the dev_hdd0/game folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skivan kunde inte monteras korrekt. Kontrollera att skivan inte finns i mappen dev_hdd0/game.</translation>
     </message>
     <message>
         <source>The selected file or folder is invalid or corrupted.</source>
@@ -7654,7 +7815,7 @@ Subject:</source>
     </message>
     <message>
         <source>The virtual dev_bdvd folder does not exist or is not empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den virtuella mappen dev_bdvd finns inte eller är inte tom.</translation>
     </message>
     <message>
         <source>Additional content could not be installed.</source>
@@ -7662,7 +7823,7 @@ Subject:</source>
     </message>
     <message>
         <source>Digital content could not be decrypted. This is usually caused by a missing or invalid license (RAP) file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Digitalt innehåll kunde inte dekrypteras. Detta orsakas vanligtvis av en saknad eller ogiltig licensfil (RAP).</translation>
     </message>
     <message>
         <source>The emulator could not create files required for booting.</source>
@@ -7706,7 +7867,7 @@ Subject:</source>
     </message>
     <message>
         <source>(S)ELF files (*BOOT.BIN *.elf *.self);;ELF files (BOOT.BIN *.elf);;SELF files (EBOOT.BIN *.self);;BOOT files (*BOOT.BIN);;BIN files (*.bin);;All executable files (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;All files (*.*)</source>
-        <translation type="unfinished"></translation>
+        <translation>(S)ELF-filer (*BOOT.BIN *.elf *.self);;ELF-filer (BOOT.BIN *.elf);;SELF-filer (EBOOT.BIN *.self);;BOOT-filer (*BOOT.BIN);;BIN-filer (*. bin);;Alla körbara filer (*.SAVESTAT.zst *.SAVESTAT.gz *.SAVESTAT *.sprx *.SPRX *.self *.SELF *.bin *.BIN *.prx *.PRX *.elf *.ELF *.o *.O);;Alla filer (*.*)</translation>
     </message>
     <message>
         <source>(S)ELF files (*.elf *.self);;ELF files (*.elf);;SELF files (*.self);;All files (*.*)</source>
@@ -7811,10 +7972,6 @@ Version %0</translation>
     <message>
         <source>To see the changelog, please click &quot;Show Details&quot;.</source>
         <translation>Klicka på &quot;Visa detaljer&quot; för att se ändringsloggen.</translation>
-    </message>
-    <message>
-        <source>%0</source>
-        <translation>%0</translation>
     </message>
     <message>
         <source>RPCS3 Package Installer</source>
@@ -8036,7 +8193,9 @@ Vänta...</translation>
         <source>The firmware contents could not be extracted.
 This is very likely caused by external interference from a faulty anti-virus software.
 Please add RPCS3 to your anti-virus&apos; whitelist or use better anti-virus software.</source>
-        <translation type="unfinished"></translation>
+        <translation>Innehållet i denna firmware kunde inte extraheras.
+Detta orsakas troligen av extern störning från ett felaktigt antivirusprogram.
+Lägg till RPCS3 på vitlistan för ditt antivirusprogram eller använd ett bättre antivirusprogram.</translation>
     </message>
     <message>
         <source>Successfully installed PS3 firmware and LLE Modules!</source>
@@ -8096,10 +8255,6 @@ And is logged with some sceNpDrm* functions when the game/application which owns
     <message>
         <source>&amp;Play</source>
         <translation>&amp;Spela</translation>
-    </message>
-    <message>
-        <source>Ctrl+%1</source>
-        <translation>Ctrl+%1</translation>
     </message>
     <message>
         <source>Add desktop shortcut(s)</source>
@@ -8289,6 +8444,22 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
         <source>PARAM.SFO Information</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Boot Recent Savestate</source>
+        <translation>Starta upp tidigare sparat tillstånd</translation>
+    </message>
+    <message>
+        <source>Savestates</source>
+        <translation>Sparade tillstånd</translation>
+    </message>
+    <message>
+        <source>%0</source>
+        <translation type="vanished">%0</translation>
+    </message>
+    <message>
+        <source>Ctrl+%1</source>
+        <translation type="vanished">Ctrl+%1</translation>
+    </message>
 </context>
 <context>
     <name>memory_viewer_panel</name>
@@ -8314,11 +8485,7 @@ Undetectable games (zombies) as well as corrupted games will be removed from the
     </message>
     <message>
         <source>Words</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>%0</source>
-        <translation>%0</translation>
+        <translation>Ord</translation>
     </message>
     <message>
         <source>Control</source>
@@ -8425,6 +8592,10 @@ Tip: SPU floats are commented along forming instructions.</source>
     <message>
         <source>%0 mode(s) selected</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>%0</source>
+        <translation type="vanished">%0</translation>
     </message>
 </context>
 <context>
@@ -8751,16 +8922,8 @@ Tip: SPU floats are commented along forming instructions.</source>
         <translation>Aktivera vibration</translation>
     </message>
     <message>
-        <source>Large</source>
-        <translation>Stor</translation>
-    </message>
-    <message>
-        <source>Small</source>
-        <translation>Liten</translation>
-    </message>
-    <message>
         <source>Switch</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla</translation>
     </message>
     <message>
         <source>Mouse Acceleration</source>
@@ -9221,6 +9384,22 @@ Tip: SPU floats are commented along forming instructions.</source>
         <source> (disconnected)</source>
         <translation> (frånkopplad)</translation>
     </message>
+    <message>
+        <source>Large </source>
+        <translation>Stor</translation>
+    </message>
+    <message>
+        <source>Small </source>
+        <translation>Liten</translation>
+    </message>
+    <message>
+        <source>Large</source>
+        <translation type="vanished">Stor</translation>
+    </message>
+    <message>
+        <source>Small</source>
+        <translation type="vanished">Liten</translation>
+    </message>
 </context>
 <context>
     <name>patch_creator_dialog</name>
@@ -9564,10 +9743,6 @@ Logg:
         <translation>Klicka på &quot;Visa detaljer&quot; för att se felloggen.</translation>
     </message>
     <message>
-        <source>%0</source>
-        <translation>%0</translation>
-    </message>
-    <message>
         <source>Downloading latest patches</source>
         <translation>Hämtar senaste patchar</translation>
     </message>
@@ -9621,6 +9796,10 @@ Logg:
         <source>All versions</source>
         <translation>Alla versioner</translation>
     </message>
+    <message>
+        <source>%0</source>
+        <translation type="vanished">%0</translation>
+    </message>
 </context>
 <context>
     <name>pkg_install_dialog</name>
@@ -9633,11 +9812,6 @@ Logg:
         <source>Update</source>
         <comment>Package type info (Update)</comment>
         <translation>Uppdatera</translation>
-    </message>
-    <message>
-        <source>%0</source>
-        <comment>Package type info</comment>
-        <translation>%0</translation>
     </message>
     <message>
         <source>v.%0</source>
@@ -9678,15 +9852,17 @@ Logg:
     <message>
         <source>You are about to install multiple packages.
 Reorder and/or exclude them if needed, then click &quot;Install&quot; to proceed.</source>
-        <translation variants="yes">
-            <lengthvariant>Du är på väg att installera flera paket.
-Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installera&quot; för att fortsätta.</lengthvariant>
-            <lengthvariant></lengthvariant>
-        </translation>
+        <translation>Du är på väg att installera flera paket.
+Ordna om dem och/eller exkludera dem om behövs, klicka sedan på &quot;Installera&quot; för att fortsätta.</translation>
     </message>
     <message>
         <source>Batch PKG Installation</source>
         <translation>Installera flera PKG</translation>
+    </message>
+    <message>
+        <source>%0</source>
+        <comment>Package type info</comment>
+        <translation type="vanished">%0</translation>
     </message>
 </context>
 <context>
@@ -10746,7 +10922,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Depth Buffer</source>
-        <translation type="unfinished"></translation>
+        <translation>Djupbuffert</translation>
     </message>
     <message>
         <source>Stencil Buffer</source>
@@ -10972,6 +11148,143 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
 </context>
 <context>
+    <name>savestate_manager_dialog</name>
+    <message>
+        <source>Savestate Manager</source>
+        <translation>Hanterare för sparade tillstånd</translation>
+    </message>
+    <message>
+        <source>Icon</source>
+        <translation>Ikon</translation>
+    </message>
+    <message>
+        <source>Show Icons</source>
+        <translation>Visa ikoner</translation>
+    </message>
+    <message>
+        <source>Game</source>
+        <translation>Spel</translation>
+    </message>
+    <message>
+        <source>Show Games</source>
+        <translation>Visa spel</translation>
+    </message>
+    <message>
+        <source>Savestates</source>
+        <translation>Sparade tillstånd</translation>
+    </message>
+    <message>
+        <source>Show Savestates</source>
+        <translation>Visa sparade tillstånd</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Namn</translation>
+    </message>
+    <message>
+        <source>Show Names</source>
+        <translation>Visa namn</translation>
+    </message>
+    <message>
+        <source>Compatible</source>
+        <translation>Kompatibel</translation>
+    </message>
+    <message>
+        <source>Show Compatible</source>
+        <translation>Visa kompatibel</translation>
+    </message>
+    <message>
+        <source>Created</source>
+        <translation>Skapades</translation>
+    </message>
+    <message>
+        <source>Show Created</source>
+        <translation>Visa skapades</translation>
+    </message>
+    <message>
+        <source>Path</source>
+        <translation>Sökväg</translation>
+    </message>
+    <message>
+        <source>Show Paths</source>
+        <translation>Visa sökvägar</translation>
+    </message>
+    <message>
+        <source>Game Icon Size: %0x%1</source>
+        <translation>Storlek för spelikon: %0x%1</translation>
+    </message>
+    <message>
+        <source>Choose Game</source>
+        <translation>Välj spel</translation>
+    </message>
+    <message>
+        <source>Icon Options</source>
+        <translation>Ikonalternativ</translation>
+    </message>
+    <message>
+        <source>&amp;Open Savestate Directory</source>
+        <translation>Ö&amp;ppna katalog för sparat tillstånd</translation>
+    </message>
+    <message>
+        <source>&amp;Boot Savestate</source>
+        <translation>S&amp;tarta upp sparat tillstånd</translation>
+    </message>
+    <message>
+        <source>&amp;Delete Savestate</source>
+        <translation>&amp;Ta bort sparat tillstånd</translation>
+    </message>
+    <message>
+        <source>Confirm Deletion</source>
+        <translation>Bekräfta borttagning</translation>
+    </message>
+    <message>
+        <source>Delete savestate &apos;%0&apos;?</source>
+        <translation>Ta bort sparat tillstånd &apos;%0&apos;?</translation>
+    </message>
+    <message>
+        <source>Deletion Failed!</source>
+        <translation>Borttagning misslyckades!</translation>
+    </message>
+    <message>
+        <source>Failed to delete savestate &apos;%0&apos;!</source>
+        <translation>Misslyckades med att ta bort sparat tillstånd &apos;%0&apos;!</translation>
+    </message>
+    <message>
+        <source>&amp;Remove All Savestates</source>
+        <translation>&amp;Ta bort alla sparade tillstånd</translation>
+    </message>
+    <message>
+        <source>Delete Confirmation</source>
+        <translation>Bekräfta borttagning</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to delete the savestates for:
+%0?</source>
+        <translation>Är du säker på att du vill ta bort sparade tillstånd för:
+%0?</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Name</source>
+        <translation>&amp;Kopiera namn</translation>
+    </message>
+    <message>
+        <source>Loading savestates</source>
+        <translation>Läser in sparade tillstånd</translation>
+    </message>
+    <message>
+        <source>Loading savestates, please wait...</source>
+        <translation>Läser in sparade tillstånd, vänta...</translation>
+    </message>
+    <message>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <source>Not compatible</source>
+        <translation>Inte kompatibel</translation>
+    </message>
+</context>
+<context>
     <name>screenshot_manager_dialog</name>
     <message>
         <source>Screenshots</source>
@@ -11134,7 +11447,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Shader Quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Shaderkvalitet</translation>
     </message>
     <message>
         <source>3D</source>
@@ -11186,11 +11499,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Shader Mode</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Number of Shader Compiler Threads</source>
-        <translation type="unfinished"></translation>
+        <translation>Shaderläge</translation>
     </message>
     <message>
         <source>Write Color Buffers</source>
@@ -11490,7 +11799,7 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>Core</source>
-        <translation type="unfinished"></translation>
+        <translation>Kärna</translation>
     </message>
     <message>
         <source>Debug Console Mode</source>
@@ -12022,15 +12331,15 @@ Observera att token för lösenordsåterställning är annorlunda från token f�
     </message>
     <message>
         <source>PPU Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>PPU-felsökning</translation>
     </message>
     <message>
         <source>SPU Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>SPU-felsökning</translation>
     </message>
     <message>
         <source>MFC Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>MFC-felsökning</translation>
     </message>
     <message>
         <source>Set DAZ and FTZ</source>
@@ -12104,30 +12413,7 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>
-							&lt;p style=&quot;white-space: nowrap;&quot;&gt;
-								RPCS3 has detected that you are using TSX functions on a Haswell or Broadwell CPU.&lt;br&gt;
-								Intel has deactivated these functions in newer Microcode revisions, since they can lead to unpredicted behaviour.&lt;br&gt;
-								That means using TSX may break games or even &lt;font color=&quot;red&quot;&gt;&lt;b&gt;damage&lt;/b&gt;&lt;/font&gt; your data.&lt;br&gt;
-								We recommend to disable this feature and update your computer BIOS.&lt;br&gt;&lt;br&gt;
-								Do you wish to use TSX anyway?
-							&lt;/p&gt;
-						</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>TSX-FA Warning</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>
-							&lt;p style=&quot;white-space: nowrap;&quot;&gt;
-								RPCS3 has detected your CPU only supports TSX-FA.&lt;br&gt;
-								That means using TSX may break games or even &lt;font color=&quot;red&quot;&gt;&lt;b&gt;damage&lt;/b&gt;&lt;/font&gt; your data.&lt;br&gt;
-								We recommend to disable this feature.&lt;br&gt;&lt;br&gt;
-								Do you wish to use TSX anyway?
-							&lt;/p&gt;
-						</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -12159,11 +12445,6 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <source>%1x</source>
         <comment>Anisotropic filter override</comment>
         <translation>%1x</translation>
-    </message>
-    <message>
-        <source>Auto</source>
-        <comment>Number of Shader Compiler Threads</comment>
-        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Precise (Slowest)</source>
@@ -12204,11 +12485,6 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
     <message>
         <source>%1%</source>
         <translation>%1%</translation>
-    </message>
-    <message>
-        <source>Disabled</source>
-        <comment>MSAA</comment>
-        <translation>Inaktiverad</translation>
     </message>
     <message>
         <source>Not needed for %0 renderer</source>
@@ -12280,11 +12556,6 @@ Each option heavily depends on the game and on your CPU, it&apos;s recommended t
         <source>Search libraries</source>
         <comment>Library search box</comment>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>All (%1)</source>
-        <comment>Max LLVM threads</comment>
-        <translation>Alla (%1)</translation>
     </message>
     <message>
         <source>Update Interval: %0 ms</source>
@@ -12472,6 +12743,56 @@ Preview:
     <message>
         <source>Your config file contains one or more obsolete entries.&lt;br&gt;Consider that a removal might render them invalid for other versions of RPCS3.&lt;br&gt;&lt;br&gt;Do you wish to let the program remove them for you now?&lt;br&gt;This change will only be final when you save the config.</source>
         <translation>Din konfigurationsfil innehåller en eller flera föråldrade poster.&lt;br&gt;Överväg att ta bort dem för de kan skapa problem för andra versioner av RPCS3.&lt;br&gt;&lt;br&gt;Vill du att programmet ska ta bort dem åt dig nu?&lt;br&gt;Denna ändring kommer genomföras när du sparar konfigurationen.</translation>
+    </message>
+    <message>
+        <source>Disable SPU GETLLAR Spin Optimization</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Max Shader Compile Threads</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RPCS3 has detected that you are using TSX functions on a Haswell or Broadwell CPU.
+Intel has deactivated these functions in newer Microcode revisions, since they can lead to unpredicted behaviour.
+That means using TSX may break games or even &lt;font color=&quot;red&quot;&gt;&lt;b&gt;damage&lt;/b&gt;&lt;/font&gt; your data.
+We recommend to disable this feature and update your computer BIOS.
+
+Do you wish to use TSX anyway?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>RPCS3 has detected your CPU only supports TSX-FA.
+That means using TSX may break games or even &lt;font color=&quot;red&quot;&gt;&lt;b&gt;damage&lt;/b&gt;&lt;/font&gt; your data.
+We recommend to disable this feature.
+
+Do you wish to use TSX anyway?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All (%1)</source>
+        <comment>Max LLVM Compile Threads</comment>
+        <translation>Alla (%1)</translation>
+    </message>
+    <message>
+        <source>Auto</source>
+        <comment>Max Shader Compile Threads</comment>
+        <translation>Automatiskt</translation>
+    </message>
+    <message>
+        <source>Auto</source>
+        <comment>Number of Shader Compiler Threads</comment>
+        <translation type="vanished">Automatiskt</translation>
+    </message>
+    <message>
+        <source>Disabled</source>
+        <comment>MSAA</comment>
+        <translation type="vanished">Inaktiverad</translation>
+    </message>
+    <message>
+        <source>All (%1)</source>
+        <comment>Max LLVM threads</comment>
+        <translation type="vanished">Alla (%1)</translation>
     </message>
 </context>
 <context>
@@ -13380,6 +13701,58 @@ Stoppa emulatorn nu?</translation>
         <translation>Visa vid uppstart</translation>
     </message>
     <message>
+        <source>&amp;Create Launchpad shortcut</source>
+        <translation>S&amp;kapa Launchpad-genväg</translation>
+    </message>
+    <message>
+        <source>&amp;Create Application Menu shortcut</source>
+        <translation>&amp;Skapa genväg på programmenyn</translation>
+    </message>
+    <message>
+        <source>RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.
+It is written in C++ for Windows, Linux, FreeBSD and MacOS funded with %0.
+Our developers and contributors are always working hard to ensure this project is the best that it can be.
+There are still plenty of implementations to make and optimizations to do.</source>
+        <translation>RPCS3 är en Sony PlayStation 3-emulator och felsökare med öppen källkod.
+Den är skriven i C++ för Windows, Linux, FreeBSD och MacOS finansierad via %0.
+Våra utvecklare och bidragsgivare arbetar alltid hårt för att se till att detta projekt är det bästa det kan vara.
+Det finns fortfarande många implementeringar att göra och optimeringar att göra.</translation>
+    </message>
+    <message>
+        <source>Patreon</source>
+        <translation>Patreon</translation>
+    </message>
+    <message>
+        <source>To get started, you must first install the %0.
+Please refer to the %1 guide found on the official website for further information.
+If you have any further questions, please refer to the %2.
+Otherwise, further discussion and support can be found on the %3 or on our %4 server.</source>
+        <translation>För att komma igång måste du först installera %0.
+Mer information finns i %1-guiden som du hittar på den officiella webbplatsen.
+Om du har ytterligare frågor kan du referera till %2.
+I annat fall kan du få mer information och support på %3 eller på vår %4-server.</translation>
+    </message>
+    <message>
+        <source>PlayStation 3 firmware</source>
+        <translation>PlayStation 3-firmware</translation>
+    </message>
+    <message>
+        <source>Quickstart</source>
+        <translation>Snabbstart</translation>
+    </message>
+    <message>
+        <source>FAQ</source>
+        <translation>Frågor och svar</translation>
+    </message>
+    <message>
+        <source>Forums</source>
+        <translation>Forum</translation>
+    </message>
+    <message>
+        <source>Discord</source>
+        <translation>Discord</translation>
+    </message>
+    <message>
         <source>
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 is an open-source Sony PlayStation 3 emulator and debugger.&lt;br&gt;
@@ -13388,7 +13761,7 @@ Stoppa emulatorn nu?</translation>
 				There are still plenty of implementations to make and optimizations to do.
 			&lt;/p&gt;
 		</source>
-        <translation>
+        <translation type="vanished">
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				RPCS3 är en Sony PlayStation 3-emulator och felsökare baserad på öppen källkod.&lt;br&gt;
 				Den är skriven i C++ för Windows, Linux, FreeBSD samt MacOS och är finansierad via &lt;a %0 href=&quot;https://rpcs3.net/patreon&quot;&gt;Patreon&lt;/a&gt;.&lt;br&gt;
@@ -13406,7 +13779,7 @@ Stoppa emulatorn nu?</translation>
 				Otherwise, further discussion and support can be found on the &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;Forums&lt;/a&gt; or on our &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt; server.
 			&lt;/p&gt;
 		</source>
-        <translation>
+        <translation type="vanished">
 			&lt;p style=&quot;white-space: nowrap;&quot;&gt;
 				För att komma igång måste du först installera ett &lt;span style=&quot;font-weight:600;&quot;&gt;PlayStation 3-firmware&lt;/span&gt;.&lt;br&gt;
 				Referera till &lt;a %0 href=&quot;https://rpcs3.net/quickstart&quot;&gt;Snabbstartguiden&lt;/a&gt; som hittas på den officiella webbsidan för ytterligare information.&lt;br&gt;
@@ -13414,14 +13787,6 @@ Stoppa emulatorn nu?</translation>
 				Annars kan ytterligare diskussioner och stöd hittas på våra &lt;a %0 href=&quot;https://forums.rpcs3.net&quot;&gt;Forum&lt;/a&gt; eller på vår &lt;a %0 href=&quot;https://discord.me/RPCS3&quot;&gt;Discord&lt;/a&gt;-server.
 			&lt;/p&gt;
 		</translation>
-    </message>
-    <message>
-        <source>&amp;Create Launchpad shortcut</source>
-        <translation>S&amp;kapa Launchpad-genväg</translation>
-    </message>
-    <message>
-        <source>&amp;Create Application Menu shortcut</source>
-        <translation>&amp;Skapa genväg på programmenyn</translation>
     </message>
 </context>
 </TS>
