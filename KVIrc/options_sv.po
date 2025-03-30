@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: KVIrc 5.2.4\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-11 12:42+0200\n"
-"PO-Revision-Date: 2025-01-02 11:03+0100\n"
+"PO-Revision-Date: 2025-03-30 12:59+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: \n"
 "Language: sv\n"
@@ -124,82 +124,113 @@ msgid "Highlight messages containing my nickname"
 msgstr "Framhäv meddelanden som innehåller mitt smeknamn"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:60
+#, fuzzy
 msgid ""
 "If this option is enabled, KVIrc will highlight any user message containing "
 "your current nickname."
 msgstr ""
+"Om detta alternativ är aktiverat kommer KVIrc att markera alla "
+"användarmeddelanden som innehåller ditt nuvarande smeknamn."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:62
+#, fuzzy
 msgid "Words/Nick matching is case sensitive"
-msgstr ""
+msgstr "Words/Nick-matchning är skiftlägeskänslig"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:63
+#, fuzzy
 msgid ""
 "If this option is enabled, KVIrc will match your nick and/or the words you "
 "specified in a case sensitive manner."
 msgstr ""
+"Om det här alternativet är aktiverat kommer KVIrc att matcha ditt nick och/"
+"eller de ord du angav på ett skiftlägeskänsligt sätt."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:65
 msgid "Highlighting Method"
 msgstr "Framhävningsmetod"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:72
+#, fuzzy
 msgid "Highlight every occurrence of a word inside text"
-msgstr ""
+msgstr "Markera varje förekomst av ett ord i texten"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:75
+#, fuzzy
 msgid ""
 "This selection will cause KVIrc to search for the highlighted words or "
 "nicknames inside the whole text. This will also highlight parts of words."
 "<br>(e.g. if your nickname is Mark then Markus will be highlighted too)."
 msgstr ""
+"Detta val gör att KVIrc söker efter de markerade orden eller smeknamnen i "
+"hela texten. Detta kommer också att markera delar av ord.<br>(t.ex. om ditt "
+"smeknamn är Mark så kommer Markus också att markeras)."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:79
+#, fuzzy
 msgid "Highlight only whole words splitting on space and on:"
-msgstr ""
+msgstr "Markera bara hela ord som delas upp på mellanslag och så vidare:"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:82
+#, fuzzy
 msgid ""
 "This selection will first split the string on the specified "
 "boundaries<br>(including space) and then will compare all the parts with the "
 "highlighted words."
 msgstr ""
+"Detta val kommer först att dela upp strängen på de angivna "
+"gränserna<br>(inklusive mellanslag) och sedan jämföra alla delar med de "
+"markerade orden."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:92
+#, fuzzy
 msgid "Alert Options"
-msgstr ""
+msgstr "Alternativ för varning"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:94
+#, fuzzy
 msgid "Flash the system taskbar entry on highlighted messages"
-msgstr ""
+msgstr "Blinka till systemets aktivitetsfält vid markerade meddelanden"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:96
+#, fuzzy
 msgid ""
 "If this option is enabled, KVIrc will (attempt to) flash the system taskbar "
 "entry when a highlighted message is printed and KVIrc is not the active "
 "window."
 msgstr ""
+"Om detta alternativ är aktiverat kommer KVIrc att (försöka) blinka i "
+"systemets aktivitetsfält när ett markerat meddelande skrivs ut och KVIrc "
+"inte är det aktiva fönstret."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:99
+#, fuzzy
 msgid "Popup the notifier window on highlighted messages"
-msgstr ""
+msgstr "Popup-fönster för meddelande vid markerade meddelanden"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:100
+#, fuzzy
 msgid ""
 "If this option is enabled, KVIrc will popup a little notifier window in the "
 "low right corner of your desktop when a highlighted message is printed and "
 "KVIrc is not the active window."
 msgstr ""
+"Om det här alternativet är aktiverat kommer KVIrc att visa ett litet "
+"meddelandefönster i det nedre högra hörnet på skrivbordet när ett markerat "
+"meddelande skrivs ut och KVIrc inte är det aktiva fönstret."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:123
+#, fuzzy
 msgid "Alert Restrictions"
-msgstr ""
+msgstr "Begränsningar för varningar"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:124
+#, fuzzy
 msgid "Restrict alert"
-msgstr ""
+msgstr "Begränsa varning"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:125
+#, fuzzy
 msgid ""
 "If this option is enabled, KVIrc will alert in the window list only if a "
 "normal message is received in a channel. Actions like joins, parts and mode "
@@ -207,60 +238,82 @@ msgid ""
 "high rate of traffic and only want to be alerted for messages that are "
 "interesting to you."
 msgstr ""
+"Om detta alternativ är aktiverat kommer KVIrc att visa en varning i "
+"fönsterlistan endast om ett normalt meddelande tas emot i en kanal. Åtgärder "
+"som sammanfogningar, delningar och lägesändringar ignoreras.<br> Detta är "
+"användbart om du befinner dig i kanaler med hög trafik och bara vill bli "
+"varnad för meddelanden som är intressanta för dig."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:129
+#, fuzzy
 msgid "Alert for highlighted words"
-msgstr ""
+msgstr "Varning för markerade ord"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:131
+#, fuzzy
 msgid ""
 "If this option is enabled, the window list will also alert for messages "
 "which contain a word from the highlighted words list above."
 msgstr ""
+"Om det här alternativet är aktiverat kommer fönsterlistan även att varna för "
+"meddelanden som innehåller ett ord från listan med markerade ord ovan."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:133
+#, fuzzy
 msgid "Alert for query messages"
-msgstr ""
+msgstr "Varning för frågemeddelanden"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:135
+#, fuzzy
 msgid ""
 "If this option is enabled, the window list will also alert for messages "
 "which are shown in queries."
 msgstr ""
+"Om det här alternativet är aktiverat kommer fönsterlistan även att varna för "
+"meddelanden som visas i frågor."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:139
+#, fuzzy
 msgid "Use custom alert level"
-msgstr ""
+msgstr "Använd anpassad varningsnivå"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:140
+#, fuzzy
 msgid ""
 "If this option is enabled, KVIrc will alert in the window list only if the "
 "specified alert level is reached."
 msgstr ""
+"Om det här alternativet är aktiverat kommer KVIrc att varna i fönsterlistan "
+"endast om den angivna varningsnivån uppnås."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:142
+#, fuzzy
 msgid "Minimum alert level:"
-msgstr ""
+msgstr "Lägsta varningsnivå:"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.cpp:145
+#, fuzzy
 msgid "This option sets the minimum alert level for the window list."
-msgstr ""
+msgstr "Detta alternativ anger den lägsta varningsnivån för fönsterlistan."
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.h:33
+#, fuzzy
 msgid "Alert/Highlight"
-msgstr ""
+msgstr "Varning/Highlight"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.h:46
 msgid "Highlight"
 msgstr "Framhäv"
 
 #: src/modules/options/OptionsWidget_alertsAndHighlighting.h:66
+#, fuzzy
 msgid "Window List Alert"
-msgstr ""
+msgstr "Varning för fönsterlista"
 
 #: src/modules/options/OptionsWidget_antiSpam.cpp:39
+#, fuzzy
 msgid "Enable Anti-spam for"
-msgstr ""
+msgstr "Aktivera anti-spam för"
 
 #: src/modules/options/OptionsWidget_antiSpam.cpp:40
 #: src/modules/options/OptionsWidget_query.cpp:43
@@ -269,39 +322,50 @@ msgstr "Privata meddelanden"
 
 #: src/modules/options/OptionsWidget_antiSpam.cpp:42
 #: src/modules/options/OptionsWidget_query.cpp:49
+#, fuzzy
 msgid "Private notices"
-msgstr ""
+msgstr "Privata meddelanden"
 
 #: src/modules/options/OptionsWidget_antiSpam.cpp:45
+#, fuzzy
 msgid "Silent anti-spam (no warnings)"
-msgstr ""
+msgstr "Tyst anti-spam (inga varningar)"
 
 #: src/modules/options/OptionsWidget_antiSpam.cpp:46
+#, fuzzy
 msgid "Words considered spam:"
-msgstr ""
+msgstr "Ord som betraktas som skräppost:"
 
 #: src/modules/options/OptionsWidget_antiSpam.h:30
+#, fuzzy
 msgid "Anti-spam"
-msgstr ""
+msgstr "Anti-spam"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:41
+#, fuzzy
 msgid "Scaling in Userlist"
-msgstr ""
+msgstr "Skalning i användarlistan"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:42
+#, fuzzy
 msgid "Scale avatar images in userlist (recommended)"
-msgstr ""
+msgstr "Skala avatarbilder i användarförteckningen (rekommenderas)"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:43
+#, fuzzy
 msgid ""
 "This option will force KVIrc to scale avatars shown in the userlist."
 "<br>Avatars will be scaled to fit the constraints set below. Better keep "
 "this option on."
 msgstr ""
+"Detta alternativ kommer att tvinga KVIrc att skala avatarer som visas i "
+"användarlistan.<br>Avatarer kommer att skalas för att passa de begränsningar "
+"som anges nedan. Bättre att behålla detta alternativ på."
 
 #: src/modules/options/OptionsWidget_avatar.cpp:49
+#, fuzzy
 msgid "Do not scale avatar if it is less than required size"
-msgstr ""
+msgstr "Skala inte avataren om den är mindre än önskad storlek"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:51
 #: src/modules/options/OptionsWidget_avatar.cpp:61
@@ -327,30 +391,37 @@ msgid "Image height:"
 msgstr "Bildhöjd:"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:58
+#, fuzzy
 msgid "Scaling on Load and in User Tooltips"
-msgstr ""
+msgstr "Skalning vid laddning och i användarens verktygstips"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:59
+#, fuzzy
 msgid "Scale avatar images on image load"
-msgstr ""
+msgstr "Skala avatarbilder vid bildladdning"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:68
 msgid "Request CTCP"
 msgstr "Begär CTCP"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:69
+#, fuzzy
 msgid "Request missing avatars"
-msgstr ""
+msgstr "Begär saknade avatarer"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:70
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to send a DCC GET request when someone sets an "
 "avatar and there is no cached copy available."
 msgstr ""
+"Detta alternativ gör att KVIrc skickar en DCC GET-begäran när någon ställer "
+"in en avatar och det inte finns någon cachad kopia tillgänglig."
 
 #: src/modules/options/OptionsWidget_avatar.cpp:74
+#, fuzzy
 msgid "Maximum requested file size:"
-msgstr ""
+msgstr "Maximal begärd filstorlek:"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:76
 #: src/modules/options/OptionsWidget_dcc.cpp:291
@@ -358,36 +429,50 @@ msgid " bytes"
 msgstr " byte"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:77
+#, fuzzy
 msgid ""
 "This is the maximum size for avatar images that will be automatically "
 "requested.<br>A reasonable value might be 102400 bytes (100 K)."
 msgstr ""
+"Detta är den maximala storleken för avatarbilder som automatiskt kommer att "
+"begäras.<br>Ett rimligt värde kan vara 102400 byte (100 K)."
 
 #: src/modules/options/OptionsWidget_avatar.cpp:84
+#, fuzzy
 msgid "Automatically accept incoming avatars"
-msgstr ""
+msgstr "Acceptera automatiskt inkommande avatarer"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:85
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to auto-accept DCC SEND requests for incoming "
 "avatars.<br>If you're using the \"Request missing avatars\" option above, "
 "enabling this may by useful.<br>Avatars will be saved in the local KVIrc "
 "directory."
 msgstr ""
+"Detta alternativ gör att KVIrc automatiskt accepterar DCC SEND-begäranden "
+"för inkommande avatarer.<br>Om du använder alternativet \"Begär saknade "
+"avatarer\" ovan kan det vara bra att aktivera detta.<br>Avatarer sparas i "
+"den lokala KVIrc-katalogen."
 
 #: src/modules/options/OptionsWidget_avatar.cpp:92
+#, fuzzy
 msgid "Remember avatars for registered users"
-msgstr ""
+msgstr "Kom ihåg avatarer för registrerade användare"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:93
+#, fuzzy
 msgid ""
 "Use a user's last known avatar by default (only for users that are "
 "registered)."
 msgstr ""
+"Använd en användares senast kända avatar som standard (endast för användare "
+"som är registrerade)."
 
 #: src/modules/options/OptionsWidget_avatar.cpp:97
+#, fuzzy
 msgid "Avatar offer timeout:"
-msgstr ""
+msgstr "Avatar erbjudande timeout:"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:98
 #: src/modules/options/OptionsWidget_channel.cpp:121
@@ -402,6 +487,7 @@ msgid " sec"
 msgstr " s"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:99
+#, fuzzy
 msgid ""
 "This is the amount of time to make an avatar available for transfer when "
 "requested.<br>When someone sends a CTCP AVATAR request, KVIrc will reply "
@@ -409,68 +495,90 @@ msgid ""
 "<br>A time-limited file offer is added for the image file to the requesting "
 "user."
 msgstr ""
+"Detta är den tid det tar att göra en avatar tillgänglig för överföring på "
+"begäran.<br>När någon skickar en CTCP AVATAR-begäran svarar KVIrc med ett "
+"CTCP AVATAR-meddelande som innehåller namnet på och storleken på din "
+"avatarbild.<br>Ett tidsbegränsat filerbjudande läggs till för bildfilen till "
+"den begärande användaren."
 
 #: src/modules/options/OptionsWidget_avatar.cpp:107
+#, fuzzy
 msgid "Ignore requests if no avatar is set"
-msgstr ""
+msgstr "Ignorera förfrågningar om ingen avatar har angetts"
 
 #: src/modules/options/OptionsWidget_avatar.cpp:108
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to ignore channel CTCP AVATAR requests when you "
 "have no avatar set. This is usually a good practice since it helps in "
 "reducing traffic by not sending a reply that would be empty."
 msgstr ""
+"Detta alternativ gör att KVIrc ignorerar kanalens CTCP AVATAR-förfrågningar "
+"när du inte har någon avatar inställd. Detta är vanligtvis en bra praxis "
+"eftersom det hjälper till att minska trafiken genom att inte skicka ett svar "
+"som skulle vara tomt."
 
 #: src/modules/options/OptionsWidget_avatar.h:30
 msgid "Avatars"
 msgstr "Avatarer"
 
 #: src/modules/options/OptionsWidget_away.cpp:39
+#, fuzzy
 msgid "Enable default away message"
-msgstr ""
+msgstr "Aktivera standardmeddelande för bortgång"
 
 #: src/modules/options/OptionsWidget_away.cpp:41
+#, fuzzy
 msgid "Default away message:"
-msgstr ""
+msgstr "Standardmeddelande iväg:"
 
 #: src/modules/options/OptionsWidget_away.cpp:43
+#, fuzzy
 msgid "User input exits away mode"
-msgstr ""
+msgstr "Användarens inmatning lämnar bortaläget"
 
 #: src/modules/options/OptionsWidget_away.cpp:45
+#, fuzzy
 msgid "Away Nickname"
-msgstr ""
+msgstr "Borta Smeknamn"
 
 #: src/modules/options/OptionsWidget_away.cpp:46
+#, fuzzy
 msgid "Change nickname on away"
-msgstr ""
+msgstr "Ändra smeknamn på bortaplan"
 
 #: src/modules/options/OptionsWidget_away.cpp:49
+#, fuzzy
 msgid "Use automatic nickname ([5 letters]AWAY)"
-msgstr ""
+msgstr "Använd automatiskt smeknamn ([5 bokstäver]AWAY)"
 
 #: src/modules/options/OptionsWidget_away.cpp:54
-#, no-c-format
+#, fuzzy, no-c-format
 msgid "Custom nickname (%nick% means a current nick):"
-msgstr ""
+msgstr "Anpassat smeknamn (%nick% betyder ett aktuellt smeknamn):"
 
 #: src/modules/options/OptionsWidget_away.h:30
 msgid "Away"
 msgstr "Borta"
 
 #: src/modules/options/OptionsWidget_channel.cpp:54
+#, fuzzy
 msgid "On Channel Kick"
-msgstr ""
+msgstr "Kick på kanalen"
 
 #: src/modules/options/OptionsWidget_channel.cpp:56
+#, fuzzy
 msgid "Rejoin channel"
-msgstr ""
+msgstr "Återanslut till kanalen"
 
 #: src/modules/options/OptionsWidget_channel.cpp:57
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to attempt to rejoin a channel after being "
 "kicked."
 msgstr ""
+"Detta alternativ gör att KVIrc försöker återansluta sig till en kanal efter "
+"att ha blivit utsparkad."
 
 #: src/modules/options/OptionsWidget_channel.cpp:60
 #: src/modules/options/OptionsWidget_channel.cpp:68
@@ -478,103 +586,139 @@ msgid "Keep channel open"
 msgstr "Håll kanalen öppen"
 
 #: src/modules/options/OptionsWidget_channel.cpp:61
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to keep the channel window open after being "
 "kicked. It might be a good idea to also enable the \"Rejoin channel\" option."
 msgstr ""
+"Detta alternativ gör att KVIrc håller kanalfönstret öppet efter att ha "
+"blivit kickad. Det kan vara en bra idé att även aktivera alternativet "
+"\"Återanslut till kanalen\"."
 
 #: src/modules/options/OptionsWidget_channel.cpp:66
+#, fuzzy
 msgid "On Channel Part"
-msgstr ""
+msgstr "På kanal del"
 
 #: src/modules/options/OptionsWidget_channel.cpp:69
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to keep the channel window open after leaving "
 "it."
 msgstr ""
+"Detta alternativ gör att KVIrc behåller kanalfönstret öppet efter att ha "
+"lämnat det."
 
 #: src/modules/options/OptionsWidget_channel.cpp:72
+#, fuzzy
 msgid "Automatically join channel on invite"
-msgstr ""
+msgstr "Gå automatiskt med i kanalen vid inbjudan"
 
 #: src/modules/options/OptionsWidget_channel.cpp:73
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to automatically join a channel when an INVITE "
 "message for that channel is received.<br><b>Warning:</b> this may help "
 "spammers harass you."
 msgstr ""
+"Detta alternativ gör att KVIrc automatiskt ansluter till en kanal när ett "
+"INVITE-meddelande för den kanalen tas emot.<br><b>Varning:</b> detta kan "
+"hjälpa spammare att trakassera dig."
 
 #: src/modules/options/OptionsWidget_channel.cpp:77
+#, fuzzy
 msgid "Open channel windows without focus"
-msgstr ""
+msgstr "Öppna kanalfönster utan fokus"
 
 #: src/modules/options/OptionsWidget_channel.cpp:78
+#, fuzzy
 msgid ""
 "This option prevents newly created channel windows from diverting "
 "application focus.<br>Enable this if you don't like channel windows popping "
 "up while you're typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar att nyskapade kanalfönster avleder programmets "
+"fokus.<br>Aktivera detta om du inte vill att kanalfönster ska dyka upp när "
+"du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_channel.cpp:98
+#, fuzzy
 msgid "Log joined channels history"
-msgstr ""
+msgstr "Logga in i kanalernas historik"
 
 #: src/modules/options/OptionsWidget_channel.cpp:100
+#, fuzzy
 msgid "Default ban mask:"
-msgstr ""
+msgstr "Standard ban mask:"
 
 #: src/modules/options/OptionsWidget_channel.cpp:119
+#, fuzzy
 msgid "On Channel Join"
-msgstr ""
+msgstr "On Channel Join"
 
 #: src/modules/options/OptionsWidget_channel.cpp:120
+#, fuzzy
 msgid "Minimum delay between two channel requests:"
-msgstr ""
+msgstr "Minsta fördröjning mellan två kanalbegäran:"
 
 #: src/modules/options/OptionsWidget_channel.cpp:122
+#, fuzzy
 msgid ""
 "This is an artificial delay for the channel requests made on join.<br>You "
 "may increase it if your server complains about flooding when joining many "
 "channels at once.<br>Minimum value: <b>0 secs</b><br>Maximum value: <b>10 "
 "secs</b>"
 msgstr ""
+"Detta är en artificiell fördröjning för de kanalförfrågningar som görs vid "
+"anslutning.<br>Du kan öka den om din server klagar på översvämning när många "
+"kanaler ansluts samtidigt.<br>Minsta värde: <b>0 sekunder</b><br>Högsta "
+"värde: <b>10 sekunder</b>"
 
 #: src/modules/options/OptionsWidget_channel.cpp:127
+#, fuzzy
 msgid "Do not send /WHO request"
-msgstr ""
+msgstr "Skicka inte /WHO-begäran"
 
 #: src/modules/options/OptionsWidget_channel.cpp:128
+#, fuzzy
 msgid "Do not request ban list"
-msgstr ""
+msgstr "Förbudslista för att inte begära"
 
 #: src/modules/options/OptionsWidget_channel.cpp:129
+#, fuzzy
 msgid "Do not request ban exception list"
-msgstr ""
+msgstr "Undantagslista för förbud mot begäran"
 
 #: src/modules/options/OptionsWidget_channel.cpp:130
+#, fuzzy
 msgid "Do not request invite list"
-msgstr ""
+msgstr "Begär inte inbjudningslista"
 
 #: src/modules/options/OptionsWidget_channel.cpp:131
+#, fuzzy
 msgid "Do not request quiet ban list"
-msgstr ""
+msgstr "Begär inte tyst förbudslista"
 
 #: src/modules/options/OptionsWidget_channel.cpp:132
+#, fuzzy
 msgid "Echo channel topic"
-msgstr ""
+msgstr "Ämne för ekokanal"
 
 #: src/modules/options/OptionsWidget_channel.cpp:133
+#, fuzzy
 msgid "Show channel sync time"
-msgstr ""
+msgstr "Visa kanalens synkroniseringstid"
 
 #: src/modules/options/OptionsWidget_channel.cpp:135
+#, fuzzy
 msgid "Paste last channel log"
-msgstr ""
+msgstr "Klistra in den senaste kanalens logg"
 
 #: src/modules/options/OptionsWidget_channel.cpp:139
 #: src/modules/options/OptionsWidget_query.cpp:93
+#, fuzzy
 msgid "Paste up to:"
-msgstr ""
+msgstr "Klistra in upp till:"
 
 #: src/modules/options/OptionsWidget_channel.cpp:140
 #: src/modules/options/OptionsWidget_ircView.cpp:158
@@ -584,8 +728,9 @@ msgstr " rader"
 
 #: src/modules/options/OptionsWidget_channel.cpp:141
 #: src/modules/options/OptionsWidget_query.cpp:96
+#, fuzzy
 msgid "Minimum value: <b>1 lines</b><br>Maximum value: <b>32767 lines</b>"
-msgstr ""
+msgstr "Minsta värde: <b>1 rad</b><br>Högsta värde: <b>32767 rader</b>"
 
 #: src/modules/options/OptionsWidget_channel.cpp:145
 #: src/modules/options/OptionsWidget_query.cpp:100
@@ -599,20 +744,27 @@ msgstr " dagar"
 
 #: src/modules/options/OptionsWidget_channel.cpp:147
 #: src/modules/options/OptionsWidget_query.cpp:103
+#, fuzzy
 msgid "Minimum value: <b>1 days</b><br>Maximum value: <b>3652 days</b>"
-msgstr ""
+msgstr "Lägsta värde: <b>1 dagar</b><br>Högsta värde: <b>3652 dagar</b>"
 
 #: src/modules/options/OptionsWidget_channel.cpp:151
+#, fuzzy
 msgid "Keep away list updated"
-msgstr ""
+msgstr "Håll bortalistan uppdaterad"
 
 #: src/modules/options/OptionsWidget_channel.cpp:152
+#, fuzzy
 msgid ""
 "KVIrc sends out a channel /WHO message every now and then to keep the "
 "channel away list in sync. Use this option to disable this feature (and to "
 "save your IRC bandwidth).<br>If the server supports IRCv3.1's away-notify "
 "extension, it will be used instead of WHO requests."
 msgstr ""
+"KVIrc skickar ut ett kanal /WHO-meddelande då och då för att hålla kanalens "
+"bortalista synkroniserad. Använd detta alternativ för att inaktivera denna "
+"funktion (och för att spara din IRC-bandbredd).<br>Om servern stöder IRCv3.1:"
+"s away-notify-tillägg kommer det att användas istället för WHO-begäranden."
 
 #: src/modules/options/OptionsWidget_channel.h:36
 msgid "Channel"
@@ -645,63 +797,85 @@ msgstr "Vid frånkoppling"
 
 #: src/modules/options/OptionsWidget_connection.cpp:46
 #: src/modules/options/OptionsWidget_connection.cpp:54
+#, fuzzy
 msgid "Keep channels open"
-msgstr ""
+msgstr "Håll kanalerna öppna"
 
 #: src/modules/options/OptionsWidget_connection.cpp:47
+#, fuzzy
 msgid "This option will cause KVIrc to keep channels open after disconnect."
 msgstr ""
+"Detta alternativ gör att KVIrc håller kanaler öppna efter frånkoppling."
 
 #: src/modules/options/OptionsWidget_connection.cpp:49
 #: src/modules/options/OptionsWidget_connection.cpp:57
+#, fuzzy
 msgid "Keep queries open"
-msgstr ""
+msgstr "Håll frågorna öppna"
 
 #: src/modules/options/OptionsWidget_connection.cpp:50
+#, fuzzy
 msgid "This option will cause KVIrc to keep queries open after disconnect."
-msgstr ""
+msgstr "Detta alternativ gör att KVIrc håller frågor öppna efter frånkoppling."
 
 #: src/modules/options/OptionsWidget_connection.cpp:52
+#, fuzzy
 msgid "On Unexpected Disconnect"
-msgstr ""
+msgstr "Om oväntad frånkoppling"
 
 #: src/modules/options/OptionsWidget_connection.cpp:55
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to keep channels open after an unexpected "
 "disconnect."
 msgstr ""
+"Detta alternativ gör att KVIrc håller kanaler öppna efter en oväntad "
+"frånkoppling."
 
 #: src/modules/options/OptionsWidget_connection.cpp:58
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to keep queries open after an unexpected "
 "disconnect."
 msgstr ""
+"Detta alternativ gör att KVIrc fortsätter att hålla frågor öppna efter en "
+"oväntad frånkoppling."
 
 #: src/modules/options/OptionsWidget_connection.cpp:60
+#, fuzzy
 msgid "Rejoin channels after reconnect"
-msgstr ""
+msgstr "Återansluta kanaler efter återanslutning"
 
 #: src/modules/options/OptionsWidget_connection.cpp:61
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to rejoin channels after a successful reconnect "
 "attempt."
 msgstr ""
+"Detta alternativ gör att KVIrc återansluter till kanaler efter ett lyckat "
+"försök att återansluta."
 
 #: src/modules/options/OptionsWidget_connection.cpp:63
+#, fuzzy
 msgid "Reopen queries after reconnect"
-msgstr ""
+msgstr "Öppna frågor igen efter återanslutning"
 
 #: src/modules/options/OptionsWidget_connection.cpp:64
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to reopen query windows after a successful "
 "reconnect attempt."
 msgstr ""
+"Detta alternativ gör att KVIrc öppnar frågefönster igen efter ett lyckat "
+"försök att återansluta."
 
 #: src/modules/options/OptionsWidget_connection.cpp:66
+#, fuzzy
 msgid "Automatically reconnect"
-msgstr ""
+msgstr "Automatisk återanslutning"
 
 #: src/modules/options/OptionsWidget_connection.cpp:67
+#, fuzzy
 msgid ""
 "This option will enable auto-reconnecting after an unexpected disconnect. An "
 "unexpected disconnect is the <b>termination</b> of a <b>fully connected IRC "
@@ -716,18 +890,33 @@ msgid ""
 "\"quit\" command.<br><tt>alias(bncdetach){ raw bouncer detach; quit; }</tt></"
 "p>"
 msgstr ""
+"Detta alternativ aktiverar automatisk återanslutning efter en oväntad "
+"frånkoppling. En oväntad frånkoppling är <b>avslutandet</b> av en <b>fullt "
+"ansluten IRC-session</b> som <b>inte begärdes av användaren</b> med hjälp av "
+"QUIT-meddelandet<p><b>.Varning</b>: Om du använder /RAW för att skicka ett "
+"QUIT-meddelande till servern kommer det här alternativet inte att fungera "
+"korrekt, eftersom det inte upptäcker det utgående QUIT-meddelandet och "
+"kommer att försöka återansluta efter att servern har stängt anslutningen. "
+"Använd därför alltid kommandot /QUIT för att stänga anslutningarna. Det här "
+"alternativet kan också bete sig felaktigt med bouncers som stöder "
+"detachering, i det här fallet kan en lösning vara att förbereda ett alias "
+"som skickar bouncer-kommandot \"detach\" omedelbart före kommandot "
+"\"<tt>quit</tt>\".<br><tt>alias(bncdetach){ raw bouncer detach; quit; }</"
+"tt></p>"
 
 #: src/modules/options/OptionsWidget_connection.cpp:80
+#, fuzzy
 msgid "Maximum attempts (0 = unlimited):"
-msgstr ""
+msgstr "Maximalt antal försök (0 = obegränsat):"
 
 #: src/modules/options/OptionsWidget_connection.cpp:84
 msgid "Delay between attempts:"
 msgstr "Fördröjning mellan försök:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:89
+#, fuzzy
 msgid "Minimum value: <b>0 sec</b><br>Maximum value: <b>86400 sec</b>"
-msgstr ""
+msgstr "Minsta värde: <b>0 sek</b><br>Högsta värde: <b>86400 sek</b>"
 
 #: src/modules/options/OptionsWidget_connection.cpp:109
 msgid "Certificate"
@@ -754,16 +943,19 @@ msgid "Use SSL private key"
 msgstr "Använd privat SSL-nyckel"
 
 #: src/modules/options/OptionsWidget_connection.cpp:125
+#, fuzzy
 msgid "Private key location:"
-msgstr ""
+msgstr "Privat nyckelplats:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:129
+#, fuzzy
 msgid "Private key password:"
-msgstr ""
+msgstr "Lösenord för privat nyckel:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:135
+#, fuzzy
 msgid "This executable has no SSL support."
-msgstr ""
+msgstr "Den här körbara filen har inget SSL-stöd."
 
 #: src/modules/options/OptionsWidget_connection.cpp:153
 msgid "Timeout Values"
@@ -774,8 +966,9 @@ msgid "Connect timeout:"
 msgstr "Tidsgräns för anslutning:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:156
+#, fuzzy
 msgid "Outgoing data queue flush timeout:"
-msgstr ""
+msgstr "Timeout för spolning av utgående datakö:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:157
 #: src/modules/options/OptionsWidget_dcc.cpp:283
@@ -787,20 +980,23 @@ msgid " msec"
 msgstr " msec"
 
 #: src/modules/options/OptionsWidget_connection.cpp:158
+#, fuzzy
 msgid "Limit outgoing traffic per connection"
-msgstr ""
+msgstr "Begränsa utgående trafik per anslutning"
 
 #: src/modules/options/OptionsWidget_connection.cpp:159
+#, fuzzy
 msgid "Limit to 1 message every:"
-msgstr ""
+msgstr "Begränsa till 1 meddelande per gång:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:161
 msgid " usec"
 msgstr " usec"
 
 #: src/modules/options/OptionsWidget_connection.cpp:162
+#, fuzzy
 msgid "Minimum value: <b>10000 usec</b><br>Maximum value: <b>10000000 usec</b>"
-msgstr ""
+msgstr "Minsta värde: <b>10000 usec</b><br>Högsta värde: <b>10000000 usec</b>"
 
 #: src/modules/options/OptionsWidget_connection.cpp:165
 msgid "Network Interfaces"
@@ -815,10 +1011,12 @@ msgid "Bind IPv6 connections to:"
 msgstr "Bind IPv6-anslutningar till:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:176
+#, fuzzy
 msgid "Pick random IP address for round-robin servers"
-msgstr ""
+msgstr "Välj slumpmässig IP-adress för round-robin-servrar"
 
 #: src/modules/options/OptionsWidget_connection.cpp:177
+#, fuzzy
 msgid ""
 "This option will cause the KVIrc networking stack to pick up a random entry "
 "when multiple IP address are retrieved for a server DNS lookup. This is "
@@ -827,32 +1025,46 @@ msgid ""
 "hand, you might want to disable it if you want to rely on the DNS server to "
 "provide the best choice."
 msgstr ""
+"Det här alternativet gör att KVIrc-nätverksstacken väljer en slumpmässig "
+"post när flera IP-adresser hämtas för en DNS-uppslagning på en server. Detta "
+"är ofarligt och kan lösa vissa problem med cachelagrade DNS-servrar som inte "
+"roterar posterna korrekt som de auktoritativa servrarna skulle göra. Å andra "
+"sidan kanske du vill inaktivera det om du vill förlita dig på att DNS-"
+"servern ger dig det bästa valet."
 
 #: src/modules/options/OptionsWidget_connection.cpp:185
+#, fuzzy
 msgid "Drop connection on SASL authentication failure"
-msgstr ""
+msgstr "Avbryt anslutningen om SASL-autentiseringen misslyckas"
 
 #: src/modules/options/OptionsWidget_connection.cpp:186
+#, fuzzy
 msgid ""
 "This option will close the socket if no SASL authentication or any SASL "
 "fallback had succeeded."
 msgstr ""
+"Detta alternativ stänger sockeln om ingen SASL-autentisering eller SASL-"
+"fallback har lyckats."
 
 #: src/modules/options/OptionsWidget_connection.cpp:201
+#, fuzzy
 msgid "Enable Ident service"
-msgstr ""
+msgstr "Aktivera Ident-tjänst"
 
 #: src/modules/options/OptionsWidget_connection.cpp:203
+#, fuzzy
 msgid "Enable Ident service (bad practice on UNIX!)"
-msgstr ""
+msgstr "Aktivera Ident-tjänsten (dålig praxis på UNIX!)"
 
 #: src/modules/options/OptionsWidget_connection.cpp:207
+#, fuzzy
 msgid "Output Verbosity"
-msgstr ""
+msgstr "Utgångsverbositet"
 
 #: src/modules/options/OptionsWidget_connection.cpp:210
+#, fuzzy
 msgid "Output Ident service messages to:"
-msgstr ""
+msgstr "Output Ident servicemeddelanden till:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:212
 msgid "Active window"
@@ -863,8 +1075,9 @@ msgid "Console"
 msgstr "Konsoll"
 
 #: src/modules/options/OptionsWidget_connection.cpp:214
+#, fuzzy
 msgid "Do not show any Ident service messages"
-msgstr ""
+msgstr "Visa inga meddelanden från Ident service"
 
 #: src/modules/options/OptionsWidget_connection.cpp:233
 #: src/modules/options/OptionsWidget_lag.cpp:42
@@ -874,16 +1087,19 @@ msgid "Configuration"
 msgstr "Konfiguration"
 
 #: src/modules/options/OptionsWidget_connection.cpp:235
+#, fuzzy
 msgid "Enable Ident service only while connecting to server"
-msgstr ""
+msgstr "Aktivera Ident-tjänsten endast när du ansluter till servern"
 
 #: src/modules/options/OptionsWidget_connection.cpp:238
+#, fuzzy
 msgid "Ident username:"
-msgstr ""
+msgstr "Identifierat användarnamn:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:241
+#, fuzzy
 msgid "Service port:"
-msgstr ""
+msgstr "Servicehamn:"
 
 #: src/modules/options/OptionsWidget_connection.cpp:245
 msgid "IPv6 Settings"
@@ -894,17 +1110,24 @@ msgid "Enable service for IPv6"
 msgstr "Aktivera tjänst för IPv6"
 
 #: src/modules/options/OptionsWidget_connection.cpp:255
+#, fuzzy
 msgid "IP stack treats IPv4 as part of IPv6 namespace"
-msgstr ""
+msgstr "IP-stacken behandlar IPv4 som en del av IPv6-namnrymden"
 
 #: src/modules/options/OptionsWidget_connection.cpp:261
+#, fuzzy
 msgid ""
 "<p><b>Warning:</b><br>This is a <b>non RFC 1413 compliant</b> Ident daemon "
 "that implements only a limited subset of the Identification Protocol "
 "specifications. If it is possible, install a real Ident daemon.</p>"
 msgstr ""
+"<p><b>Varning:</b><br>Detta är en Ident-daemon som <b>inte överensstämmer "
+"med RFC 1413</b> och som endast implementerar en begränsad delmängd av "
+"specifikationerna för Identification Protocol. Om det är möjligt bör du "
+"installera en riktig Ident-daemon.</p>"
 
 #: src/modules/options/OptionsWidget_connection.cpp:267
+#, fuzzy
 msgid ""
 "<p><b>Warning:</b><br>This is a <b>non RFC 1413 compliant</b> Ident daemon "
 "that implements only a limited subset of the <b>Identification Protocol</b> "
@@ -913,6 +1136,12 @@ msgid ""
 "system-wide Ident daemon be used instead, or none at all if Ident is not "
 "required.</p>"
 msgstr ""
+"<p><b>Varning:</b><br>Detta är en Ident-daemon som <b>inte uppfyller RFC "
+"1413</b> och som endast implementerar en begränsad delmängd av "
+"specifikationerna för <b>Identification Protocol</b>.<br>På UNIX kan du även "
+"behöva root-behörighet för att binda till auth-porten (113).<br>Det "
+"<b>rekommenderas starkt</b> att en <b>riktig</b> systemomfattande Ident-"
+"daemon används i stället, eller ingen alls om Ident inte behövs.</p>"
 
 #: src/modules/options/OptionsWidget_connection.h:33
 #: src/modules/options/OptionsWidget_servers.cpp:817
@@ -928,75 +1157,100 @@ msgid "Socket"
 msgstr "Uttag"
 
 #: src/modules/options/OptionsWidget_connection.h:84
+#, fuzzy
 msgid "Ident Service"
-msgstr ""
+msgstr "Ident-tjänst"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:38
+#, fuzzy
 msgid ""
 "<p><b>Client-to-client protocol</b> (CTCP) is used to transmit special "
 "control messages over an IRC connection. These messages can request "
 "information from clients or negotiate file transfers.</p>"
 msgstr ""
+"<p>CTCP (<b>Client-to-Client Protocol</b> ) används för att överföra "
+"speciella kontrollmeddelanden över en IRC-anslutning. Dessa meddelanden kan "
+"begära information från klienter eller förhandla om filöverföringar.</p>"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:42
 msgid "CTCP Replies"
 msgstr "CTCP-svar"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:43
+#, fuzzy
 msgid "Append to VERSION reply:"
-msgstr ""
+msgstr "Läggs till i VERSION-svaret:"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:47
+#, fuzzy
 msgid ""
 "This text will be appended to the CTCP VERSION reply.<br>For example, you "
 "can place a script name here."
 msgstr ""
+"Denna text kommer att läggas till svaret CTCP VERSION.<br>Här kan du t.ex. "
+"placera ett skriptnamn."
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:49
+#, fuzzy
 msgid "Append to SOURCE reply:"
-msgstr ""
+msgstr "Lägg till svaret från SOURCE:"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:53
+#, fuzzy
 msgid ""
 "This text will be appended to the CTCP SOURCE reply.<br>For example, you can "
 "place the source URL for a script here."
 msgstr ""
+"Denna text kommer att läggas till i CTCP SOURCE-svaret.<br>Här kan du t.ex. "
+"ange källadressen till ett skript."
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:55
+#, fuzzy
 msgid "PAGE reply:"
-msgstr ""
+msgstr "PAGE svarar:"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:59
+#, fuzzy
 msgid ""
 "This is the CTCP PAGE reply.<br>It should contain some sort of "
 "acknowledgment for CTCP PAGE messages."
 msgstr ""
+"Detta är CTCP PAGE-svaret.<br>Det bör innehålla någon form av bekräftelse "
+"för CTCP PAGE-meddelanden."
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:61
+#, fuzzy
 msgid "Show the CTCP replies in the active window"
-msgstr ""
+msgstr "Visa CTCP-svaren i det aktiva fönstret"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:63
+#, fuzzy
 msgid "Show dialog for CTCP page requests"
-msgstr ""
+msgstr "Visa dialog för CTCP-sidförfrågningar"
 
 #: src/modules/options/OptionsWidget_ctcp.cpp:64
+#, fuzzy
 msgid "Show dialog for channel CTCP page requests"
-msgstr ""
+msgstr "Visa dialog för begäran om CTCP-sida för kanal"
 
 #: src/modules/options/OptionsWidget_ctcp.h:30
 msgid "CTCP"
 msgstr "CTCP"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:81
+#, fuzzy
 msgid "Use flood protection for CTCP requests (recommended)"
-msgstr ""
+msgstr "Använd översvämningsskydd för CTCP-förfrågningar (rekommenderas)"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:82
+#, fuzzy
 msgid ""
 "This option makes KVIrc only respond to a limited number of CTCP requests "
 "within a specified time interval, to prevent \"flooding\" CTCP messages."
 msgstr ""
+"Detta alternativ gör att KVIrc endast svarar på ett begränsat antal CTCP-"
+"begäranden inom ett angivet tidsintervall, för att förhindra att CTCP-"
+"meddelanden \"översvämmas\"."
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:84
 msgid "Allow up to:"
@@ -1004,24 +1258,29 @@ msgstr "Tillåt upp till:"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:85
 msgid " requests"
-msgstr ""
+msgstr " begäran"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:86
+#, fuzzy
 msgid ""
 "Minimum value: <b>0 requests</b><br>Maximum value: <b>10000 requests</b>"
 msgstr ""
+"Minsta värde: <b>0 förfrågningar</b><br>Högsta värde: <b>10000 "
+"förfrågningar</b>"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:89
 msgid "within:"
 msgstr "inom:"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:91
+#, fuzzy
 msgid "Minimum value: <b>1 sec</b><br>Maximum value: <b>3600 sec</b>"
-msgstr ""
+msgstr "Minsta värde: <b>1 sek</b><br>Högsta värde: <b>3600 sekunder</b>"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:94
+#, fuzzy
 msgid "Ignored CTCP Requests"
-msgstr ""
+msgstr "Ignorerade CTCP-förfrågningar"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.cpp:95
 msgid "PING"
@@ -1064,55 +1323,80 @@ msgid "DCC/TDCC"
 msgstr "DCC/TDCC"
 
 #: src/modules/options/OptionsWidget_ctcpFloodProtection.h:30
+#, fuzzy
 msgid "Flood Protection"
-msgstr ""
+msgstr "Skydd mot översvämningar"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:46
+#, fuzzy
 msgid "Use workaround for firewall"
-msgstr ""
+msgstr "Använd en lösning för brandväggen"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:47
+#, fuzzy
 msgid ""
 "Enable this option if you can't accept incoming connections.<br>KVIrc will "
 "try to use different methods to send and receive files.<br>Please note that "
 "these methods may NOT work when communicating with a non-KVIrc client."
 msgstr ""
+"Aktivera det här alternativet om du inte kan acceptera inkommande "
+"anslutningar.<br>KVIrc kommer att försöka använda olika metoder för att "
+"skicka och ta emot filer.<br>Observera att dessa metoder kanske INTE "
+"fungerar när du kommunicerar med en icke-KVIrc-klient."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:69
+#, fuzzy
 msgid "Network Properties"
-msgstr ""
+msgstr "Egenskaper för nätverk"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:71
+#, fuzzy
 msgid "Use user-defined address or network interface"
-msgstr ""
+msgstr "Använd användardefinierad adress eller nätverksgränssnitt"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:72
+#, fuzzy
 msgid ""
 "Enable this option if you are on a multihost machine and want to force one "
 "of the available IP addresses to be used for outgoing DCCs.<br>This is "
 "especially useful when you use IPv6 and IPv4 addresses. You can force KVIrc "
 "to always choose the IPv4 interface."
 msgstr ""
+"Aktivera det här alternativet om du arbetar på en maskin med flera värdar "
+"och vill tvinga en av de tillgängliga IP-adresserna att användas för "
+"utgående DCC.<br>Det här är särskilt användbart när du använder IPv6- och "
+"IPv4-adresser. Du kan tvinga KVIrc att alltid välja IPv4-gränssnittet."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:76
+#, fuzzy
 msgid "Listen on address/interface:"
-msgstr ""
+msgstr "Lyssna på adress/gränssnitt:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:78
+#, fuzzy
 msgid ""
 "This is the IP address or name of the interface to use by default for "
 "outgoing DCC transfers.<br>On UNIX systems that support it, you can also "
 "specify IPv4 interface names (such as <b>ppp0</b>).<br>If you set it to "
 "<b>0.0.0.0</b>, KVIrc will try to use the first available IPv4 interface."
 msgstr ""
+"Detta är IP-adressen eller namnet på det gränssnitt som ska användas som "
+"standard för utgående DCC-överföringar.<br>I UNIX-system som stöder detta "
+"kan du även ange IPv4-gränssnittsnamn (t.ex. <b>ppp0</b>).<br>Om du anger "
+"<b>0.0.0.0</b> försöker KVIrc använda det första tillgängliga IPv4-"
+"gränssnittet."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:84
+#, fuzzy
 msgid "Use user-defined port range"
-msgstr ""
+msgstr "Använd användardefinierat portintervall"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:85
+#, fuzzy
 msgid "Enable this option if you want specify a local port range for DCC."
 msgstr ""
+"Aktivera det här alternativet om du vill ange ett lokalt portintervall för "
+"DCC."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:90
 msgid "Lowest port:"
@@ -1127,28 +1411,39 @@ msgid "Send a fixed address in requests"
 msgstr "Skicka en fast adress i begäran"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:99
+#, fuzzy
 msgid ""
 "Enable this option if you want to always send a fake IP address in your DCC "
 "requests.<br>This might be useful if you're behind a router with a static "
 "address that does network address translation (NAT) and forwards all or a "
 "range of ports."
 msgstr ""
+"Aktivera det här alternativet om du alltid vill skicka en falsk IP-adress i "
+"dina DCC-begäranden.<br>Det här kan vara användbart om du befinner dig bakom "
+"en router med en statisk adress som gör NAT (Network Address Translation) "
+"och vidarebefordrar alla eller ett antal portar."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:103
+#, fuzzy
 msgid "Send address/interface:"
-msgstr ""
+msgstr "Skicka adress/gränssnitt:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:106
+#, fuzzy
 msgid ""
 "This is the fixed address that will be sent with all DCC requests if you "
 "enable the option above."
 msgstr ""
+"Detta är den fasta adress som kommer att skickas med alla DCC-förfrågningar "
+"om du aktiverar alternativet ovan."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:108
+#, fuzzy
 msgid "Guess address from IRC server if unroutable"
-msgstr ""
+msgstr "Gissa adressen från IRC-servern om den inte kan routas"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:113
+#, fuzzy
 msgid ""
 "You can enable this option if you are behind a router that forwards all or a "
 "range of ports.<br>KVIrc will try to guess the IP address to use for DCC by "
@@ -1157,24 +1452,39 @@ msgid ""
 "<br>It might guess the correct address automatically if certain conditions "
 "are met (e.g. the IRC server doesn't mask hostnames)."
 msgstr ""
+"Du kan aktivera det här alternativet om du är bakom en router som "
+"vidarebefordrar alla eller ett antal portar.<br>KVIrc försöker gissa IP-"
+"adressen som ska användas för DCC genom att leta upp det lokala värdnamnet "
+"som ses av IRC-servern du är ansluten till.<br>Den här metoden är ett "
+"exklusivt alternativ till \"fast adress\" ovan.<br>Den kan gissa rätt adress "
+"automatiskt om vissa villkor är uppfyllda (t.ex. IRC-servern maskerar inte "
+"värdnamn)."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:118
+#, fuzzy
 msgid "Use \"broken bouncer hack\" to detect address"
-msgstr ""
+msgstr "Använd \"broken bouncer hack\" för att upptäcka adress"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:120
+#, fuzzy
 msgid ""
 "When you're behind a dialup router and also tunneling through a psyBNC "
 "bouncer, you can use a bug in the bouncer to force KVIrc to bind the DCC "
 "connections to the dialup router's address.<br>It's an ugly hack - use it "
 "only if nothing else works."
 msgstr ""
+"Om du befinner dig bakom en uppringd router och dessutom tunnlar genom en "
+"psyBNC bouncer kan du använda en bugg i bouncern för att tvinga KVIrc att "
+"binda DCC-anslutningarna till den uppringda routerns adress.<br>Det är ett "
+"fult hack - använd det bara om inget annat fungerar."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:126
+#, fuzzy
 msgid "Notify failed DCC handshakes to the remote end"
-msgstr ""
+msgstr "Meddela misslyckade DCC-handskakningar till fjärranslutningen"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:127
+#, fuzzy
 msgid ""
 "If you enable this option, when a DCC request from a remote user can't be "
 "satisfied KVIrc will notify him by a CTCP ERRMSG. This is a nice feature so "
@@ -1182,129 +1492,178 @@ msgid ""
 "the anti-flood system: in this case turning off this option might help if "
 "you often get attacked by CTCP floods."
 msgstr ""
+"Om du aktiverar det här alternativet kommer KVIrc att meddela en "
+"fjärranvändare med ett CTCP ERRMSG när en DCC-begäran inte kan uppfyllas. "
+"Det här är en bra funktion så det är en bra idé att låta den vara aktiverad "
+"om du inte av någon anledning har avaktiverat anti-flood-systemet: i så fall "
+"kan det hjälpa att stänga av det här alternativet om du ofta blir attackerad "
+"av CTCP floods."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:133
+#, fuzzy
 msgid "Maximum number of DCC sessions:"
-msgstr ""
+msgstr "Maximalt antal DCC-sessioner:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:134
+#, fuzzy
 msgid ""
 "This is the maximum number of concurrent DCC sessions and it includes all "
 "the DCC types (send, chat, recv.). KVIrc will refuse the requests when this "
 "limit is reached."
 msgstr ""
+"Detta är det maximala antalet samtidiga DCC-sessioner och inkluderar alla "
+"DCC-typer (skicka, chatta, återkalla). KVIrc kommer att neka förfrågningar "
+"när denna gräns har uppnåtts."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:138
+#, fuzzy
 msgid "DCC socket timeout:"
-msgstr ""
+msgstr "Timeout för DCC-uttag:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:140
+#, fuzzy
 msgid ""
 "This is the amount of time that KVIrc will wait for a response before "
 "assuming that a DCC has failed because the remote client was unable to "
 "connect to our listening socket."
 msgstr ""
+"Detta är den tid som KVIrc väntar på ett svar innan den antar att en DCC har "
+"misslyckats eftersom fjärrklienten inte kunde ansluta till vårt lyssnande "
+"uttag."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:171
+#, fuzzy
 msgid "On Incoming File"
-msgstr ""
+msgstr "På inkommande fil"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:172
 #: src/modules/options/OptionsWidget_dcc.cpp:315
 #: src/modules/options/OptionsWidget_dcc.cpp:364
+#, fuzzy
 msgid "Automatically accept"
-msgstr ""
+msgstr "Acceptera automatiskt"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:173
+#, fuzzy
 msgid "Open auto-accepted transfer window without focus"
-msgstr ""
+msgstr "Öppna automatiskt accepterat överföringsfönster utan fokus"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:175
 #: src/modules/options/OptionsWidget_dcc.cpp:198
+#, fuzzy
 msgid ""
 "This option prevents the transfer window from opening and diverting "
 "application focus.<br>Enable this if you don't like the transfer window "
 "popping up while you're typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar att överföringsfönstret öppnas och avleder "
+"programmets fokus.<br>Aktivera detta om du inte vill att överföringsfönstret "
+"ska dyka upp när du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:180
+#, fuzzy
 msgid "Automatically resume when auto-accepted"
-msgstr ""
+msgstr "Återupptas automatiskt när den accepteras automatiskt"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:183
+#, fuzzy
 msgid "Save Location"
-msgstr ""
+msgstr "Spara plats"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:185
 msgid "Download folder:"
 msgstr "Hämtningsmapp:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:186
+#, fuzzy
 msgid "Sort saved files by nicknames (create subfolders)"
-msgstr ""
+msgstr "Sortera sparade filer efter smeknamn (skapa undermappar)"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:187
+#, fuzzy
 msgid "Guess save path from media type"
-msgstr ""
+msgstr "Gissa sparväg från mediatyp"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:189
+#, fuzzy
 msgid "On Download Completion"
-msgstr ""
+msgstr "Vid avslutad nedladdning"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:191
+#, fuzzy
 msgid "Notify completion in console"
-msgstr ""
+msgstr "Meddela slutförandet i konsolen"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:192
+#, fuzzy
 msgid "Notify completion in notifier"
-msgstr ""
+msgstr "Meddela slutförandet i notifieraren"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:193
+#, fuzzy
 msgid "Automatically clear transfer"
-msgstr ""
+msgstr "Automatisk rensning av överföring"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:194
+#, fuzzy
 msgid ""
 "This option will cause successfully terminated transfers to be automatically "
 "removed from the transfer window."
 msgstr ""
+"Detta alternativ gör att framgångsrikt avslutade överföringar automatiskt "
+"tas bort från överföringsfönstret."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:197
+#, fuzzy
 msgid "Open transfer window without focus"
-msgstr ""
+msgstr "Öppna transferfönster utan fokus"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:222
+#, fuzzy
 msgid "Bug Compatibility"
-msgstr ""
+msgstr "Buggkompatibilitet"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:224
+#, fuzzy
 msgid "Send ACK for byte 0"
-msgstr ""
+msgstr "Skicka ACK för byte 0"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:225
+#, fuzzy
 msgid ""
 "This option causes KVIrc to send a zero-byte acknowledge to kick-start the "
 "DCC transfer with some buggy IRC clients.<br>Use it only if your DCC "
 "transfers stall just after establishing a connection without sending any "
 "data."
 msgstr ""
+"Det här alternativet gör att KVIrc skickar en nollbytesbekräftelse för att "
+"kickstarta DCC-överföringen med vissa buggiga IRC-klienter.<br>Använd det "
+"bara om dina DCC-överföringar stannar precis efter att du har upprättat en "
+"anslutning utan att skicka några data."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:229
+#, fuzzy
 msgid "Accept RESUME requests with broken filename (mIRC file.ext)"
-msgstr ""
+msgstr "Acceptera RESUME-förfrågningar med brutet filnamn (mIRC file.ext)"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:230
+#, fuzzy
 msgid ""
 "This option causes KVIrc to accept RESUME requests with invalid filenames."
 "<br>Use it if KVIrc fails to accept RESUME requests from other clients (e.g. "
 "some versions of mIRC)."
 msgstr ""
+"Detta alternativ gör att KVIrc accepterar RESUME-begäranden med ogiltiga "
+"filnamn.<br>Använd det om KVIrc inte kan acceptera RESUME-begäranden från "
+"andra klienter (t.ex. vissa versioner av mIRC)."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:233
+#, fuzzy
 msgid "Accept RESUME requests with mismatched ports"
-msgstr ""
+msgstr "Acceptera RESUME-begäranden med felaktiga portar"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:234
+#, fuzzy
 msgid ""
 "This option causes KVIrc to accept RESUME requests with mismatched ports."
 "<br>Use it if some router on the path between you and the receiver remaps "
@@ -1312,36 +1671,54 @@ msgid ""
 "this option may misbehave in certain usage patterns since KVIrc must "
 "differentiate between transfers only by looking at the filename. Be careful."
 msgstr ""
+"Detta alternativ gör att KVIrc accepterar RESUME-begäranden med portar som "
+"inte stämmer överens.<br>Använd det om någon router på vägen mellan dig och "
+"mottagaren gör om portarna i DCC SEND men inte i DCC RESUME-begäranden."
+"<br>Observera att detta alternativ kan uppträda felaktigt i vissa "
+"användningsmönster eftersom KVIrc måste skilja mellan överföringar endast "
+"genom att titta på filnamnet. Var därför försiktig."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:239
+#, fuzzy
 msgid "Replace spaces with underscores in outgoing filenames"
-msgstr ""
+msgstr "Ersätt mellanslag med understrykningstecken i utgående filnamn"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:240
+#, fuzzy
 msgid ""
 "This option causes KVIrc to replace spaces with underscores in filenames for "
 "all the outgoing file transfers. This will fix filename handling with some "
 "buggy clients (e.g. some versions of mIRC)."
 msgstr ""
+"Detta alternativ gör att KVIrc ersätter mellanslag med understreck i filnamn "
+"för alla utgående filöverföringar. Detta kommer att åtgärda "
+"filnamnshanteringen med vissa buggiga klienter (t.ex. vissa versioner av "
+"mIRC)."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:243
+#, fuzzy
 msgid "Send 64-bit ACKs for files larger than 4GiB"
-msgstr ""
+msgstr "Skicka 64-bitars ACK för filer som är större än 4GiB"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:244
+#, fuzzy
 msgid ""
 "This option causes KVIrc to send ACKs as 64-bit integers instead of 32-bit "
 "integers.<br>Use this to fix DCC RECEIVE transfers where the other client is "
 "using the mIRC ACK standard."
 msgstr ""
+"Detta alternativ gör att KVIrc skickar ACK:er som 64-bitars heltal i stället "
+"för 32-bitars heltal.<br>Använd detta för att fixa DCC RECEIVE-överföringar "
+"där den andra klienten använder mIRC ACK-standarden."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:247
 msgid "Limits"
 msgstr "Gränser"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:251
+#, fuzzy
 msgid "Limit upload bandwidth to:"
-msgstr ""
+msgstr "Begränsa bandbredden för uppladdning till:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:253
 #: src/modules/options/OptionsWidget_dcc.cpp:259
@@ -1349,159 +1726,222 @@ msgid "bytes/sec"
 msgstr "byte/s"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:257
+#, fuzzy
 msgid "Limit download bandwidth to:"
-msgstr ""
+msgstr "Begränsa bandbredden för nedladdning till:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:262
+#, fuzzy
 msgid "Maximum number of DCC transfers:"
-msgstr ""
+msgstr "Maximalt antal DCC-överföringar:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:263
+#, fuzzy
 msgid ""
 "This is the maximum number of concurrent DCC transfers. KVIrc will refuse "
 "the requests when this limit is reached."
 msgstr ""
+"Detta är det maximala antalet samtidiga DCC-överföringar. KVIrc kommer att "
+"neka förfrågningar när denna gräns nås."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:266
+#, fuzzy
 msgid "Tweaks"
-msgstr ""
+msgstr "Justeringar"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:268
+#, fuzzy
 msgid "Use fast send (send ahead)"
-msgstr ""
+msgstr "Använd snabb sändning (skicka i förväg)"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:269
+#, fuzzy
 msgid ""
 "The \"send ahead\" DCC method allows data to be sent faster by breaking some "
 "of the rules of the original DCC SEND protocol specification.<br>Most "
 "clients can handle this kind of optimisation so disable it only if you have "
 "problems."
 msgstr ""
+"DCC-metoden \"send ahead\" gör att data kan skickas snabbare genom att bryta "
+"mot några av reglerna i den ursprungliga DCC SEND-protokollspecifikationen."
+"<br>De flesta klienter kan hantera den här typen av optimering, så "
+"avaktivera den bara om du har problem."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:275
+#, fuzzy
 msgid "Force idle step:"
-msgstr ""
+msgstr "Tvinga fram ett lugnt steg:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:276
+#, fuzzy
 msgid ""
 "Enable this option when the DCC file transfers tend to block your computer "
 "by consuming too much CPU time. When this option is enabled the idle "
 "interval below will be forcibly inserted between each sent/received data "
 "packet."
 msgstr ""
+"Aktivera detta alternativ om DCC-filöverföringar tenderar att blockera "
+"datorn genom att förbruka för mycket CPU-tid. När det här alternativet är "
+"aktiverat kommer nedanstående tomgångsintervall att läggas in mellan varje "
+"skickat/mottaget datapaket."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:285
+#, fuzzy
 msgid ""
 "This parameter controls the average delay between two packets sent or "
 "received.<br>A smaller interval will cause you to send data faster but will "
 "also add load to your CPU, disk and network interface.<br>Reasonable values "
 "are from 5 to 50 milliseconds."
 msgstr ""
+"Denna parameter styr den genomsnittliga fördröjningen mellan två paket som "
+"skickas eller tas emot.<br>Ett mindre intervall gör att du kan skicka data "
+"snabbare, men det ökar också belastningen på CPU, disk och "
+"nätverksgränssnitt.<br>Rimliga värden är mellan 5 och 50 millisekunder."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:290
 msgid "Packet size:"
 msgstr "Paketstorlek:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:292
+#, fuzzy
 msgid ""
 "This parameter controls the packet size used for DCC SEND.<br>With bigger "
 "packets you will be probably send data faster, but you will also saturate "
 "your bandwidth and in some cases cause more disk activity.<br>Reasonable "
 "values are from 512 to 4096 bytes."
 msgstr ""
+"Denna parameter styr paketstorleken som används för DCC SEND.<br>Med större "
+"paket kommer du förmodligen att skicka data snabbare, men du kommer också "
+"att mätta din bandbredd och i vissa fall orsaka mer diskaktivitet."
+"<br>Rimliga värden är från 512 till 4096 byte."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:314
+#, fuzzy
 msgid "On Chat Request"
-msgstr ""
+msgstr "På chattförfrågan"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:317
+#, fuzzy
 msgid "Open auto-accepted DCC chat windows without focus"
-msgstr ""
+msgstr "Öppna automatiskt accepterade DCC-chattfönster utan fokus"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:319
+#, fuzzy
 msgid ""
 "This option prevents incoming auto-accepted DCC chat windows from diverting "
 "application focus.<br>Enable this if you don't like DCC chat windows popping "
 "up while you're typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar att inkommande automatiskt accepterade DCC-"
+"chattfönster avleder programmets fokus.<br>Aktivera detta om du inte vill "
+"att DCC-chattfönster ska dyka upp när du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:324
+#, fuzzy
 msgid "Open DCC chat windows without focus"
-msgstr ""
+msgstr "Öppna DCC-chattfönster utan fokus"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:325
+#, fuzzy
 msgid ""
 "This option prevents incoming DCC chat windows from diverting application "
 "focus.<br>Enable this if you don't like DCC chat windows popping up while "
 "you're typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar att inkommande DCC-chattfönster tar fokus från "
+"programmet.<br>Aktivera detta om du inte vill att DCC-chattfönster ska dyka "
+"upp när du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:333
+#, fuzzy
 msgid "Flash system taskbar on new DCC chat message"
-msgstr ""
+msgstr "Flash-systemets aktivitetsfält vid nytt DCC-chattmeddelande"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:334
+#, fuzzy
 msgid ""
 "This option causes the system taskbar entry for KVIrc to flash when a new "
 "DCC chat message is received and the KVIrc window is not the active."
 msgstr ""
+"Detta alternativ gör att KVIrcs post i systemets aktivitetsfält blinkar när "
+"ett nytt DCC-chattmeddelande tas emot och KVIrc-fönstret inte är aktivt."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:337
+#, fuzzy
 msgid "Popup notifier on new DCC chat message"
-msgstr ""
+msgstr "Popup-meddelande om nytt DCC-chattmeddelande"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:338
+#, fuzzy
 msgid ""
 "This option causes a small notifier window to pop up in the low right corner "
 "of the screen when a new message is received and the KVIrc window is not "
 "active."
 msgstr ""
+"Detta alternativ gör att ett litet meddelandefönster dyker upp i det nedre "
+"högra hörnet av skärmen när ett nytt meddelande tas emot och KVIrc-fönstret "
+"inte är aktivt."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:357
+#, fuzzy
 msgid "Open DCC voice windows without focus"
-msgstr ""
+msgstr "Öppna DCC röstfönster utan fokus"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:358
+#, fuzzy
 msgid ""
 "This option prevents all incoming DCC voice windows from diverting "
 "application focus.<br>Enable this if you don't like DCC voice windows "
 "popping up while you're typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar alla inkommande DCC-röstfönster från att avleda "
+"programmets fokus.<br>Aktivera detta om du inte vill att DCC-röstfönster ska "
+"dyka upp när du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:363
+#, fuzzy
 msgid "On Voice Request"
-msgstr ""
+msgstr "DCC VOICE-begäran"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:365
+#, fuzzy
 msgid "Open auto-accepted DCC voice windows without focus"
-msgstr ""
+msgstr "Öppna automatiskt accepterade DCC-röstfönster utan fokus"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:367
+#, fuzzy
 msgid ""
 "This option prevents incoming auto-accepted DCC voice windows from diverting "
 "application focus.<br>Enable this if you don't like DCC voice windows "
 "popping up while you're typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar att inkommande automatiskt accepterade DCC-"
+"röstfönster avleder programmets fokus.<br>Aktivera detta om du inte vill att "
+"DCC-röstfönster ska dyka upp när du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_dcc.cpp:374
+#, fuzzy
 msgid "Force half-duplex mode on sound device"
-msgstr ""
+msgstr "Tvinga fram halv-duplex-läge på ljudenheten"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:375
+#, fuzzy
 msgid "Volume slider controls PCM, not Master"
-msgstr ""
+msgstr "Volymreglaget styr PCM, inte Master"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:377
 msgid "Sound device:"
 msgstr "Ljudenhet:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:378
+#, fuzzy
 msgid "Mixer device:"
-msgstr ""
+msgstr "Mixer enhet:"
 
 #: src/modules/options/OptionsWidget_dcc.cpp:380
+#, fuzzy
 msgid "Pre-buffer size:"
-msgstr ""
+msgstr "Storlek på förbuffert:"
 
 #: src/modules/options/OptionsWidget_dcc.h:31
 msgid "DCC"
@@ -1512,12 +1952,14 @@ msgid "File Transfer"
 msgstr "Filöverföring"
 
 #: src/modules/options/OptionsWidget_dcc.h:107
+#, fuzzy
 msgid "Chat"
-msgstr ""
+msgstr "Chatt"
 
 #: src/modules/options/OptionsWidget_dcc.h:120
+#, fuzzy
 msgid "Voice"
-msgstr ""
+msgstr "Röst"
 
 #: src/modules/options/OptionsWidget_general.cpp:37
 msgid ""
@@ -1859,46 +2301,58 @@ msgstr "Osynlig (+i)"
 
 #: src/modules/options/OptionsWidget_identity.cpp:677
 #: src/modules/options/OptionsWidget_servers.cpp:636
+#, fuzzy
 msgid "Server notices (+s)"
-msgstr ""
+msgstr "Servermeddelanden (+s)"
 
 #: src/modules/options/OptionsWidget_identity.cpp:678
 #: src/modules/options/OptionsWidget_servers.cpp:640
+#, fuzzy
 msgid "WALLOPS (+w)"
-msgstr ""
+msgstr "WALLOPS (+w)"
 
 #: src/modules/options/OptionsWidget_identity.cpp:680
 msgid "Default Messages"
 msgstr "Standardmeddelanden"
 
 #: src/modules/options/OptionsWidget_identity.cpp:682
+#, fuzzy
 msgid "Part message:"
-msgstr ""
+msgstr "Delmeddelande:"
 
 #: src/modules/options/OptionsWidget_identity.cpp:685
+#, fuzzy
 msgid ""
 "This is the default part message that will be used when you leave a channel "
 "by closing a channel window."
 msgstr ""
+"Detta är det standardmeddelande som används när du lämnar en kanal genom att "
+"stänga ett kanalfönster."
 
 #: src/modules/options/OptionsWidget_identity.cpp:689
+#, fuzzy
 msgid "Quit message:"
-msgstr ""
+msgstr "Avslutsmeddelande"
 
 #: src/modules/options/OptionsWidget_identity.cpp:691
+#, fuzzy
 msgid ""
 "This is the default quit message that will be used when you quit your IRC "
 "session by closing the console window or disconnecting by pressing the "
 "disconnect button."
 msgstr ""
+"Det här är standardmeddelandet som används när du avslutar din IRC-session "
+"genom att stänga konsolfönstret eller koppla från genom att trycka på "
+"knappen för frånkoppling."
 
 #: src/modules/options/OptionsWidget_identity.cpp:727
 msgid "Enable network profiles"
 msgstr "Aktivera nätverksprofiler"
 
 #: src/modules/options/OptionsWidget_identity.cpp:728
+#, fuzzy
 msgid "This check enables the use of network profiles"
-msgstr ""
+msgstr "Denna kontroll möjliggör användning av nätverksprofiler"
 
 #: src/modules/options/OptionsWidget_identity.cpp:739
 msgid "Name"
@@ -1927,12 +2381,17 @@ msgid "Real Name"
 msgstr "Riktigt namn"
 
 #: src/modules/options/OptionsWidget_identity.cpp:753
+#, fuzzy
 msgid ""
 "This is a set of rules to use profiles.<br>KVIrc will use them to handle the "
 "user connection data before the data is sent to the IRC server.<br>This is "
 "useful if a user wants to use different data on different networks without "
 "changing them at every connection attempt."
 msgstr ""
+"Detta är en uppsättning regler för att använda profiler.<br>KVIrc kommer att "
+"använda dem för att hantera användarens anslutningsdata innan data skickas "
+"till IRC-servern.<br>Detta är användbart om en användare vill använda olika "
+"data på olika nätverk utan att ändra dem vid varje anslutningsförsök."
 
 #: src/modules/options/OptionsWidget_identity.cpp:767
 msgid "Add Profile"
@@ -1947,12 +2406,14 @@ msgid "Delete Profile"
 msgstr "Ta bort profil"
 
 #: src/modules/options/OptionsWidget_identity.cpp:868
+#, fuzzy
 msgid "Invalid Profile Rule - KVIrc"
-msgstr ""
+msgstr "Ogiltig profilregel - KVIrc"
 
 #: src/modules/options/OptionsWidget_identity.cpp:868
+#, fuzzy
 msgid "There is already a profile with that name"
-msgstr ""
+msgstr "Det finns redan en profil med det namnet"
 
 #: src/modules/options/OptionsWidget_identity.cpp:916
 msgid "Profile Editor - KVIrc"
@@ -1963,20 +2424,23 @@ msgid "Profile name:"
 msgstr "Profilnamn:"
 
 #: src/modules/options/OptionsWidget_identity.cpp:924
+#, fuzzy
 msgid "Put here the name of the profile"
-msgstr ""
+msgstr "Skriv här namnet på profilen"
 
 #: src/modules/options/OptionsWidget_identity.cpp:928
 msgid "Network name:"
 msgstr "Nätverksnamn:"
 
 #: src/modules/options/OptionsWidget_identity.cpp:932
+#, fuzzy
 msgid "Put here the name of the network"
-msgstr ""
+msgstr "Skriv in namnet på nätverket här"
 
 #: src/modules/options/OptionsWidget_identity.cpp:939
+#, fuzzy
 msgid "Put here the nickname you want to use"
-msgstr ""
+msgstr "Ange här det smeknamn du vill använda"
 
 #: src/modules/options/OptionsWidget_identity.cpp:942
 #: src/modules/options/OptionsWidget_servers.cpp:177
@@ -1985,16 +2449,19 @@ msgid "Alt. nickname:"
 msgstr "Alternativt smeknamn:"
 
 #: src/modules/options/OptionsWidget_identity.cpp:946
+#, fuzzy
 msgid "Put here the alternative nickname you want to use"
-msgstr ""
+msgstr "Ange här det alternativa smeknamn som du vill använda"
 
 #: src/modules/options/OptionsWidget_identity.cpp:953
+#, fuzzy
 msgid "Put here the username you want to use"
-msgstr ""
+msgstr "Ange här det användarnamn du vill använda"
 
 #: src/modules/options/OptionsWidget_identity.cpp:960
+#, fuzzy
 msgid "Put here the real name you want to use"
-msgstr ""
+msgstr "Ange här det riktiga namn du vill använda"
 
 #: src/modules/options/OptionsWidget_identity.h:131
 #: src/modules/options/OptionsWidget_servers.cpp:649
@@ -2010,28 +2477,33 @@ msgid "Profiles"
 msgstr "Profiler"
 
 #: src/modules/options/OptionsWidget_ignore.cpp:39
+#, fuzzy
 msgid "Enable Ignore for"
-msgstr ""
+msgstr "Aktivera ignorera för denna användare"
 
 #: src/modules/options/OptionsWidget_ignore.cpp:40
+#, fuzzy
 msgid "Private/Channel messages"
-msgstr ""
+msgstr "Privata meddelanden/Kanalmeddelanden"
 
 #: src/modules/options/OptionsWidget_ignore.cpp:41
+#, fuzzy
 msgid "Private/Channel notices"
-msgstr ""
+msgstr "Privata meddelanden/Kanalmeddelanden"
 
 #: src/modules/options/OptionsWidget_ignore.cpp:45
+#, fuzzy
 msgid "Use verbose ignore (show messages in console)"
-msgstr ""
+msgstr "Använd verbose ignore (visa meddelanden i konsolen)"
 
 #: src/modules/options/OptionsWidget_ignore.h:32
 msgid "Ignore"
 msgstr "Ignorera"
 
 #: src/modules/options/OptionsWidget_ignore.h:34
+#, fuzzy
 msgid "protection"
-msgstr ""
+msgstr "SPELSKYDD"
 
 #: src/modules/options/OptionsWidget_input.cpp:38
 #: src/modules/options/OptionsWidget_ircView.cpp:47
@@ -2058,20 +2530,24 @@ msgid "Foreground color:"
 msgstr "Förgrundsfärg:"
 
 #: src/modules/options/OptionsWidget_input.cpp:41
+#, fuzzy
 msgid "Selection background color:"
-msgstr ""
+msgstr "Bakgrundsfärg för urvalet:"
 
 #: src/modules/options/OptionsWidget_input.cpp:42
+#, fuzzy
 msgid "Selection foreground color:"
-msgstr ""
+msgstr "Förgrundsfärg för markeringen:"
 
 #: src/modules/options/OptionsWidget_input.cpp:43
+#, fuzzy
 msgid "Control char color:"
-msgstr ""
+msgstr "Kontrollera char-färg:"
 
 #: src/modules/options/OptionsWidget_input.cpp:44
+#, fuzzy
 msgid "Cursor color:"
-msgstr ""
+msgstr "Färg på markören:"
 
 #: src/modules/options/OptionsWidget_input.cpp:46
 #: src/modules/options/OptionsWidget_ircView.cpp:50
@@ -2107,8 +2583,9 @@ msgstr "Vertikal justering:"
 #: src/modules/options/OptionsWidget_userList.cpp:146
 #: src/modules/options/OptionsWidget_windowList.cpp:177
 #: src/modules/options/OptionsWidget_windowList.cpp:182
+#, fuzzy
 msgid "Tile"
-msgstr ""
+msgstr "Sida vid sida"
 
 #: src/modules/options/OptionsWidget_input.cpp:57
 #: src/modules/options/OptionsWidget_ircView.cpp:61
@@ -2136,88 +2613,106 @@ msgstr "Höger"
 #: src/modules/options/OptionsWidget_userList.cpp:149
 #: src/modules/options/OptionsWidget_windowList.cpp:180
 #: src/modules/options/OptionsWidget_windowList.cpp:185
+#, fuzzy
 msgid "Center"
-msgstr ""
+msgstr "Centrera"
 
 #: src/modules/options/OptionsWidget_input.cpp:62
 #: src/modules/options/OptionsWidget_ircView.cpp:66
 #: src/modules/options/OptionsWidget_notifier.cpp:61
 #: src/modules/options/OptionsWidget_userList.cpp:147
 #: src/modules/options/OptionsWidget_windowList.cpp:183
+#, fuzzy
 msgid "Top"
-msgstr ""
+msgstr "Överst"
 
 #: src/modules/options/OptionsWidget_input.cpp:63
 #: src/modules/options/OptionsWidget_ircView.cpp:67
 #: src/modules/options/OptionsWidget_notifier.cpp:62
 #: src/modules/options/OptionsWidget_userList.cpp:148
 #: src/modules/options/OptionsWidget_windowList.cpp:184
+#, fuzzy
 msgid "Bottom"
-msgstr ""
+msgstr "Nederst"
 
 #: src/modules/options/OptionsWidget_input.cpp:142
+#, fuzzy
 msgid "Warp cursor at the end of line when browsing history"
-msgstr ""
+msgstr "Warp-markör i slutet av raden när du bläddrar i historiken"
 
 #: src/modules/options/OptionsWidget_input.cpp:143
+#, fuzzy
 msgid "Enable the input history logging"
-msgstr ""
+msgstr "Aktivera loggning av inmatningshistorik"
 
 #: src/modules/options/OptionsWidget_input.cpp:144
+#, fuzzy
 msgid "Hide input tool buttons by default"
-msgstr ""
+msgstr "Dölj knappar för inmatningsverktyg som standard"
 
 #: src/modules/options/OptionsWidget_input.cpp:145
+#, fuzzy
 msgid "Show warning about pasting multiple lines"
-msgstr ""
+msgstr "Visa varning om att klistra in flera rader"
 
 #: src/modules/options/OptionsWidget_input.cpp:146
+#, fuzzy
 msgid "Commandline in user-friendly mode by default"
-msgstr ""
+msgstr "Kommandoraden i användarvänligt läge som standard"
 
 #: src/modules/options/OptionsWidget_input.cpp:147
+#, fuzzy
 msgid "Expand tabulations in input using:"
-msgstr ""
+msgstr "Utöka tabuleringarna i inmatningen med hjälp av:"
 
 #: src/modules/options/OptionsWidget_input.cpp:148
+#, fuzzy
 msgid " spaces"
-msgstr ""
+msgstr " utrymmen"
 
 #: src/modules/options/OptionsWidget_input.cpp:150
 msgid "Nick Completion"
 msgstr "Smeknamnskomplettering"
 
 #: src/modules/options/OptionsWidget_input.cpp:152
+#, fuzzy
 msgid "Use bash-like nick completion"
-msgstr ""
+msgstr "Använd bash-liknande nickavslutning"
 
 #: src/modules/options/OptionsWidget_input.cpp:153
+#, fuzzy
 msgid "Use zsh-like nick completion"
-msgstr ""
+msgstr "Använd zsh-liknande nick-komplettering"
 
 #: src/modules/options/OptionsWidget_input.cpp:154
+#, fuzzy
 msgid "Prioritize nick completion by last action time"
-msgstr ""
+msgstr "Prioritera slutförandet av nick efter sista åtgärdstid"
 
 #: src/modules/options/OptionsWidget_input.cpp:160
+#, fuzzy
 msgid "Nick completion postfix string:"
-msgstr ""
+msgstr "Postfixsträng för avslutning av Nick:"
 
 #: src/modules/options/OptionsWidget_input.cpp:161
+#, fuzzy
 msgid "Use the completion postfix string for the first word only"
-msgstr ""
+msgstr "Använd postfixsträngen för komplettering endast för det första ordet"
 
 #: src/modules/options/OptionsWidget_input.cpp:163
+#, fuzzy
 msgid "Ignore special characters in nick completion"
-msgstr ""
+msgstr "Ignorera specialtecken i nick-komplettering"
 
 #: src/modules/options/OptionsWidget_input.cpp:165
+#, fuzzy
 msgid "Use a custom cursor width"
-msgstr ""
+msgstr "Använd en anpassad markörbredd"
 
 #: src/modules/options/OptionsWidget_input.cpp:166
+#, fuzzy
 msgid "Custom cursor width:"
-msgstr ""
+msgstr "Anpassad markörbredd:"
 
 #: src/modules/options/OptionsWidget_input.h:32
 #: src/modules/options/OptionsWidget_input.h:51
@@ -2230,8 +2725,9 @@ msgid "theme,colors,text"
 msgstr "tema,färger,text"
 
 #: src/modules/options/OptionsWidget_interfaceFeatures.cpp:43
+#, fuzzy
 msgid "Minimize application on startup"
-msgstr ""
+msgstr "Minimera programmet vid start"
 
 #: src/modules/options/OptionsWidget_interfaceFeatures.cpp:44
 msgid "Confirm quit with active connections"
@@ -2246,74 +2742,96 @@ msgid "Enable visual effects"
 msgstr "Aktivera visuella effekter"
 
 #: src/modules/options/OptionsWidget_interfaceFeatures.cpp:47
+#, fuzzy
 msgid "Hide channel window tool buttons by default"
-msgstr ""
+msgstr "Dölj verktygsknapparna i kanalfönstret som standard"
 
 #: src/modules/options/OptionsWidget_interfaceFeatures.cpp:49
+#, fuzzy
 msgid "Require ⌘ to be held down to copy text"
-msgstr ""
+msgstr "Kräver att ⌘ hålls nedtryckt för att kopiera text"
 
 #: src/modules/options/OptionsWidget_interfaceFeatures.cpp:51
+#, fuzzy
 msgid "Require Ctrl to be held down to copy text"
-msgstr ""
+msgstr "Kräver att Ctrl hålls nedtryckt för att kopiera text"
 
 #: src/modules/options/OptionsWidget_interfaceFeatures.cpp:54
+#, fuzzy
 msgid "Show taskbar button (change requires restart)"
-msgstr ""
+msgstr "Visa knappen i aktivitetsfältet (ändring kräver omstart)"
 
 #: src/modules/options/OptionsWidget_interfaceFeatures.h:32
 msgid "Interface"
 msgstr "Gränssnitt"
 
 #: src/modules/options/OptionsWidget_irc.cpp:47
+#, fuzzy
 msgid "Show network name in console window list entry"
-msgstr ""
+msgstr "Visa nätverksnamn i konsolfönstrets listpost"
 
 #: src/modules/options/OptionsWidget_irc.cpp:48
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to show the network name as the console window "
 "list entry instead of the server name. This is nice to keep on unless your "
 "servers are not organized in networks or you often connect to two servers of "
 "the same network."
 msgstr ""
+"Det här alternativet gör att KVIrc visar nätverksnamnet som listpost i "
+"konsolfönstret i stället för servernamnet. Det här är bra att ha kvar om "
+"inte dina servrar inte är organiserade i nätverk eller om du ofta ansluter "
+"till två servrar i samma nätverk."
 
 #: src/modules/options/OptionsWidget_irc.cpp:65
 msgid "Force immediate quit"
 msgstr "Tvinga omedelbar avslutning"
 
 #: src/modules/options/OptionsWidget_irc.cpp:66
+#, fuzzy
 msgid ""
 "This option causes KVIrc to close the connection immediately after sending "
 "the QUIT message. When this option is disabled, KVIrc will wait for the "
 "server to close the connection.<br>Note that if you use this, your QUIT "
 "message may be not displayed."
 msgstr ""
+"Detta alternativ gör att KVIrc stänger anslutningen omedelbart efter att "
+"QUIT-meddelandet har skickats. När det här alternativet är inaktiverat "
+"väntar KVIrc på att servern ska stänga anslutningen.<br>Observera att om du "
+"använder det här alternativet kan det hända att QUIT-meddelandet inte visas."
 
 #: src/modules/options/OptionsWidget_irc.cpp:72
+#, fuzzy
 msgid "Prepend gender info to real name"
-msgstr ""
+msgstr "Lägg till könsinformation till det riktiga namnet"
 
 #: src/modules/options/OptionsWidget_irc.cpp:73
+#, fuzzy
 msgid "Prepend avatar info to real name"
-msgstr ""
+msgstr "Lägg till avatarinformation i det riktiga namnet"
 
 #: src/modules/options/OptionsWidget_irc.cpp:74
+#, fuzzy
 msgid "Prepend smart nick color info to real name"
-msgstr ""
+msgstr "Lägg till färginformation för smart nick till det riktiga namnet"
 
 #: src/modules/options/OptionsWidget_irc.cpp:75
+#, fuzzy
 msgid ""
 "This feature will not work if you have chosen your nick background color to "
 "be transparent."
 msgstr ""
+"Den här funktionen fungerar inte om du har valt att bakgrundsfärgen på ditt "
+"nick ska vara transparent."
 
 #: src/modules/options/OptionsWidget_irc.h:30
 msgid "IRC"
 msgstr "IRC"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:43
+#, fuzzy
 msgid "Output verbosity:"
-msgstr ""
+msgstr "Utmatningens ordrikedom:"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:47
 msgid "Mute"
@@ -2332,24 +2850,29 @@ msgid "Verbose"
 msgstr "Utförlig"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:51
+#, fuzzy
 msgid "Paranoic"
-msgstr ""
+msgstr "Paranoiker"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:58
+#, fuzzy
 msgid "DateTime format:"
-msgstr ""
+msgstr "Format för datum och tid:"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:62
+#, fuzzy
 msgid "Classic format"
-msgstr ""
+msgstr "Klassiskt format"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:63
+#, fuzzy
 msgid "ISO 8601 format"
-msgstr ""
+msgstr "ISO 8601-format"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:64
+#, fuzzy
 msgid "System locale format"
-msgstr ""
+msgstr "Systemets lokala format"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:69
 msgid "Show in Active Window"
@@ -2360,8 +2883,9 @@ msgid "External messages"
 msgstr "Externa meddelanden"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:71
+#, fuzzy
 msgid "External CTCP replies"
-msgstr ""
+msgstr "Externa CTCP-svar"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:72
 msgid "WHOIS replies"
@@ -2372,8 +2896,9 @@ msgid "WHO replies"
 msgstr "WHO-svar"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:74
+#, fuzzy
 msgid "ChanServ and NickServ notices"
-msgstr ""
+msgstr "ChanServ och NickServ meddelanden"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:75
 msgid "Invite messages"
@@ -2384,55 +2909,68 @@ msgid "Server replies"
 msgstr "Serversvar"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:77
+#, fuzzy
 msgid "Server notices"
-msgstr ""
+msgstr "Servermeddelanden"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:78
+#, fuzzy
 msgid "Broadcast and WALLOPS messages"
-msgstr ""
+msgstr "Broadcast- och WALLOPS-meddelanden"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:82
+#, fuzzy
 msgid "Show extended server information"
-msgstr ""
+msgstr "Visa utökad serverinformation"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:83
 msgid "Show server pings"
 msgstr "Visa serverpingar"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:85
+#, fuzzy
 msgid "Show own part messages"
-msgstr ""
+msgstr "Visa egna delmeddelanden"
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:86
+#, fuzzy
 msgid ""
 "When enabled, the current user's part messages will be shown in the console."
 "<br>When <b>Keep Channel Open</b> is enabled on part, this message will be "
 "shown in the dead channel instead."
 msgstr ""
+"När detta är aktiverat visas den aktuella användarens partmeddelanden i "
+"konsolen.<br>När <b>Keep Channel Open</b> är aktiverat på part visas detta "
+"meddelande i den döda kanalen i stället."
 
 #: src/modules/options/OptionsWidget_ircOutput.cpp:89
+#, fuzzy
 msgid "Show compact mode changes"
-msgstr ""
+msgstr "Visa ändringar i kompaktläge"
 
 #: src/modules/options/OptionsWidget_ircOutput.h:32
+#, fuzzy
 msgid "Verbosity and Output"
-msgstr ""
+msgstr "Ordalydelse och utdata"
 
 #: src/modules/options/OptionsWidget_ircOutput.h:34
 msgid "debug"
 msgstr "felsök"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:144
+#, fuzzy
 msgid "Enable URL highlighting"
-msgstr ""
+msgstr "Aktivera URL-markeringen"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:145
+#, fuzzy
 msgid "Use line wrap margin"
-msgstr ""
+msgstr "Använd marginal för radbrytning"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:147
+#, fuzzy
 msgid "Vertical line margin:"
-msgstr ""
+msgstr "Vertikal radmarginal:"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:151
 msgid "No margin"
@@ -2443,24 +2981,29 @@ msgid "Normal margin"
 msgstr "Normal marginal"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:157
+#, fuzzy
 msgid "Maximum buffer size:"
-msgstr ""
+msgstr "Maximal buffertstorlek:"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:159
+#, fuzzy
 msgid "Link tooltip show delay:"
-msgstr ""
+msgstr "Fördröjning av visning av verktygstips för länk:"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:161
+#, fuzzy
 msgid "Link tooltip hide delay:"
-msgstr ""
+msgstr "Link tooltip hide delay:"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:163
+#, fuzzy
 msgid "Enable animated smiles"
-msgstr ""
+msgstr "Aktivera animerade leenden"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:165
+#, fuzzy
 msgid "Enable Tooltips for"
-msgstr ""
+msgstr "Aktivera verktygstips för"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:166
 msgid "URL links"
@@ -2491,40 +3034,49 @@ msgid "Escape sequences"
 msgstr "Escape-sekvenser"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:189
+#, fuzzy
 msgid "Track last read text line"
-msgstr ""
+msgstr "Spåra senast lästa textrad"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:190
+#, fuzzy
 msgid "Marker color:"
-msgstr ""
+msgstr "Färg på markören:"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:192
+#, fuzzy
 msgid "Marker size:"
-msgstr ""
+msgstr "Markörens storlek:"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:195
+#, fuzzy
 msgid "Marker style:"
-msgstr ""
+msgstr "Markörens stil:"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:201
+#, fuzzy
 msgid "DotLine"
-msgstr ""
+msgstr "DotLine"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:202
+#, fuzzy
 msgid "DashLine"
-msgstr ""
+msgstr "DashLine"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:203
+#, fuzzy
 msgid "SolidLine"
-msgstr ""
+msgstr "SolidLine"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:204
+#, fuzzy
 msgid "DashDotLine"
-msgstr ""
+msgstr "Streckad punktlinje"
 
 #: src/modules/options/OptionsWidget_ircView.cpp:205
+#, fuzzy
 msgid "DashDotDotLine"
-msgstr ""
+msgstr "StreckPunktPunktLinje"
 
 #: src/modules/options/OptionsWidget_ircView.h:33
 msgid "Output"
@@ -2555,16 +3107,21 @@ msgid "Enable lag meter"
 msgstr "Aktivera laggmätare"
 
 #: src/modules/options/OptionsWidget_lag.cpp:41
+#, fuzzy
 msgid ""
 "This enables the lag meter engine, which checks at regular intervals how "
 "much latency the server has."
 msgstr ""
+"Detta aktiverar fördröjningsmätaren, som med jämna mellanrum kontrollerar "
+"hur stor fördröjning servern har."
 
 #: src/modules/options/OptionsWidget_lag.cpp:43
+#, fuzzy
 msgid "Lag meter heartbeat:"
-msgstr ""
+msgstr "Lag meter hjärtslag:"
 
 #: src/modules/options/OptionsWidget_lag.cpp:46
+#, fuzzy
 msgid ""
 "This option allows you to set the lag meter heartbeat interval.<br>The lower "
 "the heartbeat interval the higher will be the accuracy of the lag check but "
@@ -2572,28 +3129,44 @@ msgid ""
 "this is NOT the interval between pings sent to the server: the pings (if "
 "any) will be sent really less often. 5000 is a reasonable value."
 msgstr ""
+"Med det här alternativet kan du ställa in fördröjningsmätarens "
+"hjärtslagsintervall.<br>Ju lägre hjärtslagsintervall, desto bättre blir "
+"noggrannheten i fördröjningskontrollen, men också högre CPU-användning och "
+"datatrafik till servern.<br>Observera att detta INTE är intervallet mellan "
+"pingar som skickas till servern: pingar (om några) kommer att skickas mycket "
+"mer sällan. 5000 är ett rimligt värde."
 
 #: src/modules/options/OptionsWidget_lag.cpp:55
+#, fuzzy
 msgid "Trigger event if lag exceeds:"
-msgstr ""
+msgstr "Utlös händelse om fördröjningen överskrids:"
 
 #: src/modules/options/OptionsWidget_lag.cpp:58
+#, fuzzy
 msgid ""
 "This option controls the threshold for the OnLagAlarmTimeUp and "
 "OnLagAlarmTimeDown events. When the lag goes above the threshold "
 "OnLagAlarmTimeUp will be triggered and when the lag falls back below the "
 "threshold then OnLagAlarmTimeDown will be triggered"
 msgstr ""
+"Detta alternativ styr tröskelvärdet för händelserna OnLagAlarmTimeUp och "
+"OnLagAlarmTimeDown. När eftersläpningen går över tröskelvärdet utlöses "
+"OnLagAlarmTimeUp och när eftersläpningen faller tillbaka under tröskelvärdet "
+"utlöses OnLagAlarmTimeDown"
 
 #: src/modules/options/OptionsWidget_lag.cpp:65
+#, fuzzy
 msgid "Show lag in IRC context display"
-msgstr ""
+msgstr "Visa fördröjning i IRC-kontextdisplay"
 
 #: src/modules/options/OptionsWidget_lag.cpp:67
+#, fuzzy
 msgid ""
 "This makes the IRC context display applet show the current lag after the "
 "user's nickname (in seconds)"
 msgstr ""
+"Detta gör att appleten IRC context display visar den aktuella fördröjningen "
+"efter användarens smeknamn (i sekunder)"
 
 #: src/modules/options/OptionsWidget_lag.h:31
 msgid "Lag"
@@ -2604,8 +3177,9 @@ msgid "time,ping"
 msgstr "tid,ping"
 
 #: src/modules/options/OptionsWidget_logging.cpp:39
+#, fuzzy
 msgid "Automatically Log"
-msgstr ""
+msgstr "Logga automatiskt"
 
 #: src/modules/options/OptionsWidget_logging.cpp:40
 msgid "Query windows"
@@ -2628,41 +3202,53 @@ msgid "Save logs to folder:"
 msgstr "Spara loggar till mapp:"
 
 #: src/modules/options/OptionsWidget_logging.cpp:47
+#, fuzzy
 msgid ""
 "This is the base log directory:<br>all the log files will be saved inside "
 "this directory"
 msgstr ""
+"Detta är den grundläggande loggkatalogen:<br>alla loggfiler sparas i denna "
+"katalog"
 
 #: src/modules/options/OptionsWidget_logging.cpp:50
 msgid "Dynamic subfolder:"
 msgstr "Dynamisk undermapp:"
 
 #: src/modules/options/OptionsWidget_logging.cpp:51
+#, fuzzy
 msgid ""
 "You can specify a subdirectory where log files will be saved: use KVS code "
 "to create dynamic subfolders."
 msgstr ""
+"Du kan ange en underkatalog där loggfiler ska sparas: använd KVS-kod för att "
+"skapa dynamiska undermappar."
 
 #: src/modules/options/OptionsWidget_logging.cpp:54
+#, fuzzy
 msgid "Strip message type numbers in logs"
-msgstr ""
+msgstr "Ta bort nummer för meddelandetyp i loggar"
 
 #: src/modules/options/OptionsWidget_logging.cpp:55
+#, fuzzy
 msgid "Strip colors in logs"
-msgstr ""
+msgstr "Stripa färger i stockar"
 
 #: src/modules/options/OptionsWidget_logging.cpp:56
+#, fuzzy
 msgid "Auto flush logs every:"
-msgstr ""
+msgstr "Automatisk spolning loggar varje:"
 
 #: src/modules/options/OptionsWidget_logging.cpp:57
 msgid " min"
 msgstr " min"
 
 #: src/modules/options/OptionsWidget_logging.cpp:59
+#, fuzzy
 msgid ""
 "Save logs with the current interval.<br>Set to 0 to disable this feature"
 msgstr ""
+"Spara loggar med aktuellt intervall.<br>Ställ in 0 för att inaktivera den "
+"här funktionen"
 
 #: src/modules/options/OptionsWidget_logging.cpp:63
 msgid "Compress logs"
@@ -2673,8 +3259,9 @@ msgid "Logging"
 msgstr "Loggning"
 
 #: src/modules/options/OptionsWidget_logging.h:31
+#, fuzzy
 msgid "save,output"
-msgstr ""
+msgstr "spara,utdata"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:76
 msgid "Pattern"
@@ -2704,32 +3291,42 @@ msgid "File pattern:"
 msgstr "Filmönster:"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:104
+#, fuzzy
 msgid "Magic bytes:"
-msgstr ""
+msgstr "Magiska byte:"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:109
+#, fuzzy
 msgid "Save path:"
-msgstr ""
+msgstr "Sparningssökväg:"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:114
+#, fuzzy
 msgid "Local open command:"
-msgstr ""
+msgstr "Lokalt öppet kommando:"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:118
+#, fuzzy
 msgid ""
 "This field contains the command to execute to open a local file.<br><tt>$0</"
 "tt> is used in place of the filename"
 msgstr ""
+"Detta fält innehåller kommandot som ska utföras för att öppna en lokal fil."
+"<br> $0 används i stället för filnamnet"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:122
+#, fuzzy
 msgid "Remote open command:"
-msgstr ""
+msgstr "Fjärrstyrt öppningskommando:"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:126
+#, fuzzy
 msgid ""
 "This field contains the command to execute when automatically opening a "
 "received file.<br><tt>$0</tt> is used in place of the filename"
 msgstr ""
+"Detta fält innehåller kommandot som ska utföras vid automatisk öppning av en "
+"mottagen fil.<br> $0 används i stället för filnamnet"
 
 #: src/modules/options/OptionsWidget_mediaTypes.cpp:130
 msgid "Icon:"
@@ -2764,28 +3361,33 @@ msgid "Show message icons"
 msgstr "Visa meddelandeikoner"
 
 #: src/modules/options/OptionsWidget_message.cpp:69
+#, fuzzy
 msgid "Draw some emoticons (smileys) as pictures"
-msgstr ""
+msgstr "Rita några emoticons (smileys) som bilder"
 
 #: src/modules/options/OptionsWidget_message.cpp:70
+#, fuzzy
 msgid "Don't show colors in user messages"
-msgstr ""
+msgstr "Visa inte färger i användarmeddelanden"
 
 #: src/modules/options/OptionsWidget_message.cpp:72
 msgid "Nicknames"
 msgstr "Smeknamn"
 
 #: src/modules/options/OptionsWidget_message.cpp:74
+#, fuzzy
 msgid "Smart nickname colors"
-msgstr ""
+msgstr "Smarta smeknamnsfärger"
 
 #: src/modules/options/OptionsWidget_message.cpp:78
+#, fuzzy
 msgid "Use a background color for smart nickname colors"
-msgstr ""
+msgstr "Använd en bakgrundsfärg för färgerna på smarta smeknamn"
 
 #: src/modules/options/OptionsWidget_message.cpp:82
+#, fuzzy
 msgid "Use specified smart colors for own nick:"
-msgstr ""
+msgstr "Använd specificerade smarta färger för eget nick:"
 
 #: src/modules/options/OptionsWidget_message.cpp:92
 msgid "Use same colors as in the userlist"
@@ -2800,32 +3402,38 @@ msgid "Show user and host"
 msgstr "Visa användare och värd"
 
 #: src/modules/options/OptionsWidget_message.cpp:97
+#, fuzzy
 msgid "Show channel mode prefix"
-msgstr ""
+msgstr "Visa prefix för kanalläge"
 
 #: src/modules/options/OptionsWidget_message.cpp:98
+#, fuzzy
 msgid "User-defined prefix and postfix"
-msgstr ""
+msgstr "Användardefinierat prefix och postfix"
 
 #: src/modules/options/OptionsWidget_message.cpp:100
+#, fuzzy
 msgid "[PREFIX]nickname[!user@host][POSTFIX] message"
-msgstr ""
+msgstr "[PREFIX]smeknamn[!user@host][POSTFIX] meddelande"
 
 #: src/modules/options/OptionsWidget_message.cpp:114
+#, fuzzy
 msgid "Prefix:"
-msgstr ""
+msgstr "Landsnummer:"
 
 #: src/modules/options/OptionsWidget_message.cpp:119
+#, fuzzy
 msgid "Postfix:"
-msgstr ""
+msgstr "Postfix:"
 
 #: src/modules/options/OptionsWidget_message.cpp:136
 msgid "Show timestamp"
 msgstr "Visa tidsstämpel"
 
 #: src/modules/options/OptionsWidget_message.cpp:139
+#, fuzzy
 msgid "Use UTC time for timestamp"
-msgstr ""
+msgstr "Använd UTC-tid för tidsstämpel"
 
 #: src/modules/options/OptionsWidget_message.cpp:146
 msgid "Use special color for timestamps:"
@@ -2836,12 +3444,17 @@ msgid "Timestamp format:"
 msgstr "Format för tidsstämpel:"
 
 #: src/modules/options/OptionsWidget_message.cpp:177
+#, fuzzy
 msgid ""
 "Please note that this is a set of standard IRC colors. You can adjust them a "
 "bit, make them darker or lighter but you shouldn't change their fundamental "
 "tint. Black should stay black, dark green should still remain a green darker "
 "than the light one."
 msgstr ""
+"Observera att detta är en uppsättning IRC-standardfärger. Du kan justera dem "
+"lite, göra dem mörkare eller ljusare, men du bör inte ändra deras "
+"grundläggande nyans. Svart ska förbli svart, mörkgrönt ska fortfarande vara "
+"en grön färg som är mörkare än den ljusa."
 
 #: src/modules/options/OptionsWidget_message.cpp:188
 msgid "Reset to Default"
@@ -2860,8 +3473,9 @@ msgid "Foreground:"
 msgstr "Förgrund:"
 
 #: src/modules/options/OptionsWidget_message.cpp:412
+#, fuzzy
 msgid "Alert level:"
-msgstr ""
+msgstr "Varningsnivå:"
 
 #: src/modules/options/OptionsWidget_message.cpp:435
 msgid "Log this"
@@ -2888,51 +3502,58 @@ msgid "Message Style"
 msgstr "Meddelandestil"
 
 #: src/modules/options/OptionsWidget_message.h:57
+#, fuzzy
 msgid "theme,privmsg,output,format"
-msgstr ""
+msgstr "tema,privmsg,utdata,format"
 
 #: src/modules/options/OptionsWidget_message.h:76
 msgid "Timestamp"
 msgstr "Tidsstämpel"
 
 #: src/modules/options/OptionsWidget_message.h:80
+#, fuzzy
 msgid "time,timestamp"
-msgstr ""
+msgstr "tid,tidsstämpel"
 
 #: src/modules/options/OptionsWidget_message.h:98
 msgid "Message Decorations"
 msgstr "Meddelandedekorationer"
 
 #: src/modules/options/OptionsWidget_message.h:99
+#, fuzzy
 msgid "theme,icons,colors,messages,output"
-msgstr ""
+msgstr "tema,ikoner,färger,meddelanden,utdata"
 
 #: src/modules/options/OptionsWidget_message.h:197
 msgid "Color Set"
 msgstr "Färguppsättning"
 
 #: src/modules/options/OptionsWidget_message.h:198
+#, fuzzy
 msgid "theme,colors,messages,output"
-msgstr ""
+msgstr "tema,färger,meddelanden,utdata"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:46
+#, fuzzy
 msgid "NickServ Authentication Rule - KVIrc"
-msgstr ""
+msgstr "Regel för autentisering av NickServ - KVIrc"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:50
 msgid "Registered nickname:"
 msgstr "Registrerat smeknamn:"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:54
+#, fuzzy
 msgid "Put here the nickname that you have registered with NickServ"
-msgstr ""
+msgstr "Ange här det smeknamn som du har registrerat hos NickServ"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:58
+#, fuzzy
 msgid "NickServ mask:"
-msgstr ""
+msgstr "NickServ mask:"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:63
-#, no-c-format
+#, fuzzy, no-c-format
 msgid ""
 "This is the mask that NickServ must match to be correctly identified as the "
 "NickServ service. This usually will be something like <b>NickServ!"
@@ -2941,12 +3562,20 @@ msgid ""
 "network can use the nickname \"NickServ\", the mask <b>NickServ!*@*</b> may "
 "be safe to use in this field."
 msgstr ""
+"Detta är den mask som NickServ måste matcha för att korrekt identifieras som "
+"NickServ-tjänsten. Det brukar vara något i stil med <b>NickServ!"
+"service@services.dalnet.</b><br>Du kan använda jokertecken för det här "
+"fältet, men i allmänhet är det en säkerhetsbrist. Om du är 100% ssäker på "
+"att INGEN användare i nätverket kan använda smeknamnet \"NickServ\", kan "
+"masken NickServ <b>!*@*</b> vara säker att använda i det här fältet."
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:72
+#, fuzzy
 msgid "Message regexp:"
-msgstr ""
+msgstr "Meddelande regexp:"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:79
+#, fuzzy
 msgid ""
 "This is the simple regular expression that the identification request "
 "message from NickServ must match in order to be correctly recognized.<br>The "
@@ -2954,12 +3583,19 @@ msgid ""
 "IDENTIFY password\" and it is sent when the NickServ wants you to "
 "authenticate yourself. You can use the * and ? wildcards."
 msgstr ""
+"Detta är det enkla reguljära uttryck som meddelandet om "
+"identifieringsbegäran från NickServ måste matcha för att kunna identifieras "
+"korrekt.<br>Meddelandet är vanligtvis något i stil med \"To identify "
+"yourself please use /ns IDENTIFY password\" och det skickas när NickServ "
+"vill att du ska autentisera dig själv. Du kan använda jokertecknen * och ?"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:84
+#, fuzzy
 msgid "Identify command:"
-msgstr ""
+msgstr "Identifiera kommandot:"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:88
+#, fuzzy
 msgid ""
 "This is the command that will be executed when NickServ requests "
 "authentication for the nickname described in this rule (if the both server "
@@ -2968,76 +3604,101 @@ msgid ""
 "you don't want the password echoed on the screen. Please note that there is "
 "no leading slash in this command."
 msgstr ""
+"Detta är det kommando som kommer att utföras när NickServ begär "
+"autentisering för det smeknamn som beskrivs i den här regeln (om både "
+"serverns och NickServs mask matchas). Det brukar vara ungefär som <b>msg "
+"NickServ identify &lt;dittlösenord&gt;.</b><br>Du kan använda <b>msg -q</b> "
+"om du inte vill att lösenordet ska ekas på skärmen. Observera att det inte "
+"finns något inledande snedstreck i det här kommandot."
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:100
+#, fuzzy
 msgid "Server mask:"
-msgstr ""
+msgstr "Server mask:"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:104
+#, fuzzy
 msgid ""
 "This is the mask that the current server must match in order for this rule "
 "to apply. It can contain * and ? wildcards.<br>Do NOT use simply \"*\" "
 "here..."
 msgstr ""
+"Detta är den mask som den aktuella servern måste matcha för att denna regel "
+"ska gälla. Den kan innehålla * och ? jokertecken.<br>Använd INTE bara \"*\" "
+"här ..."
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:116
+#, fuzzy
 msgid "Hint: Move the mouse cursor over the fields to get help"
-msgstr ""
+msgstr "Tips: För muspekaren över fälten för att få hjälp"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:147
+#, fuzzy
 msgid "Invalid NickServ Rule - KVIrc"
-msgstr ""
+msgstr "Ogiltig NickServ-regel - KVIrc"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:151
+#, fuzzy
 msgid "The nickname field can't be empty!"
-msgstr ""
+msgstr "Fältet för smeknamn får inte vara tomt!"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:157
+#, fuzzy
 msgid "The nickname field can't contain spaces!"
-msgstr ""
+msgstr "Smeknamnsfältet får inte innehålla mellanslag!"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:165
+#, fuzzy
 msgid "The NickServ mask can't be empty!<br>You must put at least * there."
-msgstr ""
+msgstr "NickServ-masken får inte vara tom!<br>Du måste lägga till minst * där."
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:173
+#, fuzzy
 msgid "The message regexp can't be empty!<br>You must put at least * there."
 msgstr ""
+"Meddelandet regexp får inte vara tomt!<br>Du måste lägga till minst * där."
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:181
+#, fuzzy
 msgid "The IDENTIFY command can't be empty!"
-msgstr ""
+msgstr "IDENTIFY-kommandot får inte vara tomt!"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:226
 #: src/modules/options/OptionsWidget_servers.cpp:307
+#, fuzzy
 msgid "Enable NickServ identification"
-msgstr ""
+msgstr "Aktivera NickServ-identifiering"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:229
 #: src/modules/options/OptionsWidget_servers.cpp:310
+#, fuzzy
 msgid "This check enables the automatic identification with NickServ"
-msgstr ""
+msgstr "Denna kontroll möjliggör automatisk identifiering med NickServ"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:238
+#, fuzzy
 msgid "Server Mask"
-msgstr ""
+msgstr "Server Mask"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:239
 #: src/modules/options/OptionsWidget_servers.cpp:319
 msgid "NickServ Mask"
-msgstr ""
+msgstr "NickServ-mask"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:240
 #: src/modules/options/OptionsWidget_servers.cpp:320
+#, fuzzy
 msgid "NickServ Request Mask"
-msgstr ""
+msgstr "Mask för NickServ-begäran"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:241
 #: src/modules/options/OptionsWidget_servers.cpp:321
+#, fuzzy
 msgid "Identify Command"
-msgstr ""
+msgstr "Identifiera befälhavare"
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:252
+#, fuzzy
 msgid ""
 "This is a list of NickServ identification rules. KVIrc will use them to "
 "model its automatic interaction with NickServ on all the networks.<br>Please "
@@ -3049,6 +3710,15 @@ msgid ""
 "that can be created in the \"Advanced...\" network options (accessible from "
 "the servers dialog)."
 msgstr ""
+"Detta är en lista över NickServs identifieringsregler. KVIrc kommer att "
+"använda dem för att modellera sin automatiska interaktion med NickServ på "
+"alla nätverk.<br>Observera att den här funktionen kan leda till att dina "
+"NickServ-lösenord stjäls om den används på fel sätt. Se till att du fullt ut "
+"förstår NickServ-autentiseringsprotokollet.<br>Med andra ord, se till att du "
+"vet vad du gör.<br>Observera också att lösenordet som du anger lagras som "
+"<b>PLAIN TEXT</b>.<br>KVIrc stöder även NickServ-autentiseringsregler per "
+"nätverk som kan skapas i nätverksalternativen \"Advanced...\" (nås från "
+"dialogrutan Servrar)."
 
 #: src/modules/options/OptionsWidget_nickserv.cpp:261
 #: src/modules/options/OptionsWidget_servers.cpp:337
@@ -3069,25 +3739,30 @@ msgstr "Ta bort regel"
 #: src/modules/options/OptionsWidget_servers.cpp:368
 #: src/modules/options/OptionsWidget_servers.cpp:1004
 msgid "NickServ"
-msgstr ""
+msgstr "NickServ"
 
 #: src/modules/options/OptionsWidget_nickserv.h:41
+#, fuzzy
 msgid "authentication,identify"
-msgstr ""
+msgstr "autentisering,identifiera"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:42
+#, fuzzy
 msgid "Title font:"
-msgstr ""
+msgstr "Font för titel:"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:43
+#, fuzzy
 msgid "Title foreground color:"
-msgstr ""
+msgstr "Titelns förgrundsfärg:"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:142
+#, fuzzy
 msgid "Enable the notifier"
-msgstr ""
+msgstr "Aktivera anmälaren"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:143
+#, fuzzy
 msgid ""
 "This is an option for the impatient: it allows one to forcibly and "
 "permanently disable the notifier window. Please note that if this option is "
@@ -3095,49 +3770,75 @@ msgid ""
 "around specify to use it in response to particular events. Also note that "
 "this option will make all the /notifier.* commands fail silently."
 msgstr ""
+"Detta är ett alternativ för den otålige: det gör det möjligt att med våld "
+"och permanent inaktivera notifieringsfönstret. Observera att om det här "
+"alternativet inte är aktiverat kommer notifieraren INTE att dyka upp även om "
+"alla andra alternativ anger att den ska användas som svar på särskilda "
+"händelser. Observera också att detta alternativ kommer att göra att alla "
+"kommandon /notifier.* misslyckas tyst."
 
 #: src/modules/options/OptionsWidget_notifier.cpp:155
+#, fuzzy
 msgid "Use the KDE notifier"
-msgstr ""
+msgstr "Använd KDE-anmälaren"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:156
+#, fuzzy
 msgid ""
 "This option uses the KDE notification system instead of the KVIrc's builtin."
 "<br>This is cool if you want to better integrate KVIrc inside KDE.<br>Note "
 "that KDE's notifier isn't as flexible or \"tabbed\" like KVIrc's"
 msgstr ""
+"Det här alternativet använder KDE:s notifieringssystem istället för KVIrcs "
+"inbyggda.<br>Det här är bra om du vill integrera KVIrc bättre i KDE."
+"<br>Observera att KDE:s notifierare inte är lika flexibel eller \"flikad\" "
+"som KVIrcs"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:171
+#, fuzzy
 msgid "Use the D-Bus-based notifiers"
-msgstr ""
+msgstr "Använd de D-Bus-baserade anmälarna"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:172
+#, fuzzy
 msgid ""
 "This option uses the D-Bus-based notifier instead of the KVIrc's builtin."
 "<br>This is cool if you want to better integrate KVIrc inside your desktop "
 "environment.<br>Note that this notifier isn't as flexible or \"tabbed\" like "
 "KVIrc's is."
 msgstr ""
+"Det här alternativet använder den D-Bus-baserade anmälaren i stället för "
+"KVIrcs inbyggda.<br>Det här är bra om du vill integrera KVIrc bättre i din "
+"skrivbordsmiljö.<br>Observera att den här anmälaren inte är lika flexibel "
+"eller \"flikad\" som KVIrcs är."
 
 #: src/modules/options/OptionsWidget_notifier.cpp:193
+#, fuzzy
 msgid "Don't show notifier when there is an active fullscreen window"
-msgstr ""
+msgstr "Visa inte notifieraren när det finns ett aktivt helskärmsfönster"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:195
+#, fuzzy
 msgid ""
 "This option stops the notifier from being displayed when there is an active "
 "fullscreen window. This is useful for gaming sessions where you may be "
 "distracted by the notifier or it may even switch your game from fullscreen "
 "to window mode."
 msgstr ""
+"Det här alternativet förhindrar att notifieraren visas när det finns ett "
+"aktivt helskärmsfönster. Detta är användbart under spelsessioner där du kan "
+"bli distraherad av notifieraren eller till och med byta spel från helskärms- "
+"till fönsterläge."
 
 #: src/modules/options/OptionsWidget_notifier.cpp:207
+#, fuzzy
 msgid "Enable notifier window flashing"
-msgstr ""
+msgstr "Aktivera blinkande fönster för notifierare"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:214
+#, fuzzy
 msgid "Enable notifier window fade effect"
-msgstr ""
+msgstr "Aktivera fade-effekt för notifieringsfönster"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:221
 #: src/modules/options/OptionsWidget_notify.cpp:58
@@ -3145,16 +3846,20 @@ msgid "Advanced Configuration"
 msgstr "Avancerad konfiguration"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:224
+#, fuzzy
 msgid "Default auto hiding time for messages (0 to disable):"
 msgstr ""
+"Standardtid för automatisk döljning av meddelanden (0 för att avaktivera):"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:229
+#, fuzzy
 msgid "Notifier window opacity while active (mouseover):"
-msgstr ""
+msgstr "Anmälarfönstrets opacitet när det är aktivt (muspekare):"
 
 #: src/modules/options/OptionsWidget_notifier.cpp:234
+#, fuzzy
 msgid "Notifier window opacity while inactive:"
-msgstr ""
+msgstr "Anmälarfönstrets opacitet när det är inaktivt:"
 
 #: src/modules/options/OptionsWidget_notifier.h:32
 #: src/modules/options/OptionsWidget_notifier.h:51
@@ -3162,91 +3867,114 @@ msgid "Notifier"
 msgstr "Notifierare"
 
 #: src/modules/options/OptionsWidget_notifier.h:52
+#, fuzzy
 msgid "popup"
-msgstr ""
+msgstr "HJÄLP-POPUPENS VARAKTIGHET"
 
 #: src/modules/options/OptionsWidget_notify.cpp:43
+#, fuzzy
 msgid "Use online notify list"
-msgstr ""
+msgstr "Använda online notifieringslista"
 
 #: src/modules/options/OptionsWidget_notify.cpp:49
 msgid "Show notifications in active window"
 msgstr "Visa notifieringar i aktivt fönster"
 
 #: src/modules/options/OptionsWidget_notify.cpp:52
+#, fuzzy
 msgid "Flash window when users are going online"
-msgstr ""
+msgstr "Flash-fönster när användare går online"
 
 #: src/modules/options/OptionsWidget_notify.cpp:55
+#, fuzzy
 msgid "Popup notifier when users are going online"
-msgstr ""
+msgstr "Popup-meddelande när användare går online"
 
 #: src/modules/options/OptionsWidget_notify.cpp:61
+#, fuzzy
 msgid "Check USERHOST for online users"
-msgstr ""
+msgstr "Kontrollera USERHOST för online-användare"
 
 #: src/modules/options/OptionsWidget_notify.cpp:64
+#, fuzzy
 msgid "Use smart notify list manager"
-msgstr ""
+msgstr "Använd smart notifieringslisthanterare"
 
 #: src/modules/options/OptionsWidget_notify.cpp:67
+#, fuzzy
 msgid "Use the WATCH method if available"
-msgstr ""
+msgstr "Använd WATCH-metoden om den är tillgänglig"
 
 #: src/modules/options/OptionsWidget_notify.cpp:70
 msgid "Check interval:"
 msgstr "Kontrollintervall:"
 
 #: src/modules/options/OptionsWidget_notify.cpp:74
+#, fuzzy
 msgid "ISON delay:"
-msgstr ""
+msgstr "Fördröjning av ISON:"
 
 #: src/modules/options/OptionsWidget_notify.cpp:78
+#, fuzzy
 msgid "USERHOST delay:"
-msgstr ""
+msgstr "USERHOST fördröjning:"
 
 #: src/modules/options/OptionsWidget_notify.cpp:82
+#, fuzzy
 msgid ""
 "<p><b>Note:</b><br>The notify list is managed using the \"Registered Users\" "
 "settings.</p>"
 msgstr ""
+"<p><b>Obs:</b><br>Meddelandelistan hanteras med hjälp av inställningarna för "
+"\"Registrerade användare\".</p>"
 
 #: src/modules/options/OptionsWidget_notify.h:30
 msgid "Notifications"
 msgstr "Notifieringar"
 
 #: src/modules/options/OptionsWidget_notify.h:32
+#, fuzzy
 msgid "notify,notifications,buddy,buddies,friend,friends"
-msgstr ""
+msgstr "notifiera,notifiera,buddy,buddies,vän,vänner"
 
 #: src/modules/options/OptionsWidget_protection.h:32
+#, fuzzy
 msgid "Protection"
-msgstr ""
+msgstr "SPELSKYDD"
 
 #: src/modules/options/OptionsWidget_protection.h:35
+#, fuzzy
 msgid "ctcp,flood"
-msgstr ""
+msgstr "ctcp,översvämning"
 
 #: src/modules/options/OptionsWidget_proxy.cpp:70
 msgid "Use proxy for all connections"
 msgstr "Använd Proxy för alla anslutningar"
 
 #: src/modules/options/OptionsWidget_proxy.cpp:71
+#, fuzzy
 msgid ""
 "When enabled, the selected proxy will be used as the default for all "
 "connections. An alternative option to define a specific per-server proxy, is "
 "also located in the advanced server dialog in the connection tab."
 msgstr ""
+"När den är aktiverad kommer den valda proxyn att användas som standard för "
+"alla anslutningar. Ett alternativt alternativ för att definiera en specifik "
+"proxy per server finns också i den avancerade serverdialogen på fliken "
+"Connection."
 
 #: src/modules/options/OptionsWidget_proxy.cpp:79
 msgid "Proxy"
 msgstr "Proxy"
 
 #: src/modules/options/OptionsWidget_proxy.cpp:90
+#, fuzzy
 msgid ""
 "This is the list of available proxy servers.<br>Right-click on the list to "
 "add or remove proxies."
 msgstr ""
+"Detta är en lista över tillgängliga proxyservrar.<br>Högerklicka på listan "
+"för att lägga till eller ta bort proxyservrar."
 
 #: src/modules/options/OptionsWidget_proxy.cpp:103
 msgid "New proxy"
@@ -3298,110 +4026,154 @@ msgid "Proxy Hosts"
 msgstr "Proxyvärdar"
 
 #: src/modules/options/OptionsWidget_proxy.h:57
+#, fuzzy
 msgid "connection,servers"
-msgstr ""
+msgstr "anslutning,servrar"
 
 #: src/modules/options/OptionsWidget_query.cpp:42
+#, fuzzy
 msgid "Open Query for"
-msgstr ""
+msgstr "Öppen fråga för"
 
 #: src/modules/options/OptionsWidget_query.cpp:44
+#, fuzzy
 msgid ""
 "This option enables query window creation when a private message (PRIVMSG) "
 "is received. If you disable this, private messages will be shown in the "
 "active window or a common channel."
 msgstr ""
+"Detta alternativ gör det möjligt att skapa ett frågefönster när ett privat "
+"meddelande (PRIVMSG) tas emot. Om du avaktiverar detta kommer privata "
+"meddelanden att visas i det aktiva fönstret eller i en gemensam kanal."
 
 #: src/modules/options/OptionsWidget_query.cpp:50
+#, fuzzy
 msgid ""
 "This option enables query window creation when a private notice (NOTICE) is "
 "received. If you disable this, private notices will be shown in the active "
 "window or a common channel."
 msgstr ""
+"Detta alternativ gör det möjligt att skapa ett frågefönster när ett privat "
+"meddelande (NOTICE) tas emot. Om du avaktiverar detta visas privata "
+"meddelanden i det aktiva fönstret eller i en gemensam kanal."
 
 #: src/modules/options/OptionsWidget_query.cpp:55
+#, fuzzy
 msgid "Open incoming query windows without focus"
-msgstr ""
+msgstr "Öppna fönster för inkommande frågor utan fokus"
 
 #: src/modules/options/OptionsWidget_query.cpp:56
+#, fuzzy
 msgid ""
 "This option prevents incoming query windows from diverting application focus."
 "<br>Enable this if you don't like query windows popping up while you're "
 "typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar att inkommande frågefönster avleder programmets "
+"fokus.<br>Aktivera detta om du inte vill att frågefönster ska dyka upp när "
+"du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_query.cpp:61
+#, fuzzy
 msgid "Enable target user tracking"
-msgstr ""
+msgstr "Aktivera spårning av målanvändare"
 
 #: src/modules/options/OptionsWidget_query.cpp:62
+#, fuzzy
 msgid ""
 "This option will enable target user tracking. Some actions of the target "
 "user (e.g. joins and parts) will be displayed in the window."
 msgstr ""
+"Detta alternativ aktiverar spårning av målanvändare. Vissa av målanvändarens "
+"åtgärder (t.ex. anslutningar och delar) kommer att visas i fönstret."
 
 #: src/modules/options/OptionsWidget_query.cpp:67
+#, fuzzy
 msgid "Flash system taskbar on new query message"
-msgstr ""
+msgstr "Flash-systemets aktivitetsfält vid meddelande om ny fråga"
 
 #: src/modules/options/OptionsWidget_query.cpp:68
+#, fuzzy
 msgid ""
 "This option causes the system taskbar entry for KVIrc to flash when a new "
 "query message is received and the KVIrc window is not the active."
 msgstr ""
+"Detta alternativ gör att posten för KVIrc i systemets aktivitetsfält blinkar "
+"när ett nytt förfrågningsmeddelande tas emot och KVIrc-fönstret inte är "
+"aktivt."
 
 #: src/modules/options/OptionsWidget_query.cpp:71
+#, fuzzy
 msgid "Popup notifier on new query message"
-msgstr ""
+msgstr "Popup-meddelande om nytt frågemeddelande"
 
 #: src/modules/options/OptionsWidget_query.cpp:72
+#, fuzzy
 msgid ""
 "This option causes a small notifier window to pop up in the lower right "
 "corner of the screen when a new message is received and the KVIrc window is "
 "not active."
 msgstr ""
+"Detta alternativ gör att ett litet meddelandefönster dyker upp i det nedre "
+"högra hörnet av skärmen när ett nytt meddelande tas emot och KVIrc-fönstret "
+"inte är aktivt."
 
 #: src/modules/options/OptionsWidget_query.cpp:76
+#, fuzzy
 msgid "Popup notifier on new notice"
-msgstr ""
+msgstr "Popup-meddelande om nytt meddelande"
 
 #: src/modules/options/OptionsWidget_query.cpp:77
+#, fuzzy
 msgid ""
 "This option causes a small notifier window to pop up in the lower right "
 "corner of the screen when a new notice is received and the KVIrc window is "
 "not active."
 msgstr ""
+"Detta alternativ gör att ett litet meddelandefönster dyker upp i det nedre "
+"högra hörnet av skärmen när ett nytt meddelande tas emot och KVIrc-fönstret "
+"inte är aktivt."
 
 #: src/modules/options/OptionsWidget_query.cpp:81
+#, fuzzy
 msgid "Show information about query target at the top of the query"
-msgstr ""
+msgstr "Visa information om sökmålet högst upp i sökningen"
 
 #: src/modules/options/OptionsWidget_query.cpp:82
+#, fuzzy
 msgid ""
 "This option enables query window information label. It can show you known "
 "information about query target at the top of the window. Uncheck this "
 "option, if you think,that it wastes your query space."
 msgstr ""
+"Det här alternativet aktiverar informationsetiketten i frågefönstret. Den "
+"kan visa dig känd information om sökmålet längst upp i fönstret. Avmarkera "
+"det här alternativet om du tror att det slösar bort ditt frågeutrymme."
 
 #: src/modules/options/OptionsWidget_query.cpp:86
+#, fuzzy
 msgid "Paste last query log"
-msgstr ""
+msgstr "Klistra in den senaste frågeloggen"
 
 #: src/modules/options/OptionsWidget_query.h:30
+#, fuzzy
 msgid "Query"
-msgstr ""
+msgstr "Fråga"
 
 #: src/modules/options/OptionsWidget_query.h:32
+#, fuzzy
 msgid "chat"
-msgstr ""
+msgstr "chatt"
 
 #: src/modules/options/OptionsWidget_servers.cpp:111
+#, fuzzy
 msgid "Network Details and Configuration - KVIrc"
-msgstr ""
+msgstr "Nätverksdetaljer och konfiguration - KVIrc"
 
 #: src/modules/options/OptionsWidget_servers.cpp:131
+#, fuzzy
 msgid "Put here a brief description of the network."
-msgstr ""
+msgstr "Ange här en kort beskrivning av nätverket."
 
 #: src/modules/options/OptionsWidget_servers.cpp:139
 #: src/modules/options/OptionsWidget_servers.cpp:555
@@ -3466,6 +4238,7 @@ msgid "Server encoding:"
 msgstr "Serverkodning:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:204
+#, fuzzy
 msgid ""
 "This box allows you to choose the preferred encoding for the servers in this "
 "network. This encoding will be used for server specific needs, like "
@@ -3473,6 +4246,11 @@ msgid ""
 "Encoding\" then the encoding will be set to the system-wide value that you "
 "choose in the \"Encoding\" page of the options dialog."
 msgstr ""
+"I den här rutan kan du välja den kodning som föredras för servrarna i det "
+"här nätverket. Denna kodning kommer att användas för serverspecifika behov, "
+"t.ex. för att referera till smeknamn och kanalnamn.<br>Om du väljer \"Use "
+"System Encoding\" kommer kodningen att ställas in på det systemomfattande "
+"värde som du väljer på sidan \"Encoding\" i dialogrutan med alternativ."
 
 #: src/modules/options/OptionsWidget_servers.cpp:209
 #: src/modules/options/OptionsWidget_servers.cpp:756
@@ -3480,6 +4258,7 @@ msgid "Text encoding:"
 msgstr "Textkodning:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:214
+#, fuzzy
 msgid ""
 "This box allows you to choose the preferred encoding for the servers in this "
 "network. This encoding will be used as the default for text messages.<br>If "
@@ -3487,6 +4266,11 @@ msgid ""
 "system-wide value that you choose in the \"Encoding\" page of the options "
 "dialog."
 msgstr ""
+"I den här rutan kan du välja önskad kodning för servrarna i det här "
+"nätverket. Denna kodning kommer att användas som standard för "
+"textmeddelanden.<br>Om du väljer \"Use System Encoding\" kommer kodningen "
+"att ställas in på det systemomfattande värde som du väljer på sidan "
+"\"Encoding\" i dialogrutan Options."
 
 #: src/modules/options/OptionsWidget_servers.cpp:222
 #: src/modules/options/OptionsWidget_servers.cpp:223
@@ -3498,22 +4282,31 @@ msgid "Connect to this network at startup"
 msgstr "Anslut till detta nätverk vid uppstart"
 
 #: src/modules/options/OptionsWidget_servers.cpp:245
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to automatically connect to this network at "
 "startup"
 msgstr ""
+"Detta alternativ gör att KVIrc automatiskt ansluter till det här nätverket "
+"vid uppstart"
 
 #: src/modules/options/OptionsWidget_servers.cpp:261
 #: src/modules/options/OptionsWidget_servers.cpp:825
+#, fuzzy
 msgid "Channels to Join Automatically upon Connect"
-msgstr ""
+msgstr "Kanaler som ska anslutas automatiskt vid anslutning"
 
 #: src/modules/options/OptionsWidget_servers.cpp:263
+#, fuzzy
 msgid ""
 "Here you can set a list of channels to be joined automatically after a "
 "connection to a server in this network has been established. To add a "
 "channel, type its name in the text input below and click \"<b>Add</b>\"."
 msgstr ""
+"Här kan du ställa in en lista över kanaler som ska anslutas automatiskt när "
+"en anslutning till en server i det här nätverket har upprättats. Lägg till "
+"en kanal genom att skriva in dess namn i textrutan nedan och klicka "
+"på<b>\"Lägg till</b>\"."
 
 #: src/modules/options/OptionsWidget_servers.cpp:269
 #: src/modules/options/OptionsWidget_servers.cpp:832
@@ -3521,6 +4314,7 @@ msgid "Join Channels"
 msgstr "Gå in i kanaler"
 
 #: src/modules/options/OptionsWidget_servers.cpp:279
+#, fuzzy
 msgid ""
 "The following commands will be executed after a connection to a server in "
 "this network has been established.<br><b>Important:</b> Enter commands "
@@ -3528,6 +4322,12 @@ msgid ""
 "<tt>/quote pass secret</tt>).<br>KVIrc will first send the USER command, "
 "then eventually PASS and NICK and then execute this command sequence."
 msgstr ""
+"Följande kommandon kommer att utföras när en anslutning till en server i det "
+"här nätverket har upprättats.<br><b>Viktigt:</b> Ange kommandon <b>utan</b> "
+"föregående snedstreck (t.ex. <tt>quote pass secret</tt> i stället för <tt>/"
+"quote</tt> pass <tt>secret</tt> ).<br>KVIrc kommer först att skicka "
+"kommandot USER, sedan PASS och NICK och därefter utföra den här "
+"kommandosekvensen."
 
 #: src/modules/options/OptionsWidget_servers.cpp:284
 #: src/modules/options/OptionsWidget_servers.cpp:846
@@ -3535,6 +4335,7 @@ msgid "On Connect"
 msgstr "Vid anslutning"
 
 #: src/modules/options/OptionsWidget_servers.cpp:295
+#, fuzzy
 msgid ""
 "The following commands will be executed after a successful login to a server "
 "in this network.<br><b>Important:</b> Enter commands <b>without</b> a "
@@ -3542,6 +4343,11 @@ msgid ""
 "privatelog</tt>).<br>This is useful for automatically opening queries, "
 "setting variables, etc."
 msgstr ""
+"Följande kommandon kommer att utföras efter en lyckad inloggning på en "
+"server i det här nätverket.<br><b>Viktigt:</b> Ange kommandon <b>utan</b> "
+"föregående snedstreck (t.ex. <tt>quote privatelog</tt> i stället för <tt>/"
+"quote privatelog</tt>).<br>Detta är användbart för att automatiskt öppna "
+"frågor, ställa in variabler etc."
 
 #: src/modules/options/OptionsWidget_servers.cpp:299
 #: src/modules/options/OptionsWidget_servers.cpp:861
@@ -3549,6 +4355,7 @@ msgid "On Login"
 msgstr "Vid inloggning"
 
 #: src/modules/options/OptionsWidget_servers.cpp:330
+#, fuzzy
 msgid ""
 "This is a list of NickServ identification rules. KVIrc will use them to "
 "model its automatic interaction with NickServ on this network.<br>Please be "
@@ -3558,18 +4365,30 @@ msgid ""
 "doing.<br>Also note that the password that you provide is stored as <b>PLAIN "
 "TEXT</b>."
 msgstr ""
+"Detta är en lista över NickServs identifieringsregler. KVIrc kommer att "
+"använda dem för att modellera sin automatiska interaktion med NickServ i det "
+"här nätverket.<br>Observera att den här funktionen kan leda till att dina "
+"NickServ-lösenord stjäls om den används på fel sätt. Se till att du fullt ut "
+"förstår NickServs autentiseringsprotokoll.<br>Med andra ord, se till att du "
+"vet vad du gör.<br>Observera också att lösenordet som du anger lagras som "
+"<b>PLAIN TEXT</b>."
 
 #: src/modules/options/OptionsWidget_servers.cpp:531
 msgid "Server Details and Configuration - KVIrc"
 msgstr "Serverdetaljer och konfiguration - KVIrc"
 
 #: src/modules/options/OptionsWidget_servers.cpp:546
+#, fuzzy
 msgid ""
 "This is a brief description of this server. This field has no restrictions "
 "but many server lists use it to describe the server's physical location"
 msgstr ""
+"Detta är en kort beskrivning av den här servern. Detta fält har inga "
+"begränsningar, men många serverlistor använder det för att beskriva serverns "
+"fysiska plats"
 
 #: src/modules/options/OptionsWidget_servers.cpp:568
+#, fuzzy
 msgid ""
 "This is the <b>username</b> that KVIrc will use to login to this server.\n"
 "If this field is left empty (most common case), KVIrc will first look if a "
@@ -3577,14 +4396,24 @@ msgid ""
 "that is empty then KVIrc will use the default username specified in the "
 "\"Identity\" options tab."
 msgstr ""
+"Detta är det <b>användarnamn</b> som KVIrc kommer att använda för att logga "
+"in på den här servern.\n"
+"Om det här fältet lämnas tomt (vilket är det vanligaste fallet) kommer KVIrc "
+"först att kontrollera om ett användarnamn har angetts för det nätverk som "
+"servern tillhör, och om det är tomt kommer KVIrc att använda det "
+"standardanvändarnamn som anges på fliken \"Identity\"."
 
 #: src/modules/options/OptionsWidget_servers.cpp:580
+#, fuzzy
 msgid ""
 "If this server requires a password, put it in this field, otherwise leave it "
 "empty."
 msgstr ""
+"Om servern kräver ett lösenord anges det i detta fält, annars lämnas det "
+"tomt."
 
 #: src/modules/options/OptionsWidget_servers.cpp:591
+#, fuzzy
 msgid ""
 "You can specify a special <b>nickname</b> that will be used to login to this "
 "server.<br>If this field is left empty (most common case), KVIrc will first "
@@ -3592,15 +4421,26 @@ msgid ""
 "and if that is empty then the default nickname (specified in the "
 "\"Identity\" settings) will be used."
 msgstr ""
+"Du kan ange ett speciellt <b>smeknamn</b> som ska användas för att logga in "
+"på den här servern.<br>Om det här fältet lämnas tomt (det vanligaste fallet) "
+"kommer KVIrc först att kontrollera om ett smeknamn har angetts för det "
+"nätverk som den här servern tillhör, och om det är tomt kommer "
+"standardsmeknamnet (som anges i inställningarna för \"Identity\") att "
+"användas."
 
 #: src/modules/options/OptionsWidget_servers.cpp:605
+#, fuzzy
 msgid ""
 "This nickname will be tried if the primary nickname for this server is "
 "already in use.<br>If you leave it empty then the default nicknames "
 "specified in the identity options will be tried instead."
 msgstr ""
+"Detta smeknamn kommer att prövas om det primära smeknamnet för den här "
+"servern redan används.<br>Om du lämnar det tomt kommer standardsmeknamnen "
+"som anges i identitetsalternativen att prövas i stället."
 
 #: src/modules/options/OptionsWidget_servers.cpp:615
+#, fuzzy
 msgid ""
 "You can specify a special <b>real name</b> that will be used to login with "
 "this server.<br>If you leave this field empty (most common case), KVIrc will "
@@ -3608,25 +4448,40 @@ msgid ""
 "belongs to, and if that is empty the default \"real name\" (specified in the "
 "\"Identity\" settings) will be used."
 msgstr ""
+"Du kan ange ett speciellt <b>riktigt namn</b> som ska användas för att logga "
+"in på den här servern.<br>Om du lämnar det här fältet tomt (det vanligaste "
+"fallet) kommer KVIrc först att kontrollera om ett riktigt namn har angetts "
+"för det nätverk som den här servern tillhör, och om det är tomt kommer det "
+"förvalda \"riktiga namnet\" (som anges i inställningarna för \"Identity\") "
+"att användas."
 
 #: src/modules/options/OptionsWidget_servers.cpp:623
+#, fuzzy
 msgid "Use default user mode"
-msgstr ""
+msgstr "Använd standardanvändarläge"
 
 #: src/modules/options/OptionsWidget_servers.cpp:624
+#, fuzzy
 msgid ""
 "If this is enabled, the global initial <b>user mode</b> (configured from the "
 "identity dialog) will be used. If disabled, you can configure an initial "
 "user mode for this server"
 msgstr ""
+"Om detta är aktiverat kommer det globala initiala <b>användarläget</b> "
+"(konfigurerat i dialogrutan Identitet) att användas. Om det är inaktiverat "
+"kan du konfigurera ett initialt användarläge för den här servern"
 
 #: src/modules/options/OptionsWidget_servers.cpp:664
+#, fuzzy
 msgid ""
 "This is the default <b>port</b> that this server will be contacted on."
 "<br>Usually <b>6667</b> is OK."
 msgstr ""
+"Detta är den <b>standardport</b> som servern kommer att kontaktas på."
+"<br>Vanligtvis är <b>6667</b> OK."
 
 #: src/modules/options/OptionsWidget_servers.cpp:673
+#, fuzzy
 msgid ""
 "This is the <b>IP address</b> of this server, it is here for caching "
 "purposes.<br>If you leave this field empty, KVIrc will fill it in the first "
@@ -3634,12 +4489,19 @@ msgid ""
 "option below, KVIrc will use it as a \"cached result\" and avoid looking it "
 "up again."
 msgstr ""
+"Det här är <b>IP-adressen</b> till den här servern, den är här för cachning."
+"<br>Om du lämnar det här fältet tomt kommer KVIrc att fylla i det första "
+"gången den ansluter till servern. Om du aktiverar alternativet \"cachelagra "
+"IP-adressen\" nedan kommer KVIrc att använda den som ett \"cachelagrat "
+"resultat\" och undvika att söka upp den igen."
 
 #: src/modules/options/OptionsWidget_servers.cpp:697
+#, fuzzy
 msgid "Cache IP address"
-msgstr ""
+msgstr "Cache IP-adress"
 
 #: src/modules/options/OptionsWidget_servers.cpp:700
+#, fuzzy
 msgid ""
 "This check will enable <b>IP address caching</b> for this server:<br>DNS "
 "lookups can be time-consuming and might be blocking on some platforms; this "
@@ -3648,53 +4510,82 @@ msgid ""
 "resolve to a fixed IP address when either the DNS for that server is "
 "temporarily unreachable or you want to avoid the round-robin lookups."
 msgstr ""
+"Denna kontroll aktiverar <b>cachelagring av IP-adresser</b> för den här "
+"servern:<br>DNS-uppslagningar kan vara tidskrävande och kan vara blockerande "
+"på vissa plattformar; det här alternativet gör att KVIrc bara slår upp "
+"serverns värdnamn en gång.<br><br> Avancerat: Du kan också använda det här "
+"alternativet för att tvinga ett visst servernamn att lösa upp till en fast "
+"IP-adress när antingen DNS för den servern är tillfälligt oåtkomlig eller om "
+"du vill undvika round-robin-uppslagningar."
 
 #: src/modules/options/OptionsWidget_servers.cpp:711
+#, fuzzy
 msgid "Connect to this server at startup"
-msgstr ""
+msgstr "Anslut till den här servern vid start"
 
 #: src/modules/options/OptionsWidget_servers.cpp:716
+#, fuzzy
 msgid ""
 "This option will cause KVIrc to connect to the IRC server when it is started."
 msgstr ""
+"Detta alternativ gör att KVIrc ansluter till IRC-servern när den startas."
 
 #: src/modules/options/OptionsWidget_servers.cpp:728
+#, fuzzy
 msgid ""
 "This check identifies IPv6 servers.<br>If enabled, KVIrc will attempt to use "
 "the IPv6 protocol (thus your OS <b>must</b> have a working IPv6 stack and "
 "you <b>must</b> have an IPv6 connection)."
 msgstr ""
+"Denna kontroll identifierar IPv6-servrar.<br>Om den är aktiverad kommer "
+"KVIrc att försöka använda IPv6-protokollet (ditt operativsystem <b>måste</b> "
+"därför ha en fungerande IPv6-stack och du <b>måste</b> ha en IPv6-"
+"anslutning)."
 
 #: src/modules/options/OptionsWidget_servers.cpp:731
 msgid "Use SSL protocol"
 msgstr "Använd SSL-protokollet"
 
 #: src/modules/options/OptionsWidget_servers.cpp:734
+#, fuzzy
 msgid ""
 "This check will cause the connection to use the <b>Secure Socket Layer</b> "
 "encryption support. Obviously, this server must have support for this, "
 "too. :)"
 msgstr ""
+"Denna kontroll gör att anslutningen använder krypteringsstödet <b>Secure "
+"Socket Layer.</b> Självklart måste denna server ha stöd för detta också. :)"
 
 #: src/modules/options/OptionsWidget_servers.cpp:745
 msgid "Protocol encoding:"
 msgstr "Protokollkodning:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:750
+#, fuzzy
 msgid ""
 "This box allows you to choose the preferred encoding for this server. This "
 "encoding will be used for server specific needs, like referencing nicknames "
 "and channel names.<br>If you choose \"Use Network Encoding\" then the "
 "encoding will be inherited from the network that this server belongs to."
 msgstr ""
+"I den här rutan kan du välja den kodning som föredras för den här servern. "
+"Denna kodning kommer att användas för serverspecifika behov, som att "
+"referera till smeknamn och kanalnamn.<br>Om du väljer \"Use Network "
+"Encoding\" kommer kodningen att ärvas från det nätverk som den här servern "
+"tillhör."
 
 #: src/modules/options/OptionsWidget_servers.cpp:761
+#, fuzzy
 msgid ""
 "This box allows you to choose the preferred encoding for this server. This "
 "will be used as the default encoding for all text messages.<br>If you choose "
 "\"Use Network Encoding\" then the encoding will be inherited from the "
 "network that this server belongs to."
 msgstr ""
+"I den här rutan kan du välja önskad kodning för den här servern. Denna "
+"kodning kommer att användas som standardkodning för alla textmeddelanden."
+"<br>Om du väljer \"Use Network Encoding\" kommer kodningen att ärvas från "
+"det nätverk som servern tillhör."
 
 #: src/modules/options/OptionsWidget_servers.cpp:769
 #: src/modules/options/OptionsWidget_servers.cpp:770
@@ -3706,6 +4597,7 @@ msgid "Proxy server:"
 msgstr "Proxyserver:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:794
+#, fuzzy
 msgid ""
 "Defines the connection type that KVIrc should use to connect to this server."
 "<br>When it's set to *Default* KVIrc will use the global proxy settings, "
@@ -3714,6 +4606,13 @@ msgid ""
 "can define or edit new proxy servers in *General Preferences* / *Connection* "
 "tab' \"Proxy hosts\" dialog."
 msgstr ""
+"Definierar den anslutningstyp som KVIrc ska använda för att ansluta till den "
+"här servern.<br>När den är inställd på *Default* kommer KVIrc att använda de "
+"globala proxyinställningarna, när den är inställd på *Direct Connection* "
+"kommer KVIrc att ansluta direkt utan att använda en proxy, eller välj en "
+"önskad proxy som du tidigare har lagt till<br>Du kan definiera eller "
+"redigera nya proxyservrar i dialogrutan \"Proxy hosts\" på fliken *General "
+"Preferences* / *Connection*."
 
 #: src/modules/options/OptionsWidget_servers.cpp:799
 msgid "Default"
@@ -3724,13 +4623,19 @@ msgid "Direct Connection"
 msgstr "Direktanslutning"
 
 #: src/modules/options/OptionsWidget_servers.cpp:826
+#, fuzzy
 msgid ""
 "Here you can set a list of channels to be joined automatically after a "
 "connection to this server has been established. To add a channel, type its "
 "name in the text input below and click \"<b>Add</b>\"."
 msgstr ""
+"Här kan du ställa in en lista över kanaler som ska anslutas automatiskt "
+"efter att en anslutning till den här servern har upprättats. För att lägga "
+"till en kanal, skriv dess namn i textinmatningen nedan och klicka "
+"på<b>\"Lägg till</b>\"."
 
 #: src/modules/options/OptionsWidget_servers.cpp:841
+#, fuzzy
 msgid ""
 "The following commands will be executed after a connection has been "
 "established.<br><b>Important:</b> Enter commands <b>without</b> a preceding "
@@ -3739,20 +4644,34 @@ msgid ""
 "NICK and then execute this command sequence.<br>This is particularly useful "
 "for IRC bouncers that require login commands."
 msgstr ""
+"Följande kommandon kommer att utföras efter att en anslutning har upprättats."
+"<br><b>Viktigt</b>: Ange kommandon <b>utan</b> föregående snedstreck (t.ex. "
+"<tt>quote pass secret</tt> i stället för <tt>/quote</tt> pass <tt>secret</"
+"tt> ).<br>KVIrc kommer först att skicka kommandot USER, sedan PASS och NICK "
+"och sedan utföra den här kommandosekvensen.<br>Detta är särskilt användbart "
+"för IRC-bouncers som kräver inloggningskommandon."
 
 #: src/modules/options/OptionsWidget_servers.cpp:857
+#, fuzzy
 msgid ""
 "The following commands will be executed after a successful login to this "
 "server.<br><b>Important:</b> Enter commands <b>without</b> a preceding slash "
 "(e.g. <tt>quote privatelog</tt> instead of <tt>/quote privatelog</tt>)."
 "<br>This is useful for automatically opening queries, setting variables, etc."
 msgstr ""
+"Följande kommandon kommer att utföras efter en lyckad inloggning på denna "
+"server.<br><b>Viktigt:</b> Ange kommandon <b>utan</b> föregående snedstreck "
+"(t.ex. <tt>quote privatelog</tt> i stället för <tt>/quote privatelog</tt>)."
+"<br>Detta är användbart för att automatiskt öppna frågor, ställa in "
+"variabler etc."
 
 #: src/modules/options/OptionsWidget_servers.cpp:868
+#, fuzzy
 msgid "Switch to SSL/TLS by using the STARTTLS extension"
-msgstr ""
+msgstr "Byt till SSL/TLS med hjälp av tillägget STARTTLS"
 
 #: src/modules/options/OptionsWidget_servers.cpp:870
+#, fuzzy
 msgid ""
 "This check enables the use of the <b>Transport Layer Security</b> protocol. "
 "If you enable the Extended Capabilities below then the TLS protocol support "
@@ -3760,124 +4679,174 @@ msgid ""
 "Capabilities\" the STARTTLS command will be forcibly sent at the beginning "
 "of the connection."
 msgstr ""
+"Denna kontroll aktiverar användning av <b>Transport Layer Security-"
+"protokollet</b>. Om du aktiverar de utökade funktionerna nedan kommer TLS-"
+"protokollstödet att upptäckas med hjälp av ett CAP LS-kommando. Utan "
+"\"Extended Capabilities\" kommer kommandot STARTTLS att skickas med tvång i "
+"början av anslutningen."
 
 #: src/modules/options/OptionsWidget_servers.cpp:881
 msgid "Extended Capabilities"
 msgstr "Utökade förmågor"
 
 #: src/modules/options/OptionsWidget_servers.cpp:887
+#, fuzzy
 msgid "Query extended capabilities on connect"
-msgstr ""
+msgstr "Fråga om utökade funktioner vid anslutning"
 
 #: src/modules/options/OptionsWidget_servers.cpp:890
+#, fuzzy
 msgid ""
 "This check will cause the connection to use the <b>Extended Capability</b> "
 "support."
 msgstr ""
+"Denna kontroll gör att anslutningen använder <b>Extended Capability-stödet</"
+"b>."
 
 #: src/modules/options/OptionsWidget_servers.cpp:893
 msgid "SASL Authentication"
 msgstr "SASL-autentisering"
 
 #: src/modules/options/OptionsWidget_servers.cpp:898
+#, fuzzy
 msgid "Authenticate via SASL extension"
-msgstr ""
+msgstr "Autentisera via SASL-tillägg"
 
 #: src/modules/options/OptionsWidget_servers.cpp:900
+#, fuzzy
 msgid ""
 "This check enables the use of the <b>SASL</b> authentication protocol If you "
 "enable the proper global option in the Connection/SSL tab and fill the SASL "
 "nickname and SASL password fields in this page, the SASL protocol will be "
 "used for this server if available."
 msgstr ""
+"Den här markeringen aktiverar användning av autentiseringsprotokollet "
+"<b>SASL</b> Om du aktiverar det globala alternativet på fliken Connection/"
+"SSL och fyller i fälten SASL-smeknamn och SASL-lösenord på den här sidan "
+"kommer SASL-protokollet att användas för den här servern om det finns "
+"tillgängligt."
 
 #: src/modules/options/OptionsWidget_servers.cpp:906
 msgid "SASL method:"
 msgstr "SASL-metod:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:912
+#, fuzzy
 msgid ""
 "Select which SASL method you want to use to authenticate with."
 "<br><br>EXTERNAL will fallback to PLAIN if a non-SSL connection is used or "
 "no .pem file is loaded."
 msgstr ""
+"Välj vilken SASL-metod du vill använda för att autentisera dig."
+"<br><br>EXTERNAL kommer att fallbacka till PLAIN om en icke-SSL-anslutning "
+"används eller om ingen .pem-fil laddas."
 
 #: src/modules/options/OptionsWidget_servers.cpp:920
 msgid "SASL nickname:"
 msgstr "SASL-smeknamn:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:924
+#, fuzzy
 msgid ""
 "If you want to enable SASL authentication, insert your nickname here. (Not "
 "required for EXTERNAL)"
 msgstr ""
+"Om du vill aktivera SASL-autentisering, ange ditt smeknamn här. (Krävs inte "
+"för EXTERNAL)"
 
 #: src/modules/options/OptionsWidget_servers.cpp:927
 msgid "SASL password:"
 msgstr "SASL-lösenord:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:931
+#, fuzzy
 msgid ""
 "If you want to enable SASL authentication, insert your password here. (Not "
 "required for EXTERNAL)"
 msgstr ""
+"Om du vill aktivera SASL-autentisering anger du ditt lösenord här. (Krävs "
+"inte för EXTERNAL)"
 
 #: src/modules/options/OptionsWidget_servers.cpp:939
 msgid "Link filter:"
 msgstr "Länkfilter:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:973
+#, fuzzy
 msgid ""
 "This field specifies the name of a module that exports a link filter for "
 "this type of server.<br>For plain IRC connections, you don't need any link "
 "filters; this is used for incompatible protocols."
 msgstr ""
+"Det här fältet anger namnet på en modul som exporterar ett länkfilter för "
+"den här typen av server.<br>För vanliga IRC-anslutningar behöver du inga "
+"länkfilter; detta används för inkompatibla protokoll."
 
 #: src/modules/options/OptionsWidget_servers.cpp:978
 msgid "ID:"
 msgstr "ID:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:986
+#, fuzzy
 msgid ""
 "This field allows you to specify a really unique ID for this server. You "
 "will then be able to use /server -x &lt;this_id&gt; to make the connection. "
 "This is especially useful when you have multiple server entries with the "
 "same hostname and port in different networks (bouncers?)"
 msgstr ""
+"I det här fältet kan du ange ett unikt ID för den här servern. Du kommer då "
+"att kunna använda /server -x &lt;this_id&gt; för att upprätta anslutningen. "
+"Detta är särskilt användbart när du har flera serverposter med samma "
+"värdnamn och port i olika nätverk (bouncers?)"
 
 #: src/modules/options/OptionsWidget_servers.cpp:998
+#, fuzzy
 msgid ""
 "NickServ settings are available only for the whole IRC network, not for "
 "specific servers.\n"
 "To open network settings choose a network (with a globe) in list of networks "
 "and servers and click Advanced."
 msgstr ""
+"NickServ-inställningar är endast tillgängliga för hela IRC-nätverket, inte "
+"för specifika servrar.\n"
+"För att öppna nätverksinställningar väljer du ett nätverk (med en jordglob) "
+"i listan över nätverk och servrar och klickar på Avancerat."
 
 #: src/modules/options/OptionsWidget_servers.cpp:1307
 msgid "Filter:"
 msgstr "Filter:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1312
+#, fuzzy
 msgid ""
 "If you are searching for a specific server or network, you can insert its "
 "name to filter the servers in the list"
 msgstr ""
+"Om du söker efter en viss server eller ett visst nätverk kan du infoga dess "
+"namn för att filtrera servrarna i listan"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1319
+#, fuzzy
 msgid ""
 "If this option is enabled, only servers you have favorited will be displayed"
 msgstr ""
+"Om det här alternativet är aktiverat visas bara servrar som du har "
+"favoritmarkerat"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1327
 msgid "Server"
 msgstr "Server"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1343
+#, fuzzy
 msgid ""
 "This is the list of available IRC servers.<br>Right-click on the list to add "
 "or remove servers and perform other actions.<br>Double-click on a item for "
 "advanced options."
 msgstr ""
+"Detta är listan över tillgängliga IRC-servrar.<br>Högerklicka på listan för "
+"att lägga till eller ta bort servrar och utföra andra åtgärder."
+"<br>Dubbelklicka på ett objekt för avancerade alternativ."
 
 #: src/modules/options/OptionsWidget_servers.cpp:1358
 msgid "New network"
@@ -3917,40 +4886,50 @@ msgid "Server:"
 msgstr "Server:"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1415
+#, fuzzy
 msgid "This is the name of the currently selected server or network"
 msgstr ""
+"Detta är namnet på den server eller det nätverk som för närvarande är valt"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1417
 msgid "Advanced..."
 msgstr "Avancerat..."
 
 #: src/modules/options/OptionsWidget_servers.cpp:1419
+#, fuzzy
 msgid "Click here to edit advanced options for this entry"
-msgstr ""
+msgstr "Klicka här för att redigera avancerade alternativ för denna post"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1431
+#, fuzzy
 msgid ""
 "This button shows a list of recently used servers.<br>It allows you to "
 "quickly find them in the list."
 msgstr ""
+"Den här knappen visar en lista över nyligen använda servrar.<br>Med den här "
+"knappen kan du snabbt hitta dem i listan."
 
 #: src/modules/options/OptionsWidget_servers.cpp:1438
 msgid "Connect &Now"
 msgstr "Anslut &nu"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1480
+#, fuzzy
 msgid "Hit this button to connect to the currently selected server."
-msgstr ""
+msgstr "Tryck på denna knapp för att ansluta till den valda servern."
 
 #: src/modules/options/OptionsWidget_servers.cpp:1486
 msgid "Show this dialog at startup"
 msgstr "Visa denna dialogruta vid uppstart"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1491
+#, fuzzy
 msgid ""
 "If this option is enabled, the servers dialog will appear every time you "
 "start KVIrc"
 msgstr ""
+"Om detta alternativ är aktiverat visas dialogrutan för servrar varje gång du "
+"startar KVIrc"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1717
 msgid "Network:"
@@ -3961,8 +4940,9 @@ msgid "No selection"
 msgstr "Inget val"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1767
+#, fuzzy
 msgid "UnknownNet"
-msgstr ""
+msgstr "Okänt nät"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1846
 #: src/modules/options/OptionsWidget_servers.cpp:1984
@@ -3978,8 +4958,9 @@ msgid "&New Server"
 msgstr "&Ny server"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1854
+#, fuzzy
 msgid "Unfavorite Server"
-msgstr ""
+msgstr "Växla favoritserver"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1856
 msgid "Re&move Server"
@@ -4002,30 +4983,40 @@ msgid "Clear Server List"
 msgstr "Töm serverlista"
 
 #: src/modules/options/OptionsWidget_servers.cpp:1904
+#, fuzzy
 msgid ""
 "Oops! Something weird happened:<br>Can't find any module capable of "
 "importing servers."
 msgstr ""
+"Oops! Något konstigt hände:<br>Kan inte hitta någon modul som kan importera "
+"servrar."
 
 #: src/modules/options/OptionsWidget_servers.cpp:1924
+#, fuzzy
 msgid ""
 "Oops! Something weird happened:<br>Can't find the module that was capable of "
 "this import action. :("
 msgstr ""
+"Oops! Något konstigt hände:<br>Kan inte hitta modulen som kunde utföra den "
+"här importåtgärden :("
 
 #: src/modules/options/OptionsWidget_servers.cpp:2008
 msgid "irc.unknown.net"
 msgstr "irc.unknown.net"
 
 #: src/modules/options/OptionsWidget_servers.cpp:2161
+#, fuzzy
 msgid ""
 "If you click <b>Yes</b>, all of your saved networks, servers, settings, and "
 "passwords will be lost.<br>Would you like to continue?"
 msgstr ""
+"Om du klickar på <b>Yes</b> kommer alla dina sparade nätverk, servrar, "
+"inställningar och lösenord att gå förlorade.<br>Vill du fortsätta?"
 
 #: src/modules/options/OptionsWidget_servers.cpp:2164
+#, fuzzy
 msgid "Confirm Clearing Server List - KVIrc"
-msgstr ""
+msgstr "Bekräfta rensning av serverlista - KVIrc"
 
 #: src/modules/options/OptionsWidget_servers.h:173
 msgid "Servers and Configuration"
@@ -4041,13 +5032,15 @@ msgid "Sound System"
 msgstr "Ljudsystem"
 
 #: src/modules/options/OptionsWidget_sound.cpp:60
+#, fuzzy
 msgid "This allows you to select the sound system to be used with KVIrc."
-msgstr ""
+msgstr "Detta gör att du kan välja det ljudsystem som ska användas med KVIrc."
 
 #: src/modules/options/OptionsWidget_sound.cpp:66
 #: src/modules/options/OptionsWidget_sound.cpp:82
+#, fuzzy
 msgid "Auto-detect"
-msgstr ""
+msgstr "Identifiera automatiskt"
 
 #: src/modules/options/OptionsWidget_sound.cpp:69
 #: src/modules/options/OptionsWidget_sound.cpp:85
@@ -4059,18 +5052,23 @@ msgid "Media Player"
 msgstr "Mediaspelare"
 
 #: src/modules/options/OptionsWidget_sound.cpp:74
+#, fuzzy
 msgid ""
 "This allows you to select the preferred media player to be used with the "
 "mediaplayer.* module commands and functions."
 msgstr ""
+"Här kan du välja vilken mediaspelare som ska användas med kommandon och "
+"funktioner i modulen mediaplayer.*."
 
 #: src/modules/options/OptionsWidget_sound.cpp:90
+#, fuzzy
 msgid "ID3 Tags Encoding"
-msgstr ""
+msgstr "Kodning av ID3-taggar"
 
 #: src/modules/options/OptionsWidget_sound.cpp:92
+#, fuzzy
 msgid "This allows you to select encoding of mp3 tags."
-msgstr ""
+msgstr "Detta gör att du kan välja kodning av mp3-taggar."
 
 #: src/modules/options/OptionsWidget_sound.cpp:97
 #: src/modules/options/OptionsWidget_sound.cpp:122
@@ -4080,24 +5078,29 @@ msgid "Use Language Encoding"
 msgstr "Använd språkkodning"
 
 #: src/modules/options/OptionsWidget_sound.cpp:114
+#, fuzzy
 msgid "Winamp messages encoding"
-msgstr ""
+msgstr "Winamp meddelanden kodning"
 
 #: src/modules/options/OptionsWidget_sound.cpp:116
+#, fuzzy
 msgid "This allows you to select encoding of winamp messages."
-msgstr ""
+msgstr "Detta gör att du kan välja kodning av Winamp-meddelanden."
 
 #: src/modules/options/OptionsWidget_sound.cpp:329
+#, fuzzy
 msgid "New query opened:"
-msgstr ""
+msgstr "Ny fråga öppnad:"
 
 #: src/modules/options/OptionsWidget_sound.cpp:332
+#, fuzzy
 msgid "New message in inactive query:"
-msgstr ""
+msgstr "Nytt meddelande i inaktiv fråga:"
 
 #: src/modules/options/OptionsWidget_sound.cpp:335
+#, fuzzy
 msgid "Highlighted message in inactive window:"
-msgstr ""
+msgstr "Markerat meddelande i inaktivt fönster:"
 
 #: src/modules/options/OptionsWidget_sound.cpp:338
 msgid "When I am kicked:"
@@ -4108,8 +5111,9 @@ msgid "Sound"
 msgstr "Ljud"
 
 #: src/modules/options/OptionsWidget_sound.h:48
+#, fuzzy
 msgid "sound,xmms,audio,play,amarok"
-msgstr ""
+msgstr "ljud,xmms,ljud,spela,amarok"
 
 #: src/modules/options/OptionsWidget_sound.h:85
 msgid "Sounds"
@@ -4124,12 +5128,14 @@ msgid "Encoding"
 msgstr "Kodning"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:52
+#, fuzzy
 msgid "Default server encoding:"
-msgstr ""
+msgstr "Standardkodning för server:"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:60
+#, fuzzy
 msgid "Default text encoding:"
-msgstr ""
+msgstr "Standardkodning för text:"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:87
 #: src/modules/options/OptionsWidget_textEncoding.h:33
@@ -4141,20 +5147,25 @@ msgid "Force language:"
 msgstr "Tvinga språk:"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:97
+#, fuzzy
 msgid "<b>Note:</b> You must restart KVIrc to apply any language changes"
 msgstr ""
+"<b>Obs:</b> Du måste starta om KVIrc för att tillämpa eventuella "
+"språkändringar"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:99
+#, fuzzy
 msgid "Automatic detection"
-msgstr ""
+msgstr "Automatisk detektering"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:100
 msgid "en"
 msgstr "sv"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:138
+#, fuzzy
 msgid "Spell Checker Dictionaries"
-msgstr ""
+msgstr "Stavningskontroll Ordböcker"
 
 #: src/modules/options/OptionsWidget_textEncoding.cpp:156
 msgid "Language Code"
@@ -4169,14 +5180,18 @@ msgid "Unable to write language information to"
 msgstr "Kunde inte skriva språkinformation till"
 
 #: src/modules/options/OptionsWidget_textEncoding.h:36
+#, fuzzy
 msgid "language,encoding,charset,codepage"
-msgstr ""
+msgstr "språk,kodning,charset,codepage"
 
 #: src/modules/options/OptionsWidget_textIcons.cpp:89
+#, fuzzy
 msgid ""
 "This table contains the text icon associations.<br>KVIrc will use them to "
 "display the Alt+E escape sequences and eventually the emoticons."
 msgstr ""
+"Den här tabellen innehåller textikonassociationerna.<br>KVIrc kommer att "
+"använda dem för att visa Alt+E escape-sekvenserna och så småningom emoticons."
 
 #: src/modules/options/OptionsWidget_textIcons.cpp:95
 msgid "Add"
@@ -4199,88 +5214,113 @@ msgid "Text Icons"
 msgstr "Textikoner"
 
 #: src/modules/options/OptionsWidget_textIcons.h:39
+#, fuzzy
 msgid "smileys,emoticons"
-msgstr ""
+msgstr "smileys,uttryckssymboler"
 
 #: src/modules/options/OptionsWidget_theme.cpp:42
+#, fuzzy
 msgid "Use global application font"
-msgstr ""
+msgstr "Använd globalt applikationsteckensnitt"
 
 #: src/modules/options/OptionsWidget_theme.cpp:43
+#, fuzzy
 msgid ""
 "This option will force a static font for every widget that has no specific "
 "font setting"
 msgstr ""
+"Detta alternativ tvingar fram ett statiskt teckensnitt för alla widgetar som "
+"inte har någon specifik teckensnittsinställning"
 
 #: src/modules/options/OptionsWidget_theme.cpp:44
+#, fuzzy
 msgid "Show icons in popup menus"
-msgstr ""
+msgstr "Visa ikoner i popup-menyer"
 
 #: src/modules/options/OptionsWidget_theme.cpp:45
+#, fuzzy
 msgid "Global application font:"
-msgstr ""
+msgstr "Global applikation font:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:49
 msgid "Qt Style:"
 msgstr "Qt-stil:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:87
+#, fuzzy
 msgid "Global window opacity:"
-msgstr ""
+msgstr "Global opacitet för fönster:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:90
 msgid "Enable transparency"
 msgstr "Aktivera transparens"
 
 #: src/modules/options/OptionsWidget_theme.cpp:93
+#, fuzzy
 msgid ""
 "This option makes all KVIrc windows look transparent.<br>You must choose a "
 "blending background image below or check the \"Use compositing for real "
 "transparency\" option."
 msgstr ""
+"Detta alternativ gör att alla KVIrc-fönster ser genomskinliga ut.<br>Du "
+"måste välja en bakgrundsbild nedan eller markera alternativet \"Use "
+"compositing for real transparency\"."
 
 #: src/modules/options/OptionsWidget_theme.cpp:100
+#, fuzzy
 msgid ""
 "This option makes all KVIrc windows look transparent.<br>You must choose a "
 "blending background image below or check the \"Use desktop background for "
 "transparency\" option."
 msgstr ""
+"Detta alternativ gör att alla KVIrc-fönster ser genomskinliga ut.<br>Du "
+"måste välja en bakgrundsbild nedan eller markera alternativet \"Use desktop "
+"background for transparency\"."
 
 #: src/modules/options/OptionsWidget_theme.cpp:107
+#, fuzzy
 msgid ""
 "This option makes all KVIrc windows look like transparent.<br>You must "
 "choose a blending background image below."
 msgstr ""
+"Detta alternativ gör att alla KVIrc-fönster ser ut som transparenta.<br>Du "
+"måste välja en bakgrundsbild för blandning nedan."
 
 #: src/modules/options/OptionsWidget_theme.cpp:113
+#, fuzzy
 msgid "Child window opacity:"
-msgstr ""
+msgstr "Barnfönstrets opacitet:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:118
+#, fuzzy
 msgid "Parent window opacity:"
-msgstr ""
+msgstr "Föräldrafönstrets opacitet:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:123
+#, fuzzy
 msgid "Blend color:"
-msgstr ""
+msgstr "Blanda färg:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:128
+#, fuzzy
 msgid "Use compositing for real transparency"
-msgstr ""
+msgstr "Använd compositing för verklig transparens"
 
 #: src/modules/options/OptionsWidget_theme.cpp:131
 #: src/modules/options/OptionsWidget_theme.cpp:151
 #: src/modules/options/OptionsWidget_theme.cpp:158
+#, fuzzy
 msgid "Transparency blend image:"
-msgstr ""
+msgstr "Bild med genomskinlig blandning:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:148
 msgid "Use desktop background for transparency"
 msgstr "Använd skrivbordsbakgrund för transparens"
 
 #: src/modules/options/OptionsWidget_theme.cpp:193
+#, fuzzy
 msgid "Border color:"
-msgstr ""
+msgstr "Ramfärg:"
 
 #: src/modules/options/OptionsWidget_theme.cpp:194
 msgid "Font color:"
@@ -4301,21 +5341,26 @@ msgid "Transparency"
 msgstr "Transparens"
 
 #: src/modules/options/OptionsWidget_theme.h:54
+#, fuzzy
 msgid "theme,background"
-msgstr ""
+msgstr "tema,bakgrund"
 
 #: src/modules/options/OptionsWidget_theme.h:79
 msgid "Toolbar Applets"
 msgstr "Verktygsradsapplets"
 
 #: src/modules/options/OptionsWidget_theme.h:80
+#, fuzzy
 msgid "theme,toolbar"
-msgstr ""
+msgstr "tema,verktygsfält"
 
 #: src/modules/options/OptionsWidget_tools.cpp:39
+#, fuzzy
 msgid ""
 "This section contains IRC tools like <b>away, lag and logging system</b>. "
 msgstr ""
+"Detta avsnitt innehåller IRC-verktyg som <b>away, lag och loggningssystem</"
+"b>. "
 
 #: src/modules/options/OptionsWidget_tools.h:32
 msgid "Tools"
@@ -4326,114 +5371,150 @@ msgid "Labels"
 msgstr "Etiketter"
 
 #: src/modules/options/OptionsWidget_topicLabel.h:32
+#, fuzzy
 msgid "theme,topic"
-msgstr ""
+msgstr "tema,ämne"
 
 #: src/modules/options/OptionsWidget_tray.cpp:41
+#, fuzzy
 msgid "Enable tray icon"
-msgstr ""
+msgstr "Aktivera ikonen för facket"
 
 #: src/modules/options/OptionsWidget_tray.cpp:43
+#, fuzzy
 msgid "Minimize in tray"
-msgstr ""
+msgstr "Minimera i facket"
 
 #: src/modules/options/OptionsWidget_tray.cpp:45
+#, fuzzy
 msgid ""
 "Take into account that if you're using KDE, this won't work if you've set "
 "\"Keep window thumbnails\" as \"Always\" at \"Desktop Effects\" advanced "
 "settings."
 msgstr ""
+"Tänk på att om du använder KDE kommer detta inte att fungera om du har "
+"ställt in \"Keep window thumbnails\" som \"Always\" i de avancerade "
+"inställningarna för \"Desktop Effects\"."
 
 #: src/modules/options/OptionsWidget_tray.cpp:52
+#, fuzzy
 msgid "Close in tray"
-msgstr ""
+msgstr "Stäng in brickan"
 
 #: src/modules/options/OptionsWidget_tray.cpp:54
+#, fuzzy
 msgid "Enable tray icon flashing"
-msgstr ""
+msgstr "Aktivera blinkande ikon i facket"
 
 #: src/modules/options/OptionsWidget_tray.cpp:55
+#, fuzzy
 msgid "Enable level-based message notification (not a message-type based)"
 msgstr ""
+"Aktivera nivåbaserad meddelandeavisering (inte baserad på meddelandetyp)"
 
 #: src/modules/options/OptionsWidget_tray.cpp:57
+#, fuzzy
 msgid "Select Message Levels to Notify"
-msgstr ""
+msgstr "Välj meddelandenivåer som ska meddelas"
 
 #: src/modules/options/OptionsWidget_tray.cpp:59
+#, fuzzy
 msgid "Minimum level for low-priority messages:"
-msgstr ""
+msgstr "Miniminivå för lågprioriterade meddelanden:"
 
 #: src/modules/options/OptionsWidget_tray.cpp:61
+#, fuzzy
 msgid "Minimum level for high-priority message:"
-msgstr ""
+msgstr "Lägsta nivå för högprioriterade meddelanden:"
 
 #: src/modules/options/OptionsWidget_tray.h:32
+#, fuzzy
 msgid "Tray Icon"
-msgstr ""
+msgstr "Ikon för brickan"
 
 #: src/modules/options/OptionsWidget_tray.h:34
+#, fuzzy
 msgid "tray,TRAYICON"
-msgstr ""
+msgstr "bricka,TRAYICON"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:41
+#, fuzzy
 msgid "Disable parser warnings"
-msgstr ""
+msgstr "Avaktivera parser-varningar"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:42
+#, fuzzy
 msgid "Disable broken event handlers"
-msgstr ""
+msgstr "Inaktivera trasiga händelsehanterare"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:43
+#, fuzzy
 msgid "Kill broken timers"
-msgstr ""
+msgstr "Avlägsna trasiga timers"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:44
+#, fuzzy
 msgid "Send unknown commands as /RAW"
-msgstr ""
+msgstr "Skicka okända kommandon som /RAW"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:48
+#, fuzzy
 msgid "Automatically unload unused modules"
-msgstr ""
+msgstr "Automatisk avlastning av oanvända moduler"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:49
+#, fuzzy
 msgid "Ignore module versions (dangerous)"
-msgstr ""
+msgstr "Ignorera modulversioner (farligt)"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:53
+#, fuzzy
 msgid "Relay errors and warnings to debug window"
-msgstr ""
+msgstr "Vidarebefordra fel och varningar till felsökningsfönstret"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:54
+#, fuzzy
 msgid ""
 "This option will show the script errors and warnings also in the special "
 "debug window. This makes tracking of scripts that might be running in "
 "several windows far easier. The messages in the debug window also contain a "
 "deeper call stack which will help you to identify the scripting problems."
 msgstr ""
+"Med det här alternativet visas fel och varningar för skript även i det "
+"speciella felsökningsfönstret. Detta gör det mycket enklare att spåra skript "
+"som kanske körs i flera fönster. Meddelandena i felsökningsfönstret "
+"innehåller också en djupare anropsstack som hjälper dig att identifiera "
+"problemen med skriptet."
 
 #: src/modules/options/OptionsWidget_uparser.cpp:60
+#, fuzzy
 msgid "Create debug window without focus"
-msgstr ""
+msgstr "Skapa debug-fönster utan fokus"
 
 #: src/modules/options/OptionsWidget_uparser.cpp:61
+#, fuzzy
 msgid ""
 "This option prevents the debug window from opening and diverting application "
 "focus.<br>Enable this if you don't like the debug window popping up while "
 "you're typing something in a channel."
 msgstr ""
+"Detta alternativ förhindrar att felsökningsfönstret öppnas och avleder "
+"programmets fokus.<br>Aktivera detta om du inte vill att felsökningsfönstret "
+"ska dyka upp när du skriver något i en kanal."
 
 #: src/modules/options/OptionsWidget_uparser.h:30
 msgid "Scripting Engine"
 msgstr "Skriptmotor"
 
 #: src/modules/options/OptionsWidget_uparser.h:31
+#, fuzzy
 msgid "scripting,kvs,debug"
-msgstr ""
+msgstr "skript,kvs,felsökning"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:48
+#, fuzzy
 msgid "Mouse Handler"
-msgstr ""
+msgstr "Mushanterare"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:50
 msgid "How many clicks to open links?"
@@ -4448,44 +5529,54 @@ msgid "Double-click"
 msgstr "Dubbelklick"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:65
+#, fuzzy
 msgid "Protocol Handler"
-msgstr ""
+msgstr "Protokollhanterare"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:68
+#, fuzzy
 msgid "Use system URL handlers"
-msgstr ""
+msgstr "Använd systemets URL-hanterare"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:71
+#, fuzzy
 msgid "<b>http://</b> handler command:"
-msgstr ""
+msgstr "<b>http://</b> Hanteringskommando:"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:73
+#, fuzzy
 msgid "<b>https://</b> handler command:"
-msgstr ""
+msgstr "<b>https://</b> Hanteringskommando:"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:75
+#, fuzzy
 msgid "<b>ftp://</b> handler command:"
-msgstr ""
+msgstr "<b>ftp://</b> Hanteringskommando:"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:77
+#, fuzzy
 msgid "<b>mailto:</b> handler command:"
-msgstr ""
+msgstr "<b>mailto:</b> handläggare kommando:"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:79
+#, fuzzy
 msgid "<b>file://</b> handler command:"
-msgstr ""
+msgstr "<b>fil://</b> Hanteringskommando:"
 
 #: src/modules/options/OptionsWidget_urlHandlers.cpp:81
+#, fuzzy
 msgid "Unknown protocol handler command:"
-msgstr ""
+msgstr "Okänt protokollhanteringskommando:"
 
 #: src/modules/options/OptionsWidget_urlHandlers.h:32
+#, fuzzy
 msgid "URL Handlers"
-msgstr ""
+msgstr "URL-hanterare"
 
 #: src/modules/options/OptionsWidget_urlHandlers.h:35
+#, fuzzy
 msgid "URL,programs"
-msgstr ""
+msgstr "URL,program"
 
 #: src/modules/options/OptionsWidget_userList.cpp:49
 msgid "Nickname Colors"
@@ -4497,18 +5588,20 @@ msgstr "Smeknamnsfärger"
 #: src/modules/options/OptionsWidget_windowList.cpp:164
 #: src/modules/options/OptionsWidget_windowList.cpp:284
 msgid "Normal:"
-msgstr ""
+msgstr "Normal:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:51
 #: src/modules/options/OptionsWidget_userList.cpp:129
 #: src/modules/options/OptionsWidget_windowList.cpp:146
 #: src/modules/options/OptionsWidget_windowList.cpp:165
+#, fuzzy
 msgid "Selected:"
-msgstr ""
+msgstr "Valda:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:52
+#, fuzzy
 msgid "IRC Op:"
-msgstr ""
+msgstr "IRC Op:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:53
 msgid "Channel owner:"
@@ -4519,32 +5612,39 @@ msgid "Channel admin:"
 msgstr "Kanaladmin:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:55
+#, fuzzy
 msgid "Op:"
-msgstr ""
+msgstr "Op:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:56
+#, fuzzy
 msgid "Half-op:"
-msgstr ""
+msgstr "Halv-op:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:57
+#, fuzzy
 msgid "Voice:"
-msgstr ""
+msgstr "Korrigera eftertexter för röstskådespelare"
 
 #: src/modules/options/OptionsWidget_userList.cpp:58
+#, fuzzy
 msgid "User-op:"
-msgstr ""
+msgstr "Användarop:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:62
+#, fuzzy
 msgid "Away (blend color):"
-msgstr ""
+msgstr "Borta (blanda färg):"
 
 #: src/modules/options/OptionsWidget_userList.cpp:73
+#, fuzzy
 msgid "Use different color for own nick:"
-msgstr ""
+msgstr "Använd olika färger för eget nick:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:87
+#, fuzzy
 msgid "Draw nickname grid"
-msgstr ""
+msgstr "Rita smeknamn rutnät"
 
 #: src/modules/options/OptionsWidget_userList.cpp:89
 msgid "Grid color:"
@@ -4555,20 +5655,24 @@ msgid "Grid type:"
 msgstr "Rutnätstyp:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:100
+#, fuzzy
 msgid "3D Grid"
-msgstr ""
+msgstr "3D-rutnät"
 
 #: src/modules/options/OptionsWidget_userList.cpp:101
+#, fuzzy
 msgid "3D Buttons"
-msgstr ""
+msgstr "3D-knappar"
 
 #: src/modules/options/OptionsWidget_userList.cpp:102
+#, fuzzy
 msgid "Plain Grid"
-msgstr ""
+msgstr "Vanligt rutnät"
 
 #: src/modules/options/OptionsWidget_userList.cpp:103
+#, fuzzy
 msgid "Dotted Grid"
-msgstr ""
+msgstr "Prickat rutnät"
 
 #: src/modules/options/OptionsWidget_userList.cpp:127
 #: src/modules/options/OptionsWidget_windowList.cpp:163
@@ -4589,6 +5693,7 @@ msgid "Minimum width:"
 msgstr "Minsta bredd:"
 
 #: src/modules/options/OptionsWidget_userList.cpp:228
+#, fuzzy
 msgid ""
 "Here you can select a desired minimum width for the userlist when visible. "
 "Suggested values range between 120 and 170 pixels. The value set here, "
@@ -4598,26 +5703,38 @@ msgid ""
 "b> dragging method may not be as reliable and values set may be lost "
 "randomly, However values will never be less than the width you specified."
 msgstr ""
+"Här kan du välja en önskad minsta bredd för användarlistan när den är "
+"synlig. Föreslagna värden ligger mellan 120 och 170 pixlar. Det värde som "
+"anges här gäller för alla kanaler i alla nätverk. För specifika bredder för "
+"olika kanaler drar du widgeten till önskad bredd, högerklickar på kanalen i "
+"Tree Window List och väljer Save Window Properties As Default."
+"<br><b>Observera att</b> dragmetoden kanske inte är lika tillförlitlig och "
+"att inställda värden kan förloras slumpmässigt, men värdena kommer aldrig "
+"att vara mindre än den bredd du angett."
 
 #: src/modules/options/OptionsWidget_userList.cpp:236
 msgid "Show gender icons"
 msgstr "Visa könsikoner"
 
 #: src/modules/options/OptionsWidget_userList.cpp:237
+#, fuzzy
 msgid "Show user rank channel icons"
-msgstr ""
+msgstr "Visa kanalikoner för användarrankning"
 
 #: src/modules/options/OptionsWidget_userList.cpp:238
+#, fuzzy
 msgid "Show user channel activity indicator"
-msgstr ""
+msgstr "Visa aktivitetsindikator för användarkanal"
 
 #: src/modules/options/OptionsWidget_userList.cpp:239
+#, fuzzy
 msgid "Show label with userlist stats"
-msgstr ""
+msgstr "Visa etikett med användarlistans statistik"
 
 #: src/modules/options/OptionsWidget_userList.cpp:240
+#, fuzzy
 msgid "Enable user tooltip"
-msgstr ""
+msgstr "Aktivera verktygstips för användare"
 
 #: src/modules/options/OptionsWidget_userList.cpp:241
 msgid "Show avatars in userlist"
@@ -4628,25 +5745,35 @@ msgid "Enable animated avatars"
 msgstr "Aktivera animerade avatarer"
 
 #: src/modules/options/OptionsWidget_userList.cpp:243
+#, fuzzy
 msgid ""
 "Place nicks starting with non-alpha characters (such as _COOL_BOY_) last"
 msgstr ""
+"Placera hack som börjar med tecken som inte är alfabetiska (t.ex. "
+"_COOL_BOY_) sist"
 
 #: src/modules/options/OptionsWidget_userList.cpp:244
+#, fuzzy
 msgid ""
 "All nicknames which include characters such as [ ] ^ _ &lt; &gt; | etc. will "
 "be sorted last in userlist after all regular nicknames.<br>Select this "
 "option if you prefer to see regular nicknames sorted topmost on userlist."
 "<br><br><b>Note:</b> Changes to this option requires KVIrc restart."
 msgstr ""
+"Alla smeknamn som innehåller tecken som [ ] ^ _ &lt; &gt; | etc. sorteras "
+"sist i användarlistan efter alla vanliga smeknamn.<br>Välj det här "
+"alternativet om du föredrar att vanliga smeknamn sorteras överst i "
+"användarlistan.<br><br><b>Obs:</b> Ändringar av det här alternativet kräver "
+"omstart av KVIrc."
 
 #: src/modules/options/OptionsWidget_userList.h:32
 msgid "Userlist"
 msgstr "Användarlista"
 
 #: src/modules/options/OptionsWidget_userList.h:33
+#, fuzzy
 msgid "theme,userlist,channel"
-msgstr ""
+msgstr "tema,användarlista,kanal"
 
 #: src/modules/options/OptionsWidget_userList.h:46
 #: src/modules/options/OptionsWidget_windowList.h:81
@@ -4654,8 +5781,9 @@ msgid "Background"
 msgstr "Bakgrund"
 
 #: src/modules/options/OptionsWidget_userList.h:47
+#, fuzzy
 msgid "theme,userlist,channel,background"
-msgstr ""
+msgstr "tema,användarlista,kanal,bakgrund"
 
 #: src/modules/options/OptionsWidget_userList.h:68
 #: src/modules/options/OptionsWidget_windowList.h:67
@@ -4663,20 +5791,23 @@ msgid "Foreground"
 msgstr "Förgrund"
 
 #: src/modules/options/OptionsWidget_userList.h:69
+#, fuzzy
 msgid "theme,userlist,channel,colors"
-msgstr ""
+msgstr "tema,användarlista,kanal,färger"
 
 #: src/modules/options/OptionsWidget_userList.h:83
 msgid "Userlist Grid"
 msgstr "Rutnät för användarlista"
 
 #: src/modules/options/OptionsWidget_userList.h:84
+#, fuzzy
 msgid "theme,userlist,channel,grid"
-msgstr ""
+msgstr "tema,användarlista,kanal,rutnät"
 
 #: src/modules/options/OptionsWidget_userList.h:105
+#, fuzzy
 msgid "userlist,channel,width"
-msgstr ""
+msgstr "användarlista,kanal,bredd"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:42
 msgid "Window list type:"
@@ -4695,14 +5826,17 @@ msgid "Sort windows by name"
 msgstr "Sortera fönster efter namn"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:50
+#, fuzzy
 msgid "Show window icons in window list"
-msgstr ""
+msgstr "Visa fönsterikoner i fönsterlistan"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:51
+#, fuzzy
 msgid "Show activity meter in window list"
-msgstr ""
+msgstr "Visa aktivitetsmätare i fönsterlistan"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:52
+#, fuzzy
 msgid ""
 "This option enables the usage of the window list activity meter. Each window "
 "entry will have a small indicator of the activity that is going on in that "
@@ -4713,14 +5847,25 @@ msgid ""
 "\"Human\" activity causes the indicator to be shaded red while automated "
 "activity causes the indicator to be shaded blue."
 msgstr ""
+"Detta alternativ gör det möjligt att använda aktivitetsmätaren för "
+"fönsterlistan. Varje fönsterpost kommer att ha en liten indikator på den "
+"aktivitet som pågår i fönstret. Indikatorn är en liten fyrkant som ändrar "
+"färg, mörka färger betyder låg aktivitet, medan ljusa färger signalerar hög "
+"aktivitet. KVIrc använder också en del heuristik för att avgöra om "
+"aktiviteten är något \"mänskligt\" eller om den genereras av automatiserade "
+"enheter (t.ex. robotar eller IRC-servrar). \"Mänsklig\" aktivitet gör att "
+"indikatorn skuggas rött medan automatiserad aktivitet gör att indikatorn "
+"skuggas blått."
 
 #: src/modules/options/OptionsWidget_windowList.cpp:60
+#, fuzzy
 msgid "Show IRC context indicator in window list"
-msgstr ""
+msgstr "Visa IRC-kontextindikator i fönsterlistan"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:61
+#, fuzzy
 msgid "Enable window tooltips"
-msgstr ""
+msgstr "Aktivera verktygstips för fönster"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:62
 msgid "Allow the window list to be moved"
@@ -4731,13 +5876,15 @@ msgid "Show user flag for channels"
 msgstr "Visa användarflagga för kanaler"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:92
+#, fuzzy
 msgid "The following events trigger this alert level:"
-msgstr ""
+msgstr "Följande händelser utlöser denna varningsnivå:"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:143
 #: src/modules/options/OptionsWidget_windowList.cpp:283
+#, fuzzy
 msgid "Text/Alert Colors"
-msgstr ""
+msgstr "Text/Alertfärger"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:149
 #: src/modules/options/OptionsWidget_windowList.cpp:288
@@ -4745,33 +5892,39 @@ msgid "Progress bar color:"
 msgstr "Färg för förloppsmätare:"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:266
+#, fuzzy
 msgid ""
 "Mouse wheel changes the active window instead of scrolling the scrollbar"
 msgstr ""
+"Mushjulet ändrar det aktiva fönstret istället för att rulla rullningslisten"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:285
 msgid "Minimized:"
 msgstr "Minimerad:"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:289
+#, fuzzy
 msgid "Minimum width of buttons:"
-msgstr ""
+msgstr "Minsta bredd på knapparna:"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:291
+#, fuzzy
 msgid "Set maximum button width"
-msgstr ""
+msgstr "Ställ in maximal knappbredd"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:292
+#, fuzzy
 msgid "Maximum width of buttons:"
-msgstr ""
+msgstr "Maximal bredd på knapparna:"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:294
 msgid "Use flat buttons"
 msgstr "Använd platta knappar"
 
 #: src/modules/options/OptionsWidget_windowList.cpp:295
+#, fuzzy
 msgid "Show close button on window list items"
-msgstr ""
+msgstr "Visa stängningsknapp på listobjekt i fönster"
 
 #: src/modules/options/OptionsWidget_windowList.h:32
 msgid "Window List"
@@ -4786,9 +5939,11 @@ msgid "Classic Window List"
 msgstr "Klassisk fönsterlista"
 
 #: src/modules/options/libkvioptions.cpp:104
+#, fuzzy
 msgid "No such options_group %Q"
-msgstr ""
+msgstr "Ingen sådan options_group %Q"
 
 #: src/modules/options/libkvioptions.cpp:214
+#, fuzzy
 msgid "No such options page class name %Q"
-msgstr ""
+msgstr "Inga sådana alternativ sida klassnamn %Q"
