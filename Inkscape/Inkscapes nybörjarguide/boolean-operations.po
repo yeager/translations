@@ -32,9 +32,9 @@ msgid ""
 "at least 2 convertible objects or paths, which will be combined following "
 "specific rules."
 msgstr ""
-"De booleska operationerna arbetar på banor, eller så försöker de konvertera "
-"de valda objekten till banor innan de beräknar resultatet. Alla dessa "
-"operationer kräver minst 2 konvertibla objekt eller banor, som kombineras "
+"De booleska operationerna arbetar på slingor, eller så försöker de konvertera "
+"de valda objekten till slingor innan de beräknar resultatet. Alla dessa "
+"operationer kräver minst 2 konvertibla objekt eller slingor, som kombineras "
 "enligt särskilda regler."
 
 #: ../../source/boolean-operations.rst:10 13751a4d582344009e6da0a859bd1b2f
@@ -47,7 +47,7 @@ msgstr "Ikon för union"
 
 #: ../../source/boolean-operations.rst:11 3a466356ef21446cbbf9505c4691e54b
 msgid "Keeps the common outline of all selected paths."
-msgstr "Behåller den gemensamma konturen för alla markerade banor."
+msgstr "Behåller den gemensamma konturen för alla markerade slingor."
 
 #: ../../source/boolean-operations.rst:14 e1f21351b5da44dabcd1bd6da2d1dc82
 msgid "|Difference icon| Difference"
@@ -71,7 +71,7 @@ msgstr "Ikon för korsning"
 
 #: ../../source/boolean-operations.rst:18 1cbd8f4e80f44418bdda0308d396476b
 msgid "Only keeps those parts that are covered by all selected paths."
-msgstr "Behåller endast de delar som täcks av alla valda banor."
+msgstr "Behåller endast de delar som täcks av alla valda slingor."
 
 #: ../../source/boolean-operations.rst:21 38132cc778394f0a80e22237c4c8785a
 msgid "|Exclusion icon| Exclusion"
@@ -86,7 +86,7 @@ msgid ""
 "Keeps those parts which are covered by an odd number of paths (if you have "
 "two objects, this is where the objects do not overlap)."
 msgstr ""
-"Behåller de delar som täcks av ett udda antal banor (om du har två objekt "
+"Behåller de delar som täcks av ett udda antal slingor (om du har två objekt "
 "är det här objekten inte överlappar varandra)."
 
 #: ../../source/boolean-operations.rst:25 6ff401ffcec44d408cb296786dcb83c8
@@ -113,8 +113,8 @@ msgstr "Ikon för klippväg"
 msgid ""
 "Creates as many paths as there are path intersections between the two paths."
 msgstr ""
-"Skapar lika många stigar som det finns stigkorsningar mellan de två "
-"stigarna."
+"Skapar lika många slingor som det finns slingakorsningar mellan de två "
+"slingorna."
 
 #: ../../source/boolean-operations.rst:31 43fc64d8ab1f4bfd83373d81782778f8
 msgid "|Combine icon| Combine"
@@ -141,7 +141,7 @@ msgid ""
 "If a path consists of a number of independent parts (subpaths), this will "
 "create that number of separate objects."
 msgstr ""
-"Om en slinga består av ett antal oberoende delar (underbanor) kommer detta "
+"Om en slinga består av ett antal oberoende delar (underslingor) kommer detta "
 "att skapa det antalet separata objekt."
 
 #: ../../source/boolean-operations.rst:38 985d0acc78504eeeaf715521a94e7978
@@ -220,7 +220,7 @@ msgid ""
 "subpaths). Each subpath has become a single path after Break Apart."
 msgstr ""
 "De två delarna av ellipsen har kombinerats till en enda slinga (med "
-"underbanor). Varje delväg har blivit en enda väg efter Break Apart."
+"underslingor). Varje delväg har blivit en enda väg efter Break Apart."
 
 #: ../../source/boolean-operations.rst:78 818a4aa0dd9b4f1e82f2a4d92a02e331
 msgid ""
@@ -229,5 +229,5 @@ msgid ""
 "into independent objects."
 msgstr ""
 "På vänster sida: Flytta isär och kombinera (för att bilda en enda slinga som "
-"består av två delbanor). Till höger: :guilabel:`Break Apart` separerar alla "
-"delbanor till oberoende objekt."
+"består av två delslingor). Till höger: :guilabel:`Break Apart` separerar alla "
+"delslingor till oberoende objekt."
