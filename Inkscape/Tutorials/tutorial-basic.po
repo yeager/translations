@@ -1,0 +1,1221 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inkscape tutorial basic Swedish\n"
+"POT-Creation-Date: 2024-08-02 00:37+0200\n"
+"PO-Revision-Date: 2025-05-13 12:33+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: sv\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Daniel Nylander"
+
+#. (itstool) path: articleinfo/title
+#: tutorial-basic.xml:6
+msgid "Basic"
+msgstr "Grundläggande"
+
+#. (itstool) path: articleinfo/subtitle
+#: tutorial-basic.xml:7
+msgid "Tutorial"
+msgstr "Handledning"
+
+#. (itstool) path: abstract/para
+#: tutorial-basic.xml:11
+msgid ""
+"This tutorial demonstrates the basics of using Inkscape. If you have opened "
+"it from the Inkscape <guimenu>Help</guimenu> menu, it is a regular Inkscape "
+"document that you can view, edit, or copy from. You can also save a copy to "
+"a location of your choice."
+msgstr ""
+"Denna handledning visar grunderna i hur man använder Inkscape. Om du har "
+"öppnat den från Inkscapes <guimenu>hjälpmeny</guimenu> är det ett vanligt "
+"Inkscape-dokument som du kan visa, redigera eller kopiera från. Du kan också "
+"spara en kopia på en valfri plats."
+
+#. (itstool) path: abstract/para
+#: tutorial-basic.xml:16
+msgid ""
+"The Basic Tutorial covers canvas navigation, managing documents, shape tool "
+"basics, selection techniques, transforming objects with selector, grouping, "
+"setting fill and stroke, alignment, and stacking order. For more advanced "
+"topics, check out the other tutorials in the <guimenu>Help</guimenu> menu."
+msgstr ""
+"Den grundläggande handledningen omfattar navigering i Canvas, "
+"dokumenthantering, grunderna i formverktyget, urvalstekniker, omvandling av "
+"objekt med väljaren, gruppering, inställning av fyllning och streck, "
+"justering och staplingsordning. För mer avancerade ämnen, kolla in de andra "
+"handledningarna i <guimenu>Hjälp-menyn</guimenu>."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:23
+msgid "Panning the canvas"
+msgstr "Panorera på duken"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:24
+msgid ""
+"There are many ways to pan (scroll) the document canvas. Try "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>arrow</keycap></"
+"keycombo> keys to scroll by keyboard. (Try this now to scroll this document "
+"down.) You can also drag the canvas by the middle mouse button. Or, you can "
+"use the scrollbars (press <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>B</keycap></keycombo> to show or hide them). The <mousebutton "
+"role=\"mouse-wheel\">wheel</mousebutton> on your mouse also works for "
+"scrolling vertically; press <keycap function=\"shift\">Shift</keycap> and "
+"move the wheel to scroll horizontally."
+msgstr ""
+"Det finns många sätt att panorera (rulla) dokumentets canvas. Försök "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>pil</keycap></"
+"keycombo> tangenterna för att bläddra med tangentbordet. (Prova detta nu för "
+"att rulla dokumentet nedåt.) Du kan också dra i dokumentet med den mellersta "
+"musknappen. Eller så kan du använda rullningslisterna (tryck på "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>B</keycap></"
+"keycombo> för att visa eller dölja dem). <mousebutton role=\"mouse-"
+"wheel\">Hjulet</mousebutton> på musen fungerar också för att skrolla "
+"vertikalt; tryck på <keycap function=\"shift\">Shift</keycap> och flytta "
+"hjulet för att skrolla horisontellt."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:36
+msgid "Zooming in or out"
+msgstr "Zooma in eller ut"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:37
+msgid ""
+"The easiest way to zoom is by pressing <keycap>-</keycap> and <keycap>+</"
+"keycap> (or <keycap>=</keycap>) keys. You can also use <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><mousebutton role=\"middle-click\">middle "
+"click</mousebutton></keycombo> or <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><mousebutton role=\"right-click\">right "
+"click</mousebutton></keycombo> to zoom in, <keycombo><keycap "
+"function=\"shift\">Shift</keycap><mousebutton role=\"middle-click\">middle "
+"click</mousebutton></keycombo> or <keycombo><keycap "
+"function=\"shift\">Shift</keycap><mousebutton role=\"right-click\">right "
+"click</mousebutton></keycombo> to zoom out, or rotate the mouse <mousebutton "
+"role=\"mouse-wheel\">wheel</mousebutton> with <keycap "
+"function=\"control\">Ctrl</keycap>. Or, you can click in the zoom entry "
+"field (in the bottom right region of the document window, labelled “Z”), "
+"type a precise zoom value in %, and press <keycap>Enter</keycap>. Try right-"
+"clicking and scrolling on the Zoom value field, too."
+msgstr ""
+"Det enklaste sättet att zooma är att trycka på knapparna <keycap>-</keycap> "
+"och <keycap>+</keycap> (eller <keycap>=</keycap>). Du kan också använda "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"middle-click\">mittklick</mousebutton></keycombo> eller "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"right-click\">högerklicka</mousebutton></keycombo> för att zooma in, "
+"<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"middle-click\">mittklick</mousebutton></keycombo> eller "
+"<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton role=\"right-"
+"click\">högerklicka</mousebutton></keycombo> för att zooma ut, eller rotera "
+"<mousebutton role=\"mouse-wheel\">mushjulet</mousebutton> med <keycap "
+"function=\"control\">Ctrl.</keycap> Du kan också klicka i inmatningsfältet "
+"för zoom (längst ned till höger i dokumentfönstret, märkt \"Z\"), skriva in "
+"ett exakt zoomvärde i % och trycka på <keycap>Enter</keycap>. Prova också "
+"att högerklicka och bläddra i fältet Zoomvärde."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:56
+msgid ""
+"We also have the Zoom tool (in the toolbar on left) which lets you to zoom "
+"into an area by dragging around it."
+msgstr ""
+"Vi har också verktyget Zoom (i verktygsfältet till vänster) som gör att du "
+"kan zooma in i ett område genom att dra runt det."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:59
+msgid ""
+"Inkscape also keeps a history of the zoom levels you've used in this work "
+"session. Press the <keycap>`</keycap> key to go back to the previous zoom, "
+"or <keycombo><keycap function=\"shift\">Shift</keycap><keycap>`</keycap></"
+"keycombo> to go forward."
+msgstr ""
+"Inkscape sparar också en historik över de zoomnivåer som du har använt under "
+"den här arbetssessionen. Tryck på tangenten <keycap>`</keycap> för att gå "
+"tillbaka till föregående zoom, eller <keycombo><keycap "
+"function=\"shift\">Skift</keycap><keycap>`</keycap></keycombo> för att gå "
+"framåt."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:66
+msgid "Inkscape tools"
+msgstr "Verktyg för Inkscape"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:67
+msgid ""
+"The vertical toolbar on the left shows Inkscape's drawing and editing tools. "
+"Depending on your screen resolution, the <firstterm>Commands Bar</firstterm> "
+"with general command buttons, such as “Save” and “Print”, can be found "
+"either in the top part of the window, right below the menu, or on the right "
+"side of the window. Right above the <firstterm>Canvas Area</firstterm>, "
+"there's the <firstterm>Tool Controls Bar</firstterm> with controls that are "
+"specific to each tool. The <firstterm>Status Bar</firstterm> at the bottom "
+"of the window will display useful hints and messages as you work."
+msgstr ""
+"Det vertikala verktygsfältet till vänster visar Inkscapes rit- och "
+"redigeringsverktyg. Beroende på din skärmupplösning finns "
+"<firstterm>kommandofältet</firstterm> med allmänna kommandoknappar, som "
+"\"Spara\" och \"Skriv ut\", antingen i den övre delen av fönstret, precis "
+"under menyn eller på höger sida av fönstret. Precis ovanför "
+"<firstterm>Canvas Area</firstterm> finns <firstterm>Tool Controls Bar</"
+"firstterm> med kontroller som är specifika för varje verktyg. "
+"<firstterm>Statusfältet</firstterm> längst ned i fönstret visar användbara "
+"tips och meddelanden medan du arbetar."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:75
+msgid ""
+"Many operations are available through keyboard shortcuts. Open "
+"<menuchoice><guimenu>Help</guimenu><guimenuitem>Learn more</"
+"guimenuitem><guimenuitem>Keys and Mouse Reference</guimenuitem></menuchoice> "
+"to see the complete list of available shortcuts."
+msgstr ""
+"Många funktioner är tillgängliga via kortkommandon på tangentbordet. Öppna "
+"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Lär dig mer</"
+"guimenuitem><guimenuitem>Tangenter och mus - referens</guimenuitem></"
+"menuchoice> för att se en fullständig lista över tillgängliga kortkommandon."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:82
+msgid "Creating and managing documents"
+msgstr "Skapa och hantera dokument"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:83
+msgid ""
+"To create a new empty document, use <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>New</guimenuitem></menuchoice> or press "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>N</keycap></"
+"keycombo>. To create a new document from one of Inkscape's many templates, "
+"use <menuchoice><guimenu>File</guimenu><guimenuitem>New from Template…</"
+"guimenuitem></menuchoice> or press <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap function=\"alt\">Alt</"
+"keycap><keycap>N</keycap></keycombo>."
+msgstr ""
+"Om du vill skapa ett nytt tomt dokument använder du "
+"<menuchoice><guimenu>Fil</guimenu><guimenuitem>Ny</guimenuitem></menuchoice> "
+"eller tryck på <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>N</keycap></keycombo>. Om du vill skapa ett nytt dokument "
+"från en av Inkscapes många mallar använder du <menuchoice><guimenu>Fil</"
+"guimenu><guimenuitem>Ny från mall..</guimenuitem></menuchoice> eller tryck "
+"på <keycombo><keycap function=\"control\">Ctrl</keycap><keycap "
+"function=\"alt\">Alt</keycap><keycap>N</keycap></keycombo>."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:94
+msgid ""
+"To open an existing SVG document, use <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Open</guimenuitem></menuchoice> (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>O</keycap></keycombo>). To save, "
+"use <menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></"
+"menuchoice> (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>S</"
+"keycap></keycombo>), or <menuchoice><guimenu>File</guimenu><guimenuitem>Save "
+"As</guimenuitem></menuchoice> (<keycombo><keycap function=\"shift\">Shift</"
+"keycap><keycap function=\"control\">Ctrl</keycap><keycap>S</keycap></"
+"keycombo>) to save under a new name. (While Inkscape comes with its Autosave "
+"feature enabled, it is still recommended that you follow the best practice "
+"to “save early, save often“.)"
+msgstr ""
+"Om du vill öppna ett befintligt SVG-dokument använder du "
+"<menuchoice><guimenu>Öppna fil</guimenu><guimenuitem>Öppna</guimenuitem></"
+"menuchoice> (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>O</"
+"keycap></keycombo>). För att spara, använd <menuchoice><guimenu>Spara fil</"
+"guimenu><guimenuitem>Spara</guimenuitem></menuchoice> (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>S</keycap></keycombo>), eller "
+"<menuchoice><guimenu>Fil</guimenu><guimenuitem>Spara som</guimenuitem></"
+"menuchoice> (<keycombo><keycap function=\"shift\">Skift</keycap><keycap "
+"function=\"control\">Ctrl</keycap><keycap>S</keycap></keycombo>) för att "
+"spara under ett nytt namn. (Även om Inkscape levereras med funktionen "
+"Autosave aktiverad, rekommenderas det ändå att du följer den bästa metoden "
+"att \"spara tidigt, spara ofta\")"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:109
+msgid ""
+"Inkscape uses the SVG (Scalable Vector Graphics) format for its files. SVG "
+"is an open standard widely supported by graphic software. SVG files are "
+"based on XML and can be edited with any text or XML editor (apart from "
+"Inkscape, that is). Besides SVG, Inkscape can import and export many other "
+"file formats. You can find lists of the supported file formats in the "
+"<guimenuitem>Save</guimenuitem>, <guimenuitem>Export</guimenuitem> and "
+"<guimenuitem>Import</guimenuitem> dialogs."
+msgstr ""
+"Inkscape använder SVG-formatet (Scalable Vector Graphics) för sina filer. "
+"SVG är en öppen standard som stöds av många grafiska program. SVG-filer är "
+"baserade på XML och kan redigeras med vilken text- eller XML-redigerare som "
+"helst (förutom Inkscape, vill säga). Förutom SVG kan Inkscape importera och "
+"exportera många andra filformat. Du hittar listor över de filformat som "
+"stöds i dialogrutorna <guimenuitem>Spara</guimenuitem>, "
+"<guimenuitem>Exportera</guimenuitem> och <guimenuitem>Importera</"
+"guimenuitem>."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:115
+msgid ""
+"Inkscape opens a separate document window for each document. You can "
+"navigate among them using your window manager (e.g. by <keycombo><keycap "
+"function=\"alt\">Alt</keycap><keycap>Tab</keycap></keycombo>), or you can "
+"use the Inkscape shortcut, <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>Tab</keycap></keycombo>, which will cycle through all open "
+"document windows. (Create a new document now and switch between it and this "
+"document for practice.) Note: Inkscape treats these windows like tabs in a "
+"web browser, this means the <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>Tab</keycap></keycombo> shortcut only works with documents "
+"running in the same process. If you open multiple files from a file browser "
+"or launch more than one Inkscape process from an icon it may not work."
+msgstr ""
+"Inkscape öppnar ett separat dokumentfönster för varje dokument. Du kan "
+"navigera mellan dem med hjälp av din fönsterhanterare (t.ex. genom "
+"<keycombo><keycap function=\"alt\">Alt</keycap><keycap>Tab</keycap></"
+"keycombo>), eller så kan du använda Inkscapes genväg, <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>Tab</keycap></keycombo>som "
+"bläddrar igenom alla öppna dokumentfönster. (Skapa ett nytt dokument nu och "
+"växla mellan det och det här dokumentet för att öva) Obs: Inkscape behandlar "
+"dessa fönster som flikar i en webbläsare, vilket innebär att "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>Tab</keycap></"
+"keycombo> bara fungerar med dokument som körs i samma process. Om du öppnar "
+"flera filer från en filbläddrare eller startar mer än en Inkscape-process "
+"från en ikon kanske det inte fungerar."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:130
+msgid "Creating shapes"
+msgstr "Skapa former"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:131
+msgid ""
+"Time for some nice shapes! Click on the Rectangle tool in the toolbar on the "
+"left (or press <keycap>R</keycap>) and click-and-drag, either in a new empty "
+"document or right here:"
+msgstr ""
+"Dags för några snygga former! Klicka på verktyget Rektangel i verktygsfältet "
+"till vänster (eller tryck på <keycap>R</keycap>) och klicka och dra, "
+"antingen i ett nytt tomt dokument eller här:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:142
+msgid ""
+"As you can see, default rectangles come up with a blue <firstterm>fill</"
+"firstterm> and a black <firstterm>stroke</firstterm> (outline), and fully "
+"opaque. We'll see how to change that below. With other tools, you can also "
+"create ellipses, stars, and spirals:"
+msgstr ""
+"Som du kan se har standardrektanglar en blå <firstterm>fyllning</firstterm> "
+"och ett svart <firstterm>streck</firstterm> (kontur) och är helt "
+"ogenomskinliga. Vi ska se hur du ändrar det nedan. Med andra verktyg kan du "
+"också skapa ellipser, stjärnor och spiraler:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:154
+msgid ""
+"These tools are collectively known as <firstterm>shape tools</firstterm>. "
+"Each shape you create displays one or more <firstterm>handles</firstterm>; "
+"try dragging them to see how the shape responds. The Tool Controls bar for a "
+"shape tool is another way to tweak a shape; these controls affect the "
+"currently selected shapes (i.e. those that display the handles) "
+"<emphasis>and</emphasis> set the default that will apply to newly created "
+"shapes."
+msgstr ""
+"Dessa verktyg kallas gemensamt för <firstterm>formverktyg</firstterm>. Varje "
+"form du skapar visar ett eller flera <firstterm>handtag</firstterm>; prova "
+"att dra i dem för att se hur formen reagerar. Verktygskontrollfältet för ett "
+"formverktyg är ett annat sätt att justera en form; dessa kontroller påverkar "
+"de aktuella valda formerna (dvs. de som visar handtagen) <emphasis>och</"
+"emphasis> anger standardinställningen som ska gälla för nyskapade former."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:160
+msgid ""
+"To <firstterm>undo</firstterm> your last action, press <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>Z</keycap></keycombo>. (Or, if you "
+"change your mind again, you can <firstterm>redo</firstterm> the undone "
+"action by <keycombo><keycap function=\"control\">Ctrl</keycap><keycap "
+"function=\"shift\">Shift</keycap><keycap>Z</keycap></keycombo>.)"
+msgstr ""
+"Om du vill <firstterm>ångra</firstterm> din senaste åtgärd trycker du på "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>Z</keycap></"
+"keycombo>. (Eller, om du ändrar dig igen, kan du <firstterm>göra om</"
+"firstterm> den ångrade åtgärden genom att <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap function=\"shift\">Skifta</"
+"keycap><keycap>Z</keycap></keycombo>.)"
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:169
+msgid "Moving, scaling, rotating"
+msgstr "Flytta, skala, rotera"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:170
+msgid ""
+"The most frequently used Inkscape tool is the <firstterm>Selector</"
+"firstterm>. Click the topmost button (with the arrow) on the toolbar, or "
+"press <keycap>S</keycap>, <keycap>F1</keycap> or toggle the tool using "
+"<keycap>Space</keycap>. Now you can select any object on the canvas. Click "
+"on the rectangle below."
+msgstr ""
+"Det mest använda verktyget i Inkscape är <firstterm>Selector</firstterm>. "
+"Klicka på den översta knappen (med pilen) i verktygsfältet eller tryck på "
+"<keycap>S</keycap>, <keycap>F1</keycap> eller växla verktyget med "
+"<keycap>mellanslag</keycap>. Nu kan du markera valfritt objekt på duken. "
+"Klicka på rektangeln nedan."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:182
+msgid ""
+"You will see eight arrow-shaped handles appear around the object. Now you "
+"can:"
+msgstr ""
+"Du kommer att se åtta pilformade handtag visas runt objektet. Nu kan du göra "
+"det:"
+
+#. (itstool) path: listitem/para
+#: tutorial-basic.xml:187
+msgid ""
+"<firstterm>Move</firstterm> the object by dragging it. (Press <keycap "
+"function=\"control\">Ctrl</keycap> to restrict movement to horizontal and "
+"vertical.)"
+msgstr ""
+"<firstterm>Flytta</firstterm> objektet genom att dra det. (Tryck på <keycap "
+"function=\"control\">Ctrl</keycap> för att begränsa förflyttningen till "
+"horisontellt och vertikalt)"
+
+#. (itstool) path: listitem/para
+#: tutorial-basic.xml:194
+msgid ""
+"<firstterm>Scale</firstterm> the object by dragging any handle. (Press "
+"<keycap function=\"control\">Ctrl</keycap> to preserve the original height/"
+"width ratio.)"
+msgstr ""
+"<firstterm>Skala</firstterm> objektet genom att dra i valfritt handtag. "
+"(Tryck på <keycap function=\"control\">Ctrl</keycap> för att behålla det "
+"ursprungliga höjd/bredd-förhållandet)"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:200
+msgid "Now click the rectangle again. The handles change. Now you can:"
+msgstr "Klicka nu på rektangeln igen. Handtagen ändras. Nu kan du göra det:"
+
+#. (itstool) path: listitem/para
+#: tutorial-basic.xml:205
+msgid ""
+"<firstterm>Rotate</firstterm> the object by dragging the corner handles. "
+"(Press <keycap function=\"control\">Ctrl</keycap> to restrict rotation to 15 "
+"degree steps. Drag the cross mark to position the center of rotation.)"
+msgstr ""
+"<firstterm>Rotera</firstterm> objektet genom att dra i hörnhandtagen. (Tryck "
+"på <keycap function=\"control\">Ctrl</keycap> för att begränsa rotationen "
+"till steg om 15 grader. Dra i kryssmarkeringen för att positionera "
+"rotationscentrum)"
+
+#. (itstool) path: listitem/para
+#: tutorial-basic.xml:212
+msgid ""
+"<firstterm>Skew</firstterm> (shear) the object by dragging non-corner "
+"handles. (Press <keycap function=\"control\">Ctrl</keycap> to restrict "
+"skewing to 15 degree steps.)"
+msgstr ""
+"<firstterm>Skeva</firstterm> (klippa) objektet genom att dra i handtagen "
+"utanför hörnen. (Tryck på <keycap function=\"control\">Ctrl</keycap> för att "
+"begränsa skevningen till steg om 15 grader)"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:218
+msgid ""
+"While using the Selector, you can also use the numeric entry fields in the "
+"Tool Controls bar (above the canvas) to set exact values for coordinates (X "
+"and Y) and size (W and H) of the selection."
+msgstr ""
+"När du använder väljaren kan du också använda de numeriska inmatningsfälten "
+"i verktygskontrollfältet (ovanför målarduken) för att ange exakta värden för "
+"koordinater (X och Y) och storlek (B och H) för markeringen."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:224
+msgid "Transforming by keys"
+msgstr "Omvandling med hjälp av nycklar"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:225
+msgid ""
+"One of the features that set Inkscape apart from most other vector editors "
+"is its emphasis on keyboard accessibility. There's hardly any command or "
+"action that is impossible to do from keyboard, and transforming objects is "
+"no exception."
+msgstr ""
+"En av de funktioner som skiljer Inkscape från de flesta andra "
+"vektorredigerare är dess betoning på tangentbordstillgänglighet. Det finns "
+"knappast något kommando eller åtgärd som är omöjligt att göra från "
+"tangentbordet, och att omvandla objekt är inget undantag."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:230
+msgid ""
+"You can use the keyboard to move (<keycap>arrow</keycap> keys), scale "
+"(<keycap>&lt;</keycap> and <keycap>&gt;</keycap> keys), and rotate "
+"(<keycap>[</keycap> and <keycap>]</keycap> keys) objects. Default moves and "
+"scales are by 2 px; with <keycap function=\"shift\">Shift</keycap>, you move "
+"by 10 times that. <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>&gt;</keycap></keycombo> and <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>&lt;</keycap></keycombo> scale up "
+"or down to 200% or 50% of the original, respectively. Default rotates are by "
+"15 degrees; with <keycap function=\"control\">Ctrl</keycap>, you rotate by "
+"90 degrees."
+msgstr ""
+"Du kan använda tangentbordet för att flytta<keycap>(piltangenterna</"
+"keycap> ), skala<keycap>(&lt;-</keycap> och <keycap>&gt;-tangenterna</"
+"keycap> ) och rotera (<keycap>[-</keycap> och <keycap>]-tangenterna</"
+"keycap> ) objekt. Standardförflyttningar och skalningar är med 2 px; med "
+"<keycap function=\"shift\">Shift</keycap> flyttar du med 10 gånger så "
+"mycket. <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>&gt;</"
+"keycap></keycombo> och <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>&lt;</keycap></keycombo> skalar upp eller ner till 200% or "
+"50% of originalet, respektive. Standardrotationen är 15 grader; med <keycap "
+"function=\"control\">Ctrl</keycap> roterar du 90 grader."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:241
+msgid ""
+"However, perhaps the most useful are <firstterm>pixel-size transformations</"
+"firstterm>, invoked by using <keycap function=\"alt\">Alt</keycap> with the "
+"transform keys. For example, <keycombo><keycap function=\"alt\">Alt</"
+"keycap><keycap>arrows</keycap></keycombo> will move the selection by 1 "
+"<firstterm>screen pixel</firstterm> (i.e. a pixel on your monitor). This "
+"means that if you zoom in, you can move objects with very high precision, if "
+"you're using <keycap>Alt</keycap> with your keyboard shortcut. In reverse, "
+"when you zoom out, precision will be lower when you use the <keycap>Alt</"
+"keycap> key. Using different zoom levels, you can vary the amount of "
+"precision that you need for your current task."
+msgstr ""
+"Det kanske mest användbara är dock <firstterm>transformationer av "
+"pixelstorlek</firstterm>, som aktiveras genom att använda <keycap "
+"function=\"alt\">Alt</keycap> med transformtangenterna. Till exempel "
+"<keycombo><keycap function=\"alt\">Alt</keycap><keycap>pilar</keycap></"
+"keycombo> flyttas markeringen med 1 <firstterm>skärmpixel</firstterm> (dvs. "
+"en pixel på din bildskärm). Det innebär att om du zoomar in kan du flytta "
+"objekt med mycket hög precision, om du använder <keycap>Alt</keycap> med "
+"tangentbordsgenvägen. Omvänt gäller att när du zoomar ut blir precisionen "
+"lägre om du använder <keycap>Alt-tangenten</keycap>. Genom att använda olika "
+"zoomnivåer kan du variera den precision som du behöver för den aktuella "
+"uppgiften."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:251
+msgid ""
+"Similarly, <keycombo><keycap function=\"alt\">Alt</keycap><keycap>&gt;</"
+"keycap></keycombo> and <keycombo><keycap function=\"alt\">Alt</"
+"keycap><keycap>&lt;</keycap></keycombo> scale the selection so that its "
+"visible size changes by one screen pixel, and <keycombo><keycap "
+"function=\"alt\">Alt</keycap><keycap>[</keycap></keycombo> and "
+"<keycombo><keycap function=\"alt\">Alt</keycap><keycap>]</keycap></keycombo> "
+"rotate it so that its farthest-from-center point moves by one screen pixel."
+msgstr ""
+"På samma sätt, <keycombo><keycap function=\"alt\">Alt</keycap><keycap>&gt;</"
+"keycap></keycombo> och <keycombo><keycap function=\"alt\">Alt</"
+"keycap><keycap>&lt;</keycap></keycombo> skalar markeringen så att den "
+"synliga storleken ändras med en skärmpixel, och <keycombo><keycap "
+"function=\"alt\">Alt</keycap><keycap>[</keycap></keycombo> och "
+"<keycombo><keycap function=\"alt\">Alt</keycap><keycap>]</keycap></keycombo> "
+"roterar den så att dess punkt längst bort från mitten flyttas med en "
+"skärmpixel."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:260
+msgid ""
+"Note: Linux users may not get the expected results with the "
+"<keycombo><keycap function=\"alt\">Alt</keycap><keycap>arrow</keycap></"
+"keycombo> and a few other key combinations if their Window Manager catches "
+"those key events before they reach the Inkscape application (and uses it to "
+"do things like switching workspaces instead). One solution would be to "
+"change the Window Manager's configuration accordingly."
+msgstr ""
+"Observera: Linux-användare kanske inte får de förväntade resultaten med "
+"<keycombo><keycap function=\"alt\">Alt</keycap><keycap>pilen</keycap></"
+"keycombo> och några andra tangentkombinationer om deras Window Manager "
+"fångar upp dessa tangenthändelser innan de når Inkscape-programmet (och "
+"använder dem för att göra saker som att byta arbetsyta istället). En lösning "
+"skulle vara att ändra fönsterhanterarens konfiguration i enlighet med detta."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:269
+msgid "Multiple selections"
+msgstr "Flera val"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:270
+msgid ""
+"You can select any number of objects simultaneously by <keycombo><keycap "
+"function=\"shift\">Shift</keycap><mousebutton role=\"click\">click</"
+"mousebutton></keycombo>ing them. Or, you can <mousebutton role=\"mouse-"
+"drag\">drag</mousebutton> around the objects you need to select; this is "
+"called <firstterm>rubberband selection</firstterm>. (Selector creates "
+"rubberband when dragging from an empty space; however, if you press <keycap "
+"function=\"shift\">Shift</keycap> before starting to drag, Inkscape will "
+"always create the rubberband.) By holding down <keycap function=\"alt\">Alt</"
+"keycap>, you can turn the Selector tool into a pencil that you can use to "
+"draw on the objects you want to select. Practice by selecting all three of "
+"the shapes below:"
+msgstr ""
+"Du kan välja ett valfritt antal objekt samtidigt genom att <keycombo><keycap "
+"function=\"shift\">Skifta</keycap><mousebutton role=\"click\">klickar</"
+"mousebutton></keycombo>på dem. Eller så kan du <mousebutton role=\"mouse-"
+"drag\">dra</mousebutton> runt de objekt som du vill markera; detta kallas "
+"<firstterm>gummibandsurval</firstterm>. (Selector skapar gummiband när du "
+"drar från ett tomt utrymme, men om du trycker på <keycap "
+"function=\"shift\">Skift</keycap> innan du börjar dra kommer Inkscape alltid "
+"att skapa gummibandet) Genom att hålla ned <keycap function=\"alt\">Alt</"
+"keycap> kan du förvandla Selector-verktyget till en penna som du kan använda "
+"för att rita på de objekt du vill markera. Öva genom att välja alla tre "
+"formerna nedan:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:292
+msgid ""
+"Now, use rubberband (by drag or <keycombo><keycap function=\"shift\">Shift</"
+"keycap><mousebutton role=\"mouse-drag\">drag</mousebutton></keycombo>) to "
+"select the two ellipses but not the rectangle:"
+msgstr ""
+"Använd nu gummiband (genom att dra eller <keycombo><keycap "
+"function=\"shift\">Skift</keycap><mousebutton role=\"mouse-drag\">dra</"
+"mousebutton></keycombo>) för att markera de två ellipserna men inte "
+"rektangeln:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:306
+msgid ""
+"Each individual object within a selection displays a <firstterm>selection "
+"cue</firstterm> — by default, a dashed rectangular frame. These cues make it "
+"easy to see at once what is selected and what is not. For example, if you "
+"select both the two ellipses and the rectangle, without the cues you would "
+"have a hard time guessing whether the ellipses are selected or not."
+msgstr ""
+"Varje enskilt objekt i en markering visar en <firstterm>markeringssignal</"
+"firstterm> - som standard en streckad rektangulär ram. Dessa signaler gör "
+"det lätt att direkt se vad som är markerat och vad som inte är det. Om du "
+"t.ex. markerar både de två ellipserna och rektangeln skulle du utan "
+"markeringarna ha svårt att gissa om ellipserna är markerade eller inte."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:312
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo>ing on a selected object "
+"excludes it from the selection. Select all three objects above, then use "
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to exclude both ellipses from "
+"the selection leaving only the rectangle selected."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"click\">klickar</mousebutton></keycombo>på ett markerat objekt "
+"exkluderas det från markeringen. Markera alla tre objekten ovan och använd "
+"sedan <keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att utesluta båda "
+"ellipserna från markeringen så att endast rektangeln markeras."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:321
+msgid ""
+"Pressing <keycap>Esc</keycap> deselects all selected objects. "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>A</keycap></"
+"keycombo> selects all objects in the current layer (if you did not create "
+"any layers, this is the same as all objects in the document). The default "
+"behavior of the <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>A</keycap></keycombo> shortcut can be adjusted in the "
+"preferences."
+msgstr ""
+"Om du trycker på <keycap>Esc</keycap> avmarkeras alla markerade objekt. "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>A</keycap></"
+"keycombo> markerar alla objekt i det aktuella lagret (om du inte har skapat "
+"några lager är detta detsamma som alla objekt i dokumentet). "
+"Standardbeteendet för <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>A</keycap></keycombo> kan justeras i inställningarna."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:330
+msgid "Grouping"
+msgstr "Gruppering"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:331
+msgid ""
+"Several objects can be combined into a <firstterm>group</firstterm>. A group "
+"behaves as a single object when you drag or transform it. Below, the three "
+"objects on the left are independent; the same three objects on the right are "
+"grouped. Try to drag the group."
+msgstr ""
+"Flera objekt kan kombineras till en <firstterm>grupp.</firstterm> En grupp "
+"beter sig som ett enda objekt när du drar eller transformerar den. Nedan är "
+"de tre objekten till vänster oberoende, medan samma tre objekt till höger är "
+"grupperade. Försök att dra i gruppen."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:343
+msgid ""
+"To create a group, select one or more objects and press <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>G</keycap></keycombo>. To ungroup "
+"one or more groups, select them and press <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>U</keycap></keycombo>. These "
+"actions are also accessible by <mousebutton role=\"right-click\">right "
+"click</mousebutton>, the <guimenu>Object</guimenu> menu, or the Commands "
+"bar. Groups themselves may be grouped, just like any other objects; such "
+"nested groups may go down to arbitrary depth. However, <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>U</keycap></keycombo> only "
+"ungroups the topmost level of grouping in a selection; you'll need to press "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>U</keycap></"
+"keycombo> repeatedly if you want to completely ungroup a deep group-in-group "
+"(or use <menuchoice><guimenu>Extensions</guimenu><guisubmenu>Arrange</"
+"guisubmenu><guimenuitem>Deep Ungroup</guimenuitem></menuchoice>)."
+msgstr ""
+"För att skapa en grupp markerar du ett eller flera objekt och trycker på "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>G</keycap></"
+"keycombo>. Om du vill avgruppera en eller flera grupper markerar du dem och "
+"trycker på <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>U</"
+"keycap></keycombo>. Dessa åtgärder är också tillgängliga via <mousebutton "
+"role=\"right-click\">högerklick</mousebutton>, <guimenu>objektmenyn</"
+"guimenu> eller kommandofältet. Grupper i sig kan grupperas, precis som alla "
+"andra objekt; sådana nästlade grupper kan gå ner till godtyckligt djup. Det "
+"är dock inte möjligt, <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>U</keycap></keycombo> upphäver dock bara den översta "
+"grupperingsnivån i ett urval; du måste trycka på <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>U</keycap></keycombo> upprepade "
+"gånger om du vill ta bort en djup grupp-i-grupp helt och hållet (eller "
+"använda <menuchoice><guimenu>Tillägg</guimenu><guisubmenu>Ordna</"
+"guisubmenu><guimenuitem>Djup avgruppering</guimenuitem></menuchoice>)."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:361
+msgid ""
+"You don't necessarily have to ungroup, however, if you want to edit an "
+"object within a group. Just <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><mousebutton role=\"click\">click</mousebutton></keycombo> that "
+"object and it will be selected and editable alone, or <keycombo><keycap "
+"function=\"shift\">Shift</keycap><keycap function=\"control\">Ctrl</"
+"keycap><mousebutton role=\"click\">click</mousebutton></keycombo> several "
+"objects (inside or outside any groups) for multiple selection regardless of "
+"grouping."
+msgstr ""
+"Du behöver dock inte nödvändigtvis ta bort gruppen om du vill redigera ett "
+"objekt i en grupp. Bara <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><mousebutton role=\"click\">klicka</mousebutton></keycombo> på "
+"objektet så blir det markerat och redigerbart ensamt, eller "
+"<keycombo><keycap function=\"shift\">Skifta</keycap><keycap "
+"function=\"control\">Ctrl</keycap><mousebutton role=\"click\">klicka på</"
+"mousebutton></keycombo> på flera objekt (i eller utanför grupper) för "
+"flerfaldig markering oavsett gruppering."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:372
+msgid ""
+"You can also <mousebutton role=\"click\">double-click</mousebutton> on a "
+"group, to enter it and access all the objects inside without ungrouping. "
+"<mousebutton role=\"click\">Double-click</mousebutton> on any empty canvas "
+"area to leave the group again."
+msgstr ""
+"Du kan också <mousebutton role=\"click\">dubbelklicka</mousebutton> på en "
+"grupp för att komma in i den och komma åt alla objekt i den utan att behöva "
+"ta bort gruppen. <mousebutton role=\"click\">Dubbelklicka</mousebutton> på "
+"en tom yta för att lämna gruppen igen."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:377
+msgid ""
+"Try to move or transform the individual shapes in the group (above right) "
+"without ungrouping it, then deselect and select the group normally to see "
+"that it still remains grouped."
+msgstr ""
+"Försök att flytta eller omvandla de enskilda formerna i gruppen (ovan till "
+"höger) utan att avgruppera den, avmarkera sedan och markera gruppen normalt "
+"för att se att den fortfarande är grupperad."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:383
+msgid "Fill and stroke"
+msgstr "Fyllning, ingen linje"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:384
+msgid ""
+"Probably the simplest way to paint an object some color is to select an "
+"object, and click a <firstterm>swatch</firstterm> (color field) in the "
+"palette below the canvas to paint it (change its fill color)."
+msgstr ""
+"Det enklaste sättet att måla ett objekt i en viss färg är förmodligen att "
+"markera objektet och klicka på en <firstterm>swatch</firstterm> (färgfält) i "
+"paletten under canvas för att måla det (ändra fyllnadsfärgen)."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:388
+msgid ""
+"Alternatively, you can open the Swatches dialog from the <guimenu>View</"
+"guimenu> menu (or press <keycombo><keycap function=\"shift\">Shift</"
+"keycap><keycap function=\"control\">Ctrl</keycap><keycap>W</keycap></"
+"keycombo>), select the palette that you want to use after clicking on the "
+"dropdown selector at the top, select an object, and click any swatch to fill "
+"the object (change its fill color)."
+msgstr ""
+"Alternativt kan du öppna dialogrutan Swatches från menyn <guimenu>View</"
+"guimenu> (eller tryck på <keycombo><keycap function=\"shift\">Skift</"
+"keycap><keycap function=\"control\">Ctrl</keycap><keycap>W</keycap></"
+"keycombo>), välja den palett som du vill använda genom att klicka på "
+"rullgardinsväljaren högst upp, välja ett objekt och klicka på valfri färg "
+"för att fylla objektet (ändra dess fyllningsfärg)."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:396
+msgid ""
+"More powerful is the Fill and Stroke dialog from the <guimenu>Object</"
+"guimenu> menu (or press <keycombo><keycap function=\"shift\">Shift</"
+"keycap><keycap function=\"control\">Ctrl</keycap><keycap>F</keycap></"
+"keycombo>). Select the shape below and open the Fill and Stroke dialog."
+msgstr ""
+"Mer kraftfull är dialogrutan Fill and Stroke från menyn <guimenu>Object</"
+"guimenu> (eller tryck på <keycombo><keycap function=\"shift\">Skift</"
+"keycap><keycap function=\"control\">Ctrl</keycap><keycap>F</keycap></"
+"keycombo>). Markera formen nedan och öppna dialogrutan Fill and Stroke."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:410
+msgid ""
+"You will see that the dialog has three tabs: Fill, Stroke paint, and Stroke "
+"style. The Fill tab lets you edit the fill (interior) of the selected "
+"object(s). Using the buttons just below the tab, you can select types of "
+"fill, including no fill (the button with the X), flat color fill, as well as "
+"linear, radial or mesh gradients and patterns. For the above shape, the flat "
+"fill button will be activated."
+msgstr ""
+"Du kommer att se att dialogrutan har tre flikar: Fill (fyllning), Stroke "
+"paint (färg) och Stroke style (stil). På fliken Fill kan du redigera "
+"fyllningen (insidan) i de markerade objekten. Med knapparna precis under "
+"fliken kan du välja olika typer av fyllning, t.ex. ingen fyllning (knappen "
+"med X), fyllning med platt färg samt linjära, radiella eller mesh-gradienter "
+"och -mönster. För ovanstående form kommer knappen för platt fyllning att "
+"aktiveras."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:416
+msgid ""
+"Further below, you see the <firstterm>color picker</firstterm>. You can "
+"choose between different types of color pickers in the dropdown menu on the "
+"right side above the color picker: RGB, CMYK, HSL, and more. You can also "
+"turn on an additional Wheel picker for some of these, where you can rotate a "
+"triangle to choose a hue on the wheel, and then select a shade of that hue "
+"within the triangle. All color pickers contain a slider labelled “A“ to set "
+"the <firstterm>alpha</firstterm> (opacity) of the selected color."
+msgstr ""
+"Längre ner ser du <firstterm>färgväljaren</firstterm>. Du kan välja mellan "
+"olika typer av färgväljare i rullgardinsmenyn på höger sida ovanför "
+"färgväljaren: RGB, CMYK, HSL, med mera. Du kan också aktivera en extra Wheel-"
+"picker för vissa av dessa, där du kan rotera en triangel för att välja en "
+"nyans på hjulet och sedan välja en nyans av den nyansen inom triangeln. Alla "
+"färgväljare innehåller ett skjutreglage märkt \"A\" för att ställa in "
+"<firstterm>alfa</firstterm> (opacitet) för den valda färgen."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:423
+msgid ""
+"Whenever you select an object, the color picker is updated to display its "
+"current fill and stroke (for multiple selected objects, the dialog shows "
+"their <emphasis>average</emphasis> color). Play with these samples or create "
+"your own:"
+msgstr ""
+"När du markerar ett objekt uppdateras färgväljaren så att den visar aktuell "
+"fyllning och stroke (för flera markerade objekt visar dialogrutan deras "
+"<emphasis>genomsnittliga</emphasis> färg). Lek med dessa exempel eller skapa "
+"dina egna:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:435
+msgid ""
+"Using the Stroke paint tab, you can remove the <firstterm>stroke</firstterm> "
+"(outline) of the object, or assign any color or transparency to it:"
+msgstr ""
+"Med hjälp av fliken Stroke paint kan du ta bort objektets <firstterm>stroke</"
+"firstterm> (kontur) eller tilldela det valfri färg eller transparens:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:446
+msgid ""
+"The last tab, Stroke style, lets you set the width and other parameters of "
+"the stroke:"
+msgstr ""
+"På den sista fliken, Stroke style, kan du ställa in bredden och andra "
+"parametrar för strecket:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:456
+msgid ""
+"Finally, instead of a flat color, you can use <firstterm>gradients</"
+"firstterm> for fills and/or strokes:"
+msgstr ""
+"Slutligen kan du istället för en platt färg använda <firstterm>gradienter</"
+"firstterm> för fyllningar och/eller streck:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:466
+msgid ""
+"When you switch from flat color to gradient, the newly created gradient uses "
+"the previous flat color, going from opaque to transparent. The Fill and "
+"Stroke dialog will change to show the Gradient editor. Switch to the "
+"<firstterm>Gradient tool</firstterm> (<keycap>G</keycap>) to drag the "
+"<firstterm>gradient handles</firstterm> — the controls connected by lines "
+"that define the direction and length of the gradient. When any of the "
+"gradient handles is selected (highlighted blue), the <firstterm>Gradient "
+"Editor</firstterm> displays the color of that handle and allows you to "
+"change it."
+msgstr ""
+"När du växlar från platt färg till gradient använder den nyskapade "
+"gradienten den tidigare platta färgen och går från opak till transparent. "
+"Dialogrutan Fill and Stroke ändras så att Gradient editor visas. Byt till "
+"<firstterm>verktyget Gra</firstterm> dient<keycap>(G)</keycap> för att dra i "
+"<firstterm>gradienthandtagen</firstterm> - de kontroller som är förbundna "
+"med linjer som definierar gradientens riktning och längd. När något av "
+"gradienthandtagen är markerat (blåmarkerat) visar <firstterm>Gradient "
+"Editor</firstterm> färgen på det handtaget och låter dig ändra den."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:474
+msgid ""
+"Yet another convenient way to change the color of an object is by using the "
+"Dropper tool (<keycap>D</keycap>). Just <mousebutton role=\"click\">click</"
+"mousebutton> anywhere in the drawing with that tool, and the color you "
+"clicked on will be assigned to the selected object's fill (<keycombo><keycap "
+"function=\"shift\">Shift</keycap><mousebutton role=\"click\">click</"
+"mousebutton></keycombo> will assign the stroke color)."
+msgstr ""
+"Ett annat smidigt sätt att ändra färg på ett objekt är att använda Dropper-"
+"verktyget<keycap>(D).</keycap> <mousebutton role=\"click\">Klicka</"
+"mousebutton> bara var som helst i ritningen med det verktyget, så kommer den "
+"färg du klickade på att tilldelas det markerade objektets fyllning "
+"(<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"click\">klick</mousebutton></keycombo> kommer att tilldela "
+"strokefärgen)."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:485
+msgid "Duplication, alignment, distribution"
+msgstr "Duplicering, anpassning, distribution"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:486
+msgid ""
+"One of the most common operations is <firstterm>duplicating</firstterm> an "
+"object (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>D</"
+"keycap></keycombo>). The duplicate is placed exactly on top of the original "
+"and is selected, so you can drag it away by <mousebutton>mouse</mousebutton> "
+"or by <keycap>arrow</keycap> keys. For practice, try to add copies of this "
+"black square in a line next to each other:"
+msgstr ""
+"En av de vanligaste operationerna är att <firstterm>duplicera</firstterm> "
+"ett objekt (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>D</"
+"keycap></keycombo>). Duplikatet placeras exakt ovanpå originalet och är "
+"markerat, så du kan dra bort det med <mousebutton>musen</mousebutton> eller "
+"med <keycap>piltangenterna</keycap>. För att öva kan du försöka lägga till "
+"kopior av den här svarta kvadraten i en rad bredvid varandra:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:501
+msgid ""
+"Chances are, your copies of the square are placed more or less randomly. "
+"This is where the <menuchoice><guimenu>Object</guimenu><guimenuitem>Align "
+"and Distribute</guimenuitem></menuchoice> dialog (<keycombo><keycap "
+"function=\"shift\">Shift</keycap><keycap function=\"control\">Ctrl</"
+"keycap><keycap>A</keycap></keycombo>) is useful. Select all the squares "
+"(<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> or drag a rubberband), open "
+"the dialog and press the “Center on horizontal axis” button, then the "
+"“Distribute horizontally with even horizontal gaps” button (read the button "
+"tooltips). The objects are now neatly aligned and distributed with equal "
+"spaces in between. Here are some other alignment and distribution examples:"
+msgstr ""
+"Chansen är stor att dina kopior av torget är placerade mer eller mindre "
+"slumpmässigt. Det är här som <menuchoice><guimenu>Objekt</"
+"guimenu><guimenuitem>Justera och fördela</guimenuitem></menuchoice> "
+"(<keycombo><keycap function=\"shift\">Skift</keycap><keycap "
+"function=\"control\">Ctrl</keycap><keycap>A</keycap></keycombo>) är "
+"användbar. Markera alla rutor (<keycombo><keycap function=\"shift\">Skift</"
+"keycap><mousebutton role=\"click\">klicka</mousebutton></keycombo> eller dra "
+"ett gummiband), öppna dialogrutan och tryck på knappen \"Centrera på "
+"horisontell axel\" och sedan på knappen \"Fördela horisontellt med jämna "
+"horisontella mellanrum\" (läs knapparnas verktygstips). Objekten är nu "
+"prydligt inriktade och fördelade med lika stora mellanrum. Här är några "
+"andra exempel på justering och fördelning:"
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:523
+msgid "Z-order"
+msgstr "Z-ordning"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:524
+msgid ""
+"The term <firstterm>z-order</firstterm> refers to the stacking order of "
+"objects in a drawing, i.e. to which objects are on top of other objects, and "
+"cover them, so the bottom objects are not (completely) visible. The two "
+"commands in the <guimenu>Object</guimenu> menu, <guimenuitem>Raise to Top</"
+"guimenuitem> (the <keycap>Home</keycap> key) and <guimenuitem>Lower to "
+"Bottom</guimenuitem> (the <keycap>End</keycap> key), will move your selected "
+"objects to the very top or very bottom of the current layer's z-order. Two "
+"more commands, <guimenuitem>Raise</guimenuitem> (<keycap>PgUp</keycap>) and "
+"<guimenuitem>Lower</guimenuitem> (<keycap>PgDn</keycap>), will sink or "
+"emerge the selection <emphasis>one step only</emphasis>, i.e. move it past "
+"one non-selected object in z-order (only objects that overlap the selection "
+"count, based on their respective bounding boxes)."
+msgstr ""
+"Termen <firstterm>z-ordning</firstterm> avser staplingsordningen för objekt "
+"i en ritning, dvs. vilka objekt som ligger ovanpå andra objekt och täcker "
+"dem så att de nedre objekten inte är (helt) synliga. De två kommandona i "
+"<guimenu>Object-menyn</guimenu>, <guimenuitem>Raise to Top</guimenuitem> "
+"( <keycap>Home-tangenten</keycap> ) och <guimenuitem>Lower to Bottom</"
+"guimenuitem> ( <keycap>End-tangenten</keycap> ), flyttar de markerade "
+"objekten till toppen eller botten av det aktuella lagrets z-ordning. "
+"Ytterligare två kommandon, <guimenuitem>Raise</guimenuitem><keycap>(PgUp)</"
+"keycap> och <guimenuitem>Lower</guimenuitem><keycap>(PgDn</keycap>), sänker "
+"eller höjer markeringen <emphasis>ett steg,</emphasis> dvs. flyttar den "
+"förbi ett icke markerat objekt i z-ordningen (endast objekt som överlappar "
+"markeringen räknas, baserat på deras respektive avgränsningsboxar)."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:535
+msgid ""
+"Practice using these commands by reversing the z-order of the objects below, "
+"so that the leftmost ellipse is on top and the rightmost one is at the "
+"bottom:"
+msgstr ""
+"Öva på att använda dessa kommandon genom att vända på z-ordningen för "
+"objekten nedan, så att ellipsen längst till vänster är överst och den längst "
+"till höger är nederst:"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:546
+msgid ""
+"A very useful selection shortcut is the <keycap>Tab</keycap> key. If nothing "
+"is selected, it selects the bottommost object; otherwise it selects the "
+"object <emphasis>above the selected object(s)</emphasis> in z-order. "
+"<keycombo><keycap function=\"shift\">Shift</keycap><keycap>Tab</keycap></"
+"keycombo> works in reverse, starting from the topmost object and proceeding "
+"downwards. Since the objects you create are added to the top of the stack, "
+"pressing <keycombo><keycap function=\"shift\">Shift</keycap><keycap>Tab</"
+"keycap></keycombo> with nothing selected will conveniently select the object "
+"you created <emphasis>last</emphasis>. Practice the <keycap>Tab</keycap> and "
+"<keycombo><keycap function=\"shift\">Shift</keycap><keycap>Tab</keycap></"
+"keycombo> keys on the stack of ellipses above."
+msgstr ""
+"En mycket användbar genväg för val är <keycap>Tab-tangenten</keycap>. Om "
+"inget är markerat markeras det nedersta objektet, annars markeras objektet "
+"<emphasis>ovanför</emphasis> det/de markerade <emphasis>objekten</emphasis> "
+"i z-ordning. <keycombo><keycap function=\"shift\">Skift</keycap><keycap>Tab</"
+"keycap></keycombo> fungerar omvänt, med början från det översta objektet och "
+"nedåt. Eftersom de objekt du skapar läggs till överst i stapeln, kan du "
+"genom att trycka på <keycombo><keycap function=\"shift\">Skift</"
+"keycap><keycap>Tab</keycap></keycombo> utan att något är markerat, kommer du "
+"att välja det objekt som du skapade <emphasis>sist</emphasis>. Öva på "
+"<keycap>Tab</keycap> och <keycombo><keycap function=\"shift\">Skift</"
+"keycap><keycap>Tab</keycap></keycombo> på stapeln med ellipser ovan."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:558
+msgid "Selecting under and dragging selected"
+msgstr "Markera under och dra markerade"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:559
+msgid ""
+"What to do if the object you need is hidden behind another object? You may "
+"still see the bottom object if the top one is (partially) transparent, but "
+"clicking on it will select the top object, not the one you need."
+msgstr ""
+"Vad gör jag om det objekt du behöver är dolt bakom ett annat objekt? Du kan "
+"fortfarande se det nedre objektet om det övre är (delvis) transparent, men "
+"om du klickar på det väljer du det övre objektet, inte det du behöver."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:563
+msgid ""
+"This is what <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> is for. First "
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> selects the top object, just "
+"like the regular click. However, the next <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"click\">click</"
+"mousebutton></keycombo> at the same point will select the object "
+"<emphasis>below</emphasis> the top one; the next one, the object still "
+"lower, etc. Thus, several <keycombo><keycap function=\"alt\">Alt</"
+"keycap><mousebutton role=\"click\">click</mousebutton></keycombo>s in a row "
+"will cycle, top-to-bottom, through the entire z-order stack of objects at "
+"the click point. When the bottom object is reached, next <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"click\">click</"
+"mousebutton></keycombo> will, naturally, again select the topmost object."
+msgstr ""
+"Det här är vad <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">klick</mousebutton></keycombo> är till för. Första "
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">klick</mousebutton></keycombo> väljer det översta objektet, "
+"precis som det vanliga klicket. Men nästa <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"click\">klick</"
+"mousebutton></keycombo> vid samma punkt kommer att välja objektet "
+"<emphasis>under</emphasis> det översta; nästa, objektet ännu lägre, etc. "
+"Således kan flera <keycombo><keycap function=\"alt\">Alt</"
+"keycap><mousebutton role=\"click\">klick</mousebutton></keycombo>i rad "
+"kommer alltså att cykla, uppifrån och ner, genom hela den z-ordnade stapeln "
+"av objekt vid klickpunkten. När det nedersta objektet har nåtts, kommer "
+"nästa <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">klick</mousebutton></keycombo> naturligtvis återigen välja "
+"det översta objektet."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:586
+msgid ""
+"With <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"mouse-wheel\">mouse wheel</mousebutton></keycombo> over a selected "
+"object, Inkscape will conveniently cycle through all objects in the position "
+"of the mouse pointer and highlight the selected object for you."
+msgstr ""
+"Med <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"wheel\">mushjul</mousebutton></keycombo> över ett valt objekt kommer "
+"Inkscape att gå igenom alla objekt i muspekarens position och markera det "
+"valda objektet åt dig."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:590
+msgid ""
+"[If you are on Linux, you might find that <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"click\">click</"
+"mousebutton></keycombo> does not work properly. Instead, it might be moving "
+"the whole Inkscape window. This is because your window manager has reserved "
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> for a different action. The "
+"way to fix this is to find the Window Behavior configuration for your window "
+"manager, and either turn it off, or map it to use the <keycap>Meta</keycap> "
+"key (aka <keycap>Windows</keycap> key), so Inkscape and other applications "
+"may use the <keycap function=\"alt\">Alt</keycap> key freely.]"
+msgstr ""
+"[Om du använder Linux kanske du upptäcker att <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"click\">klick</"
+"mousebutton></keycombo> inte fungerar som det ska. Istället kan det hända "
+"att hela Inkscape-fönstret flyttas. Detta beror på att din fönsterhanterare "
+"har reserverat <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">klick</mousebutton></keycombo> för en annan åtgärd. Sättet "
+"att åtgärda detta är att hitta konfigurationen Window Behavior för din "
+"fönsterhanterare och antingen stänga av den eller mappa den för att använda "
+"<keycap>Meta-tangenten</keycap> (aka <keycap>Windows-tangenten</keycap> ), "
+"så att Inkscape och andra applikationer kan använda <keycap "
+"function=\"alt\">Alt-tangenten</keycap> fritt]"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:602
+msgid ""
+"This is nice, but once you selected an under-the-surface object, what can "
+"you do with it? You can use keys to transform it, and you can drag the "
+"selection handles. However, dragging the object itself will reset the "
+"selection to the top object again (this is how click-and-drag is designed to "
+"work — it selects the (top) object under the cursor first, then drags the "
+"selection). To tell Inkscape to drag <emphasis>what is selected now</"
+"emphasis>, without selecting anything else, use <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"mouse-drag\">drag</"
+"mousebutton></keycombo>. This will move the current selection, no matter "
+"where you drag your mouse."
+msgstr ""
+"Det är bra, men vad kan man göra med ett objekt under ytan när man väl har "
+"valt det? Du kan använda tangenter för att transformera det och du kan dra i "
+"markeringshandtagen. Men om du drar i själva objektet återställs markeringen "
+"till det översta objektet igen (det är så här klick-och-drag är utformat för "
+"att fungera - det väljer först det (översta) objektet under markören och "
+"drar sedan markeringen). För att säga till Inkscape att dra det som är "
+"markerat <emphasis>nu</emphasis>, utan att markera något annat, använder du "
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo>. Detta kommer att flytta det aktuella "
+"urvalet, oavsett vart du drar musen."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:612
+msgid ""
+"Practice <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> and <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"mouse-drag\">drag</"
+"mousebutton></keycombo> on the two brown shapes under the green transparent "
+"rectangle:"
+msgstr ""
+"Övning <keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> och <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"mouse-drag\">dra</"
+"mousebutton></keycombo> på de två bruna figurerna under den gröna "
+"genomskinliga rektangeln:"
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:629
+msgid "Selecting similar objects"
+msgstr "Välja liknande objekt"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:630
+msgid ""
+"Inkscape can select other objects that are similar to the object that is "
+"currently selected. For example, if you want to select all the blue squares "
+"below, first select one of the blue squares, and use "
+"<menuchoice><guimenu>Edit</guimenu><guisubmenu>Select Same</"
+"guisubmenu><guimenuitem>Fill Color</guimenuitem></menuchoice> from the menu "
+"(<mousebutton role=\"right-click\">right-click</mousebutton> on the canvas). "
+"All objects with the same blue fill color are now selected."
+msgstr ""
+"Inkscape kan välja andra objekt som liknar det objekt som för närvarande är "
+"markerat. Om du till exempel vill markera alla de blå rutorna nedan markerar "
+"du först en av de blå rutorna och använder sedan "
+"<menuchoice><guimenu>Redigera</guimenu><guisubmenu>Välj samma</"
+"guisubmenu><guimenuitem>Fyll färg</guimenuitem></menuchoice> från "
+"menyn<mousebutton role=\"right-click\">(högerklicka</mousebutton> på "
+"målarduken). Alla objekt med samma blå fyllnadsfärg är nu markerade."
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:644
+msgid ""
+"In addition to selecting by fill color, you can select multiple similar "
+"objects by stroke color, stroke style, fill &amp; stroke, and object type. "
+"If these are not enough choices for your use case, try using the "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Find/Replace</guimenuitem></"
+"menuchoice> dialog."
+msgstr ""
+"Förutom att välja efter fyllningsfärg kan du välja flera liknande objekt "
+"efter slagfärg, slagstil, fyllning och slag samt objekttyp. Om dessa val "
+"inte är tillräckliga för ditt användningsfall kan du prova att använda "
+"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Sök/ersätt</"
+"guimenuitem></menuchoice> dialogrutan."
+
+#. (itstool) path: sect1/title
+#: tutorial-basic.xml:651
+msgid "Conclusion"
+msgstr "Slutsats"
+
+#. (itstool) path: sect1/para
+#: tutorial-basic.xml:652
+msgid ""
+"This concludes the Basic tutorial. There's much more than that to Inkscape, "
+"but with the techniques described here, you will already be able to create "
+"simple yet useful graphics. To learn more, we recommend going through the "
+"“Inkscape: Advanced” tutorial and the other tutorials in "
+"<menuchoice><guimenu>Help</guimenu><guimenuitem>Tutorials</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Detta avslutar den grundläggande handledningen. Inkscape är mycket mer än "
+"så, men med de tekniker som beskrivs här kommer du redan att kunna skapa "
+"enkel men användbar grafik. För att lära dig mer rekommenderar vi att du går "
+"igenom \"Inkscape: Advanced\" och de andra handledningarna i "
+"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Handledning</guimenuitem></"
+"menuchoice>."
+
+#. (itstool) path: Work/format
+#: basic-f01.svg:48 basic-f02.svg:48 basic-f03.svg:48 basic-f04.svg:48
+#: basic-f05.svg:48 basic-f06.svg:48 basic-f07.svg:48 basic-f08.svg:48
+#: basic-f09.svg:48 basic-f10.svg:48 basic-f11.svg:232 basic-f12.svg:48
+#: basic-f13.svg:216 basic-f14.svg:48 basic-f15.svg:50 basic-f16.svg:48
+msgid "image/svg+xml"
+msgstr "image/svg+xml"

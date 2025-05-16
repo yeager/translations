@@ -1,0 +1,719 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inkscape tutorial calligraphy Swedish\n"
+"POT-Creation-Date: 2023-07-14 16:46+0200\n"
+"PO-Revision-Date: 2025-05-13 12:34+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: sv\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Daniel Nylander"
+
+#. (itstool) path: articleinfo/title
+#: tutorial-calligraphy.xml:6
+msgid "Calligraphy"
+msgstr "Kalligrafi"
+
+#. (itstool) path: articleinfo/subtitle
+#: tutorial-calligraphy.xml:7
+msgid "Tutorial"
+msgstr "Handledning"
+
+#. (itstool) path: abstract/para
+#: tutorial-calligraphy.xml:11
+msgid ""
+"One of the many great tools available in Inkscape is the Calligraphy tool. This tutorial will help you become "
+"acquainted with how that tool works, as well as demonstrate some basic techniques of the art of Calligraphy."
+msgstr ""
+"Ett av de många fantastiska verktyg som finns i Inkscape är kalligrafiverktyget. Denna handledning hjälper dig att "
+"bekanta dig med hur det verktyget fungerar, samt demonstrera några grundläggande tekniker för kalligrafi."
+
+#. (itstool) path: abstract/para
+#: tutorial-calligraphy.xml:15
+msgid ""
+"Use <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>arrows</keycap></keycombo>, <mousebutton role=\"mouse-"
+"wheel\">mouse wheel</mousebutton>, or <mousebutton role=\"middle-button-drag\">middle button drag</mousebutton> to "
+"scroll the page down. For basics of object creation, selection, and transformation, see the Basic tutorial in "
+"<menuchoice><guimenu>Help</guimenu><guimenuitem>Tutorials</guimenuitem></menuchoice>."
+msgstr ""
+"Använda <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>pilar</keycap></keycombo>, <mousebutton "
+"role=\"mouse-wheel\">mushjulet</mousebutton> eller <mousebutton role=\"middle-button-drag\">dra med mittknappen</"
+"mousebutton> för att rulla sidan nedåt. Grunderna för att skapa, välja och omvandla objekt finns i handledningen "
+"Grundläggande i <menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Självstudier</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:23
+msgid "History and Styles"
+msgstr "Historia och stilar"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:24
+msgid ""
+"Going by the dictionary definition, <firstterm>calligraphy</firstterm> means “beautiful writing” or “fair or elegant "
+"penmanship”. Essentially, calligraphy is the art of making beautiful or elegant handwriting. It may sound "
+"intimidating, but with a little practice, anyone can master the basics of this art."
+msgstr ""
+"Enligt ordboksdefinitionen betyder <firstterm>kalligrafi</firstterm> \"vacker skrift\" eller \"rättvis eller elegant "
+"handstil\". I huvudsak är kalligrafi konsten att göra vacker eller elegant handskrift. Det kan låta skrämmande, men "
+"med lite övning kan vem som helst behärska grunderna i denna konst."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:29
+msgid ""
+"Up until roughly 1440 AD, before the printing press was around, calligraphy was the way books and other publications "
+"were made. A scribe had to handwrite every individual copy of every book or publication. Perhaps the most common "
+"place where the average person will run across calligraphy today is in the realm of motivating handlettering wall "
+"art, though."
+msgstr ""
+"Fram till cirka 1440 e.Kr., innan tryckpressen fanns, var kalligrafi det sätt på vilket böcker och andra "
+"publikationer gjordes. En skriftlärd var tvungen att handskriva varje enskild kopia av varje bok eller publikation. "
+"Den kanske vanligaste platsen där den genomsnittliga personen kommer att stöta på kalligrafi idag är dock inom "
+"motiverande handskriftsväggkonst."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:35
+msgid "There are three main styles of calligraphy:"
+msgstr "Det finns tre huvudsakliga stilar av kalligrafi:"
+
+#. (itstool) path: listitem/para
+#: tutorial-calligraphy.xml:40
+msgid ""
+"Western or Roman: The preserved texts are mainly written with a quill and ink onto materials such as parchment or "
+"vellum."
+msgstr ""
+"Västerländsk eller romersk: De bevarade texterna är huvudsakligen skrivna med fjäderpenna och bläck på material som "
+"pergament eller pergament."
+
+#. (itstool) path: listitem/para
+#: tutorial-calligraphy.xml:46
+msgid ""
+"Arabic, including other languages in Arabic script, executed with a reed pen and ink on paper. (This style has "
+"produced by far the largest bulk of preserved texts before 1440.)"
+msgstr ""
+"Arabiska, inklusive andra språk med arabiska bokstäver, skrivna med bladpenna och bläck på papper. (Denna stil har "
+"gett upphov till den överlägset största delen av de bevarade texterna före 1440)"
+
+#. (itstool) path: listitem/para
+#: tutorial-calligraphy.xml:52
+msgid "Chinese or Oriental, executed with a brush."
+msgstr "Kinesisk eller orientalisk, utförd med pensel."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:57
+msgid ""
+"The three styles have influenced each other on different occasions. Western lettering styles used throughout the ages "
+"include Rustic, Carolingian, Blackletter, etc."
+msgstr ""
+"De tre stilarna har påverkat varandra vid olika tillfällen. Västerländska bokstavsstilar som använts genom tiderna "
+"inkluderar Rustic, Carolingian, Blackletter, etc."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:61
+msgid ""
+"Today, one great advantage that we have over the scribes of the past is the <guimenuitem>Undo</guimenuitem> command: "
+"If you make a mistake, the entire page is not ruined. Inkscape's Calligraphy tool also enables some techniques which "
+"would not be possible with a traditional pen-and-ink."
+msgstr ""
+"En stor fördel som vi har idag jämfört med forna tiders skribenter är kommandot <guimenuitem>Ångra</guimenuitem>: Om "
+"du gör ett misstag är inte hela sidan förstörd. Inkscapes kalligrafiverktyg möjliggör också vissa tekniker som inte "
+"skulle vara möjliga med en traditionell penna och bläck."
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:68
+msgid "Hardware"
+msgstr "Hårdvara"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:69
+msgid ""
+"You will get the best results if you use a <firstterm>tablet and pen</firstterm>. Thanks to the flexibility of our "
+"tool, even those with only a mouse can do some fairly intricate calligraphy, though there will be some difficulty "
+"producing fast sweeping strokes."
+msgstr ""
+"Du får bäst resultat om du använder en <firstterm>surfplatta och penna</firstterm>. Tack vare flexibiliteten i vårt "
+"verktyg kan även de med bara en mus göra några ganska invecklade kalligrafi, även om det kommer att finnas vissa "
+"svårigheter att producera snabba svepande slag."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:74
+msgid ""
+"Inkscape is able to utilize <firstterm>pressure sensitivity</firstterm> and <firstterm> tilt sensitivity</firstterm> "
+"of a tablet pen that supports these features. The sensitivity functions are disabled by default because they require "
+"configuration. Also, keep in mind that calligraphy with a quill or pen with nib are also not very sensitive to "
+"pressure, unlike a brush."
+msgstr ""
+"Inkscape kan utnyttja <firstterm>tryckkänsligheten</firstterm> och <firstterm> lutningskänsligheten</firstterm> hos "
+"en surfplattspenna som stöder dessa funktioner. Känslighetsfunktionerna är inaktiverade som standard eftersom de "
+"kräver konfiguration. Tänk också på att kalligrafi med en fjäderpenna eller penna med spets inte heller är särskilt "
+"känslig för tryck, till skillnad från en pensel."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:80
+msgid ""
+"If you have a tablet and would like to utilize the sensitivity features, you will need to configure your device. This "
+"configuration will only need to be performed once and the settings are saved. To enable this support you must have "
+"the tablet plugged in prior to starting Inkscape and then proceed to open the <guimenuitem>Input Devices...</"
+"guimenuitem> dialog through the <guimenu>Edit</guimenu> menu. With this dialog open you can choose the preferred "
+"device and settings for your tablet pen. Lastly, after choosing those settings, switch to the Calligraphy tool and "
+"toggle the toolbar buttons for pressure and tilt. From now on, Inkscape will remember those settings on startup."
+msgstr ""
+"Om du har en surfplatta och vill använda känslighetsfunktionerna måste du konfigurera din enhet. Denna konfiguration "
+"behöver bara utföras en gång och inställningarna sparas. För att aktivera detta stöd måste du ha surfplattan ansluten "
+"innan du startar Inkscape och sedan öppna dialogrutan <guimenuitem>Inmatningsenheter</guimenuitem>... via menyn "
+"<guimenu>Redigera</guimenu>. När den här dialogrutan är öppen kan du välja önskad enhet och inställningar för din "
+"surfplattspenna. Slutligen, när du har valt dessa inställningar, växlar du till kalligrafiverktyget och växlar "
+"verktygsfältets knappar för tryck och lutning. Från och med nu kommer Inkscape att komma ihåg dessa inställningar vid "
+"uppstart."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:89
+msgid ""
+"The Inkscape calligraphy pen can be sensitive to the <firstterm>velocity</firstterm> of the stroke (see “Thinning” "
+"below), so if you are using a mouse, you'll probably want to zero this parameter."
+msgstr ""
+"Kalligrafipennan i Inkscape kan vara känslig för <firstterm>hastigheten</firstterm> på strecket (se \"Förtunning\" "
+"nedan), så om du använder en mus vill du förmodligen nollställa den här parametern."
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:95
+msgid "Calligraphy Tool Options"
+msgstr "Alternativ för kalligrafiverktyg"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:96
+msgid ""
+"Switch to the Calligraphy tool by pressing <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>F6</keycap></"
+"keycombo>, pressing the <keycap>C</keycap> key, or by clicking on its toolbar button. On the top toolbar, you will "
+"notice there are 8 options: <guilabel>Width</guilabel>, <guilabel>Thinning</guilabel>, <guilabel>Mass</guilabel>, "
+"<guilabel>Angle</guilabel>, <guilabel>Fixation</guilabel>, <guilabel>Caps</guilabel>, <guilabel>Tremor</guilabel> and "
+"<guilabel>Wiggle</guilabel>. There are also two buttons to toggle tablet Pressure and Tilt sensitivity on and off "
+"(for drawing tablets), as well as a dropdown menu with a few presets to select from, and the option to save your own "
+"presets."
+msgstr ""
+"Byt till kalligrafiverktyget genom att trycka på <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>F6</"
+"keycap></keycombo>, trycka på <keycap>C-tangenten</keycap> eller genom att klicka på knappen i verktygsfältet. I det "
+"övre verktygsfältet ser du att det finns 8 alternativ: <guilabel>Bredd</guilabel>, <guilabel>Förtunning</guilabel>, "
+"<guilabel>Massa</guilabel>, <guilabel>Vinkel</guilabel>, <guilabel>Fixering</guilabel>, <guilabel>Lock</guilabel>, "
+"<guilabel>Skakning</guilabel> och <guilabel>Vickning</guilabel>. Det finns också två knappar för att slå på och av "
+"känsligheten för tablettens tryck och lutning (för ritplattor), samt en rullgardinsmeny med några förinställningar "
+"att välja mellan och möjlighet att spara egna förinställningar."
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:108
+msgid "Width &amp; Thinning"
+msgstr "Bredd &amp; Utglesning"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:109
+msgid ""
+"This pair of options control the <firstterm>width</firstterm> of your pen. The width can vary from 1 to 100 and (by "
+"default) is measured in units relative to the size of your editing window, but independent of zoom (symbolized as %). "
+"This makes sense, because the natural “unit of measure” in calligraphy is the range of your hand's movement, and it "
+"is therefore convenient to have the width of your pen nib in constant ratio to the size of your “drawing board” and "
+"not in some real units which would make it depend on zoom. This behavior is optional though, so it can be changed for "
+"those who would prefer absolute units regardless of zoom. To switch the unit, simply use the unit selector after the "
+"<guilabel>Unit</guilabel> field."
+msgstr ""
+"Detta par av alternativ styr pennans <firstterm>bredd</firstterm>. Bredden kan variera från 1 till 100 och mäts (som "
+"standard) i enheter i förhållande till storleken på redigeringsfönstret, men oberoende av zoom (symboliserat som %). "
+"Detta är logiskt eftersom den naturliga \"måttenheten\" i kalligrafi är handens rörelseområde, och det är därför "
+"praktiskt att ha bredden på pennspetsen i konstant förhållande till storleken på \"ritbordet\" och inte i några "
+"verkliga enheter som skulle göra den beroende av zoom. Det här beteendet är dock valfritt, så det kan ändras för dem "
+"som föredrar absoluta enheter oavsett zoom. För att byta enhet använder du helt enkelt enhetsväljaren efter fältet "
+"<guilabel>Unit</guilabel>."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:118
+msgid ""
+"Since pen width is changed often, you can adjust it without going to the toolbar, using the <keycap>left</keycap> and "
+"<keycap>right</keycap> arrow keys or with a tablet that supports the pressure sensitivity function. The best thing "
+"about these keys is that they work while you are drawing, so you can change the width of your pen gradually in the "
+"middle of the stroke:"
+msgstr ""
+"Eftersom pennbredden ändras ofta kan du justera den utan att gå till verktygsfältet, med hjälp av <keycap>vänster-</"
+"keycap> och <keycap>högerpiltangenterna</keycap> eller med en surfplatta som stöder funktionen för tryckkänslighet. "
+"Det bästa med dessa tangenter är att de fungerar medan du ritar, så att du kan ändra pennans bredd gradvis mitt i "
+"strecket:"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:131
+msgid ""
+"Pen width may also depend on the velocity, as controlled by the <firstterm>thinning</firstterm> parameter. This "
+"parameter can take values from -100 to 100; zero means the width is independent of velocity, positive values make "
+"faster strokes thinner, negative values make faster strokes broader. The default of 10 means moderate thinning of "
+"fast strokes. Here are a few examples, all drawn with width=20 and angle=90:"
+msgstr ""
+"Pennans bredd kan också bero på hastigheten, vilket styrs av parametern <firstterm>thinning</firstterm>. Denna "
+"parameter kan anta värden från -100 till 100; noll betyder att bredden är oberoende av hastigheten, positiva värden "
+"gör snabbare streck tunnare, negativa värden gör snabbare streck bredare. Standardvärdet 10 innebär att snabba streck "
+"tunnas ut måttligt. Här är några exempel, alla ritade med width=20 och angle=90:"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:144
+msgid ""
+"For fun, set Width and Thinning both to 100 (maximum) and draw with jerky movements to get strangely naturalistic, "
+"neuron-like shapes:"
+msgstr ""
+"För skojs skull kan du ställa in Width och Thinning på 100 (max) och rita med ryckiga rörelser för att få konstigt "
+"naturalistiska, neuronliknande former:"
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:157
+msgid "Angle &amp; Fixation"
+msgstr "Vinkel &amp; Fixering"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:158
+msgid ""
+"After width, <firstterm>angle</firstterm> is the most important calligraphy parameter. It is the angle of your pen in "
+"degrees, changing from 0 (horizontal) to 90 (vertical counterclockwise) or to -90 (vertical clockwise). Note that if "
+"you turn tilt sensitivity on for a tablet, the angle parameter is greyed out and the angle is determined by the tilt "
+"of the pen."
+msgstr ""
+"Efter bredd är <firstterm>vinkel</firstterm> den viktigaste kalligrafiparametern. Det är pennans vinkel i grader, som "
+"ändras från 0 (horisontellt) till 90 (vertikalt moturs) eller till -90 (vertikalt medurs). Observera att om du "
+"aktiverar lutningskänslighet för en surfplatta är vinkelparametern gråtonad och vinkeln bestäms av pennans lutning."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:171
+msgid ""
+"Each traditional calligraphy style has its own prevalent pen angle. For example, the Uncial hand uses the angle of 25 "
+"degrees. More complex hands and more experienced calligraphers will often vary the angle while drawing, and Inkscape "
+"makes this possible by pressing <keycap>up</keycap> and <keycap>down</keycap> arrow keys or with a tablet that "
+"supports the tilt sensitivity feature. For beginning calligraphy lessons, however, keeping the angle constant will "
+"work best. Here are examples of strokes drawn at different angles (fixation = 100):"
+msgstr ""
+"Varje traditionell kalligrafistil har sin egen förhärskande pennvinkel. Till exempel använder Uncial-handen vinkeln "
+"på 25 grader. Mer komplexa händer och mer erfarna kalligrafer varierar ofta vinkeln medan de ritar, och Inkscape gör "
+"det möjligt genom att trycka på pilknapparna <keycap>upp</keycap> och <keycap>ner</keycap> eller med en surfplatta "
+"som stöder lutningskänslighetsfunktionen. För början av kalligrafilektioner fungerar det dock bäst att hålla vinkeln "
+"konstant. Här är exempel på streck som ritats i olika vinklar (fixering = 100):"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:185
+msgid ""
+"As you can see, the stroke is at its thinnest when it is drawn parallel to its angle, and at its broadest when drawn "
+"perpendicular. Positive angles are the most natural and traditional for right-handed calligraphy."
+msgstr ""
+"Som du kan se är stroke som tunnast när den dras parallellt med sin vinkel och som bredast när den dras vinkelrätt. "
+"Positiva vinklar är de mest naturliga och traditionella för högerhänt kalligrafi."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:189
+msgid ""
+"The level of contrast between the thinnest and the thickest is controlled by the <firstterm>fixation</firstterm> "
+"parameter. The value of 100 means that the angle is always constant, as set in the Angle field. Decreasing fixation "
+"lets the pen turn a little against the direction of the stroke. With fixation=0, pen rotates freely to be always "
+"perpendicular to the stroke, and Angle has no effect anymore:"
+msgstr ""
+"Kontrastnivån mellan det tunnaste och det tjockaste styrs av <firstterm>fixeringsparametern</firstterm>. Värdet 100 "
+"innebär att vinkeln alltid är konstant, enligt inställningen i fältet Angle. Om fixeringen minskas kan pennan vridas "
+"lite i motsatt riktning mot strecket. Med fixering=0 roterar pennan fritt så att den alltid är vinkelrät mot strecket "
+"och Angle har ingen effekt längre:"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:202
+msgid ""
+"Typographically speaking, maximum fixation and therefore maximum stroke width contrast (above left) are the features "
+"of antique serif typefaces, such as Times or Bodoni (because these typefaces were historically an imitation of fixed-"
+"pen calligraphy). Zero fixation and zero width contrast (above right), on the other hand, suggest modern sans serif "
+"typefaces such as Helvetica."
+msgstr ""
+"Typografiskt sett är maximal fixering och därmed maximal slagbreddskontrast (ovan till vänster) kännetecknande för "
+"antika serif-typsnitt som Times eller Bodoni (eftersom dessa typsnitt historiskt sett var en imitation av kalligrafi "
+"med fast penna). Noll fixering och noll breddkontrast (ovan till höger) tyder å andra sidan på moderna sans serif-"
+"skrifttyper som Helvetica."
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:210
+msgid "Tremor"
+msgstr "Tremor"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:211
+msgid ""
+"<firstterm>Tremor</firstterm> is intended to give a more natural look to the calligraphy strokes. Tremor is "
+"adjustable in the Controls bar with values ranging from 0 to 100. It will affect your strokes producing anything from "
+"slight unevenness to wild blotches and splotches. This significantly expands the creative range of the tool."
+msgstr ""
+"<firstterm>Tremor</firstterm> är avsedd att ge ett mer naturligt utseende till kalligrafins streck. Tremor är "
+"justerbar i kontrollfältet med värden som sträcker sig från 0 till 100. Det kommer att påverka dina streck som "
+"producerar allt från små ojämnheter till vilda fläckar och fläckar. Detta utökar verktygets kreativa räckvidd "
+"avsevärt."
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:226
+msgid "Wiggle &amp; Mass"
+msgstr "Wiggle &amp; Mass"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:227
+msgid ""
+"Unlike width and angle, these two last parameters define how the tool “feels” rather than affect its visual output. "
+"So there won't be any illustrations in this section; instead just try them yourself to get a better idea."
+msgstr ""
+"Till skillnad från bredd och vinkel definierar dessa två sista parametrar hur verktyget \"känns\" snarare än att "
+"påverka dess visuella resultat. Därför kommer det inte att finnas några illustrationer i det här avsnittet, utan det "
+"är bara att prova dem själv för att få en bättre uppfattning."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:232
+msgid ""
+"<firstterm>Wiggle</firstterm> is the resistance of the paper to the movement of the pen. The default is at minimum "
+"(0), and increasing this parameter makes paper “slippery”: if the mass is big, the pen tends to run away on sharp "
+"turns; if the mass is zero, high wiggle makes the pen to wiggle wildly."
+msgstr ""
+"<firstterm>Wiggle</firstterm> är papperets motstånd mot pennans rörelse. Standardvärdet är minimalt (0) och en ökning "
+"av denna parameter gör papperet \"halt\": om massan är stor tenderar pennan att springa iväg i skarpa svängar; om "
+"massan är noll gör en hög wiggle att pennan vickar vilt."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:237
+msgid ""
+"In physics, <firstterm>mass</firstterm> is what causes inertia; the higher the mass of the Inkscape calligraphy tool, "
+"the more it lags behind your mouse pointer and the more it smoothes out sharp turns and quick jerks in your stroke. "
+"By default this value is quite small (2) so that the tool is fast and responsive, but you can increase mass to get "
+"slower and smoother pen."
+msgstr ""
+"Inom fysiken är det <firstterm>massan</firstterm> som orsakar tröghet; ju högre massa Inkscape kalligrafiverktyg har, "
+"desto mer släpar det efter muspekaren och desto mer jämnar det ut skarpa svängar och snabba ryck i din stroke. Som "
+"standard är detta värde ganska litet (2) så att verktyget är snabbt och lyhört, men du kan öka massan för att få en "
+"långsammare och mjukare penna."
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:245
+msgid "Calligraphy examples"
+msgstr "Exempel på kalligrafi"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:246
+msgid ""
+"Now that you know the basic capabilities of the tool, you can try to produce some real calligraphy. If you are new to "
+"this art, get yourself a good calligraphy book and study it with Inkscape. This section will show you just a few "
+"simple examples."
+msgstr ""
+"Nu när du känner till de grundläggande funktionerna i verktyget kan du försöka producera lite riktig kalligrafi. Om "
+"du är nybörjare i denna konst, skaffa dig en bra kalligrafibok och studera den med Inkscape. I det här avsnittet "
+"visas bara några enkla exempel."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:251
+msgid ""
+"First of all, to do letters, you need to create a pair of rulers to guide you. If you're going to write in a slanted "
+"or cursive hand, add some slanted guides across the two rulers as well, for example:"
+msgstr ""
+"Först och främst måste du skapa ett par linjaler för att vägleda dig när du skriver bokstäver. Om du ska skriva med "
+"snedställd eller kursiv hand, lägg till exempel till några snedställda guider över de två linjalerna också:"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:262
+msgid ""
+"Then zoom in so that the height between the rulers corresponds to your most natural hand movement range, adjust width "
+"and angle, and off you go!"
+msgstr ""
+"Zooma sedan in så att höjden mellan linjalerna motsvarar ditt mest naturliga handrörelseområde, justera bredd och "
+"vinkel och kör igång!"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:266
+msgid ""
+"Probably the first thing you would do as a beginner calligrapher is practice the basic elements of letters — vertical "
+"and horizontal stems, round strokes, slanted stems. Here are some letter elements for the Uncial hand:"
+msgstr ""
+"Det första man gör som nybörjarkalligraf är förmodligen att öva på de grundläggande elementen i bokstäver - vertikala "
+"och horisontella stammar, runda streck, snedställda stammar. Här är några bokstavselement för den unciala handen:"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:278
+msgid "Several useful tips:"
+msgstr "Flera användbara tips:"
+
+#. (itstool) path: listitem/para
+#: tutorial-calligraphy.xml:283
+msgid ""
+"If your hand is comfortable on the tablet, don't move it. Instead, scroll the canvas (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>arrow</keycap></keycombo> keys) with your left hand after finishing each "
+"letter."
+msgstr ""
+"Om din hand ligger bekvämt på surfplattan ska du inte flytta den. Skrolla istället på skärmen (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>pil</keycap></keycombo> tangenter) med vänster hand efter varje bokstav."
+
+#. (itstool) path: listitem/para
+#: tutorial-calligraphy.xml:290
+msgid ""
+"If your last stroke is bad, just undo it (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>Z</keycap></"
+"keycombo>). However, if its shape is good but the position or size are slightly off, it's better to switch to "
+"Selector temporarily (<keycap>Space</keycap>) and nudge/scale/rotate it as needed (using <mousebutton>mouse</"
+"mousebutton> or keys), then press <keycap>Space</keycap> again to return to Calligraphy tool."
+msgstr ""
+"Om ditt sista drag är dåligt, ångra det bara (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>Z</keycap></"
+"keycombo>). Men om formen är bra men positionen eller storleken är något fel, är det bättre att byta till Selector "
+"tillfälligt<keycap>(Space)</keycap> och knuffa / skala / rotera den efter behov (med <mousebutton>mus</mousebutton> "
+"eller tangenter), tryck sedan på <keycap>Space</keycap> igen för att återgå till kalligrafiverktyget."
+
+#. (itstool) path: listitem/para
+#: tutorial-calligraphy.xml:299
+msgid ""
+"Having done a word, switch to Selector again to adjust stem uniformity and letterspacing. Don't overdo this, however; "
+"good calligraphy must retain somewhat irregular handwritten look. Resist the temptation to copy over letters and "
+"letter elements; each stroke must be original."
+msgstr ""
+"När du har gjort ett ord, växla till Selector igen för att justera stamens enhetlighet och bokstavsavståndet. "
+"Överdriv dock inte detta; bra kalligrafi måste behålla något oregelbundet handskrivet utseende. Motstå frestelsen att "
+"kopiera över bokstäver och bokstavselement; varje stroke måste vara original."
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:306
+msgid "And here are some complete lettering examples:"
+msgstr "Och här är några exempel på kompletta bokstäver:"
+
+#. (itstool) path: sect1/title
+#: tutorial-calligraphy.xml:318
+msgid "Conclusion"
+msgstr "Slutsats"
+
+#. (itstool) path: sect1/para
+#: tutorial-calligraphy.xml:319
+msgid ""
+"Calligraphy is not only fun; it's a deeply spiritual art that may transform your outlook on everything you do and "
+"see. Inkscape's calligraphy tool can only serve as a modest introduction. And yet it is very nice to play with and "
+"may be useful in real design. Enjoy!"
+msgstr ""
+"Kalligrafi är inte bara roligt; det är en djupt andlig konst som kan förändra din syn på allt du gör och ser. "
+"Inkscapes kalligrafiverktyg kan bara fungera som en blygsam introduktion. Ändå är det väldigt trevligt att leka med "
+"och kan vara användbart i verklig design. Njut av det!"
+
+#. (itstool) path: Work/format
+#: calligraphy-f01.svg:48 calligraphy-f02.svg:48 calligraphy-f03.svg:48 calligraphy-f04.svg:80 calligraphy-f05.svg:48
+#: calligraphy-f06.svg:64 calligraphy-f07.svg:49 calligraphy-f08.svg:48 calligraphy-f09.svg:48 calligraphy-f10.svg:48
+msgid "image/svg+xml"
+msgstr "image/svg+xml"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f01.svg:69
+#, no-wrap
+msgid "width=1, growing....                       reaching 47, decreasing...                                  back to 0"
+msgstr "width=1, växande.... når 47, minskande... tillbaka till 0"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f02.svg:69
+#, no-wrap
+msgid "thinning = 0 (uniform width) "
+msgstr "gallring = 0 (jämn bredd) "
+
+#. (itstool) path: text/tspan
+#: calligraphy-f02.svg:80
+#, no-wrap
+msgid "thinning = 10"
+msgstr "gallring = 10"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f02.svg:91
+#, no-wrap
+msgid "thinning = 40"
+msgstr "gallring = 40"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f02.svg:102
+#, no-wrap
+msgid "thinning = −20"
+msgstr "gallring = -20"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f02.svg:113
+#, no-wrap
+msgid "thinning = −60"
+msgstr "gallring = -60"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f04.svg:120
+#, no-wrap
+msgid "angle = 90 deg"
+msgstr "vinkel = 90 grader"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f04.svg:131
+#, no-wrap
+msgid "angle = 30 (default)"
+msgstr "vinkel = 30 (standard)"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f04.svg:142 calligraphy-f05.svg:102
+#, no-wrap
+msgid "angle = 0"
+msgstr "vinkel = 0"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f04.svg:153
+#, no-wrap
+msgid "angle = −90 deg"
+msgstr "vinkel = -90 grader"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f05.svg:69 calligraphy-f06.svg:85 calligraphy-f06.svg:101 calligraphy-f06.svg:117
+#, no-wrap
+msgid "angle = 30"
+msgstr "vinkel = 30"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f05.svg:80
+#, no-wrap
+msgid "angle = 60"
+msgstr "vinkel = 60"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f05.svg:91
+#, no-wrap
+msgid "angle = 90"
+msgstr "vinkel = 90"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f05.svg:113
+#, no-wrap
+msgid "angle = 15"
+msgstr "vinkel = 15"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f05.svg:124
+#, no-wrap
+msgid "angle = −45"
+msgstr "vinkel = -45"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f06.svg:90
+#, no-wrap
+msgid "fixation = 100"
+msgstr "fixering = 100"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f06.svg:106
+#, no-wrap
+msgid "fixation = 80"
+msgstr "fixering = 80"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f06.svg:122
+#, no-wrap
+msgid "fixation = 0"
+msgstr "fixering = 0"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:73
+#, no-wrap
+msgid "slow"
+msgstr "långsam"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:84
+#, no-wrap
+msgid "medium"
+msgstr "medel"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:95
+#, no-wrap
+msgid "fast"
+msgstr "snabb"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:179
+#, no-wrap
+msgid "tremor = 0"
+msgstr "skakning = 0"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:190
+#, no-wrap
+msgid "tremor = 10"
+msgstr "skakning = 10"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:201
+#, no-wrap
+msgid "tremor = 30"
+msgstr "skakning = 30"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:212
+#, no-wrap
+msgid "tremor = 50"
+msgstr "skakning = 50"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:223
+#, no-wrap
+msgid "tremor = 70"
+msgstr "skakning = 70"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:234
+#, no-wrap
+msgid "tremor = 90"
+msgstr "skakning = 90"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:245
+#, no-wrap
+msgid "tremor = 20"
+msgstr "skakning = 20"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:256
+#, no-wrap
+msgid "tremor = 40"
+msgstr "skakning = 40"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:267
+#, no-wrap
+msgid "tremor = 60"
+msgstr "skakning = 60"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:278
+#, no-wrap
+msgid "tremor = 80"
+msgstr "skakning = 80"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f07.svg:289
+#, no-wrap
+msgid "tremor = 100"
+msgstr "skakning = 100"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f10.svg:117
+#, no-wrap
+msgid "Uncial hand"
+msgstr "Uncial hand"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f10.svg:128
+#, no-wrap
+msgid "Carolingian hand"
+msgstr "Karolingisk hand"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f10.svg:139
+#, no-wrap
+msgid "Gothic hand"
+msgstr "Gotisk hand"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f10.svg:150
+#, no-wrap
+msgid "Bâtarde hand"
+msgstr "Bâtarde hand"
+
+#. (itstool) path: text/tspan
+#: calligraphy-f10.svg:175
+#, no-wrap
+msgid "Flourished Italic hand"
+msgstr "Flourished Italic hand"

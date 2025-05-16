@@ -1,0 +1,1495 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inkscape tutorial shapes Swedish\n"
+"POT-Creation-Date: 2023-07-14 16:46+0200\n"
+"PO-Revision-Date: 2025-05-13 12:49+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: sv\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Daniel Nylander"
+
+#. (itstool) path: articleinfo/title
+#: tutorial-shapes.xml:6
+msgid "Shapes"
+msgstr "Former"
+
+#. (itstool) path: articleinfo/subtitle
+#: tutorial-shapes.xml:7
+msgid "Tutorial"
+msgstr "Handledning"
+
+#. (itstool) path: abstract/para
+#: tutorial-shapes.xml:11
+msgid ""
+"This tutorial covers the four shape tools: Rectangle, Ellipse, Star, and "
+"Spiral. We will demonstrate the capabilities of Inkscape shapes and show "
+"examples of how and when they could be used."
+msgstr ""
+"Denna handledning omfattar de fyra formverktygen: Rektangel, Ellips, Stjärna "
+"och Spiral. Vi kommer att demonstrera möjligheterna med Inkscape-former och "
+"visa exempel på hur och när de kan användas."
+
+#. (itstool) path: abstract/para
+#: tutorial-shapes.xml:15
+msgid ""
+"Use <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>Arrows</"
+"keycap></keycombo>, <mousebutton role=\"mouse-wheel\">mousewheel</"
+"mousebutton>, or <mousebutton role=\"middle-button-drag\">middle button "
+"drag</mousebutton> to scroll the page down. For basics of object creation, "
+"selection, and transformation, see the Basic tutorial in "
+"<menuchoice><guimenu>Help</guimenu><guimenuitem>Tutorials</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Använda <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>Pilar</"
+"keycap></keycombo>, <mousebutton role=\"mouse-wheel\">mushjulet</"
+"mousebutton> eller <mousebutton role=\"middle-button-drag\">dra med "
+"mittknappen</mousebutton> för att rulla ner sidan. För grunderna i skapande, "
+"val och omvandling av objekt, se handledningen Grundläggande i "
+"<menuchoice><guimenu>Hjälp</guimenu><guimenuitem>Handledning</guimenuitem></"
+"menuchoice>."
+
+#. (itstool) path: article/para
+#: tutorial-shapes.xml:22
+msgid ""
+"Inkscape has four versatile <firstterm>shape tools</firstterm>, each tool "
+"capable of creating and editing its own type of shapes. A shape is an object "
+"which you can modify in ways unique to this shape type, using draggable "
+"<firstterm>handles</firstterm> and numeric <firstterm>parameters</firstterm> "
+"that determine the shape's appearance."
+msgstr ""
+"Inkscape har fyra mångsidiga <firstterm>formverktyg</firstterm>, där varje "
+"verktyg kan skapa och redigera sin egen typ av former. En form är ett objekt "
+"som du kan modifiera på ett sätt som är unikt för denna formtyp, med hjälp "
+"av dragbara <firstterm>handtag</firstterm> och numeriska "
+"<firstterm>parametrar</firstterm> som bestämmer formens utseende."
+
+#. (itstool) path: article/para
+#: tutorial-shapes.xml:28
+msgid ""
+"For example, with a star you can alter the number of tips, their length, "
+"angle, rounding, etc. — but a star remains a star. A shape is “less free” "
+"than a simple path, but it's often more interesting and useful. You can "
+"always convert a shape to a path (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap function=\"shift\">Shift</"
+"keycap><keycap>C</keycap></keycombo>), but the reverse conversion is not "
+"possible."
+msgstr ""
+"Med en stjärna kan du t.ex. ändra antalet spetsar, deras längd, vinkel, "
+"avrundning etc. - men en stjärna förblir en stjärna. En form är \"mindre "
+"fri\" än en enkel slinga, men den är ofta mer intressant och användbar. Du kan "
+"alltid konvertera en form till en slinga (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap function=\"shift\">Skift</"
+"keycap><keycap>C</keycap></keycombo>), men den omvända konverteringen är "
+"inte möjlig."
+
+#. (itstool) path: article/para
+#: tutorial-shapes.xml:35
+msgid ""
+"The shape tools are <firstterm>Rectangle</firstterm>, <firstterm>Ellipse</"
+"firstterm>, <firstterm>Star</firstterm>, and <firstterm>Spiral</firstterm>. "
+"First, let's look at how shape tools work in general; then we'll explore "
+"each shape type in detail."
+msgstr ""
+"Formverktygen är <firstterm>Rektangel</firstterm>, <firstterm>Ellips</"
+"firstterm>, <firstterm>Stjärna</firstterm> och <firstterm>Spiral</"
+"firstterm>. Låt oss först titta på hur formverktygen fungerar i allmänhet; "
+"sedan går vi igenom varje formtyp i detalj."
+
+#. (itstool) path: sect1/title
+#: tutorial-shapes.xml:41
+msgid "General tips"
+msgstr "Allmänna tips"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:42
+msgid ""
+"A new shape is created by <mousebutton role=\"mouse-drag\">drag</"
+"mousebutton>ging on canvas with the corresponding tool. Once the shape is "
+"created (and so long as it is selected), it displays its handles as white "
+"diamond, square or round marks (depending on the tools), so you can "
+"immediately edit what you created by dragging these handles."
+msgstr ""
+"En ny form skapas genom att <mousebutton role=\"mouse-drag\">dra</"
+"mousebutton>den på duken med motsvarande verktyg. När formen har skapats "
+"(och så länge den är markerad) visas dess handtag som vita diamant-, "
+"fyrkantiga eller runda markeringar (beroende på verktyg), så att du "
+"omedelbart kan redigera det du har skapat genom att dra i dessa handtag."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:48
+msgid ""
+"All four kinds of shapes display their handles in all four shape tools as "
+"well as in the Node tool (<keycap>N</keycap>). When you hover your "
+"<mousebutton>mouse</mousebutton> over a handle, it tells you in the "
+"statusbar what this handle will do when dragged or clicked with different "
+"modifiers."
+msgstr ""
+"Alla fyra typer av former visar sina handtag i alla fyra formverktygen samt "
+"i Node-verktyget<keycap>(N).</keycap> När du håller <mousebutton>muspekaren</"
+"mousebutton> över ett handtag visas i statusfältet vad handtaget gör när du "
+"drar det eller klickar på det med olika modifierare."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:53
+msgid ""
+"Also, each shape tool displays its parameters in the <firstterm>Tool "
+"Controls bar</firstterm> (which runs horizontally above the canvas). Usually "
+"it has a few numeric entry fields and a button to reset the values to "
+"defaults. When shape(s) of the current tool's native type are selected, "
+"editing the values in the Controls bar changes the selected shape(s)."
+msgstr ""
+"Varje formverktyg visar också sina parametrar i <firstterm>Tool Controls-"
+"fältet</firstterm> (som löper horisontellt ovanför målarduken). Vanligtvis "
+"har den några numeriska inmatningsfält och en knapp för att återställa "
+"värdena till standardvärdena. När en eller flera former av det aktuella "
+"verktygets typ väljs ändras den eller de valda formerna genom att värdena i "
+"kontrollfältet redigeras."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:59
+msgid ""
+"Any changes made to the Tool Controls are remembered and used for the next "
+"object you draw with that tool. For example, after you change the number of "
+"tips of a star, new stars will have this number of tips as well when drawn. "
+"Moreover, even simply selecting a shape sends its parameters to the Tool "
+"Controls bar and thus sets the values for newly created shapes of this type."
+msgstr ""
+"Alla ändringar som görs i verktygskontrollerna sparas och används för nästa "
+"objekt som du ritar med det aktuella verktyget. Om du t.ex. ändrar antalet "
+"spetsar på en stjärna kommer nya stjärnor att ha samma antal spetsar när de "
+"ritas. Om du bara väljer en form skickas dessutom dess parametrar till Tool "
+"Controls-fältet och därmed fastställs värdena för nya former av samma typ."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:65
+msgid ""
+"When in a shape tool, selecting an object can be done by <mousebutton "
+"role=\"click\">click</mousebutton>ing on it. <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><mousebutton role=\"click\">click</"
+"mousebutton></keycombo> (select in group) and <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"click\">click</"
+"mousebutton></keycombo> (select under) also work as they do in Selector "
+"tool. <keycap>Esc</keycap> deselects."
+msgstr ""
+"När du använder ett formverktyg kan du välja ett objekt genom att "
+"<mousebutton role=\"click\">klicka</mousebutton>på det. <keycombo><keycap "
+"function=\"control\">Ctrl</keycap><mousebutton role=\"click\">klicka</"
+"mousebutton></keycombo> (välj i grupp) och <keycombo><keycap "
+"function=\"alt\">Alt</keycap><mousebutton role=\"click\">klicka</"
+"mousebutton></keycombo> (markera under) fungerar också som de gör i Selector-"
+"verktyget. <keycap>Esc</keycap> avmarkerar."
+
+#. (itstool) path: sect1/title
+#: tutorial-shapes.xml:74
+msgid "Rectangles"
+msgstr "Rektanglar"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:75
+msgid ""
+"A <firstterm>rectangle</firstterm> is the simplest but perhaps the most "
+"common shape in design and illustration. Inkscape attempts to make creating "
+"and editing rectangles as easy and convenient as possible."
+msgstr ""
+"En <firstterm>rektangel</firstterm> är den enklaste men kanske också den "
+"vanligaste formen inom design och illustration. Inkscape försöker göra det "
+"så enkelt och bekvämt som möjligt att skapa och redigera rektanglar."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:79
+msgid ""
+"Switch to the Rectangle tool by pressing <keycap>R</keycap> or by clicking "
+"its toolbar button. Draw a new rectangle alongside this blue one:"
+msgstr ""
+"Byt till verktyget Rektangel genom att trycka på <keycap>R</keycap> eller "
+"genom att klicka på dess knapp i verktygsfältet. Rita en ny rektangel vid "
+"sidan av den blå:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:90
+msgid ""
+"Then, without leaving the Rectangle tool, switch selection from one "
+"rectangle to the other by clicking on them."
+msgstr ""
+"Utan att lämna rektangelverktyget byter du sedan urval från den ena "
+"rektangeln till den andra genom att klicka på dem."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:93
+msgid "Rectangle drawing shortcuts:"
+msgstr "Kortkommandon för att rita en rektangel:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:98
+msgid ""
+"With <keycap function=\"control\">Ctrl</keycap>, draw a square or an integer-"
+"ratio (2:1, 3:1, etc) rectangle."
+msgstr ""
+"Med <keycap function=\"control\">Ctrl</keycap> ritar du en kvadrat eller en "
+"rektangel med heltalsförhållande (2:1, 3:1 osv.)."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:103 tutorial-shapes.xml:291
+msgid ""
+"With <keycap function=\"shift\">Shift</keycap>, draw around the starting "
+"point as center."
+msgstr ""
+"Med <keycap function=\"shift\">Shift</keycap> ritar du runt startpunkten som "
+"centrum."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:108
+msgid ""
+"As you see, the selected rectangle (the just-drawn rectangle is always "
+"selected) shows three adjustable handles in three of its corners and one "
+"cross-shaped handle, for moving the rectangle, in the middle. In fact, there "
+"are four corner handles, but two of them (in the top right corner) overlap "
+"if the rectangle is not rounded. These two are the <firstterm>rounding "
+"handles</firstterm>; the other two (top left and bottom right) are "
+"<firstterm>resize handles</firstterm>."
+msgstr ""
+"Som du ser har den markerade rektangeln (den nyss ritade rektangeln är "
+"alltid markerad) tre justerbara handtag i tre av hörnen och ett korsformat "
+"handtag för att flytta rektangeln i mitten. I själva verket finns det fyra "
+"hörnhandtag, men två av dem (i det övre högra hörnet) överlappar varandra om "
+"rektangeln inte är rundad. Dessa två är <firstterm>avrundningshandtagen</"
+"firstterm>; de andra två (uppe till vänster och nere till höger) är "
+"<firstterm>storleksändringshandtag</firstterm>."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:115
+msgid ""
+"Let's look at the rounding handles first. Grab one of them and drag down. "
+"All four corners of the rectangle become rounded, and you can now see the "
+"second rounding handle — it stays in the original position in the corner. If "
+"you want circular rounded corners, that is all you need to do. If you want "
+"corners which are rounded farther along one side than along the other, you "
+"can move that other handle leftwards."
+msgstr ""
+"Låt oss titta på avrundningshandtagen först. Ta tag i ett av dem och dra "
+"nedåt. Alla rektangelns fyra hörn blir rundade och du kan nu se det andra "
+"rundningshandtaget - det ligger kvar på sin ursprungliga plats i hörnet. Om "
+"du vill ha cirkulärt rundade hörn är det allt du behöver göra. Om du vill ha "
+"hörn som är rundade längre ut på ena sidan än på den andra, kan du flytta "
+"det andra handtaget åt vänster."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:121
+msgid ""
+"Here, the first two rectangles have circular rounded corners, and the other "
+"two have elliptic rounded corners:"
+msgstr ""
+"Här har de två första rektanglarna cirkulärt rundade hörn och de två andra "
+"har elliptiskt rundade hörn:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:131
+msgid ""
+"Still in the Rectangle tool, click on these rectangles to select, and "
+"observe their rounding handles."
+msgstr ""
+"Klicka på dessa rektanglar för att markera dem, fortfarande med verktyget "
+"Rektangel, och observera deras rundande handtag."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:134
+msgid ""
+"Often, the radius and shape of the rounded corners must be constant within "
+"the entire composition, even if the sizes of the rectangles are different "
+"(think diagrams with rounded boxes of various sizes). Inkscape makes this "
+"easy. Switch to the Selector tool; in its Tool Controls bar, there's a group "
+"of four toggle buttons, the second from the left showing two concentric "
+"rounded corners. This is how you control whether the rounded corners are "
+"scaled when the rectangle is scaled or not."
+msgstr ""
+"Ofta måste de rundade hörnens radie och form vara konstant i hela "
+"kompositionen, även om rektanglarna är olika stora (tänk diagram med rundade "
+"lådor i olika storlekar). Inkscape gör detta enkelt. Byt till Selector-"
+"verktyget; i dess Tool Controls-fält finns det en grupp med fyra "
+"växlingsknappar, varav den andra från vänster visar två koncentriska rundade "
+"hörn. Det är så här du kontrollerar om de rundade hörnen skalas när "
+"rektangeln skalas eller inte."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:141
+msgid ""
+"For example, here the original red rectangle is duplicated and scaled "
+"several times, up and down, to different proportions, with the "
+"“<guibutton>Scale rounded corners</guibutton>” button <emphasis>off</"
+"emphasis>:"
+msgstr ""
+"Här har t.ex. den röda originalrektangeln duplicerats och skalats flera "
+"gånger, upp och ner, till olika proportioner, med knappen \"<guibutton>Skala "
+"rundade hörn</guibutton>\" <emphasis>avstängd</emphasis>:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:152
+msgid ""
+"Note how the size and shape of the rounded corners is the same in all "
+"rectangles, so that the roundings align exactly in the top right corner "
+"where they all meet. All the dotted blue rectangles are obtained from the "
+"original red rectangle just by scaling in Selector, without any manual "
+"readjustment of the rounding handles."
+msgstr ""
+"Notera hur storleken och formen på de rundade hörnen är densamma i alla "
+"rektanglar, så att rundningarna ligger exakt i linje i det övre högra hörnet "
+"där de möts. Alla de streckade blå rektanglarna har skapats från den "
+"ursprungliga röda rektangeln genom skalning i Selector, utan någon manuell "
+"justering av avrundningshandtagen."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:157
+msgid ""
+"For a comparison, here is the same composition but now created with the "
+"“<guibutton>Scale rounded corners</guibutton>” button <emphasis>on</"
+"emphasis>:"
+msgstr ""
+"Som jämförelse visas här samma komposition, men nu skapad med knappen "
+"\"<guibutton>Scale rounded corners</guibutton>\" <emphasis>aktiverad</"
+"emphasis>:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:168
+msgid ""
+"Now the rounded corners are as different as the rectangles they belong to, "
+"and there isn't a slightest agreement in the top right corner (zoom in to "
+"see). This is the same (visible) result as you would get by converting the "
+"original rectangle to a path (<keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap function=\"shift\">Shift</keycap><keycap>C</keycap></"
+"keycombo>) and scaling it as path."
+msgstr ""
+"Nu är de rundade hörnen lika olika som de rektanglar de tillhör, och det "
+"finns inte den minsta överensstämmelse i det övre högra hörnet (zooma in för "
+"att se). Detta är samma (synliga) resultat som du skulle få om du "
+"konverterade den ursprungliga rektangeln till en slinga (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap function=\"shift\">Skifta</"
+"keycap><keycap>C</keycap></keycombo>) och skalar den som en slinga."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:175
+msgid "Here are the shortcuts for the rounding handles of a rectangle:"
+msgstr "Här är kortkommandona för avrundning av en rektangel:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:180
+msgid ""
+"<mousebutton role=\"mouse-drag\">Drag</mousebutton> with <keycap "
+"function=\"control\">Ctrl</keycap> to make the other radius the same "
+"(circular rounding)."
+msgstr ""
+"<mousebutton role=\"mouse-drag\">Dra</mousebutton> med <keycap "
+"function=\"control\">Ctrl</keycap> för att göra den andra radien densamma "
+"(cirkulär avrundning)."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:186
+msgid ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to make the other radius the "
+"same without dragging."
+msgstr ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att göra den andra radien "
+"densamma utan att dra."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:192
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to remove rounding."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att ta bort avrundningen."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:198
+msgid ""
+"You may have noticed that the Rectangle tool's Controls bar shows the "
+"horizontal (<firstterm>Rx</firstterm>) and vertical (<firstterm>Ry</"
+"firstterm>) rounding radii for the selected rectangle and lets you set them "
+"precisely using any length units. The <guimenuitem>Make corners sharp</"
+"guimenuitem> button does what is says — removes rounding from the selected "
+"rectangle(s)."
+msgstr ""
+"Du kanske har lagt märke till att kontrollfältet i verktyget Rektangel visar "
+"de horisontella<firstterm>(Rx)</firstterm> och vertikala<firstterm>(Ry)</"
+"firstterm> avrundningsradierna för den markerade rektangeln och låter dig "
+"ställa in dem exakt med valfria längdenheter. Knappen <guimenuitem>Gör "
+"hörnen skarpa</guimenuitem> gör vad den säger - tar bort avrundningen från "
+"den eller de markerade rektanglarna."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:204
+msgid ""
+"An important advantage of these controls is that they can affect many "
+"rectangles at once. For example, if you want to change all rectangles in the "
+"layer, just do <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap>A</keycap></keycombo> (<guimenuitem>Select All</guimenuitem>) "
+"and set the parameters you need in the Controls bar. If any non-rectangles "
+"are selected, they will be ignored — only rectangles will be changed."
+msgstr ""
+"En viktig fördel med dessa kontroller är att de kan påverka många rektanglar "
+"på en gång. Om du till exempel vill ändra alla rektanglar i lagret, gör du "
+"bara <keycombo><keycap function=\"control\">Ctrl</keycap><keycap>A</keycap></"
+"keycombo> (Markera<guimenuitem>alla)</guimenuitem> och ställa in de "
+"parametrar du behöver i kontrollfältet. Om några icke-rektanglar väljs "
+"kommer de att ignoreras - endast rektanglar kommer att ändras."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:211
+msgid ""
+"Now let's look at the resize handles of a rectangle. You might wonder, why "
+"do we need them at all, if we can just as well resize the rectangle with "
+"Selector?"
+msgstr ""
+"Låt oss nu titta på handtagen för storleksändring av en rektangel. Du kanske "
+"undrar, varför behöver vi dem överhuvudtaget, om vi lika gärna kan ändra "
+"storlek på rektangeln med Selector?"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:215
+msgid ""
+"The problem with Selector is that its notion of horizontal and vertical is "
+"always that of the document page. By contrast, a rectangle's resize handles "
+"scale it <emphasis>along that rectangle's sides</emphasis>, even if the "
+"rectangle is rotated or skewed. For example, try to resize this rectangle "
+"first with Selector and then with its resize handles in Rectangle tool:"
+msgstr ""
+"Problemet med Selector är att dess uppfattning om horisontal och vertikal "
+"alltid är den som gäller för dokumentsidan. Däremot skalar en rektangels "
+"storlekshandtag den <emphasis>längs rektangelns sidor</emphasis>, även om "
+"rektangeln är roterad eller skev. Försök till exempel att ändra storlek på "
+"den här rektangeln först med Selector och sedan med dess "
+"storleksändringshandtag i verktyget Rektangel:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:228
+msgid ""
+"Since the resize handles are two, you can resize the rectangle into any "
+"direction or even move it along its sides. Resize handles always preserve "
+"the rounding radii."
+msgstr ""
+"Eftersom handtagen för storleksändring är två kan du ändra storlek på "
+"rektangeln i valfri riktning eller till och med flytta den längs sidorna. "
+"Storleksändringshandtagen bevarar alltid avrundningsradierna."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:232
+msgid "Here are the shortcuts for the resize handles:"
+msgstr "Här är genvägarna till handtagen för storleksändring:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:237
+msgid ""
+"<mousebutton role=\"mouse-drag\">Drag</mousebutton> with <keycap "
+"function=\"control\">Ctrl</keycap> to snap to the sides or the diagonal of "
+"the rectangle. In other words, <keycap function=\"control\">Ctrl</keycap> "
+"preserves either width, or height, or the width/height ratio of the "
+"rectangle (again, in its own coordinate system which may be rotated or "
+"skewed)."
+msgstr ""
+"<mousebutton role=\"mouse-drag\">Dra</mousebutton> med <keycap "
+"function=\"control\">Ctrl</keycap> för att fästa vid rektangelns sidor eller "
+"diagonal. Med andra ord bevarar <keycap function=\"control\">Ctrl</keycap> "
+"antingen bredden eller höjden eller förhållandet mellan bredd och höjd i "
+"rektangeln (återigen i dess eget koordinatsystem som kan vara roterat eller "
+"skevt)."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:245
+msgid ""
+"Here is the same rectangle, with the gray dotted lines showing the "
+"directions to which the resize handles stick when dragged with <keycap "
+"function=\"control\">Ctrl</keycap> (try it):"
+msgstr ""
+"Här är samma rektangel, med de grå streckade linjerna som visar i vilken "
+"riktning handtagen för storleksändring sitter fast när du drar dem med "
+"<keycap function=\"control\">Ctrl</keycap> (prova):"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:256
+msgid ""
+"By slanting and rotating a rectangle, then duplicating it and resizing with "
+"its resize handles, 3D compositions can be created easily:"
+msgstr ""
+"Genom att vinkla och rotera en rektangel, sedan duplicera den och ändra "
+"storlek med dess storlekshandtag kan 3D-kompositioner skapas på ett enkelt "
+"sätt:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:267
+msgid ""
+"Here are some more examples of rectangle compositions, including rounding "
+"and gradient fills:"
+msgstr ""
+"Här är några fler exempel på rektangelkompositioner, inklusive avrundning "
+"och gradientfyllningar:"
+
+#. (itstool) path: sect1/title
+#: tutorial-shapes.xml:279
+msgid "Ellipses"
+msgstr "Ellipser"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:280
+msgid ""
+"The Ellipse tool (<keycap>E</keycap>) can create ellipses and circles, which "
+"you can turn into segments or arcs. The drawing shortcuts are the same as "
+"those of the rectangle tool:"
+msgstr ""
+"Med ellipsverktyget<keycap>(E)</keycap> kan du skapa ellipser och cirklar, "
+"som du kan omvandla till segment eller bågar. Ritningsgenvägarna är desamma "
+"som för rektangelverktyget:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:286
+msgid ""
+"With <keycap function=\"control\">Ctrl</keycap>, draw a circle or an integer-"
+"ratio (2:1, 3:1, etc.) ellipse."
+msgstr ""
+"Med <keycap function=\"control\">Ctrl</keycap> ritar du en cirkel eller en "
+"ellips med heltalsförhållande (2:1, 3:1, etc.)."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:296
+msgid "Let's explore the handles of an ellipse. Select this one:"
+msgstr "Låt oss utforska handtagen på en ellips. Välj den här:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:306
+msgid ""
+"Once again, you see three adjustable corner handles initially, but in fact "
+"they are four. The rightmost handle is two overlapping handles that let you "
+"“open” the ellipse. <mousebutton role=\"mouse-drag\">Drag</mousebutton> that "
+"rightmost handle, then drag the other handle which becomes visible under it, "
+"to get a variety of pie-chart segments or arcs:"
+msgstr ""
+"Återigen ser du först tre justerbara hörnhandtag, men i själva verket är de "
+"fyra. Handtaget längst till höger är två överlappande handtag som gör att du "
+"kan \"öppna\" ellipsen. <mousebutton role=\"mouse-drag\">Dra</mousebutton> i "
+"det högra handtaget och dra sedan i det andra handtaget som blir synligt "
+"under det för att få en mängd olika cirkeldiagramsegment eller bågar:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:319
+msgid ""
+"To get a <firstterm>segment</firstterm> (an arc plus two radii), drag "
+"<emphasis>outside</emphasis> the ellipse; to get an <firstterm>arc</"
+"firstterm>, drag <emphasis>inside</emphasis> it. Above, there are 4 segments "
+"on the left and 3 arcs on the right. Note that arcs are unclosed shapes, "
+"i.e. the stroke only goes along the ellipse but does not connect the ends of "
+"the arc. You can make this obvious if you remove the fill, leaving only "
+"stroke:"
+msgstr ""
+"För att få ett <firstterm>segment</firstterm> (en båge plus två radier) drar "
+"du <emphasis>utanför</emphasis> ellipsen; för att få en <firstterm>båge</"
+"firstterm> drar du <emphasis>inuti</emphasis> den. Ovan finns det 4 segment "
+"till vänster och 3 bågar till höger. Observera att bågar inte är slutna "
+"former, dvs. strecket går bara längs ellipsen men förbinder inte bågens "
+"ändar. Du kan göra detta uppenbart om du tar bort fyllningen och bara lämnar "
+"stroke:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:332
+msgid ""
+"Arcs can be closed by a straight line using the button labeled "
+"<guimenuitem>Switch to chord (closed shape)</guimenuitem>, though."
+msgstr ""
+"Bågar kan dock slutas med en rak linje med hjälp av knappen "
+"<guimenuitem>Switch to chord (closed shape).</guimenuitem>."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:336
+msgid ""
+"Note the fan-like group of narrow segments on the left. It was easy to "
+"create using <firstterm>angle snapping</firstterm> of the handle with "
+"<keycap function=\"control\">Ctrl</keycap>. Here are the arc/segment handle "
+"shortcuts:"
+msgstr ""
+"Lägg märke till den solfjäderliknande gruppen av smala segment till vänster. "
+"Den var lätt att skapa med hjälp av <firstterm>vinkelinställning</firstterm> "
+"av handtaget med <keycap function=\"control\">Ctrl.</keycap> Här är "
+"kortkommandona för båge/segmenthandtag:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:343
+msgid ""
+"With <keycap function=\"control\">Ctrl</keycap>, snap the handle every 15 "
+"degrees when dragging."
+msgstr ""
+"Med <keycap function=\"control\">Ctrl</keycap> snäpper du handtaget var 15:e "
+"grad när du drar."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:348
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to make the ellipse whole (not "
+"arc or segment)."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att göra ellipsen hel "
+"(inte båge eller segment)."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:354
+msgid ""
+"The snap angle can be changed in Inkscape Preferences (in "
+"<menuchoice><guimenu>Behavior</guimenu><guimenuitem>Steps</guimenuitem></"
+"menuchoice>)."
+msgstr ""
+"Snäppvinkeln kan ändras i Inkscape-inställningarna (i "
+"<menuchoice><guimenu>Beteende</guimenu><guimenuitem>Steg</guimenuitem></"
+"menuchoice>)."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:358
+msgid ""
+"The other two handles of the ellipse are used for resizing it around its "
+"center. Their shortcuts are similar to those of the rounding handles of a "
+"rectangle:"
+msgstr ""
+"De andra två handtagen på ellipsen används för att ändra storlek runt dess "
+"mittpunkt. Deras genvägar liknar dem för avrundningshandtagen för en "
+"rektangel:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:364
+msgid ""
+"<mousebutton role=\"mouse-drag\">Drag</mousebutton> with <keycap "
+"function=\"control\">Ctrl</keycap> to make a circle (make the other radius "
+"the same)."
+msgstr ""
+"<mousebutton role=\"mouse-drag\">Dra</mousebutton> med <keycap "
+"function=\"control\">Ctrl</keycap> för att skapa en cirkel (gör den andra "
+"radien densamma)."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:370
+msgid ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to make a circle without "
+"dragging."
+msgstr ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att skapa en cirkel utan "
+"att dra."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:376
+msgid ""
+"And, like the rectangle resize handles, these ellipse handles adjust the "
+"height and width of the ellipse in <emphasis>the ellipse's own coordinates</"
+"emphasis>. This means that a rotated or skewed ellipse can easily be "
+"stretched or squeezed along its original axes while remaining rotated or "
+"skewed. Try to resize any of these ellipses by their resize handles:"
+msgstr ""
+"Och precis som rektangelns storleksändringshandtag justerar dessa "
+"ellipshandtag ellipsens höjd och bredd i ellipsens <emphasis>egna "
+"koordinater</emphasis>. Det innebär att en roterad eller skev ellips lätt "
+"kan sträckas ut eller pressas ihop längs sina ursprungliga axlar samtidigt "
+"som den förblir roterad eller skev. Försök att ändra storlek på någon av "
+"dessa ellipser med hjälp av deras storlekshandtag:"
+
+#. (itstool) path: sect1/title
+#: tutorial-shapes.xml:391
+msgid "Stars"
+msgstr "Stjärnor"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:392
+msgid ""
+"Stars are the most complex and the most exciting Inkscape shape. If you want "
+"to wow your friends by Inkscape, let them play with the Star tool. It's "
+"endlessly entertaining — outright addictive!"
+msgstr ""
+"Stjärnor är den mest komplexa och den mest spännande formen i Inkscape. Om "
+"du vill imponera på dina vänner med Inkscape ska du låta dem leka med "
+"verktyget Star. Det är oändligt underhållande - rent av beroendeframkallande!"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:396
+msgid ""
+"The Star tool can create two similar but distinct kinds of objects: stars "
+"and polygons. A star has two handles whose positions define the length and "
+"shape of its tips; a polygon has just one handle which simply rotates and "
+"resizes the polygon when dragged:"
+msgstr ""
+"Med verktyget Star kan du skapa två liknande men olika typer av objekt: "
+"stjärnor och polygoner. En stjärna har två handtag vars positioner "
+"definierar längden och formen på dess spetsar; en polygon har bara ett "
+"handtag som helt enkelt roterar och ändrar polygonens storlek när den dras:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:408
+msgid ""
+"In the Controls bar of the Star tool, the first two buttons control how the "
+"shape is drawn (regular polygon or star). Next, a numeric field sets the "
+"<firstterm>number of vertices</firstterm> of a star or polygon. This "
+"parameter is only editable via the Controls bar. The allowed range is from 3 "
+"(polygons) or 2 (stars) to 1024."
+msgstr ""
+"I kontrollfältet för verktyget Star styr de två första knapparna hur formen "
+"ritas (vanlig polygon eller stjärna). Därefter finns ett numeriskt fält som "
+"anger <firstterm>antalet hörn</firstterm> i en stjärna eller polygon. Denna "
+"parameter kan endast redigeras via kontrollfältet. Det tillåtna intervallet "
+"är från 3 (polygoner) eller 2 (stjärnor) till 1024."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:413
+msgid "When drawing a new star or polygon,"
+msgstr "När du ritar en ny stjärna eller polygon,"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:418
+msgid ""
+"<mousebutton role=\"mouse-drag\">Drag</mousebutton> with <keycap "
+"function=\"control\">Ctrl</keycap> to snap the angle to 15 degree increments."
+msgstr ""
+"<mousebutton role=\"mouse-drag\">Dra</mousebutton> med <keycap "
+"function=\"control\">Ctrl</keycap> för att fästa vinkeln i steg om 15 grader."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:424
+msgid ""
+"Naturally, a star is a much more interesting shape (though polygons are "
+"often more useful in practice). The two handles of a star have slightly "
+"different functions. The first handle (initially it is on a vertex, i.e. on "
+"a <emphasis>convex</emphasis> corner of the star) makes the star rays longer "
+"or shorter, but when you rotate it (relative to the center of the shape), "
+"the other handle rotates accordingly. This means you cannot skew the star's "
+"rays with this handle."
+msgstr ""
+"En stjärna är naturligtvis en mycket mer intressant form (även om polygoner "
+"ofta är mer användbara i praktiken). De två handtagen på en stjärna har lite "
+"olika funktioner. Det första handtaget (som från början sitter på en vertex, "
+"dvs. på ett <emphasis>konvext</emphasis> hörn av stjärnan) gör stjärnans "
+"strålar längre eller kortare, men när du roterar det (i förhållande till "
+"formens mittpunkt) roterar det andra handtaget i motsvarande grad. Det "
+"innebär att du inte kan snedställa stjärnans strålar med detta handtag."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:431
+msgid ""
+"The other handle (initially in a <emphasis>concave</emphasis> corner between "
+"two vertices) is, conversely, free to move both radially and tangentially, "
+"without affecting the vertex handle. (In fact, this handle can itself become "
+"vertex by moving farther from the center than the other handle.) This is the "
+"handle that can skew the star's tips to get all sorts of crystals, mandalas, "
+"snowflakes, and porcupines:"
+msgstr ""
+"Det andra handtaget (från början i ett <emphasis>konkavt</emphasis> hörn "
+"mellan två toppar) kan däremot röra sig fritt både radiellt och tangentiellt "
+"utan att påverka topphandtaget. (Faktum är att detta handtag självt kan bli "
+"ett vertex genom att det flyttas längre från centrum än det andra handtaget) "
+"Det är detta handtag som kan snedställa stjärnans spetsar så att man får "
+"alla möjliga kristaller, mandalas, snöflingor och piggsvin:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:444
+msgid ""
+"If you want just a plain regular star without any such lacework, you can "
+"make the skewing handle behave as the non-skewing one:"
+msgstr ""
+"Om du bara vill ha en vanlig stjärna utan något sådant spetsarbete kan du få "
+"det skeva handtaget att bete sig som det icke skeva:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:450
+msgid ""
+"<mousebutton role=\"mouse-drag\">Drag</mousebutton> with <keycap "
+"function=\"control\">Ctrl</keycap> to keep the star rays strictly radial (no "
+"skew)."
+msgstr ""
+"<mousebutton role=\"mouse-drag\">Dra</mousebutton> med <keycap "
+"function=\"control\">Ctrl</keycap> för att hålla stjärnstrålarna strikt "
+"radiella (ingen skevhet)."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:456
+msgid ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to remove the skew without "
+"dragging."
+msgstr ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att ta bort skevheten "
+"utan att dra."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:462
+msgid ""
+"As a useful complement for the on-canvas handle dragging, the Controls bar "
+"has the <guimenuitem>Spoke ratio</guimenuitem> field which defines the ratio "
+"of the two handles' distances to the center."
+msgstr ""
+"Som ett användbart komplement till handtagsdragningen på skärmen har "
+"kontrollfältet fältet <guimenuitem>Spoke ratio</guimenuitem> som definierar "
+"förhållandet mellan de två handtagens avstånd till mitten."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:466
+msgid ""
+"Inkscape stars have two more tricks in their bag. In geometry, a polygon is "
+"a shape with straight line edges and sharp corners. In the real world, "
+"however, various degrees of curvilinearity and roundedness are normally "
+"present — and Inkscape can do that too. Rounding a star or polygon works a "
+"bit differently from rounding a rectangle, however. You don't use a "
+"dedicated handle for this, but"
+msgstr ""
+"Inkscape-stjärnorna har ytterligare två trick i sin väska. Inom geometrin är "
+"en polygon en form med raka kanter och skarpa hörn. I den verkliga världen "
+"förekommer dock normalt olika grader av krökning och rundning - och det kan "
+"Inkscape också göra. Att avrunda en stjärna eller polygon fungerar dock lite "
+"annorlunda än att avrunda en rektangel. Du använder inte ett särskilt "
+"handtag för detta, men"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:474
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo> a handle tangentially to round the star "
+"or polygon."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Växla</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo> ett handtag tangentiellt för att runda "
+"stjärnan eller polygonen."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:480
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> a handle to remove rounding."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> på ett handtag för att ta "
+"bort avrundningen."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:486
+msgid ""
+"“Tangentially” means in a direction perpendicular to the direction to the "
+"center. If you “rotate” a handle with Shift counterclockwise around the "
+"center, you get positive roundedness; with clockwise rotation, you get "
+"negative roundedness. (See below for examples of negative roundedness.)"
+msgstr ""
+"\"Tangentiellt\" betyder i en riktning som är vinkelrät mot riktningen till "
+"centrum. Om du \"roterar\" ett handtag med Shift moturs runt centrum får du "
+"en positiv rundning; om du roterar medurs får du en negativ rundning. (Se "
+"nedan för exempel på negativ avrundning)"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:491
+msgid ""
+"Here's a comparison of a rounded square (Rectangle tool) with a rounded 4-"
+"sided polygon (Star tool):"
+msgstr ""
+"Här är en jämförelse mellan en rundad kvadrat (verktyget Rectangle) och en "
+"rundad 4-sidig polygon (verktyget Star):"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:501
+msgid ""
+"As you can see, while a rounded rectangle has straight line segments in its "
+"sides and circular (generally, elliptic) roundings, a rounded polygon or "
+"star has no straight lines at all; its curvature varies smoothly from the "
+"maximum (in the corners) to the minimum (mid-way between the corners). "
+"Inkscape does this simply by adding collinear Bezier tangents to each node "
+"of the shape (you can see them if you convert the shape to path and examine "
+"it in Node tool)."
+msgstr ""
+"Som du kan se har en rundad rektangel raka linjesegment i sidorna och "
+"cirkulära (i allmänhet elliptiska) rundningar, medan en rundad polygon eller "
+"stjärna inte har några raka linjer alls; dess krökning varierar jämnt från "
+"maximum (i hörnen) till minimum (mitt emellan hörnen). Inkscape gör detta "
+"helt enkelt genom att lägga till kollinjära Bezier-tangenter till varje nod "
+"i formen (du kan se dem om du konverterar formen till en slinga och undersöker "
+"den i Node-verktyget)."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:508
+msgid ""
+"The <guimenuitem>Rounded</guimenuitem> parameter which you can adjust in the "
+"Controls bar is the ratio of the length of these tangents to the length of "
+"the polygon/star sides to which they are adjacent. This parameter can be "
+"negative, which reverses the direction of tangents. The values of about 0.2 "
+"to 0.4 give “normal” rounding of the kind you would expect; other values "
+"tend to produce beautiful, intricate, and totally unpredictable patterns. A "
+"star with a large roundedness value may reach far beyond the positions of "
+"its handles. Here are a few examples, each indicating its roundedness value:"
+msgstr ""
+"Parametern <guimenuitem>Rounded</guimenuitem>, som du kan justera i "
+"kontrollfältet, är förhållandet mellan längden på dessa tangenter och "
+"längden på de polygon-/stjärnsidor som de angränsar till. Parametern kan "
+"vara negativ, vilket innebär att tangenternas riktning vänds. Värden på ca "
+"0,2 till 0,4 ger en \"normal\" rundning av det slag man kan förvänta sig. "
+"Andra värden tenderar att ge vackra, invecklade och helt oförutsägbara "
+"mönster. En stjärna med ett stort rundningsvärde kan sträcka sig långt "
+"utanför handtagens positioner. Här är några exempel, var och en med sitt "
+"avrundningsvärde:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:523
+msgid ""
+"If you want the tips of a star to be sharp but the concaves smooth or vice "
+"versa, this is easy to do by creating an <firstterm>offset</firstterm> "
+"(<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>J</keycap></"
+"keycombo>) from the star:"
+msgstr ""
+"Om du vill att spetsarna på en stjärna ska vara skarpa men konkaviteterna "
+"släta eller vice versa, är det enkelt att göra detta genom att skapa en "
+"<firstterm>förskjutning</firstterm> (<keycombo><keycap "
+"function=\"control\">Ctrl</keycap><keycap>J</keycap></keycombo>) från "
+"stjärnan:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:535
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo>ging star handles in Inkscape is one of "
+"the finest pursuits known to man. But it can get better still."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Växla</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo>att dra stjärnhandtag i Inkscape är en av "
+"de finaste sysslor som finns. Men det kan bli ännu bättre."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:539
+msgid ""
+"To closer imitate real world shapes, Inkscape can <firstterm>randomize</"
+"firstterm> (i.e. randomly distort) its stars and polygons. Slight "
+"randomization makes a star less regular, more humane, often funny; strong "
+"randomization is an exciting way to obtain a variety of crazily "
+"unpredictable shapes. A rounded star remains smoothly rounded when "
+"randomized. Here are the shortcuts:"
+msgstr ""
+"För att bättre efterlikna verkliga former kan Inkscape "
+"<firstterm>randomisera</firstterm> (dvs. slumpmässigt förvränga) sina "
+"stjärnor och polygoner. En lätt randomisering gör en stjärna mindre "
+"regelbunden, mer mänsklig och ofta rolig; en kraftig randomisering är ett "
+"spännande sätt att få en mängd olika galna oförutsägbara former. En rundad "
+"stjärna förblir jämnt rundad när den randomiseras. Här är genvägarna:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:547
+msgid ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo> a handle tangentially to randomize the "
+"star or polygon."
+msgstr ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo> ett handtag tangentiellt för att "
+"randomisera stjärnan eller polygonen."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:553
+msgid ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> a handle to remove "
+"randomization."
+msgstr ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> ett handtag för att ta bort "
+"randomiseringen."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:559
+msgid ""
+"As you draw or handle-drag-edit a randomized star, it will “tremble” because "
+"each unique position of its handles corresponds to its own unique "
+"randomization. So, moving a handle without Alt re-randomizes the shape at "
+"the same randomization level, while Alt-dragging it keeps the same "
+"randomization but adjusts its level. Here are stars whose parameters are "
+"exactly the same, but each one is re-randomized by very slightly moving its "
+"handle (randomization level is 0.1 throughout):"
+msgstr ""
+"När du ritar eller handtags-drag-redigerar en slumpmässig stjärna kommer den "
+"att \"skaka\" eftersom varje unik position för handtagen motsvarar sin egen "
+"unika slumpmässighet. Så om du flyttar ett handtag utan Alt slumpas formen "
+"om på samma slumpmässiga nivå, medan du genom att dra med Alt behåller samma "
+"slumpmässighet men justerar dess nivå. Här är stjärnor vars parametrar är "
+"exakt desamma, men var och en slumpas om genom att mycket lätt flytta sitt "
+"handtag (slumpningsnivån är 0,1 hela tiden):"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:573
+msgid ""
+"And here is the middle star from the previous row, with the randomization "
+"level varying from -0.2 to 0.2:"
+msgstr ""
+"Och här är den mellersta stjärnan från föregående rad, med "
+"randomiseringsnivån varierande från -0,2 till 0,2:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:583
+msgid ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo> a handle of the middle star in this row "
+"and observe as it morphs into its neighbors on the right and left — and "
+"beyond."
+msgstr ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo> ett handtag på den mittersta stjärnan i "
+"den här raden och se hur den förvandlas till sina grannar till höger och "
+"vänster - och vidare."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:588
+msgid ""
+"You will probably find your own applications for randomized stars, but I am "
+"especially fond of rounded amoeba-like blotches and large roughened planets "
+"with fantastic landscapes:"
+msgstr ""
+"Du kommer förmodligen att hitta dina egna applikationer för slumpmässiga "
+"stjärnor, men jag är särskilt förtjust i rundade amöbaliknande fläckar och "
+"stora ojämna planeter med fantastiska landskap:"
+
+#. (itstool) path: sect1/title
+#: tutorial-shapes.xml:601
+msgid "Spirals"
+msgstr "Spiraler"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:602
+msgid ""
+"Inkscape's spiral is a versatile shape, and though not as immersing as the "
+"star, it is sometimes very useful. A spiral, like a star, is drawn from the "
+"center; while drawing as well as while editing,"
+msgstr ""
+"Inkscapes spiral är en mångsidig form, och även om den inte är lika "
+"uppslukande som stjärnan är den ibland mycket användbar. En spiral, precis "
+"som en stjärna, ritas från mitten, både när man ritar och när man redigerar,"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:608
+msgid ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"mouse-drag\">drag</mousebutton></keycombo> to snap angle to 15 degree "
+"increments."
+msgstr ""
+"<keycombo><keycap function=\"control\">Ctrl</keycap><mousebutton "
+"role=\"mouse-drag\">dra</mousebutton></keycombo> för att ändra vinkeln i "
+"steg om 15 grader."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:614
+msgid ""
+"Once drawn, a spiral has two handles at its inner and outer ends. Both "
+"handles, when simply dragged, roll or unroll the spiral (i.e. “continue” it, "
+"changing the number of turns). Other shortcuts:"
+msgstr ""
+"När en spiral har ritats har den två handtag i den inre och yttre änden. När "
+"du drar i båda handtagen rullar eller rullar du ut spiralen (dvs. "
+"\"fortsätter\" den genom att ändra antalet varv). Andra genvägar:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:618
+msgid "Outer handle:"
+msgstr "Yttre handtag:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:623
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo> to scale/rotate around center (no "
+"rolling/unrolling)."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Växla</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo> för att skala/rotera runt mitten (ingen "
+"rullning/upprullning)."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:629
+msgid ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo> to lock radius while rolling/unrolling."
+msgstr ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo> för att låsa radien medan du rullar/"
+"rullar ut."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:635
+msgid "Inner handle:"
+msgstr "Inre handtag:"
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:640
+msgid ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo> vertically to converge/diverge."
+msgstr ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo> vertikalt för att konvergera/divergera."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:646
+msgid ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to reset divergence."
+msgstr ""
+"<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att återställa "
+"divergensen."
+
+#. (itstool) path: listitem/para
+#: tutorial-shapes.xml:652
+msgid ""
+"<keycombo><keycap function=\"shift\">Shift</keycap><mousebutton "
+"role=\"click\">click</mousebutton></keycombo> to move the inner handle to "
+"the center."
+msgstr ""
+"<keycombo><keycap function=\"shift\">Skift</keycap><mousebutton "
+"role=\"click\">klicka</mousebutton></keycombo> för att flytta det inre "
+"handtaget till mitten."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:658
+msgid ""
+"The <firstterm>divergence</firstterm> of a spiral is the measure of "
+"nonlinearity of its winds. When it is equal to 1, the spiral is uniform; "
+"when it is less than 1 (<keycombo><keycap function=\"alt\">Alt</"
+"keycap><mousebutton role=\"mouse-drag\">drag</mousebutton></keycombo> "
+"upwards), the spiral is denser on the periphery; when it is greater than 1 "
+"(<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">drag</mousebutton></keycombo> downwards), the spiral is denser "
+"towards the center:"
+msgstr ""
+"En spirals <firstterm>divergens</firstterm> är ett mått på hur olinjär dess "
+"vindar är. När den är lika med 1 är spiralen enhetlig; när den är mindre än "
+"1 (<keycombo><keycap function=\"alt\">Alt</keycap><mousebutton role=\"mouse-"
+"drag\">dra</mousebutton></keycombo> uppåt), är spiralen tätare i periferin; "
+"när den är större än 1 (<keycombo><keycap function=\"alt\">Alt</"
+"keycap><mousebutton role=\"mouse-drag\">dra</mousebutton></keycombo> nedåt) "
+"är spiralen tätare in mot mitten:"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:673
+msgid "The maximum number of spiral turns is 1024."
+msgstr "Det maximala antalet spiralvarv är 1024."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:676
+msgid ""
+"Just as the Ellipse tool is good not only for ellipses but also for arcs "
+"(lines of constant curvature), the Spiral tool is useful for making curves "
+"of <emphasis>smoothly varying</emphasis> curvature. Compared to a plain "
+"Bezier curve, an arc or a spiral is often more convenient because you can "
+"make it shorter or longer by dragging a handle along the curve without "
+"affecting its shape. Also, while a spiral is normally drawn without fill, "
+"you can add fill and remove stroke for interesting effects."
+msgstr ""
+"Precis som Ellipse-verktyget inte bara är bra för ellipser utan även för "
+"bågar (linjer med konstant krökning), är Spiral-verktyget användbart för att "
+"skapa kurvor med <emphasis>jämnt varierande</emphasis> krökning. Jämfört med "
+"en vanlig Bezier-kurva är en båge eller en spiral ofta mer praktisk eftersom "
+"du kan göra den kortare eller längre genom att dra ett handtag längs kurvan "
+"utan att dess form påverkas. Även om en spiral normalt ritas utan fyllning "
+"kan du lägga till fyllning och ta bort stroke för intressanta effekter."
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:690
+msgid ""
+"Especially interesting are spirals with dotted stroke — they combine the "
+"smooth concentration of the shape with regular equispaced marks (dots or "
+"dashes) for beautiful moire effects:"
+msgstr ""
+"Speciellt intressanta är spiraler med prickigt streck - de kombinerar den "
+"mjuka koncentrationen av formen med regelbundna liksidiga markeringar "
+"(prickar eller streck) för vackra moireeffekter:"
+
+#. (itstool) path: sect1/title
+#: tutorial-shapes.xml:703
+msgid "Conclusion"
+msgstr "Slutsats"
+
+#. (itstool) path: sect1/para
+#: tutorial-shapes.xml:704
+msgid ""
+"Inkscape's shape tools are very powerful. Learn their tricks and play with "
+"them at your leisure — this will pay off when you do your design work, "
+"because using shapes instead of simple paths often makes vector art faster "
+"to create and easier to modify. If you have any ideas for further shape "
+"improvements, please contact the developers."
+msgstr ""
+"Inkscapes formverktyg är mycket kraftfulla. Lär dig deras knep och lek med "
+"dem i lugn och ro - det kommer att löna sig när du gör ditt designarbete, "
+"eftersom användning av former istället för enkla banor ofta gör vektorgrafik "
+"snabbare att skapa och lättare att ändra. Om du har några idéer för "
+"ytterligare förbättringar av former, vänligen kontakta utvecklarna."
+
+#. (itstool) path: Work/format
+#: shapes-f01.svg:48 shapes-f02.svg:49 shapes-f03.svg:48 shapes-f04.svg:48
+#: shapes-f05.svg:48 shapes-f06.svg:49 shapes-f07.svg:49 shapes-f08.svg:695
+#: shapes-f09.svg:48 shapes-f10.svg:48 shapes-f11.svg:48 shapes-f12.svg:48
+#: shapes-f13.svg:49 shapes-f14.svg:48 shapes-f15.svg:49 shapes-f16.svg:48
+#: shapes-f17.svg:50 shapes-f18.svg:48 shapes-f19.svg:48 shapes-f20.svg:48
+#: shapes-f21.svg:48 shapes-f22.svg:48 shapes-f23.svg:48
+msgid "image/svg+xml"
+msgstr "image/svg+xml"
+
+#. (itstool) path: text/tspan
+#: shapes-f01.svg:69
+#, no-wrap
+msgid "draw here"
+msgstr "dra här"
+
+#. (itstool) path: text/tspan
+#: shapes-f02.svg:70
+#, no-wrap
+msgid "Elliptic rounded corners"
+msgstr "Elliptiska rundade hörn"
+
+#. (itstool) path: text/tspan
+#: shapes-f02.svg:81
+#, no-wrap
+msgid "Circular rounded corners"
+msgstr "Cirkulära rundade hörn"
+
+#. (itstool) path: text/tspan
+#: shapes-f03.svg:69 shapes-f04.svg:69
+#, no-wrap
+msgid "Scaling rounded rectangles "
+msgstr "Skalning av rundade rektanglar "
+
+#. (itstool) path: text/tspan
+#: shapes-f03.svg:74
+#, no-wrap
+msgid "with \"Scale rounded corners\" OFF"
+msgstr "med \"Skala rundade hörn\" AV"
+
+#. (itstool) path: text/tspan
+#: shapes-f04.svg:74
+#, no-wrap
+msgid "with \"Scale rounded corners\" ON"
+msgstr "med \"Skala avrundade hörn\" ON"
+
+#. (itstool) path: text/tspan
+#: shapes-f06.svg:110
+#, no-wrap
+msgid "Snapping of rectangle "
+msgstr "Snapping av rektangel "
+
+#. (itstool) path: text/tspan
+#: shapes-f06.svg:114
+#, no-wrap
+msgid "- resize handles with Ctrl"
+msgstr "- ändra storlek på handtagen med Ctrl"
+
+#. (itstool) path: text/tspan
+#: shapes-f07.svg:229
+#, no-wrap
+msgid "3 original rectangles"
+msgstr "3 originalrektanglar"
+
+#. (itstool) path: text/tspan
+#: shapes-f07.svg:239
+#, no-wrap
+msgid "Several rectangles copied and resized by handles"
+msgstr "Flera rektanglar kopierade och storleksändrade med handtag"
+
+#. (itstool) path: text/tspan
+#: shapes-f07.svg:243
+#, no-wrap
+msgid "(mostly with Ctrl)"
+msgstr "(mestadels med Ctrl)"
+
+#. (itstool) path: text/tspan
+#: shapes-f11.svg:101
+#, no-wrap
+msgid "15"
+msgstr "15"
+
+#. (itstool) path: text/tspan
+#: shapes-f11.svg:120
+#, no-wrap
+msgid "Segments"
+msgstr "Segment"
+
+#. (itstool) path: text/tspan
+#: shapes-f11.svg:131
+#, no-wrap
+msgid "Arcs"
+msgstr "Bågar"
+
+#. (itstool) path: text/tspan
+#: shapes-f13.svg:90
+#, no-wrap
+msgid "Star"
+msgstr "Stjärna"
+
+#. (itstool) path: text/tspan
+#: shapes-f13.svg:122
+#, no-wrap
+msgid "Polygon"
+msgstr "Polygon"
+
+#. (itstool) path: text/tspan
+#: shapes-f15.svg:89 shapes-f15.svg:117
+#, no-wrap
+msgid "Rounded"
+msgstr "Avrundad"
+
+#. (itstool) path: text/tspan
+#: shapes-f15.svg:93
+#, no-wrap
+msgid "polygon"
+msgstr "(Glide64) Faktor för polygonförskjutning"
+
+#. (itstool) path: text/tspan
+#: shapes-f15.svg:121
+#, no-wrap
+msgid "rectangle"
+msgstr "rektangel"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:276 shapes-f16.svg:287 shapes-f16.svg:298
+#, no-wrap
+msgid "0.25"
+msgstr "0.25"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:310
+#, no-wrap
+msgid "0.37"
+msgstr "0.37"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:337
+#, no-wrap
+msgid "0.43"
+msgstr "0.43"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:349 shapes-f16.svg:357 shapes-f16.svg:425
+#, no-wrap
+msgid "3.00"
+msgstr "3.00"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:384
+#, no-wrap
+msgid "0.41"
+msgstr "0.41"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:395
+#, no-wrap
+msgid "5.43"
+msgstr "5.43"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:406
+#, no-wrap
+msgid "1.85"
+msgstr "1.85"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:417
+#, no-wrap
+msgid "0.21"
+msgstr "0.21"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:457
+#, no-wrap
+msgid "−0.43"
+msgstr "-0.43"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:484
+#, no-wrap
+msgid "−8.94"
+msgstr "-8.94"
+
+#. (itstool) path: text/tspan
+#: shapes-f16.svg:510
+#, no-wrap
+msgid "0.39"
+msgstr "0.39"
+
+#. (itstool) path: text/tspan
+#: shapes-f17.svg:105
+#, no-wrap
+msgid "Original star"
+msgstr "Originalstjärna"
+
+#. (itstool) path: text/tspan
+#: shapes-f17.svg:115
+#, no-wrap
+msgid "Linked offset, inset"
+msgstr "Länkad förskjutning, inskjutning"
+
+#. (itstool) path: text/tspan
+#: shapes-f17.svg:125
+#, no-wrap
+msgid "Linked offset, outset"
+msgstr "Länkad offset, outset"
+
+#. (itstool) path: text/tspan
+#: shapes-f19.svg:69
+#, no-wrap
+msgid "+0.2"
+msgstr "+0.2"
+
+#. (itstool) path: text/tspan
+#: shapes-f19.svg:80
+#, no-wrap
+msgid "+0.1"
+msgstr "+0.1"
+
+#. (itstool) path: text/tspan
+#: shapes-f19.svg:91
+#, no-wrap
+msgid "0"
+msgstr "0"
+
+#. (itstool) path: text/tspan
+#: shapes-f19.svg:102
+#, no-wrap
+msgid "−0.1"
+msgstr "-0.1"
+
+#. (itstool) path: text/tspan
+#: shapes-f19.svg:113
+#, no-wrap
+msgid "−0.2"
+msgstr "-0.2"
+
+#. (itstool) path: text/tspan
+#: shapes-f21.svg:69
+#, no-wrap
+msgid "0.2"
+msgstr "0.2"
+
+#. (itstool) path: text/tspan
+#: shapes-f21.svg:80
+#, no-wrap
+msgid "0.5"
+msgstr "0.5"
+
+#. (itstool) path: text/tspan
+#: shapes-f21.svg:91
+#, no-wrap
+msgid "6"
+msgstr "6"
+
+#. (itstool) path: text/tspan
+#: shapes-f21.svg:102
+#, no-wrap
+msgid "2"
+msgstr "2"
+
+#. (itstool) path: text/tspan
+#: shapes-f21.svg:113
+#, no-wrap
+msgid "1"
+msgstr "1"

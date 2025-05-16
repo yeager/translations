@@ -1,0 +1,455 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inkscape tutorial interpolare Swedish\n"
+"POT-Creation-Date: 2023-07-14 16:46+0200\n"
+"PO-Revision-Date: 2025-05-13 12:34+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: sv\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Daniel Nylander"
+
+#. (itstool) path: articleinfo/title
+#: tutorial-interpolate.xml:6
+msgid "Interpolate"
+msgstr "Interpolera"
+
+#. (itstool) path: articleinfo/subtitle
+#: tutorial-interpolate.xml:7
+msgid "Tutorial"
+msgstr "Handledning"
+
+#. (itstool) path: abstract/para
+#: tutorial-interpolate.xml:11
+msgid "This document explains how to use Inkscape's Interpolate extension"
+msgstr ""
+"Detta dokument förklarar hur man använder Inkscapes tillägg Interpolate"
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:16
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:17
+msgid ""
+"Interpolate does a <firstterm>linear interpolation</firstterm> between two "
+"or more selected paths. It basically means that it “fills in the gaps” "
+"between the paths and transforms them according to the number of steps given."
+msgstr ""
+"Interpolate gör en <firstterm>linjär interpolation</firstterm> mellan två "
+"eller flera valda banor. Det innebär i princip att den \"fyller i luckorna\" "
+"mellan banorna och omvandlar dem i enlighet med det antal steg som anges."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:22
+msgid ""
+"To use the Interpolate extension, select the paths that you wish to "
+"transform, and choose <menuchoice><guimenu>Extensions</"
+"guimenu><guisubmenu>Generate From Path</guisubmenu><guimenuitem>Interpolate "
+"Between Paths</guimenuitem></menuchoice> from the menu."
+msgstr ""
+"För att använda Interpolate-tillägget markerar du de banor som du vill "
+"omvandla och väljer <menuchoice><guimenu>Tillägg</"
+"guimenu><guisubmenu>Generera från sökväg</"
+"guisubmenu><guimenuitem>Interpolera mellan banor</guimenuitem></menuchoice> "
+"från menyn."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:27
+msgid ""
+"Before invoking the extension, the objects that you are going to transform "
+"need to be <emphasis>paths</emphasis>. This is done by selecting the object "
+"and using <menuchoice><guimenu>Path</guimenu><guimenuitem>Object to Path</"
+"guimenuitem></menuchoice> or <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap function=\"shift\">Shift</keycap><keycap>C</keycap></"
+"keycombo>. If your objects are not paths, the extension will do nothing."
+msgstr ""
+"Innan du aktiverar tillägget måste de objekt som du ska transformera vara "
+"<emphasis>sökvägar</emphasis>. Detta görs genom att markera objektet och "
+"använda <menuchoice><guimenu>Sökväg</guimenu><guimenuitem>Objekt till slinga</"
+"guimenuitem></menuchoice> eller <keycombo><keycap function=\"control\">Ctrl</"
+"keycap><keycap function=\"shift\">Skift</keycap><keycap>C</keycap></"
+"keycombo>. Om dina objekt inte är banor kommer tillägget inte att göra "
+"någonting."
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:36
+msgid "Interpolation between two identical paths"
+msgstr "Interpolation mellan två identiska banor"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:37
+msgid ""
+"The simplest use of the Interpolate extension is to interpolate between two "
+"paths that are identical. When the extension is called, the result is that "
+"the space between the two paths is filled with duplicates of the original "
+"paths. The number of steps defines how many of these duplicates are placed."
+msgstr ""
+"Den enklaste användningen av tillägget Interpolate är att interpolera mellan "
+"två banor som är identiska. När tillägget anropas blir resultatet att "
+"utrymmet mellan de två banorna fylls med kopior av de ursprungliga banorna. "
+"Antalet steg definierar hur många av dessa duplikat som placeras ut."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:42 tutorial-interpolate.xml:75
+msgid "For example, take the following two paths:"
+msgstr "Ta till exempel följande två banor:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:52
+msgid ""
+"Now, select the two paths, and run the Interpolate extension with the "
+"settings shown in the following image."
+msgstr ""
+"Välj nu de två banorna och kör tillägget Interpolate med de inställningar "
+"som visas i följande bild."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:62
+msgid ""
+"As can be seen from the above result, the space between the two circle-"
+"shaped paths has been filled with 6 (the number of interpolation steps) "
+"other circle-shaped paths. Also note that the extension groups these shapes "
+"together."
+msgstr ""
+"Som framgår av ovanstående resultat har utrymmet mellan de två cirkelformade "
+"banorna fyllts med 6 (antalet interpoleringssteg) andra cirkelformade banor. "
+"Notera också att förlängningen grupperar dessa former tillsammans."
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:69
+msgid "Interpolation between two different paths"
+msgstr "Interpolering mellan två olika banor"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:70
+msgid ""
+"When interpolation is done on two different paths, the program interpolates "
+"the shape of the path from one into the other. The result is that you get a "
+"morphing sequence between the paths, with the regularity still defined by "
+"the Interpolation Steps value."
+msgstr ""
+"När interpolering görs på två olika banor interpolerar programmet slingans "
+"form från den ena till den andra. Resultatet blir en morphing-sekvens mellan "
+"banorna, där regelbundenheten fortfarande definieras av värdet Interpolation "
+"Steps."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:85
+msgid ""
+"Now, select the two paths, and run the Interpolate extension. The result "
+"should be like this:"
+msgstr ""
+"Välj nu de två banorna och kör tillägget Interpolate. Resultatet bör se ut "
+"så här:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:95
+msgid ""
+"As can be seen from the above result, the space between the circle-shaped "
+"path and the triangle-shaped path has been filled with 6 paths that progress "
+"in shape from one path to the other."
+msgstr ""
+"Som framgår av ovanstående resultat har utrymmet mellan den cirkelformade "
+"slingan och den triangelformade slingan fyllts med 6 banor som går framåt i form "
+"från den ena slingan till den andra."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:99
+msgid ""
+"When using the Interpolate extension on two different paths, the "
+"<emphasis>position</emphasis> of the starting node of each path is "
+"important. To find the starting node of a path, select the path, then choose "
+"the Node Tool so that the nodes appear and press <keycap>TAB</keycap>. The "
+"first node that is selected is the starting node of that path."
+msgstr ""
+"När du använder tillägget Interpolate på två olika sökvägar är "
+"<emphasis>positionen</emphasis> för startnoden för varje sökväg viktig. För "
+"att hitta startnoden för en sökväg markerar du sökvägen, väljer Node Tool så "
+"att noderna visas och trycker på <keycap>TAB</keycap>. Den första noden som "
+"väljs är startnoden för den sökvägen."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:105
+msgid ""
+"See the image below, which is identical to the previous example, apart from "
+"the node points being displayed. The node that is green on each path is the "
+"starting node."
+msgstr ""
+"Se bilden nedan, som är identisk med föregående exempel, bortsett från att "
+"nodpunkterna visas. Den nod som är grön på varje slinga är startnoden."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:116
+msgid ""
+"The previous example (shown again below) was done with these nodes being the "
+"starting node."
+msgstr ""
+"Det föregående exemplet (som visas igen nedan) gjordes med dessa noder som "
+"startnod."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:126
+msgid ""
+"Now, notice the changes in the interpolation result when the triangle path "
+"is mirrored so the starting node is in a different position:"
+msgstr ""
+"Lägg nu märke till förändringarna i interpoleringsresultatet när "
+"triangelslingan speglas så att startnoden hamnar i en annan position:"
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:146
+msgid "Interpolation Method"
+msgstr "Interpolationsmetod"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:147
+msgid ""
+"One of the parameters of the Interpolate extension is the Interpolation "
+"Method. There are 2 interpolation methods implemented, and they differ in "
+"the way that they calculate the curves of the new shapes. The choices are "
+"either <guilabel>Split paths into segments of equal lengths</guilabel> or "
+"<guilabel>Discard extra nodes of longer path</guilabel>."
+msgstr ""
+"En av parametrarna i Interpolate-tillägget är Interpolation Method. Det "
+"finns 2 interpolationsmetoder implementerade, och de skiljer sig åt i hur de "
+"beräknar kurvorna för de nya formerna. Valmöjligheterna är antingen att "
+"<guilabel>dela upp vägar i lika långa segment</guilabel> eller att ta "
+"<guilabel>bort extra noder i en längre väg.</guilabel>."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:153
+msgid ""
+"In the examples above, we used the first Interpolation Method (Split paths), "
+"and the result was:"
+msgstr ""
+"I exemplen ovan använde vi den första interpoleringsmetoden (Split paths), "
+"och resultatet blev:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:163
+msgid "Now compare this to Interpolation Method 2 (Ignore nodes):"
+msgstr "Jämför nu detta med Interpolationsmetod 2 (Ignorera noder):"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:173
+msgid ""
+"The differences in how these methods calculate the numbers is beyond the "
+"scope of this document, so simply try both, and use which ever one gives the "
+"result closest to what you intend."
+msgstr ""
+"Skillnaderna i hur dessa metoder beräknar siffrorna ligger utanför ramen för "
+"detta dokument, så prova helt enkelt båda och använd den som ger det "
+"resultat som ligger närmast det du vill ha."
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:179
+msgid "Exponent"
+msgstr "Exponent"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:180
+msgid ""
+"The <firstterm>exponent parameter</firstterm> controls the spacing between "
+"steps of the interpolation. An exponent of 1 makes the spacing between the "
+"copies all even."
+msgstr ""
+"<firstterm>Parametern exponent</firstterm> styr avståndet mellan stegen i "
+"interpoleringen. En exponent på 1 gör att avståndet mellan kopiorna blir "
+"jämnt."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:184
+msgid "Here is the result of another basic example with an exponent of 1."
+msgstr ""
+"Här är resultatet av ett annat grundläggande exempel med en exponent på 1."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:194
+msgid "The same example with an exponent of 0.5:"
+msgstr "Samma exempel med en exponent på 0,5:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:204
+msgid "with an exponent of 0.3:"
+msgstr "med en exponent på 0,3:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:214
+msgid "and with an exponent of 1.5:"
+msgstr "och med en exponent på 1,5:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:224
+msgid ""
+"When dealing with exponents in the Interpolate extension, the "
+"<emphasis>order</emphasis> that you select the objects is important. In the "
+"examples above, the star-shaped path on the left was selected first, and the "
+"hexagon-shaped path on the right was selected second."
+msgstr ""
+"När du hanterar exponenter i Interpolate-tillägget är <emphasis>ordningen</"
+"emphasis> som du väljer objekten viktig. I exemplen ovan valdes den "
+"stjärnformade slingan till vänster först och den hexagonformade slingan till "
+"höger valdes som nummer två."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:229
+msgid ""
+"View the result when the path on the right was selected first. The exponent "
+"in this example was set to 0.5:"
+msgstr ""
+"Visa resultatet när vägen till höger valdes först. Exponenten i detta "
+"exempel var inställd på 0,5:"
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:241
+msgid "Duplicate Endpaths"
+msgstr "Dubbla slutvägar"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:242
+msgid ""
+"This parameter defines whether the group of paths that is generated by the "
+"extension <emphasis>includes a copy</emphasis> of the original paths that "
+"interpolate was applied on."
+msgstr ""
+"Denna parameter anger om den grupp av banor som genereras av tillägget "
+"<emphasis>innehåller en kopia</emphasis> av de ursprungliga banor som "
+"interpolering tillämpades på."
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:248
+msgid "Interpolate Style"
+msgstr "Interpolera stil"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:249
+msgid ""
+"This parameter is one of the neat functions of the interpolate extension. It "
+"tells the extension to attempt to change the style of the paths at each "
+"step. So if the start and end paths are different colors, the paths that are "
+"generated will incrementally change as well."
+msgstr ""
+"Denna parameter är en av de smarta funktionerna i tillägget interpolate. Den "
+"talar om för tillägget att försöka ändra stilen på sökvägarna i varje steg. "
+"Så om start- och slutvägarna har olika färger kommer de vägar som genereras "
+"också att ändras stegvis."
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:254
+msgid ""
+"Here is an example where the Interpolate Style function is used on the fill "
+"of a path:"
+msgstr ""
+"Här är ett exempel där funktionen Interpolate Style används för att fylla en "
+"slinga:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:264
+msgid "Interpolate Style also affects the stroke of a path:"
+msgstr "Interpolate Style påverkar också strecket på en slinga:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:274
+msgid ""
+"Of course, the path of the start point and the end point does not have to be "
+"the same either:"
+msgstr ""
+"Naturligtvis behöver inte heller vägen från startpunkten till slutpunkten "
+"vara densamma:"
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:286
+msgid "Using Interpolate to fake irregular-shaped gradients"
+msgstr "Använda Interpolate för att fejka oregelbundet formade gradienter"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:287
+msgid ""
+"At the time when gradient meshes were not implemented in Inkscape, it was "
+"not possible to create a gradient other than linear (straight line) or "
+"radial (round). However, it could be faked using the Interpolate extension "
+"and Interpolate Style. A simple example follows — draw two lines of "
+"different strokes:"
+msgstr ""
+"På den tiden då gradientmesh inte var implementerat i Inkscape var det inte "
+"möjligt att skapa en gradient som inte var linjär (rak linje) eller radiell "
+"(rund). Det gick dock att fejka med hjälp av tillägget Interpolate och "
+"Interpolate Style. Ett enkelt exempel följer - rita två linjer med olika "
+"slag:"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:299
+msgid "And interpolate between the two lines to create your gradient:"
+msgstr "Och interpolera mellan de två linjerna för att skapa din gradient:"
+
+#. (itstool) path: sect1/title
+#: tutorial-interpolate.xml:311
+msgid "Conclusion"
+msgstr "Slutsats"
+
+#. (itstool) path: sect1/para
+#: tutorial-interpolate.xml:312
+msgid ""
+"As demonstrated above, the Inkscape Interpolate extension is a powerful "
+"tool. This tutorial covers the basics of this extension, but experimentation "
+"is the key to exploring interpolation further."
+msgstr ""
+"Som visats ovan är tillägget Inkscape Interpolate ett kraftfullt verktyg. "
+"Denna handledning täcker grunderna i detta tillägg, men experiment är "
+"nyckeln till att utforska interpolering ytterligare."
+
+#. (itstool) path: Work/format
+#: interpolate-f01.svg:49 interpolate-f02.svg:52 interpolate-f03.svg:49
+#: interpolate-f04.svg:52 interpolate-f05.svg:49 interpolate-f07.svg:49
+#: interpolate-f08.svg:49 interpolate-f09.svg:49 interpolate-f10.svg:49
+#: interpolate-f11.svg:52 interpolate-f12.svg:52 interpolate-f13.svg:52
+#: interpolate-f14.svg:52 interpolate-f15.svg:52 interpolate-f16.svg:49
+#: interpolate-f17.svg:49 interpolate-f18.svg:49 interpolate-f19.svg:49
+#: interpolate-f20.svg:52
+msgid "image/svg+xml"
+msgstr "image/svg+xml"
+
+#. (itstool) path: text/tspan
+#: interpolate-f02.svg:128 interpolate-f04.svg:119 interpolate-f11.svg:119
+#, no-wrap
+msgid "Exponent: 1.0"
+msgstr "Exponent: 1,0"
+
+#. (itstool) path: text/tspan
+#: interpolate-f02.svg:132 interpolate-f04.svg:123 interpolate-f11.svg:123
+#, no-wrap
+msgid "Interpolation Steps: 6"
+msgstr "Interpolationssteg: 6"
+
+#. (itstool) path: text/tspan
+#: interpolate-f02.svg:136 interpolate-f04.svg:127 interpolate-f11.svg:127
+#, no-wrap
+msgid "Interpolation Method: Split paths into segments of equal lengths"
+msgstr "Metod för interpolering: Dela upp banor i lika långa segment"
+
+#. (itstool) path: text/tspan
+#: interpolate-f02.svg:140 interpolate-f04.svg:131 interpolate-f11.svg:131
+#, no-wrap
+msgid "Duplicate Endpaths: unchecked   "
+msgstr "Duplicerade slutvägar: okontrollerad  "
+
+#. (itstool) path: text/tspan
+#: interpolate-f02.svg:144 interpolate-f04.svg:135 interpolate-f11.svg:135
+#, no-wrap
+msgid "Interpolate Style: unchecked  "
+msgstr "Interpolera stil: avmarkerad  "
+
+#. (itstool) path: text/tspan
+#: interpolate-f02.svg:148 interpolate-f04.svg:139 interpolate-f11.svg:139
+#, no-wrap
+msgid "Use Z-order: unchecked"
+msgstr "Använd Z-ordning: avmarkerad"

@@ -1,0 +1,327 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Inkscape tutorial tracing Swedish\n"
+"POT-Creation-Date: 2023-07-14 16:46+0200\n"
+"PO-Revision-Date: 2025-05-13 12:34+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: sv\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Daniel Nylander"
+
+#. (itstool) path: articleinfo/title
+#: tutorial-tracing.xml:6
+msgid "Tracing bitmaps"
+msgstr "Spårning av bitmappar"
+
+#. (itstool) path: articleinfo/subtitle
+#: tutorial-tracing.xml:7
+msgid "Tutorial"
+msgstr "Handledning"
+
+#. (itstool) path: abstract/para
+#: tutorial-tracing.xml:11
+msgid ""
+"One of the features in Inkscape is a tool for tracing a bitmap image into "
+"one or more &lt;path&gt; elements for your SVG drawing. These short notes "
+"should help you become acquainted with how it works."
+msgstr ""
+"En av funktionerna i Inkscape är ett verktyg för att spåra en bitmappsbild "
+"till ett eller flera &lt;path&gt; element för din SVG-ritning. Dessa korta "
+"anteckningar bör hjälpa dig att bekanta dig med hur det fungerar."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:16
+msgid ""
+"Keep in mind that the Tracer's purpose is not to reproduce an exact "
+"duplicate of the original image; nor is it intended to produce a final "
+"product. No autotracer can do that. What it does is give you a set of curves "
+"which you can use as a resource for your drawing."
+msgstr ""
+"Tänk på att Tracers syfte inte är att återge en exakt kopia av "
+"originalbilden och att den inte heller är avsedd att producera en "
+"slutprodukt. Ingen autotracer kan göra det. Vad den gör är att ge dig en "
+"uppsättning kurvor som du kan använda som en resurs för din ritning."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:21
+msgid ""
+"Our tracer, derived from the original Potrace library by Peter Selinger, "
+"interprets a black and white bitmap, and produces a set of curves. For "
+"Potrace, we currently have three types of input filters to convert from the "
+"raw image to something that Potrace can use."
+msgstr ""
+"Vår tracer, som härrör från det ursprungliga Potrace-biblioteket av Peter "
+"Selinger, tolkar en svartvit bitmapp och producerar en uppsättning kurvor. "
+"För Potrace har vi för närvarande tre typer av ingångsfilter för att "
+"konvertera från den råa bilden till något som Potrace kan använda."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:26
+msgid ""
+"Generally the more dark pixels in the intermediate bitmap, the more tracing "
+"that Potrace will perform. As the amount of tracing increases, more CPU time "
+"will be required, and the &lt;path&gt; element will become much larger. It "
+"is suggested that the user experiment with lighter intermediate images "
+"first, getting gradually darker to get the desired proportion and complexity "
+"of the output path."
+msgstr ""
+"Generellt gäller att ju fler mörka pixlar som finns i den mellanliggande "
+"bitmappen, desto mer spårning kommer Potrace att utföra. När mängden "
+"spårning ökar kommer mer CPU-tid att krävas och &lt;path&gt; -elementet blir "
+"mycket större. Vi föreslår att användaren experimenterar med ljusare "
+"mellanliggande bilder först och sedan gradvis blir mörkare för att få önskad "
+"proportion och komplexitet i utmatningsvägen."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:32
+msgid ""
+"To use the tracer, load or import an image, select it, and select the "
+"<menuchoice><guimenu>Path</guimenu><guimenuitem>Trace Bitmap</guimenuitem></"
+"menuchoice> item, or <keycombo><keycap function=\"shift\">Shift</"
+"keycap><keycap function=\"alt\">Alt</keycap><keycap>B</keycap></keycombo>."
+msgstr ""
+"För att använda spåraren laddar eller importerar du en bild, markerar den "
+"och väljer <menuchoice><guimenu>Sökväg</guimenu><guimenuitem>Spåra bitmapp</"
+"guimenuitem></menuchoice> eller <keycombo><keycap function=\"shift\">Skift</"
+"keycap><keycap function=\"alt\">Alt</keycap><keycap>B</keycap></keycombo>."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:44
+msgid "The user will see the five filter options available:"
+msgstr "Användaren kommer att se de fem tillgängliga filteralternativen:"
+
+#. (itstool) path: listitem/para
+#: tutorial-tracing.xml:49
+msgid "Brightness Cutoff"
+msgstr "Avstängning av ljusstyrka"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:54
+msgid ""
+"This merely uses the sum of the red, green and blue (or shades of gray) of a "
+"pixel as an indicator of whether it should be considered black or white. The "
+"threshold can be set from 0.0 (black) to 1.0 (white). The higher the "
+"threshold setting, the fewer the number pixels that will be considered to be "
+"“white”, and the intermediate image with become darker."
+msgstr ""
+"Här används bara summan av rött, grönt och blått (eller gråtoner) i en pixel "
+"som en indikator på om den ska betraktas som svart eller vit. Tröskelvärdet "
+"kan ställas in från 0,0 (svart) till 1,0 (vit). Ju högre tröskelvärdet är, "
+"desto färre pixlar kommer att betraktas som \"vita\" och mellanbilden blir "
+"mörkare."
+
+#. (itstool) path: listitem/para
+#: tutorial-tracing.xml:69
+msgid "Edge Detection"
+msgstr "Detektering av kanter"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:74
+msgid ""
+"This uses the edge detection algorithm devised by J. Canny as a way of "
+"quickly finding isoclines of similar contrast. This will produce an "
+"intermediate bitmap that will look less like the original image than does "
+"the result of Brightness Threshold, but will likely provide curve "
+"information that would otherwise be ignored. The threshold setting here (0.0 "
+"– 1.0) adjusts the brightness threshold of whether a pixel adjacent to a "
+"contrast edge will be included in the output. This setting can adjust the "
+"darkness or thickness of the edge in the output."
+msgstr ""
+"Här används den algoritm för kantdetektering som utvecklats av J. Canny som "
+"ett sätt att snabbt hitta isokliner med liknande kontrast. Detta ger en "
+"mellanliggande bitmapp som ser mindre ut som originalbilden än vad "
+"resultatet av Brightness Threshold gör, men som sannolikt ger "
+"kurvinformation som annars skulle ignoreras. Inställningen för tröskelvärdet "
+"här (0,0 - 1,0) justerar tröskelvärdet för ljusstyrkan för om en pixel som "
+"gränsar till en kontrastkant ska inkluderas i resultatet. Den här "
+"inställningen kan justera hur mörk eller tjock kanten ska vara i resultatet."
+
+#. (itstool) path: listitem/para
+#: tutorial-tracing.xml:90
+msgid "Color Quantization"
+msgstr "Kvantisering av färg"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:95
+msgid ""
+"The result of this filter will produce an intermediate image that is very "
+"different from the other two, but is very useful indeed. Instead of showing "
+"isoclines of brightness or contrast, this will find edges where colors "
+"change, even at equal brightness and contrast. The setting here, Number of "
+"Colors, decides how many output colors there would be if the intermediate "
+"bitmap were in color. It then decides black/white on whether the color has "
+"an even or odd index."
+msgstr ""
+"Resultatet av detta filter blir en mellanbild som skiljer sig mycket från de "
+"andra två, men som är mycket användbar. I stället för att visa isokliner av "
+"ljusstyrka eller kontrast hittar detta filter kanter där färgerna ändras, "
+"även vid lika ljusstyrka och kontrast. Inställningen här, Number of Colors, "
+"bestämmer hur många utmatningsfärger det skulle finnas om den mellanliggande "
+"bitmappen var i färg. Den avgör sedan svart/vitt beroende på om färgen har "
+"ett jämnt eller udda index."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:109
+msgid ""
+"The user should try all three filters, and observe the different types of "
+"output for different types of input images. There will always be an image "
+"where one works better than the others."
+msgstr ""
+"Användaren bör prova alla tre filtren och observera de olika typerna av "
+"utdata för olika typer av ingångsbilder. Det kommer alltid att finnas en "
+"bild där ett filter fungerar bättre än de andra."
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:113
+msgid ""
+"After tracing, it is also suggested that the user try "
+"<menuchoice><guimenu>Path</guimenu><guimenuitem>Simplify</guimenuitem></"
+"menuchoice> (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>L</"
+"keycap></keycombo>) on the output path to reduce the number of nodes. This "
+"can make the output of Potrace much easier to edit. For example, here is a "
+"typical tracing of the Old Man Playing Guitar:"
+msgstr ""
+"Efter spårning föreslås det också att användaren provar "
+"<menuchoice><guimenu>Väg</guimenu><guimenuitem>Förenkla</guimenuitem></"
+"menuchoice> (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>L</"
+"keycap></keycombo>) på utmatningsslingan för att minska antalet noder. Detta "
+"kan göra utdata från Potrace mycket enklare att redigera. Här är till "
+"exempel en typisk tracing av Gubben som spelar gitarr:"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:127
+msgid ""
+"Note the enormous number of nodes in the path. After hitting "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>L</keycap></"
+"keycombo>, this is a typical result:"
+msgstr ""
+"Notera det enorma antalet noder på vägen. Efter att ha tryckt på "
+"<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>L</keycap></"
+"keycombo>är detta ett typiskt resultat:"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:138
+msgid ""
+"The representation is a bit more approximate and rough, but the drawing is "
+"much simpler and easier to edit. Keep in mind that what you want is not an "
+"exact rendering of the image, but a set of curves that you can use in your "
+"drawing."
+msgstr ""
+"Representationen är lite mer ungefärlig och grov, men ritningen är mycket "
+"enklare och lättare att redigera. Tänk på att det du vill ha inte är en "
+"exakt återgivning av bilden, utan en uppsättning kurvor som du kan använda i "
+"din ritning."
+
+#. (itstool) path: listitem/para
+#: tutorial-tracing.xml:145
+msgid "Autotrace"
+msgstr "Autotrace"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:150
+msgid ""
+"The Autotrace option uses a different algorithm for tracing and also offers "
+"some other parameters to tweak. It may take a little longer to work, but "
+"gives you some variety to choose from."
+msgstr ""
+"Alternativet Autotrace använder en annan algoritm för spårning och erbjuder "
+"även några andra parametrar att justera. Det kan ta lite längre tid att "
+"arbeta, men ger dig lite variation att välja mellan."
+
+#. (itstool) path: listitem/para
+#: tutorial-tracing.xml:156
+msgid "Centerline tracing (autotrace)"
+msgstr "Spårning av mittlinje (autotrace)"
+
+#. (itstool) path: article/para
+#: tutorial-tracing.xml:161
+msgid ""
+"If you would like to vectorize a line drawing, and get strokes that are easy "
+"to modify instead of filled areas as a result, use this option. It will "
+"attempt to find contiguous lines that make up your drawing."
+msgstr ""
+"Om du vill vektorisera en linjeteckning och få streck som är lätta att ändra "
+"i stället för fyllda områden, ska du använda det här alternativet. "
+"Programmet kommer att försöka hitta sammanhängande linjer som utgör din "
+"ritning."
+
+#. (itstool) path: Work/format
+#: tracing-f01.svg:49 tracing-f02.svg:49 tracing-f03.svg:49 tracing-f04.svg:49
+#: tracing-f05.svg:49 tracing-f06.svg:49
+msgid "image/svg+xml"
+msgstr "image/svg+xml"
+
+#. (itstool) path: text/tspan
+#: tracing-f01.svg:70
+#, no-wrap
+msgid "Main options within the Trace dialog"
+msgstr "Huvudalternativ i dialogrutan Trace"
+
+#. (itstool) path: text/tspan
+#: tracing-f02.svg:70 tracing-f03.svg:70 tracing-f04.svg:70 tracing-f05.svg:70
+#: tracing-f06.svg:70
+#, no-wrap
+msgid "Original Image"
+msgstr "Originalbild"
+
+#. (itstool) path: text/tspan
+#: tracing-f02.svg:81 tracing-f02.svg:97
+#, no-wrap
+msgid "Brightness Threshold"
+msgstr "Tröskelvärde för ljusstyrka"
+
+#. (itstool) path: text/tspan
+#: tracing-f02.svg:86 tracing-f03.svg:86 tracing-f04.svg:86
+#, no-wrap
+msgid "Fill, no Stroke"
+msgstr "Fyllning, ingen linje"
+
+#. (itstool) path: text/tspan
+#: tracing-f02.svg:102 tracing-f03.svg:102 tracing-f04.svg:102
+#, no-wrap
+msgid "Stroke, no Fill"
+msgstr "Stroke, ingen fyllning"
+
+#. (itstool) path: text/tspan
+#: tracing-f03.svg:81 tracing-f03.svg:97
+#, no-wrap
+msgid "Edge Detected"
+msgstr "Kant detekterad"
+
+#. (itstool) path: text/tspan
+#: tracing-f04.svg:81 tracing-f04.svg:97
+#, no-wrap
+msgid "Quantization (12 colors)"
+msgstr "Kvantisering (12 färger)"
+
+#. (itstool) path: text/tspan
+#: tracing-f05.svg:81
+#, no-wrap
+msgid "Traced Image / Output Path"
+msgstr "Spårad bild / Utmatningsväg"
+
+#. (itstool) path: text/tspan
+#: tracing-f05.svg:86
+#, no-wrap
+msgid "(1,551 nodes)"
+msgstr "(1 551 noder)"
+
+#. (itstool) path: text/tspan
+#: tracing-f06.svg:81
+#, no-wrap
+msgid "Traced Image / Output Path - Simplified"
+msgstr "Spårad bild / Utmatningsväg - förenklad"
+
+#. (itstool) path: text/tspan
+#: tracing-f06.svg:86
+#, no-wrap
+msgid "(384 nodes)"
+msgstr "(384 noder)"
