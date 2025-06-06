@@ -1,0 +1,3253 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Jan Ainali <ainali.jan@gmail.com>, 2020.
+# Jonas B <joonas-b@hotmail.se>, 2021.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-28 21:01-0700\n"
+"PO-Revision-Date: 2025-01-28 10:28+0000\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnu-mailman/"
+"postorius/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10-dev\n"
+
+#: forms/domain_forms.py:34
+#, python-format
+msgid ""
+"The domain from which you want the web UI to be served from. This can be "
+"same or different from the Mail Host. You can edit the list of available web "
+"hosts <a href=\"%s\">here</a>."
+msgstr ""
+
+#: forms/domain_forms.py:46 forms/list_forms.py:100
+#: templates/postorius/domain/index.html:21
+msgid "Mail Host"
+msgstr ""
+
+#: forms/domain_forms.py:48 forms/domain_forms.py:79
+msgid "Please enter a domain name"
+msgstr "Vänligen fyll i ett domännamn"
+
+#: forms/domain_forms.py:49 forms/domain_forms.py:80
+msgid "Please enter a valid domain name."
+msgstr "Vänligen fyll i ett giltigt domännamn."
+
+#: forms/domain_forms.py:53
+msgid ""
+"The domain for your mailing lists. For example when you want lists like "
+"testing@example.com, enter example.com here."
+msgstr ""
+"Domän för dina e-postlistor. Vill du till exempel ha listor med namn som "
+"testing@example.com, skriv example.com här."
+
+#: forms/domain_forms.py:57 templates/postorius/domain/index.html:22
+#: templates/postorius/index.html:89
+msgid "Description"
+msgstr "Beskrivning"
+
+#: forms/domain_forms.py:59 templates/postorius/domain/index.html:23
+msgid "Alias Domain"
+msgstr "Aliasdomän"
+
+#: forms/domain_forms.py:61 forms/domain_forms.py:103
+msgid "Please enter a valid domain name or nothing."
+msgstr "Ange ett giltigt domännamn eller lämna tomt."
+
+#: forms/domain_forms.py:64
+msgid "Normally empty.  Used only for unusual Postfix configs."
+msgstr ""
+"Normalt sett tomt.  Används endast för ovanliga Postfix-konfigurationer."
+
+#: forms/domain_forms.py:67 templates/postorius/domain/index.html:24
+msgid "Base Url"
+msgstr ""
+
+#: forms/domain_forms.py:69 forms/domain_forms.py:114
+#, fuzzy
+#| msgid "Please enter a valid domain name or nothing."
+msgid "Please enter a valid URL for accessing Postorius or nothing."
+msgstr "Ange ett giltigt domännamn eller lämna tomt."
+
+#: forms/domain_forms.py:73
+msgid "The base URL for accessing Postorius."
+msgstr ""
+
+#: forms/domain_forms.py:77 templates/postorius/domain/index.html:25
+msgid "Web Host"
+msgstr ""
+
+#: forms/domain_forms.py:93
+msgid "Please enter a valid domain name"
+msgstr ""
+
+#: forms/domain_forms.py:133
+msgid "Owner's Email"
+msgstr "Ägarens e-post"
+
+#: forms/fields.py:36
+msgid "Regular"
+msgstr ""
+
+#: forms/fields.py:37
+msgid "Plain Text Digests"
+msgstr ""
+
+#: forms/fields.py:38
+msgid "MIME Digests"
+msgstr ""
+
+#: forms/fields.py:39
+msgid "Summary Digests"
+msgstr ""
+
+#: forms/fields.py:44 forms/list_forms.py:164
+msgid "Enabled"
+msgstr ""
+
+#: forms/fields.py:45 forms/list_forms.py:165
+msgid "Disabled"
+msgstr ""
+
+#: forms/fields.py:46
+msgid "Disabled by Owner"
+msgstr ""
+
+#: forms/fields.py:47
+msgid "Disabled by Bounces"
+msgstr ""
+
+#: forms/fields.py:48
+msgid "Disabled from MM<2.1"
+msgstr ""
+
+#: forms/fields.py:52
+msgid "Hold for moderation"
+msgstr ""
+
+#: forms/fields.py:53
+msgid "Reject (with notification)"
+msgstr ""
+
+#: forms/fields.py:54
+msgid "Discard (no notification)"
+msgstr ""
+
+#: forms/fields.py:55
+msgid "Accept immediately (bypass other rules)"
+msgstr ""
+
+#: forms/fields.py:56
+msgid "Default processing"
+msgstr ""
+
+#: forms/fields.py:139
+msgid "Make at least one selection"
+msgstr "Gör minst ett val"
+
+#: forms/fields.py:150 templates/postorius/lists/summary.html:54
+msgid "Delivery mode"
+msgstr ""
+
+#: forms/fields.py:152
+msgid ""
+"If you select digests , you'll get posts bundled together (usually one per "
+"day but possibly more on busy lists), instead of singly when they're sent. "
+"Your mail reader may or may not support MIME digests. In general MIME "
+"digests are preferred, but if you have a problem reading them, select plain "
+"text digests. Summary Digests are currently equivalent to MIME Digests."
+msgstr ""
+
+#: forms/fields.py:174 templates/postorius/lists/summary.html:53
+msgid "Delivery status"
+msgstr ""
+
+#: forms/fields.py:176
+msgid ""
+"Set this option to Enabled to receive messages posted to this mailing list. "
+"Set it to Disabled if you want to stay subscribed, but don't want mail "
+"delivered to you for a while (e.g. you're going on vacation). If you disable "
+"mail delivery, don't forget to re-enable it when you come back; it will not "
+"be automatically re-enabled."
+msgstr ""
+
+#: forms/fields.py:189
+msgid "Moderation"
+msgstr ""
+
+#: forms/fields.py:191 forms/list_forms.py:1309
+#: templatetags/membership_helpers.py:93
+msgid "List default"
+msgstr ""
+
+#: forms/fields.py:193
+msgid ""
+"Default action to take when this member posts to the list. \n"
+"List default -- follow the list's default member action. \n"
+"Hold -- This holds the message for approval by the list moderators. \n"
+"Reject -- this automatically rejects the message by sending a bounce notice "
+"to the post's author. The text of the bounce notice can be configured by "
+"you. \n"
+"Discard -- this simply discards the message, with no notice sent to the "
+"post's author. \n"
+"Accept -- accepts any postings without any further checks. \n"
+"Default Processing -- run additional checks and accept the message. \n"
+msgstr ""
+
+#: forms/list_forms.py:43
+msgid "Daily"
+msgstr "Dagligen"
+
+#: forms/list_forms.py:44
+msgid "Weekly"
+msgstr "Veckovis"
+
+#: forms/list_forms.py:45
+msgid "Quarterly"
+msgstr "Kvartalsvis"
+
+#: forms/list_forms.py:46
+msgid "Monthly"
+msgstr "Månadsvis"
+
+#: forms/list_forms.py:47
+msgid "Yearly"
+msgstr "Årligen"
+
+#: forms/list_forms.py:51
+msgid "Only mailinglist administrators"
+msgstr ""
+
+#: forms/list_forms.py:52
+msgid "Mailinglist administrators and members"
+msgstr ""
+
+#: forms/list_forms.py:53
+msgid "Anyone"
+msgstr ""
+
+#: forms/list_forms.py:68 templates/postorius/user/subscriptions.html:22
+msgid "List Name"
+msgstr ""
+
+#: forms/list_forms.py:71
+msgid "Please enter a name for your list."
+msgstr ""
+
+#: forms/list_forms.py:72
+msgid "Please enter a valid list name."
+msgstr ""
+
+#: forms/list_forms.py:77
+msgid "Initial list owner address"
+msgstr ""
+
+#: forms/list_forms.py:79
+msgid "Please enter the list owner's email address."
+msgstr ""
+
+#: forms/list_forms.py:85
+msgid "Advertise this list?"
+msgstr ""
+
+#: forms/list_forms.py:86
+msgid "Please choose a list type."
+msgstr ""
+
+#: forms/list_forms.py:89
+msgid "Advertise this list in list index"
+msgstr ""
+
+#: forms/list_forms.py:90
+msgid "Hide this list in list index"
+msgstr ""
+
+#: forms/list_forms.py:94 forms/list_forms.py:1152
+#, fuzzy
+#| msgid "Description"
+msgid "Short Description"
+msgstr "Beskrivning"
+
+#: forms/list_forms.py:104
+msgid "Choose an existing Domain."
+msgstr ""
+
+#: forms/list_forms.py:105
+msgid "Choose a valid Mail Host"
+msgstr ""
+
+#: forms/list_forms.py:110
+msgid "List Style"
+msgstr ""
+
+#: forms/list_forms.py:114
+msgid "Choose a List Style."
+msgstr ""
+
+#: forms/list_forms.py:115
+msgid "Choose a valid List Style."
+msgstr ""
+
+#: forms/list_forms.py:120
+msgid "Site admin has not created any domains"
+msgstr ""
+
+#: forms/list_forms.py:134
+msgid "Please enter a valid listname"
+msgstr ""
+
+#: forms/list_forms.py:169 forms/list_forms.py:207
+msgid "Your email address"
+msgstr ""
+
+#: forms/list_forms.py:175
+msgid ""
+"Subscribing via \"Primary Address\" will change subscription address when "
+"you change your primary address."
+msgstr ""
+
+#: forms/list_forms.py:179 forms/list_forms.py:210 forms/member_forms.py:30
+#: forms/system.py:38
+msgid "Please enter an email address."
+msgstr ""
+
+#: forms/list_forms.py:180 forms/list_forms.py:211 forms/member_forms.py:31
+#: forms/system.py:39
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: forms/list_forms.py:185 forms/list_forms.py:216
+msgid "Your name (optional)"
+msgstr ""
+
+#: forms/list_forms.py:198 forms/list_forms.py:1455 views/list.py:544
+msgid "Primary Address ({})"
+msgstr ""
+
+#: forms/list_forms.py:233
+msgid "Open"
+msgstr ""
+
+#: forms/list_forms.py:234 templates/postorius/domain/template_delete.html:27
+#: templates/postorius/lists/template_delete.html:24
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: forms/list_forms.py:235
+msgid "Moderate"
+msgstr ""
+
+#: forms/list_forms.py:236
+msgid "Confirm, then moderate"
+msgstr ""
+
+#: forms/list_forms.py:246
+msgid "Subscription Policy"
+msgstr ""
+
+#: forms/list_forms.py:249
+msgid ""
+"Open: Subscriptions are added automatically\n"
+"Confirm: Subscribers need to confirm the subscription using an email sent to "
+"them\n"
+"Moderate: Moderators will have to authorize each subscription manually.\n"
+"Confirm then Moderate: First subscribers have to confirm, then a moderator "
+"needs to authorize."
+msgstr ""
+
+#: forms/list_forms.py:260
+msgid "Un-Subscription Policy"
+msgstr "Avprenumereringspolicy"
+
+#: forms/list_forms.py:263
+msgid ""
+"Open: Un-Subscriptions happen automatically\n"
+"Confirm: Subscribers need to confirm the un-subscription using an email sent "
+"to them\n"
+"Moderate: Moderators will have to authorize each un-subscription manually.\n"
+"Confirm then Moderate: First subscribers have to confirm, then a moderator "
+"needs to authorize."
+msgstr ""
+
+#: forms/list_forms.py:278 forms/list_forms.py:779
+#: templates/postorius/lists/held_messages.html:31
+#: templates/postorius/lists/held_messages.html:122
+#: templates/postorius/lists/pending_confirmations.html:37
+#: templates/postorius/lists/subscription_requests.html:43
+msgid "Discard"
+msgstr ""
+
+#: forms/list_forms.py:279
+msgid "List Admins"
+msgstr ""
+
+#: forms/list_forms.py:280
+msgid "Site Admin"
+msgstr ""
+
+#: forms/list_forms.py:284 forms/list_forms.py:316 forms/list_forms.py:327
+#: forms/list_forms.py:338 forms/list_forms.py:467 forms/list_forms.py:477
+#: forms/list_forms.py:526 forms/list_forms.py:659 forms/list_forms.py:666
+#: forms/list_forms.py:719 forms/list_forms.py:809 forms/list_forms.py:820
+#: forms/list_forms.py:840 forms/list_forms.py:860 forms/list_forms.py:925
+#: forms/list_forms.py:964 forms/list_forms.py:981 forms/list_forms.py:1059
+#: forms/list_forms.py:1070 forms/list_forms.py:1084 forms/list_forms.py:1096
+#: forms/list_forms.py:1110 forms/list_forms.py:1121 forms/list_forms.py:1144
+#: forms/list_forms.py:1206 forms/list_forms.py:1215 forms/list_forms.py:1239
+#: forms/list_forms.py:1307 forms/user_forms.py:63
+msgid "Yes"
+msgstr ""
+
+#: forms/list_forms.py:284 forms/list_forms.py:316 forms/list_forms.py:327
+#: forms/list_forms.py:338 forms/list_forms.py:467 forms/list_forms.py:477
+#: forms/list_forms.py:526 forms/list_forms.py:659 forms/list_forms.py:666
+#: forms/list_forms.py:719 forms/list_forms.py:809 forms/list_forms.py:820
+#: forms/list_forms.py:840 forms/list_forms.py:860 forms/list_forms.py:925
+#: forms/list_forms.py:964 forms/list_forms.py:981 forms/list_forms.py:1059
+#: forms/list_forms.py:1070 forms/list_forms.py:1084 forms/list_forms.py:1096
+#: forms/list_forms.py:1110 forms/list_forms.py:1121 forms/list_forms.py:1144
+#: forms/list_forms.py:1206 forms/list_forms.py:1215 forms/list_forms.py:1239
+#: forms/list_forms.py:1308 forms/user_forms.py:63
+msgid "No"
+msgstr ""
+
+#: forms/list_forms.py:286
+msgid "Process Bounces"
+msgstr ""
+
+#: forms/list_forms.py:288
+msgid ""
+"Specifies whether or not this list should do automatic bounce processing."
+msgstr ""
+
+#: forms/list_forms.py:295
+msgid "Bounce score threshold"
+msgstr ""
+
+#: forms/list_forms.py:298
+msgid ""
+"This is the bounce score above which a member's subscription  will be "
+"automatically disabled. When the subscription is  re-enabled, their bounce "
+"score will be reset to zero."
+msgstr ""
+
+#: forms/list_forms.py:305
+msgid "Bounce info stale after"
+msgstr ""
+
+#: forms/list_forms.py:308
+msgid ""
+"The number of days after which a member's bounce information is considered "
+"stale. If no new bounces have been received in the interim, the bounce score "
+"is reset to zero. This value must be an integer. "
+msgstr ""
+
+#: forms/list_forms.py:318
+msgid "Notify owner on bounce increment"
+msgstr ""
+
+#: forms/list_forms.py:320
+msgid ""
+"This option controls whether or not the list owner is notified when a "
+"member's bounce score is incremented, but to a value less than their bounce "
+"threshold. "
+msgstr ""
+
+#: forms/list_forms.py:329
+msgid "Notify owner on disable"
+msgstr ""
+
+#: forms/list_forms.py:331
+msgid ""
+"This option controls whether or not the list owner is notified when a "
+"member's subscription is automatically disabled due to their bounce "
+"threshold being reached. "
+msgstr ""
+
+#: forms/list_forms.py:340
+msgid "Notify owner on removal"
+msgstr ""
+
+#: forms/list_forms.py:342
+msgid ""
+"This option controls whether or not the list owner is notified when a member "
+"is removed from the list after their disabled notifications have been "
+"exhausted. "
+msgstr ""
+
+#: forms/list_forms.py:351
+msgid "Forward unrecognized bounces"
+msgstr ""
+
+#: forms/list_forms.py:353
+msgid ""
+"Discard: Unrecognized bounces will be discarded\n"
+"List Admins: Send to the list owners and moderators\n"
+"Site Admin: Send to the site's configured site_owner"
+msgstr ""
+
+#: forms/list_forms.py:360
+msgid "Bounce disabled warnings interval"
+msgstr ""
+
+#: forms/list_forms.py:362
+msgid "The number of days between each disabled notification."
+msgstr ""
+
+#: forms/list_forms.py:367
+msgid "Bounce disable warnings"
+msgstr ""
+
+#: forms/list_forms.py:370
+msgid ""
+"The number of notices a disabled member will receive before their address is "
+"removed from the mailing list's roster. Set this to 0 to immediately remove "
+"an address from the list once their bounce score exceeds the threshold. This "
+"value must be an integer. "
+msgstr ""
+
+#: forms/list_forms.py:387
+msgid "Public archives"
+msgstr ""
+
+#: forms/list_forms.py:388
+msgid "Private archives"
+msgstr ""
+
+#: forms/list_forms.py:389
+msgid "Do not archive this list"
+msgstr ""
+
+#: forms/list_forms.py:393
+msgid "Plain text"
+msgstr ""
+
+#: forms/list_forms.py:394
+msgid "Markdown text"
+msgstr ""
+
+#: forms/list_forms.py:400
+msgid "Archive policy"
+msgstr ""
+
+#: forms/list_forms.py:401
+msgid "Policy for archiving messages for this list"
+msgstr ""
+
+#: forms/list_forms.py:406
+msgid "Active archivers"
+msgstr ""
+
+#: forms/list_forms.py:414
+msgid "Archive Rendering mode"
+msgstr ""
+
+#: forms/list_forms.py:416
+msgid ""
+"This option enables rendering of emails in archiver as rich text with "
+"formatting based on markup in the email.\n"
+"Currently, this option is only supported by Hyperkitty."
+msgstr ""
+
+#: forms/list_forms.py:453
+msgid "Acceptable aliases"
+msgstr ""
+
+#: forms/list_forms.py:456
+msgid ""
+"This is a list, one per line, of addresses and regexps matching addresses "
+"that are acceptable in To: or Cc: in lieu of the list posting address when "
+"`require_explicit_destination' is enabled.  Entries are either email "
+"addresses or regexps matching email addresses.  Regexps are entries "
+"beginning with `^' and are matched against every recipient address in the "
+"message. The matching is performed with Python's re.match() function, "
+"meaning they are anchored to the start of the string."
+msgstr ""
+
+#: forms/list_forms.py:469
+msgid "Require Explicit Destination"
+msgstr ""
+
+#: forms/list_forms.py:471
+msgid ""
+"This checks to ensure that the list posting address or an acceptable alias "
+"explicitly appears in a To: or Cc: header in the post."
+msgstr ""
+
+#: forms/list_forms.py:479
+msgid "Administrivia"
+msgstr ""
+
+#: forms/list_forms.py:481
+msgid ""
+"Administrivia tests will check postings to see whether it's really meant as "
+"an administrative request (like subscribe, unsubscribe, etc), and will add "
+"it to the administrative requests queue, notifying the administrator of the "
+"new request, in the process."
+msgstr ""
+
+#: forms/list_forms.py:490
+msgid "Default action to take when a member posts to the list"
+msgstr ""
+
+#: forms/list_forms.py:492
+msgid "Please choose a default member action."
+msgstr ""
+
+#: forms/list_forms.py:497
+msgid ""
+"Default action to take when a member posts to the list.\n"
+"Hold: This holds the message for approval by the list moderators.\n"
+"Reject: this automatically rejects the message by sending a bounce notice to "
+"the post's author. The text of the bounce notice can be configured by you.\n"
+"Discard: this simply discards the message, with no notice sent to the post's "
+"author.\n"
+"Accept: accepts any postings without any further checks.\n"
+"Default Processing: run additional checks and accept the message."
+msgstr ""
+
+#: forms/list_forms.py:512
+msgid "Default action to take when a non-member posts to the list"
+msgstr ""
+
+#: forms/list_forms.py:514
+msgid "Please choose a default non-member action."
+msgstr ""
+
+#: forms/list_forms.py:519
+msgid ""
+"When a post from a non-member is received, the message's sender is matched "
+"against the list of explicitly accepted, held, rejected (bounced), and "
+"discarded addresses. If no match is found, then this action is taken."
+msgstr ""
+
+#: forms/list_forms.py:528
+msgid "Emergency Moderation"
+msgstr ""
+
+#: forms/list_forms.py:530
+msgid ""
+"When this option is enabled, all list traffic is emergency moderated, i.e. "
+"held for moderation. Turn this option on when your list is experiencing a "
+"flamewar and you want a cooling off period. "
+msgstr ""
+
+#: forms/list_forms.py:538
+msgid "Maximum message size"
+msgstr ""
+
+#: forms/list_forms.py:541
+msgid ""
+"The maximum allowed message size in KB. This can be used to prevent emails "
+"with large attachments. A size of 0 disables the check."
+msgstr ""
+
+#: forms/list_forms.py:548
+msgid "Maximum number of recipients"
+msgstr ""
+
+#: forms/list_forms.py:551
+msgid ""
+"If a post has this many or more explicit recipients (To: and Cc:), the post "
+"will be held for moderation. This can be used to prevent mass mailings from "
+"being accepted. A value of 0 disables the check."
+msgstr ""
+
+#: forms/list_forms.py:560
+msgid "Discard held posts after"
+msgstr ""
+
+#: forms/list_forms.py:563
+msgid ""
+"No. of days after which held messages will be automatically discarded.  Set "
+"to zero for no automatic discard."
+msgstr ""
+
+#: forms/list_forms.py:567
+msgid "Accept these non-members"
+msgstr ""
+
+#: forms/list_forms.py:570
+msgid ""
+"This is a list, one per line, of regexps matching addresses or other lists "
+"on this server whose members are allowed to post to this mailing list "
+"without subscribing to the list. Entries beginning with `^' are regexps and "
+"are matched against the sender addresses in the message. Entries beginning "
+"with `@' are other mailman lists on this server whose members will be "
+"matched. While non-regexp addresses can be entered here, it is preferred to "
+"add the address as a nonmember and set the nonmember's Moderation to Default "
+"Processing."
+msgstr ""
+
+#: forms/list_forms.py:585
+msgid "Hold these non-members"
+msgstr ""
+
+#: forms/list_forms.py:588
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are held automatically. Entries are regexps beginning with `^' "
+"and are matched against the sender addresses in the message. While non-"
+"regexp addresses can be entered here, it is preferred to add the address as "
+"a nonmember and set the nonmember's Moderation to Hold."
+msgstr ""
+
+#: forms/list_forms.py:599
+msgid "Reject these non-members"
+msgstr ""
+
+#: forms/list_forms.py:602
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are rejected with notice to the sender. Entries are regexps "
+"beginning with `^' and are matched against the sender addresses in the "
+"message. While non-regexp addresses can be entered here, it is preferred to "
+"add the address as a nonmember and set the nonmember's Moderation to Reject."
+msgstr ""
+
+#: forms/list_forms.py:614
+msgid "Discard these non-members"
+msgstr ""
+
+#: forms/list_forms.py:617
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are discarded automatically. Entries are regexps beginning with "
+"`^' and are matched against the sender addresses in the message. While non-"
+"regexp addresses can be entered here, it is preferred to add the address as "
+"a nonmember and set the nonmember's Moderation to Discard."
+msgstr ""
+
+#: forms/list_forms.py:641
+msgid "Invalid alias regexp: {}: {}"
+msgstr ""
+
+#: forms/list_forms.py:648
+msgid "Invalid alias email: {}"
+msgstr ""
+
+#: forms/list_forms.py:662
+msgid "Enable Digests"
+msgstr ""
+
+#: forms/list_forms.py:663
+msgid "Should Mailman enable digests for this MailingList?"
+msgstr ""
+
+#: forms/list_forms.py:669
+msgid "Send Digest Periodically"
+msgstr ""
+
+#: forms/list_forms.py:670
+msgid "Should Mailman send out digests periodically?"
+msgstr ""
+
+#: forms/list_forms.py:676
+msgid "Digest Volume Frequency"
+msgstr ""
+
+#: forms/list_forms.py:678
+msgid ""
+"At what frequency should Mailman increment the digest volume number and "
+"reset the issue number?"
+msgstr ""
+
+#: forms/list_forms.py:683
+msgid "Digest size threshold"
+msgstr ""
+
+#: forms/list_forms.py:685
+msgid "How big in Kb should a digest be before it gets sent out?"
+msgstr ""
+
+#: forms/list_forms.py:696
+msgid "DMARC mitigation action"
+msgstr ""
+
+#: forms/list_forms.py:700
+msgid "Please choose a DMARC mitigation action."
+msgstr ""
+
+#: forms/list_forms.py:703
+msgid "No DMARC mitigations"
+msgstr ""
+
+#: forms/list_forms.py:704
+msgid "Replace From: with list address"
+msgstr ""
+
+#: forms/list_forms.py:707
+msgid "Wrap the message in an outer message From: the list."
+msgstr ""
+
+#: forms/list_forms.py:709
+msgid "Reject the message"
+msgstr ""
+
+#: forms/list_forms.py:710
+msgid "Discard the message"
+msgstr ""
+
+#: forms/list_forms.py:713
+msgid ""
+"The action to apply to messages From: a domain publishing a DMARC policy of "
+"reject or quarantine or to all messages if DMARC Mitigate unconditionally is "
+"True."
+msgstr ""
+
+#: forms/list_forms.py:722
+msgid "DMARC Mitigate unconditionally"
+msgstr ""
+
+#: forms/list_forms.py:724
+msgid ""
+"If DMARC mitigation action is munge_from or wrap_message, should it apply to "
+"all messages regardless of the DMARC policy of the From: domain."
+msgstr ""
+
+#: forms/list_forms.py:730
+msgid "DMARC Addresses"
+msgstr ""
+
+#: forms/list_forms.py:733
+msgid ""
+"Email addresses and regexps matching email addresses, one per line. Regexps "
+"begin with '^' as in '^.*@example\\.com'. DMARC mitigation action will apply "
+"to posts From: an address matching, case insensitevely, one of these "
+"addresses or patterns regardless of the From: domain's DMARC policy."
+msgstr ""
+
+#: forms/list_forms.py:741
+msgid "DMARC rejection notice"
+msgstr ""
+
+#: forms/list_forms.py:745
+msgid ""
+"Text to replace the default reason in any rejection notice to be sent when "
+"DMARC mitigation action of reject applies."
+msgstr ""
+
+#: forms/list_forms.py:750
+msgid "DMARC wrapped message text"
+msgstr ""
+
+#: forms/list_forms.py:754
+msgid ""
+"Text to be added as a separate text/plain MIME part preceding the original "
+"message part in the wrapped message when DMARC mitigation action of wrap "
+"message applies."
+msgstr ""
+
+#: forms/list_forms.py:762 templates/postorius/lists/summary.html:146
+#: templates/postorius/lists/summary.html:155
+#: templatetags/membership_helpers.py:81 templatetags/membership_helpers.py:87
+msgid "None"
+msgstr ""
+
+#: forms/list_forms.py:763
+msgid "Individual"
+msgstr ""
+
+#: forms/list_forms.py:764
+msgid "Full"
+msgstr ""
+
+#: forms/list_forms.py:768
+msgid ""
+"\n"
+"    None: No personalization.\n"
+"\n"
+"    Individual: Everyone gets a unique copy of the message, and there are "
+"a           few more substitution variables, but no headers are modified.\n"
+"\n"
+"    Full: All of the 'individual' personalization plus recipient "
+"header           modification. "
+msgstr ""
+
+#: forms/list_forms.py:780 templates/postorius/lists/held_messages.html:30
+#: templates/postorius/lists/held_messages.html:121
+#: templates/postorius/lists/subscription_requests.html:46
+msgid "Reject"
+msgstr ""
+
+#: forms/list_forms.py:781
+msgid "Forward"
+msgstr ""
+
+#: forms/list_forms.py:782
+msgid "Preserve"
+msgstr ""
+
+#: forms/list_forms.py:786
+msgid ""
+"Action to take on messages which have no content\n"
+"after filtering.\n"
+" Discard = silently discard the message.\n"
+" Reject = discard the message and notify the sender.\n"
+" Forward = forward the message to the list owner(s).\n"
+" Preserve = save the message in qfiles/bad.\n"
+msgstr ""
+
+#: forms/list_forms.py:805
+msgid "Personalize"
+msgstr ""
+
+#: forms/list_forms.py:812
+msgid "Anonymous list"
+msgstr ""
+
+#: forms/list_forms.py:814
+msgid ""
+"Hide the sender of a message, replacing it with the list address (Removes "
+"From, Sender and Reply-To fields)"
+msgstr ""
+
+#: forms/list_forms.py:823
+msgid "Include RFC2369 headers"
+msgstr ""
+
+#: forms/list_forms.py:825
+msgid ""
+"Yes is highly recommended. RFC 2369 defines a set of List-* headers that are "
+"normally added to every message sent to the list membership. These greatly "
+"aid end-users who are using standards compliant mail readers. They should "
+"normally always be enabled. However, not all mail readers are standards "
+"compliant yet, and if you have a large number of members who are using non-"
+"compliant mail readers, they may be annoyed at these headers. You should "
+"first try to educate your members as to why these headers exist, and how to "
+"hide them in their mail clients. As a last resort you can disable these "
+"headers, but this is not recommended (and in fact, your ability to disable "
+"these headers may eventually go away)."
+msgstr ""
+
+#: forms/list_forms.py:843
+msgid "Include the list post header"
+msgstr ""
+
+#: forms/list_forms.py:845
+msgid ""
+"This can be set to no for announce lists that do not wish to include the "
+"List-Post header because posting to the list is discouraged."
+msgstr ""
+
+#: forms/list_forms.py:851
+msgid "Explicit reply-to address"
+msgstr ""
+
+#: forms/list_forms.py:854
+msgid ""
+"This option allows admins to set an explicit Reply-to address. It is only "
+"used if the reply-to is set to use an explicitly set header"
+msgstr ""
+
+#: forms/list_forms.py:863
+msgid "First strip Reply-To"
+msgstr ""
+
+#: forms/list_forms.py:865
+msgid ""
+"Should any existing Reply-To: header found in the original message be "
+"stripped? If so, this will be done regardless of whether an explict Reply-"
+"To: header is added by Mailman or not."
+msgstr ""
+
+#: forms/list_forms.py:871 forms/list_forms.py:877
+msgid "Reply goes to list"
+msgstr ""
+
+#: forms/list_forms.py:874
+msgid "Please choose a reply-to action."
+msgstr ""
+
+#: forms/list_forms.py:876
+msgid "No Munging"
+msgstr ""
+
+#: forms/list_forms.py:878
+msgid "Explicit Reply-to header set"
+msgstr ""
+
+#: forms/list_forms.py:879
+msgid "Explicit Reply-to set; no Cc added"
+msgstr ""
+
+#: forms/list_forms.py:882
+msgid ""
+"Where are replies to list messages directed? No Munging is strongly "
+"recommended for most mailing lists. \n"
+"This option controls what Mailman does to the Reply-To: header in messages "
+"flowing through this mailing list. When set to No Munging, no Reply-To: "
+"header is added by Mailman, although if one is present in the original "
+"message, it is not stripped. Setting this value to either Reply to List, "
+"Explicit Reply, or Reply Only causes Mailman to insert a specific Reply-To: "
+"header in all messages, overriding the header in the original message if "
+"necessary (Explicit Reply inserts the value of reply_to_address). Explicit "
+"Reply-to set; no Cc added is useful forannounce-only lists where you want to "
+"avoid someone replying to the list address. There are many reasons not to "
+"introduce or override the Reply-To: header. One is that some posters depend "
+"on their own Reply-To: settings to convey their valid return address. "
+"Another is that modifying Reply-To: makes it much more difficult to send "
+"private replies. See <a href=\"http://marc.merlins.org/netrants/reply-to-"
+"harmful.html\">`Reply-To' Munging Considered Harmful</a> for a general "
+"discussion of this issue. See <a href=\"http://marc.merlins.org/netrants/"
+"reply-to-useful.html\">`Reply-To' Munging Considered Useful</a> for a "
+"dissenting opinion. Some mailing lists have restricted posting privileges, "
+"with a parallel list devoted to discussions. Examples are `patches' or "
+"`checkin' lists, where software changes are posted by a revision control "
+"system, but discussion about the changes occurs on a developers mailing "
+"list. To support these types of mailing lists, select Explicit Reply and set "
+"the Reply-To: address option to point to the parallel list."
+msgstr ""
+
+#: forms/list_forms.py:916
+msgid "Pipeline"
+msgstr ""
+
+#: forms/list_forms.py:922
+msgid "Type of pipeline you want to use for this mailing list"
+msgstr ""
+
+#: forms/list_forms.py:928
+msgid "Filter content"
+msgstr ""
+
+#: forms/list_forms.py:930
+msgid ""
+"Should Mailman filter the content of list traffic according to the settings "
+"below?\n"
+"<b>None of the settings below have any effect if this is No.</b>"
+msgstr ""
+
+#: forms/list_forms.py:936
+msgid "Filter types"
+msgstr ""
+
+#: forms/list_forms.py:939
+msgid ""
+"MIME types to filter from the incoming posts. A list of common types can be "
+"found <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\">here </a>"
+msgstr ""
+
+#: forms/list_forms.py:945
+msgid "Filter extensions"
+msgstr ""
+
+#: forms/list_forms.py:947
+msgid "Extensions to filter from the incoming posts."
+msgstr ""
+
+#: forms/list_forms.py:950
+msgid "Pass types"
+msgstr ""
+
+#: forms/list_forms.py:953
+msgid ""
+"MIME types to allow in the incoming posts. A list of common types can be "
+"found <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\">here </a>"
+msgstr ""
+
+#: forms/list_forms.py:959
+msgid "Pass extensions"
+msgstr ""
+
+#: forms/list_forms.py:961
+msgid "Extensions to allow in the incoming posts."
+msgstr ""
+
+#: forms/list_forms.py:967
+msgid "Collapse alternatives"
+msgstr ""
+
+#: forms/list_forms.py:969
+msgid ""
+"Should Mailman collapse multipart/alternative to its first part content?"
+msgstr ""
+
+#: forms/list_forms.py:977
+msgid "Filter Action"
+msgstr ""
+
+#: forms/list_forms.py:984
+msgid "Convert html to plaintext"
+msgstr ""
+
+#: forms/list_forms.py:986
+msgid ""
+"Should Mailman convert text/html parts to plain text? This conversion "
+"happens after MIME attachments have been stripped."
+msgstr ""
+
+#: forms/list_forms.py:999
+msgid "Respond and continue processing"
+msgstr ""
+
+#: forms/list_forms.py:1000
+msgid "Respond and discard message"
+msgstr ""
+
+#: forms/list_forms.py:1001
+msgid "No automatic response"
+msgstr ""
+
+#: forms/list_forms.py:1006
+msgid "Autorespond to list owner"
+msgstr ""
+
+#: forms/list_forms.py:1008
+msgid ""
+"Should Mailman send an auto-response to emails sent to the -owner address?"
+msgstr ""
+
+#: forms/list_forms.py:1013
+msgid "Autoresponse owner text"
+msgstr ""
+
+#: forms/list_forms.py:1016
+msgid "Auto-response text to send to -owner emails."
+msgstr ""
+
+#: forms/list_forms.py:1021
+msgid "Autorespond postings"
+msgstr ""
+
+#: forms/list_forms.py:1023
+msgid "Should Mailman send an auto-response to mailing list posters?"
+msgstr ""
+
+#: forms/list_forms.py:1027
+msgid "Autoresponse postings text"
+msgstr ""
+
+#: forms/list_forms.py:1030
+msgid "Auto-response text to send to mailing list posters."
+msgstr ""
+
+#: forms/list_forms.py:1035
+msgid "Autorespond requests"
+msgstr ""
+
+#: forms/list_forms.py:1037
+msgid ""
+"Should Mailman send an auto-response to emails sent to the -request address? "
+"If you choose yes, decide whether you want Mailman to discard the original "
+"email, or forward it on to the system as a normal mail command."
+msgstr ""
+
+#: forms/list_forms.py:1044
+msgid "Autoresponse request text"
+msgstr ""
+
+#: forms/list_forms.py:1047
+msgid "Auto-response text to send to -request emails."
+msgstr ""
+
+#: forms/list_forms.py:1050
+msgid "Autoresponse grace period"
+msgstr ""
+
+#: forms/list_forms.py:1052
+msgid ""
+"Number of days between auto-responses to either the mailing list or -"
+"request/-owner address from the same poster. Set to zero (or negative) for "
+"no grace period (i.e. auto-respond to every message)."
+msgstr ""
+
+#: forms/list_forms.py:1062
+msgid "Notify users of held messages"
+msgstr ""
+
+#: forms/list_forms.py:1064
+msgid ""
+"Should Mailman notify users about their messages held for approval. If you "
+"say 'No', no notifications will be sent to users about the pending approval "
+"on their messages."
+msgstr ""
+
+#: forms/list_forms.py:1073 forms/list_forms.py:1314
+msgid "Send welcome message"
+msgstr ""
+
+#: forms/list_forms.py:1075
+msgid ""
+"Send welcome message to newly subscribed members? Turn this off only if you "
+"plan on subscribing people manually and don't want them to know that you did "
+"so. Setting this to No is most useful for transparently migrating lists from "
+"some other mailing list manager to Mailman.\n"
+"The text of Welcome message can be set via the Templates tab."
+msgstr ""
+
+#: forms/list_forms.py:1087
+msgid "Send goodbye message"
+msgstr ""
+
+#: forms/list_forms.py:1089
+msgid ""
+"Send goodbye message to newly unsubscribed members? Turn this off only if "
+"you plan on unsubscribing people manually and don't want them to know that "
+"you did so.\n"
+"The text of Goodbye message can be set via the Templates tab."
+msgstr ""
+
+#: forms/list_forms.py:1098
+msgid "Admin immed notify"
+msgstr ""
+
+#: forms/list_forms.py:1100
+msgid ""
+"Should the list moderators get immediate notice of new requests, as well as "
+"daily notices about collected ones? List moderators (and list "
+"administrators) are sent daily reminders of requests pending approval, like "
+"subscriptions to a moderated list, or postings that are being held for one "
+"reason or another. Setting this option causes notices to be sent immediately "
+"on the arrival of new requests as well. "
+msgstr ""
+
+#: forms/list_forms.py:1112
+msgid "Admin notify held with attachment"
+msgstr ""
+
+#: forms/list_forms.py:1114
+msgid ""
+"If the above Admin immed notify setting is Yes, should the notice of a held "
+"message have the message attached.  You may want to set this to No if "
+"notices of held spammy messages are caught in the admin's spam filters."
+msgstr ""
+
+#: forms/list_forms.py:1123
+msgid "Notify admin of membership changes"
+msgstr ""
+
+#: forms/list_forms.py:1125
+msgid "Should administrator get notices of subscribes and unsubscribes?"
+msgstr ""
+
+#: forms/list_forms.py:1132
+msgid "Not Moderated"
+msgstr ""
+
+#: forms/list_forms.py:1133
+msgid "Moderated but allows for open posting"
+msgstr ""
+
+#: forms/list_forms.py:1134
+msgid "Moderated"
+msgstr ""
+
+#: forms/list_forms.py:1146
+msgid "Show list on index page"
+msgstr ""
+
+#: forms/list_forms.py:1148
+msgid "Choose whether to include this list on the list of all lists"
+msgstr ""
+
+#: forms/list_forms.py:1155
+msgid ""
+"This description is used when the mailing list is listed with other mailing "
+"lists, or in headers, and so forth. It should be as succinct as you can get "
+"it, while still identifying what the list is."
+msgstr ""
+
+#: forms/list_forms.py:1162
+#, fuzzy
+#| msgid "Description"
+msgid "Long Description"
+msgstr "Beskrivning"
+
+#: forms/list_forms.py:1163
+msgid "A longer description of this mailing list."
+msgstr ""
+
+#: forms/list_forms.py:1168
+msgid "Display name"
+msgstr ""
+
+#: forms/list_forms.py:1170
+msgid "Display name is the name shown in the web interface."
+msgstr ""
+
+#: forms/list_forms.py:1173
+msgid "Subject prefix"
+msgstr ""
+
+#: forms/list_forms.py:1178
+msgid "Preferred Language"
+msgstr ""
+
+#: forms/list_forms.py:1184
+msgid "Members List Visibility"
+msgstr ""
+
+#: forms/list_forms.py:1189
+msgid "Who is allowed to see members list for this MailingList?"
+msgstr ""
+
+#: forms/list_forms.py:1208
+msgid "Gateway to mail"
+msgstr ""
+
+#: forms/list_forms.py:1210
+msgid ""
+"Flag indicating that posts to the linked newsgroup should be gated to the "
+"list"
+msgstr ""
+
+#: forms/list_forms.py:1217
+msgid "Gateway to news"
+msgstr ""
+
+#: forms/list_forms.py:1219
+msgid ""
+"Flag indicating that posts to the list should be gated to the linked "
+"newsgroup."
+msgstr ""
+
+#: forms/list_forms.py:1224
+msgid "Linked Newsgroup"
+msgstr ""
+
+#: forms/list_forms.py:1226
+msgid "The name of the linked newsgroup."
+msgstr ""
+
+#: forms/list_forms.py:1229
+msgid "Newsgroup moderation"
+msgstr ""
+
+#: forms/list_forms.py:1234
+msgid "The moderation policy for the linked newsgroup, if there is one."
+msgstr ""
+
+#: forms/list_forms.py:1241
+msgid "NNTP Include subject prefix "
+msgstr ""
+
+#: forms/list_forms.py:1243
+msgid ""
+"Flag indicating whether the list's \"Subject Prefix\" should be included in "
+"posts gated to usenet."
+msgstr ""
+
+#: forms/list_forms.py:1253
+msgid "Emails to mass subscribe"
+msgstr ""
+
+#: forms/list_forms.py:1255
+msgid ""
+"The following formats are accepted:\n"
+"jdoe@example.com\n"
+"&lt;jdoe@example.com&gt;\n"
+"John Doe &lt;jdoe@example.com&gt;\n"
+"\"John Doe\" &lt;jdoe@example.com&gt;\n"
+"jdoe@example.com (John Doe)\n"
+"Use the last three to associate a display name with the address\n"
+msgstr ""
+
+#: forms/list_forms.py:1266
+msgid "Pre confirm"
+msgstr ""
+
+#: forms/list_forms.py:1269
+msgid "If checked, users will not have to confirm their subscription."
+msgstr ""
+
+#: forms/list_forms.py:1275
+msgid "Pre approved"
+msgstr ""
+
+#: forms/list_forms.py:1278
+msgid ""
+"If checked, moderators will not have to approve the subscription request."
+msgstr ""
+
+#: forms/list_forms.py:1285
+msgid "Pre Verified"
+msgstr ""
+
+#: forms/list_forms.py:1288
+msgid ""
+"If checked, users will not have to verify that their email address is valid."
+msgstr ""
+
+#: forms/list_forms.py:1295
+msgid "Invitation"
+msgstr ""
+
+#: forms/list_forms.py:1298
+msgid ""
+"If checked, the other checkboxes are ignored and the users will be sent an "
+"invitation to join the list and will be subscribed upon acceptance thereof."
+msgstr ""
+
+#: forms/list_forms.py:1316
+msgid ""
+"If set to \"Yes\" or \"No\", List's default setting of send_welcome_message "
+"will be ignored for these subscribers and a welcome message will be sent or "
+"not sent based on the choice."
+msgstr ""
+
+#: forms/list_forms.py:1356
+msgid "Emails to Unsubscribe"
+msgstr ""
+
+#: forms/list_forms.py:1357
+msgid "Add one email address on each line"
+msgstr ""
+
+#: forms/list_forms.py:1373
+msgid "Default antispam action"
+msgstr ""
+
+#: forms/list_forms.py:1378
+msgid "Header"
+msgstr ""
+
+#: forms/list_forms.py:1379
+msgid "Email header to filter on (case-insensitive)."
+msgstr ""
+
+#: forms/list_forms.py:1381
+msgid "Please enter a header."
+msgstr ""
+
+#: forms/list_forms.py:1382
+msgid "Please enter a valid header."
+msgstr ""
+
+#: forms/list_forms.py:1386
+msgid "Pattern"
+msgstr ""
+
+#: forms/list_forms.py:1388
+msgid "Regular expression matching the header's value (case-insensitive)."
+msgstr ""
+
+#: forms/list_forms.py:1392
+msgid "Please enter a pattern."
+msgstr ""
+
+#: forms/list_forms.py:1393
+msgid "Please enter a valid pattern."
+msgstr ""
+
+#: forms/list_forms.py:1397 templates/postorius/domain/index.html:27
+msgid "Action"
+msgstr ""
+
+#: forms/list_forms.py:1398
+msgid "Please enter a valid action."
+msgstr ""
+
+#: forms/list_forms.py:1401
+msgid "Action to take when a header matches"
+msgstr ""
+
+#: forms/list_forms.py:1436
+msgid "Select Email"
+msgstr ""
+
+#: forms/list_forms.py:1462
+msgid "Data"
+msgstr ""
+
+#: forms/member_forms.py:28
+msgid "Email Address"
+msgstr ""
+
+#: forms/member_forms.py:35 forms/user_forms.py:341
+msgid "Display Name"
+msgstr ""
+
+#: forms/member_forms.py:37
+#, fuzzy
+#| msgid "Please enter a domain name"
+msgid "Please enter a display name."
+msgstr "Vänligen fyll i ett domännamn"
+
+#: forms/system.py:32
+msgid "Add ban"
+msgstr ""
+
+#: forms/system.py:34
+msgid ""
+"You can ban a single email address or use a regular expression to match "
+"similar email addresses."
+msgstr ""
+
+#: forms/user_forms.py:70
+msgid "Receive own postings"
+msgstr ""
+
+#: forms/user_forms.py:72
+msgid ""
+"Ordinarily, you will get a copy of every message you post to the list. If "
+"you don't want to receive this copy, set this option to No."
+msgstr ""
+
+#: forms/user_forms.py:80
+msgid "Acknowledge posts"
+msgstr ""
+
+#: forms/user_forms.py:82
+msgid "Receive acknowledgement mail when you send mail to the list?"
+msgstr ""
+
+#: forms/user_forms.py:88
+msgid "Hide address"
+msgstr ""
+
+#: forms/user_forms.py:90
+msgid ""
+"When other members allowed to view the list membership, your email address "
+"is normally shown. If you do not want your email address to show up on this "
+"membership roster, select Yes for this option."
+msgstr ""
+
+#: forms/user_forms.py:99
+msgid "Receive list copies (possible duplicates)"
+msgstr ""
+
+#: forms/user_forms.py:101
+msgid ""
+"When you are listed explicitly in the To: or Cc: headers of a list message, "
+"you can opt to not receive another copy from the mailing list. Select Yes to "
+"receive copies. Select No to avoid receiving copies from the mailing list"
+msgstr ""
+
+#: forms/user_forms.py:112
+msgid "Preferred language"
+msgstr ""
+
+#: forms/user_forms.py:114
+msgid ""
+"Preferred language for your interactions with Mailman. When this is set, it "
+"will override the MailingList's preferred language. This affects which "
+"language is used for your email notifications and such."
+msgstr ""
+
+#: forms/user_forms.py:170
+msgid "Cannot set delivery_status to {}"
+msgstr ""
+
+#: forms/user_forms.py:268
+msgid "Verified"
+msgstr ""
+
+#: forms/user_forms.py:269
+msgid "Specifies whether or not this email address is verified"
+msgstr ""
+
+#: forms/validators.py:39
+#, python-brace-format
+msgid "Invalid: \"{0}\" should be either email or UUID"
+msgstr ""
+
+#: models.py:43
+msgid ""
+"Note: Do not add any secret content in templates as they are publicly "
+"accessible.\n"
+"You can use these variables in the templates. \n"
+"$hyperkitty_url: Permalink to archived message in Hyperkitty  - only in list:"
+"member:regular:footer and list:member:regular:header\n"
+"$listname: Name of the Mailing List e.g. ant@example.com \n"
+"$list_id: The List-ID header e.g. ant.example.com \n"
+"$display_name: Display name of the mailing list e.g. Ant \n"
+"$short_listname: Local part of the listname e.g. ant \n"
+"$domain: The domain part of the listname e.g. example.com \n"
+"$description: The mailing list's short description text \n"
+"$info: The mailing list's longer descriptive text \n"
+"$request_email: The email address for -request address \n"
+"$owner_email: The email address for -owner address \n"
+"$site_email: The email address to reach the owners of the site \n"
+"$language: The two letter language code for list's preferred language e.g. "
+"fr, en, de \n"
+"Some templates accept additional variables. See <a href=\"https://docs."
+"mailman3.org/projects/mailman/en/latest/src/mailman/rest/docs/templates."
+"html#templated-texts\">this doc</a> \n"
+msgstr ""
+
+#: models.py:80
+msgid "owner"
+msgstr ""
+
+#: models.py:81
+#, fuzzy
+#| msgid "Members"
+msgid "member"
+msgstr "Medlemmar"
+
+#: models.py:82
+#, fuzzy
+#| msgid "Non-Members"
+msgid "nonmember"
+msgstr "Icke-medlemmar"
+
+#: models.py:83
+#, fuzzy
+#| msgid "Moderators"
+msgid "moderator"
+msgstr "Moderatorer"
+
+#: models.py:261
+msgid "Choose the template you want to customize."
+msgstr ""
+
+#: models.py:271
+msgid ""
+"Language for the template, this should be the list's preferred language."
+msgstr ""
+
+#: template_list.py:28
+msgid ""
+"Sent to the list administrators when moderator approval for a posting is "
+"required."
+msgstr ""
+
+#: template_list.py:34
+msgid ""
+"Sent to the list administrators when moderator approval for a subscription "
+"request is required."
+msgstr ""
+
+#: template_list.py:40
+msgid ""
+"Sent to the list administrators when moderator approval for an "
+"unsubscription request is required."
+msgstr ""
+
+#: template_list.py:46
+msgid ""
+"Sent to the list administrators to notify them when a new member has been "
+"subscribed."
+msgstr ""
+
+#: template_list.py:52
+msgid ""
+"Sent to the list administrators when a bounce message in an unrecognized "
+"format has been received."
+msgstr ""
+
+#: template_list.py:58
+msgid "Sent to the list administrators from the 'mailman notify' command."
+msgstr ""
+
+#: template_list.py:64
+msgid ""
+"Sent to the list administrators to notify them when a member's bounce score "
+"is incremented."
+msgstr ""
+
+#: template_list.py:70
+msgid ""
+"Sent to the list administrators to notify them when a member's delivery is "
+"disabled due to excessive bounces."
+msgstr ""
+
+#: template_list.py:76
+msgid ""
+"Sent to the list administrators to notify them when a member has been "
+"unsubscribed."
+msgstr ""
+
+#: template_list.py:79
+msgid "The footer for a digest message."
+msgstr ""
+
+#: template_list.py:80
+msgid "The header for a digest message."
+msgstr ""
+
+#: template_list.py:84
+msgid ""
+"The digest “masthead”; i.e. a common introduction for all digest messages."
+msgstr ""
+
+#: template_list.py:89
+msgid "The footer for a regular (non-digest) message."
+msgstr ""
+
+#: template_list.py:93
+msgid "The header for a regular (non-digest) message."
+msgstr ""
+
+#: template_list.py:98
+msgid ""
+"The message sent to subscribers when a subscription confirmation is required."
+msgstr ""
+
+#: template_list.py:104
+msgid ""
+"The message sent to subscribers when an unsubscription confirmation is "
+"required."
+msgstr ""
+
+#: template_list.py:110
+msgid "The message sent to subscribers when they are invited to join a list."
+msgstr ""
+
+#: template_list.py:116
+msgid "The notice sent to a member when they unsubscribe from a mailing list."
+msgstr ""
+
+#: template_list.py:122
+msgid ""
+"The notice sent to a poster when their message is being held for moderator "
+"approval."
+msgstr ""
+
+#: template_list.py:128
+msgid ""
+"Sent to a user when the maximum number of autoresponses has been reached for "
+"that day."
+msgstr ""
+
+#: template_list.py:134
+msgid ""
+"Notice sent to a poster when their message has been received by the mailing "
+"list."
+msgstr ""
+
+#: template_list.py:140
+msgid ""
+"A bounce probe sent to a member when their subscription has been disabled "
+"due to bounces."
+msgstr ""
+
+#: template_list.py:146
+msgid ""
+"Notice sent to a poster when their message has been rejected by the list’s "
+"moderator."
+msgstr ""
+
+#: template_list.py:152
+msgid ""
+"Notice sent to a poster when their message has been rejected automatically."
+msgstr ""
+
+#: template_list.py:158
+msgid ""
+"The notice sent to a member when they are subscribed to the mailing list."
+msgstr ""
+
+#: template_list.py:164
+msgid ""
+"The notice sent to a member when their membership has been disabled due to "
+"excessive bounces."
+msgstr ""
+
+#: templates/403.html:5
+msgid "Forbidden"
+msgstr ""
+
+#: templates/404.html:5
+msgid "Page not found"
+msgstr ""
+
+#: templates/404.html:6
+msgid "This page either doesn't exist, or it moved somewhere else."
+msgstr ""
+
+#: templates/500.html:18
+msgid "Server error"
+msgstr ""
+
+#: templates/500.html:19
+msgid "An error occurred while processing your request."
+msgstr ""
+
+#: templates/postorius/bans.html:5 templates/postorius/bans.html:10
+msgid "Global Bans"
+msgstr ""
+
+#: templates/postorius/base.html:28
+msgid "Mailman logo"
+msgstr ""
+
+#: templates/postorius/base.html:34 templates/postorius/base.html:117
+#: templates/postorius/lists/summary.html:110
+#, fuzzy
+#| msgid "Sign Up"
+msgid "Sign In"
+msgstr "Registrera"
+
+#: templates/postorius/base.html:38 templates/postorius/base.html:121
+msgid "Sign Up"
+msgstr "Registrera"
+
+#: templates/postorius/base.html:53 templates/postorius/base.html:130
+#: templates/postorius/base.html:158
+msgid "Account"
+msgstr "Konto"
+
+#: templates/postorius/base.html:57 templates/postorius/base.html:134
+#: templates/postorius/base.html:162
+msgid "Mailman settings"
+msgstr ""
+
+#: templates/postorius/base.html:62 templates/postorius/base.html:139
+#: templates/postorius/base.html:167
+msgid "Posting activity"
+msgstr ""
+
+#: templates/postorius/base.html:68 templates/postorius/base.html:144
+#: templates/postorius/base.html:173
+#, fuzzy
+#| msgid "Sign Up"
+msgid "Sign Out"
+msgstr "Registrera"
+
+#: templates/postorius/base.html:78
+msgid "Lists"
+msgstr ""
+
+#: templates/postorius/base.html:84 templates/postorius/domain/index.html:5
+#: templates/postorius/domain/index.html:11
+msgid "Domains"
+msgstr ""
+
+#: templates/postorius/base.html:90
+msgid "Bans"
+msgstr ""
+
+#: templates/postorius/base.html:96
+msgid "System Information"
+msgstr ""
+
+#: templates/postorius/base.html:102 templates/postorius/menu/list_nav.html:65
+#: templates/postorius/user/all.html:8 templates/postorius/user/all.html:13
+msgid "Users"
+msgstr "Användare"
+
+#: templates/postorius/base.html:109 templates/postorius/lists/summary.html:33
+msgid "Archives"
+msgstr ""
+
+#: templates/postorius/base.html:197
+msgid "Postorius Documentation"
+msgstr ""
+
+#: templates/postorius/base.html:201
+msgid "Postorius Version"
+msgstr ""
+
+#: templates/postorius/base.html:204
+msgid "Happy Mailman Day!"
+msgstr ""
+
+#: templates/postorius/domain/confirm_delete.html:5
+msgid "Confirm domain removal"
+msgstr ""
+
+#: templates/postorius/domain/confirm_delete.html:13
+msgid "Confirm deletion"
+msgstr ""
+
+#: templates/postorius/domain/confirm_delete.html:17
+msgid "Are you sure you want to permanently delete"
+msgstr ""
+
+#: templates/postorius/domain/confirm_delete.html:21
+#, python-format
+msgid ""
+"\n"
+"        This would delete %(size)s lists, some of which are:\n"
+"      "
+msgstr ""
+
+#: templates/postorius/domain/confirm_delete.html:33
+#: templates/postorius/domain/index.html:61
+#: templates/postorius/domain/template_index.html:35
+#: templates/postorius/lists/confirm_delete.html:5
+#: templates/postorius/lists/members.html:168
+#: templates/postorius/lists/members.html:179
+#: templates/postorius/lists/template_list.html:33
+#: templates/postorius/menu/list_nav.html:103
+msgid "Delete"
+msgstr ""
+
+#: templates/postorius/domain/confirm_delete.html:34
+#: templates/postorius/domain/template_delete.html:28
+#: templates/postorius/lists/confirm_delete.html:26
+#: templates/postorius/lists/confirm_remove_role.html:23
+#: templates/postorius/lists/confirm_removeall_subscribers.html:22
+#: templates/postorius/lists/template_delete.html:25
+#: templates/postorius/user/confirm_delete.html:23
+msgid "Cancel"
+msgstr ""
+
+#: templates/postorius/domain/edit.html:6
+#: templates/postorius/domain/edit.html:12
+msgid "Edit domain"
+msgstr ""
+
+#: templates/postorius/domain/edit.html:17
+#: templates/postorius/lists/template_update.html:20
+#: templates/postorius/user/manage.html:16
+#: templates/postorius/user/manage.html:46
+#: templates/postorius/user/manage.html:82
+msgid "Update"
+msgstr ""
+
+#: templates/postorius/domain/index.html:14
+msgid "Add Domain"
+msgstr ""
+
+#: templates/postorius/domain/index.html:26
+#: templates/postorius/menu/list_nav.html:71
+#: templates/postorius/menu/list_nav.html:77
+msgid "Owners"
+msgstr ""
+
+#: templates/postorius/domain/index.html:40
+#: templates/postorius/domain/index.html:60
+#: templates/postorius/domain/template_index.html:34
+#: templates/postorius/lists/template_list.html:32
+msgid "Edit"
+msgstr ""
+
+#: templates/postorius/domain/index.html:52
+msgid "remove"
+msgstr ""
+
+#: templates/postorius/domain/index.html:56
+msgid "Add"
+msgstr ""
+
+#: templates/postorius/domain/index.html:59
+#: templates/postorius/domain/template_add.html:6
+#: templates/postorius/domain/template_delete.html:6
+#: templates/postorius/domain/template_index.html:6
+#: templates/postorius/domain/template_index.html:11
+#: templates/postorius/lists/template_add.html:7
+#: templates/postorius/lists/template_delete.html:7
+#: templates/postorius/lists/template_list.html:7
+#: templates/postorius/lists/template_update.html:7
+#: templates/postorius/menu/list_nav.html:85 templatetags/nav_helpers.py:39
+msgid "Templates"
+msgstr ""
+
+#: templates/postorius/domain/index.html:69
+msgid "No domains yet."
+msgstr ""
+
+#: templates/postorius/domain/new.html:6
+msgid "Add domain"
+msgstr ""
+
+#: templates/postorius/domain/new.html:12
+msgid "Add a new domain"
+msgstr ""
+
+#: templates/postorius/domain/new.html:17
+#, fuzzy
+#| msgid "Created at"
+msgid "Create domain"
+msgstr "Skapad"
+
+#: templates/postorius/domain/owners.html:6
+msgid "Add domain owner "
+msgstr ""
+
+#: templates/postorius/domain/owners.html:12
+msgid "Add a new owner to"
+msgstr ""
+
+#: templates/postorius/domain/template_add.html:17
+#: templates/postorius/domain/template_delete.html:16
+#: templates/postorius/lists/template_delete.html:13
+#: templates/postorius/lists/template_update.html:13
+#, python-format
+msgid "Template '%(name)s'"
+msgstr ""
+
+#: templates/postorius/domain/template_add.html:25
+#: templates/postorius/lists/template_add.html:16
+#: templates/postorius/user/address_preferences.html:64
+#: templates/postorius/user/subscription_preferences.html:75
+msgid "Save"
+msgstr "Spara"
+
+#: templates/postorius/domain/template_delete.html:11
+msgid "Delete Template"
+msgstr ""
+
+#: templates/postorius/domain/template_delete.html:22
+#, python-format
+msgid ""
+"\n"
+"           Are you sure you want to delete the \"%(name)s\" template\n"
+"           for domain \"%(identifier)s\"?\n"
+"           "
+msgstr ""
+
+#: templates/postorius/domain/template_index.html:16
+#: templates/postorius/lists/template_list.html:15
+msgid "New Template"
+msgstr ""
+
+#: templates/postorius/domain/template_index.html:25
+#: templates/postorius/lists/template_list.html:24
+msgid "Template Name"
+msgstr ""
+
+#: templates/postorius/domain/template_index.html:45
+#: templates/postorius/lists/template_list.html:41
+msgid "No Templates."
+msgstr ""
+
+#: templates/postorius/errors/generic.html:5
+msgid "Something went wrong"
+msgstr ""
+
+#: templates/postorius/fragments/bans.html:14
+msgid "Ban email"
+msgstr ""
+
+#: templates/postorius/fragments/bans.html:22
+msgid "Currently banned addresses"
+msgstr ""
+
+#: templates/postorius/fragments/bans.html:35
+msgid "Un-ban this address"
+msgstr ""
+
+#: templates/postorius/fragments/bans.html:46
+msgid "No addresses are currently banned."
+msgstr ""
+
+#: templates/postorius/index.html:7
+msgid "List Index"
+msgstr ""
+
+#: templates/postorius/index.html:13
+msgid "Mailing Lists"
+msgstr ""
+
+#: templates/postorius/index.html:21
+msgid "Role: "
+msgstr ""
+
+#: templates/postorius/index.html:42
+msgid "Owner"
+msgstr ""
+
+#: templates/postorius/index.html:47
+#, fuzzy
+#| msgid "Moderators"
+msgid "Moderator"
+msgstr "Moderatorer"
+
+#: templates/postorius/index.html:52
+#, fuzzy
+#| msgid "Members"
+msgid "Member"
+msgstr "Medlemmar"
+
+#: templates/postorius/index.html:57
+#, fuzzy
+#| msgid "Non-Members"
+msgid "Non-member"
+msgstr "Icke-medlemmar"
+
+#: templates/postorius/index.html:60
+msgid "All"
+msgstr ""
+
+#: templates/postorius/index.html:73
+msgid "Create New Domain"
+msgstr ""
+
+#: templates/postorius/index.html:75
+msgid "Create New List"
+msgstr ""
+
+#: templates/postorius/index.html:87
+msgid "List name"
+msgstr ""
+
+#: templates/postorius/index.html:88
+msgid "Post address"
+msgstr ""
+
+#: templates/postorius/index.html:91 templates/postorius/menu/list_nav.html:68
+#: templates/postorius/menu/list_nav.html:74
+#: templates/postorius/menu/list_nav.html:81
+msgid "Members"
+msgstr "Medlemmar"
+
+#: templates/postorius/index.html:92
+#: templates/postorius/lists/held_messages.html:11
+#: templates/postorius/menu/list_nav.html:53
+msgid "Held messages"
+msgstr ""
+
+#: templates/postorius/index.html:93 templates/postorius/menu/list_nav.html:14
+msgid "Subscription requests"
+msgstr ""
+
+#: templates/postorius/index.html:105
+msgid "unadvertised"
+msgstr ""
+
+#: templates/postorius/index.html:141
+msgid ""
+"Only lists that you are owner, moderator or subscriber for are shown here. "
+"Click to <a href=\"?all-lists\"> see all lists</a>."
+msgstr ""
+
+#: templates/postorius/index.html:145
+msgid "Only admins see unadvertised lists in the list index."
+msgstr ""
+
+#: templates/postorius/index.html:151
+msgid "There are currently no mailing lists."
+msgstr ""
+
+#: templates/postorius/lists/bans.html:8
+msgid "Banned addresses"
+msgstr ""
+
+#: templates/postorius/lists/confirm_delete.html:13
+msgid "Are you sure you want to permanently delete this list?"
+msgstr ""
+
+#: templates/postorius/lists/confirm_delete.html:14
+msgid "All settings and membership data will be lost!"
+msgstr ""
+
+#: templates/postorius/lists/confirm_delete.html:15
+msgid "Archives will NOT be deleted."
+msgstr ""
+
+#: templates/postorius/lists/confirm_delete.html:21
+#, python-format
+msgid ""
+"\n"
+"                Delete %(listname)s\n"
+"                "
+msgstr ""
+
+#: templates/postorius/lists/confirm_remove_role.html:5
+msgid "Confirm remove role"
+msgstr ""
+
+#: templates/postorius/lists/confirm_remove_role.html:15
+#, python-format
+msgid "Remove %(address)s as %(role_translated)s?"
+msgstr ""
+
+#: templates/postorius/lists/confirm_remove_role.html:19
+msgid "Are you sure?"
+msgstr ""
+
+#: templates/postorius/lists/confirm_remove_role.html:22
+#, python-format
+msgid " Remove %(role_translated)s"
+msgstr ""
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:6
+msgid "Unsubscribe all members"
+msgstr ""
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:14
+#, python-format
+msgid ""
+"\n"
+"        Warning! This will remove every member from %(listname)s!\n"
+"    "
+msgstr ""
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:21
+#: templates/postorius/lists/mass_removal.html:17
+#: templates/postorius/lists/members.html:63
+msgid "Remove ALL members"
+msgstr ""
+
+#: templates/postorius/lists/confirm_token.html:12
+#, python-format
+msgid ""
+"\n"
+"    Confirm subscription of %(addr)s to %(name)s(%(listid)s):\n"
+"    "
+msgstr ""
+
+#: templates/postorius/lists/confirm_token.html:16
+#, python-format
+msgid ""
+"\n"
+"    Confirm unsubscription of %(addr)s from %(name)s(%(listid)s):\n"
+"    "
+msgstr ""
+
+#: templates/postorius/lists/confirm_token.html:20
+#, python-format
+msgid ""
+"\n"
+"    Confirm token %(token)s:\n"
+"    "
+msgstr ""
+
+#: templates/postorius/lists/header_matches.html:7
+#: templates/postorius/menu/list_nav.html:102
+msgid "Header filters"
+msgstr ""
+
+#: templates/postorius/lists/header_matches.html:68
+#: templates/postorius/lists/memberoptions.html:20
+#: templates/postorius/lists/memberoptions.html:28
+#: templates/postorius/lists/settings.html:30
+#: templates/postorius/user/list_options.html:28
+#: templates/postorius/user/mailman_settings.html:23
+msgid "Save changes"
+msgstr ""
+
+#: templates/postorius/lists/header_matches.html:70
+msgid "Changes pending, click on the button to save them."
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:27
+msgid "Perform action on selected messages"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:29
+#: templates/postorius/lists/held_messages.html:120
+#: templates/postorius/lists/subscription_requests.html:42
+msgid "Accept"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:34
+msgid "Click the message's subject for more options."
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:41
+msgid "Subject"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:42
+msgid "Sender"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:43
+msgid "Reason"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:44
+msgid "Size"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:45
+msgid "Hold Date"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:57
+#: templates/postorius/lists/held_messages.html:65
+msgid "No Subject"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:95
+msgid "Attachments"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:106
+msgid "Set member moderation"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:112
+msgid "Rejection reason:"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:115
+msgid ""
+"Reason sent to the sender for message rejection. For other actions, this is "
+"ignored."
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:129
+msgid "Show Headers"
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:137
+msgid "There are currently no held messages."
+msgstr ""
+
+#: templates/postorius/lists/held_messages.html:144
+msgid "Message could not be retrieved"
+msgstr ""
+
+#: templates/postorius/lists/mass_removal.html:14
+msgid "Remove listed users"
+msgstr ""
+
+#: templates/postorius/lists/mass_subscribe.html:7
+#: templates/postorius/menu/list_nav.html:93
+#: templates/postorius/menu/list_nav.html:97
+msgid "Mass subscribe"
+msgstr ""
+
+#: templates/postorius/lists/mass_subscribe.html:16
+#, fuzzy
+#| msgid "Subscription settings"
+msgid "Subscribe users"
+msgstr "Prenumerationsinställningar"
+
+#: templates/postorius/lists/memberoptions.html:7
+#: templates/postorius/user/list_options.html:7
+msgid "Member options"
+msgstr ""
+
+#: templates/postorius/lists/memberoptions.html:15
+msgid "No Preferences Available"
+msgstr ""
+
+#: templates/postorius/lists/memberoptions.html:16
+msgid "You are not the owner for this list"
+msgstr ""
+
+#: templates/postorius/lists/members.html:8
+msgid "List members"
+msgstr ""
+
+#: templates/postorius/lists/members.html:44
+msgid "Search members..."
+msgstr ""
+
+#: templates/postorius/lists/members.html:60
+msgid "CSV Export"
+msgstr ""
+
+#: templates/postorius/lists/members.html:62
+msgid "Remove Selected"
+msgstr ""
+
+#: templates/postorius/lists/members.html:78
+#: templates/postorius/user/address_preferences.html:32
+#: templates/postorius/user/manage.html:61
+#: templates/postorius/user/manage.html:97
+msgid "Address"
+msgstr ""
+
+#: templates/postorius/lists/members.html:82
+msgid "Delivery Status"
+msgstr ""
+
+#: templates/postorius/lists/members.html:85
+#: templates/postorius/user/subscriptions.html:24
+msgid "Delivery Mode"
+msgstr ""
+
+#: templates/postorius/lists/members.html:88
+msgid "Moderation Action"
+msgstr ""
+
+#: templates/postorius/lists/members.html:93
+msgid "Bounce Score"
+msgstr ""
+
+#: templates/postorius/lists/members.html:119
+msgid "Masked per the user request"
+msgstr ""
+
+#: templates/postorius/lists/new.html:6 templates/postorius/lists/new.html:17
+msgid "Create list"
+msgstr ""
+
+#: templates/postorius/lists/new.html:12
+msgid "Create a new list"
+msgstr ""
+
+#: templates/postorius/lists/pending_confirmations.html:19
+#: templates/postorius/lists/subscription_requests.html:21
+msgid "E-Mail Address"
+msgstr ""
+
+#: templates/postorius/lists/pending_confirmations.html:20
+#: templates/postorius/lists/subscription_requests.html:23
+msgid "Actions"
+msgstr ""
+
+#: templates/postorius/lists/pending_confirmations.html:38
+#: templates/postorius/lists/subscription_requests.html:44
+msgid "Ban"
+msgstr ""
+
+#: templates/postorius/lists/pending_confirmations.html:48
+#: templates/postorius/lists/subscription_requests.html:57
+msgid "There are currently no subscription requests for this list."
+msgstr ""
+
+#: templates/postorius/lists/settings.html:7
+#: templates/postorius/menu/list_nav.html:86
+msgid "Settings"
+msgstr ""
+
+#: templates/postorius/lists/subscription_requests.html:22
+msgid "Date"
+msgstr ""
+
+#: templates/postorius/lists/subscription_requests.html:45
+msgid "Rejection reason"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:10
+#: templates/postorius/menu/list_nav.html:10
+msgid "Info"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:23
+msgid "To contact the list owners, use the following email address:"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:29
+msgid "You have to sign in to visit the archives of this list."
+msgstr ""
+
+#: templates/postorius/lists/summary.html:35
+#, python-format
+msgid ""
+"\n"
+"            <a class=\"btn btn-primary\" href=\"%(hyperkitty_list_url)s"
+"\">Archives</a>\n"
+"          "
+msgstr ""
+
+#: templates/postorius/lists/summary.html:47
+#: templates/postorius/lists/summary.html:104
+msgid "Subscription / Unsubscription"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:52
+#: templates/postorius/user/subscriptions.html:23
+msgid "Subscription Address"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:55
+#: templates/postorius/user/all.html:37
+msgid "Manage"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:56
+#: templates/postorius/lists/summary.html:77
+msgid "Unsubscribe"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:63
+#: templates/postorius/user/subscription_preferences.html:49
+msgid "Primary Address"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:71
+msgid "Manage Subscription"
+msgstr "Hantera prenumeration"
+
+#: templates/postorius/lists/summary.html:86
+msgid "Subscribe to this list"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:88
+#, python-format
+msgid ""
+"\n"
+"                To subscribe you can send an email with 'subscribe' in the "
+"subject to\n"
+"                <a href=\"mailto:%(address)s?subject=Subscribe\">"
+"%(address)s</a>\n"
+"                or use the form below:\n"
+"            "
+msgstr ""
+
+#: templates/postorius/lists/summary.html:96
+#: templates/postorius/lists/summary.html:124
+#, fuzzy
+#| msgid "Subscription"
+msgid "Subscribe"
+msgstr "Prenumeration"
+
+#: templates/postorius/lists/summary.html:100
+msgid ""
+"You have a subscription request pending. If you don't hear back soon, please "
+"contact the list owners."
+msgstr ""
+
+#: templates/postorius/lists/summary.html:105
+msgid ""
+"\n"
+"        To subscribe or unsubscribe from this list, please sign in first.\n"
+"        If you have not previously signed in, you may need to set up an "
+"account\n"
+"        with the appropriate email address.\n"
+"        "
+msgstr ""
+
+#: templates/postorius/lists/summary.html:116
+msgid ""
+"\n"
+"          You can also subscribe without creating an account.\n"
+"          If you wish to do so, please use the form below.\n"
+"          "
+msgstr ""
+
+#: templates/postorius/lists/summary.html:134
+msgid "List metrics"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:136
+msgid "Created at"
+msgstr "Skapad"
+
+#: templates/postorius/lists/summary.html:141
+msgid "Last post at"
+msgstr "Senaste meddelande"
+
+#: templates/postorius/lists/summary.html:150
+msgid "Digest last sent at"
+msgstr ""
+
+#: templates/postorius/lists/summary.html:159
+msgid "Volume"
+msgstr ""
+
+#: templates/postorius/lists/template_delete.html:19
+#, python-format
+msgid ""
+"\n"
+"     Are you sure you want to delete the \"%(name)s\" template\n"
+"     from list \"%(identifier)s\"?\n"
+"     "
+msgstr ""
+
+#: templates/postorius/menu/list_nav.html:24
+#: templates/postorius/menu/list_nav.html:41
+msgid "Pending Approval"
+msgstr ""
+
+#: templates/postorius/menu/list_nav.html:30
+#: templates/postorius/menu/list_nav.html:44
+msgid "Pending Confirmation"
+msgstr ""
+
+#: templates/postorius/menu/list_nav.html:33
+#: templates/postorius/menu/list_nav.html:47
+msgid "Unsubscription Requests"
+msgstr "Avprenumereringsbegäran"
+
+#: templates/postorius/menu/list_nav.html:69
+#: templates/postorius/menu/list_nav.html:75
+msgid "Non-Members"
+msgstr "Icke-medlemmar"
+
+#: templates/postorius/menu/list_nav.html:70
+#: templates/postorius/menu/list_nav.html:76
+msgid "Moderators"
+msgstr "Moderatorer"
+
+#: templates/postorius/menu/list_nav.html:90
+msgid "Mass operations"
+msgstr ""
+
+#: templates/postorius/menu/list_nav.html:94
+#: templates/postorius/menu/list_nav.html:98
+msgid "Mass removal"
+msgstr ""
+
+#: templates/postorius/menu/list_nav.html:101
+msgid "Ban List"
+msgstr ""
+
+#: templates/postorius/menu/user_nav.html:4
+msgid "Mailman Settings"
+msgstr ""
+
+#: templates/postorius/menu/user_nav.html:7
+#: templates/postorius/user/manage.html:49
+#: templates/postorius/user/subscriptions.html:8 templatetags/nav_helpers.py:43
+msgid "Subscriptions"
+msgstr "Prenumerationer"
+
+#: templates/postorius/menu/user_nav.html:8
+msgid "Global Mailman preferences"
+msgstr ""
+
+#: templates/postorius/menu/user_nav.html:9
+msgid "Address-based preferences"
+msgstr ""
+
+#: templates/postorius/menu/user_nav.html:10
+msgid "List-based preferences"
+msgstr ""
+
+#: templates/postorius/system_information.html:6
+msgid "System Configuration"
+msgstr ""
+
+#: templates/postorius/system_information.html:11
+msgid "Mailman System"
+msgstr ""
+
+#: templates/postorius/system_information.html:23
+msgid "Queues"
+msgstr ""
+
+#: templates/postorius/user/address_preferences.html:8
+#: templates/postorius/user/subscription_preferences.html:7
+msgid "Subscription preferences"
+msgstr "Prenumerationsinställningar"
+
+#: templates/postorius/user/address_preferences.html:17
+#: templates/postorius/user/mailman_settings.html:17
+#: templates/postorius/user/subscription_preferences.html:17
+msgid "No preferences available"
+msgstr "Inga inställningar tillgängliga"
+
+#: templates/postorius/user/address_preferences.html:18
+#: templates/postorius/user/mailman_settings.html:19
+#: templates/postorius/user/subscription_preferences.html:19
+msgid ""
+"You are not yet subscribed to any lists, so you have no Mailman preferences."
+msgstr ""
+"Du har ännu inte prenumererat på någon lista så du har inga inställningar i "
+"Mailman."
+
+#: templates/postorius/user/address_preferences.html:20
+msgid "Each email address can have specific Mailman preferences."
+msgstr ""
+
+#: templates/postorius/user/address_preferences.html:21
+msgid ""
+"Any options showing as not set here inherit at runtime from your global "
+"preferences (viewable on other tab)"
+msgstr ""
+
+#: templates/postorius/user/all.html:20
+msgid "Search"
+msgstr ""
+
+#: templates/postorius/user/all.html:35
+#, fuzzy
+#| msgid "Users"
+msgid "User"
+msgstr "Användare"
+
+#: templates/postorius/user/all.html:36
+#, fuzzy
+#| msgid "Created at"
+msgid "Created"
+msgstr "Skapad"
+
+#: templates/postorius/user/confirm_delete.html:9
+#: templates/postorius/user/confirm_delete.html:13
+#: templates/postorius/user/confirm_delete.html:22
+#: templates/postorius/user/manage.html:141
+#, fuzzy
+#| msgid "Account"
+msgid "Delete Account"
+msgstr "Konto"
+
+#: templates/postorius/user/confirm_delete.html:17
+msgid ""
+"Are you sure you want to delete this account? This will remove the account "
+"along with all its subscriptions."
+msgstr ""
+
+#: templates/postorius/user/list_options.html:14
+msgid "Subscription options for"
+msgstr "Prenumerationsval för"
+
+#: templates/postorius/user/list_options.html:15
+#: templates/postorius/user/subscription_preferences.html:22
+msgid ""
+"Any options showing as not set inherit at runtime from your global or "
+"address specific preferences (viewable on other tabs)"
+msgstr ""
+
+#: templates/postorius/user/list_options.html:19
+msgid "Use this form to change the email used for this subscription"
+msgstr ""
+
+#: templates/postorius/user/list_options.html:23
+#, fuzzy
+#| msgid "Mass Subscription"
+msgid "Change email used for subscription"
+msgstr "Massprenumeration"
+
+#: templates/postorius/user/mailman_settings.html:7
+msgid "Subscription settings"
+msgstr "Prenumerationsinställningar"
+
+#: templates/postorius/user/manage.html:8
+#, fuzzy
+#| msgid "Manage Subscription"
+msgid "Manage user"
+msgstr "Hantera prenumeration"
+
+#: templates/postorius/user/manage.html:18
+msgid "Addresses"
+msgstr ""
+
+#: templates/postorius/user/manage.html:28
+msgid "Email"
+msgstr ""
+
+#: templates/postorius/user/manage.html:60
+#: templates/postorius/user/manage.html:96
+msgid "List"
+msgstr ""
+
+#: templates/postorius/user/manage.html:62
+#: templates/postorius/user/manage.html:98
+#: templates/postorius/user/subscriptions.html:25
+msgid "Role"
+msgstr ""
+
+#: templates/postorius/user/manage.html:85
+#, fuzzy
+#| msgid "Mass Subscription"
+msgid "User has no subscriptions."
+msgstr "Massprenumeration"
+
+#: templates/postorius/user/manage.html:88
+#, fuzzy
+#| msgid "Owner's Email"
+msgid "Ownerships"
+msgstr "Ägarens e-post"
+
+#: templates/postorius/user/manage.html:111
+#, fuzzy
+#| msgid "Mass Subscription"
+msgid "User has no ownerships."
+msgstr "Massprenumeration"
+
+#: templates/postorius/user/manage.html:115
+#, fuzzy
+#| msgid "Account"
+msgid "Web Account"
+msgstr "Konto"
+
+#: templates/postorius/user/manage.html:118
+msgid "Username"
+msgstr "Användarnamn"
+
+#: templates/postorius/user/manage.html:122
+msgid "Superuser"
+msgstr ""
+
+#: templates/postorius/user/manage.html:126
+msgid "Last login"
+msgstr ""
+
+#: templates/postorius/user/manage.html:130
+msgid "Date joined"
+msgstr ""
+
+#: templates/postorius/user/manage.html:135
+#: templates/postorius/user/manage.html:138
+msgid "Change password"
+msgstr ""
+
+#: templates/postorius/user/subscription_preferences.html:21
+msgid "Each list subscription can have specific Mailman preferences."
+msgstr ""
+
+#: templates/postorius/user/subscription_preferences.html:32
+msgid "Subscription"
+msgstr "Prenumeration"
+
+#: templates/postorius/user/subscriptions.html:17
+msgid "You are subscribed to the following mailing lists:"
+msgstr "Du prenumererar på följande e-postlistor:"
+
+#: templates/postorius/user/subscriptions.html:41
+msgid "You are not yet subscribed to any lists."
+msgstr ""
+
+#: templatetags/nav_helpers.py:27
+msgid "Header Filters"
+msgstr ""
+
+#: templatetags/nav_helpers.py:28
+msgid "Banned Addresses"
+msgstr ""
+
+#: templatetags/nav_helpers.py:29
+msgid "Delete List"
+msgstr ""
+
+#: templatetags/nav_helpers.py:30
+msgid "Held Messages"
+msgstr ""
+
+#: templatetags/nav_helpers.py:31
+msgid "Mass Removal"
+msgstr ""
+
+#: templatetags/nav_helpers.py:32
+msgid "Mass Subscription"
+msgstr "Massprenumeration"
+
+#: templatetags/nav_helpers.py:33
+msgid "Subscription Options"
+msgstr ""
+
+#: templatetags/nav_helpers.py:34
+msgid "List Settings"
+msgstr ""
+
+#: templatetags/nav_helpers.py:35
+msgid "Summary"
+msgstr ""
+
+#: templatetags/nav_helpers.py:37
+msgid "Confirm Removal of All Members"
+msgstr ""
+
+#: templatetags/nav_helpers.py:40
+msgid "Address-based Settings"
+msgstr ""
+
+#: templatetags/nav_helpers.py:41
+msgid "Subscription Settings"
+msgstr ""
+
+#: templatetags/nav_helpers.py:42
+msgid "Global Settings"
+msgstr ""
+
+#: utils.py:42
+msgid "Mailman REST API not available. Please start Mailman core."
+msgstr ""
+
+#: views/domain.py:87
+msgid "New Domain registered"
+msgstr ""
+
+#: views/domain.py:129
+#, python-format
+msgid "Domain %s updated"
+msgstr ""
+
+#: views/domain.py:132 views/list.py:1034
+msgid "Please check the errors below"
+msgstr ""
+
+#: views/domain.py:157
+#, python-format
+msgid "The domain %s has been deleted."
+msgstr ""
+
+#: views/domain.py:163
+#, python-format
+msgid "The domain could not be deleted: %s"
+msgstr ""
+
+#: views/domain.py:185
+msgid "Added {} as an owner for {}"
+msgstr ""
+
+#: views/domain.py:220
+msgid "{} is not an owner for {}"
+msgstr ""
+
+#: views/domain.py:230
+msgid "Removed {} as an owner for {}"
+msgstr ""
+
+#: views/generic.py:116
+msgid "The email {} has been banned."
+msgstr ""
+
+#: views/generic.py:122 views/generic.py:137 views/list.py:1576
+#, python-format
+msgid "An error occurred: %s"
+msgstr ""
+
+#: views/generic.py:125 views/generic.py:139
+#, python-format
+msgid "Invalid data: %s"
+msgstr ""
+
+#: views/generic.py:132
+msgid "The email {} has been un-banned"
+msgstr ""
+
+#: views/list.py:151
+msgid "List {}s"
+msgstr ""
+
+#: views/list.py:168
+msgid "Add {}"
+msgstr ""
+
+#: views/list.py:171
+msgid "No {}s were found matching the search."
+msgstr ""
+
+#: views/list.py:174
+msgid "List has no {}s"
+msgstr ""
+
+#: views/list.py:186
+msgid "The selected members have been unsubscribed"
+msgstr ""
+
+#: views/list.py:206
+#, python-brace-format
+msgid "{email} has been added with the role {role}"
+msgstr ""
+
+#: views/list.py:255
+msgid "Member does not exist"
+msgstr ""
+
+#: views/list.py:281
+msgid "The member's preferences have been updated."
+msgstr ""
+
+#: views/list.py:291
+msgid "No change to the member's moderation."
+msgstr ""
+
+#: views/list.py:307
+msgid "The member's moderation settings have been updated."
+msgstr ""
+
+#: views/list.py:522
+msgid "You are not subscribed to {}."
+msgstr ""
+
+#: views/list.py:537
+msgid "You are already subscribed"
+msgstr ""
+
+#: views/list.py:549
+msgid "Subscription changed to {}"
+msgstr "Prenumeration ändrades till {}"
+
+#: views/list.py:554
+msgid "Something went wrong. Please try again. {} {}"
+msgstr ""
+
+#: views/list.py:608
+msgid ""
+"Your subscription request has been submitted and is waiting for moderator "
+"approval."
+msgstr ""
+
+#: views/list.py:616
+#, python-format
+msgid "You are subscribed to %s."
+msgstr ""
+
+#: views/list.py:621 views/list.py:657
+msgid "Something went wrong. Please try again."
+msgstr ""
+
+#: views/list.py:653
+msgid "Please check your inbox for further instructions"
+msgstr ""
+
+#: views/list.py:677
+msgid "You can only unsubscribe yourself."
+msgstr ""
+
+#: views/list.py:683
+msgid ""
+"You have a pending unsubscription request waiting for moderator approval."
+msgstr ""
+
+#: views/list.py:694
+msgid ""
+"Your unsubscription request has been submitted and is waiting for moderator "
+"approval."
+msgstr ""
+
+#: views/list.py:702
+#, python-format
+msgid "%s has been unsubscribed from this list."
+msgstr ""
+
+#: views/list.py:739
+#, python-format
+msgid "The address %(address)s has been invited to %(list)s."
+msgstr ""
+
+#: views/list.py:744
+#, python-format
+msgid "The address %(address)s has been subscribed to %(list)s."
+msgstr ""
+
+#: views/list.py:749
+msgid ""
+" Subscription may be pending address verification, confirmation or approval "
+"as appropriate."
+msgstr ""
+
+#: views/list.py:767 views/list.py:837
+#, python-format
+msgid "The email address %s is not valid."
+msgstr ""
+
+#: views/list.py:806
+msgid "Please fill out the form correctly."
+msgstr ""
+
+#: views/list.py:824
+#, python-brace-format
+msgid "These addresses {address} have been unsubscribed from {list}."
+msgstr ""
+
+#: views/list.py:859
+msgid "The selected messages were accepted"
+msgstr ""
+
+#: views/list.py:864
+msgid "The selected messages were rejected"
+msgstr ""
+
+#: views/list.py:869
+msgid "The selected messages were discarded"
+msgstr ""
+
+#: views/list.py:872
+msgid "Message could not be found"
+msgstr ""
+
+#: views/list.py:903
+msgid "The message was accepted"
+msgstr ""
+
+#: views/list.py:906
+msgid "The message was rejected"
+msgstr ""
+
+#: views/list.py:909
+msgid "The message was discarded"
+msgstr ""
+
+#: views/list.py:912
+msgid "Held message was not found."
+msgstr ""
+
+#: views/list.py:926
+msgid "Moderation action for {} set to {}"
+msgstr ""
+
+#: views/list.py:934
+msgid "Failed to set moderation action for {}"
+msgstr ""
+
+#: views/list.py:990
+msgid "Choose a Domain"
+msgstr ""
+
+#: views/list.py:1014
+msgid "List created"
+msgstr ""
+
+#: views/list.py:1026
+msgid "Mailing List already exists."
+msgstr ""
+
+#: views/list.py:1206
+msgid "Subscriptions pending user confirmation"
+msgstr ""
+
+#: views/list.py:1219
+msgid "Subscriptions pending approval"
+msgstr ""
+
+#: views/list.py:1232
+msgid "Un-subscriptions pending approval"
+msgstr "Avprenumereringar som väntar godkännande"
+
+#: views/list.py:1281
+msgid "The request has been accepted."
+msgstr ""
+
+#: views/list.py:1282
+msgid "The request has been rejected."
+msgstr ""
+
+#: views/list.py:1283
+msgid "The request has been discarded."
+msgstr ""
+
+#: views/list.py:1284
+msgid "The request has been defered."
+msgstr ""
+
+#: views/list.py:1304
+#, python-format
+msgid "The request was already moderated: %s"
+msgstr ""
+
+#: views/list.py:1308
+#, python-format
+msgid "The request could not be moderated: %s"
+msgstr ""
+
+#: views/list.py:1322
+msgid "List Identity"
+msgstr ""
+
+#: views/list.py:1323
+msgid "Automatic Responses"
+msgstr ""
+
+#: views/list.py:1324
+msgid "Alter Messages"
+msgstr ""
+
+#: views/list.py:1325
+msgid "DMARC Mitigations"
+msgstr ""
+
+#: views/list.py:1326
+msgid "Digest"
+msgstr ""
+
+#: views/list.py:1327
+msgid "Message Acceptance"
+msgstr ""
+
+#: views/list.py:1328
+msgid "Archiving"
+msgstr ""
+
+#: views/list.py:1329
+msgid "Member Policy"
+msgstr ""
+
+#: views/list.py:1330
+msgid "Bounce Processing"
+msgstr ""
+
+#: views/list.py:1331
+msgid "Newsgroup Gateway"
+msgstr ""
+
+#: views/list.py:1399
+msgid "The settings have been updated."
+msgstr ""
+
+#: views/list.py:1402
+msgid "An error occurred: "
+msgstr ""
+
+#: views/list.py:1436
+#, python-format
+msgid "The user %(email)s is not in the %(role)s group"
+msgstr ""
+
+#: views/list.py:1443
+msgid "Removing the last owner is impossible"
+msgstr ""
+
+#: views/list.py:1461
+#, python-format
+msgid "The user could not be removed: %(msg)s"
+msgstr ""
+
+#: views/list.py:1467
+#, python-format
+msgid "The user %(address)s has been removed from the %(role)s group."
+msgstr ""
+
+#: views/list.py:1488
+msgid "No member is subscribed to the list currently."
+msgstr ""
+
+#: views/list.py:1501
+msgid "All members have been unsubscribed from the list."
+msgstr ""
+
+#: views/list.py:1580
+msgid "The header matches were successfully modified."
+msgstr ""
+
+#: views/list.py:1587
+msgid "New header"
+msgstr ""
+
+#: views/list.py:1588
+msgid "New pattern"
+msgstr ""
+
+#: views/list.py:1620
+msgid "Invalid confirmation token"
+msgstr ""
+
+#: views/list.py:1630 views/list.py:1646
+msgid "Token expired or invalid."
+msgstr ""
+
+#: views/rest.py:59
+msgid "Message does not exist"
+msgstr ""
+
+#: views/rest.py:106
+msgid "Attachment does not exist"
+msgstr ""
+
+#: views/system.py:31
+msgid "Mailman Core Version"
+msgstr ""
+
+#: views/system.py:32
+msgid "Mailman Core API Version"
+msgstr ""
+
+#: views/system.py:33
+msgid "Mailman Core Python Version"
+msgstr ""
+
+#: views/user.py:103
+msgid "Your preferences have been updated."
+msgstr ""
+
+#: views/user.py:106
+msgid "Your preferences did not change."
+msgstr ""
+
+#: views/user.py:229
+msgid "Subscription does not exist"
+msgstr ""
+
+#: views/user.py:457
+msgid "Successfully updated addresses {}"
+msgstr ""
+
+#: views/user.py:471
+msgid "Successfully updated memberships for {}"
+msgstr ""
+
+#: views/user.py:480
+msgid "Successfully updated user."
+msgstr ""
+
+#: views/user.py:490
+msgid "Password updated successfully"
+msgstr ""
+
+#: views/user.py:528
+msgid "Successfully deleted account"
+msgstr ""
+
+#~ msgid "Log In"
+#~ msgstr "Logga in"
+
+#, fuzzy
+#~| msgid "Unsubscription Requests"
+#~ msgid "Unsubscribe Selected"
+#~ msgstr "Avprenumereringsbegäran"
+
+#~ msgid "Remove"
+#~ msgstr "Ta bort"
