@@ -1,0 +1,468 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: mailman-developers@python.org\n"
+"POT-Creation-Date: 2024-12-23 04:02+0000\n"
+"PO-Revision-Date: 2025-06-06 17:27+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/gnu-mailman/"
+"django-mailman3/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12-dev\n"
+
+#: forms.py:35
+msgid "Username"
+msgstr "Användarnamn"
+
+#: forms.py:37
+msgid "First name"
+msgstr "Förnamn"
+
+#: forms.py:38
+msgid "Last name"
+msgstr "Efternamn"
+
+#: forms.py:40
+msgid "Time zone"
+msgstr "Tidszon"
+
+#: forms.py:47
+msgid "A user with that username already exists."
+msgstr "En användare med det namnet finns redan."
+
+#: templates/account/email.html:6
+#: templates/django_mailman3/profile/base.html:18
+msgid "Account"
+msgstr "Konto"
+
+#: templates/account/email.html:11
+msgid "The following e-mail addresses are associated with your account:"
+msgstr "Följande e-postadresser är kopplade till ditt konto:"
+
+#: templates/account/email.html:25
+msgid "Verified"
+msgstr "Verifierad"
+
+#: templates/account/email.html:27
+msgid "Unverified"
+msgstr "Obekräftad"
+
+#: templates/account/email.html:29
+msgid "Primary"
+msgstr "Primär"
+
+#: templates/account/email.html:35
+msgid "Make Primary"
+msgstr "Sätt som primär"
+
+#: templates/account/email.html:36
+msgid "Re-send Verification"
+msgstr "Skicka bekräftelse igen"
+
+#: templates/account/email.html:37 templates/socialaccount/connections.html:34
+msgid "Remove"
+msgstr "Ta bort"
+
+#: templates/account/email.html:44
+msgid "Warning:"
+msgstr "Varning:"
+
+#: templates/account/email.html:44
+msgid ""
+"You currently do not have any e-mail address set up. You should really add "
+"an e-mail address so you can receive notifications, reset your password, etc."
+msgstr ""
+"För närvarande har du inte kopplat någon e-postadress. Du bör lägga till en "
+"e-postadress så du kan ta emot meddelanden, återställa ditt lösenord, etc."
+
+#: templates/account/email.html:49
+msgid "Add E-mail Address"
+msgstr "Lägg till e-postadress"
+
+#: templates/account/email.html:55
+msgid "Add E-mail"
+msgstr "Lägg till e-post"
+
+#: templates/account/email.html:66
+msgid "Do you really want to remove the selected e-mail address?"
+msgstr "Är du säker på att du vill ta bort den valda e-postadressen?"
+
+#: templates/account/email_confirm.html:6
+#: templates/account/email_confirm.html:10
+msgid "Confirm E-mail Address"
+msgstr "Bekräfta e-postadress"
+
+#: templates/account/email_confirm.html:16
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+"Godkänn att <a href=\"mailto:%(email)s\">%(email)s</a> är en e-postadress "
+"för användaren %(user_display)s."
+
+#: templates/account/email_confirm.html:20
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: templates/account/email_confirm.html:27
+#, python-format
+msgid ""
+"This e-mail confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+msgstr ""
+"E-postbekräftelselänken har löpt ut eller är ogiltig. <a href=\"%(email_url)s"
+"\">Skicka en ny bekräftelselänk.</a>."
+
+#: templates/account/login.html:7 templates/account/login.html:11
+#: templates/account/login.html:59 templates/socialaccount/login.html:5
+msgid "Sign In"
+msgstr "Logga in"
+
+#: templates/account/login.html:18
+#, python-format
+msgid ""
+"Please sign in with one\n"
+"of your existing third party accounts. Or, <a href=\"%(signup_url)s\">sign "
+"up</a>\n"
+"for a %(site_name)s account and sign in below:"
+msgstr ""
+"Logga in med ett\n"
+"av dina befintliga konton. Eller <a href=\"%(signup_url)s\">registrera dig</"
+"a>\n"
+"med ett %(site_name)s-konto och logga in här under:"
+
+#: templates/account/login.html:22
+#, python-format
+msgid ""
+"If you have a %(site_name)s\n"
+"account that you haven't yet linked to any third party account, you must "
+"log\n"
+"in with your account's email address and password and once logged in, you "
+"can\n"
+"link your third party accounts via the Account Connections tab on your user\n"
+"profile page."
+msgstr ""
+"Om du har ett %(site_name)s-konto\n"
+"som du ännu inte har kopplat till något tredjepartskonto måste du logga\n"
+"in med din e-postadress och lösenord för kontot. När du har loggat in kan\n"
+"du koppla dina tredjepartskonton via fliken Kontoanslutningar på din\n"
+"användarprofil."
+
+#: templates/account/login.html:28 templates/account/signup.html:17
+#, python-format
+msgid ""
+"If you do not have a\n"
+"%(site_name)s account but you have one of these third party accounts, you "
+"can\n"
+"create a %(site_name)s account and sign-in in one step by clicking the "
+"third\n"
+"party account."
+msgstr ""
+"Om du inte har ett\n"
+"%(site_name)s-konto men har ett av dessa tredjepartskonton kan du\n"
+"skapa ett %(site_name)s-konto och logga in i ett steg genom att klicka på\n"
+"tredjepartskontot."
+
+#: templates/account/login.html:41 templates/account/signup.html:30
+#: templates/django_mailman3/profile/profile.html:72
+msgid "or"
+msgstr "eller"
+
+#: templates/account/login.html:48
+#, python-format
+msgid ""
+"If you have not created an account yet, then please\n"
+"<a href=\"%(signup_url)s\">sign up</a> first."
+msgstr ""
+"Om du inte har skapat ett konto än, var god\n"
+"<a href=\"%(signup_url)s\">registrera dig</a> först."
+
+#: templates/account/login.html:61
+msgid "Forgot Password?"
+msgstr "Glömt lösenord?"
+
+#: templates/account/logout.html:5 templates/account/logout.html:8
+#: templates/account/logout.html:17
+msgid "Sign Out"
+msgstr "Logga ut"
+
+#: templates/account/logout.html:10
+msgid "Are you sure you want to sign out?"
+msgstr "Är du säker på att du vill logga ut?"
+
+#: templates/account/password_change.html:12
+#: templates/account/password_reset_from_key.html:6
+#: templates/account/password_reset_from_key.html:9
+#: templates/django_mailman3/profile/base.html:21
+msgid "Change Password"
+msgstr "Ändra lösenord"
+
+#: templates/account/password_reset.html:7
+#: templates/account/password_reset.html:11
+#: templates/account/password_reset_done.html:7
+#: templates/account/password_reset_done.html:11
+msgid "Password Reset"
+msgstr "Återställ lösenord"
+
+#: templates/account/password_reset.html:16
+msgid ""
+"Forgotten your password? Enter your e-mail address below, and we'll send you "
+"an e-mail allowing you to reset it."
+msgstr ""
+"Glömt ditt lösenord? Ange din e-postadress nedan så skickar vi e-post om hur "
+"du kan återställa det."
+
+#: templates/account/password_reset.html:22
+msgid "Reset My Password"
+msgstr "Återställ mitt lösenord"
+
+#: templates/account/password_reset.html:27
+msgid "Please contact us if you have any trouble resetting your password."
+msgstr "Kontakta oss om du har problem med att återställa ditt lösenord."
+
+#: templates/account/password_reset_done.html:17
+msgid ""
+"We have sent you an email. If you have not received it please check your "
+"spam folder. Otherwise contact us if you do not receive it in a few minutes."
+msgstr ""
+"Vi har skickat ett e-postmeddelande till dig. Om du inte har fått det, "
+"kontrollera din skräppostmapp. Om du inte får det inom några minuter, "
+"kontakta oss."
+
+#: templates/account/password_reset_from_key.html:9
+msgid "Bad Token"
+msgstr "Fel token"
+
+#: templates/account/password_reset_from_key.html:13
+#, python-format
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
+"a>."
+msgstr ""
+"Lösenordsåterställningslänken var ogiltig, kanske för att den redan använts. "
+"Var god begär <a href=\"%(passwd_reset_url)s\">lösenordsåterställning</a> på "
+"nytt."
+
+#: templates/account/password_reset_from_key.html:20
+msgid "change password"
+msgstr "ändra lösenord"
+
+#: templates/account/password_reset_from_key.html:25
+msgid "Your password is now changed."
+msgstr "Ditt lösenord har ändrats."
+
+#: templates/account/password_set.html:12
+msgid "Set Password"
+msgstr "Sätt lösenord"
+
+#: templates/account/signup.html:7 templates/socialaccount/signup.html:6
+msgid "Signup"
+msgstr "Registrera"
+
+#: templates/account/signup.html:10 templates/account/signup.html:42
+#: templates/socialaccount/signup.html:9 templates/socialaccount/signup.html:21
+msgid "Sign Up"
+msgstr "Registrera"
+
+#: templates/account/signup.html:12
+#, python-format
+msgid ""
+"Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr ""
+"Du kan <a href=\"%(login_url)s\">logga in</a> om du redan har ett konto."
+
+#: templates/account/signup_closed.html:5
+#: templates/account/signup_closed.html:8
+msgid "Sign Up Closed"
+msgstr "Registreringen är stängd"
+
+#: templates/account/signup_closed.html:10
+msgid "We are sorry, but the sign up is currently closed."
+msgstr "Vi beklagar, men registreringen är för närvarande stängd."
+
+#: templates/account/verification_sent.html:5
+#: templates/account/verification_sent.html:9
+msgid "Verify Your Email Address"
+msgstr "Verifiera din e-postadress"
+
+#: templates/account/verification_sent.html:12
+msgid ""
+"We have sent an email to you for verification. Follow the link provided to "
+"finalize the signup process. If you do not see the verification email in "
+"your main inbox, check your spam folder. Please contact us if you do not "
+"receive the verification email within a few minutes."
+msgstr ""
+"Vi har skickat ett e-postmeddelande till dig för verifiering. Följ länken i "
+"meddelandet för att slutföra registreringsprocessen. Om du inte ser "
+"verifieringsmeddelandet i din inkorg, kontrollera din skräppostmapp. "
+"Kontakta oss om du inte får verifieringsmeddelandet inom några minuter."
+
+#: templates/django_mailman3/paginator/pagination.html:45
+msgid "Jump to page:"
+msgstr "Gå till sida:"
+
+#: templates/django_mailman3/paginator/pagination.html:64
+msgid "Results per page:"
+msgstr "Resultat per sida:"
+
+#: templates/django_mailman3/paginator/pagination.html:80
+#: templates/django_mailman3/profile/profile.html:71
+msgid "Update"
+msgstr "Uppdatera"
+
+#: templates/django_mailman3/profile/base.html:6
+msgid "User Profile"
+msgstr "Användarprofil"
+
+#: templates/django_mailman3/profile/base.html:13
+msgid "User profile"
+msgstr "Användarprofil"
+
+#: templates/django_mailman3/profile/base.html:13
+msgid "for"
+msgstr "för"
+
+#: templates/django_mailman3/profile/base.html:24
+msgid "E-mail Addresses"
+msgstr "E-postadresser"
+
+#: templates/django_mailman3/profile/base.html:31
+msgid "Account Connections"
+msgstr "Kontokopplingar"
+
+#: templates/django_mailman3/profile/base.html:36
+#: templates/django_mailman3/profile/delete_profile.html:16
+msgid "Delete Account"
+msgstr "Ta bort konto"
+
+#: templates/django_mailman3/profile/delete_profile.html:11
+msgid ""
+"Are you sure you want to delete your account? This will remove your account "
+"along with all your subscriptions."
+msgstr ""
+"Är du säker på att du vill radera ditt konto? Detta kommer ta bort ditt "
+"konto och alla dina abonnenter."
+
+#: templates/django_mailman3/profile/profile.html:20
+#: templates/django_mailman3/profile/profile.html:57
+msgid "Edit on"
+msgstr "Redigera på"
+
+#: templates/django_mailman3/profile/profile.html:28
+msgid "Primary email:"
+msgstr "Huvud-e-post:"
+
+#: templates/django_mailman3/profile/profile.html:34
+msgid "Other emails:"
+msgstr "Andra e-poster:"
+
+#: templates/django_mailman3/profile/profile.html:40
+msgid "(no other email)"
+msgstr "(ingen annan e-post)"
+
+#: templates/django_mailman3/profile/profile.html:45
+msgid "Link another address"
+msgstr "Koppla samman en annan adress"
+
+#: templates/django_mailman3/profile/profile.html:53
+msgid "Avatar:"
+msgstr "Avatar:"
+
+#: templates/django_mailman3/profile/profile.html:63
+msgid "Joined on:"
+msgstr "Gick med:"
+
+#: templates/django_mailman3/profile/profile.html:72
+msgid "cancel"
+msgstr "avbryt"
+
+#: templates/openid/login.html:10
+msgid "OpenID Sign In"
+msgstr "OpenID-inloggning"
+
+#: templates/socialaccount/connections.html:9
+msgid ""
+"You can sign in to your account using any of the following third party "
+"accounts:"
+msgstr "Du kan logga in på ditt konto med följande tredjepartskonton:"
+
+#: templates/socialaccount/connections.html:42
+msgid ""
+"You currently have no social network accounts connected to this account."
+msgstr "Du har inga sociala nätverkskonton kopplade till det här kontot."
+
+#: templates/socialaccount/connections.html:45
+msgid "Add a 3rd Party Account"
+msgstr "Lägg till ett tredjepartskonto"
+
+#: templates/socialaccount/login.html:10
+#, python-format
+msgid "Connect %(provider)s"
+msgstr "Anslut %(provider)s"
+
+#: templates/socialaccount/login.html:13
+#, python-format
+msgid "You are about to connect a new third-party account from %(provider)s."
+msgstr "Du är på väg att ansluta ett nytt tredjepartskonto från %(provider)s."
+
+#: templates/socialaccount/login.html:17
+#, python-format
+msgid "Sign In Via %(provider)s"
+msgstr "Logga in via %(provider)s"
+
+#: templates/socialaccount/login.html:20
+#, python-format
+msgid "You are about to sign in using a third-party account from %(provider)s."
+msgstr "Du är på väg att logga in med ett tredjepartskonto från %(provider)s."
+
+#: templates/socialaccount/login.html:27
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: templates/socialaccount/signup.html:11
+#, python-format
+msgid ""
+"You are about to use your %(provider_name)s account to login to\n"
+"%(site_name)s. As a final step, please complete the following form:"
+msgstr ""
+"Du håller på att använda ditt %(provider_name)s-konto för att logga in på\n"
+"%(site_name)s. Som ett sista steg , fyll i följande formulär:"
+
+#: templatetags/pagination.py:43
+msgid "Newer"
+msgstr "Nyare"
+
+#: templatetags/pagination.py:44
+msgid "Older"
+msgstr "Äldre"
+
+#: templatetags/pagination.py:46
+msgid "Previous"
+msgstr "Tidigare"
+
+#: templatetags/pagination.py:47
+msgid "Next"
+msgstr "Nästa"
+
+#: views/profile.py:72
+msgid "The profile was successfully updated."
+msgstr "Profilen uppdaterades."
+
+#: views/profile.py:74
+msgid "No change detected."
+msgstr "Ingen ändring hittades."
+
+#: views/profile.py:110
+msgid "Successfully deleted account"
+msgstr "Kontot togs bort"
