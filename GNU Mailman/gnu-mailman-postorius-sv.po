@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: GNU Mailman postorius\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-04-28 21:01-0700\n"
-"PO-Revision-Date: 2025-06-06 17:28+0000\n"
-"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"PO-Revision-Date: 2025-06-07 08:25+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnu-mailman/"
 "postorius/sv/>\n"
 "Language: sv\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Poedit 3.6\n"
 
 #: forms/domain_forms.py:34
 #, python-format
@@ -29,7 +29,7 @@ msgid ""
 "hosts <a href=\"%s\">here</a>."
 msgstr ""
 "Den domän från vilken du vill att webbgränssnittet ska visas. Den kan vara "
-"densamma som eller skilja sig från Mail Host. Du kan redigera listan över "
+"densamma som eller skilja sig från e-postvärden. Du kan redigera listan över "
 "tillgängliga webbhotell <a href=\"%s\">här</a>."
 
 #: forms/domain_forms.py:46 forms/list_forms.py:100
@@ -50,8 +50,8 @@ msgid ""
 "The domain for your mailing lists. For example when you want lists like "
 "testing@example.com, enter example.com here."
 msgstr ""
-"Domän för dina sändlistor. Vill du till exempel ha listor med namn som test@"
-"exempel.se, ange exempel.se här."
+"Domän för dina sändlistor. Vill du till exempel ha listor med namn som "
+"test@exempel.se, ange exempel.se här."
 
 #: forms/domain_forms.py:57 templates/postorius/domain/index.html:22
 #: templates/postorius/index.html:89
@@ -97,15 +97,15 @@ msgstr "Ägarens e-post"
 
 #: forms/fields.py:36
 msgid "Regular"
-msgstr "Vanlig"
+msgstr "Reguljärt"
 
 #: forms/fields.py:37
 msgid "Plain Text Digests"
-msgstr "Sammanställningar av vanlig text"
+msgstr "Sammanställningar med vanlig text"
 
 #: forms/fields.py:38
 msgid "MIME Digests"
-msgstr "MIME-sammanslagningar"
+msgstr "MIME-sammanställningar"
 
 #: forms/fields.py:39
 msgid "Summary Digests"
@@ -121,15 +121,15 @@ msgstr "Inaktiverad"
 
 #: forms/fields.py:46
 msgid "Disabled by Owner"
-msgstr "Handikappad av ägaren"
+msgstr "Inaktiverad av ägaren"
 
 #: forms/fields.py:47
 msgid "Disabled by Bounces"
-msgstr "Inaktiverad av studsar"
+msgstr "Inaktiverad av studsande e-post"
 
 #: forms/fields.py:48
 msgid "Disabled from MM<2.1"
-msgstr "Avaktiverad från MM<2.1"
+msgstr "Inaktiverad från MM<2.1"
 
 #: forms/fields.py:52
 msgid "Hold for moderation"
@@ -169,10 +169,11 @@ msgid ""
 msgstr ""
 "Om du väljer sammanställningar får du inläggen samlade (vanligtvis ett per "
 "dag, men eventuellt fler på välbesökta listor), istället för en och en när "
-"de skickas. Din e-postläsare kanske eller kanske inte stöder MIME-"
+"de skickas. Din e-postläsare kanske eller kanske inte har stöd för MIME-"
 "sammanställningar. I allmänhet är MIME-sammanställningar att föredra, men om "
 "du har problem med att läsa dem kan du välja sammanställningar i klartext. "
-"Summary Digests är för närvarande likvärdiga med MIME Digests."
+"Summanfattade sammandrag är för närvarande likvärdiga med MIME-"
+"sammanställningar."
 
 #: forms/fields.py:174 templates/postorius/lists/summary.html:53
 msgid "Delivery status"
@@ -186,10 +187,10 @@ msgid ""
 "mail delivery, don't forget to re-enable it when you come back; it will not "
 "be automatically re-enabled."
 msgstr ""
-"Ställ in det här alternativet på Enabled för att få meddelanden som postas "
-"till den här sändlistan. Ställ in det på Disabled om du vill fortsätta att "
-"prenumerera, men inte vill att e-post ska levereras till dig på ett tag ("
-"t.ex. om du ska åka på semester). Om du avaktiverar postleverans, glöm inte "
+"Ställ in det här alternativet på Aktiverad för att få meddelanden som postas "
+"till den här sändlistan. Ställ in det på Inaktiverad om du vill fortsätta "
+"att prenumerera, men inte vill att e-post ska levereras till dig på ett tag "
+"(t.ex. om du ska åka på semester). Om du avaktiverar postleverans, glöm inte "
 "att återaktivera den när du kommer tillbaka; den återaktiveras inte "
 "automatiskt."
 
@@ -200,7 +201,7 @@ msgstr "Moderering"
 #: forms/fields.py:191 forms/list_forms.py:1309
 #: templatetags/membership_helpers.py:93
 msgid "List default"
-msgstr "Lista standard"
+msgstr "Listans standard"
 
 #: forms/fields.py:193
 msgid ""
@@ -218,16 +219,16 @@ msgstr ""
 "Standardåtgärd som ska vidtas när den här medlemmen skriver inlägg till "
 "listan.\n"
 "Listans standard -- följer listans standardåtgärd för medlemmar.\n"
-"Håll kvar -- Detta håller meddelandet för godkännande av listans moderatorer."
-"\n"
+"Håll kvar -- Detta håller meddelandet för godkännande av listans "
+"moderatorer.\n"
 "Avvisa -- detta avvisar automatiskt meddelandet genom att skicka ett "
 "avvisningsbesked till inläggets författare. Texten i avvisningsmeddelandet "
 "kan konfigureras av dig.\n"
 "Förkasta -- meddelandet förkastas helt enkelt, utan att något meddelande "
 "skickas till inläggets författare.\n"
 "Acceptera -- accepterar alla inlägg utan ytterligare kontroller.\n"
-"Standardbehandling -- gör ytterligare kontroller och accepterar meddelandet. "
-"\n"
+"Standardbehandling -- gör ytterligare kontroller och accepterar "
+"meddelandet. \n"
 
 #: forms/list_forms.py:43
 msgid "Daily"
@@ -251,11 +252,11 @@ msgstr "Årligen"
 
 #: forms/list_forms.py:51
 msgid "Only mailinglist administrators"
-msgstr "Endast administratörer av mailinglistor"
+msgstr "Endast administratörer av sändlistor"
 
 #: forms/list_forms.py:52
 msgid "Mailinglist administrators and members"
-msgstr "Mailinglistans administratörer och medlemmar"
+msgstr "Sändlistans administratörer och medlemmar"
 
 #: forms/list_forms.py:53
 msgid "Anyone"
@@ -275,7 +276,7 @@ msgstr "Ange ett giltigt listnamn."
 
 #: forms/list_forms.py:77
 msgid "Initial list owner address"
-msgstr "Initial lista ägarens adress"
+msgstr "Ägarens adress för initial lista"
 
 #: forms/list_forms.py:79
 msgid "Please enter the list owner's email address."
@@ -311,7 +312,7 @@ msgstr "Välj en giltig e-postvärd"
 
 #: forms/list_forms.py:110
 msgid "List Style"
-msgstr "Listformat"
+msgstr "Liststil"
 
 #: forms/list_forms.py:114
 msgid "Choose a List Style."
@@ -323,7 +324,7 @@ msgstr "Välj en giltig liststil."
 
 #: forms/list_forms.py:120
 msgid "Site admin has not created any domains"
-msgstr "Webbplatsadministratören har inte skapat några domäner"
+msgstr "Platsadministratören har inte skapat några domäner"
 
 #: forms/list_forms.py:134
 msgid "Please enter a valid listname"
@@ -338,7 +339,7 @@ msgid ""
 "Subscribing via \"Primary Address\" will change subscription address when "
 "you change your primary address."
 msgstr ""
-"Om du prenumererar via \"Primary Address\" ändras prenumerationsadressen när "
+"Om du prenumererar via \"Primär adress\" ändras prenumerationsadressen när "
 "du ändrar din primära adress."
 
 #: forms/list_forms.py:179 forms/list_forms.py:210 forms/member_forms.py:30
@@ -370,11 +371,11 @@ msgstr "Bekräfta"
 
 #: forms/list_forms.py:235
 msgid "Moderate"
-msgstr "Måttligt"
+msgstr "Moderera"
 
 #: forms/list_forms.py:236
 msgid "Confirm, then moderate"
-msgstr "Bekräfta och tryck sedan på"
+msgstr "Bekräfta och sedan moderera"
 
 #: forms/list_forms.py:246
 msgid "Subscription Policy"
@@ -389,7 +390,7 @@ msgid ""
 "Confirm then Moderate: First subscribers have to confirm, then a moderator "
 "needs to authorize."
 msgstr ""
-"Open: Prenumerationer läggs till automatiskt\n"
+"Öppen: Prenumerationer läggs till automatiskt\n"
 "Bekräfta: Prenumeranter måste bekräfta prenumerationen med hjälp av ett e-"
 "postmeddelande som skickas till dem\n"
 "Moderera: Moderatorer måste godkänna varje prenumeration manuellt.\n"
@@ -409,7 +410,7 @@ msgid ""
 "Confirm then Moderate: First subscribers have to confirm, then a moderator "
 "needs to authorize."
 msgstr ""
-"Öppna: Avprenumerationer sker automatiskt\n"
+"Öppen: Avprenumerationer sker automatiskt\n"
 "Bekräfta: Prenumeranter måste bekräfta avregistreringen med hjälp av ett e-"
 "postmeddelande som skickas till dem\n"
 "Måttlig: Moderatorer måste godkänna varje avprenumeration manuellt.\n"
@@ -430,7 +431,7 @@ msgstr "Lista över administratörer"
 
 #: forms/list_forms.py:280
 msgid "Site Admin"
-msgstr "Sajtadmin"
+msgstr "Platsadmin"
 
 #: forms/list_forms.py:284 forms/list_forms.py:316 forms/list_forms.py:327
 #: forms/list_forms.py:338 forms/list_forms.py:467 forms/list_forms.py:477
@@ -460,17 +461,17 @@ msgstr "Nej"
 
 #: forms/list_forms.py:286
 msgid "Process Bounces"
-msgstr "Processen studsar"
+msgstr "Behandla studsande e-post"
 
 #: forms/list_forms.py:288
 msgid ""
 "Specifies whether or not this list should do automatic bounce processing."
 msgstr ""
-"Anger om den här listan ska göra automatisk bounce-bearbetning eller inte."
+"Anger om den här listan ska göra automatisk studsbearbetning eller inte."
 
 #: forms/list_forms.py:295
 msgid "Bounce score threshold"
-msgstr "Tröskelvärde för bounce score"
+msgstr "Tröskelvärde för betyg för studsande e-post"
 
 #: forms/list_forms.py:298
 msgid ""
@@ -478,13 +479,13 @@ msgid ""
 "automatically disabled. When the subscription is  re-enabled, their bounce "
 "score will be reset to zero."
 msgstr ""
-"Detta är den bounce-score över vilken en medlems prenumeration automatiskt "
-"inaktiveras. När prenumerationen återaktiveras kommer deras bounce score att "
+"Detta är den studspoäng över vilken en medlems prenumeration automatiskt "
+"inaktiveras. När prenumerationen återaktiveras kommer deras studspoäng att "
 "återställas till noll."
 
 #: forms/list_forms.py:305
 msgid "Bounce info stale after"
-msgstr "Studsinformation föråldrad efter"
+msgstr "Information om studsande e-post föråldrad efter"
 
 #: forms/list_forms.py:308
 msgid ""
@@ -498,7 +499,7 @@ msgstr ""
 
 #: forms/list_forms.py:318
 msgid "Notify owner on bounce increment"
-msgstr "Meddela ägaren om ökning av studs"
+msgstr "Meddela ägaren om ökning av studsande e-post"
 
 #: forms/list_forms.py:320
 msgid ""
@@ -507,7 +508,7 @@ msgid ""
 "threshold. "
 msgstr ""
 "Det här alternativet styr om listägaren ska meddelas när en medlems "
-"bouncepoäng ökas, men till ett värde som är lägre än bounce-tröskeln. "
+"studspoäng ökas, men till ett värde som är lägre än studströskeln. "
 
 #: forms/list_forms.py:329
 msgid "Notify owner on disable"
@@ -520,8 +521,8 @@ msgid ""
 "threshold being reached. "
 msgstr ""
 "Det här alternativet styr om listägaren ska meddelas när en medlems "
-"prenumeration automatiskt inaktiveras på grund av att deras bounce-tröskel "
-"har uppnåtts. "
+"prenumeration automatiskt inaktiveras på grund av att deras studströskel har "
+"uppnåtts. "
 
 #: forms/list_forms.py:340
 msgid "Notify owner on removal"
@@ -548,19 +549,19 @@ msgid ""
 msgstr ""
 "Förkasta: Oigenkända studsar kommer att förkastas\n"
 "Administratörer av listan: Skicka till listans ägare och moderatorer\n"
-"Webbplatsadministratör: Skicka till webbplatsens konfigurerade site_owner"
+"Platsadministratör: Skicka till platsens konfigurerade site_owner"
 
 #: forms/list_forms.py:360
 msgid "Bounce disabled warnings interval"
-msgstr "Bounce avaktiverad varningar intervall"
+msgstr "Varningsintervall för inaktivering vid studsande e-post"
 
 #: forms/list_forms.py:362
 msgid "The number of days between each disabled notification."
-msgstr "Antal dagar mellan varje meddelande om avaktivering."
+msgstr "Antal dagar mellan varje meddelande om inaktivering."
 
 #: forms/list_forms.py:367
 msgid "Bounce disable warnings"
-msgstr "Varningar för avaktivering av studs"
+msgstr "Inaktiveringsvarningar för studsande e-post"
 
 #: forms/list_forms.py:370
 msgid ""
@@ -576,7 +577,7 @@ msgstr ""
 
 #: forms/list_forms.py:387
 msgid "Public archives"
-msgstr "Offentliga arkiv"
+msgstr "Publika arkiv"
 
 #: forms/list_forms.py:388
 msgid "Private archives"
@@ -604,11 +605,11 @@ msgstr "Policy för arkivering av meddelanden för denna lista"
 
 #: forms/list_forms.py:406
 msgid "Active archivers"
-msgstr "Aktiva arkivbildare"
+msgstr "Aktiva arkivare"
 
 #: forms/list_forms.py:414
 msgid "Archive Rendering mode"
-msgstr "Arkiv Renderingsläge"
+msgstr "Arkivets renderingsläge"
 
 #: forms/list_forms.py:416
 msgid ""
@@ -656,7 +657,7 @@ msgstr ""
 
 #: forms/list_forms.py:479
 msgid "Administrivia"
-msgstr "Administrationsfrågor"
+msgstr "Administrationsuppgifter"
 
 #: forms/list_forms.py:481
 msgid ""
@@ -665,9 +666,9 @@ msgid ""
 "it to the administrative requests queue, notifying the administrator of the "
 "new request, in the process."
 msgstr ""
-"Administrivia-tester kontrollerar inlägg för att se om det verkligen är "
-"menat som en administrativ begäran (som att prenumerera, avsluta "
-"prenumerationen etc.) och lägger till det i kön för administrativa "
+"Administrativa uppgiftstester kontrollerar inlägg för att se om det "
+"verkligen är menat som en administrativ begäran (som att prenumerera, "
+"avsluta prenumerationen etc.) och lägger till det i kön för administrativa "
 "begäranden och meddelar administratören om den nya begäran i processen."
 
 #: forms/list_forms.py:490
@@ -676,7 +677,7 @@ msgstr "Standardåtgärd som ska vidtas när en medlem gör ett inlägg i listan
 
 #: forms/list_forms.py:492
 msgid "Please choose a default member action."
-msgstr "Välj en standardmedlemsåtgärd."
+msgstr "Välj en standardåtgärd för medlemmar."
 
 #: forms/list_forms.py:497
 msgid ""
@@ -715,7 +716,7 @@ msgid ""
 "discarded addresses. If no match is found, then this action is taken."
 msgstr ""
 "När ett inlägg från en icke-medlem tas emot matchas meddelandets avsändare "
-"mot listan över adresser som uttryckligen accepteras, hålls, avvisas "
+"mot listan över adresser som uttryckligen accepteras, hålls kvar, avvisas "
 "(studsar) och förkastas. Om ingen matchning hittas vidtas denna åtgärd."
 
 #: forms/list_forms.py:528
@@ -743,7 +744,7 @@ msgid ""
 msgstr ""
 "Den maximalt tillåtna storleken på meddelandet i KB. Detta kan användas för "
 "att förhindra e-postmeddelanden med stora bilagor. En storlek på 0 "
-"avaktiverar kontrollen."
+"inaktiverar kontrollen."
 
 #: forms/list_forms.py:548
 msgid "Maximum number of recipients"
@@ -755,7 +756,7 @@ msgid ""
 "will be held for moderation. This can be used to prevent mass mailings from "
 "being accepted. A value of 0 disables the check."
 msgstr ""
-"Om ett inlägg har så många eller fler explicita mottagare (To: och Cc:) "
+"Om ett inlägg har så många eller fler uttryckliga mottagare (To: och Cc:) "
 "kommer inlägget att hållas kvar för moderering. Detta kan användas för att "
 "förhindra att massutskick accepteras. Ett värde på 0 inaktiverar kontrollen."
 
@@ -853,15 +854,15 @@ msgstr ""
 
 #: forms/list_forms.py:641
 msgid "Invalid alias regexp: {}: {}"
-msgstr "Ogiltig alias regexp: {}: {}"
+msgstr "Ogiltig regexp för alias: {}: {}"
 
 #: forms/list_forms.py:648
 msgid "Invalid alias email: {}"
-msgstr "Ogiltigt alias e-post: {}"
+msgstr "Ogiltigt e-postalias: {}"
 
 #: forms/list_forms.py:662
 msgid "Enable Digests"
-msgstr "Aktivera sammandrag"
+msgstr "Aktivera sammanställningar"
 
 #: forms/list_forms.py:663
 msgid "Should Mailman enable digests for this MailingList?"
@@ -877,7 +878,7 @@ msgstr "Bör Mailman skicka ut sammanfattningar med jämna mellanrum?"
 
 #: forms/list_forms.py:676
 msgid "Digest Volume Frequency"
-msgstr "Digest Volym Frekvens"
+msgstr "Frekvens för sammanställningsvolym"
 
 #: forms/list_forms.py:678
 msgid ""
@@ -889,7 +890,7 @@ msgstr ""
 
 #: forms/list_forms.py:683
 msgid "Digest size threshold"
-msgstr "Tröskelvärde för digeststorlek"
+msgstr "Tröskelvärde för sammanställningsstorlek"
 
 #: forms/list_forms.py:685
 msgid "How big in Kb should a digest be before it gets sent out?"
@@ -897,11 +898,11 @@ msgstr "Hur stor i Kb ska en sammanställning vara innan den skickas ut?"
 
 #: forms/list_forms.py:696
 msgid "DMARC mitigation action"
-msgstr "Åtgärder för att minska DMARC"
+msgstr "DMARC begränsande åtgärd"
 
 #: forms/list_forms.py:700
 msgid "Please choose a DMARC mitigation action."
-msgstr "Välj en åtgärd för att minska DMARC."
+msgstr "Välj en åtgärd för DMARC-skyddsåtgärder."
 
 #: forms/list_forms.py:703
 msgid "No DMARC mitigations"
@@ -909,11 +910,11 @@ msgstr "Inga DMARC-skyddsåtgärder"
 
 #: forms/list_forms.py:704
 msgid "Replace From: with list address"
-msgstr "Ersätt From: med listadress"
+msgstr "Ersätt From: med listadressen"
 
 #: forms/list_forms.py:707
 msgid "Wrap the message in an outer message From: the list."
-msgstr "Bädda in meddelandet i ett större meddelande Från: listan."
+msgstr "Bädda in meddelandet i ett större meddelande From:-listan."
 
 #: forms/list_forms.py:709
 msgid "Reject the message"
@@ -957,8 +958,8 @@ msgid ""
 "addresses or patterns regardless of the From: domain's DMARC policy."
 msgstr ""
 "E-postadresser och regexps som matchar e-postadresser, en per rad. Regexps "
-"börjar med \"^\" som i \"^.*@example\\.com\". DMARC mitigation action kommer "
-"att tillämpas på inlägg från: en adress som matchar, case insensitevely, en "
+"börjar med \"^\" som i \"^.*@exempel\\.se\". DMARC-begränsande åtgärd kommer "
+"att tillämpas på inlägg från: en adress som matchar, skiftlägesokänsligt, en "
 "av dessa adresser eller mönster oavsett From: domänens DMARC-policy."
 
 #: forms/list_forms.py:741
@@ -970,8 +971,8 @@ msgid ""
 "Text to replace the default reason in any rejection notice to be sent when "
 "DMARC mitigation action of reject applies."
 msgstr ""
-"Text som ska ersätta standardorsaken i ett meddelande om avslag som skickas "
-"när DMARC-åtgärden reject tillämpas."
+"Text som ska ersätta standardorsaken i ett meddelande om avvisning som "
+"skickas när DMARC-åtgärden reject tillämpas."
 
 #: forms/list_forms.py:750
 msgid "DMARC wrapped message text"
@@ -984,8 +985,8 @@ msgid ""
 "message applies."
 msgstr ""
 "Text som ska läggas till som en separat text/plain MIME-del före den "
-"ursprungliga meddelandedelen i det inplastade meddelandet när DMARC-åtgärden "
-"för inplastat meddelande tillämpas."
+"ursprungliga meddelandedelen i det inbakade meddelandet när DMARC-åtgärden "
+"för inbakade meddelande tillämpas."
 
 #: forms/list_forms.py:762 templates/postorius/lists/summary.html:146
 #: templates/postorius/lists/summary.html:155
@@ -995,7 +996,7 @@ msgstr "Ingen"
 
 #: forms/list_forms.py:763
 msgid "Individual"
-msgstr "Privatperson"
+msgstr "Individuell"
 
 #: forms/list_forms.py:764
 msgid "Full"
@@ -1033,7 +1034,7 @@ msgstr "Vidarebefordra"
 
 #: forms/list_forms.py:782
 msgid "Preserve"
-msgstr "Bevara"
+msgstr "Behåll"
 
 #: forms/list_forms.py:786
 msgid ""
@@ -1046,10 +1047,10 @@ msgid ""
 msgstr ""
 "Åtgärd för meddelanden som inte har något innehåll\n"
 "efter filtrering.\n"
-" Discard = förkasta meddelandet i tysthet.\n"
-" Reject = förkasta meddelandet och meddela avsändaren.\n"
-" Forward = vidarebefordra meddelandet till listans ägare.\n"
-" Preserve = spara meddelandet i qfiles/bad.\n"
+" Förkasta = förkasta meddelandet i tysthet.\n"
+" Avvisa = förkasta meddelandet och meddela avsändaren.\n"
+" Vidarebefordra = vidarebefordra meddelandet till listans ägare.\n"
+" Behåll = spara meddelandet i qfiles/bad.\n"
 
 #: forms/list_forms.py:805
 msgid "Personalize"
@@ -1065,7 +1066,7 @@ msgid ""
 "From, Sender and Reply-To fields)"
 msgstr ""
 "Dölj avsändaren av ett meddelande och ersätt den med listadressen (tar bort "
-"fälten Från, Avsändare och Svara till)"
+"fälten From, Sender och Reply-To)"
 
 #: forms/list_forms.py:823
 msgid "Include RFC2369 headers"
@@ -1105,7 +1106,7 @@ msgid ""
 "This can be set to no for announce lists that do not wish to include the "
 "List-Post header because posting to the list is discouraged."
 msgstr ""
-"Detta kan ställas in på no för announce-listor som inte vill inkludera List-"
+"Detta kan ställas in på nej för announce-listor som inte vill inkludera List-"
 "Post-rubriken eftersom det inte är tillåtet att posta till listan."
 
 #: forms/list_forms.py:851
@@ -1117,9 +1118,9 @@ msgid ""
 "This option allows admins to set an explicit Reply-to address. It is only "
 "used if the reply-to is set to use an explicitly set header"
 msgstr ""
-"Detta alternativ gör det möjligt för administratörer att ange en explicit "
+"Detta alternativ gör det möjligt för administratörer att ange en uttrycklig "
 "svarsadress. Det används endast om svarsadressen är inställd på att använda "
-"ett explicit angivet huvud"
+"ett uttrycklig angiven rubrik"
 
 #: forms/list_forms.py:863
 msgid "First strip Reply-To"
@@ -1145,7 +1146,7 @@ msgstr "Välj en svar-till-åtgärd."
 
 #: forms/list_forms.py:876
 msgid "No Munging"
-msgstr "Ingen mönstring"
+msgstr "Ingen munging"
 
 #: forms/list_forms.py:878
 msgid "Explicit Reply-to header set"
@@ -1190,18 +1191,18 @@ msgstr ""
 "sådant i det ursprungliga meddelandet tas det inte bort. Om du ställer in "
 "detta värde på antingen Reply to List, Explicit Reply eller Reply Only "
 "kommer Mailman att infoga ett specifikt Reply-To:-huvud i alla meddelanden "
-"och åsidosätta huvudet i det ursprungliga meddelandet om det behövs ("
-"Explicit Reply infogar värdet för reply_to_address). Explicit Reply-to set; "
+"och åsidosätta huvudet i det ursprungliga meddelandet om det behövs "
+"(Explicit Reply infogar värdet för reply_to_address). Explicit Reply-to set; "
 "no Cc added är användbart för listor med enbart meddelanden där du vill "
 "undvika att någon svarar till listans adress. Det finns många skäl till att "
 "inte införa eller åsidosätta rubriken Reply-To:. Ett är att vissa postare är "
 "beroende av sina egna Reply-To: -inställningar för att förmedla sin giltiga "
 "returadress. Ett annat är att om man ändrar Reply-To: blir det mycket "
-"svårare att skicka privata svar. Se <a href="
-"\"http://marc.merlins.org/netrants/reply-to-harmful.html\">`Reply-To' "
-"Munging Considered Harmful</a> för en allmän diskussion om denna fråga. Se "
-"<a href=\"http://marc.merlins.org/netrants/reply-to-useful.html\">`Reply-To' "
-"Munging Considered Useful</a> för en avvikande åsikt. Vissa e-postlistor har "
+"svårare att skicka privata svar. Se <a href=\"http://marc.merlins.org/"
+"netrants/reply-to-harmful.html\">`Reply-To' Munging Considered Harmful</a> "
+"för en allmän diskussion om denna fråga. Se <a href=\"http://"
+"marc.merlins.org/netrants/reply-to-useful.html\">`Reply-To' Munging "
+"Considered Useful</a> för en avvikande åsikt. Vissa e-postlistor har "
 "begränsade rättigheter att publicera inlägg, med en parallell lista som "
 "ägnas åt diskussioner. Exempel på detta är \"patch\"- eller \"checkin\"-"
 "listor, där programvaruändringar publiceras av ett revisionskontrollsystem, "
@@ -1216,7 +1217,7 @@ msgstr "Rörledning"
 
 #: forms/list_forms.py:922
 msgid "Type of pipeline you want to use for this mailing list"
-msgstr "Typ av pipeline som du vill använda för den här sändlistan"
+msgstr "Typ av rörledning som du vill använda för den här sändlistan"
 
 #: forms/list_forms.py:928
 msgid "Filter content"
@@ -1228,9 +1229,9 @@ msgid ""
 "below?\n"
 "<b>None of the settings below have any effect if this is No.</b>"
 msgstr ""
-"Ska Mailman filtrera innehållet i listtrafiken enligt inställningarna nedan?"
-"\n"
-"<b>Ingen av inställningarna nedan har någon effekt om detta är No.</b>"
+"Ska Mailman filtrera innehållet i listtrafiken enligt inställningarna "
+"nedan?\n"
+"<b>Ingen av inställningarna nedan har någon effekt om detta är Nej.</b>"
 
 #: forms/list_forms.py:936
 msgid "Filter types"
@@ -1278,7 +1279,7 @@ msgstr "Tillägg för att tillåta inkommande inlägg."
 
 #: forms/list_forms.py:967
 msgid "Collapse alternatives"
-msgstr "Alternativ för kollaps"
+msgstr "Fäll in alternativ"
 
 #: forms/list_forms.py:969
 msgid ""
@@ -1292,7 +1293,7 @@ msgstr "Filteråtgärd"
 
 #: forms/list_forms.py:984
 msgid "Convert html to plaintext"
-msgstr "Konvertera html till klartext"
+msgstr "Konvertera html till ren text"
 
 #: forms/list_forms.py:986
 msgid ""
@@ -1308,7 +1309,7 @@ msgstr "Svara och fortsätt bearbetningen"
 
 #: forms/list_forms.py:1000
 msgid "Respond and discard message"
-msgstr "Svara och avvisa meddelandet"
+msgstr "Svara och förkasta meddelandet"
 
 #: forms/list_forms.py:1001
 msgid "No automatic response"
@@ -1316,42 +1317,42 @@ msgstr "Inget automatiskt svar"
 
 #: forms/list_forms.py:1006
 msgid "Autorespond to list owner"
-msgstr "Autorsvar till listägare"
+msgstr "Automatiska svar till listägare"
 
 #: forms/list_forms.py:1008
 msgid ""
 "Should Mailman send an auto-response to emails sent to the -owner address?"
 msgstr ""
-"Ska Mailman skicka ett autosvar på e-postmeddelanden som skickas till "
-"-ägaradressen?"
+"Ska Mailman skicka ett automatiskt svar på e-postmeddelanden som skickas "
+"till adressen -owner?"
 
 #: forms/list_forms.py:1013
 msgid "Autoresponse owner text"
-msgstr "Ägartext för autosvar"
+msgstr "Ägartext för automatiska svar"
 
 #: forms/list_forms.py:1016
 msgid "Auto-response text to send to -owner emails."
-msgstr "Automatisk svarstext som skickas till ägarens e-post."
+msgstr "Automatisk svarstext som skickas till -owner (ägaren)."
 
 #: forms/list_forms.py:1021
 msgid "Autorespond postings"
-msgstr "Postningar med autosvar"
+msgstr "Postningar med automatiska svar"
 
 #: forms/list_forms.py:1023
 msgid "Should Mailman send an auto-response to mailing list posters?"
-msgstr "Bör Mailman skicka ett autosvar till postare på sändlistan?"
+msgstr "Bör Mailman skicka ett automatiskt svar till postare på sändlistan?"
 
 #: forms/list_forms.py:1027
 msgid "Autoresponse postings text"
-msgstr "Autorespons för postningar text"
+msgstr "Text för postningar för automatiska svar"
 
 #: forms/list_forms.py:1030
 msgid "Auto-response text to send to mailing list posters."
-msgstr "Auto-response-text som skickas till postare på sändlistan."
+msgstr "Automatisk svarstext som skickas till postare på sändlistan."
 
 #: forms/list_forms.py:1035
 msgid "Autorespond requests"
-msgstr "Förfrågningar om autosvar"
+msgstr "Begäran med automatiska svar"
 
 #: forms/list_forms.py:1037
 msgid ""
@@ -1366,29 +1367,29 @@ msgstr ""
 
 #: forms/list_forms.py:1044
 msgid "Autoresponse request text"
-msgstr "Text för begäran om autosvar"
+msgstr "Text för begäran för automatiska svar"
 
 #: forms/list_forms.py:1047
 msgid "Auto-response text to send to -request emails."
-msgstr "Automatisk svarstext som skickas till e-postmeddelanden med begäran."
+msgstr "Automatisk svarstext som skickas till -request (begäran)."
 
 #: forms/list_forms.py:1050
 msgid "Autoresponse grace period"
-msgstr "Karenstid för autosvar"
+msgstr "Karenstid för automatiska svar"
 
 #: forms/list_forms.py:1052
 msgid ""
-"Number of days between auto-responses to either the mailing list or -"
-"request/-owner address from the same poster. Set to zero (or negative) for "
+"Number of days between auto-responses to either the mailing list or "
+"-request/-owner address from the same poster. Set to zero (or negative) for "
 "no grace period (i.e. auto-respond to every message)."
 msgstr ""
-"Antal dagar mellan autosvar till antingen sändlistan eller -request/-owner-"
-"adressen från samma avsändare. Ställ in på noll (eller negativt) för ingen "
-"respitperiod (dvs. autosvar på varje meddelande)."
+"Antal dagar mellan automatiska svar till antingen sändlistan eller -request/-"
+"owner-adressen från samma avsändare. Ställ in på noll (eller negativt) för "
+"ingen karensperiod (dvs. automatiska svar på varje meddelande)."
 
 #: forms/list_forms.py:1062
 msgid "Notify users of held messages"
-msgstr "Meddela användare om kvarvarande meddelanden"
+msgstr "Meddela användare om kvarhållna meddelanden"
 
 #: forms/list_forms.py:1064
 msgid ""
@@ -1466,10 +1467,10 @@ msgid ""
 "message have the message attached.  You may want to set this to No if "
 "notices of held spammy messages are caught in the admin's spam filters."
 msgstr ""
-"Om ovanstående inställning för Admin immed notify är Yes, ska meddelandet om "
-"ett kvarhållet meddelande ha meddelandet bifogat.  Du kanske vill ställa in "
-"detta på No om meddelanden om kvarhållna skräppostmeddelanden fångas upp av "
-"administratörens skräppostfilter."
+"Om ovanstående inställning för Admin meddelar omedelbart är Ja, ska "
+"meddelandet om ett kvarhållet meddelande ha själva meddelandet bifogat.  Du "
+"kanske vill ställa in detta till Nej om meddelanden om kvarhållna "
+"skräppostmeddelanden fångas upp av administratörens skräppostfilter."
 
 #: forms/list_forms.py:1123
 msgid "Notify admin of membership changes"
@@ -1532,7 +1533,7 @@ msgstr "Ämnesprefix"
 
 #: forms/list_forms.py:1178
 msgid "Preferred Language"
-msgstr "Önskat språk"
+msgstr "Föredraget språk"
 
 #: forms/list_forms.py:1184
 msgid "Members List Visibility"
@@ -1592,12 +1593,12 @@ msgid ""
 "Flag indicating whether the list's \"Subject Prefix\" should be included in "
 "posts gated to usenet."
 msgstr ""
-"Flagga som anger om listans \"Subject Prefix\" ska inkluderas i inlägg som "
+"Flagga som anger om listans \"Ämnesprefix\" ska inkluderas i inlägg som "
 "skickas till usenet."
 
 #: forms/list_forms.py:1253
 msgid "Emails to mass subscribe"
-msgstr "E-postmeddelanden för massabonnemang"
+msgstr "E-postmeddelanden för massprenumeration"
 
 #: forms/list_forms.py:1255
 msgid ""
@@ -1610,11 +1611,11 @@ msgid ""
 "Use the last three to associate a display name with the address\n"
 msgstr ""
 "Följande format accepteras:\n"
-"jdoe@example.com\n"
-"&lt;jdoe@example.com&gt;\n"
-"John Doe &lt;jdoe@example.com&gt;\n"
-"\"John Doe\" &lt;jdoe@example.com&gt;\n"
-"jdoe@example.com (John Doe)\n"
+"ssvensson@exempel.se\n"
+"&lt;ssvensson@exempel.se&gt;\n"
+"Sven Svensson &lt;ssvensson@exempel.se&gt;\n"
+"\"Sven Svensson\" &lt;ssvensson@exempel.se&gt;\n"
+"ssvensson@exempel.se (Sven Svensson)\n"
 "Använd de tre sista för att associera ett visningsnamn med adressen\n"
 
 #: forms/list_forms.py:1266
@@ -1665,7 +1666,7 @@ msgid ""
 "will be ignored for these subscribers and a welcome message will be sent or "
 "not sent based on the choice."
 msgstr ""
-"Om inställningen är \"Yes\" eller \"No\" kommer Lists standardinställning "
+"Om inställningen är \"Ja\" eller \"Nej\" kommer listans standardinställning "
 "för send_welcome_message att ignoreras för dessa prenumeranter och ett "
 "välkomstmeddelande kommer att skickas eller inte skickas baserat på valet."
 
@@ -1687,7 +1688,7 @@ msgstr "Rubrik"
 
 #: forms/list_forms.py:1379
 msgid "Email header to filter on (case-insensitive)."
-msgstr "E-posthuvud att filtrera på (skiftlägesokänsligt)."
+msgstr "E-postrubriker att filtrera på (skiftlägesokänsligt)."
 
 #: forms/list_forms.py:1381
 msgid "Please enter a header."
@@ -1727,7 +1728,7 @@ msgstr "Åtgärder som ska vidtas när en rubrik matchar"
 
 #: forms/list_forms.py:1436
 msgid "Select Email"
-msgstr "Välj e-postadress"
+msgstr "Välj e-post"
 
 #: forms/list_forms.py:1462
 msgid "Data"
@@ -1759,7 +1760,7 @@ msgstr ""
 
 #: forms/user_forms.py:70
 msgid "Receive own postings"
-msgstr "Ta emot egna postningar"
+msgstr "Få egna postningar"
 
 #: forms/user_forms.py:72
 msgid ""
@@ -1775,7 +1776,7 @@ msgstr "Bekräfta inlägg"
 
 #: forms/user_forms.py:82
 msgid "Receive acknowledgement mail when you send mail to the list?"
-msgstr "Få bekräftelsemail när du skickar mail till listan?"
+msgstr "Få bekräftelsemail när du skickar e-post till listan?"
 
 #: forms/user_forms.py:88
 msgid "Hide address"
@@ -1789,11 +1790,11 @@ msgid ""
 msgstr ""
 "När andra medlemmar tillåts se medlemslistan visas normalt din e-postadress. "
 "Om du inte vill att din e-postadress ska visas på den här medlemslistan "
-"väljer du Yes för det här alternativet."
+"väljer du Ja för det här alternativet."
 
 #: forms/user_forms.py:99
 msgid "Receive list copies (possible duplicates)"
-msgstr "Kopior av mottagningslistan (eventuella dubbletter)"
+msgstr "Få kopior av listan (eventuella dubbletter)"
 
 #: forms/user_forms.py:101
 msgid ""
@@ -1815,13 +1816,13 @@ msgid ""
 "will override the MailingList's preferred language. This affects which "
 "language is used for your email notifications and such."
 msgstr ""
-"Rekommenderat språk för dina interaktioner med Mailman. När detta är "
-"inställt kommer det att åsidosätta MailingListans föredragna språk. Detta "
-"påverkar vilket språk som används för dina e-postmeddelanden och liknande."
+"Föredraget språk för dina interaktioner med Mailman. När detta är inställt "
+"kommer det att åsidosätta sändlistans föredragna språk. Detta påverkar "
+"vilket språk som används för dina e-postmeddelanden och liknande."
 
 #: forms/user_forms.py:170
 msgid "Cannot set delivery_status to {}"
-msgstr "Kan inte sätta delivery_status till {}"
+msgstr "Kan inte ställa in delivery_status till {}"
 
 #: forms/user_forms.py:268
 msgid "Verified"
@@ -1834,15 +1835,15 @@ msgstr "Anger om den här e-postadressen är verifierad eller inte"
 #: forms/validators.py:39
 #, python-brace-format
 msgid "Invalid: \"{0}\" should be either email or UUID"
-msgstr "Ogiltig: \"{0}\" ska vara antingen e-post eller UUID"
+msgstr "Ogiltig: \"{0}\" ska vara antingen email eller UUID"
 
 #: models.py:43
 msgid ""
 "Note: Do not add any secret content in templates as they are publicly "
 "accessible.\n"
 "You can use these variables in the templates. \n"
-"$hyperkitty_url: Permalink to archived message in Hyperkitty  - only in list:"
-"member:regular:footer and list:member:regular:header\n"
+"$hyperkitty_url: Permalink to archived message in Hyperkitty  - only in "
+"list:member:regular:footer and list:member:regular:header\n"
 "$listname: Name of the Mailing List e.g. ant@example.com \n"
 "$list_id: The List-ID header e.g. ant.example.com \n"
 "$display_name: Display name of the mailing list e.g. Ant \n"
@@ -1855,28 +1856,28 @@ msgid ""
 "$site_email: The email address to reach the owners of the site \n"
 "$language: The two letter language code for list's preferred language e.g. "
 "fr, en, de \n"
-"Some templates accept additional variables. See <a href=\"https://docs."
-"mailman3.org/projects/mailman/en/latest/src/mailman/rest/docs/templates."
-"html#templated-texts\">this doc</a> \n"
+"Some templates accept additional variables. See <a href=\"https://"
+"docs.mailman3.org/projects/mailman/en/latest/src/mailman/rest/docs/"
+"templates.html#templated-texts\">this doc</a> \n"
 msgstr ""
-"Obs: Lägg inte till något hemligt innehåll i mallarna eftersom de är "
+"Observera: Lägg inte till något hemligt innehåll i mallarna eftersom de är "
 "tillgängliga för allmänheten.\n"
 "Du kan använda dessa variabler i mallarna. \n"
 "$hyperkitty_url: Permalink till arkiverat meddelande i Hyperkitty - endast i "
 "list:member:regular:footer och list:member:regular:header\n"
-"$listname: Namnet på sändlistan, t.ex. ant@example.com \n"
-"$list_id: List-ID-huvudet, t.ex. ant.example.com \n"
+"$listname: Namnet på sändlistan, t.ex. ant@exempel.se \n"
+"$list_id: List-ID-huvudet, t.ex. ant.exempel.se \n"
 "$display_name: Visningsnamn för sändlistan, t.ex. Ant \n"
 "$short_listname: Den lokala delen av listnamnet, t.ex. ant \n"
-"$domän: Domändelen av listnamnet, t.ex. example.com \n"
-"$beskrivning: Sändlistans korta beskrivningstext \n"
+"$domain: Domändelen av listnamnet, t.ex. exempel.se \n"
+"$description: Sändlistans korta beskrivningstext \n"
 "$info: Mailinglistans längre beskrivande text \n"
 "$request_email: E-postadressen för -request address \n"
-"$owner_email (ägarens e-postadress): E-postadressen för -owner address ("
-"ägarens adress) \n"
+"$owner_email (ägarens e-postadress): E-postadressen för -owner address "
+"(ägarens adress) \n"
 "$site_email: E-postadressen för att nå webbplatsens ägare \n"
-"$språk: Språkkoden med två bokstäver för listans föredragna språk, t.ex. fr, "
-"en, de \n"
+"$language: Språkkoden med två bokstäver för listans föredragna språk, t.ex. "
+"sv, en, de \n"
 "Vissa mallar accepterar ytterligare variabler. Se <a href=\"https://"
 "docs.mailman3.org/projects/mailman/en/latest/src/mailman/rest/docs/"
 "templates.html#templated-texts\">detta dokument</a> \n"
@@ -1943,8 +1944,8 @@ msgid ""
 "Sent to the list administrators when a bounce message in an unrecognized "
 "format has been received."
 msgstr ""
-"Skickas till listadministratörerna när ett bounce-meddelande i ett format "
-"som inte känns igen har tagits emot."
+"Skickas till listadministratörerna när ett studsmeddelande i ett format som "
+"inte känns igen har tagits emot."
 
 #: template_list.py:58
 msgid "Sent to the list administrators from the 'mailman notify' command."
@@ -1955,8 +1956,8 @@ msgid ""
 "Sent to the list administrators to notify them when a member's bounce score "
 "is incremented."
 msgstr ""
-"Skickas till listadministratörerna för att meddela dem när en medlems bounce-"
-"score ökas."
+"Skickas till listadministratörerna för att meddela dem när en medlems "
+"studspoäng ökas."
 
 #: template_list.py:70
 msgid ""
@@ -1976,25 +1977,26 @@ msgstr ""
 
 #: template_list.py:79
 msgid "The footer for a digest message."
-msgstr "Sidfoten för ett digest-meddelande."
+msgstr "Sidfoten för ett sammanställningsmeddelande."
 
 #: template_list.py:80
 msgid "The header for a digest message."
-msgstr "Huvudet för ett digest-meddelande."
+msgstr "Sidhuvudet för ett sammanställningsmeddelande."
 
 #: template_list.py:84
 msgid ""
 "The digest “masthead”; i.e. a common introduction for all digest messages."
 msgstr ""
-"Digest-\"masthead\", dvs. en gemensam inledning för alla digest-meddelanden."
+"Digest-\"masthead\", dvs. en gemensam inledning för alla "
+"sammanställningsmeddelanden."
 
 #: template_list.py:89
 msgid "The footer for a regular (non-digest) message."
-msgstr "Sidfoten för ett vanligt (icke-sdigestat) meddelande."
+msgstr "Sidfoten för ett vanligt (icke-sammanställning) meddelande."
 
 #: template_list.py:93
 msgid "The header for a regular (non-digest) message."
-msgstr "Huvudet för ett vanligt (icke-sdigestat) meddelande."
+msgstr "Sidhuvudet för ett vanligt (icke-sammanställning) meddelande."
 
 #: template_list.py:98
 msgid ""
@@ -2036,15 +2038,15 @@ msgid ""
 "Sent to a user when the maximum number of autoresponses has been reached for "
 "that day."
 msgstr ""
-"Skickas till en användare när det maximala antalet autosvar har uppnåtts för "
-"den dagen."
+"Skickas till en användare när det maximala antalet automatiska svar har "
+"uppnåtts för den dagen."
 
 #: template_list.py:134
 msgid ""
 "Notice sent to a poster when their message has been received by the mailing "
 "list."
 msgstr ""
-"Meddelande som skickas till en affischör när dennes meddelande har mottagits "
+"Meddelande som skickas till en postare när dennes meddelande har mottagits "
 "av sändlistan."
 
 #: template_list.py:140
@@ -2052,8 +2054,8 @@ msgid ""
 "A bounce probe sent to a member when their subscription has been disabled "
 "due to bounces."
 msgstr ""
-"En bounce-probe som skickas till en medlem när dennes prenumeration har "
-"inaktiverats på grund av bounces."
+"En studsprob som skickas till en medlem när dennes prenumeration har "
+"inaktiverats på grund av studsande e-post."
 
 #: template_list.py:146
 msgid ""
@@ -2067,7 +2069,7 @@ msgstr ""
 msgid ""
 "Notice sent to a poster when their message has been rejected automatically."
 msgstr ""
-"Meddelande som skickas till en affischör när dennes meddelande har avvisats "
+"Meddelande som skickas till en postare när dennes meddelande har avvisats "
 "automatiskt."
 
 #: template_list.py:158
@@ -2112,7 +2114,7 @@ msgstr "Globala bannlysningar"
 
 #: templates/postorius/base.html:28
 msgid "Mailman logo"
-msgstr "Logotyp för brevbärare"
+msgstr "Mailman-logotyp"
 
 #: templates/postorius/base.html:34 templates/postorius/base.html:117
 #: templates/postorius/lists/summary.html:110
@@ -2121,7 +2123,7 @@ msgstr "Logga in"
 
 #: templates/postorius/base.html:38 templates/postorius/base.html:121
 msgid "Sign Up"
-msgstr "Registrera"
+msgstr "Registrera dig"
 
 #: templates/postorius/base.html:53 templates/postorius/base.html:130
 #: templates/postorius/base.html:158
@@ -2171,15 +2173,15 @@ msgstr "Arkiv"
 
 #: templates/postorius/base.html:197
 msgid "Postorius Documentation"
-msgstr "Postorius Dokumentation"
+msgstr "Postorius-dokumentation"
 
 #: templates/postorius/base.html:201
 msgid "Postorius Version"
-msgstr "Postorius version"
+msgstr "Postorius-version"
 
 #: templates/postorius/base.html:204
 msgid "Happy Mailman Day!"
-msgstr "Glad brevbärardag!"
+msgstr "Glad Mailman-dag!"
 
 #: templates/postorius/domain/confirm_delete.html:5
 msgid "Confirm domain removal"
@@ -2187,7 +2189,7 @@ msgstr "Bekräfta borttagning av domän"
 
 #: templates/postorius/domain/confirm_delete.html:13
 msgid "Confirm deletion"
-msgstr "Bekräfta borttagningen"
+msgstr "Bekräfta borttagning"
 
 #: templates/postorius/domain/confirm_delete.html:17
 msgid "Are you sure you want to permanently delete"
@@ -2257,7 +2259,7 @@ msgstr "Redigera"
 
 #: templates/postorius/domain/index.html:52
 msgid "remove"
-msgstr "radera"
+msgstr "ta bort"
 
 #: templates/postorius/domain/index.html:56
 msgid "Add"
@@ -2317,7 +2319,7 @@ msgstr "Spara"
 
 #: templates/postorius/domain/template_delete.html:11
 msgid "Delete Template"
-msgstr "Radera mall"
+msgstr "Ta bort mall"
 
 #: templates/postorius/domain/template_delete.html:22
 #, python-format
@@ -2369,11 +2371,11 @@ msgstr "Inga adresser är för närvarande bannlysta."
 
 #: templates/postorius/index.html:7
 msgid "List Index"
-msgstr "Lista Index"
+msgstr "Listans index"
 
 #: templates/postorius/index.html:13
 msgid "Mailing Lists"
-msgstr "Mailinglistor"
+msgstr "Sändlistor"
 
 #: templates/postorius/index.html:21
 msgid "Role: "
@@ -2449,7 +2451,7 @@ msgstr "Endast administratörer ser oannonserade listor i listindexet."
 
 #: templates/postorius/index.html:151
 msgid "There are currently no mailing lists."
-msgstr "Det finns för närvarande inga e-postlistor."
+msgstr "Det finns för närvarande inga sändlistor."
 
 #: templates/postorius/lists/bans.html:8
 msgid "Banned addresses"
@@ -2480,7 +2482,7 @@ msgstr ""
 
 #: templates/postorius/lists/confirm_remove_role.html:5
 msgid "Confirm remove role"
-msgstr "Bekräfta ta bort roll"
+msgstr "Bekräfta borttagning av roll"
 
 #: templates/postorius/lists/confirm_remove_role.html:15
 #, python-format
@@ -2498,7 +2500,7 @@ msgstr " Ta bort %(role_translated)s"
 
 #: templates/postorius/lists/confirm_removeall_subscribers.html:6
 msgid "Unsubscribe all members"
-msgstr "Avsluta prenumerationen på alla medlemmar"
+msgstr "Avsluta prenumerationen för alla medlemmar"
 
 #: templates/postorius/lists/confirm_removeall_subscribers.html:14
 #, python-format
@@ -2508,8 +2510,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Varning för detta! Detta kommer att ta bort alla medlemmar från "
-"%(listname)s!\n"
+"        Varning! Detta kommer att ta bort alla medlemmar från %(listname)s!\n"
 "    "
 
 #: templates/postorius/lists/confirm_removeall_subscribers.html:21
@@ -2554,7 +2555,7 @@ msgstr ""
 #: templates/postorius/lists/header_matches.html:7
 #: templates/postorius/menu/list_nav.html:102
 msgid "Header filters"
-msgstr "Filter för sidhuvud"
+msgstr "Rubrikfilter"
 
 #: templates/postorius/lists/header_matches.html:68
 #: templates/postorius/lists/memberoptions.html:20
@@ -2567,7 +2568,7 @@ msgstr "Spara ändringar"
 
 #: templates/postorius/lists/header_matches.html:70
 msgid "Changes pending, click on the button to save them."
-msgstr "Ändringar väntas, klicka på knappen för att spara dem."
+msgstr "Ändringar väntar, klicka på knappen för att spara dem."
 
 #: templates/postorius/lists/held_messages.html:27
 msgid "Perform action on selected messages"
@@ -2606,7 +2607,7 @@ msgstr "Datum för kvarhållning"
 #: templates/postorius/lists/held_messages.html:57
 #: templates/postorius/lists/held_messages.html:65
 msgid "No Subject"
-msgstr "Ämne saknas"
+msgstr "Inget ämne"
 
 #: templates/postorius/lists/held_messages.html:95
 msgid "Attachments"
@@ -2614,18 +2615,18 @@ msgstr "Bilagor"
 
 #: templates/postorius/lists/held_messages.html:106
 msgid "Set member moderation"
-msgstr "Ställ in moderering av medlemmar"
+msgstr "Ställ in medlemsmoderering"
 
 #: templates/postorius/lists/held_messages.html:112
 msgid "Rejection reason:"
-msgstr "Orsak till avslaget:"
+msgstr "Orsak till avvisning:"
 
 #: templates/postorius/lists/held_messages.html:115
 msgid ""
 "Reason sent to the sender for message rejection. For other actions, this is "
 "ignored."
 msgstr ""
-"Skäl som skickas till avsändaren för att meddelandet avvisas. För andra "
+"Orsak som skickas till avsändaren för att meddelandet avvisas. För andra "
 "åtgärder ignoreras detta."
 
 #: templates/postorius/lists/held_messages.html:129
@@ -2648,7 +2649,7 @@ msgstr "Ta bort listade användare"
 #: templates/postorius/menu/list_nav.html:93
 #: templates/postorius/menu/list_nav.html:97
 msgid "Mass subscribe"
-msgstr "Massabonnemang"
+msgstr "Massprenumerering"
 
 #: templates/postorius/lists/mass_subscribe.html:16
 msgid "Subscribe users"
@@ -2661,7 +2662,7 @@ msgstr "Alternativ för medlemmar"
 
 #: templates/postorius/lists/memberoptions.html:15
 msgid "No Preferences Available"
-msgstr "Inga preferenser tillgängliga"
+msgstr "Inga inställningar tillgängliga"
 
 #: templates/postorius/lists/memberoptions.html:16
 msgid "You are not the owner for this list"
@@ -2669,7 +2670,7 @@ msgstr "Du är inte ägare till denna lista"
 
 #: templates/postorius/lists/members.html:8
 msgid "List members"
-msgstr "Lista medlemmar"
+msgstr "Listans medlemmar"
 
 #: templates/postorius/lists/members.html:44
 msgid "Search members..."
@@ -2705,7 +2706,7 @@ msgstr "Modereringsåtgärd"
 
 #: templates/postorius/lists/members.html:93
 msgid "Bounce Score"
-msgstr "Poäng för studs"
+msgstr "Poäng för studsande e-post"
 
 #: templates/postorius/lists/members.html:119
 msgid "Masked per the user request"
@@ -2713,7 +2714,7 @@ msgstr "Maskerad enligt användarens begäran"
 
 #: templates/postorius/lists/new.html:6 templates/postorius/lists/new.html:17
 msgid "Create list"
-msgstr "Skapa en lista"
+msgstr "Skapa lista"
 
 #: templates/postorius/lists/new.html:12
 msgid "Create a new list"
@@ -2751,7 +2752,7 @@ msgstr "Datum"
 
 #: templates/postorius/lists/subscription_requests.html:45
 msgid "Rejection reason"
-msgstr "Orsak till avslag"
+msgstr "Orsak till avvisning"
 
 #: templates/postorius/lists/summary.html:10
 #: templates/postorius/menu/list_nav.html:10
@@ -2770,13 +2771,13 @@ msgstr "Du måste logga in för att besöka arkivet för denna lista."
 #, python-format
 msgid ""
 "\n"
-"            <a class=\"btn btn-primary\" href=\"%(hyperkitty_list_url)s"
-"\">Archives</a>\n"
+"            <a class=\"btn btn-primary\" "
+"href=\"%(hyperkitty_list_url)s\">Archives</a>\n"
 "          "
 msgstr ""
 "\n"
-"            <a class=\"btn btn-primary\" href=\"%(hyperkitty_list_url)s\""
-">Arkiv</a>\n"
+"            <a class=\"btn btn-primary\" "
+"href=\"%(hyperkitty_list_url)s\">Arkiv</a>\n"
 "          "
 
 #: templates/postorius/lists/summary.html:47
@@ -2802,7 +2803,7 @@ msgstr "Avsluta prenumeration"
 #: templates/postorius/lists/summary.html:63
 #: templates/postorius/user/subscription_preferences.html:49
 msgid "Primary Address"
-msgstr "Förstahandsadress"
+msgstr "Primär adress"
 
 #: templates/postorius/lists/summary.html:71
 msgid "Manage Subscription"
@@ -2818,16 +2819,16 @@ msgid ""
 "\n"
 "                To subscribe you can send an email with 'subscribe' in the "
 "subject to\n"
-"                <a href=\"mailto:%(address)s?subject=Subscribe\">"
-"%(address)s</a>\n"
+"                <a href=\"mailto:%(address)s?"
+"subject=Subscribe\">%(address)s</a>\n"
 "                or use the form below:\n"
 "            "
 msgstr ""
 "\n"
 "                För att prenumerera kan du skicka ett e-postmeddelande med "
 "\"subscribe\" i ämnesraden till\n"
-"                <a href=\"mailto:%(address)s?subject=Subscribe\""
-">%(address)s</a>\n"
+"                <a href=\"mailto:%(address)s?"
+"subject=Subscribe\">%(address)s</a>\n"
 "                eller använda formuläret nedan:\n"
 "            "
 
@@ -2841,7 +2842,7 @@ msgid ""
 "You have a subscription request pending. If you don't hear back soon, please "
 "contact the list owners."
 msgstr ""
-"Du har en prenumerationsbegäran på gång. Om du inte hör något snart, "
+"Du har en väntande prenumerationsbegäran. Om du inte hör något snart, "
 "kontakta listans ägare."
 
 #: templates/postorius/lists/summary.html:105
@@ -2874,7 +2875,7 @@ msgstr ""
 
 #: templates/postorius/lists/summary.html:134
 msgid "List metrics"
-msgstr "Lista mätvärden"
+msgstr "Listans mätvärden"
 
 #: templates/postorius/lists/summary.html:136
 msgid "Created at"
@@ -2882,11 +2883,11 @@ msgstr "Skapad"
 
 #: templates/postorius/lists/summary.html:141
 msgid "Last post at"
-msgstr "Senaste meddelande"
+msgstr "Senaste inlägg"
 
 #: templates/postorius/lists/summary.html:150
 msgid "Digest last sent at"
-msgstr "Digest senast skickad kl"
+msgstr "Sammanställning senast skickad"
 
 #: templates/postorius/lists/summary.html:159
 msgid "Volume"
@@ -2937,7 +2938,7 @@ msgstr "Massoperationer"
 #: templates/postorius/menu/list_nav.html:94
 #: templates/postorius/menu/list_nav.html:98
 msgid "Mass removal"
-msgstr "Borttagning av massa"
+msgstr "Massborttagning"
 
 #: templates/postorius/menu/list_nav.html:101
 msgid "Ban List"
@@ -2955,15 +2956,15 @@ msgstr "Prenumerationer"
 
 #: templates/postorius/menu/user_nav.html:8
 msgid "Global Mailman preferences"
-msgstr "Globala preferenser för brevbärare"
+msgstr "Globala Mailman-inställningar"
 
 #: templates/postorius/menu/user_nav.html:9
 msgid "Address-based preferences"
-msgstr "Adressbaserade preferenser"
+msgstr "Adressbaserade inställningar"
 
 #: templates/postorius/menu/user_nav.html:10
 msgid "List-based preferences"
-msgstr "Listbaserade preferenser"
+msgstr "Listbaserade inställningar"
 
 #: templates/postorius/system_information.html:6
 msgid "System Configuration"
@@ -2999,14 +3000,14 @@ msgstr ""
 
 #: templates/postorius/user/address_preferences.html:20
 msgid "Each email address can have specific Mailman preferences."
-msgstr "Varje e-postadress kan ha specifika Mailman-preferenser."
+msgstr "Varje e-postadress kan ha specifika Mailman-inställningar."
 
 #: templates/postorius/user/address_preferences.html:21
 msgid ""
 "Any options showing as not set here inherit at runtime from your global "
 "preferences (viewable on other tab)"
 msgstr ""
-"Alla alternativ som visas som ej inställda här ärver vid körning från dina "
+"Alla alternativ som visas som icke-inställda här ärver vid körning från dina "
 "globala inställningar (visas på annan flik)"
 
 #: templates/postorius/user/all.html:20
@@ -3046,7 +3047,7 @@ msgid ""
 "Any options showing as not set inherit at runtime from your global or "
 "address specific preferences (viewable on other tabs)"
 msgstr ""
-"Alla alternativ som visas som ej inställda ärvs vid körning från dina "
+"Alla alternativ som visas som icke-inställda ärvs vid körning från dina "
 "globala eller adressspecifika inställningar (visas på andra flikar)"
 
 #: templates/postorius/user/list_options.html:19
@@ -3121,11 +3122,11 @@ msgstr "Datum då du gick med"
 #: templates/postorius/user/manage.html:135
 #: templates/postorius/user/manage.html:138
 msgid "Change password"
-msgstr "Ändra lösenord"
+msgstr "Byt lösenord"
 
 #: templates/postorius/user/subscription_preferences.html:21
 msgid "Each list subscription can have specific Mailman preferences."
-msgstr "Varje listprenumeration kan ha specifika Mailman-preferenser."
+msgstr "Varje listprenumeration kan ha specifika Mailman-inställningar."
 
 #: templates/postorius/user/subscription_preferences.html:32
 msgid "Subscription"
@@ -3141,7 +3142,7 @@ msgstr "Du är ännu inte registrerad på några listor."
 
 #: templatetags/nav_helpers.py:27
 msgid "Header Filters"
-msgstr "Filter för sidhuvud"
+msgstr "Rubrikfilter"
 
 #: templatetags/nav_helpers.py:28
 msgid "Banned Addresses"
@@ -3149,15 +3150,15 @@ msgstr "Bannlysta adresser"
 
 #: templatetags/nav_helpers.py:29
 msgid "Delete List"
-msgstr "Radera lista"
+msgstr "Ta bort lista"
 
 #: templatetags/nav_helpers.py:30
 msgid "Held Messages"
-msgstr "Hållna meddelanden"
+msgstr "Kvarhållna meddelanden"
 
 #: templatetags/nav_helpers.py:31
 msgid "Mass Removal"
-msgstr "Massavlägsnande"
+msgstr "Massborttagning"
 
 #: templatetags/nav_helpers.py:32
 msgid "Mass Subscription"
@@ -3177,7 +3178,7 @@ msgstr "Sammanfattning"
 
 #: templatetags/nav_helpers.py:37
 msgid "Confirm Removal of All Members"
-msgstr "Bekräfta entledigande av samtliga ledamöter"
+msgstr "Bekräfta borttagning av samtliga medlemmar"
 
 #: templatetags/nav_helpers.py:40
 msgid "Address-based Settings"
@@ -3189,7 +3190,7 @@ msgstr "Prenumerationsinställningar"
 
 #: templatetags/nav_helpers.py:42
 msgid "Global Settings"
-msgstr "Globala Inställningar"
+msgstr "Globala inställningar"
 
 #: utils.py:42
 msgid "Mailman REST API not available. Please start Mailman core."
@@ -3202,7 +3203,7 @@ msgstr "Ny domän registrerad"
 #: views/domain.py:129
 #, python-format
 msgid "Domain %s updated"
-msgstr "Domän %s uppdaterad"
+msgstr "Domänen %s uppdaterad"
 
 #: views/domain.py:132 views/list.py:1034
 msgid "Please check the errors below"
@@ -3220,7 +3221,7 @@ msgstr "Domänen kunde inte tas bort: %s"
 
 #: views/domain.py:185
 msgid "Added {} as an owner for {}"
-msgstr "Lagt till {} som ägare till {}"
+msgstr "Lade till {} som ägare till {}"
 
 #: views/domain.py:220
 msgid "{} is not an owner for {}"
@@ -3242,7 +3243,7 @@ msgstr "Ett fel uppstod: %s"
 #: views/generic.py:125 views/generic.py:139
 #, python-format
 msgid "Invalid data: %s"
-msgstr "Ogiltiga data: %s"
+msgstr "Ogiltig data: %s"
 
 #: views/generic.py:132
 msgid "The email {} has been un-banned"
@@ -3275,15 +3276,15 @@ msgstr "{email} har lagts till med rollen {role}"
 
 #: views/list.py:255
 msgid "Member does not exist"
-msgstr "Medlem finns inte"
+msgstr "Medlemmen finns inte"
 
 #: views/list.py:281
 msgid "The member's preferences have been updated."
-msgstr "Medlemmens preferenser har uppdaterats."
+msgstr "Medlemmens inställningar har uppdaterats."
 
 #: views/list.py:291
 msgid "No change to the member's moderation."
-msgstr "Ingen förändring av medlemmens moderering."
+msgstr "Ingen ändring av medlemmens moderering."
 
 #: views/list.py:307
 msgid "The member's moderation settings have been updated."
@@ -3334,7 +3335,7 @@ msgstr "Du kan bara avregistrera dig själv."
 msgid ""
 "You have a pending unsubscription request waiting for moderator approval."
 msgstr ""
-"Du har en pågående avregistreringsbegäran som väntar på godkännande av "
+"Du har en väntande avregistreringsbegäran som väntar på godkännande av "
 "moderator."
 
 #: views/list.py:694
@@ -3358,14 +3359,14 @@ msgstr "Adressen %(address)s har bjudits in till %(list)s."
 #: views/list.py:744
 #, python-format
 msgid "The address %(address)s has been subscribed to %(list)s."
-msgstr "Adressen %(address)s har prenumererats på %(list)s."
+msgstr "Adressen %(address)s prenumererar nu på %(list)s."
 
 #: views/list.py:749
 msgid ""
 " Subscription may be pending address verification, confirmation or approval "
 "as appropriate."
 msgstr ""
-" Prenumerationen kan komma att avvakta adressverifiering, bekräftelse eller "
+" Prenumerationen kan komma att vänta på adressverifiering, bekräftelse eller "
 "godkännande beroende på vad som är tillämpligt."
 
 #: views/list.py:767 views/list.py:837
@@ -3408,19 +3409,19 @@ msgstr "Meddelandet avvisades"
 
 #: views/list.py:909
 msgid "The message was discarded"
-msgstr "Meddelandet avvisades"
+msgstr "Meddelandet förkastades"
 
 #: views/list.py:912
 msgid "Held message was not found."
-msgstr "Det innehållna meddelandet hittades inte."
+msgstr "Det kvarhållna meddelandet hittades inte."
 
 #: views/list.py:926
 msgid "Moderation action for {} set to {}"
-msgstr "Modereringsåtgärd för {} satt till {}"
+msgstr "Modereringsåtgärd för {} inställd till {}"
 
 #: views/list.py:934
 msgid "Failed to set moderation action for {}"
-msgstr "Misslyckades med att ange modereringsåtgärd för {}"
+msgstr "Misslyckades med att ställa in modereringsåtgärd för {}"
 
 #: views/list.py:990
 msgid "Choose a Domain"
@@ -3428,11 +3429,11 @@ msgstr "Välj en domän"
 
 #: views/list.py:1014
 msgid "List created"
-msgstr "Lista skapad"
+msgstr "Listan skapad"
 
 #: views/list.py:1026
 msgid "Mailing List already exists."
-msgstr "Mailinglistan finns redan."
+msgstr "Sändlistan finns redan."
 
 #: views/list.py:1206
 msgid "Subscriptions pending user confirmation"
@@ -3452,11 +3453,11 @@ msgstr "Begäran har godtagits."
 
 #: views/list.py:1282
 msgid "The request has been rejected."
-msgstr "Begäran har nekats."
+msgstr "Begäran har avvisats."
 
 #: views/list.py:1283
 msgid "The request has been discarded."
-msgstr "Begäran har avvisats."
+msgstr "Begäran har förkastats."
 
 #: views/list.py:1284
 msgid "The request has been defered."
@@ -3470,11 +3471,11 @@ msgstr "Begäran var redan modererad: %s"
 #: views/list.py:1308
 #, python-format
 msgid "The request could not be moderated: %s"
-msgstr "Förfrågan kunde inte modereras: %s"
+msgstr "Begäran kunde inte modereras: %s"
 
 #: views/list.py:1322
 msgid "List Identity"
-msgstr "Lista identitet"
+msgstr "Listans identitet"
 
 #: views/list.py:1323
 msgid "Automatic Responses"
@@ -3490,7 +3491,7 @@ msgstr "DMARC-skyddsåtgärder"
 
 #: views/list.py:1326
 msgid "Digest"
-msgstr "Gå igenom"
+msgstr "Sammanställning"
 
 #: views/list.py:1327
 msgid "Message Acceptance"
@@ -3498,7 +3499,7 @@ msgstr "Acceptans av meddelanden"
 
 #: views/list.py:1328
 msgid "Archiving"
-msgstr "Arkivera"
+msgstr "Arkivering"
 
 #: views/list.py:1329
 msgid "Member Policy"
@@ -3506,7 +3507,7 @@ msgstr "Medlemspolicy"
 
 #: views/list.py:1330
 msgid "Bounce Processing"
-msgstr "Bounce-bearbetning"
+msgstr "Bearbetning av studsande e-post"
 
 #: views/list.py:1331
 msgid "Newsgroup Gateway"
@@ -3577,7 +3578,7 @@ msgstr "Bilagan finns inte"
 
 #: views/system.py:31
 msgid "Mailman Core Version"
-msgstr "Mailman Kärnversion"
+msgstr "Mailman Core-version"
 
 #: views/system.py:32
 msgid "Mailman Core API Version"
@@ -3589,15 +3590,15 @@ msgstr "Mailman Core Python-version"
 
 #: views/user.py:103
 msgid "Your preferences have been updated."
-msgstr "Dina preferenser har uppdaterats."
+msgstr "Dina inställningar har uppdaterats."
 
 #: views/user.py:106
 msgid "Your preferences did not change."
-msgstr "Dina preferenser har inte förändrats."
+msgstr "Dina inställningar har inte förändrats."
 
 #: views/user.py:229
 msgid "Subscription does not exist"
-msgstr "Abonnemanget finns inte"
+msgstr "Prenumerationen finns inte"
 
 #: views/user.py:457
 msgid "Successfully updated addresses {}"
