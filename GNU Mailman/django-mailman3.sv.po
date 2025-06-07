@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: GNU Mailman django 3\n"
 "Report-Msgid-Bugs-To: mailman-developers@python.org\n"
 "POT-Creation-Date: 2024-12-23 04:02+0000\n"
-"PO-Revision-Date: 2025-06-06 17:27+0000\n"
-"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
+"PO-Revision-Date: 2025-06-07 08:49+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnu-mailman/"
 "django-mailman3/sv/>\n"
 "Language: sv\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12-dev\n"
+"X-Generator: Poedit 3.6\n"
 
 #: forms.py:35
 msgid "Username"
@@ -62,7 +62,7 @@ msgstr "Primär"
 
 #: templates/account/email.html:35
 msgid "Make Primary"
-msgstr "Sätt som primär"
+msgstr "Ange som primär"
 
 #: templates/account/email.html:36
 msgid "Re-send Verification"
@@ -107,7 +107,7 @@ msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
 msgstr ""
-"Godkänn att <a href=\"mailto:%(email)s\">%(email)s</a> är en e-postadress "
+"Bekräfta att <a href=\"mailto:%(email)s\">%(email)s</a> är en e-postadress "
 "för användaren %(user_display)s."
 
 #: templates/account/email_confirm.html:20
@@ -117,11 +117,11 @@ msgstr "Bekräfta"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This e-mail confirmation link expired or is invalid. Please <a "
+"href=\"%(email_url)s\">issue a new e-mail confirmation request</a>."
 msgstr ""
-"E-postbekräftelselänken har löpt ut eller är ogiltig. <a href=\"%(email_url)s"
-"\">Skicka en ny bekräftelselänk.</a>."
+"Länken för e-postbekräftelse har löpt ut eller är ogiltig. <a "
+"href=\"%(email_url)s\">Skicka en ny bekräftelselänk.</a>."
 
 #: templates/account/login.html:7 templates/account/login.html:11
 #: templates/account/login.html:59 templates/socialaccount/login.html:5
@@ -137,8 +137,8 @@ msgid ""
 "for a %(site_name)s account and sign in below:"
 msgstr ""
 "Logga in med ett\n"
-"av dina befintliga konton. Eller <a href=\"%(signup_url)s\">registrera dig</"
-"a>\n"
+"av dina befintliga tredjepartskonton. Eller <a "
+"href=\"%(signup_url)s\">registrera dig</a>\n"
 "med ett %(site_name)s-konto och logga in här under:"
 
 #: templates/account/login.html:22
@@ -189,7 +189,7 @@ msgstr ""
 
 #: templates/account/login.html:61
 msgid "Forgot Password?"
-msgstr "Glömt lösenord?"
+msgstr "Glömt lösenordet?"
 
 #: templates/account/logout.html:5 templates/account/logout.html:8
 #: templates/account/logout.html:17
@@ -241,7 +241,7 @@ msgstr ""
 
 #: templates/account/password_reset_from_key.html:9
 msgid "Bad Token"
-msgstr "Fel token"
+msgstr "Felaktig token"
 
 #: templates/account/password_reset_from_key.html:13
 #, python-format
@@ -250,9 +250,9 @@ msgid ""
 "used.  Please request a <a href=\"%(passwd_reset_url)s\">new password reset</"
 "a>."
 msgstr ""
-"Lösenordsåterställningslänken var ogiltig, kanske för att den redan använts. "
-"Var god begär <a href=\"%(passwd_reset_url)s\">lösenordsåterställning</a> på "
-"nytt."
+"Länken för lösenordsåterställning var ogiltig, kanske för att den redan "
+"använts. Begär en <a href=\"%(passwd_reset_url)s\">lösenordsåterställning</"
+"a> på nytt."
 
 #: templates/account/password_reset_from_key.html:20
 msgid "change password"
@@ -260,11 +260,11 @@ msgstr "ändra lösenord"
 
 #: templates/account/password_reset_from_key.html:25
 msgid "Your password is now changed."
-msgstr "Ditt lösenord har ändrats."
+msgstr "Ditt lösenord har nu ändrats."
 
 #: templates/account/password_set.html:12
 msgid "Set Password"
-msgstr "Sätt lösenord"
+msgstr "Ange lösenord"
 
 #: templates/account/signup.html:7 templates/socialaccount/signup.html:6
 msgid "Signup"
@@ -273,7 +273,7 @@ msgstr "Registrera"
 #: templates/account/signup.html:10 templates/account/signup.html:42
 #: templates/socialaccount/signup.html:9 templates/socialaccount/signup.html:21
 msgid "Sign Up"
-msgstr "Registrera"
+msgstr "Registrera dig"
 
 #: templates/account/signup.html:12
 #, python-format
@@ -339,7 +339,7 @@ msgstr "E-postadresser"
 
 #: templates/django_mailman3/profile/base.html:31
 msgid "Account Connections"
-msgstr "Kontokopplingar"
+msgstr "Kontoanslutningar"
 
 #: templates/django_mailman3/profile/base.html:36
 #: templates/django_mailman3/profile/delete_profile.html:16
@@ -351,8 +351,8 @@ msgid ""
 "Are you sure you want to delete your account? This will remove your account "
 "along with all your subscriptions."
 msgstr ""
-"Är du säker på att du vill radera ditt konto? Detta kommer ta bort ditt "
-"konto och alla dina abonnenter."
+"Är du säker på att du vill ta bort ditt konto? Detta kommer ta bort ditt "
+"konto och alla dina prenumerationer."
 
 #: templates/django_mailman3/profile/profile.html:20
 #: templates/django_mailman3/profile/profile.html:57
@@ -361,11 +361,11 @@ msgstr "Redigera på"
 
 #: templates/django_mailman3/profile/profile.html:28
 msgid "Primary email:"
-msgstr "Huvud-e-post:"
+msgstr "Primär-e-post:"
 
 #: templates/django_mailman3/profile/profile.html:34
 msgid "Other emails:"
-msgstr "Andra e-poster:"
+msgstr "Annan e-post:"
 
 #: templates/django_mailman3/profile/profile.html:40
 msgid "(no other email)"
@@ -373,7 +373,7 @@ msgstr "(ingen annan e-post)"
 
 #: templates/django_mailman3/profile/profile.html:45
 msgid "Link another address"
-msgstr "Koppla samman en annan adress"
+msgstr "Länka en annan adress"
 
 #: templates/django_mailman3/profile/profile.html:53
 msgid "Avatar:"
