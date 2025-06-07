@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GNU Mailman core\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-15 19:33-0800\n"
-"PO-Revision-Date: 2025-06-07 09:22+0200\n"
+"PO-Revision-Date: 2025-06-07 13:32+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/gnu-mailman/mailman/sv/>\n"
 "Language: sv\n"
@@ -18,7 +18,10 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Poedit 3.6\n"
 
-#: src/mailman/app/bounces.py:76 src/mailman/app/moderator.py:84 src/mailman/chains/hold.py:166 src/mailman/handlers/acknowledge.py:56 src/mailman/handlers/subject_prefix.py:46 src/mailman/handlers/subject_prefix.py:91 src/mailman/runners/digest.py:88
+#: src/mailman/app/bounces.py:76 src/mailman/app/moderator.py:84
+#: src/mailman/chains/hold.py:166 src/mailman/handlers/acknowledge.py:56
+#: src/mailman/handlers/subject_prefix.py:46
+#: src/mailman/handlers/subject_prefix.py:91 src/mailman/runners/digest.py:88
 msgid "(no subject)"
 msgstr "(inget ämne)"
 
@@ -54,7 +57,8 @@ msgstr ""
 msgid "Posting of your message titled \"${subject}\""
 msgstr "Publicering av ditt meddelande med titeln \"${subject}\""
 
-#: src/mailman/app/moderator.py:133 src/mailman/app/moderator.py:277 src/mailman/rest/sub_moderation.py:119
+#: src/mailman/app/moderator.py:133 src/mailman/app/moderator.py:277
+#: src/mailman/rest/sub_moderation.py:119
 msgid "[No reason given]"
 msgstr "[Inget skäl angivet]"
 
@@ -82,7 +86,7 @@ msgstr "Begäran till sändlistan \"${display_name}\" avvisad"
 
 #: src/mailman/app/notifications.py:93
 msgid " (Digest mode)"
-msgstr " (sammanfattningsläge)"
+msgstr " (Sammanfattningsläge)"
 
 #: src/mailman/app/notifications.py:97
 #, python-brace-format
@@ -144,7 +148,8 @@ msgstr "Din bekräftelse behövs för att lämna sändlistan ${event.mlist.fqdn_
 msgid "Your confirmation is needed to join the ${event.mlist.fqdn_listname} mailing list."
 msgstr "Din bekräftelse behövs för att gå med i ${event.mlist.fqdn_listname}-sändlistan."
 
-#: src/mailman/bin/mailman.py:102 src/mailman/bin/master.py:593 src/mailman/bin/runner.py:96
+#: src/mailman/bin/mailman.py:102 src/mailman/bin/master.py:593
+#: src/mailman/bin/runner.py:96
 msgid ""
 "    Configuration file to use.  If not given, the environment variable\n"
 "    MAILMAN_CONFIG_FILE is consulted and used if set.  If neither are given, a\n"
@@ -245,7 +250,7 @@ msgid ""
 msgstr ""
 "    Master subprocess watcher.\n"
 "\n"
-"    Startar och övervakar de konfigurerade löparna och ser till att de håller sig vid liv och\n"
+"    Startar och övervakar de konfigurerade runners och ser till att de håller sig vid liv och\n"
 "    sparkar.  Varje runner förgrenas och körs i tur och ordning, med mästaren som väntar\n"
 "    på deras process-id.  När den upptäcker att en underordnad runner har avslutats kan den\n"
 "    starta om den.\n"
@@ -258,7 +263,7 @@ msgstr ""
 "    utskrivna meddelande.\n"
 "\n"
 "    Mastern svarar också på SIGINT, SIGTERM, SIGUSR1 och SIGHUP, som den helt enkelt\n"
-"    vidarebefordras till löparna.  Observera att mastern kommer att stänga och\n"
+"    vidarebefordras till runners.  Observera att mastern kommer att stänga och\n"
 "    öppnar sina egna loggfiler igen efter att ha mottagit ett SIGHUP.  Mastern lämnar också\n"
 "    sitt eget process-id i den fil som anges i konfigurationsfilen, men du behöver\n"
 "    normalt inte använda detta PID direkt."
@@ -268,7 +273,7 @@ msgid ""
 "    Don't restart the runners when they exit because of an error or a SIGUSR1.\n"
 "    Use this only for debugging."
 msgstr ""
-"    Starta inte om löparna när de avslutas på grund av ett fel eller en SIGUSR1.\n"
+"    Starta inte om runners när de avslutas på grund av ett fel eller en SIGUSR1.\n"
 "    Använd detta endast för felsökning."
 
 #: src/mailman/bin/master.py:606
@@ -306,7 +311,7 @@ msgstr "Visa mer felsökningsinformation i loggfilen."
 #: src/mailman/bin/runner.py:50
 #, python-brace-format
 msgid "Undefined runner name: ${name}"
-msgstr "Odefinierat löparnamn: ${name}"
+msgstr "Odefinierat runner-namn: ${name}"
 
 #: src/mailman/bin/runner.py:58
 #, python-brace-format
@@ -349,7 +354,7 @@ msgstr ""
 
 #: src/mailman/bin/runner.py:103
 msgid "List the available runner names and exit."
-msgstr "Lista de tillgängliga löparnas namn och utgång."
+msgstr "Lista de tillgängliga runner-namn och avsluta."
 
 #: src/mailman/bin/runner.py:107
 msgid ""
@@ -383,7 +388,7 @@ msgstr ""
 "    alternativet.\n"
 "\n"
 "    För runner som hanterar en kökatalog används det valfria `slice:range` om det anges\n"
-"    användas för att tilldela flera löparprocesser till den kön. range är det\n"
+"    användas för att tilldela flera runner-processer till den kön. range är det\n"
 "    totala antalet runner för kön medan slice är numret på den här runnern\n"
 "    runner från [0..intervall).  För runner som inte hanterar en kö ignoreras slice och\n"
 "    range ignoreras.\n"
@@ -412,7 +417,7 @@ msgstr "Den inbyggda modereringskedjan."
 
 #: src/mailman/chains/discard.py:37
 msgid "Discard a message and stop processing."
-msgstr "Kassera ett meddelande och avbryt behandlingen."
+msgstr "Förkasta ett meddelande och avbryt behandlingen."
 
 #: src/mailman/chains/dmarc.py:30
 msgid "Process DMARC reject or discard mitigations"
@@ -464,7 +469,7 @@ msgstr ""
 
 #: src/mailman/chains/moderation.py:51
 msgid "Moderation chain"
-msgstr "Modereringskedjan"
+msgstr "Modereringskedja"
 
 #: src/mailman/chains/owner.py:38
 msgid "The built-in -owner posting chain."
@@ -474,7 +479,8 @@ msgstr "Den inbyggda ägarkedjan."
 msgid "Reject/bounce a message and stop processing."
 msgstr "Förkasta/avvisa ett meddelande och stoppa behandlingen."
 
-#: src/mailman/commands/cli_addmembers.py:73 src/mailman/commands/cli_syncmembers.py:121
+#: src/mailman/commands/cli_addmembers.py:73
+#: src/mailman/commands/cli_syncmembers.py:121
 #, python-brace-format
 msgid "Cannot parse as valid email address (skipping): ${line}"
 msgstr "Kan inte tolkas som giltig e-postadress (hoppar över): ${line}"
@@ -484,12 +490,14 @@ msgstr "Kan inte tolkas som giltig e-postadress (hoppar över): ${line}"
 msgid "Already subscribed (skipping): ${email}"
 msgstr "Redan prenumerant (hoppar över): ${email}"
 
-#: src/mailman/commands/cli_addmembers.py:107 src/mailman/commands/cli_syncmembers.py:87
+#: src/mailman/commands/cli_addmembers.py:107
+#: src/mailman/commands/cli_syncmembers.py:87
 #, python-brace-format
 msgid "Membership is banned (skipping): ${email}"
 msgstr "Medlemskap är förbjudet (hoppar över): ${email}"
 
-#: src/mailman/commands/cli_addmembers.py:110 src/mailman/commands/cli_syncmembers.py:90
+#: src/mailman/commands/cli_addmembers.py:110
+#: src/mailman/commands/cli_syncmembers.py:90
 #, python-brace-format
 msgid "Subscription already pending (skipping): ${email}"
 msgstr "Prenumerationen är redan väntande (hoppar över): ${email}"
@@ -530,7 +538,12 @@ msgstr ""
 msgid "    Override the list's setting for send_welcome_message."
 msgstr "    Åsidosätt listans inställning för send_welcome_message."
 
-#: src/mailman/commands/cli_addmembers.py:146 src/mailman/commands/cli_admins.py:97 src/mailman/commands/cli_import.py:68 src/mailman/commands/cli_inject.py:75 src/mailman/commands/cli_members.py:211 src/mailman/commands/cli_syncmembers.py:204 src/mailman/commands/cli_withlist.py:291
+#: src/mailman/commands/cli_addmembers.py:146
+#: src/mailman/commands/cli_admins.py:97 src/mailman/commands/cli_import.py:68
+#: src/mailman/commands/cli_inject.py:75
+#: src/mailman/commands/cli_members.py:211
+#: src/mailman/commands/cli_syncmembers.py:204
+#: src/mailman/commands/cli_withlist.py:291
 #: src/mailman/commands/cli_withlist.py:298
 #, python-brace-format
 msgid "No such list: ${listspec}"
@@ -592,7 +605,8 @@ msgstr ""
 msgid "Nothing to add or delete."
 msgstr "Inget att tillägga eller ta bort."
 
-#: src/mailman/commands/cli_admins.py:103 src/mailman/commands/cli_admins.py:106
+#: src/mailman/commands/cli_admins.py:103
+#: src/mailman/commands/cli_admins.py:106
 #, python-brace-format
 msgid "Invalid email address: ${email}"
 msgstr "Ogiltig e-postadress: ${email}"
@@ -729,7 +743,10 @@ msgstr ""
 "    kan du få problem med behörigheter, till exempel att du inte kan radera en listas\n"
 "    arkiv via webben.  Otur och otur!"
 
-#: src/mailman/commands/cli_control.py:83 src/mailman/commands/cli_control.py:170 src/mailman/commands/cli_control.py:192 src/mailman/commands/cli_control.py:214
+#: src/mailman/commands/cli_control.py:83
+#: src/mailman/commands/cli_control.py:170
+#: src/mailman/commands/cli_control.py:192
+#: src/mailman/commands/cli_control.py:214
 msgid ""
 "    Don't print status messages.  Error messages are still printed to standard\n"
 "    error."
@@ -858,7 +875,8 @@ msgstr ""
 "    -a/--all eller -l/--list.\n"
 "    "
 
-#: src/mailman/commands/cli_delmembers.py:93 src/mailman/commands/cli_syncmembers.py:182
+#: src/mailman/commands/cli_delmembers.py:93
+#: src/mailman/commands/cli_syncmembers.py:182
 msgid ""
 "    Override the list's setting for send_goodbye_message to\n"
 "    deleted members."
@@ -866,7 +884,8 @@ msgstr ""
 "    Åsidosätt listans inställning för send_goodbye_message till\n"
 "    raderade medlemmar."
 
-#: src/mailman/commands/cli_delmembers.py:98 src/mailman/commands/cli_syncmembers.py:187
+#: src/mailman/commands/cli_delmembers.py:98
+#: src/mailman/commands/cli_syncmembers.py:187
 msgid "    Override the list's setting for admin_notify_mchanges."
 msgstr "    Åsidosätt listans inställning för admin_notify_mchanges."
 
@@ -946,7 +965,8 @@ msgstr "${mlist.list_id} är på volym ${mlist.volume}, nummer ${mlist.next_dige
 msgid "${mlist.list_id} bumped to volume ${mlist.volume}, number ${mlist.next_digest_number}"
 msgstr "${mlist.list_id} bumpad till volym ${mlist.volume}, nummer ${mlist.next_digest_number}"
 
-#: src/mailman/commands/cli_digests.py:112 src/mailman/commands/cli_digests.py:122
+#: src/mailman/commands/cli_digests.py:112
+#: src/mailman/commands/cli_digests.py:122
 #, python-brace-format
 msgid "${mlist.list_id} sent volume ${mlist.volume}, number ${mlist.next_digest_number}"
 msgstr "${mlist.list_id} skickad volym ${mlist.volume}, nummer ${mlist.next_digest_number}"
@@ -1377,7 +1397,8 @@ msgstr ""
 "\n"
 "Kvarhållna prenumerationer:\n"
 
-#: src/mailman/commands/cli_notify.py:113 src/mailman/commands/cli_notify.py:117
+#: src/mailman/commands/cli_notify.py:113
+#: src/mailman/commands/cli_notify.py:117
 msgid "User: {}\n"
 msgstr "Användare: {}\n"
 
@@ -1401,7 +1422,8 @@ msgstr ""
 msgid "Sender: {}\n"
 msgstr "Avsändare: {}\n"
 
-#: src/mailman/commands/cli_notify.py:128 src/mailman/commands/cli_notify.py:131
+#: src/mailman/commands/cli_notify.py:128
+#: src/mailman/commands/cli_notify.py:131
 msgid "Subject: {}\n"
 msgstr "Ämne: [0 {}\n"
 
@@ -1551,7 +1573,7 @@ msgid ""
 "    Discard all shunted messages instead of moving them back to their original\n"
 "    queue."
 msgstr ""
-"    Kassera alla shuntade meddelanden istället för att flytta tillbaka dem till deras\n"
+"    Förkasta alla shuntade meddelanden istället för att flytta tillbaka dem till deras\n"
 "    ursprungliga kö."
 
 #: src/mailman/commands/cli_unshunt.py:50
@@ -1802,7 +1824,8 @@ msgstr "Bekräfta en prenumeration eller en begäran om hållet meddelande."
 msgid "No confirmation token found"
 msgstr "Ingen bekräftelsetoken hittades"
 
-#: src/mailman/commands/eml_confirm.py:63 src/mailman/commands/eml_confirm.py:99
+#: src/mailman/commands/eml_confirm.py:63
+#: src/mailman/commands/eml_confirm.py:99
 msgid "Confirmation token did not match"
 msgstr "Bekräftelsetoken stämde inte överens"
 
@@ -1886,7 +1909,8 @@ msgstr "${person} har en pågående prenumeration för ${listname}"
 msgid "Confirmation email sent to ${person}"
 msgstr "Bekräftelsemail skickat till ${person}"
 
-#: src/mailman/commands/eml_membership.py:152 src/mailman/commands/eml_membership.py:162
+#: src/mailman/commands/eml_membership.py:152
+#: src/mailman/commands/eml_membership.py:162
 #, python-brace-format
 msgid "bad argument: ${argument}"
 msgstr "dåligt argument: ${argument}"
@@ -2059,7 +2083,7 @@ msgid ""
 msgstr ""
 "Det bifogade meddelandet matchade ${mlist.display_name} sändlistans innehållsfiltreringsregler\n"
 "filtreringsregler och hindrades från att vidarebefordras till listans\n"
-"medlemskap.  Du får den enda återstående kopian av det kasserade\n"
+"medlemskap.  Du får den enda återstående kopian av det förkastade\n"
 "meddelandet.\n"
 "\n"
 
@@ -2099,7 +2123,8 @@ msgstr "Meddelandets filändelse var inte uttryckligen tillåten"
 msgid "After content filtering, the message was empty"
 msgstr "Efter innehållsfiltrering var meddelandet tomt"
 
-#: src/mailman/handlers/mime_delete.py:154 src/mailman/handlers/mime_delete.py:321
+#: src/mailman/handlers/mime_delete.py:154
+#: src/mailman/handlers/mime_delete.py:321
 msgid ""
 "\n"
 "Replaced multipart/alternative part with first alternative.\n"
@@ -2107,7 +2132,10 @@ msgstr ""
 "\n"
 "Ersatte multipart/alternativ del med första alternativet.\n"
 
-#: src/mailman/handlers/mime_delete.py:269 src/mailman/handlers/mime_delete.py:276 src/mailman/handlers/mime_delete.py:285 src/mailman/handlers/mime_delete.py:291
+#: src/mailman/handlers/mime_delete.py:269
+#: src/mailman/handlers/mime_delete.py:276
+#: src/mailman/handlers/mime_delete.py:285
+#: src/mailman/handlers/mime_delete.py:291
 #, python-brace-format
 msgid "Name: ${fname}\n"
 msgstr "Namn: ${fname}\n"
@@ -2251,7 +2279,7 @@ msgstr "Hitta DMARC-policy för From: domän."
 
 #: src/mailman/rules/dmarc.py:335
 msgid "DMARC moderation"
-msgstr "DMARC moderering"
+msgstr "DMARC-moderering"
 
 #: src/mailman/rules/dmarc.py:341
 #, python-brace-format
@@ -2454,7 +2482,7 @@ msgstr "Dagens ämnen:\n"
 
 #: src/mailman/runners/digest.py:153
 msgid "Digest Header"
-msgstr "Digest rubrik"
+msgstr "Sidhuvud för sammanställning"
 
 #: src/mailman/runners/digest.py:173
 #, python-brace-format
@@ -2463,7 +2491,7 @@ msgstr "Dagens ämnen (${count} meddelanden)"
 
 #: src/mailman/runners/digest.py:195 src/mailman/runners/digest.py:270
 msgid "Digest Footer"
-msgstr "Sammanfattning sidfot"
+msgstr "Sidfot för sammanställning"
 
 #: src/mailman/runners/digest.py:202 src/mailman/runners/digest.py:277
 msgid "End of "
