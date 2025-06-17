@@ -1,14 +1,14 @@
-# Swedish translation for Inkscape manual
+# Swedish translation for Inkscape man pages
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # This file is distributed under the same license as the inkscape package.
-# Daniel Nylander <po@danielnylander.se>, 2025.
+# Daniel Nylander <github@danielnylander.se>, 2025.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Inkscape man Swedish\n"
+"Project-Id-Version: Inkscape man\n"
 "POT-Creation-Date: 2024-10-04 17:40+0200\n"
-"PO-Revision-Date: 2025-05-16 09:00+0200\n"
+"PO-Revision-Date: 2025-06-12 10:25+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: sv\n"
 "Language: sv\n"
@@ -30,7 +30,7 @@ msgstr "Inkscape - ett redigeringsprogram för SVG (Scalable Vector Graphics)."
 #. type: =head1
 #: inkscape.pod.in:14 inkview.pod.in:14
 msgid "SYNOPSIS"
-msgstr "SAMMANFATTNING"
+msgstr "SYNOPSIS"
 
 #. type: textblock
 #: inkscape.pod.in:16
@@ -161,7 +161,7 @@ msgstr ""
 "        --export-png-color-mode=FÄRGLÄGE\n"
 "        --export-png-compression=NIVÅ\n"
 "        --export-png-antialias=NIVÅ\n"
-"        --export-png-use-dithering=BOOLESK\n"
+"        --export-png-use-dithering=BOOLEAN\n"
 "        --export-ps-level=NIVÅ\n"
 "        --export-pdf-version=VERSION\n"
 "    -T, --export-text-to-path\n"
@@ -204,8 +204,8 @@ msgid ""
 "\n"
 msgstr ""
 "        --vacuum-defs\n"
-"        --select=OBJECT-ID[,OBJECT-ID]*\n"
-"        --actions=ACTION(:ARG)[;ACTION(:ARG)]*\n"
+"        --select=OBJEKT-ID[,OBJEKT-ID]*\n"
+"        --actions=ÅTGÄRD(:ARG)[;ÅTGÄRD(:ARG)]*\n"
 "        --action-list\n"
 "        --actions-file=FILNAMN\n"
 "\n"
@@ -251,7 +251,7 @@ msgstr ""
 "illustrationer som t.ex. tecknade serier, clip art, logotyper, typografi, "
 "diagram och flödesscheman.  Inkscape använder vektorgrafik för att möjliggöra "
 "skarpa utskrifter och renderingar med obegränsad upplösning och är inte bundet "
-"till ett fast antal pixlar som rastergrafik. Inkscape använder det "
+"till ett fast antal bildpunkter som rastergrafik. Inkscape använder det "
 "standardiserade filformatet B<SVG> som sitt huvudformat, vilket stöds av många "
 "andra applikationer, inklusive webbläsare."
 
@@ -291,8 +291,8 @@ msgid ""
 "Source community."
 msgstr ""
 "B<Inkscape> använder SVG som sitt ursprungliga dokumentformat och har som mål "
-"att bli det mest kompatibla ritprogrammet för SVG-filer som finns i Open Source-"
-"communityt."
+"att bli det mest kompatibla ritprogrammet för SVG-filer som finns i öppna "
+"källkodsgemenskapen."
 
 #. type: =head1
 #: inkscape.pod.in:115 inkview.pod.in:41
@@ -327,7 +327,7 @@ msgstr "B<--help-gapplication>"
 #. type: textblock
 #: inkscape.pod.in:129
 msgid "Shows the GApplication options."
-msgstr "Visar alternativen för GApplication."
+msgstr "Visar GApplication-alternativen."
 
 #. type: =item
 #: inkscape.pod.in:131
@@ -475,7 +475,7 @@ msgstr ""
 "från Poppler).  Text lagras som text. Meshes konverteras till tiles.  Använd L<--"
 "pdf-poppler> för att importera via ett externt bibliotek (poppler med cairo "
 "backend) istället. Text består av grupper som innehåller klonade glyfer där "
-"varje glyf är en slinga.  Bilder lagras internt. Meshes gör att hela dokumentet "
+"varje glyf är en bana.  Bilder lagras internt. Meshes gör att hela dokumentet "
 "renderas som en rasterbild."
 
 #. type: =item
@@ -495,7 +495,7 @@ msgid ""
 msgstr ""
 "Välj metod som används för att skala om äldre filer (före 0.92) som återges "
 "något mindre på grund av övergången från 90 DPI till 96 DPI när längder som "
-"uttrycks i pixlar tolkas. Möjliga värden är \"none\" (ingen förändring, "
+"uttrycks i bildpunkter tolkas. Möjliga värden är \"none\" (ingen förändring, "
 "dokumentet återges med 94% of av sin ursprungliga storlek), \"scale-viewbox\" "
 "(dokumentet skalas om globalt, enskilda längder förblir orörda) och \"scale-"
 "document\" (varje längd skalas om individuellt)."
@@ -608,7 +608,7 @@ msgid ""
 msgstr ""
 "Gör det möjligt att ange en filändelse som ska användas vid export, vilket är "
 "särskilt relevant om det finns mer än ett exportalternativ för en viss filtyp. "
-"Om detta anges kan filtillägget i --export-filnamn och --export-typ utelämnas. "
+"Om detta anges kan filtillägget i --export-filename och --export-type utelämnas. "
 "Om det anges får dessutom endast en filtyp anges i --export-type."
 
 #. type: =item
@@ -683,7 +683,7 @@ msgid ""
 msgstr ""
 "För PNG-export, snäpp exportområdet utåt till närmaste heltal px-värden. Om du "
 "använder standardupplösningen för export på 96 dpi och din grafik är pixel-"
-"snappad för att minimera antialiasing, kan du med denna switch bevara denna "
+"snappad för att minimera kantutjämning, kan du med denna växel bevara denna "
 "justering även om du exporterar ett objekts begränsningsbox (med L<--export-id> "
 "eller L<--export-area-drawing>) som i sig inte är pixeljusterad."
 
@@ -720,7 +720,7 @@ msgid ""
 "The width of generated bitmap in pixels.  This value overrides the L<--export-"
 "dpi> setting (or the DPI hint if used with L<--export-use-hints>)."
 msgstr ""
-"Bredden på den genererade bitmappen i pixlar.  Detta värde åsidosätter "
+"Bredden på den genererade bitmappen i bildpunkter.  Detta värde åsidosätter "
 "inställningen L<--export-dpi> (eller DPI-tipset om det används med L<--export-"
 "use-hints>)."
 
@@ -735,7 +735,7 @@ msgid ""
 "The height of generated bitmap in pixels.  This value overrides the L<--export-"
 "dpi> setting (or the DPI hint if used with L<--export-use-hints>)."
 msgstr ""
-"Höjden på den genererade bitmappen i pixlar.  Detta värde åsidosätter "
+"Höjden på den genererade bitmappen i bildpunkter.  Detta värde åsidosätter "
 "inställningen L<--export-dpi> (eller DPI-tipset om det används med L<--export-"
 "use-hints>)."
 
@@ -808,7 +808,7 @@ msgid ""
 msgstr ""
 "Om du anger många värden med en semikolonseparerad lista över objekt kommer "
 "varje värde att exporteras separat. I detta fall kommer de exporterade filerna "
-"att namnges på följande sätt: [input_filnamn]_[ID].[export_typ]"
+"att namnges på följande sätt: [input_filename]_[ID].[export_type]"
 
 #. type: =item
 #: inkscape.pod.in:314
@@ -840,8 +840,8 @@ msgid ""
 "namespaces and without RDF metadata. Use the L<--export-filename> option to "
 "specify the filename."
 msgstr ""
-"Exportera dokument till vanligt SVG-format, utan sodipodi: eller inkscape: "
-"namnrymder och utan RDF-metadata. Använd alternativet L<--export-filename> för "
+"Exportera dokument till vanligt SVG-format, utan namnrymderna sodipodi: eller "
+"inkscape: och utan RDF-metadata. Använd alternativet L<--export-filename> för "
 "att ange filnamnet."
 
 #. type: =item
@@ -877,7 +877,7 @@ msgstr "B<--export-png-antialias>=I<NIVÅ>"
 #. type: textblock
 #: inkscape.pod.in:337
 msgid "Set the antialiasing level for PNG export (0 to 3); default is 2."
-msgstr "Ställ in nivån för antialiasing för PNG-export (0 till 3); standard är 2."
+msgstr "Ställ in nivån för kantutjämning för PNG-export (0 till 3); standard är 2."
 
 #. type: =item
 #: inkscape.pod.in:339
@@ -963,7 +963,7 @@ msgstr ""
 "stället i LaTeX-filen. Denna LaTeX-fil innehåller PDF/PS/EPS. Om du matar in "
 "(\\input{image.tex}) LaTeX-filen i ditt LaTeX-dokument visas bilden och all text "
 "sätts av LaTeX. Se den resulterande LaTeX-filen för mer information.  Se även "
-"GNUPlots `epslatex' utdataterminal."
+"GNUPlots `epslatex' terminalutdata."
 
 #. type: =item
 #: inkscape.pod.in:372
@@ -999,9 +999,9 @@ msgstr ""
 "När du exporterar till PNG kan du använda tips om exportfilnamn och DPI som "
 "finns lagrade i det exporterade objektet (endast med L<--export-id>).  Dessa "
 "tips ställs in automatiskt när du exporterar val från Inkscape.  Så om du till "
-"exempel exporterar en form med id=\"path231\" som /home/me/shape.png vid 300 dpi "
-"från document.svg med Inkscape GUI och sparar dokumentet, kommer du senare att "
-"kunna exportera formen till samma fil med samma upplösning helt enkelt med"
+"exempel exporterar en form med id=\"path231\" som /home/jag/shape.png vid 300 "
+"dpi från dokument.svg med Inkscape GUI och sparar dokumentet, kommer du senare "
+"att kunna exportera formen till samma fil med samma upplösning helt enkelt med"
 
 #. type: verbatim
 #: inkscape.pod.in:389
@@ -1010,7 +1010,7 @@ msgid ""
 "    inkscape -i path231 -t document.svg\n"
 "\n"
 msgstr ""
-"    inkscape -i sökväg231 -t dokument.svg\n"
+"    inkscape -i path231 -t dokument.svg\n"
 "\n"
 
 #. type: textblock
@@ -1065,7 +1065,7 @@ msgstr ""
 "antingen mellan 0,0 och 1,0 (0,0 betyder full transparens, 1,0 full opacitet) "
 "eller större än 1 upp till 255 (255 betyder full opacitet).  Om värdet inte "
 "anges och alternativet -b inte används, används den sidopacitet som ställts in i "
-"Inkscape i dialogen Dokumentegenskaper (lagras i attributet "
+"Inkscape i dialogen Dokumentegenskaper (lagrad i attributet "
 "inkscape:pageopacity= i sodipodi:namedview).  Om den inte är inställd men "
 "alternativet -b används, kommer värdet 255 (full opacitet) att användas."
 
@@ -1083,7 +1083,7 @@ msgid ""
 msgstr ""
 "Ange ID för det eller de objekt vars dimensioner efterfrågas i en kommaseparerad "
 "lista. Om den inte anges kommer frågealternativen att returnera dimensionerna "
-"för ritningen (dvs. alla dokumentobjekt), inte för sidan eller vyboxen."
+"för ritningen (dvs. alla dokumentobjekt), inte för sidan eller vyrutan."
 
 #. type: textblock
 #: inkscape.pod.in:423
@@ -1201,7 +1201,7 @@ msgstr ""
 "Kommandot L<--select> gör att objekt som har det angivna ID:t väljs.  Du kan "
 "välja många objekt i en kommaseparerad lista.  Detta gör att olika verb kan "
 "agera på dem.  Om du vill ta bort alla val använder du C<--verb=EditDeselect>. "
-"Vilka objekt-ID som är tillgängliga beror på vilket dokument som ska laddas."
+"Vilka objekt-ID som är tillgängliga beror på vilket dokument som ska läsas in."
 
 #. type: =item
 #: inkscape.pod.in:467
@@ -1224,11 +1224,11 @@ msgstr ""
 "parameter.  För att få en lista över tillgängliga åtgärds-ID:n använder du "
 "kommandoradsalternativet L<--action-list>.  Så småningom kommer alla verb att "
 "ersättas av åtgärder.  Tillfälligt kan vilket verb som helst användas som en "
-"åtgärd (utan en parameter).  Observera att de flesta verb kräver ett GUI (även "
-"om de inte använder det). Om du vill stänga GUI automatiskt i slutet av "
-"bearbetningen använder du L<--batch-process>. Dessutom har alla exportalternativ "
-"matchande åtgärder (ta bort \"--\" framför alternativet och ersätt \"=\" med \":"
-"\")."
+"åtgärd (utan en parameter).  Observera att de flesta verb kräver ett grafiskt "
+"gränssnitt (även om de inte använder det). Om du vill stänga det grafiska "
+"gränssnittet automatiskt i slutet av bearbetningen använder du L<--batch-"
+"process>. Dessutom har alla exportalternativ matchande åtgärder (ta bort \"--\" "
+"framför alternativet och ersätt \"=\" med \":\")."
 
 #. type: textblock
 #: inkscape.pod.in:477
@@ -1279,8 +1279,8 @@ msgstr "B<-g>, B<--with-gui>"
 #: inkscape.pod.in:493
 msgid "Try to use the GUI (on Unix, use the X server even if $DISPLAY is not set)."
 msgstr ""
-"Försök att använda GUI (på Unix används X-servern även om $DISPLAY inte är "
-"inställt)."
+"Försök att använda det grafiska gränssnittet (på Unix används X-servern även om "
+"$DISPLAY inte är inställt)."
 
 #. type: =item
 #: inkscape.pod.in:496
@@ -1320,7 +1320,7 @@ msgid ""
 "concurrently."
 msgstr ""
 "Skapar en unik instans av Inkscape med program-ID:t "
-"'org.inkscape.Inkscape.TAG'.  Detta är användbart för att separera Inkscape-"
+"'org.inkscape.Inkscape.TAGG'.  Detta är användbart för att separera Inkscape-"
 "instanser när du kör olika Inkscape-versioner eller använder olika "
 "inställningsfiler samtidigt."
 
@@ -1332,7 +1332,7 @@ msgstr "B<--batch-process>"
 #. type: textblock
 #: inkscape.pod.in:512
 msgid "Close GUI after executing all actions or verbs."
-msgstr "Stäng GUI efter att ha utfört alla åtgärder eller verb."
+msgstr "Stäng grafiskt gränssnitt efter att ha utfört alla åtgärder eller verb."
 
 #. type: =item
 #: inkscape.pod.in:514
@@ -1377,7 +1377,7 @@ msgid ""
 "the shell commands in an already opened Inkscape document."
 msgstr ""
 "Detta alternativ kan kombineras med parametern L<--active-window> för att utföra "
-"shell-kommandon i ett redan öppnat Inkscape-dokument."
+"skalkommandon i ett redan öppnat Inkscape-dokument."
 
 #. type: textblock
 #: inkscape.pod.in:531
@@ -1396,8 +1396,8 @@ msgid ""
 "    file-open:file2.svg; export-id:rect2; export-id-only; export-filename:rect_only.svg; export-do\n"
 "\n"
 msgstr ""
-"    fil-öppna:file1.svg; export-typ:pdf; export-do; export-typ:png; export-do\n"
-"    file-open:file2.svg; export-id:rect2; export-id-only; export-filename:rect_only.svg; export-do\n"
+"    file-open:fil1.svg; export-type:pdf; export-do; export-type:png; export-do\n"
+"    file-open:fil2.svg; export-id:rect2; export-id-only; export-filename:rect_only.svg; export-do\n"
 "\n"
 
 #. type: =head1
@@ -1415,18 +1415,18 @@ msgid ""
 msgstr ""
 "Huvudkonfigurationsfilen finns i ~/.config/inkscape/preferences.xml; den lagrar "
 "en mängd olika anpassningsinställningar som du kan ändra i Inkscape (mestadels i "
-"dialogrutan Inkscape Preferences).  Även i underkatalogerna där kan du placera "
-"dina egna:"
+"dialogrutan Inställningar i Inkscape).  Även i underkatalogerna där kan du "
+"placera dina egna:"
 
 #. type: textblock
 #: inkscape.pod.in:547
 msgid "B<$HOME>/.config/inkscape/extensions/ - extensions."
-msgstr "B<$HOME>/.config/inkscape/extensions/ - tillägg."
+msgstr "B<$HOME>/.config/inkscape/extensions/ - utökningar."
 
 #. type: textblock
 #: inkscape.pod.in:549
 msgid "B<$HOME>/.config/inkscape/fonts/ - fonts."
-msgstr "B<$HOME>/.config/inkscape/fonts/ - teckensnitt."
+msgstr "B<$HOME>/.config/inkscape/fonts/ - typsnitt."
 
 #. type: textblock
 #: inkscape.pod.in:551
@@ -1436,17 +1436,17 @@ msgstr "B<$HOME>/.config/inkscape/icons/ - ikonuppsättningar."
 #. type: textblock
 #: inkscape.pod.in:553
 msgid "B<$HOME>/.config/inkscape/keys/ - keyboard maps."
-msgstr "B<$HOME>/.config/inkscape/keys/ - tangentbordskartor."
+msgstr "B<$HOME>/.config/inkscape/keys/ - tangentbordsmappningar."
 
 #. type: textblock
 #: inkscape.pod.in:555
 msgid "B<$HOME>/.config/inkscape/paint/ - patterns and hatches."
-msgstr "B<$HOME>/.config/inkscape/paint/ - mönster och luckor."
+msgstr "B<$HOME>/.config/inkscape/paint/ - mönster och hatches."
 
 #. type: textblock
 #: inkscape.pod.in:557
 msgid "B<$HOME>/.config/inkscape/palettes/ - palettes."
-msgstr "B<$HOME>/.config/inkscape/paletter/ - paletter."
+msgstr "B<$HOME>/.config/inkscape/palettes/ - paletter."
 
 #. type: textblock
 #: inkscape.pod.in:559
@@ -1461,7 +1461,7 @@ msgstr "B<$HOME>/.config/inkscape/templates/ - nya filmallar."
 #. type: textblock
 #: inkscape.pod.in:563
 msgid "B<$HOME>/.config/inkscape/ui/ - user interface files."
-msgstr "B<$HOME>/.config/inkscape/ui/ - filer för användargränssnitt."
+msgstr "B<$HOME>/.config/inkscape/ui/ - användargränssnittsfiler."
 
 #. type: =head1
 #: inkscape.pod.in:565
@@ -1495,8 +1495,8 @@ msgid ""
 "While obviously B<Inkscape> is primarily intended as a GUI application, it can "
 "be used for doing SVG processing on the command line as well."
 msgstr ""
-"Även om B<Inkscape> naturligtvis främst är avsett som ett GUI-program kan det "
-"också användas för SVG-bearbetning på kommandoraden."
+"Även om B<Inkscape> naturligtvis främst är avsett som ett grafiskt program kan "
+"det också användas för SVG-bearbetning på kommandoraden."
 
 #. type: textblock
 #: inkscape.pod.in:578
@@ -1529,13 +1529,13 @@ msgid ""
 "    inkscape --export-filename=filename.png filename.svg\n"
 "\n"
 msgstr ""
-"    inkscape --export-filnamn=filnamn.png filnamn.svg\n"
+"    inkscape --export-filename=filename.png filnamn.svg\n"
 "\n"
 
 #. type: textblock
 #: inkscape.pod.in:587
 msgid "Same, but force the PNG file to be 600x400 pixels:"
-msgstr "Samma sak, men tvinga PNG-filen att vara 600x400 pixlar:"
+msgstr "Samma sak, men tvinga PNG-filen att vara 600x400 bildpunkter:"
 
 #. type: verbatim
 #: inkscape.pod.in:589
@@ -1544,7 +1544,7 @@ msgid ""
 "    inkscape --export-filename=filename.png -w 600 -h 400 filename.svg\n"
 "\n"
 msgstr ""
-"    inkscape --exportfilnamn=filnamn.png -w 600 -h 400 filnamn.svg\n"
+"    inkscape --export-filename=filnamn.png -w 600 -h 400 filnamn.svg\n"
 "\n"
 
 #. type: textblock
@@ -1587,7 +1587,8 @@ msgid ""
 "the GUI:"
 msgstr ""
 "Exportera objektet med id=\"text1555\" till PNG med hjälp av det filnamn och den "
-"upplösning som användes för objektet förra gången det exporterades från GUI:"
+"upplösning som användes för objektet förra gången det exporterades från det "
+"grafiskt gränssnittet:"
 
 #. type: verbatim
 #: inkscape.pod.in:604
@@ -1608,7 +1609,7 @@ msgid ""
 msgstr ""
 "Samma sak, men använd standardupplösningen 96 dpi, ange filnamnet och snäpp det "
 "exporterade området utåt till närmaste hela SVG-användarenhetsvärden (för att "
-"bevara pixeljustering av objekt och därmed minimera aliasing):"
+"bevara bildpunktsjustering av objekt och därmed minimera aliasing):"
 
 #. type: verbatim
 #: inkscape.pod.in:611
@@ -1710,8 +1711,8 @@ msgid ""
 "background to the file triangle_purple.png and with a red background to the file "
 "triangle_red.png."
 msgstr ""
-"Exportera objektet med ID MyTriangle med en halvgenomskinlig lila bakgrund till "
-"filen triangle_purple.png och med en röd bakgrund till filen triangle_red.png."
+"Exportera objektet med ID MinTriangel med en halvgenomskinlig lila bakgrund till "
+"filen triangel_lila.png och med en röd bakgrund till filen triangel_röd.png."
 
 #. type: verbatim
 #: inkscape.pod.in:637
@@ -1720,7 +1721,7 @@ msgid ""
 "    inkscape --actions=\"export-id:MyTriangle; export-id-only; export-background:purple; export-background-opacity:0.5;export-filename:triangle_purple.png; export-do; export-background:red; export-background-opacity:1; export-filename:triangle_red.png; export-do\" filename.svg\n"
 "\n"
 msgstr ""
-"    inkscape --actions=\"export-id:MyTriangle; export-id-only; export-background:purple; export-background-opacity:0.5;export-filename:triangle_purple.png; export-do; export-background:red; export-background-opacity:1; export-filename:triangle_red.png; export-do\" filnamn.svg\n"
+"    inkscape --actions=\"export-id:MinTriangel; export-id-only; export-background:purple; export-background-opacity:0.5;export-filename:triangel_lila.png; export-do; export-background:red; export-background-opacity:1; export-filename:triangel_röd.png; export-do\" filnamn.svg\n"
 "\n"
 
 #. type: textblock
@@ -1764,7 +1765,7 @@ msgid ""
 "Same as above, but also reading from a pipe (--export-filename can be omitted in "
 "this case)"
 msgstr ""
-"Samma som ovan, men även läsning från en pipe (--export-filnamn kan utelämnas i "
+"Samma som ovan, men även läsning från en pipe (--export-filename kan utelämnas i "
 "detta fall)"
 
 #. type: verbatim
@@ -1838,11 +1839,10 @@ msgid ""
 "archives, the latest released version of the program, bugs and feature requests "
 "databases, forums, and more."
 msgstr ""
-"Den kanoniska platsen för att hitta information om B<Inkscape> är på "
-"L&lt;https://www.inkscape.org/&gt;.  Webbplatsen innehåller nyheter, "
-"dokumentation, handledning, exempel, arkiv för e-postlistor, den senaste "
-"versionen av programmet, databaser för buggar och funktionsförfrågningar, forum "
-"och mycket mer."
+"Den kanoniska platsen för att hitta information om B<Inkscape> är på L<https://"
+"www.inkscape.org/>.  Webbplatsen innehåller nyheter, dokumentation, handledning, "
+"exempel, arkiv för sändlistor, den senaste versionen av programmet, databaser "
+"för buggar och funktionsförfrågningar, forum och mycket mer."
 
 #. type: =head1
 #: inkscape.pod.in:681 inkview.pod.in:117
@@ -1875,7 +1875,7 @@ msgid ""
 "August 2011> L<https://www.w3.org/TR/SVG11/>"
 msgstr ""
 "I<Scalable Vector Graphics (SVG) 1.1 Specification> I<W3C Recommendation 16 "
-"August 2011> L&lt;https://www.w3.org/TR/SVG11/&gt"
+"August 2011> L<https://www.w3.org/TR/SVG11/>"
 
 #. type: textblock
 #: inkscape.pod.in:695
@@ -1884,7 +1884,7 @@ msgid ""
 "2005> L<https://www.w3.org/TR/SVG12/>"
 msgstr ""
 "I<Scalable Vector Graphics (SVG) 1.2 Specification> I<W3C Working Draft 13 April "
-"2005> L&lt;https://www.w3.org/TR/SVG12/&gt"
+"2005> L<https://www.w3.org/TR/SVG12/>"
 
 #. type: textblock
 #: inkscape.pod.in:699
@@ -1893,7 +1893,7 @@ msgid ""
 "15 September 2016> L<https://www.w3.org/TR/SVG2/>"
 msgstr ""
 "I<Scalable Vector Graphics (SVG) 2 Specification> I<W3C Candidate Recommendation "
-"15 September 2016> L&lt;https://www.w3.org/TR/SVG2/&gt"
+"15 September 2016> L<https://www.w3.org/TR/SVG2/>"
 
 #. type: textblock
 #: inkscape.pod.in:703
@@ -1902,12 +1902,12 @@ msgid ""
 "2000> L<https://www.w3.org/TR/DOM-Level-2-Core/>"
 msgstr ""
 "I<Document Object Model (DOM): Level 2 Core> I<W3C Recommendation 13 November "
-"2000> L&lt;https://www.w3.org/TR/DOM-Level-2-Core/&gt"
+"2000> L<https://www.w3.org/TR/DOM-Level-2-Core/>"
 
 #. type: =head1
 #: inkscape.pod.in:708
 msgid "GUI NOTES"
-msgstr "GRÄNSSNITTSANTECKNINGAR"
+msgstr "ANTECKNINGAR FÖR GRAFISKT GRÄNSSNITT"
 
 #. type: textblock
 #: inkscape.pod.in:710
@@ -1915,8 +1915,9 @@ msgid ""
 "To learn Inkscape's GUI operation, read the manual in Help > Inkscape manual, "
 "and the tutorials in Help > Tutorials."
 msgstr ""
-"Om du vill lära dig hur Inkscape fungerar i GUI kan du läsa manualen i Hjälp > "
-"Inkscape-manual och självstudierna i Hjälp > Självstudier."
+"Om du vill lära dig hur Inkscape fungerar i det grafiska gränssnittet kan du "
+"läsa manualen i Hjälp > Inkscape-manual och självstudierna i Hjälp > "
+"Handledningar."
 
 #. type: textblock
 #: inkscape.pod.in:713
@@ -1953,8 +1954,8 @@ msgid ""
 "Inkscape includes a GUI front-end to the Potrace bitmap tracing engine (L<http://"
 "potrace.sf.net>) which is embedded into Inkscape."
 msgstr ""
-"Inkscape innehåller en GUI-frontend till Potrace bitmappsspårningsmotor "
-"(L<http://potrace.sf.net>) som är inbäddad i Inkscape."
+"Inkscape innehåller ett grafiskt gränssnitts-frontend till Potrace "
+"bitmappsspårningsmotor (L<http://potrace.sf.net>) som är inbäddad i Inkscape."
 
 #. type: textblock
 #: inkscape.pod.in:727
@@ -1983,7 +1984,7 @@ msgid ""
 "use the Keys and Mouse command in Help menu."
 msgstr ""
 "En fullständig lista över kortkommandon för tangentbord och mus finns i doc/"
-"keys.html eller i kommandot Keys and Mouse i Hjälp-menyn."
+"keys.html eller i kommandot Tangenter och mus i Hjälp-menyn."
 
 #. type: =head1
 #: inkscape.pod.in:738
@@ -1999,7 +2000,7 @@ msgid ""
 msgstr ""
 "Många buggar är kända; se webbplatsen (L<https://www.inkscape.org/>) för att "
 "granska de rapporterade och för att rapportera nyfunna problem.  Se även "
-"avsnittet Kända problem i Release Notes för din version (fil `NEWS')."
+"avsnittet Kända problem i Release Notes för din version (filen `NEWS')."
 
 #. type: =head1
 #: inkscape.pod.in:745
@@ -2073,13 +2074,14 @@ msgstr ""
 "Mycket av arbetet i början av projektet fokuserade på stabilisering av koden och "
 "internationalisering.  Den ursprungliga renderaren som ärvdes från Sodipodi "
 "innehöll ett antal matematiska hörnfall som ledde till oväntade krascher när "
-"programmet användes mer än rutinmässigt; denna renderare ersattes med Livarot "
-"som, även om den inte heller var perfekt, var betydligt mindre felbenägen.  "
-"Projektet använde sig också av en praxis att ofta uppdatera koden och uppmuntra "
-"användare att köra utvecklingsmässiga ögonblicksbilder av programmet; detta "
-"hjälpte till att snabbt identifiera nya buggar och säkerställa att det var lätt "
-"för användarna att verifiera korrigeringarna.  Som ett resultat har Inkscape-"
-"utgåvorna i allmänhet fått ett rykte om sig att vara robusta och pålitliga."
+"programmet användes för mer än rutinmässiga ändamål; denna renderare ersattes "
+"med Livarot som, även om den inte heller var perfekt, var betydligt mindre "
+"felbenägen.  Projektet använde sig också av en praxis att ofta uppdatera koden "
+"och uppmuntra användare att köra utvecklingsmässiga ögonblicksbilder av "
+"programmet; detta hjälpte till att snabbt identifiera nya buggar och säkerställa "
+"att det var lätt för användarna att verifiera korrigeringarna.  Som ett resultat "
+"har Inkscape-utgåvorna i allmänhet fått ett rykte om sig att vara robusta och "
+"pålitliga."
 
 #. type: textblock
 #: inkscape.pod.in:780
@@ -2102,9 +2104,9 @@ msgid ""
 msgstr ""
 "Inkscape har haft en positiv inverkan på den visuella attraktionskraften hos "
 "öppen källkod i allmänhet genom att tillhandahålla ett verktyg för att skapa och "
-"dela ikoner, splash screens, webbplatsbilder och så vidare.  På sätt och vis har "
+"dela ikoner, startskärmar, webbplatsbilder och så vidare.  På sätt och vis har "
 "Inkscape, trots att det \"bara är ett ritprogram\", spelat en viktig roll för "
-"att göra Open Source mer visuellt stimulerande för en större publik."
+"att göra öppen källkod mer visuellt stimulerande för en större publik."
 
 #. type: =head1
 #: inkscape.pod.in:789 inkview.pod.in:123
@@ -2135,7 +2137,7 @@ msgstr "UPPHOVSRÄTT OCH LICENS"
 #. type: textblock
 #: inkscape.pod.in:800 inkview.pod.in:129
 msgid "B<Copyright (C)> 1999-2023 by Authors."
-msgstr "B<Copyright (C)> 1999-2023 av Upphovspersonerna."
+msgstr "B<Copyright (C)> 1999-2023 av upphovspersonerna."
 
 #. type: textblock
 #: inkscape.pod.in:802
@@ -2149,7 +2151,7 @@ msgstr ""
 #. type: =for
 #: inkscape.pod.in:806 inkview.pod.in:135
 msgid "comment $Date$"
-msgstr "kommentar $Datum$"
+msgstr "kommentar $Date$"
 
 #. type: textblock
 #: inkview.pod.in:12
@@ -2199,11 +2201,11 @@ msgid ""
 "specified on the command-line for opening. Inkview will display all SVG files in "
 "the given order. Folders will be expanded to a list of contained SVG files."
 msgstr ""
-"B<Inkview> är en B<Scalable Vector Graphics (SVG)> viewer som även kan användas "
+"B<Inkview> är en B<Scalable Vector Graphics-visare (SVG)> som även kan användas "
 "för bildspel eller presentationer. En eller flera B<FILES> eller B<FOLDERS> kan "
-"anges på kommandoraden för att öppnas. Inkview kommer att visa alla SVG-filer i "
-"den angivna ordningen. Mappar expanderas till en lista över SVG-filer som finns "
-"i dem."
+"specificeras på kommandoraden för öppning. Inkview kommer att visa alla SVG-"
+"filer i den angivna ordningen. Mappar expanderas till en lista över SVG-filer "
+"som finns i dem."
 
 #. type: textblock
 #: inkview.pod.in:37
@@ -2290,10 +2292,11 @@ msgid ""
 "memory. This option can also be used to verify if all files can be opened "
 "properly, without having to cycle through all files manually."
 msgstr ""
-"Förladdar alla SVG-filer. Inkview måste fortfarande rendera bilder när de visas, "
-"men det här alternativet säkerställer att alla SVG-filer redan har analyserats "
-"och laddats in i minnet. Detta alternativ kan också användas för att verifiera "
-"om alla filer kan öppnas korrekt, utan att behöva gå igenom alla filer manuellt."
+"Förinläser alla SVG-filer. Inkview måste fortfarande rendera bilder när de "
+"visas, men det här alternativet säkerställer att alla SVG-filer redan har "
+"analyserats och laddats in i minnet. Detta alternativ kan också användas för att "
+"verifiera om alla filer kan öppnas korrekt, utan att behöva gå igenom alla filer "
+"manuellt."
 
 #. type: =item
 #: inkview.pod.in:83
@@ -2303,12 +2306,12 @@ msgstr "* Vänster, Page Up eller Backsteg: visa föregående bild"
 #. type: =item
 #: inkview.pod.in:85
 msgid "* Right, Page Down, or Space: show next image"
-msgstr "* Höger, sida ner eller mellanslag: visa nästa bild"
+msgstr "* Höger, Page Down eller mellanslag: visa nästa bild"
 
 #. type: =item
 #: inkview.pod.in:87
 msgid "* Up, or Home: go to first image"
-msgstr "* Upp, eller Home: gå till första bilden"
+msgstr "* Upp, eller Hem: gå till första bilden"
 
 #. type: =item
 #: inkview.pod.in:89
@@ -2318,7 +2321,7 @@ msgstr "* Ner, eller End: gå till sista bilden"
 #. type: =item
 #: inkview.pod.in:95
 msgid "* Return: show control window"
-msgstr "* Return: visa kontrollfönster"
+msgstr "* Retur: visa kontrollfönster"
 
 #. type: =item
 #: inkview.pod.in:97
@@ -2328,7 +2331,7 @@ msgstr "* F11: växla till helskärmsläge"
 #. type: =item
 #: inkview.pod.in:99
 msgid "* Escape or Q: quit"
-msgstr "* Escape eller Q: Avsluta"
+msgstr "* Escape eller Q: avsluta"
 
 #. type: textblock
 #: inkview.pod.in:105
@@ -2376,7 +2379,7 @@ msgid ""
 "    inkview --fullscreen --timer=5 [files/folders ...]\n"
 "\n"
 msgstr ""
-"    inkview --fullscreen --timer=5 [filer/mappar ...]\n"
+"    inkview --fullscreen --timer=5 [files/folders ...]\n"
 "\n"
 
 #. type: textblock
