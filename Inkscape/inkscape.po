@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-translator@lists.inkscape.org\n"
 "POT-Creation-Date: 2025-06-11 11:51+0000\n"
-"PO-Revision-Date: 2025-06-19 20:23+0200\n"
+"PO-Revision-Date: 2025-06-20 14:37+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -3717,7 +3717,7 @@ msgstr "Brus"
 
 #: ../build/share/paint/patterns.svg.h:1
 msgid "Hatches"
-msgstr "Luckor"
+msgstr "Skraffel"
 
 #: ../build/share/symbols/symbols.h:2
 msgctxt "Symbol"
@@ -7077,10 +7077,8 @@ msgid "Open Object Properties"
 msgstr "Öppna objektegenskaper"
 
 #: ../src/actions/actions-dialogs.cpp:53
-#, fuzzy
-#| msgid "Edit the object attributes (context dependent)..."
 msgid "Edit the object attributes (context dependent)"
-msgstr "Ställ in attribut..."
+msgstr "Redigera objektets attribut (kontextberoende)"
 
 #: ../src/actions/actions-dialogs.cpp:54
 msgid "Open Objects"
@@ -9161,15 +9159,15 @@ msgstr "Ange sträng för export-ID"
 
 #: ../src/actions/actions-output.cpp:302
 msgid "Enter 1/0 for Yes/No to export only given ID"
-msgstr "Ange 1/0 för Ja/Nej för att exportera endast givet ID"
+msgstr "Ange 1/0 för Ja/Nej för att exportera endast angivet ID"
 
 #: ../src/actions/actions-output.cpp:304
 msgid "Enter 1/0 for Yes/No to export plain SVG"
-msgstr "Ange 1/0 för Ja/Nej för att exportera ren SVG"
+msgstr "Ange 1/0 för Ja/Nej för att exportera vanlig SVG"
 
 #: ../src/actions/actions-output.cpp:305
 msgid "Enter integer number for export DPI"
-msgstr "Ange heltal för export av DPI"
+msgstr "Ange heltal för DPI-export"
 
 #: ../src/actions/actions-output.cpp:306
 msgid "Enter 1/0 for Yes/No to export ignoring filters"
@@ -9185,7 +9183,7 @@ msgstr "Ange heltal 2 eller 3 för PS-nivå"
 
 #: ../src/actions/actions-output.cpp:309
 msgid "Enter string for PDF Version, e.g. 1.4 or 1.5"
-msgstr "Ange sträng för PDF-version, t ex 1.4 eller 1.5"
+msgstr "Ange sträng för PDF-version, t.ex 1.4 eller 1.5"
 
 #: ../src/actions/actions-output.cpp:310
 msgid "Enter 1/0 for Yes/No to export to PDF and LaTeX"
@@ -9243,15 +9241,15 @@ msgstr "Skapa en ny sida"
 
 #: ../src/actions/actions-pages.cpp:97 ../src/actions/actions-pages.cpp:128
 msgid "Delete Page"
-msgstr "Radera sida"
+msgstr "Ta bort sida"
 
 #: ../src/actions/actions-pages.cpp:97
 msgid "Delete the selected page"
-msgstr "Radera den valda sidan"
+msgstr "Ta bort den valda sidan"
 
 #: ../src/actions/actions-pages.cpp:98
 msgid "Move Objects with Page"
-msgstr "Flytta objekt med Page"
+msgstr "Flytta objekt med sida"
 
 #: ../src/actions/actions-pages.cpp:98
 msgid "Move overlapping objects as the page is moved"
@@ -9259,7 +9257,7 @@ msgstr "Flytta överlappande objekt när sidan flyttas"
 
 #: ../src/actions/actions-pages.cpp:99
 msgid "Move Before Previous"
-msgstr "Flytta innan Tidigare"
+msgstr "Flytta innan föregående"
 
 #: ../src/actions/actions-pages.cpp:99
 msgid "Move page backwards in the page order"
@@ -9321,7 +9319,8 @@ msgid ""
 "Create exclusive OR of selected paths (those parts that belong to only one "
 "path)"
 msgstr ""
-"Skapa exklusivt ELLER av markerade slingor (de delar som endast tillhör en)"
+"Skapa exklusivt ELLER av markerade slingor (de delar som endast tillhör en "
+"slinga)"
 
 #: ../src/actions/actions-paths.cpp:252 ../src/path/path-boolop.cpp:69
 msgid "Division"
@@ -9333,11 +9332,11 @@ msgstr "Dela upp nedre slingan i delar"
 
 #: ../src/actions/actions-paths.cpp:253
 msgid "Cut Path"
-msgstr "Klippväg"
+msgstr "Klipp slinga"
 
 #: ../src/actions/actions-paths.cpp:253
 msgid "Cut the bottom path's stroke into pieces, removing fill"
-msgstr "Dela upp nedre slingans linje i delar och ta bort fyllningen"
+msgstr "Klipp upp nedre slingans linje i delar och ta bort fyllningen"
 
 #: ../src/actions/actions-paths.cpp:254 ../src/path-chemistry.cpp:189
 msgid "Combine"
@@ -9345,19 +9344,19 @@ msgstr "Kombinera"
 
 #: ../src/actions/actions-paths.cpp:254
 msgid "Combine several paths into one"
-msgstr "Sammanfoga flera slingor till en"
+msgstr "Kombinera flera slingor till en"
 
 #: ../src/actions/actions-paths.cpp:255
 msgid "Break Apart"
-msgstr "Bryt isär"
+msgstr "Ta isär"
 
 #: ../src/actions/actions-paths.cpp:255
 msgid "Break selected paths into subpaths"
-msgstr "Dela upp markerade slingor till underslingor"
+msgstr "Ta isär markerade slingor till underslingor"
 
 #: ../src/actions/actions-paths.cpp:256
 msgid "Split Apart"
-msgstr "Split Apart"
+msgstr "Dela upp"
 
 #: ../src/actions/actions-paths.cpp:256
 msgid "Split selected paths into non-overlapping sections"
@@ -9430,7 +9429,7 @@ msgstr "Skapa ett dynamiskt förskjutet objekt"
 
 #: ../src/actions/actions-paths.cpp:265 ../src/object/sp-offset.cpp:321
 msgid "Linked Offset"
-msgstr "Länkad Offset"
+msgstr "Länkad förskjutning"
 
 #: ../src/actions/actions-paths.cpp:265
 msgid "Create a dynamic offset object linked to the original path"
@@ -9450,15 +9449,15 @@ msgstr ""
 
 #: ../src/actions/actions-paths.cpp:267
 msgid "Inset Screen"
-msgstr "Inbyggd skärm"
+msgstr "Skjut in skärm"
 
 #: ../src/actions/actions-paths.cpp:267
 msgid "Inset selected paths by screen pixels"
-msgstr "Infällda utvalda slingor med skärmpixlar"
+msgstr "Skjut in utvalda slingor med skärmpixlar"
 
 #: ../src/actions/actions-paths.cpp:268
 msgid "Offset Screen"
-msgstr "Offset-skärm"
+msgstr "Förskjut skärm"
 
 #: ../src/actions/actions-paths.cpp:268
 msgid "Offset selected paths by screen pixels"
@@ -9474,7 +9473,7 @@ msgstr "Lägg till former genom att klicka eller klicka och dra"
 
 #: ../src/actions/actions-paths.cpp:271
 msgid "Shape Builder: Delete"
-msgstr "Formbyggare: Radera"
+msgstr "Formbyggare: Ta bort"
 
 #: ../src/actions/actions-paths.cpp:271
 msgid "Remove shapes by clicking or clicking and dragging"
@@ -9486,14 +9485,14 @@ msgstr "Byt ut objekt"
 
 #: ../src/actions/actions-paths.cpp:272
 msgid "Remove selected objects when shape building is completed"
-msgstr "Ta bort valda objekt när formbyggandet är klart"
+msgstr "Ta bort valda objekt när formbyggandet är färdigt"
 
 #: ../src/actions/actions-selection-object.cpp:37
 #: ../src/actions/actions-selection-object.cpp:150
 #: ../share/ui/toolbar-commands.ui:536
 msgctxt "Verb"
 msgid "Group"
-msgstr "Grupp"
+msgstr "Gruppera"
 
 #: ../src/actions/actions-selection-object.cpp:46
 #: ../src/actions/actions-selection-object.cpp:151
@@ -9509,7 +9508,7 @@ msgstr "Ankare"
 #: ../src/actions/actions-selection-object.cpp:141
 #: ../src/ui/dialog/document-properties.cpp:580
 msgid "Resize page to fit"
-msgstr "Skala om sidans innehåll"
+msgstr "Ändra sidans storlek för att passa"
 
 #: ../src/actions/actions-selection-object.cpp:150
 msgid "Group selected objects"
@@ -9530,11 +9529,11 @@ msgstr "Plocka ut valda objekt ur gruppen"
 #: ../src/actions/actions-selection-object.cpp:153
 msgctxt "Hyperlink|Verb"
 msgid "Link"
-msgstr "Länk"
+msgstr "Länka"
 
 #: ../src/actions/actions-selection-object.cpp:153
 msgid "Add an anchor to selected objects"
-msgstr "Lägga till ett ankare till markerade objekt"
+msgstr "Lägg till ett ankare till markerade objekt"
 
 #: ../src/actions/actions-selection-object.cpp:155
 msgid "Raise to Top"
@@ -9557,7 +9556,7 @@ msgstr "Höj markeringen ett steg"
 
 #: ../src/actions/actions-selection-object.cpp:157
 msgid "Lower"
-msgstr "Undre"
+msgstr "Sänk"
 
 #: ../src/actions/actions-selection-object.cpp:157
 #: ../share/ui/dialog-objects.glade:133 ../share/ui/toolbar-select.ui:353
@@ -9575,7 +9574,7 @@ msgstr "Placera markeringen underst"
 
 #: ../src/actions/actions-selection-object.cpp:160
 msgid "Move up the Stack"
-msgstr "Flytta upp i stapeln"
+msgstr "Flytta uppåt i stapeln"
 
 #: ../src/actions/actions-selection-object.cpp:160
 msgid "Move the selection up in the stack order"
@@ -9583,7 +9582,7 @@ msgstr "Flytta markeringen uppåt i stapelordningen"
 
 #: ../src/actions/actions-selection-object.cpp:161
 msgid "Move down the Stack"
-msgstr "Flytta ner i stapeln"
+msgstr "Flytta nedåt i stapeln"
 
 #: ../src/actions/actions-selection-object.cpp:161
 msgid "Move the selection down in the stack order"
@@ -9591,22 +9590,22 @@ msgstr "Flytta markeringen nedåt i stapelordningen"
 
 #: ../src/actions/actions-selection-object.cpp:163
 msgid "Make a Bitmap Copy"
-msgstr "Gör en bitmappskopia"
+msgstr "Gör en bitmappkopia"
 
 #: ../src/actions/actions-selection-object.cpp:163
 msgid "Export selection to a bitmap and insert it into document"
-msgstr "Exportera markering till en bitmappsbild och infoga denna i dokumentet"
+msgstr "Exportera markering till en bitmappbild och infoga denna i dokumentet"
 
 #: ../src/actions/actions-selection-object.cpp:164
 msgid "Resize Page to Selection"
-msgstr "Ändra storlek på sida till urval"
+msgstr "Ändra storlek på sida till markering"
 
 #: ../src/actions/actions-selection-object.cpp:164
 msgid ""
 "Fit the page to the current selection or the drawing if there is no selection"
 msgstr ""
-"Anpassa sidan till det aktuella urvalet eller till ritningen om det inte "
-"finns något urval"
+"Anpassa sidan till den aktuella markeringen eller till ritningen om det inte "
+"finns någon markering"
 
 #: ../src/actions/actions-selection-window.cpp:126
 msgid "Select All"
@@ -9627,7 +9626,7 @@ msgstr "Markera alla objekt i alla synliga och olåsta lager"
 #: ../src/actions/actions-selection-window.cpp:128
 #: ../share/ui/toolbar-commands.ui:600
 msgid "Fill and Stroke"
-msgstr "Fyllning och linje"
+msgstr "Fyllning och streck"
 
 #: ../src/actions/actions-selection-window.cpp:128
 msgid ""
@@ -9645,22 +9644,22 @@ msgstr "Markera alla objekt med samma fyllning som de markerade objekten"
 
 #: ../src/actions/actions-selection-window.cpp:130
 msgid "Stroke Color"
-msgstr "Linjefärg"
+msgstr "Streckfärg"
 
 #: ../src/actions/actions-selection-window.cpp:130
 msgid "Select all objects with the same stroke as the selected objects"
-msgstr "Markera alla objekt med samma slaglängd som de markerade objekten"
+msgstr "Markera alla objekt med samma streck som de markerade objekten"
 
 #: ../src/actions/actions-selection-window.cpp:131
 msgid "Stroke Style"
-msgstr "Linjestil"
+msgstr "Streckstil"
 
 #: ../src/actions/actions-selection-window.cpp:131
 msgid ""
 "Select all objects with the same stroke style (width, dash, markers) as the "
 "selected objects"
 msgstr ""
-"Markera alla objekt med samma slagstil (bredd, streck, markörer) som de "
+"Markera alla objekt med samma streckstil (bredd, talstreck, markörer) som de "
 "markerade objekten"
 
 #: ../src/actions/actions-selection-window.cpp:132
@@ -9677,7 +9676,7 @@ msgstr ""
 
 #: ../src/actions/actions-selection-window.cpp:133
 msgid "Invert Selection"
-msgstr "Val av inverterare"
+msgstr "Invertera markering"
 
 #: ../src/actions/actions-selection-window.cpp:133
 msgid "Invert selection (unselect what is selected and select everything else)"
@@ -9703,7 +9702,7 @@ msgstr "Avmarkera alla markerade objekt eller noder"
 
 #: ../src/actions/actions-selection.cpp:276
 msgid "Clear Selection"
-msgstr "Rensa markeringen"
+msgstr "Töm markering"
 
 #: ../src/actions/actions-selection.cpp:276
 msgid "Clear selection"
@@ -9742,7 +9741,7 @@ msgstr "Välj efter klass"
 
 #: ../src/actions/actions-selection.cpp:282
 msgid "Select by Element"
-msgstr "Välj per element"
+msgstr "Välj efter element"
 
 #: ../src/actions/actions-selection.cpp:282
 msgid "Select by SVG element (e.g. 'rect')"
@@ -9750,7 +9749,7 @@ msgstr "Välj efter SVG-element (t.ex. \"rect\")"
 
 #: ../src/actions/actions-selection.cpp:283
 msgid "Select by Selector"
-msgstr "Välj genom väljare"
+msgstr "Välj med väljare"
 
 #: ../src/actions/actions-selection.cpp:283
 msgid "Select by CSS selector"
@@ -9773,7 +9772,7 @@ msgstr ""
 
 #: ../src/actions/actions-selection.cpp:285
 msgid "List Selection"
-msgstr "Val av lista"
+msgstr "Listval"
 
 #: ../src/actions/actions-selection.cpp:285
 msgid "Print a list of objects in current selection"
@@ -9818,11 +9817,11 @@ msgstr "Avmarkera alla markerade objekt eller noder"
 #: ../src/actions/actions-svg-processing.cpp:695
 msgctxt "Action Section"
 msgid "Processing"
-msgstr "Bearbetas"
+msgstr "Behandling"
 
 #: ../src/actions/actions-svg-processing.cpp:700
 msgid "Set SVG Version to 1.1"
-msgstr "Välj SVG-version 1.1"
+msgstr "Ställ in SVG-version 1.1"
 
 #: ../src/actions/actions-svg-processing.cpp:700
 msgid "Set the document's SVG version to 1.1"
@@ -9830,7 +9829,7 @@ msgstr "Ställ in dokumentets SVG-version till 1.1"
 
 #: ../src/actions/actions-svg-processing.cpp:701
 msgid "Set SVG Version to 2.0"
-msgstr "Välj SVG-version 2.0"
+msgstr "Ställ in SVG-version 2.0"
 
 #: ../src/actions/actions-svg-processing.cpp:701
 msgid "Set the document's SVG version to 2.0"
@@ -9838,23 +9837,23 @@ msgstr "Ställ in dokumentets SVG-version till 2.0"
 
 #: ../src/actions/actions-svg-processing.cpp:702
 msgid "Prune Inkscape Namespaces"
-msgstr "Beskära Inkscape-namnområden"
+msgstr "Skala bort Inkscape-namnrymder"
 
 #: ../src/actions/actions-svg-processing.cpp:702
 msgid "Remove any Inkscape-specific SVG data"
-msgstr "Ta bort alla Inkscape-specifika SVG-data"
+msgstr "Ta bort allt Inkscape-specifikt SVG-data"
 
 #: ../src/actions/actions-svg-processing.cpp:703
 msgid "Prune Proprietary Namespaces"
-msgstr "Beskära äganderättsligt skyddade namnområden"
+msgstr "Skala bort proprietära namnrymder"
 
 #: ../src/actions/actions-svg-processing.cpp:703
 msgid "Remove any known proprietary SVG data"
-msgstr "Ta bort alla kända SVG-data som omfattas av äganderätt"
+msgstr "Ta bort alla kända proprietära SVG-data"
 
 #: ../src/actions/actions-svg-processing.cpp:705
 msgid "Reverse Auto Start Markers"
-msgstr "Omvänd autostart Markörer"
+msgstr "Omvända autostartmarkörer"
 
 #: ../src/actions/actions-svg-processing.cpp:705
 msgid "Remove auto start positions from markers"
@@ -9870,7 +9869,7 @@ msgstr "Försök att ta bort alla transformationer från alla former"
 
 #: ../src/actions/actions-svg-processing.cpp:707
 msgid "Remove Marker Context Paint"
-msgstr "Ta bort markören Kontextfärg"
+msgstr "Ta bort markörens kontextfärg"
 
 #: ../src/actions/actions-svg-processing.cpp:707
 msgid "Remove context paints from markers"
@@ -9878,7 +9877,7 @@ msgstr "Ta bort kontextfärger från markörer"
 
 #: ../src/actions/actions-svg-processing.cpp:709
 msgid "Insert Text Fallback"
-msgstr "Insert Text Fallback"
+msgstr "Infoga textreserver"
 
 #: ../src/actions/actions-svg-processing.cpp:709
 msgid "Replace SVG2 text with SVG1.1 text"
@@ -9886,23 +9885,23 @@ msgstr "Ersätt SVG2-text med SVG1.1-text"
 
 #: ../src/actions/actions-svg-processing.cpp:710
 msgid "Insert Mesh Polyfill"
-msgstr "Insats Mesh Polyfill"
+msgstr "Infoga mesh polyfill"
 
 #: ../src/actions/actions-svg-processing.cpp:710
 msgid "Insert JavaScript for rendering meshes"
-msgstr "Infoga JavaScript för rendering av nät"
+msgstr "Infoga JavaScript för rendering av meshar"
 
 #: ../src/actions/actions-svg-processing.cpp:711
 msgid "Insert Hatch Polyfill"
-msgstr "Insats Lucka Polyfill"
+msgstr "Infoga skraffel-polyfill"
 
 #: ../src/actions/actions-svg-processing.cpp:711
 msgid "Insert JavaScript for rendering hatches"
-msgstr "Infoga JavaScript för rendering av luckor"
+msgstr "Infoga JavaScript för rendering av skraffel"
 
 #: ../src/actions/actions-svg-processing.cpp:713
 msgid "Unlink All Clones"
-msgstr "Avlänka kloner"
+msgstr "Avlänka alla kloner"
 
 #: ../src/actions/actions-svg-processing.cpp:713
 msgid "Recursively unlink all clones and symbols"
@@ -9914,7 +9913,7 @@ msgstr "Alla objekt till slingor"
 
 #: ../src/actions/actions-svg-processing.cpp:714
 msgid "Turn all shapes recursively into path elements"
-msgstr "Alla former omvandlas rekursivt till slingelement"
+msgstr "Gör om alla former rekursivt till slingelement"
 
 #: ../src/actions/actions-svg-processing.cpp:715
 msgid "All Strokes to Paths"
@@ -9930,11 +9929,11 @@ msgstr "Normalisera slingdata"
 
 #: ../src/actions/actions-svg-processing.cpp:716
 msgid "Make all paths absolute and predictable"
-msgstr "Gör alla vägar absoluta och förutsägbara"
+msgstr "Gör alla slingor absoluta och förutsägbara"
 
 #: ../src/actions/actions-svg-processing.cpp:718
 msgid "Annotate all Bounding Boxes"
-msgstr "Anteckna alla avgränsande boxar"
+msgstr "Kommentera alla avgränsningsrutor"
 
 #: ../src/actions/actions-svg-processing.cpp:718
 #, fuzzy
@@ -9949,7 +9948,7 @@ msgstr ""
 
 #: ../src/actions/actions-svg-processing.cpp:719
 msgid "Annotate all Shape Paths"
-msgstr "Anteckna alla formslingor"
+msgstr "Kommentera alla formslingor"
 
 #: ../src/actions/actions-svg-processing.cpp:719
 #, fuzzy
@@ -9962,11 +9961,11 @@ msgstr ""
 
 #: ../src/actions/actions-svg-processing.cpp:721
 msgid "Clean up Document"
-msgstr "Rensa oanvända definitioner"
+msgstr "Städa upp dokument"
 
 #: ../src/actions/actions-svg-processing.cpp:721
 msgid "Remove unused definitions (gradients, etc.)"
-msgstr "Ta bort oanvända definitioner i dokumentet (t ex gradienter)"
+msgstr "Ta bort oanvända definitioner (gradienter, etc.)"
 
 #: ../src/actions/actions-text.cpp:70
 msgctxt "Action Section"
@@ -9975,7 +9974,7 @@ msgstr "Text"
 
 #: ../src/actions/actions-text.cpp:75
 msgid "Put on Path"
-msgstr "Ställ in på slingan"
+msgstr "Placera på slinga"
 
 #: ../src/actions/actions-text.cpp:75 ../src/text-chemistry.cpp:169
 msgid "Put text on path"
@@ -9991,31 +9990,31 @@ msgstr "Ta bort text från slinga"
 
 #: ../src/actions/actions-text.cpp:77
 msgid "Flow into Frame"
-msgstr "Flöde in i ram"
+msgstr "Flöda in i ram"
 
 #: ../src/actions/actions-text.cpp:77
 msgid ""
 "Put text into a frame (path or shape), creating a flowed text linked to the "
 "frame object"
 msgstr ""
-"Placera text i en ram (slinga eller figur) för att skapa textflöde länkat "
+"Placera text i en ram (slinga eller form) för att skapa textflöde länkat "
 "till ramobjektet"
 
 #: ../src/actions/actions-text.cpp:78
 msgid "Set Subtraction Frames"
-msgstr "Ställ in ramar för subtraktion"
+msgstr ""
 
 #: ../src/actions/actions-text.cpp:78
 msgid ""
 "Flow text around a frame (path or shape), only available for SVG 2.0 Flow "
 "text."
 msgstr ""
-"Flödestext runt en ram (slinga eller form), endast tillgänglig för SVG 2.0 "
+"Flöda text runt en ram (slinga eller form), endast tillgänglig för SVG 2.0 "
 "Flödestext."
 
 #: ../src/actions/actions-text.cpp:79
 msgid "Unflow"
-msgstr "Avflöde"
+msgstr "Avflöda"
 
 #: ../src/actions/actions-text.cpp:79
 msgid "Remove text from frame (creates a single-line text object)"
@@ -10039,11 +10038,11 @@ msgstr "Konvertera text till enskilda glyfer"
 
 #: ../src/actions/actions-text.cpp:82
 msgid "Remove Manual Kerns"
-msgstr "Ta bort Manual Kerns"
+msgstr "Ta bort manuell kerning"
 
 #: ../src/actions/actions-text.cpp:82
 msgid "Remove all manual kerns and glyph rotations from a text object"
-msgstr "Ta bort all manuell kerning och roterade tecken från ett textobjekt"
+msgstr "Ta bort all manuell kerning och roterade glyfer från ett textobjekt"
 
 #: ../src/actions/actions-tools.cpp:87
 msgid ""
@@ -10051,11 +10050,11 @@ msgid ""
 "objects."
 msgstr ""
 "<b>Klicka</b> för att markera och transformera objekt, <b>dra</b> för att "
-"markera många objekt."
+"markera flera objekt."
 
 #: ../src/actions/actions-tools.cpp:88
 msgid "Modify selected path points (nodes) directly."
-msgstr "Modifiera valda banpunkter (noder) direkt."
+msgstr "Ändra valda slingpunkter (noder) direkt."
 
 #: ../src/actions/actions-tools.cpp:89
 msgid "Construct shapes with the interactive Boolean tool."
@@ -10066,16 +10065,16 @@ msgid ""
 "<b>Drag</b> to create a rectangle. <b>Drag controls</b> to round corners and "
 "resize. <b>Click</b> to select."
 msgstr ""
-"<b>Dra</b> för att skapa en rektangel. <b>Dra kontrollpunkter</b> för att "
-"runda hörnen och ändra storlek. <b>Klicka</b> för att välja."
+"<b>Dra</b> för att skapa en rektangel. <b>Dra kontroller</b> för att runda "
+"hörnen och ändra storlek. <b>Klicka</b> för att välja."
 
 #: ../src/actions/actions-tools.cpp:91
 msgid ""
 "<b>Drag</b> to create an ellipse. <b>Drag controls</b> to make an arc or "
 "segment. <b>Click</b> to select."
 msgstr ""
-"<b>Dra</b> för att skapa en ellips. <b>Dra kontroller</b> för att skapa en "
-"båge eller ett segment. <b>Klicka</b> för att välja."
+"<b>Dra</b> för att skapa en ellips. <b>Dra kontroller</b> för att göra en "
+"båge eller segment. <b>Klicka</b> för att välja."
 
 #: ../src/actions/actions-tools.cpp:92
 msgid ""
@@ -10090,9 +10089,9 @@ msgid ""
 "<b>Drag</b> to create a 3D box. <b>Drag controls</b> to resize in "
 "perspective. <b>Click</b> to select (with <b>Ctrl+Alt</b> for single faces)."
 msgstr ""
-"<b>Dra</b> för att skapa en 3D-box. <b>Dra kontrollpunkterna</b> för att "
-"ändra storlek i perspektiv. <b>Klicka</b> för att välja (med <b>Ctrl+Alt</b> "
-"för enskilda sidor)."
+"<b>Dra</b> för att skapa en 3D-ruta. <b>Dra kontroller</b> för att ändra "
+"storlek i perspektiv. <b>Klicka</b> för att välja (med <b>Ctrl+Alt</b> för "
+"enskilda sidor)."
 
 #: ../src/actions/actions-tools.cpp:94
 msgid ""
@@ -10107,15 +10106,15 @@ msgid ""
 "<b>Click</b> a shape to start editing its markers. <b>Drag controls</b> to "
 "change orientation, scale, and position."
 msgstr ""
-"<b>Klicka på</b> en form för att börja redigera dess markörer. <b>Dra i "
-"kontrollerna</b> för att ändra orientering, skala och position."
+"<b>Klicka</b> på en form för att börja redigera dess markörer. <b>Dra "
+"kontroller</b> för att ändra orientering, skala och position."
 
 #: ../src/actions/actions-tools.cpp:96
 msgid ""
 "<b>Drag</b> to create a freehand line. <b>Shift</b> appends to selected "
 "path, <b>Alt</b> activates sketch mode."
 msgstr ""
-"<b>Dra</b> för att skapa en frihandslinje. <b>Skift</b> lägger till till den "
+"<b>Dra</b> för att skapa en frihandslinje. <b>Skift</b> lägger till i den "
 "valda slingan, <b>Alt</b> aktiverar skissläge."
 
 #: ../src/actions/actions-tools.cpp:97
@@ -10124,17 +10123,17 @@ msgid ""
 "append to selected path. <b>Ctrl+click</b> to create single dots (straight "
 "line modes only)."
 msgstr ""
-"<b>Klicka</b> eller <b>klicka och dra</b> för att påbörja en ny slinga; med "
-"<b>Skift</b> för att lägga till till vald slinga. <b>Ctrl+klick</b> för att "
-"skapa punkter (endast i lägen för raka linjer)."
+"<b>Klicka</b> eller <b>klicka och dra</b> för att starta en slinga; med "
+"<b>Skift</b> för att lägga till i vald slinga. <b>Ctrl+klick</b> för att "
+"skapa enstaka punkter (endast i lägen för raka linjer)."
 
 #: ../src/actions/actions-tools.cpp:98
 msgid ""
 "<b>Drag</b> to draw a calligraphic stroke; with <b>Ctrl</b> to track a guide "
 "path. <b>Arrow keys</b> adjust width (left/right) and angle (up/down)."
 msgstr ""
-"<b>Dra</b> för att rita ett kalligrafiskt penseldrag; med <b>Ctrl</b> för "
-"att spåra en hjälpslinga. <b>Piltangenter</b> justerar bredd (vänster/höger) "
+"<b>Dra</b> för att rita ett kalligrafiskt streck; med <b>Ctrl</b> för att "
+"kalkera en hjälpslinga. <b>Piltangenter</b> justerar bredd (vänster/höger) "
 "och vinkel (upp/ned)."
 
 #: ../src/actions/actions-tools.cpp:99 ../src/ui/tools/text-tool.cpp:1663
@@ -10143,7 +10142,7 @@ msgid ""
 "then type."
 msgstr ""
 "<b>Klicka</b> för att välja eller skapa text, <b>dra</b> för att skapa "
-"flytande text; skriv sedan."
+"flödande text; skriv sedan."
 
 #: ../src/actions/actions-tools.cpp:100
 msgid ""
@@ -10158,16 +10157,16 @@ msgid ""
 "<b>Drag</b> or <b>double click</b> to create a mesh on selected objects, "
 "<b>drag handles</b> to adjust meshes."
 msgstr ""
-"<b>Dra</b> eller <b>dubbelklicka</b> för att skapa ett nät på valda objekt, "
-"<b>dra handtag</b> för att justera nät."
+"<b>Dra</b> eller <b>dubbelklicka</b> för att skapa ett mesh på valda objekt, "
+"<b>dra handtag</b> för att justera meshar."
 
 #: ../src/actions/actions-tools.cpp:102
 msgid ""
 "<b>Click</b> or <b>drag around an area</b> to zoom in, <b>Shift+click</b> to "
 "zoom out."
 msgstr ""
-"<b> Klicka </b> eller <b> dra runt ett område </b> att zooma in, <b> shift + "
-"klicka </b> att zooma ut."
+"<b> Klicka </b> eller <b> dra runt ett område </b> för att zooma in, <b> "
+"shift + klicka </b> att zooma ut."
 
 #: ../src/actions/actions-tools.cpp:103
 msgid "<b>Drag</b> to measure the dimensions of objects."
@@ -10179,26 +10178,26 @@ msgid ""
 "average color in area; with <b>Alt</b> to pick inverse color; <b>Ctrl+C</b> "
 "to copy the color under mouse to clipboard"
 msgstr ""
-"<b>Klicka</b> för att sätta fyllnadsfärg, <b>Skift+klicka</b> för att sätta "
-"linjefärg; <b>dra</b> för medelfärg inom område; med <b>Alt</b> för att "
-"välja inverterad färg; <b>Ctrl+C</b> kopierar färgen under muspekaren till "
-"urklipp"
+"<b>Klicka</b> för att ställa in fyllning, <b>Skift+klicka</b> för att ställa "
+"in streck; <b>dra</b> för medelfärg inom område; med <b>Alt</b> för att "
+"välja inverterad färg; <b>Ctrl+C</b> för att kopiera färgen under muspekaren "
+"till urklipp"
 
 #: ../src/actions/actions-tools.cpp:105
 msgid "To tweak a path by pushing, select it and drag over it."
-msgstr "För att modifiera en slinga, markera den och drag sedan över den."
+msgstr "För att justera en slinga, markera den och drag sedan över den."
 
 #: ../src/actions/actions-tools.cpp:106
 msgid ""
 "<b>Drag</b>, <b>click</b> or <b>click and scroll</b> to spray the selected "
 "objects."
 msgstr ""
-"<b>Dra</b>, <b>klicka</b> eller <b>klicka och skrolla</b> för att spraya de "
+"<b>Dra</b>, <b>klicka</b> eller <b>klicka och rulla</b> för att spraya de "
 "valda objekten."
 
 #: ../src/actions/actions-tools.cpp:107
 msgid "<b>Click and drag</b> between shapes to create a connector."
-msgstr "<b>Klicka och dra</b> mellan figurer för att skapa en förbindelse."
+msgstr "<b>Klicka och dra</b> mellan former för att skapa en anslutning."
 
 #: ../src/actions/actions-tools.cpp:108
 msgid ""
@@ -10206,10 +10205,10 @@ msgid ""
 "fill with the current selection, <b>Ctrl+click</b> to change the clicked "
 "object's fill and stroke to the current setting."
 msgstr ""
-"<b>Klicka</b> för att fylla en inringad yta, <b>Skift+klick</b> för att "
+"<b>Klicka</b> för att färga ett avgränsat område, <b>Skift+klick</b> för att "
 "sammanfoga den nya fyllningen med den nuvarande markeringen, <b>Ctrl+klick</"
-"b> för att ändra på det valda objektets fyllnings- och linjeinställningar "
-"till den nuvarande inställningen."
+"b> för att ändra på det valda objektets fyllnings- och streckinställningar "
+"till den aktuella inställningen."
 
 #: ../src/actions/actions-tools.cpp:109
 msgid "<b>Drag</b> to erase."
@@ -10246,7 +10245,7 @@ msgstr "Nodverktyg"
 
 #: ../src/actions/actions-tools.cpp:362
 msgid "Edit paths by nodes"
-msgstr "Redigera slingors noder"
+msgstr "Redigera slingor efter noder"
 
 #: ../src/actions/actions-tools.cpp:363
 msgid "Shape Builder Tool"
@@ -10266,7 +10265,7 @@ msgstr "Skapa rektanglar och kvadrater"
 
 #: ../src/actions/actions-tools.cpp:366
 msgid "Ellipse/Arc Tool"
-msgstr "Ellips/Arc-verktyg"
+msgstr "Ellips/Båg-verktyg"
 
 #: ../src/actions/actions-tools.cpp:366
 msgid "Create circles, ellipses and arcs"
@@ -10282,11 +10281,11 @@ msgstr "Skapa stjärnor och polygoner"
 
 #: ../src/actions/actions-tools.cpp:368
 msgid "3D Box Tool"
-msgstr "3D-boxverktyg"
+msgstr "3D-rutverktyg"
 
 #: ../src/actions/actions-tools.cpp:368
 msgid "Create 3D Boxes"
-msgstr "Skapa 3D-boxar"
+msgstr "Skapa 3D-rutor"
 
 #: ../src/actions/actions-tools.cpp:369
 msgid "Spiral Tool"
@@ -10298,7 +10297,7 @@ msgstr "Skapa spiraler"
 
 #: ../src/actions/actions-tools.cpp:370
 msgid "Marker Tool"
-msgstr "Markeringsverktyg"
+msgstr "Markörverktyg"
 
 #: ../src/actions/actions-tools.cpp:370
 msgid "Edit markers"
@@ -10318,7 +10317,7 @@ msgstr "Blyertsverktyg"
 
 #: ../src/actions/actions-tools.cpp:373
 msgid "Draw freehand lines"
-msgstr "Rita frihandslinje"
+msgstr "Rita frihandslinjer"
 
 #: ../src/actions/actions-tools.cpp:374
 msgid "Calligraphy Tool"
@@ -10350,7 +10349,7 @@ msgstr "Mesh-verktyg"
 
 #: ../src/actions/actions-tools.cpp:378
 msgid "Create and edit meshes"
-msgstr "Skapa och redigera maskor"
+msgstr "Skapa och redigera meshes"
 
 #: ../src/actions/actions-tools.cpp:379
 msgid "Dropper Tool"
@@ -10358,7 +10357,7 @@ msgstr "Pipettverktyg"
 
 #: ../src/actions/actions-tools.cpp:379 ../src/ui/widget/color-notebook.cpp:191
 msgid "Pick colors from image"
-msgstr "Hämta färger från bild"
+msgstr "Välj färger från bild"
 
 #: ../src/actions/actions-tools.cpp:380
 msgid "Paint Bucket Tool"
@@ -10366,15 +10365,15 @@ msgstr "Verktyg för färgskopa"
 
 #: ../src/actions/actions-tools.cpp:380
 msgid "Fill bounded areas"
-msgstr "Fyll avgränsade ytor"
+msgstr "Fyll avgränsade områden"
 
 #: ../src/actions/actions-tools.cpp:382
 msgid "Tweak Tool"
-msgstr "Tweak-verktyg"
+msgstr "Justeringsverktyg"
 
 #: ../src/actions/actions-tools.cpp:382
 msgid "Tweak objects by sculpting or painting"
-msgstr "Modifiera objekt genom att skulptera eller måla"
+msgstr "Justera objekt genom att skulptera eller måla"
 
 #: ../src/actions/actions-tools.cpp:383
 msgid "Spray Tool"
@@ -10386,11 +10385,11 @@ msgstr "Spraya kopior eller kloner av objekt"
 
 #: ../src/actions/actions-tools.cpp:384
 msgid "Eraser Tool"
-msgstr "Suddaverktyg"
+msgstr "Suddverktyg"
 
 #: ../src/actions/actions-tools.cpp:384
 msgid "Erase objects or paths"
-msgstr "Radera objekt eller slingor"
+msgstr "Sudda objekt eller slingor"
 
 #: ../src/actions/actions-tools.cpp:385
 msgid "Connector Tool"
@@ -10398,7 +10397,7 @@ msgstr "Anslutningsverktyg"
 
 #: ../src/actions/actions-tools.cpp:385
 msgid "Create diagram connectors"
-msgstr "Skapa diagramförbindelser"
+msgstr "Skapa diagramanslutningar"
 
 #: ../src/actions/actions-tools.cpp:386
 msgid "LPE Tool"
@@ -10406,7 +10405,7 @@ msgstr "LPE-verktyg"
 
 #: ../src/actions/actions-tools.cpp:386
 msgid "Do geometric constructions"
-msgstr "Göra geometriska konstruktioner"
+msgstr "Gör geometriska konstruktioner"
 
 #: ../src/actions/actions-tools.cpp:388
 msgid "Zoom Tool"
@@ -10434,11 +10433,11 @@ msgstr "Skapa och redigera dokumentsidor"
 
 #: ../src/actions/actions-tools.cpp:392
 msgid "Toggle Selector Tool"
-msgstr "Väljarverktyg för växling"
+msgstr "Växla väljarverktyg"
 
 #: ../src/actions/actions-tools.cpp:392
 msgid "Toggle between Selector tool and last used tool"
-msgstr "Växla mellan väljarverktyget och det senast använda verktyget"
+msgstr "Växla mellan väljarverktyg och det senast använda verktyget"
 
 #: ../src/actions/actions-tools.cpp:393
 msgid "Toggle Dropper"
@@ -10446,17 +10445,17 @@ msgstr "Växla pipett"
 
 #: ../src/actions/actions-tools.cpp:393
 msgid "Toggle between Dropper tool and last used tool"
-msgstr "Växla mellan pipettverktyget och det senast använda verktyget"
+msgstr "Växla mellan pipettverktyg och det senast använda verktyget"
 
 #: ../src/actions/actions-transform.cpp:125
 #: ../src/actions/actions-transform.cpp:153
 msgid "Reapply Transforms"
-msgstr "Återapplicera transformationer"
+msgstr "Återanvänd transformationer"
 
 #: ../src/actions/actions-transform.cpp:137
 msgctxt "Action Section"
 msgid "Transform"
-msgstr "Omvandla"
+msgstr "Transformera"
 
 #: ../src/actions/actions-transform.cpp:142
 msgid "Translate"
@@ -10490,15 +10489,15 @@ msgstr "Skala valda objekt med skalfaktor"
 
 #: ../src/actions/actions-transform.cpp:145
 msgid "Grow/Shrink"
-msgstr "Växa/Krympa"
+msgstr "Förstora/förminska"
 
 #: ../src/actions/actions-transform.cpp:145
 msgid "Grow/shrink selected objects"
-msgstr "Växa/krympa valda objekt"
+msgstr "Förstora/förminska valda objekt"
 
 #: ../src/actions/actions-transform.cpp:146
 msgid "Grow/Shrink Step"
-msgstr "Växa/Krympa Steg"
+msgstr "Förstora/förminska stegvis"
 
 #: ../src/actions/actions-transform.cpp:146
 msgid "Grow/shrink selected objects by multiple of step value"
@@ -10506,7 +10505,7 @@ msgstr "Förstora/förminska valda objekt med multipel av stegvärde"
 
 #: ../src/actions/actions-transform.cpp:147
 msgid "Grow/Shrink Screen"
-msgstr "Växa/krympa skärm"
+msgstr "Förstora/förminska skärm"
 
 #: ../src/actions/actions-transform.cpp:147
 msgid "Grow/shrink selected objects relative to zoom level"
@@ -10518,7 +10517,7 @@ msgstr "Rotera valda objekt"
 
 #: ../src/actions/actions-transform.cpp:149
 msgid "Rotate Step"
-msgstr "Rotera steg"
+msgstr "Rotera stegvis"
 
 #: ../src/actions/actions-transform.cpp:149
 msgid "Rotate selected objects by multiple of step value"
@@ -10526,7 +10525,7 @@ msgstr "Rotera valda objekt med en multipel av stegvärdet"
 
 #: ../src/actions/actions-transform.cpp:150
 msgid "Rotate Screen"
-msgstr "Rotera skärmen"
+msgstr "Rotera skärm"
 
 #: ../src/actions/actions-transform.cpp:150
 msgid "Rotate selected objects relative to zoom level"
@@ -10554,7 +10553,7 @@ msgstr "Rotera sidan med 90 graders rotationssteg"
 
 #: ../src/actions/actions-transform.cpp:161
 msgid "Enter two comma-separated numbers, e.g. 50,-2.5"
-msgstr "Ange två kommaseparerade siffror, t.ex. 50,-2,5"
+msgstr "Ange två kommaseparerade tal, t.ex. 50,-2,5"
 
 #: ../src/actions/actions-transform.cpp:162
 msgid "Enter angle (in degrees) for clockwise rotation"
@@ -10566,23 +10565,23 @@ msgstr "Ange skalningsfaktor, t.ex. 1,5"
 
 #: ../src/actions/actions-transform.cpp:164
 msgid "Enter positive or negative number to grow/shrink selection"
-msgstr "Ange positivt eller negativt tal för att öka/minska urvalet"
+msgstr "Ange positivt eller negativt tal för att förstora/förminska urvalet"
 
 #: ../src/actions/actions-transform.cpp:165
 msgid ""
 "Enter positive or negative number to grow or shrink selection relative to "
 "preference step value"
 msgstr ""
-"Ange ett positivt eller negativt tal för att öka eller minska urvalet i "
-"förhållande till preferensens stegvärde"
+"Ange positivt eller negativt tal för att förstora eller förminska "
+"markeringen i förhållande till inställningens stegvärde"
 
 #: ../src/actions/actions-transform.cpp:166
 msgid ""
 "Enter positive or negative number to grow or shrink selection relative to "
 "zoom level"
 msgstr ""
-"Ange ett positivt eller negativt tal för att öka eller minska urvalet i "
-"förhållande till zoomnivån"
+"Ange positivt eller negativt tal för att förstora eller förminska "
+"markeringen i förhållande till zoomnivån"
 
 #: ../src/actions/actions-transform.cpp:167
 msgid "Enter number of 90-degree rotation steps"
@@ -10630,7 +10629,7 @@ msgstr "Inkscape: Former"
 
 #: ../src/actions/actions-tutorial.cpp:59
 msgid "Using shape tools to create and edit shapes"
-msgstr "Användning av figurverktygen för att skapa och redigera figurer"
+msgstr "Användning av formverktygen för att skapa och redigera former"
 
 #: ../src/actions/actions-tutorial.cpp:60
 msgid "Inkscape: Advanced"
@@ -10642,19 +10641,19 @@ msgstr "Avancerade ämnen om Inkscape"
 
 #: ../src/actions/actions-tutorial.cpp:61
 msgid "Inkscape: Tracing"
-msgstr "Inkscape: Spårning"
+msgstr "Inkscape: Kalkering"
 
 #: ../src/actions/actions-tutorial.cpp:61
 msgid "Using bitmap tracing"
-msgstr "Använda bitmappsspårning"
+msgstr "Använda bitmappkalkering"
 
 #: ../src/actions/actions-tutorial.cpp:62 ../share/ui/menus.ui:1256
 msgid "Inkscape: Tracing Pixel Art"
-msgstr "Inkscape: Spårning av pixelkonst"
+msgstr "Inkscape: Kalkering med pixelkonst"
 
 #: ../src/actions/actions-tutorial.cpp:62
 msgid "Using Trace Pixel Art dialog"
-msgstr "Använda dialogen Trace Pixel Art"
+msgstr "Använda dialogen Kalkering med pixelkonst"
 
 #: ../src/actions/actions-tutorial.cpp:63
 msgid "Inkscape: Calligraphy"
@@ -10670,19 +10669,19 @@ msgstr "Inkscape: Interpolering"
 
 #: ../src/actions/actions-tutorial.cpp:64
 msgid "Using the interpolate extension"
-msgstr "Anävndning av interpoleringstillägget"
+msgstr "Användning av interpoleringstillägget"
 
 #: ../src/actions/actions-tutorial.cpp:65
 msgid "Elements of Design"
-msgstr "Element i design"
+msgstr "Designelement"
 
 #: ../src/actions/actions-tutorial.cpp:65
 msgid "Principles of design in the tutorial form"
-msgstr "Principer för design i vägledningsform"
+msgstr "Principer för design i handledningsform"
 
 #: ../src/actions/actions-tutorial.cpp:66
 msgid "Tips and Tricks"
-msgstr "Tips och tricks"
+msgstr "Tips och trick"
 
 #: ../src/actions/actions-tutorial.cpp:66
 msgid "Miscellaneous tips and tricks"
@@ -10694,7 +10693,7 @@ msgstr "Om Inkscape"
 
 #: ../src/actions/actions-tutorial.cpp:67
 msgid "Inkscape version, authors, license"
-msgstr "Inkscapes version, skapare och licens"
+msgstr "Inkscapes version, upphovspersoner och licens"
 
 #: ../src/actions/actions-undo-document.cpp:95
 #: ../share/ui/toolbar-commands.ui:183
@@ -10716,19 +10715,19 @@ msgstr "Gör om senast ångrade åtgärden"
 
 #: ../src/actions/actions-view-mode.cpp:268
 msgid "Commands Bar"
-msgstr "Kommandon Bar"
+msgstr "Kommandofält"
 
 #: ../src/actions/actions-view-mode.cpp:268
 msgid "Show or hide the Commands bar (under the menu)"
-msgstr "Visa eller dölj kommandolisten (under menyn)"
+msgstr "Visa eller dölj kommandofältet (under menyn)"
 
 #: ../src/actions/actions-view-mode.cpp:269
 msgid "Snap Controls Bar"
-msgstr "Snap Controls Bar"
+msgstr "Fäst kommandofält"
 
 #: ../src/actions/actions-view-mode.cpp:269
 msgid "Show or hide the snapping controls"
-msgstr "Visa eller dölj verktygen för fästpunkter"
+msgstr "Visa eller dölj fästkontrollerna"
 
 #: ../src/actions/actions-view-mode.cpp:270
 msgid "Tool Controls Bar"
@@ -10736,19 +10735,19 @@ msgstr "Verktygskontrollfält"
 
 #: ../src/actions/actions-view-mode.cpp:270
 msgid "Show or hide the Tool Controls bar"
-msgstr "Visa eller dölj verktygslisten"
+msgstr "Visa eller dölj verktygskontrollfältet"
 
 #: ../src/actions/actions-view-mode.cpp:271
 msgid "Toolbox"
-msgstr "Verktygsbox"
+msgstr "Verktygslåda"
 
 #: ../src/actions/actions-view-mode.cpp:271
 msgid "Show or hide the main toolbox (on the left)"
-msgstr "Visa eller dölj verktygsboxen (till vänster)"
+msgstr "Visa eller dölj verktygslådan (till vänster)"
 
 #: ../src/actions/actions-view-mode.cpp:272
 msgid "Rulers"
-msgstr "Härskare"
+msgstr "Linjaler"
 
 #: ../src/actions/actions-view-mode.cpp:272
 msgid "Show or hide the canvas rulers"
@@ -10765,7 +10764,7 @@ msgstr "Visa eller dölj rullningslister för ritduken"
 #: ../src/actions/actions-view-mode.cpp:274
 #: ../share/extensions/webslicer_create_rect.inx:28
 msgid "Palette"
-msgstr "Rader för färgpalett: %d"
+msgstr "Palett"
 
 #: ../src/actions/actions-view-mode.cpp:274
 msgid "Show or hide the color palette"
@@ -10773,11 +10772,11 @@ msgstr "Visa eller dölj färgpaletten"
 
 #: ../src/actions/actions-view-mode.cpp:275
 msgid "Statusbar"
-msgstr "OSD > Meddelanden för statusfält"
+msgstr "Statusfält"
 
 #: ../src/actions/actions-view-mode.cpp:275
 msgid "Show or hide the statusbar (at the bottom of the window)"
-msgstr "Visa eller dölj statuslisten (längst ner i fönstret)"
+msgstr "Visa eller dölj statusfältet (längst ner i fönstret)"
 
 #: ../src/actions/actions-view-mode.cpp:277
 #: ../src/ui/dialog/inkscape-preferences.cpp:2218
@@ -10786,7 +10785,7 @@ msgstr "Kommandopalett"
 
 #: ../src/actions/actions-view-mode.cpp:277
 msgid "Show or hide the on-canvas command palette"
-msgstr "Visa eller dölj kommandopaletten på skärmen"
+msgstr "Visa eller dölj kommandopaletten på duken"
 
 #: ../src/actions/actions-view-mode.cpp:278
 msgid "Fullscreen"
@@ -10795,7 +10794,7 @@ msgstr "Helskärm"
 #: ../src/actions/actions-view-mode.cpp:278
 #: ../src/actions/actions-view-mode.cpp:280
 msgid "Stretch this document window to full screen"
-msgstr "Dra ut detta dokumentfönster till att täcka hela skärmen"
+msgstr "Sträck ut detta dokumentfönster till hela skärmen"
 
 #: ../src/actions/actions-view-mode.cpp:280
 msgid "Fullscreen & Focus Mode"
@@ -10807,7 +10806,7 @@ msgstr "Fokusläge"
 
 #: ../src/actions/actions-view-mode.cpp:281
 msgid "Remove excess toolbars to focus on drawing"
-msgstr "Ta bort överflödiga verktygsfält"
+msgstr "Ta bort överflödiga verktygsfält för att fokusera på ritningen"
 
 #: ../src/actions/actions-view-mode.cpp:283
 msgid "Interface Mode"
@@ -10815,7 +10814,7 @@ msgstr "Gränssnittsläge"
 
 #: ../src/actions/actions-view-mode.cpp:283
 msgid "Toggle wide or narrow screen setup"
-msgstr "Växla mellan bred eller smal skärm"
+msgstr "Växla mellan bred eller smal skärminställning"
 
 #: ../src/actions/actions-view-window.cpp:45
 msgctxt "Action Section"
@@ -10824,7 +10823,7 @@ msgstr "Visa"
 
 #: ../src/actions/actions-view-window.cpp:50
 msgid "Duplicate Window"
-msgstr "Fönstret Duplicera"
+msgstr "Duplicera fönster"
 
 #: ../src/actions/actions-view-window.cpp:50
 msgid "Open a new window with the same document"
@@ -10857,15 +10856,16 @@ msgstr "Fönster"
 
 #: ../src/actions/actions-window.cpp:108
 msgid "Window Open"
-msgstr "Fönster öppet"
+msgstr "Fönsteröppning"
 
 #: ../src/actions/actions-window.cpp:108
 msgid "Open a window for the active document; GUI only"
-msgstr "Öppna ett fönster för det aktiva dokumentet; endast GUI"
+msgstr ""
+"Öppna ett fönster för det aktiva dokumentet; endast grafiskt gränssnitt"
 
 #: ../src/actions/actions-window.cpp:109
 msgid "Window Close"
-msgstr "Fönster stängs"
+msgstr "Fönsterstängning"
 
 #: ../src/actions/actions-window.cpp:109
 msgid "Close the active window, does not check for data loss"
@@ -10873,7 +10873,7 @@ msgstr "Stäng det aktiva fönstret, kontrollerar inte för dataförlust"
 
 #: ../src/actions/actions-window.cpp:110
 msgid "Window Query Geometry"
-msgstr "Geometri för fönsterfrågor"
+msgstr "Fråga efter fönstergeometri"
 
 #: ../src/actions/actions-window.cpp:110
 msgid "Query the active window's location and size"
@@ -10881,7 +10881,7 @@ msgstr "Fråga efter det aktiva fönstrets plats och storlek"
 
 #: ../src/actions/actions-window.cpp:111
 msgid "Window Set Geometry"
-msgstr "Geometri för fönsteruppsättning"
+msgstr "Uppsättning för fönstergeometri"
 
 #: ../src/actions/actions-window.cpp:111
 msgid "Set the active window's location and size (x, y, width, height)"
@@ -10889,7 +10889,7 @@ msgstr "Ställ in det aktiva fönstrets plats och storlek (x, y, bredd, höjd)"
 
 #: ../src/actions/actions-window.cpp:112
 msgid "Force Crash"
-msgstr "Krasch med kraft"
+msgstr "Tvinga krasch"
 
 #: ../src/actions/actions-window.cpp:112
 msgid "Force Inkscape to crash, useful for testing."
@@ -10898,14 +10898,13 @@ msgstr "Tvinga Inkscape att krascha, användbart för testning."
 #: ../src/auto-save.cpp:155
 msgid "Autosave failed! Could not find inkscape extension to save document."
 msgstr ""
-"Automatisk säkerhetskopiering misslyckades! Kunde inte hitta Inkscape-"
-"tillägg för att att spara dokumentet."
+"Automatisk sparning misslyckades! Kunde inte hitta Inkscape-tillägg för att "
+"att spara dokumentet."
 
 #: ../src/auto-save.cpp:158 ../src/auto-save.cpp:163
 #, c-format
 msgid "Autosave failed! File %s could not be saved."
-msgstr ""
-"Automatisk säkerhetskopiering misslyckades! Filen %s kunde inte sparas."
+msgstr "Automatisk sparning misslyckades! Filen %s kunde inte sparas."
 
 #: ../src/color/cms-util.cpp:109
 msgid "(Unnamed)"
@@ -10913,11 +10912,11 @@ msgstr "(Namnlös)"
 
 #: ../src/context-fns.cpp:48 ../src/context-fns.cpp:77
 msgid "<b>Current layer is hidden</b>. Unhide it to be able to draw on it."
-msgstr "<b>Aktuellt lager är dolt</b>. Visa lagret för att kunna rita i det."
+msgstr "<b>Aktuellt lager är dolt</b>. Visa lagret för att kunna rita på det."
 
 #: ../src/context-fns.cpp:54 ../src/context-fns.cpp:83
 msgid "<b>Current layer is locked</b>. Unlock it to be able to draw on it."
-msgstr "<b>Aktuellt lager är låst</b>. Lås upp för att kunna rita i det."
+msgstr "<b>Aktuellt lager är låst</b>. Lås upp för att kunna rita på det."
 
 #: ../src/desktop-events.cpp:247
 msgid "Move guide"
@@ -10931,20 +10930,19 @@ msgstr "Ta bort stödlinje"
 #: ../src/desktop-events.cpp:293
 #, c-format
 msgid "<b>Guideline</b>: %s"
-msgstr "<b>Riktlinjer</b>: %s"
+msgstr "<b>Stödlinje</b>: %s"
 
 #: ../src/desktop-style.cpp:247
-#, fuzzy
 msgid "<b>Locked</b> object(s) cannot be modified."
 msgstr "<b>Låsta</b> objekt kan inte ändras."
 
 #: ../src/desktop.cpp:480
 msgid "No previous transform."
-msgstr "Ingen tidigare omvandling."
+msgstr "Ingen föregående transformering."
 
 #: ../src/desktop.cpp:501
 msgid "No next transform."
-msgstr "Ingen nästa omvandling."
+msgstr "Ingen nästa transformering."
 
 #. TRANSLATORS: This is a set of letters to test for font ascender and descenders.
 #: ../src/display/control/canvas-item-text.cpp:210
@@ -10957,19 +10955,19 @@ msgstr "Tomt eller felaktigt värde, hoppas över"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:121
 msgid "Unrecognized shape '%1'"
-msgstr "Oigenkänd form '%1'"
+msgstr "Okänd form '%1'"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:131
 msgid "Unrecognized color '%1'"
-msgstr "Oigenkänd färg '%1'"
+msgstr "Okänd färg '%1'"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:140
 msgid "Invalid opacity '%1'"
-msgstr "Ogiltig opacitet \"%1"
+msgstr "Ogiltig opacitet “%1”"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:149
 msgid "Invalid opacity units '%1'"
-msgstr "Ogiltiga opacitetsenheter \"%1"
+msgstr "Ogiltiga opacitetsenheter “%1”"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:153
 msgid "Opacity '%1' out of range"
@@ -10993,19 +10991,19 @@ msgstr "Ogiltiga skalenheter '%1'"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:194
 msgid "Scale '%1' out of range"
-msgstr "Skala '%1' utanför intervallet"
+msgstr "Skalan '%1' utanför intervallet"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:235
 msgid "Unrecognized selector '%1'"
-msgstr "Väljaren '%1' känns inte igen"
+msgstr "Okänd väljare '%1'"
 
 #: ../src/display/control/ctrl-handle-styling.cpp:321
 msgid "Empty or improper property, skipped."
-msgstr "Tom eller olämplig egenskap, hoppar över."
+msgstr "Tom eller felaktig egenskap, hoppas över."
 
 #: ../src/display/control/ctrl-handle-styling.cpp:327
 msgid "Unrecognized property '%1'"
-msgstr "Inte identifierad egenskap '%1'"
+msgstr "Okänd egenskap '%1'"
 
 #: ../src/display/control/snap-indicator.cpp:42
 #: ../src/display/control/snap-indicator.cpp:67
@@ -11016,15 +11014,15 @@ msgstr "ODEFINIERAD"
 
 #: ../src/display/control/snap-indicator.cpp:43
 msgid "Bounding box corner"
-msgstr "Hörne på begränsningsbox"
+msgstr "Hörn på avgränsningsruta"
 
 #: ../src/display/control/snap-indicator.cpp:44
 msgid "Bounding box midpoint"
-msgstr "Mittpunkt på begränsningsbox"
+msgstr "Mittpunkt på avgränsningsruta"
 
 #: ../src/display/control/snap-indicator.cpp:45
 msgid "Bounding box side midpoint"
-msgstr "Mittpunkt på sida av begränsningsbox"
+msgstr "Mittpunkt på sidan för avgränsningsruta"
 
 #: ../src/display/control/snap-indicator.cpp:46 ../src/ui/tool/node.cpp:1685
 msgid "Smooth node"
@@ -11032,7 +11030,7 @@ msgstr "Slät nod"
 
 #: ../src/display/control/snap-indicator.cpp:47
 msgid "Cusp node"
-msgstr "Cusp-nod"
+msgstr "Spetsnod"
 
 #: ../src/display/control/snap-indicator.cpp:48
 msgid "Line midpoint"
@@ -11040,7 +11038,7 @@ msgstr "Mittpunkt på linje"
 
 #: ../src/display/control/snap-indicator.cpp:49
 msgid "Path intersection"
-msgstr "Skärning av slingor"
+msgstr "Slingskärningspunkt"
 
 #: ../src/display/control/snap-indicator.cpp:50
 #: ../src/display/control/snap-indicator.cpp:58
@@ -11066,11 +11064,11 @@ msgstr "Stödlinje"
 
 #: ../src/display/control/snap-indicator.cpp:55
 msgid "Guide origin"
-msgstr "Guide ursprung"
+msgstr "Stödlinjens ursprung"
 
 #: ../src/display/control/snap-indicator.cpp:56
 msgid "Object rotation center"
-msgstr "Rotationscenter på objekt"
+msgstr "Rotationscenter för objekt"
 
 #: ../src/display/control/snap-indicator.cpp:57
 msgid "Object midpoint"
@@ -11082,7 +11080,7 @@ msgstr "Textankare"
 
 #: ../src/display/control/snap-indicator.cpp:61
 msgid "Multiple of grid spacing"
-msgstr "Multipel av stödrasteravstånd"
+msgstr "Multipel av rutnätsavstånd"
 
 #: ../src/display/control/snap-indicator.cpp:62
 msgid "Page corner"
@@ -11094,27 +11092,27 @@ msgstr "Sidans mitt"
 
 #: ../src/display/control/snap-indicator.cpp:68
 msgid "bounding box corner"
-msgstr "hörnet på begränsningsbox"
+msgstr "hörn på avgränsningsruta"
 
 #: ../src/display/control/snap-indicator.cpp:69
 msgid "bounding box side"
-msgstr "sida på begränsningyta"
+msgstr "sida på avgränsningsruta"
 
 #: ../src/display/control/snap-indicator.cpp:70
 msgid "bounding box side midpoint"
-msgstr "mittpunkt på begränsningsboxs sida"
+msgstr "mittpunkt på avgränsningsrutans sida"
 
 #: ../src/display/control/snap-indicator.cpp:71
 msgid "bounding box midpoint"
-msgstr "mittpunkt på begränsningsbox"
+msgstr "mittpunkt på avgränsningsruta"
 
 #: ../src/display/control/snap-indicator.cpp:72
 msgid "smooth node"
-msgstr "smidig nod"
+msgstr "slät nod"
 
 #: ../src/display/control/snap-indicator.cpp:73
 msgid "cusp node"
-msgstr "cusp-nod"
+msgstr "spetsnod"
 
 #: ../src/display/control/snap-indicator.cpp:74
 msgid "line midpoint"
@@ -11134,19 +11132,19 @@ msgstr "slinga (tangentiell)"
 
 #: ../src/display/control/snap-indicator.cpp:78
 msgid "path intersection"
-msgstr "korsning av väg"
+msgstr "slingskärningspunkt"
 
 #: ../src/display/control/snap-indicator.cpp:79
 msgid "guide-path intersection"
-msgstr "korsning av ledstråk"
+msgstr "Skärningspunkt för stödlinje-slinga"
 
 #: ../src/display/control/snap-indicator.cpp:80
 msgid "clip-path"
-msgstr "klippväg"
+msgstr "klipp-slinga"
 
 #: ../src/display/control/snap-indicator.cpp:81
 msgid "mask-path"
-msgstr "mask-väg"
+msgstr "mask-slinga"
 
 #: ../src/display/control/snap-indicator.cpp:82
 msgid "quadrant point"
@@ -11159,11 +11157,11 @@ msgstr "hörn"
 
 #: ../src/display/control/snap-indicator.cpp:84
 msgid "grid line"
-msgstr "rasterlinje"
+msgstr "rutnätslinje"
 
 #: ../src/display/control/snap-indicator.cpp:85
 msgid "grid intersection"
-msgstr "rasterlinjers skärning"
+msgstr "rutnätets skärning"
 
 #: ../src/display/control/snap-indicator.cpp:86
 msgid "grid line (perpendicular)"
@@ -11175,19 +11173,19 @@ msgstr "stödlinje"
 
 #: ../src/display/control/snap-indicator.cpp:88
 msgid "guide intersection"
-msgstr "stödlinjers skärning"
+msgstr "stödlinjens skärning"
 
 #: ../src/display/control/snap-indicator.cpp:89
 msgid "guide origin"
-msgstr "styra ursprung"
+msgstr "stödlinjens ursprung"
 
 #: ../src/display/control/snap-indicator.cpp:90
 msgid "guide (perpendicular)"
-msgstr "styrning (vinkelrät)"
+msgstr "stödlinje (vinkelrät)"
 
 #: ../src/display/control/snap-indicator.cpp:91
 msgid "grid-guide intersection"
-msgstr "skärning raster-stödlinje"
+msgstr "skärning rutnät-stödlinje"
 
 #: ../src/display/control/snap-indicator.cpp:92
 msgid "page border"
@@ -11199,43 +11197,43 @@ msgstr "sidans hörn"
 
 #: ../src/display/control/snap-indicator.cpp:94
 msgid "page center"
-msgstr "sidcentrum"
+msgstr "sidans centrum"
 
 #: ../src/display/control/snap-indicator.cpp:95
 msgid "page margin border"
-msgstr "sidmarginal kantlinje"
+msgstr "sidmarginalens kant"
 
 #: ../src/display/control/snap-indicator.cpp:96
 msgid "page margin corner"
-msgstr "sidmarginal hörn"
+msgstr "sidmarginalens hörn"
 
 #: ../src/display/control/snap-indicator.cpp:97
 msgid "page margin center"
-msgstr "sidmarginal mitt"
+msgstr "sidmarginalens mitt"
 
 #: ../src/display/control/snap-indicator.cpp:98
 msgid "page bleed border"
-msgstr "sidblödning kantlinje"
+msgstr "sidutfallets kant"
 
 #: ../src/display/control/snap-indicator.cpp:99
 msgid "page bleed corner"
-msgstr "sidblödning hörn"
+msgstr "sidutfallets hörn"
 
 #: ../src/display/control/snap-indicator.cpp:100
 msgid "object midpoint"
-msgstr "mittpunkt på objekt"
+msgstr "objektets mittpunkt"
 
 #: ../src/display/control/snap-indicator.cpp:102
 msgid "object rotation center"
-msgstr "rotationscenter på objekt"
+msgstr "objektets roteringscenter"
 
 #: ../src/display/control/snap-indicator.cpp:103
 msgid "text anchor"
-msgstr "text ankare"
+msgstr "textankare"
 
 #: ../src/display/control/snap-indicator.cpp:104
 msgid "text baseline"
-msgstr "text baslinje"
+msgstr "textbaslinje"
 
 #: ../src/display/control/snap-indicator.cpp:105
 msgid "constrained angle"
@@ -11247,7 +11245,7 @@ msgstr "begränsning"
 
 #: ../src/display/control/snap-indicator.cpp:220
 msgid " to "
-msgstr " mot "
+msgstr " till "
 
 #: ../src/document.cpp:701 ../src/extension/implementation/script.cpp:302
 #, c-format
@@ -11295,7 +11293,7 @@ msgstr " beskrivning: "
 #: ../src/extension/execution-env.cpp:127
 #, c-format
 msgid "'%s' complete, loading result..."
-msgstr "'%s' komplett, läser in resultat..."
+msgstr "'%s' färdig, läser in resultat..."
 
 #: ../src/extension/extension.cpp:259
 msgid ""
@@ -11320,7 +11318,7 @@ msgstr "ett beroende kunde inte uppfyllas."
 
 #: ../src/extension/extension.cpp:297
 msgid "Extension \"%1\" failed to load because %2"
-msgstr "Tillägget \"%1\" kunde inte startas på grund av %2"
+msgstr "Tillägget \"%1\" kunde inte läsas in på grund av %2"
 
 #: ../src/extension/extension.cpp:913
 #, c-format
@@ -11338,7 +11336,7 @@ msgstr "ID:"
 
 #: ../src/extension/extension.cpp:1020
 msgid "State:"
-msgstr "Län:"
+msgstr "Tillstånd:"
 
 #: ../src/extension/extension.cpp:1020
 msgid "Loaded"
@@ -11346,11 +11344,11 @@ msgstr "Inläst"
 
 #: ../src/extension/extension.cpp:1020
 msgid "Unloaded"
-msgstr "Lossad"
+msgstr "Urläst"
 
 #: ../src/extension/extension.cpp:1020
 msgid "Deactivated"
-msgstr "Inaktiverad"
+msgstr "Inaktiverat"
 
 #: ../src/extension/implementation/script.cpp:635
 msgid "The output from the extension could not be parsed."
@@ -11362,7 +11360,7 @@ msgid ""
 "did not return an error, but this may indicate the results will not be as "
 "expected."
 msgstr ""
-"Inkscape har mottagit ytterligare data från skriptet som kördes. Skriptet "
+"Inkscape har mottagit ytterligare data från skriptet som kördes.  Skriptet "
 "returnerade inte något fel, men detta kan indikera att resultaten inte blir "
 "som förväntat."
 
@@ -11399,7 +11397,7 @@ msgstr "Höjd:"
 #: ../share/ui/toolbar-measure.ui:156 ../share/ui/toolbar-spray.ui:541
 #: ../share/extensions/printing_marks.inx:27
 msgid "Offset:"
-msgstr "Offset:"
+msgstr "Förskjutning:"
 
 #: ../src/extension/internal/bitmap/adaptiveThreshold.cpp:49
 #: ../src/extension/internal/bitmap/addNoise.cpp:60
@@ -11467,15 +11465,15 @@ msgstr "Typ:"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:50
 msgid "Uniform Noise"
-msgstr "Likformigt brus"
+msgstr "Enhetligt brus"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:51
 msgid "Gaussian Noise"
-msgstr "Gaussbrus"
+msgstr "Gaussiskt brus"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:52
 msgid "Multiplicative Gaussian Noise"
-msgstr "Korrelerat brus"
+msgstr "Multiplikativ gaussiskt brus"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:53
 msgid "Impulse Noise"
@@ -11487,11 +11485,11 @@ msgstr "Laplacebrus"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:55
 msgid "Poisson Noise"
-msgstr "Poissonbrus"
+msgstr "Poisson-brus"
 
 #: ../src/extension/internal/bitmap/addNoise.cpp:62
 msgid "Add random noise to selected bitmap(s)"
-msgstr "Lägg till slumpat randomisera till markerade bitmappsbilder."
+msgstr "Lägg till slumpat brus till markerade bitmappbild(er)."
 
 #: ../src/extension/internal/bitmap/blur.cpp:40
 #: ../src/extension/internal/filter/blurs.h:56
@@ -11520,11 +11518,11 @@ msgstr "Radie:"
 #: ../src/extension/internal/bitmap/sharpen.cpp:43
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:46
 msgid "Sigma:"
-msgstr "Skala:"
+msgstr "Sigma:"
 
 #: ../src/extension/internal/bitmap/blur.cpp:49
 msgid "Blur selected bitmap(s)"
-msgstr "Lägg på oskärpa på markerade bitmappsbilder."
+msgstr "Oskärpa markerade bitmappsbild(er)"
 
 #: ../src/extension/internal/bitmap/channel.cpp:50
 msgid "Channel"
@@ -11598,7 +11596,7 @@ msgstr "Färglägg"
 
 #: ../src/extension/internal/bitmap/colorize.cpp:60
 msgid "Colorize selected bitmap(s) with specified color, using given opacity"
-msgstr "Färglägg markerade bitmappar med angiven färg, med given opacitet"
+msgstr "Färglägg markerade bitmapp(ar) med angiven färg, med given opacitet"
 
 #: ../src/extension/internal/bitmap/contrast.cpp:42
 #: ../src/extension/internal/filter/color.h:1241
@@ -11618,15 +11616,15 @@ msgstr "Öka eller minska kontrasten i bitmapp(ar)"
 #: ../src/extension/internal/filter/bumps.h:88
 #: ../src/extension/internal/filter/bumps.h:321
 msgid "Crop"
-msgstr "Gröda"
+msgstr "Beskär"
 
 #: ../src/extension/internal/bitmap/crop.cpp:71
 msgid "Top (px):"
-msgstr "Topp (px):"
+msgstr "Överst (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:72
 msgid "Bottom (px):"
-msgstr "Botten (px):"
+msgstr "Underst (px):"
 
 #: ../src/extension/internal/bitmap/crop.cpp:73
 msgid "Left (px):"
@@ -11642,31 +11640,31 @@ msgstr "Beskär markerad bitmapp(ar)"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:39
 msgid "Cycle Colormap"
-msgstr "Cykel Färgkarta"
+msgstr "Växla färgkarta"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:41
 #: ../src/extension/internal/bitmap/spread.cpp:41
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:47
 #: ../share/ui/toolbar-spray.ui:254
 msgid "Amount:"
-msgstr "Belopp:"
+msgstr "Mängd:"
 
 #: ../src/extension/internal/bitmap/cycleColormap.cpp:47
 msgid "Cycle colormap(s) of selected bitmap(s)"
-msgstr "Cykla färgmapp(ar) för vald(a) bitmapp(ar)"
+msgstr "Växla färgkartor för vald(a) bitmapp(ar)"
 
 # TODO
 #: ../src/extension/internal/bitmap/despeckle.cpp:38
 msgid "Despeckle"
-msgstr "Despeckle"
+msgstr "Ta bort fläckar"
 
 #: ../src/extension/internal/bitmap/despeckle.cpp:45
 msgid "Reduce speckle noise of selected bitmap(s)"
-msgstr "Minska speckle-brus för valda bitmappar"
+msgstr "Minska fläckbrus för valda bitmappar"
 
 #: ../src/extension/internal/bitmap/edge.cpp:39
 msgid "Edge"
-msgstr "Linje"
+msgstr "Kant"
 
 #: ../src/extension/internal/bitmap/edge.cpp:47
 msgid "Highlight edges of selected bitmap(s)"
@@ -11674,7 +11672,7 @@ msgstr "Markera kanter på markerad(a) bitmapp(ar)"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:40
 msgid "Emboss"
-msgstr "Relief"
+msgstr "Prägla"
 
 #: ../src/extension/internal/bitmap/emboss.cpp:49
 msgid "Emboss selected bitmap(s); highlight edges with 3D effect"
@@ -11710,7 +11708,7 @@ msgstr "Faktor:"
 
 #: ../src/extension/internal/bitmap/gaussianBlur.cpp:49
 msgid "Gaussian blur selected bitmap(s)"
-msgstr "Gaussian blur markerad bitmap(s)"
+msgstr "Gaussisk oskärpa för markerade bitmapp(ar)"
 
 #: ../src/extension/internal/bitmap/implode.cpp:39
 msgid "Implode"
@@ -11718,7 +11716,7 @@ msgstr "Implodera"
 
 #: ../src/extension/internal/bitmap/implode.cpp:47
 msgid "Implode selected bitmap(s)"
-msgstr "Implodera markerad(a) bitmapp(ar)"
+msgstr "Implodera markerad(e) bitmapp(ar)"
 
 #: ../src/extension/internal/bitmap/level.cpp:43
 #: ../src/extension/internal/filter/color.h:852
@@ -11731,7 +11729,7 @@ msgstr "Nivå"
 #: ../src/extension/internal/bitmap/level.cpp:45
 #: ../src/extension/internal/bitmap/levelChannel.cpp:67
 msgid "Black Point:"
-msgstr "Black Point:"
+msgstr "Svartpunkt:"
 
 #: ../src/extension/internal/bitmap/level.cpp:46
 #: ../src/extension/internal/bitmap/levelChannel.cpp:68
@@ -11748,8 +11746,8 @@ msgid ""
 "Level selected bitmap(s) by scaling values falling between the given ranges "
 "to the full color range"
 msgstr ""
-"Nivellera valda bitmappar genom att skala värden som ligger mellan de "
-"angivna intervallen till hela färgområdet"
+"Utjämna valda bitmappar genom att skala värden som ligger mellan de angivna "
+"intervallen till hela färgområdet"
 
 # TODO
 #: ../src/extension/internal/bitmap/levelChannel.cpp:54
@@ -11766,7 +11764,7 @@ msgid ""
 "Level the specified channel of selected bitmap(s) by scaling values falling "
 "between the given ranges to the full color range"
 msgstr ""
-"Nivellera den angivna kanalen i valda bitmappar genom att skala värden som "
+"Utjämna den angivna kanalen i valda bitmappar genom att skala värden som "
 "faller mellan de angivna intervallen till hela färgområdet"
 
 #: ../src/extension/internal/bitmap/medianFilter.cpp:39
@@ -11776,7 +11774,7 @@ msgstr "Median"
 #: ../src/extension/internal/bitmap/medianFilter.cpp:47
 msgid ""
 "Replace each pixel component with the median color in a circular neighborhood"
-msgstr "Ersätt varje pixelkomponent med medianfärgen i ett cirkulärt grannskap"
+msgstr "Ersätt varje pixelkomponent med medianfärgen i ett cirkulärt närområde"
 
 # TODO
 #: ../src/extension/internal/bitmap/modulate.cpp:42
@@ -11798,7 +11796,8 @@ msgstr "Ljusstyrka:"
 #: ../src/extension/internal/bitmap/modulate.cpp:52
 msgid ""
 "Adjust the amount of hue, saturation, and brightness in selected bitmap(s)"
-msgstr "Justera mängden nyans, mättnad och ljusstyrka i markerad bitmapp(ar)"
+msgstr ""
+"Justera mängden nyans, färgmättnad och ljusstyrka i markerad bitmapp(ar)"
 
 #: ../src/extension/internal/bitmap/negate.cpp:38
 msgid "Negate"
@@ -11806,7 +11805,7 @@ msgstr "Negera"
 
 #: ../src/extension/internal/bitmap/negate.cpp:45
 msgid "Negate (take inverse) selected bitmap(s)"
-msgstr "Negera (ta invers) markerad(a) bitmapp(ar)"
+msgstr "Negera (ta invers) markerad(e) bitmapp(ar)"
 
 #: ../src/extension/internal/bitmap/normalize.cpp:38
 msgid "Normalize"
@@ -11817,8 +11816,8 @@ msgid ""
 "Normalize selected bitmap(s), expanding color range to the full possible "
 "range of color"
 msgstr ""
-"Normalisera utvalda bitmappar och utöka färgområdet till hela det möjliga "
-"färgområdet"
+"Normalisera utvalda bitmappar och utöka färgintervallet till hela det "
+"möjliga färgintervallet"
 
 #: ../src/extension/internal/bitmap/oilPaint.cpp:39
 msgid "Oil Paint"
@@ -11826,7 +11825,8 @@ msgstr "Oljefärg"
 
 #: ../src/extension/internal/bitmap/oilPaint.cpp:47
 msgid "Stylize selected bitmap(s) so that they appear to be painted with oils"
-msgstr "Stylisera valda bitmappar så att de ser ut att vara målade med olja"
+msgstr ""
+"Stilisera valda bitmappar så att de ser ut att vara målade med oljefärg"
 
 #: ../src/extension/internal/bitmap/opacity.cpp:40
 #: ../src/extension/internal/filter/blurs.h:351
@@ -11845,11 +11845,11 @@ msgstr "Opacitet:"
 
 #: ../src/extension/internal/bitmap/opacity.cpp:48
 msgid "Modify opacity channel(s) of selected bitmap(s)"
-msgstr "Ändra opacitetskanal(er) för markerad(a) bitmapp(ar)"
+msgstr "Ändra opacitetskanal(er) för markerad(e) bitmapp(ar)"
 
 #: ../src/extension/internal/bitmap/raise.cpp:46
 msgid "Raised"
-msgstr "Höjd"
+msgstr "Upphöjd"
 
 #: ../src/extension/internal/bitmap/raise.cpp:52
 msgid ""
@@ -11860,7 +11860,7 @@ msgstr ""
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:42
 msgid "Reduce Noise"
-msgstr "Reducera brus"
+msgstr "Minska brus"
 
 #. TRANSLATORS: Paint order determines the order the 'fill', 'stroke', and 'markers are painted.
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:44
@@ -11870,25 +11870,25 @@ msgstr "Reducera brus"
 #: ../share/extensions/jessyink_view.inx:7
 #: ../share/extensions/lindenmayer.inx:9
 msgid "Order:"
-msgstr "Order:"
+msgstr "Ordning:"
 
 #: ../src/extension/internal/bitmap/reduceNoise.cpp:50
 msgid ""
 "Reduce noise in selected bitmap(s) using a noise peak elimination filter"
 msgstr ""
 "Minska bruset i valda bitmappar med hjälp av ett filter för eliminering av "
-"brusetoppar"
+"brustoppar"
 
 #: ../src/extension/internal/bitmap/sample.cpp:41
 msgid "Resample"
-msgstr "Nytt urval"
+msgstr "Omsampla"
 
 #: ../src/extension/internal/bitmap/sample.cpp:50
 msgid ""
 "Alter the resolution of selected image by resizing it to the given pixel size"
 msgstr ""
-"Ändra upplösningen på den markerade bilden genom att skala om den till den "
-"givna bildpunktsstorleken"
+"Ändra upplösningen på den markerade bilden genom att storleksändra den till "
+"den givna bildpunktsstorleken"
 
 #: ../src/extension/internal/bitmap/shade.cpp:42
 msgid "Shade"
@@ -11902,7 +11902,7 @@ msgstr "Azimut:"
 #: ../src/extension/internal/bitmap/shade.cpp:45
 #: ../src/ui/dialog/filter-effects-dialog.cpp:1134
 msgid "Elevation:"
-msgstr "Altitude:"
+msgstr "Höjd:"
 
 #: ../src/extension/internal/bitmap/shade.cpp:46
 msgid "Colored Shading"
@@ -11910,7 +11910,7 @@ msgstr "Färgad skuggning"
 
 #: ../src/extension/internal/bitmap/shade.cpp:52
 msgid "Shade selected bitmap(s) simulating distant light source"
-msgstr "Skugga vald(a) bitmap(er) som simulerar en avlägsen ljuskälla"
+msgstr "Skugga vald(a) bitmap(ar) som simulerar en avlägsen ljuskälla"
 
 #: ../src/extension/internal/bitmap/sharpen.cpp:49
 msgid "Sharpen selected bitmap(s)"
@@ -11935,8 +11935,8 @@ msgid ""
 "Randomly scatter pixels in selected bitmap(s), within the given radius of "
 "the original position"
 msgstr ""
-"Stokastiskt sprid ut pixlar i markerade bitmappar, innanför den givna radien "
-"från orginalpositionen"
+"Sprid slumpmässigt ut bildpunkter i markerade bitmappar, innanför den givna "
+"radien från orginalpositionen"
 
 #: ../src/extension/internal/bitmap/swirl.cpp:41
 msgid "Degrees:"
@@ -11960,7 +11960,7 @@ msgstr "Tröskelvärde:"
 
 #: ../src/extension/internal/bitmap/threshold.cpp:48
 msgid "Threshold selected bitmap(s)"
-msgstr "Tröskelvärde för vald(a) bitmap(er)"
+msgstr "Tröskelvärde för vald(a) bitmap(ar)"
 
 #: ../src/extension/internal/bitmap/unsharpmask.cpp:43
 msgid "Unsharp Mask"
@@ -11984,12 +11984,12 @@ msgstr "Våglängd:"
 
 #: ../src/extension/internal/bitmap/wave.cpp:49
 msgid "Alter selected bitmap(s) along sine wave"
-msgstr "Ändra vald(a) bitmap(er) längs sinusvåg"
+msgstr "Ändra vald(a) bitmap(ar) längs sinusvåg"
 
 # TODO
 #: ../src/extension/internal/bluredge.cpp:133
 msgid "Inset/Outset Halo"
-msgstr "Inbyggd/utbyggd Halo"
+msgstr "Infälld/utfälld halo"
 
 #: ../src/extension/internal/bluredge.cpp:135
 msgid "Width in px of the halo"
@@ -12001,7 +12001,7 @@ msgstr "Antal steg:"
 
 #: ../src/extension/internal/bluredge.cpp:136
 msgid "Number of inset/outset copies of the object to make"
-msgstr "Antal kopior av objektet att skapa"
+msgstr "Antal infällda/utfällda kopior av objektet att skapa"
 
 #: ../src/extension/internal/bluredge.cpp:140
 #: ../share/extensions/construct_from_triangle.inx:69
@@ -12078,8 +12078,8 @@ msgid ""
 "When exporting from the Export dialog, you can choose objects to export. "
 "'Save a copy' / 'Save as' will export all pages."
 msgstr ""
-"När du exporterar från dialogrutan Export kan du välja vilka objekt som ska "
-"exporteras. \"Spara en kopia\" / \"Spara som\" exporterar alla sidor."
+"När du exporterar från dialogrutan Exportera kan du välja vilka objekt som "
+"ska exporteras. \"Spara en kopia\" / \"Spara som\" exporterar alla sidor."
 
 #: ../src/extension/internal/cairo-ps-out.cpp:301
 #: ../src/extension/internal/cairo-ps-out.cpp:345
@@ -12094,7 +12094,7 @@ msgstr "PostScript (*.ps)"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:307
 msgid "PostScript File"
-msgstr "PostScrip-tfil"
+msgstr "PostScript-fil"
 
 #: ../src/extension/internal/cairo-ps-out.cpp:328
 #: ../share/extensions/eps_input.inx:18
@@ -12138,7 +12138,7 @@ msgstr ""
 "Vid export till PDF avrundas dokumentstorleken till nästa heltal i pt-"
 "enheter. Kompensationen kan sträcka ut ritningen något (upp till 0,35 mm för "
 "bredd och/eller höjd). Om du inte kompenserar bevaras objektstorlekarna "
-"strikt, men det kan ibland orsaka vita luckor längs sidans marginaler."
+"strikt, men det kan ibland orsaka vita mellanrum längs sidans marginaler."
 
 #: ../src/extension/internal/cairo-renderer-pdf-out.cpp:237
 msgid "Compensate for rounding (recommended)"
@@ -12220,7 +12220,7 @@ msgstr "Öppna filer som sparats i Corel DRAW 7-13"
 
 #: ../src/extension/internal/cdr-input.cpp:342
 msgid "Corel DRAW Compressed Exchange files input"
-msgstr "Corel DRAW Compressed Exchange filer input"
+msgstr "Corel DRAW Compressed Exchange filinmatning"
 
 #: ../src/extension/internal/cdr-input.cpp:347
 msgid "Corel DRAW Compressed Exchange files (*.ccx)"
@@ -12228,11 +12228,11 @@ msgstr "Corel DRAW Komprimerade Exchange-filer (*.ccx)"
 
 #: ../src/extension/internal/cdr-input.cpp:348
 msgid "Open compressed exchange files saved in Corel DRAW"
-msgstr "Öppna komprimerade utbytesfiler som sparats i Corel DRAW"
+msgstr "Öppna komprimerade exchange-filer som sparats i Corel DRAW"
 
 #: ../src/extension/internal/cdr-input.cpp:354
 msgid "Corel DRAW Presentation Exchange files input"
-msgstr "Corel DRAW Presentation Exchange filer input"
+msgstr "Corel DRAW Presentation Exchange filinmatning"
 
 #: ../src/extension/internal/cdr-input.cpp:359
 msgid "Corel DRAW Presentation Exchange files (*.cmx)"
@@ -12244,7 +12244,7 @@ msgstr "Öppna presentationsutbytesfiler som sparats i Corel DRAW"
 
 #: ../src/extension/internal/emf-inout.cpp:3637
 msgid "EMF Input"
-msgstr "EMF-ingång"
+msgstr "EMF-inmatning"
 
 #: ../src/extension/internal/emf-inout.cpp:3642
 msgid "Enhanced Metafiles (*.emf)"
@@ -12256,7 +12256,7 @@ msgstr "Förbättrade metafiler"
 
 #: ../src/extension/internal/emf-inout.cpp:3652
 msgid "EMF Output"
-msgstr "EMF-utgång"
+msgstr "EMF-utmatning"
 
 #: ../src/extension/internal/emf-inout.cpp:3654
 #: ../src/extension/internal/wmf-inout.cpp:3228
@@ -12291,7 +12291,7 @@ msgstr "Kompensera för PPT-typsnittsbugg"
 #: ../src/extension/internal/emf-inout.cpp:3660
 #: ../src/extension/internal/wmf-inout.cpp:3234
 msgid "Convert dashed/dotted lines to single lines"
-msgstr "Konvertera streckade/punktade linjer till enkla linjer"
+msgstr "Konvertera streckade/punktade linjer till enstaka linjer"
 
 #: ../src/extension/internal/emf-inout.cpp:3661
 #: ../src/extension/internal/wmf-inout.cpp:3235
@@ -12304,7 +12304,7 @@ msgstr "Använd inbyggda rektangulära linjära gradienter"
 
 #: ../src/extension/internal/emf-inout.cpp:3663
 msgid "Map all fill patterns to standard EMF hatches"
-msgstr "Kartlägga alla fyllningsmönster till standard EMF-luckor"
+msgstr "Mappa alla fyllningsmönster till standard EMF-skraffel"
 
 #: ../src/extension/internal/emf-inout.cpp:3664
 msgid "Ignore image rotations"
@@ -12347,7 +12347,7 @@ msgstr "Azimut (°)"
 #: ../src/extension/internal/filter/bevels.h:143
 #: ../src/extension/internal/filter/bevels.h:229
 msgid "Lighting color"
-msgstr "Belysningens färg"
+msgstr "Belysningsfärg"
 
 #: ../src/extension/internal/filter/bevels.h:64
 #: ../src/extension/internal/filter/bevels.h:147
@@ -12428,7 +12428,7 @@ msgstr "Utbuktande, matt geléhölje"
 
 #: ../src/extension/internal/filter/bevels.h:223
 msgid "Specular Light"
-msgstr "Speculärt ljus"
+msgstr "Spegellikt ljus"
 
 #: ../src/extension/internal/filter/blurs.h:58
 #: ../src/extension/internal/filter/blurs.h:199
@@ -12446,11 +12446,11 @@ msgstr "Vertikal oskärpa"
 
 #: ../src/extension/internal/filter/blurs.h:60
 msgid "Blur content only"
-msgstr "Endast suddigt innehåll"
+msgstr "Endast oskarpt innehåll"
 
 #: ../src/extension/internal/filter/blurs.h:68
 msgid "Simple vertical and horizontal blur effect"
-msgstr "Enkel vertikal och horisontell blur-effekt"
+msgstr "Enkel vertikal och horisontell oskärpeeffekt"
 
 #: ../src/extension/internal/filter/blurs.h:131
 msgid "Clean Edges"
@@ -12470,15 +12470,15 @@ msgid ""
 "some filters"
 msgstr ""
 "Tar bort eller minskar glöd och jaggeries runt objektets kanter efter att ha "
-"använt vissa filter"
+"tillämpat vissa filter"
 
 #: ../src/extension/internal/filter/blurs.h:195
 msgid "Cross Blur"
-msgstr "Cross Blur"
+msgstr "Korsoskärpa"
 
 #: ../src/extension/internal/filter/blurs.h:198
 msgid "Fading"
-msgstr "Avblekning"
+msgstr "Toning"
 
 #: ../src/extension/internal/filter/blurs.h:201
 #: ../src/extension/internal/filter/textures.h:76
@@ -12499,7 +12499,7 @@ msgstr "Blandning:"
 #: ../src/extension/internal/filter/paint.h:727
 #: ../src/extension/internal/filter/transparency.h:65
 msgid "Darken"
-msgstr "Mörka"
+msgstr "Mörkare"
 
 #: ../src/extension/internal/filter/blurs.h:203
 #: ../src/extension/internal/filter/blurs.h:358
@@ -12643,7 +12643,7 @@ msgstr "Bump"
 #: ../src/extension/internal/filter/bumps.h:86
 #: ../src/extension/internal/filter/bumps.h:319
 msgid "Image simplification"
-msgstr "Förenkling av bilder"
+msgstr "Bildförenkling"
 
 #: ../src/extension/internal/filter/bumps.h:87
 #: ../src/extension/internal/filter/bumps.h:320
@@ -12654,7 +12654,7 @@ msgstr "Förenkling av bump"
 #: ../src/extension/internal/filter/bumps.h:89
 #: ../src/extension/internal/filter/bumps.h:322
 msgid "Bump source"
-msgstr "Bump källa"
+msgstr "Bumpkälla"
 
 #: ../src/extension/internal/filter/bumps.h:90
 #: ../src/extension/internal/filter/bumps.h:323
@@ -12695,7 +12695,7 @@ msgstr "Blå"
 
 #: ../src/extension/internal/filter/bumps.h:93
 msgid "Bump from background"
-msgstr "Bump från bakgrunden"
+msgstr "Bump från bakgrund"
 
 #: ../src/extension/internal/filter/bumps.h:96
 msgid "Lighting type:"
@@ -12703,7 +12703,7 @@ msgstr "Typ av belysning:"
 
 #: ../src/extension/internal/filter/bumps.h:97
 msgid "Specular"
-msgstr "Speculär"
+msgstr "Spegellik"
 
 #: ../src/extension/internal/filter/bumps.h:98
 msgid "Diffuse"
@@ -12757,11 +12757,11 @@ msgstr "Avlägset"
 
 #: ../src/extension/internal/filter/bumps.h:108
 msgid "Point"
-msgstr "Punkter"
+msgstr "Punkt"
 
 #: ../src/extension/internal/filter/bumps.h:109
 msgid "Spot"
-msgstr "Fläck"
+msgstr "Stråle"
 
 #: ../src/extension/internal/filter/bumps.h:111
 msgid "Distant light options"
@@ -12784,25 +12784,25 @@ msgstr "Alternativ för punktbelysning"
 #: ../src/extension/internal/filter/bumps.h:115
 #: ../src/extension/internal/filter/bumps.h:119
 msgid "X location"
-msgstr "X plats"
+msgstr "X-plats"
 
 #: ../src/extension/internal/filter/bumps.h:116
 #: ../src/extension/internal/filter/bumps.h:120
 msgid "Y location"
-msgstr "Y-läge"
+msgstr "Y-plats"
 
 #: ../src/extension/internal/filter/bumps.h:117
 #: ../src/extension/internal/filter/bumps.h:121
 msgid "Z location"
-msgstr "Z-läge"
+msgstr "Z-plats"
 
 #: ../src/extension/internal/filter/bumps.h:118
 msgid "Spot light options"
-msgstr "Alternativ för spotlight"
+msgstr "Alternativ för strålkastare"
 
 #: ../src/extension/internal/filter/bumps.h:122
 msgid "X target"
-msgstr "X mål"
+msgstr "X-mål"
 
 #: ../src/extension/internal/filter/bumps.h:123
 msgid "Y target"
@@ -12814,7 +12814,7 @@ msgstr "Z-mål"
 
 #: ../src/extension/internal/filter/bumps.h:125
 msgid "Specular exponent"
-msgstr "Speculär exponent"
+msgstr "Spegellik exponent"
 
 #: ../src/extension/internal/filter/bumps.h:126
 msgid "Cone angle"
@@ -12822,20 +12822,20 @@ msgstr "Konisk vinkel"
 
 #: ../src/extension/internal/filter/bumps.h:129
 msgid "Image color"
-msgstr "Färg på bilden"
+msgstr "Bildfärg"
 
 #: ../src/extension/internal/filter/bumps.h:130
 msgid "Color bump"
-msgstr "Färgstöt"
+msgstr "Färgbump"
 
 #: ../src/extension/internal/filter/bumps.h:147
 msgid "All purposes bump filter"
-msgstr "Alla ändamål stöta filtrera"
+msgstr "Bumpfilter för alla ändamål"
 
 # TODO
 #: ../src/extension/internal/filter/bumps.h:315
 msgid "Wax Bump"
-msgstr "Wax Bump"
+msgstr "Vaxbump"
 
 #: ../src/extension/internal/filter/bumps.h:326
 msgid "Background:"
@@ -12867,11 +12867,11 @@ msgstr "Belysningsblandning:"
 
 #: ../src/extension/internal/filter/bumps.h:347
 msgid "Highlight blend:"
-msgstr "Markera blandningen:"
+msgstr "Markeringsblandning:"
 
 #: ../src/extension/internal/filter/bumps.h:356
 msgid "Bump color"
-msgstr "Bump färg"
+msgstr "Bumpfärg"
 
 #: ../src/extension/internal/filter/bumps.h:357
 msgid "Revert bump"
@@ -12884,13 +12884,13 @@ msgstr "Typ av genomskinlighet:"
 #: ../src/extension/internal/filter/bumps.h:359
 #: ../src/extension/internal/filter/morphology.h:182 ../src/filter-enums.cpp:72
 msgid "Atop"
-msgstr "Atop"
+msgstr "Ovanpå"
 
 #: ../src/extension/internal/filter/bumps.h:360
 #: ../src/extension/internal/filter/distort.h:72
 #: ../src/extension/internal/filter/morphology.h:180 ../src/filter-enums.cpp:70
 msgid "In"
-msgstr "In"
+msgstr "I"
 
 #: ../src/extension/internal/filter/bumps.h:371
 msgid "Turns an image to jelly"
@@ -12898,7 +12898,7 @@ msgstr "Förvandlar en bild till gelé"
 
 #: ../src/extension/internal/filter/color.h:76
 msgid "Brilliance"
-msgstr "Briljans"
+msgstr "Glans"
 
 #: ../src/extension/internal/filter/color.h:79
 #: ../src/extension/internal/filter/color.h:1556
@@ -12913,7 +12913,7 @@ msgstr "Övermättnad"
 #: ../src/extension/internal/filter/transparency.h:142
 #: ../src/extension/internal/filter/transparency.h:220
 msgid "Inverted"
-msgstr "Omvända"
+msgstr "Inverterad"
 
 #: ../src/extension/internal/filter/color.h:89
 msgid "Brightness filter"
@@ -12921,7 +12921,7 @@ msgstr "Filter för ljusstyrka"
 
 #: ../src/extension/internal/filter/color.h:160
 msgid "Channel Painting"
-msgstr "Kanal Målning"
+msgstr "Kanalmålning"
 
 #: ../src/extension/internal/filter/color.h:164
 #: ../src/extension/internal/filter/color.h:347
@@ -12959,35 +12959,35 @@ msgstr "Typ av blindhet:"
 
 #: ../src/extension/internal/filter/color.h:270
 msgid "Rod monochromacy (atypical achromatopsia)"
-msgstr "Monokromi hos stavarna (atypisk akromatopsi)"
+msgstr "Stavmonokromatism (atypisk akromatopsi)"
 
 #: ../src/extension/internal/filter/color.h:271
 msgid "Cone monochromacy (typical achromatopsia)"
-msgstr "Monokromi i konen (typisk akromatopsi)"
+msgstr "Konmonokromasi (atypisk akromatopsi)"
 
 #: ../src/extension/internal/filter/color.h:272
 msgid "Green weak (deuteranomaly)"
-msgstr "Grön svag (Deuteranomaly)"
+msgstr "Grön är svag (Deuteranomali)"
 
 #: ../src/extension/internal/filter/color.h:273
 msgid "Green blind (deuteranopia)"
-msgstr "Grön blind (Deuteranopia)"
+msgstr "Blind för grönt (Deuteranopi)"
 
 #: ../src/extension/internal/filter/color.h:274
 msgid "Red weak (protanomaly)"
-msgstr "Röd svag (protanomaly)"
+msgstr "Röd är svag (Protanomali)"
 
 #: ../src/extension/internal/filter/color.h:275
 msgid "Red blind (protanopia)"
-msgstr "Röd blind (protanopi)"
+msgstr "Blind för rött (Protanopi)"
 
 #: ../src/extension/internal/filter/color.h:276
 msgid "Blue weak (tritanomaly)"
-msgstr "Blå svag (Tritanomaly)"
+msgstr "Blå är svag (Tritanomaly)"
 
 #: ../src/extension/internal/filter/color.h:277
 msgid "Blue blind (tritanopia)"
-msgstr "Blå blind (tritanopi)"
+msgstr "Blind för blått (Tritanopi)"
 
 #: ../src/extension/internal/filter/color.h:297
 msgid "Simulate color blindness"
@@ -12999,11 +12999,11 @@ msgstr "Färgskiftning"
 
 #: ../src/extension/internal/filter/color.h:346
 msgid "Shift (°)"
-msgstr "Växling (°)"
+msgstr "Skifta (°)"
 
 #: ../src/extension/internal/filter/color.h:355
 msgid "Rotate and desaturate hue"
-msgstr "Rotera och Desaturate nyans"
+msgstr "Rotera och avmätta nyans"
 
 #: ../src/extension/internal/filter/color.h:415
 msgid "Harsh light"
@@ -13029,7 +13029,7 @@ msgstr "Blandning 2:"
 
 #: ../src/extension/internal/filter/color.h:444
 msgid "Blend image or object with a flood color"
-msgstr "Blanda bild eller objekt med en översvämningsfärg"
+msgstr "Blanda bild eller objekt med en flödesfärg"
 
 #: ../src/extension/internal/filter/color.h:522 ../src/filter-enums.cpp:25
 msgid "Component Transfer"
@@ -13073,11 +13073,11 @@ msgstr "Fluorescensnivå"
 
 #: ../src/extension/internal/filter/color.h:616
 msgid "Swap:"
-msgstr "Byta:"
+msgstr "Byt:"
 
 #: ../src/extension/internal/filter/color.h:617
 msgid "No swap"
-msgstr "Ingen Byta"
+msgstr "Inget byte"
 
 #: ../src/extension/internal/filter/color.h:618
 msgid "Color and alpha"
@@ -13089,7 +13089,7 @@ msgstr "Endast färg"
 
 #: ../src/extension/internal/filter/color.h:620
 msgid "Alpha only"
-msgstr "Endast Alpha"
+msgstr "Endast alfa"
 
 #: ../src/extension/internal/filter/color.h:624
 msgid "Color 1"
@@ -13138,7 +13138,7 @@ msgstr "Kanal till alfa"
 
 #: ../src/extension/internal/filter/color.h:763
 msgid "Extract color channel as a transparent image"
-msgstr "Extrahera färgkanalen som en transparent bild"
+msgstr "Extrahera färgkanal som en transparent bild"
 
 #: ../src/extension/internal/filter/color.h:850
 msgid "Fade to Black or White"
@@ -13162,7 +13162,7 @@ msgstr "Vit"
 
 #: ../src/extension/internal/filter/color.h:864
 msgid "Fade to black or white"
-msgstr "Övergår till svart eller vitt"
+msgstr "Tona ut till svart eller vitt"
 
 #: ../src/extension/internal/filter/color.h:933
 msgid "Greyscale"
@@ -13176,7 +13176,7 @@ msgstr "Genomskinlig"
 
 #: ../src/extension/internal/filter/color.h:947
 msgid "Customize greyscale components"
-msgstr "Anpassa komponenter  gråskala"
+msgstr "Anpassa gråskalekomponenter"
 
 #: ../src/extension/internal/filter/color.h:1024
 #: ../src/ui/widget/selected-style.cpp:701
@@ -13197,7 +13197,7 @@ msgstr "Rött och blått"
 
 #: ../src/extension/internal/filter/color.h:1029
 msgid "Red and green"
-msgstr "Röd och grön"
+msgstr "Rött och grönt"
 
 #: ../src/extension/internal/filter/color.h:1030
 msgid "Green and blue"
@@ -13205,7 +13205,7 @@ msgstr "Grönt och blått"
 
 #: ../src/extension/internal/filter/color.h:1032
 msgid "Light transparency"
-msgstr "Ljusgenomsläpplighet"
+msgstr "Ljustransparens"
 
 #: ../src/extension/internal/filter/color.h:1033
 msgid "Invert hue"
@@ -13225,7 +13225,7 @@ msgstr "Hantera inversioner av nyans, ljushet och transparens"
 
 #: ../src/extension/internal/filter/color.h:1165
 msgid "Lights"
-msgstr "Lampor"
+msgstr "Ljus"
 
 #: ../src/extension/internal/filter/color.h:1166
 msgid "Shadows"
@@ -13233,7 +13233,7 @@ msgstr "Skuggor"
 
 #: ../src/extension/internal/filter/color.h:1175
 msgid "Modify lights and shadows separately"
-msgstr "Modifiera ljus och skuggor separat"
+msgstr "Ändra ljus och skuggor separat"
 
 #: ../src/extension/internal/filter/color.h:1238
 msgid "Lightness-Contrast"
@@ -13245,11 +13245,11 @@ msgstr "Ändra ljushet och kontrast separat"
 
 #: ../src/extension/internal/filter/color.h:1321
 msgid "Nudge RGB"
-msgstr "Knuffa RGB"
+msgstr "Puffa RGB"
 
 #: ../src/extension/internal/filter/color.h:1325
 msgid "Red offset"
-msgstr "Röd offset"
+msgstr "Röd förskjutning"
 
 #: ../src/extension/internal/filter/color.h:1327
 #: ../src/extension/internal/filter/color.h:1330
@@ -13262,41 +13262,41 @@ msgstr "Y"
 
 #: ../src/extension/internal/filter/color.h:1328
 msgid "Green offset"
-msgstr "Grön offset"
+msgstr "Grön förskjutning"
 
 #: ../src/extension/internal/filter/color.h:1331
 msgid "Blue offset"
-msgstr "Blå offset"
+msgstr "Blå förskjutning"
 
 #: ../src/extension/internal/filter/color.h:1346
 msgid ""
 "Nudge RGB channels separately and blend them to different types of "
 "backgrounds"
 msgstr ""
-"Nudga RGB-kanaler separat och blanda dem till olika typer av bakgrunder"
+"Puffa RGB-kanaler separat och blanda dem till olika typer av bakgrunder"
 
 #: ../src/extension/internal/filter/color.h:1437
 msgid "Nudge CMY"
-msgstr "Knuff CMY"
+msgstr "Puffa CMY"
 
 #: ../src/extension/internal/filter/color.h:1441
 msgid "Cyan offset"
-msgstr "Cyan offset"
+msgstr "Cyan förskjutning"
 
 #: ../src/extension/internal/filter/color.h:1444
 msgid "Magenta offset"
-msgstr "Magenta offset"
+msgstr "Magenta förskjutning"
 
 #: ../src/extension/internal/filter/color.h:1447
 msgid "Yellow offset"
-msgstr "Gul offset"
+msgstr "Gul förskjutning"
 
 #: ../src/extension/internal/filter/color.h:1462
 msgid ""
 "Nudge CMY channels separately and blend them to different types of "
 "backgrounds"
 msgstr ""
-"Nudga CMY-kanaler separat och blanda dem till olika typer av bakgrunder"
+"Puffa CMY-kanaler separat och blanda dem till olika typer av bakgrunder"
 
 #: ../src/extension/internal/filter/color.h:1547
 msgid "Quadritone Fantasy"
@@ -13304,7 +13304,7 @@ msgstr "Quadritone Fantasy"
 
 #: ../src/extension/internal/filter/color.h:1549
 msgid "Hue distribution (°)"
-msgstr "Färgtonfördelning (°)"
+msgstr "Färgtonsfördelning (°)"
 
 #: ../src/extension/internal/filter/color.h:1550
 #: ../src/ui/dialog/document-resources.cpp:902
@@ -13316,7 +13316,7 @@ msgstr "Färger"
 
 #: ../src/extension/internal/filter/color.h:1571
 msgid "Replace hue by two colors"
-msgstr "Ersätt hue med två färger"
+msgstr "Ersätt nyans med två färger"
 
 #: ../src/extension/internal/filter/color.h:1634
 msgid "Simple blend"
@@ -13379,11 +13379,11 @@ msgstr "Klassisk fotografisk solarisationseffekt"
 
 #: ../src/extension/internal/filter/color.h:1815
 msgid "Tritone"
-msgstr "Tritone"
+msgstr "Tritonus"
 
 #: ../src/extension/internal/filter/color.h:1821
 msgid "Enhance hue"
-msgstr "Förbättra färgtonen"
+msgstr "Förbättra färgton"
 
 #: ../src/extension/internal/filter/color.h:1822
 msgid "Phosphorescence"
@@ -13407,7 +13407,7 @@ msgstr "Glöd"
 
 #: ../src/extension/internal/filter/color.h:1833
 msgid "Glow blend:"
-msgstr "Glow-blandning:"
+msgstr "Glödblandning:"
 
 #: ../src/extension/internal/filter/color.h:1838
 msgid "Local light"
@@ -13419,7 +13419,7 @@ msgstr "Globalt ljus"
 
 #: ../src/extension/internal/filter/color.h:1842
 msgid "Hue distribution (°):"
-msgstr "Färgtonfördelning (°):"
+msgstr "Färgtonsfördelning (°):"
 
 #: ../src/extension/internal/filter/color.h:1853
 msgid ""
@@ -13431,7 +13431,7 @@ msgstr ""
 
 #: ../src/extension/internal/filter/distort.h:69
 msgid "Felt Feather"
-msgstr "Filt Fjäder"
+msgstr "Filtfjäder"
 
 #: ../src/extension/internal/filter/distort.h:73
 #: ../src/extension/internal/filter/morphology.h:181 ../src/filter-enums.cpp:71
@@ -13443,7 +13443,7 @@ msgstr "Ut"
 #: ../src/ui/widget/selected-style.cpp:149
 #: ../src/ui/widget/style-swatch.cpp:100
 msgid "Stroke:"
-msgstr "Linje:"
+msgstr "Streck:"
 
 #: ../src/extension/internal/filter/distort.h:81
 #: ../src/extension/internal/filter/textures.h:78
@@ -13498,7 +13498,7 @@ msgstr "Vertikal frekvens"
 #: ../src/extension/internal/filter/paint.h:719
 #: ../src/live_effects/lpe-simplify.cpp:28
 msgid "Complexity"
-msgstr "Svårighetsgrad"
+msgstr "Komplexitet"
 
 #: ../src/extension/internal/filter/distort.h:92
 #: ../src/extension/internal/filter/distort.h:205
@@ -13514,22 +13514,22 @@ msgstr "Intensitet"
 
 #: ../src/extension/internal/filter/distort.h:101
 msgid "Blur and displace edges of shapes and pictures"
-msgstr "Sudda ut och förskjut kanter på former och bilder"
+msgstr "Gör oskarp och förskjut kanter på former och bilder"
 
 #: ../src/extension/internal/filter/distort.h:196
 msgid "Roughen"
-msgstr "Gör grövre"
+msgstr "Förgrova"
 
 #: ../src/extension/internal/filter/distort.h:198
 #: ../src/extension/internal/filter/overlays.h:62
 #: ../src/extension/internal/filter/paint.h:713
 #: ../src/extension/internal/filter/textures.h:66
 msgid "Turbulence type:"
-msgstr "Typ av turbulens:"
+msgstr "Turbulenstyp:"
 
 #: ../src/extension/internal/filter/distort.h:214
 msgid "Small-scale roughening to edges and content"
-msgstr "Gör kanter och innehåll grövre"
+msgstr "Småskalig förgrovning av kanter och innehåll"
 
 #: ../src/extension/internal/filter/filter-file.cpp:66
 #: ../src/extension/internal/filter/filter-file.cpp:69
@@ -13538,7 +13538,7 @@ msgstr "Personlig"
 
 #: ../src/extension/internal/filter/filter-file.cpp:72
 msgid "Bundled"
-msgstr "Medföljande"
+msgstr "Bundlad"
 
 #: ../src/extension/internal/filter/image.h:51
 msgid "Edge Detect"
@@ -13546,7 +13546,7 @@ msgstr "Kantdetektering"
 
 #: ../src/extension/internal/filter/image.h:53
 msgid "Detect:"
-msgstr "Upptäcka:"
+msgstr "Detektera:"
 
 #: ../src/extension/internal/filter/image.h:54
 #: ../share/extensions/eps_input.inx:12 ../share/extensions/ps_input.inx:11
@@ -13567,11 +13567,11 @@ msgstr "Invertera färger"
 
 #: ../src/extension/internal/filter/image.h:67
 msgid "Detect color edges in object"
-msgstr "Hitta färgkanter i objekt"
+msgstr "Detektera färgkanter i objekt"
 
 #: ../src/extension/internal/filter/morphology.h:60
 msgid "Cross-smooth"
-msgstr "Korsa-slät"
+msgstr "Genomslät"
 
 #: ../src/extension/internal/filter/morphology.h:63
 #: ../src/extension/internal/filter/shadows.h:75
@@ -13606,17 +13606,17 @@ msgstr "Kantutjämning"
 
 #: ../src/extension/internal/filter/morphology.h:72
 msgid "Blur content"
-msgstr "Gör innehållet oskarpt"
+msgstr "Oskarpt innehåll"
 
 #: ../src/extension/internal/filter/morphology.h:81
 msgid "Smooth edges and angles of shapes"
-msgstr "Jämna ut kanter och vinklar på former"
+msgstr "Släta ut kanter och vinklar på former"
 
 #: ../src/extension/internal/filter/morphology.h:172
 #: ../share/ui/display-popup.glade:58 ../share/ui/menus.ui:478
 #: ../share/extensions/path_mesh_m2p.inx:10
 msgid "Outline"
-msgstr "Översikt"
+msgstr "Kontur"
 
 #: ../src/extension/internal/filter/morphology.h:176
 msgid "Fill image"
@@ -13685,15 +13685,15 @@ msgstr "Erosion 2"
 #: ../src/live_effects/lpe-roughen.cpp:44 ../share/ui/dialog-trace.glade:624
 #: ../share/extensions/render_barcode_qrcode.inx:69
 msgid "Smooth"
-msgstr "Utjämna"
+msgstr "Slät"
 
 #: ../src/extension/internal/filter/morphology.h:201
 msgid "Fill opacity:"
-msgstr "Fyllningens opacitet:"
+msgstr "Fyllnadsopacitet:"
 
 #: ../src/extension/internal/filter/morphology.h:202
 msgid "Stroke opacity:"
-msgstr "Stroke opacitet:"
+msgstr "Streckopacitet:"
 
 #: ../src/extension/internal/filter/morphology.h:212
 msgid "Adds a colorizable outline"
@@ -13701,7 +13701,7 @@ msgstr "Lägger till en färgbar kontur"
 
 #: ../src/extension/internal/filter/overlays.h:58
 msgid "Noise Fill"
-msgstr "Fyllning av buller"
+msgstr "Brusfyllnad"
 
 #: ../src/extension/internal/filter/overlays.h:61
 #: ../src/extension/internal/filter/paint.h:712
@@ -13776,7 +13776,7 @@ msgstr "Brusfärg"
 
 #: ../src/extension/internal/filter/overlays.h:85
 msgid "Basic noise fill and transparency texture"
-msgstr "Grundläggande noise fill och transparency texture"
+msgstr "Grundläggande brusfyllad och transparenstextur"
 
 #: ../src/extension/internal/filter/paint.h:73
 msgid "Chromolitho"
@@ -13798,7 +13798,7 @@ msgstr "Bucklig"
 #: ../src/extension/internal/filter/paint.h:90
 #: ../src/extension/internal/filter/paint.h:721
 msgid "Noise reduction"
-msgstr "Minskning av buller"
+msgstr "Brusminskning"
 
 #: ../src/extension/internal/filter/paint.h:93
 msgid "Grain"
@@ -13812,11 +13812,11 @@ msgstr "Kornläge"
 #: ../src/extension/internal/filter/transparency.h:217
 #: ../src/extension/internal/filter/transparency.h:295
 msgid "Expansion"
-msgstr "Expansion"
+msgstr "Tillägg"
 
 #: ../src/extension/internal/filter/paint.h:102
 msgid "Grain blend:"
-msgstr "Korn blandning:"
+msgstr "Kornblandning:"
 
 #: ../src/extension/internal/filter/paint.h:118
 msgid "Chromo effect with customizable edge drawing and graininess"
@@ -13824,12 +13824,12 @@ msgstr "Chromo-effekt med anpassningsbar kantritning och kornighet"
 
 #: ../src/extension/internal/filter/paint.h:238
 msgid "Cross Engraving"
-msgstr "Gravyr av kors"
+msgstr "Korsgravyr"
 
 #: ../src/extension/internal/filter/paint.h:240
 #: ../src/extension/internal/filter/paint.h:347
 msgid "Clean-up"
-msgstr "Städning"
+msgstr "Uppstädning"
 
 #: ../src/extension/internal/filter/paint.h:244
 #: ../src/live_effects/lpe-sketch.cpp:59 ../src/ui/tools/measure-tool.cpp:1057
@@ -13846,16 +13846,16 @@ msgstr ""
 #: ../src/extension/internal/filter/paint.h:341
 #: ../share/ui/align-and-distribute.ui:64
 msgid "Drawing"
-msgstr "Teckning"
+msgstr "Ritning"
 
 #: ../src/extension/internal/filter/paint.h:348
 #: ../src/extension/internal/filter/paint.h:731
 msgid "Erase"
-msgstr "Radera"
+msgstr "Sudda"
 
 #: ../src/extension/internal/filter/paint.h:354
 msgid "Melt"
-msgstr "Smälta"
+msgstr "Smält"
 
 #: ../src/extension/internal/filter/paint.h:360
 #: ../src/extension/internal/filter/paint.h:734
@@ -13871,24 +13871,24 @@ msgstr "Bild på fyllning"
 #: ../src/extension/internal/filter/paint.h:364
 #: ../share/extensions/markers_strokepaint.inx:23
 msgid "Stroke color"
-msgstr "Färg för streck"
+msgstr "Streckfärg"
 
 #: ../src/extension/internal/filter/paint.h:365
 msgid "Image on stroke"
-msgstr "Bild på stroke"
+msgstr "Bild på streck"
 
 #: ../src/extension/internal/filter/paint.h:376
 msgid "Convert images to duochrome drawings"
-msgstr "Konvertera bilder till duokroma teckningar"
+msgstr "Konvertera bilder till duokroma ritningar"
 
 #: ../src/extension/internal/filter/paint.h:508
 msgid "Electrize"
-msgstr "Elektrisering"
+msgstr "Elektrisera"
 
 #: ../src/extension/internal/filter/paint.h:511
 #: ../src/extension/internal/filter/paint.h:878
 msgid "Effect type:"
-msgstr "Typ av effekt:"
+msgstr "Effekttyp:"
 
 #: ../src/extension/internal/filter/paint.h:515
 #: ../src/extension/internal/filter/paint.h:886
@@ -13902,7 +13902,7 @@ msgstr "Effekter av elektrosolarisering"
 
 #: ../src/extension/internal/filter/paint.h:602
 msgid "Neon Draw"
-msgstr "Neon Draw"
+msgstr "Neonritning"
 
 #: ../src/extension/internal/filter/paint.h:604
 msgid "Line type:"
@@ -13910,7 +13910,7 @@ msgstr "Linjetyp:"
 
 #: ../src/extension/internal/filter/paint.h:605
 msgid "Smoothed"
-msgstr "Utjämnad"
+msgstr "Utslätad"
 
 #: ../src/extension/internal/filter/paint.h:606
 msgid "Contrasted"
@@ -13924,23 +13924,23 @@ msgstr "Linjebredd"
 
 #: ../src/extension/internal/filter/paint.h:623
 msgid "Posterize and draw smooth lines around color shapes"
-msgstr "Affischera och rita släta linjer runt färgformer"
+msgstr "Posterisera och rita släta linjer runt färgformer"
 
 #: ../src/extension/internal/filter/paint.h:709
 msgid "Point Engraving"
-msgstr "Gravyr av punkter"
+msgstr "Punktgravyr"
 
 #: ../src/extension/internal/filter/paint.h:722
 msgid "Noise blend:"
-msgstr "Bullerblandning:"
+msgstr "Brusblandning:"
 
 #: ../src/extension/internal/filter/paint.h:730
 msgid "Grain lightness"
-msgstr "Kornets ljushet"
+msgstr "Kornljushet"
 
 #: ../src/extension/internal/filter/paint.h:738
 msgid "Points color"
-msgstr "Poäng färg"
+msgstr "Punktfärg"
 
 #: ../src/extension/internal/filter/paint.h:740
 msgid "Image on points"
@@ -13952,19 +13952,19 @@ msgstr "Konvertera bilden till en transparent punktgravyr"
 
 #: ../src/extension/internal/filter/paint.h:876
 msgid "Poster Paint"
-msgstr "Affischfärg"
+msgstr "Posterfärg"
 
 #: ../src/extension/internal/filter/paint.h:882
 msgid "Transfer type:"
-msgstr "Typ av överföring:"
+msgstr "Överföringstyp:"
 
 #: ../src/extension/internal/filter/paint.h:883
 msgid "Poster"
-msgstr "Affish"
+msgstr "Poster"
 
 #: ../src/extension/internal/filter/paint.h:884
 msgid "Painting"
-msgstr "Teckning"
+msgstr "Målning"
 
 #: ../src/extension/internal/filter/paint.h:894
 msgid "Simplify (primary)"
@@ -13980,7 +13980,7 @@ msgstr "Förmättnad"
 
 #: ../src/extension/internal/filter/paint.h:897
 msgid "Post-saturation"
-msgstr "Efter mättnad"
+msgstr "Eftermättnad"
 
 #: ../src/extension/internal/filter/paint.h:898
 msgid "Simulate antialiasing"
@@ -13988,23 +13988,23 @@ msgstr "Simulera kantutjämning"
 
 #: ../src/extension/internal/filter/paint.h:906
 msgid "Poster and painting effects"
-msgstr "Affisch- och målningseffekter"
+msgstr "Poster- och målningseffekter"
 
 #: ../src/extension/internal/filter/paint.h:1003
 msgid "Posterize Basic"
-msgstr "Posterize grundläggande"
+msgstr "Posterisera grundläggande"
 
 #: ../src/extension/internal/filter/paint.h:1014
 msgid "Simple posterizing effect"
-msgstr "Enkel posterizing effekt"
+msgstr "Enkel posteriseringseffekt"
 
 #: ../src/extension/internal/filter/protrusions.h:50
 msgid "Snow Crest"
-msgstr "Snow Crest"
+msgstr "Snöig bergstopp"
 
 #: ../src/extension/internal/filter/protrusions.h:52
 msgid "Drift Size"
-msgstr "Driftstorlek"
+msgstr "Skiftesstorlek"
 
 #: ../src/extension/internal/filter/protrusions.h:60
 msgid "Snow has fallen on object"
@@ -14012,7 +14012,7 @@ msgstr "Snö har fallit på objektet"
 
 #: ../src/extension/internal/filter/shadows.h:66
 msgid "Drop Shadow"
-msgstr "Skugga"
+msgstr "Släppskugga"
 
 #: ../src/extension/internal/filter/shadows.h:70
 msgid "Blur radius (px)"
@@ -14032,7 +14032,7 @@ msgstr "Skuggtyp:"
 
 #: ../src/extension/internal/filter/shadows.h:76
 msgid "Outer cutout"
-msgstr "Yttre utklipp"
+msgstr "Utvändig utskärning"
 
 #: ../src/extension/internal/filter/shadows.h:77
 msgid "Inner cutout"
@@ -14044,7 +14044,7 @@ msgstr "Endast skugga"
 
 #: ../src/extension/internal/filter/shadows.h:81
 msgid "Blur color"
-msgstr "Oskärpa färg"
+msgstr "Oskärpefärg"
 
 #: ../src/extension/internal/filter/shadows.h:83
 msgid "Use object's color"
@@ -14052,7 +14052,7 @@ msgstr "Använd objektets färg"
 
 #: ../src/extension/internal/filter/shadows.h:93
 msgid "Colorizable Drop shadow"
-msgstr "Färgbar droppskugga"
+msgstr "Färgbar släppskugga"
 
 #: ../src/extension/internal/filter/textures.h:64
 msgid "Ink Blot"
@@ -14072,7 +14072,7 @@ msgstr "Vertikal inläggning:"
 
 #: ../src/extension/internal/filter/textures.h:75
 msgid "Displacement:"
-msgstr "Förskjutning:"
+msgstr "Förflyttning:"
 
 #: ../src/extension/internal/filter/textures.h:81
 msgid "Overlapping"
@@ -14096,7 +14096,7 @@ msgstr "Anpassad"
 
 #: ../src/extension/internal/filter/textures.h:85
 msgid "Custom stroke options"
-msgstr "Anpassade stroke-alternativ"
+msgstr "Anpassade streckalternativ"
 
 #: ../src/extension/internal/filter/textures.h:86
 msgid "k1:"
@@ -14112,7 +14112,7 @@ msgstr "k3:"
 
 #: ../src/extension/internal/filter/textures.h:96
 msgid "Inkblot on tissue or rough paper"
-msgstr "Bläckplump på näsduk eller grovt papper"
+msgstr "Bläckfläck på näsduk eller grovt papper"
 
 #: ../src/extension/internal/filter/transparency.h:55
 #: ../src/filter-enums.cpp:23
@@ -14143,7 +14143,7 @@ msgstr "Blanda objekt med bakgrundsbilder eller med sig själva"
 
 #: ../src/extension/internal/filter/transparency.h:136
 msgid "Channel Transparency"
-msgstr "Öppenhet i kanalerna"
+msgstr "Kanaltransparens"
 
 #: ../src/extension/internal/filter/transparency.h:150
 msgid "Replace RGB with transparency"
@@ -14151,7 +14151,7 @@ msgstr "Ersätt RGB med transparens"
 
 #: ../src/extension/internal/filter/transparency.h:215
 msgid "Light Eraser"
-msgstr "Ljus suddgummi"
+msgstr "Ljus suddning"
 
 #: ../src/extension/internal/filter/transparency.h:219
 #: ../src/extension/internal/filter/transparency.h:297
@@ -14160,7 +14160,7 @@ msgstr "Global opacitet"
 
 #: ../src/extension/internal/filter/transparency.h:228
 msgid "Make the lightest parts of the object progressively transparent"
-msgstr "Gör de lättaste delarna av objektet progressivt transparenta"
+msgstr "Gör de ljusare delarna av objektet progressivt transparenta"
 
 #: ../src/extension/internal/filter/transparency.h:305
 msgid "Set opacity and strength of opacity boundaries"
@@ -14186,14 +14186,14 @@ msgstr "%s import av bitmappsbild"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:195
 msgid "Image Import Type:"
-msgstr "Typ av bild import:"
+msgstr "Typ av bildimport:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:195
 msgid ""
 "Embed results in stand-alone, larger SVG files. Link references a file "
 "outside this SVG document and all files must be moved together."
 msgstr ""
-"Infoga resulterar i fristående, större SVG-filer. Länka skapar en referens "
+"Bädda in resulterar i fristående, större SVG-filer. Länka skapar en referens "
 "till en fil utanför detta SVG-dokument och alla filer måste flyttas "
 "tillsammans."
 
@@ -14209,11 +14209,11 @@ msgstr "Bädda in"
 #: ../src/ui/dialog/inkscape-preferences.cpp:3078
 #: ../src/ui/dialog/inkscape-preferences.cpp:3085
 msgid "Link"
-msgstr "Länk"
+msgstr "Länka"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
 msgid "Image DPI:"
-msgstr "Bild DPI:"
+msgstr "Bildens DPI:"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:201
 msgid ""
@@ -14242,7 +14242,7 @@ msgid ""
 "When an image is upscaled, apply smoothing or keep blocky (pixelated). (Will "
 "not work in all browsers.)"
 msgstr ""
-"När en bild skalas upp, använd utjämning eller behåll blockig (pixlig). "
+"När en bild skalas upp, använd utslätning eller behåll blockig (pixlig). "
 "(Kommer inte att fungera i alla webbläsare.)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:207
@@ -14255,13 +14255,13 @@ msgstr "Ingen (auto)"
 #: ../src/extension/internal/svg.h:33
 #: ../src/ui/dialog/inkscape-preferences.cpp:3092
 msgid "Smooth (optimizeQuality)"
-msgstr "Smidig (optimera kvaliteten)"
+msgstr "Smidig (optimizeQuality)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:209
 #: ../src/extension/internal/svg.h:34
 #: ../src/ui/dialog/inkscape-preferences.cpp:3092
 msgid "Blocky (optimizeSpeed)"
-msgstr "Blockerad (optimizeSpeed)"
+msgstr "Blockig (optimizeSpeed)"
 
 #: ../src/extension/internal/gdkpixbuf-input.cpp:212
 #: ../src/extension/internal/svg.h:36
@@ -14333,7 +14333,7 @@ msgstr "Rendera"
 #: ../share/extensions/grid_isometric.inx:18
 #: ../share/extensions/grid_polar.inx:36
 msgid "Grids"
-msgstr "Stödraster"
+msgstr "Rutnät"
 
 #: ../src/extension/internal/grid.cpp:207
 msgid "Draw a path which is a grid"
@@ -14341,7 +14341,7 @@ msgstr "Rita en slinga som är ett rutnät"
 
 #: ../src/extension/internal/latex-pstricks-out.cpp:93
 msgid "LaTeX Output"
-msgstr "LaTeX Produktion"
+msgstr "LaTeX-utmatning"
 
 #: ../src/extension/internal/latex-pstricks-out.cpp:98
 msgid "LaTeX With PSTricks macros (*.tex)"
@@ -14365,7 +14365,7 @@ msgstr "OpenDocument-ritning (*.odg)"
 
 #: ../src/extension/internal/odf.cpp:2095
 msgid "OpenDocument drawing file"
-msgstr "OpenDocument ritningsfil"
+msgstr "OpenDocument-ritningsfil"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:152
 msgid "PDF Import Settings"
@@ -14397,16 +14397,16 @@ msgstr "Konvertera till slingor"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:375
 msgid "Keep original font name"
-msgstr "Behåll det ursprungliga typsnittsnamnet"
+msgstr "Behåll ursprungliga typsnittsnamn"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:378
 msgid "Replace by closest-named installed font"
-msgstr "Ersätt med installerat typsnitt med närmast namn"
+msgstr "Ersätt med installerat typsnitt med närmaste namn"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:381
 #: ../src/ui/tools/text-tool.cpp:179
 msgid "Delete text"
-msgstr "Radera text"
+msgstr "Ta bort text"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:856
 msgid "PDF Input"
@@ -14414,15 +14414,15 @@ msgstr "PDF-inmatning"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:861
 msgid "Portable Document Format (*.pdf)"
-msgstr "Portabelt dokumentformat (*.pdf)"
+msgstr "Portable Document Format (*.pdf)"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:862
 msgid "Portable Document Format"
-msgstr "Portabelt dokumentformat"
+msgstr "Portable Document Format"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:871
 msgid "AI Input"
-msgstr "AI Indata"
+msgstr "AI-inmatning"
 
 #: ../src/extension/internal/pdfinput/pdf-input.cpp:876
 msgid "Adobe Illustrator 9.0 and above (*.ai)"
@@ -14434,7 +14434,7 @@ msgstr "Öppna filer som sparats med Adobe Illustrator 9.0 eller senare"
 
 #: ../src/extension/internal/png-output.cpp:52
 msgid "Portable Network Graphic"
-msgstr "Portabel nätverksgrafik"
+msgstr "Portable Network Graphic"
 
 #: ../src/extension/internal/png-output.cpp:54
 msgid "Interlacing"
@@ -14454,11 +14454,11 @@ msgstr "RGBA 16"
 
 #: ../src/extension/internal/png-output.cpp:58
 msgid "GrayAlpha 8"
-msgstr "GråAlpha 8"
+msgstr "GrayAlpha 8"
 
 #: ../src/extension/internal/png-output.cpp:59
 msgid "GrayAlpha 16"
-msgstr "GråAlpha 16"
+msgstr "GrayAlpha 16"
 
 #: ../src/extension/internal/png-output.cpp:60
 msgid "RGB 8"
@@ -14470,23 +14470,23 @@ msgstr "RGB 16"
 
 #: ../src/extension/internal/png-output.cpp:62
 msgid "Gray 1"
-msgstr "Grå 1"
+msgstr "Gray 1"
 
 #: ../src/extension/internal/png-output.cpp:63
 msgid "Gray 2"
-msgstr "Grå 2"
+msgstr "Gray 2"
 
 #: ../src/extension/internal/png-output.cpp:64
 msgid "Gray 4"
-msgstr "Grå 4"
+msgstr "Gray 4"
 
 #: ../src/extension/internal/png-output.cpp:65
 msgid "Gray 8"
-msgstr "Grå 8"
+msgstr "Gray 8"
 
 #: ../src/extension/internal/png-output.cpp:66
 msgid "Gray 16"
-msgstr "Grå 16"
+msgstr "Gray 16"
 
 #: ../src/extension/internal/png-output.cpp:68
 msgid "Compression"
@@ -14506,7 +14506,7 @@ msgstr "6 - Standardkomprimering"
 
 #: ../src/extension/internal/png-output.cpp:78
 msgid "9 - Best Compression"
-msgstr "9 - Bästa kompression"
+msgstr "9 - Bästa komprimering"
 
 #: ../src/extension/internal/png-output.cpp:80
 msgid "pHYs DPI"
@@ -14514,7 +14514,7 @@ msgstr "pHYs DPI"
 
 #: ../src/extension/internal/png-output.cpp:81
 msgid "Antialias"
-msgstr "Antialias"
+msgstr "Kantutjämning"
 
 #: ../src/extension/internal/png-output.cpp:85
 msgid "PNG (*.png)"
@@ -14526,7 +14526,7 @@ msgstr "Standard för export av rastergrafik"
 
 #: ../src/extension/internal/pov-out.cpp:710
 msgid "PovRay Output"
-msgstr "PovRay Utgång"
+msgstr "PovRay-utmatning"
 
 #: ../src/extension/internal/pov-out.cpp:715
 msgid "PovRay (*.pov) (paths and shapes only)"
@@ -14534,15 +14534,15 @@ msgstr "PovRay (*.pov) (endast slingor och former)"
 
 #: ../src/extension/internal/pov-out.cpp:716
 msgid "PovRay Raytracer File"
-msgstr "PovRay Raytracer-fil"
+msgstr "PovRay-strålspårningsfil"
 
 #: ../src/extension/internal/svg.cpp:68
 msgid "SVG Input"
-msgstr "SVG-indata"
+msgstr "SVG-inmatning"
 
 #: ../src/extension/internal/svg.cpp:74
 msgid "Scalable Vector Graphic (*.svg)"
-msgstr "Skalbar vektor grafik (*. SVG)"
+msgstr "Scalable Vector Graphic (*.svg)"
 
 #: ../src/extension/internal/svg.cpp:75
 msgid "Inkscape native file format and W3C standard"
@@ -14550,7 +14550,7 @@ msgstr "Inbyggt filformat för Inkscape och W3C-standard"
 
 #: ../src/extension/internal/svg.cpp:82
 msgid "SVG Output Inkscape"
-msgstr "SVG production Inkscape"
+msgstr "SVG-utmatning för Inkscape"
 
 #: ../src/extension/internal/svg.cpp:87
 msgid "Inkscape SVG (*.svg)"
@@ -14563,7 +14563,7 @@ msgstr "SVG-format med Inkscape-tillägg"
 #: ../src/extension/internal/svg.cpp:104
 #: ../share/extensions/output_scour.inx:37
 msgid "SVG Output"
-msgstr "SVG-utdata"
+msgstr "SVG-utmatning"
 
 #: ../src/extension/internal/svg.cpp:109
 msgid "Plain SVG (*.svg)"
@@ -14575,7 +14575,7 @@ msgstr "Format för skalbar vektorgrafik som definierats av W3C"
 
 #: ../src/extension/internal/svg.h:23
 msgid "SVG Image Import Type:"
-msgstr "SVG Bild Importtyp:"
+msgstr "Importtyp för SVG-bild:"
 
 #: ../src/extension/internal/svg.h:24
 msgid "Include SVG image as editable object(s) in the current file"
@@ -14583,7 +14583,7 @@ msgstr "Inkludera SVG-bild som redigerbart objekt i den aktuella filen"
 
 #: ../src/extension/internal/svg.h:25
 msgid "Add SVG as new page(s) in the current file"
-msgstr "Lägg till SVG som ny(a) sida(r) i den aktuella filen"
+msgstr "Lägg till SVG som nya sidor i den aktuella filen"
 
 #: ../src/extension/internal/svg.h:26
 msgid "Embed the SVG file in an image tag (not editable in this document)"
@@ -14596,7 +14596,7 @@ msgstr "Länka SVG-filen i en bildtagg (inte redigerbar i detta dokument)."
 
 #: ../src/extension/internal/svg.h:28
 msgid "Open SVG image as separate document"
-msgstr "Öppna SVG-bilden som ett separat dokument"
+msgstr "Öppna SVG-bilden som separat dokument"
 
 #: ../src/extension/internal/svg.h:30
 msgid "DPI for rendered SVG"
@@ -14604,7 +14604,7 @@ msgstr "DPI för renderad SVG"
 
 #: ../src/extension/internal/svgz.cpp:45
 msgid "SVGZ Input"
-msgstr "SVGZ indata"
+msgstr "SVGZ-inmatning"
 
 #: ../src/extension/internal/svgz.cpp:52 ../src/extension/internal/svgz.cpp:65
 msgid "Compressed Inkscape SVG (*.svgz)"
@@ -14616,11 +14616,11 @@ msgstr "SVG-filformat komprimerat med GZip"
 
 #: ../src/extension/internal/svgz.cpp:60 ../src/extension/internal/svgz.cpp:74
 msgid "SVGZ Output"
-msgstr "SVGZ-utdata"
+msgstr "SVGZ-utmatning"
 
 #: ../src/extension/internal/svgz.cpp:66
 msgid "Inkscape's native file format compressed with GZip"
-msgstr "Inbyggt filformat för Inkscape komprimerat med GZip"
+msgstr "Inkscapes inbyggda filformat komprimerat med GZip"
 
 #: ../src/extension/internal/svgz.cpp:79
 msgid "Compressed plain SVG (*.svgz)"
@@ -14628,7 +14628,7 @@ msgstr "Komprimerad vanlig SVG (*.svgz)"
 
 #: ../src/extension/internal/svgz.cpp:80
 msgid "Scalable Vector Graphics format compressed with GZip"
-msgstr "Format för skalbar vektorgrafik komprimerat med GZip"
+msgstr "Scalable Vector Graphics-format komprimerat med GZip"
 
 #: ../src/extension/internal/template-from-file.cpp:78
 msgid "Custom Template"
@@ -14659,7 +14659,7 @@ msgstr "Andra storlekar"
 
 #: ../src/extension/internal/template-other.cpp:38
 msgid "Miscellaneous document formats"
-msgstr "Olika dokumentformat"
+msgstr "Diverse dokumentformat"
 
 #: ../src/extension/internal/template-other.cpp:39
 #: ../share/extensions/template_seamless_pattern.inx:7
@@ -14749,7 +14749,7 @@ msgstr "Liggande"
 
 #: ../src/extension/internal/template-paper.cpp:58
 msgid "A4 (Portrait)"
-msgstr "A4 (Stående)"
+msgstr "A4 (stående)"
 
 #: ../src/extension/internal/template-paper.cpp:59
 msgid "A4 (Landscape)"
@@ -14757,7 +14757,7 @@ msgstr "A4 (liggande)"
 
 #: ../src/extension/internal/template-paper.cpp:60
 msgid "US Letter (Portrait)"
-msgstr "US Letter (porträtt)"
+msgstr "US Letter (stående)"
 
 #: ../src/extension/internal/template-paper.cpp:61
 msgid "US Letter (Landscape)"
@@ -14953,15 +14953,15 @@ msgstr "US Legal"
 
 #: ../src/extension/internal/template-paper.cpp:109
 msgid "US Letter"
-msgstr "Brev från USA"
+msgstr "US Letter"
 
 #: ../src/extension/internal/template-paper.cpp:110
 msgid "DL Envelope"
-msgstr "DL-kuvert"
+msgstr "DL Envelope"
 
 #: ../src/extension/internal/template-paper.cpp:111
 msgid "US #10 Envelope"
-msgstr "US #10 kuvert"
+msgstr "US #10 Envelope"
 
 #: ../src/extension/internal/template-paper.cpp:112
 msgid "Arch A"
@@ -14985,7 +14985,7 @@ msgstr "Arch E"
 
 #: ../src/extension/internal/template-paper.cpp:117
 msgid "Arch E1"
-msgstr "Båge E1"
+msgstr "Arch E1"
 
 #: ../src/extension/internal/template-screen.cpp:28
 msgid "Screen Sizes"
@@ -15018,7 +15018,7 @@ msgstr "Skrivbord 720p"
 
 #: ../src/extension/internal/template-screen.cpp:42
 msgid "Desktop SD"
-msgstr "Skrivbords-SD"
+msgstr "Skrivbord SD"
 
 #: ../src/extension/internal/template-screen.cpp:43
 msgid "iPhone 5"
@@ -15038,7 +15038,7 @@ msgstr "iPad Pro"
 
 #: ../src/extension/internal/template-screen.cpp:47
 msgid "Tablet-smallest"
-msgstr "Tablett-minsta"
+msgstr "Surfplatta-minsta"
 
 #: ../src/extension/internal/template-social.cpp:28
 msgid "Social Sizes"
@@ -15051,7 +15051,7 @@ msgstr "Dokumentformat för sociala medier"
 #: ../src/extension/internal/template-social.cpp:30
 msgctxt "TemplateCategory"
 msgid "Social"
-msgstr "Socialt"
+msgstr "Sociala"
 
 #: ../src/extension/internal/template-social.cpp:38
 msgid "Facebook cover photo"
@@ -15083,11 +15083,11 @@ msgstr "Instagram liggande"
 
 #: ../src/extension/internal/template-social.cpp:45
 msgid "Instagram portrait"
-msgstr "Porträtt på Instagram"
+msgstr "Instagram-porträtt"
 
 #: ../src/extension/internal/template-social.cpp:46
 msgid "Instagram square"
-msgstr "Instagram kvadrat"
+msgstr "Instagram fyrkantig"
 
 #: ../src/extension/internal/template-social.cpp:47
 msgid "LinkedIn business banner image"
@@ -15095,7 +15095,7 @@ msgstr "Bannerbild för LinkedIn-företag"
 
 #: ../src/extension/internal/template-social.cpp:48
 msgid "LinkedIn company logo"
-msgstr "LinkedIn-företagets logotyp"
+msgstr "Företagslogotyp för LinkedIn"
 
 #: ../src/extension/internal/template-social.cpp:49
 msgid "LinkedIn cover photo"
@@ -15143,7 +15143,7 @@ msgstr "Videoporträtt på Twitter"
 
 #: ../src/extension/internal/template-social.cpp:60
 msgid "Twitter video square"
-msgstr "Twitter video kvadrat"
+msgstr "Kvadratisk Twitter-video"
 
 #: ../src/extension/internal/template-video.cpp:28
 msgid "Video Sizes"
@@ -15164,7 +15164,7 @@ msgstr "Video SD PAL"
 
 #: ../src/extension/internal/template-video.cpp:39
 msgid "Video SD Widescreen / PAL"
-msgstr "Video SD Widescreen / PAL"
+msgstr "Video SD Bredbild / PAL"
 
 #: ../src/extension/internal/template-video.cpp:40
 msgid "Video SD NTSC"
@@ -15172,7 +15172,7 @@ msgstr "Video SD NTSC"
 
 #: ../src/extension/internal/template-video.cpp:41
 msgid "Video SD Widescreen NTSC"
-msgstr "Video SD Widescreen NTSC"
+msgstr "Video SD Bredbild NTSC"
 
 #: ../src/extension/internal/template-video.cpp:42
 msgid "Video HD 720p"
@@ -15200,7 +15200,7 @@ msgstr "Video UHD 8k"
 
 #: ../src/extension/internal/vsd-input.cpp:318
 msgid "VSD Input"
-msgstr "VSD-indata"
+msgstr "VSD-inmatning"
 
 #: ../src/extension/internal/vsd-input.cpp:323
 msgid "Microsoft Visio Diagram (*.vsd)"
@@ -15212,7 +15212,7 @@ msgstr "Filformat som används av Microsoft Visio 6 och senare"
 
 #: ../src/extension/internal/vsd-input.cpp:330
 msgid "VDX Input"
-msgstr "VDX indata"
+msgstr "VDX-inmatning"
 
 #: ../src/extension/internal/vsd-input.cpp:335
 msgid "Microsoft Visio XML Diagram (*.vdx)"
@@ -15224,11 +15224,11 @@ msgstr "Filformat som används av Microsoft Visio 2010 och senare"
 
 #: ../src/extension/internal/vsd-input.cpp:342
 msgid "VSDM Input"
-msgstr "VSDM indata"
+msgstr "VSDM-inmatning"
 
 #: ../src/extension/internal/vsd-input.cpp:347
 msgid "Microsoft Visio 2013 drawing (*.vsdm)"
-msgstr "Microsoft Visio 2013 ritning (*. vsdm)"
+msgstr "Microsoft Visio 2013-ritning (*. vsdm)"
 
 #: ../src/extension/internal/vsd-input.cpp:348
 #: ../src/extension/internal/vsd-input.cpp:360
@@ -15237,23 +15237,23 @@ msgstr "Filformat som används av Microsoft Visio 2013 och senare"
 
 #: ../src/extension/internal/vsd-input.cpp:354
 msgid "VSDX Input"
-msgstr "VSDX indata"
+msgstr "VSDX-inmatning"
 
 #: ../src/extension/internal/vsd-input.cpp:359
 msgid "Microsoft Visio 2013 drawing (*.vsdx)"
-msgstr "Microsoft Visio 2013 ritning (*. vsdm)"
+msgstr "Microsoft Visio 2013-ritning (*. vsdm)"
 
 #: ../src/extension/internal/wmf-inout.cpp:3213
 msgid "WMF Input"
-msgstr "WMF indata"
+msgstr "WMF-inmatning"
 
 #: ../src/extension/internal/wmf-inout.cpp:3218
 msgid "Windows Metafiles (*.wmf)"
-msgstr "Metafiler för Windows (*.wmf)"
+msgstr "Windows-metafiler (*.wmf)"
 
 #: ../src/extension/internal/wmf-inout.cpp:3219
 msgid "Windows Metafiles"
-msgstr "Metafiler för Windows"
+msgstr "Windows-metafiler"
 
 #: ../src/extension/internal/wmf-inout.cpp:3226
 msgid "WMF Output"
@@ -15261,19 +15261,19 @@ msgstr "WMF-utmatning"
 
 #: ../src/extension/internal/wmf-inout.cpp:3236
 msgid "Map all fill patterns to standard WMF hatches"
-msgstr "Mappa alla fyllningsmönster till standard WMF-luckor"
+msgstr "Mappa alla fyllningsmönster till standard WMF-skraffel"
 
 #: ../src/extension/internal/wmf-inout.cpp:3240
 msgid "Windows Metafile (*.wmf)"
-msgstr "Windows Metafile (*.wmf)"
+msgstr "Windows-metafil (*.wmf)"
 
 #: ../src/extension/internal/wmf-inout.cpp:3241
 msgid "Windows Metafile"
-msgstr "Windows Metafile"
+msgstr "Windows-metafil"
 
 #: ../src/extension/internal/wpg-input.cpp:136
 msgid "WPG Input"
-msgstr "WPG indata"
+msgstr "WPG-inmatning"
 
 #: ../src/extension/internal/wpg-input.cpp:141
 msgid "WordPerfect Graphics (*.wpg)"
@@ -15315,23 +15315,23 @@ msgstr "Stän_g"
 #: ../src/extension/prefdialog/prefdialog.cpp:66
 #: ../src/ui/dialog/transformation.cpp:83
 msgid "_Apply"
-msgstr "Tillämpa"
+msgstr "_Tillämpa"
 
 #: ../src/extension/prefdialog/prefdialog.cpp:216
 msgid "Live preview"
-msgstr "Förhandsgranskning"
+msgstr "Direkt förhandsvisning"
 
 #: ../src/extension/prefdialog/prefdialog.cpp:216
 msgid "Is the effect previewed live on canvas?"
-msgstr "Förhandsgranskas effekten i dokumentet?"
+msgstr "Förhandsgranskas effekten direkt på duken?"
 
 #: ../src/extension/system.cpp:121 ../src/extension/system.cpp:123
 msgid ""
 "Could not detect file format. Tried to open it as an SVG anyway but this "
 "also failed."
 msgstr ""
-"Kunde inte upptäcka filformat. Försökte öppna den som en SVG i alla fall men "
-"det misslyckades också."
+"Kunde inte upptäcka filformatet. Försökte öppna den som en SVG i alla fall "
+"men det misslyckades också."
 
 #: ../src/extension/template.cpp:198 ../src/ui/dialog/dialog-data.h:39
 #: ../share/extensions/interp_att_g.inx:15
@@ -15340,7 +15340,7 @@ msgstr "Annat"
 
 #: ../src/file-update.cpp:310
 msgid "Convert legacy Inkscape file"
-msgstr "Konvertera filen Legacy Inkscape"
+msgstr "Konvertera föråldrad Inkscape-fil"
 
 #: ../src/file-update.cpp:316
 msgid ""
@@ -15377,12 +15377,12 @@ msgid ""
 "The accuracy of the physical unit size and position values of objects\n"
 "in the file is most important. (Experimental.)"
 msgstr ""
-"Noggrannheten i den fysiska enhetens storlek och positionsvärden för objekt\n"
-"i filen är viktigast. (Experimentell.)"
+"Noggrannheten i den fysiska enhetstorleken och positionsvärden för\n"
+"objekt i filen är viktigast. (Experimentell.)"
 
 #: ../src/file-update.cpp:334
 msgid "Create a backup file in same directory."
-msgstr "Skapa en säkerhetskopia i samma mapp."
+msgstr "Skapa en säkerhetskopia i samma katalog."
 
 #: ../src/file-update.cpp:335
 msgid "More details..."
@@ -15433,7 +15433,7 @@ msgstr ""
 "positioner (t.ex. för 3D-utskrifter)\n"
 "\n"
 "Mer information om den här ändringen finns i <a href='https://inkscape.org/"
-"en/learn/faq#dpi_change'>Inkscape FAQ</a></small>"
+"en/learn/faq#dpi_change'>Inkscapes frågor och svar</a></small>"
 
 #: ../src/file-update.cpp:373 ../share/ui/attribute-edit-component.glade:210
 msgid "OK"
@@ -15450,7 +15450,7 @@ msgstr "Dokumentet inte sparat ännu. Kan inte återställa."
 #: ../src/file.cpp:139
 msgid "Changes will be lost! Are you sure you want to reload document %1?"
 msgstr ""
-"Ändringar kommer att förloras! Är du säker att du vill läsa in dokument %1 "
+"Ändringar kommer att förloras! Är du säker att du vill läsa in dokumentet %1 "
 "igen?"
 
 #: ../src/file.cpp:153
@@ -15467,7 +15467,7 @@ msgstr "Välj fil att öppna"
 
 #: ../src/file.cpp:221
 msgid "Clean up document"
-msgstr "Rensa oanvända definitioner"
+msgstr "Städa upp dokumentet"
 
 #: ../src/file.cpp:228
 #, c-format
@@ -15537,11 +15537,11 @@ msgstr "Dokumentet sparat."
 
 #: ../src/file.cpp:382
 msgid "drawing"
-msgstr "teckning"
+msgstr "ritning"
 
 #: ../src/file.cpp:387
 msgid "drawing-%1"
-msgstr "teckning-%1"
+msgstr "ritning-%1"
 
 #: ../src/file.cpp:395
 msgid "Select file to save a copy to"
@@ -15566,7 +15566,7 @@ msgstr "Importera sidor"
 #: ../src/file.cpp:965 ../src/inkscape-application.cpp:887
 #, c-format
 msgid "Failed to load the requested file %s"
-msgstr "Kunde inte läsa in den valda filen %s"
+msgstr "Kunde inte läsa in den begärda filen %s"
 
 #: ../src/file.cpp:1038
 msgid "Select file to import"
@@ -15578,7 +15578,7 @@ msgstr "Färgmatris"
 
 #: ../src/filter-enums.cpp:26
 msgid "Composite"
-msgstr "Kombinera"
+msgstr "Komposit"
 
 #: ../src/filter-enums.cpp:27
 msgid "Convolve Matrix"
@@ -15602,11 +15602,11 @@ msgstr "Sammanfoga"
 
 #: ../src/filter-enums.cpp:36
 msgid "Specular Lighting"
-msgstr "Spekulärt ljus"
+msgstr "Spegellikt ljus"
 
 #: ../src/filter-enums.cpp:37
 msgid "Tile"
-msgstr "Sida vid sida"
+msgstr "Platta"
 
 #: ../src/filter-enums.cpp:45
 msgid "Source Graphic"
@@ -15614,7 +15614,7 @@ msgstr "Källgrafik"
 
 #: ../src/filter-enums.cpp:46
 msgid "Source Alpha"
-msgstr "Källa Alfa"
+msgstr "Källalfa"
 
 #: ../src/filter-enums.cpp:47
 msgid "Background Image"
@@ -15622,15 +15622,15 @@ msgstr "Bakgrundsbild"
 
 #: ../src/filter-enums.cpp:48
 msgid "Background Alpha"
-msgstr "Bakgrund Alfa"
+msgstr "Bakgrundsalfa"
 
 #: ../src/filter-enums.cpp:49
 msgid "Fill Paint"
-msgstr "Fyll färg"
+msgstr "Fyllnadsfärg"
 
 #: ../src/filter-enums.cpp:50
 msgid "Stroke Paint"
-msgstr "Stryk färg"
+msgstr "Streckfärg"
 
 #: ../src/filter-enums.cpp:57
 msgid "Matrix"
@@ -15642,11 +15642,11 @@ msgstr "Mätta"
 
 #: ../src/filter-enums.cpp:59
 msgid "Hue Rotate"
-msgstr "Kulörrotation"
+msgstr "Nyansrotation"
 
 #: ../src/filter-enums.cpp:60
 msgid "Luminance to Alpha"
-msgstr "Ljusstyrka till Alfa"
+msgstr "Luminans till alfa"
 
 #: ../src/filter-enums.cpp:68 ../src/ui/toolbar/text-toolbar.cpp:274
 #: ../share/ui/inkscape-welcome.glade:26
@@ -15655,7 +15655,7 @@ msgstr "Ljusstyrka till Alfa"
 #: ../share/extensions/jessyink_transitions.inx:19
 #: ../share/extensions/measure.inx:13 ../share/extensions/nicechart.inx:67
 msgid "Default"
-msgstr "Standardalternativ"
+msgstr "Standard"
 
 #: ../src/filter-enums.cpp:74
 msgid "Lighter"
@@ -15688,7 +15688,7 @@ msgstr "Erodera"
 
 #: ../src/filter-enums.cpp:117
 msgid "Dilate"
-msgstr "Vidga"
+msgstr "Utvidga"
 
 #: ../src/filter-enums.cpp:125
 msgid "Fractal Noise"
@@ -15704,7 +15704,7 @@ msgstr "Punktljus"
 
 #: ../src/filter-enums.cpp:136
 msgid "Spot Light"
-msgstr "Spotlight"
+msgstr "Strålkastare"
 
 #: ../src/gradient-chemistry.cpp:779 ../src/gradient-drag.cpp:1233
 msgid "Delete gradient stop"
@@ -15719,7 +15719,7 @@ msgstr "Lägg till gradientstopp"
 
 #: ../src/gradient-chemistry.cpp:897
 msgid "Change gradient stop color"
-msgstr "Ändra gradient stoppfärg"
+msgstr "Ändra färg för gradientstopp"
 
 #: ../src/gradient-chemistry.cpp:1839
 msgid "Invert gradient colors"
@@ -15738,62 +15738,62 @@ msgstr "Ta bort färgprover"
 #: ../src/gradient-drag.cpp:75 ../src/ui/tools/gradient-tool.cpp:81
 #: ../src/ui/tools/mesh-tool.cpp:111
 msgid "Linear gradient <b>start</b>"
-msgstr "Linjär toning <b>start</b>"
+msgstr "Linjär <b>start</b> för gradient"
 
 #: ../src/gradient-drag.cpp:76 ../src/ui/tools/gradient-tool.cpp:82
 #: ../src/ui/tools/mesh-tool.cpp:112
 msgid "Linear gradient <b>end</b>"
-msgstr "Linjär toning <b>slut</b>"
+msgstr "Linjärt <b>slut</b> för gradient"
 
 #: ../src/gradient-drag.cpp:77 ../src/ui/tools/gradient-tool.cpp:83
 #: ../src/ui/tools/mesh-tool.cpp:113
 msgid "Linear gradient <b>mid stop</b>"
-msgstr "Linjär gradient <b>mittstopp</b>"
+msgstr "Linjärt <b>mittstopp</b> för gradient"
 
 #: ../src/gradient-drag.cpp:78 ../src/ui/tools/gradient-tool.cpp:84
 #: ../src/ui/tools/mesh-tool.cpp:114
 msgid "Radial gradient <b>center</b>"
-msgstr "Radiell toning <b>centrum</b>"
+msgstr "Radiellt <b>centrum</b> för gradient"
 
 #: ../src/gradient-drag.cpp:79 ../src/gradient-drag.cpp:80
 #: ../src/ui/tools/gradient-tool.cpp:85 ../src/ui/tools/gradient-tool.cpp:86
 #: ../src/ui/tools/mesh-tool.cpp:115 ../src/ui/tools/mesh-tool.cpp:116
 msgid "Radial gradient <b>radius</b>"
-msgstr "Radiell toning <b>radie</b>"
+msgstr "Radiell <b>radie</b> för gradient"
 
 #: ../src/gradient-drag.cpp:81 ../src/ui/tools/gradient-tool.cpp:87
 #: ../src/ui/tools/mesh-tool.cpp:117
 msgid "Radial gradient <b>focus</b>"
-msgstr "Radiell toning <b>focus</b>"
+msgstr "Radiellt <b>fokus</b> för gradient"
 
 #: ../src/gradient-drag.cpp:82 ../src/gradient-drag.cpp:83
 #: ../src/ui/tools/gradient-tool.cpp:88 ../src/ui/tools/gradient-tool.cpp:89
 #: ../src/ui/tools/mesh-tool.cpp:118 ../src/ui/tools/mesh-tool.cpp:119
 msgid "Radial gradient <b>mid stop</b>"
-msgstr "Radiell gradient <b>mittstopp</b>"
+msgstr "Radiellt <b>mittstopp</b> för gradient"
 
 #: ../src/gradient-drag.cpp:84 ../src/ui/tools/gradient-tool.cpp:90
 #: ../src/ui/tools/mesh-tool.cpp:120
 msgid "Mesh gradient <b>corner</b>"
-msgstr "Mesh gradient <b>hörn</b>"
+msgstr "Mesh <b>hörn</b> för gradient"
 
 #: ../src/gradient-drag.cpp:85 ../src/ui/tools/gradient-tool.cpp:91
 #: ../src/ui/tools/mesh-tool.cpp:121
 msgid "Mesh gradient <b>handle</b>"
-msgstr "<b>Handtag</b> med gradient i nät"
+msgstr "Mesh <b>handtag</b> för gradient"
 
 #: ../src/gradient-drag.cpp:86 ../src/ui/tools/gradient-tool.cpp:92
 #: ../src/ui/tools/mesh-tool.cpp:122
 msgid "Mesh gradient <b>tensor</b>"
-msgstr "Mesh gradient <b>tensor</b>"
+msgstr "Mesh <b>tensor</b> för gradient"
 
 #: ../src/gradient-drag.cpp:558
 msgid "Added patch row or column"
-msgstr "Lagt till patchrad eller kolumn"
+msgstr "Lade till patchrad eller kolumn"
 
 #: ../src/gradient-drag.cpp:864
 msgid "Merge gradient handles"
-msgstr "Slå ihop gradienthandtag"
+msgstr "Sammanfoga gradienthandtag"
 
 #: ../src/gradient-drag.cpp:1175
 msgid "Move gradient handle"
@@ -15805,8 +15805,8 @@ msgid ""
 "%s %d for: %s%s; drag with <b>Ctrl</b> to snap offset; click with "
 "<b>Ctrl+Alt</b> to delete stop"
 msgstr ""
-"%s %d för: %s%s; dra med <b>Ctrl</b> för att snäppa offset; klicka med "
-"<b>Ctrl+Alt</b> för att ta bort stopp"
+"%s %d för: %s%s; dra med <b>Ctrl</b> för att fästa vid förskjutning; klicka "
+"med <b>Ctrl+Alt</b> för att ta bort stopp"
 
 #: ../src/gradient-drag.cpp:1517 ../src/gradient-drag.cpp:1526
 #: ../src/gradient-drag.cpp:1533
@@ -15856,7 +15856,7 @@ msgstr "Flytta gradienthandtag"
 
 #: ../src/gradient-drag.cpp:2812
 msgid "Move gradient mid stop(s)"
-msgstr "Flytta gradient mittstopp"
+msgstr "Flytta gradientens mittstopp"
 
 #: ../src/gradient-drag.cpp:3165
 msgid "Delete gradient stop(s)"
@@ -15909,20 +15909,21 @@ msgstr "Exempel:"
 # File: ../src/inkscape-application.cpp, line: 529
 #: ../src/inkscape-application.cpp:710
 msgid "Export input SVG (%1) to PDF (%2) format:"
-msgstr "Exportera SVG-ingång (%1) till PDF-format (%2):"
+msgstr "Exportera SVG-inmatning (%1) till PDF-format (%2):"
 
 #
 # File: ../src/inkscape-application.cpp, line: 531
 #: ../src/inkscape-application.cpp:712
 msgid "Export input files (%1) to PNG format keeping original name (%2):"
 msgstr ""
-"Exportera indatafiler (%1) till PNG-format med bibehållet originalnamn (%2):"
+"Exportera inmatningsfiler (%1) till PNG-format med bibehållet originalnamn "
+"(%2):"
 
 #
 # File: ../src/inkscape-application.cpp, line: 533
 #: ../src/inkscape-application.cpp:714
 msgid "See %1 and %2 for more details."
-msgstr "Se %1 och %2 f för mer information."
+msgstr "Se %1 och %2 för mer information."
 
 #: ../src/inkscape-application.cpp:719
 msgid "Print Inkscape version"
@@ -15950,7 +15951,7 @@ msgid ""
 "'org.inkscape.Inkscape.TAG'"
 msgstr ""
 "Skapa en unik instans av Inkscape med program-ID:t "
-"'org.inkscape.Inkscape.TAG'"
+"'org.inkscape.Inkscape.TAGG'"
 
 #: ../src/inkscape-application.cpp:727
 msgid "File import"
@@ -15960,7 +15961,7 @@ msgstr "Import av filer"
 # File: ../src/inkscape-application.cpp, line: 541
 #: ../src/inkscape-application.cpp:728
 msgid "Read input file from standard input (stdin)"
-msgstr "Läs in indatafil från standardinmatning (stdin)"
+msgstr "Läs in inmatningsfil från standardinmatning (stdin)"
 
 #: ../src/inkscape-application.cpp:729
 msgid "Page numbers to import from multi-page document, i.e. PDF"
@@ -15968,7 +15969,7 @@ msgstr "Sidnummer för import från flersidigt dokument, t.ex. PDF"
 
 #: ../src/inkscape-application.cpp:729
 msgid "PAGE[,PAGE]"
-msgstr "PAGE[,PAGE]"
+msgstr "SIDA[,SIDA]"
 
 #
 # File: ../src/inkscape-application.cpp, line: 495
@@ -15996,7 +15997,7 @@ msgid ""
 "scale-document]"
 msgstr ""
 "Metod som används för att konvertera dpi för dokument före 0.92, om det "
-"behövs: [ingen|skale-viewbox|skale-dokument]"
+"behövs: [none|scale-viewbox|scale-document]"
 
 #: ../src/inkscape-application.cpp:732
 msgid "METHOD"
@@ -16017,7 +16018,7 @@ msgid ""
 "Output file name (defaults to input filename; file type is guessed from "
 "extension if present; use '-' to write to stdout)"
 msgstr ""
-"Namn på utdatafil (standard är filnamn för inmatningsfil; filtyp gissas "
+"Namn på utmatningsfil (standard är filnamn för inmatningsfil; filtyp gissas "
 "utifrån filändelse om sådant finns; använd '-' för att skriva till stdout)"
 
 #: ../src/inkscape-application.cpp:737 ../src/inkscape-application.cpp:793
@@ -16028,13 +16029,13 @@ msgstr "FILNAMN"
 msgid ""
 "Overwrite input file (otherwise add '_out' suffix if type doesn't change)"
 msgstr ""
-"Skriv över indatafilen (lägg annars till suffixet \"_out\" om typen inte "
+"Skriv över inmatningsfilen (lägg annars till suffixet \"_out\" om typen inte "
 "ändras)"
 
 #
 #: ../src/inkscape-application.cpp:739
 msgid "File type(s) to export: [svg,png,ps,eps,pdf,emf,wmf,xaml]"
-msgstr "Filtyp(er) som ska exporteras: [svg,png,ps,eps,pdf,emf,wmf,xaml]"
+msgstr "Filtyp(er) att exportera: [svg,png,ps,eps,pdf,emf,wmf,xaml]"
 
 #: ../src/inkscape-application.cpp:739
 msgid "TYPE[,TYPE]*"
@@ -16058,13 +16059,13 @@ msgstr "Område att exportera är sida"
 
 #: ../src/inkscape-application.cpp:745
 msgid "Area to export is whole drawing (ignoring page size)"
-msgstr "Området som ska exporteras är hela ritningen (sidstorlek ignoreras)"
+msgstr "Område att exportera är hela ritningen (sidstorlek ignoreras)"
 
 #
 # File: ../src/inkscape-application.cpp, line: 557
 #: ../src/inkscape-application.cpp:746
 msgid "Area to export in SVG user units"
-msgstr "Område som ska exporteras i SVG-användarenheter"
+msgstr "Område att exportera i SVG-användarenheter"
 
 #: ../src/inkscape-application.cpp:746
 msgid "x0:y0:x1:y1"
@@ -16072,7 +16073,7 @@ msgstr "x0:y0:x1:y1"
 
 #: ../src/inkscape-application.cpp:747
 msgid "Snap the bitmap export area outwards to the nearest integer values"
-msgstr "Snäpp bitmappsexportområdet utåt till närmaste heltalsvärden"
+msgstr "Fäst bitmappsexportområdet utåt till närmaste heltalsvärden"
 
 #: ../src/inkscape-application.cpp:748
 msgid "Resolution for bitmaps and rasterized filters; default is 96"
@@ -16086,7 +16087,7 @@ msgstr "DPI"
 
 #: ../src/inkscape-application.cpp:749
 msgid "Bitmap width in pixels (overrides --export-dpi)"
-msgstr "Bitmappsbredd i pixlar (åsidosätter --export-dpi)"
+msgstr "Bitmappsbredd i bildpunkter (åsidosätter --export-dpi)"
 
 #: ../src/inkscape-application.cpp:749
 msgid "WIDTH"
@@ -16094,7 +16095,7 @@ msgstr "BREDD"
 
 #: ../src/inkscape-application.cpp:750
 msgid "Bitmap height in pixels (overrides --export-dpi)"
-msgstr "Bitmappens höjd i pixlar (åsidosätter --export-dpi)"
+msgstr "Bitmappens höjd i bildpunkter (åsidosätter --export-dpi)"
 
 #: ../src/inkscape-application.cpp:750
 msgid "HEIGHT"
@@ -16107,11 +16108,11 @@ msgstr ""
 
 #: ../src/inkscape-application.cpp:751
 msgid "MARGIN"
-msgstr "Ingen marginal"
+msgstr "MARGINAL"
 
 #: ../src/inkscape-application.cpp:754
 msgid "Export options"
-msgstr "Alternativ för export"
+msgstr "Exportalternativ"
 
 #: ../src/inkscape-application.cpp:755
 msgid "Page number to export"
@@ -16119,7 +16120,7 @@ msgstr "Sidnummer för export"
 
 #: ../src/inkscape-application.cpp:755
 msgid "all|n[,a-b]"
-msgstr "alla|n[,a-b]"
+msgstr "all|n[,a-b]"
 
 #: ../src/inkscape-application.cpp:756
 msgid "ID(s) of object(s) to export"
@@ -16148,7 +16149,7 @@ msgstr "Postscript-nivå (2 eller 3); standard är 3"
 #: ../src/inkscape-application.cpp:759 ../src/inkscape-application.cpp:771
 #: ../src/inkscape-application.cpp:773
 msgid "LEVEL"
-msgstr "Nivå"
+msgstr "NIVÅ"
 
 #: ../src/inkscape-application.cpp:760
 msgid "PDF version (1.4 or 1.5); default is 1.5"
@@ -16156,7 +16157,7 @@ msgstr "PDF-version (1.4 eller 1.5); standard är 1.5"
 
 #: ../src/inkscape-application.cpp:760
 msgid "VERSION"
-msgstr "En tidigare version"
+msgstr "VERSION"
 
 #: ../src/inkscape-application.cpp:761
 msgid "Convert text to paths (PS/EPS/PDF/SVG)"
@@ -16205,11 +16206,11 @@ msgstr ""
 
 #: ../src/inkscape-application.cpp:768
 msgid "COLOR-MODE"
-msgstr "Färgläge"
+msgstr "FÄRGLÄGE"
 
 #: ../src/inkscape-application.cpp:769
 msgid "Force dithering or disables it"
-msgstr "Förstärker eller inaktiverar dithering"
+msgstr "Tvingar eller inaktiverar dithering"
 
 #: ../src/inkscape-application.cpp:771
 msgid "Compression level for PNG export (0 to 9); default is 6"
@@ -16217,7 +16218,7 @@ msgstr "Komprimeringsnivå för PNG-export (0 till 9); standard är 6"
 
 #: ../src/inkscape-application.cpp:773
 msgid "Antialias level for PNG export (0 to 3); default is 2"
-msgstr "Antialias-nivå för PNG-export (0 till 3); standard är 2"
+msgstr "Kantutjämningsnivå för PNG-export (0 till 3); standard är 2"
 
 #
 # File: ../src/inkscape-application.cpp, line: 579
@@ -16231,27 +16232,27 @@ msgstr "ID(n) för det eller de objekt som ska efterfrågas"
 
 #: ../src/inkscape-application.cpp:777 ../src/inkscape-application.cpp:787
 msgid "OBJECT-ID[,OBJECT-ID]*"
-msgstr "OBJEKT-ID [;OBJEKT-ID] *"
+msgstr "OBJEKT-ID [,OBJEKT-ID] *"
 
 #: ../src/inkscape-application.cpp:778
 msgid "Print bounding boxes of all objects"
-msgstr "Skriv ut avgränsningsboxar för alla objekt"
+msgstr "Skriv ut avgränsningsrutor för alla objekt"
 
 #: ../src/inkscape-application.cpp:779
 msgid "X coordinate of drawing or object (if specified by --query-id)"
-msgstr "X-koordinat för ritning eller objekt (om specificerat av --query-id)"
+msgstr "X-koordinat för ritning eller objekt (om specificerat med --query-id)"
 
 #: ../src/inkscape-application.cpp:780
 msgid "Y coordinate of drawing or object (if specified by --query-id)"
-msgstr "Y-koordinat för ritning eller objekt (om specificerat av --query-id)"
+msgstr "Y-koordinat för ritning eller objekt (om specificerat med --query-id)"
 
 #: ../src/inkscape-application.cpp:781
 msgid "Width of drawing or object (if specified by --query-id)"
-msgstr "Bredd på ritning eller objekt (om specificerat av --query-id)"
+msgstr "Bredd på ritning eller objekt (om specificerat med --query-id)"
 
 #: ../src/inkscape-application.cpp:782
 msgid "Height of drawing or object (if specified by --query-id)"
-msgstr "Höjd på ritning eller objekt (om specificerat av --query-id)"
+msgstr "Höjd på ritning eller objekt (om specificerat med --query-id)"
 
 #
 # File: ../src/inkscape-application.cpp, line: 588
@@ -16261,7 +16262,7 @@ msgstr "Avancerad filbearbetning"
 
 #: ../src/inkscape-application.cpp:786
 msgid "Remove unused definitions from the <defs> section(s) of document"
-msgstr "Ta bort oanvända definitioner från <defs> avsnitt i dokumentet"
+msgstr "Ta bort oanvända definitioner från <defs>-avsnitt i dokumentet"
 
 #
 # File: ../src/inkscape-application.cpp, line: 590
@@ -16298,11 +16299,11 @@ msgstr "Med grafiskt användargränssnitt (krävs för vissa åtgärder)"
 
 #: ../src/inkscape-application.cpp:798
 msgid "Close GUI after executing all actions"
-msgstr "Stäng GUI efter att ha utfört alla åtgärder"
+msgstr "Stäng grafiskt gränssnitt efter att ha utfört alla åtgärder"
 
 #: ../src/inkscape-application.cpp:800
 msgid "Start Inkscape in interactive shell mode"
-msgstr "Starta Inkscape i interaktivt shell-läge"
+msgstr "Starta Inkscape i interaktivt skalläge"
 
 #: ../src/inkscape-application.cpp:801
 msgid "Use active window from commandline"
@@ -16350,7 +16351,7 @@ msgstr ""
 
 #: ../src/inkview-application.cpp:77
 msgid "Print Inkview version"
-msgstr "Skriv ut Inkview version"
+msgstr "Skriv ut Inkview-versionen"
 
 #: ../src/inkview-application.cpp:78
 msgid "Launch in fullscreen mode"
@@ -16362,7 +16363,7 @@ msgstr "Rekursiv sökning i mappar"
 
 #: ../src/inkview-application.cpp:80
 msgid "Change image every NUMBER seconds"
-msgstr "Byt bild var NUMERA sekund"
+msgstr "Byt bild var NUMMER sekund"
 
 #: ../src/inkview-application.cpp:80 ../src/inkview-application.cpp:81
 msgid "NUMBER"
@@ -16370,11 +16371,11 @@ msgstr "NUMMER"
 
 #: ../src/inkview-application.cpp:81
 msgid "Scale image by factor NUMBER"
-msgstr "Skala bilden med faktor NUMBER"
+msgstr "Skala bilden med faktor NUMMER"
 
 #: ../src/inkview-application.cpp:82
 msgid "Preload files"
-msgstr "Förladda filer"
+msgstr "Förinläs filer"
 
 #: ../src/inkview-application.cpp:114
 msgid "Select Files or Folders to view"
@@ -16439,14 +16440,14 @@ msgstr "Placera en eller flera kopior av en annan slinga längs slingan"
 #: ../src/live_effects/effect.cpp:145
 msgctxt "path effect"
 msgid "Stitch Sub-Paths"
-msgstr "Stygn undervägar"
+msgstr "Sy ihop underslingor"
 
 #: ../src/live_effects/effect.cpp:148
 msgid ""
 "Draw perpendicular lines between subpaths of a path, like rungs of a ladder"
 msgstr ""
-"Rita vinkelräta linjer mellan delslingor på en slinga, som stegpinnar på en "
-"stege"
+"Rita vinkelräta linjer mellan underslingor på en slinga, som stegpinnar på "
+"en stege"
 
 #: ../src/live_effects/effect.cpp:160
 msgctxt "path effect"
@@ -16455,16 +16456,16 @@ msgstr "VonKoch"
 
 #: ../src/live_effects/effect.cpp:163
 msgid "Create VonKoch fractal"
-msgstr "Skapa VonKoch fraktal"
+msgstr "Skapa VonKoch-fraktal"
 
 #: ../src/live_effects/effect.cpp:174
 msgctxt "path effect"
 msgid "Knot"
-msgstr "Knot"
+msgstr "Knut"
 
 #: ../src/live_effects/effect.cpp:177
 msgid "Create gaps in self-intersections, as in Celtic knots"
-msgstr "Skapa luckor i självskärande korsningar, som i keltiska knutar"
+msgstr "Skapa mellanrum i självskärande korsningar, som i keltiska knutar"
 
 #: ../src/live_effects/effect.cpp:188
 msgctxt "path effect"
@@ -16478,7 +16479,7 @@ msgstr "Skapa ett (perspektiv)rutnät från en 3-nodsslinga"
 #: ../src/live_effects/effect.cpp:202
 msgctxt "path effect"
 msgid "Spiro spline"
-msgstr "Spiro spline"
+msgstr "Spiro-spline"
 
 #: ../src/live_effects/effect.cpp:205
 msgid ""
@@ -16491,26 +16492,27 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:216
 msgctxt "path effect"
 msgid "Envelope Deformation"
-msgstr "Deformation av höljet"
+msgstr "Kuvertdeformation"
 
 #: ../src/live_effects/effect.cpp:219
 msgid "Adjust the shape of an object by transforming paths on its four sides"
 msgstr ""
-"Justera formen på ett objekt genom att omvandla slingor på dess fyra sidor"
+"Justera formen på ett objekt genom att transformera slingor på dess fyra "
+"sidor"
 
 #: ../src/live_effects/effect.cpp:230
 msgctxt "path effect"
 msgid "Interpolate Sub-Paths"
-msgstr "Interpolera delvägar"
+msgstr "Interpolera underslingor"
 
 #: ../src/live_effects/effect.cpp:233
 msgid "Create a stepwise transition between the 2 subpaths of a path"
-msgstr "Skapa en stegvis övergång mellan en slingas två delslingor"
+msgstr "Skapa en stegvis övergång mellan en slingas två underslingor"
 
 #: ../src/live_effects/effect.cpp:244
 msgctxt "path effect"
 msgid "Hatches (rough)"
-msgstr "Luckor (grova)"
+msgstr "Skraffel (grova)"
 
 #: ../src/live_effects/effect.cpp:247
 msgid "Fill the object with adjustable hatching"
@@ -16519,7 +16521,7 @@ msgstr "Fyll objektet med justerbar skraffering"
 #: ../src/live_effects/effect.cpp:258
 msgctxt "path effect"
 msgid "Sketch"
-msgstr "Skiss"
+msgstr "Skissa"
 
 #: ../src/live_effects/effect.cpp:261
 msgid "Draw multiple short strokes along the path, as in a pencil sketch"
@@ -16538,12 +16540,12 @@ msgid ""
 "stroke style."
 msgstr ""
 "Lägg till linjalmarkeringar på objektet i justerbara intervall med hjälp av "
-"objektets stroke-stil."
+"objektets streckstil."
 
 #: ../src/live_effects/effect.cpp:287
 msgctxt "path effect"
 msgid "Power stroke"
-msgstr "Kraftslag"
+msgstr "Kraftstreck"
 
 #: ../src/live_effects/effect.cpp:290
 msgid ""
@@ -16558,7 +16560,7 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:301
 msgctxt "path effect"
 msgid "Clone original"
-msgstr "Klon original"
+msgstr "Klona original"
 
 #: ../src/live_effects/effect.cpp:304
 msgid ""
@@ -16586,11 +16588,11 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:330
 msgctxt "path effect"
 msgid "Lattice Deformation"
-msgstr "Deformation av gitter"
+msgstr "Gitterdeformation"
 
 #: ../src/live_effects/effect.cpp:333
 msgid "Warp an object's shape based on a 5x5 grid"
-msgstr "Förvränga ett objekts form baserat på ett 5x5 rutnät"
+msgstr "Förvräng ett objekts form baserat på ett 5x5-rutnät"
 
 #: ../src/live_effects/effect.cpp:344
 msgctxt "path effect"
@@ -16602,7 +16604,7 @@ msgid ""
 "Transform the object to fit into a shape with four corners, either by "
 "stretching it or creating the illusion of a 3D-perspective"
 msgstr ""
-"Förvandla objektet så att det passar in i en form med fyra hörn, antingen "
+"Transformera objektet så att det passar in i en form med fyra hörn, antingen "
 "genom att sträcka ut det eller genom att skapa en illusion av ett 3D-"
 "perspektiv"
 
@@ -16618,17 +16620,17 @@ msgid ""
 "Connect the nodes of the object (e.g. corresponding to data points) by "
 "different types of lines."
 msgstr ""
-"Förbind objektets noder (t.ex. motsvarande datapunkter) med olika typer av "
+"Anslut objektets noder (t.ex. motsvarande datapunkter) med olika typer av "
 "linjer."
 
 #: ../src/live_effects/effect.cpp:372
 msgctxt "path effect"
 msgid "Transform by 2 points"
-msgstr "Förvandla med 2 poäng"
+msgstr "Transformera med 2 punkter"
 
 #: ../src/live_effects/effect.cpp:375
 msgid "Scale, stretch and rotate an object by two handles"
-msgstr "Skala, sträck och rotera ett objekt med två handtag"
+msgstr "Skala, sträck ut och rotera ett objekt med två handtag"
 
 #: ../src/live_effects/effect.cpp:386
 msgctxt "path effect"
@@ -16669,7 +16671,7 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:428
 msgctxt "path effect"
 msgid "Join type"
-msgstr "Typ av anslutning"
+msgstr "Fogtyper"
 
 #
 # File: ../src/live_effects/effect.cpp, line: 431
@@ -16684,7 +16686,7 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:442
 msgctxt "path effect"
 msgid "Taper stroke"
-msgstr "Avsmalnande slaglängd"
+msgstr "Avsmalnande streck"
 
 #: ../src/live_effects/effect.cpp:445
 msgid "Let the path's ends narrow down to a tip"
@@ -16739,7 +16741,7 @@ msgid ""
 "paths with PowerStroke applied to them)"
 msgstr ""
 "Förvandla slingan till en fyllning mellan flera andra öppna slingor (t.ex. "
-"mellan slingor med PowerStroke applicerat på dem)"
+"mellan slingor med PowerStroke tillämpat på dem)"
 
 #: ../src/live_effects/effect.cpp:514
 msgctxt "path effect"
@@ -16753,19 +16755,19 @@ msgstr "Skapa en ellips från 5 noder på dess omkrets"
 #: ../src/live_effects/effect.cpp:528
 msgctxt "path effect"
 msgid "Bounding Box"
-msgstr "Emulering av Bounding Box"
+msgstr "Avgränsningsruta"
 
 #: ../src/live_effects/effect.cpp:531
 msgid ""
 "Turn the path into a bounding box that entirely encompasses another path"
 msgstr ""
-"Gör om slingan till en avgränsande box som helt och hållet omfattar en annan "
-"slinga"
+"Gör om slingan till en avgränsande ruta som helt och hållet omfattar en "
+"annan slinga"
 
 #: ../src/live_effects/effect.cpp:543
 msgctxt "path effect"
 msgid "Measure Segments"
-msgstr "Åtgärder Segment"
+msgstr "Mätsegment"
 
 #: ../src/live_effects/effect.cpp:546
 msgid ""
@@ -16785,18 +16787,18 @@ msgid ""
 "Fillet/Chamfer: Adjust the shape of a path's corners, rounding them to a "
 "specified radius, or cutting them off"
 msgstr ""
-"Avrundning/Chamfer: Justera formen på en slingans hörn, runda dem till en "
+"Avrundning/avfasning: Justera formen på en slingans hörn, runda dem till en "
 "angiven radie eller skär av dem"
 
 #: ../src/live_effects/effect.cpp:571
 msgctxt "path effect"
 msgid "Power clip"
-msgstr "Kraftklämma"
+msgstr "Kraftklippning"
 
 #: ../src/live_effects/effect.cpp:574
 msgid "Invert, hide or flatten a clip (apply like a Boolean operation)"
 msgstr ""
-"Invertera, dölja eller platta till ett klipp (tillämpas som en boolesk "
+"Invertera, dölj eller platta till ett klipp (tillämpas som en boolesk "
 "operation)"
 
 #: ../src/live_effects/effect.cpp:585
@@ -16806,7 +16808,7 @@ msgstr "Kraftmask"
 
 #: ../src/live_effects/effect.cpp:588
 msgid "Invert or hide a mask, or use its negative"
-msgstr "Invertera eller dölja en mask, eller använda dess negativa"
+msgstr "Invertera eller dölj en mask, eller använd dess negativ"
 
 #: ../src/live_effects/effect.cpp:599
 msgctxt "path effect"
@@ -16825,12 +16827,12 @@ msgstr "Förskjutning"
 
 #: ../src/live_effects/effect.cpp:616
 msgid "Offset the path, optionally keeping cusp corners cusp"
-msgstr "Förskjuta slingan, eventuellt behålla cusp-hörn cusp"
+msgstr "Förskjut slingan, eventuellt behålla spetshörn spetsiga"
 
 #: ../src/live_effects/effect.cpp:627
 msgctxt "path effect"
 msgid "Dashed Stroke"
-msgstr "Streckad stroke"
+msgstr "Streckat streck"
 
 #: ../src/live_effects/effect.cpp:630
 msgid ""
@@ -16838,7 +16840,7 @@ msgid ""
 "same number of dashes per path segment"
 msgstr ""
 "Lägg till en streckad linje vars streck slutar exakt på en nod, eventuellt "
-"med samma antal streck per vägsegment"
+"med samma antal streck per slingsegment"
 
 #: ../src/live_effects/effect.cpp:642
 msgctxt "path effect"
@@ -16856,16 +16858,16 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:656
 msgctxt "path effect"
 msgid "Slice"
-msgstr "Slicea"
+msgstr "Skiva"
 
 #: ../src/live_effects/effect.cpp:659
 msgid "Slices the item into parts. It can also be applied multiple times."
-msgstr "Delar upp objektet i delar. Den kan också användas flera gånger."
+msgstr "Skivar upp objektet i delar. Den kan också användas flera gånger."
 
 #: ../src/live_effects/effect.cpp:671
 msgctxt "path effect"
 msgid "Tiling"
-msgstr "Kakel och klinker"
+msgstr "Plattor"
 
 #: ../src/live_effects/effect.cpp:674
 msgid ""
@@ -16873,7 +16875,7 @@ msgid ""
 "rotation, distances, style and tiling symmetry."
 msgstr ""
 "Skapa flera kopior av ett objekt som följer en rutnätslayout. Anpassa "
-"storlek, rotation, avstånd, stil och symmetri."
+"storlek, rotation, avstånd, stil och plattsymmetri."
 
 #: ../src/live_effects/effect.cpp:686
 msgctxt "path effect"
@@ -16902,7 +16904,7 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:714
 msgctxt "path effect"
 msgid "Circle by 3 points"
-msgstr "Cirkel med 3 poäng"
+msgstr "Cirkel med 3 punkter"
 
 #: ../src/live_effects/effect.cpp:717
 msgid ""
@@ -16917,7 +16919,7 @@ msgstr "Extrudera"
 
 #: ../src/live_effects/effect.cpp:731
 msgid "Extrude the path, creating a face for each path segment"
-msgstr "Extrudera slingan och skapa en yta för varje bansegment"
+msgstr "Extrudera slingan och skapa en yta för varje slingsegment"
 
 #: ../src/live_effects/effect.cpp:742
 msgctxt "path effect"
@@ -16926,8 +16928,7 @@ msgstr "Linjesegment"
 
 #: ../src/live_effects/effect.cpp:745
 msgid "Draw a straight line that connects the first and last node of a path"
-msgstr ""
-"Rita en rak linje som förbinder den första och sista noden på en slinga"
+msgstr "Rita en rak linje som ansluter den första och sista noden på en slinga"
 
 #: ../src/live_effects/effect.cpp:756
 msgctxt "path effect"
@@ -16949,13 +16950,13 @@ msgid ""
 "Draw a perpendicular line in the middle of the (imaginary) line that "
 "connects the start and end nodes"
 msgstr ""
-"Rita en vinkelrät linje i mitten av den (imaginära) linje som förbinder "
+"Rita en vinkelrät linje i mitten av den (imaginära) linje som ansluter "
 "start- och slutnoderna"
 
 #: ../src/live_effects/effect.cpp:784
 msgctxt "path effect"
 msgid "Tangent to curve"
-msgstr "Tangent till kurvan"
+msgstr "Tangent till kurva"
 
 #: ../src/live_effects/effect.cpp:787
 msgid ""
@@ -16968,7 +16969,7 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:799
 msgctxt "path effect"
 msgid "Fill between strokes"
-msgstr "Fyll mellan strecken"
+msgstr "Fyll mellan streck"
 
 #: ../src/live_effects/effect.cpp:802
 msgid ""
@@ -16976,21 +16977,21 @@ msgid ""
 "paths with PowerStroke applied to them)"
 msgstr ""
 "Förvandla slingan till en fyllning mellan två andra öppna slingor (t.ex. "
-"mellan två slingor med PowerStroke applicerat på dem)"
+"mellan två slingor med PowerStroke tillämpat på dem)"
 
 #: ../src/live_effects/effect.cpp:814
 msgctxt "path effect"
 msgid "doEffect stack test"
-msgstr "doEffect stack test"
+msgstr "doEffect-stapeltest"
 
 #: ../src/live_effects/effect.cpp:817
 msgid "Test LPE"
-msgstr "Test LPE"
+msgstr "Testa LPE"
 
 #: ../src/live_effects/effect.cpp:828
 msgctxt "path effect"
 msgid "Dynamic stroke"
-msgstr "Dynamiskt slag"
+msgstr "Dynamiskt streck"
 
 #: ../src/live_effects/effect.cpp:831
 msgid ""
@@ -17003,7 +17004,7 @@ msgstr ""
 #: ../src/live_effects/effect.cpp:842
 msgctxt "path effect"
 msgid "Lattice Deformation Legacy"
-msgstr "Lattice Deformation Legacy"
+msgstr "Gitterdeformation föråldrad"
 
 #: ../src/live_effects/effect.cpp:845
 msgid "Deform an object using a 4x4 grid"
@@ -17012,11 +17013,11 @@ msgstr "Deformera ett objekt med hjälp av ett 4x4-rutnät"
 #: ../src/live_effects/effect.cpp:856
 msgctxt "path effect"
 msgid "Path length"
-msgstr "Slingans längd"
+msgstr "Slinglängd"
 
 #: ../src/live_effects/effect.cpp:859
 msgid "Display the total length of a (curved) path"
-msgstr "Visa den totala längden på en (krökt) väg"
+msgstr "Visa den totala längden på en (krökt) slinga"
 
 #: ../src/live_effects/effect.cpp:870
 msgctxt "path effect"
@@ -17055,7 +17056,7 @@ msgid ""
 "disabled on canvas"
 msgstr ""
 "Om inte ikryssad förblir effekten tilldelad till objektet men är temporärt "
-"avstängd i dokumentet"
+"inaktiverad på duken"
 
 #: ../src/live_effects/effect.cpp:1145
 msgid "Version"
@@ -17072,12 +17073,11 @@ msgstr "Ingen effekt"
 #: ../src/live_effects/effect.cpp:2002
 #, c-format
 msgid "Editing parameter <b>%s</b>."
-msgstr "Redigera parameter <b>%s</b>."
+msgstr "Redigerar parametern <b>%s</b>."
 
 #: ../src/live_effects/effect.cpp:2007
 msgid "None of the applied path effect's parameters can be edited on-canvas."
-msgstr ""
-"Ingen av de tilldelade effekternas parametrar kan redigeras i dokumentet."
+msgstr "Ingen av de tillämpade effekternas parametrar kan redigeras på duken."
 
 #: ../src/live_effects/lpe-angle_bisector.cpp:46
 #: ../src/live_effects/lpe-parallel.cpp:52
@@ -17115,11 +17115,11 @@ msgstr "Justera den \"högra\" änden av bisektorn"
 
 #: ../src/live_effects/lpe-attach-path.cpp:26
 msgid "Start path:"
-msgstr "Startväg:"
+msgstr "Startslinga:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:26
 msgid "Path to attach to the start of this path"
-msgstr "Slingan ska fästas vid början av denna slinga"
+msgstr "Slinga att anslutas vid början av denna slinga"
 
 # TODO
 #: ../src/live_effects/lpe-attach-path.cpp:27
@@ -17128,11 +17128,11 @@ msgstr "Position för startslinga:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:27
 msgid "Position to attach path start to"
-msgstr "Position för att fästa slingans start till"
+msgstr "Position för att ansluta slingans start till"
 
 #: ../src/live_effects/lpe-attach-path.cpp:28
 msgid "Start path curve start:"
-msgstr "Starta kurvan för startslingan:"
+msgstr "Startslingans kurvstart:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:28
 #: ../src/live_effects/lpe-attach-path.cpp:32
@@ -17141,7 +17141,7 @@ msgstr "Startkurva"
 
 #: ../src/live_effects/lpe-attach-path.cpp:29
 msgid "Start path curve end:"
-msgstr "Start väg kurva slut:"
+msgstr "Startslingans kurvslut:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:29
 #: ../src/live_effects/lpe-attach-path.cpp:33
@@ -17150,11 +17150,11 @@ msgstr "Slutkurva"
 
 #: ../src/live_effects/lpe-attach-path.cpp:30
 msgid "End path:"
-msgstr "Avsluta slingan:"
+msgstr "Avsluta slinga:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:30
 msgid "Path to attach to the end of this path"
-msgstr "Slingan ska fästas vid slutet av denna slinga"
+msgstr "Slingan ska anslutas vid slutet av denna slinga"
 
 # TODO
 #: ../src/live_effects/lpe-attach-path.cpp:31
@@ -17171,7 +17171,7 @@ msgstr "Start för kurva i slutet av slingan:"
 
 #: ../src/live_effects/lpe-attach-path.cpp:33
 msgid "End path curve end:"
-msgstr "Slut på vägen kurva slut:"
+msgstr "Slut för kurva i slutet av slingan:"
 
 #: ../src/live_effects/lpe-bendpath.cpp:64
 msgid "Bend path:"
@@ -17197,7 +17197,7 @@ msgstr "Br_edd i längdenheter"
 
 #: ../src/live_effects/lpe-bendpath.cpp:67
 msgid "Scale the width of the path in units of its length"
-msgstr "Skala bredden för slingan i längdenheter"
+msgstr "Skala bredden för slingan i dess längdenheter"
 
 #: ../src/live_effects/lpe-bendpath.cpp:68
 msgid "_Original path is vertical"
@@ -17210,7 +17210,7 @@ msgstr "Roterar orginalet 90 grader, innan den böjs längs böjningsslingan"
 #: ../src/live_effects/lpe-bendpath.cpp:69
 #: ../src/live_effects/lpe-patternalongpath.cpp:92
 msgid "Hide width knot"
-msgstr "Dölj bredd knut"
+msgstr "Dölj breddknut"
 
 #: ../src/live_effects/lpe-bendpath.cpp:232
 #: ../src/live_effects/lpe-patternalongpath.cpp:304
@@ -17219,11 +17219,11 @@ msgstr "Ändra bredden"
 
 #: ../src/live_effects/lpe-bool.cpp:51
 msgid "union"
-msgstr "forbund"
+msgstr "union"
 
 #: ../src/live_effects/lpe-bool.cpp:52
 msgid "intersection"
-msgstr "korsning"
+msgstr "skärning"
 
 #: ../src/live_effects/lpe-bool.cpp:53
 msgid "difference"
@@ -17239,11 +17239,11 @@ msgstr "division"
 
 #: ../src/live_effects/lpe-bool.cpp:56
 msgid "division both"
-msgstr "uppdelning både"
+msgstr "division båda"
 
 #: ../src/live_effects/lpe-bool.cpp:70
 msgid "even-odd"
-msgstr "jämn-odd"
+msgstr "jämn-udda"
 
 #: ../src/live_effects/lpe-bool.cpp:71
 msgid "non-zero"
@@ -17255,11 +17255,11 @@ msgstr "positiv"
 
 #: ../src/live_effects/lpe-bool.cpp:73
 msgid "take from object"
-msgstr "ta från objektet"
+msgstr "ta från objekt"
 
 #: ../src/live_effects/lpe-bool.cpp:80
 msgid "Operand path:"
-msgstr "Operand slinga:"
+msgstr "Operand-slinga:"
 
 #: ../src/live_effects/lpe-bool.cpp:80
 msgid "Operand for the boolean operation"
@@ -17295,7 +17295,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-bool.cpp:87
 msgid "Fill type this:"
-msgstr "Fyll i typ detta:"
+msgstr "Fyllnadstyp denna:"
 
 #: ../src/live_effects/lpe-bool.cpp:87
 msgid "Fill type (winding mode) for this path"
@@ -17303,11 +17303,11 @@ msgstr "Fyllningstyp (lindningsläge) för denna slinga"
 
 #: ../src/live_effects/lpe-bool.cpp:89
 msgid "Fill type operand:"
-msgstr "Fyll typ operand:"
+msgstr "Operand för fyllnadstyp:"
 
 #: ../src/live_effects/lpe-bool.cpp:89
 msgid "Fill type (winding mode) for operand path"
-msgstr "Fyllningstyp (lindningsläge) för operandväg"
+msgstr "Fyllningstyp (lindningsläge) för operandslinga"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:20
 #: ../src/live_effects/lpe-fill-between-many.cpp:34
@@ -17326,11 +17326,11 @@ msgstr "Visuella gränser"
 
 #: ../src/live_effects/lpe-bounding-box.cpp:21
 msgid "Uses the visual bounding box"
-msgstr "Använder den visuella begränsningsrutan"
+msgstr "Använder den visuella avgränsningsrutan"
 
 #: ../src/live_effects/lpe-bspline.cpp:34
 msgid "Steps with CTRL:"
-msgstr "Steg med CTRL:"
+msgstr "Stega med CTRL:"
 
 #: ../src/live_effects/lpe-bspline.cpp:34
 msgid "Change number of steps with CTRL pressed"
@@ -17351,7 +17351,7 @@ msgstr "Tillämpa ändringar om vikt = 0%"
 
 #: ../src/live_effects/lpe-bspline.cpp:37
 msgid "Apply changes if weight > 0%"
-msgstr "Genomför ändringar om vikt > 0%"
+msgstr "Tillämpa ändringar om vikt > 0%"
 
 #: ../src/live_effects/lpe-bspline.cpp:38
 #: ../src/live_effects/lpe-fillet-chamfer.cpp:54
@@ -17361,7 +17361,7 @@ msgstr "Ändra endast valda noder"
 
 #: ../src/live_effects/lpe-bspline.cpp:39
 msgid "Uniform BSpline"
-msgstr "Uniform BSpline"
+msgstr "Enhetlig BSpline"
 
 #: ../src/live_effects/lpe-bspline.cpp:39
 msgid "Uniform bspline"
@@ -17381,7 +17381,7 @@ msgstr "Standardvikt"
 
 #: ../src/live_effects/lpe-bspline.cpp:109
 msgid "Make cusp"
-msgstr "Gör cusp"
+msgstr "Gör spetsig"
 
 #: ../src/live_effects/lpe-bspline.cpp:142
 msgid "Change to default weight"
@@ -17389,7 +17389,7 @@ msgstr "Ändra till standardvikt"
 
 #: ../src/live_effects/lpe-bspline.cpp:149
 msgid "Change to 0 weight"
-msgstr "Ändra till 0 vikt"
+msgstr "Ändra till 0-vikt"
 
 #: ../src/live_effects/lpe-bspline.cpp:156
 #: ../src/live_effects/parameter/parameter.cpp:342
@@ -17403,11 +17403,11 @@ msgstr "Ingen form"
 
 #: ../src/live_effects/lpe-clone-original.cpp:44
 msgid "With LPE's"
-msgstr "Med LPE's"
+msgstr "Med LPEer"
 
 #: ../src/live_effects/lpe-clone-original.cpp:45
 msgid "Without LPE's"
-msgstr "Utan LPE's"
+msgstr "Utan LPEer"
 
 #: ../src/live_effects/lpe-clone-original.cpp:46
 msgid "Spiro or BSpline Only"
@@ -17472,7 +17472,7 @@ msgstr "Tillåt transformationer"
 #: ../src/live_effects/lpe-clone-original.cpp:59
 #: ../src/live_effects/lpe-slice.cpp:55
 msgid "Allow transforms"
-msgstr "Tillåt omvandlingar"
+msgstr "Tillåt transformationer"
 
 #: ../src/live_effects/lpe-clone-original.cpp:139
 #, fuzzy
@@ -17502,13 +17502,13 @@ msgstr "Kalejdoskop"
 #: ../src/live_effects/lpe-copy_rotate.cpp:51
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:68
 msgid "Fuse paths"
-msgstr "Säkringsvägar"
+msgstr "Säkringsslingor"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:59
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:65
 #: ../src/live_effects/lpe-slice.cpp:54 ../src/live_effects/lpe-tiling.cpp:92
 msgid "lpesatellites"
-msgstr "lpesatelliter"
+msgstr "lpesatellites"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:59
 #: ../src/live_effects/lpe-mirror_symmetry.cpp:65
@@ -17524,7 +17524,7 @@ msgstr "Metod:"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:60
 msgid "Rotate methods"
-msgstr "Rotera metoder"
+msgstr "Roteringsmetoder"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:61
 msgid "Origin"
@@ -17553,7 +17553,7 @@ msgstr "Startvinkel"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:63
 msgid "Angle of the first copy"
-msgstr "Vinkel på första exemplaret"
+msgstr "Vinkel på första kopian"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:64
 msgid "Rotation angle"
@@ -17573,7 +17573,7 @@ msgstr "Antal kopior av den ursprungliga slingan"
 
 #: ../src/live_effects/lpe-copy_rotate.cpp:66
 msgid "Gap"
-msgstr "Avstånd"
+msgstr "Mellanrum"
 
 #
 # File: ../src/live_effects/lpe-copy_rotate.cpp, line: 70
@@ -17646,7 +17646,7 @@ msgstr "Antalet slingor som kommer att genereras."
 
 #: ../src/live_effects/lpe-curvestitch.cpp:34
 msgid "Sta_rt edge variance:"
-msgstr "Sta_rtkant varians:"
+msgstr "Sta_rtkantens varians:"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:34
 msgid ""
@@ -17654,11 +17654,11 @@ msgid ""
 "& outside the guide path"
 msgstr ""
 "Mängden slumpmässigt jitter för att flytta stygnens startpunkter inom och "
-"utanför styrslingan"
+"utanför hjälpslingan"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:35
 msgid "Sta_rt spacing variance:"
-msgstr "Sta_rtavstånd varians:"
+msgstr "Sta_rtavståndets varians:"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:35
 msgid ""
@@ -17666,11 +17666,11 @@ msgid ""
 "& forth along the guide path"
 msgstr ""
 "Mängden slumpmässig förskjutning för att flytta stygnens startpunkter fram "
-"och tillbaka längs styrslingan"
+"och tillbaka längs hjälpslingan"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:36
 msgid "End ed_ge variance:"
-msgstr "Sluta ed_ge varians:"
+msgstr "Slutkante_ns varians:"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:36
 msgid ""
@@ -17682,7 +17682,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-curvestitch.cpp:37
 msgid "End spa_cing variance:"
-msgstr "Slut på spa_cing-variansen:"
+msgstr "Sluta_vståndets varians:"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:37
 msgid ""
@@ -17690,7 +17690,7 @@ msgid ""
 "forth along the guide path"
 msgstr ""
 "Mängden slumpmässig förskjutning för att flytta stygnens slutpunkter fram "
-"och tillbaka längs styrslingan"
+"och tillbaka längs hjälpslingan"
 
 #: ../src/live_effects/lpe-curvestitch.cpp:38
 msgid "Scale _width:"
@@ -17730,7 +17730,7 @@ msgstr "Början och slutet av varje segment har halv storlek"
 
 #: ../src/live_effects/lpe-dashed-stroke.cpp:22
 msgid "Equalize dashes"
-msgstr "Utjämna streck"
+msgstr "Likställda streck"
 
 #: ../src/live_effects/lpe-dashed-stroke.cpp:22
 msgid ""
@@ -17742,7 +17742,7 @@ msgstr ""
 
 #: ../src/live_effects/lpe-dashed-stroke.cpp:24
 msgid "Note"
-msgstr "Avisering"
+msgstr "Observera"
 
 #: ../src/live_effects/lpe-dashed-stroke.cpp:24
 #: ../src/live_effects/lpe-powerclip.cpp:38
@@ -17753,7 +17753,7 @@ msgstr "Viktiga meddelanden"
 #: ../src/live_effects/lpe-dashed-stroke.cpp:25
 msgid "Add <b>\"Fill Between Many LPE\"</b> to add fill."
 msgstr ""
-"Lägg till <b>\"Fill Between Many LPE\"</b> för att lägga till fyllning."
+"Lägg till <b>\"Fyll mellan många LPE\"</b> för att lägga till fyllning."
 
 #: ../src/live_effects/lpe-ellipse_5pts.cpp:71
 msgid "Five points required for constructing an ellipse"
@@ -17777,11 +17777,11 @@ msgstr "sicksack, omvänd första"
 
 #: ../src/live_effects/lpe-embrodery-stitch.cpp:34
 msgid "closest"
-msgstr "närmast"
+msgstr "närmaste"
 
 #: ../src/live_effects/lpe-embrodery-stitch.cpp:35
 msgid "closest, reverse first"
-msgstr "närmast, omvänd först"
+msgstr "närmaste, omvänd först"
 
 #: ../src/live_effects/lpe-embrodery-stitch.cpp:36
 msgid "traveling salesman 2-opt (fast, bad)"
@@ -19740,7 +19740,7 @@ msgstr "Slumpmässighet"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:214
 msgid "Global variation of distance between hatches, in %."
-msgstr "Global variation av avståndet mellan luckorna, i %."
+msgstr "Global variation av avståndet mellan skraffel, i %."
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:215
 msgid "Growth"
@@ -19748,7 +19748,7 @@ msgstr "Tillväxt"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:215
 msgid "Growth of distance between hatches."
-msgstr "Tillväxt av avstånd mellan luckor."
+msgstr "Tillväxt av avstånd mellan skraffel."
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:218
 msgid "Smooth: Bottom ←"
@@ -19871,11 +19871,11 @@ msgstr "Simulera ett streck med varierande bredd"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "Bend hatches"
-msgstr "Böj luckor"
+msgstr "Böj skraffel"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:230
 msgid "Add a global bending to the hatches (slower)"
-msgstr "Lägg till en global böjning av luckorna (långsammare)"
+msgstr "Lägg till en global böjning av skraffel (långsammare)"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:231
 msgid "↓ Width"
@@ -19913,11 +19913,11 @@ msgstr "Linjens bredd från \"botten\" till \"topp"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:237
 msgid "Hatches width and dir"
-msgstr "Luckornas bredd och riktning"
+msgstr "Skraffelns bredd och riktning"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:237
 msgid "Defines hatches frequency and direction"
-msgstr "Definierar luckornas frekvens och riktning"
+msgstr "Definierar skraffelns frekvens och riktning"
 
 #: ../src/live_effects/lpe-rough-hatches.cpp:239
 msgid "Global bending"
@@ -28870,10 +28870,8 @@ msgid "Dialog names will be displayed when there is enough space"
 msgstr "Dialognamn visas när det finns tillräckligt med utrymme"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2029
-#, fuzzy
-#| msgid "Only show label on active tab"
 msgid "Only show label on active"
-msgstr "Visa etiketten endast på aktiv flik"
+msgstr "Visa etikett endast på aktiv"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2030
 msgid "Only show dialog icons"
@@ -29478,7 +29476,7 @@ msgstr "Infoga JavaScript-kod för mesh-gradienter"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2373
 msgid "Insert JavaScript code for SVG2 hatches"
-msgstr "Infoga JavaScript-kod för SVG2-luckor"
+msgstr "Infoga JavaScript-kod för SVG2-skraffel"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2375
 msgid "Adds fallback options for non-SVG 2 renderers."
@@ -29491,7 +29489,7 @@ msgstr "Lägger till en JavaScript-polyfill för rendering av nät i webbläsare
 #: ../src/ui/dialog/inkscape-preferences.cpp:2377
 msgid "Adds a JavaScript polyfill for rendering hatches in web browsers."
 msgstr ""
-"Lägger till en JavaScript-polyfill för rendering av luckor i webbläsare."
+"Lägger till en JavaScript-polyfill för rendering av skraffel i webbläsare."
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2380
 msgid "SVG 2 to SVG 1.1"
@@ -30768,10 +30766,8 @@ msgid "The maximum time allowed for a rendering time slice"
 msgstr "Den maximala tid som tillåts för en renderingstidsdel"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2991
-#, fuzzy
-#| msgid "Live updates"
 msgid "Use block updates"
-msgstr "Liveuppdateringar"
+msgstr "Använd blockuppdateringar"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2991
 #, fuzzy
@@ -31292,7 +31288,7 @@ msgid ""
 msgstr ""
 "En mapp som är strukturerad som en användares Inkscape-preferenskatalog. "
 "Detta gör det möjligt att dela en uppsättning resurser, t.ex. tillägg, "
-"typsnitt, ikonuppsättningar, kortkommandon, mönster/hatcher, paletter, "
+"typsnitt, ikonuppsättningar, kortkommandon, mönster/skraffel, paletter, "
 "symboler, mallar, teman och definitionsfiler för användargränssnitt, mellan "
 "flera användare som har tillgång till den mappen (på samma dator eller i "
 "nätverket). Kräver en omstart av Inkscape för att fungera när den ändras."
@@ -32968,7 +32964,7 @@ msgstr "<b>Rotera</b> streckets mönster; med <b>Ctrl</b> för att fånga vinkel
 #. TRANSLATORS: This refers to the hatch that's inside the object
 #: ../src/ui/knot/knot-holder.cpp:420
 msgid "<b>Move</b> the hatch fill inside the object"
-msgstr "<b>Flytta</b> luckans fyllning inuti objektet"
+msgstr "<b>Flytta</b> skraffelfyllningen inuti objektet"
 
 #: ../src/ui/knot/knot-holder.cpp:423
 msgid "<b>Scale</b> the hatch fill; uniformly if with <b>Ctrl</b>"
@@ -32976,7 +32972,8 @@ msgstr "<b>Skala</b> skraffelfyllningen; enhetligt om du använder <b>Ctrl</b>"
 
 #: ../src/ui/knot/knot-holder.cpp:426
 msgid "<b>Rotate</b> the hatch fill; with <b>Ctrl</b> to snap angle"
-msgstr "<b>Rotera</b> luckans fyllning; med <b>Ctrl</b> för att fånga vinkeln"
+msgstr ""
+"<b>Rotera</b> skraffelfyllningen; med <b>Ctrl</b> för att fånga vinkeln"
 
 #. TRANSLATORS: This refers to the pattern that's inside the object
 #: ../src/ui/knot/knot-holder.cpp:439
@@ -32985,13 +32982,11 @@ msgstr "<b>Flytta</b> skraffans streck inuti objektet"
 
 #: ../src/ui/knot/knot-holder.cpp:442
 msgid "<b>Scale</b> the hatch stroke; uniformly if with <b>Ctrl</b>"
-msgstr ""
-"<b>Skala</b> skrafferingsstrecket; enhetligt om du använder <b>Ctrl</b>"
+msgstr "<b>Skala</b> skraffelstrecket; enhetligt om du använder <b>Ctrl</b>"
 
 #: ../src/ui/knot/knot-holder.cpp:445
 msgid "<b>Rotate</b> the hatch stroke; with <b>Ctrl</b> to snap angle"
-msgstr ""
-"<b>Rotera</b> skrafferingsslaget; med <b>Ctrl</b> för att fånga vinkeln"
+msgstr "<b>Rotera</b> skraffelstrecket; med <b>Ctrl</b> för att fånga vinkeln"
 
 #: ../src/ui/knot/knot-holder.cpp:459 ../src/ui/knot/knot-holder.cpp:461
 msgid "<b>Resize</b> the filter effect region"
@@ -36639,10 +36634,8 @@ msgid "fonts"
 msgstr "typsnitt"
 
 #: ../src/ui/widget/font-selector-toolbar.cpp:151
-#, fuzzy
-#| msgid "Select all text with this font-family"
 msgid "Select all text with this text family"
-msgstr "Markera all text med denna typsnittsfamilj"
+msgstr "Markera all text med denna textfamilj"
 
 #: ../src/ui/widget/font-selector-toolbar.cpp:154
 msgid "Font not found on system: "
@@ -37673,7 +37666,7 @@ msgstr "<b>Fyllning av nät</b>"
 
 #: ../src/ui/widget/paint-selector.cpp:1045
 msgid "<b>Hatch fill</b>"
-msgstr "<b>Fyllning av luckor</b>"
+msgstr "<b>Skraffelfyllning</b>"
 
 #: ../src/ui/widget/paint-selector.cpp:1153
 msgid "<b>Swatch fill</b>"
@@ -37688,10 +37681,8 @@ msgid "_Browse..."
 msgstr "_Bläddra..."
 
 #: ../src/ui/widget/preferences-widget.cpp:786
-#, fuzzy
-#| msgid "Select an editor"
 msgid "Select a bitmap editor"
-msgstr "Välj en redigerare"
+msgstr "Välj en bitmapredigerare"
 
 #: ../src/ui/widget/random.cpp:73
 msgid ""
@@ -37798,7 +37789,7 @@ msgstr "Mönster (streck)"
 #: ../src/ui/widget/selected-style.cpp:81
 #: ../src/ui/widget/selected-style.cpp:82
 msgid "Hatch"
-msgstr "Lucka"
+msgstr "Skraffel"
 
 #: ../src/ui/widget/selected-style.cpp:83
 #: ../src/ui/widget/selected-style.cpp:84
@@ -38185,40 +38176,28 @@ msgid "Square cap"
 msgstr "Fyrkantig avslutning"
 
 #: ../src/ui/widget/stroke-style.cpp:414
-#, fuzzy
-#| msgid "1.Fill, 2.Stroke, 3.Markers"
 msgid "Fill, Stroke, Markers"
-msgstr "1.Fyllning, 2.Stroke, 3.Markörer"
+msgstr "Fyllning, Streck, Markörer"
 
 #: ../src/ui/widget/stroke-style.cpp:418
-#, fuzzy
-#| msgid "1.Stroke, 2.Fill, 3.Markers"
 msgid "Stroke, Fill, Markers"
-msgstr "1.Stroke, 2.Fyll, 3.Markörer"
+msgstr "Streck, Fyllning, Markörer"
 
 #: ../src/ui/widget/stroke-style.cpp:422
-#, fuzzy
-#| msgid "1.Fill, 2.Markers, 3.Stroke"
 msgid "Fill, Markers, Stroke"
-msgstr "1.Fyllning, 2.Markörer, 3.Slag"
+msgstr "Fyllning, Markörer, Streck"
 
 #: ../src/ui/widget/stroke-style.cpp:430
-#, fuzzy
-#| msgid "1.Markers, 2.Fill, 3.Stroke"
 msgid "Markers, Fill, Stroke"
-msgstr "1.Markörer, 2.Fyllning, 3.Slag"
+msgstr "Markörer, Fyllning, Streck"
 
 #: ../src/ui/widget/stroke-style.cpp:434
-#, fuzzy
-#| msgid "1.Stroke, 2.Markers, 3.Fill"
 msgid "Stroke, Markers, Fill"
-msgstr "1.Slag, 2.Markörer, 3.Fyllning"
+msgstr "Streck, Markörer, Fyllning"
 
 #: ../src/ui/widget/stroke-style.cpp:438
-#, fuzzy
-#| msgid "1.Markers, 2.Stroke, 3.Fill"
 msgid "Markers, Stroke, Fill"
-msgstr "1.Markörer, 2.Stroke, 3.Fill"
+msgstr "Markörer, Streck, Fyllning"
 
 #: ../src/ui/widget/stroke-style.cpp:567
 msgid "Set markers"
@@ -38466,9 +38445,8 @@ msgid "Shift+Return to close"
 msgstr "Shift+Return för att stänga"
 
 #: ../share/ui/color-palette.glade:250 ../share/ui/pattern-edit.glade:96
-#, fuzzy
 msgid "Tile size:"
-msgstr "Punktstorlek"
+msgstr "Platttstorlek:"
 
 #: ../share/ui/color-palette.glade:278
 msgid "Border:"
@@ -38510,10 +38488,8 @@ msgid "Add item"
 msgstr "Lägg till objekt"
 
 #: ../share/ui/dialog-crash.glade:10
-#, fuzzy
-#| msgid "<b>Inkscape has crashed and will now close.</b>"
 msgid "Inkscape has crashed and will now close."
-msgstr "<b>Inkscape har kraschat och kommer nu att stängas.</b>"
+msgstr "Inkscape har kraschat och kommer nu att stängas."
 
 #: ../share/ui/dialog-crash.glade:11
 msgid ""
@@ -39400,15 +39376,15 @@ msgstr "Beskärningsbox"
 
 #: ../share/ui/extension-pdfinput.glade:27
 msgid "Trim Box"
-msgstr "Trimbox"
+msgstr "Trimruta"
 
 #: ../share/ui/extension-pdfinput.glade:31
 msgid "Bleed Box"
-msgstr "Bleed Box"
+msgstr "Utfallsruta"
 
 #: ../share/ui/extension-pdfinput.glade:35
 msgid "Art Box"
-msgstr "Konstbox"
+msgstr "Konstruta"
 
 #: ../share/ui/extension-pdfinput.glade:95
 msgid "Draw missing fonts"
@@ -39416,7 +39392,7 @@ msgstr "Rita typsnitt som saknas"
 
 #: ../share/ui/extension-pdfinput.glade:99
 msgid "Substitute missing fonts"
-msgstr "Ersätta saknade typsnitt"
+msgstr "Ersätt saknade typsnitt"
 
 #: ../share/ui/extension-pdfinput.glade:103
 msgid "Keep missing fonts' names"
@@ -39432,7 +39408,7 @@ msgstr "Rita all text"
 
 #: ../share/ui/extension-pdfinput.glade:115
 msgid "Delete all text"
-msgstr "Radera all text"
+msgstr "Ta bort all text"
 
 #: ../share/ui/extension-pdfinput.glade:136
 msgid "Draw to Shapes"
@@ -39444,11 +39420,11 @@ msgstr "Använd ersättande typsnitt"
 
 #: ../share/ui/extension-pdfinput.glade:144
 msgid "Keep Original Font Name"
-msgstr "Behåll det ursprungliga typsnittsnamnet"
+msgstr "Behåll ursprungligt typsnittsnamn"
 
 #: ../share/ui/extension-pdfinput.glade:148
 msgid "Delete Text"
-msgstr "Radera text"
+msgstr "Ta bort text"
 
 #: ../share/ui/extension-pdfinput.glade:173
 msgid ""
@@ -39462,7 +39438,7 @@ msgstr ""
 
 #: ../share/ui/extension-pdfinput.glade:215
 msgid "Family Name"
-msgstr "Familjens namn"
+msgstr "Familjenamn"
 
 #: ../share/ui/extension-pdfinput.glade:233
 #: ../share/extensions/interp_att_g.inx:27
@@ -39942,14 +39918,6 @@ msgid "Quick Setup"
 msgstr "Snabbkonfiguration"
 
 #: ../share/ui/inkscape-welcome.glade:671
-#, fuzzy
-#| msgid ""
-#| "<b>The Inkscape project is supported by users like you.</b> Through our "
-#| "collective time, money and skill, we have made this software for everyone "
-#| "in the world to enjoy free from restrictions and free from costs. <b>\n"
-#| "                If you would like to get involved and make the next "
-#| "version of Inkscape even better, please consider joining the Inkscape "
-#| "project today.</b>"
 msgid ""
 "<b>The Inkscape project is supported by users like you.</b> Through our "
 "collective time, money and skill, we have made this software for everyone in "
@@ -39957,11 +39925,11 @@ msgid ""
 "If you would like to get involved and make the next version of Inkscape even "
 "better, please consider joining the Inkscape project today.</b>"
 msgstr ""
-"<b>Inkscape-projektet stöds av användare som du.</b> Genom att tillsammans "
+"<b>Inkscape-projektet stöds av användare som dig.</b> Genom att tillsammans "
 "bidra med tid, pengar och kunskap har vi skapat denna programvara som alla i "
 "världen kan använda utan begränsningar och utan kostnad. <b>\n"
-"                Om du vill vara med och göra nästa version av Inkscape ännu "
-"bättre, överväg att gå med i Inkscape-projektet redan idag.</b>"
+"Om du vill vara med och göra nästa version av Inkscape ännu bättre, överväg "
+"att gå med i Inkscape-projektet redan idag.</b>"
 
 #: ../share/ui/inkscape-welcome.glade:730
 msgid ""
@@ -41898,7 +41866,7 @@ msgstr "t.ex. 1,2 mm 2 mm"
 
 #: ../share/ui/toolbar-page.ui:356
 msgid "Page Bleed"
-msgstr "Sidblödning"
+msgstr "Sidutfall"
 
 #: ../share/ui/toolbar-paintbucket.ui:76
 msgid ""
@@ -42698,12 +42666,10 @@ msgid "This is a single page document."
 msgstr "Detta är ett dokument på en enda sida."
 
 #: ../share/extensions/dxf12_outlines.py:262
-#, fuzzy
 msgid ""
 "DXF12 supports a maximum of 249 distinct colors. Please simplify color "
 "choices first."
-msgstr ""
-"DXF12 stöder maximalt 249 olika färger. Vänligen förenkla färgvalen först."
+msgstr "DXF12 stöder maximalt 249 olika färger. Förenkla färgvalen först."
 
 #: ../share/extensions/dxf_input.py:1367
 #, python-brace-format
@@ -43195,18 +43161,18 @@ msgstr ""
 "Glid {0!s}:"
 
 #: ../share/extensions/jessyink_summary.py:67
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "{prefix}Layer name: {node.label}"
-msgstr "Lagrets namn:"
+msgstr "{prefix}Lagernamn: {node.label}"
 
 #: ../share/extensions/jessyink_summary.py:82
 msgid "{0}Transition {1}: {2} ({3!s} s)"
 msgstr "{0}Övergång {1}: {2} ({3!s} s)"
 
 #: ../share/extensions/jessyink_summary.py:88
-#, fuzzy, python-brace-format
+#, python-brace-format
 msgid "{prefix}Transition {transition}: {name}"
-msgstr "Övergång i effekt"
+msgstr "{prefix}Övergång {transition}: {name}"
 
 #: ../share/extensions/jessyink_summary.py:95
 #, python-brace-format
@@ -43610,8 +43576,7 @@ msgstr "Det går inte att välja att packa om."
 
 #: ../share/extensions/scribus_export_pdf.py:93
 msgid "You need at least 7mm bleed to show cutting marks or color marks"
-msgstr ""
-"Du behöver minst 7 mm blödning för att visa skärmärken eller färgmärken"
+msgstr "Du behöver minst 7 mm utfall för att visa skärmärken eller färgmärken"
 
 #: ../share/extensions/scribus_export_pdf.py:152
 msgid "Could not detect Scribus version ()"
@@ -49719,7 +49684,7 @@ msgstr "Mätning av täckningens tjocklek:"
 
 #: ../share/extensions/perfectboundcover.inx:28
 msgid "Bleed (in):"
-msgstr "Blödning (i):"
+msgstr "Utfall (i):"
 
 #: ../share/extensions/perfectboundcover.inx:29
 msgid "Note: Bond Weight # calculations are a best-guess estimate."
@@ -50303,7 +50268,7 @@ msgstr "Märken för skörd"
 # File: ../share/extensions/printing_marks.inx, line: 10
 #: ../share/extensions/printing_marks.inx:9
 msgid "Bleed Marks"
-msgstr "Blödande märken"
+msgstr "Utfallsmärken"
 
 #: ../share/extensions/printing_marks.inx:10
 msgid "Registration Marks"
@@ -50332,7 +50297,7 @@ msgstr "Ställ in beskärningsmärken till:"
 
 #: ../share/extensions/printing_marks.inx:28
 msgid "Bleed Margin"
-msgstr "Marginal för blödning"
+msgstr "Utfallsmarginal"
 
 #: ../share/extensions/ps_input.inx:3
 msgid "PostScript Input"
@@ -51002,7 +50967,7 @@ msgstr "PDF-titel (obligatorisk för PDF/X):"
 
 #: ../share/extensions/scribus_export_pdf.inx:15
 msgid "Bleed added around the document (mm):"
-msgstr "Bleed läggs till runt dokumentet (mm):"
+msgstr "Utfall läggs till runt dokumentet (mm):"
 
 #: ../share/extensions/scribus_export_pdf.inx:15
 msgid ""
@@ -51014,7 +50979,7 @@ msgstr ""
 
 #: ../share/extensions/scribus_export_pdf.inx:16
 msgid "Show bleed marks"
-msgstr "Visa blödningsmärken"
+msgstr "Visa utfallsmärken"
 
 #: ../share/extensions/scribus_export_pdf.inx:17
 msgid "Show color reference"
@@ -51436,7 +51401,7 @@ msgstr "Ultraslank (5 mm)"
 # File: ../share/extensions/empty_dvd_cover.inx, line: 14
 #: ../share/extensions/template_dvd_cover.inx:16
 msgid "DVD cover bleed (mm):"
-msgstr "DVD-omslagets blödning (mm):"
+msgstr "DVD-omslagets utfall (mm):"
 
 #: ../share/extensions/template_dvd_cover.inx:19
 msgid "Various Sizes"
