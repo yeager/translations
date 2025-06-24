@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: inkscape\n"
 "Report-Msgid-Bugs-To: inkscape-translator@lists.inkscape.org\n"
 "POT-Creation-Date: 2025-06-11 11:51+0000\n"
-"PO-Revision-Date: 2025-06-24 12:54+0200\n"
+"PO-Revision-Date: 2025-06-24 21:30+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Svenska <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -29445,7 +29445,7 @@ msgstr "Infoga SVG 1.1 fallback i text"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2372
 msgid "Insert JavaScript code for mesh gradients"
-msgstr "Infoga JavaScript-kod för mesh-gradienter"
+msgstr "Infoga JavaScript-kod för nätgradienter"
 
 #: ../src/ui/dialog/inkscape-preferences.cpp:2373
 msgid "Insert JavaScript code for SVG2 hatches"
@@ -38994,31 +38994,34 @@ msgstr ""
 "I den här dialogrutan kan du automatiskt konvertera en rastergrafik till "
 "vektorslingor. Flera alternativ finns tillgängliga för olika "
 "användningsområden:\n"
-" * \"Brightness cutoff\" upptäcker områden som är mörkare än tröskelvärdet "
-"och skapar en slinga som omsluter dem (med potrace).\n"
-" * \"Edge detection\" upptäcker förändringar som är större än det angivna "
-"tröskelvärdet i ljusstyrkan hos färgfläckar och skapar slingor för att "
-"separera dem (med hjälp av potrace).\n"
-" * \"Color quantization\" delar upp bilden i det angivna antalet färger och "
-"separerar dem med en slinga (med potrace).\n"
-" * \"Autotrace\" använder autotrace-algoritmen med det givna alternativet.\n"
-" * \"Centerline tracing\" försöker vektorisera en linjeritning (med "
+" * \"Avstängning av ljusstyrka\" upptäcker områden som är mörkare än "
+"tröskelvärdet och skapar en slinga som omsluter dem (med potrace).\n"
+" * \"Detektering av kanter\" upptäcker förändringar som är större än det "
+"angivna tröskelvärdet i ljusstyrkan hos färgfläckar och skapar slingor för "
+"att separera dem (med hjälp av potrace).\n"
+" * \"Kvantisering av färg\" delar upp bilden i det angivna antalet färger "
+"och separerar dem med en slinga (med potrace).\n"
+" * \"Automatisk kalkering\" använder autotrace-algoritmen med det givna "
+"alternativet.\n"
+" * \"Kalkering av mittlinje” försöker vektorisera en linjeritning (med "
 "autotrace).\n"
-" * \"Multicolor\"-alternativen delar upp bilden i ett antal skanningar, "
+" * \"Multifärg\"-alternativen delar upp bilden i ett antal skanningar, "
 "beroende på ljusstyrka, färgseparation eller gråtoner (med potrace) eller "
 "med autotrace-algoritmen, och skapar flera slingor för dessa.\n"
-" * Fliken \"Pixel art\" gör det möjligt att använda en algoritm för "
-"pixeligenkänning eller en för depixelisering för att vektorisera "
+" * Fliken \"Pixelkonst\" gör det möjligt att använda en algoritm för "
+"pixeligenkänning eller en för avpixelisering för att vektorisera "
 "pixelkonstbilder.\n"
 "\n"
 " * OBSERVERA:\n"
-"  1) Spara ditt arbete innan du gör en tracing\n"
-"  2) Se upp med antalet bildpunkter: \"Trace pixel art\" skapar upp till en "
-"slinga per pixel. Det rekommenderas inte för bilder som inte är pixelkonst.\n"
-"  3) Autotrace är långsammare än potrace, det rekommenderas inte för stora "
-"bilder. Förbehandling av dina bilder för att öka kontrasten rekommenderas.\n"
-"  4) Om ditt mål är att få få noder och bra precision är manuell spårning "
-"alltid bäst."
+"  1) Spara ditt arbete innan du gör en kalkering\n"
+"  2) Se upp med antalet bildpunkter: “Kalkera pixelkonst\" skapar upp till "
+"en slinga per bildpunkt. Det rekommenderas inte för bilder som inte är "
+"pixelkonst.\n"
+"  3) Automatisk kalkering är långsammare än potrace, det rekommenderas inte "
+"för stora bilder. Förbehandling av dina bilder för att öka kontrasten "
+"rekommenderas.\n"
+"  4) Om ditt mål är att få mindre antal noder och bra precision är manuell "
+"kalkering alltid bäst."
 
 # TODO
 #: ../share/ui/dialog-trace.glade:164 ../share/ui/dialog-trace.glade:709
@@ -39027,11 +39030,11 @@ msgstr "Fläckar"
 
 #: ../share/ui/dialog-trace.glade:167 ../share/ui/dialog-trace.glade:712
 msgid "Ignore small spots (speckles) in the bitmap"
-msgstr "Ignorera små fläckar i rasterbilden"
+msgstr "Ignorera små stänk (fläckar) i rasterbilden"
 
 #: ../share/ui/dialog-trace.glade:179 ../share/ui/dialog-trace.glade:781
 msgid "Smooth corners"
-msgstr "Jämna hörn"
+msgstr "Utjämna hörn"
 
 #: ../share/ui/dialog-trace.glade:182 ../share/ui/dialog-trace.glade:784
 msgid "Smooth out sharp corners of the trace"
@@ -39054,7 +39057,7 @@ msgstr "Tröskelvärde för kant"
 
 #: ../share/ui/dialog-trace.glade:288
 msgid "Filter iterations"
-msgstr "Filtrera iterationer"
+msgstr "Filtreriterationer"
 
 #: ../share/ui/dialog-trace.glade:299
 msgid "Error threshold"
@@ -39062,11 +39065,11 @@ msgstr "Tröskelvärde för fel"
 
 #: ../share/ui/dialog-trace.glade:308
 msgid "Invert image"
-msgstr "Invertera bilden"
+msgstr "Invertera bild"
 
 #: ../share/ui/dialog-trace.glade:311
 msgid "Invert black and white regions"
-msgstr "Invertera svarta och vita områdeer"
+msgstr "Invertera svarta och vita områden"
 
 #: ../share/ui/dialog-trace.glade:326 ../share/ui/dialog-trace.glade:668
 msgid "Details:"
@@ -39111,12 +39114,12 @@ msgid ""
 "Increase this to reduce the number of nodes in the trace by more aggressive "
 "optimization"
 msgstr ""
-"Öka detta för att reducera antalet noder i kalkeringen genom mer aggressiv "
+"Öka detta för att minska antalet noder i kalkeringen genom mer aggressiv "
 "optimering"
 
 #: ../share/ui/dialog-trace.glade:534 ../share/ui/dialog-trace.glade:810
 msgid "User-assisted trace"
-msgstr "Användarassisterad spårning"
+msgstr "Användarassisterad kalkering"
 
 #: ../share/ui/dialog-trace.glade:537 ../share/ui/dialog-trace.glade:813
 msgid ""
@@ -39143,7 +39146,7 @@ msgstr "Automatisk kalkering (långsammare)"
 
 #: ../share/ui/dialog-trace.glade:600
 msgid "Scans"
-msgstr "Skannar"
+msgstr "Skanningar"
 
 #: ../share/ui/dialog-trace.glade:627
 msgid "Apply Gaussian blur to the bitmap before tracing"
@@ -39170,8 +39173,8 @@ msgid ""
 "Stack scans on top of one another (no gaps) instead of tiling (usually with "
 "gaps)"
 msgstr ""
-"Lagra scans ovanpå varandra (utan mellanrum) istället för att sprida ut "
-"(vanligtvis utan rutnät)"
+"Stapla skanningar ovanpå varandra (utan mellanrum) istället för att sprida "
+"ut som brickor (vanligtvis utan mellanrum)"
 
 #: ../share/ui/dialog-trace.glade:866
 msgid "Multicolor"
@@ -39179,7 +39182,7 @@ msgstr "Multifärg"
 
 #: ../share/ui/dialog-trace.glade:892
 msgid "Favors connections that are part of a long curve (multiplier)"
-msgstr "Gynnar förbindelser som är en del av en lång kurva (multiplikator)"
+msgstr "Gynnar anslutningar som är en del av en lång kurva (multiplikator)"
 
 #: ../share/ui/dialog-trace.glade:894
 msgid "Curves"
@@ -39187,7 +39190,7 @@ msgstr "Kurvor"
 
 #: ../share/ui/dialog-trace.glade:904
 msgid "Avoid single disconnected pixels (weight)"
-msgstr "Undvik enstaka bortkopplade bildpunkter (vikt)"
+msgstr "Undvik enstaka frånkopplade bildpunkter (vikt)"
 
 #: ../share/ui/dialog-trace.glade:906
 msgid "Islands"
@@ -39196,7 +39199,7 @@ msgstr "Öar"
 #: ../share/ui/dialog-trace.glade:916 ../share/ui/dialog-trace.glade:1119
 #: ../share/ui/dialog-trace.glade:1131
 msgid "Favors connections that are part of foreground color"
-msgstr "Förmåner för anslutningar som är en del av förgrundsfärgen"
+msgstr "Gynnar anslutningar som är en del av förgrundsfärgen"
 
 #: ../share/ui/dialog-trace.glade:919
 msgid "Sparse pixels:"
@@ -39225,7 +39228,7 @@ msgstr "B-splines"
 
 #: ../share/ui/dialog-trace.glade:1059
 msgid "Preserve staircasing artifacts"
-msgstr "Bevara artefakter från trappor"
+msgstr "Bevara staircasing-artefakter"
 
 #: ../share/ui/dialog-trace.glade:1072
 msgid "Voronoi"
@@ -39233,11 +39236,11 @@ msgstr "Voronoi"
 
 #: ../share/ui/dialog-trace.glade:1075
 msgid "Output composed of straight lines"
-msgstr "Utdata som består av raka linjer"
+msgstr "Utmatning som består av raka linjer"
 
 #: ../share/ui/dialog-trace.glade:1090
 msgid " Output:"
-msgstr " Utdata:"
+msgstr " Utmatning:"
 
 #: ../share/ui/dialog-trace.glade:1121
 msgid "Multiplier"
@@ -39253,11 +39256,11 @@ msgstr "Pixelkonst"
 
 #: ../share/ui/dialog-trace.glade:1197
 msgid "Live updates"
-msgstr "Liveuppdateringar"
+msgstr "Direktuppdateringar"
 
 #: ../share/ui/dialog-trace.glade:1205
 msgid "Update preview"
-msgstr "Uppdatera förhandsgranskning"
+msgstr "Uppdatera förhandsvisning"
 
 #: ../share/ui/dialog-trace.glade:1227
 msgid "Preview:"
@@ -39269,7 +39272,7 @@ msgstr "Instruktioner"
 
 #: ../share/ui/dialog-trace.glade:1316
 msgid "Abort trace operation"
-msgstr "Avbryt spårningsoperationen"
+msgstr "Avbryt kalkeringsoperationen"
 
 #: ../share/ui/dialog-xml.glade:9
 msgid "Automatic Layout"
@@ -39297,7 +39300,7 @@ msgstr "Duplicera nod"
 
 #: ../share/ui/dialog-xml.glade:107
 msgid "Unindent node"
-msgstr "Dra ut nod"
+msgstr "Ta bort indrag av nod"
 
 #: ../share/ui/dialog-xml.glade:125
 msgid "Indent node"
@@ -39329,7 +39332,7 @@ msgstr "Inga filter"
 
 #: ../share/ui/display-popup.glade:122
 msgid "Quick zoom:"
-msgstr "Snabb zoom:"
+msgstr "Snabbzoom:"
 
 #: ../share/ui/display-popup.glade:133
 msgid "Quick preview:"
@@ -39337,7 +39340,7 @@ msgstr "Snabb förhandsvisning:"
 
 #: ../share/ui/display-popup.glade:166
 msgid "Zoom with window size"
-msgstr "Zoom med fönsterstorlek"
+msgstr "Zooma med fönsterstorlek"
 
 #: ../share/ui/display-popup.glade:169
 msgid "Zoom drawing when window size changes"
@@ -39354,8 +39357,8 @@ msgstr "<b>Q</b>"
 #: ../share/ui/display-popup.glade:201
 msgid "Hold this key for document preview, hiding grids, guides, handles etc."
 msgstr ""
-"Håll den här knappen intryckt för att förhandsgranska dokumentet och dölja "
-"raster, stödlinjer, handtag etc."
+"Håll den här tangenten intryckt för att förhandsvisa dokumentet, dölja "
+"rutnät, stödlinjer, handtag etc."
 
 #: ../share/ui/display-popup.glade:205
 msgid "<b>F</b>"
@@ -39367,7 +39370,7 @@ msgstr "Mediaruta"
 
 #: ../share/ui/extension-pdfinput.glade:23
 msgid "Crop Box"
-msgstr "Brskärningsruta"
+msgstr "Beskärningsruta"
 
 #: ../share/ui/extension-pdfinput.glade:27
 msgid "Trim Box"
@@ -39395,7 +39398,7 @@ msgstr "Behåll namnen på de typsnitt som saknas"
 
 #: ../share/ui/extension-pdfinput.glade:107
 msgid "Delete missing font text"
-msgstr "Ta bort text som saknas i typsnittet"
+msgstr "Ta bort text för saknade typsnitt"
 
 #: ../share/ui/extension-pdfinput.glade:111
 msgid "Draw all text"
@@ -39427,9 +39430,9 @@ msgid ""
 "layers and margins are preserved, object fills and strokes are recombined "
 "and gradient meshes are converted to tiles.</i>"
 msgstr ""
-"<i>Import via internt bibliotek. Redigerbar text rekonstrueras. Sidor, lager "
-"och marginaler bevaras, objektfyllningar och streck rekombineras och "
-"gradientnät konverteras till tiles.</i>"
+"<i>Importera via internt bibliotek. Redigerbar text rekonstrueras. Sidor, "
+"lager och marginaler bevaras, objektfyllningar och streck återkombineras och "
+"gradientnät konverteras till brickor.</i>"
 
 #: ../share/ui/extension-pdfinput.glade:215
 msgid "Family Name"
@@ -39456,7 +39459,7 @@ msgstr "Lista över alla PDF-typsnitt"
 #: ../share/ui/extension-pdfinput.glade:304
 #: ../share/extensions/image_embed.inx:3
 msgid "Embed Images"
-msgstr "Infoga bilder"
+msgstr "Bädda in bilder"
 
 #: ../share/ui/extension-pdfinput.glade:337
 #, fuzzy
@@ -39481,8 +39484,8 @@ msgid ""
 "Type in the page range you want to import using the format 1-4 or 1,2,3,4 or "
 "the keyword 'all' to specifiy all pages."
 msgstr ""
-"Ange det sidintervall som du vill importera med formatet 1-4 eller 1,2,3,4 "
-"eller nyckelordet \"all\" för att ange alla sidor."
+"Ange det sidintervall som du vill importera med formatet 1-4, 1,2,3,4 eller "
+"nyckelordet \"all\" för att ange alla sidor."
 
 #: ../share/ui/extension-pdfinput.glade:442
 msgid "Clip to:"
@@ -39498,13 +39501,13 @@ msgid ""
 "glyphs where each glyph is a path. Images are stored internally. Meshes "
 "cause entire document to be rendered as a raster image.</i>"
 msgstr ""
-"<i>Import via externt bibliotek. Texten består av grupper som innehåller "
-"klonade glyfer där varje glyf är en slinga. Bilder lagras internt. Meshes "
-"gör att hela dokumentet renderas som en rasterbild.</i>"
+"<i>Importera via externt bibliotek. Texten består av grupper som innehåller "
+"klonade glyfer där varje glyf är en slinga. Bilder lagras internt. Nät gör "
+"att hela dokumentet renderas som en rasterbild.</i>"
 
 #: ../share/ui/extension-pdfinput.glade:505
 msgid "<b>Cairo import</b>"
-msgstr "<b>Kairo-import</b>"
+msgstr "<b>Cairo-import</b>"
 
 #: ../share/ui/font-list.glade:59
 msgid "Font collections:"
@@ -39635,7 +39638,7 @@ msgstr "Initierar"
 
 #: ../share/ui/gradient-edit.glade:70 ../share/ui/toolbar-gradient.ui:215
 msgid "Reverse the direction of the gradient"
-msgstr "Byt riktning på gradient"
+msgstr "Omvänd riktning på gradienten"
 
 #: ../share/ui/gradient-edit.glade:83
 msgid "Rotate gradient 90 degrees"
@@ -39649,7 +39652,7 @@ msgstr "Stopp Offset"
 
 #: ../share/ui/gradient-edit.glade:151 ../share/ui/toolbar-gradient.ui:261
 msgid "Offset of selected stop"
-msgstr "Offset för valt stopp"
+msgstr "Förskjutning för valt stopp"
 
 #: ../share/ui/gradient-edit.glade:226 ../share/ui/toolbar-gradient.ui:293
 msgid "Insert new stop"
@@ -39666,7 +39669,7 @@ msgstr "Orientering:"
 
 #: ../share/ui/gradient-edit.glade:283
 msgid "Adjust angle of the gradient"
-msgstr "Justera vinkeln på lutningen"
+msgstr "Justera vinkeln på gradienten"
 
 #: ../share/ui/gradient-edit.glade:299
 msgid "Repeat:"
@@ -39732,7 +39735,7 @@ msgstr "Rendering:"
 
 #: ../share/ui/image-properties.glade:240
 msgid "Optimize speed"
-msgstr "Optimerad hastighet"
+msgstr "Optimera hastigheten"
 
 #: ../share/ui/image-properties.glade:241
 msgid "Optimize quality"
@@ -39740,7 +39743,7 @@ msgstr "Optimera kvaliteten"
 
 #: ../share/ui/image-properties.glade:242
 msgid "Crisp edges"
-msgstr "Skarpa kanter"
+msgstr "Krispiga kanter"
 
 #: ../share/ui/image-properties.glade:243
 msgid "Pixelated"
@@ -39752,7 +39755,7 @@ msgstr "Inkscape. Rita fritt."
 
 #: ../share/ui/inkscape-about.glade:69
 msgid "Official splash artwork of this version"
-msgstr "Officiell splash-illustration av denna version"
+msgstr "Officiell startillustration för denna version"
 
 #: ../share/ui/inkscape-about.glade:71 ../share/extensions/hershey.inx:80
 #: ../share/extensions/layer2png.inx:14
@@ -39775,7 +39778,7 @@ msgstr ""
 
 #: ../share/ui/inkscape-about.glade:132
 msgid "List of authors who contributed to the code"
-msgstr "Lista över författare som bidragit till koden"
+msgstr "Lista över upphovspersoner som bidragit till koden"
 
 #: ../share/ui/inkscape-about.glade:134
 msgid "Authors"
@@ -39803,12 +39806,12 @@ msgid ""
 "<big><b>See the full details about the Inkscape licenses <a href=\"https://"
 "inkscape.org/about/license/\">here</a>!</b></big>"
 msgstr ""
-"<big><b>Se alla detaljer om Inkscape-licenserna <a href=\"https://"
+"<big><b>Se all information om Inkscape-licenserna <a href=\"https://"
 "inkscape.org/about/license/\">här</a>!</b></big>"
 
 #: ../share/ui/inkscape-about.glade:242
 msgid "License file failed to load."
-msgstr "Licensfilen kunde inte laddas."
+msgstr "Licensfilen kunde inte läsas in."
 
 #: ../share/ui/inkscape-about.glade:270
 msgid "Inkscape license"
@@ -39819,7 +39822,7 @@ msgctxt ""
 "Brief copyright notice at the footer of the About screen; the placeholder "
 "'%1' represents the year as a 4-digit number."
 msgid "© %1 Inkscape Developers"
-msgstr "© %1 Inkscape-utvecklare"
+msgstr "© %1 Inkscape-utvecklarna"
 
 #: ../share/ui/inkscape-about.glade:320
 msgid "Link to the official website"
@@ -39847,11 +39850,11 @@ msgstr "Mörk"
 
 #: ../share/ui/inkscape-welcome.glade:46
 msgid "Light Checkerboard"
-msgstr "Ljust rutmönster"
+msgstr "Ljust schackbräde"
 
 #: ../share/ui/inkscape-welcome.glade:56
 msgid "Dark Checkerboard"
-msgstr "Mörk rutmönstrad"
+msgstr "Mörkt schackbräde"
 
 #: ../share/ui/inkscape-welcome.glade:66
 msgid "Solid White"
@@ -39885,15 +39888,15 @@ msgstr "Systemstandard"
 
 #: ../share/ui/inkscape-welcome.glade:238
 msgid "Classic Inkscape"
-msgstr "Klassiskt Inkscape"
+msgstr "Klassisk Inkscape"
 
 #: ../share/ui/inkscape-welcome.glade:299
 msgid ""
 "<b>Warning:</b> Using a non-standard shortcut keyboard layout could make it "
 "harder to follow tutorials."
 msgstr ""
-"<b>Varning för att</b> Om du använder en tangentbordslayout med "
-"kortkommandon som inte är standard kan det bli svårare att följa "
+"<b>Varning:</b> Om du använder en tangentbordslayout med "
+"tangentbordsgenvägar som inte är standard kan det bli svårare att följa "
 "handledningarna."
 
 #: ../share/ui/inkscape-welcome.glade:343
@@ -39902,7 +39905,7 @@ msgstr "Utseende"
 
 #: ../share/ui/inkscape-welcome.glade:543
 msgid "Select the default color background for the canvas"
-msgstr "Välj standardfärg för bakgrundsfärgen för Canvas"
+msgstr "Välj standardfärg för dukens bakgrundsfärg"
 
 #: ../share/ui/inkscape-welcome.glade:590
 msgid "Set to dark theme"
@@ -39910,7 +39913,7 @@ msgstr "Ställ in till mörkt tema"
 
 #: ../share/ui/inkscape-welcome.glade:650
 msgid "Quick Setup"
-msgstr "Snabbkonformation"
+msgstr "Snabbkonfiguration"
 
 #: ../share/ui/inkscape-welcome.glade:671
 msgid ""
@@ -39940,7 +39943,7 @@ msgid ""
 "Fund Inkscape"
 msgstr ""
 "Lär dig hur du\n"
-"finansierar Inkscape"
+"donerar till Inkscape"
 
 #: ../share/ui/inkscape-welcome.glade:823
 msgid "Thanks!"
@@ -39997,11 +40000,11 @@ msgstr "Orientera längs slingan, backa vid starten"
 
 #: ../share/ui/marker-popup.glade:205
 msgid "Orient along the path"
-msgstr "Orientering längs slinga"
+msgstr "Orientera längs slinga"
 
 #: ../share/ui/marker-popup.glade:226
 msgid "Fixed specified angle"
-msgstr "Fast specificerad vinkel"
+msgstr "Fast angiven vinkel"
 
 #: ../share/ui/marker-popup.glade:275
 msgid "Fixed angle:"
@@ -40021,7 +40024,7 @@ msgstr "Redigera på duk"
 
 #: ../share/ui/object-attributes.glade:106
 msgid "Radii"
-msgstr "Radie"
+msgstr "Radier"
 
 #: ../share/ui/object-attributes.glade:119
 #: ../share/ui/object-attributes.glade:512 ../share/ui/toolbar-arc.ui:87
@@ -40067,7 +40070,7 @@ msgstr "Vinkeln (i grader) från horisontell till bågens slutpunkt"
 
 #: ../share/ui/object-attributes.glade:245 ../share/ui/toolbar-arc.ui:341
 msgid "Switch to slice (closed shape with two radii)"
-msgstr "Växla till slice (sluten form med två radier)"
+msgstr "Växla till skiva (sluten form med två radier)"
 
 #: ../share/ui/object-attributes.glade:266 ../share/ui/toolbar-arc.ui:367
 msgid "Switch to arc (unclosed shape)"
@@ -40075,11 +40078,11 @@ msgstr "Ändra till båge (öppen form)"
 
 #: ../share/ui/object-attributes.glade:288 ../share/ui/toolbar-arc.ui:393
 msgid "Switch to chord (closed shape)"
-msgstr "Växla till ackord (sluten form)"
+msgstr "Växla till korda (sluten form)"
 
 #: ../share/ui/object-attributes.glade:324 ../share/ui/toolbar-arc.ui:430
 msgid "Make the shape a whole ellipse, not arc or segment"
-msgstr "Gör formen till en hel ellips, inte en båge eller ett segment"
+msgstr "Gör formen till en hel ellips, inte en båge eller segment"
 
 #: ../share/ui/object-attributes.glade:351
 #: ../share/ui/object-attributes.glade:635
@@ -40114,7 +40117,7 @@ msgstr "H:"
 
 #: ../share/ui/object-attributes.glade:482
 msgid "Height of rectangle (without stroke)"
-msgstr "Rektangelns höjd (utan streck)"
+msgstr "Höjd på rektangeln (utan streck)"
 
 #: ../share/ui/object-attributes.glade:499
 msgid "Corner radius"
@@ -40136,7 +40139,7 @@ msgstr "Gör hörnen skarpa"
 
 #: ../share/ui/object-attributes.glade:607
 msgid "Make corners independent (path effect)"
-msgstr "Gör hörn oberoende (path effect)"
+msgstr "Gör hörn oberoende (slingeffekt)"
 
 #: ../share/ui/object-attributes.glade:737
 msgid "Corner:"
@@ -40163,7 +40166,7 @@ msgstr "Hur mycket rundade är hörnen (0 för vassa)"
 #: ../share/ui/object-attributes.glade:801 ../share/ui/toolbar-lpe.ui:295
 #: ../share/ui/toolbar-star.ui:233
 msgid "Scatter randomly the corners and angles"
-msgstr "Sprid slumpvis ut hörn och sidor"
+msgstr "Sprid slumpvis ut hörn och vinklar"
 
 #: ../share/ui/object-attributes.glade:822 ../share/ui/toolbar-star.ui:66
 msgid "Regular polygon (with one handle) instead of a star"
@@ -40175,15 +40178,15 @@ msgstr "Stjärna istället för en vanlig polygon (med ett handtag)"
 
 #: ../share/ui/object-attributes.glade:879
 msgid "Level shape"
-msgstr "Nivå form"
+msgstr "Nivåform"
 
 #: ../share/ui/object-attributes.glade:905
 msgid "Spoke ratio:"
-msgstr "Spetsförhållande:"
+msgstr "Ekerförhållande:"
 
 #: ../share/ui/object-attributes.glade:916 ../share/ui/toolbar-star.ui:145
 msgid "Base radius to tip radius ratio"
-msgstr "Basradie till spetsradie-förhållande"
+msgstr "Basradie till spetsradieförhållande"
 
 #: ../share/ui/object-attributes.glade:1082
 msgid "Path vertical position"
@@ -40191,7 +40194,7 @@ msgstr "Slingans vertikala position"
 
 #: ../share/ui/object-attributes.glade:1108
 msgid "Path horizontal position"
-msgstr "Slingans horisontella läge"
+msgstr "Slingans horisontella position"
 
 #: ../share/ui/object-attributes.glade:1147
 msgid "Location"
@@ -40211,11 +40214,11 @@ msgstr "Tryck på Shift+Enter för att bekräfta redigeringsändringarna"
 
 #: ../share/ui/page-properties.glade:68
 msgid "Front page"
-msgstr "Förstasida"
+msgstr "Framsida"
 
 #: ../share/ui/page-properties.glade:108
 msgid "Width of front page"
-msgstr "Bredd på förstasidan"
+msgstr "Bredd på framsidan"
 
 #: ../share/ui/page-properties.glade:123
 msgid "Height of front page"
@@ -40231,8 +40234,8 @@ msgstr "Ändra storlek till innehåll"
 msgid ""
 "Fit the page to the current selection or the drawing if there's no selection."
 msgstr ""
-"Anpassa sidan till det aktuella urvalet eller till ritningen om det inte "
-"finns något urval."
+"Anpassa sidan till det aktuella markeringen eller till ritningen om det inte "
+"finns någon markering."
 
 #: ../share/ui/page-properties.glade:265
 msgid ""
@@ -40252,15 +40255,15 @@ msgstr "Dokumentets enheter används endast för att ange dokumentstorlek"
 
 #: ../share/ui/page-properties.glade:481
 msgid "Advanced viewbox scaling options"
-msgstr "Avancerade skalningsalternativ för viewbox"
+msgstr "Avancerade skalningsalternativ för visningsruta"
 
 #: ../share/ui/page-properties.glade:482
 msgid "Viewbox"
-msgstr "Utkiksbox"
+msgstr "Visningsruta"
 
 #: ../share/ui/page-properties.glade:517
 msgid "Non-uniform scale!"
-msgstr "Icke-uniform skala!"
+msgstr "Icke-enhetlig skala!"
 
 #: ../share/ui/page-properties.glade:546
 msgid "per user unit"
@@ -40268,12 +40271,12 @@ msgstr "per användarenhet"
 
 #: ../share/ui/page-properties.glade:566
 msgid "Unsupported percentage size!"
-msgstr "Procentuell storlek som inte stöds!"
+msgstr "Procentuell storlek stöds inte!"
 
 #: ../share/ui/page-properties.glade:583
 msgid ""
 "Link the scale of the viewbox to the scale of the content in the document."
-msgstr "Koppla skalan på visningsrutan till skalan på innehållet i dokumentet."
+msgstr "Länka skalan på visningsrutan till skalan på innehållet i dokumentet."
 
 #: ../share/ui/page-properties.glade:660
 #, fuzzy
@@ -40291,15 +40294,15 @@ msgstr "Sidans bakgrundsfärg som används vid redigering och export"
 
 #: ../share/ui/page-properties.glade:717
 msgid "Page border and drop shadow color"
-msgstr "Färg på sidans kant och  släppskugga"
+msgstr "Färg på sidans kant och släppskugga"
 
 #: ../share/ui/page-properties.glade:730
 msgid "Desk background color surrounding pages"
-msgstr "Skrivbordets bakgrundsfärg omgivande sidor"
+msgstr "Skrivbordets bakgrundsfärg för omgivande sidor"
 
 #: ../share/ui/page-properties.glade:742 ../share/ui/page-properties.glade:795
 msgid "Border"
-msgstr "Ram"
+msgstr "Kant"
 
 #: ../share/ui/page-properties.glade:764
 msgid "Desk"
@@ -40307,12 +40310,11 @@ msgstr "Skrivbord"
 
 #: ../share/ui/page-properties.glade:787
 msgid "If set, use a colored checkerboard for the desk background."
-msgstr ""
-"Om det är inställt, använd ett färgat rutmönster för skrivbordsbakgrunden."
+msgstr "Om inställd, använd ett färgat schackbräde för skrivbordsbakgrunden."
 
 #: ../share/ui/page-properties.glade:798
 msgid "If set, a rectangular page border is shown."
-msgstr "Om den är inställd visas en rektangulär sidram."
+msgstr "Om inställd visas en rektangulär sidram."
 
 #: ../share/ui/page-properties.glade:809
 msgid "Always on top"
@@ -40320,7 +40322,7 @@ msgstr "Alltid överst"
 
 #: ../share/ui/page-properties.glade:812
 msgid "If set, the page border is always on top of the drawing."
-msgstr "Om den är inställd ligger sidans kantlinje alltid ovanpå ritningen."
+msgstr "Om inställd ligger sidans kant alltid överst i ritningen."
 
 #: ../share/ui/page-properties.glade:826
 msgid "Show shadow"
@@ -40328,8 +40330,7 @@ msgstr "Visa skugga"
 
 #: ../share/ui/page-properties.glade:829
 msgid "If set, the page border shows a shadow on its right and lower side."
-msgstr ""
-"Om den är inställd visar sidans kant en skugga på dess högra och nedre sida."
+msgstr "Om inställd visar sidans kant en skugga på dess högra och nedre sida."
 
 #: ../share/ui/page-properties.glade:843
 msgid "Show big page labels"
@@ -40349,8 +40350,7 @@ msgstr "Använd kantutjämning"
 
 #: ../share/ui/page-properties.glade:885
 msgid "If unset, no antialiasing will be done on the drawing."
-msgstr ""
-"Om den inte är inställd kommer ingen kantutjämning att göras på ritningen."
+msgstr "Om inte inställd kommer ingen kantutjämning att göras på ritningen."
 
 #: ../share/ui/pattern-edit.glade:125
 #, fuzzy
@@ -40394,16 +40394,16 @@ msgstr "Tillämpa färg till det aktuella mönstret"
 #: ../share/ui/align-and-distribute.ui:14
 #: ../share/ui/align-and-distribute.ui:44
 msgid "Last selected"
-msgstr "Senast markerad"
+msgstr "Senast markerade"
 
 #: ../share/ui/align-and-distribute.ui:18
 #: ../share/ui/align-and-distribute.ui:48
 msgid "First selected"
-msgstr "Först markerad"
+msgstr "Första markerade"
 
 #: ../share/ui/align-and-distribute.ui:22
 msgid "Middle of selection"
-msgstr "Mitt i urvalet"
+msgstr "Mitten av markering"
 
 #: ../share/ui/align-and-distribute.ui:26
 msgid "Min value"
@@ -40415,19 +40415,19 @@ msgstr "Största värde"
 
 #: ../share/ui/align-and-distribute.ui:52
 msgid "Biggest object"
-msgstr "Störst objekt"
+msgstr "Största objekt"
 
 #: ../share/ui/align-and-distribute.ui:56
 msgid "Smallest object"
-msgstr "Minst objekt"
+msgstr "Minsta objekt"
 
 #: ../share/ui/align-and-distribute.ui:68
 msgid "Selection Area"
-msgstr "Markering"
+msgstr "Markeringsområde"
 
 #: ../share/ui/align-and-distribute.ui:139 ../share/extensions/frame.inx:10
 msgid "Treat selection as group"
-msgstr "Behandla urvalet som en grupp"
+msgstr "Behandla markering som grupp"
 
 #: ../share/ui/align-and-distribute.ui:157
 msgid "Alignment handles with third click"
@@ -40435,7 +40435,7 @@ msgstr "Justering hanteras med tredje klick"
 
 #: ../share/ui/align-and-distribute.ui:169
 msgid "Move/align selection as group"
-msgstr "Flytta/justera urvalet som grupp"
+msgstr "Flytta/justera markering som grupp"
 
 #: ../share/ui/align-and-distribute.ui:185
 #: ../share/ui/align-and-distribute.ui:970
@@ -40444,7 +40444,7 @@ msgstr "Relativ till:"
 
 #: ../share/ui/align-and-distribute.ui:215
 msgid "Align right edges of objects to the left edge of anchor"
-msgstr "Rikta in objektens högra kanter mot ankarets vänstra kant"
+msgstr "Justera objektens högra kanter mot ankarets vänstra kant"
 
 #: ../share/ui/align-and-distribute.ui:235
 msgid "Align left edges"
@@ -40456,11 +40456,11 @@ msgstr "Centrera på vertikal axel"
 
 #: ../share/ui/align-and-distribute.ui:275
 msgid "Align right edges"
-msgstr "Rikta in högra kanter"
+msgstr "Justera högerkanterna"
 
 #: ../share/ui/align-and-distribute.ui:295
 msgid "Align left edges of objects to the right edge of anchor"
-msgstr "Rikta in objektens vänsterkanter mot ankarets högerkant"
+msgstr "Justera objektens vänsterkanter mot ankarets högerkant"
 
 #: ../share/ui/align-and-distribute.ui:315
 msgid "Align text anchors horizontally"
@@ -40468,7 +40468,7 @@ msgstr "Justera textankare horisontellt"
 
 #: ../share/ui/align-and-distribute.ui:335
 msgid "Align bottom edges of objects to the top edge of anchor"
-msgstr "Rikta in objektens nedre kanter mot ankarets övre kant"
+msgstr "Justera objektens nedre kanter mot ankarets övre kant"
 
 #: ../share/ui/align-and-distribute.ui:355
 msgid "Align top edges"
@@ -40484,11 +40484,11 @@ msgstr "Justera nederkanterna"
 
 #: ../share/ui/align-and-distribute.ui:415
 msgid "Align top edges of objects to bottom edge of anchor"
-msgstr "Rikta in objektens övre kanter mot ankarets nedre kant"
+msgstr "Justera objektens överkanter mot ankarets nederkant"
 
 #: ../share/ui/align-and-distribute.ui:435
 msgid "Align text anchors vertically"
-msgstr "Rikta in textankare vertikalt"
+msgstr "Justera textankare vertikalt"
 
 #: ../share/ui/align-and-distribute.ui:886
 #| msgid "H:"
@@ -40499,7 +40499,8 @@ msgstr "H:"
 #: ../share/ui/align-and-distribute.ui:895
 msgid "Minimum horizontal gap (in pixel units) between bounding boxes"
 msgstr ""
-"Minsta horisontella avstånd (i pixelenheter) mellan begränsningsrutorna"
+"Minsta horisontella mellanrum (i bildpunktsenheter) mellan "
+"avgränsningsrutorna"
 
 #: ../share/ui/align-and-distribute.ui:902
 msgid "V:"
@@ -40507,7 +40508,8 @@ msgstr "V:"
 
 #: ../share/ui/align-and-distribute.ui:911
 msgid "Minimum vertical gap (in pixel units) between bounding boxes"
-msgstr "Minsta vertikala avstånd (i pixelenheter) mellan begränsningsrutorna"
+msgstr ""
+"Minsta vertikala mellanrum (i bildpunktsenheter) mellan avgränsningsrutorna"
 
 #: ../share/ui/align-and-distribute.ui:921
 msgid ""
@@ -40527,7 +40529,7 @@ msgstr "Justera valda noder till en gemensam vertikal linje"
 
 #: ../share/ui/align-and-distribute.ui:1043
 msgid "Align Nodes"
-msgstr "Rikta in noder"
+msgstr "Justera noder"
 
 #: ../share/ui/align-and-distribute.ui:1116
 msgid "Distribute Nodes"
@@ -40543,15 +40545,15 @@ msgstr "_Ny"
 
 #: ../share/ui/menus.ui:14
 msgid "New from _Template..."
-msgstr "Nytt från _ mall..."
+msgstr "Ny från _ mall..."
 
 #: ../share/ui/menus.ui:19
 msgid "_Open..."
-msgstr "_Öppna..."
+msgstr "Ö_ppna..."
 
 #: ../share/ui/menus.ui:25
 msgid "Open _Recent"
-msgstr "Öppna s_enaste"
+msgstr "Öppna _tidigare"
 
 #: ../share/ui/menus.ui:29
 msgid "Re_vert"
@@ -40659,11 +40661,11 @@ msgstr "Markera a_llt"
 
 #: ../share/ui/menus.ui:277
 msgid "Select All in All La_yers"
-msgstr "Markera allt i _alla lager"
+msgstr "Markera allt i alla la_ger"
 
 #: ../share/ui/menus.ui:312
 msgid "In_vert Selection"
-msgstr "Invertera _markering"
+msgstr "Invertera mark_ering"
 
 #: ../share/ui/menus.ui:317
 msgid "D_eselect"
@@ -40675,7 +40677,7 @@ msgstr "Storleksändr_a sidan till markering"
 
 #: ../share/ui/menus.ui:330
 msgid "Create _Guides Around the Current Page"
-msgstr "Skapa _stödlinjer runt den aktuella sidan"
+msgstr "Ska_pa stödlinjer runt den aktuella sidan"
 
 #: ../share/ui/menus.ui:344
 msgid "_XML Editor..."
@@ -40692,7 +40694,7 @@ msgstr "_Zooma"
 #: ../share/ui/menus.ui:416 ../share/ui/statusbar.ui:33
 #: ../share/ui/toolbar-zoom.ui:190
 msgid "Center Page"
-msgstr "Mittensida"
+msgstr "Centrera sida"
 
 #: ../share/ui/menus.ui:423 ../share/ui/toolbar-zoom.ui:216
 msgid "Zoom Previous"
@@ -40708,7 +40710,7 @@ msgstr "Rotera moturs"
 
 #: ../share/ui/menus.ui:456
 msgid "Flip Horizontally"
-msgstr "Vänd vågrätt"
+msgstr "Vänd horisontellt"
 
 #: ../share/ui/menus.ui:460
 msgid "Flip Vertically"
@@ -40732,7 +40734,7 @@ msgstr "Inga filter"
 
 #: ../share/ui/menus.ui:500
 msgid "Cycle"
-msgstr "Växla 3D-läge"
+msgstr "Bläddra"
 
 #: ../share/ui/menus.ui:504
 msgid "Toggle"
@@ -40780,7 +40782,7 @@ msgstr "Kontrollfält för _fästning"
 
 #: ../share/ui/menus.ui:560
 msgid "T_ool Controls Bar"
-msgstr "Kontrollfält för _verktyg"
+msgstr "Kontrollfält för ver_ktyg"
 
 #: ../share/ui/menus.ui:564
 msgid "_Toolbox"
@@ -40804,7 +40806,7 @@ msgstr "S_tatusrad"
 
 #: ../share/ui/menus.ui:586
 msgid "Show/Hide D_ialogs"
-msgstr "Visa/Dölj d_ialogrutor"
+msgstr "Visa/dölj d_ialogrutor"
 
 #: ../share/ui/menus.ui:591
 msgid "_Command Palette"
@@ -40848,7 +40850,7 @@ msgstr "Visa/_dölj aktuellt lager"
 
 #: ../share/ui/menus.ui:676
 msgid "_Lock/Unlock Current Layer"
-msgstr "_Lås/Lås upp aktivt lager"
+msgstr "_Lås/lås upp aktuellt lager"
 
 #: ../share/ui/menus.ui:682
 msgid "Switch to Layer Abov_e"
@@ -40868,15 +40870,15 @@ msgstr "Flytta markering till lagret _under"
 
 #: ../share/ui/menus.ui:716
 msgid "Layer to _Top"
-msgstr "Lager till _toppen"
+msgstr "Lager till ö_verst"
 
 #: ../share/ui/menus.ui:734
 msgid "Layer to _Bottom"
-msgstr "Lager till _botten"
+msgstr "Lager till _nederst"
 
 #: ../share/ui/menus.ui:742
 msgid "D_uplicate Current Layer"
-msgstr "Duplicera _aktivt lager"
+msgstr "Duplicera aktuel_lt lager"
 
 #: ../share/ui/menus.ui:747
 msgid "_Delete Current Layer"
@@ -40904,7 +40906,7 @@ msgstr "_Plocka ut valda objekt ur gruppen"
 
 #: ../share/ui/menus.ui:812
 msgid "Cli_p"
-msgstr "B_eskär"
+msgstr "Kli_pp"
 
 #: ../share/ui/menus.ui:815
 msgid "_Set Clip"
@@ -40932,7 +40934,7 @@ msgstr "_Ställ in omvänd mask (LPE)"
 
 #: ../share/ui/menus.ui:841
 msgid "_Release Mask"
-msgstr "_Släpp mask"
+msgstr "F_rigör mask"
 
 #: ../share/ui/menus.ui:847
 msgid "Patter_n"
@@ -40968,7 +40970,7 @@ msgstr "_Sänk"
 
 #: ../share/ui/menus.ui:889
 msgid "Lower to _Bottom"
-msgstr "Lägg _underst"
+msgstr "Lägg _nederst"
 
 #: ../share/ui/menus.ui:909
 msgid "Flip _Horizontal"
@@ -40996,7 +40998,7 @@ msgstr "_Objekt till slinga"
 
 #: ../share/ui/menus.ui:955
 msgid "_Stroke to Path"
-msgstr "K_antlinje till slinga"
+msgstr "S_treck till slinga"
 
 #: ../share/ui/menus.ui:968
 msgid "_Union"
@@ -41024,7 +41026,7 @@ msgstr "Klipp s_linga"
 
 #: ../share/ui/menus.ui:1006
 msgid "_Combine"
-msgstr "Sa_mmanfoga"
+msgstr "Kombi_nera"
 
 #: ../share/ui/menus.ui:1012
 msgid "Break _Apart"
@@ -41040,7 +41042,7 @@ msgstr "_Bryt upp"
 
 #: ../share/ui/menus.ui:1030
 msgid "_Flatten"
-msgstr "_Plana ut"
+msgstr "_Platta ut"
 
 #: ../share/ui/menus.ui:1038
 msgid "I_nset"
@@ -41193,7 +41195,7 @@ msgstr "Inkscape: _Interpolering"
 
 #: ../share/ui/menus.ui:1268
 msgid "_Elements of Design"
-msgstr "_Element av design"
+msgstr "Design_element"
 
 #: ../share/ui/menus.ui:1272
 msgid "_Tips and Tricks"
@@ -41213,8 +41215,7 @@ msgid ""
 "use selector (arrow) to move or transform them."
 msgstr ""
 "<b>Välkommen till Inkscape!</b> Använd form- eller frihandsverktyg för att "
-"skapa objekt; använd markeringsverktyget (pilen) för att flytta eller "
-"omforma dem."
+"skapa objekt; använd väljaren (pilen) för att flytta eller transformera dem."
 
 #: ../share/ui/statusbar.ui:136
 msgid "Cursor coordinates"
@@ -41222,7 +41223,7 @@ msgstr "Muspekarkoordinater"
 
 #: ../share/ui/statusbar.ui:191
 msgid "Zoom (also Ctrl+scroll)"
-msgstr "Zoom (även Ctrl+scroll)"
+msgstr "Zoom (även Ctrl+rullning)"
 
 #: ../share/ui/statusbar.ui:197
 msgid "Z:"
@@ -41230,7 +41231,7 @@ msgstr "Z:"
 
 #: ../share/ui/statusbar.ui:219
 msgid "Rotation (also Ctrl+Shift+scroll)"
-msgstr "Rotation (även Ctrl+Shift+scroll)"
+msgstr "Rotation (även Ctrl+Shift+rullning)"
 
 #: ../share/ui/statusbar.ui:225
 #| msgctxt "color"
@@ -41240,11 +41241,11 @@ msgstr "R:"
 
 #: ../share/ui/toolbar-booleans.ui:34
 msgid "Add to the Shape"
-msgstr "Lägg till formen"
+msgstr "Lägg till i formen"
 
 #: ../share/ui/toolbar-booleans.ui:52
 msgid "Remove from Shape"
-msgstr "Ta bort från form"
+msgstr "Ta bort från formen"
 
 #: ../share/ui/toolbar-booleans.ui:82
 msgid "Finish:"
@@ -41263,7 +41264,7 @@ msgid ""
 "Toggle vanishing point in x-direction between 'finite' and 'infinite' (= "
 "parallel)"
 msgstr ""
-"Växla försvinnande punkt i x-riktningen mellan \"ändlig\" och \"oändlig\" (= "
+"Växla nollpunkt i x-riktningen mellan “begränsad” och \"oändlig\" (= "
 "parallell)"
 
 #: ../share/ui/toolbar-box3d.ui:77
@@ -41279,7 +41280,7 @@ msgid ""
 "Toggle vanishing point in y-direction between 'finite' and 'infinite' (= "
 "parallel)"
 msgstr ""
-"Växla försvinnande punkt i y-riktningen mellan \"ändlig\" och \"oändlig\" (= "
+"Växla nollpunkt i y-riktningen mellan “begränsad” och \"oändlig\" (= "
 "parallell)"
 
 #: ../share/ui/toolbar-box3d.ui:124
@@ -41291,8 +41292,7 @@ msgid ""
 "Toggle vanishing point in z-direction between 'finite' and 'infinite' (= "
 "parallel)"
 msgstr ""
-"Växla försvinnande punkt i z-riktning mellan \"ändlig\" och \"oändlig\" (= "
-"parallell)"
+"Växla nollpunkt i z-riktning mellan “begränsad” och \"oändlig\" (= parallell)"
 
 #: ../share/ui/toolbar-calligraphy.ui:88
 msgid "Choose a preset"
@@ -41304,7 +41304,8 @@ msgstr "Lägg till eller redigera kalligrafisk profil"
 
 #: ../share/ui/toolbar-calligraphy.ui:115
 msgid "The width of the calligraphic pen (relative to the visible canvas area)"
-msgstr "Bredden på kalligrafipennan (reletivt synliga området på ritduken)"
+msgstr ""
+"Bredden på kalligrafipennan (reletivt till det synliga området på duken)"
 
 #: ../share/ui/toolbar-calligraphy.ui:146 ../share/ui/toolbar-eraser.ui:169
 msgid "Use the pressure of the input device to alter the width of the pen"
@@ -41315,7 +41316,7 @@ msgid ""
 "Trace the lightness of the background by the width of the pen (white - "
 "minimum width, black - maximum width)"
 msgstr ""
-"Kalkera ljusstyrkan hos bakgrunden med bredden på pennan (vitt - minimal "
+"Kalkera ljusstyrkan för bakgrunden med bredden på pennan (vitt - minimal "
 "bredd, svart - maximal bredd)"
 
 #: ../share/ui/toolbar-calligraphy.ui:182
@@ -41332,8 +41333,8 @@ msgid ""
 "How much velocity thins the stroke (> 0 makes fast strokes thinner, < 0 "
 "makes them broader, 0 makes width independent of velocity)"
 msgstr ""
-"Hur mycket hastigheten förtunnar linjen (> 0 gör snabba drag tunnare, < 0 "
-"gör dem tjockare, 0 gör bredden oberoende av hastigheten)"
+"Hur mycket hastigheten förtunnar strecket (> 0 gör snabba streck tunnare, < "
+"0 gör dem tjockare, 0 gör bredden oberoende av hastigheten)"
 
 #: ../share/ui/toolbar-calligraphy.ui:202 ../share/ui/toolbar-eraser.ui:189
 msgid "Thinning:"
@@ -41353,7 +41354,7 @@ msgid ""
 "The angle of the pen's nib (in degrees; 0 = horizontal; has no effect if "
 "fixation = 0)"
 msgstr ""
-"Vinkeln på pennans udd (i grader; 0 = horisontell; har ingen effekt ifall "
+"Vinkeln på pennans udd (i grader; 0 = horisontell; har ingen effekt om "
 "fixering = 0)"
 
 #: ../share/ui/toolbar-calligraphy.ui:293
@@ -41372,14 +41373,14 @@ msgstr "0"
 
 #: ../share/ui/toolbar-calligraphy.ui:308
 msgid "Use the tilt of the input device to alter the angle of the pen's nib"
-msgstr "Använd inmatningsenhetens vinkel för att ändra vinkeln på pennans udd"
+msgstr "Använd inmatningsenhetens lutning för att ändra vinkeln på pennans udd"
 
 #: ../share/ui/toolbar-calligraphy.ui:325
 msgid ""
 "Angle behavior (0 = nib always perpendicular to stroke direction, 100 = "
 "fixed angle, -100 = fixed angle in opposite direction)"
 msgstr ""
-"Vinkelbeteende (0 = spetsen alltid vinkelrät mot slagriktningen, 100 = fast "
+"Vinkelbeteende (0 = udden alltid vinkelrät mot streckriktningen, 100 = fast "
 "vinkel, -100 = fast vinkel i motsatt riktning)"
 
 #: ../share/ui/toolbar-calligraphy.ui:331
@@ -41390,7 +41391,9 @@ msgstr "Fixering:"
 msgid ""
 "Increase to make caps at the ends of strokes protrude more (0 = no caps, 1 = "
 "round caps)"
-msgstr "Öka för att göra ändarna stå ut mera (0 = raka ändar, 1 = runda ändar)"
+msgstr ""
+"Öka för att göra att streckändarna står ut mera (0 = raka ändar, 1 = runda "
+"ändar)"
 
 #: ../share/ui/toolbar-calligraphy.ui:389 ../share/ui/toolbar-eraser.ui:245
 msgid "Caps:"
@@ -41399,7 +41402,7 @@ msgstr "Ändar:"
 #: ../share/ui/toolbar-calligraphy.ui:418 ../share/ui/toolbar-eraser.ui:272
 #: ../share/ui/toolbar-eraser.ui:303
 msgid "Increase to make strokes rugged and trembling"
-msgstr "Öka för att göra dragen hackiga och skakiga"
+msgstr "Öka för att göra strecken grova och skakiga"
 
 #: ../share/ui/toolbar-calligraphy.ui:424 ../share/ui/toolbar-eraser.ui:276
 msgid "Tremor:"
@@ -41443,7 +41446,7 @@ msgstr "Selektorer och CSS..."
 
 #: ../share/ui/toolbar-commands.ui:730
 msgid "Align and Distribute..."
-msgstr "Justera och fördela..."
+msgstr "Justera och distribuera…"
 
 #: ../share/ui/toolbar-commands.ui:796
 msgid "Preferences..."
@@ -41451,11 +41454,11 @@ msgstr "Inställningar..."
 
 #: ../share/ui/toolbar-connector.ui:65
 msgid "Make connector orthogonal or polyline"
-msgstr "Gör anslutning ortogonala eller polyline"
+msgstr "Gör anslutning ortogonala eller polylinje"
 
 #: ../share/ui/toolbar-connector.ui:89
 msgid "The amount of connectors curvature"
-msgstr "Mängd förbindelsekrökning"
+msgstr "Mängden anslutningskrökning"
 
 #: ../share/ui/toolbar-connector.ui:93
 msgid "Curvature:"
@@ -41463,7 +41466,7 @@ msgstr "Krökning:"
 
 #: ../share/ui/toolbar-connector.ui:117
 msgid "The amount of space left around objects by auto-routing connectors"
-msgstr "Avstånd runt objekt med självdirigerande förbindelser"
+msgstr "Mängden avstånd runt objekt med självdirigerande anslutningar"
 
 #: ../share/ui/toolbar-connector.ui:121
 msgid "Spacing:"
@@ -41471,7 +41474,7 @@ msgstr "Avstånd:"
 
 #: ../share/ui/toolbar-connector.ui:164
 msgid "Ideal length for connectors when layout is applied"
-msgstr "Ideal längd för förbindelser när layout är tillämpad"
+msgstr "Ideal längd för anslutningar när layout är tillämpad"
 
 #: ../share/ui/toolbar-connector.ui:168
 msgid "Length:"
@@ -41479,7 +41482,7 @@ msgstr "Längd:"
 
 #: ../share/ui/toolbar-connector.ui:194
 msgid "Make connectors with end-markers (arrows) point downwards"
-msgstr "Gör så att förbindelser med ändmarkeringar (pilar) pekar nedåt"
+msgstr "Gör så att anslutningar med ändmarkörer (pilar) pekar nedåt"
 
 #: ../share/ui/toolbar-connector.ui:212
 msgid "Do not allow overlapping shapes"
@@ -41494,8 +41497,8 @@ msgid ""
 "Pick both the color and the alpha (transparency) under cursor; otherwise, "
 "pick only the visible color premultiplied by alpha"
 msgstr ""
-"Hämta både färgen and alpha (transparens) under markören; annars hämta "
-"endast den synliga färgen vilken är bruten med alfa"
+"Välj både färgen and alfa (transparens) under markören; annars välj endast "
+"den synliga färgen vilken är bruten med alfa"
 
 #: ../share/ui/toolbar-dropper.ui:53
 msgid "Assign"
@@ -41505,8 +41508,8 @@ msgstr "Tilldela"
 msgid ""
 "If alpha was picked, assign it to selection as fill or stroke transparency"
 msgstr ""
-"Om alpha hämtades så tilldela den till markeringen som fyllning eller "
-"linjetransparens"
+"Om alfa valdes så tilldela den till markeringen som fyllning eller "
+"strecktransparens"
 
 #: ../share/ui/toolbar-eraser.ui:69
 msgid "Delete objects touched by eraser"
@@ -41522,11 +41525,11 @@ msgstr "Klipp från objekt"
 
 #: ../share/ui/toolbar-eraser.ui:138
 msgid "The width of the eraser pen (relative to the visible canvas area)"
-msgstr "Bredden på raderpennan (i förhållande till den synliga ytan)"
+msgstr "Bredden på raderpennan (i förhållande till det synliga dukområdet)"
 
 #: ../share/ui/toolbar-eraser.ui:344
 msgid "Break apart cut items"
-msgstr "Bryt isär skurna objekt"
+msgstr "Bryt isär klippta objekt"
 
 #: ../share/ui/toolbar-gradient.ui:56
 msgid "Create linear gradient"
@@ -41542,7 +41545,7 @@ msgstr "Skapa gradient i fyllningen"
 
 #: ../share/ui/toolbar-gradient.ui:122 ../share/ui/toolbar-mesh.ui:129
 msgid "Create gradient in the stroke"
-msgstr "Skapa gradient i linjen"
+msgstr "Skapa gradient i strecket"
 
 #: ../share/ui/toolbar-gradient.ui:194
 msgid "Link gradients to change all related gradients"
@@ -41550,7 +41553,7 @@ msgstr "Länka gradienter för att ändra alla relaterade gradienter"
 
 #: ../share/ui/toolbar-gradient.ui:272 ../share/ui/toolbar-select.ui:456
 msgid "Width of selection"
-msgstr "Bredd på urvalet"
+msgstr "Bredd på markering"
 
 #: ../share/ui/toolbar-lpe.ui:51
 msgid "No geometric tool is active"
@@ -41570,23 +41573,23 @@ msgstr "Vinkelrät bisektor"
 
 #: ../share/ui/toolbar-lpe.ui:163
 msgid "Angle Bisector"
-msgstr "Vinkelbisector"
+msgstr "Vinkelbisektor"
 
 #: ../share/ui/toolbar-lpe.ui:182
 msgid "Mirror symmetry"
-msgstr "Spegelsymmetri"
+msgstr "Spegla symmetri"
 
 #: ../share/ui/toolbar-lpe.ui:218
 msgid "Show bounding box (used to cut infinite lines)"
-msgstr "Visa avgränsningsruta (använd för att beskära oändliga linjer)"
+msgstr "Visa avgränsningsruta (använd för att klippa oändliga linjer)"
 
 #: ../share/ui/toolbar-lpe.ui:236
 msgid ""
 "Set limiting bounding box (used to cut infinite lines) to the bounding box "
 "of current selection"
 msgstr ""
-"Ställ in avgränsningsruta (används för att skära oändliga linjer) till "
-"avgränsningsruta för aktuellt val"
+"Ställ in begränsande avgränsningsruta (används för att klippa oändliga "
+"linjer) till avgränsningsruta för aktuell markering"
 
 #: ../share/ui/toolbar-lpe.ui:279
 msgid "Display measuring info for selected items"
@@ -41594,15 +41597,16 @@ msgstr "Visa mätinformation för markerade objekt"
 
 #: ../share/ui/toolbar-lpe.ui:314
 msgid "Open LPE dialog (to adapt parameters numerically)"
-msgstr "Öppna slingeffektruta (för att anpassa parametrarna numeriskt)"
+msgstr ""
+"Öppna direkt slingeffektdialog (för att anpassa parametrarna numeriskt)"
 
 #: ../share/ui/toolbar-marker.ui:16
 msgid "Edit marker on canvas."
-msgstr "Redigeringsmarkör på duk."
+msgstr "Redigera markör på duk."
 
 #: ../share/ui/toolbar-measure.ui:70
 msgid "The font size to be used in the measurement labels"
-msgstr "Den teckenstorlek som ska användas i mätetiketterna"
+msgstr "Typsnittsstorleken som ska användas i mätetiketterna"
 
 #: ../share/ui/toolbar-measure.ui:74
 msgid "Font Size:"
@@ -41634,7 +41638,7 @@ msgstr "Enheter:"
 
 #: ../share/ui/toolbar-measure.ui:234
 msgid "Measure only selected"
-msgstr "Endast mätning vald"
+msgstr "Mät endast markerade"
 
 #: ../share/ui/toolbar-measure.ui:255
 msgid "Measure all layers"
@@ -41646,7 +41650,7 @@ msgstr "Ignorera första och sista"
 
 #: ../share/ui/toolbar-measure.ui:333
 msgid "Show measures between items"
-msgstr "Visa mått mellan artiklar"
+msgstr "Visa mått mellan objekt"
 
 #: ../share/ui/toolbar-measure.ui:354
 msgid "Show hidden intersections"
@@ -41654,11 +41658,11 @@ msgstr "Visa dolda snitt"
 
 #: ../share/ui/toolbar-measure.ui:375
 msgid "Reverse measure"
-msgstr "Omvänd åtgärd"
+msgstr "Omvänd mätning"
 
 #: ../share/ui/toolbar-measure.ui:396
 msgid "Phantom measure"
-msgstr "Spöke mäta"
+msgstr "Fantommått"
 
 #: ../share/ui/toolbar-measure.ui:432
 msgid "Draw"
@@ -41666,7 +41670,7 @@ msgstr "Rita"
 
 #: ../share/ui/toolbar-measure.ui:454
 msgid "To guides"
-msgstr "Spara stödlinjer"
+msgstr "Till stödlinjer"
 
 #: ../share/ui/toolbar-measure.ui:475
 msgid "Convert to item"
@@ -41674,11 +41678,11 @@ msgstr "Konvertera till objekt"
 
 #: ../share/ui/toolbar-measure.ui:496
 msgid "Mark Dimension"
-msgstr "Markera dimension"
+msgstr "Markera mått"
 
 #: ../share/ui/toolbar-mesh.ui:63
 msgid "Create mesh gradient"
-msgstr "Skapa mesh-gradient"
+msgstr "Skapa nätgradient"
 
 #: ../share/ui/toolbar-mesh.ui:82
 msgid "Create conical gradient"
@@ -41686,11 +41690,11 @@ msgstr "Skapa konisk gradient"
 
 #: ../share/ui/toolbar-mesh.ui:152
 msgid "Number of rows in new mesh"
-msgstr "Antal rader i nytt rutnät"
+msgstr "Antal rader i nytt nät"
 
 #: ../share/ui/toolbar-mesh.ui:180
 msgid "Number of columns in new mesh"
-msgstr "Antal kolumner i nytt rutnät"
+msgstr "Antal kolumner i nytt nät"
 
 #: ../share/ui/toolbar-mesh.ui:184 ../share/extensions/guides_creator.inx:14
 #: ../share/extensions/guides_creator.inx:79
@@ -41703,7 +41707,7 @@ msgstr "Redigera fyllnadsnät"
 
 #: ../share/ui/toolbar-mesh.ui:236
 msgid "Edit stroke mesh"
-msgstr "Redigera stroke mesh"
+msgstr "Redigera strecknät"
 
 #: ../share/ui/toolbar-mesh.ui:311
 msgid "Toggle selected sides between Beziers and lines."
@@ -41723,7 +41727,7 @@ msgstr "Välj färger för utvalda hörnnoder från underliggande nät."
 
 #: ../share/ui/toolbar-mesh.ui:374
 msgid "Scale mesh to fit inside bounding box."
-msgstr "Skala mesh för att passa in i avgränsningsrutaen."
+msgstr "Skala nät för att passa in i avgränsningsrutaen."
 
 #: ../share/ui/toolbar-mesh.ui:403
 msgid "WARNING: Mesh SVG Syntax Subject to Change"
@@ -41751,23 +41755,23 @@ msgstr "Infoga nya noder i markerade segment"
 
 #: ../share/ui/toolbar-node.ui:99
 msgid "Delete selected nodes"
-msgstr "Radera markerade noder"
+msgstr "Ta bort markerade noder"
 
 #: ../share/ui/toolbar-node.ui:124
 msgid "Join selected nodes"
-msgstr "Anslut markerade noder"
+msgstr "Sammanfoga markerade noder"
 
 #: ../share/ui/toolbar-node.ui:141
 msgid "Break path at selected nodes"
-msgstr "Dela slinga vid markerade noder"
+msgstr "Ta isär slinga vid markerade noder"
 
 #: ../share/ui/toolbar-node.ui:167
 msgid "Join selected endnodes with a new segment"
-msgstr "Anslut markerade ändnoder med nytt segment"
+msgstr "Sammanfoga markerade ändnoder med ett nytt segment"
 
 #: ../share/ui/toolbar-node.ui:185
 msgid "Delete segment between two non-endpoint nodes"
-msgstr "Radera segment mellan två noder som inte är ändnoder"
+msgstr "Ta bort segment mellan två noder som inte är ändnoder"
 
 #: ../share/ui/toolbar-node.ui:238
 msgid "Make selected nodes corner"
@@ -41775,7 +41779,7 @@ msgstr "Gör markerade noder till hörn"
 
 #: ../share/ui/toolbar-node.ui:258
 msgid "Make selected nodes smooth"
-msgstr "Gör markerade noder mjuka"
+msgstr "Gör markerade noder släta"
 
 #: ../share/ui/toolbar-node.ui:278
 msgid "Make selected nodes symmetric"
@@ -41783,7 +41787,7 @@ msgstr "Gör markerade noder symmetriska"
 
 #: ../share/ui/toolbar-node.ui:298
 msgid "Make selected nodes auto-smooth"
-msgstr "Gör markerade noder automatiskt mjuka"
+msgstr "Gör markerade noder automatiskt släta"
 
 #: ../share/ui/toolbar-node.ui:326
 msgid "Straighten lines"
@@ -41791,7 +41795,7 @@ msgstr "Räta ut linjer"
 
 #: ../share/ui/toolbar-node.ui:343
 msgid "Add curve handles"
-msgstr "Lägg till kurvade handtag"
+msgstr "Lägg till kurvhandtag"
 
 #: ../share/ui/toolbar-node.ui:368
 msgid "Add corners live path effect"
@@ -41803,7 +41807,7 @@ msgstr "Konvertera markerat objekt till slinga"
 
 #: ../share/ui/toolbar-node.ui:412
 msgid "Convert selected object's stroke to paths"
-msgstr "Konvertera markerat objekts kantlinje till slingor"
+msgstr "Konvertera markerade objektets streck till slingor"
 
 #: ../share/ui/toolbar-node.ui:448
 #, fuzzy
@@ -41820,23 +41824,23 @@ msgstr "Y-koordinat för centrum"
 
 #: ../share/ui/toolbar-node.ui:573
 msgid "Show path outline (without path effects)"
-msgstr "Visa slingans kontur (utan slingans effekter)"
+msgstr "Visa slingans kontur (utan slingeffekter)"
 
 #: ../share/ui/toolbar-node.ui:593
 msgid "Show Bezier handles of selected nodes"
-msgstr "Visa Bezier-handtag för valda noder"
+msgstr "Visa Bezier-handtag för markerade noder"
 
 #: ../share/ui/toolbar-node.ui:613
 msgid "Show transformation handles for selected nodes"
-msgstr "Visa transformationshandtag för valda noder"
+msgstr "Visa transformationshandtag för markerade noder"
 
 #: ../share/ui/toolbar-node.ui:633
 msgid "Show mask(s) of selected object(s)"
-msgstr "Visa mask(er) för markerat(a) objekt"
+msgstr "Visa mask(er) för markerade objekt"
 
 #: ../share/ui/toolbar-node.ui:653
 msgid "Show clipping path(s) of selected object(s)"
-msgstr "Visa klippväg(ar) för markerat(a) objekt"
+msgstr "Visa klippslingor för markerade objekt"
 
 #: ../share/ui/toolbar-objectpicker.ui:15
 msgid "Select object on canvas"
@@ -41875,7 +41879,7 @@ msgstr ""
 msgid ""
 "The amount to grow (positive) or shrink (negative) the created fill path"
 msgstr ""
-"Mängd att växa (positivt) eller krympa (negativt) den skapade "
+"Mängden att öka (positivt) eller minska (negativt) den skapade "
 "fyllningsslingan"
 
 #: ../share/ui/toolbar-paintbucket.ui:111
@@ -41887,12 +41891,12 @@ msgid ""
 "Reset paint bucket parameters to defaults (use Inkscape Preferences > Tools "
 "to change defaults)"
 msgstr ""
-"Nollställ färgburksparametrarna till standardvärden (använd Inscape "
-"inställningar > Verktyg för att ändra standardvärden)"
+"Återställ färgburksparametrarna till standardvärden (använd Inkscapes "
+"Inställningar > Verktyg för att ändra standardvärden)"
 
 #: ../share/ui/toolbar-pencil.ui:74
 msgid "Mode of new lines drawn by this tool"
-msgstr "Läget på nya linjer ritade med detta verktyg"
+msgstr "Läget för nya linjer ritade med detta verktyg"
 
 #: ../share/ui/toolbar-pencil.ui:93
 msgid "Create regular Bezier path"
@@ -41912,15 +41916,15 @@ msgstr "Skapa en sekvens med raka linjesegment"
 
 #: ../share/ui/toolbar-pencil.ui:166
 msgid "Create a sequence of paraxial line segments"
-msgstr "Skapa en sekvens med vinkelräta linjesegment"
+msgstr "Skapa en sekvens med paraxiella linjesegment"
 
 #: ../share/ui/toolbar-pencil.ui:202
 msgid "Flatten Spiro or BSpline LPE"
-msgstr "Platta till Spiro eller BSpline LPE"
+msgstr "Platta ut Spiro eller BSpline LPE"
 
 #: ../share/ui/toolbar-pencil.ui:231
 msgid "Use pressure input"
-msgstr "°"
+msgstr "Använd tryckinmatning"
 
 #: ../share/ui/toolbar-pencil.ui:244
 msgid "Min percent of pressure"
@@ -41932,7 +41936,7 @@ msgstr "Min:"
 
 #: ../share/ui/toolbar-pencil.ui:272
 msgid "Max percent of pressure"
-msgstr "°"
+msgstr "Max procent av trycket"
 
 #: ../share/ui/toolbar-pencil.ui:276
 msgid "Max:"
@@ -41952,7 +41956,7 @@ msgstr "LPE-baserad interaktiv förenkling"
 
 #: ../share/ui/toolbar-pencil.ui:365
 msgid "LPE simplify flatten"
-msgstr "LPE förenklar brickan"
+msgstr "LPE förenklad utplattning"
 
 #: ../share/ui/toolbar-pencil.ui:406
 msgid "Scale of the width of the power stroke shape."
@@ -41988,35 +41992,35 @@ msgstr "Växla markeringsruta för att välja alla berörda objekt"
 
 #: ../share/ui/toolbar-select.ui:207
 msgid "Rotate selection 90\\xc2\\xb0 counter-clockwise"
-msgstr "Rotera urval 90\\xc2\\xb0 moturs"
+msgstr "Rotera markering 90\\xc2\\xb0 moturs"
 
 #: ../share/ui/toolbar-select.ui:227
 msgid "Rotate selection 90\\xc2\\xb0 clockwise"
-msgstr "Rotera urval 90\\xc2\\xb0 medurs"
+msgstr "Rotera markering 90\\xc2\\xb0 medurs"
 
 #: ../share/ui/toolbar-select.ui:405
 msgid "Horizontal coordinate of selection"
-msgstr "Horisontell koordinat för urvalet"
+msgstr "Horisontell koordinat för markering"
 
 #: ../share/ui/toolbar-select.ui:430
 msgid "Vertical coordinate of selection"
-msgstr "Vertikal koordinat för urvalet"
+msgstr "Vertikal koordinat för markering"
 
 #: ../share/ui/toolbar-select.ui:473
 msgid "When locked, change width and height by the same proportion"
-msgstr "När den är låst ändras bredd och höjd med samma proportion"
+msgstr "När låst ändras bredd och höjd med samma förhållande"
 
 #: ../share/ui/toolbar-select.ui:496
 msgid "Height of selection"
-msgstr "Höjd på urvalet"
+msgstr "Höjd på markering"
 
 #: ../share/ui/toolbar-snap.ui:16 ../share/ui/toolbar-snap.ui:808
 msgid "Enable snapping"
-msgstr "Aktivera fästpunkter"
+msgstr "Aktivera fästning"
 
 #: ../share/ui/toolbar-snap.ui:31 ../share/ui/toolbar-snap.ui:845
 msgid "Bounding boxes"
-msgstr "Avgränsande rutor"
+msgstr "Avgränsningsrutor"
 
 #: ../share/ui/toolbar-snap.ui:46 ../share/extensions/polyhedron_3d.inx:78
 msgid "Edges"
@@ -42040,11 +42044,11 @@ msgstr "Slingsnitt"
 
 #: ../share/ui/toolbar-snap.ui:145
 msgid "Cusp nodes"
-msgstr "Cusp-noder"
+msgstr "Spetsnoder"
 
 #: ../share/ui/toolbar-snap.ui:159
 msgid "Smooth nodes"
-msgstr "Mjuka noder"
+msgstr "Släta noder"
 
 #: ../share/ui/toolbar-snap.ui:173
 msgid "Line midpoints"
@@ -42072,7 +42076,7 @@ msgstr "Stödlinjer"
 
 #: ../share/ui/toolbar-snap.ui:275
 msgid "Page borders"
-msgstr "Sidans kanter"
+msgstr "Sidkanter"
 
 #: ../share/ui/toolbar-snap.ui:291 ../share/ui/toolbar-snap.ui:907
 msgid "Alignment"
@@ -42084,7 +42088,7 @@ msgstr "Noder på samma slinga"
 
 #: ../share/ui/toolbar-snap.ui:320
 msgid "Reset to simple snapping mode"
-msgstr "Återställ till enkelt snapping-läge"
+msgstr "Återställ till enkelt fästningsläge"
 
 #: ../share/ui/toolbar-snap.ui:515
 msgid "Masks"
@@ -42124,7 +42128,7 @@ msgstr "Antal rotationer"
 
 #: ../share/ui/toolbar-spiral.ui:42
 msgid "Turns:"
-msgstr "Vändningar:"
+msgstr "Varv:"
 
 #: ../share/ui/toolbar-spiral.ui:67
 msgid "How much denser/sparser are outer revolutions; 1 = uniform"
@@ -42132,7 +42136,7 @@ msgstr "Hur mycket glesare/tätare är de yttre rotationerna; 1 = enhetliga"
 
 #: ../share/ui/toolbar-spiral.ui:71
 msgid "Divergence"
-msgstr "Avvikelse"
+msgstr "Divergens"
 
 #: ../share/ui/toolbar-spiral.ui:96
 msgid "Radius of the innermost revolution (relative to the spiral size)"
@@ -42147,46 +42151,45 @@ msgid ""
 "Reset shape parameters to defaults (use Inkscape Preferences > Tools to "
 "change defaults)"
 msgstr ""
-"Återställ parametrar till standardvärden (använd Inkscapeinställningar > "
+"Återställ parametrar till standardvärden (använd Inkscapes Inställningar > "
 "Verktyg för att ändra standardvärden)"
 
 #: ../share/ui/toolbar-spray.ui:139
 msgid "Spray copies of the initial selection"
-msgstr "Spraykopior av det ursprungliga urvalet"
+msgstr "Spraya kopior av initial markering"
 
 #: ../share/ui/toolbar-spray.ui:155
 msgid "Spray clones of the initial selection"
-msgstr "Sprutkloner av det ursprungliga urvalet"
+msgstr "Spraya kloner av initial markering"
 
 #: ../share/ui/toolbar-spray.ui:171
 msgid "Spray objects in a single path"
-msgstr "Måla ojbekt i endast en slinga"
+msgstr "Spraya objekt i en enstaka slinga"
 
 #: ../share/ui/toolbar-spray.ui:187
 msgid "Delete sprayed items from selection"
-msgstr "Ta bort sprayade objekt från urvalet"
+msgstr "Ta bort sprayade objekt från markering"
 
 #: ../share/ui/toolbar-spray.ui:212
 msgid "The width of the spray area (relative to the visible canvas area)"
-msgstr ""
-"Bredden på sprayområdet (i förhållande till det synliga området på duken)"
+msgstr "Bredden på sprayområdet (i förhållande till det synliga dukområdet)"
 
 #: ../share/ui/toolbar-spray.ui:237 ../share/ui/toolbar-spray.ui:275
 msgid "Use the pressure of the input device to alter the width of spray area"
 msgstr ""
-"Använd trycket från inmatningsenheten för att ändra bredden på sprutområdet"
+"Använd trycket från inmatningsenheten för att ändra bredden på sprayområdet"
 
 #: ../share/ui/toolbar-spray.ui:250
 msgid "Adjusts the number of items sprayed per click"
-msgstr "Justera antalet objekt som målas per klick"
+msgstr "Justerar antalet objekt som sprayas per klick"
 
 #: ../share/ui/toolbar-spray.ui:293
 msgid ""
 "Variation of the rotation of the sprayed objects; 0% for the same rotation "
 "than the original object"
 msgstr ""
-"Variationen för rotationen hos de målade objekten; 0% för att ha samma "
-"rotation som orginalobjektet"
+"Variationen för rotationen hos de sprayade objekten; 0% för att ha samma "
+"rotation som originalobjektet"
 
 #: ../share/ui/toolbar-spray.ui:297
 msgid "Rotation:"
@@ -42197,16 +42200,17 @@ msgid ""
 "Variation in the scale of the sprayed objects; 0% for the same scale than "
 "the original object"
 msgstr ""
-"Variation i skala hos de målade objekten; 0% för att få samma skala som "
-"orginalobjektet"
+"Variation i skalan hos de sprayade objekten; 0% för samma skala som "
+"originalobjektet"
 
 #: ../share/ui/toolbar-spray.ui:339
 msgid "Use the pressure of the input device to alter the scale of new items"
-msgstr "Använd trycket på inmatningsenheten för att påverka bredden på pennan"
+msgstr ""
+"Använd trycket från inmatningsenheten för att ändra skalan för nya objekt"
 
 #: ../share/ui/toolbar-spray.ui:382
 msgid "Increase to scatter sprayed objects"
-msgstr "Öka för att sprida ut målade objekt"
+msgstr "Öka för att sprida ut sprayade objekt"
 
 #: ../share/ui/toolbar-spray.ui:386
 msgid "Scatter:"
@@ -42214,7 +42218,7 @@ msgstr "Sprid ut:"
 
 #: ../share/ui/toolbar-spray.ui:407
 msgid "0 to spray a spot; increase to enlarge the ring radius"
-msgstr "0 för att spruta en punkt; öka för att förstora ringens radie"
+msgstr "0 för att spraya en punkt; öka för att förstora ringens radie"
 
 #: ../share/ui/toolbar-spray.ui:411
 msgid "Focus:"
@@ -42222,11 +42226,11 @@ msgstr "Fokus:"
 
 #: ../share/ui/toolbar-spray.ui:464
 msgid "Apply over no transparent areas"
-msgstr "Applicera över icke transparenta områden"
+msgstr "Tillämpa över icke-transparenta områden"
 
 #: ../share/ui/toolbar-spray.ui:482
 msgid "Apply over transparent areas"
-msgstr "Applicera över transparenta områden"
+msgstr "Tillämpa över transparenta områden"
 
 #: ../share/ui/toolbar-spray.ui:500
 msgid "No overlap between colors"
@@ -42246,24 +42250,24 @@ msgid ""
 "advanced effects. In clone mode original fill or stroke colors must be unset."
 msgstr ""
 "Välj färg från ritningen. Du kan använda dialogen clonetiler trace för "
-"avancerade effekter. I klonläge måste originalfärgerna för fyllning eller "
-"streck inte vara inställda."
+"avancerade effekter. I klonläge får originalfyllningen eller streckfärger "
+"inte vara inställda."
 
 #: ../share/ui/toolbar-spray.ui:609
 msgid "Apply picked color to fill"
-msgstr "Applicera senast markerad färg på fyllning"
+msgstr "Tillämpa vald färg till fyllning"
 
 #: ../share/ui/toolbar-spray.ui:627
 msgid "Apply picked color to stroke"
-msgstr "Applicera senast markerad färg på linje"
+msgstr "Tillämpa vald färg till linje"
 
 #: ../share/ui/toolbar-spray.ui:645
 msgid "Inverted pick value, retaining color in advanced trace mode"
-msgstr "Inverterat pickvärde, bibehåller färg i avancerat spårningsläge"
+msgstr "Inverterat valt värde, bibehåller färg i avancerat kalkeringsläge"
 
 #: ../share/ui/toolbar-spray.ui:663
 msgid "Pick from center instead of average area."
-msgstr "Välj från centrum istället för genomsnittligt område."
+msgstr "Välj från mittpunkt istället för genomsnittligt område."
 
 #: ../share/ui/toolbar-star.ui:28
 msgid "radiobutton"
@@ -42294,12 +42298,12 @@ msgid ""
 "Reset the font list (Deselects all the font collections and clears search "
 "results)"
 msgstr ""
-"Återställ typsnittslistan (Avmarkerar alla typsnittssamlingar och rensar "
+"Återställ typsnittslistan (Avmarkerar alla typsnittssamlingar och tömmer "
 "sökresultaten)"
 
 #: ../share/ui/toolbar-text.ui:275
 msgid "Spacing between baselines"
-msgstr "Avstånd mellan rader"
+msgstr "Avstånd mellan baslinjer"
 
 #: ../share/ui/toolbar-text.ui:359
 msgid "Align left"
@@ -42307,7 +42311,7 @@ msgstr "Vänsterjustera"
 
 #: ../share/ui/toolbar-text.ui:375
 msgid "Align center"
-msgstr "Centrera"
+msgstr "Centerjustera"
 
 #: ../share/ui/toolbar-text.ui:394
 msgid "Align right"
@@ -42327,7 +42331,7 @@ msgstr "Växla nedsänkt"
 
 #: ../share/ui/toolbar-text.ui:519
 msgid "Block progression"
-msgstr "Blockera progression"
+msgstr "Blockvis progression"
 
 #: ../share/ui/toolbar-text.ui:525
 msgid "Horizontal text"
@@ -42335,11 +42339,11 @@ msgstr "Horisontell text"
 
 #: ../share/ui/toolbar-text.ui:541
 msgid "Vertical text — lines: right to left"
-msgstr "Vertikal text - rader: från höger till vänster"
+msgstr "Vertikal text — rader: från höger till vänster"
 
 #: ../share/ui/toolbar-text.ui:560
 msgid "Vertical text — lines: left to right"
-msgstr "Vertikal text - rader: från vänster till höger"
+msgstr "Vertikal text — rader: från vänster till höger"
 
 #: ../share/ui/toolbar-text.ui:622
 msgid "Text (glyph) orientation in vertical text."
@@ -42359,7 +42363,7 @@ msgstr "Glyforientering i sidled"
 
 #: ../share/ui/toolbar-text.ui:725
 msgid "Text direction for normally horizontal text."
-msgstr "Textriktning för normalt horisontell text."
+msgstr "Textriktning för normal horisontell text."
 
 #: ../share/ui/toolbar-text.ui:731
 msgid "Left to right text"
@@ -42383,7 +42387,7 @@ msgstr "Horisontell kerning (px)"
 
 #: ../share/ui/toolbar-text.ui:905
 msgid "Vertical kerning (px)"
-msgstr "Vertikal kerning"
+msgstr "Vertikal kerning (px)"
 
 #: ../share/ui/toolbar-text.ui:937
 msgid "Character rotation (degrees)"
@@ -42395,7 +42399,7 @@ msgstr "VÄLJNING"
 
 #: ../share/ui/toolbar-tool-prefs.ui:124
 msgid "SHAPES"
-msgstr "Krumelurer - rita snirkliga former"
+msgstr "FORMER"
 
 #: ../share/ui/toolbar-tool-prefs.ui:286
 msgid "CREATING NEW"
@@ -42407,7 +42411,7 @@ msgstr "FÄRGER OCH STILAR"
 
 #: ../share/ui/toolbar-tool-prefs.ui:558
 msgid "OTHER"
-msgstr "Annan"
+msgstr "ANNAN"
 
 #: ../share/ui/toolbar-tool-prefs.ui:720
 msgid "CANVAS TOOLS"
@@ -42415,7 +42419,7 @@ msgstr "CANVAS VERKTYG"
 
 #: ../share/ui/toolbar-tweak.ui:101
 msgid "Move objects in any direction"
-msgstr "Flytta objekt i vilken riktning som helst"
+msgstr "Flytta objekt i valfri riktning"
 
 #: ../share/ui/toolbar-tweak.ui:121
 msgid "Move objects towards cursor; with Shift from cursor"
@@ -42444,7 +42448,7 @@ msgstr "Flytta delar av slinga i valfri riktning"
 #: ../share/ui/toolbar-tweak.ui:235
 msgid "Shrink (inset) parts of paths; with Shift grow (outset)"
 msgstr ""
-"Förminska (dra in) delar av slingor; med Skift för att förstora (dra ut)"
+"Förminska (fäll in) delar av slingor; med Skift för att förstora (fäll ut)"
 
 #: ../share/ui/toolbar-tweak.ui:254
 msgid "Attract parts of paths towards cursor; with Shift from cursor"
@@ -42469,12 +42473,11 @@ msgstr "Ge valda objekt mer oskärpa; med Skift, mindre oskärpa"
 
 #: ../share/ui/toolbar-tweak.ui:364
 msgid "The width of the tweak area (relative to the visible canvas area)"
-msgstr ""
-"Bredden på modifieringsområdet (relativt det synliga området av ritduken)"
+msgstr "Bredden på finjusteringsområdet (relativt det synliga dukområdet)"
 
 #: ../share/ui/toolbar-tweak.ui:393
 msgid "The force of the tweak action"
-msgstr "Styrkan på modifieringåtgärden"
+msgstr "Styrkan på finjusteringsåtgärden"
 
 #: ../share/ui/toolbar-tweak.ui:397
 msgid "Force:"
@@ -42483,16 +42486,16 @@ msgstr "Styrka:"
 #: ../share/ui/toolbar-tweak.ui:424
 msgid "Use the pressure of the input device to alter the force of tweak action"
 msgstr ""
-"Använd trycket på inmatningsenheten för att påverka styrkan på "
-"modifieringsåtgärden"
+"Använd trycket från inmatningsenheten för att påverka styrkan på "
+"finjusteringsåtgärden"
 
 #: ../share/ui/toolbar-tweak.ui:440
 msgid ""
 "Low fidelity simplifies paths; high fidelity preserves path features but may "
 "generate a lot of new nodes"
 msgstr ""
-"Låg naturtrogenhet förenklar slingor och hög naturtrogenhet bevarar "
-"slingegenskaper men skapar betydligt fler nya noder"
+"Låg noggrannhet förenklar slingor; hög noggrannhet bevarar slingegenskaper "
+"men genererar betydligt fler nya noder"
 
 #: ../share/ui/toolbar-tweak.ui:444
 msgid "Fidelity:"
@@ -42540,15 +42543,15 @@ msgstr "I färgläge, agera på objektets opacitet"
 
 #: ../share/ui/toolbar-zoom.ui:56
 msgid "Zoom 1-1"
-msgstr "Zoom 1-1"
+msgstr "Zooma 1-1"
 
 #: ../share/ui/toolbar-zoom.ui:74
 msgid "Zoom 1-2"
-msgstr "Zoom 1-2"
+msgstr "Zooma 1-2"
 
 #: ../share/ui/toolbar-zoom.ui:92
 msgid "Zoom 2-1"
-msgstr "Zoom 2-1"
+msgstr "Zooma 2-1"
 
 #: ../share/extensions/barcode/Base.py:49
 msgid "Error encoding '{}' as {} barcode: {}\n"
@@ -42556,15 +42559,15 @@ msgstr "Fel vid kodning av '{}' som {}-streckkod: {}\n"
 
 #: ../share/extensions/barcode/Base.py:77
 msgid "No string specified for barcode."
-msgstr "Ingen sträng angiven för streckkoden."
+msgstr "Ingen sträng angiven för streckkod."
 
 #: ../share/extensions/barcode/BaseEan.py:142
 msgid "Not a Number, must be digits 0-9 only"
-msgstr "Inte ett nummer, endast siffrorna 0-9 får förekomma"
+msgstr "Inte ett tal, endast siffrorna 0-9 får förekomma"
 
 #: ../share/extensions/barcode/BaseEan.py:162
 msgid "Wrong size {:d}, must be {} digits"
-msgstr "Fel storlek {:d}, måste vara {} siffror"
+msgstr "Felaktig storlek {:d}, måste vara {} siffror"
 
 #: ../share/extensions/barcode/BaseEan.py:171
 msgid "Checksum failed, omit for new sum"
@@ -42581,11 +42584,11 @@ msgstr "Ogiltigt UPC-nummer"
 
 #: ../share/extensions/barcode/__init__.py:53
 msgid "No barcode encoder: {}"
-msgstr "Ingen streckkodskodskodare: {}"
+msgstr "Ingen streckkodskodare: {}"
 
 #: ../share/extensions/barcode/__init__.py:63
 msgid "No barcode format given."
-msgstr "Inget streckkodsformat anges."
+msgstr "Inget streckkodsformat angavs."
 
 #: ../share/extensions/barcode/__init__.py:72
 msgid "Invalid type of barcode: {}.{}"
@@ -42619,7 +42622,7 @@ msgstr "Totalt antal objekt som inte konverterats: {}\n"
 
 #: ../share/extensions/dhw_input.py:63
 msgid "Could not load file, not a ACECAD DHW file!"
-msgstr "Kunde inte ladda filen, inte en ACECAD DHW-fil!"
+msgstr "Kunde inte läsa in filen, inte en ACECAD DHW-fil!"
 
 #: ../share/extensions/dhw_input.py:78
 msgid "Unsupported tag: {}\n"
@@ -42627,7 +42630,7 @@ msgstr "Tagg som inte stöds: {}\n"
 
 #: ../share/extensions/dimension.py:107 ../share/extensions/voronoi_fill.py:81
 msgid "Please select an object"
-msgstr "Välg ett objekt"
+msgstr "Välj ett objekt"
 
 #: ../share/extensions/distribute_along_path.py:151
 #: ../share/extensions/patternalongpath.py:117
@@ -42646,7 +42649,7 @@ msgid ""
 "Please choose a larger object or set 'Space between copies' > 0"
 msgstr ""
 "Den totala längden på mönstret är för liten\n"
-"Välj ett större objekt eller ställ in \"Avstånd mellan kopior\" > 0"
+"Välj ett större objekt eller ställ in “Utrymme mellan kopior\" > 0"
 
 #: ../share/extensions/docinfo.py:42
 msgid "New Document (unsaved)"
@@ -42654,13 +42657,13 @@ msgstr "Nytt dokument (osparat)"
 
 #: ../share/extensions/docinfo.py:81
 msgid "This is a single page document."
-msgstr "Detta är ett dokument på en enda sida."
+msgstr "Detta är ett ensidigt dokument."
 
 #: ../share/extensions/dxf12_outlines.py:262
 msgid ""
 "DXF12 supports a maximum of 249 distinct colors. Please simplify color "
 "choices first."
-msgstr "DXF12 stöder maximalt 249 olika färger. Förenkla färgvalen först."
+msgstr "DXF12 stöder maximalt 249 distinkta färger. Förenkla färgvalen först."
 
 #: ../share/extensions/dxf_input.py:1367
 #, python-brace-format
@@ -42668,7 +42671,7 @@ msgid ""
 "Encountered key of unknown format, id={0} while parsing DXF. This is "
 "probably a bug."
 msgstr ""
-"Mötte nyckel av okänt format, id={0} under parsning av DXF. Detta är "
+"Påträffade nyckel av okänt format, id={0} under tolkning av DXF. Detta är "
 "förmodligen en bugg."
 
 #: ../share/extensions/dxf_input.py:1400
