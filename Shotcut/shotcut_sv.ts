@@ -581,7 +581,7 @@ msgstr &quot;Upplösning&quot;
 #: ../src/widgets/avformatproducerwidget.ui:424
 msgctxt &quot;AvformatProducerWidget|&quot;
 msgid &quot;Frame rate&quot;
-msgstr &quot;Bildhastighet&quot;
+msgstr &quot;Bildfrekvens&quot;
 
 #: ../src/widgets/avformatproducerwidget.ui:389
 msgctxt &quot;AvformatProducerWidget|&quot;
@@ -735,7 +735,7 @@ msgstr &quot;Exportera GPX&quot;
 #: ../src/widgets/avformatproducerwidget.ui:1121
 msgctxt &quot;AvformatProducerWidget|&quot;
 msgid &quot;View Bitrate...&quot;
-msgstr &quot;Visa bitrate...&quot;
+msgstr &quot;Visa bitfrekvens...&quot;
 
 #: ../src/widgets/avformatproducerwidget.ui:1124
 msgctxt &quot;AvformatProducerWidget|&quot;
@@ -800,7 +800,7 @@ msgstr &quot;Skapa Proxy&quot;
 #: ../src/widgets/avformatproducerwidget.ui:1085
 msgctxt &quot;AvformatProducerWidget|&quot;
 msgid &quot;Delete Proxy&quot;
-msgstr &quot;Ta bort Proxy&quot;
+msgstr &quot;Ta bort proxy&quot;
 
 #: ../src/widgets/avformatproducerwidget.ui:1090
 msgctxt &quot;AvformatProducerWidget|&quot;
@@ -1086,7 +1086,7 @@ msgstr &quot;Frekvens&quot;
 msgctxt &quot;BlipProducerWidget|&quot;
 msgid &quot; second(s)&quot;
 msgid_plural &quot; second(s)&quot;
-msgstr[0] &quot; sekunder&quot;
+msgstr[0] &quot; sekund&quot;
 msgstr[1] &quot; sekunder&quot;
 
 #: ../src/widgets/blipproducerwidget.cpp:89
@@ -1292,7 +1292,7 @@ msgstr &quot;&quot;
 #: ../src/widgets/countproducerwidget.ui:179
 msgctxt &quot;CountProducerWidget|&quot;
 msgid &quot;Drop Frame&quot;
-msgstr &quot;Tappad bildruta&quot;
+msgstr &quot;Släppt bildruta&quot;
 
 #: ../src/widgets/countproducerwidget.ui:182
 msgctxt &quot;CountProducerWidget|&quot;
@@ -1445,7 +1445,7 @@ msgstr &quot;x&quot;
 #: ../src/dialogs/customprofiledialog.ui:348
 msgctxt &quot;CustomProfileDialog|&quot;
 msgid &quot;Frames/sec&quot;
-msgstr &quot;Bildrutor/sek&quot;
+msgstr &quot;Bildrutor/s&quot;
 
 #: ../src/dialogs/customprofiledialog.ui:449
 msgctxt &quot;CustomProfileDialog|&quot;
@@ -1464,7 +1464,7 @@ msgstr &quot;&quot;
 #: ../src/dialogs/customprofiledialog.cpp:134
 msgctxt &quot;CustomProfileDialog|&quot;
 msgid &quot;Video Mode Frames/sec&quot;
-msgstr &quot;Videoläge bildrutor/sek&quot;
+msgstr &quot;Videoläge bildrutor/s&quot;
 
 #: ../src/widgets/decklinkproducerwidget.ui:14
 msgctxt &quot;DecklinkProducerWidget|&quot;
@@ -1541,7 +1541,7 @@ msgstr &quot;Varaktighet&quot;
 #: ../src/dialogs/editmarkerdialog.cpp:31
 msgctxt &quot;EditMarkerDialog|&quot;
 msgid &quot;Edit Marker&quot;
-msgstr &quot;Redigera Markör&quot;
+msgstr &quot;Redigera markör&quot;
 
 #: ../src/widgets/editmarkerwidget.cpp:46
 msgctxt &quot;EditMarkerWidget|&quot;
@@ -1691,7 +1691,7 @@ msgstr &quot;Upplösning&quot;
 #: ../src/docks/encodedock.ui:569
 msgctxt &quot;EncodeDock|&quot;
 msgid &quot;Frames/sec&quot;
-msgstr &quot;Bildrutor/sek&quot;
+msgstr &quot;Bildrutor/s&quot;
 
 #: ../src/docks/encodedock.ui:916
 msgctxt &quot;EncodeDock|&quot;
@@ -2138,7 +2138,7 @@ msgstr &quot;Lägg till exporteringsinställning&quot;
 #: ../src/docks/encodedock.cpp:2131
 msgctxt &quot;EncodeDock|&quot;
 msgid &quot;Delete Preset&quot;
-msgstr &quot;Radera förinställning&quot;
+msgstr &quot;Ta bort förinställning&quot;
 
 #: ../src/docks/encodedock.cpp:2132
 #, qt-format
@@ -2240,7 +2240,7 @@ msgstr &quot;Export avbruten&quot;
 #: ../src/docks/encodedock.cpp:2485
 msgctxt &quot;EncodeDock|&quot;
 msgid &quot;Export Frames/sec&quot;
-msgstr &quot;Exportera bildrutor/sek&quot;
+msgstr &quot;Exportera bildrutor/s&quot;
 
 #: ../src/jobs/encodejob.cpp:46
 msgctxt &quot;EncodeJob|&quot;
@@ -2333,7 +2333,7 @@ msgstr &quot;%1 fildatum&quot;
 #: ../src/dialogs/filedatedialog.cpp:102
 msgctxt &quot;FileDateDialog|&quot;
 msgid &quot;Current Value&quot;
-msgstr &quot;Nuvarande Värde&quot;
+msgstr &quot;Aktuellt värde&quot;
 
 #: ../src/dialogs/filedatedialog.cpp:106
 msgctxt &quot;FileDateDialog|&quot;
@@ -2388,7 +2388,7 @@ msgstr &quot;Hem&quot;
 #: ../src/docks/filesdock.cpp:503
 msgctxt &quot;FilesDock|&quot;
 msgid &quot;Current Project&quot;
-msgstr &quot;Pågående projekt&quot;
+msgstr &quot;Aktuellt projekt&quot;
 
 #: ../src/docks/filesdock.cpp:504
 msgctxt &quot;FilesDock|&quot;
@@ -2867,7 +2867,7 @@ msgstr &quot;Klistra in filtren från urklippet&quot;
 #: ../src/widgets/frameratewidget.cpp:74
 msgctxt &quot;FrameRateWidget|&quot;
 msgid &quot;Convert Frames/sec&quot;
-msgstr &quot;Konvertera Frames/sek&quot;
+msgstr &quot;Konvertera bildrutor/s&quot;
 
 #: ../src/widgets/glaxnimateproducerwidget.cpp:642
 msgctxt &quot;GlaxnimateIpcServer|&quot;
@@ -3076,7 +3076,7 @@ msgstr &quot;Skapa Proxy&quot;
 #: ../src/widgets/imageproducerwidget.ui:331
 msgctxt &quot;ImageProducerWidget|&quot;
 msgid &quot;Delete Proxy&quot;
-msgstr &quot;Ta bort Proxy&quot;
+msgstr &quot;Ta bort proxy&quot;
 
 #: ../src/widgets/imageproducerwidget.ui:336
 msgctxt &quot;ImageProducerWidget|&quot;
@@ -4073,7 +4073,7 @@ msgstr &quot;Layout&quot;
 #: ../src/mainwindow.ui:117
 msgctxt &quot;MainWindow|&quot;
 msgid &quot;&amp;Edit&quot;
-msgstr &quot;&amp;Redigera&quot;
+msgstr &quot;R&amp;edigera&quot;
 
 #: ../src/mainwindow.ui:127
 msgctxt &quot;MainWindow|&quot;
@@ -4148,7 +4148,7 @@ msgstr &quot;Verktygsfält&quot;
 #: ../src/mainwindow.ui:378
 msgctxt &quot;MainWindow|&quot;
 msgid &quot;&amp;Open File...&quot;
-msgstr &quot;&amp;Öppna fil...&quot;
+msgstr &quot;Ö&amp;ppna fil...&quot;
 
 #: ../src/mainwindow.ui:392
 msgctxt &quot;MainWindow|&quot;
@@ -4213,7 +4213,7 @@ msgstr &quot;Jobbprioritering&quot;
 #: ../src/mainwindow.ui:478
 msgctxt &quot;MainWindow|&quot;
 msgid &quot;&amp;Undo&quot;
-msgstr &quot;&amp;Ångra&quot;
+msgstr &quot;Å&amp;ngra&quot;
 
 #: ../src/mainwindow.ui:487
 msgctxt &quot;MainWindow|&quot;
@@ -4816,7 +4816,7 @@ msgstr &quot;EDL...&quot;
 #: ../src/mainwindow.ui:943
 msgctxt &quot;MainWindow|&quot;
 msgid &quot;Frame...&quot;
-msgstr &quot;Ram...&quot;
+msgstr &quot;Bildruta...&quot;
 
 #: ../src/mainwindow.ui:957
 msgctxt &quot;MainWindow|&quot;
@@ -5285,7 +5285,7 @@ msgstr &quot;&quot;
 #: ../src/mainwindow.cpp:3925
 msgctxt &quot;MainWindow|&quot;
 msgid &quot;Exit Full Screen&quot;
-msgstr &quot;Avsluta fullskärm&quot;
+msgstr &quot;Avsluta helskärm&quot;
 
 #: ../src/mainwindow.cpp:5596
 msgctxt &quot;MainWindow|&quot;
@@ -5750,12 +5750,12 @@ msgstr &quot;MLT XML&quot;
 #: ../src/videowidget.cpp:196
 msgctxt &quot;Mlt::VideoWidget|&quot;
 msgid &quot;You cannot drag from Project.&quot;
-msgstr &quot;Du kan inte dra från Project.&quot;
+msgstr &quot;Du kan inte dra från projekt.&quot;
 
 #: ../src/videowidget.cpp:199
 msgctxt &quot;Mlt::VideoWidget|&quot;
 msgid &quot;You cannot drag a non-seekable source&quot;
-msgstr &quot;Du kan inte dra en icke sökbar källa&quot;
+msgstr &quot;Du kan inte dra en icke-sökbar källa&quot;
 
 #: ../src/widgets/mltclipproducerwidget.cpp:47
 msgctxt &quot;MltClipProducerWidget|&quot;
@@ -5770,7 +5770,7 @@ msgstr &quot;Bildförhållande&quot;
 #: ../src/widgets/mltclipproducerwidget.cpp:59
 msgctxt &quot;MltClipProducerWidget|&quot;
 msgid &quot;Frame rate&quot;
-msgstr &quot;Bildhastighet&quot;
+msgstr &quot;Bildfrekvens&quot;
 
 #: ../src/widgets/mltclipproducerwidget.cpp:65
 msgctxt &quot;MltClipProducerWidget|&quot;
@@ -5859,7 +5859,7 @@ msgstr &quot;Från start&quot;
 #: ../src/qml/modules/Shotcut/Controls/MotionTrackerDialog.qml:128
 msgctxt &quot;MotionTrackerDialog|&quot;
 msgid &quot;Current position&quot;
-msgstr &quot;Nuvarande position&quot;
+msgstr &quot;Aktuell position&quot;
 
 #: ../src/qml/modules/Shotcut/Controls/MotionTrackerDialog.qml:142
 msgctxt &quot;MotionTrackerDialog|&quot;
@@ -6378,7 +6378,7 @@ msgstr &quot;Tysta ljudet&quot;
 #: ../src/player.cpp:196
 msgctxt &quot;Player|&quot;
 msgid &quot;Current position&quot;
-msgstr &quot;Nuvarande position&quot;
+msgstr &quot;Aktuell position&quot;
 
 #: ../src/player.cpp:202
 msgctxt &quot;Player|&quot;
@@ -6658,7 +6658,7 @@ msgstr &quot;Spelare&quot;
 #: ../src/player.cpp:765
 msgctxt &quot;Player|&quot;
 msgid &quot;Focus Player&quot;
-msgstr &quot;Fokus spelare&quot;
+msgstr &quot;Fokusera spelare&quot;
 
 #: ../src/player.cpp:770
 msgctxt &quot;Player|&quot;
@@ -7289,7 +7289,7 @@ msgstr &quot;Misslyckades med att öppna &quot;
 #: ../src/docks/playlistdock.cpp:1395
 msgctxt &quot;PlaylistDock|&quot;
 msgid &quot;Dropped Files&quot;
-msgstr &quot;Tappade filer&quot;
+msgstr &quot;Släppta filer&quot;
 
 #: ../src/docks/playlistdock.cpp:1857
 msgctxt &quot;PlaylistDock|&quot;
@@ -7441,7 +7441,7 @@ msgstr &quot;Avbryt&quot;
 #: ../src/qml/modules/Shotcut/Controls/Preset.qml:165
 msgctxt &quot;Preset|&quot;
 msgid &quot;Delete Preset&quot;
-msgstr &quot;Radera förinställning&quot;
+msgstr &quot;Ta bort förinställning&quot;
 
 #: ../src/qml/modules/Shotcut/Controls/Preset.qml:175
 #, qt-format
@@ -8529,7 +8529,7 @@ msgstr &quot;Namn:&quot;
 #: ../src/widgets/servicepresetwidget.cpp:173
 msgctxt &quot;ServicePresetWidget|&quot;
 msgid &quot;Delete Preset&quot;
-msgstr &quot;Radera förinställning&quot;
+msgstr &quot;Ta bort förinställning&quot;
 
 #: ../src/widgets/servicepresetwidget.cpp:174
 #, qt-format
@@ -9227,7 +9227,7 @@ msgstr &quot;Kontroller för undertexter&quot;
 #: ../src/docks/subtitlesdock.cpp:217
 msgctxt &quot;SubtitlesDock|&quot;
 msgid &quot;Subtitles Menu&quot;
-msgstr &quot;Meny för undertexter&quot;
+msgstr &quot;Undertextmeny&quot;
 
 #: ../src/docks/subtitlesdock.cpp:268
 msgctxt &quot;SubtitlesDock|&quot;
@@ -9237,7 +9237,7 @@ msgstr &quot;Föregående&quot;
 #: ../src/docks/subtitlesdock.cpp:270
 msgctxt &quot;SubtitlesDock|&quot;
 msgid &quot;Current&quot;
-msgstr &quot;Nuvarande&quot;
+msgstr &quot;Aktuell&quot;
 
 #: ../src/docks/subtitlesdock.cpp:272
 msgctxt &quot;SubtitlesDock|&quot;
@@ -10079,7 +10079,7 @@ msgstr &quot;Nästa markör&quot;
 #: ../src/docks/timelinedock.cpp:1012
 msgctxt &quot;TimelineDock|&quot;
 msgid &quot;Delete Marker&quot;
-msgstr &quot;Radera Markör&quot;
+msgstr &quot;Ta bort markör&quot;
 
 #: ../src/docks/timelinedock.cpp:1023
 msgctxt &quot;TimelineDock|&quot;
@@ -10354,7 +10354,7 @@ msgstr &quot;Misslyckades med att öppna &quot;
 #: ../src/docks/timelinedock.cpp:3162
 msgctxt &quot;TimelineDock|&quot;
 msgid &quot;Dropped Files&quot;
-msgstr &quot;Tappade filer&quot;
+msgstr &quot;Släppta filer&quot;
 
 #: ../src/docks/timelinedock.cpp:3207
 msgctxt &quot;TimelineDock|&quot;
@@ -10454,7 +10454,7 @@ msgstr &quot;Tidslinje&quot;
 #: ../src/widgets/timelinepropertieswidget.ui:104
 msgctxt &quot;TimelinePropertiesWidget|&quot;
 msgid &quot;Frame rate&quot;
-msgstr &quot;Bildhastighet&quot;
+msgstr &quot;Bildfrekvens&quot;
 
 #: ../src/widgets/timelinepropertieswidget.ui:246
 msgctxt &quot;TimelinePropertiesWidget|&quot;
@@ -10836,7 +10836,7 @@ msgstr &quot;Åsidosätt bildfrekvens&quot;
 #: ../src/dialogs/transcodedialog.ui:229
 msgctxt &quot;TranscodeDialog|&quot;
 msgid &quot;Frames/sec&quot;
-msgstr &quot;Bildrutor/sek&quot;
+msgstr &quot;Bildrutor/s&quot;
 
 #: ../src/dialogs/transcodedialog.ui:158
 msgctxt &quot;TranscodeDialog|&quot;
@@ -11086,7 +11086,7 @@ msgstr &quot;Video4Linux&quot;
 #: ../src/widgets/video4linuxwidget.ui:82
 msgctxt &quot;Video4LinuxWidget|&quot;
 msgid &quot;fps&quot;
-msgstr &quot;fps&quot;
+msgstr &quot;bilder/s&quot;
 
 #: ../src/widgets/video4linuxwidget.ui:102
 msgctxt &quot;Video4LinuxWidget|&quot;
@@ -11096,7 +11096,7 @@ msgstr &quot;Höjd&quot;
 #: ../src/widgets/video4linuxwidget.ui:115
 msgctxt &quot;Video4LinuxWidget|&quot;
 msgid &quot;Frame rate&quot;
-msgstr &quot;Bildhastighet&quot;
+msgstr &quot;Bildfrekvens&quot;
 
 #: ../src/widgets/video4linuxwidget.ui:125
 msgctxt &quot;Video4LinuxWidget|&quot;
@@ -11740,7 +11740,7 @@ msgstr &quot;Fördröj&quot;
 #: ../src/qml/filters/audio_delay/meta.qml:8
 msgctxt &quot;meta|search keywords for the Delay audio filter&quot;
 msgid &quot;time echo&quot;
-msgstr &quot;tid eko&quot;
+msgstr &quot;tidseko&quot;
 
 #: ../src/qml/filters/audio_expander/meta.qml:7
 msgctxt &quot;meta|&quot;
@@ -12332,7 +12332,7 @@ msgstr &quot;Skala&quot;
 #: ../src/qml/filters/rotate/meta.qml:33
 msgctxt &quot;meta|&quot;
 msgid &quot;X offset&quot;
-msgstr &quot;X förskjutning&quot;
+msgstr &quot;X-förskjutning&quot;
 
 #: ../src/qml/filters/rotate/meta.qml:37
 msgctxt &quot;meta|&quot;
@@ -13004,7 +13004,7 @@ msgstr &quot;Choppy&quot;
 #: ../src/qml/filters/choppy/meta.qml:7
 msgctxt &quot;meta|search keywords for the Choppy video filter&quot;
 msgid &quot;fps framerate&quot;
-msgstr &quot;fps bildfrekvens&quot;
+msgstr &quot;bildfrekvens&quot;
 
 #: ../src/qml/filters/choppy/meta.qml:19
 msgctxt &quot;meta|&quot;
@@ -13120,7 +13120,7 @@ msgstr &quot;FOV&quot;
 #: ../src/qml/filters/fisheye/meta.qml:22
 msgctxt &quot;meta|&quot;
 msgid &quot;Fisheye&quot;
-msgstr &quot;Fisheye&quot;
+msgstr &quot;Fisköga&quot;
 
 #: ../src/qml/filters/corners/meta.qml:22
 msgctxt &quot;meta|&quot;
@@ -13140,12 +13140,12 @@ msgstr &quot;Hörn&quot;
 #: ../src/qml/filters/corners/meta.qml:40
 msgctxt &quot;meta|&quot;
 msgid &quot;Stretch X&quot;
-msgstr &quot;Sträcka X&quot;
+msgstr &quot;Sträck ut X&quot;
 
 #: ../src/qml/filters/corners/meta.qml:47
 msgctxt &quot;meta|&quot;
 msgid &quot;Stretch Y&quot;
-msgstr &quot;Stretch Y&quot;
+msgstr &quot;Sträck ut Y&quot;
 
 #: ../src/qml/filters/corners/meta.qml:54
 msgctxt &quot;meta|&quot;
@@ -13453,7 +13453,7 @@ msgstr &quot;Höjd&quot;
 #: ../src/qml/filters/dropshadow/meta.qml:6
 msgctxt &quot;meta|&quot;
 msgid &quot;Drop Shadow&quot;
-msgstr &quot;Skugga&quot;
+msgstr &quot;Släppskugga&quot;
 
 #: ../src/qml/filters/dropshadow/meta.qml:7
 msgctxt &quot;meta|search keywords for the Drop Shadow video filter&quot;
@@ -14873,7 +14873,7 @@ msgstr &quot;&quot;
 #: ../src/qml/filters/audio_delay/ui.qml:88
 msgctxt &quot;ui|&quot;
 msgid &quot;Feedback&quot;
-msgstr &quot;Feedback&quot;
+msgstr &quot;Återkoppling&quot;
 
 #: ../src/qml/filters/audio_expander/ui.qml:73
 msgctxt &quot;ui|&quot;
@@ -15228,7 +15228,7 @@ msgstr &quot;Om reverb&quot;
 #: ../src/qml/filters/audio_swapchannels/ui.qml:55
 msgctxt &quot;ui|&quot;
 msgid &quot;Swap&quot;
-msgstr &quot;Skifta&quot;
+msgstr &quot;Byt&quot;
 
 #: ../src/qml/filters/audio_swapchannels/ui.qml:66
 msgctxt &quot;ui|&quot;
@@ -16075,7 +16075,7 @@ msgstr &quot;FOV&quot;
 #: ../src/qml/filters/fisheye/ui.qml:450
 msgctxt &quot;ui|&quot;
 msgid &quot;Fisheye&quot;
-msgstr &quot;Fisheye&quot;
+msgstr &quot;Fisköga&quot;
 
 #: ../src/qml/filters/lut3d/ui.qml:122 ../src/qml/filters/time_remap/ui.qml:403
 msgctxt &quot;ui|&quot;
@@ -16123,7 +16123,7 @@ msgstr &quot;Hörn 4 X&quot;
 #: ../src/qml/filters/corners/ui.qml:587
 msgctxt &quot;ui|&quot;
 msgid &quot;Stretch X&quot;
-msgstr &quot;Sträcka X&quot;
+msgstr &quot;Sträck ut X&quot;
 
 #: ../src/qml/filters/corners/ui.qml:645
 msgctxt &quot;ui|&quot;
@@ -16688,7 +16688,7 @@ msgstr &quot;Tilldela&quot;
 #: ../src/qml/filters/rotate/ui.qml:234
 msgctxt &quot;ui|&quot;
 msgid &quot;X offset&quot;
-msgstr &quot;X förskjutning&quot;
+msgstr &quot;X-förskjutning&quot;
 
 #: ../src/qml/filters/rotate/ui.qml:272
 msgctxt &quot;ui|&quot;
@@ -17602,7 +17602,7 @@ msgstr &quot;Stabiliseringsfilen som genereras av analysen.&quot;
         <location filename="../src/widgets/avformatproducerwidget.ui" line="384"/>
         <location filename="../src/widgets/avformatproducerwidget.ui" line="424"/>
         <source>Frame rate</source>
-        <translation>Bildhastighet</translation>
+        <translation>Bildfrekvens</translation>
     </message>
     <message>
         <location filename="../src/widgets/avformatproducerwidget.ui" line="389"/>
@@ -17753,7 +17753,7 @@ msgstr &quot;Stabiliseringsfilen som genereras av analysen.&quot;
     <message>
         <location filename="../src/widgets/avformatproducerwidget.ui" line="1121"/>
         <source>View Bitrate...</source>
-        <translation>Visa bitrate...</translation>
+        <translation>Visa bitfrekvens...</translation>
     </message>
     <message>
         <location filename="../src/widgets/avformatproducerwidget.ui" line="1124"/>
@@ -17818,7 +17818,7 @@ msgstr &quot;Stabiliseringsfilen som genereras av analysen.&quot;
     <message>
         <location filename="../src/widgets/avformatproducerwidget.ui" line="1085"/>
         <source>Delete Proxy</source>
-        <translation>Ta bort Proxy</translation>
+        <translation>Ta bort proxy</translation>
     </message>
     <message>
         <location filename="../src/widgets/avformatproducerwidget.ui" line="1090"/>
@@ -18094,7 +18094,7 @@ Om ja, välj ett format nedan och klicka sedan på OK för att välja ett filnam
     <message numerus="yes">
         <location filename="../src/widgets/blipproducerwidget.cpp" line="67"/>
         <source> second(s)</source>
-        <translation type="unfinished">
+        <translation>
             <numerusform> sekund</numerusform>
             <numerusform> sekunder</numerusform>
         </translation>
@@ -18302,7 +18302,7 @@ lämna tomt för att använda urklipp:</translation>
     <message>
         <location filename="../src/widgets/countproducerwidget.ui" line="179"/>
         <source>Drop Frame</source>
-        <translation>Tappad bildruta</translation>
+        <translation>Släppt bildruta</translation>
     </message>
     <message>
         <location filename="../src/widgets/countproducerwidget.ui" line="182"/>
@@ -18454,7 +18454,7 @@ lämna tomt för att använda urklipp:</translation>
     <message>
         <location filename="../src/dialogs/customprofiledialog.ui" line="348"/>
         <source>Frames/sec</source>
-        <translation>Bildrutor/sek</translation>
+        <translation>Bildrutor/s</translation>
     </message>
     <message>
         <location filename="../src/dialogs/customprofiledialog.ui" line="449"/>
@@ -18469,7 +18469,7 @@ lämna tomt för att använda urklipp:</translation>
     <message>
         <location filename="../src/dialogs/customprofiledialog.cpp" line="134"/>
         <source>Video Mode Frames/sec</source>
-        <translation>Videoläge bildrutor/sek</translation>
+        <translation>Videoläge bildrutor/s</translation>
     </message>
 </context>
 <context>
@@ -18554,7 +18554,7 @@ lämna tomt för att använda urklipp:</translation>
     <message>
         <location filename="../src/dialogs/editmarkerdialog.cpp" line="31"/>
         <source>Edit Marker</source>
-        <translation>Redigera Markör</translation>
+        <translation>Redigera markör</translation>
     </message>
 </context>
 <context>
@@ -18695,7 +18695,7 @@ lämna tomt för att använda urklipp:</translation>
     <message>
         <location filename="../src/docks/encodedock.ui" line="569"/>
         <source>Frames/sec</source>
-        <translation>Bildrutor/sek</translation>
+        <translation>Bildrutor/s</translation>
     </message>
     <message>
         <location filename="../src/docks/encodedock.ui" line="916"/>
@@ -19151,7 +19151,7 @@ Vill du köra analysjobben nu?</translation>
     <message>
         <location filename="../src/docks/encodedock.cpp" line="2131"/>
         <source>Delete Preset</source>
-        <translation>Radera förinställning</translation>
+        <translation>Ta bort förinställning</translation>
     </message>
     <message>
         <location filename="../src/docks/encodedock.cpp" line="2132"/>
@@ -19181,7 +19181,7 @@ Vill du köra analysjobben nu?</translation>
     <message>
         <location filename="../src/docks/encodedock.cpp" line="2566"/>
         <source>Detecting hardware encoders...</source>
-        <translation>Söker hårdvarudekoder..</translation>
+        <translation>Upptäcker hårdvarukodare...</translation>
     </message>
     <message>
         <location filename="../src/docks/encodedock.cpp" line="2623"/>
@@ -19242,7 +19242,7 @@ Shotcut kommer att försöka reparera ditt projekt.</translation>
     <message>
         <location filename="../src/docks/encodedock.cpp" line="2485"/>
         <source>Export Frames/sec</source>
-        <translation>Exportera bildrutor/sek</translation>
+        <translation>Exportera bildrutor/s</translation>
     </message>
 </context>
 <context>
@@ -19346,7 +19346,7 @@ Shotcut kommer att försöka reparera ditt projekt.</translation>
     <message>
         <location filename="../src/dialogs/filedatedialog.cpp" line="102"/>
         <source>Current Value</source>
-        <translation>Nuvarande Värde</translation>
+        <translation>Aktuellt värde</translation>
     </message>
     <message>
         <location filename="../src/dialogs/filedatedialog.cpp" line="106"/>
@@ -19406,7 +19406,7 @@ Shotcut kommer att försöka reparera ditt projekt.</translation>
     <message>
         <location filename="../src/docks/filesdock.cpp" line="503"/>
         <source>Current Project</source>
-        <translation>Pågående projekt</translation>
+        <translation>Aktuellt projekt</translation>
     </message>
     <message>
         <location filename="../src/docks/filesdock.cpp" line="504"/>
@@ -19901,7 +19901,7 @@ Shotcut kommer att försöka reparera ditt projekt.</translation>
     <message>
         <location filename="../src/widgets/frameratewidget.cpp" line="74"/>
         <source>Convert Frames/sec</source>
-        <translation>Konvertera Frames/sek</translation>
+        <translation>Konvertera bildrutor/s</translation>
     </message>
 </context>
 <context>
@@ -20120,7 +20120,7 @@ Klicka för att ändra</translation>
     <message>
         <location filename="../src/widgets/imageproducerwidget.ui" line="331"/>
         <source>Delete Proxy</source>
-        <translation>Ta bort Proxy</translation>
+        <translation>Ta bort proxy</translation>
     </message>
     <message>
         <location filename="../src/widgets/imageproducerwidget.ui" line="336"/>
@@ -21134,7 +21134,7 @@ ljud (0%) eller klipp B:s ljud (100%).</translation>
     <message>
         <location filename="../src/mainwindow.ui" line="117"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Redigera</translation>
+        <translation>R&amp;edigera</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="127"/>
@@ -21209,12 +21209,12 @@ ljud (0%) eller klipp B:s ljud (100%).</translation>
     <message>
         <location filename="../src/mainwindow.ui" line="378"/>
         <source>&amp;Open File...</source>
-        <translation>&amp;Öppna fil...</translation>
+        <translation>Ö&amp;ppna fil...</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="392"/>
         <source>E&amp;xit</source>
-        <translation>Avsluta</translation>
+        <translation>A&amp;vsluta</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="395"/>
@@ -21276,7 +21276,7 @@ ljud (0%) eller klipp B:s ljud (100%).</translation>
     <message>
         <location filename="../src/mainwindow.ui" line="478"/>
         <source>&amp;Undo</source>
-        <translation>&amp;Ångra</translation>
+        <translation>Å&amp;ngra</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="487"/>
@@ -21901,7 +21901,7 @@ ljud (0%) eller klipp B:s ljud (100%).</translation>
     <message>
         <location filename="../src/mainwindow.ui" line="943"/>
         <source>Frame...</source>
-        <translation>Ram...</translation>
+        <translation>Bildruta...</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.ui" line="957"/>
@@ -22342,7 +22342,7 @@ Vill du spara dina ändringar?</translation>
     <message>
         <location filename="../src/mainwindow.cpp" line="3925"/>
         <source>Exit Full Screen</source>
-        <translation>Avsluta fullskärm</translation>
+        <translation>Avsluta helskärm</translation>
     </message>
     <message>
         <location filename="../src/mainwindow.cpp" line="5596"/>
@@ -22781,12 +22781,12 @@ Vill du inaktivera GPU-effekter och starta om Shotcut?</translation>
     <message>
         <location filename="../src/videowidget.cpp" line="196"/>
         <source>You cannot drag from Project.</source>
-        <translation>Du kan inte dra från Project.</translation>
+        <translation>Du kan inte dra från projekt.</translation>
     </message>
     <message>
         <location filename="../src/videowidget.cpp" line="199"/>
         <source>You cannot drag a non-seekable source</source>
-        <translation>Du kan inte dra en icke sökbar källa</translation>
+        <translation>Du kan inte dra en icke-sökbar källa</translation>
     </message>
 </context>
 <context>
@@ -22804,7 +22804,7 @@ Vill du inaktivera GPU-effekter och starta om Shotcut?</translation>
     <message>
         <location filename="../src/widgets/mltclipproducerwidget.cpp" line="59"/>
         <source>Frame rate</source>
-        <translation>Bildhastighet</translation>
+        <translation>Bildfrekvens</translation>
     </message>
     <message>
         <location filename="../src/widgets/mltclipproducerwidget.cpp" line="65"/>
@@ -22894,7 +22894,7 @@ Detta kan ge oväntade resultat</translation>
     <message>
         <location filename="../src/qml/modules/Shotcut/Controls/MotionTrackerDialog.qml" line="128"/>
         <source>Current position</source>
-        <translation>Nuvarande position</translation>
+        <translation>Aktuell position</translation>
     </message>
     <message>
         <location filename="../src/qml/modules/Shotcut/Controls/MotionTrackerDialog.qml" line="142"/>
@@ -23439,7 +23439,7 @@ Försök igen med en annan mapp.</translation>
     <message>
         <location filename="../src/player.cpp" line="196"/>
         <source>Current position</source>
-        <translation>Nuvarande position</translation>
+        <translation>Aktuell position</translation>
     </message>
     <message>
         <location filename="../src/player.cpp" line="202"/>
@@ -23722,7 +23722,7 @@ Försök igen med en annan mapp.</translation>
     <message>
         <location filename="../src/player.cpp" line="765"/>
         <source>Focus Player</source>
-        <translation>Fokus spelare</translation>
+        <translation>Fokusera spelare</translation>
     </message>
     <message>
         <location filename="../src/player.cpp" line="770"/>
@@ -24330,7 +24330,7 @@ p, li { blanksteg: pre-wrap; }
     <message>
         <location filename="../src/docks/playlistdock.cpp" line="1395"/>
         <source>Dropped Files</source>
-        <translation>Tappade filer</translation>
+        <translation>Släppta filer</translation>
     </message>
     <message>
         <location filename="../src/docks/playlistdock.cpp" line="1857"/>
@@ -24495,7 +24495,7 @@ p, li { blanksteg: pre-wrap; }
     <message>
         <location filename="../src/qml/modules/Shotcut/Controls/Preset.qml" line="165"/>
         <source>Delete Preset</source>
-        <translation>Radera förinställning</translation>
+        <translation>Ta bort förinställning</translation>
     </message>
     <message>
         <location filename="../src/qml/modules/Shotcut/Controls/Preset.qml" line="175"/>
@@ -25188,8 +25188,8 @@ Om ja, välj ett format nedan och klicka sedan på OK för att välja ett filnam
         <location filename="../src/docks/subtitlesdock.cpp" line="504"/>
         <source>Imported %1 subtitle item(s)</source>
         <translation>
-            <numerusform>Importerad %1 subtitle artikel(er)</numerusform>
-            <numerusform>Importerad %1 subtitle artikel(er)</numerusform>
+            <numerusform>Importerade %1 undertextobjekt</numerusform>
+            <numerusform>Importerade %1 undertextobjekt</numerusform>
         </translation>
     </message>
     <message>
@@ -25566,7 +25566,7 @@ Om ja, välj ett format nedan och klicka sedan på OK för att välja ett filnam
     <message>
         <location filename="../src/widgets/servicepresetwidget.cpp" line="173"/>
         <source>Delete Preset</source>
-        <translation>Radera förinställning</translation>
+        <translation>Ta bort förinställning</translation>
     </message>
     <message>
         <location filename="../src/widgets/servicepresetwidget.cpp" line="174"/>
@@ -26284,7 +26284,7 @@ Om varaktigheten är 0 kommer ingen övergång att skapas.</translation>
     <message>
         <location filename="../src/docks/subtitlesdock.cpp" line="217"/>
         <source>Subtitles Menu</source>
-        <translation>Meny för undertexter</translation>
+        <translation>Undertextmeny</translation>
     </message>
     <message>
         <location filename="../src/docks/subtitlesdock.cpp" line="268"/>
@@ -26294,7 +26294,7 @@ Om varaktigheten är 0 kommer ingen övergång att skapas.</translation>
     <message>
         <location filename="../src/docks/subtitlesdock.cpp" line="270"/>
         <source>Current</source>
-        <translation>Nuvarande</translation>
+        <translation>Aktuell</translation>
     </message>
     <message>
         <location filename="../src/docks/subtitlesdock.cpp" line="272"/>
@@ -27072,7 +27072,7 @@ Ta bort undertextfiltret innan du tar bort det här spåret.</translation>
     <message>
         <location filename="../src/docks/timelinedock.cpp" line="672"/>
         <source>Cu&amp;t</source>
-        <translation>Klipp ut</translation>
+        <translation>Klipp &amp;ut</translation>
     </message>
     <message>
         <location filename="../src/docks/timelinedock.cpp" line="693"/>
@@ -27157,7 +27157,7 @@ Ta bort undertextfiltret innan du tar bort det här spåret.</translation>
     <message>
         <location filename="../src/docks/timelinedock.cpp" line="1012"/>
         <source>Delete Marker</source>
-        <translation>Radera Markör</translation>
+        <translation>Ta bort markör</translation>
     </message>
     <message>
         <location filename="../src/docks/timelinedock.cpp" line="1023"/>
@@ -27427,7 +27427,7 @@ Ta bort undertextfiltret innan du tar bort det här spåret.</translation>
     <message>
         <location filename="../src/docks/timelinedock.cpp" line="3162"/>
         <source>Dropped Files</source>
-        <translation>Tappade filer</translation>
+        <translation>Släppta filer</translation>
     </message>
     <message>
         <location filename="../src/docks/timelinedock.cpp" line="3207"/>
@@ -27531,7 +27531,7 @@ Ta bort undertextfiltret innan du tar bort det här spåret.</translation>
     <message>
         <location filename="../src/widgets/timelinepropertieswidget.ui" line="104"/>
         <source>Frame rate</source>
-        <translation>Bildhastighet</translation>
+        <translation>Bildfrekvens</translation>
     </message>
     <message>
         <location filename="../src/widgets/timelinepropertieswidget.ui" line="246"/>
@@ -27905,7 +27905,7 @@ Rörelsekompensation: Interpolera nya bildrutor med hjälp av rörelsekompensati
     <message>
         <location filename="../src/dialogs/transcodedialog.ui" line="229"/>
         <source>Frames/sec</source>
-        <translation>Bildrutor/sek</translation>
+        <translation>Bildrutor/s</translation>
     </message>
     <message>
         <location filename="../src/dialogs/transcodedialog.ui" line="158"/>
@@ -28159,7 +28159,7 @@ Rörelsekompensation: Interpolera nya bildrutor med hjälp av rörelsekompensati
     <message>
         <location filename="../src/widgets/video4linuxwidget.ui" line="82"/>
         <source>fps</source>
-        <translation>fps</translation>
+        <translation>bilder/s</translation>
     </message>
     <message>
         <location filename="../src/widgets/video4linuxwidget.ui" line="102"/>
@@ -28169,7 +28169,7 @@ Rörelsekompensation: Interpolera nya bildrutor med hjälp av rörelsekompensati
     <message>
         <location filename="../src/widgets/video4linuxwidget.ui" line="115"/>
         <source>Frame rate</source>
-        <translation>Bildhastighet</translation>
+        <translation>Bildfrekvens</translation>
     </message>
     <message>
         <location filename="../src/widgets/video4linuxwidget.ui" line="125"/>
@@ -28834,7 +28834,7 @@ IRE: %2</translation>
         <location filename="../src/qml/filters/audio_delay/meta.qml" line="8"/>
         <source>time echo</source>
         <comment>search keywords for the Delay audio filter</comment>
-        <translation>tid eko</translation>
+        <translation>tidseko</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/audio_expander/meta.qml" line="7"/>
@@ -29470,7 +29470,7 @@ IRE: %2</translation>
     <message>
         <location filename="../src/qml/filters/rotate/meta.qml" line="33"/>
         <source>X offset</source>
-        <translation>X förskjutning</translation>
+        <translation>X-förskjutning</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/rotate/meta.qml" line="37"/>
@@ -30181,7 +30181,7 @@ IRE: %2</translation>
         <location filename="../src/qml/filters/choppy/meta.qml" line="7"/>
         <source>fps framerate</source>
         <comment>search keywords for the Choppy video filter</comment>
-        <translation>fps bildfrekvens</translation>
+        <translation>bildfrekvens</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/choppy/meta.qml" line="19"/>
@@ -30303,7 +30303,7 @@ IRE: %2</translation>
         <location filename="../src/qml/filters/bigsh0t_eq_to_rect/meta.qml" line="49"/>
         <location filename="../src/qml/filters/fisheye/meta.qml" line="22"/>
         <source>Fisheye</source>
-        <translation>Fisheye</translation>
+        <translation>Fisköga</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/corners/meta.qml" line="22"/>
@@ -30324,12 +30324,12 @@ IRE: %2</translation>
     <message>
         <location filename="../src/qml/filters/corners/meta.qml" line="40"/>
         <source>Stretch X</source>
-        <translation>Sträcka X</translation>
+        <translation>Sträck ut X</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/corners/meta.qml" line="47"/>
         <source>Stretch Y</source>
-        <translation>Stretch Y</translation>
+        <translation>Sträck ut Y</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/corners/meta.qml" line="54"/>
@@ -30666,7 +30666,7 @@ IRE: %2</translation>
     <message>
         <location filename="../src/qml/filters/dropshadow/meta.qml" line="6"/>
         <source>Drop Shadow</source>
-        <translation>Skugga</translation>
+        <translation>Släppskugga</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/dropshadow/meta.qml" line="31"/>
@@ -32158,7 +32158,7 @@ Tider under 2 sekunder medför ökad CPU-användning.</translation>
     <message>
         <location filename="../src/qml/filters/audio_delay/ui.qml" line="88"/>
         <source>Feedback</source>
-        <translation>Feedback</translation>
+        <translation>Återkoppling</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/audio_expander/ui.qml" line="73"/>
@@ -32482,7 +32482,7 @@ Används för att korrigera för överdriven amplitud som orsakas av det extra d
     <message>
         <location filename="../src/qml/filters/audio_swapchannels/ui.qml" line="55"/>
         <source>Swap</source>
-        <translation>Skifta</translation>
+        <translation>Byt</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/audio_swapchannels/ui.qml" line="66"/>
@@ -33342,7 +33342,7 @@ Klicka på &quot;Öppna&quot; för att ladda en fil.</translation>
         <location filename="../src/qml/filters/bigsh0t_eq_to_rect/ui.qml" line="545"/>
         <location filename="../src/qml/filters/fisheye/ui.qml" line="450"/>
         <source>Fisheye</source>
-        <translation>Fisheye</translation>
+        <translation>Fisköga</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/lut3d/ui.qml" line="122"/>
@@ -33391,7 +33391,7 @@ Klicka på &quot;Öppna&quot; för att ladda en fil.</translation>
     <message>
         <location filename="../src/qml/filters/corners/ui.qml" line="587"/>
         <source>Stretch X</source>
-        <translation>Sträcka X</translation>
+        <translation>Sträck ut X</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/corners/ui.qml" line="645"/>
@@ -33960,7 +33960,7 @@ Change top/side distortion bias</source>
     <message>
         <location filename="../src/qml/filters/rotate/ui.qml" line="234"/>
         <source>X offset</source>
-        <translation>X förskjutning</translation>
+        <translation>X-förskjutning</translation>
     </message>
     <message>
         <location filename="../src/qml/filters/rotate/ui.qml" line="272"/>
