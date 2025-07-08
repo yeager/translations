@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Inkscape tutorial tracing Swedish\n"
 "POT-Creation-Date: 2023-07-14 16:46+0200\n"
-"PO-Revision-Date: 2025-06-30 09:07+0200\n"
+"PO-Revision-Date: 2025-07-08 17:58+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: sv\n"
 "Language: sv\n"
@@ -33,8 +33,8 @@ msgid ""
 "one or more &lt;path&gt; elements for your SVG drawing. These short notes "
 "should help you become acquainted with how it works."
 msgstr ""
-"En av funktionerna i Inkscape är ett verktyg för att spåra en bitmappsbild "
-"till ett eller flera &lt;path&gt; element för din SVG-ritning. Dessa korta "
+"En av funktionerna i Inkscape är ett verktyg för att kalkera en rasterbild "
+"till ett eller flera &lt;sling&gt;-element för din SVG-ritning. Dessa korta "
 "anteckningar bör hjälpa dig att bekanta dig med hur det fungerar."
 
 #. (itstool) path: article/para
@@ -45,10 +45,10 @@ msgid ""
 "product. No autotracer can do that. What it does is give you a set of curves "
 "which you can use as a resource for your drawing."
 msgstr ""
-"Tänk på att Tracers syfte inte är att återge en exakt kopia av "
+"Tänk på att kalkerarens syfte inte är att återge en exakt kopia av "
 "originalbilden och att den inte heller är avsedd att producera en "
-"slutprodukt. Ingen autotracer kan göra det. Vad den gör är att ge dig en "
-"uppsättning kurvor som du kan använda som en resurs för din ritning."
+"slutprodukt. Ingen automatisk kalkerare kan göra det. Vad den gör är att ge "
+"dig en uppsättning kurvor som du kan använda som en resurs för din ritning."
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:21
@@ -58,10 +58,10 @@ msgid ""
 "Potrace, we currently have three types of input filters to convert from the "
 "raw image to something that Potrace can use."
 msgstr ""
-"Vår tracer, som härrör från det ursprungliga Potrace-biblioteket av Peter "
-"Selinger, tolkar en svartvit bitmapp och producerar en uppsättning kurvor. "
-"För Potrace har vi för närvarande tre typer av ingångsfilter för att "
-"konvertera från den råa bilden till något som Potrace kan använda."
+"Vår kalkerare, som härrör från det ursprungliga Potrace-biblioteket av Peter "
+"Selinger, tolkar en svartvit rasterbild och producerar en uppsättning "
+"kurvor. För Potrace har vi för närvarande tre typer av inmatningsfilter för "
+"att konvertera från den råa bilden till något som Potrace kan använda."
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:26
@@ -73,12 +73,12 @@ msgid ""
 "first, getting gradually darker to get the desired proportion and complexity "
 "of the output path."
 msgstr ""
-"Generellt gäller att ju fler mörka pixlar som finns i den mellanliggande "
-"bitmappen, desto mer spårning kommer Potrace att utföra. När mängden "
-"spårning ökar kommer mer CPU-tid att krävas och &lt;path&gt; -elementet blir "
-"mycket större. Vi föreslår att användaren experimenterar med ljusare "
-"mellanliggande bilder först och sedan gradvis blir mörkare för att få önskad "
-"proportion och komplexitet i utmatningsvägen."
+"Generellt gäller att ju fler mörka bildpunkter som finns i den "
+"mellanliggande rasterbilden, desto mer kalkering kommer Potrace att utföra. "
+"När mängden spårning ökar kommer mer CPU-tid att krävas och &lt;sling&gt;-"
+"elementet blir mycket större. Vi föreslår att användaren experimenterar med "
+"ljusare mellanliggande bilder först och sedan gradvis blir mörkare för att "
+"få önskad proportion och komplexitet i utmatningsslingan."
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:32
@@ -88,8 +88,8 @@ msgid ""
 "menuchoice> item, or <keycombo><keycap function=\"shift\">Shift</"
 "keycap><keycap function=\"alt\">Alt</keycap><keycap>B</keycap></keycombo>."
 msgstr ""
-"För att använda spåraren laddar eller importerar du en bild, markerar den "
-"och väljer <menuchoice><guimenu>Sökväg</guimenu><guimenuitem>Spåra bitmapp</"
+"För att använda kalkeraren eller importera en bild, markera den och välj "
+"<menuchoice><guimenu>Slinga</guimenu><guimenuitem>Kalkera rasterbild</"
 "guimenuitem></menuchoice> eller <keycombo><keycap function=\"shift\">Skift</"
 "keycap><keycap function=\"alt\">Alt</keycap><keycap>B</keycap></keycombo>."
 
@@ -112,16 +112,16 @@ msgid ""
 "threshold setting, the fewer the number pixels that will be considered to be "
 "“white”, and the intermediate image with become darker."
 msgstr ""
-"Här används bara summan av rött, grönt och blått (eller gråtoner) i en pixel "
-"som en indikator på om den ska betraktas som svart eller vit. Tröskelvärdet "
-"kan ställas in från 0,0 (svart) till 1,0 (vit). Ju högre tröskelvärdet är, "
-"desto färre pixlar kommer att betraktas som \"vita\" och mellanbilden blir "
-"mörkare."
+"Här används bara summan av rött, grönt och blått (eller gråtoner) i en "
+"bildpunkt som en indikator på om den ska betraktas som svart eller vit. "
+"Tröskelvärdet kan ställas in från 0,0 (svart) till 1,0 (vit). Ju högre "
+"tröskelvärdet är, desto färre bildpunkter kommer att betraktas som \"vita\" "
+"och mellanbilden blir mörkare."
 
 #. (itstool) path: listitem/para
 #: tutorial-tracing.xml:69
 msgid "Edge Detection"
-msgstr "Detektering av kanter"
+msgstr "Kantdetektering"
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:74
@@ -137,17 +137,17 @@ msgid ""
 msgstr ""
 "Här används den algoritm för kantdetektering som utvecklats av J. Canny som "
 "ett sätt att snabbt hitta isokliner med liknande kontrast. Detta ger en "
-"mellanliggande bitmapp som ser mindre ut som originalbilden än vad "
+"mellanliggande rasterbild som ser mindre ut som originalbilden än vad "
 "resultatet av Brightness Threshold gör, men som sannolikt ger "
 "kurvinformation som annars skulle ignoreras. Inställningen för tröskelvärdet "
-"här (0,0 - 1,0) justerar tröskelvärdet för ljusstyrkan för om en pixel som "
-"gränsar till en kontrastkant ska inkluderas i resultatet. Den här "
+"här (0,0 - 1,0) justerar tröskelvärdet för ljusstyrkan för om en bildpunkt "
+"som gränsar till en kontrastkant ska inkluderas i resultatet. Den här "
 "inställningen kan justera hur mörk eller tjock kanten ska vara i resultatet."
 
 #. (itstool) path: listitem/para
 #: tutorial-tracing.xml:90
 msgid "Color Quantization"
-msgstr "Kvantisering av färg"
+msgstr "Färgkvantisering"
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:95
@@ -165,8 +165,8 @@ msgstr ""
 "ljusstyrka eller kontrast hittar detta filter kanter där färgerna ändras, "
 "även vid lika ljusstyrka och kontrast. Inställningen här, Number of Colors, "
 "bestämmer hur många utmatningsfärger det skulle finnas om den mellanliggande "
-"bitmappen var i färg. Den avgör sedan svart/vitt beroende på om färgen har "
-"ett jämnt eller udda index."
+"rasterbilden var i färg. Den avgör sedan svart/vitt beroende på om färgen "
+"har ett jämnt eller udda index."
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:109
@@ -176,8 +176,8 @@ msgid ""
 "where one works better than the others."
 msgstr ""
 "Användaren bör prova alla tre filtren och observera de olika typerna av "
-"utdata för olika typer av ingångsbilder. Det kommer alltid att finnas en "
-"bild där ett filter fungerar bättre än de andra."
+"utmatning för olika typer av inmatningsbilder. Det kommer alltid att finnas "
+"en bild där ett filter fungerar bättre än de andra."
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:113
@@ -189,12 +189,12 @@ msgid ""
 "can make the output of Potrace much easier to edit. For example, here is a "
 "typical tracing of the Old Man Playing Guitar:"
 msgstr ""
-"Efter spårning föreslås det också att användaren provar "
-"<menuchoice><guimenu>Väg</guimenu><guimenuitem>Förenkla</guimenuitem></"
+"Efter kalkering föreslås det också att användaren provar "
+"<menuchoice><guimenu>Slinga</guimenu><guimenuitem>Förenkla</guimenuitem></"
 "menuchoice> (<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>L</"
 "keycap></keycombo>) på utmatningsslingan för att minska antalet noder. Detta "
 "kan göra utdata från Potrace mycket enklare att redigera. Här är till "
-"exempel en typisk tracing av Gubben som spelar gitarr:"
+"exempel en typisk kalkering av Old Man Playing Guitar:"
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:127
@@ -203,7 +203,7 @@ msgid ""
 "<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>L</keycap></"
 "keycombo>, this is a typical result:"
 msgstr ""
-"Notera det enorma antalet noder på vägen. Efter att ha tryckt på "
+"Observera det enorma antalet noder i slingan. Efter att ha tryckt på "
 "<keycombo><keycap function=\"control\">Ctrl</keycap><keycap>L</keycap></"
 "keycombo>är detta ett typiskt resultat:"
 
@@ -223,7 +223,7 @@ msgstr ""
 #. (itstool) path: listitem/para
 #: tutorial-tracing.xml:145
 msgid "Autotrace"
-msgstr "Autotrace"
+msgstr "Automatisk kalkering"
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:150
@@ -232,14 +232,14 @@ msgid ""
 "some other parameters to tweak. It may take a little longer to work, but "
 "gives you some variety to choose from."
 msgstr ""
-"Alternativet Autotrace använder en annan algoritm för spårning och erbjuder "
-"även några andra parametrar att justera. Det kan ta lite längre tid att "
-"arbeta, men ger dig lite variation att välja mellan."
+"Alternativet Automatisk kalkering använder en annan algoritm för kalkering "
+"och erbjuder även några andra parametrar att justera. Det kan ta lite längre "
+"tid att arbeta, men ger dig lite variation att välja mellan."
 
 #. (itstool) path: listitem/para
 #: tutorial-tracing.xml:156
 msgid "Centerline tracing (autotrace)"
-msgstr "Spårning av mittlinje (autotrace)"
+msgstr "Kalkering av mittlinje (autotrace)"
 
 #. (itstool) path: article/para
 #: tutorial-tracing.xml:161
@@ -248,10 +248,9 @@ msgid ""
 "to modify instead of filled areas as a result, use this option. It will "
 "attempt to find contiguous lines that make up your drawing."
 msgstr ""
-"Om du vill vektorisera en linjeteckning och få streck som är lätta att ändra "
-"i stället för fyllda områden, ska du använda det här alternativet. "
-"Programmet kommer att försöka hitta sammanhängande linjer som utgör din "
-"ritning."
+"Om du vill vektorisera en linjeritning och få streck som är lätta att ändra "
+"i stället för fyllda områden, ska du använda det här alternativet. Den "
+"kommer att försöka hitta sammanhängande linjer som utgör din ritning."
 
 #. (itstool) path: Work/format
 #: tracing-f01.svg:49 tracing-f02.svg:49 tracing-f03.svg:49 tracing-f04.svg:49
@@ -263,7 +262,7 @@ msgstr "image/svg+xml"
 #: tracing-f01.svg:70
 #, no-wrap
 msgid "Main options within the Trace dialog"
-msgstr "Huvudalternativ i dialogrutan Trace"
+msgstr "Huvudalternativ i dialogrutan Kalkera"
 
 #. (itstool) path: text/tspan
 #: tracing-f02.svg:70 tracing-f03.svg:70 tracing-f04.svg:70 tracing-f05.svg:70
@@ -282,19 +281,19 @@ msgstr "Tröskelvärde för ljusstyrka"
 #: tracing-f02.svg:86 tracing-f03.svg:86 tracing-f04.svg:86
 #, no-wrap
 msgid "Fill, no Stroke"
-msgstr "Fyllning, ingen linje"
+msgstr "Fyllning, inget streck"
 
 #. (itstool) path: text/tspan
 #: tracing-f02.svg:102 tracing-f03.svg:102 tracing-f04.svg:102
 #, no-wrap
 msgid "Stroke, no Fill"
-msgstr "Stroke, ingen fyllning"
+msgstr "Streck, ingen fyllning"
 
 #. (itstool) path: text/tspan
 #: tracing-f03.svg:81 tracing-f03.svg:97
 #, no-wrap
 msgid "Edge Detected"
-msgstr "Kant detekterad"
+msgstr "Kant upptäckt"
 
 #. (itstool) path: text/tspan
 #: tracing-f04.svg:81 tracing-f04.svg:97
@@ -306,19 +305,19 @@ msgstr "Kvantisering (12 färger)"
 #: tracing-f05.svg:81
 #, no-wrap
 msgid "Traced Image / Output Path"
-msgstr "Spårad bild / Utmatningsväg"
+msgstr "Kalkerad bild / Utmatningsslinga"
 
 #. (itstool) path: text/tspan
 #: tracing-f05.svg:86
 #, no-wrap
 msgid "(1,551 nodes)"
-msgstr "(1 551 noder)"
+msgstr "(1551 noder)"
 
 #. (itstool) path: text/tspan
 #: tracing-f06.svg:81
 #, no-wrap
 msgid "Traced Image / Output Path - Simplified"
-msgstr "Spårad bild / Utmatningsväg - förenklad"
+msgstr "Kalkerad bild / Utmatningsslinga - förenklad"
 
 #. (itstool) path: text/tspan
 #: tracing-f06.svg:86
