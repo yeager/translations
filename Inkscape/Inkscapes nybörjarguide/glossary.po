@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Inkscape Beginners' Guide 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-13 20:11+0200\n"
-"PO-Revision-Date: 2025-05-15 19:00+0200\n"
+"PO-Revision-Date: 2025-07-29 13:30+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: sv <LL@li.org>\n"
 "Language: sv\n"
@@ -39,11 +39,11 @@ msgid ""
 "the object)."
 msgstr ""
 "Värde för en färgs opacitet, vanligtvis mellan 0 (helt transparent) och "
-"1 (helt ogenomskinlig) eller mellan 0% aoch 100%. Alfa är knutet till "
+"1 (helt ogenomskinlig) eller mellan 0% och 100%. Alfa är knutet till "
 "färgen. Oberoende av detta kan varje objekt ha ett ytterligare värde för "
 "sin opacitet. Opacitetsvärdet påverkar objektet som helhet (i motsats "
-"till alfa, som endast påverkar transparensen i objektets stroke eller "
-"fill)."
+"till alfa, som endast påverkar transparensen i objektets streck eller "
+"fyllning)."
 
 #: ../../source/glossary.rst:9 797d7753532043deac37251d5dd3d322
 msgid "AppImage"
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:15 4893c3e27e4e4107854e94c5e065454d
 msgid "Binary File"
-msgstr "Binär fil"
+msgstr "Binärfil"
 
 #: ../../source/glossary.rst:17 55ff2f4aded746fe801adabc06dce5de
 msgid ""
@@ -107,7 +107,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:21 4f020df0ab764b2b8a84285e19e346d1
 msgid "Cap"
-msgstr "Cap"
+msgstr "Avslut"
 
 #: ../../source/glossary.rst:23 607c89bb35b94a04b6a949d8f4ab9956
 msgid ""
@@ -116,12 +116,12 @@ msgid ""
 "path can just be cut off at a 90° angle."
 msgstr ""
 "Den form som sätts på ändnoderna av en slinga. Detta kan vara en halv "
-"cirkel eller en halv kvadrat som är lika bred som slingans slaglängd. "
-"Eller så kan slingan bara skäras av i 90° vinkel."
+"cirkel eller en halv kvadrat som är lika bred som slingans streck. Eller "
+"så kan slingan bara skäras av i 90° vinkel."
 
 #: ../../source/glossary.rst:24 cea093a6ad634166b7f8f3da6d3e3be7
 msgid "Cascading Style Sheets"
-msgstr "Cascading Style Sheets"
+msgstr "Stilmallar (Cascading Style Sheets)"
 
 #: ../../source/glossary.rst:26 3062e303424547c3b394cc393d591fd5
 msgid ""
@@ -130,7 +130,7 @@ msgid ""
 "file format. CSS determines how websites look in a browser. For SVG, it "
 "is one of two options to describe how an object is supposed to look."
 msgstr ""
-"Ett sätt att skriva ut stylinginformation för dokument som HTML och SVG. "
+"Ett sätt att skriva ut stilinformation för dokument som HTML och SVG. "
 "CSS-specifikationen är utvecklad av W3C, precis som SVG-filformatet. CSS "
 "avgör hur webbplatser ser ut i en webbläsare. För SVG är det ett av två "
 "alternativ för att beskriva hur ett objekt ska se ut."
@@ -152,9 +152,9 @@ msgstr ""
 "En kopia av ett annat objekt som följer alla ändringar som görs i "
 "originalobjektet. Ett objekt kan ha flera kloner som alla kan placeras "
 "på olika ställen i ritningen. Kloner kan roteras och skalas oberoende av "
-"originalobjektet. Om originalets fyllning eller stroke inte är inställd "
-"(unset) kan klonens fyllning (eller stroke) redigeras. I alla andra fall "
-"kommer klonens fyllning och stroke att se ut precis som originalets."
+"originalobjektet. Om originalets fyllning eller streck inte är inställd "
+"(unset) kan klonens fyllning (eller streck) redigeras. I alla andra fall "
+"kommer klonens fyllning och streck att se ut precis som originalets."
 
 #: ../../source/glossary.rst:30 9002960ee9b144c297af2b565a678eec
 msgid "Disk Image (.dmg)"
@@ -207,7 +207,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:39 b62902eacd8f4e3ebad8761b90c3f9ce
 msgid "Flow Text"
-msgstr "Flödestext"
+msgstr "Flödande text"
 
 #: ../../source/glossary.rst:41 6a13a334e174472ebbe785203c6aec0d
 msgid "Text that automatically breaks lines after a given width."
@@ -240,12 +240,12 @@ msgid ""
 "screens)."
 msgstr ""
 "Ett sätt att definiera en färg med hjälp av 3 siffror i det hexadecimala "
-"siffersystemet, vanligen föregångna av ett hash-tecken (#). Varje siffra "
-"kan anta värden mellan 0 (ingen intensitet) och 255 (maximal "
-"intensitet), eller 00 och ff, i hexadecimal. Den första siffran står för "
-"rött, den andra för grönt och den sista för blått. Tillsammans "
-"representerar färgerna en av de resulterande 16.777.216 färgerna i sRGB-"
-"färgrymden (som vanligtvis används för datorskärmar)."
+"siffersystemet, vanligen inleds av ett hash-tecken (#). Varje siffra kan "
+"anta värden mellan 0 (ingen intensitet) och 255 (maximal intensitet), "
+"eller 00 och ff, i hexadecimal. Den första siffran står för rött, den "
+"andra för grönt och den sista för blått. Tillsammans representerar "
+"färgerna en av de resulterande 16777216 färgerna i sRGB-färgrymden (som "
+"vanligtvis används för datorskärmar)."
 
 #: ../../source/glossary.rst:48 435cdfab1d314b02a5fe141e787472f7
 msgid "HTML5"
@@ -265,15 +265,15 @@ msgstr ""
 
 #: ../../source/glossary.rst:51 d5e98be16bda4830b47ddbd0f2bee6a7
 msgid "Join type"
-msgstr "Typ av anslutning"
+msgstr "Sammanfogningstyp"
 
 #: ../../source/glossary.rst:53 19c7f1116cf54693ae4901962a6ad264
 msgid ""
 "The way that vector path corners look. They can be rounded (round), cut "
 "off (bevel) or pointed (miter)."
 msgstr ""
-"Det sätt som vektorslingans hörn ser ut. De kan vara rundade (round), "
-"avskurna (bevel) eller spetsiga (miter)."
+"Det sätt som vektorslingans hörn ser ut. De kan vara rundade, avskurna "
+"eller spetsiga (gerade)."
 
 #: ../../source/glossary.rst:54 db8330aa3294425b81b762f7218d3e9c
 msgid "Ligature"
@@ -341,7 +341,8 @@ msgstr ""
 
 #: ../../source/glossary.rst:67 bf56f17380d64783a1c0222df8ef26fa
 msgid "Note: Most modern computers come as 64-bit systems."
-msgstr "Obs: De flesta moderna datorer levereras som 64-bitars system."
+msgstr ""
+"Observera: De flesta moderna datorer levereras som 64-bitarssystem."
 
 #: ../../source/glossary.rst:68 39daf0fe4adb4e37b69bff595adcc14d
 msgid "Path"
@@ -353,7 +354,7 @@ msgid ""
 "are connected by the segments of the path."
 msgstr ""
 "Det grundläggande byggelementet i SVG, består av :term:`noder <Node>` "
-"som är förbundna med segmenten av slingan."
+"som är anslutna med segmenten av slingan."
 
 #: ../../source/glossary.rst:71 0dbcb858387c40249333f194abbab682
 msgid "Portable Document Format"
@@ -448,7 +449,7 @@ msgstr ""
 
 #: ../../source/glossary.rst:86 82b9669f5b524f0181836780ba8b65ad
 msgid "Scalable Vector Graphics (SVG)"
-msgstr "Skalbar vektorgrafik (SVG)"
+msgstr "Scalable Vector Graphics (SVG)"
 
 #: ../../source/glossary.rst:88 2f0757628aed46d98b45634618a3f2fe
 msgid ""
@@ -496,7 +497,7 @@ msgid ""
 "instructions, often the source code must be translated into binary code "
 "by a compiler program ('building' a program)."
 msgstr ""
-"En uppsättning textfiler som skrivs av programutvecklare i ett eller "
+"En uppsättning textfiler som skrivs av programvaruutvecklare i ett eller "
 "flera programmeringsspråk. Dessa filer innehåller instruktionerna för "
 "datorprogrammet. För att en dator ska kunna utföra instruktionerna måste "
 "källkoden ofta översättas till binär kod av ett kompilatorprogram "
@@ -512,9 +513,10 @@ msgid ""
 "different widths, colors, patterns (dashes) and even gradients or "
 "patterns. Strokes are optional, not every path / shape has one."
 msgstr ""
-"En kontur som ritas längs en vektorslinga eller form. Strokes kan ha "
-"olika bredd, färg, mönster (streck) och till och med gradienter eller "
-"mönster. Streck är valfria, inte alla slingor / former har en sådan."
+"En kontur som ritas längs en vektorslinga eller form. Streck kan ha "
+"olika bredd, färg, mönster (bindestreck) och till och med gradienter "
+"eller mönster. Streck är valfria, inte alla slingor / former har en "
+"sådan."
 
 #: ../../source/glossary.rst:98 9c3029ccb15c4c71b269dbe0db30ec40
 msgid "SVG Font"
@@ -528,9 +530,9 @@ msgid ""
 "different font file format (e.g. otf, ttf)."
 msgstr ""
 "Ett typsnitt vars filformat är baserat på SVG-filformatet. Inkscape kan "
-"skapa SVG-typsnitt, men kan inte använda dem för att skriva texter. "
-"Ett annat program, t.ex. FontForge, krävs för att konvertera SVG-"
-"typsnittet till ett annat filformat (t.ex. otf, ttf)."
+"skapa SVG-typsnitt, men kan inte använda dem för att skriva texter. Ett "
+"annat program, t.ex. FontForge, krävs för att konvertera SVG-typsnittet "
+"till ett annat filformat (t.ex. otf, ttf)."
 
 #: ../../source/glossary.rst:101 652acabe37ce4f25b0017b0fda1e8d3e
 msgid "XQuartz"
