@@ -1,0 +1,5459 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Linus Olander Paulsson <linusolanderpaulsson@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: readthedocs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-18 13:34+0000\n"
+"PO-Revision-Date: 2025-08-11 08:57+0200\n"
+"Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
+"Language-Team: Swedish (http://app.transifex.com/readthedocs/readthedocs/language/sv/)\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
+
+#: analytics/models.py:69 builds/filters.py:40 builds/models.py:611 projects/filters.py:197 projects/models.py:1498 search/models.py:26
+#: templates/base.html:266
+msgid "Version"
+msgstr "Version"
+
+#: analytics/models.py:76
+msgid "Path relative to the version."
+msgstr "Sökväg i förhållande till versionen."
+
+#: analytics/models.py:80
+msgid "Full path including the version and language parts."
+msgstr "Fullständig sökväg inklusive version och språkdelar."
+
+#: analytics/models.py:88 redirects/models.py:90
+msgid "HTTP status code"
+msgstr "HTTP-statuskod"
+
+#: api/v2/models.py:43
+msgid "Project that this API key grants access to"
+msgstr "Projekt som denna API-nyckel ger tillgång till"
+
+#: api/v2/models.py:49
+msgid "Build API key"
+msgstr "Skapa API-nyckel"
+
+#: api/v2/models.py:50
+msgid "Build API keys"
+msgstr "Skapa API-nycklar"
+
+#: api/v2/serializers.py:378
+msgid "This field is required."
+msgstr "Detta fält är obligatoriskt."
+
+#: api/v2/serializers.py:379
+msgid "Object does not exist."
+msgstr "Objektet finns inte."
+
+#: api/v2/serializers.py:380
+#, python-brace-format
+msgid "Incorrect type. Expected URL string, received {data_type}."
+msgstr "Felaktig typ. Förväntad URL-sträng, tog emot {data_type}."
+
+#: api/v3/serializers.py:629
+#, python-brace-format
+msgid "Invalid project name \"{0}\": no slug generated."
+msgstr "Ogiltigt projektnamn \"{0}\": ingen slugg genererad."
+
+#: api/v3/serializers.py:633
+#, python-brace-format
+msgid "Project with slug \"{0}\" already exists."
+msgstr "Projekt med sluggen \"{0}\" finns redan."
+
+#: api/v3/serializers.py:894
+#, python-brace-format
+msgid "Project with {slug_name}={value} is not valid as subproject"
+msgstr "Projekt med {slug_name}={value} är inte giltigt som underprojekt"
+
+#: api/v3/serializers.py:902 projects/forms.py:605
+msgid "A subproject with this alias already exists"
+msgstr "Ett underprojekt med detta alias finns redan"
+
+#: api/v3/serializers.py:1036
+#, python-brace-format
+msgid "Prefix redirects have been removed. Please use an exact redirect `/prefix/*` instead. See {blog_link}."
+msgstr "Prefixomdirigeringar har tagits bort. Använd en exakt omdirigering `/prefix/*` istället. Se {blog_link}."
+
+#: api/v3/serializers.py:1041
+#, python-brace-format
+msgid "sphinx_html redirect has been renamed to clean_url_to_html. See {blog_link}."
+msgstr "sphinx_html-omdirigeringen har bytt namn till clean_url_to_html. Se {blog_link}."
+
+#: api/v3/serializers.py:1046
+#, python-brace-format
+msgid "sphinx_htmldir redirect has been renamed to html_to_clean_url. See {blog_link}."
+msgstr "sphinx_htmldir-omdirigeringen har bytt namn till html_to_clean_url. Se {blog_link}."
+
+#: audit/models.py:72
+msgid "Page view"
+msgstr "Sidvisning"
+
+#: audit/models.py:75 organizations/templates/organizations/security_log.html:43 templates/profiles/private/security_log.html:29
+msgid "Download"
+msgstr "Ladda ner"
+
+#: audit/models.py:78
+msgid "Authentication"
+msgstr "Autentisering"
+
+#: audit/models.py:81
+msgid "Authentication failure"
+msgstr "Autentiseringen misslyckades"
+
+#: audit/models.py:84
+msgid "Log out"
+msgstr "Logga ut"
+
+#: audit/models.py:87 organizations/views/private.py:144 organizations/views/private.py:203 projects/views/private.py:575
+msgid "Invitation sent"
+msgstr "Inbjudan skickad"
+
+#: audit/models.py:90
+msgid "Invitation revoked"
+msgstr "Inbjudan återkallad"
+
+#: audit/models.py:93
+msgid "Invitation accepted"
+msgstr "Inbjudan accepterad"
+
+#: audit/models.py:96
+msgid "Invitation declined"
+msgstr "Inbjudan avböjd"
+
+#: audit/models.py:112 core/models.py:19 gold/models.py:34 projects/models.py:283
+msgid "User"
+msgstr "Användare"
+
+#: audit/models.py:119
+msgid "User ID"
+msgstr "Användar-ID"
+
+#: audit/models.py:125 core/forms.py:57
+msgid "Username"
+msgstr "Användarnamn"
+
+#: audit/models.py:134 builds/models.py:84 builds/models.py:605 organizations/filters.py:133 projects/filters.py:153 projects/models.py:1492
+#: redirects/models.py:45
+msgid "Project"
+msgstr "Projekt"
+
+#: audit/models.py:141
+msgid "Project ID"
+msgstr "Projekt-id"
+
+#: audit/models.py:147
+msgid "Project slug"
+msgstr "Projektslugg"
+
+#: audit/models.py:156 oauth/models.py:118 organizations/filters.py:94
+msgid "Organization"
+msgstr "Organisation"
+
+#: audit/models.py:162
+msgid "Organization ID"
+msgstr "Organisationsnummer"
+
+#: audit/models.py:168
+msgid "Organization slug"
+msgstr "Organisationens slugg"
+
+#: audit/models.py:176 builds/models.py:1091
+msgid "Action"
+msgstr "Åtgärd"
+
+#: audit/models.py:181
+msgid "Auth backend"
+msgstr "Auth-backend"
+
+#: audit/models.py:187 core/history.py:76
+msgid "IP address"
+msgstr "IP-adress"
+
+#: audit/models.py:193 core/history.py:82
+msgid "Browser user-agent"
+msgstr "Webbläsarens user-agent"
+
+#: audit/models.py:201
+msgid "Resource"
+msgstr "Resurs"
+
+#: audit/models.py:210
+msgid "Extra data about the log entry. Its structure depends on the type of log entry."
+msgstr "Extra data om loggposten. Dess struktur beror på vilken typ av loggpost det är."
+
+#: audit/models.py:254
+msgid "shared link"
+msgstr "delad länk"
+
+#: audit/models.py:255
+msgid "shared password"
+msgstr "delat lösenord"
+
+#: audit/templates/audit/list_logs.html:16
+msgid "User authenticated"
+msgstr "Användaren är autentiserad"
+
+#: audit/templates/audit/list_logs.html:20
+msgid "User failed to authenticate"
+msgstr "Användaren misslyckades med att autentisera sig"
+
+#: audit/templates/audit/list_logs.html:24
+msgid "User logged out"
+msgstr "Användaren är utloggad"
+
+#: audit/templates/audit/list_logs.html:28
+msgid "User visited a page"
+msgstr "Användaren besökte en sida"
+
+#: audit/templates/audit/list_logs.html:32
+msgid "User downloaded a document"
+msgstr "Användaren laddade ner ett dokument"
+
+#: audit/templates/audit/list_logs.html:36
+msgid "User sent an invitation"
+msgstr "Användaren skickade en inbjudan"
+
+#: audit/templates/audit/list_logs.html:40
+msgid "User revoked an invitation"
+msgstr "Användaren återkallade en inbjudan"
+
+#: audit/templates/audit/list_logs.html:44
+msgid "User accepted an invitation"
+msgstr "Användaren accepterade en inbjudan"
+
+#: audit/templates/audit/list_logs.html:48
+msgid "User declined an invitation"
+msgstr "Användaren tackade nej till en inbjudan"
+
+#: audit/templates/audit/list_logs.html:55 templates/core/build_list_detailed.html:21 templates/core/project_list_detailed.html:26
+#: templates/projects/integration_webhook_detail.html:116 templates/projects/project_dashboard_base.html:74 templates/projects/webhook_form.html:55
+#, python-format
+msgid "%(date)s ago"
+msgstr "%(date)s sedan"
+
+#: audit/templates/audit/list_logs.html:62
+msgid "actor:"
+msgstr "aktör:"
+
+#: audit/templates/audit/list_logs.html:66
+msgid "anonymous"
+msgstr "anonym"
+
+#: audit/templates/audit/list_logs.html:73 audit/templates/audit/list_logs.html:94
+msgid "project:"
+msgstr "projekt:"
+
+#: audit/templates/audit/list_logs.html:78
+msgid "page:"
+msgstr "sida:"
+
+#: audit/templates/audit/list_logs.html:84
+msgid "to user:"
+msgstr "till användaren:"
+
+#: audit/templates/audit/list_logs.html:87
+msgid "to email:"
+msgstr "till e-post:"
+
+#: audit/templates/audit/list_logs.html:99 audit/templates/audit/list_logs.html:106 audit/templates/audit/list_logs.html:109
+msgid "organization:"
+msgstr "organisation:"
+
+#: audit/templates/audit/list_logs.html:103
+msgid "team:"
+msgstr "team:"
+
+#: audit/templates/audit/list_logs.html:116
+msgid "IP:"
+msgstr "IP:"
+
+#: audit/templates/audit/list_logs.html:123
+msgid "No activity logged yet"
+msgstr "Ingen aktivitet inloggad ännu"
+
+#: builds/apps.py:14 templates/core/project_bar_base.html:39
+msgid "Builds"
+msgstr "Byggnationer"
+
+#: builds/constants.py:19
+msgid "Triggered"
+msgstr "Aktiverad"
+
+#: builds/constants.py:20
+msgid "Cloning"
+msgstr "Klonar"
+
+#: builds/constants.py:21
+msgid "Installing"
+msgstr "Installerar"
+
+#: builds/constants.py:22
+msgid "Building"
+msgstr "Bygger"
+
+#: builds/constants.py:23
+msgid "Uploading"
+msgstr "Laddar upp"
+
+#: builds/constants.py:24
+msgid "Finished"
+msgstr "Färdig"
+
+#: builds/constants.py:25 templates/core/build_list_detailed.html:7
+msgid "Cancelled"
+msgstr "Avbruten"
+
+#: builds/constants.py:34
+msgid "HTML"
+msgstr "HTML"
+
+#: builds/constants.py:35
+msgid "PDF"
+msgstr "PDF"
+
+#: builds/constants.py:36
+msgid "Epub"
+msgstr "Epub"
+
+#: builds/constants.py:40
+msgid "Manpage"
+msgstr "Manualsida"
+
+#: builds/constants.py:41
+msgid "Dash"
+msgstr "Tankestreck"
+
+#: builds/constants.py:50
+msgid "External"
+msgstr "Extern"
+
+#: builds/constants.py:53
+msgid "Branch"
+msgstr "Gren"
+
+#: builds/constants.py:55
+msgid "Tag"
+msgstr "Tagg"
+
+#: builds/constants.py:57 projects/constants.py:397
+msgid "Unknown"
+msgstr "Okänd"
+
+#: builds/constants.py:68
+msgid "Open"
+msgstr "Öppen"
+
+#: builds/constants.py:69
+msgid "Closed"
+msgstr "Stängd"
+
+#: builds/constants.py:140
+msgid "Any version"
+msgstr "Alla versioner"
+
+#: builds/constants.py:141
+msgid "SemVer versions"
+msgstr "SemVer-versioner"
+
+#: builds/constants.py:142
+msgid "Custom match"
+msgstr "Anpassad matchning"
+
+#: builds/filters.py:26 builds/models.py:129
+msgid "Active"
+msgstr "Aktiv"
+
+#: builds/filters.py:27
+msgid "Build successful"
+msgstr "Byggnationen lyckades"
+
+#: builds/filters.py:28 projects/models.py:1595 templates/builds/build_detail.html:160
+msgid "Build failed"
+msgstr "Byggnationen misslyckades"
+
+#: builds/filters.py:34
+msgid "Normal"
+msgstr "Normal"
+
+#: builds/filters.py:35
+msgid "Pull/merge request"
+msgstr "Begäran om pull/merge"
+
+#: builds/filters.py:41 projects/filters.py:198
+msgid "All versions"
+msgstr "Alla versioner"
+
+#: builds/filters.py:47 builds/models.py:131 builds/models.py:627
+msgid "State"
+msgstr "Tillstånd"
+
+#: builds/filters.py:49 builds/filters.py:55 projects/filters.py:209 projects/filters.py:219
+msgid "Any"
+msgstr "Alla"
+
+#: builds/filters.py:53 builds/models.py:89 builds/models.py:617
+msgid "Type"
+msgstr "Typ"
+
+#: builds/forms.py:47
+msgid "States"
+msgstr "Tillstånd"
+
+#: builds/forms.py:56 projects/filters.py:207
+msgid "Privacy"
+msgstr "Sekretess"
+
+#: builds/forms.py:91
+#, python-brace-format
+msgid "{version} is the default version of the project, it should be active."
+msgstr "{version} är standardversionen av projektet, den bör vara aktiv."
+
+#: builds/forms.py:107
+msgid "The slug can contain lowercase letters, numbers, dots, dashes or underscores, "
+msgstr "Sluggen kan innehålla gemener, siffror, prickar, bindestreck eller understreck, "
+
+#: builds/forms.py:116
+msgid "A version with that slug already exists."
+msgstr "En version med den sluggen finns redan."
+
+#: builds/forms.py:211
+msgid "Custom match should not be empty."
+msgstr "Anpassad matchning ska inte vara tom."
+
+#: builds/forms.py:218
+msgid "Invalid Python regular expression."
+msgstr "Ogiltigt reguljärt Python-uttryck."
+
+#: builds/models.py:102
+msgid "Identifier"
+msgstr "Identifierare"
+
+#: builds/models.py:108
+msgid "Verbose Name"
+msgstr "Utförligt namn"
+
+#: builds/models.py:115 oauth/models.py:36 organizations/models.py:52 projects/models.py:288
+msgid "Slug"
+msgstr "Slugg"
+
+#: builds/models.py:120
+msgid ""
+"A unique identifier used in the URL and links for this version. It can contain lowercase letters, numbers, dots, dashes or underscores. It must start "
+"with a lowercase letter or a number."
+msgstr ""
+"En unik identifierare som används i URL:en och länkarna för den här versionen. Den kan innehålla små bokstäver, siffror, punkter, bindestreck eller "
+"understreck. Den måste börja med en gemen bokstav eller en siffra."
+
+#: builds/models.py:127
+msgid "Supported"
+msgstr "Stöds"
+
+#: builds/models.py:136
+msgid "State of the PR/MR associated to this version."
+msgstr "Status för den PR/MR som är kopplad till denna version."
+
+#: builds/models.py:138
+msgid "Built"
+msgstr "Byggd"
+
+#: builds/models.py:143
+msgid "Uploaded"
+msgstr "Uppladdad"
+
+#: builds/models.py:146 projects/models.py:513
+msgid "Privacy Level"
+msgstr "Sekretessnivå"
+
+#: builds/models.py:150
+msgid "Level of privacy for this Version."
+msgstr "Sekretessnivå för denna version."
+
+#: builds/models.py:153
+msgid "Hidden"
+msgstr "Dold"
+
+#: builds/models.py:155
+msgid "Hide this version from the version (flyout) menu and search results?"
+msgstr "Dölj den här versionen från versionsmenyn (flyout) och sökresultaten?"
+
+#: builds/models.py:157
+msgid "Machine Created"
+msgstr "Maskin skapad"
+
+#: builds/models.py:160
+msgid "Has PDF"
+msgstr "Har PDF"
+
+#: builds/models.py:161
+msgid "Has ePub"
+msgstr "Har ePub"
+
+#: builds/models.py:162
+msgid "Has HTML Zip"
+msgstr "Har HTML Zip"
+
+#: builds/models.py:165 projects/models.py:600
+msgid "Documentation type"
+msgstr "Dokumentationstyp"
+
+#: builds/models.py:169
+msgid "Type of documentation the version was built with."
+msgstr "Typ av dokumentation som versionen byggdes med."
+
+#: builds/models.py:173
+msgid "Data generated at build time by the doctool (`readthedocs-build.yaml`)."
+msgstr "Data som genereras vid byggtiden av doctool (`readthedocs-build.yaml`)."
+
+#: builds/models.py:180
+msgid "Inject new addons js library for this version"
+msgstr "Injicera nytt js-bibliotek för tillägg för denna version"
+
+#: builds/models.py:639
+msgid "Status"
+msgstr "Status"
+
+#: builds/models.py:646 integrations/models.py:146
+msgid "Date"
+msgstr "Datum"
+
+#: builds/models.py:647
+msgid "Success"
+msgstr "Lyckades"
+
+#: builds/models.py:652
+msgid "Setup"
+msgstr "Konfiguration"
+
+#: builds/models.py:653
+msgid "Setup error"
+msgstr "Konfigurationsfel"
+
+#: builds/models.py:654
+msgid "Output"
+msgstr "Utmatning"
+
+#: builds/models.py:655 templates/builds/build_detail.html:261
+msgid "Error"
+msgstr "Fel"
+
+#: builds/models.py:656
+msgid "Exit code"
+msgstr "Avslutskod"
+
+#: builds/models.py:661 projects/models.py:1509
+msgid "Commit"
+msgstr "Arkivera"
+
+#: builds/models.py:667
+msgid "Version slug"
+msgstr "Versionens slugg"
+
+#: builds/models.py:673
+msgid "Version name"
+msgstr "Versionens namn"
+
+#: builds/models.py:679 builds/models.py:1104
+msgid "Version type"
+msgstr "Versionens typ"
+
+#: builds/models.py:686
+msgid "Configuration used in the build"
+msgstr "Konfiguration som används vid byggandet"
+
+#: builds/models.py:691
+msgid "Custom build configuration file path used in this build"
+msgstr "Sökväg till konfigurationsfilen för anpassad byggnation som används i denna byggnation"
+
+#: builds/models.py:699
+msgid "Build Length"
+msgstr "Bygglängd"
+
+#: builds/models.py:702
+msgid "Builder"
+msgstr "Byggare"
+
+#: builds/models.py:709
+msgid "Cold Storage"
+msgstr "Kall lagring"
+
+#: builds/models.py:715
+msgid "Celery task id"
+msgstr "Celery task id"
+
+#: builds/models.py:1008
+msgid "Build"
+msgstr "Bygg"
+
+#: builds/models.py:1013
+msgid "Command"
+msgstr "Kommando"
+
+#: builds/models.py:1014 builds/models.py:1068 oauth/models.py:131 organizations/models.py:66 projects/models.py:290 redirects/models.py:103
+#: templates/core/project_details.html:78
+msgid "Description"
+msgstr "Beskrivning"
+
+#: builds/models.py:1015
+msgid "Command output"
+msgstr "Kommandoutdata"
+
+#: builds/models.py:1016
+msgid "Command exit code"
+msgstr "Kommandots avslutskod"
+
+#: builds/models.py:1018
+msgid "Start time"
+msgstr "Starttid"
+
+#: builds/models.py:1019
+msgid "End time"
+msgstr "Sluttid"
+
+#: builds/models.py:1046
+msgid "Activate version"
+msgstr "Aktivera version"
+
+#: builds/models.py:1047
+msgid "Hide version"
+msgstr "Dölj version"
+
+#: builds/models.py:1048
+msgid "Make version public"
+msgstr "Gör versionen publik"
+
+#: builds/models.py:1049
+msgid "Make version private"
+msgstr "Gör versionen privat"
+
+#: builds/models.py:1050
+msgid "Set version as default"
+msgstr "Ställ in version som standard"
+
+#: builds/models.py:1051
+msgid "Delete version"
+msgstr "Ta bort version"
+
+#: builds/models.py:1063
+msgid "Rule priority"
+msgstr "Regelprioritet"
+
+#: builds/models.py:1064
+msgid "A lower number (0) means a higher priority"
+msgstr "En lägre siffra (0) innebär en högre prioritet"
+
+#: builds/models.py:1074
+msgid "Match argument"
+msgstr "Matchningsargument"
+
+#: builds/models.py:1075
+msgid "Value used for the rule to match the version"
+msgstr "Värde som används för att regeln ska matcha versionen"
+
+#: builds/models.py:1079
+msgid "Predefined match argument"
+msgstr "Fördefinierat matchningsargument"
+
+#: builds/models.py:1081
+msgid "Match argument defined by us, it is used if is not None, otherwise match_arg will be used."
+msgstr "Matchningsargument definierat av oss, det används om det inte är None, annars används match_arg."
+
+#: builds/models.py:1092
+msgid "Action to apply to matching versions"
+msgstr "Åtgärd för att tillämpa på matchande versioner"
+
+#: builds/models.py:1097
+msgid "Action argument"
+msgstr "Åtgärdsargument"
+
+#: builds/models.py:1098
+msgid "Value used for the action to perfom an operation"
+msgstr "Värde som används för åtgärden för att utföra en operation"
+
+#: builds/models.py:1105
+msgid "Type of version the rule should be applied to"
+msgstr "Typ av version som regeln ska tillämpas på"
+
+#: builds/models.py:1270
+msgid "Version activated"
+msgstr "Version aktiverad"
+
+#: builds/models.py:1271
+msgid "Version hidden"
+msgstr "Version dold"
+
+#: builds/models.py:1272
+msgid "Version set to public privacy"
+msgstr "Version inställd på offentlig integritet"
+
+#: builds/models.py:1273
+msgid "Version set to private privacy"
+msgstr "Version inställd på privat integritet"
+
+#: builds/models.py:1274
+msgid "Version set as default"
+msgstr "Version inställd som standard"
+
+#: builds/models.py:1275
+msgid "Version deleted"
+msgstr "Version raderad"
+
+#: builds/models.py:1280
+msgid "Matched rule"
+msgstr "Matchad regel"
+
+#: builds/tasks.py:527
+#, python-brace-format
+msgid "Failed: {project[name]} ({commit})"
+msgstr "Misslyckades: {project[name]} ({commit})"
+
+#: builds/tasks.py:532
+#, python-brace-format
+msgid "Failed: {project[name]} ({version[verbose_name]})"
+msgstr "Misslyckades: {project[name]} ({version[verbose_name]})"
+
+#: builds/version_slug.py:50
+msgid "Enter a valid slug consisting of lowercase letters, numbers, dots, dashes or underscores. It must start with a letter or a number."
+msgstr "Ange en giltig slug bestående av gemener, siffror, prickar, bindestreck eller understreck. Den måste börja med en bokstav eller en siffra."
+
+#: config/notifications.py:19
+msgid "There was an unexpected problem in your config file"
+msgstr "Det uppstod ett oväntat problem i din konfigurationsfil"
+
+#: config/notifications.py:32
+msgid "Config file not found at default path"
+msgstr "Konfigurationsfilen hittades inte på standardsökvägen"
+
+#: config/notifications.py:45
+msgid "Configuration file not found"
+msgstr "Konfigurationsfilen hittades inte"
+
+#: config/notifications.py:57
+msgid "Configuration key not supported in this version"
+msgstr "Konfigurationsnyckel stöds inte i denna version"
+
+#: config/notifications.py:69 config/notifications.py:83 config/notifications.py:195 config/notifications.py:207
+msgid "Invalid configuration key"
+msgstr "Ogiltig konfigurationsnyckel"
+
+#: config/notifications.py:97
+msgid "Invalid configuration version"
+msgstr "Ogiltig konfigurationsversion"
+
+#: config/notifications.py:109
+msgid "Missing configuration option"
+msgstr "Saknar konfigurationsalternativ"
+
+#: config/notifications.py:121 config/notifications.py:133
+msgid "Invalid configuration option"
+msgstr "Ogiltigt konfigurationsalternativ"
+
+#: config/notifications.py:145 config/notifications.py:157
+msgid "Invalid APT package name"
+msgstr "Ogiltigt APT-paketnamn"
+
+#: config/notifications.py:169
+msgid "Invalid Python install method"
+msgstr "Ogiltig Python-installationsmetod"
+
+#: config/notifications.py:182
+msgid "Missing configuration key"
+msgstr "Konfigurationsnyckel saknas"
+
+#: config/notifications.py:219
+msgid "Invalid configuration key: {{key}}"
+msgstr "Ogiltig konfigurationsnyckel: {{key}}"
+
+#: config/notifications.py:231
+msgid "Invalid syntax in configuration file"
+msgstr "Ogiltig syntax i konfigurationsfilen"
+
+#: config/notifications.py:246
+msgid "Missing required key"
+msgstr "Saknar nödvändig nyckel"
+
+#: config/notifications.py:263 config/notifications.py:277 config/notifications.py:292 config/notifications.py:305 config/notifications.py:318
+#: config/notifications.py:331 config/notifications.py:344 config/notifications.py:357
+msgid "Config file validation error"
+msgstr "Fel vid validering av konfigurationsfil"
+
+#: config/notifications.py:370
+msgid "Missing Sphinx configuration key"
+msgstr "Konfigurationsnyckel för Sphinx saknas"
+
+#: config/notifications.py:383
+msgid "Missing MkDocs configuration key"
+msgstr "MkDocs-konfigurationsnyckel saknas"
+
+#: core/admin.py:39
+msgid "user projects"
+msgstr "användarprojekt"
+
+#: core/admin.py:47
+msgid "has active project"
+msgstr "har aktivt projekt"
+
+#: core/admin.py:48
+msgid "has built project"
+msgstr "har byggt projekt"
+
+#: core/admin.py:49
+msgid "has project with recent builds"
+msgstr "har nyligen byggda projekt"
+
+#: core/forms.py:20
+msgid "First name"
+msgstr "Förnamn"
+
+#: core/forms.py:21
+msgid "Last name"
+msgstr "Efternamn"
+
+#: core/forms.py:58
+msgid "Please type your username to confirm."
+msgstr "Ange ditt användarnamn för att bekräfta."
+
+#: core/forms.py:69
+msgid "Username does not match!"
+msgstr "Användarnamnet matchar inte!"
+
+#: core/forms.py:189
+msgid "Explanation of the issue"
+msgstr "Förklaring av frågan"
+
+#: core/forms.py:190
+msgid "Please provide as much detail as possible."
+msgstr "Ange så många detaljer som möjligt."
+
+#: core/forms.py:194 projects/models.py:1610
+msgid "URL"
+msgstr "URL"
+
+#: core/forms.py:195
+msgid "Is there a specific page this happened?"
+msgstr "Finns det någon specifik sida där detta hände?"
+
+#: core/forms.py:199
+msgid "Screenshot or additional file"
+msgstr "Skärmdump eller ytterligare fil"
+
+#: core/forms.py:200
+msgid "Anything else that would help us solve this issue?"
+msgstr "Något annat som kan hjälpa oss att lösa problemet?"
+
+#: core/forms.py:205
+msgid "Low"
+msgstr "Låg"
+
+#: core/forms.py:206
+msgid "Medium"
+msgstr "Medium"
+
+#: core/forms.py:207
+msgid "High"
+msgstr "Hög"
+
+#: core/forms.py:209
+msgid "Please rate the severity of this event."
+msgstr "Gradera allvarlighetsgraden av denna händelse."
+
+#: core/forms.py:229
+msgid "This option is only enabled for Gold users."
+msgstr "Detta alternativ är endast aktiverat för Gold-användare."
+
+#: core/history.py:66
+msgid "ID"
+msgstr "ID"
+
+#: core/history.py:71
+msgid "username"
+msgstr "användarnamn"
+
+#: core/models.py:24
+msgid "Homepage"
+msgstr "Startsida"
+
+#: core/models.py:28
+msgid "See paid advertising"
+msgstr "Visa betald marknadsföring"
+
+#: core/models.py:29
+msgid "If unchecked, you will still see community ads."
+msgstr "Om den inte är markerad kommer du fortfarande att se gemenskapsannonser."
+
+#: core/models.py:35
+msgid "Subscribe to our mailing list, and get helpful onboarding suggestions."
+msgstr "Prenumerera på vår sändlista och få användbara förslag på onboarding."
+
+#: core/models.py:39
+msgid "Whitelisted"
+msgstr "Vitlistad"
+
+#: core/models.py:40
+msgid "Banned"
+msgstr "Avstängd"
+
+#: core/notifications.py:18
+msgid "Email address not verified"
+msgstr "E-postadressen är inte verifierad"
+
+#: doc_builder/environments.py:348
+msgid ""
+"\n"
+"\n"
+"Command killed due to timeout or excessive memory consumption\n"
+msgstr ""
+"\n"
+"\n"
+"Kommandot avbröts på grund av tidsgräns eller för hög minnesförbrukning\n"
+
+#: doc_builder/environments.py:354
+msgid "Command exited abnormally"
+msgstr "Kommandot avslutades onormalt"
+
+#: doc_builder/environments.py:619
+msgid "A build environment is currently running for this version"
+msgstr "En byggmiljö är för närvarande igång för denna version"
+
+#: doc_builder/exceptions.py:20
+msgid "Build user exception"
+msgstr "Skapa undantag för användare"
+
+#: doc_builder/exceptions.py:24
+msgid "Build application exception"
+msgstr "Bygg undantag för applikation"
+
+#: domains/notifications.py:25
+msgid "Pending configuration of custom domain: {{domain}}"
+msgstr "Väntar på konfiguration av anpassad domän: {{domain}}"
+
+#: domains/notifications.py:41
+msgid "Validation of custom domain expired: {{domain}}"
+msgstr "Validering av anpassad domän har löpt ut: {{domain}}"
+
+#: domains/validators.py:17
+#, python-brace-format
+msgid "This project has reached the limit of {feature.value} domains. Consider removing unused domains."
+msgstr "Detta projekt har nått gränsen på {feature.value} domäner. Överväg att ta bort oanvända domäner."
+
+#: domains/validators.py:22
+#, python-brace-format
+msgid "Your organization has reached the limit of {feature.value} domains. Consider removing unused domains or upgrading your plan."
+msgstr "Din organisation har nått gränsen på {feature.value} domäner. Överväg att ta bort oanvända domäner eller uppgradera din plan."
+
+#: gold/forms.py:49
+msgid "No project found."
+msgstr "Inget projekt hittades."
+
+#: gold/forms.py:51
+msgid "This project is already Ad-Free."
+msgstr "Detta projekt är redan reklamfritt."
+
+#: gold/models.py:29 organizations/models.py:33 organizations/models.py:223 organizations/models.py:296 projects/models.py:277
+msgid "Publication date"
+msgstr "Publiceringsdatum"
+
+#: gold/models.py:30 organizations/models.py:34 organizations/models.py:224 organizations/models.py:297 projects/models.py:278 projects/models.py:1511
+msgid "Modified date"
+msgstr "Ändringsdatum"
+
+#: gold/models.py:40 gold/templates/gold/subscription_detail.html:86
+msgid "Level"
+msgstr "Nivå"
+
+#: gold/models.py:47 organizations/models.py:39 organizations/models.py:234 organizations/templates/organizations/team_detail.html:49
+#: organizations/templates/organizations/team_project_edit.html:13 templates/core/project_bar.html:7 templates/core/project_bar_base.html:20
+#: templates/projects/project_dashboard_base.html:56 templates/search/elastic_search.html:32 templates/search/elastic_search.html:38
+msgid "Projects"
+msgstr "Projekt"
+
+#: gold/templates/gold/projects.html:7 gold/templates/gold/projects.html:12
+msgid "Gold Projects"
+msgstr "Guldprojekt"
+
+#: gold/templates/gold/projects.html:14 gold/templates/gold/subscription_detail.html:46
+msgid "Gold members may completely remove advertising for all visitors to their projects."
+msgstr "Guldmedlemmar kan helt ta bort reklam för alla besökare till sina projekt."
+
+#: gold/templates/gold/projects.html:20 gold/templates/gold/subscription_detail.html:52
+msgid "For small businesses or personal projects, we ask for $5 per month to remove ads from a project."
+msgstr "För små företag eller personliga projekt ber vi om 5 USD per månad för att ta bort annonser från ett projekt."
+
+#: gold/templates/gold/projects.html:21 gold/templates/gold/subscription_detail.html:53
+msgid "For corporate supported open source projects, we ask for a $50 membership in order to cover our support and operations costs."
+msgstr "För projekt med öppen källkod som stöds av företag ber vi om ett medlemskap på 50 USD för att täcka våra support- och driftskostnader."
+
+#: gold/templates/gold/projects.html:24
+msgid "Ad-free projects"
+msgstr "Annonsfria projekt"
+
+#: gold/templates/gold/projects.html:39
+msgid "Remove Ad-Free Status"
+msgstr "Ta bort Ad-Free Status"
+
+#: gold/templates/gold/projects.html:39 organizations/templates/organizations/includes/member_list.html:21
+#: organizations/templates/organizations/includes/team_member_list.html:12 organizations/templates/organizations/team_delete.html:22
+#: templates/account/email.html:38 templates/projects/domain_list.html:40 templates/projects/environmentvariable_list.html:45
+#: templates/projects/project_notifications.html:66 templates/projects/project_translations.html:57 templates/projects/project_users.html:34
+msgid "Remove"
+msgstr "Ta bort"
+
+#: gold/templates/gold/projects.html:47
+msgid "No projects are currently ad-free."
+msgstr "Inga projekt är för närvarande reklamfria."
+
+#: gold/templates/gold/projects.html:56
+msgid "Make a project ad-free"
+msgstr "Gör ett projekt reklamfritt"
+
+#: gold/templates/gold/projects.html:59
+msgid "Choose which project you would like to make ad-free."
+msgstr "Välj vilket projekt du vill göra reklamfritt."
+
+#: gold/templates/gold/projects.html:64
+msgid "Make Project Ad-Free"
+msgstr "Gör projektet reklamfritt"
+
+#: gold/templates/gold/projects.html:69
+#, python-format
+msgid ""
+"You can't make any more projects ad-free with your current Gold membership of %(gold_level)s. You can either increase the level of your membership or "
+"change which projects you make ad-free."
+msgstr ""
+"Du kan inte göra fler projekt reklamfria med ditt nuvarande guldmedlemskap på %(gold_level)s. Du kan antingen höja nivån på ditt medlemskap eller "
+"ändra vilka projekt du gör reklamfria."
+
+#: gold/templates/gold/subscription_detail.html:35
+msgid "Read the Docs Gold Membership"
+msgstr "Read the Docs Guldmedlemskap"
+
+#: gold/templates/gold/subscription_detail.html:38
+msgid ""
+"Supporting Read the Docs lets us work more on features that people love. Your money will go directly to maintenance and development of the product."
+msgstr ""
+"Att ge sitt stöd till Read the Docs låter oss arbeta på fler funktioner som folk älskar. Dina pengar går direkt till underhåll och utveckling av "
+"produkten."
+
+#: gold/templates/gold/subscription_detail.html:57
+msgid ""
+"If you are a company using Read the Docs, please consider <a href=\"https://readthedocs.com/\">Read the Docs for Business</a>. This will help us cover "
+"our costs, and provide you with a better experience on the site."
+msgstr ""
+"Om du är ett företag som använder Read the Docs kan du överväga <a href=\"https://readthedocs.com/\">Read the Docs for Business.</a> Det hjälper oss "
+"att täcka våra kostnader och ger dig en bättre upplevelse på webbplatsen."
+
+#: gold/templates/gold/subscription_detail.html:66
+#, python-format
+msgid ""
+"For any questions about our Gold membership program, please <a href=\"mailto:rev@readthedocs.org?subject=Gold%%20membership%%20questions\">email us</"
+"a>."
+msgstr ""
+"Om du har några frågor om vårt Gold-medlemskapsprogram, kontakta oss via <a href=\"mailto:rev@readthedocs.org?"
+"subject=Gold%%20membership%%20questions\">e-post</a>."
+
+#: gold/templates/gold/subscription_detail.html:74
+msgid "Your Gold membership"
+msgstr "Ditt guldmedlemskap"
+
+#: gold/templates/gold/subscription_detail.html:80
+msgid "Thanks for supporting Read the Docs! It really means a lot to us."
+msgstr "Tack för att du ger ditt stöd till Read the Docs! Det betyder verkligen mycket."
+
+#: gold/templates/gold/subscription_detail.html:92 subscriptions/templates/subscriptions/subscription_detail.html:103
+msgid "Manage subscription"
+msgstr "Hantera prenumeration"
+
+#: gold/templates/gold/subscription_detail.html:95
+msgid "Gold projects"
+msgstr "Guldprojekt"
+
+#: gold/templates/gold/subscription_detail.html:96
+msgid "Choose projects you would like to make ad-free."
+msgstr "Välj projekt som du vill göra reklamfria."
+
+#: gold/templates/gold/subscription_detail.html:99
+msgid "Select Projects"
+msgstr "Välj projekt"
+
+#: gold/templates/gold/subscription_detail.html:103
+msgid "Become a Gold member"
+msgstr "Bli Gold-medlem"
+
+#: gold/templates/gold/subscription_detail.html:111 templates/account/signup.html:10 templates/account/signup.html:46
+msgid "Sign Up"
+msgstr "Registera dig"
+
+#: gold/views.py:186 subscriptions/views.py:185
+msgid "There was an error connecting to Stripe, please try again in a few minutes"
+msgstr "Det uppstod ett fel vid anslutningen till Stripe, försök igen om några minuter"
+
+#: integrations/models.py:149 integrations/models.py:157
+msgid "Request headers"
+msgstr "Rubriker för begäran"
+
+#: integrations/models.py:154
+msgid "Request body"
+msgstr "Brödtext för begäran"
+
+#: integrations/models.py:162
+msgid "Response body"
+msgstr "Respons för begäran"
+
+#: integrations/models.py:165
+msgid "Status code"
+msgstr "Statuskod"
+
+#: integrations/models.py:176
+#, python-brace-format
+msgid "Exchange {0}"
+msgstr "Utbyte {0}"
+
+#: integrations/models.py:272
+msgid "GitHub incoming webhook"
+msgstr "Inkommande webhook från GitHub"
+
+#: integrations/models.py:273
+msgid "Bitbucket incoming webhook"
+msgstr "Inkommande webhook från Bitbucket"
+
+#: integrations/models.py:274
+msgid "GitLab incoming webhook"
+msgstr "Inkommande webhook från GitLab"
+
+#: integrations/models.py:275
+msgid "Generic API incoming webhook"
+msgstr "Inkommande webhook för generiskt API"
+
+#: integrations/models.py:286
+msgid "Integration type"
+msgstr "Integrationstyp"
+
+#: integrations/models.py:291
+msgid "Provider data"
+msgstr "Uppgifter om leverantör"
+
+#: integrations/models.py:300
+msgid "Secret used to validate the payload of the webhook"
+msgstr "Hemlighet som används för att validera webhookens nyttolast"
+
+#: invitations/models.py:100
+msgid "From user"
+msgstr "Från användare"
+
+#: invitations/models.py:106
+msgid "To user"
+msgstr "Till användare"
+
+#: invitations/models.py:112 organizations/models.py:312
+msgid "E-mail"
+msgstr "E-post"
+
+#: invitations/models.py:117
+msgid "Expiration date"
+msgstr "Förfallodatum"
+
+#: invitations/templates/invitations/includes/invitation_list.html:19
+msgid "Invitation expired"
+msgstr "Inbjudan har löpt ut"
+
+#: invitations/templates/invitations/includes/invitation_list.html:21
+msgid "Invitation pending"
+msgstr "Inbjudan avvaktar"
+
+#: invitations/templates/invitations/includes/invitation_list.html:28 templates/profiles/private/token_list.html:45
+msgid "Revoke"
+msgstr "Återkalla"
+
+#: invitations/templates/invitations/invitation_detail.html:5
+msgid "Invitation request"
+msgstr "Begäran om inbjudan"
+
+#: invitations/templates/invitations/invitation_detail.html:12
+#, python-format
+msgid "<a href=\"%(requestor_url)s\">%(requestor_name)s</a> has invited you to join the <code>%(target_name)s</code> %(target_type)s."
+msgstr "<a href=\"%(requestor_url)s\">%(requestor_name)s</a> har bjudit in dig att delta i <code>%(target_name)s</code> %(target_type)s."
+
+#: invitations/templates/invitations/invitation_detail.html:22
+msgid "Your invitation has expired."
+msgstr "Din inbjudan har löpt ut."
+
+#: invitations/templates/invitations/invitation_detail.html:24
+msgid "Ask the admin of the organization to invite you again."
+msgstr "Be organisationens administratör att bjuda in dig igen."
+
+#: invitations/templates/invitations/invitation_detail.html:26
+msgid "Ask the admin of the project to invite you again."
+msgstr "Be administratören för projektet att bjuda in dig igen."
+
+#: invitations/templates/invitations/invitation_detail.html:31
+#, python-format
+msgid "This invitation will expire in <span title=\"%(expiration_date)s\">%(valid_until)s</span>."
+msgstr "Denna inbjudan upphör att gälla om <span title=\"%(expiration_date)s\">%(valid_until)s</span>."
+
+#: invitations/templates/invitations/invitation_detail.html:39
+msgid "Accept"
+msgstr "Acceptera"
+
+#: invitations/templates/invitations/invitation_detail.html:40
+msgid "Decline"
+msgstr "Avböj"
+
+#: notifications/exceptions.py:12
+msgid "Undefined error"
+msgstr "Odefinierat fel"
+
+#: notifications/messages.py:88 notifications/messages.py:132
+msgid "Unknown problem"
+msgstr "Okänt problem"
+
+#: notifications/messages.py:105
+msgid "There was a problem while updating your documentation"
+msgstr "Det uppstod ett problem när du uppdaterade din dokumentation"
+
+#: notifications/messages.py:118
+msgid "Build terminated due to inactivity"
+msgstr "Byggnaden har avslutats på grund av inaktivitet"
+
+#: notifications/messages.py:146
+msgid "Maximum concurrency limit reached."
+msgstr "Den maximala gränsen för samtidighet har uppnåtts."
+
+#: notifications/messages.py:159
+msgid "Build cancelled manually."
+msgstr "Byggnationen avbröts manuellt."
+
+#: notifications/messages.py:171
+msgid "Build skipped."
+msgstr "Byggnation hoppades över."
+
+#: notifications/messages.py:184
+msgid "Build terminated due to time out."
+msgstr "Byggnationen avbröts på grund av tidsgräns."
+
+#: notifications/messages.py:197
+msgid "Build terminated due to excessive memory consumption."
+msgstr "Bygget avslutades på grund av för hög minnesförbrukning."
+
+#: notifications/messages.py:210
+msgid "Build used a deprecated VCS is not supported: {{vcs}}."
+msgstr "Bygget använde en föråldrad VCS som inte stöds: {{vcs}}."
+
+#: notifications/messages.py:223
+msgid "Build terminated due to unknown error."
+msgstr "Byggnationen avbröts på grund av ett okänt fel."
+
+#: notifications/messages.py:235
+msgid "Builds are temporary disabled for this project."
+msgstr "Byggnationer är tillfälligt inaktiverade för detta projekt."
+
+#: notifications/messages.py:249
+msgid "No HTML content found"
+msgstr "Inget HTML-innehåll hittades"
+
+#: notifications/messages.py:262
+msgid "Build output directory is not a directory"
+msgstr "Build-utdatakatalogen är inte en katalog"
+
+#: notifications/messages.py:275
+msgid "Build output directory doesn't contain any file"
+msgstr "Build-utdatakatalogen innehåller inte någon fil"
+
+#: notifications/messages.py:288
+msgid "Build output directory contains multiple files"
+msgstr "Build-utdatakatalogen innehåller flera filer"
+
+#: notifications/messages.py:302
+msgid "Index file is not present in HTML output directory"
+msgstr "Indexfilen finns inte i HTML-utdatakatalogen"
+
+#: notifications/messages.py:315
+msgid "Your project is outputing files in an old directory"
+msgstr "Ditt projekt matar ut filer i en gammal katalog"
+
+#: notifications/messages.py:329
+msgid "Your project doesn't have a <code>.readthedocs.yaml</code> file"
+msgstr "Ditt projekt har inte en <code>.readthedocs.yaml-fil</code>"
+
+#: notifications/messages.py:343
+msgid "Configuration key <code>build.image</code> is deprecated"
+msgstr "Konfigurationsnyckeln <code>build.image</code> är föråldrad"
+
+#: notifications/messages.py:357
+msgid "Configuration key <code>build.os</code> is required"
+msgstr "Konfigurationsnyckel <code>build.os</code> krävs"
+
+#: notifications/messages.py:371
+msgid "There is at least one file that exceeds the size limit"
+msgstr "Det finns minst en fil som överskrider storleksgränsen"
+
+#: notifications/messages.py:384
+msgid "There is no PDF file in output directory"
+msgstr "Det finns ingen PDF-fil i utdatakatalogen"
+
+#: notifications/messages.py:397
+msgid "Config key <code>build.commands</code> is in beta"
+msgstr "Konfigurationsnyckeln <code>build.commands</code> är i betaversion"
+
+#: notifications/messages.py:410
+msgid "No TeX files were found"
+msgstr "Inga TeX-filer hittades"
+
+#: notifications/messages.py:437
+msgid "MkDocs <code>docs_dir</code> configuration option is invalid"
+msgstr "MkDocs <code>docs_dir-konfigurationsalternativet</code> är ogiltigt"
+
+#: notifications/messages.py:450
+msgid "MkDocs <code>docs_dir</code> path not found"
+msgstr "MkDocs <code>docs_dir</code> sökväg hittades inte"
+
+#: notifications/messages.py:463
+msgid "MkDocs <code>{{extra_config}}</code> configuration option is invalid"
+msgstr "MkDocs <code>{{extra_config}}</code> konfigurationsalternativet är ogiltigt"
+
+#: notifications/messages.py:476
+msgid "MkDocs configuration file is empty"
+msgstr "MkDocs konfigurationsfil är tom"
+
+#: notifications/messages.py:488
+msgid "MkDocs configuration file not found"
+msgstr "MkDocs konfigurationsfil hittades inte"
+
+#: notifications/messages.py:502
+msgid "Unknown error when loading your MkDocs configuration file"
+msgstr "Okänt fel vid inläsning av MkDocs konfigurationsfil"
+
+#: notifications/messages.py:516
+msgid "Syntax error in <code>mkdocs.yml</code>"
+msgstr "Syntaxfel i <code>mkdocs.yml</code>"
+
+#: notifications/models.py:44
+msgid "Show under bell icon"
+msgstr "Visa under klocksymbol"
+
+#: oauth/models.py:32 oauth/models.py:112 organizations/models.py:240
+msgid "Users"
+msgstr "Användare"
+
+#: oauth/models.py:37 oauth/models.py:124 organizations/filters.py:56 organizations/filters.py:62 organizations/models.py:50 organizations/models.py:247
+#: projects/filters.py:48 projects/filters.py:113 projects/models.py:287 projects/models.py:1503
+msgid "Name"
+msgstr "Namn"
+
+#: oauth/models.py:38 organizations/models.py:59 templates/base.html:167
+msgid "Email"
+msgstr "E-post"
+
+#: oauth/models.py:40
+msgid "Avatar image URL"
+msgstr "URL för avatarbild"
+
+#: oauth/models.py:46
+msgid "URL to organization page"
+msgstr "URL till organisationssida"
+
+#: oauth/models.py:53 oauth/models.py:174
+msgid "VCS provider"
+msgstr "VCS-leverantör"
+
+#: oauth/models.py:90 oauth/models.py:249
+msgid "Connected account"
+msgstr "Anslutet konto"
+
+#: oauth/models.py:126
+msgid "Full Name"
+msgstr "Fullständigt namn"
+
+#: oauth/models.py:134
+msgid "Description of the project"
+msgstr "Projektets beskrivning"
+
+#: oauth/models.py:137
+msgid "Owner avatar image URL"
+msgstr "URL för ägarens avatarbild"
+
+#: oauth/models.py:144
+msgid "SSH URL"
+msgstr "SSH URL"
+
+#: oauth/models.py:150
+msgid "Repository clone URL"
+msgstr "URL för klonat arkiv"
+
+#: oauth/models.py:157
+msgid "HTML URL"
+msgstr "HTML URL"
+
+#: oauth/models.py:159
+msgid "Private repository"
+msgstr "Privat arkiv"
+
+#: oauth/models.py:161
+msgid "vcs"
+msgstr "vcs"
+
+#: oauth/models.py:167
+msgid "Default branch of the repository"
+msgstr "Standardgren för arkivet"
+
+#: oauth/models.py:253
+msgid "Has admin privilege"
+msgstr "Har adminrättigheter"
+
+#: oauth/notifications.py:21 oauth/notifications.py:34
+msgid "Unable to attach webhook to this project"
+msgstr "Det går inte att koppla webhook till det här projektet"
+
+#: oauth/notifications.py:47
+msgid "The project doesn't have a valid webhook set up"
+msgstr "Projektet har inte en giltig webhook konfigurerad"
+
+#: oauth/notifications.py:61
+msgid "{{provider_name}} build status report failed"
+msgstr "{{provider_name}} byggstatusrapporten misslyckades"
+
+#: oauth/notifications.py:76
+msgid "Failed to add deploy key to project"
+msgstr "Misslyckades med att lägga till deploy-nyckel till projektet"
+
+#: oauth/services/base.py:26
+#, python-brace-format
+msgid "Our access to your following accounts was revoked: {provider}. Please, reconnect them from your social account connections."
+msgstr "Vår tillgång till följande konton har återkallats: {provider}. Återanslut dem från dina sociala kontoanslutningar."
+
+#: oauth/utils.py:41
+msgid "This integration type is not compatible with the project's Git provider."
+msgstr "Den här integrationstypen är inte kompatibel med projektets Git-leverantör."
+
+#: oauth/utils.py:50
+msgid "Webhook activated"
+msgstr "Webhook aktiverad"
+
+#: oauth/utils.py:58
+msgid "Webhook activation failed. Make sure you have the necessary permissions."
+msgstr "Webhook-aktiveringen misslyckades. Kontrollera att du har de nödvändiga behörigheterna."
+
+#: organizations/constants.py:10
+msgid "Read-only"
+msgstr "Endast läs"
+
+#: organizations/constants.py:11 templates/core/project_bar_base.html:44 templates/profiles/base_profile.html:29
+#: templates/profiles/base_profile_edit.html:31
+msgid "Admin"
+msgstr "Admin"
+
+#: organizations/filters.py:60
+msgid "Recently created"
+msgstr "Nyligen skapade"
+
+#: organizations/filters.py:61
+msgid "Least recently created"
+msgstr "Minst nyligen skapade"
+
+#: organizations/filters.py:63 projects/filters.py:49 projects/filters.py:114
+msgid "Name (descending)"
+msgstr "Namn (i fallande ordning)"
+
+#: organizations/filters.py:95
+msgid "All organizations"
+msgstr "Alla organisationer"
+
+#: organizations/filters.py:104 projects/filters.py:163 projects/filters.py:224
+msgid "Sort by"
+msgstr "Sortera efter"
+
+#: organizations/filters.py:134 projects/filters.py:154
+msgid "All projects"
+msgstr "Alla projekt"
+
+#: organizations/filters.py:142 organizations/filters.py:172 organizations/filters.py:219 organizations/models.py:307 templates/base.html:203
+msgid "Team"
+msgstr "Team"
+
+#: organizations/filters.py:143 organizations/filters.py:173 organizations/filters.py:220
+msgid "All teams"
+msgstr "Alla team"
+
+#: organizations/filters.py:228 organizations/models.py:254
+msgid "Access"
+msgstr "Åtkomst"
+
+#: organizations/filters.py:229
+msgid "All access levels"
+msgstr "Alla åtkomstnivåer"
+
+#: organizations/filters.py:230
+msgid "Owner"
+msgstr "Ägare"
+
+#: organizations/forms.py:41 organizations/forms.py:97
+msgid "Organization Name"
+msgstr "Organisationsnamn"
+
+#: organizations/forms.py:42 organizations/forms.py:98
+msgid "Billing Email"
+msgstr "E-postadress för fakturering"
+
+#: organizations/forms.py:73
+msgid "Invalid organization name: no slug generated"
+msgstr "Ogiltigt organisationsnamn: ingen slug genererad"
+
+#: organizations/forms.py:76
+#, python-format
+msgid "Organization %(name)s already exists"
+msgstr "Organisation %(name)s finns redan"
+
+#: organizations/forms.py:131 organizations/forms.py:213 projects/forms.py:736
+msgid "Email address or username"
+msgstr "E-postadress eller användarnamn"
+
+#: organizations/forms.py:146 organizations/forms.py:247 projects/forms.py:750
+#, python-format
+msgid "User %(username)s does not exist"
+msgstr "Användaren %(username)s finns inte"
+
+#: organizations/forms.py:151
+#, python-format
+msgid "User %(username)s is already an owner"
+msgstr "Användare %(username)s är redan ägare"
+
+#: organizations/forms.py:174
+msgid "Team already exists"
+msgstr "Teamet finns redan"
+
+#: organizations/forms.py:254
+msgid "User is already a team member"
+msgstr "Användaren är redan medlem i teamet"
+
+#: organizations/models.py:44 organizations/templates/organizations/admin/base.html:13
+msgid "Owners"
+msgstr "Ägare"
+
+#: organizations/models.py:72 templates/core/project_detail_right.html:61
+msgid "Home Page"
+msgstr "Hemsida"
+
+#: organizations/models.py:79
+msgid "Never disable"
+msgstr "Inaktivera aldrig"
+
+#: organizations/models.py:86
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#: organizations/models.py:91
+msgid "Artifacts Cleaned"
+msgstr "Artefakter tömda"
+
+#: organizations/models.py:96
+msgid "Maximum concurrent builds allowed for this organization"
+msgstr "Maximalt antal samtidiga byggnationer som tillåts för den här organisationen"
+
+#: organizations/models.py:103
+msgid "Stripe customer ID"
+msgstr "Stripe kund-ID"
+
+#: organizations/models.py:110
+msgid "Stripe customer"
+msgstr "Stripe kund"
+
+#: organizations/models.py:118
+msgid "Stripe subscription"
+msgstr "Stripe-abonnemang"
+
+#: organizations/models.py:138
+msgid "organization"
+msgstr "organisation"
+
+#: organizations/models.py:271
+msgid "team"
+msgstr "grupp"
+
+#: organizations/models.py:313
+msgid "Hash"
+msgstr "Hash"
+
+#: organizations/models.py:314
+msgid "Count"
+msgstr "Antal"
+
+#: organizations/models.py:315
+msgid "Total"
+msgstr "Totalt"
+
+#: organizations/templates/organizations/admin/base.html:12 organizations/templates/organizations/admin/organization_edit.html:9
+#: organizations/templates/organizations/base.html:31 templates/profiles/base_profile_edit.html:48 templates/projects/domain_list.html:39
+msgid "Details"
+msgstr "Detaljer"
+
+#: organizations/templates/organizations/admin/base.html:14 templates/profiles/base_profile_edit.html:52 templates/profiles/private/security_log.html:6
+#: templates/profiles/private/security_log.html:10
+msgid "Security Log"
+msgstr "Säkerhetslogg"
+
+#: organizations/templates/organizations/admin/organization_delete.html:5 organizations/templates/organizations/admin/organization_delete.html:11
+msgid "Delete Organization"
+msgstr "Ta bort organisation"
+
+#: organizations/templates/organizations/admin/organization_delete.html:13
+msgid ""
+"\n"
+"        Deleting this organization will also remove all the organization's\n"
+"        teams, users, projects, and built documentation.  Are you sure that it\n"
+"        is safe to remove this organization?\n"
+"      "
+msgstr ""
+"\n"
+"        Om du tar bort den här organisationen tas även alla organisationens\n"
+"        team, användare, projekt och byggd dokumentation.  Är du säker på att det är\n"
+"        är säkert att ta bort den här organisationen?\n"
+"      "
+
+#: organizations/templates/organizations/admin/organization_delete.html:23 templates/projects/project_delete.html:24
+msgid "Delete forever"
+msgstr "Ta bort permanent"
+
+#: organizations/templates/organizations/admin/organization_edit.html:5
+msgid "Edit Organization"
+msgstr "Redigera organisation"
+
+#: organizations/templates/organizations/admin/organization_edit.html:15 redirects/templates/redirects/redirect_form.html:80
+#: templates/builds/regexautomationrule_form.html:28 templates/profiles/private/edit_profile.html:14 templates/projects/environmentvariable_form.html:20
+#: templates/projects/project_edit.html:19 templates/projects/project_version_submit.html:4 templates/projects/webhook_form.html:38
+msgid "Save"
+msgstr "Spara"
+
+#. Translators: The 'or' here is in between 'Save' and 'Delete organization'.
+#: organizations/templates/organizations/admin/organization_edit.html:17 templates/core/home-header.html:19
+msgid "or"
+msgstr "eller"
+
+#: organizations/templates/organizations/admin/organization_edit.html:18
+msgid "Delete organization"
+msgstr "Ta bort organisation"
+
+#: organizations/templates/organizations/admin/owners_edit.html:5
+msgid "Edit Organization Owners"
+msgstr "Redigera organisationsägare"
+
+#: organizations/templates/organizations/admin/owners_edit.html:13
+msgid "Owners have full access to this Organization"
+msgstr "Ägarna har full tillgång till denna organisation"
+
+#: organizations/templates/organizations/admin/owners_edit.html:48 organizations/templates/organizations/admin/owners_edit.html:52
+#: organizations/templates/organizations/team_list.html:51
+msgid "Add Owner"
+msgstr "Lägg till ägare"
+
+#: organizations/templates/organizations/base.html:18 organizations/templates/organizations/base_team.html:19
+msgid "Organizations"
+msgstr "Organisationer"
+
+#: organizations/templates/organizations/base.html:32 organizations/templates/organizations/team_list.html:7
+msgid "Teams"
+msgstr "Team"
+
+#: organizations/templates/organizations/base.html:34 organizations/templates/organizations/member_list.html:7
+#: organizations/templates/organizations/team_detail.html:40
+msgid "Members"
+msgstr "Medlemmar"
+
+#: organizations/templates/organizations/base.html:37 templates/core/header.html:29 templates/projects/project_edit.html:13
+#: templates/projects/project_edit_base.html:17
+msgid "Settings"
+msgstr "Inställningar"
+
+#: organizations/templates/organizations/includes/team_member_list.html:25
+msgid "invite pending"
+msgstr "inbjudan väntar"
+
+#: organizations/templates/organizations/includes/team_member_list.html:34
+msgid "This team doesn't have any members"
+msgstr "Detta team har inga medlemmar"
+
+#: organizations/templates/organizations/member_list.html:26
+#, python-format
+msgid ""
+"\n"
+"            This is a list of all the team members and owners inside your organization.\n"
+"            To invite members, <a href=\"%(invite_url)s\">invite them to a team</a>\n"
+"          "
+msgstr ""
+"\n"
+"            Detta är en lista över alla teammedlemmar och ägare i din organisation.\n"
+"            Om du vill bjuda in medlemmar <a href=\"%(invite_url)s\">bjuder</a>du in <a href=\"%(invite_url)s\">dem till ett team</a>\n"
+"          "
+
+#: organizations/templates/organizations/onboard/base.html:24 templates/projects/import_base.html:27
+msgid "Next"
+msgstr "Nästa"
+
+#: organizations/templates/organizations/onboard/base.html:26 templates/projects/import_base.html:29
+msgid "Finish"
+msgstr "Färdig"
+
+#: organizations/templates/organizations/onboard/base.html:30 templates/projects/import_base.html:33
+msgid "Previous"
+msgstr "Föregående"
+
+#: organizations/templates/organizations/onboard/invite.html:4 organizations/templates/organizations/onboard/organization.html:4
+#: organizations/templates/organizations/onboard/organization.html:7 organizations/templates/organizations/onboard/plan.html:4
+#: organizations/templates/organizations/onboard/team.html:4 organizations/templates/organizations/organization_create.html:5
+#: organizations/templates/organizations/organization_create.html:10
+msgid "Create an Organization"
+msgstr "Skapa en organisation"
+
+#: organizations/templates/organizations/onboard/invite.html:7
+msgid "Invite your Company"
+msgstr "Bjud in ditt företag"
+
+#: organizations/templates/organizations/onboard/invite.html:11
+msgid ""
+"\n"
+"        Finally, if you'd like to <b>invite your company to join you</b>,\n"
+"        invite some members to share documentation with below.\n"
+"        More members can be invited to your team later,\n"
+"        in the organization admin dashboard.\n"
+"      "
+msgstr ""
+"\n"
+"        Slutligen, om du vill bjuda <b>in ditt företag att ansluta sig till dig</b>,\n"
+"        bjuda in några medlemmar att dela dokumentation med nedan.\n"
+"        Fler medlemmar kan bjudas in till ditt team senare,\n"
+"        i organisationens administratörspanel.\n"
+"      "
+
+#: organizations/templates/organizations/onboard/organization.html:11
+msgid ""
+"\n"
+"        Before you can add a project or build documentation,\n"
+"        we will help you create an organization.\n"
+"        Access to your documentation is limited to <b>only those inside your organization</b>,\n"
+"        or inside a team with access.\n"
+"        We'll help set up a team shortly,\n"
+"        <b>start by entering your organization details</b>.\n"
+"      "
+msgstr ""
+"\n"
+"        Innan du kan lägga till ett projekt eller bygga dokumentation,\n"
+"        hjälper vi dig att skapa en organisation.\n"
+"        Åtkomst till din dokumentation är begränsad till <b>endast de som finns i din organisation</b>,\n"
+"        eller inom ett team med åtkomst.\n"
+"        Vi hjälper dig att skapa ett team inom kort,\n"
+"       <b>börja med att ange dina organisationsuppgifter</b>.\n"
+"      "
+
+#: organizations/templates/organizations/onboard/team.html:7
+msgid "Create a Team"
+msgstr "Skapa ett team"
+
+#: organizations/templates/organizations/organization_choose.html:7 organizations/templates/organizations/organization_choose.html:16
+msgid "Choose an organization"
+msgstr "Välj en organisation"
+
+#: organizations/templates/organizations/organization_choose.html:19
+msgid "You are a member of several organizations. Select the organization that you want to use:"
+msgstr "Du är medlem i flera organisationer. Välj den organisation som du vill använda:"
+
+#: organizations/templates/organizations/organization_choose.html:45
+msgid "Your user is not a member of an organization yet."
+msgstr "Din användare är inte medlem i någon organisation ännu."
+
+#: organizations/templates/organizations/organization_create.html:23
+msgid "Get Started"
+msgstr "Kom igång"
+
+#: organizations/templates/organizations/organization_create.html:33
+msgid ""
+"\n"
+"          To start building documentation, we will first help you create an\n"
+"          organization.\n"
+"        "
+msgstr ""
+"\n"
+"          För att börja bygga dokumentation hjälper vi dig först att skapa en\n"
+"          organisation.\n"
+"        "
+
+#: organizations/templates/organizations/organization_create.html:42
+msgid ""
+"\n"
+"            Access to your documentation is limited to\n"
+"            <b>only those inside your organization</b>, or inside a team with access.\n"
+"          "
+msgstr ""
+"\n"
+"            Åtkomst till din dokumentation är begränsad till\n"
+"           <b>endast de inom din organisation,</b> eller inom ett team med åtkomst.\n"
+"          "
+
+#: organizations/templates/organizations/organization_create.html:50
+msgid ""
+"\n"
+"            No need to decide now, you can pick a plan that fits your organization\n"
+"            after a <b>30 day trial</b>.\n"
+"          "
+msgstr ""
+"\n"
+"            Du behöver inte bestämma dig nu, du kan välja en plan som passar din organisation\n"
+"            efter en <b>30-dagars</b> provperiod.\n"
+"          "
+
+#: organizations/templates/organizations/organization_detail.html:71 organizations/templates/organizations/team_list.html:69
+msgid "There are no teams currently established."
+msgstr "Det finns för närvarande inga etablerade team."
+
+#: organizations/templates/organizations/organization_invite.html:5 organizations/templates/organizations/organization_invite.html:9
+msgid "Invite Members"
+msgstr "Bjud in medlemmar"
+
+#: organizations/templates/organizations/organization_invite.html:13
+msgid "Invite members to "
+msgstr "Bjud in medlemmar att "
+
+#: organizations/templates/organizations/organization_invite.html:20
+msgid "Let them in"
+msgstr "Släpp in dem"
+
+#: organizations/templates/organizations/security_log.html:6 organizations/templates/organizations/security_log.html:10
+msgid "Organization Security Log"
+msgstr "Organisationens säkerhetslogg"
+
+#: organizations/templates/organizations/security_log.html:19
+#, python-format
+msgid "The <a href=\"%(docs_url)s\">organization security log</a> allows you to see what has happened recently in your organization."
+msgstr "I <a href=\"%(docs_url)s\">organisationens säkerhetslogg</a> kan du se vad som nyligen har hänt i din organisation."
+
+#: organizations/templates/organizations/security_log.html:25
+#, python-format
+msgid "Showing logs from the last %(days_limit)s days. You can upgrade your plan to increase the time period that is stored."
+msgstr "Visar loggar från de senaste %(days_limit)s dagarna. Du kan uppgradera din plan för att öka den tidsperiod som lagras."
+
+#: organizations/templates/organizations/security_log.html:30
+msgid "Showing logs from all time."
+msgstr "Visar loggar från alla tider."
+
+#: organizations/templates/organizations/team_create.html:7 organizations/templates/organizations/team_create.html:14
+#: organizations/templates/organizations/team_create.html:18 organizations/templates/organizations/team_list.html:45
+msgid "Add Team"
+msgstr "Lägg till team"
+
+#: organizations/templates/organizations/team_delete.html:5 organizations/templates/organizations/team_delete.html:11
+#: organizations/templates/organizations/team_edit.html:21
+msgid "Delete Team"
+msgstr "Ta bort grupp"
+
+#: organizations/templates/organizations/team_delete.html:13
+msgid ""
+"\n"
+"        Deleting this team will revoke access for users that were in the team.\n"
+"        Are you sure that it is safe to remove these users?\n"
+"      "
+msgstr ""
+"\n"
+"        Om du tar bort det här teamet återkallas åtkomsten för användare som ingick i teamet.\n"
+"        Är du säker på att det är säkert att ta bort dessa användare?\n"
+"      "
+
+#: organizations/templates/organizations/team_detail.html:14 organizations/templates/organizations/team_edit.html:7
+#: organizations/templates/organizations/team_edit.html:14
+msgid "Edit Team"
+msgstr "Redigera grupp"
+
+#: organizations/templates/organizations/team_detail.html:19
+msgid "Manage Projects"
+msgstr "Hantera projekt"
+
+#: organizations/templates/organizations/team_detail.html:24 organizations/templates/organizations/team_member_create.html:11
+msgid "Invite Member"
+msgstr "Bjud in medlem"
+
+#: organizations/templates/organizations/team_edit.html:18
+msgid "Update Team"
+msgstr "Uppdatering av teamet"
+
+#: organizations/templates/organizations/team_member_create.html:5
+msgid "Add Team Member"
+msgstr "Lägg till teammedlem"
+
+#: organizations/templates/organizations/team_member_create.html:15
+msgid "Add Member"
+msgstr "Lägg till medlem"
+
+#: organizations/templates/organizations/team_project_edit.html:5
+msgid "Team's Projects"
+msgstr "Teamets projekt"
+
+#: organizations/templates/organizations/team_project_edit.html:15
+msgid ""
+"\n"
+"        Select the projects that you would like this team to have access to.\n"
+"      "
+msgstr ""
+"\n"
+"        Välj de projekt som du vill att det här teamet ska ha tillgång till.\n"
+"      "
+
+#: organizations/templates/organizations/team_project_edit.html:22
+msgid "Update Projects"
+msgstr "Uppdatera projekt"
+
+#: organizations/templates/organizations/verify_email.html:5 organizations/templates/organizations/verify_email.html:10
+#: templates/account/email/email_confirmation_subject.txt:3
+msgid "Verify your email address"
+msgstr "Verifiera din e-postadress"
+
+#: organizations/views/private.py:116
+msgid "Organization updated"
+msgstr "Organisation uppdaterad"
+
+#: organizations/views/private.py:126
+msgid "Organization deleted"
+msgstr "Organisation borttagen"
+
+#: organizations/views/private.py:153
+msgid "Owner removed"
+msgstr "Ägaren borttagen"
+
+#: organizations/views/private.py:158 projects/views/private.py:591
+msgid "User is the last owner, can't be removed"
+msgstr "Användaren är den sista ägaren, kan inte tas bort"
+
+#: organizations/views/private.py:165
+msgid "Team added"
+msgstr "Team lades till"
+
+#: organizations/views/private.py:175
+msgid "Team deleted"
+msgstr "Team borttaget"
+
+#: organizations/views/private.py:186
+msgid "Team updated"
+msgstr "Teamet uppdaterat"
+
+#: organizations/views/private.py:191
+msgid "Team projects updated"
+msgstr "Uppdatering av teamprojekt"
+
+#: organizations/views/private.py:205
+msgid "Member added to team"
+msgstr "Medlem tillagd i teamet"
+
+#: organizations/views/private.py:212
+msgid "Member removed from team"
+msgstr "Medlem borttagen från teamet"
+
+#: profiles/views.py:74
+msgid "You have successfully deleted your account"
+msgstr "Du har tagit bort ditt konto"
+
+#: profiles/views.py:147
+msgid "Updated your advertising preferences"
+msgstr "Uppdaterade dina reklaminställningar"
+
+#: projects/admin.py:106
+msgid "Yes"
+msgstr "Ja"
+
+#: projects/admin.py:107
+msgid "No"
+msgstr "Nej"
+
+#: projects/admin.py:135
+msgid "Not spam (1-{})"
+msgstr "Inte spam (1-{})"
+
+#: projects/admin.py:141
+msgid "Don't show Ads ({}-{})"
+msgstr "Visa inte annonser ({}-{})"
+
+#: projects/admin.py:148
+msgid "Deny on robots ({}-{})"
+msgstr "Avvisa på robotar ({}-{})"
+
+#: projects/admin.py:155
+msgid "Don't show dashboard ({}-{})"
+msgstr "Visa inte instrumentpanelen ({}-{})"
+
+#: projects/admin.py:162
+msgid "Don't serve docs ({}-{})"
+msgstr "Serverar inte dokument ({}-{})"
+
+#: projects/admin.py:169
+msgid "Delete project (>={})"
+msgstr "Ta bort projekt (>={})"
+
+#: projects/constants.py:22
+msgid "Sphinx Html"
+msgstr "Sphinx Html"
+
+#: projects/constants.py:23
+msgid "Mkdocs"
+msgstr "Mkdocs"
+
+#: projects/constants.py:24
+msgid "Sphinx HtmlDir"
+msgstr "Sfinx HtmlDir"
+
+#: projects/constants.py:25
+msgid "Sphinx Single Page HTML"
+msgstr "Sphinx HTML för en enda sida"
+
+#: projects/constants.py:28
+msgid "Mkdocs Html Pages"
+msgstr "Mkdocs Html-sidor"
+
+#: projects/constants.py:29
+msgid "Generic"
+msgstr "Allmän"
+
+#: projects/constants.py:82
+msgid "Live"
+msgstr "Live"
+
+#: projects/constants.py:83
+msgid "Deleted"
+msgstr "Raderad"
+
+#: projects/constants.py:89
+msgid "Git"
+msgstr "Git"
+
+#: projects/constants.py:95 projects/models.py:2054
+msgid "Public"
+msgstr "Offentlig"
+
+#: projects/constants.py:96
+msgid "Private"
+msgstr "Privat"
+
+#: projects/constants.py:107
+msgid "CPython 2.x"
+msgstr "CPython 2.x"
+
+#: projects/constants.py:108
+msgid "CPython 3.x"
+msgstr "CPython 3.x"
+
+#: projects/constants.py:394
+msgid "Valid and active"
+msgstr "Giltig och aktiv"
+
+#: projects/constants.py:395
+msgid "Invalid"
+msgstr "Ogiltig"
+
+#: projects/constants.py:396
+msgid "Pending"
+msgstr "Väntande"
+
+#: projects/constants.py:406
+msgid "Multiple versions with translations (/<language>/<version>/<filename>)"
+msgstr "Flera versioner med översättningar (/<language>/<version>/<filename>)"
+
+#: projects/constants.py:410
+msgid "Multiple versions without translations (/<version>/<filename>)"
+msgstr "Flera versioner utan översättningar (/<version>/<filename>)"
+
+#: projects/constants.py:414
+msgid "Single version without translations (/<filename>)"
+msgstr "Enkel version utan översättningar (/<filename>)"
+
+#: projects/constants.py:431
+msgid "Alphabetically"
+msgstr "Alfabetisk ordning"
+
+#: projects/constants.py:432
+msgid "SemVer (Read the Docs)"
+msgstr "SemVer (Read the Docs)"
+
+#: projects/constants.py:435
+msgid "Python Packaging (PEP 440 and PEP 425)"
+msgstr "Python Packaging (PEP 440 och PEP 425)"
+
+#: projects/constants.py:437
+msgid "CalVer (YYYY.0M.0M)"
+msgstr "CalVer (ÅÅÅÅ.0M.0M)"
+
+#: projects/constants.py:438
+msgid "Define your own pattern"
+msgstr "Definiera ditt eget mönster"
+
+#: projects/constants.py:446
+msgid "Default (from theme or Read the Docs)"
+msgstr "Standard (från tema eller Read the Docs)"
+
+#: projects/constants.py:447
+msgid "Bottom left"
+msgstr "Nedre vänster"
+
+#: projects/constants.py:448
+msgid "Bottom right"
+msgstr "Nedre höger"
+
+#: projects/constants.py:449
+msgid "Top left"
+msgstr "Överst vänster"
+
+#: projects/constants.py:450
+msgid "Top right"
+msgstr "Överst höger"
+
+#: projects/filters.py:41 projects/filters.py:104
+msgid "Recently built"
+msgstr "Nyligen byggd"
+
+#: projects/filters.py:45 projects/filters.py:108
+msgid "Least recently built"
+msgstr "Senast byggd"
+
+#: projects/filters.py:46 projects/filters.py:109
+msgid "Frequently built"
+msgstr "Ofta byggda"
+
+#: projects/filters.py:47 projects/filters.py:110
+msgid "Least frequently built"
+msgstr "Minst frekvent byggda"
+
+#: projects/filters.py:111
+msgid "Recently modified"
+msgstr "Nyligen ändrad"
+
+#: projects/filters.py:112
+msgid "Least recently modified"
+msgstr "Senast ändrad"
+
+#: projects/filters.py:186
+msgid "Hidden versions"
+msgstr "Dolda versioner"
+
+#: projects/filters.py:187
+msgid "Visible versions"
+msgstr "Synliga versioner"
+
+#: projects/filters.py:191
+msgid "Public versions"
+msgstr "Publika versioner"
+
+#: projects/filters.py:192
+msgid "Private versions"
+msgstr "Privata versioner"
+
+#: projects/filters.py:216
+msgid "Visibility"
+msgstr "Synlighet"
+
+#: projects/forms.py:95
+msgid "No connected repository"
+msgstr "Inget anslutet arkiv"
+
+#: projects/forms.py:116
+msgid "Invalid project name, a project already exists with that name"
+msgstr "Ogiltigt projektnamn, det finns redan ett projekt med det namnet"
+
+#: projects/forms.py:121
+msgid "Invalid project name"
+msgstr "Ogiltigt projektnamn"
+
+#: projects/forms.py:225
+msgid "We have detected that this project is public, pull request previews are set to public."
+msgstr "Vi har upptäckt att det här projektet är offentligt, förhandsvisningar av pull requests är inställda på offentligt."
+
+#: projects/forms.py:245
+msgid "To build from pull requests you need a "
+msgstr "För att bygga från pull requests behöver du en "
+
+#: projects/forms.py:257
+msgid "To build from pull requests your repository's webhook needs to send pull request events. "
+msgstr "För att bygga från pull requests måste ditt förvars webhook skicka händelser för pull requests. "
+
+#: projects/forms.py:272
+msgid "Pull request builds not supported"
+msgstr "Pull request-byggnader stöds inte"
+
+#: projects/forms.py:334
+#, python-brace-format
+msgid "You must first <a href='{url}'>add a connected service "
+msgstr "Du måste först <a href='{url}'>lägga till en ansluten tjänst "
+
+#: projects/forms.py:338
+msgid "No connected services found"
+msgstr "Inga anslutna tjänster hittades"
+
+#: projects/forms.py:344
+msgid "Only organization owners may create new projects when single sign-on is enabled."
+msgstr "Endast organisationsägare kan skapa nya projekt när single sign-on är aktiverat."
+
+#: projects/forms.py:347 projects/forms.py:369
+msgid "Organization single sign-on enabled"
+msgstr "Organisationens single sign-on aktiverad"
+
+#: projects/forms.py:352 projects/forms.py:374
+msgid "You must be on a team with admin permissions in order to add a new project to your organization."
+msgstr "Du måste ingå i ett team med administratörsbehörighet för att kunna lägga till ett nytt projekt i din organisation."
+
+#: projects/forms.py:355 projects/forms.py:377
+msgid "Admin permission required"
+msgstr "Administratörsbehörighet krävs"
+
+#: projects/forms.py:366
+msgid "Projects cannot be manually configured when single sign-on is enabled for your organization."
+msgstr "Projekt kan inte konfigureras manuellt när enkel inloggning är aktiverat för din organisation."
+
+#: projects/forms.py:447 projects/models.py:292
+msgid "Short description of this project"
+msgstr "Kort beskrivning av detta projekt"
+
+#: projects/forms.py:467
+#, python-brace-format
+msgid "This setting is inherited from the <a href=\"{link}\">parent translation</a>."
+msgstr "Denna inställning ärvs från den <a href=\"{link}\">överordnade översättningen</a>."
+
+#: projects/forms.py:540
+#, python-brace-format
+msgid "There is already a \"{lang}\" translation for the {proj} project."
+msgstr "Det finns redan en \"{lang}\"-översättning för {proj}-projektet."
+
+#: projects/forms.py:569
+msgid "Length of each tag must be less than or equal to 100 characters."
+msgstr "Längden på varje tagg måste vara mindre än eller lika med 100 tecken."
+
+#: projects/forms.py:695
+msgid "Enable Addons"
+msgstr "Aktivera tillägg"
+
+#: projects/forms.py:696
+msgid "Visual diff enabled"
+msgstr "Visuell diff aktiverad"
+
+#: projects/forms.py:697 projects/forms.py:702 projects/models.py:201 redirects/models.py:96
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: projects/forms.py:698
+msgid "Ignored files"
+msgstr "Ignorerade filer"
+
+#: projects/forms.py:699
+msgid "Show a notification on builds from pull requests"
+msgstr "Visa ett meddelande om builds från pull requests"
+
+#: projects/forms.py:700
+msgid "Show a notification on non-stable versions"
+msgstr "Visa ett meddelande om icke-stabila versioner"
+
+#: projects/forms.py:701
+msgid "Show a notification on latest version"
+msgstr "Visa ett meddelande om den senaste versionen"
+
+#: projects/forms.py:703
+msgid "CSS main content selector"
+msgstr "CSS-väljare för huvudinnehåll"
+
+#: projects/forms.py:725
+msgid "The flyout sorting custom pattern is required when selecting a custom pattern."
+msgstr "Flyout-sortering av anpassat mönster krävs när du väljer ett anpassat mönster."
+
+#: projects/forms.py:754
+#, python-format
+msgid "User %(username)s is already a maintainer"
+msgstr "Användare %(username)s är redan en underhållare"
+
+#: projects/forms.py:836
+msgid "The payload must be a valid JSON object."
+msgstr "Nyttolasten måste vara ett giltigt JSON-objekt."
+
+#: projects/forms.py:867
+msgid "This project is configured with a versioning scheme that doesn't support translations."
+msgstr "Det här projektet är konfigurerat med ett versionshanteringssystem som inte stöder översättningar."
+
+#: projects/forms.py:1062
+msgid "This domain has a CNAME record pointing to the APEX domain. Please remove the CNAME before adding the domain."
+msgstr "Den här domänen har en CNAME-post som pekar på APEX-domänen. Ta bort CNAME innan du lägger till domänen."
+
+#: projects/forms.py:1072
+msgid "This domain has a CNAME record pointing to another CNAME. Please remove the CNAME before adding the domain."
+msgstr "Den här domänen har en CNAME-post som pekar på ett annat CNAME. Ta bort CNAME innan du lägger till domänen."
+
+#: projects/forms.py:1087
+msgid "DNS resolution timed out. Make sure the domain is correct, or try again later."
+msgstr "DNS-upplösningen gick över tidsgränsen. Kontrollera att domänen är korrekt, eller försök igen senare."
+
+#: projects/forms.py:1091
+msgid "The domain is not valid."
+msgstr "Domänen är inte giltig."
+
+#: projects/forms.py:1109
+msgid "Only one domain can be canonical at a time."
+msgstr "Endast en domän kan vara kanonisk åt gången."
+
+#: projects/forms.py:1208
+msgid "Variable name can't start with __ (double underscore)"
+msgstr "Variabelns namn får inte börja med __ (dubbelt understreck)"
+
+#: projects/forms.py:1212
+msgid "Variable name can't start with READTHEDOCS"
+msgstr "Variabelns namn kan inte börja med READTHEDOCS"
+
+#: projects/forms.py:1217
+msgid "There is already a variable with this name for this project"
+msgstr "Det finns redan en variabel med det här namnet för det här projektet"
+
+#: projects/forms.py:1222
+msgid "Variable name can't contain spaces"
+msgstr "Variabelnamnet får inte innehålla mellanslag"
+
+#: projects/forms.py:1226
+msgid "Only letters, numbers and underscore are allowed"
+msgstr "Endast bokstäver, siffror och understreck är tillåtna"
+
+#: projects/models.py:91
+msgid "Main project"
+msgstr "Huvudprojekt"
+
+#: projects/models.py:97
+msgid "Subproject"
+msgstr "Delprojekt"
+
+#: projects/models.py:102
+msgid "Alias"
+msgstr "Alias"
+
+#: projects/models.py:170
+msgid "Base version to compare against (eg. DocDiff, File Tree Diff)"
+msgstr "Basversion att jämföra mot (t.ex. DocDiff, File Tree Diff)"
+
+#: projects/models.py:193
+msgid "List of ignored files. One per line."
+msgstr "Lista över ignorerade filer. En per rad."
+
+#: projects/models.py:204
+msgid "Sorting of versions"
+msgstr "Sortering av versioner"
+
+#: projects/models.py:214
+msgid "Custom version sorting pattern"
+msgstr "Sorteringsmönster för anpassad version"
+
+#: projects/models.py:219
+msgid "Show <code>latest</code> and <code>stable</code> at the beginning"
+msgstr "Visa <code>senaste</code> och <code>stabilaste</code> i början"
+
+#: projects/models.py:229 redirects/models.py:111
+msgid "Position"
+msgstr "Position"
+
+#: projects/models.py:295
+msgid "Repository URL"
+msgstr "URL till arkivet"
+
+#: projects/models.py:298
+msgid "Git repository URL"
+msgstr "URL till Git-arkivet"
+
+#: projects/models.py:304
+msgid "Repository type"
+msgstr "Typ av arkiv"
+
+#: projects/models.py:310
+msgid "Project homepage"
+msgstr "Projektets webbsida"
+
+#: projects/models.py:312
+msgid "The project's homepage"
+msgstr "Projektets webbsida"
+
+#: projects/models.py:315
+msgid "Canonical URL"
+msgstr "Kanonisk URL"
+
+#: projects/models.py:317
+msgid "URL that documentation is expected to serve from"
+msgstr "URL som dokumentationen förväntas fungera från"
+
+#: projects/models.py:320
+msgid "URL versioning scheme"
+msgstr "Versioneringsschema för URL"
+
+#: projects/models.py:327
+msgid ""
+"This affects URL your documentation is served from, and if it supports translations or versions. Changing the versioning scheme will break your "
+"current URLs, so you might need to create a redirect."
+msgstr ""
+"Detta påverkar URL:en som din dokumentation serveras från och om den stöder översättningar eller versioner. Om du ändrar versionshanteringssystemet "
+"kommer dina nuvarande webbadresser att brytas, så du kan behöva skapa en omdirigering."
+
+#: projects/models.py:335
+msgid "Single version"
+msgstr "Enkel version"
+
+#: projects/models.py:338
+msgid ""
+"A single version site has no translations and only your \"latest\" version, served at the root of the domain. Use this with caution, only turn it on "
+"if you will <b>never</b> have multiple versions of your docs."
+msgstr ""
+"En webbplats med en enda version har inga översättningar och endast den \"senaste\" versionen, som serveras i domänens rot. Använd den här funktionen "
+"med försiktighet och aktivera den bara om du <b>aldrig</b> kommer att ha flera versioner av dina dokument."
+
+#: projects/models.py:345
+msgid "Default version"
+msgstr "Standardversion"
+
+#: projects/models.py:348
+msgid "The version of your project that / redirects to"
+msgstr "Den version av ditt projekt som / omdirigerar till"
+
+#: projects/models.py:353
+msgid "Default branch"
+msgstr "Standardgren"
+
+#: projects/models.py:359
+msgid "What branch \"latest\" points to. Leave empty to use the default value for your VCS."
+msgstr "Vilken gren \"latest\" pekar på. Lämna tomt om du vill använda standardvärdet för ditt VCS."
+
+#: projects/models.py:363
+msgid "Custom path prefix"
+msgstr "Anpassat sökvägsprefix"
+
+#: projects/models.py:369
+msgid "A custom path prefix used when serving documentation from this project. By default we serve documentation at the root (/) of a domain."
+msgstr ""
+"Ett anpassat sökvägsprefix som används när dokumentation från det här projektet visas. Som standard visas dokumentationen i roten (/) av en domän."
+
+#: projects/models.py:374
+msgid "Custom subproject path prefix"
+msgstr "Prefix för anpassad sökväg för underprojekt"
+
+#: projects/models.py:380
+msgid ""
+"A custom path prefix used when evaluating the root of a subproject. By default we serve documentation from subprojects under the `/projects/` prefix."
+msgstr ""
+"Ett anpassat sökvägsprefix som används vid utvärdering av roten till ett underprojekt. Som standard visas dokumentation från underprojekt under "
+"prefixet `/projects/`."
+
+#: projects/models.py:387
+msgid "Build pull requests for this project"
+msgstr "Skapa pull requests för detta projekt"
+
+#: projects/models.py:390
+msgid "More information in <a href=\"https://docs.readthedocs.io/page/guides/autobuild-docs-for-pull-requests.html\">our docs</a>."
+msgstr "Mer information finns i <a href=\"https://docs.readthedocs.io/page/guides/autobuild-docs-for-pull-requests.html\">vår dokumention</a>."
+
+#: projects/models.py:394
+msgid "Privacy level of Pull Requests"
+msgstr "Sekretessnivå för Pull Requests"
+
+#: projects/models.py:401
+msgid "Should builds from pull requests be public? <strong>If your repository is public, don't set this to private</strong>."
+msgstr "Bör builds från pull requests vara offentliga? <strong>Om ditt arkiv är offentligt ska du inte ställa in detta till privat</strong>."
+
+#: projects/models.py:406
+msgid "CDN Enabled"
+msgstr "CDN aktiverad"
+
+#: projects/models.py:408
+msgid "Analytics code"
+msgstr "Analytisk kod"
+
+#: projects/models.py:413
+msgid "Google Analytics Tracking ID (ex. <code>UA-22345342-1</code>). This may slow down your page loads."
+msgstr "Google Analytics spårnings-ID (t.ex. <code>UA-22345342-1</code>). Detta kan göra att sidladdningen går långsammare."
+
+#: projects/models.py:419
+msgid "Disable Analytics"
+msgstr "Inaktivera Analytics"
+
+#: projects/models.py:423
+msgid "Disable Google Analytics completely for this project (requires rebuilding documentation)"
+msgstr "Inaktivera Google Analytics helt för det här projektet (kräver ombyggnad av dokumentationen)"
+
+#: projects/models.py:428
+msgid "Alternative container image"
+msgstr "Alternativ containeravbildning"
+
+#: projects/models.py:434
+msgid "Container memory limit"
+msgstr "Begränsning av containerns minne"
+
+#: projects/models.py:439
+msgid "Memory limit in Docker format -- example: <code>512m</code> or <code>1g</code>"
+msgstr "Minnesgräns i Docker-format - exempel: <code>512m</code> eller <code>1g</code>"
+
+#: projects/models.py:443
+msgid "Container time limit in seconds"
+msgstr "Tidsgräns för behållare i sekunder"
+
+#: projects/models.py:448
+msgid "Alternate build queue id"
+msgstr "Alternativt kö-id för byggnation"
+
+#: projects/models.py:454
+msgid "Maximum concurrent builds allowed for this project"
+msgstr "Maximalt antal samtidiga byggnationer tillåtna för detta projekt"
+
+#: projects/models.py:459
+msgid "Allow paid advertising"
+msgstr "Tillåt betald annonsering"
+
+#: projects/models.py:461
+msgid "If unchecked, users will still see community ads."
+msgstr "Om den inte är markerad kommer användarna fortfarande att se community-annonser."
+
+#: projects/models.py:464
+msgid "Ad-free"
+msgstr "Annonsfri"
+
+#: projects/models.py:469
+msgid "Is spam?"
+msgstr "Är skräppost?"
+
+#: projects/models.py:472
+msgid "Manually marked as (not) spam"
+msgstr "Manuellt markerad som (inte) skräppost"
+
+#: projects/models.py:475
+msgid "Show version warning"
+msgstr "Visa versionsvarning"
+
+#: projects/models.py:477
+msgid "Show warning banner in non-stable nor latest versions."
+msgstr "Visa varningsbanner i icke-stabila eller senaste versioner."
+
+#: projects/models.py:481
+msgid "Path for .readthedocs.yaml"
+msgstr "Sökväg för .readthedocs.yaml"
+
+#: projects/models.py:487
+msgid ""
+"<strong>Warning: experimental feature</strong>. Custom path from repository top-level to your <code>.readthedocs.yaml</code>, ex. <code>subpath/"
+"docs/.readthedocs.yaml</code>. Leave blank for default value: <code>.readthedocs.yaml</code>."
+msgstr ""
+"<strong>Varning: experimentell funktion</strong>. Anpassad sökväg från arkivets toppnivå till din <code>.readthedocs.yaml</code>, t.ex. <code>subpath/"
+"docs/.readthedocs.yaml</code>. Lämna tomt för standardvärde: <code>.readthedocs</code>. <code>yaml</code>."
+
+#: projects/models.py:495
+msgid "Featured"
+msgstr "Utvalda"
+
+#: projects/models.py:497
+msgid "Skip (disable) building this project"
+msgstr "Hoppa över (inaktivera) byggandet av detta projekt"
+
+#: projects/models.py:505
+msgid "Delisted"
+msgstr "Avlistad"
+
+#: projects/models.py:507
+msgid "Delisting a project removes it from Read the Docs search indexing and asks external search engines to remove it via robots.txt"
+msgstr "Genom att avregistrera ett projekt tas det bort från Read the Docs sökindexering och externa sökmotorer uppmanas att ta bort det via robots.txt"
+
+#: projects/models.py:518
+msgid "Should the project dashboard be public?"
+msgstr "Bör projektets instrumentpanel vara offentlig?"
+
+#: projects/models.py:525
+msgid "Related projects"
+msgstr "Liknande projekt"
+
+#: projects/models.py:533 templates/search/elastic_search.html:57
+msgid "Language"
+msgstr "Språk"
+
+#: projects/models.py:537
+msgid "The language the project documentation is rendered in. Note: this affects your project's URL."
+msgstr "Det språk som projektdokumentationen återges på. Observera: detta påverkar projektets URL."
+
+#: projects/models.py:545
+msgid "Programming Language"
+msgstr "Programmeringsspråk"
+
+#: projects/models.py:549
+msgid "The primary programming language the project is written in."
+msgstr "Det primära programmeringsspråket som projektet är skrivet i."
+
+#: projects/models.py:565
+msgid "This project has been built with a webhook"
+msgstr "Detta projekt har byggts med en webhook"
+
+#: projects/models.py:569
+msgid "This project has been successfully cloned"
+msgstr "Detta projekt har framgångsrikt klonats"
+
+#: projects/models.py:580
+msgid "Connected repository"
+msgstr "Anslutet arkiv"
+
+#: projects/models.py:581
+msgid "Repository connected to this project"
+msgstr "Arkiv kopplat till detta projekt"
+
+#: projects/models.py:607
+msgid ""
+"Type of documentation you are building. <a href=\"http://www.sphinx-doc.org/en/stable/builders.html#sphinx.builders.html.DirectoryHTMLBuilder\">More "
+"info on sphinx builders</a>."
+msgstr ""
+"Typ av dokumentation som du bygger upp. <a href=\"http://www.sphinx-doc.org/en/stable/builders.html#sphinx.builders.html.DirectoryHTMLBuilder\">Mer "
+"information om sfinxbyggare</a>."
+
+#: projects/models.py:618
+msgid "project"
+msgstr "projekt"
+
+#: projects/models.py:629
+msgid "Model must have slug"
+msgstr "Modellen måste ha slug"
+
+#: projects/models.py:1374
+msgid "Subproject nesting is not supported"
+msgstr "Nestning av delprojekt stöds inte"
+
+#: projects/models.py:1508
+msgid "Path"
+msgstr "Sökväg"
+
+#: projects/models.py:1510
+msgid "Build id"
+msgstr "Bygg-id"
+
+#: projects/models.py:1513
+msgid "Page search rank"
+msgstr "Sidans sökrankning"
+
+#: projects/models.py:1518
+msgid "Ignore this file from operations like indexing"
+msgstr "Ignorera den här filen från operationer som indexering"
+
+#: projects/models.py:1559 projects/models.py:1715
+msgid "created"
+msgstr "skapad"
+
+#: projects/models.py:1564
+msgid "modified"
+msgstr "modifierad"
+
+#: projects/models.py:1593
+msgid "Build triggered"
+msgstr "Byggnation utlöst"
+
+#: projects/models.py:1594
+msgid "Build passed"
+msgstr "Byggnation ok"
+
+#: projects/models.py:1612
+msgid "URL to send the webhook to"
+msgstr "URL för att skicka webhooken till"
+
+#: projects/models.py:1615
+msgid "Secret used to sign the payload of the webhook"
+msgstr "Hemlighet som används för att signera webhookens nyttolast"
+
+#: projects/models.py:1623
+msgid "Events to subscribe"
+msgstr "Händelser att prenumerera på"
+
+#: projects/models.py:1626
+msgid "JSON payload"
+msgstr "JSON-nyttolast"
+
+#: projects/models.py:1628
+msgid ""
+"JSON payload to send to the webhook. Check <a href=\"https://docs.readthedocs.io/page/build-notifications.html#variable-substitutions-reference\">the "
+"docs</a> for available substitutions."
+msgstr ""
+"JSON-nyttolast som ska skickas till webhooken. Kontrollera <a href=\"https://docs.readthedocs.io/page/build-notifications.html#variable-substitutions-"
+"reference\">dokumentationen</a> för tillgängliga substitut."
+
+#: projects/models.py:1726
+msgid "Domain"
+msgstr "Domän"
+
+#: projects/models.py:1733
+msgid "This domain was auto-created"
+msgstr "Denna domän skapades automatiskt"
+
+#: projects/models.py:1737
+msgid "This domain is a CNAME for the project"
+msgstr "Denna domän är ett CNAME för projektet"
+
+#: projects/models.py:1742
+msgid "This domain is the primary one where the documentation is served from"
+msgstr "Denna domän är den primära där dokumentationen serveras från"
+
+#: projects/models.py:1746
+msgid "Use HTTPS"
+msgstr "Använd HTTPS"
+
+#: projects/models.py:1748
+msgid "Always use HTTPS for this domain"
+msgstr "Använd alltid HTTPS för den här domänen"
+
+#: projects/models.py:1752
+msgid "Number of times this domain has been hit"
+msgstr "Antal gånger denna domän har blivit träffad"
+
+#: projects/models.py:1757 templates/projects/domain_form.html:49
+msgid "SSL certificate status"
+msgstr "Status för SSL-certifikat"
+
+#: projects/models.py:1766
+msgid "Skip validation process."
+msgstr "Hoppa över valideringsprocessen."
+
+#: projects/models.py:1770
+msgid "Start date of the validation process."
+msgstr "Startdatum för valideringsprocessen."
+
+#: projects/models.py:1779
+msgid "Set a custom max-age (eg. 31536000) for the HSTS header"
+msgstr "Ange en anpassad max-age (t.ex. 31536000) för HSTS-rubriken"
+
+#: projects/models.py:1783
+msgid "If hsts_max_age > 0, set the includeSubDomains flag with the HSTS header"
+msgstr "Om hsts_max_age > 0, ange flaggan includeSubDomains med HSTS-rubriken"
+
+#: projects/models.py:1787
+msgid "If hsts_max_age > 0, set the preload flag with the HSTS header"
+msgstr "Om hsts_max_age > 0, ställ in förladdningsflaggan med HSTS-rubriken"
+
+#: projects/models.py:1920
+msgid "Build: Try alternative method of posting large data"
+msgstr "Bygga: Prova en alternativ metod för att publicera stora datamängder"
+
+#: projects/models.py:1924
+msgid "Proxito: Record 404s page views."
+msgstr "Proxito: Registrera 404s sidvisningar."
+
+#: projects/models.py:1928
+msgid "Proxito: Disable all page views"
+msgstr "Proxito: Inaktivera alla sidvisningar"
+
+#: projects/models.py:1932
+msgid "Proxito: Allow usage of the X-RTD-Slug header"
+msgstr "Proxito: Tillåt användning av rubriken X-RTD-Slug"
+
+#: projects/models.py:1937
+msgid "Proxito: Use proxied APIs (/_/*) with the custom prefix if the project has one (Project.custom_prefix)."
+msgstr "Proxito: Använd proxied API:er (/_/*) med det anpassade prefixet om projektet har ett sådant (Project.custom_prefix)."
+
+#: projects/models.py:1942
+msgid "Dashboard: Allow project to use the version warning banner."
+msgstr "Instrumentpanel: Tillåt projektet att använda versionsvarningsbannern."
+
+#: projects/models.py:1946
+msgid "Remote repository: Don't keep project in sync with remote repository."
+msgstr "Fjärrlagringsplats: Håll inte projektet synkroniserat med fjärrlagret."
+
+#: projects/models.py:1950
+msgid "Dashboard: Allow changing the version slug."
+msgstr "Instrumentpanel: Tillåt ändring av versionssluggen."
+
+#: projects/models.py:1955
+msgid "Webhook: Skip syncing branches"
+msgstr "Webhook: Hoppa över synkronisering av grenar"
+
+#: projects/models.py:1959
+msgid "Webhook: Skip syncing tags"
+msgstr "Webhook: Hoppa över synkronisering av taggar"
+
+#: projects/models.py:1963
+msgid "Webhook: Skip sync versions task"
+msgstr "Webhook: Hoppa över synkroniseringsversioner uppgift"
+
+#: projects/models.py:1966
+msgid "Build: Always run pip install --upgrade"
+msgstr "Bygga: Kör alltid pip install --upgrade"
+
+#: projects/models.py:1967
+msgid "Build: Use new pip resolver"
+msgstr "Bygga: Använd ny pip-resolver"
+
+#: projects/models.py:1970
+msgid "Build: Don't install the latest version of pip"
+msgstr "Bygga: Installera inte den senaste versionen av pip"
+
+#: projects/models.py:1974
+msgid "Sphinx: Use latest version of the Read the Docs Sphinx extension"
+msgstr "Sphinx: Använd den senaste versionen av Read the Docs Sphinx-tillägget"
+
+#: projects/models.py:1978
+msgid "Build: Install all the latest versions of Read the Docs core requirements"
+msgstr "Bygg upp: Installera alla de senaste versionerna av Read the Docs kärnkrav"
+
+#: projects/models.py:1983
+msgid "Search: Enable server side search for MkDocs projects"
+msgstr "Sökning: Aktivera sökning på serversidan för MkDocs-projekt"
+
+#: projects/models.py:1987
+msgid "Search: Default to fuzzy search for simple search queries"
+msgstr "Sök: Standard för fuzzy-sökning för enkla sökfrågor"
+
+#: projects/models.py:1992
+msgid "Build: Set scale-in protection before/after building."
+msgstr "Bygga: Ställ in skalskydd före/efter byggnation."
+
+#: projects/models.py:2005
+msgid "Feature identifier"
+msgstr "Identifierare av funktion"
+
+#: projects/models.py:2010
+msgid "Date feature was added"
+msgstr "Datumfunktionen lades till"
+
+#: projects/models.py:2016
+msgid "Default all past projects to True"
+msgstr "Standard för alla tidigare projekt är True"
+
+#: projects/models.py:2020
+msgid "Default all future projects to True"
+msgstr "Standard för alla framtida projekt är True"
+
+#: projects/models.py:2042
+msgid "Name of the environment variable"
+msgstr "Namn på miljövariabeln"
+
+#: projects/models.py:2046
+msgid "Value of the environment variable"
+msgstr "Värde för miljövariabeln"
+
+#: projects/models.py:2051
+msgid "Project where this variable will be used"
+msgstr "Projekt där denna variabel kommer att användas"
+
+#: projects/models.py:2057
+msgid "Expose this environment variable in PR builds?"
+msgstr "Exponera denna miljövariabel i PR-byggnader?"
+
+#: projects/notifications.py:82
+msgid "Builds skipped for this project"
+msgstr "Byggnader som hoppats över för detta projekt"
+
+#: projects/notifications.py:96 projects/notifications.py:134 projects/notifications.py:147
+msgid "Error while cloning the repository"
+msgstr "Fel vid kloning av arkiv"
+
+#: projects/notifications.py:109
+msgid "Duplicated reserved versions"
+msgstr "Duplicerade reserverade versioner"
+
+#: projects/notifications.py:122
+msgid "Error while checking out the repository"
+msgstr "Fel vid utcheckning av arkiv"
+
+#: projects/notifications.py:161
+msgid "Repository type not suported"
+msgstr "Arkivtypen stöds inte"
+
+#: projects/notifications.py:174
+msgid "Sphinx configuration file is missing"
+msgstr "Konfigurationsfil för Sphinx saknas"
+
+#: projects/notifications.py:187
+msgid "Multiple Sphinx configuration files found"
+msgstr "Flera konfigurationsfiler för Sphinx hittades"
+
+#: projects/notifications.py:201
+msgid "Expected file not found"
+msgstr "Förväntad fil hittades inte"
+
+#: projects/notifications.py:213
+msgid "Repository locked"
+msgstr "Arkivet är låst"
+
+#: projects/notifications.py:227
+msgid "Read the Docs Addons were enabled by default on October 7th, 2024"
+msgstr "Läs Docs Addons aktiverades som standard den 7 oktober 2024"
+
+#: projects/validators.py:23
+msgid "Enter a valid plain or internationalized domain name value"
+msgstr "Ange ett giltigt värde för ett vanligt eller internationaliserat domännamn"
+
+#: projects/validators.py:33
+msgid "The domain name can't be an IP address."
+msgstr "Domännamnet kan inte vara en IP-adress."
+
+#: projects/validators.py:61
+msgid "Invalid character in the URL"
+msgstr "Ogiltigt tecken i URL:en"
+
+#: projects/validators.py:82
+msgid "Invalid scheme for URL"
+msgstr "Ogiltigt schema för URL"
+
+#: projects/validators.py:103
+msgid "Use a relative path. It should not begin with '/'. The path is relative to the root of your repository."
+msgstr "Använd en relativ sökväg. Den bör inte börja med \"/\". Sökvägen är relativ i förhållande till roten i ditt repository."
+
+#: projects/validators.py:110
+msgid "The path cannot end with '/', as it cannot be a directory."
+msgstr "Sökvägen får inte sluta med \"/\", eftersom det inte kan vara en katalog."
+
+#: projects/validators.py:115
+msgid "Found invalid sequence in path: '..'"
+msgstr "Hittade ogiltig sekvens i sökvägen: '...'"
+
+#: projects/validators.py:122
+#, python-brace-format
+msgid "Found invalid character. Avoid these characters: <code>{invalid_characters}</code>"
+msgstr "Hittade ogiltigt tecken. Undvik dessa tecken: <code>{invalid_characters}</code>"
+
+#: projects/validators.py:136
+#, python-brace-format
+msgid "The only allowed filename is <code>{filename}</code>."
+msgstr "Det enda tillåtna filnamnet är <code>{filename}</code>."
+
+#: projects/validators.py:144
+#, python-brace-format
+msgid "The only allowed filenames are <code>{filenames}</code>."
+msgstr "De enda tillåtna filnamnen är <code>{filenames}</code>."
+
+#: projects/validators.py:244
+msgid "The total size of all environment variables in the project cannot exceed 256 KB."
+msgstr "Den totala storleken på alla miljövariabler i projektet får inte överstiga 256 KB."
+
+#: projects/views/private.py:191
+msgid "Project settings updated"
+msgstr "Uppdatering av projektinställningar"
+
+#: projects/views/private.py:203
+msgid "Project deleted"
+msgstr "Projekt borttaget"
+
+#: projects/views/private.py:217
+msgid "Project addons updated"
+msgstr "Uppdatering av projekttillägg"
+
+#: projects/views/private.py:263
+msgid "Version created"
+msgstr "Version skapad"
+
+#: projects/views/private.py:268
+msgid "Version updated"
+msgstr "Version uppdaterad"
+
+#: projects/views/private.py:349
+msgid "We detected a configuration file in your repository and started your project's first build."
+msgstr "Vi upptäckte en konfigurationsfil i ditt arkiv och startade ditt projekts första build."
+
+#: projects/views/private.py:472
+#, python-brace-format
+msgid "There is a problem with your {service} account, try reconnecting your account on your <a href=\"{url}\">connected services page</a>."
+msgstr ""
+"Det har uppstått ett problem med ditt konto på {service}. Försök att återansluta ditt konto på <a href=\"{url}\">sidan</a> för anslutna <a href=\"{url}"
+"\">tjänster</a>."
+
+#: projects/views/private.py:528
+msgid "Subproject created"
+msgstr "Delprojekt skapat"
+
+#: projects/views/private.py:532
+msgid "Subproject updated"
+msgstr "Uppdatering av delprojekt"
+
+#: projects/views/private.py:537
+msgid "Subproject deleted"
+msgstr "Delprojekt borttaget"
+
+#: projects/views/private.py:580
+msgid "User deleted"
+msgstr "Användare borttagen"
+
+#: projects/views/private.py:654
+msgid "Notification created"
+msgstr "Notifiering skapad"
+
+#: projects/views/private.py:659
+msgid "Notification deleted"
+msgstr "Notifiering raderad"
+
+#: projects/views/private.py:694
+msgid "Webhook created"
+msgstr "Webhook skapad"
+
+#: projects/views/private.py:704
+msgid "Webhook updated"
+msgstr "Webhook uppdaterad"
+
+#: projects/views/private.py:714
+msgid "Webhook deleted"
+msgstr "Webhook raderad"
+
+#: projects/views/private.py:768
+msgid "Translation created"
+msgstr "Översättning skapad"
+
+#: projects/views/private.py:773
+msgid "Translation deleted"
+msgstr "Översättning raderad"
+
+#: projects/views/private.py:815
+msgid "Redirect created"
+msgstr "Omdirigering skapad"
+
+#: projects/views/private.py:819
+msgid "Redirect updated"
+msgstr "Uppdatering av omdirigering"
+
+#: projects/views/private.py:848
+msgid "Redirect deleted"
+msgstr "Omdirigering raderad"
+
+#: projects/views/private.py:881
+msgid "Domain created"
+msgstr "Domän skapad"
+
+#: projects/views/private.py:901
+msgid "Domain updated"
+msgstr "Domän uppdaterad"
+
+#: projects/views/private.py:916
+msgid "Domain deleted"
+msgstr "Domän raderad"
+
+#: projects/views/private.py:960
+msgid "Integration created"
+msgstr "Integration skapad"
+
+#: projects/views/private.py:989
+msgid "Integration deleted"
+msgstr "Integration borttagen"
+
+#: projects/views/private.py:1038
+msgid "Project has been opted out from advertisement support"
+msgstr "Projektet har valts bort från annonseringsstöd"
+
+#: projects/views/private.py:1069
+msgid "Environment variable created"
+msgstr "Miljövariabel skapad"
+
+#: projects/views/private.py:1073
+msgid "Environment variable deleted"
+msgstr "Miljövariabel raderad"
+
+#: projects/views/private.py:1096
+msgid "Automation rule moved"
+msgstr "Regel för automatisering flyttad"
+
+#: projects/views/private.py:1112
+msgid "Automation rule deleted"
+msgstr "Automatiseringsregel raderad"
+
+#: projects/views/private.py:1122
+msgid "Automation rule created"
+msgstr "Automationsregel skapad"
+
+#: projects/views/private.py:1126
+msgid "Automation rule updated"
+msgstr "Uppdatering av automatiseringsregeln"
+
+#: projects/views/private.py:1308
+msgid "Pull request settings have been updated"
+msgstr "Pull request-inställningarna har uppdaterats"
+
+#: proxito/exceptions.py:90
+msgctxt "Names an object not found in a 404 error"
+msgid "subproject"
+msgstr "delprojekt"
+
+#: proxito/exceptions.py:129
+msgctxt "Names an object not found in a 404 error"
+msgid "translation"
+msgstr "översättning"
+
+#: redirects/constants.py:5
+msgid "302 - Temporary Redirect"
+msgstr "302 - Tillfällig omdirigering"
+
+#: redirects/constants.py:6
+msgid "301 - Permanent Redirect"
+msgstr "301 - Permanent omdirigering"
+
+#: redirects/constants.py:15
+msgid "Page Redirect"
+msgstr "Omdirigering av sida"
+
+#: redirects/constants.py:16
+msgid "Exact Redirect"
+msgstr "Exakt omdirigering"
+
+#: redirects/constants.py:17
+msgid "Clean URL to HTML (file/ to file.html)"
+msgstr "Rengör URL till HTML (file/ till file.html)"
+
+#: redirects/constants.py:18
+msgid "HTML to clean URL (file.html to file/)"
+msgstr "HTML till ren URL (file.html till file/)"
+
+#: redirects/models.py:32
+msgid "Absolute path, excluding the domain. Example: <b>/docs/</b>  or <b>/install.html</b>"
+msgstr "Absolut sökväg, exklusive domänen. Exempel: <b>/docs/</b> eller <b>/install.html</b>"
+
+#: redirects/models.py:35
+msgid "Absolute or relative URL. Example: <b>/tutorial/install.html</b>"
+msgstr "Absolut eller relativ URL. Exempel: <b>/handledning/installera.html</b>"
+
+#: redirects/models.py:37
+msgid "The type of redirect you wish to use."
+msgstr "Den typ av omdirigering som du vill använda."
+
+#: redirects/models.py:51
+msgid "Redirect Type"
+msgstr "Typ av omdirigering"
+
+#: redirects/models.py:58
+msgid "From URL"
+msgstr "Från URL"
+
+#: redirects/models.py:75
+msgid "To URL"
+msgstr "Till URL"
+
+#: redirects/models.py:83
+msgid "Force redirect"
+msgstr "Tvinga omdirigering"
+
+#: redirects/models.py:86
+msgid "Apply the redirect even if the page exists."
+msgstr "Tillämpa omdirigeringen även om sidan finns."
+
+#: redirects/models.py:99
+msgid "Enable or disable the redirect."
+msgstr "Aktivera eller inaktivera omdirigeringen."
+
+#: redirects/models.py:113
+msgid "Order of execution of the redirect."
+msgstr "Ordningsföljd för genomförandet av omdirigeringen."
+
+#: redirects/models.py:124
+msgid "redirect"
+msgstr "omdirigera"
+
+#: redirects/models.py:125
+msgid "redirects"
+msgstr "omdirigeringar"
+
+#: redirects/models.py:202
+msgid "Redirect: {}"
+msgstr "Omdirigera: {}"
+
+#: redirects/templates/redirects/redirect_form.html:5
+msgid "Redirect"
+msgstr "Omdirigera"
+
+#: redirects/templates/redirects/redirect_form.html:8 redirects/templates/redirects/redirect_list.html:6
+#: redirects/templates/redirects/redirect_list.html:13 templates/projects/project_edit_base.html:24
+msgid "Redirects"
+msgstr "Omdirigeringar"
+
+#: redirects/templates/redirects/redirect_form.html:72 redirects/templates/redirects/redirect_list.html:17
+#, python-format
+msgid "Add redirects for your project. This allows you to fix links to old pages that are 404ing. <a href=\"%(docs_url)s\">Learn more</a>."
+msgstr ""
+"Lägg till omdirigeringar för ditt projekt. Detta gör att du kan fixa länkar till gamla sidor som är 404. <a href=\"%(docs_url)s\">Lär dig mer om</a> "
+"detta."
+
+#: redirects/templates/redirects/redirect_form.html:88 templates/builds/regexautomationrule_form.html:34 templates/projects/webhook_form.html:44
+msgid "Delete"
+msgstr "Ta bort"
+
+#: redirects/templates/redirects/redirect_list.html:27
+msgid "Add Redirect"
+msgstr "Lägg till omdirigering"
+
+#: redirects/templates/redirects/redirect_list.html:52 redirects/templates/redirects/redirect_list.html:53
+#: templates/builds/versionautomationrule_list.html:54 templates/builds/versionautomationrule_list.html:55
+msgid "Move up"
+msgstr "Flytta upp"
+
+#: redirects/templates/redirects/redirect_list.html:63 redirects/templates/redirects/redirect_list.html:64
+#: templates/builds/versionautomationrule_list.html:65 templates/builds/versionautomationrule_list.html:66
+msgid "Move down"
+msgstr "Flytta ner"
+
+#: redirects/templates/redirects/redirect_list.html:72 templates/core/project_details.html:41 templates/projects/project_version_list.html:49
+#: templates/projects/webhook_list.html:39
+msgid "Edit"
+msgstr "Redigera"
+
+#: redirects/templates/redirects/redirect_list.html:80
+msgid "No redirects found."
+msgstr "Inga omdirigeringar hittades."
+
+#: redirects/validators.py:53
+#, python-brace-format
+msgid "This project has reached the limit of {feature.value} redirects. Consider replacing some of your redirects with a wildcard redirect."
+msgstr ""
+"Det här projektet har nått gränsen för {feature.value} omdirigeringar. Överväg att ersätta några av dina omdirigeringar med en omdirigering med "
+"jokertecken."
+
+#: redirects/validators.py:58
+#, python-brace-format
+msgid ""
+"This project has reached the limit of {feature.value} redirects. Consider replacing some of your redirects with a wildcard redirect, or upgrade your "
+"plan."
+msgstr ""
+"Detta projekt har nått gränsen för {feature.value} omdirigeringar. Överväg att ersätta några av dina omdirigeringar med en omdirigering med "
+"jokertecken, eller uppgradera din plan."
+
+#: search/api/pagination.py:72
+msgid "Invalid page"
+msgstr "Ogiltig sida"
+
+#: search/api/v2/views.py:75
+msgid "This query param is required"
+msgstr "Denna frågeparameter krävs"
+
+#: search/api/v3/views.py:77
+msgid "This query parameter is required"
+msgstr "Denna frågeparameter är obligatorisk"
+
+#: search/models.py:31
+msgid "Query"
+msgstr "Fråga"
+
+#: search/models.py:35
+msgid "Total results"
+msgstr "Totalt resultat"
+
+#: settings/base.py:490
+msgid "Catalan"
+msgstr "Katalanska"
+
+#: settings/base.py:491
+msgid "English"
+msgstr "Engelska"
+
+#: settings/base.py:492
+msgid "Spanish"
+msgstr "Spanska"
+
+#: settings/base.py:493
+msgid "Brazilian Portuguese"
+msgstr "Brasiliansk portugisiska"
+
+#: settings/base.py:494
+msgid "Norwegian Bokmål"
+msgstr "Norska bokmål"
+
+#: settings/base.py:495
+msgid "French"
+msgstr "Franska"
+
+#: settings/base.py:496
+msgid "Russian"
+msgstr "Ryska"
+
+#: settings/base.py:497
+msgid "German"
+msgstr "Tyska"
+
+#: settings/base.py:498
+msgid "Galician"
+msgstr "Galiciska"
+
+#: settings/base.py:499
+msgid "Vietnamese"
+msgstr "Vietnamesisk"
+
+#: settings/base.py:500
+msgid "Simplified Chinese"
+msgstr "Förenklad kinesiska"
+
+#: settings/base.py:501
+msgid "Traditional Chinese"
+msgstr "Traditionell kinesiska"
+
+#: settings/base.py:502
+msgid "Japanese"
+msgstr "Japanska"
+
+#: settings/base.py:503
+msgid "Ukrainian"
+msgstr "Ukrainska"
+
+#: settings/base.py:504
+msgid "Italian"
+msgstr "Italienska"
+
+#: settings/base.py:505
+msgid "Korean"
+msgstr "Koreanska"
+
+#: subscriptions/constants.py:27
+msgid "Custom domain"
+msgstr "Anpassad domän"
+
+#: subscriptions/constants.py:28
+msgid "CDN for public documentation"
+msgstr "CDN för offentlig dokumentation"
+
+#: subscriptions/constants.py:29
+msgid "Custom SSL configuration"
+msgstr "Anpassad SSL-konfiguration"
+
+#: subscriptions/constants.py:30
+msgid "Support SLA"
+msgstr "Support SLA"
+
+#: subscriptions/constants.py:31
+msgid "Private documentation"
+msgstr "Privat dokumentation"
+
+#: subscriptions/constants.py:32
+msgid "Embed content via API"
+msgstr "Bädda in innehåll via API"
+
+#: subscriptions/constants.py:33
+msgid "Search analytics"
+msgstr "Analys av sökningar"
+
+#: subscriptions/constants.py:34
+msgid "Pageview analytics"
+msgstr "Analys av sidvisningar"
+
+#: subscriptions/constants.py:35
+msgid "Concurrent builds"
+msgstr "Samtidiga byggnationer"
+
+#: subscriptions/constants.py:36
+msgid "Single sign on (SSO) with Google"
+msgstr "Enkel inloggning (SSO) med Google"
+
+#: subscriptions/constants.py:37
+msgid "Single sign on (SSO) with SAML"
+msgstr "Enkel inloggning (SSO) med SAML"
+
+#: subscriptions/constants.py:38
+msgid "Custom URLs"
+msgstr "Anpassade URL:er"
+
+#: subscriptions/constants.py:39
+msgid "Audit logs"
+msgstr "Granskningsloggar"
+
+#: subscriptions/constants.py:40
+msgid "Audit logs for every page view"
+msgstr "Granskningsloggar för varje sidvisning"
+
+#: subscriptions/constants.py:41
+msgid "Redirects limit"
+msgstr "Gräns för omdirigeringar"
+
+#: subscriptions/forms.py:28
+msgid "Check our <a href=\"https://about.readthedocs.com/pricing/\">pricing page</a> for more information about each plan."
+msgstr "På vår <a href=\"https://about.readthedocs.com/pricing/\">prissida</a> finns mer information om varje plan."
+
+#: subscriptions/notifications.py:84
+msgid "Your organization has been disabled"
+msgstr "Din organisation har avaktiverats"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:7
+msgid "Organization Subscription"
+msgstr "Organisation Prenumeration"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:19
+#, python-format
+msgid ""
+"You are currently on a trial. Please choose a <a href=\"%(pricing_url)s\">paid plan</a> that fits your organization prior to the end of your trial. "
+"Upgrade your account by clicking on <strong>Manage subscription</strong> below."
+msgstr ""
+"Du är för närvarande på en testperiod. Välj en <a href=\"%(pricing_url)s\">betald plan</a> som passar din organisation innan testperioden är slut. "
+"Uppgradera ditt konto genom att klicka på <strong>Hantera prenumeration</strong> nedan."
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:31
+msgid "Plan"
+msgstr "Plan"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:42
+msgid "Extra products:"
+msgstr "Extra produkter:"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:61
+msgid "Features:"
+msgstr "Funktioner:"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:72
+msgid "Signed up"
+msgstr "Registrerad"
+
+#. Translators: this is the subscription start date, used here as "4 days ago"
+#. or "5 months ago"
+#: subscriptions/templates/subscriptions/subscription_detail.html:75
+#, python-format
+msgid "%(time_since_signup)s ago"
+msgstr "för %(time_since_signup)s sedan"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:81
+msgid "Subscription status"
+msgstr "Status för prenumeration"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:87
+msgid "Trial ends"
+msgstr "Testperiod avslutas"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:92
+msgid "Subscription ends"
+msgstr "Prenumerationen avslutas"
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:107
+msgid "Use the button above to see past invoices, change your plan, and update your billing information."
+msgstr "Använd knappen ovan för att se tidigare fakturor, ändra ditt abonnemang och uppdatera din faktureringsinformation."
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:115
+#, python-format
+msgid ""
+"<strong>You don't currently have an active subscription</strong>. You must create a subscription for a <a href=\"%(pricing_url)s\">paid plan</a> that "
+"fits your organization to continue using Read the Docs for Business."
+msgstr ""
+"<strong>Du har för närvarande inte en aktiv prenumeration</strong>. Du måste skapa en prenumeration för en <a href=\"%(pricing_url)s\">betald plan</a> "
+"som passar din organisation för att fortsätta använda Read the Docs for Business."
+
+#: subscriptions/templates/subscriptions/subscription_detail.html:123
+msgid "Start subscription"
+msgstr "Starta prenumeration"
+
+#: subscriptions/views.py:41
+msgid "Your plan has been upgraded!"
+msgstr "Din plan har uppgraderats!"
+
+#: subscriptions/views.py:94
+msgid "There was an error connecting to Stripe, please try again in a few minutes."
+msgstr "Det uppstod ett fel vid anslutningen till Stripe, försök igen om några minuter."
+
+#: templates/account/email.html:5 templates/account/email.html:9 templates/profiles/base_profile_edit.html:51
+msgid "Change Email"
+msgstr "Ändra e-post"
+
+#: templates/account/email.html:13
+msgid "The following email addresses are associated with your account:"
+msgstr "Följande e-postadresser är kopplade till ditt konto:"
+
+#: templates/account/email.html:26
+msgid "Verified"
+msgstr "Verifierad"
+
+#: templates/account/email.html:28
+msgid "Unverified"
+msgstr "Obekräftad"
+
+#: templates/account/email.html:30
+msgid "Primary"
+msgstr "Primär"
+
+#: templates/account/email.html:36
+msgid "Make Primary"
+msgstr "Gör primär"
+
+#: templates/account/email.html:37
+msgid "Re-send Verification"
+msgstr "Skicka verifiering på nytt"
+
+#: templates/account/email.html:46
+msgid "Warning:"
+msgstr "Varning:"
+
+#: templates/account/email.html:46
+msgid ""
+"You currently do not have any email address set up. You should really add an email address so you can receive notifications, reset your password, etc."
+msgstr ""
+"Du har för närvarande inte någon e-postadress. Du bör verkligen lägga till en e-postadress så att du kan få meddelanden, återställa ditt lösenord etc."
+
+#: templates/account/email.html:50
+msgid "Add E-mail Address"
+msgstr "Lägg till e-postadress"
+
+#: templates/account/email.html:55
+msgid "Add E-mail"
+msgstr "Lägg till e-post"
+
+#: templates/account/email.html:64
+msgid "Do you really want to remove the selected email address?"
+msgstr "Vill du verkligen ta bort den valda e-postadressen?"
+
+#: templates/account/email/email_confirmation_message.html:7 templates/account/email/email_confirmation_message.txt:6
+msgid "To verify your email address and finish setting up your account, please go to:"
+msgstr "För att verifiera din e-postadress och avsluta konfigurationen av ditt konto, gå till:"
+
+#: templates/account/email/email_confirmation_message.html:15 templates/account/email/email_confirmation_message.txt:10
+msgid "If you did not sign up for an account with Read the Docs, you can disregard this email."
+msgstr "Om du inte har registrerat dig för ett konto hos Read the Docs kan du bortse från detta e-postmeddelande."
+
+#: templates/account/email/password_reset_key_message.html:7 templates/account/email/password_reset_key_message.txt:6
+msgid "A request has been made to reset your Read the Docs password. To confirm this reset request, please go to:"
+msgstr "En begäran har gjorts om att återställa ditt Read the Docs-lösenord. För att bekräfta denna begäran om återställning, gå till:"
+
+#: templates/account/email/password_reset_key_message.html:15 templates/account/email/password_reset_key_message.txt:10
+msgid "If you did not request to reset your password, you can disregard this email."
+msgstr "Om du inte har begärt att få återställa ditt lösenord kan du bortse från det här e-postmeddelandet."
+
+#: templates/account/email/password_reset_key_subject.txt:3
+msgid "Password reset"
+msgstr "Återställning av lösenord"
+
+#: templates/account/login.html:6 templates/account/login.html:12 templates/account/login.html:51 templates/core/home-header.html:19
+msgid "Log in"
+msgstr "Logga in"
+
+#: templates/account/login.html:16
+msgid ""
+"\n"
+"    In order to view this documentation, you must log in first.\n"
+"  "
+msgstr ""
+"\n"
+"    För att kunna se denna dokumentation måste du först logga in.\n"
+"  "
+
+#: templates/account/login.html:31 templates/account/login.html:60 templates/account/login.html:69 templates/account/signup.html:52
+msgid "Or"
+msgstr "Eller"
+
+#: templates/account/login.html:33 templates/account/login.html:62
+#, python-format
+msgid "Do you have a password to access this documentation? <a href=\"%(project_password_url)s\">Access here</a>."
+msgstr "Har du ett lösenord för att få tillgång till denna dokumentation? Få <a href=\"%(project_password_url)s\">tillgång här</a>."
+
+#: templates/account/login.html:42
+#, python-format
+msgid "If you have not created an account yet, then please <a href=\"%(signup_url)s\">sign up</a> first."
+msgstr "Om du inte har skapat ett konto ännu, <a href=\"%(signup_url)s\">registrera</a> dig först."
+
+#: templates/account/login.html:55
+#, python-format
+msgid "If you forgot your password, <a href=\"%(password_reset_url)s\">reset it.</a>"
+msgstr "Om du har glömt ditt lösenord ska du <a href=\"%(password_reset_url)s\">återställa det.</a>"
+
+#: templates/account/login.html:78
+msgid "Log in using single sign-on"
+msgstr "Logga in med enkel inloggning"
+
+#: templates/account/password_change.html:5 templates/account/password_change.html:9 templates/account/password_change.html:15
+#: templates/profiles/base_profile_edit.html:50
+msgid "Change Password"
+msgstr "Ändra lösenord"
+
+#. Translators: Note, the full sentence goes 'Sign up' 'or' 'Log in'. But
+#. unfortunately the three bits have to be separate.
+#: templates/account/signup.html:5 templates/core/home-header.html:17
+msgid "Sign up"
+msgstr "Registrera dig"
+
+#: templates/account/signup.html:13
+#, python-format
+msgid "Already have an account? Then please <a href=\"%(login_url)s\">sign in</a>."
+msgstr "Har du redan ett konto? <a href=\"%(login_url)s\">Logga</a> då <a href=\"%(login_url)s\">in</a>."
+
+#: templates/account/signup.html:19
+#, python-format
+msgid "You have been invited to join the organization \"%(organization_name)s\" at Read the Docs."
+msgstr "Du har blivit inbjuden att ansluta dig till organisationen \"%(organization_name)s\" på Read the Docs."
+
+#: templates/account/signup.html:25
+msgid "You have been invited to join an organization at Read the Docs."
+msgstr "Du har blivit inbjuden att gå med i en organisation på Read the Docs."
+
+#: templates/account/signup.html:33
+msgid "Sign up using the following provider. If you don't have an account with this provider, please contact your organization owner and ask about this."
+msgstr ""
+"Registrera dig med hjälp av följande leverantör. Om du inte har ett konto hos den här leverantören kan du kontakta din organisationsägare och fråga om "
+"detta."
+
+#: templates/account/signup.html:48
+msgid ""
+"By signing up, you agree to our <a href=\"https://docs.readthedocs.io/page/terms-of-service.html\">Terms of Service</a> and <a href=\"https://"
+"docs.readthedocs.io/page/privacy-policy.html\">Privacy Policy</a>."
+msgstr ""
+"När du registrerar dig godkänner du våra <a href=\"https://docs.readthedocs.io/page/terms-of-service.html\">användarvillkor</a> och vår <a "
+"href=\"https://docs.readthedocs.io/page/privacy-policy.html\">integritetspolicy</a>."
+
+#: templates/archive/index.html:5
+msgid "Read the Docs Archive"
+msgstr "Read the Docs-arkivet"
+
+#: templates/base.html:153
+msgid "Stay Updated"
+msgstr "Håll dig informerad"
+
+#: templates/base.html:157
+msgid "Blog"
+msgstr "Blogg"
+
+#: templates/base.html:161
+msgid "Sign up for our newsletter to get our latest blog updates delivered to your inbox weekly."
+msgstr "Anmäl dig till vårt nyhetsbrev för att få våra senaste blogguppdateringar levererade till din inkorg varje vecka."
+
+#: templates/base.html:174
+msgid "Subscribe"
+msgstr "Prenumerera"
+
+#: templates/base.html:182
+msgid "Thank you!"
+msgstr "Tack!"
+
+#: templates/base.html:183
+msgid "You have successfully joined our subscriber list."
+msgstr "Du har nu gått med i vår prenumerantlista."
+
+#: templates/base.html:196
+msgid "Resources"
+msgstr "Resurser"
+
+#: templates/base.html:200
+msgid "Tutorial"
+msgstr "Handledning"
+
+#: templates/base.html:206
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: templates/base.html:209
+msgid "Going Ad-free"
+msgstr "Bli reklamfri"
+
+#: templates/base.html:212
+msgid "Site Support"
+msgstr "Support"
+
+#: templates/base.html:215
+msgid "Site Status"
+msgstr "Status"
+
+#: templates/base.html:222
+msgid "Company"
+msgstr "Företag"
+
+#: templates/base.html:226
+msgid "Jobs"
+msgstr "Jobb"
+
+#: templates/base.html:229
+msgid "Advertise with Us"
+msgstr "Annonsera med oss"
+
+#: templates/base.html:232
+msgid "Read the Docs for Business"
+msgstr "Läs dokumenten för företag"
+
+#: templates/base.html:235
+msgid "Branding & Media Kit"
+msgstr "Varumärkesprofilering & mediekit"
+
+#: templates/base.html:238
+msgid "Privacy Policy"
+msgstr "Integritetspolicy"
+
+#: templates/base.html:241
+msgid "Terms of Service"
+msgstr "Användarvillkor"
+
+#: templates/base.html:262
+msgid "Read the Docs, Inc & contributors"
+msgstr "Läs dokumenten, Inc & bidragsgivare"
+
+#: templates/base.html:285
+msgid "Change Language"
+msgstr "Ändra språk"
+
+#: templates/base_filter.html:14 templates/core/filter_bar.html:8
+msgid "Filter"
+msgstr "Filtrera"
+
+#: templates/builds/build_detail.html:39
+#, python-format
+msgid "Our new beta dashboard is now available for testing! <a href=\"%(url)s\">Try viewing this build on the new dashboard</a>."
+msgstr ""
+"Vår nya beta-instrumentpanel är nu tillgänglig för testning! <a href=\"%(url)s\">Prova att visa den här versionen på den nya instrumentpanelen</a>."
+
+#: templates/builds/build_detail.html:53
+msgid "Cancel build"
+msgstr "Avbryt byggnation"
+
+#: templates/builds/build_detail.html:61
+msgid "Completed"
+msgstr "Slutförd"
+
+#: templates/builds/build_detail.html:66
+msgid "Build took"
+msgstr "Byggnationen tog"
+
+#: templates/builds/build_detail.html:70
+msgid "seconds"
+msgstr "sekunder"
+
+#: templates/builds/build_detail.html:76
+msgid "Built on"
+msgstr "Byggd på"
+
+#: templates/builds/build_detail.html:84
+msgid "View docs"
+msgstr "Visa dokumentation"
+
+#: templates/builds/build_detail.html:92
+msgid "View raw"
+msgstr "Visa råversion"
+
+#: templates/builds/build_detail.html:115
+#, python-format
+msgid "Build #%(build_id)s"
+msgstr "Bygg #%(build_id)s"
+
+#: templates/builds/build_detail.html:125
+#, python-format
+msgid ""
+"\n"
+"            <b>%(external_version_name)s</b>\n"
+"          "
+msgstr ""
+"\n"
+"            <b>%(external_version_name)s</b>\n"
+"          "
+
+#: templates/builds/build_detail.html:155
+msgid "Build completed"
+msgstr "Byggnation färdig"
+
+#: templates/builds/build_detail.html:165
+msgid "Build cancelled"
+msgstr "Byggnation avbruten"
+
+#: templates/builds/build_detail.html:175
+#, python-format
+msgid ""
+"Don't want <em>setup.py install</em> called? Change the <strong>Install Project</strong> setting in your <a href=\"%(project_settings_url)s\">project "
+"settings</a>."
+msgstr ""
+"Vill du inte att <em>setup.py install</em> anropas? Ändra inställningen <strong>Installera projekt</strong> i dina <a "
+"href=\"%(project_settings_url)s\">projektinställningar</a>."
+
+#: templates/builds/build_detail.html:204
+msgid "Show full build output"
+msgstr "Visa hela byggresultatet"
+
+#: templates/builds/build_detail.html:210
+msgid "Build Output"
+msgstr "Byggnationens utdata"
+
+#: templates/builds/build_detail.html:214
+msgid "Setup Output"
+msgstr "Konfigurationsutdata"
+
+#: templates/builds/build_detail.html:219
+msgid "Environment Standard Error"
+msgstr "Miljöns standardfel"
+
+#: templates/builds/build_detail.html:225
+msgid "Build Errors"
+msgstr "Byggfel"
+
+#: templates/builds/build_detail.html:275
+#, python-format
+msgid "<a href=\"%(url)s\">Report any build issues here</a>."
+msgstr "<a href=\"%(url)s\">Rapportera eventuella byggproblem här</a>."
+
+#: templates/builds/build_detail.html:300
+msgid "Command time:"
+msgstr "Kommandotid:"
+
+#: templates/builds/build_detail.html:305
+msgid "Return"
+msgstr "Tillbaka"
+
+#: templates/builds/build_list.html:37
+msgid "Build Version:"
+msgstr "Byggversion:"
+
+#: templates/builds/build_list.html:53
+msgid "Recent Builds"
+msgstr "Senaste byggnationerna"
+
+#: templates/builds/regexautomationrule_form.html:6 templates/builds/regexautomationrule_form.html:11
+msgid "Automation Rule"
+msgstr "Regel för automatisering"
+
+#: templates/builds/tag_list.html:5 templates/projects/tag_list.html:4 templates/projects/tag_list.html:7
+msgid "Popular tags"
+msgstr "Populära taggar"
+
+#: templates/builds/versionautomationrule_list.html:6 templates/builds/versionautomationrule_list.html:15 templates/projects/project_edit_base.html:29
+msgid "Automation Rules"
+msgstr "Regler för automatisering"
+
+#: templates/builds/versionautomationrule_list.html:20
+msgid ""
+"Automate actions on new branches and tags. Check the <a href=\"https://docs.readthedocs.io/page/automation-rules.html\">documentation on automation "
+"rules</a> for more information."
+msgstr ""
+"Automatisera åtgärder för nya grenar och taggar. Mer information finns i <a href=\"https://docs.readthedocs.io/page/automation-"
+"rules.html\">dokumentationen om automatiseringsregler</a>."
+
+#: templates/builds/versionautomationrule_list.html:32
+msgid "Add Rule"
+msgstr "Lägg till regel"
+
+#: templates/builds/versionautomationrule_list.html:76
+msgid "No automation rules are currently configured."
+msgstr "Inga automatiseringsregler är för närvarande konfigurerade."
+
+#: templates/builds/versionautomationrule_list.html:85 templates/projects/integration_webhook_detail.html:108 templates/projects/webhook_form.html:47
+msgid "Recent Activity"
+msgstr "Senaste aktivitet"
+
+#: templates/builds/versionautomationrule_list.html:91
+#, python-format
+msgid ""
+"%(type)s \"%(version)s\" matched the pattern <span>\"%(pattern)s\"</span>, and the action <a href=\"%(url)s\">%(action)s</a> was performed %(date)s "
+"ago."
+msgstr ""
+"%(type)s \"%(version)s\" matchade mönstret <span>\"%(pattern)s</span>\", och åtgärden <a href=\"%(url)s\">%(action)s</a> utfördes för %(date)s sedan."
+
+#: templates/builds/versionautomationrule_list.html:101 templates/projects/integration_webhook_detail.html:124 templates/projects/webhook_form.html:63
+msgid "There is no recent activity"
+msgstr "Det finns ingen ny aktivitet"
+
+#: templates/core/build_list_detailed.html:7
+msgid "This build is still waiting to be built"
+msgstr "Detta bygge väntar fortfarande på att bli byggt"
+
+#: templates/core/build_list_detailed.html:7
+msgid "Passed"
+msgstr "Godkänd"
+
+#: templates/core/build_list_detailed.html:7
+msgid "Failed"
+msgstr "Misslyckad"
+
+#: templates/core/build_list_detailed.html:11
+#, python-format
+msgid "%(external_version_name)s"
+msgstr "%(external_version_name)s"
+
+#: templates/core/build_list_detailed.html:16
+#, python-format
+msgid "version %(slug)s (%(type)s)"
+msgstr "version %(slug)s (%(type)s)"
+
+#: templates/core/build_list_detailed.html:29
+msgid "No builds found"
+msgstr "Inga byggen hittades"
+
+#: templates/core/email/base.html:78
+msgid "Hello,"
+msgstr "Hej,"
+
+#: templates/core/email/base.html:91
+msgid "Keep documenting,"
+msgstr "Fortsätt dokumentera,"
+
+#: templates/core/email/base.html:92
+msgid "Read the Docs"
+msgstr "Read the Docs"
+
+#: templates/core/filter_list.html:12
+msgid "No objects found"
+msgstr "Inga objekt hittades"
+
+#: templates/core/header.html:28
+msgid "My Projects"
+msgstr "Mina projekt"
+
+#: templates/core/header.html:30
+msgid "Support"
+msgstr "Support"
+
+#: templates/core/header.html:33
+msgid "Log Out"
+msgstr "Logga ut"
+
+#: templates/core/header.html:41
+msgid "Log In"
+msgstr "Logga in"
+
+#: templates/core/home-header.html:10
+msgid "Create, host, and browse documentation."
+msgstr "Skapa, hosta och bläddra i dokumentation."
+
+#: templates/core/notifications.html:13
+msgid "Close notification"
+msgstr "Stäng meddelandet"
+
+#: templates/core/project_bar_base.html:12 templates/core/project_list_detailed.html:34 templates/projects/project_version_list.html:53
+msgid "View Docs"
+msgstr "Visa dokumentation"
+
+#: templates/core/project_bar_base.html:25
+msgid "delisted"
+msgstr "avlistad"
+
+#: templates/core/project_bar_base.html:33
+msgid "Overview"
+msgstr "Översikt"
+
+#: templates/core/project_bar_base.html:35 templates/projects/project_downloads.html:22
+msgid "Downloads"
+msgstr "Nedladdningar"
+
+#. Translators: This is about starting a search
+#: templates/core/project_bar_base.html:37 templates/search/elastic_search.html:80 templates/search/elastic_search.html:92
+msgid "Search"
+msgstr "Sök"
+
+#: templates/core/project_bar_base.html:41 templates/core/project_details.html:17
+msgid "Versions"
+msgstr "Versioner"
+
+#: templates/core/project_detail_right.html:9
+msgid "Repository"
+msgstr "Arkiv"
+
+#: templates/core/project_detail_right.html:21
+msgid "Used in URL's and in code to represent the project name"
+msgstr "Används i webbadresser och i kod för att representera projektnamnet"
+
+#: templates/core/project_detail_right.html:22
+msgid "Project Slug"
+msgstr "Permalänk"
+
+#: templates/core/project_detail_right.html:29
+msgid "Last Built"
+msgstr "Senast byggd"
+
+#: templates/core/project_detail_right.html:36
+msgid "passed"
+msgstr "godkänd"
+
+#: templates/core/project_detail_right.html:38
+msgid "failed"
+msgstr "misslyckades"
+
+#: templates/core/project_detail_right.html:41
+msgid "Currently Building"
+msgstr "Byggs för närvarande"
+
+#: templates/core/project_detail_right.html:44 templates/projects/project_dashboard_base.html:83
+msgid "No builds yet"
+msgstr "Inga byggnationer ännu"
+
+#: templates/core/project_detail_right.html:51 templates/projects/project_edit_base.html:23 templates/projects/project_users.html:9
+msgid "Maintainers"
+msgstr "Underhållsansvariga"
+
+#: templates/core/project_detail_right.html:69
+msgid "Badge"
+msgstr "Emblem"
+
+#: templates/core/project_detail_right.html:79
+msgid "Tags"
+msgstr "Taggar"
+
+#: templates/core/project_detail_right.html:87
+msgid "Project has no tags."
+msgstr "Projektet har inga taggar."
+
+#: templates/core/project_detail_right.html:90
+#, python-format
+msgid "Add some in your <a href=\"%(edit_url)s\">project settings</a>."
+msgstr "Lägg till några i dina <a href=\"%(edit_url)s\">projektinställningar</a>."
+
+#: templates/core/project_detail_right.html:100
+msgid "Short URLs"
+msgstr "Korta webbadresser"
+
+#: templates/core/project_detail_right.html:111 templates/projects/project_edit_base.html:25 templates/projects/project_translations.html:12
+msgid "Translations"
+msgstr "Översättningar"
+
+#: templates/core/project_detail_right.html:122
+msgid "Sub Projects"
+msgstr "Underprojekt"
+
+#: templates/core/project_detail_right.html:132
+msgid "Default Version"
+msgstr "Standardversion"
+
+#: templates/core/project_detail_right.html:135
+msgid "'latest' Version"
+msgstr "\"senaste\" version"
+
+#: templates/core/project_details.html:49 templates/projects/project_version_list.html:64
+msgid "No active versions."
+msgstr "Inga aktiva versioner."
+
+#: templates/core/project_details.html:60
+msgid "Build a version"
+msgstr "Bygg en version"
+
+#: templates/core/project_details.html:69
+msgctxt "Build is a verb"
+msgid "Build version"
+msgstr "Bygg version"
+
+#: templates/core/project_downloads.html:31
+msgid "No downloads for this project."
+msgstr "Inga nedladdningar för detta projekt."
+
+#: templates/core/project_list_detailed.html:28
+msgid "No builds"
+msgstr "Inga byggnationer"
+
+#: templates/core/project_list_detailed.html:36
+msgid "No Docs"
+msgstr "Inga dokument"
+
+#: templates/core/project_list_detailed.html:44
+msgid "No projects found"
+msgstr "Inga projekt hittades"
+
+#: templates/core/widesearchbar.html:5
+msgid "Search all the docs"
+msgstr "Sök i alla dokument"
+
+#: templates/core/widesearchbar.html:13
+msgid "Search Read the Docs"
+msgstr "Sök på Read the Docs"
+
+#. Translators: This is about starting a search
+#: templates/core/widesearchbar.html:17
+msgid "Let's do this."
+msgstr "Låt oss göra det här."
+
+#: templates/errors/dashboard/401.html:6 templates/errors/dashboard/403.html:6 templates/errors/proxito/401.html:6 templates/errors/proxito/403.html:6
+msgid "Maze Found"
+msgstr "Labyrint funnen"
+
+#: templates/errors/dashboard/404.html:6 templates/errors/dashboard/404.html:11 templates/errors/proxito/404/base.html:6
+#: templates/errors/proxito/404/base.html:11
+msgid "404 Not Found"
+msgstr "404, Sidan hittades inte"
+
+#: templates/errors/dashboard/404.html:15 templates/errors/proxito/404/base.html:15
+msgid "You have encountered a 404 on Read the Docs. You are either looking for a page that does not exist or a project that has been removed."
+msgstr "Du har stött på en 404 på Read the Docs. Antingen letar du efter en sida som inte finns eller ett projekt som har tagits bort."
+
+#: templates/errors/dashboard/429.html:6 templates/errors/proxito/429.html:6
+msgid "Too many requests"
+msgstr "För många förfrågningar"
+
+#: templates/errors/dashboard/4xx.html:6 templates/errors/dashboard/4xx.html:11 templates/errors/proxito/4xx.html:7 templates/errors/proxito/4xx.html:11
+msgid "Bad request"
+msgstr "Felaktig begäran"
+
+#: templates/errors/dashboard/4xx.html:16
+msgid "Your request is either unsupported or we didn't understand it."
+msgstr "Din begäran stöds antingen inte eller så förstod vi den inte."
+
+#: templates/errors/dashboard/500.html:5 templates/errors/dashboard/5xx.html:5 templates/errors/proxito/500.html:5 templates/errors/proxito/5xx.html:5
+msgid "Server Error"
+msgstr "Serverfel"
+
+#: templates/errors/proxito/404/dns.html:7
+#, python-format
+msgid "The host \"%(domain)s\" is unknown to Read the Docs"
+msgstr "Värden \"%(domain)s\" är okänd för Read the Docs"
+
+#: templates/errors/proxito/404/dns.html:11
+#, python-format
+msgid ""
+"If you control this domain and believe this is in error, please review our <a href=\"%(docsurl)s\">custom domain documentation</a>. In the past, we "
+"allowed custom domains to point to us without configuring the domain in the Read the Docs dashboard and we attempted to intelligently guess the "
+"correct project based on DNS settings. Now, we believe that explicit is better than implicit. Below are some steps to help you get your domain working "
+"again:"
+msgstr ""
+"Om du kontrollerar den här domänen och tror att detta är felaktigt, läs igenom vår <a href=\"%(docsurl)s\">dokumentation</a> om <a "
+"href=\"%(docsurl)s\">anpassade</a> domäner. Tidigare tillät vi anpassade domäner att peka på oss utan att konfigurera domänen i instrumentpanelen Läs "
+"dokumenten och vi försökte på ett intelligent sätt gissa rätt projekt baserat på DNS-inställningar. Nu anser vi att explicit är bättre än implicit. "
+"Nedan följer några steg som hjälper dig att få din domän att fungera igen:"
+
+#: templates/errors/proxito/404/dns.html:23 templates/errors/proxito/404/include_tips.html:3
+msgid "Are you the project owner?"
+msgstr "Är du projektägare?"
+
+#: templates/errors/proxito/404/dns.html:25 templates/errors/proxito/404/include_tips.html:5
+msgid "Here are some tips to address 404 errors:"
+msgstr "Här är några tips för att hantera 404-fel:"
+
+#: templates/errors/proxito/404/dns.html:28
+msgid "Ensure you have a CNAME record pointing to <code>readthedocs.io</code>"
+msgstr "Se till att du har en CNAME-post som pekar på <code>readthedocs.io</code>"
+
+#: templates/errors/proxito/404/dns.html:29
+msgid "Add your desired domain in the Read the Docs dashboard for your project (under Your Project &gt;&gt; Admin &gt;&gt; Domains)"
+msgstr "Lägg till önskad domän i Read the Docs-panelen för ditt projekt (under Ditt projekt &gt;&gt; Admin &gt;&gt; Domäner)"
+
+#: templates/errors/proxito/404/include_error_message.html:4
+#, python-format
+msgid "You are browsing the documentation of <code>%(project_slug)s</code>. The %(not_found_subject)s you are looking for was not found."
+msgstr "Du bläddrar i dokumentationen för <code>%(project_slug)s</code>. Den %(not_found_subject)s du letar efter hittades inte."
+
+#: templates/errors/proxito/404/include_error_message.html:11
+msgid ""
+"Documentation changes over time and pages are moved around. You can try to navigate to <a href=\"/\">the index page</a> of the project and use its "
+"navigation, or search for a similar page."
+msgstr ""
+"Dokumentationen förändras över tid och sidor flyttas runt. Du kan försöka navigera till projektets <a href=\"/\">indexsida</a> och använda dess "
+"navigering, eller söka efter en liknande sida."
+
+#: templates/errors/proxito/404/include_search.html:3
+msgid "Try searching?"
+msgstr "Försök att söka?"
+
+#: templates/errors/proxito/404/include_tips.html:8
+msgid "Use your own custom 404 page:"
+msgstr "Använd din egen anpassade 404-sida:"
+
+#: templates/errors/proxito/404/include_tips.html:8 templates/errors/proxito/404/include_tips.html:9
+msgid "Read more"
+msgstr "Läs mer"
+
+#: templates/errors/proxito/404/include_tips.html:9
+msgid "Create redirects when you move contents:"
+msgstr "Skapa omdirigeringar när du flyttar innehåll:"
+
+#: templates/errors/proxito/404/no_project.html:9
+msgid "no domain"
+msgstr "ingen domän"
+
+#: templates/errors/proxito/404/no_project.html:9
+#, python-format
+msgid ""
+"The project for <code>%(domain)s</code> that you are looking for either does not exist, has been deleted or doesn't have any successful builds yet."
+msgstr "Projektet för <code>%(domain)s</code> som du letar efter antingen inte existerar, har tagits bort eller har inga framgångsrika builds ännu."
+
+#: templates/errors/proxito/418.html:7 templates/errors/proxito/418.html:11
+msgid "418. I'm a teapot"
+msgstr "418. Jag är en tekanna"
+
+#: templates/flagging/flag_confirm.html:6 templates/flagging/flag_confirm.html:11
+msgid "Confirm flagging"
+msgstr "Bekräfta flaggning"
+
+#: templates/flagging/flag_confirm.html:17
+msgid "What you are saying:"
+msgstr "Vad du säger:"
+
+#: templates/flagging/flag_confirm.html:21
+#, python-format
+msgid "Are you sure you want to flag \"%(object)s\" as \"%(flag_type.title)s\"?"
+msgstr "Är du säker på att du vill flagga \"%(object)s\" som \"%(flag_type.title)s\"?"
+
+#: templates/flagging/flag_confirm.html:23
+#, python-format
+msgid "Yes, this is %(title)s"
+msgstr "Ja, det här är %(title)s"
+
+#: templates/flagging/flag_confirm.html:24
+msgid "cancel"
+msgstr "avbryt"
+
+#: templates/flagging/flag_success.html:6 templates/flagging/flag_success.html:11
+msgid "Flagging successful"
+msgstr "Flaggning lyckades"
+
+#: templates/flagging/flag_success.html:16
+#, python-format
+msgid "You have successfully flagged \"%(object)s\" as \"%(flag_type.title)s\""
+msgstr "Du har flaggat \"%(object)s\" som \"%(flag_type.title)s\""
+
+#: templates/flagging/flag_success.html:18
+msgid "Thank you for contributing to the quality of this site!"
+msgstr "Tack för att du bidrar till kvaliteten på denna webbplats!"
+
+#: templates/homepage.html:9
+msgid ""
+"Read the Docs simplifies technical documentation by automating building, versioning, and hosting for you. Build up-to-date documentation for the web, "
+"print, and offline use on every version control push automatically."
+msgstr ""
+"Read the Docs förenklar teknisk dokumentation genom att automatisera skapande, versionshantering och hosting åt dig. Skapa uppdaterad dokumentation "
+"för webben, utskrift och offline-användning på varje versionskontroll automatiskt."
+
+#: templates/homepage.html:12
+msgid "Home"
+msgstr "Hem"
+
+#: templates/homepage.html:46
+msgid "Technical documentation lives here"
+msgstr "Teknisk dokumentation finns här"
+
+#: templates/homepage.html:48
+msgid "Read the Docs simplifies software documentation by automating building, versioning, and hosting of your docs for you."
+msgstr "Read the Docs förenklar programvarudokumentation genom att automatisera uppbyggnad, versionshantering och hosting av dina dokument åt dig."
+
+#: templates/homepage.html:58
+msgid "Free docs hosting for open source"
+msgstr "Gratis hosting av dokument för öppen källkod"
+
+#: templates/homepage.html:60
+msgid ""
+"We will host your documentation for free, forever. There are no tricks. We help over 100,000 open source projects share their docs, including a custom "
+"domain and theme."
+msgstr ""
+"Vi kommer att hosta din dokumentation gratis, för alltid. Det finns inga tricks. Vi hjälper över 100 000 projekt med öppen källkod att dela sina "
+"dokument, inklusive en anpassad domän och ett tema."
+
+#: templates/homepage.html:69
+msgid "Always up to date"
+msgstr "Alltid uppdaterad"
+
+#: templates/homepage.html:71
+msgid ""
+"Whenever you push code to your favorite version control service, whether that is GitHub, Bitbucket, or GitLab, we will automatically build your docs "
+"so your code and documentation are never out of sync."
+msgstr ""
+"När du skickar kod till din favoritversionskontrolltjänst, oavsett om det är GitHub, Bitbucket eller GitLab, bygger vi automatiskt dina dokument så "
+"att din kod och dokumentation aldrig är osynkroniserade."
+
+#: templates/homepage.html:84
+msgid "Downloadable formats"
+msgstr "Nedladdningsbara format"
+
+#: templates/homepage.html:86
+msgid ""
+"We build and host your docs for the web, but they are also viewable as PDFs, as single page HTML, and for eReaders. No additional configuration is "
+"required."
+msgstr ""
+"Vi bygger och hostar dina dokument för webben, men de kan också visas som PDF-filer, som HTML med en sida och för läsplattor. Ingen ytterligare "
+"konfiguration krävs."
+
+#: templates/homepage.html:94
+msgid "Multiple versions"
+msgstr "Flera versioner"
+
+#: templates/homepage.html:96
+msgid ""
+"We can host and build multiple versions of your docs so having a 1.0 version of your docs and a 2.0 version of your docs is as easy as having a "
+"separate branch or tag in your version control system."
+msgstr ""
+"Vi kan hosta och bygga flera versioner av dina dokument så att det är lika enkelt att ha en 1.0-version av dina dokument och en 2.0-version av dina "
+"dokument som att ha en separat gren eller tagg i ditt versionshanteringssystem."
+
+#: templates/homepage.html:109
+msgid "Read the Tutorial"
+msgstr "Läs handledningen"
+
+#: templates/homepage.html:120
+msgid "About Read the Docs"
+msgstr "Om Read the Docs"
+
+#: templates/homepage.html:123
+msgid ""
+"Read the Docs has grown substantially since its beginning as a weekend project and is closing in on being a top-1000 site on the internet. Today, we:"
+msgstr ""
+"Read the Docs har vuxit avsevärt sedan starten som ett helgprojekt och närmar sig nu en plats bland de 1000 bästa webbplatserna på internet. Idag är "
+"vi:"
+
+#: templates/homepage.html:131
+msgid ""
+"<ul class=\"donate-about\"> <li>Serve over <b>55 million pages</b> of documentation a month</li> <li>Serve over <b>40 TB</b> of documentation a month</"
+"li> <li>Host over <b>80,000 open source projects</b> and support over <b>100,000 users</b></li> <li>Are supported by a <a href=\"https://"
+"docs.readthedocs.io/en/latest/team.html\">very small team</a> of dedicated engineers</li> </ul>"
+msgstr ""
+"<ul class=\"donate-about\"> <li>Servera över <b>55 miljoner sidor</b> dokumentation per månad</li> <li>Servera över <b>40 TB</b> dokumentation per "
+"månad</li> <li>Är värd för över <b>80.000 open source-projekt</b> och stöder över <b>100.000 användare</b></li> <li>Stöds av ett <a href=\"https://"
+"docs.readthedocs.io/en/latest/team.html\">mycket litet team</a> av dedikerade ingenjörer</li> </ul>"
+
+#: templates/homepage.html:143
+msgid "Read the Docs is funded by the community"
+msgstr "Read the Docs finansieras av gemenskapen"
+
+#: templates/homepage.html:149
+#, python-format
+msgid ""
+"We fund our operations through <a href=\"https://www.ethicalads.io/advertisers/?ref=rtd\">advertising</a>, corporate-hosted documentation with <a "
+"href=\"https://readthedocs.com\">Read the Docs for Business</a>, <a href=\"%(donate_url)s\">donations</a>, and we are supported by a number of "
+"generous <a href=\"https://docs.readthedocs.io/page/sponsors.html\">sponsors</a>."
+msgstr ""
+"Vi finansierar vår verksamhet genom <a href=\"https://www.ethicalads.io/advertisers/?ref=rtd\">annonsering</a>, företagshostad dokumentation med <a "
+"href=\"https://readthedocs.com\">Read the Docs for Business,</a> <a href=\"%(donate_url)s\">donationer</a> och vi stöds av ett antal generösa <a "
+"href=\"https://docs.readthedocs.io/page/sponsors.html\">sponsorer</a>."
+
+#: templates/homepage.html:158
+msgid ""
+"Read the Docs is open source and community supported. It depends on users like you to contribute to development, support, and operations. You can "
+"learn more about how to <a href=\"https://docs.readthedocs.io/page/contribute.html\">contribute</a> in our docs. Thanks so much to our wonderful <a "
+"href=\"https://docs.readthedocs.io/page/team.html\">team</a> who helps us run the site. Read the Docs wouldn't be possible without them."
+msgstr ""
+"Read the Docs är öppen källkod och stöds av samhället. Det är beroende av att användare som du bidrar till utveckling, support och drift. Du kan lära "
+"dig mer om hur du kan <a href=\"https://docs.readthedocs.io/page/contribute.html\">bidra</a> i våra dokument. Tack så mycket till vårt underbara <a "
+"href=\"https://docs.readthedocs.io/page/team.html\">team</a> som hjälper oss att driva webbplatsen. Read the Docs skulle inte vara möjligt utan dem."
+
+#: templates/homepage.html:168
+msgid ""
+"Hosting for the project is graciously provided by <a href=\"https://aws.amazon.com/\">AWS</a> and <a href=\"https://cloudflare.com/\">Cloudflare</a>."
+msgstr "Hosting för projektet tillhandahålls av <a href=\"https://aws.amazon.com/\">AWS</a> och <a href=\"https://cloudflare.com/\">Cloudflare</a>."
+
+#: templates/notifications/send_notification_form.html:6
+msgid "Send Email"
+msgstr "Skicka e-post"
+
+#: templates/notifications/send_notification_form.html:9
+msgid "An email message will be sent to the following email addresses:"
+msgstr "Ett e-postmeddelande kommer att skickas till följande e-postadresser:"
+
+#: templates/notifications/send_notification_form.html:21
+#, python-format
+msgid "And 1 other recipient."
+msgid_plural "And %(counter)s other recipients..."
+msgstr[0] "Och 1 annan mottagare."
+msgstr[1] "Och %(counter)s andra mottagare..."
+
+#: templates/notifications/send_notification_form.html:32
+msgid "Specify the email content you wish to send:"
+msgstr "Ange det innehåll i e-postmeddelandet som du vill skicka:"
+
+#: templates/notifications/send_notification_form.html:41
+msgid "Send Messages"
+msgstr "Skicka meddelanden"
+
+#: templates/pagination/pagination.html:6 templates/pagination/pagination.html:8 templates/projects/project_import.html:185
+#: templates/projects/project_import.html:191
+msgid "previous"
+msgstr "föregående"
+
+#: templates/pagination/pagination.html:22 templates/pagination/pagination.html:24 templates/projects/project_import.html:195
+#: templates/projects/project_import.html:201
+msgid "next"
+msgstr "nästa"
+
+#: templates/post_commit.html:5
+msgid "Build Started"
+msgstr "Bygget påbörjat"
+
+#: templates/post_commit.html:10
+#, python-format
+msgid "%(project)s is now building."
+msgstr "%(project)s byggs just nu."
+
+#. Translators: 'it' refers the current project being built.
+#: templates/post_commit.html:12
+#, python-format
+msgid "Check it out <a href=\"%(project_url)s\">over here</a>."
+msgstr "Kolla in det <a href=\"%(project_url)s\">här borta</a>."
+
+#: templates/post_commit.html:14
+msgid "This is a post-commit hook. Set it up in your project admin to POST here, for us to update your doc changes automatically."
+msgstr ""
+"Detta är en hook för post-commit. Ställ in den i din projektadministratör för att POSTA här, så att vi kan uppdatera dina dokumentändringar "
+"automatiskt."
+
+#: templates/profiles/base_profile.html:27 templates/profiles/base_profile_edit.html:30
+msgid "Profile"
+msgstr "Profil"
+
+#: templates/profiles/base_profile_edit.html:49 templates/socialaccount/connections.html:5 templates/socialaccount/connections.html:12
+msgid "Connected Services"
+msgstr "Uppkopplade tjänster"
+
+#: templates/profiles/base_profile_edit.html:53 templates/profiles/private/token_list.html:5 templates/profiles/private/token_list.html:9
+msgid "API Tokens"
+msgstr "API-token"
+
+#: templates/profiles/base_profile_edit.html:54 templates/profiles/private/delete_account.html:5 templates/profiles/private/delete_account.html:9
+#: templates/profiles/private/delete_account.html:68
+msgid "Delete Account"
+msgstr "Ta bort konto"
+
+#: templates/profiles/base_profile_edit.html:55
+msgid "Gold Membership"
+msgstr "Guldmedlemskap"
+
+#: templates/profiles/base_profile_edit.html:57 templates/projects/project_edit_base.html:35
+msgid "Advertising"
+msgstr "Annonsering"
+
+#: templates/profiles/private/advertising_profile.html:5 templates/profiles/private/advertising_profile.html:9
+msgid "Set advertising preferences"
+msgstr "Ange inställningar för annonsering"
+
+#: templates/profiles/private/advertising_profile.html:15
+msgid "Thank you for supporting Read the Docs!"
+msgstr "Tack för att du stöder Read the Docs!"
+
+#: templates/profiles/private/advertising_profile.html:22 templates/projects/project_advertising.html:16
+msgid "Read the Docs is an open source project. In order to maintain service, we rely on both the support of our users, and from sponsor support."
+msgstr ""
+"Read the Docs är ett projekt med öppen källkod. För att kunna upprätthålla tjänsten är vi beroende av både våra användares stöd och av sponsorstöd."
+
+#: templates/profiles/private/advertising_profile.html:30
+msgid ""
+"For more details on advertising on Read the Docs including the privacy protections we have in place for users and community advertising we run on "
+"behalf of the open source community, see <a href=\"https://docs.readthedocs.io/page/advertising/ethical-advertising.html\">our documentation</a>."
+msgstr ""
+"Mer information om annonsering på Read the Docs, inklusive det integritetsskydd vi har för användare och den samhällsannonsering vi kör på uppdrag av "
+"open source-samhället, finns i <a href=\"https://docs.readthedocs.io/page/advertising/ethical-advertising.html\">vår dokumentation</a>."
+
+#: templates/profiles/private/advertising_profile.html:41
+#, python-format
+msgid ""
+"You can <strong>go ad-free</strong> by becoming a <a href=\"%(gold_detail)s\">Gold member</a> or <a href=\"%(donate_url)s\">Supporter</a> of Read the "
+"Docs."
+msgstr ""
+"Du kan <strong>bli reklamfri</strong> genom att bli <a href=\"%(gold_detail)s\">guldmedlem</a> eller <a href=\"%(donate_url)s\">supporter</a> av Read "
+"the Docs."
+
+#: templates/profiles/private/advertising_profile.html:49
+msgid "Update advertisement preference"
+msgstr "Uppdatera preferenser för annonsering"
+
+#: templates/profiles/private/delete_account.html:15
+msgid ""
+"<strong>All projects where you are the only owner will be deleted.</strong> If you want to keep a project, add another owner or transfer ownership. "
+"The following projects and all their documentation will be deleted."
+msgstr ""
+"<strong>Alla projekt där du är den enda ägaren kommer att raderas.</strong> Om du vill behålla ett projekt måste du lägga till en annan ägare eller "
+"överföra äganderätten. Följande projekt och all deras dokumentation kommer att raderas."
+
+#: templates/profiles/private/delete_account.html:34
+msgid ""
+"<strong>All organizations and its projects where you are the only owner will be deleted.</strong> If you want to keep an organization, add another "
+"owner or transfer ownership. The following organizations and all their projects will be deleted."
+msgstr ""
+"<strong>Alla organisationer och dess projekt där du är den enda ägaren kommer att raderas.</strong> Om du vill behålla en organisation måste du lägga "
+"till en annan ägare eller överföra äganderätten. Följande organisationer och alla deras projekt kommer att raderas."
+
+#: templates/profiles/private/delete_account.html:66
+msgid "Be careful! This can not be undone!"
+msgstr "Var försiktig! Detta kan inte ångras!"
+
+#: templates/profiles/private/edit_profile.html:5 templates/profiles/private/edit_profile.html:9
+msgid "Edit your profile"
+msgstr "Redigera din profil"
+
+#: templates/profiles/private/security_log.html:15
+#, python-format
+msgid ""
+"The <a href=\"%(docs_url)s\">user security log</a> allows you to see what has happened recently in your account. Showing logs from the last "
+"%(days_limit)s days."
+msgstr ""
+"<a href=\"%(docs_url)s\">Användarens säkerhetslogg</a> ger dig möjlighet att se vad som nyligen har hänt på ditt konto. Visar loggar från de senaste "
+"%(days_limit)s dagarna."
+
+#: templates/profiles/private/token_list.html:13
+msgid ""
+"Personal Access Token are tokens that allow you to use the Read the Docs APIv3 being authenticated as yourself. See <a href=\"https://"
+"docs.readthedocs.org/page/api/v3.html\">APIv3 documentation</a> for more information."
+msgstr ""
+"Personal Access Token är tokens som gör att du kan använda Read the Docs APIv3 när du är autentiserad som dig själv. Se <a href=\"https://"
+"docs.readthedocs.org/page/api/v3.html\">APIv3-dokumentationen</a> för mer information."
+
+#: templates/profiles/private/token_list.html:25
+msgid "Generate API Token"
+msgstr "Generera API-token"
+
+#: templates/profiles/private/token_list.html:54
+msgid "You currently have no API tokens."
+msgstr "Du har för närvarande inga API-tokens."
+
+#: templates/profiles/public/profile_detail.html:6
+#, python-format
+msgid "%(user)s's profile"
+msgstr "%(user)s:s profil"
+
+#: templates/projects/domain_confirm_delete.html:5 templates/projects/domain_form.html:5 templates/projects/domain_list.html:5
+msgid "Edit Domains"
+msgstr "Redigera domäner"
+
+#: templates/projects/domain_confirm_delete.html:13
+msgid "Confirm Delete"
+msgstr "Bekräfta borttagning"
+
+#: templates/projects/domain_confirm_delete.html:18
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: templates/projects/domain_form.html:16
+msgid "Domain Details"
+msgstr "Domäninformation"
+
+#: templates/projects/domain_form.html:18
+msgid "Create Domain"
+msgstr "Skapa domän"
+
+#: templates/projects/domain_form.html:33
+#, python-format
+msgid "To configure this domain add a CNAME record in your DNS pointing your custom domain to <code>%(cname_target)s</code>."
+msgstr "För att konfigurera den här domänen lägger du till en CNAME-post i din DNS som pekar din anpassade domän till <code>%(cname_target)s</code>."
+
+#: templates/projects/domain_form.html:41
+msgid "The validation process period has ended. Save the domain to restart the process."
+msgstr "Valideringsprocessens period har avslutats. Spara domänen för att starta om processen."
+
+#: templates/projects/domain_form.html:61
+msgid "Save Domain"
+msgstr "Spara domän"
+
+#: templates/projects/domain_form.html:63
+msgid "Saving the domain will revalidate the SSL certificate"
+msgstr "Om du sparar domänen kommer SSL-certifikatet att valideras på nytt"
+
+#: templates/projects/domain_list.html:12 templates/projects/project_edit_base.html:22
+msgid "Domains"
+msgstr "Domäner"
+
+#: templates/projects/domain_list.html:18
+#, python-format
+msgid ""
+"This project is a subproject of <a href=\"%(superproject_url)s\">%(superproject)s</a>, its documentation will always be served from the "
+"<code>%(domain)s</code> domain. <a href=\"https://docs.readthedocs.io/page/subprojects.html#custom-domain-on-subprojects\">Learn more</a>."
+msgstr ""
+"Detta projekt är ett delprojekt av <a href=\"%(superproject_url)s\">%(superproject)s</a>, dess dokumentation kommer alltid att serveras från "
+"<code>%(domain)s</code> domän. <a href=\"https://docs.readthedocs.io/page/subprojects.html#custom-domain-on-subprojects\">Lär dig mer om</a> detta."
+
+#: templates/projects/domain_list.html:26
+#, python-format
+msgid ""
+"Configuring a custom domain allows you to serve your documentation from a domain other than \"%(default_domain)s\". <a href=\"%(docs_url)s\">Learn "
+"more</a>."
+msgstr ""
+"Om du konfigurerar en anpassad domän kan du visa din dokumentation från en annan domän än \"%(default_domain)s\". <a href=\"%(docs_url)s\">Lär dig mer "
+"om</a> detta."
+
+#: templates/projects/domain_list.html:33
+msgid "Existing Domains"
+msgstr "Befintliga domäner"
+
+#: templates/projects/domain_list.html:48
+msgid "Add new domain"
+msgstr "Lägg till ny domän"
+
+#: templates/projects/domain_list.html:56 templates/projects/project_import.html:170 templates/projects/project_notifications.html:80
+#: templates/projects/project_notifications_form.html:22 templates/projects/project_translations.html:79
+#: templates/projects/project_translations_form.html:45 templates/projects/project_users.html:53 templates/projects/project_users_form.html:19
+msgid "Add"
+msgstr "Lägg till"
+
+#: templates/projects/environmentvariable_form.html:5 templates/projects/environmentvariable_form.html:12
+#: templates/projects/environmentvariable_list.html:5 templates/projects/environmentvariable_list.html:12 templates/projects/project_edit_base.html:28
+msgid "Environment Variables"
+msgstr "Miljövariabler"
+
+#: templates/projects/environmentvariable_list.html:15
+msgid ""
+"Environment variables allow you to change the way that your build behaves. Take into account that these environment variables are available to all "
+"build steps."
+msgstr "Med hjälp av miljövariabler kan du ändra hur din build beter sig. Tänk på att dessa miljövariabler är tillgängliga för alla byggsteg."
+
+#: templates/projects/environmentvariable_list.html:22
+msgid "Add Environment Variable"
+msgstr "Lägg till miljövariabel"
+
+#: templates/projects/environmentvariable_list.html:36
+msgid "public"
+msgstr "publik"
+
+#: templates/projects/environmentvariable_list.html:38
+msgid "private"
+msgstr "privat"
+
+#: templates/projects/environmentvariable_list.html:53
+msgid "No environment variables are currently configured."
+msgstr "Inga miljövariabler är för närvarande konfigurerade."
+
+#: templates/projects/import_base.html:4
+msgid "Add a Project"
+msgstr "Lägg till ett projekt"
+
+#: templates/projects/import_basics.html:5
+msgid "Project Details"
+msgstr "Detaljerade uppgifter om tjänsten"
+
+#: templates/projects/import_basics.html:8
+msgid ""
+"To import a project, start by entering a few details about your repository. You can set additional configuration options for your documentation in a "
+"<a href=\"https://docs.readthedocs.io/en/stable/config-file/v2.html\">.readthedocs.yml</a> file."
+msgstr ""
+"För att importera ett projekt börjar du med att ange några detaljer om ditt arkiv. Du kan ställa in ytterligare konfigurationsalternativ för din "
+"dokumentation i en <a href=\"https://docs.readthedocs.io/en/stable/config-file/v2.html\">.readthedocs.yml-fil</a>."
+
+#: templates/projects/import_config.html:5
+msgid "Add a project configuration file"
+msgstr "Lägg till en konfigurationsfil för projektet"
+
+#: templates/projects/import_config.html:8
+msgid ""
+"Make sure your project has a <code>.readthedocs.yaml</code> configuration file at the root directory of your repository. This file is required by Read "
+"the Docs to build your documentation. You can <a href=\"https://docs.readthedocs.io/en/stable/config-file/v2.html\">read more about our configuration "
+"file in our documentation</a>."
+msgstr ""
+"Se till att ditt projekt har en konfigurationsfil <code>.readthedocs.yaml</code> i rotkatalogen för ditt arkiv. Den här filen krävs av Read the Docs "
+"för att bygga din dokumentation. Du kan <a href=\"https://docs.readthedocs.io/en/stable/config-file/v2.html\">läsa mer om vår konfigurationsfil</a> i "
+"<a href=\"https://docs.readthedocs.io/en/stable/config-file/v2.html\">vår dokumentation</a>."
+
+#: templates/projects/import_config.html:16
+msgid "Here is an example configuration file for a project using Sphinx:"
+msgstr "Här är ett exempel på en konfigurationsfil för ett projekt som använder Sphinx:"
+
+#: templates/projects/import_extra.html:5
+msgid "Project Extra Details"
+msgstr "Projektets extradetaljer"
+
+#: templates/projects/import_extra.html:8
+msgid "Here are a few more project options that you may need to configure."
+msgstr "Här är några fler projektalternativ som du kan behöva konfigurera."
+
+#: templates/projects/includes/feature_disabled.html:5
+#, python-format
+msgid "This is a beta feature, it can be enabled by <a href=\"%(support_url)s\">contacting support</a>."
+msgstr "Detta är en beta-funktion som kan aktiveras genom att <a href=\"%(support_url)s\">kontakta support</a>."
+
+#. Translators: After 'Flag this project as' follows either 'Inappropriate',
+#. 'Spam' and/or 'Duplicate'
+#: templates/projects/includes/flagging.html:7
+msgid "Flag this project as"
+msgstr "Flagga detta projekt som"
+
+#: templates/projects/includes/flagging.html:8
+msgid "Inappropriate"
+msgstr "Olämpligt"
+
+#: templates/projects/includes/flagging.html:9
+msgid "Spam"
+msgstr "Skräppost"
+
+#: templates/projects/includes/flagging.html:10
+msgid "Duplicate"
+msgstr "Duplicera"
+
+#: templates/projects/integration_exchange_detail.html:5 templates/projects/integration_form.html:5 templates/projects/integration_form.html:12
+#: templates/projects/integration_list.html:5 templates/projects/integration_list.html:12 templates/projects/project_edit_base.html:27
+msgid "Integrations"
+msgstr "Integrationer"
+
+#: templates/projects/integration_exchange_detail.html:12 templates/projects/webhook_exchange_detail.html:10
+msgid "Exchange"
+msgstr "Utbyte"
+
+#: templates/projects/integration_form.html:21 templates/projects/integration_list.html:20
+msgid "Add integration"
+msgstr "Lägg till integration"
+
+#: templates/projects/integration_list.html:38
+msgid "No integrations are currently configured."
+msgstr "Inga integrationer är för närvarande konfigurerade."
+
+#: templates/projects/integration_webhook_detail.html:5
+msgid "Integration"
+msgstr "Integration"
+
+#: templates/projects/integration_webhook_detail.html:13
+#, python-format
+msgid "Integration - %(type)s"
+msgstr "Integration - %(type)s"
+
+#: templates/projects/integration_webhook_detail.html:22
+msgid "This integration is being managed automatically by Read the Docs. If it isn't functioning correctly, try re-syncing the webhook:"
+msgstr "Denna integration hanteras automatiskt av Read the Docs. Om den inte fungerar korrekt kan du försöka synkronisera webhooken igen:"
+
+#: templates/projects/integration_webhook_detail.html:38
+msgid ""
+"This integration is not managed by Read the Docs currently. If this integration is not functioning correctly, you can try re-syncing it. Otherwise "
+"you'll need to update the configuration on your repository. You can use the following address to manually configure this webhook."
+msgstr ""
+"Den här integrationen hanteras inte av Read the Docs för närvarande. Om den här integrationen inte fungerar korrekt kan du försöka synkronisera den "
+"igen. Annars måste du uppdatera konfigurationen i ditt repository. Du kan använda följande adress för att manuellt konfigurera denna webhook."
+
+#: templates/projects/integration_webhook_detail.html:50
+msgid "To manually configure this webhook with your provider, use the following information:"
+msgstr "Använd följande information för att manuellt konfigurera denna webhook med din leverantör:"
+
+#: templates/projects/integration_webhook_detail.html:59
+msgid "Webhook URL:"
+msgstr "Webhook-URL:"
+
+#: templates/projects/integration_webhook_detail.html:68 templates/projects/integration_webhook_detail.html:73
+msgid "Secret:"
+msgstr "Hemlighet:"
+
+#: templates/projects/integration_webhook_detail.html:81
+msgid ""
+"This integration does not have a secret, the authenticity of the incoming webhook cannot be verified. <strong>Click on \"Resync webhook\" to generate "
+"a secret.</strong> Read more in our <a href=\"https://blog.readthedocs.com/security-update-on-incoming-webhooks/\">blog post</a>."
+msgstr ""
+"Den här integrationen har ingen hemlighet och äktheten hos den inkommande webhooken kan inte verifieras. <strong>Klicka på \"Resync webhook\" för att "
+"generera en hemlighet.</strong> Läs mer i vårt <a href=\"https://blog.readthedocs.com/security-update-on-incoming-webhooks/\">blogginlägg</a>."
+
+#: templates/projects/integration_webhook_detail.html:92
+msgid ""
+"For more information on manually configuring a webhook, refer to <a href=\"https://docs.readthedocs.io/page/guides/setup/git-repo-automatic.html\"> "
+"our webhook documentation. </a>"
+msgstr ""
+"Mer information om manuell konfiguration av en webhook finns i <a href=\"https://docs.readthedocs.io/page/guides/setup/git-repo-automatic.html\"> vår "
+"dokumentation om webhook.</a>"
+
+#: templates/projects/integration_webhook_detail.html:104
+msgid "Resync webhook"
+msgstr "Webhook för resynkronisering"
+
+#: templates/projects/integration_webhook_detail.html:133
+msgid "Delete webhook"
+msgstr "Ta bort webhook"
+
+#: templates/projects/legend.html:4
+msgid "External Links"
+msgstr "Externa länkar"
+
+#: templates/projects/legend.html:5
+msgid "Link text"
+msgstr "Länktext"
+
+#: templates/projects/legend.html:7
+msgid "Internal Links"
+msgstr "Interna länkar"
+
+#: templates/projects/legend.html:10
+msgid "Bold"
+msgstr "Fet"
+
+#: templates/projects/legend.html:11
+msgid "text to bold"
+msgstr "text till fetstil"
+
+#: templates/projects/legend.html:13
+msgid "Emphasized"
+msgstr "Understruken"
+
+#: templates/projects/legend.html:14
+msgid "text to emphasize"
+msgstr "text att framhäva"
+
+#: templates/projects/legend.html:16
+msgid "Lists"
+msgstr "Listor"
+
+#: templates/projects/legend.html:19 templates/projects/legend.html:20 templates/projects/legend.html:23 templates/projects/legend.html:24
+msgid "Item"
+msgstr "Artikel"
+
+#: templates/projects/legend.html:28
+msgid "Source Code"
+msgstr "Källkod"
+
+#: templates/projects/legend.html:30
+msgid "e.g. Check out this code"
+msgstr "t.ex. Kolla in den här koden"
+
+#: templates/projects/legend.html:31
+msgid "actual code indented"
+msgstr "faktisk kod indragen"
+
+#: templates/projects/legend.html:34
+msgid "reStructuredText Primer"
+msgstr "primer för reStructuredText"
+
+#: templates/projects/onboard_detail.html:8
+msgid "Start building your documentation"
+msgstr "Börja bygga upp din dokumentation"
+
+#: templates/projects/onboard_detail.html:10
+msgid ""
+"This project has not been built yet. Try building the latest version now, or if you would like to build a specific version, select the version below "
+"and your documentation build will be triggered."
+msgstr ""
+"Det här projektet har inte byggts ännu. Försök att bygga den senaste versionen nu, eller om du vill bygga en specifik version, välj versionen nedan "
+"och din dokumentationsbyggnad kommer att utlösas."
+
+#: templates/projects/onboard_detail.html:21
+msgid "Build latest version"
+msgstr "Bygg senaste versionen"
+
+#: templates/projects/onboard_detail.html:29
+msgid "Your documentation is ready to use"
+msgstr "Din dokumentation är klar att användas"
+
+#: templates/projects/onboard_detail.html:33
+msgid ""
+"Your documentation has been built. Ensure your documentation is kept up to date with every commit to your repository, by <a href=\"http://"
+"docs.readthedocs.io/page/webhooks.html\">setting up a webhook</a>."
+msgstr ""
+"Din dokumentation har skapats. Se till att din dokumentation hålls uppdaterad med varje commit till ditt repository genom att <a href=\"http://"
+"docs.readthedocs.io/page/webhooks.html\">konfigurera en webhook</a>."
+
+#: templates/projects/onboard_detail.html:41
+msgid "View your documentation"
+msgstr "Visa din dokumentation"
+
+#: templates/projects/onboard_detail.html:46
+msgid "Your documentation failed to build"
+msgstr "Din dokumentation kunde inte byggas"
+
+#: templates/projects/onboard_detail.html:50
+msgid ""
+"There was a problem building your documentation, you can see what went wrong in the build output. If you need more help, check out some of the <a "
+"href=\"http://docs.readthedocs.io/page/faq.html\">problems frequently encountered</a> during builds."
+msgstr ""
+"Det uppstod ett problem när du byggde din dokumentation, du kan se vad som gick fel i build-utdata. Om du behöver mer hjälp kan du läsa mer om några "
+"av de <a href=\"http://docs.readthedocs.io/page/faq.html\">problem som ofta uppstår</a> under byggandet."
+
+#: templates/projects/onboard_detail.html:59
+msgid "View build output"
+msgstr "Visa byggresultat"
+
+#: templates/projects/onboard_detail.html:65
+msgid "Your documentation is building"
+msgstr "Din dokumentation är under uppbyggnad"
+
+#: templates/projects/onboard_detail.html:68
+msgid "You'll be able to view your documentation in a minute or two, once your project is done building."
+msgstr "Du kommer att kunna se din dokumentation inom en minut eller två, när ditt projekt är färdigbyggt."
+
+#: templates/projects/onboard_import.html:5
+msgid "Ready to share your documentation"
+msgstr "Redo att dela med dig av din dokumentation"
+
+#: templates/projects/onboard_import.html:10
+#, python-format
+msgid ""
+"You don't have any projects yet, but you can start building documentation by importing one. Not sure how to start documenting your project? Check out "
+"the <a href=\"%(tutorial_url)s\">Tutorial</a> to learn how."
+msgstr ""
+"Du har inga projekt ännu, men du kan börja bygga upp dokumentation genom att importera ett. Är du osäker på hur du ska börja dokumentera ditt projekt? "
+"Kolla in <a href=\"%(tutorial_url)s\">självstudien</a> för att lära dig hur du gör."
+
+#: templates/projects/onboard_import.html:19
+#, python-format
+msgid "In a hurry? <a href=\"%(template_project_url)s\">Fork our template project</a> on GitHub, and <a href=\"%(projects_import_url)s\">import it</a>."
+msgstr ""
+"Har du bråttom? <a href=\"%(template_project_url)s\">Fördela vårt mallprojekt</a> på GitHub och <a href=\"%(projects_import_url)s\">importera</a> det."
+
+#: templates/projects/onboard_import.html:25 templates/projects/project_dashboard_base.html:53
+msgid "Import a Project"
+msgstr "Importera ett projekt"
+
+#: templates/projects/project_advertising.html:5 templates/projects/project_advertising.html:12
+msgid "Documentation Advertising"
+msgstr "Dokumentationsannonsering"
+
+#: templates/projects/project_advertising.html:24
+msgid "We will periodically run advertisements on built documentation pages for sponsors, however we have strict guidelines on advertisements:"
+msgstr "Vi kommer med jämna mellanrum att visa annonser på dokumentationssidor för sponsorer, men vi har strikta riktlinjer för annonser:"
+
+#: templates/projects/project_advertising.html:32
+msgid "We don't give sponsors access to user information."
+msgstr "Vi ger inte sponsorer tillgång till användarinformation."
+
+#: templates/projects/project_advertising.html:37
+msgid "We only report the number of impressions and number of ad clicks."
+msgstr "Vi rapporterar endast antalet visningar och antalet annonsklick."
+
+#: templates/projects/project_advertising.html:42
+msgid "We only allow image and text ads which we host ourselves. There are no advertiser-supplied scripts running on Read the Docs."
+msgstr ""
+"Vi tillåter endast bild- och textannonser som vi själva är värd för. Det finns inga skript som tillhandahålls av annonsörer som körs på Read the Docs."
+
+#: templates/projects/project_advertising.html:50
+msgid ""
+"For more details on advertising on Read the Docs including the privacy protections we have in place for users and <a href=\"https://"
+"docs.readthedocs.io/page/advertising/ethical-advertising.html#community-ads\">community advertising</a> we run on behalf of the open source community, "
+"see <a href=\"https://docs.readthedocs.io/page/advertising/ethical-advertising.html\">our documentation</a>."
+msgstr ""
+"Mer information om annonsering på Read the Docs, inklusive det integritetsskydd vi har för användare och den <a href=\"https://docs.readthedocs.io/"
+"page/advertising/ethical-advertising.html#community-ads\">samhällsannonsering</a> vi kör på uppdrag av open source-samhället, finns i <a "
+"href=\"https://docs.readthedocs.io/page/advertising/ethical-advertising.html\">vår dokumentation</a>."
+
+#: templates/projects/project_advertising.html:59
+msgid "Opting out"
+msgstr "Välj bort"
+
+#: templates/projects/project_advertising.html:63
+#, python-format
+msgid ""
+"In addition to the advertising preferences we have for <a href=\"%(ads_preferences_url)s\">individual users</a>, we have multiple ways for projects to "
+"opt out of advertising on Read the Docs."
+msgstr ""
+"Utöver de reklampreferenser vi har för <a href=\"%(ads_preferences_url)s\">enskilda användare</a> har vi flera sätt för projekt att välja bort reklam "
+"på Read the Docs."
+
+#: templates/projects/project_advertising.html:71
+msgid ""
+"If you are part of a company that uses Read the Docs to host documentation for a commercial product, please consider <a href=\"https://readthedocs.com/"
+"\">Read the Docs for Business</a> which offers a completely ad-free experience, private repositories, private documentation, additional build "
+"resources, and dedicated support."
+msgstr ""
+"Om du är en del av ett företag som använder Read the Docs som värd för dokumentation för en kommersiell produkt kan du överväga <a href=\"https://"
+"readthedocs.com/\">Read the Docs for Business som</a> erbjuder en helt annonsfri upplevelse, privata arkiv, privat dokumentation, ytterligare "
+"byggresurser och dedikerad support."
+
+#: templates/projects/project_advertising.html:81
+#, python-format
+msgid "By becoming a <a href=\"%(gold_detail)s\">Gold member</a> to Read the Docs, you may remove advertising from your projects for all visitors."
+msgstr "Genom att bli <a href=\"%(gold_detail)s\">Gold-medlem</a> i Read the Docs kan du ta bort reklam från dina projekt för alla besökare."
+
+#: templates/projects/project_advertising.html:88
+msgid ""
+"Project owners can <a href=\"#removing-paid-advertising\">opt out of paid advertisements</a> for their projects. Readers will still see community ads "
+"for open source projects and conferences."
+msgstr ""
+"Projektägare kan <a href=\"#removing-paid-advertising\">välja bort betalda annonser</a> för sina projekt. Läsarna kommer fortfarande att se community-"
+"annonser för projekt och konferenser med öppen källkod."
+
+#: templates/projects/project_advertising.html:96
+#, python-format
+msgid ""
+"If you would like to completely remove advertising from your open source project, but both Read the Docs for Business and our Gold memberships don't "
+"seem like the right fit, please <a href=\"mailto:ads@readthedocs.org?subject=Alternatives%%20to%%20advertising\">get in touch</a> to discuss "
+"alternatives to advertising."
+msgstr ""
+"Om du helt vill ta bort reklam från ditt projekt med öppen källkod, men varken Read the Docs for Business eller vårt guldmedlemskap verkar passa dig, "
+"kan du <a href=\"mailto:ads@readthedocs.org?subject=Alternatives%%20to%%20advertising\">kontakta</a> oss för att diskutera alternativ till reklam."
+
+#: templates/projects/project_advertising.html:113
+msgid ""
+"If you are a company hosting commercial documentation on our community site, we do not allow removing paid advertisements on your documentation. "
+"Please consider Read the Docs for Business or a Gold membership."
+msgstr ""
+"Om du är ett företag som är värd för kommersiell dokumentation på vår community-webbplats tillåter vi inte att du tar bort betalda annonser på din "
+"dokumentation. Överväg Read the Docs for Business eller ett guldmedlemskap."
+
+#: templates/projects/project_advertising.html:122
+msgid "Update advertising preference"
+msgstr "Uppdatera inställningar för annonsering"
+
+#: templates/projects/project_create.html:6
+msgid "Create a new project"
+msgstr "Skapa ett nytt projekt"
+
+#: templates/projects/project_create.html:9
+msgid "Create a New Project"
+msgstr "Skapa ett nytt projekt"
+
+#: templates/projects/project_create.html:14
+msgid "Create new documentation here. If you already have docs in a public repository,"
+msgstr "Skapa ny dokumentation här. Om du redan har dokument i ett offentligt arkiv,"
+
+#: templates/projects/project_create.html:15
+msgid "import an existing project"
+msgstr "importera ett befintligt projekt"
+
+#: templates/projects/project_create.html:19
+msgid "Create"
+msgstr "Skapa"
+
+#: templates/projects/project_dashboard_base.html:6
+msgid "Project Dashboard"
+msgstr "Projektets kontrollpanel"
+
+#: templates/projects/project_dashboard_base.html:20
+msgid "Important Versions"
+msgstr "Viktiga versioner"
+
+#: templates/projects/project_dashboard_base.html:77
+msgid "passing"
+msgstr "passerar"
+
+#: templates/projects/project_dashboard_base.html:79
+msgid "failing"
+msgstr "misslyckande"
+
+#: templates/projects/project_dashboard_base.html:112
+msgid "Search all docs"
+msgstr "Sök i alla dokument"
+
+#: templates/projects/project_dashboard_base.html:125 templates/projects/project_dashboard_base.html:134
+msgid "Connect your Accounts"
+msgstr "Anslut dina konton"
+
+#: templates/projects/project_dashboard_base.html:128
+msgid "Have a GitHub account? Connect your account and import your existing projects automatically."
+msgstr "Har du ett GitHub-konto? Anslut ditt konto och importera dina befintliga projekt automatiskt."
+
+#: templates/projects/project_dashboard_base.html:144
+msgid "Learn More"
+msgstr "Läs mer"
+
+#: templates/projects/project_dashboard_base.html:146
+#, python-format
+msgid ""
+"Check out the <a href=\"%(rtd_docs_url)s\">documentation for Read the Docs</a>. It contains lots of information about how to get the most out of RTD."
+msgstr ""
+"Kolla in <a href=\"%(rtd_docs_url)s\">dokumentationen för Read the Docs</a>. Den innehåller massor av information om hur du får ut mesta möjliga av "
+"RTD."
+
+#: templates/projects/project_delete.html:4 templates/projects/project_delete.html:6
+#, python-format
+msgid "Delete %(name)s?"
+msgstr "Ta bort %(name)s?"
+
+#: templates/projects/project_delete.html:13
+#, python-format
+msgid ""
+"This project <a href=\"%(subproject_url)s\">has subprojects</a> under it. Deleting this project will make them to become regular projects. This will "
+"break the URLs of all its subprojects and they will be served normally as other projects."
+msgstr ""
+"Detta projekt <a href=\"%(subproject_url)s\">har under</a> projekt under sig. Om du tar bort det här projektet kommer de att bli vanliga projekt. "
+"Detta kommer att bryta webbadresserna för alla dess underprojekt och de kommer att visas normalt som andra projekt."
+
+#: templates/projects/project_delete.html:21 templates/projects/project_resync_webhook.html:9
+msgid "You sure?"
+msgstr "Är du säker?"
+
+#: templates/projects/project_edit.html:8
+msgid "Edit Project"
+msgstr "Redigera projekt"
+
+#: templates/projects/project_edit.html:20
+msgctxt "The 'or' is in between 'Save' and 'Delete project'"
+msgid "or"
+msgstr "eller"
+
+#: templates/projects/project_edit.html:21
+msgid "Delete project"
+msgstr "Ta bort projekt"
+
+#: templates/projects/project_edit_base.html:19
+msgid " Addons"
+msgstr " Tillägg"
+
+#: templates/projects/project_edit_base.html:21
+msgid "Edit Versions"
+msgstr "Redigera versioner"
+
+#: templates/projects/project_edit_base.html:26 templates/projects/projectrelationship_form.html:5 templates/projects/projectrelationship_form.html:12
+#: templates/projects/projectrelationship_list.html:5 templates/projects/projectrelationship_list.html:12
+msgid "Subprojects"
+msgstr "Delprojekt"
+
+#: templates/projects/project_edit_base.html:30 templates/projects/webhook_exchange_detail.html:5 templates/projects/webhook_form.html:5
+#: templates/projects/webhook_form.html:11 templates/projects/webhook_list.html:5 templates/projects/webhook_list.html:10
+msgid "Webhooks"
+msgstr "Webhooks"
+
+#: templates/projects/project_edit_base.html:31 templates/projects/project_notifications.html:5 templates/projects/project_notifications.html:12
+msgid "Email Notifications"
+msgstr "E-postnotifikationer"
+
+#: templates/projects/project_edit_base.html:32 templates/projects/project_traffic_analytics.html:6 templates/projects/project_traffic_analytics.html:11
+msgid "Traffic Analytics"
+msgstr "Trafikanalys"
+
+#: templates/projects/project_edit_base.html:33 templates/projects/projects_search_analytics.html:6 templates/projects/projects_search_analytics.html:11
+msgid "Search Analytics"
+msgstr "Sökanalys"
+
+#: templates/projects/project_import.html:6
+msgid "Import a Remote Repository"
+msgstr "Importera ett fjärrarkiv"
+
+#: templates/projects/project_import.html:51
+msgid "There was an error with your request:"
+msgstr "Det uppstod ett fel med din begäran:"
+
+#: templates/projects/project_import.html:64
+msgid "Refresh your accounts"
+msgstr "Uppdatera dina konton"
+
+#: templates/projects/project_import.html:73
+msgid "Import a Repository"
+msgstr "Importera ett arkiv"
+
+#: templates/projects/project_import.html:79
+msgid ""
+"We're only showing public repositories. For private projects and other features, please use <a href=\"https://readthedocs.com/\">Read the Docs for "
+"Business</a>."
+msgstr ""
+"Vi visar bara offentliga arkiv. För privata projekt och andra funktioner ska du använda <a href=\"https://readthedocs.com/\">Read the Docs for "
+"Business</a>."
+
+#: templates/projects/project_import.html:97
+#, python-format
+msgid "No remote repositories found, try <a href=\"#\" %(binding)s>refreshing your accounts</a>."
+msgstr "Inga fjärrarkiv hittades, försök <a href=\"#\" %(binding)s>att uppdatera dina konton</a>."
+
+#: templates/projects/project_import.html:104
+msgid "You don't currently have any connected accounts. Connect your account to be able to easily set up projects."
+msgstr "Du har för närvarande inte några anslutna konton. Anslut ditt konto för att enkelt kunna sätta upp projekt."
+
+#: templates/projects/project_import.html:143
+msgid "This repository requires admin access to import"
+msgstr "Detta arkiv kräver administratörsbehörighet för att importera"
+
+#: templates/projects/project_import.html:152
+msgid "Locked"
+msgstr "Låst"
+
+#: templates/projects/project_import.html:161
+msgid "This repository has already been imported"
+msgstr "Det här arkivet har redan importerats"
+
+#: templates/projects/project_import.html:162
+msgctxt "verb, action to see in detail"
+msgid "View"
+msgstr "Visa"
+
+#: templates/projects/project_import.html:214
+msgid "You can import your project manually if it isn't listed here or connected to one of your accounts."
+msgstr "Du kan importera ditt projekt manuellt om det inte finns med i listan eller är kopplat till något av dina konton."
+
+#: templates/projects/project_import.html:221
+msgid "Import Manually"
+msgstr "Importera manuellt"
+
+#: templates/projects/project_import.html:228
+msgid "Filter repositories"
+msgstr "Filtrera lagringsplatser"
+
+#: templates/projects/project_list.html:7 templates/projects/project_list.html:13
+#, python-format
+msgid "Projects tagged with %(tag)s"
+msgstr "Projekt taggade med %(tag)s"
+
+#: templates/projects/project_list.html:24
+msgid "Browse projects"
+msgstr "Bläddra bland projekt"
+
+#: templates/projects/project_notifications.html:16
+msgid "Configure email notifications to be sent on build failures."
+msgstr "Konfigurera e-postmeddelanden som ska skickas vid misslyckade byggnationer."
+
+#: templates/projects/project_notifications.html:22
+#, python-format
+msgid "Webhooks have been moved to their own page. Go to the <a href=\"%(webhooks_url)s\">Webhooks page</a> if you are looking for your webhooks."
+msgstr "Webhooks har flyttats till en egen sida. Gå till <a href=\"%(webhooks_url)s\">sidan Webhooks</a> om du letar efter dina webhooks."
+
+#: templates/projects/project_notifications.html:30
+msgid "Existing Notifications"
+msgstr "Befintliga meddelanden"
+
+#: templates/projects/project_notifications.html:54
+msgid "Remove Notifications"
+msgstr "Ta bort aviseringar"
+
+#: templates/projects/project_notifications.html:72
+msgid "New Email Notifications"
+msgstr "Nya e-postmeddelanden"
+
+#: templates/projects/project_notifications.html:74 templates/projects/project_notifications_form.html:16
+msgid "Add an email address to notify"
+msgstr "Lägg till en e-postadress som ska meddelas"
+
+#: templates/projects/project_notifications_form.html:5 templates/projects/project_notifications_form.html:12
+msgid "Add Email Notification"
+msgstr "Lägg till e-postmeddelande"
+
+#: templates/projects/project_resync_webhook.html:12
+msgid "Resync"
+msgstr "Omsynk"
+
+#: templates/projects/project_traffic_analytics.html:21
+msgid "Top viewed pages in the past 30 days"
+msgstr "Mest visade sidor under de senaste 30 dagarna"
+
+#: templates/projects/project_traffic_analytics.html:34 templates/projects/project_traffic_analytics.html:66
+#: templates/projects/projects_search_analytics.html:36
+msgid "No data available."
+msgstr "Data saknas."
+
+#: templates/projects/project_traffic_analytics.html:44
+msgid "Daily pageview totals"
+msgstr "Dagliga sidvisningar totalt"
+
+#: templates/projects/project_traffic_analytics.html:48 templates/projects/projects_search_analytics.html:52
+msgid "Download all data"
+msgstr "Ladda ner all data"
+
+#: templates/projects/project_traffic_analytics.html:52
+msgid "Not Found (404) pages"
+msgstr "Sidor som inte hittats (404)"
+
+#: templates/projects/project_traffic_analytics.html:75
+msgid ""
+"\n"
+"    * The way that we track 404 pages is on our backend hosting.\n"
+"    It's possible the number of times each page is viewed is undercounted because of caching in the browser or in a CDN.\n"
+"    "
+msgstr ""
+"\n"
+"    * Det sätt som vi spårar 404-sidor på är på vår backend-hosting.\n"
+"    Det är möjligt att antalet gånger varje sida visas är underräknat på grund av cachelagring i webbläsaren eller i ett CDN.\n"
+"    "
+
+#: templates/projects/project_translations.html:5
+msgid "Edit Translations"
+msgstr "Redigera översättningar"
+
+#: templates/projects/project_translations.html:16 templates/projects/project_translations_form.html:16
+msgid "To add a translation to your project, select a project below."
+msgstr "Välj ett projekt nedan för att lägga till en översättning i ditt projekt."
+
+#: templates/projects/project_translations.html:24 templates/projects/project_translations_form.html:24
+#, python-format
+msgid "This project is <a href=\"%(project_settings_url)s\">configured</a> with a versioning scheme that doesn't support translations."
+msgstr "Det här projektet är <a href=\"%(project_settings_url)s\">konfigurerat</a> med ett versionshanteringssystem som inte stöder översättningar."
+
+#: templates/projects/project_translations.html:30 templates/projects/project_translations_form.html:30
+#, python-format
+msgid "This project is already configured as the <code>%(language)s</code> translation of \"%(main_project)s\". Nested translations are not supported."
+msgstr "Det här projektet är redan konfigurerat som <code>%(language)s</code> översättning av \"%(main_project)s\". Nästlade översättningar stöds inte."
+
+#: templates/projects/project_translations.html:38 templates/projects/project_translations_form.html:38
+#, python-format
+msgid "View translations of \"%(main_project)s\"."
+msgstr "Visa översättningar av \"%(main_project)s\"."
+
+#: templates/projects/project_translations.html:43
+msgid "Existing Translations"
+msgstr "Befintliga översättningar"
+
+#: templates/projects/project_translations.html:65
+msgid "No translations are currently configured"
+msgstr "Inga översättningar är för närvarande konfigurerade"
+
+#: templates/projects/project_translations.html:74
+msgid "Choose which project you would like to add as a translation."
+msgstr "Välj vilket projekt du vill lägga till som översättning."
+
+#: templates/projects/project_translations_form.html:5 templates/projects/project_translations_form.html:12
+msgid "Add Translation"
+msgstr "Lägg till översättning"
+
+#: templates/projects/project_users.html:6
+msgid "Edit Maintainers"
+msgstr "Redigera underhållsansvariga"
+
+#: templates/projects/project_users.html:13 templates/projects/project_users_form.html:12
+msgid "This allows you to add maintainers to your project. It gives them admin access to the project, so be careful!"
+msgstr "Detta gör att du kan lägga till underhållare i ditt projekt. Det ger dem administratörsbehörighet till projektet, så var försiktig!"
+
+#: templates/projects/project_users.html:49
+msgid "Add maintainer"
+msgstr "Lägg till underhållare"
+
+#: templates/projects/project_users_form.html:5 templates/projects/project_users_form.html:8
+msgid "Add Maintainer"
+msgstr "Lägg till underhållare"
+
+#: templates/projects/project_version_detail.html:16
+#, python-format
+msgid "%(version_name)s"
+msgstr "%(version_name)s"
+
+#: templates/projects/project_version_detail.html:28
+msgid ""
+"This version is inactive but its documentation is still available online. You can <a href=\"#\" "
+"onclick=\"document.forms['version_delete_html'].submit();\">delete this version's documentation</a> if you want to remove it completely."
+msgstr ""
+"Den här versionen är inaktiv men dokumentationen finns fortfarande tillgänglig online. Du kan <a href=\"#\" "
+"onclick=\"document.forms['version_delete_html'].submit();\">radera dokumentationen</a> för den <a href=\"#\" "
+"onclick=\"document.forms['version_delete_html'].submit();\">här versionen</a> om du vill ta bort den helt."
+
+#: templates/projects/project_version_list.html:24
+msgid "Active Versions"
+msgstr "Aktiva versioner"
+
+#: templates/projects/project_version_list.html:81
+msgid "Activate a version"
+msgstr "Aktivera en version"
+
+#: templates/projects/project_version_list.html:82
+msgid "Active versions are built whenever new code is pushed to that branch or tag."
+msgstr "Aktiva versioner skapas när ny kod läggs till i den grenen eller taggen."
+
+#: templates/projects/project_version_list.html:93
+msgid "Filter Inactive Versions"
+msgstr "Filtrera inaktiva versioner"
+
+#: templates/projects/project_version_list.html:122
+msgid "Activate"
+msgstr "Aktivera"
+
+#: templates/projects/project_version_list.html:130
+msgid "No versions found"
+msgstr "Inga versioner hittades"
+
+#: templates/projects/project_version_list.html:144
+#, python-format
+msgid "Showing the first %(max_inactive_versions)s of %(total_inactive_versions_count)s inactive versions.</a>."
+msgstr "Visar de första %(max_inactive_versions)s av %(total_inactive_versions_count)s inaktiva versionerna.</a>."
+
+#: templates/projects/project_version_states_help_text.html:4
+#, python-format
+msgid "Learn more about states <a href=\"%(docs_link)s\">here</a>."
+msgstr "Läs mer om tillstånd <a href=\"%(docs_link)s\">här</a>."
+
+#: templates/projects/projectrelationship_form.html:16
+msgid ""
+"Using subprojects allows you to serve multiple projects from the same domain as your main project. <a href=\"https://docs.readthedocs.io/en/stable/"
+"subprojects.html\">Learn more</a>."
+msgstr ""
+"Med hjälp av underprojekt kan du betjäna flera projekt från samma domän som ditt huvudprojekt. <a href=\"https://docs.readthedocs.io/en/stable/"
+"subprojects.html\">Läs mer om</a> hur du gör."
+
+#: templates/projects/projectrelationship_form.html:28
+msgid "Update subproject"
+msgstr "Uppdatera delprojekt"
+
+#: templates/projects/projectrelationship_form.html:35
+msgid "Delete subproject"
+msgstr "Ta bort underprojekt"
+
+#: templates/projects/projectrelationship_form.html:44 templates/projects/projectrelationship_list.html:41
+msgid "Add subproject"
+msgstr "Lägg till underprojekt"
+
+#: templates/projects/projectrelationship_list.html:16
+msgid "Subprojects are projects hosted from the same URL as their parent project. This is useful for organizing multiple projects under a custom domain."
+msgstr ""
+"Underprojekt är projekt som hostas från samma URL som deras överordnade projekt. Detta är användbart för att organisera flera projekt under en "
+"anpassad domän."
+
+#: templates/projects/projectrelationship_list.html:24
+#, python-format
+msgid "This project is already configured as a subproject of %(project)s. Nested subprojects are not currently supported."
+msgstr "Det här projektet är redan konfigurerat som ett underprojekt till %(project)s. Nästlade underprojekt stöds inte för närvarande."
+
+#: templates/projects/projectrelationship_list.html:31
+#, python-format
+msgid "View subprojects of %(project)s"
+msgstr "Visa underprojekt av %(project)s"
+
+#: templates/projects/projectrelationship_list.html:79
+msgid "No subprojects are currently configured"
+msgstr "Inga underprojekt är för närvarande konfigurerade"
+
+#: templates/projects/projects_search_analytics.html:21
+msgid "Top queries in the past 30 days"
+msgstr "De vanligaste sökningarna under de senaste 30 dagarna"
+
+#: templates/projects/projects_search_analytics.html:46
+msgid "Daily search totals"
+msgstr "Dagliga söktotaler"
+
+#: templates/projects/samples/getting_started.rst.html:3
+msgid "Here's a place to describe how to get up and running with your project"
+msgstr "Här finns en plats där du kan beskriva hur du kommer igång med ditt projekt"
+
+#: templates/projects/samples/installation.rst.html:3
+#, python-format
+msgid "Here is where you can describe how to install %(name)s"
+msgstr "Här kan du beskriva hur du installerar %(name)s"
+
+#: templates/projects/webhook_form.html:16
+#, python-format
+msgid ""
+"We’ll send a <code>POST</code> request to the URL with the JSON payload below on the selected events. Check <a href=\"%(docs_url)s\">our docs</a> for "
+"more information."
+msgstr ""
+"Vi skickar en <code>POST-begäran</code> till URL:en med JSON-nyttolasten nedan för de valda händelserna. Se <a href=\"%(docs_url)s\">våra dokument</a> "
+"för mer information."
+
+#: templates/projects/webhook_form.html:25
+#, python-format
+msgid ""
+"This webhook was created from our old implementation and doesn't have a custom payload. Check <a href=\"%(docs_url)s\">our docs</a> for the payload "
+"description or edit the payload to set a custom one."
+msgstr ""
+"Denna webhook skapades från vår gamla implementering och har inte en anpassad nyttolast. Kontrollera <a href=\"%(docs_url)s\">våra dokument</a> för "
+"beskrivningen av nyttolasten eller redigera nyttolasten för att ange en anpassad."
+
+#: templates/projects/webhook_list.html:18
+msgid "Add Webhook"
+msgstr "Lägg till webhook"
+
+#: templates/projects/webhook_list.html:47
+msgid "No webhooks found."
+msgstr "Inga webhooks hittades."
+
+#: templates/search/elastic_search.html:6
+#, python-format
+msgid ""
+"\n"
+"    Search: %(query)s\n"
+"  "
+msgstr ""
+"\n"
+"    Sök efter: %(query)s\n"
+"  "
+
+#: templates/search/elastic_search.html:30
+msgid "Object Type"
+msgstr "Objekttyp"
+
+#: templates/search/elastic_search.html:34
+msgid "Files"
+msgstr "Filer"
+
+#: templates/search/elastic_search.html:42
+msgid "Search all"
+msgstr "Sök allt"
+
+#: templates/search/elastic_search.html:105
+#, python-format
+msgid ""
+"\n"
+"            %(count)s results for <code>%(query)s</code>\n"
+"          "
+msgstr ""
+"\n"
+"            %(count)s resultat för <code>%(query)s</code>\n"
+"          "
+
+#: templates/search/elastic_search.html:197
+msgid "No results found."
+msgstr "Inga resultat hittades."
+
+#: templates/security.html:5
+msgid "Security"
+msgstr "Säkerhet"
+
+#: templates/security.html:9
+msgid "Security at Read the Docs"
+msgstr "Säkerhet på Read the Docs"
+
+#: templates/security.html:11
+msgid ""
+"For more details on security at Read the Docs or to report a security issue, please see our <a href=\"https://docs.readthedocs.io/page/"
+"security.html\">security policy</a>."
+msgstr ""
+"För mer information om säkerheten på Read the Docs eller för att rapportera ett säkerhetsproblem, se vår <a href=\"https://docs.readthedocs.io/page/"
+"security.html\">säkerhetspolicy</a>."
+
+#: templates/socialaccount/authentication_error.html:5 templates/socialaccount/authentication_error.html:8
+msgid "Social Network Login Failure"
+msgstr "Fel vid inloggning på sociala nätverk"
+
+#: templates/socialaccount/authentication_error.html:10
+msgid "An error occurred while attempting to login via your social network account."
+msgstr "Ett fel uppstod när du försökte logga in via ditt sociala nätverkskonto."
+
+#: templates/socialaccount/connections.html:22
+msgid ""
+"On this page, you can manage the integration with your Git provider(s) that enables automatic import and configuration of your repositories. <a "
+"href=\"https://docs.readthedocs.io/en/stable/connected-accounts.html\" target=\"_blank\">Read our documentation page about connecting Git providers.</"
+"a>"
+msgstr ""
+"På den här sidan kan du hantera integrationen med din(a) Git-leverantör(er) som möjliggör automatisk import och konfiguration av dina repositories. <a "
+"href=\"https://docs.readthedocs.io/en/stable/connected-accounts.html\" target=\"_blank\">Läs vår dokumentationssida om anslutning av Git-leverantörer."
+"</a>"
+
+#: templates/socialaccount/connections.html:37
+msgid "Active connections"
+msgstr "Aktiva anslutningar"
+
+#: templates/socialaccount/connections.html:40
+msgid "The following services are currently connected to your account:"
+msgstr "Följande tjänster är för närvarande anslutna till ditt konto:"
+
+#: templates/socialaccount/connections.html:72
+msgid "Disconnect"
+msgstr "Koppla från"
+
+#: templates/socialaccount/connections.html:79
+msgid "The API version this connection uses is no longer supported, please reconnect your Bitbucket account."
+msgstr "Den API-version som den här anslutningen använder stöds inte längre, återanslut ditt Bitbucket-konto."
+
+#: templates/socialaccount/connections.html:95
+msgid "You currently have no social network accounts connected to this account."
+msgstr "Du har för närvarande inga sociala nätverkskonton kopplade till det här kontot."
+
+#: templates/socialaccount/connections.html:104
+msgid ""
+"Note: If you press the <strong>Disconnect</strong> button to disconnect a service, you should also visit your Git Provider in order to delete the "
+"OAuth connection of Read the Docs. On GitHub, this is located in <code>Settings > Applications > Authorized OAuth Apps</code>."
+msgstr ""
+"Observera: Om du trycker på knappen <strong>Koppla från</strong> för att koppla bort en tjänst bör du också besöka din Git Provider för att ta bort "
+"OAuth-anslutningen för Read the Docs. På GitHub finns detta i <code>Inställningar > Program > Auktoriserade OAuth-appar</code>."
