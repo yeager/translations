@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Inkscape Beginners' Guide 1.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-05-13 20:11+0200\n"
-"PO-Revision-Date: 2025-05-15 18:27+0200\n"
+"PO-Revision-Date: 2025-09-01 14:40+0200\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: sv <LL@li.org>\n"
 "Language: sv\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../source/tracing-an-image.rst:3 aad52ee0e503471da4b29beab3020013
 msgid "Tracing an Image"
-msgstr "Spåra en bild"
+msgstr "Kalkera en bild"
 
 #: ../../source/tracing-an-image.rst:5 33e99779282f46c4979087e30bb9117a
 msgid ""
@@ -31,11 +31,11 @@ msgid ""
 "+ :kbd:`B`, :menuselection:`Path --> Trace Bitmap`"
 msgstr ""
 "|Icon for Trace Bitmap dialog| :kbd:`Shift` + :kbd:`Alt` "
-"+ :kbd:`B`, :menuselection:`Slinga --> Spåra bitmap`"
+"+ :kbd:`B`, :menuselection:`Slinga --> Kalkera rasterbild`"
 
 #: ../../source/tracing-an-image.rst:117 82cc310d37c84701888a9ead1b6c3801
 msgid "Icon for Trace Bitmap dialog"
-msgstr "Ikon för dialogen Trace Bitmap"
+msgstr "Ikon för dialogen Kalkera rasterbild"
 
 #: ../../source/tracing-an-image.rst:7 dd3dcf75ad1f485cbc886cae6b22012f
 #, python-format
@@ -45,9 +45,9 @@ msgid ""
 "'Vectorization'. If you expect a 100% faithful representation of your "
 "picture, though, only in vector format, you will be disappointed."
 msgstr ""
-"Du kan använda den här funktionen för att omvandla en rasterbild till "
+"Du kan använda den här funktionen för att transformera en rasterbild till "
 "slingor som du kan använda och redigera i din design. Den här processen "
-"kallas \"Spårning\" eller \"Vektorisering\". Om du förväntar dig en 100% "
+"kallas “Kalkering” eller \"Vektorisering\". Om du förväntar dig en 100% "
 "trogen representation av din bild endast i vektorformat kommer du dock att "
 "bli besviken."
 
@@ -74,16 +74,16 @@ msgid ""
 "Import a suitable bitmap image by using the menu :menuselection:`File --"
 "> Import`."
 msgstr ""
-"Importera en lämplig bitmappsbild med hjälp av menyn :menuselection:`Arkiv "
-"--> Importera`."
+"Importera en lämplig rasterbild med hjälp av menyn :menuselection:`Arkiv --"
+"> Importera`."
 
 #: ../../source/tracing-an-image.rst:25 e96d763f8bd040289d844fba82d852a1
 msgid "Select the image with the Selector tool."
-msgstr "Markera bilden med Selector-verktyget."
+msgstr "Markera bilden med Väljare-verktyget."
 
 #: ../../source/tracing-an-image.rst:26 71f3a48a0bf742ae925b7b6de3e35116
 msgid "In the menu, go to :menuselection:`Path --> Trace Bitmap`."
-msgstr "I menyn, gå till :menuselection:`Slinga --> Spåra bitmap`."
+msgstr "I menyn, gå till :menuselection:`Slinga --> Kalkera rasterbild`."
 
 #: ../../source/tracing-an-image.rst:27 e081bcbda93d42eca728e98ae2a14b64
 msgid "A dialog will open where you can set different options."
@@ -96,11 +96,11 @@ msgid ""
 "click :guilabel:`Ok`. The vectorized image will be available right on the "
 "canvas. It will be positioned exactly above your picture."
 msgstr ""
-"Använd knappen :guilabel:`Update` för att få en ny förhandsgranskningsbild "
-"när du ändrar inställningarna. När resultatet av förhandsgranskningen ser "
-"rätt ut klickar du på :guilabel:`Ok`. Den vektoriserade bilden kommer att "
-"finnas tillgänglig direkt på duken. Den kommer att placeras exakt ovanför "
-"din bild."
+"Använd knappen :guilabel:`Uppdatera` för att få en ny "
+"förhandsgranskningsbild när du ändrar inställningarna. När resultatet av "
+"förhandsgranskningen ser rätt ut klickar du på :guilabel:`Ok`. Den "
+"vektoriserade bilden kommer att finnas tillgänglig direkt på duken. Den "
+"kommer att placeras exakt ovanför din bild."
 
 #: ../../source/tracing-an-image.rst:34 422619fea21849bfac616e726a7a87dd
 msgid ""
@@ -108,10 +108,9 @@ msgid ""
 "image, that you do not notice a difference. Use the Selector tool to move "
 "it to a different place on the canvas, so you can examine it properly."
 msgstr ""
-"Ibland är den vektoriserade versionen så lik den ursprungliga "
-"bitmappsbilden att du inte märker någon skillnad. Använd Selector-verktyget "
-"för att flytta den till en annan plats på duken, så att du kan undersöka "
-"den ordentligt."
+"Ibland är den vektoriserade versionen så lik den ursprungliga rasterbilden "
+"att du inte märker någon skillnad. Använd Väljare-verktyget för att flytta "
+"den till en annan plats på duken, så att du kan undersöka den ordentligt."
 
 #: ../../source/tracing-an-image.rst:39 905b5ffd2298448cb969d5d54c8d347c
 msgid ""
@@ -119,7 +118,7 @@ msgid ""
 "tab offers several different choices in the :guilabel:`Single scan` tab:"
 msgstr ""
 "Låt oss ta en närmare titt på alternativen för detta underbara verktyg. Den "
-"första fliken erbjuder flera olika val i fliken :guilabel:`Single scan`:"
+"första fliken erbjuder flera olika val i fliken :guilabel:`Enkel skanning`:"
 
 #: ../../source/tracing-an-image.rst:42 ecca885fc3b6427f9dfb1af192be055d
 msgid "Brightness cutoff"
@@ -147,23 +146,23 @@ msgstr "Kvantisering av färg"
 
 #: ../../source/tracing-an-image.rst:49 78cd0a64f34d40d282da80864d4acb23
 msgid "This traces along borders between different colors."
-msgstr "Detta spår längs gränserna mellan olika färger."
+msgstr "Detta kalkerar längs gränserna mellan olika färger."
 
 #: ../../source/tracing-an-image.rst:51 cc020d79977e449d99c17b7966934375
 msgid "Autotrace"
-msgstr "Autotrace"
+msgstr "Automatisk kalkering"
 
 #: ../../source/tracing-an-image.rst:52 b2d0964365064362b1231ee0ca7de7cb
 msgid ""
 "Like :guilabel:`Brightness cutoff`, this will also trace the outlines of "
 "objects in your image. You can ignore it for now."
 msgstr ""
-"Precis som :guilabel:`Brightness cutoff` kommer detta även att spåra "
-"konturerna av objekt i din bild. Du kan ignorera det för tillfället."
+"Precis som :guilabel:`Avstängning av ljusstyrka` kommer detta även att "
+"kalkera konturerna av objekt i din bild. Du kan ignorera det för tillfället."
 
 #: ../../source/tracing-an-image.rst:54 02ea3f8565874cbe8ae1b1d076cd64da
 msgid "Centerline tracing (autotrace)"
-msgstr "Spårning av mittlinje (autotrace)"
+msgstr "Kalkering av mittlinje (automatisk kalkering)"
 
 #: ../../source/tracing-an-image.rst:55 b7d6094e323a42d09db47684ac704836
 msgid ""
@@ -178,15 +177,16 @@ msgid ""
 "The letter A as an image, traced with Brightness cutoff and Centerline "
 "tracing"
 msgstr ""
-"Bokstaven A som bild, spårad med Brightness cutoff och Centerline tracing"
+"Bokstaven A som bild, kalkerad med Avstängning av ljusstyrka och Kalkering "
+"av mittlinje"
 
 #: ../../source/tracing-an-image.rst:61 c14797339dcb47459b2443cbcbb81d54
 msgid ""
 "The results of tracing the letter on the left with Brightness cutoff "
 "(center) and Centerline tracing (right)."
 msgstr ""
-"Resultatet av att spåra bokstaven till vänster med Brightness cutoff "
-"(mitten) och Centerline tracing (höger)."
+"Resultatet av att kalkera bokstaven till vänster med Avstängning av "
+"ljusstyrka (mitten) och Kalkering av mittlinje (höger)."
 
 #: ../../source/tracing-an-image.rst:63 fda6daeab0f745f0aedd013eedbb8c8d
 msgid ""
@@ -194,51 +194,52 @@ msgid ""
 "click on :guilabel:`Apply` to create the vector object."
 msgstr ""
 "Glöm inte att uppdatera förhandsgranskningen till höger i dialogrutan och "
-"klicka på :guilabel:`Apply` för att skapa vektorobjektet."
+"klicka på :guilabel:`Tillämpa` för att skapa vektorobjektet."
 
 #: ../../source/tracing-an-image.rst:66 858fcc025db040b6b0edcf926f66373a
 msgid "A rocket clipart image"
-msgstr "En raket clipart-bild"
+msgstr "En raket som clipart-bild"
 
 #: ../../source/tracing-an-image.rst:70 62d75072717946c88fabc2e0acc0ed42
 msgid "rocket.png, the image that we want to trace in this example."
-msgstr "rocket.png, den bild som vi vill spåra i det här exemplet."
+msgstr "rocket.png, den bild som vi vill kalkera i det här exemplet."
 
 #: ../../source/tracing-an-image.rst:72 525edfe8b9324d72b9b8f8cf5bdd16e8
 msgid "The Trace Bitmap dialog with live preview for black-and-white tracing."
 msgstr ""
-"Dialogrutan Trace Bitmap med förhandsgranskning i realtid för svartvit "
-"spårning."
+"Dialogrutan Kalkera rasterbild med förhandsgranskning i realtid för "
+"svartvit kalkering."
 
 #: ../../source/tracing-an-image.rst:76 685ff232f8ab42bb9d2c59c59e805f4a
 msgid ""
 "The image rocket.png has been imported and the Trace Bitmap dialog was "
 "opened."
 msgstr ""
-"Bilden rocket.png har importerats och dialogen Trace Bitmap har öppnats."
+"Bilden rocket.png har importerats och dialogen Kalkera rasterbild har "
+"öppnats."
 
 #: ../../source/tracing-an-image.rst:83 896b909faf924920a9517706587a046f
 msgid "The rocket traced in brightness cutoff mode"
-msgstr "Raketen spåras i läge för avstängning av ljusstyrka"
+msgstr "Raketen kalkeras i läget för avstängning av ljusstyrka"
 
 #: ../../source/tracing-an-image.rst:87 095d51aa6ec343e3a6564c9c9d443fda
 msgid "The rocket traced with the Brightness cutoff option."
-msgstr "Raketen spåras med alternativet Brightness cutoff."
+msgstr "Raketen kalkeras med alternativet Avstängning av ljusstyrka."
 
 #: ../../source/tracing-an-image.rst:89 124becb3c7c14742a6c079aeac2afb6c
 msgid "The rocket traced in edge detection mode"
-msgstr "Raketen spåras i kantdetekteringsläge"
+msgstr "Raketen kalkeras i kantdetekteringsläge"
 
 #: ../../source/tracing-an-image.rst:93 5143de4fbfc448fb84721c62331f6e7b
 msgid "The rocket vectorized with the Edge detection option."
-msgstr "Raketen vektoriserad med alternativet Edge detection."
+msgstr "Raketen vektoriserad med alternativet Detektering av kanter."
 
 #: ../../source/tracing-an-image.rst:95 d5c28462f0384fb3874d36238e2cf8ca
 msgid ""
 "The mode :guilabel:`Multiple scans` will give you a more detailed result, "
 "but it will create a separate object for each scan."
 msgstr ""
-"Med läget :guilabel:`Multiple scans` får du ett mer detaljerat resultat, "
+"Med läget :guilabel:`Flera skanningar` får du ett mer detaljerat resultat, "
 "men det skapas ett separat objekt för varje skanning."
 
 #: ../../source/tracing-an-image.rst:98 f1af040e290a4ef894e143f636e50bcc
@@ -247,12 +248,12 @@ msgstr "En bild av en pusselbit"
 
 #: ../../source/tracing-an-image.rst:102 13b120c3a6dc44d6a66959e6c30f7a6e
 msgid "A bitmap image in color."
-msgstr "En bitmappsbild i färg."
+msgstr "En rasterbild i färg."
 
 #: ../../source/tracing-an-image.rst:104 e37e5ddf823645f08a2997c1f028d8c9
 msgid "The puzzle piece traced with multiple scans, colors, 10 stacked scans"
 msgstr ""
-"Pusselbiten spårad med flera skanningar, färger, 10 staplade skanningar"
+"Pusselbiten kalkerad med flera skanningar, färger, 10 staplade skanningar"
 
 #: ../../source/tracing-an-image.rst:108 9296bc5260e44eb0b570fe02134aaba7
 msgid ""
