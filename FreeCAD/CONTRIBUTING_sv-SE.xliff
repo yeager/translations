@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="32236" original="/CONTRIBUTING.md" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="286" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="6689240">
+        <source>FreeCAD Contribution Process (FCP)</source>
+        <target state="translated">FreeCAD:s bidragsprocess (FCP)</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689242">
+        <source>FreeCAD's contribution process is inspired by the Collective Code Construction Contract which itself is an evolution of the github.com Fork and Pull Model.</source>
+        <target state="translated">FreeCAD:s bidragsprocess är inspirerad av Collective Code Construction Contract som i sig är en utveckling av github.com Fork and Pull Model.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //paragraph[1]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689244">
+        <source>The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED",  "MAY", and "OPTIONAL" in this document are to be interpreted as described in RFC 2119.</source>
+        <target state="translated">Nyckelorden "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY" och "OPTIONAL" i detta dokument ska tolkas enligt beskrivningen i RFC 2119.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //paragraph[2]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689246">
+        <source>0.</source>
+        <target state="translated">0.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[3]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689248">
+        <source>Status</source>
+        <target state="translated">Status</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[3]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689250">
+        <source>FreeCAD is in a transition period.</source>
+        <target state="translated">FreeCAD befinner sig i en övergångsperiod.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //paragraph[4]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689252">
+        <source>The following are to be regarded as GUIDELINES for contribution submission and acceptance.</source>
+        <target state="translated">Följande är att betrakta som RIKTLINJER för inlämning och godkännande av bidrag.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //paragraph[4]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689254">
+        <source>For historical reasons, the actual process MAY diverge from this process during the transition.</source>
+        <target state="translated">Av historiska skäl KAN den faktiska processen avvika från denna process under övergången.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //paragraph[4]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689256">
+        <source>Such deviations SHOULD be noted and discussed whenever possible.</source>
+        <target state="translated">Sådana avvikelser BÖR noteras och diskuteras när så är möjligt.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //paragraph[4]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689258">
+        <source>1.</source>
+        <target state="translated">1.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[5]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689260">
+        <source>Goals</source>
+        <target state="translated">Mål</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[5]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689262">
+        <source>The FreeCAD Contribution Process is expressed here with the following specific goals in mind:</source>
+        <target state="translated">FreeCAD Contribution Process uttrycks här med följande specifika mål i åtanke:</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //paragraph[6]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689264">
+        <source>To provide transparency and fairness in the contribution process.</source>
+        <target state="translated">Att tillhandahålla transparens och rättvisa i bidragsprocessen.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[7]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689266">
+        <source>To allow contributions to be included as quickly as possible.</source>
+        <target state="translated">För att möjliggöra att bidrag kan inkluderas så snabbt som möjligt.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[7]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689268">
+        <source>To preserve and improve the code quality while encouraging appropriate experimentation and risk-taking.</source>
+        <target state="translated">Att bevara och förbättra kodkvaliteten och samtidigt uppmuntra till lämpliga experiment och risktagande.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[7]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689270">
+        <source>To minimize dependence on individual Contributors by encouraging a large pool of active Contributors.</source>
+        <target state="translated">Att minimera beroendet av enskilda bidragsgivare genom att uppmuntra en stor pool av aktiva bidragsgivare.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[7]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689272">
+        <source>To be inclusive of many viewpoints and to harness a diverse set of skills.</source>
+        <target state="translated">Att inkludera många olika synsätt och att utnyttja en mångfald av kompetenser.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[7]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689274">
+        <source>To provide an encouraging environment where Contributors learn and improve their skills.</source>
+        <target state="translated">Att tillhandahålla en uppmuntrande miljö där bidragsgivare lär sig och förbättrar sina färdigheter.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[7]/listItem[5]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689276">
+        <source>To protect the free and open nature of the FreeCAD project.</source>
+        <target state="translated">För att skydda FreeCAD-projektets fria och öppna natur.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[7]/listItem[6]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689278">
+        <source>2.</source>
+        <target state="translated">2.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[8]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689280">
+        <source>Fundamentals</source>
+        <target state="translated">Grundläggande</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[8]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689282">
+        <source>FreeCAD uses the git distributed revision control system.</source>
+        <target state="translated">FreeCAD använder det distribuerade revisionskontrollsystemet git.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[9]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689284">
+        <source>Source code for the main application and related subprojects is hosted on github.com in the FreeCAD organization.</source>
+        <target state="translated">Källkoden för huvudapplikationen och relaterade underprojekt finns på github.com i FreeCAD-organisationen.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[9]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689286">
+        <source>Problems are discrete, well-defined limitations or bugs.</source>
+        <target state="translated">Problem är diskreta, väldefinierade begränsningar eller buggar.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[9]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689288">
+        <source>FreeCAD uses GitHub's issue-tracking system to track problems and contributions.</source>
+        <target state="translated">FreeCAD använder GitHubs problemspårningssystem för att spåra problem och bidrag.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[9]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689290">
+        <source>For help requests and general discussions, use the project forum.</source>
+        <target state="translated">För hjälpförfrågningar och allmänna diskussioner, använd projektforumet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[9]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689292">
+        <source>Contributions are sets of code changes that resolve a single problem.</source>
+        <target state="translated">Bidrag är uppsättningar av kodändringar som löser ett enda problem.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[9]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689294">
+        <source>FreeCAD uses the Pull Request workflow for evaluating and accepting contributions.</source>
+        <target state="translated">FreeCAD använder Pull Request-arbetsflödet för att utvärdera och acceptera bidrag.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[9]/listItem[5]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689296">
+        <source>3.</source>
+        <target state="translated">3.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[10]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689298">
+        <source>Roles</source>
+        <target state="translated">Roller</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[10]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689300">
+        <source>"User": A member of the wider FreeCAD community who uses the software.</source>
+        <target state="translated">"Användare": En medlem av den bredare FreeCAD-communityn som använder programvaran.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689302">
+        <source>"Contributor": A person who submits a contribution that resolves a previously identified problem.</source>
+        <target state="translated">"Bidragsgivare": En person som lämnar in ett bidrag som löser ett tidigare identifierat problem.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689304">
+        <source>Contributors do not have commit access to the repository unless they are also Maintainers.</source>
+        <target state="translated">Bidragsgivare har inte commit-åtkomst till arkivet om de inte också är underhållansvariga.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689306">
+        <source>Everyone, without distinction or discrimination, SHALL have an equal right to become a Contributor.</source>
+        <target state="translated">Alla, utan åtskillnad eller diskriminering, SKA ha lika rätt att bli bidragsgivare.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689308">
+        <source>"Maintainer": A person who merges contributions.</source>
+        <target state="translated">"Underhållansvarig”: En person som sammanfogar bidrag.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689310">
+        <source>Maintainers may or may not be Contributors.</source>
+        <target state="translated">Underhållansvarig kan vara eller inte vara bidragsgivare.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689312">
+        <source>Their role is to enforce the process.</source>
+        <target state="translated">Deras roll är att se till att processen efterlevs.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689314">
+        <source>Maintainers have commit access to the repository.</source>
+        <target state="translated">Underhållansvarig har commit-åtkomst till arkivet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689316">
+        <source>"Administrator": Administrators have additional authority to maintain the list of designated Maintainers.</source>
+        <target state="translated">"Administratör": Administratörer har ytterligare behörighet att underhålla listan över utsedda underhållsansvariga.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[11]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689318">
+        <source>4.</source>
+        <target state="translated">4.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[12]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689320">
+        <source>Licensing, Ownership, and Credit</source>
+        <target state="translated">Licensiering, ägande och erkännande</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[12]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689322">
+        <source>FreeCAD is distributed under the Lesser General Public License, version 2, or superior (LGPL2+).</source>
+        <target state="translated">FreeCAD distribueras under Lesser General Public License, version 2, eller högre (LGPL2+).</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689324">
+        <source>Additional details can be found in the LICENSE file.</source>
+        <target state="translated">Ytterligare information finns i filen LICENSE.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689326">
+        <source>All contributions to FreeCAD MUST use a compatible license.</source>
+        <target state="translated">Alla bidrag till FreeCAD MÅSTE använda en kompatibel licens.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689328">
+        <source>All contributions are owned by their authors unless assigned to another.</source>
+        <target state="translated">Alla bidrag ägs av sina författare om de inte överlåtits till någon annan.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689330">
+        <source>FreeCAD does not have a mandatory copyright assignment policy.</source>
+        <target state="translated">FreeCAD har inte en obligatorisk policy för upphovsrättstilldelning.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689332">
+        <source>A Contributor who wishes to be identified in the Credits section of the application "About" dialog is responsible for identifying themselves.</source>
+        <target state="translated">En bidragsgivare som vill bli identifierad i avsnittet Credits i programmets "Om"-dialog är ansvarig för att identifiera sig själv.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689334">
+        <source>They should modify the Contributors file and submit a PR with a single commit for this modification only.</source>
+        <target state="translated">De bör ändra Contributors-filen och skicka in en PR med en enda commit för endast denna ändring.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689336">
+        <source>The contributors file is found at https://github.com/FreeCAD/FreeCAD/blob/main/src/Doc/CONTRIBUTORS</source>
+        <target state="translated">Filen med bidragsgivarna finns på https://github.com/FreeCAD/FreeCAD/blob/main/src/Doc/CONTRIBUTORS</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689338">
+        <source>A contributor who does not wish to assume the copyright of their contribution MAY choose to assign it to the [FreeCAD project association](https://fpa.freecad.org) by mentioning **Copyright (c) 2022 The FreeCAD project association &lt;fpa@freecad.org&gt;** in the file's license code block.</source>
+        <target state="translated">En bidragsgivare som inte vill ta över upphovsrätten till sitt bidrag KAN välja att tilldela den till [FreeCAD-projektföreningen] (https://fpa.freecad.org) genom att nämna **Copyright (c) 2022 The FreeCAD project association &lt;fpa@freecad.org&gt;** i filens licenskodblock.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[13]/listItem[5]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689340">
+        <source>5.</source>
+        <target state="translated">5.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[14]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689342">
+        <source>Contribution Requirements</source>
+        <target state="translated">Krav på bidrag</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[14]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689344">
+        <source>Contributions are submitted in the form of Pull Requests (PR).</source>
+        <target state="translated">Bidrag lämnas in i form av Pull Requests (PR).</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689346">
+        <source>Maintainers and Contributors MUST have a GitHub account and SHOULD use their real names or a well-known alias.</source>
+        <target state="translated">Underhållsansvariga och bidragsgivare MÅSTE ha ett GitHub-konto och BÖR använda sina riktiga namn eller ett välkänt alias.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689348">
+        <source>If the GitHub username differs from the username on the FreeCAD Forum, effort SHOULD be taken to avoid confusion.</source>
+        <target state="translated">Om användarnamnet på GitHub skiljer sig från användarnamnet på FreeCAD Forum, BÖR ansträngningar göras för att undvika förvirring.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689350">
+        <source>A PR SHOULD be a minimal and accurate answer to exactly one identified and agreed-on problem.</source>
+        <target state="translated">En PR-handling SKA vara ett minimalt och korrekt svar på exakt ett identifierat och överenskommet problem.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689352">
+        <source>A PR SHOULD refrain from adding additional dependencies to the FreeCAD project unless no other option is available.</source>
+        <target state="translated">En PR bör avstå från att lägga till ytterligare beroenden till FreeCAD-projektet om inget annat alternativ är tillgängligt.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689354">
+        <source>Code submissions MUST adhere to the code style guidelines of the project if these are defined.</source>
+        <target state="translated">Kodinlämningar MÅSTE följa projektets riktlinjer för kodstil om sådana finns definierade.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[5]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689356">
+        <source>If a PR contains multiple commits, each commit MUST compile cleanly when merged with all previous commits of the same PR.</source>
+        <target state="translated">Om en PR innehåller flera commits, MÅSTE varje commit kompilera rent när den slås samman med alla tidigare commits för samma PR.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[6]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689358">
+        <source>Each commit SHOULD add value to the history of the project.</source>
+        <target state="translated">Varje commit BÖR tillföra värde till projektets historia.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[6]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689360">
+        <source>Checkpoint commits SHOULD be squashed.</source>
+        <target state="translated">Checkpoint Commits BÖR krossas.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[6]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689362">
+        <source>A PR SHALL NOT include non-trivial code from other projects unless the Contributor is the original author of that code.</source>
+        <target state="translated">En PR SKA INTE innehålla icke-trivial kod från andra projekt om inte bidragsgivaren är den ursprungliga upphovsmannen till koden.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[7]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689364">
+        <source>A PR MUST compile cleanly and pass project self-tests on all target platforms.</source>
+        <target state="translated">En PR-fil MÅSTE kompilera rent och klara projektets självtester på alla målplattformar.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[8]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689366">
+        <source>Changes that break python API used by extensions SHALL be avoided.</source>
+        <target state="translated">Ändringar som bryter mot python API som används av tillägg SKA undvikas.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[9]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689368">
+        <source>If it is not possible to avoid breaking changes, the amount of them MUST be minimized and PR MUST clearly describe all breaking changes with clear description on how to replace no longer working solution with newer one.</source>
+        <target state="translated">Om det inte är möjligt att undvika ändringar som bryter mot reglerna MÅSTE antalet ändringar minimeras och PR måste tydligt beskriva alla ändringar som bryter mot reglerna med en tydlig beskrivning av hur man ersätter en lösning som inte längre fungerar med en nyare.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[9]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689370">
+        <source>Contributor SHOULD search for addons that will be broken and list them in the PR.</source>
+        <target state="translated">Bidragsgivaren BÖR söka efter tillägg som kommer att brytas och lista dem i PR.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[9]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689372">
+        <source>Each commit message in a PR MUST succinctly explain what the commit achieves.</source>
+        <target state="translated">Varje commit-meddelande i en PR MÅSTE kortfattat förklara vad commit åstadkommer.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[10]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689374">
+        <source>The commit message SHALL follow the suggestions in the `git commit --help` documentation, section DISCUSSION.</source>
+        <target state="translated">Meddelandet SKA följa förslagen i dokumentationen `git commit --help`, avsnittet DISKUSSION.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[10]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689376">
+        <source>The PR message MUST consist of a single short line, the PR Title, summarizing the problem being solved, followed by a blank line and then the proposed solution in the Body.</source>
+        <target state="translated">PR-meddelandet MÅSTE bestå av en enda kort rad, PR Title, som sammanfattar det problem som ska lösas, följt av en tom rad och sedan den föreslagna lösningen i Body.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[11]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689378">
+        <source>If a PR consists of more than one commit, the PR Title MUST succinctly explain what the PR achieves.</source>
+        <target state="translated">Om en PR består av mer än ett åtagande MÅSTE PR-titeln kortfattat förklara vad PR åstadkommer.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[11]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689380">
+        <source>The Body MAY be as detailed as needed.</source>
+        <target state="translated">Kroppen KAN vara så detaljerad som behövs.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[11]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689382">
+        <source>If a PR changes the user interface (UI), the body of the text MUST include a presentation of these UI changes, preferably with screenshots of the previous and revised state.</source>
+        <target state="translated">Om en PR ändrar användargränssnittet (UI) MÅSTE brödtexten innehålla en presentation av dessa UIändringar, helst med skärmdumpar av det tidigare och det reviderade tillståndet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[11]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689384">
+        <source>If a PR contains the work of another author (for example, if it is cherry-picked from a fork by someone other than the PR-submitter):</source>
+        <target state="translated">Om en PR innehåller en annan författares arbete (t.ex. om den har plockats från en gaffel av någon annan än PR-avsändaren):</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[12]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689386">
+        <source>the PR description MUST contain proper attribution as the first line, for example: "This is work of XYZ cherry-picked from &lt;link&gt;";</source>
+        <target state="translated">pR-beskrivningen MÅSTE innehålla korrekt tillskrivning som första rad, till exempel: "Detta är XYZ:s arbete, hämtat från &lt;link&gt;";</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[12]/list[1]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689388">
+        <source>all commits MUST have proper authorship, i.e. be authored by the original author and committed by the author of the PR;</source>
+        <target state="translated">alla commits MÅSTE ha korrekt författarskap, dvs. vara författade av den ursprungliga författaren och commits av författaren till PR;</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[12]/list[1]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689390">
+        <source>if changes to cherry-picked commits are necessary they SHOULD be done as follow-up commits.</source>
+        <target state="translated">om ändringar i cherry-picked commits är nödvändiga SKA de göras som uppföljande commits.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[12]/list[1]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689392">
+        <source>If it is not possible to do so, then the modified commits MUST contain a `Co-Authored-By` trailer in their commit message.</source>
+        <target state="translated">Om det inte är möjligt att göra det, MÅSTE de modifierade överföringarna innehålla en `Co-Authored-By`-trailer i sitt överföringsmeddelande.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[12]/list[1]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689394">
+        <source>A “Valid PR” is one which satisfies the above requirements.</source>
+        <target state="translated">En "giltig PR" är en PR som uppfyller ovanstående krav.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[15]/listItem[13]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689396">
+        <source>6.</source>
+        <target state="translated">6.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[16]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689398">
+        <source>Process</source>
+        <target state="translated">Bearbeta</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[16]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689400">
+        <source>Change on the project follows the pattern of accurately identifying problems and applying minimal, accurate solutions to these problems.</source>
+        <target state="translated">Förändringarna i projektet följer mönstret med korrekt identifiering av problem och tillämpning av minimala, korrekta lösningar på dessa problem.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689402">
+        <source>To request changes, a User logs an issue on the project GitHub issue tracker.</source>
+        <target state="translated">För att begära ändringar loggar en användare en fråga på projektets GitHub-problemspårare.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689404">
+        <source>The User or Contributor SHOULD write the issue by describing the problem they face or observe.</source>
+        <target state="translated">Användaren eller bidragsgivaren BÖR skriva frågan genom att beskriva det problem som de möter eller observerar.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689406">
+        <source>Links to the forum or other resources are permitted but the issue SHOULD be complete and accurate and SHOULD NOT require the reader to visit the forum or any other platform to understand what is being described.</source>
+        <target state="translated">Länkar till forumet eller andra resurser är tillåtna, men frågan SKA vara fullständig och korrekt och SKA INTE kräva att läsaren besöker forumet eller någon annan plattform för att förstå vad som beskrivs.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689408">
+        <source>Issue authors SHOULD strive to describe the minimum acceptable condition.</source>
+        <target state="translated">Författarna till utgåvan BÖR sträva efter att beskriva det lägsta godtagbara tillståndet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689410">
+        <source>Issue authors SHOULD focus on User tasks and avoid comparisons to other software solutions.</source>
+        <target state="translated">Författarna till utgåvan BÖR fokusera på användaruppgifter och undvika jämförelser med andra programvarulösningar.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689412">
+        <source>The User or Contributor SHOULD seek consensus on the accuracy of their observation and the value of solving the problem.</source>
+        <target state="translated">Användaren eller bidragsgivaren BÖR söka samförstånd om riktigheten i sin observation och värdet av att lösa problemet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[5]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689414">
+        <source>To submit a solution to a problem, a Contributor SHALL create a pull request back to the project.</source>
+        <target state="translated">För att skicka in en lösning på ett problem SKA en bidragsgivare skapa en pull request tillbaka till projektet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[6]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689416">
+        <source>Contributors and Maintainers SHALL NOT commit changes directly to the target branch.</source>
+        <target state="translated">Bidragsgivare och underhållsansvariga SKA INTE överföra ändringar direkt till målgrenen.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[7]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689418">
+        <source>To discuss a proposed solution, Users MAY comment on the Pull Request in GitHub.</source>
+        <target state="translated">För att diskutera en föreslagen lösning får användare kommentera Pull Request i GitHub.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[8]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689420">
+        <source>Forum conversations regarding the solution SHOULD be discouraged and conversation redirected to the Pull Request or the related issue.</source>
+        <target state="translated">Forumkonversationer om lösningen BÖR avrådas och konversationen omdirigeras till Pull Request eller det relaterade problemet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[8]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689422">
+        <source>To accept or reject a Pull Request, a Maintainer SHALL use GitHub's interface.</source>
+        <target state="translated">För att acceptera eller avvisa en Pull Request SKA en Underhållsansvariga använda GitHubs gränssnitt.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[9]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689424">
+        <source>Maintainers SHOULD NOT merge their own PRs except:</source>
+        <target state="translated">Underhållsansvariga SKA INTE slå samman sina egna PR:s utom:</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[10]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689426">
+        <source>in exceptional cases, such as non-responsiveness from other Maintainers for an extended period.</source>
+        <target state="translated">i undantagsfall, t.ex. om andra underhållsansvariga inte svarar under en längre period.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[10]/list[1]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689428">
+        <source>If the Maintainer is also the primary developer of the workbench or subsystem.</source>
+        <target state="translated">Om underhållsansvarigan också är den primära utvecklaren av arbetsbänken eller delsystemet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[10]/list[1]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689430">
+        <source>Maintainers SHALL merge valid PRs from other Contributors rapidly.</source>
+        <target state="translated">Underhållsansvariga SKA snabbt sammanfoga giltiga PR:n från andra bidragsgivare.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[11]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689432">
+        <source>Maintainers MAY, at their discretion merge PRs that have not met all criteria to be considered valid to:</source>
+        <target state="translated">Underhållsansvariga KAN, efter eget gottfinnande, slå samman PR som inte har uppfyllt alla kriterier för att anses vara giltiga till:</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[12]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689434">
+        <source>end fruitless discussions</source>
+        <target state="translated">avsluta fruktlösa diskussioner</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[12]/list[1]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689436">
+        <source>capture toxic contributions in the historical record</source>
+        <target state="translated">fånga upp giftiga bidrag i det historiska registret</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[12]/list[1]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689438">
+        <source>engage with the Contributor on improving their contribution quality.</source>
+        <target state="translated">samarbeta med bidragsgivaren för att förbättra kvaliteten på deras bidrag.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[12]/list[1]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689440">
+        <source>Maintainers SHALL NOT make value judgments on correct contributions.</source>
+        <target state="translated">Underhållsansvariga SKA INTE göra värdebedömningar av korrekta bidrag.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[13]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689442">
+        <source>If a PR requires significant further work before merging, the PR SHOULD be moved to draft status.</source>
+        <target state="translated">Om en PR kräver betydande ytterligare arbete innan den kan slås samman, BÖR PR flyttas till statusen utkast.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[14]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689444">
+        <source>If a PR is complete, but should not be merged yet (for example, because it depends on another in-process PR), the "On hold" label SHOULD be applied.</source>
+        <target state="translated">Om en PR är komplett, men inte bör slås samman ännu (t.ex. för att den är beroende av en annan PR som är under bearbetning), BÖR etiketten "On hold" användas.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[15]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689446">
+        <source>Any Contributor who has value judgments on a PR SHOULD express these via their own PR.</source>
+        <target state="translated">Alla bidragsgivare som har värdeomdömen om ett PR-meddelande BÖR uttrycka dessa via sitt eget PR-meddelande.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[16]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689448">
+        <source>The User who created an issue SHOULD close the issue after checking the PR is successful.</source>
+        <target state="translated">Användaren som skapade ett ärende BÖR stänga ärendet efter att ha kontrollerat att PR är framgångsrik.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[17]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689450">
+        <source>Maintainers SHOULD close issues that are left open without action or update for an unreasonable period.</source>
+        <target state="translated">Underhållsansvariga BÖR stänga ärenden som lämnas öppna utan åtgärd eller uppdatering under en orimligt lång period.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[17]/listItem[18]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689452">
+        <source>7.</source>
+        <target state="translated">7.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[18]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689454">
+        <source>Branches and Releases</source>
+        <target state="translated">Grenar och utgåvor</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[18]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689456">
+        <source>The project SHALL have one branch (“main”) that always holds the latest in-progress version and SHOULD always build.</source>
+        <target state="translated">Projektet SKA ha en gren ("main") som alltid innehåller den senaste versionen under utveckling och som alltid BÖR byggas.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[19]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689458">
+        <source>The project SHALL NOT use topic branches for any reason.</source>
+        <target state="translated">Projektet SKA INTE använda ämnesgrenar av någon anledning.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[19]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689460">
+        <source>Personal forks MAY use topic branches.</source>
+        <target state="translated">Personliga forks FÅR använda ämnesgrenar.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[19]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689462">
+        <source>To make a stable release a Maintainer SHALL tag the repository.</source>
+        <target state="translated">För att göra en stabil release SKA en underhållsansvariga tagga arkivet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[19]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689464">
+        <source>Stable releases SHALL always be released from the repository main branch.</source>
+        <target state="translated">Stabila utgåvor SKA alltid släppas från arkivets huvudgren.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[19]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689466">
+        <source>8.</source>
+        <target state="translated">8.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[20]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689468">
+        <source>Project Administration</source>
+        <target state="translated">Projektadministration</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //heading[20]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689470">
+        <source>Project Administrators are those individuals who are members of the FreeCAD Github organization and have the role of 'owner'.</source>
+        <target state="translated">Projektadministratörer är de personer som är medlemmar i FreeCAD Github-organisationen och har rollen som "ägare".</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689472">
+        <source>They have the task of administering the organization including adding and removing individuals from various teams.</source>
+        <target state="translated">De har till uppgift att administrera organisationen, bland annat genom att lägga till och ta bort personer från olika team.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[0]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689474">
+        <source>Project Administrator is a technical role necessitated by the GitHub platform.</source>
+        <target state="translated">Projektadministratör är en teknisk roll som är nödvändig för GitHub-plattformen.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689476">
+        <source>Except for the specific exceptions listed below, the Project Administrators do not make the decision about individual team members.</source>
+        <target state="translated">Med undantag för de specifika undantag som anges nedan fattar projektadministratörerna inte beslut om enskilda teammedlemmar.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689478">
+        <source>Rather, they carry out the collective wishes of the Maintainers team.</source>
+        <target state="translated">I stället verkställer de de kollektiva önskemålen från Maintainers-teamet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689480">
+        <source>Project Administrators will be selected from the Maintainers team by the Maintainers themselves.</source>
+        <target state="translated">Projektadministratörer kommer att väljas ut från Maintainers-teamet av Maintainers själva.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[1]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689482">
+        <source>To ensure continuity there SHALL be at least four Project Administrators at all times.</source>
+        <target state="translated">För att säkerställa kontinuitet SKA det alltid finnas minst fyra projektadministratörer.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[2]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689484">
+        <source>The project Administrators will manage the set of project Maintainers.</source>
+        <target state="translated">Projektadministratörerna kommer att hantera uppsättningen av projektunderhållsansvariga.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689486">
+        <source>They SHALL maintain a sufficiently large pool of Maintainers to ensure their succession and permit timely review of contributions.</source>
+        <target state="translated">De SKA upprätthålla en tillräckligt stor pool av underhållsansvariga för att säkerställa deras succession och möjliggöra snabb granskning av bidrag.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689488">
+        <source>If the pool of Maintainers is insufficient, the Project Administrators will request that the Maintainers select additional individuals to add.</source>
+        <target state="translated">Om antalet underhållsansvariga är otillräckligt kommer projektadministratörerna att begära att de underhållsansvariga väljer ut ytterligare personer att lägga till.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[3]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689490">
+        <source>Contributors who have a history of successful PRs and have demonstrated continued professionalism should be invited to be Maintainers.</source>
+        <target state="translated">Bidragsgivare som har en historia av framgångsrika PR-aktiviteter och som har visat fortsatt professionalism bör bjudas in att bli Maintainers.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[4]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689492">
+        <source>Administrators SHOULD remove Maintainers who are inactive for an extended period, or who repeatedly fail to apply this process accurately.</source>
+        <target state="translated">Administratörer BÖR ta bort underhållsansvariga som är inaktiva under en längre period eller som upprepade gånger misslyckas med att tillämpa denna process korrekt.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[5]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689494">
+        <source>The list of Maintainers SHALL be publicly accessible and reflective of current activity on the project.</source>
+        <target state="translated">Listan över underhållsansvariga SKA vara allmänt tillgänglig och återspegla den aktuella aktiviteten i projektet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[6]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689496">
+        <source>Administrators SHALL act expediently to protect the FreeCAD infrastructure and resources.</source>
+        <target state="translated">Administratörer SKA agera snabbt för att skydda FreeCAD-infrastrukturen och resurserna.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[7]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689498">
+        <source>Administrators SHOULD block or ban “bad actors” who cause stress, animosity, or confusion to others in the project.</source>
+        <target state="translated">Administratörer BÖR blockera eller bannlysa "dåliga aktörer" som orsakar stress, fiendskap eller förvirring för andra i projektet.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[8]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689500">
+        <source>This SHOULD be done after public discussion, with a chance for all parties to speak.</source>
+        <target state="translated">Detta BÖR ske efter en offentlig diskussion, där alla parter får möjlighet att yttra sig.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[8]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6689502">
+        <source>A bad actor is someone who repeatedly ignores the rules and culture of the project, who is hostile or offensive, who impedes the productive exchange of information, and who is unable to self-correct their behavior when asked to do so by others.</source>
+        <target state="translated">En dålig aktör är någon som upprepade gånger ignorerar projektets regler och kultur, som är fientlig eller stötande, som hindrar ett produktivt informationsutbyte och som inte kan korrigera sitt beteende när andra ber om det.</target>
+        <context-group purpose="information">
+          <context context-type="source">CXPath: //list[21]/listItem[8]/paragraph[0]/content</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

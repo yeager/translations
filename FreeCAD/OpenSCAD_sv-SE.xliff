@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file id="25795" original="/OpenSCAD.ts" source-language="en" target-language="sv-SE" datatype="plaintext" project-id="286" tool-id="crowdin">
+    <header>
+      <tool tool-id="crowdin" tool-name="Crowdin" tool-version="1.1"/>
+    </header>
+    <body>
+      <trans-unit id="6236430" resname="Gui::Dialog::DlgSettingsOpenSCAD['General OpenSCAD Settings']">
+        <source>General OpenSCAD Settings</source>
+        <target state="translated">Allmänna inställningar för OpenSCAD</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236432" resname="Gui::Dialog::DlgSettingsOpenSCAD['OpenSCAD executable']">
+        <source>OpenSCAD executable</source>
+        <target state="translated">Körbar OpenSCAD-fil</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6502456" resname="Gui::Dialog::DlgSettingsOpenSCAD['The path to the OpenSCAD executable']">
+        <source>The path to the OpenSCAD executable</source>
+        <target state="translated">Sökvägen till den körbara filen för OpenSCAD</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6499254" resname="Gui::Dialog::DlgSettingsOpenSCAD['Print debug information in the Console']">
+        <source>Print debug information in the Console</source>
+        <target state="translated">Skriv ut felsökningsinformation i konsolen</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6498172" resname="Gui::Dialog::DlgSettingsOpenSCAD['If this is checked, Features will claim their children in the tree view']">
+        <source>If this is checked, Features will claim their children in the tree view</source>
+        <target state="translated">Om detta är markerat kommer funktioner att kräva sina barn i trädvyn</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236439" resname="Gui::Dialog::DlgSettingsOpenSCAD['If this is checked, Multmatrix Object will be Parametric']">
+        <source>If this is checked, Multmatrix Object will be Parametric</source>
+        <target state="translated">Om detta är markerat kommer Multmatrix-objektet att vara parametriskt</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236441" resname="Gui::Dialog::DlgSettingsOpenSCAD['Use Multmatrix Feature']">
+        <source>Use Multmatrix Feature</source>
+        <target state="translated">Använd Multmatrix-funktionen</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:122</context>
+        </context-group>
+        <note from="Vilfredo" priority="4">Multmatrix -&gt; Multimatrix</note>
+        <note from="jreinhardt" priority="4">@Vilfredo I think that is ok, MultMatrix has to do mit multiplication</note>
+        <note from="luzpaz" priority="4">https://www.freecadweb.org/wiki/OpenSCAD_CSG (search multmatrix)</note>
+      </trans-unit>
+      <trans-unit id="6236442" resname="Gui::Dialog::DlgSettingsOpenSCAD['The maximum number of faces of a polygon, prism or frustum. If fn is greater than this value the object is considered to be a circular. Set to 0 for no limit']">
+        <source>The maximum number of faces of a polygon, prism or frustum. If fn is greater than this value the object is considered to be a circular. Set to 0 for no limit</source>
+        <target state="translated">Det maximala antalet ytor i en polygon, prisma eller kegelstump. Om fn är större än detta värde anses objektet vara cirkulärt. Sätt till 0 för ingen begränsning</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:139
+../ui/openscadprefs-base.ui:162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236444" resname="Gui::Dialog::DlgSettingsOpenSCAD['Maximum number of faces for polygons (fn)']">
+        <source>Maximum number of faces for polygons (fn)</source>
+        <target state="translated">Maximalt antal ytor för polygoner (fn)</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6598110" resname="Gui::Dialog::DlgSettingsOpenSCAD['The transfer mechanism for getting data to and from OpenSCAD']">
+        <source>The transfer mechanism for getting data to and from OpenSCAD</source>
+        <target state="translated">Överföringsmekanismen för att få data till och från OpenSCAD</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:195</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6598112" resname="Gui::Dialog::DlgSettingsOpenSCAD['Standard temp directory']">
+        <source>Standard temp directory</source>
+        <target state="translated">Temporär standardkatalog</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6598114" resname="Gui::Dialog::DlgSettingsOpenSCAD['User-specified directory']">
+        <source>User-specified directory</source>
+        <target state="translated">Användarspecificerad katalog</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6598116" resname="Gui::Dialog::DlgSettingsOpenSCAD['stdout pipe (requires OpenSCAD >= 2021.1)']">
+        <source>stdout pipe (requires OpenSCAD &gt;= 2021.1)</source>
+        <target state="translated">stdout-rör (kräver OpenSCAD &gt;= 2021.1)</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:215</context>
+        </context-group>
+        <note from="Apostolis (aottok2)" priority="4">stdout pipe = Τυποποιημένη έξοδος και είσοδος. Μία από τις πιο σημαντικές συνέπειες των σωλήνων στο Unix είναι ότι τα προγράμματα Unix, όποτε είναι δυνατόν, έχουν σχεδιαστεί για ανάγνωση από τυπική είσοδο (stdin) και εκτύπωση σε τυπική έξοδο (stdout). Αυτοί οι όροι ορολογίας αναφέρονται σε ροές δεδομένων, τυποποιημένες ως απλό κείμενο.</note>
+        <note from="david69" priority="4">@aottok2 merci pour les explications, permet de corriger la traduction.</note>
+        <note from="david69" priority="4">Sdtout with a maj</note>
+        <note from="Chris Hennes (chennes)" priority="4">@david69 "stdout pipe" in all lowercase letters is correct here, that's a specific technical phrase for OpenSCAD users.</note>
+        <note from="david69" priority="4">@chennes ah so we should not translate it.</note>
+        <note from="Chris Hennes (chennes)" priority="4">@david69 Right, the only word here to be translated is "requires". Unfortunately because this is in a UI file, we have to allow the whole thing to be translated.</note>
+        <note from="david69" priority="4">@chennes noted and understood. thanks.</note>
+      </trans-unit>
+      <trans-unit id="6598118" resname="Gui::Dialog::DlgSettingsOpenSCAD['Transfer directory']">
+        <source>Transfer directory</source>
+        <target state="translated">Överföring av katalog</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:227</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6598120" resname="Gui::Dialog::DlgSettingsOpenSCAD['The path to the directory for transferring files to and from OpenSCAD']">
+        <source>The path to the directory for transferring files to and from OpenSCAD</source>
+        <target state="translated">Sökvägen till katalogen för överföring av filer till och från OpenSCAD</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6608175" resname="Gui::Dialog::DlgSettingsOpenSCAD['Maximum fragment size']">
+        <source>Maximum fragment size</source>
+        <target state="translated">Maximal fragmentstorlek</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:269</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6617523" resname="Gui::Dialog::DlgSettingsOpenSCAD['angle (fa)']">
+        <source>angle (fa)</source>
+        <target state="translated">vinkel (fa)</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:292</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6608177" resname="Gui::Dialog::DlgSettingsOpenSCAD['Convexity']">
+        <source>Convexity</source>
+        <target state="translated">Konvexitet</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:388</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6503014" resname="Gui::Dialog::DlgSettingsOpenSCAD['Minimum angle for a fragment']">
+        <source>Minimum angle for a fragment</source>
+        <target state="translated">Minsta vinkel för ett fragment</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:289
+../ui/openscadprefs-base.ui:299</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676520" resname="Gui::Dialog::DlgSettingsOpenSCAD['General']" approved="yes">
+        <source>General</source>
+        <target state="translated">Allmänt</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676524" resname="Gui::Dialog::DlgSettingsOpenSCAD['OpenSCAD Import']">
+        <source>OpenSCAD Import</source>
+        <target state="translated">OpenSCAD-import</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6688568" resname="Gui::Dialog::DlgSettingsOpenSCAD['Use ViewProviders in Tree View']">
+        <source>Use ViewProviders in Tree View</source>
+        <target state="translated">Använda ViewProviders i trädvyn</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:102</context>
+        </context-group>
+        <note from="david69" priority="4">what are the ViewProviders? no definition on the wiki https://wiki.freecad.org/OpenSCAD_Preferences</note>
+      </trans-unit>
+      <trans-unit id="6676530" resname="Gui::Dialog::DlgSettingsOpenSCAD['Send to OpenSCAD via']">
+        <source>Send to OpenSCAD via</source>
+        <target state="translated">Skicka till OpenSCAD via</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676532" resname="Gui::Dialog::DlgSettingsOpenSCAD['OpenSCAD Export']">
+        <source>OpenSCAD Export</source>
+        <target state="translated">OpenSCAD-export</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6503015" resname="Gui::Dialog::DlgSettingsOpenSCAD['Minimum size of a fragment']">
+        <source>Minimum size of a fragment</source>
+        <target state="translated">Minsta storlek på ett fragment</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:331
+../ui/openscadprefs-base.ui:356</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236456" resname="Gui::Dialog::DlgSettingsOpenSCAD['size (fs)']">
+        <source>size (fs)</source>
+        <target state="translated">storlek (fs)</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:334</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236457" resname="Gui::Dialog::DlgSettingsOpenSCAD['mm']">
+        <source>mm</source>
+        <target state="translated">mm</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:362</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236460" resname="Gui::Dialog::DlgSettingsOpenSCAD['Mesh fallback']">
+        <source>Mesh fallback</source>
+        <target state="translated">Reservnät</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:425</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236472" resname="Gui::Dialog::DlgSettingsOpenSCAD['Deflection']">
+        <source>Deflection</source>
+        <target state="translated">Avböjning</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:445
+../ui/openscadprefs-base.ui:462</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236473" resname="Gui::Dialog::DlgSettingsOpenSCAD['deflection']">
+        <source>deflection</source>
+        <target state="translated">avböjning</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:448</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6236475" resname="Gui::Dialog::DlgSettingsOpenSCAD['Triangulation settings']">
+        <source>Triangulation settings</source>
+        <target state="translated">Inställningar för triangulering</target>
+        <context-group purpose="information">
+          <context context-type="source">Gui::Dialog::DlgSettingsOpenSCAD
+../ui/openscadprefs-base.ui:455</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602785" resname="OpenSCAD['It looks like you may be using a Snap version of OpenSCAD.']">
+        <source>It looks like you may be using a Snap version of OpenSCAD.</source>
+        <target state="translated">Det verkar som om du kanske använder en Snap-version av OpenSCAD.</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../InitGui.py:130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602787" resname="OpenSCAD['If OpenSCAD execution fails to load the temporary file, use FreeCAD's OpenSCAD Workbench Preferences to change the transfer mechanism.']">
+        <source>If OpenSCAD execution fails to load the temporary file, use FreeCAD's OpenSCAD Workbench Preferences to change the transfer mechanism.</source>
+        <target state="translated">Om OpenSCAD-körningen inte lyckas ladda den temporära filen, använd FreeCADs OpenSCAD Workbench Preferences för att ändra överföringsmekanismen.</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../InitGui.py:135
+../../InitGui.py:148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602789" resname="OpenSCAD['It looks like you may be using a sandboxed version of FreeCAD.']">
+        <source>It looks like you may be using a sandboxed version of FreeCAD.</source>
+        <target state="translated">Det ser ut som om du kanske använder en sandboxad version av FreeCAD.</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../InitGui.py:143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602791" resname="OpenSCAD['Unable to explode %s']">
+        <source>Unable to explode %s</source>
+        <target state="translated">Kan inte explodera %s</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:92</context>
+        </context-group>
+        <note from="Palmstroem" priority="4">When does this 'explode' happen?  When I try to generate an exploded view?</note>
+        <note from="Palmstroem" priority="4">Why does this status- or error message have a shortcut %s ??
+Can someone please explain the context of this message?</note>
+        <note from="Chris Hennes (chennes)" priority="4">@Palmstroem The %s in this case is the name of the object that cannot be exploded. It's a rare error encountered when loading an OpenSCAD file.</note>
+        <note from="Palmstroem" priority="4">@chennes Thank you! Great explanation.</note>
+        <note from="david69" priority="4">https://wiki.freecad.org/OpenSCAD_ExplodeGroup</note>
+      </trans-unit>
+      <trans-unit id="6602797" resname="OpenSCAD['Add']">
+        <source>Add</source>
+        <target state="translated">Lägg till</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:333
+../../OpenSCADCommands.py:364</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602799" resname="OpenSCAD['Clear']">
+        <source>Clear</source>
+        <target state="translated">Rensa</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:368</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602801" resname="OpenSCAD['Load']">
+        <source>Load</source>
+        <target state="translated">Ladda</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:365</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602803" resname="OpenSCAD['Save']">
+        <source>Save</source>
+        <target state="translated">Spara</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:366</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602805" resname="OpenSCAD['Refresh']">
+        <source>Refresh</source>
+        <target state="translated">Uppdatera</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:334
+../../OpenSCADCommands.py:367</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602807" resname="OpenSCAD['as Mesh']">
+        <source>as Mesh</source>
+        <target state="translated">som Mesh</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:369</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602809" resname="OpenSCAD['Add OpenSCAD Element']">
+        <source>Add OpenSCAD Element</source>
+        <target state="translated">Lägg till OpenSCAD-element</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:351
+../../OpenSCADCommands.py:370</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676554" resname="OpenSCAD['Converts edges to faces']">
+        <source>Converts edges to faces</source>
+        <target state="translated">Omvandlar kanter till ytor</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:139</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676558" resname="OpenSCAD['Select 3 objects first']">
+        <source>Select 3 objects first</source>
+        <target state="translated">Välj 3 objekt först</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:301</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676560" resname="OpenSCAD['Clear Code']">
+        <source>Clear Code</source>
+        <target state="translated">Rensa kod</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676564" resname="OpenSCAD['Open…']">
+        <source>Open…</source>
+        <target state="translated">Öppna…</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:336</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676568" resname="OpenSCAD['Save…']">
+        <source>Save…</source>
+        <target state="translated">Spara…</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:337</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676570" resname="OpenSCAD['as mesh']">
+        <source>as mesh</source>
+        <target state="translated">som nät</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:338</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6611311" resname="OpenSCAD['Open file']">
+        <source>Open file</source>
+        <target state="translated">Öppna fil</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:427</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6611313" resname="OpenSCAD['OpenSCAD Files']">
+        <source>OpenSCAD Files</source>
+        <target state="translated">OpenSCAD-filer</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:429
+../../OpenSCADCommands.py:443</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6611315" resname="OpenSCAD['Save file']">
+        <source>Save file</source>
+        <target state="translated">Spara fil</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602811" resname="OpenSCAD['Perform']">
+        <source>Perform</source>
+        <target state="translated">Utför</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:455
+../../OpenSCADCommands.py:484</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602813" resname="OpenSCAD['Mesh Boolean']">
+        <source>Mesh Boolean</source>
+        <target state="translated">Mesh Boolean</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:481
+../../OpenSCADCommands.py:485</context>
+        </context-group>
+        <note from="david69" priority="4">what's the relationship with https://crowdin.com/translate/freecad/25795/en-fr#6602873?</note>
+        <note from="Chris Hennes (chennes)" priority="4">@david69 That link doesn't take me anyplace. This is the title of the window displaying all the difference boolean operations that can be performed on meshes via OpenSCAD.</note>
+      </trans-unit>
+      <trans-unit id="6608179" resname="OpenSCAD['Minkowski sum']">
+        <source>Minkowski sum</source>
+        <target state="translated">Minkowski-summa</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADCommands.py:486</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602815" resname="OpenSCAD['OpenSCAD file contains both 2D and 3D shapes. That is not supported in this importer, all shapes must have the same dimensionality.']">
+        <source>OpenSCAD file contains both 2D and 3D shapes. That is not supported in this importer, all shapes must have the same dimensionality.</source>
+        <target state="translated">OpenSCAD-filen innehåller både 2D- och 3D-former. Det stöds inte i den här importören, alla former måste ha samma dimensionalitet.</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADUtils.py:649</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6608181" resname="OpenSCAD['Error: either all shapes must be 2D or all shapes must be 3D']">
+        <source>Error: either all shapes must be 2D or all shapes must be 3D</source>
+        <target state="translated">Fel: antingen måste alla former vara 2D eller så måste alla former vara 3D</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../OpenSCADUtils.py:660</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602819" resname="OpenSCAD['Unsupported Function']">
+        <source>Unsupported Function</source>
+        <target state="translated">Funktion som inte stöds</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../importCSG.py:517
+../../importCSG.py:1389</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602821" resname="OpenSCAD['Press OK']">
+        <source>Press OK</source>
+        <target state="translated">Tryck på OK</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD
+../../importCSG.py:517
+../../importCSG.py:1389</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602827" resname="OpenSCAD_ExplodeGroup['Explode Group']">
+        <source>Explode Group</source>
+        <target state="translated">Exploderande grupp</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ExplodeGroup
+../../OpenSCADCommands.py:100</context>
+        </context-group>
+        <note from="Palmstroem" priority="4">Does 'Explode Group' mean, 'explode this selected group of parts' or 'define and build a group of parts to then explode it'?</note>
+      </trans-unit>
+      <trans-unit id="6688570" resname="OpenSCAD_ExplodeGroup['Explodes a fusion or compound and applies random colors']">
+        <source>Explodes a fusion or compound and applies random colors</source>
+        <target state="translated">Exploderar en fusion eller förening och applicerar slumpmässiga färger</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ExplodeGroup
+../../OpenSCADCommands.py:103</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602831" resname="OpenSCAD_ColorCodeShape['Color Shapes']">
+        <source>Color Shapes</source>
+        <target state="translated">Färg Former</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ColorCodeShape
+../../OpenSCADCommands.py:116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676586" resname="OpenSCAD_ColorCodeShape['Colors shapes by validity and type']">
+        <source>Colors shapes by validity and type</source>
+        <target state="translated">Färgformer efter giltighet och typ</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ColorCodeShape
+../../OpenSCADCommands.py:119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602837" resname="OpenSCAD_RefineShapeFeature['Refine Shape Feature']">
+        <source>Refine Shape Feature</source>
+        <target state="translated">Förfina formfunktion</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_RefineShapeFeature
+../../OpenSCADCommands.py:156</context>
+        </context-group>
+        <note from="Kay Garbrecht (FBXL5)" priority="4">Does this refine a shape feature or is it a feature called Refine shape?</note>
+        <note from="david69" priority="4">@FBXL5 https://wiki.freecad.org/OpenSCAD_RefineShapeFeature it says: Cleans unnecessary lines</note>
+        <note from="Kay Garbrecht (FBXL5)" priority="4">@david69 
+Thanks. It is obvious what it does but the question remains. Does feature mean a function called "Refine Shape" or an element -&gt; Refine (the) shape element (that still has redundant lines).
+The latter is now used to call the function and fits quite well, but the former matches better with the tree object and is harder to put into simple short words.
+It is ok to consider this one resolved now.</note>
+      </trans-unit>
+      <trans-unit id="6676588" resname="OpenSCAD_RefineShapeFeature['Creates a refined shape']">
+        <source>Creates a refined shape</source>
+        <target state="translated">Skapar en förfinad form</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_RefineShapeFeature
+../../OpenSCADCommands.py:159</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602853" resname="OpenSCAD_IncreaseToleranceFeature['Increase Tolerance Feature']">
+        <source>Increase Tolerance Feature</source>
+        <target state="translated">Funktion för ökad tolerans</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_IncreaseToleranceFeature
+../../OpenSCADCommands.py:266</context>
+        </context-group>
+        <note from="david69" priority="4">why feature?</note>
+        <note from="Chris Hennes (chennes)" priority="4">@david69 Because it is creating a Feature that increases the tolerance.</note>
+        <note from="david69" priority="4">@chennes thanks again. in my translation, I will omit Feature. it tends to overweight.</note>
+      </trans-unit>
+      <trans-unit id="6688572" resname="OpenSCAD_IncreaseToleranceFeature['Creates a feature to increase the tolerance']">
+        <source>Creates a feature to increase the tolerance</source>
+        <target state="translated">Skapar en funktion för att öka toleransen</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_IncreaseToleranceFeature
+../../OpenSCADCommands.py:269</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602857" resname="OpenSCAD_ExpandPlacements['Expand Placements']">
+        <source>Expand Placements</source>
+        <target state="translated">Expandera placeringar</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ExpandPlacements
+../../OpenSCADCommands.py:283</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6688574" resname="OpenSCAD_ExpandPlacements['Expands all placements downwards in the Tree View']">
+        <source>Expands all placements downwards in the Tree View</source>
+        <target state="translated">Expanderar alla placeringar nedåt i trädvyn</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ExpandPlacements
+../../OpenSCADCommands.py:286</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602861" resname="OpenSCAD_ReplaceObject['Replace Object']">
+        <source>Replace Object</source>
+        <target state="translated">Ersätt objekt</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ReplaceObject
+../../OpenSCADCommands.py:304</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6688576" resname="OpenSCAD_ReplaceObject['Replaces an object in the Tree View']">
+        <source>Replaces an object in the Tree View</source>
+        <target state="translated">Ersätter ett objekt i trädvyn</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ReplaceObject
+../../OpenSCADCommands.py:307</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676606" resname="OpenSCAD_RemoveSubtree['Remove Objects and Children']">
+        <source>Remove Objects and Children</source>
+        <target state="translated">Ta bort objekt och barn</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_RemoveSubtree
+../../OpenSCADCommands.py:317</context>
+        </context-group>
+        <note from="david69" priority="4">https://wiki.freecad.org/OpenSCAD_RemoveSubtree is it not: Remove Object(s) and their Children ?</note>
+      </trans-unit>
+      <trans-unit id="6688578" resname="OpenSCAD_RemoveSubtree['Removes the selected objects and all children that are not referenced by other objects']">
+        <source>Removes the selected objects and all children that are not referenced by other objects</source>
+        <target state="translated">Tar bort de markerade objekten och alla underordnade objekt som inte refereras av andra objekt</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_RemoveSubtree
+../../OpenSCADCommands.py:320</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6602877" resname="OpenSCAD_Hull['Hull']">
+        <source>Hull</source>
+        <target state="translated">Skrov</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_Hull
+../../OpenSCADCommands.py:565</context>
+        </context-group>
+        <note from="david69" priority="4">would be better to have: Create a hull for a matter of consistency other commands</note>
+      </trans-unit>
+      <trans-unit id="6676610" resname="OpenSCAD_Hull['Creates a hull']">
+        <source>Creates a hull</source>
+        <target state="translated">Skapar ett skrov</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_Hull
+../../OpenSCADCommands.py:568</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6608191" resname="Workbench['OpenSCAD Tools']">
+        <source>OpenSCAD Tools</source>
+        <target state="translated">OpenSCAD-verktyg</target>
+        <context-group purpose="information">
+          <context context-type="source">Workbench
+../../InitGui.py:152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6608193" resname="Workbench['Frequently-used Part WB tools']">
+        <source>Frequently-used Part WB tools</source>
+        <target state="translated">Ofta använda Part WB-verktyg</target>
+        <context-group purpose="information">
+          <context context-type="source">Workbench
+../../InitGui.py:156</context>
+        </context-group>
+        <note from="david69" priority="4">WB =&gt; workbench</note>
+      </trans-unit>
+      <trans-unit id="6676612" resname="OpenSCAD_Edgestofaces['Convert Edges to Faces']">
+        <source>Convert Edges to Faces</source>
+        <target state="translated">Konvertera kanter till ytor</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_Edgestofaces
+../../OpenSCADCommands.py:136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676614" resname="OpenSCAD_MirrorMeshFeature['Mirror Mesh Feature']">
+        <source>Mirror Mesh Feature</source>
+        <target state="translated">Funktion för spegelnät</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_MirrorMeshFeature
+../../OpenSCADCommands.py:186</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676616" resname="OpenSCAD_MirrorMeshFeature['Mirrors the mesh']">
+        <source>Mirrors the mesh</source>
+        <target state="translated">Speglar maskan</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_MirrorMeshFeature
+../../OpenSCADCommands.py:189</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676618" resname="OpenSCAD_ScaleMeshFeature['Scale Mesh Feature']">
+        <source>Scale Mesh Feature</source>
+        <target state="translated">Skala Mesh-funktion</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ScaleMeshFeature
+../../OpenSCADCommands.py:215</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676620" resname="OpenSCAD_ScaleMeshFeature['Scales the mesh']">
+        <source>Scales the mesh</source>
+        <target state="translated">Skalar maskorna</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ScaleMeshFeature
+../../OpenSCADCommands.py:219</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676624" resname="OpenSCAD_ResizeMeshFeature['Resize Mesh Feature']">
+        <source>Resize Mesh Feature</source>
+        <target state="translated">Ändra storlek på nätfunktion</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ResizeMeshFeature
+../../OpenSCADCommands.py:245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676628" resname="OpenSCAD_ResizeMeshFeature['Resizes the mesh']">
+        <source>Resizes the mesh</source>
+        <target state="translated">Ändrar storlek på nätet</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_ResizeMeshFeature
+../../OpenSCADCommands.py:249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676634" resname="OpenSCAD_AddOpenSCADElement['Add OpenSCAD Element']">
+        <source>Add OpenSCAD Element</source>
+        <target state="translated">Lägg till OpenSCAD-element</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_AddOpenSCADElement
+../../OpenSCADCommands.py:529</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6688580" resname="OpenSCAD_AddOpenSCADElement['Adds an OpenSCAD element based on entered OpenSCAD code using the OpenSCAD binary']">
+        <source>Adds an OpenSCAD element based on entered OpenSCAD code using the OpenSCAD binary</source>
+        <target state="translated">Lägger till ett OpenSCAD-element baserat på inmatad OpenSCAD-kod med hjälp av OpenSCAD-binärfilen</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_AddOpenSCADElement
+../../OpenSCADCommands.py:533</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676646" resname="OpenSCAD_MeshBoolean['Mesh Boolean']">
+        <source>Mesh Boolean</source>
+        <target state="translated">Nät-boolean</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_MeshBoolean
+../../OpenSCADCommands.py:544</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6688582" resname="OpenSCAD_MeshBoolean['Performs a boolean operation using the OpenSCAD binary']">
+        <source>Performs a boolean operation using the OpenSCAD binary</source>
+        <target state="translated">Utför en boolesk operation med hjälp av OpenSCAD-binärfilen</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_MeshBoolean
+../../OpenSCADCommands.py:548</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676654" resname="OpenSCAD_Minkowski['Minkowski Sum']">
+        <source>Minkowski Sum</source>
+        <target state="translated">Minkowski-summa</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_Minkowski
+../../OpenSCADCommands.py:585</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6676660" resname="OpenSCAD_Minkowski['Creates a Minkowski sum']">
+        <source>Creates a Minkowski sum</source>
+        <target state="translated">Skapar en Minkowski-summa</target>
+        <context-group purpose="information">
+          <context context-type="source">OpenSCAD_Minkowski
+../../OpenSCADCommands.py:588</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
