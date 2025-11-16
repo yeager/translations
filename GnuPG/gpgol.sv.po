@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: GPGol\n"
 "Report-Msgid-Bugs-To: bug-gpgol@g10code.com\n"
 "POT-Creation-Date: 2025-10-27 14:37+0100\n"
-"PO-Revision-Date: 2025-11-15 16:17+0100\n"
+"PO-Revision-Date: 2025-11-16 15:54+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -43,7 +43,7 @@ msgstr "(Teknisk)"
 
 #: src/addin-options.cpp:46
 msgid "Automatically secure &messages"
-msgstr "Säkra meddelanden automatiskt"
+msgstr "Säkra meddelanden a&utomatiskt"
 
 #: src/addin-options.cpp:47
 msgid "Configure GnuPG"
@@ -59,7 +59,7 @@ msgstr "Version "
 
 #: src/addin-options.cpp:50
 msgid "&Resolve recipient keys automatically"
-msgstr "&Lös mottagarnycklar automatiskt"
+msgstr "&Slå upp mottagarnycklar automatiskt"
 
 #: src/addin-options.cpp:51
 msgid "&Encrypt new messages by default"
@@ -75,11 +75,12 @@ msgstr "&Skicka OpenPGP-meddelanden utan bilagor som PGP/Inline"
 
 #: src/addin-options.cpp:55
 msgid "S&elect crypto settings automatically for reply and forward"
-msgstr "Välj krypteringsinställningar automatiskt för svar och vidarebefordran"
+msgstr ""
+"Vä&lj krypteringsinställningar automatiskt för svar och vidarebefordran"
 
 #: src/addin-options.cpp:57
 msgid "&Prefer S/MIME"
-msgstr "&Föredrar S/MIME"
+msgstr "&Föredra S/MIME"
 
 #: src/addin-options.cpp:60
 msgid "Enable or disable any automated key handling."
@@ -92,7 +93,7 @@ msgstr "Automatisera förtroende baserat på kommunikationshistorik."
 #. TRANSLATORS: Part of the config dialog.
 #: src/addin-options.cpp:63
 msgid "Include OpenPGP &trust based on communication history"
-msgstr "Inkludera OpenPGP &trust baserat på kommunikationshistorik"
+msgstr "Inkludera OpenPGP-&förtroende baserat på kommunikationshistorik"
 
 #: src/addin-options.cpp:64
 msgid ""
@@ -138,8 +139,9 @@ msgid ""
 "This can be useful for compatibility but should generally not be used."
 msgstr ""
 "Istället för att använda PGP/MIME-formatet, som hanterar bilagor och kodning "
-"på rätt sätt, används det föråldrade PGP/Inline. Detta kan vara användbart "
-"för kompatibilitetens skull, men bör i allmänhet inte användas."
+"på rätt sätt, används det föråldrade PGP/Inline.\n"
+"Detta kan vara användbart för kompatibilitetens skull, men bör i allmänhet "
+"inte användas."
 
 #: src/addin-options.cpp:75
 msgid "Prefer S/MIME over OpenPGP if both are possible."
@@ -148,12 +150,12 @@ msgstr "Föredra S/MIME framför OpenPGP om båda är möjliga."
 #. TRANSLATORS: Part of the config dialog.
 #: src/addin-options.cpp:78
 msgid "Configuration of GnuPG System options"
-msgstr "Konfiguration av GnuPG-systemalternativ"
+msgstr "Konfiguration av GnuPG-systemflaggor"
 
 #. TRANSLATORS: Part of the config dialog.
 #: src/addin-options.cpp:80
 msgid "Configuration of debug options"
-msgstr "Konfiguration av felsökningsalternativ"
+msgstr "Konfiguration av felsökningsflaggor"
 
 #. TRANSLATORS: Part of the config dialog.
 #: src/addin-options.cpp:83
@@ -191,7 +193,7 @@ msgstr ""
 #. TRANSLATORS: Part of the config dialog.
 #: src/addin-options.cpp:91
 msgid "Also &with untrusted keys"
-msgstr "Även med opålitliga nycklar"
+msgstr "Även &med opålitliga nycklar"
 
 #. TRANSLATORS: Included means here both attached keys and keys from the
 #. * headers
@@ -228,7 +230,7 @@ msgstr "Inställningar för:"
 #. An example for a public key follows.
 #: src/addin-options.cpp:109
 msgid "Paste a public key export here. It should look like:"
-msgstr "Klistra in en offentlig nyckel här. Den ska se ut så här:"
+msgstr "Klistra in en publik nyckel här. Den ska se ut så här:"
 
 #. TRANSLATORS: Part of address book key configuration dialog.
 #. An example for a public certificate follows.
@@ -239,7 +241,7 @@ msgstr "Klistra in certifikaten här. De ska se ut så här:"
 #. TRANSLATORS: Part of address book key configuration dialog.
 #: src/addin-options.cpp:114
 msgid "Failed to parse any public key."
-msgstr "Det gick inte att analysera någon offentlig nyckel."
+msgstr "Misslyckades med att tolka någon publik nyckel."
 
 #. TRANSLATORS: Part of address book key configuration dialog.
 #: src/addin-options.cpp:116
@@ -249,7 +251,7 @@ msgstr "Fel"
 #. TRANSLATORS: Part of address book key configuration dialog.
 #: src/addin-options.cpp:118
 msgid "Secret key detected."
-msgstr "Hemlig nyckel upptäckt."
+msgstr "Hemlig nyckel upptäcktes."
 
 #. TRANSLATORS: Part of address book key configuration dialog.
 #: src/addin-options.cpp:120
@@ -257,7 +259,7 @@ msgid ""
 "You can only configure public keys in Outlook. Import secret keys with "
 "Kleopatra."
 msgstr ""
-"Du kan endast konfigurera offentliga nycklar i Outlook. Importera hemliga "
+"Du kan endast konfigurera publika nycklar i Outlook. Importera hemliga "
 "nycklar med Kleopatra."
 
 #. TRANSLATORS: Part of address book key configuration dialog.
@@ -280,13 +282,13 @@ msgstr "Skapad:"
 #. TRANSLATORS: Part of address book key configuration dialog.
 #: src/addin-options.cpp:130
 msgid "User Ids:"
-msgstr "Användar-ID:"
+msgstr "Användar-IDn:"
 
 #. TRANSLATORS: Part of address book key configuration dialog. %1 is
 #. a placeholder for the plual for key / keys.
 #: src/addin-options.cpp:133
 msgid "You are about to configure the following OpenPGP %1 for:"
-msgstr "Du är på väg att konfigurera följande OpenPGP %1 feller:"
+msgstr "Du är på väg att konfigurera följande OpenPGP %1 för:"
 
 #. TRANSLATORS: Part of address book key configuration dialog.
 #. used in a sentence as plural form.
@@ -304,7 +306,7 @@ msgstr "nyckel"
 #. a placeholder for the plual for certificate / certificates.
 #: src/addin-options.cpp:142
 msgid "You are about to configure the following S/MIME %1 for:"
-msgstr "Du ska nu konfigurera följande S/MIME %1 feller:"
+msgstr "Du är på väg att konfigurera följande S/MIME %1 för:"
 
 #. TRANSLATORS: Part of address book key configuration dialog.
 #. used in a sentence as plural form.
@@ -316,7 +318,7 @@ msgstr "certifikat"
 #. used in a sentence as singular form.
 #: src/addin-options.cpp:148
 msgid "certificate"
-msgstr "kursdiplom"
+msgstr "certifikat"
 
 #: src/addin-options.cpp:150
 msgid "This may take several minutes..."
@@ -405,7 +407,7 @@ msgstr "Loggfil (obligatoriskt):"
 #. debug log.
 #: src/addin-options.cpp:187
 msgid "Include Mail contents (decrypted!) and meta information."
-msgstr "Inkludera e-postinnehåll (dekrypterat!) och metainformation."
+msgstr "Inkludera e-postinnehåll (avkrypterat!) och metainformation."
 
 #. TRANSLATORS: Dialog title for the log file selection
 #: src/addin-options.cpp:189
@@ -429,17 +431,17 @@ msgstr "<b>Varning:</b> Minskad prestanda. Enorma loggar!"
 #. TRANSLATORS: Config dialog category for debug options.
 #: src/addin-options.cpp:199
 msgid "Debug"
-msgstr "Debugg"
+msgstr "Felsök"
 
 #. TRANSLATORS: Config dialog category for debug options.
 #: src/addin-options.cpp:201
 msgid "Configuaration of debug options"
-msgstr "Konfiguration av felsökningsalternativ"
+msgstr "Konfiguration av felsökningsflaggor"
 
 #. TRANSLATORS: Config dialog debug page, can be technical.
 #: src/addin-options.cpp:203
 msgid "Potential workarounds"
-msgstr "Möjliga lösningar"
+msgstr "Möjliga temporära lösningar"
 
 #. TRANSLATORS: Config dialog debug page, can be technical.
 #: src/addin-options.cpp:205
@@ -449,12 +451,12 @@ msgstr "Blockera Outlook under kryptering/signering"
 #. TRANSLATORS: Config dialog debug page, can be technical.
 #: src/addin-options.cpp:207
 msgid "Block Outlook during decrypt / verify"
-msgstr "Blockera Outlook under dekryptering/verifiering"
+msgstr "Blockera Outlook under avkryptering/verifiering"
 
 #. TRANSLATORS: Config dialog debug page, can be technical.
 #: src/addin-options.cpp:209
 msgid "Do not save encrypted mails before decryption"
-msgstr "Spara inte krypterade e-postmeddelanden innan de har dekrypterats"
+msgstr "Spara inte krypterade e-postmeddelanden innan de har avkrypterats"
 
 #. TRANSLATORS: Config dialog debug page.
 #: src/addin-options.cpp:211
@@ -526,9 +528,11 @@ msgid ""
 "Please see https://www.gpg4win.org/reporting-bugs.html or ask your "
 "Administrator for support."
 msgstr ""
-"Operationen misslyckades. Detta beror vanligtvis på ett fel i GpgOL eller "
-"ett fel i din installation. Se https://www.gpg4win.org/reporting-bugs.html "
-"eller be din administratör om hjälp."
+"Åtgärden misslyckades.\n"
+"\n"
+"Detta beror vanligtvis på ett fel i GpgOL eller ett fel i din installation.\n"
+"Se https://www.gpg4win.org/reporting-bugs.html eller be din administratör om "
+"hjälp."
 
 #: src/common.cpp:1172
 msgid "VS-NfD compliant"
@@ -563,7 +567,7 @@ msgstr "Krypterar meddelandet och alla bilagor innan de skickas"
 
 #: src/gpgoladdin.cpp:916
 msgid "Sign the message"
-msgstr "Underteckna meddelandet"
+msgstr "Signera meddelandet"
 
 #: src/gpgoladdin.cpp:918
 msgid "Sign the message and all attachments before sending"
@@ -571,7 +575,7 @@ msgstr "Signera meddelandet och alla bilagor innan du skickar det"
 
 #: src/gpgoladdin.cpp:921
 msgid "Sign and encrypt the message"
-msgstr "Skriv under och kryptera meddelandet"
+msgstr "Signera och kryptera meddelandet"
 
 #: src/gpgoladdin.cpp:923
 msgid ""
@@ -636,11 +640,11 @@ msgstr "GpgOL-inställningar"
 
 #: src/gpgoladdin.cpp:1168
 msgid "Permanently &amp;decrypt"
-msgstr "Permanent &amp;dekryptera"
+msgstr "Permanent &amp;avkryptera"
 
 #: src/gpgoladdin.cpp:1169
 msgid "S&amp;tart decryption"
-msgstr "Starta dekryptering"
+msgstr "S&amp;tarta avkryptering"
 
 #: src/mail.cpp:486
 msgid ""
@@ -648,7 +652,7 @@ msgid ""
 "The unsigned / unencrypted attachments are:\n"
 "\n"
 msgstr ""
-"Alla bilagor var inte krypterade eller signerade.\n"
+"Inte alla bilagor var krypterade eller signerade.\n"
 "De osignerade/okrypterade bilagorna är:\n"
 "\n"
 
@@ -658,7 +662,7 @@ msgid ""
 "The unsigned attachments are:\n"
 "\n"
 msgstr ""
-"Alla bilagor var inte signerade.\n"
+"Inte alla bilagor var signerade.\n"
 "De icke-signerade bilagorna är:\n"
 "\n"
 
@@ -668,7 +672,7 @@ msgid ""
 "The unencrypted attachments are:\n"
 "\n"
 msgstr ""
-"Alla bilagor var inte krypterade.\n"
+"Inte alla bilagor var krypterade.\n"
 "De okrypterade bilagorna är:\n"
 "\n"
 
@@ -689,7 +693,10 @@ msgid ""
 "Not all attachments can be shown.\n"
 "\n"
 "The hidden attachments are:"
-msgstr "Alla bilagor kan inte visas. De dolda bilagorna är:"
+msgstr ""
+"Alla bilagor kan inte visas.\n"
+"\n"
+"De dolda bilagorna är:"
 
 #: src/mail.cpp:871
 msgid "The mail exceeds the maximum size GpgOL can handle on this server."
@@ -706,7 +713,7 @@ msgstr "Anledning:"
 msgid ""
 "Crypto operation failed:\n"
 "%s"
-msgstr "Krypto-operationen misslyckades: %s"
+msgstr "Kryptoåtgärden misslyckades: %s"
 
 #: src/mail.cpp:1188 src/mail.cpp:1233
 msgid "Diagnostics"
@@ -716,7 +723,7 @@ msgstr "Diagnostik"
 msgid ""
 "You can try the operation again with fewer validity checks on the "
 "certificates.\n"
-msgstr "Du kan försöka igen med färre giltighetskontroller av certifikaten.\n"
+msgstr "Du kan försöka igen med färre giltighetskontroller för certifikaten.\n"
 
 #: src/mail.cpp:1199
 #, c-format
@@ -736,8 +743,10 @@ msgid ""
 "directory, simply ignore this message.</p>\n"
 msgstr ""
 "Detta är en bekräftelseförfrågan om att publicera din Pubkey i katalogen för "
-"din domän<p>Om du inte har begärt att din publika nyckel ska publiceras i "
-"din leverantörs katalog kan du ignorera detta meddelande.</p>\n"
+"din domän\n"
+"\n"
+"<p>Om du inte har begärt att din publika nyckel ska publiceras i din "
+"leverantörs katalog kan du ignorera detta meddelande.</p>\n"
 
 #: src/mail.cpp:1511 src/mail.cpp:1521 src/mail.cpp:1783 src/mail.cpp:1920
 msgid "message"
@@ -749,7 +758,7 @@ msgstr "Vänta medan meddelandet verifieras..."
 
 #: src/mail.cpp:1522
 msgid "Please wait while the message is being decrypted / verified..."
-msgstr "Vänta medan meddelandet dekrypteras/verifieras..."
+msgstr "Vänta medan meddelandet avkrypteras/verifieras..."
 
 #: src/mail.cpp:1687
 msgid "GpgOL: Failed to update mail body."
@@ -776,12 +785,12 @@ msgid ""
 "Please ask the sender to sign the message or\n"
 "to send it with a plain text alternative."
 msgstr ""
-"Be avsändaren att underteckna meddelandet eller skicka det med ett "
-"alternativ i klartext."
+"Be avsändaren att underteckna meddelandet\n"
+"eller skicka det med ett alternativ i klartext."
 
 #: src/mail.cpp:2205
 msgid "GpgOL: Oops, G Suite Sync account detected"
-msgstr "GpgOL: Oj, G Suite Sync-konto upptäckt"
+msgstr "GpgOL: Hoppsan, G Suite Sync-konto upptäcktes"
 
 #: src/mail.cpp:2207
 msgid ""
@@ -790,13 +799,14 @@ msgid ""
 "\n"
 "See: https://dev.gnupg.org/T3545 for details."
 msgstr ""
-"G Suite Sync bryter utgående krypterade e-postmeddelanden med bilagor. "
-"Användning av kryptering och bilagor med G Suite Sync stöds inte. Se: "
-"https://dev.gnupg.org/T3545 för mer information."
+"G Suite Sync bryter utgående krypterade e-postmeddelanden med bilagor.\n"
+"Användning av kryptering och bilagor med G Suite Sync stöds inte.\n"
+"\n"
+"Se: https://dev.gnupg.org/T3545 för mer information."
 
 #: src/mail.cpp:3369
 msgid "Invalid Key"
-msgstr "Ogiltigt knapptryck"
+msgstr "Ogiltig nyckel"
 
 #. TRANSLATORS: The first placeholder is for tranlsation of "Level".
 #. The second one is for the level number. The third is for the
@@ -818,7 +828,7 @@ msgstr "Säkerhetsnivå 4"
 
 #: src/mail.cpp:3667
 msgid "Trust Level 4"
-msgstr "Förtroendenivå 4"
+msgstr "Tillitsnivå 4"
 
 #: src/mail.cpp:3671
 msgid "Security Level 3"
@@ -826,7 +836,7 @@ msgstr "Säkerhetsnivå 3"
 
 #: src/mail.cpp:3675
 msgid "Trust Level 3"
-msgstr "Förtroendenivå 3"
+msgstr "Tillitsnivå 3"
 
 #: src/mail.cpp:3679
 msgid "Security Level 2"
@@ -834,11 +844,11 @@ msgstr "Säkerhetsnivå 2"
 
 #: src/mail.cpp:3683
 msgid "Trust Level 2"
-msgstr "Förtroendenivå 2"
+msgstr "Tillitsnivå 2"
 
 #: src/mail.cpp:3687
 msgid "Encrypted"
-msgstr "Krypterad"
+msgstr "Krypterat"
 
 #: src/mail.cpp:3696 src/mail.cpp:3698 src/ribbon-callbacks.cpp:670
 msgid "Insecure"
@@ -850,7 +860,7 @@ msgstr "Signerat och krypterat meddelande"
 
 #: src/mail.cpp:3715
 msgid "Signed message"
-msgstr "Undertecknat meddelande"
+msgstr "Signerat meddelande"
 
 #: src/mail.cpp:3719
 msgid "Encrypted message"
@@ -886,7 +896,7 @@ msgstr "Avsändarens identitet har certifierats av dig själv."
 
 #: src/mail.cpp:3789
 msgid "The sender is allowed to certify identities for you."
-msgstr "Avsändaren har rätt att certifiera identiteter åt dig."
+msgstr "Avsändaren har rätt att bekräfta identiteter åt dig."
 
 #: src/mail.cpp:3802
 msgid "The senders identity was certified by several trusted people."
@@ -898,7 +908,7 @@ msgid ""
 "The senders identity is certified by the trusted issuer:\n"
 "'%s'\n"
 msgstr ""
-"Avsändarens identitet är certifierad av den betrodda utfärdaren:\n"
+"Avsändarens identitet är bekräftad av den betrodda utfärdaren:\n"
 "'%s'\n"
 
 #: src/mail.cpp:3815
@@ -917,8 +927,8 @@ msgid ""
 "You encrypted %i and verified %i messages since."
 msgstr ""
 "Avsändarens adress är betrodd, eftersom du har etablerat en "
-"kommunikationshistorik med denna adress sedan %s. Sedan dess har du "
-"krypterat %i och verifierat %i meddelanden."
+"kommunikationshistorik med denna adress sedan %s.\n"
+"Sedan dess har du krypterat %i och verifierat %i meddelanden."
 
 #: src/mail.cpp:3847
 msgid "The senders signature was verified for the first time."
@@ -971,7 +981,7 @@ msgstr "är inte tillgänglig."
 
 #: src/mail.cpp:3913
 msgid "is revoked."
-msgstr "upphävs."
+msgstr "är återkallad."
 
 #: src/mail.cpp:3917
 msgid "is expired."
@@ -1003,7 +1013,7 @@ msgid ""
 "is not certified by a trustworthy Certificate Authority or the Certificate "
 "Authority is unknown."
 msgstr ""
-"inte är certifierat av en pålitlig certifikatutfärdare eller om "
+"inte är certifierat av en pålitlig certifikatutfärdare eller att "
 "certifikatutfärdaren är okänd."
 
 #: src/mail.cpp:3963
@@ -1050,10 +1060,13 @@ msgid ""
 "If it still fails consider using an encrypted attachment or\n"
 "switching to PGP/Inline in GpgOL's options."
 msgstr ""
-"Outlook returnerade ett felmeddelande när jag försökte skicka det krypterade "
-"mejlet. Starta om Outlook och försök igen. Om det fortfarande inte fungerar "
-"kan du överväga att använda en krypterad bilaga eller byta till PGP/Inline i "
-"GpgOL:s alternativ."
+"Outlook returnerade ett felmeddelande vid försök att skicka det krypterade "
+"mejlet.\n"
+"\n"
+"Starta om Outlook och försök igen.\n"
+"\n"
+"Om det fortfarande inte fungerar kan du överväga att använda en krypterad\n"
+"bilaga eller byta till PGP/Inline i GpgOL:s alternativ."
 
 #: src/mail.cpp:5112
 msgid "Should GpgOL override Outlook and continue to process the message?"
@@ -1062,19 +1075,19 @@ msgstr "Ska GpgOL åsidosätta Outlook och fortsätta att bearbeta meddelandet?"
 #: src/mail.cpp:5118
 #, c-format
 msgid "Note: For %s communication you have to select Yes."
-msgstr "Obs! För %s kommunikation måste du välja Ja."
+msgstr "Observera: För %s-kommunikation måste du välja Ja."
 
 #: src/mail.cpp:5122
 msgid ""
 "A crypto operation was selected both using Outlooks internal crypto and with "
 "GpgOL / GnuPG."
 msgstr ""
-"En krypteringsoperation valdes både med hjälp av Outlooks interna kryptering "
-"och med GpgOL / GnuPG."
+"En kryptoåtgärden valdes både med hjälp av Outlooks interna kryptering och "
+"med GpgOL / GnuPG."
 
 #: src/mail.cpp:5126
 msgid "Conflicting crypto settings"
-msgstr "Konflikterande kryptoinställningar"
+msgstr "Motstridiga kryptoinställningar"
 
 #: src/mailitem-events.cpp:400 src/mailitem-events.cpp:1113
 #: src/mimemaker.cpp:1059
@@ -1118,7 +1131,7 @@ msgid ""
 "This is why we only allow quoting to be done manually."
 msgstr ""
 "I denna version av S/MIME kan en angripare använda den saknade signaturen "
-"för att få dig att dekryptera innehåll från ett annat, annars helt "
+"för att få dig att avkryptera innehåll från ett annat, annars helt "
 "orelaterat e-postmeddelande och placera det i citatet så att de kan få tag "
 "på det. Det är därför vi endast tillåter att citat görs manuellt."
 
@@ -1133,8 +1146,8 @@ msgid ""
 "They can't be permanently removed and will be shown again the next time this "
 "message is opened."
 msgstr ""
-"Bilagor är en del av kryptomeddelandet. De kan inte tas bort permanent och "
-"visas igen nästa gång meddelandet öppnas."
+"Bilagor är en del av kryptomeddelandet.\n"
+"De kan inte tas bort permanent och visas igen nästa gång meddelandet öppnas."
 
 #: src/mapihelp.cpp:2157 src/mapihelp.cpp:2165 src/mapihelp.cpp:2173
 msgid "[no subject]"
@@ -1168,14 +1181,14 @@ msgstr "Okänd nyckel:"
 
 #: src/parsecontroller.cpp:232
 msgid "Decryption canceled or timed out."
-msgstr "Dekryptering avbruten eller tidsgränsen överskridd."
+msgstr "Avkryptering avbruten eller tidsgränsen överskridd."
 
 #: src/parsecontroller.cpp:246
 msgid ""
 "No secret key found to decrypt the message. It is encrypted to the following "
 "keys:"
 msgstr ""
-"Ingen hemlig nyckel hittades för att dekryptera meddelandet. Det är "
+"Ingen hemlig nyckel hittades för att avkryptera meddelandet. Det är "
 "krypterat med följande nycklar:"
 
 #: src/parsecontroller.cpp:252
@@ -1184,19 +1197,19 @@ msgstr "Det gick inte att avkryptera data: "
 
 #: src/parsecontroller.cpp:256
 msgid "Failed to parse the mail."
-msgstr "Det gick inte att analysera e-postmeddelandet."
+msgstr "Misslyckades med att tolka e-postmeddelandet."
 
 #: src/parsecontroller.cpp:260
 msgid ""
 "Data is not integrity protected. Decrypting it could be a security problem. "
 "(no MDC)"
 msgstr ""
-"Data är inte integritetsskyddade. Att dekryptera dem kan utgöra ett "
+"Data är inte integritetsskyddade. Att avkryptera dem kan utgöra ett "
 "säkerhetsproblem. (ingen MDC)"
 
 #: src/parsecontroller.cpp:272 src/parsecontroller.cpp:413
 msgid "Encrypted message (decryption not possible)"
-msgstr "Krypterat meddelande (dekryptering inte möjlig)"
+msgstr "Krypterat meddelande (avkryptering inte möjlig)"
 
 #: src/parsecontroller.cpp:414
 msgid ""
@@ -1212,9 +1225,9 @@ msgid ""
 "please see the debug tab in the options on how to report\n"
 "this for further improvement."
 msgstr ""
-"Om dessa data inte ser ut som ett krypterat meddelande, se fliken Debug i "
-"alternativmenyn för information om hur du rapporterar detta för vidare "
-"förbättring."
+"Om dessa data inte ser ut som ett krypterat meddelande,\n"
+"se fliken Felsök i alternativmenyn för information om hur\n"
+"du rapporterar detta för vidare förbättring."
 
 #: src/parsecontroller.cpp:503
 #, c-format
@@ -1236,7 +1249,9 @@ msgid ""
 "Click here to learn more."
 msgstr ""
 "Du kan inte vara säker på vem som har skickat, ändrat och läst meddelandet "
-"under överföringen. Klicka här för mer information."
+"under överföringen.\n"
+"\n"
+"Klicka här för mer information."
 
 #: src/ribbon-callbacks.cpp:759
 #, c-format
@@ -1245,9 +1260,9 @@ msgid ""
 "There is no additional information available if it was actually sent by '%s' "
 "or if someone faked the sender address."
 msgstr ""
-"Meddelandet var inte kryptografiskt signerat. Det finns ingen ytterligare "
-"information tillgänglig om det faktiskt skickades av \"%s\" eller om någon "
-"förfalskade avsändaradressen."
+"Meddelandet var inte kryptografiskt signerat.\n"
+"Det finns ingen ytterligare information tillgänglig om det faktiskt "
+"skickades av \"%s\" eller om någon förfalskade avsändaradressen."
 
 #: src/ribbon-callbacks.cpp:774
 msgid ""
@@ -1262,8 +1277,8 @@ msgid ""
 "Could not find Kleopatra.\n"
 "Please reinstall Gpg4win with the Kleopatra component enabled."
 msgstr ""
-"Kunde inte hitta Kleopatra. Installera om Gpg4win med Kleopatra-komponenten "
-"aktiverad."
+"Kunde inte hitta Kleopatra.\n"
+"Installera om Gpg4win med Kleopatra-komponenten aktiverad."
 
 #: src/wks-helper.cpp:417
 #, c-format
@@ -1279,9 +1294,16 @@ msgid ""
 "\n"
 "Register automatically?"
 msgstr ""
-"En Pubkey-katalog finns tillgänglig för adressen: %s Registrera din Pubkey i "
-"den katalogen så att andra enkelt kan skicka krypterade e-postmeddelanden "
-"till dig. Det är säkert och gratis! Registrera automatiskt?"
+"En Pubkey-katalog finns tillgänglig för adressen:\n"
+"\n"
+"\t%s\n"
+"\n"
+"Registrera din Pubkey i den katalogen så att andra\n"
+"enkelt kan skicka krypterade e-postmeddelanden till dig.\n"
+"\n"
+"Det är säkert och gratis!\n"
+"\n"
+"Registrera automatiskt?"
 
 #: src/wks-helper.cpp:426
 msgid "GpgOL: Pubkey directory available!"
@@ -1296,8 +1318,8 @@ msgid ""
 "You might receive a confirmation challenge from\n"
 "your provider to finish the registration."
 msgstr ""
-"Du kan få en bekräftelseförfrågan från din leverantör för att slutföra "
-"registreringen."
+"Du kan få en bekräftelseförfrågan från din\n"
+"leverantör för att slutföra registreringen."
 
 #: src/wks-helper.cpp:523
 msgid "GpgOL: Registration request sent!"
@@ -1342,11 +1364,15 @@ msgid ""
 "Please ask your Administrators for assistance or switch\n"
 "to OpenPGP in the next dialog."
 msgstr ""
-"Inget S/MIME (X509) signaturcertifikat hittades. Din organisation har "
-"konfigurerat GpgOL för att signera utgående e-postmeddelanden med S/MIME-"
-"certifikat, men det finns inget S/MIME-certifikat konfigurerat för din e-"
-"postadress. Be dina administratörer om hjälp eller växla till OpenPGP i "
-"nästa dialogruta."
+"Inget S/MIME (X509) signaturcertifikat hittades.\n"
+"\n"
+"Din organisation har konfigurerat GpgOL för att signera\n"
+"utgående e-postmeddelanden med S/MIME-certifikat,\n"
+"men det finns inget S/MIME-certifikat konfigurerat för din\n"
+"e-postadress.\n"
+"\n"
+"Be dina administratörer om hjälp eller växla till OpenPGP\n"
+"i nästa dialogruta."
 
 #: src/cryptcontroller.cpp:740
 msgid ""
@@ -1355,17 +1381,19 @@ msgid ""
 "The configured encryption key for drafts could not be found.\n"
 "Please check your configuration or turn off draft encryption in the settings."
 msgstr ""
-"Kryptering av utkast misslyckades. Den konfigurerade krypteringsnyckeln för "
-"utkast kunde inte hittas. Kontrollera din konfiguration eller inaktivera "
-"kryptering av utkast i inställningarna."
+"Kryptering av utkast misslyckades.\n"
+"\n"
+"Den konfigurerade krypteringsnyckeln för utkast kunde inte hittas.\n"
+"Kontrollera din konfiguration eller inaktivera kryptering av utkast i "
+"inställningarna."
 
 #: src/cryptcontroller.cpp:814
 msgid "Resolving recipients..."
-msgstr "Löser mottagare..."
+msgstr "Slår upp mottagare..."
 
 #: src/cryptcontroller.cpp:818
 msgid "Resolving signers..."
-msgstr "Lösa signatärer..."
+msgstr "Slår upp signerare..."
 
 #: src/cryptcontroller.cpp:1682
 msgid "Encrypting..."
@@ -1373,7 +1401,7 @@ msgstr "Krypterar..."
 
 #: src/cryptcontroller.cpp:1686
 msgid "Signing..."
-msgstr "Undertecknande..."
+msgstr "Signerar..."
 
 #: src/attachment.cpp:263
 msgid "unknown embedded message"

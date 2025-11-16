@@ -25,7 +25,7 @@ msgstr ""
 "Project-Id-Version: gnupg trunk\n"
 "Report-Msgid-Bugs-To: translations@gnupg.org\n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-11-15 20:25+0100\n"
+"PO-Revision-Date: 2025-11-16 18:14+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -33,6 +33,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Launchpad-Export-Date: 2025-11-16 10:12+0000\n"
 "X-Generator: Poedit 3.8\n"
 
 #, c-format
@@ -63,8 +64,6 @@ msgstr "PIN-kod:"
 msgid "|pinentry-label|_Save in password manager"
 msgstr "_Spara i lösenordshanterare"
 
-#, fuzzy
-#| msgid "Do you really want to delete the selected keys? (y/N) "
 msgid "Do you really want to make your passphrase visible on the screen?"
 msgstr "Vill du verkligen att din lösenfras ska synas på skärmen?"
 
@@ -90,14 +89,13 @@ msgstr "Föreslå"
 #. will be used.  The strcmp thingy is there to detect a
 #. non-translated string.
 msgid "pinentry.genpin.tooltip"
-msgstr ""
+msgstr "Skapa ett förslag på ett bra lösenord."
 
 #. TRANSLATORS: This is a text shown by pinentry if the option
 #. for formatted passphrase is enabled.  The length is
 #. limited to about 900 characters.
-#, fuzzy
 msgid "Note: The blanks are not part of the passphrase."
-msgstr "Observera: Blanketterna ingår inte i lösenordet."
+msgstr "Observera: Mellanslagen ingår inte i lösenfrasen."
 
 #. TRANSLATORS: This is a text shown by pinentry as title of a dialog
 #. telling the user that the entered new passphrase does not satisfy
@@ -191,21 +189,18 @@ msgstr "fel när serienumret hämtades från kortet: %s\n"
 msgid "Please re-enter this passphrase"
 msgstr "Ange denna lösenfras igen"
 
-#, fuzzy, c-format
-#| msgid ""
-#| "Please enter the passphrase to protect the imported object within the "
-#| "GnuPG system."
+#, c-format
 msgid ""
 "Please enter the passphrase to protect the imported object within the %s "
 "system."
-msgstr "Ange lösenordet för att skydda det importerade objektet i %s-systemet."
+msgstr ""
+"Ange lösenfrasen för att skydda det importerade objektet i %s-systemet."
 
-#, fuzzy
 msgid ""
 "This key (or subkey) is not protected with a passphrase.  Please enter a new "
 "passphrase to export it."
 msgstr ""
-"Denna nyckel (eller undernyckel) är inte skyddad med en lösenfras. Ange en "
+"Denna nyckel (eller undernyckel) är inte skyddad med en lösenfras.  Ange en "
 "ny lösenfras för att exportera den."
 
 # Skyddssammandraget låter underligt
@@ -226,10 +221,9 @@ msgstr "kan inte öppna '%s': %s\n"
 msgid "no suitable card key found: %s\n"
 msgstr "ingen lämplig kortnyckel hittades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error getting stored flags: %s\n"
+#, c-format
 msgid "error getting list of cards: %s\n"
-msgstr "fel vid hämtning av kortlista: %s"
+msgstr "fel vid hämtning av kortlista: %s\n"
 
 #, c-format
 msgid ""
@@ -245,16 +239,16 @@ msgstr "Tillåt"
 msgid "Deny"
 msgstr "Neka"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Please enter the passphrase for the ssh key%%0A  %F%%0A  (%c)"
-msgstr "Ange lösenordet för ssh-nyckeln%%0A %F%%0A (%c)"
+msgstr "Ange lösenordet för ssh-nyckeln%%0A  %F%%0A  (%c)"
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Please enter a passphrase to protect the received secret key%%0A   %s%%0A   "
 "%s%%0Awithin gpg-agent's key storage"
 msgstr ""
-"Ange en lösenfras för att skydda den mottagna hemliga nyckeln%%0A %s%%0A "
+"Ange en lösenfras för att skydda den mottagna hemliga nyckeln%%0A   %s%%0A   "
 "%s%%0Ai gpg-agents nyckellagring"
 
 #, c-format
@@ -272,7 +266,6 @@ msgstr "PUK-kod"
 msgid "Reset Code"
 msgstr "Nollställ kod"
 
-#, fuzzy
 msgid "Push ACK button on card/token."
 msgstr "Tryck på ACK-knappen på kortet/token."
 
@@ -301,10 +294,9 @@ msgstr "PIN-kod repeterades inte korrekt; försök igen"
 msgid "Please enter the PIN%s%s%s to unlock the card"
 msgstr "Ange PIN-koden%s%s%s för att låsa upp kortet"
 
-#, fuzzy, c-format
-#| msgid "error writing to %s: %s\n"
+#, c-format
 msgid "error writing to pipe: %s\n"
-msgstr "fel vid skrivning till pipe: %s"
+msgstr "fel vid skrivning till rör: %s\n"
 
 msgid "Enter new passphrase"
 msgstr "Ange ny lösenfras"
@@ -350,10 +342,9 @@ msgid "Take this one anyway"
 msgstr "Ta den här ändå"
 
 # fel kapitalisering i originalet?
-#, fuzzy, c-format
-#| msgid "Please enter the passphrase to%0Ato protect your new key"
+#, c-format
 msgid "Please enter the passphrase to%0Aprotect your new key"
-msgstr "Ange lösenordet för att%0Askydda din nya nyckel"
+msgstr "Ange lösenfrasen för att%0Askydda din nya nyckel"
 
 msgid "Please enter the new passphrase"
 msgstr "Ange den nya lösenfrasen"
@@ -442,16 +433,12 @@ msgstr "|N|ställ in maximal livstid för SSH-nyckel till N sekunder"
 msgid "do not use the PIN cache when signing"
 msgstr "använd inte mellanlagring av PIN-kod vid signering"
 
-#, fuzzy
-#| msgid "do not allow the reuse of old passphrases"
 msgid "disallow the use of an external password cache"
-msgstr "förbjuda användning av en extern lösenordscache"
+msgstr "förbjud användning av en extern lösenordscache"
 
 # Antar att värdet inte ska översättas.
-#, fuzzy
-#| msgid "allow clients to mark keys as \"trusted\""
 msgid "disallow clients to mark keys as \"trusted\""
-msgstr "förbjuder klienter att markera nycklar som \"betrodda\""
+msgstr "förbjud klienter att markera nycklar som \"betrodda\""
 
 msgid "allow presetting passphrase"
 msgstr "tillåt förinställning av lösenfras"
@@ -477,31 +464,23 @@ msgstr "|N|låt mellanlagrad lösenfras gå ut efter N dagar"
 msgid "do not allow the reuse of old passphrases"
 msgstr "tillåt inte återanvändning av gamla lösenfraser"
 
-#, fuzzy
-#| msgid "Options controlling the security"
 msgid "Options controlling the PIN-Entry"
-msgstr "Alternativ för kontroll av PIN-kodsinmatning"
+msgstr "Flaggor för kontroll av PIN-kodsinmatning"
 
-#, fuzzy
 msgid "never use the PIN-entry"
-msgstr "använd aldrig PIN-koden"
+msgstr "använd aldrig PIN-inmatning"
 
-#, fuzzy
 msgid "disallow caller to override the pinentry"
-msgstr "förbjuder uppringaren att åsidosätta pinentry"
+msgstr "förbjud anroparen att åsidosätta pinkodsinmatning"
 
-#, fuzzy
-#| msgid "do not grab keyboard and mouse"
 msgid "let PIN-Entry grab keyboard and mouse"
 msgstr "låt PIN-Entry ta kontroll över tangentbord och mus"
 
 msgid "|PGM|use PGM as the PIN-Entry program"
 msgstr "|PRG|använd PRG som PIN-inmatningsprogrammet"
 
-#, fuzzy
-#| msgid "|N|set maximum PIN cache lifetime to N seconds"
 msgid "|N|set the Pinentry timeout to N seconds"
-msgstr "|N|ställ in tidsgränsen för Pinentry till N sekunder"
+msgstr "|N|ställ in tidsgränsen för PIN-inmatning till N sekunder"
 
 msgid "allow passphrase to be prompted through Emacs"
 msgstr "tillåt att lösenfrasen begärs via Emacs"
@@ -524,10 +503,9 @@ msgstr ""
 "Syntax: @GPG_AGENT@ [flaggor] [kommando [argument]]\n"
 "Hantering av hemliga nycklar för @GNUPG@\n"
 
-#, fuzzy, c-format
-#| msgid "invalid debug-level `%s' given\n"
+#, c-format
 msgid "invalid debug-level '%s' given\n"
-msgstr "ogiltig felsökningsnivå '%s' angiven"
+msgstr "ogiltig felsökningsnivå '%s' angiven\n"
 
 #, c-format
 msgid "selected digest algorithm is invalid\n"
@@ -537,10 +515,9 @@ msgstr "vald sammandragsalgoritm är ogiltig\n"
 msgid "reading options from '%s'\n"
 msgstr "läser flaggor från '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: \"%s\" is a deprecated option\n"
+#, c-format
 msgid "Note: '%s' is not considered an option\n"
-msgstr "Obs: '%s' betraktas inte som ett alternativ"
+msgstr "Observera: '%s' betraktas inte som en flagga\n"
 
 #, c-format
 msgid "WARNING: \"%s\" is a deprecated option\n"
@@ -550,10 +527,9 @@ msgstr "VARNING: inställningen \"%s\" är föråldrad\n"
 msgid "can't create socket: %s\n"
 msgstr "kan inte skapa uttag: %s\n"
 
-#, fuzzy, c-format
-#| msgid "socket name `%s' is too long\n"
+#, c-format
 msgid "socket name '%s' is too long\n"
-msgstr "sockelnamnet '%s' är för långt"
+msgstr "uttagsnamnet '%s' är för långt\n"
 
 #, c-format
 msgid "trying to steal socket from running %s\n"
@@ -563,40 +539,35 @@ msgstr "försöker stjäla uttag från körande %s\n"
 msgid "a gpg-agent is already running - not starting a new one\n"
 msgstr "en gpg-agent är redan igång - startar inte en till\n"
 
-#, fuzzy, c-format
-#| msgid "key %s: removed multiple subkey binding\n"
+#, c-format
 msgid "socket file removed - retrying binding\n"
-msgstr "socket-fil borttagen - försöker binda igen"
+msgstr "uttagsfilen togs bort - försöker binda igen\n"
 
 # Jag har valt att inte översätta nonce. Nonce är data eller information som endast används en gång
 #, c-format
 msgid "error getting nonce for the socket\n"
 msgstr "fel vid hämtning av nonce för uttaget\n"
 
-#, fuzzy, c-format
-#| msgid "error binding socket to `%s': %s\n"
+#, c-format
 msgid "error binding socket to '%s': %s\n"
-msgstr "fel vid anslutning till '%s': %s"
+msgstr "fel vid bindning av uttag till '%s': %s\n"
 
 # Extension är vad? FIXME
-#, fuzzy, c-format
-#| msgid "Warning: unsafe permissions on %s \"%s\"\n"
+#, c-format
 msgid "can't set permissions of '%s': %s\n"
-msgstr "kan inte ställa in behörigheter för '%s': %s"
+msgstr "kan inte ställa in behörigheter för '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "listening on socket `%s'\n"
+#, c-format
 msgid "listening on socket '%s'\n"
-msgstr "lyssnar på socket '%s'"
+msgstr "lyssnar på uttaget '%s'\n"
 
 #, c-format
 msgid "can't create directory '%s': %s\n"
 msgstr "kan inte skapa katalogen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "directory `%s' created\n"
+#, c-format
 msgid "directory '%s' created\n"
-msgstr "katalog '%s' skapad"
+msgstr "katalogen '%s' skapades\n"
 
 #, c-format
 msgid "stat() failed for '%s': %s\n"
@@ -716,34 +687,29 @@ msgstr "fel vid fråga efter lösenfrasen: %s\n"
 msgid "error opening '%s': %s\n"
 msgstr "fel vid öppning av '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "file `%s', line %d: %s\n"
+#, c-format
 msgid "file '%s', line %d: %s\n"
-msgstr "fil '%s', rad %d: %s"
+msgstr "filen '%s', rad %d: %s\n"
 
-#, fuzzy, c-format
-#| msgid "statement \"%s\" ignored in `%s', line %d\n"
+#, c-format
 msgid "statement \"%s\" ignored in '%s', line %d\n"
-msgstr "uttrycket \"%s\" ignoreras i '%s', rad %d"
+msgstr "villkoret \"%s\" ignoreras i '%s', rad %d\n"
 
-#, fuzzy, c-format
-#| msgid "system trustlist `%s' not available\n"
+#, c-format
 msgid "system trustlist '%s' not available\n"
-msgstr "system trustlist '%s' inte tillgänglig"
+msgstr "systemets trustlist '%s' inte tillgänglig\n"
 
 #, c-format
 msgid "bad fingerprint in '%s', line %d\n"
 msgstr "felaktigt fingeravtryck i '%s', rad %d\n"
 
-#, fuzzy, c-format
-#| msgid "invalid keyflag in `%s', line %d\n"
+#, c-format
 msgid "invalid keyflag in '%s', line %d\n"
-msgstr "ogiltig nyckelflagga i '%s', rad %d"
+msgstr "ogiltig nyckelflagga i '%s', rad %d\n"
 
-#, fuzzy, c-format
-#| msgid "error reading `%s', line %d: %s\n"
+#, c-format
 msgid "error reading '%s', line %d: %s\n"
-msgstr "fel vid läsning av '%s', rad %d: %s"
+msgstr "fel vid läsning av '%s', rad %d: %s\n"
 
 #, c-format
 msgid "error reading list of trusted root certificates\n"
@@ -816,31 +782,28 @@ msgstr "Ändra lösenfras"
 msgid "I'll change it later"
 msgstr "Jag ändrar den senare"
 
-#, fuzzy, c-format
-#| msgid "receiving line failed: %s\n"
+#, c-format
 msgid "Unprotecting key failed: %s\n"
-msgstr "Avskydda nyckel misslyckades: %s"
+msgstr "Avskyddande av nyckel misslyckades: %s\n"
 
 msgid "Please insert the card with serial number"
 msgstr "Mata in kortet med serienummer"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Requested the use of key%%0A  %s%%0A  %s%%0ADo you want to allow this?"
-msgstr "Begärde användning av nyckel%%0A %s%%0A %s%%0AVill du tillåta detta?"
+msgstr ""
+"Begärde användning av nyckeln%%0A  %s%%0A  %s%%0AVill du tillåta detta?"
 
-#, fuzzy, c-format
-#| msgid "Do you really want to delete the selected keys? (y/N) "
+#, c-format
 msgid ""
 "Do you really want to delete the key identified by keygrip%%0A  %s%%0A  "
 "%%C%%0A?"
 msgstr ""
-"Vill du verkligen ta bort nyckeln som identifieras av keygrip%%0A %s%%0A "
+"Vill du verkligen ta bort nyckeln som identifieras av keygrip%%0A  %s%%0A  "
 "%%C%%0A?"
 
-#, fuzzy
-#| msgid "enable key"
 msgid "Delete key"
-msgstr "Radera tangent"
+msgstr "Ta bort nyckel"
 
 msgid ""
 "Warning: This key is also listed for use with SSH!\n"
@@ -857,10 +820,9 @@ msgstr "DSA kräver att hashlängden är delbar med 8 bitar\n"
 msgid "%s key uses an unsafe (%u bit) hash\n"
 msgstr "%s-nyckeln använder en osäker hash (%u bitar)\n"
 
-#, fuzzy, c-format
-#| msgid "a %u bit hash is not valid for a %u bit %s key\n"
+#, c-format
 msgid "a %zu bit hash is not valid for a %u bit %s key\n"
-msgstr "en %zu bitars hash är inte giltig för en %u bitars %s nyckel"
+msgstr "en %zu-bitars hash är inte giltig för en %u-bitars %s-nyckel\n"
 
 #, c-format
 msgid "checking created signature failed: %s\n"
@@ -870,29 +832,25 @@ msgstr "kontroll av den skapade signaturen misslyckades: %s\n"
 msgid "secret key parts are not available\n"
 msgstr "de hemliga nyckeldelarna är inte tillgängliga\n"
 
-#, fuzzy, c-format
-#| msgid "protection algorithm %d%s is not supported\n"
+#, c-format
 msgid "public key algorithm %d (%s) is not supported\n"
-msgstr "offentlig nyckelalgoritm %d (%s) stöds inte"
+msgstr "publik nyckelalgoritm %d (%s) stöds inte\n"
 
-#, fuzzy, c-format
-#| msgid "protection algorithm %d%s is not supported\n"
+#, c-format
 msgid "protection algorithm %d (%s) is not supported\n"
-msgstr "skyddsalgoritm %d (%s) stöds inte"
+msgstr "skyddsalgoritm %d (%s) stöds inte\n"
 
-#, fuzzy, c-format
-#| msgid "protection algorithm %d%s is not supported\n"
+#, c-format
 msgid "protection hash algorithm %d (%s) is not supported\n"
-msgstr "skyddshashalgoritm %d (%s) stöds inte"
+msgstr "skyddshashalgoritm %d (%s) stöds inte\n"
 
 #, c-format
 msgid "error creating a pipe: %s\n"
 msgstr "fel när ett rör skapades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error creating a pipe: %s\n"
+#, c-format
 msgid "error creating a stream for a pipe: %s\n"
-msgstr "fel vid skapande av ström för rörledning: %s"
+msgstr "fel vid skapande av ström för ett rör: %s\n"
 
 #, c-format
 msgid "can't connect to '%s': %s\n"
@@ -974,14 +932,13 @@ msgstr "fel vid allokering av tillräckligt mycket minne: %s\n"
 msgid "%s:%u: obsolete option \"%s\" - it has no effect\n"
 msgstr "%s:%u: föråldrad flagga \"%s\" - den har ingen effekt\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: \"%s\" is an obsolete option - it has no effect\n"
+#, c-format
 msgid "WARNING: \"%s%s\" is an obsolete option - it has no effect\n"
-msgstr "VARNING: \"%s%s\" är ett föråldrat alternativ – det har ingen effekt"
+msgstr "VARNING: \"%s%s\" är en föråldrad flagga – den har ingen effekt\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unknown debug flag '%s' ignored\n"
-msgstr "okänd felsökningsflagga '%s' ignorerad"
+msgstr "okänd felsökningsflagga '%s' ignorerad\n"
 
 #, c-format
 msgid "waiting for the dirmngr to come up ... (%ds)\n"
@@ -995,36 +952,31 @@ msgstr "väntar på att keyboxd ska komma igång ... (%ds)\n"
 msgid "waiting for the agent to come up ... (%ds)\n"
 msgstr "väntar på att agenten ska komma igång ... (%ds)\n"
 
-#, fuzzy, c-format
-#| msgid "can't connect to the dirmngr - trying fall back\n"
+#, c-format
 msgid "connection to the dirmngr established\n"
-msgstr "anslutning till dirmngr upprättad"
+msgstr "anslutning till dirmngr etablerad\n"
 
-#, fuzzy, c-format
-#| msgid "can't connect to the dirmngr - trying fall back\n"
+#, c-format
 msgid "connection to the keyboxd established\n"
-msgstr "anslutning till keyboxd upprättad"
+msgstr "anslutning till keyboxd etablerad\n"
 
-#, fuzzy, c-format
-#| msgid "can't connect to the dirmngr - trying fall back\n"
+#, c-format
 msgid "connection to the agent established\n"
-msgstr "anslutning till agenten upprättad"
+msgstr "anslutning till agenten etablerad\n"
 
 #, c-format
 msgid "no running %s - starting '%s'\n"
 msgstr "ingen körande %s - startar '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "can't connect to the dirmngr - trying fall back\n"
+#, c-format
 msgid "connection to the agent is in restricted mode\n"
-msgstr "anslutningen till agenten är i begränsat läge"
+msgstr "anslutningen till agenten är i begränsat läge\n"
 
-#, fuzzy, c-format
-#| msgid "error creating keyring `%s': %s\n"
+#, c-format
 msgid "error getting version from '%s': %s\n"
-msgstr "fel vid hämtning av version från '%s': %s"
+msgstr "fel vid hämtning av version från '%s': %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "server '%s' is older than us (%s < %s)"
 msgstr "servern '%s' är äldre än oss (%s < %s)"
 
@@ -1032,14 +984,14 @@ msgstr "servern '%s' är äldre än oss (%s < %s)"
 msgid "WARNING: %s\n"
 msgstr "VARNING: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Note: Outdated servers may lack important security fixes.\n"
-msgstr "Obs! Föråldrade servrar kan sakna viktiga säkerhetsuppdateringar"
+msgstr ""
+"Observera: Föråldrade servrar kan sakna viktiga säkerhetsuppdateringar.\n"
 
-#, fuzzy, c-format
-#| msgid "Please use the command \"toggle\" first.\n"
+#, c-format
 msgid "Note: Use the command \"%s\" to restart them.\n"
-msgstr "Obs: Använd kommandot \"%s\" för att starta om dem"
+msgstr "Observera: Använd kommandot \"%s\" för att starta om dem.\n"
 
 #. TRANSLATORS: Copy the prefix between the vertical bars
 #. verbatim.  It will not be printed.
@@ -1174,8 +1126,7 @@ msgstr "Gpg-Agent användbar"
 msgid "Dirmngr usable"
 msgstr "Dirmngr användbar"
 
-#, fuzzy, c-format
-#| msgid "No help available for `%s'."
+#, c-format
 msgid "No help available for '%s'."
 msgstr "Ingen hjälp tillgänglig för '%s'."
 
@@ -1190,13 +1141,13 @@ msgstr "[ingen]"
 msgid "invalid radix64 character %02x skipped\n"
 msgstr "ogiltigt radix64-tecken %02x hoppades över\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Sorry, we are in batchmode - can't get input\n"
-msgstr "Tyvärr, vi är i batchläge – kan inte ta emot inmatningar"
+msgstr "Tyvärr, vi är i batchläge – kan inte ta emot inmatningar\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Sorry, no terminal at all requested - can't get input\n"
-msgstr "Tyvärr, ingen terminal begärd – kan inte få inmatning"
+msgstr "Tyvärr, ingen terminal alls begärd – kan inte få inmatning\n"
 
 #, c-format
 msgid "too many errors; giving up\n"
@@ -1206,28 +1157,25 @@ msgstr "för många fel; ger upp\n"
 msgid "Control-D detected\n"
 msgstr "Control-D upptäcktes\n"
 
-#, fuzzy, c-format
-#| msgid "conversion from `%s' to `%s' not available\n"
+#, c-format
 msgid "conversion from '%s' to '%s' not available\n"
-msgstr "konvertering från '%s' till '%s' är inte tillgänglig"
+msgstr "konvertering från '%s' till '%s' är inte tillgänglig\n"
 
 #, c-format
 msgid "iconv_open failed: %s\n"
 msgstr "iconv_open misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "conversion from `%s' to `%s' failed: %s\n"
+#, c-format
 msgid "conversion from '%s' to '%s' failed: %s\n"
-msgstr "konvertering från '%s' till '%s' misslyckades: %s"
+msgstr "konvertering från '%s' till '%s' misslyckades: %s\n"
 
 #, c-format
 msgid "failed to create temporary file '%s': %s\n"
 msgstr "misslyckades med att skapa den tillfälliga filen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing to `%s': %s\n"
+#, c-format
 msgid "error writing to '%s': %s\n"
-msgstr "fel vid skrivning till '%s': %s"
+msgstr "fel vid skrivning till '%s': %s\n"
 
 #, c-format
 msgid "removing stale lockfile (created by %d)\n"
@@ -1240,10 +1188,9 @@ msgstr "väntar på lås (hålls av %d%s) %s...\n"
 msgid "(deadlock?) "
 msgstr "(dödläge?) "
 
-#, fuzzy, c-format
-#| msgid "lock `%s' not made: %s\n"
+#, c-format
 msgid "lock '%s' not made: %s\n"
-msgstr "lås '%s' inte gjort: %s"
+msgstr "låset '%s' inte genomfört: %s\n"
 
 #, c-format
 msgid "waiting for lock %s...\n"
@@ -1365,18 +1312,14 @@ msgstr "ett notationsnamn får inte innehålla fler än ett \"@\"-tecken\n"
 msgid "a notation value must not use any control characters\n"
 msgstr "ett notationsvärde får inte använda några styrtecken\n"
 
-#, fuzzy, c-format
-#| msgid "a notation name must not contain more than one '@' character\n"
+#, c-format
 msgid "a notation name may not contain an '=' character\n"
-msgstr "ett notationsnamn får inte innehålla tecknet '='"
+msgstr "ett notationsnamn får inte innehålla tecknet '='\n"
 
-#, fuzzy, c-format
-#| msgid ""
-#| "a notation name must have only printable characters or spaces, and end "
-#| "with an '='\n"
+#, c-format
 msgid "a notation name must have only printable characters or spaces\n"
 msgstr ""
-"ett notationsnamn får endast innehålla utskrivbara tecken eller mellanslag"
+"ett notationsnamn får endast innehålla utskrivbara tecken eller mellanslag\n"
 
 #, c-format
 msgid "WARNING: invalid notation data found\n"
@@ -1405,14 +1348,13 @@ msgstr "problem med agenten: %s\n"
 msgid "no dirmngr running in this session\n"
 msgstr "ingen dirmngr körs i denna session\n"
 
-#, fuzzy, c-format
-#| msgid "you may not use %s while in %s mode\n"
+#, c-format
 msgid "keyserver option \"honor-keyserver-url\" may not be used in Tor mode\n"
 msgstr ""
-"keyserver-alternativet \"honor-keyserver-url\" får inte användas i Tor-läge"
+"keyserver-flaggan \"honor-keyserver-url\" får inte användas i Tor-läge\n"
 
 msgid "WKD uses a cached result"
-msgstr "WKD använder ett cachat resultat"
+msgstr "WKD använder ett mellanlagrat resultat"
 
 msgid "Tor is not running"
 msgstr "Tor körs inte"
@@ -1420,21 +1362,15 @@ msgstr "Tor körs inte"
 msgid "Tor is not properly configured"
 msgstr "Tor är inte korrekt konfigurerad"
 
-#, fuzzy
-#| msgid "invalid fingerprint"
 msgid "DNS is not properly configured"
-msgstr "DNS är inte korrekt konfigurerat"
+msgstr "DNS är inte korrekt konfigurerad"
 
-#, fuzzy
 msgid "unacceptable HTTP redirect from server"
 msgstr "oacceptabel HTTP-omdirigering från servern"
 
-#, fuzzy
 msgid "unacceptable HTTP redirect from server was cleaned up"
 msgstr "oacceptabel HTTP-omdirigering från servern har rensats bort"
 
-#, fuzzy
-#| msgid "generate a revocation certificate"
 msgid "server uses an invalid certificate"
 msgstr "servern använder ett ogiltigt certifikat"
 
@@ -1468,11 +1404,9 @@ msgstr "Vad väljer du? "
 msgid "[not set]"
 msgstr "[inte inställt]"
 
-#, fuzzy
 msgid "Mr."
 msgstr "Hr."
 
-#, fuzzy
 msgid "Ms."
 msgstr "Frk."
 
@@ -1482,22 +1416,19 @@ msgstr "inte tvingad"
 msgid "forced"
 msgstr "tvingad"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Please try command \"%s\" if the listing does not look correct\n"
-msgstr "Om listningen inte ser korrekt ut, prova kommandot \"%s\""
+msgstr "Prova kommandot \"%s\" om listningen inte ser korrekt ut\n"
 
-#, fuzzy, c-format
-#| msgid ""
-#| "Please note that the factory settings of the PINs are\n"
-#| "   PIN = `%s'     Admin PIN = `%s'\n"
-#| "You should change them using the command --change-pin\n"
+#, c-format
 msgid ""
 "Please note that the factory settings of the PINs are\n"
 "   PIN = '%s'     Admin PIN = '%s'\n"
 "You should change them using the command --change-pin\n"
 msgstr ""
-"Observera att fabriksinställningarna för PIN-koderna är PIN = '%s' Admin PIN "
-"= '%s' Du bör ändra dem med kommandot --change-pin"
+"Observera att fabriksinställningarna för PIN-koderna är\n"
+"   PIN = '%s'     Admin PIN = '%s'\n"
+"Du bör ändra dem med kommandot --change-pin\n"
 
 msgid "Error: Only plain ASCII is currently allowed.\n"
 msgstr "Fel: Endast ren ASCII tillåts för närvarande.\n"
@@ -1525,10 +1456,9 @@ msgstr "Url för att hämta publik nyckel: "
 msgid "error reading '%s': %s\n"
 msgstr "fel vid läsning av '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing `%s': %s\n"
+#, c-format
 msgid "error writing '%s': %s\n"
-msgstr "fel vid skrivning av '%s': %s"
+msgstr "fel vid skrivning av '%s': %s\n"
 
 msgid "Login data (account name): "
 msgstr "Inloggningsdata (kontonamn): "
@@ -1547,9 +1477,8 @@ msgstr "Fel: ogiltig längd på inställningssträngen\n"
 msgid "Error: invalid characters in preference string.\n"
 msgstr "Fel: ogiltiga tecken i inställningssträngen.\n"
 
-#, fuzzy
 msgid "Salutation (M = Mr., F = Ms., or space): "
-msgstr "Hälsningsfras (M = herr, F = fru eller mellanslag):"
+msgstr "Hälsningsfras (M = Herr, F = Fru eller mellanslag): "
 
 msgid "Error: invalid response.\n"
 msgstr "Fel: ogiltigt svar.\n"
@@ -1575,21 +1504,17 @@ msgstr "fel vid hämtning av aktuell nyckelinformation: %s\n"
 msgid "Replace existing key? (y/N) "
 msgstr "Ersätt existerande nyckel? (j/N) "
 
-#, fuzzy
-#| msgid ""
-#| "Note: There is no guarantee that the card supports the requested size.\n"
-#| "      If the key generation does not succeed, please check the\n"
-#| "      documentation of your card to see what sizes are allowed.\n"
 msgid ""
 "Note: There is no guarantee that the card supports the requested\n"
 "      key type or size.  If the key generation does not succeed,\n"
 "      please check the documentation of your card to see which\n"
 "      key types and sizes are supported.\n"
 msgstr ""
-"Observera: Det finns ingen garanti för att kortet stöder den begärda "
-"nyckeltypen eller storleken. Om nyckelgenereringen inte lyckas, kontrollera "
-"dokumentationen för ditt kort för att se vilka nyckeltyper och storlekar som "
-"stöds"
+"Observera: Det finns ingen garanti för att kortet stöder den begärda\n"
+"      nyckeltypen eller storleken.  Om nyckelgenereringen inte lyckas,\n"
+"      kontrollera dokumentationen för ditt kort för att se vilka "
+"nyckeltyper\n"
+"      och storlekar som stöds.\n"
 
 #, c-format
 msgid "What keysize do you want? (%u) "
@@ -1603,14 +1528,11 @@ msgstr "avrundade uppåt till %u bitar\n"
 msgid "%s keysizes must be in the range %u-%u\n"
 msgstr "%s nyckelstorlekar måste vara inom intervallet %u-%u\n"
 
-#, fuzzy
 msgid "Changing card key attribute for: "
-msgstr "Ändra kortnyckelns attribut för:"
+msgstr "Ändra kortnyckelns attribut för: "
 
-#, fuzzy
-#| msgid "   (1) Signature key\n"
 msgid "Signature key\n"
-msgstr "Signaturnyckel"
+msgstr "Signaturnyckel\n"
 
 msgid "Encryption key\n"
 msgstr "Krypteringsnyckel\n"
@@ -1645,15 +1567,13 @@ msgstr ""
 "Kortet kommer nu att konfigureras om för att generera en nyckel av typen: "
 "%s\n"
 
-#, fuzzy, c-format
-#| msgid "error changing size of key %d to %u bits: %s\n"
+#, c-format
 msgid "error changing key attribute for key %d: %s\n"
-msgstr "fel vid ändring av nyckelattribut för nyckel %d: %s"
+msgstr "fel vid ändring av nyckelattribut för nyckel %d: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error getting current key info: %s\n"
+#, c-format
 msgid "error getting card info: %s\n"
-msgstr "fel vid hämtning av kortinformation: %s"
+msgstr "fel vid hämtning av kortinformation: %s\n"
 
 #, c-format
 msgid "This command is not supported by this card\n"
@@ -1684,32 +1604,29 @@ msgstr "   (3) Autentiseringsnyckel\n"
 msgid "Please select where to store the key:\n"
 msgstr "Välj var nyckeln ska sparas:\n"
 
-#, fuzzy, c-format
-#| msgid "read failed: %s\n"
+#, c-format
 msgid "KEYTOCARD failed: %s\n"
-msgstr "KEYTOCARD misslyckades: %s"
+msgstr "KEYTOCARD misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "NOTE: keys are already stored on the card!\n"
+#, c-format
 msgid "Note: This command destroys all keys stored on the card!\n"
-msgstr "Obs! Detta kommando raderar alla nycklar som finns lagrade på kortet!"
+msgstr ""
+"Observera: Detta kommando tar bort alla nycklar som finns lagrade på "
+"kortet!\n"
 
 msgid "Continue? (y/N) "
 msgstr "Fortsätta? (j/N) "
 
-#, fuzzy
 msgid "Really do a factory reset? (enter \"yes\") "
-msgstr "Verkligen återställa fabriksinställningarna? (ange \"ja\")"
+msgstr "Verkligen göra en fabriksåterställning? (ange \"ja\") "
 
-#, fuzzy, c-format
-#| msgid "error closing %s: %s\n"
+#, c-format
 msgid "error for setup KDF: %s\n"
-msgstr "fel vid inställning av KDF: %s"
+msgstr "fel vid konfiguration av KDF: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error closing %s: %s\n"
+#, c-format
 msgid "error for setup UIF: %s\n"
-msgstr "fel vid installation av UIF: %s"
+msgstr "fel vid konfiguration av UIF: %s\n"
 
 msgid "quit this menu"
 msgstr "avsluta denna meny"
@@ -1739,8 +1656,6 @@ msgstr "ändra inloggningsnamnet"
 msgid "change the language preferences"
 msgstr "ändra språkinställningarna"
 
-#, fuzzy
-#| msgid "change card holder's sex"
 msgid "change card holder's salutation"
 msgstr "ändra kortinnehavarens tilltal"
 
@@ -1763,24 +1678,17 @@ msgstr "validera PIN-koden och lista allt data"
 msgid "unblock the PIN using a Reset Code"
 msgstr "lås upp PIN-koden med en nollställningskod"
 
-#, fuzzy
 msgid "destroy all keys and data"
 msgstr "förstör alla nycklar och data"
 
-#, fuzzy
-#| msgid "|NAME|use NAME as default recipient"
 msgid "setup KDF for PIN authentication (on/single/off)"
-msgstr "ställ in KDF för PIN-autentisering (på/enkel/av)"
+msgstr "konfigurera KDF för PIN-autentisering (on/single/off)"
 
 # originalet borde ha ett value
-#, fuzzy
-#| msgid "change the ownertrust"
 msgid "change the key attribute"
 msgstr "ändra nyckelattributet"
 
 # originalet borde ha ett value
-#, fuzzy
-#| msgid "change the ownertrust"
 msgid "change the User Interaction Flag"
 msgstr "ändra flaggan för användarinteraktion"
 
@@ -1803,10 +1711,9 @@ msgstr "Administrationskommandon tillåts inte\n"
 msgid "Invalid command  (try \"help\")\n"
 msgstr "Ogiltigt kommando (prova med \"help\")\n"
 
-#, fuzzy, c-format
-#| msgid "key operation not possible: %s\n"
+#, c-format
 msgid "modifying the recipients is not possible: %s\n"
-msgstr "det är inte möjligt att ändra mottagarna: %s"
+msgstr "ändring av mottagarna är inte möjligt: %s\n"
 
 msgid "decryption failed"
 msgstr "avkryptering misslyckades"
@@ -1840,25 +1747,24 @@ msgstr "kan inte göra så i satsläge utan \"--yes\"\n"
 msgid "(unless you specify the key by fingerprint)\n"
 msgstr "(om du inte anger nyckeln med hjälp av fingeravtrycket)\n"
 
-#, fuzzy
 msgid "Note: The public primary key and all its subkeys will be deleted.\n"
 msgstr ""
-"Observera: Den offentliga primära nyckeln och alla dess undernycklar kommer "
-"att raderas"
+"Observera: Den publika primära nyckeln och alla dess undernycklar kommer att "
+"raderas.\n"
 
-#, fuzzy
 msgid "Note: Only the shown public subkey will be deleted.\n"
-msgstr "Obs! Endast den visade offentliga undernyckeln kommer att raderas"
+msgstr ""
+"Observera: Endast den visade publika undernyckeln kommer att raderas.\n"
 
-#, fuzzy
 msgid "Note: Only the secret part of the shown primary key will be deleted.\n"
 msgstr ""
-"Obs! Endast den hemliga delen av den visade primärnyckeln kommer att raderas"
+"Observera: Endast den hemliga delen av den visade primärnyckeln kommer att "
+"raderas.\n"
 
-#, fuzzy
 msgid "Note: Only the secret part of the shown subkey will be deleted.\n"
 msgstr ""
-"Obs! Endast den hemliga delen av den visade undernyckeln kommer att raderas"
+"Observera: Endast den hemliga delen av den visade undernyckeln kommer att "
+"raderas.\n"
 
 msgid "Delete this key from the keyring? (y/N) "
 msgstr "Ta bort denna nyckel från nyckelringen? (j/N) "
@@ -1866,10 +1772,9 @@ msgstr "Ta bort denna nyckel från nyckelringen? (j/N) "
 msgid "This is a secret key! - really delete? (y/N) "
 msgstr "Detta är en hemlig nyckel! - verkligen ta bort den? (j/N) "
 
-#, fuzzy, c-format
-#| msgid "deleting certificate \"%s\" failed: %s\n"
+#, c-format
 msgid "deleting secret %s failed: %s\n"
-msgstr "radering av hemlighet %s misslyckades: %s"
+msgstr "borttagning av hemlighet %s misslyckades: %s\n"
 
 msgid "key"
 msgstr "nyckel"
@@ -1908,33 +1813,29 @@ msgstr ""
 "VARNING: tvinga symmetriskt chiffer med %s (%d) strider mot "
 "mottagarinställningarna\n"
 
-#, fuzzy, c-format
-#| msgid "you may not use cipher algorithm `%s' while in %s mode\n"
+#, c-format
 msgid "cipher algorithm '%s' may not be used for encryption\n"
-msgstr "krypteringsalgoritmen '%s' får inte användas för kryptering"
+msgstr "chifferalgoritmen '%s' får inte användas för kryptering\n"
 
 #, c-format
 msgid "(use option \"%s\" to override)\n"
 msgstr "(använd flaggan \"%s\" för att åsidosätta)\n"
 
-#, fuzzy, c-format
-#| msgid "you may not use cipher algorithm `%s' while in %s mode\n"
+#, c-format
 msgid "cipher algorithm '%s' may not be used in %s mode\n"
-msgstr "krypteringsalgoritmen '%s' får inte användas i läge %s"
+msgstr "chifferalgoritmen '%s' får inte användas i %s-läge\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: \"%s\" is an obsolete option - it has no effect\n"
+#, c-format
 msgid "WARNING: key %s is not suitable for encryption in %s mode\n"
-msgstr "VARNING: nyckel %s är inte lämplig för kryptering i läge %s"
+msgstr "VARNING: nyckeln %s är inte lämplig för kryptering i %s-läge\n"
 
 #, c-format
 msgid "error creating passphrase: %s\n"
 msgstr "fel när lösenfras skapades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "can't use a symmetric ESK packet due to the S2K mode\n"
+#, c-format
 msgid "can't use a SKESK packet due to the S2K mode\n"
-msgstr "kan inte använda ett SKESK-paket på grund av S2K-läget"
+msgstr "kan inte använda ett SKESK-paket på grund av S2K-läget\n"
 
 #, c-format
 msgid "using cipher %s.%s\n"
@@ -1948,10 +1849,9 @@ msgstr "VARNING: '%s' är en tom fil\n"
 msgid "'%s' already compressed\n"
 msgstr "'%s' redan komprimerad\n"
 
-#, fuzzy, c-format
-#| msgid "you may not use digest algorithm `%s' while in %s mode\n"
+#, c-format
 msgid "digest algorithm '%s' may not be used in %s mode\n"
-msgstr "digest-algoritmen '%s' får inte användas i %s-läge"
+msgstr "digest-algoritmen '%s' får inte användas i %s-läge\n"
 
 #, c-format
 msgid "reading from '%s'\n"
@@ -1965,15 +1865,13 @@ msgstr ""
 "VARNING: tvinga komprimeringsalgoritmen %s (%d) strider mot "
 "mottagarinställningarna\n"
 
-#, fuzzy, c-format
-#| msgid "Number of recipients"
+#, c-format
 msgid "number of removed recipients: %u\n"
-msgstr "antal borttagna mottagare: %u"
+msgstr "antal borttagna mottagare: %u\n"
 
-#, fuzzy, c-format
-#| msgid "you may not use %s while in %s mode\n"
+#, c-format
 msgid "option '%s' may not be used in %s mode\n"
-msgstr "alternativet '%s' får inte användas i läge %s"
+msgstr "flaggan '%s' får inte användas i %s-läge\n"
 
 #, c-format
 msgid "already encrypted to %08lX\n"
@@ -2020,8 +1918,6 @@ msgstr "exportera endast återkallningscertifikat"
 msgid "use the GnuPG key backup format"
 msgstr "använd GnuPG-nyckelns säkerhetskopieringsformat"
 
-#, fuzzy
-#| msgid "exporting secret keys not allowed\n"
 msgid "export secret keys using the GnuPG format"
 msgstr "exportera hemliga nycklar med GnuPG-formatet"
 
@@ -2055,17 +1951,16 @@ msgstr "[Användaridentiteten hittades inte]"
 msgid "automatically retrieved '%s' via %s\n"
 msgstr "hämtade automatiskt '%s' via %s\n"
 
-#, fuzzy, c-format
-#| msgid "error retrieving `%s' via %s: %s\n"
+#, c-format
 msgid "error retrieving '%s' via %s: %s\n"
-msgstr "fel vid hämtning av '%s' via %s: %s"
+msgstr "fel vid hämtning av '%s' via %s: %s\n"
 
 msgid "No fingerprint"
 msgstr "Inget fingeravtryck"
 
-#, fuzzy, c-format
+#, c-format
 msgid "checking for a fresh copy of an expired key via %s\n"
-msgstr "söker efter en ny kopia av en utgången nyckel via %s"
+msgstr "letar efter en ny kopia av en utgången nyckel via %s\n"
 
 #, c-format
 msgid "secret key \"%s\" not found: %s\n"
@@ -2140,27 +2035,18 @@ msgstr "lista hemliga nycklar"
 msgid "generate a new key pair"
 msgstr "generera ett nytt nyckelpar"
 
-#, fuzzy
-#| msgid "generate a new key pair"
 msgid "quickly generate a new key pair"
-msgstr "snabbt generera ett nytt nyckelpar"
+msgstr "generera snabbt ett nytt nyckelpar"
 
-#, fuzzy
-#| msgid "generate a new key pair"
 msgid "quickly add a new user-id"
 msgstr "lägg snabbt till ett nytt användar-id"
 
-#, fuzzy
-#| msgid "generate a new key pair"
 msgid "quickly revoke a user-id"
-msgstr "snabbt återkalla ett användar-id"
+msgstr "återkalla snabbt ett användar-id"
 
-#, fuzzy
-#| msgid "generate a new key pair"
 msgid "quickly set a new expiration date"
-msgstr "snabbt ange ett nytt utgångsdatum"
+msgstr "ställ snabbt in ett nytt utgångsdatum"
 
-#, fuzzy
 msgid "full featured key pair generation"
 msgstr "fullständig generering av nyckelpar"
 
@@ -2182,10 +2068,8 @@ msgstr "signera snabbt en nyckel lokalt"
 msgid "quickly sign a key with a trust signature"
 msgstr "signera snabbt en nyckel med en betrodd signatur"
 
-#, fuzzy
-#| msgid "generate a new key pair"
 msgid "quickly revoke a key signature"
-msgstr "snabbt återkalla en nyckelsignatur"
+msgstr "återkalla snabbt en nyckelsignatur"
 
 msgid "sign a key"
 msgstr "signera en nyckel"
@@ -2256,15 +2140,11 @@ msgstr "gör inga ändringar"
 msgid "prompt before overwriting"
 msgstr "fråga innan överskrivning"
 
-#, fuzzy
-#| msgid "Options controlling the security"
 msgid "Options controlling the input"
-msgstr "Alternativ för att styra inmatningen"
+msgstr "Flaggor för kontroll av inmatningen"
 
-#, fuzzy
-#| msgid "Options controlling the diagnostic output"
 msgid "Options controlling the output"
-msgstr "Alternativ för att styra utdata"
+msgstr "Flaggor för kontroll av utmatningen"
 
 msgid "create ascii armored output"
 msgstr "skapa utdata med ett ascii-skal"
@@ -2275,31 +2155,23 @@ msgstr "|FIL|skriv utdata till FIL"
 msgid "|N|set compress level to N (0 disables)"
 msgstr "|N|ställ in komprimeringsnivån till N (0 för att inaktivera)"
 
-#, fuzzy
-#| msgid "Options controlling the interactivity and enforcement"
 msgid "Options controlling key import and export"
-msgstr "Alternativ för att styra import och export av nycklar"
+msgstr "Flaggor för kontroll av import och export av nycklar"
 
 msgid "|MECHANISMS|use MECHANISMS to locate keys by mail address"
 msgstr "|MEKANISMER|använd MEKANISMER för att hitta nycklar efter e-postadress"
 
-#, fuzzy
-#| msgid "import keys from a keyserver"
 msgid "import missing key from a signature"
 msgstr "importera saknad nyckel från en signatur"
 
-#, fuzzy
-#| msgid "list and check key signatures"
 msgid "include the public key in signatures"
-msgstr "inkludera den offentliga nyckeln i signaturer"
+msgstr "inkludera den publika nyckeln i signaturer"
 
 msgid "disable all access to the dirmngr"
 msgstr "inaktivera all åtkomst till dirmngr"
 
-#, fuzzy
-#| msgid "Options controlling the configuration"
 msgid "Options controlling key listings"
-msgstr "Alternativ för kontroll av viktiga listningar"
+msgstr "Flaggor för kontroll av nyckellistningar"
 
 msgid "Options to specify keys"
 msgstr "Flaggor för att ange nycklar"
@@ -2385,95 +2257,77 @@ msgid "conflicting commands\n"
 msgstr "motstridiga kommandon\n"
 
 # Vad betyder detta?
-#, fuzzy, c-format
-#| msgid "no = sign found in group definition `%s'\n"
+#, c-format
 msgid "no = sign found in group definition '%s'\n"
-msgstr "nej = tecken hittat i gruppdefinitionen '%s'"
+msgstr "inget =-tecken hittat i gruppdefinitionen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe ownership on homedir `%s'\n"
+#, c-format
 msgid "WARNING: unsafe ownership on homedir '%s'\n"
-msgstr "VARNING: osäker äganderätt till hemkatalogen '%s'"
+msgstr "VARNING: osäkert ägarskap på hemkatalogen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe ownership on configuration file `%s'\n"
+#, c-format
 msgid "WARNING: unsafe ownership on configuration file '%s'\n"
-msgstr "VARNING: osäker äganderätt till konfigurationsfilen '%s'"
+msgstr "VARNING: osäkert ägarskap på konfigurationsfilen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe ownership on extension `%s'\n"
+#, c-format
 msgid "WARNING: unsafe ownership on extension '%s'\n"
-msgstr "VARNING: osäker äganderätt till tillägget '%s'"
+msgstr "VARNING: osäkert ägarskap på utökningen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe permissions on homedir `%s'\n"
+#, c-format
 msgid "WARNING: unsafe permissions on homedir '%s'\n"
-msgstr "VARNING: osäkra behörigheter på hemkatalogen '%s'"
+msgstr "VARNING: osäkra behörigheter på hemkatalogen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe permissions on configuration file `%s'\n"
+#, c-format
 msgid "WARNING: unsafe permissions on configuration file '%s'\n"
-msgstr "VARNING: osäkra behörigheter för konfigurationsfilen '%s'"
+msgstr "VARNING: osäkra behörigheter för konfigurationsfilen '%s'\n"
 
 # Extension är vad? FIXME
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe permissions on extension `%s'\n"
+#, c-format
 msgid "WARNING: unsafe permissions on extension '%s'\n"
-msgstr "VARNING: osäkra behörigheter för tillägget '%s'"
+msgstr "VARNING: osäkra behörigheter för utökningen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe enclosing directory ownership on homedir `%s'\n"
+#, c-format
 msgid "WARNING: unsafe enclosing directory ownership on homedir '%s'\n"
 msgstr ""
-"VARNING: osäker äganderätt till omslutande katalog på hemkatalogen '%s'"
+"VARNING: osäkert ägarskap till omslutande katalog på hemkatalogen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid ""
-#| "WARNING: unsafe enclosing directory ownership on configuration file `%s'\n"
+#, c-format
 msgid ""
 "WARNING: unsafe enclosing directory ownership on configuration file '%s'\n"
 msgstr ""
-"VARNING: osäker äganderätt till omslutande katalog för konfigurationsfilen "
-"'%s'"
+"VARNING: osäkert ägarskap på omslutande katalog för konfigurationsfilen "
+"'%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe enclosing directory ownership on extension `%s'\n"
+#, c-format
 msgid "WARNING: unsafe enclosing directory ownership on extension '%s'\n"
-msgstr "VARNING: osäker ägarskap av omslutande katalog på tillägget '%s'"
+msgstr "VARNING: osäkert ägarskap för omslutande katalog på tillägget '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe enclosing directory permissions on homedir `%s'\n"
+#, c-format
 msgid "WARNING: unsafe enclosing directory permissions on homedir '%s'\n"
 msgstr ""
-"VARNING: osäkra behörigheter för omslutande katalog i hemkatalogen '%s'"
+"VARNING: osäkra behörigheter för omslutande katalog i hemkatalogen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid ""
-#| "WARNING: unsafe enclosing directory permissions on configuration file "
-#| "`%s'\n"
+#, c-format
 msgid ""
 "WARNING: unsafe enclosing directory permissions on configuration file '%s'\n"
 msgstr ""
 "VARNING: osäkra behörigheter för omgivande katalog för konfigurationsfilen "
-"'%s'"
+"'%s'\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: unsafe enclosing directory permissions on extension `%s'\n"
+#, c-format
 msgid "WARNING: unsafe enclosing directory permissions on extension '%s'\n"
-msgstr "VARNING: osäkra behörigheter för omslutande katalog på tillägget '%s'"
+msgstr ""
+"VARNING: osäkra behörigheter för omslutande katalog på utökningen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "unknown configuration item `%s'\n"
+#, c-format
 msgid "unknown configuration item '%s'\n"
-msgstr "okänt konfigurationselement '%s'"
+msgstr "okänd konfigurationspost '%s'\n"
 
 msgid "display photo IDs during key listings"
 msgstr "visa foto-id under nyckellistning"
 
-#, fuzzy
-#| msgid "show user ID validity during key listings"
 msgid "show key usage information during key listings"
-msgstr "visa viktig information om nycklar under nyckellistor"
+msgstr "visa användningsinformation om nycklar vid nyckellistningar"
 
 msgid "show policy URLs during signature listings"
 msgstr "visa policy-url:er under signaturlistningar"
@@ -2499,10 +2353,8 @@ msgstr "visa återkallade och utgångna användaridentiteter i nyckellistningar"
 msgid "show revoked and expired subkeys in key listings"
 msgstr "visa återkallade och utgångna undernycklar i nyckellistningar"
 
-#, fuzzy
-#| msgid "show expiration dates during signature listings"
 msgid "show signatures with invalid algorithms during signature listings"
-msgstr "visa signaturer med ogiltiga algoritmer under signaturlistor"
+msgstr "visa signaturer med ogiltiga algoritmer under signaturlistningar"
 
 msgid "show the keyring name in key listings"
 msgstr "visa nyckelringens namn i nyckellistningar"
@@ -2514,13 +2366,9 @@ msgid "show preferences"
 msgstr "visa inställningar"
 
 # originalet borde ha ett value
-#, fuzzy
-#| msgid "change the ownertrust"
 msgid "show ownertrust"
-msgstr "visa ägarens förtroende"
+msgstr "visa ägarförtroende"
 
-#, fuzzy
-#| msgid "Critical signature notation: "
 msgid "show trust signature information"
 msgstr "visa information om tillitssignatur"
 
@@ -2536,10 +2384,9 @@ msgstr "(använd \"help\" för att visa val)\n"
 msgid "This command is not allowed while in %s mode.\n"
 msgstr "Detta kommando är inte tillåtet när du är i %s-läge.\n"
 
-#, fuzzy, c-format
-#| msgid "NOTE: %s is not for normal use!\n"
+#, c-format
 msgid "Note: %s is not for normal use!\n"
-msgstr "Obs: %s är inte avsett för normalt bruk!"
+msgstr "Observera: %s är inte avsett för normalt bruk!\n"
 
 #, c-format
 msgid "'%s' is not a valid signature expiration\n"
@@ -2549,15 +2396,13 @@ msgstr "'%s' är inte ett giltigt utgångsdatum för signaturen\n"
 msgid "\"%s\" is not a proper mail address\n"
 msgstr "\"%s\" är inte en korrekt e-postadress\n"
 
-#, fuzzy, c-format
-#| msgid "invalid country code in `%s', line %d\n"
+#, c-format
 msgid "invalid pinentry mode '%s'\n"
-msgstr "ogiltigt pinentry-läge '%s'"
+msgstr "ogiltigt PIN-inmatningsläge '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "missing argument for option \"%.50s\"\n"
+#, c-format
 msgid "invalid request origin '%s'\n"
-msgstr "ogiltig begäran ursprung '%s'"
+msgstr "ogiltig ursprungsbegäran '%s'\n"
 
 #, c-format
 msgid "'%s' is not a valid character set\n"
@@ -2583,10 +2428,9 @@ msgstr "%s:%d: ogiltiga importeringsflaggor\n"
 msgid "invalid import options\n"
 msgstr "ogiltiga importflaggor\n"
 
-#, fuzzy, c-format
-#| msgid "invalid list options\n"
+#, c-format
 msgid "invalid filter option: %s\n"
-msgstr "ogiltigt filteralternativ: %s"
+msgstr "ogiltig filterflagga: %s\n"
 
 #, c-format
 msgid "%s:%d: invalid export options\n"
@@ -2651,15 +2495,13 @@ msgstr "%s:%d: ogiltig auto-key-locate-lista\n"
 msgid "invalid auto-key-locate list\n"
 msgstr "ogiltig auto-key-locate-lista\n"
 
-#, fuzzy, c-format
-#| msgid "missing argument for option \"%.50s\"\n"
+#, c-format
 msgid "invalid argument for option \"%.50s\"\n"
-msgstr "ogiltigt argument för alternativet \"%.50s\""
+msgstr "ogiltigt argument för flaggan \"%.50s\"\n"
 
-#, fuzzy, c-format
-#| msgid "error storing certificate: %s\n"
+#, c-format
 msgid "error parsing value for option '%s': %s\n"
-msgstr "fel vid tolkning av värde för alternativet '%s': %s"
+msgstr "fel vid tolkning av värde för flaggan '%s': %s\n"
 
 # Programmet skapar en avbildning (image) av minnet för att lättare kunna spåra fel.
 #, c-format
@@ -2725,10 +2567,9 @@ msgid "invalid min-cert-level; must be 1, 2, or 3\n"
 msgstr "ogiltigt minimivärde för certifieringsnivån; måste vara 1, 2 eller 3\n"
 
 # S2K har med krypteringen av hemliga nyckeln att göra
-#, fuzzy, c-format
-#| msgid "NOTE: simple S2K mode (0) is strongly discouraged\n"
+#, c-format
 msgid "Note: simple S2K mode (0) is strongly discouraged\n"
-msgstr "Obs: enkelt S2K-läge (0) rekommenderas starkt inte"
+msgstr "Observera: enkelt S2K-läge (0) rekommenderas inte alls\n"
 
 #, c-format
 msgid "invalid S2K mode; must be 0, 1 or 3\n"
@@ -2751,19 +2592,17 @@ msgstr "ogiltig inställning av föredragna kontrollsummealgoritmer\n"
 msgid "invalid personal compress preferences\n"
 msgstr "ogiltig inställning av föredragna kompressionsalgoritmer\n"
 
-#, fuzzy, c-format
-#| msgid "keysize invalid; using %u bits\n"
+#, c-format
 msgid "chunk size invalid - using %d\n"
-msgstr "ogiltig blockstorlek – använder %d"
+msgstr "ogiltig datastorlek – använder %d\n"
 
 #, c-format
 msgid "%s does not yet work with %s\n"
 msgstr "%s fungerar ännu inte med  %s\n"
 
-#, fuzzy, c-format
-#| msgid "you may not use compression algorithm `%s' while in %s mode\n"
+#, c-format
 msgid "compression algorithm '%s' may not be used in %s mode\n"
-msgstr "komprimeringsalgoritmen '%s' får inte användas i läge %s"
+msgstr "komprimeringsalgoritmen '%s' får inte användas i %s-läge\n"
 
 #, c-format
 msgid "failed to initialize the TrustDB: %s\n"
@@ -2826,20 +2665,18 @@ msgstr "misslyckades med att ta bort ASCII-skalet: %s\n"
 msgid "enarmoring failed: %s\n"
 msgstr "misslyckades med att skapa ASCII-skal: %s\n"
 
-#, fuzzy, c-format
-#| msgid "invalid hash algorithm `%s'\n"
+#, c-format
 msgid "invalid hash algorithm '%s'\n"
-msgstr "ogiltig hash-algoritm '%s'"
+msgstr "ogiltig hash-algoritm '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "error storing certificate: %s\n"
+#, c-format
 msgid "error parsing key specification '%s': %s\n"
-msgstr "fel vid tolkning av nyckelspecifikation '%s': %s"
+msgstr "fel vid tolkning av nyckelspecifikation '%s': %s\n"
 
 #, c-format
 msgid "'%s' does not appear to be a valid key ID, fingerprint or keygrip\n"
 msgstr ""
-"'%s' verkar inte vara ett giltigt nyckel-ID, fingeravtryck eller keygrip\n"
+"'%s' verkar inte vara ett giltigt nyckel-id, fingeravtryck eller keygrip\n"
 
 #, c-format
 msgid "WARNING: no command supplied.  Trying to guess what you mean ...\n"
@@ -2876,9 +2713,8 @@ msgstr "|FD|skriv statusinformation till denna FD"
 msgid "|ALGO|reject signatures made with ALGO"
 msgstr "|ALGO|avvisa signaturer gjorda med ALGO"
 
-#, fuzzy
 msgid "|NAME|print the notation NAME to stdout"
-msgstr "|NAME|skriver ut notationen NAME till stdout"
+msgstr "|NAMN|skriv ut notationen NAMN till stdout"
 
 msgid "Usage: gpgv [options] [files] (-h for help)"
 msgstr "Användning: gpgv [flaggor] [filer] (-h för hjälp)"
@@ -2893,8 +2729,7 @@ msgstr ""
 msgid "No help available"
 msgstr "Det finns ingen hjälp tillgänglig"
 
-#, fuzzy, c-format
-#| msgid "No help available for `%s'"
+#, c-format
 msgid "No help available for '%s'"
 msgstr "Ingen hjälp tillgänglig för '%s'"
 
@@ -2904,8 +2739,6 @@ msgstr "importera signaturer som är markerade som endast lokala"
 msgid "repair damage from the pks keyserver during import"
 msgstr "reparera skada från pks-nyckelservern under importering"
 
-#, fuzzy
-#| msgid "do not update the trustdb after import"
 msgid "do not clear the ownertrust values during import"
 msgstr "rensa inte ägarens förtroendevärden under importen"
 
@@ -2930,16 +2763,12 @@ msgstr "ta bort oanvändbara delar från nyckeln efter importering"
 msgid "remove as much as possible from key after import"
 msgstr "ta bort så mycket som möjligt från nyckeln efter importering"
 
-#, fuzzy
 msgid "ignore key-signatures which are not self-signatures"
 msgstr "ignorera nyckelsignaturer som inte är självsignaturer"
 
-#, fuzzy
 msgid "run import filters and export key immediately"
 msgstr "kör importfilter och exportera nyckeln omedelbart"
 
-#, fuzzy
-#| msgid "assume input is in binary format"
 msgid "assume the GnuPG key backup format"
 msgstr "anta GnuPG-nyckelns säkerhetskopieringsformat"
 
@@ -3068,7 +2897,6 @@ msgstr "nyckel %s: ingen användaridentitet\n"
 msgid "key %s: %s\n"
 msgstr "nyckel %s: %s\n"
 
-#, fuzzy
 msgid "rejected by import screener"
 msgstr "avvisad av importkontrollant"
 
@@ -3102,10 +2930,9 @@ msgstr "nyckel %s: ny nyckel - hoppade över\n"
 msgid "no writable keyring found: %s\n"
 msgstr "hittade ingen nyckelring som gick att skriva till: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing keyring `%s': %s\n"
+#, c-format
 msgid "error writing keyring '%s': %s\n"
-msgstr "fel vid skrivning av nyckelring '%s': %s"
+msgstr "fel vid skrivning av nyckelringen '%s': %s\n"
 
 # fixme: I appended the %s -wk
 #, c-format
@@ -3164,19 +2991,17 @@ msgstr "nyckel %s: \"%s\" inte ändrad\n"
 msgid "key %s: secret key imported\n"
 msgstr "nyckel %s: hemlig nyckel importerades\n"
 
-#, fuzzy, c-format
-#| msgid "skipped: secret key already present\n"
+#, c-format
 msgid "key %s: secret key already exists\n"
-msgstr "nyckel %s: hemlig nyckel finns redan"
+msgstr "nyckel %s: hemlig nyckel finns redan\n"
 
-#, fuzzy, c-format
-#| msgid "error sending %s command: %s\n"
+#, c-format
 msgid "key %s: error sending to agent: %s\n"
-msgstr "nyckel %s: fel vid sändning till agent: %s"
+msgstr "nyckel %s: fel vid sändning till agent: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "key %s: card reference is overridden by key material\n"
-msgstr "nyckel %s: kortreferensen åsidosätts av nyckelmaterialet"
+msgstr "nyckel %s: kortreferensen åsidosätts av nyckelmaterialet\n"
 
 #. TRANSLATORS: For a smartcard, each private key on host has a
 #. * reference (stub) to a smartcard and actual private key data
@@ -3327,10 +3152,9 @@ msgid "key %s: duplicated user ID detected - merged\n"
 msgstr ""
 "nyckel %s: dubblett av användaridentiteten hittades - slog samman dem\n"
 
-#, fuzzy, c-format
-#| msgid "key %s: duplicated user ID detected - merged\n"
+#, c-format
 msgid "key %s: duplicated subkeys detected - merged\n"
-msgstr "nyckel %s: duplicerade undernycklar upptäckta - slås samman"
+msgstr "nyckel %s: duplicerade undernycklar upptäckta - slås samman\n"
 
 #, c-format
 msgid "WARNING: key %s may be revoked: fetching revocation key %s\n"
@@ -3350,28 +3174,23 @@ msgstr "nyckel %s: \"%s\" återkallningscertifikat lades till\n"
 msgid "key %s: direct key signature added\n"
 msgstr "nyckel %s: lade till direkt nyckelsignatur\n"
 
-#, fuzzy, c-format
-#| msgid "error allocating enough memory: %s\n"
+#, c-format
 msgid "error allocating memory: %s\n"
-msgstr "fel vid allokering av minne: %s"
+msgstr "fel vid allokering av minne: %s\n"
 
-#, fuzzy, c-format
-#| msgid "key %s: unsupported public key algorithm\n"
+#, c-format
 msgid "can't check signature with unsupported public-key algorithm (%d): %s.\n"
 msgstr ""
-"kan inte kontrollera signaturen med icke-stödd algoritm för offentlig nyckel "
-"(%d): %s"
+"kan inte kontrollera signaturen med icke-stödd algoritm för publik nyckel "
+"(%d): %s.\n"
 
-#, fuzzy, c-format
-#| msgid "card does not support digest algorithm %s\n"
+#, c-format
 msgid ""
 "can't check signature with unsupported message-digest algorithm %d: %s.\n"
 msgstr ""
 "kan inte kontrollera signaturen med icke-stödd algoritm för meddelandedigest "
-"%d: %s"
+"%d: %s.\n"
 
-#, fuzzy
-#| msgid "Good signature from"
 msgid " (reordered signatures follow)"
 msgstr " (omordnade signaturer följer)"
 
@@ -3379,20 +3198,17 @@ msgstr " (omordnade signaturer följer)"
 msgid "key %s:\n"
 msgstr "nyckel %s\n"
 
-#, fuzzy, c-format
-#| msgid "User ID \"%s\": %d signature removed\n"
+#, c-format
 msgid "%d duplicate signature removed\n"
 msgid_plural "%d duplicate signatures removed\n"
-msgstr[0] "%d dubblett av signatur borttagen"
-msgstr[1] "%d dubbla signaturer borttagna"
+msgstr[0] "%d dubblett av signatur togs bort\n"
+msgstr[1] "%d dubbletter av signaturer togs bort\n"
 
-#, fuzzy, c-format
-#| msgid "1 signature not checked due to a missing key\n"
+#, c-format
 msgid "%d signature not checked due to a missing key\n"
 msgid_plural "%d signatures not checked due to missing keys\n"
-msgstr[0] "%d signaturen har inte kontrollerats på grund av en saknad nyckel"
-msgstr[1] ""
-"%d signaturer som inte har kontrollerats på grund av saknade nycklar"
+msgstr[0] "%d signatur har inte kontrollerats på grund av en saknad nyckel\n"
+msgstr[1] "%d signaturer har inte kontrollerats på grund av saknade nycklar\n"
 
 #, c-format
 msgid "%d bad signature\n"
@@ -3400,20 +3216,19 @@ msgid_plural "%d bad signatures\n"
 msgstr[0] "%d dålig signatur\n"
 msgstr[1] "%d dåliga signaturer\n"
 
-#, fuzzy, c-format
-#| msgid "Good signature from"
+#, c-format
 msgid "%d signature reordered\n"
 msgid_plural "%d signatures reordered\n"
-msgstr[0] "%d signatur omordnad"
-msgstr[1] "%d signaturer omordnade"
+msgstr[0] "%d signatur omordnad\n"
+msgstr[1] "%d signaturer omordnade\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Warning: errors found and only checked self-signatures, run '%s' to check "
 "all signatures.\n"
 msgstr ""
 "Varning: fel har upptäckts och endast självsignaturer har kontrollerats. Kör "
-"'%s' för att kontrollera alla signaturer"
+"'%s' för att kontrollera alla signaturer.\n"
 
 #, c-format
 msgid "error creating keybox '%s': %s\n"
@@ -3423,20 +3238,17 @@ msgstr "fel vid skapande av nyckelbox '%s': %s\n"
 msgid "error creating keyring '%s': %s\n"
 msgstr "fel vid skapande av nyckelringen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "keybox `%s' created\n"
+#, c-format
 msgid "keybox '%s' created\n"
-msgstr "nyckelbox '%s' skapad"
+msgstr "nyckelboxen '%s' skapades\n"
 
-#, fuzzy, c-format
-#| msgid "keyring `%s' created\n"
+#, c-format
 msgid "keyring '%s' created\n"
-msgstr "nyckelring '%s' skapad"
+msgstr "nyckelringen '%s' skapades\n"
 
-#, fuzzy, c-format
-#| msgid "keyblock resource `%s': %s\n"
+#, c-format
 msgid "keyblock resource '%s': %s\n"
-msgstr "nyckelblockresurs '%s': %s"
+msgstr "nyckelblockresurs '%s': %s\n"
 
 #, c-format
 msgid "failed to rebuild keyring cache: %s\n"
@@ -3479,9 +3291,9 @@ msgid "Please enter a domain to restrict this signature, or enter for none.\n"
 msgstr ""
 "Ange en domän för att begränsa denna signatur. eller Enter för ingen.\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Skipping user ID \"%s\", which is not a text ID.\n"
-msgstr "Hoppar över användar-ID \"%s\", som inte är ett text-ID"
+msgstr "Hoppar över användar-id \"%s\", som inte är ett text-id.\n"
 
 #, c-format
 msgid "User ID \"%s\" is revoked."
@@ -3640,10 +3452,9 @@ msgstr ""
 "Nyckeln har endast en stump eller nyckelobjekt på kortet - ingen lösenfras "
 "att ändra.\n"
 
-#, fuzzy, c-format
-#| msgid "error creating passphrase: %s\n"
+#, c-format
 msgid "key %s: error changing passphrase: %s\n"
-msgstr "nyckel %s: fel vid ändring av lösenord: %s"
+msgstr "nyckel %s: fel vid ändring av lösenfras: %s\n"
 
 msgid "save and quit"
 msgstr "spara och avsluta"
@@ -3651,8 +3462,6 @@ msgstr "spara och avsluta"
 msgid "show key fingerprint"
 msgstr "visa nyckelns fingeravtryck"
 
-#, fuzzy
-#| msgid "Enter the keygrip: "
 msgid "show the keygrip"
 msgstr "visa keygrip"
 
@@ -3700,12 +3509,11 @@ msgstr "lägg till en nyckel till ett smartkort"
 msgid "move a key to a smartcard"
 msgstr "flytta en nyckel till ett smartkort"
 
-#, fuzzy
 msgid "convert a key to TPM form using the local TPM"
 msgstr "konvertera en nyckel till TPM-format med hjälp av den lokala TPM"
 
 msgid "move a backup key to a smartcard"
-msgstr "flytta en nyckelkopia till ett smartkort"
+msgstr "flytta en säkerhetskopierad nyckel till ett smartkort"
 
 msgid "delete selected subkeys"
 msgstr "ta bort valda undernycklar"
@@ -3782,40 +3590,32 @@ msgstr "Den hemliga nyckeln finns tillgänglig.\n"
 msgid "Secret subkeys are available.\n"
 msgstr "Hemliga undernycklar finns tillgängliga.\n"
 
-#, fuzzy
 msgid ""
 "Note: the local copy of the secret key will only be deleted with \"save\".\n"
 msgstr ""
 "Observera: den lokala kopian av den hemliga nyckeln raderas endast med "
-"\"spara\""
+"\"spara\".\n"
 
 msgid "Need the secret key to do this.\n"
 msgstr "Den hemliga nyckeln behövs för att göra detta.\n"
 
-#, fuzzy
-#| msgid ""
-#| "* The `sign' command may be prefixed with an `l' for local signatures "
-#| "(lsign),\n"
-#| "  a `t' for trust signatures (tsign), an `nr' for non-revocable "
-#| "signatures\n"
-#| "  (nrsign), or any combination thereof (ltsign, tnrsign, etc.).\n"
 msgid ""
 "* The 'sign' command may be prefixed with an 'l' for local signatures "
 "(lsign),\n"
 "  a 't' for trust signatures (tsign), an 'nr' for non-revocable signatures\n"
 "  (nrsign), or any combination thereof (ltsign, tnrsign, etc.).\n"
 msgstr ""
-"* Kommandot \"sign\" kan föregås av ett \"l\" för lokala signaturer (lsign), "
-"ett \"t\" för betrodda signaturer (tsign), ett \"nr\" för icke återkallbara "
-"signaturer (nrsign) eller en kombination av dessa (ltsign, tnrsign osv.)"
+"* Kommandot \"sign\" kan föregås av ett \"l\" för lokala signaturer "
+"(lsign),\n"
+"  ett \"t\" för betrodda signaturer (tsign), ett \"nr\" för icke "
+"återkallbara signaturer\n"
+"  (nrsign) eller en kombination av dessa (ltsign, tnrsign osv.).\n"
 
 msgid "Key is revoked."
 msgstr "Nyckeln är återkallad."
 
-#, fuzzy
-#| msgid "Really sign all user IDs? (y/N) "
 msgid "Really sign all text user IDs? (y/N) "
-msgstr "Ska alla textanvändar-ID:n verkligen signeras? (y/N)"
+msgstr "Ska alla textanvändar-id:n verkligen signeras? (j/N) "
 
 msgid "Really sign all user IDs? (y/N) "
 msgstr "Verkligen signera alla användaridentiteter? (j/N) "
@@ -3858,10 +3658,9 @@ msgstr "Kommandot förväntar ett filnamnsargument\n"
 msgid "Can't open '%s': %s\n"
 msgstr "Kan inte öppna '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "Error reading backup key from `%s': %s\n"
+#, c-format
 msgid "Error reading backup key from '%s': %s\n"
-msgstr "Fel vid läsning av säkerhetsnyckel från '%s': %s"
+msgstr "Fel vid läsning av säkerhetkopierad nyckel från '%s': %s\n"
 
 msgid "You must select at least one key.\n"
 msgstr "Du måste välja åtminstone en nyckel.\n"
@@ -3909,34 +3708,29 @@ msgstr "Spara ändringar? (j/N) "
 msgid "Quit without saving? (y/N) "
 msgstr "Avsluta utan att spara? (j/N) "
 
-#, fuzzy, c-format
-#| msgid "deleting certificate \"%s\" failed: %s\n"
+#, c-format
 msgid "deleting copy of secret key failed: %s\n"
-msgstr "radering av kopia av hemlig nyckel misslyckades: %s"
+msgstr "borttagning av kopia av hemlig nyckel misslyckades: %s\n"
 
 #, c-format
 msgid "Key not changed so no update needed.\n"
 msgstr "Nyckeln är oförändrad så det behövs ingen uppdatering.\n"
 
-#, fuzzy, c-format
-#| msgid "You can't delete the last user ID!\n"
+#, c-format
 msgid "cannot revoke the last valid user ID.\n"
-msgstr "kan inte återkalla det senaste giltiga användar-ID:t"
+msgstr "kan inte återkalla det senaste giltiga användar-id:t.\n"
 
-#, fuzzy, c-format
-#| msgid "checking the trust list failed: %s\n"
+#, c-format
 msgid "revoking the user ID failed: %s\n"
-msgstr "återkallandet av användar-ID misslyckades: %s"
+msgstr "återkallandet av användar-id misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "checking the trust list failed: %s\n"
+#, c-format
 msgid "setting the primary user ID failed: %s\n"
-msgstr "inställning av primärt användar-ID misslyckades: %s"
+msgstr "inställning av primärt användar-id misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "checking the trust list failed: %s\n"
+#, c-format
 msgid "setting the ownertrust to '%s' failed: %s\n"
-msgstr "inställningen av ägartillit till '%s' misslyckades: %s"
+msgstr "inställning av ägartillit till '%s' misslyckades: %s\n"
 
 #, c-format
 msgid "\"%s\" is not a fingerprint\n"
@@ -3946,32 +3740,27 @@ msgstr "\"%s\" är inte ett fingeravtryck\n"
 msgid "\"%s\" is not the primary fingerprint\n"
 msgstr "\"%s\" är inte det primära fingeravtrycket\n"
 
-#, fuzzy, c-format
-#| msgid "invalid value\n"
+#, c-format
 msgid "Invalid user ID '%s': %s\n"
-msgstr "Ogiltigt användar-ID '%s': %s"
+msgstr "Ogiltigt användar-id '%s': %s\n"
 
-#, fuzzy
-#| msgid "No such user ID.\n"
 msgid "No matching user IDs."
-msgstr "Inga matchande användar-ID:n."
+msgstr "Inga matchande användar-id:n."
 
 msgid "Nothing to sign.\n"
 msgstr "Ingenting att signera.\n"
 
-#, fuzzy, c-format
-#| msgid "checking created signature failed: %s\n"
+#, c-format
 msgid "creating key signature failed: %s\n"
-msgstr "skapandet av tonart misslyckades: %s"
+msgstr "skapandet av nyckelsignatur misslyckades: %s\n"
 
 #, c-format
 msgid "Not signed by you.\n"
 msgstr "Inte signerad av dig.\n"
 
-#, fuzzy, c-format
-#| msgid "checking created signature failed: %s\n"
+#, c-format
 msgid "revoking the key signature failed: %s\n"
-msgstr "återkallandet av nyckelsignaturen misslyckades: %s"
+msgstr "återkallandet av nyckelsignaturen misslyckades: %s\n"
 
 #, c-format
 msgid "'%s' is not a valid expiration time\n"
@@ -4089,10 +3878,8 @@ msgstr "Vill du verkligen fortfarande lägga till den? (j/N) "
 msgid "You may not add a photo ID to a PGP2-style key.\n"
 msgstr "Du kan inte lägga till ett foto-id till en nyckel av PGP 2-typ.\n"
 
-#, fuzzy
-#| msgid "Such a user ID already exists on this key!\n"
 msgid "Such a user ID already exists on this key!"
-msgstr "En sådan användar-ID finns redan på denna nyckel!"
+msgstr "Ett sådant användar-id finns redan på denna nyckel!"
 
 msgid "Delete this good signature? (y/N/q)"
 msgstr "Vill du radera denna korrekta signatur? (j/N/a)"
@@ -4107,12 +3894,11 @@ msgid "Really delete this self-signature? (y/N)"
 msgstr "Verkligen ta bort denna självsignatur? (j/N)"
 
 # skulle lika gärna kunna heta 1 signatur va?
-#, fuzzy, c-format
-#| msgid "Deleted %d signature.\n"
+#, c-format
 msgid "Deleted %d signature.\n"
 msgid_plural "Deleted %d signatures.\n"
-msgstr[0] "Signaturen %d har raderats"
-msgstr[1] "Raderade %d signaturer"
+msgstr[0] "Tog bort %d signatur.\n"
+msgstr[1] "Tog bort %d signaturer.\n"
 
 msgid "Nothing deleted.\n"
 msgstr "Ingenting raderat.\n"
@@ -4124,12 +3910,11 @@ msgstr "ogiltigt"
 msgid "User ID \"%s\" compacted: %s\n"
 msgstr "Användaridentiteten \"%s\" komprimerad: %s\n"
 
-#, fuzzy, c-format
-#| msgid "User ID \"%s\": %d signature removed\n"
+#, c-format
 msgid "User ID \"%s\": %d signature removed\n"
 msgid_plural "User ID \"%s\": %d signatures removed\n"
-msgstr[0] "Användar-ID \"%s\": %d signatur borttagen"
-msgstr[1] "Användar-ID \"%s\": %d signaturer borttagna"
+msgstr[0] "Användar-id \"%s\": %d signatur togs bort\n"
+msgstr[1] "Användar-id \"%s\": %d signaturer togs bort\n"
 
 #, c-format
 msgid "User ID \"%s\": already minimized\n"
@@ -4177,29 +3962,24 @@ msgid ""
 msgstr ""
 "Är du säker på att du vill använda den här nyckeln för återkallning? (j/N) "
 
-#, fuzzy
 msgid "Enter the fingerprint of the additional decryption subkey: "
-msgstr "Ange fingeravtrycket för den ytterligare dekrypteringsundernyckeln:"
+msgstr ""
+"Ange fingeravtrycket för den ytterligare undernyckeln för avkryptering: "
 
-#, fuzzy, c-format
-#| msgid "(unless you specify the key by fingerprint)\n"
+#, c-format
 msgid "Did you specify the fingerprint of a subkey?\n"
-msgstr "Angav du fingeravtrycket för en undernyckel?"
+msgstr "Angav du fingeravtrycket för en undernyckel?\n"
 
-#, fuzzy, c-format
-#| msgid "Subkey %s is already revoked.\n"
+#, c-format
 msgid "key \"%s\" is already on this keyblock\n"
-msgstr "nyckel \"%s\" finns redan på detta nyckelblock"
+msgstr "nyckeln \"%s\" finns redan på detta nyckelblock\n"
 
 # designated = angiven (utnämnd, utpekad, bestämd, utsedd, avsedd, angiven, designerad)
-#, fuzzy
-#| msgid ""
-#| "Are you sure you want to appoint this key as a designated revoker? (y/N) "
 msgid ""
 "Are you sure you want to change the expiration time for multiple subkeys? (y/"
 "N) "
 msgstr ""
-"Är du säker på att du vill ändra utgångstiden för flera undernycklar? (y/N)"
+"Är du säker på att du vill ändra utgångstiden för flera undernycklar? (j/N) "
 
 msgid "Changing expiration time for a subkey.\n"
 msgstr "Ändrar utgångstid för en undernyckel.\n"
@@ -4211,15 +3991,11 @@ msgstr "Ändrar giltighetstid för den primära nyckeln.\n"
 msgid "You can't change the expiration date of a v3 key\n"
 msgstr "Du kan inte ändra giltighetsdatum för en v3-nyckel\n"
 
-#, fuzzy
-#| msgid "Changing expiration time for a subkey.\n"
 msgid "Changing usage of a subkey.\n"
-msgstr "Ändra användningen av en undernyckel"
+msgstr "Ändra användning av en undernyckel.\n"
 
-#, fuzzy
-#| msgid "Changing expiration time for the primary key.\n"
 msgid "Changing usage of the primary key.\n"
-msgstr "Ändra användningen av primärnyckeln"
+msgstr "Ändra användning av primärnyckeln.\n"
 
 # Vad betyder det?
 #, c-format
@@ -4262,10 +4038,9 @@ msgstr "Ingen användaridentitet med indexet %d\n"
 msgid "No user ID with hash %s\n"
 msgstr "Ingen användaridentitet med hashen %s\n"
 
-#, fuzzy, c-format
-#| msgid "No subkey with index %d\n"
+#, c-format
 msgid "No subkey with key ID '%s'.\n"
-msgstr "Ingen undernyckel med nyckel-ID '%s'"
+msgstr "Ingen undernyckel med nyckel-id '%s'.\n"
 
 #, c-format
 msgid "No subkey with index %d\n"
@@ -4316,7 +4091,7 @@ msgstr "ingen hemlig nyckel\n"
 
 #, c-format
 msgid "tried to revoke a non-user ID: %s\n"
-msgstr "försökte återkalla ett icke-användar-ID: %s\n"
+msgstr "försökte återkalla ett icke-användar-id: %s\n"
 
 #, c-format
 msgid "user ID \"%s\" is already revoked\n"
@@ -4328,10 +4103,9 @@ msgstr ""
 "VARNING: en signatur på en användaridentitet är daterad %d sekunder in i "
 "framtiden\n"
 
-#, fuzzy, c-format
-#| msgid "You can't delete the last user ID!\n"
+#, c-format
 msgid "Cannot revoke the last valid user ID.\n"
-msgstr "Det går inte att återkalla det senaste giltiga användar-ID:t"
+msgstr "Kan inte återkalla det senaste giltiga användar-id:t.\n"
 
 #, c-format
 msgid "Key %s is already revoked.\n"
@@ -4345,15 +4119,13 @@ msgstr "Undernyckeln %s är redan återkallad.\n"
 msgid "Displaying %s photo ID of size %ld for key %s (uid %d)\n"
 msgstr "Visar %s foto-id med storleken %ld för nyckeln %s (uid %d)\n"
 
-#, fuzzy, c-format
-#| msgid "missing argument for option \"%.50s\"\n"
+#, c-format
 msgid "invalid value for option '%s'\n"
-msgstr "ogiltigt värde för alternativet '%s'"
+msgstr "ogiltigt värde för flaggan '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "preference `%s' duplicated\n"
+#, c-format
 msgid "preference '%s' duplicated\n"
-msgstr "preferens '%s' duplicerad"
+msgstr "inställningen '%s' duplicerad\n"
 
 #, c-format
 msgid "too many cipher preferences\n"
@@ -4371,10 +4143,9 @@ msgstr "för många komprimeringsinställningar\n"
 msgid "too many AEAD preferences\n"
 msgstr "för många AEAD-inställningar\n"
 
-#, fuzzy, c-format
-#| msgid "invalid item `%s' in preference string\n"
+#, c-format
 msgid "invalid item '%s' in preference string\n"
-msgstr "ogiltig post '%s' i preferenssträngen"
+msgstr "ogiltig post '%s' i inställningssträngen\n"
 
 #, c-format
 msgid "writing direct signature\n"
@@ -4432,10 +4203,9 @@ msgstr "Autentisera"
 msgid "SsEeAaQq"
 msgstr "SsKkAaQq"
 
-#, fuzzy, c-format
-#| msgid "Possible actions for a %s key: "
+#, c-format
 msgid "Possible actions for this %s key: "
-msgstr "Möjliga åtgärder för denna %s-tangent:"
+msgstr "Möjliga åtgärder för denna %s-nyckel: "
 
 msgid "Current allowed actions: "
 msgstr "För närvarande tillåtna åtgärder: "
@@ -4545,10 +4315,9 @@ msgstr "Serienummer för kortet: %s\n"
 msgid "Available keys:\n"
 msgstr "Tillgängliga nycklar:\n"
 
-#, fuzzy, c-format
-#| msgid "rounded up to %u bits\n"
+#, c-format
 msgid "rounded to %u bits\n"
-msgstr "avrundat till %u bitar"
+msgstr "avrundat till %u bitar\n"
 
 #, c-format
 msgid "%s keys may be between %u and %u bits long.\n"
@@ -4562,15 +4331,12 @@ msgstr "Vilken nyckelstorlek vill du använda för undernyckeln? (%u) "
 msgid "Requested keysize is %u bits\n"
 msgstr "Den efterfrågade nyckelstorleken är %u bitar\n"
 
-#, fuzzy
-#| msgid "Please select what kind of key you want:\n"
 msgid "Please select which elliptic curve you want:\n"
-msgstr "Välj vilken elliptisk kurva du vill ha"
+msgstr "Välj vilken elliptisk kurva du vill ha:\n"
 
-#, fuzzy, c-format
-#| msgid "Please select what kind of key you want:\n"
+#, c-format
 msgid "Please select the %s variant you want:\n"
-msgstr "Välj den variant %s du vill ha"
+msgstr "Välj den %s-variant du vill ha:\n"
 
 # borde kolla upp möjligheterna i källkoden att använda v m å istället för wmy
 msgid ""
@@ -4732,15 +4498,11 @@ msgstr "Ändra (N)amn, (K)ommentar, (E)post eller (A)vsluta? "
 msgid "Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? "
 msgstr "Ändra (N)amn, (K)ommentar, (E)post eller (O)k/(A)vsluta? "
 
-#, fuzzy
-#| msgid "Change (N)ame, (C)omment, (E)mail or (Q)uit? "
 msgid "Change (N)ame, (E)mail, or (Q)uit? "
-msgstr "Ändra (N)amn, (E)-post eller (Q)avsluta?"
+msgstr "Ändra (N)amn, (E)-post eller (A)vsluta? "
 
-#, fuzzy
-#| msgid "Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? "
 msgid "Change (N)ame, (E)mail, or (O)kay/(Q)uit? "
-msgstr "Ändra (N)amn, (E)-post eller (O)kej/(Q)avsluta?"
+msgstr "Ändra (N)amn, (E)-post eller (O)kej/(A)vsluta? "
 
 msgid "Please correct the error first\n"
 msgstr "Rätta först felet\n"
@@ -4788,11 +4550,11 @@ msgstr "Skapa ändå? (j/N) "
 msgid "creating anyway\n"
 msgstr "skapar ändå\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Note: Use \"%s %s\" for a full featured key generation dialog.\n"
 msgstr ""
-"Obs! Använd \"%s %s\" för en dialogruta med alla funktioner för "
-"nyckelgenerering"
+"Observera: Använd \"%s %s\" för en dialogruta med alla funktioner för "
+"nyckelgenerering.\n"
 
 #, c-format
 msgid "Key generation canceled.\n"
@@ -4802,20 +4564,18 @@ msgstr "Skapandet av nycklar avbröts.\n"
 msgid "can't create backup file '%s': %s\n"
 msgstr "kan inte skapa säkerhetskopia '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "NOTE: backup of card key saved to `%s'\n"
+#, c-format
 msgid "Note: backup of card key saved to '%s'\n"
-msgstr "Obs: säkerhetskopia av kortnyckel sparad i '%s'"
+msgstr "Observera: säkerhetskopia av kortnyckel sparad till '%s'\n"
 
-#, fuzzy
 msgid ""
 "Warning: Although the key has been written to the card, a backup file was\n"
 "         not properly written to the disk.  You may want to repeat the\n"
 "         entire operation or just create a new encryption key on the card.\n"
 msgstr ""
-"Varning: Även om nyckeln har skrivits till kortet, har en säkerhetskopia "
-"inte skrivits korrekt till disken. Du kanske vill upprepa hela operationen "
-"eller bara skapa en ny krypteringsnyckel på kortet"
+"Varning: Även om nyckeln har skrivits till kortet, har en säkerhetskopia\n"
+"         inte skrivits korrekt till disken.  Du kanske vill upprepa hela\n"
+"         operationen eller bara skapa en ny krypteringsnyckel på kortet.\n"
 
 #, c-format
 msgid "writing public key to '%s'\n"
@@ -4825,10 +4585,9 @@ msgstr "skriver publik nyckel till '%s'\n"
 msgid "no writable public keyring found: %s\n"
 msgstr "ingen skrivbar publik nyckelring hittades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing public keyring `%s': %s\n"
+#, c-format
 msgid "error writing public keyring '%s': %s\n"
-msgstr "fel vid skrivning av offentlig nyckelring '%s': %s"
+msgstr "fel vid skrivning av publika nyckelringen '%s': %s\n"
 
 msgid "public and secret key created and signed.\n"
 msgstr "den publika och den hemliga nyckeln är skapade och signerade.\n"
@@ -4842,10 +4601,9 @@ msgstr ""
 "vill använda flaggan \"--edit-key\" för att skapa en undernyckel för detta "
 "syfte.\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: This key has been revoked by its owner!\n"
+#, c-format
 msgid "Note: The key has been created with one or more ADSK!\n"
-msgstr "Obs! Nyckeln har skapats med en eller flera ADSK!"
+msgstr "Observera: Nyckeln har skapats med en eller flera ADSK!\n"
 
 # c-format behövs inte i singularis
 #, c-format
@@ -4862,11 +4620,11 @@ msgstr ""
 "nyckeln är skapad %lu sekunder in i framtiden (problemet är\n"
 "relaterat till tidsresande eller en felställd klocka)\n"
 
-#, fuzzy, c-format
-#| msgid "NOTE: creating subkeys for v3 keys is not OpenPGP compliant\n"
+#, c-format
 msgid "Note: creating subkeys for v3 keys is not OpenPGP compliant\n"
 msgstr ""
-"Observera: att skapa undernycklar för v3-nycklar är inte OpenPGP-kompatibelt"
+"Observera: att skapa undernycklar för v3-nycklar är inte OpenPGP-"
+"kompatibelt\n"
 
 #, c-format
 msgid "Secret parts of primary key are not available.\n"
@@ -4915,18 +4673,18 @@ msgid_plural "%d good signatures\n"
 msgstr[0] "%d bra signatur\n"
 msgstr[1] "%d bra signaturer\n"
 
-#, fuzzy, c-format
-#| msgid "1 signature not checked due to an error\n"
+#, c-format
 msgid "%d signature not checked due to an error\n"
 msgid_plural "%d signatures not checked due to errors\n"
-msgstr[0] "%d signaturen har inte kontrollerats på grund av ett fel"
-msgstr[1] "%d signaturer som inte kontrollerats på grund av fel"
+msgstr[0] "%d signaturen har inte kontrollerats på grund av ett fel\n"
+msgstr[1] "%d signaturer har inte kontrollerats på grund av fel\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Warning: %lu key skipped due to its large size\n"
 msgid_plural "Warning: %lu keys skipped due to their large sizes\n"
-msgstr[0] "Varning: %lu nyckel hoppades över på grund av dess stora storlek"
-msgstr[1] "Varning: %lu nycklar hoppades över på grund av deras stora storlek"
+msgstr[0] "Varning: %lu nyckel hoppades över på grund av dess stora storlek\n"
+msgstr[1] ""
+"Varning: %lu nycklar hoppades över på grund av deras stora storlek\n"
 
 msgid "Keyring"
 msgstr "Nyckelring"
@@ -4938,10 +4696,9 @@ msgstr "återkallningskommentar: "
 msgid "Revocable by: "
 msgstr "Återkallningsbart av: "
 
-#, fuzzy, c-format
-#| msgid "error writing to %s: %s\n"
+#, c-format
 msgid "error writing to stdout: %s\n"
-msgstr "fel vid skrivning till stdout: %s"
+msgstr "fel vid skrivning till stdout: %s\n"
 
 msgid "Primary key fingerprint:"
 msgstr "Primära nyckelns fingeravtryck:"
@@ -5050,14 +4807,13 @@ msgstr "nyckeln hittades inte på nyckelservern\n"
 msgid "requesting key %s from %s\n"
 msgstr "begär nyckeln %s från %s\n"
 
-#, fuzzy, c-format
-#| msgid "no keyserver action!\n"
+#, c-format
 msgid "no keyserver known\n"
-msgstr "ingen nyckelserver känd"
+msgstr "ingen nyckelserver känd\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "upload skipped due to non-LDAP keyserver\n"
-msgstr "uppladdning hoppades över på grund av icke-LDAP-nyckelserver"
+msgstr "uppladdning hoppades över på grund av icke-LDAP-nyckelserver\n"
 
 #, c-format
 msgid "skipped \"%s\": %s\n"
@@ -5111,9 +4867,9 @@ msgstr "      \"%s\"\n"
 msgid "encrypted with %s key, ID %s\n"
 msgstr "krypterad med %s-nyckel, id %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: key is not quantum-resistant\n"
-msgstr "VARNING: nyckeln är inte kvantresistent"
+msgstr "VARNING: nyckeln är inte kvantresistent\n"
 
 #, c-format
 msgid "WARNING: multiple plaintexts seen\n"
@@ -5152,15 +4908,14 @@ msgstr ""
 msgid "WARNING: message was not integrity protected\n"
 msgstr "VARNING: detta meddelande var inte integritetsskyddat\n"
 
-#, fuzzy
 msgid ""
 "Hint: If this message was created before the year 2003 it is\n"
 "likely that this message is legitimate.  This is because back\n"
 "then integrity protection was not widely used.\n"
 msgstr ""
-"Tips: Om detta meddelande skapades före år 2003 är det troligt att det är "
-"legitimt. Detta beror på att integritetsskydd inte var så vanligt "
-"förekommande på den tiden"
+"Tips: Om detta meddelande skapades före år 2003 är det\n"
+"troligt att det är legitimt.  Detta beror på att integritetsskydd\n"
+"inte var så vanligt förekommande på den tiden.\n"
 
 #, c-format
 msgid "Use the option '%s' to decrypt anyway.\n"
@@ -5183,15 +4938,14 @@ msgstr "VARNING: det krypterade meddelandet har ändrats!\n"
 msgid "decryption failed: %s\n"
 msgstr "avkrypteringen misslyckades: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "operation forced to fail due to unfulfilled compliance rules\n"
 msgstr ""
-"operationen tvingades misslyckas på grund av ouppfyllda efterlevnadsregler"
+"åtgärden tvingades att misslyckas på grund av ouppfyllda efterlevnadsregler\n"
 
-#, fuzzy, c-format
-#| msgid "NOTE: sender requested \"for-your-eyes-only\"\n"
+#, c-format
 msgid "Note: sender requested \"for-your-eyes-only\"\n"
-msgstr "Obs: avsändaren begärde \"endast för dina ögon\""
+msgstr "Observera: avsändaren begärde \"endast för dina ögon\"\n"
 
 #, c-format
 msgid "original file name='%.*s'\n"
@@ -5246,9 +5000,9 @@ msgstr "               utfärdare \"%s\"\n"
 msgid "Key available at: "
 msgstr "Nyckeln tillgänglig hos: "
 
-#, fuzzy, c-format
+#, c-format
 msgid "Note: Use '%s' to make use of this info\n"
-msgstr "Obs: Använd '%s' för att utnyttja denna information"
+msgstr "Observera: Använd '%s' för att dra nytta av denna information\n"
 
 # Visas vid ogiltig signatur:
 # Eftersom signaturen är ogiltig kan man inte vara säker på att angivet namn och nyckel-id är riktigt.
@@ -5287,9 +5041,10 @@ msgstr "okänd"
 msgid ", key algorithm "
 msgstr ", nyckelalgoritm "
 
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: not a detached signature; file '%s' was NOT verified!\n"
-msgstr "VARNING: inte en fristående signatur; filen '%s' har INTE verifierats!"
+msgstr ""
+"VARNING: inte en fristående signatur; filen '%s' har INTE verifierats!\n"
 
 #, c-format
 msgid "Can't check signature: %s\n"
@@ -5314,10 +5069,9 @@ msgstr "fristående signatur av klassen 0x%02x\n"
 msgid "old style (PGP 2.x) signature\n"
 msgstr "signatur av den gamla (PGP 2.x) typen\n"
 
-#, fuzzy, c-format
-#| msgid "fstat of `%s' failed in %s: %s\n"
+#, c-format
 msgid "fstat of '%s' failed in %s: %s\n"
-msgstr "fstat av '%s' misslyckades i %s: %s"
+msgstr "fstat för '%s' misslyckades i %s: %s\n"
 
 #, c-format
 msgid "fstat(%d) failed in %s: %s\n"
@@ -5343,17 +5097,15 @@ msgstr "VARNING: använder experimentella sammandragsalgoritmen %s\n"
 msgid "WARNING: digest algorithm %s is deprecated\n"
 msgstr "VARNING: sammandragsalgoritmen %s är föråldrad\n"
 
-#, fuzzy, c-format
-#| msgid "%s signature, digest algorithm %s\n"
+#, c-format
 msgid "Note: signatures using the %s algorithm are rejected\n"
-msgstr "Obs: signaturer som använder algoritmen %s avvisas"
+msgstr "Observera: signaturer som använder algoritmen %s avvisas\n"
 
-#, fuzzy, c-format
-#| msgid "%s signature, digest algorithm %s\n"
+#, c-format
 msgid "Note: third-party key signatures using the %s algorithm are rejected\n"
 msgstr ""
 "Observera: nyckelsignaturer från tredje part som använder algoritmen %s "
-"avvisas"
+"avvisas\n"
 
 #, c-format
 msgid "(reported error: %s)\n"
@@ -5379,18 +5131,16 @@ msgstr "använd \"%s%s\" istället\n"
 msgid "WARNING: \"%s\" is a deprecated command - do not use it\n"
 msgstr "VARNING: \"%s\" är ett föråldrat kommando - använd det inte\n"
 
-#, fuzzy, c-format
-#| msgid "%s:%u: obsolete option \"%s\" - it has no effect\n"
+#, c-format
 msgid "%s:%u: \"%s\" is obsolete in this file - it only has effect in %s\n"
-msgstr "%s:%u: \"%s\" är föråldrat i denna fil – det har endast effekt i %s"
+msgstr "%s:%u: \"%s\" är föråldrat i denna fil – det har endast effekt i %s\n"
 
-#, fuzzy, c-format
-#| msgid "WARNING: \"%s\" is an obsolete option - it has no effect\n"
+#, c-format
 msgid ""
 "WARNING: \"%s%s\" is an obsolete option - it has no effect except on %s\n"
 msgstr ""
-"VARNING: \"%s%s\" är ett föråldrat alternativ – det har ingen effekt förutom "
-"på %s"
+"VARNING: \"%s%s\" är en föråldrad flagga – den har ingen effekt förutom på "
+"%s\n"
 
 msgid "Uncompressed"
 msgstr "Okomprimerad"
@@ -5414,21 +5164,18 @@ msgstr "tvetydig flagga '%s'\n"
 msgid "unknown option '%s'\n"
 msgstr "okänd flagga '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "DSA requires the hash length to be a multiple of 8 bits\n"
+#, c-format
 msgid "ECDSA public key is expected to be in SEC encoding multiple of 8 bits\n"
 msgstr ""
-"ECDSA:s publika nyckel förväntas vara i SEC-kodning med multipel av 8 bitar"
+"Publik ECDSA-nyckel förväntas vara i SEC-kodning med multipel av 8 bitar\n"
 
-#, fuzzy, c-format
-#| msgid "Unknown signature type `%s'\n"
+#, c-format
 msgid "unknown weak digest '%s'\n"
-msgstr "okänd svag sammanfattning '%s'"
+msgstr "okänd svag digest '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "File `%s' exists. "
+#, c-format
 msgid "File '%s' exists. "
-msgstr "Filen '%s' finns."
+msgstr "Filen '%s' finns. "
 
 msgid "Overwrite? (y/N) "
 msgstr "Skriv över? (j/N) "
@@ -5456,19 +5203,16 @@ msgstr "kan inte hantera algoritmen %d för publika nycklar\n"
 msgid "WARNING: potentially insecure symmetrically encrypted session key\n"
 msgstr "VARNING: potentiellt osäker symmetriskt krypterad sessionsnyckel\n"
 
-#, fuzzy, c-format
-#| msgid "Critical signature notation: "
+#, c-format
 msgid "Unknown critical signature notation: "
-msgstr "Okänd kritisk signaturnotation:"
+msgstr "Okänd kritisk signaturnotation: "
 
 #, c-format
 msgid "subpacket of type %d has critical bit set\n"
 msgstr "underpaket av typen %d har den bit satt som markerar den som kritisk\n"
 
-#, fuzzy
-#| msgid "Please enter the new passphrase"
 msgid "Please enter the passphrase for decryption."
-msgstr "Ange lösenordet för dekryptering."
+msgstr "Ange lösenfrasen för avkryptering."
 
 msgid "Enter passphrase\n"
 msgstr "Ange lösenfrasen\n"
@@ -5481,40 +5225,27 @@ msgstr "avbruten av användaren\n"
 msgid " (main key ID %s)"
 msgstr " (primära nyckelns id %s)"
 
-#, fuzzy
-#| msgid "Please enter the passphrase to unprotect the PKCS#12 object."
 msgid "Please enter the passphrase to unlock the OpenPGP secret key:"
-msgstr "Ange lösenordet för att låsa upp den hemliga OpenPGP-nyckeln:"
+msgstr "Ange lösenfrasen för att låsa upp den hemliga OpenPGP-nyckeln:"
 
-#, fuzzy
-#| msgid "Please enter the passphrase to protect the new PKCS#12 object."
 msgid "Please enter the passphrase to import the OpenPGP secret key:"
-msgstr "Ange lösenordet för att importera den hemliga OpenPGP-nyckeln:"
+msgstr "Ange lösenfrasen för att importera den hemliga OpenPGP-nyckeln:"
 
-#, fuzzy
-#| msgid "Please enter the passphrase to protect the new PKCS#12 object."
 msgid "Please enter the passphrase to export the OpenPGP secret subkey:"
-msgstr "Ange lösenordet för att exportera den hemliga OpenPGP-undernyckeln:"
+msgstr "Ange lösenfrasen för att exportera den hemliga OpenPGP-undernyckeln:"
 
-#, fuzzy
-#| msgid "Please enter the passphrase to protect the new PKCS#12 object."
 msgid "Please enter the passphrase to export the OpenPGP secret key:"
-msgstr "Ange lösenordet för att exportera den hemliga OpenPGP-nyckeln:"
+msgstr "Ange lösenfrasen för att exportera den hemliga OpenPGP-nyckeln:"
 
-#, fuzzy
-#| msgid "Do you really want to delete the selected keys? (y/N) "
 msgid "Do you really want to permanently delete the OpenPGP secret subkey key:"
-msgstr "Vill du verkligen radera OpenPGP-hemlighetsnyckeln permanent:"
+msgstr ""
+"Vill du verkligen permanent ta bort hemlig undernyckel för OpenPGP-nyckel:"
 
-#, fuzzy
-#| msgid "Do you really want to delete the selected keys? (y/N) "
 msgid "Do you really want to permanently delete the OpenPGP secret key:"
-msgstr "Vill du verkligen radera OpenPGP-hemlig nyckel permanent:"
+msgstr "Vill du verkligen permanent ta bort hemlig OpenPGP-nyckel:"
 
-#, fuzzy
-#| msgid "Please enter the passphrase to protect the new PKCS#12 object."
 msgid "Please enter the passphrase to export the secret key with keygrip:"
-msgstr "Ange lösenordet för att exportera den hemliga nyckeln med keygrip:"
+msgstr "Ange lösenfrasen för att exportera den hemliga nyckeln med keygrip:"
 
 #, c-format
 #| msgid "%u-bit %s key, ID %s, created %s"
@@ -5693,18 +5424,13 @@ msgstr "Denna nyckel tillhör oss\n"
 msgid "%s: This key is bad!  It has been marked as untrusted!\n"
 msgstr "%s: Den här nyckeln är dålig!  Den har markerats som opålitlig!\n"
 
-#, fuzzy
-#| msgid ""
-#| "It is NOT certain that the key belongs to the person named\n"
-#| "in the user ID.  If you *really* know what you are doing,\n"
-#| "you may answer the next question with yes.\n"
 msgid ""
 "This key is bad!  It has been marked as untrusted!  If you\n"
 "*really* know what you are doing, you may answer the next\n"
 "question with yes.\n"
 msgstr ""
-"Denna nyckel är dålig! Den har markerats som opålitlig! Om du *verkligen* "
-"vet vad du gör kan du svara ja på nästa fråga"
+"Denna nyckel är dålig!  Den har markerats som opålitlig! Om\n"
+"du *verkligen* vet vad du gör kan du svara ja på nästa fråga.\n"
 
 msgid ""
 "It is NOT certain that the key belongs to the person named\n"
@@ -5727,25 +5453,21 @@ msgid "WARNING: this key might be revoked (revocation key not present)\n"
 msgstr ""
 "VARNING: denna nyckel kan ha återkallats (återkallningsnyckeln saknas)\n"
 
-#, fuzzy, c-format
-#| msgid "user ID: \"%s\"\n"
+#, c-format
 msgid "checking User ID \"%s\"\n"
-msgstr "kontrollerar användar-ID \"%s\""
+msgstr "kontrollerar användar-id \"%s\"\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "option %s given but issuer \"%s\" does not match\n"
-msgstr "alternativ %s angivet men utfärdare \"%s\" stämmer inte överens"
+msgstr "flaggan %s angiven men utfärdaren \"%s\" stämmer inte överens\n"
 
-#, fuzzy, c-format
-#| msgid "key %s: doesn't match our copy\n"
+#, c-format
 msgid "issuer \"%s\" does not match any User ID\n"
-msgstr "utfärdare \"%s\" matchar inte något användar-ID"
+msgstr "utfärdaren \"%s\" matchar inte något användar-id\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "option %s given but no matching User ID found\n"
-msgstr "alternativ %s angivet men inget matchande användar-ID hittades"
+msgstr "flaggan %s angiven men inget matchande användar-id hittades\n"
 
 #, c-format
 msgid "WARNING: This key has been revoked by its designated revoker!\n"
@@ -5831,15 +5553,13 @@ msgstr "%s: hoppades över: publik nyckel finns redan\n"
 msgid "can't encrypt to '%s'\n"
 msgstr "kan inte kryptera till '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "option '%s' given, but no valid default keys given\n"
-msgstr "alternativ '%s' angivet, men inga giltiga standardnycklar angivna"
+msgstr "flaggan '%s' angiven, men inga giltiga standardnycklar angivna\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "option '%s' given, but option '%s' not given\n"
-msgstr "alternativ '%s' angivet, men alternativ '%s' inte angivet"
+msgstr "flaggan '%s' angiven, men flaggan '%s' inte angiven\n"
 
 msgid "You did not specify a user ID. (you may use \"-r\")\n"
 msgstr "Du angav ingen användaridentitet. (du kan använda \"-r\")\n"
@@ -5916,10 +5636,9 @@ msgstr "kan inte öppna signerade data '%s'\n"
 msgid "can't open signed data fd=%d: %s\n"
 msgstr "kan inte öppna signerad data fd=%d: %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate is not usable for encryption\n"
+#, c-format
 msgid "key %s is not suitable for decryption in %s mode\n"
-msgstr "nyckel %s är inte lämplig för dekryptering i %s-läge"
+msgstr "nyckeln %s är inte lämplig för avkryptering i %s-läge\n"
 
 #, c-format
 msgid "anonymous recipient; trying secret key %s ...\n"
@@ -5955,10 +5674,9 @@ msgstr ""
 msgid "Note: secret key %s expired at %s\n"
 msgstr "Observera: hemlig nyckel %s gick ut %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate should have not been used for encryption\n"
+#, c-format
 msgid "Note: ADSK key has been used for decryption"
-msgstr "Obs: ADSK-nyckeln har använts för dekryptering"
+msgstr "Observera: ADSK-nyckel har använts för avkryptering"
 
 #, c-format
 msgid "Note: key has been revoked"
@@ -6005,8 +5723,6 @@ msgstr "Återkallningscertifikat skapat.\n"
 msgid "no revocation keys found for \"%s\"\n"
 msgstr "inga återkallningsnycklar hittades för \"%s\"\n"
 
-#, fuzzy
-#| msgid "Create a revocation certificate for this key? (y/N) "
 msgid "This is a revocation certificate for the OpenPGP key:"
 msgstr "Detta är ett återkallningscertifikat för OpenPGP-nyckeln:"
 
@@ -6035,15 +5751,15 @@ msgstr ""
 "beskrivningen av gpg-kommandot \"--generate-revocation\" i\n"
 "GnuPG-manualen."
 
-#, fuzzy
 msgid ""
 "To avoid an accidental use of this file, a colon has been inserted\n"
 "before the 5 dashes below.  Remove this colon with a text editor\n"
 "before importing and publishing this revocation certificate."
 msgstr ""
-"För att undvika oavsiktlig användning av denna fil har ett kolon införts "
-"före de fem strecken nedan. Ta bort detta kolon med en textredigerare innan "
-"du importerar och publicerar detta återkallningscertifikat."
+"För att undvika oavsiktlig användning av denna fil har ett kolontecken\n"
+"infogats före de fem strecken nedan.  Ta bort detta kolontecken med\n"
+"en textredigerare innan du importerar och publicerar detta\n"
+"återkallningscertifikat."
 
 #, c-format
 msgid "revocation certificate stored as '%s.rev'\n"
@@ -6060,10 +5776,9 @@ msgstr "hemlig nyckel \"%s\" hittades inte\n"
 msgid "'%s' matches multiple secret keys:\n"
 msgstr "'%s' matchar flera hemliga nycklar:\n"
 
-#, fuzzy, c-format
-#| msgid "error creating keyring `%s': %s\n"
+#, c-format
 msgid "error searching the keyring: %s\n"
-msgstr "fel vid sökning i nyckelringen: %s"
+msgstr "fel vid sökning i nyckelringen: %s\n"
 
 msgid "Create a revocation certificate for this key? (y/N) "
 msgstr "Skapa ett återkallningscertifikat för denna nyckel? (j/N) "
@@ -6122,15 +5837,13 @@ msgstr ""
 msgid "%s key %s uses an unsafe (%zu bit) hash\n"
 msgstr "%s nyckel %s använder en osäker (%zu-bitars) kontrollsumma\n"
 
-#, fuzzy, c-format
-#| msgid "DSA key %s requires a %u bit or larger hash\n"
+#, c-format
 msgid "%s key %s requires a %zu bit or larger hash (hash is %s)\n"
-msgstr "%s nyckel %s kräver en %zu bit eller större hash (hash är %s)"
+msgstr "%s nyckel %s kräver en %zu-bitars eller större hash (hash är %s)\n"
 
-#, fuzzy, c-format
-#| msgid "you may not use %s while in %s mode\n"
+#, c-format
 msgid "key %s may not be used for signing in %s mode\n"
-msgstr "nyckel %s får inte användas för inloggning i %s läge"
+msgstr "nyckeln %s får inte användas för signering i %s-läge\n"
 
 #, c-format
 msgid "WARNING: signature digest conflict in message\n"
@@ -6151,48 +5864,43 @@ msgid "WARNING: signing subkey %s has an invalid cross-certification\n"
 msgstr "VARNING signeringsundernyckel  %s har en ogiltig korscertifiering\n"
 
 # behövs verkligen c-format här?
-#, fuzzy, c-format
-#| msgid "public key %s is %lu second newer than the signature\n"
+#, c-format
 msgid "public key %s is %lu second newer than the signature\n"
 msgid_plural "public key %s is %lu seconds newer than the signature\n"
-msgstr[0] "offentlig nyckel %s är %lu sekund nyare än signaturen"
-msgstr[1] "den offentliga nyckeln %s är %lu sekunder nyare än signaturen"
+msgstr[0] "publika nyckeln %s är %lu sekund nyare än signaturen\n"
+msgstr[1] "publika nyckeln %s är %lu sekunder nyare än signaturen\n"
 
 # behövs verkligen c-format här?
-#, fuzzy, c-format
-#| msgid "public key %s is %lu second newer than the signature\n"
+#, c-format
 msgid "public key %s is %lu day newer than the signature\n"
 msgid_plural "public key %s is %lu days newer than the signature\n"
-msgstr[0] "den offentliga nyckeln %s är %lu dag nyare än signaturen"
-msgstr[1] "den offentliga nyckeln %s är %lu dagar nyare än signaturen"
+msgstr[0] "publika nyckeln %s är %lu dag nyare än signaturen\n"
+msgstr[1] "publika nyckeln %s är %lu dagar nyare än signaturen\n"
 
 # c-format behövs inte i singularis
-#, fuzzy, c-format
-#| msgid ""
-#| "key %s was created %lu second in the future (time warp or clock problem)\n"
+#, c-format
 msgid ""
 "key %s was created %lu second in the future (time warp or clock problem)\n"
 msgid_plural ""
 "key %s was created %lu seconds in the future (time warp or clock problem)\n"
 msgstr[0] ""
-"nyckel %s skapades %lu sekund i framtiden (tidsförskjutning eller "
-"klockproblem)"
+"nyckeln %s skapades %lu sekund in i framtiden (tidsförskjutning eller "
+"klockproblem)\n"
 msgstr[1] ""
-"nyckel %s skapades %lu sekunder in i framtiden (tidsförskjutning eller "
-"klockproblem)"
+"nyckeln %s skapades %lu sekunder in i framtiden (tidsförskjutning eller "
+"klockproblem)\n"
 
 # c-format behövs inte i singularis
-#, fuzzy, c-format
-#| msgid ""
-#| "key %s was created %lu second in the future (time warp or clock problem)\n"
+#, c-format
 msgid "key %s was created %lu day in the future (time warp or clock problem)\n"
 msgid_plural ""
 "key %s was created %lu days in the future (time warp or clock problem)\n"
 msgstr[0] ""
-"nyckel %s skapades %lu dag i framtiden (tidsförskjutning eller klockproblem)"
+"nyckeln %s skapades %lu dag in i framtiden (tidsförskjutning eller "
+"klockproblem)\n"
 msgstr[1] ""
-"nyckel %s skapades %lu dagar i framtiden (tidsförskjutning eller "
-"klockproblem)"
+"nyckeln %s skapades %lu dagar in i framtiden (tidsförskjutning eller "
+"klockproblem)\n"
 
 #, c-format
 msgid "Note: signature key %s expired %s\n"
@@ -6202,10 +5910,9 @@ msgstr "Observera: signaturnyckel %s har gått ut %s\n"
 msgid "Note: signature key %s has been revoked\n"
 msgstr "Observera: signaturnyckel %s har återkallats\n"
 
-#, fuzzy, c-format
-#| msgid "standalone signature of class 0x%02x\n"
+#, c-format
 msgid "bad key signature from key %s: %s (0x%02x, 0x%x)\n"
-msgstr "felaktig nyckelsignatur från nyckel %s: %s (0x%02x, 0x%x)"
+msgstr "felaktig nyckelsignatur från nyckeln %s: %s (0x%02x, 0x%x)\n"
 
 #, c-format
 msgid "bad data signature from key %s: %s (0x%02x, 0x%x)\n"
@@ -6312,10 +6019,9 @@ msgstr "ogiltigt fingeravtryck"
 msgid "ownertrust value missing"
 msgstr "värde för ägartillit saknas"
 
-#, fuzzy, c-format
-#| msgid "error finding trust record in `%s': %s\n"
+#, c-format
 msgid "error finding trust record in '%s': %s\n"
-msgstr "fel vid sökning efter förtroendepost i '%s': %s"
+msgstr "fel vid sökning efter tillitspost i '%s': %s\n"
 
 #, c-format
 msgid "read error in '%s': %s\n"
@@ -6366,10 +6072,9 @@ msgstr "%s: ogiltig tillitsdatabas skapad\n"
 msgid "%s: trustdb created\n"
 msgstr "%s: tillitsdatabas skapad\n"
 
-#, fuzzy, c-format
-#| msgid "NOTE: trustdb not writable\n"
+#, c-format
 msgid "Note: trustdb not writable\n"
-msgstr "Obs: trustdb är inte skrivbar"
+msgstr "Observera: trustdb är inte skrivbar\n"
 
 #, c-format
 msgid "%s: invalid trustdb\n"
@@ -6439,57 +6144,50 @@ msgstr "kan inte hantera text med rader längre än %d tecken\n"
 msgid "input line longer than %d characters\n"
 msgstr "indataraden är längre än %d tecken\n"
 
-#, fuzzy, c-format
-#| msgid "error sending standard options: %s\n"
+#, c-format
 msgid "error beginning transaction on TOFU database: %s\n"
-msgstr "fel vid start av transaktion i TOFU-databasen: %s"
+msgstr "fel vid start av transaktion i TOFU-databasen: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "error committing transaction on TOFU database: %s\n"
-msgstr "fel vid transaktion i TOFU-databasen: %s"
+msgstr "fel vid verkställande av transaktion till TOFU-databasen: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "error rolling back transaction on TOFU database: %s\n"
-msgstr "fel vid återställning av transaktion i TOFU-databasen: %s"
+msgstr "fel vid återställning av transaktion i TOFU-databasen: %s\n"
 
-#, fuzzy, c-format
-#| msgid "unsupported algorithm: %s"
+#, c-format
 msgid "unsupported TOFU database version: %s\n"
-msgstr "ej stödd TOFU-databasversion: %s"
+msgstr "TOFU-databasversion stöds inte: %s\n"
 
 #, c-format
 msgid "TOFU DB error"
 msgstr "TOFU DB-fel"
 
-#, fuzzy, c-format
-#| msgid "error sending %s command: %s\n"
+#, c-format
 msgid "error reading TOFU database: %s\n"
-msgstr "fel vid läsning av TOFU-databas: %s"
+msgstr "fel vid läsning av TOFU-databas: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing secret keyring `%s': %s\n"
+#, c-format
 msgid "error determining TOFU database's version: %s\n"
-msgstr "fel vid fastställande av TOFU-databasens version: %s"
+msgstr "fel vid fastställande av TOFU-databasens version: %s\n"
 
-#, fuzzy, c-format
-#| msgid "%s: error writing dir record: %s\n"
+#, c-format
 msgid "error initializing TOFU database: %s\n"
-msgstr "fel vid initialisering av TOFU-databas: %s"
+msgstr "fel vid initialisering av TOFU-databas: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error opening `%s': %s\n"
+#, c-format
 msgid "error opening TOFU database '%s': %s\n"
-msgstr "fel vid öppning av TOFU-databasen '%s': %s"
+msgstr "fel vid öppning av TOFU-databasen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error sending %s command: %s\n"
+#, c-format
 msgid "error updating TOFU database: %s\n"
-msgstr "fel vid uppdatering av TOFU-databasen: %s"
+msgstr "fel vid uppdatering av TOFU-databasen: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "This is the first time the email address \"%s\" is being used with key %s."
-msgstr "Det här är första gången e-postadressen \"%s\" används med nyckel %s."
+msgstr "Det här är första gången e-postadressen \"%s\" används med nyckeln %s."
 
 #, c-format
 msgid "The email address \"%s\" is associated with %d key!"
@@ -6497,38 +6195,33 @@ msgid_plural "The email address \"%s\" is associated with %d keys!"
 msgstr[0] "E-postadressen \"%s\" är kopplad till %d nyckel!"
 msgstr[1] "E-postadressen \"%s\" är kopplad till %d nycklar!"
 
-#, fuzzy
 msgid "  Since this binding's policy was 'auto', it has been changed to 'ask'."
 msgstr ""
 "  Eftersom denna bindnings policy var \"auto\" har den ändrats till \"ask\"."
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Please indicate whether this email address should be associated with key %s "
 "or whether you think someone is impersonating \"%s\"."
 msgstr ""
-"Ange om denna e-postadress ska kopplas till nyckel %s eller om du tror att "
-"någon utger sig för att vara \"%s\"."
+"Ange om denna e-postadress ska kopplas till nyckeln %s eller om du tror att "
+"någon felaktigt utger sig för att vara \"%s\"."
 
-#, fuzzy, c-format
-#| msgid "error getting new PIN: %s\n"
+#, c-format
 msgid "error gathering other user IDs: %s\n"
-msgstr "fel vid insamling av andra användar-ID: %s"
+msgstr "fel vid insamling av andra användar-id: %s\n"
 
-#, fuzzy
-#| msgid "list key and user IDs"
 msgid "This key's user IDs:\n"
-msgstr "Denna nyckels användar-ID"
+msgstr "Användar-id:n för denna nyckel:\n"
 
 #, c-format
 #| msgid "validity: %s"
 msgid "policy: %s"
 msgstr "policy: %s"
 
-#, fuzzy, c-format
-#| msgid "error getting stored flags: %s\n"
+#, c-format
 msgid "error gathering signature stats: %s\n"
-msgstr "fel vid insamling av signaturstatistik: %s"
+msgstr "fel vid insamling av signaturstatistik: %s\n"
 
 #, c-format
 msgid "The email address \"%s\" is associated with %d key:\n"
@@ -6567,50 +6260,49 @@ msgid_plural "Encrypted %d messages in the future."
 msgstr[0] "Krypterade %d meddelande i framtiden."
 msgstr[1] "Krypterade %d meddelanden i framtiden."
 
-#, fuzzy, c-format
+#, c-format
 msgid "Messages verified over the past %d day: %d."
 msgid_plural "Messages verified over the past %d days: %d."
 msgstr[0] "Meddelanden verifierade under den senaste %d dagen: %d."
 msgstr[1] "Meddelanden verifierade under de senaste %d dagarna: %d."
 
-#, fuzzy, c-format
+#, c-format
 msgid "Messages encrypted over the past %d day: %d."
 msgid_plural "Messages encrypted over the past %d days: %d."
 msgstr[0] "Meddelanden krypterade under den senaste %d dagen: %d."
 msgstr[1] "Meddelanden krypterade under de senaste %d dagarna: %d."
 
-#, fuzzy, c-format
+#, c-format
 msgid "Messages verified over the past %d month: %d."
 msgid_plural "Messages verified over the past %d months: %d."
 msgstr[0] "Meddelanden verifierade under den senaste %d månaden: %d."
 msgstr[1] "Meddelanden verifierade under de senaste %d månaderna: %d."
 
-#, fuzzy, c-format
+#, c-format
 msgid "Messages encrypted over the past %d month: %d."
 msgid_plural "Messages encrypted over the past %d months: %d."
 msgstr[0] "Meddelanden krypterade under den senaste %d månaden: %d."
 msgstr[1] "Meddelanden krypterade under de senaste %d månaderna: %d."
 
-#, fuzzy, c-format
+#, c-format
 msgid "Messages verified over the past %d year: %d."
 msgid_plural "Messages verified over the past %d years: %d."
 msgstr[0] "Meddelanden verifierade under det senaste %d året: %d."
 msgstr[1] "Meddelanden verifierade under de senaste %d åren: %d."
 
-#, fuzzy, c-format
+#, c-format
 msgid "Messages encrypted over the past %d year: %d."
 msgid_plural "Messages encrypted over the past %d years: %d."
 msgstr[0] "Meddelanden krypterade under det senaste %d året: %d."
 msgstr[1] "Meddelanden krypterade under de senaste %d åren: %d."
 
-#, fuzzy, c-format
+#, c-format
 msgid "Messages verified in the past: %d."
 msgstr "Meddelanden som verifierats tidigare: %d."
 
-#, fuzzy, c-format
-#| msgid "print message digests"
+#, c-format
 msgid "Messages encrypted in the past: %d."
-msgstr "Tidigare krypterade meddelanden: %d."
+msgstr "Meddelanden krypterade tidigare: %d."
 
 #. TRANSLATORS: Please translate the text found in the source
 #. * file below.  We don't directly internationalize that text so
@@ -6627,18 +6319,16 @@ msgstr "gGaAuUrRbB"
 msgid "(G)ood, (A)ccept once, (U)nknown, (R)eject once, (B)ad? "
 msgstr "(B)ra, (A)cceptera en gång, (O)känd, (N)eka en gång, (D)ålig? "
 
-#, fuzzy
 msgid "Defaulting to unknown.\n"
-msgstr "Standardinställning till okänt"
+msgstr "Återgår till standardinställning som är okänd.\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "TOFU db corruption detected.\n"
-msgstr "TOFU db-korruption upptäckt"
+msgstr "Skadad TOFU-databas upptäcktes.\n"
 
-#, fuzzy, c-format
-#| msgid "error creating a pipe: %s\n"
+#, c-format
 msgid "error changing TOFU policy: %s\n"
-msgstr "fel vid ändring av TOFU-policy: %s"
+msgstr "fel vid ändring av TOFU-policy: %s\n"
 
 #, c-format
 msgid "%lld~year"
@@ -6721,7 +6411,7 @@ msgstr ""
 msgid "Warning: you have only encrypted one message to this key!\n"
 msgstr "Varning: du har bara krypterat ett meddelande med denna nyckel!\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Warning: if you think you've seen more signatures by this key and user id, "
 "then this key might be a forgery!  Carefully examine the email address for "
@@ -6736,25 +6426,26 @@ msgid_plural ""
 "to mark it as being bad.\n"
 msgstr[0] ""
 "Varning: om du tror att du har sett fler signaturer med denna nyckel och "
-"detta användar-ID, kan nyckeln vara förfalskad! Kontrollera noggrant e-"
-"postadressen för små variationer. Om nyckeln är misstänkt, använd %s för att "
-"markera den som ogiltig"
+"detta användar-id, kan nyckeln vara förfalskad!  Kontrollera noggrant e-"
+"postadressen efter små variationer.  Om nyckeln är misstänkt, använd\n"
+"  %s\n"
+"för att markera den som ogiltig.\n"
 msgstr[1] ""
 "Varning: om du tror att du har sett fler signaturer med denna nyckel och "
-"dessa användar-ID, kan nyckeln vara förfalskad! Kontrollera noggrant e-"
-"postadresserna för små variationer. Om nyckeln är misstänkt, använd %s för "
-"att markera den som ogiltig"
+"dessa användar-id:n, kan nyckeln vara förfalskad!  Kontrollera noggrant e-"
+"postadresserna efter små variationer.  Om nyckeln är misstänkt, använd\n"
+"  %s\n"
+"för att markera den som ogiltig.\n"
 
-#, fuzzy, c-format
-#| msgid "error sending %s command: %s\n"
+#, c-format
 msgid "error opening TOFU database: %s\n"
-msgstr "fel vid öppning av TOFU-databas: %s"
+msgstr "fel vid öppning av TOFU-databas: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: Encrypting to %s, which has no non-revoked user ids\n"
 msgstr ""
-"VARNING: Kryptering till %s, som inte har några icke-återkallade användar-"
-"ID:n"
+"VARNING: Krypterar till %s, som inte har några icke-återkallade användar-"
+"id:n\n"
 
 #, c-format
 msgid "'%s' is not a valid long keyID\n"
@@ -6813,15 +6504,13 @@ msgstr "det behövs ingen kontroll av tillitsdatabasen\n"
 msgid "next trustdb check due at %s\n"
 msgstr "nästa kontroll av tillitsdatabasen kommer att äga rum %s\n"
 
-#, fuzzy, c-format
-#| msgid "no need for a trustdb check with `%s' trust model\n"
+#, c-format
 msgid "no need for a trustdb check with '%s' trust model\n"
-msgstr "ingen behov av trustdb-kontroll med '%s' förtroendemodell"
+msgstr "ingen behov av trustdb-kontroll med förtroendemodellen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "no need for a trustdb update with `%s' trust model\n"
+#, c-format
 msgid "no need for a trustdb update with '%s' trust model\n"
-msgstr "ingen behov av en trustdb-uppdatering med '%s' förtroendemodell"
+msgstr "ingen behov av en trustdb-uppdatering med förtroendemodellen '%s'\n"
 
 #, c-format
 msgid "public key %s not found: %s\n"
@@ -6843,22 +6532,19 @@ msgstr[0] "%d nyckel bearbetad"
 msgstr[1] "%d nycklar bearbetade"
 
 # Vad är detta!?
-#, fuzzy, c-format
-#| msgid "%d keys processed (%d validity counts cleared)\n"
+#, c-format
 msgid " (%d validity count cleared)\n"
 msgid_plural " (%d validity counts cleared)\n"
-msgstr[0] " (%d giltighetsräknare rensad)"
-msgstr[1] " (%d giltighetsräkningen nollställd)"
+msgstr[0] " (%d validitetsräkning tömd)\n"
+msgstr[1] " (%d validitetsräkningar tömda)\n"
 
-#, fuzzy, c-format
-#| msgid "no ultimately trusted keys found\n"
+#, c-format
 msgid "Note: ultimately trusted key %s not found\n"
-msgstr "Obs: slutgiltigt betrodd nyckel %s hittades inte"
+msgstr "Observera: slutgiltigt betrodda nyckeln %s hittades inte\n"
 
-#, fuzzy, c-format
-#| msgid "no ultimately trusted keys found\n"
+#, c-format
 msgid "Note: ultimately trusted key %s expired\n"
-msgstr "Obs: den slutgiltigt betrodda nyckeln %s har gått ut"
+msgstr "Observera: den slutgiltigt betrodda nyckeln %s har gått ut\n"
 
 #, c-format
 msgid "no ultimately trusted keys found\n"
@@ -6909,7 +6595,7 @@ msgstr "förbehållslös"
 #. essentially a comment and need not be translated.  Either key and
 #. uid are both NULL, or neither are NULL.
 msgid "10 translator see trust.c:uid_trust_string_fixed"
-msgstr ""
+msgstr "13"
 
 msgid "[ revoked]"
 msgstr "[återkallat]"
@@ -6954,10 +6640,9 @@ msgid "can't open fd %d: %s\n"
 msgstr "kan inte öppna fd %d: %s\n"
 
 # Äldre krypteringalgoritmer skapar ingen mdc dvs. "minisignatur" som skyddar mot att delar av den krypterade texten byts ut/tas bort. Alla nya 128-bitars algoritmer använder mdc: AES, AES192, AES256, BLOWFISH.
-#, fuzzy, c-format
-#| msgid "WARNING: message was not integrity protected\n"
+#, c-format
 msgid "WARNING: encrypting without integrity protection is dangerous\n"
-msgstr "VARNING: kryptering utan integritetsskydd är farligt"
+msgstr "VARNING: kryptering utan integritetsskydd är farligt\n"
 
 #, c-format
 msgid "Hint: Do not use option %s\n"
@@ -7014,19 +6699,17 @@ msgstr "||Ange upplåsningskoden för ditt PIV-kort"
 msgid "PIN callback returned error: %s\n"
 msgstr "PIN-återanrop returnerade fel: %s\n"
 
-#, fuzzy, c-format
-#| msgid "PIN for CHV%d is too short; minimum length is %d\n"
+#, c-format
 msgid "PIN is too short; minimum length is %d\n"
-msgstr "PIN-koden är för kort; minsta längd är %d"
+msgstr "PIN-koden är för kort; minsta längd är %d\n"
 
-#, fuzzy, c-format
-#| msgid "PIN for CHV%d is too short; minimum length is %d\n"
+#, c-format
 msgid "PIN is too long; maximum length is %d\n"
-msgstr "PIN-koden är för lång; maximal längd är %d"
+msgstr "PIN-koden är för lång; maximal längd är %d\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "PIN has invalid characters; only digits are allowed\n"
-msgstr "PIN-koden innehåller ogiltiga tecken; endast siffror är tillåtna"
+msgstr "PIN-koden innehåller ogiltiga tecken; endast siffror är tillåtna\n"
 
 #, c-format
 msgid "key already exists\n"
@@ -7056,10 +6739,9 @@ msgstr "svaret innehåller inte en RSA-modulus\n"
 msgid "response does not contain the RSA public exponent\n"
 msgstr "svaret innehåller inte den publika RSA-exponenten\n"
 
-#, fuzzy, c-format
-#| msgid "response does not contain the RSA public exponent\n"
+#, c-format
 msgid "response does not contain the EC public key\n"
-msgstr "svaret innehåller inte EC:s offentliga nyckel"
+msgstr "svaret innehåller inte publika EC-nyckeln\n"
 
 #, c-format
 msgid "please wait while key is being generated ...\n"
@@ -7069,12 +6751,11 @@ msgstr "var god vänta under tiden nyckeln genereras ...\n"
 msgid "generating key failed\n"
 msgstr "nyckelgenereringen misslyckades\n"
 
-#, fuzzy, c-format
-#| msgid "key generation completed (%d seconds)\n"
+#, c-format
 msgid "key generation completed (%d second)\n"
 msgid_plural "key generation completed (%d seconds)\n"
-msgstr[0] "nyckelgenerering slutförd (%d sekund)"
-msgstr[1] "nyckelgenerering slutförd (%d sekunder)"
+msgstr[0] "nyckelgenerering slutförd (%d sekund)\n"
+msgstr[1] "nyckelgenerering slutförd (%d sekunder)\n"
 
 #, c-format
 msgid "response does not contain the public key data\n"
@@ -7156,9 +6837,9 @@ msgstr "läsning av publik nyckel misslyckades: %s\n"
 #. TRANSLATORS: Put a \x1f right before a colon.  This can be
 #. * used by pinentry to nicely align the names and values.  Keep
 #. * the %s at the start and end of the string.
-#, fuzzy, c-format
+#, c-format
 msgid "%sNumber: %s%%0AHolder: %s%%0ACounter: %lu%s"
-msgstr "%sAntal: %s%%0AInnehavare: %s%%0ARäknare: %lu%s"
+msgstr "%sNummer: %s%%0AInnehavare: %s%%0ARäknare: %lu%s"
 
 #, c-format
 msgid "using default PIN as %s\n"
@@ -7185,16 +6866,16 @@ msgstr "validering av CHV%d misslyckades: %s\n"
 msgid "card is permanently locked!\n"
 msgstr "kortet är låst permanent!\n"
 
-#, fuzzy, c-format
-#| msgid "%d Admin PIN attempts remaining before card is permanently locked\n"
+#, c-format
 msgid "%d Admin PIN attempt remaining before card is permanently locked\n"
 msgid_plural ""
 "%d Admin PIN attempts remaining before card is permanently locked\n"
 msgstr[0] ""
-"%d Antal återstående försök att ange administratörskod innan kortet låses "
-"permanent"
+"%d återstående försök att ange PIN-kod för administratör innan kortet låses "
+"permanent\n"
 msgstr[1] ""
-"%d Återstående försök att ange administratörskod innan kortet låses permanent"
+"%d återstående försök att ange PIN-kod för administratör innan kortet låses "
+"permanent\n"
 
 #, c-format
 msgid "access to admin commands is not configured\n"
@@ -7308,10 +6989,8 @@ msgstr "använd inte den interna CCID-drivrutinen"
 msgid "|N|disconnect the card after N seconds of inactivity"
 msgstr "|N|koppla från kortet efter N sekunder inaktivitet"
 
-#, fuzzy
-#| msgid "do not use a reader's keypad"
 msgid "do not use a reader's pinpad"
-msgstr "använd inte läsarens pinpad"
+msgstr "använd inte läsarens knappsats"
 
 msgid "use variable length input for pinpad"
 msgstr "använd variabel längd för knappsatsinmatning"
@@ -7332,11 +7011,9 @@ msgstr ""
 "Syntax: scdaemon [flaggor] [kommando [argument]]\n"
 "Smartkortdaemon för @GNUPG@\n"
 
-#, fuzzy, c-format
-#| msgid ""
-#| "please use the option `--daemon' to run the program in the background\n"
+#, c-format
 msgid "please use the option '--daemon' to run the program in the background\n"
-msgstr "använd alternativet '--daemon' för att köra programmet i bakgrunden"
+msgstr "använd flaggan '--daemon' för att köra programmet i bakgrunden\n"
 
 #, c-format
 msgid "handler for fd %d started\n"
@@ -7378,8 +7055,7 @@ msgstr "kritisk markerad policy utan konfigurerade policier"
 msgid "failed to open '%s': %s\n"
 msgstr "misslyckades med att öppna '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "note: non-critical certificate policy not allowed"
+#, c-format
 msgid "Note: non-critical certificate policy not allowed"
 msgstr "Observera: icke-kritisk certifikatpolicy tillåts inte"
 
@@ -7399,10 +7075,9 @@ msgstr "slår upp utfärdare på extern plats\n"
 msgid "number of issuers matching: %d\n"
 msgstr "antal utfärdare som matchar: %d\n"
 
-#, fuzzy, c-format
-#| msgid "can't access `%s': %s\n"
+#, c-format
 msgid "can't get authorityInfoAccess: %s\n"
-msgstr "kan inte få authorityInfoAccess: %s"
+msgstr "kan inte få authorityInfoAccess: %s\n"
 
 #, c-format
 msgid "looking up issuer from the Dirmngr cache\n"
@@ -7607,25 +7282,21 @@ msgstr ""
 msgid "no key usage specified - assuming all usages\n"
 msgstr "ingen nyckelanvändning angiven - antar alla användningsområden\n"
 
-#, fuzzy, c-format
-#| msgid "certificate should have not been used for certification\n"
+#, c-format
 msgid "certificate should not have been used for certification\n"
-msgstr "certifikatet borde inte ha använts för certifiering"
+msgstr "certifikatet borde inte ha använts för certifiering\n"
 
-#, fuzzy, c-format
-#| msgid "certificate should have not been used for OCSP response signing\n"
+#, c-format
 msgid "certificate should not have been used for OCSP response signing\n"
-msgstr "certifikatet borde inte ha använts för OCSP-svarssignering"
+msgstr "certifikatet borde inte ha använts för OCSP-svarssignering\n"
 
-#, fuzzy, c-format
-#| msgid "certificate should have not been used for encryption\n"
+#, c-format
 msgid "certificate should not have been used for encryption\n"
-msgstr "certifikatet borde inte ha använts för kryptering"
+msgstr "certifikatet borde inte ha använts för kryptering\n"
 
-#, fuzzy, c-format
-#| msgid "certificate should have not been used for signing\n"
+#, c-format
 msgid "certificate should not have been used for signing\n"
-msgstr "certifikatet borde inte ha använts för signering"
+msgstr "certifikatet borde inte ha använts för signering\n"
 
 #, c-format
 msgid "certificate is not usable for encryption\n"
@@ -7635,10 +7306,9 @@ msgstr "certifikatet är inte användbart för kryptering\n"
 msgid "certificate is not usable for signing\n"
 msgstr "certifikatet är inte användbart för signering\n"
 
-#, fuzzy, c-format
-#| msgid "Included certificates"
+#, c-format
 msgid "looking for another certificate\n"
-msgstr "letar efter ett annat certifikat"
+msgstr "letar efter ett annat certifikat\n"
 
 #, c-format
 msgid "line %d: invalid algorithm\n"
@@ -7652,78 +7322,65 @@ msgstr "rad %d: ogiltig nyckellängd %u (giltiga är %d till %d)\n"
 msgid "line %d: no subject name given\n"
 msgstr "rad %d: inget ämnesnamn angivit\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid subject name label `%.*s'\n"
+#, c-format
 msgid "line %d: invalid subject name label '%.*s'\n"
-msgstr "rad %d: ogiltigt ämnesnamn '%.*s'"
+msgstr "rad %d: ogiltig ämnesnamnsetikett '%.*s'\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid subject name `%s' at pos %d\n"
+#, c-format
 msgid "line %d: invalid subject name '%s' at pos %d\n"
-msgstr "rad %d: ogiltigt ämnesnamn '%s' vid pos %d"
+msgstr "rad %d: ogiltigt ämnesnamn '%s' vid pos %d\n"
 
 #, c-format
 msgid "line %d: not a valid email address\n"
 msgstr "rad %d: inte en giltig e-postadress\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "line %d: invalid serial number\n"
-msgstr "rad %d: ogiltigt serienummer"
+msgstr "rad %d: ogiltigt serienummer\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid subject name label `%.*s'\n"
+#, c-format
 msgid "line %d: invalid issuer name label '%.*s'\n"
-msgstr "rad %d: ogiltigt utfärdarnamn '%.*s'"
+msgstr "rad %d: ogiltig utfärdarnamnsetikett '%.*s'\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid subject name `%s' at pos %d\n"
+#, c-format
 msgid "line %d: invalid issuer name '%s' at pos %d\n"
-msgstr "rad %d: ogiltigt utfärdarnamn '%s' vid pos %d"
+msgstr "rad %d: ogiltigt utfärdarnamn '%s' vid pos %d\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "line %d: invalid date given\n"
-msgstr "rad %d: ogiltigt datum angivet"
+msgstr "rad %d: ogiltigt datum angivet\n"
 
 # keygrip (i.e. a hash over the public key
 # parameters) formatted as a hex string.
-#, fuzzy, c-format
-#| msgid "line %d: error getting key by keygrip `%s': %s\n"
+#, c-format
 msgid "line %d: error getting signing key by keygrip '%s': %s\n"
-msgstr "rad %d: fel vid hämtning av signeringsnyckel med keygrip '%s': %s"
+msgstr "rad %d: fel vid hämtning av signeringsnyckel med keygrip '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "line %d: invalid hash algorithm given\n"
-msgstr "rad %d: ogiltig hash-algoritm angiven"
+msgstr "rad %d: ogiltig hash-algoritm angiven\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "line %d: invalid authority-key-id\n"
-msgstr "rad %d: ogiltigt authority-key-id"
+msgstr "rad %d: ogiltig authority-key-id\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid subject name `%s' at pos %d\n"
+#, c-format
 msgid "line %d: invalid subject-key-id\n"
-msgstr "rad %d: ogiltigt ämnes-nyckel-id"
+msgstr "rad %d: ogiltigt subject-key-id\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: invalid algorithm\n"
+#, c-format
 msgid "line %d: invalid extension syntax\n"
-msgstr "rad %d: ogiltig syntax för tillägg"
+msgstr "rad %d: ogiltig utökningssyntax\n"
 
-#, fuzzy, c-format
-#| msgid "line %d: error reading key `%s' from card: %s\n"
+#, c-format
 msgid "line %d: error reading key '%s' from card: %s\n"
-msgstr "rad %d: fel vid läsning av nyckel '%s' från kort: %s"
+msgstr "rad %d: fel vid läsning av nyckeln '%s' från kort: %s\n"
 
 # keygrip (i.e. a hash over the public key
 # parameters) formatted as a hex string.
-#, fuzzy, c-format
-#| msgid "line %d: error getting key by keygrip `%s': %s\n"
+#, c-format
 msgid "line %d: error getting key by keygrip '%s': %s\n"
-msgstr "rad %d: fel vid hämtning av nyckel med keygrip '%s': %s"
+msgstr "rad %d: fel vid hämtning av nyckel med keygrip '%s': %s\n"
 
 #, c-format
 msgid "line %d: key generation failed: %s <%s>\n"
@@ -7766,20 +7423,18 @@ msgstr "Ange ämnesnamn för X.509: "
 msgid "No subject name given\n"
 msgstr "Inget ämnesnamn angivet\n"
 
-#, fuzzy, c-format
-#| msgid "Invalid subject name label `%.*s'\n"
+#, c-format
 msgid "Invalid subject name label '%.*s'\n"
-msgstr "Ogiltig ämnesnamnsetikett '%.*s'"
+msgstr "Ogiltig ämnesnamnsetikett '%.*s'\n"
 
 #. TRANSLATORS: The 22 in the second string is the
 #. length of the first string up to the "%s".  Please
 #. adjust it do the length of your translation.  The
 #. second string is merely passed to atoi so you can
 #. drop everything after the number.
-#, fuzzy, c-format
-#| msgid "Invalid subject name `%s'\n"
+#, c-format
 msgid "Invalid subject name '%s'\n"
-msgstr "Ogiltigt ämnesnamn '%s'"
+msgstr "Ogiltigt ämnesnamn '%s'\n"
 
 msgid "22 translator: see certreg-ui.c:gpgsm_gencertreq_tty"
 msgstr "20"
@@ -7799,10 +7454,8 @@ msgstr " (valfritt: avsluta med en tom rad:\n"
 msgid "Enter URIs"
 msgstr "Ange URI:er"
 
-#, fuzzy
-#| msgid "Enter the notation: "
 msgid "Enter extensions"
-msgstr "Ange tillägg"
+msgstr "Ange utökningar"
 
 msgid "Create self-signed certificate? (y/N) "
 msgstr "Skapa självsignerat certifikat? (j/N) "
@@ -7814,15 +7467,11 @@ msgstr "Följande parametrar används:\n"
 msgid "error creating temporary file: %s\n"
 msgstr "fel när temporärfil skapades: %s\n"
 
-#, fuzzy
-#| msgid "self-signed certificate has a BAD signature"
 msgid "Now creating self-signed certificate.  "
-msgstr "Skapar nu självsignerat certifikat."
+msgstr "Skapar nu självsignerat certifikat.  "
 
-#, fuzzy
-#| msgid "Now creating certificate request.  This may take a while ...\n"
 msgid "Now creating certificate request.  "
-msgstr "Skapar nu certifikatbegäran."
+msgstr "Skapar nu certifikatbegäran.  "
 
 msgid "This may take a while ...\n"
 msgstr "Det kan ta ett tag ...\n"
@@ -7850,24 +7499,21 @@ msgstr "(det här verkar inte vara ett krypterat meddelande)\n"
 msgid "encrypted to %s key %s\n"
 msgstr "krypterad till %s nyckel %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate `%s' not found: %s\n"
+#, c-format
 msgid "certificate '%s' not found: %s\n"
-msgstr "certifikat '%s' hittades inte: %s"
+msgstr "certifikatet '%s' hittades inte: %s\n"
 
 #, c-format
 msgid "error locking keybox: %s\n"
 msgstr "fel vid låsning av nyckelskåp: %s\n"
 
-#, fuzzy, c-format
-#| msgid "duplicated certificate `%s' deleted\n"
+#, c-format
 msgid "duplicated certificate '%s' deleted\n"
-msgstr "duplicerat certifikat '%s' raderat"
+msgstr "duplicerat certifikat '%s' togs bort\n"
 
-#, fuzzy, c-format
-#| msgid "certificate `%s' deleted\n"
+#, c-format
 msgid "certificate '%s' deleted\n"
-msgstr "certifikat '%s' raderat"
+msgstr "certifikatet '%s' borttaget\n"
 
 #, c-format
 msgid "deleting certificate \"%s\" failed: %s\n"
@@ -7982,10 +7628,9 @@ msgstr "Observera: kommer inte kunna kryptera till '%s': %s\n"
 msgid "unknown validation model '%s'\n"
 msgstr "okänd valideringsmodell '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "importing common certificates `%s'\n"
+#, c-format
 msgid "importing common certificates '%s'\n"
-msgstr "importera vanliga certifikat '%s'"
+msgstr "importerar vanliga certifikat '%s'\n"
 
 #, c-format
 msgid "can't sign using '%s': %s\n"
@@ -8019,15 +7664,13 @@ msgstr "fel vid import av certifikat: %s\n"
 msgid "error reading input: %s\n"
 msgstr "fel vid läsning av indata: %s\n"
 
-#, fuzzy, c-format
-#| msgid "no gpg-agent running in this session\n"
+#, c-format
 msgid "no keyboxd running in this session\n"
-msgstr "ingen keyboxd körs i denna session"
+msgstr "ingen keyboxd körs i denna session\n"
 
-#, fuzzy, c-format
-#| msgid "error opening `%s': %s\n"
+#, c-format
 msgid "error opening key DB: %s\n"
-msgstr "fel vid öppning av nyckel-DB: %s"
+msgstr "fel vid öppning av nyckel-DB: %s\n"
 
 #, c-format
 msgid "problem looking for existing certificate: %s\n"
@@ -8052,20 +7695,17 @@ msgstr "fel vid lagring av flaggor: %s\n"
 msgid "Error - "
 msgstr "Fel - "
 
-#, fuzzy, c-format
-#| msgid "error writing to %s: %s\n"
+#, c-format
 msgid "error writing to output: %s\n"
-msgstr "fel vid skrivning till utdata: %s"
+msgstr "fel vid skrivning till utdata: %s\n"
 
-#, fuzzy, c-format
-#| msgid "invalid formatted fingerprint in `%s', line %d\n"
+#, c-format
 msgid "invalid formatted fingerprint in '%s', line %d\n"
-msgstr "ogiltigt formaterat fingeravtryck i '%s', rad %d"
+msgstr "ogiltigt formaterat fingeravtryck i '%s', rad %d\n"
 
-#, fuzzy, c-format
-#| msgid "invalid country code in `%s', line %d\n"
+#, c-format
 msgid "invalid country code in '%s', line %d\n"
-msgstr "ogiltig landskod i '%s', rad %d"
+msgstr "ogiltig landskod i '%s', rad %d\n"
 
 #, c-format
 msgid ""
@@ -8148,46 +7788,41 @@ msgstr "      även känd som"
 msgid "This is a qualified signature\n"
 msgstr "Det här är en kvalificerad signatur\n"
 
-#, fuzzy, c-format
-#| msgid "checking for qualified certificate failed: %s\n"
+#, c-format
 msgid "can't initialize certificate cache lock: %s\n"
-msgstr "kan inte initialisera certifikatcache-lås: %s"
+msgstr "kan inte initialisera certifikatcache-lås: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "can't acquire read lock on the certificate cache: %s\n"
-msgstr "kan inte erhålla läslås på certifikatcachen: %s"
+msgstr "kan inte erhålla läslås på certifikatcachen: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "can't acquire write lock on the certificate cache: %s\n"
-msgstr "kan inte erhålla skrivlås på certifikatcachen: %s"
+msgstr "kan inte erhålla skrivlås på certifikatcachen: %s\n"
 
-#, fuzzy, c-format
-#| msgid "problem looking for existing certificate: %s\n"
+#, c-format
 msgid "can't release lock on the certificate cache: %s\n"
-msgstr "kan inte frigöra låset på certifikatcachen: %s"
+msgstr "kan inte frigöra låset på certifikatcachen: %s\n"
 
-#, fuzzy, c-format
-#| msgid "looking up issuer from the Dirmngr cache\n"
+#, c-format
 msgid "dropping %u certificates from the cache\n"
-msgstr "ta bort %u certifikat från cacheminnet"
+msgstr "tömmer %u certifikat från cacheminnet\n"
 
 #, c-format
 msgid "can't parse certificate '%s': %s\n"
 msgstr "kan inte tolka certifikatet '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate `%s' deleted\n"
+#, c-format
 msgid "certificate '%s' already cached\n"
-msgstr "certifikat '%s' redan cachat"
+msgstr "certifikatet '%s' redan mellanlagrat\n"
 
 #, c-format
 msgid "trusted certificate '%s' loaded\n"
 msgstr "betrodda certifikatet '%s' inläst\n"
 
-#, fuzzy, c-format
-#| msgid "certificate `%s' deleted\n"
+#, c-format
 msgid "certificate '%s' loaded\n"
-msgstr "certifikat '%s' laddat"
+msgstr "certifikatet '%s' inläst\n"
 
 #, c-format
 msgid "  SHA1 fingerprint = %s\n"
@@ -8215,45 +7850,37 @@ msgstr "    certifikat som mellanlagrats under körning: %u\n"
 msgid "           trusted certificates: %u (%u,%u,%u,%u)\n"
 msgstr "           betrodda certifikat: %u (%u,%u,%u,%u)\n"
 
-#, fuzzy, c-format
-#| msgid "  (certificate created at "
+#, c-format
 msgid "certificate already cached\n"
-msgstr "certifikat redan cachat"
+msgstr "certifikatet redan mellanlagrat\n"
 
-#, fuzzy, c-format
-#| msgid "certificate is good\n"
+#, c-format
 msgid "certificate cached\n"
-msgstr "certifikat cachat"
+msgstr "certifikatet mellanlagrat\n"
 
-#, fuzzy, c-format
-#| msgid "error storing certificate: %s\n"
+#, c-format
 msgid "error caching certificate: %s\n"
-msgstr "fel vid cachning av certifikat: %s"
+msgstr "fel vid mellanlagring av certifikat: %s\n"
 
-#, fuzzy, c-format
-#| msgid "invalid fingerprint"
+#, c-format
 msgid "invalid SHA1 fingerprint string '%s'\n"
-msgstr "ogiltig SHA1-fingeravtryckssträng '%s'"
+msgstr "ogiltig SHA1-fingeravtryckssträng '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "error storing certificate: %s\n"
+#, c-format
 msgid "error fetching certificate by S/N: %s\n"
-msgstr "fel vid hämtning av certifikat med S/N: %s"
+msgstr "fel vid hämtning av certifikat med S/N: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error storing certificate: %s\n"
+#, c-format
 msgid "error fetching certificate by subject: %s\n"
-msgstr "fel vid hämtning av certifikat efter ämne: %s"
+msgstr "fel vid hämtning av certifikat efter ämne: %s\n"
 
-#, fuzzy, c-format
-#| msgid "no issuer found in certificate"
+#, c-format
 msgid "no issuer found in certificate\n"
-msgstr "ingen utfärdare hittades i certifikatet"
+msgstr "ingen utfärdare hittades i certifikatet\n"
 
-#, fuzzy, c-format
-#| msgid "error getting stored flags: %s\n"
+#, c-format
 msgid "error getting authorityKeyIdentifier: %s\n"
-msgstr "fel vid hämtning av authorityKeyIdentifier: %s"
+msgstr "fel vid hämtning av authorityKeyIdentifier: %s\n"
 
 #, c-format
 msgid "creating directory '%s'\n"
@@ -8263,15 +7890,13 @@ msgstr "skapar katalogen '%s'\n"
 msgid "error creating directory '%s': %s\n"
 msgstr "fel vid skapande av katalogen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "ignoring garbage line"
+#, c-format
 msgid "ignoring database dir '%s'\n"
-msgstr "ignorerar databasdir '%s'"
+msgstr "ignorerar databaskatalogen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "error reading from %s: %s\n"
+#, c-format
 msgid "error reading directory '%s': %s\n"
-msgstr "fel vid läsning av katalog '%s': %s"
+msgstr "fel vid läsning av katalogen '%s': %s\n"
 
 #, c-format
 msgid "removing cache file '%s'\n"
@@ -8281,126 +7906,109 @@ msgstr "tar bort cachefilen '%s'\n"
 msgid "not removing file '%s'\n"
 msgstr "tar inte bort filen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "error closing %s: %s\n"
+#, c-format
 msgid "error closing cache file: %s\n"
-msgstr "fel vid stängning av cachefil: %s"
+msgstr "fel vid stängning av cachefil: %s\n"
 
-#, fuzzy, c-format
-#| msgid "failed to open `%s': %s\n"
+#, c-format
 msgid "failed to open cache dir file '%s': %s\n"
-msgstr "misslyckades med att öppna cache-katalogen '%s': %s"
+msgstr "misslyckades med att öppna cachekatalogfilen '%s': %s\n"
 
 #, c-format
 msgid "error creating new cache dir file '%s': %s\n"
 msgstr "fel vid skapande av ny cachekatalogfil '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing secret keyring `%s': %s\n"
+#, c-format
 msgid "error writing new cache dir file '%s': %s\n"
-msgstr "fel vid skrivning av ny cache-katalogfil '%s': %s"
+msgstr "fel vid skrivning av nya cachekatalogfilen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error closing %s: %s\n"
+#, c-format
 msgid "error closing new cache dir file '%s': %s\n"
-msgstr "fel vid stängning av ny cache-katalogfil '%s': %s"
+msgstr "fel vid stängning av nya cache-katalogfilen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "new configuration file `%s' created\n"
+#, c-format
 msgid "new cache dir file '%s' created\n"
-msgstr "ny cache-katalogfil '%s' skapad"
+msgstr "nya cachekatalogfilen '%s' skapades\n"
 
-#, fuzzy, c-format
-#| msgid "failed to create temporary file `%s': %s\n"
+#, c-format
 msgid "failed to re-open cache dir file '%s': %s\n"
-msgstr "misslyckades med att öppna cache-katalogen '%s': %s"
+msgstr "misslyckades med att öppna cachekatalogfilen '%s' igen: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "first record of '%s' is not the version\n"
-msgstr "första posten av '%s' är inte versionen"
+msgstr "första posten av '%s' är inte versionen\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "old version of cache directory - cleaning up\n"
-msgstr "gammal version av cache-katalogen - rensning"
+msgstr "gammal version av cache-katalogen - rensar upp\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "old version of cache directory - giving up\n"
-msgstr "gammal version av cache-katalogen - ge upp"
+msgstr "gammal version av cache-katalogen - ger upp\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "extra field detected in crl record of '%s' line %u\n"
-msgstr "extra fält upptäckt i crl-post för '%s' rad %u"
+msgstr "extra fält upptäcktes i crl-post för '%s' rad %u\n"
 
-#, fuzzy, c-format
-#| msgid "invalid country code in `%s', line %d\n"
+#, c-format
 msgid "invalid line detected in '%s' line %u\n"
-msgstr "ogiltig rad upptäckt i '%s' rad %u"
+msgstr "ogiltig rad upptäckt i '%s' rad %u\n"
 
-#, fuzzy, c-format
-#| msgid "invalid country code in `%s', line %d\n"
+#, c-format
 msgid "duplicate entry detected in '%s' line %u\n"
-msgstr "dubbla poster upptäckta i '%s' rad %u"
+msgstr "duplicerad post upptäcktes i '%s' rad %u\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unsupported record type in '%s' line %u skipped\n"
-msgstr "stödd inte rekordtyp i '%s' rad %u hoppas över"
+msgstr "posttypen stöds inte i '%s' rad %u hoppas över\n"
 
-#, fuzzy, c-format
-#| msgid "invalid keyflag in `%s', line %d\n"
+#, c-format
 msgid "invalid issuer hash in '%s' line %u\n"
-msgstr "ogiltig utfärdarhash i '%s' rad %u"
+msgstr "ogiltig utfärdarhash i '%s' rad %u\n"
 
-#, fuzzy, c-format
-#| msgid "bad fingerprint in `%s', line %d\n"
+#, c-format
 msgid "no issuer DN in '%s' line %u\n"
-msgstr "ingen utfärdare-DN i '%s' rad %u"
+msgstr "inget utfärdare-DN i '%s' rad %u\n"
 
-#, fuzzy, c-format
-#| msgid "invalid keyflag in `%s', line %d\n"
+#, c-format
 msgid "invalid timestamp in '%s' line %u\n"
-msgstr "ogiltig tidsstämpel i '%s' rad %u"
+msgstr "ogiltig tidsstämpel i '%s' rad %u\n"
 
-#, fuzzy, c-format
-#| msgid "invalid keyflag in `%s', line %d\n"
+#, c-format
 msgid "WARNING: invalid cache file hash in '%s' line %u\n"
-msgstr "VARNING: ogiltig cachefilhash i '%s' rad %u"
+msgstr "VARNING: ogiltig cachefilhash i '%s' rad %u\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "detected errors in cache dir file\n"
-msgstr "upptäckta fel i cache-katalogen"
+msgstr "upptäckte fel i cache-katalogfilen\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "please check the reason and manually delete that file\n"
-msgstr "vänligen kontrollera orsaken och ta bort filen manuellt"
+msgstr "kontrollera orsaken och ta bort filen manuellt\n"
 
-#, fuzzy, c-format
-#| msgid "failed to create temporary file `%s': %s\n"
+#, c-format
 msgid "failed to create temporary cache dir file '%s': %s\n"
-msgstr "misslyckades med att skapa tillfällig cache-katalogfil '%s': %s"
+msgstr "misslyckades med att skapa tillfälliga cachekatalogfilen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error reading `%s': %s\n"
+#, c-format
 msgid "error renaming '%s' to '%s': %s\n"
-msgstr "fel vid omdöpning av '%s' till '%s': %s"
+msgstr "fel vid namnbyte av '%s' till '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "can't access `%s': %s\n"
+#, c-format
 msgid "can't hash '%s': %s\n"
-msgstr "kan inte hasha '%s': %s"
+msgstr "kan inte hasha '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error sending %s command: %s\n"
+#, c-format
 msgid "error setting up MD5 hash context: %s\n"
-msgstr "fel vid inställning av MD5-hashkontext: %s"
+msgstr "fel vid inställning av MD5-hashkontext: %s\n"
 
 #, c-format
 msgid "error hashing '%s': %s\n"
 msgstr "fel vid hashning av '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "invalid formatted fingerprint in `%s', line %d\n"
+#, c-format
 msgid "invalid formatted checksum for '%s'\n"
-msgstr "ogiltig formaterad kontrollsumma för '%s'"
+msgstr "ogiltig formaterad kontrollsumma för '%s'\n"
 
 #, c-format
 msgid "too many open cache files; can't open anymore\n"
@@ -8414,9 +8022,9 @@ msgstr "öppnar cachefilen '%s'\n"
 msgid "error opening cache file '%s': %s\n"
 msgstr "fel vid öppning av cachefilen '%s': %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "error initializing cache file '%s' for reading: %s\n"
-msgstr "fel vid initialisering av cachefilen '%s' för läsning: %s"
+msgstr "fel vid initialisering av cachefilen '%s' för läsning: %s\n"
 
 #, c-format
 msgid "calling unlock_db_file on a closed file\n"
@@ -8426,48 +8034,46 @@ msgstr "anropar unlock_db_file på en stängd fil\n"
 msgid "calling unlock_db_file on an unlocked file\n"
 msgstr "anropar unlock_db_file på en olåst fil\n"
 
-#, fuzzy, c-format
-#| msgid "failed to create stream from socket: %s\n"
+#, c-format
 msgid "failed to create a new cache object: %s\n"
-msgstr "det gick inte att skapa ett nytt cacheobjekt: %s"
+msgstr "misslyckades med att skapa ett nytt cacheobjekt: %s\n"
 
-#, fuzzy, c-format
-#| msgid "No help available for `%s'"
+#, c-format
 msgid "no CRL available for issuer id %s\n"
-msgstr "ingen CRL tillgänglig för utfärdar-id %s"
+msgstr "ingen CRL tillgänglig för utfärdar-id %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "cached CRL for issuer id %s too old; update required\n"
-msgstr "cachad CRL för utfärdar-ID %s är för gammal; uppdatering krävs"
+msgstr "mellanlagrad CRL för utfärdar-ID %s är för gammal; uppdatering krävs\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "force-crl-refresh active and %d minutes passed for issuer id %s; update "
 "required\n"
 msgstr ""
 "force-crl-refresh aktivt och %d minuter har gått för utfärdar-id %s; "
-"uppdatering krävs"
+"uppdatering krävs\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "force-crl-refresh active for issuer id %s; update required\n"
-msgstr "force-crl-refresh aktiv för utfärdar-id %s; uppdatering krävs"
+msgstr "force-crl-refresh aktiv för utfärdar-id %s; uppdatering krävs\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "available CRL for issuer ID %s can't be used\n"
-msgstr "tillgänglig CRL för utfärdar-ID %s kan inte användas"
+msgstr "tillgänglig CRL för utfärdar-ID %s kan inte användas\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "cached CRL for issuer id %s tampered; we need to update\n"
-msgstr "cachad CRL för utfärdar-ID %s har manipulerats; vi måste uppdatera"
+msgstr ""
+"mellanlagrad CRL för utfärdar-ID %s har manipulerats; vi måste uppdatera\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: invalid cache record length for S/N "
-msgstr "VARNING: ogiltig cache-postlängd för S/N"
+msgstr "VARNING: ogiltig cache-postlängd för S/N "
 
-#, fuzzy, c-format
-#| msgid "Error reading backup key from `%s': %s\n"
+#, c-format
 msgid "problem reading cache record for S/N %s: %s\n"
-msgstr "problem med att läsa cache-post för S/N %s: %s"
+msgstr "problem med att läsa cache-post för S/N %s: %s\n"
 
 #, c-format
 msgid "S/N %s is not valid; reason=%02X  date=%.15s\n"
@@ -8477,255 +8083,218 @@ msgstr "S/N %s är ogiltigt; anledning=%02X datum=%.15s\n"
 msgid "S/N %s is valid, it is not listed in the CRL\n"
 msgstr "S/N %s är giltigt, det finns inte listat i CRL\n"
 
-#, fuzzy, c-format
-#| msgid "error getting stored flags: %s\n"
+#, c-format
 msgid "error getting data from cache file: %s\n"
-msgstr "fel vid hämtning av data från cachefilen: %s"
+msgstr "fel vid hämtning av data från cachefilen: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "got an invalid S-expression from libksba\n"
-msgstr "fick ett ogiltigt S-uttryck från libksba"
+msgstr "fick ett ogiltigt S-uttryck från libksba\n"
 
-#, fuzzy, c-format
-#| msgid "iconv_open failed: %s\n"
+#, c-format
 msgid "converting S-expression failed: %s\n"
-msgstr "konvertering av S-uttryck misslyckades: %s"
+msgstr "konvertering av S-uttryck misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "invalid hash algorithm `%s'\n"
+#, c-format
 msgid "unknown hash algorithm '%s'\n"
-msgstr "okänd hash-algoritm '%s'"
+msgstr "okänd hash-algoritm '%s'\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "gcry_md_open for algorithm %d failed: %s\n"
-msgstr "gcry_md_open för algoritm %d misslyckades: %s"
+msgstr "gcry_md_open för algoritm %d misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "receiving line failed: %s\n"
+#, c-format
 msgid "creating S-expression failed: %s\n"
-msgstr "skapandet av S-uttryck misslyckades: %s"
+msgstr "skapandet av S-uttryck misslyckades: %s\n"
 
 # Vad?
-#, fuzzy, c-format
-#| msgid "build_packet failed: %s\n"
+#, c-format
 msgid "ksba_crl_parse failed: %s\n"
-msgstr "ksba_crl_parse misslyckades: %s"
+msgstr "ksba_crl_parse misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error getting serial number of card: %s\n"
+#, c-format
 msgid "error getting update times of CRL: %s\n"
-msgstr "fel vid hämtning av uppdateringstider för CRL: %s"
+msgstr "fel vid hämtning av uppdateringstider för CRL: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "update times of this CRL: this=%s next=%s\n"
-msgstr "uppdateringstider för denna CRL: nuvarande=%s nästa=%s"
+msgstr "uppdateringstider för denna CRL: denna=%s nästa=%s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "nextUpdate not given; assuming a validity period of one day\n"
-msgstr "nextUpdate anges inte; antar en giltighetstid på en dag"
+msgstr "nextUpdate anges inte; antar en giltighetstid på en dag\n"
 
-#, fuzzy, c-format
-#| msgid "error getting new PIN: %s\n"
+#, c-format
 msgid "error getting CRL item: %s\n"
-msgstr "fel vid hämtning av CRL-objekt: %s"
+msgstr "fel vid hämtning av CRL-objekt: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing to temporary file: %s\n"
+#, c-format
 msgid "error inserting item into temporary cache file: %s\n"
-msgstr "fel vid infogning av objekt i tillfällig cachefil: %s"
+msgstr "fel vid infogning av objekt i tillfällig cachefil: %s\n"
 
-#, fuzzy, c-format
-#| msgid "no issuer found in certificate"
+#, c-format
 msgid "no CRL issuer found in CRL: %s\n"
-msgstr "ingen CRL-utfärdare hittades i CRL: %s"
+msgstr "ingen CRL-utfärdare hittades i CRL: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "locating CRL issuer certificate by authorityKeyIdentifier\n"
 msgstr ""
-"lokalisera CRL-utfärdarens certifikat med hjälp av authorityKeyIdentifier"
+"lokalisera CRL-utfärdarens certifikat med hjälp av authorityKeyIdentifier\n"
 
-#, fuzzy, c-format
-#| msgid "signature verification suppressed\n"
+#, c-format
 msgid "CRL signature verification failed: %s\n"
-msgstr "CRL-signaturverifiering misslyckades: %s"
+msgstr "CRL-signaturverifiering misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error reading list of trusted root certificates\n"
+#, c-format
 msgid "error checking validity of CRL issuer certificate: %s\n"
-msgstr "fel vid kontroll av giltigheten för CRL-utfärdarens certifikat: %s"
+msgstr "fel vid kontroll av giltigheten för CRL-utfärdarens certifikat: %s\n"
 
-#, fuzzy, c-format
-#| msgid "select failed: %s\n"
+#, c-format
 msgid "ksba_crl_new failed: %s\n"
-msgstr "ksba_crl_new misslyckades: %s"
+msgstr "ksba_crl_new misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "read failed: %s\n"
+#, c-format
 msgid "ksba_crl_set_reader failed: %s\n"
-msgstr "ksba_crl_set_reader misslyckades: %s"
+msgstr "ksba_crl_set_reader misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "failed to create temporary file `%s': %s\n"
+#, c-format
 msgid "removed stale temporary cache file '%s'\n"
-msgstr "borttagen gammal tillfällig cachefil '%s'"
+msgstr "tog bort gamla tillfälliga cachefilen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "failed to create temporary file `%s': %s\n"
+#, c-format
 msgid "problem removing stale temporary cache file '%s': %s\n"
-msgstr "problem med att ta bort gammal tillfällig cachefil '%s': %s"
+msgstr "problem med att ta bort gamla tillfälliga cachefilen '%s': %s\n"
 
 #, c-format
 msgid "error creating temporary cache file '%s': %s\n"
 msgstr "fel vid skapandet av tillfälliga cachefilen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "update secret failed: %s\n"
+#, c-format
 msgid "crl_parse_insert failed: %s\n"
-msgstr "crl_parse_insert misslyckades: %s"
+msgstr "crl_parse_insert misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing to temporary file: %s\n"
+#, c-format
 msgid "error finishing temporary cache file '%s': %s\n"
-msgstr "fel vid avslutning av tillfällig cachefil '%s': %s"
+msgstr "fel vid avslutning av tillfälliga cachefilen '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error creating temporary file: %s\n"
+#, c-format
 msgid "error closing temporary cache file '%s': %s\n"
-msgstr "fel vid stängning av tillfällig cachefil '%s': %s"
+msgstr "fel vid stängning av tillfälliga cachefilen '%s': %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "WARNING: new CRL still too old; it expired on %s - loading anyway\n"
 msgstr ""
-"VARNING: ny CRL fortfarande för gammal; den gick ut den %s – laddar ändå"
+"VARNING: ny CRL fortfarande för gammal; den gick ut den %s – läser in ändå\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "new CRL still too old; it expired on %s\n"
-msgstr "ny CRL fortfarande för gammal; den gick ut den %s"
+msgstr "ny CRL fortfarande för gammal; den gick ut den %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "unknown critical CRL extension %s\n"
-msgstr "okänd kritisk CRL-förlängning %s"
+msgstr "okänd kritisk CRL-utökning %s\n"
 
-#, fuzzy, c-format
-#| msgid "error reading input: %s\n"
+#, c-format
 msgid "error reading CRL extensions: %s\n"
-msgstr "fel vid läsning av CRL-tillägg: %s"
+msgstr "fel vid läsning av CRL-utökningar: %s\n"
 
 #, c-format
 msgid "creating cache file '%s'\n"
 msgstr "skapar cachefilen '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "renaming `%s' to `%s' failed: %s\n"
+#, c-format
 msgid "problem renaming '%s' to '%s': %s\n"
-msgstr "problem med att byta namn på '%s' till '%s': %s"
+msgstr "problem med att byta namn på '%s' till '%s': %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "updating the DIR file failed - cache entry will get lost with the next "
 "program start\n"
 msgstr ""
-"uppdateringen av DIR-filen misslyckades – cache-posten kommer att gå "
-"förlorad nästa gång programmet startas"
+"uppdateringen av DIR-filen misslyckades – cacheposten kommer att gå förlorad "
+"nästa gång programmet startas\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Begin CRL dump (retrieved via %s)\n"
-msgstr "Börja CRL-dumpning (hämtad via %s)"
+msgstr "Börja CRL-dumpning (hämtad via %s)\n"
 
-#, fuzzy
 msgid ""
 " ERROR: The CRL will not be used because it was still too old after an "
 "update!\n"
 msgstr ""
 " FEL: CRL kommer inte att användas eftersom den fortfarande var för gammal "
-"efter en uppdatering!"
+"efter en uppdatering!\n"
 
-#, fuzzy
 msgid ""
 " ERROR: The CRL will not be used due to an unknown critical extension!\n"
 msgstr ""
-" FEL: CRL kommer inte att användas på grund av en okänd kritisk förlängning!"
+" FEL: CRL kommer inte att användas på grund av en okänd kritisk utökning!\n"
 
-#, fuzzy
 msgid " ERROR: The CRL will not be used\n"
-msgstr " FEL: CRL kommer inte att användas"
+msgstr " FEL: CRL kommer inte att användas\n"
 
-#, fuzzy
 msgid " ERROR: This cached CRL may have been tampered with!\n"
-msgstr " FEL: Denna cachade CRL kan ha manipulerats!"
+msgstr " FEL: Denna mellanlagrade CRL kan ha manipulerats!\n"
 
 #, c-format
 msgid " WARNING: invalid cache record length\n"
 msgstr " VARNING: ogiltig cache-postlängd\n"
 
-#, fuzzy, c-format
-#| msgid "error reading the card: %s\n"
+#, c-format
 msgid "problem reading cache record: %s\n"
-msgstr "problem med att läsa cache-post: %s"
+msgstr "problem med att läsa cache-post: %s\n"
 
-#, fuzzy, c-format
-#| msgid "problem re-searching certificate: %s\n"
+#, c-format
 msgid "problem reading cache key: %s\n"
-msgstr "problem med att läsa cache-nyckel: %s"
+msgstr "problem med att läsa cache-nyckel: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error reading nonce on fd %d: %s\n"
+#, c-format
 msgid "error reading cache entry from db: %s\n"
-msgstr "fel vid läsning av cache-post från databasen: %s"
+msgstr "fel vid läsning av cache-post från databasen: %s\n"
 
-#, fuzzy
 msgid "End CRL dump\n"
-msgstr "Slut på CRL-dump"
+msgstr "Slut på CRL-dump\n"
 
-#, fuzzy, c-format
-#| msgid "read failed: %s\n"
+#, c-format
 msgid "crl_fetch via DP failed: %s\n"
-msgstr "crl_fetch via DP misslyckades: %s"
+msgstr "crl_fetch via DP misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "checking the trust list failed: %s\n"
+#, c-format
 msgid "crl_cache_insert via DP failed: %s\n"
-msgstr "crl_cache_insert via DP misslyckades: %s"
+msgstr "crl_cache_insert via DP misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "receiving line failed: %s\n"
+#, c-format
 msgid "crl_cache_insert via issuer failed: %s\n"
-msgstr "crl_cache_insert via utfärdare misslyckades: %s"
+msgstr "crl_cache_insert via utfärdare misslyckades: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "reader to file mapping table full - waiting\n"
-msgstr "läsare till filmappningstabell full - väntar"
+msgstr "läsare till filmappningstabell är full - väntar\n"
 
-#, fuzzy
-#| msgid "certificate `%s' not found: %s\n"
 msgid "CRL access not possible due to Tor mode"
 msgstr "CRL-åtkomst inte möjlig på grund av Tor-läge"
 
-#, fuzzy, c-format
+#, c-format
 msgid "CRL access not possible due to disabled %s\n"
-msgstr "CRL-åtkomst inte möjlig på grund av inaktiverad %s"
+msgstr "CRL-åtkomst inte möjlig på grund av inaktiverad %s\n"
 
-#, fuzzy, c-format
-#| msgid "error retrieving `%s' via %s: %s\n"
+#, c-format
 msgid "error retrieving '%s': %s\n"
-msgstr "fel vid hämtning av '%s': %s"
+msgstr "fel vid hämtning av '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "%s: error writing dir record: %s\n"
+#, c-format
 msgid "error initializing reader object: %s\n"
-msgstr "fel vid initialisering av läsarobjekt: %s"
+msgstr "fel vid initialisering av läsarobjekt: %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate `%s' not found: %s\n"
+#, c-format
 msgid "certificate search not possible due to disabled %s\n"
-msgstr "certifikatsökning inte möjlig på grund av inaktiverad %s"
+msgstr "certifikatsökning inte möjlig på grund av inaktiverad %s\n"
 
 msgid "use OCSP instead of CRLs"
 msgstr "använd OCSP istället för CRL:er"
 
-#, fuzzy
 msgid "check whether a dirmngr is running"
-msgstr "kontrollera om en dirmngr körs"
+msgstr "kontrollera huruvida en dirmngr körs"
 
 msgid "add a certificate to the cache"
 msgstr "lägg till ett certifikat i cachen"
@@ -8733,15 +8302,11 @@ msgstr "lägg till ett certifikat i cachen"
 msgid "validate a certificate"
 msgstr "validera ett certifikat"
 
-#, fuzzy
-#| msgid "Included certificates"
 msgid "lookup a certificate"
-msgstr "söka efter ett certifikat"
+msgstr "slå upp ett certifikat"
 
-#, fuzzy
-#| msgid "Included certificates"
 msgid "lookup only locally stored certificates"
-msgstr "sök endast lokalt lagrade certifikat"
+msgstr "slå endast upp lokalt lagrade certifikat"
 
 msgid "expect an URL for --lookup"
 msgstr "förvänta en URL för --lookup"
@@ -8749,15 +8314,12 @@ msgstr "förvänta en URL för --lookup"
 msgid "load a CRL into the dirmngr"
 msgstr "läs in en CRL i dirmngr"
 
-#, fuzzy
 msgid "special mode for use by Squid"
 msgstr "speciellt läge för användning av Squid"
 
 msgid "expect certificates in PEM format"
 msgstr "förvänta certifikat i PEM-format"
 
-#, fuzzy
-#| msgid "Enter the user ID of the designated revoker: "
 msgid "force the use of the default OCSP responder"
 msgstr "tvinga användningen av standard-OCSP-svararen"
 
@@ -8776,34 +8338,29 @@ msgstr ""
 "Processen returnerar 0 om certifikatet är giltigt, 1 om det inte\n"
 "är giltigt och andra felkoder för allmänna fel\n"
 
-#, fuzzy, c-format
-#| msgid "error storing certificate: %s\n"
+#, c-format
 msgid "error reading certificate from stdin: %s\n"
-msgstr "fel vid läsning av certifikat från stdin: %s"
+msgstr "fel vid läsning av certifikat från stdin: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error reading from %s: %s\n"
+#, c-format
 msgid "error reading certificate from '%s': %s\n"
-msgstr "fel vid läsning av certifikat från '%s': %s"
+msgstr "fel vid läsning av certifikat från '%s': %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "certificate too large to make any sense\n"
-msgstr "certifikatet är för stort för att vara meningsfullt"
+msgstr "certifikatet är för stort för att vara meningsfullt\n"
 
-#, fuzzy, c-format
-#| msgid "can't connect to `%s': %s\n"
+#, c-format
 msgid "can't connect to the dirmngr: %s\n"
-msgstr "kan inte ansluta till dirmngr: %s"
+msgstr "kan inte ansluta till dirmngr: %s\n"
 
-#, fuzzy, c-format
-#| msgid "update failed: %s\n"
+#, c-format
 msgid "lookup failed: %s\n"
-msgstr "sökningen misslyckades: %s"
+msgstr "uppslagning misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "renaming `%s' to `%s' failed: %s\n"
+#, c-format
 msgid "loading CRL '%s' failed: %s\n"
-msgstr "laddning av CRL '%s' misslyckades: %s"
+msgstr "inläsning av CRL '%s' misslyckades: %s\n"
 
 #, c-format
 msgid "a dirmngr daemon is up and running\n"
@@ -8813,46 +8370,40 @@ msgstr "en dirmngr-daemon är igång och kör\n"
 msgid "validation of certificate failed: %s\n"
 msgstr "validering av certifikat misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate is good\n"
+#, c-format
 msgid "certificate is valid\n"
-msgstr "certifikatet är giltigt"
+msgstr "certifikatet är giltigt\n"
 
-#, fuzzy, c-format
-#| msgid "certificate has been revoked"
+#, c-format
 msgid "certificate has been revoked\n"
-msgstr "certifikatet har återkallats"
+msgstr "certifikatet har återkallats\n"
 
-#, fuzzy, c-format
-#| msgid "deleting certificate \"%s\" failed: %s\n"
+#, c-format
 msgid "certificate check failed: %s\n"
-msgstr "certifikatskontrollen misslyckades: %s"
+msgstr "certifikatskontrollen misslyckades: %s\n"
 
 #, c-format
 msgid "got status: '%s'\n"
 msgstr "fick status: '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "error writing secret keyring `%s': %s\n"
+#, c-format
 msgid "error writing base64 encoding: %s\n"
-msgstr "fel vid skrivning av base64-kodning: %s"
+msgstr "fel vid skrivning av base64-kodning: %s\n"
 
-#, fuzzy, c-format
-#| msgid "unsupported algorithm: %s"
+#, c-format
 msgid "unsupported inquiry '%s'\n"
-msgstr "ej stödd förfrågan '%s'"
+msgstr "förfrågan stöds inte '%s'\n"
 
 #, c-format
 msgid "absolute file name expected\n"
 msgstr "absolut filnamn förväntas\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "looking up '%s'\n"
-msgstr "söker efter '%s'"
+msgstr "slår upp '%s'\n"
 
-#, fuzzy
 msgid "list the contents of the CRL cache"
-msgstr "visa innehållet i CRL-cachen"
+msgstr "lista innehållet i CRL-cachen"
 
 msgid "|FILE|load CRL from FILE into cache"
 msgstr "|FIL|läs in CRL från FIL till cache"
@@ -8863,9 +8414,8 @@ msgstr "|URL|hämta en CRL från URL"
 msgid "shutdown the dirmngr"
 msgstr "stäng av dirmngr"
 
-#, fuzzy
 msgid "flush the cache"
-msgstr "töm cacheminnet"
+msgstr "töm cachen"
 
 msgid "allow online software version check"
 msgstr "tillåt nätkontroll av programvaruversion"
@@ -8873,9 +8423,8 @@ msgstr "tillåt nätkontroll av programvaruversion"
 msgid "|N|do not return more than N items in one query"
 msgstr "|N|returnera inte fler än N objekt i en fråga"
 
-#, fuzzy
 msgid "Network related options"
-msgstr "Nätverksrelaterade alternativ"
+msgstr "Nätverksrelaterade flaggor"
 
 msgid "route all network traffic via Tor"
 msgstr "dirigera all nätverkstrafik via Tor"
@@ -8883,11 +8432,9 @@ msgstr "dirigera all nätverkstrafik via Tor"
 msgid "Configuration for HTTP servers"
 msgstr "Konfiguration för HTTP-servrar"
 
-#, fuzzy
 msgid "inhibit the use of HTTP"
 msgstr "förhindra användningen av HTTP"
 
-#, fuzzy
 msgid "ignore HTTP CRL distribution points"
 msgstr "ignorera HTTP CRL-distributionspunkter"
 
@@ -8897,8 +8444,6 @@ msgstr "|URL|omdirigera alla HTTP-förfrågningar till URL"
 msgid "use system's HTTP proxy setting"
 msgstr "använd systemets HTTP-proxyinställningar"
 
-#, fuzzy
-#| msgid "Configuration for HTTP servers"
 msgid "Configuration for OpenPGP servers"
 msgstr "Konfiguration för OpenPGP-servrar"
 
@@ -8908,23 +8453,18 @@ msgstr "|URL| använd nyckelservern på URL"
 msgid "|FILE|use the CA certificates in FILE for HKP over TLS"
 msgstr "|FIL|använd CA-certifikaten i FIL för HKP över TLS"
 
-#, fuzzy
-#| msgid "Configuration for HTTP servers"
 msgid "Configuration for X.509 servers"
 msgstr "Konfiguration för X.509-servrar"
 
-#, fuzzy
 msgid "inhibit the use of LDAP"
 msgstr "förhindra användningen av LDAP"
 
-#, fuzzy
 msgid "ignore LDAP CRL distribution points"
 msgstr "ignorera LDAP CRL-distributionspunkter"
 
 msgid "|HOST|use HOST for LDAP queries"
 msgstr "|VÄRD|använd VÄRD för LDAP-frågor"
 
-#, fuzzy
 msgid "do not use fallback hosts with --ldap-proxy"
 msgstr "använd inte reservvärdar med --ldap-proxy"
 
@@ -8948,20 +8488,17 @@ msgstr "Konfiguration för OCSP"
 msgid "allow sending OCSP requests"
 msgstr "tillåt att skicka OCSP-förfrågningar"
 
-#, fuzzy
 msgid "ignore certificate contained OCSP service URLs"
-msgstr "ignorera certifikat som innehåller OCSP-tjänstens URL-adresser"
+msgstr "ignorera certifikat som innehåller OCSP-tjänstens URLer"
 
 msgid "|URL|use OCSP responder at URL"
 msgstr "|URL|använd OCSP-svarare på URL"
 
-#, fuzzy
 msgid "|FPR|OCSP response signed by FPR"
 msgstr "|FPR|OCSP-svar signerat av FPR"
 
-#, fuzzy
 msgid "force loading of outdated CRLs"
-msgstr "tvinga laddning av föråldrade CRL:er"
+msgstr "tvinga inläsning av föråldrade CRL:er"
 
 # inställningar istället för flaggor?
 # Nej, här är det bruksanvisningen för kommandoraden.
@@ -8992,29 +8529,25 @@ msgstr "giltiga felsökningsnivåer är: %s\n"
 msgid "usage: %s [options] "
 msgstr "användning: %s [flaggor] "
 
-#, fuzzy, c-format
-#| msgid "%s not allowed with %s!\n"
+#, c-format
 msgid "colons are not allowed in the socket name\n"
-msgstr "kolon är inte tillåtna i socketnamnet"
+msgstr "kolontecken är inte tillåtna i uttagsnamnet\n"
 
 #, c-format
 msgid "error forking process: %s\n"
 msgstr "fel vid grening av process: %s\n"
 
-#, fuzzy, c-format
-#| msgid "renaming `%s' to `%s' failed: %s\n"
+#, c-format
 msgid "fetching CRL from '%s' failed: %s\n"
-msgstr "hämtning av CRL från '%s' misslyckades: %s"
+msgstr "hämtning av CRL från '%s' misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "conversion from `%s' to `%s' failed: %s\n"
+#, c-format
 msgid "processing CRL from '%s' failed: %s\n"
-msgstr "bearbetning av CRL från '%s' misslyckades: %s"
+msgstr "bearbetning av CRL från '%s' misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "line too long - skipped\n"
+#, c-format
 msgid "%s:%u: line too long - skipped\n"
-msgstr "%s:%u: raden är för lång – hoppas över"
+msgstr "%s:%u: raden är för lång – hoppar över\n"
 
 #, c-format
 msgid "%s:%u: invalid fingerprint detected\n"
@@ -9028,94 +8561,89 @@ msgstr "%s:%u: läsningsfel: %s\n"
 msgid "%s:%u: garbage at end of line ignored\n"
 msgstr "%s:%u: skräp i slutet av raden ignoreras\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "SIGHUP received - re-reading configuration and flushing caches\n"
-msgstr "SIGHUP mottaget – läser om konfigurationen och tömmer cacheminnen"
+msgstr "SIGHUP togs emot – läser om konfigurationen och tömmer cachar\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "SIGUSR2 received - no action defined\n"
-msgstr "SIGUSR2 mottagen – ingen åtgärd definierad"
+msgstr "SIGUSR2 togs emot – ingen åtgärd definierad\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "SIGTERM received - shutting down ...\n"
-msgstr "SIGTERM mottagen – stänger ner .."
+msgstr "SIGTERM togs emot – stänger ner ...\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "SIGTERM received - still %d active connections\n"
-msgstr "SIGTERM mottagen – fortfarande %d aktiva anslutningar"
+msgstr "SIGTERM togs emot – fortfarande %d aktiva anslutningar\n"
 
 #, c-format
 msgid "shutdown forced\n"
 msgstr "avstängning tvingad\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "SIGINT received - immediate shutdown\n"
-msgstr "SIGINT mottagen – omedelbar avstängning"
+msgstr "SIGINT togs emot – omedelbar avstängning\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "signal %d received - no action defined\n"
-msgstr "signal %d mottagen – ingen åtgärd definierad"
+msgstr "signal %d togs emot – ingen åtgärd definierad\n"
 
-#, fuzzy, c-format
-#| msgid "error running `%s': exit status %d\n"
+#, c-format
 msgid "error accessing '%s': http status %u\n"
-msgstr "fel vid åtkomst till '%s': http-status %u"
+msgstr "fel vid åtkomst till '%s': http-status %u\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "URL '%s' redirected to '%s' (%u)\n"
-msgstr "URL '%s' omdirigerad till '%s' (%u)"
+msgstr "URLen '%s' omdirigerade till '%s' (%u)\n"
 
 #, c-format
 msgid "too many redirections\n"
 msgstr "för många omdirigeringar\n"
 
-#, fuzzy, c-format
-#| msgid "writing to `%s'\n"
+#, c-format
 msgid "redirection changed to '%s'\n"
-msgstr "omdirigering ändrad till '%s'"
+msgstr "omdirigering ändrades till '%s'\n"
 
 #, c-format
 msgid "error printing log line: %s\n"
 msgstr "fel vid utskrift av loggrad: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error reading from %s: %s\n"
+#, c-format
 msgid "error reading log from ldap wrapper %d: %s\n"
-msgstr "fel vid läsning av logg från ldap-wrapper %d: %s"
+msgstr "fel vid läsning av logg från ldap-wrapper %d: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "ldap wrapper %d ready"
 msgstr "ldap-wrapper %d klar"
 
-#, fuzzy, c-format
+#, c-format
 msgid "ldap wrapper %d ready: timeout\n"
-msgstr "ldap-wrapper %d klar: timeout"
+msgstr "ldap-wrapper %d klar: timeout\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "ldap wrapper %d ready: exitcode=%d\n"
-msgstr "ldap wrapper %d klar: exitcode=%d"
+msgstr "ldap-wrapper %d klar: exitcode=%d\n"
 
-#, fuzzy, c-format
-#| msgid "waiting for process %d to terminate failed: %s\n"
+#, c-format
 msgid "waiting for ldap wrapper %d failed: %s\n"
-msgstr "väntar på ldap-wrapper %d misslyckades: %s"
+msgstr "väntar på ldap-wrapper %d misslyckades: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "ldap wrapper %d stalled - killing\n"
-msgstr "ldap wrapper %d fastnat - avslutar"
+msgstr "ldap-wrapper %d fastnat - avslutar\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "invalid char 0x%02x in host name - not added\n"
-msgstr "ogiltigt tecken 0x%02x i värdnamn – läggs inte till"
+msgstr "ogiltigt tecken 0x%02x i värdnamn – läggs inte till\n"
 
 #, c-format
 msgid "adding '%s:%d' to the ldap server list\n"
 msgstr "lägger till '%s:%d' till ldap-serverlistan\n"
 
-#, fuzzy, c-format
-#| msgid "select failed: %s\n"
+#, c-format
 msgid "malloc failed: %s\n"
-msgstr "malloc misslyckades: %s"
+msgstr "malloc misslyckades: %s\n"
 
 #, c-format
 msgid "'%s' is not an LDAP URL\n"
@@ -9125,26 +8653,25 @@ msgstr "'%s' är inte en LDAP-URL\n"
 msgid "'%s' is an invalid LDAP URL\n"
 msgstr "'%s' är en ogiltig LDAP-URL\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "ldap_search hit the size limit of the server\n"
-msgstr "ldap_search nådde storleksgränsen för servern"
+msgstr "ldap_search nådde storleksgränsen för servern\n"
 
 #, c-format
 msgid "%s:%u: password given without user\n"
 msgstr "%s:%u: lösenord angivet utan användare\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "%s:%u: ignoring unknown flag '%s'\n"
-msgstr "%s:%u: ignorerar okänd flagga '%s'"
+msgstr "%s:%u: ignorerar okänd flagga '%s'\n"
 
 #, c-format
 msgid "%s:%u: skipping this line\n"
 msgstr "%s:%u: hoppar över denna rad\n"
 
-#, fuzzy, c-format
-#| msgid "%s: invalid file version %d\n"
+#, c-format
 msgid "invalid canonical S-expression found\n"
-msgstr "ogiltig kanonisk S-uttryck hittades"
+msgstr "ogiltigt kanonisk S-uttryck hittades\n"
 
 #, c-format
 msgid "gcry_md_open failed: %s\n"
@@ -9154,68 +8681,58 @@ msgstr "gcry_md_open misslyckades: %s\n"
 msgid "oops: ksba_cert_hash failed: %s\n"
 msgstr "hoppsan: ksba_cert_hash misslyckades: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "bad URL encoding detected\n"
-msgstr "felaktig URL-kodning upptäckt"
+msgstr "felaktig URL-kodning upptäcktes\n"
 
-#, fuzzy, c-format
-#| msgid "error reading from %s: %s\n"
+#, c-format
 msgid "error reading from responder: %s\n"
-msgstr "fel vid läsning från svararen: %s"
+msgstr "fel vid läsning från svararen: %s\n"
 
-#, fuzzy, c-format
-#| msgid "Error: Private DO too long (limit is %d characters).\n"
+#, c-format
 msgid "response from server too large; limit is %d bytes\n"
-msgstr "svar från servern för stort; gränsen är %d byte"
+msgstr "svar från servern för stort; gränsen är %d byte\n"
 
-#, fuzzy
-#| msgid "certificate `%s' not found: %s\n"
 msgid "OCSP request not possible due to Tor mode"
-msgstr "OCSP-begäran omöjlig på grund av Tor-läge"
+msgstr "OCSP-begäran inte möjlig på grund av Tor-läge"
 
-#, fuzzy, c-format
+#, c-format
 msgid "OCSP request not possible due to disabled HTTP\n"
-msgstr "OCSP-begäran är inte möjlig på grund av inaktiverad HTTP"
+msgstr "OCSP-begäran är inte möjlig på grund av inaktiverad HTTP\n"
 
-#, fuzzy, c-format
-#| msgid "error storing flags: %s\n"
+#, c-format
 msgid "error setting OCSP target: %s\n"
-msgstr "fel vid inställning av OCSP-mål: %s"
+msgstr "fel vid inställning av OCSP-mål: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error loading `%s': %s\n"
+#, c-format
 msgid "error building OCSP request: %s\n"
-msgstr "fel vid skapande av OCSP-begäran: %s"
+msgstr "fel vid skapande av OCSP-begäran: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error writing to `%s': %s\n"
+#, c-format
 msgid "error connecting to '%s': %s\n"
-msgstr "fel vid anslutning till '%s': %s"
+msgstr "fel vid anslutning till '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error reading from %s: %s\n"
+#, c-format
 msgid "error reading HTTP response for '%s': %s\n"
-msgstr "fel vid läsning av HTTP-svar för '%s': %s"
+msgstr "fel vid läsning av HTTP-svar för '%s': %s\n"
 
-#, fuzzy, c-format
-#| msgid "error binding socket to `%s': %s\n"
+#, c-format
 msgid "error parsing OCSP response for '%s': %s\n"
-msgstr "fel vid tolkning av OCSP-svar för '%s': %s"
+msgstr "fel vid tolkning av OCSP-svar för '%s': %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "OCSP responder at '%s' status: %s\n"
-msgstr "OCSP-svarare med status \"%s\": %s"
+msgstr "OCSP-svarare med status \"%s\": %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "failed to establish a hashing context for OCSP: %s\n"
-msgstr "kunde inte upprätta en hashkontext för OCSP: %s"
+msgstr "misslyckades med att etablera en hashkontext för OCSP: %s\n"
 
-#, fuzzy, c-format
-#| msgid "checking the trust list failed: %s\n"
+#, c-format
 msgid "hashing the OCSP response for '%s' failed: %s\n"
-msgstr "hashing av OCSP-svaret för '%s' misslyckades: %s"
+msgstr "hashning av OCSP-svaret för '%s' misslyckades: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "not signed by a default OCSP signer's certificate"
 msgstr "inte signerad av ett standardcertifikat för OCSP-signatur"
 
@@ -9223,20 +8740,17 @@ msgstr "inte signerad av ett standardcertifikat för OCSP-signatur"
 msgid "allocating list item failed: %s\n"
 msgstr "allokering av listobjekt misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error getting new PIN: %s\n"
+#, c-format
 msgid "error getting responder ID: %s\n"
-msgstr "fel vid hämtning av svar-ID: %s"
+msgstr "fel vid hämtning av svarar-ID: %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate should have not been used for OCSP response signing\n"
+#, c-format
 msgid "no suitable certificate found to verify the OCSP response\n"
-msgstr "inget lämpligt certifikat hittades för att verifiera OCSP-svaret"
+msgstr "inget lämpligt certifikat hittades för att verifiera OCSP-svaret\n"
 
-#, fuzzy, c-format
-#| msgid "issuer certificate not found"
+#, c-format
 msgid "issuer certificate not found: %s\n"
-msgstr "utfärdarcertifikat hittades inte: %s"
+msgstr "utfärdarcertifikat hittades inte: %s\n"
 
 #, c-format
 msgid "caller did not return the target certificate\n"
@@ -9246,155 +8760,134 @@ msgstr "anroparen returnerade inte målcertifikatet\n"
 msgid "caller did not return the issuing certificate\n"
 msgstr "anroparen returnerade inte det utfärdande certifikatet\n"
 
-#, fuzzy, c-format
-#| msgid "failed to allocate keyDB handle\n"
+#, c-format
 msgid "failed to allocate OCSP context: %s\n"
-msgstr "misslyckades med att tilldela OCSP-kontext: %s"
+msgstr "misslyckades med att allokera OCSP-kontext: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "no default OCSP responder defined\n"
-msgstr "ingen standard OCSP-svarare definierad"
+msgstr "ingen standard OCSP-svarare definierad\n"
 
-#, fuzzy, c-format
-#| msgid "no default secret keyring: %s\n"
+#, c-format
 msgid "no default OCSP signer defined\n"
-msgstr "ingen standard OCSP-signatur definierad"
+msgstr "ingen standard-OCSP-signerare definierad\n"
 
-#, fuzzy, c-format
-#| msgid "using default PIN as %s\n"
+#, c-format
 msgid "using default OCSP responder '%s'\n"
-msgstr "använda standard OCSP-svarare '%s'"
+msgstr "använder standard-OCSP-svarare '%s'\n"
 
 #, c-format
 msgid "using OCSP responder '%s'\n"
 msgstr "med OCSP-svarare '%s'\n"
 
-#, fuzzy, c-format
-#| msgid "error storing certificate: %s\n"
+#, c-format
 msgid "error getting OCSP status for target certificate: %s\n"
-msgstr "fel vid hämtning av OCSP-status för målcertifikat: %s"
+msgstr "fel vid hämtning av OCSP-status för målcertifikat: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "certificate status is: %s  (this=%s  next=%s)\n"
-msgstr "certifikatstatus är: %s (detta=%s nästa=%s)"
+msgstr "certifikatstatus är: %s (detta=%s nästa=%s)\n"
 
 msgid "good"
 msgstr "bra"
 
-#, fuzzy, c-format
-#| msgid "certificate has been revoked"
+#, c-format
 msgid "certificate has been revoked at: %s due to: %s\n"
-msgstr "certifikatet har återkallats vid: %s på grund av: %s"
+msgstr "certifikatet har återkallats vid: %s på grund av: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "OCSP responder returned a status in the future\n"
-msgstr "OCSP-svararen returnerade en status i framtiden"
+msgstr "OCSP-svararen returnerade en status in i framtiden\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "OCSP responder returned a non-current status\n"
-msgstr "OCSP-svararen returnerade en inaktuell status"
+msgstr "OCSP-svararen returnerade en inaktuell status\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "OCSP responder returned an too old status\n"
-msgstr "OCSP-svararen returnerade en för gammal status"
+msgstr "OCSP-svararen returnerade en för gammal status\n"
 
 #, c-format
 msgid "assuan_inquire(%s) failed: %s\n"
 msgstr "assuan_inquire(%s) misslyckades: %s\n"
 
-#, fuzzy
 msgid "serialno missing in cert ID"
-msgstr "serienummer saknas i certifikat-ID"
+msgstr "serienummer saknas i certifikat-id"
 
 #, c-format
 msgid "assuan_inquire failed: %s\n"
 msgstr "assuan_inquire misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "select failed: %s\n"
+#, c-format
 msgid "fetch_cert_by_url failed: %s\n"
-msgstr "fetch_cert_by_url misslyckades: %s"
+msgstr "fetch_cert_by_url misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "error sending %s command: %s\n"
+#, c-format
 msgid "error sending data: %s\n"
-msgstr "fel vid sändning av data: %s"
+msgstr "fel vid sändning av data: %s\n"
 
 #, c-format
 msgid "start_cert_fetch failed: %s\n"
 msgstr "start_cert_fetch misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "select failed: %s\n"
+#, c-format
 msgid "fetch_next_cert failed: %s\n"
-msgstr "fetch_next_cert misslyckades: %s"
+msgstr "fetch_next_cert misslyckades: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "max_replies %d exceeded\n"
-msgstr "max_replies %d överskridet"
+msgstr "max_replies %d överskreds\n"
 
-#, fuzzy, c-format
-#| msgid "cannot allocate outfile string: %s\n"
+#, c-format
 msgid "can't allocate control structure: %s\n"
-msgstr "kan inte tilldela kontrollstruktur: %s"
+msgstr "kan inte allokera kontrollstruktur: %s\n"
 
-#, fuzzy, c-format
-#| msgid "failed to create stream from socket: %s\n"
+#, c-format
 msgid "failed to allocate assuan context: %s\n"
-msgstr "misslyckades med att tilldela assuan-kontext: %s"
+msgstr "misslyckades med att allokera assuan-kontext: %s\n"
 
-#, fuzzy, c-format
-#| msgid "failed to initialize the TrustDB: %s\n"
+#, c-format
 msgid "failed to initialize the server: %s\n"
-msgstr "det gick inte att starta servern: %s"
+msgstr "misslyckades med att initiera servern: %s\n"
 
-#, fuzzy, c-format
-#| msgid "failed to store the creation date: %s\n"
+#, c-format
 msgid "failed to the register commands with Assuan: %s\n"
-msgstr "misslyckades med att registrera kommandon med Assuan: %s"
+msgstr "misslyckades med att registrera kommandon med Assuan: %s\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "Assuan accept problem: %s\n"
-msgstr "Assuan accepterar problem: %s"
+msgstr "Assuan accepterar problem: %s\n"
 
-#, fuzzy, c-format
-#| msgid "signing failed: %s\n"
+#, c-format
 msgid "Assuan processing failed: %s\n"
-msgstr "Assuan-bearbetningen misslyckades: %s"
+msgstr "Assuan-bearbetningen misslyckades: %s\n"
 
 #, c-format
 msgid "accepting root CA not marked as a CA"
 msgstr "accepterar rot-CA som inte är markerat som CA"
 
 # originalet borde ha ett value
-#, fuzzy, c-format
-#| msgid "checking the trustdb\n"
+#, c-format
 msgid "CRL checking too deeply nested\n"
-msgstr "CRL kontrollerar för djupt inbäddade"
+msgstr "CRL-kontroll för djupt inbäddad\n"
 
-#, fuzzy
 msgid "not checking CRL for"
 msgstr "kontrollerar inte CRL för"
 
-#, fuzzy
-#| msgid "checking the CRL failed: %s"
 msgid "checking CRL for"
-msgstr "kontrollera CRL för"
+msgstr "kontrollerar CRL för"
 
-#, fuzzy, c-format
-#| msgid "checking for qualified certificate failed: %s\n"
+#, c-format
 msgid "checking trustworthiness of root certificate failed: %s\n"
-msgstr "kontroll av rotcertifikatets tillförlitlighet misslyckades: %s"
+msgstr "kontroll av rotcertifikatets tillförlitlighet misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "certificate is good\n"
+#, c-format
 msgid "certificate chain is good\n"
-msgstr "certifikatkedjan är bra"
+msgstr "certifikatkedjan är bra\n"
 
-#, fuzzy, c-format
-#| msgid "certificate should have not been used for signing\n"
+#, c-format
 msgid "certificate should not have been used for CRL signing\n"
-msgstr "certifikatet borde inte ha använts för CRL-signering"
+msgstr "certifikatet borde inte ha använts för CRL-signering\n"
 
 msgid "quiet"
 msgstr "tyst"
@@ -9405,13 +8898,9 @@ msgstr "skriv ut data hexkodat"
 msgid "decode received data lines"
 msgstr "avkoda mottagna datarader"
 
-#, fuzzy
-#| msgid "pass a command to the dirmngr"
 msgid "connect to the dirmngr"
 msgstr "anslut till dirmngr"
 
-#, fuzzy
-#| msgid "pass a command to the dirmngr"
 msgid "connect to the keyboxd"
 msgstr "anslut till keyboxd"
 
@@ -9471,10 +8960,9 @@ msgstr "okänt kommando '%s'\n"
 msgid "sending line failed: %s\n"
 msgstr "sändande rad misslyckades: %s\n"
 
-#, fuzzy, c-format
-#| msgid "no gpg-agent running in this session\n"
+#, c-format
 msgid "no keybox daemon running in this session\n"
-msgstr "ingen keybox-daemon körs i denna session"
+msgstr "ingen keybox-daemon körs i denna session\n"
 
 #, c-format
 msgid "error sending standard options: %s\n"
@@ -9498,27 +8986,22 @@ msgstr "Smartkort"
 msgid "TPM"
 msgstr "TPM"
 
-#, fuzzy
 msgid "Network"
 msgstr "Nätverk"
 
 msgid "Passphrase Entry"
 msgstr "Lösenfrasinmatning"
 
-#, fuzzy
-#| msgid "Component not found"
 msgid "Component not suitable for launching"
-msgstr "Komponenten är inte lämplig för lansering"
+msgstr "Komponenten är inte lämplig för körning"
 
-#, fuzzy, c-format
-#| msgid "External verification of component %s failed"
+#, c-format
 msgid "Configuration file of component %s is broken\n"
-msgstr "Konfigurationsfilen för komponent %s är trasig"
+msgstr "Konfigurationsfilen för komponenten %s är trasig\n"
 
-#, fuzzy, c-format
-#| msgid "Please use the command \"toggle\" first.\n"
+#, c-format
 msgid "Note: Use the command \"%s%s\" to get details.\n"
-msgstr "Obs: Använd kommandot \"%s%s\" för att få mer information"
+msgstr "Observera: Använd kommandot \"%s%s\" för att få mer information.\n"
 
 #, c-format
 msgid "External verification of component %s failed"
@@ -9556,8 +9039,6 @@ msgstr "tillämpa globala standardvärden"
 msgid "|FILE|update configuration files using FILE"
 msgstr "|FIL|uppdatera konfigurationsfiler med FIL"
 
-#, fuzzy
-#| msgid "get the configuration directories for gpgconf"
 msgid "get the configuration directories for @GPGCONF@"
 msgstr "hämta konfigurationskatalogerna för @GPGCONF@"
 
@@ -9567,25 +9048,17 @@ msgstr "lista global konfigurationsfil"
 msgid "check global configuration file"
 msgstr "kontrollera global konfigurationsfil"
 
-#, fuzzy
-#| msgid "update the trust database"
 msgid "query the software version database"
 msgstr "fråga databasen om programvaruversioner"
 
-#, fuzzy
-#| msgid "list all components"
 msgid "reload all or a given component"
-msgstr "ladda om allt eller en viss komponent"
+msgstr "läs om alla eller en angiven komponent"
 
-#, fuzzy
-#| msgid "list all components"
 msgid "launch a given component"
-msgstr "starta en viss komponent"
+msgstr "starta en angiven komponent"
 
-#, fuzzy
-#| msgid "list all components"
 msgid "kill a given component"
-msgstr "döda en viss komponent"
+msgstr "döda en angiven komponent"
 
 msgid "use as output file"
 msgstr "använd som fil för utdata"
@@ -9638,17 +9111,17 @@ msgstr "Ersätt befintlig nyckel %s ? (j/N) "
 msgid "%s card no. %s detected\n"
 msgstr "%s kortnummer %s upptäcktes\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid "User Interaction Flag is set to \"%s\" - can't change\n"
-msgstr "Användarinteraktionsflaggan är inställd på \"%s\" – kan inte ändras"
+msgstr "Användarinteraktionsflaggan är inställd på \"%s\" – kan inte ändra\n"
 
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Warning: Setting the User Interaction Flag to \"%s\"\n"
 "         can only be reverted using a factory reset!\n"
 msgstr ""
-"Varning: Om du ställer in flaggan för användarinteraktion på \"%s\" kan "
-"detta endast återställas genom en fabriksåterställning!"
+"Varning: Om du ställer in flaggan för användarinteraktion till \"%s\"\n"
+"         kan detta endast återställas genom en fabriksåterställning!\n"
 
 #, c-format
 msgid "Please use \"uif --yes %d %s\"\n"
@@ -9657,16 +9130,12 @@ msgstr "Använd \"uif --yes %d %s\"\n"
 msgid "authenticate to the card"
 msgstr "autentisera till kortet"
 
-#, fuzzy
 msgid "send a reset to the card daemon"
 msgstr "skicka en återställning till kortdemonen"
 
-#, fuzzy
-#| msgid "|NAME|use NAME as default recipient"
 msgid "setup KDF for PIN authentication"
 msgstr "konfigurera KDF för PIN-autentisering"
 
-#, fuzzy
 msgid "change a private data object"
 msgstr "ändra ett privat dataobjekt"
 
@@ -9679,14 +9148,12 @@ msgstr "lagra ett certifikat till ett dataobjekt"
 msgid "store a private key to a data object"
 msgstr "lagra en privat nyckel till ett dataobjekt"
 
-#, fuzzy
 msgid "run various checks on the keys"
-msgstr "utföra olika kontroller på nycklarna"
+msgstr "utför olika kontroller på nycklarna"
 
 msgid "Yubikey management commands"
 msgstr "Hanteringskommandon för Yubikey"
 
-#, fuzzy
 msgid "manage the command history"
 msgstr "hantera kommandohistoriken"
 
