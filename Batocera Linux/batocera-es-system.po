@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: Batocera.linux Options\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2025-09-16 11:19+0200\n"
+"PO-Revision-Date: 2025-12-05 08:44+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.7\n"
+"X-Generator: Poedit 3.8\n"
 
 #. TRANSLATION: libretro/puae, libretro/puae2021
 msgctxt "game_options"
@@ -2987,6 +2987,11 @@ msgstr ""
 "Tillåt spel som stöder olika upplösningar att återges i en specifik "
 "upplösning."
 
+#. TRANSLATION: wine
+msgctxt "game_options"
+msgid "Allow wine to access raw io ports (usb, parallel, ...)"
+msgstr "Tillåt wine att få åtkomst till råa io-portar (usb, parallell, ...)"
+
 #. TRANSLATION: rpcs3
 msgctxt "game_options"
 msgid "Allows Alt+Tab to RPCS3's menu. Useful for manual disc-swapping."
@@ -3853,6 +3858,11 @@ msgstr ""
 "Grundläggande filtreringstyp för jaguarskärmen vid rendering till den "
 "ursprungliga skärmen."
 
+#. TRANSLATION: hotkeys.keys
+msgctxt "keys_files"
+msgid "Batocera Control Center"
+msgstr "Batocera kontrollcenter"
+
 #. TRANSLATION: cemu
 msgctxt "game_options"
 msgid "Batocera sets first audio device (Default)"
@@ -4059,10 +4069,25 @@ msgctxt "game_options"
 msgid "Bottom (Default)"
 msgstr "Botten (standard)"
 
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Bottom Center"
+msgstr "Nedre mitten"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Bottom Left"
+msgstr "Nedre vänster"
+
 #. TRANSLATION: azahar
 msgctxt "game_options"
 msgid "Bottom Only"
 msgstr "Endast botten"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Bottom Right"
+msgstr "Nedre höger"
 
 #. TRANSLATION: melonds
 msgctxt "game_options"
@@ -4900,11 +4925,6 @@ msgctxt "game_options"
 msgid "Can fix slowdown. Only works on some drivers."
 msgstr "Kan fixa långsamhet. Fungerar bara på vissa drivrutiner."
 
-#. TRANSLATION: wine
-msgctxt "game_options"
-msgid "Can improve frame rate and responsiveness."
-msgstr "Kan förbättra bildfrekvensen och reaktionsförmågan."
-
 #. TRANSLATION: mugen
 msgctxt "game_options"
 msgid "Can improve frame rates and responsiveness."
@@ -4923,7 +4943,7 @@ msgstr ""
 "Kan förbättra videoprestanda. Använd inte med ActionMax-spel eller "
 "skanlinjer."
 
-#. TRANSLATION: mugen, wine
+#. TRANSLATION: mugen
 msgctxt "game_options"
 msgid "Can increase performance for games that stress the CPU."
 msgstr "Kan öka prestandan i spel som belastar processorn."
@@ -5020,10 +5040,20 @@ msgctxt "game_options"
 msgid "Catalan"
 msgstr "Katalanska"
 
-#. TRANSLATION: scummvm
+#. TRANSLATION: pcsx2, scummvm
 msgctxt "game_options"
 msgid "Center"
 msgstr "Centrera"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Center Left"
+msgstr "Mitten vänster"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Center Right"
+msgstr "Mitten höger"
 
 #. TRANSLATION: libretro/mesen-s
 msgctxt "game_options"
@@ -5233,6 +5263,15 @@ msgctxt "game_options"
 msgid "Choose the Parallel N64 graphics plugin."
 msgstr "Välj Parallel N64-grafikinsticksmodul."
 
+#. TRANSLATION: wine
+msgctxt "game_options"
+msgid ""
+"Choose the Wayland driver mode if on a handheld device. XWayland has more "
+"compatibility."
+msgstr ""
+"Välj Wayland-drivrutinsläget om du använder en handhållen enhet. XWayland "
+"har mer kompatibilitet."
+
 #. TRANSLATION: openjkdf2
 msgctxt "game_options"
 msgid ""
@@ -5327,6 +5366,19 @@ msgstr "Välj detaljnivå för terrängen."
 msgctxt "game_options"
 msgid "Choose the level of texture detail."
 msgstr "Välj nivån för texturdetaljer."
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid ""
+"Choose the on-screen position for performance metrics (FPS, CPU usage, etc.)."
+msgstr ""
+"Välj position på skärmen för prestandamätvärden (bildfrekvens, CPU-"
+"användning etc.)."
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Choose the on-screen position for system messages."
+msgstr "Välj position på skärmen för systemmeddelanden."
 
 #. TRANSLATION: fallout1-ce, fallout2-ce
 msgctxt "game_options"
@@ -5717,7 +5769,7 @@ msgctxt "game_options"
 msgid "Control the texture's trilinear filtering of the emulation."
 msgstr "Styr texturens trilinjära filtrering av emuleringen."
 
-#. TRANSLATION: libretro/mame, mame/pcsx2
+#. TRANSLATION: libretro/fbneo, libretro/flycast, libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "Controls for 5/6 button games and other unique controls"
 msgstr "Kontroller för spel med 5/6 knappar och andra unika kontroller"
@@ -6159,6 +6211,11 @@ msgctxt "game_options"
 msgid "DUAL CORE MODE"
 msgstr "DUBBELKÄRNIGT LÄGE"
 
+#. TRANSLATION: melonds
+msgctxt "game_options"
+msgid "DUAL SCREEN"
+msgstr "DUBBLA SKÄRMAR"
+
 #. TRANSLATION: dolphin
 msgctxt "game_options"
 msgid "DUALSHOCK MOTION CONTROL"
@@ -6264,7 +6321,7 @@ msgctxt "game_options"
 msgid "Default (2 Buttons)"
 msgstr "Standard (2 knappar)"
 
-#. TRANSLATION: libretro/mame, mame/pcsx2
+#. TRANSLATION: libretro/fbneo, libretro/flycast, libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "Default Only"
 msgstr "Endast standard"
@@ -6855,6 +6912,11 @@ msgstr "AKTIVERA PATCHAR FÖR BREDBILD"
 
 #. TRANSLATION: wine
 msgctxt "game_options"
+msgid "ENABLE WINE DEVICES SERVICES"
+msgstr "AKTIVERA TJÄNSTER FÖR WINE-ENHETER"
+
+#. TRANSLATION: wine
+msgctxt "game_options"
 msgid "ENABLE XIM"
 msgstr "AKTIVERA XIM"
 
@@ -6873,7 +6935,7 @@ msgctxt "game_options"
 msgid "EST5EDT"
 msgstr "EST5EDT"
 
-#. TRANSLATION: mugen, wine
+#. TRANSLATION: mugen
 msgctxt "game_options"
 msgid "ESYNC"
 msgstr "ESYNC"
@@ -7065,6 +7127,15 @@ msgstr ""
 msgctxt "game_options"
 msgid "Enable High Dynamic Range if your display supports it."
 msgstr "Aktivera High Dynamic Range om din skärm har stöds för det."
+
+#. TRANSLATION: melonds
+msgctxt "game_options"
+msgid ""
+"Enable MelonDS to display over two screens. Some related screen options will "
+"be ignored."
+msgstr ""
+"Aktivera MelonDS för visning på två skärmar. Vissa relaterade "
+"skärmalternativ kommer att ignoreras."
 
 #. TRANSLATION: pcsx2
 msgctxt "game_options"
@@ -8017,7 +8088,7 @@ msgctxt "game_options"
 msgid "FREE PLAY"
 msgstr "FRITT SPEL"
 
-#. TRANSLATION: mugen, wine
+#. TRANSLATION: mugen
 msgctxt "game_options"
 msgid "FSYNC"
 msgstr "FSYNC"
@@ -8345,18 +8416,6 @@ msgstr "För spel med gyrofunktion (bunden till höger analoga spak)"
 msgctxt "game_options"
 msgid "For emulators and controllers supporting force feedback."
 msgstr "För emulatorer och styrenheter som stöder vibrationer."
-
-#. TRANSLATION: supermodel
-#, c-format
-msgctxt "game_options"
-msgid ""
-"For playing driving games with a game pad, it is sometimes a good idea to "
-"use a value larger than 100%% so that the steering feels less sensitive on a "
-"thumbstick."
-msgstr ""
-"För att spela bilspel med en gamepad kan det ibland vara bra att använda ett "
-"värde som är större än 100%% så att styrningen känns mindre känslig på en "
-"tumspak."
 
 #. TRANSLATION: libretro/mesen
 msgctxt "game_options"
@@ -9242,6 +9301,11 @@ msgctxt "game_options"
 msgid "HARD TEXTURE CACHE MEMORY LIMIT"
 msgstr "GRÄNS FÖR MINNE I HÅRD TEXTURCACHE"
 
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "HARDWARE SHADER"
+msgstr "HÅRDVARU-SHADER"
+
 #. TRANSLATION: ppsspp
 msgctxt "game_options"
 msgid "HARDWARE TESSELLATION"
@@ -9439,6 +9503,21 @@ msgid ""
 msgstr ""
 "Hjälper till att minska CPU:ns strömförbrukning genom att strypa CPU:n när "
 "den inte behövs. Användbart för handdatorer."
+
+#. TRANSLATION: azahar
+msgctxt "game_options"
+msgid "Helps some games to launch when disabled. May affect performance."
+msgstr ""
+"Hjälper vissa spel att starta när de är inaktiverade. Kan påverka prestandan."
+
+#. TRANSLATION: libretro/flycast
+msgctxt "game_options"
+msgid ""
+"Helps with texture corruption and depth issues on AMD GPUs. Can also help "
+"Intel GPUs in some cases."
+msgstr ""
+"Hjälper till med texturkorruption och djupproblem på AMD GPU:er. Kan även "
+"hjälpa Intel GPU:er i vissa fall."
 
 #. TRANSLATION: libretro/dosbox_pure
 msgctxt "game_options"
@@ -9793,6 +9872,11 @@ msgstr ""
 msgctxt "game_options"
 msgid "Improves clarity of distant textures."
 msgstr "Förbättrar tydligheten i avlägsna texturer."
+
+#. TRANSLATION: wine
+msgctxt "game_options"
+msgid "Improves frame rate and responsiveness."
+msgstr "Förbättrar bildfrekvens och respons."
 
 #. TRANSLATION: shared
 msgctxt "game_options"
@@ -10946,11 +11030,6 @@ msgctxt "game_options"
 msgid "MODEL TYPE"
 msgstr "MODELLTYP"
 
-#. TRANSLATION: supermodel
-msgctxt "game_options"
-msgid "MODERN PEDAL CONTROLS"
-msgstr "MODERNA PEDALREGLAGE"
-
 #. TRANSLATION: xenia, xenia-canary
 msgctxt "game_options"
 msgid "MOUNT CACHE"
@@ -11483,7 +11562,7 @@ msgctxt "game_options"
 msgid "Moderate"
 msgstr "Måttligt"
 
-#. TRANSLATION: libretro/mame, mame/pcsx2
+#. TRANSLATION: libretro/fbneo, libretro/flycast, libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "Modern Fightstick Style"
 msgstr "Modern Fightstick-stil"
@@ -11706,6 +11785,11 @@ msgctxt "game_options"
 msgid "NAT"
 msgstr "NAT"
 
+#. TRANSLATION: libretro/flycast
+msgctxt "game_options"
+msgid "NATIVE DEPTH INTERPOLATION"
+msgstr "INTERPOLATION AV INBYGGT DJUP"
+
 #. TRANSLATION: libretro/melonds, libretro/melondsds
 msgctxt "game_options"
 msgid "NDS VERSION"
@@ -11846,6 +11930,11 @@ msgctxt "game_options"
 msgid "NTSC-U/C"
 msgstr "NTSC-U/C"
 
+#. TRANSLATION: wine
+msgctxt "game_options"
+msgid "NTSYNC"
+msgstr "NTSYNC"
+
 #. TRANSLATION: rpcs3
 msgctxt "game_options"
 msgid "NUMBER OF SHADER COMPILER THREADS"
@@ -11887,7 +11976,7 @@ msgstr ""
 "NAT för att komma åt internet från xemu-maskin. Udp för systemlänk. Standard "
 "(Auto) inaktiverar nätverksåtkomst."
 
-#. TRANSLATION: xemu
+#. TRANSLATION: wine, xemu
 msgctxt "game_options"
 msgid "Native"
 msgstr "Inbyggd"
@@ -12101,7 +12190,7 @@ msgctxt "game_options"
 msgid "None"
 msgstr "Ingen"
 
-#. TRANSLATION: cgenius, iortcw, libretro/mame, mame/pcsx2, supermodel
+#. TRANSLATION: cgenius, iortcw, libretro/mame, mame/pcsx2, pcsx2, ...
 msgctxt "game_options"
 msgid "None (Default)"
 msgstr "Ingen (standard)"
@@ -12241,6 +12330,16 @@ msgstr "OPTIMALT BILDTEMPO"
 msgctxt "game_options"
 msgid "OSD MESSAGES"
 msgstr "OSD-MEDDELANDEN"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "OSD MESSAGES POSITION"
+msgstr "POSITION FÖR OSD-MEDDELANDEN"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "OSD PERFORMANCE POSITION"
+msgstr "POSITION FÖR OSD-PRESTANDA"
 
 #. TRANSLATION: dolphin_triforce
 msgctxt "game_options"
@@ -13924,11 +14023,6 @@ msgid ""
 msgstr ""
 "Reservera en icke-död zon i mitten av ratten för att gå rakt fram (i grader)"
 
-#. TRANSLATION: hotkeys.keys
-msgctxt "keys_files"
-msgid "Reset"
-msgstr "Nollställ"
-
 #. TRANSLATION: wine
 msgctxt "game_options"
 msgid ""
@@ -14536,7 +14630,7 @@ msgctxt "game_options"
 msgid "SOUNDBLASTER TYPE"
 msgstr "TYP AV SOUNDBLASTER"
 
-#. TRANSLATION: libretro/mame, mame/pcsx2
+#. TRANSLATION: libretro/fbneo, libretro/flycast, libretro/mame, mame/pcsx2
 msgctxt "game_options"
 msgid "SPECIAL CONTROL LAYOUTS"
 msgstr "SPECIELLA KONTROLLERLAYOUTER"
@@ -14610,11 +14704,6 @@ msgstr "ST"
 msgctxt "game_options"
 msgid "STE"
 msgstr "STE"
-
-#. TRANSLATION: supermodel
-msgctxt "game_options"
-msgid "STEERING SENSITIVITY"
-msgstr "STYRNINGENS KÄNSLIGHET"
 
 #. TRANSLATION: shared
 msgctxt "game_options"
@@ -16672,7 +16761,7 @@ msgstr "Växla objekt"
 #. TRANSLATION: mohaa.keys
 msgctxt "keys_files"
 msgid "Toggle menu"
-msgstr "Visa meny"
+msgstr "Växla meny"
 
 #. TRANSLATION: rott.keys
 msgctxt "keys_files"
@@ -16704,10 +16793,30 @@ msgctxt "game_options"
 msgid "Top"
 msgstr "Överst"
 
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Top Center"
+msgstr "Övre mitten"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Top Center (Default)"
+msgstr "Övre mitten (standard)"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Top Left"
+msgstr "Övre vänster"
+
 #. TRANSLATION: azahar
 msgctxt "game_options"
 msgid "Top Only"
 msgstr "Endast topp"
+
+#. TRANSLATION: pcsx2
+msgctxt "game_options"
+msgid "Top Right"
+msgstr "Övre höger"
 
 #. TRANSLATION: melonds
 msgctxt "game_options"
@@ -17348,13 +17457,6 @@ msgctxt "keys_files"
 msgid "Use Inventory Item"
 msgstr "Använd föremål"
 
-#. TRANSLATION: supermodel
-msgctxt "game_options"
-msgid ""
-"Use L2/R2 for Brake/Accel and L1/R1 or R-stick Up/Down for Shift Up/Down."
-msgstr ""
-"Använd L2/R2 för broms/gas och L1/R1 eller R-stick Upp/Ner för Växla upp/ner."
-
 #. TRANSLATION: libretro/mame, libretro/mamevirtual, mame/pcsx2
 msgctxt "game_options"
 msgid "Use MAME software lists to identify ROM"
@@ -17891,6 +17993,11 @@ msgctxt "game_options"
 msgid "WARN ABOUT UNSUPPORTED FEATURES"
 msgstr "VARNA FÖR FUNKTIONER SOM INTE STÖDS"
 
+#. TRANSLATION: wine
+msgctxt "game_options"
+msgid "WAYLAND DRIVER MODE"
+msgstr "DRIVRUTINSLÄGE FÖR WAYLAND"
+
 #. TRANSLATION: openjkdf2
 msgctxt "game_options"
 msgid "WEAPON PICKUP"
@@ -18206,6 +18313,11 @@ msgstr "XBLA-licens aktiverad (standard)"
 msgctxt "game_options"
 msgid "XBOX LIVE ARCADE"
 msgstr "XBOX LIVE ARCADE"
+
+#. TRANSLATION: wine
+msgctxt "game_options"
+msgid "XWayland (Default)"
+msgstr "XWayland (Standard)"
 
 #. TRANSLATION: libretro/dice
 msgctxt "game_options"
@@ -18791,6 +18903,10 @@ msgstr "gul/blå"
 #~ "högre prestanda..."
 
 #~ msgctxt "game_options"
+#~ msgid "Can improve frame rate and responsiveness."
+#~ msgstr "Kan förbättra bildfrekvensen och reaktionsförmågan."
+
+#~ msgctxt "game_options"
 #~ msgid "Choose the Dreamcast console language."
 #~ msgstr "Välj språk för Dreamcast-konsolen."
 
@@ -18820,6 +18936,17 @@ msgstr "gul/blå"
 #~ msgid "Enhancement. Enables texture upscaling textures and their size."
 #~ msgstr "Förbättring. Aktiverar uppskalning av texturer och deras storlek."
 
+#, c-format
+#~ msgctxt "game_options"
+#~ msgid ""
+#~ "For playing driving games with a game pad, it is sometimes a good idea to "
+#~ "use a value larger than 100%% so that the steering feels less sensitive "
+#~ "on a thumbstick."
+#~ msgstr ""
+#~ "För att spela bilspel med en gamepad kan det ibland vara bra att använda "
+#~ "ett värde som är större än 100%% så att styrningen känns mindre känslig "
+#~ "på en tumspak."
+
 #~ msgctxt "game_options"
 #~ msgid "HIDE LIGHT GUN CROSSHAIRS"
 #~ msgstr "DÖLJ LJUSPISTOLENS HÅRKORS"
@@ -18840,6 +18967,10 @@ msgstr "gul/blå"
 #~ msgid "INTEGER SCALE"
 #~ msgstr "HELTALSSKALA"
 
+#~ msgctxt "game_options"
+#~ msgid "MODERN PEDAL CONTROLS"
+#~ msgstr "MODERNA PEDALREGLAGE"
+
 #~ msgctxt "keys_files"
 #~ msgid "Menu N"
 #~ msgstr "Meny N"
@@ -18857,8 +18988,16 @@ msgstr "gul/blå"
 #~ msgstr "Inte alla spel har stöd för alla språk."
 
 #~ msgctxt "keys_files"
+#~ msgid "Reset"
+#~ msgstr "Nollställ"
+
+#~ msgctxt "keys_files"
 #~ msgid "Restart Game"
 #~ msgstr "Omstarta Spel"
+
+#~ msgctxt "game_options"
+#~ msgid "STEERING SENSITIVITY"
+#~ msgstr "STYRNINGENS KÄNSLIGHET"
 
 #~ msgctxt "game_options"
 #~ msgid ""
@@ -18875,6 +19014,13 @@ msgstr "gul/blå"
 #~ msgctxt "game_options"
 #~ msgid "USE GZDOOM JOYSTICK CONFIGURATION"
 #~ msgstr "ANVÄND GZDOOM JOYSTICKKONFIGURATION"
+
+#~ msgctxt "game_options"
+#~ msgid ""
+#~ "Use L2/R2 for Brake/Accel and L1/R1 or R-stick Up/Down for Shift Up/Down."
+#~ msgstr ""
+#~ "Använd L2/R2 för broms/gas och L1/R1 eller R-stick Upp/Ner för Växla upp/"
+#~ "ner."
 
 #~ msgctxt "game_options"
 #~ msgid "VSYNC INTERVAL"
