@@ -1,7 +1,7 @@
 <?php
 
 return array (
-  'settings.system' => 'Systemet',
+  'settings.system' => 'System',
   'settings.appearance' => 'Utseende',
   'settings.miscellaneous' => 'Övrigt',
   'settings.advanced' => 'Avancerat',
@@ -15,11 +15,11 @@ return array (
   'settings.window_target.current' => 'Öppna i denna flik',
   'settings.window_target.one' => 'Öppna i samma flik',
   'settings.window_target.new' => 'Öppna i ny flik',
-  'settings.homepage_search' => 'Startsida Sök',
+  'settings.homepage_search' => 'Sökning på startsidan',
   'settings.search_provider' => 'Sökmotor',
   'settings.language' => 'Språk',
   'settings.reset' => 'Återställ standardinställningar',
-  'settings.remove' => 'Avlägsna',
+  'settings.remove' => 'Ta bort',
   'settings.search' => 'sök',
   'settings.no_items' => 'Inga poster hittades',
 
@@ -29,7 +29,7 @@ return array (
   'settings.edit' => 'Ändra',
   'settings.view' => 'Visa',
   'settings.custom_css' => 'Anpassad CSS',
-  'settings.custom_js' => 'Anpassad JavaScript',
+  'settings.custom_js' => 'Anpassad JavaScript-kod',
   
 
   'options.none' => '- inte valt -',
@@ -47,15 +47,15 @@ return array (
   'buttons.save' => 'Spara',
   'buttons.cancel' => 'Avbryt',
   'buttons.add' => 'Lägg till',
-  'buttons.upload' => 'Ladda upp en fil',
-  'buttons.downloadapps' => 'Uppdatera app lista',
+  'buttons.upload' => 'Ladda upp en ikon',
+  'buttons.downloadapps' => 'Uppdatera applistan',
 
 
   'dash.pin_item' => 'Fäst på instrumentpanelen',
   'dash.no_apps' => 'Det finns för närvarande inga fästa applikationer, :link1 eller :link2',
   'dash.link1' => 'Lägg till en applikation här',
   'dash.link2' => 'Fäst ett objekt till instrumentpanelen',
-  'dash.pinned_items' => 'Fästa Objekt',
+  'dash.pinned_items' => 'Fästa objekt',
 
 
   'apps.app_list' => 'Applikationslista',
@@ -66,17 +66,17 @@ return array (
   'apps.icon' => 'Ikon',
   'apps.pinned' => 'Fäst',
   'apps.title' => 'Titel',
-  'apps.hex' => 'Hex-färg',
+  'apps.hex' => 'Hexfärg',
   'apps.username' => 'Användarnamn',
   'apps.password' => 'Lösenord',
   'apps.config' => 'Konfiguration',
-  'apps.apikey' => 'API Nyckel',
+  'apps.apikey' => 'API-nyckel',
   'apps.enable' => 'Aktivera',
-  'apps.tag_list' => 'Tagg lista',
+  'apps.tag_list' => 'Tagglista',
   'apps.add_tag' => 'Lägg till tagg',
-  'apps.tag_name' => 'Tagg namn',
+  'apps.tag_name' => 'Taggnamn',
   'apps.tags' => 'Taggar',
-  'apps.override' => 'Om annan än huvudlänk',
+  'apps.override' => 'Om den skiljer sig från huvudwebbadressen',
   'apps.preview' => 'Förhandsvisa',
   'apps.apptype' => 'Programtyp',
   'apps.website' => 'Webbplats',
@@ -98,32 +98,32 @@ return array (
   'user.autologin' => 'Tillåt inloggning från en specifik URL. Alla som har länken kan logga in.',
 
 
-  'url' => 'Url',
+  'url' => 'URL',
   'title' => 'Titel',
   'delete' => 'Radera',
   'optional' => 'Valfri',
   'restore' => 'Återställ',
 
 
-  'alert.success.item_created' => 'Artikeln skapad',
-  'alert.success.item_updated' => 'Artikeln uppdaterad',
-  'alert.success.item_deleted' => 'Artikeln borttagen',
-  'alert.success.item_restored' => 'Artikeln återställd',
-  'alert.success.updating' => 'Uppdaterar app lista',
+  'alert.success.item_created' => 'Objektet skapades',
+  'alert.success.item_updated' => 'Objektet uppdaterades',
+  'alert.success.item_deleted' => 'Objektet togs bort',
+  'alert.success.item_restored' => 'Objektet återställdes',
+  'alert.success.updating' => 'Uppdaterar applistan',
 
 
-  'alert.success.tag_created' => 'Tagg skapad',
-  'alert.success.tag_updated' => 'Tagg uppdaterad',
-  'alert.success.tag_deleted' => 'Tagg borttagen',
-  'alert.success.tag_restored' => 'Tagg återställd',
+  'alert.success.tag_created' => 'Taggen skapades',
+  'alert.success.tag_updated' => 'Taggen uppdaterades',
+  'alert.success.tag_deleted' => 'Taggen togs bort',
+  'alert.success.tag_restored' => 'Taggen återställdes',
 
 
   'alert.success.setting_updated' => 'Inställningen uppdaterad',
   'alert.error.not_exist' => 'Denna inställning existerar inte.',
 
 
-  'alert.success.user_created' => 'Användare skapad',
-  'alert.success.user_updated' => 'Användare uppdaterad',
-  'alert.success.user_deleted' => 'Användare borttagen',
-  'alert.success.user_restored' => 'Användare återställd',
+  'alert.success.user_created' => 'Användaren skapades',
+  'alert.success.user_updated' => 'Användaren uppdaterades',
+  'alert.success.user_deleted' => 'Användaren togs bort',
+  'alert.success.user_restored' => 'Användaren återställdes',
 );
