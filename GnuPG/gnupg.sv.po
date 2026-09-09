@@ -14,7 +14,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnupg trunk\n"
 "Report-Msgid-Bugs-To: translations@gnupg.org\n"
-"POT-Creation-Date: \n"
 "PO-Revision-Date: 2026-01-10 19:53+0100\n"
 "Last-Translator: Daniel Nylander <github@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
@@ -671,10 +670,6 @@ msgid "error opening '%s': %s\n"
 msgstr "fel vid öppning av '%s': %s\n"
 
 #, c-format
-msgid "file '%s', line %d: %s\n"
-msgstr "filen '%s', rad %d: %s\n"
-
-#, c-format
 msgid "statement \"%s\" ignored in '%s', line %d\n"
 msgstr "villkoret \"%s\" ignoreras i '%s', rad %d\n"
 
@@ -738,7 +733,8 @@ msgstr ""
 
 #. TRANSLATORS: "Correct" is the label of a button and intended
 #. to be hit if the fingerprint matches the one of the CA.  The
-#. other button is "the default "Cancel" of the Pinentry.
+#. other button is "the default "Cancel" of the Pinentry.  We
+#. fix the English strings with hacks to avoid a string changes.
 msgid "Correct"
 msgstr "Korrekt"
 
@@ -1111,6 +1107,10 @@ msgstr "Dirmngr användbar"
 #, c-format
 msgid "No help available for '%s'."
 msgstr "Ingen hjälp tillgänglig för '%s'."
+
+#, c-format
+msgid "file '%s', line %d: %s\n"
+msgstr "filen '%s', rad %d: %s\n"
 
 msgid "ignoring garbage line"
 msgstr "ignorerar skräprad"
@@ -1530,7 +1530,6 @@ msgid "   (%d) RSA\n"
 msgstr "   (%d) RSA\n"
 
 #, c-format
-#| msgid "   (%d) DSA and Elgamal\n"
 msgid "   (%d) ECC\n"
 msgstr "   (%d) ECC\n"
 
@@ -2751,6 +2750,9 @@ msgstr "anta GnuPG-nyckelns säkerhetskopieringsformat"
 msgid "repair keys on import"
 msgstr "reparera nycklar vid import"
 
+msgid "update even unchanged keys"
+msgstr "uppdatera även oförändrade nycklar"
+
 msgid "do not import secret keys"
 msgstr "importera inte hemliga nycklar"
 
@@ -3022,6 +3024,16 @@ msgstr "Användaridentiteten är inte längre giltig"
 #, c-format
 msgid "reason for revocation: "
 msgstr "anledning för återkallning: "
+
+#, c-format
+#| msgid "key %s: can't locate original keyblock: %s\n"
+msgid "key %s: can't locate keyblock: %s\n"
+msgstr "nyckel %s: kan inte hitta nyckelblocket: %s\n"
+
+#, c-format
+#| msgid "key %s: can't read original keyblock: %s\n"
+msgid "key %s: can't read keyblock: %s\n"
+msgstr "nyckel %s: kan inte läsa nyckelblocket: %s\n"
 
 #, c-format
 msgid "key %s: no public key - can't apply revocation certificate\n"
@@ -4206,7 +4218,6 @@ msgid "   (%d) RSA and RSA%s\n"
 msgstr "   (%d) RSA och RSA%s\n"
 
 #, c-format
-#| msgid "   (%d) DSA and Elgamal\n"
 msgid "   (%d) DSA and Elgamal%s\n"
 msgstr "   (%d) DSA och Elgamal%s\n"
 
@@ -4966,7 +4977,6 @@ msgid "Signature made %s using %s key ID %s\n"
 msgstr "Signatur gjordes %s med %s nyckel-id %s\n"
 
 #, c-format
-#| msgid "                aka \"%s\""
 msgid "               issuer \"%s\"\n"
 msgstr "               utfärdare \"%s\"\n"
 
@@ -5148,6 +5158,11 @@ msgid "unknown weak digest '%s'\n"
 msgstr "okänt svagt sammandrag '%s'\n"
 
 #, c-format
+#| msgid "NOTE: old default options file `%s' ignored\n"
+msgid "Note: partial file '%s' removed\n"
+msgstr "Observera: den ofullständiga filen '%s' har tagits bort\n"
+
+#, c-format
 msgid "File '%s' exists. "
 msgstr "Filen '%s' finns. "
 
@@ -5222,7 +5237,6 @@ msgid "Please enter the passphrase to export the secret key with keygrip:"
 msgstr "Ange lösenfrasen för att exportera den hemliga nyckeln med keygrip:"
 
 #, c-format
-#| msgid "%u-bit %s key, ID %s, created %s"
 msgid ""
 "%s\n"
 "\"%.*s\"\n"
@@ -5893,6 +5907,11 @@ msgstr ""
 "antar felaktig signatur från nyckeln %s på grund av en okänd kritisk bit\n"
 
 #, c-format
+#| msgid "key %s: no public key - can't apply revocation certificate\n"
+msgid "key %s: no public key - can't check revocation signature.\n"
+msgstr "nyckel %s: ingen publik nyckel – kan inte kontrollera återkallelsesignaturen.\n"
+
+#, c-format
 msgid "key %s: no subkey for subkey revocation signature\n"
 msgstr ""
 "nyckel %s: ingen undernyckel med återkallningssignatur för undernyckel\n"
@@ -6183,7 +6202,6 @@ msgid "This key's user IDs:\n"
 msgstr "Användar-id:n för denna nyckel:\n"
 
 #, c-format
-#| msgid "validity: %s"
 msgid "policy: %s"
 msgstr "policy: %s"
 
@@ -6360,7 +6378,6 @@ msgid "Encrypted 0 messages."
 msgstr "Krypterade 0 meddelanden."
 
 #, c-format
-#| msgid "validity: %s"
 msgid "(policy: %s)"
 msgstr "(policy: %s)"
 
@@ -6732,8 +6749,8 @@ msgstr "svaret innehåller inte publikt nyckeldata\n"
 msgid "||Please enter the PIN for the key to create qualified signatures."
 msgstr "||Ange PIN-koden för nyckeln att skapa kvalificerade signaturer med."
 
-#. TRANSLATORS: Do not translate the "|A|" prefix but keep it at
-#. the start of the string.  Use %0A (single percent) for a linefeed.
+#. TRANSLATORS: Do not translate the "|A|" prefix but keep it at the
+#. start of the string.
 msgid "|A|Please enter the Admin PIN"
 msgstr "|A|Ange administratörens PIN-kod"
 
@@ -6810,27 +6827,6 @@ msgid "%sNumber: %s%%0AHolder: %s%%0ACounter: %lu%s"
 msgstr "%sNummer\\x1f: %s%%0AInnehavare\\x1f: %s%%0ARäknare\\x1f: %lu%s"
 
 #, c-format
-msgid "using default PIN as %s\n"
-msgstr "använder standard-PIN som %s\n"
-
-#, c-format
-msgid "failed to use default PIN as %s: %s - disabling further default use\n"
-msgstr ""
-"misslyckades med att använda standard-PIN som %s: %s - inaktiverar "
-"ytterligare standardanvändning\n"
-
-msgid "||Please unlock the card"
-msgstr "||Lås upp kortet"
-
-#, c-format
-msgid "PIN for CHV%d is too short; minimum length is %d\n"
-msgstr "PIN-kod för CHV%d är för kort; minimumlängd är %d\n"
-
-#, c-format
-msgid "verify CHV%d failed: %s\n"
-msgstr "validering av CHV%d misslyckades: %s\n"
-
-#, c-format
 msgid "card is permanently locked!\n"
 msgstr "kortet är låst permanent!\n"
 
@@ -6844,6 +6840,27 @@ msgstr[0] ""
 msgstr[1] ""
 "%d återstående försök att ange PIN-kod för administratör innan kortet låses "
 "permanent\n"
+
+msgid "||Please unlock the card"
+msgstr "||Lås upp kortet"
+
+#, c-format
+msgid "using default PIN as %s\n"
+msgstr "använder standard-PIN som %s\n"
+
+#, c-format
+msgid "failed to use default PIN as %s: %s - disabling further default use\n"
+msgstr ""
+"misslyckades med att använda standard-PIN som %s: %s - inaktiverar "
+"ytterligare standardanvändning\n"
+
+#, c-format
+msgid "PIN for CHV%d is too short; minimum length is %d\n"
+msgstr "PIN-kod för CHV%d är för kort; minimumlängd är %d\n"
+
+#, c-format
+msgid "verify CHV%d failed: %s\n"
+msgstr "validering av CHV%d misslyckades: %s\n"
 
 #, c-format
 msgid "access to admin commands is not configured\n"
@@ -7597,12 +7614,22 @@ msgid "unknown validation model '%s'\n"
 msgstr "okänd valideringsmodell '%s'\n"
 
 #, c-format
+#| msgid "cipher algorithm %d%s is unknown or disabled\n"
+msgid "given cipher algorithm '%s' is unknown - using '%s'\n"
+msgstr "den angivna chifferalgoritmen '%s' är okänd – använder '%s'\n"
+
+#, c-format
 msgid "importing common certificates '%s'\n"
 msgstr "importerar vanliga certifikat '%s'\n"
 
 #, c-format
 msgid "can't sign using '%s': %s\n"
 msgstr "kan inte signera med '%s': %s\n"
+
+#, c-format
+#| msgid "can't open fd %d: %s\n"
+msgid "can't open outputfile: %s\n"
+msgstr "kan inte öppna utdatafilen: %s\n"
 
 #, c-format
 msgid "invalid command (there is no implicit command)\n"
@@ -7653,12 +7680,12 @@ msgid "error storing certificate: %s\n"
 msgstr "fel vid lagring av certifikat: %s\n"
 
 #, c-format
-msgid "problem re-searching certificate: %s\n"
-msgstr "problem vid ytterligare sökning efter certifikat: %s\n"
-
-#, c-format
 msgid "error storing flags: %s\n"
 msgstr "fel vid lagring av flaggor: %s\n"
+
+#, c-format
+msgid "problem re-searching certificate: %s\n"
+msgstr "problem vid ytterligare sökning efter certifikat: %s\n"
 
 msgid "Error - "
 msgstr "Fel - "
@@ -9480,11 +9507,6 @@ msgstr "hantera kommandohistoriken"
 
 #~ msgid "LDAP server list"
 #~ msgstr "LDAP-serverlista"
-
-#, fuzzy
-#~| msgid "NOTE: old default options file `%s' ignored\n"
-#~ msgid "Note: old default options file '%s' ignored\n"
-#~ msgstr "OBS: den gamla inställningsfilen \"%s\" används inte\n"
 
 #~ msgid ""
 #~ "@\n"
