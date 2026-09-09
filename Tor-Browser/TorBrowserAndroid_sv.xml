@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. --><resources>
+    <!-- About content. The first parameter is the name of the application. (For example: Fenix) -->
+    <string name="tor_about_content">%1$s utvecklas av The Tor Project, en amerikansk ideell organisation med 501(c)(3)-status.</string>
+    <!-- Preference link to donate to The Tor Project-->
+    <string name="preferences_donate">Donera till The Tor Project</string>
+    <!-- Preference for allowing screenshots to be taken in the app-->
+    <string name="preferences_allow_screenshots">Tillåt skärmdumpar</string>
+    <string name="tor_bootstrap_connect">Anslut</string>
+    <string name="tor_explore_privately">Utforska. Privat.</string>
+    <string name="preferences_tor_network_settings_explanation">Tor Browser dirigerar trafiken genom Tor-nätverket, som drivs av tusentals volontärer runt om i världen.</string>
+    <string name="preferences_tor_network_settings_bridge_config">Konfigurera en bro</string>
+    <string name="preferences_tor_network_settings_bridge_config_description">Använd en bro för att ansluta till Tor</string>
+    <string name="preferences_tor_network_settings_bridge_config_explanation">Broar är olistade reläer som gör det svårare att blockera anslutningar till Tor-nätverket. Eftersom Tor blockeras på olika sätt i olika länder kan vissa broar fungera bättre än andra.</string>
+    <string name="preferences_tor_network_settings_bridge_config_toggle">Använd en bro</string>
+    <string name="preferences_tor_network_settings_bridge_config_toggle_description">Konfigurera en bro för att ansluta till Tor</string>
+    <string name="preferences_tor_network_settings_bridge_config_builtin_bridge_obfs4" translatable="false">obfs4</string>
+    <string name="preferences_tor_network_settings_bridge_config_user_provided_bridge">Ange en bro som jag känner till</string>
+    <string name="preferences_tor_network_settings_bridge_config_user_provided_bridge_description">Ange broinformation från en betrodd källa</string>
+    <string name="preferences_tor_network_settings_bridge_config_current_bridge">För närvarande konfigurerad bro: %s</string>
+    <string name="tor_network_settings_bridge_not_configured">Inte konfigurerad</string>
+    <string name="preferences_tor_security_level_options">Säkerhetsnivå</string>
+    <string name="tor_security_level_standard_description">Alla funktioner i Tor Browser och på webbplatser är aktiverade.</string>
+    <string name="tor_security_level_safer_description">Vissa webbplatsfunktioner som ofta är farliga inaktiveras, vilket kan göra att vissa webbplatser fungerar sämre.</string>
+    <string name="tor_security_level_safest_description">Endast webbplatsfunktioner som krävs för statiska webbplatser och grundläggande tjänster tillåts. Det påverkar bilder, media och skript.</string>
+    <!-- Spoof locale to English -->
+    <string name="tor_spoof_english">Begär engelska versioner av webbplatser för ökad integritet</string>
+    <string name="connection_assist_tor_connect_title">Anslut till Tor</string>
+    <string name="connection_assist_location_check_title">Vi har fortfarande problem med att ansluta</string>
+    <string name="connection_assist_cant_connect_to_tor_title">Vi kan inte ansluta till Tor direkt</string>
+    <string name="connection_assist_internet_error_title">Vi kan inte nå internet</string>
+    <string name="connection_assist_unblock_the_internet_in_country_or_region">Få åtkomst till internet i:</string>
+    <string name="connection_assist_final_error_description1">Trots alla försök kunde vi inte ansluta till Tor. Vi rekommenderar att du %1$s och lägger till en bro manuellt. %2$s</string>
+    <string name="connection_assist_final_error_troubleshoot_connection_link">felsöker anslutningen</string>
+    <string name="connection_assist_last_try_title">Försöker en gång till…</string>
+    <string name="connection_assist_internet_error_learn_more">Läs mer</string>
+    <string name="connection_assist_trying_again_waiting_title">Försöker igen…</string>
+    <string name="connection_assist_final_error_learn_more_link">Läs mer</string>
+    <string name="connection_assist_internet_error_description">Det kan bero på ett anslutningsproblem snarare än att Tor blockeras. Kontrollera internetanslutningen samt proxy- och brandväggsinställningarna innan du försöker igen. %1$s</string>
+    <string name="connection_assist_always_connect_automatically_toggle_description">Anslut alltid automatiskt</string>
+    <string name="connection_assist_trying_a_bridge_title">Provar en bro…</string>
+    <string name="connection_assist_location_error_description" translatable="false">%1$s %2$s %3$s</string>
+    <string name="connection_assist_location_error_title">Vi kunde inte hitta din plats</string>
+    <string name="connection_assist_try_a_bridge_button">Prova en bro</string>
+    <string name="connection_assist_configure_connection_button">Konfigurera anslutningen…</string>
+    <string name="connection_assist_connecting_title">Upprättar en anslutning…</string>
+    <string name="connection_assist_final_error_title">Vi kunde inte ansluta automatiskt</string>
+    <string name="connection_assist_try_a_bridge_description">Försök ansluta via en bro i stället. Om du anger din plats kan vi leta upp den bro som troligast ger åtkomst till internet i ditt land eller din region. %1$s</string>
+    <string name="connection_assist_internet_error_try_again">Försök igen</string>
+    <string name="connection_assist_location_error_learn_more_link">Läs mer</string>
+    <string name="connection_assist_select_country_try_again">Välj ditt land eller din region och försök igen.</string>
+    <string name="connection_assist_find_bridge_location_description">För att hitta en bro som kan ge dig åtkomst till internet behöver vi veta varifrån du ansluter.</string>
+    <string name="preferences_tor_logs">Tor-loggar</string>
+    <string name="preferences_tor_connection_settings_title">Anslutning</string>
+    <string name="btn_cancel">Avbryt</string>
+    <string name="preferences_tor_logs_description">Visa och kopiera dina Tor-loggar</string>
+    <string name="library_new_circuit">Ny krets</string>
+    <string name="connection_assist_connect_to_tor_before_opening_links">Anslut till Tor innan du öppnar länkar</string>
+    <string name="connection_assist_connect_to_tor_before_opening_links_confirmation">ANSLUT</string>
+    <string name="connection_assist_automatic_country_detection">Automatisk</string>
+    <string name="connection_assist_select_country_or_region">Välj land eller region</string>
+    <string name="connection_assist_back_button_content_description_start_again">Börja om</string>
+    <string name="tor_connect_automatically_label">Anslut automatiskt</string>
+    <string name="tor_security_level_warning">Du måste starta om %s för att tillämpa ändringarna. Detta stänger alla flikar.</string>
+    <string name="tor_security_level_standard">Standard</string>
+    <string name="tor_security_level_safer">Säkrare</string>
+    <string name="tor_security_level_standard_current_level">Standard (aktuell nivå)</string>
+    <string name="tor_security_level_safest">Säkrast</string>
+    <string name="tor_security_level_safest_current_level">Säkrast (aktuell nivå)</string>
+    <string name="tor_security_level_restarting">Startar om</string>
+    <string name="tor_security_level_safer_current_level">Säkrare (aktuell nivå)</string>
+    <string name="tor_security_level_save_and_restart_tor_browser">Spara och starta om</string>
+    <string name="preferences_tor_network_settings_bridge_config_builtin_bridge_meek" translatable="false">meek</string>
+    <string name="preferences_tor_network_settings_bridge_config_builtin_bridge_snowflake2" translatable="false">Snowflake</string>
+    <string name="notification_close_tor_browser_tabs">Stäng alla flikar i %s?</string>
+    <string name="notification_close_tor_browser_tabs_long">Tryck på eller svep bort aviseringen för att stänga alla flikar i %s</string>
+    <string name="donate_now_yec">Donera nu</string>
+    <string name="no_donation_required_yec">Tor Browser för Android kommer alltid att vara kostnadsfri – du behöver inte donera för att använda appen.</string>
+    <string name="close_yec_button_description">Stäng</string>
+    <string name="tor_authentication_unlock_private_tabs">Lås upp %s flikar</string>
+    <string name="tor_authentication_enable_lock">Aktivera skärmlåset för %s flikar</string>
+    <string name="tor_authentication_disable_lock">Inaktivera skärmlåset för %s flikar</string>
+    <string name="tor_authentication_lock_device_feature_disabled">Konfigurera skärmlås för att dölja %s flikar</string>
+    <string name="tor_tab_cfr_title">Använd skärmlås för att dölja %s flikar?</string>
+    <string name="preferences_tor_lock_screen_title">Använd skärmlås för att dölja %s flikar</string>
+    <string name="preferences_tor_lock_screen_summary">Lås upp %s flikar med fingeravtryck, PIN-kod eller ansiktsigenkänning.</string>
+    <string name="connection_assist_bootstrap_succeeded_toast_message">Ansluten till Tor</string>
+    <string name="connection_assist_frequently_selected_locations">Ofta valda platser</string>
+    <string name="connection_assist_other_locations">Andra platser</string>
+    <string name="tor_security_level_custom">Anpassad</string>
+    <string name="tor_security_level_custom_current_level">Anpassad (nuvarande nivå)</string>
+    <string name="tor_security_level_custom_description">Dina anpassade webbläsarinställningar har lett till ovanliga säkerhetsinställningar. Av säkerhets- och integritetsskäl rekommenderar vi att du ändrar dem till någon av standardsäkerhetsnivåerna.</string>
+    <string name="tor_open_security_settings">Öppna säkerhetsinställningar</string>
+    <string name="connection_assist_provider_stopped_title">Tor-processen har slutat fungera</string>
+    <string name="connection_assist_provider_stopped_description1">Den underliggande processen som styr anslutningen till Tor-nätverket har slutat fungera.</string>
+    <string name="connection_assist_provider_stopped_description2">Vad kan orsaka detta?</string>
+    <string name="connection_assist_provider_stopped_description_battery1">Enheten har avslutat processen för att spara batteri.</string>
+    <string name="connection_assist_provider_stopped_description3">Tor-processen har slutat fungera på grund av ett tekniskt problem.</string>
+    <string name="connection_assist_provider_stopped_description4">Vad kan du göra?</string>
+    <string name="connection_assist_provider_stopped_description5">Försök att starta om Tor-processen (detta stänger inte dina webbläsarflikar).</string>
+    <string name="connection_assist_provider_stopped_description_turn_off_battery_saver_clickable">Stäng av batterisparläget på enheten</string>
+    <string name="connection_assist_provider_stopped_description_turn_off_battery_saver2">%1$s och försök att starta om Tor-processen (detta stänger inte dina webbläsarflikar).</string>
+    <string name="connection_assist_provider_stopped_description6">Om problemet kvarstår kan du kontakta oss via någon av våra %1$s.</string>
+    <string name="connection_assist_provider_stopped_description7">supportkanaler</string>
+    <string name="connection_assist_restart_connection_button">Starta om Tor-processen</string>
+    <string name="connection_assist_restarting_connection_button">Startar om Tor-processen …</string>
+</resources>
