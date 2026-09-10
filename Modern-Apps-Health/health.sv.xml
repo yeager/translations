@@ -1,0 +1,308 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- TodayPage / launcher: App name. Noun, proper -->
+    <string name="app_name">Hälsa</string>
+
+    <!-- MainActivity: Button text to request Health Connect permissions. Verb phrase -->
+    <string name="grant_permissions">Bevilja behörigheter</string>
+    <!-- Permission wall: explains why Health Connect access is needed. Sentence -->
+    <string name="grant_permissions_rationale">Den här appen läser och skriver dina hälsodata via Health Connect. Inga data lämnar din enhet.</string>
+
+    <!-- BarChartDetails: SecondaryTabRow tab for daily aggregation view. Noun -->
+    <string name="tab_day">Dag</string>
+    <!-- BarChartDetails: Tab for weekly aggregation. Noun -->
+    <string name="tab_week">Vecka</string>
+    <!-- BarChartDetails: Tab for monthly aggregation. Noun -->
+    <string name="tab_month">Månad</string>
+    <!-- BarChartDetails: Tab for yearly aggregation. Noun -->
+    <string name="tab_year">År</string>
+
+
+    <!-- BarChartDetails: Header format for week range. %1$s = start date e.g. May 12, %2$s = end date e.g. May 18. Includes en-dash separator -->
+    <string name="week_range"><xliff:g id="start_date" example="May 12">%1$s</xliff:g> – <xliff:g id="end_date" example="May 18">%2$s</xliff:g></string>
+    <!-- BarChartDetails / SleepDetailsPage: Empty chart placeholder when no health data for period. Sentence -->
+    <string name="no_data_available">Inga data är tillgängliga för den här perioden</string>
+
+
+    <!-- BarChartDetails: Unit shown when tab != Day and not line chart, displaying average per day. %1$s = unit string e.g. steps, kcal, km -->
+    <string name="unit_per_day_avg_format"><xliff:g id="unit" example="steps">%1$s</xliff:g> per dag (genomsnitt)</string>
+    <!-- BarChartDetails: Unit-only format with leading non-breaking space. %1$s = unit string e.g. steps. Uses \u0020 NBSP -->
+    <string name="unit_only_format">\\u0020<xliff:g id="unit" example="steps">%1$s</xliff:g></string>
+    <!-- BarChartDetails + HealthViewModel: Month year header format. %1$s = month name e.g. January or Jan, %2$d = year integer e.g. 2026 -->
+    <string name="month_year_format"><xliff:g id="month" example="January">%1$s</xliff:g> <xliff:g id="year" example="2026">%2$d</xliff:g></string>
+    <!-- BarChartDetails: History row trailing value with space before unit. %1$s = formatted value e.g. 12,345, %2$s = unit e.g. steps -->
+    <string name="value_unit_space_format"><xliff:g id="value" example="12,345">%1$s</xliff:g> <xliff:g id="unit" example="steps">%2$s</xliff:g></string>
+    <!-- BarChartDetails: Y-axis value formatter for >=10k, converting to k shorthand. %1$s = value divided by 1000 rounded e.g. 12 -->
+    <string name="k_format"><xliff:g id="thousands" example="12">%1$s</xliff:g> t</string>
+
+    <!-- HealthMetricConfig titleRes: Display name for Energy Burned metric (calories). Noun phrase -->
+    <string name="metric_energy_burned">Förbränd energi</string>
+    <!-- HealthMetricConfig: Active Calories title. Noun phrase -->
+    <string name="metric_active_calories">Aktiva kalorier</string>
+    <!-- HealthMetricConfig: Basal Metabolic Rate title. Noun phrase -->
+    <string name="metric_basal_metabolic_rate">Basalmetabolism</string>
+    <!-- HealthMetricConfig: Steps title. Noun -->
+    <string name="metric_steps">Steg</string>
+    <!-- HealthMetricConfig: Wheelchair Pushes title. Noun phrase -->
+    <string name="metric_wheelchair_pushes">Rullstolstag</string>
+    <!-- HealthMetricConfig: Distance title. Noun -->
+    <string name="metric_distance">Distans</string>
+    <!-- HealthMetricConfig: Elevation Gained title. Noun phrase -->
+    <string name="metric_elevation_gained">Höjdmeter</string>
+    <!-- HealthMetricConfig: Floors Climbed title. Noun phrase -->
+    <string name="metric_floors_climbed">Våningar</string>
+    <!-- HealthMetricConfig: Hydration title. Noun -->
+    <string name="metric_hydration">Vätskeintag</string>
+    <!-- HealthMetricConfig: Blood Pressure title. Noun phrase -->
+    <string name="metric_blood_pressure">Blodtryck</string>
+    <!-- HealthMetricConfig: Blood Glucose title. Noun phrase -->
+    <string name="metric_blood_glucose">Blodglukos</string>
+    <!-- HealthMetricConfig: VO2 Max title (max oxygen uptake). Noun abbreviation -->
+    <string name="metric_vo2_max">VO₂ max</string>
+    <!-- HealthMetricConfig: Skin Temperature Variation title. Noun phrase -->
+    <string name="metric_skin_temp_variation">Variation i hudtemperatur</string>
+    <!-- HealthMetricConfig: Breathing Rate title. Noun phrase -->
+    <string name="metric_breathing_rate">Andningsfrekvens</string>
+    <!-- HealthMetricConfig: Resting Heart Rate title. Noun phrase -->
+    <string name="metric_resting_heart_rate">Vilopuls</string>
+    <!-- HealthMetricConfig: Oxygen Saturation title. Noun phrase -->
+    <string name="metric_oxygen_saturation">Syremättnad</string>
+    <!-- HealthMetricConfig: Heart Rate Variability title. Noun phrase -->
+    <string name="metric_heart_rate_variability">Hjärtfrekvensvariabilitet</string>
+    <!-- HealthMetricConfig: Heart Rate title. Noun phrase -->
+    <string name="metric_heart_rate">Hjärtfrekvens</string>
+    <!-- HealthMetricConfig: Height title. Noun -->
+    <string name="metric_height">Längd</string>
+    <!-- HealthMetricConfig: Weight title. Noun -->
+    <string name="metric_weight">Vikt</string>
+    <!-- HealthMetricConfig: Body Fat percentage title. Noun phrase -->
+    <string name="metric_body_fat">Kroppsfett</string>
+    <!-- HealthMetricConfig: Lean Body Mass title. Noun phrase -->
+    <string name="metric_lean_body_mass">Fettfri kroppsmassa</string>
+    <!-- HealthMetricConfig: Bone Mass title. Noun phrase -->
+    <string name="metric_bone_mass">Benmassa</string>
+    <!-- HealthMetricConfig: Body Water Mass title. Noun phrase -->
+    <string name="metric_body_water_mass">Kroppsvattenmassa</string>
+    <!-- HealthMetricConfig: Sleep duration title. Noun -->
+    <string name="metric_sleep">Sömn</string>
+    <!-- HealthMetricConfig: Exercise duration title. Noun -->
+    <string name="metric_exercise_duration">Träning</string>
+
+    <!-- SleepDetailsPage: Hypnogram Y-axis label for Awake stage. Adjective/noun -->
+    <string name="label_awake">Vaken</string>
+    <!-- SleepDetailsPage: Label for REM sleep stage. Noun abbreviation, keep REM -->
+    <string name="label_rem">REM</string>
+    <!-- SleepDetailsPage: Label for Core sleep stage. Noun -->
+    <string name="label_core">Kärnsömn</string>
+    <!-- SleepDetailsPage: Label for Deep sleep stage. Adjective -->
+    <string name="label_deep">Djupsömn</string>
+
+    <!-- BodyPage: Section header for body composition metrics. Noun phrase -->
+    <string name="section_body_composition">Kroppssammansättning</string>
+
+    <!-- TodayPage / ActivityPage: Mini-card legend for active calories ring. Adjective short label -->
+    <string name="label_active">Aktiv</string>
+
+    <!-- NutritionDetailsPage / SleepDetailsPage: Label for today date badge. Noun -->
+    <string name="label_today">I dag</string>
+
+    <!-- BarChartDetails: Slash format for dual averages, e.g. active/basal or systolic/diastolic avg. %1$s = first avg string, %2$s = second avg string -->
+    <string name="slash_value_format"><xliff:g id="first" example="120">%1$s</xliff:g>/<xliff:g id="second" example="80">%2$s</xliff:g></string>
+    <!-- BarChartDetails: Dash format for range averages like heart-rate min-max. %1$s = min value string, %2$s = max value string -->
+    <string name="dash_value_format"><xliff:g id="min" example="60">%1$s</xliff:g> – <xliff:g id="max" example="140">%2$s</xliff:g></string>
+    <!-- HealthFormat: Sleep duration hours and minutes. %1$d = hours integer, %2$d = minutes integer e.g. 7h 30m -->
+    <string name="hours_minutes_format"><xliff:g id="hours" example="7">%1$d</xliff:g> h <xliff:g id="minutes" example="30">%2$d</xliff:g> min</string>
+    <!-- HealthFormat: Duration minutes only when hours zero. %1$d = minutes integer e.g. 25 -->
+    <string name="minutes_format"><xliff:g id="minutes" example="25">%1$d</xliff:g> min</string>
+    <!-- TodayPage / BodyPage / ActivityPage: Label for Steps metric row. Noun -->
+    <string name="label_steps">Steg</string>
+    <!-- TodayPage: Label for Wheelchair Pushes row. Noun phrase -->
+    <string name="label_wheelchair_pushes">Rullstolstag</string>
+    <!-- TodayPage: Label for Mindfulness minutes row. Noun -->
+    <string name="label_mindfulness">Medveten närvaro</string>
+    <!-- TodayPage: Label for Elevation gained row. Noun -->
+    <string name="label_elevation">Höjd</string>
+    <!-- TodayPage: Label for Floors climbed row. Noun -->
+    <string name="label_floors">Våningar</string>
+    <!-- TodayPage: Label for Distance row. Noun -->
+    <string name="label_distance">Distans</string>
+    <!-- TodayPage: Label for Heart rate row. Noun phrase -->
+    <string name="label_heart_rate">Hjärtfrekvens</string>
+    <!-- TodayPage: Label for Sleep row. Noun -->
+    <string name="label_sleep">Sömn</string>
+    <!-- TodayPage: Label for Hydration row. Noun -->
+    <string name="label_hydration">Vätskeintag</string>
+
+    <!-- TodayPage: Section header for Blood Pressure vitals card. Noun phrase -->
+    <string name="label_blood_pressure">Blodtryck</string>
+    <!-- TodayPage: Label for Oxygen Saturation. Noun phrase -->
+    <string name="label_oxygen_saturation">Syremättnad</string>
+    <!-- TodayPage: Label for Resting Heart Rate. Noun phrase -->
+    <string name="label_resting_heart_rate">Vilopuls</string>
+
+    <!-- BodyPage: Label for Height row in body composition dashboard. Noun -->
+    <string name="label_height">Längd</string>
+    <!-- BodyPage: Label for Weight row. Noun -->
+    <string name="label_weight">Vikt</string>
+    <!-- BodyPage: Label for Body Fat row. Noun phrase -->
+    <string name="label_body_fat">Kroppsfett</string>
+    <!-- BodyPage: Label for Lean Body Mass row. Noun phrase -->
+    <string name="label_lean_body_mass">Fettfri kroppsmassa</string>
+    <!-- BodyPage: Label for Bone Mass row. Noun phrase -->
+    <string name="label_bone_mass">Benmassa</string>
+    <!-- BodyPage: Label for Body Water Mass row. Noun phrase -->
+    <string name="label_body_water_mass">Kroppsvattenmassa</string>
+
+
+    <!-- Units: Beats per minute. Abbreviation -->
+    <string name="unit_bpm">slag/min</string>
+    <!-- Units: Percent sign. Symbol -->
+    <string name="unit_percent">%</string>
+    <!-- Units: Centimeters for height. Abbreviation -->
+    <string name="unit_cm">cm</string>
+    <!-- Units: Kilograms for weight. Abbreviation -->
+    <string name="unit_kg">kg</string>
+    <!-- Units: Milliliters for hydration. Abbreviation -->
+    <string name="unit_ml">ml</string>
+    <!-- Units: Fluid unit label for hydration (alternative). Abbreviation -->
+    <string name="unit_fl">fl oz</string>
+    <!-- Units: Meters for distance/elevation. Abbreviation -->
+    <string name="unit_m">m</string>
+    <!-- Units: Kilometers for distance. Abbreviation -->
+    <string name="unit_km">km</string>
+    <!-- Units: Steps unit suffix. Noun -->
+    <string name="unit_steps">steg</string>
+    <!-- Units: Pushes unit suffix for wheelchair pushes. Noun -->
+    <string name="unit_pushes">tag</string>
+    <!-- Units: Minutes abbreviation. Short -->
+    <string name="unit_min">min</string>
+    <!-- Units: Calories abbreviation short. Keep short -->
+    <string name="unit_cal">cal</string>
+    <!-- Units: Millimeters of mercury for blood pressure. Abbreviation -->
+    <string name="label_blood_pressure_unit">mmHg</string>
+
+    <!-- NutritionDetailsPage: TopAppBar title for full breakdown screen. Noun phrase -->
+    <string name="nutrition_breakdown">Näringsfördelning</string>
+
+    <!-- RecipeManagementPage: Title Tabs - Recipes list tab. Noun -->
+    <string name="recipes">Recept</string>
+    <!-- RecipeManagementPage: Tab for Ingredients list and section header in NutritionPage FAB. Noun -->
+    <string name="ingredients">Ingredienser</string>
+    <!-- RecipeManagementPage: Dialog title to rename ingredient custom name. Verb phrase -->
+    <string name="rename_ingredient">Byt namn på ingrediens</string>
+    <!-- RecipeManagementPage: Label for custom name input field. Noun phrase -->
+    <string name="custom_name">Eget namn</string>
+    <!-- RecipeManagementPage: Input label for recipe name. Noun phrase -->
+    <string name="recipe_name">Receptnamn</string>
+    <!-- RecipeManagementPage: Button to save recipe after ingredients added. Verb phrase -->
+    <string name="save_recipe">Spara recept</string>
+    <!-- RecipeManagementPage: Dialog title to set quantity for ingredient. %1$s = ingredient display name e.g. Tomato -->
+    <string name="set_quantity_for_format">Ange mängd för <xliff:g id="ingredient" example="Tomato">%1$s</xliff:g></string>
+    <!-- RecipeManagementPage: Input label for quantity in grams or factor. Noun -->
+    <string name="quantity">Mängd</string>
+    <!-- RecipeManagementPage: Input label for unit selection. Noun -->
+    <string name="unit">Enhet</string>
+    <!-- RecipeManagementPage: Confirm button in quantity dialog. Verb -->
+    <string name="confirm">Bekräfta</string>
+    <!-- RecipeManagementPage: Search field label for ingredient search (online+local). Noun phrase verb -->
+    <string name="search_ingredient">Sök ingrediens</string>
+    <!-- RecipeManagementPage: Search action button / label. Verb -->
+    <string name="search">Sök</string>
+
+    <!-- NutritionPage FAB / dialogs: Action to log hydration. Verb phrase -->
+    <string name="log_hydration">Logga vätskeintag</string>
+    <!-- NutritionPage: Action to log a meal using recipe. Verb phrase -->
+    <string name="log_meal">Logga måltid</string>
+
+    <!-- BodyLoggingDialog: Title to log body metric. %1$s = metric title e.g. Weight, Body Fat. Verb phrase -->
+    <string name="log_body_metric">Logga <xliff:g id="metric" example="Weight">%1$s</xliff:g></string>
+
+    <!-- MainActivity BottomNavBar: Today tab label. Noun -->
+    <string name="nav_today">I dag</string>
+    <!-- MainActivity BottomNavBar: Activity tab label. Noun -->
+    <string name="nav_activity">Aktivitet</string>
+    <!-- MainActivity BottomNavBar: Nutrition tab label. Noun -->
+    <string name="nav_nutrition">Näring</string>
+    <!-- MainActivity BottomNavBar: Body tab label. Noun -->
+    <string name="nav_body">Kropp</string>
+
+    <!-- TodayPage: Section header for latest vitals cards. Noun phrase -->
+    <string name="section_latest_vitals">Senaste vitalvärdena</string>
+    <!-- TodayPage: Section header for last night sleep card. Noun phrase -->
+    <string name="section_last_night">I natt</string>
+    <!-- TodayPage: Section header for quick stats mini-cards. Noun phrase -->
+    <string name="section_quick_stats">Snabbstatistik</string>
+    <!-- ActivityPage: Section header for today's activity rings/charts. Noun -->
+    <string name="section_today_activity">I dag</string>
+    <!-- ActivityPage: Section header for this week's summary. Noun phrase -->
+    <string name="section_this_week">Den här veckan</string>
+
+    <!-- ExerciseDetailsPage: Title for exercise section/details page. Noun -->
+    <string name="label_exercise">Träning</string>
+    <!-- ExerciseDetailsPage: Empty state when no workouts recorded. Sentence -->
+    <string name="no_workouts">Inga träningspass har registrerats</string>
+
+    <!-- NutritionPage: Link row supporting text to view full nutrition breakdown screen. Verb phrase -->
+    <string name="view_full_breakdown">Visa fullständig fördelning</string>
+    <!-- RecipeManagementPage: Placeholder when ingredient search yields no results. Sentence -->
+    <string name="no_results_found">Inga resultat hittades</string>
+    <!-- Label showing original ingredient name. %1$s = original name e.g. Tomato. Keep same translation as original label -->
+    <string name="original_1">Ursprungligt: <xliff:g id="original_name" example="Tomato">%1$s</xliff:g></string>
+    <!-- RecipeManagementPage: Sub-header for locally saved ingredients. Noun phrase -->
+    <string name="saved_locally">Sparat lokalt</string>
+    <!-- RecipeManagementPage: Title of the offline nutrition database card, and section header for its search results. Noun phrase -->
+    <string name="food_database">Livsmedelsdatabas</string>
+    <!-- RecipeManagementPage: Shown while the bundled food database is still being built on first launch. Sentence -->
+    <string name="food_database_absent">Livsmedelsdatabasen förbereds. Tills dess går det bara att hitta ingredienser som du redan har sparat.</string>
+    <!-- RecipeManagementPage: First-run build progress. %1$s = products written e.g. 120,000, %2$s = total e.g. 465,000 -->
+    <string name="food_database_preparing">Förbereder <xliff:g id="products_done" example="120,000">%1$s</xliff:g> av <xliff:g id="products_total" example="465,000">%2$s</xliff:g> produkter</string>
+    <!-- RecipeManagementPage: Button shown after the food database failed to build. Verb -->
+    <string name="food_database_retry">Försök igen</string>
+    <!-- RecipeManagementPage: Required licence attribution for the nutrition data. Keep the project name and licence untranslated -->
+    <string name="food_database_attribution">Näringsdata från Open Food Facts, ODbL v1.0</string>
+
+    <!-- ExerciseDetailsPage: Section header for exercise segments. Noun -->
+    <string name="segments">Segment</string>
+    <!-- ExerciseDetailsPage: Section header for laps list in workout details. Noun -->
+    <string name="laps">Varv</string>
+    <!-- ExerciseDetailsPage: Lap entry label. %1$s = lap index string e.g. 1 -->
+    <string name="lap">Varv <xliff:g id="lap_index" example="1">%1$s</xliff:g></string>
+    <!-- ExerciseDetailsPage: Repetitions display for workout activity. %1$s = reps count string e.g. 12 -->
+    <string name="reps"><xliff:g id="reps_count" example="12">%1$s</xliff:g> repetitioner</string>
+    <!-- ExerciseDetailsPage: Chip/badge indicating GPS route was recorded for workout. Noun phrase -->
+    <string name="route_recorded">Rutt registrerad</string>
+    <!-- FoodLoggingDialogs: Badge indicating ingredient wrapper type in meal selector dropdown. Noun in parens -->
+    <string name="ingredient">(Ingrediens)</string>
+    <!-- NutritionPage: Header above calorie goal display. Noun -->
+    <string name="calories">Kalorier</string>
+    <!-- NutritionPage: Calorie goal progress. %1$s = current calories string e.g. 1,200, %2$s = goal string e.g. 2,000 -->
+    <string name="kcal"><xliff:g id="current_cal" example="1200">%1$s</xliff:g> / <xliff:g id="goal_cal" example="2000">%2$s</xliff:g> kcal</string>
+    <!-- RecipeManagementPage: Button to create first recipe when empty list. Verb phrase -->
+    <string name="create_recipe">Skapa recept</string>
+    <!-- RecipeManagementPage: Empty empty state prompt to add first ingredient. Verb phrase -->
+    <string name="add_your_first_ingredient">Lägg till din första ingrediens</string>
+    <!-- RecipeManagementPage: Empty state prompt to create first recipe. Verb phrase -->
+    <string name="create_your_first_recipe">Skapa ditt första recept</string>
+    <!-- RecipeManagementPage: Title when editing existing recipe. Verb phrase -->
+    <string name="edit_recipe">Redigera recept</string>
+
+    <!-- NutritionPage: Empty state when no meals logged today. Sentence -->
+    <string name="no_meals_logged_today">Inga måltider har loggats i dag</string>
+    <!-- NutritionPage: Logged meals summary leading to full breakdown. %1$s = meal count as string e.g. 3, %2$s = total calories string e.g. 850 -->
+    <string name="meals_cal"><xliff:g id="meal_count" example="3">%1$s</xliff:g> måltider · <xliff:g id="total_cal" example="850">%2$s</xliff:g> cal</string>
+
+    <!-- FoodLoggingDialogs HydrationUnit: Liters option. Noun -->
+    <string name="hydration_liters">Liter</string>
+    <!-- FoodLoggingDialogs: Milliliters option. Noun -->
+    <string name="hydration_milliliters">Milliliter</string>
+    <!-- FoodLoggingDialogs: Ounces option for hydration. Noun -->
+    <string name="hydration_ounces">Uns</string>
+    <!-- FoodLoggingDialogs: Cups option for hydration. Noun -->
+    <string name="hydration_cups">Koppar</string>
+    <!-- FoodLoggingDialogs: Placeholder when no recipe selected in Meal dropdown. Noun phrase verb -->
+    <string name="select_recipe">Välj recept</string>
+    <!-- FoodLoggingDialogs: Label for quantity field when ingredient (x 100g factor). Noun phrase -->
+    <string name="quantity_x_100g">Mängd (x 100 g)</string>
+    <!-- FoodLoggingDialogs: Label for servings count when recipe selected. Noun -->
+    <string name="servings">Portioner</string>
+    <string name="kcal_2">kcal</string>
+</resources>
