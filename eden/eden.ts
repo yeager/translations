@@ -1,25 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.1" language="sv_SE" sourcelanguage="en_US">
-    <extra-po-header-language>sv</extra-po-header-language>
-    <extra-po-header-language_team></extra-po-header-language_team>
-    <extra-po-header-last_translator>Daniel Nylander &lt;github@danielnylander.se&gt;</extra-po-header-last_translator>
-    <extra-po-header-po_revision_date></extra-po-header-po_revision_date>
-    <extra-po-header-pot_creation_date></extra-po-header-pot_creation_date>
-    <extra-po-header-project_id_version></extra-po-header-project_id_version>
-    <extra-po-header-x_generator>Poedit 3.7</extra-po-header-x_generator>
-    <extra-po-headers>Project-Id-Version,POT-Creation-Date,PO-Revision-Date,Last-Translator,Language-Team,Language,MIME-Version,Content-Type,Content-Transfer-Encoding,Plural-Forms,X-Language,X-Source-Language,X-Qt-Contexts,X-Generator</extra-po-headers>
+<?xml version="1.0" ?><!DOCTYPE TS><TS version="2.1" language="sv" sourcelanguage="en_US">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="14"/>
-        <source>About eden</source>
-        <translation>Om eden</translation>
+        <source>About Eden</source>
+        <translation>Om Eden</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="72"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="85"/>
@@ -34,85 +24,57 @@ p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Adwaita Sans&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;eden is an experimental open-source emulator for the Nintendo Switch licensed under GPLv3.0+ which is based on the yuzu emulator which ended development back in March 2024. &lt;br /&gt;&lt;br /&gt;This software should not be used to play games you have not legally obtained.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Noto Sans'; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Eden is an experimental open-source emulator for the Nintendo Switch licensed under GPLv3.0+ which is based on the yuzu emulator which ended development back in March 2024. &lt;br /&gt;&lt;br /&gt;This software should not be used to play games you have not legally obtained.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 hr { height: 1px; border-width: 0; }
 li.unchecked::marker { content: &quot;\2610&quot;; }
 li.checked::marker { content: &quot;\2612&quot;; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Adwaita Sans&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;eden är en experimentell emulator med öppen källkod för Nintendo Switch licensierad under GPLv3.0+ som är baserad på yuzu-emulatorn som slutade utvecklas i mars 2024. &lt;br /&gt;&lt;br /&gt;Denna programvara ska inte användas för att spela spel som du inte har erhållit lagligt.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Noto Sans&apos;; font-size:9pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Eden är en experimentell emulator för Nintendo Switch baserad på öppen källkod och licensierad under GPLv3.0+ som baseras på yuzu-emulatorn vars utveckling avslutades i mars 2024. &lt;br /&gt;&lt;br /&gt;Denna programvara bör inte användas för att spela spel som du inte har skaffat på laglig väg.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="131"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://eden-emulator.github.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Website&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Source Code&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/activity/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Contributors&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;License&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://eden-emulator.github.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Webbsida&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Källkod&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/activity/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Bidragsgivare&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Licens&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://eden-emulator.github.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Website&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Source Code&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/activity/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Contributors&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://discord.gg/HstXbPch7X&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Discord&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://stt.gg/qKgFEAbH&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Stoat&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://nitter.poast.org/edenemuofficial&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Twitter&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;License&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://eden-emulator.github.io/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Webbplats&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Källkod&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/activity/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Bidragsgivare&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://discord.gg/HstXbPch7X&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Discord&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://stt.gg/qKgFEAbH&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Stoat&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://nitter.poast.org/edenemuofficial&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Twitter&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Licens&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/aboutdialog.ui" line="147"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. eden is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; är ett varumärke som tillhör Nintendo. eden är inte anslutet till Nintendo på något sätt.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>About yuzu</source>
-        <translation type="vanished">Om yuzu</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;yuzu&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;yuzu&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;yuzu is an experimental open-source emulator for the Nintendo Switch licensed under GPLv3.0+.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;This software should not be used to play games you have not legally obtained.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;Ubuntu&apos;; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;yuzu är en experimentell Nintendo Switch emulator byggd på öppen källkod licenserad under GPL.3.0+.&lt;/span&gt;&lt;/p&gt;
-&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:12pt;&quot;&gt;Denna mjukvara bör inte användas för att spela spel som du inte har förvärvat på laglig väg.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://yuzu-emu.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Website&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://github.com/yuzu-emu&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Source Code&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://github.com/yuzu-emu/yuzu/graphs/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Contributors&lt;/span&gt;&lt;/a&gt; | &lt;a href=&quot;https://github.com/yuzu-emu/yuzu/blob/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;License&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://yuzu-emu.org/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Hemsida&lt;/span&gt;&lt;/a&gt;I&lt;a href=&quot;https://github.com/yuzu-emu&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Källkod&lt;/span&gt;&lt;/a&gt;I&lt;a href=&quot;https://github.com/yuzu-emu/yuzu/graphs/contributors&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Bidragsgivare&lt;/span&gt;&lt;/a&gt;I&lt;a href=&quot;https://github.com/yuzu-emu/yuzu/blob/master/LICENSE.txt&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;Licens&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; is a trademark of Nintendo. Eden is not affiliated with Nintendo in any way.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;&amp;quot;Nintendo Switch&amp;quot; är ett varumärke som tillhör Nintendo. Eden har ingen anknytning till Nintendo..&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
 </context>
 <context>
     <name>CalibrationConfigurationDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="23"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="26"/>
         <source>Communicating with the server...</source>
         <translation>Kommunicerar med servern...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="24"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="27"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="43"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="45"/>
         <source>Touch the top left corner &lt;br&gt;of your touchpad.</source>
         <translation>Tryck på det övre vänstra hörnet &lt;br&gt;på din pekplatta.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="46"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="48"/>
         <source>Now touch the bottom right corner &lt;br&gt;of your touchpad.</source>
         <translation>Tryck nu på det nedre högra hörnet &lt;br&gt;på din pekplatta.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="49"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="51"/>
         <source>Configuration completed!</source>
         <translation>Konfigurationen är klar!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="57"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="59"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
@@ -135,78 +97,78 @@ p, li { white-space: pre-wrap; }
         <translation>Skicka meddelande</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="183"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="182"/>
         <source>Members</source>
         <translation>Medlemmar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="319"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="318"/>
         <source>%1 has joined</source>
         <translation>%1 har gått med</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="322"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="321"/>
         <source>%1 has left</source>
         <translation>%1 har lämnat</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="325"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="324"/>
         <source>%1 has been kicked</source>
         <translation>%1 har blivit utsparkad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="328"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="327"/>
         <source>%1 has been banned</source>
         <translation>%1 har blivit avstängd</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="331"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="330"/>
         <source>%1 has been unbanned</source>
         <translation>%1 har fått sin avstängning upphävd</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="447"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="446"/>
         <source>View Profile</source>
         <translation>Visa profil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="460"/>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="470"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="459"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="469"/>
         <source>Block Player</source>
         <translation>Blockera spelare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="471"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="470"/>
         <source>When you block a player, you will no longer receive chat messages from them.&lt;br&gt;&lt;br&gt;Are you sure you would like to block %1?</source>
         <translation>När du blockerar en spelare kommer du inte längre att få chattmeddelanden från dem.&lt;br&gt;&lt;br&gt;Är du säker på att du vill blockera %1?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="484"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="483"/>
         <source>Kick</source>
         <translation>Sparka ut</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="485"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="484"/>
         <source>Ban</source>
         <translation>Stäng av</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="489"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="488"/>
         <source>Kick Player</source>
         <translation>Sparka ut spelare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="490"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="489"/>
         <source>Are you sure you would like to &lt;b&gt;kick&lt;/b&gt; %1?</source>
         <translation>Är du säker på att du vill &lt;b&gt;sparka&lt;/b&gt; %1?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="498"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="497"/>
         <source>Ban Player</source>
         <translation>Stäng av spelare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="499"/>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="498"/>
         <source>Are you sure you would like to &lt;b&gt;kick and ban&lt;/b&gt; %1?
 
 This would ban both their forum username and their IP address.</source>
@@ -241,524 +203,403 @@ Detta skulle stänga av både deras forumanvändarnamn och deras IP-adress.</tra
 <context>
     <name>ClientRoomWindow</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="81"/>
+        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="80"/>
         <source>Connected</source>
         <translation>Ansluten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="90"/>
+        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="89"/>
         <source>Disconnected</source>
         <translation>Frånkopplad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="103"/>
+        <location filename="../../src/yuzu/multiplayer/client_room.cpp" line="102"/>
         <source>%1 - %2 (%3/%4 members) - connected</source>
         <translation>%1 - %2 (%3/%4 medlemmar) - ansluten</translation>
     </message>
 </context>
 <context>
-    <name>CompatDB</name>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="20"/>
-        <source>Report Compatibility</source>
-        <translation>Rapportera kompatibilitet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="27"/>
-        <location filename="../../src/yuzu/compatdb.ui" line="63"/>
-        <location filename="../../src/yuzu/compatdb.ui" line="115"/>
-        <location filename="../../src/yuzu/compatdb.ui" line="167"/>
-        <location filename="../../src/yuzu/compatdb.ui" line="219"/>
-        <location filename="../../src/yuzu/compatdb.ui" line="271"/>
-        <location filename="../../src/yuzu/compatdb.ui" line="330"/>
-        <source>Report Game Compatibility</source>
-        <translation>Rapportera spelkompatibilitet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="36"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Should you choose to submit a test case to the &lt;/span&gt;&lt;a href=&quot;https://eden-emulator.github.io/game/&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;eden Compatibility List&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;, The following information will be collected and displayed on the site:&lt;/span&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hardware Information (CPU / GPU / Operating System)&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Which version of eden you are running&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The connected eden account&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Om du väljer att skicka in ett testresultat till &lt;/span&gt;&lt;a href=&quot;https://eden-emulator.github.io/game/&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;edens kompatibilitetslista&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt; kommer följande information kommer att samlas in och visas på webbplatsen:&lt;/span&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hårdvaruinformation (CPU / GPU / operativsystem)&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vilken version av eden du kör&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Det anslutna eden-kontot&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="77"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Does the game boot?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Startar spelet?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="100"/>
-        <source>Yes   The game starts to output video or audio</source>
-        <translation>Ja   Spelet börjar mata ut video eller ljud</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="107"/>
-        <source>No    The game doesn&apos;t get past the &quot;Launching...&quot; screen</source>
-        <translation>Nej    Spelet kommer inte längre än till skärmen &quot;Startar...&quot;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="124"/>
-        <source>Yes   The game gets past the intro/menu and into gameplay</source>
-        <translation>Ja   Spelet tar sig förbi intro/meny och in i spelet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="131"/>
-        <source>No    The game crashes or freezes while loading or using the menu</source>
-        <translation>Nej    Spelet kraschar eller fryser när det laddas eller när menyn används</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="143"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Does the game reach gameplay?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Når spelet upp till spelbarhet?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="176"/>
-        <source>Yes   The game works without crashes</source>
-        <translation>Ja   Spelet fungerar utan kraschar</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="183"/>
-        <source>No    The game crashes or freezes during gameplay</source>
-        <translation>Nej    Spelet kraschar eller fryser under spelets gång</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="195"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Does the game work without crashing, freezing or locking up during gameplay?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fungerar spelet utan att krascha, frysa eller låsa sig under spelets gång?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="228"/>
-        <source>Yes   The game can be finished without any workarounds</source>
-        <translation>Ja   Spelet kan slutföras utan några lösningar</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="235"/>
-        <source>No    The game can&apos;t progress past a certain area</source>
-        <translation>Nej    Spelet kan inte fortsätta förbi ett visst område</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="247"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Is the game completely playable from start to finish?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Är spelet helt spelbart från början till slut?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="280"/>
-        <source>Major   The game has major graphical errors</source>
-        <translation>Större   Spelet har stora grafiska fel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="287"/>
-        <source>Minor   The game has minor graphical errors</source>
-        <translation>Mindre   Spelet har mindre grafiska fel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="294"/>
-        <source>None     Everything is rendered as it looks on the Nintendo Switch</source>
-        <translation>Inget    Allt återges som det ser ut på Nintendo Switch</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="306"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Does the game have any graphical glitches?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Har spelet några grafiska problem?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="339"/>
-        <source>Major   The game has major audio errors</source>
-        <translation>Större   Spelet har stora ljudfel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="346"/>
-        <source>Minor   The game has minor audio errors</source>
-        <translation>Mindre   Spelet har mindre ljudfel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="353"/>
-        <source>None     Audio is played perfectly</source>
-        <translation>Inget   Ljudet spelas upp perfekt</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="365"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Does the game have any audio glitches / missing effects?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Har spelet några ljudstörningar / saknade effekter?&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.ui" line="389"/>
-        <source>Thank you for your submission!</source>
-        <translation>Tack för att du skickade in!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.cpp" line="117"/>
-        <source>Submitting</source>
-        <translation>Skickar</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.cpp" line="188"/>
-        <source>Communication error</source>
-        <translation>Kommunikationsfel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.cpp" line="189"/>
-        <source>An error occurred while sending the Testcase</source>
-        <translation>Ett fel inträffade när testfallet skickades</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/compatdb.cpp" line="191"/>
-        <source>Next</source>
-        <translation>Nästa</translation>
-    </message>
-    <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Should you choose to submit a test case to the &lt;/span&gt;&lt;a href=&quot;https://yuzu-emu.org/game/&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;yuzu Compatibility List&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;, The following information will be collected and displayed on the site:&lt;/span&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Hardware Information (CPU / GPU / Operating System)&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Which version of yuzu you are running&lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The connected yuzu account&lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;Skulle du välja att skicka in ett testfall till &lt;/span&gt;&lt;a href=&quot;https://yuzu-emu.org/game/&quot;&gt;&lt;span style=&quot; font-size:10pt; text-decoration: underline; color:#0000ff;&quot;&gt;yuzus Kompatibilitetslista &lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;, så kommer följande information sparas och visas på sidan: &lt;/span&gt;&lt;/p&gt;&lt;ul style=&quot;margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; -qt-list-indent: 1;&quot;&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt; Hårdvaruinformation (CPU / GPU / Operativsystem) &lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Vilken version av yuzu du använder &lt;/li&gt;&lt;li style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Det anslutna yuzu kontot &lt;/li&gt;&lt;/ul&gt;&lt;/body&gt;&lt;/html&gt;</translation>
-    </message>
-</context>
-<context>
     <name>ConfigurationShared</name>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_widget.cpp" line="63"/>
+        <location filename="../../src/yuzu/configuration/shared_widget.cpp" line="67"/>
         <source>%</source>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="37"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="34"/>
         <source>Amiibo editor</source>
         <translation>Amiibo-redigerare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="38"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="35"/>
         <source>Controller configuration</source>
         <translation>Konfiguration av kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="39"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="36"/>
         <source>Data erase</source>
         <translation>Dataradering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="40"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="37"/>
         <source>Error</source>
         <translation>Fel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="41"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="38"/>
         <source>Net connect</source>
         <translation>Nätanslutning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="42"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="39"/>
         <source>Player select</source>
         <translation>Välj spelare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="43"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="40"/>
         <source>Software keyboard</source>
         <translation>Programvarutangentbord</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="44"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="41"/>
         <source>Mii Edit</source>
         <translation>Mii-redigering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="45"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="42"/>
         <source>Online web</source>
         <translation>Online webb</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="46"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="43"/>
         <source>Shop</source>
         <translation>Butik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="47"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="44"/>
         <source>Photo viewer</source>
         <translation>Bildvisare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="48"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="45"/>
         <source>Offline web</source>
         <translation>Offline webb</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="49"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="46"/>
         <source>Login share</source>
         <translation>Inloggningsdelning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="50"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="47"/>
         <source>Wifi web auth</source>
         <translation>Wifi-autentisering via webben</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="51"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="48"/>
         <source>My page</source>
         <translation>Min sida</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="54"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="49"/>
+        <source>Enable Overlay Applet</source>
+        <translation>Aktivera överläggsapplet</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="50"/>
+        <source>Enables Horizon&apos;s built-in overlay applet. Press and hold the home button for 1 second to show it.</source>
+        <translation>Aktiverar Horizons inbyggda överläggsapplet. Håll hemknappen intryckt i 1 sekund för att visa den.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="54"/>
         <source>Output Engine:</source>
         <translation>Utmatningsmotor:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="55"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="55"/>
         <source>Output Device:</source>
         <translation>Utmatningsenhet:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="56"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="56"/>
         <source>Input Device:</source>
         <translation>Inmatningsenhet:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="57"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="57"/>
         <source>Mute audio</source>
         <translation>Stäng av ljudet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="58"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="58"/>
         <source>Volume:</source>
         <translation>Volym:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="60"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="60"/>
         <source>Mute audio when in background</source>
         <translation>Stäng av ljudet när det är i bakgrunden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="66"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="63"/>
         <source>Multicore CPU Emulation</source>
         <translation>Emulering av flerkärnig CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="67"/>
-        <source>This option increases CPU emulation thread use from 1 to the Switch’s maximum of 4.
-This is mainly a debug option and shouldn’t be disabled.</source>
-        <translation>Det här alternativet ökar användningen av CPU-emuleringstrådar från 1 till Switchens maxvärde på 4.
-Detta är främst ett felsökningsalternativ och bör inte inaktiveras.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="64"/>
+        <source>This option increases CPU emulation thread use from 1 to the maximum of 4.
+This is mainly a debug option and shouldn&apos;t be disabled.</source>
+        <translation>Det här alternativet ökar användningen av CPU-emulatortrådar från 1 till maximalt 4.
+Det här är främst ett felsökningsalternativ och bör inte vara inaktiverat.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="72"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="66"/>
         <source>Memory Layout</source>
         <translation>Minneslayout</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="73"/>
-        <source>Increases the amount of emulated RAM from the stock 4GB of the retail Switch to the developer kit&apos;s 8/6GB.
-It’s doesn’t improve stability or performance and is intended to let big texture mods fit in emulated RAM.
-Enabling it will increase memory use. It is not recommended to enable unless a specific game with a texture mod needs it.</source>
-        <translation>Ökar mängden emulerat RAM-minne från standard 4 GB i detaljhandeln Switch till 8/6 GB i utvecklingskitet.
-Det förbättrar inte stabilitet eller prestanda och är avsett att låta stora texturmoddar få plats i emulerat RAM-minne.
-Om du aktiverar det kommer minnesanvändningen att öka. Det rekommenderas inte att aktivera det om inte ett specifikt spel med en texturmod behöver det.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="67"/>
+        <source>Increases the amount of emulated RAM.
+Doesn&apos;t affect performance/stability but may allow HD texture mods to load.</source>
+        <translation>Ökar mängden emulerat RAM-minne.
+Påverkar inte prestanda/stabilitet men kan göra det möjligt att läsa in HD-texturmods.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="81"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="72"/>
         <source>Limit Speed Percent</source>
         <translation>Begränsa hastighet i procent</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="82"/>
-        <source>Controls the game&apos;s maximum rendering speed, but it’s up to each game if it runs faster or not.
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="73"/>
+        <source>Controls the game's maximum rendering speed, but it's up to each game if it runs faster or not.
 200% for a 30 FPS game is 60 FPS, and for a 60 FPS game it will be 120 FPS.
 Disabling it means unlocking the framerate to the maximum your PC can reach.</source>
-        <translation>Styr spelets maximala renderingshastighet, men det är upp till varje spel om det körs snabbare eller inte.
-200% feller ett 30 FPS-spel är 60 FPS, och för ett 60 FPS-spel kommer det att vara 120 FPS.
-Att inaktivera det innebär att du låser upp bildfrekvensen till det maximala din dator kan nå.</translation>
+        <translation>Kontrollerar spelets maximala renderingshastighet, men det är upp till varje spel om det körs snabbare eller inte.
+200% för ett spel med 30 bilder/s är 60 bilder/s, och för ett spel med 60 bilder/s blir det 120 bilder/s.
+Att inaktivera det innebär att du låser upp bildfrekvensen till det maximala som din dator kan nå.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="88"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="78"/>
+        <source>Turbo Speed</source>
+        <translation>Turbohastighet</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="79"/>
+        <source>When the Turbo Speed hotkey is pressed, the speed will be limited to this percentage.</source>
+        <translation>När snabbtangenten Turbohastighet trycks ned begränsas hastigheten till denna procentandel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="81"/>
+        <source>Slow Speed</source>
+        <translation>Låg hastighet</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="82"/>
+        <source>When the Slow Speed hotkey is pressed, the speed will be limited to this percentage.</source>
+        <translation>När snabbtangenten för låg hastighet trycks ned begränsas hastigheten till denna procentandel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="85"/>
         <source>Synchronize Core Speed</source>
         <translation>Synkronisera kärnhastigheten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="89"/>
-        <source>Synchronizes CPU core speed with the game&apos;s maximum rendering speed to boost FPS without affecting game speed (animations, physics, etc.).
-Compatibility varies by game; many (especially older ones) may not respond well.
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="86"/>
+        <source>Synchronizes CPU core speed with the game's maximum rendering speed to boost FPS without affecting game speed (animations, physics, etc.).
 Can help reduce stuttering at lower framerates.</source>
-        <translation>Synkroniserar processorns kärnhastighet med spelets maximala renderingshastighet för att öka FPS utan att påverka spelhastigheten (animationer, fysik etc.).
-Kompatibiliteten varierar beroende på spel; många (särskilt äldre) kanske inte reagerar bra.
-Kan bidra till att minska stuttering vid lägre framerates.</translation>
+        <translation>Synkroniserar CPU-kärnans hastighet med spelets maximala renderingshastighet för att öka bilder/s utan att påverka spelets hastighet (animationer, fysik etc.).
+Kan bidra till att minska hackande vid lägre bildfrekvenser.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="97"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="91"/>
         <source>Accuracy:</source>
         <translation>Noggrannhet:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="98"/>
-        <source>This setting controls the accuracy of the emulated CPU.
-Don&apos;t change this unless you know what you are doing.</source>
-        <translation>Denna inställning styr noggrannheten hos den emulerade processorn.
-Ändra inte detta om du inte vet vad du gör.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="92"/>
+        <source>Change the accuracy of the emulated CPU (for debugging only).</source>
+        <translation>Ändra noggrannheten för den emulerade CPU:n (endast för felsökning).</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="100"/>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="109"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="93"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="103"/>
         <source>Backend:</source>
         <translation>Bakände:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="105"/>
-        <source>Fast CPU Time</source>
-        <translation>Snabb CPU-tid</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="95"/>
+        <source>CPU Clocks</source>
+        <translation>CPU-klockfrekvenser</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="106"/>
-        <source>Overclocks the emulated CPU to remove some FPS limiters. Weaker CPUs may see reduced performance, and certain games may behave improperly.
-Use Boost (1700MHz) to run at the Switch&apos;s highest native clock, or Fast (2000MHz) to run at 2x clock.</source>
-        <translation>Överklockar den emulerade processorn för att ta bort vissa FPS-begränsningar. Svagare processorer kan få minskad prestanda och vissa spel kan bete sig felaktigt.
-Använd Boost (1700MHz) för att köra med Switchens högsta inbyggda klocka, eller Fast (2000MHz) för att köra med 2x klocka.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="96"/>
+        <source>Raises the clock the emulated CPU reports, which removes some FPS limiters.
+Weaker CPUs may see reduced performance, and certain games may behave improperly.</source>
+        <translation>Höjer den klockfrekvens som den emulerade processorn rapporterar, vilket tar bort vissa FPS-begränsare.
+Svagare processorer kan få sämre prestanda, och vissa spel kan fungera felaktigt.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="117"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="100"/>
+        <source>Custom CPU Ticks</source>
+        <translation>Anpassade CPU-ticks</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="101"/>
+        <source>Set a custom value of CPU ticks. Higher values can increase performance, but may cause deadlocks. A range of 77-21000 is recommended.</source>
+        <translation>Ange ett anpassat värde för CPU-ticks. Högre värden kan öka prestandan, men kan orsaka deadlocks. Ett intervall på 77-21000 rekommenderas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="109"/>
+        <source>Enable Host MMU Emulation (fastmem)</source>
+        <translation>Aktivera värd-MMU-emulering (fastmem)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="110"/>
+        <source>This optimization speeds up memory accesses by the guest program.
+Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host's MMU.
+Disabling this forces all memory accesses to use Software MMU Emulation.</source>
+        <translation>Denna optimering påskyndar minnesåtkomsten för gästprogrammet.
+Om den aktiveras sker läsning/skrivning av gästminnet direkt i minnet och använder värdens MMU.
+Om den inaktiveras tvingas all minnesåtkomst att använda programvaru-MMU-emulering.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="115"/>
         <source>Unfuse FMA (improve performance on CPUs without FMA)</source>
         <translation>Unfuse FMA (förbättrar prestanda på CPU:er utan FMA)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="118"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="116"/>
         <source>This option improves speed by reducing accuracy of fused-multiply-add instructions on CPUs without native FMA support.</source>
         <translation>Detta alternativ förbättrar hastigheten genom att minska noggrannheten i fused-multiply-add-instruktioner på processorer utan inbyggt FMA-stöd.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="123"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="119"/>
         <source>Faster FRSQRTE and FRECPE</source>
         <translation>Snabbare FRSQRTE och FRECPE</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="124"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="120"/>
         <source>This option improves the speed of some approximate floating-point functions by using less accurate native approximations.</source>
         <translation>Detta alternativ förbättrar hastigheten för vissa approximativa flyttalsfunktioner genom att använda mindre exakta inbyggda approximationer.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="128"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="123"/>
         <source>Faster ASIMD instructions (32 bits only)</source>
         <translation>Snabbare ASIMD-instruktioner (endast 32 bitar)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="129"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="124"/>
         <source>This option improves the speed of 32 bits ASIMD floating-point functions by running with incorrect rounding modes.</source>
         <translation>Detta alternativ förbättrar hastigheten för 32-bitars ASIMD flyttalsfunktioner genom att köra med felaktiga avrundningslägen.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="133"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="126"/>
         <source>Inaccurate NaN handling</source>
         <translation>Felaktig NaN-hantering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="134"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="127"/>
         <source>This option improves speed by removing NaN checking.
 Please note this also reduces accuracy of certain floating-point instructions.</source>
         <translation>Detta alternativ förbättrar hastigheten genom att ta bort NaN-kontrollen.
 Observera att detta också minskar noggrannheten för vissa instruktioner för flyttal.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="138"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="129"/>
         <source>Disable address space checks</source>
         <translation>Inaktivera kontroller av adressutrymme</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="139"/>
-        <source>This option improves speed by eliminating a safety check before every memory read/write in guest.
-Disabling it may allow a game to read/write the emulator&apos;s memory.</source>
-        <translation>Detta alternativ förbättrar hastigheten genom att eliminera en säkerhetskontroll före varje minnesläsning/skrivning i guest.
-Om du inaktiverar det kan det hända att ett spel kan läsa/skriva i emulatorns minne.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="130"/>
+        <source>This option improves speed by eliminating a safety check before every memory operation.
+Disabling it may allow arbitrary code execution.</source>
+        <translation>Det här alternativet förbättrar hastigheten genom att eliminera en säkerhetskontroll före varje minnesoperation.
+Om du inaktiverar det kan det bli möjligt att köra godtycklig kod.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="145"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="133"/>
         <source>Ignore global monitor</source>
         <translation>Ignorera global monitor</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="146"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="134"/>
         <source>This option improves speed by relying only on the semantics of cmpxchg to ensure safety of exclusive access instructions.
 Please note this may result in deadlocks and other race conditions.</source>
         <translation>Detta alternativ förbättrar hastigheten genom att endast förlita sig på semantiken i cmpxchg för att garantera säkerheten för instruktioner med exklusiv åtkomst.
 Observera att detta kan leda till deadlocks och andra tävlingsförhållanden.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="154"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="139"/>
         <source>API:</source>
         <translation>API:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="155"/>
-        <source>Switches between the available graphics APIs.
-Vulkan is recommended in most cases.</source>
-        <translation>Växlar mellan de tillgängliga grafik-API:erna.
-Vulkan rekommenderas i de flesta fall.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="140"/>
+        <source>Changes the output graphics API.
+Vulkan is recommended.</source>
+        <translation>Ändrar grafik-API:et för utdata.
+Vulkan rekommenderas.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="158"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="141"/>
         <source>Device:</source>
         <translation>Enhet:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="159"/>
-        <source>This setting selects the GPU to use with the Vulkan backend.</source>
-        <translation>Den här inställningen väljer vilken GPU som ska användas med Vulkan-backend.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="142"/>
+        <source>This setting selects the GPU to use (Vulkan only).</source>
+        <translation>Denna inställning väljer vilken GPU som ska användas (endast Vulkan).</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="162"/>
-        <source>Shader Backend:</source>
-        <translation>Backend för shader:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="163"/>
-        <source>The shader backend to use for the OpenGL renderer.
-GLSL is the fastest in performance and the best in rendering accuracy.
-GLASM is a deprecated NVIDIA-only backend that offers much better shader building performance at the cost of FPS and rendering accuracy.
-SPIR-V compiles the fastest, but yields poor results on most GPU drivers.</source>
-        <translation>Den shader-backend som ska användas för OpenGL-renderaren.
-GLSL är snabbast när det gäller prestanda och bäst när det gäller renderingsnoggrannhet.
-GLASM är en föråldrad backend som endast används av NVIDIA och som ger mycket bättre prestanda för shaderbyggnad på bekostnad av FPS och renderingsnoggrannhet.
-SPIR-V kompilerar snabbast, men ger dåliga resultat på de flesta GPU-drivrutiner.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="170"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="143"/>
         <source>Resolution:</source>
         <translation>Status:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="171"/>
-        <source>Forces the game to render at a different resolution.
-Higher resolutions require much more VRAM and bandwidth.
-Options lower than 1X can cause rendering issues.</source>
-        <translation>Tvingar spelet att rendera i en annan upplösning.
-Högre upplösningar kräver mycket mer VRAM och bandbredd.
-Alternativ lägre än 1X kan orsaka renderingsproblem.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="144"/>
+        <source>Forces to render at a different resolution.
+Higher resolutions require more VRAM and bandwidth.
+Options lower than 1X can cause artifacts.</source>
+        <translation>Tvingar rendering till en annan upplösning.
+Högre upplösningar kräver mer VRAM och bandbredd.
+Alternativ lägre än 1X kan orsaka artefakter.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="174"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="147"/>
         <source>Window Adapting Filter:</source>
         <translation>Fönsteranpassande filter:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="177"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="148"/>
         <source>FSR Sharpness:</source>
         <translation>FSR-skärpa:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="178"/>
-        <source>Determines how sharpened the image will look while using FSR’s dynamic contrast.</source>
-        <translation>Bestämmer hur skarp bilden ska se ut när FSR:s dynamiska kontrast används.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="149"/>
+        <source>Determines how sharpened the image will look using FSR&apos;s or SGSR&apos;s dynamic contrast.</source>
+        <translation>Avgör hur skarp bilden ser ut med FSR:s eller SGSR:s dynamiska kontrast.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="181"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="150"/>
         <source>Anti-Aliasing Method:</source>
         <translation>Metod för kantutjämning:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="182"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="151"/>
         <source>The anti-aliasing method to use.
 SMAA offers the best quality.
-FXAA has a lower performance impact and can produce a better and more stable picture under very low resolutions.</source>
+FXAA can produce a more stable picture in lower resolutions.</source>
         <translation>Den kantutjämningsmetod som ska användas.
-SMAA ger den bästa kvaliteten.
-FXAA har en lägre prestandapåverkan och kan ge en bättre och stabilare bild i mycket låga upplösningar.</translation>
+SMAA erbjuder den bästa kvaliteten.
+FXAA kan ge en stabilare bild i lägre upplösningar.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="187"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="154"/>
         <source>Fullscreen Mode:</source>
         <translation>Helskärmsläge:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="188"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="155"/>
         <source>The method used to render the window in fullscreen.
 Borderless offers the best compatibility with the on-screen keyboard that some games request for input.
 Exclusive fullscreen may offer better performance and better Freesync/Gsync support.</source>
@@ -767,66 +608,50 @@ Borderless ger bäst kompatibilitet med skärmtangentbordet som vissa spel kräv
 Exklusiv helskärm kan ge bättre prestanda och bättre stöd för Freesync/Gsync.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="194"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="159"/>
         <source>Aspect Ratio:</source>
         <translation>Bildförhållande:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="195"/>
-        <source>Stretches the game to fit the specified aspect ratio.
-Switch games only support 16:9, so custom game mods are required to get other ratios.
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="160"/>
+        <source>Stretches the renderer to fit the specified aspect ratio.
+Most games only support 16:9, so modifications are required to get other ratios.
 Also controls the aspect ratio of captured screenshots.</source>
-        <translation>Sträcker ut spelet så att det passar det angivna bildförhållandet.
-Switch-spel stöder endast 16:9, så det krävs anpassade spelmodifikationer för att få andra förhållanden.
-Styr även bildförhållandet för tagna skärmdumpar.</translation>
+        <translation>Sträcker ut renderaren så att den passar det angivna bildförhållandet.
+De flesta spel stöder endast 16:9, så modifieringar krävs för att få andra bildförhållanden.
+Kontrollerar även bildförhållandet för tagna skärmdumpar.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="200"/>
-        <source>Use disk pipeline cache</source>
-        <translation>Använd cache för diskpipeline</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="163"/>
+        <source>Use persistent pipeline cache</source>
+        <translation>Använd permanent pipeline-cache</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="201"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="164"/>
         <source>Allows saving shaders to storage for faster loading on following game boots.
 Disabling it is only intended for debugging.</source>
         <translation>Gör det möjligt att spara shaders i lagringsutrymmet för snabbare laddning vid nästa spelstart.
 Att inaktivera detta är endast avsett för felsökning.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="206"/>
-        <source>Optimize SPIRV output shader</source>
-        <translation>Optimera SPIRV-utgångsskuggningen</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="207"/>
-        <source>Runs an additional optimization pass over generated SPIRV shaders.
-Will increase time required for shader compilation.
-May slightly improve performance.
-This feature is experimental.</source>
-        <translation>Kör ytterligare ett optimeringspass över genererade SPIRV-shaders.
-Kommer att öka tidsåtgången för shaderkompilering.
-Kan förbättra prestandan något.
-Denna funktion är experimentell.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="213"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="167"/>
         <source>Use asynchronous GPU emulation</source>
         <translation>Använd asynkron GPU-emulering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="214"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="168"/>
         <source>Uses an extra CPU thread for rendering.
 This option should always remain enabled.</source>
         <translation>Använder en extra CPU-tråd för rendering.
 Detta alternativ bör alltid vara aktiverat.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="217"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="169"/>
         <source>NVDEC emulation:</source>
         <translation>NVDEC-emulering:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="218"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="170"/>
         <source>Specifies how videos should be decoded.
 It can either use the CPU or the GPU for decoding, or perform no decoding at all (black screen on videos).
 In most cases, GPU decoding provides the best performance.</source>
@@ -835,1153 +660,1525 @@ Den kan antingen använda CPU eller GPU för avkodning, eller inte utföra någo
 I de flesta fall ger GPU-avkodning bäst prestanda.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="223"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="173"/>
         <source>ASTC Decoding Method:</source>
         <translation>ASTC-avkodningsmetod:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="224"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="174"/>
         <source>This option controls how ASTC textures should be decoded.
-CPU: Use the CPU for decoding, slowest but safest method.
-GPU: Use the GPU&apos;s compute shaders to decode ASTC textures, recommended for most games and users.
-CPU Asynchronously: Use the CPU to decode ASTC textures as they arrive. Completely eliminates ASTC decoding
-stuttering at the cost of rendering issues while the texture is being decoded.</source>
-        <translation>Detta alternativ styr hur ASTC-texturer ska avkodas.
-CPU: Använd CPU för avkodning, den långsammaste men säkraste metoden.
-GPU: Använd GPU:ns compute shaders för att avkoda ASTC-texturer, rekommenderas för de flesta spel och användare.
-CPU asynkront: Använd CPU:n för att avkoda ASTC-texturer när de anländer. Eliminerar helt ASTC-avkodningen
-på bekostnad av renderingsproblem medan texturen avkodas.</translation>
+CPU: Use the CPU for decoding.
+GPU: Use the GPU's compute shaders to decode ASTC textures (recommended).
+CPU Asynchronously: Use the CPU to decode ASTC textures on demand. EliminatesASTC decoding
+stuttering but may present artifacts.</source>
+        <translation>Det här alternativet att kontrollera hur ASTC-texturer ska avkodas.
+CPU: Använd CPU:n för avkodning.
+GPU: Använd GPU:ns beräkningsskuggare för att avkoda ASTC-texturer (rekommenderas).
+CPU asynkront: Använd CPU:n för att avkoda ASTC-texturer vid behov. Eliminerar ASTC-avkodningsstörningar
+men kan ge artefakter.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="234"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="179"/>
         <source>ASTC Recompression Method:</source>
         <translation>ASTC-återkomprimeringsmetod:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="235"/>
-        <source>Almost all desktop and laptop dedicated GPUs lack support for ASTC textures, forcing the emulator to decompress to an intermediate format any card supports, RGBA8.
-This option recompresses RGBA8 to either the BC1 or BC3 format, saving VRAM but negatively affecting image quality.</source>
-        <translation>Nästan alla dedikerade GPU:er för stationära och bärbara datorer saknar stöd för ASTC-texturer, vilket tvingar emulatorn att dekomprimera till ett mellanformat som alla kort stöder, RGBA8.
-Detta alternativ omkomprimerar RGBA8 till antingen BC1- eller BC3-format, vilket sparar VRAM men påverkar bildkvaliteten negativt.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="180"/>
+        <source>Most GPUs lack support for ASTC textures and must decompress to anintermediate format: RGBA8.
+BC1/BC3: The intermediate format will be recompressed to BC1 or BC3 format,
+ saving VRAM but degrading image quality.</source>
+        <translation>De flesta GPU:er saknar stöd för ASTC-texturer och måste dekomprimeras till ett mellanliggande format: RGBA8.
+BC1/BC3: Det mellanliggande formatet kommer att komprimeras om till BC1- eller BC3-format,
+vilket sparar VRAM men försämrar bildkvaliteten.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="241"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="184"/>
+        <source>Frame Pacing Mode (Vulkan only)</source>
+        <translation>Frame Pacing Mode (endast Vulkan)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="185"/>
+        <source>Controls how the emulator manages frame pacing to reduce stuttering and make the frame rate smoother and more consistent.</source>
+        <translation>Styr hur emulatorn hanterar bildhastigheten för att minska hackighet och göra bildfrekvensen jämnare och mer konsekvent.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="187"/>
         <source>VRAM Usage Mode:</source>
         <translation>VRAM-användningsläge:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="242"/>
-        <source>Selects whether the emulator should prefer to conserve memory or make maximum usage of available video memory for performance. Has no effect on integrated graphics. Aggressive mode may severely impact the performance of other applications such as recording software.</source>
-        <translation>Väljer om emulatorn ska föredra att spara minne eller utnyttja tillgängligt videominne maximalt för att uppnå prestanda. Har ingen effekt på integrerad grafik. Aggressivt läge kan allvarligt påverka prestandan för andra program, t.ex. inspelningsprogram.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="188"/>
+        <source>Selects whether the emulator should prefer to conserve memory or make maximum usage of available video memory for performance.
+Aggressive mode may impact performance of other applications such as recording software.</source>
+        <translation>Väljer om emulatorn ska prioritera att spara minne eller utnyttja tillgängligt videominne maximalt för prestanda.
+Aggressivt läge kan påverka prestandan hos andra program, till exempel inspelningsprogram.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="249"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="191"/>
+        <source>Skip CPU Inner Invalidation</source>
+        <translation>Hoppa över CPU:ns interna ogiltigförklaring</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="192"/>
+        <source>Skips certain cache invalidations during memory updates, reducing CPU usage and improving latency. This may cause soft-crashes.</source>
+        <translation>Hoppar över vissa cache-ogiltigförklaringar under minnesuppdateringar, vilket minskar CPU-användningen och förbättrar latensen. Detta kan orsaka mjuka krascher.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="194"/>
         <source>VSync Mode:</source>
         <translation>VSync-läge:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="250"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="195"/>
         <source>FIFO (VSync) does not drop frames or exhibit tearing but is limited by the screen refresh rate.
-FIFO Relaxed is similar to FIFO but allows tearing as it recovers from a slow down.
+FIFO Relaxed allows tearing as it recovers from a slow down.
 Mailbox can have lower latency than FIFO and does not tear but may drop frames.
-Immediate (no synchronization) just presents whatever is available and can exhibit tearing.</source>
-        <translation>FIFO (VSync) släpper inte bildrutor eller uppvisar tearing, men begränsas av skärmens uppdateringsfrekvens.
-FIFO Relaxed liknar FIFO men tillåter tearing när den återhämtar sig från en nedgång.
-Mailbox kan ha lägre latens än FIFO och ger inte upphov till tearing, men kan tappa bildrutor.
-Immediate (ingen synkronisering) presenterar bara det som finns tillgängligt och kan uppvisa tearing.</translation>
+Immediate (no synchronization) presents whatever is available and can exhibit tearing.</source>
+        <translation>FIFO (VSync) tappar inte bildrutor och uppvisar inte tearing, men begränsas av skärmens uppdateringsfrekvens.
+FIFO Relaxed tillåter tearing när det återhämtar sig från en avmattning.
+Mailbox kan ha lägre latens än FIFO och uppvisar inte tearing, men kan tappa bildrutor.
+Immediate (ingen synkronisering) visar allt som är tillgängligt och kan uppvisa tearing.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="262"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="207"/>
+        <source>Sync Memory Operations</source>
+        <translation>Synkronisera minnesoperationer</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="208"/>
+        <source>Ensures data consistency between compute and memory operations.
+This option fixes issues in games, but may degrade performance.
+Unreal Engine 4 games often see the most significant changes thereof.</source>
+        <translation>Kontrollerar datakonsistens mellan beräknings- och minnesoperationer.
+
+Det här alternativet åtgärdar problem i spel, men kan försämra prestandan.
+
+Unreal Engine 4-spel upplever ofta de mest betydande förändringarna av detta.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="211"/>
         <source>Enable asynchronous presentation (Vulkan only)</source>
         <translation>Aktivera asynkron presentation (endast Vulkan)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="263"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="212"/>
         <source>Slightly improves performance by moving presentation to a separate CPU thread.</source>
         <translation>Förbättrar prestandan något genom att flytta presentationen till en separat CPU-tråd.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="267"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="214"/>
         <source>Force maximum clocks (Vulkan only)</source>
         <translation>Tvinga fram maximal klockfrekvens (endast Vulkan)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="268"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="215"/>
         <source>Runs work in the background while waiting for graphics commands to keep the GPU from lowering its clock speed.</source>
         <translation>Körs i bakgrunden i väntan på grafikkommandon för att förhindra att GPU:n sänker sin klockhastighet.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="272"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="217"/>
         <source>Anisotropic Filtering:</source>
         <translation>Anisotropisk filtrering:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="273"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="218"/>
         <source>Controls the quality of texture rendering at oblique angles.
-It’s a light setting and safe to set at 16x on most GPUs.</source>
-        <translation>Kontrollerar kvaliteten på texturrendering i sneda vinklar.
-Det är en lätt inställning och säkert att ställa in på 16x på de flesta GPU:er.</translation>
+Safe to set at 16x on most GPUs.</source>
+        <translation>Kontrollerar kvaliteten på texturrendering vid sneda vinklar.
+
+Säker att ställa in på 16x på de flesta GPU:er.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="277"/>
-        <source>Accuracy Level:</source>
-        <translation>Noggrannhetsnivå:</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="220"/>
+        <source>GPU Mode:</source>
+        <translation>GPU-läge:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="278"/>
-        <source>GPU emulation accuracy.
-Most games render fine with Normal, but High is still required for some.
-Particles tend to only render correctly with High accuracy.
-Extreme should only be used for debugging.
-This option can be changed while playing.
-Some games may require booting on high to render properly.</source>
-        <translation>GPU-emuleringens noggrannhet.
-De flesta spel renderas bra med Normal, men High krävs fortfarande för vissa.
-Partiklar tenderar att bara renderas korrekt med hög noggrannhet.
-Extreme bör endast användas för felsökning.
-Detta alternativ kan ändras medan du spelar.
-Vissa spel kan behöva startas på hög för att renderas korrekt.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="221"/>
+        <source>Controls the GPU emulation mode.
+Most games render fine with Fast, but Accurate is still required for some.
+Particles tend to only render correctly with Accurate mode.</source>
+        <translation>Styr GPU-emuleringsläget.
+De flesta spel återges bra med Snabb, men Exakt krävs fortfarande för vissa.
+Partiklar återges ofta korrekt endast i läget Exakt.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="285"/>
-        <source>Use asynchronous shader building (Hack)</source>
-        <translation>Använd asynkron shader-byggnad (Hack)</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="223"/>
+        <source>DMA Accuracy:</source>
+        <translation>DMA-noggrannhet:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="286"/>
-        <source>Enables asynchronous shader compilation, which may reduce shader stutter.
-This feature is experimental.</source>
-        <translation>Aktiverar asynkron shader-kompilering, vilket kan minska shader-stutter.
-Denna funktion är experimentell.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="224"/>
+        <source>Controls the DMA read mode.
+Unsafe is faster, while Safe is more stable and can fix issues in some games.
+Default follows the GPU Accuracy setting.</source>
+        <translation>Styr DMA-läget för läsning.
+Osäker är snabbare, medan Säker är stabilare och kan lösa problem i vissa spel.
+Standard följer inställningen för GPU-noggrannhet.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="298"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="225"/>
+        <source>GPU Fence Behavior:</source>
+        <translation>Beteende för GPU-staket:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="226"/>
+        <source>Controls the GPU fence synchronization behavior.
+Immediate is the fastest option, but can introduce some issues.
+Balanced offers better compatibility and may fix issues in some games.
+Accurate further improves compatibility at the cost of some performance.
+Strict is the slowest option, but can fix issues that require stricter synchronization.
+Default follows the GPU Accuracy setting.</source>
+        <translation>Styr synkroniseringsbeteendet för GPU-staket.
+Omedelbar är det snabbaste alternativet, men kan orsaka vissa problem.
+Balanserad ger bättre kompatibilitet och kan lösa problem i vissa spel.
+Exakt förbättrar kompatibiliteten ytterligare på bekostnad av viss prestanda.
+Strikt är långsammast, men kan lösa problem som kräver striktare synkronisering.
+Standard följer inställningen för GPU-noggrannhet.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="227"/>
+        <source>Enable GPU buffer readback</source>
+        <translation>Aktivera återläsning av GPU-buffert</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="228"/>
+        <source>Preserves GPU-modified data by reading it back before uploading.
+Some games require this to render certain effects properly.</source>
+        <translation>Bevarar data som ändrats av GPU:n genom att läsa tillbaka dem före uppladdning.
+Vissa spel kräver detta för att vissa effekter ska återges korrekt.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="229"/>
+        <source>Enable asynchronous shader compilation</source>
+        <translation>Aktivera asynkron shaderkompilering</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="230"/>
+        <source>May reduce shader stutter.</source>
+        <translation>Kan minska shader-hackighet.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="231"/>
+        <source>GPU Clocks</source>
+        <translation>GPU-klockfrekvenser</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="232"/>
+        <source>Makes the game believe GPU work finishes faster than it does, so it stops lowering resolution and render distance to fit the Switch&apos;s clocks.</source>
+        <translation>Får spelet att tro att GPU-arbetet avslutas snabbare än det gör, så att det slutar sänka upplösning och ritaravstånd för att passa Switch-klockfrekvenserna.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="234"/>
+        <source>GPU Unswizzle</source>
+        <translation>GPU Unswizzle</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="235"/>
+        <source>Accelerates BCn 3D texture decoding using GPU compute.
+Disable if experiencing crashes or graphical glitches.</source>
+        <translation>Accelererar avkodning av BCn 3D-texturer med hjälp av GPU-beräkningar.
+Inaktivera om du upplever krascher eller grafiska fel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="237"/>
+        <source>GPU Unswizzle Max Texture Size</source>
+        <translation>Maximal texturstorlek för GPU Unswizzle</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="238"/>
+        <source>Sets the maximum size (MiB) for GPU-based texture unswizzling.
+While the GPU is faster for medium and large textures, the CPU may be more efficient for very small ones.
+Adjust this to find the balance between GPU acceleration and CPU overhead.</source>
+        <translation>Ställer in maximal storlek (MiB) för GPU-baserad textur-unswizzling.
+GPU är snabbare för medelstora och stora texturer, men CPU kan vara effektivare för mycket små texturer.
+Justera detta för att hitta balansen mellan GPU-acceleration och CPU-överbelastning.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="242"/>
+        <source>GPU Unswizzle Stream Size</source>
+        <translation>Strömstorlek för GPU Unswizzle</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="243"/>
+        <source>Sets the maximum amount of texture data (in MiB) processed per frame.
+Higher values can reduce stutter during texture loading but may impact frame consistency.</source>
+        <translation>Ställer in den maximala mängden texturdata (i MiB) som bearbetas per bildruta.
+Högre värden kan minska hackighet under texturinläsning men kan påverka bildrutans konsistens.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="246"/>
+        <source>GPU Unswizzle Chunk Size</source>
+        <translation>Chunk-storlek för GPU Unswizzle</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="247"/>
+        <source>Determines the number of depth slices processed in a single dispatch.
+Increasing this can improve throughput on high-end GPUs but may cause TDR or driver timeouts on weaker hardware.</source>
+        <translation>Bestämmer antalet djupskivor som bearbetas i en enda sändning.
+Att öka detta kan förbättra genomströmningen på avancerade GPU:er, men kan orsaka TDR eller drivrutinstidsgränser på svagare hårdvara.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="251"/>
         <source>Use Vulkan pipeline cache</source>
         <translation>Använda Vulkan pipeline-cache</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="299"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="252"/>
         <source>Enables GPU vendor-specific pipeline cache.
 This option can improve shader loading time significantly in cases where the Vulkan driver does not store pipeline cache files internally.</source>
         <translation>Aktiverar GPU-leverantörsspecifik pipeline-cache.
 Det här alternativet kan förbättra laddningstiden för shaders avsevärt i fall där Vulkan-drivrutinen inte lagrar pipeline-cache-filer internt.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="305"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="255"/>
         <source>Enable Compute Pipelines (Intel Vulkan Only)</source>
         <translation>Aktivera compute pipelines (endast Intel Vulkan)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="306"/>
-        <source>Enable compute pipelines, required by some games.
-This setting only exists for Intel proprietary drivers, and may crash if enabled.
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="256"/>
+        <source>Required by some games.
+This setting only exists for Intel proprietary drivers and may crash if enabled.
 Compute pipelines are always enabled on all other drivers.</source>
-        <translation>Aktivera compute pipelines, vilket krävs av vissa spel.
-Den här inställningen finns bara för Intel-proprietära drivrutiner och kan krascha om den är aktiverad.
-Compute pipelines är alltid aktiverade på alla andra drivrutiner.</translation>
+        <translation>Krävs av vissa spel.
+Denna inställning finns endast för Intels egna drivrutiner och kan orsaka krascher om den aktiveras.
+Beräkningspipelines är alltid aktiverade på alla andra drivrutiner.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="312"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="260"/>
         <source>Enable Reactive Flushing</source>
         <translation>Aktivera Reactive Flushing</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="313"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="261"/>
         <source>Uses reactive flushing instead of predictive flushing, allowing more accurate memory syncing.</source>
         <translation>Använder reaktiv rensning i stället för prediktiv rensning, vilket ger mer exakt minnessynkning.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="317"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="263"/>
         <source>Sync to framerate of video playback</source>
         <translation>Synkronisera med bildfrekvensen för videouppspelning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="318"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="264"/>
         <source>Run the game at normal speed during video playback, even when the framerate is unlocked.</source>
         <translation>Kör spelet i normal hastighet under videouppspelning, även när bildfrekvensen är upplåst.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="322"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="266"/>
         <source>Barrier feedback loops</source>
         <translation>Återkopplingsloopar för barriärer</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="323"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="267"/>
         <source>Improves rendering of transparency effects in specific games.</source>
         <translation>Förbättrar renderingen av transparenseffekter i vissa spel.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="350"/>
-        <source>RNG Seed</source>
-        <translation>RNG-frö</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="268"/>
+        <source>Enable buffer history</source>
+        <translation>Aktivera bufferthistorik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="351"/>
-        <source>Controls the seed of the random number generator.
-Mainly used for speedrunning purposes.</source>
-        <translation>Styr fröet till slumptalsgeneratorn.
-Används främst för speedrunning-ändamål.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="269"/>
+        <source>Enables access to previous buffer states.
+This option may improve rendering quality and performance consistency in some games.</source>
+        <translation>Aktiverar åtkomst till tidigare bufferttillstånd.
+Det här alternativet kan förbättra renderingskvaliteten och prestandakonsistensen i vissa spel.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="354"/>
-        <source>Device Name</source>
-        <translation>Enhetsnamn</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="271"/>
+        <source>Fix bloom effects</source>
+        <translation>Korrigera bloom-effekter</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="354"/>
-        <source>The name of the emulated Switch.</source>
-        <translation>Namnet på emulerad Switch.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="271"/>
+        <source>Removes bloom in Burnout.</source>
+        <translation>Tar bort bloom i Burnout.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="357"/>
-        <source>Custom RTC Date:</source>
-        <translation>Anpassat RTC-datum:</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="273"/>
+        <source>Enable Legacy Rescale Pass</source>
+        <translation>Aktivera äldre omskalningspass</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="358"/>
-        <source>This option allows to change the emulated clock of the Switch.
-Can be used to manipulate time in games.</source>
-        <translation>Detta alternativ gör det möjligt att ändra den emulerade klockan på Switch.
-Kan användas för att manipulera tiden i spel.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="274"/>
+        <source>May fix rescale issues in some games by relying on behavior from the previous implementation.
+Legacy behavior workaround that fixes line artifacts on AMD and Intel GPUs, and grey texture flicker on Nvidia GPUs in Luigis Mansion 3.</source>
+        <translation>Kan åtgärda skalningsproblem i vissa spel genom att förlita sig på beteendet från den tidigare implementeringen.
+Äldre beteende som åtgärdar linjeartefakter på AMD- och Intel-GPU:er och grå texturflimmer på Nvidia-GPU:er i Luigis Mansion 3.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="367"/>
-        <source>Language:</source>
-        <translation>Språk:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="368"/>
-        <source>Note: this can be overridden when region setting is auto-select</source>
-        <translation>Observera: detta kan åsidosättas när regioninställningen är automatiskt vald</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="369"/>
-        <source>Region:</source>
-        <translation>Region:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="369"/>
-        <source>The region of the emulated Switch.</source>
-        <translation>Regionen för den emulerade omkopplaren.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="370"/>
-        <source>Time Zone:</source>
-        <translation>Tidszon:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="370"/>
-        <source>The time zone of the emulated Switch.</source>
-        <translation>Tidszonen för den emulerade växeln.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="371"/>
-        <source>Sound Output Mode:</source>
-        <translation>Ljudutmatningsläge:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="374"/>
-        <source>Console Mode:</source>
-        <translation>Konsolläge:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="375"/>
-        <source>Selects if the console is emulated in Docked or Handheld mode.
-Games will change their resolution, details and supported controllers and depending on this setting.
-Setting to Handheld can help improve performance for low end systems.</source>
-        <translation>Väljer om konsolen ska emuleras i dockat eller handhållet läge.
-Spel ändrar sin upplösning, detaljer och stödda kontroller beroende på denna inställning.
-Inställningen Handhållen kan bidra till att förbättra prestandan för system med låg prestanda.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="397"/>
-        <source>Prompt for user on game boot</source>
-        <translation>Fråga efter användare vid spelstart</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="402"/>
-        <source>Pause emulation when in background</source>
-        <translation>Pausa emuleringen när den är i bakgrunden</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="292"/>
-        <source>Fast GPU Time (Hack)</source>
-        <translation>Snabb GPU-tid (hack)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="293"/>
-        <source>Overclocks the emulated GPU to increase dynamic resolution and render distance.
-Use 128 for maximal performance and 512 for maximal graphics fidelity.</source>
-        <translation>Överklockar den emulerade GPU:n för att öka den dynamiska upplösningen och renderingsavståndet.
-Använd 128 för maximal prestanda och 512 för maximal grafikåtergivning.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="328"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="280"/>
         <source>Extended Dynamic State</source>
         <translation>Utökad dynamisk status</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="329"/>
-        <source>Enables the VkExtendedDynamicState* extensions.
-Higher dynamic states will generally improve performance, but may cause issues on certain games or devices.</source>
-        <translation>Aktiverar tilläggen VkExtendedDynamicState*.
-Högre dynamiska tillstånd förbättrar i allmänhet prestandan, men kan orsaka problem i vissa spel eller på vissa enheter.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="281"/>
+        <source>Controls the number of features that can be used in Extended Dynamic State.
+Higher states allow for more features and can increase performance, but may cause additional graphical issues.</source>
+        <translation>Kontrollerar antalet funktioner som kan användas i utökat dynamiskt tillstånd.
+Högre tillstånd möjliggör fler funktioner och kan öka prestandan, men kan orsaka ytterligare grafiska problem.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="335"/>
-        <source>Provoking Vertex</source>
-        <translation>Provocerande toppunkt</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="285"/>
+        <source>Vertex Input Dynamic State</source>
+        <translation>Dynamiskt tillstånd för vertexinmatning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="336"/>
-        <source>Improves lighting and vertex handling in certain games.
-Only Vulkan 1.0+ devices support this extension.</source>
-        <translation>Förbättrar belysningen och vertexhanteringen i vissa spel.
-Endast Vulkan 1.0+-enheter stöder detta tillägg.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="286"/>
+        <source>Enables vertex input dynamic state feature for better quality and performance.</source>
+        <translation>Aktiverar funktionen för dynamiskt tillstånd för vertexinmatning för bättre kvalitet och prestanda.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="341"/>
-        <source>Descriptor Indexing</source>
-        <translation>Indexering av deskriptorer</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="289"/>
+        <source>Sample Shading</source>
+        <translation>Provskuggning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="342"/>
-        <source>Improves texture &amp; buffer handling and the Maxwell translation layer.
-Some Vulkan 1.1+ and all 1.2+ devices support this extension.</source>
-        <translation>Förbättrar textur- och bufferthantering samt Maxwell-översättningslagret.
-Vissa Vulkan 1.1+ och alla 1.2+ enheter stöder detta tillägg.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="290"/>
+        <source>Allows the fragment shader to execute per sample in a multi-sampled fragment instead of once per fragment. Improves graphics quality at the cost of performance.
+Higher values improve quality but degrade performance.</source>
+        <translation>Tillåter fragment-shadern att exekveras per prov i ett multisamplade fragment istället för en gång per fragment. Förbättrar grafikens kvalitet på bekostnad av prestanda.
+Högre värden förbättrar kvaliteten men försämrar prestandan.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="398"/>
-        <source>Ask to select a user profile on each boot, useful if multiple people use eden on the same PC.</source>
-        <translation>Be att få välja en användarprofil vid varje uppstart, användbart om flera personer använder eden på samma dator.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="297"/>
+        <source>RNG Seed</source>
+        <translation>RNG-frö</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="403"/>
-        <source>This setting pauses eden when focusing other windows.</source>
-        <translation>Denna inställning pausar eden när andra fönster fokuseras.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="298"/>
+        <source>Controls the seed of the random number generator.
+Mainly used for speedrunning.</source>
+        <translation>Att kontrollera fröet till slumptalsgeneratorn.
+Används främst för speedrunning.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="406"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="300"/>
+        <source>Device Name</source>
+        <translation>Enhetsnamn</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="300"/>
+        <source>The name of the console.</source>
+        <translation>Konsolens namn.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="301"/>
+        <source>Homebrew Args</source>
+        <translation>Homebrew-argument</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="302"/>
+        <source>Command-line arguments passed to homebrew at launch (e.g. -noglsl).</source>
+        <translation>Kommandoradsargument som skickas till homebrew vid start (t.ex. -noglsl).</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="303"/>
+        <source>Custom RTC Date:</source>
+        <translation>Anpassat RTC-datum:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="304"/>
+        <source>This option allows to change the clock of the console.
+Can be used to manipulate time in games.</source>
+        <translation>Med det här alternativet kan du ändra klockan på konsolen.
+Kan användas för att manipulera tiden i spel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="308"/>
+        <source>The number of seconds from the current unix time</source>
+        <translation>Antalet sekunder från aktuell Unix-tid</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="309"/>
+        <source>Language:</source>
+        <translation>Språk:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="310"/>
+        <source>This option can be overridden when region setting is auto-select</source>
+        <translation>Det här alternativet kan åsidosättas när regioninställningen är automatiskt vald.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="311"/>
+        <source>Region:</source>
+        <translation>Region:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="311"/>
+        <source>The region of the console.</source>
+        <translation>Konsolens region.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="312"/>
+        <source>Time Zone:</source>
+        <translation>Tidszon:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="312"/>
+        <source>The time zone of the console.</source>
+        <translation>Konsolens tidszon.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="313"/>
+        <source>Sound Output Mode:</source>
+        <translation>Ljudutmatningsläge:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="314"/>
+        <source>Console Mode:</source>
+        <translation>Konsolläge:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="315"/>
+        <source>Selects if the console is in Docked or Handheld mode.
+Games will change their resolution, details and supported controllers and depending on this setting.
+Setting to Handheld can help improve performance for low end systems.</source>
+        <translation>Väljer om konsolen är i dockat eller handhållet läge.
+Spel ändrar upplösning, detaljer och stödda kontroller beroende på denna inställning.
+Inställningen Handhållen kan förbättra prestandan för enklare system.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="335"/>
+        <source>Prompt for user profile on boot</source>
+        <translation>Fråga efter användarprofil vid uppstart</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="336"/>
+        <source>Useful if multiple people use the same PC.</source>
+        <translation>Användbart om flera personer använder samma dator.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="337"/>
+        <source>Pause when not in focus</source>
+        <translation>Pausa när inte i fokus</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="338"/>
+        <source>Pauses emulation when focusing on other windows.</source>
+        <translation>Pausar emulering när fokus är på andra fönster.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="339"/>
         <source>Confirm before stopping emulation</source>
         <translation>Bekräfta innan emuleringen stoppas</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="407"/>
-        <source>This setting overrides game prompts asking to confirm stopping the game.
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="340"/>
+        <source>Overrides prompts asking to confirm stopping the emulation.
 Enabling it bypasses such prompts and directly exits the emulation.</source>
-        <translation>Denna inställning åsidosätter spelets uppmaningar om att bekräfta att spelet stoppas.
-Om du aktiverar den kringgår du sådana uppmaningar och avslutar emuleringen direkt.</translation>
+        <translation>Åsidosätter frågor om att bekräfta att emuleringen ska avslutas.
+Om du aktiverar den hoppar du över sådana uppmaningar och avslutar emuleringen direkt.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="411"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="342"/>
         <source>Hide mouse on inactivity</source>
         <translation>Dölj musen vid inaktivitet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="412"/>
-        <source>This setting hides the mouse after 2.5s of inactivity.</source>
-        <translation>Denna inställning döljer musen efter 2,5 sekunders inaktivitet.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="343"/>
+        <source>Hides the mouse after 2.5s of inactivity.</source>
+        <translation>Döljer musen efter 2,5 sekunders inaktivitet.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="415"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="344"/>
         <source>Disable controller applet</source>
         <translation>Inaktivera kontroller-appleten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="416"/>
-        <source>Forcibly disables the use of the controller applet by guests.
-When a guest attempts to open the controller applet, it is immediately closed.</source>
-        <translation>Inaktiverar med tvång gästernas användning av controller-appleten.
-När en gäst försöker öppna controller-appleten stängs den omedelbart.</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="345"/>
+        <source>Forcibly disables the use of the controller applet in emulated programs.
+When a program attempts to open the controller applet, it is immediately closed.</source>
+        <translation>Inaktiverar med tvång användningen av kontrollerappletten i emulerade program.
+När ett program försöker öppna kontrollerappletten stängs den omedelbart.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="420"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="347"/>
         <source>Check for updates</source>
         <translation>Leta efter uppdateringar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="421"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="348"/>
         <source>Whether or not to check for updates upon startup.</source>
         <translation>Om uppdateringar ska sökas vid start eller inte.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="424"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="351"/>
         <source>Enable Gamemode</source>
         <translation>Aktivera Gamemode</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="449"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="353"/>
+        <source>Force X11 as Graphics Backend</source>
+        <translation>Tvinga X11 som grafikbackend</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="380"/>
         <source>Custom frontend</source>
         <translation>Anpassad frontend</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="450"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="381"/>
         <source>Real applet</source>
         <translation>Verklig applet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="454"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="386"/>
         <source>Never</source>
         <translation>Aldrig</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="455"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="387"/>
         <source>On Load</source>
         <translation>Vid inläsning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="456"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="388"/>
         <source>Always</source>
         <translation>Alltid</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="460"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="392"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="461"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="393"/>
         <source>GPU</source>
         <translation>GPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="462"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="394"/>
         <source>CPU Asynchronous</source>
         <translation>CPU asynkron</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="467"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="399"/>
         <source>Uncompressed (Best quality)</source>
         <translation>Okomprimerad (bästa kvalitet)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="468"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="400"/>
         <source>BC1 (Low quality)</source>
         <translation>BC1 (låg kvalitet)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="469"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="401"/>
         <source>BC3 (Medium quality)</source>
         <translation>BC3 (medelhög kvalitet)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="473"/>
-        <source>Conservative</source>
-        <translation>Konservativ</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="474"/>
-        <source>Aggressive</source>
-        <translation>Aggressiv</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="479"/>
-        <source>OpenGL</source>
-        <translation>OpenGL</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="481"/>
-        <source>Vulkan</source>
-        <translation>Vulkan</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="482"/>
-        <source>Null</source>
-        <translation>Null</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="487"/>
-        <source>GLSL</source>
-        <translation>GLSL</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="488"/>
-        <source>GLASM (Assembly Shaders, NVIDIA Only)</source>
-        <translation>GLASM (Assembly Shaders, endast NVIDIA)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="489"/>
-        <source>SPIR-V (Experimental, AMD/Mesa Only)</source>
-        <translation>SPIR-V (experimentell, endast AMD/Mesa)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="493"/>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="494"/>
-        <source>High</source>
-        <translation>Hög</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="495"/>
-        <source>Extreme</source>
-        <translation>Extrem</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="500"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="405"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="447"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="501"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="406"/>
+        <source>30 FPS</source>
+        <translation>30 bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="407"/>
+        <source>60 FPS</source>
+        <translation>60 bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="408"/>
+        <source>90 FPS</source>
+        <translation>90 bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="409"/>
+        <source>120 FPS</source>
+        <translation>120 bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="413"/>
+        <source>Conservative</source>
+        <translation>Konservativ</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="414"/>
+        <source>Aggressive</source>
+        <translation>Aggressiv</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="418"/>
+        <source>Vulkan</source>
+        <translation>Vulkan</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="420"/>
+        <source>OpenGL GLSL</source>
+        <translation>OpenGL GLSL</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="421"/>
+        <source>OpenGL GLASM (Assembly Shaders, NVIDIA Only)</source>
+        <translation>OpenGL GLASM (Assembly Shaders, endast NVIDIA)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="422"/>
+        <source>OpenGL SPIR-V (Experimental, AMD/Mesa Only)</source>
+        <translation>OpenGL SPIR-V (Experimentell, endast AMD/Mesa)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="424"/>
+        <source>Null</source>
+        <translation>Null</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="427"/>
+        <source>Fast</source>
+        <translation>Snabb</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="428"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="441"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="448"/>
         <source>Accurate</source>
         <translation>Exakt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="502"/>
-        <source>Unsafe</source>
-        <translation>Inte säker</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="503"/>
-        <source>Paranoid (disables most optimizations)</source>
-        <translation>Paranoid (inaktiverar de flesta optimeringar)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="507"/>
-        <source>Dynarmic</source>
-        <translation>Dynarmisk</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="508"/>
-        <source>NCE</source>
-        <translation>NCE</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="512"/>
-        <source>Borderless Windowed</source>
-        <translation>Ramlöst fönsterläge</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="513"/>
-        <source>Exclusive Fullscreen</source>
-        <translation>Exklusiv helskärm</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="517"/>
-        <source>No Video Output</source>
-        <translation>Ingen videoutgång</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="518"/>
-        <source>CPU Video Decoding</source>
-        <translation>CPU-videoavkodning</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="519"/>
-        <source>GPU Video Decoding (Default)</source>
-        <translation>GPU videoavkodning (standard)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="524"/>
-        <source>0.25X (180p/270p) [EXPERIMENTAL]</source>
-        <translation>0.25X (180p/270p) [EXPERIMENTELL]</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="525"/>
-        <source>0.5X (360p/540p) [EXPERIMENTAL]</source>
-        <translation>0.5X (360p/540p) [EXPERIMENTELL]</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="526"/>
-        <source>0.75X (540p/810p) [EXPERIMENTAL]</source>
-        <translation>0.75X (540p/810p) [EXPERIMENTELL]</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="527"/>
-        <source>1X (720p/1080p)</source>
-        <translation>1X (720p/1080p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="528"/>
-        <source>1.5X (1080p/1620p) [EXPERIMENTAL]</source>
-        <translation>1.5X (1080p/1620p) [EXPERIMENTELL]</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="529"/>
-        <source>2X (1440p/2160p)</source>
-        <translation>2X (1440p/2160p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="530"/>
-        <source>3X (2160p/3240p)</source>
-        <translation>3X (2160p/3240p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="531"/>
-        <source>4X (2880p/4320p)</source>
-        <translation>4X (2880p/4320p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="532"/>
-        <source>5X (3600p/5400p)</source>
-        <translation>5X (3600p/5400p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="533"/>
-        <source>6X (4320p/6480p)</source>
-        <translation>6X (4320p/6480p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="534"/>
-        <source>7X (5040p/7560p)</source>
-        <translation>7X (5040p/7560p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="535"/>
-        <source>8X (5760p/8640p)</source>
-        <translation>8X (5760p/8640p)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="539"/>
-        <source>Nearest Neighbor</source>
-        <translation>Närmsta granne</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="540"/>
-        <source>Bilinear</source>
-        <translation>Bilinjär</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="541"/>
-        <source>Bicubic</source>
-        <translation>Bikubisk</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="542"/>
-        <source>Gaussian</source>
-        <translation>Gaussisk</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="543"/>
-        <source>ScaleForce</source>
-        <translation>ScaleForce</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="544"/>
-        <source>AMD FidelityFX™️ Super Resolution</source>
-        <translation>AMD FidelityFX™️ Super Resolution</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="545"/>
-        <source>Area</source>
-        <translation>Område</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="549"/>
-        <source>None</source>
-        <translation>Ingen</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="550"/>
-        <source>FXAA</source>
-        <translation>FXAA</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="551"/>
-        <source>SMAA</source>
-        <translation>SMAA</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="555"/>
-        <source>Default (16:9)</source>
-        <translation>Standard (16:9)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="556"/>
-        <source>Force 4:3</source>
-        <translation>Tvinga 4:3</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="557"/>
-        <source>Force 21:9</source>
-        <translation>Tvinga 21:9</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="558"/>
-        <source>Force 16:10</source>
-        <translation>Tvinga 16:10</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="559"/>
-        <source>Stretch to Window</source>
-        <translation>Sträck ut till fönster</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="563"/>
-        <source>Automatic</source>
-        <translation>Automatiskt</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="564"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="432"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="438"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="521"/>
         <source>Default</source>
         <translation>Standard</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="565"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="433"/>
+        <source>Unsafe (fast)</source>
+        <translation>Osäker (snabb)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="434"/>
+        <source>Safe (stable)</source>
+        <translation>Säker (stabil)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="439"/>
+        <source>Immediate</source>
+        <translation>Omedelbar</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="440"/>
+        <source>Balanced</source>
+        <translation>Balanserad</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="442"/>
+        <source>Strict</source>
+        <translation>Strikt</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="449"/>
+        <source>Unsafe</source>
+        <translation>Inte säker</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="450"/>
+        <source>Paranoid (disables most optimizations)</source>
+        <translation>Paranoid (inaktiverar de flesta optimeringar)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="451"/>
+        <source>Debugging</source>
+        <translation>Felsökning</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="455"/>
+        <source>Dynarmic</source>
+        <translation>Dynarmisk</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="456"/>
+        <source>NCE</source>
+        <translation>NCE</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="460"/>
+        <source>Borderless Windowed</source>
+        <translation>Ramlöst fönsterläge</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="461"/>
+        <source>Exclusive Fullscreen</source>
+        <translation>Exklusiv helskärm</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="465"/>
+        <source>No Video Output</source>
+        <translation>Ingen videoutgång</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="466"/>
+        <source>CPU Video Decoding</source>
+        <translation>CPU-videoavkodning</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="467"/>
+        <source>GPU Video Decoding (Default)</source>
+        <translation>GPU videoavkodning (standard)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="472"/>
+        <source>0.25X (180p/270p) [EXPERIMENTAL]</source>
+        <translation>0.25X (180p/270p) [EXPERIMENTELL]</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="473"/>
+        <source>0.5X (360p/540p) [EXPERIMENTAL]</source>
+        <translation>0.5X (360p/540p) [EXPERIMENTELL]</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="474"/>
+        <source>0.75X (540p/810p) [EXPERIMENTAL]</source>
+        <translation>0.75X (540p/810p) [EXPERIMENTELL]</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="475"/>
+        <source>1X (720p/1080p)</source>
+        <translation>1X (720p/1080p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="476"/>
+        <source>1.25X (900p/1350p) [EXPERIMENTAL]</source>
+        <translation>1.25X (900p/1350p) [EXPERIMENTELL]</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="477"/>
+        <source>1.5X (1080p/1620p) [EXPERIMENTAL]</source>
+        <translation>1.5X (1080p/1620p) [EXPERIMENTELL]</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="478"/>
+        <source>2X (1440p/2160p)</source>
+        <translation>2X (1440p/2160p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="479"/>
+        <source>3X (2160p/3240p)</source>
+        <translation>3X (2160p/3240p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="480"/>
+        <source>4X (2880p/4320p)</source>
+        <translation>4X (2880p/4320p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="481"/>
+        <source>5X (3600p/5400p)</source>
+        <translation>5X (3600p/5400p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="482"/>
+        <source>6X (4320p/6480p)</source>
+        <translation>6X (4320p/6480p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="483"/>
+        <source>7X (5040p/7560p)</source>
+        <translation>7X (5040p/7560p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="484"/>
+        <source>8X (5760p/8640p)</source>
+        <translation>8X (5760p/8640p)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="488"/>
+        <source>Nearest Neighbor</source>
+        <translation>Närmsta granne</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="489"/>
+        <source>Bilinear</source>
+        <translation>Bilinjär</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="490"/>
+        <source>Bicubic</source>
+        <translation>Bikubisk</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="491"/>
+        <source>Gaussian</source>
+        <translation>Gaussisk</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="492"/>
+        <source>Lanczos</source>
+        <translation>Lanczos</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="493"/>
+        <source>ScaleForce</source>
+        <translation>ScaleForce</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="494"/>
+        <source>AMD FidelityFX Super Resolution</source>
+        <translation>AMD FidelityFX Super Resolution</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="495"/>
+        <source>Area</source>
+        <translation>Område</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="496"/>
+        <source>MMPX</source>
+        <translation>MMPX</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="497"/>
+        <source>Zero-Tangent</source>
+        <translation>Zero-Tangent</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="498"/>
+        <source>B-Spline</source>
+        <translation>B-Spline</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="499"/>
+        <source>Mitchell</source>
+        <translation>Mitchell</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="500"/>
+        <source>Spline-1</source>
+        <translation>Spline-1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="501"/>
+        <source>Snapdragon Game Super Resolution</source>
+        <translation>Snapdragon Game Super Resolution</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="502"/>
+        <source>Snapdragon Game Super Resolution EdgeDir</source>
+        <translation>Snapdragon Game Super Resolution EdgeDir</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="506"/>
+        <source>None</source>
+        <translation>Ingen</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="507"/>
+        <source>FXAA</source>
+        <translation>FXAA</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="508"/>
+        <source>SMAA</source>
+        <translation>SMAA</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="512"/>
+        <source>Default (16:9)</source>
+        <translation>Standard (16:9)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="513"/>
+        <source>Force 4:3</source>
+        <translation>Tvinga 4:3</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="514"/>
+        <source>Force 21:9</source>
+        <translation>Tvinga 21:9</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="515"/>
+        <source>Force 16:10</source>
+        <translation>Tvinga 16:10</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="516"/>
+        <source>Stretch to Window</source>
+        <translation>Sträck ut till fönster</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="520"/>
+        <source>Automatic</source>
+        <translation>Automatiskt</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="522"/>
         <source>2x</source>
         <translation>2x</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="566"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="523"/>
         <source>4x</source>
         <translation>4x</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="567"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="524"/>
         <source>8x</source>
         <translation>8x</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="568"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="525"/>
         <source>16x</source>
         <translation>16x</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="573"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="530"/>
         <source>Japanese (日本語)</source>
         <translation>Japanska (日本語)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="574"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="531"/>
         <source>American English</source>
         <translation>Amerikansk engelska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="575"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="532"/>
         <source>French (français)</source>
         <translation>Franska (français)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="576"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="533"/>
         <source>German (Deutsch)</source>
         <translation>Tyska (Deutsch)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="577"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="534"/>
         <source>Italian (italiano)</source>
         <translation>Italienska (italiano)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="578"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="535"/>
         <source>Spanish (español)</source>
         <translation>Spanska (español)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="579"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="536"/>
         <source>Chinese</source>
         <translation>Kinesiska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="580"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="537"/>
         <source>Korean (한국어)</source>
         <translation>Koreanska (한국어)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="581"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="538"/>
         <source>Dutch (Nederlands)</source>
         <translation>Nederländska (Nederlands)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="582"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="539"/>
         <source>Portuguese (português)</source>
         <translation>Portugisiska (português)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="583"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="540"/>
         <source>Russian (Русский)</source>
         <translation>Ryska (Русский)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="584"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="541"/>
         <source>Taiwanese</source>
         <translation>Taiwanesiska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="585"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="542"/>
         <source>British English</source>
         <translation>Brittisk engelska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="586"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="543"/>
         <source>Canadian French</source>
         <translation>Kanadensisk franska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="587"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="544"/>
         <source>Latin American Spanish</source>
         <translation>Latinamerikansk spanska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="588"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="545"/>
         <source>Simplified Chinese</source>
         <translation>Förenklad kinesiska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="589"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="546"/>
         <source>Traditional Chinese (正體中文)</source>
         <translation>Traditionell kinesiska (正體中文)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="590"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="547"/>
         <source>Brazilian Portuguese (português do Brasil)</source>
         <translation>Brasiliansk portugisiska (português do Brasil)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="594"/>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="633"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="548"/>
+        <source>Polish (polska)</source>
+        <translation>Polska (polska)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="549"/>
+        <source>Thai (แบบไทย)</source>
+        <translation>Thai (แบบไทย)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="553"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="592"/>
         <source>Japan</source>
         <translation>Japan</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="595"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="554"/>
         <source>USA</source>
         <translation>USA</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="596"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="555"/>
         <source>Europe</source>
         <translation>Europa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="597"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="556"/>
         <source>Australia</source>
         <translation>Australien</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="598"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="557"/>
         <source>China</source>
         <translation>Kina</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="599"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="558"/>
         <source>Korea</source>
         <translation>Korea</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="600"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="559"/>
         <source>Taiwan</source>
         <translation>Taiwan</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="606"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="565"/>
         <source>Auto (%1)</source>
         <comment>Auto select time zone</comment>
         <translation>Auto (%1)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="610"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="569"/>
         <source>Default (%1)</source>
         <comment>Default time zone</comment>
         <translation>Standard (%1)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="612"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="571"/>
         <source>CET</source>
         <translation>CET</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="613"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="572"/>
         <source>CST6CDT</source>
         <translation>CST6CDT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="614"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="573"/>
         <source>Cuba</source>
         <translation>Kuba</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="615"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="574"/>
         <source>EET</source>
         <translation>EET</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="616"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="575"/>
         <source>Egypt</source>
         <translation>Egypten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="617"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="576"/>
         <source>Eire</source>
         <translation>Irland</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="618"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="577"/>
         <source>EST</source>
         <translation>EST</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="619"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="578"/>
         <source>EST5EDT</source>
         <translation>EST5EDT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="620"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="579"/>
         <source>GB</source>
         <translation>GB</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="621"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="580"/>
         <source>GB-Eire</source>
         <translation>GB-Irland</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="622"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="581"/>
         <source>GMT</source>
         <translation>GMT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="623"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="582"/>
         <source>GMT+0</source>
         <translation>GMT+0</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="624"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="583"/>
         <source>GMT-0</source>
         <translation>GMT-0</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="625"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="584"/>
         <source>GMT0</source>
         <translation>GMT0</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="626"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="585"/>
         <source>Greenwich</source>
         <translation>Greenwich</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="627"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="586"/>
         <source>Hongkong</source>
         <translation>Hongkong</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="628"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="587"/>
         <source>HST</source>
         <translation>HST</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="629"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="588"/>
         <source>Iceland</source>
         <translation>Island</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="630"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="589"/>
         <source>Iran</source>
         <translation>Iran</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="631"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="590"/>
         <source>Israel</source>
         <translation>Israel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="632"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="591"/>
         <source>Jamaica</source>
         <translation>Jamaica</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="634"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="593"/>
         <source>Kwajalein</source>
         <translation>Kwajalein</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="635"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="594"/>
         <source>Libya</source>
         <translation>Libyen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="636"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="595"/>
         <source>MET</source>
         <translation>MET</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="637"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="596"/>
         <source>MST</source>
         <translation>MST</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="638"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="597"/>
         <source>MST7MDT</source>
         <translation>MST7MDT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="639"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="598"/>
         <source>Navajo</source>
         <translation>Navajo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="640"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="599"/>
         <source>NZ</source>
         <translation>NZ</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="641"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="600"/>
         <source>NZ-CHAT</source>
         <translation>NZ-CHAT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="642"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="601"/>
         <source>Poland</source>
         <translation>Polen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="643"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="602"/>
         <source>Portugal</source>
         <translation>Portugal</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="644"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="603"/>
         <source>PRC</source>
         <translation>PRC</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="645"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="604"/>
         <source>PST8PDT</source>
         <translation>PST8PDT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="646"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="605"/>
         <source>ROC</source>
         <translation>ROC</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="647"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="606"/>
         <source>ROK</source>
         <translation>ROK</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="648"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="607"/>
         <source>Singapore</source>
         <translation>Singapore</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="649"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="608"/>
         <source>Turkey</source>
         <translation>Turkiet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="650"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="609"/>
         <source>UCT</source>
         <translation>UCT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="651"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="610"/>
         <source>Universal</source>
         <translation>Universal</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="652"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="611"/>
         <source>UTC</source>
         <translation>UTC</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="653"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="612"/>
         <source>W-SU</source>
         <translation>W-SU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="654"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="613"/>
         <source>WET</source>
         <translation>VÅT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="655"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="614"/>
         <source>Zulu</source>
         <translation>Zulu</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="659"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="618"/>
         <source>Mono</source>
         <translation>Mono</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="660"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="619"/>
         <source>Stereo</source>
         <translation>Stereo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="661"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="620"/>
         <source>Surround</source>
         <translation>Surround</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="665"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="624"/>
         <source>4GB DRAM (Default)</source>
         <translation>4 GB DRAM (standard)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="666"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="625"/>
         <source>6GB DRAM (Unsafe)</source>
         <translation>6 GB DRAM (osäker)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="667"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="626"/>
         <source>8GB DRAM</source>
         <translation>8 GB DRAM</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="668"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="627"/>
         <source>10GB DRAM (Unsafe)</source>
         <translation>10 GB DRAM (osäker)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="669"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="628"/>
         <source>12GB DRAM (Unsafe)</source>
         <translation>12 GB DRAM (osäker)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="690"/>
-        <source>Low (128)</source>
-        <translation>Låg (128)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="691"/>
-        <source>Medium (256)</source>
-        <translation>Medium (256)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="692"/>
-        <source>High (512)</source>
-        <translation>Hög (512)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="673"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="632"/>
         <source>Docked</source>
         <translation>Dockad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="674"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="633"/>
         <source>Handheld</source>
         <translation>Handhållen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="678"/>
-        <source>Boost (1700MHz)</source>
-        <translation>Boost (1700MHz)</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="637"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="650"/>
+        <source>Normal</source>
+        <translation>Normal</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="679"/>
-        <source>Fast (2000MHz)</source>
-        <translation>Snabb (2000 MHz)</translation>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="638"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="651"/>
+        <source>Boost</source>
+        <translation>Förstärk</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="684"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="639"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="652"/>
+        <source>Overclock</source>
+        <translation>Överklocka</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="644"/>
         <source>Always ask (Default)</source>
         <translation>Fråga alltid (standard)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="685"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="645"/>
         <source>Only if game specifies not to stop</source>
         <translation>Endast om spelet anger att det inte ska stoppas</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.cpp" line="686"/>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="646"/>
         <source>Never ask</source>
         <translation>Fråga aldrig</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="656"/>
+        <source>Very Small (16 MB)</source>
+        <translation>Mycket liten (16 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="657"/>
+        <source>Small (32 MB)</source>
+        <translation>Liten (32 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="658"/>
+        <source>Normal (128 MB)</source>
+        <translation>Normal (128 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="659"/>
+        <source>Large (256 MB)</source>
+        <translation>Stor (256 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="660"/>
+        <source>Very Large (512 MB)</source>
+        <translation>Mycket stor (512 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="664"/>
+        <source>Very Low (4 MB)</source>
+        <translation>Mycket låg (4 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="665"/>
+        <source>Low (8 MB)</source>
+        <translation>Låg (8 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="666"/>
+        <source>Normal (16 MB)</source>
+        <translation>Normal (16 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="667"/>
+        <source>Medium (32 MB)</source>
+        <translation>Medium (32 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="668"/>
+        <source>High (64 MB)</source>
+        <translation>Hög (64 MB)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="672"/>
+        <source>Very Low (32)</source>
+        <translation>Mycket låg (32)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="673"/>
+        <source>Low (64)</source>
+        <translation>Låg (64)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="674"/>
+        <source>Normal (128)</source>
+        <translation>Normal (128)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="675"/>
+        <source>Medium (256)</source>
+        <translation>Medium (256)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="676"/>
+        <source>High (512)</source>
+        <translation>Hög (512)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="681"/>
+        <source>Disabled</source>
+        <translation>Inaktiverad</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="682"/>
+        <source>ExtendedDynamicState 1</source>
+        <translation>ExtendedDynamicState 1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="683"/>
+        <source>ExtendedDynamicState 2</source>
+        <translation>ExtendedDynamicState 2</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="684"/>
+        <source>ExtendedDynamicState 3</source>
+        <translation>ExtendedDynamicState 3</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="689"/>
+        <source>Tree View</source>
+        <translation>Trädvy</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.cpp" line="690"/>
+        <source>Grid View</source>
+        <translation>Rutnätsvy</translation>
     </message>
 </context>
 <context>
@@ -2054,7 +2251,7 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <translation>Återställ till standard</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_camera.cpp" line="140"/>
+        <location filename="../../src/yuzu/configuration/configure_camera.cpp" line="135"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
@@ -2241,7 +2438,7 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="140"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up memory accesses by the guest program.&lt;/div&gt;
-            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host&apos;s MMU.&lt;/div&gt;
+            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest memory reads/writes to be done directly into memory and make use of Host's MMU.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Disabling this forces all memory accesses to use Software MMU Emulation.&lt;/div&gt;
            </source>
         <translation>
@@ -2259,7 +2456,7 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="154"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up exclusive memory accesses by the guest program.&lt;/div&gt;
-            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest exclusive memory reads/writes to be done directly into memory and make use of Host&apos;s MMU.&lt;/div&gt;
+            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it causes guest exclusive memory reads/writes to be done directly into memory and make use of Host's MMU.&lt;/div&gt;
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Disabling this forces all exclusive memory accesses to use Software MMU Emulation.&lt;/div&gt;
            </source>
         <translation>
@@ -2293,7 +2490,7 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <location filename="../../src/yuzu/configuration/configure_cpu_debug.ui" line="181"/>
         <source>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;This optimization speeds up memory accesses by allowing invalid memory accesses to succeed.&lt;/div&gt;
-            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it reduces the overhead of all memory accesses and has no impact on programs that don&apos;t access invalid memory.&lt;/div&gt;
+            &lt;div style=&quot;white-space: nowrap&quot;&gt;Enabling it reduces the overhead of all memory accesses and has no impact on programs that don't access invalid memory.&lt;/div&gt;
            </source>
         <translation>
             &lt;div style=&quot;white-space: nowrap&quot;&gt;Denna optimering snabbar upp minnesåtkomster genom att tillåta att ogiltiga minnesåtkomster lyckas.&lt;/div&gt;
@@ -2334,229 +2531,304 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <translation>Loggning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="163"/>
-        <source>Open Log Location</source>
-        <translation>Öppna loggplats</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="197"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="190"/>
         <source>Global Log Filter</source>
         <translation>Globalt loggfilter</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="213"/>
-        <source>When checked, the max size of the log increases from 100 MB to 1 GB</source>
-        <translation>När detta markeras ökar maxstorleken på loggen från 100 MB till 1 GB</translation>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="224"/>
+        <source>GPU Logging/Level</source>
+        <translation>GPU-loggning/-nivå</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="216"/>
-        <source>Enable Extended Logging**</source>
-        <translation>Aktivera utökad loggning**</translation>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="231"/>
+        <source>Detail level for GPU logs. Off disables logging entirely.</source>
+        <translation>Detaljnivå för GPU-loggar. Av stänger av loggningen helt.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="223"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="235"/>
+        <source>Off</source>
+        <translation>Av</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="240"/>
+        <source>Errors</source>
+        <translation>Fel</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="245"/>
+        <source>Standard</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="250"/>
+        <source>Verbose</source>
+        <translation>Utförlig</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="255"/>
+        <source>All</source>
+        <translation>Alla</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="266"/>
         <source>Show Log in Console</source>
         <translation>Visa logg i konsolen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="235"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="276"/>
+        <source>When checked, the max size of the log increases from 100 MB to 1 GB</source>
+        <translation>När detta markeras ökar maxstorleken på loggen från 100 MB till 1 GB</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="279"/>
+        <source>Enable Extended Logging**</source>
+        <translation>Aktivera utökad loggning**</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="298"/>
+        <source>Open Log Location</source>
+        <translation>Öppna loggplats</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="310"/>
         <source>Homebrew</source>
         <translation>Homebrew</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="243"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="318"/>
         <source>Arguments String</source>
         <translation>Argument String</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="260"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="335"/>
         <source>Graphics</source>
         <translation>Grafik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="266"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="341"/>
         <source>When checked, it executes shaders without loop logic changes</source>
         <translation>När den är markerad körs shaders utan ändringar i looplogiken</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="269"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="344"/>
         <source>Disable Loop safety checks</source>
         <translation>Inaktivera säkerhetskontroller för loop</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="279"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="354"/>
         <source>When checked, it will dump all the macro programs of the GPU</source>
         <translation>När den är markerad kommer den att dumpa alla makroprogram på GPU:n</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="282"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="357"/>
         <source>Dump Maxwell Macros</source>
         <translation>Dumpa Maxwell-makron</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="289"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="364"/>
         <source>When checked, it enables Nsight Aftermath crash dumps</source>
         <translation>När den är markerad aktiverar den Nsight Aftermath-kraschdumpar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="292"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="367"/>
         <source>Enable Nsight Aftermath</source>
         <translation>Aktivera Nsight Aftermath</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="302"/>
-        <source>When checked, it will dump all the original assembler shaders from the disk shader cache or game as found</source>
-        <translation>När den är markerad kommer den att dumpa alla ursprungliga assembler shaders från diskens shader cache eller spelet som hittas</translation>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="377"/>
+        <source>When checked, it will dump original Maxwell guest shader bytecode (the input to the recompiler) as .ash files under DumpDir/shaders/. Useful for inspection with nvdisasm.</source>
+        <translation>När detta är markerat dumpas den ursprungliga Maxwell-gästshaderns bytekod (indata till omkompilatorn) som .ash-filer under DumpDir/shaders/. Användbart för granskning med nvdisasm.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="305"/>
-        <source>Dump Game Shaders</source>
-        <translation>Dumpa spel-shaders</translation>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="380"/>
+        <source>Dump Guest (Maxwell) Shaders</source>
+        <translation>Dumpa gästshaders (Maxwell)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="312"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="387"/>
         <source>Enable Renderdoc Hotkey</source>
         <translation>Aktivera snabbtangent för Renderdoc</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="322"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="397"/>
         <source>When checked, it disables the macro Just In Time compiler. Enabling this makes games run slower</source>
         <translation>När den är markerad inaktiveras makrokompilatorn Just In Time. Om du aktiverar detta går spelen långsammare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="325"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="400"/>
         <source>Disable Macro JIT</source>
         <translation>Inaktivera Macro JIT</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="335"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="410"/>
         <source>When checked, it disables the macro HLE functions. Enabling this makes games run slower</source>
         <translation>När den är markerad inaktiveras HLE-funktionerna för makro. Om du aktiverar detta går spelen långsammare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="338"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="413"/>
         <source>Disable Macro HLE</source>
         <translation>Inaktivera makro HLE</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="348"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="423"/>
         <source>When checked, the graphics API enters a slower debugging mode</source>
         <translation>När den är markerad går grafik-API:et in i ett långsammare felsökningsläge</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="351"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="426"/>
         <source>Enable Graphics Debugging</source>
         <translation>Aktivera felsökning av grafik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="374"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="449"/>
         <source>When checked, yuzu will log statistics about the compiled pipeline cache</source>
         <translation>När den är markerad kommer yuzu att logga statistik om den kompilerade pipeline-cachen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="377"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="452"/>
         <source>Enable Shader Feedback</source>
         <translation>Aktivera shader-återkoppling</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="384"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="459"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;When checked, disables reordering of mapped memory uploads which allows to associate uploads with specific draws. May reduce performance in some cases.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;När den är markerad inaktiveras omordning av uppladdningar i mappat minne, vilket gör det möjligt att associera uppladdningar med specifika dragningar. Kan minska prestandan i vissa fall.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="387"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="462"/>
         <source>Disable Buffer Reorder</source>
         <translation>Inaktivera omordning av buffertar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="397"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="469"/>
+        <source>When checked, it will dump the recompiler&apos;s output SPIR-V binaries (.spv) under LogDir/shaders/. Inspect via SPIRV-Tools (spirv-dis / spirv-cross / spirv-val) or RenderDoc.</source>
+        <translation>När detta är markerat dumpas omkompilatorns SPIR-V-binärer (.spv) under LogDir/shaders/. Granska dem med SPIRV-Tools (spirv-dis / spirv-cross / spirv-val) eller RenderDoc.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="472"/>
+        <source>Dump SPIR-V Shaders</source>
+        <translation>Dumpa SPIR-V-shaders</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="482"/>
         <source>Advanced</source>
         <translation>Avancerat</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="403"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="488"/>
         <source>Enables yuzu to check for a working Vulkan environment when the program starts up. Disable this if this is causing issues with external programs seeing yuzu.</source>
         <translation>Aktiverar yuzu för att kontrollera att Vulkan-miljön fungerar när programmet startas. Inaktivera detta om det orsakar problem med att externa program ser yuzu.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="406"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="491"/>
         <source>Perform Startup Vulkan Check</source>
         <translation>Utför Vulkan-kontroll vid uppstart</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="413"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="498"/>
         <source>Disable Web Applet</source>
         <translation>Inaktivera webbapplet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="420"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="505"/>
         <source>Enable All Controller Types</source>
         <translation>Aktivera alla typer av kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="527"/>
-        <source>Censor username in logs</source>
-        <translation>Censurera användarnamn i loggar</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="563"/>
-        <source>**This will be reset automatically when eden closes.</source>
-        <translation>**Detta kommer att återställas automatiskt när eden stänger.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="434"/>
-        <source>Kiosk (Quest) Mode</source>
-        <translation>Kiosk-läge (Quest)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="441"/>
-        <source>Enable CPU Debugging</source>
-        <translation>Aktivera CPU-felsökning</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="448"/>
-        <source>Enable Debug Asserts</source>
-        <translation>Aktivera Debug Asserts</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="474"/>
-        <source>Debugging</source>
-        <translation>Felsökning</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="506"/>
-        <source>Flush log output on each line</source>
-        <translation>Spola loggutmatningen på varje rad</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="513"/>
-        <source>Enable FS Access Log</source>
-        <translation>Aktivera FS Access Log</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="496"/>
-        <source>Enable this to output the latest generated audio command list to the console. Only affects games using the audio renderer.</source>
-        <translation>Aktivera detta för att skicka ut den senaste genererade ljudkommandolistan till konsolen. Påverkar endast spel som använder ljudrenderaren.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="427"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="512"/>
         <source>Enable Auto-Stub</source>
         <translation>Aktivera Auto-Stub</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="499"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="519"/>
+        <source>Kiosk (Quest) Mode</source>
+        <translation>Kiosk-läge (Quest)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="526"/>
+        <source>Use dev.keys</source>
+        <translation>Använd dev.keys</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="533"/>
+        <source>Enable Debug Asserts</source>
+        <translation>Aktivera Debug Asserts</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="559"/>
+        <source>Debugging</source>
+        <translation>Felsökning</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="592"/>
+        <source>Battery Serial:</source>
+        <translation>Batteriets serienummer:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="632"/>
+        <source>Debug Knobs:</source>
+        <translation>Felsökningsreglage:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="645"/>
+        <source>Bitmask for quick development toggles</source>
+        <translation>Bitmask för snabba utvecklingsväxlingar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="648"/>
+        <source>Set debug knobs (bitmask)</source>
+        <translation>Ställ in felsökningsknoppar (bitmask)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="651"/>
+        <source>16-bit debug knob set for quick development toggles</source>
+        <translation>Ställ in 16-bitars felsökningsknoppar för snabba utvecklingsväxlingar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="654"/>
+        <source> (bitmask)</source>
+        <translation> (bitmask)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="691"/>
+        <source>Unit Serial:</source>
+        <translation>Enhetens serienummer:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="720"/>
+        <source>Enable this to output the latest generated audio command list to the console. Only affects games using the audio renderer.</source>
+        <translation>Aktivera detta för att skicka ut den senaste genererade ljudkommandolistan till konsolen. Påverkar endast spel som använder ljudrenderaren.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="723"/>
         <source>Dump Audio Commands To Console**</source>
         <translation>Dumpa ljudkommandon till konsolen**</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="520"/>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="730"/>
+        <source>Flush log output on each line</source>
+        <translation>Spola loggutmatningen på varje rad</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="737"/>
+        <source>Enable FS Access Log</source>
+        <translation>Aktivera FS Access Log</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="744"/>
         <source>Enable Verbose Reporting Services**</source>
         <translation>Aktivera Verbose Reporting Services**</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_debug.cpp" line="84"/>
-        <source>Web applet not compiled</source>
-        <translation>Webbappleten är inte kompilerad</translation>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="751"/>
+        <source>Censor username in logs</source>
+        <translation>Censurera användarnamn i loggar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_debug.ui" line="787"/>
+        <source>**This will be reset automatically when Eden closes.</source>
+        <translation>**Detta återställs automatiskt när Eden stänger.</translation>
     </message>
 </context>
 <context>
@@ -2600,8 +2872,8 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
     <name>ConfigureDialog</name>
     <message>
         <location filename="../../src/yuzu/configuration/configure.ui" line="20"/>
-        <source>eden Configuration</source>
-        <translation>Konfigurera eden</translation>
+        <source>Eden Configuration</source>
+        <translation>Konfigurera Eden</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure.ui" line="67"/>
@@ -2609,94 +2881,90 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <translation>Vissa inställningar är endast tillgängliga när ett spel inte är igång.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="66"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="69"/>
         <source>Applets</source>
         <translation>Appletar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="67"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="177"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="70"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="183"/>
         <source>Audio</source>
         <translation>Ljud</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="68"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="175"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="71"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="180"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="69"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="72"/>
         <source>Debug</source>
         <translation>Felsök</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="70"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="73"/>
         <source>Filesystem</source>
         <translation>Filsystem</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="71"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="170"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="74"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="175"/>
         <source>General</source>
         <translation>Allmänt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="72"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="176"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="75"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="181"/>
         <source>Graphics</source>
         <translation>Grafik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="73"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="76"/>
         <source>GraphicsAdvanced</source>
         <translation>GraphicsAdvanced</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="74"/>
-        <source>GraphicsExtensions</source>
-        <translation>GraphicsExtensions</translation>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="77"/>
+        <source>GraphicsExtra</source>
+        <translation>GraphicsExtra</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="75"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="78"/>
         <source>Hotkeys</source>
         <translation>Snabbtangenter</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="76"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="178"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="79"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="184"/>
         <source>Controls</source>
-        <translation>Kontrollerar</translation>
+        <translation>Kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="77"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="80"/>
         <source>Profiles</source>
         <translation>Profiler</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="78"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="81"/>
         <source>Network</source>
         <translation>Nätverk</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="79"/>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="172"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="82"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="177"/>
         <source>System</source>
         <translation>System</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="80"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="83"/>
         <source>Game List</source>
         <translation>Spellista</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="81"/>
+        <location filename="../../src/yuzu/configuration/configure_dialog.cpp" line="84"/>
         <source>Web</source>
         <translation>Webb</translation>
-    </message>
-    <message>
-        <source>yuzu Configuration</source>
-        <translation type="vanished">yuzu Konfigurering</translation>
     </message>
 </context>
 <context>
@@ -2724,9 +2992,10 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
     <message>
         <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="38"/>
         <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="58"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="114"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="136"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="143"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="75"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="131"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="153"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="160"/>
         <source>...</source>
         <translation>...</translation>
     </message>
@@ -2736,107 +3005,195 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <translation>SD-kort</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="84"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="65"/>
+        <source>Save Data</source>
+        <translation>Sparat data</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="101"/>
         <source>Gamecard</source>
         <translation>Gamecard</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="90"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="107"/>
         <source>Path</source>
         <translation>Sökväg</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="100"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="117"/>
         <source>Inserted</source>
         <translation>Infogad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="107"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="124"/>
         <source>Current Game</source>
         <translation>Aktuellt spel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="124"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="141"/>
         <source>Patch Manager</source>
         <translation>Patchhanterare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="152"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="169"/>
         <source>Dump Decompressed NSOs</source>
         <translation>Dumpa dekomprimerade NSO:er</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="159"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="176"/>
         <source>Dump ExeFS</source>
         <translation>Dumpa ExeFS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="168"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="185"/>
         <source>Mod Load Root</source>
         <translation>Rot för inläsning av mods</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="175"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="192"/>
         <source>Dump Root</source>
         <translation>Dumpa rot</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="201"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="218"/>
         <source>Caching</source>
         <translation>Mellanlagring</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="209"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="226"/>
         <source>Cache Game List Metadata</source>
         <translation>Metadata för spellistan i cacheminnet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="216"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="131"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="135"/>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="140"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.ui" line="233"/>
         <source>Reset Metadata Cache</source>
         <translation>Återställ cachen för metadata</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="93"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="105"/>
         <source>Select Emulated NAND Directory...</source>
         <translation>Välj katalog för emulerad NAND...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="96"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="108"/>
         <source>Select Emulated SD Directory...</source>
         <translation>Välj katalog för emulerad SD...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="99"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="111"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="159"/>
+        <source>Select Save Data Directory...</source>
+        <translation>Välj katalog för sparat data...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="114"/>
         <source>Select Gamecard Path...</source>
         <translation>Välj sökväg för Gamecard...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="102"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="117"/>
         <source>Select Dump Directory...</source>
         <translation>Välj dumpkatalog...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="105"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="120"/>
         <source>Select Mod Load Directory...</source>
         <translation>Välj katalog för modinläsningar...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="132"/>
-        <source>The metadata cache is already empty.</source>
-        <translation>Metadatacachen är redan tom.</translation>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="148"/>
+        <source>Save Data Directory</source>
+        <translation>Katalog för sparat data</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="136"/>
-        <source>The operation completed successfully.</source>
-        <translation>Operationen slutfördes.</translation>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="149"/>
+        <source>Choose an action for the save data directory:</source>
+        <translation>Välj en åtgärd för katalogen för sparat data:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="141"/>
-        <source>The metadata cache couldn&apos;t be deleted. It might be in use or non-existent.</source>
-        <translation>Metadatacachen kunde inte raderas. Den kan vara i bruk eller obefintlig.</translation>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="151"/>
+        <source>Set Custom Path</source>
+        <translation>Ställ in anpassad sökväg</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="152"/>
+        <source>Reset to NAND</source>
+        <translation>Återställ till NAND</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="208"/>
+        <source>Save data exists in both the old and new locations.
+
+Old: %1
+New: %2
+
+Would you like to migrate saves from the old location?
+WARNING: This will overwrite any conflicting saves in the new location!</source>
+        <translation>Sparat data finns både på den gamla och nya platsen.
+
+Gamla: %1
+Nya: %2
+
+Vill du migrera sparade data från den gamla platsen?
+VARNING: Detta kommer att skriva över alla sparade data som finns på den nya platsen!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="216"/>
+        <source>Would you like to migrate your save data to the new location?
+
+From: %1
+To: %2</source>
+        <translation>Vill du migrera ditt sparade data till den nya platsen?
+
+Från: %1
+Till: %2</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="224"/>
+        <source>Migrate Save Data</source>
+        <translation>Migrera sparat data</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="231"/>
+        <source>Migrating save data...</source>
+        <translation>Migrerar sparat data...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="231"/>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="239"/>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="252"/>
+        <source>Migration Failed</source>
+        <translation>Migrering misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="240"/>
+        <source>Failed to create destination directory.</source>
+        <translation>Misslyckades med att skapa målkatalog.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="253"/>
+        <source>Failed to migrate save data:
+%1</source>
+        <translation>Misslyckades med att migrera sparat data:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="258"/>
+        <source>Migration Complete</source>
+        <translation>Migreringen är färdig</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_filesystem.cpp" line="259"/>
+        <source>Save data has been migrated successfully.
+
+Would you like to delete the old save data?</source>
+        <translation>Sparat data har migrerats utan problem.
+
+Vill du ta bort gammalt sparat data?</translation>
     </message>
 </context>
 <context>
@@ -2854,27 +3211,53 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_general.ui" line="52"/>
-        <source>Linux</source>
-        <translation>Linux</translation>
+        <source>External Content</source>
+        <translation>Externt innehåll</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.ui" line="109"/>
+        <location filename="../../src/yuzu/configuration/configure_general.ui" line="58"/>
+        <source>Add directories to scan for DLCs and Updates without installing to NAND</source>
+        <translation>Lägg till kataloger för att söka efter DLC och uppdateringar utan att installera dem på NAND</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.ui" line="77"/>
+        <source>Add Directory</source>
+        <translation>Lägg till katalog</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.ui" line="84"/>
+        <source>Remove Selected</source>
+        <translation>Ta bort markerade</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.ui" line="142"/>
         <source>Reset All Settings</source>
         <translation>Återställ alla inställningar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="99"/>
-        <source>eden</source>
-        <translation>eden</translation>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="101"/>
+        <source>Eden</source>
+        <translation>Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="100"/>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="102"/>
         <source>This reset all settings and remove all per-game configurations. This will not delete game directories, profiles, or input profiles. Proceed?</source>
         <translation>Detta återställer alla inställningar och tar bort alla konfigurationer per spel. Detta raderar inte spelkataloger, profiler eller inmatningsprofiler. Fortsätta?</translation>
     </message>
     <message>
-        <source>yuzu</source>
-        <translation type="vanished">yuzu</translation>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="140"/>
+        <source>Select External Content Directory...</source>
+        <translation>Välj katalog för externt innehåll...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="153"/>
+        <source>Directory Already Added</source>
+        <translation>Katalogen redan tillagd</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_general.cpp" line="154"/>
+        <source>This directory is already in the list.</source>
+        <translation>Denna katalog finns redan i listan.</translation>
     </message>
 </context>
 <context>
@@ -2905,33 +3288,33 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <translation>Bakgrundsfärg:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="277"/>
+        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="224"/>
         <source>%</source>
-        <comment>FSR sharpening percentage (e.g. 50%)</comment>
+        <comment>FSR/SGSR sharpening percentage (e.g. 50%)</comment>
         <translation>%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="417"/>
+        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="361"/>
         <source>Off</source>
         <translation>Av</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="418"/>
+        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="362"/>
         <source>VSync Off</source>
         <translation>VSync Av</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="420"/>
+        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="364"/>
         <source>Recommended</source>
         <translation>Rekommenderad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="423"/>
+        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="369"/>
         <source>On</source>
         <translation>På</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="424"/>
+        <location filename="../../src/yuzu/configuration/configure_graphics.cpp" line="370"/>
         <source>VSync On</source>
         <translation>VSync På</translation>
     </message>
@@ -2949,7 +3332,7 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
         <translation>Avancerat</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_advanced.ui" line="25"/>
+        <location filename="../../src/yuzu/configuration/configure_graphics_advanced.ui" line="23"/>
         <source>Advanced Graphics Settings</source>
         <translation>Avancerade grafikinställningar</translation>
     </message>
@@ -2963,22 +3346,34 @@ När en gäst försöker öppna controller-appleten stängs den omedelbart.</tra
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="17"/>
-        <source>Extensions</source>
-        <translation>Tillägg</translation>
+        <source>Extras</source>
+        <translation>Extras</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="25"/>
-        <source>Vulkan Extension Settings</source>
-        <translation>Inställningar för Vulkan-tillägg</translation>
+        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="23"/>
+        <source>Hacks</source>
+        <translation>Hack</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="31"/>
-        <source>While it&apos;s recommended to use state 3, some games may perform better on lower states. Setting to 0 (disabled) may also break games.
-If your GPU is older (i.e. RX570/580 or older), it may not support these features. If this is the case, set the slider to 0 and uncheck all boxes.
-These settings are experimental, and may cause black screens. If your games fail to boot or are stuck on a black screen, change these settings around.</source>
-        <translation>Även om det rekommenderas att använda tillstånd 3, kan vissa spel fungera bättre i lägre tillstånd. Inställning till 0 (inaktiverad) kan också förstöra spel.
-Om din GPU är äldre (t.ex. RX570/580 eller äldre) kanske den inte stöder dessa funktioner. Om så är fallet, ställ in skjutreglaget på 0 och avmarkera alla rutor.
-Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina spel inte startar eller fastnar på en svart skärm, ändra dessa inställningar.</translation>
+        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="29"/>
+        <source>Changing these options from their default may cause issues. Novitii cavete!</source>
+        <translation>Ändring av dessa alternativ från deras standardvärden kan orsaka problem. Novitii cavete!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.ui" line="62"/>
+        <source>Vulkan Extensions</source>
+        <translation>Vulkan-utökningar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.cpp" line="49"/>
+        <source>%</source>
+        <comment>Sample Shading percentage (e.g. 50%)</comment>
+        <translation>%</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_graphics_extensions.cpp" line="68"/>
+        <source>Extended Dynamic State is disabled on macOS due to MoltenVK compatibility issues that cause black screens.</source>
+        <translation>Extended Dynamic State är inaktiverat på macOS på grund av kompatibilitetsproblem med MoltenVK som orsakar svarta skärmar.</translation>
     </message>
 </context>
 <context>
@@ -3009,75 +3404,75 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>Återställ till standard</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="112"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="115"/>
         <source>Action</source>
         <translation>Åtgärd</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="112"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="115"/>
         <source>Hotkey</source>
         <translation>Snabbtangent</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="112"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="115"/>
         <source>Controller Hotkey</source>
         <translation>Snabbtangent för kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="152"/>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="178"/>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="418"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="155"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="181"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="421"/>
         <source>Conflicting Key Sequence</source>
         <translation>Motstridig tangentsekvens</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="153"/>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="179"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="156"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="182"/>
         <source>The entered key sequence is already assigned to: %1</source>
         <translation>Den inmatade tangentsekvensen är redan tilldelad: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="191"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="194"/>
         <source>[waiting]</source>
         <translation>[väntar]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="268"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="271"/>
         <source>Invalid</source>
         <translation>Ogiltig</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="340"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="343"/>
         <source>Invalid hotkey settings</source>
         <translation>Ogiltiga inställningar för snabbtangenter</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="341"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="344"/>
         <source>An error occurred. Please report this issue on github.</source>
         <translation>Ett fel har inträffat. Rapportera detta problem på github.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="381"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="384"/>
         <source>Restore Default</source>
         <translation>Återställ till standard</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="382"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="385"/>
         <source>Clear</source>
         <translation>Rensa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="403"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="406"/>
         <source>Conflicting Button Sequence</source>
         <translation>Motstridig knappsekvens</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="404"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="407"/>
         <source>The default button sequence is already assigned to: %1</source>
         <translation>Standardknappsekvensen är redan tilldelad till: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="419"/>
+        <location filename="../../src/yuzu/configuration/configure_hotkeys.cpp" line="422"/>
         <source>The default key sequence is already assigned to: %1</source>
         <translation>Standardknappsekvensen är redan tilldelad till: %1</translation>
     </message>
@@ -3397,8 +3792,8 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2659"/>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2701"/>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2717"/>
-        <source>Requires restarting eden</source>
-        <translation>Kräver omstart av eden</translation>
+        <source>Requires restarting Eden</source>
+        <translation>Kräver omstart av Eden</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2668"/>
@@ -3439,6 +3834,16 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2749"/>
         <source>Motion / Touch</source>
         <translation>Rörelse / beröring</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2763"/>
+        <source>Aimed to disable SDL GUIDE button hack: synthetic GUIDE(HOME) event when SELECT(MINUS) + START(PLUS) pressed. May impact Win related trigger/rumble/etc stuff</source>
+        <translation>Avsedd att stänga av SDL:s GUIDE-knappshack: syntetisk GUIDE(HOME)-händelse när SELECT(MINUS) + START(PLUS) trycks ned. Kan påverka Windows-relaterade avtryckare, vibrationer med mera.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input_advanced.ui" line="2772"/>
+        <source>Disable SDL WGI/XInput (Requires restart)</source>
+        <translation>Inaktivera SDL WGI/XInput (kräver omstart)</translation>
     </message>
 </context>
 <context>
@@ -3548,30 +3953,19 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="272"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1370"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1369"/>
         <source>Left Stick</source>
         <translation>Vänster styrspak</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="464"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="506"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="947"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="986"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2523"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2562"/>
-        <source>Up</source>
-        <translation>Upp</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="415"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="454"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="849"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="888"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1889"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2474"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2513"/>
-        <source>Left</source>
-        <translation>Vänster</translation>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="317"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="356"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="800"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="839"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2425"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2464"/>
+        <source>Down</source>
+        <translation>Ner</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="366"/>
@@ -3585,14 +3979,25 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>Höger</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="317"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="356"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="800"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="839"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2425"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2464"/>
-        <source>Down</source>
-        <translation>Ner</translation>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="415"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="454"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="849"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="888"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1889"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2474"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2513"/>
+        <source>Left</source>
+        <translation>Vänster</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="464"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="506"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="947"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="986"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2523"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2562"/>
+        <source>Up</source>
+        <translation>Upp</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="524"/>
@@ -3640,14 +4045,6 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>Riktningsknappar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1108"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1147"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1743"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1782"/>
-        <source>SL</source>
-        <translation>SL</translation>
-    </message>
-    <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1059"/>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1098"/>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1694"/>
@@ -3656,18 +4053,26 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>SR</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1283"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1322"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1375"/>
-        <source>L</source>
-        <translation>L</translation>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1108"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1147"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1743"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1782"/>
+        <source>SL</source>
+        <translation>SL</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1218"/>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1257"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1367"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1366"/>
         <source>ZL</source>
         <translation>ZL</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1283"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1322"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1374"/>
+        <source>L</source>
+        <translation>L</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1369"/>
@@ -3676,38 +4081,26 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>Minus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1948"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1987"/>
-        <source>Capture</source>
-        <translation>Fånga</translation>
-    </message>
-    <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1418"/>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1457"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1366"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1365"/>
         <source>Plus</source>
         <translation>Plus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1997"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2036"/>
-        <source>Home</source>
-        <translation>Hem</translation>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1525"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1564"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1367"/>
+        <source>ZR</source>
+        <translation>ZR</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1590"/>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1629"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1369"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1376"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1368"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1375"/>
         <source>R</source>
         <translation>R</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1525"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1564"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1368"/>
-        <source>ZR</source>
-        <translation>ZR</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1850"/>
@@ -3718,6 +4111,18 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1899"/>
         <source>Motion 2</source>
         <translation>Motion 2</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1948"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1987"/>
+        <source>Capture</source>
+        <translation>Fånga</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="1997"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2036"/>
+        <source>Home</source>
+        <translation>Hem</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2075"/>
@@ -3731,10 +4136,10 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>X</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2267"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2306"/>
-        <source>Y</source>
-        <translation>Y</translation>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2169"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2208"/>
+        <source>B</source>
+        <translation>B</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2218"/>
@@ -3743,14 +4148,14 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>A</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2169"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2208"/>
-        <source>B</source>
-        <translation>B</translation>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2267"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2306"/>
+        <source>Y</source>
+        <translation>Y</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_input_player.ui" line="2328"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1371"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1370"/>
         <source>Right Stick</source>
         <translation>Högerspak</translation>
     </message>
@@ -3765,242 +4170,242 @@ Dessa inställningar är experimentella och kan orsaka svarta skärmar. Om dina 
         <translation>Konfigurera</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="386"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="471"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="569"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="664"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="387"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="472"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="570"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="665"/>
         <source>Clear</source>
         <translation>Rensa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="388"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="473"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="573"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="592"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="666"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="389"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="474"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="574"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="593"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="667"/>
         <source>[not set]</source>
         <translation>[inte inställd]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="391"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="417"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="678"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="392"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="418"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="679"/>
         <source>Invert button</source>
         <translation>Invertera-knappen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="397"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="669"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="398"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="670"/>
         <source>Toggle button</source>
         <translation>Växla knapp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="403"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="404"/>
         <source>Turbo button</source>
         <translation>Turbo-knapp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="411"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="620"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="412"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="621"/>
         <source>Invert axis</source>
         <translation>Invertera axeln</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="423"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="427"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="480"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="424"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="428"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="481"/>
         <source>Set threshold</source>
         <translation>Ställ in tröskelvärde</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="427"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="480"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="428"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="481"/>
         <source>Choose a value between 0% and 100%</source>
         <translation>Välj ett värde mellan 0% och 100%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="439"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="440"/>
         <source>Toggle axis</source>
         <translation>Växla axel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="476"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="477"/>
         <source>Set gyro threshold</source>
         <translation>Ställ in gyrotröskelvärde</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="485"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="486"/>
         <source>Calibrate sensor</source>
         <translation>Kalibrera sensorn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="525"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="526"/>
         <source>Map Analog Stick</source>
         <translation>Mappa analog spak</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="526"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="527"/>
         <source>After pressing OK, first move your joystick horizontally, and then vertically.
 To invert the axes, first move your joystick vertically, and then horizontally.</source>
         <translation>När du har tryckt på OK för du först joysticken horisontellt och sedan vertikalt.
 Om du vill invertera axlarna för du joysticken först vertikalt och sedan horisontellt.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="594"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="595"/>
         <source>Center axis</source>
         <translation>Centrera axel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="702"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1067"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="703"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1068"/>
         <source>Deadzone: %1%</source>
         <translation>Dödzon: %1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="711"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1072"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="712"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1073"/>
         <source>Modifier Range: %1%</source>
         <translation>Modifieringsintervall: %1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="752"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1097"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="753"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1098"/>
         <source>Pro Controller</source>
         <translation>Pro Controller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1101"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1102"/>
         <source>Dual Joycons</source>
         <translation>Dubbla Joycons</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1105"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1106"/>
         <source>Left Joycon</source>
         <translation>Vänster Joycon</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1109"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1110"/>
         <source>Right Joycon</source>
         <translation>Höger Joycon</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1113"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1114"/>
         <source>Handheld</source>
         <translation>Handhållen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1117"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1118"/>
         <source>GameCube Controller</source>
         <translation>GameCube-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1126"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1127"/>
         <source>Poke Ball Plus</source>
         <translation>Poke Ball Plus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1130"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1131"/>
         <source>NES Controller</source>
         <translation>NES-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1134"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1135"/>
         <source>SNES Controller</source>
         <translation>SNES-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1138"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1139"/>
         <source>N64 Controller</source>
         <translation>N64-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1142"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1143"/>
         <source>Sega Genesis</source>
         <translation>Sega Genesis</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1374"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1373"/>
         <source>Start / Pause</source>
         <translation>Starta / Pausa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1377"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1376"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1378"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1377"/>
         <source>Control Stick</source>
         <translation>Kontrollspak</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1379"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1378"/>
         <source>C-Stick</source>
         <translation>C-spak</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1480"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1479"/>
         <source>Shake!</source>
         <translation>Skaka!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1482"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1481"/>
         <source>[waiting]</source>
         <translation>[väntar]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1577"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1578"/>
         <source>New Profile</source>
         <translation>Ny profil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1577"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1578"/>
         <source>Enter a profile name:</source>
         <translation>Ange ett profilnamn:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1585"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1593"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1586"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1594"/>
         <source>Create Input Profile</source>
         <translation>Skapa inmatningsprofil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1586"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1587"/>
         <source>The given profile name is not valid!</source>
         <translation>Det angivna profilnamnet är inte giltigt!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1594"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1595"/>
         <source>Failed to create the input profile &quot;%1&quot;</source>
         <translation>Misslyckades med att skapa inmatningsprofilen &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1614"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1615"/>
         <source>Delete Input Profile</source>
         <translation>Radera inmatningsprofil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1615"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1616"/>
         <source>Failed to delete the input profile &quot;%1&quot;</source>
         <translation>Misslyckades med att ta bort inmatningsprofilen &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1637"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1638"/>
         <source>Load Input Profile</source>
         <translation>Läs in inmatningsprofil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1638"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1639"/>
         <source>Failed to load the input profile &quot;%1&quot;</source>
         <translation>Misslyckades med att läsa in inmatningsprofilen &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1663"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1664"/>
         <source>Save Input Profile</source>
         <translation>Spara inmatningsprofil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1664"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="1665"/>
         <source>Failed to save the input profile &quot;%1&quot;</source>
         <translation>Misslyckades med att spara inmatningsprofilen &quot;%1&quot;</translation>
     </message>
@@ -4021,15 +4426,6 @@ Om du vill invertera axlarna för du joysticken först vertikalt och sedan horis
         <location filename="../../src/yuzu/configuration/configure_input_profile_dialog.ui" line="47"/>
         <source>Defaults</source>
         <translation>Standard</translation>
-    </message>
-</context>
-<context>
-    <name>ConfigureLinuxTab</name>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_linux_tab.ui" line="6"/>
-        <location filename="../../src/yuzu/configuration/configure_linux_tab.ui" line="12"/>
-        <source>Linux</source>
-        <translation>Linux</translation>
     </message>
 </context>
 <context>
@@ -4057,7 +4453,7 @@ Om du vill invertera axlarna för du joysticken först vertikalt och sedan horis
     <message>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="46"/>
         <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="73"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="242"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="235"/>
         <source>Configure</source>
         <translation>Konfigurera</translation>
     </message>
@@ -4087,113 +4483,95 @@ Om du vill invertera axlarna för du joysticken först vertikalt och sedan horis
         <translation>Port:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="188"/>
-        <source>Learn More</source>
-        <translation>Läs mer</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="201"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="265"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="194"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="258"/>
         <source>Test</source>
         <translation>Testa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="214"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="207"/>
         <source>Add Server</source>
         <translation>Lägg till server</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="247"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.ui" line="240"/>
         <source>Remove Server</source>
         <translation>Ta bort server</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="168"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="161"/>
         <source>%1:%2</source>
         <translation>%1:%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="87"/>
-        <source>&lt;a href=&apos;https://eden-emulator.github.io/wiki/using-a-controller-or-android-phone-for-motion-or-touch-input&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Learn More&lt;/span&gt;&lt;/a&gt;</source>
-        <translation>&lt;a href=&apos;https://eden-emulator.github.io/wiki/using-a-controller-or-android-phone-for-motion-or-touch-input&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Lär dig mer&lt;/span&gt;&lt;/a&gt;</translation>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="166"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="170"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="174"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="180"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="186"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="280"/>
+        <source>Eden</source>
+        <translation>Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="173"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="166"/>
         <source>Port number has invalid characters</source>
         <translation>Portnumret har ogiltiga tecken</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="173"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="177"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="181"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="187"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="193"/>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="287"/>
-        <source>eden</source>
-        <translation>eden</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="177"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="170"/>
         <source>Port has to be in range 0 and 65353</source>
         <translation>Port måste ligga inom intervallet 0 och 65353</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="181"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="174"/>
         <source>IP address is not valid</source>
         <translation>IP-adressen är inte giltig</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="187"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="180"/>
         <source>This UDP server already exists</source>
         <translation>Denna UDP-server finns redan</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="193"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="186"/>
         <source>Unable to add more than 8 servers</source>
         <translation>Det går inte att lägga till fler än 8 servrar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="209"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="202"/>
         <source>Testing</source>
         <translation>Testar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="225"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="218"/>
         <source>Configuring</source>
         <translation>Konfigurerar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="256"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="249"/>
         <source>Test Successful</source>
         <translation>Testet lyckades</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="257"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="250"/>
         <source>Successfully received data from the server.</source>
         <translation>Tog emot data från servern.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="259"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="252"/>
         <source>Test Failed</source>
         <translation>Testet misslyckades</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="260"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="253"/>
         <source>Could not receive valid data from the server.&lt;br&gt;Please verify that the server is set up correctly and the address and port are correct.</source>
         <translation>Kunde inte ta emot giltiga data från servern.&lt;br&gt;Kontrollera att servern är korrekt konfigurerad och att adress och port är korrekta.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="288"/>
+        <location filename="../../src/yuzu/configuration/configure_motion_touch.cpp" line="281"/>
         <source>UDP Test or calibration configuration is in progress.&lt;br&gt;Please wait for them to finish.</source>
         <translation>UDP Test- eller kalibreringskonfiguration pågår.&lt;br&gt;Vänta tills de är klara.</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&apos;https://yuzu-emu.org/wiki/using-a-controller-or-android-phone-for-motion-or-touch-input&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Learn More&lt;/span&gt;&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&apos;https://yuzu-emu.org/wiki/using-a-controller-or-android-phone-for-motion-or-touch-input&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Lär dig mer&lt;/span&gt;&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>yuzu</source>
-        <translation type="vanished">yuzu</translation>
     </message>
 </context>
 <context>
@@ -4318,9 +4696,9 @@ Nuvarande värden är %1% respektive %2%.</translation>
         <translation>Nätverksgränssnitt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_network.cpp" line="15"/>
-        <source>None</source>
-        <translation>Ingen</translation>
+        <location filename="../../src/yuzu/configuration/configure_network.ui" line="41"/>
+        <source>Enable Airplane Mode</source>
+        <translation>Aktivera flygplansläge</translation>
     </message>
 </context>
 <context>
@@ -4376,52 +4754,57 @@ Nuvarande värden är %1% respektive %2%.</translation>
         <translation>Vissa inställningar är endast tillgängliga när ett spel inte är igång.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="72"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="78"/>
         <source>Add-Ons</source>
         <translation>Tillägg</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="73"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="79"/>
         <source>System</source>
         <translation>System</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="74"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="80"/>
         <source>CPU</source>
         <translation>CPU</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="75"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="81"/>
         <source>Graphics</source>
         <translation>Grafik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="76"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="82"/>
         <source>Adv. Graphics</source>
         <translation>Avancerad grafik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="77"/>
-        <source>GPU Extensions</source>
-        <translation>GPU-tillägg</translation>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="83"/>
+        <source>Ext. Graphics</source>
+        <translation>Ext. grafik</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="78"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="84"/>
         <source>Audio</source>
         <translation>Ljud</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="79"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="85"/>
         <source>Input Profiles</source>
         <translation>Inmatningsprofiler</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="85"/>
-        <source>Linux</source>
-        <translation>Linux</translation>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="86"/>
+        <source>Network</source>
+        <translation>Nätverk</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="89"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="87"/>
+        <source>Applets</source>
+        <translation>Appletar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game.cpp" line="90"/>
         <source>Properties</source>
         <translation>Egenskaper</translation>
     </message>
@@ -4439,14 +4822,224 @@ Nuvarande värden är %1% respektive %2%.</translation>
         <translation>Tillägg</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="45"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.ui" line="23"/>
+        <source>Import Mod from ZIP</source>
+        <translation>Importera mod från ZIP</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.ui" line="30"/>
+        <source>Import Mod from Folder</source>
+        <translation>Importera mod från mapp</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="56"/>
         <source>Patch Name</source>
         <translation>Patchnamn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="46"/>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="57"/>
         <source>Version</source>
         <translation>Version</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="153"/>
+        <source>Mod Install Succeeded</source>
+        <translation>Mod installerad</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="154"/>
+        <source>Successfully installed all mods.</source>
+        <translation>Alla mods installerade.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="163"/>
+        <source>Mod Install Failed</source>
+        <translation>Installation av mod misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="164"/>
+        <source>Failed to install the following mods:
+	%1
+Check the log for details.</source>
+        <translation>Misslyckades med att installera följande mods:
+	%1
+Kontrollera loggen för information.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="183"/>
+        <source>Mod Folder</source>
+        <translation>Mapp för mod</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="194"/>
+        <source>Zipped Mod Location</source>
+        <translation>Plats för zippad mod</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="196"/>
+        <source>Zipped Archives (*.zip)</source>
+        <translation>Zip-arkiv (*.zip)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="214"/>
+        <source>Invalid Selection</source>
+        <translation>Ogiltigt val</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="215"/>
+        <source>Only mods, cheats, and patches can be deleted.
+To delete NAND-installed updates, right-click the game in the game list and click Remove -&gt; Remove Installed Update.</source>
+        <translation>Endast mods, fusk och patchar kan tas bort.
+För att ta bort NAND-installerade uppdateringar, högerklicka på spelet i spellistan och klicka på Ta bort -&gt; Ta bort installerad uppdatering.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="221"/>
+        <source>You are about to delete the following installed mods:
+</source>
+        <translation>Du är på väg att ta bort följande installerade mods:
+</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="227"/>
+        <source>
+Once deleted, these can NOT be recovered. Are you 100% sure you want to delete them?</source>
+        <translation>
+När de har tagits bort kan de INTE återställas. Är du 100% säker på att du vill ta bort dem?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="232"/>
+        <source>Delete add-on(s)?</source>
+        <translation>Ta bort tillägg?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="243"/>
+        <source>Successfully deleted</source>
+        <translation>Borttagning lyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="244"/>
+        <source>Successfully deleted all selected mods.</source>
+        <translation>Alla valda mods har tagits bort.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="267"/>
+        <source>&amp;Delete</source>
+        <translation>&amp;Ta bort</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_per_game_addons.cpp" line="274"/>
+        <source>&amp;Open in File Manager</source>
+        <translation>Ö&amp;ppna i filhanterare</translation>
+    </message>
+</context>
+<context>
+    <name>ConfigurePostProcessing</name>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="67"/>
+        <source>Post-Processing Effects</source>
+        <translation>Efterbearbetningseffekter</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="74"/>
+        <source>ReShade FX effects are loaded from the post_shaders folder in the Eden data directory. Changes apply immediately while a game is running.</source>
+        <translation>ReShade FX-effekter läses in från mappen post_shaders i Eden-datakatalogen. Ändringar tillämpas direkt medan ett spel körs.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="80"/>
+        <source>Enable post-processing</source>
+        <translation>Aktivera efterbearbetning</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="88"/>
+        <source>Preset:</source>
+        <translation>Förinställning:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="93"/>
+        <source>Apply</source>
+        <translation>Tillämpa</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="104"/>
+        <source>Reset Values</source>
+        <translation>Återställ värden</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="105"/>
+        <source>Return every effect to the values the preset ships with.</source>
+        <translation>Återställ varje effekt till de värden som förinställningen levereras med.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="116"/>
+        <source>Save As...</source>
+        <translation>Spara som…</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="120"/>
+        <source>Save Preset</source>
+        <translation>Spara förinställning</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="120"/>
+        <source>Preset name:</source>
+        <translation>Förinställningsnamn:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="131"/>
+        <source>Delete</source>
+        <translation>Ta bort</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="159"/>
+        <source>Add Effect</source>
+        <translation>Lägg till effekt</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="229"/>
+        <source>Custom chain. Pick a preset above and press Apply to replace it.</source>
+        <translation>Anpassad kedja. Välj en förinställning ovan och tryck på Tillämpa för att ersätta den.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="235"/>
+        <source>Active preset: %1 (modified). Press Reset Values to go back to how it ships.</source>
+        <translation>Aktiv förinställning: %1 (ändrad). Tryck på Återställ värden för att återgå till ursprungsvärdena.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="240"/>
+        <source>Active preset: %1</source>
+        <translation>Aktiv förinställning: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="301"/>
+        <source>Enabled</source>
+        <translation>Aktiverad</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="302"/>
+        <source>Disabled</source>
+        <translation>Inaktiverad</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="414"/>
+        <source>Reset to defaults</source>
+        <translation>Återställ standardvärden</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="449"/>
+        <source>Effect &apos;%1&apos; was not found.</source>
+        <translation>Effekten ”%1” hittades inte.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="458"/>
+        <source>Effect failed to compile:
+%1</source>
+        <translation>Effekten kunde inte kompileras:
+%1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_post_processing.cpp" line="499"/>
+        <source>No usable ReShade FX effects were found. Place .fx files in the post_shaders folder.</source>
+        <translation>Inga användbara ReShade FX-effekter hittades. Placera .fx-filer i mappen post_shaders.</translation>
     </message>
 </context>
 <context>
@@ -4464,7 +5057,7 @@ Nuvarande värden är %1% respektive %2%.</translation>
     <message>
         <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="25"/>
         <source>Profile Manager</source>
-        <translation>Profilansvarig</translation>
+        <translation>Profilhanterare</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="42"/>
@@ -4477,32 +5070,17 @@ Nuvarande värden är %1% respektive %2%.</translation>
         <translation>Användarnamn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="116"/>
-        <source>Set Image</source>
-        <translation>Ställ in bild</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="136"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="126"/>
         <source>Add</source>
         <translation>Lägg till</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="146"/>
-        <source>Rename</source>
-        <translation>Byt namn</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="156"/>
-        <source>Remove</source>
-        <translation>Ta bort</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="168"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.ui" line="138"/>
         <source>Profile management is available only when game is not running.</source>
         <translation>Profilhantering är endast tillgänglig när spelet inte är igång.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="59"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="58"/>
         <source>%1
 %2</source>
         <comment>%1 is the profile username, %2 is the formatted UUID (e.g. 00112233-4455-6677-8899-AABBCCDDEEFF))</comment>
@@ -4510,100 +5088,80 @@ Nuvarande värden är %1% respektive %2%.</translation>
 %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="77"/>
-        <source>Enter Username</source>
-        <translation>Ange användarnamn</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="143"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="139"/>
         <source>Users</source>
         <translation>Användare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="205"/>
-        <source>Enter a username for the new user:</source>
-        <translation>Ange ett användarnamn för den nya användaren:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="226"/>
-        <source>Enter a new username:</source>
-        <translation>Ange ett nytt användarnamn:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="279"/>
-        <source>Select User Image</source>
-        <translation>Välj användarbild</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="280"/>
-        <source>JPEG Images (*.jpg *.jpeg)</source>
-        <translation>JPEG-bilder (*.jpg *.jpeg)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="289"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="194"/>
         <source>Error deleting image</source>
         <translation>Fel vid borttagning av bild</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="290"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="195"/>
         <source>Error occurred attempting to overwrite previous image at: %1.</source>
         <translation>Fel uppstod vid försök att skriva över föregående bild vid: %1.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="298"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="203"/>
         <source>Error deleting file</source>
         <translation>Fel vid borttagning av fil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="299"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="204"/>
         <source>Unable to delete existing file: %1.</source>
         <translation>Det går inte att ta bort en befintlig fil: %1.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="306"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="211"/>
         <source>Error creating user image directory</source>
         <translation>Fel vid skapande av katalog för användarbilder</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="307"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="212"/>
         <source>Unable to create directory %1 for storing user images.</source>
         <translation>Det går inte att skapa katalog %1 f eller lagra användarbilder.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="312"/>
-        <source>Error copying user image</source>
-        <translation>Fel vid kopiering av användarbild</translation>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="217"/>
+        <source>Error saving user image</source>
+        <translation>Fel vid sparande av användarbild</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="313"/>
-        <source>Unable to copy image from %1 to %2</source>
-        <translation>Det går inte att kopiera bilden från %1 till %2</translation>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="218"/>
+        <source>Unable to save image to file</source>
+        <translation>Kunde inte spara bild till fil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="322"/>
-        <source>Error resizing user image</source>
-        <translation>Fel vid ändring av storlek på användarbild</translation>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="230"/>
+        <source>&amp;Edit</source>
+        <translation>R&amp;edigera</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="323"/>
-        <source>Unable to resize image</source>
-        <translation>Det går inte att ändra storlek på bilden</translation>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="231"/>
+        <source>&amp;Delete</source>
+        <translation>&amp;Ta bort</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="291"/>
+        <source>Edit User</source>
+        <translation>Redigera användare</translation>
     </message>
 </context>
 <context>
     <name>ConfigureProfileManagerDeleteDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="340"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="359"/>
         <source>Delete this user? All of the user&apos;s save data will be deleted.</source>
         <translation>Ta bort den här användaren? Alla användarens sparade data kommer att raderas.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="352"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="374"/>
         <source>Confirm Delete</source>
         <translation>Bekräfta borttagning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="368"/>
+        <location filename="../../src/yuzu/configuration/configure_profile_manager.cpp" line="397"/>
         <source>Name: %1
 UUID: %2</source>
         <translation>Namn: %1
@@ -4656,7 +5214,7 @@ UUID: %2</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="300"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="317"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="320"/>
         <source>Enable</source>
         <translation>Aktivera</translation>
     </message>
@@ -4667,7 +5225,7 @@ UUID: %2</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_ringcon.ui" line="314"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="282"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="285"/>
         <source>Not connected</source>
         <translation>Inte ansluten</translation>
     </message>
@@ -4677,63 +5235,63 @@ UUID: %2</translation>
         <translation>Återställ till standard</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="168"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="171"/>
         <source>Clear</source>
         <translation>Rensa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="170"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="173"/>
         <source>[not set]</source>
         <translation>[inte inställd]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="172"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="175"/>
         <source>Invert axis</source>
         <translation>Invertera axeln</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="191"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="257"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="194"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="260"/>
         <source>Deadzone: %1%</source>
         <translation>Dödzon: %1%</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="279"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="282"/>
         <source>Error enabling ring input</source>
         <translation>Fel vid aktivering av Ring-inmatning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="285"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="288"/>
         <source>Direct Joycon driver is not enabled</source>
         <translation>Direkt Joycon-drivrutinen är inte aktiverad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="290"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="293"/>
         <source>Configuring</source>
         <translation>Konfigurerar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="302"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="305"/>
         <source>The current mapped device doesn&apos;t support the ring controller</source>
         <translation>Den aktuella mappade enheten stöder inte ringkontrollen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="306"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="309"/>
         <source>The current mapped device doesn&apos;t have a ring attached</source>
         <translation>Den nuvarande mappade enheten har inte en ring ansluten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="309"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="312"/>
         <source>The current mapped device is not connected</source>
         <translation>Den aktuella mappade enheten är inte ansluten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="313"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="316"/>
         <source>Unexpected driver result %1</source>
         <translation>Oväntat drivrutinsresultat %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="336"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="339"/>
         <source>[waiting]</source>
         <translation>[väntar]</translation>
     </message>
@@ -4757,7 +5315,7 @@ UUID: %2</translation>
         <translation>Kärna</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_system.cpp" line="67"/>
+        <location filename="../../src/yuzu/configuration/configure_system.cpp" line="71"/>
         <source>Warning: &quot;%1&quot; is not a valid language for region &quot;%2&quot;</source>
         <translation>Varning: &quot;%1&quot; är inte ett giltigt språk för region &quot;%2&quot;</translation>
     </message>
@@ -4771,8 +5329,8 @@ UUID: %2</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_tas.ui" line="17"/>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reads controller input from scripts in the same format as TAS-nx scripts.&lt;br/&gt;For a more detailed explanation, please consult the &lt;a href=&quot;https://eden-emulator.github.io/help/feature/tas/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;help page&lt;/span&gt;&lt;/a&gt; on the eden website.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Läser in styrenhetens indata från skript i samma format som TAS-nx-skript.&lt;br/&gt;För en mer detaljerad förklaring, se &lt;a href=&quot;https://eden-emulator.github.io/help/feature/tas/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#039be5;&quot;&gt;hjälpsidan&lt;/span&gt;&lt;/a&gt; på edens webbplats.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Reads controller input from scripts in the same format as TAS-nx scripts.&lt;br/&gt;For a more detailed explanation, please consult the user handbook.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Läser in kontroller från skript i samma format som TAS-nx-skript.&lt;br/&gt;För en mer detaljerad förklaring, se användarhandboken.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_tas.ui" line="27"/>
@@ -4805,17 +5363,22 @@ UUID: %2</translation>
         <translation>Pausa exekvering under inläsningar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="91"/>
+        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="84"/>
+        <source>Show recording dialog</source>
+        <translation>Visa inspelningsdialog</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="98"/>
         <source>Script Directory</source>
         <translation>Skriptkatalog</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="97"/>
+        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="104"/>
         <source>Path</source>
         <translation>Sökväg</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="104"/>
+        <location filename="../../src/yuzu/configuration/configure_tas.ui" line="111"/>
         <source>...</source>
         <translation>...</translation>
     </message>
@@ -4823,12 +5386,12 @@ UUID: %2</translation>
 <context>
     <name>ConfigureTasDialog</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.cpp" line="19"/>
+        <location filename="../../src/yuzu/configuration/configure_tas.cpp" line="22"/>
         <source>TAS Configuration</source>
         <translation>TAS-konfiguration</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_tas.cpp" line="49"/>
+        <location filename="../../src/yuzu/configuration/configure_tas.cpp" line="55"/>
         <source>Select TAS Load Directory...</source>
         <translation>Välj katalog för TAS-inläsningar...</translation>
     </message>
@@ -4934,8 +5497,8 @@ Dra punkterna för att ändra position, eller dubbelklicka på tabellcellerna f�
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="26"/>
-        <source>Warning: The settings in this page affect the inner workings of eden&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
-        <translation>Varning: Inställningarna på den här sidan påverkar det inre arbetet i Edens emulerade pekskärm. Om du ändrar dem kan det leda till oönskat beteende, t.ex. att pekskärmen fungerar delvis eller inte alls. Du bör endast använda den här sidan om du vet vad du gör.</translation>
+        <source>Warning: The settings in this page affect the inner workings of Eden&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
+        <translation>Varning: Inställningarna på denna sida påverkar den interna funktionen hos Edens emulerade pekskärm. Om du ändrar dem kan det leda till oönskade effekter, till exempel att pekskärmen fungerar delvis eller inte alls. Du bör endast använda denna sida om du vet vad du gör.</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_touchscreen_advanced.ui" line="52"/>
@@ -4962,72 +5525,47 @@ Dra punkterna för att ändra position, eller dubbelklicka på tabellcellerna f�
         <source>Restore Defaults</source>
         <translation>Återställ till standard</translation>
     </message>
-    <message>
-        <source>Warning: The settings in this page affect the inner workings of yuzu&apos;s emulated touchscreen. Changing them may result in undesirable behavior, such as the touchscreen partially or not working. You should only use this page if you know what you are doing.</source>
-        <translation type="vanished">Varning: Inställningarna på denna sida påverkar de inre delarna av yuzus emulerande pekskärm. Ändring kan resultera i oönskat beteende, som att pekskärmen slutar fungera. Använd bara denna sida om du vet va du gör. </translation>
-    </message>
 </context>
 <context>
     <name>ConfigureUI</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="34"/>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="42"/>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="54"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="35"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="47"/>
         <source>None</source>
         <translation>Ingen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="35"/>
-        <source>Small (32x32)</source>
-        <translation>Liten (32x32)</translation>
-    </message>
-    <message>
         <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="36"/>
-        <source>Standard (64x64)</source>
-        <translation>Standard (64x64)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="37"/>
-        <source>Large (128x128)</source>
-        <translation>Stor (128x128)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="38"/>
-        <source>Full Size (256x256)</source>
-        <translation>Full storlek (256x256)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="43"/>
         <source>Small (24x24)</source>
         <translation>Liten (24x24)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="44"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="37"/>
         <source>Standard (48x48)</source>
         <translation>Standard (48x48)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="45"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="38"/>
         <source>Large (72x72)</source>
         <translation>Stor (72x72)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="50"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="43"/>
         <source>Filename</source>
         <translation>Filnamn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="51"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="44"/>
         <source>Filetype</source>
         <translation>Filtyp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="52"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="45"/>
         <source>Title ID</source>
         <translation>Titelns ID</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="53"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="46"/>
         <source>Title Name</source>
         <translation>Titelnamn</translation>
     </message>
@@ -5071,96 +5609,86 @@ Dra punkterna för att ändra position, eller dubbelklicka på tabellcellerna f�
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_ui.ui" line="82"/>
-        <source>Show Compatibility List</source>
-        <translation>Visa kompatibilitetslista</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="89"/>
         <source>Show Add-Ons Column</source>
         <translation>Visa tilläggskolumn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="96"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="89"/>
         <source>Show Size Column</source>
         <translation>Visa storlek kolumn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="103"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="96"/>
         <source>Show File Types Column</source>
         <translation>Visa filtypskolumnen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="110"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="103"/>
         <source>Show Play Time Column</source>
         <translation>Visa speltidskolumn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="119"/>
-        <source>Game Icon Size:</source>
-        <translation>Storlek på spelikonen:</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="133"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="112"/>
         <source>Folder Icon Size:</source>
         <translation>Ikonstorlek för mapp:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="147"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="126"/>
         <source>Row 1 Text:</source>
         <translation>Rad 1-text:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="161"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="140"/>
         <source>Row 2 Text:</source>
         <translation>Rad 2-text:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="178"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="157"/>
         <source>Screenshots</source>
         <translation>Skärmbilder</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="186"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="165"/>
         <source>Ask Where To Save Screenshots (Windows Only)</source>
         <translation>Fråga var du vill spara skärmdumpar (endast Windows)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="195"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="174"/>
         <source>Screenshots Path: </source>
         <translation>Sökväg för skärmdumpar: </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="205"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="184"/>
         <source>...</source>
         <translation>...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="221"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="200"/>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="240"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.ui" line="219"/>
         <source>Resolution:</source>
         <translation>Status:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="146"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="132"/>
         <source>Select Screenshots Path...</source>
         <translation>Välj sökväg för skärmdumpar...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="251"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="227"/>
         <source>&lt;System&gt;</source>
         <translation>&lt;System&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="252"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="228"/>
         <source>English</source>
         <translation>Engelska</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="339"/>
+        <location filename="../../src/yuzu/configuration/configure_ui.cpp" line="311"/>
         <source>Auto (%1 x %2, %3 x %4)</source>
         <comment>Screenshot width value</comment>
         <translation>Auto (%1 x %2, %3 x %4)</translation>
@@ -5260,161 +5788,174 @@ Dra punkterna för att ändra position, eller dubbelklicka på tabellcellerna f�
     </message>
     <message>
         <location filename="../../src/yuzu/configuration/configure_web.ui" line="25"/>
-        <source>eden Web Service</source>
-        <translation>edens webbtjänst</translation>
+        <source>Eden Web Service</source>
+        <translation>Edens webbtjänst</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="31"/>
-        <source>By providing your username and token, you agree to allow eden to collect additional usage data, which may include user identifying information.</source>
-        <translation>Genom att ange ditt användarnamn och din token samtycker du till att eden samlar in ytterligare användningsdata, vilket kan inkludera användaridentifierande information.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="49"/>
-        <source>Verify</source>
-        <translation>Verifiera</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="59"/>
-        <source>Sign up</source>
-        <translation>Registrera dig</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="76"/>
+        <location filename="../../src/yuzu/configuration/configure_web.ui" line="33"/>
         <source>Token: </source>
         <translation>Token: </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="86"/>
+        <location filename="../../src/yuzu/configuration/configure_web.ui" line="46"/>
         <source>Username: </source>
         <translation>Användarnamn: </translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="103"/>
-        <source>What is my token?</source>
-        <translation>Vad är min token?</translation>
+        <location filename="../../src/yuzu/configuration/configure_web.ui" line="105"/>
+        <source>Generate</source>
+        <translation>Generera</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="128"/>
+        <location filename="../../src/yuzu/configuration/configure_web.ui" line="130"/>
         <source>Web Service configuration can only be changed when a public room isn&apos;t being hosted.</source>
         <translation>Webbtjänstkonfigurationen kan endast ändras när ett offentligt rum inte är värd.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="140"/>
+        <location filename="../../src/yuzu/configuration/configure_web.ui" line="142"/>
         <source>Discord Presence</source>
         <translation>Discord-närvaro</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.ui" line="146"/>
+        <location filename="../../src/yuzu/configuration/configure_web.ui" line="148"/>
         <source>Show Current Game in your Discord Status</source>
         <translation>Visa aktuellt spel i din Discord-status</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="65"/>
-        <source>&lt;a href=&apos;https://profile.yuzu-emu.org/&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Sign up&lt;/span&gt;&lt;/a&gt;</source>
-        <translation>&lt;a href=&apos;https://profile.yuzu-emu.org/&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Registrera dig&lt;/span&gt;&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="69"/>
-        <source>&lt;a href=&apos;https://evilperson1337.notion.site/Hosting-a-Room-Inside-of-Eden-20457c2edaf680108abac6215a79acdb&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;What is my token?&lt;/span&gt;&lt;/a&gt;</source>
-        <translation>&lt;a href=&apos;https://evilperson1337.notion.site/Hosting-a-Room-Inside-of-Eden-20457c2edaf680108abac6215a79acdb&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Vad är min token?&lt;/span&gt;&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="117"/>
-        <source>Warning</source>
-        <translation>Varning</translation>
-    </message>
-    <message>
+        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="110"/>
         <location filename="../../src/yuzu/configuration/configure_web.cpp" line="118"/>
-        <source>Verification is currently nonfunctional, instead generate a random 48-character string with only lowercase a-z.</source>
-        <translation>Verifiering är för närvarande inte funktionell, generera istället en slumpmässig sträng med 48 tecken med endast gemener a-z.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="111"/>
-        <source>Unverified, please click Verify before saving configuration</source>
+        <source>All Good</source>
         <comment>Tooltip</comment>
-        <translation>Overifierad, klicka på Verifiera innan du sparar konfigurationen</translation>
+        <translation>Allt är bra</translation>
     </message>
     <message>
-        <source>yuzu Web Service</source>
-        <translation type="vanished">yuzu Webb-Service</translation>
-    </message>
-    <message>
-        <source>By providing your username and token, you agree to allow yuzu to collect additional usage data, which may include user identifying information.</source>
-        <translation type="vanished">Genom att ge användarnamn och nyckel så godkänner du att yuzu tar användarstatistik, vilket kan inkludera identifierande användarinformation.</translation>
-    </message>
-    <message>
-        <source>Telemetry</source>
-        <translation type="vanished">Telemetri</translation>
-    </message>
-    <message>
-        <source>Share anonymous usage data with the yuzu team</source>
-        <translation type="vanished">Skicka anonym användarstatistik till yuzu teamet</translation>
-    </message>
-    <message>
-        <source>Learn more</source>
-        <translation type="vanished">Lär dig mer</translation>
-    </message>
-    <message>
-        <source>Telemetry ID:</source>
-        <translation type="vanished">Telemetri ID:</translation>
-    </message>
-    <message>
-        <source>Regenerate</source>
-        <translation type="vanished">Regenerera</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&apos;https://yuzu-emu.org/help/feature/telemetry/&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Learn more&lt;/span&gt;&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&apos;https://yuzu-emu.org/help/feature/telemetry/&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Lär dig mer&lt;/span&gt;&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&apos;https://yuzu-emu.org/wiki/yuzu-web-service/&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;What is my token?&lt;/span&gt;&lt;/a&gt;</source>
-        <translation type="vanished">&lt;a href=&apos;https://yuzu-emu.org/wiki/yuzu-web-service/&apos;&gt;&lt;span style=&quot;text-decoration: underline; color:#039be5;&quot;&gt;Vad är min pollett? &lt;/span&gt;&lt;/a&gt;</translation>
-    </message>
-    <message>
-        <source>Telemetry ID: 0x%1</source>
-        <translation type="vanished">Telemetri ID: 0x%1</translation>
-    </message>
-    <message>
-        <source>Unspecified</source>
-        <translation type="vanished">Ospecificerat</translation>
-    </message>
-    <message>
-        <source>Token not verified</source>
-        <translation type="vanished">Pollett ej verifierad</translation>
-    </message>
-    <message>
-        <source>Token was not verified. The change to your token has not been saved.</source>
-        <translation type="vanished">Polletten verifierades inte. Ändringen till din pollett har inte sparats.</translation>
-    </message>
-    <message>
-        <source>Verifying...</source>
-        <translation type="vanished">Verifierar...</translation>
-    </message>
-    <message>
-        <source>Verification failed</source>
+        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="113"/>
+        <source>Must be between 4-20 characters</source>
         <comment>Tooltip</comment>
-        <translation type="vanished">Verifiering misslyckad</translation>
+        <translation>Måste bestå av mellan 4 och 20 tecken</translation>
     </message>
     <message>
-        <source>Verification failed</source>
-        <translation type="vanished">Verifiering misslyckad</translation>
-    </message>
-    <message>
-        <source>Verification failed. Check that you have entered your token correctly, and that your internet connection is working.</source>
-        <translation type="vanished">Verifiering misslyckad. Kontrollera att du har skrivit in din pollett korrekt, och att din internetuppkoppling fungerar.</translation>
+        <location filename="../../src/yuzu/configuration/configure_web.cpp" line="122"/>
+        <source>Must be 48 characters, and lowercase a-z</source>
+        <comment>Tooltip</comment>
+        <translation>Måste bestå av 48 tecken och små bokstäver a-z</translation>
     </message>
 </context>
 <context>
     <name>ControllerDialog</name>
     <message>
-        <location filename="../../src/yuzu/debugger/controller.cpp" line="20"/>
+        <location filename="../../src/yuzu/debugger/controller.cpp" line="23"/>
         <source>Controller P1</source>
         <translation>Kontroller P1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/controller.cpp" line="58"/>
+        <location filename="../../src/yuzu/debugger/controller.cpp" line="60"/>
         <source>&amp;Controller P1</source>
         <translation>&amp;Kontroller P1</translation>
+    </message>
+</context>
+<context>
+    <name>DataDialog</name>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.ui" line="26"/>
+        <source>Data Manager</source>
+        <translation>Datahanterare</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.ui" line="48"/>
+        <source>Deleting ANY data is IRREVERSABLE!</source>
+        <translation>Borttagning av VALFRITT data går INTE ATT ÅNGRA!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.cpp" line="31"/>
+        <source>Shaders</source>
+        <translation>Shaders</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.cpp" line="32"/>
+        <source>User NAND</source>
+        <translation>Användar-NAND</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.cpp" line="33"/>
+        <source>System NAND</source>
+        <translation>System-NAND</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.cpp" line="34"/>
+        <source>Mods</source>
+        <translation>Moddar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.cpp" line="35"/>
+        <source>Saves</source>
+        <translation>Sparningar</translation>
+    </message>
+</context>
+<context>
+    <name>DataWidget</name>
+    <message>
+        <location filename="../../src/yuzu/data_widget.ui" line="14"/>
+        <source>Form</source>
+        <translation>Formulär</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_widget.ui" line="22"/>
+        <source>Tooltip</source>
+        <translation>Verktygstips</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_widget.ui" line="70"/>
+        <source>Open with your system file manager</source>
+        <translation>Öppna med din systemfilhanterare</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_widget.ui" line="106"/>
+        <source>Delete all data in this directory. THIS IS 100% IRREVERSABLE!</source>
+        <translation>Ta bort allt data i denna katalog. DETTA GÅR INTE ATT ÅNGRA!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_widget.ui" line="142"/>
+        <source>Export all data in this directory. This may take a while!</source>
+        <translation>Exportera allt data i denna katalog. Detta kan ta en stund!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_widget.ui" line="178"/>
+        <source>Import data for this directory. This may take a while, and will delete ALL EXISTING DATA!</source>
+        <translation>Importera data för denna katalog. Detta kan ta en stund och kommer att ta bort ALLT BEFINTLIGT DATA!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/data_dialog.cpp" line="95"/>
+        <source>Calculating...</source>
+        <translation>Beräknar...</translation>
+    </message>
+</context>
+<context>
+    <name>DepsDialog</name>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.ui" line="14"/>
+        <source>Eden Dependencies</source>
+        <translation>Edens beroenden</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.ui" line="72"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Eden Dependencies&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Edens beroenden&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.ui" line="85"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;The projects that make Eden possible&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Projekten som gör Eden möjligt&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
+        <source>Dependency</source>
+        <translation>Beroende</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/deps_dialog.cpp" line="22"/>
+        <source>Version</source>
+        <translation>Version</translation>
     </message>
 </context>
 <context>
@@ -5522,8 +6063,8 @@ Dra punkterna för att ändra position, eller dubbelklicka på tabellcellerna f�
     </message>
     <message>
         <location filename="../../src/yuzu/multiplayer/message.cpp" line="32"/>
-        <source>Creating a room failed. Please retry. Restarting eden might be necessary.</source>
-        <translation>Skapandet av ett rum misslyckades. Försök igen. Det kan vara nödvändigt att starta om eden.</translation>
+        <source>Creating a room failed. Please retry. Restarting Eden might be necessary.</source>
+        <translation>Det gick inte att skapa ett rum. Försök igen. Det kan vara nödvändigt att starta om Eden.</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/multiplayer/message.cpp" line="34"/>
@@ -5532,8 +6073,8 @@ Dra punkterna för att ändra position, eller dubbelklicka på tabellcellerna f�
     </message>
     <message>
         <location filename="../../src/yuzu/multiplayer/message.cpp" line="37"/>
-        <source>Version mismatch! Please update to the latest version of eden. If the problem persists, contact the room host and ask them to update the server.</source>
-        <translation>Felaktig versionsmatchning! Uppdatera till den senaste versionen av eden. Om problemet kvarstår kan du kontakta rumsvärden och be dem uppdatera servern.</translation>
+        <source>Version mismatch! Please update to the latest version of Eden. If the problem persists, contact the room host and ask them to update the server.</source>
+        <translation>Versionskonflikt! Uppdatera till den senaste versionen av Eden. Om problemet kvarstår, kontakta rummets värd och be dem uppdatera servern.</translation>
     </message>
     <message>
         <location filename="../../src/yuzu/multiplayer/message.cpp" line="39"/>
@@ -5586,1649 +6127,325 @@ Gå till Konfigurera -&gt; System -&gt; Nätverk och gör ett val.</translation>
     </message>
 </context>
 <context>
-    <name>GMainWindow</name>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="486"/>
-        <source>Broken Vulkan Installation Detected</source>
-        <translation>Trasig Vulkan-installation upptäckt</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="512"/>
-        <source>Running a game</source>
-        <extracomment>TRANSLATORS: This string is shown to the user to explain why yuzu needs to prevent the computer from sleeping</extracomment>
-        <translation>Kör ett spel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="924"/>
-        <source>Loading Web Applet...</source>
-        <translation>Läser in webbapplet...</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="974"/>
-        <location filename="../../src/yuzu/main.cpp" line="977"/>
-        <source>Disable Web Applet</source>
-        <translation>Inaktivera webbapplet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="978"/>
-        <source>Disabling the web applet can lead to undefined behavior and should only be used with Super Mario 3D All-Stars. Are you sure you want to disable the web applet?
-(This can be re-enabled in the Debug settings.)</source>
-        <translation>Att inaktivera webbappleten kan leda till odefinierat beteende och bör endast användas med Super Mario 3D All-Stars. Är du säker på att du vill inaktivera webbappleten?
-(Detta kan återaktiveras i felsökningsinställningarna)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1094"/>
-        <source>The amount of shaders currently being built</source>
-        <translation>Mängden shaders som för närvarande byggs</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1096"/>
-        <source>The current selected resolution scaling multiplier.</source>
-        <translation>Den aktuella skalningsmultiplikatorn för vald upplösning.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1099"/>
-        <source>Current emulation speed. Values higher or lower than 100% indicate emulation is running faster or slower than a Switch.</source>
-        <translation>Aktuell emuleringshastighet. Värden som är högre eller lägre än 100% i anger att emuleringen körs snabbare eller långsammare än en Switch.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1102"/>
-        <source>How many frames per second the game is currently displaying. This will vary from game to game and scene to scene.</source>
-        <translation>Hur många bildrutor per sekund spelet visar för närvarande. Detta varierar från spel till spel och från scen till scen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1106"/>
-        <source>Time taken to emulate a Switch frame, not counting framelimiting or v-sync. For full-speed emulation this should be at most 16.67 ms.</source>
-        <translation>Tidsåtgång för att emulera en switchram, utan att räkna med framelimiting eller v-sync. För emulering med full hastighet bör detta vara högst 16,67 ms.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1166"/>
-        <source>Unmute</source>
-        <translation>Aktivera ljud</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1166"/>
-        <source>Mute</source>
-        <translation>Tyst</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1171"/>
-        <source>Reset Volume</source>
-        <translation>Återställ volym</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1367"/>
-        <source>&amp;Clear Recent Files</source>
-        <translation>&amp;Rensa senaste filer</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1718"/>
-        <source>&amp;Continue</source>
-        <translation>&amp;Fortsätt</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1720"/>
-        <source>&amp;Pause</source>
-        <translation>&amp;Paus</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1938"/>
-        <source>Warning Outdated Game Format</source>
-        <translation>Varning föråldrat spelformat</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1951"/>
-        <location filename="../../src/yuzu/main.cpp" line="1983"/>
-        <source>Error while loading ROM!</source>
-        <translation>Fel vid inläsning av ROM!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1952"/>
-        <source>The ROM format is not supported.</source>
-        <translation>ROM-formatet stöds inte.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1956"/>
-        <source>An error occurred initializing the video core.</source>
-        <translation>Ett fel inträffade vid initieringen av videokärnan.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1972"/>
-        <source>Error while loading ROM! %1</source>
-        <comment>%1 signifies a numeric error code.</comment>
-        <translation>Fel vid inläsning av ROM! %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="487"/>
-        <source>Vulkan initialization failed during boot.&lt;br&gt;&lt;br&gt;Click &lt;a href=&apos;https://eden-emulator.github.io/wiki/faq/#yuzu-starts-with-the-error-broken-vulkan-installation-detected&apos;&gt;here for instructions to fix the issue&lt;/a&gt;.</source>
-        <translation>Vulkan-initialiseringen misslyckades under uppstarten.&lt;br&gt;&lt;br&gt;Klicka &lt;a href=&apos;https://eden-emulator.github.io/wiki/faq/#yuzu-starts-with-the-error-broken-vulkan-installation-detected&apos;&gt;här för att få instruktioner om hur du åtgärdar problemet&lt;/a&gt;.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1887"/>
-        <source>Game Updates Warning</source>
-        <translation>Varning för speluppdateringar</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1889"/>
-        <source>The game you are trying to launch is known to have performance or booting issues when updates are applied. Please try increasing the memory layout to 6GB or 8GB if any issues occur.&lt;br&gt;&lt;br&gt;Press &quot;OK&quot; to continue launching, or &quot;Cancel&quot; to cancel the launch.</source>
-        <translation>Det spel du försöker starta är känt för att ha problem med prestanda eller uppstart när uppdateringar tillämpas. Försök att öka minneslayouten till 6 GB eller 8 GB om några problem uppstår.&lt;br&gt;&lt;br&gt;Tryck på &quot;OK&quot; för att fortsätta starta eller &quot;Avbryt&quot; för att avbryta starten.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1899"/>
-        <source>Don&apos;t show again for this game</source>
-        <translation>Visa inte igen för detta spel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1939"/>
-        <source>You are using the deconstructed ROM directory format for this game, which is an outdated format that has been superseded by others such as NCA, NAX, XCI, or NSP. Deconstructed ROM directories lack icons, metadata, and update support.&lt;br&gt;&lt;br&gt;For an explanation of the various Switch formats eden supports, &lt;a href=&apos;https://eden-emulator.github.io/wiki/overview-of-switch-game-formats&apos;&gt;check out our wiki&lt;/a&gt;. This message will not be shown again.</source>
-        <translation>Du använder det dekonstruerade ROM-katalogformatet för det här spelet, vilket är ett föråldrat format som har ersatts av andra som NCA, NAX, XCI eller NSP. Dekonstruerade ROM-kataloger saknar ikoner, metadata och uppdateringsstöd.&lt;br&gt;&lt;br&gt;För en förklaring av de olika Switch-formaten som eden stöder, &lt;a href=&apos;https://eden-emulator.github.io/wiki/overview-of-switch-game-formats&apos;&gt;kolla in vår wiki&lt;/a&gt;. Detta meddelande kommer inte att visas igen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1957"/>
-        <source>eden has encountered an error while running the video core. This is usually caused by outdated GPU drivers, including integrated ones. Please see the log for more details. For more information on accessing the log, please see the following page: &lt;a href=&apos;https://eden-emulator.github.io/help/reference/log-files/&apos;&gt;How to Upload the Log File&lt;/a&gt;. </source>
-        <translation>eden har stött på ett fel när videokärnan kördes. Detta orsakas vanligtvis av föråldrade GPU-drivrutiner, inklusive integrerade sådana. Se loggen för mer information. För mer information om hur du kommer åt loggen, se följande sida: &lt;a href=&apos;https://eden-emulator.github.io/help/reference/log-files/&apos;&gt;Hur man laddar upp loggfilen&lt;/a&gt;. </translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1975"/>
-        <source>%1&lt;br&gt;Please redump your files or ask on Discord for help.</source>
-        <comment>%1 signifies an error string.</comment>
-        <translation>%1&lt;br&gt;Återskapa dina filer eller be om hjälp på Discord.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="1984"/>
-        <source>An unknown error occurred. Please see the log for more details.</source>
-        <translation>Ett okänt fel har inträffat. Se loggen för mer information.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2174"/>
-        <source>(64-bit)</source>
-        <translation>(64-bitars)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2174"/>
-        <source>(32-bit)</source>
-        <translation>(32-bitars)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2175"/>
-        <source>%1 %2</source>
-        <comment>%1 is the title name. %2 indicates if the title is 64-bit or 32-bit</comment>
-        <translation>%1 %2</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2245"/>
-        <source>Closing software...</source>
-        <translation>Stänger programvara...</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2413"/>
-        <source>Save Data</source>
-        <translation>Spara data</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2469"/>
-        <source>Mod Data</source>
-        <translation>Moddata</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2482"/>
-        <source>Error Opening %1 Folder</source>
-        <translation>Fel vid öppning av %1-mappen</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2483"/>
-        <location filename="../../src/yuzu/main.cpp" line="3159"/>
-        <source>Folder does not exist!</source>
-        <translation>Mappen finns inte!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2495"/>
-        <source>Error Opening Transferable Shader Cache</source>
-        <translation>Fel vid öppning av överförbar shader-cache</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2496"/>
-        <source>Failed to create the shader cache directory for this title.</source>
-        <translation>Misslyckades med att skapa katalog för shader-cache för den här titeln.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2569"/>
-        <source>Error Removing Contents</source>
-        <translation>Fel vid borttagning av innehåll</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2571"/>
-        <source>Error Removing Update</source>
-        <translation>Fel vid borttagning av uppdatering</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2573"/>
-        <source>Error Removing DLC</source>
-        <translation>Fel vid borttagning av DLC</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2582"/>
-        <source>Remove Installed Game Contents?</source>
-        <translation>Ta bort installerat spelinnehåll?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2584"/>
-        <source>Remove Installed Game Update?</source>
-        <translation>Ta bort installerad speluppdatering?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2586"/>
-        <source>Remove Installed Game DLC?</source>
-        <translation>Ta bort installerade DLC för spel?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2592"/>
-        <source>Remove Entry</source>
-        <translation>Ta bort post</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2620"/>
-        <location filename="../../src/yuzu/main.cpp" line="2632"/>
-        <location filename="../../src/yuzu/main.cpp" line="2648"/>
-        <location filename="../../src/yuzu/main.cpp" line="2727"/>
-        <location filename="../../src/yuzu/main.cpp" line="2761"/>
-        <location filename="../../src/yuzu/main.cpp" line="2784"/>
-        <source>Successfully Removed</source>
-        <translation>Tog bort</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2621"/>
-        <source>Successfully removed the installed base game.</source>
-        <translation>Tog bort det installerade basspelet.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2625"/>
-        <source>The base game is not installed in the NAND and cannot be removed.</source>
-        <translation>Basspelet är inte installerat i NAND och kan inte tas bort.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2633"/>
-        <source>Successfully removed the installed update.</source>
-        <translation>Den installerade uppdateringen har tagits bort.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2636"/>
-        <source>There is no update installed for this title.</source>
-        <translation>Det finns ingen uppdatering installerad för denna titel.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2644"/>
-        <source>There are no DLC installed for this title.</source>
-        <translation>Det finns inga DLC installerade för denna titel.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2649"/>
-        <source>Successfully removed %1 installed DLC.</source>
-        <translation>Tog bort %1 installerade DLC.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2657"/>
-        <source>Delete OpenGL Transferable Shader Cache?</source>
-        <translation>Ta bort OpenGL överförbar shader-cache?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2659"/>
-        <source>Delete Vulkan Transferable Shader Cache?</source>
-        <translation>Ta bort Vulkan överförbar shader-cache?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2661"/>
-        <source>Delete All Transferable Shader Caches?</source>
-        <translation>Ta bort alla överförbara shader-cachar?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2663"/>
-        <source>Remove Custom Game Configuration?</source>
-        <translation>Ta bort anpassad spelkonfiguration?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2665"/>
-        <source>Remove Cache Storage?</source>
-        <translation>Ta bort cache-lagring?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2671"/>
-        <source>Remove File</source>
-        <translation>Ta bort fil</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2696"/>
-        <source>Remove Play Time Data</source>
-        <translation>Ta bort data om speltid</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2696"/>
-        <source>Reset play time?</source>
-        <translation>Återställ speltid?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2722"/>
-        <location filename="../../src/yuzu/main.cpp" line="2730"/>
-        <source>Error Removing Transferable Shader Cache</source>
-        <translation>Fel vid borttagning av överförbar shader-cache</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2723"/>
-        <location filename="../../src/yuzu/main.cpp" line="2757"/>
-        <source>A shader cache for this title does not exist.</source>
-        <translation>Det finns ingen shader-cache för den här titeln.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2728"/>
-        <source>Successfully removed the transferable shader cache.</source>
-        <translation>Tog bort den överförbara shader-cachen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2731"/>
-        <source>Failed to remove the transferable shader cache.</source>
-        <translation>Misslyckades med att ta bort den överförbara shader-cachen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2746"/>
-        <source>Error Removing Vulkan Driver Pipeline Cache</source>
-        <translation>Fel vid borttagning av Vulkan Driver Pipeline Cache</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2747"/>
-        <source>Failed to remove the driver pipeline cache.</source>
-        <translation>Misslyckades med att ta bort drivrutinens pipeline-cache.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2756"/>
-        <location filename="../../src/yuzu/main.cpp" line="2764"/>
-        <source>Error Removing Transferable Shader Caches</source>
-        <translation>Fel vid borttagning av överförbara shader-cacher</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2762"/>
-        <source>Successfully removed the transferable shader caches.</source>
-        <translation>Tog bort de överförbara shader-cacherna.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2765"/>
-        <source>Failed to remove the transferable shader cache directory.</source>
-        <translation>Misslyckades med att ta bort den överförbara shader-cachekatalogen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2778"/>
-        <location filename="../../src/yuzu/main.cpp" line="2787"/>
-        <source>Error Removing Custom Configuration</source>
-        <translation>Fel vid borttagning av anpassad konfiguration</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2779"/>
-        <source>A custom configuration for this title does not exist.</source>
-        <translation>Det finns ingen anpassad konfiguration för den här titeln.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2785"/>
-        <source>Successfully removed the custom game configuration.</source>
-        <translation>Tog bort den anpassade spelkonfigurationen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2788"/>
-        <source>Failed to remove the custom game configuration.</source>
-        <translation>Misslyckades med att ta bort den anpassade spelkonfigurationen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2810"/>
-        <location filename="../../src/yuzu/main.cpp" line="2894"/>
-        <source>RomFS Extraction Failed!</source>
-        <translation>RomFS-extrahering misslyckades!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2811"/>
-        <source>There was an error copying the RomFS files or the user cancelled the operation.</source>
-        <translation>Det uppstod ett fel vid kopiering av RomFS-filerna eller så avbröt användaren åtgärden.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2869"/>
-        <source>Full</source>
-        <translation>Full</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2869"/>
-        <source>Skeleton</source>
-        <translation>Skelett</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2871"/>
-        <source>Select RomFS Dump Mode</source>
-        <translation>Välj RomFS-dumpningsläge</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2872"/>
-        <source>Please select the how you would like the RomFS dumped.&lt;br&gt;Full will copy all of the files into the new directory while &lt;br&gt;skeleton will only create the directory structure.</source>
-        <translation>Välj hur du vill att RomFS ska dumpas.&lt;br&gt;Full kommer att kopiera alla filer till den nya katalogen medan &lt;br&gt;skeleton endast skapar katalogstrukturen.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2895"/>
-        <source>There is not enough free space at %1 to extract the RomFS. Please free up space or select a different dump directory at Emulation &gt; Configure &gt; System &gt; Filesystem &gt; Dump Root</source>
-        <translation>Det finns inte tillräckligt med ledigt utrymme på %1 för att extrahera RomFS. Frigör utrymme eller välj en annan dumpningskatalog under Emulering &gt; Konfigurera &gt; System &gt; Filsystem &gt; Dumpningsrot</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2902"/>
-        <source>Extracting RomFS...</source>
-        <translation>Extrahering av RomFS...</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2902"/>
-        <location filename="../../src/yuzu/main.cpp" line="2928"/>
-        <location filename="../../src/yuzu/main.cpp" line="3298"/>
-        <location filename="../../src/yuzu/main.cpp" line="4164"/>
-        <location filename="../../src/yuzu/main.cpp" line="4212"/>
-        <source>Cancel</source>
-        <translation>Avbryt</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2912"/>
-        <source>RomFS Extraction Succeeded!</source>
-        <translation>RomFS-extrahering lyckades!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2913"/>
-        <location filename="../../src/yuzu/main.cpp" line="2944"/>
-        <location filename="../../src/yuzu/main.cpp" line="4182"/>
-        <source>The operation completed successfully.</source>
-        <translation>Operationen slutfördes.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2924"/>
-        <source>Integrity verification couldn&apos;t be performed!</source>
-        <translation>Integritetsverifiering kunde inte utföras!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2925"/>
-        <source>File contents were not checked for validity.</source>
-        <translation>Filinnehållet kontrollerades inte för giltighet.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2928"/>
-        <location filename="../../src/yuzu/main.cpp" line="4164"/>
-        <source>Verifying integrity...</source>
-        <translation>Verifiering av integritet...</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2943"/>
-        <location filename="../../src/yuzu/main.cpp" line="4181"/>
-        <source>Integrity verification succeeded!</source>
-        <translation>Integritetsverifieringen lyckades!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2947"/>
-        <location filename="../../src/yuzu/main.cpp" line="4187"/>
-        <source>Integrity verification failed!</source>
-        <translation>Integritetsverifiering misslyckades!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="2948"/>
-        <source>File contents may be corrupt.</source>
-        <translation>Filinnehållet kan vara skadat.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3082"/>
-        <location filename="../../src/yuzu/main.cpp" line="3086"/>
-        <location filename="../../src/yuzu/main.cpp" line="3092"/>
-        <location filename="../../src/yuzu/main.cpp" line="3099"/>
-        <source>Create Shortcut</source>
-        <translation>Skapa genväg</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3083"/>
-        <source>Do you want to launch the game in fullscreen?</source>
-        <translation>Vill du starta spelet i helskärm?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3087"/>
-        <source>Successfully created a shortcut to %1</source>
-        <translation>Skapade en genväg till %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3093"/>
-        <source>This will create a shortcut to the current AppImage. This may not work well if you update. Continue?</source>
-        <translation>Detta kommer att skapa en genväg till den aktuella AppImage. Detta kanske inte fungerar så bra om du uppdaterar. Fortsätta?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3100"/>
-        <source>Failed to create a shortcut to %1</source>
-        <translation>Misslyckades med att skapa en genväg till %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3118"/>
-        <source>Create Icon</source>
-        <translation>Skapa ikon</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3119"/>
-        <source>Cannot create icon file. Path &quot;%1&quot; does not exist and cannot be created.</source>
-        <translation>Det går inte att skapa en ikonfil. Sökvägen &quot;%1&quot; finns inte och kan inte skapas.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3158"/>
-        <source>Error Opening %1</source>
-        <translation>Fel vid öppning av %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3167"/>
-        <source>Select Directory</source>
-        <translation>Välj katalog</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3196"/>
-        <source>Properties</source>
-        <translation>Egenskaper</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3197"/>
-        <source>The game properties could not be loaded.</source>
-        <translation>Spelegenskaperna kunde inte läsas in.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3214"/>
-        <source>Switch Executable (%1);;All Files (*.*)</source>
-        <comment>%1 is an identifier for the Switch executable file extensions.</comment>
-        <translation>Körbar Switch-fil (%1);;Alla filer (*.*)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3218"/>
-        <source>Load File</source>
-        <translation>Läs in fil</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3231"/>
-        <source>Open Extracted ROM Directory</source>
-        <translation>Öppna extraherad ROM-katalog</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3242"/>
-        <source>Invalid Directory Selected</source>
-        <translation>Ogiltig katalog vald</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3243"/>
-        <source>The directory you have selected does not contain a &apos;main&apos; file.</source>
-        <translation>Den katalog du har valt innehåller inte någon &quot;main&quot;-fil.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3253"/>
-        <source>Installable Switch File (*.nca *.nsp *.xci);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp);;NX Cartridge Image (*.xci)</source>
-        <translation>Installerbar Switch-fil (*.nca *.nsp *.xci);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp);;NX Cartridge Image (*.xci)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3258"/>
-        <source>Install Files</source>
-        <translation>Installera filer</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../../src/yuzu/main.cpp" line="3305"/>
-        <source>%n file(s) remaining</source>
-        <translation>
-            <numerusform>%n fil(er) kvarstår</numerusform>
-            <numerusform>%n fil(er) kvarstår</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3307"/>
-        <source>Installing file &quot;%1&quot;...</source>
-        <translation>Installerar filen &quot;%1&quot; ...</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3361"/>
-        <location filename="../../src/yuzu/main.cpp" line="3375"/>
-        <source>Install Results</source>
-        <translation>Installera resultat</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3362"/>
-        <source>To avoid possible conflicts, we discourage users from installing base games to the NAND.
-Please, only use this feature to install updates and DLC.</source>
-        <translation>För att undvika eventuella konflikter avråder vi användare från att installera grundspel på NAND.
-Använd endast den här funktionen för att installera uppdateringar och DLC.</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../../src/yuzu/main.cpp" line="3368"/>
-        <source>%n file(s) were newly installed
-</source>
-        <translation>
-            <numerusform>%n fil(er) var nyligen installerad(e)
-</numerusform>
-            <numerusform>%n fil(er) var nyligen installerad(e)
-</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../../src/yuzu/main.cpp" line="3371"/>
-        <source>%n file(s) were overwritten
-</source>
-        <translation>
-            <numerusform>%n fil(er) har skrivits över
-</numerusform>
-            <numerusform>%n fil(er) har skrivits över
-</numerusform>
-        </translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../../src/yuzu/main.cpp" line="3373"/>
-        <source>%n file(s) failed to install
-</source>
-        <translation>
-            <numerusform>%n fil(er) kunde inte installeras
-</numerusform>
-            <numerusform>%n fil(er) kunde inte installeras
-</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3383"/>
-        <source>System Application</source>
-        <translation>Systemapplikation</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3384"/>
-        <source>System Archive</source>
-        <translation>Systemarkiv</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3385"/>
-        <source>System Application Update</source>
-        <translation>Uppdatering av systemapplikation</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3386"/>
-        <source>Firmware Package (Type A)</source>
-        <translation>Firmware-paket (typ A)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3387"/>
-        <source>Firmware Package (Type B)</source>
-        <translation>Firmware-paket (typ B)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3388"/>
-        <source>Game</source>
-        <translation>Spel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3389"/>
-        <source>Game Update</source>
-        <translation>Speluppdatering</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3390"/>
-        <source>Game DLC</source>
-        <translation>Spel DLC</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3391"/>
-        <source>Delta Title</source>
-        <translation>Deltatitel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3394"/>
-        <source>Select NCA Install Type...</source>
-        <translation>Välj typ av NCA-installation...</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3395"/>
-        <source>Please select the type of title you would like to install this NCA as:
-(In most instances, the default &apos;Game&apos; is fine.)</source>
-        <translation>Välj vilken typ av titel du vill installera denna NCA som:
-(I de flesta fall räcker det med standardinställningen &quot;Game&quot;.)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3401"/>
-        <source>Failed to Install</source>
-        <translation>Misslyckades med installationen</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3402"/>
-        <source>The title type you selected for the NCA is invalid.</source>
-        <translation>Den titeltyp som du valde för NCA är ogiltig.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3437"/>
-        <source>File not found</source>
-        <translation>Filen hittades inte</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3438"/>
-        <source>File &quot;%1&quot; not found</source>
-        <translation>Filen &quot;%1&quot; hittades inte</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3557"/>
-        <source>OK</source>
-        <translation>OK</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3583"/>
-        <location filename="../../src/yuzu/main.cpp" line="3600"/>
-        <source>Hardware requirements not met</source>
-        <translation>Hårdvarukraven är inte uppfyllda</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3584"/>
-        <location filename="../../src/yuzu/main.cpp" line="3601"/>
-        <source>Your system does not meet the recommended hardware requirements. Compatibility reporting has been disabled.</source>
-        <translation>Ditt system uppfyller inte de rekommenderade hårdvarukraven. Kompatibilitetsrapportering har inaktiverats.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3593"/>
-        <source>Missing yuzu Account</source>
-        <translation>Saknar yuzu-konto</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3594"/>
-        <source>In order to submit a game compatibility test case, you must link your eden account.&lt;br&gt;&lt;br/&gt;To link your eden account, go to Emulation &amp;gt; Configuration &amp;gt; Web.</source>
-        <translation>För att kunna skicka in ett testfall för spelkompatibilitet måste du koppla ditt eden-konto.&lt;br&gt;&lt;br/&gt;För att koppla ditt eden-konto går du till Emulation &amp;gt; Configuration &amp;gt; Web.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4202"/>
-        <source>Install decryption keys and restart eden before attempting to install firmware.</source>
-        <translation>Installera avkrypteringsnycklar och starta om eden innan du försöker installera firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4291"/>
-        <source>Firmware installation cancelled, firmware may be in bad state, restart eden or re-install firmware.</source>
-        <translation>Installation av firmware avbröts, firmware kan vara i dåligt skick, starta om eden eller installera om firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5062"/>
-        <source>Encryption keys are missing.</source>
-        <translation>Krypteringsnycklar saknas.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5175"/>
-        <source>Are you sure you want to close eden?</source>
-        <translation>Är du säker på att du vill stänga Eden?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5176"/>
-        <location filename="../../src/yuzu/main.cpp" line="5256"/>
-        <location filename="../../src/yuzu/main.cpp" line="5268"/>
-        <source>eden</source>
-        <translation>eden</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5265"/>
-        <source>The currently running application has requested eden to not exit.
-
-Would you like to bypass this and exit anyway?</source>
-        <translation>Den nu körande applikationen har begärt att eden inte ska avslutas.
-
-Skulle du vilja kringgå detta och avsluta ändå?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3609"/>
-        <source>Error opening URL</source>
-        <translation>Fel vid öppning av URL</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3610"/>
-        <source>Unable to open the URL &quot;%1&quot;.</source>
-        <translation>Det går inte att öppna URL:en &quot;%1&quot;.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3923"/>
-        <source>TAS Recording</source>
-        <translation>TAS-inspelning</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3923"/>
-        <source>Overwrite file of player 1?</source>
-        <translation>Skriva över filen för spelare 1?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3942"/>
-        <source>Invalid config detected</source>
-        <translation>Ogiltig konfiguration upptäckt</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="3943"/>
-        <source>Handheld controller can&apos;t be used on docked mode. Pro controller will be selected.</source>
-        <translation>Handkontrollen kan inte användas i dockat läge. Pro-kontroller kommer att väljas.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4085"/>
-        <location filename="../../src/yuzu/main.cpp" line="4135"/>
-        <source>Amiibo</source>
-        <translation>Amiibo</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4085"/>
-        <location filename="../../src/yuzu/main.cpp" line="4135"/>
-        <source>The current amiibo has been removed</source>
-        <translation>Den nuvarande amiibo har tagits bort</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4090"/>
-        <source>Error</source>
-        <translation>Fel</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4090"/>
-        <location filename="../../src/yuzu/main.cpp" line="4147"/>
-        <source>The current game is not looking for amiibos</source>
-        <translation>Det nuvarande spelet letar inte efter amiibos</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4096"/>
-        <source>Amiibo File (%1);; All Files (*.*)</source>
-        <translation>Amiibo-fil (%1);; Alla filer (*.*)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4097"/>
-        <source>Load Amiibo</source>
-        <translation>Läs in Amiibo</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4131"/>
-        <source>Error loading Amiibo data</source>
-        <translation>Fel vid inläsning av Amiibo-data</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4141"/>
-        <source>The selected file is not a valid amiibo</source>
-        <translation>Den valda filen är inte en giltig amiibo</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4144"/>
-        <source>The selected file is already on use</source>
-        <translation>Den valda filen är redan i bruk</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4150"/>
-        <source>An unknown error occurred</source>
-        <translation>Ett okänt fel uppstod</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4188"/>
-        <location filename="../../src/yuzu/main.cpp" line="4321"/>
-        <source>Verification failed for the following files:
-
-%1</source>
-        <translation>Verifieringen misslyckades för följande filer:
-
-%1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4201"/>
-        <source>Keys not installed</source>
-        <translation>Nycklarna är inte installerade</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4207"/>
-        <source>Select Dumped Firmware Source Location</source>
-        <translation>Välj plats för källan till dumpad firmware</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4212"/>
-        <source>Installing Firmware...</source>
-        <translation>Installerar fast programvara...</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4250"/>
-        <location filename="../../src/yuzu/main.cpp" line="4259"/>
-        <location filename="../../src/yuzu/main.cpp" line="4290"/>
-        <location filename="../../src/yuzu/main.cpp" line="4299"/>
-        <source>Firmware install failed</source>
-        <translation>Installationen av fast programvara misslyckades</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4251"/>
-        <source>Unable to locate potential firmware NCA files</source>
-        <translation>Det går inte att hitta potentiella firmware NCA-filer</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4260"/>
-        <source>Failed to delete one or more firmware file.</source>
-        <translation>Misslyckades med att ta bort en eller flera firmware-filer.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4300"/>
-        <source>One or more firmware files failed to copy into NAND.</source>
-        <translation>En eller flera firmware-filer kunde inte kopieras till NAND.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4320"/>
-        <source>Firmware integrity verification failed!</source>
-        <translation>Verifiering av firmwareintegritet misslyckades!</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4336"/>
-        <source>Select Dumped Keys Location</source>
-        <translation>Välj plats för dumpade nycklar</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4369"/>
-        <location filename="../../src/yuzu/main.cpp" line="4381"/>
-        <location filename="../../src/yuzu/main.cpp" line="4399"/>
-        <source>Decryption Keys install failed</source>
-        <translation>Installationen av avkrypteringsnycklar misslyckades</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4370"/>
-        <source>prod.keys is a required decryption key file.</source>
-        <translation>prod.keys är en obligatorisk nyckelfil för avkryptering.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4382"/>
-        <source>One or more keys failed to copy.</source>
-        <translation>En eller flera nycklar kunde inte kopieras.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4395"/>
-        <source>Decryption Keys install succeeded</source>
-        <translation>Installationen av avkrypteringsnycklar lyckades</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4396"/>
-        <source>Decryption Keys were successfully installed</source>
-        <translation>Avkrypteringsnycklarna installerades</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4400"/>
-        <source>Decryption Keys failed to initialize. Check that your dumping tools are up to date and re-dump keys.</source>
-        <translation>Initialisering av avkrypteringsnycklar misslyckades. Kontrollera att dina dumpningsverktyg är uppdaterade och dumpa nycklarna på nytt.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4435"/>
-        <location filename="../../src/yuzu/main.cpp" line="4458"/>
-        <location filename="../../src/yuzu/main.cpp" line="4482"/>
-        <location filename="../../src/yuzu/main.cpp" line="4505"/>
-        <location filename="../../src/yuzu/main.cpp" line="4530"/>
-        <location filename="../../src/yuzu/main.cpp" line="4554"/>
-        <location filename="../../src/yuzu/main.cpp" line="4713"/>
-        <source>No firmware available</source>
-        <translation>Ingen firmware tillgänglig</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4436"/>
-        <source>Please install the firmware to use the Album applet.</source>
-        <translation>Installera den fasta programvaran för att använda Album-appleten.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4442"/>
-        <source>Album Applet</source>
-        <translation>Album-applet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4443"/>
-        <source>Album applet is not available. Please reinstall firmware.</source>
-        <translation>Album-appleten är inte tillgänglig. Installera om firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4459"/>
-        <source>Please install the firmware to use the Cabinet applet.</source>
-        <translation>Installera den fasta programvaran för att använda Cabinet-appleten.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4465"/>
-        <source>Cabinet Applet</source>
-        <translation>Cabinet-applet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4466"/>
-        <source>Cabinet applet is not available. Please reinstall firmware.</source>
-        <translation>Cabinet-appleten är inte tillgänglig. Installera om firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4483"/>
-        <source>Please install the firmware to use the Mii editor.</source>
-        <translation>Installera den fasta programvaran för att använda Mii-redigeraren.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4489"/>
-        <source>Mii Edit Applet</source>
-        <translation>Mii-redieringsapplet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4490"/>
-        <source>Mii editor is not available. Please reinstall firmware.</source>
-        <translation>Mii-redigeraren är inte tillgänglig. Installera om firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4506"/>
-        <source>Please install the firmware to use the Controller Menu.</source>
-        <translation>Installera den fasta programvaran för att kunna använda Controller Menu.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4513"/>
-        <source>Controller Applet</source>
-        <translation>Applet för kontroller</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4514"/>
-        <source>Controller Menu is not available. Please reinstall firmware.</source>
-        <translation>Kontrollermenyn är inte tillgänglig. Installera om firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4531"/>
-        <source>Please install the firmware to use the Home Menu.</source>
-        <translation>Installera den fasta programvaran för att använda hemmenyn.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4537"/>
-        <location filename="../../src/yuzu/main.cpp" line="4720"/>
-        <source>Home Menu Applet</source>
-        <translation>Applet för startmeny</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4538"/>
-        <location filename="../../src/yuzu/main.cpp" line="4721"/>
-        <source>Home Menu is not available. Please reinstall firmware.</source>
-        <translation>Hemmenyn är inte tillgänglig. Installera om firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4555"/>
-        <source>Please install the firmware to use Starter.</source>
-        <translation>Installera den fasta programvaran för att använda Starter.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4561"/>
-        <source>Starter Applet</source>
-        <translation>Startapplet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4562"/>
-        <source>Starter is not available. Please reinstall firmware.</source>
-        <translation>Starter är inte tillgänglig. Installera om firmware.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4714"/>
-        <source>Please install firmware to use the home menu.</source>
-        <translation>Installera firmware för att använda hemmenyn.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4753"/>
-        <source>Capture Screenshot</source>
-        <translation>Ta skärmbild</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4754"/>
-        <source>PNG Image (*.png)</source>
-        <translation>PNG-bild (*.png)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4798"/>
-        <source>Update Available</source>
-        <translation>Uppdatering tillgänglig</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4802"/>
-        <source>Update %1 for Eden is available.
-Would you like to download it?</source>
-        <translation>Uppdatering %1 för Eden är tillgänglig.
-Vill du hämta ner den?</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4864"/>
-        <source>TAS state: Running %1/%2</source>
-        <translation>TAS-tillstånd: Kör %1/%2</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4868"/>
-        <source>TAS state: Recording %1</source>
-        <translation>TAS-tillstånd: Inspelning %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4870"/>
-        <source>TAS state: Idle %1/%2</source>
-        <translation>TAS-tillstånd: Inaktiv %1/%2</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4874"/>
-        <source>TAS State: Invalid</source>
-        <translation>TAS-tillstånd: Ogiltig</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4888"/>
-        <source>&amp;Stop Running</source>
-        <translation>&amp;Stoppa körning</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4888"/>
-        <source>&amp;Start</source>
-        <translation>&amp;Starta</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4889"/>
-        <source>Stop R&amp;ecording</source>
-        <translation>Stoppa R&amp;R-inspelning</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4889"/>
-        <source>R&amp;ecord</source>
-        <translation>Spela i&amp;n</translation>
-    </message>
-    <message numerus="yes">
-        <location filename="../../src/yuzu/main.cpp" line="4913"/>
-        <source>Building: %n shader(s)</source>
-        <translation>
-            <numerusform>Bygger: %n shader</numerusform>
-            <numerusform>Bygger: %n shaders</numerusform>
-        </translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4922"/>
-        <source>Scale: %1x</source>
-        <comment>%1 is the resolution scaling factor</comment>
-        <translation>Skala: %1x</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4925"/>
-        <source>Speed: %1% / %2%</source>
-        <translation>Hastighet: %1% / %2%</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4929"/>
-        <source>Speed: %1%</source>
-        <translation>Hastighet: %1%</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4933"/>
-        <source>Game: %1 FPS</source>
-        <translation>Spel: %1 bilder/s</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4935"/>
-        <source>Frame: %1 ms</source>
-        <translation>Bildruta: %1 ms</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4965"/>
-        <source>%1 %2</source>
-        <translation>%1 %2</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="48"/>
-        <location filename="../../src/yuzu/main.cpp" line="4975"/>
-        <source>FSR</source>
-        <translation>FSR</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4983"/>
-        <source>NO AA</source>
-        <translation>NO AA</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4992"/>
-        <source>VOLUME: MUTE</source>
-        <translation>VOLYM: TYST</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="4995"/>
-        <source>VOLUME: %1%</source>
-        <comment>Volume percentage (e.g. 50%)</comment>
-        <translation>VOLYM: %1%</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5061"/>
-        <source>Derivation Components Missing</source>
-        <translation>Avledningskomponenter saknas</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5151"/>
-        <source>Select RomFS Dump Target</source>
-        <translation>Välj mål för RomFS-dump</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5152"/>
-        <source>Please select which RomFS you would like to dump.</source>
-        <translation>Välj vilken RomFS du vill dumpa.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.cpp" line="5257"/>
-        <source>Are you sure you want to stop the emulation? Any unsaved progress will be lost.</source>
-        <translation>Är du säker på att du vill stoppa emuleringen? Alla osparade framsteg kommer att gå förlorade.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="33"/>
-        <source>None</source>
-        <translation>Ingen</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="34"/>
-        <source>FXAA</source>
-        <translation>FXAA</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="35"/>
-        <source>SMAA</source>
-        <translation>SMAA</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="40"/>
-        <source>Nearest</source>
-        <translation>Närmaste</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="42"/>
-        <source>Bilinear</source>
-        <translation>Bilinjär</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="43"/>
-        <source>Bicubic</source>
-        <translation>Bikubisk</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="45"/>
-        <source>Gaussian</source>
-        <translation>Gaussisk</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="47"/>
-        <source>ScaleForce</source>
-        <translation>ScaleForce</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="49"/>
-        <source>Area</source>
-        <translation>Område</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="53"/>
-        <source>Docked</source>
-        <translation>Dockad</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="54"/>
-        <source>Handheld</source>
-        <translation>Handhållen</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="58"/>
-        <source>Normal</source>
-        <translation>Normal</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="59"/>
-        <source>High</source>
-        <translation>Hög</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="60"/>
-        <source>Extreme</source>
-        <translation>Extrem</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="64"/>
-        <source>Vulkan</source>
-        <translation>Vulkan</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="65"/>
-        <source>OpenGL</source>
-        <translation>OpenGL</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="66"/>
-        <source>Null</source>
-        <translation>Null</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="70"/>
-        <source>GLSL</source>
-        <translation>GLSL</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="71"/>
-        <source>GLASM</source>
-        <translation>GLASM</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/configuration/shared_translation.h" line="72"/>
-        <source>SPIRV</source>
-        <translation>SPIRV</translation>
-    </message>
-    <message>
-        <source>&lt;a href=&apos;https://yuzu-emu.org/help/feature/telemetry/&apos;&gt;Anonymous data is collected&lt;/a&gt; to help improve yuzu. &lt;br/&gt;&lt;br/&gt;Would you like to share your usage data with us?</source>
-        <translation type="vanished">&lt;a href=&apos;https://yuzu-emu.org/help/feature/telemetry/&apos;&gt;Anonym data skickas &lt;/a&gt;För att förbättra yuzu. &lt;br/&gt;&lt;br/&gt;Vill du dela med dig av din användarstatistik med oss?</translation>
-    </message>
-    <message>
-        <source>Telemetry</source>
-        <translation type="vanished">Telemetri</translation>
-    </message>
-    <message>
-        <source>You are using the deconstructed ROM directory format for this game, which is an outdated format that has been superseded by others such as NCA, NAX, XCI, or NSP. Deconstructed ROM directories lack icons, metadata, and update support.&lt;br&gt;&lt;br&gt;For an explanation of the various Switch formats yuzu supports, &lt;a href=&apos;https://yuzu-emu.org/wiki/overview-of-switch-game-formats&apos;&gt;check out our wiki&lt;/a&gt;. This message will not be shown again.</source>
-        <translation type="vanished">Du använder det dekonstruerade ROM-formatet för det här spelet. Det är ett föråldrat format som har överträffats av andra som NCA, NAX, XCI eller NSP. Dekonstruerade ROM-kataloger saknar ikoner, metadata och uppdatering.&lt;br&gt;&lt;br&gt;För en förklaring av de olika format som yuzu stöder, &lt;a href=&apos;https://yuzu-emu.org/wiki/overview-of-switch-game-formats&apos;&gt;kolla in vår wiki&lt;/a&gt;. Det här meddelandet visas inte igen.</translation>
-    </message>
-    <message>
-        <source>In order to submit a game compatibility test case, you must link your yuzu account.&lt;br&gt;&lt;br/&gt;To link your yuzu account, go to Emulation &amp;gt; Configuration &amp;gt; Web.</source>
-        <translation type="vanished">För att skicka ett spelkompatibilitetstest, du måste länka ditt yuzu-konto.&lt;br&gt;&lt;br/&gt;För att länka ditt yuzu-konto, gå till Emulering &amp;gt, Konfigurering &amp;gt, Web.</translation>
-    </message>
-    <message>
-        <source>Are you sure you want to close yuzu?</source>
-        <translation type="vanished">Är du säker på att du vill stänga yuzu?</translation>
-    </message>
-    <message>
-        <source>yuzu</source>
-        <translation type="vanished">yuzu</translation>
-    </message>
-    <message>
-        <source>The currently running application has requested yuzu to not exit.
-
-Would you like to bypass this and exit anyway?</source>
-        <translation type="vanished">Applikationen som nu körs har begärt att yuzu inte avslutas.
-
-Vill du strunta i detta och avsluta ändå?</translation>
-    </message>
-</context>
-<context>
     <name>GRenderWindow</name>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1019"/>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1036"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="850"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="867"/>
         <source>OpenGL not available!</source>
         <translation>OpenGL är inte tillgängligt!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1020"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="851"/>
         <source>OpenGL shared contexts are not supported.</source>
         <translation>Delade OpenGL-kontexter stöds inte.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1037"/>
-        <source>eden has not been compiled with OpenGL support.</source>
-        <translation>eden har inte kompilerats med OpenGL-stöd.</translation>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="868"/>
+        <source>Eden has not been compiled with OpenGL support.</source>
+        <translation>Eden har inte kompilerats med OpenGL-stöd.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1061"/>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1081"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="892"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="910"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="920"/>
         <source>Error while initializing OpenGL!</source>
         <translation>Fel vid initiering av OpenGL!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1062"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="893"/>
         <source>Your GPU may not support OpenGL, or you do not have the latest graphics driver.</source>
         <translation>Din GPU kanske inte stöder OpenGL, eller så har du inte den senaste grafikdrivrutinen.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1071"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="902"/>
         <source>Error while initializing OpenGL 4.6!</source>
         <translation>Fel vid initiering av OpenGL 4.6!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1072"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="903"/>
         <source>Your GPU may not support OpenGL 4.6, or you do not have the latest graphics driver.&lt;br&gt;&lt;br&gt;GL Renderer:&lt;br&gt;%1</source>
         <translation>Din GPU kanske inte stöder OpenGL 4.6, eller så har du inte den senaste grafikdrivrutinen.&lt;br&gt;&lt;br&gt;GL Renderer:&lt;br&gt;%1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/bootmanager.cpp" line="1082"/>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="911"/>
         <source>Your GPU may not support one or more required OpenGL extensions. Please ensure you have the latest graphics driver.&lt;br&gt;&lt;br&gt;GL Renderer:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Unsupported extensions:&lt;br&gt;%2</source>
         <translation>Din GPU kanske inte stöder ett eller flera av de nödvändiga OpenGL-tilläggen. Se till att du har den senaste grafikdrivrutinen.&lt;br&gt;&lt;br&gt;GL Renderer:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Tillägg som inte stöds:&lt;br&gt;%2</translation>
     </message>
     <message>
-        <source>yuzu has not been compiled with OpenGL support.</source>
-        <translation type="vanished">yuzu har inte komilerats med OpenGL support.</translation>
+        <location filename="../../src/yuzu/bootmanager.cpp" line="921"/>
+        <source>This build doesn&apos;t have OpenGL support.</source>
+        <translation>Den här versionen saknar stöd för OpenGL.</translation>
     </message>
 </context>
 <context>
     <name>GameList</name>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="544"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="417"/>
+        <source>&amp;Add New Game Directory</source>
+        <translation>&amp;Lägg till ny spelkatalog</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="451"/>
         <source>Favorite</source>
         <translation>Favorit</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="546"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="453"/>
         <source>Start Game</source>
         <translation>Starta spel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="548"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="455"/>
         <source>Start Game without Custom Configuration</source>
         <translation>Starta spelet utan anpassad konfiguration</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="550"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="457"/>
         <source>Open Save Data Location</source>
         <translation>Öppna plats för sparat data</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="551"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="458"/>
         <source>Open Mod Data Location</source>
         <translation>Öppna plats för moddata</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="553"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="460"/>
         <source>Open Transferable Pipeline Cache</source>
         <translation>Öppna cache för överförbar pipeline</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="555"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="461"/>
+        <source>Link to Ryujinx</source>
+        <translation>Länka till Ryujinx</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="463"/>
         <source>Remove</source>
         <translation>Ta bort</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="556"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="464"/>
         <source>Remove Installed Update</source>
         <translation>Ta bort installerad uppdatering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="557"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="465"/>
         <source>Remove All Installed DLC</source>
         <translation>Ta bort alla installerade DLC</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="558"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="466"/>
         <source>Remove Custom Configuration</source>
         <translation>Ta bort anpassad konfiguration</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="559"/>
-        <source>Remove Play Time Data</source>
-        <translation>Ta bort data om speltid</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="560"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="467"/>
         <source>Remove Cache Storage</source>
         <translation>Ta bort cache-lagring</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="561"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="468"/>
         <source>Remove OpenGL Pipeline Cache</source>
         <translation>Ta bort OpenGL Pipeline Cache</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="562"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="469"/>
         <source>Remove Vulkan Pipeline Cache</source>
         <translation>Ta bort Vulkan Pipeline Cache</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="564"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="471"/>
         <source>Remove All Pipeline Caches</source>
         <translation>Ta bort alla pipeline-cacher</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="565"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="472"/>
         <source>Remove All Installed Contents</source>
         <translation>Ta bort allt installerat innehåll</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="566"/>
-        <location filename="../../src/yuzu/game_list.cpp" line="567"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="473"/>
+        <source>Manage Play Time</source>
+        <translation>Hantera speltid</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="474"/>
+        <source>Edit Play Time Data</source>
+        <translation>Redigera data för speltid</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="475"/>
+        <source>Remove Play Time Data</source>
+        <translation>Ta bort data om speltid</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="476"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="477"/>
         <source>Dump RomFS</source>
         <translation>Dumpa RomFS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="568"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="478"/>
         <source>Dump RomFS to SDMC</source>
         <translation>Dumpa RomFS till SDMC</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="569"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="479"/>
         <source>Verify Integrity</source>
         <translation>Verifiera integritet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="570"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="480"/>
         <source>Copy Title ID to Clipboard</source>
         <translation>Kopiera titel-id till urklipp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="571"/>
-        <source>Navigate to GameDB entry</source>
-        <translation>Navigera till GameDB-post</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="574"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="482"/>
         <source>Create Shortcut</source>
         <translation>Skapa genväg</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="575"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="483"/>
         <source>Add to Desktop</source>
         <translation>Lägg till på skrivbordet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="577"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="485"/>
         <source>Add to Applications Menu</source>
         <translation>Lägg till i programmenyn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="580"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="488"/>
         <source>Configure Game</source>
         <translation>Konfigurera spelet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="666"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="581"/>
         <source>Scan Subfolders</source>
         <translation>Sök igenom undermappar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="667"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="582"/>
         <source>Remove Game Directory</source>
         <translation>Ta bort spelkatalog</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="686"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="601"/>
         <source>▲ Move Up</source>
         <translation>▲ Flytta upp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="687"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="602"/>
         <source>▼ Move Down</source>
         <translation>▼ Flytta ner</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="688"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="603"/>
         <source>Open Directory Location</source>
         <translation>Öppna katalogplats</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="734"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="643"/>
         <source>Clear</source>
         <translation>Rensa</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="798"/>
-        <source>Name</source>
-        <translation>Namn</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="799"/>
-        <source>Compatibility</source>
-        <translation>Kompatibilitet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="800"/>
-        <source>Add-ons</source>
-        <translation>Tillägg</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="801"/>
-        <source>File type</source>
-        <translation>Filtyp</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="802"/>
-        <source>Size</source>
-        <translation>Storlek</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="803"/>
-        <source>Play time</source>
-        <translation>Speltid</translation>
-    </message>
-    <message>
-        <source>Properties</source>
-        <translation type="vanished">Egenskaper</translation>
     </message>
 </context>
 <context>
     <name>GameListItemCompat</name>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="150"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="194"/>
         <source>Ingame</source>
-        <translation>I spelet</translation>
+        <translation>Spelproblem</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="150"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="194"/>
         <source>Game starts, but crashes or major glitches prevent it from being completed.</source>
         <translation>Spelet startar men kraschar eller större fel gör att det inte kan slutföras.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="152"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="196"/>
         <source>Perfect</source>
         <translation>Perfekt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="152"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="196"/>
         <source>Game can be played without issues.</source>
         <translation>Spelet kan spelas utan problem.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="153"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="197"/>
         <source>Playable</source>
         <translation>Spelbart</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="153"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="197"/>
         <source>Game functions with minor graphical or audio glitches and is playable from start to finish.</source>
         <translation>Spelet fungerar med små grafiska eller ljudmässiga fel och är spelbart från början till slut.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="156"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="200"/>
         <source>Intro/Menu</source>
         <translation>Intro/Meny</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="156"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="200"/>
         <source>Game loads, but is unable to progress past the Start Screen.</source>
         <translation>Spelet läses in men det går inte att komma förbi startskärmen.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="157"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="201"/>
         <source>Won&apos;t Boot</source>
         <translation>Startar inte</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="157"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="201"/>
         <source>The game crashes when attempting to startup.</source>
         <translation>Spelet kraschar när det försöker starta.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="158"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="202"/>
         <source>Not Tested</source>
         <translation>Inte testat</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="158"/>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="202"/>
         <source>The game has not yet been tested.</source>
         <translation>Spelet har ännu inte testats.</translation>
     </message>
 </context>
 <context>
+    <name>GameListModel</name>
+    <message>
+        <location filename="../../src/qt_common/game_list/model.cpp" line="194"/>
+        <source>Name</source>
+        <translation>Namn</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/model.cpp" line="195"/>
+        <source>Add-ons</source>
+        <translation>Tillägg</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/model.cpp" line="196"/>
+        <source>File type</source>
+        <translation>Filtyp</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/model.cpp" line="197"/>
+        <source>Size</source>
+        <translation>Storlek</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/model.cpp" line="198"/>
+        <source>Play time</source>
+        <translation>Speltid</translation>
+    </message>
+</context>
+<context>
     <name>GameListPlaceholder</name>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="986"/>
+        <location filename="../../src/yuzu/game/game_list.cpp" line="785"/>
         <source>Double-click to add a new folder to the game list</source>
         <translation>Dubbelklicka för att lägga till en ny mapp i spellistan</translation>
     </message>
@@ -7236,20 +6453,17 @@ Vill du strunta i detta och avsluta ändå?</translation>
 <context>
     <name>GameListSearchField</name>
     <message numerus="yes">
-        <location filename="../../src/yuzu/game_list.cpp" line="86"/>
+        <location filename="../../src/yuzu/game/search_field.cpp" line="67"/>
         <source>%1 of %n result(s)</source>
-        <translation>
-            <numerusform>%1 av %n resultat</numerusform>
-            <numerusform>%1 av %n resultat</numerusform>
-        </translation>
+        <translation><numerusform>%1 av %n resultat</numerusform><numerusform>%1 av %n resultat</numerusform></translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="815"/>
+        <location filename="../../src/yuzu/game/search_field.cpp" line="122"/>
         <source>Filter:</source>
         <translation>Filtrera:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list.cpp" line="816"/>
+        <location filename="../../src/yuzu/game/search_field.cpp" line="123"/>
         <source>Enter pattern to filter</source>
         <translation>Ange mönster för att filtrera</translation>
     </message>
@@ -7325,224 +6539,242 @@ Vill du strunta i detta och avsluta ändå?</translation>
 <context>
     <name>HostRoomWindow</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.cpp" line="187"/>
+        <location filename="../../src/yuzu/multiplayer/host_room.cpp" line="186"/>
         <source>Error</source>
         <translation>Fel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/host_room.cpp" line="188"/>
-        <source>Failed to announce the room to the public lobby. In order to host a room publicly, you must have a valid eden account configured in Emulation -&gt; Configure -&gt; Web. If you do not want to publish a room in the public lobby, then select Unlisted instead.
+        <location filename="../../src/yuzu/multiplayer/host_room.cpp" line="187"/>
+        <source>Failed to announce the room to the public lobby. In order to host a room publicly, you must have a valid Eden account configured in Emulation -&gt; Configure -&gt; Web. If you do not want to publish a room in the public lobby, then select Unlisted instead.
 Debug Message: </source>
-        <translation>Misslyckades med att tillkännage rummet till den offentliga lobbyn. För att kunna hosta ett rum publikt måste du ha ett giltigt eden-konto konfigurerat i Emulation -&gt; Configure -&gt; Web. Om du inte vill publicera ett rum i den offentliga lobbyn väljer du Unlisted istället.
+        <translation>Det gick inte att annonsera rummet i den offentliga lobbyn. För att kunna vara värd för ett offentligt rum måste du ha ett giltigt Eden-konto konfigurerat i Emulering -&gt; Konfigurera -&gt; Webb. Om du inte vill publicera ett rum i den offentliga lobbyn väljer du istället Olistade.
 Felsökningsmeddelande: </translation>
     </message>
 </context>
 <context>
     <name>Hotkeys</name>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="234"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="34"/>
         <source>Audio Mute/Unmute</source>
         <translation>Ljud avstängt/aktiverat</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="234"/>
-        <location filename="../../src/yuzu/uisettings.h" line="235"/>
-        <location filename="../../src/yuzu/uisettings.h" line="236"/>
-        <location filename="../../src/yuzu/uisettings.h" line="237"/>
-        <location filename="../../src/yuzu/uisettings.h" line="238"/>
-        <location filename="../../src/yuzu/uisettings.h" line="239"/>
-        <location filename="../../src/yuzu/uisettings.h" line="240"/>
-        <location filename="../../src/yuzu/uisettings.h" line="241"/>
-        <location filename="../../src/yuzu/uisettings.h" line="242"/>
-        <location filename="../../src/yuzu/uisettings.h" line="243"/>
-        <location filename="../../src/yuzu/uisettings.h" line="244"/>
-        <location filename="../../src/yuzu/uisettings.h" line="245"/>
-        <location filename="../../src/yuzu/uisettings.h" line="246"/>
-        <location filename="../../src/yuzu/uisettings.h" line="247"/>
-        <location filename="../../src/yuzu/uisettings.h" line="248"/>
-        <location filename="../../src/yuzu/uisettings.h" line="249"/>
-        <location filename="../../src/yuzu/uisettings.h" line="250"/>
-        <location filename="../../src/yuzu/uisettings.h" line="251"/>
-        <location filename="../../src/yuzu/uisettings.h" line="252"/>
-        <location filename="../../src/yuzu/uisettings.h" line="253"/>
-        <location filename="../../src/yuzu/uisettings.h" line="254"/>
-        <location filename="../../src/yuzu/uisettings.h" line="255"/>
-        <location filename="../../src/yuzu/uisettings.h" line="256"/>
-        <location filename="../../src/yuzu/uisettings.h" line="257"/>
-        <location filename="../../src/yuzu/uisettings.h" line="258"/>
-        <location filename="../../src/yuzu/uisettings.h" line="259"/>
-        <location filename="../../src/yuzu/uisettings.h" line="260"/>
-        <location filename="../../src/yuzu/uisettings.h" line="261"/>
-        <location filename="../../src/yuzu/uisettings.h" line="262"/>
-        <location filename="../../src/yuzu/uisettings.h" line="263"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="34"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="35"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="36"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="37"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="38"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="39"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="40"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="41"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="42"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="43"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="44"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="45"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="46"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="47"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="48"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="49"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="50"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="51"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="52"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="53"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="54"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="55"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="56"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="57"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="58"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="59"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="60"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="61"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="62"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="63"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="64"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="65"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="66"/>
         <source>Main Window</source>
         <translation>Huvudfönster</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="235"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="35"/>
         <source>Audio Volume Down</source>
         <translation>Ljudvolym ned</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="236"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="36"/>
         <source>Audio Volume Up</source>
         <translation>Ljudvolym upp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="237"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="37"/>
         <source>Capture Screenshot</source>
         <translation>Ta skärmbild</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="238"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="38"/>
         <source>Change Adapting Filter</source>
         <translation>Ändra anpassningsfilter</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="239"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="39"/>
         <source>Change Docked Mode</source>
         <translation>Ändra dockningsläge</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="240"/>
-        <source>Change GPU Accuracy</source>
-        <translation>Ändra GPU-noggrannhet</translation>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="40"/>
+        <source>Change GPU Mode</source>
+        <translation>Ändra GPU-läge</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="241"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="41"/>
         <source>Configure</source>
         <translation>Konfigurera</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="242"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="42"/>
         <source>Configure Current Game</source>
         <translation>Konfigurera aktuellt spel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="243"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="43"/>
         <source>Continue/Pause Emulation</source>
         <translation>Fortsätt/Pausa emulering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="244"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="44"/>
         <source>Exit Fullscreen</source>
         <translation>Avsluta helskärm</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="245"/>
-        <source>Exit eden</source>
-        <translation>Avsluta eden</translation>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="45"/>
+        <source>Exit Eden</source>
+        <translation>Avsluta Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="246"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="46"/>
         <source>Fullscreen</source>
         <translation>Helskärm</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="247"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="47"/>
         <source>Load File</source>
         <translation>Läs in fil</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="248"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="48"/>
         <source>Load/Remove Amiibo</source>
         <translation>Läs in/ta bort Amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="249"/>
-        <source>Multiplayer Browse Public Game Lobby</source>
-        <translation>Bläddra i offentlig spellobby för flera spelare</translation>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="49"/>
+        <source>Browse Public Game Lobby</source>
+        <translation>Bläddra i den publika spellobbyn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="250"/>
-        <source>Multiplayer Create Room</source>
-        <translation>Skapa rum för flera spelare</translation>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="50"/>
+        <source>Create Room</source>
+        <translation>Skapa rum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="251"/>
-        <source>Multiplayer Direct Connect to Room</source>
-        <translation>Direktanslutning till rum för flera spelare</translation>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="51"/>
+        <source>Direct Connect to Room</source>
+        <translation>Direktanslutning till rum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="252"/>
-        <source>Multiplayer Leave Room</source>
-        <translation>Lämna rum för flera spelare</translation>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="52"/>
+        <source>Leave Room</source>
+        <translation>Lämna rum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="253"/>
-        <source>Multiplayer Show Current Room</source>
-        <translation>Visa aktuellt rum för flera spelare</translation>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="53"/>
+        <source>Show Current Room</source>
+        <translation>Visa aktuellt rum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="254"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="54"/>
         <source>Restart Emulation</source>
         <translation>Starta om emuleringen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="255"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="55"/>
         <source>Stop Emulation</source>
         <translation>Stoppa emulering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="256"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="56"/>
         <source>TAS Record</source>
         <translation>TAS-post</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="257"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="57"/>
         <source>TAS Reset</source>
         <translation>TAS-återställning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="258"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="58"/>
         <source>TAS Start/Stop</source>
         <translation>TAS starta/stoppa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="259"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="59"/>
         <source>Toggle Filter Bar</source>
         <translation>Växla filterfält</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="260"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="60"/>
         <source>Toggle Framerate Limit</source>
         <translation>Växla gräns för bildfrekvens</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="261"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="61"/>
+        <source>Toggle Turbo Speed</source>
+        <translation>Växla turbohastighet</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="62"/>
+        <source>Toggle Slow Speed</source>
+        <translation>Växla låg hastighet</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="63"/>
         <source>Toggle Mouse Panning</source>
         <translation>Växla muspanorering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="262"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="64"/>
         <source>Toggle Renderdoc Capture</source>
         <translation>Växla till Renderdoc Capture</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/uisettings.h" line="263"/>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="65"/>
         <source>Toggle Status Bar</source>
         <translation>Växla statusfält</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/uisettings.cpp" line="66"/>
+        <source>Toggle Performance Overlay</source>
+        <translation>Växla prestandaöverlägg</translation>
     </message>
 </context>
 <context>
     <name>InstallDialog</name>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="29"/>
+        <location filename="../../src/yuzu/install_dialog.cpp" line="32"/>
         <source>Please confirm these are the files you wish to install.</source>
         <translation>Bekräfta att detta är de filer som du vill installera.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="32"/>
+        <location filename="../../src/yuzu/install_dialog.cpp" line="35"/>
         <source>Installing an Update or DLC will overwrite the previously installed one.</source>
         <translation>Installation av en uppdatering eller DLC kommer att skriva över den tidigare installerade.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="36"/>
+        <location filename="../../src/yuzu/install_dialog.cpp" line="39"/>
         <source>Install</source>
         <translation>Installera</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/install_dialog.cpp" line="49"/>
+        <location filename="../../src/yuzu/install_dialog.cpp" line="52"/>
         <source>Install Files to NAND</source>
         <translation>Installera filer till NAND</translation>
     </message>
@@ -7550,8 +6782,8 @@ Felsökningsmeddelande: </translation>
 <context>
     <name>LimitableInputDialog</name>
     <message>
-        <location filename="../../src/yuzu/util/limitable_input_dialog.cpp" line="59"/>
-        <source>The text can&apos;t contain any of the following characters:
+        <location filename="../../src/yuzu/util/limitable_input_dialog.cpp" line="60"/>
+        <source>The text can't contain any of the following characters:
 %1</source>
         <translation>Texten får inte innehålla något av följande tecken:
 %1</translation>
@@ -7575,22 +6807,22 @@ Felsökningsmeddelande: </translation>
         <translation>Beräknad tid 5m 4s</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="83"/>
+        <location filename="../../src/yuzu/loading_screen.cpp" line="86"/>
         <source>Loading...</source>
         <translation>Läser in...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="84"/>
+        <location filename="../../src/yuzu/loading_screen.cpp" line="87"/>
         <source>Loading Shaders %1 / %2</source>
         <translation>Läser in shaders %1 / %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="85"/>
+        <location filename="../../src/yuzu/loading_screen.cpp" line="88"/>
         <source>Launching...</source>
         <translation>Startar...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/loading_screen.cpp" line="170"/>
+        <location filename="../../src/yuzu/loading_screen.cpp" line="173"/>
         <source>Estimated Time %1</source>
         <translation>Beräknad tid %1</translation>
     </message>
@@ -7639,42 +6871,42 @@ Felsökningsmeddelande: </translation>
         <translation>Uppdatera lobbyn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="123"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="122"/>
         <source>Password Required to Join</source>
         <translation>Lösenord krävs för att gå med</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="123"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="122"/>
         <source>Password:</source>
         <translation>Lösenord:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="230"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="229"/>
         <source>Players</source>
         <translation>Spelare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="231"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="230"/>
         <source>Room Name</source>
         <translation>Rumsnamn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="232"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="231"/>
         <source>Preferred Game</source>
         <translation>Föredraget spel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="233"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="232"/>
         <source>Host</source>
         <translation>Värd</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="240"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="239"/>
         <source>Refreshing</source>
         <translation>Uppdaterar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="297"/>
+        <location filename="../../src/yuzu/multiplayer/lobby.cpp" line="296"/>
         <source>Refresh List</source>
         <translation>Uppdatera lista</translation>
     </message>
@@ -7697,350 +6929,1380 @@ Felsökningsmeddelande: </translation>
         <translation>&amp;Rekommenterade filer</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="75"/>
+        <location filename="../../src/yuzu/main.ui" line="62"/>
+        <source>Open &amp;Eden Folders</source>
+        <translation>Öppna &amp;Eden-mappar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="85"/>
         <source>&amp;Emulation</source>
         <translation>&amp;Emulering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="86"/>
+        <location filename="../../src/yuzu/main.ui" line="96"/>
         <source>&amp;View</source>
         <translation>&amp;Visa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="90"/>
+        <location filename="../../src/yuzu/main.ui" line="100"/>
         <source>&amp;Reset Window Size</source>
         <translation>Å&amp;terställ fönsterstorlek</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="95"/>
+        <location filename="../../src/yuzu/main.ui" line="105"/>
         <source>&amp;Debugging</source>
         <translation>&amp;Felsökning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="100"/>
+        <location filename="../../src/yuzu/main.ui" line="110"/>
+        <source>&amp;Game List Mode</source>
+        <translation>Läge för s&amp;pellista</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="118"/>
+        <source>Game &amp;Icon Size</source>
+        <translation>Storlek för spel&amp;ikon</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="123"/>
         <source>Reset Window Size to &amp;720p</source>
         <translation>Återställ fönsterstorlek till &amp;720p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="103"/>
+        <location filename="../../src/yuzu/main.ui" line="126"/>
         <source>Reset Window Size to 720p</source>
         <translation>Återställ fönsterstorlek till 720p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="108"/>
+        <location filename="../../src/yuzu/main.ui" line="131"/>
         <source>Reset Window Size to &amp;900p</source>
         <translation>Återställ fönsterstorlek till &amp;900p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="111"/>
+        <location filename="../../src/yuzu/main.ui" line="134"/>
         <source>Reset Window Size to 900p</source>
         <translation>Återställ fönsterstorleken till 900p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="116"/>
+        <location filename="../../src/yuzu/main.ui" line="139"/>
         <source>Reset Window Size to &amp;1080p</source>
         <translation>Återställ fönsterstorlek till &amp;1080p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="119"/>
+        <location filename="../../src/yuzu/main.ui" line="142"/>
         <source>Reset Window Size to 1080p</source>
         <translation>Återställ fönsterstorleken till 1080p</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="136"/>
+        <location filename="../../src/yuzu/main.ui" line="164"/>
         <source>&amp;Multiplayer</source>
         <translation>&amp;Flera spelare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="147"/>
+        <location filename="../../src/yuzu/main.ui" line="175"/>
         <source>&amp;Tools</source>
         <translation>Ver&amp;ktyg</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="151"/>
-        <source>&amp;Amiibo</source>
-        <translation>&amp;Amiibo</translation>
+        <location filename="../../src/yuzu/main.ui" line="179"/>
+        <source>Am&amp;iibo</source>
+        <translation>Am&amp;iibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="160"/>
+        <location filename="../../src/yuzu/main.ui" line="188"/>
+        <source>Launch &amp;Applet</source>
+        <translation>Starta &amp;applet</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="197"/>
         <source>&amp;TAS</source>
         <translation>&amp;TAS</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="170"/>
+        <location filename="../../src/yuzu/main.ui" line="207"/>
         <source>&amp;Create Home Menu Shortcut</source>
         <translation>S&amp;kapa genväg till startmenyn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="192"/>
+        <location filename="../../src/yuzu/main.ui" line="214"/>
+        <source>Install &amp;Firmware</source>
+        <translation>Installera &amp;firmware</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="233"/>
         <source>&amp;Help</source>
         <translation>&amp;Hjälp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="214"/>
+        <location filename="../../src/yuzu/main.ui" line="254"/>
         <source>&amp;Install Files to NAND...</source>
         <translation>&amp;Installera filer till NAND...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="219"/>
+        <location filename="../../src/yuzu/main.ui" line="259"/>
         <source>L&amp;oad File...</source>
         <translation>Läs &amp;in fil...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="224"/>
+        <location filename="../../src/yuzu/main.ui" line="264"/>
         <source>Load &amp;Folder...</source>
         <translation>Läs in &amp;mapp...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="229"/>
+        <location filename="../../src/yuzu/main.ui" line="269"/>
         <source>E&amp;xit</source>
         <translation>A&amp;vsluta</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="237"/>
+        <location filename="../../src/yuzu/main.ui" line="277"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="1675"/>
         <source>&amp;Pause</source>
         <translation>&amp;Paus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="245"/>
+        <location filename="../../src/yuzu/main.ui" line="285"/>
         <source>&amp;Stop</source>
         <translation>&amp;Stoppa</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="250"/>
+        <location filename="../../src/yuzu/main.ui" line="290"/>
         <source>&amp;Verify Installed Contents</source>
         <translation>&amp;Verifiera installerat innehåll</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="255"/>
-        <source>&amp;About eden</source>
-        <translation>&amp;Om eden</translation>
+        <location filename="../../src/yuzu/main.ui" line="295"/>
+        <source>&amp;About Eden</source>
+        <translation>&amp;Om Eden</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="393"/>
-        <source>Open &amp;eden Folder</source>
-        <translation>Öppna &amp;eden-mappen</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="494"/>
-        <source>Open Home Menu</source>
-        <translation>Öppna hemmenyn</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="499"/>
-        <source>&amp;Discord</source>
-        <translation>&amp;Discord</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="504"/>
-        <source>Open &amp;Setup</source>
-        <translation>Öppna &amp;konfiguration</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="512"/>
-        <source>&amp;Desktop</source>
-        <translation>S&amp;krivbord</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="517"/>
-        <source>&amp;Application Menu</source>
-        <translation>&amp;Applikationsmeny</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="263"/>
+        <location filename="../../src/yuzu/main.ui" line="303"/>
         <source>Single &amp;Window Mode</source>
         <translation>Enkelt &amp;fönsterläge</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="268"/>
+        <location filename="../../src/yuzu/main.ui" line="308"/>
         <source>Con&amp;figure...</source>
         <translation>Kon&amp;figurera...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="271"/>
+        <location filename="../../src/yuzu/main.ui" line="311"/>
         <source>Ctrl+,</source>
         <translation>Ctrl+,</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="282"/>
-        <source>Display D&amp;ock Widget Headers</source>
-        <translation>Visa rubriker för d&amp;ock-widget</translation>
+        <location filename="../../src/yuzu/main.ui" line="322"/>
+        <source>Enable Overlay Display Applet</source>
+        <translation>Aktivera applet för överläggsvisning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="290"/>
+        <location filename="../../src/yuzu/main.ui" line="330"/>
         <source>Show &amp;Filter Bar</source>
         <translation>Visa &amp;filterfält</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="298"/>
+        <location filename="../../src/yuzu/main.ui" line="338"/>
         <source>Show &amp;Status Bar</source>
         <translation>Visa &amp;statusrad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="301"/>
+        <location filename="../../src/yuzu/main.ui" line="341"/>
         <source>Show Status Bar</source>
         <translation>Visa statusrad</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="309"/>
+        <location filename="../../src/yuzu/main.ui" line="349"/>
         <source>&amp;Browse Public Game Lobby</source>
         <translation>&amp;Bläddra i offentlig spellobby</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="317"/>
+        <location filename="../../src/yuzu/main.ui" line="357"/>
         <source>&amp;Create Room</source>
         <translation>&amp;Skapa rum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="325"/>
+        <location filename="../../src/yuzu/main.ui" line="365"/>
         <source>&amp;Leave Room</source>
         <translation>&amp;Lämna rummet</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="330"/>
+        <location filename="../../src/yuzu/main.ui" line="370"/>
         <source>&amp;Direct Connect to Room</source>
         <translation>&amp;Direkt anslutning till rum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="338"/>
+        <location filename="../../src/yuzu/main.ui" line="378"/>
         <source>&amp;Show Current Room</source>
         <translation>&amp;Visa aktuellt rum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="346"/>
+        <location filename="../../src/yuzu/main.ui" line="386"/>
         <source>F&amp;ullscreen</source>
         <translation>H&amp;elskärm</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="354"/>
+        <location filename="../../src/yuzu/main.ui" line="394"/>
         <source>&amp;Restart</source>
         <translation>Starta o&amp;m</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="362"/>
+        <location filename="../../src/yuzu/main.ui" line="402"/>
         <source>Load/Remove &amp;Amiibo...</source>
         <translation>Läs in/ta bort &amp;Amiibo...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="370"/>
-        <source>&amp;Report Compatibility</source>
-        <translation>&amp;Rapportera kompatibilitet</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="378"/>
+        <location filename="../../src/yuzu/main.ui" line="407"/>
         <source>Open &amp;Mods Page</source>
         <translation>Öppna &amp;Mods-sidan</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="383"/>
-        <source>Open &amp;Quickstart Guide</source>
-        <translation>Öppna &amp;snabbstartsguide</translation>
+        <location filename="../../src/yuzu/main.ui" line="412"/>
+        <source>&amp;User Handbook</source>
+        <translation>&amp;Användarhandbok</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="388"/>
-        <source>&amp;FAQ</source>
-        <translation>&amp;Frågor och svar</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/main.ui" line="401"/>
+        <location filename="../../src/yuzu/main.ui" line="420"/>
         <source>&amp;Capture Screenshot</source>
         <translation>&amp;Ta skärmdump</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="406"/>
-        <source>Open &amp;Album</source>
-        <translation>Öppna &amp;album</translation>
+        <location filename="../../src/yuzu/main.ui" line="425"/>
+        <source>&amp;Album</source>
+        <translation>&amp;Album</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="411"/>
+        <location filename="../../src/yuzu/main.ui" line="430"/>
         <source>&amp;Set Nickname and Owner</source>
         <translation>&amp;Ange smeknamn och ägare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="416"/>
+        <location filename="../../src/yuzu/main.ui" line="435"/>
         <source>&amp;Delete Game Data</source>
         <translation>&amp;Radera speldata</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="421"/>
+        <location filename="../../src/yuzu/main.ui" line="440"/>
         <source>&amp;Restore Amiibo</source>
         <translation>Å&amp;terställ Amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="426"/>
+        <location filename="../../src/yuzu/main.ui" line="445"/>
         <source>&amp;Format Amiibo</source>
         <translation>&amp;Formatera Amiibo</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="431"/>
-        <source>Open &amp;Mii Editor</source>
-        <translation>Öppna &amp;Mii-redigerare</translation>
+        <location filename="../../src/yuzu/main.ui" line="450"/>
+        <source>&amp;Mii Editor</source>
+        <translation>&amp;Mii-redigerare</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="436"/>
+        <location filename="../../src/yuzu/main.ui" line="455"/>
         <source>&amp;Configure TAS...</source>
         <translation>&amp;Konfigurera TAS...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="447"/>
+        <location filename="../../src/yuzu/main.ui" line="466"/>
         <source>Configure C&amp;urrent Game...</source>
         <translation>Konfigurera a&amp;ktuellt spel...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="458"/>
+        <location filename="../../src/yuzu/main.ui" line="477"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="4169"/>
         <source>&amp;Start</source>
         <translation>&amp;Starta</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="466"/>
+        <location filename="../../src/yuzu/main.ui" line="485"/>
         <source>&amp;Reset</source>
         <translation>Starta &amp;om</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="474"/>
+        <location filename="../../src/yuzu/main.ui" line="493"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="4170"/>
         <source>R&amp;ecord</source>
         <translation>Spela &amp;in</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="479"/>
+        <location filename="../../src/yuzu/main.ui" line="498"/>
         <source>Open &amp;Controller Menu</source>
         <translation>Öppna &amp;kontrollermenyn</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="484"/>
-        <source>Install Firmware</source>
-        <translation>Installera firmware</translation>
+        <location filename="../../src/yuzu/main.ui" line="503"/>
+        <source>Install Decryption &amp;Keys</source>
+        <translation>Installera avkrypteringsn&amp;ycklar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/main.ui" line="489"/>
-        <source>Install Decryption Keys</source>
-        <translation>Installera avkrypteringsnycklar</translation>
+        <location filename="../../src/yuzu/main.ui" line="508"/>
+        <source>&amp;Home Menu</source>
+        <translation>&amp;Hemmeny</translation>
     </message>
-</context>
-<context>
-    <name>MicroProfileDialog</name>
     <message>
-        <location filename="../../src/yuzu/debugger/profiler.cpp" line="50"/>
-        <source>&amp;MicroProfile</source>
-        <translation>&amp;Mikroprofil</translation>
+        <location filename="../../src/yuzu/main.ui" line="513"/>
+        <source>&amp;Desktop</source>
+        <translation>S&amp;krivbord</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="518"/>
+        <source>&amp;Application Menu</source>
+        <translation>&amp;Applikationsmeny</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="523"/>
+        <source>&amp;Root Data Folder</source>
+        <translation>&amp;Rotdatamapp</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="528"/>
+        <source>&amp;NAND Folder</source>
+        <translation>&amp;NAND-mapp</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="533"/>
+        <source>&amp;SDMC Folder</source>
+        <translation>&amp;SDMC-mapp</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="538"/>
+        <source>&amp;Mod Folder</source>
+        <translation>&amp;Mod-mapp</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="543"/>
+        <source>&amp;Log Folder</source>
+        <translation>&amp;Loggmapp</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="548"/>
+        <source>From Folder</source>
+        <translation>Från mapp</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="553"/>
+        <source>From ZIP</source>
+        <translation>Från ZIP</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="558"/>
+        <source>&amp;Eden Dependencies</source>
+        <translation>&amp;Edens beroenden</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="563"/>
+        <source>&amp;Data Manager</source>
+        <translation>&amp;Datahanterare</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="571"/>
+        <source>&amp;Tree View</source>
+        <translation>&amp;Trädvy</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="579"/>
+        <source>&amp;Grid View</source>
+        <translation>&amp;Rutnätsvy</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="584"/>
+        <source>Game Icon Size</source>
+        <translation>Storlek för spelikon</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="589"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="329"/>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="31"/>
+        <source>None</source>
+        <translation>Ingen</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="597"/>
+        <source>Show Game &amp;Name</source>
+        <translation>Visa spel&amp;namn</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="605"/>
+        <source>Show &amp;Performance Overlay</source>
+        <translation>Visa &amp;prestandaöverlägg</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="610"/>
+        <source>Post-Processing &amp;Shaders...</source>
+        <translation>Efterbearbetning och &amp;skuggning…</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main.ui" line="618"/>
+        <source>&amp;Carousel View</source>
+        <translation>&amp;Karusellvy</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="330"/>
+        <source>Small (32x32)</source>
+        <translation>Liten (32x32)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="331"/>
+        <source>Standard (64x64)</source>
+        <translation>Standard (64x64)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="332"/>
+        <source>Large (128x128)</source>
+        <translation>Stor (128x128)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="333"/>
+        <source>Full Size (256x256)</source>
+        <translation>Full storlek (256x256)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="479"/>
+        <source>Broken Vulkan Installation Detected</source>
+        <translation>Felaktig Vulkan-installation upptäcktes</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="480"/>
+        <source>Vulkan initialization failed during boot.</source>
+        <translation>Vulkan-initialiseringen misslyckades under uppstarten.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="501"/>
+        <source>Running a game</source>
+        <extracomment>TRANSLATORS: This string is shown to the user to explain why yuzu needs to prevent the computer from sleeping</extracomment>
+        <translation>Kör ett spel</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="835"/>
+        <source>Loading Web Applet...</source>
+        <translation>Läser in webbapplet...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="885"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="888"/>
+        <source>Disable Web Applet</source>
+        <translation>Inaktivera webbapplet</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="889"/>
+        <source>Disabling the web applet can lead to undefined behavior and should only be used with Super Mario 3D All-Stars. Are you sure you want to disable the web applet?
+(This can be re-enabled in the Debug settings.)</source>
+        <translation>Att inaktivera webbappletten kan leda till odefinierat beteende och bör endast användas med Super Mario 3D All-Stars. Är du säker på att du vill inaktivera webbappletten?
+(Detta kan återaktiveras i felsökningsinställningarna.)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1003"/>
+        <source>The amount of shaders currently being built</source>
+        <translation>Antalet shaders som för närvarande byggs</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1005"/>
+        <source>The current selected resolution scaling multiplier.</source>
+        <translation>Den aktuella valda multiplikatorn för upplösningsskalning.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1008"/>
+        <source>Current emulation speed. Values higher or lower than 100% indicate emulation is running faster or slower than a Switch.</source>
+        <translation>Aktuell emuleringshastighet. Värden högre eller lägre än 100% indikerar att emuleringen körs snabbare eller långsammare än en Switch.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1011"/>
+        <source>How many frames per second the game is currently displaying. This will vary from game to game and scene to scene.</source>
+        <translation>Hur många bildrutor per sekund spelet för närvarande visar. Detta varierar från spel till spel och från scen till scen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1015"/>
+        <source>Time taken to emulate a Switch frame, not counting framelimiting or v-sync. For full-speed emulation this should be at most 16.67 ms.</source>
+        <translation>Tid som krävs för att emulera en Switch-bildruta, exklusive bildbegränsning eller v-synkronisering. För emulering i full hastighet bör detta vara högst 16,67 ms.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1076"/>
+        <source>Unmute</source>
+        <translation>Aktivera ljud</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1076"/>
+        <source>Mute</source>
+        <translation>Tyst</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1081"/>
+        <source>Reset Volume</source>
+        <translation>Återställ volym</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1256"/>
+        <source>&amp;Clear Recent Files</source>
+        <translation>&amp;Töm tidigare filer</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1673"/>
+        <source>&amp;Continue</source>
+        <translation>&amp;Fortsätt</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1835"/>
+        <source>Warning: Outdated Game Format</source>
+        <translation>Varning: Föråldrat spelformat</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1836"/>
+        <source>You are using the deconstructed ROM directory format for this game, which is an outdated format that has been superseded by others such as NCA, NAX, XCI, or NSP. Deconstructed ROM directories lack icons, metadata, and update support.&lt;br&gt;For an explanation of the various Switch formats Eden supports, out our user handbook. This message will not be shown again.</source>
+        <translation>Du använder det dekonstruerade ROM-katalogformatet för detta spel, vilket är ett föråldrat format som har ersatts av andra format såsom NCA, NAX, XCI eller NSP. Dekonstruerade ROM-kataloger saknar ikoner, metadata och uppdateringsstöd.&lt;br&gt; För en förklaring av de olika Switch-format som Eden har stöd för, se vår användarhandbok. Detta meddelande kommer inte att visas igen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1847"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="1877"/>
+        <source>Error while loading ROM!</source>
+        <translation>Fel vid inläsning av ROM!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1848"/>
+        <source>The ROM format is not supported.</source>
+        <translation>ROM-formatet stöds inte.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1852"/>
+        <source>An error occurred initializing the video core.</source>
+        <translation>Ett fel uppstod vid initialiseringen av videokärnan.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1853"/>
+        <source>This is usually caused by outdated GPU drivers. Please see the log for more details. See: &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/HowToAccessLogs.md&apos;&gt;How to access log files&lt;/a&gt;.</source>
+        <translation>Detta orsakas vanligtvis av inaktuella grafikdrivrutiner. Se loggen för mer information. Se: &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/HowToAccessLogs.md&apos;&gt;Så här kommer du åt loggfiler&lt;/a&gt;.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1866"/>
+        <source>Error while loading ROM! %1</source>
+        <comment>%1 signifies a numeric error code.</comment>
+        <translation>Fel vid inläsning av ROM! %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1869"/>
+        <source>%1&lt;br&gt;Please redump your files or ask on Discord/Stoat for help.</source>
+        <comment>%1 signifies an error string.</comment>
+        <translation>%1&lt;br&gt;Dumpa dina filer igen eller fråga på Discord/Stoat för hjälp.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="1878"/>
+        <source>An unknown error occurred. Please see the log for more details.</source>
+        <translation>Ett okänt fel har uppstått. Se loggen för mer information.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2052"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="4082"/>
+        <source>(64-bit)</source>
+        <translation>(64-bitar)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2052"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="4082"/>
+        <source>(32-bit)</source>
+        <translation>(32-bitar)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2053"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="4084"/>
+        <source>%1 %2</source>
+        <comment>%1 is the title name. %2 indicates if the title is 64-bit or 32-bit</comment>
+        <translation>%1 %2</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2131"/>
+        <source>Closing software...</source>
+        <translation>Stänger programvara...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2297"/>
+        <source>Save Data</source>
+        <translation>Sparat data</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2328"/>
+        <source>Mod Data</source>
+        <translation>Mod-data</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2341"/>
+        <source>Error Opening %1 Folder</source>
+        <translation>Fel vid öppning av mappen %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2342"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="2675"/>
+        <source>Folder does not exist!</source>
+        <translation>Mappen finns inte!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2420"/>
+        <source>Remove Installed Game Contents?</source>
+        <translation>Ta bort installerat spelinnehåll?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2422"/>
+        <source>Remove Installed Game Update?</source>
+        <translation>Ta bort installerad speluppdatering?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2424"/>
+        <source>Remove Installed Game DLC?</source>
+        <translation>Ta bort installerat spel-DLC?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2430"/>
+        <source>Remove Entry</source>
+        <translation>Ta bort post</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2460"/>
+        <source>Delete OpenGL Transferable Shader Cache?</source>
+        <translation>Ta bort OpenGL Transferable Shader Cache?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2462"/>
+        <source>Delete Vulkan Transferable Shader Cache?</source>
+        <translation>Ta bort Vulkan Transferable Shader Cache?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2464"/>
+        <source>Delete All Transferable Shader Caches?</source>
+        <translation>Ta bort alla Transferable Shader Caches?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2466"/>
+        <source>Remove Custom Game Configuration?</source>
+        <translation>Ta bort anpassad spelkonfiguration?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2468"/>
+        <source>Remove Cache Storage?</source>
+        <translation>Ta bort cachelagring?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2474"/>
+        <source>Remove File</source>
+        <translation>Ta bort fil</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2511"/>
+        <source>Remove Play Time Data</source>
+        <translation>Ta bort data om speltid</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2511"/>
+        <source>Reset play time?</source>
+        <translation>Nollställ speltid?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2524"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="2609"/>
+        <source>RomFS Extraction Failed!</source>
+        <translation>Extrahering av RomFS misslyckades!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2525"/>
+        <source>There was an error copying the RomFS files or the user cancelled the operation.</source>
+        <translation>Det uppstod ett fel vid kopieringen av RomFS-filerna eller så avbröt användaren åtgärden.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2584"/>
+        <source>Full</source>
+        <translation>Fullständigt</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2584"/>
+        <source>Skeleton</source>
+        <translation>Skelett</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2586"/>
+        <source>Select RomFS Dump Mode</source>
+        <translation>Välj dumpläge för RomFS</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2587"/>
+        <source>Please select the how you would like the RomFS dumped.&lt;br&gt;Full will copy all of the files into the new directory while &lt;br&gt;skeleton will only create the directory structure.</source>
+        <translation>Välj hur du vill att RomFS ska dumpas. &lt;br&gt;Fullständigt kopierar alla filer till den nya katalogen, medan &lt;br&gt;skelett endast skapar katalogstrukturen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2610"/>
+        <source>There is not enough free space at %1 to extract the RomFS. Please free up space or select a different dump directory at Emulation &gt; Configure &gt; System &gt; Filesystem &gt; Dump Root</source>
+        <translation>Det finns inte tillräckligt med ledigt utrymme på %1 för att extrahera RomFS. Frigör utrymme eller välj en annan dumpkatalog under Emulering &gt; Konfigurera &gt; System &gt; Filsystem &gt; Dumprot.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2617"/>
+        <source>Extracting RomFS...</source>
+        <translation>Extraherar RomFS...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2617"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="2859"/>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2627"/>
+        <source>RomFS Extraction Succeeded!</source>
+        <translation>Extrahering av RomFS lyckades!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2628"/>
+        <source>The operation completed successfully.</source>
+        <translation>Operationen slutfördes.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2674"/>
+        <source>Error Opening %1</source>
+        <translation>Fel vid öppning av %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2683"/>
+        <source>Select Directory</source>
+        <translation>Välj katalog</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2712"/>
+        <source>Properties</source>
+        <translation>Egenskaper</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2713"/>
+        <source>The game properties could not be loaded.</source>
+        <translation>Spelegenskaperna kunde inte läsas in.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2775"/>
+        <source>Switch Executable (%1);;All Files (*.*)</source>
+        <comment>%1 is an identifier for the Switch executable file extensions.</comment>
+        <translation>Körbar Switch-fil (%1);;Alla filer (*.*)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2779"/>
+        <source>Load File</source>
+        <translation>Läs in fil</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2792"/>
+        <source>Open Extracted ROM Directory</source>
+        <translation>Öppna katalog för extraherad ROM</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2803"/>
+        <source>Invalid Directory Selected</source>
+        <translation>Ogiltig katalog valdes</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2804"/>
+        <source>The directory you have selected does not contain a &apos;main&apos; file.</source>
+        <translation>Den katalog du har valt innehåller ingen ”main”-fil.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2814"/>
+        <source>Installable Switch File (*.nca *.nsp *.xci);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp);;NX Cartridge Image (*.xci)</source>
+        <translation>Installerbar Switch-fil (*.nca *.nsp *.xci);;Nintendo Content Archive (*.nca);;Nintendo Submission Package (*.nsp);;NX Cartridge Image (*.xci)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2819"/>
+        <source>Install Files</source>
+        <translation>Installera filer</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../src/yuzu/main_window.cpp" line="2866"/>
+        <source>%n file(s) remaining</source>
+        <translation><numerusform>%n fil återstår</numerusform><numerusform>%n filer återstår</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2868"/>
+        <source>Installing file &quot;%1&quot;...</source>
+        <translation>Installerar filen &quot;%1&quot;...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2922"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="2936"/>
+        <source>Install Results</source>
+        <translation>Installationsresultat</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2923"/>
+        <source>To avoid possible conflicts, we discourage users from installing base games to the NAND.
+Please, only use this feature to install updates and DLC.</source>
+        <translation>För att undvika eventuella konflikter avråder vi användare från att installera basspel på NAND.
+Använd endast denna funktion för att installera uppdateringar och DLC.</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../src/yuzu/main_window.cpp" line="2929"/>
+        <source>%n file(s) were newly installed
+</source>
+        <translation><numerusform>%n ny fil installerades
+</numerusform><numerusform>%n nya filer installerades
+</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../src/yuzu/main_window.cpp" line="2932"/>
+        <source>%n file(s) were overwritten
+</source>
+        <translation><numerusform>%n fil skrevs över
+</numerusform><numerusform>%n filer skrevs över
+</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../src/yuzu/main_window.cpp" line="2934"/>
+        <source>%n file(s) failed to install
+</source>
+        <translation><numerusform>%n fil gick inte att installera
+</numerusform><numerusform>%n filer gick inte att installera
+</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2944"/>
+        <source>System Application</source>
+        <translation>Systemapplikation</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2945"/>
+        <source>System Archive</source>
+        <translation>Systemarkiv</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2946"/>
+        <source>System Application Update</source>
+        <translation>Uppdatering för systemapplikation</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2947"/>
+        <source>Firmware Package (Type A)</source>
+        <translation>Firmware-paket (Type A)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2948"/>
+        <source>Firmware Package (Type B)</source>
+        <translation>Firmware-paket (Type B)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2949"/>
+        <source>Game</source>
+        <translation>Spel</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2950"/>
+        <source>Game Update</source>
+        <translation>Speluppdatering</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2951"/>
+        <source>Game DLC</source>
+        <translation>DLC för spel</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2952"/>
+        <source>Delta Title</source>
+        <translation>Deltatitel</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2955"/>
+        <source>Select NCA Install Type...</source>
+        <translation>Välj NCA-installationstyp...</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2956"/>
+        <source>Please select the type of title you would like to install this NCA as:
+(In most instances, the default &apos;Game&apos; is fine.)</source>
+        <translation>Välj vilken typ av titel du vill installera denna NCA som:
+(I de flesta fall är standardinställningen ”Spel” tillräcklig.)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2962"/>
+        <source>Failed to Install</source>
+        <translation>Misslyckades med att installera</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2963"/>
+        <source>The title type you selected for the NCA is invalid.</source>
+        <translation>Den titeltypen du valt för NCA är ogiltig.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2998"/>
+        <source>File not found</source>
+        <translation>Filen hittades inte</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="2999"/>
+        <source>File &quot;%1&quot; not found</source>
+        <translation>Filen &quot;%1&quot; hittades inte</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3137"/>
+        <source>OK</source>
+        <translation>Ok</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3155"/>
+        <source>Function Disabled</source>
+        <translation>Funktion inaktiverad</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3156"/>
+        <source>Compatibility list reporting is currently disabled. Check back later!</source>
+        <translation>Rapportering till kompatibilitetslistan är för närvarande inaktiverad. Kom tillbaka senare!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3198"/>
+        <source>Error opening URL</source>
+        <translation>Fel vid öppning av URL</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3199"/>
+        <source>Unable to open the URL &quot;%1&quot;.</source>
+        <translation>Det går inte att öppna URL:en ”%1”.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3574"/>
+        <source>TAS Recording</source>
+        <translation>TAS-inspelning</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3574"/>
+        <source>Overwrite file of player 1?</source>
+        <translation>Skriv över fil för spelare 1?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3598"/>
+        <source>Invalid config detected</source>
+        <translation>Ogiltig konfiguration upptäcktes</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3599"/>
+        <source>Handheld controller can&apos;t be used on docked mode. Pro controller will be selected.</source>
+        <translation>Handhållen kontroller kan inte användas i dockat läge. Pro-kontrollern kommer att väljas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3750"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="3801"/>
+        <source>Amiibo</source>
+        <translation>Amiibo</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3750"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="3801"/>
+        <source>The current amiibo has been removed</source>
+        <translation>Den aktuella amiibo har tagits bort.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3755"/>
+        <source>Error</source>
+        <translation>Fel</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3755"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="3813"/>
+        <source>The current game is not looking for amiibos</source>
+        <translation>Det aktuella spelet letar inte efter amiibos</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3761"/>
+        <source>Amiibo File (%1);; All Files (*.*)</source>
+        <translation>Amiibo-fil (%1);; Alla filer (*.*)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3762"/>
+        <source>Load Amiibo</source>
+        <translation>Läs in Amiibo</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3797"/>
+        <source>Error loading Amiibo data</source>
+        <translation>Fel vid läsning av Amiibo-data</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3807"/>
+        <source>The selected file is not a valid amiibo</source>
+        <translation>Den valda filen är inte en giltig amiibo.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3810"/>
+        <source>The selected file is already on use</source>
+        <translation>Den valda filen används redan</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3816"/>
+        <source>An unknown error occurred</source>
+        <translation>Ett okänt fel uppstod</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3935"/>
+        <source>No firmware available</source>
+        <translation>Ingen firmware tillgänglig</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="3939"/>
+        <source>Firmware Corrupted</source>
+        <translation>Firmware är skadat</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4005"/>
+        <source>Unknown applet</source>
+        <translation>Okänd applet</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4006"/>
+        <source>Applet doesn&apos;t map to a known value.</source>
+        <translation>Appleten mappar inte till ett känt värde.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4009"/>
+        <source>Record not found</source>
+        <translation>Posten hittades inte</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4010"/>
+        <source>Applet not found. Please reinstall firmware.</source>
+        <translation>Appleten hittades inte. Installera om fast programvara.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4042"/>
+        <source>Capture Screenshot</source>
+        <translation>Ta skärmbild</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4043"/>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG-bild (*.png)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4145"/>
+        <source>TAS state: Running %1/%2</source>
+        <translation>TAS-tillstånd: Kör %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4149"/>
+        <source>TAS state: Recording %1</source>
+        <translation>TAS-tillstånd: Spelar in %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4151"/>
+        <source>TAS state: Idle %1/%2</source>
+        <translation>TAS-tillstånd: Overksam %1/%2</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4155"/>
+        <source>TAS State: Invalid</source>
+        <translation>TAS-tillstånd: Ogiltig</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4169"/>
+        <source>&amp;Stop Running</source>
+        <translation>&amp;Stoppa körning</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4170"/>
+        <source>Stop R&amp;ecording</source>
+        <translation>Stoppa i&amp;nspelning</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../../src/yuzu/main_window.cpp" line="4195"/>
+        <source>Building: %n shader(s)</source>
+        <translation><numerusform>Bygger: %n shader</numerusform><numerusform>Bygger: %n shaders</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4204"/>
+        <source>Scale: %1x</source>
+        <comment>%1 is the resolution scaling factor</comment>
+        <translation>Skala: %1x</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4207"/>
+        <source>Speed: %1% / %2%</source>
+        <translation>Hastighet: %1% / %2%</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4211"/>
+        <source>Speed: %1%</source>
+        <translation>Hastighet: %1%</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4214"/>
+        <source>Game: %1 FPS</source>
+        <translation>Spel: %1 bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4220"/>
+        <source>Frame: %1 ms</source>
+        <translation>Bildruta: %1 ms</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4261"/>
+        <source>NO AA</source>
+        <translation>NO AA</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4270"/>
+        <source>VOLUME: MUTE</source>
+        <translation>VOLYM: TYST</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4273"/>
+        <source>VOLUME: %1%</source>
+        <comment>Volume percentage (e.g. 50%)</comment>
+        <translation>VOLYM: %1%</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4336"/>
+        <source>Derivation Components Missing</source>
+        <translation>Deriveringskomponenter saknas</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4337"/>
+        <source>Decryption keys are missing. Install them now?</source>
+        <translation>Avkrypteringsnycklar saknas. Installera dem nu?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4367"/>
+        <source>Wayland Detected!</source>
+        <translation>Wayland upptäcktes!</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4369"/>
+        <source>Wayland is known to have significant performance issues and mysterious bugs.
+It's recommended to use X11 instead.
+
+Would you like to force it for future launches?</source>
+        <translation>Wayland är känt för att ha betydande prestandaproblem och mystiska buggar.
+Det rekommenderas att använda X11 istället.
+
+Vill du tvinga det för framtida starter?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4374"/>
+        <source>Use X11</source>
+        <translation>Använd X11</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4375"/>
+        <source>Continue with Wayland</source>
+        <translation>Fortsätt med Wayland</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4378"/>
+        <source>Don&apos;t show again</source>
+        <translation>Visa inte igen</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4392"/>
+        <source>Restart Required</source>
+        <translation>Omstart krävs</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4393"/>
+        <source>Restart Eden to apply the X11 backend.</source>
+        <translation>Starta om Eden för att tillämpa X11-backend.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4431"/>
+        <source>Slow</source>
+        <translation>Långsam</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4434"/>
+        <source>Turbo</source>
+        <translation>Turbo</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4438"/>
+        <source>Unlocked</source>
+        <translation>Upplåst</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4488"/>
+        <source>Select RomFS Dump Target</source>
+        <translation>Välj RomFS-dumpmål</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4489"/>
+        <source>Please select which RomFS you would like to dump.</source>
+        <translation>Välj vilken RomFS du vill dumpa.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4512"/>
+        <source>Are you sure you want to close Eden?</source>
+        <translation>Är du säker på att du vill stänga Eden?</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4513"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="4601"/>
+        <location filename="../../src/yuzu/main_window.cpp" line="4613"/>
+        <source>Eden</source>
+        <translation>Eden</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4602"/>
+        <source>Are you sure you want to stop the emulation? Any unsaved progress will be lost.</source>
+        <translation>Är du säker på att du vill stoppa emuleringen? Alla osparade framsteg kommer att gå förlorade.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/main_window.cpp" line="4610"/>
+        <source>The currently running application has requested Eden to not exit.
+
+Would you like to bypass this and exit anyway?</source>
+        <translation>Den aktuella applikationen har begärt att Eden inte ska stängas.
+
+Vill du kringgå detta och stänga ändå?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="32"/>
+        <source>FXAA</source>
+        <translation>FXAA</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="33"/>
+        <source>SMAA</source>
+        <translation>SMAA</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="38"/>
+        <source>Nearest</source>
+        <translation>Närmaste</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="40"/>
+        <source>Bilinear</source>
+        <translation>Bilinjär</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="41"/>
+        <source>Bicubic</source>
+        <translation>Bikubisk</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="43"/>
+        <source>Zero-Tangent</source>
+        <translation>Zero-Tangent</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="44"/>
+        <source>B-Spline</source>
+        <translation>B-Spline</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="46"/>
+        <source>Mitchell</source>
+        <translation>Mitchell</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="47"/>
+        <source>Spline-1</source>
+        <translation>Spline-1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="49"/>
+        <source>Gaussian</source>
+        <translation>Gaussian</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="50"/>
+        <source>Lanczos</source>
+        <translation>Lanczos</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="52"/>
+        <source>ScaleForce</source>
+        <translation>ScaleForce</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="53"/>
+        <source>FSR</source>
+        <translation>FSR</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="54"/>
+        <source>Area</source>
+        <translation>Område</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="55"/>
+        <source>MMPX</source>
+        <translation>MMPX</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="56"/>
+        <source>SGSR</source>
+        <translation>SGSR</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="57"/>
+        <source>SGSR EdgeDir</source>
+        <translation>SGSR EdgeDir</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="61"/>
+        <source>Docked</source>
+        <translation>Dockad</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="62"/>
+        <source>Handheld</source>
+        <translation>Handhållen</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="66"/>
+        <source>Fast</source>
+        <translation>Snabb</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="67"/>
+        <source>Accurate</source>
+        <translation>Noggrann</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="71"/>
+        <source>Vulkan</source>
+        <translation>Vulkan</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="73"/>
+        <source>OpenGL GLSL</source>
+        <translation>OpenGL GLSL</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="75"/>
+        <source>OpenGL SPIRV</source>
+        <translation>OpenGL SPIRV</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="77"/>
+        <source>OpenGL GLASM</source>
+        <translation>OpenGL GLASM</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/config/shared_translation.h" line="78"/>
+        <source>Null</source>
+        <translation>Null</translation>
     </message>
 </context>
 <context>
     <name>MigrationWorker</name>
     <message>
-        <location filename="../../src/yuzu/migration_worker.h" line="71"/>
-        <source>Data was migrated successfully.</source>
-        <translation>Datamigrering lyckades.</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/migration_worker.cpp" line="47"/>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="52"/>
         <source>Linking the old directory failed. You may need to re-run with administrative privileges on Windows.
 OS gave error: %1</source>
         <translation>Länkning av den gamla katalogen misslyckades. Du kan behöva köra om med administratörsbehörighet i Windows.
 Operativsystemet gav fel: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/migration_worker.cpp" line="94"/>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="70"/>
+        <source>
+
+Note that your configuration and data will be shared with %1.
+If this is not desirable, delete the following files:
+%2
+%3
+%4</source>
+        <translation>
+
+Observera att din konfiguration och dina data kommer att delas med %1.
+Om detta inte är önskvärt, ta bort följande filer:
+%2
+%3
+%4</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/migration_worker.cpp" line="110"/>
         <source>
 
 If you wish to clean up the files which were left in the old data location, you can do so by deleting the following directory:
@@ -8049,6 +8311,24 @@ If you wish to clean up the files which were left in the old data location, you 
 
 Om du vill rensa upp bland de filer som låg kvar på den gamla dataplatsen kan du göra det genom att radera följande katalog:
 %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/migration_worker.h" line="73"/>
+        <source>Data was migrated successfully.</source>
+        <translation>Datamigrering lyckades.</translation>
+    </message>
+</context>
+<context>
+    <name>ModSelectDialog</name>
+    <message>
+        <location filename="../../src/yuzu/configuration/addon/mod_select_dialog.ui" line="14"/>
+        <source>Import Mods</source>
+        <translation>Importera moddar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/addon/mod_select_dialog.ui" line="20"/>
+        <source>The specified folder or archive contains the following mods. Select which ones to install.</source>
+        <translation>Den angivna mappen eller arkivet innehåller följande mods. Välj vilka du vill installera.</translation>
     </message>
 </context>
 <context>
@@ -8065,7 +8345,7 @@ Om du vill rensa upp bland de filer som låg kvar på den gamla dataplatsen kan 
     </message>
     <message>
         <location filename="../../src/yuzu/multiplayer/moderation_dialog.ui" line="41"/>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="76"/>
+        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="75"/>
         <source>Refreshing</source>
         <translation>Uppdaterar</translation>
     </message>
@@ -8075,27 +8355,27 @@ Om du vill rensa upp bland de filer som låg kvar på den gamla dataplatsen kan 
         <translation>Ta bort avstängning</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="43"/>
+        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="42"/>
         <source>Subject</source>
         <translation>Ämne</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="44"/>
+        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="43"/>
         <source>Type</source>
         <translation>Typ</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="86"/>
+        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="85"/>
         <source>Forum Username</source>
         <translation>Användarnamn för forum</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="91"/>
+        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="90"/>
         <source>IP Address</source>
         <translation>IP-adress</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="98"/>
+        <location filename="../../src/yuzu/multiplayer/moderation_dialog.cpp" line="97"/>
         <source>Refresh</source>
         <translation>Uppdatera</translation>
     </message>
@@ -8103,37 +8383,37 @@ Om du vill rensa upp bland de filer som låg kvar på den gamla dataplatsen kan 
 <context>
     <name>MultiplayerState</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="93"/>
+        <location filename="../../src/yuzu/multiplayer/state.cpp" line="92"/>
         <source>Current connection status</source>
         <translation>Aktuell anslutningsstatus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="120"/>
+        <location filename="../../src/yuzu/multiplayer/state.cpp" line="119"/>
         <source>Not Connected. Click here to find a room!</source>
         <translation>Inte ansluten. Klicka här för att hitta ett rum!</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="126"/>
+        <location filename="../../src/yuzu/multiplayer/state.cpp" line="125"/>
         <source>Not Connected</source>
         <translation>Inte ansluten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="132"/>
+        <location filename="../../src/yuzu/multiplayer/state.cpp" line="131"/>
         <source>Connected</source>
         <translation>Ansluten</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="139"/>
+        <location filename="../../src/yuzu/multiplayer/state.cpp" line="138"/>
         <source>New Messages Received</source>
         <translation>Nya meddelanden mottagna</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="210"/>
+        <location filename="../../src/yuzu/multiplayer/state.cpp" line="209"/>
         <source>Error</source>
         <translation>Fel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/state.cpp" line="211"/>
+        <location filename="../../src/yuzu/multiplayer/state.cpp" line="210"/>
         <source>Failed to update the room information. Please check your Internet connection and try hosting the room again.
 Debug Message: </source>
         <translation>Misslyckades med att uppdatera rumsinformationen. Kontrollera din internetanslutning och försök att vara värd för rummet igen.
@@ -8176,6 +8456,135 @@ Fortsätt ändå?</translation>
     </message>
 </context>
 <context>
+    <name>NewUserDialog</name>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="14"/>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="61"/>
+        <source>New User</source>
+        <translation>Ny användare</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="30"/>
+        <source>Change Avatar</source>
+        <translation>Byt avatar</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="37"/>
+        <source>Set Image</source>
+        <translation>Ställ in bild</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="53"/>
+        <source>UUID</source>
+        <translation>UUID</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="60"/>
+        <source>Eden</source>
+        <translation>Eden</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="70"/>
+        <source>Username</source>
+        <translation>Användarnamn</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="82"/>
+        <source>UUID must be 32 hex characters (0-9, A-F)</source>
+        <translation>UUID måste vara 32 hexadecimala tecken (0-9, A-F)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.ui" line="89"/>
+        <source>Generate</source>
+        <translation>Generera</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="138"/>
+        <source>Select User Image</source>
+        <translation>Välj användarbild</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="139"/>
+        <source>Image Formats (*.jpg *.jpeg *.png *.bmp)</source>
+        <translation>Bildformat (*.jpg *.jpeg *.png *.bmp)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="171"/>
+        <source>No firmware available</source>
+        <translation>Ingen fast programvara tillgänglig</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="172"/>
+        <source>Please install the firmware to use firmware avatars.</source>
+        <translation>Installera den fasta programvaran för att använda avatarer från den.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="177"/>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="184"/>
+        <source>Error loading archive</source>
+        <translation>Fel vid inläsning av arkiv</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="178"/>
+        <source>Archive is not available. Please install/reinstall firmware.</source>
+        <translation>Arkivet är inte tillgängligt. Installera/installera om fast programvara.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="185"/>
+        <source>Could not locate RomFS. Your file or decryption keys may be corrupted.</source>
+        <translation>Kunde inte hitta RomFS. Din fil eller avkrypteringsnycklar kan vara skadade.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="191"/>
+        <source>Error extracting archive</source>
+        <translation>Fel vid extrahering av arkiv</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="192"/>
+        <source>Could not extract RomFS. Your file or decryption keys may be corrupted.</source>
+        <translation>Kunde inte extrahera RomFS. Din fil eller avkrypteringsnycklar kan vara skadade.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="197"/>
+        <source>Error finding image directory</source>
+        <translation>Kunde inte hitta bildkatalog</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="198"/>
+        <source>Failed to find image directory in the archive.</source>
+        <translation>Misslyckades med att hitta bildkatalogen i arkivet.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="218"/>
+        <source>No images found</source>
+        <translation>Inga bilder hittades</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="219"/>
+        <source>No avatar images were found in the archive.</source>
+        <translation>Inga avatarbilder hittades i arkivet.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="338"/>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="346"/>
+        <source>All Good</source>
+        <comment>Tooltip</comment>
+        <translation>Allt är bra</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="341"/>
+        <source>Must be 32 hex characters (0-9, a-f)</source>
+        <comment>Tooltip</comment>
+        <translation>Måste vara 32 hexadecimala tecken (0-9, a-f)</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/new_user_dialog.cpp" line="349"/>
+        <source>Must be between 1 and 32 characters</source>
+        <comment>Tooltip</comment>
+        <translation>Måste vara mellan 1 och 32 tecken</translation>
+    </message>
+</context>
+<context>
     <name>OverlayDialog</name>
     <message>
         <location filename="../../src/yuzu/util/overlay_dialog.ui" line="14"/>
@@ -8199,7 +8608,7 @@ Fortsätt ändå?</translation>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:18pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -8209,82 +8618,198 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
+    <name>PerformanceOverlay</name>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="14"/>
+        <source>Form</source>
+        <translation>Form</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="32"/>
+        <source>Frametime</source>
+        <translation>Bildtid</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="45"/>
+        <source>0 ms</source>
+        <translation>0 ms</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="63"/>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="143"/>
+        <source>Min: 0</source>
+        <translation>Min: 0</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="77"/>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="157"/>
+        <source>Max: 0</source>
+        <translation>Max: 0</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="91"/>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="171"/>
+        <source>Avg: 0</source>
+        <translation>Genoms: 0</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="112"/>
+        <source>FPS</source>
+        <translation>Bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.ui" line="125"/>
+        <source>0 fps</source>
+        <translation>0 bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="103"/>
+        <source>%1 fps</source>
+        <translation>%1 bilder/s</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="124"/>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="174"/>
+        <source>Avg: %1</source>
+        <translation>Genoms: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="133"/>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="163"/>
+        <source>Min: %1</source>
+        <translation>Min: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="134"/>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="164"/>
+        <source>Max: %1</source>
+        <translation>Max: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/render/performance_overlay.cpp" line="151"/>
+        <source>%1 ms</source>
+        <translation>%1 ms</translation>
+    </message>
+</context>
+<context>
     <name>PlayerControlPreview</name>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player_widget.cpp" line="1649"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player_widget.cpp" line="1652"/>
         <source>START/PAUSE</source>
         <translation>START/PAUS</translation>
     </message>
 </context>
 <context>
+    <name>ProfileAvatarDialog</name>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="18"/>
+        <source>Select</source>
+        <translation>Välj</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="19"/>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="20"/>
+        <source>Background Color</source>
+        <translation>Bakgrundsfärg</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/configuration/system/profile_avatar_dialog.cpp" line="41"/>
+        <source>Select Firmware Avatar</source>
+        <translation>Välj avatar från fast programvara</translation>
+    </message>
+</context>
+<context>
     <name>QObject</name>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby_p.h" line="260"/>
-        <source>%1 is not playing a game</source>
-        <translation>%1 spelar inte ett spel</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="43"/>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="121"/>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="148"/>
+        <source>Migration</source>
+        <translation>Migrering</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/lobby_p.h" line="262"/>
-        <source>%1 is playing %2</source>
-        <translation>%1 spelar %2</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="57"/>
+        <source>Clear Shader Cache</source>
+        <translation>Töm shader-cache</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="144"/>
-        <source>Not playing a game</source>
-        <translation>Spelar inget spel</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="66"/>
+        <source>Keep Old Data</source>
+        <translation>Behåll gammal data</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="270"/>
-        <source>Installed SD Titles</source>
-        <translation>Installerade SD-titlar</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="67"/>
+        <source>Clear Old Data</source>
+        <translation>Töm gammal data</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="278"/>
-        <source>Installed NAND Titles</source>
-        <translation>Installerade NAND-titlar</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="68"/>
+        <source>Link Old Directory</source>
+        <translation>Länka gammal katalog</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="286"/>
-        <source>System Titles</source>
-        <translation>Systemtitlar</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="98"/>
+        <source>
+
+</source>
+        <translation>
+
+</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="329"/>
-        <source>Add New Game Directory</source>
-        <translation>Lägg till ny spelkatalog</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="102"/>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="108"/>
+        <source>No</source>
+        <translation>Nej</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/game_list_p.h" line="352"/>
-        <source>Favorites</source>
-        <translation>Favoriter</translation>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="122"/>
+        <source>You can manually re-trigger this prompt by deleting the new config directory:
+%1</source>
+        <translation>Du kan manuellt återaktivera denna prompt genom att radera den nya konfigurationsmappen:
+%1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="44"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="32"/>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="133"/>
+        <source>Migrating</source>
+        <translation>Migrering</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/user_data_migration.cpp" line="134"/>
+        <source>Migrating, this may take a while...</source>
+        <translation>Migrerar, det kan ta ett tag...</translation>
+    </message>
+    <message>
         <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="21"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="35"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="45"/>
         <source>Shift</source>
         <translation>Skift</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="46"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="34"/>
         <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="23"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="37"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="47"/>
         <source>Ctrl</source>
         <translation>Ctrl</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="48"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="36"/>
         <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="25"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="39"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="49"/>
         <source>Alt</source>
         <translation>Alt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="182"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="250"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="392"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="458"/>
         <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="35"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="396"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="462"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="183"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="251"/>
         <source>[not set]</source>
         <translation>[inte inställd]</translation>
     </message>
@@ -8294,15 +8819,15 @@ p, li { white-space: pre-wrap; }
         <translation>Hatt %1 %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="273"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="277"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="281"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="285"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="481"/>
+        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="54"/>
         <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="485"/>
         <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="489"/>
         <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="493"/>
-        <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="54"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="497"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="274"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="278"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="282"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="286"/>
         <source>Axis %1%2</source>
         <translation>Axel %1%2</translation>
     </message>
@@ -8312,362 +8837,383 @@ p, li { white-space: pre-wrap; }
         <translation>Knapp %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="244"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="258"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="288"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="452"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="466"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="496"/>
         <location filename="../../src/yuzu/configuration/configure_touch_from_button.cpp" line="66"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="456"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="470"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="500"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="245"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="259"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="289"/>
         <source>[unknown]</source>
         <translation>[okänd]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="59"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="147"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="47"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="50"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="60"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="148"/>
         <source>Left</source>
         <translation>Vänster</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="61"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="150"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="49"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="52"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="62"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="151"/>
         <source>Right</source>
         <translation>Höger</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="63"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="156"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="51"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="54"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="64"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="157"/>
         <source>Down</source>
         <translation>Ner</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="65"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="153"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="53"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="56"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="66"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="154"/>
         <source>Up</source>
         <translation>Upp</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="67"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="55"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="58"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="68"/>
         <source>Z</source>
         <translation>Z</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="69"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="57"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="60"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="70"/>
         <source>R</source>
         <translation>R</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="71"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="59"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="62"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="72"/>
         <source>L</source>
         <translation>L</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="85"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="61"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="64"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="86"/>
         <source>A</source>
         <translation>A</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="87"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="63"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="66"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="88"/>
         <source>B</source>
         <translation>B</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="89"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="65"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="68"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="90"/>
         <source>X</source>
         <translation>X</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="91"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="67"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="70"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="92"/>
         <source>Y</source>
         <translation>Y</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="93"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="69"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="72"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="94"/>
         <source>Start</source>
         <translation>Starta</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="103"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="71"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="74"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="104"/>
         <source>L1</source>
         <translation>L1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="105"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="73"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="76"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="106"/>
         <source>L2</source>
         <translation>L2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="107"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="75"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="78"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="108"/>
         <source>L3</source>
         <translation>L3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="109"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="77"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="80"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="110"/>
         <source>R1</source>
         <translation>R1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="111"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="79"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="82"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="112"/>
         <source>R2</source>
         <translation>R2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="113"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="81"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="84"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="114"/>
         <source>R3</source>
         <translation>R3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="115"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="83"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="86"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="116"/>
         <source>Circle</source>
         <translation>Cirkel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="117"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="85"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="88"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="118"/>
         <source>Cross</source>
         <translation>Kors</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="119"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="87"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="90"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="120"/>
         <source>Square</source>
         <translation>Fyrkant</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="121"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="89"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="92"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="122"/>
         <source>Triangle</source>
         <translation>Triangel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="123"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="91"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="94"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="124"/>
         <source>Share</source>
         <translation>Dela</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="125"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="93"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="96"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="126"/>
         <source>Options</source>
         <translation>Alternativ</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="141"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="95"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="98"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="142"/>
         <source>[undefined]</source>
         <translation>[odefinierad]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="402"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="406"/>
         <source>%1%2</source>
         <translation>%1%2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="198"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="406"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="410"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="199"/>
         <source>[invalid]</source>
         <translation>[ogiltig]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="416"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="440"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="420"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="444"/>
         <source>%1%2Hat %3</source>
         <translation>%1%2Hatt %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="238"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="420"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="443"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="446"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="424"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="447"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="450"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="239"/>
         <source>%1%2Axis %3</source>
         <translation>%1%2Axel %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="218"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="426"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="430"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="219"/>
         <source>%1%2Axis %3,%4,%5</source>
         <translation>%1%2Axel %3,%4,%5</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="222"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="430"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="434"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="223"/>
         <source>%1%2Motion %3</source>
         <translation>%1%2Motion %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="434"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="449"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="438"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="453"/>
         <source>%1%2Button %3</source>
         <translation>%1%2Knapp %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="268"/>
-        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="476"/>
+        <location filename="../../src/yuzu/configuration/configure_ringcon.cpp" line="480"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="269"/>
         <source>[unused]</source>
         <translation>[oanvänd]</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="73"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="74"/>
         <source>ZR</source>
         <translation>ZR</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="75"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="76"/>
         <source>ZL</source>
         <translation>ZL</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="77"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="78"/>
         <source>SR</source>
         <translation>SR</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="79"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="80"/>
         <source>SL</source>
         <translation>SL</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="81"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="82"/>
         <source>Stick L</source>
         <translation>Spak L</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="83"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="84"/>
         <source>Stick R</source>
         <translation>Spak R</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="95"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="96"/>
         <source>Plus</source>
         <translation>Plus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="97"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="98"/>
         <source>Minus</source>
         <translation>Minus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="99"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="127"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="100"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="128"/>
         <source>Home</source>
         <translation>Hem</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="101"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="102"/>
         <source>Capture</source>
         <translation>Fånga</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="129"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="130"/>
         <source>Touch</source>
         <translation>Touch</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="131"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="132"/>
         <source>Wheel</source>
         <comment>Indicates the mouse wheel</comment>
         <translation>Hjul</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="133"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="134"/>
         <source>Backward</source>
         <translation>Bakåt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="135"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="136"/>
         <source>Forward</source>
         <translation>Framåt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="137"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="138"/>
         <source>Task</source>
         <translation>Uppgift</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="139"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="140"/>
         <source>Extra</source>
         <translation>Extra</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="194"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="195"/>
         <source>%1%2%3%4</source>
         <translation>%1%2%3%4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="208"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="232"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="209"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="233"/>
         <source>%1%2%3Hat %4</source>
         <translation>%1%2%3Hatt %4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="212"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="235"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="213"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="236"/>
         <source>%1%2%3Axis %4</source>
         <translation>%1%2%3Axis %4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="226"/>
-        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="241"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="227"/>
+        <location filename="../../src/yuzu/configuration/configure_input_player.cpp" line="242"/>
         <source>%1%2%3Button %4</source>
         <translation>%1%2%3Knapp %4</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="72"/>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="162"/>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="194"/>
-        <source>Migration</source>
-        <translation>Migrering</translation>
+        <location filename="../../src/yuzu/multiplayer/chat_room.cpp" line="143"/>
+        <source>Not playing a game</source>
+        <translation>Spelar inget spel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="124"/>
-        <source>
-
-</source>
-        <translation>
-
-</translation>
+        <location filename="../../src/yuzu/multiplayer/lobby_p.h" line="263"/>
+        <source>%1 is not playing a game</source>
+        <translation>%1 spelar inte ett spel</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="128"/>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="134"/>
-        <source>No</source>
-        <translation>Nej</translation>
+        <location filename="../../src/yuzu/multiplayer/lobby_p.h" line="265"/>
+        <source>%1 is playing %2</source>
+        <translation>%1 spelar %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="163"/>
-        <source>You can manually re-trigger this prompt by deleting the new config directory:
-%1</source>
-        <translation>Du kan manuellt återaktivera denna prompt genom att radera den nya konfigurationsmappen:
-%1</translation>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="95"/>
+        <source>Play Time: %1</source>
+        <translation>Speltid: %1</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="179"/>
-        <source>Migrating</source>
-        <translation>Migrering</translation>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="98"/>
+        <source>Never Played</source>
+        <translation>Aldrig spelat</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/user_data_migration.cpp" line="180"/>
-        <source>Migrating, this may take a while...</source>
-        <translation>Migrerar, det kan ta ett tag...</translation>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="106"/>
+        <source>Version: %1</source>
+        <translation>Version: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="108"/>
+        <source>Version: 1.0.0</source>
+        <translation>Version: 1.0.0</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="313"/>
+        <source>Installed SD Titles</source>
+        <translation>Installerade SD-titlar</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="317"/>
+        <source>Installed NAND Titles</source>
+        <translation>Installerade NAND-titlar</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="321"/>
+        <source>System Titles</source>
+        <translation>Systemtitlar</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="358"/>
+        <source>Add New Game Directory</source>
+        <translation>Lägg till ny spelkatalog</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/game_list/game_list_p.h" line="376"/>
+        <source>Favorites</source>
+        <translation>Favoriter</translation>
     </message>
 </context>
 <context>
@@ -8758,29 +9304,866 @@ p, li { white-space: pre-wrap; }
         <translation>Filsökväg</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="193"/>
+        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="196"/>
         <source>No game data present</source>
         <translation>Inga speldata närvarande</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="233"/>
+        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="236"/>
         <source>The following amiibo data will be formatted:</source>
         <translation>Följande amiibo-data kommer att formateras:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="236"/>
+        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="239"/>
         <source>The following game data will removed:</source>
         <translation>Följande speldata kommer att tas bort:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="239"/>
+        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="242"/>
         <source>Set nickname and owner:</source>
         <translation>Ange smeknamn och ägare:</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="242"/>
+        <location filename="../../src/yuzu/applets/qt_amiibo_settings.cpp" line="245"/>
         <source>Do you wish to restore this amiibo?</source>
         <translation>Vill du återställa denna amiibo?</translation>
+    </message>
+</context>
+<context>
+    <name>QtCommon::Content</name>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="30"/>
+        <source>Game Requires Firmware</source>
+        <translation>Spelet kräver firmware</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="31"/>
+        <source>This game may require firmware to function properly, and you don&apos;t have any installed. Please install firmware before launching, or press &quot;OK&quot; to launch anyways.</source>
+        <translation>Det här spelet kan kräva fast programvara för att fungera korrekt, men du har ingen installerad. Installera fast programvara innan du startar spelet, eller tryck på &quot;OK&quot; för att starta ändå.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
+        <source>Installing Firmware...</source>
+        <translation>Installerar firmware...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="44"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="56"/>
+        <source>Firmware Install Failed</source>
+        <translation>Installation av firmware misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="57"/>
+        <source>Firmware Install Succeeded</source>
+        <translation>Installation av firmware lyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="165"/>
+        <source>Firmware integrity verification failed!</source>
+        <translation>Verifieringen av firmwareintegriteten misslyckades!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="166"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="288"/>
+        <source>Verification failed for the following files:
+
+%1</source>
+        <translation>Verifieringen misslyckades för följande filer:
+
+%1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="263"/>
+        <source>Verifying integrity...</source>
+        <translation>Verifierar integritet...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="222"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="281"/>
+        <source>Integrity verification succeeded!</source>
+        <translation>Integritetsverifieringen lyckades!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="223"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="282"/>
+        <source>The operation completed successfully.</source>
+        <translation>Operationen slutfördes utan problem.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="226"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="287"/>
+        <source>Integrity verification failed!</source>
+        <translation>Integritetsverifieringen misslyckades!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="227"/>
+        <source>File contents may be corrupt or missing.</source>
+        <translation>Filens innehåll kan vara skadat eller saknas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="231"/>
+        <source>Integrity verification couldn&apos;t be performed</source>
+        <translation>Integritetsverifiering kunde inte utföras</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="232"/>
+        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. File contents could not be checked for validity.</source>
+        <translation>Firmwareinstallationen avbruten, firmware kan vara i dåligt skick eller skadad. Filens innehåll kunde inte kontrolleras för giltighet.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="239"/>
+        <source>Select Dumped Keys Location</source>
+        <translation>Välj plats för dumpade nycklar</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="252"/>
+        <source>Decryption Keys install succeeded</source>
+        <translation>Installation av avkrypteringsnycklar lyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="255"/>
+        <source>Decryption Keys install failed</source>
+        <translation>Installationen av avkrypteringsnycklar misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="327"/>
+        <source>Orphaned Profiles Detected!</source>
+        <translation>Föräldralösa profiler upptäcktes!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="328"/>
+        <source>UNEXPECTED BAD THINGS MAY HAPPEN IF YOU DON&apos;T READ THIS!&lt;br&gt;Eden has detected the following save directories with no attached profile:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;The following profiles are valid:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Click &quot;OK&quot; to open your save folder and fix up your profiles.&lt;br&gt;Hint: copy the contents of the largest or last-modified folder elsewhere, delete all orphaned profiles, and move your copied contents to the good profile.&lt;br&gt;&lt;br&gt;Still confused? See the &lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;help page&lt;/a&gt;.&lt;br&gt;</source>
+        <translation>OVÄNTADE PROBLEM KAN UPPSTÅ OM DU INTE LÄSER DETTA! &lt;br&gt;Eden har upptäckt följande sparningskataloger utan bifogade profiler:&lt;br&gt;%1&lt;br&gt;&lt;br&gt;Följande profiler är giltiga:&lt;br&gt;%2&lt;br&gt;&lt;br&gt;Klicka på ”OK” för att öppna din sparningsmapp och fixa dina profiler.&lt;br&gt;Tips: kopiera innehållet i den största eller senast ändrade mappen till en annan plats, ta bort alla övergivna profiler och flytta det kopierade innehållet till den giltiga profilen.&lt;br&gt;&lt;br&gt;Fortfarande förvirrad? Se hjälpsidan&lt;a href=&apos;https://git.eden-emu.dev/eden-emu/eden/src/branch/master/docs/user/Orphaned.md&apos;&gt;.&lt;br&gt;</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
+        <source>Really clear data?</source>
+        <translation>Verkligen tömma data?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="347"/>
+        <source>Important data may be lost!</source>
+        <translation>Viktig data kan gå förlorad!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="352"/>
+        <source>Are you REALLY sure?</source>
+        <translation>Är du VERKLIGEN säker?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="353"/>
+        <source>Once deleted, your data will NOT come back!
+Only do this if you&apos;re 100% sure you want to delete this data.</source>
+        <translation>När dina data har raderats kan de INTE återställas!
+Gör detta endast om du är 100% säker på att du vill radera dessa data.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="360"/>
+        <source>Clearing...</source>
+        <translation>Tömmer...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <source>Select Export Location</source>
+        <translation>Välj exportplats</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <source>%1.zip</source>
+        <translation>%1.zip</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="374"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
+        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
+        <source>Zipped Archives (*.zip)</source>
+        <translation>Zippade arkiv (*.zip)</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="380"/>
+        <source>Exporting data. This may take a while...</source>
+        <translation>Exporterar data. Detta kan ta en stund...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="382"/>
+        <source>Exporting</source>
+        <translation>Exporterar</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
+        <source>Exported Successfully</source>
+        <translation>Exporten lyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="403"/>
+        <source>Data was exported successfully.</source>
+        <translation>Data har exporterats.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
+        <source>Export Cancelled</source>
+        <translation>Exporten avbröts</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="405"/>
+        <source>Export was cancelled by the user.</source>
+        <translation>Exporten avbröts av användaren.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="408"/>
+        <source>Export Failed</source>
+        <translation>Exporten misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="409"/>
+        <source>Ensure you have write permissions on the targeted directory and try again.</source>
+        <translation>Kontrollera att du har skrivbehörighet till den aktuella katalogen och försök igen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="428"/>
+        <source>Select Import Location</source>
+        <translation>Välj importplats</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="434"/>
+        <source>Import Warning</source>
+        <translation>Importvarning</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="435"/>
+        <source>All previous data in this directory will be deleted. Are you sure you wish to proceed?</source>
+        <translation>Alla tidigare data i denna katalog kommer att raderas. Är du säker på att du vill fortsätta?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="443"/>
+        <source>Importing data. This may take a while...</source>
+        <translation>Importerar data. Detta kan ta en stund...</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="445"/>
+        <source>Importing</source>
+        <translation>Importerar</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="478"/>
+        <source>Imported Successfully</source>
+        <translation>Importen lyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="478"/>
+        <source>Data was imported successfully.</source>
+        <translation>Data har importerats.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
+        <source>Import Cancelled</source>
+        <translation>Importen avbröts</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="480"/>
+        <source>Import was cancelled by the user.</source>
+        <translation>Importen avbröts av användaren.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="482"/>
+        <source>Import Failed</source>
+        <translation>Importen misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="483"/>
+        <source>Ensure you have read permissions on the targeted directory and try again.</source>
+        <translation>Kontrollera att du har läsbehörighet till den aktuella katalogen och försök igen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="500"/>
+        <source>Keys not installed</source>
+        <translation>Nycklar är inte installerade</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="501"/>
+        <source>Install decryption keys and restart Eden before attempting to install firmware.</source>
+        <translation>Installera dekrypteringsnycklar och starta om Eden innan du försöker installera fast programvara.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="513"/>
+        <source>Select Dumped Firmware Source Location</source>
+        <translation>Välj platsen för den dumpade fasta programvaran</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="524"/>
+        <source>Select Dumped Firmware ZIP</source>
+        <translation>Välj ZIP-fil med dumpad fast programvara</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="541"/>
+        <source>Firmware cleanup failed</source>
+        <translation>Rensning av fast programvara misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/content.cpp" line="542"/>
+        <source>Failed to clean up extracted firmware cache.
+Check write permissions in the system temp directory and try again.
+OS reported error: %1</source>
+        <translation>Kunde inte rensa cacheminnet för extraherad fast programvara.
+Kontrollera skrivbehörigheten i systemets tillfälliga katalog och försök igen.
+Operativsystemet rapporterade fel: %1</translation>
+    </message>
+</context>
+<context>
+    <name>QtCommon::FS</name>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
+        <source>Linked Save Data</source>
+        <translation>Länkat sparat data</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="23"/>
+        <source>Save data has been linked.</source>
+        <translation>Sparat data har länkats.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="26"/>
+        <source>Failed to link save data</source>
+        <translation>Misslyckades med att länka sparat data</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="27"/>
+        <source>Could not link directory:
+	%1
+To:
+	%2</source>
+        <translation>Kunde inte länka katalog:
+	%1
+Till:
+	%2</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="40"/>
+        <source>Already Linked</source>
+        <translation>Redan länkad</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="41"/>
+        <source>This title is already linked to Ryujinx. Would you like to unlink it?</source>
+        <translation>Denna titel är redan länkad till Ryujinx. Vill du avlänka den?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="68"/>
+        <source>Failed to unlink old directory</source>
+        <translation>Misslyckades med att avlänka gammal katalog</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="69"/>
+        <location filename="../../src/qt_common/util/fs.cpp" line="79"/>
+        <source>OS returned error: %1</source>
+        <translation>Operativsystemet returnerade fel: %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="78"/>
+        <source>Failed to copy save data</source>
+        <translation>Misslyckades med att kopiera sparat data</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="83"/>
+        <source>Unlink Successful</source>
+        <translation>Avlänkning lyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="84"/>
+        <source>Successfully unlinked Ryujinx save data. Save data has been kept intact.</source>
+        <translation>Sparat data i Ryujinx avlänkades. Sparat data har behållits intakt.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="97"/>
+        <source>Could not find Ryujinx installation</source>
+        <translation>Kunde inte hitta Ryujinx-installationen</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="98"/>
+        <source>Could not find a valid Ryujinx installation. This may typically occur if you are using Ryujinx in portable mode.
+
+Would you like to manually select a portable folder to use?</source>
+        <translation>Det gick inte att hitta en giltig Ryujinx-installation. Detta kan vanligtvis inträffa om du använder Ryujinx i portabelt läge.
+
+Vill du manuellt välja en portabel mapp att använda?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="105"/>
+        <source>Ryujinx Portable Location</source>
+        <translation>Plats för portabel Ryujinx</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="122"/>
+        <source>Not a valid Ryujinx directory</source>
+        <translation>Inte en giltig Ryujinx-katalog</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="123"/>
+        <source>The specified directory does not contain valid Ryujinx data.</source>
+        <translation>Den angivna katalogen innehåller inte giltig Ryujinx-data.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/fs.cpp" line="141"/>
+        <location filename="../../src/qt_common/util/fs.cpp" line="145"/>
+        <source>Could not find Ryujinx save data</source>
+        <translation>Kunde inte hitta sparat Ryujinx-data</translation>
+    </message>
+</context>
+<context>
+    <name>QtCommon::Game</name>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="192"/>
+        <source>Error Removing Contents</source>
+        <translation>Fel vid borttagning av innehåll</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="194"/>
+        <source>Error Removing Update</source>
+        <translation>Fel vid borttagning av uppdatering</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="196"/>
+        <source>Error Removing DLC</source>
+        <translation>Fel vid borttagning av DLC</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="207"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="220"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="236"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="263"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="297"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="322"/>
+        <source>Successfully Removed</source>
+        <translation>Borttagning lyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="208"/>
+        <source>Successfully removed the installed base game.</source>
+        <translation>Tog bort det installerade basspelet.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="213"/>
+        <source>The base game is not installed in the NAND and cannot be removed.</source>
+        <translation>Basversionen av spelet är inte installerad i NAND och kan inte tas bort.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="221"/>
+        <source>Successfully removed the installed update.</source>
+        <translation>Tog bort den installerade uppdateringen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="224"/>
+        <source>There is no update installed for this title.</source>
+        <translation>Det finns ingen uppdatering installerad för denna titel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="232"/>
+        <source>There are no DLCs installed for this title.</source>
+        <translation>Det finns inga DLC:er installerade för denna titel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="237"/>
+        <source>Successfully removed %1 installed DLC.</source>
+        <translation>Tog bort %1 installerat DLC.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="258"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="266"/>
+        <source>Error Removing Transferable Shader Cache</source>
+        <translation>Fel vid borttagning av överförbar shader-cache</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="259"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="293"/>
+        <source>A shader cache for this title does not exist.</source>
+        <translation>Det finns ingen shader-cache för denna titel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="264"/>
+        <source>Successfully removed the transferable shader cache.</source>
+        <translation>Den överförbara shader-cachen har tagits bort.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="267"/>
+        <source>Failed to remove the transferable shader cache.</source>
+        <translation>Det gick inte att ta bort den överförbara shader-cachen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="282"/>
+        <source>Error Removing Vulkan Driver Pipeline Cache</source>
+        <translation>Fel vid borttagning av Vulkan-drivrutinens pipeline-cache</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="283"/>
+        <source>Failed to remove the driver pipeline cache.</source>
+        <translation>Det gick inte att ta bort drivrutinens pipeline-cache.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="292"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="302"/>
+        <source>Error Removing Transferable Shader Caches</source>
+        <translation>Fel vid borttagning av överförbara shader-cacher</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="298"/>
+        <source>Successfully removed the transferable shader caches.</source>
+        <translation>De överförbara shader-cacherna har tagits bort.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="303"/>
+        <source>Failed to remove the transferable shader cache directory.</source>
+        <translation>Det gick inte att ta bort den överförbara shader-cachekatalogen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="316"/>
+        <location filename="../../src/qt_common/util/game.cpp" line="325"/>
+        <source>Error Removing Custom Configuration</source>
+        <translation>Fel vid borttagning av anpassad konfiguration</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="317"/>
+        <source>A custom configuration for this title does not exist.</source>
+        <translation>Det finns ingen anpassad konfiguration för denna titel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="323"/>
+        <source>Successfully removed the custom game configuration.</source>
+        <translation>Den anpassade konfigurationen för spelet har tagits bort.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="326"/>
+        <source>Failed to remove the custom game configuration.</source>
+        <translation>Det gick inte att ta bort den anpassade spelkonfigurationen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="347"/>
+        <source>Reset Metadata Cache</source>
+        <translation>Återställ metadata-cache</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="353"/>
+        <source>The metadata cache is already empty.</source>
+        <translation>Metadatacachen är redan tom.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="358"/>
+        <source>The operation completed successfully.</source>
+        <translation>Operationen slutfördes utan problem.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="364"/>
+        <source>The metadata cache couldn&apos;t be deleted. It might be in use or non-existent.</source>
+        <translation>Metadatacachen kunde inte tas bort. Den kan vara i bruk eller finns inte.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
+        <source>Create Shortcut</source>
+        <translation>Skapa genväg</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="381"/>
+        <source>Do you want to launch the game in fullscreen?</source>
+        <translation>Vill du starta spelet i helskärm?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
+        <source>Shortcut Created</source>
+        <translation>Genväg skapad</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="385"/>
+        <source>Successfully created a shortcut to %1</source>
+        <translation>Skapade en genväg till %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="390"/>
+        <source>Shortcut may be Volatile!</source>
+        <translation>Genvägen kan vara instabil!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="391"/>
+        <source>This will create a shortcut to the current AppImage. This may not work well if you update. Continue?</source>
+        <translation>Detta skapar en genväg till den aktuella AppImage. Detta kanske inte fungerar bra om du uppdaterar. Vill du fortsätta?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="397"/>
+        <source>Failed to Create Shortcut</source>
+        <translation>Misslyckades med att skapa genväg</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="398"/>
+        <source>Failed to create a shortcut to %1</source>
+        <translation>Misslyckades med att skapa en genväg till %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="464"/>
+        <source>Create Icon</source>
+        <translation>Skapa ikon</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="465"/>
+        <source>Cannot create icon file. Path &quot;%1&quot; does not exist and cannot be created.</source>
+        <translation>Det går inte att skapa ikonfilen. Sökvägen ”%1” finns inte och kan inte skapas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="518"/>
+        <source>No firmware available</source>
+        <translation>Inget firmware tillgängligt</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="519"/>
+        <source>Please install firmware to use the home menu.</source>
+        <translation>Installera firmware för att använda hemmenyn.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="525"/>
+        <source>Home Menu Applet</source>
+        <translation>Applet för hemmeny</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/game.cpp" line="526"/>
+        <source>Home Menu is not available. Please reinstall firmware.</source>
+        <translation>Hemmenyn är inte tillgänglig. Installera om firmware.</translation>
+    </message>
+</context>
+<context>
+    <name>QtCommon::Mod</name>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
+        <source>Mod Name</source>
+        <translation>Modnamn</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="48"/>
+        <source>What should this mod be called?</source>
+        <translation>Vad ska denna mod heta?</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="58"/>
+        <source>RomFS</source>
+        <translation>RomFS</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="59"/>
+        <source>ExeFS/Patch</source>
+        <translation>ExeFS/Patch</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="60"/>
+        <source>Cheat</source>
+        <translation>Fusk</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="64"/>
+        <source>Mod Type</source>
+        <translation>Modtyp</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="65"/>
+        <source>Could not detect mod type automatically. Please manually specify the type of mod you downloaded.
+
+Most mods are RomFS mods, but patches (.pchtxt) are typically ExeFS mods.</source>
+        <translation>Det gick inte att upptäcka modtypen automatiskt. Ange manuellt vilken typ av mod du har laddat ner.
+
+De flesta mods är RomFS-mods, men patchar (.pchtxt) är vanligtvis ExeFS-mods.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="127"/>
+        <location filename="../../src/qt_common/util/mod.cpp" line="140"/>
+        <source>Mod Extract Failed</source>
+        <translation>Mod-extrahering misslyckades</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="128"/>
+        <source>Failed to create temporary directory %1</source>
+        <translation>Det gick inte att skapa den tillfälliga katalogen %1</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/mod.cpp" line="141"/>
+        <source>Zip file %1 is empty</source>
+        <translation>Zip-filen %1 är tom</translation>
+    </message>
+</context>
+<context>
+    <name>QtCommon::Path</name>
+    <message>
+        <location filename="../../src/qt_common/util/path.cpp" line="19"/>
+        <source>Error Opening Shader Cache</source>
+        <translation>Fel vid öppning av shader-cache</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/util/path.cpp" line="20"/>
+        <source>Failed to create or open shader cache for this title, ensure your app data directory has write permissions.</source>
+        <translation>Det gick inte att skapa eller öppna shader-cache för den här titeln. Kontrollera att din appdatakatalog har skrivbehörighet.</translation>
+    </message>
+</context>
+<context>
+    <name>QtCommon::StringLookup</name>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="70"/>
+        <source>Contains game save data. DO NOT REMOVE UNLESS YOU KNOW WHAT YOU&apos;RE DOING!</source>
+        <translation>Innehåller sparat speldata. TA INTE BORT DEN OM DU INTE VET VAD DU GÖR!</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="72"/>
+        <source>Contains Vulkan and OpenGL pipeline caches. Generally safe to remove.</source>
+        <translation>Innehåller Vulkan- och OpenGL-pipeline-cacher. Generellt sett säkert att ta bort.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="73"/>
+        <source>Contains updates and DLC for games.</source>
+        <translation>Innehåller uppdateringar och DLC för spel.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="74"/>
+        <source>Contains firmware and applet data.</source>
+        <translation>Innehåller firmware- och appletdata.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="75"/>
+        <source>Contains game mods, patches, and cheats.</source>
+        <translation>Innehåller spelmoddar, patchar och fusk.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="79"/>
+        <source>Decryption Keys were successfully installed</source>
+        <translation>Avkrypteringsnycklarna har installerats</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="80"/>
+        <source>Unable to read key directory, aborting</source>
+        <translation>Kunde inte läsa nyckelkatalogen, avbryter</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="81"/>
+        <source>One or more keys failed to copy.</source>
+        <translation>En eller flera nycklar misslyckades att kopieras.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="83"/>
+        <source>Verify your keys file has a .keys extension and try again.</source>
+        <translation>Kontrollera att din nyckelfil har filändelsen .keys och försök igen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="85"/>
+        <source>Decryption Keys failed to initialize. Check that your dumping tools are up to date and re-dump keys.</source>
+        <translation>Avkrypteringsnycklarna kunde inte initialiseras. Kontrollera att dina dumpningsverktyg är uppdaterade och dumpa nycklarna igen.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="91"/>
+        <source>Successfully installed firmware version %1</source>
+        <translation>Firmware-version %1 har installerats.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="92"/>
+        <source>Unable to locate potential firmware NCA files</source>
+        <translation>Det går inte att hitta potentiella NCA-filer för firmware.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="93"/>
+        <source>Failed to delete one or more firmware files.</source>
+        <translation>Det gick inte att ta bort en eller flera firmware-filer.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="94"/>
+        <source>One or more firmware files failed to copy into NAND.</source>
+        <translation>En eller flera firmware-filer kunde inte kopieras till NAND.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="96"/>
+        <source>Firmware installation cancelled, firmware may be in a bad state or corrupted. Restart Eden or re-install firmware.</source>
+        <translation>Installationen av firmware avbröts, firmware kan vara i ett felaktigt tillstånd eller skadat. Starta om Eden eller installera om firmware.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="101"/>
+        <source>Firmware missing. Firmware is required to run certain games and use the Home Menu.</source>
+        <translation>Firmware saknas. Firmware krävs för att köra vissa spel och använda hemmenyn.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="104"/>
+        <source>Firmware reported as present, but was unable to be read. Check for decryption keys and redump firmware if necessary.</source>
+        <translation>Firmware rapporterades som närvarande, men kunde inte läsas. Kontrollera om det finns avkrypteringsnycklar och dumpa om firmware vid behov.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="110"/>
+        <source>Eden has detected user data for the following emulators:</source>
+        <translation>Eden har upptäckt användardata för följande emulatorer:</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="112"/>
+        <source>Would you like to migrate your data for use in Eden?
+Select the corresponding button to migrate data from that emulator.
+This may take a while.</source>
+        <translation>Vill du migrera dina data för användning i Eden?
+Välj motsvarande knapp för att migrera data från den emulatorn.
+Detta kan ta en stund.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="115"/>
+        <source>Clearing shader cache is recommended for all users.
+Do not uncheck unless you know what you&apos;re doing.</source>
+        <translation>Det rekommenderas att alla användare rensar shader-cachen.
+Avmarkera såvida inte du vet vad du gör.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="119"/>
+        <source>Keeps the old data directory. This is recommended if you aren't
+space-constrained and want to keep separate data for the old emulator.</source>
+        <translation>Behåller den gamla datakatalogen. Detta rekommenderas om du
+inte har utrymmesbegränsningar och vill behålla separata data för den gamla emulatorn.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="121"/>
+        <source>Deletes the old data directory.
+This is recommended on devices with space constraints.</source>
+        <translation>Tar bort den gamla datakatalogen.
+Detta rekommenderas på enheter med begränsat utrymme.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="124"/>
+        <source>Creates a filesystem link between the old directory and Eden directory.
+This is recommended if you want to share data between emulators.</source>
+        <translation>Skapar en filsystemslänk mellan den gamla katalogen och Eden-katalogen.
+Detta rekommenderas om du vill dela data mellan emulatorer.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="129"/>
+        <source>Ryujinx title database does not exist.</source>
+        <translation>Ryujinx titeldatabas finns inte.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="130"/>
+        <source>Invalid header on Ryujinx title database.</source>
+        <translation>Ogiltigt huvud på Ryujinx titeldatabas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="131"/>
+        <source>Invalid magic header on Ryujinx title database.</source>
+        <translation>Ogiltig magic header på Ryujinx titeldatabas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="132"/>
+        <source>Invalid byte alignment on Ryujinx title database.</source>
+        <translation>Ogiltig byteordning på Ryujinx titeldatabas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="133"/>
+        <source>No items found in Ryujinx title database.</source>
+        <translation>Inga objekt hittades i Ryujinx titeldatabas.</translation>
+    </message>
+    <message>
+        <location filename="../../src/qt_common/qt_string_lookup.h" line="134"/>
+        <source>Title %1 not found in Ryujinx title database.</source>
+        <translation>Titeln %1 hittades inte i Ruijinx titeldatabas.</translation>
     </message>
 </context>
 <context>
@@ -8819,7 +10202,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1656"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1857"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="2054"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="465"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="470"/>
         <source>Pro Controller</source>
         <translation>Pro Controller</translation>
     </message>
@@ -8832,7 +10215,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1661"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1862"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="2059"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="469"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="474"/>
         <source>Dual Joycons</source>
         <translation>Dubbla Joycons</translation>
     </message>
@@ -8845,7 +10228,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1666"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1867"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="2064"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="473"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="478"/>
         <source>Left Joycon</source>
         <translation>Vänster Joycon</translation>
     </message>
@@ -8858,7 +10241,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1671"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="1872"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="2069"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="477"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="482"/>
         <source>Right Joycon</source>
         <translation>Höger Joycon</translation>
     </message>
@@ -8887,7 +10270,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="932"/>
         <location filename="../../src/yuzu/applets/qt_controller.ui" line="2303"/>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="481"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="486"/>
         <source>Handheld</source>
         <translation>Handhållen</translation>
     </message>
@@ -9008,32 +10391,32 @@ p, li { white-space: pre-wrap; }
         <translation>Inte tillräckligt med kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="485"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="490"/>
         <source>GameCube Controller</source>
         <translation>GameCube-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="494"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="499"/>
         <source>Poke Ball Plus</source>
         <translation>Poke Ball Plus</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="498"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="503"/>
         <source>NES Controller</source>
         <translation>NES-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="502"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="507"/>
         <source>SNES Controller</source>
         <translation>SNES-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="506"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="511"/>
         <source>N64 Controller</source>
         <translation>N64-kontroller</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="510"/>
+        <location filename="../../src/yuzu/applets/qt_controller.cpp" line="515"/>
         <source>Sega Genesis</source>
         <translation>Sega Genesis</translation>
     </message>
@@ -9041,28 +10424,28 @@ p, li { white-space: pre-wrap; }
 <context>
     <name>QtErrorDisplay</name>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="27"/>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="40"/>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="55"/>
+        <location filename="../../src/yuzu/applets/qt_error.cpp" line="30"/>
+        <location filename="../../src/yuzu/applets/qt_error.cpp" line="43"/>
+        <location filename="../../src/yuzu/applets/qt_error.cpp" line="58"/>
         <source>Error Code: %1-%2 (0x%3)</source>
         <translation>Felkod: %1-%2 (0x%3)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="31"/>
+        <location filename="../../src/yuzu/applets/qt_error.cpp" line="34"/>
         <source>An error has occurred.
 Please try again or contact the developer of the software.</source>
         <translation>Ett fel har inträffat.
 Försök igen eller kontakta utvecklaren av programvaran.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="44"/>
+        <location filename="../../src/yuzu/applets/qt_error.cpp" line="47"/>
         <source>An error occurred on %1 at %2.
 Please try again or contact the developer of the software.</source>
         <translation>Ett fel inträffade på %1 vid %2.
 Försök igen eller kontakta programvarans utvecklare.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_error.cpp" line="59"/>
+        <location filename="../../src/yuzu/applets/qt_error.cpp" line="62"/>
         <source>An error has occurred.
 
 %1
@@ -9078,7 +10461,7 @@ Försök igen eller kontakta programvarans utvecklare.</translation>
 <context>
     <name>QtProfileSelectionDialog</name>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="25"/>
+        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="28"/>
         <source>%1
 %2</source>
         <comment>%1 is the profile username, %2 is the formatted UUID (e.g. 00112233-4455-6677-8899-AABBCCDDEEFF))</comment>
@@ -9086,7 +10469,7 @@ Försök igen eller kontakta programvarans utvecklare.</translation>
 %2</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="87"/>
+        <location filename="../../src/yuzu/applets/qt_profile_select.cpp" line="90"/>
         <source>Users</source>
         <translation>Användare</translation>
     </message>
@@ -9179,7 +10562,7 @@ Försök igen eller kontakta programvarans utvecklare.</translation>
         <source>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:26pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:26pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -9188,15 +10571,57 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="403"/>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="413"/>
+        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="405"/>
+        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="415"/>
         <source>OK</source>
         <translation>OK</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="413"/>
+        <location filename="../../src/yuzu/applets/qt_software_keyboard.cpp" line="415"/>
         <source>Cancel</source>
         <translation>Avbryt</translation>
+    </message>
+</context>
+<context>
+    <name>RyujinxDialog</name>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="14"/>
+        <source>Ryujinx Link</source>
+        <translation>Länka Ryujinx</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="26"/>
+        <source>Linking save data to Ryujinx lets both Ryujinx and Eden reference the same save files for your games.
+
+By selecting &quot;From Eden&quot;, previous save data stored in Ryujinx will be deleted, and vice versa for &quot;From Ryujinx&quot;.</source>
+        <translation>Genom att länka sparade data till Ryujinx kan både Ryujinx och Eden referera till samma sparade filer för dina spel.
+
+Om du väljer ”Från Eden” tas tidigare sparade data bort som lagrats i Ryujinx, och vice versa för ”Från Ryujinx”.</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="40"/>
+        <source>From Eden</source>
+        <translation>Från Eden</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="47"/>
+        <source>From Ryujinx</source>
+        <translation>Från Ryujinx</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.ui" line="54"/>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.cpp" line="37"/>
+        <source>Failed to link save data</source>
+        <translation>Misslyckades med att länka sparat data</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/ryujinx_dialog.cpp" line="38"/>
+        <source>OS returned error: %1</source>
+        <translation>OS returnerade fel: %1</translation>
     </message>
 </context>
 <context>
@@ -9208,150 +10633,125 @@ p, li { white-space: pre-wrap; }
     </message>
 </context>
 <context>
-    <name>WaitTreeCallstack</name>
+    <name>SetPlayTimeDialog</name>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="118"/>
-        <source>Call stack</source>
-        <translation>Anropsstack</translation>
+        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="14"/>
+        <source>Set Play Time Data</source>
+        <translation>Ställ in data för speltid</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="25"/>
+        <source>Hours:</source>
+        <translation>Timmar:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="39"/>
+        <source>Minutes:</source>
+        <translation>Minuter:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/set_play_time_dialog.ui" line="53"/>
+        <source>Seconds:</source>
+        <translation>Sekunder:</translation>
+    </message>
+    <message>
+        <location filename="../../src/yuzu/set_play_time_dialog.cpp" line="49"/>
+        <source>Total play time reached maximum.</source>
+        <translation>Maximal total speltid uppnådd.</translation>
     </message>
 </context>
 <context>
-    <name>WaitTreeSynchronizationObject</name>
+    <name>UpdateDialog</name>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="156"/>
-        <source>[%1] %2</source>
-        <translation>[%1] %2</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.ui" line="14"/>
+        <source>Update Available</source>
+        <translation>Uppdatering tillgänglig</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="182"/>
-        <source>waited by no thread</source>
-        <translation>väntar på ingen tråd</translation>
-    </message>
-</context>
-<context>
-    <name>WaitTreeThread</name>
-    <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="200"/>
-        <source>runnable</source>
-        <translation>körbart</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.ui" line="20"/>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="31"/>
+        <source>&lt;a href=&quot;%1&quot;&gt;View on Forgejo&lt;/a&gt;</source>
+        <translation>&lt;a href=&quot;%1&quot;&gt;Visa på Forgejo&lt;/a&gt;</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="202"/>
-        <source>paused</source>
-        <translation>pausad</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.ui" line="33"/>
+        <source>Would you like to install this update?</source>
+        <translation>Vill du installera denna uppdatering?</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="208"/>
-        <source>sleeping</source>
-        <translation>sovande</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.ui" line="50"/>
+        <source>Available Versions</source>
+        <translation>Tillgängliga versioner</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="211"/>
-        <source>waiting for IPC reply</source>
-        <translation>väntar på IPC-svar</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.ui" line="58"/>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="29"/>
+        <source>%1 is available for download.</source>
+        <translation>%1 finns tillgänglig för hämtning.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="214"/>
-        <source>waiting for objects</source>
-        <translation>väntar på objekt</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="80"/>
+        <source>New Version Location</source>
+        <translation>Plats för ny version</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="217"/>
-        <source>waiting for condition variable</source>
-        <translation>väntar på villkorsvariabel</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="82"/>
+        <source>All Files (*.*)</source>
+        <translation>Alla filer (*.*)</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="220"/>
-        <source>waiting for address arbiter</source>
-        <translation>väntar på adressförmedlare</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="90"/>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="130"/>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="145"/>
+        <source>Failed to save file</source>
+        <translation>Misslyckades med att spara filen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="223"/>
-        <source>waiting for suspend resume</source>
-        <translation>väntar på att avbryta återuppta</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="91"/>
+        <source>Could not open file %1 for writing.</source>
+        <translation>Kunde inte öppna filen %1 för skrivning.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="226"/>
-        <source>waiting</source>
-        <translation>väntar</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="113"/>
+        <source>Downloading...</source>
+        <translation>Hämtar ner...</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="231"/>
-        <source>initialized</source>
-        <translation>initialiserad</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="113"/>
+        <source>Cancel</source>
+        <translation>Avbryt</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="234"/>
-        <source>terminated</source>
-        <translation>avslutad</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="131"/>
+        <source>Could not write to file %1.</source>
+        <translation>Kunde inte skriva till filen %1.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="237"/>
-        <source>unknown</source>
-        <translation>okänd</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="146"/>
+        <source>Could not commit to file %1.</source>
+        <translation>Kunde inte verkställa ändringar i filen %1.</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="242"/>
-        <source> PC = 0x%1 LR = 0x%2</source>
-        <translation> PC = 0x%1 LR = 0x%2</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="158"/>
+        <source>Failed to download file</source>
+        <translation>Kunde inte hämta filen</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="292"/>
-        <source>ideal</source>
-        <translation>idealisk</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="159"/>
+        <source>Could not download from %1%2
+Error code: %3</source>
+        <translation>Kunde inte hämta från %1%2
+Felkod: %3</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="295"/>
-        <source>core %1</source>
-        <translation>kärna %1</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="172"/>
+        <source>Download Complete</source>
+        <translation>Hämtningen är klar</translation>
     </message>
     <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="299"/>
-        <source>processor = %1</source>
-        <translation>processor = %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="301"/>
-        <source>affinity mask = %1</source>
-        <translation>affinitetsmask = %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="302"/>
-        <source>thread id = %1</source>
-        <translation>tråd-ID = %1</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="303"/>
-        <source>priority = %1(current) / %2(normal)</source>
-        <translation>prioritet = %1(aktuell) / %2(normal)</translation>
-    </message>
-    <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="307"/>
-        <source>last running ticks = %1</source>
-        <translation>senast körande ticks = %1</translation>
-    </message>
-</context>
-<context>
-    <name>WaitTreeThreadList</name>
-    <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="323"/>
-        <source>waited by thread</source>
-        <translation>väntar på tråd</translation>
-    </message>
-</context>
-<context>
-    <name>WaitTreeWidget</name>
-    <message>
-        <location filename="../../src/yuzu/debugger/wait_tree.cpp" line="397"/>
-        <source>&amp;Wait Tree</source>
-        <translation>&amp;Väntträd</translation>
-    </message>
-</context>
-<context>
-    <name>NetworkMessage::ErrorManager</name>
-    <message>
-        <source>Error</source>
-        <translation type="vanished">Fel</translation>
+        <location filename="../../src/yuzu/updater/update_dialog.cpp" line="173"/>
+        <source>Successfully downloaded %1. Would you like to open it?</source>
+        <translation>%1 har hämtats. Vill du öppna den?</translation>
     </message>
 </context>
 </TS>
