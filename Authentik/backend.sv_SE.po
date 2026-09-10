@@ -1204,30 +1204,32 @@ msgid ""
 "Select which transports should be used to notify the reviewers. If none are "
 "selected, the notification will only be shown in the authentik UI."
 msgstr ""
+"Välj vilka transportsätt som ska användas för att underrätta granskarna. Om "
+"inga väljs visas meddelandet endast i authentiks gränssnitt."
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Lifecycle Rule Reviewer Group"
-msgstr ""
+msgstr "Granskargrupp för livscykelregel"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Lifecycle Rule Reviewer Groups"
-msgstr ""
+msgstr "Granskargrupper för livscykelregler"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Lifecycle Rule Reviewer"
-msgstr ""
+msgstr "Granskare av livscykelregel"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Lifecycle Rule Reviewers"
-msgstr ""
+msgstr "Granskare av livscykelregler"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Lifecycle Rule Notification Transport"
-msgstr ""
+msgstr "Meddelandetransport för livscykelregel"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Lifecycle Rule Notification Transports"
-msgstr ""
+msgstr "Meddelandetransporter för livscykelregler"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Reviewed"
@@ -1239,58 +1241,63 @@ msgstr "Försenad"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Go to {self._get_model_name()}"
-msgstr ""
+msgstr "Gå till {self._get_model_name()}"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid ""
 "Access review is due for {self.content_type.name.lower()} {object_label}"
 msgstr ""
+"Åtkomstgranskning ska göras för {self.content_type.name.lower()} "
+"{object_label}"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid ""
 "Access review is overdue for {self.content_type.name} {str(self.object)}"
 msgstr ""
+"Åtkomstgranskning är försenad för {self.content_type.name} "
+"{str(self.object)}"
 
 #: authentik/enterprise/lifecycle/review/models.py
 msgid "Access review completed for {self.content_type.name} {str(self.object)}"
 msgstr ""
+"Åtkomstgranskning slutförd för {self.content_type.name} {str(self.object)}"
 
 #: authentik/enterprise/lifecycle/review/tasks.py
 msgid "Dispatch tasks to apply lifecycle rules."
-msgstr ""
+msgstr "Skicka ut uppgifter för att tillämpa livscykelregler."
 
 #: authentik/enterprise/lifecycle/review/tasks.py
 msgid "Apply lifecycle rule."
-msgstr ""
+msgstr "Tillämpa livscykelregel."
 
 #: authentik/enterprise/lifecycle/review/tasks.py
 msgid "Send lifecycle rule notification."
-msgstr ""
+msgstr "Skicka meddelande om livscykelregel."
 
 #: authentik/enterprise/models.py
 msgid "License"
-msgstr ""
+msgstr "Licens"
 
 #: authentik/enterprise/models.py
 msgid "Licenses"
-msgstr ""
+msgstr "Licenser"
 
 #: authentik/enterprise/models.py
 msgid "License Usage"
-msgstr ""
+msgstr "Licensanvändning"
 
 #: authentik/enterprise/models.py
 msgid "License Usage Records"
-msgstr ""
+msgstr "Poster över licensanvändning"
 
 #: authentik/enterprise/policies/unique_password/models.py
 #: authentik/policies/password/models.py
 msgid "Field key to check, field keys defined in Prompt stages are available."
-msgstr ""
+msgstr "Fältnyckel att kontrollera; fältnycklar som definierats i promptsteg är tillgängliga."
 
 #: authentik/enterprise/policies/unique_password/models.py
 msgid "Number of passwords to check against."
-msgstr ""
+msgstr "Antal lösenord att kontrollera mot."
 
 #: authentik/enterprise/policies/unique_password/models.py
 #: authentik/policies/password/models.py
@@ -1318,10 +1325,12 @@ msgid ""
 "Check if any UniquePasswordPolicy exists, and if not, purge the password "
 "history table."
 msgstr ""
+"Kontrollera om någon UniquePasswordPolicy finns och rensa annars tabellen "
+"med lösenordshistorik."
 
 #: authentik/enterprise/policies/unique_password/tasks.py
 msgid "Remove user password history that are too old."
-msgstr ""
+msgstr "Ta bort för gammal lösenordshistorik för användare."
 
 #: authentik/enterprise/policy.py
 msgid "Enterprise required to access this feature."
@@ -1333,87 +1342,93 @@ msgstr "Funktionen är endast åtkomlig för interna användare."
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider User"
-msgstr ""
+msgstr "Användare av Google Workspace-leverantör"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider Users"
-msgstr ""
+msgstr "Användare av Google Workspace-leverantörer"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider Group"
-msgstr ""
+msgstr "Grupp för Google Workspace-leverantör"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider Groups"
-msgstr ""
+msgstr "Grupper för Google Workspace-leverantörer"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 #: authentik/enterprise/providers/microsoft_entra/models.py
 #: authentik/providers/scim/models.py
 msgid "Property mappings used for group creation/updating."
-msgstr ""
+msgstr "Egenskapsmappningar som används för att skapa eller uppdatera grupper."
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider"
-msgstr ""
+msgstr "Google Workspace-leverantör"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Providers"
-msgstr ""
+msgstr "Google Workspace-leverantörer"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider Property Mappings Group"
-msgstr ""
+msgstr "Grupp med egenskapsmappningar för Google Workspace-leverantör"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider Property Mappings Groups"
-msgstr ""
+msgstr "Grupper med egenskapsmappningar för Google Workspace-leverantörer"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider Mapping"
-msgstr ""
+msgstr "Mappning för Google Workspace-leverantör"
 
 #: authentik/enterprise/providers/google_workspace/models.py
 msgid "Google Workspace Provider Mappings"
-msgstr ""
+msgstr "Mappningar för Google Workspace-leverantörer"
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid "Sync Google Workspace provider objects."
-msgstr ""
+msgstr "Synkronisera objekt för Google Workspace-leverantör."
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid "Full sync for Google Workspace provider."
-msgstr ""
+msgstr "Fullständig synkronisering för Google Workspace-leverantör."
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid "Sync a direct object (user, group) for Google Workspace provider."
-msgstr ""
+msgstr "Synkronisera ett direkt objekt (användare, grupp) för Google Workspace-leverantör."
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid ""
 "Dispatch deletions for an object (user, group) for Google Workspace "
 "providers."
 msgstr ""
+"Skicka ut borttagningar för ett objekt (användare, grupp) till Google "
+"Workspace-leverantörer."
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid "Delete an object (user, group) for Google Workspace provider."
-msgstr ""
+msgstr "Ta bort ett objekt (användare, grupp) för Google Workspace-leverantör."
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid ""
 "Dispatch syncs for a direct object (user, group) for Google Workspace "
 "providers."
 msgstr ""
+"Skicka ut synkroniseringar för ett direkt objekt (användare, grupp) till "
+"Google Workspace-leverantörer."
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid "Sync a related object (memberships) for Google Workspace provider."
-msgstr ""
+msgstr "Synkronisera ett relaterat objekt (medlemskap) för Google Workspace-leverantör."
 
 #: authentik/enterprise/providers/google_workspace/tasks.py
 msgid ""
 "Dispatch syncs for a related object (memberships) for Google Workspace "
 "providers."
 msgstr ""
+"Skicka ut synkroniseringar för ett relaterat objekt (medlemskap) till "
+"Google Workspace-leverantörer."
 
 #: authentik/enterprise/providers/microsoft_entra/models.py
 msgid "Microsoft Entra Provider User"
