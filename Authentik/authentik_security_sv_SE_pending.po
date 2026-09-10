@@ -1,0 +1,264 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: authentik security draft\n"
+"PO-Revision-Date: 2026-09-10 00:00+0000\n"
+"Last-Translator: Swedish localization team\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: authentik/core/api/users.py
+msgid "User does not have permission to add members to a superuser group."
+msgstr "Användaren har inte behörighet att lägga till medlemmar i en superanvändargrupp."
+
+#: authentik/core/api/users.py
+msgid "User does not have permission to assign roles."
+msgstr "Användaren har inte behörighet att tilldela roller."
+
+#: authentik/core/api/users.py
+msgid "Cannot set both password and password_hash. Use only one."
+msgstr "Det går inte att ange både password och password_hash. Använd endast ett av dem."
+
+#: authentik/core/api/users.py
+msgid "Can't modify internal service account users"
+msgstr "Det går inte att ändra interna tjänstekontoanvändare"
+
+#: authentik/core/api/users.py
+msgid "No recovery flow set."
+msgstr "Inget återställningsflöde har angetts."
+
+#: authentik/core/api/users.py
+msgid "Recovery flow not applicable to user"
+msgstr "Återställningsflödet är inte tillämpligt på användaren"
+
+#: authentik/core/api/users.py
+msgid "User does not have an email address set."
+msgstr "Användaren har ingen e-postadress angiven."
+
+#: authentik/core/models.py authentik/stages/email/templates/email/password_reset.html
+msgid "Reset Password"
+msgstr "Återställ lösenord"
+
+#: authentik/core/models.py
+msgid "Can impersonate other users"
+msgstr "Kan personifiera andra användare"
+
+#: authentik/core/models.py
+msgid "Can preview user data sent to providers"
+msgstr "Kan förhandsgranska användardata som skickas till leverantörer"
+
+#: authentik/core/models.py
+msgid "View applications the user has access to"
+msgstr "Visa program som användaren har åtkomst till"
+
+#: authentik/stages/authenticator_email/stage.py authentik/stages/authenticator_sms/stage.py authentik/stages/authenticator_totp/stage.py
+msgid "Code does not match"
+msgstr "Koden stämmer inte"
+
+#: authentik/stages/authenticator_email/stage.py
+msgid "Invalid email"
+msgstr "Ogiltig e-postadress"
+
+#: authentik/stages/authenticator_email/stage.py
+msgid "The user already has an email address registered for MFA."
+msgstr "Användaren har redan en e-postadress registrerad för MFA."
+
+#: authentik/stages/authenticator_email/templates/email/email_otp.txt authentik/stages/email/templates/email/password_reset.txt
+#, python-format
+msgid "Hi %(username)s,"
+msgstr "Hej %(username)s,"
+
+#: authentik/stages/authenticator_email/templates/email/email_otp.txt
+msgid "\nEmail MFA code\n"
+msgstr "\nMFA-kod via e-post\n"
+
+#: authentik/stages/authenticator_sms/models.py
+#, python-brace-format
+msgid "Use this code to authenticate in authentik: {token}"
+msgstr "Använd den här koden för att autentisera dig i authentik: {token}"
+
+#: authentik/stages/authenticator_sms/stage.py
+msgid "Invalid phone number"
+msgstr "Ogiltigt telefonnummer"
+
+#: authentik/stages/authenticator_totp/models.py
+msgid "6 digits, widely compatible"
+msgstr "6 siffror, brett kompatibelt"
+
+#: authentik/stages/authenticator_totp/models.py
+msgid "8 digits, not compatible with apps like Google Authenticator"
+msgstr "8 siffror, inte kompatibelt med appar som Google Authenticator"
+
+#: authentik/stages/authenticator_validate/challenge.py
+msgid "Invalid Token. Please ensure the time on your device is accurate and try again."
+msgstr "Ogiltig token. Kontrollera att tiden på din enhet är korrekt och försök igen."
+
+#: authentik/stages/authenticator_validate/models.py
+msgid "Enforce user verification for WebAuthn devices."
+msgstr "Kräv användarverifiering för WebAuthn-enheter."
+
+#: authentik/stages/authenticator_validate/stage.py
+msgid "No (allowed) MFA authenticator configured."
+msgstr "Ingen (tillåten) MFA-autentiserare har konfigurerats."
+
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Authenticator Setup Stage"
+msgstr "Konfigurationssteg för WebAuthn-autentiserare"
+
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Authenticator Setup Stages"
+msgstr "Konfigurationssteg för WebAuthn-autentiserare"
+
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Device"
+msgstr "WebAuthn-enhet"
+
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Devices"
+msgstr "WebAuthn-enheter"
+
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Device type"
+msgstr "WebAuthn-enhetstyp"
+
+#: authentik/stages/authenticator_webauthn/models.py
+msgid "WebAuthn Device types"
+msgstr "WebAuthn-enhetstyper"
+
+#: authentik/stages/authenticator_webauthn/tasks.py
+msgid "Background task to import FIDO Alliance MDS blob and AAGUIDs into database."
+msgstr "Bakgrundsaktivitet för att importera FIDO Alliance MDS-blob och AAGUID:er till databasen."
+
+#: authentik/stages/captcha/models.py
+msgid "Public key, acquired your captcha Provider."
+msgstr "Offentlig nyckel, hämtad från din captcha-leverantör."
+
+#: authentik/stages/captcha/models.py
+msgid "Private key, acquired your captcha Provider."
+msgstr "Privat nyckel, hämtad från din captcha-leverantör."
+
+#: authentik/stages/captcha/stage.py
+msgid "Invalid captcha response. Retrying may solve this issue."
+msgstr "Ogiltigt captcha-svar. Ett nytt försök kan lösa problemet."
+
+#: authentik/stages/captcha/stage.py
+msgid "Failed to validate token"
+msgstr "Det gick inte att validera token"
+
+#: authentik/stages/consent/stage.py
+msgid "Invalid consent token, re-showing prompt"
+msgstr "Ogiltig samtyckestoken, frågan visas igen"
+
+#: authentik/stages/email/flow.py
+msgid "Continue to confirm this email address."
+msgstr "Fortsätt för att bekräfta den här e-postadressen."
+
+#: authentik/stages/email/flow.py
+msgid "Link was already used, please request a new link."
+msgstr "Länken har redan använts. Begär en ny länk."
+
+#: authentik/stages/email/models.py
+msgid "Account Confirmation"
+msgstr "Kontobekräftelse"
+
+#: authentik/stages/email/models.py
+msgid "Email OTP"
+msgstr "Engångslösenord via e-post"
+
+#: authentik/stages/email/stage.py
+msgid "Successfully verified Email."
+msgstr "E-postadressen har verifierats."
+
+#: authentik/stages/email/stage.py
+msgid "No pending user."
+msgstr "Ingen väntande användare."
+
+#: authentik/stages/email/stage.py
+#, python-brace-format
+msgid "Too many account verification attempts. Please try again after {minutes} minutes."
+msgstr "För många försök att verifiera kontot. Försök igen om {minutes} minuter."
+
+#: authentik/sources/oauth/views/callback.py
+#, python-brace-format
+msgid "Authentication failed: {reason}"
+msgstr "Autentiseringen misslyckades: {reason}"
+
+#: authentik/sources/saml/api/source.py
+msgid "With a Verification Certificate selected, at least one of 'Verify Assertion Signature' or 'Verify Response Signature' must be selected."
+msgstr "När ett verifieringscertifikat har valts måste minst ett av ”Verifiera assertionssignatur” eller ”Verifiera svarssignatur” väljas."
+
+#: authentik/sources/saml/models.py
+msgid "Flow used before authentication."
+msgstr "Flöde som används före autentisering."
+
+#: authentik/sources/saml/models.py
+msgid "SSO URL"
+msgstr "SSO-URL"
+
+#: authentik/sources/saml/models.py
+msgid "URL that the initial Login request is sent to."
+msgstr "URL som den första inloggningsbegäran skickas till."
+
+#: authentik/sources/saml/models.py
+msgid "SLO URL"
+msgstr "SLO-URL"
+
+#: authentik/sources/saml/models.py
+msgid "Optional URL if your IDP supports Single-Logout."
+msgstr "Valfri URL om din IdP stöder enkel utloggning."
+
+#: authentik/sources/saml/models.py
+msgid "Allows authentication flows initiated by the IdP. This can be a security risk, as no validation of the request ID is done."
+msgstr "Tillåter autentiseringsflöden som initieras av IdP:n. Detta kan vara en säkerhetsrisk eftersom begärande-ID:t inte valideras."
+
+#: authentik/sources/saml/models.py
+msgid "When enabled, the IdP will re-authenticate the user even if a session exists."
+msgstr "När funktionen är aktiverad autentiserar IdP:n användaren på nytt även om en session finns."
+
+#: authentik/sources/saml/models.py
+msgid "NameID Policy sent to the IdP. Can be unset, in which case no Policy is sent."
+msgstr "NameID-princip som skickas till IdP:n. Den kan vara avaktiverad, och då skickas ingen princip."
+
+#: authentik/sources/saml/models.py
+msgid "Delete temporary users after"
+msgstr "Ta bort tillfälliga användare efter"
+
+#: authentik/sources/saml/models.py
+msgid "Keypair used to sign outgoing Responses going to the Identity Provider."
+msgstr "Nyckelpar som används för att signera utgående svar till identitetsleverantören."
+
+#: authentik/sources/saml/views.py
+#, python-brace-format
+msgid "Continue to {source_name}"
+msgstr "Fortsätt till {source_name}"
+
+#: authentik/sources/telegram/api/source.py
+msgid "This Telegram account is already connected to another user."
+msgstr "Det här Telegram-kontot är redan kopplat till en annan användare."
+
+#: authentik/sources/telegram/models.py
+msgid "Telegram bot token"
+msgstr "Telegram-bottoken"
+
+#: authentik/sources/telegram/models.py
+msgid "Request access to send messages from your bot."
+msgstr "Begär åtkomst för att skicka meddelanden från din bot."
+
+#: authentik/sources/telegram/telegram.py
+msgid "Authentication date is too old"
+msgstr "Autentiseringsdatumet är för gammalt"
+
+#: authentik/sources/telegram/telegram.py
+msgid "Invalid hash"
+msgstr "Ogiltig hash"
+
+#: authentik/stages/authenticator_duo/api.py
+msgid "Failed to connect to Duo: TLS certificate verification failed."
+msgstr "Det gick inte att ansluta till Duo: verifieringen av TLS-certifikatet misslyckades."
+
+#: authentik/stages/authenticator_duo/api.py
+msgid "Failed to connect to Duo: TLS error."
+msgstr "Det gick inte att ansluta till Duo: TLS-fel."
