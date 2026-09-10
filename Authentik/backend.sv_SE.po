@@ -3639,11 +3639,11 @@ msgstr "SCIM-leverantörsgruppfilter"
 
 #: authentik/providers/scim/models.py
 msgid "SCIMProvider Group Property Mapping"
-msgstr ""
+msgstr "Egenskapsmappning för grupp i SCIM-leverantör"
 
 #: authentik/providers/scim/models.py
 msgid "SCIMProvider Group Property Mappings"
-msgstr ""
+msgstr "Egenskapsmappningar för grupper i SCIM-leverantör"
 
 #: authentik/providers/scim/models.py
 msgid "SCIM Provider Mapping"
@@ -3663,11 +3663,11 @@ msgstr "Fullständig synkronisering för SCIM-leverantören."
 
 #: authentik/providers/scim/tasks.py
 msgid "Sync a direct object (user, group) for SCIM provider."
-msgstr ""
+msgstr "Synkronisera ett direkt objekt (användare, grupp) för SCIM-leverantör."
 
 #: authentik/providers/scim/tasks.py
 msgid "Dispatch syncs for a direct object (user, group) for SCIM providers."
-msgstr ""
+msgstr "Skicka ut synkroniseringar för ett direkt objekt (användare, grupp) till SCIM-leverantörer."
 
 #: authentik/providers/scim/tasks.py
 msgid "Delete an object (user, group) for SCIM provider."
@@ -3675,15 +3675,15 @@ msgstr "Ta bort ett objekt (användare, grupp) för SCIM-leverantören."
 
 #: authentik/providers/scim/tasks.py
 msgid "Dispatch deletions for an object (user, group) for SCIM providers."
-msgstr ""
+msgstr "Skicka ut borttagningar för ett objekt (användare, grupp) till SCIM-leverantörer."
 
 #: authentik/providers/scim/tasks.py
 msgid "Sync a related object (memberships) for SCIM provider."
-msgstr ""
+msgstr "Synkronisera ett relaterat objekt (medlemskap) för SCIM-leverantör."
 
 #: authentik/providers/scim/tasks.py
 msgid "Dispatch syncs for a related object (memberships) for SCIM providers."
-msgstr ""
+msgstr "Skicka ut synkroniseringar för ett relaterat objekt (medlemskap) till SCIM-leverantörer."
 
 #: authentik/rbac/models.py
 msgid "Role"
@@ -3707,11 +3707,11 @@ msgstr "Inledande behörigheter"
 
 #: authentik/rbac/models.py
 msgid "Initial Permissions Permission"
-msgstr ""
+msgstr "Behörighet för inledande behörigheter"
 
 #: authentik/rbac/models.py
 msgid "Initial Permissions Permissions"
-msgstr ""
+msgstr "Behörigheter för inledande behörigheter"
 
 #: authentik/rbac/models.py
 msgid "System permission"
@@ -3771,7 +3771,7 @@ msgstr "Anpassad krb5.conf att använda. Systemets används som standard."
 
 #: authentik/sources/kerberos/models.py
 msgid "KAdmin server type"
-msgstr ""
+msgstr "KAdmin-servertyp"
 
 #: authentik/sources/kerberos/models.py
 msgid "Sync users from Kerberos into authentik"
@@ -3794,32 +3794,40 @@ msgid ""
 "Keytab to authenticate to kadmin for sync. Must be base64-encoded or in the "
 "form TYPE:residual"
 msgstr ""
+"Keytab för autentisering mot kadmin vid synkronisering. Måste vara "
+"base64-kodad eller ha formen TYPE:residual."
 
 #: authentik/sources/kerberos/models.py
 msgid ""
 "Credentials cache to authenticate to kadmin for sync. Must be in the form "
 "TYPE:residual"
 msgstr ""
+"Autentiseringscache för autentisering mot kadmin vid synkronisering. Måste "
+"ha formen TYPE:residual."
 
 #: authentik/sources/kerberos/models.py
 msgid ""
 "Force the use of a specific server name for SPNEGO. Must be in the form "
 "HTTP@hostname"
 msgstr ""
+"Tvinga användning av ett visst servernamn för SPNEGO. Måste ha formen "
+"HTTP@hostname."
 
 #: authentik/sources/kerberos/models.py
 msgid "SPNEGO keytab base64-encoded or path to keytab in the form FILE:path"
-msgstr ""
+msgstr "SPNEGO-keytab base64-kodad eller sökväg till keytab i formen FILE:path"
 
 #: authentik/sources/kerberos/models.py
 msgid "Credential cache to use for SPNEGO in form type:residual"
-msgstr ""
+msgstr "Autentiseringscache för SPNEGO i formen type:residual"
 
 #: authentik/sources/kerberos/models.py
 msgid ""
 "If enabled, the authentik-stored password will be updated upon login with "
 "the Kerberos password backend"
 msgstr ""
+"När alternativet är aktiverat uppdateras lösenordet som lagras i authentik "
+"vid inloggning med Kerberos-lösenordsbackend."
 
 #: authentik/sources/kerberos/models.py
 msgid "Kerberos Source"
@@ -3831,27 +3839,27 @@ msgstr "Kerberos-källor"
 
 #: authentik/sources/kerberos/models.py
 msgid "Kerberos Source Property Mapping"
-msgstr ""
+msgstr "Egenskapsmappning för Kerberos-källa"
 
 #: authentik/sources/kerberos/models.py
 msgid "Kerberos Source Property Mappings"
-msgstr ""
+msgstr "Egenskapsmappningar för Kerberos-källor"
 
 #: authentik/sources/kerberos/models.py
 msgid "User Kerberos Source Connection"
-msgstr ""
+msgstr "Användaranslutning för Kerberos-källa"
 
 #: authentik/sources/kerberos/models.py
 msgid "User Kerberos Source Connections"
-msgstr ""
+msgstr "Användaranslutningar för Kerberos-källor"
 
 #: authentik/sources/kerberos/models.py
 msgid "Group Kerberos Source Connection"
-msgstr ""
+msgstr "Gruppanslutning för Kerberos-källa"
 
 #: authentik/sources/kerberos/models.py
 msgid "Group Kerberos Source Connections"
-msgstr ""
+msgstr "Gruppanslutningar för Kerberos-källor"
 
 #: authentik/sources/kerberos/tasks.py
 msgid "Check connectivity for Kerberos sources."
