@@ -4189,15 +4189,15 @@ msgstr ""
 
 #: authentik/sources/saml/models.py
 msgid "Redirect Binding"
-msgstr ""
+msgstr "Omdirigeringsbindning"
 
 #: authentik/sources/saml/models.py
 msgid "POST Binding"
-msgstr ""
+msgstr "POST-bindning"
 
 #: authentik/sources/saml/models.py
 msgid "POST Binding with auto-confirmation"
-msgstr ""
+msgstr "POST-bindning med automatisk bekräftelse"
 
 #: authentik/sources/saml/models.py authentik/sources/telegram/models.py
 msgid "Flow used before authentication."
@@ -4205,11 +4205,11 @@ msgstr "Flöde som används före autentisering."
 
 #: authentik/sources/saml/models.py
 msgid "Also known as Entity ID. Defaults to the Metadata URL."
-msgstr ""
+msgstr "Kallas även Entity ID. Standardvärdet är metadata-URL:en."
 
 #: authentik/sources/saml/models.py
 msgid "Audience value this IdP sends for authentik."
-msgstr ""
+msgstr "Målgruppsvärde som IdP:n skickar för authentik."
 
 #: authentik/sources/saml/models.py
 msgid "SSO URL"
@@ -4259,6 +4259,9 @@ msgid ""
 "your IDP uses the NameID Format 'transient', and the user doesn't log out "
 "manually. (Format: hours=1;minutes=2;seconds=3)."
 msgstr ""
+"Tidsförskjutning för när tillfälliga användare ska tas bort. Detta gäller "
+"endast om din IdP använder NameID-formatet ”transient” och användaren inte "
+"loggar ut manuellt. (Format: hours=1;minutes=2;seconds=3)."
 
 #: authentik/sources/saml/models.py
 msgid "Keypair used to sign outgoing Responses going to the Identity Provider."
@@ -4268,35 +4271,35 @@ msgstr ""
 
 #: authentik/sources/saml/models.py
 msgid "SAML Source"
-msgstr ""
+msgstr "SAML-källa"
 
 #: authentik/sources/saml/models.py
 msgid "SAML Sources"
-msgstr ""
+msgstr "SAML-källor"
 
 #: authentik/sources/saml/models.py
 msgid "SAML Source Property Mapping"
-msgstr ""
+msgstr "SAML-källegenskapsmappning"
 
 #: authentik/sources/saml/models.py
 msgid "SAML Source Property Mappings"
-msgstr ""
+msgstr "SAML-källegenskapsmappningar"
 
 #: authentik/sources/saml/models.py
 msgid "User SAML Source Connection"
-msgstr ""
+msgstr "Användaranslutning för SAML-källa"
 
 #: authentik/sources/saml/models.py
 msgid "User SAML Source Connections"
-msgstr ""
+msgstr "Användaranslutningar för SAML-källa"
 
 #: authentik/sources/saml/models.py
 msgid "Group SAML Source Connection"
-msgstr ""
+msgstr "Gruppanslutning för SAML-källa"
 
 #: authentik/sources/saml/models.py
 msgid "Group SAML Source Connections"
-msgstr ""
+msgstr "Gruppanslutningar för SAML-källa"
 
 #: authentik/sources/saml/views.py
 #, python-brace-format
@@ -4305,11 +4308,11 @@ msgstr "Fortsätt till {source_name}"
 
 #: authentik/sources/scim/models.py
 msgid "SCIM Source"
-msgstr ""
+msgstr "SCIM-källa"
 
 #: authentik/sources/scim/models.py
 msgid "SCIM Sources"
-msgstr ""
+msgstr "SCIM-källor"
 
 #: authentik/sources/scim/models.py
 msgid "SCIM Source Property Mapping"
