@@ -4380,23 +4380,23 @@ msgstr ""
 
 #: authentik/stages/authenticator_duo/api.py
 msgid "An internal error occurred while importing devices."
-msgstr ""
+msgstr "Ett internt fel uppstod vid import av enheter."
 
 #: authentik/stages/authenticator_duo/models.py
 msgid "Duo Authenticator Setup Stage"
-msgstr ""
+msgstr "Konfigurationsfas för Duo-autentiserare"
 
 #: authentik/stages/authenticator_duo/models.py
 msgid "Duo Authenticator Setup Stages"
-msgstr ""
+msgstr "Konfigurationsfaser för Duo-autentiserare"
 
 #: authentik/stages/authenticator_duo/models.py
 msgid "Duo Device"
-msgstr ""
+msgstr "Duo-enhet"
 
 #: authentik/stages/authenticator_duo/models.py
 msgid "Duo Devices"
-msgstr ""
+msgstr "Duo-enheter"
 
 #: authentik/stages/authenticator_duo/stage.py
 msgid ""
@@ -4406,7 +4406,7 @@ msgstr ""
 
 #: authentik/stages/authenticator_duo/stage.py
 msgid "Failed to enroll with Duo. Please contact an administrator."
-msgstr ""
+msgstr "Det gick inte att registrera med Duo. Kontakta en administratör."
 
 #: authentik/stages/authenticator_email/models.py
 #: authentik/stages/email/models.py
@@ -4420,15 +4420,15 @@ msgstr ""
 #: authentik/stages/authenticator_email/models.py
 #: authentik/stages/email/models.py
 msgid "Time the token sent is valid (Format: hours=3,minutes=17,seconds=300)."
-msgstr ""
+msgstr "Tiden som den skickade token är giltig (format: hours=3,minutes=17,seconds=300)."
 
 #: authentik/stages/authenticator_email/models.py
 msgid "Email Authenticator Setup Stage"
-msgstr ""
+msgstr "Konfigurationsfas för e-postautentiserare"
 
 #: authentik/stages/authenticator_email/models.py
 msgid "Email Authenticator Setup Stages"
-msgstr ""
+msgstr "Konfigurationsfaser för e-postautentiserare"
 
 #: authentik/stages/authenticator_email/models.py
 #: authentik/stages/authenticator_email/stage.py
@@ -4438,11 +4438,11 @@ msgstr ""
 
 #: authentik/stages/authenticator_email/models.py
 msgid "Email Device"
-msgstr ""
+msgstr "E-postenhet"
 
 #: authentik/stages/authenticator_email/models.py
 msgid "Email Devices"
-msgstr ""
+msgstr "E-postenheter"
 
 #: authentik/stages/authenticator_email/stage.py
 #: authentik/stages/authenticator_sms/stage.py
@@ -4511,6 +4511,9 @@ msgid ""
 "users authenticity. Only a hash of the phone number is saved to ensure it is "
 "not reused in the future."
 msgstr ""
+"När detta är aktiverat används telefonnumret endast vid registrering för att "
+"verifiera användarens identitet. Endast en hash av telefonnumret sparas för "
+"att det inte ska kunna återanvändas i framtiden."
 
 #: authentik/stages/authenticator_sms/models.py
 msgid "Optionally modify the payload being sent to custom providers."
@@ -4523,19 +4526,19 @@ msgstr "Använd den här koden för att autentisera dig i authentik: {token}"
 
 #: authentik/stages/authenticator_sms/models.py
 msgid "SMS Authenticator Setup Stage"
-msgstr ""
+msgstr "Konfigurationsfas för SMS-autentiserare"
 
 #: authentik/stages/authenticator_sms/models.py
 msgid "SMS Authenticator Setup Stages"
-msgstr ""
+msgstr "Konfigurationsfaser för SMS-autentiserare"
 
 #: authentik/stages/authenticator_sms/models.py
 msgid "SMS Device"
-msgstr ""
+msgstr "SMS-enhet"
 
 #: authentik/stages/authenticator_sms/models.py
 msgid "SMS Devices"
-msgstr ""
+msgstr "SMS-enheter"
 
 #: authentik/stages/authenticator_sms/stage.py
 msgid "Invalid phone number"
@@ -4543,23 +4546,23 @@ msgstr "Ogiltigt telefonnummer"
 
 #: authentik/stages/authenticator_static/models.py
 msgid "Static Authenticator Setup Stage"
-msgstr ""
+msgstr "Konfigurationsfas för statisk autentiserare"
 
 #: authentik/stages/authenticator_static/models.py
 msgid "Static Authenticator Setup Stages"
-msgstr ""
+msgstr "Konfigurationsfaser för statisk autentiserare"
 
 #: authentik/stages/authenticator_static/models.py
 msgid "Static Device"
-msgstr ""
+msgstr "Statisk enhet"
 
 #: authentik/stages/authenticator_static/models.py
 msgid "Static Devices"
-msgstr ""
+msgstr "Statiska enheter"
 
 #: authentik/stages/authenticator_static/models.py
 msgid "Static Token"
-msgstr ""
+msgstr "Statisk token"
 
 #: authentik/stages/authenticator_static/models.py
 msgid "Static Tokens"
@@ -4575,19 +4578,19 @@ msgstr "8 siffror, inte kompatibelt med appar som Google Authenticator"
 
 #: authentik/stages/authenticator_totp/models.py
 msgid "TOTP Authenticator Setup Stage"
-msgstr ""
+msgstr "Konfigurationsfas för TOTP-autentiserare"
 
 #: authentik/stages/authenticator_totp/models.py
 msgid "TOTP Authenticator Setup Stages"
-msgstr ""
+msgstr "Konfigurationsfaser för TOTP-autentiserare"
 
 #: authentik/stages/authenticator_totp/models.py
 msgid "TOTP Device"
-msgstr ""
+msgstr "TOTP-enhet"
 
 #: authentik/stages/authenticator_totp/models.py
 msgid "TOTP Devices"
-msgstr ""
+msgstr "TOTP-enheter"
 
 #: authentik/stages/authenticator_validate/challenge.py
 msgid ""
@@ -4600,7 +4603,7 @@ msgstr ""
 #: authentik/stages/authenticator_webauthn/stage.py
 #, python-brace-format
 msgid "Invalid device type. Contact your {brand} administrator for help."
-msgstr ""
+msgstr "Ogiltig enhetstyp. Kontakta administratören för {brand} för hjälp."
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Static"
