@@ -4815,7 +4815,7 @@ msgstr "Länken har redan använts. Begär en ny länk."
 
 #: authentik/stages/email/models.py
 msgid "Password Reset"
-msgstr ""
+msgstr "Återställning av lösenord"
 
 #: authentik/stages/email/models.py
 msgid "Account Confirmation"
@@ -4827,7 +4827,7 @@ msgstr "Engångslösenord via e-post"
 
 #: authentik/stages/email/models.py
 msgid "Event Notification"
-msgstr ""
+msgstr "Händelseavisering"
 
 #: authentik/stages/email/models.py authentik/stages/invitation/models.py
 msgid "Invitation"
@@ -4839,18 +4839,21 @@ msgid ""
 "number of attempts exceed recovery_max_attempts within this period, further "
 "attempts will be rate-limited. (Format: hours=1;minutes=2;seconds=3)."
 msgstr ""
+"Tidsfönstret som används för att räkna nyliga försök att återställa kontot. "
+"Om antalet försök överstiger recovery_max_attempts under perioden "
+"hastighetsbegränsas fler försök. (Format: hours=1;minutes=2;seconds=3)."
 
 #: authentik/stages/email/models.py
 msgid "Activate users upon completion of stage."
-msgstr ""
+msgstr "Aktivera användare när fasen är slutförd."
 
 #: authentik/stages/email/models.py
 msgid "Email Stage"
-msgstr ""
+msgstr "E-postfas"
 
 #: authentik/stages/email/models.py
 msgid "Email Stages"
-msgstr ""
+msgstr "E-postfaser"
 
 #: authentik/stages/email/stage.py
 msgid "Successfully verified Email."
@@ -4862,7 +4865,7 @@ msgstr "Ingen väntande användare."
 
 #: authentik/stages/email/stage.py
 msgid "Email sent."
-msgstr ""
+msgstr "E-postmeddelande har skickats."
 
 #: authentik/stages/email/stage.py
 #, python-brace-format
@@ -4874,16 +4877,16 @@ msgstr ""
 
 #: authentik/stages/email/stage.py
 msgid "Email Successfully sent."
-msgstr ""
+msgstr "E-postmeddelandet skickades."
 
 #: authentik/stages/email/tasks.py
 msgid "Send email."
-msgstr ""
+msgstr "Skicka e-post."
 
 #: authentik/stages/email/templates/email/account_confirmation.html
 #: authentik/stages/email/templates/email/account_confirmation.txt
 msgid "Welcome!"
-msgstr ""
+msgstr "Välkommen!"
 
 #: authentik/stages/email/templates/email/account_confirmation.html
 msgid ""
@@ -4893,7 +4896,7 @@ msgstr ""
 
 #: authentik/stages/email/templates/email/account_confirmation.html
 msgid "Confirm Account"
-msgstr ""
+msgstr "Bekräfta konto"
 
 #: authentik/stages/email/templates/email/account_confirmation.html
 #, python-format
@@ -4921,15 +4924,15 @@ msgstr ""
 
 #: authentik/stages/email/templates/email/event_notification.txt
 msgid "Dear authentik user,"
-msgstr ""
+msgstr "Bästa authentik-användare,"
 
 #: authentik/stages/email/templates/email/event_notification.txt
 msgid "The following notification was created:"
-msgstr ""
+msgstr "Följande avisering skapades:"
 
 #: authentik/stages/email/templates/email/event_notification.txt
 msgid "Additional attributes:"
-msgstr ""
+msgstr "Ytterligare attribut:"
 
 #: authentik/stages/email/templates/email/event_notification.txt
 #, python-format
@@ -4965,7 +4968,7 @@ msgstr ""
 #: authentik/stages/email/templates/email/invitation.html
 #: authentik/stages/email/templates/email/invitation.txt
 msgid "Accept Invitation"
-msgstr ""
+msgstr "Acceptera inbjudan"
 
 #: authentik/stages/email/templates/email/invitation.html
 msgid ""
@@ -4977,7 +4980,7 @@ msgstr ""
 
 #: authentik/stages/email/templates/email/invitation.txt
 msgid "You're Invited!"
-msgstr ""
+msgstr "Du är inbjuden!"
 
 #: authentik/stages/email/templates/email/invitation.txt
 #, python-format
