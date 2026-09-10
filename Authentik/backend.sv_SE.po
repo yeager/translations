@@ -2631,6 +2631,9 @@ msgid ""
 "that the numbers aren't too low for POSIX users. Default is 2000 to ensure "
 "that we don't collide with local users uidNumber"
 msgstr ""
+"Startvärdet för uidNumber. Detta tal läggs till i user.pk för att säkerställa "
+"att talen inte är för låga för POSIX-användare. Standardvärdet är 2000 för "
+"att undvika kollision med lokala användares uidNumber."
 
 #: authentik/providers/ldap/models.py
 msgid ""
@@ -2639,6 +2642,10 @@ msgid ""
 "Default is 4000 to ensure that we don't collide with local groups or users "
 "primary groups gidNumber"
 msgstr ""
+"Startvärdet för gidNumber. Detta tal läggs till i ett tal som genereras från "
+"group.pk för att säkerställa att talen inte är för låga för POSIX-grupper. "
+"Standardvärdet är 4000 för att undvika kollision med lokala gruppers eller "
+"användares primära gruppers gidNumber."
 
 #: authentik/providers/ldap/models.py authentik/providers/radius/models.py
 msgid ""
@@ -2717,23 +2724,23 @@ msgstr "Kod (Auktoriseringkodflöde)"
 
 #: authentik/providers/oauth2/models.py
 msgid "id_token (Implicit Flow)"
-msgstr ""
+msgstr "id_token (implicit flöde)"
 
 #: authentik/providers/oauth2/models.py
 msgid "id_token token (Implicit Flow)"
-msgstr ""
+msgstr "id_token token (implicit flöde)"
 
 #: authentik/providers/oauth2/models.py
 msgid "code token (Hybrid Flow)"
-msgstr ""
+msgstr "code token (hybridflöde)"
 
 #: authentik/providers/oauth2/models.py
 msgid "code id_token (Hybrid Flow)"
-msgstr ""
+msgstr "code id_token (hybridflöde)"
 
 #: authentik/providers/oauth2/models.py
 msgid "code id_token token (Hybrid Flow)"
-msgstr ""
+msgstr "code id_token token (hybridflöde)"
 
 #: authentik/providers/oauth2/models.py
 msgid "HS256 (Symmetric Encryption)"
@@ -2749,15 +2756,15 @@ msgstr "ES256 (Asymmetrisk Kryptering)"
 
 #: authentik/providers/oauth2/models.py
 msgid "ES384 (Asymmetric Encryption)"
-msgstr ""
+msgstr "ES384 (asymmetrisk kryptering)"
 
 #: authentik/providers/oauth2/models.py
 msgid "ES512 (Asymmetric Encryption)"
-msgstr ""
+msgstr "ES512 (asymmetrisk kryptering)"
 
 #: authentik/providers/oauth2/models.py
 msgid "EdDSA (Asymmetric Encryption)"
-msgstr ""
+msgstr "EdDSA (asymmetrisk kryptering)"
 
 #: authentik/providers/oauth2/models.py
 msgid "Scope used by the client"
@@ -2768,6 +2775,8 @@ msgid ""
 "Description shown to the user when consenting. If left empty, the user won't "
 "be informed."
 msgstr ""
+"Beskrivning som visas för användaren vid samtycke. Om fältet lämnas tomt "
+"informeras inte användaren."
 
 #: authentik/providers/oauth2/models.py
 msgid "Scope Mapping"
@@ -2786,6 +2795,8 @@ msgid ""
 "Confidential clients are capable of maintaining the confidentiality of their "
 "credentials. Public clients are incapable"
 msgstr ""
+"Konfidentiella klienter kan upprätthålla sina inloggningsuppgifters "
+"konfidentialitet. Offentliga klienter kan inte det."
 
 #: authentik/providers/oauth2/models.py
 msgid "Client ID"
@@ -2812,28 +2823,36 @@ msgid ""
 "Backchannel logs out with server to server calls. Frontchannel uses iframes "
 "in your browser"
 msgstr ""
+"Backchannel loggar ut med anrop från server till server. Frontchannel "
+"använder iframes i webbläsaren."
 
 #: authentik/providers/oauth2/models.py
 msgid "Include claims in id_token"
-msgstr ""
+msgstr "Inkludera anspråk i id_token"
 
 #: authentik/providers/oauth2/models.py
 msgid ""
 "Include User claims from scopes in the id_token, for applications that don't "
 "access the userinfo endpoint."
 msgstr ""
+"Inkludera användaranspråk från omfattningar i id_token för program som inte "
+"använder ändpunkten userinfo."
 
 #: authentik/providers/oauth2/models.py
 msgid ""
 "Access codes not valid on or after current time + this value (Format: "
 "hours=1;minutes=2;seconds=3)."
 msgstr ""
+"Åtkomstkoder är inte giltiga från och med aktuell tid plus detta värde "
+"(format: hours=1;minutes=2;seconds=3)."
 
 #: authentik/providers/oauth2/models.py
 msgid ""
 "Tokens not valid on or after current time + this value (Format: "
 "hours=1;minutes=2;seconds=3)."
 msgstr ""
+"Token är inte giltiga från och med aktuell tid plus detta värde (format: "
+"hours=1;minutes=2;seconds=3)."
 
 #: authentik/providers/oauth2/models.py
 msgid ""
@@ -2841,6 +2860,9 @@ msgid ""
 "duration, it will be renewed. When set to seconds=0, token will always be "
 "renewed. (Format: hours=1;minutes=2;seconds=3)."
 msgstr ""
+"När en token uppdateras förnyas uppdateringstoken om den är giltig kortare "
+"tid än denna varaktighet. Om seconds=0 anges förnyas token alltid (format: "
+"hours=1;minutes=2;seconds=3)."
 
 #: authentik/providers/oauth2/models.py
 msgid ""
@@ -2852,11 +2874,11 @@ msgstr ""
 
 #: authentik/providers/oauth2/models.py
 msgid "Configure how the issuer field of the ID Token should be filled."
-msgstr ""
+msgstr "Ställ in hur utfärdarfältet i ID-token ska fyllas i."
 
 #: authentik/providers/oauth2/models.py
 msgid "Key used to sign the tokens."
-msgstr ""
+msgstr "Nyckel som används för att signera token."
 
 #: authentik/providers/oauth2/models.py
 msgid "Encryption Key"
@@ -2867,6 +2889,8 @@ msgid ""
 "Key used to encrypt the tokens. When set, tokens will be encrypted and "
 "returned as JWEs."
 msgstr ""
+"Nyckel som används för att kryptera token. När den är angiven krypteras "
+"token och returneras som JWE:er."
 
 #: authentik/providers/oauth2/models.py
 msgid ""
