@@ -4607,23 +4607,23 @@ msgstr "Ogiltig enhetstyp. Kontakta administratören för {brand} för hjälp."
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Static"
-msgstr ""
+msgstr "Statisk"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "TOTP"
-msgstr ""
+msgstr "TOTP"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "WebAuthn"
-msgstr ""
+msgstr "WebAuthn"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Duo"
-msgstr ""
+msgstr "Duo"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "SMS"
-msgstr ""
+msgstr "SMS"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid ""
@@ -4631,16 +4631,21 @@ msgid ""
 "devices. After this configuration Stage passes, the user is not prompted "
 "again."
 msgstr ""
+"Faser som används för att konfigurera autentiserare när användaren saknar "
+"kompatibla enheter. När konfigurationsfasen har passerats frågas användaren "
+"inte igen."
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Device classes which can be used to authenticate"
-msgstr ""
+msgstr "Enhetsklasser som kan användas för autentisering"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid ""
 "If any of the user's device has been used within this threshold, this stage "
 "will be skipped"
 msgstr ""
+"Om någon av användarens enheter har använts inom detta tröskelvärde hoppas "
+"den här fasen över"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Enforce user verification for WebAuthn devices."
@@ -4648,27 +4653,27 @@ msgstr "Kräv användarverifiering för WebAuthn-enheter."
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Authenticator Validation Stage"
-msgstr ""
+msgstr "Valideringsfas för autentiserare"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Authenticator Validation Stages"
-msgstr ""
+msgstr "Valideringsfaser för autentiserare"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Authenticator Validate Stage Configuration Stage"
-msgstr ""
+msgstr "Konfigurationsfas för valideringsfasen för autentiserare"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Authenticator Validate Stage Configuration Stages"
-msgstr ""
+msgstr "Konfigurationsfaser för valideringsfasen för autentiserare"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Authenticator Validate Stage WebAuthn Allowed Device Type"
-msgstr ""
+msgstr "Tillåten WebAuthn-enhetstyp för valideringsfasen för autentiserare"
 
 #: authentik/stages/authenticator_validate/models.py
 msgid "Authenticator Validate Stage WebAuthn Allowed Device Types"
-msgstr ""
+msgstr "Tillåtna WebAuthn-enhetstyper för valideringsfasen för autentiserare"
 
 #: authentik/stages/authenticator_validate/stage.py
 msgid "No (allowed) MFA authenticator configured."
@@ -4700,11 +4705,11 @@ msgstr "WebAuthn-enhetstyper"
 
 #: authentik/stages/authenticator_webauthn/models.py
 msgid "Authenticator WebAuthn Stage Device Type Restriction"
-msgstr ""
+msgstr "Begränsning av enhetstyp för WebAuthn-fas"
 
 #: authentik/stages/authenticator_webauthn/models.py
 msgid "Authenticator WebAuthn Stage Device Type Restrictions"
-msgstr ""
+msgstr "Begränsningar av enhetstyp för WebAuthn-fas"
 
 #: authentik/stages/authenticator_webauthn/tasks.py
 msgid ""
@@ -4715,11 +4720,11 @@ msgstr ""
 
 #: authentik/stages/captcha/models.py
 msgid "Form encoded"
-msgstr ""
+msgstr "Formulärkodad"
 
 #: authentik/stages/captcha/models.py
 msgid "JSON"
-msgstr ""
+msgstr "JSON"
 
 #: authentik/stages/captcha/models.py
 msgid "Public key, acquired your captcha Provider."
@@ -4739,11 +4744,11 @@ msgstr ""
 
 #: authentik/stages/captcha/models.py
 msgid "Captcha Stage"
-msgstr ""
+msgstr "Captcha-fas"
 
 #: authentik/stages/captcha/models.py
 msgid "Captcha Stages"
-msgstr ""
+msgstr "Captcha-faser"
 
 #: authentik/stages/captcha/stage.py
 msgid "Invalid captcha response. Retrying may solve this issue."
@@ -4751,7 +4756,7 @@ msgstr "Ogiltigt captcha-svar. Ett nytt försök kan lösa problemet."
 
 #: authentik/stages/captcha/stage.py
 msgid "Invalid captcha response"
-msgstr ""
+msgstr "Ogiltigt captcha-svar"
 
 #: authentik/stages/captcha/stage.py
 msgid "Failed to validate token"
@@ -4764,11 +4769,11 @@ msgstr ""
 
 #: authentik/stages/consent/models.py
 msgid "Consent Stage"
-msgstr ""
+msgstr "Samtyckesfas"
 
 #: authentik/stages/consent/models.py
 msgid "Consent Stages"
-msgstr ""
+msgstr "Samtyckesfaser"
 
 #: authentik/stages/consent/models.py
 msgid "User Consent"
