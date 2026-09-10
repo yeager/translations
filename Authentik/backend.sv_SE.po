@@ -104,33 +104,33 @@ msgstr "Valideringsfel"
 
 #: authentik/blueprints/api.py
 msgid "Blueprint file does not exist"
-msgstr ""
+msgstr "Blueprintfilen finns inte"
 
 #: authentik/blueprints/api.py
 msgid "Context must be valid JSON"
-msgstr ""
+msgstr "Kontexten måste vara giltig JSON"
 
 #: authentik/blueprints/api.py
 msgid "Context must be a JSON object"
-msgstr ""
+msgstr "Kontexten måste vara ett JSON-objekt"
 
 #: authentik/blueprints/api.py
 msgid "Failed to validate blueprint"
-msgstr ""
+msgstr "Det gick inte att validera blueprint"
 
 #: authentik/blueprints/api.py
 msgid "Either path or content must be set."
-msgstr ""
+msgstr "Antingen sökväg eller innehåll måste anges."
 
 #: authentik/blueprints/api.py
 #, python-brace-format
 msgid "User lacks permission to create {model}"
-msgstr ""
+msgstr "Användaren saknar behörighet att skapa {model}"
 
 #: authentik/blueprints/api.py
 #, python-brace-format
 msgid "Invalid blueprint file: {exc}"
-msgstr ""
+msgstr "Ogiltig blueprintfil: {exc}"
 
 #: authentik/blueprints/models.py
 msgid "Managed by authentik"
@@ -197,39 +197,39 @@ msgstr ""
 
 #: authentik/brands/models.py
 msgid "Web Certificate used by the authentik Core webserver."
-msgstr ""
+msgstr "Webbcertifikat som används av authentiks kärnwebbserver."
 
 #: authentik/brands/models.py
 msgid "Certificates used for client authentication."
-msgstr ""
+msgstr "Certifikat som används för klientautentisering."
 
 #: authentik/brands/models.py
 msgid "Brand"
-msgstr ""
+msgstr "Varumärke"
 
 #: authentik/brands/models.py
 msgid "Brands"
-msgstr ""
+msgstr "Varumärken"
 
 #: authentik/brands/models.py
 msgid "Brand Client Certificate"
-msgstr ""
+msgstr "Klientcertifikat för varumärke"
 
 #: authentik/brands/models.py
 msgid "Brand Client Certificates"
-msgstr ""
+msgstr "Klientcertifikat för varumärken"
 
 #: authentik/common/oauth/constants.py
 msgid "Based on the Hashed User ID"
-msgstr ""
+msgstr "Baserat på det hashade användar-id:t"
 
 #: authentik/common/oauth/constants.py
 msgid "Based on user ID"
-msgstr ""
+msgstr "Baserat på användar-id"
 
 #: authentik/common/oauth/constants.py
 msgid "Based on user UUID"
-msgstr ""
+msgstr "Baserat på användar-UUID"
 
 #: authentik/common/oauth/constants.py
 msgid "Based on the username"
@@ -278,11 +278,11 @@ msgstr "Inga tomma segment i användarens sökväg är tillåtna."
 
 #: authentik/core/api/users.py
 msgid "Can't create internal service accounts"
-msgstr ""
+msgstr "Det går inte att skapa interna tjänstekonton"
 
 #: authentik/core/api/users.py
 msgid "Can't change internal service account to other user type."
-msgstr ""
+msgstr "Det går inte att ändra ett internt tjänstekonto till en annan användartyp."
 
 #: authentik/core/api/users.py
 msgid "User does not have permission to add members to a superuser group."
@@ -306,15 +306,15 @@ msgstr "Det går inte att ändra interna tjänstekontoanvändare"
 
 #: authentik/core/api/users.py
 msgid "This field is required."
-msgstr ""
+msgstr "Det här fältet är obligatoriskt."
 
 #: authentik/core/api/users.py
 msgid "filter: failed to parse JSON"
-msgstr ""
+msgstr "filter: det gick inte att tolka JSON"
 
 #: authentik/core/api/users.py
 msgid "filter: value must be key:value mapping"
-msgstr ""
+msgstr "filter: värdet måste vara en nyckel:värde-mappning"
 
 #: authentik/core/api/users.py
 msgid "No recovery flow set."
@@ -346,7 +346,7 @@ msgstr ""
 
 #: authentik/core/apps.py
 msgid "Applications with no policies bound can be accessed by any user."
-msgstr ""
+msgstr "Alla användare kan komma åt program utan kopplade policyer."
 
 #: authentik/core/models.py
 msgid "name"
@@ -366,19 +366,19 @@ msgstr "Grupper"
 
 #: authentik/core/models.py
 msgid "Add user to group"
-msgstr ""
+msgstr "Lägg till användare i grupp"
 
 #: authentik/core/models.py
 msgid "Remove user from group"
-msgstr ""
+msgstr "Ta bort användare från grupp"
 
 #: authentik/core/models.py
 msgid "Enable superuser status"
-msgstr ""
+msgstr "Aktivera superanvändarstatus"
 
 #: authentik/core/models.py
 msgid "Disable superuser status"
-msgstr ""
+msgstr "Inaktivera superanvändarstatus"
 
 #: authentik/core/models.py
 msgid "Group Parentage Node"
@@ -423,6 +423,8 @@ msgid ""
 "Flow used for authentication when the associated application is accessed by "
 "an un-authenticated user."
 msgstr ""
+"Flöde som används för autentisering när det kopplade programmet öppnas av "
+"en oautentiserad användare."
 
 #: authentik/core/models.py
 msgid "Flow used when authorizing this provider."
@@ -430,13 +432,15 @@ msgstr "Flöde som används när den här leverantören auktoriseras."
 
 #: authentik/core/models.py
 msgid "Flow used ending the session from a provider."
-msgstr ""
+msgstr "Flöde som används för att avsluta sessionen från en leverantör."
 
 #: authentik/core/models.py
 msgid ""
 "Accessed from applications; optional backchannel providers for protocols "
 "like LDAP and SCIM."
 msgstr ""
+"Används från program; valfria backchannel-leverantörer för protokoll som "
+"LDAP och SCIM."
 
 #: authentik/core/models.py
 msgid "Application's display Name."
@@ -452,7 +456,7 @@ msgstr "Öppna start-URL i en ny webbläsarflik eller fönster."
 
 #: authentik/core/models.py
 msgid "Hide this application from the user's My applications page."
-msgstr ""
+msgstr "Dölj det här programmet från användarens sida Mina program."
 
 #: authentik/core/models.py
 msgid "Application"
@@ -464,11 +468,11 @@ msgstr "Applikationer"
 
 #: authentik/core/models.py
 msgid "Application Entitlement"
-msgstr ""
+msgstr "Programbehörighet"
 
 #: authentik/core/models.py
 msgid "Application Entitlements"
-msgstr ""
+msgstr "Programbehörigheter"
 
 #: authentik/core/models.py
 msgid "Use the source-specific identifier"
@@ -479,6 +483,8 @@ msgid ""
 "Link to a user with identical email address. Can have security implications "
 "when a source doesn't validate email addresses."
 msgstr ""
+"Länka till en användare med identisk e-postadress. Kan få säkerhetsföljder "
+"när en källa inte validerar e-postadresser."
 
 #: authentik/core/models.py
 msgid ""
@@ -493,6 +499,8 @@ msgid ""
 "Link to a user with identical username. Can have security implications when "
 "a username is used with another source."
 msgstr ""
+"Länka till en användare med identiskt användarnamn. Kan få "
+"säkerhetsföljder när ett användarnamn används med en annan källa."
 
 #: authentik/core/models.py
 msgid ""
@@ -507,10 +515,12 @@ msgid ""
 "Link to a group with identical name. Can have security implications when a "
 "group name is used with another source."
 msgstr ""
+"Länka till en grupp med identiskt namn. Kan få säkerhetsföljder när ett "
+"gruppnamn används med en annan källa."
 
 #: authentik/core/models.py
 msgid "Use the group name, but deny enrollment when the name already exists."
-msgstr ""
+msgstr "Använd gruppnamnet, men neka registrering om namnet redan finns."
 
 #: authentik/core/models.py
 msgid "Source's display Name."
@@ -552,15 +562,15 @@ msgstr "Token"
 
 #: authentik/core/models.py
 msgid "Tokens"
-msgstr ""
+msgstr "Token"
 
 #: authentik/core/models.py authentik/endpoints/connectors/agent/models.py
 msgid "View token's key"
-msgstr ""
+msgstr "Visa tokenens nyckel"
 
 #: authentik/core/models.py
 msgid "Set a token's key"
-msgstr ""
+msgstr "Ange en tokennyckel"
 
 #: authentik/core/models.py
 msgid "Property Mapping"
@@ -596,19 +606,19 @@ msgstr ""
 
 #: authentik/core/models.py
 msgid "User Role"
-msgstr ""
+msgstr "Användarroll"
 
 #: authentik/core/models.py
 msgid "User Roles"
-msgstr ""
+msgstr "Användarroller"
 
 #: authentik/core/models.py
 msgid "Group Role"
-msgstr ""
+msgstr "Grupproll"
 
 #: authentik/core/models.py
 msgid "Group Roles"
-msgstr ""
+msgstr "Grupproller"
 
 #: authentik/core/models.py
 msgid "User Group"
@@ -628,7 +638,7 @@ msgstr "Session"
 
 #: authentik/core/models.py
 msgid "Sessions"
-msgstr ""
+msgstr "Sessioner"
 
 #: authentik/core/models.py
 msgid "User Switching Session"
@@ -648,19 +658,19 @@ msgstr "Autentiserade sessioner"
 
 #: authentik/core/models.py
 msgid "This field is required"
-msgstr ""
+msgstr "Det här fältet är obligatoriskt"
 
 #: authentik/core/models.py
 msgid "Value must be an array."
-msgstr ""
+msgstr "Värdet måste vara en matris."
 
 #: authentik/core/models.py
 msgid "Value does not match configured pattern."
-msgstr ""
+msgstr "Värdet matchar inte det konfigurerade mönstret."
 
 #: authentik/core/models.py
 msgid "Value is not unique."
-msgstr ""
+msgstr "Värdet är inte unikt."
 
 #: authentik/core/models.py
 msgid "Object Attribute"
