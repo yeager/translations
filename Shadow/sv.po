@@ -305,9 +305,9 @@ msgid "%s: subuid overflow detected.\n"
 msgstr "%s: Överflöde i subuid upptäcktes.\n"
 
 #: lib/idmapping.c:146
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Invalid map file %s specified\n"
-msgstr "%s: ogiltigt fält \"%s\"\n"
+msgstr "%s: Ogiltig mappfil %s angavs\n"
 
 #: lib/idmapping.c:153
 #, c-format
@@ -315,34 +315,34 @@ msgid "%s: Could not prctl(PR_SET_KEEPCAPS)\n"
 msgstr "%s: Kunde inte anropa prctl(PR_SET_KEEPCAPS)\n"
 
 #: lib/idmapping.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not seteuid to %d\n"
-msgstr "Kunde inte allokera plats för konfigurationsinformationen.\n"
+msgstr "%s: Kunde inte ange seteuid till %d\n"
 
 #: lib/idmapping.c:174
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not set caps\n"
-msgstr "Kunde inte allokera plats för konfigurationsinformationen.\n"
+msgstr "%s: Kunde inte ange behörighetsflaggor\n"
 
 #: lib/idmapping.c:193
-#, fuzzy, c-format
+#, c-format
 msgid "%s: seprintf failed!\n"
-msgstr "%s: rad %d: chown %s misslyckades: %s\n"
+msgstr "%s: seprintf misslyckades!\n"
 
 #: lib/idmapping.c:200
-#, fuzzy, c-format
+#, c-format
 msgid "%s: open of %s failed"
-msgstr "%s: rad %d: chown %s misslyckades: %s\n"
+msgstr "%s: öppning av %s misslyckades"
 
 #: lib/idmapping.c:205
-#, fuzzy, c-format
+#, c-format
 msgid "%s: write to %s failed"
-msgstr "%s: rad %d: chown %s misslyckades: %s\n"
+msgstr "%s: skrivning till %s misslyckades"
 
 #: lib/idmapping.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "%s: closing %s failed"
-msgstr "%s: rad %d: chown %s misslyckades: %s\n"
+msgstr "%s: stängning av %s misslyckades"
 
 #: lib/limits.c:463
 msgid "Too many logins.\n"
@@ -432,21 +432,21 @@ msgid "%s: PAM modules requesting echoing are not supported.\n"
 msgstr "%s: PAM-moduler som begär ekning stöds inte.\n"
 
 #: lib/pam_pass_non_interactive.c:89
-#, fuzzy, c-format
+#, c-format
 msgid "%s: conversation type %d not supported.\n"
-msgstr "%s: repository %s stöds inte\n"
+msgstr "%s: konversationstypen %d stöds inte.\n"
 
 #: lib/pam_pass_non_interactive.c:129
-#, fuzzy, c-format
+#, c-format
 msgid "%s: (user %s) pam_start failure %d\n"
-msgstr "%s: pam_start: fel %d\n"
+msgstr "%s: (användare %s) pam_start misslyckades med fel %d\n"
 
 #: lib/pam_pass_non_interactive.c:138
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: (user %s) pam_chauthtok() failed, error:\n"
 "%s\n"
-msgstr "passwd: pam_start() misslyckades, fel %d\n"
+msgstr "%s: (användare %s) pam_chauthtok() misslyckades, fel:\n%s\n"
 
 #: lib/pwauth.c:37 src/newgrp.c:177
 msgid "Password: "
@@ -473,19 +473,19 @@ msgid "%s: option '%s' requires an argument\n"
 msgstr "%s: alternativet ”%s” kräver ett argument\n"
 
 #: lib/root_flag.c:78 src/chage.c:730
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to drop privileges"
-msgstr "misslyckades med att släppa privilegier"
+msgstr "%s: misslyckades med att släppa privilegier"
 
 #: lib/root_flag.c:85
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid chroot path '%s', only absolute paths are supported.\n"
-msgstr "%s: ogiltigt telefonnummer (hem): \"%s\"\n"
+msgstr "%s: ogiltig chroot-sökväg ”%s”; endast absoluta sökvägar stöds.\n"
 
 #: lib/root_flag.c:91
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot access chroot directory %s"
-msgstr "%s: Kan inte skapa katalogen %s: %s\n"
+msgstr "%s: kan inte komma åt chroot-katalogen %s"
 
 #: lib/root_flag.c:97
 #, c-format
