@@ -71,7 +71,7 @@ msgstr "Verisionshistorik"
 
 #: authentik/admin/tasks.py
 msgid "Update latest version info."
-msgstr ""
+msgstr "Uppdatera information om den senaste versionen."
 
 #: authentik/admin/tasks.py
 #, python-brace-format
@@ -80,23 +80,23 @@ msgstr "Ny version {version} är tillgänglig!"
 
 #: authentik/api/v3/schema/query.py
 msgid "Which field to use when ordering the results."
-msgstr ""
+msgstr "Vilket fält som ska användas för att sortera resultaten."
 
 #: authentik/api/v3/schema/query.py
 msgid "A page number within the paginated result set."
-msgstr ""
+msgstr "Ett sidnummer i den sidindelade resultatuppsättningen."
 
 #: authentik/api/v3/schema/query.py
 msgid "Number of results to return per page."
-msgstr ""
+msgstr "Antal resultat som ska returneras per sida."
 
 #: authentik/api/v3/schema/query.py
 msgid "A search term."
-msgstr ""
+msgstr "En sökterm."
 
 #: authentik/api/v3/schema/response.py
 msgid "Generic API Error"
-msgstr "Generisk API-fel"
+msgstr "Allmänt API-fel"
 
 #: authentik/api/v3/schema/response.py
 msgid "Validation Error"
@@ -146,16 +146,16 @@ msgstr ""
 
 #: authentik/blueprints/models.py
 msgid "Blueprint Instance"
-msgstr ""
+msgstr "Blueprint-instans"
 
 #: authentik/blueprints/models.py
 msgid "Blueprint Instances"
-msgstr ""
+msgstr "Blueprint-instanser"
 
 #: authentik/blueprints/v1/exporter.py
 #, python-brace-format
 msgid "authentik Export - {date}"
-msgstr ""
+msgstr "authentik-export – {date}"
 
 #: authentik/blueprints/v1/tasks.py
 msgid "Find blueprints as `blueprints_find` does, but return a safe dict."
@@ -247,20 +247,20 @@ msgstr ""
 
 #: authentik/core/api/application_entitlements.py
 msgid "User does not have access to application."
-msgstr ""
+msgstr "Användaren har inte åtkomst till programmet."
 
 #: authentik/core/api/applications.py
 #, python-brace-format
 msgid "The slug '{slug}' is reserved and cannot be used for applications."
-msgstr ""
+msgstr "Sluggen ”{slug}” är reserverad och kan inte användas för program."
 
 #: authentik/core/api/groups.py
 msgid "User does not have permission to add members to this group."
-msgstr ""
+msgstr "Användaren har inte behörighet att lägga till medlemmar i denna grupp."
 
 #: authentik/core/api/object_attributes.py
 msgid "Unique cannot be enabled for arrays."
-msgstr ""
+msgstr "Unik kan inte aktiveras för matriser."
 
 #: authentik/core/api/providers.py
 msgid ""
@@ -326,15 +326,15 @@ msgstr "Återställningsflödet är inte tillämpligt på användaren"
 
 #: authentik/core/api/users.py
 msgid "A user/group with these details already exists"
-msgstr ""
+msgstr "En användare eller grupp med dessa uppgifter finns redan"
 
 #: authentik/core/api/users.py
 msgid "Unable to create user"
-msgstr ""
+msgstr "Det gick inte att skapa användaren"
 
 #: authentik/core/api/users.py
 msgid "Unknown error occurred"
-msgstr ""
+msgstr "Ett okänt fel uppstod"
 
 #: authentik/core/api/users.py
 msgid "User does not have an email address set."
@@ -342,7 +342,7 @@ msgstr "Användaren har ingen e-postadress angiven."
 
 #: authentik/core/api/users.py
 msgid "Email stage not found."
-msgstr ""
+msgstr "E-poststeget hittades inte."
 
 #: authentik/core/apps.py
 msgid "Applications with no policies bound can be accessed by any user."
@@ -382,11 +382,11 @@ msgstr "Inaktivera superanvändarstatus"
 
 #: authentik/core/models.py
 msgid "Group Parentage Node"
-msgstr ""
+msgstr "Nod för grupphärkomst"
 
 #: authentik/core/models.py
 msgid "Group Parentage Nodes"
-msgstr ""
+msgstr "Noder för grupphärkomst"
 
 #: authentik/core/models.py
 msgid "User's display name."
@@ -524,7 +524,7 @@ msgstr "Använd gruppnamnet, men neka registrering om namnet redan finns."
 
 #: authentik/core/models.py
 msgid "Source's display Name."
-msgstr ""
+msgstr "Källans visningsnamn."
 
 #: authentik/core/models.py
 msgid "Internal source name, used in URLs."
@@ -535,6 +535,8 @@ msgid ""
 "When enabled, this source will be displayed as a prominent button on the "
 "login page, instead of a small icon."
 msgstr ""
+"När alternativet är aktiverat visas denna källa som en framträdande knapp "
+"på inloggningssidan i stället för som en liten ikon."
 
 #: authentik/core/models.py
 msgid "Flow to use when authenticating existing users."
@@ -549,12 +551,16 @@ msgid ""
 "How the source determines if an existing user should be authenticated or a "
 "new user enrolled."
 msgstr ""
+"Hur källan avgör om en befintlig användare ska autentiseras eller om en ny "
+"användare ska registreras."
 
 #: authentik/core/models.py
 msgid ""
 "How the source determines if an existing group should be used or a new group "
 "created."
 msgstr ""
+"Hur källan avgör om en befintlig grupp ska användas eller om en ny grupp ska "
+"skapas."
 
 #: authentik/core/models.py authentik/providers/scim/models.py
 msgid "Token"
