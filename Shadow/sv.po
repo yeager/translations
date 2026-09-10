@@ -488,23 +488,23 @@ msgid "%s: cannot access chroot directory %s"
 msgstr "%s: Kan inte skapa katalogen %s: %s\n"
 
 #: lib/root_flag.c:97
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unable to chroot to directory %s"
-msgstr "%s: Misslyckades med att skapa tcb-katalog för %s\n"
+msgstr "%s: kunde inte chroota till katalogen %s"
 
 #: lib/root_flag.c:103
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot chdir in chroot directory %s"
-msgstr "%s: Kan inte skapa katalogen %s: %s\n"
+msgstr "%s: kan inte byta katalog i chroot-katalogen %s"
 
 #: lib/salt.c:385
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Invalid ENCRYPT_METHOD value: '%s'.\n"
 "Defaulting to SHA512.\n"
 msgstr ""
-"Ogiltigt värde för ENCRYPT_METHOD: \"%s\".\n"
-"Faller tillbaka på DES.\n"
+"Ogiltigt värde för ENCRYPT_METHOD: ”%s”.\n"
+"Faller tillbaka på SHA512.\n"
 
 #: lib/salt.c:397
 #, c-format
@@ -559,14 +559,14 @@ msgid "Could not query seuser for %s\n"
 msgstr "Kunde inte fråga efter seuser för %s\n"
 
 #: lib/semanage.c:128 lib/semanage.c:189
-#, fuzzy, c-format
+#, c-format
 msgid "Could not set serange for %s to %s\n"
-msgstr "Kunde inte allokera plats för konfigurationsinformationen.\n"
+msgstr "Kunde inte ange serange för %s till %s\n"
 
 #: lib/semanage.c:138
-#, fuzzy, c-format
+#, c-format
 msgid "Could not set sename for %s\n"
-msgstr "Kunde inte allokera plats för konfigurationsinformationen.\n"
+msgstr "Kunde inte ange sename för %s\n"
 
 #: lib/semanage.c:147
 #, c-format
@@ -574,9 +574,9 @@ msgid "Could not modify login mapping for %s\n"
 msgstr "Kunde inte ändra inloggningsmappning för %s\n"
 
 #: lib/semanage.c:172
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create SELinux login mapping for %s\n"
-msgstr "Ändrar åldersinformationen för %s\n"
+msgstr "Kan inte skapa SELinux-inloggningsmappning för %s\n"
 
 #: lib/semanage.c:180
 #, c-format
@@ -599,14 +599,14 @@ msgid "Cannot init SELinux management\n"
 msgstr "Kan inte initiera SELinux-hantering\n"
 
 #: lib/semanage.c:242 lib/semanage.c:307
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot create SELinux user key\n"
-msgstr "%s: Kan inte fastställa ditt användarnamn.\n"
+msgstr "Kan inte skapa SELinux-användarnyckel\n"
 
 #: lib/semanage.c:249 lib/semanage.c:314 lib/semanage.c:329
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot verify the SELinux user\n"
-msgstr "%s: Kan inte grena användarskal\n"
+msgstr "Kan inte verifiera SELinux-användaren\n"
 
 #: lib/semanage.c:258
 #, c-format
@@ -674,9 +674,9 @@ msgstr "%s: slut på minne\n"
 
 #: lib/tcbfuncs.c:105 lib/tcbfuncs.c:186 lib/tcbfuncs.c:300 lib/tcbfuncs.c:462
 #: lib/tcbfuncs.c:539
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot stat %s"
-msgstr "%s: Kan inte ta status på %s: %s\n"
+msgstr "%s: Kan inte köra stat på %s"
 
 #: lib/tcbfuncs.c:120
 #, c-format
@@ -684,26 +684,26 @@ msgid "%s: %s is neither a directory, nor a symlink.\n"
 msgstr "%s: %s är varken en katalog eller symbolisk länk.\n"
 
 #: lib/tcbfuncs.c:126
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot read symbolic link %s"
-msgstr "%s: Kan inte läsa symboliska länken %s: %s\n"
+msgstr "%s: Kan inte läsa den symboliska länken %s"
 
 #: lib/tcbfuncs.c:198
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot create directory %s"
-msgstr "%s: kan inte skapa katalog %s\n"
+msgstr "%s: Kan inte skapa katalogen %s"
 
 #: lib/tcbfuncs.c:203 lib/tcbfuncs.c:496 lib/tcbfuncs.c:510 lib/tcbfuncs.c:573
 #: lib/tcbfuncs.c:583
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot change owner of %s"
-msgstr "%s: Kan inte byta ägare för %s: %s\n"
+msgstr "%s: Kan inte ändra ägare för %s"
 
 #: lib/tcbfuncs.c:208 lib/tcbfuncs.c:472 lib/tcbfuncs.c:501 lib/tcbfuncs.c:515
 #: lib/tcbfuncs.c:578 lib/tcbfuncs.c:588
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot change mode of %s"
-msgstr "%s: Kan inte ändra rättigheter för %s: %s\n"
+msgstr "%s: Kan inte ändra rättigheter för %s"
 
 #: lib/tcbfuncs.c:267
 #, fuzzy, c-format
