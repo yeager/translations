@@ -37,6 +37,7 @@
 </trans-unit>
 <trans-unit id="locale-option-localized-label">
   <source><x id="0" equiv-text="${relativeDisplayName}"/> (<x id="1" equiv-text="${localizedDisplayName}"/>)</source>
+  <target><x id="0" equiv-text="${relativeDisplayName}"/> (<x id="1" equiv-text="${localizedDisplayName}"/>)</target>
   <note from="lit-localize">Locale option label showing the localized language name along with the native language name in parentheses.</note>
 </trans-unit>
 <!-- #endregion -->
@@ -503,9 +504,11 @@
 </trans-unit>
 <trans-unit id="s3633ffed92acaecb">
   <source><x id="0" equiv-text="${this.label || &quot;&quot;}"/> table pagination</source>
+  <target>Sidindelning för tabellen <x id="0" equiv-text="${this.label || &quot;&quot;}"/></target>
 </trans-unit>
 <trans-unit id="s04c5a637328c9b67">
   <source><x id="0" equiv-text="${startIndex}"/> - <x id="1" equiv-text="${endIndex}"/> of <x id="2" equiv-text="${pageCount}"/></source>
+  <target><x id="0" equiv-text="${startIndex}"/>–<x id="1" equiv-text="${endIndex}"/> av <x id="2" equiv-text="${pageCount}"/></target>
 </trans-unit>
 <trans-unit id="s6a89bb10338369b4">
   <source>Go to previous page</source>
@@ -545,6 +548,7 @@
 </trans-unit>
 <trans-unit id="sd9b15395dd103f80">
   <source>Sort by &quot;<x id="0" equiv-text="${label}"/>&quot;</source>
+  <target>Sortera efter ”<x id="0" equiv-text="${label}"/>”</target>
 </trans-unit>
 <trans-unit id="sfd44ce578f643145">
   <source>Failed to fetch objects.</source>
@@ -552,6 +556,7 @@
 </trans-unit>
 <trans-unit id="s7dd64bb0c1fa8e87">
   <source>Select &quot;<x id="0" equiv-text="${rowLabel}"/>&quot; row</source>
+  <target>Markera raden ”<x id="0" equiv-text="${rowLabel}"/>”</target>
 </trans-unit>
 <trans-unit id="sd26f670ca5d5b0c6">
   <source>Collapse row</source>
@@ -567,9 +572,11 @@
 </trans-unit>
 <trans-unit id="sda170fd79bca1616">
   <source><x id="0" equiv-text="${this.label ?? &quot;Table&quot;}"/> actions</source>
+  <target>Åtgärder för <x id="0" equiv-text="${this.label ?? &quot;Table&quot;}"/></target>
 </trans-unit>
 <trans-unit id="sd09354b0220a13ce">
   <source>Select all rows on page (<x id="0" equiv-text="${selectedCount}"/> of <x id="1" equiv-text="${pageItemCount}"/> selected)</source>
+  <target>Markera alla rader på sidan (<x id="0" equiv-text="${selectedCount}"/> av <x id="1" equiv-text="${pageItemCount}"/> markerade)</target>
 </trans-unit>
 <trans-unit id="s76ef34813bff563f">
   <source>Last refreshed</source>
@@ -577,6 +584,7 @@
 </trans-unit>
 <trans-unit id="s59c9e8f57e3a0075">
   <source><x id="0" equiv-text="${this.label}"/> table</source>
+  <target>Tabell: <x id="0" equiv-text="${this.label}"/></target>
 </trans-unit>
 <trans-unit id="sa25b60b4fac481aa">
   <source>Table content</source>
@@ -591,13 +599,16 @@
   <target>Anonym användare</target>
 </trans-unit>
 <trans-unit id="sc35581d9c1cd67ff">
-  <source>On behalf of <x id="0" equiv-text="${renderUsername(event.user.on_behalf_of)}"/></source>
+ <source>On behalf of <x id="0" equiv-text="${renderUsername(event.user.on_behalf_of)}"/></source>
+  <target>För <x id="0" equiv-text="${renderUsername(event.user.on_behalf_of)}"/>s räkning</target>
 </trans-unit>
 <trans-unit id="s7225aacf0eee94d2">
   <source>Authenticated as <x id="0" equiv-text="${renderUsername(event.user.authenticated_as)}"/></source>
+  <target>Autentiserad som <x id="0" equiv-text="${renderUsername(event.user.authenticated_as)}"/></target>
 </trans-unit>
 <trans-unit id="s2152f3482784705f">
   <source>Recent events</source>
+  <target>Senaste händelser</target>
   <target>Senaste händelser</target>
 </trans-unit>
 <trans-unit id="sc265a3e29e1206e4">
@@ -1514,15 +1525,19 @@
 </trans-unit>
 <trans-unit id="s4127b943d6826b8b">
   <source>Search <x id="0" equiv-text="${this.availableLabel}"/>...</source>
+  <target>Sök i <x id="0" equiv-text="${this.availableLabel}"/> …</target>
 </trans-unit>
 <trans-unit id="ha8e91858b300a3b7">
   <source>(Format: <x id="0" equiv-text="&lt;code&gt;"/>hours=-1;minutes=-2;seconds=-3)<x id="1" equiv-text="&lt;/code&gt;"/>.</source>
+  <target>(Format: <x id="0" equiv-text="&lt;code&gt;"/>hours=-1;minutes=-2;seconds=-3)<x id="1" equiv-text="&lt;/code&gt;"/>.</target>
 </trans-unit>
 <trans-unit id="hbe8e6353371ecb22">
   <source>(Format: <x id="0" equiv-text="&lt;code&gt;"/>hours=1;minutes=2;seconds=3).<x id="1" equiv-text="&lt;/code&gt;"/></source>
+  <target>(Format: <x id="0" equiv-text="&lt;code&gt;"/>hours=1;minutes=2;seconds=3).<x id="1" equiv-text="&lt;/code&gt;"/></target>
 </trans-unit>
 <trans-unit id="sbb8ad22c83d375b1">
   <source>The following keywords are supported:</source>
+  <target>Följande nyckelord stöds:</target>
 </trans-unit>
 <trans-unit id="s8915e64b8b999bfe">
   <source>Cached binding</source>
