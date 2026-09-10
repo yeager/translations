@@ -1318,12 +1318,15 @@
 </trans-unit>
 <trans-unit id="s030ac0829bb50a49">
   <source>Policy <x id="0" equiv-text="${item.policyObj?.name}"/></source>
+  <target>Policy <x id="0" equiv-text="${item.policyObj?.name}"/></target>
 </trans-unit>
 <trans-unit id="s2a64d2dca3da9b0e">
   <source>Group <x id="0" equiv-text="${item.groupObj?.name}"/></source>
+  <target>Grupp <x id="0" equiv-text="${item.groupObj?.name}"/></target>
 </trans-unit>
 <trans-unit id="se5dc026819a32ff8">
   <source>User <x id="0" equiv-text="${item.userObj?.name || item.userObj?.username}"/></source>
+  <target>Användare <x id="0" equiv-text="${item.userObj?.name || item.userObj?.username}"/></target>
 </trans-unit>
 <trans-unit id="sc387b20e6d629087">
   <source>Configure Policy/User/Group Bindings</source>
@@ -1395,6 +1398,7 @@
 </trans-unit>
 <trans-unit id="s74b47e964bb82e5f">
   <source>Wizard content</source>
+  <target>Guidens innehåll</target>
 </trans-unit>
 <trans-unit id="sad59707375956ad2">
   <source>Finish</source>
@@ -1402,6 +1406,7 @@
 </trans-unit>
 <trans-unit id="scffa59cfac1951f2">
   <source><x id="0" equiv-text="${type.name}"/> Icon</source>
+  <target>Ikon för <x id="0" equiv-text="${type.name}"/></target>
 </trans-unit>
 <trans-unit id="s7d4ec232535a36f0">
   <source>Choose a Provider</source>
@@ -1521,72 +1526,95 @@
 </trans-unit>
 <trans-unit id="s8915e64b8b999bfe">
   <source>Cached binding</source>
+  <target>Cachelagd bindning</target>
 </trans-unit>
 <trans-unit id="s842d690eb3c11762">
   <source>Flow is executed and session is cached in memory. Flow is executed when session expires</source>
+  <target>Flödet körs och sessionen cachelagras i minnet. Flödet körs när sessionen går ut.</target>
 </trans-unit>
 <trans-unit id="s6a66759749bf31ed">
   <source>Direct binding</source>
+  <target>Direkt bindning</target>
 </trans-unit>
 <trans-unit id="se0adaf83627104fb">
   <source>Always execute the configured bind flow to authenticate the user</source>
+  <target>Kör alltid det konfigurerade bindningsflödet för att autentisera användaren</target>
 </trans-unit>
 <trans-unit id="s9065fcccd837a679">
   <source>Cached querying</source>
+  <target>Cachelagd frågning</target>
 </trans-unit>
 <trans-unit id="s30d0d0e6c626a234">
   <source>The outpost holds all users and groups in-memory and will refresh every 5 Minutes</source>
+  <target>Utposten lagrar alla användare och grupper i minnet och uppdateras var femte minut</target>
 </trans-unit>
 <trans-unit id="sffc14b8200a9f938">
   <source>Direct querying</source>
+  <target>Direkt frågning</target>
 </trans-unit>
 <trans-unit id="sdce4680288083fe3">
   <source>Always returns the latest data, but slower than cached querying</source>
+  <target>Returnerar alltid de senaste uppgifterna, men är långsammare än cachelagd frågning</target>
 </trans-unit>
 <trans-unit id="s1889ba2eaeec2f1e">
   <source>When enabled, code-based multi-factor authentication can be used by appending a semicolon and the TOTP code to the password. This should only be enabled if all users that will bind to this provider have a TOTP device configured, as otherwise a password may incorrectly be rejected if it contains a semicolon.</source>
+  <target>När funktionen är aktiverad kan kodbaserad flerfaktorsautentisering användas genom att lägga till ett semikolon och TOTP-koden efter lösenordet. Aktivera endast detta om alla användare som ska bindas till leverantören har en TOTP-enhet konfigurerad, annars kan ett lösenord som innehåller ett semikolon felaktigt avvisas.</target>
 </trans-unit>
 <trans-unit id="s4647b2c92638d6fd">
   <source>The certificate for the above configured Base DN. As a fallback, the provider uses a self-signed certificate.</source>
+  <target>Certifikatet för ovan konfigurerade bas-DN. Som reserv använder leverantören ett självsignerat certifikat.</target>
 </trans-unit>
 <trans-unit id="s2acef4f6ba39bf11">
   <source>DNS name for which the above configured certificate should be used. The certificate cannot be detected based on the base DN, as the SSL/TLS negotiation happens before such data is exchanged.</source>
+  <target>DNS-namn för vilket ovan konfigurerade certifikat ska användas. Certifikatet kan inte identifieras utifrån bas-DN eftersom SSL/TLS-förhandlingen sker innan sådana uppgifter utbyts.</target>
 </trans-unit>
 <trans-unit id="s60edbcfac8ed1f90">
   <source>The start for uidNumbers, this number is added to the user.Pk to make sure that the numbers aren&apos;t too low for POSIX users. Default is 2000 to ensure that we don&apos;t collide with local users uidNumber</source>
+  <target>Startvärdet för uidNumber. Detta tal läggs till i användarens PK för att säkerställa att talen inte blir för låga för POSIX-användare. Standardvärdet är 2000 för att undvika kollision med lokala användares uidNumber.</target>
 </trans-unit>
 <trans-unit id="s1c8e9816dcae6d9c">
   <source>The start for gidNumbers, this number is added to a number generated from the group.Pk to make sure that the numbers aren&apos;t too low for POSIX groups. Default is 4000 to ensure that we don&apos;t collide with local groups or users primary groups gidNumber</source>
+  <target>Startvärdet för gidNumber. Detta tal läggs till i ett tal som skapas från gruppens PK för att säkerställa att talen inte blir för låga för POSIX-grupper. Standardvärdet är 4000 för att undvika kollision med lokala grupper eller användares primära gruppers gidNumber.</target>
 </trans-unit>
 <trans-unit id="sdb16a3d366135cef">
   <source>Provider Name</source>
+  <target>Leverantörsnamn</target>
 </trans-unit>
 <trans-unit id="s96dc816b1d1c3be0">
   <source>Type a provider name...</source>
+  <target>Skriv ett leverantörsnamn …</target>
 </trans-unit>
 <trans-unit id="scef3f4ad80abbd22">
   <source>Configure how the outpost authenticates requests.</source>
+  <target>Konfigurera hur utposten autentiserar begäranden.</target>
 </trans-unit>
 <trans-unit id="s8b87df5664de7eb8">
   <source>Configure how the outpost queries the core authentik server&apos;s users.</source>
+  <target>Konfigurera hur utposten frågar efter användare från kärnservern för authentik.</target>
 </trans-unit>
 <trans-unit id="s254d527e3a53dbb7">
   <source>Code-based MFA Support</source>
+  <target>Stöd för kodbaserad MFA</target>
 </trans-unit>
 <trans-unit id="s1cc0e66dbd2b5502">
   <source>Flow settings</source>
+  <target>Flödesinställningar</target>
 </trans-unit>
 <trans-unit id="s319040353f479853">
   <source>Flow used for users to authenticate.</source>
+  <target>Flöde som används för att autentisera användare.</target>
 </trans-unit>
 <trans-unit id="s6773ec2a233bbf41">
   <source>Flow used for unbinding users.</source>
+  <target>Flöde som används för att ta bort användarbindningar.</target>
 </trans-unit>
 <trans-unit id="sfe388f0313f52da2">
   <source>Protocol settings</source>
+  <target>Protokollinställningar</target>
 </trans-unit>
 <trans-unit id="s55d731be1ef66efe">
   <source>Base DN</source>
+  <target>Bas-DN</target>
 </trans-unit>
 <trans-unit id="s0b15ff11a0049cfd">
   <source>LDAP DN under which bind requests and search requests can be made.</source>
