@@ -2573,18 +2573,23 @@ msgid ""
 "configured, as otherwise a password may incorrectly be rejected if it "
 "contains a semicolon."
 msgstr ""
+"När detta är aktiverat kan kodbaserad flerfaktorsautentisering användas "
+"genom att lägga till ett semikolon och TOTP-koden till lösenordet. Detta bör "
+"endast aktiveras om alla användare som ska bindas till leverantören har en "
+"TOTP-enhet konfigurerad, eftersom ett lösenord annars felaktigt kan nekas om "
+"det innehåller ett semikolon."
 
 #: authentik/providers/ldap/models.py
 msgid "LDAP Provider"
-msgstr ""
+msgstr "LDAP-leverantör"
 
 #: authentik/providers/ldap/models.py
 msgid "LDAP Providers"
-msgstr ""
+msgstr "LDAP-leverantörer"
 
 #: authentik/providers/ldap/models.py
 msgid "Search full LDAP directory"
-msgstr ""
+msgstr "Sök i hela LDAP-katalogen"
 
 #: authentik/providers/oauth2/api/providers.py
 #, python-brace-format
@@ -2601,11 +2606,11 @@ msgstr "Offentlig"
 
 #: authentik/providers/oauth2/models.py
 msgid "Same identifier is used for all providers"
-msgstr ""
+msgstr "Samma identifierare används för alla leverantörer"
 
 #: authentik/providers/oauth2/models.py
 msgid "Each provider has a different issuer, based on the application slug."
-msgstr ""
+msgstr "Varje leverantör har en annan utfärdare baserad på programmets slug."
 
 #: authentik/providers/oauth2/models.py
 msgid "Strict URL comparison"
@@ -3402,11 +3407,11 @@ msgstr "SAML-sessioner"
 
 #: authentik/providers/scim/models.py
 msgid "OAuth (Silent)"
-msgstr ""
+msgstr "OAuth (tyst)"
 
 #: authentik/providers/scim/models.py
 msgid "OAuth (interactive)"
-msgstr ""
+msgstr "OAuth (interaktiv)"
 
 #: authentik/providers/scim/models.py
 msgid "Default"
@@ -3438,31 +3443,31 @@ msgstr ""
 
 #: authentik/providers/scim/models.py
 msgid "Group filters used to define sync-scope for groups."
-msgstr ""
+msgstr "Gruppfilter som används för att definiera synkroniseringsomfattning för grupper."
 
 #: authentik/providers/scim/models.py
 msgid "Base URL to SCIM requests, usually ends in /v2"
-msgstr ""
+msgstr "Bas-URL för SCIM-begäranden, slutar vanligtvis på /v2"
 
 #: authentik/providers/scim/models.py
 msgid "Authentication token"
-msgstr ""
+msgstr "Autentiseringstoken"
 
 #: authentik/providers/scim/models.py
 msgid "OAuth Source used for authentication"
-msgstr ""
+msgstr "OAuth-källa som används för autentisering"
 
 #: authentik/providers/scim/models.py
 msgid "Additional OAuth parameters, such as grant_type"
-msgstr ""
+msgstr "Ytterligare OAuth-parametrar, såsom grant_type"
 
 #: authentik/providers/scim/models.py
 msgid "SCIM Compatibility Mode"
-msgstr ""
+msgstr "SCIM-kompatibilitetsläge"
 
 #: authentik/providers/scim/models.py
 msgid "Alter authentik behavior for vendor-specific SCIM implementations."
-msgstr ""
+msgstr "Ändra authentiks beteende för leverantörsspecifika SCIM-implementationer."
 
 #: authentik/providers/scim/models.py
 msgid ""
