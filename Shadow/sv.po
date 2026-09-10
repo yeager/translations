@@ -2211,19 +2211,19 @@ msgid "%s: line %jd: can't update entry\n"
 msgstr "%s: rad %jd: kan inte uppdatera posten\n"
 
 #: src/newusers.c:1131
-#, fuzzy, c-format
+#, c-format
 msgid "%s: can't find subordinate user range"
-msgstr "%s: kan inte skapa användare\n"
+msgstr "%s: hittar inte underordnat användarintervall"
 
 #: src/newusers.c:1137 src/newusers.c:1155
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to prepare new %s entry\n"
-msgstr "%s: misslyckades med att förbereda den nya %s-posten \"%s\"\n"
+msgstr "%s: misslyckades med att förbereda ny %s-post\n"
 
 #: src/newusers.c:1150
-#, fuzzy, c-format
+#, c-format
 msgid "%s: can't find subordinate group range"
-msgstr "%s: kan inte skapa grupp\n"
+msgstr "%s: hittar inte underordnat gruppintervall"
 
 #: src/passwd.c:156
 msgid ""
@@ -2302,27 +2302,25 @@ msgstr ""
 "                                ändring till MAX_DAGAR\n"
 
 #: src/passwd.c:173
-#, fuzzy
 msgid "  -s, --stdin                   read new token from stdin\n"
-msgstr "  -l, --list                    visa åldringsinformation om kontot\n"
+msgstr "  -s, --stdin                   läs ny token från standard in\n"
 
 #: src/passwd.c:201
 msgid "Old password: "
 msgstr "Gammalt lösenord: "
 
 #: src/passwd.c:242
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Enter the new password (minimum of %zu characters)\n"
 "Please use a combination of upper and lower case letters and numbers.\n"
 msgstr ""
-"Ange det nya lösenordet (minimum %d tecken)\n"
+"Ange det nya lösenordet (minst %zu tecken)\n"
 "Använd en kombination av stora och små bokstäver samt siffror.\n"
 
 #: src/passwd.c:258 src/passwd.c:277
-#, fuzzy
 msgid "Password is too long.\n"
-msgstr "%s: fälten för långa\n"
+msgstr "Lösenordet är för långt.\n"
 
 #: src/passwd.c:265
 msgid "New password: "
@@ -2350,9 +2348,9 @@ msgid "The password for %s cannot be changed.\n"
 msgstr "Lösenordet för %s kan inte ändras.\n"
 
 #: src/passwd.c:414
-#, fuzzy, c-format
+#, c-format
 msgid "%s: malformed password data obtained for user %s\n"
-msgstr "%s: skugglösenord krävs för -e\n"
+msgstr "%s: felaktigt utformade lösenordsdata hämtades för användaren %s\n"
 
 #: src/passwd.c:531
 #, c-format
@@ -2372,14 +2370,14 @@ msgid "%s: repository %s not supported\n"
 msgstr "%s: repository %s stöds inte\n"
 
 #: src/passwd.c:881
-#, fuzzy, c-format
+#, c-format
 msgid "%s: only root can use --stdin/-s option\n"
-msgstr "%s: endast root kan använda flaggan -g/--group\n"
+msgstr "%s: endast root kan använda alternativet --stdin/-s\n"
 
 #: src/passwd.c:1001
-#, fuzzy, c-format
+#, c-format
 msgid "%s: root is not authorized by SELinux to change the password of %s\n"
-msgstr "%s: %s är inte behörig att ändra lösenordet för %s\n"
+msgstr "%s: root har inte behörighet enligt SELinux att ändra lösenordet för %s\n"
 
 #: src/passwd.c:1018
 #, c-format
@@ -2424,9 +2422,8 @@ msgstr ""
 "Flaggor:\n"
 
 #: src/pwck.c:143
-#, fuzzy
 msgid "  -q, --quiet                   report errors only\n"
-msgstr "  -q, --quiet                   tyst läge\n"
+msgstr "  -q, --quiet                   rapportera endast fel\n"
 
 #: src/pwck.c:228
 #, c-format
@@ -2442,14 +2439,14 @@ msgid "duplicate password entry"
 msgstr "duplikata lösenordsposter"
 
 #: src/pwck.c:483
-#, fuzzy, c-format
+#, c-format
 msgid "invalid user name '%s': use --badname to ignore\n"
-msgstr "%s: ogiltigt användarnamn \"%s\"\n"
+msgstr "ogiltigt användarnamn ”%s”: använd --badname för att ignorera\n"
 
 #: src/pwck.c:486
-#, fuzzy, c-format
+#, c-format
 msgid "invalid user name '%s'\n"
-msgstr "%s: ogiltigt användarnamn \"%s\"\n"
+msgstr "ogiltigt användarnamn ”%s”\n"
 
 #: src/pwck.c:496
 #, c-format
@@ -2583,41 +2580,39 @@ msgid "%s: %s\n"
 msgstr "%s: %s\n"
 
 #: src/su.c:448
-#, fuzzy
 msgid ""
 "Usage: su [options] [-] [username [args]]\n"
 "\n"
 "Options:\n"
 msgstr ""
-"Användning: %s [flaggor] [grupp [gshadow]]\n"
+"Användning: su [alternativ] [-] [användarnamn [argument]]\n"
 "\n"
-"Flaggor:\n"
+"Alternativ:\n"
 
 #: src/su.c:451
-#, fuzzy
 msgid "  -c, --command COMMAND         pass COMMAND to the invoked shell\n"
-msgstr "  -c, --comment KOMMENTAR       GECOS-fält för det nya kontot\n"
+msgstr "  -c, --command KOMMANDO        skicka KOMMANDO till det anropade skalet\n"
 
 #: src/su.c:453
-#, fuzzy
 msgid "  -, -l, --login                make the shell a login shell\n"
-msgstr "  -L, --lock                    lås användarkontot\n"
+msgstr "  -, -l, --login                gör skalet till ett inloggningsskal\n"
 
 #: src/su.c:454
-#, fuzzy
 msgid ""
 "  -m, -p,\n"
 "  --preserve-environment        do not reset environment variables, and\n"
 "                                keep the same shell\n"
 msgstr ""
-"  -N, --no-user-group           skapa inte en grupp med samma namn som\n"
-"                                användaren\n"
+"  -m, -p,\n"
+"  --preserve-environment        återställ inte miljövariabler och behåll\n"
+"                                samma skal\n"
 
 #: src/su.c:457
-#, fuzzy
 msgid ""
 "  -s, --shell SHELL             use SHELL instead of the default in passwd\n"
-msgstr "  -s, --shell SKAL              inloggningsskal för det nya kontot\n"
+msgstr ""
+"  -s, --shell SKAL              använd SKAL i stället för standardvärdet i "
+"passwd\n"
 
 #: src/su.c:459
 msgid "If no username is given, assume root.\n"
@@ -2660,14 +2655,14 @@ msgid "%s: You are not authorized to su at that time\n"
 msgstr "%s: Du är inte behörig att använda su för tillfället\n"
 
 #: src/su.c:651 src/su.c:682
-#, fuzzy, c-format
+#, c-format
 msgid "No passwd entry for user '%s'\n"
-msgstr "Ingen lösenordspost för \"root\""
+msgstr "Ingen passwd-post för användaren ”%s”\n"
 
 #: src/su.c:676
-#, fuzzy, c-format
+#, c-format
 msgid "Overlong user name '%s'\n"
-msgstr "ogiltigt användarnamn \"%s\"\n"
+msgstr "För långt användarnamn ”%s”\n"
 
 #: src/su.c:749
 #, c-format
@@ -2680,9 +2675,9 @@ msgid "%s: pam_start: error %d\n"
 msgstr "%s: pam_start: fel %d\n"
 
 #: src/su.c:1176
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot drop the controlling terminal\n"
-msgstr "%s: Kan inte ta bort innehållet i %s: %s\n"
+msgstr "%s: Kan inte släppa den styrande terminalen\n"
 
 #: src/su.c:1228
 #, c-format
