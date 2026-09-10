@@ -1,0 +1,231 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App name: launcher label and system widget owner title. Noun -->
+    <string name="app_name">Väder</string>
+    <!-- Glance widget metadata description shown in widget picker — what widget does. Full sentence -->
+    <string name="weather_widget_description">Aktuell tid, datum och väder i en överblick – tryck för prognosen</string>
+    <!-- Empty-state TopAppBar title when no locations saved yet. Noun -->
+    <string name="weather_title">Väder</string>
+
+    <!-- Empty state headline when no cities saved. Noun phrase -->
+    <string name="no_locations_yet">Inga platser ännu</string>
+    <!-- Subtitle explaining onboarding: add city or use device location to see forecast -->
+    <string name="add_a_city_or_use_your_current_location">Lägg till en stad eller använd din aktuella plats för att se prognosen.</string>
+    <!-- Primary CTA button when empty to add first city. Verb phrase -->
+    <string name="add_location">Lägg till plats</string>
+    <!-- Button / Tab label for using device location (GPS). Verb phrase -->
+    <string name="use_current_location">Använd aktuell plats</string>
+    <!-- Button label while requesting location permission / GPS fix. Verb present participle with ellipsis -->
+    <string name="locating">Hämtar plats…</string>
+
+    <!-- Supporting text explaining automatic device location detection and adding to list -->
+    <string name="detect_your_device_s_current_location_au">Identifiera enhetens aktuella plats automatiskt och lägg till den i listan</string>
+    <!-- Default label for device current location row. Noun phrase -->
+    <string name="current_location">Aktuell plats</string>
+
+    <!-- Section header title for locations drawer sheet. Noun plural -->
+    <string name="locations">Platser</string>
+    <!-- Locations panel action: opens the OS regional units settings. Noun phrase -->
+    <string name="set_units">Enheter</string>
+    <!-- Search dialog title and bottom bar button to open search. Verb phrase -->
+    <string name="search_location">Sök plats</string>
+    <!-- TextField placeholder/hint for entering city name. Noun phrase -->
+    <string name="city_name_hint">Stadens namn</string>
+    <!-- Empty search results when query yields no city matches. Noun phrase -->
+    <string name="no_matches">Inga träffar</string>
+    <!-- Bottom sheet confirmation button for delete action. Verb phrase -->
+    <string name="confirm_delete">Bekräfta borttagning</string>
+    <!-- Toast error when LocationProvider fails to obtain fix -->
+    <string name="couldn_t_determine_location">Det gick inte att fastställa platsen</string>
+    <!-- Toast error when user denies location permission -->
+    <string name="location_permission_denied">Platsbehörighet nekades</string>
+
+    <!-- Row label showing daily high/low temps. %1$s = max temp e.g. 28°C, %2$s = min temp e.g. 14°C. Keep Max/Min keywords -->
+    <string name="max_min">Max <xliff:g id="max" example="28°C">%1$s</xliff:g> Min <xliff:g id="min" example="14°C">%2$s</xliff:g></string>
+    <!-- Feels-like temperature row. %1$s = apparent temperature e.g. 26°C -->
+    <string name="feels_like">Känns som <xliff:g id="temp" example="26°C">%1$s</xliff:g></string>
+    <!-- HumidityBlock: row label for dew point inside humidity details. Noun phrase -->
+    <string name="dew_point">Daggpunkt</string>
+    <!-- WindBlock: wind details line. %1$s = compass direction e.g. NW, %2$s = gusts speed e.g. 18 km/h -->
+    <string name="from_gusts">Från <xliff:g id="direction" example="NW">%1$s</xliff:g> · Byar <xliff:g id="gusts" example="18 km/h">%2$s</xliff:g></string>
+
+    <!-- Placeholder when not enough data points (<2) to draw graph line -->
+    <string name="not_enough_data_to_plot">Inte tillräckligt med data för att rita diagrammet.</string>
+
+    <!-- Map time slider label when layer time is null fallback. Noun -->
+    <string name="map_time">Tid</string>
+
+    <!-- Condition: clear sky. Adjective/noun -->
+    <string name="condition_clear">Klart</string>
+    <!-- Condition: mainly/mostly clear sky. Adverb + adjective -->
+    <string name="condition_mostly_clear">Mestadels klart</string>
+    <!-- Condition: partly cloudy. Noun phrase -->
+    <string name="condition_partly_cloudy">Delvis molnigt</string>
+    <!-- Condition: fully cloudy. Adjective -->
+    <string name="condition_cloudy">Molnigt</string>
+    <!-- Condition: fog. Noun -->
+    <string name="condition_fog">Dimma</string>
+    <!-- Condition: drizzle. Noun -->
+    <string name="condition_drizzle">Duggregn</string>
+    <!-- Condition: rain. Noun -->
+    <string name="condition_rain">Regn</string>
+    <!-- Condition: snow. Noun -->
+    <string name="condition_snow">Snö</string>
+    <!-- Condition: thunderstorm. Noun -->
+    <string name="condition_thunderstorm">Åskväder</string>
+    <!-- Condition: unknown/fallback. Adjective -->
+    <string name="condition_unknown">Okänt</string>
+
+    <!-- Metric: air temperature. Noun -->
+    <string name="metric_temperature">Temperatur</string>
+    <!-- Metric: feels-like temperature. Noun phrase -->
+    <string name="metric_feels_like">Känns som</string>
+    <!-- Metric: relative humidity percentage. Noun -->
+    <string name="metric_humidity">Luftfuktighet</string>
+    <!-- Metric: precipitation amount/probability. Noun -->
+    <string name="metric_precipitation">Nederbörd</string>
+    <!-- Metric: wind speed average. Noun phrase -->
+    <string name="metric_wind_speed">Vindhastighet</string>
+    <!-- Metric: wind gusts max. Noun phrase -->
+    <string name="metric_wind_gusts">Vindbyar</string>
+    <!-- Metric: atmospheric pressure. Noun -->
+    <string name="metric_pressure">Lufttryck</string>
+    <!-- Metric: visibility distance. Noun -->
+    <string name="metric_visibility">Sikt</string>
+    <!-- Metric: cloud cover percentage. Noun phrase -->
+    <string name="metric_cloud_cover">Molntäcke</string>
+    <!-- Metric: UV index value. Noun phrase, keep UV uppercase -->
+    <string name="metric_uv_index">UV-index</string>
+
+    <!-- Block title: sun. Noun -->
+    <string name="block_sun">Sol</string>
+    <!-- Block title: pollen. Noun -->
+    <string name="block_pollen">Pollen</string>
+    <!-- Block title: wind. Noun -->
+    <string name="block_wind">Vind</string>
+    <!-- Block title: air quality. Noun phrase -->
+    <string name="block_air_quality">Luftkvalitet</string>
+    <!-- Block title: moon. Noun -->
+    <string name="block_moon">Måne</string>
+
+    <!-- Moon phase: the moon is unlit. Noun phrase -->
+    <string name="moon_phase_new">Nymåne</string>
+    <!-- Moon phase: a growing sliver, less than a quarter lit. Noun phrase -->
+    <string name="moon_phase_waxing_crescent">Tilltagande skära</string>
+    <!-- Moon phase: half lit and growing. Noun phrase, named for the quarter of the cycle elapsed, not the fraction lit -->
+    <string name="moon_phase_first_quarter">Första kvarteret</string>
+    <!-- Moon phase: more than half lit and growing. Noun phrase -->
+    <string name="moon_phase_waxing_gibbous">Tilltagande halvmåne</string>
+    <!-- Moon phase: fully lit. Noun phrase -->
+    <string name="moon_phase_full">Fullmåne</string>
+    <!-- Moon phase: more than half lit and shrinking. Noun phrase -->
+    <string name="moon_phase_waning_gibbous">Avtagande halvmåne</string>
+    <!-- Moon phase: half lit and shrinking. Noun phrase, named for the quarter of the cycle remaining, not the fraction lit -->
+    <string name="moon_phase_last_quarter">Sista kvarteret</string>
+    <!-- Moon phase: a shrinking sliver, less than a quarter lit. Noun phrase -->
+    <string name="moon_phase_waning_crescent">Avtagande skära</string>
+
+    <!-- Card header: hourly forecast. Noun phrase -->
+    <string name="hourly_forecast">Timprognos</string>
+    <!-- Card header: daily forecast. Noun phrase -->
+    <string name="daily_forecast">Dygnsprognos</string>
+    <!-- Label for current hour in hourly strip. Adverb -->
+    <string name="now">Nu</string>
+    <!-- Label for today in daily strip. Noun -->
+    <string name="today">I dag</string>
+    <!-- Abbreviation for today in hourly day label. Keep short (3 letters) -->
+    <string name="today_short">IDAG</string>
+    <!-- Abbreviation for tomorrow in hourly day label. Keep short (3 letters) -->
+    <string name="tomorrow_short">I MORGON</string>
+
+    <!-- Level: none. Adjective/noun -->
+    <string name="level_none">Ingen</string>
+    <!-- Level: low. Adjective -->
+    <string name="level_low">Låg</string>
+    <!-- Level: medium. Adjective -->
+    <string name="level_medium">Medel</string>
+    <!-- Level: moderate. Adjective -->
+    <string name="level_moderate">Måttlig</string>
+    <!-- Level: high. Adjective -->
+    <string name="level_high">Hög</string>
+    <!-- Level: very high. Adjective phrase -->
+    <string name="level_very_high">Mycket hög</string>
+    <!-- Level: extreme. Adjective -->
+    <string name="level_extreme">Extrem</string>
+    <!-- Level: severe. Adjective -->
+    <string name="level_severe">Allvarlig</string>
+
+    <!-- Cloud cover: clear -->
+    <string name="cloud_clear">Klart</string>
+    <!-- Cloud cover: mostly clear -->
+    <string name="cloud_mostly_clear">Mestadels klart</string>
+    <!-- Cloud cover: partly cloudy -->
+    <string name="cloud_partly_cloudy">Delvis molnigt</string>
+    <!-- Cloud cover: mostly cloudy -->
+    <string name="cloud_mostly_cloudy">Mestadels molnigt</string>
+    <!-- Cloud cover: overcast -->
+    <string name="cloud_overcast">Mulet</string>
+
+    <!-- AQI level: good -->
+    <string name="aqi_good">Bra</string>
+    <!-- AQI level: moderate (AQI). Keep consistent with level_moderate -->
+    <string name="aqi_moderate">Måttlig</string>
+    <!-- AQI level: unhealthy for sensitive groups. Keep short -->
+    <string name="aqi_unhealthy_sensitive">Ohälsosam (känsliga grupper)</string>
+    <!-- AQI level: unhealthy -->
+    <string name="aqi_unhealthy">Ohälsosam</string>
+    <!-- AQI level: very unhealthy -->
+    <string name="aqi_very_unhealthy">Mycket ohälsosam</string>
+    <!-- AQI level: hazardous -->
+    <string name="aqi_hazardous">Farlig</string>
+
+    <!-- Precipitation nowcast: raining now -->
+    <string name="precip_raining_now">Det regnar nu</string>
+    <!-- Precipitation nowcast: no rain in next 2 hours -->
+    <string name="precip_no_rain_next_2h">Inget regn de närmaste 2 timmarna</string>
+    <!-- WindBlock: gusts-only detail line. %1$s = gusts speed e.g. 18 km/h -->
+    <string name="gusts">Byar <xliff:g id="gusts" example="18 km/h">%1$s</xliff:g></string>
+    <!-- Precipitation nowcast: rain starting now -->
+    <string name="precip_rain_starting_now">Regnet börjar nu</string>
+    <!-- Precipitation nowcast: rain expected in ~N minutes. %1$d = rounded minutes -->
+    <string name="precip_rain_in_min">Regn om cirka <xliff:g id="minutes" example="15">%1$d</xliff:g> min</string>
+
+    <!-- Locations drawer: last updated template. %1$s = relative time e.g. "2h ago" -->
+    <string name="last_updated">Senast uppdaterad <xliff:g id="time_ago" example="2h ago">%1$s</xliff:g></string>
+    <!-- Placeholder when no fetch yet -->
+    <string name="no_data_yet">Inga data ännu</string>
+    <!-- Relative time: just now -->
+    <string name="just_now">just nu</string>
+    <!-- Relative time: minutes ago. %1$d = minutes -->
+    <string name="minutes_ago">för <xliff:g id="minutes" example="5">%1$d</xliff:g> min sedan</string>
+    <!-- Relative time: hours ago. %1$d = hours -->
+    <string name="hours_ago">för <xliff:g id="hours" example="2">%1$d</xliff:g> h sedan</string>
+    <!-- Relative time: days ago. %1$d = days -->
+    <string name="days_ago">för <xliff:g id="days" example="3">%1$d</xliff:g> d sedan</string>
+
+    <!-- Duration: hours and minutes. %1$d = hours, %2$d = minutes -->
+    <string name="duration_h_m"><xliff:g id="hours" example="11">%1$d</xliff:g> h <xliff:g id="minutes" example="30">%2$d</xliff:g> min</string>
+
+    <!-- Card header for AI-generated daily summary. Noun -->
+    <string name="summary_title">Sammanfattning</string>
+    <!-- Fallback when current WMO code unavailable, sentence fragment used as condition placeholder. Noun phrase lowercased in sentence -->
+    <string name="summary_mixed_conditions">blandade förhållanden</string>
+    <!-- Sentence template: Expect {condition} throughout the day. %1$s = condition phrase e.g. light rain, must fit grammar "Expect %s throughout the day." -->
+    <string name="summary_expect_conditions">Räkna med <xliff:g id="conditions" example="light rain">%1$s</xliff:g> under dagen.</string>
+    <!-- Sentence template: daily high/low temps. %1$s = high e.g. 24°C, %2$s = low e.g. 12°C -->
+    <string name="summary_high_low">Högsta <xliff:g id="high" example="24°C">%1$s</xliff:g>, lägsta <xliff:g id="low" example="12°C">%2$s</xliff:g>.</string>
+    <!-- Warning: rain highly likely today -->
+    <string name="summary_rain_likely">Regn är troligt – ta med ett paraply.</string>
+    <!-- Warning: showers possible later -->
+    <string name="summary_showers_possible">Skurar kan förekomma senare.</string>
+    <!-- Warning: slight chance of rain threshold -->
+    <string name="summary_slight_chance_rain">Liten risk för regn.</string>
+    <!-- Warning: noticeable wind today -->
+    <string name="summary_winds_noticeable">Vinden kommer att märkas i dag.</string>
+
+    <!-- Widget: empty state dash when no weather cached yet. Symbol, not translatable content but kept in strings.xml per lint -->
+    <string name="weather_no_data">—</string>
+    <!-- Widget: temperature format for glance widget. %1$d = rounded Celsius temperature integer -->
+    <string name="weather_temp_format"><xliff:g id="temp" example="22">%1$d</xliff:g>°</string>
+    <!-- Blob widget description shown in widget picker. Full sentence -->
+    <string name="weather_blob_widget_description">Väder i en organisk bubbla – stor temperatur med ikon och mörkt blågrön bakgrund</string>
+</resources>
