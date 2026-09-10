@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: fdroidserver 1.0.0-95-gd7af22b\n"
 "Report-Msgid-Bugs-To: https://gitlab.com/fdroid/fdroidserver/issues\n"
 "POT-Creation-Date: 2026-05-19 20:45+0200\n"
-"PO-Revision-Date: 2026-09-10 19:16+0000\n"
+"PO-Revision-Date: 2026-09-10 19:30+0000\n"
 "Last-Translator: Daniel Nylander <yeagersthlm@gmail.com>\n"
 "Language-Team: Swedish <https://hosted.weblate.org/projects/f-droid/fdroidserver/sv/>\n"
 "Language: sv\n"
@@ -401,7 +401,7 @@ msgstr "Kan inte uppdatera app automatiskt utan CurrentVersionCode"
 #: ../fdroidserver/build.py
 msgid "Can't build due to {} error while scanning"
 msgid_plural "Can't build due to {} errors while scanning"
-msgstr[0] "Kan inte bygga på grund av {} fel vid genomsökning"
+msgstr[0] "Kan inte bygga på grund av ett {}-fel vid genomsökning"
 msgstr[1] "Kan inte bygga på grund av {} fel vid genomsökning"
 
 #: ../fdroidserver/common.py
@@ -722,7 +722,9 @@ msgstr "Kodningen är angiven som ”{enc}”; fdroid kan få problem med kodnin
 msgid ""
 "Enter the path to the Android SDK (%s) here:\n"
 "> "
-msgstr "Ange sökvägen till Android SDK (%s) här:\\n> "
+msgstr ""
+"Ange sökvägen till Android SDK (%s) här:\n"
+"> "
 
 #: ../fdroidserver/nightly.py
 #, python-brace-format
@@ -1154,7 +1156,7 @@ msgstr "Senast använda commit ”{commit}” ser ut som en tagg, men UpdateChec
 
 #: ../fdroidserver/lint.py
 msgid "Liberapay donation methods belong in the Liberapay: field"
-msgstr "Liberapays donationsmetoder hör hemma i fältet Liberapay:"
+msgstr "Liberapays donationsmetoder hör hemma i fältet ”Liberapay:”"
 
 #: ../fdroidserver/rewritemeta.py
 msgid "List files that would be reformatted (dry run)"
@@ -1369,7 +1371,7 @@ msgstr "Bearbeta endast appar med automatiska uppdateringar"
 
 #: ../fdroidserver/lint.py
 msgid "OpenCollective donation methods belong in the OpenCollective: field"
-msgstr "OpenCollectives donationsmetoder hör hemma i fältet OpenCollective:"
+msgstr "OpenCollectives donationsmetoder hör hemma i fältet ”OpenCollective:”"
 
 #: ../fdroidserver/verify.py
 msgid "Output JSON report to file named after APK."
@@ -1437,7 +1439,7 @@ msgstr "Problem med ZIP-filen ”{apkfile}”: {error}"
 #: ../fdroidserver/common.py
 #, python-brace-format
 msgid "Problem with xml at '{path}'"
-msgstr "Problem med XML vid ”{path}”"
+msgstr "Problem med XML vid '{path}'"
 
 #: ../fdroidserver/checkupdates.py
 msgid "Process auto-updates"
@@ -1630,7 +1632,7 @@ msgstr "Genomsökaren hittade {count} problem i {appid}:{versionCode}:"
 #: ../fdroidserver/build.py
 msgid "Scanner found {} problem"
 msgid_plural "Scanner found {} problems"
-msgstr[0] "Genomsökaren hittade {} problem"
+msgstr[0] "Genomsökaren hittade ett problem"
 msgstr[1] "Genomsökaren hittade {} problem"
 
 #: ../fdroidserver/scanner.py
@@ -1836,10 +1838,12 @@ msgid ""
 "For more info: https://f-droid.org/docs/Setup_an_F-Droid_App_Repo\n"
 "and https://f-droid.org/docs/Signing_Process"
 msgstr ""
-"För att slutföra konfigurationen lägger du till dina APK:er i ”%s”\\n"
-"och kör sedan ”fdroid update -c; fdroid update”. Du kan även redigera\\n”config.yml” för att ange URL, förrådsnamn med mera. Du bör också konfigurera\\n"
-"en signeringsnyckel (en tillfällig kan ha genererats automatiskt).\\n\\n"
-"Mer information: https://f-droid.org/docs/Setup_an_F-Droid_App_Repo\\n"
+"För att slutföra konfigurationen lägger du till dina APK:er i ”%s”\n"
+"och kör sedan ”fdroid update -c; fdroid update”. Du kan även redigera\n"
+"”config.yml” för att ange URL, förrådsnamn med mera. Du bör också konfigurera\n"
+"en signeringsnyckel (en tillfällig kan ha genererats automatiskt).\n"
+"\n"
+"Mer information: https://f-droid.org/docs/Setup_an_F-Droid_App_Repo\n"
 "och https://f-droid.org/docs/Signing_Process"
 
 #: ../fdroidserver/lint.py
@@ -2172,7 +2176,7 @@ msgstr "kan inte öppna '%(filename)s': %(error)s"
 
 #: ../fdroidserver/scanner.py
 msgid "can't open non-https url: '{};"
-msgstr "kan inte öppna URL utan HTTPS: ”{};"
+msgstr "kan inte öppna URL utan HTTPS: '{};"
 
 #: ../fdroidserver/build.py
 #, python-brace-format
@@ -2637,7 +2641,7 @@ msgstr "{appid}: inga byggen angivna, kör med aktuellt källkodstillstånd"
 #: ../fdroidserver/lint.py
 #, python-brace-format
 msgid "{appid}: {field} must be a '{type}', but it is a '{fieldtype}!'"
-msgstr "{appid}: {field} måste vara en ”{type}”, men är en ”{fieldtype}”!"
+msgstr "{appid}: {field} måste vara en '{type}', men är en '{fieldtype}!'"
 
 #: ../fdroidserver/lint.py
 #, python-brace-format
