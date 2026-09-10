@@ -1758,9 +1758,11 @@
 </trans-unit>
 <trans-unit id="s3d34068a31cab30b">
   <source>Internal host SSL Validation</source>
+  <target>SSL-validering av intern värd</target>
 </trans-unit>
 <trans-unit id="s4a26798e1c3c37dd">
   <source>Validate SSL Certificates of upstream servers.</source>
+  <target>Validera SSL-certifikat för uppströmsservrar.</target>
 </trans-unit>
 <trans-unit id="sff0ac1ace2d90709">
   <source>Use this provider with nginx&apos;s auth_request or traefik&apos;s forwardAuth. Each application/domain needs its own provider. Additionally, on each domain, /outpost.goauthentik.io must be routed to the outpost (when using a managed outpost, this is done for you).</source>
@@ -1770,6 +1772,7 @@
 </trans-unit>
 <trans-unit id="sf55d28d4dff0e41b">
   <source>An example setup can look like this:</source>
+  <target>Ett exempel på konfiguration kan se ut så här:</target>
 </trans-unit>
 <trans-unit id="sb4a1d1c19438e929">
   <source>authentik running on auth.example.com</source>
@@ -1782,114 +1785,149 @@
 </trans-unit>
 <trans-unit id="s31d15c6f16951464">
   <source>Authentication URL</source>
+  <target>Autentiserings-URL</target>
 </trans-unit>
 <trans-unit id="sa03fe48e892df2d8">
   <source>The external URL you&apos;ll authenticate at. The authentik core server should be reachable under this URL.</source>
+  <target>Den externa URL där du autentiserar. Authentiks kärnserver ska vara åtkomlig på denna URL.</target>
 </trans-unit>
 <trans-unit id="s7def067ed3ad3ad9">
   <source>Cookie domain</source>
+  <target>Kakdomän</target>
 </trans-unit>
 <trans-unit id="sf8633bb541bfb123">
   <source>domain.tld</source>
 </trans-unit>
 <trans-unit id="s211b75e868072162">
   <source>Set this to the domain you wish the authentication to be valid for. Must be a parent domain of the URL above. If you&apos;re running applications as app1.domain.tld, app2.domain.tld, set this to &apos;domain.tld&apos;.</source>
+  <target>Ange den domän som autentiseringen ska vara giltig för. Den måste vara en överordnad domän till URL:en ovan. Om program körs som app1.domain.tld och app2.domain.tld anger du ”domain.tld”.</target>
 </trans-unit>
 <trans-unit id="s7c10976de6411844">
   <source>Token validity</source>
+  <target>Giltighetstid för token</target>
 </trans-unit>
 <trans-unit id="s3e87ce98ba3c4d80">
   <source>Configure how long tokens are valid for.</source>
+  <target>Ställ in hur länge token är giltiga.</target>
 </trans-unit>
 <trans-unit id="sd539548ca4c71619">
   <source>Additional scopes</source>
+  <target>Ytterligare omfattningar</target>
 </trans-unit>
 <trans-unit id="s8f12575f694e85a2">
   <source>Additional scope mappings, which are passed to the proxy.</source>
+  <target>Ytterligare omfattningsmappningar som skickas till proxyn.</target>
 </trans-unit>
 <trans-unit id="s93cea6ca1f93349d">
   <source>Unauthenticated URLs</source>
+  <target>Oautentiserade URL:er</target>
 </trans-unit>
 <trans-unit id="sc4508175bf6b09dd">
   <source>Unauthenticated Paths</source>
+  <target>Oautentiserade sökvägar</target>
 </trans-unit>
 <trans-unit id="sc9fc206433f67588">
   <source>Regular expressions for which authentication is not required. Each new line is interpreted as a new expression.</source>
+  <target>Reguljära uttryck som inte kräver autentisering. Varje ny rad tolkas som ett nytt uttryck.</target>
 </trans-unit>
 <trans-unit id="sd503fabef9691134">
   <source>When using proxy or forward auth (single application) mode, the requested URL Path is checked against the regular expressions. When using forward auth (domain mode), the full requested URL including scheme and host is matched against the regular expressions.</source>
 </trans-unit>
 <trans-unit id="sb488dee0be434f7e">
   <source>Authentication settings</source>
+  <target>Autentiseringsinställningar</target>
 </trans-unit>
 <trans-unit id="s23cee624c735f266">
   <source>Intercept header authentication</source>
+  <target>Fånga upp rubrikautentisering</target>
 </trans-unit>
 <trans-unit id="sc007cca5af67eae0">
   <source>When enabled, authentik will intercept the Authorization header to authenticate the request.</source>
+  <target>När alternativet är aktiverat fångar authentik upp auktoriseringshuvudet för att autentisera begäran.</target>
 </trans-unit>
 <trans-unit id="s36e630ba56617556">
   <source>Send HTTP-Basic Authentication</source>
+  <target>Skicka HTTP-Basic-autentisering</target>
 </trans-unit>
 <trans-unit id="s9d5796a4b9b7560e">
   <source>Send a custom HTTP-Basic Authentication header based on values from authentik.</source>
+  <target>Skicka ett anpassat HTTP-Basic-autentiseringshuvud baserat på värden från authentik.</target>
 </trans-unit>
 <trans-unit id="sf5cbccdc6254c8dc">
   <source>Configure Proxy Provider</source>
+  <target>Ställ in proxyleverantör</target>
 </trans-unit>
 <trans-unit id="s881271a499c9db98">
   <source>Configure Remote Access Provider</source>
+  <target>Ställ in leverantör för fjärråtkomst</target>
 </trans-unit>
 <trans-unit id="sa2ea0fcd3ffa80e0">
   <source>Connection expiry</source>
+  <target>Anslutningens utgångstid</target>
 </trans-unit>
 <trans-unit id="s6dd297c217729828">
   <source>Determines how long a session lasts before being disconnected and requiring re-authorization.</source>
+  <target>Avgör hur länge en session varar innan den kopplas från och kräver ny auktorisering.</target>
 </trans-unit>
 <trans-unit id="se6d950402810c34f">
   <source>Property mappings</source>
+  <target>Egenskapsmappningar</target>
 </trans-unit>
 <trans-unit id="s81d76cccf339a43c">
   <source>Available Property Mappings</source>
+  <target>Tillgängliga egenskapsmappningar</target>
 </trans-unit>
 <trans-unit id="se9195c05c61d8ef8">
   <source>Selected Property Mappings</source>
+  <target>Valda egenskapsmappningar</target>
 </trans-unit>
 <trans-unit id="sb95baab425322600">
   <source>Shared secret</source>
+  <target>Delad hemlighet</target>
 </trans-unit>
 <trans-unit id="s9e9316a6b0c16231">
   <source>Client Networks</source>
+  <target>Klientnätverk</target>
 </trans-unit>
 <trans-unit id="sd5746b2550ac4852">
   <source>Certificate used for EAP-TLS. Requires Mutual TLS Stage in authentication flow.</source>
+  <target>Certifikat som används för EAP-TLS. Kräver ett steg för ömsesidig TLS i autentiseringsflödet.</target>
 </trans-unit>
 <trans-unit id="s2c8c6f89089b31d4">
   <source>Configure Radius Provider</source>
+  <target>Ställ in RADIUS-leverantör</target>
 </trans-unit>
 <trans-unit id="sd8f220c999726151">
   <source>Redirect</source>
+  <target>Omdirigera</target>
 </trans-unit>
 <trans-unit id="sb357ea19a722d827">
   <source>Post</source>
+  <target>POST</target>
 </trans-unit>
 <trans-unit id="s5aebe06e3ddf6ca9">
   <source>Sign assertions</source>
+  <target>Signera intyg</target>
 </trans-unit>
 <trans-unit id="s4e2329ffa0ef6b74">
   <source>When enabled, the assertion element of the SAML response will be signed.</source>
+  <target>När alternativet är aktiverat signeras intygselementet i SAML-svaret.</target>
 </trans-unit>
 <trans-unit id="s2ad1b968b37ded68">
   <source>Sign responses</source>
+  <target>Signera svar</target>
 </trans-unit>
 <trans-unit id="sa30ba280de276758">
   <source>When enabled, the SAML response will be signed.</source>
+  <target>När alternativet är aktiverat signeras SAML-svaret.</target>
 </trans-unit>
 <trans-unit id="sa4bd902fbc432ab8">
   <source>Sign logout requests</source>
+  <target>Signera utloggningsbegäranden</target>
 </trans-unit>
 <trans-unit id="sb1e6dc6d91ce352e">
   <source>When enabled, SAML logout requests will be signed.</source>
+  <target>När alternativet är aktiverat signeras SAML-utloggningsbegäranden.</target>
 </trans-unit>
 <trans-unit id="sd1ab93a011b2f1f5">
   <source>Front-channel (Iframe)</source>
