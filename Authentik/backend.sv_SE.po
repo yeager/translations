@@ -2896,30 +2896,32 @@ msgstr ""
 msgid ""
 "Any JWT signed by the JWK of the selected source can be used to authenticate."
 msgstr ""
+"Alla JWT som signerats med den valda källans JWK kan användas för "
+"autentisering."
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2/OpenID Provider"
-msgstr ""
+msgstr "OAuth2/OpenID-leverantör"
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2/OpenID Providers"
-msgstr ""
+msgstr "OAuth2/OpenID-leverantörer"
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2 Provider JWT Federation Source"
-msgstr ""
+msgstr "JWT-federationskälla för OAuth2-leverantör"
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2 Provider JWT Federation Sources"
-msgstr ""
+msgstr "JWT-federationskällor för OAuth2-leverantörer"
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2 Provider JWT Federation Provider"
-msgstr ""
+msgstr "JWT-federationsleverantör för OAuth2-leverantör"
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2 Provider JWT Federation Providers"
-msgstr ""
+msgstr "JWT-federationsleverantörer för OAuth2-leverantörer"
 
 #: authentik/providers/oauth2/models.py
 msgid "Scopes"
@@ -2943,7 +2945,7 @@ msgstr "Metod för kodutmaning"
 
 #: authentik/providers/oauth2/models.py
 msgid "DPoP JWK Thumbprint"
-msgstr ""
+msgstr "DPoP JWK-fingeravtryck"
 
 #: authentik/providers/oauth2/models.py
 msgid "Authorization Code"
@@ -2975,96 +2977,100 @@ msgstr "OAuth2-uppdateringstoken"
 
 #: authentik/providers/oauth2/models.py
 msgid "Provider"
-msgstr ""
+msgstr "Leverantör"
 
 #: authentik/providers/oauth2/models.py
 msgid "Default application group"
-msgstr ""
+msgstr "Standardgrupp för program"
 
 #: authentik/providers/oauth2/models.py
 msgid "Group to assign to automatically created applications."
-msgstr ""
+msgstr "Grupp att tilldela automatiskt skapade program."
 
 #: authentik/providers/oauth2/models.py
 msgid "Override authorization flow"
-msgstr ""
+msgstr "Åsidosätt auktoriseringsflöde"
 
 #: authentik/providers/oauth2/models.py
 msgid "Authorization flow applied to dynamically registered clients."
-msgstr ""
+msgstr "Auktoriseringsflöde som tillämpas på dynamiskt registrerade klienter."
 
 #: authentik/providers/oauth2/models.py
 msgid "Override invalidation flow"
-msgstr ""
+msgstr "Åsidosätt ogiltigförklaringsflöde"
 
 #: authentik/providers/oauth2/models.py
 msgid "Override property mappings"
-msgstr ""
+msgstr "Åsidosätt egenskapsmappningar"
 
 #: authentik/providers/oauth2/models.py
 msgid "Scope mappings applied to dynamically registered clients."
-msgstr ""
+msgstr "Omfattningsmappningar som tillämpas på dynamiskt registrerade klienter."
 
 #: authentik/providers/oauth2/models.py
 msgid "Access token validity"
-msgstr ""
+msgstr "Giltighetstid för åtkomsttoken"
 
 #: authentik/providers/oauth2/models.py
 msgid ""
 "Maximum access token validity for registered clients (Format: "
 "hours=1;minutes=2;seconds=3)."
 msgstr ""
+"Längsta giltighetstid för åtkomsttoken för registrerade klienter (format: "
+"hours=1;minutes=2;seconds=3)."
 
 #: authentik/providers/oauth2/models.py
 msgid "Refresh token validity"
-msgstr ""
+msgstr "Giltighetstid för uppdateringstoken"
 
 #: authentik/providers/oauth2/models.py
 msgid ""
 "Maximum refresh token validity for registered clients (Format: "
 "hours=1;minutes=2;seconds=3)."
 msgstr ""
+"Längsta giltighetstid för uppdateringstoken för registrerade klienter "
+"(format: hours=1;minutes=2;seconds=3)."
 
 #: authentik/providers/oauth2/models.py
 msgid "Allowed grant types"
-msgstr ""
+msgstr "Tillåtna beviljandetyper"
 
 #: authentik/providers/oauth2/models.py
 msgid "If empty, all grant types are allowed."
-msgstr ""
+msgstr "Om fältet lämnas tomt är alla beviljandetyper tillåtna."
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2 Dynamic Client Registration"
-msgstr ""
+msgstr "Dynamisk OAuth2-klientregistrering"
 
 #: authentik/providers/oauth2/models.py
 msgid "OAuth2 Dynamic Client Registrations"
-msgstr ""
+msgstr "Dynamiska OAuth2-klientregistreringar"
 
 #: authentik/providers/oauth2/models.py
 msgid "Dynamic Client Registration Property Mapping"
-msgstr ""
+msgstr "Egenskapsmappning för dynamisk klientregistrering"
 
 #: authentik/providers/oauth2/models.py
 msgid "Dynamic Client Registration Property Mappings"
-msgstr ""
+msgstr "Egenskapsmappningar för dynamisk klientregistrering"
 
 #: authentik/providers/oauth2/tasks.py
 msgid "Send a back-channel logout request to the registered client"
-msgstr ""
+msgstr "Skicka en backchannel-utloggningsbegäran till den registrerade klienten"
 
 #: authentik/providers/oauth2/tasks.py
 msgid "Handle backchannel logout notifications dispatched via signal"
-msgstr ""
+msgstr "Hantera backchannel-utloggningsmeddelanden som skickas via signal"
 
 #: authentik/providers/oauth2/templates/if/oauth_form_post.html
 msgid "Redirecting..."
-msgstr ""
+msgstr "Omdirigerar …"
 
 #: authentik/providers/oauth2/templates/if/oauth_form_post.html
 msgid ""
 "Your browser does not support JavaScript, please click below to continue."
-msgstr ""
+msgstr "Din webbläsare saknar stöd för JavaScript. Klicka nedan för att fortsätta."
 
 #: authentik/providers/oauth2/templates/if/oauth_form_post.html
 #: authentik/stages/identification/stage.py
@@ -3073,19 +3079,19 @@ msgstr "Fortsätt"
 
 #: authentik/providers/oauth2/views/device_init.py
 msgid "Invalid code"
-msgstr ""
+msgstr "Ogiltig kod"
 
 #: authentik/providers/oauth2/views/userinfo.py
 msgid "GitHub Compatibility: Access your User Information"
-msgstr ""
+msgstr "GitHub-kompatibilitet: Åtkomst till din användarinformation"
 
 #: authentik/providers/oauth2/views/userinfo.py
 msgid "GitHub Compatibility: Access you Email addresses"
-msgstr ""
+msgstr "GitHub-kompatibilitet: Åtkomst till dina e-postadresser"
 
 #: authentik/providers/oauth2/views/userinfo.py
 msgid "GitHub Compatibility: Access your Groups"
-msgstr ""
+msgstr "GitHub-kompatibilitet: Åtkomst till dina grupper"
 
 #: authentik/providers/proxy/api.py
 msgid "User and password attributes must be set when basic auth is enabled."
@@ -3116,18 +3122,24 @@ msgid ""
 "Enable support for forwardAuth in traefik and nginx auth_request. Exclusive "
 "with internal_host."
 msgstr ""
+"Aktivera stöd för forwardAuth i Traefik och nginx auth_request. Kan inte "
+"användas tillsammans med internal_host."
 
 #: authentik/providers/proxy/models.py
 msgid ""
 "Regular expressions for which authentication is not required. Each new line "
 "is interpreted as a new Regular Expression."
 msgstr ""
+"Reguljära uttryck som inte kräver autentisering. Varje ny rad tolkas som ett "
+"nytt reguljärt uttryck."
 
 #: authentik/providers/proxy/models.py
 msgid ""
 "When enabled, this provider will intercept the authorization header and "
 "authenticate requests based on its value."
 msgstr ""
+"När alternativet är aktiverat fångar leverantören upp auktoriseringshuvudet "
+"och autentiserar begäranden utifrån dess värde."
 
 #: authentik/providers/proxy/models.py
 msgid "Set HTTP-Basic Authentication"
@@ -3149,6 +3161,8 @@ msgid ""
 "User/Group Attribute used for the user part of the HTTP-Basic Header. If not "
 "set, the user's Email address is used."
 msgstr ""
+"Användar- eller gruppattribut som används för användardelen i HTTP-Basic-"
+"huvudet. Om det inte anges används användarens e-postadress."
 
 #: authentik/providers/proxy/models.py
 msgid "HTTP-Basic Password Key"
@@ -3174,58 +3188,60 @@ msgid ""
 "Determines how long a session lasts. Default of 0 means that the sessions "
 "lasts until the browser is closed. (Format: hours=-1;minutes=-2;seconds=-3)"
 msgstr ""
+"Avgör hur länge en session varar. Standardvärdet 0 innebär att sessionen "
+"varar tills webbläsaren stängs (format: hours=-1;minutes=-2;seconds=-3)."
 
 #: authentik/providers/rac/models.py
 msgid "When set to true, connection tokens will be deleted upon disconnect."
-msgstr ""
+msgstr "När värdet är true tas anslutningstoken bort vid frånkoppling."
 
 #: authentik/providers/rac/models.py
 msgid "RAC Provider"
-msgstr ""
+msgstr "RAC-leverantör"
 
 #: authentik/providers/rac/models.py
 msgid "RAC Providers"
-msgstr ""
+msgstr "RAC-leverantörer"
 
 #: authentik/providers/rac/models.py
 msgid "RAC Endpoint"
-msgstr ""
+msgstr "RAC-ändpunkt"
 
 #: authentik/providers/rac/models.py
 msgid "RAC Endpoints"
-msgstr ""
+msgstr "RAC-ändpunkter"
 
 #: authentik/providers/rac/models.py
 msgid "Endpoint Property Mapping"
-msgstr ""
+msgstr "Egenskapsmappning för ändpunkt"
 
 #: authentik/providers/rac/models.py
 msgid "Endpoint Property Mappings"
-msgstr ""
+msgstr "Egenskapsmappningar för ändpunkter"
 
 #: authentik/providers/rac/models.py
 msgid "RAC Provider Property Mapping"
-msgstr ""
+msgstr "Egenskapsmappning för RAC-leverantör"
 
 #: authentik/providers/rac/models.py
 msgid "RAC Provider Property Mappings"
-msgstr ""
+msgstr "Egenskapsmappningar för RAC-leverantörer"
 
 #: authentik/providers/rac/models.py
 msgid "RAC Connection token"
-msgstr ""
+msgstr "RAC-anslutningstoken"
 
 #: authentik/providers/rac/models.py
 msgid "RAC Connection tokens"
-msgstr ""
+msgstr "RAC-anslutningstoken"
 
 #: authentik/providers/rac/views.py
 msgid "Maximum connection limit reached."
-msgstr ""
+msgstr "Maximalt antal anslutningar har uppnåtts."
 
 #: authentik/providers/rac/views.py
 msgid "(You are already connected in another tab/window)"
-msgstr ""
+msgstr "(Du är redan ansluten i en annan flik eller ett annat fönster)"
 
 #: authentik/providers/radius/models.py
 msgid "Shared secret between clients and server to hash packets."
