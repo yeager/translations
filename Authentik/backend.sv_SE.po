@@ -5418,19 +5418,19 @@ msgstr "Ogiltigt lösenord"
 
 #: authentik/stages/prompt/models.py
 msgid "Text: Simple Text input"
-msgstr ""
+msgstr "Text: enkel textinmatning"
 
 #: authentik/stages/prompt/models.py
 msgid "Text area: Multiline Text Input."
-msgstr ""
+msgstr "Textområde: textinmatning på flera rader."
 
 #: authentik/stages/prompt/models.py
 msgid "Text (read-only): Simple Text input, but cannot be edited."
-msgstr ""
+msgstr "Text (skrivskyddad): enkel textinmatning som inte kan redigeras."
 
 #: authentik/stages/prompt/models.py
 msgid "Text area (read-only): Multiline Text input, but cannot be edited."
-msgstr ""
+msgstr "Textområde (skrivskyddat): textinmatning på flera rader som inte kan redigeras."
 
 #: authentik/stages/prompt/models.py
 msgid ""
@@ -5442,27 +5442,31 @@ msgstr ""
 
 #: authentik/stages/prompt/models.py
 msgid "Email: Text field with Email type."
-msgstr ""
+msgstr "E-post: textfält med e-posttyp."
 
 #: authentik/stages/prompt/models.py
 msgid ""
 "Password: Masked input, multiple inputs of this type on the same prompt need "
 "to be identical."
 msgstr ""
+"Lösenord: maskerad inmatning; flera inmatningar av denna typ i samma prompt "
+"måste vara identiska."
 
 #: authentik/stages/prompt/models.py
 msgid "Fixed choice field rendered as a group of radio buttons."
-msgstr ""
+msgstr "Fast valfält som visas som en grupp alternativknappar."
 
 #: authentik/stages/prompt/models.py
 msgid "Fixed choice field rendered as a dropdown."
-msgstr ""
+msgstr "Fast valfält som visas som en listruta."
 
 #: authentik/stages/prompt/models.py
 msgid ""
 "File: File upload for arbitrary files. File content will be available in "
 "flow context as data-URI"
 msgstr ""
+"Fil: filuppladdning för godtyckliga filer. Filinnehållet blir tillgängligt "
+"som data-URI i flödets kontext."
 
 #: authentik/stages/prompt/models.py
 msgid "Separator: Static Separator Line"
@@ -5470,31 +5474,31 @@ msgstr "Separator: Statisk Separatorlinje"
 
 #: authentik/stages/prompt/models.py
 msgid "Hidden: Hidden field, can be used to insert data into form."
-msgstr ""
+msgstr "Dold: dolt fält som kan användas för att infoga data i formuläret."
 
 #: authentik/stages/prompt/models.py
 msgid "Static: Static value, displayed as-is."
-msgstr ""
+msgstr "Statisk: statiskt värde som visas som det är."
 
 #: authentik/stages/prompt/models.py
 msgid "Alert (Info): Static alert box with info styling"
-msgstr ""
+msgstr "Varning (information): statisk varningsruta med informationsformat"
 
 #: authentik/stages/prompt/models.py
 msgid "Alert (Warning): Static alert box with warning styling"
-msgstr ""
+msgstr "Varning: statisk varningsruta med varningsformat"
 
 #: authentik/stages/prompt/models.py
 msgid "Alert (Danger): Static alert box with danger styling"
-msgstr ""
+msgstr "Varning (fara): statisk varningsruta med faroformat"
 
 #: authentik/stages/prompt/models.py
 msgid "authentik: Selection of locales authentik supports"
-msgstr ""
+msgstr "authentik: urval av språkversioner som authentik stöder"
 
 #: authentik/stages/prompt/models.py
 msgid "Name of the form field, also used to store the value"
-msgstr ""
+msgstr "Formulärfältets namn, används även för att lagra värdet"
 
 #: authentik/stages/prompt/models.py
 msgid ""
@@ -5502,6 +5506,9 @@ msgid ""
 "When creating a fixed choice field, enable interpreting as expression and "
 "return a list to return multiple choices."
 msgstr ""
+"Ange vid behov en kort ledtext som beskriver det förväntade inmatningsvärdet. "
+"När ett fast valfält skapas kan tolkning som uttryck aktiveras och en lista "
+"returneras för flera val."
 
 #: authentik/stages/prompt/models.py
 msgid ""
@@ -5509,6 +5516,9 @@ msgid ""
 "choice field, enable interpreting as expression and return a list to return "
 "multiple default choices."
 msgstr ""
+"Fyll vid behov i inmatningen med ett initialt värde. När ett fast valfält "
+"skapas kan tolkning som uttryck aktiveras och en lista returneras för flera "
+"standardval."
 
 #: authentik/stages/prompt/models.py
 msgid "Prompt"
@@ -5516,31 +5526,31 @@ msgstr "Prompt"
 
 #: authentik/stages/prompt/models.py
 msgid "Prompts"
-msgstr ""
+msgstr "Promptar"
 
 #: authentik/stages/prompt/models.py
 msgid "Prompt Stage"
-msgstr ""
+msgstr "Promptsteg"
 
 #: authentik/stages/prompt/models.py
 msgid "Prompt Stages"
-msgstr ""
+msgstr "Promptsteg"
 
 #: authentik/stages/prompt/models.py
 msgid "Prompt Stage Field"
-msgstr ""
+msgstr "Fält för promptsteg"
 
 #: authentik/stages/prompt/models.py
 msgid "Prompt Stage Fields"
-msgstr ""
+msgstr "Fält för promptsteg"
 
 #: authentik/stages/prompt/models.py
 msgid "Prompt Stage Validation Policy"
-msgstr ""
+msgstr "Valideringspolicy för promptsteg"
 
 #: authentik/stages/prompt/models.py
 msgid "Prompt Stage Validation Policys"
-msgstr ""
+msgstr "Valideringspolicyer för promptsteg"
 
 #: authentik/stages/prompt/stage.py
 msgid "Passwords don't match."
@@ -5548,19 +5558,19 @@ msgstr "Lösenorden matchar inte."
 
 #: authentik/stages/redirect/api.py
 msgid "Target URL should be present when mode is Static."
-msgstr ""
+msgstr "Mål-URL måste anges när läget är statiskt."
 
 #: authentik/stages/redirect/api.py
 msgid "Target Flow should be present when mode is Flow."
-msgstr ""
+msgstr "Målflöde måste anges när läget är flöde."
 
 #: authentik/stages/redirect/models.py
 msgid "Redirect Stage"
-msgstr ""
+msgstr "Omdirigeringssteg"
 
 #: authentik/stages/redirect/models.py
 msgid "Redirect Stages"
-msgstr ""
+msgstr "Omdirigeringssteg"
 
 #: authentik/stages/user_delete/models.py
 msgid "User Delete Stage"
@@ -5592,6 +5602,9 @@ msgid ""
 "option. Default of 0 means that the remember me option will not be shown. "
 "(Format: hours=-1;minutes=-2;seconds=-3)"
 msgstr ""
+"Tid som sessionen förlängs med när användaren väljer Kom ihåg mig. "
+"Standardvärdet 0 innebär att alternativet Kom ihåg mig inte visas (format: "
+"hours=-1;minutes=-2;seconds=-3)."
 
 #: authentik/stages/user_login/models.py
 msgid ""
@@ -5599,6 +5612,9 @@ msgid ""
 "expiry,to remember the device the user is logging in from. (Format: "
 "hours=-1;minutes=-2;seconds=-3)"
 msgstr ""
+"När ett värde som inte är noll anges sparar authentik en kaka med längre "
+"giltighetstid för att komma ihåg enheten som användaren loggar in från "
+"(format: hours=-1;minutes=-2;seconds=-3)."
 
 #: authentik/stages/user_login/models.py
 msgid "User Login Stage"
@@ -5655,148 +5671,156 @@ msgstr "Det gick inte att uppdatera användaren. Försök igen senare."
 #: authentik/tasks/models.py
 #: packages/django-dramatiq-postgres/django_dramatiq_postgres/models.py
 msgid "Tasks that must complete for this task to run."
-msgstr ""
+msgstr "Uppgifter som måste slutföras för att denna uppgift ska köras."
 
 #: authentik/tasks/models.py
 msgid "Tenant this task belongs to"
-msgstr ""
+msgstr "Klientorganisation som denna uppgift tillhör"
 
 #: authentik/tasks/models.py
 msgid "Retry failed task"
-msgstr ""
+msgstr "Försök köra misslyckad uppgift igen"
 
 #: authentik/tasks/models.py
 msgid "Task dependency"
-msgstr ""
+msgstr "Uppgiftsberoende"
 
 #: authentik/tasks/models.py
 msgid "Task dependencies"
-msgstr ""
+msgstr "Uppgiftsberoenden"
 
 #: authentik/tasks/models.py
 msgid "Task log"
-msgstr ""
+msgstr "Uppgiftslogg"
 
 #: authentik/tasks/models.py
 msgid "Task logs"
-msgstr ""
+msgstr "Uppgiftsloggar"
 
 #: authentik/tasks/models.py
 msgid "Worker status"
-msgstr ""
+msgstr "Arbetarstatus"
 
 #: authentik/tasks/models.py
 msgid "Worker statuses"
-msgstr ""
+msgstr "Arbetarstatusar"
 
 #: authentik/tasks/schedules/models.py
 msgid "Unique schedule identifier"
-msgstr ""
+msgstr "Unik schemaidentifierare"
 
 #: authentik/tasks/schedules/models.py
 msgid "User schedule identifier"
-msgstr ""
+msgstr "Användarschemaidentifierare"
 
 #: authentik/tasks/schedules/models.py
 msgid "Manually trigger a schedule"
-msgstr ""
+msgstr "Utlös ett schema manuellt"
 
 #: authentik/tasks/tasks.py
 msgid "Remove old worker statuses."
-msgstr ""
+msgstr "Ta bort gamla arbetarstatusar."
 
 #: authentik/tenants/api/settings.py
 #, python-brace-format
 msgid "Value for flag {flag_key} needs to be of type {type}."
-msgstr ""
+msgstr "Värdet för flaggan {flag_key} måste ha typen {type}."
 
 #: authentik/tenants/models.py
 msgid ""
 "Schema name must start with t_, only contain lowercase letters and numbers "
 "and be less than 63 characters."
 msgstr ""
+"Schemanamnet måste börja med t_, endast innehålla gemener och siffror samt "
+"vara kortare än 63 tecken."
 
 #: authentik/tenants/models.py
 msgid "Configure how authentik should show avatars for users."
-msgstr ""
+msgstr "Ställ in hur authentik ska visa användaravatarer."
 
 #: authentik/tenants/models.py
 msgid "Enter a valid URL, for example https://authentik.company"
-msgstr ""
+msgstr "Ange en giltig URL, till exempel https://authentik.company"
 
 #: authentik/tenants/models.py
 msgid ""
 "Configure the base URL under which this authentik instance is reachable, "
 "e.g. https://authentik.company"
 msgstr ""
+"Ställ in bas-URL:en där denna authentik-instans är åtkomlig, till exempel "
+"https://authentik.company"
 
 #: authentik/tenants/models.py
 msgid "Enable the ability for users to change their name."
-msgstr ""
+msgstr "Tillåt användare att ändra sitt namn."
 
 #: authentik/tenants/models.py
 msgid "Enable the ability for users to change their email address."
-msgstr ""
+msgstr "Tillåt användare att ändra sin e-postadress."
 
 #: authentik/tenants/models.py
 msgid "Enable the ability for users to change their username."
-msgstr ""
+msgstr "Tillåt användare att ändra sitt användarnamn."
 
 #: authentik/tenants/models.py
 msgid ""
 "Events will be deleted after this duration.(Format: "
 "weeks=3;days=2;hours=3,seconds=2)."
 msgstr ""
+"Händelser tas bort efter denna varaktighet (format: "
+"weeks=3;days=2;hours=3,seconds=2)."
 
 #: authentik/tenants/models.py
 msgid "Reputation cannot decrease lower than this value. Zero or negative."
-msgstr ""
+msgstr "Anseendet kan inte sjunka under detta värde. Noll eller negativt."
 
 #: authentik/tenants/models.py
 msgid "Reputation cannot increase higher than this value. Zero or positive."
-msgstr ""
+msgstr "Anseendet kan inte stiga över detta värde. Noll eller positivt."
 
 #: authentik/tenants/models.py
 msgid "The option configures the footer links on the flow executor pages."
-msgstr ""
+msgstr "Alternativet ställer in sidfotslänkarna på flödeskörarens sidor."
 
 #: authentik/tenants/models.py
 msgid ""
 "When enabled, all the events caused by a user will be deleted upon the "
 "user's deletion."
 msgstr ""
+"När alternativet är aktiverat tas alla händelser som orsakats av en användare "
+"bort när användaren tas bort."
 
 #: authentik/tenants/models.py
 msgid "Globally enable/disable impersonation."
-msgstr ""
+msgstr "Aktivera eller inaktivera personifiering globalt."
 
 #: authentik/tenants/models.py
 msgid "Require administrators to provide a reason for impersonating a user."
-msgstr ""
+msgstr "Kräv att administratörer anger en orsak till att personifiera en användare."
 
 #: authentik/tenants/models.py
 msgid "Default token duration"
-msgstr ""
+msgstr "Standardvaraktighet för token"
 
 #: authentik/tenants/models.py
 msgid "Default token length"
-msgstr ""
+msgstr "Standardlängd för token"
 
 #: authentik/tenants/models.py
 msgid "Default page size for API responses, if no size was requested."
-msgstr ""
+msgstr "Standardstorlek på sidor i API-svar, om ingen storlek har begärts."
 
 #: authentik/tenants/models.py
 msgid "Maximum page size"
-msgstr ""
+msgstr "Största sidstorlek"
 
 #: authentik/tenants/models.py
 msgid "Tenant"
-msgstr ""
+msgstr "Klientorganisation"
 
 #: authentik/tenants/models.py
 msgid "Tenants"
-msgstr ""
+msgstr "Klientorganisationer"
 
 #: authentik/tenants/models.py
 msgid "Domain"
