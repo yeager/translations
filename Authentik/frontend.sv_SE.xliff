@@ -6104,156 +6104,205 @@ doesn&apos;t pass when either or both of the selected options are equal or above
 </trans-unit>
 <trans-unit id="sba42248f3f27955c">
   <source>User database + standard password</source>
+  <target>Användardatabas + standardlösenord</target>
 </trans-unit>
 <trans-unit id="s3330adb3f0922f7b">
   <source>User database + app passwords</source>
+  <target>Användardatabas + applösenord</target>
 </trans-unit>
 <trans-unit id="sc10db51c9bb77d5c">
   <source>User database + LDAP password</source>
+  <target>Användardatabas + LDAP-lösenord</target>
 </trans-unit>
 <trans-unit id="s03e4044abe0b556c">
   <source>User database + Kerberos password</source>
+  <target>Användardatabas + Kerberos-lösenord</target>
 </trans-unit>
 <trans-unit id="sdc30bddeda2f0225">
   <source>Validate the user&apos;s password against the selected backend(s).</source>
+  <target>Validera användarens lösenord mot de valda bakändarna.</target>
 </trans-unit>
 <trans-unit id="sb8d4f44a1d5b9a14">
   <source>Backends</source>
+  <target>Bakändar</target>
 </trans-unit>
 <trans-unit id="sd35ae4be63df1f9f">
   <source>Selection of backends to test the password against.</source>
+  <target>Val av bakändar att testa lösenordet mot.</target>
 </trans-unit>
 <trans-unit id="s69bc087c166b4177">
   <source>Flow used by an authenticated user to configure their password. If empty, user will not be able to change their password.</source>
+  <target>Flöde som en autentiserad användare använder för att konfigurera sitt lösenord. Om fältet är tomt kan användaren inte ändra lösenordet.</target>
 </trans-unit>
 <trans-unit id="s77994108c886b965">
   <source>Failed attempts before cancel</source>
+  <target>Misslyckade försök före avbrott</target>
 </trans-unit>
 <trans-unit id="sa9020b93c3bd7235">
   <source>How many attempts a user has before the flow is canceled. To lock the user out, use a reputation policy and a user_write stage.</source>
+  <target>Hur många försök användaren får innan flödet avbryts. Använd en ryktespolicy och ett user_write-steg för att spärra användaren.</target>
 </trans-unit>
 <trans-unit id="s9dda0789d278f5c5">
   <source>Provide users with a &apos;show password&apos; button.</source>
+  <target>Ge användare en knapp för ”visa lösenord”.</target>
 </trans-unit>
 <trans-unit id="s2d5f69929bb7221d">
   <source><x id="0" equiv-text="${p.name}"/> (&quot;<x id="1" equiv-text="${p.fieldKey}"/>&quot;, of type <x id="2" equiv-text="${p.type}"/>)</source>
 </trans-unit>
 <trans-unit id="s36cb242ac90353bc">
   <source>Fields</source>
+  <target>Fält</target>
 </trans-unit>
 <trans-unit id="sf651943c3ddff635">
   <source>Available Fields</source>
+  <target>Tillgängliga fält</target>
 </trans-unit>
 <trans-unit id="s80ba9c5ebb7826a9">
   <source>Selected Fields</source>
+  <target>Valda fält</target>
 </trans-unit>
 <trans-unit id="s3b7b519444181264">
   <source>Validation Policies</source>
+  <target>Valideringspolicyer</target>
 </trans-unit>
 <trans-unit id="s1cc032bcc50b2942">
   <source>Available Policies</source>
+  <target>Tillgängliga policyer</target>
 </trans-unit>
 <trans-unit id="s3ad64193ad5f4a5e">
   <source>Selected Policies</source>
+  <target>Valda policyer</target>
 </trans-unit>
 <trans-unit id="s59691290a232c687">
   <source>Selected policies are executed when the stage is submitted to validate the data.</source>
+  <target>Valda policyer körs när steget skickas in för att validera data.</target>
 </trans-unit>
 <trans-unit id="sad9d5481474d4f5b">
   <source>Static</source>
+  <target>Statisk</target>
 </trans-unit>
 <trans-unit id="se87a96950464bc89">
   <source>Target URL</source>
+  <target>Mål-URL</target>
 </trans-unit>
 <trans-unit id="s7f3097955b19736a">
   <source>Redirect the user to a static URL.</source>
+  <target>Omdirigera användaren till en statisk URL.</target>
 </trans-unit>
 <trans-unit id="s9bdee1c5130c8240">
   <source>Target Flow</source>
+  <target>Målflöde</target>
 </trans-unit>
 <trans-unit id="sa5d1405b8d6529c7">
   <source>Redirect the user to a Flow.</source>
+  <target>Omdirigera användaren till ett flöde.</target>
 </trans-unit>
 <trans-unit id="s7c9db337d14d42b3">
   <source>Keep flow context</source>
+  <target>Behåll flödeskontext</target>
 </trans-unit>
 <trans-unit id="s02160dc6adba3456">
   <source>Inject an OAuth or SAML Source into the flow execution. This allows for additional user verification, or to dynamically access different sources for different user identifiers (username, email address, etc).</source>
+  <target>Injicera en OAuth- eller SAML-källa i flödeskörningen. Detta möjliggör ytterligare användarverifiering eller dynamisk åtkomst till olika källor för olika användaridentifierare, till exempel användarnamn och e-postadress.</target>
 </trans-unit>
 <trans-unit id="s5f43af3669b1e098">
   <source>Source</source>
+  <target>Källa</target>
 </trans-unit>
 <trans-unit id="sd9f752de8448bcc9">
   <source>Resume timeout</source>
+  <target>Tidsgräns för återupptagning</target>
 </trans-unit>
 <trans-unit id="s517954806d7610f2">
   <source>Amount of time a user can take to return from the source to continue the flow.</source>
+  <target>Tid som användaren kan ta på sig för att återvända från källan och fortsätta flödet.</target>
 </trans-unit>
 <trans-unit id="sbf4ef82e04772a4e">
   <source>Delete the currently pending user. CAUTION, this stage does not ask for confirmation. Use a consent stage to ensure the user is aware of their actions.</source>
+  <target>Ta bort den aktuella väntande användaren. VARNING: Steget ber inte om bekräftelse. Använd ett samtyckessteg för att säkerställa att användaren känner till sina åtgärder.</target>
 </trans-unit>
 <trans-unit id="s8cc920e6a8430a0d">
   <source>Log the currently pending user in.</source>
+  <target>Logga in den aktuella väntande användaren.</target>
 </trans-unit>
 <trans-unit id="sece294cd51a85745">
   <source>Determines how long a session lasts. Default of 0 seconds means that the sessions lasts until the browser is closed.</source>
+  <target>Avgör hur länge en session varar. Standardvärdet 0 sekunder innebär att sessionen varar tills webbläsaren stängs.</target>
 </trans-unit>
 <trans-unit id="sf7949fbbab2eb566">
   <source>Different browsers handle session cookies differently, and might not remove them even when the browser is closed.</source>
+  <target>Olika webbläsare hanterar sessionskakor på olika sätt och kanske inte tar bort dem även när webbläsaren stängs.</target>
 </trans-unit>
 <trans-unit id="s53bbc3ae4b5fa1d0">
   <source>See here.</source>
 </trans-unit>
 <trans-unit id="s2512334108f06a5a">
   <source>Stay signed in offset</source>
+  <target>Tidsförskjutning för att förbli inloggad</target>
 </trans-unit>
 <trans-unit id="s1608b2f94fa0dbd4">
   <source>If set to a duration above 0, the user will have the option to choose to &quot;stay signed in&quot;, which will extend their session by the time specified here.</source>
+  <target>Om värdet är en tid över 0 kan användaren välja att ”förbli inloggad”, vilket förlänger sessionen med tiden som anges här.</target>
 </trans-unit>
 <trans-unit id="sa3ff409b84679db8">
   <source>Remember device</source>
+  <target>Kom ihåg enheten</target>
 </trans-unit>
 <trans-unit id="s3b123cba0bf03f29">
   <source>If set to a duration above 0, a cookie will be stored for the duration specified which will allow authentik to know if the user is signing in from a new device.</source>
+  <target>Om värdet är en tid över 0 lagras en kaka under den angivna tiden, vilket låter authentik avgöra om användaren loggar in från en ny enhet.</target>
 </trans-unit>
 <trans-unit id="s663ccbfdf27e8dd0">
   <source>Network binding</source>
+  <target>Nätverksbindning</target>
 </trans-unit>
 <trans-unit id="sb108a06693c67753">
   <source>No binding</source>
+  <target>Ingen bindning</target>
 </trans-unit>
 <trans-unit id="s5aab90c74f1233b8">
   <source>Bind ASN</source>
+  <target>Bind ASN</target>
 </trans-unit>
 <trans-unit id="s488303b048afe83b">
   <source>Bind ASN and Network</source>
+  <target>Bind ASN och nätverk</target>
 </trans-unit>
 <trans-unit id="s3268dcfe0c8234dc">
   <source>Bind ASN, Network and IP</source>
+  <target>Bind ASN, nätverk och IP</target>
 </trans-unit>
 <trans-unit id="s226381aca231644f">
   <source>Configure if sessions created by this stage should be bound to the Networks they were created in.</source>
+  <target>Konfigurera om sessioner som skapas av detta steg ska bindas till nätverken där de skapades.</target>
 </trans-unit>
 <trans-unit id="s2555a1f20f3fd93e">
   <source>GeoIP binding</source>
+  <target>GeoIP-bindning</target>
 </trans-unit>
 <trans-unit id="s3d63c78f93c9a92e">
   <source>Bind Continent</source>
+  <target>Bind kontinent</target>
 </trans-unit>
 <trans-unit id="s395d5863b3a259b5">
   <source>Bind Continent and Country</source>
+  <target>Bind kontinent och land</target>
 </trans-unit>
 <trans-unit id="s625ea0c32b4b136c">
   <source>Bind Continent, Country and City</source>
+  <target>Bind kontinent, land och stad</target>
 </trans-unit>
 <trans-unit id="s4bc7a1a88961be90">
   <source>Configure if sessions created by this stage should be bound to their GeoIP-based location</source>
+  <target>Konfigurera om sessioner som skapas av steget ska bindas till sin GeoIP-baserade plats.</target>
 </trans-unit>
 <trans-unit id="s542a71bb8f41e057">
   <source>Terminate other sessions</source>
+  <target>Avsluta andra sessioner</target>
 </trans-unit>
 <trans-unit id="sa920231366378c90">
   <source>When enabled, all previous sessions of the user will be terminated.</source>
+  <target>När detta är aktiverat avslutas användarens alla tidigare sessioner.</target>
 </trans-unit>
 <trans-unit id="sfee06600c15082a9">
   <source>Remove the user from the current session.</source>
