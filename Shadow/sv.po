@@ -760,9 +760,9 @@ msgid "%s: user %s is currently logged in\n"
 msgstr "%s: användaren %s är för närvarande inloggad\n"
 
 #: lib/user_busy.c:234 lib/user_busy.c:257
-#, fuzzy, c-format
+#, c-format
 msgid "%s: user %s is currently used by process %d\n"
-msgstr "%s: användaren %s är för närvarande inloggad\n"
+msgstr "%s: användaren %s används för närvarande av processen %d\n"
 
 #: lib/utmp.c:68
 msgid "Unable to determine your tty name."
@@ -809,9 +809,8 @@ msgstr ""
 "  -h, --help                    visa detta hjälpmeddelande och avsluta\n"
 
 #: src/chage.c:140
-#, fuzzy
 msgid "  -i, --iso8601                 use YYYY-MM-DD when printing dates\n"
-msgstr "  -g, --group                   redigera gruppdatabas\n"
+msgstr "  -i, --iso8601                 använd ÅÅÅÅ-MM-DD vid utskrift av datum\n"
 
 #: src/chage.c:141
 msgid ""
@@ -827,14 +826,13 @@ msgid "  -l, --list                    show account aging information\n"
 msgstr "  -l, --list                    visa åldringsinformation om kontot\n"
 
 #: src/chage.c:144
-#, fuzzy
 msgid ""
 "  -M, --maxdays MAX_DAYS        set maximum number of days before password\n"
 "                                change to MAX_DAYS\n"
 msgstr ""
-"  -M, --maxdays MAX_DAGAR       ställ in maximalt antal dagar innan "
-"lösenords-\n"
-"                                ändring till MAX_DAGAR\n"
+"  -M, --maxdays MAX_DAGAR       ange högsta antal dagar före lösenordsbyte "
+"till\n"
+"                                MAX_DAGAR\n"
 
 #: src/chage.c:146 src/chfn.c:116 src/chgpasswd.c:128 src/chpasswd.c:130
 #: src/chsh.c:112 src/faillog.c:85 src/groupadd.c:121 src/groupdel.c:86
@@ -1107,9 +1105,9 @@ msgid "%s: Cannot determine your user name.\n"
 msgstr "%s: Kan inte fastställa ditt användarnamn.\n"
 
 #: src/chfn.c:366 src/chsh.c:342
-#, fuzzy, c-format
+#, c-format
 msgid "%s: PAM: %s\n"
-msgstr "%s: %s\n"
+msgstr "%s: PAM: %s\n"
 
 #: src/chfn.c:397 src/chsh.c:376 src/gpasswd.c:1070 src/passwd.c:1105
 msgid "Cannot change ID to root.\n"
@@ -1156,9 +1154,9 @@ msgid "%s: '%s' contains illegal characters\n"
 msgstr "%s: \"%s\" innehåller ogiltiga tecken\n"
 
 #: src/chfn.c:591 src/chsh.c:485 src/passwd.c:909
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Provided user name is not a valid name\n"
-msgstr "%s: \"%s\" är inte ett giltigt gruppnamn\n"
+msgstr "%s: Det angivna användarnamnet är inte giltigt\n"
 
 #: src/chfn.c:597 src/chsh.c:491 src/gpasswd.c:199 src/gpasswd.c:242
 #: src/newusers.c:355 src/passwd.c:985 src/userdel.c:976 src/usermod.c:1293
@@ -1185,22 +1183,22 @@ msgstr ""
 "Flaggor:\n"
 
 #: src/chgpasswd.c:117 src/chpasswd.c:119 src/newusers.c:134
-#, fuzzy, c-format
+#, c-format
 msgid "  -c, --crypt-method METHOD     the crypt method (one of %s)\n"
-msgstr "  -c, --crypt-method <METOD>    krypteringsmetoden (en av %s)\n"
+msgstr "  -c, --crypt-method METOD      kryptometoden (en av %s)\n"
 
 #: src/chgpasswd.c:126 src/chpasswd.c:128
 msgid "  -e, --encrypted               supplied passwords are encrypted\n"
 msgstr "  -e, --encrypted               angivna lösenord är krypterade\n"
 
 #: src/chgpasswd.c:129 src/chpasswd.c:132 src/newusers.c:148
-#, fuzzy
 msgid ""
 "  -s, --sha-rounds              number of rounds for the SHA, BCRYPT\n"
 "                                or YESCRYPT crypt algorithms\n"
 msgstr ""
-"  -s, --sha-rounds              antal SHA-rundor för SHA*-\n"
-"                                krypteringsalgoritmerna\n"
+"  -s, --sha-rounds              antal rundor för kryptografialgoritmerna "
+"SHA,\n"
+"                                BCRYPT eller YESCRYPT\n"
 
 #: src/chgpasswd.c:174
 #, c-format
@@ -1576,21 +1574,22 @@ msgstr ""
 "gruppen\n"
 
 #: src/groupadd.c:120
-#, fuzzy
 msgid "  -r, --system                  create a system group\n"
-msgstr "  -r, --system                  skapa ett systemkonto\n"
+msgstr "  -r, --system                  skapa en systemgrupp\n"
 
 #: src/groupadd.c:123
-#, fuzzy
 msgid ""
 "  -U, --users USERS             comma-separated list of users to add as\n"
 "\t                         members of this group\n"
-msgstr "  -l, --list                    lista medlemmarna av gruppen\n"
+msgstr ""
+"  -U, --users ANVÄNDARE         kommaseparerad lista över användare som ska "
+"läggas\n"
+"\t                         till som medlemmar i denna grupp\n"
 
 #: src/groupadd.c:221 src/groupmod.c:283
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid member username %s\n"
-msgstr "ogiltigt användarnamn \"%s\"\n"
+msgstr "Ogiltigt användarnamn för medlem: %s\n"
 
 #: src/groupadd.c:263
 #, c-format
@@ -1599,9 +1598,9 @@ msgstr "%s: \"%s\" är inte ett giltigt gruppnamn\n"
 
 #: src/groupadd.c:368 src/groupadd.c:376 src/newgidmap.c:206
 #: src/newuidmap.c:144
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot open %s"
-msgstr "%s: kan inte öppna %s\n"
+msgstr "%s: kan inte öppna %s"
 
 #: src/groupadd.c:427 src/groupmod.c:426 src/newusers.c:246 src/newusers.c:263
 #, c-format
@@ -1624,9 +1623,9 @@ msgid "%s: GID '%lu' already exists\n"
 msgstr "%s: GID \"%lu\" finns redan\n"
 
 #: src/groupadd.c:558 src/groupdel.c:365 src/groupmod.c:769
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot setup cleanup service.\n"
-msgstr "%s: Kan inte fastställa ditt användarnamn.\n"
+msgstr "%s: Kan inte konfigurera rensningstjänsten.\n"
 
 #: src/groupdel.c:87 src/groupmod.c:134 src/useradd.c:933 src/userdel.c:152
 #: src/usermod.c:442
@@ -1636,12 +1635,12 @@ msgid ""
 msgstr "  -P, --prefix PREFIX_DIR       prefixkatalog där /etc/*-filerna finns\n"
 
 #: src/groupdel.c:88
-#, fuzzy
 msgid ""
 "  -f, --force                   delete group even if it is the primary group "
 "of a user\n"
 msgstr ""
-"  -r, --reset                   nollställd räknarna för inloggningsfel\n"
+"  -f, --force                   ta bort gruppen även om den är en användares "
+"primära grupp\n"
 
 #: src/groupdel.c:125 src/groupdel.c:136 src/groupmod.c:305 src/groupmod.c:324
 #: src/grpconv.c:193 src/pwconv.c:225 src/userdel.c:344 src/userdel.c:361
@@ -2167,49 +2166,49 @@ msgstr ""
 "databasen)\n"
 
 #: src/newusers.c:1007 src/newusers.c:1040
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: can't create user\n"
-msgstr "%s: rad %d: kan inte skapa användare\n"
+msgstr "%s: rad %jd: kan inte skapa användare\n"
 
 #: src/newusers.c:1026
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: can't create group\n"
-msgstr "%s: rad %d: kan inte skapa grupp\n"
+msgstr "%s: rad %jd: kan inte skapa grupp\n"
 
 #: src/newusers.c:1051
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: user '%s' does not exist in %s\n"
-msgstr "%s: rad %d: användaren \"%s\" finns inte i %s\n"
+msgstr "%s: rad %jd: användaren ”%s” finns inte i %s\n"
 
 #: src/newusers.c:1064
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd"
-msgstr "%s: byt namn: %s: %s\n"
+msgstr "%s: rad %jd"
 
 #: src/newusers.c:1072
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: can't update password\n"
-msgstr "%s: rad %d: kan inte uppdatera lösenord\n"
+msgstr "%s: rad %jd: kan inte uppdatera lösenord\n"
 
 #: src/newusers.c:1094
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: homedir must be an absolute path\n"
-msgstr "%s: rad %d: mkdir %s misslyckades: %s\n"
+msgstr "%s: rad %jd: hemkatalogen måste vara en absolut sökväg\n"
 
 #: src/newusers.c:1099
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: mkdir %s failed"
-msgstr "%s: rad %d: mkdir %s misslyckades: %s\n"
+msgstr "%s: rad %jd: mkdir %s misslyckades"
 
 #: src/newusers.c:1107
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: chown %s failed"
-msgstr "%s: rad %d: chown %s misslyckades: %s\n"
+msgstr "%s: rad %jd: chown %s misslyckades"
 
 #: src/newusers.c:1117
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: can't update entry\n"
-msgstr "%s: rad %d: kan inte uppdatera post\n"
+msgstr "%s: rad %jd: kan inte uppdatera posten\n"
 
 #: src/newusers.c:1131
 #, fuzzy, c-format
