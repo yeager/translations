@@ -2005,7 +2005,7 @@ msgstr ""
 #: authentik/flows/api/flows.py
 #, python-brace-format
 msgid "Flow not applicable to current user/request: {messages}"
-msgstr ""
+msgstr "Flödet är inte tillämpligt för aktuell användare/begäran: {messages}"
 
 #: authentik/flows/apps.py
 msgid ""
@@ -2014,7 +2014,7 @@ msgstr ""
 
 #: authentik/flows/exceptions.py
 msgid "Flow does not apply to current user."
-msgstr ""
+msgstr "Flödet är inte tillämpligt för den aktuella användaren."
 
 #: authentik/flows/models.py
 #, python-brace-format
@@ -2046,8 +2046,8 @@ msgid ""
 "Enable compatibility mode, increases compatibility with password managers on "
 "mobile devices."
 msgstr ""
-"Aktivera kompabilitetsläget, ökar kompatibiliteten med lösenordshanterare på "
-"mobila enheter."
+"Aktivera kompatibilitetsläget; det ökar kompatibiliteten med "
+"lösenordshanterare på mobila enheter."
 
 #: authentik/flows/models.py
 msgid "Configure what should happen when a flow denies access to a user."
@@ -2056,7 +2056,7 @@ msgstr ""
 
 #: authentik/flows/models.py
 msgid "Required level of authentication and authorization to access a flow."
-msgstr ""
+msgstr "Krävd autentiserings- och auktoriseringsnivå för åtkomst till ett flöde."
 
 #: authentik/flows/models.py
 msgid "Flow"
@@ -2068,27 +2068,27 @@ msgstr "Flöden"
 
 #: authentik/flows/models.py
 msgid "Can export a Flow"
-msgstr ""
+msgstr "Kan exportera ett flöde"
 
 #: authentik/flows/models.py
 msgid "Can inspect a Flow's execution"
-msgstr ""
+msgstr "Kan inspektera ett flödes körning"
 
 #: authentik/flows/models.py
 msgid "View Flow's cache metrics"
-msgstr ""
+msgstr "Visa flödets cachemått"
 
 #: authentik/flows/models.py
 msgid "Clear Flow's cache metrics"
-msgstr ""
+msgstr "Rensa flödets cachemått"
 
 #: authentik/flows/models.py
 msgid "Evaluate policies during the Flow planning process."
-msgstr ""
+msgstr "Utvärdera policyer under flödets planeringsprocess."
 
 #: authentik/flows/models.py
 msgid "Evaluate policies when the Stage is presented to the user."
-msgstr ""
+msgstr "Utvärdera policyer när fasen presenteras för användaren."
 
 #: authentik/flows/models.py
 msgid ""
@@ -2097,10 +2097,10 @@ msgid ""
 "executor. RESTART restarts the flow from the beginning, and "
 "RESTART_WITH_CONTEXT restarts the flow while keeping the current context."
 msgstr ""
-"Konfigurera hur flödeskörningen ska hantera ett ogiltig för en utmaning. "
-"FÖRSÖK_IGEN returnerar felmeddelandet och en liknande utmaning till köraren. "
-"STARTA_OM startar om flödet från början. STARTA_OM_MED_KONTEXT startar om "
-"flödet och behåller det nuvarande kontexten."
+"Konfigurera hur flödeskörningen ska hantera ett ogiltigt svar på en "
+"utmaning. FÖRSÖK_IGEN returnerar felmeddelandet och en liknande utmaning till "
+"köraren. STARTA_OM startar om flödet från början. STARTA_OM_MED_KONTEXT "
+"startar om flödet och behåller den aktuella kontexten."
 
 #: authentik/flows/models.py
 msgid "Flow Stage Binding"
@@ -2115,6 +2115,8 @@ msgid ""
 "Flow used by an authenticated user to configure this Stage. If empty, user "
 "will not be able to configure this stage."
 msgstr ""
+"Flöde som används av en autentiserad användare för att konfigurera den här "
+"fasen. Om det är tomt kan användaren inte konfigurera fasen."
 
 #: authentik/flows/models.py
 msgid "Flow Token"
@@ -2126,11 +2128,11 @@ msgstr "Flödestokens"
 
 #: authentik/flows/planner.py
 msgid "This link is invalid or has expired. Please request a new one."
-msgstr ""
+msgstr "Länken är ogiltig eller har gått ut. Begär en ny."
 
 #: authentik/flows/views/executor.py
 msgid "Invalid next URL"
-msgstr ""
+msgstr "Ogiltig nästa URL"
 
 #: authentik/lib/sync/incoming/models.py
 msgid "When to trigger sync for outgoing providers"
