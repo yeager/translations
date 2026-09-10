@@ -3102,9 +3102,8 @@ msgid "Synchronize mailbox file"
 msgstr "Skapar postlådefil"
 
 #: src/useradd.c:2369
-#, fuzzy
 msgid "Closing mailbox file"
-msgstr "Skapar postlådefil"
+msgstr "Stänger postlådefilen"
 
 #: src/useradd.c:2390
 #, c-format
@@ -3151,14 +3150,14 @@ msgid "%s: can't create group\n"
 msgstr "%s: kan inte skapa grupp\n"
 
 #: src/useradd.c:2612
-#, fuzzy, c-format
+#, c-format
 msgid "%s: can't create subordinate user IDs"
-msgstr "%s: kan inte skapa användare\n"
+msgstr "%s: kan inte skapa underordnade användar-ID:n"
 
 #: src/useradd.c:2619
-#, fuzzy, c-format
+#, c-format
 msgid "%s: can't create subordinate group IDs"
-msgstr "%s: kan inte skapa grupp\n"
+msgstr "%s: kan inte skapa underordnade grupp-ID:n"
 
 #: src/useradd.c:2646 src/usermod.c:2252
 #, c-format
@@ -3166,42 +3165,42 @@ msgid "%s: warning: the user name %s to %s SELinux user mapping failed.\n"
 msgstr "%s: varning: mappning från användarnamnet %s till SELinux-användaren %s misslyckades.\n"
 
 #: src/useradd.c:2666
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: warning: the home directory %s already exists.\n"
 "%s: Not copying any file from skel directory into it.\n"
 msgstr ""
-"%s: varning: hem-katalogen finns redan.\n"
-"Kopierar ingen fil från skel-katalogen till den.\n"
+"%s: varning: hemkatalogen %s finns redan.\n"
+"%s: Kopierar inga filer från skelettkatalogen till den.\n"
 
 #: src/userdel.c:145
-#, fuzzy
 msgid ""
 "  -f, --force                   force some actions that would fail "
 "otherwise\n"
 "                                e.g. removal of user still logged in\n"
 "                                or files, even if not owned by the user\n"
 msgstr ""
-"  -f, --force                   tvinga borttagning av filer, även om\n"
-"                                de inte ägs av användaren\n"
+"  -f, --force                   tvinga åtgärder som annars skulle misslyckas,\n"
+"                                t.ex. borttagning av en fortfarande inloggad\n"
+"                                användare eller filer som inte ägs av användaren\n"
 
 #: src/userdel.c:150
 msgid "  -r, --remove                  remove home directory and mail spool\n"
 msgstr "  -r, --remove                  ta bort hemkatalog och postkö\n"
 
 #: src/userdel.c:154
-#, fuzzy
 msgid ""
 "  -Z, --selinux-user            remove any SELinux user mapping for the "
 "user\n"
 msgstr ""
-"  -s, --shell SHELL             nytt inloggningsskal för användarkontot\n"
+"  -Z, --selinux-user            ta bort all SELinux-användarmappning för "
+"användaren\n"
 
 #: src/userdel.c:307
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: group %s not removed because it is not the primary group of user %s.\n"
-msgstr "%s: kan inte ta bort primära gruppen för användaren \"%s\"\n"
+msgstr "%s: gruppen %s togs inte bort eftersom den inte är den primära gruppen för användaren %s.\n"
 
 #: src/userdel.c:314
 #, c-format
@@ -3216,19 +3215,19 @@ msgstr ""
 "bort.\n"
 
 #: src/userdel.c:642 src/userdel.c:647
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot remove entry %lu from %s\n"
-msgstr "%s: kan inte ta bort posten \"%s\" från %s\n"
+msgstr "%s: kan inte ta bort posten %lu från %s\n"
 
 #: src/userdel.c:741
-#, fuzzy, c-format
+#, c-format
 msgid "%s: %s mail spool (%s) not found\n"
-msgstr "%s: %s hemkatalogen (%s) hittades inte\n"
+msgstr "%s: e-postspolen %s (%s) hittades inte\n"
 
 #: src/userdel.c:746 src/userdel.c:760 src/userdel.c:798
-#, fuzzy, c-format
+#, c-format
 msgid "%s: warning: can't remove %s"
-msgstr "%s: varning: kan inte ta bort %s: %s\n"
+msgstr "%s: varning: kan inte ta bort %s"
 
 #: src/userdel.c:783 src/userdel.c:1038
 #, c-format
@@ -3241,19 +3240,19 @@ msgid "%s: Can't allocate memory, tcb entry for %s not removed.\n"
 msgstr "%s: Kan inte allokera minne, tcb-post för %s togs inte bort.\n"
 
 #: src/userdel.c:837
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot drop privileges"
-msgstr "%s: Kan inte släppa privilegier: %s\n"
+msgstr "%s: Kan inte släppa privilegier"
 
 #: src/userdel.c:846
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot remove the content of %s"
-msgstr "%s: Kan inte ta bort innehållet i %s: %s\n"
+msgstr "%s: Kan inte ta bort innehållet i %s"
 
 #: src/userdel.c:854
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot remove tcb files for %s"
-msgstr "%s: Kan inte ta bort tcb-filer för %s: %s\n"
+msgstr "%s: Kan inte ta bort TCB-filer för %s"
 
 #: src/userdel.c:1034
 #, c-format
@@ -3267,9 +3266,9 @@ msgstr ""
 "%s: tar inte bort katalogen %s (skulle ta bort hemmet för användaren %s)\n"
 
 #: src/userdel.c:1084
-#, fuzzy, c-format
+#, c-format
 msgid "%s: error removing subvolume %s\n"
-msgstr "%s: fel vid borttagning av katalogen %s\n"
+msgstr "%s: fel vid borttagning av undervolymen %s\n"
 
 #: src/userdel.c:1093
 #, c-format
@@ -3356,17 +3355,16 @@ msgstr ""
 "  -p, --password LÖSENORD       använd krypterat lösenord som nytt lösenord\n"
 
 #: src/usermod.c:443
-#, fuzzy
 msgid ""
 "  -r, --remove                  remove the user from only the supplemental "
 "GROUPS\n"
 "                                mentioned by the -G option without removing\n"
 "                                the user from other groups\n"
 msgstr ""
-"  -a, --append                  lägg till användaren till ytterligare "
+"  -r, --remove                  ta bara bort användaren från de ytterligare "
 "GRUPPER\n"
-"                                som nämns av flaggan -G utan att ta bort\n"
-"                                honom/henne från andra grupper\n"
+"                                som anges med alternativet -G, utan att ta bort\n"
+"                                användaren från andra grupper\n"
 
 #: src/usermod.c:448
 msgid "  -u, --uid UID                 new UID for the user account\n"
@@ -3393,26 +3391,26 @@ msgid "  -W, --del-subgids FIRST-LAST  remove range of subordinate gids\n"
 msgstr "  -W, --del-subgids FIRST-LAST  ta bort intervall med underordnade gid\n"
 
 #: src/usermod.c:455
-#, fuzzy
 msgid ""
 "  -S, --add-subids              add entries to sub[ug]id based on system "
 "defaults\n"
-msgstr "  -r, --system                  skapa systemkonton\n"
+msgstr ""
+"  -S, --add-subids              lägg till poster i sub[ug]id enligt "
+"systemstandardvärden\n"
 
 #: src/usermod.c:458
-#, fuzzy
 msgid ""
 "  -Z, --selinux-user SEUSER     new SELinux user mapping for the user "
 "account\n"
 msgstr ""
-"  -s, --shell SHELL             nytt inloggningsskal för användarkontot\n"
+"  -Z, --selinux-user SEUSER     ny SELinux-användarmappning för "
+"användarkontot\n"
 
 #: src/usermod.c:459
-#, fuzzy
 msgid ""
 "      --selinux-range SERANGE   new SELinux MLS range for the user account\n"
 msgstr ""
-"  -s, --shell SHELL             nytt inloggningsskal för användarkontot\n"
+"      --selinux-range SERANGE   nytt SELinux MLS-intervall för användarkontot\n"
 
 #: src/usermod.c:481
 #, c-format
