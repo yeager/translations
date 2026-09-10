@@ -1203,9 +1203,9 @@ msgstr ""
 "                                krypteringsalgoritmerna\n"
 
 #: src/chgpasswd.c:174
-#, fuzzy, c-format
+#, c-format
 msgid "%s: no crypt method defined\n"
-msgstr "%s: krypteringsmetoden stöds inte: %s\n"
+msgstr "%s: ingen krypteringsmetod är definierad\n"
 
 #: src/chgpasswd.c:218 src/chpasswd.c:220 src/newusers.c:713 src/useradd.c:1443
 #: src/useradd.c:1448 src/useradd.c:1469 src/usermod.c:1342 src/usermod.c:1348
@@ -1215,9 +1215,9 @@ msgid "%s: %s flag is only allowed with the %s flag\n"
 msgstr "%s: flaggan %s tillåts endast med flaggan %s\n"
 
 #: src/chgpasswd.c:224 src/chpasswd.c:226
-#, fuzzy, c-format
+#, c-format
 msgid "%s: the -c and -e flags are exclusive\n"
-msgstr "%s: flaggorna -c, -e och -m är uteslutande\n"
+msgstr "%s: flaggorna -c och -e är ömsesidigt uteslutande\n"
 
 #: src/chgpasswd.c:239 src/chpasswd.c:241 src/newusers.c:729
 #, c-format
@@ -1225,31 +1225,31 @@ msgid "%s: unsupported crypt method: %s\n"
 msgstr "%s: krypteringsmetoden stöds inte: %s\n"
 
 #: src/chgpasswd.c:375 src/chpasswd.c:424 src/newusers.c:986
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: line too long\n"
-msgstr "%s: rad %d: raden för lång\n"
+msgstr "%s: rad %jd: raden är för lång\n"
 
 #: src/chgpasswd.c:392 src/chpasswd.c:443
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: missing new password\n"
-msgstr "%s: rad %d: saknar nytt lösenord\n"
+msgstr "%s: rad %jd: saknar nytt lösenord\n"
 
 #: src/chgpasswd.c:422 src/chpasswd.c:483 src/gpasswd.c:831 src/newusers.c:443
 #: src/newusers.c:519 src/newusers.c:568 src/passwd.c:330
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to crypt password with salt '%s'"
-msgstr "%s: misslyckades med att ta bort %s\n"
+msgstr "%s: misslyckades med att kryptera lösenord med saltet ”%s”"
 
 #: src/chgpasswd.c:434
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: group '%s' does not exist\n"
-msgstr "%s: rad %d: gruppen \"%s\" finns inte\n"
+msgstr "%s: rad %jd: gruppen ”%s” finns inte\n"
 
 #: src/chgpasswd.c:493 src/chgpasswd.c:504 src/chpasswd.c:560
 #: src/chpasswd.c:569
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: failed to prepare the new %s entry '%s'\n"
-msgstr "%s: rad %d: misslyckades med att förbereda den nya %s-posten \"%s\"\n"
+msgstr "%s: rad %jd: misslyckades med att förbereda den nya %s-posten ”%s”\n"
 
 #: src/chgpasswd.c:520 src/chpasswd.c:593
 #, c-format
@@ -1257,19 +1257,19 @@ msgid "%s: error detected, changes ignored\n"
 msgstr "%s: ett fel upptäcktes, ändringar ignorerade\n"
 
 #: src/chpasswd.c:453 src/newusers.c:1182
-#, fuzzy, c-format
+#, c-format
 msgid "%s: (line %jd, user %s) password not changed\n"
-msgstr "%s: (rad %d, användare %s) lösenordet har inte ändrats\n"
+msgstr "%s: (rad %jd, användare %s) lösenordet har inte ändrats\n"
 
 #: src/chpasswd.c:469
-#, fuzzy, c-format
+#, c-format
 msgid "%s: (line %jd, user %s) invalid password hash\n"
-msgstr "%s: (rad %d, användare %s) lösenordet har inte ändrats\n"
+msgstr "%s: (rad %jd, användare %s) ogiltig lösenordshash\n"
 
 #: src/chpasswd.c:495
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: user '%s' does not exist\n"
-msgstr "%s: rad %d: användaren \"%s\" finns inte\n"
+msgstr "%s: rad %jd: användaren ”%s” finns inte\n"
 
 #: src/chsh.c:113 src/usermod.c:447
 msgid "  -s, --shell SHELL             new login shell for the user account\n"
@@ -1281,14 +1281,14 @@ msgid "Login Shell"
 msgstr "Inloggningsskal"
 
 #: src/chsh.c:173
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot parse shell files: %s"
-msgstr "%s: Kan inte få storleken för %s: %s\n"
+msgstr "Kan inte tolka skalfiler: %s"
 
 #: src/chsh.c:180
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot evaluate entries in shell files: %s"
-msgstr "%s: kan inte skapa ny standardfil\n"
+msgstr "Kan inte utvärdera poster i skalfiler: %s"
 
 #: src/chsh.c:287 src/chsh.c:297 src/chsh.c:308
 #, c-format
@@ -1306,9 +1306,9 @@ msgid "%s: Invalid entry: %s\n"
 msgstr "%s: Ogiltig post: %s\n"
 
 #: src/chsh.c:541
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Warning: %s is an invalid shell\n"
-msgstr "%s: %s är ett ogiltigt skal\n"
+msgstr "%s: Varning: %s är ett ogiltigt skal\n"
 
 #: src/chsh.c:543
 #, c-format
@@ -1408,14 +1408,14 @@ msgid "%s: unexpected argument: %s\n"
 msgstr "%s: oväntat argument: %s\n"
 
 #: src/faillog.c:637 src/lastlog.c:431
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot get the size of %s"
-msgstr "%s: Kan inte få storleken för %s: %s\n"
+msgstr "%s: Kan inte hämta storleken på %s"
 
 #: src/faillog.c:662
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Failed to write %s"
-msgstr "%s: misslyckades med att ta bort %s\n"
+msgstr "%s: Misslyckades med att skriva %s"
 
 #: src/gpasswd.c:128
 #, c-format
