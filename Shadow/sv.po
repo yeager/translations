@@ -265,15 +265,15 @@ msgid "%s: Encountered error attempting to use preferred UID: %s\n"
 msgstr "%s: Fel uppstod när önskat UID skulle användas: %s\n"
 
 #: lib/find_new_uid.c:324 lib/find_new_uid.c:370
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: Can't get unique system UID (%s). Suppressing additional messages.\n"
-msgstr "%s: Kan inte få unikt system UID (inga fler tillgängliga UID)\n"
+msgstr "%s: Kan inte få unikt system-UID (%s). Undertrycker ytterligare meddelanden.\n"
 
 #: lib/find_new_uid.c:433 lib/find_new_uid.c:479
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Can't get unique UID (%s). Suppressing additional messages.\n"
-msgstr "%s: Kan inte få unikt UID (inga fler tillgängliga UID)\n"
+msgstr "%s: Kan inte få unikt UID (%s). Undertrycker ytterligare meddelanden.\n"
 
 #: lib/find_new_uid.c:498
 #, c-format
@@ -295,9 +295,9 @@ msgid "configuration error - unknown item '%s' (notify administrator)\n"
 msgstr "konfigurationsfel - okänd post \"%s\" (informera administratören)\n"
 
 #: lib/idmapping.c:52
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Memory allocation failure\n"
-msgstr "%s: Autentiseringsfel\n"
+msgstr "%s: Minnesallokering misslyckades\n"
 
 #: lib/idmapping.c:62 lib/idmapping.c:68 lib/idmapping.c:74
 #, c-format
@@ -706,34 +706,34 @@ msgid "%s: Cannot change mode of %s"
 msgstr "%s: Kan inte ändra rättigheter för %s"
 
 #: lib/tcbfuncs.c:267
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot remove directory %s"
-msgstr "%s: Kan inte ta bort katalogen %s: %s\n"
+msgstr "%s: Kan inte ta bort katalogen %s"
 
 #: lib/tcbfuncs.c:326
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot rename %s to %s"
-msgstr "%s: Kan inte byta namn på %s till %s: %s\n"
+msgstr "%s: Kan inte byta namn på %s till %s"
 
 #: lib/tcbfuncs.c:334
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot remove %s"
-msgstr "%s: Kan inte ta bort %s: %s\n"
+msgstr "%s: Kan inte ta bort %s"
 
 #: lib/tcbfuncs.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot create symbolic link %s"
-msgstr "%s: Kan inte skapa symboliska länken %s: %s\n"
+msgstr "%s: Kan inte skapa den symboliska länken %s"
 
 #: lib/tcbfuncs.c:467
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot change owners of %s"
-msgstr "%s: Kan inte byta ägare för %s: %s\n"
+msgstr "%s: Kan inte ändra ägare för %s"
 
 #: lib/tcbfuncs.c:478
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot lstat %s"
-msgstr "%s: Kan inte lstat %s: %s\n"
+msgstr "%s: Kan inte köra lstat på %s"
 
 #: lib/tcbfuncs.c:483
 #, c-format
@@ -750,9 +750,9 @@ msgstr ""
 "Kontot lämnas kvar som låst.\n"
 
 #: lib/tcbfuncs.c:568 src/faillog.c:631
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot open %s"
-msgstr "%s: kan inte öppna %s\n"
+msgstr "%s: Kan inte öppna %s"
 
 #: lib/user_busy.c:84
 #, c-format
