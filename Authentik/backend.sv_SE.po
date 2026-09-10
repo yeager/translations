@@ -1822,67 +1822,71 @@ msgstr "Steg för Google Device Trust-anslutning för ändpunktsautentiserare"
 
 #: authentik/enterprise/stages/authenticator_endpoint_gdtc/models.py
 msgid "Endpoint Device"
-msgstr ""
+msgstr "Ändpunktsenhet"
 
 #: authentik/enterprise/stages/authenticator_endpoint_gdtc/models.py
 msgid "Endpoint Devices"
-msgstr ""
+msgstr "Ändpunktsenheter"
 
 #: authentik/enterprise/stages/mtls/models.py
 msgid ""
 "Configure certificate authorities to validate the certificate against. This "
 "option has a higher priority than the `client_certificate` option on `Brand`."
 msgstr ""
+"Ställ in certifikatutfärdare som certifikatet ska valideras mot. Detta "
+"alternativ har högre prioritet än alternativet `client_certificate` på `Brand`."
 
 #: authentik/enterprise/stages/mtls/models.py
 msgid "Mutual TLS Stage"
-msgstr ""
+msgstr "Steg för ömsesidig TLS"
 
 #: authentik/enterprise/stages/mtls/models.py
 msgid "Mutual TLS Stages"
-msgstr ""
+msgstr "Steg för ömsesidig TLS"
 
 #: authentik/enterprise/stages/mtls/models.py
 msgid "Permissions to pass Certificates for outposts."
-msgstr ""
+msgstr "Behörigheter för att överföra certifikat till utposter."
 
 #: authentik/enterprise/stages/mtls/models.py
 msgid "Mutual TLS Stage Certificate Authority"
-msgstr ""
+msgstr "Certifikatutfärdare för steg med ömsesidig TLS"
 
 #: authentik/enterprise/stages/mtls/models.py
 msgid "Mutual TLS Stage Certificate Authoritys"
-msgstr ""
+msgstr "Certifikatutfärdare för steg med ömsesidig TLS"
 
 #: authentik/enterprise/stages/mtls/stage.py
 msgid "Certificate required but no certificate was given."
-msgstr ""
+msgstr "Ett certifikat krävs men inget certifikat angavs."
 
 #: authentik/enterprise/stages/mtls/stage.py
 msgid "No user found for certificate."
-msgstr ""
+msgstr "Ingen användare hittades för certifikatet."
 
 #: authentik/enterprise/stages/source/models.py
 msgid ""
 "Amount of time a user can take to return from the source to continue the "
 "flow (Format: hours=-1;minutes=-2;seconds=-3)"
 msgstr ""
+"Tid som en användare kan ta på sig för att återvända från källan och "
+"fortsätta flödet (format: hours=-1;minutes=-2;seconds=-3)"
 
 #: authentik/enterprise/stages/source/models.py
 msgid "Source matching failure reasons for which the flow should resume."
-msgstr ""
+msgstr "Orsaker till misslyckad källmatchning som flödet ska återupptas för."
 
 #: authentik/enterprise/stages/source/models.py
 msgid "Source Stage"
-msgstr ""
+msgstr "Källsteg"
 
 #: authentik/enterprise/stages/source/models.py
 msgid "Source Stages"
-msgstr ""
+msgstr "Källsteg"
 
 #: authentik/enterprise/tasks.py
 msgid "Update enterprise license status."
-msgstr ""
+msgstr "Uppdatera Enterprise-licensstatus."
 
 #: authentik/events/models.py
 msgid "Event"
@@ -1921,12 +1925,16 @@ msgid ""
 "When set, the selected certificate is used to validate the certificate of "
 "the webhook server."
 msgstr ""
+"När alternativet är angett används det valda certifikatet för att validera "
+"webhook-serverns certifikat."
 
 #: authentik/events/models.py
 msgid ""
 "Customize the body of the request. Mapping should return data that is JSON-"
 "serializable."
 msgstr ""
+"Anpassa begärans brödtext. Mappningen ska returnera data som kan "
+"JSON-serialiseras."
 
 #: authentik/events/models.py
 msgid "Severity"
@@ -1938,7 +1946,7 @@ msgstr "Skickas för användare"
 
 #: authentik/events/models.py
 msgid "Event user"
-msgstr ""
+msgstr "Händelseanvändare"
 
 #: authentik/events/models.py
 msgid "Notification Transport"
@@ -1974,7 +1982,7 @@ msgid ""
 "selected, the notification will only be shown in the authentik UI."
 msgstr ""
 "Välj vilka transporter som ska användas för att meddela användaren. Om ingen "
-"är vald visas bara notifikationen in authentiks UI"
+"är vald visas bara notifikationen i authentiks gränssnitt."
 
 #: authentik/events/models.py
 msgid "Controls which severity level the created notifications will have."
@@ -1986,12 +1994,17 @@ msgid ""
 "Define which group of users this notification should be sent and shown to. "
 "If left empty, Notification won't ben sent."
 msgstr ""
+"Ange vilken användargrupp detta meddelande ska skickas till och visas för. "
+"Om fältet lämnas tomt skickas inget meddelande."
 
 #: authentik/events/models.py
 msgid ""
 "When enabled, notification will be sent to user the user that triggered the "
 "event.When destination_group is configured, notification is sent to both."
 msgstr ""
+"När alternativet är aktiverat skickas meddelandet till användaren som "
+"utlöste händelsen. När destination_group är inställd skickas meddelandet till "
+"båda."
 
 #: authentik/events/models.py
 msgid "Notification Rule"
@@ -2003,11 +2016,11 @@ msgstr "Notifikationsregler"
 
 #: authentik/events/models.py
 msgid "Notification Rule Notification Transport"
-msgstr ""
+msgstr "Meddelandetransport för meddelanderegel"
 
 #: authentik/events/models.py
 msgid "Notification Rule Notification Transports"
-msgstr ""
+msgstr "Meddelandetransporter för meddelanderegler"
 
 #: authentik/events/models.py
 msgid "Webhook Mapping"
@@ -2019,25 +2032,27 @@ msgstr "Webhookmappningar"
 
 #: authentik/events/tasks.py
 msgid "Dispatch new event notifications."
-msgstr ""
+msgstr "Skicka ut nya händelsemeddelanden."
 
 #: authentik/events/tasks.py
 msgid ""
 "Check if policies attached to NotificationRule match event and dispatch "
 "notification tasks."
 msgstr ""
+"Kontrollera om policyerna som är knutna till NotificationRule matchar "
+"händelsen och skicka ut meddelandeuppgifter."
 
 #: authentik/events/tasks.py
 msgid "Send notification."
-msgstr ""
+msgstr "Skicka meddelande."
 
 #: authentik/events/tasks.py
 msgid "Cleanup events for GDPR compliance."
-msgstr ""
+msgstr "Rensa händelser för efterlevnad av GDPR."
 
 #: authentik/events/tasks.py
 msgid "Cleanup seen notifications and notifications whose event expired."
-msgstr ""
+msgstr "Rensa lästa meddelanden och meddelanden vars händelse har upphört."
 
 #: authentik/flows/api/flows.py
 #, python-brace-format
@@ -2048,6 +2063,7 @@ msgstr "Flödet är inte tillämpligt för aktuell användare/begäran: {message
 msgid ""
 "Upon successful authentication, re-start authentication in other open tabs."
 msgstr ""
+"Starta om autentiseringen i andra öppna flikar efter lyckad autentisering."
 
 #: authentik/flows/exceptions.py
 msgid "Flow does not apply to current user."
@@ -2056,7 +2072,7 @@ msgstr "Flödet är inte tillämpligt för den aktuella användaren."
 #: authentik/flows/models.py
 #, python-brace-format
 msgid "Dynamic In-memory stage: {doc}"
-msgstr ""
+msgstr "Dynamiskt minnesbaserat steg: {doc}"
 
 #: authentik/flows/models.py
 msgid "Visible in the URL."
@@ -2071,8 +2087,8 @@ msgid ""
 "Decides what this Flow is used for. For example, the Authentication flow is "
 "redirect to when an un-authenticated user visits authentik."
 msgstr ""
-"Bestämmer vad detta Flödet ska användas till. Till exempel omdirigeras "
-"Autentiseringsflödet till när en oautentiserad användare besöker authentik."
+"Avgör vad detta flöde används till. När exempelvis en oautentiserad "
+"användare besöker authentik omdirigeras användaren till autentiseringsflödet."
 
 #: authentik/flows/models.py
 msgid "Background shown during execution"
