@@ -3740,11 +3740,13 @@ msgid ""
 "Optionally verify the LDAP Server's Certificate against the CA Chain in this "
 "keypair."
 msgstr ""
+"Verifiera valfritt LDAP-serverns certifikat mot CA-kedjan i det här "
+"nyckelparet."
 
 #: authentik/sources/ldap/models.py
 msgid ""
 "Client certificate to authenticate against the LDAP Server's Certificate."
-msgstr ""
+msgstr "Klientcertifikat för autentisering mot LDAP-serverns certifikat."
 
 #: authentik/sources/ldap/models.py
 msgid "Bind CN"
@@ -3764,27 +3766,27 @@ msgstr "Bas-DN"
 
 #: authentik/sources/ldap/models.py
 msgid "Prepended to Base DN for User-queries."
-msgstr ""
+msgstr "Läggs före bas-DN för användarfrågor."
 
 #: authentik/sources/ldap/models.py
 msgid "Addition User DN"
-msgstr ""
+msgstr "Ytterligare användar-DN"
 
 #: authentik/sources/ldap/models.py
 msgid "Prepended to Base DN for Group-queries."
-msgstr ""
+msgstr "Läggs före bas-DN för gruppfrågor."
 
 #: authentik/sources/ldap/models.py
 msgid "Addition Group DN"
-msgstr ""
+msgstr "Ytterligare grupp-DN"
 
 #: authentik/sources/ldap/models.py
 msgid "Consider Objects matching this filter to be Users."
-msgstr ""
+msgstr "Betrakta objekt som matchar detta filter som användare."
 
 #: authentik/sources/ldap/models.py
 msgid "Attribute which matches the value of `group_membership_field`."
-msgstr ""
+msgstr "Attribut som matchar värdet för `group_membership_field`."
 
 #: authentik/sources/ldap/models.py
 msgid "Field which contains members of a group."
@@ -3792,7 +3794,7 @@ msgstr "Fält som innehåller medlemmar av en grupp."
 
 #: authentik/sources/ldap/models.py
 msgid "Consider Objects matching this filter to be Groups."
-msgstr ""
+msgstr "Betrakta objekt som matchar detta filter som grupper."
 
 #: authentik/sources/ldap/models.py
 msgid "Field which contains a unique Identifier."
@@ -3807,10 +3809,12 @@ msgid ""
 "When a user changes their password, sync it back to LDAP. This can only be "
 "enabled on a single LDAP source."
 msgstr ""
+"Synkronisera lösenordet tillbaka till LDAP när en användare ändrar det. "
+"Detta kan endast aktiveras för en LDAP-källa."
 
 #: authentik/sources/ldap/models.py
 msgid "Sync group parentage/hierarchy from LDAP directories."
-msgstr ""
+msgstr "Synkronisera grupphärkomst/-hierarki från LDAP-kataloger."
 
 #: authentik/sources/ldap/models.py
 msgid ""
@@ -3818,45 +3822,50 @@ msgid ""
 "attribute. This allows nested group resolution on systems like FreeIPA and "
 "Active Directory"
 msgstr ""
+"Slå upp gruppmedlemskap utifrån ett användarattribut i stället för ett "
+"gruppattribut. Detta möjliggör upplösning av nästlade grupper i system som "
+"FreeIPA och Active Directory"
 
 #: authentik/sources/ldap/models.py
 msgid ""
 "Delete authentik users and groups which were previously supplied by this "
 "source, but are now missing from it."
 msgstr ""
+"Ta bort authentik-användare och -grupper som tidigare tillhandahållits av "
+"den här källan men nu saknas där."
 
 #: authentik/sources/ldap/models.py
 msgid "N/A"
-msgstr ""
+msgstr "Ej tillämpligt"
 
 #: authentik/sources/ldap/models.py
 msgid "LDAP Source"
-msgstr ""
+msgstr "LDAP-källa"
 
 #: authentik/sources/ldap/models.py
 msgid "LDAP Sources"
-msgstr ""
+msgstr "LDAP-källor"
 
 #: authentik/sources/ldap/models.py
 msgid "LDAP Source Property Mapping"
-msgstr ""
+msgstr "LDAP-källegenskapsmappning"
 
 #: authentik/sources/ldap/models.py
 msgid "LDAP Source Property Mappings"
-msgstr ""
+msgstr "LDAP-källegenskapsmappningar"
 
 #: authentik/sources/ldap/models.py
 msgid ""
 "Unique ID used while checking if this object still exists in the directory."
-msgstr ""
+msgstr "Unikt ID som används för att kontrollera om objektet fortfarande finns i katalogen."
 
 #: authentik/sources/ldap/models.py
 msgid "User LDAP Source Connection"
-msgstr ""
+msgstr "Användaranslutning för LDAP-källa"
 
 #: authentik/sources/ldap/models.py
 msgid "User LDAP Source Connections"
-msgstr ""
+msgstr "Användaranslutningar för LDAP-källa"
 
 #: authentik/sources/ldap/models.py
 msgid "Group LDAP Source Connection"
