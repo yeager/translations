@@ -11499,33 +11499,43 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="sc18a73a5831aca7b">
   <source>For Cap, prefer the self-hosted widget asset, for example https://cap.example.com/assets/widget.js. If using a CDN, pin a reviewed release.</source>
+  <target>För Cap bör den självhostade komponentresursen användas, exempelvis https://cap.example.com/assets/widget.js. Om ett CDN används ska en granskad version låsas.</target>
 </trans-unit>
 <trans-unit id="s4e1e8db555003a9a">
   <source>Cap&apos;s server-side verification endpoint, for example https://cap.example.com/site-key/siteverify.</source>
+  <target>Caps serversidesändpunkt för verifiering, exempelvis https://cap.example.com/site-key/siteverify.</target>
 </trans-unit>
 <trans-unit id="sdb752cddc543357d">
   <source>Request Content Type</source>
+  <target>Innehållstyp för begäran</target>
 </trans-unit>
 <trans-unit id="s8afdb5c5a27d37eb">
   <source>Content-Type used for server-side verification. Cap requires JSON; most other providers use form-encoded requests.</source>
+  <target>Innehållstyp som används för serversidesverifiering. Cap kräver JSON; de flesta andra leverantörer använder formulärkodade begäranden.</target>
 </trans-unit>
 <trans-unit id="captcha.request-content-type.form">
   <source>Form encoded</source>
+  <target>Formulärkodad</target>
 </trans-unit>
 <trans-unit id="captcha.request-content-type.json">
   <source>JSON</source>
+  <target>JSON</target>
 </trans-unit>
 <trans-unit id="captcha.providers.cap">
   <source>Cap</source>
+  <target>Cap</target>
 </trans-unit>
 <trans-unit id="captcha.providers.cap.description">
   <source>Cap is a self-hostable CAPTCHA server that uses proof-of-work challenges.</source>
+  <target>Cap är en självhostningsbar CAPTCHA-server som använder arbetsbevisutmaningar.</target>
 </trans-unit>
 <trans-unit id="captcha.providers.cap.setup-guide">
   <source>Cap documentation</source>
+  <target>Cap-dokumentation</target>
 </trans-unit>
 <trans-unit id="captcha.cap-endpoint.description">
   <source>The public site-key endpoint of your Cap server.</source>
+  <target>Den offentliga site-key-ändpunkten för din Cap-server.</target>
   <note from="lit-localize">Description for Cap endpoint field.</note>
 </trans-unit>
 <trans-unit id="captcha.provider-link.cap">
@@ -11536,132 +11546,171 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="s71fed01f96762c78">
   <source>Connection Token</source>
+  <target>Anslutningstoken</target>
 </trans-unit>
 <trans-unit id="s2a27b0acaaccd6b1">
   <source>Connection Tokens</source>
+  <target>Anslutningstoken</target>
 </trans-unit>
 <trans-unit id="sd2e443fc08b24046">
   <source>Access Token</source>
+  <target>Åtkomsttoken</target>
 </trans-unit>
 <trans-unit id="s0c1fba42c6e31a0f">
   <source>Access Tokens</source>
+  <target>Åtkomsttoken</target>
 </trans-unit>
 <trans-unit id="s113536ad62a8b179">
   <source>Refresh Token</source>
+  <target>Uppdateringstoken</target>
 </trans-unit>
 <trans-unit id="se61cf29ea4a4d3fe">
   <source>Refresh Tokens</source>
+  <target>Uppdateringstoken</target>
 </trans-unit>
 <trans-unit id="sb5cad46bad03dc19">
   <source>Unknown action</source>
+  <target>Okänd åtgärd</target>
 </trans-unit>
 <trans-unit id="scc03df1c8a965428">
   <source>Custom action</source>
+  <target>Anpassad åtgärd</target>
 </trans-unit>
 <trans-unit id="s08670bea6a90a4e0">
   <source>Unknown user type</source>
+  <target>Okänd användartyp</target>
 </trans-unit>
 <trans-unit id="s8dfeaf9950df0ffa">
   <source>object</source>
+  <target>objekt</target>
 </trans-unit>
 <trans-unit id="s26d3ea846b0765cb">
   <source>objects</source>
+  <target>objekt</target>
 </trans-unit>
 <trans-unit id="s7d041f0b6a10e8ea">
   <source>Consents</source>
+  <target>Samtycken</target>
 </trans-unit>
 <trans-unit id="s8fd7c31e67f73d4c">
   <source>Reputation score</source>
+  <target>Anseendepoäng</target>
 </trans-unit>
 <trans-unit id="wizard.ariaLabel.verbose-name.one">
   <source>New <x id="0" equiv-text="${verboseName}"/> Wizard</source>
+  <target>Guide för ny <x id="0" equiv-text="${verboseName}"/></target>
   <note from="lit-localize">ARIA label for the creation wizard, where the entity singular is interpolated.</note>
 </trans-unit>
 <trans-unit id="tokens.clipboard-copy.description">
   <source><x id="0" equiv-text="${formatIntentLabel(intent)}"/> token for <x id="1" equiv-text="${userObj.username}"/></source>
+  <target><x id="0" equiv-text="${formatIntentLabel(intent)}"/>-token för <x id="1" equiv-text="${userObj.username}"/></target>
   <note from="lit-localize">Description for a clipboard copy action for tokens, with the token intent and username as variables.</note>
 </trans-unit>
 <trans-unit id="table.emptyState.default">
   <source>No <x id="0" equiv-text="${pluralNoun}"/> found.</source>
+  <target>Inga <x id="0" equiv-text="${pluralNoun}"/> hittades.</target>
   <note from="lit-localize">Empty state message when no objects are found, where the entity plural is interpolated.</note>
 </trans-unit>
 <trans-unit id="table.emptyState.search">
   <source>No <x id="0" equiv-text="${singularNoun}"/> matches &quot;<x id="1" equiv-text="${truncateWords(this.search, 50)}"/>&quot;</source>
+  <target>Ingen <x id="0" equiv-text="${singularNoun}"/> matchar ”<x id="1" equiv-text="${truncateWords(this.search, 50)}"/>”</target>
   <note from="lit-localize">Empty state message when no objects match the search query, where the entity singular is interpolated, followed by the search query truncated to 50 characters.</note>
 </trans-unit>
 <trans-unit id="wizard.header.verbose-name.one">
   <source>Create New <x id="0" equiv-text="${verboseName}"/></source>
+  <target>Skapa ny <x id="0" equiv-text="${verboseName}"/></target>
   <note from="lit-localize">Header for the creation wizard, where the entity singular is interpolated.</note>
 </trans-unit>
 <trans-unit id="tokens.copy-button.label">
   <source>Copy token</source>
+  <target>Kopiera token</target>
   <note from="lit-localize">Label for a button that copies a token to the clipboard.</note>
 </trans-unit>
 <trans-unit id="tokens.copy-button.entity-label">
   <source>Token</source>
+  <target>Token</target>
   <note from="lit-localize">Label for a token entity, used in clipboard copy success messages.</note>
 </trans-unit>
 <trans-unit id="table.search.placeholder">
   <source>Search for <x id="0" equiv-text="${pluralNoun}"/>...</source>
+  <target>Sök efter <x id="0" equiv-text="${pluralNoun}"/> ...</target>
   <note from="lit-localize">Placeholder text for the search input, where the entity plural is interpolated.</note>
 </trans-unit>
 <trans-unit id="s7a72b0fd722d51e0">
   <source>Waiting for dependencies</source>
+  <target>Väntar på beroenden</target>
 </trans-unit>
 <trans-unit id="policy.password.score-threshold.description.too-guessable">
   <source>0: Too guessable: risky password. (guesses &lt; 10^3)</source>
+  <target>0: För lätt att gissa: riskabelt lösenord. (gissningar &lt; 10^3)</target>
 </trans-unit>
 <trans-unit id="policy.password.score-threshold.description.very-guessable">
   <source>1: Very guessable: protection from throttled online attacks. (guesses &lt; 10^6)</source>
+  <target>1: Mycket lätt att gissa: skydd mot begränsade nätattacker. (gissningar &lt; 10^6)</target>
 </trans-unit>
 <trans-unit id="policy.password.score-threshold.description.somewhat-guessable">
   <source>2: Somewhat guessable: protection from unthrottled online attacks. (guesses &lt; 10^8)</source>
+  <target>2: Något lätt att gissa: skydd mot obegränsade nätattacker. (gissningar &lt; 10^8)</target>
 </trans-unit>
 <trans-unit id="policy.password.score-threshold.description.safely-unguessable">
   <source>3: Safely unguessable: moderate protection from offline slow-hash scenario. (guesses &lt; 10^10)</source>
+  <target>3: Säkerligen svår att gissa: måttligt skydd mot offlineangrepp med långsam hashning. (gissningar &lt; 10^10)</target>
 </trans-unit>
 <trans-unit id="policy.password.score-threshold.description.very-unguessable">
   <source>4: Very unguessable: strong protection from offline slow-hash scenario. (guesses &gt;= 10^10)</source>
+  <target>4: Mycket svår att gissa: starkt skydd mot offlineangrepp med långsam hashning. (gissningar &gt;= 10^10)</target>
 </trans-unit>
 <trans-unit id="sb45f9fb4dba6e71a">
   <source>Unset</source>
+  <target>Inte angivet</target>
 </trans-unit>
 <trans-unit id="s02e9603605609ae6">
   <source>Successfully created <x id="0" equiv-text="${this.verboseName}"/></source>
+  <target><x id="0" equiv-text="${this.verboseName}"/> skapades.</target>
 </trans-unit>
 <trans-unit id="s58273fbf883b497d">
   <source>Successfully updated <x id="0" equiv-text="${this.verboseName}"/></source>
+  <target><x id="0" equiv-text="${this.verboseName}"/> uppdaterades.</target>
 </trans-unit>
 <trans-unit id="s221db22dbb4e0105">
   <source>Unknown Field</source>
+  <target>Okänt fält</target>
 </trans-unit>
 <trans-unit id="s47ff2d052ccbcaf3">
   <source>Unknown Field <x id="0" equiv-text="${fieldLike}"/></source>
+  <target>Okänt fält <x id="0" equiv-text="${fieldLike}"/></target>
 </trans-unit>
 <trans-unit id="form.submit.verb.created">
   <source>Created</source>
+  <target>Skapad</target>
 </trans-unit>
 <trans-unit id="form.submit.changes-saved">
   <source>Changes Saved</source>
+  <target>Ändringar sparade</target>
 </trans-unit>
 <trans-unit id="library.application.row.aria-label">
   <source>Open &quot;<x id="0" equiv-text="${application.name}"/>&quot;</source>
+  <target>Öppna ”<x id="0" equiv-text="${application.name}"/>”</target>
   <note from="lit-localize">Screen reader label for the application list row</note>
 </trans-unit>
 <trans-unit id="form.submitted.verb-entity">
   <source><x id="0" equiv-text="${verb} ${noun}"/></source>
+  <target><x id="0" equiv-text="${verb} ${noun}"/></target>
   <note from="lit-localize">The message shown after a form is successfully submitted.</note>
 </trans-unit>
 <trans-unit id="user.library.view-toggle.to-list">
   <source>Switch to list view</source>
+  <target>Byt till listvy</target>
   <note from="lit-localize">Tooltip on the library view toggle when grid view is active</note>
 </trans-unit>
 <trans-unit id="user.library.view-toggle.to-grid">
   <source>Switch to grid view</source>
+  <target>Byt till rutnätsvy</target>
   <note from="lit-localize">Tooltip on the library view toggle when list view is active</note>
 </trans-unit>
 <trans-unit id="users.recovery.no-email.description">
   <source>This user does not have an email address, so authentik cannot email a recovery link. Add an email address to enable email recovery.</source>
+  <target>Den här användaren har ingen e-postadress, så authentik kan inte skicka en återställningslänk via e-post. Lägg till en e-postadress för att aktivera återställning via e-post.</target>
 </trans-unit>
 <trans-unit id="users.recovery.no-brand-flow.description">
   <source>This brand does not have a recovery flow, so recovery links cannot be created. Configure a recovery flow in the brand settings to enable recovery.</source>
