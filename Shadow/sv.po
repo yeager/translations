@@ -185,7 +185,7 @@ msgstr "%s: Kan inte få unik GID (inga fler tillgängliga GID)\n"
 msgid ""
 "%s: UID %ju is less than UID_MIN %lu, cannot calculate deterministic "
 "subordinate GIDs\n"
-msgstr ""
+msgstr "%s: UID %ju är mindre än UID_MIN %lu, kan inte beräkna deterministiska underordnade GID\n"
 
 #: lib/find_new_sub_gids.c:86
 #, fuzzy, c-format
@@ -215,14 +215,14 @@ msgstr ""
 msgid ""
 "%s: Deterministic subordinate GID range for UID %ju exceeds SUB_GID_MAX "
 "(%lu)\n"
-msgstr ""
+msgstr "%s: Deterministiskt underordnat GID-intervall för UID %ju överskrider SUB_GID_MAX (%lu)\n"
 
 #: lib/find_new_sub_uids.c:77
 #, c-format
 msgid ""
 "%s: UID %ju is less than UID_MIN %lu, cannot calculate deterministic "
 "subordinate UIDs\n"
-msgstr ""
+msgstr "%s: UID %ju är mindre än UID_MIN %lu, kan inte beräkna deterministiska underordnade UID\n"
 
 #: lib/find_new_sub_uids.c:86
 #, fuzzy, c-format
@@ -252,7 +252,7 @@ msgstr ""
 msgid ""
 "%s: Deterministic subordinate UID range for UID %ju exceeds SUB_UID_MAX "
 "(%lu)\n"
-msgstr ""
+msgstr "%s: Deterministiskt underordnat UID-intervall för UID %ju överskrider SUB_UID_MAX (%lu)\n"
 
 #: lib/find_new_uid.c:61
 #, c-format
@@ -521,7 +521,7 @@ msgid ""
 "Unable to generate a salt from setting \"%s\", check your settings in "
 "ENCRYPT_METHOD and the corresponding configuration for your selected hash "
 "method.\n"
-msgstr ""
+msgstr "Kan inte skapa ett salt från inställningen ”%s”; kontrollera inställningen ENCRYPT_METHOD och motsvarande konfiguration för den valda hashmetoden.\n"
 
 #: lib/selinux.c:141
 msgid "Cannot open audit interface.\n"
@@ -1363,14 +1363,14 @@ msgstr ""
 msgid ""
 "  -t, --time DAYS               display faillog records more recent than "
 "DAYS\n"
-msgstr ""
+msgstr "  -t, --time DAYS               visa faillog-poster nyare än DAYS\n"
 
 #: src/faillog.c:87
 msgid ""
 "  -u, --user LOGIN/RANGE        display faillog record or maintains failure\n"
 "                                counters and limits (if used with -r, -m,\n"
 "                                or -l) only for the specified LOGIN(s)\n"
-msgstr ""
+msgstr "  -u, --user LOGIN/RANGE        visa faillog-post eller hantera räknare och gränser för misslyckanden\n                                (om det används med -r, -m eller -l) endast för angivna LOGIN\n"
 
 #: src/faillog.c:104 src/faillog.c:119 src/lastlog.c:125
 #, c-format
@@ -1642,7 +1642,7 @@ msgstr "%s: Kan inte fastställa ditt användarnamn.\n"
 msgid ""
 "  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/"
 "* files\n"
-msgstr ""
+msgstr "  -P, --prefix PREFIX_DIR       prefixkatalog där /etc/*-filerna finns\n"
 
 #: src/groupdel.c:88
 #, fuzzy
@@ -1744,7 +1744,7 @@ msgstr ""
 msgid ""
 "  -r, --read-only               display errors and warnings\n"
 "                                but do not change files\n"
-msgstr ""
+msgstr "  -r, --read-only               visa fel och varningar\n                                men ändra inte filer\n"
 
 #: src/grpck.c:155 src/pwck.c:151
 msgid "  -s, --sort                    sort entries by UID\n"
@@ -1753,7 +1753,7 @@ msgstr "  -s, --sort                    sortera poster efter UID\n"
 #: src/grpck.c:156
 msgid ""
 "  -S, --silence-warnings        silence controversial/paranoid warnings\n"
-msgstr ""
+msgstr "  -S, --silence-warnings        undertryck kontroversiella/paranoida varningar\n"
 
 #: src/grpck.c:231 src/pwck.c:206
 #, c-format
@@ -1917,7 +1917,7 @@ msgstr "**Aldrig varit inloggad**"
 msgid ""
 "%s: Selected uid(s) are higher than LASTLOG_UID_MAX (%lu),\n"
 "\tthe output might be incorrect.\n"
-msgstr ""
+msgstr "%s: Valda uid är högre än LASTLOG_UID_MAX (%lu),\n\tutmatningen kan vara felaktig.\n"
 
 #: src/lastlog.c:249
 #, fuzzy, c-format
@@ -1929,7 +1929,7 @@ msgstr "%s: Misslyckades med att få posten för UID %lu\n"
 msgid ""
 "%s: Selected uid(s) are higher than LASTLOG_UID_MAX (%lu),\n"
 "\tthey will not be updated.\n"
-msgstr ""
+msgstr "%s: Valda uid är högre än LASTLOG_UID_MAX (%lu),\n\tde uppdateras inte.\n"
 
 #: src/lastlog.c:286
 #, fuzzy, c-format
@@ -2061,7 +2061,7 @@ msgstr "%s: gid-intervallet [%lu-%lu) -> [%lu-%lu) är inte tillåtet\n"
 msgid ""
 "usage: %s [<pid|fd:<pidfd>] <gid> <lowergid> <count> [ <gid> <lowergid> "
 "<count> ] ... \n"
-msgstr ""
+msgstr "användning: %s [<pid|fd:<pidfd>] <gid> <lägregid> <antal> [ <gid> <lägregid> <antal> ] ... \n"
 
 #: src/newgidmap.c:103
 #, c-format
@@ -2098,7 +2098,7 @@ msgstr "%s: Misslyckades med att skapa tcb-katalog för %s\n"
 msgid ""
 "%s: Target process is owned by a different user: uid:%lu pw_uid:%lu st_uid:"
 "%lu, gid:%lu pw_gid:%lu st_gid:%lu\n"
-msgstr ""
+msgstr "%s: Målprocessen ägs av en annan användare: uid:%lu pw_uid:%lu st_uid:%lu, gid:%lu pw_gid:%lu st_gid:%lu\n"
 
 #: src/newgrp.c:74
 msgid "Usage: newgrp [-] [group]\n"
@@ -2138,7 +2138,7 @@ msgstr "%s: uid-intervallet [%lu-%lu) -> [%lu-%lu) är inte tillåtet\n"
 msgid ""
 "usage: %s [<pid>|fd:<pidfd>] <uid> <loweruid> <count> [ <uid> <loweruid> "
 "<count> ] ... \n"
-msgstr ""
+msgstr "användning: %s [<pid>|fd:<pidfd>] <uid> <lägreuid> <antal> [ <uid> <lägreuid> <antal> ] ... \n"
 
 #: src/newusers.c:131 src/pwck.c:141 src/usermod.c:427
 #, fuzzy
@@ -2821,7 +2821,7 @@ msgstr ""
 #: src/useradd.c:903
 msgid ""
 "      --btrfs-subvolume-home    use BTRFS subvolume for home directory\n"
-msgstr ""
+msgstr "      --btrfs-subvolume-home    använd BTRFS-undervolym för hemkatalog\n"
 
 #: src/useradd.c:905
 msgid "  -c, --comment COMMENT         GECOS field of the new account\n"
@@ -2871,7 +2871,7 @@ msgstr ""
 msgid ""
 "  -G, --groups GROUPS           list of supplementary groups of the new\n"
 "                                account\n"
-msgstr ""
+msgstr "  -G, --groups GROUPS           lista över kompletterande grupper för det nya\n                                kontot\n"
 
 #: src/useradd.c:918
 msgid ""
@@ -2942,13 +2942,13 @@ msgstr ""
 msgid ""
 "  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user "
 "mapping\n"
-msgstr ""
+msgstr "  -Z, --selinux-user SEUSER     använd en specifik SEUSER för SELinux-användarmappningen\n"
 
 #: src/useradd.c:939
 msgid ""
 "      --selinux-range SERANGE   use a specific MLS range for the SELinux "
 "user mapping\n"
-msgstr ""
+msgstr "      --selinux-range SERANGE   använd ett specifikt MLS-intervall för SELinux-användarmappningen\n"
 
 #: src/useradd.c:1042 src/useradd.c:1101 src/userdel.c:200 src/userdel.c:256
 #: src/usermod.c:765 src/usermod.c:900
@@ -3081,7 +3081,7 @@ msgstr "%s: fel vid duplicering av sträng i BTRFS-kontroll %s\n"
 msgid ""
 "%s: warning: \"%s\" is not on BTRFS; creating regular directory instead of "
 "subvolume\n"
-msgstr ""
+msgstr "%s: varning: ”%s” finns inte på BTRFS; skapar vanlig katalog i stället för undervolym\n"
 
 #: src/useradd.c:2249
 #, fuzzy, c-format
@@ -3141,7 +3141,7 @@ msgstr "%s varning: %s:s uid %d är större än SYS_UID_MAX %d\n"
 #, c-format
 msgid ""
 "%s warning: %s's uid %d outside of the UID_MIN %d and UID_MAX %d range.\n"
-msgstr ""
+msgstr "%s varning: %s:s uid %d ligger utanför intervallet UID_MIN %d till UID_MAX %d.\n"
 
 #: src/useradd.c:2529 src/usermod.c:1434
 #, c-format
