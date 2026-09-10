@@ -2189,27 +2189,31 @@ msgstr "Ogiltig nästa URL"
 
 #: authentik/lib/sync/incoming/models.py
 msgid "When to trigger sync for outgoing providers"
-msgstr ""
+msgstr "När synkronisering ska utlösas för utgående leverantörer"
 
 #: authentik/lib/sync/outgoing/models.py
 msgid "Controls the number of objects synced in a single task"
-msgstr ""
+msgstr "Styr antalet objekt som synkroniseras i en enda uppgift"
 
 #: authentik/lib/sync/outgoing/models.py
 msgid "Timeout for synchronization of a single page"
-msgstr ""
+msgstr "Tidsgräns för synkronisering av en enskild sida"
 
 #: authentik/lib/sync/outgoing/models.py
 msgid ""
 "When enabled, authentik will attempt to discover existing resources in the "
 "remote system."
 msgstr ""
+"När alternativet är aktiverat försöker authentik hitta befintliga resurser i "
+"fjärrsystemet."
 
 #: authentik/lib/sync/outgoing/models.py
 msgid ""
 "When enabled, provider will not modify or create objects in the remote "
 "system."
 msgstr ""
+"När alternativet är aktiverat ändrar eller skapar leverantören inga objekt i "
+"fjärrsystemet."
 
 #: authentik/lib/utils/time.py
 #, python-format
@@ -2218,12 +2222,12 @@ msgstr "%(value)s är inte i det rätta formatet av 'hours=3;minutes=1'."
 
 #: authentik/lib/validators.py
 msgid "Invalid password hash format. Must be a valid Django password hash."
-msgstr ""
+msgstr "Ogiltigt format för lösenordshash. Måste vara en giltig Django-lösenordshash."
 
 #: authentik/lib/validators.py
 #, python-brace-format
 msgid "The fields {field_names} must be used together."
-msgstr ""
+msgstr "Fälten {field_names} måste användas tillsammans."
 
 #: authentik/outposts/api/service_connections.py
 msgid ""
@@ -2241,20 +2245,24 @@ msgid ""
 "If enabled, use the local connection. Required Docker socket/Kubernetes "
 "Integration"
 msgstr ""
+"Använd den lokala anslutningen om alternativet är aktiverat. Docker-socket "
+"eller Kubernetes-integrering krävs."
 
 #: authentik/outposts/models.py
 msgid "Outpost Service-Connection"
-msgstr "Utpost Tjänstanslutning"
+msgstr "Utpoststjänstanslutning"
 
 #: authentik/outposts/models.py
 msgid "Outpost Service-Connections"
-msgstr "Utpost Tjänstanslutningar"
+msgstr "Utpoststjänstanslutningar"
 
 #: authentik/outposts/models.py
 msgid ""
 "Can be in the format of 'unix://<path>' when connecting to a local docker "
 "daemon, or 'https://<hostname>:2376' when connecting to a remote system."
 msgstr ""
+"Kan ha formatet ”unix://<path>” vid anslutning till en lokal Docker-daemon "
+"eller ”https://<hostname>:2376” vid anslutning till ett fjärrsystem."
 
 #: authentik/outposts/models.py
 msgid ""
@@ -2285,6 +2293,8 @@ msgid ""
 "Paste your kubeconfig here. authentik will automatically use the currently "
 "selected context."
 msgstr ""
+"Klistra in din kubeconfig här. authentik använder automatiskt den kontext som "
+"är vald."
 
 #: authentik/outposts/models.py
 msgid "Verify SSL Certificates of the Kubernetes API endpoint"
@@ -2303,6 +2313,8 @@ msgid ""
 "Select Service-Connection authentik should use to manage this outpost. Leave "
 "empty if authentik should not handle the deployment."
 msgstr ""
+"Välj den tjänstanslutning som authentik ska använda för att hantera denna "
+"utpost. Lämna tomt om authentik inte ska hantera distributionen."
 
 #: authentik/outposts/models.py
 msgid "Outpost"
@@ -2338,7 +2350,7 @@ msgstr "Skicka uppdatering till utpost"
 
 #: authentik/outposts/tasks.py
 msgid "Checks the local environment and create Service connections."
-msgstr "Kontrollerar den lokala miljön och skapar tjänsteanslutningar."
+msgstr "Kontrollerar den lokala miljön och skapar tjänstanslutningar."
 
 #: authentik/outposts/tasks.py
 msgid "Terminate session on all outposts."
@@ -2362,6 +2374,8 @@ msgid ""
 "Match events created by selected application. When left empty, all "
 "applications are matched."
 msgstr ""
+"Matcha händelser som skapats av valt program. När fältet lämnas tomt matchas "
+"alla program."
 
 #: authentik/policies/event_matcher/api.py
 #: authentik/policies/event_matcher/models.py
@@ -2369,6 +2383,8 @@ msgid ""
 "Match events created by selected model. When left empty, all models are "
 "matched. When an app is selected, all the application's models are matched."
 msgstr ""
+"Matcha händelser som skapats av vald modell. När fältet lämnas tomt matchas "
+"alla modeller. När ett program väljs matchas programmets alla modeller."
 
 #: authentik/policies/event_matcher/api.py
 msgid "At least one criteria must be set."
@@ -2379,12 +2395,16 @@ msgid ""
 "Match created events with this action type. When left empty, all action "
 "types will be matched."
 msgstr ""
+"Matcha skapade händelser med denna åtgärdstyp. När fältet lämnas tomt matchas "
+"alla åtgärdstyper."
 
 #: authentik/policies/event_matcher/models.py
 msgid ""
 "Matches Event's Client IP (strict matching, for network matching use an "
 "Expression Policy)"
 msgstr ""
+"Matchar händelsens klient-IP (strikt matchning; använd en uttryckspolicy för "
+"nätverksmatchning)"
 
 #: authentik/policies/event_matcher/models.py
 msgid "Event Matcher Policy"
@@ -2405,11 +2425,11 @@ msgstr "Lösenordet har gått ut."
 
 #: authentik/policies/expiry/models.py
 msgid "Password Expiry Policy"
-msgstr "Lösenords utgångspolicy"
+msgstr "Policy för lösenordsutgång"
 
 #: authentik/policies/expiry/models.py
 msgid "Password Expiry Policies"
-msgstr "Lösenords utgångspolicier"
+msgstr "Policyer för lösenordsutgång"
 
 #: authentik/policies/expression/models.py
 msgid "Expression Policy"
@@ -2469,7 +2489,7 @@ msgstr "Modeller för policybindning"
 
 #: authentik/policies/models.py
 msgid "Negates the outcome of the policy. Messages are unaffected."
-msgstr ""
+msgstr "Negerar resultatet av policyn. Meddelanden påverkas inte."
 
 #: authentik/policies/models.py
 msgid "Timeout after which Policy execution is terminated."
@@ -2492,6 +2512,8 @@ msgid ""
 "When this option is enabled, all executions of this policy will be logged. "
 "By default, only execution errors are logged."
 msgstr ""
+"När alternativet är aktiverat loggas alla körningar av denna policy. Som "
+"standard loggas endast körningsfel."
 
 #: authentik/policies/models.py
 msgid "Policy"
