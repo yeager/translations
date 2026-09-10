@@ -2716,26 +2716,26 @@ msgid "%s: %s was created, but could not be removed\n"
 msgstr "%s: %s skapades men kunde inte tas bort\n"
 
 #: src/useradd.c:376 src/useradd.c:417
-#, fuzzy, c-format
+#, c-format
 msgid "%s: the %s= configuration in %s will be ignored\n"
 msgstr "%s: %s-konfigurationen i %s kommer att ignoreras\n"
 
 #: src/useradd.c:388
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: the '%s=' configuration in %s has an invalid group, ignoring the bad "
 "group\n"
-msgstr "%s: %s-konfigurationen i %s kommer att ignoreras\n"
+msgstr "%s: konfigurationen ”%s=” i %s har en ogiltig grupp; den ogiltiga gruppen ignoreras\n"
 
 #: src/useradd.c:557 src/useradd.c:564
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot create new defaults file"
-msgstr "%s: kan inte skapa ny standardfil\n"
+msgstr "%s: kan inte skapa ny standardfil"
 
 #: src/useradd.c:571 src/useradd.c:579
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot create directory for defaults file\n"
-msgstr "%s: kan inte skapa ny standardfil\n"
+msgstr "%s: kan inte skapa katalog för standardfil\n"
 
 #: src/useradd.c:589
 #, c-format
@@ -2748,19 +2748,19 @@ msgid "%s: line too long in %s: %s..."
 msgstr "%s: raden är för lång i %s: %s..."
 
 #: src/useradd.c:724
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Cannot create backup file (%s)"
-msgstr "%s: Kan inte skapa symboliska länken %s: %s\n"
+msgstr "%s: Kan inte skapa säkerhetskopia (%s)"
 
 #: src/useradd.c:828 src/usermod.c:290
-#, fuzzy, c-format
+#, c-format
 msgid "%s: too many groups specified (max %zu).\n"
-msgstr "%s: för många grupper angivna (max %d).\n"
+msgstr "%s: för många grupper angivna (högst %zu).\n"
 
 #: src/useradd.c:877
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Out of memory. Cannot find group '%s'.\n"
-msgstr "%s: Slut på minne. Kan inte uppdatera %s.\n"
+msgstr "%s: Slut på minne. Kan inte hitta gruppen ”%s”.\n"
 
 #: src/useradd.c:893
 #, c-format
@@ -2778,10 +2778,8 @@ msgstr ""
 "Flaggor:\n"
 
 #: src/useradd.c:899
-#, fuzzy
 msgid "      --badname                 do not check for bad names\n"
-msgstr ""
-"  -s, --shadow                  redigera shadow- eller gshadow-databasen\n"
+msgstr "      --badname                 kontrollera inte ogiltiga namn\n"
 
 #: src/useradd.c:900
 msgid ""
@@ -2826,11 +2824,12 @@ msgstr ""
 "kontot\n"
 
 #: src/useradd.c:911
-#, fuzzy
 msgid ""
 "  -F, --add-subids-for-system   add entries to sub[ug]id even when adding a "
 "system user\n"
-msgstr "  -r, --system                  skapa systemkonton\n"
+msgstr ""
+"  -F, --add-subids-for-system   lägg till poster i sub[ug]id även när en "
+"systemanvändare läggs till\n"
 
 #: src/useradd.c:913
 msgid ""
@@ -2966,9 +2965,9 @@ msgid "%s: invalid shell '%s'\n"
 msgstr "%s: ogiltigt skal \"%s\"\n"
 
 #: src/useradd.c:1384 src/usermod.c:1197
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Warning: missing or non-executable shell '%s'\n"
-msgstr "%s: Varning: %s är inte en körbar fil\n"
+msgstr "%s: Varning: skalet ”%s” saknas eller är inte körbart\n"
 
 #: src/useradd.c:1406 src/userdel.c:927 src/usermod.c:1258
 #, c-format
@@ -2986,64 +2985,54 @@ msgid "%s: options %s and %s conflict\n"
 msgstr "%s: flaggorna %s och %s står i konflikt\n"
 
 #: src/useradd.c:1946
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to open the faillog file for UID %lu"
-msgstr ""
-"%s: misslyckades med att kopiera faillog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att öppna faillog-filen för UID %lu"
 
 #: src/useradd.c:1954
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to reset the faillog entry of UID %lu"
-msgstr ""
-"%s: misslyckades med att kopiera faillog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att återställa faillog-posten för UID %lu"
 
 #: src/useradd.c:1959
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to close the faillog file for UID %lu"
-msgstr "%s: Misslyckades med att ställa in låstid för UID %lu\n"
+msgstr "%s: misslyckades med att stänga faillog-filen för UID %lu"
 
 #: src/useradd.c:1988
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to open the lastlog file for UID %lu"
-msgstr ""
-"%s: misslyckades med att kopiera lastlog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att öppna lastlog-filen för UID %lu"
 
 #: src/useradd.c:1996
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to reset the lastlog entry of UID %lu"
-msgstr ""
-"%s: misslyckades med att kopiera faillog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att återställa lastlog-posten för UID %lu"
 
 #: src/useradd.c:2002
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to close the lastlog file for UID %lu"
-msgstr "%s: Misslyckades med att ställa in låstid för UID %lu\n"
+msgstr "%s: misslyckades med att stänga lastlog-filen för UID %lu"
 
 #: src/useradd.c:2046
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to reset the tallylog entry of user \"%s\"\n"
-msgstr ""
-"%s: misslyckades med att kopiera faillog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att återställa tallylog-posten för användaren ”%s”\n"
 
 #: src/useradd.c:2123 src/useradd.c:2129
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to prepare the new %s entry\n"
-msgstr "%s: misslyckades med att förbereda den nya %s-posten \"%s\"\n"
+msgstr "%s: misslyckades med att förbereda den nya %s-posten\n"
 
 #: src/useradd.c:2197
-#, fuzzy, c-format
+#, c-format
 msgid "%s: error while duplicating string %s\n"
-msgstr "%s: fel vid ändring av fält\n"
+msgstr "%s: fel vid duplicering av strängen %s\n"
 
 #: src/useradd.c:2205
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot set SELinux context for home directory %s\n"
-msgstr "%s: kan inte skapa katalog %s\n"
+msgstr "%s: kan inte ange SELinux-kontext för hemkatalogen %s\n"
 
 #: src/useradd.c:2235
 #, c-format
@@ -3058,9 +3047,9 @@ msgid ""
 msgstr "%s: varning: ”%s” finns inte på BTRFS; skapar vanlig katalog i stället för undervolym\n"
 
 #: src/useradd.c:2249
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to create BTRFS subvolume: %s\n"
-msgstr "%s: misslyckades att allokera minne: %s\n"
+msgstr "%s: misslyckades med att skapa BTRFS-undervolym: %s\n"
 
 #: src/useradd.c:2259
 #, c-format
@@ -3077,9 +3066,9 @@ msgid "%s: cannot reset SELinux file creation context\n"
 msgstr "%s: kan inte återställa SELinux-filskapandekontext\n"
 
 #: src/useradd.c:2333
-#, fuzzy, c-format
+#, c-format
 msgid "%s: cannot set SELinux context for mailbox file %s\n"
-msgstr "Ändrar åldersinformationen för %s\n"
+msgstr "%s: kan inte ange SELinux-kontext för postlådefilen %s\n"
 
 #: src/useradd.c:2344
 msgid "Creating mailbox file"
@@ -3097,9 +3086,8 @@ msgid "Setting mailbox file permissions"
 msgstr "Ställer in rättigheter för postlådefil"
 
 #: src/useradd.c:2366
-#, fuzzy
 msgid "Synchronize mailbox file"
-msgstr "Skapar postlådefil"
+msgstr "Synkroniserar postlådefilen"
 
 #: src/useradd.c:2369
 msgid "Closing mailbox file"
@@ -3434,19 +3422,19 @@ msgid "%s: homedir must be an absolute path\n"
 msgstr "%s: hemkatalogen måste vara en absolut sökväg\n"
 
 #: src/usermod.c:1218 src/usermod.c:1226
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid subordinate uid range '%s'\n"
-msgstr "%s: ogiltigt datum \"%s\"\n"
+msgstr "%s: ogiltigt underordnat UID-intervall ”%s”\n"
 
 #: src/usermod.c:1234 src/usermod.c:1242
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid subordinate gid range '%s'\n"
-msgstr "%s: ogiltigt datum \"%s\"\n"
+msgstr "%s: ogiltigt underordnat GID-intervall ”%s”\n"
 
 #: src/usermod.c:1337
-#, fuzzy, c-format
+#, c-format
 msgid "%s: no options\n"
-msgstr "%s: kan inte öppna %s\n"
+msgstr "%s: inga alternativ\n"
 
 #: src/usermod.c:1354
 #, c-format
@@ -3469,9 +3457,9 @@ msgid "%s: UID '%lu' already exists\n"
 msgstr "%s: UID \"%lu\" finns redan\n"
 
 #: src/usermod.c:1448 src/usermod.c:1455
-#, fuzzy, c-format
+#, c-format
 msgid "%s: %s does not exist, you cannot use the flags %s or %s\n"
-msgstr "%s: %s är inte behörig att ändra lösenordet för %s\n"
+msgstr "%s: %s finns inte; du kan inte använda flaggorna %s eller %s\n"
 
 #: src/usermod.c:1771
 #, c-format
@@ -3509,41 +3497,33 @@ msgid "%s: cannot rename directory %s to %s\n"
 msgstr "%s: kunde inte byta namn på katalogen %s till %s\n"
 
 #: src/usermod.c:1849
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: The previous home directory (%s) does not exist or is inaccessible. Move "
 "cannot be completed.\n"
 msgstr ""
-"%s: Tidigare hemkatalogen (%s) var inte en katalog. Den har inte tagits bort "
-"och inga hemkataloger har skapats.\n"
+"%s: Den tidigare hemkatalogen (%s) finns inte eller är inte åtkomlig. "
+"Flytten kan inte slutföras.\n"
 
 #: src/usermod.c:1884 src/usermod.c:1895 src/usermod.c:1910
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to copy the lastlog entry of user %lu to user %lu"
-msgstr ""
-"%s: misslyckades med att kopiera lastlog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att kopiera lastlog-posten från användaren %lu till användaren %lu"
 
 #: src/usermod.c:1917
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to copy the lastlog entry of user %ju to user %ju"
-msgstr ""
-"%s: misslyckades med att kopiera lastlog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att kopiera lastlog-posten från användaren %ju till användaren %ju"
 
 #: src/usermod.c:1944 src/usermod.c:1955 src/usermod.c:1970
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to copy the faillog entry of user %lu to user %lu"
-msgstr ""
-"%s: misslyckades med att kopiera faillog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att kopiera faillog-posten från användaren %lu till användaren %lu"
 
 #: src/usermod.c:1977
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to copy the faillog entry of user %ju to user %ju"
-msgstr ""
-"%s: misslyckades med att kopiera faillog-posten för användaren %lu till "
-"användaren %lu: %s\n"
+msgstr "%s: misslyckades med att kopiera faillog-posten från användaren %ju till användaren %ju"
 
 #: src/usermod.c:2036
 #, c-format
@@ -3559,34 +3539,34 @@ msgid "failed to rename mailbox"
 msgstr "misslyckades med att byta namn på postlåda"
 
 #: src/usermod.c:2159
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unable to find new subordinate uid range"
-msgstr "%s: ogiltigt datum \"%s\"\n"
+msgstr "%s: kan inte hitta nytt underordnat UID-intervall"
 
 #: src/usermod.c:2164
-#, fuzzy, c-format
+#, c-format
 msgid "%s: unable to find new subordinate gid range"
-msgstr "%s: ogiltigt datum \"%s\"\n"
+msgstr "%s: kan inte hitta nytt underordnat GID-intervall"
 
 #: src/usermod.c:2177
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to remove uid range %ju-%ju from '%s'\n"
-msgstr "%s: misslyckades med att förbereda den nya %s-posten \"%s\"\n"
+msgstr "%s: misslyckades med att ta bort UID-intervallet %ju-%ju från ”%s”\n"
 
 #: src/usermod.c:2193
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to add uid range %ju-%ju to '%s'\n"
-msgstr "%s: misslyckades med att förbereda den nya %s-posten \"%s\"\n"
+msgstr "%s: misslyckades med att lägga till UID-intervallet %ju-%ju till ”%s”\n"
 
 #: src/usermod.c:2209
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to remove gid range %ju-%ju from '%s'\n"
-msgstr "%s: misslyckades med att förbereda den nya %s-posten \"%s\"\n"
+msgstr "%s: misslyckades med att ta bort GID-intervallet %ju-%ju från ”%s”\n"
 
 #: src/usermod.c:2225
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to add gid range %ju-%ju to '%s'\n"
-msgstr "%s: misslyckades med att förbereda den nya %s-posten \"%s\"\n"
+msgstr "%s: misslyckades med att lägga till GID-intervallet %ju-%ju till ”%s”\n"
 
 #: src/vipw.c:54
 #, c-format
@@ -3678,18 +3658,17 @@ msgid "failed to stat edited file"
 msgstr "misslyckades med att ta status på redigerade filen"
 
 #: src/vipw.c:428
-#, fuzzy
 msgid "aprintf() failed"
-msgstr "%s: rad %d: chown %s misslyckades: %s\n"
+msgstr "aprintf() misslyckades"
 
 #: src/vipw.c:432
 msgid "failed to create backup file"
 msgstr "misslyckades med att skapa säkerhetskopia"
 
 #: src/vipw.c:444
-#, fuzzy, c-format
+#, c-format
 msgid "%s: can't restore %s (your changes are in %s)"
-msgstr "%s: kan inte återställa %s: %s (dina ändringar finns i %s)\n"
+msgstr "%s: kan inte återställa %s (dina ändringar finns i %s)"
 
 #: src/vipw.c:572
 #, c-format
