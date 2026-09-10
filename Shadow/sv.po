@@ -64,9 +64,8 @@ msgid "Cannot open audit interface - aborting.\n"
 msgstr "Kan inte öppna granskningsgränssnittet — avbryter.\n"
 
 #: lib/chowntty.c:60
-#, fuzzy
 msgid "Unable to change owner or mode of tty stdin"
-msgstr "Kunde inte ändra ägare eller rättigheter för tty standard in: %s"
+msgstr "Kunde inte ändra ägare eller rättigheter för tty-standardindata"
 
 #: lib/cleanup_group.c:178 lib/cleanup_group.c:200 lib/cleanup_user.c:101
 #: lib/cleanup_user.c:122 src/chage.c:100 src/chage.c:107 src/chage.c:543
@@ -98,9 +97,9 @@ msgid "%s: failed to unlock %s\n"
 msgstr "%s: misslyckades med att låsa upp %s\n"
 
 #: lib/commonio.c:607
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Non-text file.\n"
-msgstr "%s: rad %d: chown %s misslyckades: %s\n"
+msgstr "%s: Icke-textfil.\n"
 
 #: lib/commonio.c:1012 lib/commonio.c:1117
 #, c-format
@@ -160,20 +159,20 @@ msgid "%s: Encountered error attempting to use preferred GID: %s\n"
 msgstr "%s: Fel uppstod när önskat GID skulle användas: %s\n"
 
 #: lib/find_new_gid.c:243 lib/find_new_uid.c:242 src/usermod.c:375
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to allocate memory"
-msgstr "misslyckades att allokera minne"
+msgstr "%s: misslyckades med att allokera minne"
 
 #: lib/find_new_gid.c:325 lib/find_new_gid.c:371
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: Can't get unique system GID (%s). Suppressing additional messages.\n"
-msgstr "%s: Kan inte få unikt system GID (inga fler tillgängliga GID)\n"
+msgstr "%s: Kan inte få unikt system-GID (%s). Undertrycker ytterligare meddelanden.\n"
 
 #: lib/find_new_gid.c:434 lib/find_new_gid.c:480
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Can't get unique GID (%s). Suppressing additional messages.\n"
-msgstr "%s: Kan inte få unik GID (inga fler tillgängliga GID)\n"
+msgstr "%s: Kan inte få unikt GID (%s). Undertrycker ytterligare meddelanden.\n"
 
 #: lib/find_new_gid.c:499
 #, c-format
@@ -188,13 +187,11 @@ msgid ""
 msgstr "%s: UID %ju är mindre än UID_MIN %lu, kan inte beräkna deterministiska underordnade GID\n"
 
 #: lib/find_new_sub_gids.c:86
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: Invalid configuration: SUB_GID_MIN (%lu), SUB_GID_MAX (%lu), "
 "SUB_GID_COUNT (%lu)\n"
-msgstr ""
-"%s: Ogiltig konfiguration: SYS_GID_MIN (%lu), GID_MIN (%lu), SYS_GID_MAX "
-"(%lu)\n"
+msgstr "%s: Ogiltig konfiguration: SUB_GID_MIN (%lu), SUB_GID_MAX (%lu), SUB_GID_COUNT (%lu)\n"
 
 #: lib/find_new_sub_gids.c:95
 #, c-format
@@ -202,13 +199,11 @@ msgid "%s: SUB_GID range [%lu, %lu] is too large to represent\n"
 msgstr "%s: SUB_GID-intervallet [%lu, %lu] är för stort för att representeras\n"
 
 #: lib/find_new_sub_gids.c:104
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: Not enough space for any subordinate GIDs (SUB_GID_MIN=%lu, "
 "SUB_GID_MAX=%lu, SUB_GID_COUNT=%lu)\n"
-msgstr ""
-"%s: Ogiltig konfiguration: SYS_GID_MIN (%lu), GID_MIN (%lu), SYS_GID_MAX "
-"(%lu)\n"
+msgstr "%s: Inte tillräckligt med utrymme för några underordnade GID (SUB_GID_MIN=%lu, SUB_GID_MAX=%lu, SUB_GID_COUNT=%lu)\n"
 
 #: lib/find_new_sub_gids.c:121
 #, c-format
@@ -225,13 +220,11 @@ msgid ""
 msgstr "%s: UID %ju är mindre än UID_MIN %lu, kan inte beräkna deterministiska underordnade UID\n"
 
 #: lib/find_new_sub_uids.c:86
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: Invalid configuration: SUB_UID_MIN (%lu), SUB_UID_MAX (%lu), "
 "SUB_UID_COUNT (%lu)\n"
-msgstr ""
-"%s: Ogiltig konfiguration: SYS_UID_MIN (%lu), UID_MIN (%lu), SYS_UID_MAX "
-"(%lu)\n"
+msgstr "%s: Ogiltig konfiguration: SUB_UID_MIN (%lu), SUB_UID_MAX (%lu), SUB_UID_COUNT (%lu)\n"
 
 #: lib/find_new_sub_uids.c:95
 #, c-format
@@ -239,13 +232,11 @@ msgid "%s: SUB_UID range [%lu, %lu] is too large to represent\n"
 msgstr "%s: SUB_UID-intervallet [%lu, %lu] är för stort för att representeras\n"
 
 #: lib/find_new_sub_uids.c:104
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s: Not enough space for any subordinate UIDs (SUB_UID_MIN=%lu, "
 "SUB_UID_MAX=%lu, SUB_UID_COUNT=%lu)\n"
-msgstr ""
-"%s: Ogiltig konfiguration: SYS_UID_MIN (%lu), UID_MIN (%lu), SYS_UID_MAX "
-"(%lu)\n"
+msgstr "%s: Inte tillräckligt med utrymme för några underordnade UID (SUB_UID_MIN=%lu, SUB_UID_MAX=%lu, SUB_UID_COUNT=%lu)\n"
 
 #: lib/find_new_sub_uids.c:121
 #, c-format
