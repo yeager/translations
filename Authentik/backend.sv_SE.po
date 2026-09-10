@@ -710,6 +710,8 @@ msgid ""
 "Request to authenticate with {source} has been denied. Please authenticate "
 "with the source you've previously signed up with."
 msgstr ""
+"Begäran om att autentisera med {source} har nekats. Autentisera med den "
+"källa som du tidigare registrerat dig med."
 
 #: authentik/core/sources/flow_manager.py
 msgid "Configured flow does not exist."
@@ -718,12 +720,12 @@ msgstr "Konfigurerat flöde finns inte."
 #: authentik/core/sources/flow_manager.py
 #, python-brace-format
 msgid "Successfully authenticated with {source}!"
-msgstr ""
+msgstr "Autentisering med {source} lyckades!"
 
 #: authentik/core/sources/flow_manager.py
 #, python-brace-format
 msgid "Successfully linked {source}!"
-msgstr ""
+msgstr "{source} har länkats!"
 
 #: authentik/core/sources/flow_manager.py
 msgid "Source is not configured for enrollment."
@@ -743,7 +745,7 @@ msgstr ""
 
 #: authentik/core/templates/base/skeleton.html
 msgid "Recovery session is active. Custom branding is disabled."
-msgstr ""
+msgstr "Återställningssessionen är aktiv. Anpassat varumärke är inaktiverat."
 
 #: authentik/core/templates/if/error.html
 #: authentik/policies/templates/policies/denied.html
@@ -774,15 +776,15 @@ msgstr "Du håller på att logga in på %(application)s."
 
 #: authentik/core/views/interface.py
 msgid "Interface can only be accessed by internal users."
-msgstr ""
+msgstr "Gränssnittet kan endast nås av interna användare."
 
 #: authentik/core/views/user_switch.py
 msgid "User switching is disabled."
-msgstr ""
+msgstr "Användarväxling är inaktiverad."
 
 #: authentik/core/views/user_switch.py
 msgid "User switching disabled"
-msgstr ""
+msgstr "Användarväxling är inaktiverad"
 
 #: authentik/crypto/api.py
 msgid "Subject-alt name"
@@ -830,23 +832,23 @@ msgstr ""
 
 #: authentik/crypto/models.py
 msgid "Key algorithm type detected from the certificate's public key"
-msgstr ""
+msgstr "Nyckelalgoritm som har identifierats från certifikatets publika nyckel"
 
 #: authentik/crypto/models.py
 msgid "Certificate expiry date"
-msgstr ""
+msgstr "Certifikatets utgångsdatum"
 
 #: authentik/crypto/models.py
 msgid "Certificate subject as RFC4514 string"
-msgstr ""
+msgstr "Certifikatets ämne som RFC4514-sträng"
 
 #: authentik/crypto/models.py
 msgid "SHA256 fingerprint of the certificate"
-msgstr ""
+msgstr "Certifikatets SHA256-fingeravtryck"
 
 #: authentik/crypto/models.py
 msgid "SHA1 fingerprint of the certificate"
-msgstr ""
+msgstr "Certifikatets SHA1-fingeravtryck"
 
 #: authentik/crypto/models.py
 msgid "Key ID generated from private key"
@@ -882,11 +884,11 @@ msgstr ""
 
 #: authentik/endpoints/connectors/agent/api/connectors.py
 msgid "Token is expired"
-msgstr ""
+msgstr "Token har gått ut"
 
 #: authentik/endpoints/connectors/agent/api/connectors.py
 msgid "Invalid token for connector"
-msgstr ""
+msgstr "Ogiltig token för anslutningen"
 
 #: authentik/endpoints/connectors/agent/models.py
 msgid "Agent Connector"
@@ -924,19 +926,19 @@ msgstr ""
 
 #: authentik/endpoints/connectors/agent/models.py
 msgid "Enrollment Token"
-msgstr ""
+msgstr "Registreringstoken"
 
 #: authentik/endpoints/connectors/agent/models.py
 msgid "Enrollment Tokens"
-msgstr ""
+msgstr "Registreringstoken"
 
 #: authentik/endpoints/connectors/agent/models.py
 msgid "Device authentication token"
-msgstr ""
+msgstr "Enhetsautentiseringstoken"
 
 #: authentik/endpoints/connectors/agent/models.py
 msgid "Device authentication tokens"
-msgstr ""
+msgstr "Enhetsautentiseringstoken"
 
 #: authentik/endpoints/connectors/agent/models.py
 msgid "Apple Nonce"
