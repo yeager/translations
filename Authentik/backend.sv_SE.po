@@ -4702,7 +4702,7 @@ msgstr ""
 
 #: authentik/stages/authenticator_sms/models.py
 msgid "Optionally modify the payload being sent to custom providers."
-msgstr ""
+msgstr "Ändra vid behov lasten som skickas till anpassade leverantörer."
 
 #: authentik/stages/authenticator_sms/models.py
 #, python-brace-format
@@ -4751,7 +4751,7 @@ msgstr "Statisk token"
 
 #: authentik/stages/authenticator_static/models.py
 msgid "Static Tokens"
-msgstr "Statiska Tokens"
+msgstr "Statiska token"
 
 #: authentik/stages/authenticator_totp/models.py
 msgid "6 digits, widely compatible"
@@ -4926,6 +4926,10 @@ msgid ""
 "will continue, but the data from the captcha will be available in the "
 "context for policy decisions"
 msgstr ""
+"När alternativet är aktiverat och mottagen captcha-poäng ligger utanför det "
+"angivna tröskelvärdet visar steget ett felmeddelande. När alternativet inte "
+"är aktiverat fortsätter flödet, men data från captchan finns tillgängliga i "
+"kontexten för policybeslut."
 
 #: authentik/stages/captcha/models.py
 msgid "Captcha Stage"
@@ -4951,6 +4955,8 @@ msgstr "Det gick inte att validera token"
 msgid ""
 "Offset after which consent expires. (Format: hours=1;minutes=2;seconds=3)."
 msgstr ""
+"Tidsförskjutning efter vilken samtycket upphör att gälla (format: "
+"hours=1;minutes=2;seconds=3)."
 
 #: authentik/stages/consent/models.py
 msgid "Consent Stage"
@@ -4962,11 +4968,11 @@ msgstr "Samtyckesfaser"
 
 #: authentik/stages/consent/models.py
 msgid "User Consent"
-msgstr ""
+msgstr "Användarsamtycke"
 
 #: authentik/stages/consent/models.py
 msgid "User Consents"
-msgstr ""
+msgstr "Användarsamtycken"
 
 #: authentik/stages/consent/stage.py
 msgid "Invalid consent token, re-showing prompt"
@@ -4974,19 +4980,19 @@ msgstr "Ogiltig samtyckestoken, frågan visas igen"
 
 #: authentik/stages/deny/models.py
 msgid "Deny Stage"
-msgstr ""
+msgstr "Nekandesteg"
 
 #: authentik/stages/deny/models.py
 msgid "Deny Stages"
-msgstr ""
+msgstr "Nekandesteg"
 
 #: authentik/stages/dummy/models.py
 msgid "Dummy Stage"
-msgstr ""
+msgstr "Dummy-steg"
 
 #: authentik/stages/dummy/models.py
 msgid "Dummy Stages"
-msgstr ""
+msgstr "Dummy-steg"
 
 #: authentik/stages/email/flow.py
 msgid "Continue to confirm this email address."
@@ -5076,6 +5082,8 @@ msgid ""
 "We're excited to have you get started. First, you need to confirm your "
 "account. Just press the button below."
 msgstr ""
+"Vi är glada att du vill komma i gång. Först behöver du bekräfta ditt konto. "
+"Klicka bara på knappen nedan."
 
 #: authentik/stages/email/templates/email/account_confirmation.html
 msgid "Confirm Account"
@@ -5095,6 +5103,8 @@ msgid ""
 "We're excited to have you get started. First, you need to confirm your "
 "account. Just open the link below."
 msgstr ""
+"Vi är glada att du vill komma i gång. Först behöver du bekräfta ditt konto. "
+"Öppna bara länken nedan."
 
 #: authentik/stages/email/templates/email/event_notification.html
 #, python-format
@@ -5163,24 +5173,26 @@ msgstr ""
 
 #: authentik/stages/email/templates/email/invitation.txt
 msgid "You're Invited!"
-msgstr "Du är inbjuden!"
+msgstr "Du har blivit inbjuden!"
 
 #: authentik/stages/email/templates/email/invitation.txt
 #, python-format
 msgid ""
 "You have been invited to join %(host)s. Use the link below to get started."
-msgstr ""
+msgstr "Du har bjudits in till %(host)s. Använd länken nedan för att komma i gång."
 
 #: authentik/stages/email/templates/email/invitation.txt
 #, python-format
 msgid "This invitation expires %(expires)s."
-msgstr ""
+msgstr "Denna inbjudan upphör att gälla %(expires)s."
 
 #: authentik/stages/email/templates/email/invitation.txt
 msgid ""
 "If you cannot click the link above, please copy and paste the following URL "
 "into your browser:"
 msgstr ""
+"Om du inte kan klicka på länken ovan kopierar och klistrar du in följande URL "
+"i webbläsaren:"
 
 #: authentik/stages/email/templates/email/password_reset.html
 msgid ""
@@ -5216,7 +5228,7 @@ msgstr ""
 
 #: authentik/stages/email/templates/email/setup.html
 msgid "authentik Test-Email"
-msgstr ""
+msgstr "Testmeddelande från authentik"
 
 #: authentik/stages/email/templates/email/setup.html
 msgid ""
@@ -5235,17 +5247,19 @@ msgstr ""
 
 #: authentik/stages/identification/api.py
 msgid "When no user fields are selected, at least one source must be selected"
-msgstr ""
+msgstr "När inga användarfält är valda måste minst en källa väljas"
 
 #: authentik/stages/identification/models.py
 msgid ""
 "Fields of the user object to match against. (Hold shift to select multiple "
 "options)"
 msgstr ""
+"Fält i användarobjektet att matcha mot. Håll ned Skift för att välja flera "
+"alternativ."
 
 #: authentik/stages/identification/models.py
 msgid "When enabled, user fields are matched regardless of their casing."
-msgstr ""
+msgstr "När alternativet är aktiverat matchas användarfält oavsett skiftläge."
 
 #: authentik/stages/identification/models.py
 msgid ""
@@ -5253,18 +5267,25 @@ msgid ""
 "the user's username and avatar will be shown. Otherwise, the text that the "
 "user entered will be shown"
 msgstr ""
+"När ett giltigt användarnamn eller en giltig e-postadress har angetts och "
+"alternativet är aktiverat visas användarens namn och avatar. Annars visas "
+"texten som användaren angav."
 
 #: authentik/stages/identification/models.py
 msgid ""
 "When enabled, the stage will succeed and continue even when incorrect user "
 "info is entered."
 msgstr ""
+"När alternativet är aktiverat lyckas steget och fortsätter även om felaktiga "
+"användaruppgifter anges."
 
 #: authentik/stages/identification/models.py
 msgid ""
 "Show the user the 'Remember me on this device' toggle, allowing repeat users "
 "to skip straight to entering their password."
 msgstr ""
+"Visa användaren växlingsknappen ”Kom ihåg mig på den här enheten”, så att "
+"återkommande användare kan gå direkt till att ange lösenordet."
 
 #: authentik/stages/identification/models.py
 msgid "Optional enrollment flow, which is linked at the bottom of the page."
@@ -5292,11 +5313,11 @@ msgstr "Identifieringsfaser"
 
 #: authentik/stages/identification/models.py
 msgid "Identification Stage Source"
-msgstr ""
+msgstr "Källa för identifieringssteg"
 
 #: authentik/stages/identification/models.py
 msgid "Identification Stage Sources"
-msgstr ""
+msgstr "Källor för identifieringssteg"
 
 #: authentik/stages/identification/stage.py
 msgid "No identification data provided."
@@ -5316,6 +5337,8 @@ msgid ""
 "Invitation is given. By default this Stage will cancel the Flow when no "
 "invitation is given."
 msgstr ""
+"Om denna flagga är angiven går steget vidare till nästa steg när ingen "
+"inbjudan anges. Som standard avbryter steget flödet när ingen inbjudan anges."
 
 #: authentik/stages/invitation/models.py
 msgid "Invitation Stage"
@@ -5370,12 +5393,16 @@ msgid ""
 "How many attempts a user has before the flow is canceled. To lock the user "
 "out, use a reputation policy and a user_write stage."
 msgstr ""
+"Hur många försök en användare får innan flödet avbryts. Använd en "
+"anseendepolicy och ett user_write-steg för att låsa användaren."
 
 #: authentik/stages/password/models.py
 msgid ""
 "When enabled, provides a 'show password' button with the password input "
 "field."
 msgstr ""
+"När alternativet är aktiverat visas en knapp för att visa lösenordet vid "
+"lösenordsfältet."
 
 #: authentik/stages/password/models.py
 msgid "Password Stage"
