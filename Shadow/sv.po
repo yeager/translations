@@ -2999,7 +2999,7 @@ msgstr "%s: Varning: %s är inte en körbar fil\n"
 #: src/useradd.c:1406 src/userdel.c:927 src/usermod.c:1258
 #, c-format
 msgid "%s: -Z cannot be used with --prefix\n"
-msgstr ""
+msgstr "%s: -Z kan inte användas med --prefix\n"
 
 #: src/useradd.c:1413 src/userdel.c:934 src/usermod.c:1266
 #, c-format
@@ -3074,7 +3074,7 @@ msgstr "%s: kan inte skapa katalog %s\n"
 #: src/useradd.c:2235
 #, c-format
 msgid "%s: error while duplicating string in BTRFS check %s\n"
-msgstr ""
+msgstr "%s: fel vid duplicering av sträng i BTRFS-kontroll %s\n"
 
 #: src/useradd.c:2245
 #, c-format
@@ -3095,12 +3095,12 @@ msgstr "%s: kan inte skapa katalog %s\n"
 
 #: src/useradd.c:2265 src/useradd.c:2267 src/useradd.c:2275
 msgid "warning"
-msgstr ""
+msgstr "varning"
 
 #: src/useradd.c:2286 src/useradd.c:2375
 #, c-format
 msgid "%s: cannot reset SELinux file creation context\n"
-msgstr ""
+msgstr "%s: kan inte återställa SELinux-filskapandekontext\n"
 
 #: src/useradd.c:2333
 #, fuzzy, c-format
@@ -3135,7 +3135,7 @@ msgstr "Skapar postlådefil"
 #: src/useradd.c:2390
 #, c-format
 msgid "%s warning: %s's uid %d is greater than SYS_UID_MAX %d\n"
-msgstr ""
+msgstr "%s varning: %s:s uid %d är större än SYS_UID_MAX %d\n"
 
 #: src/useradd.c:2397
 #, c-format
@@ -3189,7 +3189,7 @@ msgstr "%s: kan inte skapa grupp\n"
 #: src/useradd.c:2646 src/usermod.c:2252
 #, c-format
 msgid "%s: warning: the user name %s to %s SELinux user mapping failed.\n"
-msgstr ""
+msgstr "%s: varning: mappning från användarnamnet %s till SELinux-användaren %s misslyckades.\n"
 
 #: src/useradd.c:2666
 #, fuzzy, c-format
@@ -3232,7 +3232,7 @@ msgstr "%s: kan inte ta bort primära gruppen för användaren \"%s\"\n"
 #: src/userdel.c:314
 #, c-format
 msgid "%s: group %s not removed because it has other members.\n"
-msgstr ""
+msgstr "%s: gruppen %s togs inte bort eftersom den har andra medlemmar.\n"
 
 #: src/userdel.c:330
 #, c-format
@@ -3264,7 +3264,7 @@ msgstr "%s: %s ägs inte av %s, tar inte bort\n"
 #: src/userdel.c:832
 #, c-format
 msgid "%s: Can't allocate memory, tcb entry for %s not removed.\n"
-msgstr ""
+msgstr "%s: Kan inte allokera minne, tcb-post för %s togs inte bort.\n"
 
 #: src/userdel.c:837
 #, fuzzy, c-format
@@ -3305,7 +3305,7 @@ msgstr "%s: fel vid borttagning av katalogen %s\n"
 #: src/userdel.c:1119 src/usermod.c:2264
 #, c-format
 msgid "%s: warning: the user name %s to SELinux user mapping removal failed.\n"
-msgstr ""
+msgstr "%s: varning: borttagning av mappningen från användarnamnet %s till SELinux-användare misslyckades.\n"
 
 #: src/usermod.c:424
 msgid ""
@@ -3404,19 +3404,19 @@ msgstr "  -U, --unlock                  lås upp användarkontot\n"
 
 #: src/usermod.c:451
 msgid "  -v, --add-subuids FIRST-LAST  add range of subordinate uids\n"
-msgstr ""
+msgstr "  -v, --add-subuids FIRST-LAST  lägg till intervall med underordnade uid\n"
 
 #: src/usermod.c:452
 msgid "  -V, --del-subuids FIRST-LAST  remove range of subordinate uids\n"
-msgstr ""
+msgstr "  -V, --del-subuids FIRST-LAST  ta bort intervall med underordnade uid\n"
 
 #: src/usermod.c:453
 msgid "  -w, --add-subgids FIRST-LAST  add range of subordinate gids\n"
-msgstr ""
+msgstr "  -w, --add-subgids FIRST-LAST  lägg till intervall med underordnade gid\n"
 
 #: src/usermod.c:454
 msgid "  -W, --del-subgids FIRST-LAST  remove range of subordinate gids\n"
-msgstr ""
+msgstr "  -W, --del-subgids FIRST-LAST  ta bort intervall med underordnade gid\n"
 
 #: src/usermod.c:455
 #, fuzzy
@@ -3459,7 +3459,7 @@ msgstr "%s: användaren \"%s\" finns redan i %s\n"
 #: src/usermod.c:1097
 #, c-format
 msgid "%s: homedir must be an absolute path\n"
-msgstr ""
+msgstr "%s: hemkatalogen måste vara en absolut sökväg\n"
 
 #: src/usermod.c:1218 src/usermod.c:1226
 #, fuzzy, c-format
@@ -3479,7 +3479,7 @@ msgstr "%s: kan inte öppna %s\n"
 #: src/usermod.c:1354
 #, c-format
 msgid "%s: %s and %s are mutually exclusive flags\n"
-msgstr ""
+msgstr "%s: %s och %s är ömsesidigt uteslutande flaggor\n"
 
 #: src/usermod.c:1360
 #, c-format
@@ -3523,7 +3523,7 @@ msgstr "%s: Misslyckades med att ändra ägarskap för hemkatalogen"
 #: src/usermod.c:1817
 #, c-format
 msgid "%s: error: cannot move subvolume from %s to %s - different device\n"
-msgstr ""
+msgstr "%s: fel: kan inte flytta undervolym från %s till %s — olika enheter\n"
 
 #: src/usermod.c:1829
 #, c-format
@@ -3662,7 +3662,7 @@ msgstr "%s: %s är oförändrad\n"
 
 #: src/vipw.c:214
 msgid "failed to create scratch directory"
-msgstr ""
+msgstr "kunde inte skapa arbetskatalog"
 
 #: src/vipw.c:217 src/vipw.c:262 src/vipw.c:421
 msgid "failed to drop privileges"
@@ -3670,7 +3670,7 @@ msgstr "misslyckades med att släppa privilegier"
 
 #: src/vipw.c:242
 msgid "Couldn't get file context"
-msgstr ""
+msgstr "Kunde inte hämta filkontext"
 
 #: src/vipw.c:247 src/vipw.c:400
 msgid "setfscreatecon () failed"
@@ -3691,15 +3691,15 @@ msgstr "Kunde inte göra en säkerhetskopia"
 #: src/vipw.c:385
 #, c-format
 msgid "%s: %s killed by signal %d\n"
-msgstr ""
+msgstr "%s: %s dödades av signal %d\n"
 
 #: src/vipw.c:415
 msgid "failed to open scratch file"
-msgstr ""
+msgstr "kunde inte öppna arbetsfil"
 
 #: src/vipw.c:418
 msgid "failed to unlink scratch file"
-msgstr ""
+msgstr "kunde inte avlänka arbetsfil"
 
 #: src/vipw.c:424
 msgid "failed to stat edited file"
