@@ -1662,16 +1662,13 @@ msgid "%s: group '%s' does not exist\n"
 msgstr "%s: gruppen \"%s\" finns inte\n"
 
 #: src/groupmod.c:125
-#, fuzzy
 msgid ""
 "  -a, --append                  append the users mentioned by -U option to "
 "the group \n"
 "                                without removing existing user members\n"
 msgstr ""
-"  -a, --append                  lägg till användaren till ytterligare "
-"GRUPPER\n"
-"                                som nämns av flaggan -G utan att ta bort\n"
-"                                honom/henne från andra grupper\n"
+"  -a, --append                  lägg till användarna som nämns med -U i gruppen\n"
+"                                utan att ta bort befintliga användarmedlemmar\n"
 
 #: src/groupmod.c:127
 msgid "  -g, --gid GID                 change the group ID to GID\n"
@@ -1682,12 +1679,10 @@ msgid "  -n, --new-name NEW_GROUP      change the name to NEW_GROUP\n"
 msgstr "  -n, --new-name NY_GRUPP       ändra namnet till NY_GRUPP\n"
 
 #: src/groupmod.c:130
-#, fuzzy
 msgid ""
 "  -o, --non-unique              allow using a duplicate (non-unique) GID\n"
 msgstr ""
-"  -o, --non-unique              tillåt användning av dubbletta (icke-unika) "
-"UID\n"
+"  -o, --non-unique              tillåt användning av ett duplicerat (icke-unikt) GID\n"
 
 #: src/groupmod.c:131
 msgid ""
@@ -1698,11 +1693,10 @@ msgstr ""
 "                                LÖSENORD\n"
 
 #: src/groupmod.c:135
-#, fuzzy
 msgid ""
 "  -U, --users USERS             comma-separated list of users to add as\n"
 "                                members of this group\n"
-msgstr "  -l, --list                    lista medlemmarna av gruppen\n"
+msgstr "  -U, --users USERS             kommaseparerad lista över användare som ska läggas till som\n                                medlemmar i denna grupp\n"
 
 #: src/groupmod.c:381 src/newusers.c:288
 #, c-format
@@ -1851,20 +1845,18 @@ msgstr ""
 "                                DAGAR\n"
 
 #: src/lastlog.c:76
-#, fuzzy
 msgid ""
 "  -C, --clear                   clear lastlog record of a user (usable only "
 "with -u)\n"
 msgstr ""
-"  -a, --all                     visa faillog-poster för alla användare\n"
+"  -C, --clear                   rensa en användares lastlog-post (kan endast användas med -u)\n"
 
 #: src/lastlog.c:79
-#, fuzzy
 msgid ""
 "  -S, --set                     set lastlog record to current time (usable "
 "only with -u)\n"
 msgstr ""
-"  -a, --all                     visa faillog-poster för alla användare\n"
+"  -S, --set                     sätt lastlog-posten till aktuell tid (kan endast användas med -u)\n"
 
 #: src/lastlog.c:80
 msgid ""
@@ -1883,17 +1875,16 @@ msgstr ""
 "                                angiven med LOGIN\n"
 
 #: src/lastlog.c:82
-#, fuzzy
 msgid ""
 "  -a, --active                  print lastlog excluding '**Never logged "
 "in**' users"
 msgstr ""
-"  -a, --all                     visa faillog-poster för alla användare\n"
+"  -a, --active                  skriv ut lastlog utan användare som ”**Aldrig inloggad**”"
 
 #: src/lastlog.c:150
-#, fuzzy, c-format
+#, c-format
 msgid "Username         Port     From%*sLatest\n"
-msgstr "Användarnamn        Port     Senast"
+msgstr "Användarnamn        Port     Från%*sSenaste\n"
 
 #: src/lastlog.c:152
 msgid "Username                Port     Latest"
@@ -2131,9 +2122,8 @@ msgid ""
 msgstr "användning: %s [<pid>|fd:<pidfd>] <uid> <lägreuid> <antal> [ <uid> <lägreuid> <antal> ] ... \n"
 
 #: src/newusers.c:131 src/pwck.c:141 src/usermod.c:427
-#, fuzzy
 msgid "  -b, --badname                 allow bad names\n"
-msgstr "  -q, --quiet                   tyst läge\n"
+msgstr "  -b, --badname                 tillåt felaktiga namn\n"
 
 #: src/newusers.c:145
 msgid "  -r, --system                  create system accounts\n"
@@ -2150,9 +2140,9 @@ msgid "%s: invalid user ID '%s'\n"
 msgstr "%s: ogiltigt användar-id \"%s\"\n"
 
 #: src/newusers.c:380 src/useradd.c:1495 src/usermod.c:1148
-#, fuzzy, c-format
+#, c-format
 msgid "%s: invalid user name '%s': use --badname to ignore\n"
-msgstr "%s: ogiltigt användarnamn \"%s\"\n"
+msgstr "%s: ogiltigt användarnamn ”%s”: använd --badname för att ignorera\n"
 
 #: src/newusers.c:383 src/useradd.c:1498 src/usermod.c:1151
 #, c-format
@@ -2165,9 +2155,9 @@ msgid "%s: Provide '--crypt-method' before number of rounds\n"
 msgstr "%s: Ange ”--crypt-method” före antal omgångar\n"
 
 #: src/newusers.c:991
-#, fuzzy, c-format
+#, c-format
 msgid "%s: line %jd: invalid line\n"
-msgstr "%s: rad %d: ogiltig rad\n"
+msgstr "%s: rad %jd: ogiltig rad\n"
 
 #: src/newusers.c:1001
 #, c-format
