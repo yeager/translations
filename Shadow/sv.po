@@ -1911,9 +1911,9 @@ msgid ""
 msgstr "%s: Valda uid är högre än LASTLOG_UID_MAX (%lu),\n\tutmatningen kan vara felaktig.\n"
 
 #: src/lastlog.c:249
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Failed to update the entry for UID %lu\n"
-msgstr "%s: Misslyckades med att få posten för UID %lu\n"
+msgstr "%s: Misslyckades med att uppdatera posten för UID %lu\n"
 
 #: src/lastlog.c:266
 #, c-format
@@ -1923,9 +1923,9 @@ msgid ""
 msgstr "%s: Valda uid är högre än LASTLOG_UID_MAX (%lu),\n\tde uppdateras inte.\n"
 
 #: src/lastlog.c:286
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Failed to update the lastlog file\n"
-msgstr "%s: Misslyckades med att få posten för UID %lu\n"
+msgstr "%s: Misslyckades med att uppdatera lastlog-filen\n"
 
 #: src/lastlog.c:412
 #, c-format
@@ -2014,14 +2014,14 @@ msgid "Login incorrect"
 msgstr "Inloggning misslyckad"
 
 #: src/login.c:777
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot find user (%s)\n"
-msgstr "%s: Kan inte grena användarskal\n"
+msgstr "Kan inte hitta användaren (%s)\n"
 
 #: src/login.c:1090 src/newgrp.c:297
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failure forking"
-msgstr "%s: fel vid processdelning: %s"
+msgstr "%s: fel vid processdelning"
 
 #: src/login.c:1111
 #, c-format
@@ -2060,29 +2060,29 @@ msgid "%s: kernel doesn't support setgroups restrictions\n"
 msgstr "%s: kärnan stöder inte setgroups-begränsningar\n"
 
 #: src/newgidmap.c:106
-#, fuzzy, c-format
+#, c-format
 msgid "%s: couldn't open process setgroups"
-msgstr "%s: misslyckades med att hitta tcb-katalog för %s\n"
+msgstr "%s: kunde inte öppna processens setgroups"
 
 #: src/newgidmap.c:116
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to read setgroups"
-msgstr "%s: misslyckades med att ta bort %s\n"
+msgstr "%s: misslyckades med att läsa setgroups"
 
 #: src/newgidmap.c:124
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to seek setgroups"
-msgstr "%s: misslyckades med att ta bort %s\n"
+msgstr "%s: misslyckades med att söka i setgroups"
 
 #: src/newgidmap.c:128
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to setgroups %s policy"
-msgstr "%s: misslyckades med att låsa upp %s\n"
+msgstr "%s: misslyckades med att ange setgroups-principen %s"
 
 #: src/newgidmap.c:186 src/newuidmap.c:124
-#, fuzzy, c-format
+#, c-format
 msgid "%s: Could not stat directory for target process"
-msgstr "%s: Misslyckades med att skapa tcb-katalog för %s\n"
+msgstr "%s: Kunde inte köra stat på katalogen för målprocessen"
 
 #: src/newgidmap.c:198 src/newuidmap.c:136
 #, c-format
@@ -2096,23 +2096,22 @@ msgid "Usage: newgrp [-] [group]\n"
 msgstr "Användning: newgrp [-] [grupp]\n"
 
 #: src/newgrp.c:76
-#, fuzzy
 msgid "Usage: sg [-] group [[-c] command]\n"
-msgstr "Användning: sg grupp [[-c] kommando]\n"
+msgstr "Användning: sg [-] grupp [[-c] kommando]\n"
 
 #: src/newgrp.c:191 src/passwd.c:210
-#, fuzzy, c-format
+#, c-format
 msgid "%s: failed to crypt password with previous salt"
-msgstr "%s: misslyckades med att ta bort %s\n"
+msgstr "%s: misslyckades med att kryptera lösenord med föregående salt"
 
 #: src/newgrp.c:211
 msgid "Invalid password.\n"
 msgstr "Ogiltigt lösenord.\n"
 
 #: src/newgrp.c:481 src/newgrp.c:516
-#, fuzzy, c-format
+#, c-format
 msgid "%s: provided group is not a valid group name\n"
-msgstr "%s: \"%s\" är inte ett giltigt gruppnamn\n"
+msgstr "%s: angiven grupp är inte ett giltigt gruppnamn\n"
 
 #: src/newgrp.c:531
 #, c-format
