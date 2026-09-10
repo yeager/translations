@@ -6634,6 +6634,7 @@ doesn&apos;t pass when either or both of the selected options are equal or above
 </trans-unit>
 <trans-unit id="s2d5f69929bb7221d">
   <source><x id="0" equiv-text="${p.name}"/> (&quot;<x id="1" equiv-text="${p.fieldKey}"/>&quot;, of type <x id="2" equiv-text="${p.type}"/>)</source>
+  <target><x id="0" equiv-text="${p.name}"/> (”<x id="1" equiv-text="${p.fieldKey}"/>”, av typen <x id="2" equiv-text="${p.type}"/>)</target>
 </trans-unit>
 <trans-unit id="s36cb242ac90353bc">
   <source>Fields</source>
@@ -6798,6 +6799,7 @@ doesn&apos;t pass when either or both of the selected options are equal or above
 <trans-unit id="s927398c400970760">
   <source>Write any data from the flow&apos;s context&apos;s &apos;prompt_data&apos; to the currently pending user. If no user
         is pending, a new user is created, and data is written to them.</source>
+  <target>Skriv data från flödets kontext ”prompt_data” till den användare som väntar. Om ingen användare väntar skapas en ny användare och data skrivs till den.</target>
 </trans-unit>
 <trans-unit id="sb379d861cbed0b47">
   <source>Never create users</source>
@@ -7375,9 +7377,11 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="s1da3499258024860">
   <source><x id="0" equiv-text="${versionString}"/> (build <x id="1" equiv-text="${item.buildHash.substring(0, 8)}"/>)</source>
+  <target><x id="0" equiv-text="${versionString}"/> (bygge <x id="1" equiv-text="${item.buildHash.substring(0, 8)}"/>)</target>
 </trans-unit>
 <trans-unit id="s001fd928369d4ddc">
   <source><x id="0" equiv-text="${versionString}"/> (FIPS)</source>
+  <target><x id="0" equiv-text="${versionString}"/> (FIPS)</target>
 </trans-unit>
 <trans-unit id="saa8939ac88a76f98">
   <source>Last seen</source>
@@ -7385,6 +7389,7 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="s1ac2653a6492b435">
   <source><x id="0" equiv-text="${outdatedOutposts[0].version}"/>, should be <x id="1" equiv-text="${outdatedOutposts[0].versionShould}"/></source>
+  <target><x id="0" equiv-text="${outdatedOutposts[0].version}"/>, bör vara <x id="1" equiv-text="${outdatedOutposts[0].versionShould}"/></target>
 </trans-unit>
 <trans-unit id="s322e34cfcba47155">
   <source>Not available</source>
@@ -7392,6 +7397,7 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="s354405ae02cb262d">
   <source>Last seen: <x id="0" equiv-text="${formatElapsedTime(lastSeen)}"/> (<x id="1" equiv-text="${lastSeen.toLocaleTimeString()}"/>)</source>
+  <target>Senast sedd: <x id="0" equiv-text="${formatElapsedTime(lastSeen)}"/> (<x id="1" equiv-text="${lastSeen.toLocaleTimeString()}"/>)</target>
 </trans-unit>
 <trans-unit id="s5e169e1bac20b4a6">
   <source>Outposts</source>
@@ -7441,6 +7447,7 @@ Bindings to groups/users are checked against the user of the event.</source>
   <source>Can be in the format of <x id="0" equiv-text="&lt;code&gt;"/>unix://<x id="1" equiv-text="&lt;/code&gt;"/> when connecting to a local
                             docker daemon, using <x id="2" equiv-text="&lt;code&gt;"/>ssh://<x id="3" equiv-text="&lt;/code&gt;"/> to connect via SSH, or
                             <x id="4" equiv-text="&lt;code&gt;"/>https://:2376<x id="5" equiv-text="&lt;/code&gt;"/> when connecting to a remote system.</source>
+  <target>Kan ha formatet <x id="0" equiv-text="&lt;code&gt;"/>unix://<x id="1" equiv-text="&lt;/code&gt;"/> vid anslutning till en lokal Docker-demon, <x id="2" equiv-text="&lt;code&gt;"/>ssh://<x id="3" equiv-text="&lt;/code&gt;"/> vid anslutning via SSH eller <x id="4" equiv-text="&lt;code&gt;"/>https://:2376<x id="5" equiv-text="&lt;/code&gt;"/> vid anslutning till ett fjärrsystem.</target>
 </trans-unit>
 <trans-unit id="saf1d289e3137c2ea">
   <source>CA which the endpoint&apos;s Certificate is verified against. Can be left empty for no validation.</source>
@@ -7509,9 +7516,11 @@ Bindings to groups/users are checked against the user of the event.</source>
 <trans-unit id="sa03cbf19feebd249">
   <source>RSA</source>
   <target>RSA</target>
+  <target>RSA</target>
 </trans-unit>
 <trans-unit id="sfbfccbd3e395c147">
   <source>ECDSA</source>
+  <target>ECDSA</target>
   <target>ECDSA</target>
 </trans-unit>
 <trans-unit id="sebea299e52db4242">
@@ -7635,6 +7644,7 @@ Bindings to groups/users are checked against the user of the event.</source>
                                     <x id="0" equiv-text="&lt;code&gt;"/>attributes.something.avatar<x id="1" equiv-text="&lt;/code&gt;"/>, which can be used in
                                     combination with the file field to allow users to upload custom
                                     avatars for themselves.</source>
+  <target>En attributsökväg som <x id="0" equiv-text="&lt;code&gt;"/>attributes.something.avatar<x id="1" equiv-text="&lt;/code&gt;"/> kan användas tillsammans med filfältet för att låta användare ladda upp egna profilbilder.</target>
 </trans-unit>
 <trans-unit id="s4c80c34a67a6f1c9">
   <source>Multiple values can be set, comma-separated, and authentik will fallback to the next mode when no avatar could be found.</source>
@@ -7644,6 +7654,7 @@ Bindings to groups/users are checked against the user of the event.</source>
   <source>For example, setting this to <x id="0" equiv-text="&lt;code&gt;"/>gravatar,initials<x id="1" equiv-text="&lt;/code&gt;"/> will
                                 attempt to get an avatar from Gravatar, and if the user has not
                                 configured on there, it will fallback to a generated avatar.</source>
+  <target>Om detta till exempel anges som <x id="0" equiv-text="&lt;code&gt;"/>gravatar,initials<x id="1" equiv-text="&lt;/code&gt;"/> försöker authentik hämta en profilbild från Gravatar och använder annars en genererad profilbild.</target>
 </trans-unit>
 <trans-unit id="s5faec5eb5faf62ac">
   <source>Allow users to change name</source>
@@ -7680,6 +7691,7 @@ Bindings to groups/users are checked against the user of the event.</source>
 <trans-unit id="h3ac79dc5cc553329">
   <source>When using an external logging solution for archiving, this can be
                                 set to <x id="0" equiv-text="&lt;code&gt;"/>minutes=5<x id="1" equiv-text="&lt;/code&gt;"/>.</source>
+  <target>Vid användning av en extern loggningslösning för arkivering kan detta anges som <x id="0" equiv-text="&lt;code&gt;"/>minutes=5<x id="1" equiv-text="&lt;/code&gt;"/>.</target>
 </trans-unit>
 <trans-unit id="s44536d20bb5c8257">
   <source>This setting only affects new Events, as the expiration is saved per-event.</source>
@@ -7707,6 +7719,7 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="s92205c10ba1f0f4c">
   <source>This option configures the footer links on the flow executor pages. The URL is limited to web and mail addresses. If the name is left blank, the URL will be shown.</source>
+  <target>Alternativet konfigurerar sidfotslänkar på flödeskörningssidorna. URL:en är begränsad till webb- och e-postadresser. Om namnet lämnas tomt visas URL:en.</target>
 </trans-unit>
 <trans-unit id="s166b59f3cc5d8ec3">
   <source>GDPR compliance</source>
@@ -7787,6 +7800,7 @@ Bindings to groups/users are checked against the user of the event.</source>
 <trans-unit id="h3b1f38bb34f8b1b6">
   <source> A valid OCI manifest URL, prefixed with the protocol
                                               e.g. <x id="0" equiv-text="&lt;code&gt;"/>oci://registry.domain.tld/path/to/manifest<x id="1" equiv-text="&lt;/code&gt;"/></source>
+  <target>En giltig URL för OCI-manifest med protokollprefix, till exempel <x id="0" equiv-text="&lt;code&gt;"/>oci://registry.domain.tld/path/to/manifest<x id="1" equiv-text="&lt;/code&gt;"/></target>
 </trans-unit>
 <trans-unit id="sc19e397bee1e67f7">
   <source>Read more about</source>
@@ -8734,6 +8748,7 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="ellipsis">
   <source>...</source>
+  <target>…</target>
   <note from="lit-localize">Truncation ellipsis</note>
 </trans-unit>
 <trans-unit id="s6cd96061d397f7b5">
@@ -10014,6 +10029,7 @@ Bindings to groups/users are checked against the user of the event.</source>
   <source>If checked, approving a review will require at least that many users from
                         <x id="0" equiv-text="&lt;em&gt;"/>each<x id="1" equiv-text="&lt;/em&gt;"/> of the selected groups. When disabled, the value is a total
                         across all groups.</source>
+  <target>När alternativet är markerat kräver godkännande av en granskning minst så många användare från <x id="0" equiv-text="&lt;em&gt;"/>var och en<x id="1" equiv-text="&lt;/em&gt;"/> av de valda grupperna. När det är inaktiverat är värdet en totalsumma för alla grupper.</target>
 </trans-unit>
 <trans-unit id="s776d93092ad9ce90">
   <source>Review initiated</source>
@@ -13003,6 +13019,7 @@ Bindings to groups/users are checked against the user of the event.</source>
   <source>When enabled, fulfilling the request requires at least that many reviewers
                         from <x id="0" equiv-text="&lt;em&gt;"/>each<x id="1" equiv-text="&lt;/em&gt;"/> of the reviewer groups bound to this rule. When disabled,
                         the value is a total across all reviewer groups.</source>
+  <target>När alternativet är aktiverat kräver uppfyllandet av begäran minst så många granskare från <x id="0" equiv-text="&lt;em&gt;"/>var och en<x id="1" equiv-text="&lt;/em&gt;"/> av granskargrupperna som är bundna till denna regel. När det är inaktiverat är värdet en totalsumma för alla granskargrupper.</target>
 </trans-unit>
 <trans-unit id="s2359768b2b1758f1">
   <source>Unknown Grant type</source>
