@@ -852,11 +852,11 @@ msgstr ""
 #: src/pwconv.c:119 src/pwunconv.c:79 src/useradd.c:932 src/userdel.c:151
 #: src/usermod.c:446 src/vipw.c:95
 msgid "  -R, --root CHROOT_DIR         directory to chroot into\n"
-msgstr ""
+msgstr "  -R, --root CHROOT_DIR         katalog att chroota till\n"
 
 #: src/chage.c:147 src/chpasswd.c:131 src/groupadd.c:122 src/passwd.c:167
 msgid "  -P, --prefix PREFIX_DIR       directory prefix\n"
-msgstr ""
+msgstr "  -P, --prefix PREFIX_DIR       katalogprefix\n"
 
 #: src/chage.c:148
 msgid ""
@@ -895,7 +895,7 @@ msgstr "aldrig"
 
 #: src/chage.c:233 src/chage.c:238 src/chage.c:243
 msgid "future"
-msgstr ""
+msgstr "framtid"
 
 #: src/chage.c:264
 msgid "Last password change\t\t\t\t\t: "
@@ -1055,19 +1055,19 @@ msgstr ""
 
 #: src/chfn.c:112
 msgid "  -f, --full-name FULL_NAME     change user's full name\n"
-msgstr ""
+msgstr "  -f, --full-name FULL_NAME     ändra användarens fullständiga namn\n"
 
 #: src/chfn.c:113
 msgid "  -h, --home-phone HOME_PHONE   change user's home phone number\n"
-msgstr ""
+msgstr "  -h, --home-phone HOME_PHONE   ändra användarens hemtelefonnummer\n"
 
 #: src/chfn.c:114
 msgid "  -o, --other OTHER_INFO        change user's other GECOS information\n"
-msgstr ""
+msgstr "  -o, --other OTHER_INFO        ändra användarens andra GECOS-information\n"
 
 #: src/chfn.c:115
 msgid "  -r, --room ROOM_NUMBER        change user's room number\n"
-msgstr ""
+msgstr "  -r, --room ROOM_NUMBER        ändra användarens rumsnummer\n"
 
 #: src/chfn.c:117
 msgid "  -u, --help                    display this help message and exit\n"
@@ -1076,7 +1076,7 @@ msgstr ""
 
 #: src/chfn.c:118
 msgid "  -w, --work-phone WORK_PHONE   change user's office phone number\n"
-msgstr ""
+msgstr "  -w, --work-phone WORK_PHONE   ändra användarens arbetstelefonnummer\n"
 
 #: src/chfn.c:184 src/chfn.c:186
 msgid "Full Name"
@@ -1447,7 +1447,7 @@ msgstr "  -d, --delete ANVÄNDARE        ta bort ANVÄNDARE från GRUPP\n"
 
 #: src/gpasswd.c:135
 msgid "  -Q, --root CHROOT_DIR         directory to chroot into\n"
-msgstr ""
+msgstr "  -Q, --root CHROOT_DIR         katalog att chroota till\n"
 
 #: src/gpasswd.c:136
 msgid "  -r, --remove-password         remove the GROUP's password\n"
@@ -1748,7 +1748,7 @@ msgstr ""
 
 #: src/grpck.c:155 src/pwck.c:151
 msgid "  -s, --sort                    sort entries by UID\n"
-msgstr ""
+msgstr "  -s, --sort                    sortera poster efter UID\n"
 
 #: src/grpck.c:156
 msgid ""
@@ -1939,12 +1939,12 @@ msgstr "%s: Misslyckades med att få posten för UID %lu\n"
 #: src/lastlog.c:412
 #, c-format
 msgid "%s: Option -C cannot be used together with option -S\n"
-msgstr ""
+msgstr "%s: Alternativet -C kan inte användas tillsammans med alternativet -S\n"
 
 #: src/lastlog.c:417
 #, c-format
 msgid "%s: Options -C and -S require option -u to specify the user\n"
-msgstr ""
+msgstr "%s: Alternativen -C och -S kräver alternativet -u för att ange användaren\n"
 
 #: src/login.c:139
 #, c-format
@@ -2054,7 +2054,7 @@ msgstr " från %.*s"
 #: src/newgidmap.c:63
 #, c-format
 msgid "%s: gid range [%lu-%lu) -> [%lu-%lu) not allowed\n"
-msgstr ""
+msgstr "%s: gid-intervallet [%lu-%lu) -> [%lu-%lu) är inte tillåtet\n"
 
 #: src/newgidmap.c:76
 #, c-format
@@ -2066,7 +2066,7 @@ msgstr ""
 #: src/newgidmap.c:103
 #, c-format
 msgid "%s: kernel doesn't support setgroups restrictions\n"
-msgstr ""
+msgstr "%s: kärnan stöder inte setgroups-begränsningar\n"
 
 #: src/newgidmap.c:106
 #, fuzzy, c-format
@@ -2131,7 +2131,7 @@ msgstr "%s: GID \"%lu\" finns inte\n"
 #: src/newuidmap.c:58
 #, c-format
 msgid "%s: uid range [%lu-%lu) -> [%lu-%lu) not allowed\n"
-msgstr ""
+msgstr "%s: uid-intervallet [%lu-%lu) -> [%lu-%lu) är inte tillåtet\n"
 
 #: src/newuidmap.c:71
 #, c-format
@@ -2172,7 +2172,7 @@ msgstr "%s: ogiltigt användarnamn \"%s\"\n"
 #: src/newusers.c:652
 #, c-format
 msgid "%s: Provide '--crypt-method' before number of rounds\n"
-msgstr ""
+msgstr "%s: Ange ”--crypt-method” före antal omgångar\n"
 
 #: src/newusers.c:991
 #, fuzzy, c-format
@@ -2577,7 +2577,7 @@ msgstr " ...dödad.\n"
 #: src/su.c:298 src/su.c:342 src/su.c:397
 #, c-format
 msgid "%s: signal masking malfunction\n"
-msgstr ""
+msgstr "%s: fel i signalmaskering\n"
 
 #: src/su.c:309
 #, c-format
@@ -2642,7 +2642,7 @@ msgstr "  -s, --shell SKAL              inloggningsskal för det nya kontot\n"
 
 #: src/su.c:459
 msgid "If no username is given, assume root.\n"
-msgstr ""
+msgstr "Om inget användarnamn anges används root.\n"
 
 #: src/su.c:479
 #, c-format
@@ -2655,11 +2655,11 @@ msgstr ""
 
 #: src/su.c:517
 msgid "Password field is empty, this is forbidden for all accounts.\n"
-msgstr ""
+msgstr "Lösenordsfältet är tomt, vilket är förbjudet för alla konton.\n"
 
 #: src/su.c:521
 msgid "Password field is empty, this is forbidden for super-user.\n"
-msgstr ""
+msgstr "Lösenordsfältet är tomt, vilket är förbjudet för superanvändaren.\n"
 
 #: src/su.c:547 src/su.c:569
 #, c-format
