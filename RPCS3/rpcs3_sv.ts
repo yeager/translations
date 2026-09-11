@@ -421,7 +421,8 @@ Du bör inte inaktivera det om din CPU stöder FMA.</translation>
     <message>
         <source>Fixup NaN results in vector instructions in PPU backends.
 If unsure, do not modify this setting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Korrigerar NaN-resultat i vektorinstruktioner i PPU-bakändar.
+Ändra inte inställningen om du är osäker.</translation>
     </message>
     <message>
         <source>Stop writing any logs after game startup. Don&apos;t use unless you believe it&apos;s necessary.</source>
@@ -438,26 +439,30 @@ If unsure, do not modify this setting.</source>
     <message>
         <source>Obey RSX memory tiling configuration when writing GPU data to vm memory.
 This can fix graphics corruption observed when Read Color or Read Depth options are enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Följ RSX-konfigurationen för minnesindelning vid skrivning av GPU-data till VM-minnet.
+Detta kan rätta grafikfel som uppstår när alternativen Läs färg eller Läs djup är aktiverade.</translation>
     </message>
     <message>
         <source>Disables the loading and saving of shaders from and to the shader cache in the data directory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverar inläsning och sparande av shaderprogram från och till shadercachen i datakatalogen.</translation>
     </message>
     <message>
         <source>Allows the host GPU to synchronize with CELL directly. This incurs a performance penalty, but exposes the true state of GPU objects to the guest CPU. Can help eliminate visual noise and glitching at the cost of performance. Use with caution.</source>
-        <translation type="unfinished"></translation>
+        <translation>Låter värddatorns GPU synkronisera direkt med CELL. Detta försämrar prestandan men visar gäst-CPU:n GPU-objektens verkliga tillstånd. Kan minska visuellt brus och grafikfel på bekostnad av prestanda. Använd med försiktighet.</translation>
     </message>
     <message>
         <source>Forces MSAA to use the host GPU&apos;s resolve capabilities for all sampling operations.
 This option incurs a performance penalty as well as the risk of visual artifacts but can yield crisper visuals when MSAA is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tvingar MSAA att använda värddatorns GPU-funktioner för upplösning vid alla samplingsoperationer.
+Alternativet försämrar prestandan och kan ge visuella artefakter, men kan också ge skarpare bild när MSAA är aktiverat.</translation>
     </message>
     <message>
         <source>Disables the vertex cache.
 Might resolve missing or flickering graphics output.
 May degrade performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverar vertexcachen.
+Kan lösa problem med saknad eller fladdrande grafikutmatning.
+Kan försämra prestandan.</translation>
     </message>
     <message>
         <source>Force host memory management calls to be inlined instead of handled asynchronously.
