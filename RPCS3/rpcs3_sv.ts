@@ -558,32 +558,39 @@ Att inaktivera det kan rätta vissa artefakter, särskilt på Apple-GPU:er, på 
         <source>When this mode is on, emulation exits when saving and the savestate file is concealed after its load, preventing reuse by RPCS3.
 This mode is like hibernation of emulation: if you don&apos;t want to be able to cheat using savestates when playing the game, consider using this mode.
 Do note that the savestate file is not gone completely, just ignored by RPCS3. You can manually relaunch it if needed.</source>
-        <translation type="unfinished"></translation>
+        <translation>När läget är aktiverat avslutas emuleringen vid sparande och sparlägesfilen döljs efter inläsning, vilket hindrar RPCS3 från att använda den igen.
+Läget liknar viloläge för emuleringen. Överväg att använda det om du inte vill kunna fuska med sparlägen när du spelar.
+Sparlägesfilen tas inte bort helt utan ignoreras bara av RPCS3. Du kan starta den manuellt igen vid behov.</translation>
     </message>
     <message>
         <source>When this mode is on, SPU emulation prioritizes savestate compatibility, however, it may reduce performance slightly.
 When this mode is off, some games may not allow making a savestate and show an SPU pause error in the log.</source>
-        <translation type="unfinished"></translation>
+        <translation>När läget är aktiverat prioriterar SPU-emuleringen kompatibilitet med sparlägen, men prestandan kan försämras något.
+När läget är inaktiverat kanske vissa spel inte tillåter att ett sparläge skapas och visar ett SPU-pausfel i loggen.</translation>
     </message>
     <message>
         <source>When this mode is on, savestates are loaded and paused on the first frame.
 This allows players to prepare for gameplay without being thrown into the action immediately.</source>
-        <translation type="unfinished"></translation>
+        <translation>När läget är aktiverat läses sparlägen in och pausas vid den första bildrutan.
+Det låter spelaren förbereda sig utan att omedelbart kastas in i spelet.</translation>
     </message>
     <message>
         <source>When enabled, SPU performance is measured at runtime.
 Enable only at a developr&apos;s request because when enabled it reduces performance a bit by itself.</source>
-        <translation type="unfinished"></translation>
+        <translation>När detta är aktiverat mäts SPU-prestandan under körning.
+Aktivera endast på begäran av en utvecklare eftersom funktionen i sig minskar prestandan något.</translation>
     </message>
     <message>
         <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 XAudio2 uses native Windows sounds system and is the next best alternative.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cubeb är plattformsoberoende och har stöd för ljudbuffring, därför är det det rekommenderade alternativet.
+XAudio2 använder Windows inbyggda ljudsystem och är näst bästa alternativ.</translation>
     </message>
     <message>
         <source>Cubeb uses a cross-platform approach and supports audio buffering, so it is the recommended option.
 If it&apos;s not available, FAudio could be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cubeb är plattformsoberoende och har stöd för ljudbuffring, därför är det det rekommenderade alternativet.
+Om det inte är tillgängligt kan FAudio användas i stället.</translation>
     </message>
     <message>
         <source>Controls which PS3 audio API is used.
@@ -593,7 +600,7 @@ Spel använder CellAudio, medan VSH kräver RSXAudio.</translation>
     </message>
     <message>
         <source>Controls which avport is used to sample audio data from.</source>
-        <translation type="unfinished"></translation>
+        <translation>Styr vilken avport som används för att sampla ljuddata.</translation>
     </message>
     <message>
         <source>Controls which device is used by audio backend.</source>
@@ -606,28 +613,34 @@ Spel använder CellAudio, medan VSH kräver RSXAudio.</translation>
     <message>
         <source>Uses 16-bit audio samples instead of default 32-bit floating point.
 Use with buggy audio drivers if you have no sound or completely broken sound.</source>
-        <translation type="unfinished"></translation>
+        <translation>Använder 16-bitars ljudsamplingar i stället för 32-bitars flyttal som standard.
+Använd med felaktiga ljuddrivrutiner om du saknar ljud eller om ljudet är helt trasigt.</translation>
     </message>
     <message>
         <source>Determines the sound format of the emulation.
 Configure this setting if you want to switch between stereo and surround sound.
 Changing these values requires a restart of the game.
 The manual setting will use your selected formats while the automatic setting will let the game choose from all available formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestämmer emuleringens ljudformat.
+Konfigurera inställningen om du vill växla mellan stereo och surroundljud.
+Ändringar av dessa värden kräver att spelet startas om.
+Den manuella inställningen använder de valda formaten, medan den automatiska låter spelet välja bland alla tillgängliga format.</translation>
     </message>
     <message>
         <source>Determines the sound format of RPCS3.
 Use &apos;Auto&apos; to let RPCS3 decide the best format based on the audio device and the emulated audio format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestämmer RPCS3:s ljudformat.
+Använd ”Automatiskt” för att låta RPCS3 välja bästa format utifrån ljudenheten och det emulerade ljudformatet.</translation>
     </message>
     <message>
         <source>Controls the overall volume of the emulation.
 Values above 100% might reduce the audio quality.</source>
-        <translation type="unfinished"></translation>
+        <translation>Styr emuleringens övergripande volym.
+Värden över 100 % kan försämra ljudkvaliteten.</translation>
     </message>
     <message>
         <source>Enables audio buffering, which reduces crackle/stutter but increases audio latency.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar ljudbuffring, vilket minskar sprakande ljud och hackighet men ökar ljudfördröjningen.</translation>
     </message>
     <message>
         <source>Target buffer duration in milliseconds.
