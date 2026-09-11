@@ -599,7 +599,7 @@
   <target>Anonym användare</target>
 </trans-unit>
 <trans-unit id="sc35581d9c1cd67ff">
- <source>On behalf of <x id="0" equiv-text="${renderUsername(event.user.on_behalf_of)}"/></source>
+  <source>On behalf of <x id="0" equiv-text="${renderUsername(event.user.on_behalf_of)}"/></source>
   <target>För <x id="0" equiv-text="${renderUsername(event.user.on_behalf_of)}"/>s räkning</target>
 </trans-unit>
 <trans-unit id="s7225aacf0eee94d2">
@@ -608,7 +608,6 @@
 </trans-unit>
 <trans-unit id="s2152f3482784705f">
   <source>Recent events</source>
-  <target>Senaste händelser</target>
   <target>Senaste händelser</target>
 </trans-unit>
 <trans-unit id="sc265a3e29e1206e4">
@@ -7516,11 +7515,9 @@ Bindings to groups/users are checked against the user of the event.</source>
 <trans-unit id="sa03cbf19feebd249">
   <source>RSA</source>
   <target>RSA</target>
-  <target>RSA</target>
 </trans-unit>
 <trans-unit id="sfbfccbd3e395c147">
   <source>ECDSA</source>
-  <target>ECDSA</target>
   <target>ECDSA</target>
 </trans-unit>
 <trans-unit id="sebea299e52db4242">
@@ -9619,7 +9616,12 @@ Bindings to groups/users are checked against the user of the event.</source>
 <trans-unit id="captcha.provider-link">
   <source>API keys can be obtained from the
                                         <x id="0" equiv-text="${html `&lt;a&#10;                                                target=&quot;_blank&quot;&#10;                                                rel=&quot;noopener noreferrer&quot;&#10;                                                href=${keyURL}&#10;                                                &gt;${formatAPISource()}&lt;/a&#10;                                            &gt;.`}"/></source>
-  <target>API-nycklar kan hämtas från <x id="0" equiv-text="${html `&lt;a&#10;                                                target=&quot;_blank&quot;&#10;                                                rel=&quot;noopener noreferrer&quot;&#10;                                                href=${keyURL}&#10;                                                &gt;${formatAPISource()}&lt;/a&#10;                                            &gt;.`}"/></target>
+  <target>API-nycklar kan hämtas från <x id="0" equiv-text="${html `&lt;a
+                                                target=&quot;_blank&quot;
+                                                rel=&quot;noopener noreferrer&quot;
+                                                href=${keyURL}
+                                                &gt;${formatAPISource()}&lt;/a
+                                            &gt;.`}"/></target>
   <note from="lit-localize">Supplementary help text with link to provider dashboard.</note>
 </trans-unit>
 <trans-unit id="s3934affe32f6a454">
@@ -12074,7 +12076,12 @@ Bindings to groups/users are checked against the user of the event.</source>
   <source>Use the
                                         <x id="0" equiv-text="${html `&lt;a&#10;                                            target=&quot;_blank&quot;&#10;                                            rel=&quot;noopener noreferrer&quot;&#10;                                            href=${keyURL}&#10;                                            &gt;${formatAPISource()}&lt;/a&#10;                                        &gt;`}"/>
                                         to self-host Cap and configure the endpoint.</source>
-  <target>Använd <x id="0" equiv-text="${html `&lt;a&#10;                                            target=&quot;_blank&quot;&#10;                                            rel=&quot;noopener noreferrer&quot;&#10;                                            href=${keyURL}&#10;                                            &gt;${formatAPISource()}&lt;/a&#10;                                        &gt;`}"/> för att själv vara värd för Cap och konfigurera slutpunkten.</target>
+  <target>Använd <x id="0" equiv-text="${html `&lt;a
+                                            target=&quot;_blank&quot;
+                                            rel=&quot;noopener noreferrer&quot;
+                                            href=${keyURL}
+                                            &gt;${formatAPISource()}&lt;/a
+                                        &gt;`}"/> för att själv vara värd för Cap och konfigurera slutpunkten.</target>
   <note from="lit-localize">Supplementary help text with link to Cap documentation.</note>
 </trans-unit>
 <trans-unit id="s71fed01f96762c78">
@@ -12719,7 +12726,6 @@ Bindings to groups/users are checked against the user of the event.</source>
 </trans-unit>
 <trans-unit id="scbf29ce484222325">
   <source/>
-  <target/>
 </trans-unit>
 <trans-unit id="sf7eeef8b4d6e602d">
   <source>Apps</source>
