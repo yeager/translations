@@ -389,7 +389,7 @@
     <message>
         <location filename="../Application.h" line="287"/>
         <source>Cu&amp;tting</source>
-        <translation type="unfinished">Cu&amp;tting</translation>
+        <translation>Klipp&amp;ning</translation>
     </message>
     <message>
         <location filename="../Application.h" line="292"/>
@@ -1109,7 +1109,7 @@ Om detta inte är markerat måste egenskapen ha ett unikt namn och den används 
     <message>
         <location filename="../Dialogs/DlgActions.ui" line="95"/>
         <source>Accelerator</source>
-        <translation type="unfinished">Accelerator</translation>
+        <translation>Accelerator</translation>
     </message>
     <message>
         <location filename="../Dialogs/DlgActions.ui" line="118"/>
@@ -2768,7 +2768,7 @@ kommer att visas i det nedre vänstra hörnet i öppnade filer</translation>
     <message>
         <location filename="../PreferencePages/DlgSettings3DView.ui" line="391"/>
         <source>Backface pass</source>
-        <translation type="unfinished">Backface pass</translation>
+        <translation>Baksidespassering</translation>
     </message>
     <message>
         <location filename="../PreferencePages/DlgSettings3DView.ui" line="456"/>
@@ -3059,7 +3059,7 @@ bounding box-storleken för det 3D-objekt som visas för närvarande.</translati
     <message>
         <location filename="../Dialogs/DlgSettingsColorGradient.ui" line="32"/>
         <source>&amp;Gradient</source>
-        <translation type="unfinished">&amp;Gradient</translation>
+        <translation>&amp;Gradient</translation>
     </message>
     <message>
         <location filename="../Dialogs/DlgSettingsColorGradient.ui" line="43"/>
@@ -3163,7 +3163,7 @@ kommer att visas med transparens</translation>
     <message>
         <location filename="../Dialogs/DlgSettingsColorGradient.ui" line="196"/>
         <source>Ma&amp;ximum</source>
-        <translation type="unfinished">Ma&amp;ximum</translation>
+        <translation>Ma&amp;ximalt</translation>
     </message>
     <message>
         <location filename="../Dialogs/DlgSettingsColorGradient.ui" line="241"/>
@@ -3173,7 +3173,7 @@ kommer att visas med transparens</translation>
     <message>
         <location filename="../Dialogs/DlgSettingsColorGradient.ui" line="267"/>
         <source>Mi&amp;nimum</source>
-        <translation type="unfinished">Mi&amp;nimum</translation>
+        <translation>Mi&amp;nimalt</translation>
     </message>
     <message>
         <location filename="../Dialogs/DlgSettingsColorGradient.ui" line="296"/>
@@ -4006,7 +4006,7 @@ Free Turntable: detaljen roteras runt Z-axeln.
     <message>
         <location filename="../PreferencePages/DlgSettingsNavigation.ui" line="503"/>
         <source>Trackball Classic</source>
-        <translation type="unfinished">Trackball Classic</translation>
+        <translation>Klassisk styrkula</translation>
     </message>
     <message>
         <location filename="../PreferencePages/DlgSettingsNavigation.ui" line="508"/>
@@ -4456,7 +4456,7 @@ Ett större värde gör det lättare att välja element, men kan förhindra val 
     <message>
         <location filename="../PreferencePages/DlgSettingsViewColor.ui" line="508"/>
         <source> pt</source>
-        <translation type="unfinished"> pt</translation>
+        <translation> pt</translation>
     </message>
     <message>
         <location filename="../PreferencePages/DlgSettingsViewColor.ui" line="163"/>
@@ -5311,7 +5311,7 @@ Kolumnen &quot;Status&quot; visar om dokumentet kunde återställas.</translatio
     <message>
         <location filename="../RemoteDebugger.ui" line="78"/>
         <source>Port</source>
-        <translation type="unfinished">Port</translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../RemoteDebugger.ui" line="58"/>
@@ -5459,7 +5459,7 @@ Kolumnen &quot;Status&quot; visar om dokumentet kunde återställas.</translatio
     <message>
         <location filename="../Dialogs/DlgObjectSelection.cpp" line="157"/>
         <source>&amp;Use Original Selection</source>
-        <translation type="unfinished">&amp;Use Original Selection</translation>
+        <translation>&amp;Använd ursprungligt urval</translation>
     </message>
     <message>
         <location filename="../Dialogs/DlgObjectSelection.cpp" line="158"/>
@@ -5483,7 +5483,7 @@ som ursprungligen valdes innan denna dialog öppnades</translation>
     </message>
     <message>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation>Fäst vid rutnät</translation>
     </message>
 </context>
 <context>
@@ -7608,7 +7608,7 @@ Ange en annan katalog?</translation>
     <message>
         <location filename="../Dialogs/DlgLocationPos.ui" line="86"/>
         <source>Grid snap in</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäst vid rutnät</translation>
     </message>
     <message>
         <location filename="../Dialogs/DlgLocationPos.ui" line="97"/>
@@ -8842,7 +8842,7 @@ den aktuella kopian kommer att gå förlorade.
     <message>
         <location filename="../PreferencePages/DlgSettingsAdvanced.cpp" line="450"/>
         <source>Alpha test radius</source>
-        <translation type="unfinished">Alpha test radius</translation>
+        <translation>Radie för alfates</translation>
     </message>
     <message>
         <location filename="../PreferencePages/DlgSettingsAdvanced.cpp" line="455"/>
@@ -9245,7 +9245,7 @@ den aktuella kopian kommer att gå förlorade.
     <message>
         <location filename="../CommandView.cpp" line="323"/>
         <source>F&amp;reeze Display</source>
-        <translation type="unfinished">F&amp;reeze Display</translation>
+        <translation>F&amp;rys visning</translation>
     </message>
     <message>
         <location filename="../CommandView.cpp" line="324"/>
@@ -9281,7 +9281,7 @@ den aktuella kopian kommer att gå förlorade.
     <message>
         <location filename="../CommandLink.cpp" line="852"/>
         <source>&amp;Link Navigation</source>
-        <translation type="unfinished">&amp;Link Navigation</translation>
+        <translation>&amp;Länka navigering</translation>
     </message>
     <message>
         <location filename="../CommandLink.cpp" line="853"/>
@@ -9622,7 +9622,7 @@ den aktuella kopian kommer att gå förlorade.
     <message>
         <location filename="../CommandView.cpp" line="1327"/>
         <source>&amp;1 Front</source>
-        <translation type="unfinished">&amp;1 Front</translation>
+        <translation>&amp;1 Framifrån</translation>
     </message>
     <message>
         <location filename="../CommandView.cpp" line="1328"/>
@@ -9994,7 +9994,7 @@ Fortsätta?
     <message>
         <location filename="../CommandView.cpp" line="737"/>
         <source>&amp;3 Wireframe</source>
-        <translation type="unfinished">&amp;3 Wireframe</translation>
+        <translation>&amp;3 Trådmodell</translation>
     </message>
     <message>
         <location filename="../CommandView.cpp" line="742"/>
@@ -10684,13 +10684,13 @@ efter att FreeCAD startas</translation>
         <location filename="../PreferencePages/DlgSettingsWorkbenchesImp.cpp" line="519"/>
         <location filename="../PreferencePages/DlgSettingsWorkbenchesImp.cpp" line="534"/>
         <source>ComboBox</source>
-        <translation type="unfinished">ComboBox</translation>
+        <translation>Kombinationsruta</translation>
     </message>
     <message>
         <location filename="../PreferencePages/DlgSettingsWorkbenchesImp.cpp" line="520"/>
         <location filename="../PreferencePages/DlgSettingsWorkbenchesImp.cpp" line="535"/>
         <source>TabBar</source>
-        <translation type="unfinished">TabBar</translation>
+        <translation>Flikrad</translation>
     </message>
     <message>
         <location filename="../PreferencePages/DlgSettingsWorkbenchesImp.cpp" line="526"/>
@@ -12344,7 +12344,7 @@ regionen inte är ogenomskinliga.</translation>
     <message>
         <location filename="../TaskTransform.ui" line="320"/>
         <source>Match W/Z</source>
-        <translation type="unfinished">Match W/Z</translation>
+        <translation>Matcha W/Z</translation>
     </message>
     <message>
         <location filename="../TaskTransform.ui" line="336"/>
@@ -12374,7 +12374,7 @@ regionen inte är ogenomskinliga.</translation>
     <message>
         <location filename="../TaskTransform.ui" line="435"/>
         <source>Dragger</source>
-        <translation type="unfinished">Dragger</translation>
+        <translation>Dragare</translation>
     </message>
     <message>
         <location filename="../TaskTransform.ui" line="465"/>
@@ -12797,7 +12797,7 @@ regionen inte är ogenomskinliga.</translation>
     <message>
         <location filename="../TaskView/TaskSolverMessages.ui" line="26"/>
         <source>DOF</source>
-        <translation type="unfinished">DOF</translation>
+        <translation>Skärpedjup</translation>
     </message>
     <message>
         <location filename="../TaskView/TaskSolverMessages.ui" line="33"/>
@@ -13814,7 +13814,7 @@ Fortsätta?</translation>
     <message>
         <location filename="../CommandView.cpp" line="2376"/>
         <source>Stereo Re&amp;d/Cyan</source>
-        <translation type="unfinished">Stereo Re&amp;d/Cyan</translation>
+        <translation>Stereo r&amp;öd/cyan</translation>
     </message>
     <message>
         <location filename="../CommandView.cpp" line="2377"/>
@@ -13853,7 +13853,7 @@ Fortsätta?</translation>
     <message>
         <location filename="../CommandView.cpp" line="2711"/>
         <source>&amp;Box Zoom</source>
-        <translation type="unfinished">&amp;Box Zoom</translation>
+        <translation>&amp;Boxzoom</translation>
     </message>
     <message>
         <location filename="../CommandView.cpp" line="2712"/>
