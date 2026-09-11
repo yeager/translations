@@ -1,0 +1,1216 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Nextcloud package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# daf9a3bef94549192358462a8bb20263_a023b71 <69530ed134884b79b067e9214de553f8_465041>, 2018
+# Mark Ziegler <mark.ziegler@rakekniven.de>, 2025
+# Tobias Hellgren, 2026
+# Andy Scherzinger <info@andy-scherzinger.de>, 2026
+# efef6ec5b435a041fce803c7f8af77d2_2341d43, 2026
+# Filip Bengtsson, 2026
+# Niklas Andersson <mail.niklasandersson@gmail.com>, 2026
+# Magnus Höglund, 2026
+# Peter Lundin, 2026
+# Jonatan Nyberg, 2026
+# Daniel Nylander <po@danielnylander.se>, 2026
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Nextcloud 3.14159\n"
+"Report-Msgid-Bugs-To: translations\\@example.com\n"
+"POT-Creation-Date: 2026-09-11 02:38+0000\n"
+"PO-Revision-Date: 2018-06-19 10:18+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>, 2026\n"
+"Language-Team: Swedish (https://app.transifex.com/nextcloud/teams/64236/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. TRANSLATORS s/AdminSettings.vue:10
+#: /app/main/lib/Notification/Notifier.php:37
+#: /app/main/specialAppInfoFakeDummyForL10nScript.php:2
+#: /app/main/specialVueFakeDummyForL10nScript.js:3106
+msgid "Two-Factor Gateway"
+msgstr "Tvåfaktorsgateway"
+
+#: /app/main/lib/Provider/AProvider.php:92
+#, php-format
+msgid "`%s` is your Nextcloud authentication code"
+msgstr "`%s` är din autentiseringskod för Nextcloud"
+
+#: /app/main/lib/Provider/AProvider.php:93
+#, php-format
+msgid "%s is your Nextcloud authentication code"
+msgstr "%s är din autentiseringskod"
+
+#: /app/main/lib/Provider/Channel/SMS/Provider.php:18
+msgid "Message gateway verification"
+msgstr "Verifiering via meddelandegateway"
+
+#: /app/main/lib/Provider/Channel/SMS/Provider.php:23
+msgid "Authenticate via SMS"
+msgstr "Autentisera via SMS"
+
+#: /app/main/lib/Provider/Channel/Signal/Provider.php:18
+msgid "Signal verification"
+msgstr "Signal-verifiering"
+
+#: /app/main/lib/Provider/Channel/Signal/Provider.php:23
+msgid "Authenticate via Signal"
+msgstr "Autentisera via Signal"
+
+#: /app/main/lib/Provider/Channel/Telegram/Notification/TelegramAdminNotificationFormatter.php:26
+msgid "Two-Factor Gateway: Telegram Client session disconnected"
+msgstr "Tvåfaktorsgateway: Telegram Client-sessionen har kopplats från"
+
+#: /app/main/lib/Provider/Channel/Telegram/Notification/TelegramAdminNotificationFormatter.php:27
+msgid ""
+"Two-Factor Gateway cannot send Telegram verification codes through Telegram "
+"Client until login is restored. Open the Two-Factor Gateway admin settings "
+"and run Telegram Client interactive setup again."
+msgstr ""
+"Tvåfaktorsgateway kan inte skicka verifieringskoder via Telegram Client "
+"förrän inloggningen har återställts. Öppna administratörsinställningarna för"
+" Tvåfaktorsgateway och kör den interaktiva konfigurationen av Telegram "
+"Client igen."
+
+#: /app/main/lib/Provider/Channel/Telegram/Provider/Drivers/Bot.php:69
+#, php-format
+msgid "`%s` is your Nextcloud verification code."
+msgstr "`%s` är din verifieringskod för Nextcloud."
+
+#: /app/main/lib/Provider/Channel/Telegram/Provider.php:18
+msgid "Telegram verification"
+msgstr "Telegram-verifiering"
+
+#: /app/main/lib/Provider/Channel/Telegram/Provider.php:23
+msgid "Authenticate via Telegram"
+msgstr "Autentisera via Telegram"
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Gateway.php:161
+msgid "The phone number is not registered on WhatsApp."
+msgstr "Telefonnumret är inte registrerat på WhatsApp."
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Gateway.php:177
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/GatewayCliSetupTrait.php:510
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/GatewayCliSetupTrait.php:519
+msgid "Failed to verify WhatsApp user."
+msgstr "Det gick inte att verifiera WhatsApp-användaren."
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Gateway.php:205
+msgid "Failed to send message"
+msgstr "Det gick inte att skicka meddelandet"
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/GatewayCliSetupTrait.php:484
+msgid ""
+"Authentication failed with WhatsApp API. Please verify username/password or "
+"log in again."
+msgstr ""
+"Autentiseringen med WhatsApp-API:t misslyckades. Kontrollera "
+"användarnamn/lösenord eller logga in igen."
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/GatewayCliSetupTrait.php:493
+msgid ""
+"WhatsApp device not found or not connected. Please reconfigure the device."
+msgstr ""
+"WhatsApp-enheten hittades inte eller är inte ansluten. Konfigurera enheten "
+"igen."
+
+#. TRANSLATORS Notification subject shown to admins when the GoWhatsApp API
+#. credentials/session are invalid.
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Notification/WhatsAppAdminNotificationFormatter.php:29
+msgid "Two-Factor Gateway: WhatsApp authentication failed"
+msgstr "Tvåfaktorsgateway: WhatsApp-autentiseringen misslyckades"
+
+#. TRANSLATORS Admin notification body. Keep `occ
+#. twofactorauth:gateway:configure gowhatsapp` unchanged because it is a
+#. command.
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Notification/WhatsAppAdminNotificationFormatter.php:31
+msgid ""
+"Two-Factor Gateway cannot send WhatsApp verification codes until this is "
+"fixed. Reconfigure the GoWhatsApp gateway from the command line using: occ "
+"twofactorauth:gateway:configure gowhatsapp"
+msgstr ""
+"Tvåfaktorsgateway kan inte skicka verifieringskoder via WhatsApp förrän "
+"problemet har åtgärdats. Konfigurera om GoWhatsApp-gatewayen från "
+"kommandoraden med: occ twofactorauth:gateway:configure gowhatsapp"
+
+#. TRANSLATORS Notification subject shown to admins when session health score
+#. indicates instability.
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Notification/WhatsAppAdminNotificationFormatter.php:44
+msgid "Two-Factor Gateway: WhatsApp session is unstable"
+msgstr "Tvåfaktorsgateway: WhatsApp-sessionen är instabil"
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Notification/WhatsAppAdminNotificationFormatter.php:48
+#, php-format
+msgid "WhatsApp session warning: %s"
+msgstr "Varning för WhatsApp-sessionen: %s"
+
+#. TRANSLATORS Admin notification body for instability without detailed reason
+#. payload.
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Notification/WhatsAppAdminNotificationFormatter.php:50
+msgid ""
+"The WhatsApp session is unstable and may require re-authentication soon. "
+"Monitor the session and reconfigure the GoWhatsApp gateway if needed."
+msgstr ""
+"WhatsApp-sessionen är instabil och kan snart kräva ny autentisering. "
+"Övervaka sessionen och konfigurera om GoWhatsApp-gatewayen vid behov."
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Provider.php:18
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider.php:18
+msgid "WhatsApp verification"
+msgstr "WhatsApp-verifiering"
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/GoWhatsApp/Provider.php:23
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider.php:23
+msgid "Authenticate via WhatsApp"
+msgstr "Autentisera via WhatsApp"
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/WhatsAppBusiness/Gateway.php:112
+msgid "Invalid phone number for WhatsApp Business."
+msgstr "Ogiltigt telefonnummer för WhatsApp Business."
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/WhatsAppBusiness/Gateway.php:123
+msgid ""
+"Template name is required for WhatsApp Business. Configure an approved "
+"template with body variable {{1}}."
+msgstr ""
+"Ett mallnamn krävs för WhatsApp Business. Konfigurera en godkänd mall med "
+"brödtextvariabeln {{1}}."
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/WhatsAppBusiness/Gateway.php:127
+msgid "Template language code is required for WhatsApp Business."
+msgstr "En språkkod för mallen krävs för WhatsApp Business."
+
+#: /app/main/lib/Provider/Channel/WhatsApp/Provider/Drivers/WhatsAppBusiness/Gateway.php:176
+msgid "Failed to send message through WhatsApp Business."
+msgstr "Det gick inte att skicka meddelandet via WhatsApp Business."
+
+#: /app/main/lib/Provider/Channel/XMPP/Provider.php:18
+msgid "XMPP verification"
+msgstr "XMPP-verifiering"
+
+#: /app/main/lib/Provider/Channel/XMPP/Provider.php:23
+msgid "Authenticate via XMPP"
+msgstr "Autentisera via XMPP"
+
+#: /app/main/lib/Service/SetupService.php:63
+#, php-format
+msgid "`%s` is your verification code."
+msgstr "`%s` är din verifieringskod."
+
+#: /app/main/lib/Service/SetupService.php:64
+#, php-format
+msgid "%s is your verification code."
+msgstr "%s är din verifieringskod."
+
+#: /app/main/lib/Service/SetupService.php:83
+msgid "no verification code set"
+msgstr "ingen verifieringskod har angetts"
+
+#: /app/main/lib/Service/SetupService.php:87
+msgid "verification token mismatch"
+msgstr "verifieringstoken matchar inte"
+
+#: /app/main/specialAppInfoFakeDummyForL10nScript.php:3
+msgid "Two-factor gateway providers (Signal, SMS, Telegram, WhatsApp, XMPP)"
+msgstr ""
+"Gatewayleverantörer för tvåfaktorsautentisering (Signal, SMS, Telegram, "
+"WhatsApp och XMPP)"
+
+#: /app/main/specialAppInfoFakeDummyForL10nScript.php:4
+msgid ""
+"A set of Nextcloud two-factor providers to send authentication codes via "
+"Signal, SMS, Telegram, WhatsApp and XMPP."
+msgstr ""
+"En uppsättning Nextcloud-leverantörer för tvåfaktorsautentisering som "
+"skickar autentiseringskoder via Signal, SMS, Telegram, WhatsApp och XMPP."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:131
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:136
+msgid "Disabled"
+msgstr "Inaktiverad"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:19
+#: /app/main/specialVueFakeDummyForL10nScript.js:183
+msgid "Configured"
+msgstr "Konfigurerad"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:183
+msgid "Incomplete"
+msgstr "Ofullständig"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:33
+#: /app/main/specialVueFakeDummyForL10nScript.js:185
+#: /app/main/specialVueFakeDummyForL10nScript.js:187
+msgid "Set as default"
+msgstr "Ange som standard"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:44
+#: /app/main/specialVueFakeDummyForL10nScript.js:189
+#: /app/main/specialVueFakeDummyForL10nScript.js:191
+msgid "This is the default instance"
+msgstr "Detta är standardinstansen"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:62
+#: /app/main/specialVueFakeDummyForL10nScript.js:193
+#: /app/main/specialVueFakeDummyForL10nScript.js:195
+msgid "Test this instance"
+msgstr "Testa den här instansen"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:79
+#: /app/main/specialVueFakeDummyForL10nScript.js:197
+#: /app/main/specialVueFakeDummyForL10nScript.js:199
+msgid "Routing"
+msgstr "Dirigering"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:96
+#: /app/main/specialVueFakeDummyForL10nScript.js:201
+#: /app/main/specialVueFakeDummyForL10nScript.js:203
+msgid "Edit"
+msgstr "Redigera"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:113
+#: /app/main/specialVueFakeDummyForL10nScript.js:205
+#: /app/main/specialVueFakeDummyForL10nScript.js:207
+#: /app/main/specialVueFakeDummyForL10nScript.js:1012
+#: /app/main/specialVueFakeDummyForL10nScript.js:2837
+msgid "Delete"
+msgstr "Ta bort"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:136
+#. TRANSLATORS onents/GatewayInstanceModal.vue:62
+#. TRANSLATORS onents/GatewayRoutingModal.vue:33
+#: /app/main/specialVueFakeDummyForL10nScript.js:209
+#: /app/main/specialVueFakeDummyForL10nScript.js:713
+#: /app/main/specialVueFakeDummyForL10nScript.js:855
+msgid "Groups"
+msgstr "Grupper"
+
+#. TRANSLATORS onents/GatewayInstanceCard.vue:149
+#: /app/main/specialVueFakeDummyForL10nScript.js:211
+msgid "Created: {date}"
+msgstr "Skapad: {date}"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:354
+msgid "Edit provider configuration"
+msgstr "Redigera leverantörskonfiguration"
+
+#. TRANSLATORS s/AdminSettings.vue:38
+#: /app/main/specialVueFakeDummyForL10nScript.js:355
+#: /app/main/specialVueFakeDummyForL10nScript.js:3116
+msgid "Add provider configuration"
+msgstr "Lägg till leverantörskonfiguration"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:403
+msgid "Channel/Provider"
+msgstr "Kanal/leverantör"
+
+#. TRANSLATORS "\u00A0" keeps the ellipsis attached to the previous word and
+#. avoids awkward line breaks.
+#. TRANSLATORS onents/GatewayRoutingModal.vue:62
+#: /app/main/specialVueFakeDummyForL10nScript.js:486
+#: /app/main/specialVueFakeDummyForL10nScript.js:863
+msgid "Saving …"
+msgstr "Sparar …"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:489
+msgid "Save"
+msgstr "Spara"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:639
+msgid "Leave empty to keep current value"
+msgstr "Lämna tomt för att behålla det aktuella värdet"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:20
+#: /app/main/specialVueFakeDummyForL10nScript.js:703
+msgid "Provider"
+msgstr "Leverantör"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:26
+#: /app/main/specialVueFakeDummyForL10nScript.js:705
+msgid "Select a provider …"
+msgstr "Välj en leverantör …"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:42
+#: /app/main/specialVueFakeDummyForL10nScript.js:707
+msgid "Select an option …"
+msgstr "Välj ett alternativ …"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:54
+#: /app/main/specialVueFakeDummyForL10nScript.js:709
+msgid "Label"
+msgstr "Etikett"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:55
+#: /app/main/specialVueFakeDummyForL10nScript.js:711
+msgid "e.g. Production, Client A …"
+msgstr "t.ex. Produktion, Klient A …"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:68
+#. TRANSLATORS onents/GatewayRoutingModal.vue:38
+#: /app/main/specialVueFakeDummyForL10nScript.js:715
+#: /app/main/specialVueFakeDummyForL10nScript.js:857
+msgid "Restrict to groups …"
+msgstr "Begränsa till grupper …"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:77
+#: /app/main/specialVueFakeDummyForL10nScript.js:717
+msgid ""
+"Choose the initial group scope for this instance. Delegated admins must "
+"select at least one managed group."
+msgstr ""
+"Välj den ursprungliga gruppomfattningen för den här instansen. Delegerade "
+"administratörer måste välja minst en hanterad grupp."
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:90
+#: /app/main/specialVueFakeDummyForL10nScript.js:719
+#: /app/main/specialVueFakeDummyForL10nScript.js:721
+#: /app/main/specialVueFakeDummyForL10nScript.js:723
+#: /app/main/specialVueFakeDummyForL10nScript.js:725
+#: /app/main/specialVueFakeDummyForL10nScript.js:1646
+#: /app/main/specialVueFakeDummyForL10nScript.js:1650
+#: /app/main/specialVueFakeDummyForL10nScript.js:1652
+msgid "optional"
+msgstr "valfritt"
+
+#. TRANSLATORS onents/GatewayInstanceModal.vue:152
+#. TRANSLATORS onents/GatewayRoutingModal.vue:53
+#. TRANSLATORS onents/GatewaySection.vue:81
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:151
+#. TRANSLATORS s/AdminSettings.vue:125
+#: /app/main/specialVueFakeDummyForL10nScript.js:727
+#: /app/main/specialVueFakeDummyForL10nScript.js:861
+#: /app/main/specialVueFakeDummyForL10nScript.js:1091
+#: /app/main/specialVueFakeDummyForL10nScript.js:2277
+#: /app/main/specialVueFakeDummyForL10nScript.js:3126
+msgid "Cancel"
+msgstr "Avbryt"
+
+#. TRANSLATORS onents/GatewayRoutingModal.vue:11
+#. TRANSLATORS onents/GatewayRoutingModal.vue:16
+#: /app/main/specialVueFakeDummyForL10nScript.js:845
+#: /app/main/specialVueFakeDummyForL10nScript.js:847
+msgid "Routing settings"
+msgstr "Dirigeringsinställningar"
+
+#. TRANSLATORS onents/GatewayRoutingModal.vue:18
+#: /app/main/specialVueFakeDummyForL10nScript.js:849
+msgid "Choose when this instance should be used."
+msgstr "Välj när den här instansen ska användas."
+
+#. TRANSLATORS onents/GatewayRoutingModal.vue:23
+#: /app/main/specialVueFakeDummyForL10nScript.js:851
+msgid "Instance"
+msgstr "Exemplar"
+
+#. TRANSLATORS onents/GatewayRoutingModal.vue:27
+#: /app/main/specialVueFakeDummyForL10nScript.js:853
+msgid "Reference"
+msgstr "Referens"
+
+#. TRANSLATORS onents/GatewayRoutingModal.vue:47
+#: /app/main/specialVueFakeDummyForL10nScript.js:859
+msgid ""
+"Only users in these groups can use this instance. Leave empty to allow "
+"normal fallback."
+msgstr ""
+"Endast användare i dessa grupper kan använda den här instansen. Lämna tomt "
+"för att tillåta normal reservhantering."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:863
+msgid "Save routing"
+msgstr "Spara dirigering"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:957
+#: /app/main/specialVueFakeDummyForL10nScript.js:2826
+msgid ""
+"Are you sure you want to delete the instance \"{label}\"? This action cannot"
+" be undone."
+msgstr ""
+"Är du säker på att du vill ta bort instansen ”{label}”? Åtgärden kan inte "
+"ångras."
+
+#. TRANSLATORS: Keep U+00A0 before the ellipsis so it never wraps to a new
+#. line, per Nextcloud translation style guide.
+#. TRANSLATORS "\u00A0" keeps the ellipsis attached to the previous word and
+#. avoids awkward line breaks.
+#: /app/main/specialVueFakeDummyForL10nScript.js:1009
+#: /app/main/specialVueFakeDummyForL10nScript.js:2834
+msgid "Deleting …"
+msgstr "Raderar …"
+
+#. TRANSLATORS onents/GatewaySection.vue:13
+#: /app/main/specialVueFakeDummyForL10nScript.js:1081
+msgid "Collapse"
+msgstr "Fäll ihop"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1081
+msgid "Expand"
+msgstr "Fäll ut"
+
+#. TRANSLATORS onents/GatewaySection.vue:20
+#: /app/main/specialVueFakeDummyForL10nScript.js:1083
+msgid "{n} instance"
+msgstr "{n} instans"
+
+#. TRANSLATORS onents/GatewaySection.vue:30
+#: /app/main/specialVueFakeDummyForL10nScript.js:1085
+msgid "Add instance"
+msgstr "Lägg till instans"
+
+#. TRANSLATORS onents/GatewaySection.vue:37
+#: /app/main/specialVueFakeDummyForL10nScript.js:1087
+msgid "No instances configured yet. Add one to get started."
+msgstr ""
+"Inga instanser har konfigurerats än. Lägg till en för att komma igång."
+
+#. TRANSLATORS onents/GatewaySection.vue:75
+#. TRANSLATORS s/AdminSettings.vue:119
+#: /app/main/specialVueFakeDummyForL10nScript.js:1089
+#: /app/main/specialVueFakeDummyForL10nScript.js:3124
+msgid "Delete instance"
+msgstr "Ta bort instans"
+
+#. TRANSLATORS "\u00A0" keeps the ellipsis attached to the previous word and
+#. avoids awkward line breaks.
+#: /app/main/specialVueFakeDummyForL10nScript.js:1165
+msgid "e.g. phone number, username, chat ID …"
+msgstr "t.ex. telefonnummer, användarnamn, chatt-ID …"
+
+#. TRANSLATORS "\u00A0" keeps the ellipsis attached to the previous word and
+#. avoids awkward line breaks.
+#: /app/main/specialVueFakeDummyForL10nScript.js:1171
+msgid "Sending …"
+msgstr "Skickar …"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1174
+msgid "Send Test"
+msgstr "Skicka test"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1232
+msgid "An unexpected error occurred."
+msgstr "Ett oväntat fel uppstod."
+
+#. TRANSLATORS onents/GatewayTestModal.vue:11
+#: /app/main/specialVueFakeDummyForL10nScript.js:1323
+msgid "Test Gateway Instance"
+msgstr "Testa gatewayinstans"
+
+#. TRANSLATORS onents/GatewayTestModal.vue:16
+#: /app/main/specialVueFakeDummyForL10nScript.js:1325
+msgid "Test Gateway"
+msgstr "Testa gateway"
+
+#. TRANSLATORS onents/GatewayTestModal.vue:18
+#: /app/main/specialVueFakeDummyForL10nScript.js:1327
+msgid "Send a test message via \"{label}\" to verify it is properly configured."
+msgstr ""
+"Skicka ett testmeddelande via ”{label}” för att kontrollera att den är "
+"korrekt konfigurerad."
+
+#. TRANSLATORS onents/GatewayTestModal.vue:23
+#: /app/main/specialVueFakeDummyForL10nScript.js:1329
+msgid "Recipient identifier"
+msgstr "Mottagaridentifierare"
+
+#. TRANSLATORS onents/GatewayTestModal.vue:52
+#: /app/main/specialVueFakeDummyForL10nScript.js:1331
+msgid "Close"
+msgstr "Stäng"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1381
+#: /app/main/specialVueFakeDummyForL10nScript.js:1480
+msgid ""
+"Use the guided setup to validate API, choose device strategy, and complete "
+"pairing."
+msgstr ""
+"Använd den guidade konfigurationen för att validera API:t, välja "
+"enhetsstrategi och slutföra parkopplingen."
+
+#. TRANSLATORS: Keep U+00A0 before the ellipsis so it never wraps to a new
+#. line, per Nextcloud translation style guide.
+#: /app/main/specialVueFakeDummyForL10nScript.js:1409
+#: /app/main/specialVueFakeDummyForL10nScript.js:1576
+#: /app/main/specialVueFakeDummyForL10nScript.js:1753
+#: /app/main/specialVueFakeDummyForL10nScript.js:2007
+#: /app/main/specialVueFakeDummyForL10nScript.js:2171
+msgid "Starting guided setup …"
+msgstr "Startar guidad konfiguration …"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1412
+#: /app/main/specialVueFakeDummyForL10nScript.js:1756
+#: /app/main/specialVueFakeDummyForL10nScript.js:2010
+msgid "Start guided setup"
+msgstr "Starta guidad konfiguration"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1440
+msgid ""
+"Pairing confirmation timed out. Enter the code in WhatsApp and try again, or"
+" go Back to start over."
+msgstr ""
+"Tidsgränsen för bekräftelse av parkopplingen överskreds. Ange koden i "
+"WhatsApp och försök igen, eller gå tillbaka för att börja om."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1505
+#: /app/main/specialVueFakeDummyForL10nScript.js:1782
+#: /app/main/specialVueFakeDummyForL10nScript.js:2040
+msgid "Unable to complete guided setup right now. Please try again."
+msgstr ""
+"Det går inte att slutföra den guidade konfigurationen just nu. Försök igen."
+
+#. TRANSLATORS: Keep U+00A0 before the ellipsis so it never wraps to a new
+#. line, per Nextcloud translation style guide.
+#: /app/main/specialVueFakeDummyForL10nScript.js:1602
+#: /app/main/specialVueFakeDummyForL10nScript.js:2199
+msgid "Processing guided setup step …"
+msgstr "Behandlar steg i den guidade konfigurationen …"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:7
+#: /app/main/specialVueFakeDummyForL10nScript.js:1638
+msgid "Guided WhatsApp Setup"
+msgstr "Guidad WhatsApp-konfiguration"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:23
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:23
+#: /app/main/specialVueFakeDummyForL10nScript.js:1640
+#: /app/main/specialVueFakeDummyForL10nScript.js:2243
+msgid "Connected account"
+msgstr "Anslutet konto"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:34
+#: /app/main/specialVueFakeDummyForL10nScript.js:1642
+msgid "Base URL to your WhatsApp API endpoint:"
+msgstr "Bas-URL till slutpunkten för WhatsApp-API:t:"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:35
+#: /app/main/specialVueFakeDummyForL10nScript.js:1644
+msgid "https://your-gowhatsapp-instance"
+msgstr "https://your-gowhatsapp-instance"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:41
+#: /app/main/specialVueFakeDummyForL10nScript.js:1646
+msgid "Device name shown in WhatsApp linked devices:"
+msgstr "Enhetsnamn som visas bland länkade enheter i WhatsApp:"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:42
+#: /app/main/specialVueFakeDummyForL10nScript.js:1648
+msgid "TwoFactor Gateway"
+msgstr "Tvåfaktorsgateway"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:47
+#: /app/main/specialVueFakeDummyForL10nScript.js:1650
+msgid "API Username:"
+msgstr "API-användarnamn:"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:52
+#: /app/main/specialVueFakeDummyForL10nScript.js:1652
+msgid "API Password:"
+msgstr "API-lösenord:"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:57
+#: /app/main/specialVueFakeDummyForL10nScript.js:1654
+msgid "How do you want to continue?"
+msgstr "Hur vill du fortsätta?"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:59
+#: /app/main/specialVueFakeDummyForL10nScript.js:1656
+msgid "Use existing device"
+msgstr "Använd befintlig enhet"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:60
+#: /app/main/specialVueFakeDummyForL10nScript.js:1658
+msgid "Logout all and create new"
+msgstr "Logga ut alla och skapa en ny"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:61
+#: /app/main/specialVueFakeDummyForL10nScript.js:1660
+msgid "Create new and keep existing"
+msgstr "Skapa en ny och behåll befintliga"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:65
+#: /app/main/specialVueFakeDummyForL10nScript.js:1662
+msgid "Device"
+msgstr "Enhet"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:80
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:108
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:122
+#: /app/main/specialVueFakeDummyForL10nScript.js:1664
+#: /app/main/specialVueFakeDummyForL10nScript.js:1672
+#: /app/main/specialVueFakeDummyForL10nScript.js:2667
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:81
+#: /app/main/specialVueFakeDummyForL10nScript.js:1666
+msgid "e.g. 5511999998888"
+msgstr "t.ex. 5511999998888"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:93
+#: /app/main/specialVueFakeDummyForL10nScript.js:1668
+msgid "Continue existing session"
+msgstr "Fortsätt befintlig session"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:102
+#: /app/main/specialVueFakeDummyForL10nScript.js:1670
+msgid "Logout and relink"
+msgstr "Logga ut och länka om"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:112
+#: /app/main/specialVueFakeDummyForL10nScript.js:1674
+msgid "Pairing code"
+msgstr "Parkopplingskod"
+
+#. TRANSLATORS Keep U+00A0 before the ellipsis so it never wraps to a new
+#. line, per Nextcloud translation style guide.
+#. (onents/providers/gowhatsapp/SetupPanel.vue:117)
+#: /app/main/specialVueFakeDummyForL10nScript.js:1676
+msgid "Waiting for pairing confirmation …"
+msgstr "Väntar på bekräftelse av parkoppling …"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:142
+#. TRANSLATORS onents/providers/signal/SetupPanel.vue:54
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:121
+#: /app/main/specialVueFakeDummyForL10nScript.js:1678
+#: /app/main/specialVueFakeDummyForL10nScript.js:1922
+#: /app/main/specialVueFakeDummyForL10nScript.js:2271
+msgid "Back"
+msgstr "Tillbaka"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:153
+#: /app/main/specialVueFakeDummyForL10nScript.js:1680
+msgid "Continue"
+msgstr "Fortsätt"
+
+#. TRANSLATORS onents/providers/gowhatsapp/SetupPanel.vue:164
+#: /app/main/specialVueFakeDummyForL10nScript.js:1682
+msgid "Request pairing code"
+msgstr "Begär parkopplingskod"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1722
+#: /app/main/specialVueFakeDummyForL10nScript.js:1905
+msgid ""
+"Enter the Signal gateway URL and follow the instructions to link a Signal "
+"account via QR code."
+msgstr ""
+"Ange URL:en till Signal-gatewayen och följ anvisningarna för att länka ett "
+"Signal-konto via QR-kod."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1803
+msgid ""
+"Timed out waiting for Signal confirmation. Restart setup to get a fresh QR "
+"code."
+msgstr ""
+"Tidsgränsen överskreds i väntan på bekräftelse från Signal. Starta om "
+"konfigurationen för att få en ny QR-kod."
+
+#. TRANSLATORS onents/providers/signal/SetupPanel.vue:7
+#: /app/main/specialVueFakeDummyForL10nScript.js:1912
+msgid "Guided Signal Setup"
+msgstr "Guidad Signal-konfiguration"
+
+#. TRANSLATORS onents/providers/signal/SetupPanel.vue:16
+#: /app/main/specialVueFakeDummyForL10nScript.js:1914
+msgid "Signal gateway URL:"
+msgstr "URL till Signal-gateway:"
+
+#. TRANSLATORS onents/providers/signal/SetupPanel.vue:18
+#: /app/main/specialVueFakeDummyForL10nScript.js:1916
+msgid "e.g. http://signal-gateway:8080"
+msgstr "t.ex. http://signal-gateway:8080"
+
+#. TRANSLATORS onents/providers/signal/SetupPanel.vue:25
+#: /app/main/specialVueFakeDummyForL10nScript.js:1918
+msgid ""
+"Open Signal → Settings → Linked Devices → Link New Device and scan this "
+"code."
+msgstr ""
+"Öppna Signal → Inställningar → Länkade enheter → Länka ny enhet och skanna "
+"koden."
+
+#. TRANSLATORS Keep U+00A0 before the ellipsis so it never wraps to a new
+#. line, per Nextcloud translation style guide.
+#. (onents/providers/signal/SetupPanel.vue:29)
+#: /app/main/specialVueFakeDummyForL10nScript.js:1920
+msgid "Waiting for Signal device link confirmation …"
+msgstr "Väntar på bekräftelse av länkning av Signal-enheten …"
+
+#. TRANSLATORS onents/providers/signal/SetupPanel.vue:65
+#: /app/main/specialVueFakeDummyForL10nScript.js:1924
+msgid "Check link status"
+msgstr "Kontrollera länkningsstatus"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:1969
+#: /app/main/specialVueFakeDummyForL10nScript.js:2226
+msgid ""
+"Provide Telegram API credentials from my.telegram.org/apps, scan the QR "
+"code, and wait for login confirmation."
+msgstr ""
+"Ange Telegram-API-inloggningsuppgifter från my.telegram.org/apps, skanna QR-"
+"koden och vänta på inloggningsbekräftelse."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2069
+msgid ""
+"Timed out waiting for Telegram confirmation. Scan the QR again or restart "
+"setup."
+msgstr ""
+"Tidsgränsen överskreds i väntan på bekräftelse från Telegram. Skanna QR-"
+"koden igen eller starta om konfigurationen."
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:7
+#: /app/main/specialVueFakeDummyForL10nScript.js:2241
+msgid "Guided Telegram Client Setup"
+msgstr "Guidad konfiguration av Telegram Client"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:33
+#: /app/main/specialVueFakeDummyForL10nScript.js:2245
+msgid "Telegram api_id:"
+msgstr "Telegram api_id:"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:35
+#: /app/main/specialVueFakeDummyForL10nScript.js:2247
+#: /app/main/specialVueFakeDummyForL10nScript.js:2251
+msgid "From my.telegram.org/apps"
+msgstr "Från my.telegram.org/apps"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:40
+#: /app/main/specialVueFakeDummyForL10nScript.js:2249
+msgid "Telegram api_hash:"
+msgstr "Telegram api_hash:"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:48
+#: /app/main/specialVueFakeDummyForL10nScript.js:2253
+msgid "Save Madeline diagnostic logs"
+msgstr "Spara Madeline-diagnostikloggar"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:54
+#: /app/main/specialVueFakeDummyForL10nScript.js:2255
+msgid "Madeline log file path (optional):"
+msgstr "Sökväg till Madeline-loggfil (valfritt):"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:55
+#: /app/main/specialVueFakeDummyForL10nScript.js:2257
+msgid "Default: session directory"
+msgstr "Standard: sessionskatalogen"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:68
+#: /app/main/specialVueFakeDummyForL10nScript.js:2259
+msgid "Open login link"
+msgstr "Öppna inloggningslänk"
+
+#. TRANSLATORS Keep U+00A0 before the ellipsis so it never wraps to a new
+#. line, per Nextcloud translation style guide.
+#. (onents/providers/telegram_client/SetupPanel.vue:72)
+#: /app/main/specialVueFakeDummyForL10nScript.js:2261
+msgid "Waiting for Telegram confirmation …"
+msgstr "Väntar på bekräftelse från Telegram …"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:83
+#: /app/main/specialVueFakeDummyForL10nScript.js:2263
+msgid "Telegram 2FA password:"
+msgstr "Lösenord för Telegrams 2FA:"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:85
+#: /app/main/specialVueFakeDummyForL10nScript.js:2265
+msgid "Your Telegram password"
+msgstr "Ditt Telegram-lösenord"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:89
+#: /app/main/specialVueFakeDummyForL10nScript.js:2267
+msgid "Verifying password with Telegram …"
+msgstr "Verifierar lösenordet med Telegram …"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:102
+#: /app/main/specialVueFakeDummyForL10nScript.js:2269
+msgid "Relink from scratch"
+msgstr "Länka om från början"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:132
+#: /app/main/specialVueFakeDummyForL10nScript.js:2273
+msgid "Check login status"
+msgstr "Kontrollera inloggningsstatus"
+
+#. TRANSLATORS onents/providers/telegram_client/SetupPanel.vue:143
+#: /app/main/specialVueFakeDummyForL10nScript.js:2275
+msgid "Submit password"
+msgstr "Skicka lösenord"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2336
+#: /app/main/specialVueFakeDummyForL10nScript.js:2613
+msgid ""
+"Paste the token once. The wizard will query Meta and list the available "
+"phone numbers and approved templates automatically."
+msgstr ""
+"Klistra in token en gång. Guiden frågar Meta och listar automatiskt "
+"tillgängliga telefonnummer och godkända mallar."
+
+#. TRANSLATORS: Placeholder shown when an administrator must manually enter
+#. the exact approved WhatsApp Business template name. "{templateName}"
+#. is an example technical identifier (snake_case + version suffix), not
+#. a natural-language sentence, and should remain a template-code example.
+#: /app/main/specialVueFakeDummyForL10nScript.js:2361
+msgid "e.g. {templateName}"
+msgstr "t.ex. {templateName}"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2386
+msgid "Starting guided setup ..."
+msgstr "Startar guidad konfiguration …"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2389
+msgid "Discover available resources"
+msgstr "Identifiera tillgängliga resurser"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2409
+#: /app/main/specialVueFakeDummyForL10nScript.js:2420
+msgid "Not selectable"
+msgstr "Kan inte väljas"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2496
+msgid "Initializing WhatsApp Business discovery …"
+msgstr "Initierar identifiering för WhatsApp Business …"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2501
+#: /app/main/specialVueFakeDummyForL10nScript.js:2504
+msgid "Could not create the setup session."
+msgstr "Det gick inte att skapa konfigurationssessionen."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2512
+msgid "Could not store WhatsApp Business credentials."
+msgstr "Det gick inte att lagra inloggningsuppgifterna för WhatsApp Business."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2516
+#: /app/main/specialVueFakeDummyForL10nScript.js:2521
+msgid "Failed to discover WhatsApp Business resources."
+msgstr "Det gick inte att identifiera WhatsApp Business-resurser."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2536
+msgid "Loading approved templates …"
+msgstr "Läser in godkända mallar …"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2542
+msgid "Failed to select the phone number for template discovery."
+msgstr "Det gick inte att välja telefonnumret för mallsökningen."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2545
+#: /app/main/specialVueFakeDummyForL10nScript.js:2550
+msgid "Failed to load approved templates."
+msgstr "Det gick inte att läsa in godkända mallar."
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2563
+msgid "Finishing setup …"
+msgstr "Slutför konfigurationen …"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:2579
+#: /app/main/specialVueFakeDummyForL10nScript.js:2585
+msgid "Failed to finalize WhatsApp Business setup."
+msgstr "Det gick inte att slutföra konfigurationen av WhatsApp Business."
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:7
+#: /app/main/specialVueFakeDummyForL10nScript.js:2619
+msgid "Guided WhatsApp Business Setup"
+msgstr "Guidad konfiguration av WhatsApp Business"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:16
+#: /app/main/specialVueFakeDummyForL10nScript.js:2621
+msgid "Access token:"
+msgstr "Åtkomsttoken:"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:18
+#: /app/main/specialVueFakeDummyForL10nScript.js:2623
+msgid "Paste a System User token with WhatsApp permissions"
+msgstr "Klistra in en systemanvändartoken med WhatsApp-behörigheter"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:23
+#: /app/main/specialVueFakeDummyForL10nScript.js:2625
+msgid "Graph API version (optional):"
+msgstr "Graph API-version (valfritt):"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:24
+#: /app/main/specialVueFakeDummyForL10nScript.js:2627
+msgid "Default: v22.0"
+msgstr "Standard: v22.0"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:29
+#: /app/main/specialVueFakeDummyForL10nScript.js:2629
+msgid "WhatsApp Business account ID (required if token cannot auto-discover):"
+msgstr ""
+"WhatsApp Business-konto-ID (krävs om token inte kan identifiera det "
+"automatiskt):"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:30
+#: /app/main/specialVueFakeDummyForL10nScript.js:2631
+msgid "Recommended when using System User tokens"
+msgstr "Rekommenderas när systemanvändartoken används"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:35
+#: /app/main/specialVueFakeDummyForL10nScript.js:2633
+msgid "Available phone numbers"
+msgstr "Tillgängliga telefonnummer"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:37
+#: /app/main/specialVueFakeDummyForL10nScript.js:2635
+msgid "Select a phone number …"
+msgstr "Välj ett telefonnummer …"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:46
+#: /app/main/specialVueFakeDummyForL10nScript.js:2637
+msgid "Only phone numbers configured for Cloud API are selectable."
+msgstr "Endast telefonnummer som har konfigurerats för Cloud API kan väljas."
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:50
+#: /app/main/specialVueFakeDummyForL10nScript.js:2639
+msgid "Approved templates"
+msgstr "Godkända mallar"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:52
+#: /app/main/specialVueFakeDummyForL10nScript.js:2641
+msgid "Select a template …"
+msgstr "Välj en mall …"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:61
+#: /app/main/specialVueFakeDummyForL10nScript.js:2643
+msgid "Only approved templates are selectable."
+msgstr "Endast godkända mallar kan väljas."
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:65
+#: /app/main/specialVueFakeDummyForL10nScript.js:2645
+msgid "Template Preview"
+msgstr "Förhandsvisning av mall"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:68
+#: /app/main/specialVueFakeDummyForL10nScript.js:2647
+msgid "Template:"
+msgstr "Mall:"
+
+#. TRANSLATORS Label for selecting the template's human language (locale), for
+#. example pt_BR or en_US.
+#. (onents/providers/whatsappbusiness/SetupPanel.vue:73)
+#: /app/main/specialVueFakeDummyForL10nScript.js:2649
+msgid "Language:"
+msgstr "Språk:"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:77
+#: /app/main/specialVueFakeDummyForL10nScript.js:2651
+msgid "Status:"
+msgstr "Status:"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:83
+#: /app/main/specialVueFakeDummyForL10nScript.js:2653
+msgid "Header"
+msgstr "Rubrik"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:88
+#: /app/main/specialVueFakeDummyForL10nScript.js:2655
+msgid "Body"
+msgstr "Brödtext"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:96
+#: /app/main/specialVueFakeDummyForL10nScript.js:2657
+msgid "The verification code will be inserted at"
+msgstr "Verifieringskoden infogas vid"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:101
+#: /app/main/specialVueFakeDummyForL10nScript.js:2659
+msgid "Footer"
+msgstr "Sidfot"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:109
+#: /app/main/specialVueFakeDummyForL10nScript.js:2661
+msgid "Template name:"
+msgstr "Mallnamn:"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:116
+#: /app/main/specialVueFakeDummyForL10nScript.js:2663
+msgid "Template language code:"
+msgstr "Mallens språkkod:"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:117
+#: /app/main/specialVueFakeDummyForL10nScript.js:2665
+msgid "e.g. pt_BR"
+msgstr "t.ex. pt_BR"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:129
+#: /app/main/specialVueFakeDummyForL10nScript.js:2669
+msgid "Template"
+msgstr "Mall"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:133
+#: /app/main/specialVueFakeDummyForL10nScript.js:2671
+msgid "Language"
+msgstr "Språk"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:158
+#: /app/main/specialVueFakeDummyForL10nScript.js:2673
+msgid "Discover templates"
+msgstr "Identifiera mallar"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:169
+#: /app/main/specialVueFakeDummyForL10nScript.js:2675
+msgid "Use this template"
+msgstr "Använd den här mallen"
+
+#. TRANSLATORS onents/providers/whatsappbusiness/SetupPanel.vue:177
+#: /app/main/specialVueFakeDummyForL10nScript.js:2677
+msgid "Start over"
+msgstr "Börja om"
+
+#: /app/main/specialVueFakeDummyForL10nScript.js:3097
+msgid ""
+"Could not load gateway list. Please check your connection and try again."
+msgstr ""
+"Det gick inte att läsa in gatewaylistan. Kontrollera anslutningen och försök"
+" igen."
+
+#. TRANSLATORS s/AdminSettings.vue:11
+#: /app/main/specialVueFakeDummyForL10nScript.js:3108
+msgid ""
+"Configure messaging gateways used to send two-factor authentication codes. "
+"Each gateway can have multiple named configurations (instances), which "
+"enables multi-tenant setups."
+msgstr ""
+"Konfigurera meddelandegatewayer som används för att skicka koder för "
+"tvåfaktorsautentisering. Varje gateway kan ha flera namngivna "
+"konfigurationer (instanser), vilket möjliggör konfigurationer för flera "
+"klientorganisationer."
+
+#. TRANSLATORS s/AdminSettings.vue:17
+#: /app/main/specialVueFakeDummyForL10nScript.js:3110
+msgid "Loading gateway configurations …"
+msgstr "Läser in gatewaykonfigurationer …"
+
+#. TRANSLATORS s/AdminSettings.vue:23
+#: /app/main/specialVueFakeDummyForL10nScript.js:3112
+msgid "Failed to load gateways"
+msgstr "Det gick inte att läsa in gatewayer"
+
+#. TRANSLATORS s/AdminSettings.vue:30
+#: /app/main/specialVueFakeDummyForL10nScript.js:3114
+msgid "Retry"
+msgstr "Försök igen"
+
+#. TRANSLATORS s/AdminSettings.vue:43
+#: /app/main/specialVueFakeDummyForL10nScript.js:3118
+msgid ""
+"Drag and drop instances to define routing priority across providers. Higher "
+"items run first."
+msgstr ""
+"Dra och släpp instanser för att ange dirigeringsprioriteten mellan "
+"leverantörerna. Poster högre upp körs först."
+
+#. TRANSLATORS s/AdminSettings.vue:62
+#: /app/main/specialVueFakeDummyForL10nScript.js:3120
+#: /app/main/specialVueFakeDummyForL10nScript.js:3122
+msgid "Drag to reorder priority"
+msgstr "Dra för att ändra prioriteten"
+
+#. TRANSLATORS s/GatewaySettings.vue:12
+#: /app/main/specialVueFakeDummyForL10nScript.js:3242
+msgid ""
+"You are not using {displayName} for two-factor authentication at the moment."
+msgstr ""
+"Du använder inte {displayName} för tvåfaktorsautentisering för tillfället."
+
+#. TRANSLATORS s/GatewaySettings.vue:14
+#: /app/main/specialVueFakeDummyForL10nScript.js:3244
+msgid "Enable"
+msgstr "Aktivera"
+
+#. TRANSLATORS s/GatewaySettings.vue:21
+#. TRANSLATORS s/LoginSetup.vue:17
+#: /app/main/specialVueFakeDummyForL10nScript.js:3246
+#: /app/main/specialVueFakeDummyForL10nScript.js:3362
+msgid "Could not verify your code. Please try again."
+msgstr "Det gick inte att verifiera koden. Försök igen."
+
+#. TRANSLATORS s/GatewaySettings.vue:23
+#. TRANSLATORS s/LoginSetup.vue:19
+#: /app/main/specialVueFakeDummyForL10nScript.js:3248
+#: /app/main/specialVueFakeDummyForL10nScript.js:3364
+msgid ""
+"Enter your identification (e.g. phone number to start the verification):"
+msgstr ""
+"Ange din identifierare (t.ex. telefonnumret) för att starta verifieringen:"
+
+#. TRANSLATORS s/GatewaySettings.vue:33
+#. TRANSLATORS s/LoginSetup.vue:30
+#: /app/main/specialVueFakeDummyForL10nScript.js:3250
+#: /app/main/specialVueFakeDummyForL10nScript.js:3366
+msgid "Verify"
+msgstr "Verifiera"
+
+#. TRANSLATORS s/GatewaySettings.vue:37
+#. TRANSLATORS s/LoginSetup.vue:35
+#: /app/main/specialVueFakeDummyForL10nScript.js:3252
+#: /app/main/specialVueFakeDummyForL10nScript.js:3368
+msgid ""
+"A confirmation code has been sent to {phone}. Please insert the code here:"
+msgstr "En bekräftelsekod har skickats till {phone}. Ange koden här:"
+
+#. TRANSLATORS s/GatewaySettings.vue:45
+#. TRANSLATORS s/LoginSetup.vue:44
+#: /app/main/specialVueFakeDummyForL10nScript.js:3254
+#: /app/main/specialVueFakeDummyForL10nScript.js:3370
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#. TRANSLATORS s/GatewaySettings.vue:49
+#. TRANSLATORS s/LoginSetup.vue:49
+#: /app/main/specialVueFakeDummyForL10nScript.js:3256
+#: /app/main/specialVueFakeDummyForL10nScript.js:3372
+msgid ""
+"Your account was successfully configured to receive messages via "
+"{displayName}."
+msgstr ""
+"Ditt konto har konfigurerats för att ta emot meddelanden via {displayName}."
+
+#. TRANSLATORS s/GatewaySettings.vue:54
+#: /app/main/specialVueFakeDummyForL10nScript.js:3258
+msgid "Disable"
+msgstr "Inaktivera"
+
+#. TRANSLATORS s/LoginSetup.vue:9
+#: /app/main/specialVueFakeDummyForL10nScript.js:3360
+msgid ""
+"{displayName} is not available. Please ask your administrator to finish "
+"setting it up."
+msgstr ""
+"{displayName} är inte tillgänglig. Be administratören att slutföra "
+"konfigureringen."
+
+#: /app/main/templates/challenge.php:25
+msgid "Authentication code"
+msgstr "Autentiseringskod"
+
+#: /app/main/templates/challenge.php:27
+msgid "Submit"
+msgstr "Skicka"
+
+#: /app/main/templates/challenge.php:29
+#, php-format
+msgid "An access code has been sent to %s"
+msgstr "En autentiseringskod har skickats till %s"
+
+#: /app/main/templates/error.php:8
+msgid ""
+"Error while sending the Message. Please try again later or contact the "
+"administrator."
+msgstr ""
+"Det gick inte att skicka meddelandet. Försök igen senare eller kontakta "
+"administratören."
+
+#: /app/main/templates/error_mismatch.php:8
+msgid ""
+"Your phone number has changed and had not been re-verified. Use a different "
+"two-factor mechanism or contact your admin."
+msgstr ""
+"Ditt telefonnummer har ändrats och har inte verifierats på nytt. Använd en "
+"annan metod för tvåfaktorsautentisering eller kontakta administratören."
