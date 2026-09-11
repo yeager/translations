@@ -486,57 +486,73 @@ Det här alternativet behövs endast av utvecklare för att felsöka problem med
         <source>Limits the maximum number of SPURS threads in each thread group.
 May improve performance in some cases, especially on systems with limited number of hardware threads.
 Limiting the number of threads is likely to cause crashes; it&apos;s recommended to keep this at the default value.</source>
-        <translation type="unfinished"></translation>
+        <translation>Begränsar det högsta antalet SPURS-trådar i varje trådgrupp.
+Kan förbättra prestandan i vissa fall, särskilt på system med få hårdvarutrådar.
+En begränsning av antalet trådar kan orsaka krascher; det rekommenderas att behålla standardvärdet.</translation>
     </message>
     <message>
         <source>Changes the sleep period accuracy.
 &apos;As Host&apos; uses default accuracy of the underlying operating system, while &apos;All Timers&apos; attempts to improve it.
 &apos;Usleep Only&apos; limits the adjustments to usleep syscall only.
 Can affect performance in unexpected ways.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrar noggrannheten för viloperioden.
+”Som värddatorn” använder det underliggande operativsystemets standardnoggrannhet, medan ”Alla timrar” försöker förbättra den.
+”Endast usleep” begränsar justeringarna till systemanropet usleep.
+Kan påverka prestandan på oväntade sätt.</translation>
     </message>
     <message>
         <source>&quot;Fast&quot; is the least accurate setting, RSX does not emulate atomic FIFO buffer.
 &quot;Atomic&quot; benefits stability greatly in many games with little performance penalty.
 &quot;Atomic &amp; Ordered&quot; is the most accurate but it is the slowest and without much stability benefit in games.</source>
-        <translation type="unfinished"></translation>
+        <translation>”Snabb” är den minst exakta inställningen; RSX emulerar inte atomisk FIFO-buffert.
+”Atomisk” förbättrar stabiliteten mycket i många spel med liten prestandaförlust.
+”Atomisk och ordnad” är mest exakt men långsammast och ger ingen större stabilitetsvinst i spel.</translation>
     </message>
     <message>
         <source>Adjusts the frequency of vertical blanking signals that the emulator sends.
 Affects timing of events which rely on these signals.</source>
-        <translation type="unfinished"></translation>
+        <translation>Justerar frekvensen för vertikala släckningssignaler som emulatorn skickar.
+Påverkar tidsinställningen för händelser som är beroende av dessa signaler.</translation>
     </message>
     <message>
         <source>Multiplies the rate of VBLANK by 1000/1001 for values like 59.94Hz.
 Known to fix the rhythm game Space Channel 5 Part 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Multiplicerar VBLANK-frekvensen med 1000/1001 för värden som 59,94 Hz.
+Känt för att rätta rytmspelet Space Channel 5 Part 2.</translation>
     </message>
     <message>
         <source>Changes the scale of emulated system time.
 Affects software which uses system time to calculate things such as dynamic timesteps.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrar skalan för emulerad systemtid.
+Påverkar program som använder systemtid för att beräkna exempelvis dynamiska tidssteg.</translation>
     </message>
     <message>
         <source>Controls how much time it takes for RSX to start processing after waking up by the Cell processor.
 Increasing wakeup delay improves stability, but very high values can lower RSX/GPU performance.
 It is recommend to adjust this at 20µs to 40µs increments until the best value for optimal stability is reached.</source>
-        <translation type="unfinished"></translation>
+        <translation>Styr hur lång tid RSX tar på sig att börja bearbeta efter att den väckts av Cell-processorn.
+Ökad väckningsfördröjning förbättrar stabiliteten, men mycket höga värden kan sänka RSX-/GPU-prestandan.
+Justera i steg om 20–40 µs tills bästa värde för optimal stabilitet har nåtts.</translation>
     </message>
     <message>
         <source>Do not change this setting globally.
 Right-click a game in the game list and choose &quot;Configure&quot; instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra inte inställningen globalt.
+Högerklicka i stället på ett spel i spellistan och välj ”Konfigurera”.</translation>
     </message>
     <message>
         <source>Determines how to schedule GPU async compute jobs when using asynchronous streaming.
 Use &apos;Safe&apos; mode for more spec compliant behavior at the cost of some CPU overhead. This setting works with all devices.
 Use &apos;Fast&apos; to use a faster but hacky version. This option is internally disabled for NVIDIA GPUs due to causing GPU hangs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bestämmer hur asynkrona GPU-beräkningsjobb schemaläggs vid asynkron strömning.
+Använd läget ”Säker” för ett mer specifikationsenligt beteende, till priset av viss CPU-belastning. Inställningen fungerar med alla enheter.
+Använd ”Snabb” för en snabbare men mer experimentell version. Alternativet är internt inaktiverat för NVIDIA-GPU:er eftersom det kan låsa GPU:n.</translation>
     </message>
     <message>
         <source>Disables Fast Math for MSL shaders, which may violate the IEEE 754 standard.
 Disabling it may fix some artifacts, especially on Apple GPUs, at the cost of performance.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverar Fast Math för MSL-shaderprogram, vilket annars kan bryta mot standarden IEEE 754.
+Att inaktivera det kan rätta vissa artefakter, särskilt på Apple-GPU:er, på bekostnad av prestanda.</translation>
     </message>
     <message>
         <source>When this mode is on, emulation exits when saving and the savestate file is concealed after its load, preventing reuse by RPCS3.
