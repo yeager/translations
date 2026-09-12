@@ -133,3 +133,4 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Hades Revisited / skins (sv): release 0.20.2 (2026-02-16) verifierad; 32/32 översatta, 0 osäkra och 2 tekniska kontrollträffar för plaggnamn. Granskad med hunspell -d sv_SE.
 - Hades Revisited / itemshow (sv): release 0.20.2 (2026-02-16) verifierad; 21/21 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
 - Hades Revisited / furniture (sv): release 0.20.2 (2026-02-16) verifierad; 21/21 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
+- Hades Revisited / fences (sv): release 0.20.2 (2026-02-16) verifierad; 22/22 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
