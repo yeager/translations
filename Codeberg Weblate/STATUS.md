@@ -19,6 +19,7 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 | Ampersand / dashboard | Samtliga 13 strängar | Den återstående strängen, ”Recent posts”, är översatt till ”Senaste inlägg” och servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
 | Mineclonia / mcl_fireworks | Samtliga 2 strängar | ”Flight Duration: @1s” är granskat som ”Flygtid: @1 s”, men servern avvisar skrivning eftersom översättningen är låst. Ingen ändring publicerad. |
 | Mineclonia / mcl_craftguide | Samtliga 39 strängar | Receptguide, blockgrupper och reparationsmeddelanden är översatta och granskade med bevarade @1/@2 och ×. Servern avvisar samtliga skrivningar eftersom komponenten är låst. Inga ändringar publicerade. |
+| VoxelForge / vlf_amethyst | Samtliga 18 strängar | Ametist-, kalcit- och tonat glas-texter är översatta och granskade. Servern avvisar samtliga skrivningar eftersom komponenten är låst. Inga ändringar publicerade. |
 | CoMaps / F-Droid-beskrivning | Samtliga 3 strängar | Titel, korttext och fullständig appbeskrivning är översatta och kontrollerade. HTML, listor och radbrytningar bevarade; titel anpassad till komponentens gräns på 30 tecken. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
 | CoMaps / Google Play-beskrivning | Samtliga 3 strängar | Den återstående fullständiga beskrivningen är översatt. HTML, listor och radbrytningar kontrollerade; lokal Hunspell använd. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
 | Lazarr / lzr_mapgen | Samtliga 5 strängar | Den återstående Luanti-inställningstexten är översatt med bevarad @1-platshållare. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
@@ -81,3 +82,10 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 | Ampersand / asset-manager | Samtliga 12 strängar | ”Tags”, ”Save attachment” och ”Select asset” översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
 
 Övriga projekt återstår. Filen är en arbetsjournal och innebär inte att alla projekt är färdiga. För varje komponent finns ursprungliga strängar, ändringar, stavningsresultat och API-kvitton i respektive underkatalog. API-nyckeln förvaras utanför arbetskatalogen och får inte inkluderas i rapporter eller ändringsfiler.
+
+| Hades Revisited / hades_vines och hades_signs | Samtliga 31 strängar | Vinväxter, frön och skyltar är översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
+| Hades Revisited / hades_tiles | Samtliga 18 strängar | Plattor och dekorationsblock är översatta. Servern bekräftar 100 % och 0 fuzzy; API:ts enhetskontroller är rena, medan komponentstatistiken fortsatt visar två äldre, ospecificerade kontrollmarkeringar. |
+| Hades Revisited / hades_flowers | Samtliga 47 strängar | Blommor, frön, plantor och årstidsvillkor översatta. Den tvetydiga tidigare texten ”Apelsinblomma” rättades till ”Orange blomma”. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
+| Hades Revisited / hades_beds | Samtliga 6 strängar | Sängar och återuppståndelsemeddelanden översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
+| Hades Revisited / hades_walls | Samtliga 7 strängar | Murblock av kullersten och sandsten översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. Hunspell-träffarna på ”kullerstensmur” är korrekta sammansättningar. |
+| Kbin / glossary | Samtliga 3 strängar | Grundtermerna e-post, inlägg och bannlysning översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
