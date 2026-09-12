@@ -116,3 +116,4 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 | Ampersand / notes | Samtliga 9 strängar | Anteckningsvyn, sökning, arkivering och borttagningsbekräftelse översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
 | Ampersand / filterqueries | Samtliga 10 strängar | Filterfrågor, redigering och borttagningsbekräftelse översatta med konsekvent fråge-terminologi. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
 | Ampersand / resources | Samtliga 10 strängar | Resurssida för webbplats, blogg, wiki och kodförråd översatt. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
+| Ampersand / lock och dashboard | 4 riktade rättningar | Rättade lösenordsinstruktion, knappimperativ, statusformulering och anslagstavleåtgärd. Berörda komponenter bekräftar 100 %, 0 fuzzy och 0 fallerande kontroller. |
