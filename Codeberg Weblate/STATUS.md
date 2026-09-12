@@ -1,0 +1,67 @@
+# Svenska översättningar på Codeberg Weblate
+
+Uppdrag: alla offentliga projekt. Användaren bekräftade hela tjänsten, inte bara följda projekt. Lokal Hunspell sv_SE används, med granskning av betydelse och format mot källtext. Ingen automatisk massgodkänning görs.
+
+Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponenter. Befintliga svenska kataloger omfattade 223 936 strängar, varav 80 867 översatta och 8 201 markerade för redigering före arbetet. Detta omfattar inte nya svenska kataloger i projekt som saknar svenska.
+
+| Projekt | Omfattning | Resultat |
+|---|---|---|
+| mc6 | Samtliga 2 575 strängar | 1 664 poster accepterade vid uppladdning. 100 %, 0 ofärdiga. Fullständig API-återläsning matchar. Formell granskning avstängd. Se ../mc6-review/GRANSKNING.md. |
+| OSM Dashboard / strings-xml | Samtliga 125 strängar | 55 rättningar sparade och verifierade med API-svaren. 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| F-Droid Build Status / strings-xml | Samtliga 137 strängar | Granskad. Den enda kontrollvarningen, ”METAdata”, är rättad till ”Metainformation” och sparad. |
+| Currencies | Samtliga 208 synliga poster | Granskad. Format och lokal Hunspell kontrollerade; 4 tomma Android-referenser är skrivskyddade. Ingen saklig ändring behövdes. |
+| Auto Tab Opener | Samtliga 26 strängar | 8 rättningar förberedda och stavningskontrollerade. Servern avvisar skrivning eftersom översättningen är låst. Inga ändringar publicerade. |
+| RadioMii | Samtliga 67 strängar | 17 rättningar granskade och stavningskontrollerade. Servern avvisar skrivning eftersom översättningen är låst. Inga ändringar publicerade. |
+| TBlock GUI | Samtliga 176 strängar | 156 översättningar eller rättningar sparade. Fullständig återläsning: 100 %, 0 ofärdiga, 0 fallerande kontroller. Hunspell och kontroll av platshållare/radbrytningar godkända. |
+| Ampersand / dashboard | Samtliga 13 strängar | Den återstående strängen, ”Recent posts”, är översatt till ”Senaste inlägg” och servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Mineclonia / mcl_fireworks | Samtliga 2 strängar | ”Flight Duration: @1s” är granskat som ”Flygtid: @1 s”, men servern avvisar skrivning eftersom översättningen är låst. Ingen ändring publicerad. |
+| CoMaps / F-Droid-beskrivning | Samtliga 3 strängar | Titel, korttext och fullständig appbeskrivning är översatta och kontrollerade. HTML, listor och radbrytningar bevarade; titel anpassad till komponentens gräns på 30 tecken. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| CoMaps / Google Play-beskrivning | Samtliga 3 strängar | Den återstående fullständiga beskrivningen är översatt. HTML, listor och radbrytningar kontrollerade; lokal Hunspell använd. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Lazarr / lzr_mapgen | Samtliga 5 strängar | Den återstående Luanti-inställningstexten är översatt med bevarad @1-platshållare. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Lazarr / lzr_speech | Samtliga 6 strängar | Den återstående dialogtexten ”Okay” är översatt till ”Okej”. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Lazarr / lzr_fallout | Samtliga 4 strängar | En tom sträng översatt och en idiomatisk formulering rättad. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Lazarr / lzr_tt | Samtliga 5 strängar | Två tomma strängar översatta och tre etablerade formuleringar rättade. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Lazarr / lzr_getitem | Samtliga 9 strängar | Två tomma strängar översatta och sex UI-formuleringar granskade och rättade. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Lazarr / lzr_hook | Samtliga 3 strängar | Två tomma spelinstruktioner översatta. 100 %, 0 ofärdiga; kvarvarande servervarning gäller den befintliga korrekta termen ”Roterande krok”. |
+| Lazarr / lzr_sky | Samtliga 13 strängar | En tom sträng översatt och tre formuleringar förbättrade. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| GNU Health / glossary | Samtliga 3 strängar | Den medicinska termen ”Ambulatory care” är översatt till ”Öppenvård”. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| GNU Health / health_inpatient_calendar | Samtliga 4 strängar | Två tomma strängar översatta och sammansättningen ”Kalenderhändelse” rättad. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| HeliBoard / glossary | Samtliga 4 strängar | ”number row” översatt till ”Sifferrad” och ”Popup” rättad till ”Popupfönster”. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| QML Greed / glossary | Samtliga 2 strängar | ”D-Pad” och ”Game Over” översatta till ”Styrkors” respektive ”Spelet är slut”. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Offshore / glossary | Samtliga 3 strängar | ”Bookmarks” och ”Bookmark” översatta till ”Bokmärken” och ”Bokmärke”; projektnamnet Open Food Facts bevarat. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Scripty Bot / glossary | Samtliga 3 strängar | Produkt- och tjänstenamnen Premium, Discord och Scripty kontrollerade och markerade som kompletta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Tournant / metadata | Samtliga 3 strängar | Den felaktigt förkortade appbeskrivningen är ersatt med en fullständig svensk översättning. Markdown, emoji och länk bevarade. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| OBS Master / glossary | Samtliga 3 strängar | ”package” och ”project” översatta till ”paket” och ”projekt”; produktnamnet spectacle bevarat. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| AmpMod / glossary | Samtliga 3 strängar | Översättningarna ”block”, ”tillägg” och ”krasch” granskade, men servern avvisar skrivning eftersom komponenten är låst. Inga ändringar publicerade. |
+| Flohmarkt / glossary | Samtliga 2 strängar | Termerna ”session” och FediAuth kontrollerade och markerade som kompletta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Hades Revisited / hades_game_meta | Samtliga 2 strängar | Projektnamnet bevarat och den fullständiga spelbeskrivningen översatt. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Hades Revisited / hades_safespawn | Samtliga 2 strängar | Båda säkerhetsteleporteringsmeddelandena översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Hades Revisited / hades_torches | Samtliga 2 strängar | ”Bright Torch” och ”Weak Torch” översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Hades Revisited / hades_vessels | Samtliga 2 strängar | ”Empty Glass Bottle” och ”Pile of Glass Fragments” översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Hades Revisited / screwdriver | Samtliga 2 strängar | Verktygsnamnet och instruktionen för rotation översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Hades Revisited / show_wielded_item | Samtliga 2 strängar | Modulnamnet och dess beskrivning översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| GNU Health / health_crypto_lab | Samtliga 15 strängar | Fem ofärdiga strängar översatta och kryptografiska hashvärden, dokumentation samt laboratoriedialoger rättade. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| GNU Health / health_stock_surgery | Samtliga 10 strängar | Fyra ofärdiga strängar översatta och lagerförflyttningar för operationer språkligt och semantiskt rättade. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| GNU Health / health_services_lab | Samtliga 16 strängar | Sex ofärdiga strängar översatta och tio befintliga laboratorietexter granskade. Hunspell träffade endast kodidentifierare. Servern bekräftar 100 %, 0 ofärdiga; en servervarning kvarstår på den flerradiga instruktionen trots bevarad radbrytning och betydelse. |
+| GNU Health / health_services_imaging | Samtliga 16 strängar | Fem ofärdiga strängar översatta, befintliga statusmeddelanden rättade och den markerade termen ”Okänd” färdigställd. Hunspell träffade endast kodidentifierare. Servern bekräftar 100 %, 0 ofärdiga; en servervarning kvarstår på den flerradiga instruktionen trots bevarad radbrytning och betydelse. |
+| GNU Health / health_archives | Samtliga 21 strängar | Fjorton ofärdiga arkiv- och patientjournalstexter översatta samt statusposten färdigställd. Lokal Hunspell godkänd. Servern bekräftar 100 %, 0 ofärdiga; en servervarning återstår för en befintlig korrekt term. |
+| Back In Time / glossary | Samtliga 19 strängar | ”SSH private key” översatt och begreppen säkerhetskopia samt symbolisk länk rättade. Hunspell träffade endast tekniktermen SSH-nyckel. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Megalodon / metadata | Samtliga 20 strängar granskade | Alla tio saknade versionsnoteringar och den tidigare fuzzy-markerade huvudbeskrivningen är översatta med bevarade HTML-taggar och punktlistor. Hunspell träffade endast produktnamn och korrekta sammansättningar, bland annat Fediverse, Mastodon, Akkoma-användare, filöppnare, följknappen, trådvy, emojireaktioner och emojiväljaren; en stavningsmiss i regellistan rättades före publicering. Servern bekräftar 100 %, 0 ofärdiga och 0 fuzzy; två formatvarningar återstår på punktlistor trots matchande struktur. |
+| Rosetta | Samtliga 27 strängar granskade | ”Copy response” rättad till ”Kopiera svar” och två tomma strängar översatta. Servern avvisar skrivning eftersom komponenten är låst. Inga ändringar publicerade. |
+| Paroli | Samtliga 30 strängar granskade | Tio felaktiga eller tomma AI- och bildgenereringstexter översatta, inklusive bevarade radbrytningar och acceleratorn `_Speak`. Servern avvisar skrivning eftersom komponenten är låst. Inga ändringar publicerade. |
+| CoMaps / glossary | Samtliga 22 strängar | De två oöversatta posterna ”Gate” och ”Willis Island” översatta till ”Grind” och ”Willisön”; egennamn och spärrade tekniska poster bevarade. Hunspell träffade endast egennamnet Willisön. Servern bekräftar 100 %, 0 ofärdiga; en befintlig servervarning återstår. |
+| Ampersand / onboarding | Samtliga 16 strängar | Den återstående importinstruktionen översatt med bevarad menyväg. Hunspell och serverkontroller godkända: 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Ampersand / front-history | Samtliga 24 strängar | Felaktig översättning av ”Confirm” rättad till ”Bekräfta” och ”Summary” översatt. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Ampersand / journal | Samtliga 24 strängar | Den återstående UI-texten ”Post color” översatt till ”Inläggets färg”. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Ampersand / reminders | Samtliga 16 strängar | Femton påminnelse- och händelsetexter översatta. Lokal Hunspell och serverkontroller godkända: 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Veloren / voxygen-char_selection | Samtliga 27 strängar granskade | Den återstående termen ”Height” är översatt till ”Längd”, men servern avvisar skrivning eftersom komponenten är låst. Ingen ändring publicerad. |
+| Postmill / validators | Samtliga 19 strängar | De två återstående valideringsmeddelandena översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Veloren / items/weapon | Samtliga 33 strängar granskade | Den tomma ”Crude Mallet” och stavfelet ”Prommenadkäpp” har översatts/rättats, med bevarad `.desc`-rad. Servern avvisar skrivning eftersom komponenten är låst. Inga ändringar publicerade. |
+| CoMaps / android-ui-strings-sdk | Samtliga 35 strängar | Fyra tillgänglighetsinstruktioner för beröringsutforskning översatta. Lokal Hunspell och serverkontroller godkända: 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Ampersand / accessibility | Samtliga 23 strängar | Sjutton tillgänglighetsinställningar översatta, inklusive lättlästa typsnitt, animationer och färgalternativ. Hunspell träffade enbart typsnittsnamn och apptermen frontning. Servern bekräftar 100 %, 0 ofärdiga; en befintlig servervarning återstår. |
+| Ampersand / message-board | 29 av 30 strängar | Tjugofem anslagstavle- och omröstningstexter översatta. Den enda återstående pluralposten `{{count}} voter` är granskad som `{{count}} röstande`, men Weblate-API:t avvisar pluraluppdateringen med felaktigt antal pluralformer. Servern visar 29 översatta, 0 fuzzy och en formatvarning. |
+| FediPhoto-Lineage / description | Samtliga 30 strängar granskade | Alla tidigare tomma versionsnoteringar är översatta med bevarade punktlistor. Ett oavsiktligt danskt ord i den liggande layout-noteringen rättades före fortsättning. Servern bekräftar 100 %, 0 ofärdiga och 0 fuzzy; en formatvarning återstår på en teknisk punktlista. |
+| Ampersand / about | Samtliga 7 strängar | Tre återstående texter om uppdateringar och tack översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+| Ampersand / asset-manager | Samtliga 12 strängar | ”Tags”, ”Save attachment” och ”Select asset” översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fallerande kontroller. |
+
+Övriga projekt återstår. Filen är en arbetsjournal och innebär inte att alla projekt är färdiga. För varje komponent finns ursprungliga strängar, ändringar, stavningsresultat och API-kvitton i respektive underkatalog. API-nyckeln förvaras utanför arbetskatalogen och får inte inkluderas i rapporter eller ändringsfiler.
