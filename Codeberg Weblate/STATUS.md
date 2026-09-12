@@ -126,3 +126,4 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 | Nitroxy / glossary | Samtliga 4 strängar | De internationella standardförkortningarna MOD och EAN är granskade och bevarade. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
 - Meshy for Android / application (sv): release 26.09.12 (2026-09-12) verifierad; 155/155 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; tekniska namn är bedömda.
 - MediLog / core (sv): release v3.8.0 (2026-09-11) verifierad; 592/592 översatta, 0 osäkra och 1 teknisk kontroll för bevarad radbrytning i en kraschrapport. Granskad med hunspell -d sv_SE.
+- F-Droid Build Status / strings.xml, app store metadata och glossary (sv): release 5.15.0 (2026-06-28) verifierad; 223/223 översatta, 0 osäkra och 0 kontrollfel. Danska reststrängar rättade och granskade med hunspell -d sv_SE.
