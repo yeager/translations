@@ -115,3 +115,4 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 | Sepia Squirt / glossary | Samtliga 5 strängar | Betalningsförkortningarna IBAN, EUR och CHF har bevarats; båda QR Code-posterna är översatta till ”QR-kod”. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
 | Ampersand / notes | Samtliga 9 strängar | Anteckningsvyn, sökning, arkivering och borttagningsbekräftelse översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
 | Ampersand / filterqueries | Samtliga 10 strängar | Filterfrågor, redigering och borttagningsbekräftelse översatta med konsekvent fråge-terminologi. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
+| Ampersand / resources | Samtliga 10 strängar | Resurssida för webbplats, blogg, wiki och kodförråd översatt. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
