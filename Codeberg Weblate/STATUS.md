@@ -138,3 +138,4 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Hades Revisited / simulation (sv): release 0.20.2 (2026-02-16) verifierad; 47/47 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
 - Hades Revisited / orienteering (sv): release 0.20.2 (2026-02-16) verifierad; 42/42 översatta, 0 osäkra och 1 teknisk kontroll för verktygsnamnet Triangulator. Granskad med hunspell -d sv_SE.
 - Hades Revisited / hades_tt (sv): release 0.20.2 (2026-02-16) verifierad; 22/22 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
+- Hades Revisited / glossary (sv): release 0.20.2 (2026-02-16) verifierad; 29/29 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
