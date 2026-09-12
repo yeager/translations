@@ -129,3 +129,4 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - F-Droid Build Status / strings.xml, app store metadata och glossary (sv): release 5.15.0 (2026-06-28) verifierad; 223/223 översatta, 0 osäkra och 0 kontrollfel. Danska reststrängar rättade och granskade med hunspell -d sv_SE.
 - MintApps / basiskomponenten (sv): release 2.2.0 (2026-02-04) verifierad; 1963/1963 översatta, 0 osäkra och 24 tekniska kontrollträffar för facktermer/länkar. Granskad med hunspell -d sv_SE.
 - LASK / lask (sv): release 0.9.0 (2025-03-28) verifierad; 342/342 översatta, 0 osäkra och 16 tekniska kontrollträffar. Granskad med hunspell -d sv_SE.
+- Hades Revisited / hudbars (sv): release 0.20.2 (2026-02-16) verifierad; 3/3 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
