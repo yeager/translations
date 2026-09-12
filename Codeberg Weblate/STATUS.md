@@ -92,3 +92,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 | Hades Revisited / hades_glowcrystals | Samtliga 7 strängar | Glödkristaller, malm, block och facklor översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
 | Hades Revisited / hades_commands | Samtliga 7 strängar | Kommandosyntax, hälsomeddelanden och simuleringstext översatta med bevarade @1 och kommandon. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
 | Hades Revisited / hades_hunger | Samtliga 7 strängar | Mättnads- och svältkommandon översatta med bevarad syntax och @1-platshållare. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
+| Hades Revisited / hades_grass | Samtliga 8 strängar | Gräs, frön och växtvillkor översatta. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
+| Hades Revisited / hades_greeting | Samtliga 9 strängar | Introduktionsmeddelanden för kreativt läge och överlevnad översatta. Transmissionsmarkörerna och egennamnet Wuzzy bevarade. Servern bekräftar 100 %, 0 ofärdiga, 0 fuzzy och 0 fallerande kontroller. |
