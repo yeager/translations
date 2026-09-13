@@ -377,3 +377,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - jdDesktopEntryEdit / jdDesktopEntryEdit (sv): release 1.8 (2025-10-29) verifierad. Svenska skapades i Weblate 2026-09-13. Komponenten rapporterar 0/0 källsträngar och väntar på uppströmssynkronisering innan översättning kan göras.
 
 - jdAppStreamEdit / jdAppStreamEdit (sv): release 10.0 (2026-09-09) verifierad; 748 källsträngar. Svenska saknas och Weblate returnerade 403 när komponenten skulle skapas. Inga översättningar kunde påbörjas eller publiceras.
+
+- Librerama / librerama (sv): release v0.7.0 (2026-04-18) verifierad. Svenska saknas; Weblate returnerade 403 när en svensk fil skulle skapas. Inga översättningar kunde påbörjas eller publiceras.
