@@ -143,3 +143,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Hades Revisited / hades_stairs (sv): release 0.20.2 (2026-02-16) verifierad; 938/938 översatta, 0 osäkra och 26 tekniska kontrollträffar för fiktiva/geologiska materialnamn. Fullständigt granskad med hunspell -d sv_SE; äldre språkfel som ”stensten” och ”kullrad” har rättats.
 
 - Imagepipe / app-strings (sv): release v0.78 (2026-06-07) verifierad; 308/308 översatta, 0 osäkra och 0 kontrollfel. Behörigheter, bildbehandling, Exif/GPS-fält, licensvillkor och länkar har granskats med hunspell -d sv_SE.
+
+- Tiny Weather Forecast Germany / F-Droid-metadata (sv): release 0.63.4 (2026-07-24) verifierad; 65/65 översatta, 0 osäkra och 15 tekniska kontrollträffar för historiska ändringsloggar/produktnamn. Fullständigt granskad med hunspell -d sv_SE.
