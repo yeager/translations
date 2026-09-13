@@ -94,6 +94,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | KochMorse | v3.5.1 (2021-03-15) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Meditation Assistant | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Megalodon | v2.1.6+fork.110 (2023-11-15) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+| Monocles Translator | Beta2-v1.7 (2024-07-03) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Nextcloud Cookbook Android | v3.0.2 (2024-02-26) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
 | Paroli | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
@@ -370,3 +371,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Monocles Mail / monocles_mail (sv): release Beta2-v1.3 (2025-03-05) verifierad; 996/1002 översatta, 0 osäkra och 10 kontrollfel. Sju svenska måltexter förbereddes med bevarade XLIFF-taggar och URL:er, men komponenten är låst: sex skrivningar returnerade 403 och en URL-enhet är skrivskyddad. Inga ändringar kunde publiceras eller speglas.
 
 - Bavarder: potentiellt obsolet. Senaste verifierade release 1.0.0 (2023-09-23) är äldre än två år; projektet hoppas över.
+
+- Monocles Translator: potentiellt obsolet. Senaste verifierade release Beta2-v1.7 (2024-07-03) är äldre än två år; projektet hoppas över.
