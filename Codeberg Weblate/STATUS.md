@@ -85,6 +85,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Ampersand | Ingen verifierbar offentlig release | Potentiellt obsolet — Ingen offentlig release kunde verifieras via Codeberg-release-API:t; projektet hoppas över enligt tvåårsregeln. |
 | Apkes | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | auto-tab-opener | v2.10 (2022-10-09) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+| Bavarder | 1.0.0 (2023-09-23) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Best-Before | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
 | dawdle | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
@@ -367,3 +368,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Ferrum: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
 
 - Monocles Mail / monocles_mail (sv): release Beta2-v1.3 (2025-03-05) verifierad; 996/1002 översatta, 0 osäkra och 10 kontrollfel. Sju svenska måltexter förbereddes med bevarade XLIFF-taggar och URL:er, men komponenten är låst: sex skrivningar returnerade 403 och en URL-enhet är skrivskyddad. Inga ändringar kunde publiceras eller speglas.
+
+- Bavarder: potentiellt obsolet. Senaste verifierade release 1.0.0 (2023-09-23) är äldre än två år; projektet hoppas över.
