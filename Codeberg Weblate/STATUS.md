@@ -18,6 +18,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | ascomplete | android | 135 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | v0.1.0 (2026-09-09) |
 | backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
 | bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | ej dokumenterad |
+| calligraphy | calligraphy | 40 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.3.0 (2026-05-18) |
 | censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
 | clock | cities, clock | 1026 | Publicerad och granskad; 219 dokumenterade tekniska kontroller | 2.31 (2026-06-28); ej dokumenterad |
 | comaps | appstore-description, website | 83 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | ej dokumenterad |
@@ -300,3 +301,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Turntable / turntable (sv): release v0.5.1 (2025-12-26) verifierad; 139/139 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; två språkfel har rättats.
 
 - Archives / archives (sv): release v0.6.0 (2025-07-01) verifierad; 72/72 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; åtta språk- och terminologifel har rättats.
+
+- Calligraphy / calligraphy (sv): release v1.3.0 (2026-05-18) verifierad; 40/40 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; sju språk- och UI-fel har rättats.
