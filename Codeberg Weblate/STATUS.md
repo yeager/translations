@@ -326,3 +326,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - ChiPass / Application (sv): release v2026.09.0 (2026-09-11) verifierad; 2332/2332 översatta, 0 osäkra och 290 kontrollfel. Granskad med hunspell -d sv_SE; 58 saknade enheter och sju befintliga stav- och terminologifel har rättats. Kontrollerna gäller tekniska format, återanvända termer och standardnamn.
 
 - Nextcloud Cookbook Android: potentiellt obsolet. Senaste verifierade release v3.0.2 (2024-02-26) är äldre än två år; projektet hoppas över.
+
+- SearXNG: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release kunde verifieras via GitHubs release-API 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
