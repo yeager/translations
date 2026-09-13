@@ -201,3 +201,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Hurry Curry / game (sv): release v3.1.1 (2026-04-30) verifierad; 387/387 översatta, 0 osäkra och 15 kontrollfel. Granskad med hunspell -d sv_SE; fyra språkfel har rättats. Återstående kontroller gäller egennamn, grafiktermer och avsiktliga skiljeteckensskillnader.
 
 - Hurry Curry / website (sv): release v3.1.1 (2026-04-30) verifierad; 56/56 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; produktnamn och tekniktermer bedömda.
+
+- JetBird / app (sv): release v1.8.10 (2026-09-04) verifierad; 182/182 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; sju språk- och terminologifel i nätverks- och ruttinställningar har rättats.
