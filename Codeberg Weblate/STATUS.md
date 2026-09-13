@@ -16,7 +16,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | ampersand | notes, filterqueries, resources, ampersand-lock-dashboard, security, analytics, tag-management, systems, import-export, members, app-settings, other | 374 | Publicerad och granskad; 13 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
 | archives | archives | 72 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.6.0 (2025-07-01) |
 | ascomplete | android | 135 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | v0.1.0 (2026-09-09) |
-| backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.6.1 (2026-02-10) |
 | bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | ej dokumenterad |
 | calligraphy | calligraphy | 40 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.3.0 (2026-05-18) |
 | censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
