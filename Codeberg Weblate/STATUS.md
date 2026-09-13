@@ -73,6 +73,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | tuba | tuba | 983 | Publicerad och granskad; 20 dokumenterade tekniska kontroller | v0.11.1 (2026-08-31) |
 | turntable | turntable | 139 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.5.1 (2025-12-26) |
 | untrackme | untrackme-description, app | 166 | Publicerad och granskad; 49 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
+| vinyl | vinyl_player | 85 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.6.1 (2026-08-18) |
 | wormhole | app | 78 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
 
 ### Potentiellt obsoleta projekt
@@ -311,3 +312,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Endurain / nav, footer och userProfile (sv): release v0.19.2 (2026-09-02) verifierad; 84/84 översatta, 0 osäkra. Fyra språkfel har identifierats vid granskning med hunspell -d sv_SE via API-lästa måltexter. Weblate returnerar 403 både för skrivning och export; inga ändringar kunde publiceras och spegelkopia väntar på åtkomst.
 
 - Tuba / tuba (sv): release v0.11.1 (2026-08-31) verifierad; 983/983 översatta, 0 osäkra och 20 kontrollfel. Granskad med hunspell -d sv_SE; 137 saknade eller osäkra enheter och sju befintliga språkfel har översatts eller rättats. Kontrollerna gäller produktnamn, datumformat, standardtermer och korrekta pluraler.
+
+- Vinyl / vinyl_player (sv): release v1.6.1 (2026-08-18) verifierad; 85/85 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; nio UI- och terminologifel har rättats.
