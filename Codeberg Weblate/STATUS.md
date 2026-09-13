@@ -171,3 +171,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - GeoWeather / geoweather (sv): release v3.1.3 (2026-09-10) verifierad; 290/290 översatta, 0 osäkra och 4 automatiska kontroller för två korrekta dubbletter samt standardbeteckningarna Fahrenheit (°F) och mmHg. Fullständigt granskat med hunspell -d sv_SE; produktnamn, format och tekniska termer har bedömts.
 
 - Clock / clock (sv): release 2.31 (2026-06-28) verifierad; 675/675 översatta, 0 osäkra och 23 automatiska dubblett-/terminologikontroller för korrekta återanvända termer, standardnamn och geografiska namn. Fullständigt granskat med hunspell -d sv_SE; Android-platshållare, pluraler, HTML och radbrytningar är bevarade.
+
+- HeliBoard / heliboard (sv): release v4.1 (2026-08-30) verifierad; 552/552 översatta, 0 osäkra och 11 automatiska kontroller för korrekta layout-/språknamn och konsekventa språkbytesformuleringar. Fullständigt granskat med hunspell -d sv_SE; HTML, länkar, parametrar och radbrytningar är bevarade.
