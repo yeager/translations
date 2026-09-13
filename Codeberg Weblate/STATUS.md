@@ -187,3 +187,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - PartyGames: potentiellt obsolet. Senaste verifierade release 2.0.0 (2024-01-08), äldre än två år; projektet hoppas över.
 
 - AutoTabOpener: potentiellt obsolet. Senaste verifierade release v2.10 (2022-10-09), äldre än två år; projektet hoppas över.
+
+- FOSS Browser / strings (sv): release v23 (2026-06-22) verifierad; 155/158 översatta, 1 osäker och 0 kontrollfel. Tre rättningar granskade med hunspell -d sv_SE, men Weblate returnerade 403 eftersom komponenten är låst; inga ändringar kunde publiceras.
