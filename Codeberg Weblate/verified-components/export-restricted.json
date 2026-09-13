@@ -20,5 +20,15 @@
     "status": "reviewed; write restricted",
     "review": "Tolv språk-, sak- och UI-fel identifierade med lokal hunspell -d sv_SE och källjämförelse, bland annat felaktiga höger-/vänsterinstruktioner och en felöversatt Gör om-åtgärd.",
     "reason": "Weblate returnerade HTTP 403 för samtliga enhetsuppdateringar. Export av befintlig katalog fungerar, men inga korrigeringar kunde publiceras och ingen verifierad korrigerad spegelkopia skapas."
+  },
+  {
+    "project": "Rote",
+    "components": [
+      "rote"
+    ],
+    "latest_release": "v0.2 (2026-08-16)",
+    "status": "reviewed; write restricted",
+    "review": "Alla 56 svenska användargränssnittstexter har förberetts med bevarade variabler och URL. Lokal hunspell -d sv_SE användes på de föreslagna svenska måltexterna.",
+    "reason": "Weblate returnerar HTTP 403 för vanliga enhetsuppdateringar och HTTP 400 för de sex tidssträngarnas pluralformat. Den exporterbara katalogen innehåller därför fortsatt inga svenska översättningar och kan inte speglas som färdig."
   }
 ]
