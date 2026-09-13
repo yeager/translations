@@ -70,6 +70,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | tiny-weather-forecast-germany | fdroid-metadata, app-strings | 600 | Publicerad och granskad; 19 dokumenterade tekniska kontroller | 0.63.4 (2026-07-24) |
 | tournant | glossary, app | 153 | Publicerad och granskad; 1 dokumenterade tekniska kontroller | ej dokumenterad |
 | trawelling | traewelling | 1444 | Publicerad och granskad; 94 dokumenterade tekniska kontroller | 2026.09.12 (2026-09-12) |
+| tuba | tuba | 983 | Publicerad och granskad; 20 dokumenterade tekniska kontroller | v0.11.1 (2026-08-31) |
 | turntable | turntable | 139 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.5.1 (2025-12-26) |
 | untrackme | untrackme-description, app | 166 | Publicerad och granskad; 49 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
 | wormhole | app | 78 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
@@ -309,4 +310,4 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 
 - Endurain / nav, footer och userProfile (sv): release v0.19.2 (2026-09-02) verifierad; 84/84 översatta, 0 osäkra. Fyra språkfel har identifierats vid granskning med hunspell -d sv_SE via API-lästa måltexter. Weblate returnerar 403 både för skrivning och export; inga ändringar kunde publiceras och spegelkopia väntar på åtkomst.
 
-- Tuba / tuba (sv): release v0.11.1 (2026-08-31) verifierad; **pågående**. 924/983 översatta, 29 osäkra och 25 kontrollfel efter att 78 felaktiga eller osäkra enheter rättats. Återstående 59 enheter granskas före lokal hunspell -d sv_SE-körning, slutkontroll och spegling.
+- Tuba / tuba (sv): release v0.11.1 (2026-08-31) verifierad; 983/983 översatta, 0 osäkra och 20 kontrollfel. Granskad med hunspell -d sv_SE; 137 saknade eller osäkra enheter och sju befintliga språkfel har översatts eller rättats. Kontrollerna gäller produktnamn, datumformat, standardtermer och korrekta pluraler.
