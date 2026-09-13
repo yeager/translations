@@ -390,3 +390,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Outbag: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
 
 - Tournant: potentiellt obsolet. Senaste verifierade release 1.1.6 (2023-01-27) är äldre än två år; projektet hoppas över.
+
+- Hades Revisited: projektomfattande återkontroll 2026-09-13 av 50 Weblate-komponenter. Inga saknade eller osäkra svenska enheter har tillkommit. Återstående kontroller gäller dokumenterade spel- och tekniktermer i hades_core, hades_orienteering, hades_stairs, hades_tiles, hades_skins och hades_farming.
