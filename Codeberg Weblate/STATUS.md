@@ -88,6 +88,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Best-Before | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
 | dawdle | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
+| GtkFalse | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | KochMorse | v3.5.1 (2021-03-15) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Meditation Assistant | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Megalodon | v2.1.6+fork.110 (2023-11-15) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
@@ -354,3 +355,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Moshidon / metadata (sv): release 2.3.0+fork.110.moshinda (2025-06-14) verifierad; 4/41 översatta, 0 osäkra och 15 kontrollfel. Tolv svenska texter har förberetts och granskats, men Weblate returnerade 403 för samtliga skrivningar; inga ändringar kunde publiceras eller speglas.
 
 - KochMorse: potentiellt obsolet. Senaste verifierade release v3.5.1 (2021-03-15) är äldre än två år; projektet hoppas över.
+
+- GtkFalse: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
