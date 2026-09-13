@@ -7,8 +7,8 @@
       "userProfile"
     ],
     "latest_release": "v0.19.2 (2026-09-02)",
-    "status": "reviewed and updated; export restricted",
-    "review": "Fyra språkfel rättade. Lokalt hunspell -d sv_SE kördes på API-lästa måltexter; kvarvarande träffar är produktnamn och platshållare.",
-    "reason": "Weblate returnerar HTTP 403 för komponenternas file_url trots tillgängliga enhetsdata och accepterade uppdateringar. Ingen översättningsfil kan därför speglas ännu."
+    "status": "reviewed; write and export restricted",
+    "review": "Fyra språkfel identifierade vid API-granskning. Lokalt hunspell -d sv_SE kördes på API-lästa måltexter; kvarvarande träffar är produktnamn och platshållare.",
+    "reason": "Weblate returnerar HTTP 403 både för uppdatering av enheter och för file_url, trots tillgängliga läsdata. Inga ändringar kunde publiceras och ingen översättningsfil kan speglas ännu."
   }
 ]

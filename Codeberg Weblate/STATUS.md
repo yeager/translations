@@ -307,4 +307,4 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 
 - Collision / collision (sv): release v3.14.1 (2026-05-07) verifierad; 45/45 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; tolv språk-, sammansättnings- och UI-fel har rättats.
 
-- Endurain / nav, footer och userProfile (sv): release v0.19.2 (2026-09-02) verifierad; 84/84 översatta, 0 osäkra. Fyra språkfel har rättats och granskats med hunspell -d sv_SE via API-lästa måltexter. Weblate returnerar 403 för export av komponentfilerna; ändringarna är publicerade, men spegelkopia väntar på exportåtkomst.
+- Endurain / nav, footer och userProfile (sv): release v0.19.2 (2026-09-02) verifierad; 84/84 översatta, 0 osäkra. Fyra språkfel har identifierats vid granskning med hunspell -d sv_SE via API-lästa måltexter. Weblate returnerar 403 både för skrivning och export; inga ändringar kunde publiceras och spegelkopia väntar på åtkomst.
