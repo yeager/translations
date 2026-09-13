@@ -1,0 +1,1276 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the recordbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: recordbox\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-31 08:46+0000\n"
+"PO-Revision-Date: 2026-09-13 15:05+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/recordbox/"
+"application/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#: data/ca.edestcroix.Recordbox.desktop.in.in:3
+msgid "Browse and play your music collection"
+msgstr "Bläddra bland och spela din musiksamling"
+
+#: data/ca.edestcroix.Recordbox.desktop.in.in:9
+msgid "music;media;player;audio;"
+msgstr "musik;media;spelare;ljud;"
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:8
+msgid "Browse and play your local music"
+msgstr "Bläddra bland och spela lokal musik"
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:10
+msgid ""
+"Recordbox is a music browser and player which aims to provide a respectable "
+"feature set while remaining relatively lightweight and simple to use. "
+"Seamlessly integrated with the GNOME desktop, Recordbox provides a "
+"responsive interface, GNOME search provider integration, MPRIS capabilities, "
+"gapless playback, ReplayGain support, and more."
+msgstr ""
+"Recordbox är en musikbläddrare och spelare som erbjuder en respektabel "
+"uppsättning funktioner samtidigt som den är förhållandevis lättviktig och "
+"enkel att använda. Recordbox är sömlöst integrerad med GNOME-skrivbordet och "
+"har ett responsivt gränssnitt, GNOME-sökintegrering, MPRIS-stöd, sömlös "
+"uppspelning, stöd för ReplayGain och mer."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:16
+msgid "Features include:"
+msgstr "Funktionerna omfattar:"
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:18
+msgid ""
+"Flexible library navigation. Browse albums filtered by either artist or "
+"genre, with the option to further group the album list to then browse by "
+"artist→genre→album or genre→artist→album."
+msgstr ""
+"Flexibel navigering i biblioteket. Bläddra bland album filtrerade efter "
+"artist eller genre, med möjlighet att ytterligare gruppera albumlistan efter "
+"artist→genre→album eller genre→artist→album."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:21
+msgid ""
+"Playback of music using GStreamer, with gapless playback and ReplayGain "
+"support."
+msgstr ""
+"Musikuppspelning med GStreamer, sömlös uppspelning och stöd för ReplayGain."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:22
+msgid "Viewing and editing of lyrics, for both embedded and external lyrics."
+msgstr "Visning och redigering av sångtexter, både inbäddade och externa."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:23
+msgid ""
+"Integration with GNOME's global search―find and play music directly from the "
+"overview."
+msgstr ""
+"Integrering med GNOME:s globala sökning ― hitta och spela musik direkt från "
+"översikten."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:24
+msgid ""
+"Dynamic UI recoloring with a gradient background derived from the playing "
+"song's album art."
+msgstr ""
+"Dynamisk omfärgning av gränssnittet med en tonad bakgrund från det spelade "
+"albumets omslagsbild."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:26
+msgid ""
+"Detection and display of embedded or external cover art, for albums and "
+"individual tracks."
+msgstr ""
+"Identifiering och visning av inbäddade eller externa omslagsbilder för album "
+"och enskilda spår."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:27
+msgid "MPRIS support for controlling Recordbox from other applications."
+msgstr "MPRIS-stöd för att styra Recordbox från andra program."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:28
+msgid "A fully responsive interface using GTK and Libadwaita."
+msgstr "Ett helt responsivt gränssnitt med GTK och Libadwaita."
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:46
+msgid "The main window of Recordbox"
+msgstr "Recordbox huvudfönster"
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:52
+msgid "Navigating library by artists and albums"
+msgstr "Navigering i biblioteket efter artister och album"
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:58
+msgid "The play queue with a playing album"
+msgstr "Spelkön med ett spelat album"
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:64
+msgid "Lyrics being shown for the currently playing track"
+msgstr "Sångtext som visas för det spår som spelas"
+
+#: data/ca.edestcroix.Recordbox.metainfo.xml.in.in:70
+msgid "Search view with an active search and filters applied"
+msgstr "Sökvy med en aktiv sökning och tillämpade filter"
+
+#: src/album_view.rs:39
+msgid "Plain"
+msgstr "Vanlig"
+
+#: src/album_view.rs:43
+msgid "Synced"
+msgstr "Synkroniserad"
+
+#: src/album_view.rs:297 src/album_view.rs:567
+#, rust-format
+msgid "Featuring {artists}"
+msgstr "Med {artists}"
+
+#: src/album_view.rs:317
+#, rust-format
+msgid "{n_selected} / {tracks} tracks selected"
+msgstr "{n_selected} / {tracks} spår markerade"
+
+#: src/album_view.rs:489
+#, rust-format
+msgid "Disc {}"
+msgstr "Skiva {}"
+
+#: src/album_view.rs:510
+msgid "Play Disc"
+msgstr "Spela skiva"
+
+#: src/album_view.rs:548 src/album_view.rs:605
+msgid "Play Track"
+msgid_plural "Play Tracks"
+msgstr[0] "Spela spår"
+msgstr[1] "Spela spår"
+
+#: src/album_view.rs:579 src/album_view.rs:592 src/album_view.rs:608
+#: src/library_view.rs:407 src/library_view.rs:416 src/library_view.rs:429
+#: src/library_view.rs:438 src/search.rs:538 src/gtk/lists/library_row.blp:103
+msgid "Add to Queue"
+msgstr "Lägg till i kön"
+
+#: src/album_view.rs:583 src/library_view.rs:408 src/library_view.rs:417
+#: src/library_view.rs:430 src/library_view.rs:439
+#: src/gtk/lists/library_row.blp:109
+msgid "Replace Queue"
+msgstr "Ersätt kön"
+
+#: src/album_view.rs:596 src/album_view.rs:611 src/gtk/lyrics_view.blp:48
+msgid "Edit Lyrics"
+msgstr "Redigera sångtext"
+
+#. Translators: Replace "translator-credits" with your name/username, and optionally an email or URL.
+#: src/application.rs:317
+msgid "translator-credits"
+msgstr "translator-credits"
+
+#: src/lyrics/edit_dialog.rs:92
+#, rust-format
+msgid "Failed to save lyrics to metadata: {error_msg}"
+msgstr "Kunde inte spara sångtext till metadata: {error_msg}"
+
+#: src/lyrics/edit_dialog.rs:96
+msgid "Lyrics saved to metadata"
+msgstr "Sångtext sparad till metadata"
+
+#: src/lyrics/edit_dialog.rs:123
+#, rust-format
+msgid "Failed to save lyrics to file: {error_msg}"
+msgstr "Kunde inte spara sångtext till fil: {error_msg}"
+
+#: src/lyrics/edit_dialog.rs:127
+msgid "Lyrics saved to file"
+msgstr "Sångtext sparad till fil"
+
+#: src/lyrics/synced_edit_dialog.rs:423
+#, rust-format
+msgid "Synchronizing Lyrics For {}"
+msgstr "Synkroniserar sångtext för {}"
+
+#: src/lyrics/unsynced_edit_dialog.rs:75 src/gtk/lyrics_view.blp:126
+msgid "No lyrics available"
+msgstr "Ingen sångtext tillgänglig"
+
+#: src/lyrics/unsynced_edit_dialog.rs:91
+#, rust-format
+msgid "Editing lyrics for {}"
+msgstr "Redigerar sångtext för {}"
+
+#: src/library/placeholders.rs:25
+msgid "[Unknown Albums]"
+msgstr "[Okända album]"
+
+#: src/library/placeholders.rs:26
+msgid "[Unknown Artist]"
+msgstr "[Okänd artist]"
+
+#: src/library/placeholders.rs:27
+msgid "[Unknown Genre]"
+msgstr "[Okänd genre]"
+
+#: src/library/placeholders.rs:28
+msgid "[Unknown Album]"
+msgstr "[Okänt album]"
+
+#: src/library/placeholders.rs:29
+msgid "[Unknown Title]"
+msgstr "[Okänd titel]"
+
+#: src/library/placeholders.rs:30
+msgid "[Various Artists]"
+msgstr "[Blandade artister]"
+
+#: src/library_view.rs:406
+msgid "Play Artist"
+msgstr "Spela artist"
+
+#: src/library_view.rs:415
+msgid "Play Artists"
+msgstr "Spela artister"
+
+#: src/library_view.rs:428
+msgid "Play Genre"
+msgstr "Spela genre"
+
+#: src/library_view.rs:437
+msgid "Play Genres"
+msgstr "Spela genrer"
+
+#: src/library_view.rs:459
+msgid "Select Music Directory"
+msgstr "Välj musikkatalog"
+
+#: src/library_view.rs:480
+msgid "Syncing library..."
+msgstr "Synkroniserar bibliotek …"
+
+#: src/library_view.rs:551 src/gtk/window.blp:293
+msgid "Artists"
+msgstr "Artister"
+
+#: src/library_view.rs:552 src/gtk/window.blp:307
+msgid "Genres"
+msgstr "Genrer"
+
+#: src/library_view.rs:608
+#, rust-format
+msgid "+ {} more"
+msgstr "+ {} till"
+
+#: src/library_view.rs:640
+#, rust-format
+msgid "{} selected"
+msgid_plural "{} selected"
+msgstr[0] "{} markerad"
+msgstr[1] "{} markerade"
+
+#: src/music/album.rs:235
+#, rust-format
+msgid "{n} track"
+msgid_plural "{n} tracks"
+msgstr[0] "{n} spår"
+msgstr[1] "{n} spår"
+
+#: src/music/artist.rs:45 src/music/artist.rs:55 src/music/genre.rs:40
+#: src/music/genre.rs:50
+#, rust-format
+msgid "{n} album"
+msgid_plural "{n} albums"
+msgstr[0] "{n} album"
+msgstr[1] "{n} album"
+
+#: src/player.rs:262 src/player.rs:294 src/player.rs:300
+#: src/gtk/lyrics_view.blp:136
+msgid "No track playing"
+msgstr "Inget spår spelas"
+
+#: src/player.rs:368
+msgid "No Repeat"
+msgstr "Ingen upprepning"
+
+#: src/player.rs:369
+msgid "Repeat Queue"
+msgstr "Upprepa kö"
+
+#: src/player.rs:370
+msgid "Repeat Current Track"
+msgstr "Upprepa aktuellt spår"
+
+#: src/player/music_player.rs:264
+msgid "Playing Music"
+msgstr "Spelar musik"
+
+#: src/player/music_player.rs:265
+msgid "Paused"
+msgstr "Pausad"
+
+#: src/player/music_player.rs:445
+msgid "Playback in progress"
+msgstr "Uppspelning pågår"
+
+#: src/player/music_player.rs:532
+msgid "End of queue reached"
+msgstr "Kön är slut"
+
+#: src/player/music_player.rs:831
+#, rust-format
+msgid "Now Playing: {track_title}"
+msgstr "Spelas nu: {track_title}"
+
+#: src/player/music_player.rs:836
+#, rust-format
+msgid "Track {current} of {total}"
+msgstr "Spår {current} av {total}"
+
+#: src/player/music_player.rs:855
+msgid "Previous"
+msgstr "Föregående"
+
+#: src/player/music_player.rs:856
+msgid "Next"
+msgstr "Nästa"
+
+#: src/queue.rs:484
+msgid "Remove From Queue"
+msgstr "Ta bort från kön"
+
+#: src/queue.rs:493
+msgid "Jump to Track"
+msgstr "Gå till spår"
+
+#: src/queue.rs:497
+msgid "Open the track selected in the play queue"
+msgstr "Öppna spåret som valts i spelkön"
+
+#: src/queue.rs:506
+msgid "Jump to Album"
+msgstr "Gå till album"
+
+#: src/queue.rs:510
+msgid "Open the album selected in the play queue"
+msgstr "Öppna albumet som valts i spelkön"
+
+#: src/queue/queue_item.rs:176
+#, rust-format
+msgid "{n_tracks} track"
+msgid_plural "{n_tracks} tracks"
+msgstr[0] "{n_tracks} spår"
+msgstr[1] "{n_tracks} spår"
+
+#: src/queue/queue_item.rs:183
+#, rust-format
+msgid "{n_tracks}/{original_n_tracks} tracks"
+msgstr "{n_tracks}/{original_n_tracks} spår"
+
+#: src/search.rs:522 src/gtk/player_view.blp:404
+msgid "Play"
+msgstr "Spela"
+
+#: src/search.rs:551
+msgid "Open"
+msgstr "Öppna"
+
+#: src/window.rs:224
+msgid "Playback will stop when the current track ends"
+msgstr "Uppspelningen stoppas när det aktuella spåret är slut"
+
+#: src/window.rs:226
+msgid "Playback will continue as normal"
+msgstr "Uppspelningen fortsätter som vanligt"
+
+#: src/window.rs:231 src/gtk/play_queue.blp:91
+msgid "Undo"
+msgstr "Ångra"
+
+#: src/window.rs:542
+msgid "Now Playing"
+msgstr "Spelas nu"
+
+#: src/window.rs:851 src/window.rs:863 src/window.rs:873 src/window.rs:883
+#: src/window.rs:893
+msgid "Show Queue"
+msgstr "Visa kö"
+
+#: src/window.rs:858
+#, rust-format
+msgid "Track Appended to Queue"
+msgid_plural "{n} Tracks Appended to Queue"
+msgstr[0] "Spår lades till i kön"
+msgstr[1] "{n} spår lades till i kön"
+
+#: src/window.rs:868
+#, rust-format
+msgid "Replaced Queue with Track"
+msgid_plural "Replaced Queue with {n} Tracks"
+msgstr[0] "Kön ersattes med spår"
+msgstr[1] "Kön ersattes med {n} spår"
+
+#: src/window.rs:878
+#, rust-format
+msgid "Album Appended to Queue"
+msgid_plural "{n} Albums Appended to Queue"
+msgstr[0] "Album lades till i kön"
+msgstr[1] "{n} album lades till i kön"
+
+#: src/window.rs:888
+#, rust-format
+msgid "Replaced Queue with Album"
+msgid_plural "Replaced Queue with {n} Albums"
+msgstr[0] "Kön ersattes med album"
+msgstr[1] "Kön ersattes med {n} album"
+
+#: src/gtk/album_view.blp:28
+msgctxt "album view"
+msgid "Play Album"
+msgstr "Spela album"
+
+#: src/gtk/album_view.blp:35
+msgid "Add Album to Queue"
+msgstr "Lägg till album i kön"
+
+#: src/gtk/album_view.blp:42
+msgid "Open Album Directory"
+msgstr "Öppna albumkatalog"
+
+#: src/gtk/album_view.blp:51
+msgid "No Album Selected"
+msgstr "Inget album markerat"
+
+#: src/gtk/album_view.blp:52
+msgid "Select an album from the list to get started"
+msgstr "Välj ett album från listan för att komma igång"
+
+#: src/gtk/album_view.blp:210
+msgid "Open Image"
+msgstr "Öppna bild"
+
+#: src/gtk/album_view.blp:263
+msgid "Play Selected Tracks"
+msgstr "Spela markerade spår"
+
+#: src/gtk/album_view.blp:273
+msgid "Add Selected Tracks to Queue"
+msgstr "Lägg till markerade spår i kön"
+
+#: src/gtk/album_view.blp:289 src/gtk/library.blp:167 src/gtk/library.blp:258
+msgid "Clear Selection"
+msgstr "Rensa markering"
+
+#: src/gtk/library.blp:15
+msgid "Library Empty"
+msgstr "Tomt bibliotek"
+
+#: src/gtk/library.blp:16
+msgid "Select your music directory to get started"
+msgstr "Välj din musikkatalog för att komma igång"
+
+#: src/gtk/library.blp:30
+msgid "_Select Music Directory"
+msgstr "_Välj musikkatalog"
+
+#: src/gtk/library.blp:36
+msgid "Start"
+msgstr "Starta"
+
+#: src/gtk/library.blp:55
+msgid ""
+"<b>Note:</b> If your chosen directory is shown with a path starting with "
+"<tt>/run/user/1000/doc/</tt> instead of its real location, then Recordbox "
+"does not have the necessary permissions to access it permanently. Use "
+"<tt>flatpak override ca.edestcroix.Recordbox --filesystem=/path/to/music</"
+"tt> in the terminal to grant this permission, or add the directory to the "
+"allowed files for Recordbox with Flatseal."
+msgstr ""
+"<b>Observera:</b> Om din valda katalog visas med en sökväg som börjar med "
+"<tt>/run/user/1000/doc/</tt> i stället för den verkliga platsen har "
+"Recordbox inte behörighet att komma åt den permanent. Använd <tt>flatpak "
+"override ca.edestcroix.Recordbox --filesystem=/path/to/music</tt> i "
+"terminalen för att ge behörigheten, eller lägg till katalogen bland tillåtna "
+"filer för Recordbox i Flatseal."
+
+#: src/gtk/library.blp:72
+msgid "Synchronizing Music"
+msgstr "Synkroniserar musik"
+
+#: src/gtk/library.blp:123
+msgid "Library Actions"
+msgstr "Biblioteksåtgärder"
+
+#: src/gtk/library.blp:151 src/gtk/library.blp:242
+msgid "Play Selection"
+msgstr "Spela markering"
+
+#: src/gtk/library.blp:158 src/gtk/library.blp:249
+msgid "Append to Queue"
+msgstr "Lägg till i kön"
+
+#: src/gtk/library.blp:187 src/gtk/library.blp:195 src/gtk/search_view.blp:68
+msgid "Albums"
+msgstr "Album"
+
+#: src/gtk/library.blp:202
+msgid "Jump to Playing Album"
+msgstr "Gå till albumet som spelas"
+
+#: src/gtk/library.blp:214
+msgid "Album Actions"
+msgstr "Albumåtgärder"
+
+#: src/gtk/library.blp:290
+msgid "S_ync Library"
+msgstr "S_ynkronisera bibliotek"
+
+#: src/gtk/library.blp:295
+msgid "_Rebuild Library"
+msgstr "_Bygg om bibliotek"
+
+#: src/gtk/library.blp:302
+msgid "Sort _Artists/Genres"
+msgstr "Sortera _artister/genrer"
+
+#: src/gtk/library.blp:305 src/gtk/library.blp:339
+msgid "Name (_A-Z)"
+msgstr "Namn (_A–Ö)"
+
+#: src/gtk/library.blp:311 src/gtk/library.blp:345
+msgid "Name (_Z-A)"
+msgstr "Namn (_Ö–A)"
+
+#: src/gtk/library.blp:322
+msgid "Enable Multi-Selection"
+msgstr "Aktivera flervalsmarkering"
+
+#: src/gtk/library.blp:329
+msgid "_Group Albums"
+msgstr "_Gruppera album"
+
+#: src/gtk/library.blp:335
+msgid "Sort _Albums"
+msgstr "Sortera _album"
+
+#: src/gtk/library.blp:353
+msgid "Date (_Most Recent)"
+msgstr "Datum (_senaste)"
+
+#: src/gtk/library.blp:359
+msgid "Date (_Least Recent)"
+msgstr "Datum (_äldsta)"
+
+#: src/gtk/library.blp:370 src/gtk/lists/library_row.blp:90
+msgid "Play Album"
+msgstr "Spela album"
+
+#: src/gtk/library.blp:375 src/gtk/library.blp:394
+msgid "Add to _Queue"
+msgstr "Lägg till i _kön"
+
+#: src/gtk/library.blp:380 src/gtk/library.blp:399
+msgid "Replace _Queue"
+msgstr "Ersätt _kön"
+
+#: src/gtk/library.blp:389
+msgid "Play Albums"
+msgstr "Spela album"
+
+#: src/gtk/lyrics_edit_dialog.blp:20
+msgid "Save"
+msgstr "Spara"
+
+#: src/gtk/lyrics_save_dialog.blp:5
+msgid "Configure Save Location"
+msgstr "Konfigurera sparplats"
+
+#: src/gtk/lyrics_save_dialog.blp:6
+msgid "These lyrics are newly created, where would you like them to be saved?"
+msgstr "Denna sångtext är nyligen skapad. Var vill du spara den?"
+
+#: src/gtk/lyrics_save_dialog.blp:16
+msgid "Save Location:"
+msgstr "Sparplats:"
+
+#: src/gtk/lyrics_save_dialog.blp:27 src/gtk/preferences.blp:72
+msgid "Track Metadata"
+msgstr "Spårmetadata"
+
+#: src/gtk/lyrics_save_dialog.blp:28 src/gtk/preferences.blp:73
+msgid "External File"
+msgstr "Extern fil"
+
+#: src/gtk/lyrics_save_dialog.blp:45
+msgid "Filename:"
+msgstr "Filnamn:"
+
+#: src/gtk/lyrics_save_dialog.blp:70
+msgid "Save to Subdirectory:"
+msgstr "Spara till underkatalog:"
+
+#: src/gtk/lyrics_save_dialog.blp:81
+msgid "Don't ask again"
+msgstr "Fråga inte igen"
+
+#: src/gtk/lyrics_save_dialog.blp:86
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/gtk/lyrics_save_dialog.blp:87
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: src/gtk/lyrics_view.blp:15 src/gtk/window.blp:335
+msgid "Lyrics"
+msgstr "Sångtext"
+
+#: src/gtk/lyrics_view.blp:32
+msgid "Add Lyrics"
+msgstr "Lägg till sångtext"
+
+#: src/gtk/lyrics_view.blp:40
+msgid "Syncronize Lyrics"
+msgstr "Synkronisera sångtext"
+
+#: src/gtk/lyrics_view.blp:73
+msgid "Reset Scroll Position"
+msgstr "Återställ rullningsposition"
+
+#: src/gtk/lyrics_view.blp:127
+msgid "This track has no lyrics available. It may be an instrumental."
+msgstr "Det här spåret saknar tillgänglig sångtext. Det kan vara instrumentalt."
+
+#: src/gtk/lyrics_view.blp:137
+msgid "Play a track to see its lyrics displayed here."
+msgstr "Spela ett spår för att visa dess sångtext här."
+
+#: src/gtk/play_queue.blp:97
+msgid "Redo"
+msgstr "Gör om"
+
+#: src/gtk/play_queue.blp:106
+msgid "Queue Actions"
+msgstr "Köåtgärder"
+
+#: src/gtk/play_queue.blp:115
+msgid "Queue Empty"
+msgstr "Kön är tom"
+
+#: src/gtk/play_queue.blp:116
+msgid ""
+"Play some music for it to appear here, or add music to the queue manually."
+msgstr ""
+"Spela musik för att få den att visas här, eller lägg till musik i kön "
+"manuellt."
+
+#: src/gtk/play_queue.blp:152
+msgid "_Shuffle"
+msgstr "_Blanda"
+
+#: src/gtk/play_queue.blp:155
+msgid "_Shuffle Off"
+msgstr "_Blandning av"
+
+#: src/gtk/play_queue.blp:161
+msgid "_Full Shuffle"
+msgstr "_Fullständig blandning"
+
+#: src/gtk/play_queue.blp:167
+msgid "_Preserve Albums"
+msgstr "_Bevara album"
+
+#: src/gtk/play_queue.blp:176
+msgid "Remove Selected Items"
+msgstr "Ta bort markerade objekt"
+
+#: src/gtk/play_queue.blp:181
+msgid "Clear Queue"
+msgstr "Rensa kön"
+
+#: src/gtk/player_view.blp:48
+msgid "Player Actions"
+msgstr "Spelaråtgärder"
+
+#: src/gtk/player_view.blp:67
+msgid "Nothing Playing"
+msgstr "Inget spelas"
+
+#: src/gtk/player_view.blp:68
+msgid "Start playing music to see the currently playing track here"
+msgstr "Börja spela musik för att visa det aktuella spåret här"
+
+#: src/gtk/player_view.blp:355
+msgid "Volume"
+msgstr "Volym"
+
+#: src/gtk/player_view.blp:394
+msgid "Previous Track"
+msgstr "Föregående spår"
+
+#: src/gtk/player_view.blp:416
+msgid "Next Track"
+msgstr "Nästa spår"
+
+#: src/gtk/player_view.blp:440 src/gtk/preferences.blp:38
+msgid "Appearance"
+msgstr "Utseende"
+
+#: src/gtk/player_view.blp:443
+msgid "_Round Cover"
+msgstr "_Runt omslag"
+
+#: src/gtk/player_view.blp:448
+msgid "Rotate _Cover"
+msgstr "Rotera _omslag"
+
+#: src/gtk/player_view.blp:453
+msgid "Show _Visualizer"
+msgstr "Visa _visualisering"
+
+#: src/gtk/player_view.blp:459
+msgid "Playback Rate"
+msgstr "Uppspelningshastighet"
+
+#: src/gtk/player_view.blp:462
+msgctxt "playback rate"
+msgid "x0.25"
+msgstr "×0,25"
+
+#: src/gtk/player_view.blp:468
+msgctxt "playback rate"
+msgid "x0.5"
+msgstr "×0,5"
+
+#: src/gtk/player_view.blp:474
+msgctxt "playback rate"
+msgid "x1.0"
+msgstr "×1,0"
+
+#: src/gtk/player_view.blp:480
+msgctxt "playback rate"
+msgid "x1.5"
+msgstr "×1,5"
+
+#: src/gtk/player_view.blp:486
+msgctxt "playback rate"
+msgid "x2.0"
+msgstr "×2,0"
+
+#: src/gtk/player_view.blp:495
+msgid "Stop _After Current Track"
+msgstr "Stoppa _efter aktuellt spår"
+
+#: src/gtk/player_view.blp:500
+msgid "_Stop Playback"
+msgstr "_Stoppa uppspelning"
+
+#: src/gtk/player_view.blp:507
+msgid "_Open Playing Track"
+msgstr "_Öppna spåret som spelas"
+
+#: src/gtk/player_view.blp:512
+msgid "Show Album In _Library"
+msgstr "Visa album i _biblioteket"
+
+#: src/gtk/preferences.blp:9 src/gtk/preferences.blp:105
+#: src/gtk/preferences.blp:155
+msgid "General"
+msgstr "Allmänt"
+
+#: src/gtk/preferences.blp:14
+msgid "Behaviour"
+msgstr "Beteende"
+
+#: src/gtk/preferences.blp:17
+msgid "Restore To Library"
+msgstr "Återställ till bibliotek"
+
+#: src/gtk/preferences.blp:18
+msgid ""
+"Open the library instead of the play queue when restoring a previous session."
+msgstr ""
+"Öppna biblioteket i stället för spelkön när en tidigare session återställs."
+
+#: src/gtk/preferences.blp:23
+msgid "Preferred Library"
+msgstr "Föredraget bibliotek"
+
+#: src/gtk/preferences.blp:24
+msgid "The library page to open when automatically switching to the library."
+msgstr "Bibliotekssidan som öppnas vid automatisk växling till biblioteket."
+
+#: src/gtk/preferences.blp:31
+msgid "Append Opened Tracks to Queue"
+msgstr "Lägg till öppnade spår i kön"
+
+#: src/gtk/preferences.blp:32
+msgid ""
+"When opening tracks from the file manager, append them to the queue instead "
+"of playing them when the queue is not empty."
+msgstr ""
+"När spår öppnas från filhanteraren läggs de till i kön i stället för att "
+"spelas när kön inte är tom."
+
+#: src/gtk/preferences.blp:41
+msgid "Dynamic Recoloring"
+msgstr "Dynamisk omfärgning"
+
+#: src/gtk/preferences.blp:42
+msgid ""
+"Recolor the window with the primary colors of the selected album's cover."
+msgstr "Färgsätt fönstret med huvudfärgerna från det valda albumets omslag."
+
+#: src/gtk/preferences.blp:48
+msgid "_Use Remaining Time"
+msgstr "_Använd återstående tid"
+
+#: src/gtk/preferences.blp:49
+msgid ""
+"Show the time left in the currently playing song instead of the total "
+"duration."
+msgstr ""
+"Visa tiden som återstår i den låt som spelas i stället för den totala "
+"längden."
+
+#: src/gtk/preferences.blp:56
+msgid "Lyrics Dialog"
+msgstr "Dialogruta för sångtext"
+
+#: src/gtk/preferences.blp:57
+msgid ""
+"Control how lyrics are edited and saved. Existing lyrics are saved to the "
+"source they were read from, with external files always taking priority. New "
+"lyrics are saved to the location configured here."
+msgstr ""
+"Styr hur sångtexter redigeras och sparas. Befintliga sångtexter sparas till "
+"källan de lästes från, med externa filer som alltid har företräde. Nya "
+"sångtexter sparas på platsen som konfigureras här."
+
+#: src/gtk/preferences.blp:60
+msgid "New Lyrics Save Location"
+msgstr "Ny sparplats för sångtext"
+
+#: src/gtk/preferences.blp:61
+msgid "Where to save newly added lyrics for tracks."
+msgstr "Var ny sångtext för spår ska sparas."
+
+#: src/gtk/preferences.blp:71
+msgid "Always Ask"
+msgstr "Fråga alltid"
+
+#: src/gtk/preferences.blp:79
+msgid "Save to Subdirectory"
+msgstr "Spara till underkatalog"
+
+#: src/gtk/preferences.blp:80
+msgid ""
+"Save new lyrics to <tt>[track directory]/lyrics/[filename].[txt|lrc]</tt> "
+"rather than <tt>[track directory]/[filename].[txt|lrc]</tt>"
+msgstr ""
+"Spara ny sångtext till <tt>[spårkatalog]/lyrics/[filnamn].[txt|lrc]</tt> i "
+"stället för <tt>[spårkatalog]/[filnamn].[txt|lrc]</tt>"
+
+#: src/gtk/preferences.blp:85
+msgid "Filename"
+msgstr "Filnamn"
+
+#: src/gtk/preferences.blp:90
+msgid "Same As Track"
+msgstr "Samma som spår"
+
+#: src/gtk/preferences.blp:91
+msgid "Track Title"
+msgstr "Spårtitel"
+
+#: src/gtk/preferences.blp:101
+msgid "Library"
+msgstr "Bibliotek"
+
+#: src/gtk/preferences.blp:108
+msgid "Music Directory"
+msgstr "Musikkatalog"
+
+#: src/gtk/preferences.blp:124
+msgid "Show All Artists"
+msgstr "Visa alla artister"
+
+#: src/gtk/preferences.blp:125
+msgid ""
+"Show all artists in the artist list, including those only featured on some "
+"tracks."
+msgstr ""
+"Visa alla artister i artistlistan, även de som bara medverkar på vissa spår."
+
+#: src/gtk/preferences.blp:131
+msgid "Sync"
+msgstr "Synkronisera"
+
+#: src/gtk/preferences.blp:134
+msgid "_Sync on Startup"
+msgstr "_Synkronisera vid start"
+
+#: src/gtk/preferences.blp:135
+msgid "Check for changes to the music directory when Recordbox is started."
+msgstr "Sök efter ändringar i musikkatalogen när Recordbox startas."
+
+#: src/gtk/preferences.blp:141
+msgid "_Watch For Changes"
+msgstr "_Bevaka ändringar"
+
+#: src/gtk/preferences.blp:142
+msgid ""
+"Automatically update the library in response to changes in the music "
+"directory."
+msgstr "Uppdatera automatiskt biblioteket när musikkatalogen ändras."
+
+#: src/gtk/preferences.blp:150
+msgid "Playback"
+msgstr "Uppspelning"
+
+#: src/gtk/preferences.blp:158
+msgid "Play in _Background"
+msgstr "Spela i _bakgrunden"
+
+#: src/gtk/preferences.blp:159
+msgid ""
+"When a track is playing, remain in the background when the main window is "
+"closed instead of exiting."
+msgstr ""
+"När ett spår spelas, fortsätt i bakgrunden när huvudfönstret stängs i "
+"stället för att avsluta."
+
+#: src/gtk/preferences.blp:165
+msgid "Playback Notifications"
+msgstr "Uppspelningsaviseringar"
+
+#: src/gtk/preferences.blp:166
+msgid "Send notifications on track changes."
+msgstr "Skicka aviseringar vid spårbyten."
+
+#: src/gtk/preferences.blp:173
+msgid "ReplayGain"
+msgstr "ReplayGain"
+
+#: src/gtk/preferences.blp:174
+msgid "Change parameters for ReplayGain volume normalization."
+msgstr "Ändra parametrar för ReplayGain-volymnormalisering."
+
+#: src/gtk/preferences.blp:177
+msgid "_Enable ReplayGain"
+msgstr "_Aktivera ReplayGain"
+
+#: src/gtk/preferences.blp:183
+msgid "ReplayGain Mode"
+msgstr "ReplayGain-läge"
+
+#: src/gtk/preferences.blp:184
+msgid ""
+"Setting to Album mode preserves the relative volume of an album's tracks, "
+"while Track mode normalizes all tracks to the same volume."
+msgstr ""
+"Albumläget bevarar albumspårens relativa volym, medan spårläget normaliserar "
+"alla spår till samma volym."
+
+#: src/gtk/preferences.blp:188 src/gtk/window.blp:364
+msgid "Album"
+msgstr "Album"
+
+#: src/gtk/preferences.blp:189
+msgid "Track"
+msgstr "Spår"
+
+#: src/gtk/preferences.blp:195
+msgid "Preamp"
+msgstr "Förförstärkning"
+
+#: src/gtk/preferences.blp:196
+msgid "Apply additional gain globally to all tracks."
+msgstr "Tillämpa ytterligare förstärkning globalt på alla spår."
+
+#: src/gtk/preferences.blp:209
+msgid "Fallback Gain"
+msgstr "Reservförstärkning"
+
+#: src/gtk/preferences.blp:210
+msgid "Gain adjustment to use when ReplayGain data for a track is not found."
+msgstr "Förstärkningsjustering när ReplayGain-data saknas för ett spår."
+
+#: src/gtk/search_view.blp:18 src/gtk/search_view.blp:133
+#: src/gtk/window.blp:321
+msgid "Search"
+msgstr "Sök"
+
+#: src/gtk/search_view.blp:30
+msgid "Filters"
+msgstr "Filter"
+
+#: src/gtk/search_view.blp:67
+msgid "All"
+msgstr "Alla"
+
+#: src/gtk/search_view.blp:69
+msgid "Tracks"
+msgstr "Spår"
+
+#: src/gtk/search_view.blp:79
+msgid "Any"
+msgstr "Valfri"
+
+#: src/gtk/search_view.blp:80
+msgid "By Artist"
+msgstr "Efter artist"
+
+#: src/gtk/search_view.blp:81
+msgid "In Genre"
+msgstr "I genre"
+
+#: src/gtk/search_view.blp:134
+msgid "Search for albums, artists, and songs"
+msgstr "Sök efter album, artister och låtar"
+
+#: src/gtk/search_view.blp:143
+msgid "Searching"
+msgstr "Söker"
+
+#: src/gtk/search_view.blp:144
+msgid "Searching for results..."
+msgstr "Söker efter resultat …"
+
+#: src/gtk/search_view.blp:156
+msgid "No results"
+msgstr "Inga resultat"
+
+#: src/gtk/search_view.blp:157
+msgid "No results found"
+msgstr "Inga resultat hittades"
+
+#: src/gtk/shortcuts-dialog.blp:6
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allmänt"
+
+#: src/gtk/shortcuts-dialog.blp:9
+msgctxt "shortcut window"
+msgid "Search"
+msgstr "Sök"
+
+#: src/gtk/shortcuts-dialog.blp:14
+msgctxt "shortcut window"
+msgid "Open Preferences"
+msgstr "Öppna inställningar"
+
+#: src/gtk/shortcuts-dialog.blp:19
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Visa kortkommandon"
+
+#: src/gtk/shortcuts-dialog.blp:24
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/gtk/shortcuts-dialog.blp:30
+msgctxt "shorcut window"
+msgid "Navigation"
+msgstr "Navigering"
+
+#: src/gtk/shortcuts-dialog.blp:33
+msgctxt "shorcut window"
+msgid "Artist View"
+msgstr "Artistvy"
+
+#: src/gtk/shortcuts-dialog.blp:38
+msgctxt "shorcut window"
+msgid "Genre View"
+msgstr "Genrevy"
+
+#: src/gtk/shortcuts-dialog.blp:43
+msgctxt "shorcut window"
+msgid "Search View"
+msgstr "Sökvy"
+
+#: src/gtk/shortcuts-dialog.blp:48
+msgctxt "shorcut window"
+msgid "Lyrics View"
+msgstr "Sångtextvy"
+
+#: src/gtk/shortcuts-dialog.blp:53
+msgctxt "shorcut window"
+msgid "Play Queue"
+msgstr "Spelkö"
+
+#: src/gtk/shortcuts-dialog.blp:59
+msgctxt "shortcut window"
+msgid "Library"
+msgstr "Bibliotek"
+
+#: src/gtk/shortcuts-dialog.blp:62
+msgctxt "shortcut window"
+msgid "Sync Library"
+msgstr "Synkronisera bibliotek"
+
+#: src/gtk/shortcuts-dialog.blp:67
+msgctxt "shortcut window"
+msgid "Refresh Library "
+msgstr "Uppdatera bibliotek "
+
+#: src/gtk/shortcuts-dialog.blp:74
+msgctxt "shortcut window"
+msgid "Play Selected Items"
+msgstr "Spela markerade objekt"
+
+#: src/gtk/shortcuts-dialog.blp:79
+msgctxt "shortcut window"
+msgid "Add Selected Items to Queue"
+msgstr "Lägg till markerade objekt i kön"
+
+#: src/gtk/shortcuts-dialog.blp:84
+msgctxt "shortcut window"
+msgid "Replace Queue with Selected Items"
+msgstr "Ersätt kön med markerade objekt"
+
+#: src/gtk/shortcuts-dialog.blp:89
+msgctxt "shortcut window"
+msgid "Clear Selected Artist"
+msgstr "Rensa markerad artist"
+
+#: src/gtk/shortcuts-dialog.blp:95
+msgctxt "shortcut window"
+msgid "Play Queue"
+msgstr "Spelkö"
+
+#: src/gtk/shortcuts-dialog.blp:98
+msgctxt "shortcut window"
+msgid "Remove Selected Items"
+msgstr "Ta bort markerade objekt"
+
+#: src/gtk/shortcuts-dialog.blp:103
+msgctxt "shortcut window"
+msgid "Clear Play Queue"
+msgstr "Rensa spelkön"
+
+#: src/gtk/shortcuts-dialog.blp:108
+msgctxt "shortcut window"
+msgid "Undo"
+msgstr "Ångra"
+
+#: src/gtk/shortcuts-dialog.blp:113
+msgctxt "shortcut window"
+msgid "Redo"
+msgstr "Gör om"
+
+#: src/gtk/shortcuts-dialog.blp:119
+msgctxt "shortcut window"
+msgid "Playback"
+msgstr "Uppspelning"
+
+#: src/gtk/shortcuts-dialog.blp:122
+msgctxt "shortcut window"
+msgid "Toggle Play/Pause"
+msgstr "Växla spela/pausa"
+
+#: src/gtk/shortcuts-dialog.blp:127
+msgctxt "shortcut window"
+msgid "Toggle Stop After Current"
+msgstr "Växla stoppa efter aktuellt"
+
+#: src/gtk/shortcuts-dialog.blp:134
+msgctxt "shortcut window"
+msgid "Next Track"
+msgstr "Nästa spår"
+
+#: src/gtk/shortcuts-dialog.blp:139
+msgctxt "shortcut window"
+msgid "Previous Track"
+msgstr "Föregående spår"
+
+#: src/gtk/shortcuts-dialog.blp:145
+msgctxt "shortcut window"
+msgid "Synced Lyrics"
+msgstr "Synkroniserad sångtext"
+
+#: src/gtk/shortcuts-dialog.blp:148
+msgctxt "shortcut window"
+msgid "Sync Timestamp to Playback Position"
+msgstr "Synkronisera tidsstämpel med uppspelningsposition"
+
+#: src/gtk/shortcuts-dialog.blp:153
+msgctxt "shortcut window"
+msgid "Sync Timestamp and Advance to Next Line"
+msgstr "Synkronisera tidsstämpel och gå till nästa rad"
+
+#: src/gtk/shortcuts-dialog.blp:158
+msgctxt "shortcut window"
+msgid "Add Time"
+msgstr "Lägg till tid"
+
+#: src/gtk/shortcuts-dialog.blp:163
+msgctxt "shortcut window"
+msgid "Subtract Time"
+msgstr "Dra av tid"
+
+#: src/gtk/shortcuts-dialog.blp:170
+msgctxt "shortcut window"
+msgid "Add Line Above"
+msgstr "Lägg till rad ovanför"
+
+#: src/gtk/shortcuts-dialog.blp:175
+msgctxt "shortcut window"
+msgid "Add Line Below"
+msgstr "Lägg till rad nedanför"
+
+#: src/gtk/shortcuts-dialog.blp:180
+msgctxt "shortcut window"
+msgid "Delete Line"
+msgstr "Ta bort rad"
+
+#: src/gtk/shortcuts-dialog.blp:187
+msgctxt "shortcut window"
+msgid "Focus Lyric Text"
+msgstr "Fokusera sångtext"
+
+#: src/gtk/shortcuts-dialog.blp:192
+msgctxt "shortcut window"
+msgid "Reset All Modificaitons"
+msgstr "Återställ alla ändringar"
+
+#: src/gtk/shortcuts-dialog.blp:197
+msgctxt "shortcut window"
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: src/gtk/window.blp:72 src/gtk/window.blp:146 src/gtk/window.blp:231
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/gtk/window.blp:256
+msgid "Open Player"
+msgstr "Öppna spelare"
+
+#: src/gtk/window.blp:347
+msgid "Play Queue"
+msgstr "Spelkö"
+
+#: src/gtk/window.blp:412
+msgid "_Preferences"
+msgstr "_Inställningar"
+
+#: src/gtk/window.blp:417
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: src/gtk/window.blp:422
+msgid "_About Recordbox"
+msgstr "_Om Recordbox"
+
+#: src/gtk/window.blp:427
+msgid "_Quit"
+msgstr "_Avsluta"
