@@ -1,0 +1,1418 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Lazarr! package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Lazarr! 2.0.0\n"
+"Report-Msgid-Bugs-To: Wuzzy@disroot.org\n"
+"POT-Creation-Date: 2026-02-24 17:42+0100\n"
+"PO-Revision-Date: 2026-09-13 07:40+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/lazarr/"
+"lzr_infobooks/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#: mods/lzr_infobooks/init.lua:79
+msgid "Previous page"
+msgstr "Föregående sida"
+
+#. ~ Button to close a book
+#: mods/lzr_infobooks/init.lua:85
+msgid "Close book"
+msgstr "Stäng bok"
+
+#: mods/lzr_infobooks/init.lua:91
+msgid "Next page"
+msgstr "Nästa sida"
+
+#: mods/lzr_infobooks/init.lua:114
+msgid "Select a book:"
+msgstr "Välj en bok:"
+
+#: mods/lzr_infobooks/init.lua:116
+msgid "Read"
+msgstr "Läs"
+
+#. ~ Button to close a window
+#: mods/lzr_infobooks/init.lua:118
+msgid "Close"
+msgstr "Stäng"
+
+#: mods/lzr_infobooks/register.lua:5
+msgid ""
+"One-way glass has a bright and a dark side. Lasers may only pass through "
+"from the bright side. They will be blocked if they come from the other side."
+msgstr ""
+"Envägsglas har en ljus och en mörk sida. Lasrar kan endast passera från den "
+"ljusa sidan. De blockeras om de kommer från den andra sidan."
+
+#: mods/lzr_infobooks/register.lua:6
+msgid ""
+"Filter glass comes in multiple colors. When a laser goes through the glass, "
+"only the color components of the laser that match the filter glass may pass, "
+"while the others will be blocked."
+msgstr ""
+"Filterglas finns i flera färger. När en laser går genom glaset kan endast de "
+"färgkomponenter i lasern som matchar filterglaset passera, medan övriga "
+"blockeras."
+
+#: mods/lzr_infobooks/register.lua:11
+msgid "Laser"
+msgstr "Laser"
+
+#: mods/lzr_infobooks/register.lua:11
+msgid ""
+"Lasers are beams of light that extend in a straight line until they collide "
+"with a block or are deflected. Lasers can interact with many different "
+"blocks and come in seven different colors."
+msgstr ""
+"Lasrar är ljusstrålar som fortsätter i en rak linje tills de träffar ett "
+"block eller avlänkas. Lasrar kan samverka med många olika block och finns i "
+"sju olika färger."
+
+#: mods/lzr_infobooks/register.lua:12
+msgid "Emitter"
+msgstr "Utsändare"
+
+#: mods/lzr_infobooks/register.lua:12
+msgid ""
+"This block emits a laser when turned on. Emitters come in different colors."
+msgstr ""
+"Det här blocket skickar ut en laser när den startas. Utsändare kommer i "
+"olika färger."
+
+#: mods/lzr_infobooks/register.lua:13
+msgid "Detector (colorless)"
+msgstr "Upptäckare (färglös)"
+
+#: mods/lzr_infobooks/register.lua:13
+msgid ""
+"This block has a hole and will be activated when a laser goes into it. It "
+"may then trigger something."
+msgstr ""
+"Det här blocket har ett hål och aktiveras när en laser går in i det. Det kan "
+"då utlösa något."
+
+#: mods/lzr_infobooks/register.lua:14
+msgid "Detector (colored)"
+msgstr "Detektor (färgad)"
+
+#: mods/lzr_infobooks/register.lua:14
+msgid ""
+"Like the colorless detector, it will be activated when a laser goes into the "
+"hole. But colored detectors require the laser to be of the same color."
+msgstr ""
+"Precis som den färglösa detektorn aktiveras den när en laser går in i hålet. "
+"Färgade detektorer kräver dock att lasern har samma färg."
+
+#: mods/lzr_infobooks/register.lua:15
+msgid "When a laser hits the mirror, it will make a turn."
+msgstr "När en laser träffar spegeln svänger den av."
+
+#: mods/lzr_infobooks/register.lua:16
+msgid ""
+"The double mirror has a reflective surface on two sides, so it can deflect "
+"two lasers at once."
+msgstr ""
+"Dubbelspegeln har en reflekterande yta på två sidor och kan därför avlänka "
+"två lasrar samtidigt."
+
+#: mods/lzr_infobooks/register.lua:17
+msgid ""
+"When a laser hits the angled part of a beam splitter, it splits it into two. "
+"One part of the laser goes straight through while the other part will be "
+"deflected."
+msgstr ""
+"När en laser träffar den vinklade delen av en stråldelare delas den i två. "
+"Den ena delen går rakt igenom medan den andra avlänkas."
+
+#: mods/lzr_infobooks/register.lua:17
+msgid "Shooting a laser at the backside of this block won’t do anything."
+msgstr "Att skjuta en laser mot baksidan av detta block gör ingenting."
+
+#: mods/lzr_infobooks/register.lua:18
+msgid "One-Way Glass"
+msgstr "Envägsglas"
+
+#: mods/lzr_infobooks/register.lua:19
+msgid "When a laser goes into a crystal, it will spread in all directions."
+msgstr "När en laser går in i en kristall sprids den åt alla håll."
+
+#: mods/lzr_infobooks/register.lua:20
+msgid "Pillar crystals spread lasers in three other directions."
+msgstr "Pelarkristaller sprider lasrar i tre andra riktningar."
+
+#: mods/lzr_infobooks/register.lua:21
+msgid "Triangle crystals spread lasers in two other directions."
+msgstr "Triangelkristaller sprider lasrar i två andra riktningar."
+
+#: mods/lzr_infobooks/register.lua:22
+msgid ""
+"The mixer has two inputs to the left and right and one output at the front. "
+"When two lasers go into the input, a laser with their colors mixed will go "
+"out of the output."
+msgstr ""
+"Blandaren har två ingångar till vänster och höger samt en utgång framtill. "
+"När två lasrar går in i ingångarna kommer en laser med blandade färger ut ur "
+"utgången."
+
+#: mods/lzr_infobooks/register.lua:22
+msgid ""
+"When only one input is used, the same laser will go out of the output "
+"unchanged."
+msgstr ""
+"När endast en ingång används kommer samma laser ut ur utgången oförändrad."
+
+#: mods/lzr_infobooks/register.lua:23
+msgid "Filter Glass"
+msgstr "Filterglas"
+
+#: mods/lzr_infobooks/register.lua:24
+msgid "Dichroic Mirror"
+msgstr "Dikroisk spegel"
+
+#: mods/lzr_infobooks/register.lua:24
+msgid ""
+"This block splits the color components of lasers. Depending on the colors, a "
+"laser that hits the angled part either goes straight through, is deflected, "
+"or is split into two lasers of different colors."
+msgstr ""
+"Det här blocket delar laserstrålarnas färgkomponenter. Beroende på färgerna "
+"går en laser som träffar den vinklade delen antingen rakt igenom, avlänkas "
+"eller delas i två lasrar med olika färger."
+
+#: mods/lzr_infobooks/register.lua:25
+msgid ""
+"The color components (i.e. red, green, blue) of the laser that share the "
+"color components of the block will go straight through, while the others "
+"will be deflected."
+msgstr ""
+"De färgkomponenter, det vill säga röd, grön och blå, i lasern som delar "
+"blockets färgkomponenter går rakt igenom, medan övriga avlänkas."
+
+#: mods/lzr_infobooks/register.lua:27
+msgid "Shooting at the backside of this block won’t do anything."
+msgstr "Att skjuta mot baksidan av detta block gör ingenting."
+
+#: mods/lzr_infobooks/register.lua:29 mods/lzr_infobooks/register.lua:30
+msgid ""
+"Skulls have holes on each side and lasers fired at it will go straight "
+"through."
+msgstr ""
+"Skallar har hål på varje sida och lasrar som skjuts mot dem går rakt igenom."
+
+#: mods/lzr_infobooks/register.lua:29
+msgid ""
+"This skull is called “shy” because it’s afraid of lasers. When any laser "
+"touches it, it will become ghostly and cannot be touched or walked on."
+msgstr ""
+"Den här skallen kallas ”blyg” eftersom den är rädd för lasrar. När en laser "
+"vidrör den blir den spöklik och kan inte röras eller gås på."
+
+#: mods/lzr_infobooks/register.lua:30
+msgid ""
+"The cursed skulls have lost their physical form and cannot be touched or "
+"walked on. They can be brought back into the physical realm by firing a "
+"laser at it."
+msgstr ""
+"De förbannade skallarna har förlorat sin fysiska form och kan inte röras "
+"eller gås på. De kan föras tillbaka till den fysiska världen genom att "
+"skjuta en laser på dem."
+
+#: mods/lzr_infobooks/register.lua:31
+msgid ""
+"The bomb will blow up cracked stone and other fragile blocks when its fuse "
+"has been ignited by a laser or fire. The explosion affects all blocks in an "
+"area of 3×3×3 blocks. If the explosion hits another bomb, the other bomb "
+"will also explode."
+msgstr ""
+"Bomben spränger sprucken sten och andra ömtåliga block när stubinen har "
+"antänts av en laser eller eld. Explosionen påverkar alla block i ett område "
+"på 3×3×3 block. Om explosionen träffar en annan bomb exploderar även den "
+"bomben."
+
+#: mods/lzr_infobooks/register.lua:32
+msgid ""
+"Barricades are flammable and burn up when hit by a laser. They also ignite "
+"all flammable blocks and fuses next to them."
+msgstr ""
+"Barrikader är brandfarliga och brinner upp när de träffas av en laser. De "
+"antänder också alla brandfarliga block och stubiner intill dem."
+
+#: mods/lzr_infobooks/register.lua:33
+msgid "A simple obstacle with an opening where a laser can go through."
+msgstr "Ett enkelt hinder med en öppning där en laser kan passera."
+
+#: mods/lzr_infobooks/register.lua:55
+msgid "Laser Blocks"
+msgstr "Laserblock"
+
+#: mods/lzr_infobooks/register.lua:64
+msgid "Solid Block"
+msgstr "Massivt block"
+
+#: mods/lzr_infobooks/register.lua:64
+msgid ""
+"Most blocks are solid. This includes stone, wood, tree trunks, furniture, "
+"dirt, sand, and more. Solid blocks cannot be destroyed, picked up, rotated "
+"or moved."
+msgstr ""
+"De flesta block är massiva. Det gäller sten, trä, trädstammar, möbler, jord, "
+"sand och mer. Massiva block kan inte förstöras, plockas upp, roteras eller "
+"flyttas."
+
+#: mods/lzr_infobooks/register.lua:65
+msgid "Cracked Stone"
+msgstr "Sprucken sten"
+
+#: mods/lzr_infobooks/register.lua:65
+msgid "Cracked stone will be destroyed by explosions."
+msgstr "Sprucken sten förstörs av explosioner."
+
+#: mods/lzr_infobooks/register.lua:66
+msgid "Lever"
+msgstr "Spak"
+
+#: mods/lzr_infobooks/register.lua:66
+msgid "Punch the lever to trigger something."
+msgstr "Slå på spaken för att utlösa något."
+
+#: mods/lzr_infobooks/register.lua:67
+msgid ""
+"Unlike the darker heavy crate, a light crate can be picked up and carried "
+"around. You can use it to reach higher places."
+msgstr ""
+"Till skillnad från den mörkare tunga lådan kan en lätt låda plockas upp och "
+"bäras omkring. Du kan använda den för att nå högre platser."
+
+#: mods/lzr_infobooks/register.lua:68
+msgid "Old Wood"
+msgstr "Gammalt trä"
+
+#: mods/lzr_infobooks/register.lua:68
+msgid ""
+"Old crates and barrels fall into pieces at the slightest touch. Explosions "
+"also destroy them."
+msgstr ""
+"Gamla lådor och tunnor faller sönder vid minsta beröring. Explosioner "
+"förstör dem också."
+
+#: mods/lzr_infobooks/register.lua:69
+msgid "Light Box"
+msgstr "Ljuslåda"
+
+#: mods/lzr_infobooks/register.lua:69
+msgid "Light boxes create light. They may be turned on or off by detectors."
+msgstr "Ljuslådor skapar ljus. De kan slås på eller av av detektorer."
+
+#: mods/lzr_infobooks/register.lua:70
+msgid ""
+"Cobwebs make it impossible to jump while inside them. You also can’t touch "
+"anything behind a cobweb."
+msgstr ""
+"Spindelnät gör det omöjligt att hoppa när du befinner dig i dem. Du kan inte "
+"heller röra något bakom ett spindelnät."
+
+#: mods/lzr_infobooks/register.lua:70
+msgid "Cobwebs can be destroyed with lasers."
+msgstr "Spindelnät kan förstöras med lasrar."
+
+#: mods/lzr_infobooks/register.lua:71
+msgid "You cannot jump inside a dense cobweb, nor touch anything behind one."
+msgstr "Du kan inte hoppa i ett tätt spindelnät eller röra något bakom det."
+
+#: mods/lzr_infobooks/register.lua:71
+msgid "Unlike regular cobwebs, dense cobwebs cannot be destroyed with lasers."
+msgstr ""
+"Till skillnad från vanliga spindelnät kan täta spindelnät inte förstöras med "
+"lasrar."
+
+#: mods/lzr_infobooks/register.lua:97
+msgid "Other Blocks"
+msgstr "Övriga block"
+
+#: mods/lzr_infobooks/register.lua:103
+msgid "Goal of the Game"
+msgstr "Spelets mål"
+
+#: mods/lzr_infobooks/register.lua:107
+msgid "Find Gold"
+msgstr "Hitta guld"
+
+#: mods/lzr_infobooks/register.lua:108
+msgid "The goal of every level is to find all gold blocks."
+msgstr "Målet i varje nivå är att hitta alla guldblock."
+
+#: mods/lzr_infobooks/register.lua:112
+msgid "Treasure Chests"
+msgstr "Skattkistor"
+
+#: mods/lzr_infobooks/register.lua:113
+msgid ""
+"You can find treasure chests all over the world. You can find a gold block "
+"inside."
+msgstr ""
+"Du kan hitta skattkistor över hela världen. Inuti kan du hitta ett guldblock."
+
+#: mods/lzr_infobooks/register.lua:114
+msgid "To open an unlocked chest, just punch it."
+msgstr "För att öppna en olåst kista behöver du bara slå på den."
+
+#: mods/lzr_infobooks/register.lua:118
+msgid "Breaking the lock"
+msgstr "Bryta låset"
+
+#: mods/lzr_infobooks/register.lua:119
+msgid ""
+"Many chests are locked. To break the lock, you need to solve a laser puzzle "
+"by sending lasers into detectors."
+msgstr ""
+"Många kistor är låsta. För att bryta låset måste du lösa ett laserpussel "
+"genom att leda lasrar in i detektorer."
+
+#: mods/lzr_infobooks/register.lua:123 mods/lzr_infobooks/register.lua:306
+msgid "Blocks"
+msgstr "Block"
+
+#: mods/lzr_infobooks/register.lua:124
+msgid ""
+"There are many blocks that will help or hinder you to reach the goal. "
+"Mirrors deflect lasers, mixers mix the laser color, barricades block the "
+"way, skulls may create new passages, and so on."
+msgstr ""
+"Det finns många block som hjälper eller hindrar dig att nå målet. Speglar "
+"avlänkar lasrar, blandare blandar laserfärger, barrikader blockerar vägen, "
+"skallar kan skapa nya passager och så vidare."
+
+#: mods/lzr_infobooks/register.lua:125
+msgid ""
+"Some blocks can be picked up by punching. Some blocks can only be rotated "
+"with a tool."
+msgstr ""
+"Vissa block kan plockas upp genom att slå på dem. Vissa block kan endast "
+"roteras med ett verktyg."
+
+#: mods/lzr_infobooks/register.lua:126
+msgid "More information about blocks can be found in other books."
+msgstr "Mer information om block finns i andra böcker."
+
+#: mods/lzr_infobooks/register.lua:133 mods/lzr_infobooks/register.lua:137
+msgid "Level Packs"
+msgstr "Nivåpaket"
+
+#: mods/lzr_infobooks/register.lua:138
+msgid ""
+"This game can be extended with level packs. A level pack is a collection of "
+"custom levels."
+msgstr ""
+"Det här spelet kan utökas med nivåpaket. Ett nivåpaket är en samling egna "
+"nivåer."
+
+#: mods/lzr_infobooks/register.lua:139
+msgid "You can play level packs in “Custom levels”."
+msgstr "Du kan spela nivåpaket i ”Egna nivåer”."
+
+#: mods/lzr_infobooks/register.lua:140
+msgid ""
+"The gold you collect in custom levels won’t count to your treasure stash."
+msgstr "Guldet du samlar i egna nivåer räknas inte till din skattkista."
+
+#: mods/lzr_infobooks/register.lua:144
+msgid "Installing"
+msgstr "Installation"
+
+#: mods/lzr_infobooks/register.lua:145
+msgid ""
+"Level packs are contained in Luanti mods. To add a level pack, return to the "
+"Luanti main menu, download a level pack mod and activate it for this world."
+msgstr ""
+"Nivåpaket finns i Luanti-moduler. För att lägga till ett nivåpaket "
+"återvänder du till Luantis huvudmeny, hämtar en nivåpaketsmodul och "
+"aktiverar den för denna värld."
+
+#: mods/lzr_infobooks/register.lua:146
+msgid "You can find these mods in Luanti’s ContentDB."
+msgstr "Du kan hitta dessa moduler i Luantis ContentDB."
+
+#: mods/lzr_infobooks/register.lua:147
+msgid ""
+"Note that some level packs only work with newer game versions, so you may "
+"want to check for game updates."
+msgstr ""
+"Observera att vissa nivåpaket endast fungerar med nyare spelversioner, så "
+"kontrollera gärna om det finns speluppdateringar."
+
+#: mods/lzr_infobooks/register.lua:154 mods/lzr_infobooks/register.lua:158
+msgid "Pirate Sense"
+msgstr "Piratsinne"
+
+#: mods/lzr_infobooks/register.lua:159
+msgid ""
+"The pirate sense reveals the connections between blocks like detectors and "
+"chests."
+msgstr ""
+"Piratsinnet avslöjar kopplingarna mellan block som detektorer och kistor."
+
+#: mods/lzr_infobooks/register.lua:160
+msgid ""
+"This can be very useful to find important blocks in more complex locations."
+msgstr ""
+"Det kan vara mycket användbart för att hitta viktiga block på mer komplexa "
+"platser."
+
+#: mods/lzr_infobooks/register.lua:161
+msgid ""
+"The pirate sense works on any block that triggers something, or is triggered."
+msgstr ""
+"Piratsinnet fungerar på alla block som utlöser något eller utlöses av något."
+
+#: mods/lzr_infobooks/register.lua:164
+msgid "How to use"
+msgstr "Hur man använder"
+
+#: mods/lzr_infobooks/register.lua:165
+msgid ""
+"To use the pirate sense, select your empty hand, then press the [Place] key "
+"on the block you want to reveal the connections for."
+msgstr ""
+"För att använda piratsinnet väljer du din tomma hand och trycker sedan på "
+"tangenten [Place] på blocket vars kopplingar du vill avslöja."
+
+#: mods/lzr_infobooks/register.lua:166
+msgid ""
+"If there are connections, symbols will appear at that block and all its "
+"connections for a brief moment."
+msgstr ""
+"Om det finns kopplingar visas symboler en kort stund vid blocket och alla "
+"dess kopplingar."
+
+#: mods/lzr_infobooks/register.lua:167
+msgid ""
+"The symbols will be shown permanently if you hold down [Sneak] before "
+"activating the pirate sense."
+msgstr ""
+"Symbolerna visas permanent om du håller ned [Sneak] innan du aktiverar "
+"piratsinnet."
+
+#: mods/lzr_infobooks/register.lua:168
+msgid ""
+"To remove the symbols, press [Place] with your empty hand into air, or any "
+"block that doesn’t have connections."
+msgstr ""
+"För att ta bort symbolerna trycker du på [Place] med tom hand mot luften "
+"eller ett block som saknar kopplingar."
+
+#: mods/lzr_infobooks/register.lua:171
+msgid "Symbols"
+msgstr "Symboler"
+
+#: mods/lzr_infobooks/register.lua:172
+msgid "When using the pirate sense, you will see the following symbols:"
+msgstr "När du använder piratsinnet ser du följande symboler:"
+
+#: mods/lzr_infobooks/register.lua:173
+msgid ""
+"Green outgoing arrows stand for blocks that trigger something. For example, "
+"detectors."
+msgstr ""
+"Gröna pilar utåt visar block som utlöser något, till exempel detektorer."
+
+#: mods/lzr_infobooks/register.lua:174
+msgid ""
+"Red inwards arrows stand for blocks that can be triggered. For example, "
+"chests."
+msgstr "Röda pilar inåt visar block som kan utlösas, till exempel kistor."
+
+#: mods/lzr_infobooks/register.lua:175
+msgid ""
+"A lantern at the corner or edge of the screen is shown while the pirate "
+"sense is active."
+msgstr ""
+"En lykta visas i hörnet eller längs kanten av skärmen medan piratsinnet är "
+"aktivt."
+
+#: mods/lzr_infobooks/register.lua:182 mods/lzr_infobooks/register.lua:186
+msgid "Screws"
+msgstr "Skruvar"
+
+#: mods/lzr_infobooks/register.lua:187
+msgid ""
+"While you can pick up some blocks, some blocks have screws in their corners. "
+"Blocks with screws cannot be picked up."
+msgstr ""
+"Du kan plocka upp vissa block, men andra block har skruvar i hörnen. Block "
+"med skruvar kan inte plockas upp."
+
+#: mods/lzr_infobooks/register.lua:191
+msgid "Screw types"
+msgstr "Typer av skruvar"
+
+#: mods/lzr_infobooks/register.lua:192
+msgid "There are two types of screws:"
+msgstr "Det finns två typer av skruvar:"
+
+#: mods/lzr_infobooks/register.lua:193
+msgid "Copper screws (brown): Block can be rotated."
+msgstr "Kopparskruvar (bruna): Blocket kan roteras."
+
+#: mods/lzr_infobooks/register.lua:194
+msgid "Iron screws (gray): Block cannot be rotated."
+msgstr "Järnskruvar (grå): Blocket kan inte roteras."
+
+#: mods/lzr_infobooks/register.lua:228 mods/lzr_infobooks/register.lua:232
+msgid "Laser Colors"
+msgstr "Laserfärger"
+
+#: mods/lzr_infobooks/register.lua:233
+msgid ""
+"Lasers come in 7 different colors: Red, green, blue, yellow, cyan, magenta "
+"and white."
+msgstr ""
+"Lasrar finns i sju olika färger: röd, grön, blå, gul, cyan, magenta och vit."
+
+#: mods/lzr_infobooks/register.lua:237
+msgid "Color Mixing"
+msgstr "Färgblandning"
+
+#: mods/lzr_infobooks/register.lua:238
+msgid ""
+"When two lasers overlap or get mixed in a mixer, their colors will be "
+"combined."
+msgstr ""
+"När två lasrar överlappar eller blandas i en blandare kombineras deras "
+"färger."
+
+#: mods/lzr_infobooks/register.lua:239
+msgid "Red + Green → Yellow"
+msgstr "Röd + Grön → Gul"
+
+#: mods/lzr_infobooks/register.lua:240
+msgid "Red + Blue → Magenta"
+msgstr "Röd + blå → magenta"
+
+#: mods/lzr_infobooks/register.lua:241
+msgid "Green + Blue → Cyan"
+msgstr "Grön + blå → cyan"
+
+#: mods/lzr_infobooks/register.lua:242
+msgid "Red + Green + Blue → White"
+msgstr "Röd + grön + blå → vit"
+
+#: mods/lzr_infobooks/register.lua:249
+msgid "Hook"
+msgstr "Krok"
+
+#: mods/lzr_infobooks/register.lua:253
+msgid "Rotating Hook"
+msgstr "Roterande krok"
+
+#: mods/lzr_infobooks/register.lua:254
+msgid ""
+"The rotating hook allows you to rotate blocks. Not all blocks can be rotated."
+msgstr ""
+"Med den roterande kroken kan du rotera block. Alla block kan inte roteras."
+
+#: mods/lzr_infobooks/register.lua:255
+msgid "Use the [Place] or [Punch] key to rotate."
+msgstr "Använd tangenten [Place] eller [Punch] för att rotera."
+
+#: mods/lzr_infobooks/register.lua:256
+msgid "[Punch]: Rotate the block towards an edge."
+msgstr "[Punch]: Rotera blocket mot en kant."
+
+#: mods/lzr_infobooks/register.lua:257
+msgid "[Place]: Rotate the block clockwise."
+msgstr "[Place]: Rotera blocket medsols."
+
+#: mods/lzr_infobooks/register.lua:258
+msgid "Holding down [Sneak] will rotate in the reverse direction."
+msgstr "Om du håller ned [Sneak] roteras blocket åt motsatt håll."
+
+#: mods/lzr_infobooks/register.lua:262
+msgid "Playing on touchscreen"
+msgstr "Spela på pekskärm"
+
+#: mods/lzr_infobooks/register.lua:263
+msgid ""
+"Normally, the [Punch] key rotates the block towards the edge you touched."
+msgstr "Normalt roterar tangenten [Punch] blocket mot kanten du rörde vid."
+
+#: mods/lzr_infobooks/register.lua:264
+msgid ""
+"But if you play in touchscreen mode and the setting “Touch interaction "
+"style” is set to “Tap” (i.e. you play without crosshair), the block will "
+"instead rotate to the left or, if you hold down [Sneak], to the right."
+msgstr ""
+"Men om du spelar i pekskärmsläge och inställningen ”Touch interaction style” "
+"är satt till ”Tap”, det vill säga du spelar utan hårkors, roterar blocket i "
+"stället åt vänster eller åt höger om du håller ned [Sneak]."
+
+#: mods/lzr_infobooks/register.lua:267
+msgid "Rotation arrows"
+msgstr "Rotationspilar"
+
+#: mods/lzr_infobooks/register.lua:268
+msgid ""
+"Arrows will appear on the surface of a block you can rotate. They show the "
+"possible rotation directions."
+msgstr ""
+"Pilar visas på ytan av ett block som du kan rotera. De visar möjliga "
+"rotationsriktningar."
+
+#: mods/lzr_infobooks/register.lua:269
+msgid "Blue edge arrows: Rotation performed with the [Punch] key."
+msgstr "Blå kantpilar: Rotation utförs med tangenten [Punch]."
+
+#: mods/lzr_infobooks/register.lua:270
+msgid "Yellow center arrows: Rotation performed with the [Place] key."
+msgstr "Gula mittpilar: Rotation utförs med tangenten [Place]."
+
+#: mods/lzr_infobooks/register.lua:271
+msgid "This feature can be turned off in the graphics settings."
+msgstr "Den här funktionen kan inaktiveras i grafikinställningarna."
+
+#: mods/lzr_infobooks/register.lua:272
+msgid ""
+"Note: Rotation arrows don’t show up if you play in touchscreen mode with the "
+"setting “Touch interaction style” set to “Tap”."
+msgstr ""
+"Observera: Rotationspilar visas inte om du spelar i pekskärmsläge med "
+"inställningen ”Touch interaction style” satt till ”Tap”."
+
+#: mods/lzr_infobooks/register.lua:280
+msgid "Chests"
+msgstr "Kistor"
+
+#: mods/lzr_infobooks/register.lua:284
+msgid "Wooden Chest"
+msgstr "Träkista"
+
+#: mods/lzr_infobooks/register.lua:285
+msgid ""
+"Wooden chests may be locked or unlocked. The lock can be broken by "
+"triggering the chests with detectors."
+msgstr ""
+"Träkistor kan vara låsta eller olåsta. Låset kan brytas genom att utlösa "
+"kistorna med detektorer."
+
+#: mods/lzr_infobooks/register.lua:288
+msgid "Onyx Chest"
+msgstr "Onyxkista"
+
+#: mods/lzr_infobooks/register.lua:289
+msgid ""
+"Onyx chests behave like wooden chests but their lock is more difficult to "
+"crack: It may regenerate when it’s no longer being triggered by detectors."
+msgstr ""
+"Onyxkistor fungerar som träkistor men deras lås är svårare att knäcka: det "
+"kan återbildas när det inte längre utlöses av detektorer."
+
+#: mods/lzr_infobooks/register.lua:296
+msgid "Game Help"
+msgstr "Spelhjälp"
+
+#: mods/lzr_infobooks/register.lua:319
+msgid "Level Editor"
+msgstr "Nivåredigerare"
+
+#: mods/lzr_infobooks/register.lua:323
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: mods/lzr_infobooks/register.lua:325
+msgid "Use the level editor to create your own levels."
+msgstr "Använd nivåredigeraren för att skapa egna nivåer."
+
+#: mods/lzr_infobooks/register.lua:326
+msgid ""
+"Levels created in the level editor will be stored in the world directory and "
+"count as custom levels for the special level pack “Single levels”."
+msgstr ""
+"Nivåer som skapas i nivåredigeraren lagras i världskatalogen och räknas som "
+"egna nivåer för det särskilda nivåpaketet ”Enskilda nivåer”."
+
+#: mods/lzr_infobooks/register.lua:327
+msgid ""
+"Gold blocks you collect in custom levels do not count towards your loot."
+msgstr "Guldblock som du samlar i egna nivåer räknas inte till ditt byte."
+
+#: mods/lzr_infobooks/register.lua:331
+msgid "Getting started"
+msgstr "Komma i gång"
+
+#: mods/lzr_infobooks/register.lua:333
+msgid ""
+"When you enter the editor, you start with an empty room, a large inventory, "
+"and a couple of basic tools and items. Hover the items in the inventory with "
+"the cursor and read the tooltip to learn what they do."
+msgstr ""
+"När du öppnar redigeraren börjar du med ett tomt rum, ett stort förråd och "
+"några grundläggande verktyg och föremål. Håll markören över föremålen i "
+"förrådet och läs verktygstipset för att se vad de gör."
+
+#: mods/lzr_infobooks/register.lua:335
+msgid ""
+"In the inventory menu, you can access all items with the “Get items” button, "
+"change the level settings and save and load levels."
+msgstr ""
+"I förrådsmenyn kan du komma åt alla föremål med knappen ”Hämta föremål”, "
+"ändra nivåinställningarna samt spara och läsa in nivåer."
+
+#: mods/lzr_infobooks/register.lua:336
+msgid ""
+"In the “Get items” menu, the first items on page 1 are the most important "
+"ones, as those are the level editing tools."
+msgstr ""
+"I menyn ”Hämta föremål” är de första föremålen på sida 1 viktigast, eftersom "
+"de är verktygen för nivåredigering."
+
+#: mods/lzr_infobooks/register.lua:340
+msgid "Structure of a level"
+msgstr "En nivås struktur"
+
+#: mods/lzr_infobooks/register.lua:342
+msgid ""
+"Each level is a cuboid that occupies a portion of the world. This cuboid is "
+"surrounded by boundary blocks for the floor, walls and ceiling."
+msgstr ""
+"Varje nivå är en kuboid som upptar en del av världen. Kuboiden omges av "
+"gränsblock för golv, väggar och tak."
+
+#: mods/lzr_infobooks/register.lua:343
+msgid ""
+"When you look around, you will see 8 white crosses. These are the 8 corners "
+"of the level which contain the level contents."
+msgstr ""
+"När du ser dig omkring ser du åtta vita kryss. Det är de åtta hörnen på "
+"nivån som innehåller nivåinnehållet."
+
+#: mods/lzr_infobooks/register.lua:344
+msgid ""
+"The level boundaries will automatically be created when the level is loaded. "
+"Level boundaries replace air and water but not solid blocks. Also, water "
+"won’t be replaced by air, barrier or rain membrane nodes."
+msgstr ""
+"Nivågränserna skapas automatiskt när nivån läses in. Nivågränser ersätter "
+"luft och vatten men inte massiva block. Vatten ersätts inte heller av luft, "
+"barriär- eller regnmembrannoder."
+
+#: mods/lzr_infobooks/register.lua:345
+msgid ""
+"It’s allowed to choose air as level boundary, allowing the player to leave "
+"by walking away."
+msgstr ""
+"Du får välja luft som nivågräns, så att spelaren kan lämna nivån genom att "
+"gå därifrån."
+
+#: mods/lzr_infobooks/register.lua:346
+msgid ""
+"The player will start on a special block called “Start Block”, which must be "
+"placed somewhere in the level."
+msgstr ""
+"Spelaren börjar på ett särskilt block som kallas ”Startblock”, vilket måste "
+"placeras någonstans i nivån."
+
+#: mods/lzr_infobooks/register.lua:351
+msgid "Level settings"
+msgstr "Nivåinställningar"
+
+#: mods/lzr_infobooks/register.lua:353
+msgid ""
+"The level settings can be accessed in the inventory menu. The following "
+"settings exist:"
+msgstr "Nivåinställningarna nås i förrådsmenyn. Följande inställningar finns:"
+
+#: mods/lzr_infobooks/register.lua:354
+msgid ""
+"• Name: The name of the level, as shown to the player. Can be empty for "
+"untitled levels"
+msgstr ""
+"• Namn: Nivåns namn, som visas för spelaren. Kan lämnas tomt för nivåer utan "
+"titel"
+
+#: mods/lzr_infobooks/register.lua:355
+msgid ""
+"• Size: Size of the level along the X, Y and Z axes. This excludes the level "
+"boundary"
+msgstr ""
+"• Storlek: Nivåns storlek längs X-, Y- och Z-axlarna. Detta omfattar inte "
+"nivågränsen"
+
+#: mods/lzr_infobooks/register.lua:356
+msgid ""
+"• Advanced level settings: You can toggle some rarely used settings here "
+"(also known as “level flags”)"
+msgstr ""
+"• Avancerade nivåinställningar: Här kan du växla vissa sällan använda "
+"inställningar, även kallade ”nivåflaggor”"
+
+#: mods/lzr_infobooks/register.lua:357
+msgid ""
+"• Wall/Floor/Ceiling block: The itemstrings of the blocks that surround the "
+"level at the sides, bottom and top. Press the item buttons to select one of "
+"the recommended blocks. In case of an invalid block, the game uses wooden "
+"planks"
+msgstr ""
+"• Vägg-/golv-/takblock: Föremålssträngarna för blocken som omger nivån på "
+"sidorna, undersidan och ovansidan. Tryck på föremålsknapparna för att välja "
+"ett av de rekommenderade blocken. Vid ett ogiltigt block använder spelet "
+"träplankor"
+
+#: mods/lzr_infobooks/register.lua:358
+msgid ""
+"• Goldie speech: What Goldie the Parrot will say. This only makes sense if "
+"you placed a parrot spawner"
+msgstr ""
+"• Goldies tal: Vad papegojan Goldie ska säga. Detta är bara meningsfullt om "
+"du har placerat en papegojspawner"
+
+#: mods/lzr_infobooks/register.lua:359
+msgid "• Music: Select a music track or disable music"
+msgstr "• Musik: Välj ett musikspår eller inaktivera musik"
+
+#: mods/lzr_infobooks/register.lua:360
+msgid "• Weather: Visual weather effects (no sounds)"
+msgstr "• Väder: Visuella vädereffekter utan ljud"
+
+#: mods/lzr_infobooks/register.lua:361
+msgid ""
+"• Sky: Affects the sky color, clouds, sun, moon, stars and the time of day"
+msgstr ""
+"• Himmel: Påverkar himmelsfärgen, moln, sol, måne, stjärnor och tiden på "
+"dagen"
+
+#: mods/lzr_infobooks/register.lua:362
+msgid ""
+"• Backdrop: The broader world that surrounds the level, purely for "
+"decoration. Ocean, Underground and Sky are at fixed locations. For Islands, "
+"you can select a world location with X/Y/Z coordinates"
+msgstr ""
+"• Bakgrund: Den större värld som omger nivån, endast som dekoration. Ocean, "
+"Underground och Sky finns på fasta platser. För Islands kan du välja en "
+"plats i världen med X/Y/Z-koordinater"
+
+#: mods/lzr_infobooks/register.lua:364
+msgid ""
+"Warning: If you reduce the level size, blocks outside the new level area "
+"will be deleted."
+msgstr ""
+"Varning: Om du minskar nivåns storlek tas block utanför det nya nivåområdet "
+"bort."
+
+#: mods/lzr_infobooks/register.lua:366
+msgid ""
+"Hint: To find a good spot for the Islands backdrop, use Fly Mode to fly "
+"through the world and debug mode to see your current world coordinates."
+msgstr ""
+"Tips: För att hitta en bra plats för Islands-bakgrunden använder du Fly Mode "
+"för att flyga genom världen och felsökningsläget för att se dina aktuella "
+"världskoordinater."
+
+#: mods/lzr_infobooks/register.lua:370
+msgid "Level rules"
+msgstr "Nivå-regler"
+
+#: mods/lzr_infobooks/register.lua:372
+msgid ""
+"Levels need to satisfy some requirements to be playable. The minimal "
+"requirements for every level are:"
+msgstr ""
+"Nivåer måste uppfylla vissa krav för att kunna spelas. Minimikraven för "
+"varje nivå är:"
+
+#: mods/lzr_infobooks/register.lua:374
+msgid "• Have at least one closed treasure chest (locked or unlocked)"
+msgstr "• Ha minst en stängd skattkista, låst eller olåst"
+
+#: mods/lzr_infobooks/register.lua:375
+msgid "• Have a way to obtain all treasures"
+msgstr "• Ha ett sätt att få alla skatter"
+
+#: mods/lzr_infobooks/register.lua:376
+msgid "• Have exactly one start block (the player starts here)"
+msgstr "• Ha exakt ett startblock, där spelaren börjar"
+
+#: mods/lzr_infobooks/register.lua:377
+msgid "• Doesn’t contain any disallowed block"
+msgstr "• Inte innehålla något otillåtet block"
+
+#: mods/lzr_infobooks/register.lua:378
+msgid "• Pass other internal validity checks"
+msgstr "• Klara andra interna giltighetskontroller"
+
+#: mods/lzr_infobooks/register.lua:380
+msgid ""
+"You can perform a validity check with the “/editor_check” command. Levels "
+"are also automatically checked for validity each time you save."
+msgstr ""
+"Du kan utföra en giltighetskontroll med kommandot ”/editor_check”. Nivåer "
+"kontrolleras också automatiskt varje gång du sparar."
+
+#: mods/lzr_infobooks/register.lua:389
+msgid "Files"
+msgstr "Filer"
+
+#: mods/lzr_infobooks/register.lua:393
+msgid "File format"
+msgstr "Filformat"
+
+#: mods/lzr_infobooks/register.lua:395
+msgid "Every custom level is stored in two files:"
+msgstr "Varje egen nivå lagras i två filer:"
+
+#: mods/lzr_infobooks/register.lua:397
+msgid "• <name>.mts: Minetest Schematic. This contains all the blocks"
+msgstr "• <name>.mts: Minetest-skiss. Innehåller alla block"
+
+#: mods/lzr_infobooks/register.lua:398
+msgid ""
+"• <name>.csv: Level metadata, stored as Comma-Separated Values. Contains the "
+"level settings (except size) and the trigger information"
+msgstr ""
+"• <name>.csv: Nivåmetadata, lagrade som kommaavgränsade värden. Innehåller "
+"nivåinställningarna, utom storlek, och information om utlösare"
+
+#: mods/lzr_infobooks/register.lua:400
+msgid ""
+"The .mts file may also be edited by other tools that support this file "
+"format."
+msgstr ""
+"Filen .mts kan också redigeras med andra verktyg som stöder detta filformat."
+
+#: mods/lzr_infobooks/register.lua:402
+msgid ""
+"Translations of the level title and parrot speech can not be saved in the "
+"level editor. You need to create a level pack, which is far more technical. "
+"See LEVEL_PACKS.md in the Lazarr! installation directory."
+msgstr ""
+"Översättningar av nivåtiteln och papegojans tal kan inte sparas i "
+"nivåredigeraren. Du måste skapa ett nivåpaket, vilket är betydligt mer "
+"tekniskt. Se LEVEL_PACKS.md i Lazarr!:s installationskatalog."
+
+#: mods/lzr_infobooks/register.lua:406
+msgid "Saving and loading"
+msgstr "Sparar och laddar"
+
+#: mods/lzr_infobooks/register.lua:408
+msgid "To save the level, use the “Save level” button in your inventory."
+msgstr "För att spara nivån använder du knappen ”Spara nivå” i förrådet."
+
+#: mods/lzr_infobooks/register.lua:410
+msgid "Your level files (.mts and .csv) will be saved in the world directory."
+msgstr "Dina nivåfiler, .mts och .csv, sparas i världskatalogen."
+
+#: mods/lzr_infobooks/register.lua:411
+msgid ""
+"Warning: If you delete your world, you will also lose all custom levels "
+"stored in the world."
+msgstr ""
+"Varning: Om du tar bort din värld förlorar du också alla egna nivåer som "
+"lagras i världen."
+
+#: mods/lzr_infobooks/register.lua:413
+msgid ""
+"It’s allowed to save unplayable levels. You can load them in the editor, but "
+"not play them. Any errors or warnings will appear in the chat."
+msgstr ""
+"Du får spara nivåer som inte går att spela. Du kan läsa in dem i "
+"redigeraren, men inte spela dem. Eventuella fel eller varningar visas i "
+"chatten."
+
+#: mods/lzr_infobooks/register.lua:415
+msgid "Loading the level works in a similar fashion with “Load level”."
+msgstr "Att läsa in en nivå fungerar på liknande sätt med ”Läs in nivå”."
+
+#: mods/lzr_infobooks/register.lua:417
+msgid ""
+"You may also use the commands “/editor_save” and “/editor_load” instead."
+msgstr ""
+"Du kan också använda kommandona ”/editor_save” och ”/editor_load” i stället."
+
+#: mods/lzr_infobooks/register.lua:421
+msgid "Autosave"
+msgstr "Automatisk sparning"
+
+#: mods/lzr_infobooks/register.lua:423
+msgid ""
+"To prevent loss of work, the editor will automatically save the level into "
+"“_AUTOSAVE_” at the following events:"
+msgstr ""
+"För att förhindra att arbete går förlorat sparar redigeraren automatiskt "
+"nivån i ”_AUTOSAVE_” vid följande händelser:"
+
+#: mods/lzr_infobooks/register.lua:425
+msgid "• Leave the game"
+msgstr "• Lämna spelet"
+
+#: mods/lzr_infobooks/register.lua:426
+msgid "• Leave the editor"
+msgstr "• Lämna redigeraren"
+
+#: mods/lzr_infobooks/register.lua:427
+msgid "• Change level size or boundary nodes"
+msgstr "• Ändra nivåstorlek eller gränsnoder"
+
+#: mods/lzr_infobooks/register.lua:428
+msgid "• The game crashes (not guaranteed)"
+msgstr "• Spelet kraschar, utan garanti"
+
+#: mods/lzr_infobooks/register.lua:430
+msgid ""
+"_AUTOSAVE_ will be overwritten whenever one of those events happens, so make "
+"sure to save your work into other files."
+msgstr ""
+"_AUTOSAVE_ skrivs över när någon av dessa händelser inträffar, så se till "
+"att spara ditt arbete i andra filer."
+
+#: mods/lzr_infobooks/register.lua:439 mods/lzr_infobooks/register.lua:443
+msgid "Using WorldEdit"
+msgstr "Använda WorldEdit"
+
+#: mods/lzr_infobooks/register.lua:445
+msgid ""
+"If you want to use the WorldEdit mod to edit levels, it must be used with "
+"care."
+msgstr ""
+"Om du vill använda modden WorldEdit för att redigera nivåer måste den "
+"användas försiktigt."
+
+#: mods/lzr_infobooks/register.lua:446
+msgid ""
+"Using WorldEdit may lead the level to be in an invalid state, which must be "
+"fixed manually."
+msgstr ""
+"Användning av WorldEdit kan göra nivån ogiltig, vilket måste åtgärdas "
+"manuellt."
+
+#: mods/lzr_infobooks/register.lua:450
+msgid "Trigger invalidation"
+msgstr "Ogiltigförklaring av utlösare"
+
+#: mods/lzr_infobooks/register.lua:452
+msgid ""
+"If you’ve used WorldEdit commands to change any trigger node, this "
+"invalidates the triggers of the level, leading to an invalid state and the "
+"level might be saved with incorrect triggers. Use the “/editor_check“ "
+"command to check if the level is still valid."
+msgstr ""
+"Om du har använt WorldEdit-kommandon för att ändra någon utlösarnod blir "
+"nivåns utlösare ogiltiga. Det kan leda till att nivån sparas med felaktiga "
+"utlösare. Använd kommandot ”/editor_check” för att kontrollera om nivån "
+"fortfarande är giltig."
+
+#: mods/lzr_infobooks/register.lua:454
+msgid ""
+"If the triggers have become invalid, you must manually call the command “/"
+"reset_triggers”. This puts the level in a valid state, but you lose all "
+"trigger information, so you have to manually add the triggers back."
+msgstr ""
+"Om utlösarna har blivit ogiltiga måste du manuellt anropa kommandot ”/"
+"reset_triggers”. Det gör nivån giltig, men du förlorar all information om "
+"utlösare och måste lägga tillbaka dem manuellt."
+
+#: mods/lzr_infobooks/register.lua:465 mods/lzr_infobooks/register.lua:477
+msgid "• @1: @2"
+msgstr "• @1: @2"
+
+#: mods/lzr_infobooks/register.lua:487
+msgid "Triggers"
+msgstr "Utlösare"
+
+#: mods/lzr_infobooks/register.lua:491
+msgid "Overview"
+msgstr "Översikt"
+
+#: mods/lzr_infobooks/register.lua:493
+msgid ""
+"Triggers are wireless connections between blocks and are very important to "
+"proceed in levels."
+msgstr ""
+"Utlösare är trådlösa kopplingar mellan block och är mycket viktiga för att "
+"komma vidare i nivåer."
+
+#: mods/lzr_infobooks/register.lua:495
+msgid ""
+"Triggers are used for many things, but most importantly, they’re used to "
+"break the lock of locked chests."
+msgstr ""
+"Utlösare används till många saker, men framför allt för att bryta låset på "
+"låsta kistor."
+
+#: mods/lzr_infobooks/register.lua:497
+msgid ""
+"These connections can be revealed with your pirate sense but there’s more "
+"going on behind the scenes."
+msgstr ""
+"Dessa kopplingar kan avslöjas med ditt piratsinne, men det händer mer bakom "
+"kulisserna."
+
+#: mods/lzr_infobooks/register.lua:499
+msgid ""
+"The most basic way to add a trigger is to make a detector send signals to a "
+"locked chest. Once the detector is triggered, it breaks the lock. But "
+"triggers can be more complex."
+msgstr ""
+"Det enklaste sättet att lägga till en utlösare är att låta en detektor "
+"skicka signaler till en låst kista. När detektorn utlöses bryts låset. "
+"Utlösare kan dock vara mer komplexa."
+
+#: mods/lzr_infobooks/register.lua:503
+msgid "Quick start"
+msgstr "Snabbstart"
+
+#: mods/lzr_infobooks/register.lua:505
+msgid "Here’s a quick example on how to add a simple trigger into your level:"
+msgstr ""
+"Här är ett snabbt exempel på hur du lägger till en enkel utlösare i din nivå:"
+
+#: mods/lzr_infobooks/register.lua:507
+msgid "1. Place a detector and a locked chest"
+msgstr "1. Placera en detektor och en låst kista"
+
+#: mods/lzr_infobooks/register.lua:508
+msgid "2. Get yourself a trigger tool and wield it"
+msgstr "2. Skaffa ett utlösarverktyg och håll det i handen"
+
+#: mods/lzr_infobooks/register.lua:509
+msgid ""
+"3. Make sure that “Sender Mode” is active of that tool (you can switch modes "
+"with the [Place] key)"
+msgstr ""
+"3. Kontrollera att ”Avsändarläge” är aktivt för verktyget. Du kan växla läge "
+"med tangenten [Place]."
+
+#: mods/lzr_infobooks/register.lua:510
+msgid ""
+"4. Punch the detector (there should be now a message and a symbol at the "
+"locked chest)"
+msgstr ""
+"4. Slå på detektorn. Ett meddelande och en symbol ska nu visas vid den låsta "
+"kistan."
+
+#: mods/lzr_infobooks/register.lua:511
+msgid "5. Switch to Receiver Mode"
+msgstr "5. Växla till mottagarläge"
+
+#: mods/lzr_infobooks/register.lua:512
+msgid "6. Punch the chest"
+msgstr "6. Slå på bröstet"
+
+#: mods/lzr_infobooks/register.lua:514
+msgid ""
+"Now when the detector is activated by a laser, it will send a signal to the "
+"locked chest, causing it to break open in the game."
+msgstr ""
+"När detektorn nu aktiveras av en laser skickar den en signal till den låsta "
+"kistan, så att den öppnas i spelet."
+
+#: mods/lzr_infobooks/register.lua:515
+msgid ""
+"For convenience, the lock of wooden chests won’t actually break when "
+"triggered in the editor, so you don’t have to reset the chest when testing."
+msgstr ""
+"För enkelhetens skull bryts inte låset på träkistor när de utlöses i "
+"redigeraren, så du behöver inte återställa kistan vid testning."
+
+#: mods/lzr_infobooks/register.lua:519
+msgid "Definition"
+msgstr "Definition"
+
+#: mods/lzr_infobooks/register.lua:521
+msgid ""
+"Triggers are blocks that send signals towards other blocks to make them do "
+"something. Signals are instantaneous and wireless."
+msgstr ""
+"Utlösare är block som skickar signaler till andra block för att få dem att "
+"göra något. Signaler är omedelbara och trådlösa."
+
+#: mods/lzr_infobooks/register.lua:523
+msgid ""
+"There are two types of triggers: Senders and receivers. Senders send signals "
+"to receivers. A sender can send to multiple receivers at once, and a "
+"receiver can receive signals from multiple senders at once."
+msgstr ""
+"Det finns två typer av utlösare: avsändare och mottagare. Avsändare skickar "
+"signaler till mottagare. En avsändare kan skicka till flera mottagare "
+"samtidigt och en mottagare kan ta emot signaler från flera avsändare "
+"samtidigt."
+
+#: mods/lzr_infobooks/register.lua:525
+msgid "These are the senders:"
+msgstr "Dessa är avsändarna:"
+
+#: mods/lzr_infobooks/register.lua:526
+msgid "• Detector: May send signals to receivers when toggled"
+msgstr "• Detektor: Kan skicka signaler till mottagare när den växlas"
+
+#: mods/lzr_infobooks/register.lua:527
+msgid "• Lever: May send signals to receivers when pulled"
+msgstr "• Spak: Kan skicka signaler till mottagare när den dras"
+
+#: mods/lzr_infobooks/register.lua:529
+msgid "These are the receivers:"
+msgstr "De här är mottagarna:"
+
+#: mods/lzr_infobooks/register.lua:530
+msgid "• Emitter: May toggle the laser when it receives a signal"
+msgstr "• Sändare: Kan växla lasern när den tar emot en signal"
+
+#: mods/lzr_infobooks/register.lua:531
+msgid "• Locked chest: May break the lock when it receives a signal."
+msgstr "• Låst kista: Kan bryta låset när den tar emot en signal."
+
+#: mods/lzr_infobooks/register.lua:532
+msgid "• Light box: May toggle the light when it receives a signal"
+msgstr "• Ljuslåda: Kan växla ljuset när den tar emot en signal"
+
+#: mods/lzr_infobooks/register.lua:533
+msgid "• Locked door/trapdoor: May break when it receives a signal"
+msgstr "• Låst dörr/lucka: Kan öppnas när den tar emot en signal"
+
+#: mods/lzr_infobooks/register.lua:535
+msgid "Sender"
+msgstr "Avsändare"
+
+#: mods/lzr_infobooks/register.lua:535
+msgid "Receiver"
+msgstr "Mottagare"
+
+#: mods/lzr_infobooks/register.lua:538
+msgid "Signal types, sender types and receiver types"
+msgstr "Signaltyper, avsändartyper och mottagartyper"
+
+#: mods/lzr_infobooks/register.lua:540
+msgid "Signals can have one of 3 possible types: ON, OFF and TOGGLE."
+msgstr "Signaler kan ha en av tre möjliga typer: PÅ, AV och VÄXLA."
+
+#: mods/lzr_infobooks/register.lua:542
+msgid ""
+"Signals may appear as colored particles between sender and receiver (note: "
+"these particles may be disabled in the game settings). ON is a solid blue "
+"particle. OFF is a circular orange particle. TOGGLE is a purple particle "
+"that combines both shapes."
+msgstr ""
+"Signaler kan visas som färgade partiklar mellan avsändare och mottagare. "
+"Observera att dessa partiklar kan vara inaktiverade i spelinställningarna. "
+"PÅ är en helblå partikel. AV är en rund orange partikel. VÄXLA är en lila "
+"partikel som kombinerar båda formerna."
+
+#: mods/lzr_infobooks/register.lua:544
+msgid ""
+"Each sender has a sender type, which determines which signal type (ON, OFF "
+"or TOGGLE) is sent (if any) to its receivers, and when. The type of signal "
+"depends on the sender’s state (active or inactive)."
+msgstr ""
+"Varje avsändare har en avsändartyp som avgör vilken signaltyp, PÅ, AV eller "
+"VÄXLA, som skickas till mottagarna, om någon, och när. Signaltypen beror på "
+"avsändarens tillstånd, aktivt eller inaktivt."
+
+#: mods/lzr_infobooks/register.lua:546
+msgid ""
+"Also, each receiver has a receiver type, which determines how it will react "
+"to an incoming signal."
+msgstr ""
+"Varje mottagare har också en mottagartyp som avgör hur den reagerar på en "
+"inkommande signal."
+
+#. ~ Signal type
+#: mods/lzr_infobooks/register.lua:550
+msgid "ON"
+msgstr "PÅ"
+
+#. ~ Signal type
+#: mods/lzr_infobooks/register.lua:552
+msgid "OFF"
+msgstr "AV"
+
+#. ~ Signal type
+#: mods/lzr_infobooks/register.lua:554
+msgid "TOGGLE"
+msgstr "VÄXLA"
+
+#: mods/lzr_infobooks/register.lua:558
+msgid "Sender types"
+msgstr "Avsändartyper"
+
+#: mods/lzr_infobooks/register.lua:560
+msgid ""
+"The default sender type is “Synchronized”. If the sender was activated, it "
+"sends an ON signal. If it was deactivated, it sends an OFF signal. Thus "
+"“synchronizing” the sender with the receiver. It also has a special meaning "
+"in combination with the “Synchronized” receiver types."
+msgstr ""
+"Standardtypen för avsändare är ”Synkroniserad”. Om avsändaren aktiverades "
+"skickar den en PÅ-signal. Om den avaktiverades skickar den en AV-signal. På "
+"så sätt ”synkroniseras” avsändaren med mottagaren. Detta har också en "
+"särskild betydelse i kombination med mottagartyperna ”Synkroniserad”."
+
+#: mods/lzr_infobooks/register.lua:562
+msgid "These are all available sender types:"
+msgstr "Detta är alla tillgängliga avsändartyper:"
+
+#: mods/lzr_infobooks/register.lua:570
+msgid "Receiver types"
+msgstr "Mottagartyper"
+
+#: mods/lzr_infobooks/register.lua:572
+msgid "The available receiver types are:"
+msgstr "Tillgängliga mottagartyper är:"
+
+#: mods/lzr_infobooks/register.lua:576
+msgid ""
+"“Any” is the default receiver type. The receiver will react on any incoming "
+"signal. An ON signal activates the receiver, OFF deactivates it and TOGGLE "
+"toggles it."
+msgstr ""
+"”Alla” är standardtypen för mottagare. Mottagaren reagerar på alla "
+"inkommande signaler. En PÅ-signal aktiverar mottagaren, AV avaktiverar den "
+"och VÄXLA växlar den."
+
+#: mods/lzr_infobooks/register.lua:578
+msgid ""
+"“Synchronized AND” is useful if you require a number of detectors to be "
+"activated (or deactivated) at the same time. Just make sure that all senders "
+"are of type “Synchronized” or “Synchronized inverted”."
+msgstr ""
+"”Synkroniserad OCH” är användbart om du behöver att flera detektorer "
+"aktiveras eller avaktiveras samtidigt. Kontrollera bara att alla avsändare "
+"är av typen ”Synkroniserad” eller ”Synkroniserad inverterad”."
+
+#: mods/lzr_infobooks/register.lua:580
+msgid ""
+"Note that all receiver types are compatible with all sender types, but not "
+"all combinations may be useful."
+msgstr ""
+"Observera att alla mottagartyper är kompatibla med alla avsändartyper, men "
+"alla kombinationer är inte nödvändigtvis användbara."
+
+#: mods/lzr_infobooks/register.lua:596
+msgid "Level Editor Help"
+msgstr "Hjälp för nivåredigeraren"
+
+#~ msgid "Gold Block"
+#~ msgstr "Guldblock"
+
+#~ msgid "This Game is Incomplete"
+#~ msgstr "Det här spelet är inte komplett"
+
+#~ msgid "• More levels"
+#~ msgstr "• Fler nivåer"
+
+#~ msgid "• Polishing"
+#~ msgstr "• Putsar"
+
+#~ msgid "How to get rich"
+#~ msgstr "Så här blir man rik"
+
+#~ msgid "<"
+#~ msgstr "<"
+
+#~ msgid ">"
+#~ msgstr ">"
