@@ -149,3 +149,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Tiny Weather Forecast Germany / app-strings (sv): release 0.63.4 (2026-07-24) verifierad; 535/535 översatta, 0 osäkra och 4 tekniska kontrollträffar för HTTPS, Logcat och återkommande facktermer. Fullständigt granskad med hunspell -d sv_SE; äldre fel i molnhöjdstexter rättade.
 
 - Doable / values (sv): release v1.17.2 (2024-10-20) verifierad; 503/503 översatta, 0 osäkra och 16 automatiska tekniska/dubblettkontroller för bland annat WebDAV, APK och F-Droid. Fullständigt granskat med hunspell -d sv_SE; platshållare och ICU-pluraler är bevarade.
+
+- Sriracha / sriracha (sv): release v2.1.2 (2026-09-13) verifierad; 582/582 översatta, 0 osäkra och 29 automatiska dubblettkontroller för korrekta återanvända termer. Fullständigt granskat med hunspell -d sv_SE; pluraler, formatparametrar och forumsyntax är bevarade.
