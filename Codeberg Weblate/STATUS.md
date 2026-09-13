@@ -92,6 +92,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Nextcloud Cookbook Android | v3.0.2 (2024-02-26) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
 | partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+| Pineapple Lock Screen | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | SearXNG | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig aktuell release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | weather | 3.21-pre1 (2023-04-12) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 
@@ -343,3 +344,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Best-Before: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
 
 - Apkes: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
+
+- Pineapple Lock Screen: potentiellt obsolet enligt releasekriteriet. GitHubs release-API saknar offentlig release 2026-09-13; projektet hoppas över.
