@@ -373,3 +373,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Bavarder: potentiellt obsolet. Senaste verifierade release 1.0.0 (2023-09-23) är äldre än två år; projektet hoppas över.
 
 - Monocles Translator: potentiellt obsolet. Senaste verifierade release Beta2-v1.7 (2024-07-03) är äldre än två år; projektet hoppas över.
+
+- jdDesktopEntryEdit / jdDesktopEntryEdit (sv): release 1.8 (2025-10-29) verifierad. Svenska skapades i Weblate 2026-09-13. Komponenten rapporterar 0/0 källsträngar och väntar på uppströmssynkronisering innan översättning kan göras.
