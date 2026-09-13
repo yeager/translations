@@ -1,0 +1,813 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-02-18 00:16+0100\n"
+"PO-Revision-Date: 2026-09-13 15:27+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/tblock/"
+"tblock-gui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#: tblock_gui/const.py:39
+msgid "Auto-detect"
+msgstr "Detektera automatiskt"
+
+#: tblock_gui/const.py:40
+msgid "ABP/AdGuard/uBO format"
+msgstr "ABP/AdGuard/uBO-format"
+
+#: tblock_gui/const.py:41
+msgid "dnsmasq configuration"
+msgstr "dnsmasq-konfiguration"
+
+#: tblock_gui/const.py:42
+msgid "Hosts file format"
+msgstr "Hosts-filformat"
+
+#: tblock_gui/const.py:43
+msgid "Plain text domain list"
+msgstr "Domänlista i klartext"
+
+#: tblock_gui/const.py:44
+msgid "TBlock format v2"
+msgstr "TBlock format v2"
+
+#: tblock_gui/const.py:45
+msgid "TBlock format v1 (legacy)"
+msgstr "TBlock format v1 (arv)"
+
+#: tblock_gui/const.py:83
+msgid "TBlock is currently not supported on your operating system"
+msgstr "TBlock stöds för tillfället inte av ditt operativsystem"
+
+#: tblock_gui/custom_add.py:123
+msgid ""
+"Choose this if you are not sure. Note that it may take more time than usual."
+msgstr ""
+"Välj detta om du inte är säker. Notera att det kan ta längre tid än vanligt."
+
+#: tblock_gui/custom_add.py:129
+msgid ""
+"The default format used in most browser add-ons. TBlock supports it "
+"partially only."
+msgstr ""
+"Standardformatet som används i de flesta webbläsartillägg. TBlock har endast "
+"delvis stöd för det."
+
+#: tblock_gui/custom_add.py:135
+msgid ""
+"Import your dnsmasq.conf rules into TBlock. This format is partially "
+"supported."
+msgstr ""
+"Importera regler från dnsmasq.conf till TBlock. Det här formatet stöds "
+"endast delvis."
+
+#: tblock_gui/custom_add.py:141
+msgid ""
+"Import your /etc/hosts rules into TBlock. This format is fully supported."
+msgstr ""
+"Importera regler från /etc/hosts till TBlock. Det här formatet stöds fullt "
+"ut."
+
+#: tblock_gui/custom_add.py:147
+msgid "A simple list of domains to block. TBlock has native support for it."
+msgstr ""
+"En enkel lista över domäner som ska blockeras. TBlock har inbyggt stöd för "
+"den."
+
+#: tblock_gui/custom_add.py:152
+msgid "The official format that is fully supported by TBlock."
+msgstr "Det officiella formatet som stöds fullt ut av TBlock."
+
+#: tblock_gui/custom_add.py:157
+msgid ""
+"This format is deprecated and support will be removed in future versions."
+msgstr ""
+"Detta format är utfasat och stödet kommer tas bort i en framtida version."
+
+#: tblock_gui/custom_add.py:202
+msgid "Please choose a file"
+msgstr "Välj en fil"
+
+#: tblock_gui/custom_add.py:206 tblock_gui/rules.py:107 data/ui/tblock.ui:925
+msgid "Select"
+msgstr "Välj"
+
+#: tblock_gui/custom_add.py:210
+msgid "Text files"
+msgstr "Textfiler"
+
+#: tblock_gui/custom_add.py:213
+msgid "Any files"
+msgstr "Alla filer"
+
+#: tblock_gui/error.py:73
+msgid "This operation requires admin privileges."
+msgstr "Denna funktion kräver administratörsprivilegier."
+
+#: tblock_gui/error.py:80
+msgid ""
+"TBlock executable was not found.\n"
+"Please install it and then retry."
+msgstr ""
+"TBlock-programmet hittades inte.\n"
+"Installera det och försök sedan igen."
+
+#: tblock_gui/error.py:88
+msgid ""
+"An unknown error occurred.\n"
+"Code: {}"
+msgstr ""
+"Ett okänt fel inträffade.\n"
+"Kod: {}"
+
+#: tblock_gui/error.py:95
+msgid "This feature is not yet supported."
+msgstr "Den här funktionen stöds inte ännu."
+
+#: tblock_gui/error.py:103
+msgid ""
+"The database is locked. Please try again later.\n"
+"If this error persists, you can unlock the database in the navigation menu "
+"under TBlock > Troubleshooting."
+msgstr ""
+"Databasen är låst. Försök igen senare.\n"
+"Om felet kvarstår kan du låsa upp databasen i navigeringsmenyn under "
+"TBlock > Felsökning."
+
+#: tblock_gui/error.py:113
+msgid "Please provide a valid URL/local file."
+msgstr "Ange en giltig URL eller lokal fil."
+
+#: tblock_gui/error.py:119
+msgid "File must be owned by root."
+msgstr "Filen måste ägas av root."
+
+#: tblock_gui/error.py:126
+msgid "Please specify a title to give to your custom filter list."
+msgstr "Ange en titel för den anpassade filterlistan."
+
+#: tblock_gui/error.py:133
+msgid "Source already exists."
+msgstr "Källan existerar redan."
+
+#: tblock_gui/error.py:139
+msgid "The database is already unlocked."
+msgstr "Databasen är redan upplåst."
+
+#: tblock_gui/filter_lists.py:141
+msgid "Active"
+msgstr "Aktiv"
+
+#: tblock_gui/filter_lists.py:144
+msgid "ID"
+msgstr "ID"
+
+#: tblock_gui/filter_lists.py:147
+msgid "Title"
+msgstr "Titel"
+
+#: tblock_gui/filter_lists.py:192
+msgid "This is a custom filter list that was manually added by the user."
+msgstr "Detta är en anpassad filterlista som användaren har lagt till manuellt."
+
+#: tblock_gui/filter_lists.py:201
+msgid "No filter list selected"
+msgstr "Ingen filterlista vald"
+
+#: tblock_gui/filter_lists.py:203
+msgid "Click on a filter list from the table to view its details."
+msgstr "Klicka på en filterlista i tabellen för att visa dess information."
+
+#: tblock_gui/intro.py:120
+msgid "A profile that will let you configure everything yourself."
+msgstr "En profil som låter dig konfigurera allt själv."
+
+#: tblock_gui/intro.py:123
+msgid "This profile is light, but some ads and trackers won't be blocked."
+msgstr ""
+"Den här profilen är lätt, men vissa annonser och spårare blockeras inte."
+
+#: tblock_gui/intro.py:127
+msgid "This efficient profile is the perfect solution for regular users."
+msgstr ""
+"Denna effektiva profil är den perfekta lösningen för den genomsnittlige "
+"användaren."
+
+#: tblock_gui/intro.py:130
+msgid "A powerful profile that may however break some web pages."
+msgstr ""
+"En kraftfull profil som dock kan göra att vissa webbsidor slutar fungera."
+
+#: tblock_gui/job.py:132 data/ui/tblock.ui:833 data/ui/tblock.ui:1179
+#: data/ui/tblock.ui:2316 data/ui/tblock.ui:2456
+msgid "Nothing to do."
+msgstr "Inget att göra."
+
+#: tblock_gui/job.py:147
+msgid "You can now press Close to close this dialog."
+msgstr "Du kan nu trycka på Stäng för att stänga dialogrutan."
+
+#: tblock_gui/job.py:150
+msgid "Operation finished successfully."
+msgstr "Åtgärden slutfördes."
+
+#: tblock_gui/job.py:154
+msgid "Operation finished with {} error(s)."
+msgstr "Åtgärden slutfördes med {} fel."
+
+#: tblock_gui/job.py:228 tblock_gui/settings.py:135
+msgid "Failed to change GUI settings."
+msgstr "Kunde inte ändra GUI-inställningarna."
+
+#: tblock_gui/job.py:316
+msgid "Creating database"
+msgstr "Skapar databas"
+
+#: tblock_gui/job.py:318
+msgid "Failed to create database"
+msgstr "Kunde inte skapa databasen"
+
+#: tblock_gui/job.py:319
+msgid "Syncing filter list repository index"
+msgstr "Synkroniserar filterlistornas förrådsindex"
+
+#: tblock_gui/job.py:321
+msgid "Failed to sync filter list repository index."
+msgstr "Kunde inte synkronisera filterlistans förrådsindex."
+
+#: tblock_gui/job.py:322
+msgid "Downloading icon pack"
+msgstr "Hämtar ikonpaket"
+
+#: tblock_gui/job.py:324
+msgid "Failed to download icon pack."
+msgstr "Kunde inte hämta ikonpaketet."
+
+#: tblock_gui/job.py:327
+msgid "Extracting icon pack"
+msgstr "Packar upp ikonpaketet"
+
+#: tblock_gui/job.py:329
+msgid "Failed to extract icon pack."
+msgstr "Kunde inte packa upp ikonpaketet."
+
+#: tblock_gui/job.py:335
+msgid "Building hosts file"
+msgstr "Skapar Hosts-fil"
+
+#: tblock_gui/job.py:337 tblock_gui/main.py:148
+msgid "Failed to build hosts file."
+msgstr "Kunde inte skapa Hosts-filen."
+
+#: tblock_gui/job.py:344
+msgid "Adding custom filter list: {}"
+msgstr "Lägger till anpassad filterlista: {}"
+
+#: tblock_gui/job.py:352
+msgid "Failed to add custom filter list: {}."
+msgstr "Kunde inte lägga till anpassad filterlista: {}."
+
+#: tblock_gui/job.py:363
+msgid "Retrieving: {}"
+msgstr "Hämtar: {}"
+
+#: tblock_gui/job.py:365
+msgid "Failed to download: {}"
+msgstr "Kunde inte hämta: {}"
+
+#: tblock_gui/job.py:375
+msgid "Subscribing to: {}"
+msgstr "Prenumererar på: {}"
+
+#: tblock_gui/job.py:377
+msgid "Failed to subscribe to: {}"
+msgstr "Kunde inte prenumerera på: {}"
+
+#: tblock_gui/job.py:387
+msgid "Unsubscribing from: {}"
+msgstr "Avslutar prenumeration på: {}"
+
+#: tblock_gui/job.py:389
+msgid "Failed to unsubscribe from: {}"
+msgstr "Kunde inte avsluta prenumerationen på: {}"
+
+#: tblock_gui/job.py:398
+msgid "Removing from cache: {}"
+msgstr "Tar bort från cachen: {}"
+
+#: tblock_gui/job.py:407
+msgid "Updating: {}"
+msgstr "Uppdaterar: {}"
+
+#: tblock_gui/job.py:409
+msgid "Failed to update rules from: {}"
+msgstr "Kunde inte uppdatera regler från: {}"
+
+#: tblock_gui/job.py:417
+msgid "Removing allowed matches"
+msgstr "Tar bort tillåtna träffar"
+
+#: tblock_gui/job.py:419
+msgid "Failed to apply allowing rules."
+msgstr "Kunde inte tillämpa tillåtelseregler."
+
+#: tblock_gui/main.py:86
+msgid "Enable"
+msgstr "Slå på"
+
+#: tblock_gui/main.py:87
+msgid "Protection is inactive"
+msgstr "Skydd är inaktivt"
+
+#: tblock_gui/main.py:88
+msgid "Enable protection to show statistics"
+msgstr "Slå på skydd för att visa statistik"
+
+#: tblock_gui/main.py:91
+msgid "Disable"
+msgstr "Slå av"
+
+#: tblock_gui/main.py:92
+msgid "Protection is active"
+msgstr "Skydd är aktivt"
+
+#: tblock_gui/main.py:94
+#, python-brace-format
+msgid "{0} filter list(s) enabled and {1} active rule(s)"
+msgstr "Aktiva filterlistor: {0}; aktiva regler: {1}"
+
+#: tblock_gui/main.py:101
+msgid "Repair"
+msgstr "Reparera"
+
+#: tblock_gui/main.py:102
+msgid "Threat detected"
+msgstr "Hot upptäckt"
+
+#: tblock_gui/main.py:103
+msgid "Your secure network may not be safe anymore"
+msgstr "Ditt säkra nätverk är kanske inte längre säkert"
+
+#: tblock_gui/main.py:115
+msgid "An update is available!"
+msgstr "En uppdatering är tillgänglig!"
+
+#: tblock_gui/main.py:119 data/ui/tblock.ui:140
+msgid "No update available"
+msgstr "Ingen uppdatering tillgänglig"
+
+#: tblock_gui/main.py:137
+msgid "Failed to enable protection and to build new hosts file."
+msgstr "Kunde inte aktivera skyddet och skapa en ny Hosts-fil."
+
+#: tblock_gui/main.py:143
+msgid "Failed to disable protection."
+msgstr "Kunde inte inaktivera skyddet."
+
+#: tblock_gui/rule_add.py:106
+msgid "Please specify a valid domain"
+msgstr "Ange en giltig domän"
+
+#: tblock_gui/rule_add.py:115
+msgid "Failed to allow domain: {}"
+msgstr "Kunde inte tillåta domänen: {}"
+
+#: tblock_gui/rule_add.py:125
+msgid "Failed to block domain: {}"
+msgstr "Kunde inte blockera domänen: {}"
+
+#: tblock_gui/rule_add.py:143
+msgid "Failed to redirect domain: {}"
+msgstr "Kunde inte omdirigera domänen: {}"
+
+#: tblock_gui/rule_add.py:149
+msgid "Please specify a valid IP address."
+msgstr "Ange en giltig IP-adress."
+
+#: tblock_gui/rules.py:110
+msgid "Domain"
+msgstr "Domän"
+
+#: tblock_gui/rules.py:113
+msgid "Policy"
+msgstr "Åtgärd"
+
+#: tblock_gui/rules.py:116
+msgid "IP address"
+msgstr "IP-adress"
+
+#: tblock_gui/rules.py:182
+msgid "Failed to delete rules"
+msgstr "Kunde inte ta bort regler"
+
+#: tblock_gui/settings.py:82
+msgid "enabled"
+msgstr "aktiverad"
+
+#: tblock_gui/settings.py:84
+msgid "disabled"
+msgstr "inaktiverad"
+
+#: tblock_gui/settings.py:88
+msgid "no database"
+msgstr "ingen databas"
+
+#: tblock_gui/settings.py:92
+msgid "locked"
+msgstr "låst"
+
+#: tblock_gui/settings.py:94
+msgid "unlocked"
+msgstr "upplåst"
+
+#: tblock_gui/settings.py:153
+msgid "Failed to unlock database."
+msgstr "Kunde inte låsa upp databasen."
+
+#: tblock_gui/warning.py:64
+msgid ""
+"Unlocking the database can cause errors if another instance of TBlock is "
+"currently using the database."
+msgstr ""
+"Upplåsning av databasen kan orsaka fel om en annan instans av TBlock "
+"använder databasen."
+
+#: data/ui/tblock.ui:29
+msgid "An Error Occurred"
+msgstr "Ett fel inträffade"
+
+#: data/ui/tblock.ui:43
+msgid "OK"
+msgstr "OK"
+
+#: data/ui/tblock.ui:81 data/ui/tblock.ui:1364
+msgid "About TBlock"
+msgstr "Om TBlock"
+
+#: data/ui/tblock.ui:90
+msgid "Restart wizard"
+msgstr "Starta om guiden"
+
+#: data/ui/tblock.ui:99 data/ui/tblock.ui:2741
+msgid "Settings"
+msgstr "Inställningar"
+
+#: data/ui/tblock.ui:114 data/ui/tblock.ui:1307
+msgid "Quit"
+msgstr "Avsluta"
+
+#: data/ui/tblock.ui:150
+msgid "More information here"
+msgstr "Mer information här"
+
+#: data/ui/tblock.ui:168 data/tblock-gui.desktop:2
+msgid "TBlock"
+msgstr "TBlock"
+
+#: data/ui/tblock.ui:331 data/ui/tblock.ui:2339
+msgid "Edit rules"
+msgstr "Redigera regler"
+
+#: data/ui/tblock.ui:347 data/ui/tblock.ui:426
+msgid "Manage filter lists"
+msgstr "Hantera filterlistor"
+
+#: data/ui/tblock.ui:363
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: data/ui/tblock.ui:389
+msgid "About TBlock GUI"
+msgstr "Om TBlock GUI"
+
+#: data/ui/tblock.ui:396
+msgid "An anti-capitalist ad blocker that uses the hosts file"
+msgstr ""
+"En annonsblockerare med antikapitalistisk inriktning som använder Hosts-filen"
+
+#: data/ui/tblock.ui:515
+msgid "Homepage"
+msgstr "Hemsida"
+
+#: data/ui/tblock.ui:532
+msgid "Show more"
+msgstr "Visa mer"
+
+#: data/ui/tblock.ui:620
+msgid "Add custom"
+msgstr "Lägg till anpassad"
+
+#: data/ui/tblock.ui:639
+msgid "Sync index"
+msgstr "Synkronisera index"
+
+#: data/ui/tblock.ui:658
+msgid "Update all"
+msgstr "Uppdatera alla"
+
+#: data/ui/tblock.ui:677
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: data/ui/tblock.ui:693 data/ui/tblock.ui:789 data/ui/tblock.ui:2415
+#: data/ui/tblock.ui:2504 data/ui/tblock.ui:2763
+msgid "Close"
+msgstr "Stäng"
+
+#: data/ui/tblock.ui:732
+msgid "Operation is running"
+msgstr "Åtgärden körs"
+
+#: data/ui/tblock.ui:755
+msgid ""
+"Please be patient. It is important that you do not close this window until "
+"the task is finished."
+msgstr "Ha tålamod. Stäng inte fönstret förrän uppgiften är klar."
+
+#: data/ui/tblock.ui:773 data/ui/tblock.ui:2488
+msgid "Go back"
+msgstr "Gå tillbaka"
+
+#: data/ui/tblock.ui:856
+msgid "Add custom filter list"
+msgstr "Lägg till anpassad filterlista"
+
+#: data/ui/tblock.ui:884
+msgid "Enter the URL of the custom filter list you want to add:"
+msgstr ""
+"Ange webbadressen till den anpassade filterlista som du vill lägga till:"
+
+#: data/ui/tblock.ui:912
+msgid "Or select a local file:"
+msgstr "Eller välj en lokal fil:"
+
+#: data/ui/tblock.ui:950 data/ui/tblock.ui:1064 data/ui/tblock.ui:1404
+#: data/ui/tblock.ui:1518 data/ui/tblock.ui:1633 data/ui/tblock.ui:1891
+#: data/ui/tblock.ui:2155 data/ui/tblock.ui:2560
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: data/ui/tblock.ui:967 data/ui/tblock.ui:1099 data/ui/tblock.ui:1323
+#: data/ui/tblock.ui:1436 data/ui/tblock.ui:1550 data/ui/tblock.ui:1665
+#: data/ui/tblock.ui:1923 data/ui/tblock.ui:2187
+msgid "Next"
+msgstr "Nästa"
+
+#: data/ui/tblock.ui:1012
+msgid "Enter the ID to give to your custom filter list:"
+msgstr "Ange det ID som den anpassade filterlistan ska få:"
+
+#: data/ui/tblock.ui:1043
+msgid "Specify the format of your custom filter list:"
+msgstr "Ange formatet för den anpassade filterlistan:"
+
+#: data/ui/tblock.ui:1081 data/ui/tblock.ui:1420 data/ui/tblock.ui:1534
+#: data/ui/tblock.ui:1649 data/ui/tblock.ui:1907 data/ui/tblock.ui:2171
+msgid "Back"
+msgstr "Tillbaka"
+
+#: data/ui/tblock.ui:1213 data/ui/tblock.ui:2271
+msgid "Finish"
+msgstr "Slutför"
+
+#: data/ui/tblock.ui:1248
+msgid "Initial configuration"
+msgstr "Första inställning"
+
+#: data/ui/tblock.ui:1287
+msgid "Welcome to TBlock!"
+msgstr "Välkommen till TBlock!"
+
+#: data/ui/tblock.ui:1385
+msgid ""
+"TBlock is an open source content blocker. It can block ads and trackers, as "
+"well as harmful websites. The blocking is system-wide, which means that your "
+"whole system is protected. TBlock won't be able to block specific elements "
+"on a page. It is no replacement for an antivirus software. However, it will "
+"be able to block ads and trackers in all the apps that you use on your "
+"machine."
+msgstr ""
+"TBlock är en innehållsblockerare med öppen källkod. Den kan blockera "
+"annonser, spårare och skadliga webbplatser. Blockeringen gäller hela "
+"systemet, vilket innebär att hela systemet skyddas. TBlock kan inte blockera "
+"enskilda element på en sida och ersätter inte ett antivirusprogram. Däremot "
+"kan den blockera annonser och spårare i alla program som används på datorn."
+
+#: data/ui/tblock.ui:1478
+msgid "Let's get started"
+msgstr "Kom i gång"
+
+#: data/ui/tblock.ui:1499
+msgid ""
+"Now, let's take a few minutes to configure TBlock for the first time. Since "
+"we need to download the list of websites to block, please ensure that you "
+"have a working internet connection. When you are ready, click Next to launch "
+"the automatic setup."
+msgstr ""
+"Nu ska vi ta några minuter för att konfigurera TBlock första gången. "
+"Eftersom listan över webbplatser som ska blockeras måste hämtas behöver du "
+"ha en fungerande internetanslutning. När du är klar klickar du på Nästa för "
+"att starta den automatiska konfigurationen."
+
+#: data/ui/tblock.ui:1592
+msgid "Ads and trackers settings"
+msgstr "Inställningar för annonser och spårare"
+
+#: data/ui/tblock.ui:1615
+msgid "Select the profile that suits your needs the best:"
+msgstr "Välj den profil som passar dina behov bäst:"
+
+#: data/ui/tblock.ui:1699
+msgid "None"
+msgstr "Ingen"
+
+#: data/ui/tblock.ui:1715
+msgid "Light"
+msgstr "Lätt"
+
+#: data/ui/tblock.ui:1731
+msgid "Balanced"
+msgstr "Balanserad"
+
+#: data/ui/tblock.ui:1747
+msgid "Aggressive"
+msgstr "Aggressiv"
+
+#: data/ui/tblock.ui:1803
+msgid "Security settings"
+msgstr "Säkerhetsinställningar"
+
+#: data/ui/tblock.ui:1846
+msgid "Block malicious websites"
+msgstr "Blockera skadliga webbplatser"
+
+#: data/ui/tblock.ui:1866
+msgid ""
+"This includes domains that serve malware, as well as websites associated "
+"with spam, scam, phishing or ransomware activity."
+msgstr ""
+"Detta omfattar domäner som sprider skadlig programvara samt webbplatser som "
+"är kopplade till skräppost, bedrägerier, nätfiske eller utpressningsprogram."
+
+#: data/ui/tblock.ui:1966
+msgid "Safety and wellbeing settings"
+msgstr "Inställningar för säkerhet och välbefinnande"
+
+#: data/ui/tblock.ui:2012
+msgid "Block pornographic websites"
+msgstr "Blockera pornografiska webbplatser"
+
+#: data/ui/tblock.ui:2035
+msgid "Block websites that spread fake news"
+msgstr "Blockera webbplatser som sprider falska nyheter"
+
+#: data/ui/tblock.ui:2058
+msgid "Block websites related to addictive substances"
+msgstr "Blockera webbplatser kopplade till beroendeframkallande substanser"
+
+#: data/ui/tblock.ui:2081
+msgid "Block gambling websites"
+msgstr "Blockera spelsajter"
+
+#: data/ui/tblock.ui:2104
+msgid "Block illegal websites (piracy)"
+msgstr "Blockera olagliga webbplatser (piratkopiering)"
+
+#: data/ui/tblock.ui:2127
+msgid "Block hate speech and far right content"
+msgstr "Blockera hatpropaganda och högerextremt innehåll"
+
+#: data/ui/tblock.ui:2230
+msgid "Everything is being set up"
+msgstr "Allt konfigureras"
+
+#: data/ui/tblock.ui:2253
+msgid ""
+"This may take a few minutes, depending on the components you decided to "
+"block. Do not close this window until the task is finished."
+msgstr ""
+"Detta kan ta några minuter beroende på vilka komponenter du har valt att "
+"blockera. Stäng inte fönstret förrän uppgiften är klar."
+
+#: data/ui/tblock.ui:2381
+msgid "New"
+msgstr "Ny"
+
+#: data/ui/tblock.ui:2399
+msgid "Delete"
+msgstr "Ta bort"
+
+#: data/ui/tblock.ui:2538
+msgid "Add rule"
+msgstr "Lägg till regel"
+
+#: data/ui/tblock.ui:2575
+msgid "Save"
+msgstr "Spara"
+
+#: data/ui/tblock.ui:2601
+msgid "Enter domain:"
+msgstr "Ange domän:"
+
+#: data/ui/tblock.ui:2634
+msgid "Redirect"
+msgstr "Omdirigera"
+
+#: data/ui/tblock.ui:2651
+msgid "Allow"
+msgstr "Tillåt"
+
+#: data/ui/tblock.ui:2668
+msgid "Block"
+msgstr "Blockera"
+
+#: data/ui/tblock.ui:2708
+msgid "IP address:"
+msgstr "IP-adress:"
+
+#: data/ui/tblock.ui:2815
+msgid "Updates"
+msgstr "Uppdateringar"
+
+#: data/ui/tblock.ui:2853
+msgid "Check for updates at startup"
+msgstr "Sök efter uppdateringar vid start"
+
+#: data/ui/tblock.ui:2876
+msgid "Use beta channel for updates"
+msgstr "Använd betakanalen för uppdateringar"
+
+#: data/ui/tblock.ui:2899
+msgid "Logging"
+msgstr "Loggning"
+
+#: data/ui/tblock.ui:2936
+msgid "Enable GUI logs"
+msgstr "Aktivera GUI-loggar"
+
+#: data/ui/tblock.ui:2959
+msgid "Troubleshooting"
+msgstr "Felsökning"
+
+#: data/ui/tblock.ui:2981
+msgid "Unlock database"
+msgstr "Lås upp databasen"
+
+#: data/ui/tblock.ui:3010
+msgid "Status information"
+msgstr "Statusinformation"
+
+#: data/ui/tblock.ui:3036
+msgid "Database status"
+msgstr "Databasstatus"
+
+#: data/ui/tblock.ui:3059
+msgid "Storage used"
+msgstr "Använt lagringsutrymme"
+
+#: data/ui/tblock.ui:3093
+msgid "Automatic updates"
+msgstr "Automatiska uppdateringar"
+
+#: data/ui/tblock.ui:3109
+msgid "How to enable automatic updates?"
+msgstr "Hur aktiverar jag automatiska uppdateringar?"
+
+#: data/ui/tblock.ui:3154
+msgid "Warning"
+msgstr "Varning"
+
+#: data/me.tblock.gui.policy:9
+msgid "TBlock needs to modify the system to perform this operation"
+msgstr "TBlock måste ändra systemet för att utföra åtgärden"
+
+#: data/me.tblock.gui.policy:10
+msgid "Authentication is required to use TBlock"
+msgstr "Autentisering krävs för att använda TBlock"
+
+#: data/tblock-gui.desktop:3
+msgid "Systemwide ads/trackers blocker"
+msgstr "Systemomfattande blockerare av annonser och spårare"
+
+#~ msgid ""
+#~ "Warning: you should only grant the redirecting permission to filter lists "
+#~ "that you trust. Otherwise, it may compromise your secure network."
+#~ msgstr ""
+#~ "Varning: du borde endast bevilja omdirigeringsprivilegier till "
+#~ "filterlistor som du litar på. Annars kan det kompromettera ditt säkra "
+#~ "nätverk."
+
+#~ msgid "Description"
+#~ msgstr "Beskrivning"
