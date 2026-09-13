@@ -1,0 +1,792 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the jellybean package.
+# turtle <turtle@turtle.garden>, 2023.
+# turtle <turtle@users.noreply.translate.codeberg.org>, 2024.
+# bittin <bittin@users.noreply.translate.codeberg.org>, 2024.
+# bittin <bittin@noreply.codeberg.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: jellybean\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-07-23 19:04+0200\n"
+"PO-Revision-Date: 2026-01-08 02:21+0000\n"
+"Last-Translator: bittin <bittin@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/jellybean/"
+"jellybean/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.1\n"
+
+#. ingenting her!
+#: data/app.desktop:2 data/garden.turtle.Jellybean.metainfo.xml.in:7
+#: src/application.vala:85 src/ui/main.blp:30 src/ui/main.blp:35
+msgid "Stockpile"
+msgstr "Stockpile"
+
+#: data/app.desktop:8
+msgid "Stockpile;Jellybean;Inventory;Number;"
+msgstr "Stockpile;Jellybean;Geléböna;Geleböna;Lager;Antal;"
+
+#: data/garden.turtle.Jellybean.metainfo.xml.in:8
+msgid "Keep count of restockable items"
+msgstr "Håll koll på återställbara objekt"
+
+#: data/garden.turtle.Jellybean.metainfo.xml.in:11
+msgid ""
+"Never forget to refill again! Stockpile lets you manage your inventory of "
+"medication, food, beauty products, or anything else. The app will warn you "
+"whenever you are short on something, so you can obtain more and not have to "
+"go empty."
+msgstr ""
+"Glöm aldrig att fylla på igen! Stockpile låter dig hantera ditt lager av "
+"medisiner, mat, skönhetsprodukter eller vad som helst. Appen varnar dig när "
+"du har ont om något, så att du kan skaffa mer och inte går tom."
+
+#: data/garden.turtle.Jellybean.metainfo.xml.in:22
+msgid "Main view"
+msgstr "Huvudvy"
+
+#: data/garden.turtle.Jellybean.metainfo.xml.in:26
+msgid "Item view"
+msgstr "Objektvy"
+
+#: data/garden.turtle.Jellybean.metainfo.xml.in:30
+msgid "Edit view"
+msgstr "Redigeringsvy"
+
+#. Translators: do one of the following, one per line: Your Name, Your Name <email@email.org>, Your Name https://websi.te
+#: src/application.vala:97
+msgid "translator-credits"
+msgstr "Sunniva Løvstad <jellybean@turtle.garden>"
+
+#: src/application.vala:104
+msgid "Contributors"
+msgstr "Bidragsgivare"
+
+#. Contributors: do one of the following, one per line: Your Name, Your Name <email@email.org>, Your Name https://websi.te
+#: src/application.vala:108
+msgid "Other Helpers"
+msgstr "Andra hjälpare"
+
+#. Add actions
+#. Since gettext does not work without an init outside a window, we will do this here.
+#. Translators: These are tooltips for item icons.
+#. Translators: This is a search term for the ticket icon
+#: src/window.vala:133 src/const.vala:131
+msgid "Ticket"
+msgstr "Biljett"
+
+#. Translators: This is a search term for the document icon
+#: src/window.vala:133 src/const.vala:136
+msgid "Paper"
+msgstr "Papper"
+
+#. Translators: This is a search term for the bread icon
+#: src/window.vala:133 src/const.vala:141
+msgid "Bread"
+msgstr "Bröd"
+
+#. Translators: This is a search term for the coffee icon
+#: src/window.vala:133 src/const.vala:146
+msgid "Cafe"
+msgstr "Kafé"
+
+#. Translators: This is a search term for the pill icon
+#: src/window.vala:133 src/const.vala:151
+msgid "Medicine"
+msgstr "Läkemedel"
+
+#. Translators: This is a search term for the wallet icon
+#: src/window.vala:133 src/const.vala:156
+msgid "Wallet"
+msgstr "Plånbok"
+
+#. New jellybean → currently shown jellybean
+#. Replace jellybean (or add new)
+#. Recompile jellybeans
+#. Update rows
+#. or just update one row
+#. If the jellybean is new, don't do anything more. Return to main view.
+#: src/window.vala:279
+#, c-format
+msgid "Item saved as %s"
+msgstr "Objekt sparades som %s"
+
+#. Translators: Low stock: is used in both main and item views
+#: src/window.vala:290 src/window.vala:355 src/window.vala:405
+#: src/window.vala:437
+msgid "Low stock: "
+msgstr "Lite kvar: "
+
+#. Translators: @d is the number, %s is the unit. @d %s could  be 23 cards, 2 pies, and so on. Make sure this works without a unit value (%s).
+#. Translators: @d %s → for example, 23 units or 495 units. Make sure this works when %s is blank. Double spaces are fine
+#: src/window.vala:299 src/window.vala:364 src/window.vala:413
+#: src/window.vala:445
+#, c-format
+msgid "@d %s left"
+msgstr "@d %s kvar"
+
+#. Deactivate use button if cannot use
+#. Item is saved
+#. and not new
+#: src/window.vala:307
+#, c-format
+msgid "Item updated as %s"
+msgstr "Objekt uppdaterades som %s"
+
+#: src/window.vala:333
+#, c-format
+msgid "Changes to %s discarded"
+msgstr "Ändringar till %s förkastades"
+
+#: src/window.vala:334
+msgid "Changes to item discarded"
+msgstr "Ändringar till objektet förkastades"
+
+#: src/window.vala:335
+msgid "Undo"
+msgstr "Ångra"
+
+#. If there is not enough left, warn the user and do not follow through
+#. Translators: %s → jellybean unit
+#: src/window.vala:389
+#, c-format
+msgid "Not enough %s left"
+msgstr "Inte nog %s kvar"
+
+#: src/window.vala:458 src/window.vala:466 src/const.vala:80
+#: src/restore.vala:101 src/ui/main.blp:52 src/ui/main.blp:240
+#: src/ui/status-pages.blp:15
+msgid "New Item"
+msgstr "Nytt objekt"
+
+#: src/window.vala:466 src/window.vala:490
+#, c-format
+msgid "Editing %s"
+msgstr "Redigerar %s"
+
+#. Delete a jellybean
+#. If we're not looking at an item, things will break.
+#. if (ev_db.get_visible () == false) return;      // If the delete button is disabled, we should not allow the shortcut to work.
+#. Create dialog to confirm deletion
+#: src/window.vala:503
+msgid "Delete Item?"
+msgstr "Radera objekt?"
+
+#: src/window.vala:504
+msgid "If you delete this item, its information will be deleted permanently."
+msgstr ""
+"Om du raderar detta objekt, kommer dess information att raderas permanent."
+
+#: src/window.vala:508
+msgid "_Cancel"
+msgstr "_Avbryt"
+
+#. Translators: Imperative for discarding changes
+#: src/window.vala:510
+msgid "_Delete"
+msgstr "_Radera"
+
+#. Do nothing if action canceled
+#. Delete selected item
+#. Full update of rows
+#. We have confirmed changes…
+#. …so we can leave the page…
+#: src/window.vala:520
+msgid "Item deleted"
+msgstr "Objekt raderades"
+
+#: src/util.vala:101
+msgid "There were not enough data points on an item."
+msgstr "Det fanns inte tillräckligt med datapunkter på ett objekt."
+
+#: src/const.vala:131
+msgid "Pass"
+msgstr "Pass"
+
+#: src/const.vala:136
+msgid "Document"
+msgstr "Dokument"
+
+#: src/const.vala:136
+msgid "Printed"
+msgstr "Utskriv"
+
+#: src/const.vala:136
+msgid "Page"
+msgstr "Sida"
+
+#: src/const.vala:141
+msgid "Food"
+msgstr "Mat"
+
+#: src/const.vala:141
+msgid "Groceries"
+msgstr "Livsmedel"
+
+#: src/const.vala:146
+msgid "Coffee"
+msgstr "Kaffe"
+
+#: src/const.vala:146
+msgid "Drink"
+msgstr "Dryck"
+
+#: src/const.vala:151
+msgid "Pill"
+msgstr "Piller"
+
+#: src/const.vala:151
+msgid "Treatment"
+msgstr "Behandling"
+
+#: src/const.vala:156
+msgid "Money"
+msgstr "Pengar"
+
+#: src/const.vala:156
+msgid "Bank"
+msgstr "Bank"
+
+#. Translators: This is the format for a time, like 3:00 or 10:15.
+#: src/const.vala:189
+#, c-format
+msgid "%02d:%02d"
+msgstr "%02d:%02d"
+
+#. Translators: The colon here is in time display, like 07:34 or 10:15. It is used for separation.
+#: src/const.vala:201
+msgid ":"
+msgstr ":"
+
+#: src/restore.vala:54
+msgid "Wipe All Data?"
+msgstr "Radera all data?"
+
+#: src/restore.vala:55
+msgid "All of your items will be permanently deleted."
+msgstr "Alla dina objekt kommer att raderas permanent."
+
+#: src/restore.vala:58 src/restore.vala:83 src/ui/main.blp:199
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: src/restore.vala:59
+msgid "Wipe"
+msgstr "Radera"
+
+#: src/restore.vala:69
+msgid "Corrupted data wiped"
+msgstr "Fördärvad data raderat"
+
+#: src/restore.vala:79
+msgid "Recover Data?"
+msgstr "Återställa data?"
+
+#: src/restore.vala:80
+msgid ""
+"Stockpile will attempt to recover your data. Items may not be restored "
+"correctly, depending on how corrupted the data is."
+msgstr ""
+"Stockpile ska pröva att återställa ditt data. Det kan hända att objekt inte "
+"blir riktig återställt, beroende på hur skadat data är."
+
+#: src/restore.vala:84
+msgid "Recover"
+msgstr "Återställa"
+
+#: src/restore.vala:120
+msgid "Data recovered"
+msgstr "Data återställt"
+
+#: src/ui/main.blp:44
+msgid "Search"
+msgstr "Sök"
+
+#: src/ui/main.blp:60
+msgid "Main Menu"
+msgstr "Huvudmeny"
+
+#: src/ui/main.blp:99
+msgid "No Results Found"
+msgstr "Inga resultat hittades"
+
+#: src/ui/main.blp:101
+msgid "Try a different search term"
+msgstr "Försök med en annan sökning"
+
+#: src/ui/main.blp:122
+msgid "Edit Item"
+msgstr "Redigera objekt"
+
+#: src/ui/main.blp:163
+msgid "_Use"
+msgstr "_Använda"
+
+#: src/ui/main.blp:174
+msgid "_Refill"
+msgstr "_Fyll på"
+
+#: src/ui/main.blp:205
+msgid "Save"
+msgstr "Spara"
+
+#: src/ui/main.blp:238
+msgid "Name"
+msgstr "Namn"
+
+#: src/ui/main.blp:244
+msgid "Icon"
+msgstr "Ikon"
+
+#: src/ui/main.blp:262
+msgid "Amount"
+msgstr "Antal"
+
+#: src/ui/main.blp:268
+msgid "Low Stock Amount"
+msgstr "Lågt lagerantal"
+
+#: src/ui/main.blp:274
+msgid "Usage Amount"
+msgstr "Användningsbelopp"
+
+#: src/ui/main.blp:280
+msgid "Unit (Optional)"
+msgstr "Enhet (Valfri)"
+
+#: src/ui/main.blp:295 src/ui/interval.blp:19
+msgid "Edit Usage Interval"
+msgstr "Redigera användningsintervall"
+
+#: src/ui/main.blp:305
+msgid "Delete Item…"
+msgstr "Radera objekt…"
+
+#: src/ui/main.blp:333
+msgid "_Keyboard Shortcuts"
+msgstr "_Tangentbordsgenvägar"
+
+#: src/ui/main.blp:338
+msgid "_About Stockpile"
+msgstr "_Om Höglager"
+
+#: src/ui/interval.blp:42
+msgid "Automatic Usage"
+msgstr "Automatisk användning"
+
+#: src/ui/interval.blp:46
+msgid "Repeat Type"
+msgstr "Repetera typ"
+
+#. Translators: Keep this short
+#: src/ui/interval.blp:60
+msgid "Daily"
+msgstr "Dagligen"
+
+#. Translators: Keep this short
+#: src/ui/interval.blp:66
+msgid "Weekly"
+msgstr "Veckovis"
+
+#. Translators: Keep this short
+#: src/ui/interval.blp:72
+msgid "Monthly"
+msgstr "Månadsvis"
+
+#: src/ui/interval.blp:92 src/ui/interval.blp:117 src/ui/interval.blp:151
+msgid "Time of Day"
+msgstr "Tid på dagen"
+
+#: src/ui/interval.blp:110
+msgid "Day of Month"
+msgstr "Dag av månad"
+
+#: src/ui/interval.blp:135
+msgid "Day of Week"
+msgstr "Dag av vecka"
+
+#: src/ui/interval.blp:139
+msgid "Monday"
+msgstr "Måndag"
+
+#: src/ui/interval.blp:140
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: src/ui/interval.blp:141
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: src/ui/interval.blp:142
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: src/ui/interval.blp:143
+msgid "Friday"
+msgstr "Fredag"
+
+#: src/ui/interval.blp:144
+msgid "Saturday"
+msgstr "Lördag"
+
+#: src/ui/interval.blp:145
+msgid "Sunday"
+msgstr "Söndag"
+
+#: src/ui/help-overlay.blp:11
+msgctxt "shortcut window"
+msgid "Main View"
+msgstr "Huvudvisning"
+
+#: src/ui/help-overlay.blp:15
+msgctxt "shortcut window"
+msgid "New Item"
+msgstr "Nytt objekt"
+
+#: src/ui/help-overlay.blp:21
+msgctxt "shortcut window"
+msgid "Item View"
+msgstr "Objektvisning"
+
+#: src/ui/help-overlay.blp:25
+msgctxt "shortcut window"
+msgid "Use Item"
+msgstr "Använda objekt"
+
+#: src/ui/help-overlay.blp:30
+msgctxt "shortcut window"
+msgid "Refill Item"
+msgstr "Fyll på objekt"
+
+#: src/ui/help-overlay.blp:35
+msgctxt "shortcut window"
+msgid "Edit Item"
+msgstr "Redigera objekt"
+
+#: src/ui/help-overlay.blp:41
+msgctxt "shortcut window"
+msgid "Edit View"
+msgstr "Redigeringsvisning"
+
+#: src/ui/help-overlay.blp:45
+msgctxt "shortcut window"
+msgid "Save Item"
+msgstr "Spara objekt"
+
+#: src/ui/help-overlay.blp:50
+msgctxt "shortcut window"
+msgid "Discard Item"
+msgstr "Förkasta objekt"
+
+#: src/ui/help-overlay.blp:56
+msgctxt "shortcut window"
+msgid "General"
+msgstr "Allmänt"
+
+#: src/ui/help-overlay.blp:62
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr "Visa tangentbordsgenvägar"
+
+#: src/ui/help-overlay.blp:67
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr "Avsluta"
+
+#: src/ui/row.blp:37
+msgid "This item has a schedule for usage"
+msgstr "Detta objekt har ett användningsschema"
+
+#: src/ui/status-pages.blp:6
+msgid "No Items"
+msgstr "Inga objekt"
+
+#: src/ui/status-pages.blp:7
+msgid "Click below to create your first item."
+msgstr "Klicka nedan för att skapa ditt första objekt."
+
+#: src/ui/status-pages.blp:23
+msgid "Invalid Data"
+msgstr "Ogiltig data"
+
+#: src/ui/status-pages.blp:25
+msgctxt ""
+"Debug Information should be the same as the button in the About dialog."
+msgid ""
+"Stockpile‘s data is corrupted. You can either try to recover the data, or "
+"wipe it and start again. You can also report this with the debug information "
+"in the About dialog."
+msgstr ""
+"Stockpiles data är korrupt. Du kan antingen försöka återställa informationen "
+"eller radera den och börja om. Du kan också rapportera detta med "
+"felsökningsinformationen i dialogrutan Om."
+
+#: src/ui/status-pages.blp:38
+msgid "Recover Data…"
+msgstr "Återställ data…"
+
+#: src/ui/status-pages.blp:48
+msgid "Wipe All Data…"
+msgstr "Rensa all data…"
+
+#. Translators: This should be the same name as the dialog for automatic usage
+#: src/ui/status-pages.blp:56
+msgid "What is Automatic Usage?"
+msgstr "Vad är automatisk användning?"
+
+#. Translators: This explains automatic usage.
+#: src/ui/status-pages.blp:72
+msgid ""
+"Stockpile can handle automatic usage of items. When Stockpile is opened "
+"after the time for automatic usage has passed, Stockpile will calculate how "
+"much was used and automatically subtract it. If a month has less days than "
+"the day number provided, Stockpile will use the item on the last day of the "
+"month."
+msgstr ""
+"Stockpile kan hantera automatisk användning av objekt. När Stockpile öppnas "
+"efter att tiden för automatisk användning har gått ut, beräknar Stockpile "
+"hur mycket som använts och subtraherar det automatiskt. Om en månad har "
+"färre dagar än det angivna dagnumret, använder Stockpile objektet den sista "
+"dagen i månaden."
+
+#, fuzzy
+#~ msgid "Updated to GNOME 48 runtime"
+#~ msgstr "Uppdaterade til GNOME 47-runtimen"
+
+#~ msgid "Updated to GNOME 47 runtime"
+#~ msgstr "Uppdaterade til GNOME 47-runtimen"
+
+#~ msgid "Added Norwegian Bokmål translation"
+#~ msgstr "La till översättning til norska bokmål"
+
+#~ msgid "Delete Item"
+#~ msgstr "Radera Objekt"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Delete Item"
+#~ msgstr "Radera objekt"
+
+#~ msgid "The main view of Stockpile"
+#~ msgstr "Hovudvisningen av Stockpile"
+
+#~ msgid "The item view of Stockpile"
+#~ msgstr "Objektvisningen av Stockpile"
+
+#~ msgid "The edit view of Stockpile"
+#~ msgstr "Redigeringsvisningen av Stockpile"
+
+#~ msgid "Item 1"
+#~ msgstr "Objekt 1"
+
+#~ msgid "Changed app name from “Jellybean” to “Stockpile”"
+#~ msgstr "Bytte appnamn från “Jellybön” till “Höglager”"
+
+#~ msgid "Updated icon to match name"
+#~ msgstr "Uppdaterade appikon"
+
+#~ msgid "Reduce user effort by removing unnessescary dialogs and toast"
+#~ msgstr ""
+#~ "Redusera användarbeta genom att ta onödiga dialogrutor och toast bort"
+
+#~ msgid "Display item amount in the main view"
+#~ msgstr "Visa kvarstårtal på huvudvisningen"
+
+#~ msgid "Reorder buttons and inputs across the app to make more sense"
+#~ msgstr "Ändra användargränssnittet lite"
+
+#~ msgid "Display item icons on the item page"
+#~ msgstr "Visa objektikoner på objektvisningen"
+
+#~ msgid ""
+#~ "If you are having trouble updating the app, please reinstall and select "
+#~ "to keep your user data, and Stockpile should launch correctly afterwards."
+#~ msgstr ""
+#~ "Om du har problem med att uppdatera appen kan du installera om den och "
+#~ "välja att behålla dina användardata, så bör Höglager starta korrekt "
+#~ "efteråt."
+
+#~ msgid "Fix UI bugs"
+#~ msgstr "Fix UI bugs"
+
+#~ msgid "2-pane UI removed to improve clarity of use"
+#~ msgstr "2-pane UI removed to improve clarity of use"
+
+#~ msgid "Added feedback on jellybean delete"
+#~ msgstr "Tillagd feedback om borttagning av objekt"
+
+#~ msgid "Icons can now be set for each item"
+#~ msgstr "Ikoner kan nu ställas in för varje objekt"
+
+#~ msgid "Items can now be searched for"
+#~ msgstr "Artiklar kan nu sökas efter"
+
+#~ msgid "Fixed various bugs"
+#~ msgstr "Fixade vissa fel"
+
+#~ msgid ""
+#~ "This release updates the backend. Do not export data from this version to "
+#~ "another version. If you were using a lower version, please run this "
+#~ "version first before using a newer version."
+#~ msgstr ""
+#~ "Denna utgåva uppdaterar baksidan av appen. Exportera inte data från den "
+#~ "här versionen till en tidligare version. Om du använde en tidligare "
+#~ "version, var god köra den här versionen före du använder en senare "
+#~ "version."
+
+#~ msgid "Added German, Catalan, French, Hungarian, and Italian translations"
+#~ msgstr ""
+#~ "Översättningar till tyska, catalanska, franska, ungerska, och italienska "
+#~ "tillagd"
+
+#~ msgid "Switched to 2-pane interface in larger window sizes"
+#~ msgstr "Bytte till 2-pane-användargränssnitt vid större fönsterstorlekar"
+
+#~ msgid ""
+#~ "Removed destructive action confirmation dialogs, instead replacing them "
+#~ "with toasts with an Undo action"
+#~ msgstr ""
+#~ "Ta bort bekräftelsedialogerna för destruktiva åtgärder och ersätt dem "
+#~ "istället med skålar med en Ångra-åtgärd"
+
+#~ msgid ""
+#~ "Added better tooltips to many buttons and improved keyboard shortcuts"
+#~ msgstr ""
+#~ "Bättre verktygstips till många knappar och förbättrade kortkommandon"
+
+#~ msgid "Removed the “Quick-Use” button"
+#~ msgstr "Ta bort knappen \"Snabbanvändning\""
+
+#~ msgid "Added localized window title"
+#~ msgstr "Lokaliserad fönstertitel har lagts till"
+
+#~ msgid "Adjusted icon"
+#~ msgstr "Justerade ikon"
+
+#~ msgid "Added all basic functionality"
+#~ msgstr "Alla grundläggande funktioner har lagts till"
+
+#~ msgid "Added translation to Swedish"
+#~ msgstr "Lagt till översättning till svenska"
+
+#~ msgid "Manage inventories of various things"
+#~ msgstr "Hantera lager för många olika saker"
+
+#~ msgid ""
+#~ "Stockpile is an app that allows you to manage your inventory of various "
+#~ "things. It provides you with an easy way to quickly use items whose "
+#~ "inventories are managed by Stockpile, as well as simple use and refill "
+#~ "functions and a handy low-stock indicator to let you know when your stock "
+#~ "of an item is running low."
+#~ msgstr ""
+#~ "Höglager är en app som tillåter dig att hantera dina lager av många olika "
+#~ "saker. Det get dig ett enkelt sätt att använda snabbt objekt vars lager "
+#~ "hanteras av Höglager, samt enkla användnings- och påfyllningsfunktioner "
+#~ "och en praktisk indikator för lågt lager som meddelar dig när ditt lager "
+#~ "av en artikel börjar ta slut."
+
+#~ msgid "Use"
+#~ msgstr "Använda"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Settings"
+#~ msgstr "Visa inställningar"
+
+#~ msgid "_Preferences"
+#~ msgstr "_Inställningar"
+
+#~ msgctxt "Preferences window"
+#~ msgid "Prioritize Low Stock Items"
+#~ msgstr "Flytta objekt med lågt lager upp"
+
+#~ msgctxt "Preferences window"
+#~ msgid "Dim Icons"
+#~ msgstr "Dimma objektikoner"
+
+#~ msgid "Units"
+#~ msgstr "Enhet"
+
+#~ msgid "Item Units"
+#~ msgstr "Enhet för objekt"
+
+#~ msgid "Improved or removed toasts present in various UI areas"
+#~ msgstr ""
+#~ "Förbättrade eller tog bort toasts som finns i olika "
+#~ "användargränssnittområden"
+
+#~ msgid "Reduce user effort by removing unnessescary dialogs"
+#~ msgstr "Redusera användarbeta genom att ta onödiga dialogrutor bort"
+
+#, c-format
+#~ msgid "Used @d %s of @s"
+#~ msgstr "Använde @d %s @s"
+
+#, c-format
+#~ msgid "Added @d %s to @s"
+#~ msgstr "Tillagd @d %s till @s"
+
+#, c-format
+#~ msgid "Low stock: @d %s left"
+#~ msgstr "Lågt lager: @d %s kvar"
+
+#~ msgid "_About Jellybean"
+#~ msgstr "_Om Jellybön"
+
+#, c-format
+#~ msgid "Use %s"
+#~ msgstr "Använda %s"
+
+#, c-format
+#~ msgid "How many %s of @s would you like to use?"
+#~ msgstr "Hur många %s @s vill du använda?"
+
+#, c-format
+#~ msgid "How many %s of @s would you like to add?"
+#~ msgstr "Hur många %s @s vill du lägga till?"
+
+#~ msgid "Add"
+#~ msgstr "Lägg till"
+
+#~ msgid "Jellybean"
+#~ msgstr "Jellybön"
+
+#~ msgid "Use…"
+#~ msgstr "Använda…"
+
+#~ msgid "Refill…"
+#~ msgstr "Fyll på…"
+
+#~ msgid "Visual"
+#~ msgstr "Utseende"
+
+#~ msgctxt "use a consistent verb for Quick-use"
+#~ msgid "Quick-use Number"
+#~ msgstr "Snabbanvändningsantal"
+
+#, c-format
+#~ msgid "Not enough %s of @s left for quick-usage"
+#~ msgstr "Inte nog %s @s kvar för att snabbanvända"
+
+#, c-format
+#~ msgid "Quick-used @d %s of @s"
+#~ msgstr "Snabbanvände @d %s @s"
+
+#~ msgid "Added better tooltips"
+#~ msgstr "Added better tooltips"
+
+#~ msgid "Discard Changes?"
+#~ msgstr "Förkasta ändringar?"
+
+#~ msgid "If you leave this view, your changes will not be saved."
+#~ msgstr ""
+#~ "Om du lämnar den här visningen kommer dina ändringar att sparas inte."
+
+#~ msgid "Discard"
+#~ msgstr "Förkasta"
+
+#~ msgid "No description"
+#~ msgstr "Ingen beskrivning"

@@ -189,3 +189,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - AutoTabOpener: potentiellt obsolet. Senaste verifierade release v2.10 (2022-10-09), äldre än två år; projektet hoppas över.
 
 - FOSS Browser / strings (sv): release v23 (2026-06-22) verifierad; 155/158 översatta, 1 osäker och 0 kontrollfel. Tre rättningar granskade med hunspell -d sv_SE, men Weblate returnerade 403 eftersom komponenten är låst; inga ändringar kunde publiceras.
+
+- Jellybean / jellybean (sv): release 0.5.1 (2026-03-03) verifierad; 109/109 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; produktnamn och facktermer bedömda.
