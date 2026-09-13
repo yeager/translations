@@ -329,4 +329,4 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 
 - SearXNG: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release kunde verifieras via GitHubs release-API 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
 
-- QDMR / graphical-user-interface (sv): release v0.15.1 (2026-06-20) verifierad; **pågående**. 708/790 översatta, 20 osäkra och 49 kontrollfel efter att 309 import-, export-, roaming-, konflikthanterings-, listflyttnings-, repeater-, satellit-, radio-, kanal-, APRS-symbol- och kanalredigerartexter publicerats. Senaste omgången omfattade 81 strängar.
+- QDMR / graphical-user-interface (sv): release v0.15.1 (2026-06-20) verifierad; **pågående granskning**. 789/790 översatta, 0 osäkra och 58 kontrollfel. Alla översättningsbara enheter är färdiga. Den återstående enheten har tom källtext i MainWindowToolbar (mainwindow.ui:127); Weblate avvisar tomt målvärde. 390 strängar har översatts eller rättats.
