@@ -382,3 +382,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Librerama / librerama (sv): release v0.7.0 (2026-04-18) verifierad. Svenska saknas; Weblate returnerade 403 när en svensk fil skulle skapas. Inga översättningar kunde påbörjas eller publiceras.
 
 - One Cloud: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
+
+- Open Tracks – OSM Dashboard / app-store-metadata (sv): release v6.10.0 (2026-06-13) verifierad; 67/67 översatta, 0 osäkra och 8 kontrollfel. Tolv tomma historiktexter har förberetts, men Weblate returnerade 403 för samtliga skrivningar; inga nya ändringar kunde publiceras. Offline-metadata-komponenten är separat komplett och speglad.
