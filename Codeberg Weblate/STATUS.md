@@ -157,3 +157,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - flohmarkt / backend (sv): release 0.20.1 (2026-07-13) verifierad; 623/623 översatta, 0 osäkra och 14 tekniska/återanvändningskontroller. Fullständigt granskat med hunspell -d sv_SE och msgfmt -c; åtta äldre stav- och sakfel har rättats.
 
 - Lazarr! / lzr_infobooks (sv): release 2.2.3 (2026-06-06) verifierad; 234/234 översatta, 0 osäkra och 4 automatiska tekniska kontroller. Granskad med hunspell -d sv_SE; tangentmarkörer, kommandon och filnamn är bevarade.
+
+- Lazarr! / lzr_core (sv): release 2.2.3 (2026-06-06) verifierad; 51/51 översatta, 0 osäkra och 1 automatisk dubblettkontroll för Sand. Fullständigt granskat med hunspell -d sv_SE; äldre materialnamn och sammansättningar rättade.
