@@ -59,6 +59,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | moshidon | values | 127 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | ej dokumenterad |
 | nitroxy | glossary | 4 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
 | nontrinsic | android-metadata, android, ios, nontrinsic | 178 | Granskad, men minst en komponent är låst | ej dokumenterad |
+| Open Tracks - OSM Dashboard | app-store-metadata-offline-version | 67 | Publicerad och granskad; 67 dokumenterade tekniska kontroller | v6.10.0 (2026-06-13) |
 | open-tracks-osm-dashboard | app-store-metadata | 67 | Publicerad och granskad; 8 dokumenterade tekniska kontroller | ej dokumenterad |
 | plants | application | 108 | Publicerad och granskad; 7 dokumenterade tekniska kontroller | ej dokumenterad |
 | postmill | messages | 648 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | v2.2.3 (2026-07-20) |
@@ -85,8 +86,10 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | auto-tab-opener | v2.10 (2022-10-09) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
 | Meditation Assistant | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
+| Nextcloud Cookbook Android | v3.0.2 (2024-02-26) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
 | partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+| SearXNG | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig aktuell release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | weather | 3.21-pre1 (2023-04-12) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 
 ### Detaljerad arbetslogg
@@ -331,4 +334,4 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 
 - QDMR / graphical-user-interface (sv): release v0.15.1 (2026-06-20) verifierad; **pågående granskning**. 789/790 översatta, 0 osäkra och 53 kontrollfel. Alla översättningsbara enheter är färdiga. Den återstående enheten har tom källtext i MainWindowToolbar (mainwindow.ui:127); Weblate avvisar tomt målvärde. 395 strängar har översatts eller rättats; fem språk- och HTML-fel rättades i senaste granskningen.
 
-- Open Tracks – OSM Dashboard / app-store-metadata-offline-version (sv): release v6.10.0 (2026-06-13) verifierad; **pågående**. 30/67 översatta, 0 osäkra och 30 kontrollfel. 22 beskrivnings- och ändringsloggsträngar har översatts och granskats med `hunspell -d sv_SE`; länkar, radbrytningar, versionsnummer och punktlistor är bevarade.
+- Open Tracks – OSM Dashboard / app-store-metadata-offline-version (sv): release v6.10.0 (2026-06-13) verifierad; **klar och speglad**. 67/67 översatta, 0 osäkra och 67 kontrollfel. 59 saknade beskrivnings- och ändringsloggsträngar har översatts och granskats med `hunspell -d sv_SE`; länkar, radbrytningar, versionsnummer och punktlistor är bevarade. Kontrollerna gäller historiska ändringsloggar, produktnamn och tekniska identifierare.
