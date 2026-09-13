@@ -181,3 +181,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - SCEE / app (sv): release v63.4 (2026-08-05) verifierad; 663/663 översatta, 0 osäkra och 15 automatiska tekniska/dubblettkontroller för korrekta taggar, standardförkortningar och återanvända formuleringar. Fullständigt granskat med hunspell -d sv_SE; tre språkfel rättade.
 
 - Träwelling / traewelling (sv): release 2026.09.12 (2026-09-12) verifierad; 1444/1444 översatta, 0 osäkra och 94 automatiska dubblett-/tekniska kontroller. Fullständigt granskat med hunspell -d sv_SE; sex faktiska språkfel rättade och format, variabler, pluraler samt länkar bevarade.
+
+- Conversations: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release inom två år kunde verifieras 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
