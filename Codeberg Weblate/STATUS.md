@@ -183,3 +183,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Träwelling / traewelling (sv): release 2026.09.12 (2026-09-12) verifierad; 1444/1444 översatta, 0 osäkra och 94 automatiska dubblett-/tekniska kontroller. Fullständigt granskat med hunspell -d sv_SE; sex faktiska språkfel rättade och format, variabler, pluraler samt länkar bevarade.
 
 - Conversations: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release inom två år kunde verifieras 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
+
+- PartyGames: potentiellt obsolet. Senaste verifierade release 2.0.0 (2024-01-08), äldre än två år; projektet hoppas över.
