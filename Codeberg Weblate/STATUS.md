@@ -169,3 +169,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Hades Revisited / hades_carpets (sv): release 0.20.2 (2026-02-16) verifierad; 22/22 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE.
 
 - GeoWeather / geoweather (sv): release v3.1.3 (2026-09-10) verifierad; 290/290 översatta, 0 osäkra och 4 automatiska kontroller för två korrekta dubbletter samt standardbeteckningarna Fahrenheit (°F) och mmHg. Fullständigt granskat med hunspell -d sv_SE; produktnamn, format och tekniska termer har bedömts.
+
+- Clock / clock (sv): release 2.31 (2026-06-28) verifierad; 675/675 översatta, 0 osäkra och 23 automatiska dubblett-/terminologikontroller för korrekta återanvända termer, standardnamn och geografiska namn. Fullständigt granskat med hunspell -d sv_SE; Android-platshållare, pluraler, HTML och radbrytningar är bevarade.
