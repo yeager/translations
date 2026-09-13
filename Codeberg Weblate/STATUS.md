@@ -83,6 +83,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Projekt | Senast verifierade release | Status |
 |---|---|---|
 | Ampersand | Ingen verifierbar offentlig release | Potentiellt obsolet — Ingen offentlig release kunde verifieras via Codeberg-release-API:t; projektet hoppas över enligt tvåårsregeln. |
+| Apkes | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | auto-tab-opener | v2.10 (2022-10-09) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Best-Before | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
@@ -340,3 +341,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 
 - Dawdle: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
 - Best-Before: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
+
+- Apkes: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
