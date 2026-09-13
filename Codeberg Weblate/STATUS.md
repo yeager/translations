@@ -19,7 +19,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.6.1 (2026-02-10) |
 | bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | Boxcars v1.5.0 (2025-10-24) |
 | calligraphy | calligraphy | 40 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.3.0 (2026-05-18) |
-| censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
+| censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.10.1 (2026-08-08) |
 | ChiPass | Application | 2332 | Publicerad och granskad; 290 dokumenterade tekniska kontroller | v2026.09.0 (2026-09-11) |
 | clock | cities, clock | 1026 | Publicerad och granskad; 219 dokumenterade tekniska kontroller | 2.31 (2026-06-28); ej dokumenterad |
 | collision | collision | 45 | Publicerad och granskad; inga osäkra poster eller kontroller | v3.14.1 (2026-05-07) |
