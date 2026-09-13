@@ -1,0 +1,105 @@
+prefs-window-title = Inställningar
+prefs-general-page = Allmänt
+prefs-vp-subs = Undertexter
+prefs-vp-plugins = Tillägg
+prefs-vp-other = Övrigt
+prefs-general-restore-most-recent =
+    .title = Logga in automatiskt när { app-name } startas
+    .subtitle = Du loggas in på ditt senast använda konto när appen startas
+prefs-vp-intro-skipper =
+    .title = Intro Skipper-tillägg
+    .subtitle =
+         Visar en knapp för att hoppa över intron.
+        Detta kräver att tillägget <a href="{ $introSkipperUrl }">Intro Skipper</a> är installerat på servern.
+prefs-vp-intro-skipper-auto-skip =
+    .title = Hoppa över intron automatiskt
+    .subtitle = Hoppa över intron utan att behöva trycka på knappen
+prefs-vp-page = Videospelare
+prefs-general-language =
+    .title = Språk
+    .subtitle = Bidra med översättningar på <a href="{ $weblateUrl }">Weblate</a>
+    .option-default = Systemstandard ({ $languageId })
+prefs-general-theme =
+    .title = Tema
+    .option-default = Systemstandard
+    .option-light = Ljust
+    .option-dark = Mörkt
+prefs-vp-interface = Gränssnitt
+prefs-skip-amount =
+    { $seconds } { $seconds ->
+        [one] sekund
+       *[other] sekunder
+    }
+prefs-vp-skip-backwards =
+    .title = Spola bakåt
+    .subtitle = Hur många sekunder som spolas bakåt åt gången
+prefs-vp-skip-forwards =
+    .title = Spola framåt
+    .subtitle = Hur många sekunder som spolas framåt åt gången
+prefs-vp-on-left-click-options =
+    .play-pause = Spela upp/pausa video
+    .toggle-controls = Visa/dölj kontroller
+prefs-vp-subs-reset =
+    .label = Återställ
+    .tooltip = Återställ undertextsinställningar
+prefs-vp-subs-style = Undertextstil
+prefs-vp-subs-style-ass-warning =
+    Dessa inställningar gäller inte för ASS/SSA-undertexter.
+    För ASS/SSA-undertexter, se "{ prefs-vp-subs-more }".
+prefs-vp-subs-colour =
+    .title = Undertextens textfärg
+prefs-vp-subs-background-colour =
+    .title = Undertextens bakgrundsfärg
+prefs-vp-subs-font =
+    .title = Undertextstypsnitt
+    .subtitle = Endast typsnitt som stöds listas
+prefs-vp-subs-more = Fler undertextsinställningar
+prefs-vp-subs-more-ass-warning =
+    .title = Dessa inställningar påverkar ASS/SSA-undertexter!
+    .subtitle =
+        ASS/SSA-undertexter innehåller ofta speciell stil och positionering. Att ändra dessa inställningar kan göra att ASS/SSA-undertexter visas felaktigt.
+
+        Om du bara vill ändra stilen för andra undertextformat rekommenderas det att du ändrar inställningarna under "{ prefs-vp-subs-style }" i stället.
+prefs-vp-subs-scale =
+    .title = Undertextskala
+    .subtitle = Storlek på undertexterna
+prefs-vp-subs-position =
+    .title = Undertextposition
+    .subtitle = Där 0 är överst på skärmen och 100 är nederst
+prefs-vp-mpv-hwdec =
+    .title = Maskinvaruavkodning
+    .subtitle =
+        Maskinvaruavkodning kan förbättra uppspelningsprestandan.
+        Välj "{ prefs-vp-mpv-hwdec-options.auto-safe }" eller "{ prefs-vp-mpv-hwdec-options.off }" om du upplever problem.
+        För mer information, se <a href="{ $mpvManualUrl }">MPV-manualen</a>.
+prefs-vp-mpv-hwdec-options =
+    .auto = Auto
+    .auto-copy = Auto (kopiera)
+    .auto-safe = Auto (säker)
+    .custom = Anpassad
+    .off = Av
+prefs-vp-experimental =
+    .title = Experimentella inställningar
+    .subtitle =
+        Dessa inställningar kan vara trasiga eller ofullständiga.
+        Det rekommenderas inte att ändra dem.
+prefs-vp-backend =
+    .title = Videospelarmotor
+    .subtitle = Kräver omstart av { app-name }.
+    .value-mpv = MPV
+    .value-gstreamer = GStreamer
+prefs-vp-hls-playback =
+    .title = HLS-uppspelning
+    .subtitle = Detta kan försämra val av ljudspår och undertext.
+prefs-general-use-episode-image =
+    .title = Använd avsnittsbilder i sektionerna "Nästa på tur" och "Fortsätt titta"
+    .subtitle = Sektionerna "Nästa på tur" och "Fortsätt titta" kommer att använda avsnittsbilder som miniatyrbilder istället för seriens primära miniatyrbild.
+prefs-vp-on-left-click =
+    .title = När musen klickas
+    .subtitle = Vad som händer vid vänsterklick i videospelaren
+prefs-vp-jellyscrub =
+    .title = Jellyscrub
+    .subtitle =
+        Visa förhandsvisningsbilder när muspekaren förs över uppspelningsfältet.
+        Detta kräver att <a href="{ $jellyscrubUrl }">Jellyscrub</a>-tillägget är installerat på din server.
+        Annars används Jellyfins inbyggda trickplay på servrar som stöder det.

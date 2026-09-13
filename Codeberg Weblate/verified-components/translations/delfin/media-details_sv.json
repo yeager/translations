@@ -1,0 +1,42 @@
+media-details-play-button =
+    { $resume ->
+        [true] Återuppta
+       *[false] Spela upp
+    }
+    .with-episode-and-season =
+        { $resume ->
+            [true] Återuppta
+           *[false] Spela upp
+        } S{ $seasonNumber }:A{ $episodeNumber }
+    .next-episode = Spela upp nästa avsnitt
+media-details-refresh-button = Ladda om
+media-details-unnamed-episode = Namnlöst avsnitt
+media-details-unnamed-item = Namnlöst objekt
+media-details-unnamed-season = Namnlös säsong
+media-details-episode-list-empty = Inga avsnitt hittades för den här säsongen.
+media-details-years = { $startYear } – { $endYear }
+    .until-present = { $startYear } – nu
+    .present = Nu
+media-details-run-time =
+    { $hours ->
+        [0] { $minutes }min
+       *[other] { $hours }h { $minutes }min
+    }
+media-details-season-tooltip =
+    Den här säsongen har { $unplayedItemCount ->
+        [one] { $unplayedItemCount } ospelat avsnitt
+       *[other] { $unplayedItemCount } ospelade avsnitt
+    }
+    .unknown-item-count = Den här säsongen har ospelade avsnitt
+media-details-watched = Sedd
+media-details-unwatched = Ej sedd
+media-details-backdrop-error = Kunde inte ladda mediabakgrund
+media-details-toggle-watched-error =
+    Misslyckades med att markera { $type ->
+       *[episode] avsnittet
+        [series] serien
+        [movie] filmen
+    } som { $watched ->
+        [true] sedd
+       *[false] ej sedd
+    }

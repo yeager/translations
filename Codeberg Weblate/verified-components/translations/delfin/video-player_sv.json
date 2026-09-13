@@ -1,0 +1,78 @@
+vp-audio-track-tooltip = Ljudspår
+vp-audio-track-menu = Ljudspår
+vp-playback-speed-tooltip = Uppspelningshastighet
+vp-no-subtitles-available = Inga undertexter tillgängliga.
+vp-backend-gst-track-name = { $displayName } – { $title }
+vp-menu-deinterlace-options =
+    .on = På
+    .off = Av
+    .auto = Auto
+vp-next-up-starting =
+    Nästa avsnitt börjar om { $remaining } { $remaining ->
+        [one] sekund
+       *[other] sekunder
+    }…
+vp-next-prev-episode-tooltip =
+    { $direction ->
+        [next] Nästa
+       *[previous] Föregående
+    } avsnitt
+vp-skip-intro =
+    .manual = Hoppa över intro
+    .auto = Hoppar över intro om { $seconds }…
+vp-volume-mute-tooltip =
+    { $muted ->
+        [true] Ljud på
+       *[false] Ljud av
+    }
+vp-playback-speed-normal = Normal
+vp-playback-speed-toast = Uppspelningshastighet: { $speed }x
+vp-next-up-action =
+    .play = Spela upp nu
+    .hide = Dölj
+vp-unnamed-item = Namnlöst objekt
+vp-unnamed-track = Namnlöst spår
+vp-duration-tooltip =
+    .total = Visa återstående tid
+    .remaining = Visa total tid
+vp-fullscreen-tooltip =
+    { $enter ->
+        [true] Helskärm
+       *[false] Avsluta helskärmsläge
+    }
+vp-play-pause-tooltip =
+    { $playing ->
+        [true] Pausa
+       *[false] Spela upp
+    }
+vp-skip-forwards-backwards-tooltip =
+    Spola { $direction ->
+        [forwards] framåt
+       *[backwards] bakåt
+    } { $seconds } { $seconds ->
+        [one] sekund
+       *[other] sekunder
+    }
+vp-subtitle-track-tooltip =
+    { $subtitlesAvailable ->
+        [true] Undertexter
+       *[false] Inga undertexter tillgängliga
+    }
+vp-subtitle-track-menu = Undertexter
+vp-subtitle-track-external = Externa undertexter
+vp-subtitle-track-off = Av
+vp-backend-mpv-track-name =
+    .title-and-language = { $title } – { $language }
+    .id-and-language = Spår { $id } – { $language }
+    .id = Spår { $id }
+vp-menu-hwdec = Maskinvaruavkodning
+vp-menu-deinterlace = Avflätning
+vp-menu-deinterlace-toast =
+    .on = Avflätning: { vp-menu-deinterlace-options.on }
+    .off = Avflätning: { vp-menu-deinterlace-options.off }
+vp-menu-debug = Felsökning
+vp-menu-debug-copy-stream-url = Kopiera stream-URL
+vp-menu-debug-copy-stream-url-toast =
+    .success = Stream-URL kopierades till urklipp
+    .fail = Misslyckades med att kopiera stream-URL till urklipp
+vp-menu-debug-mpv-props = MPV egenskaper
