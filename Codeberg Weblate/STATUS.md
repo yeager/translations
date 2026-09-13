@@ -151,3 +151,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Doable / values (sv): release v1.17.2 (2024-10-20) verifierad; 503/503 översatta, 0 osäkra och 16 automatiska tekniska/dubblettkontroller för bland annat WebDAV, APK och F-Droid. Fullständigt granskat med hunspell -d sv_SE; platshållare och ICU-pluraler är bevarade.
 
 - Sriracha / sriracha (sv): release v2.1.2 (2026-09-13) verifierad; 582/582 översatta, 0 osäkra och 29 automatiska dubblettkontroller för korrekta återanvända termer. Fullständigt granskat med hunspell -d sv_SE; pluraler, formatparametrar och forumsyntax är bevarade.
+
+- Mitra Web / main (sv): release v5.10.0 (2026-08-24) verifierad; 421/421 översatta, 0 osäkra och 8 automatiska dubblettkontroller för korrekta återanvända termer. Fullständigt granskat med hunspell -d sv_SE utan återstående träffar; variabler och pluralformat är bevarade.
