@@ -173,3 +173,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Clock / clock (sv): release 2.31 (2026-06-28) verifierad; 675/675 översatta, 0 osäkra och 23 automatiska dubblett-/terminologikontroller för korrekta återanvända termer, standardnamn och geografiska namn. Fullständigt granskat med hunspell -d sv_SE; Android-platshållare, pluraler, HTML och radbrytningar är bevarade.
 
 - HeliBoard / heliboard (sv): release v4.1 (2026-08-30) verifierad; 552/552 översatta, 0 osäkra och 11 automatiska kontroller för korrekta layout-/språknamn och konsekventa språkbytesformuleringar. Fullständigt granskat med hunspell -d sv_SE; HTML, länkar, parametrar och radbrytningar är bevarade.
+
+- Weather: potentiellt obsolet. Senaste verifierade release 3.21-pre1 (2023-04-12), äldre än två år; projektet hoppas över.
