@@ -10,5 +10,15 @@
     "status": "reviewed; write and export restricted",
     "review": "Fyra språkfel identifierade vid API-granskning. Lokalt hunspell -d sv_SE kördes på API-lästa måltexter; kvarvarande träffar är produktnamn och platshållare.",
     "reason": "Weblate returnerar HTTP 403 både för uppdatering av enheter och för file_url, trots tillgängliga läsdata. Inga ändringar kunde publiceras och ingen översättningsfil kan speglas ännu."
+  },
+  {
+    "project": "Flickboard",
+    "components": [
+      "app"
+    ],
+    "latest_release": "v0.3.4.1 (2026-05-18)",
+    "status": "reviewed; write restricted",
+    "review": "Tolv språk-, sak- och UI-fel identifierade med lokal hunspell -d sv_SE och källjämförelse, bland annat felaktiga höger-/vänsterinstruktioner och en felöversatt Gör om-åtgärd.",
+    "reason": "Weblate returnerade HTTP 403 för samtliga enhetsuppdateringar. Export av befintlig katalog fungerar, men inga korrigeringar kunde publiceras och ingen verifierad korrigerad spegelkopia skapas."
   }
 ]
