@@ -161,3 +161,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Lazarr! / lzr_core (sv): release 2.2.3 (2026-06-06) verifierad; 51/51 översatta, 0 osäkra och 1 automatisk dubblettkontroll för Sand. Fullständigt granskat med hunspell -d sv_SE; äldre materialnamn och sammansättningar rättade.
 
 - OBS Master: **potentiellt obsolet**. Senaste verifierade release 0.6.3 (2023-11-16) är äldre än två år; projektet har hoppats över.
+
+- Hades Revisited / hades_core (sv): release 0.20.2 (2026-02-16) verifierad; 214/214 översatta, 0 osäkra och 7 spelterm-/teknikkontroller. Copper Ingot rättad till Koppartacka; granskad med hunspell -d sv_SE.
