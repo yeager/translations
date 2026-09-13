@@ -185,3 +185,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Conversations: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release inom två år kunde verifieras 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
 
 - PartyGames: potentiellt obsolet. Senaste verifierade release 2.0.0 (2024-01-08), äldre än två år; projektet hoppas över.
+
+- AutoTabOpener: potentiellt obsolet. Senaste verifierade release v2.10 (2022-10-09), äldre än två år; projektet hoppas över.
