@@ -89,6 +89,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
 | dawdle | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Meditation Assistant | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
+| Megalodon | v2.1.6+fork.110 (2023-11-15) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Nextcloud Cookbook Android | v3.0.2 (2024-02-26) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
 | partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
@@ -346,3 +347,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Apkes: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
 
 - Pineapple Lock Screen: potentiellt obsolet enligt releasekriteriet. GitHubs release-API saknar offentlig release 2026-09-13; projektet hoppas över.
+
+- Megalodon: potentiellt obsolet. Senaste verifierade release v2.1.6+fork.110 (2023-11-15) är äldre än två år; projektet hoppas över.
