@@ -213,3 +213,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Ampersand: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release kunde verifieras 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
 
 - Postmill / messages (sv): release v2.2.3 (2026-07-20) verifierad; 648/648 översatta, 0 osäkra och 3 kontrollfel. Granskad med hunspell -d sv_SE; tolv språk- och terminologifel har rättats. Kontrollerna gäller avsiktliga facktermer och rollnamn.
+
+- Turntable / turntable (sv): release v0.5.1 (2025-12-26) verifierad; 139/139 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; två språkfel har rättats.
