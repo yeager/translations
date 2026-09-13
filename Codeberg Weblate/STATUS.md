@@ -4,6 +4,89 @@ Uppdrag: alla offentliga projekt. Användaren bekräftade hela tjänsten, inte b
 
 Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponenter. Befintliga svenska kataloger omfattade 223 936 strängar, varav 80 867 översatta och 8 201 markerade för redigering före arbetet. Detta omfattar inte nya svenska kataloger i projekt som saknar svenska.
 
+## Aktuellt arbetssätt och projektregister
+
+Varje nytt projekt kontrolleras först mot en offentligt verifierbar release från de senaste två åren (gräns: 2024-09-13). Projekt utan sådan release registreras som **potentiellt obsoleta** och hoppas över. För varje aktiv svensk komponent kontrolleras täckning, osäkra poster, Weblate-kontroller, platshållare och lokal stavning med `hunspell -d sv_SE`. Kompletta, publicerade komponenter speglas till `github.com/yeager/translations`.
+
+### Speglade och granskade projekt
+
+| Projekt | Komponenter | Strängar | Status | Senast verifierade release |
+|---|---:|---:|---|---|
+| alligator-gozaimasu | app, app | 160 | Publicerad och granskad; inga osäkra poster eller kontroller | 0.32 (2026-07-27); ej dokumenterad |
+| ampersand | notes, filterqueries, resources, ampersand-lock-dashboard, security, analytics, tag-management, systems, import-export, members, app-settings, other | 374 | Publicerad och granskad; 13 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
+| ascomplete | android | 135 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | v0.1.0 (2026-09-09) |
+| backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | ej dokumenterad |
+| censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
+| clock | cities, clock | 1026 | Publicerad och granskad; 219 dokumenterade tekniska kontroller | 2.31 (2026-06-28); ej dokumenterad |
+| comaps | appstore-description, website | 83 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | ej dokumenterad |
+| conversations | app-store-metadata | 106 | Publicerad och granskad; 1 dokumenterade tekniska kontroller | ej dokumenterad |
+| currencies | changelogs-and-descriptions-fastlane-for-f-droid | 65 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| diday-org | faqs | 48 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| doable | values | 503 | Publicerad och granskad; 16 dokumenterade tekniska kontroller | v1.17.2 (2024-10-20) |
+| door-knocker | main | 140 | Publicerad och granskad; 8 dokumenterade tekniska kontroller | ej dokumenterad |
+| elly-code | unboxing, reminduck | 146 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | ej dokumenterad |
+| f-droid-classic | privext | 3 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| f-droid_build_status | strings-xml, app-store-metadata, glossary | 223 | Publicerad och granskad; inga osäkra poster eller kontroller | 5.15.0 (2026-06-28) |
+| fediphoto-lineage | description, strings | 282 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | v8.0 (2025-08-26) |
+| feeder | f-droid-and-play-store-metadata | 3 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| flohmarkt | backend | 623 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | 0.20.1 (2026-07-13) |
+| foss-browser | strings | 158 | Granskad, men minst en komponent är låst | v23 (2026-06-22) |
+| ftpclient | strings | 120 | Publicerad och granskad; inga osäkra poster eller kontroller | 3.2.0 (2026-08-23) |
+| geoweather | geoweather | 290 | Publicerad och granskad; 4 dokumenterade tekniska kontroller | v3.1.3 (2026-09-10) |
+| gnuhealth | health_webdav3_server, health_stock_nursing, health_stock_inpatient, health_contact_tracing, health_insurance, health_mdg6, health_nursing | 269 | Publicerad och granskad; 12 dokumenterade tekniska kontroller | ej dokumenterad |
+| guix | website, glossary | 431 | Publicerad och granskad; 4 dokumenterade tekniska kontroller | ej dokumenterad |
+| gymroutines | app-string-resources | 84 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.1.1 (2025-04-18) |
+| hades-revisited | hades-cloth, hades-dye, hades-food, hades-furnaces, hades-magic-wand, hades-seasons, hades-signs, hades-tiles, hades-vines, mobs-hades, hades-refuit, hades-death-messages, hades-chests, hades-mob-spawner, hades-bushes, hades-beds-walls, hades-crystals-commands-hunger, hades-grass-greeting, hades-bags-creative-mobs | 389 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
+| hades_revisited | hades_flowers, hades_doors, hades_craftguide, hades_trees, hades_flowerpots, hades_farming, hades_columnia, hades_core, hudbars, hades_skins, hades_itemshow, hades_furniture, hades_fences, hades_windows, hades_simulation, hades_orienteering, hades_tt, glossary, hades_stairs, hades_info, hades_carpets | 2062 | Publicerad och granskad; 43 dokumenterade tekniska kontroller | 0.20.2 (2026-02-16); ej dokumenterad |
+| heliboard | heliboard | 552 | Publicerad och granskad; 11 dokumenterade tekniska kontroller | v4.1 (2026-08-30) |
+| hurrycurry | game, website | 443 | Publicerad och granskad; 15 dokumenterade tekniska kontroller | v3.1.1 (2026-04-30) |
+| imagepipe | metadata-for-fdroid, app-strings | 347 | Publicerad och granskad; 9 dokumenterade tekniska kontroller | ej dokumenterad; v0.78 (2026-06-07) |
+| jdAnimatedImageEditor | UnixMetadata | 2 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| jellybean | jellybean | 109 | Publicerad och granskad; inga osäkra poster eller kontroller | 0.5.1 (2026-03-03) |
+| jetbird | app | 182 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.8.10 (2026-09-04) |
+| kettu | default | 121 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | ej dokumenterad |
+| lask | lask | 342 | Publicerad och granskad; 16 dokumenterade tekniska kontroller | 0.9.0 (2025-03-28) |
+| lazarr | lzr_ambience, lzr_tools, lzr_player, lzr_doors, lzr_check_world_backend, lzr_check_movement_settings, _lzr_triggers_abbreviations, lzr_treasure, lzr_panes_functional, lzr_solutions, lzr_core, lzr_gui, lzr_parrot_npc, lzr_editor, lzr_credits, lzr_stairs, lzr_infobooks, lzr_core | 944 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | 2.2.3 (2026-06-06); ej dokumenterad |
+| libre-menu-editor | libre-menu-editor | 117 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.10.5 (2026-08-09) |
+| medilog | core | 592 | Publicerad och granskad; 1 dokumenterade tekniska kontroller | v3.8.0 (2026-09-11) |
+| meshy-for-android | application | 155 | Publicerad och granskad; inga osäkra poster eller kontroller | 26.09.12 (2026-09-12) |
+| mintapps | mintapps-basis-komponenten | 1963 | Publicerad och granskad; 24 dokumenterade tekniska kontroller | 2.2.0 (2026-02-04) |
+| mitra-web | main | 421 | Publicerad och granskad; 8 dokumenterade tekniska kontroller | v5.10.0 (2026-08-24) |
+| moshidon | values | 127 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | ej dokumenterad |
+| nitroxy | glossary | 4 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| nontrinsic | android-metadata, android, android, ios, nontrinsic | 184 | Granskad, men minst en komponent är låst | ej dokumenterad |
+| open-tracks-osm-dashboard | app-store-metadata | 67 | Publicerad och granskad; 8 dokumenterade tekniska kontroller | ej dokumenterad |
+| plants | application | 108 | Publicerad och granskad; 7 dokumenterade tekniska kontroller | ej dokumenterad |
+| postmill | messages | 648 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | v2.2.3 (2026-07-20) |
+| readeck | application | 643 | Publicerad och granskad; inga osäkra poster eller kontroller | 0.23.2 (2026-08-31) |
+| scee | app | 663 | Publicerad och granskad; 15 dokumenterade tekniska kontroller | v63.4 (2026-08-05) |
+| searloc | searloc | 78 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| sepia-squirt | glossary | 5 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| sriracha | sriracha | 582 | Publicerad och granskad; 29 dokumenterade tekniska kontroller | v2.1.2 (2026-09-13) |
+| theme-color | handbook-help-daemon, handbook-help-tips, handbook-help-export, handbook-help-colors, handbook-help-general, handbook-help-howto, handbook-help-ui, app | 307 | Publicerad och granskad; 11 dokumenterade tekniska kontroller | ej dokumenterad |
+| tiny-weather-forecast-germany | fdroid-metadata, app-strings | 600 | Publicerad och granskad; 19 dokumenterade tekniska kontroller | 0.63.4 (2026-07-24) |
+| tournant | glossary, app | 153 | Publicerad och granskad; 1 dokumenterade tekniska kontroller | ej dokumenterad |
+| trawelling | traewelling | 1444 | Publicerad och granskad; 94 dokumenterade tekniska kontroller | 2026.09.12 (2026-09-12) |
+| turntable | turntable | 139 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.5.1 (2025-12-26) |
+| untrackme | untrackme-description, app | 166 | Publicerad och granskad; 49 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
+| wormhole | app | 78 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+
+### Potentiellt obsoleta projekt
+
+| Projekt | Senast verifierade release | Status |
+|---|---|---|
+| Ampersand | Ingen verifierbar offentlig release | Potentiellt obsolet — Ingen offentlig release kunde verifieras via Codeberg-release-API:t; projektet hoppas över enligt tvåårsregeln. |
+| auto-tab-opener | v2.10 (2022-10-09) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+| conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
+| OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
+| partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+| weather | 3.21-pre1 (2023-04-12) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+
+### Detaljerad arbetslogg
+
+Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollresultat per komponent. Registret ovan är den aktuella sammanställningen per projekt.
+
 | Projekt | Omfattning | Resultat |
 |---|---|---|
 | mc6 | Samtliga 2 575 strängar | 1 664 poster accepterade vid uppladdning. 100 %, 0 ofärdiga. Fullständig API-återläsning matchar. Formell granskning avstängd. Se ../mc6-review/GRANSKNING.md. |
