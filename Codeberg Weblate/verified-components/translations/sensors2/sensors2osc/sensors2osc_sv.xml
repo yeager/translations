@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sensors">Sensorer</string>
+    <string name="action_settings">Inställningar</string>
+    <string name="host">Värd</string>
+    <string name="multi_touch">Multitouch</string>
+    <string name="communication">Kommunikation</string>
+    <string name="port">Port</string>
+    <string name="sensitity">Känslighet</string>
+    <string name="title_activity_about">Om</string>
+    <string name="action_about">Om</string>
+    <string name="about_buglinks">Rapportera gärna fel på &lt;a href=https://codeberg.org/Residuum/Sensors2OSC/issues&gt;Codeberg&lt;/a&gt; eller via e-post till &lt;a href=mailto:osc-bugs@sensors2.org&gt;osc-bugs@sensors2.org&lt;/a&gt;. Vi kommer att titta på dem.</string>
+    <string name="about_license">Licens</string>
+    <string name="about_components">Använda komponenter</string>
+    <string name="about_license_javaosc">&lt;a href=\"https://github.com/hoijui/JavaOSC\"&gt;JavaOSC&lt;/a&gt;; licensen finns på &lt;a href=\"https://github.com/hoijui/JavaOSC/blob/master/LICENSE.md\"&gt;https://github.com/hoijui/JavaOSC/blob/master/LICENSE.md&lt;/a&gt;.</string>
+    <string name="about_license_opentracks">Delar av Bluetooth-koden är kopierade från &lt;a href=\"https://codeberg.org/OpenTracksApp/OpenTracks\"&gt;OpenTracks&lt;/a&gt;; licensen finns på &lt;a href=\"https://codeberg.org/OpenTracksApp/OpenTracks/src/branch/main/LICENSE\"&gt;https://codeberg.org/OpenTracksApp/OpenTracks/src/branch/main/LICENSE&lt;/a&gt;.</string>
+    <string name="send_data">Skicka data</string>
+    <string name="action_guide">Hjälp</string>
+    <string name="text_guide_headline">Hjälp</string>
+    <string name="text_guide">Beroende på enheten finns flera sensorer och värden tillgängliga.</string>
+    <string name="text_available_sensors">Tillgängliga enhetssensorer</string>
+    <string name="text_guide_multitouch">När du öppnar multitouch-ytan skickas data till OSC-adressen /touch.\n\nVarje beröringspunkt översätts till tre värden. Det första värdet är beröringspunktens nollbaserade index, medan X och Y skickas som det andra respektive tredje värdet, i intervallet 0 till 1.\n\nNär fingret lyfts skickas -1 för X och Y.</string>
+    <string name="text_guide_multitouch_headline">Multitouch</string>
+    <string name="text_guide_geo">Om du aktiverar geopositionering för Sensors2OSC skickar appen data till OSC-adressen /location varje gång sensorerna registrerar en ny position.\n\nEn lista med fem värden skickas: latitud, longitud, höjd, riktning och noggrannhet.\n\nHöjd och noggrannhet anges i meter, övriga värden i grader.\n\nAlla enheter fyller inte i alla värden; vissa kan vara konstant 0.</string>
+    <string name="text_guide_geo_headline">Geopositionering</string>
+    <string name="text_guide_nfc">Om telefonen kan läsa NFC-taggar skickas taggarnas värde till OSC-adressen /nfc.</string>
+    <string name="text_guide_nfc_headline">Närfältskommunikation (NFC)</string>
+    <string name="guide_max_range">Största intervall</string>
+    <string name="guide_resolution">Upplösning</string>
+    <string name="guide_osc_address">OSC-adress</string>
+    <string name="sensor_nfc">Närfältskommunikation</string>
+    <string name="sensor_accelerometer">Accelerometer</string>
+    <string name="sensor_magnetic_field">Magnetfält</string>
+    <string name="sensor_orientation">Orientering</string>
+    <string name="sensor_gyroscope">Gyroskop</string>
+    <string name="sensor_light">Ljus</string>
+    <string name="sensor_pressure">Tryck</string>
+    <string name="sensor_temperature">Temperatur</string>
+    <string name="sensor_proximity">Närhet</string>
+    <string name="sensor_gravity">Tyngdkraft</string>
+    <string name="sensor_linear_acceleration">Linjär acceleration</string>
+    <string name="sensor_rotation_vector">Rotationsvektor</string>
+    <string name="sensor_relative_humidity">Relativ luftfuktighet</string>
+    <string name="sensor_ambient_temperature">Omgivningstemperatur</string>
+    <string name="sensor_magnetic_field_uncalibrated">Magnetfält (okalibrerat)</string>
+    <string name="sensor_game_rotation_vector">Rotationsvektor för spel (okalibrerad)</string>
+    <string name="sensor_gyroscope_uncalibrated">Gyroskop (okalibrerat)</string>
+    <string name="sensor_significant_motion">Betydande rörelse</string>
+    <string name="sensor_step_counter">Stegräknare</string>
+    <string name="sensor_step_detector">Stegdetektor</string>
+    <string name="sensor_geomagnetic_rotation_vector">Geomagnetisk rotationsvektor</string>
+    <string name="sensor_heartrate">Hjärtfrekvens</string>
+    <string name="sensor_tilt_detector">Lutningsdetektor</string>
+    <string name="sensor_wake_gesture">Väckningsgest</string>
+    <string name="sensor_glance_gesture">Blickgest</string>
+    <string name="sensor_pick_up_gesture">Upptagningsgest</string>
+    <string name="sensor_wrist_tilt_gesture">Handledslutningsgest</string>
+    <string name="sensor_unknown">Okänd sensor</string>
+    <string name="text_guide_floatlist">Sensorvärden skickas som en lista med flyttal. Beroende på sensorn kan listan innehålla 1 till 16 värden.</string>
+    <string name="guide_dimensions">Antal värden</string>
+    <string name="sensor_inclination">Lutning</string>
+    <string name="return_to_app">Tillbaka till Sensors2OSC</string>
+    <string name="sensor_type_hinge_angle">Gångjärnsvinkel</string>
+    <string name="sensor_type_accelorometer_uncalibrated">Accelerometer (okalibrerad)</string>
+    <string name="sensor_type_low_latency_offbody_detect">Identifiera på kroppen/utanför kroppen</string>
+    <string name="sensor_type_dynamic_sensor_meta">Dynamisk sensor (metahändelse)</string>
+    <string name="sensor_type_heart_beat">Hjärtslag</string>
+    <string name="sensor_type_stationary_detect">Detektering av stillastående</string>
+    <string name="sensor_type_pose_6dof">Posering (sex frihetsgrader)</string>
+    <string name="sensor_type_motion_detect">Rörelsedetektering</string>
+    <string name="sensor_type_device_orientation">Enhetsorientering</string>
+    <string name="sensor_type_heading">Riktning i förhållande till norr</string>
+    <string name="sensor_type_gyroscope_limited_axes_uncalibrated">Gyroskop (begränsade axlar, okalibrerat)</string>
+    <string name="sensor_type_gyroscope_limited_axes">Gyroskop (begränsade axlar)</string>
+    <string name="sensor_type_accelerometer_limited_axes_uncalibrated">Accelerometer (begränsade axlar, okalibrerad)</string>
+    <string name="sensor_type_accelerometer_limited_axes">Accelerometer (begränsade axlar)</string>
+    <string name="sensor_type_head_tracker">Huvudspårare</string>
+    <string name="send_as_bundle">Skicka OSC-värden som paket</string>
+    <string name="keep_screen_alive">Håll skärmen på när data skickas</string>
+    <string name="text_guide_bluetooth">Om Android-enheten är ansluten till Bluetooth-enheter som meddelar läsbara egenskaper kan deras värden överföras via OSC. OSC-adressen består av prefixet /bt, följt av enhetens MAC-adress och identifieraren för den läsbara egenskapen. Värdet skickas som en rå bytearray.\n\nFör en översikt över de olika egenskaperna och hur värdena tolkas måste du hitta identifieraren i <a href="https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/Assigned_Numbers/out/en/Assigned_Numbers.pdf">listan över tilldelade nummer</a> och sedan slå upp <a href="https://btprodspecificationrefs.blob.core.windows.net/gatt-specification-supplement/GATT_Specification_Supplement.pdf">värdespecifikationen</a>. Detta ska göras på mottagarsidan.\n\nEtt exempel på hur Bluetooth-data omvandlas till mätvärden finns på <a href="https://sensors2.org/osc/#interpretation-of-bluetooth-data">appens webbplats</a>.</string>
+    <string name="text_guide_bluetooth_headline">Bluetooth-sensorer</string>
+    <string name="send_always">Skicka alltid</string>
+    <string name="threshold_for_new_value">Tröskel för nytt värde (%)</string>
+    <string name="button_devices">Enheter</string>
+    <string name="bluetooth_devices">Anslutna Bluetooth-enheter</string>
+    <string name="no_bluetooth_devices_with_readable_properties_connected">Inga Bluetooth-enheter med läsbara egenskaper är anslutna.</string>
+    <string name="preferences_styling">Utseende</string>
+    <string name="settings_color_scheme">Färgschema</string>
+    <string name="color_scheme_default">Systemstandard</string>
+    <string name="color_scheme_light">Ljust</string>
+    <string name="color_scheme_dark">Mörkt</string>
+    <string name="popup_first_launch">För att använda appen effektivt behöver du en mottagare för sensordata. Exempel finns och förklaras på <a href="https://sensors2.org/osc/#examples">appens webbplats</a>.\n\nStäll dessutom in mottagarvärden på IP-adressen till datorn som kör mottagaren och ange porten.</string>
+    <string name="popup_change_touch">Multitouch-funktionen har ändrats på ett sätt som bryter kompatibiliteten: I stället för att räkna upp mottagaradresserna /touch1, /touch2, … ändras mottagaradressen till /touch och börjar med det nollbaserade indexet som första värde.\n\nDu kan aktivera det gamla beteendet i inställningarna.</string>
+    <string name="use_old_touch_behaviour">Använd gammalt touch-beteende</string>
+</resources>
