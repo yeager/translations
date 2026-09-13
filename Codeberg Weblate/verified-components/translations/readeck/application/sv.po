@@ -1,0 +1,3302 @@
+# Swedish (Sweden) translations for Readeck.
+# SPDX-FileCopyrightText: © 2025 Readeck <translate@readeck.com>
+#
+# SPDX-License-Identifier: AGPL-3.0-only
+# Anonymous <anonymous@noreply.codeberg.org>, 2025.
+# terminalnode <terminalnode@noreply.codeberg.org>, 2025.
+# apq <apq@noreply.codeberg.org>, 2025, 2026.
+# olivier <olivier@noreply.codeberg.org>, 2025, 2026.
+# γλωσσολαλιά <glossolalia@noreply.codeberg.org>, 2025, 2026.
+# bittin <bittin@noreply.codeberg.org>, 2026.
+msgid ""
+msgstr ""
+"Project-Id-Version: Readeck 1.0.0\n"
+"Report-Msgid-Bugs-To: translate@readeck.com\n"
+"POT-Creation-Date: 2026-08-29 18:11+0200\n"
+"PO-Revision-Date: 2026-09-13 08:57+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language: sv\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/readeck/application/sv/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#: components/breadcrumbs.templ:13 components/layout.templ:71
+#: components/layout.templ:78 components/layout.templ:79
+#: internal/dashboard/x-dashboard.templ:21
+msgid "Home Page"
+msgstr "Startsida"
+
+#: components/datetime.go:23
+#, python-format
+msgctxt "datetime"
+msgid "%e %b %Y"
+msgstr "%e %b %Y"
+
+#: components/datetime.go:24
+#, python-format
+msgctxt "datetime"
+msgid "%e %b %Y, %H:%M"
+msgstr "%e %b %Y, %H:%M"
+
+#: components/datetime.go:25
+#, python-format
+msgctxt "datetime"
+msgid "%e %b %Y, %H:%M:%S %Z"
+msgstr "%e %b %Y, %H:%M:%S %Z"
+
+#: components/errors.templ:10 components/errors.templ:12
+#: components/layout.templ:243 internal/auth/oauth2/x-oauth.templ:29
+msgid "Error"
+msgstr "Fel"
+
+#: components/errors.templ:16
+msgid "Permission denied."
+msgstr "Åtkomst nekad."
+
+#: components/errors.templ:18
+msgid "Page not found."
+msgstr "Sidan kunde inte hittas."
+
+#: components/errors.templ:20 components/layout.templ:246
+#: internal/bookmarks/converter/x-html-public.templ:122
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
+
+#: components/errors.templ:24
+msgid "Back to home page"
+msgstr "Tillbaka till startsida"
+
+#: components/forms/forms.templ:21
+msgid "Errors"
+msgstr "Fel"
+
+#: components/forms/forms.templ:28
+msgid "Please check your form for errors."
+msgstr "Kontrollera fel i formuläret."
+
+#: components/forms/forms.templ:48 components/forms/forms.templ:52
+#: internal/bookmarks/importer/x-forms.templ:126
+msgid "Required"
+msgstr "Obligatorisk"
+
+#: components/forms/forms.templ:349
+msgid "The previous"
+msgstr "Den föregående"
+
+#: components/forms/forms.templ:364
+msgid "Day(s)"
+msgstr "Dag(ar)"
+
+#: components/forms/forms.templ:365
+msgid "Week(s)"
+msgstr "Vecka/veckor"
+
+#: components/forms/forms.templ:366
+msgid "Month(s)"
+msgstr "Månad(er)"
+
+#: components/forms/forms.templ:367
+msgid "Year(s)"
+msgstr "År"
+
+#: components/forms/forms.templ:370
+msgctxt "word"
+msgid "or"
+msgstr "eller"
+
+#: components/forms/forms.templ:399
+msgid "Select or drop file"
+msgstr "Välj eller släpp fil"
+
+#: components/forms/forms.templ:407
+msgid "remove"
+msgstr "ta bort"
+
+#: components/layout.templ:63
+msgid "Open Menu"
+msgstr "Öppna meny"
+
+#: components/layout.templ:82 components/layout.templ:83
+#: internal/admin/x-users.templ:190
+#: internal/bookmarks/routes/views_bookmarks.go:320
+#: internal/bookmarks/routes/views_bookmarks.go:340
+#: internal/bookmarks/routes/views_bookmarks.go:370
+#: internal/bookmarks/routes/views_import.go:23
+#: internal/bookmarks/routes/views_import.go:36
+#: internal/bookmarks/routes/views_import.go:68
+#: internal/bookmarks/routes/x-base.templ:21
+#: internal/bookmarks/routes/x-bookmark.templ:50
+msgid "Bookmarks"
+msgstr "Bokmärken"
+
+#: components/layout.templ:94 components/layout.templ:99
+msgid "Change color theme"
+msgstr "Byt färgtema"
+
+#: components/layout.templ:112 components/layout.templ:113
+#: internal/profile/x-base.templ:14
+msgid "Settings"
+msgstr "Inställningar"
+
+#: components/layout.templ:116 components/layout.templ:117
+#: internal/bookmarks/routes/x-bookmark-list.templ:127
+#: internal/bookmarks/routes/x-collections.templ:216 internal/docs/http.go:179
+#: internal/docs/http.go:256 internal/docs/http.go:307
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: components/layout.templ:153
+msgid "Quick access menu"
+msgstr "Snabbvalsmeny"
+
+#: components/layout.templ:176 internal/bookmarks/routes/x-bookmark.templ:34
+msgid "Menu"
+msgstr "Meny"
+
+#: components/layout.templ:177
+msgid "Secondary Menu"
+msgstr "Sekundär Meny"
+
+#: components/layout.templ:178
+msgid "Main content"
+msgstr "Huvudinnehåll"
+
+#: components/layout.templ:206
+msgid "Close menu"
+msgstr "Stäng meny"
+
+#: components/layout.templ:249 internal/auth/oauth2/x-oauth.templ:87
+msgid "Go back to Readeck"
+msgstr "Gå tillbaka till Readeck"
+
+#: components/pagination.templ:15
+msgctxt "page"
+msgid "Previous"
+msgstr "Föregående"
+
+#: components/pagination.templ:22
+msgctxt "page"
+msgid "Next"
+msgstr "Nästa"
+
+#: components/pagination.templ:28
+msgid "Go to previous page"
+msgstr "Gå till föregående sida"
+
+#: components/pagination.templ:39
+#, python-format
+msgid "Go to page %d"
+msgstr "Gå till sida %d"
+
+#: components/pagination.templ:48
+msgid "Go to next page"
+msgstr "Gå till nästa sida"
+
+#: internal/admin/forms.go:39
+msgid "password is empty"
+msgstr "lösenord är tomt"
+
+#: internal/admin/forms.go:73
+msgid "User is external and can't be updated."
+msgstr "Användaren är extern och kan inte uppdateras."
+
+#: internal/admin/forms.go:85 internal/profile/forms.go:98
+msgid "username is already in use"
+msgstr "användarnamnet används redan"
+
+#: internal/admin/forms.go:92 internal/profile/forms.go:105
+msgid "email address is already in use"
+msgstr "e-postadressen används redan"
+
+#: internal/admin/views.go:61 internal/admin/views.go:86
+#: internal/admin/views.go:127 internal/admin/x-users.templ:16
+#: internal/admin/x-users.templ:121 internal/dashboard/x-dashboard.templ:76
+#: internal/profile/x-base.templ:70
+msgid "Users"
+msgstr "Användare"
+
+#: internal/admin/views.go:77
+msgid "User created."
+msgstr "Användare skapad."
+
+#: internal/admin/views.go:87 internal/admin/x-users.templ:85
+msgid "New User"
+msgstr "Ny Användare"
+
+#: internal/admin/views.go:112
+msgid "User updated."
+msgstr "Användare uppdaterad."
+
+#: internal/admin/views.go:163
+msgid "User detached."
+msgstr "Användare bortkopplad."
+
+#: internal/admin/views.go:186
+msgid "User signed out."
+msgstr "Användare utloggad."
+
+#: internal/admin/x-users.templ:19
+msgid "Add a new user"
+msgstr "Lägg till ny användare"
+
+#: internal/admin/x-users.templ:38
+msgid "External User"
+msgstr "Extern användare"
+
+#: internal/admin/x-users.templ:44 internal/admin/x-users.templ:174
+msgid "TOTP is enabled"
+msgstr "TOTP är aktiverat"
+
+#: internal/admin/x-users.templ:50 internal/admin/x-users.templ:167
+msgid "This is you!"
+msgstr "Det här är du!"
+
+#: internal/admin/x-users.templ:56
+#, python-format
+msgid "Last login: %s"
+msgstr "Senaste inloggning: %s"
+
+#: internal/admin/x-users.templ:63
+msgid "This user will be removed in a few seconds."
+msgstr "Användaren kommer tas bort om par sekunder."
+
+#: internal/admin/x-users.templ:70 internal/admin/x-users.templ:207
+#: internal/bookmarks/importer/x-forms.templ:23
+#: internal/bookmarks/routes/x-bookmark-list.templ:534
+#: internal/bookmarks/routes/x-collections.templ:161
+#: internal/bookmarks/routes/x-labels.templ:131
+#: internal/profile/x-applications.templ:84 internal/profile/x-tokens.templ:83
+#: internal/profile/x-tokens.templ:106
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: internal/admin/x-users.templ:91 internal/admin/x-users.templ:130
+#: internal/auth/onboarding/x-onboarding.templ:26
+#: internal/bookmarks/importer/x-forms.templ:284
+#: internal/profile/x-profile.templ:42
+msgid "Username"
+msgstr "Användarnamn"
+
+#: internal/admin/x-users.templ:97 internal/admin/x-users.templ:137
+#: internal/auth/onboarding/x-onboarding.templ:39
+#: internal/auth/signin/x-auth.templ:137
+msgid "Email address"
+msgstr "Epostadress"
+
+#: internal/admin/x-users.templ:102 internal/admin/x-users.templ:143
+msgid "Group"
+msgstr "Grupp"
+
+#: internal/admin/x-users.templ:107 internal/admin/x-users.templ:150
+#: internal/auth/onboarding/x-onboarding.templ:31
+#: internal/auth/signin/x-auth.templ:61
+#: internal/bookmarks/importer/x-forms.templ:289
+msgid "Password"
+msgstr "Lösenord"
+
+#: internal/admin/x-users.templ:113
+msgid "Create user"
+msgstr "Skapa användare"
+
+#: internal/admin/x-users.templ:126
+msgid "User information"
+msgstr "Användarinformation"
+
+#: internal/admin/x-users.templ:153
+msgid "will not change if empty"
+msgstr "kommer inte ändras om tomt"
+
+#: internal/admin/x-users.templ:158
+#: internal/bookmarks/routes/x-bookmark.templ:238
+#: internal/bookmarks/routes/x-collections.templ:138
+#: internal/bookmarks/routes/x-collections.templ:232
+#: internal/bookmarks/routes/x-components.templ:49
+#: internal/bookmarks/routes/x-components.templ:181
+#: internal/bookmarks/routes/x-components.templ:186
+#: internal/profile/x-profile.templ:105 internal/profile/x-security.templ:41
+#: internal/profile/x-tokens.templ:153
+msgid "Save"
+msgstr "Spara"
+
+#: internal/admin/x-users.templ:178
+msgid "Created on"
+msgstr "Skapad"
+
+#: internal/admin/x-users.templ:182
+msgid "Last Login"
+msgstr "Senaste inloggning"
+
+#: internal/admin/x-users.templ:186
+msgid "Last Activity"
+msgstr "Senaste aktivitet"
+
+#: internal/admin/x-users.templ:194
+msgid "Disk Usage"
+msgstr "Diskanvändning"
+
+#: internal/admin/x-users.templ:198
+msgid "User Administration"
+msgstr "Användaradministration"
+
+#: internal/admin/x-users.templ:204
+msgid "User will be removed in a few seconds"
+msgstr "Användaren kommer raderas inom ett par sekunder"
+
+#: internal/admin/x-users.templ:214
+msgid "This will sign this user out of all active sessions on the web application."
+msgstr "Detta loggar ut användaren från alla aktiva sessioner i webbapplikationen."
+
+#: internal/admin/x-users.templ:219
+msgid "Sign this user out"
+msgstr "Logga ut denna användare"
+
+#: internal/admin/x-users.templ:227
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t\t\tThis user is attached to an external authentication provider:<br />\n"
+"\t\t\t\t\t\t\t\t\t<strong>%[1]s</strong>.<br />\n"
+"\t\t\t\t\t\t\t\t\tTherefore, some of their properties are not editable.<br />\n"
+"\t\t\t\t\t\t\t\t\tThis will detach the user <strong>%[2]s</strong>.\n"
+"\t\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\t\t\tDenna användare är kopplad till en extern autentiseringsleverantör:<br />\n"
+"\t\t\t\t\t\t\t\t\t<strong>%[1]s</strong>.<br />\n"
+"\t\t\t\t\t\t\t\t\tDärför är vissa av deras egenskaper inte redigerbara.<br />\n"
+"\t\t\t\t\t\t\t\t\tDetta kommer att koppla bort användare <strong>%[2]s</strong>.\n"
+"\t\t\t\t\t\t\t\t"
+
+#: internal/admin/x-users.templ:240
+msgid "Detach this user"
+msgstr "Koppla bort denna användare"
+
+#: internal/admin/x-users.templ:249
+#, python-format
+msgid "This will delete the user <strong>%s</strong> and all their contents."
+msgstr "Detta kommer att radera användare <strong>%s</strong> och allt deras innehåll."
+
+#: internal/admin/x-users.templ:257
+msgid "Delete this user"
+msgstr "Radera denna användare"
+
+#: internal/auth/oauth2/x-oauth.templ:17 internal/auth/oauth2/x-oauth.templ:26
+#: internal/auth/oauth2/x-oauth.templ:110
+msgid "Authorization required"
+msgstr "Autentisering krävs"
+
+#: internal/auth/oauth2/x-oauth.templ:30
+msgid "This code has expired or is not valid"
+msgstr "Denna kod har gått ut eller är ogiltig"
+
+#: internal/auth/oauth2/x-oauth.templ:33 internal/auth/oauth2/x-oauth.templ:50
+#: internal/auth/oauth2/x-oauth.templ:58
+msgid "Connect a device"
+msgstr "Anslut en enhet"
+
+#: internal/auth/oauth2/x-oauth.templ:36
+msgid "Enter the code displayed on your device"
+msgstr "Skriv in koden som visas på din enhet"
+
+#: internal/auth/oauth2/x-oauth.templ:42
+msgid "Next"
+msgstr "Nästa"
+
+#: internal/auth/oauth2/x-oauth.templ:52
+msgid "Authorization request was denied."
+msgstr "Autentiseringsförsöket nekades."
+
+#: internal/auth/oauth2/x-oauth.templ:54 internal/auth/oauth2/x-oauth.templ:76
+msgid " You can now close this page."
+msgstr " Du kan nu stänga denna sida."
+
+#: internal/auth/oauth2/x-oauth.templ:60
+msgid "Authorization granted. Connecting device..."
+msgstr "Autentisering godkänd. Ansluter enhet..."
+
+#: internal/auth/oauth2/x-oauth.templ:67
+#, python-format
+msgid "<a href=\"%s\">Reload this page</a> if it doesn't refresh after a few seconds."
+msgstr "<a href=\"%s\">Ladda om denna sida</a> om den inte laddats om inom några sekunder."
+
+#: internal/auth/oauth2/x-oauth.templ:74
+msgid "Device is connected!"
+msgstr "Enhet ansluten!"
+
+#: internal/auth/oauth2/x-oauth.templ:98
+#, python-format
+msgid "Signed in as: <strong>%s</strong>"
+msgstr "Inloggad som: <strong>%s</strong>"
+
+#: internal/auth/oauth2/x-oauth.templ:106
+#: internal/dashboard/x-dashboard.templ:97 internal/profile/x-profile.templ:32
+msgid "Sign out"
+msgstr "Logga ut"
+
+#: internal/auth/oauth2/x-oauth.templ:116
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t<strong>%s</strong> would like permission to access your account.\n"
+"\t\t\t\tOnly approve this request if you recognize and trust this source.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t<strong>%s</strong> vill ha tillstånd att komma åt ditt konto.\n"
+"\t\t\t\tGodkänn denna begäran endast om du känner igen och litar på källan.\n"
+"\t\t\t"
+
+#: internal/auth/oauth2/x-oauth.templ:122
+msgid "Review permissions"
+msgstr "Granska behörigheter"
+
+#: internal/auth/oauth2/x-oauth.templ:132
+msgid "Application information"
+msgstr "Applikationsinformation"
+
+#: internal/auth/oauth2/x-oauth.templ:134
+#: internal/bookmarks/routes/x-collections.templ:131
+#: internal/bookmarks/routes/x-collections.templ:226
+#: internal/profile/x-tokens.templ:128
+msgid "Name"
+msgstr "Namn"
+
+#: internal/auth/oauth2/x-oauth.templ:135
+msgid "Website"
+msgstr "Webbsida"
+
+#: internal/auth/oauth2/x-oauth.templ:136
+msgid "Version"
+msgstr "Version"
+
+#: internal/auth/oauth2/x-oauth.templ:145
+msgid "Authorize"
+msgstr "Autentisera"
+
+#: internal/auth/oauth2/x-oauth.templ:153
+msgid "Deny"
+msgstr "Neka"
+
+#: internal/auth/onboarding/x-onboarding.templ:17
+#: internal/bookmarks/routes/x-bookmark-list.templ:235
+#: internal/dashboard/x-dashboard.templ:113
+msgid "Welcome to Readeck!"
+msgstr "Välkommen till Readeck!"
+
+#: internal/auth/onboarding/x-onboarding.templ:21
+msgid "We're delighted to have you on board; one more step and you're good to go."
+msgstr "Vi är glada att ha dig ombord; bara ett steg till så är du färdig."
+
+#: internal/auth/onboarding/x-onboarding.templ:35
+#: internal/auth/signin/x-auth.templ:174 internal/profile/x-security.templ:37
+msgid "must be at least 8 characters long"
+msgstr "måste vara minst 8 tecken långt"
+
+#: internal/auth/onboarding/x-onboarding.templ:43
+msgid "Please note:"
+msgstr "Notera:"
+
+#: internal/auth/onboarding/x-onboarding.templ:44
+msgid ""
+"\n"
+"\t\t\t\t\t\tYour email address is optional and will never leave this installation.\n"
+"\t\t\t\t\t\tIt will never be collected, transferred or sold.\n"
+"\t\t\t\t\t\tIt will <strong>only</strong> be used, should you need it, for password recovery and internal notifications.\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tDin epostadress är frivillig och lämnar aldrig denna installation.\n"
+"\t\t\t\t\t\tDen kommer aldrig samlas in, överföras eller säljas.\n"
+"\t\t\t\t\t\tDen kommer <strong>endast</strong> användas, vid behov, för lösenordsåterställning och interna notifikationer.\n"
+"\t\t\t\t\t"
+
+#: internal/auth/onboarding/x-onboarding.templ:52
+msgid "Finish installation"
+msgstr "Färdigställ installation"
+
+#: internal/auth/signin/forms.go:19
+msgid "Invalid user and/or password"
+msgstr "Ogiltig användare och/eller lösenord"
+
+#: internal/auth/signin/http.go:185 internal/profile/forms.go:228
+msgid "Invalid code"
+msgstr "Ogiltig kod"
+
+#: internal/auth/signin/recover.go:273
+msgid ""
+"\n"
+"Hi,\n"
+"\n"
+"You (or someone else) entered this email address when trying to\n"
+"change the password of a Readeck account (%[1]s).\n"
+"\n"
+"If you are expecting this email, please follow this link to set\n"
+"a new password for your readeck account.\n"
+"\n"
+"%[2]s\n"
+msgstr ""
+"\n"
+"Hej,\n"
+"\n"
+"Du (eller någon annan) angav denna epostadress när de försökte\n"
+"byta lösenord för ett Readeck-konto (%[1]s).\n"
+"\n"
+"Om du förväntar dig detta epostmeddelande,\n"
+" följ den här länken för att skapa ett nytt lösenord för ditt Readeck-konto.\n"
+"\n"
+"%[2]s\n"
+
+#: internal/auth/signin/recover.go:287
+msgid ""
+"\n"
+"Hi,\n"
+"\n"
+"You (or someone else) entered this email address when trying to\n"
+"change the password of a Readeck account (%[1]s).\n"
+"\n"
+"However, this email address is not associated with any account and\n"
+"therefore, the attempted password change has failed.\n"
+"\n"
+"If you are a Readeck user on %[1]s and you are\n"
+"expecting this email, please try again using the email address\n"
+"you used when creating your account.\n"
+"\n"
+"If you are not a Readeck user, please ignore this message.\n"
+msgstr ""
+"\n"
+"Hej,\n"
+"\n"
+"Du (eller någon annan) uppgav denna epostadress i samband med ett försök att\n"
+"byta lösenord på ett Readeck-konto (%[1]s).\n"
+"\n"
+"Denna epost är inte kopplad till något konto och\n"
+"därför har försöket att ändra lösenord misslyckats.\n"
+"\n"
+"Om du är en Readeck-användare på %[1]s och du förväntar dig\n"
+"detta epostmeddelande, vänligen försök igen med den epostadress\n"
+"du använde när du skapade ditt konto.\n"
+"\n"
+"Om du inte är en Readeck-användare, vänligen bortse från detta meddelande.\n"
+
+#: internal/auth/signin/x-auth.templ:21
+msgid "Or continue with"
+msgstr "Eller fortsätt med"
+
+#: internal/auth/signin/x-auth.templ:41 internal/auth/signin/x-auth.templ:68
+msgid "Sign in"
+msgstr "Logga in"
+
+#: internal/auth/signin/x-auth.templ:42
+msgid "Sign in to Readeck"
+msgstr "Logga in på Readeck"
+
+#: internal/auth/signin/x-auth.templ:52
+msgid "Username or email address"
+msgstr "Användarnamn eller epostadress"
+
+#: internal/auth/signin/x-auth.templ:73
+msgid "Forgot your password?"
+msgstr "Glömt lösenord?"
+
+#: internal/auth/signin/x-auth.templ:84
+msgid "Two-factor authentication"
+msgstr "Tvåfaktorsautentisering"
+
+#: internal/auth/signin/x-auth.templ:91
+msgid "Passcode"
+msgstr "Lösenord"
+
+#: internal/auth/signin/x-auth.templ:102
+msgid "Verify"
+msgstr "Verifiera"
+
+#: internal/auth/signin/x-auth.templ:108 internal/auth/signin/x-auth.templ:145
+#: internal/auth/signin/x-auth.templ:181
+msgid "Cancel and go back to sign in"
+msgstr "Avbryt och gå tillbaka till inloggningssidan"
+
+#: internal/auth/signin/x-auth.templ:117
+msgid "Password recovery"
+msgstr "Lösenordsåterställning"
+
+#: internal/auth/signin/x-auth.templ:128
+msgid "No worries, it happens to anyone."
+msgstr "Oroa dig inte, det händer oss alla."
+
+#: internal/auth/signin/x-auth.templ:130
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tPlease provide the email address you used to create\n"
+"\t\t\t\t\t\t\tyour account and we'll send you a message with a link\n"
+"\t\t\t\t\t\t\tto recover your password.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\tAnge den epostadress du använde för att skapa\n"
+"\t\t\t\t\t\t\tditt konto så skickar vi ett meddelande med en länk\n"
+"\t\t\t\t\t\t\tför att återställa ditt lösenord.\n"
+"\t\t\t\t\t\t"
+
+#: internal/auth/signin/x-auth.templ:141
+msgid "Send me a recovery link"
+msgstr "Skicka mig en återställningslänk"
+
+#: internal/auth/signin/x-auth.templ:154
+msgid "Almost there!"
+msgstr "Nästan där!"
+
+#: internal/auth/signin/x-auth.templ:156
+#, python-format
+msgid "We have sent an email to <strong>%s</strong> with further instructions."
+msgstr "Vi har skickat ett e-postmeddelande till <strong>%s</strong> med ytterligare instruktioner."
+
+#: internal/auth/signin/x-auth.templ:172 internal/profile/x-security.templ:33
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: internal/auth/signin/x-auth.templ:177
+msgid "Update your password"
+msgstr "Uppdatera ditt lösenord"
+
+#: internal/auth/signin/x-auth.templ:188
+msgid "Your password has been changed."
+msgstr "Ditt lösenord har ändrats."
+
+#: internal/auth/signin/x-auth.templ:191
+msgid "Go to the sign in page"
+msgstr "Gå till inloggningssidan"
+
+#: internal/auth/users/forms.go:18
+msgid "username is not valid"
+msgstr "användarnamnet är ogiltigt"
+
+#: internal/auth/users/forms.go:19
+msgid "username is not available"
+msgstr "användarnamnet är ej tillgängligt"
+
+#: internal/auth/users/forms.go:34
+msgid "password must be at least 8 characters long"
+msgstr "lösenordet måste vara minst 8 tecken långt"
+
+#: internal/auth/users/forms.go:89
+msgctxt "role"
+msgid "no group"
+msgstr "ingen grupp"
+
+#: internal/auth/users/groups.go:14
+msgctxt "role"
+msgid "user"
+msgstr "användare"
+
+#: internal/auth/users/groups.go:15
+msgctxt "role"
+msgid "staff"
+msgstr "personal"
+
+#: internal/auth/users/groups.go:16
+msgctxt "role"
+msgid "admin"
+msgstr "administratör"
+
+#: internal/auth/users/groups.go:18
+msgctxt "role"
+msgid "Profile : Read Only"
+msgstr "Profil: Skrivskyddad"
+
+#: internal/auth/users/groups.go:19
+msgctxt "role"
+msgid "Bookmarks : Read Only"
+msgstr "Bokmärken: Skrivskyddad"
+
+#: internal/auth/users/groups.go:20
+msgctxt "role"
+msgid "Bookmarks : Write Only"
+msgstr "Bokmärken: Lässkyddad"
+
+#: internal/auth/users/groups.go:21
+msgctxt "role"
+msgid "Admin : Read Only"
+msgstr "Administratör: Skrivskyddad"
+
+#: internal/auth/users/groups.go:22
+msgctxt "role"
+msgid "Admin : Write Only"
+msgstr "Administratör: Lässkyddad"
+
+#: internal/bookmarks/converter/email.go:223
+#, python-format
+msgid ""
+"\n"
+"Hi,\n"
+"\n"
+"Here is your ebook for: **%s**\n"
+msgstr ""
+"\n"
+"Hej,\n"
+"\n"
+"Här är en ebok till: **%s**\n"
+
+#: internal/bookmarks/converter/x-atom.templ:22
+#: internal/bookmarks/routes/x-bookmark-list.templ:497
+#: internal/bookmarks/routes/x-sidebar.templ:257
+msgid "no site name"
+msgstr "inget sidnamn"
+
+#: internal/bookmarks/converter/x-atom.templ:25
+#: internal/bookmarks/converter/x-email.templ:30
+#: internal/bookmarks/converter/x-epub.templ:51
+#: internal/bookmarks/converter/x-html-public.templ:182
+#: internal/bookmarks/routes/x-sidebar.templ:280
+#, python-format
+msgid "Published on %s"
+msgstr "Publicerad %s"
+
+#: internal/bookmarks/converter/x-atom.templ:28
+#: internal/bookmarks/converter/x-email.templ:33
+#: internal/bookmarks/converter/x-epub.templ:54
+#: internal/bookmarks/converter/x-html-public.templ:186
+#: internal/bookmarks/routes/x-sidebar.templ:285
+#, python-format
+msgid "By %s"
+msgstr "Av %s"
+
+#: internal/bookmarks/converter/x-atom.templ:32
+#: internal/bookmarks/converter/x-email.templ:37
+#: internal/bookmarks/converter/x-epub.templ:58
+#: internal/bookmarks/converter/x-html-public.templ:195
+#: internal/bookmarks/routes/x-sidebar.templ:305
+#, python-format
+msgid "About %d minute read"
+msgid_plural "About %d minutes read"
+msgstr[0] "Cirka %d minuts läsning"
+msgstr[1] "Cirka %d minuters läsning"
+
+#: internal/bookmarks/converter/x-atom.templ:42
+#: internal/bookmarks/converter/x-email.templ:42
+#: internal/bookmarks/converter/x-epub.templ:63
+#: internal/bookmarks/converter/x-html-public.templ:216
+#: internal/bookmarks/routes/x-bookmark.templ:311
+#: internal/bookmarks/routes/x-components.templ:164
+#: internal/bookmarks/routes/x-components.templ:208
+#: internal/bookmarks/routes/x-filters.templ:36
+msgid "Note"
+msgstr "Anteckning"
+
+#: internal/bookmarks/converter/x-epub.templ:83
+#: internal/bookmarks/converter/x-html-public.templ:252
+msgid "Notes"
+msgstr "Anteckningar"
+
+#: internal/bookmarks/converter/x-html-public.templ:31
+msgid "Shared link"
+msgstr "Delad länk"
+
+#: internal/bookmarks/converter/x-html-public.templ:92
+#, python-format
+msgid "Saved with %s"
+msgstr "Delad med %s"
+
+#: internal/bookmarks/converter/x-html-public.templ:118
+msgid "Page not found"
+msgstr "Sida ej hittad"
+
+#: internal/bookmarks/converter/x-html-public.templ:120
+msgid "Page has expired"
+msgstr "Sidan har löpt ut"
+
+#: internal/bookmarks/converter/x-html-public.templ:148
+msgid "Change theme"
+msgstr "Byt tema"
+
+#: internal/bookmarks/converter/x-html-public.templ:200
+msgid "Shared by %[1]s with %[2]s"
+msgstr "Delad av %[1]s med %[2]s"
+
+#: internal/bookmarks/importer/browser.go:56
+#: internal/bookmarks/routes/x-import.templ:36
+#: internal/profile/x-export.templ:22
+msgid "Browser Bookmarks"
+msgstr "Webbläsarbokmärken"
+
+#: internal/bookmarks/importer/browser.go:77
+msgid "Unable to read HTML content"
+msgstr "Kunde inte läsa HTML-innehåll"
+
+#: internal/bookmarks/importer/csv.go:57
+#: internal/bookmarks/routes/x-import.templ:43
+#: internal/profile/x-export.templ:29
+msgid "CSV File"
+msgstr "CSV-fil"
+
+#: internal/bookmarks/importer/goodlinks.go:41
+msgid "GoodLinks Export File"
+msgstr "GoodLinks-exportfil"
+
+#: internal/bookmarks/importer/importer.go:50
+msgid "Empty or invalid import file"
+msgstr "Tom eller ogiltig importfil"
+
+#: internal/bookmarks/importer/pinboard.go:44
+msgid "Pinboard JSON backup File"
+msgstr "Säkerhetskopieringsfil för Pinboard JSON"
+
+#: internal/bookmarks/importer/readwise.go:62
+msgid "Readwise Reader CSV"
+msgstr "Readwise Reader-CSV"
+
+#: internal/bookmarks/importer/text.go:24
+#: internal/bookmarks/routes/x-import.templ:85
+msgid "Text File"
+msgstr "Textfil"
+
+#: internal/bookmarks/importer/wallabag.go:268
+msgid "Invalid URL"
+msgstr "Ogiltig URL"
+
+#: internal/bookmarks/importer/wallabag.go:273
+msgid "Invalid credentials"
+msgstr "Ogiltiga inloggningsuppgifter"
+
+#: internal/bookmarks/importer/wallabag.go:284
+msgid "No access token found"
+msgstr "Ingen access-token hittad"
+
+#: internal/bookmarks/importer/x-forms.templ:21
+#: internal/dashboard/x-dashboard.templ:66
+msgid "Import Bookmarks"
+msgstr "Importera bokmärken"
+
+#: internal/bookmarks/importer/x-forms.templ:32
+#: internal/bookmarks/importer/x-forms.templ:209
+#: internal/profile/x-import.templ:21
+msgid "File"
+msgstr "Fil"
+
+#: internal/bookmarks/importer/x-forms.templ:42
+msgid "Options"
+msgstr "Alternativ"
+
+#: internal/bookmarks/importer/x-forms.templ:44
+#: internal/bookmarks/routes/x-filters.templ:35
+#: internal/bookmarks/routes/x-labels.templ:57
+msgid "Label"
+msgstr "Etikett"
+
+#: internal/bookmarks/importer/x-forms.templ:46
+msgid "A label to add to all imported bookmarks"
+msgstr "En etikett att lägga till på alla importerade bokmärken"
+
+#: internal/bookmarks/importer/x-forms.templ:49
+msgid "Ignore links already in your bookmarks"
+msgstr "Ignorera länkar som redan finns i dina bokmärken"
+
+#: internal/bookmarks/importer/x-forms.templ:53
+msgid "Archive all links"
+msgstr "Arkivera alla länkar"
+
+#: internal/bookmarks/importer/x-forms.templ:55
+msgid "Moves all links to archive, regardless of their original status"
+msgstr "Flytta alla länkar till arkiv, oavsett deras originalstatus"
+
+#: internal/bookmarks/importer/x-forms.templ:58
+msgid "Mark all links as read"
+msgstr "Markera alla länkar som lästa"
+
+#: internal/bookmarks/importer/x-forms.templ:60
+msgid "Marks all links as read, regardless of their original status"
+msgstr "markera alla länkar som lästa, oavsett deras originalstatus"
+
+#: internal/bookmarks/importer/x-forms.templ:65
+msgid "Import your Browser's Bookmarks"
+msgstr "Importera din webbläsares bokmärken"
+
+#: internal/bookmarks/importer/x-forms.templ:68
+msgid ""
+"\n"
+"\t\t\t\t\tIn your web browser, export your bookmarks as an HTML file.<br>\n"
+"\t\t\t\t\tUpload this file in the form below and Readeck will create and fetch\n"
+"\t\t\t\t\tevery bookmark found it the file.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tI din webbläsare, exportera alla bokmärken som en HTML-fil.<br>\n"
+"\t\t\t\t\tLadda upp filen i formuläret nedan så skapar och hämtar\n"
+"\t\t\t\t\tReadeck alla bokmärken som finns i den.\n"
+"\t\t\t\t"
+
+#: internal/bookmarks/importer/x-forms.templ:77
+msgid "Instructions for Firefox"
+msgstr "Instruktioner för Firefox"
+
+#: internal/bookmarks/importer/x-forms.templ:82
+msgid "Instructions for Chrome"
+msgstr "Instruktioner för Chrome"
+
+#: internal/bookmarks/importer/x-forms.templ:90
+msgid "Convert section titles to labels"
+msgstr "Konvertera sektionstitlar till etiketter"
+
+#: internal/bookmarks/importer/x-forms.templ:92
+msgid "Adds a label on links, based on their section title"
+msgstr "Lägg till etiketter på länkar, baserat på deras sektionstitel"
+
+#: internal/bookmarks/importer/x-forms.templ:98
+msgid "Import Links from a CSV File"
+msgstr "Importera Länkar från en CSV-fil"
+
+#: internal/bookmarks/importer/x-forms.templ:101
+msgid "Upload a CSV file from Instapaper or any CSV that matches the format specified below."
+msgstr "Ladda upp en CSV-fil från Instapaper eller någon annan CSV-fil som matchar formatet nedan."
+
+#: internal/bookmarks/importer/x-forms.templ:107
+msgid "CSV Format"
+msgstr "CSV-format"
+
+#: internal/bookmarks/importer/x-forms.templ:110
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\tThe uploaded file must contain a first row with the column names. Column names are case\n"
+"\t\t\t\tinsensitive and, except for <code>%s</code>, every column is optional.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tDen uppladdade filen måste innehålla en första rad med kolumnnamnen. Kolumnnamn är oberoende\n"
+"\t\t\t\tav stor eller liten bokstav och, förutom <code>%s</code>, är inga kolumner obligatoriska.\n"
+"\t\t\t"
+
+#: internal/bookmarks/importer/x-forms.templ:115
+msgid "Here are the columns you can set:"
+msgstr "Här är kolumnerna du kan sätta:"
+
+#: internal/bookmarks/importer/x-forms.templ:119
+msgid "Field"
+msgstr "Fält"
+
+#: internal/bookmarks/importer/x-forms.templ:120
+msgid "Alias"
+msgstr "Alias"
+
+#: internal/bookmarks/importer/x-forms.templ:121
+#: internal/bookmarks/routes/x-bookmark.templ:274
+msgid "Description"
+msgstr "Beskrivning"
+
+#: internal/bookmarks/importer/x-forms.templ:128
+msgid "Link address"
+msgstr "Länkadress"
+
+#: internal/bookmarks/importer/x-forms.templ:133
+msgid "Bookmark title"
+msgstr "Bokmärkestitel"
+
+#: internal/bookmarks/importer/x-forms.templ:138
+#, python-format
+msgid "Bookmark's archived state; only valid value is \"%s\""
+msgstr "Bokmärkets arkivstatus; enda giltiga värdet är \"%s\""
+
+#: internal/bookmarks/importer/x-forms.templ:143
+msgid "Creation date, can be a UNIX timestamp or an RFC-3339 formatted date"
+msgstr "Skapad-datum, kan vara en UNIX-tidsstämpel eller ett RFC-3339-formatterat datum"
+
+#: internal/bookmarks/importer/x-forms.templ:148
+msgid "A JSON encoded list of labels"
+msgstr "En JSON-formaterad lista med etiketter"
+
+#: internal/bookmarks/importer/x-forms.templ:152
+msgid "Example"
+msgstr "Exempel"
+
+#: internal/bookmarks/importer/x-forms.templ:161
+msgid "Import Links from a GoodLinks export file"
+msgstr "Importera Länkar från en GoodLinks-exportfil"
+
+#: internal/bookmarks/importer/x-forms.templ:164
+msgid "Upload a JSON file obtained from your GoodLinks app."
+msgstr "Ladda upp en JSON-fil som du fått genom din GoodLinks-app."
+
+#: internal/bookmarks/importer/x-forms.templ:173
+msgid "Import Bookmarks from a Linkwarden export file"
+msgstr "Importera Bokmärket från en Linkwarden-exportfil"
+
+#: internal/bookmarks/importer/x-forms.templ:176
+msgid "Upload a JSON file obtained from your Linkwarden app."
+msgstr "Ladda upp en JSON-fil som du fått genom din Linkwarden-app."
+
+#: internal/bookmarks/importer/x-forms.templ:185
+msgid "Import Links from a Pinboard JSON backup file"
+msgstr "Importera länkar från en Pinboard JSON-säkerhetskopia"
+
+#: internal/bookmarks/importer/x-forms.templ:188
+msgid "Upload a JSON file obtained from your Pinboard account."
+msgstr "Ladda upp en JSON-fil som hämtats från ditt Pinboard-konto."
+
+#: internal/bookmarks/importer/x-forms.templ:197
+#: internal/bookmarks/routes/x-import.templ:72
+msgid "Import your Pocket Articles"
+msgstr "Importera dina Pocket-artiklar"
+
+#: internal/bookmarks/importer/x-forms.templ:200
+msgid ""
+"\n"
+"\t\t\t\tUpload a Pocket export file in the form below and Readeck will fetch and save\n"
+"\t\t\t\tevery link found in the file.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tLadda upp en Pocket-exportfil i fältet nedan så hämtar och sparar Readeck\n"
+"\t\t\t\talla länkar som finns i filen.\n"
+"\t\t\t"
+
+#: internal/bookmarks/importer/x-forms.templ:212
+msgid "Note: upload the ZIP file directly, not its contents"
+msgstr "Notis: ladda upp själva ZIP-filen, inte dess innehåll"
+
+#: internal/bookmarks/importer/x-forms.templ:220
+msgid "Import Links from Readwise Reader CSV export"
+msgstr "Importera Länkar från Readwise Readers CSV-export"
+
+#: internal/bookmarks/importer/x-forms.templ:223
+msgid "Upload a CSV file exported from your Readwise Reader account below."
+msgstr "Ladda upp en CSV-fil exporterad från ditt Readwise Reader-konto nedan."
+
+#: internal/bookmarks/importer/x-forms.templ:229
+msgid "Which information is imported"
+msgstr "Vilken information är importerad"
+
+#: internal/bookmarks/importer/x-forms.templ:232
+msgid "Article title, URL, and when it was first saved,"
+msgstr "Artikelns titel, URL och när den först sparades,"
+
+#: internal/bookmarks/importer/x-forms.templ:233
+msgid "The archived state of an article,"
+msgstr "Den arkiverade statusen för en artikel,"
+
+#: internal/bookmarks/importer/x-forms.templ:234
+#, python-format
+msgid "\"%s\" as Readeck labels,"
+msgstr "\"%s\" som Readeck-etiketter,"
+
+#: internal/bookmarks/importer/x-forms.templ:235
+#, python-format
+msgid "When a document tag contains \"%s\", the bookmark will be added to Readeck Favorites."
+msgstr "När en dokumentetikett innehåller \"%s\", kommer bokmärket att läggas till i Readeck-favoriter."
+
+#: internal/bookmarks/importer/x-forms.templ:237
+msgid "What is not imported:"
+msgstr "Vad som inte är importerat:"
+
+#: internal/bookmarks/importer/x-forms.templ:239
+msgid "Article reading progress and seen status,"
+msgstr "Artikel-läsprogression och sedd-status,"
+
+#: internal/bookmarks/importer/x-forms.templ:240
+msgid "Articles forwarded to Readwise Reader by email,"
+msgstr "Artiklar som skickats till Readwise Reader via epost,"
+
+#: internal/bookmarks/importer/x-forms.templ:241
+msgid "Uploaded documents such as PDFs or EPUB."
+msgstr "Uppladdade dokument såsom PDFer eller EPUB."
+
+#: internal/bookmarks/importer/x-forms.templ:247
+#: internal/bookmarks/routes/x-import.templ:86
+msgid "Import Links from a Text File"
+msgstr "Importera Länkar från Textfil"
+
+#: internal/bookmarks/importer/x-forms.templ:250
+msgid ""
+"\n"
+"\t\t\t\tUpload a text file that contains one link per line and Readeck will fetch\n"
+"\t\t\t\tall of them and save them in your bookmark list.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tLadda upp en textfil som innehåller en länk per rad, så kommer Readeck att hämta\n"
+"\t\t\t\tdem alla och spara i din bokmärkeslista.\n"
+"\t\t\t"
+
+#: internal/bookmarks/importer/x-forms.templ:260
+#: internal/bookmarks/routes/x-import.templ:93
+msgid "Import your Wallabag Articles"
+msgstr "Importera dina Wallabag-artiklar"
+
+#: internal/bookmarks/importer/x-forms.templ:263
+msgid ""
+"\n"
+"\t\t\t\tTo import your articles from Wallabag, you must first create an API client\n"
+"\t\t\t\tin Wallabag's <strong>API clients management</strong> menu. This will give you\n"
+"\t\t\t\ta <strong>Client ID</strong> and <strong>Client secret</strong>.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tFör att importera dina artiklar från Wallabag, måste du först skapa en API-klient\n"
+"\t\t\t\ti Wallabags <strong>API-klienthantering</strong>s meny. Detta kommer ge dig \n"
+"\t\t\t\tett <strong>Klient-ID</strong> och en <strong>Klient-hemlighet</strong>.\n"
+"\t\t\t"
+
+#: internal/bookmarks/importer/x-forms.templ:270
+msgid "You can then enter all the necessary information in the form below."
+msgstr "Du kan sedan ange all nödvändig information i formuläret nedan."
+
+#: internal/bookmarks/importer/x-forms.templ:278
+msgid "Wallabag URL"
+msgstr "Wallabag-URL"
+
+#: internal/bookmarks/importer/x-forms.templ:281
+msgid "URL of your Wallabag homepage"
+msgstr "URL för din Wallabad-sida"
+
+#: internal/bookmarks/importer/x-forms.templ:295
+msgid "Client ID"
+msgstr "Klient-ID"
+
+#: internal/bookmarks/importer/x-forms.templ:300
+msgid "Client Secret"
+msgstr "Klient-hemlighet"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:170
+#: internal/bookmarks/routes/forms_bookmarks.go:188
+msgid "Unable to process input data"
+msgstr "Kunde inte bearbeta indata"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:279
+msgid "invalid language code"
+msgstr "ogiltig språkkod"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:284
+msgid "Left to right"
+msgstr "Vänster till höger"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:285
+msgid "Right to left"
+msgstr "Höger till vänster"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:626
+msgctxt "sort"
+msgid "Added, most recent first"
+msgstr "Tillagda, nyaste först"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:627
+msgctxt "sort"
+msgid "Added, oldest first"
+msgstr "Tillagda, äldsta först"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:628
+msgctxt "sort"
+msgid "Published, most recent first"
+msgstr "Publicerade, nyaste först"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:629
+msgctxt "sort"
+msgid "Published, oldest first"
+msgstr "Publicerade, äldsta först"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:630
+msgctxt "sort"
+msgid "Title, A to Z"
+msgstr "Titlar, A till Ö"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:631
+msgctxt "sort"
+msgid "Title, Z to A"
+msgstr "Titlar, Ö till A"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:632
+msgctxt "sort"
+msgid "Site Name, A to Z"
+msgstr "Sidnamn, A till Ö"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:633
+msgctxt "sort"
+msgid "Site Name, Z to A"
+msgstr "Sidnamn, Ö till A"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:634
+msgctxt "sort"
+msgid "Duration, shortest first"
+msgstr "Längd, kortast först"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:635
+msgctxt "sort"
+msgid "Duration, longest first"
+msgstr "Längd, längst först"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:636
+msgctxt "sort"
+msgid "Random"
+msgstr "Slumpmässig"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:742
+#: internal/bookmarks/routes/forms_filters.go:53
+msgid "Article"
+msgstr "Artikel"
+
+#: internal/bookmarks/routes/forms_bookmarks.go:743
+msgid "E-Book"
+msgstr "E-bok"
+
+#: internal/bookmarks/routes/forms_filters.go:54
+msgid "Picture"
+msgstr "Bild"
+
+#: internal/bookmarks/routes/forms_filters.go:55
+msgid "Video"
+msgstr "Video"
+
+#: internal/bookmarks/routes/forms_filters.go:61
+msgctxt "status"
+msgid "Unviewed"
+msgstr "Osedda"
+
+#: internal/bookmarks/routes/forms_filters.go:62
+msgctxt "status"
+msgid "In-Progress"
+msgstr "Pågående"
+
+#: internal/bookmarks/routes/forms_filters.go:63
+msgctxt "status"
+msgid "Completed"
+msgstr "Avslutade"
+
+#: internal/bookmarks/routes/forms_filters.go:72
+#, python-format
+msgid "\"%s\" is not a valid date value"
+msgstr "\"%s\" är inte ett giltigt datumvärde"
+
+#: internal/bookmarks/routes/opds.go:58
+msgid "Readeck Bookmarks"
+msgstr "Readeck-bokmärken"
+
+#: internal/bookmarks/routes/opds.go:104
+msgid "Readeck Bookmark Collections"
+msgstr "Readeck-bokmärkessamlingar"
+
+#: internal/bookmarks/routes/opds.go:142
+#, python-format
+msgid "Readeck Collection: %s"
+msgstr "Readeck-samlingar: %s"
+
+#: internal/bookmarks/routes/opds.go:148
+#, python-format
+msgid "Collection ebook - %s"
+msgstr "Samlingsebok - %s"
+
+#: internal/bookmarks/routes/opds.go:155
+#, python-format
+msgid "Browse collection: %s"
+msgstr "Bläddra i samling: %s"
+
+#: internal/bookmarks/routes/views_bookmarks.go:90
+msgid "All your Bookmarks"
+msgstr "Alla dina bokmärken"
+
+#: internal/bookmarks/routes/views_bookmarks.go:94
+msgid "Bookmark Search"
+msgstr "Bokmärkessökning"
+
+#: internal/bookmarks/routes/views_bookmarks.go:98
+#: internal/dashboard/x-dashboard.templ:142 internal/opds/http.go:60
+msgid "Unread Bookmarks"
+msgstr "Olästa bokmärken"
+
+#: internal/bookmarks/routes/views_bookmarks.go:100 internal/opds/http.go:64
+msgid "Archived Bookmarks"
+msgstr "Arkiverade bokmärken"
+
+#: internal/bookmarks/routes/views_bookmarks.go:102 internal/opds/http.go:68
+msgid "Favorite Bookmarks"
+msgstr "Favoritbokmärken"
+
+#: internal/bookmarks/routes/views_bookmarks.go:104
+#: internal/bookmarks/routes/x-base.templ:61
+#: internal/dashboard/x-dashboard.templ:148
+msgid "Articles"
+msgstr "Artiklar"
+
+#: internal/bookmarks/routes/views_bookmarks.go:106
+#: internal/bookmarks/routes/x-base.templ:69
+#: internal/dashboard/x-dashboard.templ:152
+msgid "Pictures"
+msgstr "Bilder"
+
+#: internal/bookmarks/routes/views_bookmarks.go:108
+#: internal/bookmarks/routes/x-base.templ:65
+#: internal/dashboard/x-dashboard.templ:150
+msgid "Videos"
+msgstr "Videor"
+
+#: internal/bookmarks/routes/views_bookmarks.go:299
+msgid "Bookmark updated"
+msgstr "Bokmärke uppdaterat"
+
+#: internal/bookmarks/routes/views_bookmarks.go:322
+msgid "Update"
+msgstr "Uppdatera"
+
+#: internal/bookmarks/routes/views_bookmarks.go:342
+#: internal/bookmarks/routes/x-bookmark.templ:245
+msgid "Share link"
+msgstr "Dela länk"
+
+#: internal/bookmarks/routes/views_bookmarks.go:372
+#: internal/bookmarks/routes/x-bookmark.templ:252
+msgid "Share by email"
+msgstr "Dela via epost"
+
+#: internal/bookmarks/routes/views_collections.go:39
+msgid "Collection created."
+msgstr "Samling skapad."
+
+#: internal/bookmarks/routes/views_collections.go:66
+msgid "Collection updated."
+msgstr "Samling uppdaterad."
+
+#: internal/bookmarks/routes/views_import.go:24
+#: internal/bookmarks/routes/views_import.go:37
+#: internal/bookmarks/routes/views_import.go:69
+#: internal/bookmarks/routes/x-import.templ:175 internal/profile/views.go:372
+#: internal/profile/x-base.templ:59 internal/profile/x-import.templ:13
+#: internal/profile/x-import.templ:41
+msgid "Import"
+msgstr "Import"
+
+#: internal/bookmarks/routes/views_import.go:38
+msgid "Progress"
+msgstr "Progression"
+
+#: internal/bookmarks/routes/x-annotations.templ:14
+msgid "Bookmark Highlights"
+msgstr "Bokmärkesmarkeringar"
+
+#: internal/bookmarks/routes/x-annotations.templ:20
+msgid "You don't have any highlights yet."
+msgstr "Du har inga markeringar än."
+
+#: internal/bookmarks/routes/x-annotations.templ:22
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tOnce you start highlighting parts of your saved articles, they will appear on this page\n"
+"\t\t\t\t\t\t\tfor you to easily find them.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\tNär du börjar markera delar av dina sparade artiklar, kommer de dyka upp på den här sidan\n"
+"\t\t\t\t\t\t\tså att du lätt kan hitta dem.\n"
+"\t\t\t\t\t\t"
+
+#: internal/bookmarks/routes/x-annotations.templ:29
+#, python-format
+msgid "Read more about highlights in the <a class=\"%s\" href=\"%s\">documentation</a>."
+msgstr "Läs mer om markeringar i <a class=\"%s\" href=\"%s\">dokumentationen</a>."
+
+#: internal/bookmarks/routes/x-base.templ:27
+msgid "search in bookmarks"
+msgstr "sök bokmärken"
+
+#: internal/bookmarks/routes/x-base.templ:31
+#: internal/bookmarks/routes/x-filters.templ:22
+msgid "Search"
+msgstr "Sök"
+
+#: internal/bookmarks/routes/x-base.templ:49
+msgid "All"
+msgstr "Alla"
+
+#: internal/bookmarks/routes/x-base.templ:51
+msgid "Unread"
+msgstr "Olästa"
+
+#: internal/bookmarks/routes/x-base.templ:53
+msgid "Archive"
+msgstr "Arkiv"
+
+#: internal/bookmarks/routes/x-base.templ:55
+#: internal/dashboard/x-dashboard.templ:144
+msgid "Favorites"
+msgstr "Favoriter"
+
+#: internal/bookmarks/routes/x-base.templ:76
+#: internal/bookmarks/routes/x-labels.templ:73
+#: internal/bookmarks/routes/x-sidebar.templ:320
+#: internal/dashboard/x-dashboard.templ:62
+msgid "Labels"
+msgstr "Etiketter"
+
+#: internal/bookmarks/routes/x-base.templ:78
+#: internal/bookmarks/routes/x-sidebar.templ:406
+#: internal/dashboard/x-dashboard.templ:63
+msgid "Highlights"
+msgstr "Markeringar"
+
+#: internal/bookmarks/routes/x-base.templ:80
+#: internal/bookmarks/routes/x-collections.templ:256
+#: internal/dashboard/x-dashboard.templ:64
+msgid "Collections"
+msgstr "Samlingar"
+
+#: internal/bookmarks/routes/x-base.templ:95
+msgid "Did you know?"
+msgstr "Visste du att?"
+
+#: internal/bookmarks/routes/x-base.templ:103
+#: internal/bookmarks/routes/x-bookmark-list.templ:258
+#: internal/bookmarks/routes/x-sidebar.templ:56
+#: internal/dashboard/x-dashboard.templ:251
+msgid "Learn more"
+msgstr "Lär dig mer"
+
+#: internal/bookmarks/routes/x-base.templ:114
+msgid "Don't remind me"
+msgstr "Påminn mig inte"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:71
+#: internal/bookmarks/routes/x-bookmark-list.templ:117
+#: internal/bookmarks/routes/x-bookmark-list.templ:120
+#: internal/bookmarks/routes/x-collections.templ:206
+#: internal/bookmarks/routes/x-collections.templ:209
+msgid "Filters"
+msgstr "Filter"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:86
+msgid "Import bookmarks"
+msgstr "Importera bokmärken"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:97
+msgid "Your search query yielded <strong>no results</strong>."
+msgstr "Din sökning gav <strong>inga resultat</strong>."
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:99
+#, python-format
+msgid "Your search query yielded <strong>%d result</strong>."
+msgid_plural "Your search query yielded <strong>%d results</strong>."
+msgstr[0] "Din sökning gav <strong>%d resultat</strong>."
+msgstr[1] "Din sökning gav <strong>%d resultat</strong>."
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:130
+msgid "Bookmark filters"
+msgstr "Bokmärkesfilter"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:139
+msgctxt "action"
+msgid "Search"
+msgstr "Sök"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:142
+msgid "Reset search"
+msgstr "Nollställ sökning"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:149
+msgid "Create a collection"
+msgstr "Skapa en samling"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:165
+#: internal/dashboard/x-dashboard.templ:32
+msgid "Save a new link"
+msgstr "Spara ny länk"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:188
+#: internal/dashboard/x-dashboard.templ:50
+msgctxt "button"
+msgid "Save link"
+msgstr "Spara länk"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:204
+msgid "\"%[1]s\" is not a valid address. Did you mean to search your bookmarks for %[2]s?"
+msgstr "\"%[1]s\" är inte en giltig adress. Menade du att söka i dina bokmärken efter %[2]s?"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:247
+msgid "Readeck Browser Extension"
+msgstr "Readeck webläsartillägg"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:267
+#: internal/dashboard/x-dashboard.templ:126
+msgid "Import existing bookmarks"
+msgstr "Importera existerande bokmärken"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:277
+#: internal/dashboard/x-dashboard.templ:134
+msgid "Import links and articles"
+msgstr "Importera länkar och artiklar"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:305
+msgid "Grid view"
+msgstr "Rutnätsvy"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:306
+msgid "Compact view"
+msgstr "Kompakt vy"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:307
+msgid "Mosaic view"
+msgstr "Mosaikvy"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:344
+#: internal/bookmarks/routes/x-bookmark-list.templ:347
+msgid "Sort bookmarks"
+msgstr "Sortera bokmärken"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:349
+msgid "Sort options"
+msgstr "Sorteringsalternativ"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:379
+#: internal/bookmarks/routes/x-bookmark-list.templ:382
+msgid "Import and export"
+msgstr "Importera och exportera"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:391
+#: internal/bookmarks/routes/x-sidebar.templ:182
+msgid "Download EPUB"
+msgstr "Ladda ner EPUB"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:410
+msgid "Atom Feed"
+msgstr "Atom Feed"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:457
+msgctxt "bookmark"
+msgid "Loading"
+msgstr "Läser in"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:492
+#: internal/dashboard/x-dashboard.templ:184
+msgid "untitled"
+msgstr "utan titel"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:505
+#, python-format
+msgctxt "abbr"
+msgid "%d min"
+msgid_plural "%d min"
+msgstr[0] "%d min"
+msgstr[1] "%d min"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:521
+#: internal/bookmarks/routes/x-sidebar.templ:115
+msgid "This bookmark will be removed in a few seconds."
+msgstr "Bokmärket kommer raderas om ett par sekunder."
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:540
+#: internal/bookmarks/routes/x-components.templ:246
+#: internal/bookmarks/routes/x-sidebar.templ:104
+msgid "Remove from archive"
+msgstr "Radera från arkiv"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:540
+#: internal/bookmarks/routes/x-components.templ:247
+#: internal/bookmarks/routes/x-sidebar.templ:105
+msgid "Move to archive"
+msgstr "Flytta till arkiv"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:541
+#: internal/bookmarks/routes/x-components.templ:234
+#: internal/bookmarks/routes/x-sidebar.templ:108
+msgid "Remove from favorites"
+msgstr "Radera från favoriter"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:541
+#: internal/bookmarks/routes/x-components.templ:235
+#: internal/bookmarks/routes/x-sidebar.templ:109
+msgid "Add to favorites"
+msgstr "Lägg till i favoriter"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:566
+msgid "Go to original page"
+msgstr "Gå till originalsidan"
+
+#: internal/bookmarks/routes/x-bookmark-list.templ:576
+#: internal/bookmarks/routes/x-sidebar.templ:231
+msgid "Delete this bookmark"
+msgstr "Radera detta bokmärke"
+
+#: internal/bookmarks/routes/x-bookmark.templ:22
+msgid "Bookmark not found"
+msgstr "Bokmärke ej hittat"
+
+#: internal/bookmarks/routes/x-bookmark.templ:23
+#: internal/bookmarks/routes/x-bookmark.templ:233
+msgid "Edit bookmark"
+msgstr "Redigera bokmärke"
+
+#: internal/bookmarks/routes/x-bookmark.templ:40
+msgid "Bookmark loading"
+msgstr "Bokmärke läses in"
+
+#: internal/bookmarks/routes/x-bookmark.templ:43
+#: internal/bookmarks/routes/x-bookmark.templ:134
+#: internal/bookmarks/routes/x-bookmark.templ:147
+msgid "Bookmark information"
+msgstr "Bokmärkesinformation"
+
+#: internal/bookmarks/routes/x-bookmark.templ:44
+msgid "Bookmark content"
+msgstr "Bokmärk innehåll"
+
+#: internal/bookmarks/routes/x-bookmark.templ:74
+msgid "Bookmark is loading"
+msgstr "Bokmärke under inläsning"
+
+#: internal/bookmarks/routes/x-bookmark.templ:110
+#: internal/bookmarks/routes/x-bookmark.templ:116
+msgid "Go back"
+msgstr "Gå tillbaka"
+
+#: internal/bookmarks/routes/x-bookmark.templ:120
+#: internal/bookmarks/routes/x-bookmark.templ:127
+#: internal/bookmarks/routes/x-collections.templ:187
+msgid "Edit"
+msgstr "Redigera"
+
+#: internal/bookmarks/routes/x-bookmark.templ:151
+#: internal/bookmarks/routes/x-bookmark.templ:159
+msgid "Fullscreen"
+msgstr "Helskärm"
+
+#: internal/bookmarks/routes/x-bookmark.templ:182
+#: internal/bookmarks/routes/x-bookmark.templ:194
+msgid "Close panel"
+msgstr "Stäng panel"
+
+#: internal/bookmarks/routes/x-bookmark.templ:223
+#: internal/bookmarks/routes/x-components.templ:36
+#: internal/bookmarks/routes/x-components.templ:363
+msgid "Close dialog"
+msgstr "Stäng dialog"
+
+#: internal/bookmarks/routes/x-bookmark.templ:234
+#, python-format
+msgid "Edit: %s"
+msgstr "Redigering: %s"
+
+#: internal/bookmarks/routes/x-bookmark.templ:246
+#: internal/bookmarks/routes/x-bookmark.templ:253
+#, python-format
+msgid "Share: %s"
+msgstr "Dela: %s"
+
+#: internal/bookmarks/routes/x-bookmark.templ:269
+#: internal/bookmarks/routes/x-filters.templ:23
+msgid "Title"
+msgstr "Titel"
+
+#: internal/bookmarks/routes/x-bookmark.templ:279
+msgid "Site Name"
+msgstr "Webbplatsnamn"
+
+#: internal/bookmarks/routes/x-bookmark.templ:284
+msgid "Authors"
+msgstr "Författare"
+
+#: internal/bookmarks/routes/x-bookmark.templ:287
+msgid "One value per line"
+msgstr "Ett värde per rad"
+
+#: internal/bookmarks/routes/x-bookmark.templ:291
+msgid "Published"
+msgstr "Publicerad"
+
+#: internal/bookmarks/routes/x-bookmark.templ:295
+#: internal/bookmarks/routes/x-filters.templ:27
+#: internal/profile/x-profile.templ:55
+msgid "Language"
+msgstr "Språk"
+
+#: internal/bookmarks/routes/x-bookmark.templ:305
+msgid "Text Direction"
+msgstr "Textriktning"
+
+#: internal/bookmarks/routes/x-bookmark.templ:329
+msgid "You can share the following link with your friends."
+msgstr "Du kan dela följande länk med dina vänner."
+
+#: internal/bookmarks/routes/x-bookmark.templ:331
+#, python-format
+msgid "It expires on %s"
+msgstr "Den går ut den %s"
+
+#: internal/bookmarks/routes/x-bookmark.templ:346
+msgid "This link is shared without annotations."
+msgstr "Den här länken delas utan annoteringar."
+
+#: internal/bookmarks/routes/x-bookmark.templ:347
+msgid "Share with annotations"
+msgstr "Dela med annoteringar"
+
+#: internal/bookmarks/routes/x-bookmark.templ:349
+msgid "This link is shared with annotations."
+msgstr "Den här länken delas med annoteringar."
+
+#: internal/bookmarks/routes/x-bookmark.templ:350
+msgid "Share without annotations"
+msgstr "Dela utan annoteringar"
+
+#: internal/bookmarks/routes/x-bookmark.templ:370
+msgid "Copy the link"
+msgstr "Kopiera länken"
+
+#: internal/bookmarks/routes/x-bookmark.templ:379
+#: internal/bookmarks/routes/x-bookmark.templ:443
+msgid "Go back to the bookmark"
+msgstr "Gå till bokmärket"
+
+#: internal/bookmarks/routes/x-bookmark.templ:404
+msgid "Sends this bookmark's content in the message."
+msgstr "Skicka detta bokmärkes innehåll i meddelandet."
+
+#: internal/bookmarks/routes/x-bookmark.templ:406
+msgid "Sends this bookmark as an attached EPUB file."
+msgstr "Skicka detta bokmärke som en bifogad EPUB-fil."
+
+#: internal/bookmarks/routes/x-bookmark.templ:414
+msgid "Format"
+msgstr "Format"
+
+#: internal/bookmarks/routes/x-bookmark.templ:420
+msgid "Send To"
+msgstr "Skicka Till"
+
+#: internal/bookmarks/routes/x-bookmark.templ:426
+msgid "Include annotations and notes"
+msgstr "Inkludera annoteringar och anteckningar"
+
+#: internal/bookmarks/routes/x-bookmark.templ:431
+#, python-format
+msgid "The bookmark was sent to %s"
+msgstr "Bokmärket skickades till %s"
+
+#: internal/bookmarks/routes/x-bookmark.templ:436
+msgid "Send message"
+msgstr "Skicka meddelande"
+
+#: internal/bookmarks/routes/x-collections.templ:28 internal/opds/http.go:76
+msgid "Bookmark Collections"
+msgstr "Bokmärkessamlingar"
+
+#: internal/bookmarks/routes/x-collections.templ:36
+msgid "Create a new collection"
+msgstr "Skapa ny samling"
+
+#: internal/bookmarks/routes/x-collections.templ:50
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t\tCollections let you easily organize and export your bookmarks\n"
+"\t\t\t\t\t\t\t\tby saving search requests of your choice.\n"
+"\t\t\t\t\t\t\t\tWhen you create a new bookmark that matches a collection's\n"
+"\t\t\t\t\t\t\t\tcriteria, it will appear immediately.\n"
+"\t\t\t\t\t\t\t\tHere are some examples:\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\t\tSamlingar låter dig enkelt organisera och exportera dina bokmärken\n"
+"\t\t\t\t\t\t\t\tgenom att spara sökningar som du väljer.\n"
+"\t\t\t\t\t\t\t\tNär du skapar ett nytt bokmärke som matchar en samlings\n"
+"\t\t\t\t\t\t\t\tkriterier visas det omedelbart.\n"
+"\t\t\t\t\t\t\t\tHär är några exempel:\n"
+"\t\t\t\t\t\t\t"
+
+#: internal/bookmarks/routes/x-collections.templ:59
+msgid "The unread articles (no photos or videos)"
+msgstr "De olästa artiklarna (inga foton eller videor)"
+
+#: internal/bookmarks/routes/x-collections.templ:60
+msgid "The archived articles from \"wikipedia.org\""
+msgstr "De arkiverade artiklarna från \"wikipedia.org\""
+
+#: internal/bookmarks/routes/x-collections.templ:61
+msgid "The pictures with the label \"cat\""
+msgstr "Bilderna med etiketten \"katt\""
+
+#: internal/bookmarks/routes/x-collections.templ:62
+msgid "The articles that contain \"shelter\" in their title"
+msgstr "De artiklar som har \"shelter\" i deras titel"
+
+#: internal/bookmarks/routes/x-collections.templ:66
+#, python-format
+msgid "Read more about collections in the <a class=\"%s\" href=\"%s\">documentation</a>."
+msgstr "Läs mer om samlingar i <a class=\"%s\" href=\"%s\">dokumentationen</a>."
+
+#: internal/bookmarks/routes/x-collections.templ:88
+#: internal/profile/x-tokens.templ:52
+#, python-format
+msgid "Created on: %s"
+msgstr "Skapad: %s"
+
+#: internal/bookmarks/routes/x-collections.templ:97
+msgid "This collection will be removed in a few seconds."
+msgstr "Denna samling kommer att tas bort om några sekunder."
+
+#: internal/bookmarks/routes/x-collections.templ:107
+#: internal/bookmarks/routes/x-sidebar.templ:129
+msgid "Undo"
+msgstr "Ångra"
+
+#: internal/bookmarks/routes/x-collections.templ:122
+msgid "New Collection"
+msgstr "Ny Samling"
+
+#: internal/bookmarks/routes/x-collections.templ:149
+#, python-format
+msgid "Collection %s"
+msgstr "Samling %s"
+
+#: internal/bookmarks/routes/x-collections.templ:158
+msgid "Collection will be removed in a few seconds."
+msgstr "Samlingen kommer raderas inom ett par sekunder."
+
+#: internal/bookmarks/routes/x-collections.templ:240
+msgid "Delete collection"
+msgstr "Radera samling"
+
+#: internal/bookmarks/routes/x-components.templ:140
+msgid "Yellow"
+msgstr "Gul"
+
+#: internal/bookmarks/routes/x-components.templ:141
+msgid "Red"
+msgstr "Röd"
+
+#: internal/bookmarks/routes/x-components.templ:142
+msgid "Blue"
+msgstr "Blå"
+
+#: internal/bookmarks/routes/x-components.templ:143
+msgid "Green"
+msgstr "Grön"
+
+#: internal/bookmarks/routes/x-components.templ:144
+msgid "Transparent"
+msgstr "Transparent"
+
+#: internal/bookmarks/routes/x-components.templ:151
+msgid "Highlight"
+msgstr "Markering"
+
+#: internal/bookmarks/routes/x-components.templ:193
+#: internal/bookmarks/routes/x-labels.templ:109
+msgid "Delete"
+msgstr "Radera"
+
+#: internal/bookmarks/routes/x-components.templ:257
+#: internal/bookmarks/routes/x-components.templ:287
+msgid "Close"
+msgstr "Stäng"
+
+#: internal/bookmarks/routes/x-components.templ:269
+msgid "Show image"
+msgstr "Visa bild"
+
+#: internal/bookmarks/routes/x-components.templ:299
+msgid "Play video"
+msgstr "Spela video"
+
+#: internal/bookmarks/routes/x-components.templ:326
+msgid "Extraction log"
+msgstr "Extraktionslogg"
+
+#: internal/bookmarks/routes/x-components.templ:330
+#: internal/bookmarks/routes/x-components.templ:381
+#: internal/docs/x-about.templ:74
+msgid "copy to clipboard"
+msgstr "kopiera till urklipp"
+
+#: internal/bookmarks/routes/x-components.templ:342
+#: internal/profile/x-tokens.templ:110
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: internal/bookmarks/routes/x-components.templ:351
+msgid "Saved with Readeck"
+msgstr "Spara med Readeck"
+
+#: internal/bookmarks/routes/x-components.templ:368
+msgid "This feed provides the latest entries from this bookmark list"
+msgstr "Det här flödet visar de senaste inläggen från den här bokmärkeslistan"
+
+#: internal/bookmarks/routes/x-components.templ:369
+msgid "Subscribe to this feed by copying the URL below:"
+msgstr "Prenumerera på det här flödet genom att kopiera adressen nedan:"
+
+#: internal/bookmarks/routes/x-components.templ:388
+msgid "Open link"
+msgstr "Öppna länk"
+
+#: internal/bookmarks/routes/x-components.templ:396
+msgid "Access to this feed is restricted."
+msgstr "Åtkomst till detta flöde är begränsad."
+
+#: internal/bookmarks/routes/x-components.templ:398
+msgid ""
+"\n"
+"\t\t\t\t\t\tYou must provide your newsreader app a username and an\n"
+"\t\t\t\t\t\t<a class=\"%[1]s\" href=\"%[2]s\">API Token</a> to load this feed.\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tDu måste ange ett användarnamn och en\n"
+"\t\t\t\t\t\t<a class=\"%[1]s\" href=\"%[2]s\">API-token</a> till din nyhetsläsarapp för att ladda det här flödet.\n"
+"\t\t\t\t\t"
+
+#: internal/bookmarks/routes/x-components.templ:409
+msgid "You don't have any bookmarks yet.<br> Copy a link in the field above and start saving."
+msgstr "Du har inga bokmärken än.<br>Kopiera in en länk i fältet ovan för att börja samla."
+
+#: internal/bookmarks/routes/x-components.templ:415
+#, python-format
+msgid "Read more about bookmarks in the <a class=\"%s\" href=\"%s\">documentation</a>."
+msgstr "Läs mer om bokmärken i <a class=\"%s\" href=\"%s\">dokumentationen</a>."
+
+#: internal/bookmarks/routes/x-components.templ:423
+msgid ""
+"\n"
+"\t\tWith the Browser Extension, you can save pages, images and selections\n"
+"\t\tdirectly from your browser!"
+msgstr ""
+"\n"
+"\t\tMed webbläsartillägget kan du spara sidor, bilder och markeringar\n"
+"\t\tdirekt från din webbläsare!"
+
+#: internal/bookmarks/routes/x-components.templ:430
+msgid ""
+"\n"
+"\t\tWould you like to import from a similar tool or from a file with existing bookmarks?\n"
+"\t\tTry Readeck's import tool.\n"
+"\t"
+msgstr ""
+"\n"
+"\t\tÖnskar du importera existerande bokmärken från fil eller från ett liknande verktyg?\n"
+"\t\tPröva Readecks importverktyg.\n"
+"\t"
+
+#: internal/bookmarks/routes/x-filters.templ:24
+msgid "Author"
+msgstr "Författare"
+
+#: internal/bookmarks/routes/x-filters.templ:25
+msgid "Site"
+msgstr "Sida"
+
+#: internal/bookmarks/routes/x-filters.templ:37
+msgctxt "date"
+msgid "Since"
+msgstr "Sedan"
+
+#: internal/bookmarks/routes/x-filters.templ:41
+msgctxt "date"
+msgid "Until"
+msgstr "Till"
+
+#: internal/bookmarks/routes/x-filters.templ:45
+msgid "Type"
+msgstr "Typ"
+
+#: internal/bookmarks/routes/x-filters.templ:49
+msgctxt "filter"
+msgid "Progress"
+msgstr "Progression"
+
+#: internal/bookmarks/routes/x-filters.templ:52
+msgid "Is Favorite"
+msgstr "Är Favorit"
+
+#: internal/bookmarks/routes/x-filters.templ:53
+msgid "Is Archived"
+msgstr "Är Arkiverad"
+
+#: internal/bookmarks/routes/x-filters.templ:54
+msgid "Is Loaded"
+msgstr "Är Inläst"
+
+#: internal/bookmarks/routes/x-filters.templ:55
+msgid "With Labels"
+msgstr "Med Etiketter"
+
+#: internal/bookmarks/routes/x-filters.templ:56
+msgid "With Notes"
+msgstr "Med anteckningar"
+
+#: internal/bookmarks/routes/x-filters.templ:57
+msgid "With Errors"
+msgstr "Med Fel"
+
+#: internal/bookmarks/routes/x-filters.templ:90
+#: internal/bookmarks/routes/x-reader-control.templ:180
+msgid "yes"
+msgstr "ja"
+
+#: internal/bookmarks/routes/x-filters.templ:91
+#: internal/bookmarks/routes/x-reader-control.templ:180
+msgid "no"
+msgstr "nej"
+
+#: internal/bookmarks/routes/x-import.templ:24
+msgid "Import your Bookmarks"
+msgstr "Importera dina bokmärken"
+
+#: internal/bookmarks/routes/x-import.templ:37
+msgid "Import your Browser's Bookmarks, Pinboard, Instapaper"
+msgstr "Importera din webbläsares bokmärken, Pinboard, Instapaper"
+
+#: internal/bookmarks/routes/x-import.templ:44
+msgid "Import Links from a CSV File and Instapaper"
+msgstr "Importera Länkar från en CSV-fil och Instapaper"
+
+#: internal/bookmarks/routes/x-import.templ:51
+msgid "Import your GoodLinks Articles"
+msgstr "Importera dina GoodLinks-artiklar"
+
+#: internal/bookmarks/routes/x-import.templ:58
+msgid "Import your Linkwarden Bookmarks"
+msgstr "Importera dina Linkwarden-bokmärken"
+
+#: internal/bookmarks/routes/x-import.templ:65
+msgid "Import your Pinboard bookmarks"
+msgstr "Importera dina Pinboard-bokmärken"
+
+#: internal/bookmarks/routes/x-import.templ:79
+msgid "Import your Readwise Reader Library"
+msgstr "Importera ditt Readwise Reader-bibliotek"
+
+#: internal/bookmarks/routes/x-import.templ:100
+msgid "Here you can import your existing bookmark collection from various sources into Readeck."
+msgstr "Här kan du importera dina existerande bokmärkessamlingar från diverse olika källor till Readeck."
+
+#: internal/bookmarks/routes/x-import.templ:125
+msgid "Import status"
+msgstr "Importstatus"
+
+#: internal/bookmarks/routes/x-import.templ:145
+msgid "Import operation will launch momentarily."
+msgstr "Importprocess kommer påbörjas momentant."
+
+#: internal/bookmarks/routes/x-import.templ:147
+msgid "Import operation has started!"
+msgstr "Importprocess har påbörjats!"
+
+#: internal/bookmarks/routes/x-import.templ:151
+msgid "You can keep using Readeck while the import is running."
+msgstr "Du kan fortsätta använda Readeck medan importen körs."
+
+#: internal/bookmarks/routes/x-import.templ:162
+msgid "Import is finished!"
+msgstr "Importen är avslutad!"
+
+#: internal/bookmarks/routes/x-import.templ:165
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t\tYour bookmarks are now available in your <a class=\"%s\" href=\"%s\">bookmark list</a>.\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tDina bokmärken är nu tillgängliga i din <a class=\"%s\" href=\"%s\">bokmärkeslista</a>.\n"
+"\t\t\t\t\t"
+
+#: internal/bookmarks/routes/x-labels.templ:27
+msgid "Bookmarks Labels"
+msgstr "Bokmärkesetiketter"
+
+#: internal/bookmarks/routes/x-labels.templ:31
+msgid ""
+"\n"
+"\t\t\t\tLabels let your organize your bookmarks the way you want.\n"
+"\t\t\t\tYou can set anything to a label, including emojis!\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tEtiketter låter dig organisera bokmärken som du vill.\n"
+"\t\t\t\tDu kan sätta vad som helst som etikett, till och med emoji!\n"
+"\t\t\t"
+
+#: internal/bookmarks/routes/x-labels.templ:128
+msgid "Label will be removed in a few seconds."
+msgstr "Etiketten kommer tas bort inom ett par sekunder."
+
+#: internal/bookmarks/routes/x-reader-control.templ:25
+#: internal/bookmarks/routes/x-reader-control.templ:27
+msgid "Display options"
+msgstr "Visningsalternativ"
+
+#: internal/bookmarks/routes/x-reader-control.templ:34
+msgid "Width"
+msgstr "Bredd"
+
+#: internal/bookmarks/routes/x-reader-control.templ:35
+msgid "Current Width"
+msgstr "Nuvarande bredd"
+
+#: internal/bookmarks/routes/x-reader-control.templ:36
+msgid "Decrease width"
+msgstr "Minska bredden"
+
+#: internal/bookmarks/routes/x-reader-control.templ:37
+msgid "Increase width"
+msgstr "Öka bredden"
+
+#: internal/bookmarks/routes/x-reader-control.templ:42
+msgid "Size"
+msgstr "Storlek"
+
+#: internal/bookmarks/routes/x-reader-control.templ:43
+msgid "Current font size"
+msgstr "Nuvarande teckenstorlek"
+
+#: internal/bookmarks/routes/x-reader-control.templ:44
+msgid "Decrease font size"
+msgstr "Minska teckenstorleken"
+
+#: internal/bookmarks/routes/x-reader-control.templ:45
+msgid "Increase font size"
+msgstr "Öka teckenstorleken"
+
+#: internal/bookmarks/routes/x-reader-control.templ:50
+msgid "Line height"
+msgstr "Linjehöjd"
+
+#: internal/bookmarks/routes/x-reader-control.templ:51
+msgid "Current line height"
+msgstr "Nuvarande linjehöjd"
+
+#: internal/bookmarks/routes/x-reader-control.templ:52
+msgid "Decrease line height"
+msgstr "Minska linjehöjden"
+
+#: internal/bookmarks/routes/x-reader-control.templ:53
+msgid "Increase line height"
+msgstr "Öka linjehöjden"
+
+#: internal/bookmarks/routes/x-reader-control.templ:58
+msgid "Justify"
+msgstr "Justera"
+
+#: internal/bookmarks/routes/x-reader-control.templ:59
+msgid "Justify text"
+msgstr "Justera text"
+
+#: internal/bookmarks/routes/x-reader-control.templ:60
+msgid "Don't justify text"
+msgstr "Justera inte texten"
+
+#: internal/bookmarks/routes/x-reader-control.templ:65
+msgid "Hyphenation"
+msgstr "Bindestrecksanvändning"
+
+#: internal/bookmarks/routes/x-reader-control.templ:66
+msgid "With hyphenation"
+msgstr "Med bindestreck"
+
+#: internal/bookmarks/routes/x-reader-control.templ:67
+msgid "Without hyphenation"
+msgstr "Utan bindestreck"
+
+#: internal/bookmarks/routes/x-reader-control.templ:82
+msgid "Font"
+msgstr "Typsnitt"
+
+#: internal/bookmarks/routes/x-sidebar.templ:42
+msgid "Errors occurred during extraction."
+msgstr "Något gick fel under extraktion."
+
+#: internal/bookmarks/routes/x-sidebar.templ:49
+msgid ""
+"\n"
+"\t\t\t\t\t\tDepending on the error, Readeck's browser extension may provide\n"
+"\t\t\t\t\t\ta workaround."
+msgstr ""
+"\n"
+"\t\t\t\t\t\tBeroende på felet, kan Readecks webbläsartillägg kanske\n"
+"\t\t\t\t\t\tkringgå problemet."
+
+#: internal/bookmarks/routes/x-sidebar.templ:65
+msgid "View log"
+msgstr "Se logg"
+
+#: internal/bookmarks/routes/x-sidebar.templ:100
+msgid "Mark as unread"
+msgstr "Markera som oläst"
+
+#: internal/bookmarks/routes/x-sidebar.templ:101
+msgid "Mark as read"
+msgstr "Markera som läst"
+
+#: internal/bookmarks/routes/x-sidebar.templ:172
+#: internal/bookmarks/routes/x-sidebar.templ:175
+msgid "Export and Share"
+msgstr "Exportera och dela"
+
+#: internal/bookmarks/routes/x-sidebar.templ:194
+msgid "Share by Link"
+msgstr "Dela via länk"
+
+#: internal/bookmarks/routes/x-sidebar.templ:206
+msgid "Send article by Email"
+msgstr "Skicka artikel med Epost"
+
+#: internal/bookmarks/routes/x-sidebar.templ:217
+msgid "Send e-book by Email"
+msgstr "Skicka e-bok via Epost"
+
+#: internal/bookmarks/routes/x-sidebar.templ:296
+msgid "Initial URL:"
+msgstr "Inledande URL:"
+
+#: internal/bookmarks/routes/x-sidebar.templ:347
+msgid "Add a label"
+msgstr "Lägg till en etikett"
+
+#: internal/bookmarks/routes/x-sidebar.templ:368
+msgid "Add label"
+msgstr "Lägg till etikett"
+
+#: internal/bookmarks/routes/x-sidebar.templ:392
+msgid "Remove label"
+msgstr "Ta bort etikett"
+
+#: internal/bookmarks/routes/x-sidebar.templ:410
+msgid "Start selecting text in the article to create a new highlight."
+msgstr "Börja med att markera text i artikeln för att skapa en ny markering."
+
+#: internal/bookmarks/routes/x-sidebar.templ:442
+msgid "Delete highlight"
+msgstr "Radera markering"
+
+#: internal/bookmarks/routes/x-sidebar.templ:460
+msgid "Links"
+msgstr "Länkar"
+
+#: internal/dashboard/x-dashboard.templ:26
+#, python-format
+msgid "Hi %s!"
+msgstr "Hej %s!"
+
+#: internal/dashboard/x-dashboard.templ:60 internal/opds/http.go:72
+msgid "All Bookmarks"
+msgstr "Alla bokmärken"
+
+#: internal/dashboard/x-dashboard.templ:72
+msgid "Readeck"
+msgstr "Readeck"
+
+#: internal/dashboard/x-dashboard.templ:74 internal/profile/views.go:98
+#: internal/profile/views.go:151 internal/profile/views.go:187
+#: internal/profile/views.go:228 internal/profile/views.go:239
+#: internal/profile/views.go:290 internal/profile/views.go:342
+#: internal/profile/views.go:371 internal/profile/x-base.templ:20
+msgid "Profile"
+msgstr "Profil"
+
+#: internal/dashboard/x-dashboard.templ:78
+msgid "Help"
+msgstr "Hjälp"
+
+#: internal/dashboard/x-dashboard.templ:146
+msgid "Archived"
+msgstr "Arkiverade"
+
+#: internal/dashboard/x-dashboard.templ:201
+msgid "See all"
+msgstr "Se alla"
+
+#: internal/dashboard/x-dashboard.templ:224
+msgid "Applications for Readeck"
+msgstr "Applikationer för Readeck"
+
+#: internal/dashboard/x-dashboard.templ:226
+msgid ""
+"\n"
+"\t\t\t\tYou can use Readeck, not only in your browser, but also\n"
+"\t\t\t\ton your smartphone, your e-book reader or\n"
+"\t\t\t\tin other apps through plugins."
+msgstr ""
+"\n"
+"\t\t\t\tDu kan använda Readeck, inte bara i din webbläsare, utan även\n"
+"\t\t\t\tpå din smartphone, din e-bokläsare eller\n"
+"\t\t\t\ti andra appar via tillägg."
+
+#: internal/dashboard/x-dashboard.templ:236
+msgid "Discover applications"
+msgstr "Upptäck applikationer"
+
+#: internal/dashboard/x-dashboard.templ:243
+msgid "Readeck in your Browser"
+msgstr "Readeck i din webbläsare"
+
+#: internal/docs/http.go:257 internal/docs/x-about.templ:53
+#: internal/docs/x-base.templ:43
+msgid "About Readeck"
+msgstr "Om Readeck"
+
+#: internal/docs/x-about.templ:57
+msgid "Version:"
+msgstr "Version:"
+
+#: internal/docs/x-about.templ:59
+msgid "Build Date:"
+msgstr "Byggdatum:"
+
+#: internal/docs/x-about.templ:64
+msgid "System Information"
+msgstr "Systeminformation"
+
+#: internal/docs/x-about.templ:66
+msgid "Here are your current system information. Please include them if you report a bug."
+msgstr "Här är din nuvarande systeminformation. Vänligen inkludera den om du rapporterar en bugg."
+
+#: internal/docs/x-about.templ:79
+msgid "Storage"
+msgstr "Lagring"
+
+#: internal/docs/x-about.templ:83
+msgid "Database Size:"
+msgstr "Databasstorlek:"
+
+#: internal/docs/x-about.templ:87
+msgid "Bookmarks Disk Usage:"
+msgstr "Bokmärkesdiskanvändning:"
+
+#: internal/docs/x-about.templ:92
+msgid "Project"
+msgstr "Projekt"
+
+#: internal/docs/x-about.templ:95
+msgid "Main website:"
+msgstr "Huvudwebbplats:"
+
+#: internal/docs/x-about.templ:99
+msgid "Sources and issues:"
+msgstr "Källor och problem:"
+
+#: internal/docs/x-about.templ:103
+msgid "How to contribute:"
+msgstr "Hur man bidrar:"
+
+#: internal/docs/x-about.templ:107
+msgid "Community Forum:"
+msgstr "Community-forum:"
+
+#: internal/docs/x-about.templ:111
+msgid "Matrix Chat:"
+msgstr "Matrix-chatt:"
+
+#: internal/docs/x-about.templ:115
+msgid "License"
+msgstr "Licens"
+
+#: internal/docs/x-about.templ:117
+#, python-format
+msgid "Readeck is distributed under the terms of the license \"%s\""
+msgstr "Readeck distribueras under villkoren i licensen \"%s\""
+
+#: internal/docs/x-about.templ:122
+msgid "Here's a short summary of the license conditions:"
+msgstr "Här är en kort summering av licensens villkor:"
+
+#: internal/docs/x-about.templ:127 internal/profile/x-applications.templ:56
+msgid "Permissions"
+msgstr "Tillåtelser"
+
+#: internal/docs/x-about.templ:128
+msgid "Conditions"
+msgstr "Villkor"
+
+#: internal/docs/x-about.templ:129
+msgid "Limitations"
+msgstr "Begränsningar"
+
+#: internal/docs/x-about.templ:139
+msgid "Commercial use"
+msgstr "Kommersiell användning"
+
+#: internal/docs/x-about.templ:144
+msgid "Distribution"
+msgstr "Distribution"
+
+#: internal/docs/x-about.templ:149
+msgid "Modification"
+msgstr "Modifikation"
+
+#: internal/docs/x-about.templ:154
+msgid "Patent use"
+msgstr "Patentanvändning"
+
+#: internal/docs/x-about.templ:159
+msgid "Private use"
+msgstr "Privat användning"
+
+#: internal/docs/x-about.templ:168
+msgid "Disclose source"
+msgstr "Avslöja källa"
+
+#: internal/docs/x-about.templ:173
+msgid "License and copyright notice"
+msgstr "Licens och upphovsrättsnotis"
+
+#: internal/docs/x-about.templ:178
+msgid "Network use is distribution"
+msgstr "Nätverksanvändning är distribution"
+
+#: internal/docs/x-about.templ:183
+msgid "Same license"
+msgstr "Samma licens"
+
+#: internal/docs/x-about.templ:188
+msgid "State changes"
+msgstr "Uppge ändringar"
+
+#: internal/docs/x-about.templ:197
+msgid "Liability"
+msgstr "Ansvar"
+
+#: internal/docs/x-about.templ:202
+msgid "Warranty"
+msgstr "Garanti"
+
+#: internal/docs/x-about.templ:233
+msgid "Third-Party Licenses"
+msgstr "Tredjepartslicenser"
+
+#: internal/docs/x-about.templ:234
+msgid "Readeck includes and/or uses the following open source assets:"
+msgstr "Readeck inkluderar och/eller använder följande open source-tillgångar:"
+
+#: internal/docs/x-api.templ:18 internal/docs/x-base.templ:34
+msgid "API Documentation"
+msgstr "API-dokumentation"
+
+#: internal/docs/x-base.templ:17
+msgid "Readeck Help"
+msgstr "Readeck Hjälp"
+
+#: internal/docs/x-base.templ:48
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#: internal/portability/import.go:351
+msgid "The import file must contain one user only"
+msgstr "Den importerade filen kan endast innehålla en användare"
+
+#: internal/profile/forms.go:30
+msgid "invalid password"
+msgstr "ogiltigt lösenord"
+
+#: internal/profile/forms.go:357
+msgid "username does not match"
+msgstr "användarnamnet matchar ej"
+
+#: internal/profile/views.go:89
+msgid "Profile updated."
+msgstr "Profil uppdaterad."
+
+#: internal/profile/views.go:131
+msgid "Your password was changed."
+msgstr "Ditt lösenord har ändrats."
+
+#: internal/profile/views.go:142
+msgid "Your verification code was removed."
+msgstr "Din verifieringskod har tagits bort."
+
+#: internal/profile/views.go:152 internal/profile/views.go:188
+#: internal/profile/x-base.templ:26
+msgid "Security"
+msgstr "Säkerhet"
+
+#: internal/profile/views.go:181
+msgid "Verification Code is now enabled."
+msgstr "Verifieringskod är nu aktiverat."
+
+#: internal/profile/views.go:189
+msgid "Verification Code"
+msgstr "Verifieringskod"
+
+#: internal/profile/views.go:229 internal/profile/x-applications.templ:10
+#: internal/profile/x-base.templ:33
+msgid "Applications"
+msgstr "Applikationer"
+
+#: internal/profile/views.go:240 internal/profile/views.go:291
+#: internal/profile/x-base.templ:39
+msgid "API Tokens"
+msgstr "API-tokens"
+
+#: internal/profile/views.go:255
+msgid "An error occurred while creating your token."
+msgstr "Ett fel uppstod när din token skapades."
+
+#: internal/profile/views.go:260
+msgid "New token created."
+msgstr "Ny token skapad."
+
+#: internal/profile/views.go:275
+msgid "Token was updated."
+msgstr "Token har uppdaterats."
+
+#: internal/profile/views.go:343 internal/profile/x-base.templ:51
+#: internal/profile/x-export.templ:11
+msgid "Export"
+msgstr "Exportera"
+
+#: internal/profile/views.go:361
+msgid "Profile imported."
+msgstr "Profil importerad."
+
+#: internal/profile/x-applications.templ:15
+msgid ""
+"\n"
+"\t\t\t\t\tApplications are registered clients that have permissions to access your Readeck account.\n"
+"\t\t\t\t\tIf there are applications you do not recognize here, or an application is misbehaving,\n"
+"\t\t\t\t\tyou can revoke its access.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tApplikationer är registrerade klienter som har behörighet att komma åt ditt Readeck-konto.\n"
+"\t\t\t\t\tOm det finns applikationer här som du inte känner igen, eller om en applikation bär sig illa åt,\n"
+"\t\t\t\t\tså kan du återkalla dess åtkomst.\n"
+"\t\t\t\t"
+
+#: internal/profile/x-applications.templ:23
+msgid "You have no registered application at the moment."
+msgstr "Du har ingen registrerad applikation för tillfället."
+
+#: internal/profile/x-applications.templ:46
+#, python-format
+msgid "Authorized on: %s"
+msgstr "Autentiserad: %s"
+
+#: internal/profile/x-applications.templ:52 internal/profile/x-tokens.templ:63
+#, python-format
+msgid "Last used on: %s"
+msgstr "Senast använd den: %s"
+
+#: internal/profile/x-applications.templ:73
+msgid "This client will be revoked in a few seconds."
+msgstr "Denna klient kommer att återkallas om ett par sekunder."
+
+#: internal/profile/x-applications.templ:94
+msgid "Revoke application"
+msgstr "Återkalla applikation"
+
+#: internal/profile/x-applications.templ:105
+msgid "Developer information"
+msgstr "Utvecklarinformation"
+
+#: internal/profile/x-applications.templ:107
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tIf you plan to build an application, please refer to the\n"
+"\t\t\t\t\t\t\t<a href=\"%s\">API Documentation</a>.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\tOm du planerar att utveckla en applikation, se\n"
+"\t\t\t\t\t\t\t<a href=\"%s\">API-dokumentationen</a>.\n"
+"\t\t\t\t\t\t"
+
+#: internal/profile/x-export.templ:23
+msgid "Bookmark List in Browser Bookmarks Format"
+msgstr "Bokmärkeslista i webbläsarens bokmärkesformat"
+
+#: internal/profile/x-export.templ:30
+msgid "Bookmark List as Comma Separated Values"
+msgstr "Bokmärkeslista som \"Comma Separated Values\""
+
+#: internal/profile/x-export.templ:37
+msgid "Export your Readeck Profile"
+msgstr "Exportera din Readeck-profil"
+
+#: internal/profile/x-export.templ:41
+msgid ""
+"\n"
+"\t\t\t\t\t\tThis lets you download a zip file containing all your profile's data, including\n"
+"\t\t\t\t\t\tbookmarks, collections, etc.\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tHär kan du ladda ned en zip-fil som innehåller all din profildata, inklusive\n"
+"\t\t\t\t\t\tbokmärken, samlingar, etc.\n"
+"\t\t\t\t\t"
+
+#: internal/profile/x-export.templ:47
+msgid "Export Data"
+msgstr "Exportera data"
+
+#: internal/profile/x-export.templ:52
+msgid "Export Bookmarks"
+msgstr "Exportera bokmärken"
+
+#: internal/profile/x-export.templ:53
+msgid "You can export your bookmark list in the following formats:"
+msgstr "Du kan exportera din bokmärkeslista i följande format:"
+
+#: internal/profile/x-import.templ:16
+msgid "Import a Readeck Profile"
+msgstr "Importera en Readeck-profil"
+
+#: internal/profile/x-import.templ:17
+msgid "Import a file obtained through a previous profile export."
+msgstr "Importera en fil du erhållit från en tidigare profilexport."
+
+#: internal/profile/x-import.templ:26
+msgid "Confirm your user name"
+msgstr "Bekräfta ditt användarnamn"
+
+#: internal/profile/x-import.templ:32
+msgid "Attention"
+msgstr "Observera"
+
+#: internal/profile/x-import.templ:34
+msgid ""
+"\n"
+"\t\t\t\t\t\t\tThis will empty your current profile and all its data will be\n"
+"\t\t\t\t\t\t\treplaced with the file's content.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\tDetta kommer att rensa din nuvarande profil och all dess data kommer att\n"
+"\t\t\t\t\t\t\tersättas med innehållet från filen.\n"
+"\t\t\t\t\t\t"
+
+#: internal/profile/x-import.templ:46
+msgid "Import bookmarks from other services"
+msgstr "Importera bokmärken från andra tjänster"
+
+#: internal/profile/x-import.templ:49
+#, python-format
+msgid ""
+"\n"
+"\t\t\t\t\t\tIf you have bookmarks from another service you can import them in the\n"
+"\t\t\t\t\t\t<a href=\"%s\">dedicated section</a>.\n"
+"\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\tOm du har bokmärken från andra tjänster kan du importera dem i den\n"
+"\t\t\t\t\t\t<a href=\"%s\">dedikerade sektionen</a>.\n"
+"\t\t\t\t\t\t"
+
+#: internal/profile/x-profile.templ:17 internal/profile/x-security.templ:16
+msgid "My profile"
+msgstr "Min profil"
+
+#: internal/profile/x-profile.templ:25
+#, python-format
+msgid "You are connected as <strong>%s</strong>"
+msgstr "Du är ansluten som <strong>%s</strong>"
+
+#: internal/profile/x-profile.templ:40
+msgid "Base settings"
+msgstr "Grundinställningar"
+
+#: internal/profile/x-profile.templ:49
+msgid "Email Address"
+msgstr "Epostadress"
+
+#: internal/profile/x-profile.templ:72
+msgid "Email settings"
+msgstr "Epostinställningar"
+
+#: internal/profile/x-profile.templ:75
+msgid "Reply To"
+msgstr "Svara Till"
+
+#: internal/profile/x-profile.templ:77
+msgid "Add this email address in your outgoing emails so recipients can reply."
+msgstr "Lägg till denna epostadress i dina utgående epost så mottagare kan svara."
+
+#: internal/profile/x-profile.templ:81
+msgid "Send EPUB to"
+msgstr "Skicka EPUB till"
+
+#: internal/profile/x-profile.templ:83
+msgid "This address is used to prefill the recipient when you send an e-book by email."
+msgstr "Denna adress används för att förhandsfylla mottagare när du skickar en e-bok över epost."
+
+#: internal/profile/x-profile.templ:90
+msgid "Sending e-books to an Amazon Kindle"
+msgstr "Skicka e-böcker till en Amazon Kindle"
+
+#: internal/profile/x-profile.templ:93
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t\t\t\tIf you plan to send e-books to a Kindle device, you must approve the\n"
+"\t\t\t\t\t\t\t\t\t\tfollowing email address within your Kindle Account:\n"
+"\t\t\t\t\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t\t\t\t\tOm du planerar att skicka e-böcker till en Kindle-enhet, så måste du godkänna\n"
+"\t\t\t\t\t\t\t\t\t\tföljande epostadress i ditt Kindle-konto:\n"
+"\t\t\t\t\t\t\t\t\t"
+
+#: internal/profile/x-security.templ:25
+msgid "Change my password"
+msgstr "Ändra mitt lösenord"
+
+#: internal/profile/x-security.templ:27
+msgid "Current password"
+msgstr "Nuvarande lösenord"
+
+#: internal/profile/x-security.templ:49
+msgid "Verification Code (TOTP)"
+msgstr "Verifieringskod (TOTP)"
+
+#: internal/profile/x-security.templ:50
+msgid "A verification code is a one time code generated by an application, such as Google Authenticator."
+msgstr "En verifieringskod är en engångskod som genereras av en applikation, till exempel Google Authenticator."
+
+#: internal/profile/x-security.templ:55
+msgid "The verification code is enabled on this account."
+msgstr "Verifieringskoden är aktiverad på det här kontot."
+
+#: internal/profile/x-security.templ:59
+msgid "Remove Verification Code"
+msgstr "Ta bort verifieringskod"
+
+#: internal/profile/x-security.templ:61
+msgid "Removing your verification code will make your account less secure."
+msgstr "Om du tar bort din verifieringskod blir ditt konto mindre säkert."
+
+#: internal/profile/x-security.templ:67
+msgid "Remove"
+msgstr "Ta bort"
+
+#: internal/profile/x-security.templ:75 internal/profile/x-security.templ:85
+msgid "Setup Verification Code"
+msgstr "Ställ in verifieringskod"
+
+#: internal/profile/x-security.templ:91
+msgid "Scan this QR code with your app"
+msgstr "Skanna den här QR-koden med din app"
+
+#: internal/profile/x-security.templ:92
+msgid "Scan the QR code below with a two-factor authentication app on your phone."
+msgstr "Skanna QR-koden nedan med en app för tvåfaktorsautentisering på din telefon."
+
+#: internal/profile/x-security.templ:101
+msgid "If you can't use the QR code, enter the code below instead."
+msgstr "Om du inte kan använda QR-koden, ange koden nedan istället."
+
+#: internal/profile/x-security.templ:104
+msgid "Enter the code from your application."
+msgstr "Ange koden från din applikation."
+
+#: internal/profile/x-security.templ:106
+msgid "After scanning the QR code, the app will display a six-digit code that you need to enter below."
+msgstr "När du skannat QR-koden visar appen en sexsiffrig kod som du behöver ange nedan."
+
+#: internal/profile/x-security.templ:109
+msgid "Code from your device"
+msgstr "Kod från din enhet"
+
+#: internal/profile/x-security.templ:115
+msgid "Finish"
+msgstr "Avsluta"
+
+#: internal/profile/x-tokens.templ:13
+msgid "My API Tokens"
+msgstr "Mina API-tokens"
+
+#: internal/profile/x-tokens.templ:17
+msgid "An API Token is a key that grants you access to the Readeck API."
+msgstr "En API-nyckel är en nyckel som ger dig tillgång till Readeck API:t."
+
+#: internal/profile/x-tokens.templ:19
+#, python-format
+msgid "Please read the <a href=\"%s\">API Documentation</a> if you plan to use it."
+msgstr "Se <a href=\"%s\">API-dokumentationen</a> om du planerar att använda det."
+
+#: internal/profile/x-tokens.templ:28
+msgid "Create a new API token"
+msgstr "Skapa en ny API-token"
+
+#: internal/profile/x-tokens.templ:57
+#, python-format
+msgid "Expires on: %s"
+msgstr "Går ut den: %s"
+
+#: internal/profile/x-tokens.templ:73
+msgid "This token will be removed in a few seconds."
+msgstr "Denna token kommer att raderas om ett par sekunder."
+
+#: internal/profile/x-tokens.templ:98
+msgid "API Token"
+msgstr "API-token"
+
+#: internal/profile/x-tokens.templ:105
+msgid "Token will be removed in a few seconds."
+msgstr "Token kommer raderas inom ett par sekunder."
+
+#: internal/profile/x-tokens.templ:114
+msgid "Token ID"
+msgstr "Token-ID"
+
+#: internal/profile/x-tokens.templ:118
+msgid "Last used"
+msgstr "Senast använd"
+
+#: internal/profile/x-tokens.templ:123
+msgid "never used"
+msgstr "aldrig använd"
+
+#: internal/profile/x-tokens.templ:133
+msgid "Enabled"
+msgstr "Aktiverad"
+
+#: internal/profile/x-tokens.templ:137
+msgid "Expires on"
+msgstr "Går ut den"
+
+#: internal/profile/x-tokens.templ:140 internal/profile/x-tokens.templ:149
+msgid "Roles"
+msgstr "Roller"
+
+#: internal/profile/x-tokens.templ:142
+msgid ""
+"\n"
+"\t\t\t\t\tYou can limit the permissions granted to this token by choosing one or more\n"
+"\t\t\t\t\tgroup of permissions below.<br>\n"
+"\t\t\t\t\tLeave all the choices blank to grant all your permissions to this token.\n"
+"\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\tDu kan begränsa vilka privilegier denna token ger genom att välja en eller flera\n"
+"\t\t\t\t\tgrupper av privilegier nedan.<br>\n"
+"\t\t\t\t\tLämna alla alternativ omarkerade för att ge alla privilegier till denna token.\n"
+"\t\t\t\t"
+
+#: internal/profile/x-tokens.templ:158
+msgid "Delete token"
+msgstr "Radera token"
+
+#: internal/profile/x-tokens.templ:162
+msgid "Authentication"
+msgstr "Autentisering"
+
+#: internal/profile/x-tokens.templ:164
+msgid "Your API token"
+msgstr "Din API-token"
+
+#: internal/profile/x-tokens.templ:177
+msgid "copy token"
+msgstr "kopiera token"
+
+#: internal/profile/x-tokens.templ:191
+msgid "Download as a text file"
+msgstr "Ladda ned som en textfil"
+
+#: internal/profile/x-tokens.templ:194
+msgid "How to use it"
+msgstr "Hur du använder den"
+
+#: internal/profile/x-tokens.templ:195
+msgid "As a Bearer Token"
+msgstr "Som Bearer-token"
+
+#: internal/profile/x-tokens.templ:197
+msgid "You can use this token by passing it as an <strong>Authorization: Bearer</strong> HTTP header."
+msgstr "Du kan använda denna token genom att skicka den som en <strong>Authorization: Bearer</strong> HTTP-header."
+
+#: internal/profile/x-tokens.templ:200
+msgid "HTTP Header"
+msgstr "HTTP-header"
+
+#: internal/profile/x-tokens.templ:213
+msgid "copy HTTP header"
+msgstr "kopiera HTTP-header"
+
+#: internal/profile/x-tokens.templ:219
+msgid "As a password"
+msgstr "Som ett lösenord"
+
+#: internal/profile/x-tokens.templ:220
+msgid "Alternatively, you can use this token as a password for HTTP Basic Authentication."
+msgstr "Alternativt kan du använda denna token som ett lösenord för HTTP Basic Authentication."
+
+#: internal/profile/x-tokens.templ:222
+msgid ""
+"\n"
+"\t\t\t\tFor example, if an application only accepts a username and password, you can provide this token as a password.\n"
+"\t\t\t\tThe username is ignored and can be anything, including an empty value.\n"
+"\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\tTill exempel, om en applikation endast accepterar användarnamn och lösenord, kan du använda denna token som ett lösenord.\n"
+"\t\t\t\tAnvändarnamnet ignoreras och kan vara vad som helst, inklusive ett tomt fält.\n"
+"\t\t\t"
+
+#: pkg/forms/forms.go:28
+msgid "an unexpected error has occurred"
+msgstr "ett oväntat fel har uppstått"
+
+#: pkg/forms/validators.go:18
+msgid "field is required"
+msgstr "fält är obligatoriskt"
+
+#: pkg/forms/validators.go:19
+msgid "not a valid email address"
+msgstr "inte en giltig epostadress"
+
+#: pkg/forms/validators.go:20
+msgid "invalid URL"
+msgstr "ogiltig URL"
+
+#: pkg/forms/validators.go:290
+#, python-format
+msgid "must be greater or equal than %g"
+msgstr "måste vara större än eller lika med %g"
+
+#: pkg/forms/validators.go:307
+#, python-format
+msgid "must be lower or equal than %g"
+msgstr "måste vara mindre än eller lika med %g"
+
+#: pkg/forms/validators.go:315
+#, python-format
+msgid "text must contain at least %d characters"
+msgstr "texten måste innehålla minst %d tecken"
+
+#: pkg/forms/validators.go:323
+#, python-format
+msgid "text must contain at most %d characters"
+msgstr "texten får innehålla högst %d tecken"
+
+#: pkg/forms/validators.go:331
+#, python-format
+msgid "text must contain %d characters"
+msgstr "texten måste innehålla %d tecken"
+
+#: pkg/forms/validators.go:394
+#, python-format
+msgid "%v is not one of %s"
+msgstr "%v är inte en av %s"
+
+#: pkg/strftime/strftime.go:23
+msgctxt "datetime_dl"
+msgid "Sunday"
+msgstr "Söndag"
+
+#: pkg/strftime/strftime.go:24
+msgctxt "datetime_dl"
+msgid "Monday"
+msgstr "Måndag"
+
+#: pkg/strftime/strftime.go:25
+msgctxt "datetime_dl"
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: pkg/strftime/strftime.go:26
+msgctxt "datetime_dl"
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: pkg/strftime/strftime.go:27
+msgctxt "datetime_dl"
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: pkg/strftime/strftime.go:28
+msgctxt "datetime_dl"
+msgid "Friday"
+msgstr "Fredag"
+
+#: pkg/strftime/strftime.go:29
+msgctxt "datetime_dl"
+msgid "Saturday"
+msgstr "Lördag"
+
+#: pkg/strftime/strftime.go:33
+msgctxt "datetime_ds"
+msgid "Sun"
+msgstr "Sön"
+
+#: pkg/strftime/strftime.go:34
+msgctxt "datetime_ds"
+msgid "Mon"
+msgstr "Mån"
+
+#: pkg/strftime/strftime.go:35
+msgctxt "datetime_ds"
+msgid "Tue"
+msgstr "Tis"
+
+#: pkg/strftime/strftime.go:36
+msgctxt "datetime_ds"
+msgid "Wed"
+msgstr "Ons"
+
+#: pkg/strftime/strftime.go:37
+msgctxt "datetime_ds"
+msgid "Thu"
+msgstr "Tors"
+
+#: pkg/strftime/strftime.go:38
+msgctxt "datetime_ds"
+msgid "Fri"
+msgstr "Fre"
+
+#: pkg/strftime/strftime.go:39
+msgctxt "datetime_ds"
+msgid "Sat"
+msgstr "Lör"
+
+#: pkg/strftime/strftime.go:43
+msgctxt "datetime_ml"
+msgid "January"
+msgstr "Januari"
+
+#: pkg/strftime/strftime.go:44
+msgctxt "datetime_ml"
+msgid "February"
+msgstr "Februari"
+
+#: pkg/strftime/strftime.go:45
+msgctxt "datetime_ml"
+msgid "March"
+msgstr "Mars"
+
+#: pkg/strftime/strftime.go:46
+msgctxt "datetime_ml"
+msgid "April"
+msgstr "April"
+
+#: pkg/strftime/strftime.go:47
+msgctxt "datetime_ml"
+msgid "May"
+msgstr "Maj"
+
+#: pkg/strftime/strftime.go:48
+msgctxt "datetime_ml"
+msgid "June"
+msgstr "Juni"
+
+#: pkg/strftime/strftime.go:49
+msgctxt "datetime_ml"
+msgid "July"
+msgstr "Juli"
+
+#: pkg/strftime/strftime.go:50
+msgctxt "datetime_ml"
+msgid "August"
+msgstr "Augusti"
+
+#: pkg/strftime/strftime.go:51
+msgctxt "datetime_ml"
+msgid "September"
+msgstr "September"
+
+#: pkg/strftime/strftime.go:52
+msgctxt "datetime_ml"
+msgid "October"
+msgstr "Oktober"
+
+#: pkg/strftime/strftime.go:53
+msgctxt "datetime_ml"
+msgid "November"
+msgstr "November"
+
+#: pkg/strftime/strftime.go:54
+msgctxt "datetime_ml"
+msgid "December"
+msgstr "December"
+
+#: pkg/strftime/strftime.go:58
+msgctxt "datetime_ms"
+msgid "Jan"
+msgstr "Jan"
+
+#: pkg/strftime/strftime.go:59
+msgctxt "datetime_ms"
+msgid "Feb"
+msgstr "Feb"
+
+#: pkg/strftime/strftime.go:60
+msgctxt "datetime_ms"
+msgid "Mar"
+msgstr "Mar"
+
+#: pkg/strftime/strftime.go:61
+msgctxt "datetime_ms"
+msgid "Apr"
+msgstr "Apr"
+
+#: pkg/strftime/strftime.go:62
+msgctxt "datetime_ms"
+msgid "May"
+msgstr "Maj"
+
+#: pkg/strftime/strftime.go:63
+msgctxt "datetime_ms"
+msgid "Jun"
+msgstr "Jun"
+
+#: pkg/strftime/strftime.go:64
+msgctxt "datetime_ms"
+msgid "Jul"
+msgstr "Jul"
+
+#: pkg/strftime/strftime.go:65
+msgctxt "datetime_ms"
+msgid "Aug"
+msgstr "Aug"
+
+#: pkg/strftime/strftime.go:66
+msgctxt "datetime_ms"
+msgid "Sep"
+msgstr "Sep"
+
+#: pkg/strftime/strftime.go:67
+msgctxt "datetime_ms"
+msgid "Oct"
+msgstr "Okt"
+
+#: pkg/strftime/strftime.go:68
+msgctxt "datetime_ms"
+msgid "Nov"
+msgstr "Nov"
+
+#: pkg/strftime/strftime.go:69
+msgctxt "datetime_ms"
+msgid "Dec"
+msgstr "Dec"
+
+#: pkg/strftime/strftime.go:73
+msgctxt "datetime"
+msgid "a.m."
+msgstr "förmiddag"
+
+#: pkg/strftime/strftime.go:74
+msgctxt "datetime"
+msgid "p.m."
+msgstr "eftermiddag"
+
+#: pkg/strftime/strftime.go:75
+#, python-format
+msgctxt "datetime"
+msgid "%a %b %e %H:%M:%S %y"
+msgstr "%a %b %e %H:%M:%S %y"
+
+#: pkg/strftime/strftime.go:76
+#, python-format
+msgctxt "datetime"
+msgid "%m/%d/%Y"
+msgstr "%Y-%m-%d"
+
+#: pkg/strftime/strftime.go:77
+msgctxt "datetime"
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#~ msgid "Close image"
+#~ msgstr "Stäng bild"
+
+#~ msgid "Remove Highlight(s)"
+#~ msgstr "Radera Markering(ar)"
+
+#~ msgid "Verification Code Setup"
+#~ msgstr ""
+
+#~ msgid "Last update: %s"
+#~ msgstr "Senast uppdaterad: %s"
+
+#~ msgid "You can now close this page."
+#~ msgstr "Du kan nu stänga denna sida."
+
+#~ msgid "%d min"
+#~ msgstr "%d min"
+
+#~ msgid "From date"
+#~ msgstr "Från datum"
+
+#~ msgid "To date"
+#~ msgstr "Till datum"
+
+#~ msgid ""
+#~ "\n"
+#~ "    These, optional, parameters are used when Readeck sends emails.\n"
+#~ "    "
+#~ msgstr ""
+#~ "\n"
+#~ "    Dessa, valfria, parametrar används när Readeck skickar epost.\n"
+#~ "    "
+
+#~ msgid "invalid username and/or email"
+#~ msgstr "ogiltigt användarnamn och/eller epost"
+
+#~ msgid "Home page"
+#~ msgstr "Startsida"
+
+#~ msgid "Invalid API Key"
+#~ msgstr "Ogiltig API-nyckel"
+
+#~ msgid "Import your Omnivore Articles"
+#~ msgstr "Importera dina Omnivore-artiklar"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t\tTo import your articles from Omnivore, you must first create an API Key in your\n"
+#~ "\t\t\t\tOmnivore's settings and enter it in the the form below.\n"
+#~ "\t\t\t"
+#~ msgstr ""
+#~ "\n"
+#~ "    För att importera dina artiklar från Omnivore, måste du först skapa en API-nyckel i dina\n"
+#~ "    Omnivore-inställningar, och skriva in den i formuläret nedan.\n"
+#~ "  "
+
+#~ msgid "Omnivore URL"
+#~ msgstr "Omnivore-URL"
+
+#~ msgid "URL of your Omnivore homepage"
+#~ msgstr "URL till din Omnivore-sida"
+
+#~ msgid "API Key"
+#~ msgstr "API-nyckel"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t\tYou can export your articles on Pocket by visiting:<br>\n"
+#~ "\t\t\t\t<a class=\"%[1]s\" href=\"%[2]s\">%[2]s</a>.\n"
+#~ "\t\t\t"
+#~ msgstr ""
+#~ "\n"
+#~ "    Du kan exportera dina artiklar från Pocket genom att besöka:<br>\n"
+#~ "    <a class=\"%[1]s\" href=\"%[2]s\">%[2]s</a>.\n"
+#~ "  "
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t\tPlease note that Pocket does not allow the article content to be exported.\n"
+#~ "\t\t\t\tThis could lead to different results in Readeck than what you currently\n"
+#~ "\t\t\t\tsee in Pocket.\n"
+#~ "\t\t\t"
+#~ msgstr ""
+#~ "\n"
+#~ "    Var uppmärksam på att Pocket inte tillåter artiklars innehåll att exporteras.\n"
+#~ "    Detta kan leda till andra resultat i Readeck än vad du just nu\n"
+#~ "    kan se i Pocket.\n"
+#~ "  "
+
+#~ msgid "New bookmarks"
+#~ msgstr "Olästa Bokmärken"
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t\t\t\t\t\t\tYou can not only use Readeck in your browser but also on\n"
+#~ "\t\t\t\t\t\t\t\t\tyour smartphone, your e-book reader or in other apps through\n"
+#~ "\t\t\t\t\t\t\t\t\tplugins."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "\t\t\t\tYou can use Readeck, not only in your browser, but also\n"
+#~ "\t\t\t\ton your smartphone, your e-book reader or\n"
+#~ "\t\t\t\tin other apps through\tplugins."
+#~ msgstr ""
+
+#~ msgctxt "datetime"
+#~ msgid "%e %B %Y"
+#~ msgstr "%e %B %Y"
+
+#~ msgctxt "date"
+#~ msgid "To"
+#~ msgstr ""
