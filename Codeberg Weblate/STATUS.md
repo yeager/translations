@@ -163,3 +163,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - OBS Master: **potentiellt obsolet**. Senaste verifierade release 0.6.3 (2023-11-16) är äldre än två år; projektet har hoppats över.
 
 - Hades Revisited / hades_core (sv): release 0.20.2 (2026-02-16) verifierad; 214/214 översatta, 0 osäkra och 7 spelterm-/teknikkontroller. Copper Ingot rättad till Koppartacka; granskad med hunspell -d sv_SE.
+
+- Hades Revisited / hades_info (sv): release 0.20.2 (2026-02-16) verifierad; 133/133 översatta, 0 osäkra och 5 tekniska/återanvändningskontroller. Fullständigt granskat med hunspell -d sv_SE och msgfmt -c.
