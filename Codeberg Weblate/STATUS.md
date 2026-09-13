@@ -375,3 +375,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Monocles Translator: potentiellt obsolet. Senaste verifierade release Beta2-v1.7 (2024-07-03) är äldre än två år; projektet hoppas över.
 
 - jdDesktopEntryEdit / jdDesktopEntryEdit (sv): release 1.8 (2025-10-29) verifierad. Svenska skapades i Weblate 2026-09-13. Komponenten rapporterar 0/0 källsträngar och väntar på uppströmssynkronisering innan översättning kan göras.
+
+- jdAppStreamEdit / jdAppStreamEdit (sv): release 10.0 (2026-09-09) verifierad; 748 källsträngar. Svenska saknas och Weblate returnerade 403 när komponenten skulle skapas. Inga översättningar kunde påbörjas eller publiceras.
