@@ -84,7 +84,9 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 |---|---|---|
 | Ampersand | Ingen verifierbar offentlig release | Potentiellt obsolet — Ingen offentlig release kunde verifieras via Codeberg-release-API:t; projektet hoppas över enligt tvåårsregeln. |
 | auto-tab-opener | v2.10 (2022-10-09) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
+| Best-Before | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
+| dawdle | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Meditation Assistant | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Nextcloud Cookbook Android | v3.0.2 (2024-02-26) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
@@ -335,3 +337,6 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - QDMR / graphical-user-interface (sv): release v0.15.1 (2026-06-20) verifierad; **pågående granskning**. 789/790 översatta, 0 osäkra och 53 kontrollfel. Alla översättningsbara enheter är färdiga. Den återstående enheten har tom källtext i MainWindowToolbar (mainwindow.ui:127); Weblate avvisar tomt målvärde. 395 strängar har översatts eller rättats; fem språk- och HTML-fel rättades i senaste granskningen.
 
 - Open Tracks – OSM Dashboard / app-store-metadata-offline-version (sv): release v6.10.0 (2026-06-13) verifierad; **klar och speglad**. 67/67 översatta, 0 osäkra och 67 kontrollfel. 59 saknade beskrivnings- och ändringsloggsträngar har översatts och granskats med `hunspell -d sv_SE`; länkar, radbrytningar, versionsnummer och punktlistor är bevarade. Kontrollerna gäller historiska ändringsloggar, produktnamn och tekniska identifierare.
+
+- Dawdle: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
+- Best-Before: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
