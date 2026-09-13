@@ -177,3 +177,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Weather: potentiellt obsolet. Senaste verifierade release 3.21-pre1 (2023-04-12), äldre än två år; projektet hoppas över.
 
 - GymRoutines / app-string-resources (sv): release v0.1.1 (2025-04-18) verifierad; 84/84 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE utan träffar.
+
+- SCEE / app (sv): release v63.4 (2026-08-05) verifierad; 663/663 översatta, 0 osäkra och 15 automatiska tekniska/dubblettkontroller för korrekta taggar, standardförkortningar och återanvända formuleringar. Fullständigt granskat med hunspell -d sv_SE; tre språkfel rättade.
