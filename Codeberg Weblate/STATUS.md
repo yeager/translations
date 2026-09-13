@@ -92,6 +92,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | dawdle | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Ferrum | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | GtkFalse | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
+| jdEolConverter | 1.2 (2023-04-19) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | KochMorse | v3.5.1 (2021-03-15) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Meditation Assistant | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Megalodon | v2.1.6+fork.110 (2023-11-15) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
@@ -395,3 +396,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Hades Revisited: projektomfattande återkontroll 2026-09-13 av 50 Weblate-komponenter. Inga saknade eller osäkra svenska enheter har tillkommit. Återstående kontroller gäller dokumenterade spel- och tekniktermer i hades_core, hades_orienteering, hades_stairs, hades_tiles, hades_skins och hades_farming.
 
 - AmSprung: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
+
+- jdEolConverter: potentiellt obsolet. Senaste verifierade release 1.2 (2023-04-19) är äldre än två år; projektet hoppas över.
