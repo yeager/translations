@@ -209,3 +209,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - FediPhoto-Lineage / description (sv): release v8.0 (2025-08-26) verifierad; 30/30 översatta, 0 osäkra och 1 kontrollfel. Granskad med hunspell -d sv_SE; kontrollen gäller en avsiktligt avvikande formulering i ändringsloggen.
 
 - FediPhoto-Lineage / strings (sv): release v8.0 (2025-08-26) verifierad; 252/252 översatta, 0 osäkra och 2 kontrollfel. Granskad med hunspell -d sv_SE; 162 saknade eller felaktiga strängar har översatts eller rättats. Kontrollerna gäller samma avsiktliga term i separata etiketter.
+
+- Ampersand: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release kunde verifieras 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
