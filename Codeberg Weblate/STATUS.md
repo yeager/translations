@@ -16,10 +16,10 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | ampersand | notes, filterqueries, resources, ampersand-lock-dashboard, security, analytics, tag-management, systems, import-export, members, app-settings, other | 374 | Publicerad och granskad; 13 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
 | archives | archives | 72 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.6.0 (2025-07-01) |
 | ascomplete | android | 135 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | v0.1.0 (2026-09-09) |
-| backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.6.1 (2026-02-10) |
-| bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | Boxcars v1.5.0 (2025-10-24) |
+| backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
+| bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | ej dokumenterad |
 | calligraphy | calligraphy | 40 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.3.0 (2026-05-18) |
-| censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.10.1 (2026-08-08) |
+| censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
 | ChiPass | Application | 2332 | Publicerad och granskad; 290 dokumenterade tekniska kontroller | v2026.09.0 (2026-09-11) |
 | clock | cities, clock | 1026 | Publicerad och granskad; 219 dokumenterade tekniska kontroller | 2.31 (2026-06-28); ej dokumenterad |
 | collision | collision | 45 | Publicerad och granskad; inga osäkra poster eller kontroller | v3.14.1 (2026-05-07) |
@@ -83,6 +83,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Projekt | Senast verifierade release | Status |
 |---|---|---|
 | Ampersand | Ingen verifierbar offentlig release | Potentiellt obsolet — Ingen offentlig release kunde verifieras via Codeberg-release-API:t; projektet hoppas över enligt tvåårsregeln. |
+| AmSprung | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Apkes | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | auto-tab-opener | v2.10 (2022-10-09) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Bavarder | 1.0.0 (2023-09-23) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
@@ -392,3 +393,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Tournant: potentiellt obsolet. Senaste verifierade release 1.1.6 (2023-01-27) är äldre än två år; projektet hoppas över.
 
 - Hades Revisited: projektomfattande återkontroll 2026-09-13 av 50 Weblate-komponenter. Inga saknade eller osäkra svenska enheter har tillkommit. Återstående kontroller gäller dokumenterade spel- och tekniktermer i hades_core, hades_orienteering, hades_stairs, hades_tiles, hades_skins och hades_farming.
+
+- AmSprung: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
