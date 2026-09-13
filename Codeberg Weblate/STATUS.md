@@ -12,7 +12,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 
 | Projekt | Komponenter | Strängar | Status | Senast verifierade release |
 |---|---:|---:|---|---|
-| alligator-gozaimasu | app, app | 160 | Publicerad och granskad; inga osäkra poster eller kontroller | 0.32 (2026-07-27); ej dokumenterad |
+| alligator-gozaimasu | app | 80 | Publicerad och granskad; inga osäkra poster eller kontroller | 0.32 (2026-07-27) |
 | ampersand | notes, filterqueries, resources, ampersand-lock-dashboard, security, analytics, tag-management, systems, import-export, members, app-settings, other | 374 | Publicerad och granskad; 13 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
 | ascomplete | android | 135 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | v0.1.0 (2026-09-09) |
 | backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
@@ -37,8 +37,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | gnuhealth | health_webdav3_server, health_stock_nursing, health_stock_inpatient, health_contact_tracing, health_insurance, health_mdg6, health_nursing | 269 | Publicerad och granskad; 12 dokumenterade tekniska kontroller | ej dokumenterad |
 | guix | website, glossary | 431 | Publicerad och granskad; 4 dokumenterade tekniska kontroller | ej dokumenterad |
 | gymroutines | app-string-resources | 84 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.1.1 (2025-04-18) |
-| hades-revisited | hades-cloth, hades-dye, hades-food, hades-furnaces, hades-magic-wand, hades-seasons, hades-signs, hades-tiles, hades-vines, mobs-hades, hades-refuit, hades-death-messages, hades-chests, hades-mob-spawner, hades-bushes, hades-beds-walls, hades-crystals-commands-hunger, hades-grass-greeting, hades-bags-creative-mobs | 389 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
-| hades_revisited | hades_flowers, hades_doors, hades_craftguide, hades_trees, hades_flowerpots, hades_farming, hades_columnia, hades_core, hudbars, hades_skins, hades_itemshow, hades_furniture, hades_fences, hades_windows, hades_simulation, hades_orienteering, hades_tt, glossary, hades_stairs, hades_info, hades_carpets | 2062 | Publicerad och granskad; 43 dokumenterade tekniska kontroller | 0.20.2 (2026-02-16); ej dokumenterad |
+| hades-revisited | hades-cloth, hades-dye, hades-food, hades-furnaces, hades-magic-wand, hades-seasons, hades-signs, hades-tiles, hades-vines, mobs-hades, hades-refuit, hades-death-messages, hades-chests, hades-mob-spawner, hades-bushes, hades_flowers, hades-beds-walls, hades-crystals-commands-hunger, hades-grass-greeting, hades-bags-creative-mobs, hades_doors, hades_craftguide, hades_trees, hades_flowerpots, hades_farming, hades_columnia, hades_core, hudbars, hades_skins, hades_itemshow, hades_furniture, hades_fences, hades_windows, hades_simulation, hades_orienteering, hades_tt, glossary, hades_stairs, hades_info, hades_carpets | 2451 | Publicerad och granskad; 43 dokumenterade tekniska kontroller | 0.20.2 (2026-02-16); Se detaljerad arbetslogg; ej dokumenterad |
 | heliboard | heliboard | 552 | Publicerad och granskad; 11 dokumenterade tekniska kontroller | v4.1 (2026-08-30) |
 | hurrycurry | game, website | 443 | Publicerad och granskad; 15 dokumenterade tekniska kontroller | v3.1.1 (2026-04-30) |
 | imagepipe | metadata-for-fdroid, app-strings | 347 | Publicerad och granskad; 9 dokumenterade tekniska kontroller | ej dokumenterad; v0.78 (2026-06-07) |
@@ -47,7 +46,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | jetbird | app | 182 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.8.10 (2026-09-04) |
 | kettu | default | 121 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | ej dokumenterad |
 | lask | lask | 342 | Publicerad och granskad; 16 dokumenterade tekniska kontroller | 0.9.0 (2025-03-28) |
-| lazarr | lzr_ambience, lzr_tools, lzr_player, lzr_doors, lzr_check_world_backend, lzr_check_movement_settings, _lzr_triggers_abbreviations, lzr_treasure, lzr_panes_functional, lzr_solutions, lzr_core, lzr_gui, lzr_parrot_npc, lzr_editor, lzr_credits, lzr_stairs, lzr_infobooks, lzr_core | 944 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | 2.2.3 (2026-06-06); ej dokumenterad |
+| lazarr | lzr_ambience, lzr_tools, lzr_player, lzr_doors, lzr_check_world_backend, lzr_check_movement_settings, _lzr_triggers_abbreviations, lzr_treasure, lzr_panes_functional, lzr_solutions, lzr_core, lzr_gui, lzr_parrot_npc, lzr_editor, lzr_credits, lzr_stairs, lzr_infobooks | 893 | Publicerad och granskad; 13 dokumenterade tekniska kontroller | 2.2.3 (2026-06-06); ej dokumenterad |
 | libre-menu-editor | libre-menu-editor | 117 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.10.5 (2026-08-09) |
 | medilog | core | 592 | Publicerad och granskad; 1 dokumenterade tekniska kontroller | v3.8.0 (2026-09-11) |
 | meshy-for-android | application | 155 | Publicerad och granskad; inga osäkra poster eller kontroller | 26.09.12 (2026-09-12) |
@@ -55,7 +54,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | mitra-web | main | 421 | Publicerad och granskad; 8 dokumenterade tekniska kontroller | v5.10.0 (2026-08-24) |
 | moshidon | values | 127 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | ej dokumenterad |
 | nitroxy | glossary | 4 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
-| nontrinsic | android-metadata, android, android, ios, nontrinsic | 184 | Granskad, men minst en komponent är låst | ej dokumenterad |
+| nontrinsic | android-metadata, android, ios, nontrinsic | 178 | Granskad, men minst en komponent är låst | ej dokumenterad |
 | open-tracks-osm-dashboard | app-store-metadata | 67 | Publicerad och granskad; 8 dokumenterade tekniska kontroller | ej dokumenterad |
 | plants | application | 108 | Publicerad och granskad; 7 dokumenterade tekniska kontroller | ej dokumenterad |
 | postmill | messages | 648 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | v2.2.3 (2026-07-20) |
