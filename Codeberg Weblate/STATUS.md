@@ -14,6 +14,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 |---|---:|---:|---|---|
 | alligator-gozaimasu | app | 80 | Publicerad och granskad; inga osäkra poster eller kontroller | 0.32 (2026-07-27) |
 | ampersand | notes, filterqueries, resources, ampersand-lock-dashboard, security, analytics, tag-management, systems, import-export, members, app-settings, other | 374 | Publicerad och granskad; 13 dokumenterade tekniska kontroller | Se detaljerad arbetslogg; ej dokumenterad |
+| archives | archives | 72 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.6.0 (2025-07-01) |
 | ascomplete | android | 135 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | v0.1.0 (2026-09-09) |
 | backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
 | bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | ej dokumenterad |
@@ -297,3 +298,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Postmill / messages (sv): release v2.2.3 (2026-07-20) verifierad; 648/648 översatta, 0 osäkra och 3 kontrollfel. Granskad med hunspell -d sv_SE; tolv språk- och terminologifel har rättats. Kontrollerna gäller avsiktliga facktermer och rollnamn.
 
 - Turntable / turntable (sv): release v0.5.1 (2025-12-26) verifierad; 139/139 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; två språkfel har rättats.
+
+- Archives / archives (sv): release v0.6.0 (2025-07-01) verifierad; 72/72 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; åtta språk- och terminologifel har rättats.
