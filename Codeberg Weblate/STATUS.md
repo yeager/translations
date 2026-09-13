@@ -365,3 +365,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 
 - Paroli: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
 - Ferrum: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
+
+- Monocles Mail / monocles_mail (sv): release Beta2-v1.3 (2025-03-05) verifierad; 996/1002 översatta, 0 osäkra och 10 kontrollfel. Sju svenska måltexter förbereddes med bevarade XLIFF-taggar och URL:er, men komponenten är låst: sex skrivningar returnerade 403 och en URL-enhet är skrivskyddad. Inga ändringar kunde publiceras eller speglas.
