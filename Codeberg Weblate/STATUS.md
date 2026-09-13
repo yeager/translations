@@ -21,6 +21,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | calligraphy | calligraphy | 40 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.3.0 (2026-05-18) |
 | censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
 | clock | cities, clock | 1026 | Publicerad och granskad; 219 dokumenterade tekniska kontroller | 2.31 (2026-06-28); ej dokumenterad |
+| collision | collision | 45 | Publicerad och granskad; inga osäkra poster eller kontroller | v3.14.1 (2026-05-07) |
 | comaps | appstore-description, website | 83 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | ej dokumenterad |
 | conversations | app-store-metadata | 106 | Publicerad och granskad; 1 dokumenterade tekniska kontroller | ej dokumenterad |
 | currencies | changelogs-and-descriptions-fastlane-for-f-droid | 65 | Publicerad och granskad; inga osäkra poster eller kontroller | ej dokumenterad |
@@ -303,3 +304,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Archives / archives (sv): release v0.6.0 (2025-07-01) verifierad; 72/72 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; åtta språk- och terminologifel har rättats.
 
 - Calligraphy / calligraphy (sv): release v1.3.0 (2026-05-18) verifierad; 40/40 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; sju språk- och UI-fel har rättats.
+
+- Collision / collision (sv): release v3.14.1 (2026-05-07) verifierad; 45/45 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; tolv språk-, sammansättnings- och UI-fel har rättats.
