@@ -349,3 +349,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Pineapple Lock Screen: potentiellt obsolet enligt releasekriteriet. GitHubs release-API saknar offentlig release 2026-09-13; projektet hoppas över.
 
 - Megalodon: potentiellt obsolet. Senaste verifierade release v2.1.6+fork.110 (2023-11-15) är äldre än två år; projektet hoppas över.
+
+- Moshidon / metadata (sv): release 2.3.0+fork.110.moshinda (2025-06-14) verifierad; 4/41 översatta, 0 osäkra och 15 kontrollfel. Tolv svenska texter har förberetts och granskats, men Weblate returnerade 403 för samtliga skrivningar; inga ändringar kunde publiceras eller speglas.
