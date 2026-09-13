@@ -97,6 +97,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Pineapple Lock Screen | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | SearXNG | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig aktuell release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
+| Träwelldroid | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | weather | 3.21-pre1 (2023-04-12) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 
 ### Detaljerad arbetslogg
@@ -357,3 +358,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - KochMorse: potentiellt obsolet. Senaste verifierade release v3.5.1 (2021-03-15) är äldre än två år; projektet hoppas över.
 
 - GtkFalse: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
+
+- Träwelldroid: potentiellt obsolet enligt releasekriteriet. GitHubs release-API saknar offentlig release 2026-09-13; projektet hoppas över.
