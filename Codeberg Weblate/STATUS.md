@@ -330,3 +330,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - SearXNG: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release kunde verifieras via GitHubs release-API 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
 
 - QDMR / graphical-user-interface (sv): release v0.15.1 (2026-06-20) verifierad; **pågående granskning**. 789/790 översatta, 0 osäkra och 53 kontrollfel. Alla översättningsbara enheter är färdiga. Den återstående enheten har tom källtext i MainWindowToolbar (mainwindow.ui:127); Weblate avvisar tomt målvärde. 395 strängar har översatts eller rättats; fem språk- och HTML-fel rättades i senaste granskningen.
+
+- Open Tracks – OSM Dashboard / app-store-metadata-offline-version (sv): release v6.10.0 (2026-06-13) verifierad; **pågående**. 30/67 översatta, 0 osäkra och 30 kontrollfel. 22 beskrivnings- och ändringsloggsträngar har översatts och granskats med `hunspell -d sv_SE`; länkar, radbrytningar, versionsnummer och punktlistor är bevarade.
