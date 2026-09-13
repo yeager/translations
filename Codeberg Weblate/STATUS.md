@@ -197,3 +197,7 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - FTPClient / strings (sv): release 3.2.0 (2026-08-23) verifierad; 120/120 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; ”SSH-äktheter” rättat till ”SSH-autentiseringar”.
 
 - Libre Menu Editor / libre-menu-editor (sv): release v1.10.5 (2026-08-09) verifierad; 117/117 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE utan träffar.
+
+- Hurry Curry / game (sv): release v3.1.1 (2026-04-30) verifierad; 387/387 översatta, 0 osäkra och 15 kontrollfel. Granskad med hunspell -d sv_SE; fyra språkfel har rättats. Återstående kontroller gäller egennamn, grafiktermer och avsiktliga skiljeteckensskillnader.
+
+- Hurry Curry / website (sv): release v3.1.1 (2026-04-30) verifierad; 56/56 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; produktnamn och tekniktermer bedömda.
