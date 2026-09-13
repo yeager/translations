@@ -17,7 +17,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | archives | archives | 72 | Publicerad och granskad; inga osäkra poster eller kontroller | v0.6.0 (2025-07-01) |
 | ascomplete | android | 135 | Publicerad och granskad; 2 dokumenterade tekniska kontroller | v0.1.0 (2026-09-09) |
 | backintime | common | 540 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.6.1 (2026-02-10) |
-| bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | ej dokumenterad |
+| bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | Boxcars v1.5.0 (2025-10-24) |
 | calligraphy | calligraphy | 40 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.3.0 (2026-05-18) |
 | censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
 | ChiPass | Application | 2332 | Publicerad och granskad; 290 dokumenterade tekniska kontroller | v2026.09.0 (2026-09-11) |
