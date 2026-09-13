@@ -98,6 +98,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Nextcloud Cookbook Android | v3.0.2 (2024-02-26) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
 | One Cloud | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
+| Outbag | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Paroli | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Pineapple Lock Screen | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
@@ -384,3 +385,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - One Cloud: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
 
 - Open Tracks – OSM Dashboard / app-store-metadata (sv): release v6.10.0 (2026-06-13) verifierad; 67/67 översatta, 0 osäkra och 8 kontrollfel. Tolv tomma historiktexter har förberetts, men Weblate returnerade 403 för samtliga skrivningar; inga nya ändringar kunde publiceras. Offline-metadata-komponenten är separat komplett och speglad.
+
+- Outbag: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
