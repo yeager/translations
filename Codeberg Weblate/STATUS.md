@@ -314,3 +314,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Tuba / tuba (sv): release v0.11.1 (2026-08-31) verifierad; 983/983 översatta, 0 osäkra och 20 kontrollfel. Granskad med hunspell -d sv_SE; 137 saknade eller osäkra enheter och sju befintliga språkfel har översatts eller rättats. Kontrollerna gäller produktnamn, datumformat, standardtermer och korrekta pluraler.
 
 - Vinyl / vinyl_player (sv): release v1.6.1 (2026-08-18) verifierad; 85/85 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; nio UI- och terminologifel har rättats.
+
+- Meditation Assistant: potentiellt obsolet enligt releasekriteriet. Ingen offentlig release kunde verifieras via Codeberg-release-API:t 2026-09-13; projektet hoppas över tills en sådan release kan verifieras.
