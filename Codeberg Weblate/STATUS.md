@@ -195,3 +195,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - alligator-gozaimasu / app (sv): release 0.32 (2026-07-27) verifierad; 80/80 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; egennamn, licens- och ljudformatstermer bedömda.
 
 - FTPClient / strings (sv): release 3.2.0 (2026-08-23) verifierad; 120/120 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE; ”SSH-äktheter” rättat till ”SSH-autentiseringar”.
+
+- Libre Menu Editor / libre-menu-editor (sv): release v1.10.5 (2026-08-09) verifierad; 117/117 översatta, 0 osäkra och 0 kontrollfel. Granskad med hunspell -d sv_SE utan träffar.
