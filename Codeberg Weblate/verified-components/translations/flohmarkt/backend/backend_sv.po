@@ -1,0 +1,3507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the flohmarkt_backend package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: flohmarkt_backend\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-04 18:17+0200\n"
+"PO-Revision-Date: 2026-09-13 07:33+0000\n"
+"Last-Translator: yeager <yeager@noreply.codeberg.org>\n"
+"Language-Team: Swedish <https://translate.codeberg.org/projects/flohmarkt/"
+"backend/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.8.1\n"
+
+#: flohmarkt/models/auth_fediverse.py:133
+#: flohmarkt/routes/auth_fediverse.py:280
+#, python-brace-format
+msgid "{auth_account} FediAuth login PIN: {pin} for {instance} on {domain}"
+msgstr ""
+"{auth_account} Pinkod för FediAuth-inloggning: {pin} för {instance} på "
+"{domain}"
+
+#: flohmarkt/models/auth_fediverse.py:139
+#: flohmarkt/routes/auth_fediverse.py:313
+#, python-brace-format
+msgid "Login to {instance}"
+msgstr "Logga in på {instance}"
+
+#: flohmarkt/models/auth_fediverse.py:278
+#: flohmarkt/models/auth_fediverse.py:283
+msgid "Invalid FediAuth Link"
+msgstr "Ogiltig FediAuth-länk"
+
+#: flohmarkt/models/auth_fediverse.py:278
+#: flohmarkt/models/auth_fediverse.py:283
+msgid "This FediAuth login link is not valid. Please start over."
+msgstr "Denna FediAuth-inloggningslänk är inte giltig. Starta om."
+
+#: flohmarkt/models/auth_fediverse.py:290
+msgid "FediAuth Link Expired"
+msgstr "FediAuth-länken har gått ut"
+
+#: flohmarkt/models/auth_fediverse.py:290
+msgid "This FediAuth login link has expired. Please request a new PIN."
+msgstr "Denna FediAuth-inloggningslänk har gått ut. Begär en ny pin-kod."
+
+#: flohmarkt/models/auth_fediverse.py:293
+msgid "FediAuth PIN Already Used"
+msgstr "FediAuth-pinkoden är redan använd"
+
+#: flohmarkt/models/auth_fediverse.py:293
+msgid "This FediAuth PIN has already been used. Please request a new one."
+msgstr "Denna FediAuth-pinkod har redan använts. Begär en ny."
+
+#: flohmarkt/models/auth_fediverse.py:340
+#: flohmarkt/models/auth_fediverse.py:461
+#: flohmarkt/routes/auth_fediverse.py:433
+msgid "Session not found"
+msgstr "Sessionen kan inte hittas"
+
+#: flohmarkt/models/auth_fediverse.py:344
+msgid "Session already used"
+msgstr "Sessionen används redan"
+
+#: flohmarkt/models/auth_fediverse.py:352
+#: flohmarkt/models/auth_fediverse.py:468
+msgid "Session expired"
+msgstr "Sessionen har gått ut"
+
+#: flohmarkt/models/auth_fediverse.py:362
+msgid "Invalid PIN"
+msgstr "Ogiltig pinkod"
+
+#: flohmarkt/routes/activitypub.py:236 flohmarkt/routes/activitypub.py:251
+#: flohmarkt/routes/activitypub.py:1319
+msgid "No such user :("
+msgstr "Användaren finns inte :("
+
+#: flohmarkt/routes/activitypub.py:256
+msgid "object does not exist"
+msgstr "objektet finns inte"
+
+#: flohmarkt/routes/activitypub.py:398 flohmarkt/routes/activitypub.py:440
+msgid "The linked post is not a flohmarkt listing"
+msgstr "Det länkade inlägget är inte en flohmarkt-annons"
+
+#: flohmarkt/routes/activitypub.py:399
+msgid "This is not a valid flohmarkt item"
+msgstr "Det här är inte ett giltigt flohmarkt-objekt"
+
+#: flohmarkt/routes/activitypub.py:441
+msgid "This is not a valid FEP-0837 Proposal object"
+msgstr "Det här är inte ett giltigt förslagsobjekt enligt FEP-0837"
+
+#: flohmarkt/routes/activitypub.py:479
+msgid ""
+"The linked listing has no location and cannot be verified against the "
+"perimeter"
+msgstr "Den länkade annonsen saknar plats och kan inte verifieras mot omkretsen"
+
+#: flohmarkt/routes/activitypub.py:480
+msgid "Cannot accept item without location"
+msgstr "Kan inte godta objekt utan plats"
+
+#: flohmarkt/routes/activitypub.py:490 flohmarkt/routes/activitypub.py:597
+msgid "The linked listing is outside this instance's area"
+msgstr "Den länkade annonsen ligger utanför denna instans område"
+
+#: flohmarkt/routes/activitypub.py:491 flohmarkt/routes/activitypub.py:598
+msgid "Cannot accept item beyond perimeter"
+msgstr "Kan inte godta objekt utanför omkretsen"
+
+#: flohmarkt/routes/activitypub.py:496
+#, python-brace-format
+msgid "Not allowed to override existing item: {url}"
+msgstr "Får inte åsidosätta befintligt objekt: {url}"
+
+#: flohmarkt/routes/activitypub.py:667
+msgid ""
+"You've made a public post to a item on flohmarkt.\n"
+" <b>This post is going to be ignored by the system.</b>\n"
+" Please use private posting e.g. 'Only mentioned' in mastodon.\n"
+" (This is a system-generated message)"
+msgstr ""
+"Du har gjort en publik postning till ett flohmarkt-objekt.\n"
+" <b>Denna postning kommer att ignoreras av systemet.</b>\n"
+" Gör en privat postning d v s 'Only mentioned' på Mastodon.\n"
+" (Det här är ett meddelande som är genererat av systemet)"
+
+#: flohmarkt/routes/activitypub.py:681
+msgid ""
+"The item you are responding to does\n"
+" unfortunatley not exist anymore. Sorry :("
+msgstr ""
+"Objektet du svarar på\n"
+" finns tyvärr inte kvar. Ledsen :("
+
+#: flohmarkt/routes/activitypub.py:798
+#, python-brace-format
+msgid ""
+"We did not expect to receive a PIN from {handle}. Are you sure you used the "
+"same account you want to log in with?"
+msgstr ""
+"Vi förväntade oss inte att få en pinkod från {handle}. Är du säker på att du "
+"använder samma konto som du vill logga in med?"
+
+#: flohmarkt/routes/activitypub.py:834
+msgid ""
+"✓ You're now logged in! Just a heads up: your authentication message was "
+"posted publicly. You may want to delete it now."
+msgstr ""
+"✓ Du är nu inloggad! Observera: ditt autentiseringsmeddelande postades "
+"publikt. Du vill nog radera det nu."
+
+#: flohmarkt/routes/activitypub.py:838
+msgid "✓ Authentication successful! You're now logged in."
+msgstr "✓ Lyckad autentisering! Du är nu inloggad."
+
+#: flohmarkt/routes/activitypub.py:905 flohmarkt/routes/activitypub.py:1087
+msgid "Need object"
+msgstr "Objekt krävs"
+
+#: flohmarkt/routes/activitypub.py:908 flohmarkt/routes/activitypub.py:1090
+msgid "Bad sender"
+msgstr "Felaktig avsändare"
+
+#: flohmarkt/routes/activitypub.py:911 flohmarkt/routes/activitypub.py:1094
+msgid "Already exists"
+msgstr "Finns redan"
+
+#: flohmarkt/routes/activitypub.py:939 flohmarkt/routes/activitypub.py:1100
+msgid "Can only accept private messages to 1 user"
+msgstr "Accepterar vara privatmeddelanden till 1 användare"
+
+#: flohmarkt/routes/activitypub.py:951 flohmarkt/routes/activitypub.py:960
+#: flohmarkt/routes/activitypub.py:1047
+msgid "Targeted item not found"
+msgstr "Den valda artikeln finns inte"
+
+#: flohmarkt/routes/activitypub.py:984 flohmarkt/routes/activitypub.py:1075
+#: flohmarkt/routes/conversation.py:116 flohmarkt/routes/item.py:286
+#: flohmarkt/routes/item.py:435
+#, python-brace-format
+msgid "New message from {sender} on {item}"
+msgstr "Nytt meddelande från {sender} om {item}"
+
+#: flohmarkt/routes/activitypub.py:1000
+msgid "Does not seem to be a flohmarkt item"
+msgstr "Verkar inte vara ett flohmarkt-objekt"
+
+#: flohmarkt/routes/activitypub.py:1005
+msgid "No such item"
+msgstr "Artikeln finns inte"
+
+#: flohmarkt/routes/activitypub.py:1039
+msgid "Targeted user not found"
+msgstr "Den önskade användaren hittades inte"
+
+#: flohmarkt/routes/activitypub.py:1053
+msgid "Trying to update a non-existing conversation"
+msgstr "Försöker uppdatera en icke-existerande konversation"
+
+#: flohmarkt/routes/activitypub.py:1062
+msgid "Trying to update a non-existing message"
+msgstr "Försöker uppdatera ett icke-existerande meddelande"
+
+#: flohmarkt/routes/activitypub.py:1064
+msgid "Trying to update a message with the same content"
+msgstr "Försöker uppdatera ett meddelande med samma innehåll"
+
+#: flohmarkt/routes/activitypub.py:1097
+msgid "missing 'to' field in activity"
+msgstr "'till'-fältet saknas i aktiviteten"
+
+#: flohmarkt/routes/activitypub.py:1111 flohmarkt/routes/activitypub.py:1144
+#: flohmarkt/routes/activitypub.py:1180 flohmarkt/routes/activitypub.py:1194
+#: flohmarkt/routes/activitypub.py:1211
+msgid "You cannot act on behalf of other users"
+msgstr "Du kan inte agera på andra användares vägnar"
+
+#: flohmarkt/routes/activitypub.py:1122
+msgid "Not allowed to delete other users items"
+msgstr "Du får inte radera andra användares objekt"
+
+#: flohmarkt/routes/activitypub.py:1199 flohmarkt/routes/activitypub.py:1216
+msgid "we are not waiting for this instance follow"
+msgstr "vi väntar inte på att denna instans ska följa"
+
+#: flohmarkt/routes/activitypub.py:1238 flohmarkt/routes/activitypub.py:1362
+msgid "request signature could not be validated"
+msgstr "begärans signatur kunde inte valideras"
+
+#: flohmarkt/routes/activitypub.py:1263 flohmarkt/routes/activitypub.py:1291
+#: flohmarkt/routes/activitypub.py:1374
+msgid "User is blocked"
+msgstr "Användaren är blockad"
+
+#: flohmarkt/routes/activitypub.py:1298
+msgid "Instance is blocked"
+msgstr "Instansen är blockad"
+
+#: flohmarkt/routes/activitypub.py:1331
+msgid "Page not found :("
+msgstr "Hittar inte sidan :("
+
+#: flohmarkt/routes/activitypub.py:1444
+msgid "Price"
+msgstr "Pris"
+
+#: flohmarkt/routes/activitypub.py:1836 flohmarkt/web.py:367
+msgid "User not found :("
+msgstr "Hittar inte användaren :("
+
+#: flohmarkt/routes/activitypub.py:1841
+msgid "fediverse account must contain @"
+msgstr "fediverse-kontot måste innehålla @"
+
+#: flohmarkt/routes/activitypub.py:1846
+msgid "Remote instance doesn't support interaction"
+msgstr "Fjärrinstansen stödjer inte interaktion"
+
+#: flohmarkt/routes/admin.py:30 flohmarkt/routes/currency.py:18
+#: flohmarkt/routes/currency.py:31
+msgid "Only admins may do this"
+msgstr "Det här får bara admins göra"
+
+#: flohmarkt/routes/admin.py:74
+msgid "URL must not be empty"
+msgstr "URL får inte vara tom"
+
+#: flohmarkt/routes/admin.py:128
+msgid "This instance is not being followed"
+msgstr "Denna instans följs inte"
+
+#: flohmarkt/routes/admin.py:149
+msgid "This instance is not a follower"
+msgstr "Denna instans är inte en följare"
+
+#: flohmarkt/routes/admin.py:163 flohmarkt/routes/admin.py:206
+msgid "This is not a follower candidate"
+msgstr "Detta är inte en följarkandidat"
+
+#: flohmarkt/routes/admin.py:333 flohmarkt/routes/user.py:227
+#, python-brace-format
+msgid ""
+"Already blocked user <code>{handle}</code> as <code>{existing_handle}</code>"
+msgstr ""
+"Användaren <code>{handle}</code> är redan blockerad som <code>"
+"{existing_handle}</code>"
+
+#: flohmarkt/routes/admin.py:340 flohmarkt/routes/user.py:234
+#, python-brace-format
+msgid ""
+"Could not find any user with the handle <code>{handle}</code> — added to "
+"blocklist, but the user might not exist."
+msgstr ""
+"Kunde inte hitta någon användare med handlet <code>{handle}</code> — lades "
+"till i blockeringslistan, men användaren kanske inte finns."
+
+#: flohmarkt/routes/admin.py:350 flohmarkt/routes/admin.py:365
+#: flohmarkt/routes/admin.py:382 flohmarkt/routes/user.py:161
+#: flohmarkt/routes/user.py:178 flohmarkt/routes/user.py:195
+#: flohmarkt/routes/user.py:246 flohmarkt/routes/webfinger.py:28
+#: flohmarkt/routes/webfinger.py:33 flohmarkt/routes/webfinger.py:64
+msgid "User not here :("
+msgstr "Användaren är inte här :("
+
+#: flohmarkt/routes/admin.py:352
+msgid "Admins are not allowed to deactivate themselves"
+msgstr "Admins får inte inaktivera sig själva"
+
+#: flohmarkt/routes/admin.py:367
+msgid "Admins are not allowed to de-admin themselves"
+msgstr "Administratörer kan inte ta bort sin egen administratörsbehörighet"
+
+#: flohmarkt/routes/admin.py:400
+#, python-brace-format
+msgid "Test mail on {}"
+msgstr "Testa mail på {}"
+
+#: flohmarkt/routes/admin.py:415
+msgid "Cannot select nonexistent currency as default currency"
+msgstr "Kan inte välja en obefintlig valuta som standardvaluta"
+
+#: flohmarkt/routes/admin.py:450
+msgid ""
+"Cannot disable all authentication backends. At least one backend must remain "
+"enabled to prevent lockout."
+msgstr ""
+"Kan inte inaktivera alla autentiseringsbackender. Minst en backend måste "
+"förbli aktiverad för att förhindra utelåsning."
+
+#: flohmarkt/routes/admin.py:466
+msgid ""
+"WARNING: You are about to disable the authentication backend that you are "
+"currently using. This will prevent you from logging in again. If you are "
+"sure you want to proceed, confirm this action."
+msgstr ""
+"VARNING: Du håller på att stänga av den autentiserings-backend som du just "
+"nu använder. Detta förhindrar dig att logga in igen. Bekräfta, om du är "
+"säker på att du vill fortsätta."
+
+#: flohmarkt/routes/auth_fediverse.py:171
+#: flohmarkt/routes/auth_fediverse.py:208
+msgid "FediAuth authentication is only available for existing accounts"
+msgstr "FediAuth-autentisering är endast tillgänglig för befintliga konton"
+
+#: flohmarkt/routes/auth_fediverse.py:177
+msgid "Could not find this Fediverse account. Please check the handle."
+msgstr "Kunde inte hitta detta Fediverse-konto. Kontrollera handlet."
+
+#: flohmarkt/routes/auth_fediverse.py:185
+msgid "FediAuth handle cannot be empty"
+msgstr "FediAuth-handle kan inte vara tomt"
+
+#: flohmarkt/routes/auth_fediverse.py:358
+msgid "Expired"
+msgstr "Utgånget"
+
+#: flohmarkt/routes/auth_fediverse.py:359
+msgid "This PIN has expired. Please request a new one."
+msgstr "Denna pinkod är utgången. Begär en ny."
+
+#: flohmarkt/routes/auth_fediverse.py:360
+msgid "Waiting for your message..."
+msgstr "Väntar på ditt meddelande ..."
+
+#: flohmarkt/routes/auth_fediverse.py:363
+msgid "Why do I need to send the PIN?"
+msgstr "Varför måste jag skicka pinkoden?"
+
+#: flohmarkt/routes/auth_fediverse.py:364
+msgid ""
+"For security, we don't send DMs from this server. This prevents "
+"unauthenticated users from abusing our server to send messages."
+msgstr ""
+"Av säkerhetsskäl skickar vi inte direktmeddelanden från denna server. Det "
+"förhindrar att icke-autentiserade användare missbrukar vår server för att "
+"skicka meddelanden."
+
+#: flohmarkt/routes/auth_fediverse.py:438
+msgid "Please send the PIN via direct message first"
+msgstr "Skicka först pinkoden via direktmeddelande"
+
+#: flohmarkt/routes/auth_fediverse.py:518
+msgid "Registrations are closed"
+msgstr "Registrering är avstängd"
+
+#: flohmarkt/routes/auth_fediverse.py:519
+msgid "Sorry, you can not register with this instance at the moment."
+msgstr "Ledsen, du kan inte regga dig på den här instansen för närvarande."
+
+#: flohmarkt/routes/auth_fediverse.py:545
+msgid "PIN Not Received"
+msgstr "Pinkoden är inte mottagen"
+
+#: flohmarkt/routes/auth_fediverse.py:546
+#: flohmarkt/routes/auth_fediverse.py:628
+msgid "Please complete the PIN verification step first."
+msgstr "Gör klart pinkodsverifieringssteget först."
+
+#: flohmarkt/routes/auth_fediverse.py:615 flohmarkt/routes/auth.py:149
+msgid "Registrations are not allowed at the moment"
+msgstr "Registrering är inte tillåtet för tillfället"
+
+#: flohmarkt/routes/auth_fediverse.py:642
+msgid "Username is already taken"
+msgstr "Användarnamnet är taget"
+
+#: flohmarkt/routes/auth_fediverse.py:659
+msgid "An account already exists for this Fediverse handle"
+msgstr "Det finns redan ett konto för detta Fediverse-handle"
+
+#: flohmarkt/routes/auth_oauth.py:37 flohmarkt/routes/auth_oauth.py:54
+#: flohmarkt/routes/auth_oauth.py:81
+msgid "Auth failed"
+msgstr "Autentiseringen misslyckades"
+
+#: flohmarkt/routes/auth_oauth.py:67
+msgid "OAuth authentication is only available for existing accounts"
+msgstr "OAuth-autentisering är endast tillgänglig för befintliga konton"
+
+#: flohmarkt/routes/auth_oauth.py:76
+msgid ""
+"This account does not use oauth authentication. Please use the appropriate "
+"login page."
+msgstr ""
+"Det här kontot använder inte OAuth-autentisering. Använd lämplig "
+"inloggningssida."
+
+#: flohmarkt/routes/auth.py:146
+msgid "Incorrect captcha"
+msgstr "Felaktig CAPTCHA"
+
+#: flohmarkt/routes/auth.py:157
+msgid "Password cannot be empty"
+msgstr "Lösenordet kan inte vara tomt"
+
+#: flohmarkt/routes/auth.py:168 flohmarkt/web.py:415
+#, python-brace-format
+msgid "Invalid email address: {email}"
+msgstr "Ogiltig e-postadress: {email}"
+
+#: flohmarkt/routes/auth.py:175
+msgid "This account is already active"
+msgstr "Det här kontot är redan aktivt"
+
+#: flohmarkt/routes/auth.py:178
+msgid "Activation email resent"
+msgstr "Aktiveringsmeddelandet har skickats igen"
+
+#: flohmarkt/routes/auth.py:181 flohmarkt/web.py:421
+msgid "Username or email already in use"
+msgstr "Användarnamnet eller e-postadressen används redan"
+
+#: flohmarkt/routes/auth.py:228
+msgid "Invalid email address"
+msgstr "Ogiltig e-postadress"
+
+#: flohmarkt/routes/auth.py:248
+msgid "That did not taste very well."
+msgstr "Det smakade inte särskilt gott."
+
+#: flohmarkt/routes/auth.py:255 flohmarkt/routes/auth.py:258
+#: flohmarkt/routes/auth.py:270 flohmarkt/routes/auth.py:282
+#: flohmarkt/routes/auth.py:302
+msgid "Not a valid name-password-pair"
+msgstr "Ogiltig kombination av namn och lösenord"
+
+#: flohmarkt/routes/auth.py:265
+msgid ""
+"This account does not use ldap authentication. Please use the appropriate "
+"login page."
+msgstr ""
+"Det här kontot använder inte LDAP-autentisering. Använd lämplig "
+"inloggningssida."
+
+#: flohmarkt/routes/auth.py:290
+#, python-brace-format
+msgid ""
+"This account uses {} authentication. Please use the appropriate login page."
+msgstr ""
+"Det här kontot använder {}-autentisering. Använd lämplig inloggningssida."
+
+#: flohmarkt/routes/auth.py:295 flohmarkt/routes/user.py:117
+msgid "This account does not use password authentication"
+msgstr "Det här kontot använder inte lösenordsautentisering"
+
+#: flohmarkt/routes/avatar.py:23
+msgid "User is not beer :("
+msgstr "Användaren är inte öl :("
+
+#: flohmarkt/routes/conversation.py:33 flohmarkt/routes/conversation.py:72
+#: flohmarkt/routes/item.py:211
+msgid "Item is not here :("
+msgstr "Artikeln är inte här :("
+
+#: flohmarkt/routes/conversation.py:64 flohmarkt/routes/item.py:72
+#: flohmarkt/routes/item.py:385
+msgid "You are banned"
+msgstr "Du är blockad"
+
+#: flohmarkt/routes/conversation.py:75 flohmarkt/routes/item.py:399
+msgid "Please provide text :("
+msgstr "Ange en text :("
+
+#: flohmarkt/routes/conversation.py:102
+msgid "You may not answer your own items"
+msgstr "Du får inte svara på din egen annons"
+
+#: flohmarkt/routes/conversation.py:134
+msgid "You are not involved in this conversation"
+msgstr "Du är inte involverad i den här konversationen"
+
+#: flohmarkt/routes/fep0837.py:43 flohmarkt/routes/fep0837.py:50
+#: flohmarkt/routes/fep0837.py:57 flohmarkt/routes/item.py:220
+#: flohmarkt/routes/item.py:306 flohmarkt/routes/item.py:321
+#: flohmarkt/routes/item.py:339 flohmarkt/routes/item.py:364
+#: flohmarkt/routes/item.py:389 flohmarkt/routes/item.py:454
+#: flohmarkt/routes/item.py:526 flohmarkt/web.py:248 flohmarkt/web.py:342
+msgid "Item not here :("
+msgstr "Artikeln är inte här :("
+
+#: flohmarkt/routes/image.py:82
+msgid "This mimetype is in an unacceptable condition. UNACCEPTABLE!1!!1"
+msgstr "Mime-typen är i ett oacceptabelt skick. OACCEPTABELT!1!!1"
+
+#: flohmarkt/routes/image.py:101
+msgid "Image not found :("
+msgstr "Hittar inte bilden :("
+
+#: flohmarkt/routes/image.py:129
+msgid "Failed to generate JPEG preview."
+msgstr "Kunde inte skapa JPEG-förhandsvisning."
+
+#: flohmarkt/routes/item.py:85 flohmarkt/routes/item.py:235
+msgid "Free-form currencies are disabled"
+msgstr "Fria valutor är inaktiverade"
+
+#: flohmarkt/routes/item.py:117
+msgid "New Item Pending Review"
+msgstr "Nytt objekt väntar på granskning"
+
+#: flohmarkt/routes/item.py:118
+#, python-brace-format
+msgid "A new item '{name}' by {user} is awaiting moderation."
+msgstr "Ett nytt objekt, '{name}', från {user} väntar på moderering."
+
+#: flohmarkt/routes/item.py:223
+msgid "Only admins/mods  owner :("
+msgstr "Bara administratörer/moderatorer  ägare :("
+
+#: flohmarkt/routes/item.py:243
+#, python-brace-format
+msgid "Name has changed from '{}' to '{}'<br>"
+msgstr "Namnet har ändrats från '{}' till '{}'<br>"
+
+#: flohmarkt/routes/item.py:246
+#, python-brace-format
+msgid "Price has changed from '{} {}' to '{} {}'<br>"
+msgstr "Priset har ändrats från '{} {}' till '{} {}'<br>"
+
+#: flohmarkt/routes/item.py:262
+msgid "The owner has changed the item description:<br><br><pre>"
+msgstr "Ägaren har ändrat beskrivningen:<br><br><pre>"
+
+#: flohmarkt/routes/item.py:335 flohmarkt/routes/item.py:360
+#: flohmarkt/routes/user.py:60 flohmarkt/routes/user.py:157
+#: flohmarkt/routes/user.py:174
+msgid "Only admins/mods :("
+msgstr "Bara admins/moderatorer :("
+
+#: flohmarkt/routes/item.py:349
+msgid "Item Suspended"
+msgstr "Objekt avstängt"
+
+#: flohmarkt/routes/item.py:350
+#, python-brace-format
+msgid ""
+"Your item '{name}' was suspended by a moderator and is hidden until it "
+"complies with the rules."
+msgstr ""
+"Ditt objekt '{name}' har stängts av av en moderator och döljs tills det "
+"följer reglerna."
+
+#: flohmarkt/routes/item.py:351
+#, python-brace-format
+msgid "Item suspended on {}"
+msgstr "Artikeln är avstängd på {}"
+
+#: flohmarkt/routes/item.py:374
+msgid "Item Unsuspended"
+msgstr "Objektets avstängning har hävts"
+
+#: flohmarkt/routes/item.py:375
+#, python-brace-format
+msgid "Your item '{name}' was unsuspended and is visible to everyone again."
+msgstr ""
+"Ditt objekt '{name}' har fått sin avstängning hävd och är synligt för alla "
+"igen."
+
+#: flohmarkt/routes/item.py:376
+#, python-brace-format
+msgid "Item unsuspended on {}"
+msgstr "Avstängningen av artikeln har hävts på {}"
+
+#: flohmarkt/routes/item.py:396
+msgid "Only owners may give item to a user"
+msgstr "Bara ägaren får ge en artikel till en användare"
+
+#: flohmarkt/routes/item.py:405
+msgid "This item has found a new home with another user."
+msgstr "Objektet har funnit ett nytt hem hos en annan användare."
+
+#: flohmarkt/routes/item.py:456
+msgid "Only the owner may request review"
+msgstr "Endast ägaren får begära granskning"
+
+#: flohmarkt/routes/item.py:459
+msgid "Please describe what you changed"
+msgstr "Beskriv vad du ändrade"
+
+#: flohmarkt/routes/item.py:468
+msgid "Item Review Requested"
+msgstr "Granskning av objekt begärd"
+
+#: flohmarkt/routes/item.py:469
+#, python-brace-format
+msgid "{user} re-requested review of '{name}'. Message: {msg}"
+msgstr "{user} begärde omprövning av '{name}'. Meddelande: {msg}"
+
+#: flohmarkt/routes/item.py:482 flohmarkt/routes/user.py:141
+msgid "Only owners, admins or moderators may delete item"
+msgstr "Bara ägaren, admins eller moderatorer får radera artiklar"
+
+#: flohmarkt/routes/item.py:492
+msgid "Item Deleted"
+msgstr "Objekt borttaget"
+
+#: flohmarkt/routes/item.py:493
+#, python-brace-format
+msgid ""
+"Your item '{name}' was deleted by a moderator.\n"
+"\n"
+"Title: {name}\n"
+"Description:\n"
+"{description}"
+msgstr ""
+"Ditt objekt '{name}' togs bort av en moderator.\n"
+"\n"
+"Titel: {name}\n"
+"Beskrivning:\n"
+"{description}"
+
+#: flohmarkt/routes/item.py:498
+#, python-brace-format
+msgid "Item deleted on {}"
+msgstr "Artikeln radera på {}"
+
+#: flohmarkt/routes/moderation.py:32
+msgid "Only moderators and admins may access the moderation queue"
+msgstr "Endast moderatorer och administratörer får komma åt modereringskön"
+
+#: flohmarkt/routes/moderation.py:45
+msgid "Only moderators and admins may approve items"
+msgstr "Endast moderatorer och administratörer får godkänna objekt"
+
+#: flohmarkt/routes/moderation.py:79
+msgid "Item Approved"
+msgstr "Objekt godkänt"
+
+#: flohmarkt/routes/moderation.py:80
+#, python-brace-format
+msgid "Your item '{name}' has been approved and is now visible to everyone."
+msgstr "Ditt objekt '{name}' har godkänts och är nu synligt för alla."
+
+#: flohmarkt/routes/moderation.py:81
+#, python-brace-format
+msgid "Item Approved: {name}"
+msgstr "Objekt godkänt: {name}"
+
+#: flohmarkt/routes/moderation.py:96
+msgid "Only moderators and admins may reject items"
+msgstr "Endast moderatorer och administratörer får avvisa objekt"
+
+#: flohmarkt/routes/moderation.py:115
+msgid "Item Rejected"
+msgstr "Objekt avvisat"
+
+#: flohmarkt/routes/moderation.py:116
+#, python-brace-format
+msgid ""
+"Your item '{name}' was rejected. Reason: {reason}. You can edit it and "
+"request another review from its page."
+msgstr ""
+"Ditt objekt '{name}' avvisades. Orsak: {reason}. Du kan redigera det och "
+"begära en ny granskning från dess sida."
+
+#: flohmarkt/routes/moderation.py:120
+#, python-brace-format
+msgid "Item Rejected: {name}"
+msgstr "Objekt avvisat: {name}"
+
+#: flohmarkt/routes/moderation.py:133 flohmarkt/routes/moderation.py:166
+msgid "Only moderators and admins may approve user profiles"
+msgstr "Endast moderatorer och administratörer får godkänna användarprofiler"
+
+#: flohmarkt/routes/moderation.py:150
+msgid "User Profile Approved"
+msgstr "Användarprofil godkänd"
+
+#: flohmarkt/routes/moderation.py:151
+msgid ""
+"The changes to your profile have been approved and are now visible to "
+"everyone."
+msgstr "Ändringarna i din profil har godkänts och är nu synliga för alla."
+
+#: flohmarkt/routes/moderation.py:152
+#, python-brace-format
+msgid "User Profile Approved: {name}"
+msgstr "Användarprofil godkänd: {name}"
+
+#: flohmarkt/routes/moderation.py:181
+msgid "User Profile Rejected"
+msgstr "Användarprofil avvisad"
+
+#: flohmarkt/routes/moderation.py:182
+#, python-brace-format
+msgid ""
+"The changes to your profile have been rejected. The reasons for this are: "
+"{reason}.  You may try editing your profile again avoiding the reasons above."
+msgstr ""
+"Ändringarna i din profil har avvisats. Orsakerna är: {reason}. Du kan "
+"försöka redigera profilen igen och undvika orsakerna ovan."
+
+#: flohmarkt/routes/moderation.py:183
+#, python-brace-format
+msgid "User Profile Rejected: {name}"
+msgstr "Användarprofil avvisad: {name}"
+
+#: flohmarkt/routes/notification.py:51
+msgid "Notification not found or does not belong to you"
+msgstr "Aviseringen hittades inte eller tillhör inte dig"
+
+#: flohmarkt/routes/report.py:24 flohmarkt/routes/report.py:53
+#: flohmarkt/routes/report.py:59
+msgid "Only mod and admin may do this"
+msgstr "Endast moderatorer och administratörer får göra detta"
+
+#: flohmarkt/routes/user.py:42
+#, python-brace-format
+msgid "Banned on {}"
+msgstr "Bannlyst på {}"
+
+#: flohmarkt/routes/user.py:54
+#, python-brace-format
+msgid "Unbanned on {}"
+msgstr "Avbannad på {}"
+
+#: flohmarkt/routes/user.py:70
+msgid "User is not here :("
+msgstr "Användaren är inte här :("
+
+#: flohmarkt/routes/user.py:77 flohmarkt/routes/user.py:113
+msgid "Cannot modify another user's properties"
+msgstr "Kan inte ändra en annan användares egenskaper"
+
+#: flohmarkt/routes/user.py:98
+msgid "User Profile Change Review"
+msgstr "Granskning av profiländring"
+
+#: flohmarkt/routes/user.py:99
+#, python-brace-format
+msgid "The user '{user}' wants to change their profile."
+msgstr "Användaren '{user}' vill ändra sin profil."
+
+#: flohmarkt/routes/user.py:107
+msgid "Failed to update user"
+msgstr "Kunde inte uppdatera användaren"
+
+#: flohmarkt/routes/user.py:121
+msgid "Old password incorrect"
+msgstr "Det gamla lösenordet är fel"
+
+#: flohmarkt/routes/user.py:144
+msgid "Admins cant delete themselves. Resign first!"
+msgstr "Administratörer kan inte ta bort sig själva. Avgå först!"
+
+#: flohmarkt/routes/user.py:169 flohmarkt/routes/user.py:186
+#: flohmarkt/routes/user.py:202
+msgid "Failed to update user status"
+msgstr "Kunde inte uppdatera användarstatusen"
+
+#: flohmarkt/routes/user.py:191
+msgid "You can only modify your own state :("
+msgstr "Du kan bara modifiera ditt eget state :("
+
+#: flohmarkt/routes/user.py:242 flohmarkt/routes/user.py:306
+msgid "Only admins/mods or own user :("
+msgstr "Bara admins, moderatorer eller egen användare :("
+
+#: flohmarkt/activitypub_utils.py:364
+#, python-brace-format
+msgid "Profile page not found: {url}"
+msgstr "Profilsidan hittades inte: {url}"
+
+#: flohmarkt/activitypub_utils.py:366
+#, python-brace-format
+msgid "Could not connect to {url}"
+msgstr "Kunde inte ansluta till {url}"
+
+#: flohmarkt/activitypub_utils.py:368 flohmarkt/activitypub_utils.py:375
+#, python-brace-format
+msgid ""
+"Profile page {url} does not contain a Fediverse username, try using a handle "
+"like {example}"
+msgstr ""
+"Profilsidan {url} innehåller inget Fediverse-användarnamn. Försök använda "
+"ett handle som {example}"
+
+#: flohmarkt/activitypub_utils.py:397
+#, python-brace-format
+msgid ""
+"Handle {handle} does not look like a valid Fediverse handle or profile URL. "
+"It should look something like {handle_example} or {url_example}"
+msgstr ""
+"Handlet {handle} verkar inte vara ett giltigt Fediverse-handle eller en "
+"profiladress. Det ska se ut ungefär som {handle_example} eller {url_example}"
+
+#: flohmarkt/activitypub_utils.py:513
+#, python-brace-format
+msgid "Invalid user name: {error}"
+msgstr "Ogiltigt användarnamn: {error}"
+
+#: flohmarkt/activitypub_utils.py:518 flohmarkt/activitypub_utils.py:552
+#: flohmarkt/activitypub_utils.py:555
+#, python-brace-format
+msgid ""
+"Could not connect to {instance}. Are you sure this is your account server?"
+msgstr ""
+"Kunde inte ansluta till {instance}. Är du säker på att detta är din "
+"kontoserver?"
+
+#: flohmarkt/activitypub_utils.py:522
+msgid "No links in WebFinger response"
+msgstr "Inga länkar i WebFinger-responsen"
+
+#: flohmarkt/activitypub_utils.py:530
+msgid "Subscribe URL not found in WebFinger response"
+msgstr "Subscribe URL finns inte med i WebFinger-responsen"
+
+#: flohmarkt/activitypub_utils.py:540
+#, python-brace-format
+msgid ""
+"Handle {handle} does not look like a valid Fediverse handle. It should look "
+"something like {example}"
+msgstr ""
+"Handlet {handle} verkar inte vara ett giltigt Fediverse-handle. Det ska se "
+"ut ungefär som {example}"
+
+#: flohmarkt/activitypub_utils.py:545
+#, python-brace-format
+msgid "Account {handle} not found on {instance}"
+msgstr "Kontot {handle} hittades inte på {instance}"
+
+#: flohmarkt/activitypub_utils.py:550 flohmarkt/activitypub_utils.py:558
+#, python-brace-format
+msgid ""
+"{instance} is not a valid Fediverse server. Are you sure this is your "
+"account server?"
+msgstr ""
+"{instance} är inte en giltig Fediverse-server. Är du säker på att detta är "
+"din kontoserver?"
+
+#: flohmarkt/activitypub_utils.py:560
+#, python-brace-format
+msgid "{account} does not appear to be a personal Fediverse account"
+msgstr "{account} verkar inte vara ett personligt Fediverse-konto"
+
+#: flohmarkt/auth.py:75 flohmarkt/auth.py:82
+msgid "Invalid session"
+msgstr "Ogiltig session"
+
+#: flohmarkt/backgroundjobs.py:142
+#, python-brace-format
+msgid "New messages on {}"
+msgstr "Nya meddelanden på {}"
+
+#: flohmarkt/fediverse_share.py:122
+msgid "FediAuth Login"
+msgstr "FediAuth-inloggning"
+
+#: flohmarkt/mailtemplates.py:5
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"Heyho {name},\n"
+"\n"
+"thanks for registering with {instance_name}.\n"
+"\n"
+"Please click the following link to complete the registration.\n"
+"\n"
+"{external_url}/activation/{activation_code}\n"
+"\n"
+"We wish you a pleasant stay on our backyard sale.\n"
+"\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"\n"
+"Hej {name},\n"
+"\n"
+"tack för att du registrerade dig hos {instance_name}.\n"
+"\n"
+"Klicka på följande länk för att slutföra registreringen.\n"
+"\n"
+"{external_url}/activation/{activation_code}\n"
+"\n"
+"Vi hoppas att du kommer att trivas på vår lokala marknadsplats.\n"
+"\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:27
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"Heyho {name},\n"
+"\n"
+"you seem to have forgotten your password and asked us to reset it!\n"
+"\n"
+"Your username is: {username}\n"
+"\n"
+"If you requested this reset, follow this link to reset your password:\n"
+"\n"
+"{external_url}/resetpassword/{reset_token}\n"
+"\n"
+"If you did not request this, please ignore this mail!\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"\n"
+"Hej {name},\n"
+"\n"
+"det verkar som att du har glömt ditt lösenord och bett oss återställa det.\n"
+"\n"
+"Ditt användarnamn är: {username}\n"
+"\n"
+"Om du begärde återställningen följer du denna länk för att återställa "
+"lösenordet:\n"
+"\n"
+"{external_url}/resetpassword/{reset_token}\n"
+"\n"
+"Om du inte begärde detta kan du ignorera meddelandet.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:51
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"Heyho,\n"
+"\n"
+"you requested to discover your username for {instance_name}.\n"
+"\n"
+"Your username is: {username}\n"
+"\n"
+"If you did not request this, please ignore this mail!\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"\n"
+"Hej,\n"
+"\n"
+"du har begärt att få reda på ditt användarnamn för {instance_name}.\n"
+"\n"
+"Ditt användarnamn är: {username}\n"
+"\n"
+"Om du inte begärde detta kan du ignorera meddelandet.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:69
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"Your item '{item_name}' has been deleted by an admin or moderator.\n"
+"Please comply with the rules when submitting items to us.\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Ditt objekt '{item_name}' har tagits bort av en administratör eller "
+"moderator.\n"
+"Följ reglerna när du skickar in objekt till oss.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:83
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"Your item '{item_name}' has been suspended by an admin or moderator.\n"
+"This means your item won't be shown to other users until\n"
+"it complies with the rules. Please edit it accordingly.\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Ditt objekt '{item_name}' har stängts av av en administratör eller "
+"moderator.\n"
+"Det betyder att objektet inte visas för andra användare förrän\n"
+"det följer reglerna. Redigera det därefter.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:98
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"Your item '{item_name}' has been unsuspended by an admin or moderator.\n"
+"It's visible to everyone again.\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Avstängningen av ditt objekt '{item_name}' har hävts av en administratör "
+"eller moderator.\n"
+"Det är synligt för alla igen.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:112
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"Your item '{item_name}' has been approved by an admin or moderator and is "
+"now\n"
+"visible to everyone. You can view it at:\n"
+"\n"
+"{item_url}\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Ditt objekt '{item_name}' har godkänts av en administratör eller moderator "
+"och är nu\n"
+"synligt för alla. Du kan se det här:\n"
+"\n"
+"{item_url}\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:129
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"The changes to your user profile have been approved by an admin or moderator "
+"and are\n"
+"now visible to everyone.\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Ändringarna i din användarprofil har godkänts av en administratör eller "
+"moderator och är\n"
+"nu synliga för alla.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:142
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"Your item '{item_name}' has been rejected by an admin or moderator.\n"
+"\n"
+"Reason: {reason}\n"
+"\n"
+"You can edit your item and request another review from its page:\n"
+"\n"
+"{item_url}\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Ditt objekt '{item_name}' har avvisats av en administratör eller moderator.\n"
+"\n"
+"Orsak: {reason}\n"
+"\n"
+"Du kan redigera objektet och begära en ny granskning från dess sida:\n"
+"\n"
+"{item_url}\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:163
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"The changes to your user profile have been rejected by an admin or "
+"moderator.\n"
+"\n"
+"Reason: {reason}\n"
+"\n"
+"Please try editing your profile again avoiding the reasons above.\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Ändringarna i din användarprofil har avvisats av en administratör eller "
+"moderator.\n"
+"\n"
+"Orsak: {reason}\n"
+"\n"
+"Försök redigera profilen igen och undvik orsakerna ovan.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:181
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"You have been naughty, havent you? An admin or moderator has banned you\n"
+"from our flohmarkt instance. You cannot login anymore until further notice.\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"En administratör eller moderator har stängt av dig\n"
+"från vår flohmarkt-instans. Du kan inte längre logga in tills vidare.\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:194
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"We are happy to welcome you again. Your ban on our flohmarkt instance has\n"
+"been lifted by an admin or moderator. We wish you a happy backyardsale!\n"
+"\n"
+"Visit us again at {external_url}\n"
+"\n"
+"Yours, {instance_name}\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"Din avstängning från vår flohmarkt-instans har\n"
+"hävts av en administratör eller moderator. Vi är glada att välkomna dig "
+"tillbaka till vår lokala marknadsplats.\n"
+"\n"
+"Besök oss igen på {external_url}\n"
+"\n"
+"Hälsningar, {instance_name}\n"
+
+#: flohmarkt/mailtemplates.py:211
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name}\n"
+"\n"
+"Today there have been some new messages to some of your items.\n"
+"Pay {instance_name} a visit and check out\n"
+"\n"
+"{itemblock}\n"
+"\n"
+"We wish you a good one!\n"
+msgstr ""
+"\n"
+"Hej {name}\n"
+"\n"
+"I dag har det kommit nya meddelanden om några av dina objekt.\n"
+"Besök {instance_name} och titta på\n"
+"\n"
+"{itemblock}\n"
+"\n"
+"Ha det bra!\n"
+
+#: flohmarkt/mailtemplates.py:228
+#, python-brace-format
+msgid ""
+"\n"
+"Hello {name},\n"
+"\n"
+"this is a test email from your flohmarkt '{instance_name}' instance.\n"
+"\n"
+"Regards,\n"
+"Your flohmarkt software!\n"
+msgstr ""
+"\n"
+"Hej {name},\n"
+"\n"
+"detta är ett testmeddelande från din flohmarkt-instans '{instance_name}'.\n"
+"\n"
+"Hälsningar,\n"
+"din flohmarkt-programvara!\n"
+
+#: flohmarkt/username_validation.py:78
+msgid "ASCII (A-Z, a-z, 0-9, _ only)"
+msgstr "ASCII (endast A-Z, a-z, 0-9 och _)"
+
+#: flohmarkt/username_validation.py:79
+msgid "Latin"
+msgstr "Latinskt"
+
+#: flohmarkt/username_validation.py:80
+msgid "Arabic"
+msgstr "Arabiskt"
+
+#: flohmarkt/username_validation.py:81
+msgid "Hebrew"
+msgstr "Hebreiskt"
+
+#: flohmarkt/username_validation.py:82
+msgid "Cyrillic"
+msgstr "Kyrilliskt"
+
+#: flohmarkt/username_validation.py:83
+msgid "Greek"
+msgstr "Grekiskt"
+
+#: flohmarkt/username_validation.py:84
+msgid "Chinese (Simplified & Traditional) / CJK"
+msgstr "Kinesiskt (förenklad och traditionell) / CJK"
+
+#: flohmarkt/username_validation.py:85
+msgid "Japanese (Hiragana, Katakana, Han)"
+msgstr "Japanskt (hiragana, katakana, han)"
+
+#: flohmarkt/username_validation.py:86
+msgid "Korean (Hangul)"
+msgstr "Koreanskt (hangul)"
+
+#: flohmarkt/username_validation.py:87
+msgid "Devanagari"
+msgstr "Devanagari"
+
+#: flohmarkt/username_validation.py:88
+msgid "Tamil"
+msgstr "Tamil"
+
+#: flohmarkt/username_validation.py:89
+msgid "Thai"
+msgstr "Thailändskt"
+
+#: flohmarkt/username_validation.py:90
+msgid "Georgian"
+msgstr "Georgiskt"
+
+#: flohmarkt/username_validation.py:91
+msgid "Armenian"
+msgstr "Armeniskt"
+
+#: flohmarkt/username_validation.py:92
+msgid "Ethiopic"
+msgstr "Etiopiskt"
+
+#: flohmarkt/username_validation.py:282
+msgid "Username cannot be empty"
+msgstr "Användarnamnet kan inte vara tomt"
+
+#: flohmarkt/username_validation.py:286 flohmarkt/username_validation.py:340
+msgid "Username is prohibited"
+msgstr "Användarnamnet är otillåtet"
+
+#: flohmarkt/username_validation.py:291
+msgid "Usernames may not start with punctuation."
+msgstr "Användarnamn får inte börja med skiljetecken."
+
+#: flohmarkt/username_validation.py:293
+msgid "Usernames may not end with punctuation."
+msgstr "Användarnamn får inte sluta med skiljetecken."
+
+#: flohmarkt/username_validation.py:295
+msgid "Usernames may not contain consecutive punctuation."
+msgstr "Användarnamn får inte innehålla flera skiljetecken i följd."
+
+#: flohmarkt/username_validation.py:302
+msgid "Username contains characters that are not allowed."
+msgstr "Användarnamnet innehåller otillåtna tecken."
+
+#: flohmarkt/username_validation.py:308
+msgid "Usernames may only contain letters, digits, and underscores."
+msgstr "Användarnamn får endast innehålla bokstäver, siffror och understreck."
+
+#: flohmarkt/username_validation.py:317
+#, python-brace-format
+msgid "Username mixes multiple scripts: {scripts}. Please use only one."
+msgstr ""
+"Användarnamnet blandar flera skriftsystem: {scripts}. Använd endast ett."
+
+#: flohmarkt/username_validation.py:330
+#, python-brace-format
+msgid "Your username uses {used} but this instance only allows: {allowed}."
+msgstr ""
+"Ditt användarnamn använder {used}, men den här instansen tillåter bara: "
+"{allowed}."
+
+#: flohmarkt/web.py:314 flohmarkt/web.py:353
+msgid "Content type not supported :("
+msgstr "Content-typen stöds inte :("
+
+#: flohmarkt/web.py:380
+msgid "Instance settings not found"
+msgstr "Instansinställningarna hittades inte"
+
+#: flohmarkt/web.py:383
+msgid "This is not a valid initialization key"
+msgstr "Det här är inte en giltig initieringsnyckel"
+
+#: flohmarkt/web.py:405
+msgid "Instance already initialized :("
+msgstr "Instansen är redan initierad :("
+
+#: flohmarkt/web.py:408
+msgid "Not the correct initialization key"
+msgstr "Det här är inte rätt initieringsnyckel"
+
+#: flohmarkt/web.py:413
+msgid "username or password empty"
+msgstr "användarnamnet eller lösenordet är tomt"
+
+#: flohmarkt/web.py:468
+msgid "Admin access required"
+msgstr "Administratörsåtkomst krävs"
+
+#: flohmarkt/web.py:521
+msgid "Moderator access required"
+msgstr "Moderatoråtkomst krävs"
+
+#: flohmarkt/web.py:656
+msgid "This does not appear to be a valid URL"
+msgstr "Det här verkar inte vara en giltig webbadress"
+
+#: templates/privacy.html:4
+msgid "Privacy Statement"
+msgstr "Integritetspolicy"
+
+#: templates/map.html:22
+msgid ""
+"Detect your current position with button, choose a city from dropdown or "
+"click on the map."
+msgstr ""
+"Hitta din position med knappen, välj en ort från listan eller klicka på "
+"kartan."
+
+#: templates/moderation.html:8
+msgid "Moderation"
+msgstr "Moderering"
+
+#: templates/new.html:42
+msgid "Create new item"
+msgstr "Skapa ny artikel"
+
+#: templates/new.html:48
+msgid "You are banned. You can't create new items."
+msgstr "Du är avstängd. Du kan inte skapa nya objekt."
+
+#: templates/new.html:52
+msgid ""
+"Your item will be reviewed by a moderator before it becomes visible to "
+"others. You will be notified once it has been reviewed."
+msgstr ""
+"Ditt objekt granskas av en moderator innan det blir synligt för andra. Du "
+"får en avisering när granskningen är klar."
+
+#: templates/new.html:61
+msgid "Create"
+msgstr "Skapa"
+
+#: templates/base.html:21
+msgid "A flohmarkt instance. Sell and buy 2nd hand items from other users."
+msgstr "En Flohmarkt-instans. Köp och sälj i andrahand från andra användare."
+
+#: templates/base.html:48
+msgid "This page needs JavaScript to function properly."
+msgstr "Den här sidan kräver JavaScript för att fungera."
+
+#: templates/imprint.html:4
+msgid "Imprint"
+msgstr "Märkning"
+
+#: templates/auth_fediverse_select_username.html:83
+msgid "Select Your Username"
+msgstr "Välj ditt användarnamn"
+
+#: templates/auth_fediverse_select_username.html:95
+msgid "Request New PIN"
+msgstr "Begär ny pinkod"
+
+#: templates/auth_fediverse_select_username.html:102
+msgid "Logging in via <strong>%(handle)s</strong>"
+msgstr "Loggar in via <strong>%(handle)s</strong>"
+
+#: templates/auth_fediverse_select_username.html:110
+msgid "Your profile picture"
+msgstr "Din profilbild"
+
+#: templates/auth_fediverse_select_username.html:112
+msgid "This profile picture will be imported from your Fediverse account."
+msgstr "Denna profilbild kommer att importeras från ditt Fediverse-konto."
+
+#: templates/auth_fediverse_select_username.html:113
+msgid "You can change it later in your profile settings."
+msgstr "Du kan ändra det senare i dina profilinställningar."
+
+#: templates/auth_fediverse_select_username.html:118
+msgid "Username"
+msgstr "Användarnamn"
+
+#: templates/auth_fediverse_select_username.html:126
+msgid "Bio"
+msgstr "Biografi"
+
+#: templates/auth_fediverse_select_username.html:126
+msgid "optional"
+msgstr "valfritt"
+
+#: templates/auth_fediverse_select_username.html:130
+msgid "Tell us about yourself..."
+msgstr "Berätta om dig själv ..."
+
+#: templates/auth_fediverse_select_username.html:131
+msgid "Your Bio will be visible on your profile"
+msgstr "Din biografi visas i din profil"
+
+#: templates/auth_fediverse_select_username.html:133
+msgid "Create Account"
+msgstr "Skapa konto"
+
+#: templates/auth_fediverse_select_username.html:137
+msgid "Username rules:"
+msgstr "Regler för användarnamn:"
+
+#: templates/auth_fediverse_select_username.html:139
+msgid "Must only contain letters, digits (0-9), and underscores (_)"
+msgstr "Får endast innehålla bokstäver, siffror (0–9) och understreck (_)"
+
+#: templates/auth_fediverse_select_username.html:140
+msgid "No spaces or other special characters allowed"
+msgstr "Mellanslag och andra specialtecken är inte tillåtna"
+
+#: templates/auth_fediverse_select_username.html:141
+msgid "Must use a consistent script (no mixing of e.g. Latin and Cyrillic)"
+msgstr ""
+"Måste använda ett enhetligt skriftsystem, utan blandning av exempelvis "
+"latinskt och kyrilliskt"
+
+#: templates/auth_fediverse_select_username.html:143
+msgid "Allowed scripts: %(scripts)s"
+msgstr "Tillåtna skriftsystem: %(scripts)s"
+
+#: templates/auth_fediverse_select_username.html:145
+msgid "All Unicode scripts are allowed"
+msgstr "Alla Unicode-skriftsystem är tillåtna"
+
+#: templates/auth_fediverse_select_username.html:147
+msgid "Must be unique (not already taken)"
+msgstr "Måste vara unikt (inte redan upptaget)"
+
+#: templates/reset.html:8
+msgid "Reset your password"
+msgstr "Återställ lösenord"
+
+#: templates/reset.html:14
+msgid "Your E-Mail"
+msgstr "Din e-postadress"
+
+#: templates/reset.html:16
+msgid "Send password reset E-Mail"
+msgstr "Skicka återställningsmail för lösenord"
+
+#: templates/index.html:9
+msgid "A federated classified ad instance"
+msgstr "En federerad annonsinstans"
+
+#: templates/index.html:18
+msgid "Read more about"
+msgstr "Läs mer om"
+
+#: templates/index.html:37
+msgid "About"
+msgstr "Om"
+
+#: templates/index.html:54
+msgid "Featured"
+msgstr "framhävd"
+
+#: templates/index.html:71
+msgid "Local"
+msgstr "Lokal"
+
+#: templates/index.html:88
+msgid "All"
+msgstr "Alla"
+
+#: templates/user.html:67
+msgid "Awaiting Moderation"
+msgstr "Väntar på moderering"
+
+#: templates/user.html:69
+msgid ""
+"This user profile is awaiting review. As a moderator you can accept or deny "
+"it."
+msgstr ""
+"Den här användarprofilen väntar på granskning. Som moderator kan du godkänna "
+"eller avvisa den."
+
+#: templates/user.html:70
+msgid "Author message:"
+msgstr "Meddelande från skribenten:"
+
+#: templates/user.html:73
+msgid "Accept"
+msgstr "Acceptera"
+
+#: templates/user.html:74
+msgid "Deny"
+msgstr "Avvisa"
+
+#: templates/user.html:78
+msgid "Reason for rejection"
+msgstr "Orsak till avvisning"
+
+#: templates/user.html:79
+msgid "Confirm rejection"
+msgstr "Bekräfta avvisning"
+
+#: templates/user.html:82
+msgid ""
+"Your user profile is awaiting review by a moderator and is not yet visible "
+"to others. You will be notified once it has been reviewed."
+msgstr ""
+"Din användarprofil väntar på granskning av en moderator och är ännu inte "
+"synlig för andra. Du får en avisering när den har granskats."
+
+#: templates/user.html:90
+msgid "Avatar"
+msgstr "Avatar"
+
+#: templates/user.html:103
+msgid "Location"
+msgstr "Plats"
+
+#: templates/user.html:119
+msgid "Watching"
+msgstr "Bevakar"
+
+#: templates/user.html:124
+msgid "Items"
+msgstr "Artikel"
+
+#: templates/auth_fediverse_verify.html:244
+msgid "Authenticate via {platform}"
+msgstr "Autentisering via {platform}"
+
+#: templates/auth_fediverse_verify.html:246
+msgid "Complete Your Fediverse Authentication"
+msgstr "Gör klar din Fediverse-autentisering"
+
+#: templates/auth_fediverse_verify.html:259
+msgid "Request a new PIN"
+msgstr "Begär ny pinkod"
+
+#: templates/auth_fediverse_verify.html:274
+msgid "This PIN has expired"
+msgstr "Denna pinkod har gått ut"
+
+#: templates/auth_fediverse_verify.html:275
+msgid "Please <a href=\"%(url)s\">request a new PIN</a> to continue."
+msgstr "Begär <a href=\"%(url)s\">en ny pinkod</a> för att fortsätta."
+
+#: templates/auth_fediverse_verify.html:281
+msgid "Your authentication PIN:"
+msgstr "Din autentiseringspinkod:"
+
+#: templates/auth_fediverse_verify.html:290
+msgid "Expires in:"
+msgstr "Går ut om:"
+
+#: templates/auth_fediverse_verify.html:317
+msgid "PIN received! Logging you in..."
+msgstr "Pinkod mottagen! Loggar in dig ..."
+
+#: templates/auth_fediverse_verify.html:318
+msgid "PIN received! Your username is: {username}"
+msgstr "Pinkod mottagen! Ditt användarnamn är: {username}"
+
+#: templates/auth_fediverse_verify.html:323
+msgid ""
+"PIN received! Sadly, you don't have a user account with us yet, and "
+"registrations are closed."
+msgstr ""
+"Pinkod mottagen! Tyvärr, du har inget användarkonto hos oss än, och "
+"registreringen är stängd."
+
+#: templates/auth_fediverse_verify.html:324
+msgid ""
+"PIN received! Sadly, you don't have a user account with us yet. "
+"{register_link}"
+msgstr ""
+"Pinkod mottagen! Tyvärr, du har inget användarkonto hos oss än. "
+"{register_link}"
+
+#: templates/auth_fediverse_verify.html:325
+msgid "Register now"
+msgstr "Registrera dig nu"
+
+#: templates/auth_fediverse_verify.html:349
+msgid "Click to send PIN on {platform}"
+msgstr "Klicka för att skicka pinkod för {platform}"
+
+#: templates/auth_fediverse_verify.html:351
+msgid "Click to send PIN"
+msgstr "Klicka för att skicka pinkod"
+
+#: templates/auth_fediverse_verify.html:355
+msgid "Make sure only the recipient can see this message"
+msgstr "Kontrollera att bara mottagaren kan se detta meddelande"
+
+#: templates/auth_fediverse_verify.html:361
+msgid "FediAuth login PIN: %(pin)s<br>for %(instance)s on %(domain)s"
+msgstr "FediAuth inloggningspinkod: %(pin)s<br>för %(instance)s på %(domain)s"
+
+#: templates/auth_fediverse_verify.html:365
+msgid "Copied to clipboard"
+msgstr "Kopierat till urklipp"
+
+#: templates/auth_fediverse_verify.html:366
+msgid "Failed to copy"
+msgstr "Kunde inte kopiera"
+
+#: templates/auth_fediverse_verify.html:372
+msgid "Click to copy message"
+msgstr "Klicka för att kopiera meddelande"
+
+#: templates/auth_fediverse_verify.html:376
+msgid "How to complete authentication:"
+msgstr "Hur du kompletterar autentiseringen:"
+
+#: templates/auth_fediverse_verify.html:380
+msgid "Click the button above to open a pre-filled compose window"
+msgstr "Klicka på knappen ovan för att öppna ett förifyllt formulärsfönster"
+
+#: templates/auth_fediverse_verify.html:382
+msgid "Open your Fediverse app (Mastodon, Pleroma, etc.)"
+msgstr "Öppna din Fediverse-app (Mastodon, Pleroma, et.c.)"
+
+#: templates/auth_fediverse_verify.html:387
+msgid ""
+"Set visibility so only <strong>%(account)s</strong> can see it (not public)"
+msgstr ""
+"Sätt synlighet så att bara <strong>%(account)s</strong> kan se (inte publik)"
+
+#: templates/auth_fediverse_verify.html:389
+msgid ""
+"Send a <strong>private message</strong> containing the PIN <code>%(pin)s</"
+"code><br>from your account <strong>%(handle)s</strong> to: <strong "
+"class=\"to-account\">%(account)s</strong>"
+msgstr ""
+"Skicka ett <strong>privat meddelande</strong> som innehåller pinkoden <code>%"
+"(pin)s</code><br>från ditt konto <strong>%(handle)s</strong> till: <strong "
+"class=\"to-account\">%(account)s</strong>"
+
+#: templates/auth_fediverse_verify.html:394
+msgid "Send the message from your account <strong>%(handle)s</strong>"
+msgstr "Skicka meddelandet från ditt konto <strong>%(handle)s</strong>"
+
+#: templates/auth_fediverse_verify.html:396
+msgid "Make sure only the recipient can see it (not a public post)"
+msgstr "Se till att bara mottagaren kan se det (inte ett publikt meddelande)"
+
+#: templates/auth_fediverse_verify.html:400
+msgid "This page will automatically update when received"
+msgstr "Sidan uppdateras automatiskt när meddelandet har tagits emot"
+
+#: templates/auth_fediverse_verify.html:405
+msgid "Manual instructions (if button doesn't work)"
+msgstr "Manuella instruktioner (utifall knappen inte fungerar)"
+
+#: templates/auth_fediverse_verify.html:407
+msgid ""
+"Send a <strong>private message</strong> containing <code>%(pin)s</"
+"code><br>from your account <strong>%(handle)s</strong> to: <strong "
+"class=\"to-account\">%(account)s</strong>"
+msgstr ""
+"Skicka ett <strong>privat meddelande</strong> som innehåller <code>%(pin)s</"
+"code><br>från ditt konto <strong>%(handle)s</strong> till: <strong "
+"class=\"to-account\">%(account)s</strong>"
+
+#: templates/auth_fediverse_verify.html:418
+msgid ""
+"<strong>Note:</strong> Your Fediverse platform may not support direct "
+"sharing. Please manually compose a private message."
+msgstr ""
+"<strong>Märk:</strong> Din Fediverse-plattform kanske inte stödjer "
+"direktdelning. Skriv ett privat meddelande manuellt."
+
+#: templates/auth_fediverse_initiate.html:8
+msgid "Sign in with FediAuth"
+msgstr "Logga in med FediAuth"
+
+#: templates/auth_fediverse_initiate.html:13
+msgid ""
+"Enter your Fediverse handle or profile URL to generate a PIN for "
+"authentication."
+msgstr ""
+"Ange ditt Fediverse-handle eller din profiladress för att generera en pinkod "
+"för autentisering."
+
+#: templates/auth_fediverse_initiate.html:14
+msgid "Works with Mastodon, Pleroma, Pixelfed, and other Fediverse platforms."
+msgstr ""
+"Fungerar med Mastodon, Pleroma, Pixelfed och andra Fediverse-plattformar."
+
+#: templates/auth_fediverse_initiate.html:19
+msgid "Fediverse Handle or Profile URL"
+msgstr "Fediverse-handle eller profiladress"
+
+#: templates/auth_fediverse_initiate.html:31
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: templates/auth_fediverse_initiate.html:38
+msgid "Back to login"
+msgstr "Tillbaks till inloggning"
+
+#: templates/faq.html:4
+msgid "FAQ"
+msgstr "FAQ"
+
+#: templates/faq.html:11
+msgid "Another market place. Whats different about %(name)s?"
+msgstr "En annan marknadsplats. Vad skiljer %(name)s åt?"
+
+#: templates/faq.html:12
+msgid ""
+"%(name)s is <i>federated</i> with other <a href=\"%(foss_url)s\">FOSS</a> "
+"flohmarkts. It is not owned by a company which might sell your data."
+msgstr ""
+"%(name)s är <i>federerad</i> med andra <a href=\"%(foss_url)s\">FOSS</a>-"
+"flohmarkts. Den ägs inte av ett företag som kan sälja dina data."
+
+#: templates/faq.html:17
+msgid "Do I need an account on %(name)s to contact a seller?"
+msgstr "Behöver jag ett konto på %(name)s för att kontakta en säljare?"
+
+#: templates/faq.html:18
+msgid ""
+"If you have already an account in the <a href=\"%"
+"(fediverse_url)s\">fediverse</a>: No, just use your URL handle to reply to "
+"an item."
+msgstr ""
+"Om du redan har ett konto i <a href=\"%(fediverse_url)s\">Fediverse</a>: "
+"nej, använd bara din handle-adress för att svara på ett objekt."
+
+#: templates/faq.html:20
+msgid ""
+"Otherwise you can register an account on this instance or on other flohmarkt "
+"instances."
+msgstr ""
+"Annars kan du registrera ett konto på den här eller någon annan Flohmarkt-"
+"instans."
+
+#: templates/faq.html:21
+msgid "Register here"
+msgstr "Registrera dig här"
+
+#: templates/faq.html:22
+msgid "Find other instances"
+msgstr "Hitta andra instanser"
+
+#: templates/faq.html:24
+msgid ""
+"Registrations are currently closed on this instance, but you can join other "
+"flohmarkt instances."
+msgstr ""
+"Registreringen är tillfälligt avstängd på den här instansen men du kan gå "
+"med i en annan Flohmarkt-instans."
+
+#: templates/faq.html:32
+msgid "Is payment secure over %(name)s?"
+msgstr "Är betalning säker via %(name)s?"
+
+#: templates/faq.html:33
+msgid ""
+"Currently, there is no 3rd-party payment system involved. We let you decide "
+"how to organize payment and shipping / transport."
+msgstr ""
+"För närvarande används inget betalningssystem från tredje part. Du bestämmer "
+"själv hur betalning och leverans eller transport ska ordnas."
+
+#: templates/faq.html:38
+msgid "Is my data safe on %(name)s?"
+msgstr "Är mina data säkra på %(name)s?"
+
+#: templates/faq.html:39
+msgid ""
+"%(name)s is part of a community driven network, which has zero endeavour to "
+"sell you out. Data privacy is one of the main goals of this project."
+msgstr ""
+"%(name)s är en del av ett communitydrivet nätverk, utan ambition att sälja "
+"ut dig. Dataskydd är ett av projektets huvudmål."
+
+#: templates/faq.html:44
+msgid "Fine. But %(name)s looks smol. Is this really worth it?"
+msgstr "Okej, men %(name)s verkar litet. Är det verkligen värt det?"
+
+#: templates/faq.html:45
+msgid ""
+"Well, \"Do good and talk about it.\". You're always free to crosspost your "
+"items on similar platform to benefit your range."
+msgstr ""
+"Tja, ”Gör gott och berätta om det.” Du kan alltid korspublicera dina objekt "
+"på liknande plattformar för att nå fler."
+
+#: templates/faq.html:50
+msgid "XYZ is not working properly. Where can I report the bug?"
+msgstr "XYZ fungerar inte som det ska. Var kan jag rapportera felet?"
+
+#: templates/faq.html:51
+msgid ""
+"Sorry to hear that. Complex software is never 100%% bugfree. Please do us a "
+"favor and either tell directly in the <a href=\"%(url)s\">issues</a> or tell "
+"a friend who can help you out. Thanks!"
+msgstr ""
+"Tråkigt att höra. Komplex programvara är aldrig 100%% felfri. Gör oss en "
+"tjänst och berätta antingen direkt i <a href=\"%(url)s\">ärendena</a> eller "
+"för en vän som kan hjälpa dig. Tack!"
+
+#: templates/login.html:100
+msgid "Sign in"
+msgstr "Logga in"
+
+#: templates/login.html:109
+msgid "Logging in via"
+msgstr "Loggar in via"
+
+#: templates/login.html:109
+msgid "change"
+msgstr "ändra"
+
+#: templates/login.html:112
+msgid "Logging in as"
+msgstr "Loggar in som"
+
+#: templates/login.html:161
+msgid "Next"
+msgstr "Nästa"
+
+#: templates/login.html:166
+msgid "Use"
+msgstr "Använd"
+
+#: templates/login.html:173
+msgid "Password"
+msgstr "Lösenord"
+
+#: templates/login.html:178
+msgid "Forgot password?"
+msgstr "Glömt lösenordet?"
+
+#: templates/login.html:197
+msgid "Authenticate via %(platform)s"
+msgstr "Autentisera via %(platform)s"
+
+#: templates/login.html:203
+msgid "You registered with:"
+msgstr "Du registrerade dig vid:"
+
+#: templates/login.html:211
+msgid "Login with %(platform)s"
+msgstr "Logga in vid %(platform)s"
+
+#: templates/login.html:218
+msgid ""
+"Your account %(account_code)s is managed via %(backend_name_span)s, but we "
+"could not connect to the authorization server. Please contact your "
+"administrator."
+msgstr ""
+"Ditt konto %(account_code)s hanteras via %(backend_name_span)s, men vi kunde "
+"inte ansluta till autentiseringsservern. Kontakta administratören."
+
+#: templates/login.html:219
+msgid "Username %(username_code)s not found."
+msgstr "Användarnamnet %(username_code)s hittades inte."
+
+#: templates/login.html:229
+msgid "I don't have an account yet"
+msgstr "Jag har inget konto än"
+
+#: templates/login.html:233
+msgid "Registrations are currently closed on"
+msgstr "Registreringar är för närvarande stängda på"
+
+#: templates/login.html:238
+msgid "I forgot my username"
+msgstr "Jag har glömt mitt användarnamn"
+
+#: templates/login.html:245
+msgid "Find other flohmarkt instances"
+msgstr "Hitta andra Flohmarkt-instanser"
+
+#: templates/edit_item.html:32
+msgid "Title"
+msgstr "Titel"
+
+#: templates/edit_item.html:73
+msgid "Description"
+msgstr "Beskrivning"
+
+#: templates/edit_item.html:80
+msgid "Images"
+msgstr "Bilder"
+
+#: templates/edit_item.html:86
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: templates/edit_item.html:90
+msgid "Tags"
+msgstr "Taggar"
+
+#: templates/edit_item.html:96
+msgid "Separate with space"
+msgstr "Separera med mellanslag"
+
+#: templates/export_item.html:6
+msgid "Export of item"
+msgstr "Artikelexport"
+
+#: templates/export_item.html:7
+msgid "Exported at"
+msgstr "Exporterad"
+
+#: templates/export_item.html:8
+msgid "Perspective"
+msgstr "Perspektiv"
+
+#: templates/export_item.html:10
+msgid "Item Info"
+msgstr "Objektinformation"
+
+#: templates/export_item.html:14
+msgid "Owner"
+msgstr "Ägare"
+
+#: templates/export_item.html:20
+msgid "Conversations"
+msgstr "Konversationer"
+
+#: templates/export_item.html:22
+msgid "Conversation with"
+msgstr "Konversation med"
+
+#: templates/footer.html:7
+msgid "Data Privacy"
+msgstr "Dataintegritet"
+
+#: templates/discover_username.html:66
+msgid "Discover Your Username"
+msgstr "Visa ditt användarnamn"
+
+#: templates/discover_username.html:71
+msgid "Select the authentication method you used when registering:"
+msgstr "Välj den autentiseringsmetod du använde när du registrerade dig:"
+
+#: templates/discover_username.html:77
+msgid "Fediverse Account (Mastodon, Pixelfed, ...)"
+msgstr "Fediverse-konto (Mastodon, Pixelfed et.c.)"
+
+#: templates/discover_username.html:78
+msgid ""
+"Verify your identity by sending us a message from your Fediverse account."
+msgstr ""
+"Verifiera din identitet genom att skicka oss ett meddelande från ditt "
+"Fediverse-konto."
+
+#: templates/discover_username.html:80
+msgid "Your Fediverse handle or profile URL"
+msgstr "Ditt Fediverse-handle eller din profiladress"
+
+#: templates/discover_username.html:83
+msgid "Verify my identity"
+msgstr "Verifiera min identitet"
+
+#: templates/discover_username.html:93
+msgid "Email / Password"
+msgstr "E-postadress / Lösenord"
+
+#: templates/discover_username.html:94
+msgid "Enter your email address and we'll send you your username."
+msgstr "Ange din e-postadress och vi skickar dig ditt användarnamn."
+
+#: templates/discover_username.html:96
+msgid "Your email address"
+msgstr "Din e-postadress"
+
+#: templates/discover_username.html:99
+msgid "Send me my username"
+msgstr "Skicka mig mitt användarnamn"
+
+#: templates/discover_username.html:110
+msgid "LDAP or OAuth"
+msgstr "LDAP eller OAuth"
+
+#: templates/discover_username.html:111
+msgid ""
+"For security reasons, we cannot help discover usernames for this "
+"authentication method. Please contact the instance administrator."
+msgstr ""
+"Av säkerhetsskäl kan vi inte visa användarnamn för den här "
+"autentiseringsmetoden. Kontakta instansens administratör."
+
+#: templates/discover_username.html:119
+msgid "No account found for %(handle)s"
+msgstr "Hittar inget konto för %(handle)s"
+
+#: templates/discover_username.html:123
+msgid ""
+"If an account exists for this email, you will receive your username shortly."
+msgstr ""
+"Om det finns ett konto för den här e-postadressen kommer du att få ditt "
+"användarnamn inom kort."
+
+#: templates/reseted.html:4
+msgid "Password reset mail sent"
+msgstr "Lösenordsåterställningsmail skickat"
+
+#: templates/reseted.html:5
+msgid "Please check your mail inbox and click link to reset account."
+msgstr "Kolla din e-post och klicka på länken för att återställa kontot."
+
+#: templates/about.html:10
+msgid "About this instance"
+msgstr "Om denna instans"
+
+#: templates/about.html:14
+msgid "Rules"
+msgstr "Regler"
+
+#: templates/about.html:19
+msgid "Administration"
+msgstr "Administration"
+
+#: templates/about.html:20
+msgid "This instance is run by"
+msgstr "Den här instansen drivs av"
+
+#: templates/item.html:4
+msgid "Get yourself a"
+msgstr "Skaffa dig en"
+
+#: templates/item.html:94
+msgid "Reason:"
+msgstr "Orsak:"
+
+#: templates/item.html:96
+msgid "You can delete this item or re-request approval after editing it."
+msgstr ""
+"Du kan ta bort objektet eller begära ett nytt godkännande efter att du har "
+"redigerat det."
+
+#: templates/item.html:99
+msgid "Delete item"
+msgstr "Ta bort objekt"
+
+#: templates/item.html:100
+msgid "Re-request approval"
+msgstr "Begär nytt godkännande"
+
+#: templates/item.html:103
+msgid "Describe what you changed"
+msgstr "Beskriv vad du ändrade"
+
+#: templates/item.html:104
+msgid "Submit for review"
+msgstr "Skicka för granskning"
+
+#: templates/item.html:109
+msgid "Re-Approve"
+msgstr "Godkänn på nytt"
+
+#: templates/item.html:118
+msgid "This item is awaiting review. As a moderator you can accept or deny it."
+msgstr ""
+"Det här objektet väntar på granskning. Som moderator kan du godkänna eller "
+"avvisa det."
+
+#: templates/item.html:132
+msgid ""
+"Your item is awaiting review by a moderator and is not yet visible to "
+"others. You will be notified once it has been reviewed."
+msgstr ""
+"Ditt objekt väntar på granskning av en moderator och är ännu inte synligt "
+"för andra. Du får en avisering när det har granskats."
+
+#: templates/item.html:165
+msgid "Toggle alt text"
+msgstr "Toggla alt-texten"
+
+#: templates/item.html:183
+msgid "$"
+msgstr "$"
+
+#: templates/item.html:209
+msgid "Reply to this item"
+msgstr "Svara på detta objekt"
+
+#: templates/item.html:225
+msgid "Unwatch item"
+msgstr "Sluta bevaka objekt"
+
+#: templates/item.html:225
+msgid "Watch item"
+msgstr "Bevaka objekt"
+
+#: templates/item.html:231
+msgid "Edit item"
+msgstr "Redigera objekt"
+
+#: templates/item.html:243
+msgid "Report item"
+msgstr "Rapportera objekt"
+
+#: templates/item.html:250
+msgid "Export item"
+msgstr "Exportera objekt"
+
+#: templates/item.html:255
+msgid "Print item"
+msgstr "Skriv ut objekt"
+
+#: templates/item.html:260
+msgid "Share item"
+msgstr "Dela objekt"
+
+#: templates/item.html:274
+msgid "More Listings from"
+msgstr "Fler annonser från"
+
+#: templates/item.html:283
+msgid "More Listings around"
+msgstr "Fler annonser nära"
+
+#: templates/item.html:299
+msgid "Close"
+msgstr "Stäng"
+
+#: templates/item.html:300
+msgid "Save"
+msgstr "Spara"
+
+#: templates/item.html:308
+msgid "Reason"
+msgstr "Orsak"
+
+#: templates/item.html:313
+msgid "Send"
+msgstr "Skicka"
+
+#: templates/item.html:322
+msgid "To interact with the item owner, you can either:"
+msgstr "För att interagera med objektets ägare kan du antingen:"
+
+#: templates/item.html:325
+msgid "Create an account on this instance"
+msgstr "Skapa ett konto på den här instansen"
+
+#: templates/item.html:328
+msgid "Switch to an existing fediverse account and send a private message."
+msgstr ""
+"Byta till ett befintligt Fediverse-konto och skicka ett privat meddelande."
+
+#: templates/item.html:329
+msgid "Your Fediverse Handle"
+msgstr "Ditt Fediverse-handle"
+
+#: templates/item.html:331
+msgid "username@server"
+msgstr "användarnamn@server"
+
+#: templates/item.html:334
+msgid "Switch"
+msgstr "Byt"
+
+#: templates/item.html:350
+msgid "More items by"
+msgstr "Fler artiklar av"
+
+#: templates/usersettings.html:26
+msgid "Settings"
+msgstr "Inställningar"
+
+#: templates/usersettings.html:36
+msgid "Profile"
+msgstr "Profil"
+
+#: templates/usersettings.html:42
+msgid "Interface"
+msgstr "Gränssnitt"
+
+#: templates/usersettings.html:48
+msgid "Account"
+msgstr "Konto"
+
+#: templates/usersettings.html:54
+msgid "Blocking"
+msgstr "Blockar"
+
+#: templates/usersettings.html:75
+msgid "The avatar picture that will show in your profile."
+msgstr "Avataren som kommer att visas i din profil."
+
+#: templates/usersettings.html:78
+msgid "Write something about yourself"
+msgstr "Skriv något om dig själv"
+
+#: templates/usersettings.html:79
+msgid "A small text describing who you are and (maybe) why you're here."
+msgstr "En kort text som beskriver vem du är och (kanske) varför du är här."
+
+#: templates/usersettings.html:81
+msgid "Default Item Location"
+msgstr "Förvald plats för artikeln"
+
+#: templates/usersettings.html:83
+msgid ""
+"All the items you create will initially assume that they are at this "
+"location. You may specify other locations for items individually later."
+msgstr ""
+"Alla artiklar som du skapar kommer att utgå från att de är på denna plats. "
+"Du kan välja andra platser för individuella artiklar senare."
+
+#: templates/usersettings.html:88
+msgid "Import Profile"
+msgstr "Importera profil"
+
+#: templates/usersettings.html:90
+msgid "Export Profile"
+msgstr "Exportera profil"
+
+#: templates/usersettings.html:96
+msgid "Switch to grid layout"
+msgstr "Byt till rutnätslayout"
+
+#: templates/usersettings.html:99
+msgid "Switch to list layout"
+msgstr "Byt till listlayout"
+
+#: templates/usersettings.html:103
+msgid "Choose between grid or list layout for all item collections."
+msgstr "Välj mellan rutnäts- och listlayout för alla objektsamlingar."
+
+#: templates/usersettings.html:105
+msgid "Activate Desktop notifications"
+msgstr "Aktivera skrivbordsnotiser"
+
+#: templates/usersettings.html:106
+msgid "Display a small popup when you receive a new message."
+msgstr "Visa en liten popup när du får ett nytt meddelande."
+
+#: templates/usersettings.html:111
+msgid "Email"
+msgstr "E-post"
+
+#: templates/usersettings.html:112
+msgid "Override current email address"
+msgstr "Skriv över nuvarande e-postadress"
+
+#: templates/usersettings.html:116
+msgid "Old password"
+msgstr "Gammalt lösenord"
+
+#: templates/usersettings.html:118
+msgid "New password"
+msgstr "Nytt lösenord"
+
+#: templates/usersettings.html:120
+msgid "Repeat new password"
+msgstr "Repetera ditt nya lösenord"
+
+#: templates/usersettings.html:122
+msgid "Change Password"
+msgstr "Ändra lösenord"
+
+#: templates/usersettings.html:125
+msgid "Delete Account"
+msgstr "Radera konto"
+
+#: templates/usersettings.html:133
+msgid "Block User"
+msgstr "Blockera användare"
+
+#: templates/usersettings.html:141
+msgid "Blocked Users"
+msgstr "Blockerade användare"
+
+#: templates/usersettings.html:154
+msgid "Unblock"
+msgstr "Ta bort blockering"
+
+#: templates/admin.html:228
+msgid "Users"
+msgstr "Användare"
+
+#: templates/admin.html:234
+msgid "Authentication"
+msgstr "Autentisering"
+
+#: templates/admin.html:240
+msgid "Federation"
+msgstr "Federering"
+
+#: templates/admin.html:258
+msgid "Tests"
+msgstr "Tester"
+
+#: templates/admin.html:263
+msgid "Instance Name"
+msgstr "Instansnamn"
+
+#: templates/admin.html:271
+msgid ""
+"In some jurisdictions, imprints are not mandatory. If you leave this field "
+"blank, the footer will show no link to the imprint."
+msgstr ""
+"I vissa jurisdiktioner är märkning inte obligatoriskt. Om du lämnar fältet "
+"tomt kommer sidfoten inte visa någon länk till märkningen."
+
+#: templates/admin.html:274
+msgid "Item Signature"
+msgstr "Artikelsignatur"
+
+#: templates/admin.html:276
+msgid "Registrations"
+msgstr "Registreringar"
+
+#: templates/admin.html:278
+msgid "Open"
+msgstr "Öppna"
+
+#: templates/admin.html:279
+msgid "Invite Only"
+msgstr "Endast inbjudningar"
+
+#: templates/admin.html:280
+msgid "Closed"
+msgstr "Stängd"
+
+#: templates/admin.html:284
+msgid ""
+"Open – New users can register on enabled authentication backends (Password, "
+"FediAuth)."
+msgstr ""
+"Öppen – nya användare kan registrera sig med aktiverade "
+"autentiseringsbackender (lösenord, FediAuth)."
+
+#: templates/admin.html:285
+msgid ""
+"Invite Only – Users on active authentication backends can still log in, but "
+"new users can only join with invitation."
+msgstr ""
+"Endast inbjudna - användare på aktiva autentiserings-backends kan "
+"fortfarande logga in men nya användare kan bara logga in om de fått en "
+"inbjudan."
+
+#: templates/admin.html:286
+msgid "Closed – Users on active authentication backends can still log in."
+msgstr ""
+"Stängd - användare på aktiva autentiserings-backends kan fortfarande logga "
+"in."
+
+#: templates/admin.html:290
+msgid "Moderate new items"
+msgstr "Moderera nya objekt"
+
+#: templates/admin.html:292
+msgid "Moderate user profiles"
+msgstr "Moderera användarprofiler"
+
+#: templates/admin.html:293
+msgid ""
+"New items created by regular users must be approved by a moderator before "
+"they become visible to others. Moderators and admins bypass this."
+msgstr ""
+"Nya objekt som skapas av vanliga användare måste godkännas av en moderator "
+"innan de blir synliga för andra. Moderatorer och administratörer undantas "
+"från detta."
+
+#: templates/admin.html:294
+msgid "Allowed Username Scripts"
+msgstr "Tillåtna skriftsystem för användarnamn"
+
+#: templates/admin.html:295
+msgid ""
+"Select which Unicode scripts are permitted in usernames. Usernames mixing "
+"characters from multiple scripts are always rejected."
+msgstr ""
+"Välj vilka Unicode-skriftsystem som är tillåtna i användarnamn. Användarnamn "
+"som blandar tecken från flera skriftsystem avvisas alltid."
+
+#: templates/admin.html:300
+msgid "Allow all scripts"
+msgstr "Tillåt alla skriftsystem"
+
+#: templates/admin.html:315
+msgid "Additional Scripts"
+msgstr "Ytterligare skriftsystem"
+
+#: templates/admin.html:316
+msgid "Search for and add further Unicode scripts not listed above."
+msgstr "Sök efter och lägg till fler Unicode-skriftsystem som inte listas ovan."
+
+#: templates/admin.html:327
+msgid "Search Additional Scripts…"
+msgstr "Sök efter ytterligare skriftsystem …"
+
+#: templates/admin.html:340
+msgid "Displayed Admin"
+msgstr "Visad admin"
+
+#: templates/admin.html:352
+msgid "Search user"
+msgstr "Sök användare"
+
+#: templates/admin.html:356
+msgid "Name"
+msgstr "Namn"
+
+#: templates/admin.html:357
+msgid "Active"
+msgstr "Aktiv"
+
+#: templates/admin.html:358
+msgid "Admin"
+msgstr "Admin"
+
+#: templates/admin.html:359
+msgid "Mod"
+msgstr "Mod"
+
+#: templates/admin.html:360
+msgid "Controls"
+msgstr "Kontroller"
+
+#: templates/admin.html:363
+msgid "Previous"
+msgstr "Föregående"
+
+#: templates/admin.html:367
+msgid "Authentication Backends"
+msgstr "Autentiserings-backend"
+
+#: templates/admin.html:368
+msgid ""
+"Configure how users can authenticate to your instance. You can enable "
+"multiple authentication methods."
+msgstr ""
+"Konfigurera hur användare kan autentisera sig för din instans. Du kan slå på "
+"flera autentiseringsmetoder."
+
+#: templates/admin.html:379
+msgid "Change this setting in the Settings tab"
+msgstr "Ändra denna inställning på fliken Inställningar"
+
+#: templates/admin.html:385
+msgid "Username/Password"
+msgstr "Användarnamn/lösenord"
+
+#: templates/admin.html:385
+msgid "1 user"
+msgid_plural "%(n)s users"
+msgstr[0] "1 användare"
+msgstr[1] "%(n)s användare"
+
+#: templates/admin.html:385
+msgid "1 inactive"
+msgid_plural "%(n)s inactive"
+msgstr[0] "1 inaktiv"
+msgstr[1] "%(n)s inaktiva"
+
+#: templates/admin.html:388
+msgid "Enable / Allow new registrations"
+msgstr "Aktivera / Tillåt nya registreringar"
+
+#: templates/admin.html:389
+msgid ""
+"Controls whether new users can register with a username and password. "
+"Existing users can always log in regardless of this setting."
+msgstr ""
+"Styr om nya användare kan registrera sig med användarnamn och lösenord. "
+"Befintliga användare kan alltid logga in oavsett denna inställning."
+
+#: templates/admin.html:392
+msgid "Require Email Verification"
+msgstr "Kräv e-postverifiering"
+
+#: templates/admin.html:394
+msgid "Save Password Backend"
+msgstr "Spara lösenordsbackend"
+
+#: templates/admin.html:402
+msgid "FediAuth"
+msgstr "FediAuth"
+
+#: templates/admin.html:406
+msgid ""
+"Controls whether new users can register using their Fediverse accounts "
+"(Mastodon, Pleroma, Pixelfed, etc.) via a verification PIN sent as a direct "
+"message. Existing users can always log in regardless of this setting."
+msgstr ""
+"Styr om nya användare kan registrera sig med sina Fediverse-konton, som "
+"Mastodon, Pleroma och Pixelfed, genom en verifieringspinkod som skickas i "
+"ett direktmeddelande. Befintliga användare kan alltid logga in oavsett denna "
+"inställning."
+
+#: templates/admin.html:408
+msgid "PIN Length"
+msgstr "Pinkodslängd"
+
+#: templates/admin.html:410
+msgid "Number of digits in the verification PIN"
+msgstr "Antal siffror i verifieringspinkoden"
+
+#: templates/admin.html:412
+msgid "PIN Timeout (minutes)"
+msgstr "Tidsgräns för pinkod (minuter)"
+
+#: templates/admin.html:414
+msgid "How long the PIN remains valid"
+msgstr "Hur länge en pinkod förblir giltig"
+
+#: templates/admin.html:416
+msgid "Save FediAuth Backend"
+msgstr "Spara FediAuth-backend"
+
+#: templates/admin.html:424
+msgid "OAuth"
+msgstr "OAuth"
+
+#: templates/admin.html:428
+msgid ""
+"Controls whether new users can register via OAuth2/OpenID Connect single "
+"sign-on. Existing users can always log in regardless of this setting."
+msgstr ""
+"Styr om nya användare kan registrera sig via enkel inloggning med OAuth2/"
+"OpenID Connect. Befintliga användare kan alltid logga in oavsett denna "
+"inställning."
+
+#: templates/admin.html:430
+msgid "Registration Page Settings"
+msgstr "Inställningar för registreringssida"
+
+#: templates/admin.html:431
+msgid ""
+"Configure how this backend appears on the registration page. Users cannot "
+"self-register with OAuth, but you can show instructions on how to get an "
+"account."
+msgstr ""
+"Konfigurera hur denna backend visas på registreringssidan. Användare kan "
+"inte registrera sig själva med OAuth, men du kan visa instruktioner för hur "
+"man skaffar ett konto."
+
+#: templates/admin.html:433
+msgid "Display Name"
+msgstr "Visningsnamn"
+
+#: templates/admin.html:437
+msgid "Use your community account"
+msgstr "Använd ditt communitykonto"
+
+#: templates/admin.html:439
+msgid "Icon"
+msgstr "Ikon"
+
+#: templates/admin.html:444
+msgid "Paste from clipboard"
+msgstr "Klistra in från urklipp"
+
+#: templates/admin.html:445
+msgid "Clear"
+msgstr "Rensa"
+
+#: templates/admin.html:447
+msgid "SVG preferred, PNG/JPG/WebP also supported. Max 250KB."
+msgstr "SVG föredras, PNG, JPEG och WebP stöds också. Max 250KB."
+
+#: templates/admin.html:451
+msgid "Registration Instructions"
+msgstr "Registreringsinstruktioner"
+
+#: templates/admin.html:453
+msgid "Markdown allowed. Explain how users can get an account."
+msgstr "Markdown tillåtet. Förklara hur användare kan skaffa ett konto."
+
+#: templates/admin.html:455
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+#: templates/admin.html:474
+msgid "Technical Settings"
+msgstr "Tekniska inställningar"
+
+#: templates/admin.html:476
+msgid "Provider Name"
+msgstr "Leverantörsnamn"
+
+#: templates/admin.html:478
+msgid "Internal identifier for this provider (lowercase, no spaces)"
+msgstr "Intern identifierare för denna provider (gemener, inga mellanslag)"
+
+#: templates/admin.html:480
+msgid "Client ID"
+msgstr "Klient-ID"
+
+#: templates/admin.html:482
+msgid "OAuth application client ID from your provider"
+msgstr "OAuth-programmets klient-ID från din leverantör"
+
+#: templates/admin.html:484
+msgid "Client Secret"
+msgstr "Klienthemlighet"
+
+#: templates/admin.html:486
+msgid "OAuth application client secret from your provider"
+msgstr "OAuth-programmets klienthemlighet från din leverantör"
+
+#: templates/admin.html:488
+msgid "Authorization URL"
+msgstr "Auktoriserings-URL"
+
+#: templates/admin.html:490
+msgid "Provider's OAuth authorization endpoint"
+msgstr "Leverantörens OAuth-auktoriserings-endpoint"
+
+#: templates/admin.html:492
+msgid "Token URL"
+msgstr "Biljett-URL"
+
+#: templates/admin.html:494
+msgid "Provider's OAuth token exchange endpoint"
+msgstr "Leverantörens ändpunkt för OAuth-biljettöverlämning"
+
+#: templates/admin.html:496
+msgid "User Info URL"
+msgstr "Användarinfo-URL"
+
+#: templates/admin.html:498
+msgid "Provider's endpoint to retrieve user profile"
+msgstr "Leverantörens endpunkt för att få användarprofilen"
+
+#: templates/admin.html:500
+msgid "Scopes (comma-separated)"
+msgstr "Scopes (kommaseparerad)"
+
+#: templates/admin.html:502
+msgid "OAuth permissions to request (comma-separated)"
+msgstr "OAuth-behörigheter att efterfråga (komma-separerade)"
+
+#: templates/admin.html:504
+msgid "Redirect URI"
+msgstr "Redirect-URI"
+
+#: templates/admin.html:506
+msgid "Callback URL to register with your OAuth provider"
+msgstr "Callback-URI för att registrera hos din OAuth-leverantör"
+
+#: templates/admin.html:508
+msgid "Save OAuth Backend"
+msgstr "Spara OAuth-backend"
+
+#: templates/admin.html:516
+msgid "LDAP"
+msgstr "LDAP"
+
+#: templates/admin.html:519
+msgid "Enable / Allow new users from LDAP"
+msgstr "Aktivera / Tillåt nya användare från LDAP"
+
+#: templates/admin.html:520
+msgid ""
+"Controls whether new users are synced from LDAP. Existing users can always "
+"log in regardless of this setting."
+msgstr ""
+"Styr om nya användare synkroniseras från LDAP. Befintliga användare kan "
+"alltid logga in oavsett denna inställning."
+
+#: templates/admin.html:523
+msgid ""
+"Configure how this backend appears on the registration page. Users cannot "
+"self-register with LDAP, but you can show instructions on how to get an "
+"account."
+msgstr ""
+"Konfigurera hur denna backend visas på registreringssidan. Användare kan "
+"inte registrera sig själva med LDAP, men du kan visa instruktioner för hur "
+"man skaffar ett konto."
+
+#: templates/admin.html:568
+msgid "LDAP Server"
+msgstr "LDAP-server"
+
+#: templates/admin.html:570
+msgid "Hostname or IP address of your LDAP server"
+msgstr "Värdnamn eller IP-adress för din LDAP-server"
+
+#: templates/admin.html:572
+msgid "LDAP Type"
+msgstr "LDAP-typ"
+
+#: templates/admin.html:576
+msgid "Custom Port"
+msgstr "Anpassad port"
+
+#: templates/admin.html:578
+msgid "Select standard LDAP/LDAPS or specify a custom port"
+msgstr "Välj standard-LDAP/LDAPS eller ange anpassad port"
+
+#: templates/admin.html:580
+msgid "LDAP Port"
+msgstr "LDAP-port"
+
+#: templates/admin.html:590
+msgid "Use SSL/TLS"
+msgstr "Använd SSL/TLS"
+
+#: templates/admin.html:592
+msgid "Base DN"
+msgstr "Bas-DN"
+
+#: templates/admin.html:594
+msgid ""
+"The sub-root you want to search for users inside your LDAP directory tree "
+"(e.g., ou=users,dc=example,dc=com)"
+msgstr ""
+"Underroten där du vill söka efter användare i ditt LDAP-katalogträd, "
+"exempelvis ou=users,dc=example,dc=com"
+
+#: templates/admin.html:596
+msgid "Bind DN"
+msgstr "Bindnings-DN"
+
+#: templates/admin.html:598
+msgid "Service account for LDAP queries (optional for anonymous bind)"
+msgstr "Servicekonto för LDAP-frågor (frivilligt för anonym bindning)"
+
+#: templates/admin.html:600
+msgid "Bind Password"
+msgstr "Bind-lösenord"
+
+#: templates/admin.html:602
+msgid "Password for the bind DN service account"
+msgstr "Lösenord för bind DN-servicekonto"
+
+#: templates/admin.html:604
+msgid "User Filter"
+msgstr "Använd filter"
+
+#: templates/admin.html:606
+msgid "LDAP filter to find users. {} will be replaced with login name"
+msgstr "LDAP-filter för att hitta användare. {} ersätts med inloggningsnamnet"
+
+#: templates/admin.html:608
+msgid "Email Attribute"
+msgstr "E-postattribut"
+
+#: templates/admin.html:610
+msgid "LDAP attribute containing the email address"
+msgstr "LDAP-attribut som innehåller e-postadressen"
+
+#: templates/admin.html:612
+msgid "Save LDAP Backend"
+msgstr "Spara LDAP-backend"
+
+#: templates/admin.html:618
+msgid "Instance following"
+msgstr "Följer instansen"
+
+#: templates/admin.html:620
+msgid ""
+"Use this to replicate the items of other instances onto your         "
+"instance. You can request replication of other servers by using         "
+"<i>Follow Instance</i>. Under <i>Following instance</i>, you         can "
+"answer requests from other instances to follow your instance."
+msgstr ""
+"Använd detta för att replikera artiklar från andra instanser till "
+"din         instans. Du kan begära replikering av andra servrar genom att "
+"använda         <i>Följ instans</i>. Under <i>Följ instans</i>, kan         "
+"du besvara förfrågningar från andra instanser om att följa din instans."
+
+#: templates/admin.html:627
+msgid "Follow Instance"
+msgstr "Följ instans"
+
+#: templates/admin.html:631
+msgid "Follower Instance"
+msgstr "Följande instanser"
+
+#: templates/admin.html:637
+msgid "Following Instance"
+msgstr "Följda instanser"
+
+#: templates/admin.html:642
+msgid "Instance Location"
+msgstr "Instansens plats"
+
+#: templates/admin.html:643
+msgid ""
+"Choose a location for this instance. Items that are absurdly far away from "
+"this location will neither be processed nor displayed by this instance."
+msgstr ""
+"Välj en plats för denna instans. Artiklar som är absurt långt ifrån denna "
+"plats kommer inte att bli varken processade av eller visas på denna instans."
+
+#: templates/admin.html:650
+msgid "Startpage"
+msgstr "Startsida"
+
+#: templates/admin.html:651
+msgid ""
+"Configure which tabs to show and their order. Check to enable, use ↓ button "
+"to move down, and select the default tab."
+msgstr ""
+"Konfigurera vilka flikar som visas och deras ordning. Markera för att "
+"aktivera, använd knappen ↓ för att flytta ned och välj standardflik."
+
+#: templates/admin.html:653
+msgid "Tab configuration list"
+msgstr "Lista över flikkonfiguration"
+
+#: templates/admin.html:680
+msgid "Enable {tab} tab"
+msgstr "Aktivera fliken {tab}"
+
+#: templates/admin.html:688
+msgid "Move {tab} tab down"
+msgstr "Flytta ned fliken {tab}"
+
+#: templates/admin.html:694
+msgid "Default Tab"
+msgstr "Standardflik"
+
+#: templates/admin.html:698
+msgid "Select default tab to show on startpage"
+msgstr "Välj standardflik som visas på startsidan"
+
+#: templates/admin.html:706
+msgid "This tab will be shown by default when users visit your instance"
+msgstr "Den här fliken visas som standard när användare besöker din instans"
+
+#: templates/admin.html:708
+msgid "Language Settings"
+msgstr "Språkinställningar"
+
+#: templates/admin.html:709
+msgid "Default Language"
+msgstr "Standardspråk"
+
+#: templates/admin.html:711
+msgid "Use system language"
+msgstr "Använd systemspråk"
+
+#: templates/admin.html:718
+msgid ""
+"Default language for this flohmarkt.            Used as fallback for strings "
+"that are not translated to the user's preferred language yet.            "
+"English is always used as the final fallback language."
+msgstr ""
+"Standardspråk för denna flohmarkt. Används som reserv för strängar som ännu "
+"inte har översatts till användarens föredragna språk. Engelska används "
+"alltid som sista reservspråk."
+
+#: templates/admin.html:729
+msgid "Units"
+msgstr "Enheter"
+
+#: templates/admin.html:732
+msgid "Allow arbitrary currencies"
+msgstr "Tillåt godtyckliga valutor"
+
+#: templates/admin.html:737
+msgid "Default"
+msgstr "Standard"
+
+#: templates/admin.html:738
+msgid "Symbol"
+msgstr "Symbol"
+
+#: templates/admin.html:739
+msgid "Short"
+msgstr "Kort"
+
+#: templates/admin.html:740
+msgid "URL"
+msgstr "Webbadress"
+
+#: templates/admin.html:761
+msgid "Default Translation"
+msgstr "Standardöversättning"
+
+#: templates/admin.html:763
+msgid "Url"
+msgstr "Webbadress"
+
+#: templates/admin.html:765
+msgid "Add Currency"
+msgstr "Lägg till valuta"
+
+#: templates/admin.html:771
+msgid ""
+"Use this to block users or entire instances from communicating         with "
+"your instance. It is wise to whenever possible only block         single "
+"users instance-wide. A valid reason for blocking a whole         instance "
+"might be jurisdiction-wise incompatibilities with another         instance."
+msgstr ""
+"Använd detta för att blockera användare eller hela instanser från att "
+"kommunicera med din instans. Det är klokt att om möjligt bara blockera "
+"enskilda användare på andra instanser. En giltig anledning för att blockera "
+"hela instanser skulle kunna vara juridisk inkompatibilitet mellan "
+"instansernas jurisdiktioner."
+
+#: templates/admin.html:779
+msgid "Block Instance"
+msgstr "Blockera instans"
+
+#: templates/admin.html:782
+msgid ""
+"Use this to upload a CSV-File containing many domains to block.         "
+"Several blocklists are provided to the public in this format.         The "
+"first column in the blocklist must contain the domain."
+msgstr ""
+"Använd detta för att ladda upp en CSV-fil med flera domäner att blockera. "
+"Flera blockeringslistor tillhandahålls offentligt i detta format. Den första "
+"kolumnen i blockeringslistan måste innehålla domänen."
+
+#: templates/admin.html:788
+msgid "Block Many Instances"
+msgstr "Blockera flera instanser"
+
+#: templates/admin.html:792
+msgid "Blocked Instances"
+msgstr "Blockerade instanser"
+
+#: templates/admin.html:828
+msgid "Send Email to Myself"
+msgstr "Skicka e-post till mig själv"
+
+#: templates/admin.html:829
+msgid "Version Info"
+msgstr "Versionsinfo"
+
+#: templates/admin.html:835
+msgid "Python Version Info"
+msgstr "Information om Python-version"
+
+#: templates/resetpw.html:8
+msgid "Reset password"
+msgstr "Återställ lösenord"
+
+#: templates/resetpw.html:17
+msgid "Repeat password"
+msgstr "Upprepa lösenord"
+
+#: templates/resetpw.html:19
+msgid "Set Password"
+msgstr "Sätt lösenord"
+
+#: templates/notifications.html:68
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: templates/register.html:105
+msgid "Registrations closed"
+msgstr "Registreringar stängda"
+
+#: templates/register.html:107
+msgid "Registration"
+msgstr "Registrering"
+
+#: templates/register.html:109
+msgid "Create your account"
+msgstr "Skapa ditt konto"
+
+#: templates/register.html:131
+msgid "New user registrations are not available on"
+msgstr "Nya användarregistreringar är inte tillgängliga på"
+
+#: templates/register.html:131
+msgid "at the moment."
+msgstr "för närvarande."
+
+#: templates/register.html:132
+msgid "You can create an account on another flohmarkt instance instead."
+msgstr "Du kan skapa ett konto på en annan Flohmarkt-instans istället."
+
+#: templates/register.html:137
+msgid "View list of flohmarkt instances"
+msgstr "Se listan med Flohmarkt-instanser"
+
+#: templates/register.html:145
+msgid "This instance does not offer self-service registration."
+msgstr "Den här instansen erbjuder inte självregistrering."
+
+#: templates/register.html:146
+msgid "Please contact the instance administrator to request an account."
+msgstr "Kontakta instansens administratör för att be om ett konto."
+
+#: templates/register.html:154
+msgid "Already have an account?"
+msgstr "Har du redan ett konto?"
+
+#: templates/register.html:160
+msgid ""
+"Heads up: on this instance, new items you create are reviewed by a moderator "
+"before they become visible to others."
+msgstr ""
+"Observera: på denna instans granskas nya objekt som du skapar av en "
+"moderator innan de blir synliga för andra."
+
+#: templates/register.html:174
+msgid "Register with email and password"
+msgstr "Registrera med e-postadress och lösenord"
+
+#: templates/register.html:180
+msgid "E-Mail"
+msgstr "E-post"
+
+#: templates/register.html:188
+msgid "Check"
+msgstr "Kontrollera"
+
+#: templates/register.html:191
+msgid "Loading captcha..."
+msgstr "Laddar captcha ..."
+
+#: templates/register.html:195
+msgid "Captcha image"
+msgstr "Captcha-bild"
+
+#: templates/register.html:201
+msgid "rules"
+msgstr "regler"
+
+#: templates/register.html:202
+msgid "Register"
+msgstr "Registrera"
+
+#: templates/register.html:205
+msgid ""
+"<strong>Successfully registered!</strong> Please check your mail inbox for %"
+"(email)s and click the link to activate your account in the next 48 hours."
+msgstr ""
+"<strong>Registreringen lyckades!</strong> Kontrollera inkorgen för %(email)s "
+"och klicka på länken för att aktivera ditt konto inom 48 timmar."
+
+#: templates/register.html:218
+msgid ""
+"Sign in with any account on the Fediverse (Mastodon, Pleroma, PixelFed, …)"
+msgstr ""
+"Logga in med ett annat Fediverse-konto (Mastodon, Pleroma, PixelFed et.c.)"
+
+#: templates/register.html:222
+msgid "Enter your Fediverse handle to generate a PIN for authentication."
+msgstr ""
+"Ange ditt Fediverse-handle för att generera en pinkod för autentisering."
+
+#: templates/register.html:228
+msgid "Fediverse Handle"
+msgstr "Fediverse-handle"
+
+#: templates/conversation_form.html:2
+msgid "You are banned. You may not participate."
+msgstr "Du är bannlyst. Du får inte vara med."
+
+#: templates/conversation_form.html:5
+msgid "Message"
+msgstr "Meddelande"
+
+#: templates/conversation_form.html:18
+msgid "Assign"
+msgstr "Tilldela"
+
+#: templates/setup.html:20
+msgid "Setup"
+msgstr "Konfigurera"
+
+#: templates/setup.html:21
+msgid "Congratulations to your new flohmarkt instance."
+msgstr "Gratulerar till din nya Flohmarkt-instans."
+
+#: templates/setup.html:28
+msgid "Admin User"
+msgstr "Adminanvändare"
+
+#: templates/setup.html:29
+msgid "Adminuser Name"
+msgstr "Adminanvändare namn"
+
+#: templates/setup.html:31
+msgid "Adminuser E-Mail"
+msgstr "Adminanvändare e-post"
+
+#: templates/setup.html:37
+msgid "Instance Settings"
+msgstr "Instansinställningar"
+
+#: templates/setup.html:50
+msgid "Set up"
+msgstr "Sätt upp"
+
+#: templates/search.html:35
+msgid "Results"
+msgstr "Resultat"
+
+#: templates/search.html:35
+msgid "for"
+msgstr "för"
+
+#: templates/search.html:37
+msgid "around"
+msgstr "omkring"
+
+#: templates/search.html:48
+msgid "Change Search Origin"
+msgstr "Ändra sök-origin"
+
+#: templates/search.html:50
+msgid "Search Origin"
+msgstr "Sök-origin"
+
+#: templates/logout.html:8
+msgid "Signing out…"
+msgstr "Loggar ut …"
+
+#: templates/nav.html:11
+msgid "Search"
+msgstr "Sök"
+
+#: templates/nav.html:27
+msgid "Popular"
+msgstr "Populärt"
+
+#: templates/nav.html:64
+msgid "Create item"
+msgstr "Skapa artikel"
+
+#: templates/nav.html:94
+msgid "Signed in as"
+msgstr "Inloggad som"
+
+#: templates/nav.html:129
+msgid "Sign out"
+msgstr "Logga ut"
+
+#: templates/reset_initiated.html:4
+msgid "Password reset initiated…"
+msgstr "Lösenordsåterställning påbörjad …"
+
+#: templates/reset_initiated.html:5
+msgid "If the given email address exists, we sent you a password reset link."
+msgstr ""
+"Om den angivna e-postadressen finns, skickar vi en "
+"lösenordsåterställningslänk."
+
+#: templates/reset_initiated.html:6
+msgid "Please check your mail inbox and click link to set a new password."
+msgstr "Kolla din e-post och klicka på länken för att sätta ett nytt lösenord."
+
+#, fuzzy
+#~ msgid "Failed to update item"
+#~ msgstr "Kunde inte kopiera"
+
+#~ msgid "Messages"
+#~ msgstr "Meddelanden"
+
+#~ msgid "Stay logged in"
+#~ msgstr "Förbli inloggad"
+
+#~ msgid "Registrations are currently closed on this instance"
+#~ msgstr "Registrering är för närvarande avstängd på den här instansen"
+
+#, fuzzy
+#~ msgid "Info"
+#~ msgstr "Objektinformation"
+
+#~ msgid ""
+#~ "To answer this offer, you can log in, create an account, or use another "
+#~ "fediverse account:"
+#~ msgstr ""
+#~ "För att svara på det här budet kan du logga in, skapa ett konto eller "
+#~ "använda ett konto på en annan Fediverse-instans:"
+
+#~ msgid "Log in if you already have an account"
+#~ msgstr "Logga in om du redan har ett konto"
+
+#~ msgid "Join another flohmarkt instance (registrations are closed here)"
+#~ msgstr "Gå med i en annan Flohmarkt-instans (registrering är avstängd här)"
+
+#, fuzzy
+#~ msgid "Use another fediverse account:"
+#~ msgstr "Använd ett annat Fediverse-konto (formulär nedan)"
+
+#, fuzzy
+#~ msgid "Report"
+#~ msgstr "Skicka rapport"
+
+#~ msgid "More"
+#~ msgstr "Mer"
+
+#~ msgid "Remote instance doesn't supply actorurl"
+#~ msgstr "Fjärr-instansen erbjuder inte actorurl"
+
+#~ msgid "Actor URL not found in WebFinger response"
+#~ msgstr "Actor URL finns inte med i WebFinger-responsen"
+
+#~ msgid "Could not fetch account information"
+#~ msgstr "Kunde inte hämta kontoinformation"
+
+#~ msgid "This Fediverse account has no inbox"
+#~ msgstr "Detta fediverse-konto har ingen inbox"
+
+#~ msgid ""
+#~ "Username must only contain A-Z, a-z or 0-9. Any other characters are "
+#~ "forbidden."
+#~ msgstr ""
+#~ "Användarnamnet kan bara innehålla A-Z, a-z och 0-9. Övriga tecken är "
+#~ "förbjudna."
+
+#~ msgid "Enabled"
+#~ msgstr "Igång"
+
+#~ msgid ""
+#~ "Enable username/password authentication. When enabled, users can register "
+#~ "new accounts and log in with credentials stored in the database."
+#~ msgstr "Slå på autentisering med användarnamn och lösenord."
+
+#, fuzzy
+#~ msgid ""
+#~ "Enable single sign-on (SSO) with OAuth2/OpenID Connect providers. Useful "
+#~ "for integrating with self-hosted identity servers or community "
+#~ "authentication systems."
+#~ msgstr ""
+#~ "Aktivera single sign-on (SSO) med OAuth2/OpenID Connect-leverantörer. "
+#~ "Användbart för att integrera med självdriftade servrar eller community "
+#~ "authentication systems."
+
+#~ msgid ""
+#~ "Connect to an LDAP server to authenticate users with their existing "
+#~ "directory credentials."
+#~ msgstr ""
+#~ "Anslut till en LDAP-server för att autentisera användare med deras "
+#~ "befintliga användaruppgifter."
+
+#~ msgid "Currencies"
+#~ msgstr "Valutor"
+
+#~ msgid ""
+#~ "Set allowed currencies for item creation via a comma-separated list. No "
+#~ "input results in a free-text field."
+#~ msgstr ""
+#~ "Ange tillåtna valutor för artiklar med en kommaseparerad lista. Om du "
+#~ "inte anger nåt, kommer ett fritextfält att visas."
+
+#, fuzzy, python-brace-format
+#~ msgid "Failed to approve item: {error}"
+#~ msgstr "Kunde inte kopiera"
+
+#, fuzzy, python-brace-format
+#~ msgid "Failed to reject item: {error}"
+#~ msgstr "Kunde inte kopiera"
+
+#, fuzzy
+#~ msgid "You can only mark your own notifications as read"
+#~ msgstr "Du kan bara modifiera ditt eget state :("
+
+#, fuzzy
+#~ msgid "Please check your mail inbox for "
+#~ msgstr "Kolla din e-post och klicka på länken för att återställa kontot."
+
+#, fuzzy
+#~ msgid "Session is missing actor information"
+#~ msgstr "Sessionen saknar aktörsinformation"
+
+#, fuzzy
+#~ msgid "Handle cannot be empty"
+#~ msgstr "Handle kan inte vara tom"
+
+#~ msgid "Handle must contain @"
+#~ msgstr "Handle måste innehålla @"
+
+#~ msgid "Handle must have exactly one @"
+#~ msgstr "Handle måste ha exakt ett @"
+
+#~ msgid "Username and instance must be non-empty"
+#~ msgstr "Användarnamn och instans får inte vara tomma"
+
+#~ msgid "Start typing a city"
+#~ msgstr "Börja skriva en ort"
+
+#~ msgid "S2S-request blocked because: "
+#~ msgstr "S2S-begäran är blockerad eftersom: "
+
+#~ msgid "Ignoring flag: weird amount of flagged objects"
+#~ msgstr "Ignorerar flaggan: skumt antal flaggade objekt"
+
+#~ msgid "The current list of followed instances"
+#~ msgstr "Nuvarande lista över instanser som följs"
+
+#~ msgid "email invalid "
+#~ msgstr "e-postadressen är ogiltig "
+
+#~ msgid "something went wrong"
+#~ msgstr "nåt gick fel"
+
+#~ msgid "resent mail"
+#~ msgstr "mailet skickat igen"
+
+#~ msgid "user already exists"
+#~ msgstr "användaren finns redan"
+
+#~ msgid "User has no password hash"
+#~ msgstr "Användaren har ingen lösenords-hash"
+
+#~ msgid "Get all conversation objects belonging to an item"
+#~ msgstr "Få alla konversationsobjekt som hör till en artikel"
+
+#~ msgid "something went wrong when updating"
+#~ msgstr "nåt gick fel vid uppdateringen"
+
+#~ msgid "something went wrong updating"
+#~ msgstr "nåt gick fel vid uppdateringen"
+
+#~ msgid "Something went wrong :("
+#~ msgstr "Nåt gick fel :("
+
+#~ msgid "Something went wrong while updating"
+#~ msgstr "Nåt gick fel vid uppdatering"
+
+#~ msgid "Token blacklisted due to logout"
+#~ msgstr "Biljetten är svartlistad på grund av utloggning"
+
+#~ msgid "Send conversation digests"
+#~ msgstr "Skicka konversationssammanfattning"
+
+#~ msgid "Sanitize imagenames"
+#~ msgstr "Rensa bildnamn"
+
+#~ msgid "Clean captchas"
+#~ msgstr "Rensa captchas"
+
+#~ msgid "Could not send mail: "
+#~ msgstr "Kunde inte skicka e-post: "
+
+#~ msgid "Cleaning up unused images"
+#~ msgstr "Städar bort oanvända bilder"
+
+#~ msgid "Deleting invalid LDAP users"
+#~ msgstr "Raderar ogiltiga LDAP-användare"
+
+#~ msgid "Deleting ldap user"
+#~ msgstr "Raderar LDAP-användare"
+
+#~ msgid "Deleting old inactive users"
+#~ msgstr "Raderar gamla inaktiva användare"
+
+#~ msgid "Deleting inactive user"
+#~ msgstr "Raderar inaktiv användare"
+
+#~ msgid "Trying to fill in missing item coordinates"
+#~ msgstr "Försöker lägga in saknade koordinater"
+
+#~ msgid "Initializing Background jobs:"
+#~ msgstr "Påbörjar bakgrundsjobb:"
+
+#~ msgid "[Job] Convert images"
+#~ msgstr "[Jobb] Konverterar bilder"
+
+#~ msgid "[Job] Clean captchas"
+#~ msgstr "[Jobb] Rensar captchas"
+
+#~ msgid "[Job] Sending mails"
+#~ msgstr "[Jobb] Skickar e-post"
+
+#~ msgid "[Job] Resending failed AP messages"
+#~ msgstr "[Jobb] Skickar misslyckade AP-meddelanden igen"
+
+#~ msgid "[Job] Clean Images"
+#~ msgstr "[Jobb] Rensa bilder"
+
+#~ msgid "[Job] Delete old inactive users"
+#~ msgstr "[Jobb] Radera gamla inaktiva användare"
+
+#~ msgid "[Job] Delete invalid ldap users"
+#~ msgstr "[Jobb] Radera ogiltiga LDAP-användare"
+
+#~ msgid "[Job] Send today's conversation digest"
+#~ msgstr "[Jobb] Skicka dagens konversationssammanfattningar"
+
+#~ msgid "[Job] Obtain missing item coordinates"
+#~ msgstr "[Jobb] Hämta saknade artikelkoordinater"
+
+#~ msgid "HTTP TIMEOUT DATABASE"
+#~ msgstr "HTTP TIMEOUT DATABASE"
+
+#~ msgid "More than one object"
+#~ msgstr "Mer än ett objekt"
+
+#~ msgid "HTTP Client not initialized. Aborting…"
+#~ msgstr "HTTP Client not initialized. Avbryter …"
+
+#~ msgid "Unknown signature header content: "
+#~ msgstr "Okänt innehåll i signatur-header: "
+
+#~ msgid "User has been deleted"
+#~ msgstr "Användaren är raderad"
+
+#~ msgid "Key could not be obtained"
+#~ msgstr "Nyckeln kunde inte hämtas"
+
+#~ msgid "Not a valid signature"
+#~ msgstr "Ogiltig signatur"
+
+#~ msgid "flohmarkt booting!"
+#~ msgstr "flohmarkt startar!"
+
+#~ msgid "Waiting until database gets ready…"
+#~ msgstr "Väntar på att databasen ska bli redo …"
+
+#~ msgid "Database is ready. Proceeding…"
+#~ msgstr "Databasen är redo. Fortsätter …"
+
+#~ msgid "Tearing down flohmarkt!"
+#~ msgstr "Stänger ned Flohmarkt!"
+
+#~ msgid "User Activitypub document"
+#~ msgstr "ActivityPub-dokument för användare"
+
+#~ msgid "Running migration: Creating 'auth' user for FediAuth..."
+#~ msgstr "Kör migrationer: Skapar 'auth'-användare för FediAuth ..."
+
+#~ msgid "✓ Migration complete: 'auth' user created"
+#~ msgstr "✓ Migreringen klar: 'auth'-användare skapad"
+
+#~ msgid "near"
+#~ msgstr "nära"
+
+#~ msgid "Search in"
+#~ msgstr "Sök i"
+
+#~ msgid "by"
+#~ msgstr "av"
+
+#~ msgid "More Items"
+#~ msgstr "Fler artiklar"
+
+#~ msgid "Default Fediverse Instance"
+#~ msgstr "Förvald Fediverse-instans"
+
+#~ msgid "Default Fediverse server URL (users can specify their own)"
+#~ msgstr "Förvald Fediverse-server-URL (användare kan ange sin egen)"

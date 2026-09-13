@@ -153,3 +153,5 @@ Inventering 12 september 2026: 605 projekt och 828 befintliga svenska komponente
 - Sriracha / sriracha (sv): release v2.1.2 (2026-09-13) verifierad; 582/582 översatta, 0 osäkra och 29 automatiska dubblettkontroller för korrekta återanvända termer. Fullständigt granskat med hunspell -d sv_SE; pluraler, formatparametrar och forumsyntax är bevarade.
 
 - Mitra Web / main (sv): release v5.10.0 (2026-08-24) verifierad; 421/421 översatta, 0 osäkra och 8 automatiska dubblettkontroller för korrekta återanvända termer. Fullständigt granskat med hunspell -d sv_SE utan återstående träffar; variabler och pluralformat är bevarade.
+
+- flohmarkt / backend (sv): release 0.20.1 (2026-07-13) verifierad; 623/623 översatta, 0 osäkra och 14 tekniska/återanvändningskontroller. Fullständigt granskat med hunspell -d sv_SE och msgfmt -c; åtta äldre stav- och sakfel har rättats.
