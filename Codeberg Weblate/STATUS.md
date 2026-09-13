@@ -97,6 +97,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Monocles Translator | Beta2-v1.7 (2024-07-03) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Nextcloud Cookbook Android | v3.0.2 (2024-02-26) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
+| One Cloud | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | Paroli | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | Pineapple Lock Screen | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — GitHubs release-API saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
@@ -379,3 +380,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - jdAppStreamEdit / jdAppStreamEdit (sv): release 10.0 (2026-09-09) verifierad; 748 källsträngar. Svenska saknas och Weblate returnerade 403 när komponenten skulle skapas. Inga översättningar kunde påbörjas eller publiceras.
 
 - Librerama / librerama (sv): release v0.7.0 (2026-04-18) verifierad. Svenska saknas; Weblate returnerade 403 när en svensk fil skulle skapas. Inga översättningar kunde påbörjas eller publiceras.
+
+- One Cloud: potentiellt obsolet enligt releasekriteriet. Codeberg-release-API:t saknar offentlig release 2026-09-13; projektet hoppas över.
