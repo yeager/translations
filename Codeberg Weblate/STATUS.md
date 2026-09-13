@@ -20,6 +20,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | bgammon | client, server | 256 | Publicerad och granskad; 14 dokumenterade tekniska kontroller | ej dokumenterad |
 | calligraphy | calligraphy | 40 | Publicerad och granskad; inga osäkra poster eller kontroller | v1.3.0 (2026-05-18) |
 | censor | censor-glossary | 15 | Publicerad och granskad; inga osäkra poster eller kontroller | Se detaljerad arbetslogg |
+| ChiPass | Application | 2332 | Publicerad och granskad; 290 dokumenterade tekniska kontroller | v2026.09.0 (2026-09-11) |
 | clock | cities, clock | 1026 | Publicerad och granskad; 219 dokumenterade tekniska kontroller | 2.31 (2026-06-28); ej dokumenterad |
 | collision | collision | 45 | Publicerad och granskad; inga osäkra poster eller kontroller | v3.14.1 (2026-05-07) |
 | comaps | appstore-description, website | 83 | Publicerad och granskad; 3 dokumenterade tekniska kontroller | ej dokumenterad |
@@ -83,6 +84,7 @@ Varje nytt projekt kontrolleras först mot en offentligt verifierbar release fr�
 | Ampersand | Ingen verifierbar offentlig release | Potentiellt obsolet — Ingen offentlig release kunde verifieras via Codeberg-release-API:t; projektet hoppas över enligt tvåårsregeln. |
 | auto-tab-opener | v2.10 (2022-10-09) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | conversations | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Ingen offentlig release inom de senaste två åren kunde verifieras via den officiella webbplatsen eller release-API:t per 2026-09-13; projektet hoppas över tills en sådan release kan verifieras. |
+| Meditation Assistant | Ingen verifierbar offentlig release hittades | Potentiellt obsolet — Codeberg-release-API:t saknar offentlig release per 2026-09-13; projektet hoppas över enligt tvåårsregeln. |
 | OBS Master | 0.6.3 (2023-11-16) | Potentiellt obsolet — Senaste verifierade release är äldre än två år; projektet hoppades över enligt granskningsregeln. |
 | partygames | 2.0.0 (2024-01-08) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
 | weather | 3.21-pre1 (2023-04-12) | Potentiellt obsolet — Senaste verifierade release är äldre än två år per 2026-09-13; projektet hoppas över tills en ny release kan verifieras. |
@@ -320,3 +322,5 @@ Följande logg beskriver ändringar, låsta komponenter och tekniska kontrollres
 - Flickboard / app (sv): release v0.3.4.1 (2026-05-18) verifierad; 387/387 översatta, 0 osäkra och 0 kontrollfel. Tolv språk-, sak- och UI-fel har identifierats med hunspell -d sv_SE och källjämförelse, men Weblate returnerar 403 för skrivning; inga rättningar kunde publiceras.
 
 - Rote / rote (sv): release v0.2 (2026-08-16) verifierad; 0/56 översatta och 0 osäkra. Alla 56 svenska texter har förberetts och stavningsgranskats med hunspell -d sv_SE, men Weblate avvisar skrivningar (403) och tidspluraler (400); inga ändringar kunde publiceras.
+
+- ChiPass / Application (sv): release v2026.09.0 (2026-09-11) verifierad; 2332/2332 översatta, 0 osäkra och 290 kontrollfel. Granskad med hunspell -d sv_SE; 58 saknade enheter och sju befintliga stav- och terminologifel har rättats. Kontrollerna gäller tekniska format, återanvända termer och standardnamn.
