@@ -6265,7 +6265,7 @@ msgstr ""
 
 #: ../src/core/entries.h:425
 msgid "Staff Groupings (Braces)"
-msgstr "Personalgrupperingar (Braces)"
+msgstr "Notsystemsgrupperingar (klamrar)"
 
 #: ../src/core/entries.h:425
 msgid ""
@@ -6273,7 +6273,7 @@ msgid ""
 "Various sorts of brace linking the staffs together. These may be nested, see the Score Layout view for a display of the staff groups created."
 msgstr ""
 "Meny:\n"
-"Olika typer av stöd som länkar samman staberna. Dessa kan vara nästlade, se vyn partitur Layout för en visning av de stavgrupper som skapats."
+"Olika typer av klamrar som länkar samman notsystem. De kan vara nästlade; se partiturlayouten för att visa de skapade notsystemsgrupperna."
 
 #: ../src/core/entries.h:426
 msgid "Add Note Above Base of Chord"
@@ -9833,7 +9833,7 @@ msgstr "Dragande måttbredd / notsystemavstånd."
 
 #: ../src/ui/mousing.c:1069
 msgid "This will widen/narrow the measures/staffs in the display."
-msgstr "Detta kommer att bredda/smalna av måtten/staberna i displayen."
+msgstr "Detta gör takterna/notsystemen bredare eller smalare i visningen."
 
 #: ../src/ui/mousing.c:1097
 msgid "Double Click Note Onset"
@@ -11751,11 +11751,11 @@ msgstr "(Skriv ut) Visa notsystem"
 
 #: ../actions/denemo.scm:1536
 msgid "(Print) Hide Staff"
-msgstr "(Skriv ut) Hide Personal"
+msgstr "(Utskrift) Dölj notsystem"
 
 #: ../actions/denemo.scm:1539
 msgid "(Display) Show Staff"
-msgstr "(Display) notsystem för visning"
+msgstr "(Visning) Visa notsystem"
 
 #: ../actions/denemo.scm:1540
 msgid "(Display) Hide Staff"
@@ -19783,11 +19783,11 @@ msgstr "Utrymme under notsystem"
 
 #: ../actions/menus/ObjectMenu/Directives/Typesetter/PrintLayout/StaffSpacer.xml.h:1
 msgid "Staff/System/Titles Spacer"
-msgstr "Personal/System/Titlar Spacer"
+msgstr "Mellanrum för notsystem/system/titlar"
 
 #: ../actions/menus/ObjectMenu/Directives/Typesetter/PrintLayout/StaffSpacer.xml.h:2
 msgid "Forces extra space between this staff and the adjacent one at this point in the score. If in the top staff of a system, forces the systems apart in the line at the cursor. If in the top staff on the top line gives more room below the titles."
-msgstr "Tvingar fram extra utrymme mellan denna notbild och den intilliggande vid denna punkt i partituret. Om det är i den översta noten i ett system, tvingar det isär systemen på raden vid markören. Om i den översta noten på den översta raden ger mer utrymme under titlarna."
+msgstr "Ger extra utrymme mellan detta notsystem och det intilliggande vid denna punkt i partituret. I ett systems översta notsystem ökar det avståndet mellan systemen på raden vid markören. I det översta notsystemet på översta raden ger det mer utrymme under titlarna."
 
 #: ../actions/menus/ObjectMenu/Directives/Typesetter/RevertSpacing.xml.h:1
 msgid "Revert Spacing"
@@ -19921,15 +19921,15 @@ msgstr ""
 
 #: ../actions/menus/ObjectMenu/Directives/Typesetter/Tablature/TabFull.scm:16
 msgid "This Directive can only be added in a Tab Staff. See Staff menu."
-msgstr "Detta direktiv kan endast läggas till i en flik Personal. Se menyn Personal."
+msgstr "Detta direktiv kan bara läggas till i ett tabulaturnotsystem. Se menyn Notsystem."
 
 #: ../actions/menus/ObjectMenu/Directives/Typesetter/Tablature/TabFull.xml.h:1
 msgid "Full Tab Notation On"
-msgstr "Full Tab Notation På"
+msgstr "Fullständig tabulaturnotation på"
 
 #: ../actions/menus/ObjectMenu/Directives/Typesetter/Tablature/TabFull.xml.h:2
 msgid "Typeset beaming etc with Tablature from the cursor position on."
-msgstr "Typsnitt med tabulatur från markörens position och framåt."
+msgstr "Sätter balkar med mera i tabulaturen från markörens position och framåt."
 
 #: ../actions/menus/ObjectMenu/Directives/Typesetter/Transposition/CloseLilyBlock.scm:4
 msgid "This Denemo Directive closes a block of music with a close curly brace }. It must be preceded earlier in the save voice by a corresponding open {, otherwise the music will not typeset"
@@ -26715,7 +26715,7 @@ msgstr "Ange antal takter som krävs: "
 
 #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/CreateClickStaffForMidi.xml.h:1
 msgid "Create Click Track Staff"
-msgstr "Skapa Click Track Personal"
+msgstr "Skapa notsystem för klickspår"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/CreateClickStaffForMidi.xml.h:2
 msgid "Creates a staff (a click track) at the top of this score from the imported MIDI file, using tempo and time signature information (if present). The measures are filled with drum beats so that pitches in the MIDI tracks can be displayed above them. When you have finished the import you can delete this staff."
@@ -26840,7 +26840,7 @@ msgstr "Flyttar den aktuella staven till att bli den översta staven."
 
 #: ../actions/menus/ObjectMenu/StaffMenu/Ossia/CreateOssiaStaff.xml.h:1
 msgid "Create Ossia Staff"
-msgstr "Skapa Ossia Personal"
+msgstr "Skapa ossia-notsystem"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/Ossia/CreateOssiaStaff.xml.h:2
 msgid "Creates a small staff above the current staff for inserting cues, ossia passages etc. Use Show Ossia and Hide Ossia to show specific measures."
@@ -27224,11 +27224,11 @@ msgstr "Ställer in MIDI-instrumentet för detta notsystem för användning i up
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/NonPrintingStaff.scm:12
 msgid "Staff will be printed"
-msgstr "Personalen kommer att skrivas ut"
+msgstr "Notsystemet kommer att skrivas ut"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/NonPrintingStaff.xml.h:1
 msgid "Non Printing Staff"
-msgstr "Icke-tryckande notsystem"
+msgstr "Notsystem som inte skrivs ut"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/NonPrintingStaff.xml.h:2
 msgid "Turns the on/off whether this staff will be typeset. The staff still displays normally but will be dropped for the print view."
@@ -27256,7 +27256,7 @@ msgstr "Notbilden visas endast som rytm, och tonhöjder ignoreras."
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffLines.scm:3
 msgid "Staff Lines"
-msgstr "Personallinjer"
+msgstr "Notsystemslinjer"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffLines.scm:3
 msgid "Give Number of Staff Lines for current staff"
@@ -27264,7 +27264,7 @@ msgstr "Ange antal notsystemlinjer för nuvarande notsystem"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffLines.xml.h:1
 msgid "Set Staff Lines"
-msgstr "Ställ in stabslinjer"
+msgstr "Ställ in notsystemslinjer"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffLines.xml.h:2
 msgid "Sets the number of lines for the current staff."
