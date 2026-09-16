@@ -215,6 +215,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Linux Mint Slideshow | Launchpad | 🟠 100 % inskickat – inväntar import | 54/54 | Daniel Nylander | Förstastartsinformation, programnamn och säkerhetsuppdateringar granskade; validerad med msgfmt och Hunspell. |
 | Nemo Extensions | Launchpad | 🟠 100 % inskickat – inväntar import | 341/341 | Jan-Olof Svensson | Samba-delning, PGP-kryptering, signaturverifiering, terminal och filkodning granskade; validerad med msgfmt och Hunspell. |
 | OpenWrt LuCI Tor | Weblate | 🟠 100 % inskickat – inväntar import | 21/21 | Jonatan Nyberg | Onion-tjänster, portvidarebefordran och Tor-konfiguration granskade; Weblate accepterade 2 rättningar. |
+| OpenWrt LuCI ACME | Weblate | 🟠 100 % inskickat – inväntar import | 85/85 | Jonatan Nyberg | ACME, DNS-utmaningar, certifikatprofil och TLS-validering granskade; Weblate accepterade 6 rättningar. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
