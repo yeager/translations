@@ -214,6 +214,8 @@ aktuella synkkopian `work/translations-status-push/`.
 | Hypnotix | Launchpad | 🟠 100 % inskickat – inväntar import | 109/109 | Jan-Olof Svensson | IPTV-källor, HTTP-klientparametrar, MPV och spellistor granskade; validerad med msgfmt och Hunspell. |
 | Linux Mint Slideshow | Launchpad | 🟠 100 % inskickat – inväntar import | 54/54 | Daniel Nylander | Förstastartsinformation, programnamn och säkerhetsuppdateringar granskade; validerad med msgfmt och Hunspell. |
 | Nemo Extensions | Launchpad | 🟠 100 % inskickat – inväntar import | 341/341 | Jan-Olof Svensson | Samba-delning, PGP-kryptering, signaturverifiering, terminal och filkodning granskade; validerad med msgfmt och Hunspell. |
+| Pix | Launchpad | 🟠 100 % inskickat – inväntar import | 1 124/1 124 | Daniel Nylander | Bildhantering, metadata, import/export, bildredigering och filåtgärder är validerade med msgfmt och Hunspell; uppladdning bekräftad av Launchpad 17 september. |
+| Nemo | Launchpad | 🟠 100 % inskickat – inväntar import | 1 396/1 396 | Daniel Nylander | Filhantering, nätverksdelningar, behörigheter, papperskorg och skrivbordsintegration är validerade med msgfmt och Hunspell; uppladdning bekräftad av Launchpad 17 september. |
 | OpenWrt LuCI Tor | Weblate | 🟠 100 % inskickat – inväntar import | 21/21 | Jonatan Nyberg | Onion-tjänster, portvidarebefordran och Tor-konfiguration granskade; Weblate accepterade 2 rättningar. |
 | OpenWrt LuCI ACME | Weblate | 🟠 100 % inskickat – inväntar import | 85/85 | Jonatan Nyberg | ACME, DNS-utmaningar, certifikatprofil och TLS-validering granskade; Weblate accepterade 6 rättningar. |
 
