@@ -19,7 +19,7 @@ Senast uppdaterad: 2026-09-16
 
 ## Linux Mint Cinnamon – svensk l10n-QA (2026-09-16)
 
-Cinnamon-skalet är avgränsat från denna granskning. I övriga granskade Linux Mint-mallar har **69** verifierade svenska korrigeringar publicerats i Launchpad: Clockenstein (11), Mint Backup (12), MintChat (2), Mint Desktop (6), MintInstall (10), MintLocale (3), MintMenu (2), MintSources (6), MintStick (2), MintUpload (3), MintWelcome (3), MintNanny (1), Slideshow Mint (1), Web App Manager (2), Nemo (1) och Timeshift (4).
+Cinnamon-skalet är avgränsat från denna granskning. I övriga granskade Linux Mint-mallar har **105** verifierade svenska korrigeringar publicerats i Launchpad: Clockenstein (47), Mint Backup (12), MintChat (2), Mint Desktop (6), MintInstall (10), MintLocale (3), MintMenu (2), MintSources (6), MintStick (2), MintUpload (3), MintWelcome (3), MintNanny (1), Slideshow Mint (1), Web App Manager (2), Nemo (1) och Timeshift (4). Clockensteins aktuella mall innehåller 189 strängar och visar 100 % översatt; en ny PO-export har begärts för den samlade, validerade fullfilsuppladdningen.
 
 De lokala QA-underlagen innehåller **105** konkreta ändringar i 17 komponenter. Varje publicerad Launchpad-ändring har kontrollerats mot aktuell källsträng. Fullständiga PO-uppladdningar görs först från färska Launchpad-exporter, så att nyare källsträngar och samtidiga ändringar bevaras.
 
