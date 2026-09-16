@@ -211,6 +211,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Live Installer | Launchpad | 🟠 100 % inskickat – inväntar import | 165/165 | Jan-Olof Svensson | Diskradering, kryptering, EFI, LVM och anpassad partitionering granskade; validerad med msgfmt och Hunspell. |
 | Clockenstein | Launchpad | 🟠 100 % inskickat – inväntar import | 190/190 | Daniel Nylander | Kalenderkonton, CalDAV, OAuth, nyckelring och larm granskade; validerad med msgfmt och Hunspell. |
 | Mint Menu | Launchpad | 🟠 100 % inskickat – inväntar import | 132/132 | Daniel Nylander | Systemåtgärder, pakethantering, panelmeny och sökflöden granskade; validerad med msgfmt och Hunspell. |
+| Hypnotix | Launchpad | 🟠 100 % inskickat – inväntar import | 109/109 | Jan-Olof Svensson | IPTV-källor, HTTP-klientparametrar, MPV och spellistor granskade; validerad med msgfmt och Hunspell. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
