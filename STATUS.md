@@ -673,6 +673,6 @@ Alla **56** GitHub-PR-länkar i detta dokument återlästes via GitHub den 16 se
 
 Den aktiva Weblate-kön finns i [WEBLATE_250.md](WEBLATE_250.md). Samtliga 250 projekt där har en verifierad officiell GitHub-release från och med 2024-09-10; projekt som saknar en release inom två år hålls utanför den aktiva kön.
 
-Senaste komponentuppdatering: Klippers CAN-buss, PWM-verktyg, ändlägeskörning med flera MCU:er, TSL1401CL-filamentbreddssensor, paketering och skevhetskorrigering är publicerade 100 % svenska med 0 fuzzy. De fem första officiella PO-exporterna är validerade och arkiverade i `Klipper/`; skevhetskorrigeringen inväntar export.
+Senaste komponentuppdatering: Klippers CAN-buss, PWM-verktyg, ändlägeskörning med flera MCU:er, TSL1401CL-filamentbreddssensor, paketering och skevhetskorrigering är publicerade 100 % svenska med 0 fuzzy. Samtliga sex officiella PO-exporter är validerade och arkiverade i `Klipper/`.
 
 Detaljerade ändringsbeskrivningar hör hemma i respektive PR, commit eller översättningskatalog. Den här filen är avsiktligt en kort, aktuell översikt.
