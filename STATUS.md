@@ -210,6 +210,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Cinnamon Settings Daemon | Launchpad | 🟠 100 % inskickat – inväntar import | 164/164 | Jan-Olof Svensson | Ström- och UPS-varningar, automontering, åtkomlighet och utskriftsfel granskade; validerad med msgfmt och Hunspell. |
 | Live Installer | Launchpad | 🟠 100 % inskickat – inväntar import | 165/165 | Jan-Olof Svensson | Diskradering, kryptering, EFI, LVM och anpassad partitionering granskade; validerad med msgfmt och Hunspell. |
 | Clockenstein | Launchpad | 🟠 100 % inskickat – inväntar import | 190/190 | Daniel Nylander | Kalenderkonton, CalDAV, OAuth, nyckelring och larm granskade; validerad med msgfmt och Hunspell. |
+| Mint Menu | Launchpad | 🟠 100 % inskickat – inväntar import | 132/132 | Daniel Nylander | Systemåtgärder, pakethantering, panelmeny och sökflöden granskade; validerad med msgfmt och Hunspell. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
