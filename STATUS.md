@@ -207,6 +207,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Folder Color Switcher | Launchpad | 🟠 100 % inskickat – inväntar import | 23/23 | Jan-Olof Svensson | Validerad med msgfmt och Hunspell; uppladdning bekräftad av Launchpad. |
 | Fingwit | Launchpad | 🟠 100 % inskickat – inväntar import | 33/33 | Jan-Olof Svensson | Fingeravtrycksautentisering och biometriska felmeddelanden granskade; validerad med msgfmt och Hunspell. |
 | Web App Manager | Launchpad | 🟠 100 % inskickat – inväntar import | 51/51 | Daniel Nylander | Separata webbläsarprofiler, integritetsläge och borttagningsvarningar granskade; validerad med msgfmt och Hunspell. |
+| Cinnamon Settings Daemon | Launchpad | 🟠 100 % inskickat – inväntar import | 164/164 | Jan-Olof Svensson | Ström- och UPS-varningar, automontering, åtkomlighet och utskriftsfel granskade; validerad med msgfmt och Hunspell. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
