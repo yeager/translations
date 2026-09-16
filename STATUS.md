@@ -213,6 +213,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Mint Menu | Launchpad | 🟠 100 % inskickat – inväntar import | 132/132 | Daniel Nylander | Systemåtgärder, pakethantering, panelmeny och sökflöden granskade; validerad med msgfmt och Hunspell. |
 | Hypnotix | Launchpad | 🟠 100 % inskickat – inväntar import | 109/109 | Jan-Olof Svensson | IPTV-källor, HTTP-klientparametrar, MPV och spellistor granskade; validerad med msgfmt och Hunspell. |
 | Linux Mint Slideshow | Launchpad | 🟠 100 % inskickat – inväntar import | 54/54 | Daniel Nylander | Förstastartsinformation, programnamn och säkerhetsuppdateringar granskade; validerad med msgfmt och Hunspell. |
+| Nemo Extensions | Launchpad | 🟠 100 % inskickat – inväntar import | 341/341 | Jan-Olof Svensson | Samba-delning, PGP-kryptering, signaturverifiering, terminal och filkodning granskade; validerad med msgfmt och Hunspell. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
