@@ -1,0 +1,186 @@
+# Daniel Nylander <yeagersthlm@gmail.com>, 2026.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: sv\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Daniel Nylander <yeagersthlm@gmail.com>\n"
+"Language-Team: Swedish <https://hosted.weblate.org/projects/klipper/"
+"octoprint/sv/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Report-Msgid-Bugs-To: yifeiding@protonmail.com\n"
+"PO-Revision-Date: 2026-09-16 15:19+0000\n"
+"X-Generator: Weblate 2026.10.dev0\n"
+
+#: docs/OctoPrint.md:block 1 (header)
+msgid "OctoPrint for Klipper"
+msgstr "OctoPrint för Klipper"
+
+#: docs/OctoPrint.md:block 2 (paragraph)
+msgid ""
+"Klipper has a few options for its front ends, Octoprint was the first and "
+"original front end for Klipper. This document will give a brief overview of "
+"installing with this option."
+msgstr ""
+"Klipper har flera alternativ för gränssnitt. OctoPrint var Klippers första "
+"och ursprungliga gränssnitt. Det här dokumentet ger en kort översikt över "
+"installation med detta alternativ."
+
+#: docs/OctoPrint.md:block 3 (header)
+msgid "Install with OctoPi"
+msgstr "Installera med OctoPi"
+
+#: docs/OctoPrint.md:block 4 (paragraph)
+msgid ""
+"Start by installing [OctoPi](https://github.com/guysoft/OctoPi) on the "
+"Raspberry Pi computer. Use OctoPi v0.17.0 or later - see the [OctoPi "
+"releases](https://github.com/guysoft/OctoPi/releases) for release information."
+msgstr ""
+"Börja med att installera [OctoPi](https://github.com/guysoft/OctoPi) på "
+"Raspberry Pi-datorn. Använd OctoPi v0.17.0 eller senare; se [OctoPi-"
+"utgåvorna](https://github.com/guysoft/OctoPi/releases) för "
+"versionsinformation."
+
+#: docs/OctoPrint.md:block 5 (paragraph)
+msgid ""
+"One should verify that OctoPi boots and that the OctoPrint web server works. "
+"After connecting to the OctoPrint web page, follow the prompt to upgrade "
+"OctoPrint if needed."
+msgstr ""
+"Kontrollera att OctoPi startar och att OctoPrints webbserver fungerar. Efter "
+"anslutning till OctoPrints webbsida följer du uppmaningen att uppgradera "
+"OctoPrint vid behov."
+
+#: docs/OctoPrint.md:block 6 (paragraph)
+msgid ""
+"After installing OctoPi and upgrading OctoPrint, it will be necessary to ssh "
+"into the target machine to run a handful of system commands."
+msgstr ""
+"Efter installation av OctoPi och uppgradering av OctoPrint måste du ansluta "
+"via SSH till måldatorn för att köra några systemkommandon."
+
+#: docs/OctoPrint.md:block 7 (paragraph)
+msgid "Start by running these commands on your host device:"
+msgstr "Börja med att köra följande kommandon på värdenheten:"
+
+#: docs/OctoPrint.md:block 8 (paragraph)
+msgid "**If you do not have git installed, please do so with:**"
+msgstr "**Om git inte är installerat installerar du det med:**"
+
+#: docs/OctoPrint.md:block 10 (paragraph)
+msgid "then proceed:"
+msgstr "fortsätt sedan:"
+
+#: docs/OctoPrint.md:block 12 (paragraph)
+msgid ""
+"The above will download Klipper, install the needed system dependencies, setup"
+" Klipper to run at system startup, and start the Klipper host software. It "
+"will require an internet connection and it may take a few minutes to complete."
+msgstr ""
+"Kommandona ovan hämtar Klipper, installerar nödvändiga systemberoenden, "
+"konfigurerar Klipper att köras vid systemstart och startar Klippers "
+"värdprogramvara. Internetanslutning krävs och åtgärden kan ta några minuter."
+
+#: docs/OctoPrint.md:block 13 (header)
+msgid "Installing with KIAUH"
+msgstr "Installera med KIAUH"
+
+#: docs/OctoPrint.md:block 14 (paragraph)
+msgid ""
+"KIAUH can be used to install OctoPrint on a variety of Linux based systems "
+"that run a form of Debian. More information can be found at "
+"https://github.com/dw-0/kiauh"
+msgstr ""
+"KIAUH kan användas för att installera OctoPrint på flera Debian-baserade "
+"Linux-system. Mer information finns på https://github.com/dw-0/kiauh"
+
+#: docs/OctoPrint.md:block 15 (header)
+msgid "Configuring OctoPrint to use Klipper"
+msgstr "Konfigurera OctoPrint för Klipper"
+
+#: docs/OctoPrint.md:block 16 (paragraph)
+msgid ""
+"The OctoPrint web server needs to be configured to communicate with the "
+"Klipper host software. Using a web browser, login to the OctoPrint web page "
+"and then configure the following items:"
+msgstr ""
+"OctoPrints webbserver måste konfigureras för att kommunicera med Klippers "
+"värdprogramvara. Logga in på OctoPrints webbsida i en webbläsare och "
+"konfigurera sedan följande:"
+
+#: docs/OctoPrint.md:block 17 (paragraph)
+msgid ""
+"Navigate to the Settings tab (the wrench icon at the top of the page). Under "
+"\"Serial Connection\" in \"Additional serial ports\" add:"
+msgstr ""
+"Gå till fliken \"Settings\" (skiftnyckelikonen längst upp på sidan). Lägg "
+"till följande under \"Serial Connection\" i \"Additional serial ports\":"
+
+#: docs/OctoPrint.md:block 19 (paragraph)
+msgid "Then click \"Save\"."
+msgstr "Klicka sedan på \"Save\"."
+
+#: docs/OctoPrint.md:block 20 (paragraph)
+msgid "*In some older setups this address may be `/tmp/printer`*"
+msgstr "*I vissa äldre installationer kan adressen vara `/tmp/printer`.*"
+
+#: docs/OctoPrint.md:block 21 (paragraph)
+msgid ""
+"Enter the Settings tab again and under \"Serial Connection\" change the "
+"\"Serial Port\" setting to the one added above."
+msgstr ""
+"Gå till fliken \"Settings\" igen och ändra inställningen \"Serial Port\" "
+"under \"Serial Connection\" till den port som lades till ovan."
+
+#: docs/OctoPrint.md:block 22 (paragraph)
+msgid ""
+"In the Settings tab, navigate to the \"Behavior\" sub-tab and select the "
+"\"Cancel any ongoing prints but stay connected to the printer\" option. Click "
+"\"Save\"."
+msgstr ""
+"Gå till underfliken \"Behavior\" på fliken \"Settings\" och välj "
+"alternativet \"Cancel any ongoing prints but stay connected to the "
+"printer\". Klicka på \"Save\"."
+
+#: docs/OctoPrint.md:block 23 (paragraph)
+msgid ""
+"From the main page, under the \"Connection\" section (at the top left of the "
+"page) make sure the \"Serial Port\" is set to the new additional one added and"
+" click \"Connect\". (If it is not in the available selection then try "
+"reloading the page.)"
+msgstr ""
+"Kontrollera på huvudsidan, under avsnittet \"Connection\" längst upp till "
+"vänster, att \"Serial Port\" är inställd på den nya tillagda porten och "
+"klicka på \"Connect\". Om den inte finns i urvalet laddar du om sidan."
+
+#: docs/OctoPrint.md:block 24 (paragraph)
+msgid ""
+"Once connected, navigate to the \"Terminal\" tab and type \"status\" (without "
+"the quotes) into the command entry box and click \"Send\". The terminal window"
+" will likely report there is an error opening the config file - that means "
+"OctoPrint is successfully communicating with Klipper."
+msgstr ""
+"När anslutningen har upprättats går du till fliken \"Terminal\", skriver "
+"\"status\" utan citattecken i kommandofältet och klickar på \"Send\". "
+"Terminalfönstret rapporterar sannolikt ett fel när konfigurationsfilen "
+"öppnas; det betyder att OctoPrint kommunicerar korrekt med Klipper."
+
+#: docs/OctoPrint.md:block 25 (paragraph)
+msgid ""
+"Please proceed to <Installation.md> and the *Building and flashing the micro-"
+"controller* section"
+msgstr ""
+"Fortsätt till <Installation.md> och avsnittet *Bygga och flasha "
+"mikrokontrollern*"
+
+#~ msgid "sudo apt install git\n"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "cd ~\n"
+#~ "git clone https://github.com/Klipper3d/klipper\n"
+#~ "./klipper/scripts/install-octopi.sh\n"
+#~ msgstr ""
+
+#~ msgid "~/printer_data/comms/klippy.sock\n"
+#~ msgstr ""
