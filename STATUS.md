@@ -17,6 +17,12 @@ Senast uppdaterad: 2026-09-16
 
 **Färgkodning i statuskolumnen:** 🟢 100 % inskickat och mottaget/införlivat · 🟠 100 % inskickat men ännu inte införlivat · 🩷 mindre än 100 % · 🔴 inte komplett · 🔵 saknar åtkomst · ⚫ oklar status. Färgen beskriver projektets aktuella publiceringsläge; texten anger varför. Lokalt färdiga men ännu ej publicerade kataloger markeras 🔵 om åtkomst saknas, annars ⚫ tills publiceringsvägen är bekräftad.
 
+## Linux Mint Cinnamon – svensk l10n-QA (2026-09-16)
+
+Cinnamon-skalet är avgränsat från denna granskning. I övriga granskade Linux Mint-mallar har **69** verifierade svenska korrigeringar publicerats i Launchpad: Clockenstein (11), Mint Backup (12), MintChat (2), Mint Desktop (6), MintInstall (10), MintLocale (3), MintMenu (2), MintSources (6), MintStick (2), MintUpload (3), MintWelcome (3), MintNanny (1), Slideshow Mint (1), Web App Manager (2), Nemo (1) och Timeshift (4).
+
+De lokala QA-underlagen innehåller **105** konkreta ändringar i 17 komponenter. Varje publicerad Launchpad-ändring har kontrollerats mot aktuell källsträng. Fullständiga PO-uppladdningar görs först från färska Launchpad-exporter, så att nyare källsträngar och samtidiga ändringar bevaras.
+
 ## Codeberg Weblate – svensk indexering 2026-09-12
 
 Den publika Codeberg Weblate-API:n indexerades projekt för projekt: **605** projekt totalt, **54** med en svensk språkpost och **551** utan svensk post. Av de svenska posterna är **24** helt översatta utan fuzzy-poster; **30** behöver arbete. Fullt, maskinläsbart underlag för samtliga 605 projekt finns i `work/codeberg-weblate-index/swedish-project-status.jsonl`; sammanfattningen finns i `work/codeberg-weblate-index/summary.json`. Siffran *kontroller* nedan är Weblates aktuella antal kontrollvarningar och innebär att en 100 %-rad ändå behöver språklig kontroll innan den räknas som granskad.
