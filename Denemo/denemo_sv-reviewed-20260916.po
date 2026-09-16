@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: denemo-2.6-rc2\n"
 "Report-Msgid-Bugs-To: denemo-devel@gnu.org\n"
 "POT-Creation-Date: 2021-12-08 10:57+0000\n"
-"PO-Revision-Date: 2026-03-08 09:10+0100\n"
+"PO-Revision-Date: 2026-09-16 21:20+0200\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "Language: sv\n"
@@ -2485,7 +2485,7 @@ msgstr "Här finns notsystemets stämma(er) - klav, taktart, tonart och musik fi
 
 #: ../src/command/scorelayout.c:1612
 msgid "Staff End"
-msgstr "Personalens slut"
+msgstr "Slut på notsystem"
 
 #: ../src/command/scorelayout.c:1612
 #, c-format
@@ -2495,11 +2495,11 @@ msgstr "notsystem %d Slut"
 #. things like transpose whole score etc
 #: ../src/command/scorelayout.c:1677
 msgid "The Staff"
-msgstr "Personalen"
+msgstr "Notsystemet"
 
 #: ../src/command/scorelayout.c:1677
 msgid "The Staffs"
-msgstr "Staberna"
+msgstr "Notsystemen"
 
 #: ../src/command/scorelayout.c:1679
 msgid "This holds the staffs below which are the voices with the music."
@@ -2733,7 +2733,7 @@ msgstr ""
 #. ******* built-in commands
 #: ../src/core/entries.h:3
 msgid "Selection Cursor Left"
-msgstr "Urval Cursor Vänster"
+msgstr "Markera åt vänster"
 
 #: ../src/core/entries.h:3
 msgid "Moves the cursor one object left, altering the selection if any"
@@ -2757,7 +2757,7 @@ msgstr "Flyttar markören ett skalsteg nedåt"
 
 #: ../src/core/entries.h:6
 msgid "Cursor Up"
-msgstr "Cursor upp"
+msgstr "Markör upp"
 
 #: ../src/core/entries.h:6
 msgid "Moves the cursor one scale step up"
@@ -5153,7 +5153,7 @@ msgstr "Välj till Början"
 
 #: ../src/core/entries.h:326
 msgid "Cursor to start of staff/voice, extending selection if any"
-msgstr "Cursor till början av notsystem/stämma, förlänga urvalet om det finns något"
+msgstr "Markör till början av notsystem/stämma; utöka markeringen om den finns"
 
 #: ../src/core/entries.h:327
 msgid "Select to End"
@@ -5169,11 +5169,11 @@ msgstr "Flytta till början av notsystem/stämma"
 
 #: ../src/core/entries.h:328 ../src/core/menusystem.c:1599
 msgid "Cursor to start of staff/voice, without extending selection if any"
-msgstr "Cursor till början av notsystem/stämma, utan att förlänga eventuellt urval"
+msgstr "Markör till början av notsystem/stämma utan att utöka eventuell markering"
 
 #: ../src/core/entries.h:329 ../src/core/menusystem.c:1604
 msgid "Move to Staff/Voice End"
-msgstr "Flytta till Personal/Röst Slut"
+msgstr "Flytta till slutet av notsystem/stämma"
 
 #: ../src/core/entries.h:329 ../src/core/menusystem.c:1612
 msgid "Cursor to end of staff/voice, without extending selection if any"
@@ -5739,7 +5739,7 @@ msgstr ""
 
 #: ../src/core/entries.h:380
 msgid "Cursor to Note"
-msgstr "Cursor till not"
+msgstr "Markör till not"
 
 #: ../src/core/entries.h:380
 msgid ""
@@ -8638,7 +8638,7 @@ msgstr "Om markerat är den aktuella satsn omtypad vid varje ändring"
 
 #: ../src/printview/printview.c:2511
 msgid "Cursor Context"
-msgstr "Cursor-kontext"
+msgstr "Markörsammanhang"
 
 #: ../src/printview/printview.c:2513
 msgid "If checked the range around the current cursor position is re-typeset at every change or when the cursor moves out of range."
@@ -10037,7 +10037,7 @@ msgstr "Den här stavgrupperingen har inget ändstöd så den avslutas på den l
 
 #: ../src/ui/mousing.c:1432
 msgid "Click on Staff Directives."
-msgstr "Klicka på Personaldirektiv."
+msgstr "Klicka på Notsystemsdirektiv."
 
 #: ../src/ui/mousing.c:1432
 msgid "This pops up the staff directives menu for editing"
@@ -11767,7 +11767,7 @@ msgstr "(Display) Automatisk justering av stavens höjd"
 
 #: ../actions/denemo.scm:1547
 msgid "Staff spacing will be automatically adjusted"
-msgstr "Personalavståndet kommer att justeras automatiskt"
+msgstr "Avståndet mellan notsystemen justeras automatiskt"
 
 #: ../actions/denemo.scm:1555
 msgid "(Display) Show All Staffs"
@@ -11909,11 +11909,11 @@ msgstr " vid markören."
 
 #: ../actions/menus/MainMenu/EditMenu/Delete/DeleteDirective.scm:24
 msgid "No Directive at Cursor Position"
-msgstr "Inget direktiv vid Cursor Position"
+msgstr "Inget direktiv vid markörpositionen"
 
 #: ../actions/menus/MainMenu/EditMenu/Delete/DeleteDirective.xml.h:1
 msgid "Delete Directive at Cursor."
-msgstr "Ta bort direktiv hos Cursor."
+msgstr "Ta bort direktivet vid markören."
 
 #: ../actions/menus/MainMenu/EditMenu/Delete/DeleteDirective.xml.h:2
 msgid "Deletes a Denemo Directive at the cursor. This may be a standalone directive or one attached to a object. Position the cursor at the note height when the directive is attached to just one note in a chord, alternatively not at a note height if the directive is attached to the chord as a whole."
@@ -14142,7 +14142,7 @@ msgstr "Söker efter ett namngivet bokmärke i den aktuella notsystemet."
 
 #: ../actions/menus/MainMenu/NavigationMenu/Cursor/CursorToHighestNote.xml.h:1
 msgid "Cursor to Highest Note"
-msgstr "Cursor till högsta not"
+msgstr "Markör till högsta not"
 
 #: ../actions/menus/MainMenu/NavigationMenu/Cursor/CursorToHighestNote.xml.h:2
 msgid "Moves the cursor to the highest note on current horizontal position (in a chord or on a single note)"
@@ -14150,7 +14150,7 @@ msgstr "Flyttar markören till den högsta noten på den aktuella horisontella p
 
 #: ../actions/menus/MainMenu/NavigationMenu/Cursor/CursorToLowestNote.xml.h:1
 msgid "Cursor to Lowest Note"
-msgstr "Cursor till lägsta not"
+msgstr "Markör till lägsta not"
 
 #: ../actions/menus/MainMenu/NavigationMenu/Cursor/CursorToLowestNote.xml.h:2
 msgid "Moves the cursor to the lowest note on current horizontal position (in a chord or on a single note)"
@@ -14226,7 +14226,7 @@ msgstr "Flyttar till den bifogade positionen i staben ovan."
 
 #: ../actions/menus/MainMenu/NavigationMenu/Cursor/ToNextNote.xml.h:1
 msgid "Cursor To Next Note"
-msgstr "Cursor till nästa not"
+msgstr "Markör till nästa not"
 
 #: ../actions/menus/MainMenu/NavigationMenu/Cursor/ToNextNote.xml.h:2
 msgid "Moves to the next note, topping at blank measures. Sounds a warning if no more notes."
@@ -14833,7 +14833,7 @@ msgstr "Reposition i förhållande till slutet"
 
 #: ../actions/menus/MainMenu/PlaybackMenu/Recording/SetMarkedMidiFromEnd.xml.h:2
 msgid "Asks for a number of seconds back from the end of the recording which you want to synchronize with the Denemo Cursor. Use this to find and position a passage you have just recorded ready for transcribing."
-msgstr "Frågar efter ett antal sekunder tillbaka från slutet av inspelningen som du vill synkronisera med Denemo Cursor. Använd detta för att hitta och positionera en passage som du just har spelat in och som är redo för transkribering."
+msgstr "Frågar hur många sekunder före inspelningens slut som ska synkroniseras med Denemo-markören. Använd detta för att hitta och placera en nyinspelad passage som är klar för transkribering."
 
 #: ../actions/menus/MainMenu/PlaybackMenu/Recording/SyncRecordingToCursor.scm:4
 msgid "No Recorded MIDI note is marked."
@@ -26893,7 +26893,7 @@ msgstr "Dämpar det aktuella notsystemet. Påverkar endast uppspelning."
 
 #: ../actions/menus/ObjectMenu/StaffMenu/Playback/SetInitialVolumeToZero.xml.h:2
 msgid "Mutes playback on this staff by placing a volume=zero directive at the start."
-msgstr "Dämpar uppspelningen på denna notsystem genom att placera ett volym=noll-direktiv i början."
+msgstr "Dämpar uppspelningen i detta notsystem genom att placera ett volym=noll-direktiv i början."
 
 #: ../actions/menus/ObjectMenu/StaffMenu/Playback/StaffRemoveCustomDurations.xml.h:1
 msgid "Remove Custom Durations (Swing/Graces)"
@@ -27074,7 +27074,7 @@ msgstr "(Print) Ambitus på/av"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/Ambitus.xml.h:2
 msgid "Toggle the ambitus engraver for this staff on or off"
-msgstr "Slå på eller av ambitusgraveringen för denna notsystem"
+msgstr "Slå på eller av ambitusgraveringen för detta notsystem"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/AssignInstrument.scm:7
 msgid "Copy and Paste the music from the old staffs to the new, and then delete the old staffs"
@@ -27297,7 +27297,7 @@ msgstr "Ange kort namn på instrumentet:"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/ShortInstrumentName.xml.h:2
 msgid "Prints shortened form of instrument name before this staff for second and subsequent systems"
-msgstr "Skriver ut förkortad form av instrumentets namn före denna notsystem för andra och efterföljande system"
+msgstr "Skriver ut instrumentets förkortade namn före detta notsystem i andra och efterföljande system"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SmallerStaff.xml.h:1
 msgid "Smaller Staff"
@@ -27309,7 +27309,7 @@ msgstr "Det aktuella notsystemet kommer att skrivas ut i mindre storlek. Använd
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/StaffComment.scm:4
 msgid "comment for this staff"
-msgstr "kommentar för denna notsystem"
+msgstr "kommentar för detta notsystem"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/StaffComment.scm:5
 msgid "Staff Comment"
@@ -27321,7 +27321,7 @@ msgstr "Ge kommentarstext för nuvarande notsystem "
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/StaffComment.xml.h:2
 msgid "Saves textual comments for this staff"
-msgstr "Sparar textkommentarer för denna notsystem"
+msgstr "Sparar textkommentarer för detta notsystem"
 
 #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/StaffOctaveUp.xml.h:1
 msgid "(Print) Octave Up"
