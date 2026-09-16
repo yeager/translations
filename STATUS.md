@@ -203,6 +203,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Mint Upload | Launchpad | 🟠 100 % inskickat – inväntar import | 64/64 | Daniel Nylander | Validerad med msgfmt och Hunspell; uppladdning bekräftad av Launchpad. |
 | MintStick | Launchpad | 🟠 100 % inskickat – inväntar import | 77/77 | Daniel Nylander | ISO-, kontrollsumme- och GPG-flöden granskade; validerad med msgfmt och Hunspell. |
 | MintInstall | Launchpad | 🟠 100 % inskickat – inväntar import | 129/129 | Daniel Nylander | Paket-, Flatpak- och säkerhetsvarningar granskade; validerad med msgfmt och Hunspell. |
+| Mint Desktop | Launchpad | 🟠 100 % inskickat – inväntar import | 105/105 | Daniel Nylander | Fönsterhanterare, skalning och skrivbordsinställningar granskade; validerad med msgfmt och Hunspell. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
