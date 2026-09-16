@@ -163,6 +163,42 @@ Alla **56** GitHub-PR-länkar i detta dokument återlästes via GitHub den 16 se
 | GnuPG | `repositories/translations/GnuPG/gnupg.sv.po` | `Daniel Nylander <github@danielnylander.se>` |
 | Remmina | `repositories/translations/Remmina/sv.po` | `Daniel Nylander <daniel@danielnylander.se>` |
 
+## Linux Mint / Launchpad – inskickade 2026-09-16
+
+Samtliga poster nedan är 100 % översatta, manuellt språkgranskade och
+validerade med `msgfmt` samt hunspell-sv. Launchpad bekräftade mottagandet
+för varje fil; plattformen anger därefter automatisk eller manuell
+importgranskning. Status är därför 🟠 tills officiell återläsning bekräftar
+införlivande. Arkivfilerna finns i `repositories/translations/` och i den
+aktuella synkkopian `work/translations-status-push/`.
+
+| Projekt | Plattform | Status | Svenska strängar | Last-Translator i källfil | Nästa steg |
+|---|---|---|---:|---|---|
+| Xviewer | Launchpad | 🟠 100 % inskickat – inväntar import | 295/295 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Xreader | Launchpad | 🟠 100 % inskickat – inväntar import | 358/358 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Warpinator | Launchpad | 🟠 100 % inskickat – inväntar import | 183/183 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Nanny | Launchpad | 🟠 100 % inskickat – inväntar import | 10/10 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Chat | Launchpad | 🟠 100 % inskickat – inväntar import | 21/21 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Backup | Launchpad | 🟠 100 % inskickat – inväntar import | 62/62 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| GNOME Online Accounts GTK | Launchpad | 🟠 100 % inskickat – inväntar import | 14/14 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Ubiquity | Launchpad | 🟠 100 % inskickat – inväntar import | 2/2 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| NVIDIA Prime Applet | Launchpad | 🟠 100 % inskickat – inväntar import | 15/15 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Common | Launchpad | 🟠 100 % inskickat – inväntar import | 28/28 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Cinnamon Session | Launchpad | 🟠 100 % inskickat – inväntar import | 39/39 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| XApp | Launchpad | 🟠 100 % inskickat – inväntar import | 36/36 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Thingy | Launchpad | 🟠 100 % inskickat – inväntar import | 11/11 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Slick Greeter | Launchpad | 🟠 100 % inskickat – inväntar import | 49/49 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Sticky | Launchpad | 🟠 100 % inskickat – inväntar import | 112/112 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| XFCE4 XApp Status Plugin | Launchpad | 🟠 100 % inskickat – inväntar import | 15/15 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Locale | Launchpad | 🟠 100 % inskickat – inväntar import | 78/78 | Daniel Nylander | Återläs efter Launchpads import. |
+| Mint Sources | Launchpad | 🟠 100 % inskickat – inväntar import | 109/109 | Daniel Nylander | Återläs efter Launchpads import. |
+| Mint Update | Launchpad | 🟠 100 % inskickat – inväntar import | 226/226 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Drivers | Launchpad | 🟠 100 % inskickat – inväntar import | 40/40 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| LightDM Settings | Launchpad | 🟠 100 % inskickat – inväntar import | 74/74 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Sysadmin | Launchpad | 🟠 100 % inskickat – inväntar import | 27/27 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Report | Launchpad | 🟠 100 % inskickat – inväntar import | 140/140 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+| Mint Upgrade | Launchpad | 🟠 100 % inskickat – inväntar import | 122/122 | Jan-Olof Svensson | Återläs efter Launchpads import. |
+
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
 | Projekt | Plattform | Status | Svenskt nuläge | Nästa steg |
