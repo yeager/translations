@@ -56,20 +56,23 @@ Den publika Codeberg Weblate-API:n indexerades projekt för projekt: **605** pro
 
 Helt översatta utan fuzzy-poster: Auto Tab Opener, Bavarder, ConfluenceMOD, Conversations, Custom menu, efy, F-Droid Classic, F-Droid_Build_Status, Glossaico, GtkFalse, GymRoutines, Here Comes The Sun Fediverse Bot, Imaginer, jdAnimatedImageEditor, jdDiff, librariesDirect, Nextcloud Cookbook (Android App), pdftools, radioMii, searxng, Sijacom, skin.pm3.hd, TBlock och usageDirect. De är **inte** automatiskt slutgranskade enbart för att täckningen är 100 %; Weblate rapporterar kvarvarande kontrollvarningar i Bavarder, ConfluenceMOD, Conversations, Custom menu, efy, F-Droid Classic, Imaginer, librariesDirect och skin.pm3.hd.
 
-## OSGeo Weblate – svensk indexering 2026-09-13
+## OSGeo Weblate – svensk indexering 2026-09-16
 
-OSGeo Weblate är nu registrerat som en egen officiell översättningskanal. Instansens API och projektsidor skyddas för automatiserade hämtningar av Cloudflare (403/verifieringssida), så detta första index bygger på de senast indexerade publika projektsidorna och måste återläsas i Weblate före varje publicering. Ingen översättning har skickats in i samband med indexeringen. Procent och kontrollantal nedan är därför en nulägesbild från den senaste publika indexeringen, inte ett godkännande av språkgranskning.
+OSGeo Weblate är nu indexerat via den inloggade officiella vyn. Direkta API-anrop från arbetsmiljön stoppas fortfarande av Cloudflare, men den svenska projektvyn har lästs för samtliga aktuella projekt. Ingen översättning har skickats in i samband med indexeringen. Täckning är inte i sig ett godkännande av språkgranskning.
 
 | Projekt | Svenskt nuläge | Prioritet / anmärkning |
 |---|---|---|
-| [GeoServer](https://weblate.osgeo.org/projects/geoserver/-/sv/) | 🩷 **2 346/3 170 (74 %)**; 7 behöver redigeras, 817 oöversatta, 150 kontroller | Hög: webbgränssnittets kärnkomponenter prioriteras av projektet. Använd språkkod `sv`. |
-| [GRASS GIS](https://weblate.osgeo.org/projects/grass-gis/-/sv/) | 🩷 **99 %**, 30 551 värdsträngar; 153 ofärdiga och 78 kontroller i den publika statistiken | Hög: skilj den levande OSGeo-resursen från den lokalt granskade modulfilen nedan. Senaste visade ändringshistorik var 2026-06-22. |
-| [PostGIS](https://weblate.osgeo.org/projects/postgis/) | 🔴 **0 %** svenska i den publika projektstatistiken | Hög GIS-prioritet. Svensk post finns, men är i praktiken tom och ska inte påbörjas utan lokal helhetsgranskning av den aktuella exporten. |
-| [pgRouting](https://weblate.osgeo.org/projects/pgrouting/) | 🩷 **99 %** svenska; 20 ofärdiga enligt publik projektsammanställning | Medel: kontrollera de få kvarvarande strängarna och den aktuella mallen innan ett samlat inskick. |
-| [OSGeoLive](https://weblate.osgeo.org/projects/osgeolive/) | ⚫ **100 %** svenska, 66 kontrollvarningar | Dokumentation/lägre prioritet. 100 % är inte slutgranskat så länge kontroller kvarstår. |
-| [PostGIS Workshop](https://weblate.osgeo.org/projects/postgis-workshop/) | ⚫ **100 %** svenska, 189 kontrollvarningar och 9 förslag | Dokumentation/lägre prioritet. Behandla kontrollvarningarna före eventuellt inskick. |
-
-Den befintliga raden för QGIS Desktop avser dess aktiva Transifex-resurs och ändras inte av OSGeo-indexet. Övriga OSGeo-projekt ska läggas till först när en svensk språkpost kan avläsas från den officiella vyn; det undviker att statusdokumentet fylls med gissade nollor.
+| [DigiAgriApp](https://weblate.osgeo.org/projects/digiagriapp/-/sv/) | 🩷 **997 strängar, 82 %** | Medel: jordbruks- och GIS-app; icke komplett svensk resurs. |
+| [GRASS GIS](https://weblate.osgeo.org/projects/grass-gis/-/sv/) | 🩷 **30 728 strängar, 97 %**; 365 ofärdiga (167 tomma, 198 behöver redigeras), 499 kontroller | Hög: skilj den levande OSGeo-resursen från den lokalt granskade modulfilen nedan. |
+| [GTT Project](https://weblate.osgeo.org/projects/gtt-project/-/sv/) | 🩷 **483 strängar, 76 %** | Medel: aktiv svensk resurs, men kräver komplett lokal genomgång före inskick. |
+| [GeoServer](https://weblate.osgeo.org/projects/geoserver/-/sv/) | 🩷 **3 170 strängar, 69 %** | Hög: webbgränssnittets kärnkomponenter. Använd `sv`. |
+| [OSGeoLive](https://weblate.osgeo.org/projects/osgeolive/-/sv/) | 🩷 **6 780 strängar, 99 %** | Dokumentation/lägre prioritet; slutgranska återstående enheter och kontroller före publicering. |
+| QGIS (OSGeo-spegel) | ⚫ **0/0** | Saknar egen aktiv svensk källresurs på OSGeo. QGIS Desktop följs i sin aktiva Transifex-resurs. |
+| [pgRouting](https://weblate.osgeo.org/projects/pgrouting/-/sv/) | 🩷 **5 422 strängar, 91 %** | Medel: databastillägg för väg-/ruttanalys; full lokal helhetsgranskning krävs. |
+| [pgRouting workshop](https://weblate.osgeo.org/projects/pgrouting-workshop/-/sv/) | 🩷 **1 470 strängar, 94 %** | Dokumentation/lägre prioritet. |
+| [PostGIS](https://weblate.osgeo.org/projects/postgis/-/sv/) | 🩷 **6 218 strängar, 72 %** | Hög GIS-prioritet; svensk resurs är långt från komplett. |
+| [PostGIS workshop](https://weblate.osgeo.org/projects/postgis-workshop/-/sv/) | 🩷 **2 200 strängar, 87 %** | Dokumentation/lägre prioritet. |
+| OSGeo sandbox | ⚫ **0/0** | Testprojekt utan översättningsbara svenska källsträngar; ej en kandidat. |
 
 ## Nedprioriterat – senaste release äldre än två år
 
