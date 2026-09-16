@@ -17,6 +17,10 @@ Senast uppdaterad: 2026-09-16
 
 **Färgkodning i statuskolumnen:** 🟢 100 % inskickat och mottaget/införlivat · 🟠 100 % inskickat men ännu inte införlivat · 🩷 mindre än 100 % · 🔴 inte komplett · 🔵 saknar åtkomst · ⚫ oklar status. Färgen beskriver projektets aktuella publiceringsläge; texten anger varför. Lokalt färdiga men ännu ej publicerade kataloger markeras 🔵 om åtkomst saknas, annars ⚫ tills publiceringsvägen är bekräftad.
 
+## Linux Mint Cinnamon – svensk l10n-QA (2026-09-16)
+
+Cinnamon-skalet är undantaget. I de övriga svenska Linux Mint-mallarna har **105** verifierade korrigeringar publicerats i Launchpad. Clockensteins aktuella mall är **189/189 översatt** och omfattar 47 av korrigeringarna. Exportbegäran är bekräftad för samtliga **50** komponenter i avgränsningen. Varje färsk PO-fil ska först tas emot från Launchpad, sammanfogas med de dokumenterade ändringarna och formatvalideras innan den laddas upp igen.
+
 ## Codeberg Weblate – svensk indexering 2026-09-12
 
 Den publika Codeberg Weblate-API:n indexerades projekt för projekt: **605** projekt totalt, **54** med en svensk språkpost och **551** utan svensk post. Av de svenska posterna är **24** helt översatta utan fuzzy-poster; **30** behöver arbete. Fullt, maskinläsbart underlag för samtliga 605 projekt finns i `work/codeberg-weblate-index/swedish-project-status.jsonl`; sammanfattningen finns i `work/codeberg-weblate-index/summary.json`. Siffran *kontroller* nedan är Weblates aktuella antal kontrollvarningar och innebär att en 100 %-rad ändå behöver språklig kontroll innan den räknas som granskad.
