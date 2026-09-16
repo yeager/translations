@@ -204,6 +204,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | MintStick | Launchpad | 🟠 100 % inskickat – inväntar import | 77/77 | Daniel Nylander | ISO-, kontrollsumme- och GPG-flöden granskade; validerad med msgfmt och Hunspell. |
 | MintInstall | Launchpad | 🟠 100 % inskickat – inväntar import | 129/129 | Daniel Nylander | Paket-, Flatpak- och säkerhetsvarningar granskade; validerad med msgfmt och Hunspell. |
 | Mint Desktop | Launchpad | 🟠 100 % inskickat – inväntar import | 105/105 | Daniel Nylander | Fönsterhanterare, skalning och skrivbordsinställningar granskade; validerad med msgfmt och Hunspell. |
+| Folder Color Switcher | Launchpad | 🟠 100 % inskickat – inväntar import | 23/23 | Jan-Olof Svensson | Validerad med msgfmt och Hunspell; uppladdning bekräftad av Launchpad. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
