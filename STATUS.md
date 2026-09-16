@@ -214,6 +214,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Hypnotix | Launchpad | 🟠 100 % inskickat – inväntar import | 109/109 | Jan-Olof Svensson | IPTV-källor, HTTP-klientparametrar, MPV och spellistor granskade; validerad med msgfmt och Hunspell. |
 | Linux Mint Slideshow | Launchpad | 🟠 100 % inskickat – inväntar import | 54/54 | Daniel Nylander | Förstastartsinformation, programnamn och säkerhetsuppdateringar granskade; validerad med msgfmt och Hunspell. |
 | Nemo Extensions | Launchpad | 🟠 100 % inskickat – inväntar import | 341/341 | Jan-Olof Svensson | Samba-delning, PGP-kryptering, signaturverifiering, terminal och filkodning granskade; validerad med msgfmt och Hunspell. |
+| OpenWrt LuCI Tor | Weblate | 🟠 100 % inskickat – inväntar import | 21/21 | Jonatan Nyberg | Onion-tjänster, portvidarebefordran och Tor-konfiguration granskade; Weblate accepterade 2 rättningar. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
