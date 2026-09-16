@@ -199,6 +199,7 @@ aktuella synkkopian `work/translations-status-push/`.
 | Mint Report | Launchpad | 🟠 100 % inskickat – inväntar import | 140/140 | Jan-Olof Svensson | Återläs efter Launchpads import. |
 | Mint Upgrade | Launchpad | 🟠 100 % inskickat – inväntar import | 122/122 | Jan-Olof Svensson | Återläs efter Launchpads import. |
 | Mint Welcome | Launchpad | 🟠 100 % inskickat – inväntar import | 38/38 | Daniel Nylander | Validerad med msgfmt och Hunspell; uppladdning bekräftad av Launchpad. |
+| Timeshift | Launchpad | 🟠 100 % inskickat – inväntar import | 571/571 | Daniel Nylander | Full granskning av återställning, BTRFS/RSYNC och krypteringsflöden; validerad med msgfmt och Hunspell. |
 
 ## Aktivt, väntar på granskning eller saknar åtkomst
 
