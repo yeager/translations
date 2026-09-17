@@ -36,7 +36,7 @@ Den publika Codeberg Weblate-API:n indexerades projekt för projekt: **605** pro
 | [inventshare](https://translate.codeberg.org/projects/inventshare/) | 🔴 0/78, 0 fuzzy, 0 kontroller |
 | [JoinJabber](https://translate.codeberg.org/projects/joinjabber/) | 🩷 253/971 (26 %), 57 fuzzy, 19 kontroller |
 | [Kbin](https://translate.codeberg.org/projects/kbin/) | 🩷 76/755 (10 %), 5 fuzzy, 1 kontroll |
-| [LASK](https://translate.codeberg.org/projects/lask/) | 🔴 0/342, 0 fuzzy, 0 kontroller |
+| [LASK](https://translate.codeberg.org/projects/lask/) | 🟢 342/342 (100 %), 0 ofärdiga – 16 befintliga kontroller | Direktkontroll i Codeberg Translate 2026-09-17 visar att hela den svenska katalogen är översatt. Kontrollera de 16 kvalitetsmarkeringarna separat innan nya ändringar görs; ingen ny svensk import behövs nu. |
 | [MediLog](https://translate.codeberg.org/projects/medilog/) | 🩷 374/593 (63 %), 18 fuzzy, 8 kontroller |
 | [Megalodon](https://translate.codeberg.org/projects/megalodon/) | 🩷 190/456 (41,6 %), 0 fuzzy, 2 kontroller |
 | [MintApps](https://translate.codeberg.org/projects/mintapps/) | 🩷 Officiellt index: 1 768/1 963 (90 %), 42 fuzzy, 26 kontroller. Lokal källjämförelse: 1 969/1 969 nycklar i huvudkatalogen, med fem nya svenska SyncServer-strängar i deltafil. Fuzzy och kontrollvarningar måste fortfarande granskas i Weblate före inskick. |
