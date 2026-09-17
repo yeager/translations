@@ -1,0 +1,606 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blender 5.3.0 Alpha (b'2cef5b8c951a')\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-09-14 07:47+0000\n"
+"PO-Revision-Date: 2026-09-13 11:23+0000\n"
+"Last-Translator: Daniel Nylander <blender@danielnylander.se>\n"
+"Language-Team: Swedish <https://translate.blender.org/projects/blender-ui/ui/sv/>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.6.1\n"
+"X-Review-Part: 20/20\n"
+"X-Review-Scope: Changed Swedish Blender UI entries only\n"
+
+msgid "Tearing Threshold"
+msgstr "Sönderrivningströskel"
+
+msgid ""
+"The higher the value, the stronger the stress required to tear an edge."
+msgstr ""
+"Ju högre värde, desto större belastning krävs för att slita sönder en kant."
+
+msgid "Tearing Voronoi Scale"
+msgstr "Voronoi-skala för sönderrivning"
+
+msgid "Scale of Voronoi patches whose boundaries can tear."
+msgstr "Skala för Voronoi-patchar vars gränser kan rivas sönder."
+
+msgid "Collider"
+msgstr "Kolliderare"
+
+msgid "Set up a mesh as an external colliider"
+msgstr "Konfigurera ett nät som extern kolliderare"
+
+msgid ""
+"If true, the simulated geometry should stay within the mesh instead of it "
+"being pushed out of it."
+msgstr ""
+"Om sant ska den simulerade geometrin stanna inom nätet i stället för att "
+"pressas ut ur det."
+
+msgid "The collider effector bundle that can be passed into a simulation."
+msgstr "Kolliderareffektorpaketet som kan skickas till en simulering."
+
+msgid "Debug settings."
+msgstr "Felsökningsinställningar."
+
+msgid "Whether the collider geometry is changing."
+msgstr "Om kolliderargeometrin ändras."
+
+msgid "Edge Contacts"
+msgstr "Kantkontakter"
+
+msgid ""
+"Increased collision accuracy (only for collisions with curves/hair "
+"currently)."
+msgstr ""
+"Ökad kollisionsnoggrannhet (för närvarande endast för kollisioner med "
+"kurvor/hår)."
+
+msgid "Error Threshold"
+msgstr "Feltröskel"
+
+msgid ""
+"Used to compute a relative error of this constraint to determine solve "
+"quality."
+msgstr ""
+"Används för att beräkna ett relativt fel för denna begränsning och avgöra "
+"lösningens kvalitet."
+
+msgid "Comma-separated list of tags this collider should apply to."
+msgstr ""
+"Kommaseparerad lista med taggar som denna kolliderare ska tillämpas på."
+
+msgid "Filter settings."
+msgstr "Filterinställningar"
+
+msgid "Friction coefficient for this collider."
+msgstr "Friktionskoefficient för den här kollideraren."
+
+msgid "Additional margin around the collider to prevent penetration."
+msgstr ""
+"Ytterligare marginal kring kollideraren för att förhindra genomträngning."
+
+msgid "Increasing softness allows some penetration."
+msgstr "Ökad mjukhet tillåter viss genomträngning."
+
+msgid "Index of each curve"
+msgstr "Index för varje kurva"
+
+msgid "Reads information about each point's previous curve segment"
+msgstr "Läser information om varje punkts föregående kurvsegment"
+
+msgid "Index of the previous neighboring point on the segment"
+msgstr "Index för föregående angränsande punkt på segmentet"
+
+msgid "Direction from the previous neighboring point on the segment"
+msgstr "Riktning från föregående närliggande punkt på segmentet"
+
+msgid "Distance to the previous point on the curve"
+msgstr "Avstånd till föregående punkt på kurvan"
+
+msgid "Custom Effector"
+msgstr "Anpassad effektor"
+
+msgid "Create a custom effect on geometry during simulation"
+msgstr "Skapa en anpassad effekt på geometri under simulering"
+
+msgid "A bundle containing all information about this effector."
+msgstr "Ett paket som innehåller all information om den här effektorn."
+
+msgid "Comma-separated list of tags this effector should apply to."
+msgstr "Kommaseparerad lista med taggar som denna effektor ska tillämpas på."
+
+msgid "Geometry Effector"
+msgstr "Geometrieffektor"
+
+msgid "Closure effecting one geometry at a time."
+msgstr "Closure som påverkar en geometri åt gången."
+
+msgid "Stage"
+msgstr "Steg"
+
+msgid "At which stage the custom effector should be evaluated."
+msgstr "Vid vilket steg den anpassade effektorn ska utvärderas."
+
+msgid "Custom stage name."
+msgstr "Anpassat stegnamn."
+
+msgid "The type of effector to create."
+msgstr "Typ av effektor att skapa."
+
+msgid "World Effector"
+msgstr "Världseffektor"
+
+msgid "Closure modifying an entire (simulation) world at once."
+msgstr "Closure som ändrar en hel (simulerings)värld på en gång."
+
+msgid "Evaluate the effector at a custom stage supported by the solver."
+msgstr "Utvärdera effektorn vid ett anpassat steg som stöds av lösaren."
+
+msgid "Evaluate the effector at the default stage."
+msgstr "Utvärdera effektorn vid standardsteget."
+
+msgid ""
+"A geometry effector evaluates a closure on each geometry individually, while"
+" taking some filter into account."
+msgstr ""
+"En geometrieffektor utvärderar en Closure för varje geometri individuellt"
+" och tar samtidigt hänsyn till ett filter."
+
+msgid "Post-Solve"
+msgstr "Efter lösning"
+
+msgid "Evaluate the effector after the solver ran."
+msgstr "Utvärdera effektorn efter att lösaren har körts."
+
+msgid "Pre-Simulation"
+msgstr "Före simulering"
+
+msgid "Evaluate the effector on the geometry before it is simulated."
+msgstr "Utvärdera effektorn på geometrin innan den simuleras."
+
+msgid "Pre-Solve"
+msgstr "Före lösning"
+
+msgid "Evaluate the effector before the actual solver runs."
+msgstr "Utvärdera effektorn innan den faktiska lösaren körs."
+
+msgid "A world effector evaluates a closure on world bundle."
+msgstr "En världseffektor utvärderar en Closure för världspaketet."
+
+msgid "Custom Force"
+msgstr "Anpassad kraft"
+
+msgid "Apply a custom force to simulated geometry"
+msgstr "Tillämpa en anpassad kraft på simulerad geometri"
+
+msgid "The closure computing the force at each point of the input geometry."
+msgstr "Avslutningen som beräknar kraften vid varje punkt i indatageometrin."
+
+msgid "Comma-separated list of tags this effector should be applied to."
+msgstr "Kommaseparerad lista med taggar som denna effektor ska tillämpas på."
+
+msgid "The actual force vector."
+msgstr "Den faktiska kraftvektorn."
+
+msgid "Force Space"
+msgstr "Kraftrymd"
+
+msgid "Custom force space."
+msgstr "Anpassad kraftrymd."
+
+msgid "Force space settings."
+msgstr "Inställningar för kraftrymd."
+
+msgid "The space the provided force vector is in."
+msgstr "Utrymmet som den angivna kraftvektorn är i."
+
+msgid "Custom geometry space."
+msgstr "Anpassad geometrirymd."
+
+msgid "Geometry space settings."
+msgstr "Inställningar för geometrirymd."
+
+msgid ""
+"The space the geometry is transformed to before the field is evaluated."
+msgstr "Utrymmet som geometrin transformeras till innan fältet utvärderas."
+
+msgid "How the force field is defined."
+msgstr "Hur kraftfältet definieras."
+
+msgid "Object to take the force space from."
+msgstr "Objekt som kraftrymden hämtas från."
+
+msgid "Object to take the geometry space from."
+msgstr "Objekt som geometrirymden hämtas från."
+
+msgid "Selection of points this force is applied to."
+msgstr "Markering av punkter som kraften tillämpas på."
+
+msgid "Create a force by providing a closure that computes it."
+msgstr "Skapa en kraft genom att ange en Closure som beräknar den."
+
+msgid ""
+"Create the force just by providing a field and specifying the relevant "
+"spaces."
+msgstr ""
+"Skapa kraften genom att ange ett fält och specificera relevanta utrymmen."
+
+msgid "Simulate dynamic hair behavior on curve geometry"
+msgstr "Simulera dynamiskt hårbeteende på kurvgeometri"
+
+msgid "Simulation stability increases with more angular damping."
+msgstr "Simuleringsstabiliteten ökar med mer vinkeldämpning."
+
+msgid "Higher values allow the hair to bend more."
+msgstr "Högre värden gör att håret kan böjas mer."
+
+msgid "Damping settings."
+msgstr "Dämpningsinställningar."
+
+msgid "The surface mesh is deforming."
+msgstr "Ytnätet deformeras."
+
+msgid "Take edge contacts into account for more accurate collision avoidance."
+msgstr "Ta hänsyn till kantkontakter för mer korrekt kollisionsundvikande."
+
+msgid "Gravity settings"
+msgstr "Gravitationsinställningar"
+
+msgid "Use gravity in the simulation."
+msgstr "Använd gravitation i simuleringen."
+
+msgid "Input hair curves."
+msgstr "Indatahårkurvor."
+
+msgid "The deformed hair curves."
+msgstr "De deformerade hårkurvorna."
+
+msgid "Hair Tags"
+msgstr "Hårtaggar"
+
+msgid "Simulation stability increases with more linear damping."
+msgstr "Simuleringens stabilitet ökar med mer linjär dämpning."
+
+msgid "Mass assigned to each point in the simulation."
+msgstr "Massa som tilldelas varje punkt i simuleringen."
+
+msgid ""
+"Either use proper simulation or just animation based on surface deformation."
+msgstr ""
+"Använd antingen korrekt simulering eller enbart animering baserad på "
+"ytdeformation."
+
+msgid "Add variation to the structural constraints."
+msgstr "Lägg till variation i de strukturella begränsningarna."
+
+msgid "Randomize the structural constraints."
+msgstr "Slumpa de strukturella begränsningarna."
+
+msgid "Randomness Bendiness"
+msgstr "Slumpmässig böjlighet"
+
+msgid "How much to randomize the bendiness."
+msgstr "Hur mycket böjligheten ska slumpas."
+
+msgid "Randomness Root Bendiness"
+msgstr "Slumpmässig rotböjlighet"
+
+msgid "How much to randomize the root bendiness."
+msgstr "Hur mycket rotböjligheten ska slumpas."
+
+msgid "Randomness Stretchiness"
+msgstr "Slumpmässig töjbarhet"
+
+msgid "How much to randomize the stretchiness."
+msgstr "Hur mycket töjbarheten ska slumpas."
+
+msgid "Root Bendiness"
+msgstr "Rotböjlighet"
+
+msgid ""
+"Higher values allow the root points (which are attached to the surface) to "
+"rotate more."
+msgstr "Högre värden låter rotpunkterna (som är fästa vid ytan) rotera mer."
+
+msgid "Solver settings affecting speed and quality."
+msgstr "Lösarinställningar som påverkar hastighet och kvalitet."
+
+msgid "Higher values make the hair more stretchy."
+msgstr "Högre värden gör håret mer töjbart."
+
+msgid "Settings for structural constraints."
+msgstr "Inställningar för strukturella begränsningar."
+
+msgid "Surface Collision"
+msgstr "Ytkollision"
+
+msgid "Collide with the surface mesh the hair is attached to."
+msgstr "Kollidera med ytnätet som håret är fäst vid."
+
+msgid "Settings for collisions with the surface mesh."
+msgstr "Inställningar för kollisioner med ytnätet."
+
+msgid "Surface Friction"
+msgstr "Ytfriktion"
+
+msgid "Friction coefficient of the surface."
+msgstr "Ytans friktionskoefficient."
+
+msgid "Multiplied to the delta time in each time step."
+msgstr "Multipliceras med deltattiden i varje tidssteg."
+
+msgid ""
+"Simply deform the hair based on the current surface, without simulation."
+msgstr "Förforma håret enkelt baserat på den aktuella ytan, utan simulering."
+
+msgid "Physics (Experimental)"
+msgstr "Fysik (experimentell)"
+
+msgid "Simulate physics on top of the deformed hair."
+msgstr "Simulera fysik ovanpå det deformerade håret."
+
+msgid "Set Effector"
+msgstr "Ange effektor"
+
+msgid "Attach an effector to a geometry"
+msgstr "Fäst en effektor vid en geometri"
+
+msgid "The actual bundle containing one or multiple effectors."
+msgstr "Det faktiska paketet som innehåller en eller flera effektorer."
+
+msgid "Name of the effector in the geometry bundle."
+msgstr "Namnet på effektorn i geometripaketet."
+
+msgid "Local Rotation"
+msgstr "Lokal rotation"
+
+msgid "Local rotation of the instances to tune the rotation alignment"
+msgstr "Lokal rotation för instanserna för att justera rotationsinriktningen"
+
+msgid ""
+"Merge overlapping points by their distance. (Realize Instances must be "
+"enabled)."
+msgstr ""
+"Slå ihop överlappande punkter efter deras avstånd. (Realize Instances måste "
+"vara aktiverat)"
+
+msgid "Capture Rest Geometry"
+msgstr "Fånga vilogeometri"
+
+msgid ""
+"Number of points on the profile circle. Also defines the round cap "
+"resolution."
+msgstr ""
+"Antal punkter på profilcirkeln. Definierar även upplösningen för den runda "
+"kåpan."
+
+msgid "Method to generate the map's X coordinate along the main curve"
+msgstr "Metod för att generera kartans X-koordinat längs huvudkurvan"
+
+msgid "Method to generate the map's Y coordinate along the profile curve"
+msgstr "Metod för att generera kartans Y-koordinat längs profilkurvan"
+
+msgid "Input method for how to generate the displacement vector"
+msgstr "Inmatningsmetod för att generera förskjutningsvektorn"
+
+msgid ""
+"Input the geometry as an instance. (Further processing might require non-"
+"instance geometry)."
+msgstr ""
+"Ange geometrin som en instans. (Vid vidare bearbetning kan det krävas "
+"geometri som inte är en instans.)"
+
+msgid "Replace the original input geometry with the selected input geometry"
+msgstr "Ersätt den inkommande geometrin med den valda ingångsgeometrin"
+
+msgid "Rotate instances based on the shape of the input geometry"
+msgstr "Rotera instanser baserat på formen på den inkommande geometrin"
+
+msgid "Method to define the direction of the offset along the corner"
+msgstr "Metod för styrning av förskjutningen längs hörnet"
+
+msgid ""
+"Keep the original input geometry and join it with the instance geometry"
+msgstr ""
+"Behåll den ursprungliga inkommande geometrin och sammanfoga den med "
+"instansgeometrin."
+
+msgid ""
+"Specify which elements to use for instancing. (Floating point values result "
+"in a random selection.)"
+msgstr ""
+"Ange vilka element som ska användas för instansering. (Flyttalvärden "
+"resulterar i ett slumpmässigt val)"
+
+msgid ""
+"Choose child instances for each element instead of instancing the entire "
+"geometry"
+msgstr ""
+"Välj underinstanser för varje element i stället för att instansiera hela "
+"geometrin."
+
+msgid "Scale the instances based on the face area of the input geometry"
+msgstr "Skala instanserna baserat på ytan på den inkommande geometrin."
+
+msgid ""
+"Distance to offset each instance along the normal of the input geometry"
+msgstr ""
+"Avstånd för att förskjuta varje instans längs normalvektorn för den "
+"inkommande geometrin"
+
+msgid ""
+"Pick Instance is on, but there are no instances to pick from. Falling back "
+"to using input as instance."
+msgstr ""
+"\"Välj instans\" är aktiverat, men det finns inga instanser att välja "
+"mellan. Återgår till att använda inmatningen som instans."
+
+msgid "Is Edge Manifold"
+msgstr "Är kanten manifold"
+
+msgid ""
+"Returns a selection of edges that make up a seam in the provided UV data. A "
+"seam is defined as a discontinuity of the data between connected face "
+"corners."
+msgstr ""
+"Returnerar ett urval av kanter som bildar en söm i de angivna UV-"
+"uppgifterna. En söm definieras som en diskontinuitet i uppgifterna mellan "
+"anslutna ythörn."
+
+msgid ""
+"Vectors to compare between connected face corners of an edge for "
+"differences. (Supports 3D vectors.)"
+msgstr ""
+"Vektorer för att jämföra skillnader mellan anslutna ythörn på en kant. "
+"(Stöder 3D-vektorer)"
+
+msgid ""
+"Selection of elements with normals matching a target direction. (The normal "
+"is evaluated on the same domain as this selection output.)"
+msgstr ""
+"Val av element med normaler som matchar en målriktning. (Normalen utvärderas"
+" på samma domän som detta urvalsutdata)"
+
+msgid ""
+"Keep the original input geometry and join it with the scattered geometry"
+msgstr ""
+"Behåll den ursprungliga inkommande geometrin och sammanfoga den med den "
+"spridda geometrin."
+
+msgid "Mesh on whose faces to scatter on"
+msgstr "Nät vars ytor ska användas för spridning"
+
+msgid "Use instances contained in the input geometry as base for scattering"
+msgstr ""
+"Använd instanser som ingår i den inkommande geometrin som bas för spridning"
+
+msgid "Which faces to scatter on"
+msgstr "Vilka ytor som ska användas för spridning"
+
+msgid "Geometry Principal Components"
+msgstr "Principiella geometrikomponenter"
+
+msgid "Principal Component Analysis (PCA) of a the positions of points"
+msgstr "Huvudkomponentanalys (PCA) av punkternas positioner"
+
+msgid "Group Center"
+msgstr "Gruppcentrum"
+
+msgid "Intermediate Axis"
+msgstr "Mellanaxel"
+
+msgid ""
+"Axis completing a right-handed orthogonal basis with the longest and "
+"shortest axis"
+msgstr ""
+"Axel som kompletterar en högerhänt ortogonal bas med den längsta och "
+"kortaste axeln"
+
+msgid "Longest Axis"
+msgstr "Längsta axel"
+
+msgid "Axis along the most variance"
+msgstr "Axel längs den största variansen"
+
+msgid "Principal Axes"
+msgstr "Huvudaxlar"
+
+msgid "Principal Components"
+msgstr "Huvudkomponenter"
+
+msgid "Variance of the data along each principal axis"
+msgstr "Datas varians längs varje huvudaxel"
+
+msgid "Rotation that defines the principal component basis"
+msgstr "Rotation som definierar huvudkomponentbasen"
+
+msgid "Shortest Axis"
+msgstr "Kortaste axeln"
+
+msgid "Axis along the least variance"
+msgstr "Axel längs den minsta variansen"
+
+msgid "Principal Component Analysis (PCA) of a vector field"
+msgstr "Huvudkomponentanalys (PCA) av ett vektorfält"
+
+msgid "Resting Surface"
+msgstr "Viloyta"
+
+msgid ""
+"Use the surface's resting state to preserve stability under deformation"
+msgstr "Använd ytans viloläge för att bevara stabilitet vid deformation"
+
+msgid "Snap hair roots to the attachment point on the surface"
+msgstr "Fäst hårrötter vid fästpunkten på ytan"
+
+msgid "Surface Object"
+msgstr "Ytobjekt"
+
+msgid "Surface Object to attach to"
+msgstr "Ytobjekt att fästa vid"
+
+msgid "Surface Source"
+msgstr "Ytkälla"
+
+msgid "Select the input source for the surface geometry."
+msgstr "Välj indatakälla för ytgeometrin."
+
+msgid "Use Existing Attachment"
+msgstr "Använd befintlig fästning"
+
+msgid "Attached"
+msgstr "Fäst"
+
+msgid "Use the attached surface of the incoming hair geometry"
+msgstr "Använd den fästa ytan för den inkommande hårgeometrin"
+
+msgid "Use the incoming surface input mesh"
+msgstr "Använd det inkommande ytindatanätet"
+
+msgid "Use a specific object"
+msgstr "Använd ett specifikt objekt"
+
+msgid "Attachment Info"
+msgstr "Fästinformation"
+
+msgid "Attachment Is Valid"
+msgstr "Fästningen är giltig"
+
+msgid "Surface Exists"
+msgstr "Ytan finns"
+
+msgid "Missing hair surface geometry."
+msgstr "Ytgeometri för hår saknas."
+
+msgid "Guide index map to use. This input has priority."
+msgstr "Guideindexkarta som ska användas. Denna indata har prioritet."
+
+msgid "Shape of the influence along curves (0 = constant, 0.5 = linear)"
+msgstr "Form på påverkan längs kurvor (0=konstant, 0,5=linjär)"
+
+msgid "Attach to Surface"
+msgstr "Fäst vid yta"
+
+msgid "Attach the generated hair curves to the surface geometry for dynamics"
+msgstr "Fäst de genererade hårkurvorna vid ytgeometrin för dynamik"
+
+msgid "Hair Surface"
+msgstr "Håryta"
+
+msgid ""
+"Surface geometry or hair geometry with existing surface attachment for "
+"reference"
+msgstr "Ytgeometri eller hårgeometri med befintlig ytinfästning som referens"
+
+msgid "Shape of amount along each curve (0 = constant, 0.5 = linear)"
+msgstr "Form på beloppet längs varje kurva (0 = konstant, 0,5 = linjär)"
+
+msgid "Factor to blend the overall effect"
+msgstr "Faktor för att blanda den totala effekten"
