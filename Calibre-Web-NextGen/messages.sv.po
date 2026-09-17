@@ -779,7 +779,7 @@ msgstr "Det går inte att ta bort gästanvändaren"
 
 #: cps/admin.py
 msgid "No admin user remaining, can't delete user"
-msgstr "Ingen adminstratörsanvändare kvar, kan inte ta bort användaren"
+msgstr "Ingen administratörsanvändare återstår, kan inte ta bort användaren"
 
 #: cps/admin.py cps/web.py
 msgid "Invalid library mode"
@@ -1117,8 +1117,16 @@ msgid "That cover design is not one we offer."
 msgstr "Den omslagsdesignen erbjuder vi inte."
 
 #: cps/cover_picker.py
+msgid "That preset no longer exists."
+msgstr "Den förinställningen finns inte längre."
+
+#: cps/cover_picker.py
 msgid "This server can't design covers — no renderer is installed."
 msgstr "Servern kan inte skapa omslag — ingen renderare är installerad."
+
+#: cps/cover_picker.py
+msgid "Could not save that design."
+msgstr "Det gick inte att spara den designen."
 
 #: cps/cover_picker.py cps/spa_strings.py
 msgid "Could not design a cover for this book."
@@ -2719,16 +2727,6 @@ msgstr "Öppna detaljer för {title}"
 #, python-brace-format
 msgid "Read {title}"
 msgstr "Läs {title}"
-
-#: cps/spa_strings.py
-#, python-brace-format
-msgid "More actions for {title}"
-msgstr "Fler åtgärder för {title}"
-
-#: cps/spa_strings.py
-#, python-brace-format
-msgid "Actions for {title}"
-msgstr "Åtgärder för {title}"
 
 #: cps/spa_strings.py
 msgid "Standard (username / password)"
@@ -4628,6 +4626,198 @@ msgid "Ornamental — title inside a decorative frame"
 msgstr "Ornamental — titel i en dekorativ ram"
 
 #: cps/spa_strings.py
+msgid "Blocks"
+msgstr "Block"
+
+#: cps/spa_strings.py
+msgid "Banner"
+msgstr "Banner"
+
+#: cps/spa_strings.py
+msgid "Ornamental"
+msgstr "Ornament"
+
+#: cps/spa_strings.py
+msgid "The Cross"
+msgstr "Korset"
+
+#: cps/spa_strings.py
+msgid "Half and half"
+msgstr "Halvor"
+
+#: cps/spa_strings.py
+msgid "Title at the top, authors on a colour band across the bottom third."
+msgstr "Titel överst och författare på ett färgband över den nedre tredjedelen."
+
+#: cps/spa_strings.py
+msgid "Title on a folded ribbon near the top, authors below on the page."
+msgstr "Titel på ett vikt band nära överkanten och författare nedanför på sidan."
+
+#: cps/spa_strings.py
+msgid "Title inside a decorated frame over a soft radial wash."
+msgstr "Titel i en utsmyckad ram över en mjuk radiell färgtoning."
+
+#: cps/spa_strings.py
+msgid "A band down the left edge meeting a rounded title panel."
+msgstr "Ett band längs vänsterkanten som möter en rundad titelpanel."
+
+#: cps/spa_strings.py
+msgid "One colour washing into another from top to bottom."
+msgstr "En färg som tonar över i en annan uppifrån och ned."
+
+#: cps/spa_strings.py
+msgid "Earth"
+msgstr "Jord"
+
+#: cps/spa_strings.py
+msgid "Grass"
+msgstr "Gräs"
+
+#: cps/spa_strings.py
+msgid "Water"
+msgstr "Vatten"
+
+#: cps/spa_strings.py
+msgid "Silver"
+msgstr "Silver"
+
+#: cps/spa_strings.py
+msgid "Midnight"
+msgstr "Midnatt"
+
+#: cps/spa_strings.py
+msgid "Rose"
+msgstr "Ros"
+
+#: cps/spa_strings.py
+msgid "Ocean"
+msgstr "Ocean"
+
+#: cps/spa_strings.py
+msgid "Forest"
+msgstr "Skog"
+
+#: cps/spa_strings.py
+msgid "Noir"
+msgstr "Noir"
+
+#: cps/spa_strings.py
+msgid "Calibre blue"
+msgstr "Calibre-blå"
+
+#: cps/spa_strings.py
+msgid "Calibre earth"
+msgstr "Calibre-jord"
+
+#: cps/spa_strings.py
+msgid "Book title"
+msgstr "Boktitel"
+
+#: cps/spa_strings.py
+msgid "All authors, separated by commas"
+msgstr "Alla författare, avgränsade med kommatecken"
+
+#: cps/spa_strings.py
+msgid "First author only"
+msgstr "Endast första författaren"
+
+#: cps/spa_strings.py
+msgid "Series name"
+msgstr "Serienamn"
+
+#: cps/spa_strings.py
+msgid "Number within the series"
+msgstr "Nummer i serien"
+
+#: cps/spa_strings.py
+msgid "Year of publication"
+msgstr "Utgivningsår"
+
+#: cps/spa_strings.py
+msgid "Tags, separated by commas"
+msgstr "Taggar, avgränsade med kommatecken"
+
+#: cps/spa_strings.py
+msgid "First language"
+msgstr "Första språk"
+
+#: cps/spa_strings.py
+msgid "Rating out of five, as a number"
+msgstr "Betyg av fem, som tal"
+
+#: cps/spa_strings.py
+msgid "Rating out of five, as stars"
+msgstr "Betyg av fem, som stjärnor"
+
+#: cps/spa_strings.py
+msgid "Upper two thirds"
+msgstr "Övre två tredjedelar"
+
+#: cps/spa_strings.py
+msgid "Bottom third"
+msgstr "Nedre tredjedelen"
+
+#: cps/spa_strings.py
+msgid "Title and subtitle"
+msgstr "Titel och undertitel"
+
+#: cps/spa_strings.py
+msgid "Authors, on the band"
+msgstr "Författare på bandet"
+
+#: cps/spa_strings.py
+msgid "Page"
+msgstr "Sida"
+
+#: cps/spa_strings.py
+msgid "The ribbon"
+msgstr "Bandet"
+
+#: cps/spa_strings.py
+msgid "Title and subtitle, on the ribbon"
+msgstr "Titel och undertitel på bandet"
+
+#: cps/spa_strings.py
+msgid "Authors, on the page"
+msgstr "Författare på sidan"
+
+#: cps/spa_strings.py
+msgid "Centre of the wash"
+msgstr "Mitt i färgtoningen"
+
+#: cps/spa_strings.py
+msgid "Edge of the wash"
+msgstr "Färgtoningens kant"
+
+#: cps/spa_strings.py
+msgid "Authors, and the ornaments"
+msgstr "Författare och ornament"
+
+#: cps/spa_strings.py
+msgid "Left edge and the title panel"
+msgstr "Vänsterkanten och titelpanelen"
+
+#: cps/spa_strings.py
+msgid "Title and subtitle, on the panel"
+msgstr "Titel och undertitel på panelen"
+
+#: cps/spa_strings.py
+msgid "Top and bottom of the wash"
+msgstr "Överst och nederst i färgtoningen"
+
+#: cps/spa_strings.py
+msgid "Middle of the wash"
+msgstr "Mitt i färgtoningen"
+
+#: cps/spa_strings.py
+msgid "All three text blocks"
+msgstr "Alla tre textblock"
+
+#: cps/spa_strings.py
+msgid "Unused by this arrangement"
+msgstr "Används inte av den här layouten"
+
+#: cps/spa_strings.py
 msgid "(no text captured)"
 msgstr "(ingen text fångades)"
 
@@ -4715,6 +4905,10 @@ msgid "Add to favorites"
 msgstr "Lägg till i favoriter"
 
 #: cps/spa_strings.py
+msgid "Add to library"
+msgstr "Lägg till i biblioteket"
+
+#: cps/spa_strings.py
 msgid "Admin group"
 msgstr "Administratörsgrupp"
 
@@ -4723,12 +4917,20 @@ msgid "Admin navigation"
 msgstr "Administratörsnavigering"
 
 #: cps/spa_strings.py
+msgid "Admin only"
+msgstr "Endast administratör"
+
+#: cps/spa_strings.py
 msgid "Advanced"
 msgstr "Avancerat"
 
 #: cps/spa_strings.py
 msgid "Advanced search"
 msgstr "Avancerad sökning"
+
+#: cps/spa_strings.py
+msgid "Alignment"
+msgstr "Justering"
 
 #: cps/spa_strings.py
 msgid "All books"
@@ -4786,6 +4988,10 @@ msgstr "Tillämpa valda"
 msgid "Applying…"
 msgstr "Tillämpar…"
 
+#: cps/spa_strings.py
+msgid "Approximate"
+msgstr "Ungefärlig"
+
 #: cps/spa_strings.py cps/templates/book_table.html
 #: cps/templates/duplicates.html cps/templates/kobo_reconcile.html
 msgid "Archive"
@@ -4833,6 +5039,10 @@ msgid "Author Z–A"
 msgstr "Författare Ö–A"
 
 #: cps/spa_strings.py
+msgid "Author text"
+msgstr "Författartext"
+
+#: cps/spa_strings.py
 msgid "Authorised — signing you in…"
 msgstr "Auktoriserad — loggar in dig…"
 
@@ -4861,6 +5071,14 @@ msgid "Back to library"
 msgstr "Tillbaka till biblioteket"
 
 #: cps/spa_strings.py
+msgid "Background"
+msgstr "Bakgrund"
+
+#: cps/spa_strings.py
+msgid "Band"
+msgstr "Band"
+
+#: cps/spa_strings.py
 msgid "Base DN"
 msgstr "Bas-DN"
 
@@ -4871,6 +5089,15 @@ msgstr "Grundläggande inställningar"
 #: cps/spa_strings.py
 msgid "Beta"
 msgstr "Beta"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid ""
+"Between {min} and {max} px. Locked to 2:3, the ratio every cover frame in "
+"the app uses."
+msgstr ""
+"Mellan {min} och {max} px. Låst till 2:3, proportionen som varje omslagsram "
+"i appen använder."
 
 #: cps/spa_strings.py cps/templates/read.html
 msgid "Black"
@@ -4927,6 +5154,10 @@ msgstr ""
 "vid nästa synkronisering. De finns kvar i ditt bibliotek här."
 
 #: cps/spa_strings.py
+msgid "Built-in"
+msgstr "Inbyggd"
+
+#: cps/spa_strings.py
 msgid "Built-in providers (leave blank to disable):"
 msgstr "Inbyggda leverantörer (lämna tomt för att inaktivera):"
 
@@ -4973,20 +5204,16 @@ msgid "Cancel {task}"
 msgstr "Avbryt {task}"
 
 #: cps/spa_strings.py
+msgid "Center"
+msgstr "Centrera"
+
+#: cps/spa_strings.py
 msgid "Certificate file path"
 msgstr "Sökväg till certifikatfil"
 
 #: cps/spa_strings.py
 msgid "Certificate path"
 msgstr "Certifikatsökväg"
-
-#: cps/spa_strings.py
-msgid "Change library cover"
-msgstr "Ändra bibliotekets omslag"
-
-#: cps/spa_strings.py
-msgid "Change my cover"
-msgstr "Ändra mitt omslag"
 
 #: cps/spa_strings.py
 msgid "Check again"
@@ -5015,6 +5242,10 @@ msgstr "Välj en omslagsbild att ladda upp"
 #: cps/spa_strings.py
 msgid "Choose an image…"
 msgstr "Välj en bild…"
+
+#: cps/spa_strings.py
+msgid "Choose another place"
+msgstr "Välj en annan plats"
 
 #: cps/spa_strings.py
 msgid "Choose fields"
@@ -5198,6 +5429,10 @@ msgid "Could not load pairing details."
 msgstr "Kunde inte läsa in parkopplingsdetaljer."
 
 #: cps/spa_strings.py
+msgid "Could not load reading places."
+msgstr "Det gick inte att läsa in läsplatser."
+
+#: cps/spa_strings.py
 msgid "Could not load reading positions."
 msgstr "Kunde inte läsa in läspositioner."
 
@@ -5228,6 +5463,10 @@ msgstr "Kunde inte läsa in användare."
 #: cps/spa_strings.py
 msgid "Could not open that highlight."
 msgstr "Kunde inte öppna den markeringen."
+
+#: cps/spa_strings.py
+msgid "Could not open that reading position."
+msgstr "Det gick inte att öppna den läspositionen."
 
 #: cps/spa_strings.py
 msgid "Could not open that search result."
@@ -5274,6 +5513,10 @@ msgid "Could not save the default library filter."
 msgstr "Kunde inte spara standardfiltret för biblioteket."
 
 #: cps/spa_strings.py
+msgid "Could not save the preset. Try again."
+msgstr "Det gick inte att spara förinställningen. Försök igen."
+
+#: cps/spa_strings.py
 msgid "Could not save the shelf."
 msgstr "Kunde inte spara hyllan."
 
@@ -5316,6 +5559,24 @@ msgstr "Omslaget är låst"
 #: cps/spa_strings.py
 msgid "Cover not reachable"
 msgstr "Omslaget går inte att nå"
+
+#: cps/spa_strings.py
+msgid "Cover scope"
+msgstr "Omslagets omfattning"
+
+#: cps/spa_strings.py
+msgid "Cover size"
+msgstr "Omslagsstorlek"
+
+#: cps/spa_strings.py
+msgid ""
+"Cover sources and their API keys belong to this server, not to either cover "
+"choice. They help search for images; choosing one here saves it only in the "
+"scope selected above."
+msgstr ""
+"Omslagskällor och deras API-nycklar hör till den här servern, inte till något "
+"av omslagsvalen. De används för att söka efter bilder; ett val här sparas "
+"endast inom den omfattning som valts ovan."
 
 #: cps/spa_strings.py
 msgid "Cover updated from the selected result."
@@ -5377,8 +5638,21 @@ msgid "Currently reading"
 msgstr "Läser just nu"
 
 #: cps/spa_strings.py
+msgid "Custom"
+msgstr "Anpassad"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Custom (based on {name})"
+msgstr "Anpassad (baserad på {name})"
+
+#: cps/spa_strings.py
 msgid "Custom border colour"
 msgstr "Anpassad kantfärg"
+
+#: cps/spa_strings.py
+msgid "Custom colours"
+msgstr "Anpassade färger"
 
 #: cps/spa_strings.py cps/templates/config_view_edit.html
 msgid "Custom columns"
@@ -5484,6 +5758,11 @@ msgstr "Ta bort {name}"
 
 #: cps/spa_strings.py
 #, python-brace-format
+msgid "Delete {name}?"
+msgstr "Ta bort {name}?"
+
+#: cps/spa_strings.py
+#, python-brace-format
 msgid "Delete {path} from {name} on its next sync?"
 msgstr "Ta bort {path} från {name} vid nästa synkronisering?"
 
@@ -5539,6 +5818,14 @@ msgid "Device name"
 msgstr "Enhetsnamn"
 
 #: cps/spa_strings.py
+msgid ""
+"Device positions are read-only here. Continue reading to save a new Browser "
+"position."
+msgstr ""
+"Enhetspositioner är skrivskyddade här. Fortsätt läsa för att spara en ny "
+"webbläsarposition."
+
+#: cps/spa_strings.py
 msgid "Device renamed."
 msgstr "Enheten har bytt namn."
 
@@ -5568,6 +5855,10 @@ msgstr "Enheter"
 #: cps/spa_strings.py
 msgid "Devices appear here after their first sync."
 msgstr "Enheter visas här efter den första synkroniseringen."
+
+#: cps/spa_strings.py
+msgid "Different edition"
+msgstr "Annan utgåva"
 
 #: cps/spa_strings.py
 msgid "Disable standard password login"
@@ -5688,12 +5979,32 @@ msgid "Edit HTML"
 msgstr "Redigera HTML"
 
 #: cps/spa_strings.py
+msgid "Edit cover"
+msgstr "Redigera omslag"
+
+#: cps/spa_strings.py
+msgid "Edit cover…"
+msgstr "Redigera omslag…"
+
+#: cps/spa_strings.py
+msgid "Edit custom colours"
+msgstr "Redigera anpassade färger"
+
+#: cps/spa_strings.py
+msgid "Edit my private cover"
+msgstr "Redigera mitt privata omslag"
+
+#: cps/spa_strings.py
 msgid "Edit note"
 msgstr "Redigera anteckning"
 
 #: cps/spa_strings.py
 msgid "Edit public shelves"
 msgstr "Redigera offentliga hyllor"
+
+#: cps/spa_strings.py
+msgid "Edit shared library cover"
+msgstr "Redigera bibliotekets delade omslag"
 
 #: cps/spa_strings.py
 msgid "Edit smart shelf"
@@ -5757,6 +6068,10 @@ msgid "Every filled field will replace each book's existing values."
 msgstr "Varje ifyllt fält ersätter varje boks befintliga värden."
 
 #: cps/spa_strings.py
+msgid "Exact place"
+msgstr "Exakt plats"
+
+#: cps/spa_strings.py
 msgid "Excluded"
 msgstr "Undantagen"
 
@@ -5787,18 +6102,6 @@ msgstr "Det gick inte att läsa in hyllor."
 #: cps/spa_strings.py
 msgid "Failed to load."
 msgstr "Det gick inte att läsa in."
-
-#: cps/spa_strings.py cps/templates/image.html
-msgid "Favorite"
-msgstr "Favorit"
-
-#: cps/spa_strings.py
-msgid "Favorited"
-msgstr "Favoritmarkerad"
-
-#: cps/spa_strings.py
-msgid "Fetch"
-msgstr "Hämta"
 
 #: cps/spa_strings.py
 msgid "Fetch metadata from web"
@@ -5834,12 +6137,25 @@ msgid "Filter {items}…"
 msgstr "Filtrera {items}…"
 
 #: cps/spa_strings.py
+#, python-brace-format
+msgid "Follow link: {label}"
+msgstr "Följ länk: {label}"
+
+#: cps/spa_strings.py cps/templates/read.html
+msgid "Font"
+msgstr "Typsnitt"
+
+#: cps/spa_strings.py
 msgid "Font family"
 msgstr "Typsnittsfamilj"
 
 #: cps/spa_strings.py
 msgid "Font size"
 msgstr "Teckenstorlek"
+
+#: cps/spa_strings.py
+msgid "Fonts per line, wording, cover size"
+msgstr "Teckensnitt per rad, formulering, omslagsstorlek"
 
 #: cps/spa_strings.py
 msgid "Forgot password?"
@@ -5906,6 +6222,10 @@ msgstr ""
 "se nu — ingenting ändras för användaren ännu."
 
 #: cps/spa_strings.py
+msgid "Go to note"
+msgstr "Gå till anteckning"
+
+#: cps/spa_strings.py
 msgid "Go to this highlight"
 msgstr "Gå till den här markeringen"
 
@@ -5955,6 +6275,10 @@ msgid "Heading"
 msgstr "Rubrik"
 
 #: cps/spa_strings.py
+msgid "Height (px)"
+msgstr "Höjd (px)"
+
+#: cps/spa_strings.py
 msgid "Help & support"
 msgstr "Hjälp och support"
 
@@ -5965,6 +6289,10 @@ msgstr "Hjälpmeny"
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "Hidden"
 msgstr "Dold"
+
+#: cps/spa_strings.py
+msgid "Hidden built-ins"
+msgstr "Dolda inbyggda"
 
 #: cps/spa_strings.py cps/templates/readcbr.html
 msgid "Hide"
@@ -5991,6 +6319,11 @@ msgid "Hide password"
 msgstr "Dölj lösenord"
 
 #: cps/spa_strings.py
+#, python-brace-format
+msgid "Hide {name}?"
+msgstr "Dölj {name}?"
+
+#: cps/spa_strings.py
 msgid "Highlight"
 msgstr "Markering"
 
@@ -6005,11 +6338,6 @@ msgstr "Markeringar"
 #: cps/spa_strings.py
 msgid "Highlights and notes"
 msgstr "Markeringar och anteckningar"
-
-#: cps/spa_strings.py
-#, python-brace-format
-msgid "Highlights, {count} saved annotations"
-msgstr "Markeringar, {count} sparade anteckningar"
 
 #: cps/spa_strings.py
 msgid "Hot"
@@ -6163,6 +6491,10 @@ msgid "Kobo two-way annotation sync"
 msgstr "Tvåvägssynkronisering av Kobo-anteckningar"
 
 #: cps/spa_strings.py
+msgid "Kobo two-way sync"
+msgstr "Kobo-tvägssynkronisering"
+
+#: cps/spa_strings.py
 #, python-brace-format
 msgid "Kobo two-way sync: {state}"
 msgstr "Kobo-tvåvägssynkronisering: {state}"
@@ -6181,6 +6513,15 @@ msgid "Last modified"
 msgstr "Senast ändrad"
 
 #: cps/spa_strings.py
+msgid "Last reported"
+msgstr "Senast rapporterad"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Last reported {time}"
+msgstr "Senast rapporterad {time}"
+
+#: cps/spa_strings.py
 #, python-brace-format
 msgid "Last seen {when}"
 msgstr "Senast sedd {when}"
@@ -6193,6 +6534,14 @@ msgstr "Senast sedd: {when}"
 #: cps/spa_strings.py cps/templates/detail.html
 msgid "Last synced"
 msgstr "Senast synkroniserad"
+
+#: cps/spa_strings.py
+msgid "Leave a field empty to use its default."
+msgstr "Lämna ett fält tomt för att använda dess standardvärde."
+
+#: cps/spa_strings.py
+msgid "Left"
+msgstr "Vänster"
 
 #: cps/spa_strings.py
 msgid "Lettering"
@@ -6237,6 +6586,10 @@ msgid "Loading pairing details…"
 msgstr "Läser in parkopplingsdetaljer…"
 
 #: cps/spa_strings.py
+msgid "Loading reading places…"
+msgstr "Läser in läsplatser…"
+
+#: cps/spa_strings.py
 msgid "Loading reading positions…"
 msgstr "Läser in läspositioner…"
 
@@ -6247,6 +6600,10 @@ msgstr "Läser in…"
 #: cps/spa_strings.py cps/templates/cover_picker.html
 msgid "Lock cover"
 msgstr "Lås omslag"
+
+#: cps/spa_strings.py
+msgid "Lock the 2:3 proportions"
+msgstr "Lås proportionerna 2:3"
 
 #: cps/spa_strings.py
 msgid "Login button text"
@@ -6305,6 +6662,14 @@ msgid "Manage e-readers"
 msgstr "Hantera e-boksläsare"
 
 #: cps/spa_strings.py
+msgid "Manage presets"
+msgstr "Hantera förinställningar"
+
+#: cps/spa_strings.py
+msgid "Manage presets…"
+msgstr "Hantera förinställningar…"
+
+#: cps/spa_strings.py
 msgid "Manage shelves"
 msgstr "Hantera hyllor"
 
@@ -6361,8 +6726,16 @@ msgid "Min"
 msgstr "Min"
 
 #: cps/spa_strings.py
+msgid "Mine"
+msgstr "Mina"
+
+#: cps/spa_strings.py
 msgid "Minimum rating"
 msgstr "Lägsta betyg"
+
+#: cps/spa_strings.py
+msgid "Mixed lettering — set per line in Advanced."
+msgstr "Blandad textstil – ställ in per rad under Avancerat."
 
 #: cps/spa_strings.py
 msgid "Model"
@@ -6374,17 +6747,22 @@ msgid "More actions for {name}"
 msgstr "Fler åtgärder för {name}"
 
 #: cps/spa_strings.py
-msgid "More cover options (search providers, e-reader preview)"
-msgstr ""
-"Fler omslagsalternativ (sök leverantörer, förhandsvisning på e-boksläsare)"
-
-#: cps/spa_strings.py
 msgid "Move down"
 msgstr "Flytta ned"
 
 #: cps/spa_strings.py
 msgid "Move up"
 msgstr "Flytta upp"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Move {name} down"
+msgstr "Flytta {name} nedåt"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Move {name} up"
+msgstr "Flytta {name} uppåt"
 
 #: cps/spa_strings.py
 #, python-brace-format
@@ -6401,6 +6779,14 @@ msgstr ""
 #: cps/spa_strings.py
 msgid "My account"
 msgstr "Mitt konto"
+
+#: cps/spa_strings.py
+msgid "My presets"
+msgstr "Mina förinställningar"
+
+#: cps/spa_strings.py
+msgid "My private cover"
+msgstr "Mitt privata omslag"
 
 #: cps/spa_strings.py
 msgid "Name"
@@ -6533,12 +6919,20 @@ msgid "No pages found in this comic."
 msgstr "Inga sidor hittades i den här serien."
 
 #: cps/spa_strings.py
+msgid "No presets yet. Save one from the designer."
+msgstr "Det finns inga förinställningar ännu. Spara en från designverktyget."
+
+#: cps/spa_strings.py
 msgid "No reading positions from this device yet."
 msgstr "Inga läspositioner från den här enheten ännu."
 
 #: cps/spa_strings.py
 msgid "No registered devices."
 msgstr "Inga registrerade enheter."
+
+#: cps/spa_strings.py
+msgid "No saved reading places yet."
+msgstr "Det finns inga sparade läsplatser ännu."
 
 #: cps/spa_strings.py
 msgid "No shelves yet — create one below."
@@ -6604,6 +6998,11 @@ msgstr "Anteckningen har tagits bort"
 #: cps/spa_strings.py
 msgid "Note saved"
 msgstr "Anteckningen har sparats"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Note {label}"
+msgstr "Anteckning {label}"
 
 #: cps/spa_strings.py
 msgid "Notes"
@@ -6700,6 +7099,10 @@ msgid "Open classic reader"
 msgstr "Öppna klassisk läsare"
 
 #: cps/spa_strings.py
+msgid "Open cover editor"
+msgstr "Öppna omslagsredigeraren"
+
+#: cps/spa_strings.py
 msgid "Open navigation"
 msgstr "Öppna navigering"
 
@@ -6718,6 +7121,15 @@ msgstr "Öppna länken nedan på den enhet där du är inloggad."
 #: cps/spa_strings.py
 msgid "OpenLDAP server"
 msgstr "OpenLDAP-server"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Opened {source} at {percent}%."
+msgstr "Öppnade {source} vid {percent} %."
+
+#: cps/spa_strings.py
+msgid "Opening…"
+msgstr "Öppnar…"
 
 #: cps/spa_strings.py
 msgid ""
@@ -6760,6 +7172,10 @@ msgstr "Enhetens ursprungliga tillskrivning har återställts för {n}."
 #, python-brace-format
 msgid "Original device attribution restored for {ok} of {total}."
 msgstr "Enhetens ursprungliga tillskrivning har återställts för {ok} av {total}."
+
+#: cps/spa_strings.py
+msgid "Other saved position"
+msgstr "Annan sparad position"
 
 #: cps/spa_strings.py
 msgid "PDF reader"
@@ -6818,14 +7234,6 @@ msgstr "Pausad efter ett problem"
 msgid "People & devices"
 msgstr "Personer och enheter"
 
-#: cps/spa_strings.py cps/templates/cover_picker.html
-msgid ""
-"Pick a cover from any source we support, paste a URL, upload a file, or use "
-"the cover embedded in the book itself."
-msgstr ""
-"Välj ett omslag från en källa som stöds, klistra in en webbadress, ladda upp "
-"en fil eller använd omslaget som finns inbäddat i själva boken."
-
 #: cps/spa_strings.py
 msgid "Picked"
 msgstr "Vald"
@@ -6842,6 +7250,14 @@ msgstr "Fäst sidopanel"
 #: cps/spa_strings.py
 msgid "Pink"
 msgstr "Rosa"
+
+#: cps/spa_strings.py
+msgid "Place saved"
+msgstr "Platsen har sparats"
+
+#: cps/spa_strings.py
+msgid "Placeholders:"
+msgstr "Platshållare:"
 
 #: cps/spa_strings.py
 msgid "Please give this a try, you can easily undo later."
@@ -6864,8 +7280,16 @@ msgid "Preparing your magic link…"
 msgstr "Förbereder din magiska länk…"
 
 #: cps/spa_strings.py
-msgid "Presets"
-msgstr "Förval"
+msgid "Preset"
+msgstr "Förinställning"
+
+#: cps/spa_strings.py
+msgid "Preset name"
+msgstr "Namn på förinställning"
+
+#: cps/spa_strings.py
+msgid "Preset saved."
+msgstr "Förinställningen har sparats."
 
 #: cps/spa_strings.py cps/templates/duplicates.html
 #: cps/templates/kobo_reconcile.html
@@ -6873,8 +7297,29 @@ msgid "Preview"
 msgstr "Förhandsvisa"
 
 #: cps/spa_strings.py
+msgid ""
+"Preview a saved place in this reader. The device’s saved position will not "
+"change."
+msgstr ""
+"Förhandsvisa en sparad plats i den här läsaren. Enhetens sparade position "
+"ändras inte."
+
+#: cps/spa_strings.py
+msgid "Preview in reader"
+msgstr "Förhandsvisa i läsaren"
+
+#: cps/spa_strings.py
 msgid "Preview of the designed cover"
 msgstr "Förhandsvisning av det skapade omslaget"
+
+#: cps/spa_strings.py
+msgid "Preview this place"
+msgstr "Förhandsvisa den här platsen"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Previewing {source}. Its saved position will not change."
+msgstr "Förhandsvisar {source}. Den sparade positionen ändras inte."
 
 #: cps/spa_strings.py cps/templates/layout.html
 msgid "Previous"
@@ -6922,6 +7367,10 @@ msgid "Rating (stars)"
 msgstr "Betyg (stjärnor)"
 
 #: cps/spa_strings.py
+msgid "Read from here"
+msgstr "Läs från den här platsen"
+
+#: cps/spa_strings.py
 msgid "Read status"
 msgstr "Lässtatus"
 
@@ -6938,8 +7387,20 @@ msgid "Reading appearance"
 msgstr "Läsutseende"
 
 #: cps/spa_strings.py
+msgid "Reading from here. This is now your Browser position."
+msgstr "Läser från den här platsen. Detta är nu din webbläsarposition."
+
+#: cps/spa_strings.py
+msgid "Reading places"
+msgstr "Läsplatser"
+
+#: cps/spa_strings.py
 msgid "Reading positions"
 msgstr "Läspositioner"
+
+#: cps/spa_strings.py
+msgid "Recent"
+msgstr "Senaste"
 
 #: cps/spa_strings.py
 msgid "Recipient(s)"
@@ -7086,6 +7547,14 @@ msgstr ""
 "ett ersättningslösenord skickas via e-post."
 
 #: cps/spa_strings.py
+msgid "Reset to defaults"
+msgstr "Återställ till standardvärden"
+
+#: cps/spa_strings.py
+msgid "Restore"
+msgstr "Återställ"
+
+#: cps/spa_strings.py
 #, python-brace-format
 msgid "Restored the previous library mode for {accounts} accounts."
 msgstr "Återställde föregående biblioteksläge för {accounts} konton."
@@ -7115,6 +7584,10 @@ msgid ""
 msgstr ""
 "Återkalla applösenordet \"{label}\"? Enheter som fortfarande använder det "
 "förlorar åtkomsten omedelbart, och lösenordet kan inte återställas."
+
+#: cps/spa_strings.py
+msgid "Right"
+msgstr "Höger"
 
 #: cps/spa_strings.py
 msgid "Rows per load"
@@ -7150,8 +7623,16 @@ msgid "Save"
 msgstr "Spara"
 
 #: cps/spa_strings.py
+msgid "Save as preset"
+msgstr "Spara som förinställning"
+
+#: cps/spa_strings.py
 msgid "Save email settings"
 msgstr "Spara e-postinställningar"
+
+#: cps/spa_strings.py
+msgid "Save for the whole library"
+msgstr "Spara för hela biblioteket"
 
 #: cps/spa_strings.py
 msgid "Save name"
@@ -7160,6 +7641,10 @@ msgstr "Spara namn"
 #: cps/spa_strings.py
 msgid "Save note"
 msgstr "Spara anteckning"
+
+#: cps/spa_strings.py
+msgid "Save preset"
+msgstr "Spara förinställning"
 
 #: cps/spa_strings.py
 msgid "Save security settings"
@@ -7172,6 +7657,11 @@ msgstr "Spara inställningar"
 #: cps/spa_strings.py
 msgid "Save the file, safely eject the Kobo, then restart it."
 msgstr "Spara filen, mata ut Kobon säkert och starta sedan om den."
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "Saved {time}"
+msgstr "Sparad {time}"
 
 #: cps/spa_strings.py
 msgid "Saved. Restart the server for the login changes to take effect."
@@ -7350,9 +7840,18 @@ msgstr ""
 msgid "Setting up…"
 msgstr "Konfigurerar…"
 
+#: cps/spa_strings.py cps/templates/layout.html cps/templates/read.html
+#: cps/templates/readcbr.html
+msgid "Settings"
+msgstr "Inställningar"
+
 #: cps/spa_strings.py
 msgid "Settings saved."
 msgstr "Inställningarna har sparats."
+
+#: cps/spa_strings.py
+msgid "Shared cover"
+msgstr "Delat omslag"
 
 #: cps/spa_strings.py
 msgid "Shelf name"
@@ -7369,6 +7868,10 @@ msgstr "Visa avsnittet Upptäck"
 #: cps/spa_strings.py
 msgid "Show Read now and edit buttons"
 msgstr "Visa knapparna Läs nu och Redigera"
+
+#: cps/spa_strings.py
+msgid "Show Reading tags"
+msgstr "Visa läsetiketter"
 
 #: cps/spa_strings.py
 msgid "Show Table view"
@@ -7407,6 +7910,14 @@ msgstr "Visa färre taggar"
 #: cps/spa_strings.py
 msgid "Show hidden books"
 msgstr "Visa dolda böcker"
+
+#: cps/spa_strings.py
+msgid "Show less"
+msgstr "Visa mindre"
+
+#: cps/spa_strings.py
+msgid "Show more"
+msgstr "Visa mer"
 
 #: cps/spa_strings.py
 msgid "Show password"
@@ -7476,6 +7987,10 @@ msgid "Site title"
 msgstr "Webbplatsens titel"
 
 #: cps/spa_strings.py
+msgid "Size (pt)"
+msgstr "Storlek (pt)"
+
+#: cps/spa_strings.py
 msgid "Smart shelf not found."
 msgstr "Den smarta hyllan hittades inte."
 
@@ -7516,6 +8031,10 @@ msgid "Source details"
 msgstr "Källdetaljer"
 
 #: cps/spa_strings.py
+msgid "Source not recorded"
+msgstr "Källan har inte registrerats"
+
+#: cps/spa_strings.py
 msgid ""
 "Start My Library? It begins as everything you can see now, so nothing "
 "changes until you remove books yourself. Your e-reader keeps the same books "
@@ -7549,6 +8068,10 @@ msgstr "Standard-Kobo"
 msgid "Stock Kobo sync URL"
 msgstr "Standardwebbadress för Kobo-synkronisering"
 
+#: cps/spa_strings.py
+msgid "Storyteller is configured but could not be reached."
+msgstr "Storyteller är konfigurerad men kunde inte nås."
+
 #: cps/spa_strings.py cps/templates/config_edit.html
 #: cps/templates/cover_picker.html
 msgid "Stretch to fill — no border, slight distortion"
@@ -7557,6 +8080,10 @@ msgstr "Sträck ut för att fylla — ingen kant, lätt förvrängning"
 #: cps/spa_strings.py
 msgid "Subheading"
 msgstr "Underrubrik"
+
+#: cps/spa_strings.py
+msgid "Subtitle"
+msgstr "Undertitel"
 
 #: cps/spa_strings.py
 msgid "Support on Ko-fi →"
@@ -7639,8 +8166,16 @@ msgid "Technical details"
 msgstr "Tekniska detaljer"
 
 #: cps/spa_strings.py
+msgid "Text templates"
+msgstr "Textmallar"
+
+#: cps/spa_strings.py
 msgid "That URL is not a usable image."
 msgstr "Den webbadressen är inte en användbar bild."
+
+#: cps/spa_strings.py
+msgid "The book is still opening. Try again in a moment."
+msgstr "Boken håller fortfarande på att öppnas. Försök igen om en stund."
 
 #: cps/spa_strings.py cps/templates/book_edit.html
 #: cps/templates/modal_dialogs.html
@@ -7655,24 +8190,13 @@ msgstr ""
 msgid "The global library"
 msgstr "Det globala biblioteket"
 
-#: cps/spa_strings.py cps/templates/index.html
-msgid ""
-"The library is shared and holds every book once — what you keep is My "
-"Library. Nothing you had is gone. Every book, new arrivals included, is "
-"under Global Library in the menu."
-msgstr ""
-"Biblioteket delas och innehåller varje bok en gång — det du behåller är Mitt "
-"bibliotek. Inget du hade har försvunnit. Alla böcker, även nya tillskott, "
-"finns under Globalt bibliotek i menyn."
+#: cps/spa_strings.py
+msgid "The library cover is back for you."
+msgstr "Bibliotekets omslag har återställts för dig."
 
-#: cps/spa_strings.py cps/templates/index.html
-msgid ""
-"The library is shared and holds every book once — what you keep is My "
-"Library. Nothing you had is gone. Your administrator manages what enters it."
-msgstr ""
-"Biblioteket delas och innehåller varje bok en gång — det du behåller är Mitt "
-"bibliotek. Inget du hade har försvunnit. Administratören hanterar vilka "
-"böcker som läggs till där."
+#: cps/spa_strings.py
+msgid "The preset change failed. Try again."
+msgstr "Det gick inte att ändra förinställningen. Försök igen."
 
 #: cps/spa_strings.py
 msgid "The server draws this cover; nothing is saved until you apply it."
@@ -7685,6 +8209,41 @@ msgid ""
 msgstr ""
 "Den serveromfattande inställningen är också av, så inget kan synkroniseras "
 "ännu. En administratör kan aktivera den i de klassiska serverinställningarna."
+
+#: cps/spa_strings.py cps/templates/index.html
+msgid ""
+"The shared library holds every book once — My Library is your own selection. "
+"Nothing is gone: every book, new arrivals included, is under Global Library "
+"in the menu."
+msgstr ""
+"Det delade biblioteket innehåller varje bok en gång — Mitt bibliotek är ditt "
+"eget urval. Inget har försvunnit: alla böcker, även nya tillskott, finns "
+"under Globalt bibliotek i menyn."
+
+#: cps/spa_strings.py cps/templates/index.html
+msgid ""
+"The shared library holds every book once — My Library is your own selection. "
+"Nothing is gone: your administrator manages what enters it."
+msgstr ""
+"Det delade biblioteket innehåller varje bok en gång — Mitt bibliotek är ditt "
+"eget urval. Inget har försvunnit: administratören hanterar vilka böcker som "
+"läggs till där."
+
+#: cps/spa_strings.py
+msgid ""
+"This changes only your view of this book and copies delivered to your e-"
+"readers. The shared book cover and everyone else’s view stay unchanged."
+msgstr ""
+"Detta ändrar endast din vy av boken och kopior som levereras till dina e-"
+"läsare. Det delade bokomslaget och alla andras vy ändras inte."
+
+#: cps/spa_strings.py
+msgid ""
+"This changes the cover stored with the book. Everyone who can access the "
+"book sees it."
+msgstr ""
+"Detta ändrar omslaget som lagras med boken. Alla som kan komma åt boken ser "
+"det."
 
 #: cps/spa_strings.py
 msgid "This device will no longer sync."
@@ -7740,6 +8299,10 @@ msgstr "Titel A–Ö"
 #: cps/spa_strings.py
 msgid "Title Z–A"
 msgstr "Titel Ö–A"
+
+#: cps/spa_strings.py
+msgid "Title text"
+msgstr "Titeltext"
 
 #: cps/spa_strings.py
 msgid "Title, author, or ISBN"
@@ -7814,6 +8377,10 @@ msgid "Unknown source"
 msgstr "Okänd källa"
 
 #: cps/spa_strings.py
+msgid "Unlock the 2:3 proportions"
+msgstr "Lås upp proportionerna 2:3"
+
+#: cps/spa_strings.py
 msgid "Unlock the cover above to apply a new one."
 msgstr "Lås upp omslaget ovan för att använda ett nytt."
 
@@ -7834,6 +8401,10 @@ msgid "Untitled"
 msgstr "Utan titel"
 
 #: cps/spa_strings.py
+msgid "Untitled link"
+msgstr "Namnlös länk"
+
+#: cps/spa_strings.py
 msgid "Update failed."
 msgstr "Uppdateringen misslyckades."
 
@@ -7852,10 +8423,6 @@ msgstr "Ladda upp böcker"
 #: cps/spa_strings.py
 msgid "Uploading is not available for your account on this server."
 msgstr "Uppladdning är inte tillgänglig för ditt konto på den här servern."
-
-#: cps/spa_strings.py
-msgid "Use my own cover"
-msgstr "Använd mitt eget omslag"
 
 #: cps/spa_strings.py
 #, python-brace-format
@@ -7937,6 +8504,15 @@ msgid "View device library"
 msgstr "Visa enhetsbibliotek"
 
 #: cps/spa_strings.py
+msgid "View highlights"
+msgstr "Visa markeringar"
+
+#: cps/spa_strings.py
+#, python-brace-format
+msgid "View highlights, {count} saved annotations"
+msgstr "Visa markeringar, {count} sparade anteckningar"
+
+#: cps/spa_strings.py
 msgid "View settings"
 msgstr "Visa inställningar"
 
@@ -8007,6 +8583,10 @@ msgid "Which books sync?"
 msgstr "Vilka böcker synkroniseras?"
 
 #: cps/spa_strings.py
+msgid "Width (px)"
+msgstr "Bredd (px)"
+
+#: cps/spa_strings.py
 msgid ""
 "With automatic start on, the login page goes straight to the provider. Add ?"
 "local=1 to the login URL to reach the password form, which keeps working as "
@@ -8049,16 +8629,6 @@ msgstr "Ditt bibliotek"
 #: cps/spa_strings.py
 msgid "Your browser cannot play this audio format."
 msgstr "Din webbläsare kan inte spela upp detta ljudformat."
-
-#: cps/spa_strings.py
-msgid ""
-"Your cover appears only to you and on books delivered to your e-readers. The "
-"library cover stays unchanged for everyone else, and administrators manage "
-"it."
-msgstr ""
-"Ditt omslag visas bara för dig och på böcker som levereras till dina e-"
-"boksläsare. Bibliotekets omslag är oförändrat för alla andra, och hanteras "
-"av administratörer."
 
 #: cps/spa_strings.py
 msgid "Your cover was updated."
@@ -8205,6 +8775,11 @@ msgstr "{free} lediga av {total}"
 
 #: cps/spa_strings.py
 #, python-brace-format
+msgid "{name} hex value"
+msgstr "Hexvärde för {name}"
+
+#: cps/spa_strings.py
+#, python-brace-format
 msgid "{name} now uses My Library."
 msgstr "{name} använder nu Mitt bibliotek."
 
@@ -8289,10 +8864,6 @@ msgstr "{percent} % läst"
 #, python-brace-format
 msgid "{seeded} of {total} books seeded"
 msgstr "{seeded} av {total} böcker har fyllts på"
-
-#: cps/spa_strings.py
-msgid "…or paste an image URL"
-msgstr "…eller klistra in en bildwebbadress"
 
 #: cps/spa_strings.py
 msgid "← Back"
@@ -10636,11 +11207,11 @@ msgstr "Enkel"
 
 #: cps/templates/config_edit.html
 msgid "LDAP Administrator Username"
-msgstr "LDAP-adminstratörsanvändarnamn"
+msgstr "LDAP-administratörsanvändarnamn"
 
 #: cps/templates/config_edit.html
 msgid "LDAP Administrator Password"
-msgstr "LDAP-adminstratörslösenord"
+msgstr "LDAP-administratörslösenord"
 
 #: cps/templates/config_edit.html
 msgid "LDAP Distinguished Name (DN)"
@@ -11211,7 +11782,7 @@ msgstr "Behörigheter"
 
 #: cps/templates/config_view_edit.html cps/templates/user_edit.html
 msgid "Admin User"
-msgstr "Adminstratör användare"
+msgstr "Administratörsanvändare"
 
 #: cps/templates/config_view_edit.html
 msgid "Language & Display"
@@ -11271,6 +11842,14 @@ msgstr "Lägg till tillåtna/avvisade taggar"
 #: cps/templates/config_view_edit.html
 msgid "Add Allowed/Denied custom column values"
 msgstr "Lägg till tillåtna/avvisade anpassade kolumnvärden"
+
+#: cps/templates/cover_picker.html
+msgid ""
+"Pick a cover from any source we support, paste a URL, upload a file, or use "
+"the cover embedded in the book itself."
+msgstr ""
+"Välj ett omslag från en källa som stöds, klistra in en webbadress, ladda upp "
+"en fil eller använd omslaget som finns inbäddat i själva boken."
 
 #: cps/templates/cover_picker.html
 msgid "Use a URL"
@@ -13346,6 +13925,10 @@ msgstr "Tillbaka till hemmet"
 msgid "Logout User"
 msgstr "Logga ut användare"
 
+#: cps/templates/image.html
+msgid "Favorite"
+msgstr "Favorit"
+
 #: cps/templates/index.html
 msgid "Dismiss library introduction"
 msgstr "Stäng bibliotekets introduktion"
@@ -13605,10 +14188,6 @@ msgstr "Logga ut"
 #: cps/templates/layout.html
 msgid "Support Calibre-Web NextGen"
 msgstr "Stöd Calibre-Web NextGen"
-
-#: cps/templates/layout.html cps/templates/read.html cps/templates/readcbr.html
-msgid "Settings"
-msgstr "Inställningar"
 
 #: cps/templates/layout.html
 msgid "Refresh Library"
@@ -13938,10 +14517,6 @@ msgstr "Teckenstorlekar"
 #: cps/templates/read.html
 msgid "Text margin"
 msgstr "Textmarginal"
-
-#: cps/templates/read.html
-msgid "Font"
-msgstr "Typsnitt"
 
 #: cps/templates/read.html
 msgid "Default"
@@ -15021,6 +15596,67 @@ msgstr "Exponera valda hyllor via OPDS"
 #: cps/templates/user_table.html
 msgid "Show Read/Unread Section"
 msgstr "Visa avsnittet Läst/oläst"
+
+#~ msgid "Change library cover"
+#~ msgstr "Ändra bibliotekets omslag"
+
+#~ msgid "Favorited"
+#~ msgstr "Favoritmarkerad"
+
+#~ msgid ""
+#~ "The library is shared and holds every book once — what you keep is My "
+#~ "Library. Nothing you had is gone. Every book, new arrivals included, is "
+#~ "under Global Library in the menu."
+#~ msgstr ""
+#~ "Biblioteket delas och innehåller varje bok en gång — det du behåller är "
+#~ "Mitt bibliotek. Inget du hade har försvunnit. Alla böcker, även nya "
+#~ "tillskott, finns under Globalt bibliotek i menyn."
+
+#~ msgid ""
+#~ "The library is shared and holds every book once — what you keep is My "
+#~ "Library. Nothing you had is gone. Your administrator manages what enters "
+#~ "it."
+#~ msgstr ""
+#~ "Biblioteket delas och innehåller varje bok en gång — det du behåller är "
+#~ "Mitt bibliotek. Inget du hade har försvunnit. Administratören hanterar "
+#~ "vilka böcker som läggs till där."
+
+#~ msgid "Use my own cover"
+#~ msgstr "Använd mitt eget omslag"
+
+#~ msgid ""
+#~ "Your cover appears only to you and on books delivered to your e-readers. "
+#~ "The library cover stays unchanged for everyone else, and administrators "
+#~ "manage it."
+#~ msgstr ""
+#~ "Ditt omslag visas bara för dig och på böcker som levereras till dina e-"
+#~ "boksläsare. Bibliotekets omslag är oförändrat för alla andra, och "
+#~ "hanteras av administratörer."
+
+#~ msgid "Change my cover"
+#~ msgstr "Ändra mitt omslag"
+
+#~ msgid "Fetch"
+#~ msgstr "Hämta"
+
+#, python-brace-format
+#~ msgid "Highlights, {count} saved annotations"
+#~ msgstr "Markeringar, {count} sparade anteckningar"
+
+#~ msgid "More cover options (search providers, e-reader preview)"
+#~ msgstr ""
+#~ "Fler omslagsalternativ (sök leverantörer, förhandsvisning på e-boksläsare)"
+
+#~ msgid "…or paste an image URL"
+#~ msgstr "…eller klistra in en bildwebbadress"
+
+#, python-brace-format
+#~ msgid "More actions for {title}"
+#~ msgstr "Fler åtgärder för {title}"
+
+#, python-brace-format
+#~ msgid "Actions for {title}"
+#~ msgstr "Åtgärder för {title}"
 
 #~ msgid "Only jpg/jpeg/png/webp/bmp files are supported as coverfile"
 #~ msgstr "Endast jpg/jpeg/png/webp/bmp-filer stöds som omslagsfil"
