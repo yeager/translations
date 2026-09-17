@@ -103,7 +103,7 @@ Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes via GitHub den 
 | Hermes Agent | [#101116](https://github.com/NousResearch/hermes-agent/pull/101116) | Öppen, `BLOCKED`; inga exponerade kod- eller språkändringskrav. |
 | OpenVPN GUI | [#828](https://github.com/OpenVPN/openvpn-gui/pull/828) | Öppen, `UNSTABLE`. |
 | Stirling PDF | [#7833](https://github.com/Stirling-Tools/Stirling-PDF/pull/7833) | Öppen, `UNKNOWN`, `REVIEW_REQUIRED`; relevanta kontroller passerar. |
-| Ghost | [#30664](https://github.com/TryGhost/Ghost/pull/30664) | Öppen, `UNKNOWN`; de tre singularsträngarna för gåvomedlemskap är rättade i `fa1cb716c3` och inväntar ny kontroll. |
+| Ghost | [#30664](https://github.com/TryGhost/Ghost/pull/30664) | Öppen, `BLOCKED`; de tre singularsträngarna för gåvomedlemskap är rättade i `fa1cb716c3`, automatiska översättningskontrollen passerar och PR:n inväntar underhållarens handläggning. |
 | VirtualBox | [#848](https://github.com/VirtualBox/virtualbox/pull/848) | Öppen, `UNKNOWN`, `REVIEW_REQUIRED`; exponerad kontroll passerar. |
 | Apache Guacamole Client | [#1247](https://github.com/apache/guacamole-client/pull/1247) | Manuellt språkgranskad och inskickad 2026-09-16; inväntar uppströms handläggning. |
 | Vorta | [#2550](https://github.com/borgbase/vorta/pull/2550) | Öppen, `BEHIND`, `REVIEW_REQUIRED`. |
