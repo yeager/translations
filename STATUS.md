@@ -767,6 +767,6 @@ aktuella synkkopian `work/translations-status-push/`.
 
 Den aktiva Weblate-kön finns i [WEBLATE_250.md](WEBLATE_250.md). Samtliga 250 projekt där har en verifierad officiell GitHub-release från och med 2024-09-10; projekt som saknar en release inom två år hålls utanför den aktiva kön.
 
-Senaste komponentuppdatering: Klippers CAN-buss, PWM-verktyg, ändlägeskörning med flera MCU:er, TSL1401CL-filamentbreddssensor, paketering och skevhetskorrigering är publicerade 100 % svenska med 0 fuzzy. Samtliga sex officiella PO-exporter är validerade och arkiverade i `Klipper/`.
+Senaste komponentuppdatering: Klippers lastcellsdokumentation är publicerad med **126/126**, 0 fuzzy och direkt API-återläst 2026-09-17. Lastcellsprobning, kraftgränser, ADC, jordning, filter, temperaturkompensation och interpolering är sakgranskade; `msgfmt` och hunspell-sv passerar. Arkiv: `Klipper/load_cell_sv.po` (SHA-256 `1b814c1a…7a568`).
 
 Detaljerade ändringsbeskrivningar hör hemma i respektive PR, commit eller översättningskatalog. Den här filen är avsiktligt en kort, aktuell översikt.
