@@ -530,7 +530,7 @@ msgstr "Ändrar användningsläget:\n"
 #: src/msmtp.c:2315
 #, c-format
 msgid "  --configure=mailaddress      generate and print configuration for address\n"
-msgstr "  --configure=e-postaddress      generera och skriva ut konfiguration för adress\n"
+msgstr "  --configure=e-postadress      generera och skriva ut konfiguration för adress\n"
 
 #: src/msmtp.c:2316
 #, c-format
@@ -600,7 +600,7 @@ msgstr "  --socket=[socketname]        ställ in/ta bort lokalt uttag att anslut
 #: src/msmtp.c:2330
 #, c-format
 msgid "  --timeout=(off|seconds)      set/unset network timeout in seconds\n"
-msgstr "  --timeout=(av|sekunder)      aktivera/avaktivera nätverkstimeout i sekunder\n"
+msgstr "  --timeout=(off|seconds)      aktivera/avaktivera nätverkstimeout i sekunder\n"
 
 #: src/msmtp.c:2331
 #, c-format
@@ -634,12 +634,12 @@ msgstr "  --passwordeval=[eval]        utvärdera lösenord för autentisering\n
 #: src/msmtp.c:2337
 #, c-format
 msgid "  --tls[=(on|off)]             enable/disable TLS encryption\n"
-msgstr "  --tls[=(av|på)]             aktivera/inaktivera TLS kryptering\n"
+msgstr "  --tls[=(on|off)]             aktivera/inaktivera TLS-kryptering\n"
 
 #: src/msmtp.c:2338
 #, c-format
 msgid "  --tls-starttls[=(on|off)]    enable/disable STARTTLS for TLS\n"
-msgstr "  --tls-starttls[=(av|på)]    aktivera/inaktivera STARTTLS för TLS\n"
+msgstr "  --tls-starttls[=(on|off)]    aktivera/inaktivera STARTTLS för TLS\n"
 
 #: src/msmtp.c:2339
 #, c-format
@@ -659,7 +659,7 @@ msgstr "  --tls-fingerprint=[f]        ställ in/avaktivera betrodda certifikatf
 #: src/msmtp.c:2342
 #, c-format
 msgid "  --tls-certcheck[=(on|off)]   enable/disable server certificate checks for TLS\n"
-msgstr "  --tls-certcheck[=(av|på)]   aktivera/avaktivera servercertifikatkontroller för TLS\n"
+msgstr "  --tls-certcheck[=(on|off)]   aktivera/avaktivera servercertifikatkontroller för TLS\n"
 
 #: src/msmtp.c:2343
 #, c-format
@@ -694,7 +694,7 @@ msgstr "Alternativ specifika för sendmail läge:\n"
 #: src/msmtp.c:2349
 #, c-format
 msgid "  --auto-from[=(on|off)]       enable/disable automatic envelope-from addresses\n"
-msgstr "  --auto-from[=(av|på)]       aktivera/avaktivera automatiska kuvert-från-adresser\n"
+msgstr "  --auto-from[=(on|off)]       aktivera/avaktivera automatiska kuvert-från-adresser\n"
 
 #: src/msmtp.c:2350
 #, c-format
@@ -713,12 +713,12 @@ msgstr ""
 #: src/msmtp.c:2353
 #, c-format
 msgid "  -N, --dsn-notify=(off|cond)  set/unset DSN conditions\n"
-msgstr "  -N, --dsn-notify=(av|villkor)  ställ in/ta bort DSN-villkor\n"
+msgstr "  -N, --dsn-notify=(off|cond)  ställ in/ta bort DSN-villkor\n"
 
 #: src/msmtp.c:2354
 #, c-format
 msgid "  -R, --dsn-return=(off|ret)   set/unset DSN amount\n"
-msgstr "  -R, --dsn-return(av|ret)  ställ in/ta bort DSN-mängd\n"
+msgstr "  -R, --dsn-return=(off|ret)   ställ in/ta bort DSN-mängd\n"
 
 #: src/msmtp.c:2355
 #, c-format
@@ -733,7 +733,7 @@ msgstr "  --logfile-time-format=[fmt]  ställ in/avaktivera loggfilens tidsforma
 #: src/msmtp.c:2357
 #, c-format
 msgid "  --syslog[=(on|off|facility)] enable/disable/configure syslog logging\n"
-msgstr "  --syslog[=(på|av|facilitet)] aktivera/avaktivera/konfigurera syslog-loggning\n"
+msgstr "  --syslog[=(on|off|facility)] aktivera/avaktivera/konfigurera syslog-loggning\n"
 
 #: src/msmtp.c:2358
 #, c-format
@@ -753,27 +753,27 @@ msgstr "  --aliases=[fil]             ställ in/avaktivera aliasfil\n"
 #: src/msmtp.c:2361
 #, c-format
 msgid "  --set-from-header[=(auto|on|off)] set From header handling\n"
-msgstr "  --set-from-header[=(auto|på|av)] ställ in Från rubrikhantering\n"
+msgstr "  --set-from-header[=(auto|on|off)] ställ in hantering av Från-rubrik\n"
 
 #: src/msmtp.c:2362
 #, c-format
 msgid "  --set-date-header[=(auto|off)] set Date header handling\n"
-msgstr "  --set-date-header[=(auto|av)] ställ in datumrubrikshantering\n"
+msgstr "  --set-date-header[=(auto|off)] ställ in hantering av datumrubrik\n"
 
 #: src/msmtp.c:2363
 #, c-format
 msgid "  --set-msgid-header[=(auto|off)] set Message-ID header handling\n"
-msgstr "  --set-msgid-header[=(auto|off)] ställ in meddelandeIDrubrikshantering\n"
+msgstr "  --set-msgid-header[=(auto|off)] ställ in hantering av Message-ID-rubrik\n"
 
 #: src/msmtp.c:2364
 #, c-format
 msgid "  --set-to-header[=(on|off|undisclosed_recipients)] set To header handling\n"
-msgstr "  --set-to-header[=(på|av|dold_mottagare)] ställ in Till rubrikhantering\n"
+msgstr "  --set-to-header[=(on|off|undisclosed_recipients)] ställ in hantering av Till-rubrik\n"
 
 #: src/msmtp.c:2365
 #, c-format
 msgid "  --remove-bcc-headers[=(on|off)] enable/disable removal of Bcc headers\n"
-msgstr "  --remove-bcc-headers[=(av|på)] aktivera/inaktivera borttagning av hemlig kopia-rubriker\n"
+msgstr "  --remove-bcc-headers[=(on|off)] aktivera/inaktivera borttagning av Bcc-rubriker\n"
 
 #: src/msmtp.c:2366
 #, c-format
