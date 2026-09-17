@@ -1,0 +1,917 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Klipper\n"
+"PO-Revision-Date: 2026-09-17 00:00+0000\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. unit: 206342993
+msgctxt "unit-206342993"
+msgid "This document describes Klipper benchmarks."
+msgstr "Det här dokumentet beskriver prestandamätningar för Klipper."
+
+#. unit: 206342994
+msgctxt "unit-206342994"
+msgid "Micro-controller Benchmarks"
+msgstr "Prestandamätningar för mikrokontroller"
+
+#. unit: 206342995
+msgctxt "unit-206342995"
+msgid "This section describes the mechanism used to generate the Klipper micro-controller step rate benchmarks."
+msgstr "Det här avsnittet beskriver mekanismen som används för att skapa prestandamätningar av Klippers steghastighet för mikrokontroller."
+
+#. unit: 206342996
+msgctxt "unit-206342996"
+msgid "The primary goal of the benchmarks is to provide a consistent mechanism for measuring the impact of coding changes within the software. A secondary goal is to provide high-level metrics for comparing the performance between chips and between software platforms."
+msgstr "Det främsta syftet med prestandamätningarna är att tillhandahålla ett konsekvent sätt att mäta hur kodändringar påverkar programvaran. Ett sekundärt syfte är att tillhandahålla övergripande mått för att jämföra prestanda mellan chip och programvaruplattformar."
+
+#. unit: 206342997
+msgctxt "unit-206342997"
+msgid "The step rate benchmark is designed to find the maximum stepping rate that the hardware and software can reach. This benchmark stepping rate is not achievable in day-to-day use as Klipper needs to perform other tasks (eg, mcu/host communication, temperature reading, endstop checking) in any real-world usage."
+msgstr "Prestandamätningen av steghastighet är utformad för att hitta den högsta steghastighet som maskin- och programvaran kan uppnå. Denna steghastighet går inte att använda till vardags eftersom Klipper vid verklig användning måste utföra andra uppgifter (till exempel kommunikation mellan MCU och värd, temperaturavläsning och kontroll av ändlägen)."
+
+#. unit: 206342998
+msgctxt "unit-206342998"
+msgid "In general, the pins for the benchmark tests are chosen to flash LEDs or other innocuous pins. **Always verify that it is safe to drive the configured pins prior to running a benchmark.** It is not recommended to drive an actual stepper during a benchmark."
+msgstr "I allmänhet väljs stiften för prestandamätningarna så att lysdioder eller andra ofarliga stift växlas. **Kontrollera alltid att det är säkert att styra de konfigurerade stiften innan du kör en prestandamätning.** Vi rekommenderar inte att du styr en faktisk stegmotor under en prestandamätning."
+
+#. unit: 206342999
+msgctxt "unit-206342999"
+msgid "Step rate benchmark test"
+msgstr "Test av steghastighet"
+
+#. unit: 206343000
+msgctxt "unit-206343000"
+msgid "The above tests three steppers simultaneously stepping. If running the above results in a \"Rescheduled timer in the past\" or \"Stepper too far in past\" error then it indicates the `ticks` parameter is too low (it results in a stepping rate that is too fast). The goal is to find the lowest setting of the ticks parameter that reliably results in a successful completion of the test. It should be possible to bisect the ticks parameter until a stable value is found."
+msgstr "Ovanstående testar tre stegmotorer som stegar samtidigt. Om körning av ovanstående ger felet \"Rescheduled timer in the past\" eller \"Stepper too far in past\" är parametern `ticks` för låg (vilket ger en för hög steghastighet). Målet är att hitta den lägsta inställningen av parametern ticks som tillförlitligt leder till att testet slutförs. Det bör gå att halvera sökområdet för parametern ticks tills ett stabilt värde hittas."
+
+#. unit: 206343001
+msgctxt "unit-206343001"
+msgid "On a failure, one can copy-and-paste the following to clear the error in preparation for the next test:"
+msgstr "Vid fel kan du kopiera och klistra in följande för att rensa felet inför nästa test:"
+
+#. unit: 206343002
+msgctxt "unit-206343002"
+msgid "AVR step rate benchmark"
+msgstr "Prestandamätning av steghastighet för AVR"
+
+#. unit: 206343003
+msgctxt "unit-206343003"
+msgid "The following configuration sequence is used on AVR chips:"
+msgstr "Följande konfigurationssekvens används på AVR-chip:"
+
+#. unit: 206343004
+msgctxt "unit-206343004"
+msgid "avr"
+msgstr "avr"
+
+#. unit: 206343005
+msgctxt "unit-206343005"
+msgid "ticks"
+msgstr "ticks"
+
+#. unit: 206343006
+msgctxt "unit-206343006"
+msgid "1 stepper"
+msgstr "1 stegmotor"
+
+#. unit: 206343007
+msgctxt "unit-206343007"
+msgid "3 stepper"
+msgstr "3 stegmotorer"
+
+#. unit: 206343008
+msgctxt "unit-206343008"
+msgid "Arduino Due step rate benchmark"
+msgstr "Prestandamätning av steghastighet för Arduino Due"
+
+#. unit: 206343009
+msgctxt "unit-206343009"
+msgid "The following configuration sequence is used on the Due:"
+msgstr "Följande konfigurationssekvens används på Due:"
+
+#. unit: 206343010
+msgctxt "unit-206343010"
+msgid "sam3x8e"
+msgstr "sam3x8e"
+
+#. unit: 206343011
+msgctxt "unit-206343011"
+msgid "Duet Maestro step rate benchmark"
+msgstr "Prestandamätning av steghastighet för Duet Maestro"
+
+#. unit: 206343012
+msgctxt "unit-206343012"
+msgid "The following configuration sequence is used on the Duet Maestro:"
+msgstr "Följande konfigurationssekvens används på Duet Maestro:"
+
+#. unit: 206343013
+msgctxt "unit-206343013"
+msgid "sam4s8c"
+msgstr "sam4s8c"
+
+#. unit: 206343014
+msgctxt "unit-206343014"
+msgid "70"
+msgstr "70"
+
+#. unit: 206343015
+msgctxt "unit-206343015"
+msgid "Duet Wifi step rate benchmark"
+msgstr "Prestandamätning av steghastighet för Duet WiFi"
+
+#. unit: 206343016
+msgctxt "unit-206343016"
+msgid "The following configuration sequence is used on the Duet Wifi:"
+msgstr "Följande konfigurationssekvens används på Duet WiFi:"
+
+#. unit: 206343017
+msgctxt "unit-206343017"
+msgid "sam4e8e"
+msgstr "sam4e8e"
+
+#. unit: 206343018
+msgctxt "unit-206343018"
+msgid "Beaglebone PRU step rate benchmark"
+msgstr "Prestandamätning av steghastighet för Beaglebone PRU"
+
+#. unit: 206343019
+msgctxt "unit-206343019"
+msgid "The following configuration sequence is used on the PRU:"
+msgstr "Följande konfigurationssekvens används på PRU:"
+
+#. unit: 206343020
+msgctxt "unit-206343020"
+msgid "pru"
+msgstr "pru"
+
+#. unit: 206343021
+msgctxt "unit-206343021"
+msgid "STM32F042 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för STM32F042"
+
+#. unit: 206343022
+msgctxt "unit-206343022"
+msgid "The following configuration sequence is used on the STM32F042:"
+msgstr "Följande konfigurationssekvens används på STM32F042:"
+
+#. unit: 206343023
+msgctxt "unit-206343023"
+msgid "stm32f042"
+msgstr "stm32f042"
+
+#. unit: 206343024
+msgctxt "unit-206343024"
+msgid "STM32F103 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för STM32F103"
+
+#. unit: 206343025
+msgctxt "unit-206343025"
+msgid "The following configuration sequence is used on the STM32F103:"
+msgstr "Följande konfigurationssekvens används på STM32F103:"
+
+#. unit: 206343026
+msgctxt "unit-206343026"
+msgid "stm32f103"
+msgstr "stm32f103"
+
+#. unit: 206343027
+msgctxt "unit-206343027"
+msgid "71"
+msgstr "71"
+
+#. unit: 206343028
+msgctxt "unit-206343028"
+msgid "STM32F4 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för STM32F4"
+
+#. unit: 206343029
+msgctxt "unit-206343029"
+msgid "The following configuration sequence is used on the STM32F4:"
+msgstr "Följande konfigurationssekvens används på STM32F4:"
+
+#. unit: 206343030
+msgctxt "unit-206343030"
+msgid "stm32f446"
+msgstr "stm32f446"
+
+#. unit: 206343031
+msgctxt "unit-206343031"
+msgid "51"
+msgstr "51"
+
+#. unit: 206343032
+msgctxt "unit-206343032"
+msgid "stm32f407"
+msgstr "stm32f407"
+
+#. unit: 206343033
+msgctxt "unit-206343033"
+msgid "52"
+msgstr "52"
+
+#. unit: 206343034
+msgctxt "unit-206343034"
+msgid "LPC176x step rate benchmark"
+msgstr "Prestandamätning av steghastighet för LPC176x"
+
+#. unit: 206343035
+msgctxt "unit-206343035"
+msgid "The following configuration sequence is used on the LPC176x:"
+msgstr "Följande konfigurationssekvens används på LPC176x:"
+
+#. unit: 206343036
+msgctxt "unit-206343036"
+msgid "lpc1768"
+msgstr "lpc1768"
+
+#. unit: 206343037
+msgctxt "unit-206343037"
+msgid "lpc1769"
+msgstr "lpc1769"
+
+#. unit: 206343038
+msgctxt "unit-206343038"
+msgid "SAMD21 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för SAMD21"
+
+#. unit: 206343039
+msgctxt "unit-206343039"
+msgid "The following configuration sequence is used on the SAMD21:"
+msgstr "Följande konfigurationssekvens används på SAMD21:"
+
+#. unit: 206343040
+msgctxt "unit-206343040"
+msgid "samd21"
+msgstr "samd21"
+
+#. unit: 206343041
+msgctxt "unit-206343041"
+msgid "SAMD51 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för SAMD51"
+
+#. unit: 206343042
+msgctxt "unit-206343042"
+msgid "The following configuration sequence is used on the SAMD51:"
+msgstr "Följande konfigurationssekvens används på SAMD51:"
+
+#. unit: 206343043
+msgctxt "unit-206343043"
+msgid "samd51"
+msgstr "samd51"
+
+#. unit: 206343044
+msgctxt "unit-206343044"
+msgid "1 stepper (200Mhz)"
+msgstr "1 stegmotor (200 MHz)"
+
+#. unit: 206343045
+msgctxt "unit-206343045"
+msgid "3 stepper (200Mhz)"
+msgstr "3 stegmotorer (200 MHz)"
+
+#. unit: 206343046
+msgctxt "unit-206343046"
+msgid "Linux MCU step rate benchmark"
+msgstr "Prestandamätning av steghastighet för Linux MCU"
+
+#. unit: 206343047
+msgctxt "unit-206343047"
+msgid "The following configuration sequence is used on a Raspberry Pi:"
+msgstr "Följande konfigurationssekvens används på Raspberry Pi:"
+
+#. unit: 206343048
+msgctxt "unit-206343048"
+msgid "Linux (RPi3)"
+msgstr "Linux (RPi3)"
+
+#. unit: 206343049
+msgctxt "unit-206343049"
+msgid "Command dispatch benchmark"
+msgstr "Prestandamätning av kommandohantering"
+
+#. unit: 206343050
+msgctxt "unit-206343050"
+msgid "When the test completes, determine the difference between the clocks reported in the two \"uptime\" response messages. The total number of commands per second is then `100000 * mcu_frequency / clock_diff`."
+msgstr "När testet är klart beräknar du skillnaden mellan klockvärdena som rapporteras i de två \"uptime\"-svarsmeddelandena. Det totala antalet kommandon per sekund är då `100000 * mcu_frequency / clock_diff`."
+
+#. unit: 206343052
+msgctxt "unit-206343052"
+msgid "Rate"
+msgstr "Hastighet"
+
+#. unit: 206343053
+msgctxt "unit-206343053"
+msgid "Build"
+msgstr "Bygge"
+
+#. unit: 206343054
+msgctxt "unit-206343054"
+msgid "Build compiler"
+msgstr "Byggkompilator"
+
+#. unit: 206343055
+msgctxt "unit-206343055"
+msgid "atmega2560 (serial)"
+msgstr "atmega2560 (seriell)"
+
+#. unit: 206343056
+msgctxt "unit-206343056"
+msgid "23K"
+msgstr "23 K"
+
+#. unit: 206343057
+msgctxt "unit-206343057"
+msgid "b161a69e"
+msgstr "b161a69e"
+
+#. unit: 206343058
+msgctxt "unit-206343058"
+msgid "avr-gcc (GCC) 4.8.1"
+msgstr "avr-gcc (GCC) 4.8.1"
+
+#. unit: 206343059
+msgctxt "unit-206343059"
+msgid "sam3x8e (serial)"
+msgstr "sam3x8e (seriell)"
+
+#. unit: 206343060
+msgctxt "unit-206343060"
+msgid "arm-none-eabi-gcc (Fedora 7.1.0-5.fc27) 7.1.0"
+msgstr "arm-none-eabi-gcc (Fedora 7.1.0-5.fc27) 7.1.0"
+
+#. unit: 206343061
+msgctxt "unit-206343061"
+msgid "at90usb1286 (USB)"
+msgstr "at90usb1286 (USB)"
+
+#. unit: 206343062
+msgctxt "unit-206343062"
+msgid "75K"
+msgstr "75 K"
+
+#. unit: 206343063
+msgctxt "unit-206343063"
+msgid "01d2183f"
+msgstr "01d2183f"
+
+#. unit: 206343064
+msgctxt "unit-206343064"
+msgid "avr-gcc (GCC) 5.4.0"
+msgstr "avr-gcc (GCC) 5.4.0"
+
+#. unit: 206343065
+msgctxt "unit-206343065"
+msgid "samd21 (USB)"
+msgstr "samd21 (USB)"
+
+#. unit: 206343066
+msgctxt "unit-206343066"
+msgid "223K"
+msgstr "223 K"
+
+#. unit: 206343067
+msgctxt "unit-206343067"
+msgid "arm-none-eabi-gcc (Fedora 7.4.0-1.fc30) 7.4.0"
+msgstr "arm-none-eabi-gcc (Fedora 7.4.0-1.fc30) 7.4.0"
+
+#. unit: 206343068
+msgctxt "unit-206343068"
+msgid "pru (shared memory)"
+msgstr "pru (delat minne)"
+
+#. unit: 206343069
+msgctxt "unit-206343069"
+msgid "260K"
+msgstr "260 K"
+
+#. unit: 206343070
+msgctxt "unit-206343070"
+msgid "c5968a08"
+msgstr "c5968a08"
+
+#. unit: 206343071
+msgctxt "unit-206343071"
+msgid "pru-gcc (GCC) 8.0.0 20170530 (experimental)"
+msgstr "pru-gcc (GCC) 8.0.0 20170530 (experimentell)"
+
+#. unit: 206343072
+msgctxt "unit-206343072"
+msgid "stm32f103 (USB)"
+msgstr "stm32f103 (USB)"
+
+#. unit: 206343073
+msgctxt "unit-206343073"
+msgid "355K"
+msgstr "355 K"
+
+#. unit: 206343074
+msgctxt "unit-206343074"
+msgid "sam3x8e (USB)"
+msgstr "sam3x8e (USB)"
+
+#. unit: 206343075
+msgctxt "unit-206343075"
+msgid "418K"
+msgstr "418 K"
+
+#. unit: 206343076
+msgctxt "unit-206343076"
+msgid "lpc1768 (USB)"
+msgstr "lpc1768 (USB)"
+
+#. unit: 206343077
+msgctxt "unit-206343077"
+msgid "534K"
+msgstr "534 K"
+
+#. unit: 206343078
+msgctxt "unit-206343078"
+msgid "lpc1769 (USB)"
+msgstr "lpc1769 (USB)"
+
+#. unit: 206343079
+msgctxt "unit-206343079"
+msgid "628K"
+msgstr "628 K"
+
+#. unit: 206343080
+msgctxt "unit-206343080"
+msgid "sam4s8c (USB)"
+msgstr "sam4s8c (USB)"
+
+#. unit: 206343081
+msgctxt "unit-206343081"
+msgid "650K"
+msgstr "650 K"
+
+#. unit: 206343082
+msgctxt "unit-206343082"
+msgid "8d4a5c16"
+msgstr "8d4a5c16"
+
+#. unit: 206343083
+msgctxt "unit-206343083"
+msgid "samd51 (USB)"
+msgstr "samd51 (USB)"
+
+#. unit: 206343084
+msgctxt "unit-206343084"
+msgid "864K"
+msgstr "864 K"
+
+#. unit: 206343085
+msgctxt "unit-206343085"
+msgid "stm32f446 (USB)"
+msgstr "stm32f446 (USB)"
+
+#. unit: 206343086
+msgctxt "unit-206343086"
+msgid "870K"
+msgstr "870 K"
+
+#. unit: 206343087
+msgctxt "unit-206343087"
+msgid "Host Benchmarks"
+msgstr "Prestandamätningar för värden"
+
+#. unit: 206343088
+msgctxt "unit-206343088"
+msgid "66"
+msgstr "66"
+
+#. unit: 206343089
+msgctxt "unit-206343089"
+msgid "rp2040 (USB)"
+msgstr "rp2040 (USB)"
+
+#. unit: 206343090
+msgctxt "unit-206343090"
+msgid "Benchmarks"
+msgstr "Prestandamätningar"
+
+#. unit: 206343091
+msgctxt "unit-206343091"
+msgid "The test is performed using the console.py tool (described in <Debugging.md>). The micro-controller is configured for the particular hardware platform (see below) and then the following is cut-and-paste into the console.py terminal window:"
+msgstr "Testet utförs med verktyget console.py (beskrivet i <Debugging.md>). Mikrokontrollern konfigureras för den aktuella maskinvaruplattformen (se nedan) och sedan klistras följande in i terminalfönstret för console.py:"
+
+#. unit: 206343092
+msgctxt "unit-206343092"
+msgid "The command dispatch benchmark tests how many \"dummy\" commands the micro-controller can process. It is primarily a test of the hardware communication mechanism. The test is run using the console.py tool (described in <Debugging.md>). The following is cut-and-paste into the console.py terminal window:"
+msgstr "Prestandamätningen av kommandohantering testar hur många \"dummy\"-kommandon mikrokontrollern kan bearbeta. Det är i första hand ett test av maskinvarukommunikationsmekanismen. Testet körs med verktyget console.py (beskrivet i <Debugging.md>). Följande klistras in i terminalfönstret för console.py:"
+
+#. unit: 206343093
+msgctxt "unit-206343093"
+msgid "It is possible to run timing tests on the host software using the \"batch mode\" processing mechanism (described in <Debugging.md>). This is typically done by choosing a large and complex G-Code file and timing how long it takes for the host software to process it. For example:"
+msgstr "Det går att köra tidstester på värdprogramvaran med bearbetningsmekanismen \"batch mode\" (beskriven i <Debugging.md>). Vanligtvis görs detta genom att välja en stor och komplex G-kodfil och mäta hur lång tid värdprogramvaran behöver för att bearbeta den. Exempel:"
+
+#. unit: 206343094
+msgctxt "unit-206343094"
+msgid "To obtain the single stepper benchmarks, the same configuration sequence is used, but only the first block of the above test is cut-and-paste into the console.py window."
+msgstr "För att få prestandamätningarna för en stegmotor används samma konfigurationssekvens, men bara det första blocket i testet ovan klistras in i console.py-fönstret."
+
+#. unit: 206343095
+msgctxt "unit-206343095"
+msgid "The benchmarks are run with parameters suitable for TMC Drivers. For micro-controllers that support `STEPPER_BOTH_EDGE=1` (as reported in the `MCU config` line when console.py first starts) use `step_pulse_duration=0` and `invert_step=-1` to enable optimized stepping on both edges of the step pulse. For other micro-controllers use a `step_pulse_duration` corresponding to 100ns."
+msgstr "Prestandamätningarna körs med parametrar som passar TMC-drivrutiner. För mikrokontroller som har stöd för `STEPPER_BOTH_EDGE=1` (som rapporteras på raden `MCU config` när console.py startas första gången) använder du `step_pulse_duration=0` och `invert_step=-1` för att aktivera optimerad stegräkning på båda kanter av stegpulsen. För andra mikrokontroller använder du `step_pulse_duration` som motsvarar 100 ns."
+
+#. unit: 206343096
+msgctxt "unit-206343096"
+msgid "The test was last run on commit `59314d99` with gcc version `avr-gcc (GCC) 5.4.0`. Both the 16Mhz and 20Mhz tests were run using simulavr configured for an atmega644p (previous tests have confirmed simulavr results match tests on both a 16Mhz at90usb and a 16Mhz atmega2560)."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `avr-gcc (GCC) 5.4.0`. Både testerna på 16 MHz och 20 MHz kördes med simulavr konfigurerad för atmega644p (tidigare tester har bekräftat att resultat från simulavr överensstämmer med tester på både 16 MHz at90usb och 16 MHz atmega2560)."
+
+#. unit: 206343097
+msgctxt "unit-206343097"
+msgid "102"
+msgstr "102"
+
+#. unit: 206343098
+msgctxt "unit-206343098"
+msgid "486"
+msgstr "486"
+
+#. unit: 206343099
+msgctxt "unit-206343099"
+msgid "The test was last run on commit `59314d99` with gcc version `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`."
+
+#. unit: 206343100
+msgctxt "unit-206343100"
+msgid "257"
+msgstr "257"
+
+#. unit: 206343101
+msgctxt "unit-206343101"
+msgid "260"
+msgstr "260"
+
+#. unit: 206343102
+msgctxt "unit-206343102"
+msgid "The test was last run on commit `59314d99` with gcc version `gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07)`."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `gcc version 10.3.1 20210621 (release) (GNU Arm Embedded Toolchain 10.3-2021.07)`."
+
+#. unit: 206343103
+msgctxt "unit-206343103"
+msgid "48"
+msgstr "48"
+
+#. unit: 206343104
+msgctxt "unit-206343104"
+msgid "215"
+msgstr "215"
+
+#. unit: 206343105
+msgctxt "unit-206343105"
+msgid "The test was last run on commit `59314d99` with gcc version `pru-gcc (GCC) 8.0.0 20170530 (experimental)`."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `pru-gcc (GCC) 8.0.0 20170530 (experimental)`."
+
+#. unit: 206343106
+msgctxt "unit-206343106"
+msgid "231"
+msgstr "231"
+
+#. unit: 206343107
+msgctxt "unit-206343107"
+msgid "847"
+msgstr "847"
+
+#. unit: 206343108
+msgctxt "unit-206343108"
+msgid "59"
+msgstr "59"
+
+#. unit: 206343109
+msgctxt "unit-206343109"
+msgid "249"
+msgstr "249"
+
+#. unit: 206343110
+msgctxt "unit-206343110"
+msgid "61"
+msgstr "61"
+
+#. unit: 206343111
+msgctxt "unit-206343111"
+msgid "264"
+msgstr "264"
+
+#. unit: 206343112
+msgctxt "unit-206343112"
+msgid "The test was last run on commit `59314d99` with gcc version `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`. The STM32F407 results were obtained by running an STM32F407 binary on an STM32F446 (and thus using a 168Mhz clock)."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`. Resultaten för STM32F407 erhölls genom att köra en STM32F407-binärfil på en STM32F446 (och därmed använda en klocka på 168 MHz)."
+
+#. unit: 206343113
+msgctxt "unit-206343113"
+msgid "46"
+msgstr "46"
+
+#. unit: 206343114
+msgctxt "unit-206343114"
+msgid "205"
+msgstr "205"
+
+#. unit: 206343115
+msgctxt "unit-206343115"
+msgid "The test was last run on commit `59314d99` with gcc version `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`. The 120Mhz LPC1769 results were obtained by overclocking an LPC1768 to 120Mhz."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`. Resultaten för LPC1769 vid 120 MHz erhölls genom att överklocka en LPC1768 till 120 MHz."
+
+#. unit: 206343116
+msgctxt "unit-206343116"
+msgid "222"
+msgstr "222"
+
+#. unit: 206343117
+msgctxt "unit-206343117"
+msgid "The test was last run on commit `59314d99` with gcc version `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0` on a SAMD21G18 micro-controller."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0` på en SAMD21G18-mikrokontroller."
+
+#. unit: 206343118
+msgctxt "unit-206343118"
+msgid "306"
+msgstr "306"
+
+#. unit: 206343119
+msgctxt "unit-206343119"
+msgid "The test was last run on commit `59314d99` with gcc version `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0` on a SAMD51J19A micro-controller."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0` på en SAMD51J19A-mikrokontroller."
+
+#. unit: 206343121
+msgctxt "unit-206343121"
+msgid "191"
+msgstr "191"
+
+#. unit: 206343122
+msgctxt "unit-206343122"
+msgid "181"
+msgstr "181"
+
+#. unit: 206343123
+msgctxt "unit-206343123"
+msgid "The test was last run on commit `59314d99` with gcc version `gcc (Raspbian 8.3.0-6+rpi1) 8.3.0` on a Raspberry Pi 3 (revision a02082). It was difficult to get stable results in this benchmark."
+msgstr "Testet kördes senast på incheckningen `59314d99` med GCC-versionen `gcc (Raspbian 8.3.0-6+rpi1) 8.3.0` på en Raspberry Pi 3 (revision a02082). Det var svårt att få stabila resultat i den här prestandamätningen."
+
+#. unit: 206343124
+msgctxt "unit-206343124"
+msgid "160"
+msgstr "160"
+
+#. unit: 206343125
+msgctxt "unit-206343125"
+msgid "380"
+msgstr "380"
+
+#. unit: 206343126
+msgctxt "unit-206343126"
+msgid "To produce the benchmarks found in the [Features](Features.md) document, the total number of steps per second is calculated by multiplying the number of active steppers with the nominal mcu frequency and dividing by the final ticks parameter. The results are rounded to the nearest K. For example, with three active steppers:"
+msgstr "För att skapa prestandamätningarna i dokumentet [Funktioner](Features.md) beräknas det totala antalet steg per sekund genom att antalet aktiva stegmotorer multipliceras med den nominella MCU-frekvensen och delas med den slutliga ticks-parametern. Resultaten avrundas till närmaste K. Till exempel med tre aktiva stegmotorer:"
+
+#. unit: 206343127
+msgctxt "unit-206343127"
+msgid "STM32G0B1 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för STM32G0B1"
+
+#. unit: 206343128
+msgctxt "unit-206343128"
+msgid "The following configuration sequence is used on the STM32G0B1:"
+msgstr "Följande konfigurationssekvens används på STM32G0B1:"
+
+#. unit: 206343129
+msgctxt "unit-206343129"
+msgid "The test was last run on commit `247cd753` with gcc version `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`."
+msgstr "Testet kördes senast på incheckningen `247cd753` med GCC-versionen `arm-none-eabi-gcc (Fedora 10.2.0-4.fc34) 10.2.0`."
+
+#. unit: 206343130
+msgctxt "unit-206343130"
+msgid "58"
+msgstr "58"
+
+#. unit: 206343131
+msgctxt "unit-206343131"
+msgid "243"
+msgstr "243"
+
+#. unit: 206343132
+msgctxt "unit-206343132"
+msgid "stm32g0b1"
+msgstr "stm32g0b1"
+
+#. unit: 206343133
+msgctxt "unit-206343133"
+msgid "STM32H7 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för STM32H7"
+
+#. unit: 206343134
+msgctxt "unit-206343134"
+msgid "AR100 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för AR100"
+
+#. unit: 206343135
+msgctxt "unit-206343135"
+msgid "The following configuration sequence is used on AR100 CPU (Allwinner A64):"
+msgstr "Följande konfigurationssekvens används på AR100-processorn (Allwinner A64):"
+
+#. unit: 206343136
+msgctxt "unit-206343136"
+msgid "AR100 R_PIO"
+msgstr "AR100 R_PIO"
+
+#. unit: 206343137
+msgctxt "unit-206343137"
+msgid "85"
+msgstr "85"
+
+#. unit: 206343138
+msgctxt "unit-206343138"
+msgid "359"
+msgstr "359"
+
+#. unit: 206343139
+msgctxt "unit-206343139"
+msgid "ar100 (serial)"
+msgstr "ar100 (seriell)"
+
+#. unit: 206343140
+msgctxt "unit-206343140"
+msgid "138K"
+msgstr "138 K"
+
+#. unit: 206343141
+msgctxt "unit-206343141"
+msgid "08d037c6"
+msgstr "08d037c6"
+
+#. unit: 206343142
+msgctxt "unit-206343142"
+msgid "or1k-linux-musl-gcc 9.3.0"
+msgstr "or1k-linux-musl-gcc 9.3.0"
+
+#. unit: 206343143
+msgctxt "unit-206343143"
+msgid "SAME70 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för SAME70"
+
+#. unit: 206343144
+msgctxt "unit-206343144"
+msgid "The following configuration sequence is used on the SAME70:"
+msgstr "Följande konfigurationssekvens används på SAME70:"
+
+#. unit: 206343145
+msgctxt "unit-206343145"
+msgid "The test was last run on commit `34e9ea55` with gcc version `arm-none-eabi-gcc (NixOS 10.3-2021.10) 10.3.1` on a SAME70Q20B micro-controller."
+msgstr "Testet kördes senast på incheckningen `34e9ea55` med GCC-versionen `arm-none-eabi-gcc (NixOS 10.3-2021.10) 10.3.1` på en SAME70Q20B-mikrokontroller."
+
+#. unit: 206343146
+msgctxt "unit-206343146"
+msgid "same70"
+msgstr "same70"
+
+#. unit: 206343147
+msgctxt "unit-206343147"
+msgid "45"
+msgstr "45"
+
+#. unit: 206343148
+msgctxt "unit-206343148"
+msgid "190"
+msgstr "190"
+
+#. unit: 206343149
+msgctxt "unit-206343149"
+msgid "The test was last run on commit `b7978d37` with gcc version `or1k-linux-musl-gcc (GCC) 9.2.0` on an Allwinner A64-H micro-controller."
+msgstr "Testet kördes senast på incheckningen `b7978d37` med GCC-versionen `or1k-linux-musl-gcc (GCC) 9.2.0` på en Allwinner A64-H-mikrokontroller."
+
+#. unit: 206343150
+msgctxt "unit-206343150"
+msgid "RPxxxx step rate benchmark"
+msgstr "Prestandamätning av steghastighet för RPxxxx"
+
+#. unit: 206343151
+msgctxt "unit-206343151"
+msgid "The following configuration sequence is used on the RP2040 and RP2350:"
+msgstr "Följande konfigurationssekvens används på RP2040 och RP2350:"
+
+#. unit: 206343152
+msgctxt "unit-206343152"
+msgid "rp2040 (*)"
+msgstr "rp2040 (*)"
+
+#. unit: 206343153
+msgctxt "unit-206343153"
+msgid "rp2350"
+msgstr "rp2350"
+
+#. unit: 206343155
+msgctxt "unit-206343155"
+msgid "169"
+msgstr "169"
+
+#. unit: 206343156
+msgctxt "unit-206343156"
+msgid "885K"
+msgstr "885 K"
+
+#. unit: 206343157
+msgctxt "unit-206343157"
+msgid "f6718291"
+msgstr "f6718291"
+
+#. unit: 206343158
+msgctxt "unit-206343158"
+msgid "arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0"
+msgstr "arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0"
+
+#. unit: 206343159
+msgctxt "unit-206343159"
+msgid "rp2350 (USB)"
+msgstr "rp2350 (USB)"
+
+#. unit: 206343160
+msgctxt "unit-206343160"
+msgid "The following configuration sequence is used on STM32H723:"
+msgstr "Följande konfigurationssekvens används på STM32H723:"
+
+#. unit: 206343161
+msgctxt "unit-206343161"
+msgid "The test was last run on commit `554ae78d` with gcc version `arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0`."
+msgstr "Testet kördes senast på incheckningen `554ae78d` med GCC-versionen `arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0`."
+
+#. unit: 206343162
+msgctxt "unit-206343162"
+msgid "stm32h723"
+msgstr "stm32h723"
+
+#. unit: 206343163
+msgctxt "unit-206343163"
+msgid "The test was last run on commit `14c105b8` with gcc version `arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0` on Raspberry Pi Pico and Pico 2 boards."
+msgstr "Testet kördes senast på incheckningen `14c105b8` med GCC-versionen `arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0` på Raspberry Pi Pico- och Pico 2-kort."
+
+#. unit: 206343165
+msgctxt "unit-206343165"
+msgid "14"
+msgstr "14"
+
+#. unit: 206343166
+msgctxt "unit-206343166"
+msgid "STM32G4 step rate benchmark"
+msgstr "Prestandamätning av steghastighet för STM32G4"
+
+#. unit: 206343167
+msgctxt "unit-206343167"
+msgid "The following configuration sequence is used on the STM32G431:"
+msgstr "Följande konfigurationssekvens används på STM32G431:"
+
+#. unit: 206343168
+msgctxt "unit-206343168"
+msgid "The test was last run on commit `cfa48fe3` with gcc version `arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0`."
+msgstr "Testet kördes senast på incheckningen `cfa48fe3` med GCC-versionen `arm-none-eabi-gcc (Fedora 14.1.0-1.fc40) 14.1.0`."
+
+#. unit: 206343169
+msgctxt "unit-206343169"
+msgid "stm32g431"
+msgstr "stm32g431"
+
+#. unit: 206343170
+msgctxt "unit-206343170"
+msgid "47"
+msgstr "47"
+
+#. unit: 206343171
+msgctxt "unit-206343171"
+msgid "208"
+msgstr "208"
+
+#. unit: 206343172
+msgctxt "unit-206343172"
+msgid "(*) Note that the reported rp2040 ticks are relative to a 12Mhz scheduling timer and do not correspond to its 200Mhz internal ARM processing rate. It is expected that 3 scheduling ticks corresponds to ~42 ARM core cycles and 14 scheduling ticks corresponds to ~225 ARM core cycles."
+msgstr "(*) Observera att de rapporterade rp2040-ticken är relativa till en schemaläggningstimer på 12 MHz och inte motsvarar den interna ARM-bearbetningshastigheten på 200 MHz. Tre schemaläggningstick förväntas motsvara cirka 42 ARM-kärncykler och 14 schemaläggningstick cirka 225 ARM-kärncykler."
+
+#. unit: 206343173
+msgctxt "unit-206343173"
+msgid "The USB tests may exceed the CPU capacity of a Raspberry Pi. If running on a Raspberry Pi, Beaglebone, or similar host computer then increase the delay (eg, `DELAY {clock + 20*freq} get_uptime`). Where applicable, the benchmarks below are with console.py running on a desktop class machine with the device connected via a super-speed hub."
+msgstr "USB-testerna kan överskrida CPU-kapaciteten på en Raspberry Pi. Om testet körs på en Raspberry Pi, Beaglebone eller liknande värddator ökar du fördröjningen (till exempel `DELAY {clock + 20*freq} get_uptime`). Där så är tillämpligt körs nedanstående prestandamätningar med console.py på en dator av skrivbordsklass och enheten ansluten via en supersnabb hubb."
+
+#. unit: 206343174
+msgctxt "unit-206343174"
+msgid "The CAN bus tests may saturate the USB host controller of a Raspberry Pi (when testing via a standard gs_usb USB to CAN bus adapter). Where applicable, the CAN bus benchmarks below are with console.py running on a desktop class machine with a USB to CAN bus adapter connected via a super-speed USB hub."
+msgstr "CAN-busstesterna kan mätta USB-värdstyrenheten på en Raspberry Pi (vid testning via en vanlig gs_usb USB-till-CAN-bussadapter). Där så är tillämpligt körs nedanstående CAN-bussprestandamätningar med console.py på en dator av skrivbordsklass och en USB-till-CAN-bussadapter ansluten via en supersnabb USB-hubb."
+
+#. unit: 206343175
+msgctxt "unit-206343175"
+msgid "rp2350 (CAN)"
+msgstr "rp2350 (CAN)"
+
+#. unit: 206343176
+msgctxt "unit-206343176"
+msgid "59K"
+msgstr "59 K"
+
+#. unit: 206343177
+msgctxt "unit-206343177"
+msgid "17b8ce4c"
+msgstr "17b8ce4c"
+

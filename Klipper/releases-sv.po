@@ -1,0 +1,887 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Klipper\n"
+"PO-Revision-Date: 2026-09-17 00:00+0000\n"
+"Last-Translator: Daniel Nylander\n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. unit: 206342081
+msgctxt "unit-206342081"
+msgid "History of Klipper releases. Please see [installation](Installation.md) for information on installing Klipper."
+msgstr "Historik över Klipper-utgåvor. Information om hur du installerar Klipper finns i [installationsanvisningarna](Installation.md)."
+
+#. unit: 206342082
+msgctxt "unit-206342082"
+msgid "Klipper 0.9.0"
+msgstr "Klipper 0.9.0"
+
+#. unit: 206342083
+msgctxt "unit-206342083"
+msgid "Available on 20201020. Major changes in this release:"
+msgstr "Tillgänglig den 2020-10-20. Större ändringar i den här utgåvan:"
+
+#. unit: 206342084
+msgctxt "unit-206342084"
+msgid "Support for \"Input Shaping\" - a mechanism to counteract printer resonance. It can reduce or eliminate \"ringing\" in prints."
+msgstr "Stöd för \"Input Shaping\" – en metod för att motverka skrivarresonanser. Den kan minska eller eliminera \"ringing\" i utskrifter."
+
+#. unit: 206342085
+msgctxt "unit-206342085"
+msgid "New \"Smooth Pressure Advance\" system. This implements \"Pressure Advance\" without introducing instantaneous velocity changes. It is also now possible to tune pressure advance using a \"Tuning Tower\" method."
+msgstr "Nytt system för \"Smooth Pressure Advance\". Det implementerar \"Pressure Advance\" utan att införa omedelbara hastighetsändringar. Det går nu också att trimma pressure advance med metoden \"Tuning Tower\"."
+
+#. unit: 206342086
+msgctxt "unit-206342086"
+msgid "New \"webhooks\" API server. This provides a programmable JSON interface to Klipper."
+msgstr "Ny API-server för \"webhooks\". Den tillhandahåller ett programmerbart JSON-gränssnitt till Klipper."
+
+#. unit: 206342087
+msgctxt "unit-206342087"
+msgid "The LCD display and menu are now configurable using the Jinja2 template language."
+msgstr "LCD-skärmen och menyn kan nu konfigureras med mallspråket Jinja2."
+
+#. unit: 206342088
+msgctxt "unit-206342088"
+msgid "The TMC2208 stepper motor drivers can now be used in \"standalone\" mode with Klipper."
+msgstr "Stegmotordrivrutinerna TMC2208 kan nu användas i \"fristående\" läge med Klipper."
+
+#. unit: 206342089
+msgctxt "unit-206342089"
+msgid "Improved BL-Touch v3 support."
+msgstr "Förbättrat stöd för BL-Touch v3."
+
+#. unit: 206342090
+msgctxt "unit-206342090"
+msgid "Improved USB identification. Klipper now has its own USB identification code and micro-controllers can now report their unique serial numbers during USB identification."
+msgstr "Förbättrad USB-identifiering. Klipper har nu en egen USB-identifieringskod och mikrokontroller kan rapportera sina unika serienummer vid USB-identifiering."
+
+#. unit: 206342091
+msgctxt "unit-206342091"
+msgid "New kinematic support for \"Rotary Delta\" and \"CoreXZ\" printers."
+msgstr "Nytt kinematikstöd för skrivarna \"Rotary Delta\" och \"CoreXZ\"."
+
+#. unit: 206342092
+msgctxt "unit-206342092"
+msgid "Micro-controller improvements: support for stm32f070, support for stm32f207, support for GPIO pins on \"Linux MCU\", stm32 \"HID bootloader\" support, Chitu bootloader support, MKS Robin bootloader support."
+msgstr "Förbättringar för mikrokontroller: stöd för stm32f070 och stm32f207, stöd för GPIO-stift på \"Linux MCU\", stöd för stm32 \"HID bootloader\", Chitu-bootloader och MKS Robin-bootloader."
+
+#. unit: 206342093
+msgctxt "unit-206342093"
+msgid "Improved handling of Python \"garbage collection\" events."
+msgstr "Förbättrad hantering av händelser för Python \"garbage collection\"."
+
+#. unit: 206342094
+msgctxt "unit-206342094"
+msgid "Many additional modules added: adc_scaled, adxl345, bme280, display_status, extruder_stepper, fan_generic, hall_filament_width_sensor, htu21d, homing_heaters, input_shaper, lm75, print_stats, resonance_tester, shaper_calibrate, query_adc, graph_accelerometer, graph_extruder, graph_motion, graph_shaper, graph_temp_sensor, whconsole"
+msgstr "Många ytterligare moduler: adc_scaled, adxl345, bme280, display_status, extruder_stepper, fan_generic, hall_filament_width_sensor, htu21d, homing_heaters, input_shaper, lm75, print_stats, resonance_tester, shaper_calibrate, query_adc, graph_accelerometer, graph_extruder, graph_motion, graph_shaper, graph_temp_sensor, whconsole"
+
+#. unit: 206342095
+msgctxt "unit-206342095"
+msgid "Several bug fixes and code cleanups."
+msgstr "Flera felrättningar och kodstädningar."
+
+#. unit: 206342096
+msgctxt "unit-206342096"
+msgid "Klipper 0.9.1"
+msgstr "Klipper 0.9.1"
+
+#. unit: 206342097
+msgctxt "unit-206342097"
+msgid "Available on 20201028. Release containing only bug fixes."
+msgstr "Tillgänglig den 2020-10-28. Utgåva som endast innehåller felrättningar."
+
+#. unit: 206342098
+msgctxt "unit-206342098"
+msgid "Klipper 0.8.0"
+msgstr "Klipper 0.8.0"
+
+#. unit: 206342099
+msgctxt "unit-206342099"
+msgid "Available on 20191021. Major changes in this release:"
+msgstr "Tillgänglig den 2019-10-21. Större ändringar i den här utgåvan:"
+
+#. unit: 206342100
+msgctxt "unit-206342100"
+msgid "New G-Code command template support. G-Code in the config file is now evaluated with the Jinja2 template language."
+msgstr "Nytt stöd för G-kodkommandon i mallar. G-kod i konfigurationsfilen utvärderas nu med mallspråket Jinja2."
+
+#. unit: 206342101
+msgctxt "unit-206342101"
+msgid "Improvements to Trinamic stepper drivers:"
+msgstr "Förbättringar av Trinamic-stegdrivrutiner:"
+
+#. unit: 206342102
+msgctxt "unit-206342102"
+msgid "New support for TMC2209 and TMC5160 drivers."
+msgstr "Nytt stöd för drivrutinerna TMC2209 och TMC5160."
+
+#. unit: 206342103
+msgctxt "unit-206342103"
+msgid "Improved DUMP_TMC, SET_TMC_CURRENT, and INIT_TMC G-Code commands."
+msgstr "Förbättrade G-kodkommandon DUMP_TMC, SET_TMC_CURRENT och INIT_TMC."
+
+#. unit: 206342104
+msgctxt "unit-206342104"
+msgid "Improved support for TMC UART handling with an analog mux."
+msgstr "Förbättrat stöd för hantering av TMC UART med en analog multiplexor."
+
+#. unit: 206342105
+msgctxt "unit-206342105"
+msgid "Improved homing, probing, and bed leveling support:"
+msgstr "Förbättrat stöd för hemlägeskörning, sondering och bäddnivellering:"
+
+#. unit: 206342106
+msgctxt "unit-206342106"
+msgid "New manual_probe, bed_screws, screws_tilt_adjust, skew_correction, safe_z_home modules added."
+msgstr "Nya moduler tillagda: manual_probe, bed_screws, screws_tilt_adjust, skew_correction, safe_z_home."
+
+#. unit: 206342107
+msgctxt "unit-206342107"
+msgid "Enhanced multi-sample probing with median, average, and retry logic."
+msgstr "Förbättrad sondering med flera prov, median-, medelvärdes- och återförsökslogik."
+
+#. unit: 206342108
+msgctxt "unit-206342108"
+msgid "Improved documentation for BL-Touch, probe calibration, endstop calibration, delta calibration, sensorless homing, and endstop phase calibration."
+msgstr "Förbättrad dokumentation för BL-Touch, sondkalibrering, ändlägeskalibrering, delta-kalibrering, sensorlös hemlägeskörning och kalibrering av ändlägesfas."
+
+#. unit: 206342109
+msgctxt "unit-206342109"
+msgid "Improved homing support on a large Z axis."
+msgstr "Förbättrat stöd för hemlägeskörning på en stor Z-axel."
+
+#. unit: 206342110
+msgctxt "unit-206342110"
+msgid "Many Klipper micro-controller improvements:"
+msgstr "Många förbättringar för Klipper-mikrokontroller:"
+
+#. unit: 206342111
+msgctxt "unit-206342111"
+msgid "Klipper ported to: SAM3X8C, SAM4S8C, SAMD51, STM32F042, STM32F4"
+msgstr "Klipper portat till: SAM3X8C, SAM4S8C, SAMD51, STM32F042, STM32F4."
+
+#. unit: 206342112
+msgctxt "unit-206342112"
+msgid "New USB CDC driver implementations on SAM3X, SAM4, STM32F4."
+msgstr "Nya implementationer av USB CDC-drivrutiner på SAM3X, SAM4, STM32F4."
+
+#. unit: 206342113
+msgctxt "unit-206342113"
+msgid "Enhanced support for flashing Klipper over USB."
+msgstr "Förbättrat stöd för att flasha Klipper över USB."
+
+#. unit: 206342114
+msgctxt "unit-206342114"
+msgid "Software SPI support."
+msgstr "Stöd för programvaru-SPI."
+
+#. unit: 206342115
+msgctxt "unit-206342115"
+msgid "Greatly improved temperature filtering on the LPC176x."
+msgstr "Kraftigt förbättrad temperaturfiltrering på LPC176x."
+
+#. unit: 206342116
+msgctxt "unit-206342116"
+msgid "Early output pin settings can be configured in the micro-controller."
+msgstr "Tidiga inställningar för utgångsstift kan konfigureras i mikrokontrollern."
+
+#. unit: 206342117
+msgctxt "unit-206342117"
+msgid "New website with the Klipper documentation: http://klipper3d.org/"
+msgstr "Ny webbplats med Klipper-dokumentationen: http://klipper3d.org/"
+
+#. unit: 206342118
+msgctxt "unit-206342118"
+msgid "Klipper now has a logo."
+msgstr "Klipper har nu en logotyp."
+
+#. unit: 206342119
+msgctxt "unit-206342119"
+msgid "Experimental support for polar and \"cable winch\" kinematics."
+msgstr "Experimentellt stöd för polar- och \"cable winch\"-kinematik."
+
+#. unit: 206342120
+msgctxt "unit-206342120"
+msgid "The config file can now include other config files."
+msgstr "Konfigurationsfilen kan nu inkludera andra konfigurationsfiler."
+
+#. unit: 206342121
+msgctxt "unit-206342121"
+msgid "Many additional modules added: board_pins, controller_fan, delayed_gcode, dotstar, filament_switch_sensor, firmware_retraction, gcode_arcs, gcode_button, heater_generic, manual_stepper, mcp4018, mcp4728, neopixel, pause_resume, respond, temperature_sensor tsl1401cl_filament_width_sensor, tuning_tower"
+msgstr "Många ytterligare moduler: board_pins, controller_fan, delayed_gcode, dotstar, filament_switch_sensor, firmware_retraction, gcode_arcs, gcode_button, heater_generic, manual_stepper, mcp4018, mcp4728, neopixel, pause_resume, respond, temperature_sensor, tsl1401cl_filament_width_sensor, tuning_tower."
+
+#. unit: 206342122
+msgctxt "unit-206342122"
+msgid "Many additional commands added: RESTORE_GCODE_STATE, SAVE_GCODE_STATE, SET_GCODE_VARIABLE, SET_HEATER_TEMPERATURE, SET_IDLE_TIMEOUT, SET_TEMPERATURE_FAN_TARGET"
+msgstr "Många nya kommandon: RESTORE_GCODE_STATE, SAVE_GCODE_STATE, SET_GCODE_VARIABLE, SET_HEATER_TEMPERATURE, SET_IDLE_TIMEOUT, SET_TEMPERATURE_FAN_TARGET."
+
+#. unit: 206342123
+msgctxt "unit-206342123"
+msgid "Klipper 0.7.0"
+msgstr "Klipper 0.7.0"
+
+#. unit: 206342124
+msgctxt "unit-206342124"
+msgid "Available on 20181220. Major changes in this release:"
+msgstr "Tillgänglig den 2018-12-20. Större ändringar i den här utgåvan:"
+
+#. unit: 206342125
+msgctxt "unit-206342125"
+msgid "Klipper now supports \"mesh\" bed leveling"
+msgstr "Klipper stöder nu \"mesh\"-bäddnivellering."
+
+#. unit: 206342126
+msgctxt "unit-206342126"
+msgid "New support for \"enhanced\" delta calibration (calibrates print x/y dimensions on delta printers)"
+msgstr "Nytt stöd för \"förbättrad\" delta-kalibrering (kalibrerar utskriftens x/y-mått på delta-skrivare)."
+
+#. unit: 206342127
+msgctxt "unit-206342127"
+msgid "Support for run-time configuration of Trinamic stepper motor drivers (tmc2130, tmc2208, tmc2660)"
+msgstr "Stöd för körningskonfiguration av Trinamic-stegmotordrivrutiner (tmc2130, tmc2208, tmc2660)."
+
+#. unit: 206342128
+msgctxt "unit-206342128"
+msgid "Improved temperature sensor support: MAX6675, MAX31855, MAX31856, MAX31865, custom thermistors, common pt100 style sensors"
+msgstr "Förbättrat stöd för temperatursensorer: MAX6675, MAX31855, MAX31856, MAX31865, egna termistorer och vanliga pt100-sensorer."
+
+#. unit: 206342129
+msgctxt "unit-206342129"
+msgid "Several new modules: temperature_fan, sx1509, force_move, mcp4451, z_tilt, quad_gantry_level, endstop_phase, bltouch"
+msgstr "Flera nya moduler: temperature_fan, sx1509, force_move, mcp4451, z_tilt, quad_gantry_level, endstop_phase, bltouch."
+
+#. unit: 206342130
+msgctxt "unit-206342130"
+msgid "Several new commands added: SAVE_CONFIG, SET_PRESSURE_ADVANCE, SET_GCODE_OFFSET, SET_VELOCITY_LIMIT, STEPPER_BUZZ, TURN_OFF_HEATERS, M204, custom g-code macros"
+msgstr "Flera nya kommandon: SAVE_CONFIG, SET_PRESSURE_ADVANCE, SET_GCODE_OFFSET, SET_VELOCITY_LIMIT, STEPPER_BUZZ, TURN_OFF_HEATERS, M204, anpassade g-kodmakron."
+
+#. unit: 206342131
+msgctxt "unit-206342131"
+msgid "Expanded LCD display support:"
+msgstr "Utökat LCD-skärmstöd:"
+
+#. unit: 206342132
+msgctxt "unit-206342132"
+msgid "Support for run-time menus"
+msgstr "Stöd för körningsmenyer."
+
+#. unit: 206342133
+msgctxt "unit-206342133"
+msgid "New display icons"
+msgstr "Nya skärmikoner."
+
+#. unit: 206342134
+msgctxt "unit-206342134"
+msgid "Support for \"uc1701\" and \"ssd1306\" displays"
+msgstr "Stöd för skärmarna \"uc1701\" och \"ssd1306\"."
+
+#. unit: 206342135
+msgctxt "unit-206342135"
+msgid "Additional micro-controller support:"
+msgstr "Ytterligare stöd för mikrokontroller:"
+
+#. unit: 206342136
+msgctxt "unit-206342136"
+msgid "Klipper ported to: LPC176x (Smoothieboards), SAM4E8E (Duet2), SAMD21 (Arduino Zero), STM32F103 (\"Blue pill\" devices), atmega32u4"
+msgstr "Klipper portat till: LPC176x (Smoothieboards), SAM4E8E (Duet2), SAMD21 (Arduino Zero), STM32F103 (\"Blue pill\"-enheter), atmega32u4."
+
+#. unit: 206342137
+msgctxt "unit-206342137"
+msgid "New Generic USB CDC driver implemented on AVR, LPC176x, SAMD21, and STM32F103"
+msgstr "Ny generisk USB CDC-drivrutin implementerad på AVR, LPC176x, SAMD21 och STM32F103."
+
+#. unit: 206342138
+msgctxt "unit-206342138"
+msgid "Performance improvements on ARM processors"
+msgstr "Prestandaförbättringar på ARM-processorer."
+
+#. unit: 206342139
+msgctxt "unit-206342139"
+msgid "The kinematics code was rewritten to use an \"iterative solver\""
+msgstr "Koden för kinematik skrevs om för att använda en \"iterativ lösare\"."
+
+#. unit: 206342140
+msgctxt "unit-206342140"
+msgid "New automatic test cases for the Klipper host software"
+msgstr "Nya automatiska testfall för Klippers värdprogramvara."
+
+#. unit: 206342141
+msgctxt "unit-206342141"
+msgid "Many new example config files for common off-the-shelf printers"
+msgstr "Många nya exempelkonfigurationsfiler för vanliga standardskrivare."
+
+#. unit: 206342142
+msgctxt "unit-206342142"
+msgid "Documentation updates for bootloaders, benchmarking, micro-controller porting, config checks, pin mapping, slicer settings, packaging, and more"
+msgstr "Dokumentationsuppdateringar för bootloaders, prestandamätning, portning av mikrokontroller, konfigurationskontroller, stiftmappning, slicer-inställningar, paketering med mera."
+
+#. unit: 206342143
+msgctxt "unit-206342143"
+msgid "Several bug fixes and code cleanups"
+msgstr "Flera felrättningar och kodstädningar."
+
+#. unit: 206342144
+msgctxt "unit-206342144"
+msgid "Klipper 0.6.0"
+msgstr "Klipper 0.6.0"
+
+#. unit: 206342145
+msgctxt "unit-206342145"
+msgid "Available on 20180331. Major changes in this release:"
+msgstr "Tillgänglig den 2018-03-31. Större ändringar i den här utgåvan:"
+
+#. unit: 206342146
+msgctxt "unit-206342146"
+msgid "Enhanced heater and thermistor hardware failure checks"
+msgstr "Förbättrade kontroller av maskinvarufel för värmare och termistorer."
+
+#. unit: 206342147
+msgctxt "unit-206342147"
+msgid "Support for Z probes"
+msgstr "Stöd för Z-sonder."
+
+#. unit: 206342148
+msgctxt "unit-206342148"
+msgid "Initial support for automatic parameter calibration on deltas (via a new delta_calibrate command)"
+msgstr "Inledande stöd för automatisk parameterkalibrering på delta-skrivare (via ett nytt kommando delta_calibrate)."
+
+#. unit: 206342149
+msgctxt "unit-206342149"
+msgid "Initial support for bed tilt compensation (via bed_tilt_calibrate command)"
+msgstr "Inledande stöd för kompensation av bäddlutning (via kommandot bed_tilt_calibrate)."
+
+#. unit: 206342150
+msgctxt "unit-206342150"
+msgid "Initial support for \"safe homing\" and homing overrides"
+msgstr "Inledande stöd för \"safe homing\" och åsidosättanden av hemlägeskörning."
+
+#. unit: 206342151
+msgctxt "unit-206342151"
+msgid "Initial support for displaying status on RepRapDiscount style 2004 and 12864 displays"
+msgstr "Inledande stöd för statusvisning på 2004- och 12864-skärmar av RepRapDiscount-typ."
+
+#. unit: 206342152
+msgctxt "unit-206342152"
+msgid "New multi-extruder improvements:"
+msgstr "Nya förbättringar för flera extrudrar:"
+
+#. unit: 206342153
+msgctxt "unit-206342153"
+msgid "Support for shared heaters"
+msgstr "Stöd för delade värmare."
+
+#. unit: 206342154
+msgctxt "unit-206342154"
+msgid "Initial support for dual carriages"
+msgstr "Inledande stöd för dubbla vagnar."
+
+#. unit: 206342155
+msgctxt "unit-206342155"
+msgid "Support for configuring multiple steppers per axis (eg, dual Z)"
+msgstr "Stöd för att konfigurera flera stegmotorer per axel (till exempel dubbel Z)."
+
+#. unit: 206342156
+msgctxt "unit-206342156"
+msgid "Support for custom digital and pwm output pins (with a new SET_PIN command)"
+msgstr "Stöd för anpassade digitala utgångsstift och PWM-utgångsstift (med ett nytt kommando SET_PIN)."
+
+#. unit: 206342157
+msgctxt "unit-206342157"
+msgid "Initial support for a \"virtual sdcard\" that allows printing directly from Klipper (helps on machines too slow to run OctoPrint well)"
+msgstr "Inledande stöd för ett \"virtuellt SD-kort\" som möjliggör utskrift direkt från Klipper (hjälper på maskiner som är för långsamma för att köra OctoPrint väl)."
+
+#. unit: 206342158
+msgctxt "unit-206342158"
+msgid "Support for setting different arm lengths on each tower of a delta"
+msgstr "Stöd för att ange olika armlängder på varje torn i en delta-skrivare."
+
+#. unit: 206342159
+msgctxt "unit-206342159"
+msgid "Support for G-Code M220/M221 commands (speed factor override / extrude factor override)"
+msgstr "Stöd för G-kodkommandona M220/M221 (åsidosättande av hastighetsfaktor/extruderingsfaktor)."
+
+#. unit: 206342160
+msgctxt "unit-206342160"
+msgid "Several documentation updates:"
+msgstr "Flera dokumentationsuppdateringar:"
+
+#. unit: 206342161
+msgctxt "unit-206342161"
+msgid "New multiple MCU config example"
+msgstr "Nytt konfigurationsexempel för flera MCU:er."
+
+#. unit: 206342162
+msgctxt "unit-206342162"
+msgid "New bltouch sensor config example"
+msgstr "Nytt konfigurationsexempel för bltouch-sensor."
+
+#. unit: 206342163
+msgctxt "unit-206342163"
+msgid "New FAQ, config check, and G-Code documents"
+msgstr "Nya dokument om vanliga frågor, konfigurationskontroll och G-kod."
+
+#. unit: 206342164
+msgctxt "unit-206342164"
+msgid "Initial support for continuous integration testing on all github commits"
+msgstr "Inledande stöd för kontinuerlig integreringstestning på alla GitHub-incheckningar."
+
+#. unit: 206342165
+msgctxt "unit-206342165"
+msgid "Klipper 0.5.0"
+msgstr "Klipper 0.5.0"
+
+#. unit: 206342166
+msgctxt "unit-206342166"
+msgid "Available on 20171025. Major changes in this release:"
+msgstr "Tillgänglig den 2017-10-25. Större ändringar i den här utgåvan:"
+
+#. unit: 206342167
+msgctxt "unit-206342167"
+msgid "Support for printers with multiple extruders."
+msgstr "Stöd för skrivare med flera extrudrar."
+
+#. unit: 206342168
+msgctxt "unit-206342168"
+msgid "Initial support for running on the Beaglebone PRU. Initial support for the Replicape board."
+msgstr "Inledande stöd för körning på Beaglebone PRU. Inledande stöd för Replicape-kortet."
+
+#. unit: 206342169
+msgctxt "unit-206342169"
+msgid "Initial support for running the micro-controller code in a real-time Linux process."
+msgstr "Inledande stöd för att köra mikrokontrollerkoden i en Linux-process med realtidsegenskaper."
+
+#. unit: 206342170
+msgctxt "unit-206342170"
+msgid "Support for multiple micro-controllers. (For example, one could control an extruder with one micro-controller and the rest of the printer with another.) Software clock synchronization is implemented to coordinate actions between micro-controllers."
+msgstr "Stöd för flera mikrokontroller. (En extruder kan till exempel styras med en mikrokontroller och resten av skrivaren med en annan.) Programvaruklocksynkronisering implementeras för att samordna åtgärder mellan mikrokontroller."
+
+#. unit: 206342171
+msgctxt "unit-206342171"
+msgid "Stepper performance improvements (20Mhz AVRs up to 189K steps per second)."
+msgstr "Prestandaförbättringar för stegmotorer (20 MHz AVR:er upp till 189 K steg per sekund)."
+
+#. unit: 206342172
+msgctxt "unit-206342172"
+msgid "Support for controlling servos and support for defining nozzle cooling fans."
+msgstr "Stöd för styrning av servon och för att definiera fläktar för munstyckskylning."
+
+#. unit: 206342173
+msgctxt "unit-206342173"
+msgid "Klipper 0.4.0"
+msgstr "Klipper 0.4.0"
+
+#. unit: 206342174
+msgctxt "unit-206342174"
+msgid "Available on 20170503. Major changes in this release:"
+msgstr "Tillgänglig den 2017-05-03. Större ändringar i den här utgåvan:"
+
+#. unit: 206342175
+msgctxt "unit-206342175"
+msgid "Improved installation on Raspberry Pi machines. Most of the install is now scripted."
+msgstr "Förbättrad installation på Raspberry Pi-maskiner. Merparten av installationen skriptas nu."
+
+#. unit: 206342176
+msgctxt "unit-206342176"
+msgid "Support for corexy kinematics"
+msgstr "Stöd för corexy-kinematik."
+
+#. unit: 206342177
+msgctxt "unit-206342177"
+msgid "Documentation updates: New Kinematics document, new Pressure Advance tuning guide, new example config files, and more"
+msgstr "Dokumentationsuppdateringar: nytt dokument om kinematik, ny guide för trimning av Pressure Advance, nya exempelkonfigurationsfiler med mera."
+
+#. unit: 206342178
+msgctxt "unit-206342178"
+msgid "Stepper performance improvements (20Mhz AVRs over 175K steps per second, Arduino Due over 460K)"
+msgstr "Prestandaförbättringar för stegmotorer (20 MHz AVR:er över 175 K steg per sekund, Arduino Due över 460 K)."
+
+#. unit: 206342179
+msgctxt "unit-206342179"
+msgid "Support for automatic micro-controller resets. Support for resets via toggling USB power on Raspberry Pi."
+msgstr "Stöd för automatiska återställningar av mikrokontrollern. Stöd för återställning genom att växla USB-strömmen på Raspberry Pi."
+
+#. unit: 206342180
+msgctxt "unit-206342180"
+msgid "The pressure advance algorithm now works with look-ahead to reduce pressure changes during cornering."
+msgstr "Algoritmen för pressure advance använder nu look-ahead för att minska tryckändringar vid hörn."
+
+#. unit: 206342181
+msgctxt "unit-206342181"
+msgid "Support for limiting the top speed of short zigzag moves"
+msgstr "Stöd för att begränsa topphastigheten för korta sicksackrörelser."
+
+#. unit: 206342182
+msgctxt "unit-206342182"
+msgid "Support for AD595 sensors"
+msgstr "Stöd för AD595-sensorer."
+
+#. unit: 206342183
+msgctxt "unit-206342183"
+msgid "Klipper 0.3.0"
+msgstr "Klipper 0.3.0"
+
+#. unit: 206342184
+msgctxt "unit-206342184"
+msgid "Available on 20161223. Major changes in this release:"
+msgstr "Tillgänglig den 2016-12-23. Större ändringar i den här utgåvan:"
+
+#. unit: 206342185
+msgctxt "unit-206342185"
+msgid "Improved documentation"
+msgstr "Förbättrad dokumentation."
+
+#. unit: 206342186
+msgctxt "unit-206342186"
+msgid "Support for robots with delta kinematics"
+msgstr "Stöd för robotar med delta-kinematik."
+
+#. unit: 206342187
+msgctxt "unit-206342187"
+msgid "Support for Arduino Due micro-controller (ARM cortex-M3)"
+msgstr "Stöd för Arduino Due-mikrokontroller (ARM Cortex-M3)."
+
+#. unit: 206342188
+msgctxt "unit-206342188"
+msgid "Support for USB based AVR micro-controllers"
+msgstr "Stöd för USB-baserade AVR-mikrokontroller."
+
+#. unit: 206342189
+msgctxt "unit-206342189"
+msgid "Support for \"pressure advance\" algorithm - it reduces ooze during prints."
+msgstr "Stöd för algoritmen \"pressure advance\" – den minskar filamentläckage under utskrifter."
+
+#. unit: 206342190
+msgctxt "unit-206342190"
+msgid "New \"stepper phased based endstop\" feature - enables higher precision on endstop homing."
+msgstr "Ny funktion för \"stegmotorbaserad ändlägesfas\" – ger högre precision vid hemlägeskörning mot ändlägen."
+
+#. unit: 206342191
+msgctxt "unit-206342191"
+msgid "Support for \"extended g-code\" commands such as \"help\", \"restart\", and \"status\"."
+msgstr "Stöd för \"extended g-code\"-kommandon som \"help\", \"restart\" och \"status\"."
+
+#. unit: 206342192
+msgctxt "unit-206342192"
+msgid "Support for reloading the Klipper config and restarting the host software by issuing a \"restart\" command from the terminal."
+msgstr "Stöd för att läsa om Klipper-konfigurationen och starta om värdprogramvaran genom att utfärda kommandot \"restart\" i terminalen."
+
+#. unit: 206342193
+msgctxt "unit-206342193"
+msgid "Stepper performance improvements (20Mhz AVRs up to 158K steps per second)."
+msgstr "Prestandaförbättringar för stegmotorer (20 MHz AVR:er upp till 158 K steg per sekund)."
+
+#. unit: 206342194
+msgctxt "unit-206342194"
+msgid "Improved error reporting. Most errors now shown via the terminal along with help on how to resolve."
+msgstr "Förbättrad felrapportering. De flesta fel visas nu i terminalen tillsammans med hjälp om hur de löses."
+
+#. unit: 206342195
+msgctxt "unit-206342195"
+msgid "Klipper 0.2.0"
+msgstr "Klipper 0.2.0"
+
+#. unit: 206342196
+msgctxt "unit-206342196"
+msgid "Initial release of Klipper. Available on 20160525. Major features available in the initial release include:"
+msgstr "Klippers första utgåva. Tillgänglig den 2016-05-25. De främsta funktionerna i den första utgåvan omfattar:"
+
+#. unit: 206342197
+msgctxt "unit-206342197"
+msgid "Basic support for cartesian printers (steppers, extruder, heated bed, cooling fan)."
+msgstr "Grundläggande stöd för kartesiska skrivare (stegmotorer, extruder, uppvärmd bädd, kylfläkt)."
+
+#. unit: 206342198
+msgctxt "unit-206342198"
+msgid "Support for common g-code commands. Support for interfacing with OctoPrint."
+msgstr "Stöd för vanliga g-kodkommandon. Stöd för gränssnitt mot OctoPrint."
+
+#. unit: 206342199
+msgctxt "unit-206342199"
+msgid "Acceleration and lookahead handling"
+msgstr "Hantering av acceleration och look-ahead."
+
+#. unit: 206342200
+msgctxt "unit-206342200"
+msgid "Support for AVR micro-controllers via standard serial ports"
+msgstr "Stöd för AVR-mikrokontroller via vanliga seriella portar."
+
+#. unit: 206342202
+msgctxt "unit-206342202"
+msgid "Klipper 0.10.0"
+msgstr "Klipper 0.10.0"
+
+#. unit: 206342203
+msgctxt "unit-206342203"
+msgid "Available on 20210929. Major changes in this release:"
+msgstr "Tillgänglig den 2021-09-29. Större ändringar i den här utgåvan:"
+
+#. unit: 206342204
+msgctxt "unit-206342204"
+msgid "Support for \"Multi-MCU Homing\". It is now possible for a stepper motor and its endstop to be wired to separate micro-controllers. This simplifies wiring of Z probes on \"toolhead boards\"."
+msgstr "Stöd för \"Multi-MCU Homing\". En stegmotor och dess ändläge kan nu vara anslutna till separata mikrokontroller. Det förenklar kabeldragningen för Z-sonder på \"toolhead boards\"."
+
+#. unit: 206342205
+msgctxt "unit-206342205"
+msgid "Klipper now has a [Community Discord Server](https://discord.klipper3d.org) and a [Community Discourse Server](https://community.klipper3d.org)."
+msgstr "Klipper har nu en [Discord-server för communityn](https://discord.klipper3d.org) och en [Discourse-server för communityn](https://community.klipper3d.org)."
+
+#. unit: 206342206
+msgctxt "unit-206342206"
+msgid "The [Klipper website](https://www.klipper3d.org) now uses the \"mkdocs\" infrastructure. There is also a [Klipper Translations](https://github.com/Klipper3d/klipper-translations) project."
+msgstr "[Klippers webbplats](https://www.klipper3d.org) använder nu infrastrukturen \"mkdocs\". Det finns också projektet [Klipper Translations](https://github.com/Klipper3d/klipper-translations)."
+
+#. unit: 206342207
+msgctxt "unit-206342207"
+msgid "Automated support for flashing firmware via sdcard on many boards."
+msgstr "Automatiserat stöd för att flasha firmware via SD-kort på många kort."
+
+#. unit: 206342208
+msgctxt "unit-206342208"
+msgid "New kinematic support for \"Hybrid CoreXY\" and \"Hybrid CoreXZ\" printers."
+msgstr "Nytt kinematikstöd för skrivarna \"Hybrid CoreXY\" och \"Hybrid CoreXZ\"."
+
+#. unit: 206342209
+msgctxt "unit-206342209"
+msgid "Klipper now uses `rotation_distance` to configure stepper motor travel distances."
+msgstr "Klipper använder nu `rotation_distance` för att konfigurera stegmotorers rörelsesträckor."
+
+#. unit: 206342210
+msgctxt "unit-206342210"
+msgid "The main Klipper host code can now directly communicate with micro-controllers using CAN bus."
+msgstr "Klippers huvudsakliga värdkod kan nu kommunicera direkt med mikrokontroller via CAN-buss."
+
+#. unit: 206342211
+msgctxt "unit-206342211"
+msgid "New \"motion analysis\" system. Klipper's internal motion updates and sensor results can be tracked and logged for analysis."
+msgstr "Nytt system för \"rörelseanalys\". Klippers interna rörelseuppdateringar och sensorresultat kan följas och loggas för analys."
+
+#. unit: 206342212
+msgctxt "unit-206342212"
+msgid "Trinamic stepper motor drivers are now continuously monitored for error conditions."
+msgstr "Trinamic-stegmotordrivrutiner övervakas nu kontinuerligt för feltillstånd."
+
+#. unit: 206342213
+msgctxt "unit-206342213"
+msgid "Support for the rp2040 micro-controller (Raspberry Pi Pico boards)."
+msgstr "Stöd för mikrokontrollern rp2040 (Raspberry Pi Pico-kort)."
+
+#. unit: 206342214
+msgctxt "unit-206342214"
+msgid "The \"make menuconfig\" system now utilizes kconfiglib."
+msgstr "Systemet \"make menuconfig\" använder nu kconfiglib."
+
+#. unit: 206342215
+msgctxt "unit-206342215"
+msgid "Many additional modules added: ds18b20, duplicate_pin_override, filament_motion_sensor, palette2, motion_report, pca9533, pulse_counter, save_variables, sdcard_loop, temperature_host, temperature_mcu"
+msgstr "Många ytterligare moduler: ds18b20, duplicate_pin_override, filament_motion_sensor, palette2, motion_report, pca9533, pulse_counter, save_variables, sdcard_loop, temperature_host, temperature_mcu."
+
+#. unit: 206342216
+msgctxt "unit-206342216"
+msgid "Klipper 0.11.0"
+msgstr "Klipper 0.11.0"
+
+#. unit: 206342217
+msgctxt "unit-206342217"
+msgid "Available on 20221128. Major changes in this release:"
+msgstr "Tillgänglig den 2022-11-28. Större ändringar i den här utgåvan:"
+
+#. unit: 206342218
+msgctxt "unit-206342218"
+msgid "Trinamic stepper motor driver \"step on both edges\" optimization."
+msgstr "Optimering för Trinamic-stegmotordrivrutiner: \"step on both edges\"."
+
+#. unit: 206342219
+msgctxt "unit-206342219"
+msgid "Support for Python3. The Klipper host code will run with either Python2 or Python3."
+msgstr "Stöd för Python 3. Klippers värdkod körs med antingen Python 2 eller Python 3."
+
+#. unit: 206342220
+msgctxt "unit-206342220"
+msgid "Enhanced CAN bus support. Support for CAN bus on rp2040, stm32g0, stm32h7, same51, and same54 chips. Support for \"USB to CAN bus bridge\" mode."
+msgstr "Förbättrat CAN-bussstöd. Stöd för CAN-buss på chipen rp2040, stm32g0, stm32h7, same51 och same54. Stöd för läget \"USB till CAN-bussbrygga\"."
+
+#. unit: 206342221
+msgctxt "unit-206342221"
+msgid "Support for CanBoot bootloader."
+msgstr "Stöd för CanBoot-bootloader."
+
+#. unit: 206342222
+msgctxt "unit-206342222"
+msgid "Support for mpu9250 and mpu6050 accelerometers."
+msgstr "Stöd för accelerometrarna mpu9250 och mpu6050."
+
+#. unit: 206342223
+msgctxt "unit-206342223"
+msgid "Improved error handling for max31856, max31855, max31865, and max6675 temperature sensors."
+msgstr "Förbättrad felhantering för temperatursensorerna max31856, max31855, max31865 och max6675."
+
+#. unit: 206342224
+msgctxt "unit-206342224"
+msgid "It is now possible to configure LEDs to update during long running G-Code commands using LED \"template\" support."
+msgstr "Det går nu att konfigurera LED:ar så att de uppdateras under långvariga G-kodkommandon med stöd för LED-\"mallar\"."
+
+#. unit: 206342225
+msgctxt "unit-206342225"
+msgid "Several micro-controller improvements. New support for stm32h743, stm32h750, stm32l412, stm32g0b1, same70, same51, and same54 chips. Support for i2c reads on atsamd and stm32f0. Hardware pwm support on stm32. Linux mcu signal based event dispatch. New rp2040 support for \"make flash\", i2c, and rp2040-e5 USB errata."
+msgstr "Flera förbättringar av mikrokontroller. Nytt stöd för chipen stm32h743, stm32h750, stm32l412, stm32g0b1, same70, same51 och same54. Stöd för I2C-läsningar på atsamd och stm32f0. Maskinvarustöd för PWM på stm32. Händelseutskick i Linux MCU baserat på signaler. Nytt rp2040-stöd för \"make flash\", I2C och USB-erratan rp2040-e5."
+
+#. unit: 206342226
+msgctxt "unit-206342226"
+msgid "New modules added: angle, dac084S085, exclude_object, led, mpu9250, pca9632, smart_effector, z_thermal_adjust. New deltesian kinematics added. New dump_mcu tool added."
+msgstr "Nya moduler: angle, dac084S085, exclude_object, led, mpu9250, pca9632, smart_effector, z_thermal_adjust. Ny deltesisk kinematik. Nytt verktyg dump_mcu."
+
+#. unit: 206342227
+msgctxt "unit-206342227"
+msgid "Klipper 0.13.0"
+msgstr "Klipper 0.13.0"
+
+#. unit: 206342228
+msgctxt "unit-206342228"
+msgid "Available on 20250411. Major changes in this release:"
+msgstr "Tillgänglig den 2025-04-11. Större ändringar i den här utgåvan:"
+
+#. unit: 206342229
+msgctxt "unit-206342229"
+msgid "New \"sweeping vibrations\" resonance testing mechanism for input shaper."
+msgstr "Ny mekanism för resonanstest med \"svepande vibrationer\" för input shaper."
+
+#. unit: 206342230
+msgctxt "unit-206342230"
+msgid "Fans and GPIO pins can now be assigned a formula (via Jinja2 \"templates\")."
+msgstr "Fläktar och GPIO-stift kan nu tilldelas en formel (via Jinja2-\"mallar\")."
+
+#. unit: 206342231
+msgctxt "unit-206342231"
+msgid "The bed_mesh code now supports \"adaptive bed mesh\". The area probed can be adjusted for the size of the print."
+msgstr "Koden bed_mesh stöder nu \"adaptiv bäddmesh\". Det sonderade området kan anpassas till utskriftens storlek."
+
+#. unit: 206342232
+msgctxt "unit-206342232"
+msgid "A new `minimum_cruise_ratio` kinematic parameter has been added (it replaces the previous `max_accel_to_decel` parameter)."
+msgstr "En ny kinematikparameter, `minimum_cruise_ratio`, har lagts till (den ersätter den tidigare parametern `max_accel_to_decel`)."
+
+#. unit: 206342233
+msgctxt "unit-206342233"
+msgid "Several new sensors added:"
+msgstr "Flera nya sensorer:"
+
+#. unit: 206342234
+msgctxt "unit-206342234"
+msgid "Support for ldc1612 \"eddy\" current sensors. This includes probing support, fast \"scan\" probing, and temperature calibration."
+msgstr "Stöd för ldc1612-\"eddy current\"-sensorer. Det omfattar stöd för sondering, snabb \"scan\"-sondering och temperaturkalibrering."
+
+#. unit: 206342235
+msgctxt "unit-206342235"
+msgid "New support for \"load cell\" measurements. Support for connecting these load cells to hx71x and ads1220 ADC sensors."
+msgstr "Nytt stöd för mätningar med \"load cell\". Stöd för att ansluta dessa lastceller till ADC-sensorerna hx71x och ads1220."
+
+#. unit: 206342236
+msgctxt "unit-206342236"
+msgid "Support for BMP180, BMP388, and SHT3x temperature sensors. Support for measuring temperature with ADS1x1x ADC chips."
+msgstr "Stöd för temperatursensorerna BMP180, BMP388 och SHT3x. Stöd för temperaturmätning med ADS1x1x ADC-chip."
+
+#. unit: 206342237
+msgctxt "unit-206342237"
+msgid "New lis3dh and icm20948 accelerometer support."
+msgstr "Nytt stöd för accelerometrarna lis3dh och icm20948."
+
+#. unit: 206342238
+msgctxt "unit-206342238"
+msgid "Support for mt6816 and mt6826s \"hall angle\" sensors."
+msgstr "Stöd för \"hall angle\"-sensorerna mt6816 och mt6826s."
+
+#. unit: 206342239
+msgctxt "unit-206342239"
+msgid "New micro-controller improvements:"
+msgstr "Nya förbättringar av mikrokontroller:"
+
+#. unit: 206342240
+msgctxt "unit-206342240"
+msgid "New support for rp2350 micro-controllers."
+msgstr "Nytt stöd för rp2350-mikrokontroller."
+
+#. unit: 206342241
+msgctxt "unit-206342241"
+msgid "Existing rp2040 chips now run at 200MHz (up from 125Mhz)."
+msgstr "Befintliga rp2040-chip körs nu vid 200 MHz (i stället för 125 MHz)."
+
+#. unit: 206342242
+msgctxt "unit-206342242"
+msgid "The micro-controller code can now define many more commands (up to 16384 from 128)."
+msgstr "Mikrokontrollerkoden kan nu definiera betydligt fler kommandon (upp till 16384 i stället för 128)."
+
+#. unit: 206342243
+msgctxt "unit-206342243"
+msgid "Other modules added: aip31068_spi, canbus_stats, error_mcu, garbage_collection, pwm_cycle_time, pwm_tool, garbage_collection."
+msgstr "Andra tillagda moduler: aip31068_spi, canbus_stats, error_mcu, garbage_collection, pwm_cycle_time, pwm_tool, garbage_collection."
+
+#. unit: 206342244
+msgctxt "unit-206342244"
+msgid "Klipper 0.12.0"
+msgstr "Klipper 0.12.0"
+
+#. unit: 206342245
+msgctxt "unit-206342245"
+msgid "Available on 20231110. Major changes in this release:"
+msgstr "Tillgänglig den 2023-11-10. Större ändringar i den här utgåvan:"
+
+#. unit: 206342246
+msgctxt "unit-206342246"
+msgid "Support for COPY and MIRROR modes on IDEX printers."
+msgstr "Stöd för lägena COPY och MIRROR på IDEX-skrivare."
+
+#. unit: 206342247
+msgctxt "unit-206342247"
+msgid "Several micro-controller improvements:"
+msgstr "Flera förbättringar av mikrokontroller:"
+
+#. unit: 206342248
+msgctxt "unit-206342248"
+msgid "Support for new ar100 and hc32f460 architectures."
+msgstr "Stöd för de nya arkitekturerna ar100 och hc32f460."
+
+#. unit: 206342249
+msgctxt "unit-206342249"
+msgid "Support for stm32f7, stm32g0b0, stm32g07x, stm32g4, stm32h723, n32g45x, samc21, and samd21j18 chip variants."
+msgstr "Stöd för chipvarianterna stm32f7, stm32g0b0, stm32g07x, stm32g4, stm32h723, n32g45x, samc21 och samd21j18."
+
+#. unit: 206342250
+msgctxt "unit-206342250"
+msgid "Improved DFU and Katapult reboot handling."
+msgstr "Förbättrad hantering av omstarter med DFU och Katapult."
+
+#. unit: 206342251
+msgctxt "unit-206342251"
+msgid "Improved performance on USB to CANbus bridge mode."
+msgstr "Förbättrad prestanda för bryggläget USB till CAN-buss."
+
+#. unit: 206342252
+msgctxt "unit-206342252"
+msgid "Improved performance on \"linux mcu\"."
+msgstr "Förbättrad prestanda för \"linux mcu\"."
+
+#. unit: 206342253
+msgctxt "unit-206342253"
+msgid "New support for software based i2c."
+msgstr "Nytt stöd för programvarubaserad I2C."
+
+#. unit: 206342254
+msgctxt "unit-206342254"
+msgid "New hardware support for tmc2240 stepper motor drivers, lis2dw12 accelerometers, and aht10 temperature sensors."
+msgstr "Nytt maskinvarustöd för stegmotordrivrutinerna tmc2240, accelerometrarna lis2dw12 och temperatursensorerna aht10."
+
+#. unit: 206342255
+msgctxt "unit-206342255"
+msgid "New axis_twist_compensation and temperature_combined modules added."
+msgstr "Nya moduler axis_twist_compensation och temperature_combined."
+
+#. unit: 206342256
+msgctxt "unit-206342256"
+msgid "New support for gcode arcs in XY, XZ, and YZ planes."
+msgstr "Nytt stöd för g-kodbågar i XY-, XZ- och YZ-plan."
+
