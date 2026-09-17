@@ -42,11 +42,11 @@ msgstr ""
 
 #: src/programs/pkaction.c:101
 msgid "Only output information about ACTION"
-msgstr "Visa endast information om ÅTGÄRD"
+msgstr "Visa endast information om ACTION"
 
 #: src/programs/pkaction.c:101
 msgid "ACTION"
-msgstr "ÅTGÄRD"
+msgstr "ACTION"
 
 #: src/programs/pkaction.c:105
 msgid "Output detailed action information"
@@ -58,7 +58,7 @@ msgstr "Visa version"
 
 #: src/programs/pkaction.c:132
 msgid "[--action-id ACTION]"
-msgstr "[--action-id ÅTGÄRD]"
+msgstr "[--action-id ACTION]"
 
 #: src/programs/pkaction.c:133 src/programs/pkttyagent.c:127
 #, c-format
@@ -105,28 +105,28 @@ msgid ""
 "%s home page: <%s>\n"
 msgstr ""
 "Användning:\n"
-"  pkcheck [FLAGGA…]\n"
+"  pkcheck [OPTION…]\n"
 "\n"
-"Hjälpflaggor:\n"
-"  -h, --help                         Visa hjälpflaggor\n"
+"Hjälpalternativ:\n"
+"  -h, --help                         Visa hjälpalternativ\n"
 "\n"
-"Programflaggor:\n"
-"  -a, --action-id=ÅTGÄRD             Kontrollera auktorisering för att "
-"utföra ÅTGÄRD\n"
+"Programalternativ:\n"
+"  -a, --action-id=ACTION              Kontrollera auktorisering för att "
+"utföra ACTION\n"
 "  -u, --allow-user-interaction       Interagera med användaren om "
 "nödvändigt\n"
-"  -d, --details=NYCKEL VÄRDE           Lägg till (NYCKEL, VÄRDE) till "
+"  -d, --details=KEY VALUE            Lägg till (KEY, VALUE) till "
 "information om åtgärden\n"
 "  --enable-internal-agent            Använd en intern autentiseringsagent om "
 "nödvändigt\n"
 "  --list-temp                        Lista tillfälliga auktoriseringar för "
 "aktuell session\n"
-"  -p, --process=PID[,STARTTID,UID] Kontrollera auktorisering för angiven "
+"  -p, --process=PID[,START_TIME,UID] Kontrollera auktorisering för angiven "
 "process\n"
 "  --revoke-temp                      Återkalla alla tillfälliga "
 "auktoriseringar för aktuell session\n"
-"  -s, --system-bus-name=BUSSNAMN     Kontrollera auktorisering för ägare av "
-"BUSSNAMN\n"
+"  -s, --system-bus-name=BUS_NAME     Kontrollera auktorisering för ägare av "
+"BUS_NAME\n"
 "  --version                          Visa version\n"
 "\n"
 "Rapportera fel till: %s\n"
@@ -192,15 +192,15 @@ msgstr "Registrera agenten för den angivna processen"
 
 #: src/programs/pkttyagent.c:96
 msgid "PID[,START_TIME]"
-msgstr "PID[,STARTTID]"
+msgstr "PID[,START_TIME]"
 
 #: src/programs/pkttyagent.c:100
 msgid "Register the agent for the owner of BUS_NAME"
-msgstr "Registrera agenten för ägaren av BUSSNAMN"
+msgstr "Registrera agenten för ägaren av BUS_NAME"
 
 #: src/programs/pkttyagent.c:100
 msgid "BUS_NAME"
-msgstr "BUSSNAMN"
+msgstr "BUS_NAME"
 
 #: src/programs/pkttyagent.c:155
 #, c-format
