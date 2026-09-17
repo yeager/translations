@@ -96,7 +96,7 @@ Alla **56** GitHub-PR-länkar i detta dokument återlästes via GitHub den 16 se
 | Devolutions Gateway | [#1984](https://github.com/Devolutions/devolutions-gateway/pull/1984) | Öppen, `BLOCKED`, `REVIEW_REQUIRED`. |
 | FreeCAD Render | [#499](https://github.com/FreeCAD/FreeCAD-render/pull/499) | Öppen, `UNSTABLE`; pre-commit passerar. |
 | FreeRDP | [#13365](https://github.com/FreeRDP/FreeRDP/pull/13365) | **Sammanslagen**; fem exponerade kontroller passerade. |
-| FreeRDP, uppföljning | [#13367](https://github.com/FreeRDP/FreeRDP/pull/13367) | Öppen, `BLOCKED`, `CHANGES_REQUESTED`; ny underhållargranskning begärd 2026-09-16. |
+| FreeRDP, uppföljning | [#13367](https://github.com/FreeRDP/FreeRDP/pull/13367) | Öppen, `BLOCKED`, `CHANGES_REQUESTED`; senaste arkitektur-/C-fix är pushad och ny granskning begärd 2026-09-17. |
 | AnythingLLM | [#6227](https://github.com/Mintplex-Labs/anything-llm/pull/6227) | **Sammanslagen**. |
 | AnythingLLM, ersatt PR | [#6342](https://github.com/Mintplex-Labs/anything-llm/pull/6342) | Stängd; `DIRTY`. |
 | Gittyup | [#1002](https://github.com/Murmele/Gittyup/pull/1002) | **Sammanslagen**; relevanta kontroller passerade. |
