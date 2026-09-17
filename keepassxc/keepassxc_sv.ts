@@ -1683,7 +1683,7 @@ To prevent this error from appearing, you must go to &quot;Database Settings / S
         <translation>Kunde inte låsa upp databasen och du angav inget lösenord.
 Vill du försöka igen, med ett &quot;tomt&quot; lösenord istället?
 
-För att förhindra att detta fel uppstår igen, måste du gå till &quot;Databasinställningar/Säkerhet&quot; och återställa dittlösenord.</translation>
+För att förhindra att detta fel uppstår igen måste du gå till &quot;Databasinställningar/Säkerhet&quot; och återställa ditt lösenord.</translation>
     </message>
     <message>
         <source>Retry with empty password</source>
@@ -3078,7 +3078,7 @@ Vill du korrigera det?</translation>
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
-        <translation><numerusform>%1 timma</numerusform><numerusform>%n timmar</numerusform></translation>
+        <translation><numerusform>%n timme</numerusform><numerusform>%n timmar</numerusform></translation>
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
@@ -5361,7 +5361,7 @@ Rad %2, kolumn: %3</translation>
     </message>
     <message>
         <source>Unsupported encryption algorithm.</source>
-        <translation>Krypteringsalgoritnmen stöds ej.</translation>
+        <translation>Krypteringsalgoritmen stöds inte.</translation>
     </message>
     <message>
         <source>Unsupported KeePass database version.</source>
@@ -6455,7 +6455,7 @@ Förvänta dig några fel och mindre problem, den här versionen är avsedd för
     <name>ManageSession</name>
     <message>
         <source>Disconnect</source>
-        <translation>Kopla ifrån</translation>
+        <translation>Koppla från</translation>
     </message>
     <message>
         <source>Disconnect this application</source>
@@ -7740,7 +7740,7 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Attachment %1 already exists for entry %2.</source>
-        <translation>Bilagan %1 finns redan i post &amp;2.</translation>
+        <translation>Bilagan %1 finns redan i post %2.</translation>
     </message>
     <message>
         <source>Could not open attachment file %1.</source>
@@ -8281,7 +8281,7 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Use uppercase characters</source>
-        <translation>Amvänd VERSALER</translation>
+        <translation>Använd VERSALER</translation>
     </message>
     <message>
         <source>Use numbers</source>
@@ -8628,7 +8628,7 @@ inte kommer att stödja i framtiden.
     <message>
         <source>All clipping programs failed. Tried %1
 </source>
-        <translation>Alla klippprogram misslyckades. Försökte med %1
+        <translation>Alla urklippsprogram misslyckades. Försökte med %1
 </translation>
     </message>
     <message>
