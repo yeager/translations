@@ -432,7 +432,7 @@
     <message>
         <location filename="bluetooth_device_dialog.ui" line="185"/>
         <source>Simple Pairing Mode</source>
-        <translation>Enkelt hopparningsläge</translation>
+        <translation>Enkelt parningsläge</translation>
     </message>
     <message>
         <location filename="bluetooth_device_dialog.ui" line="190"/>
@@ -3125,7 +3125,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="display_filter_expression_dialog.ui" line="172"/>
         <source>If the field you have selected has a known set of valid values they will be listed here.</source>
-        <translation>Om fälted du har valt har en känd uppsättning giltiga värden listas de här.</translation>
+        <translation>Om fältet du har valt har en känd uppsättning giltiga värden listas de här.</translation>
     </message>
     <message>
         <location filename="display_filter_expression_dialog.ui" line="175"/>
@@ -9504,7 +9504,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="packet_format_json_group_box.ui" line="26"/>
         <source>No duplicate keys</source>
-        <translation>Inga dubbletta nycklar</translation>
+        <translation>Inga dubblettnycklar</translation>
     </message>
     <message>
         <location filename="packet_format_json_group_box.ui" line="36"/>
@@ -10415,7 +10415,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="models/profile_model.cpp" line="1320"/>
         <source>A profile name cannot contain the following characters: %1</source>
-        <translation>Ett profilnamn får inte innehållande följande tecken: %1</translation>
+        <translation>Ett profilnamn får inte innehålla följande tecken: %1</translation>
     </message>
     <message>
         <location filename="models/profile_model.cpp" line="1327"/>
@@ -11614,7 +11614,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="widgets/resize_header_view.cpp" line="40"/>
         <source>Resize all %1 to contents</source>
-        <translation>Ändra storlek på allla %1 till innehållet</translation>
+        <translation>Ändra storlek på alla %1 till innehållet</translation>
     </message>
 </context>
 <context>
@@ -14053,7 +14053,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="search_frame.ui" line="255"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Search for a subsequent occurrence in the current packet before advancing to the next packet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sök efter en följand förekomst i det aktuela paketet före att gå vidare till nästa paket.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Sök efter en följande förekomst i det aktuella paketet innan du går vidare till nästa paket.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="search_frame.ui" line="258"/>
@@ -16029,7 +16029,7 @@ Till exempel, använd 1 timma för att en ny fil skall skapas varje timma vid he
     <message>
         <location filename="widgets/traffic_tab.cpp" line="680"/>
         <source>Could not open base file %1 for reading: %2</source>
-        <translation>Kunde inte öppna basfien %1 för läsning: %2</translation>
+        <translation>Kunde inte öppna basfilen %1 för läsning: %2</translation>
     </message>
     <message>
         <location filename="widgets/traffic_tab.cpp" line="790"/>
@@ -19596,7 +19596,7 @@ a:hover {
     <message>
         <location filename="wireshark_main_window_slots.cpp" line="2452"/>
         <source>There are no available secrets used to decrypt TLS traffic in the capture file.  Would you like to view information about how to decrypt TLS traffic on the wiki?</source>
-        <translation>Det finns inga tillgängliga hemligheter att använda för att dekryptera TLS-trafiken i fångstfilen. Vill du se information om hur man kan dektryptera TLS-trafik i wiki:n?</translation>
+        <translation>Det finns inga tillgängliga hemligheter att använda för att dekryptera TLS-trafiken i fångstfilen. Vill du se information om hur man kan dekryptera TLS-trafik i wiki:n?</translation>
     </message>
     <message>
         <location filename="wireshark_main_window_slots.cpp" line="2484"/>
