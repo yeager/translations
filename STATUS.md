@@ -86,7 +86,7 @@ GitHub-releasekontrollen omfattade 77 översättningsprojekt med verifierbar upp
 
 ## PR-kontroll 2026-09-17
 
-Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes via GitHub den 17 september; **56** av dem är länkade i detta dokument. Fördelningen är 55 `CLEAN`, 23 `BLOCKED`, 9 `UNKNOWN`, 7 `UNSTABLE`, 4 `DIRTY` och 2 `BEHIND`. Enda exponerade misslyckade kontroll är Canonical authd:s gamla CLA-kontroll; projektet saknar fortfarande ett uppströms l10n-flöde. `CLEAN`, `UNSTABLE`, `BEHIND`, `DIRTY` och `UNKNOWN` är GitHubs sammanslagningssignaler, inte en fristående språkdom. En sammanslagen PR räknas som mottagen; en stängd PR räknas aldrig som inskickad utan ersättande aktiv PR eller officiellt plattformsflöde.
+Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes igen den 17 september; **56** av dem är länkade i detta dokument. Fördelningen är 55 `CLEAN`, 30 `BLOCKED`, 9 `UNSTABLE`, 4 `DIRTY` och 2 `BEHIND`. Tre exponerade kontroller kräver bevakning: LanguageTools CircleCI-jobb misslyckas innan språkreglerna testas, Canonical authd:s gamla CLA-kontroll är röd trots att projektet ännu saknar l10n-stöd, och OpenClaws avbrutna hjälpkontroller kommer från en ersatt körning. De är inte nya belagda fel i svenska språkfiler. Fyra FreeRDP-PR:er har aktiva granskningskommentarer; endast #13367 är l10n-infrastruktur. `CLEAN`, `UNSTABLE`, `BEHIND` och `DIRTY` är GitHubs sammanslagningssignaler, inte en fristående språkdom. En sammanslagen PR räknas som mottagen; en stängd PR räknas aldrig som inskickad utan ersättande aktiv PR eller officiellt plattformsflöde.
 
 | Projekt | PR | Aktuellt läge |
 |---|---|---|
@@ -96,6 +96,9 @@ Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes via GitHub den 
 | Devolutions Gateway | [#1984](https://github.com/Devolutions/devolutions-gateway/pull/1984) | Öppen, `BLOCKED`, `REVIEW_REQUIRED`. |
 | FreeCAD Render | [#499](https://github.com/FreeCAD/FreeCAD-render/pull/499) | Öppen, `UNSTABLE`; pre-commit passerar. |
 | FreeRDP | [#13365](https://github.com/FreeRDP/FreeRDP/pull/13365) | **Sammanslagen**; fem exponerade kontroller passerade. |
+| FreeRDP, X11 återanslutningsstatus | [#13376](https://github.com/FreeRDP/FreeRDP/pull/13376) | Öppen, `BLOCKED`; underhållaren rapporterar kvarvarande ritningsfel. Det är ett funktionellt, icke-l10n-ärende och behöver reproduceras före ny ändring. |
+| FreeRDP, SDL-flytfält | [#13388](https://github.com/FreeRDP/FreeRDP/pull/13388) | Öppen, `BLOCKED`; underhållaren säger att flytfältet inte visas. Det är ett funktionellt, icke-l10n-ärende och kräver reproduktion. |
+| FreeRDP, SDL RAIL-länkning | [#13429](https://github.com/FreeRDP/FreeRDP/pull/13429) | Öppen, `BLOCKED`; underhållaren efterfrågar en tydligare felbeskrivning. Den befintliga PR-kommentaren dokumenterar den odefinierade RAIL-symbolen och länkorsaken. |
 | FreeRDP, uppföljning | [#13367](https://github.com/FreeRDP/FreeRDP/pull/13367) | Öppen, `BLOCKED`, `CHANGES_REQUESTED`; underhållarens senaste API-, dokumentations- och CMake-krav är hanterade i `aa8044bd3` och inväntar ny granskning. |
 | AnythingLLM | [#6227](https://github.com/Mintplex-Labs/anything-llm/pull/6227) | **Sammanslagen**. |
 | AnythingLLM, ersatt PR | [#6342](https://github.com/Mintplex-Labs/anything-llm/pull/6342) | Stängd; `DIRTY`. |
