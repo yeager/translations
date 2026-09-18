@@ -2599,166 +2599,166 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt</translation>
     </message>
     <message>
         <source>Macro</source>
-        <translation type="unfinished"></translation>
+        <translation>Makro</translation>
     </message>
     <message>
         <source>Remove Macro FX</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort makroeffekt</translation>
     </message>
     <message>
         <source>Remove Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort förinställning</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>Are you sure you want to delete %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill ta bort %1?</translation>
     </message>
     <message>
         <source>It is not possible to delete %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta bort %1.</translation>
     </message>
 </context>
 <context>
     <name>ItemInfoView</name>
     <message>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Fet</translation>
     </message>
     <message>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kursiv</translation>
     </message>
     <message>
         <source>Ignore</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorera</translation>
     </message>
     <message>
         <source>Keep</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ:</translation>
     </message>
     <message>
         <source>Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg:</translation>
     </message>
     <message>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildförhållande:</translation>
     </message>
     <message>
         <source>Font:</source>
-        <translation type="unfinished"></translation>
+        <translation>Teckensnitt:</translation>
     </message>
     <message>
         <source>Max Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximal storlek:</translation>
     </message>
     <message>
         <source>No item selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget objekt har valts.</translation>
     </message>
     <message>
         <source>Item</source>
-        <translation type="unfinished"></translation>
+        <translation>Objekt</translation>
     </message>
 </context>
 <context>
     <name>ItemListView</name>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Move Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta upp</translation>
     </message>
     <message>
         <source>Move Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta ned</translation>
     </message>
 </context>
 <context>
     <name>LayerFooterPanel</name>
     <message>
         <source>Zoom in/out of timeline</source>
-        <translation type="unfinished"></translation>
+        <translation>Zooma in/ut på tidslinjen</translation>
     </message>
     <message>
         <source>Zoom in (Ctrl-click to zoom in all the way)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zooma in (Ctrl-klicka för att zooma in helt)</translation>
     </message>
     <message>
         <source>Zoom out (Ctrl-click to zoom out all the way)</source>
-        <translation type="unfinished"></translation>
+        <translation>Zooma ut (Ctrl-klicka för att zooma ut helt)</translation>
     </message>
 </context>
 <context>
     <name>LayerHeaderPanel</name>
     <message>
         <source>Preview Visibility Toggle All</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla synlighet i förhandsvisning för alla</translation>
     </message>
     <message>
         <source>Camera Stand Visibility Toggle All</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla synlighet för kamerastativ för alla</translation>
     </message>
     <message>
         <source>Lock Toggle All</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla låsning för alla</translation>
     </message>
 </context>
 <context>
     <name>LevelCreatePopup</name>
     <message>
         <source>New Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny nivå</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Till:</translation>
     </message>
     <message>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Från:</translation>
     </message>
     <message>
         <source>Increment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ökning:</translation>
     </message>
     <message>
         <source>Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg:</translation>
     </message>
     <message>
         <source>Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ:</translation>
     </message>
     <message>
         <source>Save in:</source>
@@ -2766,11 +2766,11 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bredd:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höjd:</translation>
     </message>
     <message>
         <source>Create</source>
@@ -2778,91 +2778,92 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI:</translation>
     </message>
     <message>
         <source>No level name specified: please choose a valid level name</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget nivånamn har angetts: välj ett giltigt nivånamn</translation>
     </message>
     <message>
         <source>Invalid frame range</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt bildruteintervall</translation>
     </message>
     <message>
         <source>Invalid step value</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt stegvärde</translation>
     </message>
     <message>
         <source>The level name specified is already used: please choose a different level name</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna nivånamnet används redan: välj ett annat nivånamn</translation>
     </message>
     <message>
         <source>Folder %1 doesn&apos;t exist.
 Do you want to create it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappen %1 finns inte.
+Vill du skapa den?</translation>
     </message>
     <message>
         <source>Unable to create</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa</translation>
     </message>
     <message>
         <source>Invalid increment value</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt ökningsvärde</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Save In:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>Toonz Vector Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Toonz-vektornivå</translation>
     </message>
     <message>
         <source>Toonz Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Toonz-raster-nivå</translation>
     </message>
     <message>
         <source>Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Raster-nivå</translation>
     </message>
     <message>
         <source>Scan Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Inskannad nivå</translation>
     </message>
 </context>
 <context>
     <name>LevelSettingsPopup</name>
     <message>
         <source>Level Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivåinställningar</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg:</translation>
     </message>
     <message>
         <source>Scan Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg för inskanning:</translation>
     </message>
     <message>
         <source>Forced Squared Pixel</source>
-        <translation type="unfinished"></translation>
+        <translation>Tvinga kvadratiska pixlar</translation>
     </message>
     <message>
         <source>Width:</source>
