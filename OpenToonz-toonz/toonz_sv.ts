@@ -9304,99 +9304,99 @@ Are you sure to </source>
     </message>
     <message>
         <source>Swing  : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pendla: nivå %1</translation>
     </message>
     <message>
         <source>Step %1  : Level %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg %1: nivå %2</translation>
     </message>
     <message>
         <source>Each %1  : Level %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Var %1: nivå %2</translation>
     </message>
     <message>
         <source>Duplicate  : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicera: nivå %1</translation>
     </message>
     <message>
         <source>Move Level to Scene  : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta nivå till scen: nivå %1</translation>
     </message>
     <message>
         <source>Inbetween  : Level %1,  </source>
-        <translation type="unfinished"></translation>
+        <translation>Mellanbild: nivå %1,  </translation>
     </message>
     <message>
         <source>Paste Column :  </source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in kolumn:  </translation>
     </message>
     <message>
         <source>Delete Column :  </source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort kolumn:  </translation>
     </message>
     <message>
         <source>Insert Column :  </source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga kolumn:  </translation>
     </message>
     <message>
         <source>Resequence :  Col%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Omnumrera: kolumn %1</translation>
     </message>
     <message>
         <source>Clone Sub-xsheet :  Col%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Klona under-XSheet: kolumn %1</translation>
     </message>
     <message>
         <source>Clear Cells :  Col%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa celler: kolumn %1</translation>
     </message>
     <message>
         <source>Reverse</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd om</translation>
     </message>
     <message>
         <source>Swing</source>
-        <translation type="unfinished"></translation>
+        <translation>Pendla</translation>
     </message>
     <message>
         <source>Autoexpose</source>
-        <translation type="unfinished"></translation>
+        <translation>Autoexponera</translation>
     </message>
     <message>
         <source>Random</source>
-        <translation type="unfinished"></translation>
+        <translation>Slumpmässig</translation>
     </message>
     <message>
         <source>Step %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg %1</translation>
     </message>
     <message>
         <source>Each %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Var %1</translation>
     </message>
     <message>
         <source>Reframe to %1&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>Rama om till %1:or</translation>
     </message>
     <message>
         <source>Roll Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Rulla upp</translation>
     </message>
     <message>
         <source>Roll Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Rulla ned</translation>
     </message>
     <message>
         <source>Clone  Level : %1 &gt; %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Klona nivå: %1 &gt; %2</translation>
     </message>
     <message>
         <source>Clone  Levels : </source>
-        <translation type="unfinished"></translation>
+        <translation>Klona nivåer: </translation>
     </message>
     <message>
         <source>Time Stretch</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsutsträckning</translation>
     </message>
     <message>
         <source>Palette Gizmo</source>
@@ -9404,59 +9404,59 @@ Are you sure to </source>
     </message>
     <message>
         <source>Create Level %1  at Column %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nivå %1 i kolumn %2</translation>
     </message>
     <message>
         <source>Do you want to expose the renamed level ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du exponera den omdöpta nivån?</translation>
     </message>
     <message>
         <source>Expose</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponera</translation>
     </message>
     <message>
         <source>Don&apos;t expose</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponera inte</translation>
     </message>
     <message>
         <source>Paste Key Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in nyckelbildrutor</translation>
     </message>
     <message>
         <source>Delete Key Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort nyckelbildrutor</translation>
     </message>
     <message>
         <source>Copy File</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera fil</translation>
     </message>
     <message>
         <source>Paste  File  : </source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in fil: </translation>
     </message>
     <message>
         <source>Duplicate  File  : </source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicera fil: </translation>
     </message>
     <message>
         <source>Paste Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in celler</translation>
     </message>
     <message>
         <source>Delete Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort celler</translation>
     </message>
     <message>
         <source>Cut Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Klipp ut celler</translation>
     </message>
     <message>
         <source>Insert Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga celler</translation>
     </message>
     <message>
         <source>Paste (Strokes)</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in (streck)</translation>
     </message>
     <message>
         <source>Paste</source>
@@ -9464,11 +9464,11 @@ Are you sure to </source>
     </message>
     <message>
         <source>Paste (Raster)</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in (raster)</translation>
     </message>
     <message>
         <source>Overwrite Paste Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över och klistra in celler</translation>
     </message>
     <message>
         <source>Cannot paste data 
