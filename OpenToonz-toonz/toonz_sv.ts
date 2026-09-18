@@ -8750,87 +8750,91 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Custom DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad DPI</translation>
     </message>
     <message>
         <source>Create project</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa projekt</translation>
     </message>
     <message>
         <source>There are no frames to scan.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga bildrutor att skanna.</translation>
     </message>
     <message>
         <source>TWAIN is not available.</source>
-        <translation type="unfinished"></translation>
+        <translation>TWAIN är inte tillgängligt.</translation>
     </message>
     <message>
         <source>Couldn&apos;t save %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att spara %1</translation>
     </message>
     <message>
         <source>No level selected!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen nivå har valts!</translation>
     </message>
     <message>
         <source>Exporting level of %1 frames in %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporterar nivå med %1 bildrutor i %2</translation>
     </message>
     <message>
         <source>Warning: file %1 already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning: filen %1 finns redan.</translation>
     </message>
     <message>
         <source>Continue Exporting</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsätt exportera</translation>
     </message>
     <message>
         <source>Stop Exporting</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa export</translation>
     </message>
     <message>
         <source>The level %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>The soundtrack %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljudspåret %1 finns redan.
+Vill du skriva över det?</translation>
     </message>
     <message>
         <source>File %1 doesn&apos;t look like a TOONZ Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 verkar inte vara en TOONZ-scen</translation>
     </message>
     <message>
         <source>It is not possible to load the scene %1 because it does not belong to any project.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att läsa in scenen %1 eftersom den inte tillhör något projekt.</translation>
     </message>
     <message>
         <source>There were problems loading the scene %1.
  Some files may be missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det uppstod problem vid inläsning av scenen %1.
+Vissa filer kan saknas.</translation>
     </message>
     <message>
         <source>There were problems loading the scene %1.
 Some levels have not been loaded because their version is not supported</source>
-        <translation type="unfinished"></translation>
+        <translation>Det uppstod problem vid inläsning av scenen %1.
+Vissa nivåer har inte lästs in eftersom deras version inte stöds</translation>
     </message>
     <message>
         <source>It is not possible to load the level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att läsa in nivån %1</translation>
     </message>
     <message>
         <source>Save the scene first</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara scenen först</translation>
     </message>
     <message>
         <source>It is not possible to load the %1 level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att läsa in nivån %1.</translation>
     </message>
     <message>
         <source>The scene %1 doesn&apos;t exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenen %1 finns inte.</translation>
     </message>
     <message>
         <source>It is not possible to delete the used level %1.</source>
