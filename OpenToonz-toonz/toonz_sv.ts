@@ -9002,39 +9002,39 @@ Vissa nivåer har inte lästs in eftersom deras version inte stöds</translation
     </message>
     <message>
         <source>A convertion task is in progress! wait until it stops or cancel it</source>
-        <translation type="unfinished"></translation>
+        <translation>En konverteringsuppgift pågår! Vänta tills den har stoppats eller avbryt den</translation>
     </message>
     <message>
         <source>Error loading scene %1 :%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid inläsning av scenen %1: %2</translation>
     </message>
     <message>
         <source>Error loading scene %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel vid inläsning av scenen %1</translation>
     </message>
     <message>
         <source>There was an error saving the %1 scene.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod när scenen %1 sparades.</translation>
     </message>
     <message>
         <source>It is not possible to export the scene %1 because it does not belong to any project.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att exportera scenen %1 eftersom den inte tillhör något projekt.</translation>
     </message>
     <message>
         <source>Continue to All</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsätt med alla</translation>
     </message>
     <message>
         <source>The selected paper format is not available for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det valda pappersformatet är inte tillgängligt för %1.</translation>
     </message>
     <message>
         <source>No TWAIN scanner is available</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen TWAIN-bildläsare är tillgänglig</translation>
     </message>
     <message>
         <source>No scanner is available</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen bildläsare är tillgänglig</translation>
     </message>
     <message>
         <source>The autocentering failed on the current drawing.</source>
@@ -9042,50 +9042,53 @@ Vissa nivåer har inte lästs in eftersom deras version inte stöds</translation
     </message>
     <message>
         <source>Some of the selected drawings were already scanned. Do you want to scan them again?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vissa av de markerade ritningarna har redan skannats. Vill du skanna dem igen?</translation>
     </message>
     <message>
         <source>There was an error saving frames for the %1 level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod när bildrutor sparades för nivån %1.</translation>
     </message>
     <message>
         <source>It is not possible to create folder : %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa mappen: %1</translation>
     </message>
     <message>
         <source>It is not possible to create a folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa en mapp.</translation>
     </message>
     <message>
         <source>The resolution of the output camera does not fit with the options chosen for the output file format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdatakamerans upplösning passar inte med alternativen för utfilformatet.</translation>
     </message>
     <message>
         <source>It is not possible to complete the rendering.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att slutföra renderingen.</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>The cleanup settings file for the %1 level already exists.
  Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningsfilen för nivån %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>The merge command is not available for greytones images.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfogningskommandot är inte tillgängligt för gråtonsbilder.</translation>
     </message>
     <message>
         <source>The cleanup settings for the current level have been modified...
 
 Do you want to save your changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningarna för den aktuella nivån har ändrats...
+
+Vill du spara ändringarna?</translation>
     </message>
     <message>
         <source>Cleanup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningar</translation>
     </message>
     <message>
         <source>The scene %1 was created with Toonz and cannot be loaded in LineTest.</source>
