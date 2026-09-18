@@ -6798,23 +6798,23 @@ VARNING: Bildstorleken matchar inte. Den sparade bilden har storleken %1 × %2.<
     </message>
     <message>
         <source>Folder %1 already exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappen %1 finns redan.</translation>
     </message>
     <message>
         <source>It is not possible to create the %1 folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa mappen %1.</translation>
     </message>
     <message>
         <source>Set As Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange som standard</translation>
     </message>
     <message>
         <source>Set the current &quot;Save In&quot; path as the default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange aktuell sökväg för ”Spara i” som standard.</translation>
     </message>
     <message>
         <source>Save Scene in Subfolder</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara scen i undermapp</translation>
     </message>
     <message>
         <source>Save the current scene in the subfolder.
@@ -6824,19 +6824,20 @@ VARNING: Bildstorleken matchar inte. Den sparade bilden har storleken %1 × %2.<
     </message>
     <message>
         <source>Create the Destination Subfolder to Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa målundermappen för sparning</translation>
     </message>
     <message>
         <source>Save the current scene in the subfolder.
 Set the output folder path to the subfolder as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara den aktuella scenen i undermappen.
+Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
 </context>
 <context>
     <name>PltGizmoPopup</name>
     <message>
         <source>Palette Gizmo</source>
-        <translation type="unfinished"></translation>
+        <translation>Palettgizmo</translation>
     </message>
     <message>
         <source>Luminance:</source>
@@ -6856,7 +6857,7 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Fade to Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Tona till färg</translation>
     </message>
     <message>
         <source>              Color:</source>
@@ -6864,11 +6865,11 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Fade</source>
-        <translation type="unfinished"></translation>
+        <translation>Tona</translation>
     </message>
     <message>
         <source>Blend</source>
-        <translation type="unfinished"></translation>
+        <translation>Blanda</translation>
     </message>
     <message>
         <source>Full Matte</source>
@@ -6880,23 +6881,23 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Scale (%)</source>
-        <translation type="unfinished"></translation>
+        <translation>Skala (%)</translation>
     </message>
     <message>
         <source>Shift (value)</source>
-        <translation type="unfinished"></translation>
+        <translation>Förskjutning (värde)</translation>
     </message>
     <message>
         <source>Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Värde</translation>
     </message>
     <message>
         <source>Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>Mättnad</translation>
     </message>
     <message>
         <source>Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>Nyans</translation>
     </message>
     <message>
         <source>Matte</source>
@@ -6904,34 +6905,34 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <source>Full Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Full alfa</translation>
     </message>
     <message>
         <source>Zero Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Noll alfa</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Alfa</translation>
     </message>
 </context>
 <context>
     <name>PreferencesPopup</name>
     <message>
         <source>Preferences</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Allmänt</translation>
     </message>
     <message>
         <source>Use Default Viewer for Movie Formats</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd standardvisaren för filmformat</translation>
     </message>
     <message>
         <source>Save Automatically Every Minutes</source>
@@ -6943,11 +6944,11 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Cell-dragging Behaviour:</source>
-        <translation type="unfinished"></translation>
+        <translation>Beteende vid celldragning:</translation>
     </message>
     <message>
         <source>Interface</source>
-        <translation type="unfinished"></translation>
+        <translation>Gränssnitt</translation>
     </message>
     <message>
         <source>Style:</source>
@@ -6955,15 +6956,15 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Open Flipbook after Rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna blädderbok efter rendering</translation>
     </message>
     <message>
         <source>Unit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhet:</translation>
     </message>
     <message>
         <source>Camera Unit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameraenhet:</translation>
     </message>
     <message>
         <source>Flipbook Shrink:</source>
@@ -6975,27 +6976,27 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Loading</source>
-        <translation type="unfinished"></translation>
+        <translation>Inläsning</translation>
     </message>
     <message>
         <source>Expose Loaded Levels in Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponera inlästa nivåer i XSheet</translation>
     </message>
     <message>
         <source>Create Sub-folder when Importing Sub-Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa undermapp vid import av under-XSheet</translation>
     </message>
     <message>
         <source>Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritning</translation>
     </message>
     <message>
         <source>Keep Original Cleaned Up Drawings As Backup</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll ursprungliga renritade ritningar som säkerhetskopia</translation>
     </message>
     <message>
         <source>Animation</source>
-        <translation type="unfinished"></translation>
+        <translation>Animering</translation>
     </message>
     <message>
         <source>Default Interpolation: </source>
@@ -7003,47 +7004,47 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <source>Speed In / Speed Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Hastighet in/hastighet ut</translation>
     </message>
     <message>
         <source>Ease In / Ease Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk in/mjuk ut</translation>
     </message>
     <message>
         <source>Ease In / Ease Out %</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk in/mjuk ut %</translation>
     </message>
     <message>
         <source>Animation Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Animeringssteg:</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisning</translation>
     </message>
     <message>
         <source>Blank Frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tomma bildrutor:</translation>
     </message>
     <message>
         <source>Blank Frames Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg för tomma bildrutor:</translation>
     </message>
     <message>
         <source>Display in a New Flipbook Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa i nytt blädderboksfönster</translation>
     </message>
     <message>
         <source>Rewind after Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Spola tillbaka efter uppspelning</translation>
     </message>
     <message>
         <source>Onion Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Lökhinna</translation>
     </message>
     <message>
         <source>   Following Frames Correction: </source>
@@ -7051,51 +7052,51 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Display Lines Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast linjer</translation>
     </message>
     <message>
         <source>Version Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering</translation>
     </message>
     <message>
         <source>Automatically Refresh Folder Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera mappinnehåll automatiskt</translation>
     </message>
     <message>
         <source>Cells Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast celler</translation>
     </message>
     <message>
         <source>Cells and Column Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Celler och kolumndata</translation>
     </message>
     <message>
         <source>Render Task Chunk Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Segmentstorlek för renderingsuppgift:</translation>
     </message>
     <message>
         <source>Show Info in Rendered Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa information i renderade bildrutor</translation>
     </message>
     <message>
         <source>cm</source>
-        <translation type="unfinished"></translation>
+        <translation>cm</translation>
     </message>
     <message>
         <source>mm</source>
-        <translation type="unfinished"></translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>inch</source>
-        <translation type="unfinished"></translation>
+        <translation>tum</translation>
     </message>
     <message>
         <source>field</source>
-        <translation type="unfinished"></translation>
+        <translation>fält</translation>
     </message>
     <message>
         <source>Xsheet Autopan during Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk panorering av XSheet under uppspelning</translation>
     </message>
     <message>
         <source>Level Strip Frames Width*:</source>
@@ -7111,15 +7112,15 @@ Set the output folder path to the subfolder as well.</source>
     </message>
     <message>
         <source>Scan File Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filformat för inläsning:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bredd:</translation>
     </message>
     <message>
         <source>DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI:</translation>
     </message>
     <message>
         <source>Minimize Savebox after Editing</source>
