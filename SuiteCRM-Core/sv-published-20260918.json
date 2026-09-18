@@ -2846,6 +2846,60 @@
       "key": "$mod_strings['LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW']",
       "source": "View Outbound Email Accounts",
       "target": "Visa konton för utgående e-post"
+    },
+    {
+      "stringId": 213498,
+      "key": "$mod_strings['LBL_SYSTEM_OUTBOUND_EMAIL_ACCOUNT']",
+      "source": "System Outbound Email Account",
+      "target": "Systemkonto för utgående e-post"
+    },
+    {
+      "stringId": 213500,
+      "key": "$mod_strings['LBL_ALLOW_SEND_AS_USER']",
+      "source": "Users may send as themselves:",
+      "target": "Användare får skicka som sig själva:"
+    },
+    {
+      "stringId": 213502,
+      "key": "$mod_strings['LBL_ALLOW_SEND_AS_USER_DESC']",
+      "source": "When enabled, <b>all</b> users can send email using the outgoing mail server, using their own primary email address as the &quot;From:&quot; address.<br>This feature might not work with SMTP servers that do not allow sending from a different email account than the server account.",
+      "target": "När alternativet är aktiverat kan <b>alla</b> användare skicka e-post via servern för utgående e-post, med sin egen primära e-postadress som &quot;Från:&quot;-adress.<br>Funktionen kanske inte fungerar med SMTP-servrar som inte tillåter sändning från ett annat e-postkonto än serverkontot."
+    },
+    {
+      "stringId": 213504,
+      "key": "$mod_strings['LBL_EMAIL_IMPORT_CONFIGURATION']",
+      "source": "Email Import Configuration",
+      "target": "Konfiguration för e-postimport"
+    },
+    {
+      "stringId": 213506,
+      "key": "$mod_strings['LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD']",
+      "source": "Threshold for Number of Emails Imported Per Run (per Mailbox)",
+      "target": "Gränsvärde för antal e-postmeddelanden som importeras per körning (per postlåda)"
+    },
+    {
+      "stringId": 213508,
+      "key": "$mod_strings['LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD_DESC']",
+      "source": "Threshold of emails to import per run. Default is 25. Each run will go through each day in the mailbox within the set timeframe, from oldest to most recent. It will import all emails on each day until the total emails imported on this run exceeds the threshold. Once met, the job will stop and mark the last day imported, starting there on the next run.",
+      "target": "Gränsvärde för hur många e-postmeddelanden som importeras per körning. Standardvärdet är 25. Varje körning går igenom varje dag i postlådan inom den angivna tidsramen, från äldst till nyast. Alla e-postmeddelanden för varje dag importeras tills det totala antalet importerade e-postmeddelanden under körningen överskrider gränsvärdet. När gränsen nås stoppas jobbet och den sista importerade dagen markeras. Nästa körning fortsätter därifrån."
+    },
+    {
+      "stringId": 213510,
+      "key": "$mod_strings['LBL_EMAIL_IMPORT_TIMEFRAME_START']",
+      "source": "Starting Point for New Mailbox Imports",
+      "target": "Startpunkt för import av nya postlådor"
+    },
+    {
+      "stringId": 213512,
+      "key": "$mod_strings['LBL_EMAIL_IMPORT_TIMEFRAME_START_DESC']",
+      "source": "Period of time from which emails will start being imported. For example, selecting 30 Days will start with emails from 30 days ago and move forward from there.",
+      "target": "Tidsperioden från vilken e-postmeddelanden börjar importeras. Om du till exempel väljer 30 dagar börjar importen med e-post från 30 dagar sedan och fortsätter framåt."
+    },
+    {
+      "stringId": 213514,
+      "key": "$mod_strings['LBL_EMAIL_IMPORT_FETCH_UNREAD_ONLY']",
+      "source": "Only fetch unread emails when importing",
+      "target": "Hämta bara olästa e-postmeddelanden vid import"
     }
   ]
 }
