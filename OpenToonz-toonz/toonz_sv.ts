@@ -7874,84 +7874,85 @@ Also the initial output destination for new scenes will be set to $scenefolder a
     </message>
     <message>
         <source>Style*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil*:</translation>
     </message>
     <message>
         <source>Matte color is used for background when overwriting raster levels with transparent pixels
 in non alpha-enabled image format.</source>
-        <translation type="unfinished"></translation>
+        <translation>Matt färg används som bakgrund när rasternivåer skrivs över med genomskinliga pixlar
+i bildformat som inte stöder alfa.</translation>
     </message>
     <message>
         <source>Matte color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Matt färg:</translation>
     </message>
     <message>
         <source>Current Column Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell kolumnfärg:</translation>
     </message>
     <message>
         <source>Backup Scene and Animation Levels when Saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetskopiera scen och animeringsnivåer vid sparning</translation>
     </message>
     <message>
         <source># of backups to keep:</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal säkerhetskopior att behålla:</translation>
     </message>
     <message>
         <source>Enable Autocreation</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera automatiskt skapande</translation>
     </message>
     <message>
         <source>Numbering System:</source>
-        <translation type="unfinished"></translation>
+        <translation>Numreringssystem:</translation>
     </message>
     <message>
         <source>Enable Auto-stretch Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera automatisk utsträckning av bildruta</translation>
     </message>
     <message>
         <source>Enable Creation in Hold Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera skapande i hållceller</translation>
     </message>
     <message>
         <source>Enable Autorenumber</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera automatisk numrering</translation>
     </message>
     <message>
         <source>Toolbar Display Behaviour:</source>
-        <translation type="unfinished"></translation>
+        <translation>Beteende för visning av verktygsfält:</translation>
     </message>
     <message>
         <source>Show Camera Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa kamerakolumn</translation>
     </message>
     <message>
         <source>Level Editor Box Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg för nivåredigerarens ruta:</translation>
     </message>
     <message>
         <source>Incremental</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkrementell</translation>
     </message>
     <message>
         <source>Enable Tools For Level Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera verktyg endast för nivå</translation>
     </message>
     <message>
         <source>Show Tools For Level Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa verktyg endast för nivå</translation>
     </message>
     <message>
         <source>Touch/Tablet Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för pekskärm/surfplatta</translation>
     </message>
     <message>
         <source>Enable Touch Gesture Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera styrning med pekgester</translation>
     </message>
     <message>
         <source>Number of Frames to Play for Short Play:</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal bildrutor att spela upp vid kort uppspelning:</translation>
     </message>
 </context>
 <context>
