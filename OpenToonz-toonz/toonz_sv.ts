@@ -9764,47 +9764,47 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Overwrite for All</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över för alla</translation>
     </message>
     <message>
         <source>Don&apos;t Overwrite for All</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv inte över för alla</translation>
     </message>
     <message>
         <source>Failed to overwrite %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att skriva över %1</translation>
     </message>
     <message>
         <source>Apply Lip Sync Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa läppsynkroniseringsdata</translation>
     </message>
     <message>
         <source>Paste Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in nummer</translation>
     </message>
     <message>
         <source>It is not possible to paste the cells: Some column is locked or column type is not match.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att klistra in cellerna: en kolumn är låst eller så stämmer inte kolumntypen.</translation>
     </message>
     <message>
         <source>This command only works on vector cells.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det här kommandot fungerar bara för vektorceller.</translation>
     </message>
     <message>
         <source>Please select only one column for this command.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj bara en kolumn för det här kommandot.</translation>
     </message>
     <message>
         <source>All selected cells must belong to the same level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla markerade celler måste tillhöra samma nivå.</translation>
     </message>
     <message>
         <source>Simplify Vectors : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Förenkla vektorer: nivå %1</translation>
     </message>
     <message>
         <source>Change Text at Column %1  Frame %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra text i kolumn %1, bildruta %2</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -9813,7 +9813,8 @@ Vad vill du göra?</translation>
     <message>
         <source>The scene is not yet saved and the output destination is set to $scenefolder.
 Save the scene first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenen har ännu inte sparats och utdatamålet är inställt på $scenefolder.
+Spara scenen först.</translation>
     </message>
     <message>
         <source>A prior save of Scene &apos;%1&apos; was critically interupted. 
@@ -9821,77 +9822,83 @@ Save the scene first.</source>
 A partial save file was generated and changes may be manually salvaged from &apos;%2&apos;.
 
 Do you wish to continue loading the last good save or stop and try to salvage the prior save?</source>
-        <translation type="unfinished"></translation>
+        <translation>En tidigare sparning av scenen ”%1” avbröts allvarligt.
+
+En delvis sparad fil skapades och ändringar kan räddas manuellt från ”%2”.
+
+Vill du fortsätta läsa in den senaste giltiga sparningen eller avbryta och försöka rädda den tidigare sparningen?</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <source>File &apos;%1&apos; will reload level &apos;%2&apos; as a duplicate column in the xsheet.
 
 Allow duplicate?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen ”%1” läser in nivån ”%2” på nytt som en dubblettkolumn i XSheet.
+
+Tillåta dubblett?</translation>
     </message>
     <message>
         <source>Allow</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåt</translation>
     </message>
     <message>
         <source>Allow All Dups</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillåt alla dubbletter</translation>
     </message>
     <message>
         <source>No to All Dups</source>
-        <translation type="unfinished"></translation>
+        <translation>Neka alla dubbletter</translation>
     </message>
     <message>
         <source>Hide cursor size outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj kontur för markörstorlek</translation>
     </message>
     <message>
         <source>Show cursor size outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa kontur för markörstorlek</translation>
     </message>
     <message>
         <source>Fill In Empty Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyll tomma celler</translation>
     </message>
     <message>
         <source>Check for the latest version on launch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök efter den senaste versionen vid start.</translation>
     </message>
     <message>
         <source>Nothing to replace: no cells or columns selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget att ersätta: inga celler eller kolumner är markerade.</translation>
     </message>
     <message>
         <source>Couldn&apos;t load %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in %1</translation>
     </message>
     <message>
         <source>Apply Antialias</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa kantutjämning</translation>
     </message>
     <message>
         <source>The Reload command is not supported for the current selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandot Läs in på nytt stöds inte för den aktuella markeringen.</translation>
     </message>
     <message>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel</translation>
     </message>
     <message>
         <source>No Palette loaded.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen palett har lästs in.</translation>
     </message>
     <message>
         <source>A separation task is in progress! wait until it stops or cancel it</source>
-        <translation type="unfinished"></translation>
+        <translation>En separeringsuppgift pågår! Vänta tills den är klar eller avbryt den.</translation>
     </message>
     <message>
         <source>Duplicate Frame in XSheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicera bildruta i XSheet</translation>
     </message>
     <message>
         <source>Please enable &quot;Sync Level Strip Drawing Number Changes with the XSheet&quot; preference option
@@ -9914,44 +9921,45 @@ to use the duplicate command in the xsheet / timeline.</source>
     </message>
     <message>
         <source>The qualifier %1 is not a valid key name. Skipping.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvalificeraren %1 är inte ett giltigt nyckelnamn. Hoppar över den.</translation>
     </message>
     <message>
         <source>Clear All Onion Skin Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa alla lökhinne-markörer</translation>
     </message>
     <message>
         <source>Clear All Fixed Onion Skin Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa alla fasta lökhinne-markörer</translation>
     </message>
     <message>
         <source>Clear All Relative Onion Skin Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa alla relativa lökhinne-markörer</translation>
     </message>
     <message>
         <source>Always Overwrite in This Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv alltid över i den här scenen</translation>
     </message>
     <message>
         <source>    + %1 more level(s) 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>    + %1 nivå(er) till 
+</translation>
     </message>
     <message>
         <source>Fx Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>FX-inställningar</translation>
     </message>
     <message>
         <source>Save Curve</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara kurva</translation>
     </message>
     <message>
         <source>Load Curve</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in kurva</translation>
     </message>
     <message>
         <source>Export Curve</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera kurva</translation>
     </message>
     <message>
         <source>Rendering frame %1 / %2</source>
