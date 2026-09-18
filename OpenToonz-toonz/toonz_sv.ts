@@ -12270,34 +12270,34 @@ Tilldela till ”%3”?</translation>
     </message>
     <message>
         <source>Adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Justera</translation>
     </message>
     <message>
         <source>Optimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimera</translation>
     </message>
     <message>
         <source>Convert</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera</translation>
     </message>
     <message>
         <source>Drawing Substitution</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritningsersättning</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela</translation>
     </message>
     <message>
         <source>Workspace</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbetsyta</translation>
     </message>
 </context>
 <context>
     <name>StartupPopup</name>
     <message>
         <source>OpenToonz Startup</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenToonz-start</translation>
     </message>
     <message>
         <source>Choose Project</source>
@@ -12305,7 +12305,7 @@ Tilldela till ”%3”?</translation>
     </message>
     <message>
         <source>Create a New Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa en ny scen</translation>
     </message>
     <message>
         <source>Open Scene</source>
@@ -12313,95 +12313,95 @@ Tilldela till ”%3”?</translation>
     </message>
     <message>
         <source>Scene Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Scennamn:</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bredd:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höjd:</translation>
     </message>
     <message>
         <source>DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI:</translation>
     </message>
     <message>
         <source>X</source>
-        <translation type="unfinished"></translation>
+        <translation>X</translation>
     </message>
     <message>
         <source>Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplösning:</translation>
     </message>
     <message>
         <source>Frame Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildfrekvens:</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Show this at startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa detta vid start</translation>
     </message>
     <message>
         <source>Create Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa scen</translation>
     </message>
     <message>
         <source>New Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt projekt …</translation>
     </message>
     <message>
         <source>Open Another Scene...</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna en annan scen …</translation>
     </message>
     <message>
         <source>pixel</source>
-        <translation type="unfinished"></translation>
+        <translation>pixel</translation>
     </message>
     <message>
         <source>cm</source>
-        <translation type="unfinished"></translation>
+        <translation>cm</translation>
     </message>
     <message>
         <source>mm</source>
-        <translation type="unfinished"></translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>inch</source>
-        <translation type="unfinished"></translation>
+        <translation>tum</translation>
     </message>
     <message>
         <source>field</source>
-        <translation type="unfinished"></translation>
+        <translation>fält</translation>
     </message>
     <message>
         <source>Save In:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>Camera Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerastorlek:</translation>
     </message>
     <message>
         <source>Units:</source>
-        <translation type="unfinished"></translation>
+        <translation>Enheter:</translation>
     </message>
     <message>
         <source>No Recent Scenes</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga senaste scener</translation>
     </message>
     <message>
         <source>The name cannot be empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnet får inte vara tomt.</translation>
     </message>
     <message>
         <source>The chosen file path is not valid.</source>
@@ -12417,40 +12417,41 @@ Tilldela till ”%3”?</translation>
     </message>
     <message>
         <source>The frame rate must be 1 or more.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildfrekvensen måste vara minst 1.</translation>
     </message>
     <message>
         <source>Preset name</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn på förinställning</translation>
     </message>
     <message>
         <source>Enter the name for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange namn för %1</translation>
     </message>
     <message>
         <source>Error : Preset Name is Invalid</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel: Namnet på förinställningen är ogiltigt</translation>
     </message>
     <message>
         <source>The preset name must not use &apos;,&apos;(comma).</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnet på förinställningen får inte innehålla ”,” (komma).</translation>
     </message>
     <message>
         <source>Bad camera preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Felaktig kameraförinställning</translation>
     </message>
     <message>
         <source>&apos;%1&apos; doesn&apos;t seem to be a well formed camera preset. 
 Possibly the preset file has been corrupted</source>
-        <translation type="unfinished"></translation>
+        <translation>”%1” verkar inte vara en välformad kameraförinställning.
+Förinställningsfilen kan vara skadad.</translation>
     </message>
     <message>
         <source>The width must be greater than zero.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bredden måste vara större än noll.</translation>
     </message>
     <message>
         <source>The height must be greater than zero.</source>
-        <translation type="unfinished"></translation>
+        <translation>Höjden måste vara större än noll.</translation>
     </message>
     <message>
         <source>Automatically Save Every </source>
