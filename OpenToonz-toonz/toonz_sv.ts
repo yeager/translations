@@ -10422,11 +10422,11 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     <name>ReplaceLevelPopup</name>
     <message>
         <source>Replace Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt nivå</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt</translation>
     </message>
     <message>
         <source>Nothing to replace: no cells selected.</source>
@@ -10435,18 +10435,19 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     <message>
         <source>File not found
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Filen hittades inte
+</translation>
     </message>
 </context>
 <context>
     <name>ReplaceParentDirectoryPopup</name>
     <message>
         <source>Replace Parent Directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt överordnad katalog</translation>
     </message>
     <message>
         <source>Replace</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt</translation>
     </message>
     <message>
         <source>Nothing to replace: no cells or columns selected.</source>
@@ -10457,7 +10458,7 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     <name>RoomTabWidget</name>
     <message>
         <source>New Room</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny arbetsyta</translation>
     </message>
     <message>
         <source>Delete Room</source>
@@ -10465,30 +10466,30 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     </message>
     <message>
         <source>Room</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbetsyta</translation>
     </message>
     <message>
         <source>Are you sure you want to remove room %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen ta bort arbetsytan %1?</translation>
     </message>
     <message>
         <source>Delete Room &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort arbetsytan ”%1”</translation>
     </message>
     <message>
         <source>Customize Menu Bar of Room &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa menyraden för arbetsytan ”%1”</translation>
     </message>
 </context>
 <context>
     <name>Ruler</name>
     <message>
         <source>Click to create an horizontal guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att skapa en vågrät hjälplinje</translation>
     </message>
     <message>
         <source>Click to create a vertical guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att skapa en lodrät hjälplinje</translation>
     </message>
     <message>
         <source>Click and drag to move guide</source>
@@ -10496,124 +10497,124 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     </message>
     <message>
         <source>Left click and drag to move guide. Right click to delete guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänsterklicka och dra för att flytta hjälplinjen. Högerklicka för att ta bort hjälplinjen</translation>
     </message>
 </context>
 <context>
     <name>SVNCleanupDialog</name>
     <message>
         <source>Version Control: Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Rensa</translation>
     </message>
     <message>
         <source>Cleaning up %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensar %1 …</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Cleanup done.</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensningen är klar.</translation>
     </message>
 </context>
 <context>
     <name>SVNCommitDialog</name>
     <message>
         <source>Version Control: Put changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Skicka ändringar</translation>
     </message>
     <message>
         <source>Select / Deselect All</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera/avmarkera alla</translation>
     </message>
     <message>
         <source>0 Selected / 0 Total</source>
-        <translation type="unfinished"></translation>
+        <translation>0 markerade/0 totalt</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
     <message>
         <source>Put Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Checka in sceninnehåll</translation>
     </message>
     <message>
         <source>Put</source>
-        <translation type="unfinished"></translation>
+        <translation>Checka in</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Adding %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägger till %1 objekt …</translation>
     </message>
     <message>
         <source>Set needs-lock property...</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger egenskapen needs-lock …</translation>
     </message>
     <message>
         <source>Committing %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Checkar in %1 objekt …</translation>
     </message>
     <message>
         <source>Put done successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Incheckningen slutfördes.</translation>
     </message>
     <message>
         <source>Putting %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Checkar in %1 objekt …</translation>
     </message>
     <message>
         <source>No items to put.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att checka in.</translation>
     </message>
     <message>
         <source>%1 items to put.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att checka in.</translation>
     </message>
     <message>
         <source>%1 Selected / %2 Total</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 markerade/%2 totalt</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
 </context>
 <context>
     <name>SVNCommitFrameRangeDialog</name>
     <message>
         <source>Version Control: Put</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Checka in</translation>
     </message>
     <message>
         <source>Note: the file will be updated too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obs! Filen uppdateras också.</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
     <message>
         <source>Put</source>
-        <translation type="unfinished"></translation>
+        <translation>Checka in</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Put done successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Incheckningen slutfördes.</translation>
     </message>
     <message>
         <source>Locking file...</source>
