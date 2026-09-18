@@ -1,0 +1,195 @@
+--- a/enscript-1.6.5.90.sv.po
++++ b/enscript-1.6.5.90.sv.po
+@@ -643,13 +643,13 @@
+ "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
+ "  --help                     print this help and exit\n"
+ msgstr ""
+-"Flaggor med enbart långa namn:\n"
++"Flaggor med endast långa namn:\n"
+ "  --color[=boolesk]          skapa färgutdata med tillstånd\n"
+-"  --continuous-page-numbers  räkna sidnummer över flera indatafiler. Börja\n"
+-"                             inte om numreringen för nya filer.\n"
+-"  --download-font=NAMN       hämta hem typsnittet NAMN\n"
+-"  --extended-return-values   använd utökade returvärden\n"
+-"  --filter-stdin=NAMN        ange hur standard in visas för indatafiltret\n"
++"  --continuous-page-numbers  räkna sidnummer över indatafiler. Börja inte\n"
++"                             om numreringen i början av varje fil.\n"
++"  --download-font=NAMN       hämta typsnittet NAMN\n"
++"  --extended-return-values   aktivera utökade returvärden\n"
++"  --filter-stdin=NAMN        ange hur standardindata visas för indatafiltret\n"
+ "  --footer=SIDFOT            sätt sidfoten\n"
+ "  --h-column-height=HÖJD     sätt den horisontella kolumnhöjden till HÖJD\n"
+ "  --help                     visa denna hjälptext och avsluta\n"
+@@ -669,13 +669,14 @@
+ msgstr ""
+ "  --help-highlight           beskriv alla språk och filformat med\n"
+ "                             stöd för --highlight\n"
+-"  --highlight-bar-gray=NUM   skriv ut markeringsrader med grå NUM (0 - 1)\n"
+-"  --list-media               lista namnen på alla kända media\n"
++"  --highlight-bar-gray=NUM   skriv ut markeringsstreck med gråvärdet NUM "
++"(0–1)\n"
++"  --list-media               lista namnen på alla kända format\n"
+ "  --margins=VÄNSTER:HÖGER:TOPP:BOTTEN\n"
+ "                             justera sidmarginaler\n"
+ "  --mark-wrapped-lines[STIL]\n"
+-"                             markera radbrutna rader i utdatan med STIL\n"
+-"  --non-printable-format=FMT ange hur ej utskrivbara tecken ska skrivas ut\n"
++"                             markera radbrutna rader i utdata med STIL\n"
++"  --non-printable-format=FMT ange hur ej utskrivbara tecken skrivs ut\n"
+ 
+ #: src/main.c:2612
+ #, c-format
+@@ -715,16 +716,16 @@
+ "  --ul-style=STYLE           print underlays with style STYLE\n"
+ "  --word-wrap                wrap long lines from word boundaries\n"
+ msgstr ""
+-"  --slice=NUM                skriv ut vertikal skiva NUM\n"
++"  --slice=NUM                skriv ut vertikal del NUM\n"
+ "  --style=STIL               använd markeringsstilen STIL\n"
+-"  --swap-even-page-margins   Byt ut vänster- och högermarginaler för varje\n"
+-"                             sida med jämnt nummer\n"
++"  --swap-even-page-margins   byt vänster- och högermarginal för varje sida\n"
++"                             med jämnt nummer\n"
+ "  --toc                      skriv ut innehållsförteckning\n"
+-"  --ul-angle=VINKEL          sätt underlagans textvinkel till VINKEL\n"
+-"  --ul-font=NAMN             skriv ut underlagor med typsnittet NAMN\n"
+-"  --ul-gray=NUM              skriv ut underlagor med gråvärde NUM\n"
+-"  --ul-position=POS          sätt underlagans startposition till POS\n"
+-"  --ul-style=STIL            skriv ut underlagor med stilen STIL\n"
++"  --ul-angle=VINKEL          sätt underlagstextens vinkel till VINKEL\n"
++"  --ul-font=NAMN             skriv ut underlag med typsnittet NAMN\n"
++"  --ul-gray=NUM              skriv ut underlag med gråvärdet NUM\n"
++"  --ul-position=POS          sätt underlagets startposition till POS\n"
++"  --ul-style=STIL            skriv ut underlag med stilen STIL\n"
+ "  --word-wrap                radbryt långa rader vid ordgränser\n"
+ 
+ #: src/main.c:2636
+@@ -764,7 +765,7 @@
+ 
+ #: src/psgen.c:986
+ msgid "user font encoding can be only the system's default or `ps'"
+-msgstr "användartypsnittskodning kan bara vara systemets standard eller ”ps”"
++msgstr "Användarteckenkodningen kan bara vara systemets standard eller ”ps”"
+ 
+ #: src/psgen.c:1228
+ #, c-format
+@@ -839,7 +840,7 @@
+ #: src/psgen.c:2448
+ #, c-format
+ msgid "EPS file \"%s\" does not start with \"%%!\" magic\n"
+-msgstr "EPS-filen ”%s” börjar inte med ”%%!”-magi\n"
++msgstr "EPS-filen ”%s” börjar inte med det magiska talet ”%%!”\n"
+ 
+ #: src/psgen.c:2473
+ #, c-format
+@@ -913,12 +914,12 @@
+ #: src/util.c:674
+ #, c-format
+ msgid "%s:%d: %%HeaderHeight: no argument"
+-msgstr "%s:%d: %%HeaderHeight: inga argument"
++msgstr "%s:%d: %%HeaderHeight: inget argument"
+ 
+ #: src/util.c:696
+ #, c-format
+ msgid "%s:%d: %%FooterHeight: no argument"
+-msgstr "%s:%d: %%FooterHeight: inga argument"
++msgstr "%s:%d: %%FooterHeight: inget argument"
+ 
+ #: src/util.c:843
+ #, c-format
+@@ -943,7 +944,8 @@
+ #: src/util.c:899
+ #, c-format
+ msgid "couldn't open AFM file for font \"%s\", using default\n"
+-msgstr "kunde inte öppna AFM-fil för typsnittet ”%s”, använder standardalternativet\n"
++msgstr "kunde inte öppna AFM-filen för typsnittet ”%s”; använder "
++"standardalternativet\n"
+ 
+ #: src/util.c:906
+ #, c-format
+@@ -1012,7 +1014,7 @@
+ 
+ #: src/mkafmmap.c:167
+ msgid "stdout"
+-msgstr "standard ut"
++msgstr "standardutdata"
+ 
+ #: src/mkafmmap.c:175
+ #, c-format
+@@ -1037,9 +1039,9 @@
+ "Användning: %s [FLAGGA]… FIL…\n"
+ "Obligatoriska argument till långa flaggor är obligatoriska även för de korta.\n"
+ "  -h, --help              visa den här hjälptexten och avsluta\n"
+-"  -p, --output-file=NAMN  skriv utdatan till filen NAMN (standardvalet är\n"
+-"                          font.map). Om FIL är ”-” skicka utdatan till\n"
+-"                          standard ut.\n"
++"  -p, --output-file=NAMN  skriv utdata till filen NAMN (standardfilen är\n"
++"                          font.map). Om FIL är ”-”, skriv utdata till\n"
++"                          standardutdata.\n"
+ "  -V, --version           visa versionsnummer\n"
+ 
+ #: states/lex.l:167 states/lex.l:173
+@@ -1106,13 +1108,13 @@
+ "  -V, --version              print version number\n"
+ "  -W, --warning=LEVEL        set the warning level to LEVEL\n"
+ msgstr ""
+-"  -D, --define=VAR=VÄRDE     definera variabeln VAR till värdet VÄRDE\n"
+-"  -f, --file=NAMN            läs tillståndsdefinition från filen NAMN\n"
++"  -D, --define=VAR=VÄRDE     definiera variabeln VAR med värdet VÄRDE\n"
++"  -f, --file=NAMN            läs tillståndsdefinitioner från filen NAMN\n"
+ "  -h, --help                 visa den här hjälptexten och avsluta\n"
+-"  -o, --output=NAMN          spara utdatan till filen NAMN\n"
++"  -o, --output=NAMN          spara utdata till filen NAMN\n"
+ "  -p, --path=SÖKVÄG          sätt inläsningssökvägen till SÖKVÄG\n"
+ "  -s, --state=NAMN           börja från tillståndet NAMN\n"
+-"  -v, --verbose              öka programmets pratsamhet\n"
++"  -v, --verbose              öka programmets utförlighet\n"
+ "  -V, --version              visa versionsnummer\n"
+ "  -W, --warning=NIVÅ         sätt varningsnivån till NIVÅ\n"
+ 
+@@ -1145,7 +1147,8 @@
+ #: states/prims.c:517
+ #, c-format
+ msgid "%s: FATAL ERROR: States version %s or higher is required for this script\n"
+-msgstr "%s: ÖDESDIGERT FEL: Tillstånd av version %s eller över krävs för detta skript\n"
++msgstr "%s: ÖDESDIGERT FEL: States version %s eller senare krävs för det här "
++"skriptet\n"
+ 
+ #: states/prims.c:608 states/prims.c:1274
+ #, c-format
+@@ -1165,7 +1168,7 @@
+ #: states/prims.c:698
+ #, c-format
+ msgid "%s:%d: %s: illegal regexp character syntax: %c\n"
+-msgstr "%s:%d: %s: otillåten reguljäruttrycksteckensyntax: %c\n"
++msgstr "%s:%d: %s: otillåten syntax för reguljärt uttryckstecken: %c\n"
+ 
+ #: states/prims.c:913
+ #, c-format
+@@ -1210,7 +1213,7 @@
+ #: states/utils.c:260
+ #, c-format
+ msgid "%s:%d: couldn't compile regular expression \"%s\": %s\n"
+-msgstr "%s:%d kunde inte kompilera det reguljära uttrycket ”%s”: %s\n"
++msgstr "%s:%d: kunde inte kompilera det reguljära uttrycket ”%s”: %s\n"
+ 
+ #: states/utils.c:449 states/utils.c:477
+ #, c-format
+@@ -1260,7 +1263,7 @@
+ #: states/utils.c:1018
+ #, c-format
+ msgid "%s:%d: error: illegal lvalue for assignment\n"
+-msgstr "%s:%d: fel: otillåtet vvärde för tilldelning\n"
++msgstr "%s:%d: fel: otillåtet vänstervärde för tilldelning\n"
+ 
+ #: states/utils.c:1026 states/utils.c:1110
+ #, c-format
+@@ -1275,7 +1278,7 @@
+ #: states/utils.c:1083
+ #, c-format
+ msgid "%s:%d: error: illegal rvalue for string assignment\n"
+-msgstr "%s:%d: fel: otillåtet hvärde för strängtilldelning\n"
++msgstr "%s:%d: fel: otillåtet högervärde för strängtilldelning\n"
+ 
+ #: states/utils.c:1102
+ #, c-format
