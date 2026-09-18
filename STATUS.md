@@ -44,6 +44,8 @@ Senast uppdaterad: 2026-09-18
 
 **phpMyAdmin SQL-parser (2026-09-18):** **53/53**, 0 fuzzy och 0 kontrollvarningar. 21 syntaxfel för CTE, CASE, alias, LOCK och flertabellsfrågor är översatta och arkiveras i `phpMyAdmin-SQL-parser/`.
 
+**Immich (2026-09-18):** Hela svenska gränssnittsresursen är uppdaterad och kontextgranskad: **2 349/2 349**, 0 fuzzy. Nio språk- och terminologifel rättades, bland annat *Aktiveringan* → *Aktiveringen*, *orginalvideo* → *originalvideo*, ogrammatiska statusmeddelanden, *Tillgång taggad* → *Objektet har taggats* och konsekvent **medietyp**. Den officiella JSON-exporten är strukturvaliderad. Alla 1 736 strängvärden kontrollerades genom en PO-representation med l10n-lint (0 fel, 0 varningar), och hela exporten kördes mot hunspell-sv; återstående 74 träffar är produktnamn, protokoll, mallvariabler, engelska exempelsökvägar eller tekniska sammansättningar. Tre Weblate-kontroller återstår på *Medietyp* och den grammatiskt korrekta aktiveringstexten; Weblate API:t exponerar inte kontrollorsakerna. Arkiv: `Immich-immich/sv.json` (SHA-256 `edb23268…8e235`).
+
 ## Läs detta först
 
 - **Klar:** 100 % svensk, publicerad och verifierad i den officiella kanalen.
