@@ -7959,19 +7959,19 @@ i bildformat som inte stöder alfa.</translation>
     <name>PreferencesPopup::FormatProperties</name>
     <message>
         <source>Level Settings by File Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivåinställningar efter filformat</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Regular Expression:</source>
-        <translation type="unfinished"></translation>
+        <translation>Reguljärt uttryck:</translation>
     </message>
     <message>
         <source>Priority</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioritet</translation>
     </message>
 </context>
 <context>
@@ -7991,71 +7991,72 @@ Do you want to overwrite it?</source>
     <name>ProcessingTab</name>
     <message>
         <source>Line Processing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjerbearbetning:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <source>Greyscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Gråskala</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <source>Antialias:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kantutjämning:</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>Morphological</source>
-        <translation type="unfinished"></translation>
+        <translation>Morfologisk</translation>
     </message>
     <message>
         <source>Autoadjust:</source>
-        <translation type="unfinished"></translation>
+        <translation>Justera automatiskt:</translation>
     </message>
     <message>
         <source>Sharpness:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skärpa:</translation>
     </message>
     <message>
         <source>Despeckling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Borttagning av prickar:</translation>
     </message>
     <message>
         <source>MLAA Intensity:</source>
-        <translation type="unfinished"></translation>
+        <translation>MLAA-intensitet:</translation>
     </message>
 </context>
 <context>
     <name>ProjectCreatePopup</name>
     <message>
         <source>New Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt projekt</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>It is not possible to create the %1 project.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa projektet %1.</translation>
     </message>
     <message>
         <source>Project Name cannot be empty or contain any of the following characters:
  \ / : * ? &quot; &lt; &gt; |</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektnamnet får inte vara tomt eller innehålla något av följande tecken:
+ \ / : * ? &quot; &lt; &gt; |</translation>
     </message>
     <message>
         <source>Bad project name: &apos;%1&apos; looks like an absolute file path</source>
