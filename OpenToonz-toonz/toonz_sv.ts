@@ -283,278 +283,283 @@ alla bildrutor i den markerade nivån.</translation>
     </message>
     <message>
         <source>In order to use the render farm you have to define the Farm Global Root first.</source>
-        <translation type="unfinished"></translation>
+        <translation>För att använda renderfarmen måste du först ange Farm Global Root.</translation>
     </message>
     <message>
         <source>The Farm Global Root folder doesn&apos;t exist
 Please create this folder before using the render farm.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappen Farm Global Root finns inte.
+Skapa mappen innan du använder renderfarmen.</translation>
     </message>
     <message>
         <source>Unable to connect to the ToonzFarm Controller
    The Controller should run on %1 at port %2
    Please start the Controller before using the ToonzFarm</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ansluta till ToonzFarm-styrenheten
+   Styrenheten ska köras på %1 på port %2
+   Starta styrenheten innan du använder ToonzFarm</translation>
     </message>
 </context>
 <context>
     <name>BatchesController</name>
     <message>
         <source>Tasks</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppgifter</translation>
     </message>
     <message>
         <source>The Task List is empty!</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppgiftslistan är tom!</translation>
     </message>
     <message>
         <source>The current task list has been modified.
 Do you want to save your changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuella uppgiftslistan har ändrats.
+Vill du spara ändringarna?</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkasta</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>The %1 task is currently active.
 Stop it or wait for its completion before removing it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppgiften %1 är aktiv just nu.
+Stoppa den eller vänta tills den är klar innan du tar bort den.</translation>
     </message>
 </context>
 <context>
     <name>BinarizePopup</name>
     <message>
         <source>Binarize</source>
-        <translation type="unfinished"></translation>
+        <translation>Binarisera</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Alfa</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisning</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>No raster frames selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga rasterbildrutor har valts</translation>
     </message>
     <message>
         <source>Binarizing images</source>
-        <translation type="unfinished"></translation>
+        <translation>Binariserar bilder</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
     <name>BoardSettingsPopup</name>
     <message>
         <source>Clapperboard Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för klappbräda</translation>
     </message>
     <message>
         <source>Load Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in förinställning</translation>
     </message>
     <message>
         <source>Save as Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara som förinställning</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Duration (frames):</source>
-        <translation type="unfinished"></translation>
+        <translation>Varaktighet (bildrutor):</translation>
     </message>
     <message>
         <source>Text</source>
-        <translation type="unfinished"></translation>
+        <translation>Text</translation>
     </message>
     <message>
         <source>Project name</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektnamn</translation>
     </message>
     <message>
         <source>Scene name</source>
-        <translation type="unfinished"></translation>
+        <translation>Scennamn</translation>
     </message>
     <message>
         <source>Duration : Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Varaktighet: bildruta</translation>
     </message>
     <message>
         <source>Duration : Sec + Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Varaktighet: sek + bildruta</translation>
     </message>
     <message>
         <source>Duration : HH:MM:SS:FF</source>
-        <translation type="unfinished"></translation>
+        <translation>Varaktighet: TT:MM:SS:BR</translation>
     </message>
     <message>
         <source>Current date</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuellt datum</translation>
     </message>
     <message>
         <source>Current date and time</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuellt datum och aktuell tid</translation>
     </message>
     <message>
         <source>User name</source>
-        <translation type="unfinished"></translation>
+        <translation>Användarnamn</translation>
     </message>
     <message>
         <source>Scene location : Aliased path</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenplats: sökväg med alias</translation>
     </message>
     <message>
         <source>Scene location : Full path</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenplats: fullständig sökväg</translation>
     </message>
     <message>
         <source>Output location : Aliased path</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdataplats: sökväg med alias</translation>
     </message>
     <message>
         <source>Output location : Full path</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdataplats: fullständig sökväg</translation>
     </message>
     <message>
         <source>Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild</translation>
     </message>
 </context>
 <context>
     <name>BoardView</name>
     <message>
         <source>Please set the duration more than 0 frame first, or the clapperboard settings will not be saved in the scene at all!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange först en varaktighet på minst 1 bildruta, annars sparas inte klappbrädans inställningar i scenen!</translation>
     </message>
 </context>
 <context>
     <name>BrightnessAndContrastPopup</name>
     <message>
         <source>Brightness and Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljusstyrka och kontrast</translation>
     </message>
     <message>
         <source>Brightness:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljusstyrka:</translation>
     </message>
     <message>
         <source>Contrast:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrast:</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
 </context>
 <context>
     <name>BrowserPopup</name>
     <message>
         <source>Choose</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj</translation>
     </message>
     <message>
         <source>Path %1 doesn&apos;t exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökvägen %1 finns inte.</translation>
     </message>
 </context>
 <context>
     <name>CameraCaptureLevelControl</name>
     <message>
         <source>Black Point Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Svartpunktsvärde</translation>
     </message>
     <message>
         <source>White Point Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitpunktsvärde</translation>
     </message>
     <message>
         <source>Threshold Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Tröskelvärde</translation>
     </message>
     <message>
         <source>Gamma Value</source>
-        <translation type="unfinished"></translation>
+        <translation>Gammavärde</translation>
     </message>
 </context>
 <context>
     <name>CameraCaptureLevelHistogram</name>
     <message>
         <source>Click to Update Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att uppdatera histogrammet</translation>
     </message>
     <message>
         <source>Drag to Move White Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra för att flytta vitpunkten</translation>
     </message>
     <message>
         <source>Drag to Move Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra för att flytta gamma</translation>
     </message>
     <message>
         <source>Drag to Move Black Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra för att flytta svartpunkten</translation>
     </message>
     <message>
         <source>Drag to Move Threshold Point</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra för att flytta tröskelpunkten</translation>
     </message>
 </context>
 <context>
     <name>CameraSettingsPopup</name>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Camera#%1 Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för kamera %1</translation>
     </message>
     <message>
         <source>Current Camera Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för aktuell kamera</translation>
     </message>
 </context>
 <context>
     <name>CanvasSizePopup</name>
     <message>
         <source>Canvas Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Dukstorlek</translation>
     </message>
     <message>
         <source>Current Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell storlek</translation>
     </message>
     <message>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bredd:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höjd:</translation>
     </message>
     <message>
         <source>New Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny storlek</translation>
     </message>
     <message>
         <source>Unit:</source>
