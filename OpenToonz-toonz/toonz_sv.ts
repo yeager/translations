@@ -2010,247 +2010,247 @@ DPI-information används den aktuella kamerans DPI.
     </message>
     <message>
         <source>Use Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd markörer</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ</translation>
     </message>
 </context>
 <context>
     <name>ExportScenePopup</name>
     <message>
         <source>Export Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera scen</translation>
     </message>
     <message>
         <source>Choose Existing Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj befintligt projekt</translation>
     </message>
     <message>
         <source>Create New Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nytt projekt</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>The folder you selected is not a project.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda mappen är inte ett projekt.</translation>
     </message>
     <message>
         <source>There was an error exporting the scene.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod när scenen exporterades.</translation>
     </message>
     <message>
         <source>The project name cannot be empty or contain any of the following characters:(new line)   \ / : * ? &quot;  |</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektnamnet får inte vara tomt eller innehålla något av följande tecken:(ny rad)   \ / : * ? &quot;  |</translation>
     </message>
     <message>
         <source>The project name you specified is already used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna projektnamnet används redan.</translation>
     </message>
 </context>
 <context>
     <name>FarmServerListView</name>
     <message>
         <source>Activate</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera</translation>
     </message>
     <message>
         <source>Deactivate</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera</translation>
     </message>
 </context>
 <context>
     <name>FileBrowser</name>
     <message>
         <source>Folder: </source>
-        <translation type="unfinished"></translation>
+        <translation>Mapp: </translation>
     </message>
     <message>
         <source>Can&apos;t change file extension</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ändra filändelsen</translation>
     </message>
     <message>
         <source>Can&apos;t set a drawing number</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ange ett ritningsnummer</translation>
     </message>
     <message>
         <source>Can&apos;t rename. File already exists: </source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att byta namn. Filen finns redan: </translation>
     </message>
     <message>
         <source>Couldn&apos;t rename </source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att byta namn på </translation>
     </message>
     <message>
         <source>Preview Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisa skärmsläckare</translation>
     </message>
     <message>
         <source>Install Screensaver</source>
-        <translation type="unfinished"></translation>
+        <translation>Installera skärmsläckare</translation>
     </message>
     <message>
         <source>Load As Sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in som under-XSheet</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn</translation>
     </message>
     <message>
         <source>Convert to Painted TLV</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera till målad TLV</translation>
     </message>
     <message>
         <source>Convert to Unpainted TLV</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera till omålad TLV</translation>
     </message>
     <message>
         <source>Version Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering</translation>
     </message>
     <message>
         <source>Save Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara scen</translation>
     </message>
     <message>
         <source>Scene name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Scennamn:</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>Warning: level %1 already exists; overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning: nivån %1 finns redan; skriva över?</translation>
     </message>
     <message>
         <source>Done: 2 Levels  converted to TLV Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Klart: 2 nivåer konverterades till TLV-format</translation>
     </message>
     <message>
         <source>Done: All Levels  converted to TLV Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Klart: alla nivåer konverterades till TLV-format</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Edit Frame Range...</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera bildruteintervall...</translation>
     </message>
     <message>
         <source>Put...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg in...</translation>
     </message>
     <message>
         <source>Revert</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Get</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Get Revision...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta revision...</translation>
     </message>
     <message>
         <source>Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp</translation>
     </message>
     <message>
         <source>Edit Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera information</translation>
     </message>
     <message>
         <source>Revision History...</source>
-        <translation type="unfinished"></translation>
+        <translation>Revisionshistorik...</translation>
     </message>
     <message>
         <source>Unlock Frame Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp bildruteintervall</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny mapp</translation>
     </message>
     <message>
         <source>There was an error copying %1 to %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod när %1 kopierades till %2</translation>
     </message>
     <message>
         <source>It is not possible to create the %1 folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa mappen %1.</translation>
     </message>
     <message>
         <source>Some files that you want to edit are currently opened. Close them first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vissa filer som du vill redigera är öppna. Stäng dem först.</translation>
     </message>
     <message>
         <source>Some files that you want to unlock are currently opened. Close them first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vissa filer som du vill låsa upp är öppna. Stäng dem först.</translation>
     </message>
     <message>
         <source>Convert To Unpainted Tlv</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera till omålad TLV</translation>
     </message>
     <message>
         <source>Convert To Painted Tlv</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera till målad TLV</translation>
     </message>
     <message>
         <source>Open folder failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att öppna mappen</translation>
     </message>
     <message>
         <source>The input folder path was invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indatamappens sökväg är ogiltig.</translation>
     </message>
 </context>
 <context>
     <name>FileBrowserPopup</name>
     <message>
         <source>Invalid file</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltig fil</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>File name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamn:</translation>
     </message>
     <message>
         <source>From:</source>
@@ -2262,11 +2262,11 @@ DPI-information används den aktuella kamerans DPI.
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Folder name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappnamn:</translation>
     </message>
 </context>
 <context>
