@@ -1,0 +1,560 @@
+[
+  {
+    "id": 206259052,
+    "source": [
+      "Send to owners"
+    ],
+    "target": [
+      "Skicka till ägarna"
+    ],
+    "context": "admin.wines.ownerInquiries.askSubmit",
+    "state": 20
+  },
+  {
+    "id": 206259053,
+    "source": [
+      "Sending…"
+    ],
+    "target": [
+      "Skickar …"
+    ],
+    "context": "admin.wines.ownerInquiries.askSending",
+    "state": 20
+  },
+  {
+    "id": 206259054,
+    "source": [
+      "Sent to {{count}} bottle owner.",
+      "Sent to {{count}} bottle owners."
+    ],
+    "target": [
+      "Skickat till {{count}} flaskägare.",
+      "Skickat till {{count}} flaskägare."
+    ],
+    "context": "admin.wines.ownerInquiries.askSent",
+    "state": 20
+  },
+  {
+    "id": 206259055,
+    "source": [
+      "No active bottles exist, so owners of consumed bottles were asked."
+    ],
+    "target": [
+      "Det finns inga aktiva flaskor, så ägarna av druckna flaskor tillfrågades."
+    ],
+    "context": "admin.wines.ownerInquiries.askSentConsumed",
+    "state": 20
+  },
+  {
+    "id": 206259056,
+    "source": [
+      "Failed to send the inquiry"
+    ],
+    "target": [
+      "Det gick inte att skicka förfrågan"
+    ],
+    "context": "admin.wines.ownerInquiries.askError",
+    "state": 20
+  },
+  {
+    "id": 206259057,
+    "source": [
+      "Missing region"
+    ],
+    "target": [
+      "Saknad region"
+    ],
+    "context": "admin.wines.incompleteGeo.button",
+    "state": 20
+  },
+  {
+    "id": 206259058,
+    "source": [
+      "Published wines with no region at all — not wrong, just blank, and invisible to every other check"
+    ],
+    "target": [
+      "Publicerade viner utan någon region alls – inte felaktiga, bara tomma och osynliga för alla andra kontroller"
+    ],
+    "context": "admin.wines.incompleteGeo.buttonTitle",
+    "state": 20
+  },
+  {
+    "id": 206259059,
+    "source": [
+      "Wines missing a region"
+    ],
+    "target": [
+      "Viner utan region"
+    ],
+    "context": "admin.wines.incompleteGeo.title",
+    "state": 20
+  },
+  {
+    "id": 206259060,
+    "source": [
+      "Every other check keys off a value, so a wine with no region trips none of them and stays invisible. These rows are not wrong, just incomplete — the region is lost information for the statistics map, the region filter and browsing by region. Most-owned first, and a wine whose appellation names its place is usually one edit away. Open the wine to fill it in; the row leaves this list as soon as it has a region."
+    ],
+    "target": [
+      "Alla andra kontroller använder ett värde som nyckel, så ett vin utan region utlöser ingen av dem och förblir osynligt. De här raderna är inte felaktiga utan bara ofullständiga – regionen är förlorad information för statistikkartan, regionfiltret och bläddring efter region. Viner med flest flaskor visas först, och ett vin vars ursprungsbeteckning anger platsen är oftast bara en redigering bort. Öppna vinet och fyll i regionen; raden lämnar listan så snart det har en region."
+    ],
+    "context": "admin.wines.incompleteGeo.explainer",
+    "state": 20
+  },
+  {
+    "id": 206259061,
+    "source": [
+      "Outstanding"
+    ],
+    "target": [
+      "Kvarstående"
+    ],
+    "context": "admin.wines.incompleteGeo.viewOutstanding",
+    "state": 20
+  },
+  {
+    "id": 206259062,
+    "source": [
+      "Marked region-less ({{count}})",
+      "Marked region-less ({{count}})"
+    ],
+    "target": [
+      "Markerade som utan region ({{count}})",
+      "Markerade som utan region ({{count}})"
+    ],
+    "context": "admin.wines.incompleteGeo.viewCleared",
+    "state": 20
+  },
+  {
+    "id": 206259063,
+    "source": [
+      "{{count}} wine (of {{scanned}} scanned)",
+      "{{count}} wines (of {{scanned}} scanned)"
+    ],
+    "target": [
+      "{{count}} vin (av {{scanned}} genomsökta)",
+      "{{count}} viner (av {{scanned}} genomsökta)"
+    ],
+    "context": "admin.wines.incompleteGeo.count",
+    "state": 20
+  },
+  {
+    "id": 206259064,
+    "source": [
+      "Every published wine has a region. Nothing to review."
+    ],
+    "target": [
+      "Varje publicerat vin har en region. Inget att granska."
+    ],
+    "context": "admin.wines.incompleteGeo.emptyOutstanding",
+    "state": 20
+  },
+  {
+    "id": 206259065,
+    "source": [
+      "No wines have been marked as legitimately region-less."
+    ],
+    "target": [
+      "Inga viner har markerats som giltigt utan region."
+    ],
+    "context": "admin.wines.incompleteGeo.emptyCleared",
+    "state": 20
+  },
+  {
+    "id": 206259066,
+    "source": [
+      "appellation: {{appellation}}"
+    ],
+    "target": [
+      "ursprungsbeteckning: {{appellation}}"
+    ],
+    "context": "admin.wines.incompleteGeo.lead",
+    "state": 20
+  },
+  {
+    "id": 206259067,
+    "source": [
+      "{{count}} bottle",
+      "{{count}} bottles"
+    ],
+    "target": [
+      "{{count}} flaska",
+      "{{count}} flaskor"
+    ],
+    "context": "admin.wines.incompleteGeo.bottleCount",
+    "state": 20
+  },
+  {
+    "id": 206259068,
+    "source": [
+      "No region exists"
+    ],
+    "target": [
+      "Ingen region finns"
+    ],
+    "context": "admin.wines.incompleteGeo.clear",
+    "state": 20
+  },
+  {
+    "id": 206259069,
+    "source": [
+      "This wine legitimately has no region — a country-wide designation or a multi-region blend — so stop listing it here"
+    ],
+    "target": [
+      "Det här vinet saknar med rätta region – en landsomfattande beteckning eller en blandning från flera regioner – så sluta visa det här"
+    ],
+    "context": "admin.wines.incompleteGeo.clearTitle",
+    "state": 20
+  },
+  {
+    "id": 206259070,
+    "source": [
+      "List again"
+    ],
+    "target": [
+      "Visa igen"
+    ],
+    "context": "admin.wines.incompleteGeo.unclear",
+    "state": 20
+  },
+  {
+    "id": 206259071,
+    "source": [
+      "Undo: put this wine back in the outstanding list"
+    ],
+    "target": [
+      "Ångra: lägg tillbaka det här vinet i listan över kvarstående"
+    ],
+    "context": "admin.wines.incompleteGeo.unclearTitle",
+    "state": 20
+  },
+  {
+    "id": 206259072,
+    "source": [
+      "Saving…"
+    ],
+    "target": [
+      "Sparar …"
+    ],
+    "context": "admin.wines.incompleteGeo.saving",
+    "state": 20
+  },
+  {
+    "id": 206259073,
+    "source": [
+      "To fix one: open the wine and set its region. A wine sold under a country-wide designation (Vin de France, American) or blended across regions genuinely has none — mark those instead."
+    ],
+    "target": [
+      "Öppna vinet och ange regionen för att rätta ett. Ett vin som säljs under en landsomfattande beteckning (Vin de France, American) eller är blandat över regioner saknar faktiskt region – markera dessa i stället."
+    ],
+    "context": "admin.wines.incompleteGeo.fixHint",
+    "state": 20
+  },
+  {
+    "id": 206259074,
+    "source": [
+      "Failed to load the completeness queue"
+    ],
+    "target": [
+      "Det gick inte att läsa in kön för fullständighet"
+    ],
+    "context": "admin.wines.incompleteGeo.loadError",
+    "state": 20
+  },
+  {
+    "id": 206259075,
+    "source": [
+      "Failed to record that"
+    ],
+    "target": [
+      "Det gick inte att registrera det"
+    ],
+    "context": "admin.wines.incompleteGeo.actionError",
+    "state": 20
+  },
+  {
+    "id": 206259076,
+    "source": [
+      "via the owner's bottle"
+    ],
+    "target": [
+      "via ägarens flaska"
+    ],
+    "context": "admin.images.viaBottle",
+    "state": 20
+  },
+  {
+    "id": 206259077,
+    "source": [
+      "Not linked to a bottle or a wine — an upload whose add was abandoned. Deleted automatically 30 days after upload."
+    ],
+    "target": [
+      "Inte kopplad till en flaska eller ett vin – en uppladdning där tillägget avbröts. Raderas automatiskt 30 dagar efter uppladdningen."
+    ],
+    "context": "admin.images.notLinked",
+    "state": 20
+  },
+  {
+    "id": 206259078,
+    "source": [
+      "Reason (sent to the requester)"
+    ],
+    "target": [
+      "Orsak (skickas till den som begärde)"
+    ],
+    "context": "somm.prices.declineReasonLabel",
+    "state": 20
+  },
+  {
+    "id": 206259079,
+    "source": [
+      "e.g. Everyday retail wine with no secondary market — prices would not be meaningful."
+    ],
+    "target": [
+      "t.ex. Vardagligt detaljhandelsvin utan andrahandsmarknad – priser skulle sakna betydelse."
+    ],
+    "context": "somm.prices.declineReasonPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206259080,
+    "source": [
+      "Confirm decline"
+    ],
+    "target": [
+      "Bekräfta avslag"
+    ],
+    "context": "somm.prices.declineConfirmAction",
+    "state": 20
+  },
+  {
+    "id": 206259081,
+    "source": [
+      "Wine record"
+    ],
+    "target": [
+      "Vinpost"
+    ],
+    "context": "wineRecord.title",
+    "state": 20
+  },
+  {
+    "id": 206259082,
+    "source": [
+      "Spot something wrong or missing? Tap Fix or Add next to it — a curator reviews every suggestion before it goes live."
+    ],
+    "target": [
+      "Ser du något fel eller något som saknas? Tryck på Rätta eller Lägg till bredvid uppgiften – en registerförvaltare granskar varje förslag innan det publiceras."
+    ],
+    "context": "wineRecord.intro",
+    "state": 20
+  },
+  {
+    "id": 206259083,
+    "source": [
+      "not recorded"
+    ],
+    "target": [
+      "inte registrerat"
+    ],
+    "context": "wineRecord.notRecorded",
+    "state": 20
+  },
+  {
+    "id": 206259084,
+    "source": [
+      "Suggest a fix"
+    ],
+    "target": [
+      "Föreslå en rättning"
+    ],
+    "context": "wineRecord.suggest",
+    "state": 20
+  },
+  {
+    "id": 206259085,
+    "source": [
+      "Done"
+    ],
+    "target": [
+      "Klar"
+    ],
+    "context": "wineRecord.suggestDone",
+    "state": 20
+  },
+  {
+    "id": 206259086,
+    "source": [
+      "Suggest a fix for {{field}}"
+    ],
+    "target": [
+      "Föreslå en rättning för {{field}}"
+    ],
+    "context": "wineRecord.suggestFor",
+    "state": 20
+  },
+  {
+    "id": 206259087,
+    "source": [
+      "suggestion pending"
+    ],
+    "target": [
+      "förslag väntar"
+    ],
+    "context": "wineRecord.pending",
+    "state": 20
+  },
+  {
+    "id": 206259088,
+    "source": [
+      "Your suggestion is awaiting curator review"
+    ],
+    "target": [
+      "Ditt förslag väntar på granskning av en registerförvaltare"
+    ],
+    "context": "wineRecord.pendingTitle",
+    "state": 20
+  },
+  {
+    "id": 206259089,
+    "source": [
+      "A suggestion for this field is awaiting curator review"
+    ],
+    "target": [
+      "Ett förslag för det här fältet väntar på granskning av en registerförvaltare"
+    ],
+    "context": "wineRecord.pendingOtherTitle",
+    "state": 20
+  },
+  {
+    "id": 206259090,
+    "source": [
+      "The shared registry’s record of this wine, curator-reviewed."
+    ],
+    "target": [
+      "Det delade registrets post för det här vinet, granskad av registerförvaltare."
+    ],
+    "context": "wineRecord.introShort",
+    "state": 20
+  },
+  {
+    "id": 206259091,
+    "source": [
+      "Thank you — your suggestion is in the review queue. We’ll notify you when a curator has decided."
+    ],
+    "target": [
+      "Tack – ditt förslag finns i granskningskön. Vi meddelar dig när en registerförvaltare har fattat beslut."
+    ],
+    "context": "wineRecord.thanks",
+    "state": 20
+  },
+  {
+    "id": 206259092,
+    "source": [
+      "Suggest a fix: {{field}}"
+    ],
+    "target": [
+      "Föreslå en rättning: {{field}}"
+    ],
+    "context": "wineRecord.modalTitle",
+    "state": 20
+  },
+  {
+    "id": 206259093,
+    "source": [
+      "Currently recorded"
+    ],
+    "target": [
+      "Nuvarande uppgift"
+    ],
+    "context": "wineRecord.current",
+    "state": 20
+  },
+  {
+    "id": 206259094,
+    "source": [
+      "Should be"
+    ],
+    "target": [
+      "Borde vara"
+    ],
+    "context": "wineRecord.proposed",
+    "state": 20
+  },
+  {
+    "id": 206259095,
+    "source": [
+      "How do you know?"
+    ],
+    "target": [
+      "Hur vet du det?"
+    ],
+    "context": "wineRecord.reason",
+    "state": 20
+  },
+  {
+    "id": 206259096,
+    "source": [
+      "e.g. It’s printed on the label of my bottle / the producer’s site says…"
+    ],
+    "target": [
+      "t.ex. Det står på min flaskas etikett / producentens webbplats uppger …"
+    ],
+    "context": "wineRecord.reasonPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206259097,
+    "source": [
+      "Link that backs it up (optional, speeds up review)"
+    ],
+    "target": [
+      "Länk som styrker detta (valfritt, snabbar upp granskningen)"
+    ],
+    "context": "wineRecord.evidence",
+    "state": 20
+  },
+  {
+    "id": 206259098,
+    "source": [
+      "Send suggestion"
+    ],
+    "target": [
+      "Skicka förslag"
+    ],
+    "context": "wineRecord.send",
+    "state": 20
+  },
+  {
+    "id": 206259099,
+    "source": [
+      "Sending…"
+    ],
+    "target": [
+      "Skickar …"
+    ],
+    "context": "wineRecord.sending",
+    "state": 20
+  },
+  {
+    "id": 206259100,
+    "source": [
+      "Producer"
+    ],
+    "target": [
+      "Producent"
+    ],
+    "context": "wineRecord.field_producer",
+    "state": 20
+  },
+  {
+    "id": 206259101,
+    "source": [
+      "Wine name"
+    ],
+    "target": [
+      "Vinnamn"
+    ],
+    "context": "wineRecord.field_name",
+    "state": 20
+  }
+]
