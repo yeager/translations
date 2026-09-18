@@ -215,7 +215,7 @@ GitHub-releasekontrollen omfattade 77 översättningsprojekt med verifierbar upp
 
 ## PR-kontroll 2026-09-18
 
-Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes den 18 september genom GitHubs PR-API. Fördelningen är **53 `CLEAN`**, **22 `UNKNOWN`**, **13 `BLOCKED`**, **6 `UNSTABLE`**, **4 `DIRTY`** och **2 `BEHIND`**. Nineteen PR:er kräver granskning och fyra har begärda ändringar, främst i FreeRDP-serien. De enda aktuella felande kontrollerna är OpenClaws `dispatch`, `label` och `actionlint`, samt Canonical authd:s CLA-kontroll. Inga av de andra 98 PR:erna har en felande eller väntande exponerad GitHub-kontroll. `UNKNOWN` är GitHubs sammanslagningssignal och inte i sig ett språkfel. PR-data sparas i `PR-AUDIT-20260918.json`.
+Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes den 18 september genom GitHubs PR-API. De fyra då konfliktmarkerade PR:erna är ombaserade och uppdaterade: FreeCORE WebUI #1, vue-element-admin #4338, OpenClaw Studio #99 och OutFox-Translations #10. Alla fyra är nu tekniskt sammanslagningsbara enligt GitHub; tre rapporteras `CLEAN` och FreeCORE `UNSTABLE` utan exponerad felande kontroll. Grenarnas diffar har kontrollerats med Gitleaks utan träffar. OpenClaw passerar `typecheck` och 10/10 relevanta tester. FreeCOREs PO-katalog och OutFox INI-filer är formatvaliderade; vue-element-admin saknar låsfil och dess beroenden kunde därför inte installeras reproducerbart med `npm ci`. De enda aktuella felande kontrollerna bland övriga PR:er är OpenClaws `dispatch`, `label` och `actionlint`, samt Canonical authd:s CLA-kontroll. PR-data sparas i `PR-AUDIT-20260918.json`.
 
 | Projekt | PR | Aktuellt läge |
 |---|---|---|
