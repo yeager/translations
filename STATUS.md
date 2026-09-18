@@ -137,7 +137,7 @@ Den publika Codeberg Weblate-API:n indexerades projekt för projekt: **605** pro
 
 | Projekt | Svenskt nuläge |
 |---|---|
-| Foundation | Crowdin | Pågår: `dlc_agriculture_help.json` är översatt och inskickad i flera granskade batchar; Crowdin visar 28 %. Agriculture-DLC har fler oöversatta filer som fortsätter härnäst. | 2026-09-18 |
+| Foundation | Crowdin | Pågår: `dlc_agriculture_help.json` är färdigöversatt och granskad (140/140 via Crowdin API). Nästa prioritet: Agriculture-DLC:s funktionsfiler. API-nyckeln saknar behörighet att bygga export, så den lokala backupen kan inte uppdateras förrän exportåtkomst finns. | 2026-09-18 |
 | [Apkes](https://translate.codeberg.org/projects/apkes/) | 🩷 11/75 (14,6 %), 0 fuzzy, 0 kontroller |
 | [Best-Before](https://translate.codeberg.org/projects/best-before/) | 🩷 9/57 (15,7 %), 0 fuzzy, 0 kontroller |
 | [cantiga](https://translate.codeberg.org/projects/cantiga/) | 🩷 16/1 623 (0,9 %), 0 fuzzy, 0 kontroller |
