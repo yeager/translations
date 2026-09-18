@@ -1452,7 +1452,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="235"/>
         <source>Monitor</source>
-        <translation type="unfinished">Monitor ut</translation>
+        <translation>Monitor</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="251"/>
@@ -1695,7 +1695,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/basic/MuteButton.qml" line="16"/>
         <source>Mute</source>
-        <translation type="unfinished">Tysta</translation>
+        <translation>Tysta</translation>
     </message>
 </context>
 <context>
@@ -1839,27 +1839,27 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/backend/curve_preset.cpp" line="125"/>
         <source>Linear</source>
-        <translation type="unfinished">Linjär</translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/curve_preset.cpp" line="127"/>
         <source>Exponential</source>
-        <translation type="unfinished">Exponentiell</translation>
+        <translation>Exponentiell</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/curve_preset.cpp" line="130"/>
         <source>Elliptic</source>
-        <translation type="unfinished">Elliptisk</translation>
+        <translation>Elliptisk</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/curve_preset.cpp" line="133"/>
         <source>Logarithmic</source>
-        <translation type="unfinished">Logaritmisk</translation>
+        <translation>Logaritmisk</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/curve_preset.cpp" line="136"/>
         <source>Vital</source>
-        <translation type="unfinished">Vital</translation>
+        <translation>Vital</translation>
     </message>
     <message>
         <source>Failed to add region</source>
@@ -1880,7 +1880,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/backend/plugin_collections.cpp" line="61"/>
         <source>Delete</source>
-        <translation type="unfinished">Ta bort</translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Failed to paste plugins</source>
@@ -1899,7 +1899,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/structure/project/project.cpp" line="328"/>
         <source>Markers</source>
-        <translation type="unfinished">Markörer</translation>
+        <translation>Markörer</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_saver.cpp" line="174"/>
@@ -2152,7 +2152,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/commands/delete_tracks_command.cpp" line="17"/>
         <source>Delete Track</source>
-        <translation type="unfinished">Ta bort spår</translation>
+        <translation>Ta bort spår</translation>
     </message>
     <message>
         <location filename="../src/commands/delete_tracks_command.cpp" line="18"/>
@@ -2263,7 +2263,7 @@ Vill du använda den istället?</translation>
         <location filename="../src/dsp/chord_preset.cpp" line="60"/>
         <location filename="../src/structure/project/project.cpp" line="304"/>
         <source>Chords</source>
-        <translation type="unfinished">Ackord</translation>
+        <translation>Ackord</translation>
     </message>
     <message>
         <source>_Rename</source>
@@ -2291,12 +2291,12 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="147"/>
         <source>Love Progression</source>
-        <translation type="unfinished">Exporteringsstatus</translation>
+        <translation>Kärleksackordföljd</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="156"/>
         <source>Pop Chords 1</source>
-        <translation type="unfinished">Ackord</translation>
+        <translation>Popackord 1</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="169"/>
@@ -2455,7 +2455,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/structure/arrangement/audio_function.cpp" line="118"/>
         <source>Failed to instantiate plugin</source>
-        <translation type="unfinished">Aktivera/Inaktivera koppling</translation>
+        <translation>Det gick inte att instansiera insticksprogrammet</translation>
     </message>
     <message>
         <source>Stereo?</source>
@@ -2476,7 +2476,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/structure/arrangement/audio_function.cpp" line="110"/>
         <source>Failed to create plugin</source>
-        <translation type="unfinished">Kunde inte skriva filen: %s</translation>
+        <translation>Det gick inte att skapa insticksprogrammet</translation>
     </message>
     <message>
         <location filename="../src/structure/arrangement/audio_function.cpp" line="311"/>
@@ -2486,7 +2486,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/structure/arrangement/audio_function.cpp" line="546"/>
         <source>Failed to apply plugin</source>
-        <translation type="unfinished">Kunde inte hitta något plugin med URI: %s</translation>
+        <translation>Det gick inte att tillämpa insticksprogrammet</translation>
     </message>
     <message>
         <source>Failed to duplicate audio clip</source>
@@ -2672,7 +2672,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="131"/>
         <source>Fader Swap Phase</source>
-        <translation type="unfinished">Faderbalans</translation>
+        <translation>Växla fas för regeln</translation>
     </message>
     <message>
         <location filename="../src/dsp/fader.cpp" line="143"/>
@@ -2699,7 +2699,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="60"/>
         <source>Fader Balance</source>
-        <translation type="unfinished">Faderbalans</translation>
+        <translation>Regelbalans</translation>
     </message>
     <message>
         <source>Prefader Mute</source>
@@ -2708,7 +2708,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="73"/>
         <source>Fader Mute</source>
-        <translation type="unfinished">Fader-tysta</translation>
+        <translation>Tysta regeln</translation>
     </message>
     <message>
         <source>Prefader Solo</source>
@@ -2717,7 +2717,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="86"/>
         <source>Fader Solo</source>
-        <translation type="unfinished">Fadervolym</translation>
+        <translation>Solo för regeln</translation>
     </message>
     <message>
         <source>Prefader Listen</source>
@@ -2726,7 +2726,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="99"/>
         <source>Fader Listen</source>
-        <translation type="unfinished">Fader-tysta</translation>
+        <translation>Avlyssna regeln</translation>
     </message>
     <message>
         <source>Prefader Mono Compat</source>
@@ -2802,17 +2802,17 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/structure/project/project.cpp" line="333"/>
         <source>start</source>
-        <translation type="unfinished">start</translation>
+        <translation>start</translation>
     </message>
     <message>
         <location filename="../src/structure/project/project.cpp" line="346"/>
         <source>end</source>
-        <translation type="unfinished">slut</translation>
+        <translation>slut</translation>
     </message>
     <message>
         <location filename="../src/structure/project/project.cpp" line="367"/>
         <source>Master</source>
-        <translation type="unfinished">Master</translation>
+        <translation>Huvudkanal</translation>
     </message>
     <message>
         <location filename="../src/dsp/modulator_macro_processor.cpp" line="27"/>
@@ -2833,7 +2833,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/structure/project/project.cpp" line="323"/>
         <source>Modulators</source>
-        <translation type="unfinished">Modulatorer</translation>
+        <translation>Modulatorer</translation>
     </message>
     <message>
         <source>Invalid object name %s</source>
@@ -2966,7 +2966,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/utils/exceptions.cpp" line="51"/>
         <source>Error</source>
-        <translation type="unfinished">Fel</translation>
+        <translation>Fel</translation>
     </message>
     <message>
         <source>Failed to move track inside folder</source>
@@ -3042,27 +3042,27 @@ Bit depth: {} bits</source>
     <message>
         <location filename="../src/gui/backend/plugin_collections.cpp" line="58"/>
         <source>Rename</source>
-        <translation type="unfinished">Döp om</translation>
+        <translation>Döp om</translation>
     </message>
     <message>
         <location filename="../src/structure/tracks/channel_send.cpp" line="43"/>
         <source>Enabled</source>
-        <translation type="unfinished">Aktivera</translation>
+        <translation>Aktiverad</translation>
     </message>
     <message>
         <location filename="../src/plugins/plugin.cpp" line="52"/>
         <source>Bypass</source>
-        <translation type="unfinished">Förbikoppla</translation>
+        <translation>Förbikoppla</translation>
     </message>
     <message>
         <location filename="../src/plugins/plugin.cpp" line="55"/>
         <source>Enables or disables the plugin</source>
-        <translation type="unfinished">Aktiverar eller inaktiverar insticksfilen</translation>
+        <translation>Aktiverar eller inaktiverar insticksprogrammet</translation>
     </message>
     <message>
         <location filename="../src/plugins/plugin.cpp" line="67"/>
         <source>Gain</source>
-        <translation type="unfinished">Förstärkning</translation>
+        <translation>Förstärkning</translation>
     </message>
     <message>
         <source>Plugin gain</source>
@@ -3071,22 +3071,22 @@ Bit depth: {} bits</source>
     <message>
         <location filename="../src/plugins/plugin_descriptor.cpp" line="403"/>
         <source>Add to project</source>
-        <translation type="unfinished">Lägg till i projektet</translation>
+        <translation>Lägg till i projektet</translation>
     </message>
     <message>
         <location filename="../src/plugins/plugin_descriptor.cpp" line="418"/>
         <source>Add to project (bridged UI)</source>
-        <translation type="unfinished">Lägg till i projektet (bryggat UI)</translation>
+        <translation>Lägg till i projektet (bryggat gränssnitt)</translation>
     </message>
     <message>
         <location filename="../src/plugins/plugin_descriptor.cpp" line="428"/>
         <source>Add to project (bridged full)</source>
-        <translation type="unfinished">Lägg till i projektet (fullt bryggat)</translation>
+        <translation>Lägg till i projektet (helt bryggat)</translation>
     </message>
     <message>
         <location filename="../src/plugins/plugin_descriptor.cpp" line="464"/>
         <source>Add to collection</source>
-        <translation type="unfinished">Lägg till i projektet</translation>
+        <translation>Lägg till i samling</translation>
     </message>
     <message>
         <location filename="../src/plugins/plugin_descriptor.cpp" line="490"/>
@@ -3096,7 +3096,7 @@ Bit depth: {} bits</source>
     <message>
         <location filename="../src/utils/exceptions.cpp" line="40"/>
         <source>Details</source>
-        <translation type="unfinished">Detaljer</translation>
+        <translation>Detaljer</translation>
     </message>
     <message>
         <source>Error - Backtrace:
@@ -3309,7 +3309,7 @@ Support this project at {}
     <message>
         <location filename="../src/controllers/recording_materializer.cpp" line="180"/>
         <source>Record</source>
-        <translation type="unfinished">Spela in</translation>
+        <translation>Spela in</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_creator.cpp" line="333"/>
@@ -3342,7 +3342,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/basic/RecordButton.qml" line="21"/>
         <source>Record</source>
-        <translation type="unfinished">Spela in</translation>
+        <translation>Spela in</translation>
     </message>
 </context>
 <context>
@@ -3396,7 +3396,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/Ruler.qml" line="305"/>
         <source>Start</source>
-        <translation type="unfinished">Start</translation>
+        <translation>Start</translation>
     </message>
 </context>
 <context>
@@ -3463,7 +3463,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="29"/>
         <source>Off</source>
-        <translation type="unfinished">Av</translation>
+        <translation>Av</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="38"/>
@@ -3479,12 +3479,12 @@ Support this project at {}
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="52"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="74"/>
         <source>Snap/Grid Settings</source>
-        <translation type="unfinished">Snäpp-/rutnätsinställningar</translation>
+        <translation>Fäst-/rutnätsinställningar</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="80"/>
         <source>Position Snap</source>
-        <translation type="unfinished">Position</translation>
+        <translation>Positionsfästning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="90"/>
@@ -3494,7 +3494,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="104"/>
         <source>Adaptive Snap</source>
-        <translation type="unfinished">Adaptiv</translation>
+        <translation>Adaptiv fästning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="119"/>
@@ -3558,13 +3558,13 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="161"/>
         <source>Note Type</source>
-        <translation type="unfinished">nottyp</translation>
+        <translation>Nottyp</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="178"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="325"/>
         <source>Normal</source>
-        <translation type="unfinished">Normal</translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="178"/>
@@ -3591,7 +3591,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="222"/>
         <source>Default Object Length</source>
-        <translation type="unfinished">Redigeringsobjektets längd</translation>
+        <translation>Standardlängd för objekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="232"/>
@@ -3606,12 +3606,12 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="249"/>
         <source>Last object</source>
-        <translation type="unfinished">Laddar projekt</translation>
+        <translation>Senaste objekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="249"/>
         <source>Custom</source>
-        <translation type="unfinished">Egen</translation>
+        <translation>Anpassad</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="264"/>
@@ -3626,7 +3626,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="339"/>
         <source>Close</source>
-        <translation type="unfinished">Stäng</translation>
+        <translation>Stäng</translation>
     </message>
 </context>
 <context>
@@ -3634,7 +3634,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/basic/SoloButton.qml" line="20"/>
         <source>Solo</source>
-        <translation type="unfinished">Solo</translation>
+        <translation>Solo</translation>
     </message>
 </context>
 <context>
@@ -3663,7 +3663,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/TempoMapLegend.qml" line="23"/>
         <source>Tempo</source>
-        <translation type="unfinished">Tempo</translation>
+        <translation>Tempo</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TempoMapLegend.qml" line="30"/>
@@ -3681,7 +3681,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="38"/>
         <source>Curve</source>
-        <translation type="unfinished">Kurvighet</translation>
+        <translation>Kurva</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="41"/>
@@ -3693,7 +3693,7 @@ Support this project at {}
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="47"/>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="130"/>
         <source>Linear</source>
-        <translation type="unfinished">Linjär</translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="95"/>
@@ -3923,22 +3923,22 @@ Support this project at {}
         <location filename="../src/gui/qml/components/TrackView.qml" line="69"/>
         <location filename="../src/gui/qml/components/TrackView.qml" line="76"/>
         <source>Delete Track</source>
-        <translation type="unfinished">Ta bort spår</translation>
+        <translation>Ta bort spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackView.qml" line="618"/>
         <source>Scales</source>
-        <translation type="unfinished">Skala</translation>
+        <translation>Skalor</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackView.qml" line="652"/>
         <source>Show lanes</source>
-        <translation type="unfinished">Visa banor</translation>
+        <translation>Visa banor</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackView.qml" line="669"/>
         <source>Show automation</source>
-        <translation type="unfinished">Visa automation</translation>
+        <translation>Visa automation</translation>
     </message>
 </context>
 <context>
@@ -16330,7 +16330,7 @@ Stöd projektet på https://liberapay.com/Zrythm
     <message>
         <location filename="../src/dsp/snap_grid.cpp" line="88"/>
         <source>Adaptive</source>
-        <translation type="unfinished">Adaptiv</translation>
+        <translation>Adaptiv</translation>
     </message>
 </context>
 <context>
@@ -16338,27 +16338,27 @@ Stöd projektet på https://liberapay.com/Zrythm
     <message>
         <location filename="../src/dsp/note_type.cpp" line="19"/>
         <source>bar</source>
-        <translation type="unfinished">takt</translation>
+        <translation>takt</translation>
     </message>
     <message>
         <location filename="../src/dsp/note_type.cpp" line="20"/>
         <source>beat</source>
-        <translation type="unfinished">taktslag</translation>
+        <translation>taktslag</translation>
     </message>
     <message>
         <location filename="../src/dsp/note_type.cpp" line="33"/>
         <source>normal</source>
-        <translation type="unfinished">normal</translation>
+        <translation>normal</translation>
     </message>
     <message>
         <location filename="../src/dsp/note_type.cpp" line="34"/>
         <source>dotted</source>
-        <translation type="unfinished">punkterad</translation>
+        <translation>punkterad</translation>
     </message>
     <message>
         <location filename="../src/dsp/note_type.cpp" line="35"/>
         <source>triplet</source>
-        <translation type="unfinished">triplett</translation>
+        <translation>triplett</translation>
     </message>
 </context>
 <context>
@@ -16499,7 +16499,7 @@ Stöd projektet på https://liberapay.com/Zrythm
     <message>
         <location filename="../src/utils/exceptions.cpp" line="40"/>
         <source>Error</source>
-        <translation type="unfinished">Fel</translation>
+        <translation>Fel</translation>
     </message>
 </context>
 </TS>
