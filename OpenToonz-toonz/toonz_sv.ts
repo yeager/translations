@@ -8469,83 +8469,88 @@ vissa områden är för breda.</translation>
     <message>
         <source>It is not possible to track specified regions:
 some regions are too high.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra angivna områden:
+vissa områden är för höga.</translation>
     </message>
     <message>
         <source>Frame Start Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel i startbildruta</translation>
     </message>
     <message>
         <source>Frame End Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel i slutbildruta</translation>
     </message>
     <message>
         <source>Threshold Distance Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel i tröskelavstånd</translation>
     </message>
     <message>
         <source>Sensitivity Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Känslighetsfel</translation>
     </message>
     <message>
         <source>No Frame Found</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen bildruta hittades</translation>
     </message>
     <message>
         <source>It is not possible to track specified regions:
 the selected level is not valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra angivna områden:
+den valda nivån är ogiltig.</translation>
     </message>
     <message>
         <source>It is not possible to track the level:
 no level selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra nivån:
+ingen nivå har valts.</translation>
     </message>
     <message>
         <source>It is not possible to track specified regions:
 the level has to be saved first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra angivna områden:
+nivån måste sparas först.</translation>
     </message>
     <message>
         <source>It is not possible to track the level:
 undefined error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra nivån:
+odefinierat fel.</translation>
     </message>
     <message>
         <source>Invalid selection: each selected column must contain one single level with increasing frame numbering.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltig markering: varje markerad kolumn måste innehålla en enda nivå med stigande bildrutenumrering.</translation>
     </message>
     <message>
         <source>Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Visare</translation>
     </message>
     <message>
         <source>Function Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktionsredigerare</translation>
     </message>
     <message>
         <source>Scene Cast</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenens innehåll</translation>
     </message>
     <message>
         <source>Color Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgmodell</translation>
     </message>
     <message>
         <source>File Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Filbläddrare</translation>
     </message>
     <message>
         <source>Level: </source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå: </translation>
     </message>
     <message>
         <source>Tasks</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppgifter</translation>
     </message>
     <message>
         <source>Schematic</source>
-        <translation type="unfinished"></translation>
+        <translation>Schemavy</translation>
     </message>
     <message>
         <source>Palette</source>
@@ -8553,7 +8558,7 @@ undefined error.</source>
     </message>
     <message>
         <source>Studio Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Studiopalett</translation>
     </message>
     <message>
         <source>Style Editor</source>
