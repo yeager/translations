@@ -8658,55 +8658,55 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source> Task added to the Batch Render List.</source>
-        <translation type="unfinished"></translation>
+        <translation> Uppgift tillagd i batchrenderingslistan.</translation>
     </message>
     <message>
         <source> Task added to the Batch Cleanup List.</source>
-        <translation type="unfinished"></translation>
+        <translation> Uppgift tillagd i batchrenritningslistan.</translation>
     </message>
     <message>
         <source>There are no assets to collect</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga resurser att samla in</translation>
     </message>
     <message>
         <source>One asset imported</source>
-        <translation type="unfinished"></translation>
+        <translation>En resurs har importerats</translation>
     </message>
     <message>
         <source>%1 assets imported</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 resurser har importerats</translation>
     </message>
     <message>
         <source>Converting %1 images to tlv format...</source>
-        <translation type="unfinished"></translation>
+        <translation>Konverterar %1 bilder till tlv-format...</translation>
     </message>
     <message>
         <source>No scene imported</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen scen har importerats</translation>
     </message>
     <message>
         <source>One scene imported</source>
-        <translation type="unfinished"></translation>
+        <translation>En scen har importerats</translation>
     </message>
     <message>
         <source>%1 scenes imported</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 scener har importerats</translation>
     </message>
     <message>
         <source>It is not possible to delete lines because no column, cell or level strip frame was selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta bort linjer eftersom ingen kolumn, cell eller bildruta i nivåremsan har markerats.</translation>
     </message>
     <message>
         <source>The rooms will be reset the next time you run Toonz.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbetsytorna återställs nästa gång du kör Toonz.</translation>
     </message>
     <message>
         <source>Saving previewed frames....</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparar förhandsvisade bildrutor....</translation>
     </message>
     <message>
         <source>The command cannot be executed because the scene is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandot kan inte köras eftersom scenen är tom.</translation>
     </message>
     <message>
         <source>Change project</source>
@@ -8714,15 +8714,15 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>It is not possible to delete the selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta bort markeringen.</translation>
     </message>
     <message>
         <source>It is not possible to paste vectors in the current cell.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att klistra in vektorer i den aktuella cellen.</translation>
     </message>
     <message>
         <source>It is not possible to paste data: there is nothing to paste.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att klistra in data: det finns inget att klistra in.</translation>
     </message>
     <message>
         <source>The copied selection cannot be pasted in the current drawing.</source>
@@ -8731,20 +8731,22 @@ Vad vill du göra?</translation>
     <message>
         <source>A filename cannot be empty or contain any of the following characters:
  \ / : * ? &quot; &lt; &gt; |</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett filnamn får inte vara tomt eller innehålla något av följande tecken:
+ \ / : * ? &quot; &lt; &gt; |</translation>
     </message>
     <message>
         <source>The palette %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Paletten %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Cannot load Color Model in current palette.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att läsa in färgmodellen i den aktuella paletten.</translation>
     </message>
     <message>
         <source>Image DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildens DPI</translation>
     </message>
     <message>
         <source>Custom DPI</source>
