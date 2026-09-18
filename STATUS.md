@@ -137,7 +137,7 @@ Den publika Codeberg Weblate-API:n indexerades projekt för projekt: **605** pro
 
 | Projekt | Svenskt nuläge |
 |---|---|
-| Foundation | Crowdin | Pågår: Agriculture-DLC:s `dlc_agriculture_help.json` (140/140), `dlc_agriculture_general.json` (344/344), `dlc_agriculture_search.json` (10/10), `dlc_agriculture_unlockables.json` (51/51) och `compendium.json` (23/23) är färdigöversatta, termgranskade och inskickade via Crowdin API. Nästa prioritet: Agriculture-DLC:s funktionsfiler. API-nyckeln saknar behörighet att bygga export, så den lokala backupen kan inte uppdateras förrän exportåtkomst finns. | 2026-09-18 |
+| Foundation | Crowdin | Pågår: Agriculture-DLC:s `dlc_agriculture_help.json` (140/140), `dlc_agriculture_general.json` (344/344), `dlc_agriculture_search.json` (10/10), `dlc_agriculture_unlockables.json` (51/51), `compendium.json` (23/23), `dlc_agriculture_achievements.json` (22/22) och `village_aspirations.json` (31/31) är färdigöversatta, termgranskade och inskickade via Crowdin API. `dlc_agriculture_events.json` är påbörjad och har 70/182 granskade, inskickade strängar; fortsätt från 24410. API-nyckeln saknar behörighet att bygga export, så den lokala backupen kan inte uppdateras förrän exportåtkomst finns. | 2026-09-18 |
 | [Apkes](https://translate.codeberg.org/projects/apkes/) | 🩷 11/75 (14,6 %), 0 fuzzy, 0 kontroller |
 | [Best-Before](https://translate.codeberg.org/projects/best-before/) | 🩷 9/57 (15,7 %), 0 fuzzy, 0 kontroller |
 | [cantiga](https://translate.codeberg.org/projects/cantiga/) | 🩷 16/1 623 (0,9 %), 0 fuzzy, 0 kontroller |
