@@ -12810,87 +12810,87 @@ VARNING: Bildstorleken stämmer inte. Nivån med samma sökväg har storleken %1
     </message>
     <message>
         <source>White Balance: </source>
-        <translation type="unfinished"></translation>
+        <translation>Vitbalans: </translation>
     </message>
     <message>
         <source>Webcam Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbkamerainställningar</translation>
     </message>
     <message>
         <source>DSLR Options</source>
-        <translation type="unfinished"></translation>
+        <translation>DSLR-inställningar</translation>
     </message>
     <message>
         <source>Place the frame in the XSheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Placera bildrutan i XSheet</translation>
     </message>
     <message>
         <source>Use Direct Show Webcam Drivers</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd DirectShow-drivrutiner för webbkamera</translation>
     </message>
     <message>
         <source>Black Screen for Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Svart skärm vid fotografering</translation>
     </message>
     <message>
         <source>Use Reduced Resolution Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd bilder med lägre upplösning</translation>
     </message>
     <message>
         <source>Use MJPG with Webcam</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd MJPG med webbkamera</translation>
     </message>
     <message>
         <source>Place on XSheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Placera i XSheet</translation>
     </message>
     <message>
         <source>Use Numpad Shortcuts When Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd kortkommandon på numeriskt tangentbord när aktivt</translation>
     </message>
     <message>
         <source>Show Live View on All Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa livevisning på alla bildrutor</translation>
     </message>
     <message>
         <source>Capture Review Time: </source>
-        <translation type="unfinished"></translation>
+        <translation>Granskningstid efter fotografering: </translation>
     </message>
     <message>
         <source>Level Subsampling: </source>
-        <translation type="unfinished"></translation>
+        <translation>Nivånedsampling: </translation>
     </message>
     <message>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacitet:</translation>
     </message>
     <message>
         <source>No camera detected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen kamera identifierades.</translation>
     </message>
     <message>
         <source>No camera detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen kamera identifierades</translation>
     </message>
     <message>
         <source>- Select camera -</source>
-        <translation type="unfinished"></translation>
+        <translation>- Välj kamera -</translation>
     </message>
     <message>
         <source>Mode: </source>
-        <translation type="unfinished"></translation>
+        <translation>Läge: </translation>
     </message>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiverad</translation>
     </message>
     <message>
         <source>Stop Live View</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa livevisning</translation>
     </message>
 </context>
 <context>
@@ -12940,7 +12940,7 @@ Click the arrow button to create a new sub-xsheet</source>
     <name>TApp</name>
     <message>
         <source>Error allocating memory: not enough memory.</source>
-        <translation type="unfinished"></translation>
+        <translation>Minnesallokeringsfel: inte tillräckligt med minne.</translation>
     </message>
     <message>
         <source>It is not possible to save automatically an untitled scene.</source>
@@ -12955,75 +12955,75 @@ Click the arrow button to create a new sub-xsheet</source>
     <name>TaskSheet</name>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Status:</source>
-        <translation type="unfinished"></translation>
+        <translation>Status:</translation>
     </message>
     <message>
         <source>Command Line:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandorad:</translation>
     </message>
     <message>
         <source>Server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Server:</translation>
     </message>
     <message>
         <source>Submitted By:</source>
-        <translation type="unfinished"></translation>
+        <translation>Inskickad av:</translation>
     </message>
     <message>
         <source>Submitted On:</source>
-        <translation type="unfinished"></translation>
+        <translation>Inskickad den:</translation>
     </message>
     <message>
         <source>Submission Date:</source>
-        <translation type="unfinished"></translation>
+        <translation>Inskickningsdatum:</translation>
     </message>
     <message>
         <source>Start Date:</source>
-        <translation type="unfinished"></translation>
+        <translation>Startdatum:</translation>
     </message>
     <message>
         <source>Completion Date:</source>
-        <translation type="unfinished"></translation>
+        <translation>Slutförandedatum:</translation>
     </message>
     <message>
         <source>Duration:</source>
-        <translation type="unfinished"></translation>
+        <translation>Varaktighet:</translation>
     </message>
     <message>
         <source>Step Count:</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal steg:</translation>
     </message>
     <message>
         <source>Failed Steps:</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckade steg:</translation>
     </message>
     <message>
         <source>Successful Steps:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lyckade steg:</translation>
     </message>
     <message>
         <source>Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioritet:</translation>
     </message>
     <message>
         <source>Output:</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdata:</translation>
     </message>
     <message>
         <source>Frames per Chunk:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildrutor per segment:</translation>
     </message>
     <message>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Från:</translation>
     </message>
     <message>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Till:</translation>
     </message>
     <message>
         <source>Step:</source>
