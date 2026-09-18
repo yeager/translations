@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CalyxOS Launcher (2026-09-18):** Startprogrammets svenska resurs är färdigställd: **11/11** strängar, 0 tomma och 0 ogranskade. Arbetsapparnas avstängda läge och dess konsekvenser för aviseringar, batteri, plats, samtal och sms är kontextgranskade. Officiell export: `CalyxOS-Launcher/strings.xml` (XML-validerad).
+
 **CalyxOS Updater (2026-09-18):** Systemuppdaterarens svenska resurs är färdigställd: **26/26** strängar, 0 tomma och 0 ogranskade. Säkerhetskanalen, nätverkskrav, batterivillkor, automatisk omstart och installationsuppmaningar är granskade. Den enda Weblate-markeringen är den korrekta systemtermen `Automatisk omstart`. Officiell export: `CalyxOS-Updater/strings.xml` (XML-validerad och hunspell-sv-granskad).
 
 **CalyxOS SetupWizard (2026-09-18):** Förstakonfigurationens svenska resurs är färdigställd: **37/37** strängar, 0 tomma och 0 ogranskade. Bootloader-varningen, skyddet mot fabriksåterställning, microG:s push-registrering, nätverksplats och externa platskällor är terminologiskt och säkerhetsmässigt granskade. Länken för bootloaderlåsning och XLIFF-parametern bevaras. Den enda kontrollmarkeringen gäller produktnamnet `BeaconDB` och är korrekt. Officiell export: `CalyxOS-SetupWizard/strings.xml` (XML-, länk- och hunspell-sv-validerad).
