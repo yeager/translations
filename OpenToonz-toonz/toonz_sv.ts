@@ -5605,33 +5605,35 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Raise Stop Motion Level Subsampling</source>
-        <translation type="unfinished"></translation>
+        <translation>Öka undersampling för stop motion-nivå</translation>
     </message>
     <message>
         <source>Go to Stop Motion Insert Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till infogad stop motion-bildruta</translation>
     </message>
     <message>
         <source>Clear Cache Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa cachemapp</translation>
     </message>
     <message>
         <source>There are no unused items in the cache folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga oanvända objekt i cachemappen.</translation>
     </message>
     <message>
         <source>Deleting the following items:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Följande objekt tas bort:
+</translation>
     </message>
     <message>
         <source>&lt;DIR&gt; </source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;KAT&gt; </translation>
     </message>
     <message>
         <source>   ... and %1 more items
 </source>
-        <translation type="unfinished"></translation>
+        <translation>   ... och %1 objekt till
+</translation>
     </message>
     <message>
         <source>
@@ -5639,55 +5641,59 @@ Are you sure?
 
 N.B. Make sure you are not running another process of OpenToonz,
 or you may delete necessary files for it.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Är du säker?
+
+OBS! Kontrollera att du inte kör någon annan process av OpenToonz,
+annars kan nödvändiga filer tas bort.</translation>
     </message>
     <message>
         <source>Can&apos;t delete %1 : </source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta bort %1: </translation>
     </message>
     <message>
         <source>https://github.com/opentoonz/opentoonz/releases/latest</source>
-        <translation type="unfinished"></translation>
+        <translation>https://github.com/opentoonz/opentoonz/releases/latest</translation>
     </message>
     <message>
         <source>https://groups.google.com/forum/#!forum/opentoonz_en</source>
-        <translation type="unfinished"></translation>
+        <translation>https://groups.google.com/forum/#!forum/opentoonz_en</translation>
     </message>
     <message>
         <source>To report a bug, click on the button below to open a web browser window for OpenToonz&apos;s Issues page on https://github.com.  Click on the &apos;New issue&apos; button and fill out the form.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du vill rapportera ett fel klickar du på knappen nedan för att öppna ett webbläsarfönster till OpenToonz Issues-sida på https://github.com. Klicka på knappen ”New issue” och fyll i formuläret.</translation>
     </message>
     <message>
         <source>Vector Guided Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektorledd ritning</translation>
     </message>
     <message>
         <source>Short Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Kort uppspelning</translation>
     </message>
     <message>
         <source>&amp;What&apos;s New...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nyheter...</translation>
     </message>
     <message>
         <source>&amp;Community Forum...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Användarforum...</translation>
     </message>
     <message>
         <source>&amp;Report a Bug...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rapportera ett fel...</translation>
     </message>
     <message>
         <source>Guided Drawing Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller för guidad ritning</translation>
     </message>
     <message>
         <source>Flip Next Guide Stroke Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd riktning för nästa hjälpstreck</translation>
     </message>
     <message>
         <source>Flip Previous Guide Stroke Direction</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd riktning för föregående hjälpstreck</translation>
     </message>
 </context>
 <context>
@@ -5706,110 +5712,115 @@ or you may delete necessary files for it.</source>
     </message>
     <message>
         <source>Line Prevalence</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjeprioritet</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Apply Match Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa passningslinjer</translation>
     </message>
     <message>
         <source>Add Match Line Inks</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till bläck för passningslinjer</translation>
     </message>
     <message>
         <source>Use Ink: </source>
-        <translation type="unfinished"></translation>
+        <translation>Använd bläck: </translation>
     </message>
     <message>
         <source>Ink Usage</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläckanvändning</translation>
     </message>
     <message>
         <source>Line Stacking Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjestaplingsordning</translation>
     </message>
     <message>
         <source>L-Up R-Down</source>
-        <translation type="unfinished"></translation>
+        <translation>V upp, H ned</translation>
     </message>
     <message>
         <source>L-Down R-Up</source>
-        <translation type="unfinished"></translation>
+        <translation>V ned, H upp</translation>
     </message>
     <message>
         <source>Keep
 Halftone</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll
+rastrering</translation>
     </message>
     <message>
         <source>Fill
 Gaps</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyll
+luckor</translation>
     </message>
     <message>
         <source>Merge Inks</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfoga bläck</translation>
     </message>
     <message>
         <source>Merge Inks : If the target level has the same style as the match line ink
 (i.e. with the same index and the same color), the existing style will be used.
 Otherwise, a new style will be added to &quot;match lines&quot; page.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfoga bläck: Om målnivån har samma stil som bläcket för passningslinjen
+(dvs. med samma index och samma färg) används den befintliga stilen.
+Annars läggs en ny stil till på sidan ”passningslinjer”.</translation>
     </message>
 </context>
 <context>
     <name>MenuBarPopup</name>
     <message>
         <source>Customize Menu Bar of Room &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa menyraden för arbetsytan ”%1”</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>%1 Menu Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Menyrad för %1</translation>
     </message>
     <message>
         <source>Menu Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Menyalternativ</translation>
     </message>
     <message>
         <source>N.B. If you put unique title to submenu, it may not be translated to another language.
 N.B. Duplicated commands will be ignored. Only the last one will appear in the menu bar.</source>
-        <translation type="unfinished"></translation>
+        <translation>OBS! Om du ger en undermeny en unik titel kanske den inte översätts till andra språk.
+OBS! Dubblerade kommandon ignoreras. Endast det sista visas i menyraden.</translation>
     </message>
 </context>
 <context>
     <name>MenuBarTree</name>
     <message>
         <source>Insert Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga meny</translation>
     </message>
     <message>
         <source>Insert Submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga undermeny</translation>
     </message>
     <message>
         <source>Remove &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort ”%1”</translation>
     </message>
     <message>
         <source>New Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny meny</translation>
     </message>
 </context>
 <context>
@@ -5831,31 +5842,31 @@ N.B. Duplicated commands will be ignored. Only the last one will appear in the m
     <name>MergeCmappedDialog</name>
     <message>
         <source>Save in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>File Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamn:</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source> Merge Tlv Levels</source>
-        <translation type="unfinished"></translation>
+        <translation> Sammanfoga TLV-nivåer</translation>
     </message>
     <message>
         <source>Level %1 already exists! Are you sure you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån %1 finns redan! Är du säker på att du vill skriva över den?</translation>
     </message>
 </context>
 <context>
@@ -5874,39 +5885,40 @@ N.B. Duplicated commands will be ignored. Only the last one will appear in the m
     <message>
         <source>A level with the preferred path &quot;%1&quot; already exists.
 What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>En nivå med den föredragna sökvägen ”%1” finns redan.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>Delete the old level entirely</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort den gamla nivån helt</translation>
     </message>
     <message>
         <source>Keep the old level and overwrite processed frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll den gamla nivån och skriv över bearbetade bildrutor</translation>
     </message>
     <message>
         <source>Choose a different path (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en annan sökväg (%1)</translation>
     </message>
     <message>
         <source>Create Mesh</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nät</translation>
     </message>
     <message>
         <source>Mesh Edges Length:</source>
-        <translation type="unfinished"></translation>
+        <translation>Längd på nätets kanter:</translation>
     </message>
     <message>
         <source>Rasterization DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI för rastrering:</translation>
     </message>
     <message>
         <source>Mesh Margin (pixels):</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätmarginal (pixlar):</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Mesh Creation in progress...</source>
