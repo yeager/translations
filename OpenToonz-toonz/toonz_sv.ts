@@ -13389,166 +13389,166 @@ Click the arrow button to create a new sub-xsheet</source>
     </message>
     <message>
         <source>Ease Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk avslutning</translation>
     </message>
     <message>
         <source>EaseIn/Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk in-/uttoning</translation>
     </message>
     <message>
         <source>Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående</translation>
     </message>
     <message>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa</translation>
     </message>
     <message>
         <source>Both</source>
-        <translation type="unfinished"></translation>
+        <translation>Båda</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Tween Selected Guide Strokes</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa mellanbilder för markerade ledstreck</translation>
     </message>
     <message>
         <source>Tween Guide Strokes to Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa mellanbilder från ledstreck till markerade</translation>
     </message>
     <message>
         <source>Select Guide Strokes &amp;&amp; Tween Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ledstreck och mellanbildsläge</translation>
     </message>
     <message>
         <source>Guide Frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ledbildrutor:</translation>
     </message>
     <message>
         <source>Select Guide Stroke:</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ledstreck:</translation>
     </message>
     <message>
         <source>Flip Guide Stroke:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd ledstreck:</translation>
     </message>
     <message>
         <source>Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolation:</translation>
     </message>
 </context>
 <context>
     <name>VectorizerPopup</name>
     <message>
         <source>Convert-to-Vector Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för konvertering till vektor</translation>
     </message>
     <message>
         <source>The current selection is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuella markeringen är ogiltig.</translation>
     </message>
     <message>
         <source>Cannot convert to vector the current selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att konvertera den aktuella markeringen till vektor.</translation>
     </message>
     <message>
         <source>Centerline</source>
-        <translation type="unfinished"></translation>
+        <translation>Mittlinje</translation>
     </message>
     <message>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontur</translation>
     </message>
     <message>
         <source>Preserve Painted Areas</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevara målade områden</translation>
     </message>
     <message>
         <source>TLV Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>TLV-nivåer</translation>
     </message>
     <message>
         <source>Convert</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera</translation>
     </message>
     <message>
         <source>Add Border</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till kant</translation>
     </message>
     <message>
         <source>Conversion in progress: </source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertering pågår: </translation>
     </message>
     <message>
         <source>Raster Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Raster-nivåer</translation>
     </message>
     <message>
         <source>Toggle Swatch Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla förhandsgranskning av färgrutor</translation>
     </message>
     <message>
         <source>Toggle Centerlines Check</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla kontroll av mittlinjer</translation>
     </message>
     <message>
         <source>Corners</source>
-        <translation type="unfinished"></translation>
+        <translation>Hörn</translation>
     </message>
     <message>
         <source>Start:</source>
-        <translation type="unfinished"></translation>
+        <translation>Start:</translation>
     </message>
     <message>
         <source>End:</source>
-        <translation type="unfinished"></translation>
+        <translation>Slut:</translation>
     </message>
     <message>
         <source>Full color non-AA images</source>
-        <translation type="unfinished"></translation>
+        <translation>Fullfärgsbilder utan kantutjämning</translation>
     </message>
     <message>
         <source>Enhanced ink recognition</source>
-        <translation type="unfinished"></translation>
+        <translation>Förbättrad bläckigenkänning</translation>
     </message>
     <message>
         <source>Save Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara inställningar</translation>
     </message>
     <message>
         <source>Load Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in inställningar</translation>
     </message>
     <message>
         <source>Reset Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ inställningar</translation>
     </message>
     <message>
         <source>File could not be opened for read</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att öppna filen för läsning</translation>
     </message>
     <message>
         <source>File could not be opened for write</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att öppna filen för skrivning</translation>
     </message>
     <message>
         <source>Save Vectorizer Parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara vektoriseringsparametrar</translation>
     </message>
     <message>
         <source>Load Vectorizer Parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in vektoriseringsparametrar</translation>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge</translation>
     </message>
     <message>
         <source>Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Tröskelvärde</translation>
     </message>
     <message>
         <source>Accuracy</source>
