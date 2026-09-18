@@ -909,3 +909,5 @@ Detaljerade ändringsbeskrivningar hör hemma i respektive PR, commit eller öve
 **Freeplane skriptsäkerhet (2026-09-18):** Begränsningsmeddelandet för Groovy-skript är språkgranskat och publicerat. Svensk meningsbyggnad används runt Java MessageFormat-uttrycken, medan de interna valen i formatsträngen har lämnats byte-exakta efter Weblates formatvalidering.
 
 **Freeplane AI-granskning (2026-09-18):** Tre Weblate-kontroller i AI-promptpanelen är genomgångna och avfärdade som korrekta: identiska svenska texter för två kontextuellt lika ”Ny prompt”-etiketter, samt det etablerade fackordet *prompt* i AI-gränssnittet. Ingen betydelse eller användarupplevelse går förlorad genom den delade svenska terminologin.
+
+**Freeplane XML-/HTML-granskning (2026-09-18):** Samtliga sex Weblate-kontroller för tecken runt XML-taggar har granskats och åtgärdats. Svenska verktygstips bevarar nu källans struktur för `<html>`, `<u>`, `<code>`, `<ul>` och `<li>`, inklusive betydelsebärande blanksteg. Texterna har samtidigt språkgranskats i sin Freeplane-kontext.
