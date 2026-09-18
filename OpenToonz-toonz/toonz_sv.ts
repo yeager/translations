@@ -7416,15 +7416,15 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Automatically Save Non-Scene Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara automatiskt filer som inte är scenfiler</translation>
     </message>
     <message>
         <source>My Documents/OpenToonz*</source>
-        <translation type="unfinished"></translation>
+        <translation>Mina dokument/OpenToonz*</translation>
     </message>
     <message>
         <source>Desktop/OpenToonz*</source>
-        <translation type="unfinished"></translation>
+        <translation>Skrivbord/OpenToonz*</translation>
     </message>
     <message>
         <source>Stuff Folder*</source>
@@ -7432,43 +7432,43 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Custom*</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad*</translation>
     </message>
     <message>
         <source>Custom Project Path(s):</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassade projektsökvägar:</translation>
     </message>
     <message>
         <source>Advanced: Multiple paths can be separated by ** (No Spaces)</source>
-        <translation type="unfinished"></translation>
+        <translation>Avancerat: Flera sökvägar kan avgränsas med ** (utan blanksteg)</translation>
     </message>
     <message>
         <source>All imported images will use the same DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla importerade bilder använder samma DPI</translation>
     </message>
     <message>
         <source>Import/Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Import/export</translation>
     </message>
     <message>
         <source>Show Onion Skin During Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa lökhinna under uppspelning</translation>
     </message>
     <message>
         <source>Interval (Minutes):</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervall (minuter):</translation>
     </message>
     <message>
         <source>Additional Project Locations</source>
-        <translation type="unfinished"></translation>
+        <translation>Ytterligare projektplatser</translation>
     </message>
     <message>
         <source>Pixels Only:</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast pixlar:</translation>
     </message>
     <message>
         <source>Rooms*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Arbetsytor*:</translation>
     </message>
     <message>
         <source>OpenToonz can use FFmpeg for additional file formats.</source>
@@ -7488,32 +7488,33 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Please provide the path where FFmpeg is located on your computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange sökvägen till FFmpeg på datorn.</translation>
     </message>
     <message>
         <source>FFmpeg Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg till FFmpeg:</translation>
     </message>
     <message>
         <source>Number of seconds to wait for FFmpeg to complete processing the output:</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal sekunder att vänta på att FFmpeg ska avsluta bearbetningen av utdata:</translation>
     </message>
     <message>
         <source>Note: FFmpeg begins working once all images have been processed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obs: FFmpeg börjar arbeta när alla bilder har bearbetats.</translation>
     </message>
     <message>
         <source>FFmpeg Timeout:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsgräns för FFmpeg:</translation>
     </message>
     <message>
         <source>Show Startup Window when OpenToonz Starts</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa startfönster när OpenToonz startar</translation>
     </message>
     <message>
         <source>Numpad keys are assigned to the following commands.
 Is it OK to release these shortcuts?</source>
-        <translation type="unfinished"></translation>
+        <translation>Sifferblockets tangenter är tilldelade följande kommandon.
+Är det OK att frigöra dessa kortkommandon?</translation>
     </message>
     <message>
         <source>OK</source>
