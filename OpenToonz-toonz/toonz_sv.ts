@@ -5361,19 +5361,19 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Paste Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klistra in nummer</translation>
     </message>
     <message>
         <source>Toggle Current Time Indicator</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla aktuell tidsindikator</translation>
     </message>
     <message>
         <source>Vectors to Toonz Raster</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektorer till Toonz-raster</translation>
     </message>
     <message>
         <source>Replace Vectors with Simplified Vectors</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt vektorer med förenklade vektorer</translation>
     </message>
     <message>
         <source>Flip Viewer Horiontally</source>
@@ -5381,227 +5381,227 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Flip Viewer Vertically</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd visaren vertikalt</translation>
     </message>
     <message>
         <source>Fill Tool - Autopaint Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyllverktyg – måla linjer automatiskt</translation>
     </message>
     <message>
         <source>&amp;Export Soundtrack</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Exportera ljudspår</translation>
     </message>
     <message>
         <source>&amp;Touch Gesture Control</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Styrning med pekgester</translation>
     </message>
     <message>
         <source>Remove Empty Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort tomma kolumner</translation>
     </message>
     <message>
         <source>Animate Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Animeringsverktyg</translation>
     </message>
     <message>
         <source>&amp;Paste Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klistra in och infoga</translation>
     </message>
     <message>
         <source>&amp;Paste Insert Above/After</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klistra in och infoga ovanför/efter</translation>
     </message>
     <message>
         <source>&amp;Insert Above/After</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Infoga ovanför/efter</translation>
     </message>
     <message>
         <source>&amp;Fill In Empty Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fyll tomma celler</translation>
     </message>
     <message>
         <source>Toggle Cursor Size Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla kontur för markörstorlek</translation>
     </message>
     <message>
         <source>Brush Tool - Draw Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselverktyg – ritordning</translation>
     </message>
     <message>
         <source>Active Axis - All</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv axel – alla</translation>
     </message>
     <message>
         <source>&amp;Timeline</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tidslinje</translation>
     </message>
     <message>
         <source>Linear Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär interpolering</translation>
     </message>
     <message>
         <source>Speed In / Speed Out Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolering med hastighet in/hastighet ut</translation>
     </message>
     <message>
         <source>Ease In / Ease Out Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolering med mjuk in/mjuk ut</translation>
     </message>
     <message>
         <source>Ease In / Ease Out (%) Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolering med mjuk in/mjuk ut (%)</translation>
     </message>
     <message>
         <source>Exponential Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponentiell interpolering</translation>
     </message>
     <message>
         <source>Expression Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Uttrycksinterpolering</translation>
     </message>
     <message>
         <source>File Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Filinterpolering</translation>
     </message>
     <message>
         <source>Constant Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Konstant interpolering</translation>
     </message>
     <message>
         <source>Separate Colors...</source>
-        <translation type="unfinished"></translation>
+        <translation>Separera färger...</translation>
     </message>
     <message>
         <source>Flip Viewer Horizontally</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd visaren horisontellt</translation>
     </message>
     <message>
         <source>&amp;Send to Back</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skicka längst bak</translation>
     </message>
     <message>
         <source>Reset Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ zoom</translation>
     </message>
     <message>
         <source>Reset Rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ rotation</translation>
     </message>
     <message>
         <source>Reset Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ position</translation>
     </message>
     <message>
         <source>Brush Tool - Eraser (Raster option)</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselverktyg – radergummi (rasteralternativ)</translation>
     </message>
     <message>
         <source>Brush Tool - Lock Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselverktyg – lås alfa</translation>
     </message>
     <message>
         <source>http://opentoonz.readthedocs.io</source>
-        <translation type="unfinished"></translation>
+        <translation>http://opentoonz.readthedocs.io</translation>
     </message>
     <message>
         <source>&amp;Import Toonz Lip Sync File...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Importera Toonz-läppsynkroniseringsfil...</translation>
     </message>
     <message>
         <source>Export Exchange Digital Time Sheet (XDTS)</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera Exchange Digital Time Sheet (XDTS)</translation>
     </message>
     <message>
         <source>&amp;Clear Cache Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rensa cachemapp</translation>
     </message>
     <message>
         <source>Show/Hide Xsheet Camera Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj kamerakolumn i XSheet</translation>
     </message>
     <message>
         <source>&amp;Create Blank Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skapa tom ritning</translation>
     </message>
     <message>
         <source>&amp;Shift Keys Down</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Flytta nyckelbilder ned</translation>
     </message>
     <message>
         <source>&amp;Shift Keys Up</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Flytta nyckelbilder upp</translation>
     </message>
     <message>
         <source>Next Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa nyckelbild</translation>
     </message>
     <message>
         <source>Prev Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående nyckelbild</translation>
     </message>
     <message>
         <source>&amp;FX Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;FX-redigerare</translation>
     </message>
     <message>
         <source>&amp;Stop Motion Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stop motion-kontroller</translation>
     </message>
     <message>
         <source>&amp;Online Manual...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Handbok på nätet...</translation>
     </message>
     <message>
         <source>Select Next Frame Guide Stroke</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera nästa bildrutas hjälpstreck</translation>
     </message>
     <message>
         <source>Select Previous Frame Guide Stroke</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera föregående bildrutas hjälpstreck</translation>
     </message>
     <message>
         <source>Select Prev &amp;&amp; Next Frame Guide Strokes</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera föregående och nästa bildrutas hjälpstreck</translation>
     </message>
     <message>
         <source>Reset Guide Stroke Selections</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ markering av hjälpstreck</translation>
     </message>
     <message>
         <source>Tween Selected Guide Strokes</source>
-        <translation type="unfinished"></translation>
+        <translation>Mellanberäkna markerade hjälpstreck</translation>
     </message>
     <message>
         <source>Tween Guide Strokes to Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Mellanberäkna hjälpstreck till markerade</translation>
     </message>
     <message>
         <source>Select Guide Strokes &amp;&amp; Tween Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera hjälpstreck och mellanberäkningsläge</translation>
     </message>
     <message>
         <source>Capture Stop Motion Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Fånga stop motion-bildruta</translation>
     </message>
     <message>
         <source>Raise Stop Motion Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Öka opacitet för stop motion</translation>
     </message>
     <message>
         <source>Lower Stop Motion Opacity</source>
-        <translation type="unfinished"></translation>
+        <translation>Minska opacitet för stop motion</translation>
     </message>
     <message>
         <source>Toggle Stop Motion Live View</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla livevy för stop motion</translation>
     </message>
     <message>
         <source>Toggle Stop Motion Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla stop motion-zoom</translation>
     </message>
     <message>
         <source>Lower Stop Motion Level Subsampling</source>
-        <translation type="unfinished"></translation>
+        <translation>Minska undersampling för stop motion-nivå</translation>
     </message>
     <message>
         <source>Raise Stop Motion Level Subsampling</source>
