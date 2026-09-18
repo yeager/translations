@@ -1,0 +1,561 @@
+{
+  "project": "Cellarion",
+  "component": "frontend",
+  "language": "sv",
+  "units": [
+    {
+      "id": 199029343,
+      "source": [
+        "Returning = added or consumed a bottle on 2 or more separate calendar days, counted over the whole history rather than a recent window. Adding fifty bottles in one sitting is one day, not fifty."
+      ],
+      "target": [
+        "Återvändande = har lagt till eller förbrukat en flaska under minst 2 separata kalenderdagar, räknat över hela historiken i stället för ett nyligt tidsfönster. Att lägga till femtio flaskor vid samma tillfälle är en dag, inte femtio."
+      ],
+      "state": 20,
+      "context": "adminStats.retentionNote"
+    },
+    {
+      "id": 199477998,
+      "source": [
+        "Cannot import {{count}} rows in one run — the cap is {{max}}. Skip rows during review, or split the file and import the rest in a second run."
+      ],
+      "target": [
+        "Det går inte att importera {{count}} rader i en körning — gränsen är {{max}}. Hoppa över rader vid granskningen eller dela upp filen och importera resten i en andra körning."
+      ],
+      "state": 20,
+      "context": "importBottles.errors.tooManyRows"
+    },
+    {
+      "id": 199477999,
+      "source": [
+        "{{count}} rows — more than one import run can take."
+      ],
+      "target": [
+        "{{count}} rader — fler än en importkörning krävs."
+      ],
+      "state": 20,
+      "context": "importBottles.warnings.tooManyRowsTitle"
+    },
+    {
+      "id": 199478000,
+      "source": [
+        "Imports are capped at {{max}} rows per run. Split the file and import the parts one at a time (the destination choice applies per file), or skip rows during review — anything above the cap is refused at the final step."
+      ],
+      "target": [
+        "Import begränsas till {{max}} rader per körning. Dela upp filen och importera delarna en i taget (målvalet gäller per fil), eller hoppa över rader vid granskningen — allt över gränsen nekas i sista steget."
+      ],
+      "state": 20,
+      "context": "importBottles.warnings.tooManyRows"
+    },
+    {
+      "id": 199532139,
+      "source": [
+        "Users with AI access"
+      ],
+      "target": [
+        "Användare med AI-åtkomst"
+      ],
+      "state": 20,
+      "context": "adminMcp.users"
+    },
+    {
+      "id": 199532140,
+      "source": [
+        "{{oauth}} via one-click connector"
+      ],
+      "target": [
+        "{{oauth}} via anslutning med ett klick"
+      ],
+      "state": 20,
+      "context": "adminMcp.usersSplit"
+    },
+    {
+      "id": 199532141,
+      "source": [
+        "Users calling MCP"
+      ],
+      "target": [
+        "Användare som anropar MCP"
+      ],
+      "state": 20,
+      "context": "adminMcp.activeUsers"
+    },
+    {
+      "id": 199532142,
+      "source": [
+        "Last 7 days · one-click connectors only"
+      ],
+      "target": [
+        "Senaste 7 dagarna · endast anslutningar med ett klick"
+      ],
+      "state": 20,
+      "context": "adminMcp.activeUsersSub"
+    },
+    {
+      "id": 199532143,
+      "source": [
+        "User counts are distinct people, not connections — someone who reconnects four times counts once. Only one-click connector traffic counts as MCP activity: hand-minted API tokens also serve the Home Assistant REST integration, so their last-used time proves nothing about the AI surface. Per-tool usage itself is stored with no user reference at all, by design."
+      ],
+      "target": [
+        "Användarantal avser unika personer, inte anslutningar — någon som ansluter igen fyra gånger räknas en gång. Endast trafik från anslutningar med ett klick räknas som MCP-aktivitet: manuellt skapade API-token används även av Home Assistants REST-integrering, så deras senaste användning säger inget om AI-ytan. Verktygsanvändning per verktyg lagras dessutom helt utan användarreferens, avsiktligt."
+      ],
+      "state": 20,
+      "context": "adminMcp.usersNote"
+    },
+    {
+      "id": 199532144,
+      "source": [
+        "Last 7 days · {{count}} user",
+        "Last 7 days · {{count}} users"
+      ],
+      "target": [
+        "Senaste 7 dagarna · {{count}} användare",
+        "Senaste 7 dagarna · {{count}} användare"
+      ],
+      "state": 20,
+      "context": "adminMcp.writesBy"
+    },
+    {
+      "id": 199559587,
+      "source": [
+        "{{language}} (beta · {{percent, number}}%)"
+      ],
+      "target": [
+        "{{language}} (beta · {{percent, number}} %)"
+      ],
+      "state": 20,
+      "context": "settings.languageBetaOption"
+    },
+    {
+      "id": 199559588,
+      "source": [
+        "Beta languages are community translations still in progress — anything not translated yet stays in English."
+      ],
+      "target": [
+        "Betaspråk är översättningar från communityn som fortfarande pågår — allt som ännu inte är översatt visas på engelska."
+      ],
+      "state": 20,
+      "context": "settings.languageBetaHint"
+    },
+    {
+      "id": 199559589,
+      "source": [
+        "Help finish yours"
+      ],
+      "target": [
+        "Hjälp till att färdigställa ditt"
+      ],
+      "state": 20,
+      "context": "settings.languageContribute"
+    },
+    {
+      "id": 200041615,
+      "source": [
+        "Undo"
+      ],
+      "target": [
+        "Ångra"
+      ],
+      "state": 20,
+      "context": "common.undo"
+    },
+    {
+      "id": 200041616,
+      "source": [
+        "Why"
+      ],
+      "target": [
+        "Varför"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.reasonCol"
+    },
+    {
+      "id": 200041617,
+      "source": [
+        "Looks fine"
+      ],
+      "target": [
+        "Ser bra ut"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.verifyBtn"
+    },
+    {
+      "id": 200041618,
+      "source": [
+        "Record that you've checked this wine — it won't appear in this check again"
+      ],
+      "target": [
+        "Registrera att du har granskat detta vin — det visas inte i denna kontroll igen"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.verifyTitle"
+    },
+    {
+      "id": 200041619,
+      "source": [
+        "Marked \"{{name}}\" as fine — it won't reappear in this check."
+      ],
+      "target": [
+        "Markerade ”{{name}}” som korrekt — det visas inte igen i denna kontroll."
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.verified"
+    },
+    {
+      "id": 200041620,
+      "source": [
+        "Checked"
+      ],
+      "target": [
+        "Granskad"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.verifiedBadge"
+    },
+    {
+      "id": 200041621,
+      "source": [
+        "Unverify"
+      ],
+      "target": [
+        "Ångra granskning"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.unverifyBtn"
+    },
+    {
+      "id": 200041622,
+      "source": [
+        "Include already-verified"
+      ],
+      "target": [
+        "Inkludera redan granskade"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.includeVerified"
+    },
+    {
+      "id": 200041623,
+      "source": [
+        "All active checks"
+      ],
+      "target": [
+        "Alla aktiva kontroller"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.allChecks"
+    },
+    {
+      "id": 200041624,
+      "source": [
+        "{{count}} already marked fine"
+      ],
+      "target": [
+        "{{count}} redan markerade som korrekta"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.clearedNote"
+    },
+    {
+      "id": 200041625,
+      "source": [
+        "Producer in name"
+      ],
+      "target": [
+        "Producent i namn"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.reasons.producerInName"
+    },
+    {
+      "id": 200041626,
+      "source": [
+        "Dangling word"
+      ],
+      "target": [
+        "Fristående ord"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.reasons.danglingTail"
+    },
+    {
+      "id": 200041627,
+      "source": [
+        "Name = producer"
+      ],
+      "target": [
+        "Namn = producent"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.reasons.nameEqualsProducer"
+    },
+    {
+      "id": 200041628,
+      "source": [
+        "Estate name = producer"
+      ],
+      "target": [
+        "Godsnamn = producent"
+      ],
+      "state": 20,
+      "context": "admin.wines.producerInName.reasons.nameEqualsProducerEstate"
+    },
+    {
+      "id": 200108890,
+      "source": [
+        "Low confidence"
+      ],
+      "target": [
+        "Låg tillförlitlighet"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.button"
+    },
+    {
+      "id": 200108891,
+      "source": [
+        "Wines the AI couldn't say anything meaningful about — often a sign the producer or other data is wrong"
+      ],
+      "target": [
+        "Viner som AI:n inte kunde säga något meningsfullt om — ofta ett tecken på att producenten eller andra data är fel"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.buttonTitle"
+    },
+    {
+      "id": 200108892,
+      "source": [
+        "Low-confidence wines"
+      ],
+      "target": [
+        "Viner med låg tillförlitlighet"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.title"
+    },
+    {
+      "id": 200108893,
+      "source": [
+        "The enrichment model doubted these. Fix the data, or mark the row as reviewed — a re-enriched wine that is still doubtful comes back by itself."
+      ],
+      "target": [
+        "Berikningsmodellen tvivlade på dessa. Rätta data eller markera raden som granskad — ett vin som berikas igen och fortfarande är tveksamt kommer tillbaka automatiskt."
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.intro"
+    },
+    {
+      "id": 200108894,
+      "source": [
+        "{{count}} wine in doubt",
+        "{{count}} wines in doubt"
+      ],
+      "target": [
+        "{{count}} tveksamt vin",
+        "{{count}} tveksamma viner"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.found"
+    },
+    {
+      "id": 200108895,
+      "source": [
+        "{{count}} reviewed"
+      ],
+      "target": [
+        "{{count}} granskade"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.reviewedNote"
+    },
+    {
+      "id": 200108896,
+      "source": [
+        "Confidence"
+      ],
+      "target": [
+        "Tillförlitlighet"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.thresholdLabel"
+    },
+    {
+      "id": 200108897,
+      "source": [
+        "Include reviewed"
+      ],
+      "target": [
+        "Inkludera granskade"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.includeReviewed"
+    },
+    {
+      "id": 200108898,
+      "source": [
+        "Conf."
+      ],
+      "target": [
+        "Tillf."
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.confidenceCol"
+    },
+    {
+      "id": 200108899,
+      "source": [
+        "The model's doubt"
+      ],
+      "target": [
+        "Modellens tvivel"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.doubtCol"
+    },
+    {
+      "id": 200108900,
+      "source": [
+        "Producer suspect"
+      ],
+      "target": [
+        "Misstänkt producent"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.producerSuspect"
+    },
+    {
+      "id": 200108901,
+      "source": [
+        "Mark reviewed"
+      ],
+      "target": [
+        "Markera som granskad"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.reviewBtn"
+    },
+    {
+      "id": 200108902,
+      "source": [
+        "Record that you've checked this wine's data — it stays hidden until its profile is regenerated"
+      ],
+      "target": [
+        "Registrera att du har granskat uppgifterna om detta vin — det förblir dolt tills dess profil skapas om"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.reviewTitle"
+    },
+    {
+      "id": 200108903,
+      "source": [
+        "Marked \"{{name}}\" as reviewed."
+      ],
+      "target": [
+        "Markerade ”{{name}}” som granskad."
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.reviewed"
+    },
+    {
+      "id": 200108904,
+      "source": [
+        "Reviewed"
+      ],
+      "target": [
+        "Granskad"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.reviewedBadge"
+    },
+    {
+      "id": 200108905,
+      "source": [
+        "Unreview"
+      ],
+      "target": [
+        "Ångra granskning"
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.unreviewBtn"
+    },
+    {
+      "id": 200108906,
+      "source": [
+        "No wines below this confidence threshold. The registry is in good shape."
+      ],
+      "target": [
+        "Inga viner ligger under denna tillförlitlighetströskel. Registret är i gott skick."
+      ],
+      "state": 20,
+      "context": "admin.wines.lowConfidence.empty"
+    },
+    {
+      "id": 200325162,
+      "source": [
+        "Failed to load ({{status}})"
+      ],
+      "target": [
+        "Det gick inte att läsa in ({{status}})"
+      ],
+      "state": 20,
+      "context": "common.loadFailed"
+    },
+    {
+      "id": 200325163,
+      "source": [
+        "Failed ({{status}})"
+      ],
+      "target": [
+        "Misslyckades ({{status}})"
+      ],
+      "state": 20,
+      "context": "common.actionFailed"
+    },
+    {
+      "id": 200479849,
+      "source": [
+        "No tasting profile yet."
+      ],
+      "target": [
+        "Ingen smakprofil ännu."
+      ],
+      "state": 20,
+      "context": "somm.profile.none"
+    },
+    {
+      "id": 200479850,
+      "source": [
+        "Write one"
+      ],
+      "target": [
+        "Skriv en"
+      ],
+      "state": 20,
+      "context": "somm.profile.addBtn"
+    },
+    {
+      "id": 200479851,
+      "source": [
+        "AI-generated"
+      ],
+      "target": [
+        "AI-genererad"
+      ],
+      "state": 20,
+      "context": "somm.profile.aiGenerated"
+    },
+    {
+      "id": 200479852,
+      "source": [
+        "Curator-verified"
+      ],
+      "target": [
+        "Verifierad av kurator"
+      ],
+      "state": 20,
+      "context": "somm.profile.curatorVerified"
+    }
+  ]
+}
