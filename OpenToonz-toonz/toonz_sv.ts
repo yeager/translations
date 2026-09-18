@@ -6218,79 +6218,79 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Bilinear</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilinjär</translation>
     </message>
     <message>
         <source>8 bit</source>
-        <translation type="unfinished"></translation>
+        <translation>8 bitar</translation>
     </message>
     <message>
         <source>16 bit</source>
-        <translation type="unfinished"></translation>
+        <translation>16 bitar</translation>
     </message>
     <message>
         <source>Presets:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förinställningar:</translation>
     </message>
     <message>
         <source>Frame Start:</source>
-        <translation type="unfinished"></translation>
+        <translation>Startbildruta:</translation>
     </message>
     <message>
         <source>End:</source>
-        <translation type="unfinished"></translation>
+        <translation>Slut:</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Frame Rate (linked to Scene Settings):</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildfrekvens (kopplad till sceninställningar):</translation>
     </message>
     <message>
         <source>  To:</source>
-        <translation type="unfinished"></translation>
+        <translation>  Till:</translation>
     </message>
     <message>
         <source>Multiple Rendering:</source>
-        <translation type="unfinished"></translation>
+        <translation>Flera renderingar:</translation>
     </message>
     <message>
         <source>Add preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till förinställning</translation>
     </message>
     <message>
         <source>Enter the name for the output settings preset.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange namn för förinställningen av utdatainställningar.</translation>
     </message>
     <message>
         <source>Add output settings preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till förinställning för utdatainställningar</translation>
     </message>
     <message>
         <source>&lt;custom&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;anpassad&gt;</translation>
     </message>
     <message>
         <source>Remove preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort förinställning</translation>
     </message>
     <message>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning</translation>
     </message>
     <message>
         <source>Render</source>
-        <translation type="unfinished"></translation>
+        <translation>Rendera</translation>
     </message>
     <message>
         <source>Add Clapperboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till klappbräda</translation>
     </message>
     <message>
         <source>Edit Clapperboard...</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera klappbräda...</translation>
     </message>
     <message>
         <source>Save current output settings.
@@ -6301,62 +6301,73 @@ The parameters to be saved are:
 - File options
 - Resample Balance
 - Channel width</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara aktuella utdatainställningar.
+Parametrar som sparas:
+- Kamerainställningar
+- Projektmapp att spara i
+- Filformat
+- Filalternativ
+- Omsamplingsbalans
+- Kanalbredd</translation>
     </message>
 </context>
 <context>
     <name>OverwriteDialog</name>
     <message>
         <source>Warning!</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning!</translation>
     </message>
     <message>
         <source>Keep existing file</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll befintlig fil</translation>
     </message>
     <message>
         <source>Overwrite the existing file with the new one</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över den befintliga filen med den nya</translation>
     </message>
     <message>
         <source>Rename the new file adding the suffix</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn på den nya filen genom att lägga till suffixet</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>Apply to All</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa på alla</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>File %1 already exists.
 What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 finns redan.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>The suffix field is empty. Please specify a suffix.</source>
-        <translation type="unfinished"></translation>
+        <translation>Suffixfältet är tomt. Ange ett suffix.</translation>
     </message>
     <message>
         <source>File %1 exists as well; please choose a different suffix.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 finns också; välj ett annat suffix.</translation>
     </message>
     <message>
         <source>Level &quot;%1&quot; already exists.
 
 What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån ”%1” finns redan.
+
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>File &quot;%1&quot; already exists.
 What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen ”%1” finns redan.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>Overwrite</source>
@@ -6381,35 +6392,35 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Fil</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Image adjust</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildjustering</translation>
     </message>
     <message>
         <source>Upside down</source>
-        <translation type="unfinished"></translation>
+        <translation>Upp och ned</translation>
     </message>
     <message>
         <source>Capture white BG</source>
-        <translation type="unfinished"></translation>
+        <translation>Fånga vit bakgrund</translation>
     </message>
     <message>
         <source>Display</source>
-        <translation type="unfinished"></translation>
+        <translation>Visning</translation>
     </message>
     <message>
         <source>Show onion skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa lökhinna</translation>
     </message>
     <message>
         <source>Capture</source>
@@ -6417,39 +6428,39 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Next Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa nivå</translation>
     </message>
     <message>
         <source>Camera:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamera:</translation>
     </message>
     <message>
         <source>Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplösning:</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Frame:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildruta:</translation>
     </message>
     <message>
         <source>File Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtyp:</translation>
     </message>
     <message>
         <source>Save In:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>Color type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgtyp:</translation>
     </message>
     <message>
         <source>Threshold:</source>
@@ -6465,49 +6476,51 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>BG reduction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bakgrundsreducering:</translation>
     </message>
     <message>
         <source>Opacity(%):</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacitet (%):</translation>
     </message>
     <message>
         <source>No camera found</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen kamera hittades</translation>
     </message>
     <message>
         <source>No level name specified: please choose a valid level name</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget nivånamn har angetts: välj ett giltigt nivånamn</translation>
     </message>
     <message>
         <source>Folder %1 doesn&apos;t exist.
 Do you want to create it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappen %1 finns inte.
+Vill du skapa den?</translation>
     </message>
     <message>
         <source>Unable to create</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa</translation>
     </message>
     <message>
         <source>The level name specified is already used: please choose a different level name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna nivånamnet används redan: välj ett annat nivånamn.</translation>
     </message>
     <message>
         <source>The save in path specified does not match with the existing level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den angivna sökvägen att spara i matchar inte den befintliga nivån.</translation>
     </message>
     <message>
         <source>The captured image size does not match with the existing level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den fångade bildstorleken matchar inte den befintliga nivån.</translation>
     </message>
     <message>
         <source>File %1 does exist.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Failed to load %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in %1.</translation>
     </message>
     <message>
         <source>Save images as they are captured</source>
