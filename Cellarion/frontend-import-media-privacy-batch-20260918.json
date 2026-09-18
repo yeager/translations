@@ -1,0 +1,552 @@
+[
+  {
+    "id": 206259352,
+    "source": [
+      "Ploc told us exactly where {{count}} bottle(s) sit, across {{racks}} rack(s). Check the sizes below, then import."
+    ],
+    "target": [
+      "Ploc uppgav exakt var {{count}} flaska/flaskor finns, fördelade över {{racks}} hylla/hyllor. Kontrollera storlekarna nedan och importera sedan."
+    ],
+    "context": "importBottles.warnings.plocPlaced",
+    "state": 20
+  },
+  {
+    "id": 206259353,
+    "source": [
+      "{{count}} bottle(s) you have already drunk will be imported as drinking history, with their dates."
+    ],
+    "target": [
+      "{{count}} flaska/flaskor som du redan har druckit importeras som dryckeshistorik med sina datum."
+    ],
+    "context": "importBottles.warnings.plocHistory",
+    "state": 20
+  },
+  {
+    "id": 206259354,
+    "source": [
+      "No Ploc cellars file was included, so nothing could be placed in a rack. Add it and drop the files again to keep your slot positions."
+    ],
+    "target": [
+      "Ingen Ploc-vinkällarfil inkluderades, så inga flaskor kunde placeras på en hylla. Lägg till den och släpp filerna igen för att behålla platserna."
+    ],
+    "context": "importBottles.warnings.plocNoCellars",
+    "state": 20
+  },
+  {
+    "id": 206259355,
+    "source": [
+      "No Ploc purchases-and-consumptions file was included, so purchase dates, prices and drinking history are missing. Add it and drop the files again to bring them across."
+    ],
+    "target": [
+      "Ingen Ploc-fil för inköp och konsumtion inkluderades, så inköpsdatum, priser och dryckeshistorik saknas. Lägg till den och släpp filerna igen för att få med dem."
+    ],
+    "context": "importBottles.warnings.plocNoHistory",
+    "state": 20
+  },
+  {
+    "id": 206259356,
+    "source": [
+      "Ploc does not say what scale its ratings use. We read them as out of {{scale}} — check a few after importing."
+    ],
+    "target": [
+      "Ploc anger inte vilken skala som används för betyg. Vi läser dem som av {{scale}} – kontrollera några efter importen."
+    ],
+    "context": "importBottles.warnings.plocRatingScale",
+    "state": 20
+  },
+  {
+    "id": 206259357,
+    "source": [
+      "Ploc does not say whether its dates are day/month or month/day, and nothing in your file settles it. We read them as day/month."
+    ],
+    "target": [
+      "Ploc anger inte om datumen är dag/månad eller månad/dag, och filen ger inget svar. Vi läser dem som dag/månad."
+    ],
+    "context": "importBottles.warnings.plocDateOrder",
+    "state": 20
+  },
+  {
+    "id": 206259358,
+    "source": [
+      "\"{{wine}}\" has {{slots}} slot(s) recorded but only {{stock}} bottle(s) in stock, so the extra slots were left empty."
+    ],
+    "target": [
+      "”{{wine}}” har {{slots}} plats/platser registrerade men bara {{stock}} flaska/flaskor i lager, så de extra platserna lämnades tomma."
+    ],
+    "context": "importBottles.warnings.plocExtraSlots",
+    "state": 20
+  },
+  {
+    "id": 206259359,
+    "source": [
+      "\"{{rack}}\" is {{rows}} x {{cols}}, larger than a Cellarion rack allows (20 x 20). Its bottles will be imported without a position."
+    ],
+    "target": [
+      "”{{rack}}” är {{rows}} × {{cols}}, större än en Cellarion-hylla tillåter (20 × 20). Flaskorna importeras utan position."
+    ],
+    "context": "importBottles.warnings.plocRackTooBig",
+    "state": 20
+  },
+  {
+    "id": 206259360,
+    "source": [
+      "{{count}} history entr(y/ies) refer to wines that are not in the wines file, and were skipped."
+    ],
+    "target": [
+      "{{count}} historikpost/historikposter avser viner som inte finns i vinfilen och hoppades över."
+    ],
+    "context": "importBottles.warnings.plocUnmatchedHistory",
+    "state": 20
+  },
+  {
+    "id": 206259361,
+    "source": [
+      "Ploc"
+    ],
+    "target": [
+      "Ploc"
+    ],
+    "context": "importBottles.upload.plocTitle",
+    "state": 20
+  },
+  {
+    "id": 206259362,
+    "source": [
+      "Ploc exports several files — select them all at once. The wines file carries your bottles, the cellars file their exact slot positions, and the purchases-and-consumptions file your purchase dates, prices and drinking history."
+    ],
+    "target": [
+      "Ploc exporterar flera filer – välj alla samtidigt. Vinfilen innehåller dina flaskor, vinkällarfilen deras exakta platser och filen för inköp och konsumtion innehåller inköpsdatum, priser och dryckeshistorik."
+    ],
+    "context": "importBottles.upload.plocDesc",
+    "state": 20
+  },
+  {
+    "id": 206259363,
+    "source": [
+      "Drop your file here or click to browse — select several at once for a Ploc export"
+    ],
+    "target": [
+      "Släpp filen här eller klicka för att bläddra – välj flera samtidigt för en Ploc-export"
+    ],
+    "context": "importBottles.upload.dropHereMulti",
+    "state": 20
+  },
+  {
+    "id": 206259364,
+    "source": [
+      "For every imported bottle"
+    ],
+    "target": [
+      "För varje importerad flaska"
+    ],
+    "context": "importBottles.wholeImport.title",
+    "state": 20
+  },
+  {
+    "id": 206259365,
+    "source": [
+      "Optional — typed once, applied to every bottle in this import. Rows that carry their own note in the file keep it."
+    ],
+    "target": [
+      "Valfritt – skrivs en gång och tillämpas på varje flaska i importen. Rader med egen anteckning i filen behåller den."
+    ],
+    "context": "importBottles.wholeImport.hint",
+    "state": 20
+  },
+  {
+    "id": 206259366,
+    "source": [
+      "Comment"
+    ],
+    "target": [
+      "Kommentar"
+    ],
+    "context": "importBottles.wholeImport.commentLabel",
+    "state": 20
+  },
+  {
+    "id": 206259367,
+    "source": [
+      "e.g. Moved over from my old cellar app"
+    ],
+    "target": [
+      "t.ex. Flyttad från min gamla vinkällarapp"
+    ],
+    "context": "importBottles.wholeImport.commentPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206259368,
+    "source": [
+      "Occasion"
+    ],
+    "target": [
+      "Tillfälle"
+    ],
+    "context": "importBottles.wholeImport.occasionLabel",
+    "state": 20
+  },
+  {
+    "id": 206259369,
+    "source": [
+      "e.g. Estate auction, March 2026"
+    ],
+    "target": [
+      "t.ex. Godsförsäljning, mars 2026"
+    ],
+    "context": "importBottles.wholeImport.occasionPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206259370,
+    "source": [
+      "Bin codes are written as"
+    ],
+    "target": [
+      "Fackkoder skrivs som"
+    ],
+    "context": "importBottles.rackAutoMap.binOrderLabel",
+    "state": 20
+  },
+  {
+    "id": 206259371,
+    "source": [
+      "Row, Column (2,7 = row 2, column 7)"
+    ],
+    "target": [
+      "Rad, kolumn (2,7 = rad 2, kolumn 7)"
+    ],
+    "context": "importBottles.rackAutoMap.binOrderRowCol",
+    "state": 20
+  },
+  {
+    "id": 206259372,
+    "source": [
+      "Column, Row (2,7 = column 2, row 7)"
+    ],
+    "target": [
+      "Kolumn, rad (2,7 = kolumn 2, rad 7)"
+    ],
+    "context": "importBottles.rackAutoMap.binOrderColRow",
+    "state": 20
+  },
+  {
+    "id": 206259373,
+    "source": [
+      "no vintage in file"
+    ],
+    "target": [
+      "ingen årgång i filen"
+    ],
+    "context": "importBottles.preview.vintageMissing",
+    "state": 20
+  },
+  {
+    "id": 206259374,
+    "source": [
+      "Vintage year for this row"
+    ],
+    "target": [
+      "Årgång för den här raden"
+    ],
+    "context": "importBottles.preview.vintageInputAria",
+    "state": 20
+  },
+  {
+    "id": 206259375,
+    "source": [
+      "Give each flagged row a four-digit year, or leave it empty for NV."
+    ],
+    "target": [
+      "Ange ett fyrsiffrigt år för varje flaggad rad eller lämna tomt för NV."
+    ],
+    "context": "importBottles.preview.vintageInvalid",
+    "state": 20
+  },
+  {
+    "id": 206259376,
+    "source": [
+      "Resume matching — {{remaining}} of {{total}} bottles left"
+    ],
+    "target": [
+      "Fortsätt matchningen – {{remaining}} av {{total}} flaskor återstår"
+    ],
+    "context": "importBottles.validate.resumeMatchButton",
+    "state": 20
+  },
+  {
+    "id": 206259377,
+    "source": [
+      "The first {{done}} bottles were already matched and will be kept — resuming won't re-run them or re-spend the AI budget."
+    ],
+    "target": [
+      "De första {{done}} flaskorna har redan matchats och behålls – när du fortsätter körs de inte igen och AI-budgeten används inte på nytt."
+    ],
+    "context": "importBottles.validate.resumeMatchHint",
+    "state": 20
+  },
+  {
+    "id": 206259378,
+    "source": [
+      "The bottles matched before the error have been kept. Resume matching to continue from where it stopped."
+    ],
+    "target": [
+      "Flaskorna som matchades före felet har behållits. Fortsätt matchningen från där den avbröts."
+    ],
+    "context": "importBottles.validate.partialKept",
+    "state": 20
+  },
+  {
+    "id": 206259379,
+    "source": [
+      "New Wines"
+    ],
+    "target": [
+      "Nya viner"
+    ],
+    "context": "importBottles.review.newWines",
+    "state": 20
+  },
+  {
+    "id": 206259380,
+    "source": [
+      "New — added on import"
+    ],
+    "target": [
+      "Nytt – läggs till vid import"
+    ],
+    "context": "importBottles.review.willCreateBadge",
+    "state": 20
+  },
+  {
+    "id": 206259381,
+    "source": [
+      "Create as new wine"
+    ],
+    "target": [
+      "Skapa som nytt vin"
+    ],
+    "context": "importBottles.review.keepCreate",
+    "state": 20
+  },
+  {
+    "id": 206259382,
+    "source": [
+      "{{n}} wine(s) couldn't be fully identified from your file — the bottles are in your cellar, and our curators will complete the details."
+    ],
+    "target": [
+      "{{n}} vin/viner kunde inte identifieras helt från filen – flaskorna finns i din vinkällare och våra registerförvaltare kompletterar uppgifterna"
+    ],
+    "context": "importBottles.done.pendingIdentityNote",
+    "state": 20
+  },
+  {
+    "id": 206259383,
+    "source": [
+      "Show the bottles in this group"
+    ],
+    "target": [
+      "Visa flaskorna i den här gruppen"
+    ],
+    "context": "bottleCard.expandGroup",
+    "state": 20
+  },
+  {
+    "id": 206259384,
+    "source": [
+      "Reserved"
+    ],
+    "target": [
+      "Reserverad"
+    ],
+    "context": "bottleCard.reserved",
+    "state": 20
+  },
+  {
+    "id": 206259385,
+    "source": [
+      "Reserved · {{year}}"
+    ],
+    "target": [
+      "Reserverad · {{year}}"
+    ],
+    "context": "bottleCard.reservedUntil",
+    "state": 20
+  },
+  {
+    "id": 206259386,
+    "source": [
+      "reserved"
+    ],
+    "target": [
+      "reserverad"
+    ],
+    "context": "rackView.reservedAria",
+    "state": 20
+  },
+  {
+    "id": 206259387,
+    "source": [
+      "Queued"
+    ],
+    "target": [
+      "I kö"
+    ],
+    "context": "imageGallery.state.queued",
+    "state": 20
+  },
+  {
+    "id": 206259388,
+    "source": [
+      "Processing…"
+    ],
+    "target": [
+      "Bearbetar …"
+    ],
+    "context": "imageGallery.state.processing",
+    "state": 20
+  },
+  {
+    "id": 206259389,
+    "source": [
+      "Awaiting review"
+    ],
+    "target": [
+      "Väntar på granskning"
+    ],
+    "context": "imageGallery.state.review",
+    "state": 20
+  },
+  {
+    "id": 206259390,
+    "source": [
+      "Published"
+    ],
+    "target": [
+      "Publicerad"
+    ],
+    "context": "imageGallery.state.published",
+    "state": 20
+  },
+  {
+    "id": 206259391,
+    "source": [
+      "Keep the background"
+    ],
+    "target": [
+      "Behåll bakgrunden"
+    ],
+    "context": "imageUpload.keepBackground",
+    "state": 20
+  },
+  {
+    "id": 206259392,
+    "source": [
+      "For a photo of just the label, or a product picture. Background removal expects a whole bottle and cuts everything else away."
+    ],
+    "target": [
+      "För ett foto av bara etiketten eller en produktbild. Bakgrundsborttagning förutsätter en hel flaska och klipper bort allt annat."
+    ],
+    "context": "imageUpload.keepBackgroundHint",
+    "state": 20
+  },
+  {
+    "id": 206259393,
+    "source": [
+      "This member keeps their profile private."
+    ],
+    "target": [
+      "Den här medlemmen har en privat profil."
+    ],
+    "context": "userProfile.privateProfile",
+    "state": 20
+  },
+  {
+    "id": 206259394,
+    "source": [
+      "Our response"
+    ],
+    "target": [
+      "Vårt svar"
+    ],
+    "context": "support.reportResponse",
+    "state": 20
+  },
+  {
+    "id": 206259395,
+    "source": [
+      "Reviewed — thanks for the report."
+    ],
+    "target": [
+      "Granskat – tack för rapporten."
+    ],
+    "context": "support.reportReviewed",
+    "state": 20
+  },
+  {
+    "id": 206259396,
+    "source": [
+      "Columns"
+    ],
+    "target": [
+      "Kolumner"
+    ],
+    "context": "analytics.columns",
+    "state": 20
+  },
+  {
+    "id": 206259397,
+    "source": [
+      "Export CSV"
+    ],
+    "target": [
+      "Exportera CSV"
+    ],
+    "context": "analytics.exportCsv",
+    "state": 20
+  },
+  {
+    "id": 206259398,
+    "source": [
+      "Exporting…"
+    ],
+    "target": [
+      "Exporterar …"
+    ],
+    "context": "analytics.exporting",
+    "state": 20
+  },
+  {
+    "id": 206259399,
+    "source": [
+      "Export failed — try again"
+    ],
+    "target": [
+      "Exporten misslyckades – försök igen"
+    ],
+    "context": "analytics.exportFailed",
+    "state": 20
+  },
+  {
+    "id": 206259400,
+    "source": [
+      "Could not reach the server"
+    ],
+    "target": [
+      "Det gick inte att nå servern"
+    ],
+    "context": "analytics.networkError",
+    "state": 20
+  },
+  {
+    "id": 206259401,
+    "source": [
+      "Loading…"
+    ],
+    "target": [
+      "Läser in …"
+    ],
+    "context": "analytics.loading",
+    "state": 20
+  }
+]
