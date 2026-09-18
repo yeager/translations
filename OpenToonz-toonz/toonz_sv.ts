@@ -7696,39 +7696,39 @@ om båda är möjliga när filsökvägen kodas.</translation>
     </message>
     <message>
         <source>Path Alias Priority:</source>
-        <translation type="unfinished"></translation>
+        <translation>Prioritet för sökvägsalias:</translation>
     </message>
     <message>
         <source>Replace Vectors with Simplified Vectors Command</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandot Ersätt vektorer med förenklade vektorer</translation>
     </message>
     <message>
         <source>Dropdown Shortcuts:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kortkommandon för listruta:</translation>
     </message>
     <message>
         <source>Show Raster Images Darken Blended</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa blandade rasterbilder mörkare</translation>
     </message>
     <message>
         <source>Antialiased Region Boundaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Kantutjämnade områdesgränser</translation>
     </message>
     <message>
         <source>Down Arrow at End of Level Strip Creates a New Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedåtpil vid slutet av nivåremsan skapar en ny bildruta</translation>
     </message>
     <message>
         <source>Expand Function Editor Header to Match Xsheet Toolbar Height*</source>
-        <translation type="unfinished"></translation>
+        <translation>Utöka funktionsredigerarens rubrik så att den matchar XSheet-verktygsfältets höjd*</translation>
     </message>
     <message>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Färger</translation>
     </message>
     <message>
         <source>Theme:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema:</translation>
     </message>
     <message>
         <source>Weight *:</source>
@@ -7737,20 +7737,22 @@ om båda är möjliga när filsökvägen kodas.</translation>
     <message>
         <source>OpenToonz can use FFmpeg for additional file formats.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>OpenToonz kan använda FFmpeg för ytterligare filformat.
+</translation>
     </message>
     <message>
         <source>FFmpeg is not bundled with OpenToonz.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>FFmpeg medföljer inte i OpenToonz.
+</translation>
     </message>
     <message>
         <source>Column Header Layout*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Layout för kolumnrubriker*:</translation>
     </message>
     <message>
         <source>Color Calibration using 3D Look-up Table*</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgkalibrering med 3D-uppslagstabell*</translation>
     </message>
     <message>
         <source>Enable auto-stretch frame</source>
@@ -7758,92 +7760,93 @@ om båda är möjliga när filsökvägen kodas.</translation>
     </message>
     <message>
         <source>Show Cursor Size Outlines</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa konturer för markörstorlek</translation>
     </message>
     <message>
         <source>Check for the Latest Version of OpenToonz on Launch</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök efter den senaste versionen av OpenToonz vid start</translation>
     </message>
     <message>
         <source>Choosing this option will set initial location of all file browsers to $scenefolder.
 Also the initial output destination for new scenes will be set to $scenefolder as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du väljer detta alternativ anges startplatsen för alla filbläddrare till $scenefolder.
+Även den första utdatasökvägen för nya scener anges till $scenefolder.</translation>
     </message>
     <message>
         <source>Graph Editor Opens in Popup</source>
-        <translation type="unfinished"></translation>
+        <translation>Grafredigeraren öppnas i ett popupfönster</translation>
     </message>
     <message>
         <source>Spreadsheet Opens in Popup</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalkylbladet öppnas i ett popupfönster</translation>
     </message>
     <message>
         <source>Toggle Between Graph Editor and Spreadsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla mellan grafredigeraren och kalkylbladet</translation>
     </message>
     <message>
         <source>Function Editor*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Funktionsredigerare*:</translation>
     </message>
     <message>
         <source>3DLUT File for [%1]*:</source>
-        <translation type="unfinished"></translation>
+        <translation>3D-LUT-fil för [%1]*:</translation>
     </message>
     <message>
         <source>Cursor Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Marköralternativ</translation>
     </message>
     <message>
         <source>Basic Cursor Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundläggande markörtyp:</translation>
     </message>
     <message>
         <source>Cursor Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Markörstil:</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Liten</translation>
     </message>
     <message>
         <source>Large</source>
-        <translation type="unfinished"></translation>
+        <translation>Stor</translation>
     </message>
     <message>
         <source>Crosshair</source>
-        <translation type="unfinished"></translation>
+        <translation>Hårkors</translation>
     </message>
     <message>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>Left-Handed</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänsterhänt</translation>
     </message>
     <message>
         <source>Simple</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkel</translation>
     </message>
     <message>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassisk</translation>
     </message>
     <message>
         <source>Classic-revised</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassisk, reviderad</translation>
     </message>
     <message>
         <source>Compact</source>
-        <translation type="unfinished"></translation>
+        <translation>Kompakt</translation>
     </message>
     <message>
         <source>Saving</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparar</translation>
     </message>
     <message>
         <source>Use Onion Skin Colors for Reference Drawings of Shift and Trace</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd lökhinnefärger för referensritningar i Förskjut och spåra</translation>
     </message>
     <message>
         <source>Tablet Settings</source>
@@ -7851,23 +7854,23 @@ Also the initial output destination for new scenes will be set to $scenefolder a
     </message>
     <message>
         <source>Enable Windows Ink Support* (EXPERIMENTAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera stöd för Windows Ink* (EXPERIMENTELLT)</translation>
     </message>
     <message>
         <source>Constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Konstant</translation>
     </message>
     <message>
         <source>Exponential</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponentiell</translation>
     </message>
     <message>
         <source>Expression </source>
-        <translation type="unfinished"></translation>
+        <translation>Uttryck </translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Fil</translation>
     </message>
     <message>
         <source>Style*:</source>
