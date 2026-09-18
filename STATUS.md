@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**Accrescent (2026-09-18):** Aktuell release `0.28.1` (2025-11-10) bekräftad. Samtliga 30 svenska luckor har kontextgranskats lokalt för säkra appinstallationer, paketverifiering, nätverksfel och arkivåterställning. Hosted Weblate avvisar publiceringen med HTTP 403. Officiell export och färdig API-batch finns i `Accrescent/`; publicera när skrivbehörigheten aktiveras.
+
 **Barcode Buddy (2026-09-18):** Aktuell release `v1.9.0.0` (2026-09-03) bekräftad. Hela svenska komponenten med 32 markerade strängar är kontextgranskad lokalt (streckkodsuppslag, lager, produktförbrukning och logg). Hosted Weblate avvisar publiceringen med HTTP 403. Officiell export och färdig API-batch finns i `Barcode-Buddy/`; publicera när skrivbehörigheten aktiveras.
 
 **ADB Explorer (2026-09-18):** Aktuell release `v1.0.26092` (2026-09-17) bekräftad. Första kontextgranskade batchen har publicerat alla **106** tidigare tomma svenska strängar för ADB-verifiering, integritet, emulatorer, sökning, arkiv, konfliktlösning och APK-säkerhetskopior. Svenska resurser har granskats i sin helhet: **0** tomma och **0** poster som behöver redigeras. Weblate räknar 553/557 översatta eftersom fyra tekniska, källidentiska poster inte räknas som översättning. Fem kontextgranskade batcher täcker ADB-anslutning, hämta/skicka, emulatorhantering, konfliktlösning, enhetsstatus, batteri, parkoppling, lagring och inställningar. Officiell RESX-export: `ADB-Explorer/Resources.sv.resx` (XML-validerad).
