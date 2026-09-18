@@ -11761,169 +11761,169 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Alpha Matting</source>
-        <translation type="unfinished"></translation>
+        <translation>Alfamatting</translation>
     </message>
     <message>
         <source>Main</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvud</translation>
     </message>
     <message>
         <source>Sub1</source>
-        <translation type="unfinished"></translation>
+        <translation>Under1</translation>
     </message>
     <message>
         <source>Sub2</source>
-        <translation type="unfinished"></translation>
+        <translation>Under2</translation>
     </message>
     <message>
         <source>Sub3</source>
-        <translation type="unfinished"></translation>
+        <translation>Under3</translation>
     </message>
     <message>
         <source>Pick Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj färg</translation>
     </message>
     <message>
         <source>Show Mask</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa mask</translation>
     </message>
     <message>
         <source>Show Alpha</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa alfa</translation>
     </message>
     <message>
         <source>Preview Frame:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsgranska bildruta:</translation>
     </message>
     <message>
         <source>Paper Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pappersfärg:</translation>
     </message>
     <message>
         <source>Main Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvudfärg:</translation>
     </message>
     <message>
         <source>Sub Color 1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Underfärg 1:</translation>
     </message>
     <message>
         <source>Sub Color 2:</source>
-        <translation type="unfinished"></translation>
+        <translation>Underfärg 2:</translation>
     </message>
     <message>
         <source>Sub Adjust:</source>
-        <translation type="unfinished"></translation>
+        <translation>Underjustering:</translation>
     </message>
     <message>
         <source>Border Smooth:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kantutjämning:</translation>
     </message>
     <message>
         <source>Mask Threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Masktröskelvärde:</translation>
     </message>
     <message>
         <source>Mask Radius:</source>
-        <translation type="unfinished"></translation>
+        <translation>Maskradie:</translation>
     </message>
     <message>
         <source>Start:</source>
-        <translation type="unfinished"></translation>
+        <translation>Start:</translation>
     </message>
     <message>
         <source>End:</source>
-        <translation type="unfinished"></translation>
+        <translation>Slut:</translation>
     </message>
     <message>
         <source>Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Format:</translation>
     </message>
     <message>
         <source>Save in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>File Suffix:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filsuffix:</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Separate by colors ... </source>
-        <translation type="unfinished"></translation>
+        <translation>Separera efter färg … </translation>
     </message>
     <message>
         <source>Separate 1 Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Separera 1 nivå</translation>
     </message>
     <message>
         <source>Separate %1 Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Separera %1 nivåer</translation>
     </message>
     <message>
         <source>Critical</source>
-        <translation type="unfinished"></translation>
+        <translation>Kritiskt</translation>
     </message>
     <message>
         <source>Failed to access the destination folder!</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att komma åt målmappen!</translation>
     </message>
     <message>
         <source>Separating %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Separerar %1</translation>
     </message>
     <message>
         <source>Converting level %1 of %2: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Konverterar nivå %1 av %2: %3</translation>
     </message>
 </context>
 <context>
     <name>SeparateSwatch</name>
     <message>
         <source>Sub Color 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Underfärg 3</translation>
     </message>
     <message>
         <source>Original</source>
-        <translation type="unfinished"></translation>
+        <translation>Original</translation>
     </message>
     <message>
         <source>Main Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvudfärg</translation>
     </message>
     <message>
         <source>Sub Color 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Underfärg 1</translation>
     </message>
     <message>
         <source>Sub Color 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Underfärg 2</translation>
     </message>
 </context>
 <context>
     <name>ShortcutPopup</name>
     <message>
         <source>Configure Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera kortkommandon</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Couldn&apos;t find any matching command.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att hitta något matchande kommando.</translation>
     </message>
     <message>
         <source>Export Current Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera aktuella kortkommandon</translation>
     </message>
     <message>
         <source>Delete Current Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort aktuell förinställning</translation>
     </message>
     <message>
         <source>Save Current Shortcuts as New Preset</source>
