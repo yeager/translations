@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**phpMyAdmin 5.2 (2026-09-18):** Aktuell release 5.2.3. Svenska katalogen är 3 430/3 436 med 0 fuzzy efter 36 kontextgranskade rättningar för frågor, anslutningsfel, sortering, cache, replikering och extern HTML-transformering. Officiell export arkiveras i `phpMyAdmin-5.2/`.
+
 ## Läs detta först
 
 - **Klar:** 100 % svensk, publicerad och verifierad i den officiella kanalen.
