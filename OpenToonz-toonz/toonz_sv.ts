@@ -8922,83 +8922,83 @@ Vissa nivåer har inte lästs in eftersom deras version inte stöds</translation
     </message>
     <message>
         <source>Match lines can be applied to Toonz raster levels only.</source>
-        <translation type="unfinished"></translation>
+        <translation>Passningslinjer kan endast tillämpas på Toonz-raster-nivåer.</translation>
     </message>
     <message>
         <source>The style index you specified is not available in the palette of the destination level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna stilindexet är inte tillgängligt i mål nivåns palett.</translation>
     </message>
     <message>
         <source>The style index range you specified is not valid: please separate values with a comma (e.g. 1,2,5) or with a dash (e.g. 4-7 will refer to indexes 4, 5, 6 and 7).</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna stilindexintervallet är inte giltigt: separera värden med kommatecken (t.ex. 1,2,5) eller med bindestreck (t.ex. 4-7 avser indexen 4, 5, 6 och 7).</translation>
     </message>
     <message>
         <source>The frame range you specified is not valid: please separate values with a comma (e.g. 1,2,5) or with a dash (e.g. 4-7 will refer to frames 4, 5, 6 and 7).</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna bildruteintervallet är inte giltigt: separera värden med kommatecken (t.ex. 1,2,5) eller med bindestreck (t.ex. 4-7 avser bildrutorna 4, 5, 6 och 7).</translation>
     </message>
     <message>
         <source>No drawing is available in the frame range you specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen ritning är tillgänglig i det angivna bildruteintervallet.</translation>
     </message>
     <message>
         <source>It is not possible to perform a merging involving more than one level per column.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att utföra en sammanslagning med fler än en nivå per kolumn.</translation>
     </message>
     <message>
         <source>Only raster levels can be merged to a raster level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast raster-nivåer kan sammanfogas till en raster-nivå.</translation>
     </message>
     <message>
         <source>Only vector levels can be merged to a vector level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast vektornivåer kan sammanfogas till en vektornivå.</translation>
     </message>
     <message>
         <source>It is possible to merge only Toonz vector levels or standard raster levels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast Toonz-vektornivåer eller vanliga raster-nivåer kan sammanfogas.</translation>
     </message>
     <message>
         <source>It is not possible to display the file %1: no player associated with its format</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att visa filen %1: ingen spelare är associerad med formatet</translation>
     </message>
     <message>
         <source>The specified name is already assigned to the %1 file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna namnet är redan tilldelat filen %1.</translation>
     </message>
     <message>
         <source>It is not possible to rename the %1 file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att byta namn på filen %1.</translation>
     </message>
     <message>
         <source>It is not possible to copy the %1 file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att kopiera filen %1.</translation>
     </message>
     <message>
         <source>It is not possible to save the curve.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spara kurvan.</translation>
     </message>
     <message>
         <source>It is not possible to load the curve.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att läsa in kurvan.</translation>
     </message>
     <message>
         <source>It is not possible to export data.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att exportera data.</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera</translation>
     </message>
     <message>
         <source>LineTest Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Fånga linjetest</translation>
     </message>
     <message>
         <source>It is not possible to save images in camera stand view.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spara bilder i kamerastativsvyn.</translation>
     </message>
     <message>
         <source>The preview images are not ready yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisningsbilderna är inte klara än.</translation>
     </message>
     <message>
         <source>A convertion task is in progress! wait until it stops or cancel it</source>
