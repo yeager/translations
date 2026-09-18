@@ -1457,7 +1457,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="251"/>
         <source>Device Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhetsinställningar</translation>
     </message>
 </context>
 <context>
@@ -1703,7 +1703,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/PluginBrowserPage.qml" line="134"/>
         <source>Vendor</source>
-        <translation type="unfinished"></translation>
+        <translation>Leverantör</translation>
     </message>
 </context>
 <context>
@@ -1754,7 +1754,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/PluginParameterListView.qml" line="62"/>
         <source>Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>Utlösare</translation>
     </message>
 </context>
 <context>
@@ -3427,7 +3427,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/arranger/ScaleObjectView.qml" line="72"/>
         <source>Edit Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera skala</translation>
     </message>
 </context>
 <context>
@@ -3435,27 +3435,27 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/ScaleSelectorDialog.qml" line="22"/>
         <source>Edit Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera skala</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ScaleSelectorDialog.qml" line="32"/>
         <source>Root Key:</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundton:</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ScaleSelectorDialog.qml" line="75"/>
         <source>Scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skala:</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ScaleSelectorDialog.qml" line="96"/>
         <source>Exotic Scales</source>
-        <translation type="unfinished"></translation>
+        <translation>Exotiska skalor</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ScaleSelectorDialog.qml" line="115"/>
         <source>Notes in Scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Toner i skalan:</translation>
     </message>
 </context>
 <context>
@@ -3650,12 +3650,12 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoMapArranger.qml" line="22"/>
         <source>Create Time Signature Object</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa taktartsobjekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoMapArranger.qml" line="22"/>
         <source>Create Tempo Object</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa tempoobjekt</translation>
     </message>
 </context>
 <context>
@@ -3946,7 +3946,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/TracklistDropArea.qml" line="13"/>
         <source>Drop files and plugins here</source>
-        <translation type="unfinished"></translation>
+        <translation>Släpp filer och insticksprogram här</translation>
     </message>
 </context>
 <context>
@@ -4058,7 +4058,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/WaveformViewer.qml" line="35"/>
         <source>Master Output Visualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvudutgångens visualisering</translation>
     </message>
 </context>
 <context>
@@ -4066,7 +4066,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/basic/ZrythmFilePicker.qml" line="14"/>
         <source>Browse</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläddra</translation>
     </message>
 </context>
 <context>
@@ -16385,37 +16385,37 @@ Stöd projektet på https://liberapay.com/Zrythm
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="297"/>
         <source>Loading project file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in projektfil…</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="349"/>
         <source>Creating project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar projekt…</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="367"/>
         <source>Deserializing project data...</source>
-        <translation type="unfinished"></translation>
+        <translation>Avserialiserar projektdata…</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="378"/>
         <source>Setting up project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurerar projekt…</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="412"/>
         <source>Rebuilding audio graph...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bygger om ljudgraf…</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="419"/>
         <source>Starting engine...</source>
-        <translation type="unfinished"></translation>
+        <translation>Startar motor…</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="431"/>
         <source>Project loaded</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektet har lästs in</translation>
     </message>
 </context>
 <context>
@@ -16424,7 +16424,7 @@ Stöd projektet på https://liberapay.com/Zrythm
         <location filename="../src/gui/backend/project_templates_model.cpp" line="25"/>
         <location filename="../src/gui/backend/project_templates_model.cpp" line="65"/>
         <source>Blank Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Tomt projekt</translation>
     </message>
 </context>
 <context>
@@ -16432,27 +16432,27 @@ Stöd projektet på https://liberapay.com/Zrythm
     <message>
         <location filename="../src/gui/backend/zrythm_application.cpp" line="396"/>
         <source>Open project</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna projekt</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/zrythm_application.cpp" line="397"/>
         <source>Create new project</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nytt projekt</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/zrythm_application.cpp" line="399"/>
         <source>Create new project with template</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nytt projekt från mall</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/zrythm_application.cpp" line="402"/>
         <source>Use dummy audio/midi engine</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd fejkad ljud-/MIDI-motor</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/zrythm_application.cpp" line="407"/>
         <source>Project file (.zpj) or project directory to open</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektfil (.zpj) eller projektkatalog att öppna</translation>
     </message>
 </context>
 <context>
@@ -16460,7 +16460,7 @@ Stöd projektet på https://liberapay.com/Zrythm
     <message>
         <location filename="../src/plugins/clap_plugin.cpp" line="321"/>
         <source>Failed to load CLAP plugin from %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in CLAP-insticksprogrammet från %1</translation>
     </message>
 </context>
 <context>
@@ -16468,7 +16468,7 @@ Stöd projektet på https://liberapay.com/Zrythm
     <message>
         <location filename="../src/plugins/plugin_scan_manager.cpp" line="132"/>
         <source>Scanning...</source>
-        <translation type="unfinished"></translation>
+        <translation>Söker igenom…</translation>
     </message>
 </context>
 <context>
