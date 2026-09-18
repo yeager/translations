@@ -1,0 +1,556 @@
+[
+  {
+    "id": 200480800,
+    "source": [
+      "{{count}} bottle",
+      "{{count}} bottles"
+    ],
+    "target": [
+      "{{count}} flaska",
+      "{{count}} flaskor"
+    ],
+    "context": "admin.wines.canonicalCollisions.bottleCount",
+    "state": 20
+  },
+  {
+    "id": 200480801,
+    "source": [
+      "Failed to load collisions"
+    ],
+    "target": [
+      "Det gick inte att läsa in kollisionerna"
+    ],
+    "context": "admin.wines.canonicalCollisions.loadError",
+    "state": 20
+  },
+  {
+    "id": 200480802,
+    "source": [
+      "Failed to record the dismissal"
+    ],
+    "target": [
+      "Det gick inte att registrera avfärdandet"
+    ],
+    "context": "admin.wines.canonicalCollisions.dismissError",
+    "state": 20
+  },
+  {
+    "id": 200480803,
+    "source": [
+      "To merge a set: open \"Find duplicates\" and use the golden-record merge — it lets you pick the surviving value per field."
+    ],
+    "target": [
+      "Om du vill slå samman en uppsättning: öppna ”Hitta dubbletter” och använd sammanslagningen med huvudpost – där väljer du vilket värde som ska behållas för varje fält."
+    ],
+    "context": "admin.wines.canonicalCollisions.mergeHint",
+    "state": 20
+  },
+  {
+    "id": 200484441,
+    "source": [
+      "Chateauneuf du Pape, Châteauneuf du Pape"
+    ],
+    "target": [
+      "Chateauneuf du Pape, Châteauneuf du Pape"
+    ],
+    "context": "admin.taxonomy.appellationSynonymsPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 200484442,
+    "source": [
+      "Review unmatched"
+    ],
+    "target": [
+      "Granska omatchade"
+    ],
+    "context": "admin.taxonomy.unmatched.button",
+    "state": 20
+  },
+  {
+    "id": 200484443,
+    "source": [
+      "Appellation strings on wines that no taxonomy entry covers yet"
+    ],
+    "target": [
+      "Ursprungsbeteckningar på viner som ännu inte omfattas av någon taxonomipost"
+    ],
+    "context": "admin.taxonomy.unmatched.buttonTitle",
+    "state": 20
+  },
+  {
+    "id": 200484444,
+    "source": [
+      "Unmatched appellations"
+    ],
+    "target": [
+      "Omatchade ursprungsbeteckningar"
+    ],
+    "context": "admin.taxonomy.unmatched.title",
+    "state": 20
+  },
+  {
+    "id": 200484445,
+    "source": [
+      "Wines carry these appellation strings, but no taxonomy entry covers them. Promote the real ones — new wines then adopt the canonical spelling automatically — and fix the wines behind the typos. Rare or new appellations are normal here; adding a bottle is never blocked by taxonomy."
+    ],
+    "target": [
+      "Viner har dessa ursprungsbeteckningar, men ingen taxonomipost omfattar dem. Lägg till de riktiga – nya viner får då automatiskt den kanoniska stavningen – och rätta vinerna med stavfel. Sällsynta eller nya ursprungsbeteckningar är normala här; taxonomin hindrar aldrig att en flaska läggs till."
+    ],
+    "context": "admin.taxonomy.unmatched.explainer",
+    "state": 20
+  },
+  {
+    "id": 200484446,
+    "source": [
+      "Every appellation on every wine is covered by the taxonomy."
+    ],
+    "target": [
+      "Taxonomin omfattar varje ursprungsbeteckning på varje vin."
+    ],
+    "context": "admin.taxonomy.unmatched.empty",
+    "state": 20
+  },
+  {
+    "id": 200484447,
+    "source": [
+      "Add to taxonomy"
+    ],
+    "target": [
+      "Lägg till i taxonomin"
+    ],
+    "context": "admin.taxonomy.unmatched.promote",
+    "state": 20
+  },
+  {
+    "id": 200484448,
+    "source": [
+      "Adding…"
+    ],
+    "target": [
+      "Lägger till …"
+    ],
+    "context": "admin.taxonomy.unmatched.promoting",
+    "state": 20
+  },
+  {
+    "id": 200484449,
+    "source": [
+      "Failed to add appellation"
+    ],
+    "target": [
+      "Det gick inte att lägga till ursprungsbeteckningen"
+    ],
+    "context": "admin.taxonomy.unmatched.promoteError",
+    "state": 20
+  },
+  {
+    "id": 200484450,
+    "source": [
+      "Failed to load unmatched appellations"
+    ],
+    "target": [
+      "Det gick inte att läsa in omatchade ursprungsbeteckningar"
+    ],
+    "context": "admin.taxonomy.unmatched.loadError",
+    "state": 20
+  },
+  {
+    "id": 200493326,
+    "source": [
+      "New — unreviewed"
+    ],
+    "target": [
+      "Ny – ogranskad"
+    ],
+    "context": "admin.taxonomy.pendingRegion",
+    "state": 20
+  },
+  {
+    "id": 200493327,
+    "source": [
+      "This region was created automatically by a user adding a wine and has not been reviewed by an admin"
+    ],
+    "target": [
+      "Den här regionen skapades automatiskt när en användare lade till ett vin och har inte granskats av en administratör"
+    ],
+    "context": "admin.taxonomy.pendingRegionTitle",
+    "state": 20
+  },
+  {
+    "id": 200493328,
+    "source": [
+      "Approve"
+    ],
+    "target": [
+      "Godkänn"
+    ],
+    "context": "admin.taxonomy.approveRegion",
+    "state": 20
+  },
+  {
+    "id": 200493329,
+    "source": [
+      "Reindex search"
+    ],
+    "target": [
+      "Omindexera sökningen"
+    ],
+    "context": "admin.wines.reindexSearch",
+    "state": 20
+  },
+  {
+    "id": 200493330,
+    "source": [
+      "Rebuild the search indexes from the database — required after restoring a backup, or whenever search results look stale"
+    ],
+    "target": [
+      "Bygg om sökindexen från databasen – krävs efter att en säkerhetskopia har återställts eller när sökresultaten verkar inaktuella"
+    ],
+    "context": "admin.wines.reindexSearchTitle",
+    "state": 20
+  },
+  {
+    "id": 200493331,
+    "source": [
+      "Search reindexed ({{winesMs}} ms wines, {{bottlesMs}} ms bottles)"
+    ],
+    "target": [
+      "Sökningen har omindexerats ({{winesMs}} ms för viner, {{bottlesMs}} ms för flaskor)"
+    ],
+    "context": "admin.wines.reindexDone",
+    "state": 20
+  },
+  {
+    "id": 200493332,
+    "source": [
+      "Reindex failed"
+    ],
+    "target": [
+      "Omindexeringen misslyckades"
+    ],
+    "context": "admin.wines.reindexFailed",
+    "state": 20
+  },
+  {
+    "id": 200508458,
+    "source": [
+      "Report an issue"
+    ],
+    "target": [
+      "Rapportera ett problem"
+    ],
+    "context": "wineDetail.reportIssue",
+    "state": 20
+  },
+  {
+    "id": 200508459,
+    "source": [
+      "Suggest a correction"
+    ],
+    "target": [
+      "Föreslå en rättning"
+    ],
+    "context": "reportWine.suggestField",
+    "state": 20
+  },
+  {
+    "id": 200508460,
+    "source": [
+      "No specific field — described below"
+    ],
+    "target": [
+      "Inget särskilt fält – beskriv nedan"
+    ],
+    "context": "reportWine.suggestFieldNone",
+    "state": 20
+  },
+  {
+    "id": 200508461,
+    "source": [
+      "Correct value"
+    ],
+    "target": [
+      "Rätt värde"
+    ],
+    "context": "reportWine.suggestValue",
+    "state": 20
+  },
+  {
+    "id": 200508462,
+    "source": [
+      "Wine name"
+    ],
+    "target": [
+      "Vinnamn"
+    ],
+    "context": "reportWine.fields.name",
+    "state": 20
+  },
+  {
+    "id": 200508463,
+    "source": [
+      "Producer"
+    ],
+    "target": [
+      "Producent"
+    ],
+    "context": "reportWine.fields.producer",
+    "state": 20
+  },
+  {
+    "id": 200508464,
+    "source": [
+      "Appellation"
+    ],
+    "target": [
+      "Ursprungsbeteckning"
+    ],
+    "context": "reportWine.fields.appellation",
+    "state": 20
+  },
+  {
+    "id": 200508465,
+    "source": [
+      "Wine type"
+    ],
+    "target": [
+      "Vintyp"
+    ],
+    "context": "reportWine.fields.type",
+    "state": 20
+  },
+  {
+    "id": 200565512,
+    "source": [
+      "{{language}} (beta · unreviewed)"
+    ],
+    "target": [
+      "{{language}} (beta · ogranskad)"
+    ],
+    "context": "settings.languageBetaUnreviewedOption",
+    "state": 20
+  },
+  {
+    "id": 200565513,
+    "source": [
+      "{{language}} (unreviewed)"
+    ],
+    "target": [
+      "{{language}} (ogranskad)"
+    ],
+    "context": "settings.languageUnreviewedOption",
+    "state": 20
+  },
+  {
+    "id": 200565514,
+    "source": [
+      "“Unreviewed” means the translation is complete but no native speaker has checked it yet — if something reads wrong, you can fix it."
+    ],
+    "target": [
+      "”Ogranskad” betyder att översättningen är komplett, men att ingen modersmålstalare har kontrollerat den ännu. Om något låter fel kan du rätta det."
+    ],
+    "context": "settings.languageUnreviewedHint",
+    "state": 20
+  },
+  {
+    "id": 200571306,
+    "source": [
+      "Show notes"
+    ],
+    "target": [
+      "Visa anteckningar"
+    ],
+    "context": "cellarDetail.showNotes",
+    "state": 20
+  },
+  {
+    "id": 201166247,
+    "source": [
+      "year"
+    ],
+    "target": [
+      "år"
+    ],
+    "context": "supporter.year",
+    "state": 20
+  },
+  {
+    "id": 201166248,
+    "source": [
+      "Billing interval"
+    ],
+    "target": [
+      "Faktureringsintervall"
+    ],
+    "context": "supporter.billingIntervalLabel",
+    "state": 20
+  },
+  {
+    "id": 201166249,
+    "source": [
+      "Monthly"
+    ],
+    "target": [
+      "Månadsvis"
+    ],
+    "context": "supporter.billingMonthly",
+    "state": 20
+  },
+  {
+    "id": 201166250,
+    "source": [
+      "Yearly"
+    ],
+    "target": [
+      "Årsvis"
+    ],
+    "context": "supporter.billingYearly",
+    "state": 20
+  },
+  {
+    "id": 206258589,
+    "source": [
+      "By submitting you let Cellarion use this in the shared wine registry under the Registry Data Terms."
+    ],
+    "target": [
+      "Genom att skicka in detta låter du Cellarion använda det i det delade vinregistret enligt registervillkoren."
+    ],
+    "context": "registryTerms.contributionNote",
+    "state": 20
+  },
+  {
+    "id": 206258590,
+    "source": [
+      "Registry Data Terms"
+    ],
+    "target": [
+      "Registervillkor"
+    ],
+    "context": "registryTerms.link",
+    "state": 20
+  },
+  {
+    "id": 206258591,
+    "source": [
+      "{{count}} unread post",
+      "{{count}} unread posts"
+    ],
+    "target": [
+      "{{count}} oläst inlägg",
+      "{{count}} olästa inlägg"
+    ],
+    "context": "nav.blogUnread",
+    "state": 20
+  },
+  {
+    "id": 206258592,
+    "source": [
+      "Registry Bridge"
+    ],
+    "target": [
+      "Registerbrygga"
+    ],
+    "context": "nav.adminBridge",
+    "state": 20
+  },
+  {
+    "id": 206258593,
+    "source": [
+      "Data Fields"
+    ],
+    "target": [
+      "Datafält"
+    ],
+    "context": "nav.registryData",
+    "state": 20
+  },
+  {
+    "id": 206258594,
+    "source": [
+      "Dashboard"
+    ],
+    "target": [
+      "Översikt"
+    ],
+    "context": "nav.dashboard",
+    "state": 20
+  },
+  {
+    "id": 206258595,
+    "source": [
+      "Continue with Google"
+    ],
+    "target": [
+      "Fortsätt med Google"
+    ],
+    "context": "auth.continueWithGoogle",
+    "state": 20
+  },
+  {
+    "id": 206258596,
+    "source": [
+      "Continue with {{provider}}"
+    ],
+    "target": [
+      "Fortsätt med {{provider}}"
+    ],
+    "context": "auth.continueWithProvider",
+    "state": 20
+  },
+  {
+    "id": 206258597,
+    "source": [
+      "Connect a self-hosted Cellarion"
+    ],
+    "target": [
+      "Anslut en självhostad Cellarion-instans"
+    ],
+    "context": "settings.bridge.title",
+    "state": 20
+  },
+  {
+    "id": 206258598,
+    "source": [
+      "The key \"{{name}}\" was revoked by an administrator on {{date}}."
+    ],
+    "target": [
+      "Nyckeln ”{{name}}” återkallades av en administratör {{date}}."
+    ],
+    "context": "settings.bridge.revokedByAdmin",
+    "state": 20
+  },
+  {
+    "id": 206258599,
+    "source": [
+      "Reason: {{reason}}"
+    ],
+    "target": [
+      "Orsak: {{reason}}"
+    ],
+    "context": "settings.bridge.revokedReason",
+    "state": 20
+  },
+  {
+    "id": 206258600,
+    "source": [
+      "A bridge key lets your own Cellarion server search the shared wine registry and copy the wines you add into its database, one wine at a time. Keys are tied to your account, count against daily quotas, and can be revoked here. The key is shown only once."
+    ],
+    "target": [
+      "En bryggnyckel låter din egen Cellarion-server söka i det delade vinregistret och kopiera viner som du lägger till i databasen, ett vin i taget. Nycklar är kopplade till ditt konto, räknas mot dagliga kvoter och kan återkallas här. Nyckeln visas bara en gång."
+    ],
+    "context": "settings.bridge.hint",
+    "state": 20
+  },
+  {
+    "id": 206258601,
+    "source": [
+      "Registry Data Terms"
+    ],
+    "target": [
+      "Registervillkor"
+    ],
+    "context": "settings.bridge.termsLink",
+    "state": 20
+  }
+]
