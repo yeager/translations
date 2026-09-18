@@ -5447,52 +5447,52 @@ You can migrate manually by renaming old directory and renaming file to antimicr
     <message>
         <location filename="../../../src/main.cpp" line="603"/>
         <source>Quitting Program</source>
-        <translation type="unfinished"></translation>
+        <translation>Avslutar programmet</translation>
     </message>
     <message>
         <location filename="../../../src/applaunchhelper.cpp" line="108"/>
         <source># of joysticks found: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal hittade styrspakar: %1</translation>
     </message>
     <message>
         <location filename="../../../src/applaunchhelper.cpp" line="110"/>
         <source>List Joysticks:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista styrspakar:</translation>
     </message>
     <message>
         <location filename="../../../src/applaunchhelper.cpp" line="111"/>
         <source>---------------</source>
-        <translation type="unfinished"></translation>
+        <translation>---------------</translation>
     </message>
     <message>
         <location filename="../../../src/applaunchhelper.cpp" line="118"/>
         <source>Joystick %1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspak %1:</translation>
     </message>
     <message>
         <location filename="../../../src/main.cpp" line="499"/>
         <source>Attempting to use fallback option %1 for event generation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Försöker använda reservalternativet %1 för händelsegenerering.</translation>
     </message>
     <message>
         <location filename="../../../src/main.cpp" line="525"/>
         <source>Failed to open event generator. Exiting.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att öppna händelsegeneratorn. Avslutar.</translation>
     </message>
     <message>
         <location filename="../../../src/main.cpp" line="551"/>
         <source>Using %1 as the event generator.</source>
-        <translation type="unfinished"></translation>
+        <translation>Använder %1 som händelsegenerator.</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="953"/>
         <source>Last button</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste knapp</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="954"/>
         <source>There isn&apos;t a last button pressed from gamepad in data. Did you set at least one button from gamepad for keyboard?</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns ingen senast nedtryckt handkontrollsknapp i data. Har du tilldelat minst en handkontrollsknapp till tangentbordet?</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="225"/>
@@ -5502,28 +5502,28 @@ You can migrate manually by renaming old directory and renaming file to antimicr
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="235"/>
         <source>Profile location %1 is not an XML file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilsökvägen %1 är inte en XML-fil.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="246"/>
         <source>Profile location %1 does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Profilsökvägen %1 finns inte.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="273"/>
         <location filename="../../../src/commandlineutility.cpp" line="312"/>
         <source>Controller identifier is not a valid value.</source>
-        <translation type="unfinished"></translation>
+        <translation>Handkontrollidentifieraren är inte ett giltigt värde.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="342"/>
         <source>An invalid set number &apos;%1&apos; was specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett ogiltigt uppsättningsnummer ”%1” angavs.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="364"/>
         <source>Controller identifier &apos;%s&apos; is not a valid value.</source>
-        <translation type="unfinished"></translation>
+        <translation>Handkontrollidentifieraren ”%s” är inte ett giltigt värde.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="369"/>
