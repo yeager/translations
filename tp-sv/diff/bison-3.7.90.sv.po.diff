@@ -141,42 +141,38 @@
  
  #: src/getargs.c:215
  msgid "include all the above information"
-@@ -464,10 +464,7 @@
- "Generate a deterministic LR or generalized LR (GLR) parser employing\n"
+@@ -465,8 +465,8 @@
  "LALR(1), IELR(1), or canonical LR(1) parser tables.\n"
  "\n"
--msgstr ""
+ msgstr ""
 -"Generera en deterministisk LR- eller generaliserad LR- (GLR-)parser som\n"
 -"använder LALR(1), IELR(1) eller kanonisk LR(1) parsningstabeller.\n"
--"\n"
-+msgstr "Generera en deterministisk LR- eller generaliserad LR-parser (GLR) som\nanvänder parsningstabeller av typen LALR(1), IELR(1) eller kanonisk LR(1).\n\n"
++"Generera en deterministisk LR- eller generaliserad LR-parser (GLR) som\n"
++"använder parsningstabeller av typen LALR(1), IELR(1) eller kanonisk LR(1).\n"
+ "\n"
  
  #: src/getargs.c:371
- msgid "Mandatory arguments to long options are mandatory for short options too.\n"
-@@ -531,21 +528,7 @@
- "  -l, --no-lines                   don't generate '#line' directives\n"
- "  -k, --token-table                include a table of token names\n"
- "  -y, --yacc                       emulate POSIX Yacc\n"
--msgstr ""
--"Trimma parsern:\n"
--"  -L, --language=SPRÅK             ange programspråk för utmatning\n"
--"  -S, --skeleton=FIL               ange skelettfilen som skall användas\n"
--"  -t, --debug                      instrumentera parsern för spårning\n"
--"                                   samma som ”-Dparse.trace”\n"
+@@ -537,15 +537,16 @@
+ "  -S, --skeleton=FIL               ange skelettfilen som skall användas\n"
+ "  -t, --debug                      instrumentera parsern för spårning\n"
+ "                                   samma som ”-Dparse.trace”\n"
 -"      --locations                  aktivera stöd för lägen\n"
--"  -D, --define=NAMN[=VÄRDE]        motsvarar ”%define NAMN VÄRDE”\n"
--"  -F, --force-define=NAMN[=VÄRDE]  åsidosätt ”%define NAMN VÄRDE”\n"
--"  -p, --name-prefix=PREFIX         lägg till PREFIX före externa symboler\n"
--"                                   undanbedes till förmån för\n"
--"                                   ”-Dapi.prefix={PREFIX}”\n"
--"  -l, --no-lines                   generera inte ”#line”-direktiv\n"
++"      --locations                  aktivera stöd för källkodspositioner\n"
+ "  -D, --define=NAMN[=VÄRDE]        motsvarar ”%define NAMN VÄRDE”\n"
+ "  -F, --force-define=NAMN[=VÄRDE]  åsidosätt ”%define NAMN VÄRDE”\n"
+ "  -p, --name-prefix=PREFIX         lägg till PREFIX före externa symboler\n"
+ "                                   undanbedes till förmån för\n"
+ "                                   ”-Dapi.prefix={PREFIX}”\n"
+ "  -l, --no-lines                   generera inte ”#line”-direktiv\n"
 -"  -k, --token-table                inkludera en tabell över elementnamn\n"
 -"  -y, --yacc                       emulera POSIX yacc\n"
-+msgstr "Trimma parsern:\n  -L, --language=SPRÅK             ange programspråk för utmatning\n  -S, --skeleton=FIL               ange skelettfilen som skall användas\n  -t, --debug                      instrumentera parsern för spårning\n                                   samma som ”-Dparse.trace”\n      --locations                  aktivera stöd för källkodspositioner\n  -D, --define=NAMN[=VÄRDE]        motsvarar ”%define NAMN VÄRDE”\n  -F, --force-define=NAMN[=VÄRDE]  åsidosätt ”%define NAMN VÄRDE”\n  -p, --name-prefix=PREFIX         lägg till PREFIX före externa symboler\n                                   undanbedes till förmån för\n                                   ”-Dapi.prefix={PREFIX}”\n  -l, --no-lines                   generera inte ”#line”-direktiv\n  -k, --token-table                inkludera en tabell över terminalsymbolernas namn\n  -y, --yacc                       emulera POSIX Yacc\n"
++"  -k, --token-table                inkludera en tabell över "
++"terminalsymbolernas namn\n"
++"  -y, --yacc                       emulera POSIX Yacc\n"
  
  #: src/getargs.c:426
  msgid ""
-@@ -625,7 +608,7 @@
+@@ -625,7 +626,7 @@
  #: src/getargs.c:512
  #, c-format
  msgid "multiple skeleton declarations are invalid"
@@ -185,7 +181,7 @@
  
  #: src/getargs.c:529
  #, c-format
-@@ -634,7 +617,7 @@
+@@ -634,7 +635,7 @@
  
  #: src/getargs.c:532
  msgid "multiple language declarations are invalid"
@@ -194,7 +190,7 @@
  
  #: src/getargs.c:749
  #, c-format
-@@ -679,7 +662,7 @@
+@@ -679,7 +680,7 @@
  
  #: src/i18n-strings.c:36
  msgid "invalid token"
@@ -203,7 +199,7 @@
  
  #: src/location.c:138 src/scan-gram.l:957
  #, c-format
-@@ -895,12 +878,12 @@
+@@ -895,12 +896,12 @@
  #: src/reader.c:262
  #, c-format
  msgid "rule given for %s, which is a token"
@@ -218,7 +214,7 @@
  
  #: src/reader.c:345
  #, c-format
-@@ -930,12 +913,12 @@
+@@ -930,12 +931,12 @@
  #: src/reader.c:427
  #, c-format
  msgid "token for %%prec is not defined: %s"
@@ -233,7 +229,7 @@
  
  #: src/reader.c:559 src/reader.c:581 src/reader.c:652
  #, c-format
-@@ -965,7 +948,7 @@
+@@ -965,7 +966,7 @@
  #: src/reader.c:933
  #, c-format
  msgid "the start symbol %s is a token"
@@ -242,7 +238,7 @@
  
  #: src/reader.c:951
  #, c-format
-@@ -1055,7 +1038,7 @@
+@@ -1055,7 +1056,7 @@
  #: src/scan-code.l:512
  #, c-format
  msgid "syntax error after '%c', expecting integer, letter, '_', '[', or '$'"
@@ -251,7 +247,7 @@
  
  #: src/scan-code.l:518
  #, c-format
-@@ -1075,7 +1058,7 @@
+@@ -1075,7 +1076,7 @@
  #: src/scan-code.l:552
  #, c-format
  msgid "ambiguous reference: %s"
@@ -260,7 +256,7 @@
  
  #: src/scan-code.l:588
  #, c-format
-@@ -1085,7 +1068,7 @@
+@@ -1085,7 +1086,7 @@
  #: src/scan-code.l:643
  #, c-format
  msgid "$$ for the midrule at $%d of %s has no declared type"
@@ -269,7 +265,7 @@
  
  #: src/scan-code.l:649
  #, c-format
-@@ -1110,7 +1093,7 @@
+@@ -1110,7 +1111,7 @@
  #: src/scan-gram.l:214
  #, c-format
  msgid "stray ',' treated as white space"
@@ -278,7 +274,7 @@
  
  #: src/scan-gram.l:309
  #, c-format
-@@ -1136,7 +1119,7 @@
+@@ -1136,7 +1137,7 @@
  #: src/scan-gram.l:463
  #, c-format
  msgid "unexpected identifier in bracketed name: %s"
@@ -287,7 +283,7 @@
  
  #: src/scan-gram.l:487
  #, c-format
-@@ -1146,8 +1129,8 @@
+@@ -1146,8 +1147,8 @@
  #: src/scan-gram.l:494
  msgid "invalid character in bracketed name"
  msgid_plural "invalid characters in bracketed name"
@@ -298,7 +294,7 @@
  
  #: src/scan-gram.l:567 src/scan-gram.l:582
  #, c-format
-@@ -1162,7 +1145,7 @@
+@@ -1162,7 +1163,7 @@
  #: src/scan-gram.l:611
  #, c-format
  msgid "extra characters in character literal"
@@ -307,7 +303,7 @@
  
  #: src/scan-gram.l:690
  #, c-format
-@@ -1217,7 +1200,7 @@
+@@ -1217,7 +1218,7 @@
  #: src/symtab.c:347
  #, c-format
  msgid "symbol %s redeclared as a token"
@@ -316,22 +312,24 @@
  
  #: src/symtab.c:348
  #, c-format
-@@ -1227,12 +1210,12 @@
+@@ -1227,12 +1228,14 @@
  #: src/symtab.c:388
  #, c-format
  msgid "symbol %s is used, but is not defined as a token and has no rules; did you mean %s?"
 -msgstr "symbolen %s används, men är inte definierad som ett element och har inga regler; menade du %s?"
-+msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har inga regler; menade du %s?"
++msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har "
++"inga regler; menade du %s?"
  
  #: src/symtab.c:398
  #, c-format
  msgid "symbol %s is used, but is not defined as a token and has no rules"
 -msgstr "symbolen %s används, men är inte definierad som ett element och har inga regler"
-+msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har inga regler"
++msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har "
++"inga regler"
  
  #: src/symtab.c:537
  #, c-format
-@@ -1247,17 +1230,17 @@
+@@ -1247,17 +1250,17 @@
  #: src/symtab.c:591
  #, c-format
  msgid "nonterminals cannot be given a token code"
@@ -352,7 +350,7 @@
  
  #: src/symtab.c:634
  #, c-format
-@@ -1282,17 +1265,17 @@
+@@ -1282,17 +1285,17 @@
  #: src/symtab.c:715
  #, c-format
  msgid "symbol %s used more than once as a literal string"
@@ -373,7 +371,7 @@
  
  #: src/symtab.c:755
  #, c-format
-@@ -1302,7 +1285,7 @@
+@@ -1302,7 +1305,7 @@
  #: src/symtab.c:1083
  #, c-format
  msgid "token number too large"

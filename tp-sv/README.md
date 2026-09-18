@@ -4,6 +4,8 @@ Granskning 2026-09-18: samtliga 9 483 aktiva poster i de 15 domänerna nedan är
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.2, [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
+PO-filernas befintliga uppdelning på fysiska rader bevaras för oförändrade textdelar. Ren PO-omformatering räknas inte som en rättad post.
+
 Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska filen hos Translation Project, i exakt den version som länkas i tabellen. Diffarna har provapplicerats utan tolerans och återskapar respektive redigerad PO-fil byte för byte. Alla publicerade PO-filer klarar `msgfmt --check --check-format`. Befintliga fuzzy-markeringar, kommentarer och upphovsuppgifter är bevarade; gettext hoppar normalt över formatkontroll av fuzzy-poster.
 
 | Domän | Version | Granskade poster | Rättade poster | PO | Diff | Original hos TP |

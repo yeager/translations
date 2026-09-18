@@ -9,67 +9,47 @@
  
  #: src/main.c:196
  #, c-format
-@@ -301,10 +301,7 @@
- "  style sheet     = %s\n"
- "  highlight level = %s\n"
- "  strip level     = %d\n"
--msgstr ""
--"  stilmall              = %s\n"
--"  märkningsnivå         = %s\n"
+@@ -304,7 +304,7 @@
+ msgstr ""
+ "  stilmall              = %s\n"
+ "  märkningsnivå         = %s\n"
 -"  borttagninngsnivå     = %d\n"
-+msgstr "  stilmall              = %s\n  märkningsnivå         = %s\n  borttagningsnivå     = %d\n"
++"  borttagningsnivå     = %d\n"
  
  #: src/main.c:452
  msgid "never make backups"
-@@ -355,14 +352,7 @@
- "  number of copies          = %u\n"
- "  sides per sheet           = %s\n"
- "  page device definitions   = "
--msgstr ""
--"  magiskt tal               = %s\n"
--"  skrivarbeskrivning (PPD)  = %s\n"
--"  standard-PPD              = %s\n"
+@@ -359,7 +359,7 @@
+ "  magiskt tal               = %s\n"
+ "  skrivarbeskrivning (PPD)  = %s\n"
+ "  standard-PPD              = %s\n"
 -"  sidettikettsformat        = %s\n"
--"  antal kopior              = %u\n"
--"  sidor per ark             = %s\n"
--"  sidenhetsdefinitioner     = "
-+msgstr "  magiskt tal               = %s\n  skrivarbeskrivning (PPD)  = %s\n  standard-PPD              = %s\n  sidetikettsformat        = %s\n  antal kopior              = %u\n  sidor per ark             = %s\n  sidenhetsdefinitioner     = "
- 
- #: src/main.c:504
- #, c-format
-@@ -467,15 +457,7 @@
- "  -=, --user-option=OPTION       use the user defined shortcut OPTION\n"
- "      --debug                    enable debugging features\n"
- "  -D, --define=KEY[:VALUE]       unset variable KEY or set to VALUE\n"
--msgstr ""
--"  -q, --quiet, --silent          var helt tyst\n"
--"  -v, --verbose[=NIVÅ]           slå på utförliga kommentarer (mångordighet)\n"
--"                                 eller sätt graden av utförlighet till NIVÅ\n"
++"  sidetikettsformat        = %s\n"
+ "  antal kopior              = %u\n"
+ "  sidor per ark             = %s\n"
+ "  sidenhetsdefinitioner     = "
+@@ -471,7 +471,7 @@
+ "  -q, --quiet, --silent          var helt tyst\n"
+ "  -v, --verbose[=NIVÅ]           slå på utförliga kommentarer (mångordighet)\n"
+ "                                 eller sätt graden av utförlighet till NIVÅ\n"
 -"  -=, --user-options=FLAGGA      använd den av användaren definierade för-\n"
--"                                 kortningen FLAGGA\n"
--"  --debug                        slå på felsökning\n"
--"  -D, --define=NYCKEL[:VÄRDE]    ta bort variabeln NYCKEL, eller sätt den till\n"
--"                                 VÄRDE\n"
-+msgstr "  -q, --quiet, --silent          var helt tyst\n  -v, --verbose[=NIVÅ]           slå på utförliga kommentarer (mångordighet)\n                                 eller sätt graden av utförlighet till NIVÅ\n  -=, --user-option=FLAGGA      använd den av användaren definierade för-\n                                 kortningen FLAGGA\n  --debug                        slå på felsökning\n  -D, --define=NYCKEL[:VÄRDE]    ta bort variabeln NYCKEL, eller sätt den till\n                                 VÄRDE\n"
- 
- #: src/main.c:688
- msgid ""
-@@ -529,21 +511,11 @@
- "  -m, --catman                   process FILE as a man page (same as -L66)\n"
- "  -T, --tabsize=NUM              set tabulator size to NUM\n"
- "      --non-printable-format=FMT specify how non-printable chars are printed\n"
--msgstr ""
--"  --line-numbers=ANTAL           skriv radnummer framför var ANTAL:te rad\n"
--"  -C                             ett annat sätt att skriva --line-numbers=5\n"
--"  -f, --font-size=STORLEK        använd teckenstorlek STORLEK (flyttal)\n"
++"  -=, --user-option=FLAGGA      använd den av användaren definierade för-\n"
+ "                                 kortningen FLAGGA\n"
+ "  --debug                        slå på felsökning\n"
+ "  -D, --define=NYCKEL[:VÄRDE]    ta bort variabeln NYCKEL, eller sätt den till\n"
+@@ -533,17 +533,17 @@
+ "  --line-numbers=ANTAL           skriv radnummer framför var ANTAL:te rad\n"
+ "  -C                             ett annat sätt att skriva --line-numbers=5\n"
+ "  -f, --font-size=STORLEK        använd teckenstorlek STORLEK (flyttal)\n"
 -"  -L, --lines-per-page==ANTAL    ange ANTAL rader på en sida (teckenstorleken\n"
--"                                 justeras)\n"
++"  -L, --lines-per-page=ANTAL    ange ANTAL rader på en sida (teckenstorleken\n"
+ "                                 justeras)\n"
 -"  --l, --chars-per-line=ANTAL    ange ANTAL spalter som skrivs ut per sida\n"
--"                                 (teckenstorleken justeras)\n"
--"  -m, --catman                   behandla FIL som en man-sida (samma som -L66)\n"
++"  -l, --chars-per-line=ANTAL    ange ANTAL spalter som skrivs ut per sida\n"
+ "                                 (teckenstorleken justeras)\n"
+ "  -m, --catman                   behandla FIL som en man-sida (samma som -L66)\n"
 -"  -T, --tab-size=ANTAL           sätt tabulatoravståndet till ANTAL\n"
--"      --non-printable-format=FMT ange hur icke skrivbara tecken skall skrivas\n"
-+msgstr "  --line-numbers=ANTAL           skriv radnummer framför var ANTAL:te rad\n  -C                             ett annat sätt att skriva --line-numbers=5\n  -f, --font-size=STORLEK        använd teckenstorlek STORLEK (flyttal)\n  -L, --lines-per-page=ANTAL    ange ANTAL rader på en sida (teckenstorleken\n                                 justeras)\n  -l, --chars-per-line=ANTAL    ange ANTAL spalter som skrivs ut per sida\n                                 (teckenstorleken justeras)\n  -m, --catman                   behandla FIL som en man-sida (samma som -L66)\n  -T, --tabsize=ANTAL           sätt tabulatoravståndet till ANTAL\n      --non-printable-format=FMT ange hur icke skrivbara tecken skall skrivas\n"
++"  -T, --tabsize=ANTAL           sätt tabulatoravståndet till ANTAL\n"
+ "      --non-printable-format=FMT ange hur icke skrivbara tecken skall skrivas\n"
  
  #: src/main.c:721
  msgid "Headings:\n"
@@ -78,26 +58,25 @@
  
  #: src/main.c:723
  #, no-c-format
-@@ -584,17 +556,7 @@
- "      --print-anyway*            force binary printing\n"
- "  -Z, --delegate*                delegate files to another application\n"
- "      --toc[=TEXT]               generate a table of content\n"
--msgstr ""
--"  -a, --pages[=OMRÅDE]           ange sidor att skriva ut\n"
--"  -c, --truncate-lines*          klipp av långa rader\n"
+@@ -587,14 +587,15 @@
+ msgstr ""
+ "  -a, --pages[=OMRÅDE]           ange sidor att skriva ut\n"
+ "  -c, --truncate-lines*          klipp av långa rader\n"
 -"  -i, --interpret                tolka tecken för tab, backsteg och sidmatning\n"
--"      --end-of-line=TYP          ange typ av radslut (TYP: r, n, nr, rn, any)\n"
--"  -X, --encoding=NAMN            använd teckenkodning NAMN för indata\n"
--"  -t, --title=NAMN               ange titel på utskriftsjobbet\n"
--"      --stdin=NAMN               ange namn på standard in\n"
--"      --print-anyway*            tvinga a2ps att skriva ut binära filer\n"
--"  -Z, --delegate*                delegera filer till ett annat program\n"
++"  -i, --interpret*               tolka tecken för tab, backsteg och "
++"sidmatning\n"
+ "      --end-of-line=TYP          ange typ av radslut (TYP: r, n, nr, rn, any)\n"
+ "  -X, --encoding=NAMN            använd teckenkodning NAMN för indata\n"
+ "  -t, --title=NAMN               ange titel på utskriftsjobbet\n"
+ "      --stdin=NAMN               ange namn på standard in\n"
+ "      --print-anyway*            tvinga a2ps att skriva ut binära filer\n"
+ "  -Z, --delegate*                delegera filer till ett annat program\n"
 -"      --toc=TEXT                 skapa innehållsförteckning\n"
-+msgstr "  -a, --pages[=OMRÅDE]           ange sidor att skriva ut\n  -c, --truncate-lines*          klipp av långa rader\n  -i, --interpret*               tolka tecken för tab, backsteg och sidmatning\n      --end-of-line=TYP          ange typ av radslut (TYP: r, n, nr, rn, any)\n  -X, --encoding=NAMN            använd teckenkodning NAMN för indata\n  -t, --title=NAMN               ange titel på utskriftsjobbet\n      --stdin=NAMN               ange namn på standard in\n      --print-anyway*            tvinga a2ps att skriva ut binära filer\n  -Z, --delegate*                delegera filer till ett annat program\n      --toc[=TEXT]               skapa innehållsförteckning\n"
++"      --toc[=TEXT]               skapa innehållsförteckning\n"
  
  #: src/main.c:751
  msgid ""
-@@ -791,12 +753,12 @@
+@@ -791,12 +792,12 @@
  #: liba2ps/darray.c:84 liba2ps/dstring.c:72
  #, c-format
  msgid "\tload: %zu/%zu (%2.1f%%)\n"
@@ -112,7 +91,7 @@
  
  #: liba2ps/dstring.c:71
  #, c-format
-@@ -963,7 +925,7 @@
+@@ -963,7 +964,7 @@
  #: liba2ps/output.c:413
  #, c-format
  msgid "invalid face `%s'"

@@ -37,7 +37,9 @@ msgstr "skriv CD-Text-data till ”cdt-fil”"
 
 #: src/ccd2cue.c:120
 msgid "While the main output file 'cue-file' is always generated, the 'cdt-file' is created only when there is CD-Text data.  If 'cue-file' is '-', or '--output' is omitted, standard output is used.\n"
-msgstr "Huvudutdatafilen ”cue-fil” skapas alltid, medan ”cdt-fil” bara skapas om det finns CD-Text-data. Om ”cue-fil” är ”-” eller ”--output” utelämnas används standard ut.\n"
+msgstr "Huvudutdatafilen ”cue-fil” skapas alltid, medan ”cdt-fil” bara skapas om det "
+"finns CD-Text-data. Om ”cue-fil” är ”-” eller ”--output” utelämnas används "
+"standard ut.\n"
 
 #: src/ccd2cue.c:121
 msgid "img-file"
@@ -143,7 +145,11 @@ msgstr "Konvertera en CCD-fil till en CUE-fil."
 
 #: src/ccd2cue.c:618
 msgid "The input file, referred as 'ccd-file', must exist.  If 'ccd-file' is '-', or omitted, standard input is used.  It is necessary to supply at least one file name, in an option or non-option argument, in order to deduce the remaining file names needed, and only one file name of each type can be supplied."
-msgstr "Indatafilen, som kallas ”ccd-fil”, måste existera. Om ”ccd-fil” är ”-” eller saknas, används standard in. Det är nödvändigt att ange åtminstone ett filnamn, i en flagga eller i ett argument som inte är en flagga, för att kunna härleda återstående filnamn som behövs, och endast ett filnamn av varje typ kan anges."
+msgstr "Indatafilen, som kallas ”ccd-fil”, måste existera. Om ”ccd-fil” är ”-” eller "
+"saknas, används standard in. Det är nödvändigt att ange åtminstone ett "
+"filnamn, i en flagga eller i ett argument som inte är en flagga, för att "
+"kunna härleda återstående filnamn som behövs, och endast ett filnamn av varje "
+"typ kan anges."
 
 #: src/ccd2cue.c:624
 msgid "Options:"
@@ -155,7 +161,9 @@ msgstr "Exempel:"
 
 #: src/ccd2cue.c:638
 msgid "The most ordinary use case is when you have a CCD set of files and just want to generate a CUE sheet file in order to burn or otherwise access the data inside the image file.  Supposing your CCD sheet file is called gnu.ccd, you are done with the command:"
-msgstr "Det vanligaste användningsfallet är att du har en uppsättning CCD-filer och vill skapa en CUE-fil för att bränna eller på annat sätt komma åt data i avbildsfilen. Om din CCD-fil heter gnu.ccd räcker följande kommando:"
+msgstr "Det vanligaste användningsfallet är att du har en uppsättning CCD-filer och "
+"vill skapa en CUE-fil för att bränna eller på annat sätt komma åt data i "
+"avbildsfilen. Om din CCD-fil heter gnu.ccd räcker följande kommando:"
 
 #: src/ccd2cue.c:643
 msgid "ccd2cue -o gnu.cue gnu.ccd"
@@ -163,11 +171,18 @@ msgstr "ccd2cue -o gnu.cue gnu.ccd"
 
 #: src/ccd2cue.c:644
 msgid "If you have burned a CD from a CUE sheet produced by this program and all audio tracks became only senseless static noise, you may need to tell your burning software to swap the byte order of all samples sent to the CD-recorder.  This can be accomplished with (for example) the '--swap' option when using the 'cdrdao' program.  Experience has shown that at least for mixed-mode discs it is necessary to use that option when burning, otherwise you will almost certainly waste a CD."
-msgstr "Om du har bränt en CD från en CUE-fil som producerats av detta program och alla ljudspår blev meningslöst brus, kan du behöva berätta för ditt brännarprogram att växla byteordning för alla sampel som skickas till CD-skrivaren. Detta kan åstadkommas via (till exempel) flaggan ”--swap” med programmet ”cdrdao”. Erfarenhet har visat att åtminstone för skivor med blandade lägen är det nödvändigt att använda denna flagga vid bränning, annars kommer du nästan säkerligen att slösa bort en CD."
+msgstr "Om du har bränt en CD från en CUE-fil som producerats av detta program och "
+"alla ljudspår blev meningslöst brus, kan du behöva berätta för ditt "
+"brännarprogram att växla byteordning för alla sampel som skickas till "
+"CD-skrivaren. Detta kan åstadkommas via (till exempel) flaggan ”--swap” med "
+"programmet ”cdrdao”. Erfarenhet har visat att åtminstone för skivor med "
+"blandade lägen är det nödvändigt att använda denna flagga vid bränning, "
+"annars kommer du nästan säkerligen att slösa bort en CD."
 
 #: src/ccd2cue.c:652
 msgid "Supposing you want to burn a CD using the 'cdrdao' program and a CUE sheet file named 'gnu.cue', and wisely want to ensure the correct behavior of your burnt disc, use the command:"
-msgstr "Om du vill bränna en CD med programmet ”cdrdao” och CUE-filen ”gnu.cue” och försäkra dig om att den brända skivan fungerar korrekt, använd kommandot:"
+msgstr "Om du vill bränna en CD med programmet ”cdrdao” och CUE-filen ”gnu.cue” och "
+"försäkra dig om att den brända skivan fungerar korrekt, använd kommandot:"
 
 #: src/ccd2cue.c:656
 msgid "cdrdao write --swap --speed 1 --eject gnu.cue"
@@ -175,7 +190,9 @@ msgstr "cdrdao write --swap --speed 1 --eject gnu.cue"
 
 #: src/ccd2cue.c:657
 msgid "That way 'cdrdao' will swap the byte order of audio samples, cautiously burning in the smallest possible speed and will eject your CD when it is done."
-msgstr "På detta sätt kommer ”cdrdao” att växla byteordning för ljudsampel, försiktigt bränna vid lägsta möjliga hastighet och mata ut din CD när den är klar."
+msgstr "På detta sätt kommer ”cdrdao” att växla byteordning för ljudsampel, "
+"försiktigt bränna vid lägsta möjliga hastighet och mata ut din CD när den är "
+"klar."
 
 #: src/ccd2cue.c:661
 msgid "Report bugs to:"

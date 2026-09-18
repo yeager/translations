@@ -56,7 +56,23 @@ msgid ""
 "  -h --help              Display this information\n"
 "  -v --version           Display the program's version\n"
 "\n"
-msgstr " Flaggorna är:\n  @<fil>                 Läs flaggor från <fil>\n  -a --addresses         Visa adresser\n  -b --target=<bfdnamn>  Välj format på binärfilen\n  -e --exe=<körfil>      Ange infilens namn (standard är a.out)\n  -i --inlines           Visa anropskedjan för inline-expanderade funktioner\n  -j --section=<namn>    Läs sektionsrelativa offset istället för adresser\n  -p --pretty-print      Gör utdata mer lättläst för människor\n  -s --basenames         Visa inte katalognamn\n  -f --functions         Visa funktionsnamn\n  -C --demangle[=stil]   Avkoda manglade funktionsnamn\n  -R --recurse-limit     Aktivera en rekursionsgräns vid avmangling. [Standard]\n  -r --no-recurse-limit  Avaktivera rekursionsgränsen vid avmangling\n  -h --help              Visa denna hjälp\n  -v --version           Visa programmets version\n\n"
+msgstr ""
+" Flaggorna är:\n"
+"  @<fil>                 Läs flaggor från <fil>\n"
+"  -a --addresses         Visa adresser\n"
+"  -b --target=<bfdnamn>  Välj format på binärfilen\n"
+"  -e --exe=<körfil>      Ange infilens namn (standard är a.out)\n"
+"  -i --inlines           Visa anropskedjan för inline-expanderade funktioner\n"
+"  -j --section=<namn>    Läs sektionsrelativa offset istället för adresser\n"
+"  -p --pretty-print      Gör utdata mer lättläst för människor\n"
+"  -s --basenames         Visa inte katalognamn\n"
+"  -f --functions         Visa funktionsnamn\n"
+"  -C --demangle[=stil]   Avkoda manglade funktionsnamn\n"
+"  -R --recurse-limit     Aktivera en rekursionsgräns vid avmangling. [Standard]\n"
+"  -r --no-recurse-limit  Avaktivera rekursionsgränsen vid avmangling\n"
+"  -h --help              Visa denna hjälp\n"
+"  -v --version           Visa programmets version\n"
+"\n"
 
 #: addr2line.c:111 ar.c:345 ar.c:381 coffdump.c:470 dlltool.c:3789
 #: dllwrap.c:518 elfedit.c:987 objcopy.c:727 objcopy.c:786 readelf.c:6754
@@ -362,7 +378,10 @@ msgid ""
 "  -t                           Update the archive's symbol map timestamp\n"
 "  -h --help                    Print this help message\n"
 "  -v --version                 Print version information\n"
-msgstr "  -t                           Uppdatera tidsstämpeln på arkivets symbolkarta\n  -h --help                    Visa denna hjälp\n  -v --version                 Visa versionsinformation\n"
+msgstr ""
+"  -t                           Uppdatera tidsstämpeln på arkivets symbolkarta\n"
+"  -h --help                    Visa denna hjälp\n"
+"  -v --version                 Visa versionsinformation\n"
 
 #: ar.c:497
 msgid "two different operation options specified"
@@ -1419,7 +1438,8 @@ msgstr "      --exclude-symbols <lista> Exportera inte symboler i <lista>\n"
 #: dlltool.c:3760
 #, c-format
 msgid "      --no-default-excludes  Clear default exclude symbols\n"
-msgstr "      --no-default-excludes  Töm listan över symboler som undantas som standard\n"
+msgstr "      --no-default-excludes  Töm listan över symboler som undantas som "
+"standard\n"
 
 #: dlltool.c:3761
 #, c-format
@@ -1494,7 +1514,8 @@ msgstr "   -C --compat-implib        Skapa bakåtkompatibelt importbibliotek.\n"
 #: dlltool.c:3775
 #, c-format
 msgid "   -n --no-delete            Keep temp files (repeat for extra preservation).\n"
-msgstr "   -n --no-delete            Behåll temporärfiler (upprepa för att bevara fler filer).\n"
+msgstr "   -n --no-delete            Behåll temporärfiler (upprepa för att bevara "
+"fler filer).\n"
 
 #: dlltool.c:3776
 #, c-format
@@ -1750,7 +1771,8 @@ msgstr "   --exclude-symbols <lista> Undanta symbolerna i <lista> från .def\n"
 #: dllwrap.c:504
 #, c-format
 msgid "   --no-default-excludes    Zap default exclude symbols\n"
-msgstr "   --no-default-excludes    Töm listan över symboler som undantas som standard\n"
+msgstr "   --no-default-excludes    Töm listan över symboler som undantas som "
+"standard\n"
 
 #: dllwrap.c:505
 #, c-format
@@ -2000,7 +2022,8 @@ msgstr "<ingen .debug_str.dwo-sektion>"
 #: dwarf.c:709
 #, c-format
 msgid "string index of %<PRIu64> converts to an offset of %#<PRIx64> which is too big for section %s\n"
-msgstr "ett strängindex på %<PRIu64> konverterar till ett offset på %#<PRIx64> vilket är för stort för sektionen %s\n"
+msgstr "ett strängindex på %<PRIu64> konverterar till ett offset på %#<PRIx64> vilket "
+"är för stort för sektionen %s\n"
 
 #: dwarf.c:713
 msgid "<string index too big>"
@@ -2048,12 +2071,14 @@ msgstr "sektionen %s är inte nollterminerad\n"
 #: dwarf.c:1089
 #, c-format
 msgid "Debug info is corrupted, abbrev size (%#<PRIx64>) is larger than abbrev section size (%#<PRIx64>)\n"
-msgstr "Felsökningsinformationen är skadad: abbrev-storleken (%#<PRIx64>) är större än abbrev-sektionens storlek (%#<PRIx64>)\n"
+msgstr "Felsökningsinformationen är skadad: abbrev-storleken (%#<PRIx64>) är större "
+"än abbrev-sektionens storlek (%#<PRIx64>)\n"
 
 #: dwarf.c:1096
 #, c-format
 msgid "Debug info is corrupted, abbrev offset (%#<PRIx64>) is larger than abbrev section size (%#<PRIx64>)\n"
-msgstr "Felsökningsinformationen är skadad: abbrev-offset (%#<PRIx64>) är större än abbrev-sektionens storlek (%#<PRIx64>)\n"
+msgstr "Felsökningsinformationen är skadad: abbrev-offset (%#<PRIx64>) är större än "
+"abbrev-sektionens storlek (%#<PRIx64>)\n"
 
 #: dwarf.c:1129
 #, c-format
@@ -2131,7 +2156,8 @@ msgstr "<ingen NUL-byte vid slutet av alternativ .debug_str-sektion>"
 #: dwarf.c:1973
 #, c-format
 msgid "DW_FORM_GNU_strp_alt offset (%#<PRIx64>) too big or no string sections available\n"
-msgstr "DW_FORM_GNU_strp_alt-offset (%#<PRIx64>) är för stort eller ingen strängsektion tillgänglig\n"
+msgstr "DW_FORM_GNU_strp_alt-offset (%#<PRIx64>) är för stort eller ingen "
+"strängsektion tillgänglig\n"
 
 #: dwarf.c:1996
 #, c-format
@@ -2441,7 +2467,8 @@ msgstr " [utan DW_AT_frame_base]"
 #: dwarf.c:4695
 #, c-format
 msgid "Offset %#<PRIx64> used as value for DW_AT_import attribute of DIE at offset %#tx is too big.\n"
-msgstr "Offset %#<PRIx64> som används som värde för attributet DW_AT_import för DIE vid offset %#tx är för stort.\n"
+msgstr "Offset %#<PRIx64> som används som värde för attributet DW_AT_import för DIE "
+"vid offset %#tx är för stort.\n"
 
 #: dwarf.c:4701
 #, c-format
@@ -2524,7 +2551,8 @@ msgstr "Kan inte hitta sektionen %s!\n"
 #: dwarf.c:5262
 #, c-format
 msgid "Invalid pointer size (%d) in compunit header, using %d instead\n"
-msgstr "Felaktig pekarstorlek (%d) i kompileringsenhetens huvud, använder %d i stället\n"
+msgstr "Felaktig pekarstorlek (%d) i kompileringsenhetens huvud, använder %d i "
+"stället\n"
 
 #: dwarf.c:5297
 #, c-format
@@ -2599,12 +2627,14 @@ msgstr "    .debug_str_offsets.dwo:  %#<PRIx64>  %#zx\n"
 #: dwarf.c:5343
 #, c-format
 msgid "CU at offset %#<PRIx64> contains corrupt or unsupported version number: %d.\n"
-msgstr "CU vid offset %#<PRIx64> innehåller ett skadat versionsnummer eller ett versionsnummer som inte stöds: %d.\n"
+msgstr "CU vid offset %#<PRIx64> innehåller ett skadat versionsnummer eller ett "
+"versionsnummer som inte stöds: %d.\n"
 
 #: dwarf.c:5355
 #, c-format
 msgid "CU at offset %#<PRIx64> contains corrupt or unsupported unit type: %d.\n"
-msgstr "CU vid offset %#<PRIx64> innehåller en skadad enhetstyp eller en enhetstyp som inte stöds: %d.\n"
+msgstr "CU vid offset %#<PRIx64> innehåller en skadad enhetstyp eller en enhetstyp "
+"som inte stöds: %d.\n"
 
 #: dwarf.c:5401
 #, c-format
@@ -2633,7 +2663,8 @@ msgstr " <%d><%lx>: …\n"
 #: dwarf.c:5460
 #, c-format
 msgid "DIE at offset %#lx refers to abbreviation number %lu which does not exist\n"
-msgstr "DIE på offsetvärdet %#lx refererar till förkortning nummer %lu som inte finns\n"
+msgstr "DIE på offsetvärdet %#lx refererar till förkortning nummer %lu som inte "
+"finns\n"
 
 #: dwarf.c:5531
 #, c-format
@@ -2657,7 +2688,8 @@ msgstr "Ej stödd adresstorlek (%u) i sektionen %s.\n"
 #: dwarf.c:5713
 #, c-format
 msgid "The length field (%#<PRIx64>) in the debug_line header is wrong - the section is too small\n"
-msgstr "Längdfältet (%#<PRIx64>) i debug_line-huvudet är felaktigt – sektionen är för liten\n"
+msgstr "Längdfältet (%#<PRIx64>) i debug_line-huvudet är felaktigt – sektionen är för "
+"liten\n"
 
 #: dwarf.c:5730
 msgid "Only DWARF version 2, 3, 4 and 5 line info is currently supported.\n"
@@ -2690,7 +2722,9 @@ msgstr "%s: Trasig formatbeskrivningspost\n"
 msgid ""
 "\n"
 " The %s is empty.\n"
-msgstr "\n %s är tom.\n"
+msgstr ""
+"\n"
+" %s är tom.\n"
 
 #: dwarf.c:5810
 #, c-format
@@ -2707,7 +2741,9 @@ msgstr "%s: formatantal är noll, men tabellen är inte tom\n"
 msgid ""
 "\n"
 " The %s (offset %#tx, lines %<PRIu64>, columns %u):\n"
-msgstr "\n %s (offset %#tx, rader %<PRIu64>, kolumner %u):\n"
+msgstr ""
+"\n"
+" %s (offset %#tx, rader %<PRIu64>, kolumner %u):\n"
 
 #: dwarf.c:5824
 #, c-format
@@ -2767,7 +2803,8 @@ msgstr "trasig .debug_sup-sektion: is_supplementary är inte 0 eller 1\n"
 
 #: dwarf.c:5930
 msgid "corrupt .debug_sup section: filename not empty in supplementary section\n"
-msgstr "trasig .debug_sup-sektion: filnamnet är inte tomt i den kompletterande sektionen\n"
+msgstr "trasig .debug_sup-sektion: filnamnet är inte tomt i den kompletterande "
+"sektionen\n"
 
 #: dwarf.c:5935
 msgid "corrupt .debug_sup section: filename is not NUL terminated\n"
@@ -2889,7 +2926,9 @@ msgstr "Radbasen sträcker sig utanför slutet på sektionen\n"
 msgid ""
 "\n"
 " Opcodes:\n"
-msgstr "\n Opkoder:\n"
+msgstr ""
+"\n"
+" Opkoder:\n"
 
 #: dwarf.c:6065
 #, c-format
@@ -2912,7 +2951,9 @@ msgstr ""
 msgid ""
 "\n"
 " The Directory Table (offset %#tx):\n"
-msgstr "\n Katalogtabellen (offset %#tx):\n"
+msgstr ""
+"\n"
+" Katalogtabellen (offset %#tx):\n"
 
 #: dwarf.c:6113
 #, c-format
@@ -2928,7 +2969,9 @@ msgstr ""
 msgid ""
 "\n"
 " The File Name Table (offset %#tx):\n"
-msgstr "\n Filnamnstabellen (offset %#tx):\n"
+msgstr ""
+"\n"
+" Filnamnstabellen (offset %#tx):\n"
 
 #: dwarf.c:6141
 msgid "Corrupt file name table entry\n"
@@ -3221,7 +3264,8 @@ msgstr "oanvänd7"
 #: dwarf.c:7294
 #, c-format
 msgid "Debug info is corrupted, %s header at %#lx has length %#<PRIx64>\n"
-msgstr "Felsökningsinformationen är skadad, %s-huvudet vid %#lx har längden %#<PRIx64>\n"
+msgstr "Felsökningsinformationen är skadad, %s-huvudet vid %#lx har längden "
+"%#<PRIx64>\n"
 
 #: dwarf.c:7309 dwarf.c:9058
 #, c-format
@@ -3257,7 +3301,9 @@ msgstr "Endast pubnames från DWARF 2 och 3 stöds för närvarande\n"
 msgid ""
 "\n"
 "    Offset  Kind          Name\n"
-msgstr "\n   Offset  Sort          Namn\n"
+msgstr ""
+"\n"
+"   Offset  Sort          Namn\n"
 
 #: dwarf.c:7340
 #, c-format
@@ -3575,7 +3621,9 @@ msgstr "  Offsetsposter:  %u\n"
 msgid ""
 "\n"
 "   Offset Entries starting at %#tx:\n"
-msgstr "\n   Offsetposter börjar vid %#tx:\n"
+msgstr ""
+"\n"
+"   Offsetposter börjar vid %#tx:\n"
 
 #: dwarf.c:8581 dwarf.c:9627
 #, c-format
@@ -3594,7 +3642,8 @@ msgstr ""
 #: dwarf.c:8639
 #, c-format
 msgid "The %s section contains corrupt or unsupported version number: %d.\n"
-msgstr "Sektionen %s innehåller ett skadat versionsnummer eller ett versionsnummer som inte stöds: %d.\n"
+msgstr "Sektionen %s innehåller ett skadat versionsnummer eller ett versionsnummer "
+"som inte stöds: %d.\n"
 
 #: dwarf.c:8660 dwarf.c:9148 dwarf.c:9675
 #, c-format
@@ -3672,7 +3721,8 @@ msgstr "Innehåll i SFrame-sektionen %s:"
 #: dwarf.c:9044
 #, c-format
 msgid "Debug info is corrupted, %s header at %#<PRIx64> has length %#<PRIx64>\n"
-msgstr "Felsökningsinformationen är skadad, %s-huvudet vid %#<PRIx64> har längden %#<PRIx64>\n"
+msgstr "Felsökningsinformationen är skadad, %s-huvudet vid %#<PRIx64> har längden "
+"%#<PRIx64>\n"
 
 #: dwarf.c:9072
 msgid "Only DWARF 2 and 3 aranges are currently supported.\n"
@@ -3813,14 +3863,17 @@ msgstr "Sektionen %s innehåller en segmentväljarstorlek som inte stöds: %d.\n
 
 #: dwarf.c:9610
 msgid "Only DWARF version 5+ debug_rnglists info is currently supported.\n"
-msgstr "Endast debug_rnglists-information från DWARF version 5+ stöds för närvarande.\n"
+msgstr "Endast debug_rnglists-information från DWARF version 5+ stöds för "
+"närvarande.\n"
 
 #: dwarf.c:9620
 #, c-format
 msgid ""
 "\n"
 "   Offsets starting at %#tx:\n"
-msgstr "\n   Offset börjar på %#tx:\n"
+msgstr ""
+"\n"
+"   Offset börjar på %#tx:\n"
 
 #. This can happen when the file was compiled with -gsplit-debug
 #. which removes references to range lists from the primary .o file.
@@ -4005,12 +4058,14 @@ msgstr "  DW_CFA_??? (Användardefinierad anropsramsinstruktion: %#x)\n"
 #: dwarf.c:11793
 #, c-format
 msgid "Unsupported or unknown Dwarf Call Frame Instruction number: %#x\n"
-msgstr "DWARF-anropsramsinstruktion med okänt nummer eller nummer som inte stöds: %#x\n"
+msgstr "DWARF-anropsramsinstruktion med okänt nummer eller nummer som inte stöds: "
+"%#x\n"
 
 #: dwarf.c:11897
 #, c-format
 msgid "Debug info is corrupted, %s header at %#tx has length %#<PRIx64>\n"
-msgstr "Felsökningsinformationen är skadad, %s-huvudet vid %#tx har längden %#<PRIx64>\n"
+msgstr "Felsökningsinformationen är skadad, %s-huvudet vid %#tx har längden "
+"%#<PRIx64>\n"
 
 #: dwarf.c:11906
 #, c-format
@@ -4063,7 +4118,8 @@ msgstr "[%3u] "
 #: dwarf.c:12016
 #, c-format
 msgid "Entry pool offset (%#<PRIx64>) exceeds unit size %#tx for unit %#tx in the debug_names\n"
-msgstr "Postpoolens offset (%#<PRIx64>) överskrider enhetsstorleken %#tx för enhet %#tx i debug_names\n"
+msgstr "Postpoolens offset (%#<PRIx64>) överskrider enhetsstorleken %#tx för enhet "
+"%#tx i debug_names\n"
 
 #: dwarf.c:12044
 #, c-format
@@ -4075,12 +4131,14 @@ msgstr[1] "Använde %zu av %lu hinkar.\n"
 #: dwarf.c:12073
 #, c-format
 msgid "Out of %<PRIu64> items there are %zu bucket clashes (longest of %zu entries).\n"
-msgstr "Av %<PRIu64> element finns %zu hinkkollisioner (som mest %zu poster i samma hink).\n"
+msgstr "Av %<PRIu64> element finns %zu hinkkollisioner (som mest %zu poster i samma "
+"hink).\n"
 
 #: dwarf.c:12078
 #, c-format
 msgid "The name_count (%<PRIu64>) is not the same as the used bucket_count (%zu) + the hash clash count (%zu)\n"
-msgstr "Värdet name_count (%<PRIu64>) är inte samma som det använda bucket_count (%zu) + hashkollisionsantalet (%zu)\n"
+msgstr "Värdet name_count (%<PRIu64>) är inte samma som det använda bucket_count "
+"(%zu) + hashkollisionsantalet (%zu)\n"
 
 #: dwarf.c:12116
 #, c-format
@@ -4477,7 +4535,9 @@ msgstr "Kan inte läsa in dwo-filen: %s\n"
 msgid ""
 "%s: Found separate debug object file: %s\n"
 "\n"
-msgstr "%s: Hittade separat objektfil med felsökningsinformation: %s\n\n"
+msgstr ""
+"%s: Hittade separat objektfil med felsökningsinformation: %s\n"
+"\n"
 
 #: dwarf.c:13626
 msgid "Unable to load the .note.gnu.build-id section\n"
@@ -4534,7 +4594,8 @@ msgstr "Oväntad DWO INFO-typ"
 msgid ""
 "The %s section contains link(s) to dwo file(s):\n"
 "\n"
-msgstr "Sektionen %s innehåller länk(ar) till dwo-fil(er):\n\n"
+msgstr "Sektionen %s innehåller länk(ar) till dwo-fil(er):\n"
+"\n"
 
 #: dwarf.c:13890
 #, c-format
@@ -5324,7 +5385,16 @@ msgid ""
 "  -F --target <bfdname>            Set both input and output format to <bfdname>\n"
 "     --debugging                   Convert debugging information, if possible\n"
 "  -p --preserve-dates              Copy modified/access timestamps to the output\n"
-msgstr "  -I --input-target <bfdnamn>      Anta att infilen är i formatet <bfdnamn>\n  -O --output-target <bfdnamn>     Skapa en utfil i formatet <bfdnamn>\n  -B --binary-architecture <ark>   Ange utdataarkitektur när indata saknar arkitektur\n  -F --target <bfdnamn>            Ange både indata- och utdataformat som <bfdnamn>\n     --debugging                   Konvertera felsökningsinformation, om möjligt\n  -p --preserve-dates              Kopiera tidsstämplar för ändring och åtkomst till utdata\n"
+msgstr ""
+"  -I --input-target <bfdnamn>      Anta att infilen är i formatet <bfdnamn>\n"
+"  -O --output-target <bfdnamn>     Skapa en utfil i formatet <bfdnamn>\n"
+"  -B --binary-architecture <ark>   Ange utdataarkitektur när indata saknar "
+"arkitektur\n"
+"  -F --target <bfdnamn>            Ange både indata- och utdataformat som "
+"<bfdnamn>\n"
+"     --debugging                   Konvertera felsökningsinformation, om möjligt\n"
+"  -p --preserve-dates              Kopiera tidsstämplar för ändring och "
+"åtkomst till utdata\n"
 
 #: objcopy.c:600 objcopy.c:744
 #, c-format
@@ -5467,7 +5537,143 @@ msgid ""
 "  -V --version                     Display this program's version number\n"
 "  -h --help                        Display this output\n"
 "     --info                        List object formats & architectures supported\n"
-msgstr "  -j --only-section <namn>         Kopiera endast sektionen <namn> till utdata\n     --add-gnu-debuglink=<fil>     Lägg till en sektion .gnu_debuglink länkad\n                                     till <fil>\n  -R --remove-section <namn>       Ta bort sektion <namn> från utdata\n     --remove-relocations <namn>   Ta bort omlokaliseringar från sektion <namn>\n     --strip-section-headers       Ta bort sektionshuvuden från utdatan\n  -S --strip-all                   Ta bort all symbol- och omlokaliserings-\n                                     information\n  -g --strip-debug                 Ta bort alla felsökningssymboler & -sektioner\n     --strip-dwo                   Ta bort alla DWO-sektioner\n     --strip-unneeded              Ta bort alla symboler som inte behövs för\n                                     omlokaliseringar\n  -N --strip-symbol <namn>         Kopiera inte symbolen <namn>\n     --strip-unneeded-symbol <namn>\n                                   Kopiera inte symbolen <namn> om den inte\n                                     behövs för omlokaliseringar\n     --only-keep-debug             Ta bort allting utom felsökningsinformationen\n     --extract-dwo                 Kopiera endast DWO-sektioner\n     --extract-symbol              Ta bort sektionsinnehåll men behåll symboler\n     --keep-section <namn>         Ta inte bort sektionen <namn>\n  -K --keep-symbol <namn>          Ta inte bort symbolen <namn>\n     --keep-section-symbols        Ta inte bort sektionssymboler\n     --keep-file-symbols           Ta inte bort filsymboler\n     --localize-hidden             Gör om alla dolda ELF-symboler till lokala\n  -L --localize-symbol <namn>      Tvinga symbolen <namn> att markeras lokal\n     --globalize-symbol <namn>     Tvinga symbolen <namn> att markeras global\n  -G --keep-global-symbol <namn>   Gör alla symboler lokala utom <namn>\n  -W --weaken-symbol <namn>        Tvinga symbolen <namn> att markeras svag\n     --weaken                      Tvinga alla globala symboler att markeras\n                                     svaga\n  -w --wildcard                    Tillåt jokertecken i symboljämförelser\n  -x --discard-all                 Ta bort alla icke-globala symboler\n  -X --discard-locals              Ta bort alla kompilatorgenererade symboler\n  -i --interleave[=<antal>]        Kopiera N av varje <antal> byte\n     --interleave-width <antal>    Sätt N för --interleave\n  -b --byte <num>                  Välj byte <num> i varje inflätat block\n     --gap-fill <värde>            Fyll luckor mellan sektioner med <värde>\n     --pad-to <adr>                Fyll ut sista sektion fram till adress <adr>\n     --set-start <adr>             Sätt startadressen till <adr>\n    {--change-start|--adjust-start} <ökn>\n                                   Lägg till <ökn> till startadressen\n    {--change-addresses|--adjust-vma} <ökn>\n                                   Lägg till <ökn> till LMA-, VMA- och start-\n                                     adresser\n    {--change-section-address|--adjust-section-vma} <namn>{=|+|-}<v>\n                                   Ändra LMA och VMA för sektion <namn> med <v>\n     --change-section-lma <namn>{=|+|-}<v>\n                                   Ändra LMA för sektion <namn> med <v>\n     --change-section-vma <namn>{=|+|-}<v>\n                                   Ändra VMA för sektion <namn> med <v>\n    {--[no-]change-warnings|--[no-]adjust-warnings}\n                                   Varna om en namngiven sektion inte finns\n     --set-section-flags <namn>=<flaggor>\n                                   Sätt sektion <namn>s egenskaper till\n                                     <flaggor>\n     --set-section-alignment <namn>=<just>\n                                   Sätt sektion <namn>s justering till <just> byte\n     --add-section <namn>=<fil>    Lägg till sektion <namn> från <fil> i utdata\n     --update-section <namn>=<fil>\n                                   Uppdatera innehållet i sektionen <namn> med\n                                   innehållet som finns i filen <fil>\n     --dump-section <namn>=<fil>   Skriv innehållet i sektion <namn> i <fil>\n     --rename-section <gammal>=<ny>[,<flaggor>] Byt namn på sektion <gammal>\n                                     till <ny>\n     --long-section-names {enable|disable|keep}\n                                   Hantera långa sektionsnamn i COFF-objekt.\n     --change-leading-char         Använd utdataformatets stil för inledande tecken\n     --remove-leading-char         Ta bort inledande tecken från globala\n                                     symboler\n     --reverse-bytes=<ant>         Reversera <ant> byte åt gången, i utsektioner\n                                     med innehåll\n     --redefine-sym <gammal>=<ny>  Omdefiniera symbolnamnet <gammal> till <ny>\n     --redefine-syms <fil>         --redefine-sym för alla symbolpar uppräknade\n                                     i <fil>\n     --srec-len <antal>            Begränsa längden på genererade S-poster\n     --srec-forceS3                Begränsa typen på genererade S-poster till S3\n     --strip-symbols <fil>         -N för alla symboler uppräknade i <fil>\n     --strip-unneeded-symbols <fil>\n                                   --strip-unneeded-symbol för alla symboler\n                                     uppräknade i <fil>\n     --keep-symbols <fil>          -K för alla symboler uppräknade i <fil>\n     --localize-symbols <fil>      -L för alla symboler uppräknade i <fil>\n     --globalize-symbols <fil>     --globalize-symbol för alla i <fil>\n     --keep-global-symbols <fil>   -G för alla symboler uppräknade i <fil>\n     --binary-symbol-prefix <prefix>\n                                    Använd <prefix> som bassymbolnamn för\n                                     indatafilen\n                                     (standard: härlett från filnamnet)\n     --weaken-symbols <fil>        -W för alla symboler uppräknade i <fil>\n     --add-symbol <namn>=[<sektion>:]<värde>[,<flaggor>]  Lägg till en symbol\n     --alt-machine-code <index>    Använd målets <index>:e alternativa maskin\n     --writable-text               Markera koden i utfilen som skrivbar\n     --readonly-text               Gör koden i utfilen skrivskyddad\n     --pure                        Markera utfilen för behovsstyrd sidinläsning\n     --impure                      Markera utfilen som oren\n     --prefix-symbols <prefix>     Lägg till <prefix> till början på varje\n                                     symbolnamn\n     --prefix-sections <prefix>    Lägg till <prefix> till början på varje\n                                     sektionsnamn\n     --prefix-alloc-sections <prefix>\n                                   Lägg till <prefix> till början på varje\n                                     allokerbar sektions namn\n     --file-alignment <ant>        Sätt PE-filjustering till <ant>\n     --heap <reserv>[,<initialt>]\n                                   Ange PE-heapens reserverade och initialt\n                                     allokerade storlek som <reserv>/<initialt>\n     --image-base <adress>         Sätt PE-avbildsbasen till <adress>\n     --section-alignment <ant>     Sätt PE-sektionsjustering till <ant>\n     --stack <reserv>[,<initialt>]\n                                   Ange PE-stackens reserverade och initialt\n                                     allokerade storlek som <reserv>/<initialt>\n     --subsystem <namn>[:<version>]\n                                   Sätt PE-undersystem till <namn> [& <version>]\n     --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi%s}]\n                                   Komprimera DWARF-felsökningssektioner\n     --decompress-debug-sections   Dekomprimera DWARF-felsökningssektioner med\n                                     zlib\n     --elf-stt-common=[yes|no]     Generera ELF common-symboler med typen\n                                     STT_COMMON\n     --verilog-data-width <antal>  Anger databredd, i byte, för Verilog-utdata\n  -M  --merge-notes                Ta bort överflödiga poster i\n                                     noteringssektioner\n      --no-merge-notes             Försök inte ta bort överflödiga noteringar\n                                     (standard)\n  -v --verbose                     Räkna upp alla modifierade objektfiler\n  @<fil>                           Läs flaggor från <fil>\n  -V --version                     Visa programmets versionsnummer\n  -h --help                        Visa denna utdata\n     --info                        Visa objektformat och arkitekturer som stöds\n"
+msgstr ""
+"  -j --only-section <namn>         Kopiera endast sektionen <namn> till utdata\n"
+"     --add-gnu-debuglink=<fil>     Lägg till en sektion .gnu_debuglink länkad\n"
+"                                     till <fil>\n"
+"  -R --remove-section <namn>       Ta bort sektion <namn> från utdata\n"
+"     --remove-relocations <namn>   Ta bort omlokaliseringar från sektion <namn>\n"
+"     --strip-section-headers       Ta bort sektionshuvuden från utdatan\n"
+"  -S --strip-all                   Ta bort all symbol- och omlokaliserings-\n"
+"                                     information\n"
+"  -g --strip-debug                 Ta bort alla felsökningssymboler & -sektioner\n"
+"     --strip-dwo                   Ta bort alla DWO-sektioner\n"
+"     --strip-unneeded              Ta bort alla symboler som inte behövs för\n"
+"                                     omlokaliseringar\n"
+"  -N --strip-symbol <namn>         Kopiera inte symbolen <namn>\n"
+"     --strip-unneeded-symbol <namn>\n"
+"                                   Kopiera inte symbolen <namn> om den inte\n"
+"                                     behövs för omlokaliseringar\n"
+"     --only-keep-debug             Ta bort allting utom felsökningsinformationen\n"
+"     --extract-dwo                 Kopiera endast DWO-sektioner\n"
+"     --extract-symbol              Ta bort sektionsinnehåll men behåll symboler\n"
+"     --keep-section <namn>         Ta inte bort sektionen <namn>\n"
+"  -K --keep-symbol <namn>          Ta inte bort symbolen <namn>\n"
+"     --keep-section-symbols        Ta inte bort sektionssymboler\n"
+"     --keep-file-symbols           Ta inte bort filsymboler\n"
+"     --localize-hidden             Gör om alla dolda ELF-symboler till lokala\n"
+"  -L --localize-symbol <namn>      Tvinga symbolen <namn> att markeras lokal\n"
+"     --globalize-symbol <namn>     Tvinga symbolen <namn> att markeras global\n"
+"  -G --keep-global-symbol <namn>   Gör alla symboler lokala utom <namn>\n"
+"  -W --weaken-symbol <namn>        Tvinga symbolen <namn> att markeras svag\n"
+"     --weaken                      Tvinga alla globala symboler att markeras\n"
+"                                     svaga\n"
+"  -w --wildcard                    Tillåt jokertecken i symboljämförelser\n"
+"  -x --discard-all                 Ta bort alla icke-globala symboler\n"
+"  -X --discard-locals              Ta bort alla kompilatorgenererade symboler\n"
+"  -i --interleave[=<antal>]        Kopiera N av varje <antal> byte\n"
+"     --interleave-width <antal>    Sätt N för --interleave\n"
+"  -b --byte <num>                  Välj byte <num> i varje inflätat block\n"
+"     --gap-fill <värde>            Fyll luckor mellan sektioner med <värde>\n"
+"     --pad-to <adr>                Fyll ut sista sektion fram till adress <adr>\n"
+"     --set-start <adr>             Sätt startadressen till <adr>\n"
+"    {--change-start|--adjust-start} <ökn>\n"
+"                                   Lägg till <ökn> till startadressen\n"
+"    {--change-addresses|--adjust-vma} <ökn>\n"
+"                                   Lägg till <ökn> till LMA-, VMA- och start-\n"
+"                                     adresser\n"
+"    {--change-section-address|--adjust-section-vma} <namn>{=|+|-}<v>\n"
+"                                   Ändra LMA och VMA för sektion <namn> med <v>\n"
+"     --change-section-lma <namn>{=|+|-}<v>\n"
+"                                   Ändra LMA för sektion <namn> med <v>\n"
+"     --change-section-vma <namn>{=|+|-}<v>\n"
+"                                   Ändra VMA för sektion <namn> med <v>\n"
+"    {--[no-]change-warnings|--[no-]adjust-warnings}\n"
+"                                   Varna om en namngiven sektion inte finns\n"
+"     --set-section-flags <namn>=<flaggor>\n"
+"                                   Sätt sektion <namn>s egenskaper till\n"
+"                                     <flaggor>\n"
+"     --set-section-alignment <namn>=<just>\n"
+"                                   Sätt sektion <namn>s justering till <just> byte\n"
+"     --add-section <namn>=<fil>    Lägg till sektion <namn> från <fil> i utdata\n"
+"     --update-section <namn>=<fil>\n"
+"                                   Uppdatera innehållet i sektionen <namn> med\n"
+"                                   innehållet som finns i filen <fil>\n"
+"     --dump-section <namn>=<fil>   Skriv innehållet i sektion <namn> i <fil>\n"
+"     --rename-section <gammal>=<ny>[,<flaggor>] Byt namn på sektion <gammal>\n"
+"                                     till <ny>\n"
+"     --long-section-names {enable|disable|keep}\n"
+"                                   Hantera långa sektionsnamn i COFF-objekt.\n"
+"     --change-leading-char         Använd utdataformatets stil för inledande "
+"tecken\n"
+"     --remove-leading-char         Ta bort inledande tecken från globala\n"
+"                                     symboler\n"
+"     --reverse-bytes=<ant>         Reversera <ant> byte åt gången, i utsektioner\n"
+"                                     med innehåll\n"
+"     --redefine-sym <gammal>=<ny>  Omdefiniera symbolnamnet <gammal> till <ny>\n"
+"     --redefine-syms <fil>         --redefine-sym för alla symbolpar uppräknade\n"
+"                                     i <fil>\n"
+"     --srec-len <antal>            Begränsa längden på genererade S-poster\n"
+"     --srec-forceS3                Begränsa typen på genererade S-poster till "
+"S3\n"
+"     --strip-symbols <fil>         -N för alla symboler uppräknade i <fil>\n"
+"     --strip-unneeded-symbols <fil>\n"
+"                                   --strip-unneeded-symbol för alla symboler\n"
+"                                     uppräknade i <fil>\n"
+"     --keep-symbols <fil>          -K för alla symboler uppräknade i <fil>\n"
+"     --localize-symbols <fil>      -L för alla symboler uppräknade i <fil>\n"
+"     --globalize-symbols <fil>     --globalize-symbol för alla i <fil>\n"
+"     --keep-global-symbols <fil>   -G för alla symboler uppräknade i <fil>\n"
+"     --binary-symbol-prefix <prefix>\n"
+"                                    Använd <prefix> som bassymbolnamn för\n"
+"                                     indatafilen\n"
+"                                     (standard: härlett från filnamnet)\n"
+"     --weaken-symbols <fil>        -W för alla symboler uppräknade i <fil>\n"
+"     --add-symbol <namn>=[<sektion>:]<värde>[,<flaggor>]  Lägg till en symbol\n"
+"     --alt-machine-code <index>    Använd målets <index>:e alternativa maskin\n"
+"     --writable-text               Markera koden i utfilen som skrivbar\n"
+"     --readonly-text               Gör koden i utfilen skrivskyddad\n"
+"     --pure                        Markera utfilen för behovsstyrd "
+"sidinläsning\n"
+"     --impure                      Markera utfilen som oren\n"
+"     --prefix-symbols <prefix>     Lägg till <prefix> till början på varje\n"
+"                                     symbolnamn\n"
+"     --prefix-sections <prefix>    Lägg till <prefix> till början på varje\n"
+"                                     sektionsnamn\n"
+"     --prefix-alloc-sections <prefix>\n"
+"                                   Lägg till <prefix> till början på varje\n"
+"                                     allokerbar sektions namn\n"
+"     --file-alignment <ant>        Sätt PE-filjustering till <ant>\n"
+"     --heap <reserv>[,<initialt>]\n"
+"                                   Ange PE-heapens reserverade och initialt\n"
+"                                     allokerade storlek som "
+"<reserv>/<initialt>\n"
+"     --image-base <adress>         Sätt PE-avbildsbasen till <adress>\n"
+"     --section-alignment <ant>     Sätt PE-sektionsjustering till <ant>\n"
+"     --stack <reserv>[,<initialt>]\n"
+"                                   Ange PE-stackens reserverade och initialt\n"
+"                                     allokerade storlek som "
+"<reserv>/<initialt>\n"
+"     --subsystem <namn>[:<version>]\n"
+"                                   Sätt PE-undersystem till <namn> [& <version>]\n"
+"     --compress-debug-sections[={none|zlib|zlib-gnu|zlib-gabi%s}]\n"
+"                                   Komprimera DWARF-felsökningssektioner\n"
+"     --decompress-debug-sections   Dekomprimera DWARF-felsökningssektioner med\n"
+"                                     zlib\n"
+"     --elf-stt-common=[yes|no]     Generera ELF common-symboler med typen\n"
+"                                     STT_COMMON\n"
+"     --verilog-data-width <antal>  Anger databredd, i byte, för "
+"Verilog-utdata\n"
+"  -M  --merge-notes                Ta bort överflödiga poster i\n"
+"                                     noteringssektioner\n"
+"      --no-merge-notes             Försök inte ta bort överflödiga noteringar\n"
+"                                     (standard)\n"
+"  -v --verbose                     Räkna upp alla modifierade objektfiler\n"
+"  @<fil>                           Läs flaggor från <fil>\n"
+"  -V --version                     Visa programmets versionsnummer\n"
+"  -h --help                        Visa denna utdata\n"
+"     --info                        Visa objektformat och arkitekturer som "
+"stöds\n"
 
 #: objcopy.c:734
 #, c-format
@@ -5486,7 +5692,13 @@ msgid ""
 "  -O --output-target=<bfdname>     Create an output file in format <bfdname>\n"
 "  -F --target=<bfdname>            Set both input and output format to <bfdname>\n"
 "  -p --preserve-dates              Copy modified/access timestamps to the output\n"
-msgstr "  -I --input-target=<bfdnamn>      Anta att infilen är i formatet <bfdnamn>\n  -O --output-target=<bfdnamn>     Skapa en utfil i formatet <bfdnamn>\n  -F --target=<bfdnamn>            Ange både indata- och utdataformat som <bfdnamn>\n  -p --preserve-dates              Kopiera tidsstämplar för ändring och åtkomst till utdata\n"
+msgstr ""
+"  -I --input-target=<bfdnamn>      Anta att infilen är i formatet <bfdnamn>\n"
+"  -O --output-target=<bfdnamn>     Skapa en utfil i formatet <bfdnamn>\n"
+"  -F --target=<bfdnamn>            Ange både indata- och utdataformat som "
+"<bfdnamn>\n"
+"  -p --preserve-dates              Kopiera tidsstämplar för ändring och "
+"åtkomst till utdata\n"
 
 #: objcopy.c:755
 #, c-format
@@ -5514,7 +5726,35 @@ msgid ""
 "  -h --help                        Display this output\n"
 "     --info                        List object formats & architectures supported\n"
 "  -o <file>                        Place stripped output into <file>\n"
-msgstr "  -R --remove-section=<namn>       Ta även bort sektion <namn> från utdatan\n     --remove-relocations <namn>   Ta bort omlokaliseringar från sektion <namn>\n     --strip-section-headers       Ta bort sektionshuvuden från utdatan\n  -s --strip-all                   Ta bort all symbol- och omlokaliseringsinformation\n  -g -S -d --strip-debug           Ta bort alla felsökningssymboler och felsökningssektioner\n     --strip-dwo                   Ta bort alla DWO-sektioner\n     --strip-unneeded              Ta bort alla symboler som inte är\n                                   nödvändiga för omlokaliseringen\n     --only-keep-debug             Ta bort allt utom felsökningsinformationen\n  -M  --merge-notes                Ta bort överflödiga poster i\n                                     noteringssektioner (standard)\n      --no-merge-notes             Försök inte ta bort överflödiga noteringar\n  -N --strip-symbol=<namn>         Kopiera inte symbol <namn>\n     --keep-section=<namn>         Ta inte bort sektionen <namn>\n  -K --keep-symbol=<namn>          Ta inte bort symbol <namn>\n     --keep-section-symbols        Ta inte bort sektionssymboler\n     --keep-file-symbols           Ta inte bort filsymboler\n  -w --wildcard                    Tillåt jokertecken i symboljämförelser\n  -x --discard-all                 Ta bort alla icke-globala symboler\n  -X --discard-locals              Ta bort alla kompilatorgenererade symboler\n  -v --verbose                     Lista alla förändrade objektfiler\n  -V --version                     Visa programmets versionsinformation\n  -h --help                        Visa denna hjälp\n     --info                        Lista objektformat & arkitekturer som stöds\n  -o <fil>                         Spara den rensade utdatan i <fil>\n"
+msgstr ""
+"  -R --remove-section=<namn>       Ta även bort sektion <namn> från utdatan\n"
+"     --remove-relocations <namn>   Ta bort omlokaliseringar från sektion <namn>\n"
+"     --strip-section-headers       Ta bort sektionshuvuden från utdatan\n"
+"  -s --strip-all                   Ta bort all symbol- och "
+"omlokaliseringsinformation\n"
+"  -g -S -d --strip-debug           Ta bort alla felsökningssymboler och "
+"felsökningssektioner\n"
+"     --strip-dwo                   Ta bort alla DWO-sektioner\n"
+"     --strip-unneeded              Ta bort alla symboler som inte är\n"
+"                                   nödvändiga för omlokaliseringen\n"
+"     --only-keep-debug             Ta bort allt utom felsökningsinformationen\n"
+"  -M  --merge-notes                Ta bort överflödiga poster i\n"
+"                                     noteringssektioner (standard)\n"
+"      --no-merge-notes             Försök inte ta bort överflödiga noteringar\n"
+"  -N --strip-symbol=<namn>         Kopiera inte symbol <namn>\n"
+"     --keep-section=<namn>         Ta inte bort sektionen <namn>\n"
+"  -K --keep-symbol=<namn>          Ta inte bort symbol <namn>\n"
+"     --keep-section-symbols        Ta inte bort sektionssymboler\n"
+"     --keep-file-symbols           Ta inte bort filsymboler\n"
+"  -w --wildcard                    Tillåt jokertecken i symboljämförelser\n"
+"  -x --discard-all                 Ta bort alla icke-globala symboler\n"
+"  -X --discard-locals              Ta bort alla kompilatorgenererade symboler\n"
+"  -v --verbose                     Lista alla förändrade objektfiler\n"
+"  -V --version                     Visa programmets versionsinformation\n"
+"  -h --help                        Visa denna hjälp\n"
+"     --info                        Lista objektformat & arkitekturer som "
+"stöds\n"
+"  -o <fil>                         Spara den rensade utdatan i <fil>\n"
 
 #: objcopy.c:781
 #, c-format
@@ -6085,7 +6325,8 @@ msgstr "bytenumret måste vara mindre än värdet för --interleave"
 
 #: objcopy.c:6195
 msgid "interleave width must be less than or equal to interleave - byte`"
-msgstr "värdet för --interleave-width måste vara mindre än eller lika med värdet för --interleave minus värdet för --byte"
+msgstr "värdet för --interleave-width måste vara mindre än eller lika med värdet för "
+"--interleave minus värdet för --byte"
 
 #: objcopy.c:6218
 #, c-format
@@ -6185,7 +6426,8 @@ msgstr "  -s, --full-contents      Visa hela innehållet i alla begärda sektion
 #: objdump.c:288
 #, c-format
 msgid "  -Z, --decompress         Decompress section(s) before displaying their contents\n"
-msgstr "  -Z, --decompress         Dekomprimera sektionerna innan deras innehåll visas\n"
+msgstr "  -Z, --decompress         Dekomprimera sektionerna innan deras innehåll "
+"visas\n"
 
 #: objdump.c:290
 #, c-format
@@ -6459,7 +6701,10 @@ msgstr "  -w, --wide                     Formatera utmatningar för mer än 80 k
 msgid ""
 "  -U[d|l|i|x|e|h]                Controls the display of UTF-8 unicode characters\n"
 "  --unicode=[default|locale|invalid|hex|escape|highlight]\n"
-msgstr "  -U[d|l|i|x|e|h]                Styr visningen av UTF-8-kodade Unicode-tecken\n  --unicode=[default|locale|invalid|hex|escape|highlight]\n"
+msgstr ""
+"  -U[d|l|i|x|e|h]                Styr visningen av UTF-8-kodade "
+"Unicode-tecken\n"
+"  --unicode=[default|locale|invalid|hex|escape|highlight]\n"
 
 #: objdump.c:399
 #, c-format
@@ -6503,7 +6748,9 @@ msgstr "      --insn-width=BREDD         Visa BREDD byte på en rad med -d\n"
 #: objdump.c:413
 #, c-format
 msgid "      --adjust-vma=OFFSET        Add OFFSET to all displayed section addresses\n"
-msgstr "      --adjust-vma=OFFSET       Lägg till OFFSET till alla visade\n                                  sektionsadresser\n"
+msgstr ""
+"      --adjust-vma=OFFSET       Lägg till OFFSET till alla visade\n"
+"                                  sektionsadresser\n"
 
 #: objdump.c:415
 #, c-format
@@ -6518,7 +6765,8 @@ msgstr "      --special-syms             Ta med specialsymboler i symboldumpar\n
 #: objdump.c:419
 #, c-format
 msgid "      --inlines                  Print all inlines for source line (with -l)\n"
-msgstr "      --inlines                  Visa alla inline-expanderade anrop för\n                                  källkodsraden (med -l)\n"
+msgstr "      --inlines                  Visa alla inline-expanderade anrop för\n"
+"                                  källkodsraden (med -l)\n"
 
 #: objdump.c:421
 #, c-format
@@ -6577,22 +6825,26 @@ msgstr "      --visualize-jumps=off      Avaktivera hoppvisualisering\n"
 #: objdump.c:445
 #, c-format
 msgid "      --disassembler-color=off       Disable disassembler color output.\n"
-msgstr "      --disassembler-color=off       Avaktivera färger i disassemblerarens utdata.\n"
+msgstr "      --disassembler-color=off       Avaktivera färger i disassemblerarens "
+"utdata.\n"
 
 #: objdump.c:447
 #, c-format
 msgid "      --disassembler-color=terminal  Enable disassembler color output if displaying on a terminal. (default)\n"
-msgstr "      --disassembler-color=terminal  Aktivera färger i disassemblerarens utdata vid visning på en terminal. (standard).\n"
+msgstr "      --disassembler-color=terminal  Aktivera färger i disassemblerarens "
+"utdata vid visning på en terminal. (standard).\n"
 
 #: objdump.c:450
 #, c-format
 msgid "      --disassembler-color=off       Disable disassembler color output. (default)\n"
-msgstr "      --disassembler-color=off   Avaktivera färger i disassemblerarens utdata. (standard)\n"
+msgstr "      --disassembler-color=off   Avaktivera färger i disassemblerarens "
+"utdata. (standard)\n"
 
 #: objdump.c:452
 #, c-format
 msgid "      --disassembler-color=terminal  Enable disassembler color output if displaying on a terminal.\n"
-msgstr "      --disassembler-color=terminal  Aktivera färger i disassemblerarens utdata vid visning på en terminal.\n"
+msgstr "      --disassembler-color=terminal  Aktivera färger i disassemblerarens "
+"utdata vid visning på en terminal.\n"
 
 #: objdump.c:455
 #, c-format
@@ -6604,14 +6856,19 @@ msgstr "      --disassembler-color=on    Aktivera färger i disassemblerarens ut
 msgid ""
 "      --disassembler-color=extended  Use 8-bit colors in disassembler output.\n"
 "\n"
-msgstr "      --disassembler-color=extended  Använd 8-bitars färger i disassemblerarens utdata.\n\n"
+msgstr ""
+"      --disassembler-color=extended  Använd 8-bitars färger i "
+"disassemblerarens utdata.\n"
+"\n"
 
 #: objdump.c:468
 #, c-format
 msgid ""
 "\n"
 "Options supported for -P/--private switch:\n"
-msgstr "\nFlaggor som stöds för -P/--private:\n"
+msgstr ""
+"\n"
+"Flaggor som stöds för -P/--private:\n"
 
 #: objdump.c:845
 #, c-format
@@ -6843,7 +7100,8 @@ msgstr "  (Startar vid filoffset: 0x%lx)"
 #: objdump.c:5194 readelf.c:17371
 #, c-format
 msgid " NOTE: This section is compressed, but its contents have NOT been expanded for this dump.\n"
-msgstr " OBSERVERA: Denna sektion är komprimerad, men dess innehåll har INTE dekomprimerats för denna dump.\n"
+msgstr " OBSERVERA: Denna sektion är komprimerad, men dess innehåll har INTE "
+"dekomprimerats för denna dump.\n"
 
 #: objdump.c:5302
 #, c-format
@@ -6963,12 +7221,14 @@ msgstr ""
 #: od-elf32_avr.c:190
 #, c-format
 msgid "Warning: section %s has a negative size of %ld bytes, saturating to 0 bytes\n"
-msgstr "Varning: sektionen %s har en negativ storlek på %ld byte, sätter storleken till 0 byte\n"
+msgstr "Varning: sektionen %s har en negativ storlek på %ld byte, sätter storleken "
+"till 0 byte\n"
 
 #: od-elf32_avr.c:197
 #, c-format
 msgid "Warning: section %s has an impossible size of %lu bytes, truncating to %lu bytes\n"
-msgstr "Varning: sektionen %s har en omöjlig storlek på %lu byte, begränsar till %lu byte\n"
+msgstr "Varning: sektionen %s har en omöjlig storlek på %lu byte, begränsar till %lu "
+"byte\n"
 
 #: od-macho.c:75
 #, c-format
@@ -6986,7 +7246,21 @@ msgid ""
 "  data_in_code     Display data in code entries\n"
 "  twolevel_hints   Display the two-level namespace lookup hints table\n"
 "  dyld_info        Display dyld information\n"
-msgstr "För Mach-O-filer:\n  header           Visa filhuvudet\n  section          Visa segments- och sektionskommandona\n  map              Visa sektionskartan\n  load             Visa inläsningskommandona\n  dysymtab         Visa tabellen över dynamiska symboler\n  codesign         Visa kodsignatur\n  seg_split_info   Visa segmentsdelningsinformation\n  compact_unwind   Visa kompakt information för stackavveckling\n  function_starts  Visa startadressen för funktioner\n  data_in_code     Visa data i kodposter\n  twolevel_hints   Visa tabellen med ledtrådar för uppslagning i\n                     namnrymden med två nivåer\n  dyld_info        Visa dyld-information\n"
+msgstr ""
+"För Mach-O-filer:\n"
+"  header           Visa filhuvudet\n"
+"  section          Visa segments- och sektionskommandona\n"
+"  map              Visa sektionskartan\n"
+"  load             Visa inläsningskommandona\n"
+"  dysymtab         Visa tabellen över dynamiska symboler\n"
+"  codesign         Visa kodsignatur\n"
+"  seg_split_info   Visa segmentsdelningsinformation\n"
+"  compact_unwind   Visa kompakt information för stackavveckling\n"
+"  function_starts  Visa startadressen för funktioner\n"
+"  data_in_code     Visa data i kodposter\n"
+"  twolevel_hints   Visa tabellen med ledtrådar för uppslagning i\n"
+"                     namnrymden med två nivåer\n"
+"  dyld_info        Visa dyld-information\n"
 
 #: od-macho.c:314
 msgid "Mach-O header:\n"
@@ -7094,7 +7368,8 @@ msgstr "  flaggor:           %08x\n"
 #: od-macho.c:1182
 #, c-format
 msgid "  hash offset:       %08x\n"
-msgstr "  hash-offset:       %08x\n"
+msgstr ""
+"  hash-offset:       %08x\n"
 
 #: od-macho.c:1184
 #, c-format
@@ -7244,7 +7519,9 @@ msgstr ""
 msgid ""
 "\n"
 "  File Header (at offset 0):\n"
-msgstr "\n  Filhuvud (vid offset 0):\n"
+msgstr ""
+"\n"
+"  Filhuvud (vid offset 0):\n"
 
 #: od-pe.c:293
 #, c-format
@@ -7336,7 +7613,9 @@ msgstr "Stubbmeddelande:\t\t\t"
 msgid ""
 "\n"
 "  Image Header (at offset %#lx):\n"
-msgstr "\n  Avbildshuvud (på offset %#lx):\n"
+msgstr ""
+"\n"
+"  Avbildshuvud (på offset %#lx):\n"
 
 #: od-pe.c:391
 #, c-format
@@ -7383,7 +7662,9 @@ msgstr "Flaggor:\t\t\t0x%04x\t\t- "
 msgid ""
 "\n"
 "  Optional 64-bit AOUT Header (at offset %#lx):\n"
-msgstr "\n  Valfritt 64-bitars AOUT-huvud (vid offset %#lx):\n"
+msgstr ""
+"\n"
+"  Valfritt 64-bitars AOUT-huvud (vid offset %#lx):\n"
 
 #: od-pe.c:431
 #, c-format
@@ -7435,7 +7716,9 @@ msgstr "Kodstart:\t\t\t%#lx\n"
 msgid ""
 "\n"
 "  Optional PE+ Header (at offset %#lx):\n"
-msgstr "\n  Valfritt PE+-huvud (på offset %#lx):\n"
+msgstr ""
+"\n"
+"  Valfritt PE+-huvud (på offset %#lx):\n"
 
 #: od-pe.c:458 od-pe.c:571
 #, c-format
@@ -7543,7 +7826,9 @@ msgstr "Antal RVA-/storlekspar:\t\t%#lx\n"
 msgid ""
 "\n"
 "  Optional 32-bit AOUT Header (at offset %#lx, size %d):\n"
-msgstr "\n  Valfritt 32-bitars AOUT-huvud (vid offset %#lx, storlek %d):\n"
+msgstr ""
+"\n"
+"  Valfritt 32-bitars AOUT-huvud (vid offset %#lx, storlek %d):\n"
 
 #: od-pe.c:533
 #, c-format
@@ -7560,7 +7845,9 @@ msgstr "Datastart:\t\t\t%#lx\n"
 msgid ""
 "\n"
 "  Optional PE Header (at offset %#lx):\n"
-msgstr "\n  Valfritt PE-huvud (på offset %#lx):\n"
+msgstr ""
+"\n"
+"  Valfritt PE-huvud (på offset %#lx):\n"
 
 #: od-pe.c:568
 #, c-format
@@ -7572,7 +7859,9 @@ msgstr "fel: kunde inte söka till/läsa PE-huvudet\n"
 msgid ""
 "\n"
 "Unsupported size of Optional Header\n"
-msgstr "\nDet valfria huvudets storlek stöds inte\n"
+msgstr ""
+"\n"
+"Det valfria huvudets storlek stöds inte\n"
 
 #: od-pe.c:636
 #, c-format
@@ -7663,7 +7952,9 @@ msgstr "Justering: *okänd* "
 msgid ""
 "\n"
 "Section headers (at offset 0x%08x):\n"
-msgstr "\nSektionshuvuden (på offset 0x%08x):\n"
+msgstr ""
+"\n"
+"Sektionshuvuden (på offset 0x%08x):\n"
 
 #: od-pe.c:697
 #, c-format
@@ -7721,7 +8012,20 @@ msgid ""
 "  traceback   Display traceback tags\n"
 "  toc         Display toc symbols\n"
 "  ldinfo      Display loader info in core files\n"
-msgstr "För XCOFF-filer:\n  header      Visa filhuvudet\n  aout        Visa det extra huvudet\n  sections    Visa sektionshuvuden\n  syms        Visa symboltabellen\n  relocs      Visa omlokaliseringsposter\n  lineno      Visa radnummerposter\n  loader      Visa inläsarsektionen\n  except      Visa undantagstabellen\n  typchk      Visa typkontrollsektionen\n  traceback   Visa återspårningstaggar\n  toc         Visa toc-symboler\n  ldinfo      Visa inläsarinformation i minnesdumpfiler\n"
+msgstr ""
+"För XCOFF-filer:\n"
+"  header      Visa filhuvudet\n"
+"  aout        Visa det extra huvudet\n"
+"  sections    Visa sektionshuvuden\n"
+"  syms        Visa symboltabellen\n"
+"  relocs      Visa omlokaliseringsposter\n"
+"  lineno      Visa radnummerposter\n"
+"  loader      Visa inläsarsektionen\n"
+"  except      Visa undantagstabellen\n"
+"  typchk      Visa typkontrollsektionen\n"
+"  traceback   Visa återspårningstaggar\n"
+"  toc         Visa toc-symboler\n"
+"  ldinfo      Visa inläsarinformation i minnesdumpfiler\n"
 
 #: od-xcoff.c:419
 #, c-format
@@ -8104,7 +8408,9 @@ msgstr "kan inte läsa tabellen med inläsarinformation"
 msgid ""
 "\n"
 "ldinfo dump not supported in 32 bits environments\n"
-msgstr "\nldinfo-dump stöds inte i 32-bitarsmiljöer\n"
+msgstr ""
+"\n"
+"ldinfo-dump stöds inte i 32-bitarsmiljöer\n"
 
 #: od-xcoff.c:1789
 msgid "cannot core read header"
@@ -8303,12 +8609,14 @@ msgstr " Offset     Info    Typ             Sym.värde  Symbolnamn\n"
 #: readelf.c:2306
 #, c-format
 msgid "    Offset             Info             Type               Symbol's Value  Symbol's Name + Addend\n"
-msgstr "    Offset             Info             Typ                Symbolvärde     Symbolnamn + Addend\n"
+msgstr "    Offset             Info             Typ                Symbolvärde     "
+"Symbolnamn + Addend\n"
 
 #: readelf.c:2308
 #, c-format
 msgid "  Offset          Info           Type           Sym. Value    Sym. Name + Addend\n"
-msgstr "  Offset          Info           Typ            Symbolvärde   Symbolnamn + Addend\n"
+msgstr "  Offset          Info           Typ            Symbolvärde   Symbolnamn + "
+"Addend\n"
 
 #: readelf.c:2313
 #, c-format
@@ -8622,7 +8930,9 @@ msgstr "     --no-demangle       Avmangla inte lågnivåsymbolnamn. (standard)\n
 #: readelf.c:6628
 #, c-format
 msgid "     --recurse-limit     Enable a demangling recursion limit.  (default)\n"
-msgstr "     --recurse-limit     Aktivera en rekursionsgräns vid avmangling. (standard)\n"
+msgstr ""
+"     --recurse-limit     Aktivera en rekursionsgräns vid avmangling."
+" (standard)\n"
 
 #: readelf.c:6630
 #, c-format
@@ -8637,7 +8947,13 @@ msgid ""
 "                          (default), escape sequences, \"<hex sequences>\", highlighted\n"
 "                          escape sequences, or treat them as invalid and display as\n"
 "                          \"{hex sequences}\"\n"
-msgstr "     -U[dlexhi] --unicode=[default|locale|escape|hex|highlight|invalid]\n                         Visa Unicode-tecken enligt den aktuella lokalen\n                          (standard), som escape-sekvenser, ”<hex-sekvenser>”,\n                          markerade escape-sekvenser eller behandla dem som\n                          ogiltiga och visa dem som ”{hex-sekvenser}”\n"
+msgstr ""
+"     -U[dlexhi] --unicode=[default|locale|escape|hex|highlight|invalid]\n"
+"                         Visa Unicode-tecken enligt den aktuella lokalen\n"
+"                          (standard), som escape-sekvenser, "
+"”<hex-sekvenser>”,\n"
+"                          markerade escape-sekvenser eller behandla dem som\n"
+"                          ogiltiga och visa dem som ”{hex-sekvenser}”\n"
 
 #: readelf.c:6638
 #, c-format
@@ -8721,7 +9037,10 @@ msgstr ""
 msgid ""
 "  -R --relocated-dump=<number|name>\n"
 "                         Dump the relocated contents of section <number|name>\n"
-msgstr "  -R --relocated-dump=<nummer|namn>\n                         Visa det omlokaliserade innehållet i sektion <nummer|namn>\n"
+msgstr ""
+"  -R --relocated-dump=<nummer|namn>\n"
+"                         Visa det omlokaliserade innehållet i sektion "
+"<nummer|namn>\n"
 
 #: readelf.c:6670
 #, c-format
@@ -8830,7 +9149,9 @@ msgstr ""
 msgid ""
 "  -wE --debug-dump=do-not-use-debuginfod\n"
 "                         When following links, do not query debuginfod servers\n"
-msgstr "  -wE --debug-dump=do-not-use-debuginfod\n                         När länkar följs, fråga inte debuginfod-servrar\n"
+msgstr ""
+"  -wE --debug-dump=do-not-use-debuginfod\n"
+"                         När länkar följs, fråga inte debuginfod-servrar\n"
 
 #: readelf.c:6712
 #, c-format
@@ -9148,7 +9469,8 @@ msgstr "Slut på minne när %u programhuvuden lästes\n"
 
 #: readelf.c:7519
 msgid "possibly corrupt ELF header - it has a non-zero program header offset, but no program headers\n"
-msgstr "möjligen skadat ELF-huvud – det har ett offset för programhuvuden som inte är noll, men inga programhuvuden\n"
+msgstr "möjligen skadat ELF-huvud – det har ett offset för programhuvuden som inte är "
+"noll, men inga programhuvuden\n"
 
 #: readelf.c:7524
 #, c-format
@@ -9173,7 +9495,9 @@ msgstr ""
 msgid ""
 "\n"
 "Elf file type is %s\n"
-msgstr "\nELF-filtypen är %s\n"
+msgstr ""
+"\n"
+"ELF-filtypen är %s\n"
 
 #: readelf.c:7540
 #, c-format
@@ -9263,7 +9587,9 @@ msgstr "      [Begär programtolkare: %s]\n"
 msgid ""
 "\n"
 " Section to Segment mapping:\n"
-msgstr "\n Koppling mellan sektioner och segment:\n"
+msgstr ""
+"\n"
+" Koppling mellan sektioner och segment:\n"
 
 #: readelf.c:7789
 #, c-format
@@ -9322,7 +9648,8 @@ msgstr "Ignorerar sh_offset-värdet %<PRId64> utanför intervallet för sektion 
 #: readelf.c:7971
 #, c-format
 msgid "Ignore the out of range sh_size value of %<PRIu64> for section %u with sh_offset value of %<PRId64>\n"
-msgstr "Ignorerar sh_size-värdet %<PRIu64> utanför intervallet för sektion %u med sh_offset-värdet %<PRId64>\n"
+msgstr "Ignorerar sh_size-värdet %<PRIu64> utanför intervallet för sektion %u med "
+"sh_offset-värdet %<PRId64>\n"
 
 #: readelf.c:8009 readelf.c:8082
 msgid "The e_shentsize field in the ELF header is less than the size of an ELF section header\n"
@@ -9388,7 +9715,8 @@ msgstr "Komprimerad sektion är för liten till och med för ett komprimeringshu
 
 #: readelf.c:8746
 msgid "possibly corrupt ELF file header - it has a non-zero section header offset, but no section headers\n"
-msgstr "möjligen skadat ELF-filhuvud – det har ett offset för sektionshuvuden som inte är noll, men inga sektionshuvuden\n"
+msgstr "möjligen skadat ELF-filhuvud – det har ett offset för sektionshuvuden som "
+"inte är noll, men inga sektionshuvuden\n"
 
 #: readelf.c:8751
 #, c-format
@@ -9487,7 +9815,8 @@ msgstr "       Typ             Adr      Offs    Strl  PS  Lk  Inf Ju\n"
 #: readelf.c:9044
 #, c-format
 msgid "  [Nr] Name              Type            Addr     Off    Size   ES Flg Lk Inf Al\n"
-msgstr "  [Nr] Namn              Typ             Adr      Offs   Strl   PS Flg Lk Inf Ju\n"
+msgstr "  [Nr] Namn              Typ             Adr      Offs   Strl   PS Flg Lk Inf "
+"Ju\n"
 
 #: readelf.c:9051
 #, c-format
@@ -9497,7 +9826,8 @@ msgstr "       Typ             Adress           Offs   Strl   PS  Lk  Inf Ju\n"
 #: readelf.c:9055
 #, c-format
 msgid "  [Nr] Name              Type            Address          Off    Size   ES Flg Lk Inf Al\n"
-msgstr "  [Nr] Namn              Typ             Adress           Offs   Strl   PS Flg Lk Inf Ju\n"
+msgstr "  [Nr] Namn              Typ             Adress           Offs   Strl   PS "
+"Flg Lk Inf Ju\n"
 
 #: readelf.c:9062
 #, c-format
@@ -9589,7 +9919,13 @@ msgid ""
 "  L (link order), O (extra OS processing required), G (group), T (TLS),\n"
 "  C (compressed), x (unknown), o (OS specific), E (exclude),\n"
 "  "
-msgstr "Förklaring av flaggorna:\n  W (skrivbar), A (allokeras), X (körbar), M (sammanslagning), S (strängar), I (info),\n  L (länkordning), O (extra OS-bearbetning krävs), G (grupp), T (TLS),\n  C (komprimerad), x (okänd), o (OS-specifik), E (uteslut),\n  "
+msgstr ""
+"Förklaring av flaggorna:\n"
+"  W (skrivbar), A (allokeras), X (körbar), M (sammanslagning), S (strängar), "
+"I (info),\n"
+"  L (länkordning), O (extra OS-bearbetning krävs), G (grupp), T (TLS),\n"
+"  C (komprimerad), x (okänd), o (OS-specifik), E (uteslut),\n"
+"  "
 
 #: readelf.c:9456
 #, c-format
@@ -9749,7 +10085,10 @@ msgstr "trasigt biblioteksnamnsindex på %#<PRIx64> hittat i en dynamisk post"
 msgid ""
 "\n"
 "Image fixups for needed library #%<PRId64>: %s - ident: %<PRIx64>\n"
-msgstr "\nAdresskorrigeringar i avbilden för beroendebibliotek nr %<PRId64>: %s – ident: %<PRIx64>\n"
+msgstr ""
+"\n"
+"Adresskorrigeringar i avbilden för beroendebibliotek nr %<PRId64>: %s – "
+"ident: %<PRIx64>\n"
 
 #: readelf.c:9879
 #, c-format
@@ -9831,7 +10170,10 @@ msgstr "de dynamiska taggarna DT_REL och DT_RELA saknas\n"
 msgid ""
 "\n"
 "In linked file '%s' section '%s' at offset%#<PRIx64> contains %<PRId64> bytes:\n"
-msgstr "\nI den länkade filen ”%s” innehåller sektionen ”%s” vid offset %#<PRIx64> %<PRId64> byte:\n"
+msgstr ""
+"\n"
+"I den länkade filen ”%s” innehåller sektionen ”%s” vid offset %#<PRIx64> "
+"%<PRId64> byte:\n"
 
 #: readelf.c:10250
 #, c-format
@@ -9958,7 +10300,9 @@ msgstr "Flera symboltabeller påträffade\n"
 msgid ""
 "\n"
 "There are no unwind sections in this file.\n"
-msgstr "\nDet finns inga sektioner för stackavveckling i denna fil.\n"
+msgstr ""
+"\n"
+"Det finns inga sektioner för stackavveckling i denna fil.\n"
 
 #  BUGG: Fortsättningen är inte markerad för översättning i koden och innehåller '-citattecken.
 #: readelf.c:10839
@@ -9966,7 +10310,9 @@ msgstr "\nDet finns inga sektioner för stackavveckling i denna fil.\n"
 msgid ""
 "\n"
 "Could not find unwind info section for "
-msgstr "\nKunde inte hitta sektionen med information för stackavveckling för "
+msgstr ""
+"\n"
+"Kunde inte hitta sektionen med information för stackavveckling för "
 
 #: readelf.c:10851
 msgid "unwind info"
@@ -9977,7 +10323,9 @@ msgstr "information för stackavveckling"
 msgid ""
 "\n"
 "Unwind section "
-msgstr "\nSektion för stackavveckling "
+msgstr ""
+"\n"
+"Sektion för stackavveckling "
 
 #: readelf.c:10861
 #, c-format
@@ -9992,8 +10340,14 @@ msgid ""
 msgid_plural ""
 "\n"
 "Unwind section '%s' at offset %#<PRIx64> contains %<PRIu64> entries:\n"
-msgstr[0] "\nSektionen ”%s” för stackavveckling vid offset %#<PRIx64> innehåller %<PRIu64> post:\n"
-msgstr[1] "\nSektionen ”%s” för stackavveckling vid offset %#<PRIx64> innehåller %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"Sektionen ”%s” för stackavveckling vid offset %#<PRIx64> innehåller %<PRIu64> "
+"post:\n"
+msgstr[1] ""
+"\n"
+"Sektionen ”%s” för stackavveckling vid offset %#<PRIx64> innehåller %<PRIu64> "
+"poster:\n"
 
 #: readelf.c:11364
 msgid "unwind data"
@@ -10012,7 +10366,8 @@ msgstr "Okänd sektionsomlokaliseringstyp %d påträffad\n"
 #: readelf.c:11466
 #, c-format
 msgid "Bad symbol index in unwind relocation (%<PRIu64> > %<PRIu64>)\n"
-msgstr "Felaktigt symbolindex i omlokalisering för stackavveckling (%<PRIu64> > %<PRIu64>)\n"
+msgstr "Felaktigt symbolindex i omlokalisering för stackavveckling (%<PRIu64> > "
+"%<PRIu64>)\n"
 
 #: readelf.c:11482
 #, c-format
@@ -10163,7 +10518,8 @@ msgstr "  [reserverad (%d)]\n"
 #: readelf.c:12146
 #, c-format
 msgid "Unsupported architecture type %d encountered when decoding unwind table\n"
-msgstr "Arkitekturtyp %d som inte stöds påträffades vid avkodning av stackavvecklingstabellen\n"
+msgstr "Arkitekturtyp %d som inte stöds påträffades vid avkodning av "
+"stackavvecklingstabellen\n"
 
 #: readelf.c:12201
 #, c-format
@@ -10173,7 +10529,8 @@ msgstr "skadad post i indextabellen: %x\n"
 #: readelf.c:12240
 #, c-format
 msgid "Unwind entry contains corrupt offset (%#<PRIx64>) into section %s\n"
-msgstr "Stackavvecklingsposten innehåller ett skadat offset (%#<PRIx64>) in i sektionen %s\n"
+msgstr "Stackavvecklingsposten innehåller ett skadat offset (%#<PRIx64>) in i "
+"sektionen %s\n"
 
 #: readelf.c:12256
 #, c-format
@@ -10183,7 +10540,8 @@ msgstr "Kunde inte hitta sektionen .ARM.extab innehållande %#<PRIx64>.\n"
 #: readelf.c:12300
 #, c-format
 msgid "Unsupported architecture type %d encountered when processing unwind table\n"
-msgstr "Arkitekturtyp %d som inte stöds påträffades när stackavvecklingstabellen bearbetades\n"
+msgstr "Arkitekturtyp %d som inte stöds påträffades när stackavvecklingstabellen "
+"bearbetades\n"
 
 #: readelf.c:12362
 #, c-format
@@ -10195,7 +10553,10 @@ msgstr "Ingen processorspecifik information för stackavveckling att avkoda\n"
 msgid ""
 "\n"
 "The decoding of unwind sections for machine type %s is not currently supported.\n"
-msgstr "\nAvkodning av sektioner för stackavveckling för maskintypen %s stöds inte för närvarande.\n"
+msgstr ""
+"\n"
+"Avkodning av sektioner för stackavveckling för maskintypen %s stöds inte för "
+"närvarande.\n"
 
 #: readelf.c:12419
 #, c-format
@@ -10332,8 +10693,14 @@ msgid ""
 msgid_plural ""
 "\n"
 "In linked file '%s' the dynamic section at offset %#<PRIx64> contains %<PRIu64> entries:\n"
-msgstr[0] "\nI den länkade filen ”%s” innehåller den dynamiska sektionen vid offset %#<PRIx64> %<PRIu64> post:\n"
-msgstr[1] "\nI den länkade filen ”%s” innehåller den dynamiska sektionen vid offset %#<PRIx64> %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"I den länkade filen ”%s” innehåller den dynamiska sektionen vid offset "
+"%#<PRIx64> %<PRIu64> post:\n"
+msgstr[1] ""
+"\n"
+"I den länkade filen ”%s” innehåller den dynamiska sektionen vid offset "
+"%#<PRIx64> %<PRIu64> poster:\n"
 
 #: readelf.c:13323
 #, c-format
@@ -10343,8 +10710,12 @@ msgid ""
 msgid_plural ""
 "\n"
 "Dynamic section at offset %#<PRIx64> contains %<PRIu64> entries:\n"
-msgstr[0] "\nDen dynamiska sektionen vid offset %#<PRIx64> innehåller %<PRIu64> post:\n"
-msgstr[1] "\nDen dynamiska sektionen vid offset %#<PRIx64> innehåller %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"Den dynamiska sektionen vid offset %#<PRIx64> innehåller %<PRIu64> post:\n"
+msgstr[1] ""
+"\n"
+"Den dynamiska sektionen vid offset %#<PRIx64> innehåller %<PRIu64> poster:\n"
 
 #: readelf.c:13330
 #, c-format
@@ -10434,8 +10805,14 @@ msgid ""
 msgid_plural ""
 "\n"
 "In linked file '%s' the version definition section '%s' contains %u entries:\n"
-msgstr[0] "\nI den länkade filen ”%s” innehåller sektionen med versionsdefinitioner ”%s” %u post:\n"
-msgstr[1] "\nI den länkade filen ”%s” innehåller sektionen med versionsdefinitioner ”%s” %u poster:\n"
+msgstr[0] ""
+"\n"
+"I den länkade filen ”%s” innehåller sektionen med versionsdefinitioner ”%s” "
+"%u post:\n"
+msgstr[1] ""
+"\n"
+"I den länkade filen ”%s” innehåller sektionen med versionsdefinitioner ”%s” "
+"%u poster:\n"
 
 #: readelf.c:13923
 #, c-format
@@ -10445,8 +10822,12 @@ msgid ""
 msgid_plural ""
 "\n"
 "Version definition section '%s' contains %u entries:\n"
-msgstr[0] "\nSektionen med versionsdefinitioner ”%s” innehåller %u post:\n"
-msgstr[1] "\nSektionen med versionsdefinitioner ”%s” innehåller %u poster:\n"
+msgstr[0] ""
+"\n"
+"Sektionen med versionsdefinitioner ”%s” innehåller %u post:\n"
+msgstr[1] ""
+"\n"
+"Sektionen med versionsdefinitioner ”%s” innehåller %u poster:\n"
 
 #: readelf.c:13931 readelf.c:14077 readelf.c:14242
 #, c-format
@@ -10520,8 +10901,13 @@ msgid ""
 msgid_plural ""
 "\n"
 "In linked file '%s' the version needs section '%s' contains %u entries:\n"
-msgstr[0] "\nI den länkade filen ”%s” innehåller sektionen med versionskrav ”%s” %u post:\n"
-msgstr[1] "\nI den länkade filen ”%s” innehåller sektionen med versionskrav ”%s” %u poster:\n"
+msgstr[0] ""
+"\n"
+"I den länkade filen ”%s” innehåller sektionen med versionskrav ”%s” %u post:\n"
+msgstr[1] ""
+"\n"
+"I den länkade filen ”%s” innehåller sektionen med versionskrav ”%s” %u "
+"poster:\n"
 
 #: readelf.c:14069
 #, c-format
@@ -10531,8 +10917,12 @@ msgid ""
 msgid_plural ""
 "\n"
 "Version needs section '%s' contains %u entries:\n"
-msgstr[0] "\nSektionen med versionskrav ”%s” innehåller %u post:\n"
-msgstr[1] "\nSektionen med versionskrav ”%s” innehåller %u poster:\n"
+msgstr[0] ""
+"\n"
+"Sektionen med versionskrav ”%s” innehåller %u post:\n"
+msgstr[1] ""
+"\n"
+"Sektionen med versionskrav ”%s” innehåller %u poster:\n"
 
 #: readelf.c:14085
 msgid "Version Needs section"
@@ -10603,8 +10993,14 @@ msgid ""
 msgid_plural ""
 "\n"
 "In linked file '%s' the version symbols section '%s' contains %<PRIu64> entries:\n"
-msgstr[0] "\nI den länkade filen ”%s” innehåller sektionen med versionssymboler ”%s” %<PRIu64> post:\n"
-msgstr[1] "\nI den länkade filen ”%s” innehåller sektionen med versionssymboler ”%s” %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"I den länkade filen ”%s” innehåller sektionen med versionssymboler ”%s” "
+"%<PRIu64> post:\n"
+msgstr[1] ""
+"\n"
+"I den länkade filen ”%s” innehåller sektionen med versionssymboler ”%s” "
+"%<PRIu64> poster:\n"
 
 #: readelf.c:14234
 #, c-format
@@ -10614,8 +11010,12 @@ msgid ""
 msgid_plural ""
 "\n"
 "Version symbols section '%s' contains %<PRIu64> entries:\n"
-msgstr[0] "\nSektionen med versionssymboler ”%s” innehåller %<PRIu64> post:\n"
-msgstr[1] "\nSektionen med versionssymboler ”%s” innehåller %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"Sektionen med versionssymboler ”%s” innehåller %<PRIu64> post:\n"
+msgstr[1] ""
+"\n"
+"Sektionen med versionssymboler ”%s” innehåller %<PRIu64> poster:\n"
 
 #: readelf.c:14252
 msgid "version symbol data"
@@ -10720,12 +11120,14 @@ msgstr "extrapost för versionskrav (3)"
 #: readelf.c:15083
 #, c-format
 msgid "local symbol %<PRIu64> found at index >= %s's sh_info value of %u\n"
-msgstr "lokal symbol %<PRIu64> hittad vid index ≥ sh_info-värdet för sektionen %s (%u)\n"
+msgstr "lokal symbol %<PRIu64> hittad vid index ≥ sh_info-värdet för sektionen %s "
+"(%u)\n"
 
 #: readelf.c:15097
 #, c-format
 msgid "local symbol %s has a value (%#<PRIx64>) which is larger than mergeable section %s's size (%#<PRIx64>)\n"
-msgstr "den lokala symbolen %s har ett värde (%#<PRIx64>) som är större än storleken på den sammanslagningsbara sektionen %s (%#<PRIx64>)\n"
+msgstr "den lokala symbolen %s har ett värde (%#<PRIx64>) som är större än storleken "
+"på den sammanslagningsbara sektionen %s (%#<PRIx64>)\n"
 
 #: readelf.c:15119
 #, c-format
@@ -10831,7 +11233,8 @@ msgstr "Buffertöverskridande påträffades under avkodning av LTO-symboltabelle
 #: readelf.c:15371
 #, c-format
 msgid "   Num:    Value  Size Type    Bind   Vis+Other  Ndx(SecName) Name [+ Version Info]\n"
-msgstr "    Nr:    Värde  Strl Typ     Bind   Synl+Annt  Idx(Seknamn) Namn [+ Versionsinfo]\n"
+msgstr ""
+"    Nr:    Värde  Strl Typ     Bind   Synl+Annt  Idx(Seknamn) Namn [+ Versionsinfo]\n"
 
 #: readelf.c:15377 readelf.c:15383
 #, c-format
@@ -10865,8 +11268,12 @@ msgid ""
 msgid_plural ""
 "\n"
 "In linked file '%s' symbol section '%s' contains %<PRIu64> entries:\n"
-msgstr[0] "\nI den länkade filen ”%s” innehåller symbolsektionen ”%s” %<PRIu64> post:\n"
-msgstr[1] "\nI den länkade filen ”%s” innehåller symbolsektionen ”%s” %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"I den länkade filen ”%s” innehåller symbolsektionen ”%s” %<PRIu64> post:\n"
+msgstr[1] ""
+"\n"
+"I den länkade filen ”%s” innehåller symbolsektionen ”%s” %<PRIu64> poster:\n"
 
 #: readelf.c:15435
 #, c-format
@@ -10906,8 +11313,12 @@ msgid ""
 msgid_plural ""
 "\n"
 "Symbol table for image contains %<PRIu64> entries:\n"
-msgstr[0] "\nSymboltabellen för avbilden innehåller %<PRIu64> post:\n"
-msgstr[1] "\nSymboltabellen för avbilden innehåller %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"Symboltabellen för avbilden innehåller %<PRIu64> post:\n"
+msgstr[1] ""
+"\n"
+"Symboltabellen för avbilden innehåller %<PRIu64> poster:\n"
 
 #: readelf.c:15548
 #, c-format
@@ -10981,8 +11392,14 @@ msgid ""
 msgid_plural ""
 "\n"
 "In linked file '%s: the dynamic info segment at offset %#<PRIx64> contains %d entries:\n"
-msgstr[0] "\nI den länkade filen ”%s” innehåller segmentet med dynamisk information vid offset %#<PRIx64> %d post:\n"
-msgstr[1] "\nI den länkade filen ”%s” innehåller segmentet med dynamisk information vid offset %#<PRIx64> %d poster:\n"
+msgstr[0] ""
+"\n"
+"I den länkade filen ”%s” innehåller segmentet med dynamisk information vid "
+"offset %#<PRIx64> %d post:\n"
+msgstr[1] ""
+"\n"
+"I den länkade filen ”%s” innehåller segmentet med dynamisk information vid "
+"offset %#<PRIx64> %d poster:\n"
 
 #: readelf.c:15750
 #, c-format
@@ -10992,8 +11409,13 @@ msgid ""
 msgid_plural ""
 "\n"
 "Dynamic info segment at offset %#<PRIx64> contains %d entries:\n"
-msgstr[0] "\nSegmentet med dynamisk information vid offset %#<PRIx64> innehåller %d post:\n"
-msgstr[1] "\nSegmentet med dynamisk information vid offset %#<PRIx64> innehåller %d poster:\n"
+msgstr[0] ""
+"\n"
+"Segmentet med dynamisk information vid offset %#<PRIx64> innehåller %d post:\n"
+msgstr[1] ""
+"\n"
+"Segmentet med dynamisk information vid offset %#<PRIx64> innehåller %d "
+"poster:\n"
 
 #: readelf.c:15758
 #, c-format
@@ -11030,7 +11452,8 @@ msgstr "MSP430-fält för ULEB128 vid %#<PRIx64> innehåller ett ogiltigt ULEB12
 #: readelf.c:15984
 #, c-format
 msgid "MSP430 sym diff reloc contains invalid offset: %#<PRIx64>\n"
-msgstr "MSP430-omlokalisering för symbolskillnad innehåller ett felaktigt offset: %#<PRIx64>\n"
+msgstr "MSP430-omlokalisering för symbolskillnad innehåller ett felaktigt offset: "
+"%#<PRIx64>\n"
 
 #: readelf.c:15996
 msgid "Unhandled MSP430 reloc type found after SYM_DIFF reloc\n"
@@ -11039,7 +11462,8 @@ msgstr "Ej hanterad MSP430-omlokaliseringstyp hittad efter SYM_DIFF-omlokaliseri
 #: readelf.c:16043
 #, c-format
 msgid "MN10300 sym diff reloc contains invalid offset: %#<PRIx64>\n"
-msgstr "MN10300-symbolskillnadsomlokalisering innehåller ett felaktigt offset: %#<PRIx64>\n"
+msgstr "MN10300-symbolskillnadsomlokalisering innehåller ett felaktigt offset: "
+"%#<PRIx64>\n"
 
 #: readelf.c:16054
 msgid "Unhandled MN10300 reloc type found after SYM_DIFF reloc\n"
@@ -11048,7 +11472,8 @@ msgstr "Ej hanterad MN10300-omlokaliseringstyp hittad efter SYM_DIFF-omlokaliser
 #: readelf.c:16096 readelf.c:16106
 #, c-format
 msgid "RL78 sym diff reloc contains invalid offset: %#<PRIx64>\n"
-msgstr "RL78-symbolskillnadsomlokalisering innehåller ett felaktigt offset: %#<PRIx64>\n"
+msgstr "RL78-symbolskillnadsomlokalisering innehåller ett felaktigt offset: "
+"%#<PRIx64>\n"
 
 #: readelf.c:16330
 #, c-format
@@ -11227,7 +11652,9 @@ msgstr "felformad notering upptäckt i sektionen %s vid skanning efter en build-
 msgid ""
 "\n"
 "Section '%s' has no debugging data.\n"
-msgstr "\nSektion ”%s” innehåller inga felsökningsdata.\n"
+msgstr ""
+"\n"
+"Sektion ”%s” innehåller inga felsökningsdata.\n"
 
 #. There is no point in dumping the contents of a debugging section
 #. which has the NOBITS type - the bits in the file will be random.
@@ -11507,7 +11934,8 @@ msgstr "Soft-float\n"
 #: readelf.c:19347
 #, c-format
 msgid "Hard float (MIPS32r2 64-bit FPU 12 callee-saved)\n"
-msgstr "Hard-float (MIPS32r2, 64-bitars FPU, 12 register som sparas av den anropade funktionen)\n"
+msgstr "Hard-float (MIPS32r2, 64-bitars FPU, 12 register som sparas av den anropade "
+"funktionen)\n"
 
 #: readelf.c:19350
 #, c-format
@@ -11756,7 +12184,8 @@ msgstr "   Längd:\t  %u\n"
 #: readelf.c:20389
 #, c-format
 msgid "Optional value seems corrupted, got %d but only 0 (false) or 1 (true) are valid values\n"
-msgstr "Värdet för optional-flaggan verkar skadat, fick %d men endast 0 (falskt) eller 1 (sant) är giltiga värden\n"
+msgstr "Värdet för optional-flaggan verkar skadat, fick %d men endast 0 (falskt) "
+"eller 1 (sant) är giltiga värden\n"
 
 #: readelf.c:20397
 #, c-format
@@ -11982,7 +12411,8 @@ msgstr "<trasig: %14ld>"
 #: readelf.c:21374
 #, c-format
 msgid "The GOT symbol offset (%<PRIu64>) is greater than the symbol table size (%<PRIu64>)\n"
-msgstr "GOT-symbolens offset (%<PRIu64>) är större än symboltabellens storlek (%<PRIu64>)\n"
+msgstr "GOT-symbolens offset (%<PRIu64>) är större än symboltabellens storlek "
+"(%<PRIu64>)\n"
 
 #: readelf.c:21384
 #, c-format
@@ -12087,8 +12517,12 @@ msgid ""
 msgid_plural ""
 "\n"
 "Global Offset Table '%s' contains %<PRIu64> entries:\n"
-msgstr[0] "\nDen globala offsettabellen ”%s” innehåller %<PRIu64> post:\n"
-msgstr[1] "\nDen globala offsettabellen ”%s” innehåller %<PRIu64> poster:\n"
+msgstr[0] ""
+"\n"
+"Den globala offsettabellen ”%s” innehåller %<PRIu64> post:\n"
+msgstr[1] ""
+"\n"
+"Den globala offsettabellen ”%s” innehåller %<PRIu64> poster:\n"
 
 #: readelf.c:21794
 #, c-format
@@ -13207,7 +13641,8 @@ msgstr "Visar noteringar hittade i: %s\n"
 #: readelf.c:24450
 #, c-format
 msgid "Displaying notes found at file offset 0x%08<PRIx64> with length 0x%08<PRIx64>:\n"
-msgstr "Visar noteringar hittade vid filoffset 0x%08<PRIx64> med längd 0x%08<PRIx64>:\n"
+msgstr "Visar noteringar hittade vid filoffset 0x%08<PRIx64> med längd "
+"0x%08<PRIx64>:\n"
 
 #: readelf.c:24463
 #, c-format
@@ -13257,7 +13692,10 @@ msgstr "v850-noteringar"
 msgid ""
 "\n"
 "Displaying contents of Renesas V850 notes section at offset %#<PRIx64> with length %#<PRIx64>:\n"
-msgstr "\nVisar innehållet i sektionen med Renesas V850-noteringar vid offset %#<PRIx64> med längd %#<PRIx64>:\n"
+msgstr ""
+"\n"
+"Visar innehållet i sektionen med Renesas V850-noteringar vid offset "
+"%#<PRIx64> med längd %#<PRIx64>:\n"
 
 #: readelf.c:24729
 #, c-format
@@ -13806,7 +14244,19 @@ msgid ""
 "  -h|-H|-?  --help                    Display this information\n"
 "  -v|-V     --version                 Display the program's version\n"
 "\n"
-msgstr " Flaggorna är:\n  -A|-B|-G  --format={sysv|berkeley|gnu}  Välj utdatastil (standard är %s)\n  -o|-d|-x  --radix={8|10|16}         Visa tal oktalt, decimalt eller\n                                        hexadecimalt\n  -t        --totals                  Visa sammanlagd storlek (endast Berkeley)\n  -f                                  Ignoreras\n            --common                  Visa total storlek för *COM*-symboler\n            --target=<bfdnamn>        Välj binärfilens format\n            @<fil>                    Läs flaggor från <fil>\n  -h|-H|-?  --help                    Visa denna information\n  -v|-V     --version                 Visa programmets versionsinformation\n\n"
+msgstr ""
+" Flaggorna är:\n"
+"  -A|-B|-G  --format={sysv|berkeley|gnu}  Välj utdatastil (standard är %s)\n"
+"  -o|-d|-x  --radix={8|10|16}         Visa tal oktalt, decimalt eller\n"
+"                                        hexadecimalt\n"
+"  -t        --totals                  Visa sammanlagd storlek (endast Berkeley)\n"
+"  -f                                  Ignoreras\n"
+"            --common                  Visa total storlek för *COM*-symboler\n"
+"            --target=<bfdnamn>        Välj binärfilens format\n"
+"            @<fil>                    Läs flaggor från <fil>\n"
+"  -h|-H|-?  --help                    Visa denna information\n"
+"  -v|-V     --version                 Visa programmets versionsinformation\n"
+"\n"
 
 #: size.c:175
 #, c-format
@@ -13887,7 +14337,15 @@ msgid ""
 "  @<file>          Read options from <file>\n"
 "  -h --help        Display this information\n"
 "  -v --version     Print the program's version number\n"
-msgstr " Flaggorna är:\n  -q --quick       (Utgått - ignoreras)\n  -n --noprescan   Gör ingen förgenomsökning för att omvandla common-symboler till definitioner\n  -d --debug       Visa information om vad som händer\n  @<fil>           Läs flaggor från <fil>\n  -h --help        Visa denna information\n  -v --version     Visa programmets versionsinformation\n"
+msgstr ""
+" Flaggorna är:\n"
+"  -q --quick       (Utgått - ignoreras)\n"
+"  -n --noprescan   Gör ingen förgenomsökning för att omvandla common-symboler "
+"till definitioner\n"
+"  -d --debug       Visa information om vad som händer\n"
+"  @<fil>           Läs flaggor från <fil>\n"
+"  -h --help        Visa denna information\n"
+"  -v --version     Visa programmets versionsinformation\n"
 
 #: srconv.c:1785
 msgid "input and output files must be different"
@@ -14056,14 +14514,19 @@ msgstr " Visa utskrivbara strängar i [fil(er)] (eller från standard in)\n"
 msgid ""
 "  -a - --all                Scan the entire file, not just the data section [default]\n"
 "  -d --data                 Only scan the data sections in the file\n"
-msgstr "  -a - --all                Läs igenom hela filen, inte bara datasektionen [standard]\n  -d --data                 Läs bara igenom datasektionerna i filen\n"
+msgstr ""
+"  -a - --all                Läs igenom hela filen, inte bara datasektionen [standard]\n"
+"  -d --data                 Läs bara igenom datasektionerna i filen\n"
 
 #: strings.c:1339
 #, c-format
 msgid ""
 "  -a - --all                Scan the entire file, not just the data section\n"
 "  -d --data                 Only scan the data sections in the file [default]\n"
-msgstr "  -a - --all                Läs igenom hela filen, inte bara datasektionen\n  -d --data                 Läs bara igenom datasektionerna i filen [standard]\n"
+msgstr ""
+"  -a - --all                Läs igenom hela filen, inte bara datasektionen\n"
+"  -d --data                 Läs bara igenom datasektionerna i filen "
+"[standard]\n"
 
 #: strings.c:1343
 #, c-format
@@ -14083,7 +14546,25 @@ msgid ""
 "  @<file>                   Read options from <file>\n"
 "  -h --help                 Display this information\n"
 "  -v -V --version           Print the program's version number\n"
-msgstr "  -f --print-file-name      Skriv filens namn före varje sträng\n  -n <antal>                Hitta och skriv ut varje sekvens av minst <antal>\n    --bytes=<antal>          utskrivbara tecken. (Standard är 4).\n  -t --radix={o,d,x}        Skriv strängens position i talbas 8, 10 eller 16\n  -w --include-all-whitespace Inkludera alla blanktecken som giltiga strängtecken\n  -o                        Synonym för --radix=o\n  -T --target=<BFDNAMN>     Välj binärfilens format\n  -e --encoding={s,S,b,l,B,L} Välj teckenstorlek och byteordning:\n                            s = 7-bit, S = 8-bit, {b,l} = 16-bit, {B,L} = 32-bit\n  --unicode={default|locale|invalid|hex|escape|highlight}\n  -U {d|l|i|x|e|h}          Ange hur UTF-8-kodade Unicode-tecken skall hanteras\n  -s --output-separator=<sträng> Sträng som skall användas för att separera\n                              strängar i utdata.\n  @<fil>                    Läs flaggor från <fil>\n  -h --help                 Visa denna information\n  -v -V --version           Visa programmets versionsinformation\n"
+msgstr ""
+"  -f --print-file-name      Skriv filens namn före varje sträng\n"
+"  -n <antal>                Hitta och skriv ut varje sekvens av minst <antal>\n"
+"    --bytes=<antal>          utskrivbara tecken. (Standard är 4).\n"
+"  -t --radix={o,d,x}        Skriv strängens position i talbas 8, 10 eller 16\n"
+"  -w --include-all-whitespace Inkludera alla blanktecken som giltiga "
+"strängtecken\n"
+"  -o                        Synonym för --radix=o\n"
+"  -T --target=<BFDNAMN>     Välj binärfilens format\n"
+"  -e --encoding={s,S,b,l,B,L} Välj teckenstorlek och byteordning:\n"
+"                            s = 7-bit, S = 8-bit, {b,l} = 16-bit, {B,L} = 32-bit\n"
+"  --unicode={default|locale|invalid|hex|escape|highlight}\n"
+"  -U {d|l|i|x|e|h}          Ange hur UTF-8-kodade Unicode-tecken skall "
+"hanteras\n"
+"  -s --output-separator=<sträng> Sträng som skall användas för att separera\n"
+"                              strängar i utdata.\n"
+"  @<fil>                    Läs flaggor från <fil>\n"
+"  -h --help                 Visa denna information\n"
+"  -v -V --version           Visa programmets versionsinformation\n"
 
 #: sysdump.c:51
 msgid "*undefined*"
@@ -14165,7 +14646,10 @@ msgid ""
 "\n"
 "ERROR: unwind length too long (0x%lx > 0x%lx)\n"
 "\n"
-msgstr "\nFEL: längden på stackavvecklingsdata är för stor (0x%lx > 0x%lx)\n\n"
+msgstr ""
+"\n"
+"FEL: längden på stackavvecklingsdata är för stor (0x%lx > 0x%lx)\n"
+"\n"
 
 #: unwind-ia64.c:578
 #, c-format
@@ -14280,7 +14764,28 @@ msgid ""
 "  -r --rcdir=<directory>       Set the export directory for rc files\n"
 "  -x --xdbg=<directory>        Where to create the .dbg C include file\n"
 "                               that maps message ID's to their symbolic name.\n"
-msgstr " Flaggorna är:\n  -a --ascii_in                Läs infilen som en ASCII-fil\n  -A --ascii_out               Skriv binära meddelanden som ASCII\n  -b --binprefix               .bin-filenamn föregås av .mc-filenamn_ för att vara unika.\n  -c --customflag              Ange anpassade flaggor för meddelanden\n  -C --codepage_in=<värde>     Ange kodsida vid läsning av mc-textfiler\n  -d --decimal_values          Skriv värden till textfiler decimalt\n  -e --extension=<ändelse>     Ange huvudändelse som skall användas på exporthuvudfil\n  -F --target <mål>            Ange utmål för byteordning.\n  -h --headerdir=<katalog>     Ange exportkatalogen för huvuden\n  -u --unicode_in              Läs infilen som en UTF16-fil\n  -U --unicode_out             Skriv binärmeddelanden som UTF16\n  -m --maxlength=<värde>       Ange den största tillåtna meddelandelängden\n  -n --nullterminate           Lägg automatiskt till en nollavslutning till strängar\n  -o --hresult_use             Använd HRESULT-definition istället för statuskoddefinition\n  -O --codepage_out=<värde>    Ange kodsida vid skrivning av textfiler\n  -r --rcdir=<katalog>         Ange exportkatalogen för rc-filer\n  -x --xdbg=<katalog>          Var den .dbg-C-inkluderingsfil som översätter\n                               meddelande-id:n till deras symboliska namn\n                               skall skapas.\n"
+msgstr ""
+" Flaggorna är:\n"
+"  -a --ascii_in                Läs infilen som en ASCII-fil\n"
+"  -A --ascii_out               Skriv binära meddelanden som ASCII\n"
+"  -b --binprefix               .bin-filenamn föregås av .mc-filenamn_ för att "
+"vara unika.\n"
+"  -c --customflag              Ange anpassade flaggor för meddelanden\n"
+"  -C --codepage_in=<värde>     Ange kodsida vid läsning av mc-textfiler\n"
+"  -d --decimal_values          Skriv värden till textfiler decimalt\n"
+"  -e --extension=<ändelse>     Ange huvudändelse som skall användas på exporthuvudfil\n"
+"  -F --target <mål>            Ange utmål för byteordning.\n"
+"  -h --headerdir=<katalog>     Ange exportkatalogen för huvuden\n"
+"  -u --unicode_in              Läs infilen som en UTF16-fil\n"
+"  -U --unicode_out             Skriv binärmeddelanden som UTF16\n"
+"  -m --maxlength=<värde>       Ange den största tillåtna meddelandelängden\n"
+"  -n --nullterminate           Lägg automatiskt till en nollavslutning till strängar\n"
+"  -o --hresult_use             Använd HRESULT-definition istället för statuskoddefinition\n"
+"  -O --codepage_out=<värde>    Ange kodsida vid skrivning av textfiler\n"
+"  -r --rcdir=<katalog>         Ange exportkatalogen för rc-filer\n"
+"  -x --xdbg=<katalog>          Var den .dbg-C-inkluderingsfil som översätter\n"
+"                               meddelande-id:n till deras symboliska namn\n"
+"                               skall skapas.\n"
 
 #: windmc.c:219
 #, c-format
@@ -14288,7 +14793,10 @@ msgid ""
 "  -H --help                    Print this help message\n"
 "  -v --verbose                 Verbose - tells you what it's doing\n"
 "  -V --version                 Print version information\n"
-msgstr "  -H --help                    Visa detta hjälpmeddelande\n  -v --verbose                 Utförlig - berättar vad den gör\n  -V --version                 Visa versionsinformation\n"
+msgstr ""
+"  -H --help                    Visa detta hjälpmeddelande\n"
+"  -v --verbose                 Utförlig - berättar vad den gör\n"
+"  -V --version                 Visa versionsinformation\n"
 
 #: windmc.c:260 windres.c:384
 #, c-format
@@ -14386,7 +14894,24 @@ msgid ""
 "     --use-temp-file           Use a temporary file instead of popen to read\n"
 "                               the preprocessor output\n"
 "     --no-use-temp-file        Use popen (default)\n"
-msgstr " Flaggorna är:\n  -i --input=<fil>             Välj infil\n  -o --output=<fil>            Välj utfil\n  -J --input-format=<format>   Ange indataformat\n  -O --output-format=<format>  Ange utdataformat\n  -F --target=<mål>            Ange COFF-mål\n     --preprocessor=<program>  Program att preprocessa rc-filen med\n     --preprocessor-arg=<arg>  Extra argument till preprocessorn\n  -I --include-dir=<katalog>   Inkludera katalog när rc-filen preprocessas\n  -D --define <sym>[=<värde>]  Definiera SYM när rc-filen preprocessas\n  -U --undefine <sym>          Avdefiniera SYM när rc-filen preprocessas\n  -v --verbose                 Utförlig - berättar vad den gör\n  -c --codepage=<kodsida>      Ange standardkodsida\n  -l --language=<värde>        Välj språk när rc-filen läses\n     --use-temp-file           Använd en temporärfil istället för popen för att\n                               läsa utdata från preprocessorn\n     --no-use-temp-file        Använd popen (standard)\n"
+msgstr ""
+" Flaggorna är:\n"
+"  -i --input=<fil>             Välj infil\n"
+"  -o --output=<fil>            Välj utfil\n"
+"  -J --input-format=<format>   Ange indataformat\n"
+"  -O --output-format=<format>  Ange utdataformat\n"
+"  -F --target=<mål>            Ange COFF-mål\n"
+"     --preprocessor=<program>  Program att preprocessa rc-filen med\n"
+"     --preprocessor-arg=<arg>  Extra argument till preprocessorn\n"
+"  -I --include-dir=<katalog>   Inkludera katalog när rc-filen preprocessas\n"
+"  -D --define <sym>[=<värde>]  Definiera SYM när rc-filen preprocessas\n"
+"  -U --undefine <sym>          Avdefiniera SYM när rc-filen preprocessas\n"
+"  -v --verbose                 Utförlig - berättar vad den gör\n"
+"  -c --codepage=<kodsida>      Ange standardkodsida\n"
+"  -l --language=<värde>        Välj språk när rc-filen läses\n"
+"     --use-temp-file           Använd en temporärfil istället för popen för att\n"
+"                               läsa utdata från preprocessorn\n"
+"     --no-use-temp-file        Använd popen (standard)\n"
 
 #: windres.c:654
 #, c-format
@@ -14400,7 +14925,11 @@ msgid ""
 "  @<file>                      Read options from <file>\n"
 "  -h --help                    Print this help message\n"
 "  -V --version                 Print version information\n"
-msgstr "  -r                           Ignorerad, för kompatibilitet med rc\n  @<fil>                       Läs flaggor från <fil>\n  -h --help                    Visa detta hjälpmeddelande\n  -V --version                 Visa versionsinformation\n"
+msgstr ""
+"  -r                           Ignorerad, för kompatibilitet med rc\n"
+"  @<fil>                       Läs flaggor från <fil>\n"
+"  -h --help                    Visa detta hjälpmeddelande\n"
+"  -V --version                 Visa versionsinformation\n"
 
 #: windres.c:662
 #, c-format
