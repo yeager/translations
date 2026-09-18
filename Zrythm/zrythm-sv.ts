@@ -697,195 +697,195 @@ Antal XRuns: %2</translation>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="125"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="359"/>
         <source>Artist name</source>
-        <translation type="unfinished"></translation>
+        <translation>Artistnamn</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="126"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="360"/>
         <source>Artist</source>
-        <translation type="unfinished">Artist</translation>
+        <translation>Artist</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="132"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="366"/>
         <source>Enter artist...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange artist…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="144"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="377"/>
         <source>Music genre</source>
-        <translation type="unfinished"></translation>
+        <translation>Musikgenre</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="145"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="378"/>
         <source>Genre</source>
-        <translation type="unfinished">Genre</translation>
+        <translation>Genre</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="151"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="384"/>
         <source>Enter genre...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange genre…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="162"/>
         <source>Audio file format</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljudfilformat</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="163"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="396"/>
         <source>Format</source>
-        <translation type="unfinished">Format</translation>
+        <translation>Format</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="172"/>
         <source>Audio bit depth</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljudets bitdjup</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="173"/>
         <source>Bit Depth</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitdjup</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="182"/>
         <source>Apply dithering</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd dithering</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="183"/>
         <source>Dither</source>
-        <translation type="unfinished"></translation>
+        <translation>Dithering</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="191"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="414"/>
         <source>Pattern for generated filenames</source>
-        <translation type="unfinished"></translation>
+        <translation>Mönster för genererade filnamn</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="192"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="415"/>
         <source>Filename Pattern</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamnsmönster</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="201"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="424"/>
         <source>Whether to export the selected tracks as a single mixdown file or each track in its own file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om de valda spåren ska exporteras som en enda mixningsfil eller om varje spår ska få en egen fil.</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="202"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="425"/>
         <source>Mixdown or Stems</source>
-        <translation type="unfinished"></translation>
+        <translation>Mixning eller stämmor</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="206"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="429"/>
         <source>Mixdown</source>
-        <translation type="unfinished"></translation>
+        <translation>Mixning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="206"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="429"/>
         <source>Stems</source>
-        <translation type="unfinished">Stammar</translation>
+        <translation>Stämmor</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="217"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="440"/>
         <source>Only events inside this time range will be exported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast händelser inom detta tidsintervall exporteras.</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="218"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="441"/>
         <source>Time Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsintervall</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="222"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="445"/>
         <source>Song Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Låtens början</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="222"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="445"/>
         <source>Loop</source>
-        <translation type="unfinished">Loopa</translation>
+        <translation>Loop</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="222"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="445"/>
         <source>Custom</source>
-        <translation type="unfinished">Egen</translation>
+        <translation>Egen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="227"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="450"/>
         <source>Set custom start and end positions</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange egna start- och slutpositioner</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="228"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="451"/>
         <source>Custom Time Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Eget tidsintervall</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="270"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="493"/>
         <source>Track Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Spårval</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="312"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="535"/>
         <source>Export destination and file info</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportmål och filinformation</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="313"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="536"/>
         <source>Output</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdata</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="318"/>
         <source>Output will be saved to: /path/to/export/file.wav</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdata sparas till: /sökväg/till/exporterad/fil.wav</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="338"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="437"/>
         <source>Export MIDI</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera MIDI</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="395"/>
         <source>MIDI file format</source>
-        <translation type="unfinished"></translation>
+        <translation>MIDI-filformat</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="405"/>
         <source>Export MIDI lanes as separate tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera MIDI-fält som separata spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="406"/>
         <source>Export Lanes as Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera fält som spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="541"/>
         <source>Output will be saved to: /path/to/export/file.mid</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdata sparas till: /sökväg/till/exporterad/fil.mid</translation>
     </message>
 </context>
 <context>
@@ -893,42 +893,42 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="38"/>
         <source>Mono compatibility</source>
-        <translation type="unfinished">Mono-kompatibilitet</translation>
+        <translation>Monokompatibilitet</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="60"/>
         <source>Record</source>
-        <translation type="unfinished">Spela in</translation>
+        <translation>Spela in</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="116"/>
         <source>Monitor: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitor: %1</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="133"/>
         <source>Solo</source>
-        <translation type="unfinished">Solo</translation>
+        <translation>Solo</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="156"/>
         <source>Mute</source>
-        <translation type="unfinished">Tysta</translation>
+        <translation>Tysta</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="186"/>
         <source>Listen</source>
-        <translation type="unfinished">Lyssna</translation>
+        <translation>Lyssna</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="209"/>
         <source>Swap phase</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd fas</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderButtons.qml" line="226"/>
         <source>Channel settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanalinställningar</translation>
     </message>
 </context>
 <context>
@@ -936,12 +936,12 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/FaderControl.qml" line="36"/>
         <source>Reset</source>
-        <translation type="unfinished">Återställ</translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/FaderControl.qml" line="44"/>
         <source>Bind MIDI CC</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla MIDI CC</translation>
     </message>
 </context>
 <context>
@@ -949,32 +949,32 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="86"/>
         <source>About Flatpak</source>
-        <translation type="unfinished"></translation>
+        <translation>Om Flatpak</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="84"/>
         <source>Only audio plugins installed via Flatpak are supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast ljudinsticksmoduler som har installerats via Flatpak stöds.</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="96"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Donera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="94"/>
         <source>Zrythm relies on donations and purchases to sustain development. If you enjoy the software, please consider %1donating%2 or %3buying an installer%2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrythm förlitar sig på donationer och köp för att finansiera utvecklingen. Om du uppskattar programvaran kan du överväga att %1donera%2 eller %3köpa ett installationspaket%2.</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="104"/>
         <source>All Ready!</source>
-        <translation type="unfinished"></translation>
+        <translation>Allt är klart!</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="107"/>
         <source>Proceed to Configuration</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsätt till konfigurationen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="141"/>
