@@ -2854,23 +2854,23 @@ Do you want to create it?</source>
     </message>
     <message>
         <source>Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bredd:</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höjd:</translation>
     </message>
     <message>
         <source>Use Camera DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd kamerans DPI</translation>
     </message>
     <message>
         <source>Camera DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerans DPI:</translation>
     </message>
     <message>
         <source>Image DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildens DPI:</translation>
     </message>
     <message>
         <source>Image Resolution:</source>
@@ -2878,11 +2878,11 @@ Do you want to create it?</source>
     </message>
     <message>
         <source>Premultiply</source>
-        <translation type="unfinished"></translation>
+        <translation>Förmultiplicera</translation>
     </message>
     <message>
         <source>White As Transparent</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitt som genomskinligt</translation>
     </message>
     <message>
         <source>      Subsampling:</source>
@@ -2890,47 +2890,47 @@ Do you want to create it?</source>
     </message>
     <message>
         <source>DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI:</translation>
     </message>
     <message>
         <source>The file %1 is not a sound level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 är inte en ljudnivå.</translation>
     </message>
     <message>
         <source>Add Antialiasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till kantutjämning</translation>
     </message>
     <message>
         <source>Antialias Softness:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjukhet för kantutjämning:</translation>
     </message>
     <message>
         <source>Subsampling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Undersampling:</translation>
     </message>
     <message>
         <source>Name &amp;&amp; Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn och sökväg</translation>
     </message>
     <message>
         <source>DPI &amp;&amp; Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI och upplösning</translation>
     </message>
     <message>
         <source>Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplösning:</translation>
     </message>
     <message>
         <source>Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplösning</translation>
     </message>
     <message>
         <source>Image DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Bild-DPI</translation>
     </message>
     <message>
         <source>Custom DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad DPI</translation>
     </message>
     <message>
         <source>Scan level</source>
@@ -2942,183 +2942,183 @@ Do you want to create it?</source>
     </message>
     <message>
         <source>Raster level</source>
-        <translation type="unfinished"></translation>
+        <translation>Raster-nivå</translation>
     </message>
     <message>
         <source>Mesh level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nätnivå</translation>
     </message>
     <message>
         <source>Palette level</source>
-        <translation type="unfinished"></translation>
+        <translation>Palettnivå</translation>
     </message>
     <message>
         <source>Sound Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljudkolumn</translation>
     </message>
     <message>
         <source>Toonz Vector level</source>
-        <translation type="unfinished"></translation>
+        <translation>Toonz-vektornivå</translation>
     </message>
     <message>
         <source>Toonz Raster level</source>
-        <translation type="unfinished"></translation>
+        <translation>Toonz-raster-nivå</translation>
     </message>
     <message>
         <source>[Various]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Övrigt]</translation>
     </message>
     <message>
         <source>SubXsheet Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Under-XSheet-nivå</translation>
     </message>
     <message>
         <source>Another Level Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Annan nivåtyp</translation>
     </message>
 </context>
 <context>
     <name>LineTestCapturePane</name>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Frame:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildruta:</translation>
     </message>
     <message>
         <source>Increment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ökning:</translation>
     </message>
     <message>
         <source>Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg:</translation>
     </message>
     <message>
         <source>Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge:</translation>
     </message>
     <message>
         <source>New     </source>
-        <translation type="unfinished"></translation>
+        <translation>Ny     </translation>
     </message>
     <message>
         <source>Overwite     </source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över     </translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga</translation>
     </message>
     <message>
         <source> Onion Skin  </source>
-        <translation type="unfinished"></translation>
+        <translation> Lökhinna  </translation>
     </message>
     <message>
         <source> View Frame</source>
-        <translation type="unfinished"></translation>
+        <translation> Visa bildruta</translation>
     </message>
     <message>
         <source>Fade:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tona:</translation>
     </message>
     <message>
         <source> Connection</source>
-        <translation type="unfinished"></translation>
+        <translation> Anslutning</translation>
     </message>
     <message>
         <source>       Capture       </source>
-        <translation type="unfinished"></translation>
+        <translation>       Fånga       </translation>
     </message>
     <message>
         <source>Capture Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Fångstinställningar</translation>
     </message>
     <message>
         <source>   File Settings    </source>
-        <translation type="unfinished"></translation>
+        <translation>   Filinställningar    </translation>
     </message>
     <message>
         <source>Bad Selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Felaktigt urval.</translation>
     </message>
     <message>
         <source>No Device Defined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen enhet har definierats.</translation>
     </message>
     <message>
         <source>Cannot connect Camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte ansluta kameran</translation>
     </message>
     <message>
         <source>Device Disconnected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enheten kopplades från.</translation>
     </message>
     <message>
         <source>LineTest Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjetestfångst</translation>
     </message>
 </context>
 <context>
     <name>LineTestPane</name>
     <message>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnlös</translation>
     </message>
     <message>
         <source>Scene: </source>
-        <translation type="unfinished"></translation>
+        <translation>Scen: </translation>
     </message>
     <message>
         <source>   ::   Frame: </source>
-        <translation type="unfinished"></translation>
+        <translation>   ::   Bildruta: </translation>
     </message>
     <message>
         <source>   ::   Level: </source>
-        <translation type="unfinished"></translation>
+        <translation>   ::   Nivå: </translation>
     </message>
     <message>
         <source>Level: </source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå: </translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisning</translation>
     </message>
 </context>
 <context>
     <name>LinesFadePopup</name>
     <message>
         <source>Color Fade</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgtoning</translation>
     </message>
     <message>
         <source>Fade:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tona:</translation>
     </message>
     <message>
         <source>Intensity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Intensitet:</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
 </context>
 <context>
     <name>LipSyncPopup</name>
     <message>
         <source>Apply Lip Sync Data</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa läppsynkroniseringsdata</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
     <message>
         <source>A I Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>A I-teckning</translation>
     </message>
     <message>
         <source>O Drawing</source>
