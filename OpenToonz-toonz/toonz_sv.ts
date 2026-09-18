@@ -12650,163 +12650,163 @@ VARNING: Bildstorleken stämmer inte. Nivån med samma sökväg har storleken %1
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Resolution: </source>
-        <translation type="unfinished"></translation>
+        <translation>Upplösning: </translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkiv</translation>
     </message>
     <message>
         <source>Webcam Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbkamerainställningar …</translation>
     </message>
     <message>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bild</translation>
     </message>
     <message>
         <source>Next Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa nivå</translation>
     </message>
     <message>
         <source>Next New</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa nya bildruta</translation>
     </message>
     <message>
         <source>Previous Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående nivå</translation>
     </message>
     <message>
         <source>Next Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa bildruta</translation>
     </message>
     <message>
         <source>Last Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Sista bildrutan</translation>
     </message>
     <message>
         <source>Previous Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående bildruta</translation>
     </message>
     <message>
         <source>Next XSheet Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa XSheet-bildruta</translation>
     </message>
     <message>
         <source>Previous XSheet Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående XSheet-bildruta</translation>
     </message>
     <message>
         <source>Current Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell bildruta</translation>
     </message>
     <message>
         <source>Set to the Current Playhead Location</source>
-        <translation type="unfinished"></translation>
+        <translation>Ställ in på den aktuella uppspelningshuvudpositionen</translation>
     </message>
     <message>
         <source>Start Live View</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta livevisning</translation>
     </message>
     <message>
         <source>Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom</translation>
     </message>
     <message>
         <source>Pick Zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj zoom</translation>
     </message>
     <message>
         <source>&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;</translation>
     </message>
     <message>
         <source>&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;</translation>
     </message>
     <message>
         <source>&lt;&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;&lt;</translation>
     </message>
     <message>
         <source>&gt;&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;&gt;</translation>
     </message>
     <message>
         <source>&lt;&lt;&lt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;&lt;&lt;</translation>
     </message>
     <message>
         <source>&gt;&gt;&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&gt;&gt;&gt;</translation>
     </message>
     <message>
         <source>Camera:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamera:</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Frame:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildruta:</translation>
     </message>
     <message>
         <source>File Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtyp:</translation>
     </message>
     <message>
         <source>Save In:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>XSheet Frame:</source>
-        <translation type="unfinished"></translation>
+        <translation>XSheet-bildruta:</translation>
     </message>
     <message>
         <source>Camera Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameramodell</translation>
     </message>
     <message>
         <source>Camera Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameraläge</translation>
     </message>
     <message>
         <source>Temperature: </source>
-        <translation type="unfinished"></translation>
+        <translation>Temperatur: </translation>
     </message>
     <message>
         <source>Shutter Speed: </source>
-        <translation type="unfinished"></translation>
+        <translation>Slutartid: </translation>
     </message>
     <message>
         <source>Iso: </source>
-        <translation type="unfinished"></translation>
+        <translation>ISO: </translation>
     </message>
     <message>
         <source>Aperture: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bländare: </translation>
     </message>
     <message>
         <source>Exposure: </source>
-        <translation type="unfinished"></translation>
+        <translation>Exponering: </translation>
     </message>
     <message>
         <source>Image Quality: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bildkvalitet: </translation>
     </message>
     <message>
         <source>Picture Style: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bildstil: </translation>
     </message>
     <message>
         <source>White Balance: </source>
