@@ -948,3 +948,5 @@ Detaljerade ändringsbeskrivningar hör hemma i respektive PR, commit eller öve
 ### Android IMSI-Catcher Detector — hoppad över 2026-09-18
 
 Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma strängar), men senaste taggade applikationsreleasen är `v0.1.43-alpha` från 2016-05-01. Projektet uppfyller därmed inte regeln om release inom två år. Ingen översättning har ändrats eller skickats in.
+
+| AndrOBD | Hosted Weblate | 🩷 Appgränssnitt 100 % publicerat och granskat | Aktuell release **V2.7.10** publicerades 2026-07-06. Svenska appresursen är **191/191**, 0 fuzzy och 0 Weblate-kontroller. De sista 11 strängarna omfattade BLE-adapter, språkval, tema, OBD-filer och loggkataloger. | Officiell Android-XML-export är XML-validerad och arkiverad som `AndrOBD/strings-sv.xml` tillsammans med en fullständig API-backup. Komponenterna *Fault codes* (53/3 584) och *OBD data descriptions* (96/499) är omfattande tekniska referensdata; de återstår efter det färdiga gränssnittet. |
