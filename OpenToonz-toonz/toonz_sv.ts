@@ -9097,23 +9097,24 @@ Vill du spara ändringarna?</translation>
     <message>
         <source>File %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>The level you are using has not a valid palette.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån som används saknar en giltig palett.</translation>
     </message>
     <message>
         <source>Message Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Meddelandecenter</translation>
     </message>
     <message>
         <source>Script Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriptkonsol</translation>
     </message>
     <message>
         <source>Run script</source>
-        <translation type="unfinished"></translation>
+        <translation>Kör skript</translation>
     </message>
     <message>
         <source>Level </source>
@@ -9125,7 +9126,7 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>It is not possible to merge tlv columns containing more than one level</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att sammanfoga TLV-kolumner som innehåller fler än en nivå</translation>
     </message>
     <message>
         <source>Ok</source>
@@ -9134,62 +9135,66 @@ Do you want to overwrite it?</source>
     <message>
         <source>Selected folders don&apos;t belong to the current project.
 Do you want to import them or load from their original location?</source>
-        <translation type="unfinished"></translation>
+        <translation>Markerade mappar tillhör inte det aktuella projektet.
+Vill du importera dem eller läsa in dem från ursprunglig plats?</translation>
     </message>
     <message>
         <source>Move Cleanup Camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta renritningskamera</translation>
     </message>
     <message>
         <source>Scale Cleanup Camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Skala renritningskamera</translation>
     </message>
     <message>
         <source>Delete and Re-cleanup : The following files will be deleted.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort och renrita igen: följande filer tas bort.
+
+</translation>
     </message>
     <message>
         <source>
 Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Är du säker?</translation>
     </message>
     <message>
         <source>Replace with copied palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt med kopierad palett</translation>
     </message>
     <message>
         <source>Keep original palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll ursprunglig palett</translation>
     </message>
     <message>
         <source>Insert Frame  at Frame %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga bildruta vid bildruta %1</translation>
     </message>
     <message>
         <source>Remove Frame  at Frame %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort bildruta vid bildruta %1</translation>
     </message>
     <message>
         <source>Insert Multiple Keys  at Frame %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga flera nyckelbilder vid bildruta %1</translation>
     </message>
     <message>
         <source>Remove Multiple Keys  at Frame %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort flera nyckelbilder vid bildruta %1</translation>
     </message>
     <message>
         <source>Set Keyframe : %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange nyckelbild: %1</translation>
     </message>
     <message>
         <source>Close SubXsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng under-XSheet</translation>
     </message>
     <message>
         <source>Select a sub-xsheet cell.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en under-XSheet-cell.</translation>
     </message>
     <message>
         <source>Collapse</source>
