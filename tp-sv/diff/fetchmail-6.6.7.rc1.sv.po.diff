@@ -1,0 +1,1585 @@
+--- a/fetchmail-6.6.7.rc1.sv.po
++++ b/fetchmail-6.6.7.rc1.sv.po
+@@ -34,7 +34,7 @@
+ 
+ #, c-format
+ msgid "nameserver failure while looking for '%s' during poll of %s: %s\n"
+-msgstr "namnservern misslyckades när den letade efter ”%s” under pollning av %s: %s\n"
++msgstr "namnserverfel vid uppslagning av ”%s” under hämtning från %s: %s\n"
+ 
+ #, c-format
+ msgid "nameserver failure while looking for `%s' during poll of %s.\n"
+@@ -69,14 +69,14 @@
+ #, c-format
+ msgid "  %d message  %d octets long deleted by fetchmail."
+ msgid_plural "  %d messages %d octets long deleted by fetchmail."
+-msgstr[0] "  %d meddelande %d oktetter långt raderat av fetchmail."
+-msgstr[1] "  %d meddelanden %d oktetter långa raderade av fetchmail."
++msgstr[0] "  %d meddelande med längden %d oktetter raderades av fetchmail."
++msgstr[1] "  %d meddelanden med längden %d oktetter raderades av fetchmail."
+ 
+ #, c-format
+ msgid "  %d message  %d octets long skipped by fetchmail."
+ msgid_plural "  %d messages %d octets long skipped by fetchmail."
+-msgstr[0] "  %d meddelande %d oktetter långt hoppas över av fetchmail."
+-msgstr[1] "  %d meddelanden %d oktetter långa hoppas över av fetchmail."
++msgstr[0] "  %d meddelande med längden %d oktetter hoppades över av fetchmail."
++msgstr[1] "  %d meddelanden med längden %d oktetter hoppades över av fetchmail."
+ 
+ #, c-format
+ msgid "skipping message %s@%s:%d"
+@@ -251,12 +251,14 @@
+ "is restored."
+ msgstr ""
+ "\n"
+-"Dock, om du HAR ändrat dina kontouppgifter sedan du startade fetchmail-\n"
+-"demonen, behöver du stoppa demonen, ändra din konfiguration av fetchmail\n"
+-"och sedan återstarta demonen.\n"
++"Om du HAR ändrat dina kontouppgifter sedan du startade fetchmail-\n"
++"demonen måste du stoppa demonen, ändra din fetchmail-konfiguration "
++"och\n"
++"sedan starta om demonen.\n"
+ "\n"
+-"Fetchmail-demonen kommer fortsätta köra och försöka ansluta varje cykel.\n"
+-"Inga fler meddelanden kommer att skickas förrän tjänsten är återställd."
++"Fetchmail-demonen fortsätter att köra och försöker ansluta vid varje\n"
++"cykel. "
++"Inga fler meddelanden skickas förrän tjänsten har återställts."
+ 
+ msgid ""
+ "The attempt to get authorization failed.\n"
+@@ -268,17 +270,19 @@
+ "at each cycle.  No future notifications will be sent until service\n"
+ "is restored."
+ msgstr ""
+-"Försöket att få auktorisation misslyckades.\n"
+-"Detta betyder förmodligen att ditt lösenord är ogiltigt, men några servrar\n"
+-"har andra fellägen som fetchmail inte kan särskilja från detta eftersom de\n"
+-"inte skickar användbara felmeddelanden vid inloggningsfel.\n"
++"Försöket att auktorisera misslyckades.\n"
++"Detta betyder förmodligen att ditt lösenord är ogiltigt, men vissa servrar\n"
++"har andra fel som fetchmail inte kan skilja från detta eftersom de "
++"inte\n"
++"skickar användbara felmeddelanden när inloggningen misslyckas.\n"
+ "\n"
+-"Fetchmail-demonen kommer fortsätta köra och försöka ansluta varje cykel.\n"
+-"Inga fler meddelanden kommer att skickas förrän tjänsten är återställd."
++"Fetchmail-demonen fortsätter att köra och försöker ansluta vid varje\n"
++"cykel. "
++"Inga fler meddelanden skickas förrän tjänsten har återställts."
+ 
+ #, c-format
+ msgid "Repoll immediately on %s@%s\n"
+-msgstr "Omkontrollera omedelbart på %s@%s\n"
++msgstr "Kontrollerar %s@%s omedelbart igen\n"
+ 
+ #, c-format
+ msgid "Socket or TLS error on %s@%s\n"
+@@ -290,11 +294,11 @@
+ 
+ #, c-format
+ msgid "Authorization OK on %s@%s\n"
+-msgstr "Auktorisationen OK på %s@%s\n"
++msgstr "Auktorisering lyckades för %s@%s\n"
+ 
+ #, c-format
+ msgid "fetchmail authentication OK on %s@%s"
+-msgstr "fetchmail-auktorisation OK på %s@%s"
++msgstr "fetchmail-autentisering lyckades för %s@%s"
+ 
+ #, c-format
+ msgid "Fetchmail was able to log into %s@%s.\n"
+@@ -305,10 +309,10 @@
+ 
+ #, c-format
+ msgid "selecting or re-polling folder %s\n"
+-msgstr "väljer eller kontrollerar om mappen %s\n"
++msgstr "väljer eller kontrollerar mappen %s igen\n"
+ 
+ msgid "selecting or re-polling default folder\n"
+-msgstr "väljer eller kontrollerar om standardmappen\n"
++msgstr "väljer eller kontrollerar standardmappen igen\n"
+ 
+ #, c-format
+ msgid "%s at %s (folder %s)"
+@@ -352,59 +356,60 @@
+ 
+ #, c-format
+ msgid "Too many mails skipped (%d > %d) due to transient errors for %s\n"
+-msgstr "Alltför många brev överhoppade (%d > %d) på grund av transienta fel med %s\n"
++msgstr "Alltför många meddelanden hoppades över (%d > %d) på grund av tillfälliga fel "
++"för %s\n"
+ 
+ # Detta och följande meddelanden fylls i %s i meddelandent
+ # "%s error while fetching ..." nedan.  Jag tar med "fel" i första delen
+ # för att få samman- och särskrivningar rätt.
+ msgid "socket"
+-msgstr "uttagsfel"
++msgstr "uttag"
+ 
+ msgid "missing or bad RFC822 header"
+-msgstr "saknat eller felaktigt RFC822-huvud"
++msgstr "saknat eller felaktigt RFC 822-huvud"
+ 
+ msgid "client/server synchronization"
+-msgstr "klient-/serversynkroniseringsfel"
++msgstr "klient-/serversynkronisering"
+ 
+ msgid "client/server protocol"
+-msgstr "klient-/serverprotokollfel"
++msgstr "klient-/serverprotokoll"
+ 
+ msgid "lock busy on server"
+ msgstr "upptaget lås på servern"
+ 
+ msgid "SMTP transaction"
+-msgstr "SMTP-transaktionsfel"
++msgstr "SMTP-transaktion"
+ 
+ msgid "DNS lookup"
+-msgstr "DNS-uppslagningsfel"
++msgstr "DNS-uppslagning"
+ 
+ msgid "undefined"
+-msgstr "odefinierat fel"
++msgstr "odefinierat"
+ 
+ #, c-format
+ msgid "%s error while fetching from %s@%s and delivering to %s host %s\n"
+-msgstr "%s fel under hämtande från %s@%s och leverans till %s-värden %s\n"
++msgstr "%s-fel vid hämtning från %s@%s och leverans till %s på värden %s\n"
+ 
+ msgid "unknown"
+ msgstr "okänd"
+ 
+ #, c-format
+ msgid "%s error while fetching from %s@%s\n"
+-msgstr "%s under hämtande från %s@%s\n"
++msgstr "%s-fel vid hämtning från %s@%s\n"
+ 
+ #, c-format
+ msgid "post-connection command terminated with signal %d\n"
+-msgstr "kommando efter anslutning avslutat med signal %d\n"
++msgstr "kommandot efter anslutning avslutades med signal %d\n"
+ 
+ #, c-format
+ msgid "post-connection command failed with status %d\n"
+-msgstr "kommando efter anslutning avslutades med status %d\n"
++msgstr "kommandot efter anslutning misslyckades med status %d\n"
+ 
+ msgid "Kerberos V4 support not linked.\n"
+-msgstr "Kerberos V4-stöd inte inlänkat.\n"
++msgstr "Kerberos V4-stöd har inte länkats in.\n"
+ 
+ msgid "Kerberos V5 support not linked.\n"
+-msgstr "Kerberos V5-stöd inte inlänkat.\n"
++msgstr "Kerberos V5-stöd har inte länkats in.\n"
+ 
+ #, c-format
+ msgid "Option --flush is not supported with %s\n"
+@@ -479,15 +484,15 @@
+ 
+ #, c-format
+ msgid "%s's SMTP listener does not support ESMTP\n"
+-msgstr "%s:s SMTP-lyssnare stödjer inte ESMTP\n"
++msgstr "SMTP-lyssnaren på %s stöder inte ESMTP\n"
+ 
+ #, c-format
+ msgid "%s's SMTP listener does not support ETRN\n"
+-msgstr "%s:s SMTP-lyssnare stödjer inte ETRN\n"
++msgstr "SMTP-lyssnaren på %s stöder inte ETRN\n"
+ 
+ #, c-format
+ msgid "Queuing for %s started\n"
+-msgstr "Kökörning för %s startad\n"
++msgstr "Köande för %s startade\n"
+ 
+ #, c-format
+ msgid "No messages waiting for %s\n"
+@@ -495,7 +500,7 @@
+ 
+ #, c-format
+ msgid "Pending messages for %s started\n"
+-msgstr "Väntande meddelanden för %s startade\n"
++msgstr "Hantering av väntande meddelanden för %s startade\n"
+ 
+ #, c-format
+ msgid "Unable to queue messages for node %s\n"
+@@ -546,9 +551,9 @@
+ "are welcome to redistribute it under certain conditions. For details,\n"
+ "please see the file COPYING in the source or documentation directory.\n"
+ msgstr ""
+-"Fetchmail kommer UTAN NÅGON GARANTI.  Detta är fri programvara, och du\n"
+-"får gärna vidaredistribuera den under vissa villkor.  För detaljer, se\n"
+-"filen COPYING i källkoden eller dokumentationskatalogen.\n"
++"Fetchmail kommer UTAN NÅGON GARANTI. Detta är fri programvara och du\n"
++"får vidaredistribuera den under vissa villkor. Mer information finns i\n"
++"filen COPYING i källkods- eller dokumentationskatalogen.\n"
+ 
+ #, c-format
+ msgid "Query status=%d (%s)\n"
+@@ -560,32 +565,34 @@
+ 
+ #, c-format
+ msgid "%s: WARNING: time() overflowed. Proper function is not guaranteed. Obtain an operating system which supports operation beyond the year 2038.\n"
+-msgstr "%s: VARNING: time() spillde över. Korrekt funktion kan inte garanteras. Skaffa ett operativsystem som stödjer funktionen bortom året 2038.\n"
++msgstr "%s: VARNING: time() spillde över. Korrekt funktion kan inte garanteras. "
++"Skaffa ett operativsystem som stöder drift efter år 2038.\n"
+ 
+ #, c-format
+ msgid "%s: WARNING: the operation system this program was built for does not function beyond the year 2038. Plan your update accordingly.\n"
+-msgstr "%s: VARNING:  operativsystemet detta program byggdes för fungerar inte bortom året 2038. Planera din uppdatering därefter.\n"
++msgstr "%s: VARNING: operativsystemet som programmet byggdes för fungerar inte efter "
++"år 2038. Planera uppdateringen därefter.\n"
+ 
+ msgid "WARNING: Running as root is discouraged.\n"
+-msgstr "VARNING: Det avrådes från att köra som root.\n"
++msgstr "VARNING: Att köra som root avråds.\n"
+ 
+ msgid "fetchmail: invoked with"
+-msgstr "fetchmail: startad med"
++msgstr "fetchmail: anropad med"
+ 
+ msgid "could not get current working directory\n"
+ msgstr "kunde inte få tag i aktuell arbetskatalog\n"
+ 
+ #, c-format
+ msgid "This is fetchmail release %s"
+-msgstr "Detta är fetchmail utgåva %s"
++msgstr "Det här är fetchmail version %s"
+ 
+ #, c-format
+ msgid ""
+ "Compiled with SSL library %#lx \"%s\"\n"
+ "Run-time uses SSL library %#lx \"%s\"\n"
+ msgstr ""
+-"Kompilerad med SSL-bibliotek %#lx ”%s”\n"
+-"Körtidsanvänt SSL-bibliotek %#lx ”%s”\n"
++"Kompilerad med SSL-biblioteket %#lx ”%s”\n"
++"SSL-bibliotek vid körning: %#lx ”%s”\n"
+ 
+ #, c-format
+ msgid ""
+@@ -596,52 +603,55 @@
+ "Motorer: %s\n"
+ 
+ msgid "ERROR: Compiled against LibreSSL, which is a copyright violation for lack of GPL clause 2b exception. See COPYING. Aborting.\n"
+-msgstr "FEL: Kompilerad mot LibreSSL, vilket är ett upphovsrättsintrång i brist på något GPL paragraf 2b-undantag. Se COPYING. Avbryter.\n"
++msgstr "FEL: Programmet har kompilerats mot LibreSSL, vilket innebär "
++"upphovsrättsintrång eftersom undantaget i GPL paragraf 2b saknas. Se COPYING. "
++"Avbryter.\n"
+ 
+ msgid "WARNING: Compiled without SSL/TLS.\n"
+ msgstr "VARNING: kompilerad utan SSL/TLS.\n"
+ 
+ msgid "The nodetach option is in effect, ignoring logfile option.\n"
+-msgstr "Flaggan nodetach är aktiv, ignorerar loggfilsflaggan.\n"
++msgstr "Flaggan nodetach är aktiv; loggfilsalternativet ignoreras.\n"
+ 
+ msgid "Not running in daemon mode, ignoring logfile option.\n"
+-msgstr "Kör inte i demonläge, ignorerar loggfilsflaggan.\n"
++msgstr "Kör inte i demonläge; loggfilsalternativet ignoreras.\n"
+ 
+ #, c-format
+ msgid "Logfile \"%s\" does not exist, ignoring logfile option.\n"
+-msgstr "Loggfilen ”%s” finns inte, ignorerar loggfilsflaggan.\n"
++msgstr "Loggfilen ”%s” finns inte; loggfilsalternativet ignoreras.\n"
+ 
+ #, c-format
+ msgid "Logfile \"%s\" is not writable, aborting.\n"
+-msgstr "Loggfilen ”%s” är inte skrivbar, avbryter.\n"
++msgstr "Loggfilen ”%s” är inte skrivbar; avbryter.\n"
+ 
+ #, c-format
+ msgid "syslog and logfile options are both set, ignoring syslog, and logging to %s"
+-msgstr "Alternativen syslog och logfile är båda inställda, ignorerar syslog och loggar till %s"
++msgstr "Både syslog- och logfile-alternativen är satta; syslog ignoreras och loggning "
++"sker till %s"
+ 
+ msgid "fetchmail: configuration invalid, --moveto is only valid for IMAP servers\n"
+-msgstr "fetchmail: %s-konfigurationen är ogiltig, --moveto är endast giltigt för IMAP-servrar\n"
++msgstr "fetchmail: konfigurationen är ogiltig; --moveto gäller bara IMAP-servrar\n"
+ 
+ #, c-format
+ msgid "Taking options from command line%s%s\n"
+-msgstr "Hämtar flaggor från kommandoraden%s%s\n"
++msgstr "Hämtar alternativ från kommandoraden%s%s\n"
+ 
+ msgid " and "
+ msgstr " och "
+ 
+ #, c-format
+ msgid "No mailservers set up -- perhaps %s is missing?\n"
+-msgstr "Inga postservrar uppsatta — kanske %s saknas?\n"
++msgstr "Inga postservrar är konfigurerade – kanske saknas %s?\n"
+ 
+ msgid "fetchmail: no mailservers have been specified.\n"
+ msgstr "fetchmail: inga postservrar har angivits.\n"
+ 
+ msgid "fetchmail: no other fetchmail is running\n"
+-msgstr "fetchmail: ingen annan fetchmail kör\n"
++msgstr "fetchmail: ingen annan fetchmail körs\n"
+ 
+ #, c-format
+ msgid "fetchmail: error killing %s fetchmail at %ld; bailing out.\n"
+-msgstr "fetchmail: fel när %s-fetchmail %ld dödades; ger upp.\n"
++msgstr "fetchmail: fel när %s-fetchmail med PID %ld avslutades; ger upp.\n"
+ 
+ msgid "background"
+ msgstr "bakgrunds"
+@@ -651,29 +661,31 @@
+ 
+ #, c-format
+ msgid "fetchmail: %s fetchmail at %ld killed.\n"
+-msgstr "fetchmail: %s-fetchmail %ld dödad.\n"
++msgstr "fetchmail: %s-fetchmail med PID %ld avslutades.\n"
+ 
+ msgid "fetchmail: can't check mail while another fetchmail to same host is running.\n"
+-msgstr "fetchmail: kan inte kontrollera post medan en annan fetchmail på samma värd kör.\n"
++msgstr "fetchmail: kan inte kontrollera post medan en annan fetchmail på samma värd "
++"körs.\n"
+ 
+ #, c-format
+ msgid "fetchmail: can't poll specified hosts with another fetchmail running at %ld.\n"
+-msgstr "fetchmail: kan inte kontrollera angivna värdar med en annan fetchmail som kör som %ld.\n"
++msgstr "fetchmail: kan inte kontrollera angivna värdar medan en annan fetchmail körs "
++"med PID %ld.\n"
+ 
+ #, c-format
+ msgid "fetchmail: another foreground fetchmail is running at %ld.\n"
+-msgstr "fetchmail: en annan förgrunds-fetchmail kör som %ld.\n"
++msgstr "fetchmail: en annan fetchmail i förgrunden körs med PID %ld.\n"
+ 
+ msgid "fetchmail: can't accept options while a background fetchmail is running.\n"
+-msgstr "fetchmail: kan inte ta flaggor medan en bakgrunds-fetchmail kör.\n"
++msgstr "fetchmail: kan inte ta emot alternativ medan en fetchmail i bakgrunden körs.\n"
+ 
+ #, c-format
+ msgid "fetchmail: background fetchmail at %ld awakened.\n"
+-msgstr "fetchmail: bakgrunds-fetchmail %ld uppväckt.\n"
++msgstr "fetchmail: fetchmail i bakgrunden med PID %ld väcktes.\n"
+ 
+ #, c-format
+ msgid "fetchmail: elder sibling at %ld died mysteriously.\n"
+-msgstr "fetchmail: äldre syskon %ld dog mystiskt.\n"
++msgstr "fetchmail: den äldre syskonprocessen med PID %ld dog mystiskt.\n"
+ 
+ #, c-format
+ msgid "fetchmail: can't find a password for %s@%s.\n"
+@@ -684,7 +696,7 @@
+ msgstr "Ange lösenord för %s@%s: "
+ 
+ msgid "fetchmail: Cannot detach into background. Aborting.\n"
+-msgstr "fetchmail: Kan inte koppla ifrån till bakgrunden.  Avbryter.\n"
++msgstr "fetchmail: Kan inte koppla från terminalen och gå till bakgrunden. Avbryter.\n"
+ 
+ #, c-format
+ msgid "starting fetchmail %s daemon\n"
+@@ -692,7 +704,7 @@
+ 
+ #, c-format
+ msgid "could not open %s to append logs to\n"
+-msgstr "kunde inte öppna %s för att lägga till loggar till\n"
++msgstr "kunde inte öppna %s för att lägga till i loggen\n"
+ 
+ msgid "--check mode enabled, not fetching mail\n"
+ msgstr "--check-läge aktiverat, hämtar inte post\n"
+@@ -706,18 +718,19 @@
+ msgstr "startar om fetchmail (%s ändrades)\n"
+ 
+ msgid "attempt to re-exec may fail as directory has not been restored\n"
+-msgstr "försök att starta om kan misslyckas eftersom aktuell katalog inte har återställts\n"
++msgstr "försök att köra om misslyckas kanske eftersom katalogen inte har återställts\n"
+ 
+ msgid "attempt to re-exec fetchmail failed\n"
+-msgstr "försök att göra om exec fetchmail misslyckades\n"
++msgstr "försök att köra om fetchmail misslyckades\n"
+ 
+ #, c-format
+ msgid "poll of %s skipped (failed authentication or too many timeouts)\n"
+-msgstr "kontroll av %s hoppas över (autentiseringen misslyckades eller så gick tiden ut för många gånger)\n"
++msgstr "kontroll av %s hoppas över (autentisering misslyckades eller för många "
++"tidsgränser)\n"
+ 
+ #, c-format
+ msgid "interval not reached, not querying %s\n"
+-msgstr "intervallet inte uppnått, frågar inte %s\n"
++msgstr "intervallet har inte nåtts; frågar inte %s\n"
+ 
+ msgid "All connections are wedged.  Exiting.\n"
+ msgstr "Alla anslutningar har fastnat.  Avslutar.\n"
+@@ -740,10 +753,10 @@
+ 
+ #, c-format
+ msgid "normal termination, status %d\n"
+-msgstr "normal avslutning, status %d\n"
++msgstr "normalt avslut, status %d\n"
+ 
+ msgid "couldn't time-check the run-control file\n"
+-msgstr "kunde göra tidskontroll av körstyrningsfilen\n"
++msgstr "kunde inte tidskontrollera körstyrningsfilen\n"
+ 
+ #, c-format
+ msgid "Warning: multiple mentions of host %s in config file\n"
+@@ -753,27 +766,28 @@
+ msgstr "fetchmail: Fel: flera ”defaults”-poster i konfigurationsfilen, eller så är ”defaults” inte den första posten.\n"
+ 
+ msgid "SSL support is not compiled in.\n"
+-msgstr "SSL-stöd är inte inkompilerat.\n"
++msgstr "SSL-stöd har inte kompilerats in.\n"
+ 
+ msgid "KERBEROS v4 support is configured, but not compiled in.\n"
+-msgstr "KERBEROS v4-stöd är konfigurerat, men inte inkompilerat.\n"
++msgstr "KERBEROS v4-stöd är konfigurerat, men har inte kompilerats in.\n"
+ 
+ msgid "KERBEROS v5 support is configured, but not compiled in.\n"
+-msgstr "KERBEROS v5-stöd är konfigurerat, men inte inkompilerat.\n"
++msgstr "KERBEROS v5-stöd är konfigurerat, men har inte kompilerats in.\n"
+ 
+ msgid "GSSAPI support is configured, but not compiled in.\n"
+-msgstr "GSSAPI-stöd är konfigurerat, men inte inkompilerat.\n"
++msgstr "GSSAPI-stöd är konfigurerat, men har inte kompilerats in.\n"
+ 
+ #, c-format
+ msgid "fetchmail: warning: no DNS available to check multidrop fetches from %s\n"
+-msgstr "fetchmail: varning: ingen DNS tillgänglig för att kontrollera flermålshämtningar från %s\n"
++msgstr "fetchmail: varning: DNS saknas för att kontrollera flermåls-hämtningar från "
++"%s\n"
+ 
+ #, c-format
+ msgid "warning: multidrop for %s requires envelope option!\n"
+-msgstr "varning: flera mål för %s kräver kuvertalternativ!\n"
++msgstr "varning: flermåls-hämtning för %s kräver kuvertalternativet!\n"
+ 
+ msgid "warning: Do not ask for support if all mail goes to postmaster!\n"
+-msgstr "varning: Fråga inte om hjälp om all post går till postmaster!\n"
++msgstr "varning: Begär inte support om all post går till postmaster!\n"
+ 
+ #, c-format
+ msgid "fetchmail: %s configuration invalid, specify positive port number for service or port\n"
+@@ -807,7 +821,7 @@
+ msgstr "Både fetchall och keep på i demon- eller vilande läge är ett misstag!\n"
+ 
+ msgid "fetchmail: Error: idle mode does not work for multiple folders or accounts!\n"
+-msgstr "fetchmail: Fel: idle-läget fungerar inte för flera mappar eller konton!\n"
++msgstr "fetchmail: Fel: viloläget fungerar inte för flera mappar eller konton!\n"
+ 
+ msgid "cannot parse rcfile, debug mode: dumping obtained configuration as Python:\n"
+ msgstr "kan inte tolka rc-filen, felsökningsläge: dumpar den mottagna konfigurationen som Python:\n"
+@@ -818,7 +832,7 @@
+ 
+ #, c-format
+ msgid "%s querying %s (protocol %s) at %s: poll started\n"
+-msgstr "%s frågar %s (protokoll %s) %s: kontroll startad\n"
++msgstr "%s frågar %s (protokoll %s) på %s: kontroll startad\n"
+ 
+ msgid "POP2 support is not configured.\n"
+ msgstr "POP2-stöd är inte konfigurerat.\n"
+@@ -836,48 +850,49 @@
+ msgstr "ODMR-stöd är inte konfigurerat.\n"
+ 
+ msgid "unsupported protocol selected.\n"
+-msgstr "ej stött protokoll valt.\n"
++msgstr "ett protokoll som inte stöds valdes.\n"
+ 
+ #, c-format
+ msgid "%s querying %s (protocol %s) at %s: poll completed\n"
+-msgstr "%s frågar %s (protokoll %s) %s: kontroll avslutad\n"
++msgstr "%s frågar %s (protokoll %s) på %s: kontroll avslutad\n"
+ 
+ #, c-format
+ msgid "Poll interval is %d seconds\n"
+-msgstr "Kontrollintervall är %d sekunder\n"
++msgstr "Kontrollintervallet är %d sekunder\n"
+ 
+ #, c-format
+ msgid "Logfile is %s\n"
+-msgstr "Loggfil är %s\n"
++msgstr "Loggfilen är %s\n"
+ 
+ #, c-format
+ msgid "Idfile is %s\n"
+-msgstr "Id-fil är %s\n"
++msgstr "ID-filen är %s\n"
+ 
+ msgid "Progress messages will be logged via syslog\n"
+-msgstr "Förloppsmeddelanden kommer loggas via syslog\n"
++msgstr "Förloppsmeddelanden loggas via syslog\n"
+ 
+ msgid "Fetchmail will masquerade and will not generate Received\n"
+-msgstr "Fetchmail kommer maskeras och kommer inte generera Received\n"
++msgstr "Fetchmail maskerar sig och genererar inte Received\n"
+ 
+ msgid "Fetchmail will show progress dots even in logfiles.\n"
+-msgstr "Fetchmail kommer visa förloppspunkter även i loggfiler.\n"
++msgstr "Fetchmail visar förloppspunkter även i loggfiler.\n"
+ 
+ #, c-format
+ msgid "Fetchmail will forward misaddressed multidrop messages to %s.\n"
+-msgstr "Fetchmail kommer vidarebefordra feladresserade multiadresserade meddelanden till %s.\n"
++msgstr "Fetchmail vidarebefordrar feladresserade meddelanden från flera mottagare "
++"till %s.\n"
+ 
+ msgid "Fetchmail will direct error mail to the postmaster.\n"
+-msgstr "Fetchmail kommer skicka felmeddelanden till postmaster.\n"
++msgstr "Fetchmail skickar felmeddelanden till postmaster.\n"
+ 
+ msgid "Fetchmail will direct error mail to the sender.\n"
+-msgstr "Fetchmail kommer skicka felmeddelanden till avsändaren.\n"
++msgstr "Fetchmail skickar felmeddelanden till avsändaren.\n"
+ 
+ msgid "Fetchmail will treat permanent errors as permanent (drop messages).\n"
+-msgstr "Fetchmail kommer hantera permanenta fel som permanenta (kasta meddelanden).\n"
++msgstr "Fetchmail behandlar permanenta fel som permanenta (meddelanden tas bort).\n"
+ 
+ msgid "Fetchmail will treat permanent errors as temporary (keep messages).\n"
+-msgstr "Fetchmail kommer hantera permanenta fel som tillfälliga (behålla meddelanden).\n"
++msgstr "Fetchmail behandlar permanenta fel som tillfälliga (meddelanden behålls).\n"
+ 
+ #, c-format
+ msgid "Options for retrieving from %s@%s:\n"
+@@ -885,26 +900,26 @@
+ 
+ #, c-format
+ msgid "  Mail will be retrieved via %s\n"
+-msgstr "  Post kommer hämtas via %s\n"
++msgstr "  Post hämtas via %s\n"
+ 
+ #, c-format
+ msgid "  Poll of this server will occur every %d interval.\n"
+ msgid_plural "  Poll of this server will occur every %d intervals.\n"
+-msgstr[0] "  Kontroll av denna server kommer ske varje intervall.\n"
+-msgstr[1] "  Kontroll av denna server kommer ske var %d:e intervall.\n"
++msgstr[0] "  Kontroll av den här servern sker var %d:e intervall.\n"
++msgstr[1] "  Kontroll av den här servern sker var %d:e intervall.\n"
+ 
+ #, c-format
+ msgid "  True name of server is %s.\n"
+-msgstr "  Verkligt namn på servern är %s.\n"
++msgstr "  Serverns verkliga namn är %s.\n"
+ 
+ msgid "  This host will not be queried when no host is specified.\n"
+-msgstr "  Denna värd kommer inte att frågas när ingen värd anges.\n"
++msgstr "  Den här värden frågas inte när ingen värd anges.\n"
+ 
+ msgid "  This host will be queried when no host is specified.\n"
+-msgstr "  Denna värd kommer att frågas när ingen värd anges.\n"
++msgstr "  Den här värden frågas när ingen värd anges.\n"
+ 
+ msgid "  Password will be prompted for.\n"
+-msgstr "  Lösenord kommer att efterfrågas.\n"
++msgstr "  Lösenord efterfrågas.\n"
+ 
+ #, c-format
+ msgid "  APOP secret = \"%s\".\n"
+@@ -920,11 +935,11 @@
+ 
+ #, c-format
+ msgid "  Protocol is KPOP with Kerberos %s authentication"
+-msgstr "  Protokoll är KPOP med Kerberos %s-autentisering"
++msgstr "  Protokollet är KPOP med Kerberos %s-autentisering"
+ 
+ #, c-format
+ msgid "  Protocol is %s"
+-msgstr "  Protokoll är %s"
++msgstr "  Protokollet är %s"
+ 
+ #, c-format
+ msgid " (using service %s)"
+@@ -940,48 +955,48 @@
+ msgstr "  Alla tillgängliga autentiseringsmetoder kommer att provas.\n"
+ 
+ msgid "  Password authentication will be forced.\n"
+-msgstr "  Lösenordsautentisering kommer framtvingas.\n"
++msgstr "  Lösenordsautentisering framtvingas.\n"
+ 
+ msgid "  MSN authentication will be forced.\n"
+-msgstr "  MSN-autentisering kommer framtvingas.\n"
++msgstr "  MSN-autentisering framtvingas.\n"
+ 
+ msgid "  NTLM authentication will be forced.\n"
+-msgstr "  NTLM-autentisering kommer framtvingas.\n"
++msgstr "  NTLM-autentisering framtvingas.\n"
+ 
+ msgid "  OTP authentication will be forced.\n"
+-msgstr "  OTP-autentisering kommer framtvingas.\n"
++msgstr "  OTP-autentisering framtvingas.\n"
+ 
+ msgid "  CRAM-MD5 authentication will be forced.\n"
+-msgstr "  CRAM-MD5-autentisering kommer framtvingas.\n"
++msgstr "  CRAM-MD5-autentisering framtvingas.\n"
+ 
+ msgid "  GSSAPI authentication will be forced.\n"
+-msgstr "  GSSAPI-autentisering kommer framtvingas.\n"
++msgstr "  GSSAPI-autentisering framtvingas.\n"
+ 
+ msgid "  Kerberos V4 authentication will be forced.\n"
+-msgstr "  Kerberos V4-autentisering kommer framtvingas.\n"
++msgstr "  Kerberos V4-autentisering framtvingas.\n"
+ 
+ msgid "  Kerberos V5 authentication will be forced.\n"
+-msgstr "  Kerberos V5-autentisering kommer framtvingas.\n"
++msgstr "  Kerberos V5-autentisering framtvingas.\n"
+ 
+ msgid "  End-to-end encryption assumed.\n"
+-msgstr "  Ände-till-ände-kryptering antas.\n"
++msgstr "  Ändpunktskryptering antas.\n"
+ 
+ #, c-format
+ msgid "  Mail service principal is: %s\n"
+-msgstr "  Posttjänsthuvudman är %s\n"
++msgstr "  Huvudnamn för posttjänsten: %s\n"
+ 
+ msgid "  SSL encrypted sessions enabled.\n"
+-msgstr "  SSL-krypterade sessioner aktiverade.\n"
++msgstr "  SSL-krypterade sessioner är aktiverade.\n"
+ 
+ #, c-format
+ msgid "  SSL protocol: %s.\n"
+ msgstr "  SSL-protokoll: %s.\n"
+ 
+ msgid "  SSL server certificate checking enabled.\n"
+-msgstr "  Kontroll av SSL-servercertifikat aktiverat.\n"
++msgstr "  Kontroll av SSL-servercertifikat är aktiverad.\n"
+ 
+ msgid "  SSL server certificate checking disabled.\n"
+-msgstr "  Kontroll av SSL-servercertifikat avaktiverat.\n"
++msgstr "  Kontroll av SSL-servercertifikat är avaktiverad.\n"
+ 
+ #, c-format
+ msgid "  SSL default trusted certificate file: %s\n"
+@@ -1019,10 +1034,10 @@
+ msgstr "  Serverns IDLE-tidsgräns är %d sekunder"
+ 
+ msgid "  Default mailbox selected.\n"
+-msgstr "  Standardbrevlåda vald.\n"
++msgstr "  Standardbrevlådan är vald.\n"
+ 
+ msgid "  Selected mailboxes are:"
+-msgstr "  Valda brevlådor är:"
++msgstr "  Valda brevlådor:"
+ 
+ msgid "  All messages will be retrieved (--all on).\n"
+ msgstr "  Alla meddelanden kommer att hämtas (--all på).\n"
+@@ -1038,104 +1053,105 @@
+ 
+ #, c-format
+ msgid "  Message will be moved to %s folder and won't be deleted.\n"
+-msgstr "  Meddelandet kommer flyttas till mappen %s och kommer inte raderas.\n"
++msgstr "  Meddelandet flyttas till mappen %s och tas inte bort.\n"
+ 
+ msgid "  Message will be deleted (no --moveto).\n"
+-msgstr "  Meddelandet kommer raderas (inget --moveto).\n"
++msgstr "  Meddelandet tas bort (inget --moveto).\n"
+ 
+ msgid "  Old messages will be flushed before message retrieval (--flush on).\n"
+-msgstr "  Gamla meddelanden kommer kastas före meddelanden hämtas (--flush på).\n"
++msgstr "  Gamla meddelanden tas bort innan meddelanden hämtas (--flush på).\n"
+ 
+ msgid "  Old messages will not be flushed before message retrieval (--flush off).\n"
+-msgstr "  Gamla meddelanden kommer inte slängas före meddelanden hämtas (--flush av).\n"
++msgstr "  Gamla meddelanden tas inte bort innan meddelanden hämtas (--flush av).\n"
+ 
+ msgid "  Oversized messages will be flushed before message retrieval (--limitflush on).\n"
+-msgstr "  För stora meddelanden kommer slängas före meddelanden hämtas (--limitflush på).\n"
++msgstr "  För stora meddelanden tas bort innan meddelanden hämtas (--limitflush på).\n"
+ 
+ msgid "  Oversized messages will not be flushed before message retrieval (--limitflush off).\n"
+-msgstr "  För stora meddelanden kommer inte slängas före meddelanden hämtas (--limitflush av).\n"
++msgstr "  För stora meddelanden tas inte bort innan meddelanden hämtas (--limitflush "
++"av).\n"
+ 
+ msgid "  Rewrite of server-local addresses is enabled (--norewrite off).\n"
+-msgstr "  Omskrivning av serverlokala adresser är aktiverat (--norewrite av).\n"
++msgstr "  Omskrivning av serverlokala adresser är aktiverad (--norewrite av).\n"
+ 
+ msgid "  Rewrite of server-local addresses is disabled (--norewrite on).\n"
+-msgstr "  Omskrivning av serverlokala adresser är avaktiverat (--norewrite på).\n"
++msgstr "  Omskrivning av serverlokala adresser är avaktiverad (--norewrite på).\n"
+ 
+ msgid "  Carriage-return stripping is enabled (stripcr on).\n"
+-msgstr "  Rensning av vagnretur är aktiverat (stripcr på).\n"
++msgstr "  Rensning av vagnreturer är aktiverad (stripcr på).\n"
+ 
+ msgid "  Carriage-return stripping is disabled (stripcr off).\n"
+-msgstr "  Rensning av vagnretur är avaktiverat (stripcr av).\n"
++msgstr "  Rensning av vagnreturer är avaktiverad (stripcr av).\n"
+ 
+ msgid "  Carriage-return forcing is enabled (forcecr on).\n"
+-msgstr "  Framtvingade vagnreturer är aktiverat (forcecr på).\n"
++msgstr "  Framtvingning av vagnreturer är aktiverad (forcecr på).\n"
+ 
+ msgid "  Carriage-return forcing is disabled (forcecr off).\n"
+-msgstr "  Framtvingade vagnreturer är avaktiverat (forcecr av).\n"
++msgstr "  Framtvingning av vagnreturer är avaktiverad (forcecr av).\n"
+ 
+ msgid "  Interpretation of Content-Transfer-Encoding is disabled (pass8bits on).\n"
+-msgstr "  Tolkning av Content-Transfer-Encoding är avaktiverat (pass8bits på).\n"
++msgstr "  Tolkning av Content-Transfer-Encoding är avaktiverad (pass8bits på).\n"
+ 
+ msgid "  Interpretation of Content-Transfer-Encoding is enabled (pass8bits off).\n"
+-msgstr "  Tolkning av Content-Transfer-Encoding är aktiverat (pass8bits av).\n"
++msgstr "  Tolkning av Content-Transfer-Encoding är aktiverad (pass8bits av).\n"
+ 
+ msgid "  MIME decoding is enabled (mimedecode on).\n"
+-msgstr "  MIME-avkodning är aktiverat (mimedecode på).\n"
++msgstr "  MIME-avkodning är aktiverad (mimedecode på).\n"
+ 
+ msgid "  MIME decoding is disabled (mimedecode off).\n"
+-msgstr "  MIME-avkodning är avaktiverat (mimedecode av).\n"
++msgstr "  MIME-avkodning är avaktiverad (mimedecode av).\n"
+ 
+ msgid "  Idle after poll is enabled (idle on).\n"
+-msgstr "  Vila efter kontroll är aktiverat (idle på).\n"
++msgstr "  Vila efter kontroll är aktiverad (idle på).\n"
+ 
+ msgid "  Idle after poll is disabled (idle off).\n"
+-msgstr "  Vila efter kontroll är avaktiverat (idle av).\n"
++msgstr "  Vila efter kontroll är avaktiverad (idle av).\n"
+ 
+ msgid "  Idle after poll is forced (forceidle on).\n"
+-msgstr "  Vila efter kontroll är framtvingat (forceidle på).\n"
++msgstr "  Vila efter kontroll framtvingas (forceidle på).\n"
+ 
+ msgid "  Idle after poll is not forced (forceidle off).\n"
+-msgstr "  Vila efter kontroll är inte framtvingat (forceidle av).\n"
++msgstr "  Vila efter kontroll framtvingas inte (forceidle av).\n"
+ 
+ msgid "  Nonempty Status lines will be discarded (dropstatus on)\n"
+-msgstr "  Icke tomma Status-rader kommer att slängas (dropstatus på)\n"
++msgstr "  Icke-tomma Status-rader tas bort (dropstatus på)\n"
+ 
+ msgid "  Nonempty Status lines will be kept (dropstatus off)\n"
+-msgstr "  Icke tomma Status-rader kommer att behållas (dropstatus av)\n"
++msgstr "  Icke-tomma Status-rader behålls (dropstatus av)\n"
+ 
+ msgid "  Delivered-To lines will be discarded (dropdelivered on)\n"
+-msgstr "  Delivered-To-rader kommer att slängas (dropdelivered på)\n"
++msgstr "  Delivered-To-rader tas bort (dropdelivered på)\n"
+ 
+ msgid "  Delivered-To lines will be kept (dropdelivered off)\n"
+-msgstr "  Delivered-To-rader kommer att behållas (dropdelivered av)\n"
++msgstr "  Delivered-To-rader behålls (dropdelivered av)\n"
+ 
+ #, c-format
+ msgid "  Message size limit is %d octets (--limit %d).\n"
+-msgstr "  Storleksgräns på meddelanden är %d oktetter (--limit %d).\n"
++msgstr "  Meddelandestorleksgränsen är %d oktetter (--limit %d).\n"
+ 
+ msgid "  No message size limit (--limit 0).\n"
+-msgstr "  Ingen storleksgräns på meddelanden (--limit 0).\n"
++msgstr "  Ingen storleksgräns för meddelanden (--limit 0).\n"
+ 
+ #, c-format
+ msgid "  Message size warning interval is %d seconds (--warnings %d).\n"
+-msgstr "  Intervall för varning för meddelandestorlek är %d sekunder (--warnings %d).\n"
++msgstr "  Varningsintervallet för meddelandestorlek är %d sekunder (--warnings %d).\n"
+ 
+ msgid "  Size warnings on every poll (--warnings 0).\n"
+ msgstr "  Storleksvarningar vid varje kontroll (--warnings 0).\n"
+ 
+ #, c-format
+ msgid "  Received-message limit is %d (--fetchlimit %d).\n"
+-msgstr "  Gräns för mottagna meddelanden är %d (--fetchlimit %d).\n"
++msgstr "  Gränsen för mottagna meddelanden är %d (--fetchlimit %d).\n"
+ 
+ msgid "  No received-message limit (--fetchlimit 0).\n"
+-msgstr "  Ingen gräns på mottagna meddelanden (--fetchlimit 0).\n"
++msgstr "  Ingen gräns för mottagna meddelanden (--fetchlimit 0).\n"
+ 
+ #, c-format
+ msgid "  Fetch message size limit is %d (--fetchsizelimit %d).\n"
+-msgstr "  Gräns på hämtad meddelandestorlek är %d (--fetchsizelimit %d).\n"
++msgstr "  Gränsen för hämtad meddelandestorlek är %d (--fetchsizelimit %d).\n"
+ 
+ msgid "  No fetch message size limit (--fetchsizelimit 0).\n"
+-msgstr "  Ingen gräns på hämtad meddelandestorlek (--fetchsizelimit 0).\n"
++msgstr "  Ingen gräns för hämtad meddelandestorlek (--fetchsizelimit 0).\n"
+ 
+ msgid "  Do binary search of UIDs during each poll (--fastuidl 1).\n"
+ msgstr "  Gör en binär sökning av UID:er under varje kontroll (--fastuidl 1).\n"
+@@ -1145,73 +1161,73 @@
+ msgstr "  Gör en binär sökning av UID:er under %d av %d kontroller (--fastuidl %d).\n"
+ 
+ msgid "   Do linear search of UIDs during each poll (--fastuidl 0).\n"
+-msgstr "  Gör en linjär sökning av UID:er under varje kontroll (--fastuidl 0).\n"
++msgstr "   Gör en linjär sökning av UID:er under varje kontroll (--fastuidl 0).\n"
+ 
+ #, c-format
+ msgid "  SMTP message batch limit is %d.\n"
+-msgstr "  Satsgräns på SMTP-meddelanden är %d.\n"
++msgstr "  Gränsen för SMTP-meddelandebatch är %d.\n"
+ 
+ msgid "  No SMTP message batch limit (--batchlimit 0).\n"
+-msgstr "  Ingen satsgräns på SMTP-meddelanden (--batchlimit 0).\n"
++msgstr "  Ingen gräns för SMTP-meddelandebatch (--batchlimit 0).\n"
+ 
+ #, c-format
+ msgid "  Deletion interval between expunges forced to %d (--expunge %d).\n"
+-msgstr "  Raderingsintervall mellan kastande tvingat till %d (--expunge %d).\n"
++msgstr "  Raderingsintervallet mellan tömningar tvingas till %d (--expunge %d).\n"
+ 
+ msgid "  No forced expunges (--expunge 0).\n"
+-msgstr "  Inget framtvingat kastande (--expunge 0).\n"
++msgstr "  Inga framtvingade tömningar (--expunge 0).\n"
+ 
+ msgid "  Domains for which mail will be fetched are:"
+-msgstr "  Domäner för vilka post kommer hämtas är:"
++msgstr "  Domäner som post ska hämtas för:"
+ 
+ #, c-format
+ msgid "  Messages will be appended to %s as BSMTP\n"
+-msgstr "  Meddelanden kommer läggas till till %s som BSMTP\n"
++msgstr "  Meddelanden läggs till i %s som BSMTP\n"
+ 
+ #, c-format
+ msgid "  Messages will be delivered with \"%s\".\n"
+-msgstr "  Meddelanden kommer levereras med ”%s”.\n"
++msgstr "  Meddelanden levereras med ”%s”.\n"
+ 
+ #, c-format
+ msgid "  Messages will be %cMTP-forwarded to:"
+-msgstr "  Meddelanden kommer %cMTP-vidarebefordras till:"
++msgstr "  Meddelanden vidarebefordras med %cMTP till:"
+ 
+ #, c-format
+ msgid "  Host part of MAIL FROM line will be %s\n"
+-msgstr "  Värddelen av MAIL FROM-raden kommer bli %s\n"
++msgstr "  Värddelen i MAIL FROM-raden blir %s\n"
+ 
+ #, c-format
+ msgid "  Address to be put in RCPT TO lines shipped to SMTP will be %s\n"
+-msgstr "  Adress som kommer att anges i RCPT TO-rader lämnade till SMTP kommer vara %s\n"
++msgstr "  Adressen som anges i RCPT TO-rader som skickas till SMTP blir %s\n"
+ 
+ msgid "  Recognized listener spam block responses are:"
+-msgstr "  Igenkända lyssnares spam-blockeringssvar är:"
++msgstr "  Igenkända svar på spärrning av skräppost från lyssnaren:"
+ 
+ msgid "  Spam-blocking disabled\n"
+-msgstr "  Spam-blockering avaktiverat\n"
++msgstr "  Skräppostspärrning är avaktiverad\n"
+ 
+ #, c-format
+ msgid "  Server connection will be brought up with \"%s\".\n"
+-msgstr "  Serveranslutning kommer att öppnas med ”%s”.\n"
++msgstr "  Serveranslutningen öppnas med ”%s”.\n"
+ 
+ msgid "  No pre-connection command.\n"
+ msgstr "  Inget föranslutningskommando.\n"
+ 
+ #, c-format
+ msgid "  Server connection will be taken down with \"%s\".\n"
+-msgstr "  Serveranslutning kommer att tas ner med ”%s”.\n"
++msgstr "  Serveranslutningen avslutas med ”%s”.\n"
+ 
+ msgid "  No post-connection command.\n"
+ msgstr "  Inget efteranslutningskommando.\n"
+ 
+ msgid "  No localnames declared for this host.\n"
+-msgstr "  Inga lokala namn angivna för denna värd.\n"
++msgstr "  Inga lokala namn har angetts för den här värden.\n"
+ 
+ msgid "  Multi-drop mode: "
+-msgstr "  Flermålsläge: "
++msgstr "  Flermåls-läge: "
+ 
+ msgid "  Single-drop mode: "
+-msgstr "  Enmålsläge: "
++msgstr "  Enmåls-läge: "
+ 
+ #, c-format
+ msgid "%d local name recognized.\n"
+@@ -1220,37 +1236,37 @@
+ msgstr[1] "%d lokala namn upptäckta.\n"
+ 
+ msgid "  DNS lookup for multidrop addresses is enabled.\n"
+-msgstr "  DNS-uppslagning för flermålsadresser är aktiverat.\n"
++msgstr "  DNS-uppslagning för flermålsadresser är aktiverad.\n"
+ 
+ msgid "  DNS lookup for multidrop addresses is disabled.\n"
+-msgstr "  DNS-uppslagning för flermålsadresser är avaktiverat.\n"
++msgstr "  DNS-uppslagning för flermålsadresser är avaktiverad.\n"
+ 
+ msgid "  Server aliases will be compared with multidrop addresses by IP address.\n"
+-msgstr "  Serveralias kommer att jämföras med flermålsadresser via IP-adress.\n"
++msgstr "  Serveralias jämförs med flermålsadresser via IP-adress.\n"
+ 
+ msgid "  Server aliases will be compared with multidrop addresses by name.\n"
+-msgstr "  Serveralias kommer att jämföras med flermålsadresser via namn.\n"
++msgstr "  Serveralias jämförs med flermålsadresser efter namn.\n"
+ 
+ msgid "  Envelope-address routing is disabled\n"
+-msgstr "  Ruttläggning av kuvertadresser är avaktiverat\n"
++msgstr "  Routning av kuvertadresser är avaktiverad\n"
+ 
+ #, c-format
+ msgid "  Envelope header is assumed to be: %s\n"
+-msgstr "  Kuverthuvud förmodas vara: %s\n"
++msgstr "  Kuverthuvudet antas vara: %s\n"
+ 
+ #, c-format
+ msgid "  Number of envelope headers to be skipped over: %d\n"
+-msgstr "  Antal kuverthuvuden att hoppa över: %d\n"
++msgstr "  Antal kuverthuvuden som hoppas över: %d\n"
+ 
+ #, c-format
+ msgid "  Prefix %s will be removed from user id\n"
+-msgstr "  Prefixet %s kommer tas bort från användar-id\n"
++msgstr "  Prefixet %s tas bort från användar-ID\n"
+ 
+ msgid "  No prefix stripping\n"
+ msgstr "  Ingen borttagning av prefix\n"
+ 
+ msgid "  Predeclared mailserver aliases:"
+-msgstr "  Fördeklarerade postserveralias:"
++msgstr "  Fördefinierade postserveralias:"
+ 
+ msgid "  Local domains:"
+ msgstr "  Lokala domäner:"
+@@ -1260,58 +1276,59 @@
+ msgstr "  Anslutningen måste gå via gränssnittet %s.\n"
+ 
+ msgid "  No interface requirement specified.\n"
+-msgstr "  Inget gränssnittskrav angett.\n"
++msgstr "  Inget gränssnittskrav har angetts.\n"
+ 
+ #, c-format
+ msgid "  Polling loop will monitor %s.\n"
+-msgstr "  Kontrollslingan kommer övervaka %s.\n"
++msgstr "  Kontrollslingan övervakar %s.\n"
+ 
+ msgid "  No monitor interface specified.\n"
+-msgstr "  Ingen kontrollslinga angiven.\n"
++msgstr "  Inget övervakningsgränssnitt har angetts.\n"
+ 
+ #, c-format
+ msgid "  Server connections will be made via plugin %s (--plugin %s).\n"
+-msgstr "  Serveranslutningar kommer att göras via instickskommandot %s (--plugin %s).\n"
++msgstr "  Serveranslutningar görs via insticksprogrammet %s (--plugin %s).\n"
+ 
+ msgid "  No plugin command specified.\n"
+-msgstr "  Inget instickskommando angivet.\n"
++msgstr "  Inget instickskommando har angetts.\n"
+ 
+ #, c-format
+ msgid "  Listener connections will be made via plugout %s (--plugout %s).\n"
+-msgstr "  Lyssnaranslutningar kommer att göras via utstickskommando %s (--plugout %s).\n"
++msgstr "  Lyssnaranslutningar görs via utstickskommandot %s (--plugout %s).\n"
+ 
+ msgid "  No plugout command specified.\n"
+-msgstr "  Inget utstickskommando angivet.\n"
++msgstr "  Inget utstickskommando har angetts.\n"
+ 
+ msgid "  No UIDs saved from this host.\n"
+-msgstr "  Inga UID:er sparade från denna värd.\n"
++msgstr "  Inga UID:er har sparats från den här värden.\n"
+ 
+ #, c-format
+ msgid "  %d UIDs saved.\n"
+-msgstr "  %d UID:er sparade.\n"
++msgstr "  %d UID:er har sparats.\n"
+ 
+ msgid "  Poll trace information will be added to the Received header.\n"
+-msgstr "  Kontrollspårningsinformation kommer läggas till till Received-huvudet.\n"
++msgstr "  Kontrollspårningsinformation läggs till i Received-huvudet.\n"
+ 
+ msgid "  No poll trace information will be added to the Received header.\n"
+-msgstr "  Ingen kontrollspårningsinformation kommer att läggas till till Received-huvudet.\n"
++msgstr "  Ingen kontrollspårningsinformation läggs till i Received-huvudet.\n"
+ 
+ msgid "  Messages with bad headers will be rejected.\n"
+ msgstr "  Meddelanden med felaktiga huvuden kommer att avvisas.\n"
+ 
+ msgid "  Messages with bad headers will be passed on.\n"
+-msgstr "  Meddelanden med felaktiga huvuden kommer skickas vidare.\n"
++msgstr "  Meddelanden med felaktiga huvuden skickas vidare.\n"
+ 
+ #, c-format
+ msgid "  Pass-through properties \"%s\".\n"
+-msgstr "  Egenskaper för vidarebefordran ”%s”.\n"
++msgstr "  Egenskaper för vidarebefordring: ”%s”.\n"
+ 
+ #, c-format
+ msgid "Cannot modify signal mask: %s"
+ msgstr "Kan inte ändra signalmasken: %s"
+ 
+ msgid "Your operating system neither defines PATH_MAX nor will it accept realpath(f, NULL). Aborting.\n"
+-msgstr "Ditt operativsystem definierar inte PATH_MAX och inte heller accepterar det realpath(f, NULL).  Avbryter.\n"
++msgstr "Ditt operativsystem definierar varken PATH_MAX eller accepterar realpath(f, "
++"NULL). Avbryter.\n"
+ 
+ msgid ""
+ "\n"
+@@ -1322,7 +1339,7 @@
+ 
+ #, c-format
+ msgid "GSSAPI error in gss_display_status called from <%s>\n"
+-msgstr "GSSAPI-fel i gss_display_status anropat från <%s>\n"
++msgstr "GSSAPI-fel i gss_display_status, anropad från <%s>\n"
+ 
+ #, c-format
+ msgid "GSSAPI error %s: %.*s\n"
+@@ -1330,73 +1347,75 @@
+ 
+ #, c-format
+ msgid "Couldn't get service name for [%s]\n"
+-msgstr "Kunde inte få tjänstenamnet för [%s]\n"
++msgstr "Kunde inte hämta tjänstnamnet för [%s]\n"
+ 
+ #, c-format
+ msgid "Using service name [%s]\n"
+ msgstr "Använder tjänstenamn [%s]\n"
+ 
+ msgid "No suitable GSSAPI credentials found. Skipping GSSAPI authentication.\n"
+-msgstr "Inga lämpliga GSSAPI-kreditiv hittade.  Hoppar över GSSAPI-autentisering.\n"
++msgstr "Inga lämpliga GSSAPI-behörighetsuppgifter hittades. Hoppar över "
++"GSSAPI-autentisering.\n"
+ 
+ msgid "If you want to use GSSAPI, you need credentials first, possibly from kinit.\n"
+-msgstr "Om du vill använda GSSAPI behöver du kreditiv först, möjligen från kinit.\n"
++msgstr "Om du vill använda GSSAPI behöver du först behörighetsuppgifter, eventuellt "
++"från kinit.\n"
+ 
+ #, c-format
+ msgid "Received malformed challenge to \"%s GSSAPI\"!\n"
+-msgstr "Mottog felaktigt utmaning till ”%s GSSAPI”!\n"
++msgstr "Tog emot en felformaterad utmaning för ”%s GSSAPI”!\n"
+ 
+ msgid "Sending credentials\n"
+-msgstr "Skickar kreditiv\n"
++msgstr "Skickar behörighetsuppgifter\n"
+ 
+ msgid "Error exchanging credentials\n"
+-msgstr "Fel vid utbyte av kreditiv\n"
++msgstr "Fel vid utbyte av behörighetsuppgifter\n"
+ 
+ msgid "Couldn't unwrap security level data\n"
+-msgstr "Kunde inte packa upp säkerhetsnivådata\n"
++msgstr "Kunde inte packa upp data om säkerhetsnivå\n"
+ 
+ msgid "Credential exchange complete\n"
+-msgstr "Kreditivutbyte klart\n"
++msgstr "Utbytet av behörighetsuppgifter är klart\n"
+ 
+ msgid "Server requires integrity and/or privacy\n"
+-msgstr "Servern kräver integritet\n"
++msgstr "Servern kräver integritet och/eller sekretess\n"
+ 
+ #, c-format
+ msgid "Unwrapped security level flags: %s%s%s\n"
+-msgstr "Uppackade säkerhetsnivåflaggor: %s%s%s\n"
++msgstr "Uppackade flaggor för säkerhetsnivå: %s%s%s\n"
+ 
+ #, c-format
+ msgid "Maximum GSS token size is %ld\n"
+-msgstr "Maximal GSS-token-storlek är %ld\n"
++msgstr "Största GSS-tokenstorleken är %ld\n"
+ 
+ msgid "GSSAPI username too long for static buffer.\n"
+ msgstr "GSSAPI-användarnamnet är för långt för den statiska bufferten.\n"
+ 
+ msgid "Error creating security level request\n"
+-msgstr "Fel när säkerhetsnivåbegäran skapades\n"
++msgstr "Fel när begäran om säkerhetsnivå skapades\n"
+ 
+ #, c-format
+ msgid "GSSAPI send_token too large (%lu) while sending username.\n"
+ msgstr "GSSAPI send_token var för stor (%lu) när användarnamnet skickades.\n"
+ 
+ msgid "Releasing GSS credentials\n"
+-msgstr "Släpper GSS-kreditiv\n"
++msgstr "Frisläpper GSS-behörighetsuppgifter\n"
+ 
+ msgid "Error releasing credentials\n"
+-msgstr "Fel när kreditiv släpptes\n"
++msgstr "Fel när behörighetsuppgifterna frisläpptes\n"
+ 
+ msgid "Protocol identified as IMAP4 rev 1\n"
+-msgstr "Protokoll identifierat som IMAP4 rev 1\n"
++msgstr "Protokollet identifierades som IMAP4 rev 1\n"
+ 
+ msgid "Protocol identified as IMAP4 rev 0\n"
+-msgstr "Protokoll identifierat som IMAP4 rev 0\n"
++msgstr "Protokollet identifierades som IMAP4 rev 0\n"
+ 
+ msgid "Protocol identified as IMAP2 or IMAP2BIS\n"
+-msgstr "Protokoll identifierat som IMAP2 eller IMAP2BIS\n"
++msgstr "Protokollet identifierades som IMAP2 eller IMAP2BIS\n"
+ 
+ #, c-format
+ msgid "Received BYE response from IMAP server: %s\n"
+-msgstr "Mottog BYE-svar från IMAP-servern: %s\n"
++msgstr "Tog emot BYE-svar från IMAP-servern: %s\n"
+ 
+ #, c-format
+ msgid "bogus message count in \"%s\"!"
+@@ -1404,28 +1423,35 @@
+ 
+ #, c-format
+ msgid "Unexpected EXPUNGE response from IMAP server: \"%s\". fetchmail must abort the session because message numbers are desynchronized now.\n"
+-msgstr "Oväntat EXPUNGE-svar från IMAP-servern: ”%s”. fetchmail måste avbryta sessionen eftersom meddelandenummer nu är osynkroniserade.\n"
++msgstr "Oväntat EXPUNGE-svar från IMAP-servern: ”%s”. Fetchmail måste avbryta "
++"sessionen eftersom meddelandenummer nu är osynkroniserade.\n"
+ 
+ #, c-format
+ msgid "bogus EXPUNGE message number in untagged response \"%s\"!"
+-msgstr "felaktigt EXPUNGE-meddelandeantal i otaggat svar ”%s”!"
++msgstr "felaktigt EXPUNGE-meddelandenummer i det otaggade svaret ”%s”!"
+ 
+ msgid "found updated capabilities list\n"
+-msgstr "hittade uppdaterad funktionslista\n"
++msgstr "hittade en uppdaterad funktionslista\n"
+ 
+ msgid "server did not advertise SASL-IR extension but fetchmail's implementation requires it for AUTHENTICATE EXTERNAL\n"
+-msgstr "servern annonserade inte SASL-IR-tillägget men fetchmails implementering kräver det för AUTHENTICATE EXTERNAL\n"
++msgstr "servern annonserade inte SASL-IR-tillägget, men fetchmails implementering "
++"kräver det för AUTHENTICATE EXTERNAL\n"
+ 
+ msgid "can idle after poll\n"
+ msgstr "kan vila efter kontroll\n"
+ 
+ #, c-format
+ msgid "%s: configuration requires TLS, but STARTTLS is not permitted because of authenticated state (PREAUTH). Aborting connection.  If your plugin is secure, you can defeat STARTTLS with --sslproto '' (see manual).\n"
+-msgstr "%s: konfiguration kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om din insticksmodul är säker kan du motverka STARTTLS med --sslproto '' (se manualen).\n"
++msgstr "%s: konfigurationen kräver TLS, men STARTTLS är inte tillåtet på grund av "
++"autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om "
++"insticksprogrammet är säkert kan STARTTLS kringgås med --sslproto ”” (se "
++"manualen).\n"
+ 
+ #, c-format
+ msgid "%s: configuration requires TLS, but STARTTLS is not permitted because of authenticated state (PREAUTH). Aborting connection.  Server permitting, try --ssl instead (see manual).\n"
+-msgstr "%s: konfiguration kräver TLS, men STARTTLS är inte tillåtet på grund av autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om servern tillåter det, prova --ssl istället (se manualen).\n"
++msgstr "%s: konfigurationen kräver TLS, men STARTTLS är inte tillåtet på grund av "
++"autentiserat tillstånd (PREAUTH). Avbryter anslutningen. Om servern tillåter "
++"det kan du försöka med --ssl i stället (se manualen).\n"
+ 
+ #, c-format
+ msgid "%s: upgrade to TLS succeeded.\n"
+@@ -1445,17 +1471,17 @@
+ 
+ #, c-format
+ msgid "%s: --auth external requested but server does not advertise it.\n"
+-msgstr "%s: --auth extern begäran men servern annonserar inte om det.\n"
++msgstr "%s: --auth external har begärts, men servern annonserar inte det.\n"
+ 
+ msgid "Required OTP capability not compiled into fetchmail\n"
+-msgstr "Nödvändig OTP-förmåga inte inkompilerad i fetchmail\n"
++msgstr "Nödvändig OTP-funktion har inte kompilerats in i fetchmail\n"
+ 
+ msgid "Required NTLM capability not compiled into fetchmail\n"
+-msgstr "Nödvändig NTLM-förmåga inte inkompilerad i fetchmail\n"
++msgstr "Nödvändig NTLM-funktion har inte kompilerats in i fetchmail\n"
+ 
+ #, c-format
+ msgid "%s: --auth password requested but server forbids it (LOGINDISABLED).\n"
+-msgstr "%s: --auth lösenord begärt men servern förbjuder det (LOGINDISABLED).\n"
++msgstr "%s: --auth password har begärts, men servern förbjuder det (LOGINDISABLED).\n"
+ 
+ #, c-format
+ msgid "%s: we've run out of authentication methods and cannot log in.\n"
+@@ -1463,15 +1489,15 @@
+ 
+ #, c-format
+ msgid "mail expunge mismatch (%d actual != %d expected)\n"
+-msgstr "kastande av post stämmer inte (%d faktiskt ≠ %d förväntat)\n"
++msgstr "tömning av post stämmer inte (%d faktiskt ≠ %d förväntat)\n"
+ 
+ #, c-format
+ msgid "%lu is unseen\n"
+-msgstr "%lu är osedda\n"
++msgstr "%lu är osedd\n"
+ 
+ #, c-format
+ msgid "%u is unseen\n"
+-msgstr "%u är osedda\n"
++msgstr "%u är osedd\n"
+ 
+ msgid "re-poll failed\n"
+ msgstr "omkontroll misslyckades\n"
+@@ -1483,7 +1509,7 @@
+ msgstr[1] "%d meddelanden väntar efter omkontroll\n"
+ 
+ msgid "mailbox selection failed\n"
+-msgstr "brevlådeval misslyckades\n"
++msgstr "val av brevlåda misslyckades\n"
+ 
+ #, c-format
+ msgid "%d message waiting after first poll\n"
+@@ -1492,7 +1518,7 @@
+ msgstr[1] "%d meddelanden väntar efter första kontrollen\n"
+ 
+ msgid "expunge failed\n"
+-msgstr "kastande misslyckades\n"
++msgstr "tömning misslyckades\n"
+ 
+ #, c-format
+ msgid "%d message waiting after expunge\n"
+@@ -1508,45 +1534,45 @@
+ msgstr "%u är det första osedda\n"
+ 
+ msgid "Warning: ignoring bogus data for message sizes returned by the server.\n"
+-msgstr "Varning: ignorerar felaktiga data för meddelandestorlek som returneras av servern.\n"
++msgstr "Varning: ignorerar felaktiga data om meddelandestorlekar från servern.\n"
+ 
+ #, c-format
+ msgid "Incorrect FETCH response: %s.\n"
+ msgstr "Felaktigt FETCH-svar: %s.\n"
+ 
+ msgid "Unable to open kvm interface. Make sure fetchmail is SGID kmem."
+-msgstr "Kan inte öppna kvm-gränssnittet.  Se till att fetchmail är SGID kmem."
++msgstr "Kan inte öppna kvm-gränssnittet. Kontrollera att fetchmail är SGID kmem."
+ 
+ #, c-format
+ msgid "Unable to parse interface name from %s"
+ msgstr "Kan inte tolka gränssnittsnamn från %s"
+ 
+ msgid "get_ifinfo: sysctl (iflist estimate) failed"
+-msgstr "get_ifinfo: sysctl (if-listuppskattning) misslyckades"
++msgstr "get_ifinfo: sysctl (uppskattning av iflist) misslyckades"
+ 
+ msgid "get_ifinfo: malloc failed"
+ msgstr "get_ifinfo: malloc misslyckades"
+ 
+ msgid "get_ifinfo: sysctl (iflist) failed"
+-msgstr "get_ifinfo: sysctl (if-lista) misslyckades"
++msgstr "get_ifinfo: sysctl (iflist) misslyckades"
+ 
+ #, c-format
+ msgid "Routing message version %d not understood."
+-msgstr "Ruttläggningsmeddelande version %d förstås inte."
++msgstr "Routningsmeddelande version %d förstås inte."
+ 
+ #, c-format
+ msgid "No interface found with name %s"
+-msgstr "Inget gränssnitt funnet med namnet %s"
++msgstr "Inget gränssnitt hittades med namnet %s"
+ 
+ #, c-format
+ msgid "No IP address found for %s"
+-msgstr "Ingen IP-adress funnen för %s"
++msgstr "Ingen IP-adress hittades för %s"
+ 
+ msgid "missing IP interface address\n"
+-msgstr "saknad adress för IP-gränssnitt\n"
++msgstr "IP-gränssnittsadress saknas\n"
+ 
+ msgid "invalid IP interface address\n"
+-msgstr "ogiltig adress för IP-gränssnitt\n"
++msgstr "ogiltig IP-gränssnittsadress\n"
+ 
+ msgid "invalid IP interface mask\n"
+ msgstr "ogiltig mask för IP-gränssnitt\n"
+@@ -1557,11 +1583,11 @@
+ 
+ #, c-format
+ msgid "skipping poll of %s, %s down\n"
+-msgstr "hoppar över kontroll av %s, %s nere\n"
++msgstr "hoppar över kontroll av %s; %s är nere\n"
+ 
+ #, c-format
+ msgid "skipping poll of %s, %s IP address excluded\n"
+-msgstr "hoppar över kontroll av %s, %s:s IP-adress utesluten\n"
++msgstr "hoppar över kontroll av %s; %s:s IP-adress är undantagen\n"
+ 
+ #, c-format
+ msgid "activity on %s checked as %d\n"
+@@ -1569,7 +1595,7 @@
+ 
+ #, c-format
+ msgid "skipping poll of %s, %s inactive\n"
+-msgstr "hoppar över kontroll av %s, %s inaktivt\n"
++msgstr "hoppar över kontroll av %s; %s är inaktivt\n"
+ 
+ #, c-format
+ msgid "activity on %s was %d, is %d\n"
+@@ -1580,11 +1606,11 @@
+ 
+ #, c-format
+ msgid "principal %s in ticket does not match -u %s\n"
+-msgstr "huvudnamn %s i biljetten stämmer inte med -u %s\n"
++msgstr "huvudnamnet %s i biljetten stämmer inte med -u %s\n"
+ 
+ #, c-format
+ msgid "non-null instance (%s) might cause strange behavior\n"
+-msgstr "ej tom instans (%s) kan orsaka konstigt beteende\n"
++msgstr "icke-tom instans (%s) kan orsaka oväntat beteende\n"
+ 
+ msgid "could not decode BASE64 ready response\n"
+ msgstr "kunde inte avkoda BASE64-färdigt svar\n"
+@@ -1614,11 +1640,11 @@
+ 
+ #, c-format
+ msgid "fetchmail: lock creation failed, pidfile \"%s\": %s\n"
+-msgstr "fetchmail: misslyckades att skapa lås, pid-fil ”%s”: %s\n"
++msgstr "fetchmail: det gick inte att skapa låset, PID-filen ”%s”: %s\n"
+ 
+ #, c-format
+ msgid "fetchmail: cannot remove or truncate pidfile \"%s\": %s\n"
+-msgstr "fetchmail: kan inte ta bort eller hugga av pid-filen ”%s”: %s\n"
++msgstr "fetchmail: kan inte ta bort eller trunkera PID-filen ”%s”: %s\n"
+ 
+ #, c-format
+ msgid "%s: cannot open file for reading: %s\n"
+@@ -1634,7 +1660,8 @@
+ 
+ #, c-format
+ msgid "%s: rejecting file because it is group or other accessible (mode %#o) and contains passwords.\n"
+-msgstr "%s: avvisar filen för att den är åtkomlig för gruppen eller övriga (läge %#o) och innehåller lösenord.\n"
++msgstr "%s: avvisar filen eftersom den är åtkomlig för grupp eller andra (läge %#o) "
++"och innehåller lösenord.\n"
+ 
+ #, c-format
+ msgid "%s:%d: warning: found \"%s\" before any host names\n"
+@@ -1642,7 +1669,7 @@
+ 
+ #, c-format
+ msgid "%s:%d: machine entry not permitted after default, rejecting file.\n"
+-msgstr "%s:%d: maskinposter är inte tillåtna efter default, avvisar filen.\n"
++msgstr "%s:%d: maskinposter är inte tillåtna efter default; avvisar filen.\n"
+ 
+ #, c-format
+ msgid "%s:%d: warning: unknown token \"%s\"\n"
+@@ -1666,16 +1693,16 @@
+ 
+ #, c-format
+ msgid "%s's SMTP listener does not support ATRN\n"
+-msgstr "%ss SMTP-lyssnare stödjer inte ATRN\n"
++msgstr "SMTP-lyssnaren på %s stöder inte ATRN\n"
+ 
+ msgid "Turnaround now...\n"
+ msgstr "Vänder nu…\n"
+ 
+ msgid "ATRN request refused.\n"
+-msgstr "ATRN-begäran nekad.\n"
++msgstr "ATRN-begäran nekades.\n"
+ 
+ msgid "Unable to process ATRN request now\n"
+-msgstr "Kan inte bearbeta ATRN-begäran nu\n"
++msgstr "Kan inte behandla ATRN-begäran nu\n"
+ 
+ msgid "You have no mail.\n"
+ msgstr "Du har ingen post.\n"
+@@ -1706,7 +1733,7 @@
+ msgstr "Flaggan --check stödjs inte med ODMR\n"
+ 
+ msgid "server recv fatal\n"
+-msgstr "server mottog ödesdigert\n"
++msgstr "allvarligt fel vid mottagning från servern\n"
+ 
+ msgid "Could not decode OTP challenge\n"
+ msgstr "Kunde inte avkoda OTP-utmaning\n"
+@@ -1730,57 +1757,57 @@
+ 
+ #, c-format
+ msgid "Invalid bad-header policy `%s' specified.\n"
+-msgstr "Ogiltig policy ”%s” för felaktiga huvuden angiven.\n"
++msgstr "Ogiltig policy ”%s” för felaktiga huvuden angavs.\n"
+ 
+ #, c-format
+ msgid "Invalid protocol `%s' specified.\n"
+-msgstr "Ogiltigt protokoll ”%s” angivet.\n"
++msgstr "Ogiltigt protokoll ”%s” angavs.\n"
+ 
+ #, c-format
+ msgid "Invalid authentication `%s' specified.\n"
+-msgstr "Ogiltig autentisering ”%s” angiven.\n"
++msgstr "Ogiltig autentisering ”%s” angavs.\n"
+ 
+ msgid "usage:  fetchmail [options] [server ...]\n"
+-msgstr "användning:  fetchmail [flaggor] [server …]\n"
++msgstr "användning: fetchmail [flaggor] [server …]\n"
+ 
+ msgid "  Options are as follows:\n"
+-msgstr "  Flaggorna är enligt följande:\n"
++msgstr "  Alternativen är följande:\n"
+ 
+ msgid "  -?, --help        display this option help\n"
+-msgstr "  -?, --help        visa denna flagghjälp\n"
++msgstr "  -?, --help        visa hjälp för dessa alternativ\n"
+ 
+ msgid "  -V, --version     display version info\n"
+ msgstr "  -V, --version     visa versionsinformation\n"
+ 
+ msgid "  -c, --check       check for messages without fetching\n"
+-msgstr "  -c, --check       kontrollera om det finns meddelanden utan att hämta\n"
++msgstr "  -c, --check       kontrollera om det finns meddelanden utan att hämta dem\n"
+ 
+ msgid "  -s, --silent      work silently\n"
+ msgstr "  -s, --silent      arbeta tyst\n"
+ 
+ msgid "  -v, --verbose     work noisily (diagnostic output)\n"
+-msgstr "  -v, --verbose     arbeta högljutt (diagnostiska utskrifter)\n"
++msgstr "  -v, --verbose     arbeta utförligt (diagnostiska utskrifter)\n"
+ 
+ msgid "  -d, --daemon      run as a daemon once per n seconds\n"
+ msgstr "  -d, --daemon      kör som en demon en gång per n sekunder\n"
+ 
+ msgid "  -N, --nodetach    don't detach daemon process\n"
+-msgstr "  -N, --nodetach    koppla inte loss demonprocessen\n"
++msgstr "  -N, --nodetach    koppla inte från demonprocessen\n"
+ 
+ msgid "  -q, --quit        kill daemon process\n"
+ msgstr "  -q, --quit        döda demonprocessen\n"
+ 
+ msgid "  -L, --logfile     specify logfile name\n"
+-msgstr "  -L, --logfile     ange loggfilsnamn\n"
++msgstr "  -L, --logfile     ange loggfilens namn\n"
+ 
+ msgid "      --syslog      use syslog(3) for most messages when running as a daemon\n"
+ msgstr "      --syslog      använd syslog(3) för de flesta meddelanden vid körning som en demon\n"
+ 
+ msgid "      --nosyslog    turns off use of syslog(3)\n"
+-msgstr "      --nosyslog    slå av användningen av syslog(3)\n"
++msgstr "      --nosyslog    stäng av användningen av syslog(3)\n"
+ 
+ msgid "      --invisible   don't write Received & enable host spoofing\n"
+-msgstr "      --invisible   skriv inte Received och aktivera värdimitation\n"
++msgstr "      --invisible   skriv inte Received och aktivera värdförfalskning\n"
+ 
+ msgid "  -f, --fetchmailrc specify alternate run control file\n"
+ msgstr "  -f, --fetchmailrc ange en alternativ körstyrningsfil\n"
+@@ -1792,13 +1819,13 @@
+ msgstr "      --pidfile     ange en alternativ PID-fil (för lås)\n"
+ 
+ msgid "      --postmaster  specify recipient of last resort\n"
+-msgstr "      --postmaster  ange en mottagare som sista utväg\n"
++msgstr "      --postmaster  ange mottagare som sista utväg\n"
+ 
+ msgid "      --nobounce    redirect bounces from user to postmaster.\n"
+ msgstr "      --nobounce    omdirigera studsar från användaren till postmaster.\n"
+ 
+ msgid "      --nosoftbounce fetchmail deletes permanently undeliverable messages.\n"
+-msgstr "      --nosoftbounce fetchmail raderar permanent olevererbara meddelanden.\n"
++msgstr "      --nosoftbounce fetchmail tar bort permanent olevererbara meddelanden.\n"
+ 
+ msgid "      --softbounce  keep permanently undeliverable messages on server (default).\n"
+ msgstr "      --softbounce  behåll permanent olevererbara meddelanden på servern (standard).\n"
+@@ -1816,10 +1843,10 @@
+ msgstr "      --nossl       avaktivera en SSL/TLS-inkapslad krypterad session\n"
+ 
+ msgid "      --sslkey      ssl private key file\n"
+-msgstr "      --sslkey      fil med privat ssl-nyckel\n"
++msgstr "      --sslkey      fil med privat SSL-nyckel\n"
+ 
+ msgid "      --sslcert     ssl client certificate\n"
+-msgstr "      --sslcert     ssl-klientcertifikat\n"
++msgstr "      --sslcert     SSL-klientcertifikat\n"
+ 
+ msgid "      --sslcertck   do strict server certificate check (recommended)\n"
+ msgstr "      --sslcertck   gör en strikt kontroll av servercertifikat (rekommenderas)\n"
+@@ -1828,44 +1855,48 @@
+ msgstr "      --nosslcertck hoppa över strikt kontroll av servercertifikat (osäkert)\n"
+ 
+ msgid "      --sslcertfile path to trusted-CA ssl certificate file\n"
+-msgstr "      --sslcertfile sökväg till fil med ssl-certifikat för betrodda CA\n"
++msgstr "      --sslcertfile sökväg till fil med SSL-certifikat från betrodd CA\n"
+ 
+ msgid "      --sslcertpath path to trusted-CA ssl certificate directory\n"
+-msgstr "      --sslcertpath sökväg till katalog med ssl-certifikat för betrodda CA\n"
++msgstr "      --sslcertpath sökväg till katalog med SSL-certifikat från betrodd CA\n"
+ 
+ msgid "      --sslcommonname  expect this CommonName from server (discouraged)\n"
+ msgstr "      --sslcommonname  förvänta detta CommonName från servern (avrådes)\n"
+ 
+ msgid "      --sslfingerprint fingerprint that must match that of the server's cert.\n"
+-msgstr "      --sslfingerprint fingeravtryck som måste matcha det för serverns certifikat.\n"
++msgstr "      --sslfingerprint fingeravtryck som måste matcha serverns certifikat.\n"
+ 
+ msgid "      --sslproto    force ssl protocol (see manual) and/or STLS/STARTTLS\n"
+-msgstr "      --sslproto    framtvinga ssl-protokoll (se manualen) och/eller STLS/STARTTLS\n"
++msgstr "      --sslproto    framtvinga SSL-protokoll (se manualen) och/eller "
++"STLS/STARTTLS\n"
+ 
+ msgid "      --plugin      specify external command to open connection\n"
+ msgstr "      --plugin      ange externt kommando för att öppna en anslutning\n"
+ 
+ msgid "      --plugout     specify external command to open smtp connection\n"
+-msgstr "      --plugout     ange externt kommando för att öppna en smtp-anslutning\n"
++msgstr "      --plugout     ange externt kommando för att öppna SMTP-anslutning\n"
+ 
+ msgid ""
+ "      --bad-header {reject|accept}\n"
+ "                    specify policy for handling messages with bad headers\n"
+ msgstr ""
+ "      --bad-header {reject|accept}\n"
+-"                    ange policy för att hantera meddelanden med felaktiga huvuden\n"
++"                    ange policy för hantering av meddelanden med felaktiga "
++"huvuden\n"
+ 
+ msgid "  -p, --proto[col]  specify retrieval protocol (see man page)\n"
+-msgstr "  -p, --proto[col]  ange protokoll för att hämta (se manualsidan)\n"
++msgstr "  -p, --proto[col]  ange protokoll för hämtning (se manualsidan)\n"
+ 
+ msgid "  -U, --uidl        force the use of UIDLs (pop3 only)\n"
+ msgstr "  -U, --uidl        framtvinga användning av UIDL:er (endast pop3)\n"
+ 
+ msgid "      --idle        tells the IMAP server to send notice of new messages\n"
+-msgstr "      --idle        säger till IMAP-servern att skicka aviseringar om nya meddelanden\n"
++msgstr "      --idle        begär att IMAP-servern skickar aviseringar om nya "
++"meddelanden\n"
+ 
+ msgid "      --forceidle   Force idle mode, even if server does not advertise the capability\n"
+-msgstr "      --forceidle   Framtvinga vilande läge, även om servern inte annonserar förmågan\n"
++msgstr "      --forceidle   framtvinga viloläge även om servern inte annonserar "
++"funktionen\n"
+ 
+ #, c-format
+ msgid "      --idletimeout specify timeout before refreshing --idle (%d s)\n"
+@@ -1887,13 +1918,14 @@
+ msgstr "  -E, --envelope    kuvertadresshuvud\n"
+ 
+ msgid "  -Q, --qvirtual    prefix to remove from local user id\n"
+-msgstr "  -Q, --qvirtual    prefix att ta bort från lokala användar-id\n"
++msgstr "  -Q, --qvirtual    prefix att ta bort från lokalt användar-ID\n"
+ 
+ msgid "      --principal   mail service principal\n"
+ msgstr "      --principal   posttjänsthuvudnamn\n"
+ 
+ msgid "      --tracepolls  add poll-tracing information to Received header\n"
+-msgstr "      --tracepolls  lägg till kontrollspårningsinformation till Received-huvuden\n"
++msgstr "      --tracepolls  lägg till kontrollspårningsinformation i "
++"Received-huvudet\n"
+ 
+ msgid "  -u, --user[name]  specify users's login on server\n"
+ msgstr "  -u, --user[name]  ange användarens inloggning på servern\n"
+@@ -1902,13 +1934,14 @@
+ msgstr "  -a, --[fetch]all  hämta gamla och nya meddelanden\n"
+ 
+ msgid "  -K, --nokeep      delete new messages after retrieval\n"
+-msgstr "  -K, --nokeep      radera nya meddelanden efter de hämtats\n"
++msgstr "  -K, --nokeep      ta bort nya meddelanden efter hämtning\n"
+ 
+ msgid "  -k, --keep        save new messages after retrieval\n"
+-msgstr "  -k, --keep        spara nya meddelanden efter de hämtats\n"
++msgstr "  -k, --keep        spara nya meddelanden efter hämtning\n"
+ 
+ msgid "      --moveto      move message to the given IMAP folder instead of deleting it\n"
+-msgstr "      --moveto      flytta meddelandet till den givna IMAP-mappen istälet för att radera det\n"
++msgstr "      --moveto      flytta meddelandet till den angivna IMAP-mappen i stället "
++"för att ta bort det\n"
+ 
+ msgid "  -F, --flush       delete old messages from server\n"
+ msgstr "  -F, --flush       radera gamla meddelanden från servern\n"
+@@ -1923,10 +1956,10 @@
+ msgstr "  -l, --limit       hämta inte meddelanden över en viss storlek\n"
+ 
+ msgid "  -w, --warnings    interval between warning mail notification\n"
+-msgstr "  -w, --warnings    intervall mellan varningsbrevsaviseringar\n"
++msgstr "  -w, --warnings    intervall mellan aviseringar om varningsmeddelanden\n"
+ 
+ msgid "  -S, --smtphost    set SMTP forwarding host\n"
+-msgstr "  -S, --smtphost    sätt värd för SMTP-vidarebefordran\n"
++msgstr "  -S, --smtphost    ange värd för SMTP-vidarebefordran\n"
+ 
+ msgid "\t\t\t   NOTE: all using same name and password!\n"
+ msgstr "\t\t\t   OBSERVERA: alla använder samma namn och lösenord!\n"
+@@ -1935,7 +1968,7 @@
+ msgstr "      --fetchdomains hämta post för angivna domäner\n"
+ 
+ msgid "  -D, --smtpaddress set SMTP delivery domain to use\n"
+-msgstr "  -D, --smtpaddress sätt SMTP-leveransdomän att använda\n"
++msgstr "  -D, --smtpaddress ange SMTP-leveransdomän som ska användas\n"
+ 
+ msgid "      --smtpname    set SMTP full name username@domain\n"
+ msgstr "      --smtpname    sätt fullständigt SMTP-namn användarnamn@domän\n"

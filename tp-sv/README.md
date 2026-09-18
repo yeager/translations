@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 26 023 aktiva poster i de 33 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 7 151 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 26 797 aktiva poster i de 34 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 7 418 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -43,6 +43,7 @@ Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska
 | e2fsprogs | 1.47.3-rc1 | 1674 | 374 | [PO](e2fsprogs-1.47.3-rc1.sv.po) | [Diff](diff/e2fsprogs-1.47.3-rc1.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/e2fsprogs-1.47.3-rc1.sv.po) |
 | enscript | 1.6.5.90 | 208 | 16 | [PO](enscript-1.6.5.90.sv.po) | [Diff](diff/enscript-1.6.5.90.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/enscript-1.6.5.90.sv.po) |
 | exif | 0.6.22 | 71 | 2 | [PO](exif-0.6.22.sv.po) | [Diff](diff/exif-0.6.22.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/exif-0.6.22.sv.po) |
+| fetchmail | 6.6.7.rc1 | 774 | 267 | [PO](fetchmail-6.6.7.rc1.sv.po) | [Diff](diff/fetchmail-6.6.7.rc1.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/fetchmail-6.6.7.rc1.sv.po) |
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
 
