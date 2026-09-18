@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**Aves (2026-09-18):** Aktuell release `v1.15.3` (2026-09-09) bekräftad. Alla svenska komponenter är kompletta: huvudapp 735/735, Android 9/9 och butiksmetadata 4/4. Två granskade förbättringar är redo (`Show raw icon` → **Visa RAW-ikon**, samt korrigerad HTML-markering i butiksbeskrivningen), men Hosted Weblate avvisade båda API-uppdateringarna med HTTP 403. Den officiella exporten är arkiverad som `Aves/`; publicera rättningarna när skrivbehörigheten aktiveras.
+
 **3D Slicer (2026-09-18):** Efter godkänt översättaravtal har den granskade UI-batchen skickats till Hosted Weblate. Importen accepterade **79** poster (0 saknades); svenska huvudkomponenten är nu **4 724/5 849** med 963 `needs-editing` och 27 kontrollmarkeringar. Den officiella exporten är synkad som `3D-Slicer/Slicer_sv.ts`. Fortsätt granska återstående maskinöversättningar med UI-kontext.
 
 **3D Slicer terminologi (2026-09-18):** Granskning sker per modul och arbetsflöde, med källfil som underlag. Två begrepp har korrigerats med källkodskontext: `Clipping` → **Klippning** och modellens `Intersection` → **Skärningslinje**. Tolv kontextgranskade batcher omfattar hela huvudkomponenten för Markups, modeller, volymrendering, segmentering, sekvenser, skivvyer, DICOM, ROI-beskärning, bildregistrering, omsampling, tabeller och transformeringar. Weblate-status är **5 849/5 849**, med **0** poster som behöver redigeras. Exporten `3D-Slicer/Slicer_sv.ts` är XML-validerad. Slutgranskningen korrigerade fem strukturfel i äldre rika textsträngar (en radbrytning och fyra HTML-tagguppsättningar). `l10n-lint` avslutas nu med **0 fel** och 32 icke-blockerande varningar.
