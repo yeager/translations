@@ -7518,43 +7518,43 @@ Is it OK to release these shortcuts?</source>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Use Numpad and Tab keys for Switching Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd sifferblockets och tabbens tangenter för att växla stilar</translation>
     </message>
     <message>
         <source>Use Arrow Key to Shift Cell Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd piltangenter för att flytta cellmarkering</translation>
     </message>
     <message>
         <source>Enable to Input Cells without Double Clicking</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera inmatning av celler utan dubbelklick</translation>
     </message>
     <message>
         <source>Please indicate where you would like exports from Fast Render (MP4) to go.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange var exporterna från snabbrendering (MP4) ska sparas.</translation>
     </message>
     <message>
         <source>Fast Render Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg för snabbrendering:</translation>
     </message>
     <message>
         <source>Watch File System and Update File Browser Automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Övervaka filsystemet och uppdatera filbläddraren automatiskt</translation>
     </message>
     <message>
         <source>Use Camera DPI for All Imported Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd kamerans DPI för alla importerade bilder</translation>
     </message>
     <message>
         <source>Show Toolbar in the Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa verktygsfält i XSheet</translation>
     </message>
     <message>
         <source>Expand Function Editor Header to Match XSheet Toolbar Height (Requires Restart)</source>
@@ -7562,43 +7562,43 @@ Is it OK to release these shortcuts?</source>
     </message>
     <message>
         <source>Show Column Numbers in Column Headers</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa kolumnnummer i kolumnrubriker</translation>
     </message>
     <message>
         <source>Always ask before loading or importing</source>
-        <translation type="unfinished"></translation>
+        <translation>Fråga alltid före inläsning eller import</translation>
     </message>
     <message>
         <source>Always import the file to the current project</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera alltid filen till aktuellt projekt</translation>
     </message>
     <message>
         <source>Always load the file from the current location</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs alltid in filen från aktuell plats</translation>
     </message>
     <message>
         <source>Strokes</source>
-        <translation type="unfinished"></translation>
+        <translation>Streck</translation>
     </message>
     <message>
         <source>Guides</source>
-        <translation type="unfinished"></translation>
+        <translation>Hjälplinjer</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla</translation>
     </message>
     <message>
         <source>Default File Import Behavior:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardbeteende för filimport:</translation>
     </message>
     <message>
         <source>Default TLV Caching Behavior:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardbeteende för TLV-cachning:</translation>
     </message>
     <message>
         <source>Column Icon:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolumnikon:</translation>
     </message>
     <message>
         <source>Palette Type on Loading Raster Image as Color Model:</source>
