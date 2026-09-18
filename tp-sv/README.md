@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 13 677 aktiva poster i de 21 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 2 772 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 13 677 aktiva poster i de 21 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 2 778 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.2, [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -13,14 +13,14 @@ Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska
 | a2ps | 4.15.5 | 157 | 10 | [PO](a2ps-4.15.5.sv.po) | [Diff](diff/a2ps-4.15.5.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/a2ps-4.15.5.sv.po) |
 | anubis | 4.3 | 307 | 21 | [PO](anubis-4.3.sv.po) | [Diff](diff/anubis-4.3.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/anubis-4.3.sv.po) |
 | aspell | 0.60.8.2 | 302 | 14 | [PO](aspell-0.60.8.2.sv.po) | [Diff](diff/aspell-0.60.8.2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/aspell-0.60.8.2.sv.po) |
-| bash | 5.3-rc2 | 612 | 42 | [PO](bash-5.3-rc2.sv.po) | [Diff](diff/bash-5.3-rc2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/bash-5.3-rc2.sv.po) |
-| beebase | 1.2 | 891 | 21 | [PO](beebase-1.2.sv.po) | [Diff](diff/beebase-1.2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/beebase-1.2.sv.po) |
-| bfd | 2.46.90 | 2040 | 867 | [PO](bfd-2.46.90.sv.po) | [Diff](diff/bfd-2.46.90.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/bfd-2.46.90.sv.po) |
+| bash | 5.3-rc2 | 612 | 43 | [PO](bash-5.3-rc2.sv.po) | [Diff](diff/bash-5.3-rc2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/bash-5.3-rc2.sv.po) |
+| beebase | 1.2 | 891 | 22 | [PO](beebase-1.2.sv.po) | [Diff](diff/beebase-1.2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/beebase-1.2.sv.po) |
+| bfd | 2.46.90 | 2040 | 870 | [PO](bfd-2.46.90.sv.po) | [Diff](diff/bfd-2.46.90.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/bfd-2.46.90.sv.po) |
 | binutils | 2.46.90 | 2751 | 562 | [PO](binutils-2.46.90.sv.po) | [Diff](diff/binutils-2.46.90.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/binutils-2.46.90.sv.po) |
 | bison | 3.7.90 | 253 | 45 | [PO](bison-3.7.90.sv.po) | [Diff](diff/bison-3.7.90.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/bison-3.7.90.sv.po) |
 | bison-runtime | 3.5.90 | 9 | 4 | [PO](bison-runtime-3.5.90.sv.po) | [Diff](diff/bison-runtime-3.5.90.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/bison-runtime-3.5.90.sv.po) |
 | buzztrax | 0.10.0 | 362 | 86 | [PO](buzztrax-0.10.0.sv.po) | [Diff](diff/buzztrax-0.10.0.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/buzztrax-0.10.0.sv.po) |
-| ccd2cue | 0.5 | 46 | 21 | [PO](ccd2cue-0.5.sv.po) | [Diff](diff/ccd2cue-0.5.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/ccd2cue-0.5.sv.po) |
+| ccd2cue | 0.5 | 46 | 22 | [PO](ccd2cue-0.5.sv.po) | [Diff](diff/ccd2cue-0.5.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/ccd2cue-0.5.sv.po) |
 | ccide | 0.6.6pre1 | 25 | 1 | [PO](ccide-0.6.6pre1.sv.po) | [Diff](diff/ccide-0.6.6pre1.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/ccide-0.6.6pre1.sv.po) |
 | cflow | 1.8 | 165 | 6 | [PO](cflow-1.8.sv.po) | [Diff](diff/cflow-1.8.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/cflow-1.8.sv.po) |
 | chambercourt | 0.9.40 | 12 | 1 | [PO](chambercourt-0.9.40.sv.po) | [Diff](diff/chambercourt-0.9.40.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/chambercourt-0.9.40.sv.po) |

@@ -3273,7 +3273,7 @@
  
  #: elf64-mmix.c:1707
  #, c-format
-@@ -4659,7 +4764,7 @@
+@@ -4659,12 +4764,12 @@
  
  #: elf64-mmix.c:2206
  msgid "register section has contents\n"
@@ -3281,6 +3281,12 @@
 +msgstr "registersektionen har innehåll\n"
  
  #: elf64-mmix.c:2397
+ #, c-format
+ msgid "internal inconsistency: remaining %lu != max %lu; please report this bug"
+-msgstr "intern inkonsekvens: återstående %lu != max %lu; vänligen rapportera denna bugg"
++msgstr "intern inkonsekvens: återstående %lu != max %lu; rapportera denna bugg"
+ 
+ #: elf64-ppc.c:1361
  #, c-format
 @@ -4698,7 +4803,7 @@
  #: elf64-ppc.c:5500
@@ -5865,7 +5871,7 @@
  
  #. Not fatal, this callback cannot fail.
  #: elfnn-aarch64.c:2889 elfnn-riscv.c:5488
-@@ -9301,37 +9478,43 @@
+@@ -9301,69 +9478,80 @@
  #: elfnn-aarch64.c:5561
  #, c-format
  msgid "%pB: error: erratum 835769 stub out of range (input file too large)"
@@ -5916,7 +5922,8 @@
  
  #: elfnn-aarch64.c:7473
  msgid "too many GOT entries for -fpic, please recompile with -fPIC"
-@@ -9339,31 +9522,36 @@
+-msgstr "för många GOT-poster för -fpic, vänligen kompilera om med -fPIC"
++msgstr "för många GOT-poster för -fpic, kompilera om med -fPIC"
  
  #: elfnn-aarch64.c:7501
  msgid "one possible cause of this error is that the symbol is being referenced in the indicated code as if it had a larger alignment than was declared where it was defined"
@@ -6036,7 +6043,7 @@
  
  #: elfnn-riscv.c:2092
  #, c-format
-@@ -9522,12 +9716,14 @@
+@@ -9522,21 +9716,24 @@
  #: elfnn-riscv.c:2343
  #, c-format
  msgid "%%pcrel_lo overflow with an addend, the value of %%pcrel_hi is 0x%<PRIx64> without any addend, but may be 0x%<PRIx64> after adding the %%pcrel_lo addend"
@@ -6053,7 +6060,10 @@
  
  #: elfnn-riscv.c:2844
  #, c-format
-@@ -9536,7 +9732,7 @@
+ msgid "%pB: warning: R_RISCV_SUB_ULEB128 with non-zero addend, please rebuild by binutils 2.42 or up"
+-msgstr "%pB: varning: R_RISCV_SUB_ULEB128 med icke-noll addend, vänligen bygg om med binutils 2.42 eller senare"
++msgstr "%pB: varning: R_RISCV_SUB_ULEB128 med icke-noll addend, bygg om med binutils "
++"2.42 eller senare"
  
  #: elfnn-riscv.c:2934
  msgid "The addend isn't allowed for R_RISCV_GOT_HI20"
@@ -6062,7 +6072,7 @@
  
  #. PR 28509, when generating the shared object, these
  #. referenced symbols may bind externally, which means
-@@ -9555,22 +9751,23 @@
+@@ -9555,22 +9752,23 @@
  #: elfnn-riscv.c:3033
  #, c-format
  msgid "%%X%%P: relocation %s against `%s' which may bind externally can not be used when making a shared object; recompile with -fPIC\n"
@@ -6090,7 +6100,7 @@
  
  #: elfnn-riscv.c:3407
  msgid "%X%P: internal error: out of range error\n"
-@@ -9596,7 +9793,8 @@
+@@ -9596,7 +9794,8 @@
  #: elfnn-riscv.c:1157
  #, c-format
  msgid "%pB: relocation %s against non-absolute symbol `%s' can not be used in RV64 when making a shared object"
@@ -6100,7 +6110,7 @@
  
  #: peXXigen.c:161
  #, c-format
-@@ -9606,7 +9804,7 @@
+@@ -9606,7 +9805,7 @@
  #: peXXigen.c:188
  #, c-format
  msgid "%pB: out of memory creating name for empty section"
@@ -6109,7 +6119,7 @@
  
  #: peXXigen.c:199
  #, c-format
-@@ -9616,7 +9814,7 @@
+@@ -9616,7 +9815,7 @@
  #: peXXigen.c:935
  #, c-format
  msgid "%pB:%.8s: section below image base"
@@ -6118,7 +6128,7 @@
  
  #: peXXigen.c:940
  #, c-format
-@@ -9686,7 +9884,7 @@
+@@ -9686,7 +9885,7 @@
  
  #: peXXigen.c:1258
  msgid "CLR Runtime Header"
@@ -6127,7 +6137,7 @@
  
  #: peXXigen.c:1259
  msgid "Reserved"
-@@ -9708,7 +9906,7 @@
+@@ -9708,7 +9907,7 @@
  "There is an import table in %s, but that section has no contents\n"
  msgstr ""
  "\n"
@@ -6136,7 +6146,7 @@
  
  #: peXXigen.c:1337
  #, c-format
-@@ -9726,7 +9924,7 @@
+@@ -9726,7 +9925,7 @@
  "The Import Tables (interpreted %s section contents)\n"
  msgstr ""
  "\n"
@@ -6145,7 +6155,7 @@
  
  #: peXXigen.c:1346
  #, c-format
-@@ -9734,7 +9932,7 @@
+@@ -9734,7 +9933,7 @@
  " vma:            Hint    Time      Forward  DLL       First\n"
  "                 Table   Stamp     Chain    Name      Thunk\n"
  msgstr ""
@@ -6154,7 +6164,7 @@
  "                 tabell  stämpel   kedja    namn      thunk\n"
  
  #: peXXigen.c:1395
-@@ -9744,12 +9942,12 @@
+@@ -9744,12 +9943,12 @@
  "\tDLL Name: %.*s\n"
  msgstr ""
  "\n"
@@ -6169,7 +6179,7 @@
  
  #: peXXigen.c:1436
  #, c-format
-@@ -9809,7 +10007,7 @@
+@@ -9809,7 +10008,7 @@
  "\n"
  msgstr ""
  "\n"
@@ -6178,7 +6188,7 @@
  "\n"
  
  #: peXXigen.c:1689
-@@ -9825,7 +10023,7 @@
+@@ -9825,7 +10024,7 @@
  #: peXXigen.c:1696
  #, c-format
  msgid "Major/Minor \t\t\t%d/%d\n"
@@ -6187,7 +6197,7 @@
  
  #: peXXigen.c:1699
  #, c-format
-@@ -9840,7 +10038,7 @@
+@@ -9840,7 +10039,7 @@
  #: peXXigen.c:1713
  #, c-format
  msgid "Number in:\n"
@@ -6196,7 +6206,7 @@
  
  #: peXXigen.c:1716
  #, c-format
-@@ -9870,7 +10068,7 @@
+@@ -9870,7 +10069,7 @@
  #: peXXigen.c:1736
  #, c-format
  msgid "\tOrdinal Table \t\t\t"
@@ -6205,7 +6215,7 @@
  
  #: peXXigen.c:1750
  #, c-format
-@@ -9884,7 +10082,8 @@
+@@ -9884,7 +10083,8 @@
  #: peXXigen.c:1760
  #, c-format
  msgid "\tInvalid Export Address Table rva (0x%lx) or entry count (0x%lx)\n"
@@ -6215,7 +6225,7 @@
  
  #: peXXigen.c:1779
  msgid "Forwarder RVA"
-@@ -9901,17 +10100,18 @@
+@@ -9901,17 +10101,18 @@
  "[Ordinal/Name Pointer] Table -- Ordinal Base %ld\n"
  msgstr ""
  "\n"
@@ -6237,7 +6247,7 @@
  
  #: peXXigen.c:1829
  #, c-format
-@@ -9921,7 +10121,7 @@
+@@ -9921,7 +10122,7 @@
  #: peXXigen.c:1886 peXXigen.c:2056
  #, c-format
  msgid "warning, .pdata section size (%ld) is not a multiple of %d\n"
@@ -6246,7 +6256,7 @@
  
  #: peXXigen.c:1890 peXXigen.c:2060
  #, c-format
-@@ -9930,12 +10130,12 @@
+@@ -9930,12 +10131,12 @@
  "The Function Table (interpreted .pdata section contents)\n"
  msgstr ""
  "\n"
@@ -6261,7 +6271,7 @@
  
  #: peXXigen.c:1895
  #, c-format
-@@ -9949,7 +10149,8 @@
+@@ -9949,7 +10150,8 @@
  #: peXXigen.c:1908
  #, c-format
  msgid "Virtual size of .pdata section (%ld) larger than real size (%ld)\n"
@@ -6271,7 +6281,7 @@
  
  #: peXXigen.c:2062
  #, c-format
-@@ -9957,8 +10158,8 @@
+@@ -9957,8 +10159,8 @@
  " vma:\t\tBegin    Prolog   Function Flags    Exception EH\n"
  "     \t\tAddress  Length   Length   32b exc  Handler   Data\n"
  msgstr ""
@@ -6282,7 +6292,7 @@
  
  #: peXXigen.c:2187
  #, c-format
-@@ -9978,17 +10179,18 @@
+@@ -9978,17 +10180,18 @@
  "Virtual Address: %08lx Chunk size %ld (0x%lx) Number of fixups %ld\n"
  msgstr ""
  "\n"
@@ -6304,7 +6314,7 @@
  
  #: peXXigen.c:2319
  #, c-format
-@@ -10003,7 +10205,7 @@
+@@ -10003,7 +10206,7 @@
  #: peXXigen.c:2349
  #, c-format
  msgid "<corrupt string offset: %#lx>\n"
@@ -6313,7 +6323,7 @@
  
  #: peXXigen.c:2354
  #, c-format
-@@ -10028,7 +10230,7 @@
+@@ -10028,7 +10231,7 @@
  #: peXXigen.c:2429
  #, c-format
  msgid " Table: Char: %d, Time: %08lx, Ver: %d/%d, Num Names: %d, IDs: %d\n"
@@ -6322,7 +6332,7 @@
  
  #: peXXigen.c:2517
  #, c-format
-@@ -10061,7 +10263,8 @@
+@@ -10061,7 +10264,8 @@
  "There is a debug directory, but the section containing it could not be found\n"
  msgstr ""
  "\n"
@@ -6332,7 +6342,7 @@
  
  #: peXXigen.c:2613
  #, c-format
-@@ -10070,7 +10273,7 @@
+@@ -10070,7 +10274,7 @@
  "There is a debug directory in %s, but that section has no contents\n"
  msgstr ""
  "\n"
@@ -6341,7 +6351,7 @@
  
  #: peXXigen.c:2620
  #, c-format
-@@ -10079,7 +10282,8 @@
+@@ -10079,7 +10283,8 @@
  "Error: section %s contains the debug data starting address but it is too small\n"
  msgstr ""
  "\n"
@@ -6351,7 +6361,7 @@
  
  #: peXXigen.c:2625
  #, c-format
-@@ -10089,18 +10293,18 @@
+@@ -10089,18 +10294,18 @@
  "\n"
  msgstr ""
  "\n"
@@ -6373,7 +6383,7 @@
  
  #: peXXigen.c:2685
  #, c-format
-@@ -10110,7 +10314,8 @@
+@@ -10110,7 +10315,8 @@
  #: peXXigen.c:2697
  #, c-format
  msgid "The debug directory size is not a multiple of the debug directory entry size\n"
@@ -6383,7 +6393,7 @@
  
  #. The MS dumpbin program reportedly ands with 0xff0f before
  #. printing the characteristics field.  Not sure why.  No reason to
-@@ -10131,12 +10336,12 @@
+@@ -10131,12 +10337,12 @@
  
  #: peXXigen.c:3106
  msgid "failed to update file offsets in debug directory"
@@ -6398,7 +6408,7 @@
  
  #: peXXigen.c:3919
  #, c-format
-@@ -10145,24 +10350,24 @@
+@@ -10145,24 +10351,24 @@
  
  #: peXXigen.c:4054
  msgid ".rsrc merge failure: multiple non-default manifests"
@@ -6428,7 +6438,7 @@
  
  #: peXXigen.c:4193
  msgid ".rsrc merge failure: differing directory versions"
-@@ -10172,7 +10377,7 @@
+@@ -10172,7 +10378,7 @@
  #: peXXigen.c:4305
  #, c-format
  msgid "%pB: .rsrc merge failure: corrupt .rsrc section"
@@ -6437,7 +6447,7 @@
  
  #: peXXigen.c:4313
  #, c-format
-@@ -10197,7 +10402,8 @@
+@@ -10197,7 +10403,8 @@
  #: peXXigen.c:4694
  #, c-format
  msgid "%pB: unable to fill in DataDirectory[%d]: size too large for the containing section"
