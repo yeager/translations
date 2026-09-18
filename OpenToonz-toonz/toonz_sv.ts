@@ -3981,183 +3981,183 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Remove Multiple Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort flera nyckelbilder</translation>
     </message>
     <message>
         <source>&amp;Reverse</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vänd</translation>
     </message>
     <message>
         <source>&amp;Swing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pendla</translation>
     </message>
     <message>
         <source>&amp;Random</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Slumpmässigt</translation>
     </message>
     <message>
         <source>&amp;Autoexpose</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Exponera automatiskt</translation>
     </message>
     <message>
         <source>&amp;Repeat...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Upprepa...</translation>
     </message>
     <message>
         <source>&amp;Step 2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Steg 2</translation>
     </message>
     <message>
         <source>&amp;Step 3</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Steg 3</translation>
     </message>
     <message>
         <source>&amp;Step 4</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Steg 4</translation>
     </message>
     <message>
         <source>&amp;Each 2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Varannan</translation>
     </message>
     <message>
         <source>&amp;Each 3</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Var tredje</translation>
     </message>
     <message>
         <source>&amp;Each 4</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Var fjärde</translation>
     </message>
     <message>
         <source>&amp;Roll Up</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rulla upp</translation>
     </message>
     <message>
         <source>&amp;Roll Down</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rulla ned</translation>
     </message>
     <message>
         <source>&amp;Time Stretch...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tidssträckning...</translation>
     </message>
     <message>
         <source>&amp;Duplicate Drawing  </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Duplicera ritning  </translation>
     </message>
     <message>
         <source>&amp;Clone</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klona</translation>
     </message>
     <message>
         <source>Drawing Substitution Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritningsersättning framåt</translation>
     </message>
     <message>
         <source>Drawing Substitution Backward</source>
-        <translation type="unfinished"></translation>
+        <translation>Ritningsersättning bakåt</translation>
     </message>
     <message>
         <source>Similar Drawing Substitution Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Liknande ritningsersättning framåt</translation>
     </message>
     <message>
         <source>Similar Drawing Substitution Backward</source>
-        <translation type="unfinished"></translation>
+        <translation>Liknande ritningsersättning bakåt</translation>
     </message>
     <message>
         <source>&amp;Set Key</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ange nyckelbild</translation>
     </message>
     <message>
         <source>&amp;Camera Box</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kameraram</translation>
     </message>
     <message>
         <source>&amp;Table</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ritbord</translation>
     </message>
     <message>
         <source>&amp;Field Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fältguide</translation>
     </message>
     <message>
         <source>&amp;Safe Area</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Säkerhetsområde</translation>
     </message>
     <message>
         <source>&amp;Camera BG Color</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kamerans bakgrundsfärg</translation>
     </message>
     <message>
         <source>&amp;Transparency Check  </source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Transparenskontroll  </translation>
     </message>
     <message>
         <source>&amp;Ink Check</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bläckkontroll</translation>
     </message>
     <message>
         <source>&amp;Paint Check</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Målningskontroll</translation>
     </message>
     <message>
         <source>&amp;Fill Check</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fyllningskontroll</translation>
     </message>
     <message>
         <source>&amp;Black BG Check</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontroll av svart bakgrund</translation>
     </message>
     <message>
         <source>&amp;Gap Check</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Glappkontroll</translation>
     </message>
     <message>
         <source>&amp;Visualize Vector As Raster</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visualisera vektor som raster</translation>
     </message>
     <message>
         <source>&amp;Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Histogram</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela upp</translation>
     </message>
     <message>
         <source>Loop</source>
-        <translation type="unfinished"></translation>
+        <translation>Slinga</translation>
     </message>
     <message>
         <source>Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausa</translation>
     </message>
     <message>
         <source>First Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Första bildrutan</translation>
     </message>
     <message>
         <source>Last Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Sista bildrutan</translation>
     </message>
     <message>
         <source>Previous Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående bildruta</translation>
     </message>
     <message>
         <source>Next Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa bildruta</translation>
     </message>
     <message>
         <source>Red Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Röd kanal</translation>
     </message>
     <message>
         <source>Green Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Grön kanal</translation>
     </message>
     <message>
         <source>Blue Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Blå kanal</translation>
     </message>
     <message>
         <source>Matte Channel</source>
@@ -4165,63 +4165,63 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Red Channel Greyscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Röd kanal i gråskala</translation>
     </message>
     <message>
         <source>Green Channel Greyscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Grön kanal i gråskala</translation>
     </message>
     <message>
         <source>Blue Channel Greyscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Blå kanal i gråskala</translation>
     </message>
     <message>
         <source>&amp;Lock Room Panes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lås arbetsytans paneler</translation>
     </message>
     <message>
         <source>&amp;File Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Filbläddrare</translation>
     </message>
     <message>
         <source>&amp;Flipbook</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blädderbok</translation>
     </message>
     <message>
         <source>&amp;Function Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Funktionsredigerare</translation>
     </message>
     <message>
         <source>&amp;Level Strip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nivåremsa</translation>
     </message>
     <message>
         <source>&amp;Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Palett</translation>
     </message>
     <message>
         <source>&amp;Palette Gizmo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Palettgizmo</translation>
     </message>
     <message>
         <source>&amp;Delete Unused Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort oanvända stilar</translation>
     </message>
     <message>
         <source>&amp;Tasks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uppgifter</translation>
     </message>
     <message>
         <source>&amp;Batch Servers</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Batchservrar</translation>
     </message>
     <message>
         <source>&amp;Color Model</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Färgmodell</translation>
     </message>
     <message>
         <source>&amp;Studio Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Studiopalett</translation>
     </message>
     <message>
         <source>&amp;Schematic</source>
