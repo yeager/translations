@@ -9473,23 +9473,24 @@ Are you sure to </source>
     <message>
         <source>Cannot paste data 
  Nothing to paste</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte klistra in data
+Det finns inget att klistra in</translation>
     </message>
     <message>
         <source>Modify Play Range  : %1 - %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra uppspelningsintervall: %1–%2</translation>
     </message>
     <message>
         <source>Modify Play Range  : %1 - %2  &gt;  %3 - %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra uppspelningsintervall: %1–%2 &gt; %3–%4</translation>
     </message>
     <message>
         <source>Use Level Extender</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd nivåutökare</translation>
     </message>
     <message>
         <source>Modify Sound Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra ljudnivå</translation>
     </message>
     <message>
         <source>Set Keyframe  : %1  at Frame %2</source>
@@ -9497,43 +9498,43 @@ Are you sure to </source>
     </message>
     <message>
         <source>Move Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta kolumner</translation>
     </message>
     <message>
         <source>Change Pegbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra tappregister</translation>
     </message>
     <message>
         <source>Rename Cell  at Column %1  Frame %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn på cell i kolumn %1, bildruta %2</translation>
     </message>
     <message>
         <source>Move Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta nivå</translation>
     </message>
     <message>
         <source>Combo Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Kombinerad visare</translation>
     </message>
     <message>
         <source>Move Level to Cast Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta nivå till innehållsmapp</translation>
     </message>
     <message>
         <source>Merge Raster Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfoga raster-nivåer</translation>
     </message>
     <message>
         <source>Delete Matchline  : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort passningslinje: nivå %1</translation>
     </message>
     <message>
         <source>Apply Matchline  : Column%1 &lt; Column%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa passningslinje: kolumn %1 &lt; kolumn %2</translation>
     </message>
     <message>
         <source>Palette Gizmo  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Palettstyrning %1</translation>
     </message>
     <message>
         <source>Warning</source>
@@ -9541,11 +9542,11 @@ Are you sure to </source>
     </message>
     <message>
         <source>Palette is locked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Paletten är låst.</translation>
     </message>
     <message>
         <source>History</source>
-        <translation type="unfinished"></translation>
+        <translation>Historik</translation>
     </message>
     <message>
         <source>Move Keyframe</source>
@@ -9553,47 +9554,47 @@ Are you sure to </source>
     </message>
     <message>
         <source>Move keyframe handle  : %1  Handle of the keyframe %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta nyckelbildrutans handtag: %1, handtaget för nyckelbildruta %2</translation>
     </message>
     <message>
         <source>Toggle cycle of  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla cykel för %1</translation>
     </message>
     <message>
         <source>[Drag] to move position</source>
-        <translation type="unfinished"></translation>
+        <translation>[Dra] för att flytta position</translation>
     </message>
     <message>
         <source>----Separator----</source>
-        <translation type="unfinished"></translation>
+        <translation>----Avgränsare----</translation>
     </message>
     <message>
         <source>[Drag] to move position, [Double Click] to edit title</source>
-        <translation type="unfinished"></translation>
+        <translation>[Dra] för att flytta position, [Dubbelklicka] för att redigera rubriken</translation>
     </message>
     <message>
         <source>Incorrect file</source>
-        <translation type="unfinished"></translation>
+        <translation>Felaktig fil</translation>
     </message>
     <message>
         <source>[Drag&amp;Drop] to copy separator to menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>[Dra och släpp] för att kopiera avgränsaren till menyraden</translation>
     </message>
     <message>
         <source>[Drag&amp;Drop] to copy command to menu bar</source>
-        <translation type="unfinished"></translation>
+        <translation>[Dra och släpp] för att kopiera kommandot till menyraden</translation>
     </message>
     <message>
         <source>Cannot open menubar settings template file. Re-installing Toonz will solve this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att öppna mallfilen för menyradsinställningar. Problemet löses genom att installera om Toonz.</translation>
     </message>
     <message>
         <source>Visit Web Site</source>
-        <translation type="unfinished"></translation>
+        <translation>Besök webbplatsen</translation>
     </message>
     <message>
         <source>https://opentoonz.github.io/e/</source>
-        <translation type="unfinished"></translation>
+        <translation>https://opentoonz.github.io/e/</translation>
     </message>
     <message>
         <source>Add color model&apos;s palette to the destination palette.</source>
@@ -9601,73 +9602,79 @@ Are you sure to </source>
     </message>
     <message>
         <source>Change current drawing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra aktuell ritning %1</translation>
     </message>
     <message>
         <source>Hide Zero Thickness Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj linjer med nolltjocklek</translation>
     </message>
     <message>
         <source>Show Zero Thickness Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa linjer med nolltjocklek</translation>
     </message>
     <message>
         <source>%1: the current scene has been modified.
 What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1: den aktuella scenen har ändrats.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>Save All</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara alla</translation>
     </message>
     <message>
         <source>Save Scene Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara endast scenen</translation>
     </message>
     <message>
         <source>Discard Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkasta ändringar</translation>
     </message>
     <message>
         <source> The following file(s) have been modified.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation> Följande fil(er) har ändrats.
+
+</translation>
     </message>
     <message>
         <source>
 What would you like to do? </source>
-        <translation type="unfinished"></translation>
+        <translation>
+Vad vill du göra? </translation>
     </message>
     <message>
         <source>Save Changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara ändringar</translation>
     </message>
     <message>
         <source> Anyway</source>
-        <translation type="unfinished"></translation>
+        <translation> Ändå</translation>
     </message>
     <message>
         <source>This scene is incompatible with pixels only mode of the current OpenToonz version.
 What would you like to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Den här scenen är inkompatibel med läget med endast pixlar i den aktuella OpenToonz-versionen.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>Turn off pixels only mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng av läget med endast pixlar</translation>
     </message>
     <message>
         <source>Keep pixels only mode on and resize the scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll läget med endast pixlar och ändra scenstorlek</translation>
     </message>
     <message>
         <source>&lt;custom&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;anpassad&gt;</translation>
     </message>
     <message>
         <source>The file name already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamnet finns redan.
+Vill du skriva över det?</translation>
     </message>
     <message>
         <source>Deleting &quot;%1&quot;.
@@ -9677,7 +9684,7 @@ Are you sure?</source>
     </message>
     <message>
         <source>FFmpeg not found, please set the location in the Preferences and restart.</source>
-        <translation type="unfinished"></translation>
+        <translation>FFmpeg hittades inte. Ange platsen i Inställningar och starta om.</translation>
     </message>
     <message>
         <source>Skipping frame.</source>
@@ -9685,31 +9692,31 @@ Are you sure?</source>
     </message>
     <message>
         <source>Always do this action.</source>
-        <translation type="unfinished"></translation>
+        <translation>Utför alltid den här åtgärden.</translation>
     </message>
     <message>
         <source>The selected scene could not be found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda scenen kunde inte hittas.</translation>
     </message>
     <message>
         <source>Layer name</source>
-        <translation type="unfinished"></translation>
+        <translation>Lagernamn</translation>
     </message>
     <message>
         <source>Auto Input Cell Numbers : %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk inmatning av cellnummer: %1</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga</translation>
     </message>
     <message>
         <source>Command Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandofält</translation>
     </message>
     <message>
         <source>Reframe to %1&apos;s with %2 blanks</source>
-        <translation type="unfinished"></translation>
+        <translation>Rama om till %1:or med %2 tomma celler</translation>
     </message>
     <message>
         <source>Stage Schematic</source>
@@ -9717,39 +9724,43 @@ Are you sure?</source>
     </message>
     <message>
         <source>Fx Schematic</source>
-        <translation type="unfinished"></translation>
+        <translation>FX-schemavy</translation>
     </message>
     <message>
         <source>Cannot Read XML File</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att läsa XML-filen</translation>
     </message>
     <message>
         <source>New Note Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny anteckningsnivå</translation>
     </message>
     <message>
         <source>The following level(s) use path with $scenefolder alias.
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Följande nivå(er) använder sökvägar med aliaset $scenefolder.
+
+</translation>
     </message>
     <message>
         <source>
 They will not be opened properly when you load the scene next time.
 What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>
+De öppnas inte korrekt nästa gång du läser in scenen.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>Copy the levels to correspondent paths</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera nivåerna till motsvarande sökvägar</translation>
     </message>
     <message>
         <source>Decode all $scenefolder aliases</source>
-        <translation type="unfinished"></translation>
+        <translation>Avkoda alla $scenefolder-alias</translation>
     </message>
     <message>
         <source>Save the scene only</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara endast scenen</translation>
     </message>
     <message>
         <source>Overwrite for All</source>
