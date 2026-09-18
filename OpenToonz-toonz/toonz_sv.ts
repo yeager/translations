@@ -8149,61 +8149,61 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Single Image</source>
-        <translation type="unfinished"></translation>
+        <translation>En enda bild</translation>
     </message>
     <message>
         <source>Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildrutor</translation>
     </message>
     <message>
         <source>Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolumner</translation>
     </message>
     <message>
         <source>Flatten visible document layers into a single image. Layer styles are maintained.</source>
-        <translation type="unfinished"></translation>
+        <translation>Platta ut synliga dokumentlager till en enda bild. Lagerstilar bevaras.</translation>
     </message>
     <message>
         <source>Load document layers as frames into a single xsheet column.</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in dokumentlager som bildrutor i en enda XSheet-kolumn.</translation>
     </message>
     <message>
         <source>Load document layers as xhseet columns.</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in dokumentlager som XSheet-kolumner.</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
     <name>QApplication</name>
     <message>
         <source>Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta</translation>
     </message>
     <message>
         <source>New Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny scen</translation>
     </message>
     <message>
         <source>Load Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in scen</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
         <source>No data to paste.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga data att klistra in.</translation>
     </message>
     <message>
         <source>It is not possible to paste the cells: there is a circular reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att klistra in cellerna: det finns en cirkelreferens.</translation>
     </message>
     <message>
         <source>Overwrite</source>
@@ -8215,11 +8215,11 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkasta</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -8241,7 +8241,7 @@ What do you want to do? </source>
     </message>
     <message>
         <source>It is not possible to paste the columns: there is a circular reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att klistra in kolumnerna: det finns en cirkelreferens.</translation>
     </message>
     <message>
         <source>None</source>
@@ -8249,19 +8249,19 @@ What do you want to do? </source>
     </message>
     <message>
         <source>Edited</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigerad</translation>
     </message>
     <message>
         <source>Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Normal</translation>
     </message>
     <message>
         <source>To Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Att uppdatera</translation>
     </message>
     <message>
         <source>Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrad</translation>
     </message>
     <message>
         <source>Locked</source>
