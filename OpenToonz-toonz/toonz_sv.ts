@@ -9198,35 +9198,35 @@ Are you sure ?</source>
     </message>
     <message>
         <source>Collapse</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ihop</translation>
     </message>
     <message>
         <source>Collapse (Fx)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ihop (FX)</translation>
     </message>
     <message>
         <source>Explode</source>
-        <translation type="unfinished"></translation>
+        <translation>Dela upp</translation>
     </message>
     <message>
         <source>Delete Level  : %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort nivå: %1</translation>
     </message>
     <message>
         <source>Revert To %1  : Level %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ till %1: nivå %2</translation>
     </message>
     <message>
         <source>Load Level  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in nivå %1</translation>
     </message>
     <message>
         <source>Load and Replace Level  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in och ersätt nivå %1</translation>
     </message>
     <message>
         <source>Expose Level  %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponera nivå %1</translation>
     </message>
     <message>
         <source> Following file(s) are modified.
@@ -9252,15 +9252,15 @@ Are you sure to </source>
     </message>
     <message>
         <source>Overwrite Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över palett</translation>
     </message>
     <message>
         <source>Don&apos;t Overwrite Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv inte över palett</translation>
     </message>
     <message>
         <source>No Current Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen aktuell nivå</translation>
     </message>
     <message>
         <source>Toonz cannot Save this Level</source>
@@ -9268,39 +9268,39 @@ Are you sure to </source>
     </message>
     <message>
         <source>No Current Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen aktuell scen</translation>
     </message>
     <message>
         <source>Save level Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att spara nivån</translation>
     </message>
     <message>
         <source>Paste  : Level %1 : Frame </source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in: nivå %1: bildruta </translation>
     </message>
     <message>
         <source>Delete Frames  : Level %1 : Frame </source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort bildrutor: nivå %1: bildruta </translation>
     </message>
     <message>
         <source>Cut Frames  : Level %1 : Frame </source>
-        <translation type="unfinished"></translation>
+        <translation>Klipp ut bildrutor: nivå %1: bildruta </translation>
     </message>
     <message>
         <source>Add Frames  : Level %1 : Frame </source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till bildrutor: nivå %1: bildruta </translation>
     </message>
     <message>
         <source>Renumber  : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Numrera om: nivå %1</translation>
     </message>
     <message>
         <source>Insert  : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga: nivå %1</translation>
     </message>
     <message>
         <source>Reverse  : Level %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd: nivå %1</translation>
     </message>
     <message>
         <source>Swing  : Level %1</source>
