@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 21 024 aktiva poster i de 25 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 5 538 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 23 245 aktiva poster i de 26 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 6 576 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -35,6 +35,7 @@ Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska
 | dfarc | 3.14 | 137 | 43 | [PO](dfarc-3.14.sv.po) | [Diff](diff/dfarc-3.14.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/dfarc-3.14.sv.po) |
 | dico | 2.10.90 | 644 | 211 | [PO](dico-2.10.90.sv.po) | [Diff](diff/dico-2.10.90.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/dico-2.10.90.sv.po) |
 | diffutils | 3.10.242 | 265 | 127 | [PO](diffutils-3.10.242.sv.po) | [Diff](diff/diffutils-3.10.242.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/diffutils-3.10.242.sv.po) |
+| dink | 1.08.20190120 | 2221 | 1038 | [PO](dink-1.08.20190120.sv.po) | [Diff](diff/dink-1.08.20190120.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/dink-1.08.20190120.sv.po) |
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
 
