@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**Barcode Buddy (2026-09-18):** Aktuell release `v1.9.0.0` (2026-09-03) bekräftad. Hela svenska komponenten med 32 markerade strängar är kontextgranskad lokalt (streckkodsuppslag, lager, produktförbrukning och logg). Hosted Weblate avvisar publiceringen med HTTP 403. Officiell export och färdig API-batch finns i `Barcode-Buddy/`; publicera när skrivbehörigheten aktiveras.
+
 **ADB Explorer (2026-09-18):** Aktuell release `v1.0.26092` (2026-09-17) bekräftad. Första kontextgranskade batchen har publicerat alla **106** tidigare tomma svenska strängar för ADB-verifiering, integritet, emulatorer, sökning, arkiv, konfliktlösning och APK-säkerhetskopior. Svenska resurser har granskats i sin helhet: **0** tomma och **0** poster som behöver redigeras. Weblate räknar 553/557 översatta eftersom fyra tekniska, källidentiska poster inte räknas som översättning. Fem kontextgranskade batcher täcker ADB-anslutning, hämta/skicka, emulatorhantering, konfliktlösning, enhetsstatus, batteri, parkoppling, lagring och inställningar. Officiell RESX-export: `ADB-Explorer/Resources.sv.resx` (XML-validerad).
 
 **Aves (2026-09-18):** Aktuell release `v1.15.3` (2026-09-09) bekräftad. Alla svenska komponenter är kompletta: huvudapp 735/735, Android 9/9 och butiksmetadata 4/4. Två granskade förbättringar är redo (`Show raw icon` → **Visa RAW-ikon**, samt korrigerad HTML-markering i butiksbeskrivningen), men Hosted Weblate avvisade båda API-uppdateringarna med HTTP 403. Den officiella exporten är arkiverad som `Aves/`; publicera rättningarna när skrivbehörigheten aktiveras.

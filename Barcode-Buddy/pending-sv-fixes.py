@@ -1,0 +1,7 @@
+import json,urllib.request
+from pathlib import Path
+T=Path('work/weblate/.token').read_text().strip()
+M={68246127:'Okänd streckkod slogs upp, namn hittades: %s',68246128:'Okänd produkt har redan skannats. Ökar antalet.',68246129:'Det gick inte att slå upp den okända streckkoden',68246136:'Lägger till %d %s av %s',68246137:'Kopplade streckkoden %d till %s',68246138:'Produkten hittades. Lägger till %d %s av %s',68246139:'Inget i lager, förbrukar inte: %s',68246140:'Återgår till Förbruka',68246141:'Produkten hittades. Förbrukar %d %s av %s',68246142:'Nya streckkoder',68246143:'Okända streckkoder',68246144:'Inga okända streckkoder ännu.',68246145:'Inga kända streckkoder ännu.',68246146:'Inga behandlade objekt ännu.',68246147:'Ta bort alla',68246148:'Behandlade streckkoder',68246149:'Streckkod',68246150:'Slå upp',68246151:'Antal',68246152:'Produkt',68246153:'Åtgärd',68246154:'Skapa',68246155:'Ta bort',68246156:'Rensa loggen',68246157:'Skapa produkt',68246158:'Lägg till',68246159:'Förbruka',69341521:'Produkten hittades. ',69341522:'Förbrukar %d %s av %s [%d]. I lager: %d',69341523:'Öppnar %d %s av %s',69341524:'Ange tillstånd till ',69341526:'Förbruka (alla)'}
+for i,v in M.items():
+ d=json.dumps({'target':[v],'state':20},ensure_ascii=False).encode();r=urllib.request.Request(f'https://hosted.weblate.org/api/units/{i}/',data=d,method='PATCH',headers={'Authorization':f'Token {T}','Content-Type':'application/json'})
+ with urllib.request.urlopen(r) as x:print(i,x.status)
