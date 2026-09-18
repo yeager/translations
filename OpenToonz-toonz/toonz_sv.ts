@@ -4225,47 +4225,47 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Schematic</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Schemavy</translation>
     </message>
     <message>
         <source>Toggle FX/Stage schematic</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla FX-/scenschema</translation>
     </message>
     <message>
         <source>&amp;Scene Cast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Scenens innehåll</translation>
     </message>
     <message>
         <source>&amp;Style Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stilredigerare</translation>
     </message>
     <message>
         <source>&amp;Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verktygsfält</translation>
     </message>
     <message>
         <source>&amp;Tool Option Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Verktygsalternativfält</translation>
     </message>
     <message>
         <source>&amp;Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visare</translation>
     </message>
     <message>
         <source>&amp;LineTest Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fånga linjetest</translation>
     </message>
     <message>
         <source>&amp;LineTest Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Linjetestvisare</translation>
     </message>
     <message>
         <source>&amp;Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;XSheet</translation>
     </message>
     <message>
         <source>&amp;Reset to Default Rooms</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Återställ till standardarbetsytor</translation>
     </message>
     <message>
         <source>Onion Skin</source>
@@ -4273,27 +4273,27 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicera</translation>
     </message>
     <message>
         <source>Show Folder Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa mappinnehåll</translation>
     </message>
     <message>
         <source>Convert...</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera...</translation>
     </message>
     <message>
         <source>Collect Assets</source>
-        <translation type="unfinished"></translation>
+        <translation>Samla resurser</translation>
     </message>
     <message>
         <source>Import Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera scen</translation>
     </message>
     <message>
         <source>Export Scene...</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera scen...</translation>
     </message>
     <message>
         <source>Premultiply</source>
@@ -4301,83 +4301,83 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Convert to Vectors...</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera till vektorer...</translation>
     </message>
     <message>
         <source>Tracking...</source>
-        <translation type="unfinished"></translation>
+        <translation>Spårning...</translation>
     </message>
     <message>
         <source>Remove Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort nivå</translation>
     </message>
     <message>
         <source>Add As Render Task</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till som renderingsuppgift</translation>
     </message>
     <message>
         <source>Add As Cleanup Task</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till som renritningsuppgift</translation>
     </message>
     <message>
         <source>Select All Keys in this Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera alla nyckelbilder i denna bildruta</translation>
     </message>
     <message>
         <source>Select All Keys in this Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera alla nyckelbilder i denna kolumn</translation>
     </message>
     <message>
         <source>Select All Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera alla nyckelbilder</translation>
     </message>
     <message>
         <source>Select All Following Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera alla följande nyckelbilder</translation>
     </message>
     <message>
         <source>Select All Previous Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera alla föregående nyckelbilder</translation>
     </message>
     <message>
         <source>Select Previous Keys in this Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera föregående nyckelbilder i denna kolumn</translation>
     </message>
     <message>
         <source>Select Following Keys in this Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera följande nyckelbilder i denna kolumn</translation>
     </message>
     <message>
         <source>Select Previous Keys in this Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera föregående nyckelbilder i denna bildruta</translation>
     </message>
     <message>
         <source>Select Following Keys in this Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera följande nyckelbilder i denna bildruta</translation>
     </message>
     <message>
         <source>Invert Key Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Invertera markering av nyckelbilder</translation>
     </message>
     <message>
         <source>Set Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange acceleration</translation>
     </message>
     <message>
         <source>Set Deceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange inbromsning</translation>
     </message>
     <message>
         <source>Set Constant Speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange konstant hastighet</translation>
     </message>
     <message>
         <source>Reset Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ interpolering</translation>
     </message>
     <message>
         <source>Fold Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ihop kolumn</translation>
     </message>
     <message>
         <source>Activate this column only</source>
@@ -4457,95 +4457,95 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Selection Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Markeringsverktyg</translation>
     </message>
     <message>
         <source>Brush Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselverktyg</translation>
     </message>
     <message>
         <source>Geometric Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometriverktyg</translation>
     </message>
     <message>
         <source>Type Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Textverktyg</translation>
     </message>
     <message>
         <source>Fill Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyllverktyg</translation>
     </message>
     <message>
         <source>Fill Tool - Areas</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyllverktyg – områden</translation>
     </message>
     <message>
         <source>Fill Tool - Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyllverktyg – linjer</translation>
     </message>
     <message>
         <source>Paint Brush Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Målarpensel</translation>
     </message>
     <message>
         <source>Eraser Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Radergummiverktyg</translation>
     </message>
     <message>
         <source>Tape Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Tejpverktyg</translation>
     </message>
     <message>
         <source>Style Picker Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilpipett</translation>
     </message>
     <message>
         <source>Style Picker Tool - Areas</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilpipett – områden</translation>
     </message>
     <message>
         <source>Style Picker Tool - Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilpipett – linjer</translation>
     </message>
     <message>
         <source>RGB Picker Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>RGB-pipett</translation>
     </message>
     <message>
         <source>Control Point Editor Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigeringsverktyg för kontrollpunkter</translation>
     </message>
     <message>
         <source>Pinch Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Nypverktyg</translation>
     </message>
     <message>
         <source>Pump Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Pumpverktyg</translation>
     </message>
     <message>
         <source>Magnet Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Magnetverktyg</translation>
     </message>
     <message>
         <source>Bender Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Böjverktyg</translation>
     </message>
     <message>
         <source>Iron Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Strykjärnsverktyg</translation>
     </message>
     <message>
         <source>Cutter Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Skärverktyg</translation>
     </message>
     <message>
         <source>Skeleton Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Skelettverktyg</translation>
     </message>
     <message>
         <source>Tracker Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Spårningsverktyg</translation>
     </message>
     <message>
         <source>Hook Tool</source>
