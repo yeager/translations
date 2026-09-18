@@ -1,0 +1,560 @@
+[
+  {
+    "id": 206653854,
+    "source": [
+      "The registry holds wines that look like <strong>{{query}}</strong>. Attach your bottles to one of them, or confirm this is a new wine."
+    ],
+    "target": [
+      "Registret innehåller viner som liknar <strong>{{query}}</strong>. Koppla dina flaskor till ett av dem eller bekräfta att detta är ett nytt vin."
+    ],
+    "context": "draftWine.similarIntro",
+    "state": 20
+  },
+  {
+    "id": 206653855,
+    "source": [
+      "The registry already holds <strong>{{query}}</strong>. Attach your bottles to it — a second copy would be a duplicate."
+    ],
+    "target": [
+      "Registret innehåller redan <strong>{{query}}</strong>. Koppla dina flaskor till det – en andra kopia skulle vara en dubblett."
+    ],
+    "context": "draftWine.duplicateIntro",
+    "state": 20
+  },
+  {
+    "id": 206653856,
+    "source": [
+      "Edit draft wine"
+    ],
+    "target": [
+      "Redigera utkast till vin"
+    ],
+    "context": "draftWine.editTitle",
+    "state": 20
+  },
+  {
+    "id": 206653857,
+    "source": [
+      "Only you can see this wine. Every field can be changed freely until you publish it."
+    ],
+    "target": [
+      "Bara du kan se det här vinet. Alla fält kan ändras fritt tills du publicerar det."
+    ],
+    "context": "draftWine.editHint",
+    "state": 20
+  },
+  {
+    "id": 206653858,
+    "source": [
+      "Wine name"
+    ],
+    "target": [
+      "Vinnamn"
+    ],
+    "context": "draftWine.fieldName",
+    "state": 20
+  },
+  {
+    "id": 206653859,
+    "source": [
+      "Producer"
+    ],
+    "target": [
+      "Producent"
+    ],
+    "context": "draftWine.fieldProducer",
+    "state": 20
+  },
+  {
+    "id": 206653860,
+    "source": [
+      "Country"
+    ],
+    "target": [
+      "Land"
+    ],
+    "context": "draftWine.fieldCountry",
+    "state": 20
+  },
+  {
+    "id": 206653861,
+    "source": [
+      "Region"
+    ],
+    "target": [
+      "Region"
+    ],
+    "context": "draftWine.fieldRegion",
+    "state": 20
+  },
+  {
+    "id": 206653862,
+    "source": [
+      "Appellation"
+    ],
+    "target": [
+      "Ursprungsbeteckning"
+    ],
+    "context": "draftWine.fieldAppellation",
+    "state": 20
+  },
+  {
+    "id": 206653863,
+    "source": [
+      "Classification"
+    ],
+    "target": [
+      "Klassificering"
+    ],
+    "context": "draftWine.fieldClassification",
+    "state": 20
+  },
+  {
+    "id": 206653864,
+    "source": [
+      "Type"
+    ],
+    "target": [
+      "Typ"
+    ],
+    "context": "draftWine.fieldType",
+    "state": 20
+  },
+  {
+    "id": 206653865,
+    "source": [
+      "Grapes (comma-separated)"
+    ],
+    "target": [
+      "Druvor (kommaseparerade)"
+    ],
+    "context": "draftWine.fieldGrapes",
+    "state": 20
+  },
+  {
+    "id": 206653866,
+    "source": [
+      "My draft wines"
+    ],
+    "target": [
+      "Mina vinutkast"
+    ],
+    "context": "draftWine.pageTitle",
+    "state": 20
+  },
+  {
+    "id": 206653867,
+    "source": [
+      "Wines you created as private drafts. Only you can see them; edit them freely, then publish them to the shared registry. An untouched draft with bottles publishes by itself after 7 days; an empty one is deleted."
+    ],
+    "target": [
+      "Viner som du har skapat som privata utkast. Bara du kan se dem; redigera dem fritt och publicera dem sedan i det delade registret. Ett orört utkast med flaskor publiceras automatiskt efter 7 dagar, medan ett tomt utkast raderas."
+    ],
+    "context": "draftWine.pageIntro",
+    "state": 20
+  },
+  {
+    "id": 206653868,
+    "source": [
+      "No drafts. When you add a bottle of a wine the registry does not know, you can keep it as a private draft first."
+    ],
+    "target": [
+      "Inga utkast. När du lägger till en flaska av ett vin som registret inte känner till kan du först behålla det som privat utkast."
+    ],
+    "context": "draftWine.none",
+    "state": 20
+  },
+  {
+    "id": 206653869,
+    "source": [
+      "Publish selected ({{count}})"
+    ],
+    "target": [
+      "Publicera markerade ({{count}})"
+    ],
+    "context": "draftWine.publishSelected",
+    "state": 20
+  },
+  {
+    "id": 206653870,
+    "source": [
+      "Select {{name}}"
+    ],
+    "target": [
+      "Markera {{name}}"
+    ],
+    "context": "draftWine.select",
+    "state": 20
+  },
+  {
+    "id": 206653871,
+    "source": [
+      "{{count}} bottle(s)"
+    ],
+    "target": [
+      "{{count}} flaska/flaskor"
+    ],
+    "context": "draftWine.bottleCount",
+    "state": 20
+  },
+  {
+    "id": 206653872,
+    "source": [
+      "publishes by itself on {{date}}"
+    ],
+    "target": [
+      "publiceras automatiskt {{date}}"
+    ],
+    "context": "draftWine.autoPublishes",
+    "state": 20
+  },
+  {
+    "id": 206653873,
+    "source": [
+      "expires {{date}}"
+    ],
+    "target": [
+      "upphör {{date}}"
+    ],
+    "context": "draftWine.expires",
+    "state": 20
+  },
+  {
+    "id": 206653874,
+    "source": [
+      "Published"
+    ],
+    "target": [
+      "Publicerad"
+    ],
+    "context": "draftWine.rowPublished",
+    "state": 20
+  },
+  {
+    "id": 206653875,
+    "source": [
+      "Published — a curator will complete the producer"
+    ],
+    "target": [
+      "Publicerad – en registerförvaltare kompletterar producenten"
+    ],
+    "context": "draftWine.rowPendingCuration",
+    "state": 20
+  },
+  {
+    "id": 206653876,
+    "source": [
+      "Already in the registry — attach your bottles to it"
+    ],
+    "target": [
+      "Finns redan i registret – koppla dina flaskor till det"
+    ],
+    "context": "draftWine.rowDuplicate",
+    "state": 20
+  },
+  {
+    "id": 206653877,
+    "source": [
+      "Similar wines exist — choose"
+    ],
+    "target": [
+      "Liknande viner finns – välj"
+    ],
+    "context": "draftWine.rowSimilar",
+    "state": 20
+  },
+  {
+    "id": 206653878,
+    "source": [
+      "Bottles attached to {{wine}}"
+    ],
+    "target": [
+      "Flaskor kopplade till {{wine}}"
+    ],
+    "context": "draftWine.rowAttached",
+    "state": 20
+  },
+  {
+    "id": 206653879,
+    "source": [
+      "Delete this empty draft?"
+    ],
+    "target": [
+      "Vill du ta bort det här tomma utkastet?"
+    ],
+    "context": "draftWine.deleteConfirm",
+    "state": 20
+  },
+  {
+    "id": 206653880,
+    "source": [
+      "← Back to my cellars"
+    ],
+    "target": [
+      "← Tillbaka till mina vinkällare"
+    ],
+    "context": "draftWine.backToCellars",
+    "state": 20
+  },
+  {
+    "id": 206657397,
+    "source": [
+      "e.g. Merlot, Cabernet Franc"
+    ],
+    "target": [
+      "t.ex. Merlot, Cabernet Franc"
+    ],
+    "context": "draftWine.fieldGrapesPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206657398,
+    "source": [
+      "Just now"
+    ],
+    "target": [
+      "Just nu"
+    ],
+    "context": "draftWine.recentTitle",
+    "state": 20
+  },
+  {
+    "id": 206657399,
+    "source": [
+      "Resolve"
+    ],
+    "target": [
+      "Lös"
+    ],
+    "context": "draftWine.resolve",
+    "state": 20
+  },
+  {
+    "id": 206657400,
+    "source": [
+      "No longer a draft"
+    ],
+    "target": [
+      "Inte längre ett utkast"
+    ],
+    "context": "draftWine.rowNotFound",
+    "state": 20
+  },
+  {
+    "id": 206657401,
+    "source": [
+      "Changed meanwhile — reload"
+    ],
+    "target": [
+      "Ändrad under tiden – läs in igen"
+    ],
+    "context": "draftWine.rowConflict",
+    "state": 20
+  },
+  {
+    "id": 206679658,
+    "source": [
+      "Producer"
+    ],
+    "target": [
+      "Producent"
+    ],
+    "context": "wineLists.sortProducer",
+    "state": 20
+  },
+  {
+    "id": 206679659,
+    "source": [
+      "Then by"
+    ],
+    "target": [
+      "Därefter efter"
+    ],
+    "context": "wineLists.thenBy",
+    "state": 20
+  },
+  {
+    "id": 206679660,
+    "source": [
+      "— no further level —"
+    ],
+    "target": [
+      "— ingen ytterligare nivå —"
+    ],
+    "context": "wineLists.noSubGroup",
+    "state": 20
+  },
+  {
+    "id": 206679661,
+    "source": [
+      "Appellation"
+    ],
+    "target": [
+      "Ursprungsbeteckning"
+    ],
+    "context": "wineLists.groupByAppellation",
+    "state": 20
+  },
+  {
+    "id": 206679662,
+    "source": [
+      "Skip a heading that would hold only one group (one dessert wine reads “Dessert”, not Dessert › France › Sauternes)"
+    ],
+    "target": [
+      "Dölj en rubrik som bara skulle innehålla en grupp (ett dessertvin visas som ”Dessert”, inte Dessert › Frankrike › Sauternes)"
+    ],
+    "context": "wineLists.collapseSingle",
+    "state": 20
+  },
+  {
+    "id": 206679663,
+    "source": [
+      "Hide prices on the shared page and the PDF (the figures stay on the entries)"
+    ],
+    "target": [
+      "Dölj priser på den delade sidan och i PDF-filen (siffrorna finns kvar i posterna)"
+    ],
+    "context": "wineLists.hidePrices",
+    "state": 20
+  },
+  {
+    "id": 206679664,
+    "source": [
+      "Mark wines with only one bottle left as “Last bottle”"
+    ],
+    "target": [
+      "Markera viner med bara en flaska kvar som ”Sista flaskan”"
+    ],
+    "context": "wineLists.markLastBottle",
+    "state": 20
+  },
+  {
+    "id": 206689588,
+    "source": [
+      "PDF: start each section (wine type) on a new page"
+    ],
+    "target": [
+      "PDF: börja varje avsnitt (vintyp) på en ny sida"
+    ],
+    "context": "wineLists.newPageEachSection",
+    "state": 20
+  },
+  {
+    "id": 206896567,
+    "source": [
+      "Recently drunk"
+    ],
+    "target": [
+      "Nyligen drucket"
+    ],
+    "context": "journal.recentlyDrunk",
+    "state": 20
+  },
+  {
+    "id": 206902309,
+    "source": [
+      "Place your bottle in a rack now?",
+      "Place your {{count}} bottles in a rack now?"
+    ],
+    "target": [
+      "Placera din flaska på en hylla nu?",
+      "Placera dina {{count}} flaskor på en hylla nu?"
+    ],
+    "context": "addBottle.placePrompt.title",
+    "state": 20
+  },
+  {
+    "id": 206902310,
+    "source": [
+      "The rack view opens in placing mode: tap a free slot for each bottle, or let it fill the first free slots for you. You can stop at any point — anything left unplaced stays exactly as it is."
+    ],
+    "target": [
+      "Hyllvyn öppnas i placeringsläge: tryck på en ledig plats för varje flaska eller låt appen fylla de första lediga platserna åt dig. Du kan avbryta när som helst – allt som lämnas oplacerat förblir precis som det är."
+    ],
+    "context": "addBottle.placePrompt.body",
+    "state": 20
+  },
+  {
+    "id": 206902311,
+    "source": [
+      "Place now"
+    ],
+    "target": [
+      "Placera nu"
+    ],
+    "context": "addBottle.placePrompt.placeNow",
+    "state": 20
+  },
+  {
+    "id": 206902312,
+    "source": [
+      "Not now"
+    ],
+    "target": [
+      "Inte nu"
+    ],
+    "context": "addBottle.placePrompt.notNow",
+    "state": 20
+  },
+  {
+    "id": 206902313,
+    "source": [
+      "Placing your new bottles: {{placed}} of {{total}} placed"
+    ],
+    "target": [
+      "Placerar dina nya flaskor: {{placed}} av {{total}} placerade"
+    ],
+    "context": "racks.placeQueue.progress",
+    "state": 20
+  },
+  {
+    "id": 206902314,
+    "source": [
+      "tap a free slot for the next one"
+    ],
+    "target": [
+      "tryck på en ledig plats för nästa"
+    ],
+    "context": "racks.placeQueue.tapHint",
+    "state": 20
+  },
+  {
+    "id": 206902315,
+    "source": [
+      "Auto-place the remaining bottle",
+      "Auto-place the remaining {{count}}"
+    ],
+    "target": [
+      "Placera återstående flaska automatiskt",
+      "Placera återstående {{count}} automatiskt"
+    ],
+    "context": "racks.placeQueue.autoPlace",
+    "state": 20
+  },
+  {
+    "id": 206902316,
+    "source": [
+      "Your new bottle is placed.",
+      "All {{count}} new bottles are placed."
+    ],
+    "target": [
+      "Din nya flaska är placerad.",
+      "Alla {{count}} nya flaskor är placerade."
+    ],
+    "context": "racks.placeQueue.allPlaced",
+    "state": 20
+  },
+  {
+    "id": 206902317,
+    "source": [
+      "1 bottle did not fit in this rack and stays unplaced",
+      "{{count}} bottles did not fit in this rack and stay unplaced"
+    ],
+    "target": [
+      "1 flaska fick inte plats på hyllan och förblir oplacerad",
+      "{{count}} flaskor fick inte plats på hyllan och förblir oplacerade"
+    ],
+    "context": "racks.placeQueue.leftover",
+    "state": 20
+  }
+]
