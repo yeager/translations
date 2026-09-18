@@ -1,0 +1,158 @@
+[
+  {
+    "id": 199029341,
+    "source": [
+      "Active = added or consumed a bottle during the window. Signing in, browsing and searching do not count — only a change to a cellar does."
+    ],
+    "target": [
+      "Aktiv = lade till eller drack en flaska under perioden. Att logga in, bläddra och söka räknas inte – bara en ändring i en vinkällare."
+    ],
+    "context": "adminStats.engagementNote",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029342,
+    "source": [
+      "A user counts as active if they added or consumed a bottle during this window. Signing in alone does not count, and neither does reading pages — a session stays alive for 30 days, so logins would badly undercount real use."
+    ],
+    "target": [
+      "En användare räknas som aktiv om personen lade till eller drack en flaska under perioden. Att bara logga in räknas inte, och inte heller att läsa sidor – en session förblir aktiv i 30 dagar, så inloggningar skulle kraftigt underskatta den verkliga användningen."
+    ],
+    "context": "adminStats.engagementTooltip",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029345,
+    "source": [
+      "Returning users (2+ days with a bottle added or consumed)"
+    ],
+    "target": [
+      "Återkommande användare (2+ dagar med tillagda eller druckna flaskor)"
+    ],
+    "context": "adminStats.returningUsers",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029347,
+    "source": [
+      "Users who added or consumed a bottle on 2 or more separate calendar days — genuine repeat users, not one-time sign-ups. Counted over the whole history, from the bottles themselves, so it is not limited by how long logs are kept."
+    ],
+    "target": [
+      "Användare som lade till eller drack en flaska under två eller fler olika kalenderdagar – verkligt återkommande användare, inte engångsregistreringar. Räknas över hela historiken utifrån flaskorna själva och begränsas därför inte av hur länge loggar sparas."
+    ],
+    "context": "adminStats.returningTooltip",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029349,
+    "source": [
+      "Users who added or consumed a bottle on 4 or more separate calendar days — your stickiest people, and a subset of the returning users beside them. Counted over the whole history."
+    ],
+    "target": [
+      "Användare som lade till eller drack en flaska under fyra eller fler olika kalenderdagar – dina mest återkommande användare och en delmängd av de återkommande användarna bredvid. Räknas över hela historiken."
+    ],
+    "context": "adminStats.coreTooltip",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029351,
+    "source": [
+      "added or consumed on one day only"
+    ],
+    "target": [
+      "lade till eller drack under endast en dag"
+    ],
+    "context": "adminStats.singleSessionSub",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029352,
+    "source": [
+      "Users who added or consumed a bottle on exactly one calendar day — they tried it once and did not come back. Anyone who has never added a bottle at all is not counted here; that is activation, shown at the top of the page."
+    ],
+    "target": [
+      "Användare som lade till eller drack en flaska under exakt en kalenderdag – de provade en gång och kom inte tillbaka. Den som aldrig alls har lagt till en flaska räknas inte här; det är aktivering, som visas högst upp på sidan."
+    ],
+    "context": "adminStats.singleSessionTooltip",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029376,
+    "source": [
+      "Changed a cellar (24h)"
+    ],
+    "target": [
+      "Ändrade en vinkällare (24 h)"
+    ],
+    "context": "adminStats.activeUsers24h",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029377,
+    "source": [
+      "Changed a cellar (7d)"
+    ],
+    "target": [
+      "Ändrade en vinkällare (7 d)"
+    ],
+    "context": "adminStats.activeUsers7d",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029378,
+    "source": [
+      "Changed a cellar (30d)"
+    ],
+    "target": [
+      "Ändrade en vinkällare (30 d)"
+    ],
+    "context": "adminStats.activeUsers30d",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029379,
+    "source": [
+      "Changed a cellar (90d)"
+    ],
+    "target": [
+      "Ändrade en vinkällare (90 d)"
+    ],
+    "context": "adminStats.activeUsers90d",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029646,
+    "source": [
+      "Already in the registry"
+    ],
+    "target": [
+      "Finns redan i registret"
+    ],
+    "context": "addToWishlist.aiFound",
+    "state": 20,
+    "fuzzy": false
+  },
+  {
+    "id": 199029822,
+    "source": [
+      "Detected an <1>Oeno by Vintec</1> export. Each cabinet (and each column of a multi-column cabinet) in your CSV becomes one rack: a Wine cabinet when the file shows stacked rows, an Open Shelf when it shows a front and a back row, shaped from the shelves, layers and slots the file describes (shelf 1 at the bottom). Each bottle's exact cell is preserved — adjust the shape below only if a cabinet has more shelves than the file shows."
+    ],
+    "target": [
+      "En <1>Oeno by Vintec</1>-export identifierades. Varje skåp (och varje kolumn i ett skåp med flera kolumner) i din CSV blir en hylla: ett vinskåp när filen visar staplade rader, en öppen hylla när den visar en främre och en bakre rad. Formen baseras på hyllor, nivåer och fack som beskrivs i filen (hylla 1 längst ned). Varje flaskas exakta cell bevaras – justera formen nedan bara om ett skåp har fler hyllor än filen visar."
+    ],
+    "context": "importBottles.rack.oenoHint",
+    "state": 20,
+    "fuzzy": false
+  }
+]
