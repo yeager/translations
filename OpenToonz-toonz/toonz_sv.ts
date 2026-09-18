@@ -13208,184 +13208,184 @@ Click the arrow button to create a new sub-xsheet</source>
     </message>
     <message>
         <source>&amp;Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa</translation>
     </message>
     <message>
         <source>Add Render</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till rendering</translation>
     </message>
     <message>
         <source>Add Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till renritning</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara som</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
 </context>
 <context>
     <name>TestPanel</name>
     <message>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster:</translation>
     </message>
     <message>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger:</translation>
     </message>
 </context>
 <context>
     <name>TimeStretchPopup</name>
     <message>
         <source>Time Stretch</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsutsträckning</translation>
     </message>
     <message>
         <source>Selected Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Markerade celler</translation>
     </message>
     <message>
         <source>Selected Frame Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Markerat bildruteintervall</translation>
     </message>
     <message>
         <source>Whole Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Hela XSheet</translation>
     </message>
     <message>
         <source>Stretch:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sträck ut:</translation>
     </message>
     <message>
         <source>Old Range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gammalt intervall:</translation>
     </message>
     <message>
         <source>Stretch</source>
-        <translation type="unfinished"></translation>
+        <translation>Sträck ut</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>New Range:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt intervall:</translation>
     </message>
 </context>
 <context>
     <name>TimelineWidget</name>
     <message>
         <source>Recent Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste version</translation>
     </message>
     <message>
         <source>Older Version</source>
-        <translation type="unfinished"></translation>
+        <translation>Äldre version</translation>
     </message>
 </context>
 <context>
     <name>Toolbar</name>
     <message>
         <source>Collapse toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ihop verktygsfält</translation>
     </message>
     <message>
         <source>Expand toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ut verktygsfält</translation>
     </message>
 </context>
 <context>
     <name>TopBar</name>
     <message>
         <source>Lock Rooms Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås fliken Arbetsytor</translation>
     </message>
 </context>
 <context>
     <name>TrackerPopup</name>
     <message>
         <source>Tracking Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Spårningsinställningar</translation>
     </message>
     <message>
         <source>Threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tröskelvärde:</translation>
     </message>
     <message>
         <source>Sensitivity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Känslighet:</translation>
     </message>
     <message>
         <source>Variable Region Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Variabel regionstorlek</translation>
     </message>
     <message>
         <source>Include Background</source>
-        <translation type="unfinished"></translation>
+        <translation>Inkludera bakgrund</translation>
     </message>
     <message>
         <source>Processing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbetar …</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Spåra</translation>
     </message>
 </context>
 <context>
     <name>VectorGuidedDrawingPane</name>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Av</translation>
     </message>
     <message>
         <source>Closest</source>
-        <translation type="unfinished"></translation>
+        <translation>Närmaste</translation>
     </message>
     <message>
         <source>Farthest</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjärraste</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla</translation>
     </message>
     <message>
         <source>Auto Inbetween</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk mellanbild</translation>
     </message>
     <message>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <source>Ease In</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk inledning</translation>
     </message>
     <message>
         <source>Ease Out</source>
