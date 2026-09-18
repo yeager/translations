@@ -5167,24 +5167,24 @@ muspositionen som angetts av en icke-relativ fjäder.</translation>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="899"/>
         <source>X:</source>
-        <translation type="unfinished"></translation>
+        <translation>X:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="906"/>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="924"/>
         <source>0 (0 pps)</source>
-        <translation type="unfinished"></translation>
+        <translation>0 (0 pps)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="917"/>
         <source>Y:</source>
-        <translation type="unfinished"></translation>
+        <translation>Y:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="354"/>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="397"/>
         <source>1 = 1 notch(es)/s</source>
-        <translation type="unfinished"></translation>
+        <translation>1 = 1 hack/s</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="83"/>
@@ -5206,32 +5206,54 @@ Easing Quadratic: Axis high end is gradually accelerated over a period of time u
 
 Easing Cubic: Axis high end is gradually accelerated over
 a period of time using a Cubic curve.</source>
-        <translation type="unfinished"></translation>
+        <translation>Förbättrad: Trestegskurva som gör att musen rör sig
+långsamt vid en axels lägre värden och snabbt vid de högre.
+
+Linjär: Musen rör sig proportionellt mot axeln.
+
+Kvadratisk: Musen accelererar långsamt vid lägre värden.
+
+Kubisk: Musen accelererar långsammare än med en kvadratisk kurva.
+
+Extremt kvadratisk: Höjer mushastigheten 1,5 gånger när
+95 % av axelrörelsen har nåtts.
+
+Potensfunktion: Ger ett mer anpassningsbart kurvalternativ.
+
+Mjuk kvadratisk: Axelns högre värden accelereras gradvis över tid med en kvadratisk kurva.
+
+Mjuk kubisk: Axelns högre värden accelereras gradvis över
+tid med en kubisk kurva.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="221"/>
         <source>Hori&amp;zontal
 Speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vågrät
+hastighet:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="266"/>
         <source>&amp;Vertical
 Speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lodrät
+hastighet:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="370"/>
         <source>Wheel Vert.
 Speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lodrät
+rullningshastighet:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="465"/>
         <source>Specifies the amount of time (in seconds) that will
 be required before the mouse is fully accelerated
 after reaching the high end of an axis.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger hur lång tid (i sekunder) som
+krävs innan musen är fullt accelererad
+efter att axelns högre värde har nåtts.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="589"/>
@@ -5246,44 +5268,50 @@ after reaching the high end of an axis.</source>
         <source>Extend the time that extra acceleration is applied. Axis travel
 will be taken into account. A slower flick will decrease the
 actual time that extra acceleration will be applied.</source>
-        <translation type="unfinished"></translation>
+        <translation>Förläng tiden som extra acceleration används. Axelrörelse
+tas med i beräkningen. En långsammare rörelse minskar den
+faktiska tid som extra acceleration används.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="763"/>
         <source>Spring Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjäderinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="773"/>
         <source>Spring Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjäderbredd:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="786"/>
         <source>Changes the width of the region that the cursor
 can move in spring mode. 0 will use the entire width
 of your screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrar bredden på det område där markören
+kan flyttas i fjäderläge. 0 använder hela bredden
+på din skärm.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="802"/>
         <source>Spring Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjäderhöjd:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="815"/>
         <source>Changes the height of the region that the cursor
 can move in spring mode. 0 will use the entire height
 of your screen.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrar höjden på det område där markören
+kan flyttas i fjäderläge. 0 använder hela höjden
+på din skärm.</translation>
     </message>
     <message numerus="yes">
         <location filename="../../../src/gui/mousesettingsdialog.cpp" line="191"/>
         <location filename="../../../src/gui/mousesettingsdialog.cpp" line="199"/>
         <source>%n notch(es)/s</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n hack/s</numerusform>
+            <numerusform>%n hack/s</numerusform>
         </translation>
     </message>
 </context>
@@ -5292,7 +5320,7 @@ of your screen.</source>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="26"/>
         <source>Key Checker</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangentkontroll</translation>
     </message>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="41"/>
@@ -5302,7 +5330,7 @@ of your screen.</source>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="99"/>
         <source>Event Handler:</source>
-        <translation type="unfinished"></translation>
+        <translation>Händelsehanterare:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="112"/>
