@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CalyxOS Updater (2026-09-18):** Systemuppdaterarens svenska resurs är färdigställd: **26/26** strängar, 0 tomma och 0 ogranskade. Säkerhetskanalen, nätverkskrav, batterivillkor, automatisk omstart och installationsuppmaningar är granskade. Den enda Weblate-markeringen är den korrekta systemtermen `Automatisk omstart`. Officiell export: `CalyxOS-Updater/strings.xml` (XML-validerad och hunspell-sv-granskad).
+
 **CalyxOS SetupWizard (2026-09-18):** Förstakonfigurationens svenska resurs är färdigställd: **37/37** strängar, 0 tomma och 0 ogranskade. Bootloader-varningen, skyddet mot fabriksåterställning, microG:s push-registrering, nätverksplats och externa platskällor är terminologiskt och säkerhetsmässigt granskade. Länken för bootloaderlåsning och XLIFF-parametern bevaras. Den enda kontrollmarkeringen gäller produktnamnet `BeaconDB` och är korrekt. Officiell export: `CalyxOS-SetupWizard/strings.xml` (XML-, länk- och hunspell-sv-validerad).
 
 **CalyxOS Settings (2026-09-18):** Systeminställningarnas svenska resurs är färdigställd: **82/82** strängar, 0 tomma och 0 ogranskade. Säkerhetsgranskningen omfattar global VPN, USB-enheter, automatisk omstart, nätverkskontroll, radering efter misslyckad upplåsning, privat utrymme, platsmetadata och arbetsprofil. Fem Weblate-kontrollmarkeringar är manuellt granskade som korrekta (produktnamnet `Global VPN`, konsekventa `Snabbinställningar` och kompletta VPN-texter). Officiell export: `CalyxOS-Settings/strings.xml` (XML- och XLIFF-validerad samt hunspell-sv-granskad).
