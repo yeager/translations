@@ -12455,19 +12455,19 @@ Förinställningsfilen kan vara skadad.</translation>
     </message>
     <message>
         <source>Automatically Save Every </source>
-        <translation type="unfinished"></translation>
+        <translation>Spara automatiskt var </translation>
     </message>
     <message>
         <source>Minutes</source>
-        <translation type="unfinished"></translation>
+        <translation>minut(er)</translation>
     </message>
     <message>
         <source>Current Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuellt projekt</translation>
     </message>
     <message>
         <source>Recent Scenes [Project]</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste scener [projekt]</translation>
     </message>
     <message>
         <source>The selected scene project &apos;%1&apos; is not in the Current Project list and may not open automatically.</source>
@@ -12475,7 +12475,7 @@ Förinställningsfilen kan vara skadad.</translation>
     </message>
     <message>
         <source>Failed to create the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att skapa mappen.</translation>
     </message>
 </context>
 <context>
@@ -12483,158 +12483,170 @@ Förinställningsfilen kan vara skadad.</translation>
     <message>
         <source>No</source>
         <comment>frame id</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nr</translation>
     </message>
     <message>
         <source>No level name specified: please choose a valid level name</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget nivånamn har angetts: välj ett giltigt nivånamn</translation>
     </message>
     <message>
         <source>The level name specified is already used: please choose a different level name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det angivna nivånamnet används redan: välj ett annat nivånamn.</translation>
     </message>
     <message>
         <source>The save in path specified does not match with the existing level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den angivna sökvägen för Spara i stämmer inte med den befintliga nivån.</translation>
     </message>
     <message>
         <source>The captured image size does not match with the existing level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den tagna bildens storlek stämmer inte med den befintliga nivån.</translation>
     </message>
     <message>
         <source>File %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Failed to load %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in %1.</translation>
     </message>
     <message>
         <source>Folder %1 doesn&apos;t exist.
 Do you want to create it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappen %1 finns inte.
+Vill du skapa den?</translation>
     </message>
     <message>
         <source>Unable to create</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa</translation>
     </message>
     <message>
         <source>UNDEFINED WARNING</source>
-        <translation type="unfinished"></translation>
+        <translation>ODEFINIERAD VARNING</translation>
     </message>
     <message>
         <source>The level is not registered in the scene, but exists in the file system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån är inte registrerad i scenen, men finns i filsystemet.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The saved image size is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken stämmer inte. Den sparade bildstorleken är %1 × %2.</translation>
     </message>
     <message>
         <source>WARNING </source>
-        <translation type="unfinished"></translation>
+        <translation>VARNING </translation>
     </message>
     <message>
         <source>
 Frame %1 exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Bildruta %1 finns.</translation>
     </message>
     <message>
         <source>
 Frames %1 exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Bildrutor %1 finns.</translation>
     </message>
     <message>
         <source>OVERWRITE 1 of</source>
-        <translation type="unfinished"></translation>
+        <translation>SKRIV ÖVER 1 av</translation>
     </message>
     <message>
         <source>ADD to</source>
-        <translation type="unfinished"></translation>
+        <translation>LÄGG TILL i</translation>
     </message>
     <message>
         <source> %1 frame</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 bildruta</translation>
     </message>
     <message>
         <source> %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 bildrutor</translation>
     </message>
     <message>
         <source>The level will be newly created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån skapas på nytt.</translation>
     </message>
     <message>
         <source>NEW</source>
-        <translation type="unfinished"></translation>
+        <translation>NY</translation>
     </message>
     <message>
         <source>The level is already registered in the scene.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån är redan registrerad i scenen.</translation>
     </message>
     <message>
         <source>
 NOTE : The level is not saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+OBS: Nivån är inte sparad.</translation>
     </message>
     <message>
         <source>
 WARNING : Failed to get image size of the existing level %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Det gick inte att hämta bildstorleken för den befintliga nivån %1.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The existing level size is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken stämmer inte. Den befintliga nivån har storleken %1 × %2.</translation>
     </message>
     <message>
         <source>WARNING : Level name conflicts. There already is a level %1 in the scene with the path                        
           %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>VARNING: Nivånamnen krockar. Det finns redan en nivå %1 i scenen med sökvägen                        
+          %2.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The size of level with the same name is is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken stämmer inte. Nivån med samma namn har storleken %1 × %2.</translation>
     </message>
     <message>
         <source>WARNING : Level path conflicts. There already is a level with the path %1                        
           in the scene with the name %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>VARNING: Nivåsökvägarna krockar. Det finns redan en nivå med sökvägen %1                        
+          i scenen med namnet %2.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The size of level with the same path is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken stämmer inte. Nivån med samma sökväg har storleken %1 × %2.</translation>
     </message>
     <message>
         <source>WARNING</source>
-        <translation type="unfinished"></translation>
+        <translation>VARNING</translation>
     </message>
     <message>
         <source>No camera selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen kamera är vald.</translation>
     </message>
     <message>
         <source>Please start live view before capturing an image.</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta livevisning innan du tar en bild.</translation>
     </message>
     <message>
         <source>Cannot capture webcam image unless live view is active.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta en bild från webbkameran om livevisningen inte är aktiv.</translation>
     </message>
 </context>
 <context>
     <name>StopMotionController</name>
     <message>
         <source>Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <source>Options</source>
