@@ -5339,7 +5339,7 @@ på din skärm.</translation>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="41"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Press a key on your keyboard to see how the key is detected by this application. The window will show the system native key value, the original value given by Qt (if applicable), and the custom value used by AntiMicroX.&lt;/p&gt;&lt;p&gt;The AntiMicroX key value and the Qt key value will usually be the same. AntiMicroX tries to use the key values defined in Qt when possible. Check the page &lt;a href=&quot;http://doc.qt.io/qt-5/qt.html#Key-enum&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;http://doc.qt.io/qt-5/qt.html#Key-enum&lt;/span&gt;&lt;/a&gt; for a list of values defined by Qt. If you discover that a key is not natively supported by this program, please report the problem to AntiMicroX&apos;s &lt;a href=&quot;https://github.com/AntiMicroX/antimicrox/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GitHub page&lt;/span&gt;&lt;/a&gt; so that the program can be edited to support it directly. As it is, a custom prefix is added to unknown values so they can still be used; the main problem is that the profile will no longer be portable.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tryck på en tangent på tangentbordet för att se hur programmet identifierar den. Fönstret visar systemets inbyggda tangentvärde, det ursprungliga värdet från Qt (om tillämpligt) och det anpassade värde som används av AntiMicroX.&lt;/p&gt;&lt;p&gt;AntiMicroX-tangentvärdet och Qt-tangentvärdet är vanligen samma. AntiMicroX försöker använda tangentvärdena som definieras i Qt när det går. På sidan &lt;a href=&quot;http://doc.qt.io/qt-5/qt.html#Key-enum&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;http://doc.qt.io/qt-5/qt.html#Key-enum&lt;/span&gt;&lt;/a&gt; finns en lista över värden som definieras av Qt. Om du upptäcker att en tangent inte stöds inbyggt av programmet, rapportera problemet på AntiMicroX &lt;a href=&quot;https://github.com/AntiMicroX/antimicrox/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0057ae;&quot;&gt;GitHub-sida&lt;/span&gt;&lt;/a&gt; så att programmet kan ändras för att stödja den direkt. Ett anpassat prefix läggs till okända värden så att de fortfarande kan användas; huvudproblemet är att profilen då inte längre är portabel.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="99"/>
@@ -6726,25 +6726,25 @@ LK</translation>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="533"/>
         <source>Wheel Up</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mushjul upp</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="537"/>
         <source>Wheel Left</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mushjul vänster</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="541"/>
         <source>Wheel Right</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mushjul höger</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="545"/>
         <source>Wheel Down</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mushjul ned</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="554"/>
@@ -6762,30 +6762,30 @@ LK</translation>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="584"/>
         <source>Button 4</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Musknapp 4</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="586"/>
         <source>Mouse 8</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mus 8</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="593"/>
         <source>Button 5</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Musknapp 5</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="595"/>
         <source>Mouse 9</source>
         <comment>Mouse</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mus 9</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="728"/>
         <source>NONE</source>
-        <translation type="unfinished"></translation>
+        <translation>INGEN</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="802"/>
@@ -6796,173 +6796,173 @@ LK</translation>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="906"/>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="926"/>
         <source>Last button</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste knapp</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="907"/>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="927"/>
         <source>Slots for button couldn&apos;t be cleared, because there was not any set button from keyboard for gamepad. Map at least one button from keyboard to gamepad</source>
-        <translation type="unfinished"></translation>
+        <translation>Platser för knappar kunde inte rensas eftersom ingen tangentbordsknapp var tilldelad till handkontrollen. Tilldela minst en tangentbordsknapp till handkontrollen.</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="988"/>
         <source>Others</source>
-        <translation type="unfinished"></translation>
+        <translation>Övrigt</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1002"/>
         <source>Applications</source>
-        <translation type="unfinished"></translation>
+        <translation>Program</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1008"/>
         <source>Browser Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare bakåt</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1013"/>
         <source>Browser Favorites</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsarfavoriter</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1018"/>
         <source>Browser Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsare framåt</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1023"/>
         <source>Browser Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Webbläsarens startsida</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1028"/>
         <source>Browser Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera webbläsaren</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1033"/>
         <source>Browser Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök i webbläsaren</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1038"/>
         <source>Browser Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa webbläsaren</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1043"/>
         <source>Calc</source>
-        <translation type="unfinished"></translation>
+        <translation>Kalkylator</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1048"/>
         <source>Email</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1053"/>
         <source>F13</source>
-        <translation type="unfinished"></translation>
+        <translation>F13</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1054"/>
         <source>F14</source>
-        <translation type="unfinished"></translation>
+        <translation>F14</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1055"/>
         <source>F15</source>
-        <translation type="unfinished"></translation>
+        <translation>F15</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1056"/>
         <source>F16</source>
-        <translation type="unfinished"></translation>
+        <translation>F16</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1057"/>
         <source>F17</source>
-        <translation type="unfinished"></translation>
+        <translation>F17</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1058"/>
         <source>F18</source>
-        <translation type="unfinished"></translation>
+        <translation>F18</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1059"/>
         <source>F19</source>
-        <translation type="unfinished"></translation>
+        <translation>F19</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1060"/>
         <source>F20</source>
-        <translation type="unfinished"></translation>
+        <translation>F20</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1061"/>
         <source>F21</source>
-        <translation type="unfinished"></translation>
+        <translation>F21</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1062"/>
         <source>F22</source>
-        <translation type="unfinished"></translation>
+        <translation>F22</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1063"/>
         <source>F23</source>
-        <translation type="unfinished"></translation>
+        <translation>F23</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1064"/>
         <source>F24</source>
-        <translation type="unfinished"></translation>
+        <translation>F24</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1066"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Media</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1071"/>
         <source>Media Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa media</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1076"/>
         <source>Media Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela upp media</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1081"/>
         <source>Media Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående media</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1086"/>
         <source>Media Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa media</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1091"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1096"/>
         <source>Volume Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Sänk volymen</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1101"/>
         <source>Volume Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng av ljudet</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="1106"/>
         <source>Volume Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Höj volymen</translation>
     </message>
 </context>
 <context>
@@ -6970,7 +6970,7 @@ LK</translation>
     <message>
         <location filename="../../../src/keyboard/virtualmousepushbutton.cpp" line="54"/>
         <source>INVALID</source>
-        <translation type="unfinished"></translation>
+        <translation>OGILTIG</translation>
     </message>
 </context>
 <context>
@@ -6979,27 +6979,27 @@ LK</translation>
         <location filename="../../../src/gui/winappprofiletimerdialog.ui" line="14"/>
         <location filename="../../../src/gui/winappprofiletimerdialog.ui" line="79"/>
         <source>Capture Application</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrera program</translation>
     </message>
     <message>
         <location filename="../../../src/gui/winappprofiletimerdialog.ui" line="23"/>
         <source>After pressing the &quot;Capture Application&quot; button, please select the application window that you want to have a profile associated with. The active application will be captured after the selected number of seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>När du har tryckt på knappen ”Registrera program” väljer du det programfönster som du vill koppla en profil till. Det aktiva programmet registreras efter det valda antalet sekunder.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/winappprofiletimerdialog.ui" line="38"/>
         <source>Timer:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidtagare:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/winappprofiletimerdialog.ui" line="55"/>
         <source>Seconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekunder</translation>
     </message>
     <message>
         <location filename="../../../src/gui/winappprofiletimerdialog.ui" line="86"/>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
@@ -7012,7 +7012,7 @@ LK</translation>
     <message>
         <location filename="../../../src/winextras.cpp" line="303"/>
         <source>AntiMicro Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>AntiMicro-profil</translation>
     </message>
 </context>
 <context>
@@ -7020,62 +7020,62 @@ LK</translation>
     <message>
         <location filename="../../../src/x11extras.cpp" line="159"/>
         <source>ESC</source>
-        <translation type="unfinished"></translation>
+        <translation>Esc</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="160"/>
         <source>Tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabb</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="161"/>
         <source>Space</source>
-        <translation type="unfinished"></translation>
+        <translation>Mellanslag</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="162"/>
         <source>DEL</source>
-        <translation type="unfinished"></translation>
+        <translation>Del</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="163"/>
         <source>Return</source>
-        <translation type="unfinished"></translation>
+        <translation>Retur</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="164"/>
         <source>KP_Enter</source>
-        <translation type="unfinished"></translation>
+        <translation>KP_Enter</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="165"/>
         <source>Backspace</source>
-        <translation type="unfinished"></translation>
+        <translation>Backsteg</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="166"/>
         <source>Alt Gr</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt Gr</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="622"/>
         <source>xinput extension was not found. No mouse acceleration changes will occur.</source>
-        <translation type="unfinished"></translation>
+        <translation>xinput-tillägget hittades inte. Musacceleration ändras inte.</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="629"/>
         <source>xinput version must be at least 2.0. No mouse acceleration changes will occur.</source>
-        <translation type="unfinished"></translation>
+        <translation>xinput-versionen måste vara minst 2.0. Musacceleration ändras inte.</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="660"/>
         <source>PtrFeedbackClass was not found for virtual pointer.No change to mouse acceleration will occur for device with id=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>PtrFeedbackClass hittades inte för den virtuella pekaren. Musacceleration ändras inte för enheten med id=%1.</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="667"/>
         <source>Changing mouse acceleration for device with id=%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändrar musacceleration för enheten med id=%1</translation>
     </message>
 </context>
 <context>
@@ -7083,7 +7083,7 @@ LK</translation>
     <message>
         <location filename="../../../src/xmlconfigreader.cpp" line="140"/>
         <source>Could not write updated profile XML to file %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skriva uppdaterad profil-XML till filen %1.</translation>
     </message>
 </context>
 <context>
@@ -7091,7 +7091,7 @@ LK</translation>
     <message>
         <location filename="../../../src/xmlconfigwriter.cpp" line="74"/>
         <source>Could not write to profile at %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skriva till profilen på %1.</translation>
     </message>
 </context>
 <context>
@@ -7107,97 +7107,97 @@ LK</translation>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="65"/>
         <source>Launch program in system tray only.</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta endast programmet i systemfältet.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="67"/>
         <source>Launch program with the tray menu disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta programmet med systemfältsmenyn inaktiverad.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="69"/>
         <source>Launch program without the main window displayed</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta programmet utan att visa huvudfönstret.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="70"/>
         <source>Show app window when hidden. (Used for unhiding window of already running app instance).</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa programfönstret när det är dolt. (Används för att visa fönstret i en redan körande programinstans.)</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="73"/>
         <source>Launch program with the configuration file selected as the default for selected controllers, or change active profile of running app. Defaults to all controllers</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta programmet med konfigurationsfilen som vald standard för valda handkontroller eller ändra aktiv profil i programmet som körs. Standard är alla handkontroller.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="76"/>
         <source>location</source>
-        <translation type="unfinished"></translation>
+        <translation>plats</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="78"/>
         <source>Apply configuration file to a specific controller. Value can be a controller index, name, or GUID</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa konfigurationsfilen på en viss handkontroll. Värdet kan vara handkontrollens index, namn eller GUID.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="80"/>
         <source>value</source>
-        <translation type="unfinished"></translation>
+        <translation>värde</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="81"/>
         <source>Unload currently enabled profile(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera profiler som används just nu</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="82"/>
         <source>value(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>värde(n)</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="84"/>
         <source>Start joysticks on a specific set. Value can be a controller index, name, or GUID</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta styrspakar i en viss uppsättning. Värdet kan vara handkontrollens index, namn eller GUID.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="86"/>
         <source>number value</source>
-        <translation type="unfinished"></translation>
+        <translation>numeriskt värde</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="88"/>
         <source>Enable logging. Levels (from the least strict): warn,info,verbose,debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera loggning. Nivåer (från minst strikt): warn, info, verbose, debug.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="89"/>
         <source>log-type</source>
-        <translation type="unfinished"></translation>
+        <translation>loggtyp</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="90"/>
         <source>Choose a file for logs writing</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj en fil för att skriva loggar.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="91"/>
         <source>filename</source>
-        <translation type="unfinished"></translation>
+        <translation>filnamn</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="93"/>
         <source>Choose between using XTest support and uinput support for event generation. Use only if you have enabled xtest and uinput options on Linux or vmulti on Windows. Default: xtest.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj mellan stöd för XTest och uinput för händelsegenerering. Använd endast om du har aktiverat alternativen xtest och uinput på Linux eller vmulti på Windows. Standard: xtest.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="97"/>
         <source>event-generation-type</source>
-        <translation type="unfinished"></translation>
+        <translation>typ av händelsegenerering</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="99"/>
         <source>Print information about joysticks detected by SDL. Use only if you have sdl library. You can check your controller index, name or even GUID.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv ut information om styrspakar som har identifierats av SDL. Använd endast om du har SDL-biblioteket. Du kan kontrollera handkontrollens index, namn eller GUID.</translation>
     </message>
 </context>
 </TS>
