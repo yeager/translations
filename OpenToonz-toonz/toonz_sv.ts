@@ -13027,11 +13027,11 @@ Click the arrow button to create a new sub-xsheet</source>
     </message>
     <message>
         <source>Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg:</translation>
     </message>
     <message>
         <source>Shrink:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förminska:</translation>
     </message>
     <message>
         <source>Multiple Rendering:</source>
@@ -13039,59 +13039,59 @@ Click the arrow button to create a new sub-xsheet</source>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <source>Fx Schematic Flows</source>
-        <translation type="unfinished"></translation>
+        <translation>FX-schematiska flöden</translation>
     </message>
     <message>
         <source>Fx Schematic Terminal Nodes</source>
-        <translation type="unfinished"></translation>
+        <translation>FX-schematiska slutnoder</translation>
     </message>
     <message>
         <source>Dedicated CPUs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Reserverade CPU:er:</translation>
     </message>
     <message>
         <source>Single</source>
-        <translation type="unfinished"></translation>
+        <translation>En</translation>
     </message>
     <message>
         <source>Half</source>
-        <translation type="unfinished"></translation>
+        <translation>Hälften</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla</translation>
     </message>
     <message>
         <source>Render Tile:</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderingsruta:</translation>
     </message>
     <message>
         <source>Large</source>
-        <translation type="unfinished"></translation>
+        <translation>Stor</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Medelstor</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Liten</translation>
     </message>
     <message>
         <source>Visible Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast synliga</translation>
     </message>
     <message>
         <source>Overwrite</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över</translation>
     </message>
     <message>
         <source>Dependencies:</source>
-        <translation type="unfinished"></translation>
+        <translation>Beroenden:</translation>
     </message>
     <message>
         <source>Remove -&gt;</source>
@@ -13103,108 +13103,108 @@ Click the arrow button to create a new sub-xsheet</source>
     </message>
     <message>
         <source>Multimedia:</source>
-        <translation type="unfinished"></translation>
+        <translation>Multimedia:</translation>
     </message>
     <message>
         <source>NoPaint</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen målning</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Av</translation>
     </message>
     <message>
         <source>Remove &gt;&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort &gt;&gt;</translation>
     </message>
     <message>
         <source>&lt;&lt; Add</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;&lt; Lägg till</translation>
     </message>
     <message>
         <source>Suspended</source>
-        <translation type="unfinished"></translation>
+        <translation>Pausad</translation>
     </message>
     <message>
         <source>Waiting</source>
-        <translation type="unfinished"></translation>
+        <translation>Väntar</translation>
     </message>
     <message>
         <source>Running</source>
-        <translation type="unfinished"></translation>
+        <translation>Körs</translation>
     </message>
     <message>
         <source>Completed</source>
-        <translation type="unfinished"></translation>
+        <translation>Slutförd</translation>
     </message>
     <message>
         <source>Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Misslyckad</translation>
     </message>
     <message>
         <source>TaskUnknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänd uppgift</translation>
     </message>
 </context>
 <context>
     <name>TaskTreeModel</name>
     <message>
         <source>Are you sure you want to remove ALL tasks?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen ta bort ALLA uppgifter?</translation>
     </message>
     <message>
         <source>Remove All</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort alla</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
     <name>TaskTreeView</name>
     <message>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta</translation>
     </message>
     <message>
         <source>Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
 </context>
 <context>
     <name>TasksViewer</name>
     <message>
         <source>&amp;Start</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Starta</translation>
     </message>
     <message>
         <source>&amp;Stop</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;toppa</translation>
     </message>
     <message>
         <source>&amp;Add Render Task</source>
-        <translation type="unfinished"></translation>
+        <translation>L&amp;ägg till renderingsuppgift</translation>
     </message>
     <message>
         <source>&amp;Add Cleanup Task</source>
-        <translation type="unfinished"></translation>
+        <translation>L&amp;ägg till renritningsuppgift</translation>
     </message>
     <message>
         <source>&amp;Save Task List</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara uppgiftslista</translation>
     </message>
     <message>
         <source>&amp;Save Task List As</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara uppgiftslista &amp;som</translation>
     </message>
     <message>
         <source>&amp;Load Task List</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in uppgiftslista</translation>
     </message>
     <message>
         <source>&amp;Remove</source>
