@@ -1711,12 +1711,12 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="29"/>
         <source>Plugin Properties</source>
-        <translation type="unfinished">Plugin:ets egenskaper</translation>
+        <translation>Insticksprogramegenskaper</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="35"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="45"/>
@@ -1726,27 +1726,27 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="54"/>
         <source>Enabled</source>
-        <translation type="unfinished">Aktivera</translation>
+        <translation>Aktiverad</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="66"/>
         <source>Hide UI</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj gränssnitt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="66"/>
         <source>Show UI</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa gränssnitt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="74"/>
         <source>Gain</source>
-        <translation type="unfinished">Förstärkning</translation>
+        <translation>Förstärkning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginInspectorPage.qml" line="104"/>
         <source>Parameters</source>
-        <translation type="unfinished"></translation>
+        <translation>Parametrar</translation>
     </message>
 </context>
 <context>
@@ -1798,34 +1798,36 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/views/ProjectWindow.qml" line="27"/>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ProjectWindow.qml" line="40"/>
         <source>Fullscreen</source>
-        <translation type="unfinished"></translation>
+        <translation>Helskärm</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ProjectWindow.qml" line="53"/>
         <source>Toggle &amp;Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla &amp;tyst läge</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ProjectWindow.qml" line="127"/>
         <source>Plugin Instantiation Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att instansiera insticksprogrammet</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ProjectWindow.qml" line="128"/>
         <source>Failed to instantiate plugin %1:
 
 %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att instansiera insticksprogrammet %1:
+
+%2</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ProjectWindow.qml" line="435"/>
         <source>Cache: %1 pending · %2 complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache: %1 väntar · %2 klara</translation>
     </message>
 </context>
 <context>
@@ -3348,27 +3350,27 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/RecordSplitButton.qml" line="24"/>
         <source>Record Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Inspelningsalternativ</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/RecordSplitButton.qml" line="25"/>
         <source>Record</source>
-        <translation type="unfinished">Spela in</translation>
+        <translation>Spela in</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/RecordSplitButton.qml" line="38"/>
         <source>Create takes</source>
-        <translation type="unfinished">Skapa tagningar</translation>
+        <translation>Skapa tagningar</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/RecordSplitButton.qml" line="46"/>
         <source>Create takes (mute previous)</source>
-        <translation type="unfinished">Skapa tagningar (tysta tidigare)</translation>
+        <translation>Skapa tagningar (tysta föregående)</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/RecordSplitButton.qml" line="57"/>
         <source>Punch in/out</source>
-        <translation type="unfinished">Tryck in/ut</translation>
+        <translation>Stansa in/ut</translation>
     </message>
 </context>
 <context>
@@ -3376,17 +3378,17 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/RightDock.qml" line="27"/>
         <source>Plugin Browser</source>
-        <translation type="unfinished">Insticksfilutforskare</translation>
+        <translation>Bläddrare för insticksprogram</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/RightDock.qml" line="35"/>
         <source>File Browser</source>
-        <translation type="unfinished">Filutforskare</translation>
+        <translation>Filbläddrare</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/RightDock.qml" line="43"/>
         <source>Monitor Section</source>
-        <translation type="unfinished">Ingång för monitorns fader</translation>
+        <translation>Monitorsektion</translation>
     </message>
 </context>
 <context>
@@ -3402,22 +3404,22 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SaveController.qml" line="14"/>
         <source>Save</source>
-        <translation type="unfinished">Spara</translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SaveController.qml" line="26"/>
         <source>Save As…</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara som…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SaveController.qml" line="34"/>
         <source>Save Project As</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara projekt som</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SaveController.qml" line="45"/>
         <source>Saving project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparar projekt…</translation>
     </message>
 </context>
 <context>
@@ -3742,17 +3744,17 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/arranger/Timeline.qml" line="32"/>
         <source>Create Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa markör</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/Timeline.qml" line="32"/>
         <source>Create Scale Object</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa skalobjekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/Timeline.qml" line="108"/>
         <source>Custom Marker</source>
-        <translation type="unfinished">Egen markör</translation>
+        <translation>Anpassad markör</translation>
     </message>
 </context>
 <context>
@@ -3760,32 +3762,32 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/ToolBox.qml" line="36"/>
         <source>Select tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Markeringsverktyg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ToolBox.qml" line="51"/>
         <source>Pencil tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Pennverktyg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ToolBox.qml" line="66"/>
         <source>Scissors tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Saxverktyg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ToolBox.qml" line="81"/>
         <source>Eraser tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Suddverktyg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ToolBox.qml" line="96"/>
         <source>Ramp tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Rampverktyg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ToolBox.qml" line="111"/>
         <source>Audition tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Förlyssningsverktyg</translation>
     </message>
 </context>
 <context>
@@ -3793,108 +3795,108 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="46"/>
         <source>Track Properties</source>
-        <translation type="unfinished">Spårets egenskaper</translation>
+        <translation>Spåregenskaper</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="52"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="67"/>
         <source>Color</source>
-        <translation type="unfinished">Färg</translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="89"/>
         <source>Choose Track Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj spårfärg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="98"/>
         <source>Notes</source>
-        <translation type="unfinished">Not</translation>
+        <translation>Anteckningar</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="128"/>
         <source>Timebase</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsbas</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="136"/>
         <source>Musical</source>
-        <translation type="unfinished">Musikal-läge</translation>
+        <translation>Musikalisk</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="136"/>
         <source>Absolute</source>
-        <translation type="unfinished"></translation>
+        <translation>Absolut</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="166"/>
         <source>Device Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhetsingång</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="173"/>
         <source>Audio Input</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljudingång</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="183"/>
         <source>Input %1-%2 (Stereo)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingång %1–%2 (stereo)</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="184"/>
         <source>Input %1 (Mono)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingång %1 (mono)</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="206"/>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="355"/>
         <source>None</source>
-        <translation type="unfinished">Ingen</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="262"/>
         <source>Monitoring</source>
-        <translation type="unfinished"></translation>
+        <translation>Monitorering</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="321"/>
         <source>MIDI Input</source>
-        <translation type="unfinished"></translation>
+        <translation>MIDI-ingång</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="328"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhet</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="401"/>
         <source>Channel</source>
-        <translation type="unfinished">Kanal %s</translation>
+        <translation>Kanal</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="411"/>
         <source>All</source>
-        <translation type="unfinished">Alla</translation>
+        <translation>Alla</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="413"/>
         <source>Channel %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanal %1</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="463"/>
         <source>Instrument</source>
-        <translation type="unfinished">Instrument</translation>
+        <translation>Instrument</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackInspectorPage.qml" line="475"/>
         <source>Inserts</source>
-        <translation type="unfinished">Inlägg</translation>
+        <translation>Insättningar</translation>
     </message>
 </context>
 <context>
@@ -3952,63 +3954,62 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="27"/>
         <source>Add track</source>
-        <translation type="unfinished">Lägg till effektspår</translation>
+        <translation>Lägg till spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="34"/>
         <source>Add _MIDI Track</source>
-        <translation type="unfinished">Lägg till _MIDI-spår</translation>
+        <translation>Lägg till _MIDI-spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="40"/>
         <source>Add Audio Track</source>
-        <translation type="unfinished">Lägg till ljudspår</translation>
+        <translation>Lägg till ljudspår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="49"/>
         <source>Import File...</source>
-        <translation type="unfinished">
-1 till fil...</translation>
+        <translation>Importera fil…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="56"/>
         <source>Add Audio FX Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till ljudeffektspår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="62"/>
         <source>Add MIDI FX Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till MIDI-effektspår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="71"/>
         <source>Add Audio Group Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till ljudgruppspår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="77"/>
         <source>Add MIDI Group Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till MIDI-gruppspår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="86"/>
         <source>Add Folder Track</source>
-        <translation type="unfinished">Lägg till katalogspår</translation>
+        <translation>Lägg till mappspår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="100"/>
         <source>Clip Launcher</source>
-        <translation type="unfinished"></translation>
+        <translation>Klippstartare</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="111"/>
         <source>Timeline</source>
-        <translation type="unfinished">Tidslinje</translation>
+        <translation>Tidslinje</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TracklistHeader.qml" line="122"/>
         <source>BPM &amp; Time Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>BPM och taktart</translation>
     </message>
 </context>
 <context>
@@ -4016,17 +4017,17 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/TransportControls.qml" line="94"/>
         <source>Tempo at playhead differs from base tempo (%1 BPM)</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempot vid uppspelningshuvudet skiljer sig från grundtempot (%1 BPM)</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TransportControls.qml" line="114"/>
         <source>Edit Base Tempo</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera grundtempo</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TransportControls.qml" line="120"/>
         <source>Base BPM (at tick 0):</source>
-        <translation type="unfinished"></translation>
+        <translation>Grund-BPM (vid tick 0):</translation>
     </message>
 </context>
 <context>
@@ -4034,22 +4035,22 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/UndoSplitButton.qml" line="17"/>
         <source>Undo</source>
-        <translation type="unfinished">Ångra</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/UndoSplitButton.qml" line="17"/>
         <source>Redo</source>
-        <translation type="unfinished">Gör om</translation>
+        <translation>Gör om</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/UndoSplitButton.qml" line="21"/>
         <source>Redo multiple</source>
-        <translation type="unfinished"></translation>
+        <translation>Gör om flera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/UndoSplitButton.qml" line="21"/>
         <source>Undo multiple</source>
-        <translation type="unfinished"></translation>
+        <translation>Ångra flera</translation>
     </message>
 </context>
 <context>
