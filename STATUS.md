@@ -4,6 +4,8 @@ Senast uppdaterad: 2026-09-18
 
 **3D Slicer (2026-09-18):** Efter godkänt översättaravtal har den granskade UI-batchen skickats till Hosted Weblate. Importen accepterade **79** poster (0 saknades); svenska huvudkomponenten är nu **4 724/5 849** med 963 `needs-editing` och 27 kontrollmarkeringar. Den officiella exporten är synkad som `3D-Slicer/Slicer_sv.ts`. Fortsätt granska återstående maskinöversättningar med UI-kontext.
 
+**3D Slicer terminologi (2026-09-18):** Fortsatt granskning ska ske per modul och arbetsflöde. En första källkontextgranskad batch med 79 huvudsträngar publicerades för Markups, modeller, segmentering och skivvyer. Två begrepp har därefter korrigerats med källkodskontext: `Clipping` → **Klippning** och modellens `Intersection` → **Skärningslinje**. Aktuell status efter batchen är 4 803/5 849, med 884 poster som behöver kontextgranskas.
+
 **CopyQ (2026-09-18):** Aktuell release 16.0.0. Svenska UI:t är **684/684**, 0 fuzzy. Den enda kontrollvarningen, *Change Password Successful* → *Lösenordsbytet lyckades.*, är språkgranskad som korrekt. XML-export: `CopyQ/sv.ts` (SHA-256 `493275b9…0160`).
 
 **phpMyAdmin 5.2 (2026-09-18):** Aktuell release 5.2.3. Svenska katalogen är **3 436/3 436** med **0 fuzzy** efter 42 kontextgranskade rättningar för frågor, anslutningsfel, sortering, cache, replikering, extern HTML-transformering, SSL och reCAPTCHA. Officiell export arkiveras i `phpMyAdmin-5.2/`.
