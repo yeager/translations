@@ -907,3 +907,5 @@ Detaljerade ändringsbeskrivningar hör hemma i respektive PR, commit eller öve
 **Freeplane fortsatt granskning (2026-09-18):** Tooltippen för experimentell fillåsning är rättad till *Experimentell funktion*. Den enda återstående posten med statusen ”behöver redigeras”, `plugins/script_filter_error`, har verifierats mot den aktuella källsträngen och publicerats utan den föråldrade markeringen; Java-platshållarna är oförändrade.
 
 **Freeplane skriptsäkerhet (2026-09-18):** Begränsningsmeddelandet för Groovy-skript är språkgranskat och publicerat. Svensk meningsbyggnad används runt Java MessageFormat-uttrycken, medan de interna valen i formatsträngen har lämnats byte-exakta efter Weblates formatvalidering.
+
+**Freeplane AI-granskning (2026-09-18):** Tre Weblate-kontroller i AI-promptpanelen är genomgångna och avfärdade som korrekta: identiska svenska texter för två kontextuellt lika ”Ny prompt”-etiketter, samt det etablerade fackordet *prompt* i AI-gränssnittet. Ingen betydelse eller användarupplevelse går förlorad genom den delade svenska terminologin.
