@@ -5117,127 +5117,127 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Swap ON/OFF</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla PÅ/AV</translation>
     </message>
     <message>
         <source>Lock This Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås endast denna</translation>
     </message>
     <message>
         <source>Lock Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås markerade</translation>
     </message>
     <message>
         <source>Lock All</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås alla</translation>
     </message>
     <message>
         <source>Unlock Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp markerade</translation>
     </message>
     <message>
         <source>Unlock All</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp alla</translation>
     </message>
     <message>
         <source>Swap Lock/Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla lås/lås upp</translation>
     </message>
     <message>
         <source>Hide Upper Columns</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj övre kolumner</translation>
     </message>
     <message>
         <source>Ruler Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjalverktyg</translation>
     </message>
     <message>
         <source>Finger Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Fingerverktyg</translation>
     </message>
     <message>
         <source>Brush size - Increase max</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselstorlek – öka max</translation>
     </message>
     <message>
         <source>Brush size - Decrease max</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselstorlek – minska max</translation>
     </message>
     <message>
         <source>Brush size - Increase min</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselstorlek – öka min</translation>
     </message>
     <message>
         <source>Brush size - Decrease min</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselstorlek – minska min</translation>
     </message>
     <message>
         <source>Brush hardness - Increase</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselhårdhet – öka</translation>
     </message>
     <message>
         <source>Brush hardness - Decrease</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselhårdhet – minska</translation>
     </message>
     <message>
         <source>Mode - Areas</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge – områden</translation>
     </message>
     <message>
         <source>Mode - Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge – linjer</translation>
     </message>
     <message>
         <source>Mode - Lines &amp; Areas</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge – linjer och områden</translation>
     </message>
     <message>
         <source>Type - Normal</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ – normal</translation>
     </message>
     <message>
         <source>Type - Rectangular</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ – rektangulär</translation>
     </message>
     <message>
         <source>Type - Freehand</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ – frihand</translation>
     </message>
     <message>
         <source>Type - Polyline</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ – polylinje</translation>
     </message>
     <message>
         <source>About OpenToonz</source>
-        <translation type="unfinished"></translation>
+        <translation>Om OpenToonz</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>&amp;About OpenToonz...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Om OpenToonz...</translation>
     </message>
     <message>
         <source>&amp;ComboViewer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kombinationsvisare</translation>
     </message>
     <message>
         <source>&amp;History</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Historik</translation>
     </message>
     <message>
         <source>&amp;Save All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara alla</translation>
     </message>
     <message>
         <source>Toggle Edit in Place</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla redigering på plats</translation>
     </message>
     <message>
         <source>Refresh Folder Tree</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera mappträdet</translation>
     </message>
     <message>
         <source>&amp;Pencil Test...</source>
@@ -5245,119 +5245,119 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Camera Capture...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kamerafångst...</translation>
     </message>
     <message>
         <source>Toggle Maximize Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla maximerad panel</translation>
     </message>
     <message>
         <source>Toggle Main Window&apos;s Full Screen Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla helskärmsläge för huvudfönstret</translation>
     </message>
     <message>
         <source>Onion Skin Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla lökhinna</translation>
     </message>
     <message>
         <source>Zero Thick Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjer med nolltjocklek</translation>
     </message>
     <message>
         <source>&amp;Save All Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara alla nivåer</translation>
     </message>
     <message>
         <source>Pressure Sensitivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryckkänslighet</translation>
     </message>
     <message>
         <source>Toggle Link to Studio Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla länk till studiopalett</translation>
     </message>
     <message>
         <source>Remove Reference to Studio Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort referens till studiopalett</translation>
     </message>
     <message>
         <source>&amp;Startup Popup...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Startdialog...</translation>
     </message>
     <message>
         <source>&amp;Fast Render to MP4</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Snabbrendera till MP4</translation>
     </message>
     <message>
         <source>Record Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela in ljud</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Toggle XSheet Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla XSheet-verktygsfält</translation>
     </message>
     <message>
         <source>Snap Sensitivity</source>
-        <translation type="unfinished"></translation>
+        <translation>Fästkänslighet</translation>
     </message>
     <message>
         <source>&amp;New Vector Level</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ny vektornivå</translation>
     </message>
     <message>
         <source>New Vector Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny vektornivå</translation>
     </message>
     <message>
         <source>&amp;New Toonz Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ny Toonz-raster-nivå</translation>
     </message>
     <message>
         <source>New Toonz Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny Toonz-raster-nivå</translation>
     </message>
     <message>
         <source>&amp;New Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ny raster-nivå</translation>
     </message>
     <message>
         <source>New Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny raster-nivå</translation>
     </message>
     <message>
         <source>Auto Input Cell Number...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange cellnummer automatiskt...</translation>
     </message>
     <message>
         <source>Alpha Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Alfakanal</translation>
     </message>
     <message>
         <source>&amp;Command Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kommandofält</translation>
     </message>
     <message>
         <source>Reframe with Empty Inbetweens...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra bildruteindelning med tomma mellanbilder...</translation>
     </message>
     <message>
         <source>&amp;Toggle Edit In Place</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Växla redigering på plats</translation>
     </message>
     <message>
         <source>&amp;Reload</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in på nytt</translation>
     </message>
     <message>
         <source>New Note Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny anteckningsnivå</translation>
     </message>
     <message>
         <source>&amp;Apply Lip Sync Data to Column</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tillämpa läppsynkroniseringsdata på kolumn</translation>
     </message>
     <message>
         <source>&amp;Paste Numbers</source>
