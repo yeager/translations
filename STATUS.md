@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CalyxOS Firewall (2026-09-18):** Säkerhetsrelevant Android-brandvägg har färdigställts: **35/35** svenska strängar, 0 ogranskade och 0 kontrollmarkeringar. Den kontextgranskade översättningen täcker standardnekad internetåtkomst för nya appar, arbetsprofil, appbehörighet och brandväggsaviseringar. Officiell export: `CalyxOS-Firewall/strings.xml` (XML-validerad).
+
 **Actual Budget (2026-09-18):** Aktuell release `v26.9.0` (2026-09-01) bekräftad. Svenska resursen är 946/2 729 med 1 777 tomma strängar. En första lokal, kontextgranskad batch på 30 säkerhets- och produktivitetssträngar för bankkoppling, OpenID, åtkomståterkallande, fleranvändarläge och dashboard är klar. Hosted Weblate avvisar samtliga API-uppdateringar med HTTP 403. Officiell export och färdig batch finns i `Actual-Budget/`; fortsätt när skrivbehörighet aktiveras.
 
 **Accrescent (2026-09-18):** Aktuell release `0.28.1` (2025-11-10) bekräftad. Samtliga 30 svenska luckor har kontextgranskats lokalt för säkra appinstallationer, paketverifiering, nätverksfel och arkivåterställning. Hosted Weblate avvisar publiceringen med HTTP 403. Officiell export och färdig API-batch finns i `Accrescent/`; publicera när skrivbehörigheten aktiveras.
