@@ -980,22 +980,22 @@ Antal XRuns: %2</translation>
         <location filename="../src/gui/qml/Greeter.qml" line="141"/>
         <location filename="../src/gui/qml/Greeter.qml" line="163"/>
         <source>Welcome</source>
-        <translation type="unfinished">Välkommen</translation>
+        <translation>Välkommen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="161"/>
         <source>Welcome to the Zrythm digital audio workstation. Move to the next page to get started.</source>
-        <translation type="unfinished"></translation>
+        <translation>Välkommen till den digitala ljudarbetsstationen Zrythm. Gå till nästa sida för att komma igång.</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="171"/>
         <source>Read the Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs handboken</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="169"/>
         <source>If this is your first time using Zrythm, we suggest going through the &apos;Getting Started&apos; section in the %1user manual%2.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du använder Zrythm för första gången rekommenderar vi att du går igenom avsnittet ”Komma igång” i %1användarhandboken%2.</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="226"/>
@@ -1005,37 +1005,37 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="251"/>
         <source>Initial Configuration</source>
-        <translation type="unfinished">Initial konfiguration</translation>
+        <translation>Inledande inställningar</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="550"/>
         <source>‹</source>
-        <translation type="unfinished"></translation>
+        <translation>‹</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="239"/>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="279"/>
         <source>Progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Förlopp</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="297"/>
         <source>Scanning Plugins</source>
-        <translation type="unfinished">Skannar plugin</translation>
+        <translation>Söker igenom insticksprogram</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="317"/>
         <source>Scanning:</source>
-        <translation type="unfinished"></translation>
+        <translation>Söker igenom:</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="336"/>
         <source>Open a Project</source>
-        <translation type="unfinished">Öppna ett projekt</translation>
+        <translation>Öppna ett projekt</translation>
     </message>
     <message>
         <source>Preferences</source>
@@ -1044,57 +1044,57 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="372"/>
         <source>About Zrythm</source>
-        <translation type="unfinished"></translation>
+        <translation>Om Zrythm</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="342"/>
         <source>Create New Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nytt projekt…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="348"/>
         <source>Open From Path...</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna från sökväg…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="362"/>
         <source>Device Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhetsväljare</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="419"/>
         <source>Create New Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nytt projekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="429"/>
         <source>Project Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektnamn</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="430"/>
         <source>Untitled Project</source>
-        <translation type="unfinished">Namnlöst projekt</translation>
+        <translation>Namnlöst projekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="461"/>
         <source>Create Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa projekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="477"/>
         <source>Creating Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar projekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="490"/>
         <source>Creating Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar projekt…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/Greeter.qml" line="513"/>
         <source>Project Loading Failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in projektet</translation>
     </message>
 </context>
 <context>
@@ -1102,12 +1102,12 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/basic/Knob.qml" line="89"/>
         <source>Reset</source>
-        <translation type="unfinished">Återställ</translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/basic/Knob.qml" line="97"/>
         <source>Bind MIDI CC</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla MIDI-CC</translation>
     </message>
 </context>
 <context>
@@ -1115,12 +1115,12 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/LeftDock.qml" line="45"/>
         <source>Track Inspector</source>
-        <translation type="unfinished">Spårinspektör</translation>
+        <translation>Spårinspektör</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/LeftDock.qml" line="53"/>
         <source>Plugin Inspector</source>
-        <translation type="unfinished">Plugin-inspektör</translation>
+        <translation>Insticksprograminspektör</translation>
     </message>
 </context>
 <context>
@@ -1128,17 +1128,17 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/LoadController.qml" line="14"/>
         <source>Open…</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/LoadController.qml" line="23"/>
         <source>Open Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna projekt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/LoadController.qml" line="34"/>
         <source>Loading project...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in projekt…</translation>
     </message>
 </context>
 <context>
@@ -1146,119 +1146,119 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="23"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Arkiv</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="38"/>
         <source>Export…</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="47"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Redigera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="54"/>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="54"/>
         <source>Undo</source>
-        <translation type="unfinished">Ångra</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="64"/>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="64"/>
         <source>Redo</source>
-        <translation type="unfinished">Gör om</translation>
+        <translation>Gör om</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="71"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visa</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="76"/>
         <source>Left Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster panel</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="87"/>
         <source>Bottom Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedre panel</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="98"/>
         <source>Right Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger panel</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="110"/>
         <source>Language</source>
-        <translation type="unfinished">Språk</translation>
+        <translation>Språk</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="117"/>
         <source>System</source>
-        <translation type="unfinished"></translation>
+        <translation>System</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="153"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Utseende</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="157"/>
         <source>Switch Light/Dark Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla mellan ljust och mörkt tema</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="163"/>
         <source>Theme Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Temafärg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="167"/>
         <source>Zrythm Orange</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrythm-orange</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="175"/>
         <source>Celestial Blue</source>
-        <translation type="unfinished"></translation>
+        <translation>Himmelsblå</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="184"/>
         <source>Jonquil Yellow</source>
-        <translation type="unfinished"></translation>
+        <translation>Jonkvillgul</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="193"/>
         <source>Spring Green</source>
-        <translation type="unfinished"></translation>
+        <translation>Vårgrön</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="202"/>
         <source>Munsell Red</source>
-        <translation type="unfinished"></translation>
+        <translation>Munsellröd</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="211"/>
         <source>Gunmetal</source>
-        <translation type="unfinished"></translation>
+        <translation>Mörkgrå</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="219"/>
         <source>Electric Purple</source>
-        <translation type="unfinished"></translation>
+        <translation>Elektriskt lila</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="233"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Felsökning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="237"/>
         <source>Show Cache Activity</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa cacheaktivitet</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="248"/>
@@ -1268,17 +1268,17 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="251"/>
         <source>Audio/MIDI Setup</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljud-/MIDI-inställningar</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="260"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hjälp</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainMenuBar.qml" line="263"/>
         <source>About Zrythm</source>
-        <translation type="unfinished"></translation>
+        <translation>Om Zrythm</translation>
     </message>
 </context>
 <context>
@@ -1286,27 +1286,27 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/MainToolbar.qml" line="64"/>
         <source>Master Output Spectrum</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvudutgångens spektrum</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainToolbar.qml" line="73"/>
         <source>Master Output Visualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Huvudutgångens visualisering</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainToolbar.qml" line="93"/>
         <source>Toggle Left Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj vänster panel</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainToolbar.qml" line="108"/>
         <source>Toggle Bottom Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj nedre panel</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MainToolbar.qml" line="123"/>
         <source>Toggle Right Panel</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj höger panel</translation>
     </message>
     <message>
         <source>Save</source>
@@ -1329,12 +1329,12 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/MetronomeSplitButton.qml" line="19"/>
         <source>Metronome Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Metronomalternativ</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MetronomeSplitButton.qml" line="20"/>
         <source>Metronome</source>
-        <translation type="unfinished">Metronom</translation>
+        <translation>Metronom</translation>
     </message>
 </context>
 <context>
@@ -1342,27 +1342,27 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/editors/MidiEditorPane.qml" line="82"/>
         <source>Drum Notation</source>
-        <translation type="unfinished"></translation>
+        <translation>Trumnotation</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/MidiEditorPane.qml" line="91"/>
         <source>Listen Notes</source>
-        <translation type="unfinished"></translation>
+        <translation>Lyssna på noter</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/MidiEditorPane.qml" line="100"/>
         <source>Show Automation Values</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa automationsvärden</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/MidiEditorPane.qml" line="127"/>
         <source>Zoom In</source>
-        <translation type="unfinished">Zooma in</translation>
+        <translation>Zooma in</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/MidiEditorPane.qml" line="214"/>
         <source>Velocity</source>
-        <translation type="unfinished">Hastighet</translation>
+        <translation>Anslagshastighet</translation>
     </message>
 </context>
 <context>
@@ -1370,84 +1370,84 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="35"/>
         <source>%1 soloed</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 i solo</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="43"/>
         <source>Currently soloed tracks</source>
-        <translation type="unfinished">Inaktivera solo på spåret</translation>
+        <translation>Spår som för närvarande är i solo</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="55"/>
         <source>Unsolo all tracks</source>
-        <translation type="unfinished">Inaktivera solo på spåret</translation>
+        <translation>Avaktivera solo för alla spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="69"/>
         <source>%1 muted</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 tystade</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="73"/>
         <source>Currently muted tracks</source>
-        <translation type="unfinished">Avtysta spåret</translation>
+        <translation>Spår som för närvarande är tystade</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="84"/>
         <source>Unmute all tracks</source>
-        <translation type="unfinished">Avtysta spåret</translation>
+        <translation>Slå på ljudet för alla spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="98"/>
         <source>%1 listened</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 avlyssnade</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="102"/>
         <source>Currently listened tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Spår som för närvarande avlyssnas</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="113"/>
         <source>Unlisten all tracks</source>
-        <translation type="unfinished">Nåla/Avnåla spår</translation>
+        <translation>Sluta avlyssna alla spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="135"/>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="217"/>
         <source>Mute</source>
-        <translation type="unfinished">Tysta</translation>
+        <translation>Tysta</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="154"/>
         <source>Listen</source>
-        <translation type="unfinished">Lyssna</translation>
+        <translation>Avlyssna</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="172"/>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="206"/>
         <source>Dim</source>
-        <translation type="unfinished">Avbryt förberedelse för inspelning</translation>
+        <translation>Dämpa</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="195"/>
         <source>Mono</source>
-        <translation type="unfinished">Mono</translation>
+        <translation>Mono</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="198"/>
         <source>Sum to mono</source>
-        <translation type="unfinished"></translation>
+        <translation>Mixa till mono</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="209"/>
         <source>Dim output</source>
-        <translation type="unfinished">Utgång</translation>
+        <translation>Dämpa utgången</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="220"/>
         <source>Mute output</source>
-        <translation type="unfinished"></translation>
+        <translation>Tysta utgången</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/MonitorSection.qml" line="235"/>
