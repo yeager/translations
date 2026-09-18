@@ -1672,11 +1672,11 @@ contain the dpi information, then the current camera dpi will be used.
     </message>
     <message>
         <source>Times:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gånger:</translation>
     </message>
     <message>
         <source>Up to Frame:</source>
-        <translation type="unfinished"></translation>
+        <translation>Upp till bildruta:</translation>
     </message>
     <message>
         <source>Cancel</source>
@@ -1684,86 +1684,87 @@ contain the dpi information, then the current camera dpi will be used.
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Apply</source>
-        <translation type="unfinished"></translation>
+        <translation>Verkställ</translation>
     </message>
 </context>
 <context>
     <name>DvDirTreeView</name>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Get</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta</translation>
     </message>
     <message>
         <source>Put...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lämna…</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Refresh</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritning</translation>
     </message>
     <message>
         <source>Delete folder </source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort mapp </translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>Refresh operation failed:
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdateringsåtgärden misslyckades:
+</translation>
     </message>
     <message>
         <source>Purge</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa</translation>
     </message>
     <message>
         <source>It is not possible to delete the folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta bort mappen.</translation>
     </message>
     <message>
         <source>Refreshing...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar…</translation>
     </message>
     <message>
         <source>There was an error copying %1 to %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Det uppstod ett fel när %1 kopierades till %2</translation>
     </message>
     <message>
         <source>The local path does not exist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Den lokala sökvägen finns inte:</translation>
     </message>
 </context>
 <context>
     <name>DvItemViewerButtonBar</name>
     <message>
         <source>Up One Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Upp en nivå</translation>
     </message>
     <message>
         <source>New Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny mapp</translation>
     </message>
     <message>
         <source>Thumbnails View</source>
@@ -1771,50 +1772,50 @@ contain the dpi information, then the current camera dpi will be used.
     </message>
     <message>
         <source>List View</source>
-        <translation type="unfinished"></translation>
+        <translation>Listvy</translation>
     </message>
     <message>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Bakåt</translation>
     </message>
     <message>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Framåt</translation>
     </message>
     <message>
         <source>Icons View</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonvy</translation>
     </message>
     <message>
         <source>Export File List</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera fillista</translation>
     </message>
     <message>
         <source>Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Upp</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished"></translation>
+        <translation>Ny</translation>
     </message>
     <message>
         <source>Icon</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikon</translation>
     </message>
     <message>
         <source>List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista</translation>
     </message>
 </context>
 <context>
     <name>DvItemViewerPanel</name>
     <message>
         <source>Save File List</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara fillista</translation>
     </message>
     <message>
         <source>File List (*.csv)</source>
-        <translation type="unfinished"></translation>
+        <translation>Fillista (*.csv)</translation>
     </message>
 </context>
 <context>
@@ -1871,50 +1872,50 @@ contain the dpi information, then the current camera dpi will be used.
     <name>ExportLevelPopup</name>
     <message>
         <source>Export Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera nivå</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera</translation>
     </message>
     <message>
         <source>Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Format:</translation>
     </message>
     <message>
         <source>Retas Compliant</source>
-        <translation type="unfinished"></translation>
+        <translation>Retas-kompatibel</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Export Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportalternativ</translation>
     </message>
     <message>
         <source>The file name cannot be empty or contain any of the following characters:(new line)  \ / : * ? &quot;  |</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamnet får inte vara tomt eller innehålla något av följande tecken:(ny rad)  \ / : * ? &quot;  |</translation>
     </message>
     <message>
         <source>File Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Filbläddrare</translation>
     </message>
 </context>
 <context>
     <name>ExportLevelPopup::ExportOptions</name>
     <message>
         <source>Background Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bakgrundsfärg:</translation>
     </message>
     <message>
         <source>No Antialias</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen kantutjämning</translation>
     </message>
     <message>
         <source>Vectors Export Box</source>
-        <translation type="unfinished"></translation>
+        <translation>Ruta för vektorexport</translation>
     </message>
     <message>
         <source>Width:</source>
@@ -1926,74 +1927,74 @@ contain the dpi information, then the current camera dpi will be used.
     </message>
     <message>
         <source>H Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontell upplösning:</translation>
     </message>
     <message>
         <source>V Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal upplösning:</translation>
     </message>
     <message>
         <source>DPI: </source>
-        <translation type="unfinished"></translation>
+        <translation>DPI: </translation>
     </message>
     <message>
         <source>Vectors Thickness</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektortjocklek</translation>
     </message>
     <message>
         <source>Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge:</translation>
     </message>
     <message>
         <source>Scale Thickness</source>
-        <translation type="unfinished"></translation>
+        <translation>Skala tjocklek</translation>
     </message>
     <message>
         <source>Add Thickness</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till tjocklek</translation>
     </message>
     <message>
         <source>Constant Thickness</source>
-        <translation type="unfinished"></translation>
+        <translation>Konstant tjocklek</translation>
     </message>
     <message>
         <source>Start:</source>
-        <translation type="unfinished"></translation>
+        <translation>Start:</translation>
     </message>
     <message>
         <source>End:</source>
-        <translation type="unfinished"></translation>
+        <translation>Slut:</translation>
     </message>
     <message>
         <source>Scale:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skala:</translation>
     </message>
     <message>
         <source>Width: </source>
-        <translation type="unfinished"></translation>
+        <translation>Bredd: </translation>
     </message>
     <message>
         <source>Height: </source>
-        <translation type="unfinished"></translation>
+        <translation>Höjd: </translation>
     </message>
 </context>
 <context>
     <name>ExportPanel</name>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera</translation>
     </message>
     <message>
         <source>Save in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>File Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamn:</translation>
     </message>
     <message>
         <source>File Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filformat:</translation>
     </message>
     <message>
         <source>Use Markers</source>
