@@ -1,0 +1,554 @@
+[
+  {
+    "id": 206259302,
+    "source": [
+      "Signed in or acted"
+    ],
+    "target": [
+      "Inloggad eller aktiv"
+    ],
+    "context": "adminStats.engagementPresent",
+    "state": 20
+  },
+  {
+    "id": 206259303,
+    "source": [
+      "Present = signed in, or did something the app records: adding, editing, consuming, asking the sommelier. Automated API traffic does not count, so a Home Assistant or climate integration polling in the background is not mistaken for its owner showing up. Reading pages is not recorded for anyone, so this is a floor rather than a ceiling. Seen as far back as the activity log is kept, which is {{days}} days."
+    ],
+    "target": [
+      "Närvarande = har loggat in eller gjort något som appen registrerar: lagt till, redigerat, druckit eller frågat sommelieren. Automatiserad API-trafik räknas inte, så en Home Assistant- eller klimatintegration som frågar i bakgrunden misstas inte för att ägaren är närvarande. Sidvisningar registreras inte för någon, så detta är ett golv snarare än ett tak. Synligt så långt bak som aktivitetsloggen behålls, vilket är {{days}} dagar."
+    ],
+    "context": "adminStats.presenceNote",
+    "state": 20
+  },
+  {
+    "id": 206259304,
+    "source": [
+      "People who signed in or did something recorded during this window. Wider than the cellar-change figure above it, because reading your own drink window is using the app and adds no bottle. Background API polling is excluded — a machine is not a visit."
+    ],
+    "target": [
+      "Personer som loggade in eller gjorde något som registrerades under perioden. Bredare än siffran för ändrade vinkällare ovanför, eftersom det är att använda appen att läsa sitt eget drickfönster även om ingen flaska läggs till. API-pollning i bakgrunden utesluts – en maskin är inte ett besök."
+    ],
+    "context": "adminStats.presenceTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259305,
+    "source": [
+      "Everyone the activity log can still see. The widest window here is the log’s own retention period, so this is the whole visible history rather than a rolling quarter."
+    ],
+    "target": [
+      "Alla som aktivitetsloggen fortfarande kan se. Det bredaste intervallet här är loggens egen lagringsperiod, så detta är hela den synliga historiken snarare än ett rullande kvartal."
+    ],
+    "context": "adminStats.presenceAllTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259306,
+    "source": [
+      "the whole {{days}}-day log"
+    ],
+    "target": [
+      "hela loggen på {{days}} dagar"
+    ],
+    "context": "adminStats.presenceAllSub",
+    "state": 20
+  },
+  {
+    "id": 206259307,
+    "source": [
+      "Present (24h)"
+    ],
+    "target": [
+      "Närvarande (24 h)"
+    ],
+    "context": "adminStats.present24h",
+    "state": 20
+  },
+  {
+    "id": 206259308,
+    "source": [
+      "Present (7d)"
+    ],
+    "target": [
+      "Närvarande (7 d)"
+    ],
+    "context": "adminStats.present7d",
+    "state": 20
+  },
+  {
+    "id": 206259309,
+    "source": [
+      "Present (30d)"
+    ],
+    "target": [
+      "Närvarande (30 d)"
+    ],
+    "context": "adminStats.present30d",
+    "state": 20
+  },
+  {
+    "id": 206259310,
+    "source": [
+      "Present (all logged)"
+    ],
+    "target": [
+      "Närvarande (hela loggen)"
+    ],
+    "context": "adminStats.present90d",
+    "state": 20
+  },
+  {
+    "id": 206259311,
+    "source": [
+      "By days present (last {{days}} days)"
+    ],
+    "target": [
+      "Efter dagar med närvaro (senaste {{days}} dagarna)"
+    ],
+    "context": "adminStats.retentionByPresence",
+    "state": 20
+  },
+  {
+    "id": 206259312,
+    "source": [
+      "The same ladder, asking whether people came back at all rather than whether they changed a cellar. It counts sign-ins and every recorded action, so a long signed-in session no longer hides anyone, and it ignores automated API traffic so an always-on integration cannot look like a daily user. Its window is the activity log, not all history — which is why this ladder and the one above it are not comparable figures."
+    ],
+    "target": [
+      "Samma trappa, men den frågar om personer alls kom tillbaka i stället för om de ändrade en vinkällare. Den räknar inloggningar och alla registrerade åtgärder, så en lång inloggad session döljer inte längre någon, och automatiserad API-trafik ignoreras så att en alltid aktiv integration inte ser ut som en daglig användare. Perioden är aktivitetsloggen, inte hela historiken – därför är denna trappa och den ovanför inte jämförbara siffror."
+    ],
+    "context": "adminStats.presenceLadderNote",
+    "state": 20
+  },
+  {
+    "id": 206259313,
+    "source": [
+      "Returning users (2+ days present)"
+    ],
+    "target": [
+      "Återkommande användare (närvarande 2+ dagar)"
+    ],
+    "context": "adminStats.presenceReturning",
+    "state": 20
+  },
+  {
+    "id": 206259314,
+    "source": [
+      "People present on 2 or more separate calendar days within the last {{days}} days. Counting sign-ins alone would find roughly a quarter fewer, because a signed-in session lasts 30 days without a fresh sign-in."
+    ],
+    "target": [
+      "Personer som var närvarande under två eller fler olika kalenderdagar de senaste {{days}} dagarna. Att bara räkna inloggningar skulle hitta ungefär en fjärdedel färre, eftersom en inloggad session varar 30 dagar utan ny inloggning."
+    ],
+    "context": "adminStats.presenceReturningTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259315,
+    "source": [
+      "Present on {{days}}+ days"
+    ],
+    "target": [
+      "Närvarande i {{days}}+ dagar"
+    ],
+    "context": "adminStats.presenceTier",
+    "state": 20
+  },
+  {
+    "id": 206259316,
+    "source": [
+      "People present on {{days}} or more separate calendar days in the window. Each tier contains the ones above it."
+    ],
+    "target": [
+      "Personer som var närvarande under {{days}} eller fler olika kalenderdagar i perioden. Varje nivå innehåller dem från nivåerna ovanför."
+    ],
+    "context": "adminStats.presenceTierTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259317,
+    "source": [
+      "People seen at all"
+    ],
+    "target": [
+      "Personer som alls har setts"
+    ],
+    "context": "adminStats.usersSeen",
+    "state": 20
+  },
+  {
+    "id": 206259318,
+    "source": [
+      "in the last {{days}} days"
+    ],
+    "target": [
+      "de senaste {{days}} dagarna"
+    ],
+    "context": "adminStats.usersSeenSub",
+    "state": 20
+  },
+  {
+    "id": 206259319,
+    "source": [
+      "Everyone with at least one recorded action or sign-in in the window. This is the denominator the percentages beside it use."
+    ],
+    "target": [
+      "Alla med minst en registrerad åtgärd eller inloggning i perioden. Detta är nämnaren som procentsiffrorna bredvid använder."
+    ],
+    "context": "adminStats.usersSeenTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259320,
+    "source": [
+      "of people seen"
+    ],
+    "target": [
+      "av personer som har setts"
+    ],
+    "context": "adminStats.ofUsersSeen",
+    "state": 20
+  },
+  {
+    "id": 206259321,
+    "source": [
+      "New users who changed a cellar"
+    ],
+    "target": [
+      "Nya användare som ändrade en vinkällare"
+    ],
+    "context": "adminStats.cohortChanged",
+    "state": 20
+  },
+  {
+    "id": 206259322,
+    "source": [
+      "Of the same signups, the share who added or consumed a bottle in the last 7 days. Always at or below the figure beside it: you cannot change a cellar without being present."
+    ],
+    "target": [
+      "Av samma registreringar: andelen som lade till eller drack en flaska de senaste 7 dagarna. Alltid lika med eller lägre än siffran bredvid: du kan inte ändra en vinkällare utan att vara närvarande."
+    ],
+    "context": "adminStats.cohortChangedTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259323,
+    "source": [
+      "Signed up"
+    ],
+    "target": [
+      "Registrerade sig"
+    ],
+    "context": "adminStats.cohortColSignedUp",
+    "state": 20
+  },
+  {
+    "id": 206259324,
+    "source": [
+      "People"
+    ],
+    "target": [
+      "Personer"
+    ],
+    "context": "adminStats.cohortColCount",
+    "state": 20
+  },
+  {
+    "id": 206259325,
+    "source": [
+      "Changed a cellar"
+    ],
+    "target": [
+      "Ändrade en vinkällare"
+    ],
+    "context": "adminStats.cohortColChanged",
+    "state": 20
+  },
+  {
+    "id": 206259326,
+    "source": [
+      "Present"
+    ],
+    "target": [
+      "Närvarande"
+    ],
+    "context": "adminStats.cohortColPresent",
+    "state": 20
+  },
+  {
+    "id": 206259327,
+    "source": [
+      "Similar wine already in the registry: {{name}} ({{percent}}% match)"
+    ],
+    "target": [
+      "Liknande vin finns redan i registret: {{name}} ({{percent}} % matchning)"
+    ],
+    "context": "addToWishlist.scanRegistryMatch",
+    "state": 20
+  },
+  {
+    "id": 206259328,
+    "source": [
+      "We couldn't read everything from the front label. Snap the back label to fill the gaps?"
+    ],
+    "target": [
+      "Vi kunde inte läsa allt på frametiketten. Vill du fotografera baksidesetiketten för att fylla i luckorna?"
+    ],
+    "context": "addToWishlist.backScanPrompt",
+    "state": 20
+  },
+  {
+    "id": 206259329,
+    "source": [
+      "Scan the back label"
+    ],
+    "target": [
+      "Skanna baksidesetiketten"
+    ],
+    "context": "addToWishlist.backScanCta",
+    "state": 20
+  },
+  {
+    "id": 206259330,
+    "source": [
+      "Skip"
+    ],
+    "target": [
+      "Hoppa över"
+    ],
+    "context": "addToWishlist.backScanSkip",
+    "state": 20
+  },
+  {
+    "id": 206259331,
+    "source": [
+      "Front and back label disagree on: {{fields}} — we kept the front."
+    ],
+    "target": [
+      "Fram- och baksidesetiketten skiljer sig åt för: {{fields}} – vi behöll frametikettens uppgifter."
+    ],
+    "context": "addToWishlist.backScanConflicts",
+    "state": 20
+  },
+  {
+    "id": 206259332,
+    "source": [
+      "The producer we read looks like label text (a place or style term) rather than a winery name — please check that box. The back label usually shows the real producer."
+    ],
+    "target": [
+      "Producenten vi läste in ser ut som etiketttext (en plats- eller stilbeteckning) snarare än ett vingårdsnamn – kontrollera det fältet. Baksidesetiketten visar oftast den riktiga producenten."
+    ],
+    "context": "addToWishlist.producerSuspectNote",
+    "state": 20
+  },
+  {
+    "id": 206259333,
+    "source": [
+      "Producer"
+    ],
+    "target": [
+      "Producent"
+    ],
+    "context": "addToWishlist.producerOptional",
+    "state": 20
+  },
+  {
+    "id": 206259334,
+    "source": [
+      "Leave empty if not readable"
+    ],
+    "target": [
+      "Lämna tomt om det inte går att läsa"
+    ],
+    "context": "addToWishlist.producerOptionalPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206259335,
+    "source": [
+      "Wine name and country are required."
+    ],
+    "target": [
+      "Vinnamn och land krävs."
+    ],
+    "context": "addToWishlist.nameCountryRequired",
+    "state": 20
+  },
+  {
+    "id": 206259336,
+    "source": [
+      "From the shared registry — pick one to copy it into this install"
+    ],
+    "target": [
+      "Från det delade registret – välj ett vin för att kopiera det till den här installationen"
+    ],
+    "context": "addToWishlist.registryResults",
+    "state": 20
+  },
+  {
+    "id": 206259337,
+    "source": [
+      "shared registry"
+    ],
+    "target": [
+      "delat register"
+    ],
+    "context": "addToWishlist.registryBadge",
+    "state": 20
+  },
+  {
+    "id": 206259338,
+    "source": [
+      "Copying…"
+    ],
+    "target": [
+      "Kopierar …"
+    ],
+    "context": "addToWishlist.registryAdopting",
+    "state": 20
+  },
+  {
+    "id": 206259339,
+    "source": [
+      "The shared registry could not be reached. Try again in a minute, or add the wine by hand."
+    ],
+    "target": [
+      "Det gick inte att nå det delade registret. Försök igen om en minut eller lägg till vinet manuellt."
+    ],
+    "context": "addToWishlist.registryAdoptFailed",
+    "state": 20
+  },
+  {
+    "id": 206259340,
+    "source": [
+      "We think this is your wine"
+    ],
+    "target": [
+      "Vi tror att det här är ditt vin"
+    ],
+    "context": "addToWishlist.aiIdentified",
+    "state": 20
+  },
+  {
+    "id": 206259341,
+    "source": [
+      "This wine isn't in our registry yet. Check the details — we'll add it to the shared registry when you continue."
+    ],
+    "target": [
+      "Det här vinet finns inte i vårt register ännu. Kontrollera uppgifterna – vi lägger till det i det delade registret när du fortsätter."
+    ],
+    "context": "addToWishlist.aiIdentifiedHint",
+    "state": 20
+  },
+  {
+    "id": 206259342,
+    "source": [
+      "This wine is already in our registry — using it won't create a duplicate."
+    ],
+    "target": [
+      "Det här vinet finns redan i vårt register – att använda det skapar ingen dubblett."
+    ],
+    "context": "addToWishlist.aiMatchHint",
+    "state": 20
+  },
+  {
+    "id": 206259343,
+    "source": [
+      "Looks right — add it"
+    ],
+    "target": [
+      "Ser rätt ut – lägg till det"
+    ],
+    "context": "addToWishlist.aiAddIt",
+    "state": 20
+  },
+  {
+    "id": 206259344,
+    "source": [
+      "Already in the registry — did you mean one of these?"
+    ],
+    "target": [
+      "Finns redan i registret – menade du något av dessa?"
+    ],
+    "context": "addToWishlist.aiSimilarTitle",
+    "state": 20
+  },
+  {
+    "id": 206259345,
+    "source": [
+      "AI wine lookup isn't available in the demo. Create a free account to use it."
+    ],
+    "target": [
+      "AI-vinsökning är inte tillgänglig i demon. Skapa ett gratiskonto för att använda den."
+    ],
+    "context": "addToWishlist.demoAiBlocked",
+    "state": 20
+  },
+  {
+    "id": 206259346,
+    "source": [
+      "{{count}} wine couldn't be fully identified — the bottle is in your cellar, and our curators will complete the details",
+      "{{count}} wines couldn't be fully identified — the bottles are in your cellar, and our curators will complete the details"
+    ],
+    "target": [
+      "{{count}} vin kunde inte identifieras helt – flaskan finns i din vinkällare och våra registerförvaltare kompletterar uppgifterna",
+      "{{count}} viner kunde inte identifieras helt – flaskorna finns i din vinkällare och våra registerförvaltare kompletterar uppgifterna"
+    ],
+    "context": "importCellar.resultPendingIdentity",
+    "state": 20
+  },
+  {
+    "id": 206259347,
+    "source": [
+      "Ploc"
+    ],
+    "target": [
+      "Ploc"
+    ],
+    "context": "importBottles.formats.ploc",
+    "state": 20
+  },
+  {
+    "id": 206259348,
+    "source": [
+      "New Wine"
+    ],
+    "target": [
+      "Nytt vin"
+    ],
+    "context": "importBottles.status.aiNew",
+    "state": 20
+  },
+  {
+    "id": 206259349,
+    "source": [
+      "That looks like a Ploc export, but the wines file is missing — it is the one with the stock counts. Select all of the files Ploc produced."
+    ],
+    "target": [
+      "Det ser ut som en Ploc-export, men vinfilen saknas – det är den som innehåller lagersaldon. Välj alla filer som Ploc skapade."
+    ],
+    "context": "importBottles.errors.plocWinesMissing",
+    "state": 20
+  },
+  {
+    "id": 206259350,
+    "source": [
+      "{{count}} rows have no vintage in the file. Type the year where you know it, or leave it as NV for non-vintage wines."
+    ],
+    "target": [
+      "{{count}} rader saknar årgång i filen. Skriv in året när du känner till det, eller lämna NV för viner utan årgång."
+    ],
+    "context": "importBottles.warnings.vintageMissing",
+    "state": 20
+  },
+  {
+    "id": 206259351,
+    "source": [
+      "Only the first file was used — {{count}} other file(s) were ignored."
+    ],
+    "target": [
+      "Bara den första filen användes – {{count}} andra filer ignorerades."
+    ],
+    "context": "importBottles.warnings.extraFilesIgnored",
+    "state": 20
+  }
+]
