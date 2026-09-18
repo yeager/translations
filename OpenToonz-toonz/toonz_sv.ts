@@ -3135,103 +3135,105 @@ Vill du skapa den?</translation>
     </message>
     <message>
         <source>O Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>O-ritning</translation>
     </message>
     <message>
         <source>E Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>E-ritning</translation>
     </message>
     <message>
         <source>U Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>U-ritning</translation>
     </message>
     <message>
         <source>L Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>L-ritning</translation>
     </message>
     <message>
         <source>W Q Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>W/Q-ritning</translation>
     </message>
     <message>
         <source>M B P Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>M/B/P-ritning</translation>
     </message>
     <message>
         <source>F V Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>F/V-ritning</translation>
     </message>
     <message>
         <source>Rest Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Vilobild</translation>
     </message>
     <message>
         <source>C D G K N R S Th Y Z</source>
-        <translation type="unfinished"></translation>
+        <translation>C D G K N R S Th Y Z</translation>
     </message>
     <message>
         <source>Extend Rest Drawing to End Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Förläng vilobilden till slutmarkören</translation>
     </message>
     <message>
         <source>Previous Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående ritning</translation>
     </message>
     <message>
         <source>Next Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa ritning</translation>
     </message>
     <message>
         <source>Insert at Frame: </source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga vid bildruta: </translation>
     </message>
     <message>
         <source>Lip Sync Data File: </source>
-        <translation type="unfinished"></translation>
+        <translation>Läppsynkroniseringsdatafil: </translation>
     </message>
     <message>
         <source>Thumbnails are not available for sub-Xsheets.
 Please use the frame numbers for reference.</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniatyrbilder är inte tillgängliga för under-XSheets.
+Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Unable to apply lip sync data to this column type</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att tillämpa läppsynkroniseringsdata på denna kolumntyp</translation>
     </message>
     <message>
         <source>SubXSheet Frame </source>
-        <translation type="unfinished"></translation>
+        <translation>Under-XSheet-bildruta </translation>
     </message>
     <message>
         <source>Unable to open the file: 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att öppna filen: 
+</translation>
     </message>
     <message>
         <source>Invalid data file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltig datafil.</translation>
     </message>
     <message>
         <source>Drawing: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ritning: </translation>
     </message>
 </context>
 <context>
     <name>LoadBoardPresetFilePopup</name>
     <message>
         <source>Load Clapperboard Settings Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in förinställning för klappbrädeinställningar</translation>
     </message>
 </context>
 <context>
     <name>LoadColorModelPopup</name>
     <message>
         <source>Load Color Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in färgmodell</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Palette from Frame:</source>
@@ -3239,7 +3241,7 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>Frames :</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildrutor:</translation>
     </message>
 </context>
 <context>
@@ -3257,18 +3259,18 @@ Please use the frame numbers for reference.</source>
     <name>LoadFolderPopup</name>
     <message>
         <source>Load Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in mapp</translation>
     </message>
 </context>
 <context>
     <name>LoadImagesPopup</name>
     <message>
         <source>Load Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in bilder</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Append Images</source>
@@ -3276,50 +3278,50 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Från:</translation>
     </message>
     <message>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Till:</translation>
     </message>
     <message>
         <source>Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg:</translation>
     </message>
     <message>
         <source>Shrink:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förminska:</translation>
     </message>
     <message>
         <source>Append</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <source>Load / Append Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in/lägg till bilder</translation>
     </message>
 </context>
 <context>
     <name>LoadLevelPopup</name>
     <message>
         <source>On Demand</source>
-        <translation type="unfinished"></translation>
+        <translation>Vid behov</translation>
     </message>
     <message>
         <source>All Icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla ikoner</translation>
     </message>
     <message>
         <source>All Icons &amp; Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla ikoner och bilder</translation>
     </message>
     <message>
         <source>Load Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in nivå</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>%1 does not exist.</source>
@@ -3327,11 +3329,11 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>TLV Caching Behavior</source>
-        <translation type="unfinished"></translation>
+        <translation>TLV-cachning</translation>
     </message>
     <message>
         <source>Load Subsequence Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in delsekvensnivå</translation>
     </message>
     <message>
         <source>Arrangement in Xsheet</source>
@@ -3339,78 +3341,78 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>(FILE DOES NOT EXIST)</source>
-        <translation type="unfinished"></translation>
+        <translation>(FILEN FINNS INTE)</translation>
     </message>
     <message>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Från:</translation>
     </message>
     <message>
         <source> To:</source>
-        <translation type="unfinished"></translation>
+        <translation> Till:</translation>
     </message>
     <message>
         <source> Step:</source>
-        <translation type="unfinished"></translation>
+        <translation> Steg:</translation>
     </message>
     <message>
         <source> Inc:</source>
-        <translation type="unfinished"></translation>
+        <translation> Ökning:</translation>
     </message>
     <message>
         <source>Level Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivånamn:</translation>
     </message>
     <message>
         <source> Frames:</source>
-        <translation type="unfinished"></translation>
+        <translation> Bildrutor:</translation>
     </message>
     <message>
         <source>::</source>
-        <translation type="unfinished"></translation>
+        <translation>::</translation>
     </message>
     <message>
         <source>Level Settings &amp; Arrangement in Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivåinställningar och placering i XSheet</translation>
     </message>
     <message>
         <source>Premultiply</source>
-        <translation type="unfinished"></translation>
+        <translation>Förmultiplicera</translation>
     </message>
     <message>
         <source>White As Transparent</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitt som genomskinligt</translation>
     </message>
     <message>
         <source>DPI:</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI:</translation>
     </message>
     <message>
         <source>Antialias Softness:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjukhet för kantutjämning:</translation>
     </message>
     <message>
         <source>Subsampling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Undersampling:</translation>
     </message>
 </context>
 <context>
     <name>LoadScenePopup</name>
     <message>
         <source>Load Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in scen</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source> is not a scene file.</source>
-        <translation type="unfinished"></translation>
+        <translation> är inte en scenfil.</translation>
     </message>
     <message>
         <source> does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation> finns inte.</translation>
     </message>
 </context>
 <context>
@@ -3432,11 +3434,11 @@ Please use the frame numbers for reference.</source>
     <name>LoadSubScenePopup</name>
     <message>
         <source>Load Sub-Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in under-XSheet</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source> is not a scene file.</source>
