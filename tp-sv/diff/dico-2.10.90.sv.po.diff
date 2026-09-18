@@ -1,0 +1,1634 @@
+--- a/dico-2.10.90.sv.po
++++ b/dico-2.10.90.sv.po
+@@ -26,22 +26,22 @@
+ #: xdico/userprivs.c:57
+ #, c-format
+ msgid "setgroups(1, %lu) failed"
+-msgstr "misslyckades med setgroups(1, %lu)"
++msgstr "setgroups(1, %lu) misslyckades"
+ 
+ #: xdico/userprivs.c:68
+ #, c-format
+ msgid "setegid(%lu) failed"
+-msgstr "misslyckades med setgid(%lu)"
++msgstr "setegid(%lu) misslyckades"
+ 
+ #: xdico/userprivs.c:72
+ #, c-format
+ msgid "setregid(%lu,%lu) failed"
+-msgstr "misslyckades med setregid(%lu,%lu)"
++msgstr "setregid(%lu,%lu) misslyckades"
+ 
+ #: xdico/userprivs.c:76
+ #, c-format
+ msgid "setresgid(%lu,%lu,%lu) failed"
+-msgstr "misslyckades med setregid(%lu,%lu,%lu)"
++msgstr "setresgid(%lu,%lu,%lu) misslyckades"
+ 
+ #: xdico/userprivs.c:84
+ #, c-format
+@@ -56,12 +56,12 @@
+ #: xdico/userprivs.c:105
+ #, c-format
+ msgid "setreuid(%lu,-1) failed"
+-msgstr "misslyckades med setregid(%lu,-1)"
++msgstr "setreuid(%lu,-1) misslyckades"
+ 
+ #: xdico/userprivs.c:110
+ #, c-format
+ msgid "second setuid(%lu) failed"
+-msgstr "misslyckades med andra setuid(%lu)"
++msgstr "andra setuid(%lu) misslyckades"
+ 
+ #: xdico/userprivs.c:117
+ #, c-format
+@@ -78,7 +78,7 @@
+ 
+ #: xdico/xstream.c:41
+ msgid "not enough memory while formatting reply message"
+-msgstr "inte nog med minne under formatering av svarsmeddelande"
++msgstr "inte tillräckligt med minne vid formatering av svarsmeddelande"
+ 
+ #. TRANSLATORS:
+ #. Get translations for open and closing quotation marks.
+@@ -194,11 +194,11 @@
+ 
+ #: dico/shell.c:37
+ msgid "Define NUMBERth match."
+-msgstr "Definiera träff-NUMMER."
++msgstr "Definiera träff nummer NUMBER."
+ 
+ #: dico/shell.c:39
+ msgid "Edit NUMBERth previous command."
+-msgstr "Redigera tidigare träff-NUMMER."
++msgstr "Redigera det NUMBER:e tidigare kommandot."
+ 
+ #: dico/shell.c:45
+ msgid "[HOST [PORT]]"
+@@ -218,11 +218,11 @@
+ 
+ #: dico/shell.c:54
+ msgid "Set or display current database name."
+-msgstr "Tilldela eller visa aktuellt databasnamn."
++msgstr "Ange eller visa namnet på aktuell databas."
+ 
+ #: dico/shell.c:58
+ msgid "Set or display current strategy."
+-msgstr "Tilldela eller visa aktuell strategi."
++msgstr "Ange eller visa aktuell strategi."
+ 
+ #: dico/shell.c:61
+ msgid "[NUM]"
+@@ -230,7 +230,7 @@
+ 
+ #: dico/shell.c:62
+ msgid "Set or query Levenshtein distance (server-dependent)."
+-msgstr "Tilldela eller fråga efter Levenshteinavstånd (server-beroende)."
++msgstr "Ange eller fråga efter Levenshteinavståndet (serverberoende)."
+ 
+ #: dico/shell.c:66
+ msgid "List available matching strategies"
+@@ -278,7 +278,7 @@
+ 
+ #: dico/shell.c:90
+ msgid "Change command line prompt."
+-msgstr "Ãndra kommandoradsprompt."
++msgstr "Ändra kommandoradsprompten."
+ 
+ #: dico/shell.c:94
+ msgid "Change or display pager settings."
+@@ -298,7 +298,7 @@
+ 
+ #: dico/shell.c:107
+ msgid "Display command history."
+-msgstr "Visa kommanodohistoriken."
++msgstr "Visa kommandohistoriken."
+ 
+ #: dico/shell.c:112
+ msgid "Display this help text."
+@@ -323,7 +323,7 @@
+ 
+ #: dico/shell.c:151
+ msgid "Expected a single punctuation character"
+-msgstr "Förväntade sig ett punkttecken"
++msgstr "Ett skiljetecken förväntades"
+ 
+ #: dico/shell.c:229
+ msgid "warning: "
+@@ -353,11 +353,11 @@
+ 
+ #: dico/connect.c:110
+ msgid "Attempting APOP authentication\n"
+-msgstr "Tillåter APOP-autentisering\n"
++msgstr "Försöker med APOP-autentisering\n"
+ 
+ #: dico/connect.c:117 dico/saslauth.c:338
+ msgid "Not enough credentials for authentication"
+-msgstr "Inte nog med användaruppgifter för autentisering"
++msgstr "Inte tillräckligt med autentiseringsuppgifter"
+ 
+ #: dico/connect.c:121 dico/saslauth.c:343
+ msgid "Skipping authentication\n"
+@@ -474,7 +474,7 @@
+ #: dico/connect.c:548
+ #, c-format
+ msgid "Sending query to match word \"%s\" in database \"%s\", using \"%s\"\n"
+-msgstr "Skickar fråga för att match ord ”%s” i databasen ”%s”, använder ”%s”\n"
++msgstr "Skickar fråga för att matcha ordet ”%s” i databasen ”%s” med ”%s”\n"
+ 
+ #: dico/connect.c:561
+ #, c-format
+@@ -501,7 +501,7 @@
+ 
+ #: dico/dico.c:107
+ msgid "Database name not specified"
+-msgstr "Databasnamnet specificeras inte"
++msgstr "Databasnamn har inte angetts"
+ 
+ #: dico/func.c:33 dicod/main.c:1120
+ msgid "Expected boolean value"
+@@ -514,11 +514,11 @@
+ 
+ #: dico/func.c:104 dico/func.c:138
+ msgid "Please specify server name or IP address"
+-msgstr "Specificera servernamn eller IP-adress"
++msgstr "Ange servernamn eller IP-adress"
+ 
+ #: dico/func.c:109
+ msgid "Cannot connect to the server"
+-msgstr "Det går inte ansluta till servern"
++msgstr "Det går inte att ansluta till servern"
+ 
+ #: dico/func.c:112
+ msgid "Getting list of databases\n"
+@@ -530,7 +530,7 @@
+ 
+ #: dico/func.c:116
+ msgid "Finished getting server information\n"
+-msgstr "Färdig med hämtning av serverinformation\n"
++msgstr "Hämtningen av serverinformation är klar\n"
+ 
+ #: dico/func.c:150
+ msgid "Nothing to close"
+@@ -550,7 +550,7 @@
+ 
+ #: dico/func.c:258 dico/func.c:366
+ msgid "invalid number"
+-msgstr "ogiltig siffra"
++msgstr "ogiltigt tal"
+ 
+ #: dico/func.c:268
+ #, c-format
+@@ -563,7 +563,7 @@
+ 
+ #: dico/func.c:329
+ msgid "Invalid match number.  Type / to see the matches."
+-msgstr "Ogiltigt antal träffar.  Skriv / för att se träffar."
++msgstr "Ogiltigt träffnummer. Skriv / för att se träffarna."
+ 
+ #: dico/func.c:344
+ #, c-format
+@@ -577,17 +577,17 @@
+ 
+ #: dico/func.c:353
+ msgid "Cannot query Levenshtein distance.  Server responded:"
+-msgstr "Det går inte att fråga Levenshteinavstånd.  Server svarade:"
++msgstr "Det går inte att fråga efter Levenshteinavstånd. Servern svarade:"
+ 
+ #: dico/func.c:358
+ #, c-format
+ msgid "No distance configured\n"
+-msgstr "Ingen avståndskonfiguration\n"
++msgstr "Inget avstånd har konfigurerats\n"
+ 
+ #: dico/func.c:360
+ #, c-format
+ msgid "Configured Levenshtein distance: %u\n"
+-msgstr "Konfigurerade Levenshteinavstånd: %u\n"
++msgstr "Konfigurerat Levenshteinavstånd: %u\n"
+ 
+ #: dico/func.c:395
+ #, c-format
+@@ -595,8 +595,8 @@
+ "Search all of the databases until a match is found,\n"
+ "and display all matches in that database.\n"
+ msgstr ""
+-"Söker igenom alla databaser tills ett resultat inträffat,\n"
+-"och visar alla träffar i databasen.\n"
++"Söker igenom alla databaser tills en träff hittas\n"
++"och visar alla träffar i den databasen.\n"
+ 
+ #: dico/func.c:398
+ #, c-format
+@@ -606,7 +606,7 @@
+ #: dico/autologin.c:151
+ #, c-format
+ msgid "Found matching line %d\n"
+-msgstr "Hittar matchande rad %d\n"
++msgstr "Hittade matchande rad %d\n"
+ 
+ #: dico/autologin.c:160
+ #, c-format
+@@ -645,7 +645,7 @@
+ #: dico/autologin.c:277
+ #, c-format
+ msgid "%s:%d: %s without argument"
+-msgstr "%s:%d %s utan argument"
++msgstr "%s:%d: %s utan argument"
+ 
+ #: dico/autologin.c:335
+ #, c-format
+@@ -670,7 +670,7 @@
+ 
+ #: cmdline.opt:51
+ msgid "specify port to connect to"
+-msgstr "specificera port att ansluta till"
++msgstr "ange port att ansluta till"
+ 
+ #: cmdline.opt:57 cmdline.opt:77 cmdline.opt:151 cmdline.opt:164
+ msgid "NAME"
+@@ -694,11 +694,11 @@
+ 
+ #: cmdline.opt:71
+ msgid "match instead of define"
+-msgstr "matcha istället för att definiera"
++msgstr "matcha i stället för att definiera"
+ 
+ #: cmdline.opt:77
+ msgid "select a strategy for matching; implies --match"
+-msgstr "välj en strategi för matchning; implicerar --match"
++msgstr "välj en matchningsstrategi; innebär --match"
+ 
+ #: cmdline.opt:85
+ msgid "N"
+@@ -734,7 +734,7 @@
+ 
+ #: cmdline.opt:125
+ msgid "do not print the normal dico welcome"
+-msgstr "skriv ej ut den vanliga dico-hälsningen"
++msgstr "skriv inte ut den vanliga dico-hälsningen"
+ 
+ #: cmdline.opt:117
+ msgid "Authentication"
+@@ -778,7 +778,7 @@
+ 
+ #: cmdline.opt:183
+ msgid "increase debugging verbosity level"
+-msgstr "öka nivå för utförligt läge vid felsökning"
++msgstr "öka utförlighetsnivån för felsökning"
+ 
+ #: cmdline.opt:189
+ msgid "include time stamp in the debugging output"
+@@ -810,7 +810,7 @@
+ 
+ #: cmdline.opt:39
+ msgid "[URL-or-WORD]"
+-msgstr "[URL-eller-WORD]"
++msgstr "[URL-eller-ORD]"
+ 
+ #: cmdline.opt:81
+ #, c-format
+@@ -837,11 +837,11 @@
+ #: dico/lookup.c:209
+ #, c-format
+ msgid "%s:%d: INTERNAL ERROR: unexpected request type"
+-msgstr "%s:%d: INTERNT FEL: oväntad begärd typ"
++msgstr "%s:%d: INTERNT FEL: oväntad begärandetyp"
+ 
+ #: dico/lookup.c:229 dico/lookup.c:296
+ msgid "Server name or IP not specified"
+-msgstr "Servernamn eller IP-adress inte angiven"
++msgstr "Servernamn eller IP-adress har inte angetts"
+ 
+ #: dico/lookup.c:238
+ msgid "Quitting\n"
+@@ -903,12 +903,12 @@
+ 
+ #: dico/saslauth.c:374
+ msgid "Dico compiled without SASL support"
+-msgstr "Dico kompilerad utan SASL-stöd"
++msgstr "Dico kompilerades utan SASL-stöd"
+ 
+ #: dicod/regex.c:46
+ #, c-format
+ msgid "Regex error: %s"
+-msgstr "Regex-fel: %s"
++msgstr "Reguljärt uttryck-fel: %s"
+ 
+ #: dicod/dicod.c:119 dicod/dicod.c:137 dicod/main.c:1572
+ #, c-format
+@@ -931,7 +931,7 @@
+ 
+ #: dicod/dicod.c:364
+ msgid "session finished:"
+-msgstr "session avslutad:"
++msgstr "sessionen avslutades:"
+ 
+ #: dicod/acl.c:69
+ msgid "expected string"
+@@ -944,11 +944,11 @@
+ #: dicod/acl.c:129
+ #, c-format
+ msgid "socket name too long: `%s'"
+-msgstr "uttagsnamn för lång: ”%s”"
++msgstr "uttagsnamnet är för långt: ”%s”"
+ 
+ #: dicod/acl.c:157
+ msgid "expected `from', but found list"
+-msgstr "förväntade sig ”from” men fann list"
++msgstr "förväntade ”from”, men fann en lista"
+ 
+ #: dicod/acl.c:160
+ #, c-format
+@@ -957,11 +957,11 @@
+ 
+ #: dicod/acl.c:169
+ msgid "unexpected end of statement after `from'"
+-msgstr "oväntat slut på uttrycket efter ”from”"
++msgstr "oväntat slut på satsen efter ”from”"
+ 
+ #: dicod/acl.c:195
+ msgid "junk after `from' list"
+-msgstr "skräp efter ”from” list"
++msgstr "skräp efter listan ”from”"
+ 
+ #: dicod/acl.c:211
+ msgid "expected ACL name, but found end of statement"
+@@ -969,7 +969,7 @@
+ 
+ #: dicod/acl.c:217
+ msgid "expected string, but found list"
+-msgstr "förväntade sig sträng, men fann list"
++msgstr "förväntade en sträng men fann en lista"
+ 
+ #: dicod/acl.c:224
+ #, c-format
+@@ -978,11 +978,11 @@
+ 
+ #: dicod/acl.c:242
+ msgid "expected group list, but found end of statement"
+-msgstr "förväntade sig grop list, men fann slut på mening"
++msgstr "förväntade en grupplista men fann slut på satsen"
+ 
+ #: dicod/acl.c:255
+ msgid "expected group list, but found array"
+-msgstr "förväntade sig group list, men fann en vektor"
++msgstr "förväntade en grupplista men fann en vektor"
+ 
+ #: dicod/acl.c:268
+ msgid "expected string value"
+@@ -995,13 +995,13 @@
+ 
+ #: dicod/acl.c:302
+ msgid "unexpected list"
+-msgstr "oväntad list"
++msgstr "oväntad lista"
+ 
+ #. TRANSLATORS: `MATCHES' is the verb `match' in 2nd person.
+ #. E.g., in French: CONCORD AVEC
+ #: dicod/acl.c:400
+ msgid "MATCHES"
+-msgstr "TRÃFFAR"
++msgstr "TRÄFFAR"
+ 
+ #: dicod/acl.c:400
+ msgid "does not match"
+@@ -1015,7 +1015,7 @@
+ #: dicod/dbtext.c:33
+ #, c-format
+ msgid "cannot stat directory `%s'"
+-msgstr "det går inte att ta stat på katalog ”%s”"
++msgstr "det går inte att hämta status för katalogen ”%s”"
+ 
+ #: dicod/dbtext.c:39
+ #, c-format
+@@ -1034,7 +1034,7 @@
+ #: dicod/auth.c:51 dicod/gsasl.c:240 dicod/gsasl.c:276
+ #, c-format
+ msgid "failed to get password for `%s' from the database"
+-msgstr "misslyckades med att använda lösenord ”%s” från databasen"
++msgstr "misslyckades med att hämta lösenordet för ”%s” från databasen"
+ 
+ #: dicod/auth.c:55
+ #, c-format
+@@ -1067,7 +1067,7 @@
+ 
+ #: dicod/main.c:286
+ msgid "missing ACL name"
+-msgstr "saknar ACL-namn"
++msgstr "ACL-namn saknas"
+ 
+ #: dicod/main.c:292
+ #, c-format
+@@ -1076,7 +1076,7 @@
+ 
+ #: dicod/main.c:295
+ msgid "location of the previous definition"
+-msgstr "plats för tidigare definition"
++msgstr "platsen för den tidigare definitionen"
+ 
+ #: dicod/main.c:311 dicod/main.c:315
+ msgid "[all|authenticated|group <grp: list>] [from <addr: list>]"
+@@ -1088,7 +1088,7 @@
+ 
+ #: dicod/main.c:316
+ msgid "Deny access"
+-msgstr "Vägra åtkomst"
++msgstr "Neka åtkomst"
+ 
+ #: dicod/main.c:336 dicod/main.c:747 dicod/main.c:822
+ msgid "expected scalar value"
+@@ -1101,7 +1101,7 @@
+ 
+ #: dicod/main.c:363 dicod/main.c:465 dicod/main.c:507 dicod/main.c:670
+ msgid "expected scalar value but found list"
+-msgstr "förväntad sig skalärt värde men fann list"
++msgstr "förväntade ett skalärt värde men fann en lista"
+ 
+ #: dicod/main.c:371
+ #, c-format
+@@ -1116,7 +1116,7 @@
+ #: dicod/main.c:426
+ #, c-format
+ msgid "not a valid GID number: %s"
+-msgstr "inte en giltigt GID-tal: %s"
++msgstr "inte ett giltigt GID-tal: %s"
+ 
+ #: dicod/main.c:433
+ #, c-format
+@@ -1129,7 +1129,7 @@
+ 
+ #: dicod/main.c:514
+ msgid "unknown syslog facility"
+-msgstr "okänd syslog-funktion"
++msgstr "okänd syslog-facilitet"
+ 
+ #: dicod/main.c:533 dicod/main.c:559
+ msgid "tag must be a string"
+@@ -1137,11 +1137,11 @@
+ 
+ #: dicod/main.c:535 dicod/main.c:561
+ msgid "missing tag"
+-msgstr "saknad tagg"
++msgstr "tagg saknas"
+ 
+ #: dicod/main.c:624
+ msgid "database name not supplied"
+-msgstr "databasnamn måste inte tillhandahållas"
++msgstr "databasnamn har inte angetts"
+ 
+ #: dicod/main.c:630
+ msgid "no handler defined for the database"
+@@ -1149,7 +1149,7 @@
+ 
+ #: dicod/main.c:648 grecs/src/tree.c:665
+ msgid "invalid use of block statement"
+-msgstr "ogiltig användning för blocksats"
++msgstr "ogiltig användning av blocksats"
+ 
+ #: dicod/main.c:675 dicod/loader.c:120
+ #, c-format
+@@ -1164,17 +1164,17 @@
+ #: dicod/main.c:727
+ #, c-format
+ msgid "unknown capability: %s"
+-msgstr "okänd förmåga: %s"
++msgstr "okänd funktion: %s"
+ 
+ #: dicod/main.c:752
+ #, c-format
+ msgid "cannot parse headers: %s"
+-msgstr "det går inte att tolka huvuden: %s"
++msgstr "det går inte att tolka huvudena: %s"
+ 
+ #: dicod/main.c:759
+ #, c-format
+ msgid "unknown encoding type: %s"
+-msgstr "okänd kodtyp: %s"
++msgstr "okänd teckenkodning: %s"
+ 
+ #: dicod/main.c:766 dicod/main.c:840 dicod/main.c:844 dicod/main.c:849
+ #: dicod/main.c:853 dicod/main.c:896 dicod/main.c:899 dicod/main.c:903
+@@ -1210,19 +1210,20 @@
+ 
+ #: dicod/main.c:841
+ msgid "Short description, to be shown in reply to SHOW DB command."
+-msgstr "Kort beskrivning, att visa i svaret för kommandot SHOW DB."
++msgstr "Kort beskrivning som visas i svaret på kommandot SHOW DB."
+ 
+ #: dicod/main.c:845
+ msgid "Full description of the database, to be shown in reply to SHOW INFO command."
+-msgstr "Helbeskrivning av databasen, att visa i svaret för kommandot SHOW INFO."
++msgstr "Fullständig beskrivning av databasen som visas i svaret på kommandot SHOW "
++"INFO."
+ 
+ #: dicod/main.c:850
+ msgid "List of languages this database translates from."
+-msgstr "Språklista denna databas översätter från."
++msgstr "Lista över språk som databasen översätter från."
+ 
+ #: dicod/main.c:854
+ msgid "List of languages this database translates to."
+-msgstr "Språklista denna databas översätter till."
++msgstr "Lista över språk som databasen översätter till."
+ 
+ #: dicod/main.c:857 dicod/main.c:1023 dicod/main.c:1026 dicod/main.c:1302
+ #: dicod/main.c:1305 dicod/main.c:1324 dicod/main.c:1343 dicod/main.c:1348
+@@ -1240,7 +1241,7 @@
+ 
+ #: dicod/main.c:861
+ msgid "ACL controlling visibility of this database"
+-msgstr "ACL kontrollerar databasens synlighet"
++msgstr "ACL som styr databasens synlighet"
+ 
+ #: dicod/main.c:864 dicod/main.c:1312 dicod/main.c:1359 dicod/main.c:1362
+ msgid "text"
+@@ -1252,7 +1253,7 @@
+ 
+ #: dicod/main.c:869
+ msgid "bool"
+-msgstr "boolesk"
++msgstr "booleskt"
+ 
+ #: dicod/main.c:870
+ msgid "Set database visibility"
+@@ -1264,7 +1265,8 @@
+ 
+ #: dicod/main.c:874
+ msgid "For virtual database only: name of the member database. Optional mime|nomime specifies the condition under which the database is to be used."
+-msgstr "Endast för virtuell databas: namn på medlemsdatabas. Valfri mime|nomime specificerar villkoren för under vilka databasen ska användas."
++msgstr "Endast för virtuell databas: namn på medlemsdatabasen. Det valfria "
++"mime|nomime anger villkoret då databasen används."
+ 
+ #: dicod/main.c:896
+ msgid "Password file or query."
+@@ -1272,11 +1274,11 @@
+ 
+ #: dicod/main.c:900
+ msgid "File containing user group information or a query to retrieve it."
+-msgstr "Filen innehåller användargruppsinformation eller en fråga för att hämta den."
++msgstr "Fil med användargruppsinformation eller en fråga som hämtar den."
+ 
+ #: dicod/main.c:904
+ msgid "Implementation-dependent options"
+-msgstr "Implementationsberoende flaggor"
++msgstr "Implementationsberoende alternativ"
+ 
+ #: dicod/main.c:926 dicod/main.c:942
+ msgid "URL must be a string"
+@@ -1301,7 +1303,7 @@
+ 
+ #: dicod/main.c:1008
+ msgid "expected boolean value but found list"
+-msgstr "förväntad sig booleskt värde men fann list"
++msgstr "förväntade ett booleskt värde men fann en lista"
+ 
+ #: dicod/main.c:1017 dicod/main.c:1020
+ msgid "mech: list"
+@@ -1309,11 +1311,11 @@
+ 
+ #: dicod/main.c:1018
+ msgid "Disable SASL mechanisms listed in <mech>."
+-msgstr "Inaktivera SASL-mekanism listade i <mech>."
++msgstr "Inaktivera SASL-mekanismerna i <mech>."
+ 
+ #: dicod/main.c:1021
+ msgid "Enable SASL mechanisms listed in <mech>."
+-msgstr "Inaktivera SASL-mekanismer listade i <mech>."
++msgstr "Aktivera SASL-mekanismerna i <mech>."
+ 
+ #: dicod/main.c:1024
+ msgid "Set service name for GSSAPI and Kerberos."
+@@ -1321,7 +1323,7 @@
+ 
+ #: dicod/main.c:1027
+ msgid "Set realm name for GSSAPI and Kerberos."
+-msgstr "Ange sfärsnamn för GSSAPI och Kerberos."
++msgstr "Ange namn på sfär för GSSAPI och Kerberos."
+ 
+ #: dicod/main.c:1030
+ msgid "Define groups for anonymous users."
+@@ -1333,15 +1335,15 @@
+ 
+ #: dicod/main.c:1071
+ msgid "missing section name"
+-msgstr "saknar avsnittsnamn"
++msgstr "avsnittsnamn saknas"
+ 
+ #: dicod/main.c:1096
+ msgid "Unexpected statement"
+-msgstr "Oväntad mening"
++msgstr "Oväntad sats"
+ 
+ #: dicod/main.c:1133
+ msgid "Expected string value"
+-msgstr "Förväntade sig strängvärde"
++msgstr "Strängvärde förväntades"
+ 
+ #: dicod/main.c:1159
+ msgid "expected list or string"
+@@ -1349,7 +1351,7 @@
+ 
+ #: dicod/main.c:1182
+ msgid "Expected number"
+-msgstr "Förväntat sig tal"
++msgstr "Tal förväntades"
+ 
+ #: dicod/main.c:1253
+ msgid "arg: bool"
+@@ -1357,7 +1359,7 @@
+ 
+ #: dicod/main.c:1253
+ msgid "Deny all * and ! look ups"
+-msgstr "Neka alla uppslag med * och "
++msgstr "Neka alla uppslag med * och !"
+ 
+ #: dicod/main.c:1257
+ msgid "cond"
+@@ -1390,11 +1392,11 @@
+ 
+ #: dicod/main.c:1287
+ msgid "Deny * and ! look-ups on words with length == <len>."
+-msgstr "Neka uppslag * och ! för ord med längder == <len>."
++msgstr "Neka uppslag med * och ! för ord med längd == <len>."
+ 
+ #: dicod/main.c:1293
+ msgid "Deny * and ! look-ups on words with length != <len>."
+-msgstr "Neka uppslag * och ! för ord med längder != <len>."
++msgstr "Neka uppslag med * och ! för ord med längd != <len>."
+ 
+ #: dicod/main.c:1302
+ msgid "Run with these user privileges."
+@@ -1402,7 +1404,7 @@
+ 
+ #: dicod/main.c:1306
+ msgid "Supplementary group to retain with the user privileges."
+-msgstr "Kompletterande grupp för att behålla användarprivilegier."
++msgstr "Kompletterande grupp som behålls med användarprivilegierna."
+ 
+ #: dicod/main.c:1309
+ msgid "arg: [daemon|inetd]"
+@@ -1414,11 +1416,11 @@
+ 
+ #: dicod/main.c:1313
+ msgid "Server description to be shown in reply to SHOW SERVER command."
+-msgstr "Serverbeskrivning att visa i svaret till kommandot SHOW SERVER."
++msgstr "Serverbeskrivning som visas i svaret på kommandot SHOW SERVER."
+ 
+ #: dicod/main.c:1316
+ msgid "Show system information if arg matches."
+-msgstr "Visa systeminformationen om arg matchar."
++msgstr "Visa systeminformation om arg matchar."
+ 
+ #: dicod/main.c:1319
+ msgid "Enable identification check using AUTH protocol (RFC 1413)"
+@@ -1434,23 +1436,25 @@
+ 
+ #: dicod/main.c:1325
+ msgid "Name of the file containing the keys for decrypting AUTH replies."
+-msgstr "Namn på filen innehållandes nycklarna för att dekryptera AUTH-svar."
++msgstr "Namn på filen som innehåller nycklarna för att dekryptera AUTH-svar."
+ 
+ #: dicod/main.c:1328
+ msgid "Maximum number of children running simultaneously."
+-msgstr "Högsta antal underordnade som kör samtidigt."
++msgstr "Högsta antal underordnade processer som kör samtidigt."
+ 
+ #: dicod/main.c:1330
+ msgid "Tag syslog diagnostics with this tag."
+-msgstr "Tagga syslog-diagnostik med denna tagg."
++msgstr "Märk syslog-diagnostiken med denna tagg."
+ 
+ #: dicod/main.c:1333
+ msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
+-msgstr "Ange syslog-funktionalitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (icke skiftlägeskänsligt) eller ett funktionalitetstal."
++msgstr "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, "
++"mail, cron, local0 till local7, oberoende av skiftläge, eller ett "
++"facilitetsnummer."
+ 
+ #: dicod/main.c:1338
+ msgid "Prefix diagnostics messages with their severity."
+-msgstr "Diagnostikmeddelanden med dess allvarsgrad som prefix."
++msgstr "Förse diagnostikmeddelanden med allvarsgrad som prefix."
+ 
+ #: dicod/main.c:1340
+ msgid "fmt"
+@@ -1458,7 +1462,7 @@
+ 
+ #: dicod/main.c:1341
+ msgid "Set format string for access log file."
+-msgstr "Ange format-sträng för loggfilen för åtkomst."
++msgstr "Ange formatsträng för åtkomstloggfilen."
+ 
+ #: dicod/main.c:1344
+ msgid "Set access log file name."
+@@ -1466,7 +1470,7 @@
+ 
+ #: dicod/main.c:1346
+ msgid "Log session transcript."
+-msgstr "Logga sessionsåtergivningar."
++msgstr "Logga sessionsutskrift."
+ 
+ #: dicod/main.c:1349
+ msgid "Store PID of the master process in this file."
+@@ -1478,7 +1482,7 @@
+ 
+ #: dicod/main.c:1352
+ msgid "Wait this number of seconds for all children to terminate."
+-msgstr "Vänta detta antal sekunder på att alla underordnade ska avslutas."
++msgstr "Vänta så här många sekunder på att alla underordnade processer avslutas."
+ 
+ #: dicod/main.c:1355
+ msgid "Set inactivity timeout."
+@@ -1494,15 +1498,16 @@
+ 
+ #: dicod/main.c:1360
+ msgid "Display this text in the initial 220 banner"
+-msgstr "Visa denna text i första 220-rubriken"
++msgstr "Visa denna text i den inledande 220-hälsningen"
+ 
+ #: dicod/main.c:1363
+ msgid "Display this text in reply to the HELP command. If text begins with a +, usual command summary is displayed before it."
+-msgstr "Visa denna i svar för kommandot HELP. Om texten börjar med + visas vanlig kommandosammanfattning före det."
++msgstr "Visa denna text i svaret på kommandot HELP. Om texten börjar med + visas den "
++"vanliga kommandosammanfattningen före den."
+ 
+ #: dicod/main.c:1366
+ msgid "Override the host name."
+-msgstr "Åsidosätta värdnamnet."
++msgstr "Åsidosätt värdnamnet."
+ 
+ #: dicod/main.c:1368
+ msgid "Request additional capabilities."
+@@ -1514,19 +1519,20 @@
+ 
+ #: dicod/main.c:1372
+ msgid "List of directories searched for database modules."
+-msgstr "Lista över kataloger som söks igenom efter databasmoduler."
++msgstr "Lista över kataloger som genomsöks efter databasmoduler."
+ 
+ #: dicod/main.c:1376
+ msgid "List of directories searched for database modules prior to the default module directory"
+-msgstr "Lista över kataloger som söks genom efter databasmoduler innan standardkatalogen för modulerna"
++msgstr "Lista över kataloger som genomsöks efter databasmoduler före "
++"standardkatalogen för moduler."
+ 
+ #: dicod/main.c:1381
+ msgid "Set the name of the default matching strategy."
+-msgstr "Anger namnet på standardstrategin för matchning."
++msgstr "Ange namnet på standardstrategin för matchning."
+ 
+ #: dicod/main.c:1384
+ msgid "Provide timing information after successful completion of an operation."
+-msgstr "Tillhandahåll tidsinformation efter lyckat avslut av en åtgärd."
++msgstr "Tillhandahåll tidsinformation efter att en åtgärd har slutförts."
+ 
+ #: dicod/main.c:1388
+ msgid "Set ACL to control visibility of all databases."
+@@ -1589,8 +1595,8 @@
+ "Configuration file structure for dicod.\n"
+ "For more information, use `info dico configuration'."
+ msgstr ""
+-"Konfigurationsfilstrukturen för dicod.\n"
+-"För ytterligare information, använd ”info dico configuration”."
++"Konfigurationsfilens struktur för dicod.\n"
++"För mer information, använd ”info dico configuration”."
+ 
+ #: dicod/main.c:1788
+ msgid "unknown strategy"
+@@ -1614,7 +1620,8 @@
+ 
+ #: cmdline.opt:69
+ msgid "run unit tests for module; subsequent arguments are treated as module name and unit test arguments; the -- marker introduces module initialization arguments"
+-msgstr "kör enhetstester för modul; följande argument behandlas som modulnamn och enhetstestargument; markören -- introducerar argument för modulinitiering"
++msgstr "kör modultester; efterföljande argument behandlas som modulnamn och "
++"testargument; markören -- inleder argument för modulinitiering"
+ 
+ #: cmdline.opt:63
+ msgid "Modifiers"
+@@ -1626,23 +1633,23 @@
+ 
+ #: cmdline.opt:79
+ msgid "read this configuration file"
+-msgstr "läs av denna konfigurationsfil"
++msgstr "läs den här konfigurationsfilen"
+ 
+ #: cmdline.opt:85
+ msgid "operate in foreground"
+-msgstr "jobba i förgrunden"
++msgstr "kör i förgrunden"
+ 
+ #: cmdline.opt:91
+ msgid "output diagnostic to stderr"
+-msgstr "mata ut diagnostik till stderr"
++msgstr "skriv diagnostik till standardfel"
+ 
+ #: cmdline.opt:97
+ msgid "output diagnostic to syslog (default)"
+-msgstr "mata ut diagnostik till syslog (standard)"
++msgstr "skriv diagnostik till syslog (standard)"
+ 
+ #: cmdline.opt:103
+ msgid "single-process mode"
+-msgstr "enskild process-läge"
++msgstr "enprocessläge"
+ 
+ #: cmdline.opt:109 cmdline.opt:179
+ msgid "DIR"
+@@ -1650,7 +1657,7 @@
+ 
+ #: cmdline.opt:109
+ msgid "prepend DIR to the module load path"
+-msgstr "lägg till KAT till modulens inläsningssökväg"
++msgstr "lägg till KAT före modulens inläsningssökväg"
+ 
+ #: cmdline.opt:125
+ msgid "disable session transcript"
+@@ -1666,7 +1673,7 @@
+ 
+ #: cmdline.opt:150
+ msgid "trace config file lexer"
+-msgstr "spåra konfigurationsfil-lexer"
++msgstr "spåra lexern för konfigurationsfilen"
+ 
+ #: cmdline.opt:142
+ msgid "Additional help"
+@@ -1674,11 +1681,11 @@
+ 
+ #: cmdline.opt:158
+ msgid "show configuration file summary"
+-msgstr "visa sammanfattning för konfigurationsfilen"
++msgstr "visa sammanfattning av konfigurationsfilen"
+ 
+ #: cmdline.opt:151
+ msgid "Preprocessor control"
+-msgstr "Förprocessorkontroll"
++msgstr "Styrning av förprocessor"
+ 
+ #: cmdline.opt:167
+ msgid "PROG"
+@@ -1686,7 +1693,7 @@
+ 
+ #: cmdline.opt:167
+ msgid "use PROG as a preprocessor for config file"
+-msgstr "använd PROG som en förprocessor för konfigurationsfilen"
++msgstr "använd PROG som förprocessor för konfigurationsfilen"
+ 
+ #: cmdline.opt:173
+ msgid "do not use external preprocessor"
+@@ -1694,7 +1701,8 @@
+ 
+ #: cmdline.opt:179
+ msgid "add the directory DIR to the list of directories to be searched for preprocessor include files"
+-msgstr "lägg till katalogen DIR till listan över kataloger att sökas igenom efter include-filer till förprocessorn"
++msgstr "lägg till katalogen DIR i listan över kataloger som genomsöks efter "
++"include-filer för preprocessorn"
+ 
+ #: cmdline.opt:185
+ msgid "SYMBOL[=VALUE]"
+@@ -1702,11 +1710,11 @@
+ 
+ #: cmdline.opt:185
+ msgid "define a preprocessor symbol"
+-msgstr "definiera en symbol för förprocessor"
++msgstr "definiera en preprocessorsymbol"
+ 
+ #: cmdline.opt:43
+ msgid "GNU dictionary server"
+-msgstr "GNU ordboksserver"
++msgstr "GNU-ordboksserver"
+ 
+ #: dicod/loader.c:38
+ #, c-format
+@@ -1743,12 +1751,12 @@
+ 
+ #: dicod/alias.c:70
+ msgid "this is the location of the previous definition"
+-msgstr "detta är platsen för tidigare defination"
++msgstr "detta är platsen för den tidigare definitionen"
+ 
+ #: dicod/server.c:103
+ #, c-format
+ msgid "file %s exists but cannot be stat'd"
+-msgstr "filen %s existerar men det går inte att ta stat"
++msgstr "filen %s finns men det går inte att hämta dess status"
+ 
+ #: dicod/server.c:110
+ #, c-format
+@@ -1758,12 +1766,12 @@
+ #: dicod/server.c:116
+ #, c-format
+ msgid "cannot unlink file %s"
+-msgstr "det går inte att köra unlink på filen %s"
++msgstr "det går inte att länka bort filen %s"
+ 
+ #: dicod/server.c:131
+ #, c-format
+ msgid "unsupported address family: %d"
+-msgstr "adressfamiljen stöds ej: %d"
++msgstr "adressfamiljen stöds inte: %d"
+ 
+ #: dicod/server.c:163
+ msgid "No sockets opened"
+@@ -1772,7 +1780,7 @@
+ #: dicod/server.c:206
+ #, c-format
+ msgid "%lu exited successfully"
+-msgstr "%lu avslutades lyckat"
++msgstr "%lu avslutades utan fel"
+ 
+ #: dicod/server.c:211
+ #, c-format
+@@ -1797,7 +1805,7 @@
+ #: dicod/server.c:234
+ #, c-format
+ msgid "%lu dumped core"
+-msgstr "%lu dumpade kärnan"
++msgstr "%lu skapade en minnesdump"
+ 
+ #: dicod/server.c:237
+ #, c-format
+@@ -1822,7 +1830,7 @@
+ #: dicod/server.c:324 dicod/server.c:343
+ #, c-format
+ msgid "Cannot unlink pidfile `%s'"
+-msgstr "Det går inte att länka av pidfilen ”%s”"
++msgstr "Det går inte att länka bort pidfilen ”%s”"
+ 
+ #: dicod/server.c:334
+ #, c-format
+@@ -1836,7 +1844,7 @@
+ 
+ #: dicod/server.c:459
+ msgid "fork failed"
+-msgstr "misslyckades med gren(fork)"
++msgstr "fork misslyckades"
+ 
+ #: dicod/server.c:475
+ msgid "refusing to restart due to errors in configuration file"
+@@ -1844,7 +1852,8 @@
+ 
+ #: dicod/server.c:481
+ msgid "refusing to restart due to unexpected return status of configuration checker"
+-msgstr "vägrar att starta om på grund av oväntad returstatus på konfiguratiionskontrollen"
++msgstr "vägrar att starta om på grund av oväntad slutstatus från "
++"konfigurationskontrollen"
+ 
+ #: dicod/server.c:489
+ msgid "refusing to restart: configuration checker did not exit within 5 seconds"
+@@ -1865,12 +1874,12 @@
+ 
+ #: dicod/server.c:557
+ msgid "select error"
+-msgstr "valfel"
++msgstr "fel i select"
+ 
+ #: dicod/server.c:585
+ #, c-format
+ msgid "%s started"
+-msgstr "%s startad"
++msgstr "%s startade"
+ 
+ #: dicod/server.c:590
+ msgid "not running as root: ignoring user/group settings"
+@@ -1878,7 +1887,7 @@
+ 
+ #: dicod/server.c:603
+ msgid "dicod started without full file name"
+-msgstr "dicod startade utan fullt filnamn"
++msgstr "dicod startades utan fullständigt filnamn"
+ 
+ #: dicod/server.c:604 dicod/server.c:608
+ msgid "restart (SIGHUP) will not work"
+@@ -1886,11 +1895,11 @@
+ 
+ #: dicod/server.c:607
+ msgid "configuration file is not given with a full file name"
+-msgstr "konfigurationsfilen är inte angiven med ett helt filnamn"
++msgstr "konfigurationsfilen har inte angetts med fullständigt filnamn"
+ 
+ #: dicod/server.c:615
+ msgid "Cannot become a daemon"
+-msgstr "Det går inte att bli en demon"
++msgstr "Det går inte att bli en daemon"
+ 
+ #: dicod/server.c:632
+ #, c-format
+@@ -1913,7 +1922,7 @@
+ 
+ #: dicod/ident.c:200
+ msgid "Incorrect length of IDENT DES packet"
+-msgstr "Inkorrekt längd på IDENT DES-paket"
++msgstr "Felaktig längd på IDENT DES-paket"
+ 
+ #: dicod/ident.c:207
+ #, c-format
+@@ -1922,7 +1931,7 @@
+ 
+ #: dicod/ident.c:388
+ msgid "cannot create socket for AUTH identification"
+-msgstr "det går inte att öppna uttag för AUTH-identifiering"
++msgstr "det går inte att skapa uttag för AUTH-identifiering"
+ 
+ #: dicod/ident.c:400
+ msgid "cannot bind AUTH socket"
+@@ -1936,16 +1945,17 @@
+ #: dicod/ident.c:437
+ #, c-format
+ msgid "Malformed IDENT response: `%s', from %s"
+-msgstr "Ogilitigt IDENT-svar: ”%s” från %s"
++msgstr "Felaktigt IDENT-svar: ”%s”, från %s"
+ 
+ #: dicod/ident.c:442
+ msgid "Keyfile for AUTH responses not specified in config; use `ident-keyfile FILE'"
+-msgstr "Nyckelfilen för AUTH-svar är inte specificerad i konfigurationen; använd ”ident-keyfile FIL”"
++msgstr "Nyckelfil för AUTH-svar har inte angetts i konfigurationen; använd "
++"”ident-keyfile FIL”"
+ 
+ #: dicod/ident.c:458
+ #, c-format
+ msgid "failure while communicating with AUTH server %s"
+-msgstr "misslyckades för kommunikation med AUTH-servern %s"
++msgstr "fel vid kommunikation med AUTH-servern %s"
+ 
+ #: dicod/ident.c:469
+ #, c-format
+@@ -1965,7 +1975,7 @@
+ #: dicod/accesslog.c:502
+ #, c-format
+ msgid "log format error (near char %td): unknown format char `%c'"
+-msgstr "loggformatfel (nära tecken %td): saknar avslutande ”%c”"
++msgstr "loggformatfel (nära tecken %td): okänt formateringstecken ”%c”"
+ 
+ #: dicod/accesslog.c:510
+ #, c-format
+@@ -1994,7 +2004,7 @@
+ 
+ #: dicod/gsasl.c:269
+ msgid "user name not supplied"
+-msgstr "användarnamn inte angivet"
++msgstr "användarnamn har inte angetts"
+ 
+ #: dicod/gsasl.c:333
+ #, c-format
+@@ -2004,7 +2014,7 @@
+ #: modules/dict.org/dictorg.c:83
+ #, c-format
+ msgid "mod_init: cannot stat `%s'"
+-msgstr "mod_init: det går inte att ta stat: ”%s”"
++msgstr "mod_init: det går inte att hämta status för ”%s”"
+ 
+ #: modules/dict.org/dictorg.c:88
+ #, c-format
+@@ -2029,7 +2039,7 @@
+ #: modules/dict.org/dictorg.c:302
+ #, c-format
+ msgid "open_index: cannot stat `%s'"
+-msgstr "open_index: det går inte ta stat ”%s”"
++msgstr "open_index: det går inte att hämta status för ”%s”"
+ 
+ #: modules/dict.org/dictorg.c:306
+ #, c-format
+@@ -2046,17 +2056,17 @@
+ #: modules/gcide/gcide.c:323 modules/gcide/gcide.c:732
+ #, c-format
+ msgid "cannot open stream `%s': %s"
+-msgstr "det går inte att skapa strömmen ”%s”:%s"
++msgstr "det går inte att öppna strömmen ”%s”: %s"
+ 
+ #: modules/dict.org/dictorg.c:430
+ #, c-format
+ msgid "cannot open stream for dictionary `%s'"
+-msgstr "det går inte att skapa strömmen för uppslaget ”%s”"
++msgstr "det går inte att öppna strömmen för ordboken ”%s”"
+ 
+ #: modules/dict.org/dictorg.c:458
+ #, c-format
+ msgid "mod_init_db(%s): database name not given"
+-msgstr "mod_init_db(%s): databasnamn inte angivet"
++msgstr "mod_init_db(%s): databasnamn har inte angetts"
+ 
+ #: modules/dict.org/dictorg.c:468
+ #, c-format
+@@ -2066,7 +2076,7 @@
+ #: modules/dict.org/dictorg.c:508
+ #, c-format
+ msgid "mod_init_db(%s): index files in old 8-bit format are not supported"
+-msgstr "mod_init_db(%s): indexfiler i gamla 8-bitars format stöds ej"
++msgstr "mod_init_db(%s): indexfiler i gammalt 8-bitarsformat stöds inte"
+ 
+ #: modules/dict.org/dictorg.c:810 modules/dict.org/dictorg.c:993
+ #: modules/gcide/gcide.c:756
+@@ -2086,7 +2096,7 @@
+ #: modules/dict.org/dictstr.c:176
+ #, c-format
+ msgid "cannot initialize inflation engine: %s"
+-msgstr "det går inte att initiera inflationsmotor: %s"
++msgstr "det går inte att initiera dekomprimeringsmotorn: %s"
+ 
+ #: modules/dict.org/dictstr.c:198
+ #, c-format
+@@ -2096,7 +2106,7 @@
+ #: modules/dict.org/dictstr.c:286
+ #, c-format
+ msgid "%s:%d: INTERNAL ERROR: cannot shut down inflation engine: %s"
+-msgstr "%s:%d: INTERNT FEL: det går inte att stänga ner inflationsmotor: %s"
++msgstr "%s:%d: INTERNT FEL: det går inte att stänga dekomprimeringsmotorn: %s"
+ 
+ #: modules/dict.org/dictstr.c:437
+ #, c-format
+@@ -2105,7 +2115,7 @@
+ 
+ #: modules/dict.org/dictstr.c:475
+ msgid "unknown dictionary format"
+-msgstr "okänd ordboksformat"
++msgstr "okänt ordboksformat"
+ 
+ #: modules/dict.org/dictstr.c:478
+ msgid "unsupported dictionary format"
+@@ -2113,7 +2123,7 @@
+ 
+ #: modules/dict.org/dictstr.c:481
+ msgid "unsupported dictionary version"
+-msgstr "version av ordbok som ej stöds"
++msgstr "ordboksversionen stöds inte"
+ 
+ #: modules/dict.org/dictstr.c:484
+ msgid "malformed header"
+@@ -2125,12 +2135,12 @@
+ 
+ #: modules/dict.org/dictstr.c:490
+ msgid "error decompressing stream"
+-msgstr "fel vid upppackning av ström"
++msgstr "fel vid uppackning av ström"
+ 
+ #: modules/guile/guile.c:151
+ #, c-format
+ msgid "%s: not enough memory"
+-msgstr "%s: inte nog med minne"
++msgstr "%s: inte tillräckligt med minne"
+ 
+ #: modules/guile/guile.c:164
+ #, c-format
+@@ -2140,7 +2150,7 @@
+ #: modules/guile/guile.c:184
+ #, c-format
+ msgid "procedure `%s' failed: see error output for details"
+-msgstr "proceduren ”%s” misslyckades: se felutdata för detaljer"
++msgstr "proceduren ”%s” misslyckades; se felutdata för detaljer"
+ 
+ #: modules/guile/guile.c:735
+ #, c-format
+@@ -2154,7 +2164,7 @@
+ #: modules/guile/guile.c:802 modules/guile/guile.c:836
+ #, c-format
+ msgid "mod_init: cannot load init script %s"
+-msgstr "mod_init: det går inte att läsa init-skript %s"
++msgstr "mod_init: det går inte att läsa in init-skriptet %s"
+ 
+ #: modules/guile/guile.c:862
+ #, c-format
+@@ -2176,7 +2186,7 @@
+ 
+ #: modules/outline/outline.c:642
+ msgid "outline_lang: not enough memory"
+-msgstr "outline_lang: inte nog med minne"
++msgstr "outline_lang: inte tillräckligt med minne"
+ 
+ #: modules/outline/outline.c:681
+ msgid "outline_match_all: not enough memory"
+@@ -2213,17 +2223,17 @@
+ 
+ #: modules/ldap/ldap.c:215
+ msgid "cannot allocate handle"
+-msgstr "det går inte allokera handtag"
++msgstr "det går inte att allokera handtag"
+ 
+ #: modules/ldap/ldap.c:255
+ #, c-format
+ msgid "cannot expand query `%s': %s"
+-msgstr "det går inte att utöka fråga ”%s”: %s"
++msgstr "det går inte att expandera frågan ”%s”: %s"
+ 
+ #: modules/gcide/gcide.c:85
+ #, c-format
+ msgid "gcide: cannot stat `%s'"
+-msgstr "gcide: det går inte ta stat ”%s”"
++msgstr "gcide: det går inte att hämta status för ”%s”"
+ 
+ #: modules/gcide/gcide.c:89
+ #, c-format
+@@ -2233,7 +2243,7 @@
+ #: modules/gcide/gcide.c:93 modules/gcide/gcide.c:158
+ #, c-format
+ msgid "gcide: `%s' is not readable"
+-msgstr "gcid: ”%s” är inte läsbart"
++msgstr "gcide: ”%s” är inte läsbar"
+ 
+ #: modules/gcide/gcide.c:113
+ #, c-format
+@@ -2247,7 +2257,7 @@
+ 
+ #: modules/gcide/gcide.c:125
+ msgid "gcide_open_idx: fork failed"
+-msgstr "gcide_open_idx: gren misslyckades"
++msgstr "gcide_open_idx: fork misslyckades"
+ 
+ #: modules/gcide/gcide.c:129 modules/gcide/gcide.c:134
+ #, c-format
+@@ -2257,12 +2267,12 @@
+ #: modules/gcide/gcide.c:141
+ #, c-format
+ msgid "gcide_open_idx: %s exited with status %d"
+-msgstr "gcide_open_idx: %s misslyckades med status %d"
++msgstr "gcide_open_idx: %s avslutades med status %d"
+ 
+ #: modules/gcide/gcide.c:162 modules/gcide/gcide.c:182
+ #, c-format
+ msgid "gcide: can't stat `%s'"
+-msgstr "gcide: det går inte att använda stat ”%s”"
++msgstr "gcide: det går inte att hämta status för ”%s”"
+ 
+ #: modules/gcide/gcide.c:188
+ msgid "gcide: index file older than database, reindexing"
+@@ -2275,7 +2285,7 @@
+ 
+ #: modules/gcide/gcide.c:249
+ msgid "gcide_init_db: database directory not given"
+-msgstr "gcide_init_db: databaskatalogen inte angiven"
++msgstr "gcide_init_db: databaskatalogen har inte angetts"
+ 
+ #: modules/gcide/gcide.c:335 modules/gcide/gcide.c:354
+ #, c-format
+@@ -2285,11 +2295,11 @@
+ #: modules/gcide/gcide.c:344
+ #, c-format
+ msgid "cannot get size of stream `%s': %s"
+-msgstr "det går inte att erhålla storlek på strömmen ”%s”: %s"
++msgstr "det går inte att hämta storleken på strömmen ”%s”: %s"
+ 
+ #: modules/gcide/gcide.c:351
+ msgid "cannot allocate dictionary information buffer"
+-msgstr "det går inte att allokera information för ordboksbuffert"
++msgstr "det går inte att allokera informationsbuffert för ordboken"
+ 
+ #: modules/gcide/gcide.c:518 modules/wordnet/wordnet.c:617
+ #, c-format
+@@ -2309,7 +2319,7 @@
+ #: modules/gcide/idx.c:71
+ #, c-format
+ msgid "short read while reading from `%s'"
+-msgstr "kort läsning medan läsning pågår från ”%s”"
++msgstr "kort läsning från ”%s”"
+ 
+ #: modules/gcide/idx.c:91
+ #, c-format
+@@ -2329,7 +2339,7 @@
+ #: modules/gcide/idx.c:246
+ #, c-format
+ msgid "seek error on `%s' while positioning to %lu"
+-msgstr "sökfel på ”%s” vid positionering mot %lu"
++msgstr "sökfel i ”%s” vid positionering till %lu"
+ 
+ #: modules/gcide/idxgcide-cli.opt:62
+ #, c-format
+@@ -2351,7 +2361,7 @@
+ #: modules/gcide/idxgcide.l:217
+ #, c-format
+ msgid "%s:%u: unknown or illegible character in a headword"
+-msgstr "%s: %u: okänt eller dåligt tecken i huvudord"
++msgstr "%s:%u: okänt eller oläsligt tecken i ett huvudord"
+ 
+ #: modules/gcide/idxgcide.l:221
+ #, c-format
+@@ -2384,7 +2394,7 @@
+ #: modules/gcide/idxgcide.l:356
+ #, c-format
+ msgid "headwords=%lu, definitions=%lu, refs per page=%lu, pages=%lu"
+-msgstr "huvudord=%lu, definitioner=%lu, refs per sida=%lu, sidor=%lu"
++msgstr "huvudord=%lu, definitioner=%lu, referenser per sida=%lu, sidor=%lu"
+ 
+ #: modules/gcide/markup.l:148
+ #, c-format
+@@ -2403,7 +2413,7 @@
+ 
+ #: modules/wordnet/wordnet.c:79
+ msgid "cannot open wordnet database"
+-msgstr "det går inte att öppna wordnet-databas"
++msgstr "det går inte att öppna WordNet-databasen"
+ 
+ #: modules/wordnet/wordnet.c:232
+ #, c-format
+@@ -2461,11 +2471,11 @@
+ 
+ #: grecs/src/format.c:46
+ msgid "time"
+-msgstr "time"
++msgstr "tid"
+ 
+ #: grecs/src/format.c:46
+ msgid "of times"
+-msgstr "av time"
++msgstr "av tider"
+ 
+ #: grecs/src/format.c:47
+ msgid "boolean"
+@@ -2489,7 +2499,7 @@
+ 
+ #: grecs/src/format.c:49
+ msgid "of CIDR"
+-msgstr "av CIDR-namn"
++msgstr "av CIDR-nät"
+ 
+ #: grecs/src/format.c:50
+ msgid "hostname"
+@@ -2509,7 +2519,7 @@
+ 
+ #: grecs/src/format.c:52
+ msgid "section"
+-msgstr "sektion"
++msgstr "avsnitt"
+ 
+ #: grecs/src/format.c:53
+ msgid "null"
+@@ -2530,12 +2540,12 @@
+ #: grecs/src/grecs-lex.l:186
+ #, c-format
+ msgid "stray character %c"
+-msgstr "löst tecken: %c"
++msgstr "ensamt tecken: %c"
+ 
+ #: grecs/src/grecs-lex.l:189
+ #, c-format
+ msgid "stray character \\%03o"
+-msgstr "löst tecken \\%03o"
++msgstr "ensamt tecken \\%03o"
+ 
+ #: grecs/src/grecs-lex.l:219 grecs/src/preproc.c:480
+ #, c-format
+@@ -2545,20 +2555,20 @@
+ #: grecs/src/grecs-lex.l:227 grecs/src/preproc.c:698
+ #, c-format
+ msgid "Unable to start external preprocessor `%s'"
+-msgstr "Det går inte att starta extern förprocessor ”%s”"
++msgstr "Det går inte att starta den externa preprocessorn ”%s”"
+ 
+ #: grecs/src/grecs-lex.l:394 grecs/src/grecs-lex.l:431
+ #, c-format
+ msgid "cannot parse #line line: %s"
+-msgstr "det går inte att tolka #rad-rad: %s"
++msgstr "det går inte att tolka #line-raden: %s"
+ 
+ #: grecs/src/grecs-lex.l:415 grecs/src/grecs-lex.l:435
+ msgid "invalid #line statement"
+-msgstr "ogiltigt #raduttryck"
++msgstr "ogiltig #line-sats"
+ 
+ #: grecs/src/grecs-lex.l:418 grecs/src/grecs-lex.l:439
+ msgid "malformed #line statement"
+-msgstr "felaktigt #raduttryck"
++msgstr "felaktig #line-sats"
+ 
+ #: grecs/src/lineacc.c:70
+ #, c-format
+@@ -2583,7 +2593,7 @@
+ 
+ #: grecs/src/opthelp.c:186
+ msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+-msgstr "Obligatoriska eller frivilliga argument till långa flaggor är också obligatoriska eller frivilliga för motsvarande korta flaggor."
++msgstr "Alias"
+ 
+ #. TRANSLATORS: The placeholder indicates the bug-reporting
+ #. address for this package.  Please add _another line_ saying
+@@ -2598,7 +2608,7 @@
+ #: grecs/src/opthelp.c:205
+ #, c-format
+ msgid "%s home page: <%s>\n"
+-msgstr "%s webbplats:<%s>\n"
++msgstr "%s webbplats: <%s>\n"
+ 
+ #. TRANSLATORS: Translate "(C)" to the copyright symbol
+ #. (C-in-a-circle), if this symbol is available in the user's
+@@ -2614,14 +2624,15 @@
+ "There is NO WARRANTY, to the extent permitted by law.\n"
+ "\n"
+ msgstr ""
+-"Licens GPLv3: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+-"Detta är fri programvara: du är fri att ändra och distribuera den.\n"
+-"Det finns INGA GARANTIER.\n"
++"Licens GPLv3+: GNU GPL version 3 eller senare "
++"<http://gnu.org/licenses/gpl.html>\n"
++"Detta är fri programvara: du får ändra och vidaredistribuera den.\n"
++"Det finns INGEN GARANTI, så långt lagen tillåter.\n"
+ "\n"
+ 
+ #: grecs/src/opthelp.c:483
+ msgid "Written by "
+-msgstr "Skapad av "
++msgstr "Skriven av "
+ 
+ #. TRANSLATORS: This string is used as a delimiter between
+ #. authors' names as in:
+@@ -2648,20 +2659,20 @@
+ 
+ #: grecs/src/path-parser.c:108 grecs/src/path-parser.c:123
+ msgid "unexpected end of file"
+-msgstr "oväntad filavslut"
++msgstr "oväntat filslut"
+ 
+ #: grecs/src/path-parser.c:143
+ msgid "parse error"
+-msgstr "tolka fel"
++msgstr "tolkningsfel"
+ 
+ #: grecs/src/preproc.c:448 grecs/src/preproc.c:470
+ #, c-format
+ msgid "Cannot stat `%s'"
+-msgstr "Det går inte att ta stat ”%s”"
++msgstr "Det går inte att hämta status för ”%s”"
+ 
+ #: grecs/src/preproc.c:453 grecs/src/preproc.c:458
+ msgid "Recursive inclusion"
+-msgstr "Rekursiv inklusion"
++msgstr "Rekursiv inkludering"
+ 
+ #: grecs/src/preproc.c:461
+ #, c-format
+@@ -2675,11 +2686,11 @@
+ 
+ #: grecs/src/preproc.c:595
+ msgid "Cannot parse include line"
+-msgstr "Det går inte att tolka inkluderad rad"
++msgstr "Det går inte att tolka include-raden"
+ 
+ #: grecs/src/preproc.c:598
+ msgid "invalid include statement"
+-msgstr "ogiltigt include-intryck"
++msgstr "ogiltig include-sats"
+ 
+ #: grecs/src/preproc.c:624
+ msgid "read error"
+@@ -2698,7 +2709,7 @@
+ #: grecs/src/sockaddr.c:67
+ #, c-format
+ msgid "socket path name too long: %s"
+-msgstr "sökväg för uttagsnamn för långt: %s"
++msgstr "sökvägen till uttaget är för lång: %s"
+ 
+ #: grecs/src/sockaddr.c:120
+ #, c-format
+@@ -2708,7 +2719,7 @@
+ #: grecs/src/sockaddr.c:159
+ #, c-format
+ msgid "service not specified: %s"
+-msgstr "tjänst ej specificerad: %s"
++msgstr "tjänst har inte angetts: %s"
+ 
+ #: grecs/src/sockaddr.c:176
+ #, c-format
+@@ -2718,7 +2729,7 @@
+ #: grecs/src/sockaddr.c:269
+ #, c-format
+ msgid "unknown or unsupported scheme: %s"
+-msgstr "schemat är okänt eller stöds ej: %s"
++msgstr "okänt eller ej stött schema: %s"
+ 
+ #: grecs/src/sockaddr.c:278
+ #, c-format
+@@ -2743,15 +2754,15 @@
+ 
+ #: grecs/src/tree.c:75
+ msgid "unrecognized type; please report"
+-msgstr "okänd typ; vänligen rapportera"
++msgstr "okänd typ; rapportera felet"
+ 
+ #: grecs/src/tree.c:320
+ msgid "section keyword used as a scalar"
+-msgstr "sektionsnyckelord använd som skalär"
++msgstr "sektionsnyckelord används som skalärt värde"
+ 
+ #: grecs/src/tree.c:322
+ msgid "scalar keyword used as a section"
+-msgstr "skalärnyckelord använd som sektion"
++msgstr "skalärt nyckelord används som sektion"
+ 
+ #: grecs/src/tree.c:325
+ msgid "unknown keyword"
+@@ -2774,15 +2785,15 @@
+ 
+ #: grecs/src/tree.c:452
+ msgid "missing port number"
+-msgstr "saknar portnummer"
++msgstr "portnummer saknas"
+ 
+ #: grecs/src/tree.c:501
+ msgid "numeric overflow"
+-msgstr "numeriskt överspill"
++msgstr "numeriskt spill"
+ 
+ #: grecs/src/tree.c:506
+ msgid "value out of allowed range"
+-msgstr "värde utanför tillåtet intervall"
++msgstr "värdet ligger utanför tillåtet intervall"
+ 
+ #: grecs/src/tree.c:541 grecs/src/tree.c:571
+ #, c-format
+@@ -2816,7 +2827,7 @@
+ 
+ #: grecs/wordsplit/wordsplit.c:130
+ msgid "memory exhausted while trying to store error context"
+-msgstr "minnet slut under lagring av felkontext"
++msgstr "minnet tog slut när felkontexten skulle lagras"
+ 
+ #: grecs/wordsplit/wordsplit.c:881
+ msgid "Restarting"
+@@ -2825,12 +2836,12 @@
+ #: grecs/wordsplit/wordsplit.c:1607
+ #, c-format
+ msgid "%.*s: variable null or not set"
+-msgstr "%.*s: variabel null eller inte angiven"
++msgstr "%.*s: variabeln är null eller har inte angetts"
+ 
+ #: grecs/wordsplit/wordsplit.c:1637
+ #, c-format
+ msgid "warning: undefined variable `%.*s'"
+-msgstr "varning: odefinierad variabl ”%.*s”"
++msgstr "varning: odefinierad variabel ”%.*s”"
+ 
+ #: grecs/wordsplit/wordsplit.c:2138
+ #, c-format
+@@ -2839,7 +2850,7 @@
+ 
+ #: grecs/wordsplit/wordsplit.c:2599
+ msgid "WS trimming"
+-msgstr "WS-trimmning"
++msgstr "blankteckentrimning"
+ 
+ #: grecs/wordsplit/wordsplit.c:2601
+ msgid "command substitution"
+@@ -2847,19 +2858,19 @@
+ 
+ #: grecs/wordsplit/wordsplit.c:2603 grecs/wordsplit/wordsplit.c:2611
+ msgid "coalesce list"
+-msgstr "sorteringslista"
++msgstr "sammanfogad lista"
+ 
+ #: grecs/wordsplit/wordsplit.c:2605
+ msgid "tilde expansion"
+-msgstr "tilde-expansion"
++msgstr "tildeexpansion"
+ 
+ #: grecs/wordsplit/wordsplit.c:2607
+ msgid "variable expansion"
+-msgstr "variabel-expansion"
++msgstr "variabelexpansion"
+ 
+ #: grecs/wordsplit/wordsplit.c:2609
+ msgid "quote removal"
+-msgstr "citattecken-borttagning"
++msgstr "borttagning av citattecken"
+ 
+ #: grecs/wordsplit/wordsplit.c:2613
+ msgid "path expansion"
+@@ -2876,15 +2887,15 @@
+ 
+ #: grecs/wordsplit/wordsplit.c:2679
+ msgid "Coalesced list:"
+-msgstr "Sorterad lista:"
++msgstr "Sammanfogad lista:"
+ 
+ #: grecs/wordsplit/wordsplit.c:2849
+ msgid "no error"
+-msgstr "inga fel"
++msgstr "inget fel"
+ 
+ #: grecs/wordsplit/wordsplit.c:2850
+ msgid "missing closing quote"
+-msgstr "saknar avslutande citattecken"
++msgstr "avslutande citattecken saknas"
+ 
+ #: grecs/wordsplit/wordsplit.c:2852
+ msgid "invalid wordsplit usage"
+@@ -2900,11 +2911,11 @@
+ 
+ #: grecs/wordsplit/wordsplit.c:2855
+ msgid "input exhausted"
+-msgstr "indata uttömd"
++msgstr "ingen mer indata"
+ 
+ #: grecs/wordsplit/wordsplit.c:2856
+ msgid "unbalanced parenthesis"
+-msgstr "obalanserade parenteser"
++msgstr "obalanserad parentes"
+ 
+ #: grecs/wordsplit/wordsplit.c:2857
+ msgid "globbing error"
+@@ -2925,7 +2936,7 @@
+ #: grecs/wordsplit/wordsplit.c:2880
+ #, c-format
+ msgid "missing closing %c (start near #%lu)"
+-msgstr "saknar avslutande %c (börjar nära #%lu)"
++msgstr "avslutande %c saknas (börjar nära #%lu)"
+ 
+ #~ msgid "%s: option '--%s' doesn't allow an argument\n"
+ #~ msgstr "%s: flaggan ”--%s” tar inte argument\n"
