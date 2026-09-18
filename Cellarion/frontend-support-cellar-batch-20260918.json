@@ -1,0 +1,554 @@
+[
+  {
+    "id": 206258652,
+    "source": [
+      "import window open"
+    ],
+    "target": [
+      "importfönster öppet"
+    ],
+    "context": "settings.registryConnection.importWindowActive",
+    "state": 20
+  },
+  {
+    "id": 206258653,
+    "source": [
+      "The registry answered \"{{reason}}\"; this install pauses its requests until {{until}}."
+    ],
+    "target": [
+      "Registret svarade ”{{reason}}”. Den här installationen pausar sina förfrågningar till {{until}}."
+    ],
+    "context": "settings.registryConnection.blocked",
+    "state": 20
+  },
+  {
+    "id": 206258654,
+    "source": [
+      "Last problem reaching the registry: {{message}} ({{when}})."
+    ],
+    "target": [
+      "Senaste problemet vid anslutning till registret: {{message}} ({{when}})."
+    ],
+    "context": "settings.registryConnection.lastError",
+    "state": 20
+  },
+  {
+    "id": 206258655,
+    "source": [
+      "Not connected."
+    ],
+    "target": [
+      "Inte ansluten."
+    ],
+    "context": "settings.registryConnection.notConnected",
+    "state": 20
+  },
+  {
+    "id": 206258656,
+    "source": [
+      "No bridge key is configured on this server."
+    ],
+    "target": [
+      "Ingen bryggnyckel är konfigurerad på den här servern."
+    ],
+    "context": "settings.registryConnection.reasonNoKey",
+    "state": 20
+  },
+  {
+    "id": 206258657,
+    "source": [
+      "REGISTRY_BRIDGE_KEY is set but is not a bridge key (they start with cbr_)."
+    ],
+    "target": [
+      "REGISTRY_BRIDGE_KEY är inställd men är inte en bryggnyckel (de börjar med cbr_)."
+    ],
+    "context": "settings.registryConnection.reasonBadKey",
+    "state": 20
+  },
+  {
+    "id": 206258658,
+    "source": [
+      "REGISTRY_BRIDGE_URL points at this very install."
+    ],
+    "target": [
+      "REGISTRY_BRIDGE_URL pekar på just den här installationen."
+    ],
+    "context": "settings.registryConnection.reasonSelfTarget",
+    "state": 20
+  },
+  {
+    "id": 206258659,
+    "source": [
+      "Sign in on cellarion.app and open Settings → \"Connect a self-hosted Cellarion\"."
+    ],
+    "target": [
+      "Logga in på cellarion.app och öppna Inställningar → ”Anslut en självhostad Cellarion-instans”."
+    ],
+    "context": "settings.registryConnection.step1",
+    "state": 20
+  },
+  {
+    "id": 206258660,
+    "source": [
+      "Accept the Registry Data Terms, name this install and create a key."
+    ],
+    "target": [
+      "Godkänn registervillkoren, namnge installationen och skapa en nyckel."
+    ],
+    "context": "settings.registryConnection.step2",
+    "state": 20
+  },
+  {
+    "id": 206258661,
+    "source": [
+      "Put the two lines into this server's .env and restart the backend."
+    ],
+    "target": [
+      "Lägg de två raderna i den här serverns `.env` och starta sedan om serverdelen."
+    ],
+    "context": "settings.registryConnection.step3",
+    "state": 20
+  },
+  {
+    "id": 206258662,
+    "source": [
+      "Open cellarion.app settings"
+    ],
+    "target": [
+      "Öppna cellarion.app-inställningar"
+    ],
+    "context": "settings.registryConnection.hostedSettingsLink",
+    "state": 20
+  },
+  {
+    "id": 206258663,
+    "source": [
+      "How the bridge works"
+    ],
+    "target": [
+      "Så fungerar bryggan"
+    ],
+    "context": "settings.registryConnection.docsLink",
+    "state": 20
+  },
+  {
+    "id": 206258664,
+    "source": [
+      "Failed to read the registry connection."
+    ],
+    "target": [
+      "Det gick inte att läsa registeranslutningen."
+    ],
+    "context": "settings.registryConnection.errorLoad",
+    "state": 20
+  },
+  {
+    "id": 206258665,
+    "source": [
+      "Choose what feels right"
+    ],
+    "target": [
+      "Välj det som känns rätt"
+    ],
+    "context": "supporter.pickerHeading",
+    "state": 20
+  },
+  {
+    "id": 206258666,
+    "source": [
+      "One card fee a year instead of twelve, so a little more of the same gift actually reaches the server. Cancel anytime."
+    ],
+    "target": [
+      "En kortavgift om året i stället för tolv, så lite mer av samma gåva faktiskt når servern. Avsluta när du vill."
+    ],
+    "context": "supporter.yearlyNote",
+    "state": 20
+  },
+  {
+    "id": 206258667,
+    "source": [
+      "Smaller, and easy to stop whenever you like. Yearly sends slightly more of the same gift to the server."
+    ],
+    "target": [
+      "Mindre belopp, som är lätt att avsluta när du vill. Ett årsbelopp skickar lite mer av samma gåva till servern."
+    ],
+    "context": "supporter.monthlyNote",
+    "state": 20
+  },
+  {
+    "id": 206258668,
+    "source": [
+      "/year"
+    ],
+    "target": [
+      "/år"
+    ],
+    "context": "supporter.perYear",
+    "state": 20
+  },
+  {
+    "id": 206258669,
+    "source": [
+      "/month"
+    ],
+    "target": [
+      "/månad"
+    ],
+    "context": "supporter.perMonth",
+    "state": 20
+  },
+  {
+    "id": 206258670,
+    "source": [
+      "That's {{amount}} a month"
+    ],
+    "target": [
+      "Det är {{amount}} i månaden"
+    ],
+    "context": "supporter.equivPerMonth",
+    "state": 20
+  },
+  {
+    "id": 206258671,
+    "source": [
+      "{{amount}} a year, all told"
+    ],
+    "target": [
+      "{{amount}} per år sammanlagt"
+    ],
+    "context": "supporter.equivPerYear",
+    "state": 20
+  },
+  {
+    "id": 206258672,
+    "source": [
+      "Support"
+    ],
+    "target": [
+      "Stöd"
+    ],
+    "context": "supporter.chooseCta",
+    "state": 20
+  },
+  {
+    "id": 206258673,
+    "source": [
+      "Not available right now"
+    ],
+    "target": [
+      "Inte tillgänglig just nu"
+    ],
+    "context": "supporter.tierUnavailable",
+    "state": 20
+  },
+  {
+    "id": 206258674,
+    "source": [
+      "About two glasses of wine. A year."
+    ],
+    "target": [
+      "Ungefär två glas vin. Per år."
+    ],
+    "context": "supporter.analogy.supporter",
+    "state": 20
+  },
+  {
+    "id": 206258675,
+    "source": [
+      "A good bottle, once a year."
+    ],
+    "target": [
+      "En bra flaska, en gång om året."
+    ],
+    "context": "supporter.analogy.patron",
+    "state": 20
+  },
+  {
+    "id": 206258676,
+    "source": [
+      "A good bottle twice a year — and a real dent in the monthly bills."
+    ],
+    "target": [
+      "En bra flaska två gånger om året – och ett verkligt bidrag till månadskostnaderna."
+    ],
+    "context": "supporter.analogy.benefactor",
+    "state": 20
+  },
+  {
+    "id": 206258677,
+    "source": [
+      "All three unlock exactly the same Cellarion: everything. You're not buying features — there are none to buy. You're keeping the lights on, and you get our genuine thanks and nothing else."
+    ],
+    "target": [
+      "Alla tre ger tillgång till exakt samma Cellarion: allt. Du köper inga funktioner – det finns inga att köpa. Du hjälper till att hålla tjänsten igång och får vårt uppriktiga tack, inget annat."
+    ],
+    "context": "supporter.sameAppNote",
+    "state": 20
+  },
+  {
+    "id": 206258678,
+    "source": [
+      "Any amount you like"
+    ],
+    "target": [
+      "Valfritt belopp"
+    ],
+    "context": "supporter.customTitle",
+    "state": 20
+  },
+  {
+    "id": 206258679,
+    "source": [
+      "One-off or your own recurring amount, through GitHub Sponsors."
+    ],
+    "target": [
+      "Engångsbelopp eller ett eget återkommande belopp via GitHub Sponsors."
+    ],
+    "context": "supporter.customDesc",
+    "state": 20
+  },
+  {
+    "id": 206258680,
+    "source": [
+      "Just here for the wine? That's genuinely fine."
+    ],
+    "target": [
+      "Är du bara här för vinet? Det är helt okej."
+    ],
+    "context": "supporter.closingLead",
+    "state": 20
+  },
+  {
+    "id": 206258681,
+    "source": [
+      "Nothing changes if you never give a penny — no nags, no locked buttons, no countdown in the corner. Cellarion is yours either way. If it ever earns a place in your cellar, the levels are one screen up."
+    ],
+    "target": [
+      "Inget förändras om du aldrig ger ett öre – inga tjat, inga låsta knappar och ingen nedräkning i hörnet. Cellarion är ditt oavsett. Om det får en plats i din vinkällare finns nivåerna en skärm upp."
+    ],
+    "context": "supporter.closingBody",
+    "state": 20
+  },
+  {
+    "id": 206258682,
+    "source": [
+      "Already keep your collection somewhere else? Create a cellar, then open it and choose “Import bottles” from its ⋯ menu to bring in a CSV, or a CellarTracker or Vivino export."
+    ],
+    "target": [
+      "Har du redan samlingen någon annanstans? Skapa en vinkällare, öppna den och välj ”Importera flaskor” i menyn ⋯ för att importera en CSV-fil eller en export från CellarTracker eller Vivino."
+    ],
+    "context": "cellars.emptyImportHint",
+    "state": 20
+  },
+  {
+    "id": 206258683,
+    "source": [
+      "Stored in"
+    ],
+    "target": [
+      "Förvaras i"
+    ],
+    "context": "cellarDetail.storedInLabel",
+    "state": 20
+  },
+  {
+    "id": 206258684,
+    "source": [
+      "Reservation"
+    ],
+    "target": [
+      "Reservation"
+    ],
+    "context": "cellarDetail.reservationLabel",
+    "state": 20
+  },
+  {
+    "id": 206258685,
+    "source": [
+      "Reserved only"
+    ],
+    "target": [
+      "Endast reserverade"
+    ],
+    "context": "cellarDetail.reservedOnly",
+    "state": 20
+  },
+  {
+    "id": 206258686,
+    "source": [
+      "Select"
+    ],
+    "target": [
+      "Välj"
+    ],
+    "context": "cellarDetail.selectBottles",
+    "state": 20
+  },
+  {
+    "id": 206258687,
+    "source": [
+      "Select bottles to move to another cellar"
+    ],
+    "target": [
+      "Välj flaskor att flytta till en annan vinkällare"
+    ],
+    "context": "cellarDetail.selectBottlesTitle",
+    "state": 20
+  },
+  {
+    "id": 206258688,
+    "source": [
+      "{{count}} bottle selected",
+      "{{count}} bottles selected"
+    ],
+    "target": [
+      "{{count}} flaska vald",
+      "{{count}} flaskor valda"
+    ],
+    "context": "cellarDetail.selectedCount",
+    "state": 20
+  },
+  {
+    "id": 206258689,
+    "source": [
+      "Select all ({{count}})"
+    ],
+    "target": [
+      "Markera alla ({{count}})"
+    ],
+    "context": "cellarDetail.selectAllLoaded",
+    "state": 20
+  },
+  {
+    "id": 206258690,
+    "source": [
+      "Actions for the selected bottles"
+    ],
+    "target": [
+      "Åtgärder för de valda flaskorna"
+    ],
+    "context": "cellarDetail.bulkBarAria",
+    "state": 20
+  },
+  {
+    "id": 206258691,
+    "source": [
+      "From the shared registry — pick one to copy it into this install"
+    ],
+    "target": [
+      "Från det delade registret – välj ett vin för att kopiera det till den här installationen"
+    ],
+    "context": "addBottle.registryResults",
+    "state": 20
+  },
+  {
+    "id": 206258692,
+    "source": [
+      "shared registry"
+    ],
+    "target": [
+      "delat register"
+    ],
+    "context": "addBottle.registryBadge",
+    "state": 20
+  },
+  {
+    "id": 206258693,
+    "source": [
+      "Copying…"
+    ],
+    "target": [
+      "Kopierar …"
+    ],
+    "context": "addBottle.registryAdopting",
+    "state": 20
+  },
+  {
+    "id": 206258694,
+    "source": [
+      "The shared registry could not be reached. Try again in a minute, or add the wine by hand."
+    ],
+    "target": [
+      "Det gick inte att nå det delade registret. Försök igen om en minut eller lägg till vinet manuellt."
+    ],
+    "context": "addBottle.registryAdoptFailed",
+    "state": 20
+  },
+  {
+    "id": 206258695,
+    "source": [
+      "We already have a photo of this wine, so you don't need to add one. Upload yours only if it is clearer, or shows something this one doesn't."
+    ],
+    "target": [
+      "Vi har redan ett foto av det här vinet, så du behöver inte lägga till ett. Ladda bara upp ditt om det är tydligare eller visar något som det här inte visar."
+    ],
+    "context": "addBottle.photosExisting",
+    "state": 20
+  },
+  {
+    "id": 206258696,
+    "source": [
+      "This wine has no photo yet. If you add one, it helps everyone who adds this wine after you."
+    ],
+    "target": [
+      "Det här vinet har ännu inget foto. Om du lägger till ett hjälper det alla som lägger till vinet efter dig."
+    ],
+    "context": "addBottle.photosNone",
+    "state": 20
+  },
+  {
+    "id": 206258697,
+    "source": [
+      "Peak from"
+    ],
+    "target": [
+      "Drickfönster från"
+    ],
+    "context": "addBottle.peakFrom",
+    "state": 20
+  },
+  {
+    "id": 206258698,
+    "source": [
+      "Peak until"
+    ],
+    "target": [
+      "Drickfönster till"
+    ],
+    "context": "addBottle.peakUntil",
+    "state": 20
+  },
+  {
+    "id": 206258699,
+    "source": [
+      "e.g. 2028"
+    ],
+    "target": [
+      "t.ex. 2028"
+    ],
+    "context": "addBottle.peakFromPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206258700,
+    "source": [
+      "e.g. 2031"
+    ],
+    "target": [
+      "t.ex. 2031"
+    ],
+    "context": "addBottle.peakUntilPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206258701,
+    "source": [
+      "Peak from cannot be after peak until"
+    ],
+    "target": [
+      "Starten på drickfönstret kan inte ligga efter slutet"
+    ],
+    "context": "addBottle.peakWindowOrder",
+    "state": 20
+  }
+]
