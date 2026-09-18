@@ -7124,15 +7124,15 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Minimize Savebox after Editing</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimera sparrutan efter redigering</translation>
     </message>
     <message>
         <source>Use the TLV Savebox to Limit Filling Operations</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd TLV-sparrutan för att begränsa fyllningsåtgärder</translation>
     </message>
     <message>
         <source>Paper Thickness:</source>
-        <translation type="unfinished"></translation>
+        <translation>Papperstjocklek:</translation>
     </message>
     <message>
         <source>Enable Version Control *</source>
@@ -7140,19 +7140,19 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Default Level Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardtyp för nivå:</translation>
     </message>
     <message>
         <source>Toonz Vector Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Toonz-vektornivå</translation>
     </message>
     <message>
         <source>Toonz Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Toonz-raster-nivå</translation>
     </message>
     <message>
         <source>Raster Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Raster-nivå</translation>
     </message>
     <message>
         <source>Autocreation:</source>
@@ -7160,7 +7160,7 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Transparency Check</source>
-        <translation type="unfinished"></translation>
+        <translation>Transparenskontroll</translation>
     </message>
     <message>
         <source> Paint Color: </source>
@@ -7168,55 +7168,55 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Fit to Flipbook</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa till blädderbok</translation>
     </message>
     <message>
         <source>New Level Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt nivåformat</translation>
     </message>
     <message>
         <source>Assign the new level format name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange namnet på det nya nivåformatet:</translation>
     </message>
     <message>
         <source>New Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt format</translation>
     </message>
     <message>
         <source>Level Settings by File Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivåinställningar efter filformat:</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>XSheet</translation>
     </message>
     <message>
         <source>Visualization</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualisering</translation>
     </message>
     <message>
         <source>Show Lines with Thickness 0</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa linjer med tjockleken 0</translation>
     </message>
     <message>
         <source>Next/Previous Step Frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildrutor för nästa/föregående steg:</translation>
     </message>
     <message>
         <source>Ignore Alpha Channel on Levels in Column 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorera alfakanal för nivåer i kolumn 1</translation>
     </message>
     <message>
         <source>pixel</source>
-        <translation type="unfinished"></translation>
+        <translation>pixel</translation>
     </message>
     <message>
         <source>Minimize Raster Memory Fragmentation*</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimera fragmentering av rasterminnet*</translation>
     </message>
     <message>
         <source>Replace Level after SaveLevelAs command</source>
@@ -7224,19 +7224,19 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>* Changes will take effect the next time you run OpenToonz</source>
-        <translation type="unfinished"></translation>
+        <translation>* Ändringarna börjar gälla nästa gång du kör OpenToonz</translation>
     </message>
     <message>
         <source>Move Current Frame by Clicking on Xsheet / Numerical Columns Cell Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta aktuell bildruta genom att klicka på cellområdet i XSheet/numeriska kolumner</translation>
     </message>
     <message>
         <source>Enable Actual Pixel View on Scene Editing Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera visning med faktisk pixelstorlek i scenredigeringsläge</translation>
     </message>
     <message>
         <source>Display Level Name on Each Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa nivånamn vid varje markör</translation>
     </message>
     <message>
         <source>Show Raster Images Darken Blended in Camstand View</source>
@@ -7244,71 +7244,71 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Show &quot;ABC&quot; Appendix to the Frame Number in Xsheet Cell</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa tillägget ”ABC” till bildrutenumret i XSheet-cellen</translation>
     </message>
     <message>
         <source>Automatically Remove Scene Number from Loaded Level Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta automatiskt bort scennumret från namnet på inläst nivå</translation>
     </message>
     <message>
         <source>Multi Layer Style Picker: Switch Levels by Picking</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilpipett för flera lager: växla nivå vid hämtning</translation>
     </message>
     <message>
         <source>Onion Skin ON</source>
-        <translation type="unfinished"></translation>
+        <translation>Lökhinna PÅ</translation>
     </message>
     <message>
         <source>Enable Version Control*</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera versionshantering*</translation>
     </message>
     <message>
         <source>Category</source>
-        <translation type="unfinished"></translation>
+        <translation>Kategori</translation>
     </message>
     <message>
         <source>Undo Memory Size (MB):</source>
-        <translation type="unfinished"></translation>
+        <translation>Minnesstorlek för Ångra (MB):</translation>
     </message>
     <message>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>×</translation>
     </message>
     <message>
         <source>Level Strip Icon Size*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikonstorlek för nivåremsa*:</translation>
     </message>
     <message>
         <source>Viewer Shrink:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förminskning av visare:</translation>
     </message>
     <message>
         <source>Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg:</translation>
     </message>
     <message>
         <source>Viewer BG Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Visarens bakgrundsfärg:</translation>
     </message>
     <message>
         <source>Preview BG Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisningens bakgrundsfärg:</translation>
     </message>
     <message>
         <source>Chessboard Color 1:</source>
-        <translation type="unfinished"></translation>
+        <translation>Schackbrädesfärg 1:</translation>
     </message>
     <message>
         <source>Chessboard Color 2:</source>
-        <translation type="unfinished"></translation>
+        <translation>Schackbrädesfärg 2:</translation>
     </message>
     <message>
         <source>Viewer Zoom Center:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoomcentrum för visare:</translation>
     </message>
     <message>
         <source>Language*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Språk*:</translation>
     </message>
     <message>
         <source>Default TLV Caching Behavior</source>
@@ -7320,47 +7320,47 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Height:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höjd:</translation>
     </message>
     <message>
         <source>Default Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Standardinterpolering:</translation>
     </message>
     <message>
         <source>Following Frames Correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Korrigering av följande bildrutor:</translation>
     </message>
     <message>
         <source>Previous Frames Correction:</source>
-        <translation type="unfinished"></translation>
+        <translation>Korrigering av föregående bildrutor:</translation>
     </message>
     <message>
         <source>Ink Color on White BG:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläckfärg på vit bakgrund:</translation>
     </message>
     <message>
         <source>Ink Color on Black BG:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläckfärg på svart bakgrund:</translation>
     </message>
     <message>
         <source>Paint Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Målningsfärg:</translation>
     </message>
     <message>
         <source>On Demand</source>
-        <translation type="unfinished"></translation>
+        <translation>Vid behov</translation>
     </message>
     <message>
         <source>All Icons</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla ikoner</translation>
     </message>
     <message>
         <source>All Icons &amp; Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla ikoner och bilder</translation>
     </message>
     <message>
         <source>At Once</source>
-        <translation type="unfinished"></translation>
+        <translation>På en gång</translation>
     </message>
     <message>
         <source>Pick Every Colors as Different Styles</source>
@@ -7376,11 +7376,11 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Mouse Cursor</source>
-        <translation type="unfinished"></translation>
+        <translation>Muspekare</translation>
     </message>
     <message>
         <source>Viewer Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Visarens centrum</translation>
     </message>
     <message>
         <source>Disabled</source>
@@ -7392,15 +7392,15 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Use Xsheet as Animation Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd XSheet som animeringsblad</translation>
     </message>
     <message>
         <source>Replace Toonz Level after SaveLevelAs command</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt Toonz-nivå efter kommandot Spara nivå som</translation>
     </message>
     <message>
         <source>Show Keyframes on Cell Area</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa nyckelbilder i cellområdet</translation>
     </message>
     <message>
         <source>Rooms *:</source>
@@ -7408,11 +7408,11 @@ Ange även sökvägen till utdatamappen som undermappen.</translation>
     </message>
     <message>
         <source>Save Automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara automatiskt</translation>
     </message>
     <message>
         <source>Automatically Save the Scene File</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara scenfilen automatiskt</translation>
     </message>
     <message>
         <source>Automatically Save Non-Scene Files</source>
