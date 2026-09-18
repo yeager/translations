@@ -1889,12 +1889,12 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/backend/project_manager.cpp" line="149"/>
         <source>&lt;no track&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;inget spår&gt;</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_saver.cpp" line="150"/>
         <source>Failed to create backup directory {}</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att skapa säkerhetskopieringskatalogen {}</translation>
     </message>
     <message>
         <location filename="../src/structure/project/project.cpp" line="328"/>
@@ -1904,17 +1904,17 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/controllers/project_saver.cpp" line="174"/>
         <source>Unable to read file at {}: {}</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa filen vid {}: {}</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_saver.cpp" line="189"/>
         <source>Unable to decompress project file at {}</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att packa upp projektfilen vid {}</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_saver.cpp" line="292"/>
         <source>Failed to save the project</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att spara projektet</translation>
     </message>
     <message>
         <source>Failed to compress project file</source>
@@ -2139,7 +2139,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/structure/tracks/track.cpp" line="621"/>
         <source>{} Track</source>
-        <translation type="unfinished"></translation>
+        <translation>{}-spår</translation>
     </message>
     <message>
         <source>Copy Track inside</source>
@@ -2157,7 +2157,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/commands/delete_tracks_command.cpp" line="18"/>
         <source>Delete Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort spår</translation>
     </message>
     <message>
         <source>Solo Track</source>
@@ -2276,17 +2276,17 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="120"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pop</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="123"/>
         <source>4-Chord Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pop med fyra ackord</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="134"/>
         <source>Canon Progression</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanonackordföljd</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="147"/>
@@ -2301,132 +2301,132 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="169"/>
         <source>Common Pop Chords</source>
-        <translation type="unfinished"></translation>
+        <translation>Vanliga popackord</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="183"/>
         <source>J-Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>J-pop</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="187"/>
         <source>J-Pop Uplifting</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplyftande J-pop</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="200"/>
         <source>J-Pop Modulating</source>
-        <translation type="unfinished"></translation>
+        <translation>Modulerande J-pop</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="218"/>
         <source>Royal Road (IV-V-iii-vi)</source>
-        <translation type="unfinished"></translation>
+        <translation>Kungsvägen (IV-V-iii-vi)</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="226"/>
         <source>K-Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>K-pop</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="230"/>
         <source>K-Pop Bright</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljus K-pop</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="240"/>
         <source>Anime Ballad</source>
-        <translation type="unfinished"></translation>
+        <translation>Animeballad</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="244"/>
         <source>Ballad — Bright Modulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Ballad – ljus modulation</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="262"/>
         <source>Ballad — Chromatic</source>
-        <translation type="unfinished"></translation>
+        <translation>Ballad – kromatisk</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="280"/>
         <source>Ballad — Nostalgic</source>
-        <translation type="unfinished"></translation>
+        <translation>Ballad – nostalgisk</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="295"/>
         <source>Eurodance Anthem</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurodancehymn</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="305"/>
         <source>Eurodance Minor</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurodance i moll</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="321"/>
         <source>Eurobeat — Chromatic Minor</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurobeat – kromatisk moll</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="334"/>
         <source>Eurobeat — Long Modulation</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurobeat – lång modulation</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="351"/>
         <source>Eurobeat — Modal Minor</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurobeat – modal moll</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="366"/>
         <source>Eurobeat — Minor Anthem</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurobeat – mollhymn</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="384"/>
         <source>Eurobeat — Uplifting Major</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurobeat – upplyftande dur</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="400"/>
         <source>Eurobeat — Minor Groove</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurobeat – mollgroove</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="415"/>
         <source>Trance</source>
-        <translation type="unfinished"></translation>
+        <translation>Trance</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="419"/>
         <source>Uplifting Trance</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplyftande trance</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="449"/>
         <source>Rock Ballad</source>
-        <translation type="unfinished"></translation>
+        <translation>Rockballad</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="461"/>
         <source>J-Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>J-rock</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="465"/>
         <source>J-Rock — Modal Mix</source>
-        <translation type="unfinished"></translation>
+        <translation>J-rock – modal mix</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="479"/>
         <source>J-Rock — Cinematic</source>
-        <translation type="unfinished"></translation>
+        <translation>J-rock – filmisk</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="497"/>
         <source>J-Rock — Diatonic Run</source>
-        <translation type="unfinished"></translation>
+        <translation>J-rock – diatonisk följd</translation>
     </message>
     <message>
         <source>Dance</source>
@@ -2435,22 +2435,22 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="291"/>
         <source>Eurodance</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurodance</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="317"/>
         <source>Eurobeat</source>
-        <translation type="unfinished"></translation>
+        <translation>Eurobeat</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="430"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rock</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/chord_preset_manager.cpp" line="434"/>
         <source>Overdrive</source>
-        <translation type="unfinished"></translation>
+        <translation>Överstyrning</translation>
     </message>
     <message>
         <location filename="../src/structure/arrangement/audio_function.cpp" line="118"/>
@@ -2481,7 +2481,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/structure/arrangement/audio_function.cpp" line="311"/>
         <source>Invalid positions - skipping function</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltiga positioner – hoppar över funktionen</translation>
     </message>
     <message>
         <location filename="../src/structure/arrangement/audio_function.cpp" line="546"/>
@@ -2667,7 +2667,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="48"/>
         <source>Fader Gain</source>
-        <translation type="unfinished"></translation>
+        <translation>Regelförstärkning</translation>
     </message>
     <message>
         <location filename="../src/dsp/fader.cpp" line="131"/>
@@ -2677,12 +2677,12 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="143"/>
         <source>Fader input</source>
-        <translation type="unfinished"></translation>
+        <translation>Regelingång</translation>
     </message>
     <message>
         <location filename="../src/dsp/fader.cpp" line="157"/>
         <source>Fader output</source>
-        <translation type="unfinished"></translation>
+        <translation>Regelutgång</translation>
     </message>
     <message>
         <source>Prefader Volume</source>
@@ -2735,7 +2735,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="117"/>
         <source>Fader Mono Compat</source>
-        <translation type="unfinished"></translation>
+        <translation>Regel: monokompatibilitet</translation>
     </message>
     <message>
         <source>Ch Pre-Fader in</source>
@@ -2776,7 +2776,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="177"/>
         <source>Ch MIDI Fader in</source>
-        <translation type="unfinished">Kanal för MIDI fader in</translation>
+        <translation>MIDI-kanal för ingångsregel</translation>
     </message>
     <message>
         <source>Ch MIDI Pre-Fader out</source>
@@ -2785,7 +2785,7 @@ Vill du använda den istället?</translation>
     <message>
         <location filename="../src/dsp/fader.cpp" line="191"/>
         <source>Ch MIDI Fader out</source>
-        <translation type="unfinished">Kanal för MIDI fader ut</translation>
+        <translation>MIDI-kanal för utgångsregel</translation>
     </message>
     <message>
         <source>Failed to change volume</source>
@@ -2818,17 +2818,17 @@ Vill du använda den istället?</translation>
         <location filename="../src/dsp/modulator_macro_processor.cpp" line="27"/>
         <location filename="../src/dsp/modulator_macro_processor.cpp" line="30"/>
         <source>Macro {}</source>
-        <translation type="unfinished"></translation>
+        <translation>Makro {}</translation>
     </message>
     <message>
         <location filename="../src/dsp/modulator_macro_processor.cpp" line="47"/>
         <source>Macro {} CV In</source>
-        <translation type="unfinished"></translation>
+        <translation>Makro {} CV in</translation>
     </message>
     <message>
         <location filename="../src/dsp/modulator_macro_processor.cpp" line="61"/>
         <source>Macro {} CV Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Makro {} CV ut</translation>
     </message>
     <message>
         <location filename="../src/structure/project/project.cpp" line="323"/>
@@ -2987,12 +2987,16 @@ Sample rate: {}
 Length: {}s {} ms | BPM: {:.1f}
 Channel(s): {} | Bitrate: {:L}.{} kb/s
 Bit depth: {} bits</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;{}&lt;/b&gt;
+Samplingsfrekvens: {}
+Längd: {} s {} ms | BPM: {:.1f}
+Kanal(er): {} | Bithastighet: {:L}.{} kbit/s
+Bitdjup: {} bitar</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/io/file_descriptor.cpp" line="209"/>
         <source>Failed reading metadata for {}</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa metadata för {}</translation>
     </message>
     <message>
         <source>Unsupported file type %s</source>
@@ -3005,7 +3009,7 @@ Bit depth: {} bits</source>
     <message>
         <location filename="../src/gui/backend/io/midi_file.cpp" line="129"/>
         <source>Untitled Track {}</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnlöst spår {}</translation>
     </message>
     <message>
         <source>Default bank</source>
@@ -3091,7 +3095,7 @@ Bit depth: {} bits</source>
     <message>
         <location filename="../src/plugins/plugin_descriptor.cpp" line="490"/>
         <source>Remove from collection</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort från samling</translation>
     </message>
     <message>
         <location filename="../src/utils/exceptions.cpp" line="40"/>
@@ -3107,44 +3111,44 @@ Bit depth: {} bits</source>
     <message>
         <location filename="../src/structure/tracks/channel_send.cpp" line="33"/>
         <source>Amount</source>
-        <translation type="unfinished"></translation>
+        <translation>Mängd</translation>
     </message>
     <message>
         <location filename="../src/structure/tracks/channel_send.cpp" line="72"/>
         <source>MIDI input</source>
-        <translation type="unfinished"></translation>
+        <translation>MIDI-ingång</translation>
     </message>
     <message>
         <location filename="../src/structure/tracks/channel_send.cpp" line="82"/>
         <source>MIDI output</source>
-        <translation type="unfinished"></translation>
+        <translation>MIDI-utgång</translation>
     </message>
     <message>
         <location filename="../src/actions/track_creator.cpp" line="30"/>
         <source>Add Track</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till spår</translation>
     </message>
     <message>
         <location filename="../tests/unit/commands/change_parameter_value_command_test.cpp" line="233"/>
         <source>Change &apos;%1&apos; value to %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra värdet för ”%1” till %2</translation>
     </message>
     <message>
         <location filename="../src/commands/move_arranger_objects_command.cpp" line="15"/>
         <source>Move Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta objekt</translation>
     </message>
     <message>
         <location filename="../src/commands/move_plugins_command.cpp" line="15"/>
         <source>Move Plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta insticksprogram</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/commands/move_plugins_command.cpp" line="16"/>
         <source>Move %n Plugin(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Move %n Plugin</numerusform>
+            <numerusform>Move %n Plugins</numerusform>
         </translation>
     </message>
     <message>
@@ -3161,150 +3165,161 @@ Write comments and bugs to {}
 Support this project at {}
 
 </source>
-        <translation type="unfinished"></translation>
+        <translation>{}–{}
+{}
+
+{} LEVERERAS HELT UTAN GARANTI!
+
+Detta är fri programvara som du får sprida vidare
+under vissa villkor. Se filen ”COPYING” för information.
+
+Skicka kommentarer och felrapporter till {}
+Stöd projektet på {}
+
+</translation>
     </message>
     <message>
         <location filename="../src/utils/audio_file_writer.cpp" line="58"/>
         <source>Unsupported audio format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljudformatet stöds inte: %1</translation>
     </message>
     <message>
         <location filename="../src/utils/audio_file_writer.cpp" line="66"/>
         <source>Failed to create parent directories for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att skapa överliggande kataloger för %1</translation>
     </message>
     <message>
         <location filename="../src/utils/audio_file_writer.cpp" line="77"/>
         <source>Failed to open output file: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att öppna utdatafilen: %1</translation>
     </message>
     <message>
         <location filename="../src/utils/audio_file_writer.cpp" line="87"/>
         <source>Failed to create audio writer for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att skapa ljudskrivare för %1</translation>
     </message>
     <message>
         <location filename="../src/utils/audio_file_writer.cpp" line="117"/>
         <source>Failed to write audio data to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att skriva ljuddata till %1</translation>
     </message>
     <message>
         <location filename="../src/utils/audio_file_writer.cpp" line="125"/>
         <source>Writing audio file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriver ljudfil…</translation>
     </message>
     <message>
         <location filename="../src/dsp/graph_renderer.cpp" line="170"/>
         <source>Rendering to audio...</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderar till ljud…</translation>
     </message>
     <message>
         <location filename="../src/commands/move_tracks_command.cpp" line="35"/>
         <source>Move Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta spår</translation>
     </message>
     <message>
         <location filename="../src/commands/remove_plugins_command.cpp" line="13"/>
         <source>Remove Plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort insticksprogram</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/commands/remove_plugins_command.cpp" line="14"/>
         <source>Remove %n Plugin(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Remove %n Plugin</numerusform>
+            <numerusform>Remove %n Plugins</numerusform>
         </translation>
     </message>
     <message>
         <location filename="../src/commands/resize_arranger_objects_command.cpp" line="17"/>
         <source>Resize Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra storlek på objekt</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_loader.cpp" line="70"/>
         <source>Verifying directory...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollerar katalog…</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_loader.cpp" line="82"/>
         <source>Reading project file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser projektfil…</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_loader.cpp" line="90"/>
         <source>Parsing project data...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tolkar projektdata…</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_loader.cpp" line="98"/>
         <source>Extracting metadata...</source>
-        <translation type="unfinished"></translation>
+        <translation>Extraherar metadata…</translation>
     </message>
     <message>
         <location filename="../src/controllers/project_loader.cpp" line="105"/>
         <source>Load complete</source>
-        <translation type="unfinished"></translation>
+        <translation>Inläsning klar</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="305"/>
         <source>Ramp Velocities</source>
-        <translation type="unfinished"></translation>
+        <translation>Ramp för anslagshastigheter</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="351"/>
         <source>Delete %1 Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort %1 objekt</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="588"/>
         <source>Cut %1 Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Klipp ut %1 objekt</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="701"/>
         <source>Copy %1 Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera %1 objekt</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="769"/>
         <source>Mute %1 Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Tysta %1 objekt</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="770"/>
         <source>Unmute %1 Objects</source>
-        <translation type="unfinished"></translation>
+        <translation>Slå på ljudet för %1 objekt</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="808"/>
         <source>Change Timestretch Algorithm on %1 Clip(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra tidsutsträckningsalgoritm för %1 klipp</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="831"/>
         <source>Set Timebase Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange åsidosättning av tidsbas</translation>
     </message>
     <message>
         <location filename="../src/actions/arranger_object_selection_operator.cpp" line="861"/>
         <source>Clear Timebase Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa åsidosättning av tidsbas</translation>
     </message>
     <message>
         <location filename="../src/actions/plugin_importer.cpp" line="102"/>
         <source>Import %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera %1</translation>
     </message>
     <message>
         <location filename="../tests/unit/commands/change_qobject_property_command_test.cpp" line="152"/>
         <source>Change %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra %1</translation>
     </message>
     <message>
         <location filename="../src/commands/set_clip_loop_points_command.cpp" line="44"/>
         <source>Change Clip Loop Points</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra klippets slingpunkter</translation>
     </message>
     <message>
         <location filename="../src/controllers/recording_materializer.cpp" line="180"/>
@@ -3314,27 +3329,27 @@ Support this project at {}
     <message>
         <location filename="../src/actions/arranger_object_creator.cpp" line="333"/>
         <source>Edit chord</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera ackord</translation>
     </message>
     <message>
         <location filename="../src/actions/chord_pad_bank_operator.cpp" line="90"/>
         <source>Transpose Chord Pads</source>
-        <translation type="unfinished"></translation>
+        <translation>Transponera ackordplattor</translation>
     </message>
     <message>
         <location filename="../src/actions/chord_pad_bank_operator.cpp" line="112"/>
         <source>Apply Scale Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa förinställning för skala</translation>
     </message>
     <message>
         <location filename="../src/actions/chord_pad_bank_operator.cpp" line="131"/>
         <source>Apply Chord Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa förinställning för ackord</translation>
     </message>
     <message>
         <location filename="../src/gui/backend/project_session.cpp" line="259"/>
         <source>Recording %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Spelar in %1</translation>
     </message>
 </context>
 <context>
