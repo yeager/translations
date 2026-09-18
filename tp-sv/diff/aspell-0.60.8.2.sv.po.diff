@@ -1,0 +1,124 @@
+--- a/aspell-0.60.8.2.sv.po
++++ b/aspell-0.60.8.2.sv.po
+@@ -107,7 +107,7 @@
+ 
+ #: common/config.cpp:1391
+ msgid "encoding to expect data to be in"
+-msgstr "kodning att förvänta att datan är i"
++msgstr "förväntad teckenkodning för data"
+ 
+ #: common/config.cpp:1393
+ msgid "add or removes a filter"
+@@ -157,7 +157,7 @@
+ 
+ #: common/config.cpp:1418
+ msgid "keyboard definition to use for typo analysis"
+-msgstr "tangentbordsdefinition att använda för felstavningsanalys"
++msgstr "tangentbordslayout för felstavningsanalys"
+ 
+ #: common/config.cpp:1420
+ msgid "language code"
+@@ -273,7 +273,7 @@
+ 
+ #: common/config.cpp:1485
+ msgid "search path for word list information files"
+-msgstr "leta i sökväg efter ordlisteinformationsfiler"
++msgstr "sökväg för ordlisteinformationsfiler"
+ 
+ #: common/config.cpp:1487
+ msgid "enable warnings"
+@@ -413,7 +413,7 @@
+ 
+ #: common/errors.cpp:139
+ msgid "The key \"%key:1\" is not %accepted:2 and is thus invalid."
+-msgstr "Nyckeln ”%key:1” är inte %accepted:2 och därför ogiltigt."
++msgstr "Nyckeln ”%key:1” är inte %accepted:2 och därför ogiltig."
+ 
+ #: common/errors.cpp:147
+ msgid "The value \"%value:2\" is not %accepted:3 and is thus invalid for the key \"%key:1\"."
+@@ -429,7 +429,7 @@
+ 
+ #: common/errors.cpp:179
+ msgid "The key \"%key:1\" is not a boolean."
+-msgstr "Nyckeln ”%key:1” är inte en boolesk."
++msgstr "Nyckeln ”%key:1” är inte av boolesk typ."
+ 
+ #: common/errors.cpp:187
+ msgid "The key \"%key:1\" is not a list."
+@@ -484,7 +484,7 @@
+ #: common/errors.cpp:291
+ #, c-format
+ msgid "The condition \"%cond:1\" is invalid."
+-msgstr "Tillståndet ”%cond:1” är ogiltigt."
++msgstr "Villkoret ”%cond:1” är ogiltigt."
+ 
+ #: common/errors.cpp:299
+ #, c-format
+@@ -774,7 +774,7 @@
+ 
+ #: prog/aspell.cpp:1047
+ msgid "Add Lower"
+-msgstr "Lägg till lägre"
++msgstr "Lägg till med gemener"
+ 
+ #: prog/aspell.cpp:1048
+ msgid "Abort"
+@@ -900,7 +900,7 @@
+ 
+ #: prog/aspell.cpp:2861
+ msgid "  munch-list [simple] [single|multi] [keep]"
+-msgstr "  munch-list [Simple] [single|multi] [keep]"
++msgstr "  munch-list [simple] [single|multi] [keep]"
+ 
+ #: prog/aspell.cpp:2862
+ msgid "    reduce the size of a word list via affix compression"
+@@ -928,7 +928,7 @@
+ 
+ #: prog/aspell.cpp:2870
+ msgid "    dumps, creates or merges a master, personal, or replacement dictionary."
+-msgstr "    dumpar, skapar eller fogar samman en toppnivå-, privat, eller ersättningsordbok."
++msgstr "    dumpar, skapar eller sammanfogar en huvudordbok, personlig ordbok eller ersättningsordbok."
+ 
+ #. TRANSLATORS: "none", "internal" and "strict" are literal values
+ #. and should not be translated.
+@@ -1083,7 +1083,7 @@
+ 
+ #: prog/check_funs.cpp:817
+ msgid "Kill all characters to the EOL"
+-msgstr "Döda alla tecken fram till EOL"
++msgstr "Ta bort alla tecken fram till radslutet"
+ 
+ #. TRANSLATORS: This is a literal Key.
+ #: prog/check_funs.cpp:821
+@@ -1236,11 +1236,11 @@
+ 
+ #: modules/filter/email-filter.info:13
+ msgid "email quote characters"
+-msgstr "citationstecken i e-post"
++msgstr "citatmarkörer i e-post"
+ 
+ #: modules/filter/email-filter.info:21
+ msgid "num chars that can appear before the quote char"
+-msgstr "num. tecken som kan visas före citationstecknet"
++msgstr "antal tecken som får föregå citatmarkören"
+ 
+ #: modules/filter/html-filter.info:9
+ msgid "filter for dealing with HTML documents"
+@@ -1284,7 +1284,7 @@
+ 
+ #: modules/filter/sgml-filter.info:15
+ msgid "SGML attributes to always check"
+-msgstr "SGML-attribut som alltid ska läsas"
++msgstr "SGML-attribut att alltid kontrollera"
+ 
+ #: modules/filter/sgml-filter.info:20
+ msgid "SGML tags to always skip the contents of"
+@@ -1348,7 +1348,7 @@
+ 
+ #: modules/filter/modes/perl.amf:8
+ msgid "mode for checking Perl comments and string literals"
+-msgstr "läge för att kontrollera Perl-kommentarer och strängstavningar"
++msgstr "kontroll av Perl-kommentarer och strängliteraler"
+ 
+ #: modules/filter/modes/sgml.amf:8
+ msgid "mode for checking generic SGML/XML documents"

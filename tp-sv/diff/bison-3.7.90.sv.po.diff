@@ -1,0 +1,384 @@
+--- a/bison-3.7.90.sv.po
++++ b/bison-3.7.90.sv.po
+@@ -173,7 +173,7 @@
+ #: src/complain.c:603
+ #, c-format
+ msgid "deprecated directive: %s, use %s"
+-msgstr "ogiltigt direktiv: %s, använd %s"
++msgstr "föråldrat direktiv: %s, använd %s"
+ 
+ #: src/complain.c:616
+ #, c-format
+@@ -222,17 +222,17 @@
+ #: src/conflicts.c:88
+ #, c-format
+ msgid "Conflict between rule %d and token %s resolved as shift"
+-msgstr "Konflikt mellan regel %d och element %s löstes som skift"
++msgstr "Konflikt mellan regel %d och terminalsymbol %s löstes genom skiftning"
+ 
+ #: src/conflicts.c:98
+ #, c-format
+ msgid "Conflict between rule %d and token %s resolved as reduce"
+-msgstr "Konflikt mellan regel %d och element %s löstes som reducera"
++msgstr "Konflikt mellan regel %d och terminalsymbol %s löstes genom reduktion"
+ 
+ #: src/conflicts.c:107
+ #, c-format
+ msgid "Conflict between rule %d and token %s resolved as an error"
+-msgstr "Konflikt mellan regel %d och element %s löstes som ett fel"
++msgstr "Konflikt mellan regel %d och terminalsymbol %s löstes som ett fel"
+ 
+ #: src/conflicts.c:610
+ #, c-format
+@@ -257,12 +257,12 @@
+ #: src/conflicts.c:661
+ #, c-format
+ msgid "shift/reduce conflicts for rule %d: %d found, %d expected"
+-msgstr "skifta/reducerakonflikter för regel %d: %d funna, %d förväntade"
++msgstr "skifta/reducera-konflikter för regel %d: %d funna, %d förväntade"
+ 
+ #: src/conflicts.c:667
+ #, c-format
+ msgid "reduce/reduce conflicts for rule %d: %d found, %d expected"
+-msgstr "reducera/reducerakonflikter för regel %d: %d funna, %d förväntade"
++msgstr "reducera/reducera-konflikter för regel %d: %d funna, %d förväntade"
+ 
+ #: src/conflicts.c:685
+ #, c-format
+@@ -272,26 +272,26 @@
+ #: src/conflicts.c:705
+ #, c-format
+ msgid "shift/reduce conflicts: %d found, %d expected"
+-msgstr "skifta/reducerakonflikter: %d funna, %d förväntade"
++msgstr "skifta/reducera-konflikter: %d funna, %d förväntade"
+ 
+ #: src/conflicts.c:714
+ #, c-format
+ msgid "%d shift/reduce conflict"
+ msgid_plural "%d shift/reduce conflicts"
+-msgstr[0] "%d skifta/reducerakonflikt"
+-msgstr[1] "%d skifta/reducerakonflikter"
++msgstr[0] "%d skifta/reducera-konflikt"
++msgstr[1] "%d skifta/reducera-konflikter"
+ 
+ #: src/conflicts.c:734
+ #, c-format
+ msgid "reduce/reduce conflicts: %d found, %d expected"
+-msgstr "reducera/reducerakonflikter: %d funna, %d förväntade"
++msgstr "reducera/reducera-konflikter: %d funna, %d förväntade"
+ 
+ #: src/conflicts.c:743
+ #, c-format
+ msgid "%d reduce/reduce conflict"
+ msgid_plural "%d reduce/reduce conflicts"
+-msgstr[0] "%d reducera/reducerakonflikt"
+-msgstr[1] "%d reducera/reducerakonflikter"
++msgstr[0] "%d reducera/reducera-konflikt"
++msgstr[1] "%d reducera/reducera-konflikter"
+ 
+ #: src/conflicts.c:755
+ msgid "rerun with option '-Wcounterexamples' to generate conflict counterexamples"
+@@ -303,11 +303,11 @@
+ 
+ #: src/counterexample.c:122
+ msgid "First example"
+-msgstr "Första exempel"
++msgstr "Första exemplet"
+ 
+ #: src/counterexample.c:124
+ msgid "Second example"
+-msgstr "Andra exempel"
++msgstr "Andra exemplet"
+ 
+ #: src/counterexample.c:126
+ msgid "Shift derivation"
+@@ -315,7 +315,7 @@
+ 
+ #: src/counterexample.c:126
+ msgid "First reduce derivation"
+-msgstr "Första reduktionshärledning"
++msgstr "Första reduktionshärledningen"
+ 
+ #: src/counterexample.c:128
+ msgid "Reduce derivation"
+@@ -323,12 +323,12 @@
+ 
+ #: src/counterexample.c:128
+ msgid "Second reduce derivation"
+-msgstr "Andra reduktionshärledning"
++msgstr "Andra reduktionshärledningen"
+ 
+ #: src/counterexample.c:1293 src/counterexample.c:1297
+ #, c-format
+ msgid "shift/reduce conflict on token %s"
+-msgstr "skifta/reducera konflikt vid element %s"
++msgstr "skifta/reducera-konflikt vid terminalsymbol %s"
+ 
+ #: src/counterexample.c:1298 src/counterexample.c:1340
+ msgid ":"
+@@ -338,8 +338,8 @@
+ #, c-format
+ msgid "reduce/reduce conflict on token %s"
+ msgid_plural "reduce/reduce conflict on tokens %s"
+-msgstr[0] "Reducera/reducerakonflikt vid element %s"
+-msgstr[1] "Reducera/reducerakonflikt vid element %s"
++msgstr[0] "reducera/reducera-konflikt vid terminalsymbol %s"
++msgstr[1] "reducera/reducera-konflikt vid terminalsymbolerna %s"
+ 
+ #: src/files.c:144
+ #, c-format
+@@ -399,11 +399,11 @@
+ 
+ #: src/getargs.c:212
+ msgid "explicitly associate lookahead tokens to items"
+-msgstr "koppla uttryckligen framåtblickande element till objekt"
++msgstr "koppla uttryckligen framåtblickande terminalsymboler till objekt"
+ 
+ #: src/getargs.c:213
+ msgid "describe shift/reduce conflicts solving"
+-msgstr "beskriv lösning av skifta/reducerakonflikter"
++msgstr "beskriv lösning av skifta/reducera-konflikter"
+ 
+ #: src/getargs.c:215
+ msgid "include all the above information"
+@@ -464,10 +464,7 @@
+ "Generate a deterministic LR or generalized LR (GLR) parser employing\n"
+ "LALR(1), IELR(1), or canonical LR(1) parser tables.\n"
+ "\n"
+-msgstr ""
+-"Generera en deterministisk LR- eller generaliserad LR- (GLR-)parser som\n"
+-"använder LALR(1), IELR(1) eller kanonisk LR(1) parsningstabeller.\n"
+-"\n"
++msgstr "Generera en deterministisk LR- eller generaliserad LR-parser (GLR) som\nanvänder parsningstabeller av typen LALR(1), IELR(1) eller kanonisk LR(1).\n\n"
+ 
+ #: src/getargs.c:371
+ msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+@@ -531,21 +528,7 @@
+ "  -l, --no-lines                   don't generate '#line' directives\n"
+ "  -k, --token-table                include a table of token names\n"
+ "  -y, --yacc                       emulate POSIX Yacc\n"
+-msgstr ""
+-"Trimma parsern:\n"
+-"  -L, --language=SPRÅK             ange programspråk för utmatning\n"
+-"  -S, --skeleton=FIL               ange skelettfilen som skall användas\n"
+-"  -t, --debug                      instrumentera parsern för spårning\n"
+-"                                   samma som ”-Dparse.trace”\n"
+-"      --locations                  aktivera stöd för lägen\n"
+-"  -D, --define=NAMN[=VÄRDE]        motsvarar ”%define NAMN VÄRDE”\n"
+-"  -F, --force-define=NAMN[=VÄRDE]  åsidosätt ”%define NAMN VÄRDE”\n"
+-"  -p, --name-prefix=PREFIX         lägg till PREFIX före externa symboler\n"
+-"                                   undanbedes till förmån för\n"
+-"                                   ”-Dapi.prefix={PREFIX}”\n"
+-"  -l, --no-lines                   generera inte ”#line”-direktiv\n"
+-"  -k, --token-table                inkludera en tabell över elementnamn\n"
+-"  -y, --yacc                       emulera POSIX yacc\n"
++msgstr "Trimma parsern:\n  -L, --language=SPRÅK             ange programspråk för utmatning\n  -S, --skeleton=FIL               ange skelettfilen som skall användas\n  -t, --debug                      instrumentera parsern för spårning\n                                   samma som ”-Dparse.trace”\n      --locations                  aktivera stöd för källkodspositioner\n  -D, --define=NAMN[=VÄRDE]        motsvarar ”%define NAMN VÄRDE”\n  -F, --force-define=NAMN[=VÄRDE]  åsidosätt ”%define NAMN VÄRDE”\n  -p, --name-prefix=PREFIX         lägg till PREFIX före externa symboler\n                                   undanbedes till förmån för\n                                   ”-Dapi.prefix={PREFIX}”\n  -l, --no-lines                   generera inte ”#line”-direktiv\n  -k, --token-table                inkludera en tabell över terminalsymbolernas namn\n  -y, --yacc                       emulera POSIX Yacc\n"
+ 
+ #: src/getargs.c:426
+ msgid ""
+@@ -625,7 +608,7 @@
+ #: src/getargs.c:512
+ #, c-format
+ msgid "multiple skeleton declarations are invalid"
+-msgstr "flera skelettdeklarationer är inte tillåtet"
++msgstr "flera skelettdeklarationer är inte tillåtna"
+ 
+ #: src/getargs.c:529
+ #, c-format
+@@ -634,7 +617,7 @@
+ 
+ #: src/getargs.c:532
+ msgid "multiple language declarations are invalid"
+-msgstr "flera språkdeklarationer är inte tillåtet"
++msgstr "flera språkdeklarationer är inte tillåtna"
+ 
+ #: src/getargs.c:749
+ #, c-format
+@@ -679,7 +662,7 @@
+ 
+ #: src/i18n-strings.c:36
+ msgid "invalid token"
+-msgstr "felaktigt element"
++msgstr "ogiltig terminalsymbol"
+ 
+ #: src/location.c:138 src/scan-gram.l:957
+ #, c-format
+@@ -895,12 +878,12 @@
+ #: src/reader.c:262
+ #, c-format
+ msgid "rule given for %s, which is a token"
+-msgstr "regel given för %s, som är ett element"
++msgstr "regel angiven för %s, som är en terminalsymbol"
+ 
+ #: src/reader.c:321
+ #, c-format
+ msgid "type clash on default action: <%s> != <%s>"
+-msgstr "typkonflikt för standardåtgärd: <%s> <%s>"
++msgstr "typkonflikt för standardåtgärd: <%s> != <%s>"
+ 
+ #: src/reader.c:345
+ #, c-format
+@@ -930,12 +913,12 @@
+ #: src/reader.c:427
+ #, c-format
+ msgid "token for %%prec is not defined: %s"
+-msgstr "elementet för %%prec är inte definierat: %s"
++msgstr "terminalsymbolen för %%prec är inte definierad: %s"
+ 
+ #: src/reader.c:432
+ #, c-format
+ msgid "only midrule actions can be typed: %s"
+-msgstr "endast mitt-i-regeln-åtgärder kan skrivas: %s"
++msgstr "endast åtgärder mitt i en regel kan typas: %s"
+ 
+ #: src/reader.c:559 src/reader.c:581 src/reader.c:652
+ #, c-format
+@@ -965,7 +948,7 @@
+ #: src/reader.c:933
+ #, c-format
+ msgid "the start symbol %s is a token"
+-msgstr "startsymbolen %s är ett element"
++msgstr "startsymbolen %s är en terminalsymbol"
+ 
+ #: src/reader.c:951
+ #, c-format
+@@ -1055,7 +1038,7 @@
+ #: src/scan-code.l:512
+ #, c-format
+ msgid "syntax error after '%c', expecting integer, letter, '_', '[', or '$'"
+-msgstr "syntaxfel efter ”%c”, siffra, bokstav, ”_”, ”[” eller ”$” förväntades"
++msgstr "syntaxfel efter ”%c”, heltal, bokstav, ”_”, ”[” eller ”$” förväntades"
+ 
+ #: src/scan-code.l:518
+ #, c-format
+@@ -1075,7 +1058,7 @@
+ #: src/scan-code.l:552
+ #, c-format
+ msgid "ambiguous reference: %s"
+-msgstr "tvetydigt argument: %s"
++msgstr "tvetydig referens: %s"
+ 
+ #: src/scan-code.l:588
+ #, c-format
+@@ -1085,7 +1068,7 @@
+ #: src/scan-code.l:643
+ #, c-format
+ msgid "$$ for the midrule at $%d of %s has no declared type"
+-msgstr "$$ för mitt-i-regeln vid $%d av %s har ingen deklarerad typ"
++msgstr "$$ för åtgärden mitt i regeln vid $%d i %s har ingen deklarerad typ"
+ 
+ #: src/scan-code.l:649
+ #, c-format
+@@ -1110,7 +1093,7 @@
+ #: src/scan-gram.l:214
+ #, c-format
+ msgid "stray ',' treated as white space"
+-msgstr "vilsekommet ”,” hanterat som blank"
++msgstr "vilsekommet ”,” hanterat som blanktecken"
+ 
+ #: src/scan-gram.l:309
+ #, c-format
+@@ -1136,7 +1119,7 @@
+ #: src/scan-gram.l:463
+ #, c-format
+ msgid "unexpected identifier in bracketed name: %s"
+-msgstr "oväntad identifierare i namn inom klamrar: %s"
++msgstr "oväntad identifierare i namn inom hakparenteser: %s"
+ 
+ #: src/scan-gram.l:487
+ #, c-format
+@@ -1146,8 +1129,8 @@
+ #: src/scan-gram.l:494
+ msgid "invalid character in bracketed name"
+ msgid_plural "invalid characters in bracketed name"
+-msgstr[0] "ogiltigt tecken i namn i klamrar"
+-msgstr[1] "ogiltiga tecken i namn i klamrar"
++msgstr[0] "ogiltigt tecken i namn inom hakparenteser"
++msgstr[1] "ogiltiga tecken i namn inom hakparenteser"
+ 
+ #: src/scan-gram.l:567 src/scan-gram.l:582
+ #, c-format
+@@ -1162,7 +1145,7 @@
+ #: src/scan-gram.l:611
+ #, c-format
+ msgid "extra characters in character literal"
+-msgstr "extra bokstäver i teckenkonstant"
++msgstr "extra tecken i teckenkonstant"
+ 
+ #: src/scan-gram.l:690
+ #, c-format
+@@ -1217,7 +1200,7 @@
+ #: src/symtab.c:347
+ #, c-format
+ msgid "symbol %s redeclared as a token"
+-msgstr "symbolen %s omdeklarerad som ett element"
++msgstr "symbolen %s omdeklarerad som en terminalsymbol"
+ 
+ #: src/symtab.c:348
+ #, c-format
+@@ -1227,12 +1210,12 @@
+ #: src/symtab.c:388
+ #, c-format
+ msgid "symbol %s is used, but is not defined as a token and has no rules; did you mean %s?"
+-msgstr "symbolen %s används, men är inte definierad som ett element och har inga regler; menade du %s?"
++msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har inga regler; menade du %s?"
+ 
+ #: src/symtab.c:398
+ #, c-format
+ msgid "symbol %s is used, but is not defined as a token and has no rules"
+-msgstr "symbolen %s används, men är inte definierad som ett element och har inga regler"
++msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har inga regler"
+ 
+ #: src/symtab.c:537
+ #, c-format
+@@ -1247,17 +1230,17 @@
+ #: src/symtab.c:591
+ #, c-format
+ msgid "nonterminals cannot be given a token code"
+-msgstr "icketerminaler kan inte ges en elementkod"
++msgstr "icketerminaler kan inte ges en terminalsymbolskod"
+ 
+ #: src/symtab.c:594
+ #, c-format
+ msgid "redefining code of token %s"
+-msgstr "omdefinition av koden för elementet %s"
++msgstr "omdefinition av koden för terminalsymbolen %s"
+ 
+ #: src/symtab.c:597
+ #, c-format
+ msgid "code of token %s too large"
+-msgstr "koden för elementet %s är för stor"
++msgstr "koden för terminalsymbolen %s är för stor"
+ 
+ #: src/symtab.c:634
+ #, c-format
+@@ -1282,17 +1265,17 @@
+ #: src/symtab.c:715
+ #, c-format
+ msgid "symbol %s used more than once as a literal string"
+-msgstr "symbolen %s används mer än en gång som en bokstavlig sträng"
++msgstr "symbolen %s används mer än en gång som en strängkonstant"
+ 
+ #: src/symtab.c:718
+ #, c-format
+ msgid "symbol %s given more than one literal string"
+-msgstr "symbolen %s har fått mer än en bokstavlig sträng"
++msgstr "symbolen %s har fått mer än en strängkonstant"
+ 
+ #: src/symtab.c:752
+ #, c-format
+ msgid "code %d reassigned to token %s"
+-msgstr "koden %d omtilldelad till elementet %s"
++msgstr "koden %d omtilldelad till terminalsymbolen %s"
+ 
+ #: src/symtab.c:755
+ #, c-format
+@@ -1302,7 +1285,7 @@
+ #: src/symtab.c:1083
+ #, c-format
+ msgid "token number too large"
+-msgstr "elementnumret är för stort"
++msgstr "terminalsymbolens nummer är för stort"
+ 
+ #: src/symtab.c:1332
+ #, c-format

@@ -1,0 +1,1474 @@
+# Swedish translation of GNU Anubis.
+# Copyright © 2001-2008, 2015, 2023 The Anubis Team
+# This file is distributed under the same license as the anubis package.
+# Christer Andersson <klamm@comhem.se>, 2008.
+# Sebastian Rasmussen <sebras@gmail.com>, 2015.
+# Luna Jernberg <droidbittin@gmail.com>, 2023, 2024.
+#
+#: env.opt:45
+msgid ""
+msgstr ""
+"Project-Id-Version: anubis 4.3\n"
+"Report-Msgid-Bugs-To: bug-anubis@gnu.org\n"
+"POT-Creation-Date: 2024-01-05 19:51+0200\n"
+"PO-Revision-Date: 2024-06-19 06:48+0200\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#: src/authmode.c:450
+msgid "Entering XDB loop..."
+msgstr "Påbörjar XDB-slinga…"
+
+#: src/authmode.c:464 src/authmode.c:486
+msgid "Exiting XDB loop..."
+msgstr "Avslutar XDB-slinga…"
+
+#: src/authmode.c:509
+msgid "Database not specified"
+msgstr "Ingen databas angiven"
+
+#: src/authmode.c:517
+#, c-format
+msgid "Cannot open database %s: %s"
+msgstr "Kan inte öppna databas %s: %s"
+
+#: src/authmode.c:524
+#, c-format
+msgid "Found record for `%s'."
+msgstr "Hittade post för ”%s”."
+
+#: src/authmode.c:529
+#, c-format
+msgid "Cannot retrieve data from the SASL database: %s"
+msgstr "Kan inte hämta data från SASL-databasen: %s"
+
+#: src/authmode.c:534
+#, c-format
+msgid "Record for `%s' not found."
+msgstr "Post för ”%s” hittades inte."
+
+#: src/authmode.c:587 src/transmode.c:129 src/transmode.c:163
+msgid "Connection closed successfully."
+msgstr "Anslutningen stängdes framgångsrikt."
+
+#: src/authmode.c:594 src/transmode.c:136
+msgid "PAM: Session closed."
+msgstr "PAM: Session avslutad."
+
+#: src/authmode.c:598 src/transmode.c:140
+msgid "PAM: failed to release authenticator."
+msgstr "PAM: misslyckades med att frigöra autentiserare."
+
+#: src/authmode.c:623 src/authmode.c:630 src/authmode.c:636 src/authmode.c:646
+#: src/authmode.c:653 src/authmode.c:660
+msgid "invalid number of arguments"
+msgstr "ogiltigt antal argument"
+
+#: src/authmode.c:667 src/gpg.c:549 src/guile.c:484 src/map.c:210
+#: src/rcfile.c:670 src/rcfile.c:815 src/rcfile.c:897 src/rcfile.c:967
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unhandled key %d; please report"
+msgstr "INTERNT FEL vid %s:%d: ohanterad nyckel %d; rapportera"
+
+#: src/daemon.c:44
+msgid "daemon() failed"
+msgstr "daemon() misslyckades"
+
+#: src/daemon.c:51
+msgid "Cannot fork."
+msgstr "Kan inte grena."
+
+#: src/daemon.c:59
+msgid "setsid() failed"
+msgstr "setsid() misslyckades"
+
+#: src/daemon.c:70
+#, c-format
+msgid "%s daemon startup succeeded."
+msgstr "start av %s-demon lyckades."
+
+#: src/daemon.c:81
+#, c-format
+msgid "Exited successfully"
+msgstr "Lyckad avslutning"
+
+#: src/daemon.c:83
+#, c-format
+msgid "Failed with status %d"
+msgstr "Misslyckades med status %d"
+
+#: src/daemon.c:88
+#, c-format
+msgid "Terminated on signal %d"
+msgstr "Avslutad av signal %d"
+
+#: src/daemon.c:91
+#, c-format
+msgid "Stopped on signal %d"
+msgstr "Stoppad av signal %d"
+
+#: src/daemon.c:94
+#, c-format
+msgid "Dumped core"
+msgstr "Minnesutskrift skapad"
+
+#: src/daemon.c:97
+#, c-format
+msgid "Terminated"
+msgstr "Avslutad"
+
+#: src/daemon.c:109
+#, c-format
+msgid "Child [%lu] finished. %s. %d client left."
+msgid_plural "Child [%lu] finished. %s. %d clients left."
+msgstr[0] "Barnprocess [%lu] avslutad. %s. %d klient kvar."
+msgstr[1] "Barnprocess [%lu] avslutad. %s. %d klienter kvar."
+
+#: src/daemon.c:121
+#, c-format
+msgid "Local program [%lu] finished. %s"
+msgstr "Lokalt program [%lu] avslutat. %s"
+
+#: src/daemon.c:162
+msgid "WARNING: An unprivileged user cannot be resolved. Verify your settings!"
+msgstr "VARNING: Kan inte slå upp den oprivilegierade användaren. Kontrollera dina inställningar!"
+
+#: src/daemon.c:172
+msgid "WARNING: An unprivileged user has not been specified!"
+msgstr "VARNING: En användare utan rättigheter har inte angivits!"
+
+#: src/daemon.c:225
+msgid "GNU Anubis is running..."
+msgstr "GNU Anubis är igång…"
+
+#: src/daemon.c:241 src/exec.c:80
+msgid "accept() failed"
+msgstr "accept() misslyckades"
+
+#: src/daemon.c:260
+#, c-format
+msgid "TCP wrappers: connection from %s:%u rejected."
+msgstr "TCP-omslag: anslutning från %s:%u vägrades."
+
+#: src/daemon.c:280
+#, c-format
+msgid "Too many clients. Connection from %s:%u rejected."
+msgstr "För många klienter. Anslutning från %s:%u vägrades."
+
+#: src/daemon.c:286
+#, c-format
+msgid "Connection from %s:%u"
+msgstr "Anslutning från %s:%u"
+
+#: src/daemon.c:291
+msgid "daemon: cannot fork"
+msgstr "demon: kan inte grena"
+
+#: env.opt:47 env.opt:57
+msgid "[HOST:]PORT"
+msgstr "[VÄRD:]PORT"
+
+#: env.opt:47
+msgid "Specify the TCP port on which GNU Anubis listens for connections; the default HOST is INADDR_ANY, and default PORT is 24 (private mail system)"
+msgstr "Ange vilken TCP-port som GNU Anubis lyssnar på efter anslutningar; standard-VÄRD är INADDR_ANY, och standard-PORT är 24 (privat e-postsystem)"
+
+#: env.opt:57
+msgid "Specify a remote SMTP host name or IP address; the default is 25"
+msgstr "Ange ett värdnamn eller en IP-adress för fjärr-SMTP-server; standardvärdet är 25"
+
+#: env.opt:65 env.opt:143 env.opt:181
+msgid "FILE"
+msgstr "FIL"
+
+#: env.opt:65
+msgid "Execute a local SMTP server, which works on standard input and output (inetd-type program); this option excludes the `--remote-mta' option"
+msgstr "Kör en lokal SMTP-server som jobbar på standard in och ut (program av inetd-typ); denna flagga utesluter ”--remote-mta”-flaggan"
+
+#: env.opt:88
+msgid "MODE"
+msgstr "LÄGE"
+
+#: env.opt:88
+msgid "Select operation mode; MODE is one of \"transparent\", \"auth\" or \"mda\""
+msgstr "Välj körläge; LÄGE är en av ”transparent”, ”auth” eller ”mda”"
+
+#: env.opt:96
+msgid "Foreground mode"
+msgstr "Förgrundsläge"
+
+#: env.opt:102
+msgid "EMAIL"
+msgstr "E-POST"
+
+#: env.opt:102
+msgid "Specify sender address (implies MDA mode)"
+msgstr "Ange avsändaradress (medför MDA-läge)"
+
+#: env.opt:109
+msgid "Use the SMTP protocol (OMP/Tunnel) as described in RFC 821 on standard input and output"
+msgstr "Använd SMTP-protokollet (OMP/Tunnel) som beskrivs i RFC 821 på standard in och ut"
+
+#: env.opt:115
+msgid "listen on file descriptor 3"
+msgstr "lyssna på fildeskriptor 3"
+
+#: env.opt:119
+msgid "Output options"
+msgstr "Utmatningsflaggor"
+
+#: env.opt:122
+msgid "Work silently"
+msgstr "Arbeta tyst"
+
+#: env.opt:128
+msgid "Work noisily"
+msgstr "Arbeta högljutt"
+
+#: env.opt:134
+msgid "Debug mode"
+msgstr "Felsökningsläge"
+
+#: env.opt:139
+msgid "Miscellaneous options"
+msgstr "Diverse flaggor"
+
+#: env.opt:143
+msgid "Specify alternate system configuration file"
+msgstr "Ange alternativ systemkonfigurationsfil"
+
+#: env.opt:150
+msgid "Ignore system configuration file"
+msgstr "Ignorera systemkonfigurationsfil"
+
+#: env.opt:156
+msgid "DEBUG-LEVEL"
+msgstr "FELSÖKNINGSNIVÅ"
+
+#: env.opt:156
+msgid "Run the configuration file syntax checker"
+msgstr "Kör syntaktisk kontroll av konfigurationsfilen"
+
+#: env.opt:163
+msgid "Print a list of configuration options used to build GNU Anubis"
+msgstr "Skriv ut en lista med konfigurationsflaggor som användes för att bygga GNU Anubis"
+
+#: env.opt:169
+msgid "Print location column numbers in parser diagnostics"
+msgstr "Skriv ut kolumnnummer i tolkdiagnostikmeddelanden"
+
+#: env.opt:175
+msgid "Do not check user configuration file permissions"
+msgstr "Kontrollera inte rättigheter på användarkonfigurationsfilen"
+
+#: env.opt:181
+msgid "Store the PID of the running daemon in FILE"
+msgstr "Lagra den körande demonens PID i FIL"
+
+#: env.opt:185
+msgid "Other options"
+msgstr "Andra flaggor"
+
+#: env.opt:185
+msgid "Give this help list"
+msgstr "Visa denna hjälplista"
+
+#: env.opt:185
+msgid "Give a short usage message"
+msgstr "Visa ett kort användningsmeddelande"
+
+#: env.opt:185
+msgid "Print program version"
+msgstr "Skriv ut programversion"
+
+#: env.opt:43
+msgid "SMTP message submission daemon."
+msgstr "SMTP-demon för att skicka meddelanden."
+
+#: env.opt:167 env.opt:323
+msgid "Usage:"
+msgstr "Användning:"
+
+#: env.opt:167
+msgid "OPTION"
+msgstr "FLAGGA"
+
+#: env.opt:281
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Obligatoriska eller valfria argument till långa flaggor är obligatoriska eller valfria också för motsvarande korta flaggor."
+
+# Kommentar: Strängargumentet har formen <e-postadress>, även om det inte
+# är uppenbart utan att läsa koden.
+#: env.opt:295
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+"Rapportera fel till %s.\n"
+"Skicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n"
+
+#: env.opt:538
+msgid "(C)"
+msgstr "©"
+
+#: env.opt:556
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+"Detta är fri programvara: du får fritt göra ändringar och återdistribuera den.\n"
+"Det finns INGEN GARANTI, utom sådan garanti som måste ges enligt tillämplig lag.\n"
+"\n"
+
+#: env.opt:73 src/ident.c:39
+#, c-format
+msgid "wordsplit failed: %s"
+msgstr "orddelning misslyckades: %s"
+
+#: env.opt:92 src/rcfile.c:586
+#, c-format
+msgid "invalid mode: %s"
+msgstr "ogiltigt läge: %s"
+
+#: env.opt:278
+#, c-format
+msgid "setgroups(1, %lu) failed"
+msgstr "setgroups(1, %lu) misslyckades"
+
+#: env.opt:288
+#, c-format
+msgid "setegid(%lu) failed"
+msgstr "setegid(%lu) misslyckades"
+
+#: env.opt:291
+#, c-format
+msgid "setregid(%lu,%lu) failed"
+msgstr "setregid(%lu,%lu) misslyckades"
+
+#: env.opt:295
+#, c-format
+msgid "setresgid(%lu,%lu,%lu) failed"
+msgstr "setresgid(%lu,%lu,%lu) misslyckades"
+
+#: env.opt:304
+#, c-format
+msgid "setgid(%lu) failed"
+msgstr "setgid(%lu) misslyckades"
+
+#: env.opt:307
+#, c-format
+msgid "cannot set effective gid to %lu"
+msgstr "kan inte sätta verksam gid till %lu"
+
+#: env.opt:329
+#, c-format
+msgid "setreuid(%lu,-1) failed"
+msgstr "setreuid(%lu,-1) misslyckades"
+
+#: env.opt:335
+#, c-format
+msgid "second setuid(%lu) failed"
+msgstr "andra setuid(%lu) misslyckades"
+
+#: env.opt:343
+#, c-format
+msgid "setuid(%lu) failed"
+msgstr "setuid(%lu) misslyckades"
+
+#: env.opt:352
+msgid "seteuid(0) succeeded when it should not"
+msgstr "seteuid(0) lyckades när den inte borde"
+
+#: env.opt:357
+msgid "cannot drop non-root setuid privileges"
+msgstr "kan inte släppa setuid-privilegier för icke-root"
+
+#: env.opt:383
+msgid "PAM: Session opened (restrictions applied)."
+msgstr "PAM: Session startad (restriktioner tillämpade)."
+
+#: env.opt:386
+msgid "PAM: Not authenticated to use GNU Anubis."
+msgstr "PAM: Ej autentiserad för att använda GNU Anubis."
+
+#: env.opt:399 src/main.c:163
+#, c-format
+msgid "UID:%d (%s), GID:%d, EUID:%d, EGID:%d"
+msgstr "UID:%d (%s), GID: %d, EUID:%d, EGID:%d"
+
+#: env.opt:434
+#, c-format
+msgid "Invalid user ID: %s"
+msgstr "Ogiltigt användar-id: %s"
+
+#: env.opt:440
+#, c-format
+msgid "Invalid user name: %s"
+msgstr "Ogiltigt användarnamn: %s"
+
+#: env.opt:463
+#, c-format
+msgid "Wrong permissions on %s. Set 0600."
+msgstr "Felaktiga rättigheter på %s. Sätt till 0600."
+
+#: env.opt:489
+#, c-format
+msgid "%s is not a regular file or a symbolic link."
+msgstr "%s är inte en normal fil eller en symbolisk länk."
+
+#: env.opt:530
+#, c-format
+msgid "Cannot open pid file '%s'"
+msgstr "Kan inte öppna pid-fil \"%s\""
+
+#: src/errs.c:88 src/rc-gram.y:1467
+msgid "warning"
+msgstr "varning"
+
+#: src/errs.c:96
+#, c-format
+msgid "Could not write to socket: %s"
+msgstr "Kunde inte skriva till uttag (socket): %s"
+
+#: src/errs.c:98
+msgid "Could not write to socket"
+msgstr "Kunde inte skriva till uttag (socket)"
+
+#: src/errs.c:108
+#, c-format
+msgid "Unknown host %s."
+msgstr "Okänd värd %s."
+
+#: src/errs.c:111
+#, c-format
+msgid "%s: host name is valid but does not have an IP address."
+msgstr "%s: värdnamnet är giltigt men har ingen IP-adress."
+
+#: src/errs.c:115
+#, c-format
+msgid "%s: unrecoverable name server error occured."
+msgstr "%s: oåterhämtbart namnserverfel inträffade."
+
+#: src/errs.c:118
+#, c-format
+msgid "%s: a temporary name server error occured. Try again later."
+msgstr "%s: ett tillfälligt namnserverfel inträffade. Försök igen senare."
+
+#: src/errs.c:121
+#, c-format
+msgid "%s: unknown DNS error %d."
+msgstr "%s: okänt DNS-fel %d."
+
+#: src/esmtp.c:110
+#, c-format
+msgid "Unsupported callback property %d"
+msgstr "Återanropsegenskap %d saknar stöd"
+
+#: src/esmtp.c:126
+msgid "unexpected eof in input"
+msgstr "oväntat slut på fil i indata"
+
+#: src/esmtp.c:136
+msgid "Malformed or unexpected reply"
+msgstr "Felaktigt eller oväntat svar"
+
+#: src/esmtp.c:162
+#, c-format
+msgid "SASL gsasl_client_start: %s"
+msgstr "SASL gsasl_client_start: %s"
+
+#: src/esmtp.c:171 src/esmtp.c:190
+#, c-format
+msgid "GSASL handshake aborted: %d %s"
+msgstr "GSASL-handskakning avbruten: %d %s"
+
+#: src/esmtp.c:202
+#, c-format
+msgid "GSASL error: %s"
+msgstr "GSASL-fel: %s"
+
+#: src/esmtp.c:216
+#, c-format
+msgid "Authentication failed: %d %s"
+msgstr "Autentisering misslyckades: %d %s"
+
+#: src/esmtp.c:219
+msgid "Authentication successful."
+msgstr "Autentisering lyckades."
+
+#: src/esmtp.c:240
+msgid "Got empty list of authentication methods"
+msgstr "Fick tom lista med autentiseringsmetoder"
+
+#: src/esmtp.c:265
+msgid "Server did not offer any feasible authentication mechanism"
+msgstr "Servern erbjöd ingen möjlig autentiseringsmekanism"
+
+#: src/esmtp.c:275
+msgid "INTERNAL ERROR"
+msgstr "INTERNT FEL"
+
+#: src/esmtp.c:283
+#, c-format
+msgid "Selected authentication mechanism %s requires TLS encryption. Not using ESMTP authentication"
+msgstr "Vald %s-autentiseringsmekanism kräver TLS-kryptering. Använder inte ESMTP-autentisering"
+
+#: src/esmtp.c:290
+#, c-format
+msgid "Selected authentication mechanism %s"
+msgstr "Valde %s-autentiseringsmekanism"
+
+#: src/esmtp.c:296
+#, c-format
+msgid "Cannot initialize libgsasl: %s"
+msgstr "Kan inte initiera libgsasl: %s"
+
+#: src/esmtp.c:311
+msgid "ESMTP AUTH is not supported"
+msgstr "ESMTP AUTH stöds inte"
+
+#: src/exec.c:40
+msgid "#1 socket() failed."
+msgstr "#1 socket() misslyckades."
+
+#: src/exec.c:45
+msgid "#2 socket() failed."
+msgstr "#2 socket() misslyckades."
+
+#: src/exec.c:55
+msgid "#1 bind() failed"
+msgstr "#1 bind() misslyckades"
+
+#: src/exec.c:60
+msgid "#2 bind() failed"
+msgstr "#2 bind() misslyckades"
+
+#: src/exec.c:65 src/net.c:233
+msgid "listen() failed"
+msgstr "listen() misslyckades"
+
+#: src/exec.c:70
+#, c-format
+msgid "getsockname() failed: %s."
+msgstr "getsockname() misslyckades: %s."
+
+#: src/exec.c:75
+msgid "connect() failed"
+msgstr "connect() misslyckades"
+
+#: src/exec.c:87
+msgid "socketpair() failed"
+msgstr "socketpair() misslyckades"
+
+#: src/exec.c:107
+#, c-format
+msgid "Executing %s..."
+msgstr "Kör %s…"
+
+#: src/exec.c:117
+msgid "fork() failed"
+msgstr "fork() misslyckades"
+
+#: src/exec.c:131
+msgid "execvp() failed"
+msgstr "execvp() misslyckades"
+
+#: src/gpg.c:46
+#, c-format
+msgid "GPGME: %s."
+msgstr "GPGME: %s."
+
+#: src/gpg.c:92
+#, c-format
+msgid "Install GPGME version %s or later."
+msgstr "Installera GPGME version %s eller senare."
+
+#: src/gpg.c:99
+#, c-format
+msgid "GPGME: failed. %s."
+msgstr "GPGME: misslyckades. %s."
+
+#: src/gpg.c:185 src/gpg.c:396
+#, c-format
+msgid "GPGME: Cannot list keys: %s"
+msgstr "GPGME: Kan inte lista nycklar: %s"
+
+#: src/gpg.c:304 src/gpg.c:418
+#, c-format
+msgid "GPGME: Invalid recipient encountered: %s"
+msgstr "GPGME: Ogiltig mottagare påträffad: %s"
+
+#: src/gpg.c:329
+#, c-format
+msgid "GPGME: Invalid signer found: %s"
+msgstr "GPGME: Ogiltig signerare hittad: %s"
+
+#: src/gpg.c:336
+msgid "GPGME: Unexpected number of signatures created"
+msgstr "GPGME: Oväntat antal signaturer skapade"
+
+#: src/gpg.c:343
+msgid "GPGME: Wrong type of signature created"
+msgstr "GPGME: Fel signaturtyp skapad"
+
+#: src/gpg.c:348
+#, c-format
+msgid "GPGME: Wrong pubkey algorithm reported: %i"
+msgstr "GPGME: Felaktig öppen nyckelalgoritm rapporterad: %i"
+
+#: src/gpg.c:355
+#, c-format
+msgid "GPGME: Wrong hash algorithm reported: %i"
+msgstr "GPGME: Felaktig hashalgoritm rapporterad: %i"
+
+#: src/gpg.c:362
+#, c-format
+msgid "GPGME: Wrong signature class reported: %u"
+msgstr "GPGME: Felaktig signaturklass rapporterad: %u"
+
+#: src/gsasl.c:201 src/main.c:44
+msgid "Not enough memory"
+msgstr "Inte tillräckligt med minne"
+
+#: src/guile.c:104
+#, c-format
+msgid "cannot open guile output file %s"
+msgstr "kan inte öppna guile-utdatafil %s"
+
+#: src/guile.c:337
+msgid "missing procedure name"
+msgstr "procedurnamn saknas"
+
+#: src/guile.c:345
+#, c-format
+msgid "%s not a procedure object"
+msgstr "%s är inte ett procedurobjekt"
+
+#: src/guile.c:374
+#, c-format
+msgid "Bad car type in return from %s"
+msgstr "Ogiltig car-typ i retur från %s"
+
+#: src/guile.c:391
+#, c-format
+msgid "Bad cdr type in return from %s"
+msgstr "Ogiltig cdr-typ i retur från %s"
+
+#: src/guile.c:394
+#, c-format
+msgid "Bad return type from %s"
+msgstr "Ogiltig returtyp från %s"
+
+#: src/guile.c:478
+#, c-format
+msgid "%s is not supported yet"
+msgstr "%s stöds inte ännu"
+
+#: src/headers.h:297
+msgid "MTA has not been specified. Set the `remote-mta' or `local-mta'."
+msgstr "MTA har inte angivits. Ställ in ”remote-mta” eller ”local-mta”."
+
+#: src/ident.c:67
+msgid "IDENT: socket() failed"
+msgstr "IDENT: socket() misslyckades"
+
+#: src/ident.c:79
+msgid "IDENT: connect() failed"
+msgstr "IDENT: connect() misslyckades"
+
+#: src/ident.c:85
+#, c-format
+msgid "IDENT: connected to %s:%u"
+msgstr "IDENT: ansluten till %s:%u"
+
+#: src/ident.c:94
+#, c-format
+msgid "IDENT: stream_write() failed: %s."
+msgstr "IDENT: stream_write() misslyckades: %s."
+
+#: src/ident.c:102
+#, c-format
+msgid "IDENT: recvline() failed: %s."
+msgstr "IDENT: recvline() misslyckades: %s."
+
+#: src/ident.c:112
+msgid "IDENT: incorrect data."
+msgstr "IDENT: felaktig data."
+
+#: src/ident.c:131
+msgid "IDENT: data encrypted with DES"
+msgstr "IDENT: data är krypterat med DES…"
+
+#: src/ident.c:135
+msgid "IDENT: incorrect data (DES deciphered)."
+msgstr "IDENT: felaktig data (DES-avkrypterad)."
+
+#: src/ident.c:141
+#, c-format
+msgid "IDENT: resolved remote user to %s."
+msgstr "IDENT: bestämde fjärranvändare till %s."
+
+#: src/main.c:189
+msgid "listen(3) failed"
+msgstr "listen(3) misslyckades"
+
+#: src/map.c:65
+#, c-format
+msgid "%s remapped to %s@localhost."
+msgstr "%s ommappad till %s@localhost."
+
+#: src/map.c:116
+msgid "invalid syntax"
+msgstr "ogiltig syntax"
+
+#: src/map.c:117
+msgid "Translation map: incorrect syntax."
+msgstr "Översättningsavbildning: felaktig syntax."
+
+#: src/map.c:158 src/net.c:146 src/net.c:213 src/transmode.c:45
+#, c-format
+msgid "Illegal address length received for host %s"
+msgstr "Ogiltig adresslängd mottagen för värd %s"
+
+#: src/misc.c:167
+#, c-format
+msgid "Invalid port number: %s"
+msgstr "Ogiltigt portnummer: %s"
+
+#: src/misc.c:396
+msgid "Can't find out my own hostname"
+msgstr "Kan inte ta reda på mitt eget värdnamn"
+
+#: src/net.c:46
+msgid "SERVER"
+msgstr "SERVER"
+
+#: src/net.c:49
+msgid "CLIENT"
+msgstr "KLIENT"
+
+#: src/net.c:127
+msgid "Getting remote host information..."
+msgstr "Hämtar fjärrvärdsinformation…"
+
+#: src/net.c:164
+msgid "Cannot create stream socket."
+msgstr "Kan inte skapa flödesuttag (stream socket)."
+
+#: src/net.c:169
+#, c-format
+msgid "Couldn't connect to %s:%u. %s."
+msgstr "Kunde inte ansluta till %s:%u. %s."
+
+#: src/net.c:174
+#, c-format
+msgid "Connected to %s:%u"
+msgstr "Ansluten till %s:%u"
+
+#: src/net.c:196
+msgid "Cannot create stream socket"
+msgstr "Kan inte skapa flödesuttag (stream socket)"
+
+#: src/net.c:229
+msgid "bind() failed"
+msgstr "bind() misslyckades"
+
+#: src/net.c:230
+#, c-format
+msgid "GNU Anubis bound to %s:%u"
+msgstr "GNU Anubis bunden till %s:%u"
+
+#: src/net.c:256
+msgid "Short write"
+msgstr "Ofullständig skrivning"
+
+#: src/socks.c:49
+msgid "Using SOCKS Proxy..."
+msgstr "Använder SOCKS-proxy…"
+
+#: src/socks.c:67
+#, c-format
+msgid "SOCKS proxy: %s"
+msgstr "SOCKS-proxy: %s"
+
+#: src/socks.c:139
+msgid "Address must be an IP, not a domain name."
+msgstr "Adress måste vara ett IP-nummer, inte ett domännamn."
+
+#: src/socks.c:176 src/socks.c:395
+msgid "SOCKS Proxy Connection: succeeded."
+msgstr "SOCKS-proxyanslutning: lyckades."
+
+#: src/socks.c:179
+msgid "Request rejected or failed."
+msgstr "Begäran vägrades eller misslyckades."
+
+#: src/socks.c:182
+msgid "Request rejected."
+msgstr "Begäran vägrades."
+
+#: src/socks.c:185
+msgid "Request rejected, because the client program and identd reported different User-IDs."
+msgstr "Begäran vägrades eftersom klientprogrammet och identd rapporterade olika användar-id."
+
+#: src/socks.c:189 src/socks.c:422
+msgid "Server reply is not valid."
+msgstr "Serversvar är ogiltigt."
+
+#: src/socks.c:230
+msgid "Possibly not a SOCKS proxy service."
+msgstr "Kanske inte en SOCKS-proxytjänst."
+
+#: src/socks.c:242
+msgid "SOCKS Proxy AUTH method: NO AUTHENTICATION REQUIRED"
+msgstr "AUTH-metod för SOCKS-proxy: INGEN AUTENTISERING KRÄVS"
+
+#: src/socks.c:245
+msgid "SOCKS Proxy AUTH method: USER NAME/PASSWORD"
+msgstr "SOCKS-proxy AUTH-metod: ANVÄNDARNAMN/LÖSENORD"
+
+#: src/socks.c:249
+msgid "Cannot send null user name or password."
+msgstr "Kan inte skicka tomt användarnamn eller lösenord."
+
+#: src/socks.c:291
+msgid "Bad user name or password."
+msgstr "Ogiltigt användarnamn eller lösenord."
+
+#: src/socks.c:295
+msgid "SOCKS Proxy AUTH: succeeded."
+msgstr "SOCKS-proxy AUTH: lyckades."
+
+#: src/socks.c:298
+msgid "Server does not accept any method."
+msgstr "Servern accepterar inte någon metod."
+
+#: src/socks.c:301
+msgid "Server does not accept an AUTH method."
+msgstr "Servern accepterar inte en AUTH-metod."
+
+#: src/socks.c:398
+msgid "General SOCKS server failure."
+msgstr "Allmänt SOCKS-serverfel."
+
+#: src/socks.c:401
+msgid "Connection not allowed by a ruleset."
+msgstr "En regeluppsättning tillåter inte anslutning."
+
+#: src/socks.c:404
+msgid "Network unreachable."
+msgstr "Oåtkomligt nätverk."
+
+#: src/socks.c:407
+msgid "Host unreachable."
+msgstr "Oåtkomlig värd."
+
+#: src/socks.c:410
+msgid "Connection refused."
+msgstr "Anslutning vägrades."
+
+#: src/socks.c:413
+msgid "TTL expired."
+msgstr "TTL har gått ut."
+
+#: src/socks.c:416
+msgid "Command not supported."
+msgstr "Kommandot stöds inte."
+
+#: src/socks.c:419
+msgid "Address type not supported."
+msgstr "Adresstyp stöds inte."
+
+#: src/quit.c:27
+msgid "Signal Caught. Exiting Cleanly..."
+msgstr "Signal fångad. Avslutar rent…"
+
+#: src/quit.c:34
+msgid "Timeout! Exiting..."
+msgstr "Timeout! Avslutar…"
+
+#: src/rcfile.c:32
+#, c-format
+msgid "expected `yes' or `no', but found %s"
+msgstr "förväntade ”yes” eller ”no”, men hittade %s"
+
+#: src/rcfile.c:118
+#, c-format
+msgid "cannot stat file `%s'"
+msgstr "kan inte ta status på filen \"%s\""
+
+#: src/rcfile.c:128
+#, c-format
+msgid "File `%s' has already been read.\n"
+msgstr "Filen \"%s\" har redan lästs.\n"
+
+#: src/rcfile.c:146
+#, c-format
+msgid "Welcome user %s !"
+msgstr "Välkommen användare %s !"
+
+#: src/rcfile.c:182
+#, c-format
+msgid "Reading system configuration file %s..."
+msgstr "Läser systemkonfigurationsfil %s…"
+
+#: src/rcfile.c:194
+#, c-format
+msgid "Reading user configuration file %s..."
+msgstr "Läser användarkonfigurationsfil %s…"
+
+#: src/rcfile.c:324
+#, c-format
+msgid "%s: invalid syslog facility"
+msgstr "%s: ogiltig syslog-facilitet"
+
+#: src/rcfile.c:444
+msgid "invalid rule priority"
+msgstr "ogiltig regelprioritet"
+
+#: src/rcfile.c:453
+msgid "invalid control priority"
+msgstr "ogiltig kontrollprioritet"
+
+#: src/rcfile.c:466
+msgid "invalid termlevel"
+msgstr "ogiltig termnivå"
+
+#: src/rcfile.c:482
+msgid "`logfile' directive is ignored in main configuration file"
+msgstr "\"logfile\"-direktiv ignoreras i huvudkonfigurationsfil"
+
+#: src/rcfile.c:499
+msgid "invalid loglevel"
+msgstr "ogiltig loggnivå"
+
+#: src/rcfile.c:584
+msgid "not enough arguments"
+msgstr "inte tillräckligt med argument"
+
+#: src/rcfile.c:629
+#, c-format
+msgid "Child process suspended for %lu second"
+msgid_plural "Child process suspended for %lu seconds"
+msgstr[0] "Barnprocess suspenderad i %lu sekund"
+msgstr[1] "Barnprocess suspenderad i %lu sekunder"
+
+#: src/rcfile.c:640
+#, c-format
+msgid "Command HANG is not allowed for user `%s'"
+msgstr "HANG-kommando är inte tillåtet för användare \"%s\""
+
+#: src/rcfile.c:655
+msgid "statement ignored: anubis compiled without PAM support"
+msgstr "sats ignoreras: anubis kompilerad utan PAM-stöd"
+
+#: src/rcfile.c:663
+msgid "statement ignored: anubis compiled without libgcrypt"
+msgstr "sats ignoreras: anubis kompilerad utan libgcrypt"
+
+#: src/rcfile.c:1047
+#, c-format
+msgid "No such section: %s"
+msgstr "Ingen sådan sektion: %s"
+
+#: src/rc-lex.l:204
+#, c-format
+msgid "Stray character in config: \\%03o. Possibly missing quotes around the string"
+msgstr "Vilsekommet tecken i konfiguration: \\%03o. Möjligen saknas citationstecken kring strängen"
+
+#: src/rc-lex.l:411
+msgid "Anubis RC file error"
+msgstr "Fel i Anubis RC-fil"
+
+#: src/rc-gram.y:209 src/rc-gram.y:216
+#, c-format
+msgid "Section %s already defined"
+msgstr "Sektion %s redan definierad"
+
+#: src/rc-gram.y:268
+#, c-format
+msgid "unknown keyword: %s"
+msgstr "okänt nyckelord: %s"
+
+#: src/rc-gram.y:420
+msgid "regexp is not allowed in this context"
+msgstr "reguljärt uttryck är inte tillåtet i detta sammanhang"
+
+#: src/rc-gram.y:442
+msgid "Invalid regular expression (see the above message)"
+msgstr "Ogiltigt reguljärt uttryck (se ovanstående meddelande)"
+
+#: src/rc-gram.y:572 src/rc-gram.y:590
+msgid "command part is not allowed"
+msgstr "kommandodel är inte tillåten"
+
+#: src/rc-gram.y:623
+msgid "missing replacement value"
+msgstr "ersättningsvärde saknas"
+
+#: src/rc-gram.y:736
+#, c-format
+msgid "Not a valid debugging level: %s"
+msgstr "Inte en giltig felsökningsnivå: %s"
+
+#: src/rc-gram.y:1297
+msgid "Unknown regexp modifier"
+msgstr "Okänd modifierare av reguljärt uttryck"
+
+#: src/rc-gram.y:1501
+msgid "STOP"
+msgstr "STOPP"
+
+#: src/rc-gram.y:1506
+#, c-format
+msgid "Calling %s"
+msgstr "Anropar %s"
+
+#: src/rc-gram.y:1512
+#, c-format
+msgid "ADD %s [%s] %s"
+msgstr "LÄGG TILL %s [%s] %s"
+
+#: src/rc-gram.y:1522
+#, c-format
+msgid "MODIFY %s [%s] [%s] %s"
+msgstr "MODIFIERA %s [%s] [%s] %s"
+
+# "HEADER" har inte översatts eftersom det förekommer som första
+# oöversatt argument i "ADD..."- och "MODIFY..."-meddelandena ovan.
+#: src/rc-gram.y:1544
+#, c-format
+msgid "REMOVE HEADER [%s]"
+msgstr "TA BORT HEADER [%s]"
+
+#: src/rc-gram.y:1569
+msgid "ignoring statement overridden from the command line"
+msgstr "ignorerar sats som åsidosatts från kommandoraden"
+
+#: src/rc-gram.y:1574
+#, c-format
+msgid "Executing %s"
+msgstr "Kör %s"
+
+#: src/rc-gram.y:1694
+#, c-format
+msgid "Matched trigger \"%s\""
+msgstr "Matchade utlösare \"%s\""
+
+#: src/rc-gram.y:1698
+#, c-format
+msgid "Matched condition %s[%s] \"%s\""
+msgstr "Matchade villkor %s[%s] \"%s\""
+
+#: src/rc-gram.y:1811
+#, c-format
+msgid "Section %s"
+msgstr "Sektion %s"
+
+#: src/rc-gram.y:1838
+#, c-format
+msgid "Unknown section: %s"
+msgstr "Okänd sektion: %s"
+
+#: src/rc-gram.y:1861
+msgid "program is not allowed in this section"
+msgstr "program är inte tillåtet i denna sektion"
+
+#: src/regex.c:113
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: missing or invalid regex"
+msgstr "INTERNT FEL vid %s:%d: reguljärt uttryck saknas eller är ogiltigt"
+
+#: src/regex.c:332
+#, c-format
+msgid "regcomp() failed at %s: %s."
+msgstr "regcomp() misslyckades vid %s: %s."
+
+#: src/regex.c:408
+#, c-format
+msgid "pcre_compile() failed at offset %d: %s."
+msgstr "pcre_compile() misslyckades vid förskjutning %d: %s."
+
+#: src/regex.c:433
+#, c-format
+msgid "pcre_fullinfo() failed: %d."
+msgstr "pcre_fullinfo() misslyckades: %d."
+
+#: src/regex.c:445
+msgid "Matched, but too many substrings."
+msgstr "Matchat, men för många delsträngar."
+
+#: src/regex.c:460
+#, c-format
+msgid "Get substring %d failed (%d)."
+msgstr "Misslyckades med att hämta delsträng %d (%d)."
+
+#: src/tls.c:157
+msgid "Initializing TLS/SSL connection with MTA..."
+msgstr "Initierar TLS/SSL-anslutningen med MTA…"
+
+#: src/tls.c:175 src/tls.c:252
+#, c-format
+msgid "TLS error reading `%s': %s"
+msgstr "TLS-fel vid läsning av \"%s\": %s"
+
+#: src/tls.c:192
+#, c-format
+msgid "TLS/SSL handshake failed: %s"
+msgstr "TLS/SSL-handskakning misslyckades: %s"
+
+#: src/tls.c:241
+msgid "Initializing the TLS/SSL connection with MUA..."
+msgstr "Initierar TLS/SSL-anslutningen med MUA…"
+
+#: src/tls.c:274
+msgid "TLS/SSL handshake failed!"
+msgstr "TLS/SSL-handskakning misslyckades!"
+
+#: src/tls.c:304
+msgid "The certificate is not trusted."
+msgstr "Certifikatet är ej betrott."
+
+#: src/tls.c:309
+msgid "The certificate has expired."
+msgstr "Certifikatet har gått ut."
+
+#: src/tls.c:314
+msgid "The certificate is not yet activated."
+msgstr "Certifikatet har inte aktiverats än."
+
+#: src/tls.c:324
+msgid "No certificate was found!"
+msgstr "Inget certifikat hittades!"
+
+#: src/tls.c:329
+msgid "The certificate is trusted."
+msgstr "Certifikatet är betrott."
+
+#: src/tls.c:357
+#, c-format
+msgid "- Anonymous DH using prime of %d bit.\n"
+msgid_plural "- Anonymous DH using prime of %d bits.\n"
+msgstr[0] "- Anonym DH använder ett primtal på %d bit.\n"
+msgstr[1] "- Anonym DH använder ett primtal på %d bitar.\n"
+
+#: src/tls.c:366
+#, c-format
+msgid "- Ephemeral DH using prime of %d bit.\n"
+msgid_plural "- Ephemeral DH using prime of %d bits.\n"
+msgstr[0] "- Kortlivad DH använder ett primtal på %d bit.\n"
+msgstr[1] "- Kortlivad DH använder ett primtal på %d bitar.\n"
+
+#: src/tls.c:377
+#, c-format
+msgid "- Protocol: %s\n"
+msgstr "- Protokoll: %s\n"
+
+#: src/tls.c:379
+#, c-format
+msgid "- Certificate Type: %s\n"
+msgstr "- Certifikattyp: %s\n"
+
+#: src/tls.c:381
+#, c-format
+msgid "- Cipher: %s\n"
+msgstr "- Kryptering: %s\n"
+
+#: src/tls.c:383
+#, c-format
+msgid "- MAC: %s\n"
+msgstr "- MAC: %s\n"
+
+#: src/tls.c:414
+#, c-format
+msgid "- Certificate info:\n"
+msgstr "- Certifikatinformation:\n"
+
+#: src/tls.c:418
+#, c-format
+msgid "- Certificate is valid since: %s"
+msgstr "- Certifikatet är giltigt sedan: %s"
+
+#: src/tls.c:420
+#, c-format
+msgid "- Certificate expires: %s"
+msgstr "- Certifikatet går ut: %s"
+
+#: src/tls.c:425
+#, c-format
+msgid "- Certificate fingerprint: "
+msgstr "- Certifikatets fingeravtryck: "
+
+#: src/tls.c:435
+#, c-format
+msgid "- Certificate serial number: "
+msgstr "- Certifikatets serienummer: "
+
+#: src/tls.c:444
+#, c-format
+msgid "- Certificate public key: "
+msgstr "- Certifikatets öppna nyckel: "
+
+#: src/tls.c:447
+#, c-format
+msgid "RSA\n"
+msgstr "RSA\n"
+
+#: src/tls.c:448
+#, c-format
+msgid "- Modulus: %d bit\n"
+msgid_plural "- Modulus: %d bits\n"
+msgstr[0] "- Modulus: %d bit\n"
+msgstr[1] "- Modulus: %d bitar\n"
+
+#: src/tls.c:453
+#, c-format
+msgid "DSA\n"
+msgstr "DSA\n"
+
+#: src/tls.c:454
+#, c-format
+msgid "- Exponent: %d bit\n"
+msgid_plural "- Exponent: %d bits\n"
+msgstr[0] "- Exponent: %d bit\n"
+msgstr[1] "- Exponent: %d bitar\n"
+
+#: src/tls.c:458
+#, c-format
+msgid "UNKNOWN\n"
+msgstr "OKÄND\n"
+
+#: src/tls.c:460
+#, c-format
+msgid "- Certificate version: #%d\n"
+msgstr "- Certifikatversion: #%d\n"
+
+#: src/tls.c:467
+#, c-format
+msgid "- Certificate Issuer's DN: %s\n"
+msgstr "- Certifikatutgivarens DN: %s\n"
+
+#: src/transmode.c:64
+msgid "remote-mta loops back to Anubis"
+msgstr "remote-mta loopar tillbaka till Anubis"
+
+#: src/transmode.c:155
+msgid "Initiated proxy mode."
+msgstr "Initierade proxyläget."
+
+#: src/tunnel.c:311 src/tunnel.c:387
+msgid "Transferring messages..."
+msgstr "Överför meddelanden…"
+
+#: src/tunnel.c:385
+msgid "Starting SMTP session..."
+msgstr "Påbörjar SMTP-session…"
+
+#: src/tunnel.c:472
+msgid "Using the TLS/SSL encryption..."
+msgstr "Använder TLS/SSL-krypteringen…"
+
+#: src/tunnel.c:489 src/tunnel.c:625
+#, c-format
+msgid "WARNING: %s"
+msgstr "VARNING: %s"
+
+#: src/tunnel.c:491
+msgid "STARTTLS command failed."
+msgstr "STARTTLS-kommando misslyckades."
+
+#: src/tunnel.c:617
+msgid "Using TLS/SSL encryption between Anubis and remote MTA only..."
+msgstr "Använder TLS/SSL-kryptering enbart mellan Anubis och fjärr-MTA…"
+
+#: src/tunnel.c:627
+msgid "STARTTLS (ONEWAY) command failed."
+msgstr "STARTTLS (ONEWAY)-kommando misslyckades."
+
+#: src/wordsplit/wordsplit.c:78 src/wordsplit/wordsplit.c:2856
+msgid "memory exhausted"
+msgstr "minnet slut"
+
+#: src/wordsplit/wordsplit.c:132
+msgid "memory exhausted while trying to store error context"
+msgstr "minnet är uttömt under försök att lagra felkontext"
+
+#: src/wordsplit/wordsplit.c:882
+msgid "Restarting"
+msgstr "Startar om"
+
+#: src/wordsplit/wordsplit.c:1608
+#, c-format
+msgid "%.*s: variable null or not set"
+msgstr "%.*s: variabel null eller ej inställd"
+
+#: src/wordsplit/wordsplit.c:1638
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr "varning: odefinierad variabel `%.*s'"
+
+#: src/wordsplit/wordsplit.c:2139
+#, c-format
+msgid "no files match pattern %s"
+msgstr "inga filer matchar mönster %s"
+
+#: src/wordsplit/wordsplit.c:2604
+msgid "WS trimming"
+msgstr "trimning av blanktecken"
+
+#: src/wordsplit/wordsplit.c:2606
+msgid "command substitution"
+msgstr "kommandosubstitution"
+
+#: src/wordsplit/wordsplit.c:2608 src/wordsplit/wordsplit.c:2616
+msgid "coalesce list"
+msgstr "sammanfogning av lista"
+
+#: src/wordsplit/wordsplit.c:2610
+msgid "tilde expansion"
+msgstr "tildeexpandering"
+
+#: src/wordsplit/wordsplit.c:2612
+msgid "variable expansion"
+msgstr "variabelexpandering"
+
+#: src/wordsplit/wordsplit.c:2614
+msgid "quote removal"
+msgstr "borttagning av citattecken"
+
+#: src/wordsplit/wordsplit.c:2618
+msgid "path expansion"
+msgstr "sökvägsexpandering"
+
+#: src/wordsplit/wordsplit.c:2643
+#, c-format
+msgid "(%02d) Input:%.*s;"
+msgstr "(%02d) Indata:%.*s;"
+
+#: src/wordsplit/wordsplit.c:2669
+msgid "Initial list:"
+msgstr "Initiallista:"
+
+#: src/wordsplit/wordsplit.c:2684
+msgid "Coalesced list:"
+msgstr "Sammanfogad lista:"
+
+#: src/wordsplit/wordsplit.c:2854
+msgid "no error"
+msgstr "inga fel"
+
+#: src/wordsplit/wordsplit.c:2855
+msgid "missing closing quote"
+msgstr "saknar slutcitat"
+
+#: src/wordsplit/wordsplit.c:2857
+msgid "invalid wordsplit usage"
+msgstr "ogiltig användning av orddelning"
+
+#: src/wordsplit/wordsplit.c:2858
+msgid "unbalanced curly brace"
+msgstr "obalanserad klammerparentes"
+
+#: src/wordsplit/wordsplit.c:2859
+msgid "undefined variable"
+msgstr "odefinierad variabel"
+
+#: src/wordsplit/wordsplit.c:2860
+msgid "input exhausted"
+msgstr "indata uttömda"
+
+#: src/wordsplit/wordsplit.c:2861
+msgid "unbalanced parenthesis"
+msgstr "obalanserad parentes"
+
+#: src/wordsplit/wordsplit.c:2862
+msgid "globbing error"
+msgstr "fel vid jokerteckenexpandering"
+
+#: src/wordsplit/wordsplit.c:2863
+msgid "user-defined error"
+msgstr "användardefinierat fel"
+
+#: src/wordsplit/wordsplit.c:2864
+msgid "invalid parameter number in assignment"
+msgstr "ogiltigt parameternummer i tilldelningen"
+
+#: src/wordsplit/wordsplit.c:2876
+msgid "unknown error"
+msgstr "okänt fel"
+
+#: src/wordsplit/wordsplit.c:2885
+#, c-format
+msgid "missing closing %c (start near #%lu)"
+msgstr "saknar avslutande %c (start nära #%lu)"
+
+#~ msgid "Unknown system error"
+#~ msgstr "Okänt systemfel"
+
+#~ msgid "argcv_get failed"
+#~ msgstr "argcv_get misslyckades"
+
+#~ msgid "- Compression: %s\n"
+#~ msgstr "- Komprimering: %s\n"
+
+#~ msgid "%s: option '%s' is ambiguous; possibilities:"
+#~ msgstr "%s: flaggan ”%s” är tvetydig; möjligheter:"
+
+#~ msgid "%s: option '--%s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan ”--%s” tar inget argument\n"
+
+#~ msgid "%s: option '%c%s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan ”%c%s” tar inget argument\n"
+
+#~ msgid "%s: option '--%s' requires an argument\n"
+#~ msgstr "%s: flaggan ”--%s” kräver ett argument\n"
+
+#~ msgid "%s: unrecognized option '--%s'\n"
+#~ msgstr "%s: okänd flagga ”--%s”\n"
+
+#~ msgid "%s: unrecognized option '%c%s'\n"
+#~ msgstr "%s: okänd flagga ”%c%s”\n"
+
+#~ msgid "%s: invalid option -- '%c'\n"
+#~ msgstr "%s: ogiltig flagga -- ”%c”\n"
+
+#~ msgid "%s: option requires an argument -- '%c'\n"
+#~ msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
+
+#~ msgid "%s: option '-W %s' is ambiguous\n"
+#~ msgstr "%s: flaggan ”-W %s” är tvetydig\n"
+
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan ”-W %s” tar inget argument\n"
+
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: flaggan ”-W %s” kräver ett argument\n"
+
+#~ msgid "Loop not allowed. Connection rejected."
+#~ msgstr "Slinga ej tillåten. Anslutning vägrades."
+
+#~ msgid "The MTA has not been specified. Set the REMOTE-MTA or LOCAL-MTA."
+#~ msgstr "MTA:n har inte angivits. Ange REMOTE-MTA:n eller LOCAL-MTA."
+
+#~ msgid "--mode=mda requires --local-mta"
+#~ msgstr "--mode=mda kräver --local-mta"
+
+#~ msgid "Missing recipient addresses"
+#~ msgstr "Mottagardadress saknas"
+
+#~ msgid "Unknown mode: %s"
+#~ msgstr "Okänt läge: %s"
+
+#~ msgid "No certificate was sent."
+#~ msgstr "Inget certifikat skickades."
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: otillåten flagga -- %c\n"

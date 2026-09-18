@@ -1,0 +1,60 @@
+--- a/cflow-1.8.sv.po
++++ b/cflow-1.8.sv.po
+@@ -166,7 +166,7 @@
+ 
+ #: src/main.c:617
+ msgid "prepend DIR to the profile search path"
+-msgstr "lägg till KAT före profilsökvägen"
++msgstr "lägg till KAT först i profilsökvägen"
+ 
+ #: src/main.c:628
+ msgid "don't load default profile"
+@@ -247,7 +247,7 @@
+ 
+ #: src/main.c:786
+ msgid "control graph appearance; see [1] for details"
+-msgstr "anropsgrafsutseende; se [1] för detaljer"
++msgstr "styr grafens utseende; se [1] för detaljer"
+ 
+ #: src/main.c:792
+ msgid "draw ASCII art tree"
+@@ -275,7 +275,7 @@
+ 
+ #: src/main.c:851
+ msgid "there's no main function; print graphs for all functions in the program"
+-msgstr "det finns ingen main-funktion; skriv graf över alla funktioner i programmet"
++msgstr "det finns ingen main-funktion; skriv grafer för alla funktioner i programmet"
+ 
+ #: src/main.c:859
+ msgid "show only graphs leading from start symbols to this function; multiple options are allowed"
+@@ -300,11 +300,7 @@
+ "This is free software: you are free to change and redistribute it.\n"
+ "There is NO WARRANTY, to the extent permitted by law.\n"
+ "\n"
+-msgstr ""
+-"\n"
+-"Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>.\n"
+-"Detta är fri programvara: du får lov att ändra och vidaredistribuera den.\n"
+-"Det finns INGEN GARANTI, så långt lagen tillåter.\n"
++msgstr "\nLicens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>.\nDetta är fri programvara: du får lov att ändra och vidaredistribuera den.\nDet finns INGEN GARANTI, så långt lagen tillåter.\n\n"
+ 
+ #: src/main.c:906
+ msgid "(C)"
+@@ -528,7 +524,7 @@
+ #: src/wordsplit/wordsplit.c:1599
+ #, c-format
+ msgid "%.*s: variable null or not set"
+-msgstr "%.*s: variabeln är null eller inte satt"
++msgstr "%.*s: variabeln är tom eller inte satt"
+ 
+ #: src/wordsplit/wordsplit.c:1629
+ #, c-format
+@@ -562,7 +558,7 @@
+ 
+ #: src/wordsplit/wordsplit.c:2605
+ msgid "quote removal"
+-msgstr "borttagning av citat"
++msgstr "borttagning av citationstecken"
+ 
+ #: src/wordsplit/wordsplit.c:2609
+ msgid "path expansion"

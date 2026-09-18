@@ -1,0 +1,172 @@
+--- a/anubis-4.3.sv.po
++++ b/anubis-4.3.sv.po
+@@ -138,7 +138,7 @@
+ 
+ #: src/daemon.c:162
+ msgid "WARNING: An unprivileged user cannot be resolved. Verify your settings!"
+-msgstr "VARNING: En användare utan rättigheter kan inte upplösas. Kontrollera dina inställningar!"
++msgstr "VARNING: Kan inte slå upp den oprivilegierade användaren. Kontrollera dina inställningar!"
+ 
+ #: src/daemon.c:172
+ msgid "WARNING: An unprivileged user has not been specified!"
+@@ -217,7 +217,7 @@
+ 
+ #: env.opt:115
+ msgid "listen on file descriptor 3"
+-msgstr "lyssna på fildescriptor 3"
++msgstr "lyssna på fildeskriptor 3"
+ 
+ #: env.opt:119
+ msgid "Output options"
+@@ -289,7 +289,7 @@
+ 
+ #: env.opt:43
+ msgid "SMTP message submission daemon."
+-msgstr "SMTP meddelandesändningsdemon."
++msgstr "SMTP-demon för att skicka meddelanden."
+ 
+ #: env.opt:167 env.opt:323
+ msgid "Usage:"
+@@ -718,7 +718,7 @@
+ 
+ #: src/main.c:189
+ msgid "listen(3) failed"
+-msgstr "lyssna(3) misslyckades"
++msgstr "listen(3) misslyckades"
+ 
+ #: src/map.c:65
+ #, c-format
+@@ -788,7 +788,7 @@
+ 
+ #: src/net.c:256
+ msgid "Short write"
+-msgstr "Ofullständig utskrift"
++msgstr "Ofullständig skrivning"
+ 
+ #: src/socks.c:49
+ msgid "Using SOCKS Proxy..."
+@@ -968,16 +968,16 @@
+ 
+ #: src/rcfile.c:655
+ msgid "statement ignored: anubis compiled without PAM support"
+-msgstr "uttalande ignoreras: anubis kompilerad utan PAM-stöd"
++msgstr "sats ignoreras: anubis kompilerad utan PAM-stöd"
+ 
+ #: src/rcfile.c:663
+ msgid "statement ignored: anubis compiled without libgcrypt"
+-msgstr "uttalande ignoreras: anubis kompilerad utan libgcrypt"
++msgstr "sats ignoreras: anubis kompilerad utan libgcrypt"
+ 
+ #: src/rcfile.c:1047
+ #, c-format
+ msgid "No such section: %s"
+-msgstr "Inget sådan sektion: %s"
++msgstr "Ingen sådan sektion: %s"
+ 
+ #: src/rc-lex.l:204
+ #, c-format
+@@ -1109,7 +1109,7 @@
+ #: src/regex.c:460
+ #, c-format
+ msgid "Get substring %d failed (%d)."
+-msgstr "Hämta delsträng %d misslyckades (%d)."
++msgstr "Misslyckades med att hämta delsträng %d (%d)."
+ 
+ #: src/tls.c:157
+ msgid "Initializing TLS/SSL connection with MTA..."
+@@ -1157,15 +1157,15 @@
+ #, c-format
+ msgid "- Anonymous DH using prime of %d bit.\n"
+ msgid_plural "- Anonymous DH using prime of %d bits.\n"
+-msgstr[0] "- Anonym DH använder %d-bit primtal.\n"
+-msgstr[1] "- Anonym DH använder %d-bitars primtal.\n"
++msgstr[0] "- Anonym DH använder ett primtal på %d bit.\n"
++msgstr[1] "- Anonym DH använder ett primtal på %d bitar.\n"
+ 
+ #: src/tls.c:366
+ #, c-format
+ msgid "- Ephemeral DH using prime of %d bit.\n"
+ msgid_plural "- Ephemeral DH using prime of %d bits.\n"
+-msgstr[0] "- Kortlivad DH använder %d-bit primtal.\n"
+-msgstr[1] "- Kortlivad DH använder %d-bitars primtal.\n"
++msgstr[0] "- Kortlivad DH använder ett primtal på %d bit.\n"
++msgstr[1] "- Kortlivad DH använder ett primtal på %d bitar.\n"
+ 
+ #: src/tls.c:377
+ #, c-format
+@@ -1226,8 +1226,8 @@
+ #, c-format
+ msgid "- Modulus: %d bit\n"
+ msgid_plural "- Modulus: %d bits\n"
+-msgstr[0] "- Modulo: %d bit\n"
+-msgstr[1] "- Modulo: %d bitar\n"
++msgstr[0] "- Modulus: %d bit\n"
++msgstr[1] "- Modulus: %d bitar\n"
+ 
+ #: src/tls.c:453
+ #, c-format
+@@ -1322,7 +1322,7 @@
+ 
+ #: src/wordsplit/wordsplit.c:2604
+ msgid "WS trimming"
+-msgstr "WS trimning"
++msgstr "trimning av blanktecken"
+ 
+ #: src/wordsplit/wordsplit.c:2606
+ msgid "command substitution"
+@@ -1330,23 +1330,23 @@
+ 
+ #: src/wordsplit/wordsplit.c:2608 src/wordsplit/wordsplit.c:2616
+ msgid "coalesce list"
+-msgstr "sammansmälta lista"
++msgstr "sammanfogning av lista"
+ 
+ #: src/wordsplit/wordsplit.c:2610
+ msgid "tilde expansion"
+-msgstr "tilde utvidgning"
++msgstr "tildeexpandering"
+ 
+ #: src/wordsplit/wordsplit.c:2612
+ msgid "variable expansion"
+-msgstr "variabel utbyggnad"
++msgstr "variabelexpandering"
+ 
+ #: src/wordsplit/wordsplit.c:2614
+ msgid "quote removal"
+-msgstr "citat borttagning"
++msgstr "borttagning av citattecken"
+ 
+ #: src/wordsplit/wordsplit.c:2618
+ msgid "path expansion"
+-msgstr "utbyggnad av sökväg"
++msgstr "sökvägsexpandering"
+ 
+ #: src/wordsplit/wordsplit.c:2643
+ #, c-format
+@@ -1375,7 +1375,7 @@
+ 
+ #: src/wordsplit/wordsplit.c:2858
+ msgid "unbalanced curly brace"
+-msgstr "obalanserad krullig stag"
++msgstr "obalanserad klammerparentes"
+ 
+ #: src/wordsplit/wordsplit.c:2859
+ msgid "undefined variable"
+@@ -1383,7 +1383,7 @@
+ 
+ #: src/wordsplit/wordsplit.c:2860
+ msgid "input exhausted"
+-msgstr "utdata uttömd"
++msgstr "indata uttömda"
+ 
+ #: src/wordsplit/wordsplit.c:2861
+ msgid "unbalanced parenthesis"
+@@ -1391,7 +1391,7 @@
+ 
+ #: src/wordsplit/wordsplit.c:2862
+ msgid "globbing error"
+-msgstr "globbing fel"
++msgstr "fel vid jokerteckenexpandering"
+ 
+ #: src/wordsplit/wordsplit.c:2863
+ msgid "user-defined error"
