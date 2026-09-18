@@ -11134,160 +11134,161 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     </message>
     <message>
         <source>No frame range edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget bildruteintervall har redigerats.</translation>
     </message>
     <message>
         <source>Updating frame range edit information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar information om redigeringar av bildruteintervall …</translation>
     </message>
     <message>
         <source>Putting changes...</source>
-        <translation type="unfinished"></translation>
+        <translation>Checkar in ändringar …</translation>
     </message>
     <message>
         <source>Updating file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar fil …</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
 </context>
 <context>
     <name>SVNUnlockMultiFrameRangeDialog</name>
     <message>
         <source>Version Control: Unlock Frame Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Lås upp bildruteintervall</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Unlocking %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Låser upp %1 objekt …</translation>
     </message>
     <message>
         <source>No items to unlock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att låsa upp.</translation>
     </message>
     <message>
         <source>%1 items to unlock.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att låsa upp.</translation>
     </message>
 </context>
 <context>
     <name>SVNUpdateAndLockDialog</name>
     <message>
         <source>Version Control: Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Redigera</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
     <message>
         <source>Edit Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera sceninnehåll</translation>
     </message>
     <message>
         <source>Get And Edit </source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta och redigera </translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>No items to edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att redigera.</translation>
     </message>
     <message>
         <source>%1 items to edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att redigera.</translation>
     </message>
     <message>
         <source>Updating %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar %1 objekt …</translation>
     </message>
     <message>
         <source>Editing %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigerar %1 objekt …</translation>
     </message>
 </context>
 <context>
     <name>SVNUpdateDialog</name>
     <message>
         <source>Version Control: Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Uppdatera</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Get Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta sceninnehåll</translation>
     </message>
     <message>
         <source>Update</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>%1 items to update.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att uppdatera.</translation>
     </message>
     <message>
         <source>Update to:</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera till:</translation>
     </message>
     <message>
         <source>Some conflict found. Select..</source>
-        <translation type="unfinished"></translation>
+        <translation>En konflikt hittades. Välj …</translation>
     </message>
     <message>
         <source>No items to update.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att uppdatera.</translation>
     </message>
     <message>
         <source>Some items are currently modified in your working copy.
 Please commit or revert changes first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vissa objekt har ändrats i din arbetskopia.
+Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Updating items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar objekt …</translation>
     </message>
     <message>
         <source>Updating to their items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar till deras objekt …</translation>
     </message>
 </context>
 <context>
     <name>SaveBoardPresetFilePopup</name>
     <message>
         <source>Save Clapperboard Settings As Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara klappbrädeinställningar som förinställning</translation>
     </message>
 </context>
 <context>
@@ -11305,22 +11306,22 @@ Please commit or revert changes first.</source>
     <name>SaveImagesPopup</name>
     <message>
         <source>Save Flipbook Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara blädderboksbilder</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
 </context>
 <context>
     <name>SaveLevelAsPopup</name>
     <message>
         <source>Save Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara nivå</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
 </context>
 <context>
