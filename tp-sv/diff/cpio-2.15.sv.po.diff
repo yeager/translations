@@ -1,0 +1,371 @@
+--- a/cpio-2.15.sv.po
++++ b/cpio-2.15.sv.po
+@@ -136,17 +136,17 @@
+ #: gnu/getopt.c:282
+ #, c-format
+ msgid "%s: option '%s%s' is ambiguous\n"
+-msgstr "%s: flaggan '%s%s' är tvetydig\n"
++msgstr "%s: flaggan ”%s%s” är tvetydig\n"
+ 
+ #: gnu/getopt.c:288
+ #, c-format
+ msgid "%s: option '%s%s' is ambiguous; possibilities:"
+-msgstr "%s: flaggan '%s%s' är tvetydig; möjligheter:"
++msgstr "%s: flaggan ”%s%s” är tvetydig; möjligheter:"
+ 
+ #: gnu/getopt.c:322
+ #, c-format
+ msgid "%s: unrecognized option '%s%s'\n"
+-msgstr "%s: okänd flagga '%s%s'\n"
++msgstr "%s: okänd flagga ”%s%s”\n"
+ 
+ #: gnu/getopt.c:348
+ #, c-format
+@@ -239,7 +239,6 @@
+ "Licens GPLv3+: GNU GPL version 3 eller senare <%s>.\n"
+ "Detta är fri programvara: du får ändra och distribuera den.\n"
+ "Det finns INGEN GARANTI, så långt som lagen tillåter.\n"
+-"\n"
+ 
+ #. TRANSLATORS: %s denotes an author name.
+ #: gnu/version-etc.c:105
+@@ -403,7 +402,7 @@
+ #: lib/paxerror.c:104
+ #, c-format
+ msgid "%s: Cannot change ownership to uid %ju, gid %ju"
+-msgstr "%s: Det går inte ändra ägarskap till uid %ju, gid %ju"
++msgstr "%s: Det går inte att ändra ägarskap till uid %ju, gid %ju"
+ 
+ #: lib/paxerror.c:130
+ #, c-format
+@@ -427,12 +426,12 @@
+ #: lib/paxerror.c:259
+ #, c-format
+ msgid "%s: Cannot seek to %jd"
+-msgstr "%s: Det går inte att söka till %jd"
++msgstr "%s: Det går inte att flytta filpositionen till %jd"
+ 
+ #: lib/paxerror.c:273
+ #, c-format
+ msgid "%s: Warning: Cannot seek to %jd"
+-msgstr "%s: Varning: Det går inte att söka till %jd"
++msgstr "%s: Varning: Det går inte att flytta filpositionen till %jd"
+ 
+ #: lib/paxerror.c:281
+ #, c-format
+@@ -458,11 +457,11 @@
+ 
+ #: lib/paxnames.c:154
+ msgid "Substituting `.' for empty member name"
+-msgstr "Ersätter ”.” för tomma medlemsnamn"
++msgstr "Ersätter tomma medlemsnamn med ”.”"
+ 
+ #: lib/paxnames.c:155
+ msgid "Substituting `.' for empty hard link target"
+-msgstr "Ersätter ”.” för tomma mål för hårda länkar"
++msgstr "Ersätter tomma mål för hårda länkar med ”.”"
+ 
+ #: lib/rtapelib.c:295
+ #, c-format
+@@ -487,7 +486,7 @@
+ #: lib/rtapelib.c:523
+ #, c-format
+ msgid "Cannot redirect files for remote shell"
+-msgstr "Kan inte flytta om filer för fjärrskal"
++msgstr "Kan inte omdirigera filer för fjärrskal"
+ 
+ #: lib/rtapelib.c:528
+ #, c-format
+@@ -501,27 +500,27 @@
+ 
+ #: rmt/rmt.c:434
+ msgid "Seek direction out of range"
+-msgstr "Sökriktningen är utanför intervallet"
++msgstr "Riktningen för flytt av filpositionen är utanför intervallet"
+ 
+ #: rmt/rmt.c:440
+ msgid "Invalid seek direction"
+-msgstr "Ogiltig sökriktning"
++msgstr "Ogiltig riktning för flytt av filpositionen"
+ 
+ #: rmt/rmt.c:448
+ msgid "Invalid seek offset"
+-msgstr "Ogiltigt sökförskjutning"
++msgstr "Ogiltig förskjutning av filpositionen"
+ 
+ #: rmt/rmt.c:454
+ msgid "Seek offset out of range"
+-msgstr "Sökförskjutning är utanför intervallet"
++msgstr "Förskjutningen av filpositionen är utanför intervallet"
+ 
+ #: rmt/rmt.c:495 rmt/rmt.c:546 rmt/rmt.c:610
+ msgid "Invalid byte count"
+-msgstr "Ogiltigt byte-antal"
++msgstr "Ogiltigt antal byte"
+ 
+ #: rmt/rmt.c:501 rmt/rmt.c:552 rmt/rmt.c:616 rmt/rmt.c:627
+ msgid "Byte count out of range"
+-msgstr "Byte-antal är utanför giltigt intervall"
++msgstr "Antalet byte är utanför giltigt intervall"
+ 
+ #: rmt/rmt.c:560
+ msgid "Premature eof"
+@@ -545,7 +544,7 @@
+ 
+ #: rmt/rmt.c:698 src/main.c:130 tests/genfile.c:179
+ msgid "NUMBER"
+-msgstr "ANTAL"
++msgstr "TAL"
+ 
+ #: rmt/rmt.c:699
+ msgid "set debug level"
+@@ -630,7 +629,7 @@
+ #: src/copyin.c:1015 src/copyin.c:1022
+ #, c-format
+ msgid "Malformed number %.*s"
+-msgstr "Felformulerat nummer %.*s"
++msgstr "Felaktigt formaterat tal %.*s"
+ 
+ #: src/copyin.c:1032
+ #, c-format
+@@ -645,12 +644,12 @@
+ #: src/copyin.c:1170
+ #, c-format
+ msgid "malformed header: file name of zero length"
+-msgstr "missformat sidhuvud: filnamn med noll längd"
++msgstr "felaktigt formaterat arkivhuvud: filnamn med noll längd"
+ 
+ #: src/copyin.c:1178
+ #, c-format
+ msgid "malformed header: file name is not nul-terminated"
+-msgstr "missformat sidhuvud: filnamnet är inte nul-terminerat"
++msgstr "felaktigt formaterat arkivhuvud: filnamnet är inte nul-terminerat"
+ 
+ #: src/copyin.c:1300
+ #, c-format
+@@ -677,7 +676,7 @@
+ #: src/copyout.c:290
+ #, c-format
+ msgid "%s: value %s %s out of allowed range 0..%s"
+-msgstr "%s: värdet %s %s är utanför tillåtet intervall 0.. %s"
++msgstr "%s: värdet %s %s är utanför tillåtet intervall 0..%s"
+ 
+ #: src/copyout.c:301
+ #, c-format
+@@ -748,12 +747,12 @@
+ #: src/copyout.c:499
+ #, c-format
+ msgid "%s: value %s %s out of allowed range 0..%u"
+-msgstr "%s: värdet %s %s är utanför tillåtet intervall 0.. %u"
++msgstr "%s: värdet %s %s är utanför tillåtet intervall 0..%u"
+ 
+ #: src/copyout.c:512
+ #, c-format
+ msgid "%s: value %s %s out of allowed range 0..%lu"
+-msgstr "%s: värdet %s %s är utanför tillåtet intervall 0.. %lu"
++msgstr "%s: värdet %s %s är utanför tillåtet intervall 0..%lu"
+ 
+ #: src/copyout.c:561
+ #, c-format
+@@ -854,7 +853,7 @@
+ 
+ #: src/main.c:121
+ msgid "Use given archive FORMAT"
+-msgstr "Använd det angivna arkivformatet"
++msgstr "Använd det angivna arkivformatet FORMAT"
+ 
+ #: src/main.c:123
+ msgid "Set the I/O block size to 5120 bytes"
+@@ -870,7 +869,7 @@
+ 
+ #: src/main.c:127
+ msgid "Use the old portable (ASCII) archive format"
+-msgstr "Använd det gamla portabla (ASCII) arkivformatet"
++msgstr "Använd det gamla portabla arkivformatet (ASCII)"
+ 
+ #: src/main.c:129
+ msgid "Print a \".\" for each file processed"
+@@ -878,7 +877,7 @@
+ 
+ #: src/main.c:131
+ msgid "Set the I/O block size to the given NUMBER of bytes"
+-msgstr "Ställ in I/O-blockstorleken till det angivna antalet byte"
++msgstr "Ställ in I/O-blockstorleken till TAL byte"
+ 
+ #: src/main.c:133
+ msgid "Do not print the number of blocks copied"
+@@ -906,7 +905,8 @@
+ 
+ #: src/main.c:143
+ msgid "Set the ownership of all files created to the specified USER and/or GROUP"
+-msgstr "Ställ in ägaren på alla filer som skapas till den angivna användaren och/eller gruppen"
++msgstr "Ställ in ägaren på alla filer som skapas till angiven ANVÄNDARE och/eller "
++"GRUPP"
+ 
+ #: src/main.c:148
+ msgid "Operation modifiers valid in copy-in and copy-out modes"
+@@ -926,7 +926,7 @@
+ 
+ #: src/main.c:152
+ msgid "Print STRING when the end of a volume of the backup media is reached"
+-msgstr "Visa STRÄNG då slutet på en volym av säkerhetskopieringsmediumet nås"
++msgstr "Visa STRÄNG då slutet på en volym av säkerhetskopieringsmediet nås"
+ 
+ #: src/main.c:154 src/mt.c:181 tests/genfile.c:203
+ msgid "COMMAND"
+@@ -1002,11 +1002,11 @@
+ 
+ #: src/main.c:201
+ msgid "ignore number of links of a directory; always assume 2"
+-msgstr "ignorera antalet länkar i en katalog; anta alltid 2"
++msgstr "ignorera antalet länkar till en katalog; anta alltid 2"
+ 
+ #: src/main.c:203
+ msgid "Create device-independent (reproducible) archives"
+-msgstr "Skapa enhetsoberoende (upprepbara) arkiv"
++msgstr "Skapa enhetsoberoende (reproducerbara) arkiv"
+ 
+ #: src/main.c:210
+ msgid "Operation modifiers valid only in copy-pass mode:"
+@@ -1034,7 +1034,7 @@
+ 
+ #: src/main.c:231
+ msgid "Filenames in the list are delimited by null characters instead of newlines"
+-msgstr "Filnamn i listan är separerade med nulltecken istället för nyrader"
++msgstr "Filnamn i listan är separerade med NUL-tecken istället för nyrader"
+ 
+ #: src/main.c:233
+ msgid "Dereference  symbolic  links  (copy  the files that they point to instead of copying the links)."
+@@ -1161,7 +1161,7 @@
+ 
+ #: src/mt.c:165
+ msgid "control magnetic tape drive operation"
+-msgstr "kontrollera drift av magnetisk bandstation"
++msgstr "styr en magnetisk bandstation"
+ 
+ #: src/mt.c:179
+ msgid "DEVICE"
+@@ -1169,7 +1169,7 @@
+ 
+ #: src/mt.c:180
+ msgid "use device as the file name of the tape drive to operate on"
+-msgstr "använd enhet som filnamn för bandstationen att arbeta med"
++msgstr "använd ENHET som filnamn för bandstationen att arbeta med"
+ 
+ #: src/mt.c:182
+ msgid "use remote COMMAND instead of rsh"
+@@ -1261,7 +1261,7 @@
+ #, c-format
+ msgid "File %s grew, %<PRIuMAX> new byte not copied"
+ msgid_plural "File %s grew, %<PRIuMAX> new bytes not copied"
+-msgstr[0] "Filen %s växte, %<PRIuMAX> nya byte kopierades inte"
++msgstr[0] "Filen %s växte, %<PRIuMAX> ny byte kopierades inte"
+ msgstr[1] "Filen %s växte, %<PRIuMAX> nya byte kopierades inte"
+ 
+ #: src/util.c:592
+@@ -1277,12 +1277,12 @@
+ #: src/util.c:612
+ #, c-format
+ msgid "Creating intermediate directory `%s'"
+-msgstr "Skapar tillfälliga katalogen ”%s”"
++msgstr "Skapar mellanliggande katalogen ”%s”"
+ 
+ #: src/util.c:649 src/util.c:655
+ #, c-format
+ msgid "cannot seek on output"
+-msgstr "kan inte söka på utdata"
++msgstr "kan inte flytta filpositionen i utdata"
+ 
+ #: src/util.c:871
+ #, c-format
+@@ -1351,7 +1351,7 @@
+ 
+ #: tests/genfile.c:139
+ msgid "-T reads null-terminated names"
+-msgstr "-T läser null-terminerade namn"
++msgstr "-T läser NUL-terminerade namn"
+ 
+ #: tests/genfile.c:140
+ msgid "PATTERN"
+@@ -1375,7 +1375,7 @@
+ 
+ #: tests/genfile.c:149
+ msgid "Seek to the given offset before writing data"
+-msgstr "Sök till angiven position innan data skrivs"
++msgstr "Flytta filpositionen till angiven position innan data skrivs"
+ 
+ #: tests/genfile.c:152
+ msgid "Suppress non-fatal diagnostic messages"
+@@ -1395,7 +1395,8 @@
+ 
+ #: tests/genfile.c:167
+ msgid "Set access and modification times of the files to the time supplied by --date option"
+-msgstr "Ställ in åtkomst- och ändringstider för filerna till den tid som anges med alternativet --date"
++msgstr "Ställ in åtkomst- och ändringstider för filerna till den tid som anges med "
++"flaggan --date"
+ 
+ #: tests/genfile.c:174
+ msgid "Synchronous execution options:"
+@@ -1407,11 +1408,12 @@
+ 
+ #: tests/genfile.c:177
+ msgid "Execute ARGS. Trigger checkpoints every Nth record (default 1). Useful with --checkpoint and one of --cut, --append, --touch, --unlink"
+-msgstr "Kör ARGS. Utlöser återställningspunkter var Nth gång (förinställd 1). Använd med --checkpoint och en av --cut, --append, --touch, --unlink"
++msgstr "Kör ARG. Aktivera kontrollpunkter vid var N:e post (standard 1). Användbart "
++"med --checkpoint och en av --cut, --append, --touch, --unlink"
+ 
+ #: tests/genfile.c:180
+ msgid "Perform given action (see below) upon reaching checkpoint NUMBER"
+-msgstr "Genomför angiven åtgärd (se nedan) när kontrollpunkt NUMMER nås"
++msgstr "Genomför angiven åtgärd (se nedan) när kontrollpunkt TAL nås"
+ 
+ #: tests/genfile.c:183
+ msgid "Set date for next --touch option"
+@@ -1443,7 +1445,7 @@
+ 
+ #: tests/genfile.c:207
+ msgid "Delete FILE"
+-msgstr "Ta bort FILE"
++msgstr "Ta bort FIL"
+ 
+ #: tests/genfile.c:258
+ #, c-format
+@@ -1453,7 +1455,7 @@
+ #: tests/genfile.c:263
+ #, c-format
+ msgid "Number out of allowed range: %s"
+-msgstr "Numret är utanför tillåtet intervall: %s"
++msgstr "Talet är utanför tillåtet intervall: %s"
+ 
+ #: tests/genfile.c:266
+ #, c-format
+@@ -1497,12 +1499,12 @@
+ 
+ #: tests/genfile.c:463
+ msgid "cannot seek"
+-msgstr "kan inte söka"
++msgstr "kan inte flytta filpositionen"
+ 
+ #: tests/genfile.c:480
+ #, c-format
+ msgid "file name contains null character"
+-msgstr "filnamnet innehåller null-tecken"
++msgstr "filnamnet innehåller NUL-tecken"
+ 
+ #: tests/genfile.c:593
+ #, c-format
+@@ -1537,12 +1539,12 @@
+ #: tests/genfile.c:822
+ #, c-format
+ msgid "cannot stat `%s'"
+-msgstr "det går inte att ta stat ”%s”"
++msgstr "det går inte att ta status på ”%s”"
+ 
+ #: tests/genfile.c:826
+ #, c-format
+ msgid "cannot remove directory `%s'"
+-msgstr "det går inte att skapa katalogen ”%s”"
++msgstr "det går inte att ta bort katalogen ”%s”"
+ 
+ #: tests/genfile.c:829
+ #, c-format

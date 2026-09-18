@@ -1,0 +1,70 @@
+--- a/cppi-1.17.sv.po
++++ b/cppi-1.17.sv.po
+@@ -198,7 +198,7 @@
+ "Written by %s, %s, %s,\n"
+ "%s, %s, and %s.\n"
+ msgstr ""
+-"Skrivet av %s, %s, %s\n"
++"Skrivet av %s, %s, %s,\n"
+ "%s, %s och %s.\n"
+ 
+ #. TRANSLATORS: Each %s denotes an author name.
+@@ -364,7 +364,7 @@
+ msgstr ""
+ "\n"
+ "Dra in C-preprocessordirektiven i FILen för att återspegla deras nästning\n"
+-"och se till att det finns exakt ett mellanslag mellan varje #if- #elif-,\n"
++"och se till att det finns exakt ett mellanslag mellan varje #if-, #elif- och\n"
+ "#define-direktiv och följande symbol, och skriv ut resultatet\n"
+ 
+ #: src/cppi.l:653
+@@ -374,7 +374,7 @@
+ "With no FILE, or when FILE is -, read standard input.\n"
+ msgstr ""
+ "till standard ut.  Antalet mellanrum mellan ”#” och det följande direktivet\n"
+-"skall motsvara den nästningsnivån för det direktivet.  Utan FIL, eller när\n"
++"skall motsvara nästningsnivån för det direktivet.  Utan FIL, eller när\n"
+ "FIL är -, läs standard in.\n"
+ 
+ #: src/cppi.l:658
+@@ -389,8 +389,8 @@
+ "\n"
+ "  -a, --ansi             vid kontroll, ge fel om text följer #else eller #endif\n"
+ "  -c, --check            returnera slutstatus, men producera inga utdata\n"
+-"  -l, --list-files-only  skriv inte ut felmeddelanden om indrag,\n"
+-"                         skriv till bara namnen på filer som inte är ordentligt\n"
++"  -l, --list-files-only  skriv inte ut felmeddelanden om indrag;\n"
++"                         skriv endast namnen på filer som inte är korrekt\n"
+ "                         indragna till standard ut\n"
+ 
+ #: src/cppi.l:666
+@@ -400,9 +400,9 @@
+ "                         than LENGTH;  if LENGTH is 0 (the default),\n"
+ "                         then there is no limit\n"
+ msgstr ""
+-"  -m, -max-string-length=LÄNGD\n"
++"  -m, --max-string-length=LÄNGD\n"
+ "                        misslyckas om det finns en dubbelciterad sträng längre\n"
+-"                        än LÄNGD, om LÄNGDen är 0 (standard), finns det ingen\n"
++"                        än LÄNGD, om LÄNGD är 0 (standard), finns det ingen\n"
+ "                        gräns\n"
+ 
+ #: src/cppi.l:674
+@@ -441,7 +441,7 @@
+ "\n"
+ "Slutstatus kommer att vara en av dessa:\n"
+ "  0  alla direktiv är ordentligt indragna\n"
+-"  1  några cpp-direktiv är felaktigt indragen, eller\n"
++"  1  några cpp-direktiv är felaktigt indragna, eller\n"
+ "     om text följer #else/#endif (aktiveras med --check --ansi), eller\n"
+ "     en dubbelciterad sträng är längre än det angivna maximumet\n"
+ "  2  #if/#endif stämmer inte överens, filslut i kommentar eller sträng\n"
+@@ -453,7 +453,7 @@
+ "A pragma directive may have its `#' indented.\n"
+ msgstr ""
+ "\n"
+-"Ett pragma-direktiv kan ha sin ”#” indragen.\n"
++"Ett pragma-direktiv kan ha sitt ”#” indraget.\n"
+ 
+ #: src/cppi.l:698
+ #, c-format

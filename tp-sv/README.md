@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 9 483 aktiva poster i de 15 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 2 008 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 12 304 aktiva poster i de 18 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 2 490 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.2, [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -25,6 +25,9 @@ Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska
 | cflow | 1.8 | 165 | 6 | [PO](cflow-1.8.sv.po) | [Diff](diff/cflow-1.8.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/cflow-1.8.sv.po) |
 | chambercourt | 0.9.40 | 12 | 1 | [PO](chambercourt-0.9.40.sv.po) | [Diff](diff/chambercourt-0.9.40.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/chambercourt-0.9.40.sv.po) |
 | clisp | 2.49.60 | 1551 | 307 | [PO](clisp-2.49.60.sv.po) | [Diff](diff/clisp-2.49.60.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/clisp-2.49.60.sv.po) |
+| coreutils | 9.12-pre1 | 2443 | 428 | [PO](coreutils-9.12-pre1.sv.po) | [Diff](diff/coreutils-9.12-pre1.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/coreutils-9.12-pre1.sv.po) |
+| cpio | 2.15 | 317 | 47 | [PO](cpio-2.15.sv.po) | [Diff](diff/cpio-2.15.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/cpio-2.15.sv.po) |
+| cppi | 1.17 | 61 | 7 | [PO](cppi-1.17.sv.po) | [Diff](diff/cppi-1.17.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/cppi-1.17.sv.po) |
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
 
