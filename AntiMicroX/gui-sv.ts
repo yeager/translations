@@ -2243,114 +2243,116 @@ en diagonal zon.</translation>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="202"/>
         <source>Right Stick X</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger styrspak X</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="207"/>
         <source>Right Stick Y</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger styrspak Y</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="212"/>
         <source>Left Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster avtryckare</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="217"/>
         <source>Right Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger avtryckare</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="222"/>
         <source>DPad Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsplatta upp</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="227"/>
         <source>DPad Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsplatta vänster</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="232"/>
         <source>DPad Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsplatta ned</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="237"/>
         <source>DPad Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsplatta höger</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="242"/>
         <source>Mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="256"/>
         <source>SDL 2 Game Controller Mapping String</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappningssträng för SDL 2-handkontroll</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="307"/>
         <source>Last Axis Event:</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste axelhändelse:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="321"/>
         <source>Current Axis Detection Dead Zone:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell identifieringsdödzon för axel:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="329"/>
         <source>5000</source>
-        <translation type="unfinished"></translation>
+        <translation>5000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="334"/>
         <source>10000</source>
-        <translation type="unfinished"></translation>
+        <translation>10000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="339"/>
         <source>15000</source>
-        <translation type="unfinished"></translation>
+        <translation>15000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="344"/>
         <source>20000</source>
-        <translation type="unfinished"></translation>
+        <translation>20000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="349"/>
         <source>25000</source>
-        <translation type="unfinished"></translation>
+        <translation>25000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="354"/>
         <source>30000</source>
-        <translation type="unfinished"></translation>
+        <translation>30000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.ui" line="359"/>
         <source>32000</source>
-        <translation type="unfinished"></translation>
+        <translation>32000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.cpp" line="134"/>
         <source>Game Controller Mapping (%1) (#%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Handkontrollmappning (%1) (nr %2)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.cpp" line="448"/>
         <source>Discard Controller Mapping?</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkasta handkontrollmappning?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/gamecontrollermappingdialog.cpp" line="449"/>
         <source>Discard mapping for this controller?
 
 If discarded, the controller will be reverted to a joystick once you refresh all joysticks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkasta mappningen för den här handkontrollen?
+
+Om den förkastas återställs handkontrollen till en styrspak när du uppdaterar alla styrspakar.</translation>
     </message>
 </context>
 <context>
@@ -2358,47 +2360,47 @@ If discarded, the controller will be reverted to a joystick once you refresh all
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="99"/>
         <source>Back</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillbaka</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="100"/>
         <source>Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Guide</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="101"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Start</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="102"/>
         <source>LS Click</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster styrspaksklick</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="103"/>
         <source>RS Click</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger styrspaksklick</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="104"/>
         <source>L Shoulder</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster axelknapp</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="105"/>
         <source>R Shoulder</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger axelknapp</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="108"/>
         <source>L Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster avtryckare</translation>
     </message>
     <message>
         <location filename="../../../src/gamecontroller/gamecontrollerset.cpp" line="109"/>
         <source>R Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger avtryckare</translation>
     </message>
 </context>
 <context>
@@ -2408,7 +2410,7 @@ If discarded, the controller will be reverted to a joystick once you refresh all
         <location filename="../../../src/gamecontroller/gamecontrollertrigger.cpp" line="106"/>
         <location filename="../../../src/gamecontroller/gamecontrollertrigger.cpp" line="110"/>
         <source>Trigger</source>
-        <translation type="unfinished"></translation>
+        <translation>Avtryckare</translation>
     </message>
 </context>
 <context>
@@ -2454,7 +2456,7 @@ If discarded, the controller will be reverted to a joystick once you refresh all
         <location filename="../../../src/joyaxis.cpp" line="756"/>
         <location filename="../../../src/joyaxis.cpp" line="762"/>
         <source>Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel</translation>
     </message>
 </context>
 <context>
@@ -2462,17 +2464,17 @@ If discarded, the controller will be reverted to a joystick once you refresh all
     <message>
         <location filename="../../../src/joybuttontypes/joyaxisbutton.cpp" line="66"/>
         <source>Negative</source>
-        <translation type="unfinished"></translation>
+        <translation>Negativ</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joyaxisbutton.cpp" line="70"/>
         <source>Positive</source>
-        <translation type="unfinished"></translation>
+        <translation>Positiv</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joyaxisbutton.cpp" line="74"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänd</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joyaxisbutton.cpp" line="47"/>
@@ -2487,7 +2489,7 @@ If discarded, the controller will be reverted to a joystick once you refresh all
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="67"/>
         <source>Mouse (Horizontal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mus (vågrät)</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="77"/>
@@ -2497,7 +2499,7 @@ If discarded, the controller will be reverted to a joystick once you refresh all
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="87"/>
         <source>Mouse (Vertical)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mus (lodrät)</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="97"/>
@@ -2507,32 +2509,32 @@ If discarded, the controller will be reverted to a joystick once you refresh all
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="107"/>
         <source>Arrows: Up | Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Piltangenter: Upp | Ned</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="117"/>
         <source>Arrows: Left | Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Piltangenter: Vänster | Höger</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="127"/>
         <source>Keys: W | S</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangenter: W | S</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="137"/>
         <source>Keys: A | D</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangenter: A | D</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="147"/>
         <source>NumPad: KP_8 | KP_2</source>
-        <translation type="unfinished"></translation>
+        <translation>Numeriskt tangentbord: KP_8 | KP_2</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="157"/>
         <source>NumPad: KP_4 | KP_6</source>
-        <translation type="unfinished"></translation>
+        <translation>Numeriskt tangentbord: KP_4 | KP_6</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="166"/>
@@ -2549,12 +2551,12 @@ If discarded, the controller will be reverted to a joystick once you refresh all
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="374"/>
         <source>Left Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster musknapp</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="384"/>
         <source>Right Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger musknapp</translation>
     </message>
 </context>
 <context>
@@ -2562,17 +2564,17 @@ If discarded, the controller will be reverted to a joystick once you refresh all
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="250"/>
         <source>Processing turbo for #%1 - %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbetar turbo för #%1 - %2</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="257"/>
         <source>Finishing turbo for button #%1 - %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Avslutar turbo för knapp #%1 - %2</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="311"/>
         <source>Distance change for button #%1 - %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Avståndsändring för knapp #%1 - %2</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="1608"/>
