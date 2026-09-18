@@ -11927,7 +11927,7 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Save Current Shortcuts as New Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara aktuella kortkommandon som ny förinställning</translation>
     </message>
     <message>
         <source>Apply</source>
@@ -11935,142 +11935,142 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Use selected preset as shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd vald förinställning som kortkommandon</translation>
     </message>
     <message>
         <source>Clear All Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa alla kortkommandon</translation>
     </message>
     <message>
         <source>This will erase ALL shortcuts. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta raderar ALLA kortkommandon. Fortsätt?</translation>
     </message>
     <message>
         <source>This will overwrite all current shortcuts. Continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta skriver över alla aktuella kortkommandon. Fortsätt?</translation>
     </message>
     <message>
         <source>A file named </source>
-        <translation type="unfinished"></translation>
+        <translation>En fil med namnet </translation>
     </message>
     <message>
         <source> already exists.  Do you want to replace it?</source>
-        <translation type="unfinished"></translation>
+        <translation> finns redan. Vill du ersätta den?</translation>
     </message>
     <message>
         <source>OpenToonz - Setting Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>OpenToonz – Konfigurera kortkommandon</translation>
     </message>
     <message>
         <source>Included presets cannot be deleted.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inbyggda förinställningar kan inte tas bort.</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the preset: </source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen ta bort förinställningen: </translation>
     </message>
     <message>
         <source>?</source>
-        <translation type="unfinished"></translation>
+        <translation>?</translation>
     </message>
     <message>
         <source>Load from file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in från fil …</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Shortcut Presets</source>
-        <translation type="unfinished"></translation>
+        <translation>Förinställningar för kortkommandon</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Save As</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara som</translation>
     </message>
     <message>
         <source>Search:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök:</translation>
     </message>
     <message>
         <source>Preset:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förinställning:</translation>
     </message>
     <message>
         <source>Saving Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparar kortkommandon</translation>
     </message>
     <message>
         <source>Setting Shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurerar kortkommandon</translation>
     </message>
     <message>
         <source>Enter Preset Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange namn på förinställning</translation>
     </message>
     <message>
         <source>Preset Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn på förinställning:</translation>
     </message>
 </context>
 <context>
     <name>ShortcutTree</name>
     <message>
         <source>Menu Commands</source>
-        <translation type="unfinished"></translation>
+        <translation>Menykommandon</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkiv</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Scan &amp; Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Skanna och renrita</translation>
     </message>
     <message>
         <source>Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå</translation>
     </message>
     <message>
         <source>Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>XSheet</translation>
     </message>
     <message>
         <source>Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Celler</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Fönster</translation>
     </message>
     <message>
         <source>Right-click Menu Commands</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandon på högerklicksmenyn</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktyg</translation>
     </message>
     <message>
         <source>Tool Modifiers</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktygsmodifierare</translation>
     </message>
     <message>
         <source>Visualization</source>
-        <translation type="unfinished"></translation>
+        <translation>Visualisering</translation>
     </message>
     <message>
         <source>Playback Controls</source>
@@ -12078,15 +12078,15 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>RGBA Channels</source>
-        <translation type="unfinished"></translation>
+        <translation>RGBA-kanaler</translation>
     </message>
     <message>
         <source>Fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyll</translation>
     </message>
     <message>
         <source>Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>Övrigt</translation>
     </message>
     <message>
         <source>Playback</source>
@@ -12094,11 +12094,11 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela</translation>
     </message>
     <message>
         <source>Render</source>
-        <translation type="unfinished"></translation>
+        <translation>Rendera</translation>
     </message>
     <message>
         <source>Help</source>
