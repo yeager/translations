@@ -4937,7 +4937,7 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Raster Bounding Box</source>
-        <translation>&amp;Rastrerets begränsningsruta</translation>
+        <translation>&amp;Rastrets begränsningsruta</translation>
     </message>
     <message>
         <source>Link Flipbooks</source>
@@ -13751,11 +13751,11 @@ Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>Click to play the soundtrack back</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att spela upp ljudspåret</translation>
     </message>
     <message>
         <source>Set the volume of the soundtrack</source>
-        <translation type="unfinished"></translation>
+        <translation>Ställ in ljudspårets volym</translation>
     </message>
     <message>
         <source>Click to select the type of motion path</source>
@@ -13763,7 +13763,7 @@ Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>Click to select column, drag to move it</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att välja kolumn, dra för att flytta den</translation>
     </message>
     <message>
         <source>Click to unlink column</source>
@@ -13779,95 +13779,95 @@ Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>&amp;Subsampling 1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nedsampling 1</translation>
     </message>
     <message>
         <source>&amp;Subsampling 2</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nedsampling 2</translation>
     </message>
     <message>
         <source>&amp;Subsampling 3</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nedsampling 3</translation>
     </message>
     <message>
         <source>&amp;Subsampling 4</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nedsampling 4</translation>
     </message>
     <message>
         <source>Preview Visibility Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla synlighet för förhandsgranskning</translation>
     </message>
     <message>
         <source>Camera Stand Visibility Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla synlighet för kamerastativ</translation>
     </message>
     <message>
         <source>Alt + Click to Toggle Thumbnail</source>
-        <translation type="unfinished"></translation>
+        <translation>Alt + klick för att växla miniatyrbild</translation>
     </message>
     <message>
         <source>Reframe</source>
-        <translation type="unfinished"></translation>
+        <translation>Rama om</translation>
     </message>
     <message>
         <source>Subsampling</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedsampling</translation>
     </message>
     <message>
         <source>Click to select column</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att välja kolumn</translation>
     </message>
     <message>
         <source>Click to select column, drag to move it, double-click to edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att välja kolumn, dra för att flytta den, dubbelklicka för att redigera</translation>
     </message>
     <message>
         <source>Click to select column, double-click to edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att välja kolumn, dubbelklicka för att redigera</translation>
     </message>
     <message>
         <source>Additional column settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Ytterligare kolumninställningar</translation>
     </message>
     <message>
         <source>&amp;Insert Before</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga &amp;före</translation>
     </message>
     <message>
         <source>&amp;Insert After</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga &amp;efter</translation>
     </message>
     <message>
         <source>&amp;Paste Insert Before</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in och infoga &amp;före</translation>
     </message>
     <message>
         <source>&amp;Paste Insert After</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in och infoga &amp;efter</translation>
     </message>
     <message>
         <source>&amp;Insert Below</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga &amp;nedanför</translation>
     </message>
     <message>
         <source>&amp;Insert Above</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga &amp;ovanför</translation>
     </message>
     <message>
         <source>&amp;Paste Insert Below</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in och infoga &amp;nedanför</translation>
     </message>
     <message>
         <source>&amp;Paste Insert Above</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in och infoga &amp;ovanför</translation>
     </message>
     <message>
         <source>Hide Camera Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj kamerakolumn</translation>
     </message>
     <message>
         <source>Show Camera Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa kamerakolumn</translation>
     </message>
 </context>
 <context>
@@ -13906,61 +13906,61 @@ Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>Filter:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filter:</translation>
     </message>
     <message>
         <source>Opacity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Opacitet:</translation>
     </message>
 </context>
 <context>
     <name>XsheetGUI::NoteArea</name>
     <message>
         <source>Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildruta</translation>
     </message>
     <message>
         <source>Sec Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekundbildruta</translation>
     </message>
     <message>
         <source>6sec Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>6-sekundersblad</translation>
     </message>
     <message>
         <source>3sec Sheet</source>
-        <translation type="unfinished"></translation>
+        <translation>3-sekundersblad</translation>
     </message>
     <message>
         <source>Toggle Xsheet/Timeline</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla XSheet/tidslinje</translation>
     </message>
     <message>
         <source>Add New Memo</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till ny anteckning</translation>
     </message>
     <message>
         <source>Previous Memo</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående anteckning</translation>
     </message>
     <message>
         <source>Next Memo</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa anteckning</translation>
     </message>
 </context>
 <context>
     <name>XsheetGUI::NotePopup</name>
     <message>
         <source>Memo</source>
-        <translation type="unfinished"></translation>
+        <translation>Anteckning</translation>
     </message>
     <message>
         <source>Post</source>
-        <translation type="unfinished"></translation>
+        <translation>Publicera</translation>
     </message>
     <message>
         <source>Discard</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkasta</translation>
     </message>
 </context>
 <context>
@@ -13971,35 +13971,35 @@ Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>Current Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell bildruta</translation>
     </message>
     <message>
         <source>Relative Onion Skin Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla relativ lökhinna</translation>
     </message>
     <message>
         <source>Fixed Onion Skin Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla fast lökhinna</translation>
     </message>
     <message>
         <source>Playback Start Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Startmarkör för uppspelning</translation>
     </message>
     <message>
         <source>Playback End Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Slutmarkör för uppspelning</translation>
     </message>
     <message>
         <source>Set Start Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange startmarkör</translation>
     </message>
     <message>
         <source>Set Stop Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange stoppmarkör</translation>
     </message>
     <message>
         <source>Remove Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort markörer</translation>
     </message>
     <message>
         <source>Curren Frame</source>
@@ -14007,45 +14007,48 @@ Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>Preview This</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsgranska detta</translation>
     </message>
     <message>
         <source>Double Click to Toggle Onion Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubbelklicka för att växla lökhinna</translation>
     </message>
     <message>
         <source>Pinned Center : Col%1%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäst mittpunkt: kolumn %1%2</translation>
     </message>
     <message>
         <source>Set Auto Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange automatiska markörer</translation>
     </message>
     <message>
         <source>Click to Reset Shift &amp; Trace Markers to Neighbor Frames
 Hold F2 Key on the Viewer to Show This Frame Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att återställa markörer för Förskjut och spåra till angränsande bildrutor
+Håll ned F2 i visaren för att endast visa den här bildrutan</translation>
     </message>
     <message>
         <source>Click to Hide This Frame from Shift &amp; Trace
 Hold F1 Key on the Viewer to Show This Frame Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att dölja den här bildrutan från Förskjut och spåra
+Håll ned F1 i visaren för att endast visa den här bildrutan</translation>
     </message>
     <message>
         <source>Click to Hide This Frame from Shift &amp; Trace
 Hold F3 Key on the Viewer to Show This Frame Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att dölja den här bildrutan från Förskjut och spåra
+Håll ned F3 i visaren för att endast visa den här bildrutan</translation>
     </message>
     <message>
         <source>Click to Move Shift &amp; Trace Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att flytta markören för Förskjut och spåra</translation>
     </message>
 </context>
 <context>
     <name>XsheetGUI::SoundColumnPopup</name>
     <message>
         <source>Volume:</source>
-        <translation type="unfinished"></translation>
+        <translation>Volym:</translation>
     </message>
 </context>
 <context>
@@ -14067,50 +14070,50 @@ Hold F3 Key on the Viewer to Show This Frame Only</source>
     <name>XsheetGUI::XSheetToolbar</name>
     <message>
         <source>Customize XSheet Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa XSheet-verktygsfält</translation>
     </message>
 </context>
 <context>
     <name>XsheetViewer</name>
     <message>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnlös</translation>
     </message>
     <message>
         <source>Scene: </source>
-        <translation type="unfinished"></translation>
+        <translation>Scen: </translation>
     </message>
     <message>
         <source> Frames</source>
-        <translation type="unfinished"></translation>
+        <translation> bildrutor</translation>
     </message>
     <message>
         <source>  (Sub)</source>
-        <translation type="unfinished"></translation>
+        <translation>  (Under)</translation>
     </message>
     <message>
         <source>  Level: </source>
-        <translation type="unfinished"></translation>
+        <translation>  Nivå: </translation>
     </message>
     <message>
         <source>   Selected: </source>
-        <translation type="unfinished"></translation>
+        <translation>   Markerade: </translation>
     </message>
     <message>
         <source> frame : </source>
-        <translation type="unfinished"></translation>
+        <translation> bildruta: </translation>
     </message>
     <message>
         <source> frames * </source>
-        <translation type="unfinished"></translation>
+        <translation> bildrutor * </translation>
     </message>
     <message>
         <source> column</source>
-        <translation type="unfinished"></translation>
+        <translation> kolumn</translation>
     </message>
     <message>
         <source> columns</source>
-        <translation type="unfinished"></translation>
+        <translation> kolumner</translation>
     </message>
     <message>
         <source>Zoom in/out of timeline</source>
@@ -14122,7 +14125,7 @@ Hold F3 Key on the Viewer to Show This Frame Only</source>
     </message>
     <message>
         <source> Frame</source>
-        <translation type="unfinished"></translation>
+        <translation> Bildruta</translation>
     </message>
 </context>
 </TS>
