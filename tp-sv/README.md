@@ -2,7 +2,7 @@
 
 Granskning 2026-09-18: samtliga 13 677 aktiva poster i de 21 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 2 778 rättade poster. Hela TP-granskningen pågår fortfarande.
 
-Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.2, [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
+Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
 PO-filernas befintliga uppdelning på fysiska rader bevaras för oförändrade textdelar. Ren PO-omformatering räknas inte som en rättad post.
 
