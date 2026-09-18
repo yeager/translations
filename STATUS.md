@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CalyxOS Permissions (2026-09-18):** Säkerhetsmodulen för tidsbegränsad kamera- och mikrofonåtkomst är färdigställd: **18/18** svenska strängar, 0 tomma, 0 ogranskade och 0 kontrollmarkeringar. Tidsvalen och åtkomstvarningarna är terminologiskt granskade i Android-kontext. Officiell export: `CalyxOS-Permissions/strings.xml` (XML- och platshållarvaliderad; hunspell-sv användes. l10n-lint saknar stöd för Android XLIFF/XML).
+
 **CalyxOS Seedvault (2026-09-18):** Säkerhetsrelevant Android-säkerhetskopiering har granskats och den enda tomma strängen är publicerad: `RoundSync-fjärrplats:`. Feltexten för automatisk återställning från USB-minne är terminologiskt förtydligad. API:t returnerar nu 0 tomma och 0 ogranskade strängar; Weblate visar ändå **252/253** samt en kontrollmarkering på USB-feltexten. Kontrollen har granskats i sin Android-aviseringkontext och formuleringen är korrekt. Officiell export: `CalyxOS-Seedvault/strings.xml` (XML-validerad).
 
 **CalyxOS Firewall (2026-09-18):** Säkerhetsrelevant Android-brandvägg har färdigställts: **35/35** svenska strängar, 0 ogranskade och 0 kontrollmarkeringar. Den kontextgranskade översättningen täcker standardnekad internetåtkomst för nya appar, arbetsprofil, appbehörighet och brandväggsaviseringar. Officiell export: `CalyxOS-Firewall/strings.xml` (XML-validerad).
