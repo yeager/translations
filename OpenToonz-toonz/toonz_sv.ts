@@ -3941,11 +3941,11 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Apply Match Lines...</source>
-        <translation>&amp;Tillämpa matchningslinjer...</translation>
+        <translation>&amp;Tillämpa passningslinjer...</translation>
     </message>
     <message>
         <source>&amp;Delete Match Lines</source>
-        <translation>&amp;Ta bort matchningslinjer</translation>
+        <translation>&amp;Ta bort passningslinjer</translation>
     </message>
     <message>
         <source>&amp;Delete Lines...</source>
@@ -5922,49 +5922,49 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Mesh Creation in progress...</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar nät...</translation>
     </message>
     <message>
         <source>Current selection contains mixed image and mesh level types</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell markering innehåller blandade typer av bild- och nätnivåer</translation>
     </message>
     <message>
         <source>Current selection contains no image or mesh level types</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell markering innehåller inga bild- eller nätnivåer</translation>
     </message>
 </context>
 <context>
     <name>MyScannerListener</name>
     <message>
         <source>Scanning in progress: </source>
-        <translation type="unfinished"></translation>
+        <translation>Skannar: </translation>
     </message>
     <message>
         <source>The scanning process is completed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skanningen är klar.</translation>
     </message>
     <message>
         <source>There was an error during the scanning process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod under skanningen.</translation>
     </message>
     <message>
         <source>Please, place the next paper drawing on the scanner flatbed, then select the relevant command in the TWAIN interface.</source>
-        <translation type="unfinished"></translation>
+        <translation>Placera nästa pappersritning på bildläsarens glas och välj sedan relevant kommando i TWAIN-gränssnittet.</translation>
     </message>
     <message>
         <source>Please, place the next paper drawing on the scanner flatbed, then click the Scan button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Placera nästa pappersritning på bildläsarens glas och klicka sedan på knappen Läs in.</translation>
     </message>
     <message>
         <source>The pixel type is not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pixeltypen stöds inte.</translation>
     </message>
 </context>
 <context>
     <name>MyVideoWidget</name>
     <message>
         <source>Camera is not available</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameran är inte tillgänglig</translation>
     </message>
 </context>
 <context>
@@ -5978,7 +5978,7 @@ Vad vill du göra?</translation>
     <name>OutputSettingsPopup</name>
     <message>
         <source>Save in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>File Name:</source>
@@ -5990,7 +5990,7 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Output Camera:</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdatakamera:</translation>
     </message>
     <message>
         <source>To Frame:</source>
@@ -6002,23 +6002,23 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Shrink:</source>
-        <translation type="unfinished"></translation>
+        <translation>Förminska:</translation>
     </message>
     <message>
         <source>Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg:</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <source>Fx Schematic Flows</source>
-        <translation type="unfinished"></translation>
+        <translation>FX-schematiska flöden</translation>
     </message>
     <message>
         <source>Fx Schematic Terminal Nodes</source>
-        <translation type="unfinished"></translation>
+        <translation>FX-schematiska slutnoder</translation>
     </message>
     <message>
         <source>Multiple Rendering: </source>
@@ -6026,43 +6026,43 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Do stereoscopy</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd stereoskopi</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>Improved</source>
-        <translation type="unfinished"></translation>
+        <translation>Förbättrad</translation>
     </message>
     <message>
         <source>High</source>
-        <translation type="unfinished"></translation>
+        <translation>Hög</translation>
     </message>
     <message>
         <source>Resample Balance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Omsamplingsbalans:</translation>
     </message>
     <message>
         <source>Channel Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanalbredd:</translation>
     </message>
     <message>
         <source>Gamma:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gamma:</translation>
     </message>
     <message>
         <source>Odd (NTSC)</source>
-        <translation type="unfinished"></translation>
+        <translation>Udda (NTSC)</translation>
     </message>
     <message>
         <source>Even (PAL)</source>
-        <translation type="unfinished"></translation>
+        <translation>Jämn (PAL)</translation>
     </message>
     <message>
         <source>Dominant Field:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dominerande fält:</translation>
     </message>
     <message>
         <source>to FPS:</source>
@@ -6070,59 +6070,59 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Stretch from FPS:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sträck från FPS:</translation>
     </message>
     <message>
         <source>Single</source>
-        <translation type="unfinished"></translation>
+        <translation>Enkel</translation>
     </message>
     <message>
         <source>Half</source>
-        <translation type="unfinished"></translation>
+        <translation>Halv</translation>
     </message>
     <message>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla</translation>
     </message>
     <message>
         <source>Dedicated CPUs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Reserverade CPU:er:</translation>
     </message>
     <message>
         <source>Large</source>
-        <translation type="unfinished"></translation>
+        <translation>Stor</translation>
     </message>
     <message>
         <source>Medium</source>
-        <translation type="unfinished"></translation>
+        <translation>Medel</translation>
     </message>
     <message>
         <source>Small</source>
-        <translation type="unfinished"></translation>
+        <translation>Liten</translation>
     </message>
     <message>
         <source>Render Tile:</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderingsruta:</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>Use Sub-Camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd underkamera</translation>
     </message>
     <message>
         <source>Apply Shrink to Main Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa förminskning på huvudvisaren</translation>
     </message>
     <message>
         <source>Preview Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisningsinställningar</translation>
     </message>
     <message>
         <source>Output Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Utdatainställningar</translation>
     </message>
     <message>
         <source>8 bits</source>
@@ -6138,7 +6138,7 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Camera Shift:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameraförskjutning:</translation>
     </message>
     <message>
         <source>Stereoscopic Render:</source>
@@ -6146,75 +6146,75 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Camera Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerainställningar</translation>
     </message>
     <message>
         <source>File Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Filinställningar</translation>
     </message>
     <message>
         <source>Other Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Övriga inställningar</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Triangle filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Triangelfilter</translation>
     </message>
     <message>
         <source>Mitchell-Netravali filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Mitchell-Netravali-filter</translation>
     </message>
     <message>
         <source>Cubic convolution, a = .5</source>
-        <translation type="unfinished"></translation>
+        <translation>Kubisk konvolution, a = .5</translation>
     </message>
     <message>
         <source>Cubic convolution, a = .75</source>
-        <translation type="unfinished"></translation>
+        <translation>Kubisk konvolution, a = .75</translation>
     </message>
     <message>
         <source>Cubic convolution, a = 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kubisk konvolution, a = 1</translation>
     </message>
     <message>
         <source>Hann window, rad = 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Hann-fönster, rad = 2</translation>
     </message>
     <message>
         <source>Hann window, rad = 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Hann-fönster, rad = 3</translation>
     </message>
     <message>
         <source>Hamming window, rad = 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Hamming-fönster, rad = 2</translation>
     </message>
     <message>
         <source>Hamming window, rad = 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Hamming-fönster, rad = 3</translation>
     </message>
     <message>
         <source>Lanczos window, rad = 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-fönster, rad = 2</translation>
     </message>
     <message>
         <source>Lanczos window, rad = 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Lanczos-fönster, rad = 3</translation>
     </message>
     <message>
         <source>Gaussian convolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaussisk konvolution</translation>
     </message>
     <message>
         <source>Closest Pixel (Nearest Neighbor)</source>
-        <translation type="unfinished"></translation>
+        <translation>Närmaste pixel (närmaste granne)</translation>
     </message>
     <message>
         <source>Bilinear</source>
