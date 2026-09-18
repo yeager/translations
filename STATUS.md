@@ -2,7 +2,7 @@
 
 Senast uppdaterad: 2026-09-18
 
-**3D Slicer (2026-09-18):** Maskinöversatt svensk komponent är 4 645/5 849 med 995 `needs-editing`. En ny granskad UI-batch (markeringar, in-/utdata, orientering, färgförklaring och synlighet) verifierades men samtliga 18 API-uppdateringar avvisades av projektets Weblate-behörighet. Ingen extern ändring gjordes.
+**3D Slicer (2026-09-18):** Efter godkänt översättaravtal har den granskade UI-batchen skickats till Hosted Weblate. Importen accepterade **79** poster (0 saknades); svenska huvudkomponenten är nu **4 724/5 849** med 963 `needs-editing` och 27 kontrollmarkeringar. Den officiella exporten är synkad som `3D-Slicer/Slicer_sv.ts`. Fortsätt granska återstående maskinöversättningar med UI-kontext.
 
 **CopyQ (2026-09-18):** Aktuell release 16.0.0. Svenska UI:t är **684/684**, 0 fuzzy. Den enda kontrollvarningen, *Change Password Successful* → *Lösenordsbytet lyckades.*, är språkgranskad som korrekt. XML-export: `CopyQ/sv.ts` (SHA-256 `493275b9…0160`).
 
