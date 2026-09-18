@@ -558,187 +558,188 @@ Stop it or wait for its completion before removing it.</source>
     </message>
     <message>
         <source>Unit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhet:</translation>
     </message>
     <message>
         <source>Relative</source>
-        <translation type="unfinished"></translation>
+        <translation>Relativ</translation>
     </message>
     <message>
         <source>Anchor</source>
-        <translation type="unfinished"></translation>
+        <translation>Fästpunkt</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Resize</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra storlek</translation>
     </message>
     <message>
         <source>The new canvas size is smaller than the current one.
 Do you want to crop the canvas?</source>
-        <translation type="unfinished"></translation>
+        <translation>Den nya dukstorleken är mindre än den aktuella.
+Vill du beskära duken?</translation>
     </message>
     <message>
         <source>Crop</source>
-        <translation type="unfinished"></translation>
+        <translation>Beskär</translation>
     </message>
     <message>
         <source>pixel</source>
-        <translation type="unfinished"></translation>
+        <translation>bildpunkt</translation>
     </message>
     <message>
         <source>mm</source>
-        <translation type="unfinished"></translation>
+        <translation>mm</translation>
     </message>
     <message>
         <source>cm</source>
-        <translation type="unfinished"></translation>
+        <translation>cm</translation>
     </message>
     <message>
         <source>field</source>
-        <translation type="unfinished"></translation>
+        <translation>fält</translation>
     </message>
     <message>
         <source>inch</source>
-        <translation type="unfinished"></translation>
+        <translation>tum</translation>
     </message>
 </context>
 <context>
     <name>CaptureSettingsPopup</name>
     <message>
         <source>Define Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Definiera enhet</translation>
     </message>
     <message>
         <source>V Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal upplösning</translation>
     </message>
     <message>
         <source>H Resolution</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontell upplösning</translation>
     </message>
     <message>
         <source>White Calibration</source>
-        <translation type="unfinished"></translation>
+        <translation>Vitkalibrering</translation>
     </message>
     <message>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Fånga</translation>
     </message>
     <message>
         <source>Brightness:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ljusstyrka:</translation>
     </message>
     <message>
         <source>Contrast:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrast:</translation>
     </message>
     <message>
         <source> Upside-down</source>
-        <translation type="unfinished"></translation>
+        <translation> Upp och ned</translation>
     </message>
     <message>
         <source>A Device is Connected.</source>
-        <translation type="unfinished"></translation>
+        <translation>En enhet är ansluten.</translation>
     </message>
     <message>
         <source>No cameras found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga kameror hittades.</translation>
     </message>
     <message>
         <source>Device Disconnected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enheten kopplades från.</translation>
     </message>
     <message>
         <source>No Device Defined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen enhet har definierats.</translation>
     </message>
 </context>
 <context>
     <name>CastBrowser</name>
     <message>
         <source>It is not possible to edit the selected file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att redigera den markerade filen.</translation>
     </message>
     <message>
         <source>It is not possible to edit more than one file at once.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att redigera fler än en fil åt gången.</translation>
     </message>
     <message>
         <source>It is not possible to show the folder containing the selected file, as the file has not been saved yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att visa mappen som innehåller den markerade filen eftersom filen inte har sparats ännu.</translation>
     </message>
     <message>
         <source>It is not possible to view the selected file, as the file has not been saved yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att visa den markerade filen eftersom filen inte har sparats ännu.</translation>
     </message>
     <message>
         <source>It is not possible to show the info of the selected file, as the file has not been saved yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att visa information om den markerade filen eftersom filen inte har sparats ännu.</translation>
     </message>
 </context>
 <context>
     <name>CastTreeViewer</name>
     <message>
         <source>Delete folder </source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort mapp </translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nej</translation>
     </message>
 </context>
 <context>
     <name>ChooseCameraDialog</name>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
     <name>CleanupPopup</name>
     <message>
         <source>Do you want to cleanup this frame?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du renrita denna bildruta?</translation>
     </message>
     <message>
         <source>Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritning</translation>
     </message>
     <message>
         <source>Cleanup in progress</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritning pågår</translation>
     </message>
     <message>
         <source>Skip</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoppa över</translation>
     </message>
     <message>
         <source>Cleanup All</source>
-        <translation type="unfinished"></translation>
+        <translation>Renrita alla</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Cleanup in progress: </source>
-        <translation type="unfinished"></translation>
+        <translation>Renritning pågår: </translation>
     </message>
     <message>
         <source>It is not possible to cleanup: the cleanup list is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att renrita: renritningslistan är tom.</translation>
     </message>
     <message>
         <source>The resulting resolution of level &quot;%1&quot;
@@ -746,50 +747,58 @@ does not match with that of previously cleaned up level drawings.
 
 Please set the right camera resolution and closest field, or choose to delete
 the existing level and create a new one when running the cleanup process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den resulterande upplösningen för nivån ”%1”
+motsvarar inte den för tidigare renritade nivåteckningar.
+
+Ange rätt kameraupplösning och närmaste fält, eller välj att ta bort
+den befintliga nivån och skapa en ny när renritningen körs.</translation>
     </message>
     <message>
         <source>Selected drawings will overwrite the original files after the cleanup process.
 Do you want to continue?</source>
-        <translation type="unfinished"></translation>
+        <translation>Markerade teckningar skriver över originalfilerna efter renritningen.
+Vill du fortsätta?</translation>
     </message>
     <message>
         <source>Ok</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>There were errors opening the existing level &quot;%1&quot;.
 
 Please choose to delete the existing level and create a new one
 when running the cleanup process.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det uppstod fel när den befintliga nivån ”%1” öppnades.
+
+Välj att ta bort den befintliga nivån och skapa en ny
+när renritningen körs.</translation>
     </message>
     <message>
         <source>Couldn&apos;t create directory &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte skapa katalogen ”%1”</translation>
     </message>
     <message>
         <source>Couldn&apos;t open &quot;%1&quot; for write</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte öppna ”%1” för skrivning</translation>
     </message>
     <message>
         <source>Couldn&apos;t remove file &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Kunde inte ta bort filen ”%1”</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <source> : Cleanup in progress</source>
-        <translation type="unfinished"></translation>
+        <translation> : Renritning pågår</translation>
     </message>
 </context>
 <context>
     <name>CleanupPopup::OverwriteDialog</name>
     <message>
         <source>Warning!</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning!</translation>
     </message>
     <message>
         <source>Cleanup all selected drawings overwriting those previously cleaned up.</source>
@@ -801,39 +810,40 @@ when running the cleanup process.</source>
     </message>
     <message>
         <source>Delete existing level and create a new level with selected drawings only.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort befintlig nivå och skapa en ny nivå med endast de markerade teckningarna.</translation>
     </message>
     <message>
         <source>Rename the new level adding the suffix </source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn på den nya nivån genom att lägga till suffixet </translation>
     </message>
     <message>
         <source>File &quot;%1&quot; already exists.
 What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen ”%1” finns redan.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>Cleanup all selected drawings overwriting those previously cleaned up.*</source>
-        <translation type="unfinished"></translation>
+        <translation>Renrita alla markerade teckningar och skriv över tidigare renritade.*</translation>
     </message>
     <message>
         <source>Cleanup only non-cleaned up drawings and keep those previously cleaned up.*</source>
-        <translation type="unfinished"></translation>
+        <translation>Renrita endast teckningar som inte har renritats och behåll tidigare renritade.*</translation>
     </message>
     <message>
         <source>This is Re-Cleanup. Overwrite only to the no-paint files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta är en ny renritning. Skriv endast över filer utan målning.</translation>
     </message>
     <message>
         <source>* Palette will not be changed.</source>
-        <translation type="unfinished"></translation>
+        <translation>* Paletten ändras inte.</translation>
     </message>
 </context>
 <context>
     <name>CleanupSettings</name>
     <message>
         <source>Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritning</translation>
     </message>
     <message>
         <source>Processing</source>
