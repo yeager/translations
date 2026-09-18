@@ -25,6 +25,8 @@ Senast uppdaterad: 2026-09-18
 
 **Freeplane:** Mindmap-programmets aktuella release `1.13.3` är från 2026-07-14. Den svenska Weblate-resursen är 1 660/2 804 med 122 fuzzy-poster. En första kvalitetspublicering 2026-09-18 rättade 27 maskinöversatta navigerings-, klon-, ikon- och snabbtangentåtgärder; de omfattar bland annat att kopiera noder med undernoder, ta bort klonrelationer och korrekt navigering mellan noder. Officiell export: `Freeplane/Freeplane_sv.properties` (SHA-256 `906208e5…181394`). Fortsätt med resterande ogranskade UI-poster innan stora mängder nya strängar fylls i.
 
+**Fossify Documents:** Den aktiva Android-appen har release `1.0.1` från 2026-08-01. Metadataresursen är nu **2/2** svenska poster, med 0 fuzzy och 0 kvalitetsmarkeringar enligt Hosted Weblate. Den fullständiga appbeskrivningen är kontextgranskad: offlinefunktion, PDF/DOCX/Markdown/CSV/TSV/HTML, lösenordsskyddade PDF:er, redigering, lagring på enheten och frånvaro av annonser, analyser och spårning. Officiellt metadataarkiv: `Fossify-Documents/metadata-sv.zip` (SHA-256 `feb38d2c…ad47d`).
+
 **Arbetsregler:** Dokumentation har alltid lägre prioritet än programgränssnitt och webbplatser. Använd `yeager/hunspell-sv` och `yeager/l10n-lint` vid granskning. Skicka in färdiggranskat arbete direkt via officiell kanal. Dokumentera osäkerheter här och gå vidare till nästa arbete utan att invänta användaren. Säkerhetskopiera svenska officiella exporter i detta arkiv och uppdatera status efter avslutade jobb. 100 % täckning är inte i sig bevis på genomförd språkgranskning.
 
 ## Codeberg Weblate – svensk indexering 2026-09-12
