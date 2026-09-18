@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CalyxOS Seedvault Storage (2026-09-18):** Filbackupens svenska resurs är färdigställd: **41/41** strängar, 0 tomma, 0 ogranskade och 0 kontrollmarkeringar. Integritetskontroll, datahastighet, skadade ögonblicksbilder, detaljerad felrapportering och partiell återställning är terminologiskt granskade. Officiell export: `CalyxOS-Seedvault-Storage/strings.xml` (XML- och platshållarvaliderad samt hunspell-sv-granskad).
+
 **CalyxOS Launcher (2026-09-18):** Startprogrammets svenska resurs är färdigställd: **11/11** strängar, 0 tomma och 0 ogranskade. Arbetsapparnas avstängda läge och dess konsekvenser för aviseringar, batteri, plats, samtal och sms är kontextgranskade. Officiell export: `CalyxOS-Launcher/strings.xml` (XML-validerad).
 
 **CalyxOS Updater (2026-09-18):** Systemuppdaterarens svenska resurs är färdigställd: **26/26** strängar, 0 tomma och 0 ogranskade. Säkerhetskanalen, nätverkskrav, batterivillkor, automatisk omstart och installationsuppmaningar är granskade. Den enda Weblate-markeringen är den korrekta systemtermen `Automatisk omstart`. Officiell export: `CalyxOS-Updater/strings.xml` (XML-validerad och hunspell-sv-granskad).
