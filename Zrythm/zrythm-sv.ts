@@ -1762,7 +1762,7 @@ Antal XRuns: %2</translation>
     <message>
         <location filename="../src/gui/qml/components/PluginSlotList.qml" line="40"/>
         <source>Drop plugins here</source>
-        <translation type="unfinished"></translation>
+        <translation>Släpp insticksprogram här</translation>
     </message>
 </context>
 <context>
@@ -1771,22 +1771,22 @@ Antal XRuns: %2</translation>
         <location filename="../src/gui/qml/components/PluginSlotView.qml" line="81"/>
         <location filename="../src/gui/qml/components/PluginSlotView.qml" line="91"/>
         <source>Remove Plugin</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort insticksprogram</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginSlotView.qml" line="81"/>
         <source>Remove %1 Plugins</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort %1 insticksprogram</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginSlotView.qml" line="102"/>
         <source>Show Plugin UI</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa insticksprogrammets gränssnitt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/PluginSlotView.qml" line="116"/>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Egenskaper</translation>
     </message>
 </context>
 <context>
@@ -3468,12 +3468,12 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="38"/>
         <source>%1 - Last object</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 – senaste objektet</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="41"/>
         <source>%1 - %2</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 – %2</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="52"/>
@@ -3489,7 +3489,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="90"/>
         <source>Snap to Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäst mot rutnät</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="104"/>
@@ -3499,61 +3499,61 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="119"/>
         <source>Snap Length</source>
-        <translation type="unfinished"></translation>
+        <translation>Fästlängd</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Takt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/1</source>
-        <translation type="unfinished"></translation>
+        <translation>1/1</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/2</source>
-        <translation type="unfinished"></translation>
+        <translation>1/2</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/4</source>
-        <translation type="unfinished"></translation>
+        <translation>1/4</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/8</source>
-        <translation type="unfinished"></translation>
+        <translation>1/8</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/16</source>
-        <translation type="unfinished"></translation>
+        <translation>1/16</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/32</source>
-        <translation type="unfinished"></translation>
+        <translation>1/32</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/64</source>
-        <translation type="unfinished"></translation>
+        <translation>1/64</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="148"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="293"/>
         <source>1/128</source>
-        <translation type="unfinished"></translation>
+        <translation>1/128</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="161"/>
@@ -3570,23 +3570,23 @@ Support this project at {}
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="178"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="325"/>
         <source>Triplet</source>
-        <translation type="unfinished"></translation>
+        <translation>Triplett</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="178"/>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="325"/>
         <source>Dotted</source>
-        <translation type="unfinished"></translation>
+        <translation>Punkterad</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="191"/>
         <source>Keep Offset</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll förskjutning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="206"/>
         <source>Snap to Events</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäst mot händelser</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="222"/>
@@ -3596,12 +3596,12 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="232"/>
         <source>Length Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Längdtyp</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="249"/>
         <source>Link to snap</source>
-        <translation type="unfinished"></translation>
+        <translation>Länka till fästning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="249"/>
@@ -3616,12 +3616,12 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="264"/>
         <source>Custom Length</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad längd</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="308"/>
         <source>Custom Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad typ</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/SnapGridButton.qml" line="339"/>
@@ -3642,7 +3642,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/basic/SplitButton.qml" line="56"/>
         <source>More Options...</source>
-        <translation type="unfinished"></translation>
+        <translation>Fler alternativ…</translation>
     </message>
 </context>
 <context>
@@ -3676,7 +3676,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="21"/>
         <source>Set Tempo</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange tempo</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="38"/>
@@ -3687,7 +3687,7 @@ Support this project at {}
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="41"/>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="126"/>
         <source>Constant</source>
-        <translation type="unfinished"></translation>
+        <translation>Konstant</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="47"/>
@@ -3698,17 +3698,17 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="95"/>
         <source>Edit Tempo</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera tempo</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="101"/>
         <source>BPM:</source>
-        <translation type="unfinished"></translation>
+        <translation>BPM:</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TempoObjectView.qml" line="117"/>
         <source>Curve:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurva:</translation>
     </message>
 </context>
 <context>
@@ -3716,27 +3716,27 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/arranger/TimeSignatureObjectView.qml" line="21"/>
         <source>Set Beats Per Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange slag per takt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TimeSignatureObjectView.qml" line="38"/>
         <source>Set Beat Unit</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange slagenhet</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TimeSignatureObjectView.qml" line="96"/>
         <source>Edit Time Signature</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera taktart</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TimeSignatureObjectView.qml" line="102"/>
         <source>Beats per bar:</source>
-        <translation type="unfinished"></translation>
+        <translation>Slag per takt:</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/arranger/TimeSignatureObjectView.qml" line="116"/>
         <source>Beat unit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Slagenhet:</translation>
     </message>
 </context>
 <context>
@@ -3904,12 +3904,12 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/TrackRouteControl.qml" line="36"/>
         <source>Prerouted</source>
-        <translation type="unfinished"></translation>
+        <translation>Förkopplad</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackRouteControl.qml" line="92"/>
         <source>Unroute</source>
-        <translation type="unfinished"></translation>
+        <translation>Koppla bort</translation>
     </message>
 </context>
 <context>
@@ -3917,7 +3917,7 @@ Support this project at {}
     <message>
         <location filename="../src/gui/qml/components/TrackView.qml" line="69"/>
         <source>Delete %1 Tracks</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort %1 spår</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/TrackView.qml" line="69"/>
