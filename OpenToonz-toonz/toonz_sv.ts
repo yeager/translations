@@ -4849,35 +4849,35 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Prev Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående ritning</translation>
     </message>
     <message>
         <source>Toggle Autofill on Current Palette Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla automatisk fyllning för aktuell palettfärg</translation>
     </message>
     <message>
         <source>&amp;Export</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Exportera</translation>
     </message>
     <message>
         <source>&amp;Autorenumber</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Numrera automatiskt</translation>
     </message>
     <message>
         <source>Shift and Trace</source>
-        <translation type="unfinished"></translation>
+        <translation>Förskjut och spåra</translation>
     </message>
     <message>
         <source>Edit Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera förskjutning</translation>
     </message>
     <message>
         <source>No Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen förskjutning</translation>
     </message>
     <message>
         <source>Reset Shift</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ förskjutning</translation>
     </message>
     <message>
         <source>Increase max brush thickness</source>
@@ -4897,15 +4897,15 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Binarize...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Binarisera...</translation>
     </message>
     <message>
         <source>Pick Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj skärm</translation>
     </message>
     <message>
         <source>&amp;Blend colors</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Blanda färger</translation>
     </message>
     <message>
         <source>Linetest</source>
@@ -4913,59 +4913,59 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Load As Sub-xsheet...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in som under-XSheet...</translation>
     </message>
     <message>
         <source>&amp;Convert File...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Konvertera fil...</translation>
     </message>
     <message>
         <source>Run Script...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kör skript...</translation>
     </message>
     <message>
         <source>Open Script Console...</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna skriptkonsol...</translation>
     </message>
     <message>
         <source>&amp;Antialias...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kantutjämning...</translation>
     </message>
     <message>
         <source>Adjust Levels...</source>
-        <translation type="unfinished"></translation>
+        <translation>Justera nivåer...</translation>
     </message>
     <message>
         <source>&amp;Raster Bounding Box</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rastrerets begränsningsruta</translation>
     </message>
     <message>
         <source>Link Flipbooks</source>
-        <translation type="unfinished"></translation>
+        <translation>Länka blädderböcker</translation>
     </message>
     <message>
         <source>&amp;Message Center</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Meddelandecenter</translation>
     </message>
     <message>
         <source>&amp;Cleanup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Renritningsinställningar</translation>
     </message>
     <message>
         <source>Plastic Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Plastverktyg</translation>
     </message>
     <message>
         <source>Create Mesh</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa nät</translation>
     </message>
     <message>
         <source>&amp;Merge Tlv Levels...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sammanfoga TLV-nivåer...</translation>
     </message>
     <message>
         <source>Adjust Thickness...</source>
-        <translation type="unfinished"></translation>
+        <translation>Justera tjocklek...</translation>
     </message>
     <message>
         <source>Toggle &amp;Opacity Check</source>
@@ -4973,51 +4973,51 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Load Folder...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in mapp...</translation>
     </message>
     <message>
         <source>Inks &amp;Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast bläck</translation>
     </message>
     <message>
         <source>Next Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa steg</translation>
     </message>
     <message>
         <source>Prev Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående steg</translation>
     </message>
     <message>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnlös</translation>
     </message>
     <message>
         <source>Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritning</translation>
     </message>
     <message>
         <source>PltEdit</source>
-        <translation type="unfinished"></translation>
+        <translation>PltEdit</translation>
     </message>
     <message>
         <source>InknPaint</source>
-        <translation type="unfinished"></translation>
+        <translation>InknPaint</translation>
     </message>
     <message>
         <source>Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>XSheet</translation>
     </message>
     <message>
         <source>&amp;Load Recent Image Files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in nyligen använda bildfiler</translation>
     </message>
     <message>
         <source>&amp;Clear Recent Flipbook Image List</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rensa listan över nyligen använda blädderboksbilder</translation>
     </message>
     <message>
         <source>Preview Fx</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisa FX</translation>
     </message>
     <message>
         <source>&amp;Insert Paste</source>
@@ -5025,95 +5025,95 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Paste Color &amp;&amp; Name</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klistra in färg och namn</translation>
     </message>
     <message>
         <source>Paste Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in färg</translation>
     </message>
     <message>
         <source>Paste Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in namn</translation>
     </message>
     <message>
         <source>Get Color from Studio Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta färg från studiopalett</translation>
     </message>
     <message>
         <source>&amp;Opacity Check</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opacitetskontroll</translation>
     </message>
     <message>
         <source>&amp;Replace Parent Directory...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ersätt överordnad katalog...</translation>
     </message>
     <message>
         <source>1&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>1:or</translation>
     </message>
     <message>
         <source>2&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>2:or</translation>
     </message>
     <message>
         <source>3&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>3:or</translation>
     </message>
     <message>
         <source>4&apos;s</source>
-        <translation type="unfinished"></translation>
+        <translation>4:or</translation>
     </message>
     <message>
         <source>&amp;Ink#1 Check</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bläck nr 1-kontroll</translation>
     </message>
     <message>
         <source>Compare to Snapshot</source>
-        <translation type="unfinished"></translation>
+        <translation>Jämför med ögonblicksbild</translation>
     </message>
     <message>
         <source>Show This Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast denna</translation>
     </message>
     <message>
         <source>Show Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa markerade</translation>
     </message>
     <message>
         <source>Show All</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa alla</translation>
     </message>
     <message>
         <source>Hide Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj markerade</translation>
     </message>
     <message>
         <source>Hide All</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj alla</translation>
     </message>
     <message>
         <source>Toggle Show/Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla visa/dölj</translation>
     </message>
     <message>
         <source>ON This Only</source>
-        <translation type="unfinished"></translation>
+        <translation>AKTIVERA endast denna</translation>
     </message>
     <message>
         <source>ON Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>AKTIVERA markerade</translation>
     </message>
     <message>
         <source>ON All</source>
-        <translation type="unfinished"></translation>
+        <translation>AKTIVERA alla</translation>
     </message>
     <message>
         <source>OFF All</source>
-        <translation type="unfinished"></translation>
+        <translation>INAKTIVERA alla</translation>
     </message>
     <message>
         <source>OFF Selected</source>
-        <translation type="unfinished"></translation>
+        <translation>INAKTIVERA markerade</translation>
     </message>
     <message>
         <source>Swap ON/OFF</source>
