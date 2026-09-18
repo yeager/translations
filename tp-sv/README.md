@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 27 264 aktiva poster i de 37 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 7 710 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 32 233 aktiva poster i de 38 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 9 662 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -48,6 +48,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#ea9999"><td>findutils</td><td>4.10.0.164</td><td align="right">255</td><td align="right">98</td><td align="right">38.43 %</td><td><a href="findutils-4.10.0.164.sv.po">PO</a></td><td><a href="diff/findutils-4.10.0.164.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/findutils-4.10.0.164.sv.po">Original</a></td></tr>
 <tr bgcolor="#fce5cd"><td>flex</td><td>2.6.4</td><td align="right">169</td><td align="right">40</td><td align="right">23.67 %</td><td><a href="flex-2.6.4.sv.po">PO</a></td><td><a href="diff/flex-2.6.4.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/flex-2.6.4.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>freedink</td><td>109.4</td><td align="right">43</td><td align="right">15</td><td align="right">34.88 %</td><td><a href="freedink-109.4.sv.po">PO</a></td><td><a href="diff/freedink-109.4.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/freedink-109.4.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>gas</td><td>2.46.90</td><td align="right">4969</td><td align="right">1952</td><td align="right">39.28 %</td><td><a href="gas-2.46.90.sv.po">PO</a></td><td><a href="diff/gas-2.46.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gas-2.46.90.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
