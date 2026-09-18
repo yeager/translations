@@ -3427,49 +3427,49 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source> is not a scene file.</source>
-        <translation type="unfinished"></translation>
+        <translation> är inte en scenfil.</translation>
     </message>
     <message>
         <source> does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation> finns inte.</translation>
     </message>
 </context>
 <context>
     <name>LoadTaskListPopup</name>
     <message>
         <source>Load Task List</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in uppgiftslista</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source> does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation> finns inte.</translation>
     </message>
     <message>
         <source>It is possible to load only TNZBAT files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Endast TNZBAT-filer kan läsas in.</translation>
     </message>
 </context>
 <context>
     <name>LoadTaskPopup</name>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <source> does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation> finns inte.</translation>
     </message>
     <message>
         <source>Add Render Task to Batch List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till renderingsuppgift i batchlistan</translation>
     </message>
     <message>
         <source>Add Cleanup Task to Batch List</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till renritningsuppgift i batchlistan</translation>
     </message>
     <message>
         <source>%1 is not a TNZ file.</source>
@@ -3477,18 +3477,18 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source> you can load only TNZ files for render task.</source>
-        <translation type="unfinished"></translation>
+        <translation> kan endast läsa in TNZ-filer för renderingsuppgifter.</translation>
     </message>
     <message>
         <source> you can load only TNZ or CLN files for cleanup task.</source>
-        <translation type="unfinished"></translation>
+        <translation> kan endast läsa in TNZ- eller CLN-filer för renritningsuppgifter.</translation>
     </message>
 </context>
 <context>
     <name>LocatorPopup</name>
     <message>
         <source>Locator</source>
-        <translation type="unfinished"></translation>
+        <translation>Platsangivare</translation>
     </message>
 </context>
 <context>
@@ -3499,7 +3499,7 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>Frame Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildruteintervall</translation>
     </message>
     <message>
         <source>To:</source>
@@ -3507,46 +3507,46 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Från:</translation>
     </message>
     <message>
         <source>Animation Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Animationsnivå</translation>
     </message>
     <message>
         <source>Level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå:</translation>
     </message>
     <message>
         <source>Phoneme</source>
-        <translation type="unfinished"></translation>
+        <translation>Fonem</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>The file path is missing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filsökvägen saknas.</translation>
     </message>
     <message>
         <source>Import Toonz Lip Sync File</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera Toonz-läppsynkroniseringsfil</translation>
     </message>
     <message>
         <source>To: </source>
-        <translation type="unfinished"></translation>
+        <translation>Till: </translation>
     </message>
 </context>
 <context>
     <name>MainWindow</name>
     <message>
         <source>Cannot delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan inte ta bort</translation>
     </message>
     <message>
         <source>Visit Web Site</source>
@@ -3558,71 +3558,71 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>&amp;New Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ny scen</translation>
     </message>
     <message>
         <source>&amp;Load Scene...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in scen...</translation>
     </message>
     <message>
         <source>&amp;Save Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara scen</translation>
     </message>
     <message>
         <source>&amp;Save Scene As...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara scen som...</translation>
     </message>
     <message>
         <source>&amp;Revert Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Återställ scen</translation>
     </message>
     <message>
         <source>&amp;Open Recent Scene File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Öppna nyligen använd scenfil</translation>
     </message>
     <message>
         <source>&amp;Open Recent Level File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Öppna nyligen använd nivåfil</translation>
     </message>
     <message>
         <source>&amp;Clear Recent Scene File List</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rensa listan över nyligen använda scenfiler</translation>
     </message>
     <message>
         <source>&amp;Clear Recent level File List</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rensa listan över nyligen använda nivåfiler</translation>
     </message>
     <message>
         <source>&amp;New Level...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ny nivå...</translation>
     </message>
     <message>
         <source>&amp;Load Level...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in nivå...</translation>
     </message>
     <message>
         <source>&amp;Save Level</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara nivå</translation>
     </message>
     <message>
         <source>&amp;Save Level As...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara nivå som...</translation>
     </message>
     <message>
         <source>&amp;Export Level...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Exportera nivå...</translation>
     </message>
     <message>
         <source>&amp;Save Palette As...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara palett som...</translation>
     </message>
     <message>
         <source>&amp;Save Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara palett</translation>
     </message>
     <message>
         <source>&amp;Load Color Model...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in färgmodell...</translation>
     </message>
     <message>
         <source>&amp;Import Magpie File...</source>
@@ -3630,79 +3630,79 @@ Please use the frame numbers for reference.</source>
     </message>
     <message>
         <source>&amp;New Project...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nytt projekt...</translation>
     </message>
     <message>
         <source>&amp;Project Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Projektinställningar...</translation>
     </message>
     <message>
         <source>&amp;Save Default Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara standardinställningar</translation>
     </message>
     <message>
         <source>&amp;Output Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Utdatainställningar...</translation>
     </message>
     <message>
         <source>&amp;Preview Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Förhandsvisningsinställningar...</translation>
     </message>
     <message>
         <source>&amp;Render</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rendera</translation>
     </message>
     <message>
         <source>&amp;Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Förhandsvisa</translation>
     </message>
     <message>
         <source>&amp;Save Previewed Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara förhandsvisade bildrutor</translation>
     </message>
     <message>
         <source>&amp;Regenerate Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Generera om förhandsvisning</translation>
     </message>
     <message>
         <source>&amp;Regenerate Frame Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Generera om förhandsvisning av bildruta</translation>
     </message>
     <message>
         <source>&amp;Clone Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klona förhandsvisning</translation>
     </message>
     <message>
         <source>&amp;Freeze//Unfreeze Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Frys//tina upp förhandsvisning</translation>
     </message>
     <message>
         <source>Freeze Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Frys förhandsvisning</translation>
     </message>
     <message>
         <source>Unfreeze Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Tina upp förhandsvisning</translation>
     </message>
     <message>
         <source>&amp;Save As Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara som förinställning</translation>
     </message>
     <message>
         <source>&amp;Preferences...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Inställningar...</translation>
     </message>
     <message>
         <source>&amp;Configure Shortcuts...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Konfigurera kortkommandon...</translation>
     </message>
     <message>
         <source>&amp;Print Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skriv ut XSheet</translation>
     </message>
     <message>
         <source>&amp;Print Current Frame...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skriv ut aktuell bildruta...</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
