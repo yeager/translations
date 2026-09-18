@@ -2287,148 +2287,152 @@ contain the dpi information, then the current camera dpi will be used.
     <name>FileSettingsPopup</name>
     <message>
         <source>Save in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>File Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filformat:</translation>
     </message>
 </context>
 <context>
     <name>Filmstrip</name>
     <message>
         <source>Level:  </source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå:  </translation>
     </message>
     <message>
         <source>Level Strip</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivåremsa</translation>
     </message>
     <message>
         <source>- No Current Level -</source>
-        <translation type="unfinished"></translation>
+        <translation>- Ingen aktuell nivå -</translation>
     </message>
 </context>
 <context>
     <name>FilmstripFrameHeadGadget</name>
     <message>
         <source>Click to Toggle Fixed Onion Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att växla fast lökhinna</translation>
     </message>
     <message>
         <source>Click / Drag to Toggle Onion Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka/dra för att växla lökhinna</translation>
     </message>
     <message>
         <source>Drag to Extend Onion Skin, Double Click to Toggle All</source>
-        <translation type="unfinished"></translation>
+        <translation>Dra för att utöka lökhinnan, dubbelklicka för att växla alla</translation>
     </message>
     <message>
         <source>Click to Reset Shift &amp; Trace Markers to Neighbor Frames
 Hold F2 Key on the Viewer to Show This Frame Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att återställa Förskjut- och spåra-markörer till intilliggande bildrutor
+Håll ned F2 i visaren för att bara visa denna bildruta</translation>
     </message>
     <message>
         <source>Click to Hide This Frame from Shift &amp; Trace
 Hold F1 Key on the Viewer to Show This Frame Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att dölja denna bildruta från Förskjut och spåra
+Håll ned F1 i visaren för att bara visa denna bildruta</translation>
     </message>
     <message>
         <source>Click to Hide This Frame from Shift &amp; Trace
 Hold F3 Key on the Viewer to Show This Frame Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att dölja denna bildruta från Förskjut och spåra
+Håll ned F3 i visaren för att bara visa denna bildruta</translation>
     </message>
     <message>
         <source>Click to Move Shift &amp; Trace Marker</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att flytta Förskjut- och spåra-markören</translation>
     </message>
 </context>
 <context>
     <name>FilmstripFrames</name>
     <message>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <source>no icon</source>
-        <translation type="unfinished"></translation>
+        <translation>ingen ikon</translation>
     </message>
     <message>
         <source>Auto Inbetween</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk mellanbild</translation>
     </message>
 </context>
 <context>
     <name>FlipBook</name>
     <message>
         <source>Flipbook</source>
-        <translation type="unfinished"></translation>
+        <translation>Blädderbok</translation>
     </message>
     <message>
         <source>Rendered Frames  ::  From %1 To %2  ::  Step %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderade bildrutor  ::  Från %1 till %2  ::  Steg %3</translation>
     </message>
     <message>
         <source>  ::  Shrink </source>
-        <translation type="unfinished"></translation>
+        <translation>  ::  Förminska </translation>
     </message>
     <message>
         <source>It is not possible to save Flipbook content.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spara blädderbokens innehåll.</translation>
     </message>
     <message>
         <source>Saved %1 frames out of %2 in %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparade %1 bildrutor av %2 i %3</translation>
     </message>
     <message>
         <source>The file name cannot be empty or contain any of the following characters:(new line)  \ / : * ? &quot;  |</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamnet får inte vara tomt eller innehålla något av följande tecken:(ny rad)  \ / : * ? &quot;  |</translation>
     </message>
     <message>
         <source>It is not possible to save because the selected file format is not supported.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spara eftersom det markerade filformatet inte stöds.</translation>
     </message>
     <message>
         <source>There are no rendered images to save.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga renderade bilder att spara.</translation>
     </message>
     <message>
         <source>It is not possible to take or compare snapshots for Toonz vector levels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta eller jämföra ögonblicksbilder för Toonz-vektornivåer.</translation>
     </message>
     <message>
         <source>File %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
 </context>
 <context>
     <name>FlipbookPanel</name>
     <message>
         <source>Safe Area (Right Click to Select)</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetsområde (högerklicka för att välja)</translation>
     </message>
     <message>
         <source>Minimize</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimera</translation>
     </message>
 </context>
 <context>
     <name>FormatSettingsPopup</name>
     <message>
         <source>File Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Filinställningar</translation>
     </message>
     <message>
         <source>Configure Codec</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurera kodek</translation>
     </message>
 </context>
 <context>
     <name>FrameHeadGadget</name>
     <message>
         <source>Current Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell bildruta</translation>
     </message>
     <message>
         <source>Relative Onion Skin Toggle</source>
@@ -2436,57 +2440,57 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Fixed Onion Skin Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla fast lökhinna</translation>
     </message>
 </context>
 <context>
     <name>FxParamEditorPopup</name>
     <message>
         <source>Fx Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Effektinställningar</translation>
     </message>
 </context>
 <context>
     <name>ImageViewer</name>
     <message>
         <source>Flipbook Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>Blädderbokshistogram</translation>
     </message>
     <message>
         <source>Clone Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Klona förhandsvisning</translation>
     </message>
     <message>
         <source>Unfreeze Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp förhandsvisning</translation>
     </message>
     <message>
         <source>Freeze Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås förhandsvisning</translation>
     </message>
     <message>
         <source>Regenerate Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa förhandsvisning igen</translation>
     </message>
     <message>
         <source>Regenerate Frame Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa bildruteförhandsvisning igen</translation>
     </message>
     <message>
         <source>Reset View</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ vy</translation>
     </message>
     <message>
         <source>Fit To Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa till fönster</translation>
     </message>
     <message>
         <source>Exit Full Screen Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta helskärmsläge</translation>
     </message>
     <message>
         <source>Full Screen Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Helskärmsläge</translation>
     </message>
     <message>
         <source>Load Images</source>
@@ -2498,23 +2502,23 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Save Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara bilder</translation>
     </message>
     <message>
         <source>Show Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa histogram</translation>
     </message>
     <message>
         <source>Swap Compared Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla jämförda bilder</translation>
     </message>
     <message>
         <source>  ::  Zoom : </source>
-        <translation type="unfinished"></translation>
+        <translation>  ::  Zoom: </translation>
     </message>
     <message>
         <source>Load / Append Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in/lägg till bilder</translation>
     </message>
 </context>
 <context>
@@ -2525,61 +2529,61 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>%1 does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 finns inte.</translation>
     </message>
     <message>
         <source>Import Toonz Lip Sync File</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera Toonz Lip Sync-fil</translation>
     </message>
 </context>
 <context>
     <name>InbetweenDialog</name>
     <message>
         <source>Inbetween</source>
-        <translation type="unfinished"></translation>
+        <translation>Mellanbild</translation>
     </message>
     <message>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <source>Ease In</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk in</translation>
     </message>
     <message>
         <source>Ease Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk ut</translation>
     </message>
     <message>
         <source>Ease In / Ease Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk in/mjuk ut</translation>
     </message>
     <message>
         <source>Interpolation:</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolering:</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
     <name>InsertFxPopup</name>
     <message>
         <source>FX Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Effektbläddrare</translation>
     </message>
     <message>
         <source>Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga</translation>
     </message>
     <message>
         <source>Add</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till</translation>
     </message>
     <message>
         <source>Replace</source>
