@@ -352,6 +352,874 @@
       "target": "Orbot VPN",
       "state": 20,
       "context": "orbot_vpn"
+    },
+    {
+      "unitId": 167456081,
+      "source": "Open Orbot to Connect to Tor",
+      "target": "Öppna Orbot för att ansluta till Tor",
+      "state": 20,
+      "context": "open_orbot_to_connect_to_tor"
+    },
+    {
+      "unitId": 167456083,
+      "source": "Connect to Tor",
+      "target": "Anslut till Tor",
+      "state": 20,
+      "context": "connect_to_tor"
+    },
+    {
+      "unitId": 167456084,
+      "source": "Orbot Configuration Invalid",
+      "target": "Ogiltig Orbot-konfiguration",
+      "state": 20,
+      "context": "orbot_config_invalid"
+    },
+    {
+      "unitId": 167456089,
+      "source": "KiB/s",
+      "target": "KiB/s",
+      "state": 20,
+      "context": "kibibyte_per_second"
+    },
+    {
+      "unitId": 167456090,
+      "source": "MiB/s",
+      "target": "MiB/s",
+      "state": 20,
+      "context": "mebibyte_per_second"
+    },
+    {
+      "unitId": 167456091,
+      "source": "%1$s Kindness Mode helped someone circumvent censorship %2$s",
+      "target": "%1$s Kindness Mode hjälpte någon att kringgå censur %2$s",
+      "state": 20,
+      "context": "snowflake_proxy_client_connected_msg"
+    },
+    {
+      "unitId": 167456092,
+      "source": "unable to upload onion names",
+      "target": "det gick inte att ladda upp onion-namn",
+      "state": 20,
+      "context": "log_notice_unable_to_update_onions"
+    },
+    {
+      "unitId": 167456093,
+      "source": "Updating torrc custom configuration…",
+      "target": "Uppdaterar anpassad torrc-konfiguration …",
+      "state": 20,
+      "context": "log_notice_updating_torrc"
+    },
+    {
+      "unitId": 168564324,
+      "source": "NOTE: Snowflake doesn't support proxies. Proxy settings will be ignored with Snowflake bridges.",
+      "target": "OBS! Snowflake stöder inte proxyservrar. Proxyinställningar ignoreras med Snowflake-bryggor.",
+      "state": 20,
+      "context": "note_snowflake_doesn_t_support_proxies"
+    },
+    {
+      "unitId": 169920709,
+      "source": "Search for apps",
+      "target": "Sök efter appar",
+      "state": 20,
+      "context": "search_for_apps"
+    },
+    {
+      "unitId": 169920710,
+      "source": "Apps Updated",
+      "target": "Appar har uppdaterats",
+      "state": 20,
+      "context": "apps_updated_msg"
+    },
+    {
+      "unitId": 175303735,
+      "source": "Switch to %1$s",
+      "target": "Byt till %1$s",
+      "state": 20,
+      "context": "app_icon_dialog_title"
+    },
+    {
+      "unitId": 175303736,
+      "source": "Switching to %1$s will restart the app",
+      "target": "Byte till %1$s startar om appen",
+      "state": 20,
+      "context": "app_icon_dialog_msg"
+    },
+    {
+      "unitId": 175303737,
+      "source": "Safety",
+      "target": "Säkerhet",
+      "state": 20,
+      "context": "title_safety"
+    },
+    {
+      "unitId": 175303738,
+      "source": "App Icon",
+      "target": "Programikon",
+      "state": 20,
+      "context": "setting_app_icon_title"
+    },
+    {
+      "unitId": 175303739,
+      "source": "Choose how Orbot appears on your device",
+      "target": "Välj hur Orbot visas på enheten",
+      "state": 20,
+      "context": "setting_app_icon_description"
+    },
+    {
+      "unitId": 175303740,
+      "source": "Block Screenshots",
+      "target": "Blockera skärmbilder",
+      "state": 20,
+      "context": "setting_block_screenshot_title"
+    },
+    {
+      "unitId": 175303741,
+      "source": "Prevents anyone from taking screenshots of this app",
+      "target": "Hindrar andra från att ta skärmbilder av den här appen",
+      "state": 20,
+      "context": "setting_block_screenshot_description"
+    },
+    {
+      "unitId": 175303742,
+      "source": "Lock Screen",
+      "target": "Låsskärm",
+      "state": 20,
+      "context": "setting_unlock_pass_title"
+    },
+    {
+      "unitId": 175303743,
+      "source": "Require your device's PIN, password, or swipe pattern to open Orbot",
+      "target": "Kräv enhetens PIN-kod, lösenord eller svepmönster för att öppna Orbot",
+      "state": 20,
+      "context": "setting_unlock_pass_description"
+    },
+    {
+      "unitId": 175303744,
+      "source": "Use Biometrics (optional)",
+      "target": "Använd biometri (valfritt)",
+      "state": 20,
+      "context": "setting_unlock_with_biometrics_title"
+    },
+    {
+      "unitId": 175303745,
+      "source": "Unlock Orbot with your fingerprint or Face ID if setup on your device.",
+      "target": "Lås upp Orbot med fingeravtryck eller Face ID om det är konfigurerat på enheten.",
+      "state": 20,
+      "context": "setting_unlock_with_biometrics_description"
+    },
+    {
+      "unitId": 175303746,
+      "source": "Tor service has started",
+      "target": "Tor-tjänsten har startat",
+      "state": 20,
+      "context": "status_connected_control_port"
+    },
+    {
+      "unitId": 175303747,
+      "source": "Connecting to Tor network entrance",
+      "target": "Ansluter till Tor-nätverkets ingång",
+      "state": 20,
+      "context": "status_handshake"
+    },
+    {
+      "unitId": 175303748,
+      "source": "Entering the Tor network",
+      "target": "Ansluter till Tor-nätverket",
+      "state": 20,
+      "context": "status_handshake_done"
+    },
+    {
+      "unitId": 175303749,
+      "source": "Setting up connection through Tor network",
+      "target": "Upprättar anslutning via Tor-nätverket",
+      "state": 20,
+      "context": "status_circuit_create"
+    },
+    {
+      "unitId": 175303750,
+      "source": "Ready to go!",
+      "target": "Klar!",
+      "state": 20,
+      "context": "status_done"
+    },
+    {
+      "unitId": 175303751,
+      "source": "Finding alternate route to Tor network",
+      "target": "Hittar en alternativ väg till Tor-nätverket",
+      "state": 20,
+      "context": "status_conn_pt"
+    },
+    {
+      "unitId": 175303752,
+      "source": "Alternate route established",
+      "target": "Alternativ väg har upprättats",
+      "state": 20,
+      "context": "status_conn_done_pt"
+    },
+    {
+      "unitId": 175303753,
+      "source": "Connected to Tor network entrance",
+      "target": "Ansluten till Tor-nätverkets ingång",
+      "state": 20,
+      "context": "status_conn_done"
+    },
+    {
+      "unitId": 175303754,
+      "source": "Accessing Tor network directory",
+      "target": "Hämtar Tor-nätverkets katalog",
+      "state": 20,
+      "context": "status_onehop_create"
+    },
+    {
+      "unitId": 175303755,
+      "source": "Tor network directory loaded",
+      "target": "Tor-nätverkets katalog har lästs in",
+      "state": 20,
+      "context": "status_enough_dirinfo"
+    },
+    {
+      "unitId": 175303756,
+      "source": "Asking Tor for network status",
+      "target": "Frågar Tor om nätverksstatus",
+      "state": 20,
+      "context": "status_requesting_status"
+    },
+    {
+      "unitId": 175303757,
+      "source": "Loading network status",
+      "target": "Läser in nätverksstatus",
+      "state": 20,
+      "context": "status_loading_status"
+    },
+    {
+      "unitId": 175303759,
+      "source": "Requesting network server information",
+      "target": "Begär information om nätverksservrar",
+      "state": 20,
+      "context": "status_requesting_descriptors"
+    },
+    {
+      "unitId": 175303760,
+      "source": "Loading network server information",
+      "target": "Läser in information om nätverksservrar",
+      "state": 20,
+      "context": "status_loading_descriptors"
+    },
+    {
+      "unitId": 175836410,
+      "source": "Loading…",
+      "target": "Läser in …",
+      "state": 20,
+      "context": "loading"
+    },
+    {
+      "unitId": 175836412,
+      "source": "HTTP Port",
+      "target": "HTTP-port",
+      "state": 20,
+      "context": "http_port"
+    },
+    {
+      "unitId": 175836413,
+      "source": "SOCKS Port",
+      "target": "SOCKS-port",
+      "state": 20,
+      "context": "socks_port"
+    },
+    {
+      "unitId": 177299683,
+      "source": "Invalid Outbound Proxy Configuration",
+      "target": "Ogiltig konfiguration av utgående proxyserver",
+      "state": 20,
+      "context": "invalid_outbound_proxy_config"
+    },
+    {
+      "unitId": 177893085,
+      "source": "DNS Tunnel",
+      "target": "DNS-tunnel",
+      "state": 20,
+      "context": "bridge_dnstt"
+    },
+    {
+      "unitId": 177893086,
+      "source": "My Country (optional)",
+      "target": "Mitt land (valfritt)",
+      "state": 20,
+      "context": "my_country_optional"
+    },
+    {
+      "unitId": 177893087,
+      "source": "Limit DNS Tunnel Use",
+      "target": "Begränsa användning av DNS-tunnel",
+      "state": 20,
+      "context": "limit_dns_tunnel_use"
+    },
+    {
+      "unitId": 177893088,
+      "source": "DNS tunnels prioritize access over speed and may feel slower. We recommend enabling them only for essential apps. Video streaming is not recommended.",
+      "target": "DNS-tunnlar prioriterar åtkomst framför hastighet och kan kännas långsammare. Vi rekommenderar att du endast aktiverar dem för viktiga appar. Videoströmning rekommenderas inte.",
+      "state": 20,
+      "context": "dns_tunnel_usage_description"
+    },
+    {
+      "unitId": 178722969,
+      "source": "Adding %1$d bridges from the QR Code",
+      "target": "Lägger till %1$d bryggor från QR-koden",
+      "state": 20,
+      "context": "added_bridges_from_qr"
+    },
+    {
+      "unitId": 178722970,
+      "source": "Invalid Bridge QR Code",
+      "target": "Ogiltig QR-kod för brygga",
+      "state": 20,
+      "context": "invalid_bridge_qr_code"
+    },
+    {
+      "unitId": 178722971,
+      "source": "You've already added the bridges in this QR Code",
+      "target": "Du har redan lagt till bryggorna i den här QR-koden",
+      "state": 20,
+      "context": "you_already_have_these_bridges"
+    },
+    {
+      "unitId": 178897482,
+      "source": "Unable to start Orbot VPN",
+      "target": "Det gick inte att starta Orbot VPN",
+      "state": 20,
+      "context": "unable_to_start_orbot_vpn_title"
+    },
+    {
+      "unitId": 178897483,
+      "source": "There is a Custom VPN Profile configured to be an \"Always-on\" VPN. Please disable it before starting Orbot.",
+      "target": "En anpassad VPN-profil är konfigurerad som ett ”alltid på”-VPN. Inaktivera den innan du startar Orbot.",
+      "state": 20,
+      "context": "unable_to_start_legacy_vpn_error_msg"
+    },
+    {
+      "unitId": 178897484,
+      "source": "The app %1$s is configured to be an \"Always-on\" VPN. Please disable it before starting Orbot.",
+      "target": "Appen %1$s är konfigurerad som ett ”alltid på”-VPN. Inaktivera den innan du startar Orbot.",
+      "state": 20,
+      "context": "unable_to_start_other_vpn_app_error_msg"
+    },
+    {
+      "unitId": 178897485,
+      "source": "The VPN permission was denied or another VPN app has the \"Always-on VPN\" feature enabled. You can dismiss this and reconnect if you exited the previous VPN Request dialog by mistake. Technical users can use another VPN app and use Tor as a SOCKS Proxy by enabling Orbot's Power User Mode.",
+      "target": "VPN-behörigheten nekades eller så har en annan VPN-app funktionen ”Alltid på-VPN” aktiverad. Du kan avfärda detta och ansluta igen om du råkade stänga den föregående dialogrutan för VPN-begäran. Tekniskt kunniga användare kan använda en annan VPN-app och Tor som SOCKS-proxy genom att aktivera Orbots avancerade användarläge.",
+      "state": 20,
+      "context": "unable_to_start_unknown_reason_error_msg"
+    },
+    {
+      "unitId": 178897486,
+      "source": "Open Android VPN Settings",
+      "target": "Öppna Androids VPN-inställningar",
+      "state": 20,
+      "context": "open_vpn_settings"
+    },
+    {
+      "unitId": 182827169,
+      "source": "Remove Country",
+      "target": "Ta bort land",
+      "state": 20,
+      "context": "country_clear"
+    },
+    {
+      "unitId": 182827174,
+      "source": "Do not use Kindness Mode if you live in a highly censored country.",
+      "target": "Använd inte Kindness Mode om du bor i ett land med hård censur.",
+      "state": 20,
+      "context": "kindness_mode_disclaimer_bridge"
+    },
+    {
+      "unitId": 185774246,
+      "source": "Disable Battery Optimizations",
+      "target": "Inaktivera batterioptimering",
+      "state": 20,
+      "context": "battery_optimization_title"
+    },
+    {
+      "unitId": 185774247,
+      "source": "Setting for some users that suspect their device is prematurely killing Orbot while it runs in the background.",
+      "target": "Inställning för användare som misstänker att enheten avslutar Orbot i förtid när den körs i bakgrunden.",
+      "state": 20,
+      "context": "battery_optimization_pref_msg"
+    },
+    {
+      "unitId": 185774248,
+      "source": "Certain Android devices may kill Orbot as it runs in the background. For most users who want to make sure Orbot stays connected and running, it's sufficient to set Orbot to function as an \"Always-on\" VPN in the system settings. However, you may still proceed to prevent your device from performing any battery optimizations on Orbot if you feel it to be necessary.",
+      "target": "Vissa Android-enheter kan avsluta Orbot när den körs i bakgrunden. För de flesta användare som vill säkerställa att Orbot förblir ansluten och körs räcker det att ställa in Orbot som ett ”alltid på”-VPN i systeminställningarna. Du kan ändå fortsätta för att förhindra att enheten utför batterioptimeringar för Orbot om du anser att det behövs.",
+      "state": 20,
+      "context": "battery_optimization_dialog_msg"
+    },
+    {
+      "unitId": 185774249,
+      "source": "On the next screen select Orbot → Allow background usage → Unrestricted.",
+      "target": "På nästa skärm väljer du Orbot → Tillåt användning i bakgrunden → Obegränsad.",
+      "state": 20,
+      "context": "battery_optimization_dialog_msg_instructions"
+    },
+    {
+      "unitId": 185774250,
+      "source": "Note that for most devices, disabling battery optimizations will drain your device's battery faster than normal…",
+      "target": "Observera att inaktiverad batterioptimering på de flesta enheter gör att batteriet laddas ur snabbare än normalt …",
+      "state": 20,
+      "context": "battery_optimization_dialog_msg_disclaimer"
+    },
+    {
+      "unitId": 185774251,
+      "source": "Open Battery Optimization Settings",
+      "target": "Öppna inställningar för batterioptimering",
+      "state": 20,
+      "context": "battery_optimizations_dialog_btn_disable"
+    },
+    {
+      "unitId": 185774252,
+      "source": "Certain Android devices may terminate Orbot when it runs as a background service in Power User Mode. You can always decide to disable/re-enable battery optimizations at a later point from within Orbot's settings…",
+      "target": "Vissa Android-enheter kan avsluta Orbot när den körs som en bakgrundstjänst i avancerat användarläge. Du kan alltid välja att inaktivera eller återaktivera batterioptimering senare i Orbots inställningar …",
+      "state": 20,
+      "context": "battery_optimizations_dialog_msg_power_user"
+    },
+    {
+      "unitId": 185774253,
+      "source": "Battery Optimizations are currently disabled for Orbot…",
+      "target": "Batterioptimering är för närvarande inaktiverad för Orbot …",
+      "state": 20,
+      "context": "battery_optimizations_are_disabled"
+    },
+    {
+      "unitId": 185774254,
+      "source": "Battery Optimizations are currently active for Orbot. This is the default and is reasonable for most users…",
+      "target": "Batterioptimering är för närvarande aktiv för Orbot. Detta är standard och rimligt för de flesta användare …",
+      "state": 20,
+      "context": "battery_optimizations_are_enabled"
+    },
+    {
+      "unitId": 185774255,
+      "source": "Connect Anyway",
+      "target": "Anslut ändå",
+      "state": 20,
+      "context": "btn_connect_anyway"
+    },
+    {
+      "unitId": 185774256,
+      "source": "Connect and Turn Off This Warning",
+      "target": "Anslut och sluta visa denna varning",
+      "state": 20,
+      "context": "btn_connect_anyway_stop_showing"
+    },
+    {
+      "unitId": 190155083,
+      "source": "No Proxy",
+      "target": "Ingen proxyserver",
+      "state": 20,
+      "context": "pref_proxy_no_proxy"
+    },
+    {
+      "unitId": 190155084,
+      "source": "ShadowSocks Configuration URL",
+      "target": "URL för Shadowsocks-konfiguration",
+      "state": 20,
+      "context": "pref_proxy_ss_title"
+    },
+    {
+      "unitId": 190155085,
+      "source": "Full ShadowSocks configuration URL beginning with ss://",
+      "target": "Fullständig URL för Shadowsocks-konfiguration som börjar med ss://",
+      "state": 20,
+      "context": "pref_proxy_ss_summary"
+    },
+    {
+      "unitId": 193434737,
+      "source": "Learn More",
+      "target": "Läs mer",
+      "state": 20,
+      "context": "action_learn_more"
+    },
+    {
+      "unitId": 193434738,
+      "source": "Enabled",
+      "target": "Aktiverad",
+      "state": 20,
+      "context": "Enabled"
+    },
+    {
+      "unitId": 193434739,
+      "source": "Disabled",
+      "target": "Inaktiverad",
+      "state": 20,
+      "context": "Disabled"
+    },
+    {
+      "unitId": 193434740,
+      "source": "Usage Limits",
+      "target": "Användningsgränser",
+      "state": 20,
+      "context": "kindness_usage_limit"
+    },
+    {
+      "unitId": 193434741,
+      "source": "on",
+      "target": "på",
+      "state": 20,
+      "context": "kindness_usage_limits_status_on"
+    },
+    {
+      "unitId": 193434742,
+      "source": "off",
+      "target": "av",
+      "state": 20,
+      "context": "kindness_usage_limits_status_off"
+    },
+    {
+      "unitId": 193434743,
+      "source": "Proxy Quality",
+      "target": "Proxykvalitet",
+      "state": 20,
+      "context": "kindness_proxy_quality"
+    },
+    {
+      "unitId": 193434744,
+      "source": "unknown",
+      "target": "okänd",
+      "state": 20,
+      "context": "kindness_proxy_quality_unknown"
+    },
+    {
+      "unitId": 193434745,
+      "source": "restricted",
+      "target": "begränsad",
+      "state": 20,
+      "context": "kindness_proxy_quality_restricted"
+    },
+    {
+      "unitId": 193434746,
+      "source": "unrestricted",
+      "target": "obegränsad",
+      "state": 20,
+      "context": "kindness_proxy_quality_unrestricted"
+    },
+    {
+      "unitId": 193434747,
+      "source": "Upgrade your Snowflake Proxy",
+      "target": "Förbättra din Snowflake-proxy",
+      "state": 20,
+      "context": "kindness_quality_upgrade_title"
+    },
+    {
+      "unitId": 193434748,
+      "source": "Your proxy can be more powerful when kindness mode is running on Wi-Fi.",
+      "target": "Proxyn kan bli kraftfullare när Kindness Mode körs via Wi-Fi.",
+      "state": 20,
+      "context": "kindness_quality_upgrade_line1"
+    },
+    {
+      "unitId": 193434749,
+      "source": "To upgrade, enable UPnP on your Wi-Fi router for this device.",
+      "target": "Aktivera UPnP på Wi-Fi-routern för den här enheten för att förbättra den.",
+      "state": 20,
+      "context": "kindness_quality_upgrade_line2"
+    },
+    {
+      "unitId": 193434750,
+      "source": "Your Impact in Numbers",
+      "target": "Din insats i siffror",
+      "state": 20,
+      "context": "kindness_your_impact"
+    },
+    {
+      "unitId": 193434760,
+      "source": "You are a great candidate for becoming a Snowflake Proxy on the Tor network.",
+      "target": "Du är en bra kandidat för att bli en Snowflake-proxy i Tor-nätverket.",
+      "state": 20,
+      "context": "testing_explanation_approved"
+    },
+    {
+      "unitId": 193434761,
+      "source": "Continue",
+      "target": "Fortsätt",
+      "state": 20,
+      "context": "testing_continue"
+    },
+    {
+      "unitId": 193434763,
+      "source": "You cannot be a useful Snowflake Proxy at this time. If you keep seeing this message, try again on a different network.",
+      "target": "Du kan för närvarande inte vara en användbar Snowflake-proxy. Försök igen i ett annat nätverk om du fortsätter att se detta meddelande.",
+      "state": 20,
+      "context": "testing_explanation_declined"
+    },
+    {
+      "unitId": 193434765,
+      "source": "Kindness Mode can not be activated when using a VPN. The only exception is Orbot's VPN feature. To become a Snowflake Proxy you must either remove your VPN or switch to using Orbot.",
+      "target": "Kindness Mode kan inte aktiveras när du använder ett VPN. Det enda undantaget är Orbots VPN-funktion. För att bli en Snowflake-proxy måste du antingen ta bort ditt VPN eller börja använda Orbot.",
+      "state": 20,
+      "context": "testing_explanation_other_vpn"
+    },
+    {
+      "unitId": 193434766,
+      "source": "Open System VPN Settings…",
+      "target": "Öppna systemets VPN-inställningar …",
+      "state": 20,
+      "context": "testing_explanation_other_vpn_bubble"
+    },
+    {
+      "unitId": 193434767,
+      "source": "Connect to the Internet to see if you're a good candidate for Kindness Mode",
+      "target": "Anslut till internet för att se om du är en bra kandidat för Kindness Mode",
+      "state": 20,
+      "context": "testing_explanation_no_net"
+    },
+    {
+      "unitId": 193434768,
+      "source": "You selected %s as your country, but unfortunately Kindness Mode can't help people connect to Tor in this region. If you believe you're seeing this message by mistake, you can clear your country and test to see if you're eligible to be a Snowflake Proxy",
+      "target": "Du har valt %s som ditt land, men Kindness Mode kan tyvärr inte hjälpa människor att ansluta till Tor i den här regionen. Om du tror att meddelandet visas av misstag kan du ta bort landet och testa om du är berättigad att vara Snowflake-proxy.",
+      "state": 20,
+      "context": "kindness_mode_unsupported_country"
+    },
+    {
+      "unitId": 195597810,
+      "source": "Paused",
+      "target": "Pausad",
+      "state": 20,
+      "context": "Paused"
+    },
+    {
+      "unitId": 195597811,
+      "source": "On Android 17 and higher, you must also grant the Allow Access to Nearby Devices Permission for Orbot to access your router.",
+      "target": "I Android 17 och senare måste du också bevilja behörigheten Tillåt åtkomst till enheter i närheten för att Orbot ska kunna komma åt routern.",
+      "state": 20,
+      "context": "kindness_quality_upgrade_need_local_network"
+    },
+    {
+      "unitId": 195597812,
+      "source": "The Access Nearby Devices Permission has been granted on this device.",
+      "target": "Behörigheten Tillåt åtkomst till enheter i närheten har beviljats på enheten.",
+      "state": 20,
+      "context": "kindness_quality_upgrade_perm_granted"
+    },
+    {
+      "unitId": 195597813,
+      "source": "Grant Permission",
+      "target": "Bevilja behörighet",
+      "state": 20,
+      "context": "grant_permission"
+    },
+    {
+      "unitId": 195597814,
+      "source": "Set Permission in Settings",
+      "target": "Ange behörighet i inställningarna",
+      "state": 20,
+      "context": "set_permission_in_settings"
+    },
+    {
+      "unitId": 196254858,
+      "source": "On Android 17 and higher, Orbot needs the Allow Access to Nearby Devices permission to open the proxy on all interfaces.",
+      "target": "I Android 17 och senare behöver Orbot behörigheten Tillåt åtkomst till enheter i närheten för att öppna proxyn på alla gränssnitt.",
+      "state": 20,
+      "context": "open_proxy_needs_local_network_permission"
+    },
+    {
+      "unitId": 196679075,
+      "source": "Private DNS",
+      "target": "Privat DNS",
+      "state": 20,
+      "context": "private_dns"
+    },
+    {
+      "unitId": 196679076,
+      "source": "Strict Private DNS Enabled…",
+      "target": "Strikt privat DNS är aktiverat …",
+      "state": 20,
+      "context": "private_dns_strict"
+    },
+    {
+      "unitId": 196679077,
+      "source": "Using Strict Private DNS with a specific resolver will leak which websites and onion services you visit outside Orbot's VPN. Please set your Private DNS to be Automatic.",
+      "target": "Strikt privat DNS med en specifik resolver läcker vilka webbplatser och onion-tjänster du besöker utanför Orbots VPN. Ställ in privat DNS på Automatiskt.",
+      "state": 20,
+      "context": "private_dns_explanation"
+    },
+    {
+      "unitId": 196776922,
+      "source": "Activate Kindness Mode",
+      "target": "Aktivera Kindness Mode",
+      "state": 20,
+      "context": "activate_kindness_mode"
+    },
+    {
+      "unitId": 196776923,
+      "source": "Running Kindness Mode on Android",
+      "target": "Kindness Mode i Android",
+      "state": 20,
+      "context": "running_kindness_mode_on_android"
+    },
+    {
+      "unitId": 196776924,
+      "source": "Kindness mode runs when the device is connected to Wi-Fi.",
+      "target": "Kindness Mode körs när enheten är ansluten till Wi-Fi.",
+      "state": 20,
+      "context": "kindness_mode_runs_when_the_device_is_connected_to_wifi"
+    },
+    {
+      "unitId": 196776925,
+      "source": "You can change the settings anytime.",
+      "target": "Du kan när som helst ändra inställningarna.",
+      "state": 20,
+      "context": "you_can_change_the_settings_anytime"
+    },
+    {
+      "unitId": 196776926,
+      "source": "We recommend charging the device when running Kindness Mode.",
+      "target": "Vi rekommenderar att enheten laddas medan Kindness Mode körs.",
+      "state": 20,
+      "context": "we_recommend_charging_the_device_when_running_kindness_mode"
+    },
+    {
+      "unitId": 196776927,
+      "source": "Turn off Kindness Mode when you use another VPN on this device.",
+      "target": "Stäng av Kindness Mode när du använder ett annat VPN på enheten.",
+      "state": 20,
+      "context": "turn_off_kindness_mode_when_you_use_another_vpn_on_this_device"
+    },
+    {
+      "unitId": 196776928,
+      "source": "Test Connection",
+      "target": "Testa anslutningen",
+      "state": 20,
+      "context": "test_connection"
+    },
+    {
+      "unitId": 196776929,
+      "source": "Orbot will test your connection to determine if you can be a Snowflake Proxy for others.",
+      "target": "Orbot testar anslutningen för att avgöra om du kan vara Snowflake-proxy åt andra.",
+      "state": 20,
+      "context": "orbot_will_test_your_connection_to_determine_if_you_can_be_a_snowflake_proxy_for_others"
+    },
+    {
+      "unitId": 196776930,
+      "source": "The test will try to connect directly to the Tor network.",
+      "target": "Testet försöker ansluta direkt till Tor-nätverket.",
+      "state": 20,
+      "context": "the_test_will_try_to_connect_directly_to_the_tor_network"
+    },
+    {
+      "unitId": 196776931,
+      "source": "If you are using Tor bridges, they will temporarily be disconnected.",
+      "target": "Om du använder Tor-bryggor kopplas de tillfälligt från.",
+      "state": 20,
+      "context": "if_you_are_using_tor_bridges_they_will_temporarily_be_disconnected"
+    },
+    {
+      "unitId": 196776932,
+      "source": "I acknowledge I have read the above.",
+      "target": "Jag bekräftar att jag har läst texten ovan.",
+      "state": 20,
+      "context": "i_acknowledge_i_have_read_the_above"
+    },
+    {
+      "unitId": 196776933,
+      "source": "Testing Connection",
+      "target": "Testar anslutningen",
+      "state": 20,
+      "context": "testing_connection"
+    },
+    {
+      "unitId": 196776934,
+      "source": "Please wait while we check to see if you can run an effective proxy…",
+      "target": "Vänta medan vi kontrollerar om du kan köra en effektiv proxy …",
+      "state": 20,
+      "context": "please_wait_while_we_check_to_see_if_you_can_run_an_effective_proxy"
+    },
+    {
+      "unitId": 196776935,
+      "source": "Stop Test",
+      "target": "Avbryt test",
+      "state": 20,
+      "context": "stop_test"
+    },
+    {
+      "unitId": 196776936,
+      "source": "Approved",
+      "target": "Godkänd",
+      "state": 20,
+      "context": "approved"
+    },
+    {
+      "unitId": 196776937,
+      "source": "Not Approved",
+      "target": "Inte godkänd",
+      "state": 20,
+      "context": "not_approved"
+    },
+    {
+      "unitId": 13656278,
+      "source": "Orbot Settings",
+      "target": "Orbots inställningar",
+      "state": 20,
+      "context": "menu_settings"
+    },
+    {
+      "unitId": 13656292,
+      "source": "Orbot is an open-source application that contains Tor, IPtProxy (Lyrebird, Meek, Snowflake), hev-socks5-tunnel and LibEvent. It provides a VPN tunnel, a local HTTP Connect proxy (HTTPS only on port 8118) and a SOCKS proxy (9050) into the Tor network.",
+      "target": "Orbot är en app med öppen källkod som innehåller Tor, IPtProxy (Lyrebird, Meek, Snowflake), hev-socks5-tunnel och LibEvent. Den tillhandahåller en VPN-tunnel, en lokal HTTP Connect-proxy (endast HTTPS på port 8118) och en SOCKS-proxy (9050) till Tor-nätverket.",
+      "state": 20,
+      "context": "wizard_details_msg"
+    },
+    {
+      "unitId": 13656420,
+      "source": "Backup Service (Warning: This Could Expose Your Service Configuration to Other Apps)",
+      "target": "Säkerhetskopieringstjänst <i>(Varning: Detta kan exponera tjänstekonfigurationen för andra appar)</i>",
+      "state": 20,
+      "context": "backup_service"
+    },
+    {
+      "unitId": 71840229,
+      "source": "Treat Exclude Nodes settings as a requirement for building all circuits. This may break functionality if no circuits can be built with your Exclude Nodes settings.",
+      "target": "Behandla inställningarna för exkluderade noder som ett krav för att bygga alla kretsar. Detta kan störa funktionen om inga kretsar kan byggas med inställningarna för exkluderade noder.",
+      "state": 20,
+      "context": "strict_nodes_description"
+    },
+    {
+      "unitId": 76006398,
+      "source": "Refresh Connection",
+      "target": "Uppdatera anslutningen",
+      "state": 20,
+      "context": "btn_refresh"
+    },
+    {
+      "unitId": 81090961,
+      "source": "Smart Connect",
+      "target": "Smart Connect",
+      "state": 20,
+      "context": "smart_connect"
+    },
+    {
+      "unitId": 81090963,
+      "source": "Direct Connection",
+      "target": "Direktanslutning",
+      "state": 20,
+      "context": "direct_connect"
+    },
+    {
+      "unitId": 81090965,
+      "source": "Snowflake",
+      "target": "Snowflake",
+      "state": 20,
+      "context": "snowflake"
+    },
+    {
+      "unitId": 95679395,
+      "source": "Snowflake AMP",
+      "target": "Snowflake AMP",
+      "state": 20,
+      "context": "snowflake_amp"
+    },
+    {
+      "unitId": 152897002,
+      "source": "Configure when and how your device can act as a Snowflake proxy for other Tor users.",
+      "target": "Konfigurera när och hur enheten kan fungera som en Snowflake-proxy för andra Tor-användare.",
+      "state": 20,
+      "context": "kindness_config_detail"
     }
   ]
 }
