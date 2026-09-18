@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**3D Slicer (2026-09-18):** Maskinöversatt svensk komponent är 4 645/5 849 med 995 `needs-editing`. En ny granskad UI-batch (markeringar, in-/utdata, orientering, färgförklaring och synlighet) verifierades men samtliga 18 API-uppdateringar avvisades av projektets Weblate-behörighet. Ingen extern ändring gjordes.
+
 **CopyQ (2026-09-18):** Aktuell release 16.0.0. Svenska UI:t är **684/684**, 0 fuzzy. Den enda kontrollvarningen, *Change Password Successful* → *Lösenordsbytet lyckades.*, är språkgranskad som korrekt. XML-export: `CopyQ/sv.ts` (SHA-256 `493275b9…0160`).
 
 **phpMyAdmin 5.2 (2026-09-18):** Aktuell release 5.2.3. Svenska katalogen är **3 436/3 436** med **0 fuzzy** efter 42 kontextgranskade rättningar för frågor, anslutningsfel, sortering, cache, replikering, extern HTML-transformering, SSL och reCAPTCHA. Officiell export arkiveras i `phpMyAdmin-5.2/`.
