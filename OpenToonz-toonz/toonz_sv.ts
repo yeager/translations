@@ -8562,15 +8562,15 @@ odefinierat fel.</translation>
     </message>
     <message>
         <source>Style Editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilredigerare</translation>
     </message>
     <message>
         <source>Tool Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktygsalternativ</translation>
     </message>
     <message>
         <source>LineTest Viewer</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjetestvisare</translation>
     </message>
     <message>
         <source>Xsheet</source>
@@ -8578,48 +8578,49 @@ odefinierat fel.</translation>
     </message>
     <message>
         <source>FlipBook</source>
-        <translation type="unfinished"></translation>
+        <translation>Blädderbok</translation>
     </message>
     <message>
         <source>Deactivate Onion Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera lökhinna</translation>
     </message>
     <message>
         <source>Limit Onion Skin To Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Begränsa lökhinna till nivå</translation>
     </message>
     <message>
         <source>Extend Onion Skin To Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Utöka lökhinna till scen</translation>
     </message>
     <message>
         <source>Activate Onion Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera lökhinna</translation>
     </message>
     <message>
         <source>Are you sure you want to save the Default Settings?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill spara standardinställningarna?</translation>
     </message>
     <message>
         <source>Choose Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj mapp</translation>
     </message>
     <message>
         <source>Revert: the current scene has been modified.
 Are you sure you want to revert to previous version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ: den aktuella scenen har ändrats.
+Är du säker på att du vill återställa föregående version?</translation>
     </message>
     <message>
         <source>Revert</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Deleting %1. Are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort %1. Är du säker?</translation>
     </message>
     <message>
         <source>The %1 file has been generated</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 har skapats</translation>
     </message>
     <message>
         <source>%1: the current scene has been modified.
@@ -8630,28 +8631,30 @@ Do you want to save your changes?</source>
     <message>
         <source>The scene %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenen %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>The Scene &apos;%1&apos; belongs to project &apos;%2&apos;.
 What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenen ”%1” tillhör projektet ”%2”.
+Vad vill du göra?</translation>
     </message>
     <message>
         <source>No unused levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga oanvända nivåer</translation>
     </message>
     <message>
         <source>Rendered Frames  ::  From %1 To %2  ::  Step %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Renderade bildrutor :: Från %1 till %2 :: Steg %3</translation>
     </message>
     <message>
         <source>Preview FX :: %1 </source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisa FX :: %1 </translation>
     </message>
     <message>
         <source>Batch Servers</source>
-        <translation type="unfinished"></translation>
+        <translation>Batchservrar</translation>
     </message>
     <message>
         <source> Task added to the Batch Render List.</source>
