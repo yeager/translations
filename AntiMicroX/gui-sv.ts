@@ -2435,7 +2435,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttontypes/joyaccelerometerbutton.cpp" line="46"/>
         <source>Left</source>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joyaccelerometerbutton.cpp" line="50"/>
@@ -2488,7 +2488,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
         <location filename="../../../src/joybuttontypes/joyaxisbutton.cpp" line="55"/>
         <location filename="../../../src/joybuttontypes/joyaxisbutton.cpp" line="78"/>
         <source>Button</source>
-        <translation>Button</translation>
+        <translation>Knapp</translation>
     </message>
 </context>
 <context>
@@ -2588,7 +2588,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="1614"/>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="1619"/>
         <source>Button</source>
-        <translation>Button</translation>
+        <translation>Knapp</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="1657"/>
@@ -2684,7 +2684,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="135"/>
         <source>Left</source>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="139"/>
@@ -2804,7 +2804,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
         <location filename="../../../src/joybuttontypes/joycontrolstickbutton.cpp" line="77"/>
         <location filename="../../../src/joybuttontypes/joycontrolstickbutton.cpp" line="81"/>
         <source>Left</source>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joycontrolstickbutton.cpp" line="57"/>
@@ -2818,7 +2818,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
         <location filename="../../../src/joybuttontypes/joycontrolstickbutton.cpp" line="106"/>
         <location filename="../../../src/joybuttontypes/joycontrolstickbutton.cpp" line="112"/>
         <source>Button</source>
-        <translation>Button</translation>
+        <translation>Knapp</translation>
     </message>
 </context>
 <context>
@@ -3146,7 +3146,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="198"/>
         <source>% Safe Zone:</source>
-        <translation>% Safe Zone:</translation>
+        <translation>% säker zon:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="369"/>
@@ -3166,7 +3166,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="474"/>
         <source>Diagonal Range:</source>
-        <translation>Diagonal Range:</translation>
+        <translation>Diagonalt område:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.cpp" line="598"/>
@@ -3220,7 +3220,7 @@ gång-/springfunktioner till en analog spak.</translation>
         <location filename="../../../src/joybuttontypes/joydpadbutton.cpp" line="67"/>
         <location filename="../../../src/joybuttontypes/joydpadbutton.cpp" line="71"/>
         <source>Left</source>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joydpadbutton.cpp" line="47"/>
@@ -3234,7 +3234,7 @@ gång-/springfunktioner till en analog spak.</translation>
         <location filename="../../../src/joybuttontypes/joydpadbutton.cpp" line="98"/>
         <location filename="../../../src/joybuttontypes/joydpadbutton.cpp" line="104"/>
         <source>Button</source>
-        <translation>Button</translation>
+        <translation>Knapp</translation>
     </message>
 </context>
 <context>
@@ -3285,7 +3285,7 @@ gång-/springfunktioner till en analog spak.</translation>
         <location filename="../../../src/joybuttontypes/joysensorbutton.cpp" line="63"/>
         <location filename="../../../src/joybuttontypes/joysensorbutton.cpp" line="67"/>
         <source>Button</source>
-        <translation>Button</translation>
+        <translation>Knapp</translation>
     </message>
 </context>
 <context>
@@ -3332,7 +3332,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="269"/>
         <source>% Safe Zone:</source>
-        <translation>% Safe Zone:</translation>
+        <translation>% säker zon:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="318"/>
@@ -3364,7 +3364,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="472"/>
         <source>Diagonal Range:</source>
-        <translation>Diagonal Range:</translation>
+        <translation>Diagonalt område:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="479"/>
@@ -6166,7 +6166,7 @@ Kontrollera att du har behörighet att skriva till enheten</translation>
     <message>
         <location filename="../../../src/uinputhelper.cpp" line="262"/>
         <source>Left</source>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../../../src/uinputhelper.cpp" line="263"/>
@@ -6666,7 +6666,7 @@ LK</translation>
     <message>
         <location filename="../../../src/keyboard/virtualkeypushbutton.cpp" line="180"/>
         <source>Left</source>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeypushbutton.cpp" line="181"/>
@@ -6697,7 +6697,7 @@ LK</translation>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="500"/>
         <source>Left</source>
         <comment>Mouse</comment>
-        <translation>Left</translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="512"/>
