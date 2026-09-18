@@ -1,0 +1,558 @@
+[
+  {
+    "id": 206258952,
+    "source": [
+      "Only do this when the label genuinely prints no producer — ask the bottle's owner first. The wine will leave this queue but stay hidden from the registry. Their bottle keeps working, and you can put the row back later. Continue?"
+    ],
+    "target": [
+      "Gör bara detta om etiketten verkligen saknar producent – fråga först flaskans ägare. Vinet lämnar kön men förblir dolt i registret. Flaskans funktion påverkas inte och du kan lägga tillbaka raden senare. Vill du fortsätta?"
+    ],
+    "context": "admin.wines.pendingIdentity.unavailableConfirm",
+    "state": 20
+  },
+  {
+    "id": 206258953,
+    "source": [
+      "Recorded: this label prints no producer. The row has left the queue and the wine stays hidden — you can put it back at any time."
+    ],
+    "target": [
+      "Registrerat: etiketten saknar producent. Raden har lämnat kön och vinet förblir dolt – du kan lägga tillbaka den när som helst."
+    ],
+    "context": "admin.wines.pendingIdentity.unavailableSaved",
+    "state": 20
+  },
+  {
+    "id": 206258954,
+    "source": [
+      "Back in the queue."
+    ],
+    "target": [
+      "Tillbaka i kön."
+    ],
+    "context": "admin.wines.pendingIdentity.unavailableUndone",
+    "state": 20
+  },
+  {
+    "id": 206258955,
+    "source": [
+      "Nothing waiting in this view. {{n}} wine(s) are recorded as having no producer on the label — tick the box above to see them, or clear the source filter."
+    ],
+    "target": [
+      "Inget väntar i den här vyn. {{n}} vin/viner är registrerade som utan producent på etiketten – markera rutan ovan för att se dem eller rensa källfiltret."
+    ],
+    "context": "admin.wines.pendingIdentity.emptyFiltered",
+    "state": 20
+  },
+  {
+    "id": 206258956,
+    "source": [
+      "recorded: no producer on the label"
+    ],
+    "target": [
+      "registrerat: ingen producent på etiketten"
+    ],
+    "context": "admin.wines.pendingIdentity.unavailableBadge",
+    "state": 20
+  },
+  {
+    "id": 206258957,
+    "source": [
+      "Front/back labels disagree —"
+    ],
+    "target": [
+      "Fram- och baksidesetiketter skiljer sig åt –"
+    ],
+    "context": "admin.wines.pendingIdentity.frontBackDisagree",
+    "state": 20
+  },
+  {
+    "id": 206258958,
+    "source": [
+      "Show \"no producer on label\" ({{n}})"
+    ],
+    "target": [
+      "Visa ”ingen producent på etiketten” ({{n}})"
+    ],
+    "context": "admin.wines.pendingIdentity.showUnavailable",
+    "state": 20
+  },
+  {
+    "id": 206258959,
+    "source": [
+      "Include the rows already recorded as having no producer on the label. They have no work left, but the record is reversible from here."
+    ],
+    "target": [
+      "Inkludera raderna som redan är registrerade som utan producent på etiketten. De behöver inte åtgärdas, men registreringen kan återställas härifrån."
+    ],
+    "context": "admin.wines.pendingIdentity.showUnavailableTitle",
+    "state": 20
+  },
+  {
+    "id": 206258960,
+    "source": [
+      "Nothing waiting — every wine has a usable identity."
+    ],
+    "target": [
+      "Inget väntar – varje vin har en användbar identitet."
+    ],
+    "context": "admin.wines.pendingIdentity.empty",
+    "state": 20
+  },
+  {
+    "id": 206258961,
+    "source": [
+      "Proposals"
+    ],
+    "target": [
+      "Förslag"
+    ],
+    "context": "admin.wines.proposals.button",
+    "state": 20
+  },
+  {
+    "id": 206258962,
+    "source": [
+      "Proposals ({{count}})",
+      "Proposals ({{count}})"
+    ],
+    "target": [
+      "Förslag ({{count}})",
+      "Förslag ({{count}})"
+    ],
+    "context": "admin.wines.proposals.buttonWithCount",
+    "state": 20
+  },
+  {
+    "id": 206258963,
+    "source": [
+      "Sommelier correction proposals — identity fixes, merges and non-wine flags awaiting your review"
+    ],
+    "target": [
+      "Förslag till korrigeringar från sommelierer – identitetsrättningar, sammanslagningar och markeringar av icke-vin som väntar på granskning"
+    ],
+    "context": "admin.wines.proposals.buttonTitle",
+    "state": 20
+  },
+  {
+    "id": 206258964,
+    "source": [
+      "Sommelier correction proposals"
+    ],
+    "target": [
+      "Förslag till korrigeringar från sommelierer"
+    ],
+    "context": "admin.wines.proposals.title",
+    "state": 20
+  },
+  {
+    "id": 206258965,
+    "source": [
+      "The maturity-queue curator corrects type, grapes and tasting profiles directly, but identity fields (producer, name, appellation, region, country, classification), merges and non-wine flags apply only after you approve them here — curator assertions on identity have been confidently wrong before. Each proposal carries the somm's reasoning and evidence; approving applies the shown change in one click."
+    ],
+    "target": [
+      "Förvaltaren av mognadskön rättar typ, druvor och smakprofiler direkt, men identitetsfält (producent, namn, ursprungsbeteckning, region, land och klassificering), sammanslagningar och icke-vin-markeringar tillämpas först när du godkänner dem här – sommelierens påståenden om identitet har tidigare varit fel, trots hög säkerhet. Varje förslag innehåller sommelierens motivering och underlag; ett godkännande tillämpar den visade ändringen med ett klick."
+    ],
+    "context": "admin.wines.proposals.explainer",
+    "state": 20
+  },
+  {
+    "id": 206258966,
+    "source": [
+      "Pending ({{count}})",
+      "Pending ({{count}})"
+    ],
+    "target": [
+      "Väntande ({{count}})",
+      "Väntande ({{count}})"
+    ],
+    "context": "admin.wines.proposals.viewPending",
+    "state": 20
+  },
+  {
+    "id": 206258967,
+    "source": [
+      "Decided"
+    ],
+    "target": [
+      "Avgjorda"
+    ],
+    "context": "admin.wines.proposals.viewDecided",
+    "state": 20
+  },
+  {
+    "id": 206258968,
+    "source": [
+      "{{count}} proposal",
+      "{{count}} proposals"
+    ],
+    "target": [
+      "{{count}} förslag",
+      "{{count}} förslag"
+    ],
+    "context": "admin.wines.proposals.count",
+    "state": 20
+  },
+  {
+    "id": 206258969,
+    "source": [
+      "No pending proposals — the curation queue is clear."
+    ],
+    "target": [
+      "Inga väntande förslag – förvaltningskön är tom."
+    ],
+    "context": "admin.wines.proposals.emptyPending",
+    "state": 20
+  },
+  {
+    "id": 206258970,
+    "source": [
+      "No decided proposals yet."
+    ],
+    "target": [
+      "Inga avgjorda förslag ännu."
+    ],
+    "context": "admin.wines.proposals.emptyDecided",
+    "state": 20
+  },
+  {
+    "id": 206258971,
+    "source": [
+      "Field correction"
+    ],
+    "target": [
+      "Fältkorrigering"
+    ],
+    "context": "admin.wines.proposals.kindFieldCorrection",
+    "state": 20
+  },
+  {
+    "id": 206258972,
+    "source": [
+      "Merge"
+    ],
+    "target": [
+      "Slå samman"
+    ],
+    "context": "admin.wines.proposals.kindMerge",
+    "state": 20
+  },
+  {
+    "id": 206258973,
+    "source": [
+      "Non-wine"
+    ],
+    "target": [
+      "Icke-vin"
+    ],
+    "context": "admin.wines.proposals.kindNonWine",
+    "state": 20
+  },
+  {
+    "id": 206258974,
+    "source": [
+      "Producer"
+    ],
+    "target": [
+      "Producent"
+    ],
+    "context": "admin.wines.proposals.fields.producer",
+    "state": 20
+  },
+  {
+    "id": 206258975,
+    "source": [
+      "Name"
+    ],
+    "target": [
+      "Namn"
+    ],
+    "context": "admin.wines.proposals.fields.name",
+    "state": 20
+  },
+  {
+    "id": 206258976,
+    "source": [
+      "Appellation"
+    ],
+    "target": [
+      "Ursprungsbeteckning"
+    ],
+    "context": "admin.wines.proposals.fields.appellation",
+    "state": 20
+  },
+  {
+    "id": 206258977,
+    "source": [
+      "Region"
+    ],
+    "target": [
+      "Region"
+    ],
+    "context": "admin.wines.proposals.fields.region",
+    "state": 20
+  },
+  {
+    "id": 206258978,
+    "source": [
+      "Country"
+    ],
+    "target": [
+      "Land"
+    ],
+    "context": "admin.wines.proposals.fields.country",
+    "state": 20
+  },
+  {
+    "id": 206258979,
+    "source": [
+      "Classification"
+    ],
+    "target": [
+      "Klassificering"
+    ],
+    "context": "admin.wines.proposals.fields.classification",
+    "state": 20
+  },
+  {
+    "id": 206258980,
+    "source": [
+      "Type"
+    ],
+    "target": [
+      "Typ"
+    ],
+    "context": "admin.wines.proposals.fields.type",
+    "state": 20
+  },
+  {
+    "id": 206258981,
+    "source": [
+      "Grapes"
+    ],
+    "target": [
+      "Druvor"
+    ],
+    "context": "admin.wines.proposals.fields.grapes",
+    "state": 20
+  },
+  {
+    "id": 206258982,
+    "source": [
+      "was \"{{value}}\" when proposed"
+    ],
+    "target": [
+      "var ”{{value}}” när förslaget lades"
+    ],
+    "context": "admin.wines.proposals.drift",
+    "state": 20
+  },
+  {
+    "id": 206258983,
+    "source": [
+      "Merge into:"
+    ],
+    "target": [
+      "Slå samman med:"
+    ],
+    "context": "admin.wines.proposals.mergeInto",
+    "state": 20
+  },
+  {
+    "id": 206258984,
+    "source": [
+      "Quarantine as non-wine: hidden from search and public listings, its pending maturity-queue rows removed; owners' bottles keep working."
+    ],
+    "target": [
+      "Sätt i karantän som icke-vin: döljs från sökningar och offentliga listor, och väntande rader i mognadskön tas bort; ägarnas flaskor fungerar fortfarande."
+    ],
+    "context": "admin.wines.proposals.nonWineLine",
+    "state": 20
+  },
+  {
+    "id": 206258985,
+    "source": [
+      "(wine no longer exists)"
+    ],
+    "target": [
+      "(vinet finns inte längre)"
+    ],
+    "context": "admin.wines.proposals.wineGone",
+    "state": 20
+  },
+  {
+    "id": 206258986,
+    "source": [
+      "Evidence"
+    ],
+    "target": [
+      "Underlag"
+    ],
+    "context": "admin.wines.proposals.evidence",
+    "state": 20
+  },
+  {
+    "id": 206258987,
+    "source": [
+      "Proposed by {{name}} on {{date}}"
+    ],
+    "target": [
+      "Föreslaget av {{name}} den {{date}}"
+    ],
+    "context": "admin.wines.proposals.proposedBy",
+    "state": 20
+  },
+  {
+    "id": 206258988,
+    "source": [
+      "Approve & apply"
+    ],
+    "target": [
+      "Godkänn och tillämpa"
+    ],
+    "context": "admin.wines.proposals.approve",
+    "state": 20
+  },
+  {
+    "id": 206258989,
+    "source": [
+      "Applying…"
+    ],
+    "target": [
+      "Tillämpar …"
+    ],
+    "context": "admin.wines.proposals.approving",
+    "state": 20
+  },
+  {
+    "id": 206258990,
+    "source": [
+      "Apply this change to the shared registry exactly as shown"
+    ],
+    "target": [
+      "Tillämpa ändringen i det delade registret exakt som den visas"
+    ],
+    "context": "admin.wines.proposals.approveTitle",
+    "state": 20
+  },
+  {
+    "id": 206258991,
+    "source": [
+      "Reject…"
+    ],
+    "target": [
+      "Avvisa …"
+    ],
+    "context": "admin.wines.proposals.reject",
+    "state": 20
+  },
+  {
+    "id": 206258992,
+    "source": [
+      "Reject"
+    ],
+    "target": [
+      "Avvisa"
+    ],
+    "context": "admin.wines.proposals.rejectConfirm",
+    "state": 20
+  },
+  {
+    "id": 206258993,
+    "source": [
+      "Rejecting…"
+    ],
+    "target": [
+      "Avvisar …"
+    ],
+    "context": "admin.wines.proposals.rejecting",
+    "state": 20
+  },
+  {
+    "id": 206258994,
+    "source": [
+      "Why this is being rejected (min 5 characters)"
+    ],
+    "target": [
+      "Varför förslaget avvisas (minst 5 tecken)"
+    ],
+    "context": "admin.wines.proposals.rejectPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206258995,
+    "source": [
+      "A reject reason of at least 5 characters is required"
+    ],
+    "target": [
+      "Det krävs en avvisningsmotivering med minst 5 tecken"
+    ],
+    "context": "admin.wines.proposals.rejectReasonRequired",
+    "state": 20
+  },
+  {
+    "id": 206258996,
+    "source": [
+      "Rejected: {{reason}}"
+    ],
+    "target": [
+      "Avvisat: {{reason}}"
+    ],
+    "context": "admin.wines.proposals.rejectedWith",
+    "state": 20
+  },
+  {
+    "id": 206258997,
+    "source": [
+      "Approved"
+    ],
+    "target": [
+      "Godkänt"
+    ],
+    "context": "admin.wines.proposals.statusApproved",
+    "state": 20
+  },
+  {
+    "id": 206258998,
+    "source": [
+      "Rejected"
+    ],
+    "target": [
+      "Avvisat"
+    ],
+    "context": "admin.wines.proposals.statusRejected",
+    "state": 20
+  },
+  {
+    "id": 206258999,
+    "source": [
+      "Failed to load proposals"
+    ],
+    "target": [
+      "Det gick inte att läsa in förslagen"
+    ],
+    "context": "admin.wines.proposals.loadError",
+    "state": 20
+  },
+  {
+    "id": 206259000,
+    "source": [
+      "Failed to approve the proposal"
+    ],
+    "target": [
+      "Det gick inte att godkänna förslaget"
+    ],
+    "context": "admin.wines.proposals.approveError",
+    "state": 20
+  },
+  {
+    "id": 206259001,
+    "source": [
+      "Failed to reject the proposal"
+    ],
+    "target": [
+      "Det gick inte att avvisa förslaget"
+    ],
+    "context": "admin.wines.proposals.rejectError",
+    "state": 20
+  }
+]
