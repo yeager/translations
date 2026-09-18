@@ -4549,55 +4549,55 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Hook Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Krokverktyg</translation>
     </message>
     <message>
         <source>Zoom Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoomverktyg</translation>
     </message>
     <message>
         <source>Rotate Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotationsverktyg</translation>
     </message>
     <message>
         <source>Hand Tool</source>
-        <translation type="unfinished"></translation>
+        <translation>Handverktyg</translation>
     </message>
     <message>
         <source>Zoom In</source>
-        <translation type="unfinished"></translation>
+        <translation>Zooma in</translation>
     </message>
     <message>
         <source>Zoom Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Zooma ut</translation>
     </message>
     <message>
         <source>Reset View</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ vy</translation>
     </message>
     <message>
         <source>Fit to Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa till fönster</translation>
     </message>
     <message>
         <source>Actual Pixel Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Faktisk pixelstorlek</translation>
     </message>
     <message>
         <source>Show//Hide Full Screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj helskärm</translation>
     </message>
     <message>
         <source>Full Screen Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Helskärmsläge</translation>
     </message>
     <message>
         <source>Exit Full Screen Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Avsluta helskärmsläge</translation>
     </message>
     <message>
         <source>Global Key</source>
-        <translation type="unfinished"></translation>
+        <translation>Global nyckelbild</translation>
     </message>
     <message>
         <source>Increase brush hardness</source>
@@ -4609,43 +4609,43 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Auto Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Gruppera automatiskt</translation>
     </message>
     <message>
         <source>Break sharp angles</source>
-        <translation type="unfinished"></translation>
+        <translation>Bryt skarpa vinklar</translation>
     </message>
     <message>
         <source>Frame range</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildruteintervall</translation>
     </message>
     <message>
         <source>Inverse Kinematics</source>
-        <translation type="unfinished"></translation>
+        <translation>Invers kinematik</translation>
     </message>
     <message>
         <source>Invert</source>
-        <translation type="unfinished"></translation>
+        <translation>Invertera</translation>
     </message>
     <message>
         <source>Manual</source>
-        <translation type="unfinished"></translation>
+        <translation>Manuell</translation>
     </message>
     <message>
         <source>Onion skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Lökhinna</translation>
     </message>
     <message>
         <source>Orientation</source>
-        <translation type="unfinished"></translation>
+        <translation>Orientering</translation>
     </message>
     <message>
         <source>Pencil Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Pennläge</translation>
     </message>
     <message>
         <source>Preserve Thickness</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevara tjocklek</translation>
     </message>
     <message>
         <source>Pressure sensibility</source>
@@ -4653,51 +4653,51 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Segment Ink</source>
-        <translation type="unfinished"></translation>
+        <translation>Segmentera bläck</translation>
     </message>
     <message>
         <source>Selective</source>
-        <translation type="unfinished"></translation>
+        <translation>Selektiv</translation>
     </message>
     <message>
         <source>Smooth</source>
-        <translation type="unfinished"></translation>
+        <translation>Utjämna</translation>
     </message>
     <message>
         <source>Snap</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäst</translation>
     </message>
     <message>
         <source>Auto Select Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj ritning automatiskt</translation>
     </message>
     <message>
         <source>Auto Fill</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyll automatiskt</translation>
     </message>
     <message>
         <source>Join Vectors</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfoga vektorer</translation>
     </message>
     <message>
         <source>Show Only Active Skeleton</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast aktivt skelett</translation>
     </message>
     <message>
         <source>Brush Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Penselförinställning</translation>
     </message>
     <message>
         <source>Geometric Shape</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometrisk form</translation>
     </message>
     <message>
         <source>Geometric Edge</source>
-        <translation type="unfinished"></translation>
+        <translation>Geometrisk kant</translation>
     </message>
     <message>
         <source>Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge</translation>
     </message>
     <message>
         <source>Areas Mode</source>
@@ -4713,7 +4713,7 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Type</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ</translation>
     </message>
     <message>
         <source>Normal Type</source>
@@ -4733,75 +4733,75 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>TypeTool Font</source>
-        <translation type="unfinished"></translation>
+        <translation>Textverktygets teckensnitt</translation>
     </message>
     <message>
         <source>TypeTool Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Textverktygets storlek</translation>
     </message>
     <message>
         <source>TypeTool Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Textverktygets stil</translation>
     </message>
     <message>
         <source>Active Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv axel</translation>
     </message>
     <message>
         <source>Active Axis - Position</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv axel – position</translation>
     </message>
     <message>
         <source>Active Axis - Rotation</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv axel – rotation</translation>
     </message>
     <message>
         <source>Active Axis - Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv axel – skala</translation>
     </message>
     <message>
         <source>Active Axis - Shear</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv axel – skjuvning</translation>
     </message>
     <message>
         <source>Active Axis - Center</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv axel – centrum</translation>
     </message>
     <message>
         <source>Build Skeleton Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge för att bygga skelett</translation>
     </message>
     <message>
         <source>Animate Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Animeringsläge</translation>
     </message>
     <message>
         <source>Inverse Kinematics Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge för invers kinematik</translation>
     </message>
     <message>
         <source>None Pick Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget markeringsläge</translation>
     </message>
     <message>
         <source>Column Pick Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Kolumnmarkeringsläge</translation>
     </message>
     <message>
         <source>Pegbar Pick Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Tappregistermarkeringsläge</translation>
     </message>
     <message>
         <source>&amp;Reset Step</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Återställ steg</translation>
     </message>
     <message>
         <source>&amp;Increase Step</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Öka steg</translation>
     </message>
     <message>
         <source>&amp;Decrease Step</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Minska steg</translation>
     </message>
     <message>
         <source>Drawing</source>
@@ -4825,27 +4825,27 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Reload qss</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in qss på nytt</translation>
     </message>
     <message>
         <source>&amp;Autocenter...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Centrera automatiskt...</translation>
     </message>
     <message>
         <source>&amp;Field Guide in Capture Window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fältguide i fångstfönstret</translation>
     </message>
     <message>
         <source>&amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hjälplinje</translation>
     </message>
     <message>
         <source>&amp;Ruler</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Linjal</translation>
     </message>
     <message>
         <source>Next Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa ritning</translation>
     </message>
     <message>
         <source>Prev Drawing</source>
