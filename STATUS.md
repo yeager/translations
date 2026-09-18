@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CalyxOS Android Auto support (2026-09-18):** Android Auto-stödet är färdigställt: **8/8** strängar, 0 tomma och 0 ogranskade. Konfigurationsflödet bevarar upplysningen om extra appar och integritetskonsekvenser. Officiell export: `CalyxOS-Android-Auto/strings.xml` (XML-validerad).
+
 **CalyxOS Seedvault Storage (2026-09-18):** Filbackupens svenska resurs är färdigställd: **41/41** strängar, 0 tomma, 0 ogranskade och 0 kontrollmarkeringar. Integritetskontroll, datahastighet, skadade ögonblicksbilder, detaljerad felrapportering och partiell återställning är terminologiskt granskade. Officiell export: `CalyxOS-Seedvault-Storage/strings.xml` (XML- och platshållarvaliderad samt hunspell-sv-granskad).
 
 **CalyxOS Launcher (2026-09-18):** Startprogrammets svenska resurs är färdigställd: **11/11** strängar, 0 tomma och 0 ogranskade. Arbetsapparnas avstängda läge och dess konsekvenser för aviseringar, batteri, plats, samtal och sms är kontextgranskade. Officiell export: `CalyxOS-Launcher/strings.xml` (XML-validerad).
