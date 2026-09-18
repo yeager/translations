@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CalyxOS Settings (2026-09-18):** Systeminställningarnas svenska resurs är färdigställd: **82/82** strängar, 0 tomma och 0 ogranskade. Säkerhetsgranskningen omfattar global VPN, USB-enheter, automatisk omstart, nätverkskontroll, radering efter misslyckad upplåsning, privat utrymme, platsmetadata och arbetsprofil. Fem Weblate-kontrollmarkeringar är manuellt granskade som korrekta (produktnamnet `Global VPN`, konsekventa `Snabbinställningar` och kompletta VPN-texter). Officiell export: `CalyxOS-Settings/strings.xml` (XML- och XLIFF-validerad samt hunspell-sv-granskad).
+
 **CalyxOS Work Profile (2026-09-18):** Arbetsprofilens integritets- och dataavskiljningsflöde är färdigställt: **15/15** svenska strängar, 0 tomma och 0 ogranskade. Radering av profilen, separering av arbetsappar och kravet på huvudanvändare är kontextgranskade. Två Weblate-markeringar på de längre hjälptexterna har manuellt granskats som korrekta, inklusive fliketiketten `Arbete` och HTML-markeringen. Officiell export: `CalyxOS-Work-Profile/strings.xml` (XML-validerad och hunspell-sv-granskad).
 
 **CalyxOS Permissions (2026-09-18):** Säkerhetsmodulen för tidsbegränsad kamera- och mikrofonåtkomst är färdigställd: **18/18** svenska strängar, 0 tomma, 0 ogranskade och 0 kontrollmarkeringar. Tidsvalen och åtkomstvarningarna är terminologiskt granskade i Android-kontext. Officiell export: `CalyxOS-Permissions/strings.xml` (XML- och platshållarvaliderad; hunspell-sv användes. l10n-lint saknar stöd för Android XLIFF/XML).
