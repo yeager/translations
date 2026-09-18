@@ -1111,105 +1111,105 @@ What do you want to do? </source>
     </message>
     <message>
         <source>Pick Type:</source>
-        <translation type="unfinished"></translation>
+        <translation>Typ av färgplockning:</translation>
     </message>
     <message>
         <source>Grid Line Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg på rutnätslinjer:</translation>
     </message>
     <message>
         <source>Grid Line Width:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bredd på rutnätslinjer:</translation>
     </message>
     <message>
         <source>Chip Order:</source>
-        <translation type="unfinished"></translation>
+        <translation>Provruteordning:</translation>
     </message>
 </context>
 <context>
     <name>ColorModelViewer</name>
     <message>
         <source>Color Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgmodell</translation>
     </message>
     <message>
         <source>Use Current Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd aktuell bildruta</translation>
     </message>
     <message>
         <source>Remove Color Model</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort färgmodell</translation>
     </message>
     <message>
         <source>It is not possible to retrieve the color model set for the current level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att hämta färgmodellen som angetts för den aktuella nivån.</translation>
     </message>
     <message>
         <source>Reset View</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ vy</translation>
     </message>
     <message>
         <source>Fit to Window</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa till fönster</translation>
     </message>
     <message>
         <source>Update Colors by Using Picked Positions</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdatera färger med de valda positionerna</translation>
     </message>
 </context>
 <context>
     <name>ComboViewerPanel</name>
     <message>
         <source>Safe Area (Right Click to Select)</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetsområde (högerklicka för att välja)</translation>
     </message>
     <message>
         <source>Field Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Fältguide</translation>
     </message>
     <message>
         <source>Camera Stand View</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerastativvy</translation>
     </message>
     <message>
         <source>3D View</source>
-        <translation type="unfinished"></translation>
+        <translation>3D-vy</translation>
     </message>
     <message>
         <source>Camera View</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameravy</translation>
     </message>
     <message>
         <source>Freeze</source>
-        <translation type="unfinished"></translation>
+        <translation>Frys</translation>
     </message>
     <message>
         <source>GUI Show / Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj GUI</translation>
     </message>
     <message>
         <source>Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktygsfält</translation>
     </message>
     <message>
         <source>Tool Options Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktygsalternativfält</translation>
     </message>
     <message>
         <source>Console</source>
-        <translation type="unfinished"></translation>
+        <translation>Konsol</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisning</translation>
     </message>
     <message>
         <source>Sub-camera Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsvisning för underkamera</translation>
     </message>
     <message>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnlös</translation>
     </message>
     <message>
         <source>Scene: </source>
@@ -1217,11 +1217,11 @@ What do you want to do? </source>
     </message>
     <message>
         <source>   ::   Frame: </source>
-        <translation type="unfinished"></translation>
+        <translation>   ::   Bildruta: </translation>
     </message>
     <message>
         <source>   ::   Level: </source>
-        <translation type="unfinished"></translation>
+        <translation>   ::   Nivå: </translation>
     </message>
     <message>
         <source>Level: </source>
@@ -1229,7 +1229,7 @@ What do you want to do? </source>
     </message>
     <message>
         <source> (Flipped)</source>
-        <translation type="unfinished"></translation>
+        <translation> (vänd)</translation>
     </message>
     <message>
         <source>   ::   Project: </source>
@@ -1237,156 +1237,156 @@ What do you want to do? </source>
     </message>
     <message>
         <source>[SCENE]: </source>
-        <translation type="unfinished"></translation>
+        <translation>[SCEN]: </translation>
     </message>
     <message>
         <source>[LEVEL]: </source>
-        <translation type="unfinished"></translation>
+        <translation>[NIVÅ]: </translation>
     </message>
 </context>
 <context>
     <name>CommandBar</name>
     <message>
         <source>Customize Command Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa kommandofält</translation>
     </message>
 </context>
 <context>
     <name>CommandBarListTree</name>
     <message>
         <source>----Separator----</source>
-        <translation type="unfinished"></translation>
+        <translation>----Avgränsare----</translation>
     </message>
 </context>
 <context>
     <name>CommandBarPopup</name>
     <message>
         <source>XSheet Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>XSheet-verktygsfält</translation>
     </message>
     <message>
         <source>Customize XSheet Toolbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa XSheet-verktygsfält</translation>
     </message>
     <message>
         <source>Command Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommandofält</translation>
     </message>
     <message>
         <source>Customize Command Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa kommandofält</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Toolbar Items</source>
-        <translation type="unfinished"></translation>
+        <translation>Objekt på verktygsfältet</translation>
     </message>
     <message>
         <source>Duplicated commands will be ignored. Only the last one will appear in the menu bar.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubblettkommandon ignoreras. Endast det sista visas i menyraden.</translation>
     </message>
 </context>
 <context>
     <name>CommandBarTree</name>
     <message>
         <source>Remove &quot;%1&quot;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort ”%1”</translation>
     </message>
 </context>
 <context>
     <name>CommandListTree</name>
     <message>
         <source>----Separator----</source>
-        <translation type="unfinished"></translation>
+        <translation>----Avgränsare----</translation>
     </message>
 </context>
 <context>
     <name>ConflictWidget</name>
     <message>
         <source>Mine</source>
-        <translation type="unfinished"></translation>
+        <translation>Min</translation>
     </message>
     <message>
         <source>Theirs</source>
-        <translation type="unfinished"></translation>
+        <translation>Deras</translation>
     </message>
 </context>
 <context>
     <name>ConvertPopup</name>
     <message>
         <source>Convert</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera</translation>
     </message>
     <message>
         <source>Start:</source>
-        <translation type="unfinished"></translation>
+        <translation>Start:</translation>
     </message>
     <message>
         <source>Save in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ</translation>
     </message>
     <message>
         <source>File Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filformat:</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Converting %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Konverterar %1</translation>
     </message>
     <message>
         <source>Convert... </source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera… </translation>
     </message>
     <message>
         <source>Bg Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bakgrundsfärg:</translation>
     </message>
     <message>
         <source>Skip Existing Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Hoppa över befintliga filer</translation>
     </message>
     <message>
         <source>Convert 1 Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera 1 nivå</translation>
     </message>
     <message>
         <source>Convert %1 Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Konvertera %1 nivåer</translation>
     </message>
     <message>
         <source>Converting level %1 of %2: %3</source>
-        <translation type="unfinished"></translation>
+        <translation>Konverterar nivå %1 av %2: %3</translation>
     </message>
     <message>
         <source>Unpainted File Folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mapp för omålade filer:</translation>
     </message>
     <message>
         <source> Unpainted File Suffix:</source>
-        <translation type="unfinished"></translation>
+        <translation> Suffix för omålade filer:</translation>
     </message>
     <message>
         <source>Apply Autoclose</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd automatisk stängning</translation>
     </message>
     <message>
         <source>Keep Original Antialiasing</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll ursprunglig kantutjämning</translation>
     </message>
     <message>
         <source>Add Antialiasing with Intensity:</source>
