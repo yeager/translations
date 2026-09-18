@@ -265,7 +265,7 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../../src/gui/aboutdialog.cpp" line="51"/>
         <source>Program Version %1</source>
-        <translation>Program Version %1</translation>
+        <translation>Programversion %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/aboutdialog.cpp" line="53"/>
@@ -275,22 +275,22 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../../../src/gui/aboutdialog.cpp" line="55"/>
         <source>Program Compiled on %1 at %2</source>
-        <translation>Program Compiled on %1 at %2</translation>
+        <translation>Programmet kompilerades den %1 kl. %2</translation>
     </message>
     <message>
         <location filename="../../../src/gui/aboutdialog.cpp" line="58"/>
         <source>Built Against SDL %1</source>
-        <translation>Built Against SDL %1</translation>
+        <translation>Byggt mot SDL %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/aboutdialog.cpp" line="59"/>
         <source>Running With SDL %1</source>
-        <translation>Running With SDL %1</translation>
+        <translation>Kör med SDL %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/aboutdialog.cpp" line="61"/>
         <source>Using Qt %1</source>
-        <translation>Using Qt %1</translation>
+        <translation>Använder Qt %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/aboutdialog.cpp" line="73"/>
@@ -327,8 +327,9 @@ p, li { white-space: pre-wrap; }
         <source>Select Window. Click on the appropriate application
 window and the application file path will be populated
 in the form.</source>
-        <translation>Välj Fönster. Klicka på önskat programfönster så fylls
-sökvägen till programfilen automatiskt i formuläret.</translation>
+        <translation>Välj fönster. Klicka på önskat programfönster så fylls
+sökvägen till programfilen automatiskt i
+formuläret.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/addeditautoprofiledialog.ui" line="74"/>
@@ -1280,7 +1281,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/axiseditdialog.ui" line="82"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="636"/>
         <source>Mouse (Inverted Horizontal)</source>
-        <translation>Mouse (Inverted Horizontal)</translation>
+        <translation>Mus (omvänd horisontell)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="87"/>
@@ -1292,7 +1293,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/axiseditdialog.ui" line="92"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="638"/>
         <source>Mouse (Inverted Vertical)</source>
-        <translation>Mouse (Inverted Vertical)</translation>
+        <translation>Mus (omvänd vertikal)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="97"/>
@@ -1336,7 +1337,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="654"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="660"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="176"/>
@@ -1374,7 +1375,7 @@ sliten analog styrspak.</translation>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="542"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="206"/>
@@ -1385,12 +1386,12 @@ sliten analog styrspak.</translation>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="52"/>
         <source>Presets:</source>
-        <translation>Presets:</translation>
+        <translation>Förval:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="193"/>
         <source>Dead Zone:</source>
-        <translation>Dead Zone:</translation>
+        <translation>Dödzon:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="309"/>
@@ -1511,12 +1512,12 @@ tolkas.</translation>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="150"/>
         <source>Remember, it won&apos;t work if you don&apos;t have such keypad connected to computer or if it&apos;s not embedded like in desktop PCs</source>
-        <translation>Remember, it won&apos;t work if you don&apos;t have such keypad connected to computer or if it&apos;s not embedded like in desktop PCs</translation>
+        <translation>Observera att detta inte fungerar om du inte har ett sådant numeriskt tangentbord anslutet till datorn eller inbyggt som i stationära datorer.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="153"/>
         <source>Attach the numeric keypad</source>
-        <translation>Attach the numeric keypad</translation>
+        <translation>Anslut det numeriska tangentbordet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="186"/>
@@ -1531,7 +1532,7 @@ tolkas.</translation>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="223"/>
         <source>Na&amp;me:</source>
-        <translation>Na&amp;me:</translation>
+        <translation>Na&amp;mn:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="233"/>
@@ -1889,37 +1890,37 @@ Det kan ta upp till %1 sekunder.</translation>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="53"/>
         <source>Mouse (Inverted Horizontal)</source>
-        <translation>Mouse (Inverted Horizontal)</translation>
+        <translation>Mus (omvänd horisontell)</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="54"/>
         <source>Mouse (Inverted Vertical)</source>
-        <translation>Mouse (Inverted Vertical)</translation>
+        <translation>Mus (omvänd vertikal)</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="55"/>
         <source>Mouse (Inverted Horizontal + Vertical)</source>
-        <translation>Mouse (Inverted Horizontal + Vertical)</translation>
+        <translation>Mus (omvänd horisontellt och vertikalt)</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="56"/>
         <source>Arrows</source>
-        <translation>Arrows</translation>
+        <translation>Piltangenter</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="57"/>
         <source>Keys: W | A | S | D</source>
-        <translation>Keys: W | A | S | D</translation>
+        <translation>Tangenter: W | A | S | D</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="58"/>
         <source>NumPad</source>
-        <translation>NumPad</translation>
+        <translation>Numeriskt tangentbord</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="59"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="65"/>
@@ -1944,7 +1945,7 @@ Det kan ta upp till %1 sekunder.</translation>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="76"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
 </context>
 <context>
@@ -1957,7 +1958,7 @@ Det kan ta upp till %1 sekunder.</translation>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="27"/>
         <source>Presets:</source>
-        <translation>Presets:</translation>
+        <translation>Förval:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="46"/>
@@ -1967,37 +1968,37 @@ Det kan ta upp till %1 sekunder.</translation>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="51"/>
         <source>Mouse (Inverted Horizontal)</source>
-        <translation>Mouse (Inverted Horizontal)</translation>
+        <translation>Mus (omvänd horisontell)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="56"/>
         <source>Mouse (Inverted Vertical)</source>
-        <translation>Mouse (Inverted Vertical)</translation>
+        <translation>Mus (omvänd vertikal)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="61"/>
         <source>Mouse (Inverted Horizontal + Vertical)</source>
-        <translation>Mouse (Inverted Horizontal + Vertical)</translation>
+        <translation>Mus (omvänd horisontellt och vertikalt)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="66"/>
         <source>Arrows</source>
-        <translation>Arrows</translation>
+        <translation>Piltangenter</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="71"/>
         <source>Keys: W | A | S | D</source>
-        <translation>Keys: W | A | S | D</translation>
+        <translation>Tangenter: W | A | S | D</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="76"/>
         <source>NumPad</source>
-        <translation>NumPad</translation>
+        <translation>Numeriskt tangentbord</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="81"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="93"/>
@@ -2028,7 +2029,7 @@ Det kan ta upp till %1 sekunder.</translation>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="173"/>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="207"/>
         <source>Time lapsed before a direction change is taken into effect.</source>
-        <translation>Time lapsed before a direction change is taken into effect.</translation>
+        <translation>Tiden innan en riktningsändring verkställs.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="213"/>
@@ -2043,7 +2044,7 @@ Det kan ta upp till %1 sekunder.</translation>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="274"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="121"/>
@@ -2500,7 +2501,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="77"/>
         <source>Mouse (Inverted Horizontal)</source>
-        <translation>Mouse (Inverted Horizontal)</translation>
+        <translation>Mus (omvänd horisontell)</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="87"/>
@@ -2510,7 +2511,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="97"/>
         <source>Mouse (Inverted Vertical)</source>
-        <translation>Mouse (Inverted Vertical)</translation>
+        <translation>Mus (omvänd vertikal)</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="107"/>
@@ -2546,13 +2547,13 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="166"/>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="394"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="177"/>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="405"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/joyaxiscontextmenu.cpp" line="374"/>
@@ -2830,37 +2831,37 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="58"/>
         <source>Mouse (Inverted Horizontal)</source>
-        <translation>Mouse (Inverted Horizontal)</translation>
+        <translation>Mus (omvänd horisontell)</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="67"/>
         <source>Mouse (Inverted Vertical)</source>
-        <translation>Mouse (Inverted Vertical)</translation>
+        <translation>Mus (omvänd vertikal)</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="76"/>
         <source>Mouse (Inverted Horizontal + Vertical)</source>
-        <translation>Mouse (Inverted Horizontal + Vertical)</translation>
+        <translation>Mus (omvänd horisontellt och vertikalt)</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="85"/>
         <source>Arrows</source>
-        <translation>Arrows</translation>
+        <translation>Piltangenter</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="94"/>
         <source>Keys: W | A | S | D</source>
-        <translation>Keys: W | A | S | D</translation>
+        <translation>Tangenter: W | A | S | D</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="103"/>
         <source>NumPad</source>
-        <translation>NumPad</translation>
+        <translation>Numeriskt tangentbord</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="112"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="125"/>
@@ -2885,7 +2886,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="162"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
 </context>
 <context>
@@ -2922,7 +2923,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="274"/>
         <source>Presets:</source>
-        <translation>Presets:</translation>
+        <translation>Förval:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="293"/>
@@ -2932,37 +2933,37 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="298"/>
         <source>Mouse (Inverted Horizontal)</source>
-        <translation>Mouse (Inverted Horizontal)</translation>
+        <translation>Mus (omvänd horisontell)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="303"/>
         <source>Mouse (Inverted Vertical)</source>
-        <translation>Mouse (Inverted Vertical)</translation>
+        <translation>Mus (omvänd vertikal)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="308"/>
         <source>Mouse (Inverted Horizontal + Vertical)</source>
-        <translation>Mouse (Inverted Horizontal + Vertical)</translation>
+        <translation>Mus (omvänd horisontellt och vertikalt)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="313"/>
         <source>Arrows</source>
-        <translation>Arrows</translation>
+        <translation>Piltangenter</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="318"/>
         <source>Keys: W | A | S | D</source>
-        <translation>Keys: W | A | S | D</translation>
+        <translation>Tangenter: W | A | S | D</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="323"/>
         <source>NumPad</source>
-        <translation>NumPad</translation>
+        <translation>Numeriskt tangentbord</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="328"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="336"/>
@@ -3027,7 +3028,7 @@ en diagonal zon på styrspaken.</translation>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="417"/>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="754"/>
         <source>The area (in degrees) that each diagonal region occupies.</source>
-        <translation>The area (in degrees) that each diagonal region occupies.</translation>
+        <translation>Området (i grader) som varje diagonalt område upptar.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="467"/>
@@ -3054,7 +3055,7 @@ en diagonal zon på styrspaken.</translation>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="433"/>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="538"/>
         <source>Time lapsed before a direction change is taken into effect.</source>
-        <translation>Time lapsed before a direction change is taken into effect.</translation>
+        <translation>Tiden innan en riktningsändring verkställs.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="544"/>
@@ -3120,7 +3121,7 @@ gång-/springfunktioner till en analog spak.</translation>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="804"/>
         <source>Na&amp;me:</source>
         <oldsource>Name:</oldsource>
-        <translation>Na&amp;me:</translation>
+        <translation>Na&amp;mn:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="827"/>
@@ -3130,7 +3131,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="836"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="364"/>
@@ -3155,7 +3156,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="503"/>
         <source>Dead Zone:</source>
-        <translation>Dead Zone:</translation>
+        <translation>Dödzon:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="510"/>
@@ -3292,7 +3293,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/joysensorcontextmenu.cpp" line="64"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
 </context>
 <context>
@@ -3336,12 +3337,12 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="318"/>
         <source>Presets:</source>
-        <translation>Presets:</translation>
+        <translation>Förval:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="362"/>
         <source>Dead Zone:</source>
-        <translation>Dead Zone:</translation>
+        <translation>Dödzon:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="369"/>
@@ -3369,7 +3370,7 @@ gång-/springfunktioner till en analog spak.</translation>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="479"/>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="495"/>
         <source>The area (in degrees) that each diagonal region occupies.</source>
-        <translation>The area (in degrees) that each diagonal region occupies.</translation>
+        <translation>Området (i grader) som varje diagonalt område upptar.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="515"/>
@@ -3380,7 +3381,7 @@ gång-/springfunktioner till en analog spak.</translation>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="522"/>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="556"/>
         <source>Time lapsed before a direction change is taken into effect.</source>
-        <translation>Time lapsed before a direction change is taken into effect.</translation>
+        <translation>Tiden innan en riktningsändring verkställs.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="562"/>
@@ -3390,7 +3391,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="606"/>
         <source>Na&amp;me:</source>
-        <translation>Na&amp;me:</translation>
+        <translation>Na&amp;mn:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="616"/>
@@ -3400,7 +3401,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.ui" line="625"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joysensoreditdialog.cpp" line="78"/>
@@ -3433,7 +3434,7 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="218"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="221"/>
@@ -3443,32 +3444,32 @@ gång-/springfunktioner till en analog spak.</translation>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="224"/>
         <source>Mouse (Inverted Horizontal)</source>
-        <translation>Mouse (Inverted Horizontal)</translation>
+        <translation>Mus (omvänd horisontell)</translation>
     </message>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="227"/>
         <source>Mouse (Inverted Vertical)</source>
-        <translation>Mouse (Inverted Vertical)</translation>
+        <translation>Mus (omvänd vertikal)</translation>
     </message>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="230"/>
         <source>Mouse (Inverted Horizontal + Vertical)</source>
-        <translation>Mouse (Inverted Horizontal + Vertical)</translation>
+        <translation>Mus (omvänd horisontellt och vertikalt)</translation>
     </message>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="233"/>
         <source>Arrows</source>
-        <translation>Arrows</translation>
+        <translation>Piltangenter</translation>
     </message>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="236"/>
         <source>Keys: W | A | S | D</source>
-        <translation>Keys: W | A | S | D</translation>
+        <translation>Tangenter: W | A | S | D</translation>
     </message>
     <message>
         <location filename="../../../src/joysensorpreset.cpp" line="239"/>
         <source>NumPad</source>
-        <translation>NumPad</translation>
+        <translation>Numeriskt tangentbord</translation>
     </message>
 </context>
 <context>
@@ -3910,7 +3911,7 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="107"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="124"/>
@@ -4115,12 +4116,12 @@ startas första gången.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="343"/>
         <source>Remember, it won&apos;t work if you don&apos;t have such keypad connected to computer or if it&apos;s not embedded like in desktop PCs</source>
-        <translation>Remember, it won&apos;t work if you don&apos;t have such keypad connected to computer or if it&apos;s not embedded like in desktop PCs</translation>
+        <translation>Observera att detta inte fungerar om du inte har ett sådant numeriskt tangentbord anslutet till datorn eller inbyggt som i stationära datorer.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="349"/>
         <source>Attach the numeric keypad</source>
-        <translation>Attach the numeric keypad</translation>
+        <translation>Anslut det numeriska tangentbordet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="386"/>
@@ -4254,7 +4255,7 @@ per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1372"/>
         <source>None</source>
-        <translation>None</translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1377"/>
@@ -4866,7 +4867,7 @@ Enhetsnamn: %2</translation>
     <message>
         <location filename="../../../src/mousedialog/mousecontrolsticksettingsdialog.cpp" line="283"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/mousedialog/mousecontrolsticksettingsdialog.cpp" line="296"/>
@@ -4879,7 +4880,7 @@ Enhetsnamn: %2</translation>
     <message>
         <location filename="../../../src/mousedialog/mousedpadsettingsdialog.cpp" line="267"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/mousedialog/mousedpadsettingsdialog.cpp" line="280"/>
@@ -4892,7 +4893,7 @@ Enhetsnamn: %2</translation>
     <message>
         <location filename="../../../src/mousedialog/mousesensorsettingsdialog.cpp" line="113"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/mousedialog/mousesensorsettingsdialog.cpp" line="123"/>
@@ -4905,7 +4906,7 @@ Enhetsnamn: %2</translation>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="17"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="28"/>
@@ -6690,7 +6691,7 @@ LK</translation>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="609"/>
         <source>Mouse Settings</source>
-        <translation>Mouse Settings</translation>
+        <translation>Musinställningar</translation>
     </message>
     <message>
         <location filename="../../../src/keyboard/virtualkeyboardmousewidget.cpp" line="500"/>
@@ -7099,7 +7100,7 @@ LK</translation>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="57"/>
         <source>Graphical program used to map keyboard buttons and mouse controls to a gamepad. Useful for playing games with no gamepad support.</source>
-        <translation>Graphical program used to map keyboard buttons and mouse controls to a gamepad. Useful for playing games with no gamepad support.</translation>
+        <translation>Grafiskt program som mappar tangentbordstangenter och musreglage till en handkontroll. Användbart för spel utan stöd för handkontroll.</translation>
     </message>
 </context>
 <context>
