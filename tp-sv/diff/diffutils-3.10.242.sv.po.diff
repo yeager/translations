@@ -1,0 +1,946 @@
+--- a/diffutils-3.10.242.sv.po
++++ b/diffutils-3.10.242.sv.po
+@@ -35,11 +35,11 @@
+ 
+ #: lib/c-file-type.c:40
+ msgid "regular empty file"
+-msgstr "en tom normal fil"
++msgstr "vanlig tom fil"
+ 
+ #: lib/c-file-type.c:40
+ msgid "regular file"
+-msgstr "en normal fil"
++msgstr "vanlig fil"
+ 
+ #: lib/c-file-type.c:43
+ msgid "directory"
+@@ -59,19 +59,19 @@
+ 
+ #: lib/c-file-type.c:58
+ msgid "shared memory object"
+-msgstr "ett objekt av delat minne"
++msgstr "delat minnesobjekt"
+ 
+ #: lib/c-file-type.c:61
+ msgid "typed memory object"
+-msgstr "ett objekt av typat minne"
++msgstr "typat minnesobjekt"
+ 
+ #: lib/c-file-type.c:66
+ msgid "block special file"
+-msgstr "en blockspecialfil"
++msgstr "blockspecialfil"
+ 
+ #: lib/c-file-type.c:69
+ msgid "character special file"
+-msgstr "en teckenspecialfil"
++msgstr "teckenspecialfil"
+ 
+ #: lib/c-file-type.c:72
+ msgid "contiguous data"
+@@ -79,7 +79,7 @@
+ 
+ #: lib/c-file-type.c:75
+ msgid "fifo"
+-msgstr "en fifo"
++msgstr "FIFO"
+ 
+ #: lib/c-file-type.c:78
+ msgid "door"
+@@ -123,11 +123,11 @@
+ 
+ #: lib/c-file-type.c:108
+ msgid "whiteout"
+-msgstr "en övertäckningsfil"
++msgstr "whiteout-fil"
+ 
+ #: lib/c-file-type.c:110
+ msgid "weird file"
+-msgstr "en konstig fil"
++msgstr "ovanlig fil"
+ 
+ #: lib/c-stack.c:190
+ msgid "program error"
+@@ -154,7 +154,7 @@
+ #: lib/getopt.c:288
+ #, c-format
+ msgid "%s: option '%s%s' is ambiguous; possibilities:"
+-msgstr "%s: flaggan ”%s%s” är tvetydig; möjligheter:"
++msgstr "%s: flaggan ”%s%s” är tvetydig; möjliga alternativ:"
+ 
+ #: lib/getopt.c:322
+ #, c-format
+@@ -164,30 +164,30 @@
+ #: lib/getopt.c:348
+ #, c-format
+ msgid "%s: option '%s%s' doesn't allow an argument\n"
+-msgstr "%s: flaggan ”%s%s” tar inget argument\n"
++msgstr "%s: flaggan ”%s%s” tar inga argument\n"
+ 
+ #: lib/getopt.c:363
+ #, c-format
+ msgid "%s: option '%s%s' requires an argument\n"
+-msgstr "%s: flaggan ”%s%s” behöver ett argument\n"
++msgstr "%s: flaggan ”%s%s” kräver ett argument\n"
+ 
+ #: lib/getopt.c:624
+ #, c-format
+ msgid "%s: invalid option -- '%c'\n"
+-msgstr "%s: ogiltig flagga – ”%c”\n"
++msgstr "%s: ogiltig flagga -- ”%c”\n"
+ 
+ #: lib/getopt.c:639 lib/getopt.c:685
+ #, c-format
+ msgid "%s: option requires an argument -- '%c'\n"
+-msgstr "%s: flaggan behöver ett argument – ”%c”\n"
++msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
+ 
+ #: lib/openat-die.c:38
+ msgid "unable to record current working directory"
+-msgstr "kan inte notera aktuell arbetskatalog"
++msgstr "det går inte att registrera aktuell arbetskatalog"
+ 
+ #: lib/openat-die.c:57
+ msgid "failed to return to initial working directory"
+-msgstr "misslyckades att återgå till den ursprungliga arbetskatalogen"
++msgstr "det gick inte att återgå till den ursprungliga arbetskatalogen"
+ 
+ #. TRANSLATORS:
+ #. Get translations for open and closing quotation marks.
+@@ -228,11 +228,11 @@
+ 
+ #: lib/regcomp.c:128
+ msgid "Invalid regular expression"
+-msgstr "Ogiltigt reguljäruttryck"
++msgstr "Ogiltigt reguljärt uttryck"
+ 
+ #: lib/regcomp.c:131
+ msgid "Invalid collation character"
+-msgstr "Ogiltigt sorteringstecken"
++msgstr "Ogiltigt kollationstecken"
+ 
+ #: lib/regcomp.c:134
+ msgid "Invalid character class name"
+@@ -268,19 +268,19 @@
+ 
+ #: lib/regcomp.c:158
+ msgid "Memory exhausted"
+-msgstr "Minnet slut"
++msgstr "Minnet tog slut"
+ 
+ #: lib/regcomp.c:161
+ msgid "Invalid preceding regular expression"
+-msgstr "Föregående reguljäruttryck ogiltigt"
++msgstr "Ogiltigt föregående reguljärt uttryck"
+ 
+ #: lib/regcomp.c:164
+ msgid "Premature end of regular expression"
+-msgstr "Förtida slut på reguljäruttryck"
++msgstr "Reguljärt uttryck avslutades för tidigt"
+ 
+ #: lib/regcomp.c:167
+ msgid "Regular expression too big"
+-msgstr "För stort reguljäruttryck"
++msgstr "Reguljärt uttryck är för stort"
+ 
+ #: lib/regcomp.c:170
+ msgid "Unmatched ) or \\)"
+@@ -293,12 +293,12 @@
+ #: lib/version-etc.c:73
+ #, c-format
+ msgid "Packaged by %s (%s)\n"
+-msgstr "Paketerat av %s (%s)\n"
++msgstr "Paketerad av %s (%s)\n"
+ 
+ #: lib/version-etc.c:76
+ #, c-format
+ msgid "Packaged by %s\n"
+-msgstr "Paketerat av %s\n"
++msgstr "Paketerad av %s\n"
+ 
+ #. TRANSLATORS: Translate "(C)" to the copyright symbol
+ #. (C-in-a-circle), if this symbol is available in the user's
+@@ -323,19 +323,19 @@
+ #: lib/version-etc.c:105
+ #, c-format
+ msgid "Written by %s.\n"
+-msgstr "Skrivet av %s.\n"
++msgstr "Skriven av %s.\n"
+ 
+ #. TRANSLATORS: Each %s denotes an author name.
+ #: lib/version-etc.c:109
+ #, c-format
+ msgid "Written by %s and %s.\n"
+-msgstr "Skrivet av %s och %s.\n"
++msgstr "Skriven av %s och %s.\n"
+ 
+ #. TRANSLATORS: Each %s denotes an author name.
+ #: lib/version-etc.c:113
+ #, c-format
+ msgid "Written by %s, %s, and %s.\n"
+-msgstr "Skrivet av %s, %s och %s.\n"
++msgstr "Skriven av %s, %s och %s.\n"
+ 
+ #. TRANSLATORS: Each %s denotes an author name.
+ #. You can use line breaks, estimating that each author name occupies
+@@ -436,17 +436,17 @@
+ msgid "Report bugs to: %s\n"
+ msgstr ""
+ "Rapportera fel till: %s\n"
+-"Rapportera synpunkter på översättningen till: <tp-sv@listor.tp-sv.se>.\n"
++"Rapportera fel i översättningen till: <tp-sv@listor.tp-sv.se>.\n"
+ 
+ #: lib/version-etc.c:251
+ #, c-format
+ msgid "Report %s bugs to: %s\n"
+-msgstr "Rapportera %s-fel till: %s\n"
++msgstr "Rapportera fel i %s till: %s\n"
+ 
+ #: lib/version-etc.c:255 lib/version-etc.c:257
+ #, c-format
+ msgid "%s home page: <%s>\n"
+-msgstr "%s hemsida: <%s>\n"
++msgstr "%s webbplats: <%s>\n"
+ 
+ #: lib/version-etc.c:260
+ #, c-format
+@@ -455,19 +455,19 @@
+ 
+ #: lib/xalloc-die.c:34
+ msgid "memory exhausted"
+-msgstr "minnet slut"
++msgstr "minnet tog slut"
+ 
+ #: lib/xfreopen.c:34
+ msgid "stdin"
+-msgstr "standard in"
++msgstr "standardindata"
+ 
+ #: lib/xfreopen.c:35
+ msgid "stdout"
+-msgstr "standard ut"
++msgstr "standardutdata"
+ 
+ #: lib/xfreopen.c:36
+ msgid "stderr"
+-msgstr "standard fel"
++msgstr "standardfel"
+ 
+ #: lib/xfreopen.c:37
+ msgid "unknown stream"
+@@ -476,22 +476,23 @@
+ #: lib/xfreopen.c:38
+ #, c-format
+ msgid "failed to reopen %s with mode %s"
+-msgstr "kunde inte öppna om %s i läge %s"
++msgstr "det gick inte att öppna %s igen i läge %s"
+ 
+ #: lib/xstdopen.c:37
+ #, c-format
+ msgid "failed to open all three standard file descriptors; maybe %s or %s are not working right?"
+-msgstr "misslyckades att öppna alla tra standardfilbeskrivare; kanske %s eller %s inte fungerar som de skall?"
++msgstr "det gick inte att öppna alla tre standardfilbeskrivarna; kanske fungerar %s "
++"eller %s inte korrekt?"
+ 
+ #: src/analyze.c:445 src/diff.c:1330
+ #, c-format
+ msgid "Files %s and %s differ\n"
+-msgstr "Filerna %s och %s skiljer\n"
++msgstr "Filerna %s och %s skiljer sig\n"
+ 
+ #: src/analyze.c:446
+ #, c-format
+ msgid "Binary files %s and %s differ\n"
+-msgstr "De binära filerna %s och %s skiljer\n"
++msgstr "Binärfilerna %s och %s skiljer sig\n"
+ 
+ #: src/analyze.c:687 src/diff3.c:1347 src/util.c:1033
+ msgid "No newline at end of file"
+@@ -509,7 +510,7 @@
+ #: src/cmp.c:143
+ #, c-format
+ msgid "invalid --ignore-initial value %s"
+-msgstr "ogiltigt värde till --ignore-initial %s"
++msgstr "ogiltigt värde för --ignore-initial: %s"
+ 
+ #: src/cmp.c:153
+ #, c-format
+@@ -523,15 +524,16 @@
+ 
+ #: src/cmp.c:163 src/diff.c:962 src/diff.c:1660 src/diff3.c:423 src/sdiff.c:172
+ msgid "standard output"
+-msgstr "standard ut"
++msgstr "standardutdata"
+ 
+ #: src/cmp.c:167
+ msgid "-b, --print-bytes          print differing bytes"
+-msgstr "-b  --print-bytes          skriv ut byte som skiljer"
++msgstr "-b, --print-bytes          skriv ut byte som skiljer sig"
+ 
+ #: src/cmp.c:168
+ msgid "-i, --ignore-initial=SKIP         skip first SKIP bytes of both inputs"
+-msgstr "-i,  --ignore-initial=HOPP        hoppa över de första HOPP byte indata"
++msgstr "-i, --ignore-initial=HOPP         hoppa över de första HOPP bytena i båda "
++"indata"
+ 
+ #: src/cmp.c:169
+ msgid ""
+@@ -543,7 +545,8 @@
+ 
+ #: src/cmp.c:171
+ msgid "-l, --verbose              output byte numbers and differing byte values"
+-msgstr "-l, --verbose              skriv ut bytenummer och värde för alla skiljande byte"
++msgstr "-l, --verbose              skriv ut bytenummer och värden för byte som "
++"skiljer sig"
+ 
+ #: src/cmp.c:172
+ msgid "-n, --bytes=LIMIT          compare at most LIMIT bytes"
+@@ -551,7 +554,7 @@
+ 
+ #: src/cmp.c:173
+ msgid "-s, --quiet, --silent      suppress all normal output"
+-msgstr "-s, --quiet, --silent      undertryck all normal utskrift"
++msgstr "-s, --quiet, --silent      undertryck all normal utdata"
+ 
+ #: src/cmp.c:174
+ msgid "    --help                 display this help and exit"
+@@ -559,7 +562,7 @@
+ 
+ #: src/cmp.c:175
+ msgid "-v, --version              output version information and exit"
+-msgstr "-v  --version              visa versionsinformation och avsluta"
++msgstr "-v, --version              visa versionsinformation och avsluta"
+ 
+ #: src/cmp.c:182
+ #, c-format
+@@ -576,7 +579,7 @@
+ "at the beginning of each file (zero by default)."
+ msgstr ""
+ "De valfria HOPP1 och HOPP2 anger antalet byte att hoppa över\n"
+-"i början varje fil (noll som standard)."
++"i början av varje fil, noll som standard."
+ 
+ #: src/cmp.c:189 src/diff.c:1070 src/diff3.c:459 src/sdiff.c:211
+ msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+@@ -594,21 +597,21 @@
+ 
+ #: src/cmp.c:198
+ msgid "If a FILE is '-' or missing, read standard input."
+-msgstr "Om FIL är ”-” eller utelämnats, läs standard in."
++msgstr "Om FIL är ”-” eller saknas, läs standardindata."
+ 
+ #: src/cmp.c:199 src/diff.c:1060 src/sdiff.c:221
+ msgid "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble."
+-msgstr "Slutsstatus är 0 om indata är lika, 1 om olika, 2 vid problem."
++msgstr "Slutstatus är 0 om indata är lika, 1 om de skiljer sig och 2 vid problem."
+ 
+ #: src/cmp.c:243
+ #, c-format
+ msgid "invalid --bytes value %s"
+-msgstr "ogiltigt värde till --bytes %s"
++msgstr "ogiltigt värde för --bytes: %s"
+ 
+ #: src/cmp.c:268 src/diff.c:875 src/diff3.c:328 src/sdiff.c:561
+ #, c-format
+ msgid "missing operand after %s"
+-msgstr "saknad operand efter %s"
++msgstr "operand saknas efter %s"
+ 
+ #: src/cmp.c:280 src/diff.c:877 src/diff3.c:330 src/sdiff.c:563
+ #, c-format
+@@ -618,17 +621,17 @@
+ #: src/cmp.c:551
+ #, c-format
+ msgid "%s %s differ: byte %<PRIdMAX>, line %<PRIdMAX>\n"
+-msgstr "%s %s skiljer: byte %<PRIdMAX>, rad %<PRIdMAX>\n"
++msgstr "%s och %s skiljer sig: byte %<PRIdMAX>, rad %<PRIdMAX>\n"
+ 
+ #: src/cmp.c:567
+ #, c-format
+ msgid "%s %s differ: byte %<PRIdMAX>, line %<PRIdMAX> is %3o %s %3o %s\n"
+-msgstr "%s %s skiljer: byte %<PRIdMAX>, rad %<PRIdMAX> är %3o %s %3o %s\n"
++msgstr "%s och %s skiljer sig: byte %<PRIdMAX>, rad %<PRIdMAX> är %3o %s %3o %s\n"
+ 
+ #: src/cmp.c:624
+ #, c-format
+ msgid "cmp: EOF on %s which is empty\n"
+-msgstr "cmp: EOF i %s som är tom\n"
++msgstr "cmp: EOF i %s, som är tom\n"
+ 
+ #: src/cmp.c:626
+ #, c-format
+@@ -668,17 +671,17 @@
+ #: src/diff.c:376
+ #, c-format
+ msgid "invalid context length %s"
+-msgstr "ogiltig omgivningslängd %s"
++msgstr "ogiltig omgivningslängd: %s"
+ 
+ #: src/diff.c:493
+ #, c-format
+ msgid "pagination not supported on this host"
+-msgstr "sidvisning stödjs ej på denna värd"
++msgstr "sidvisning stöds inte på denna värd"
+ 
+ #: src/diff.c:508 src/diff3.c:309
+ #, c-format
+ msgid "too many file label options"
+-msgstr "för många etikettflaggor"
++msgstr "för många flaggor för etiketter"
+ 
+ #: src/diff.c:587
+ #, c-format
+@@ -687,21 +690,21 @@
+ 
+ #: src/diff.c:591
+ msgid "conflicting width options"
+-msgstr "konflikt mellan breddflaggor"
++msgstr "motstridiga breddflaggor"
+ 
+ #: src/diff.c:619
+ #, c-format
+ msgid "invalid horizon length %s"
+-msgstr "ogiltig horisontlängd %s"
++msgstr "ogiltig horisontlängd: %s"
+ 
+ #: src/diff.c:678
+ #, c-format
+ msgid "invalid tabsize %s"
+-msgstr "ogiltigt tabulatorsteg %s"
++msgstr "ogiltigt tabulatorsteg: %s"
+ 
+ #: src/diff.c:682
+ msgid "conflicting tabsize options"
+-msgstr "konflikt mellan tabulatorflaggor"
++msgstr "motstridiga tabulatorflaggor"
+ 
+ #: src/diff.c:850
+ msgid "--from-file and --to-file both specified"
+@@ -709,7 +712,7 @@
+ 
+ #: src/diff.c:966
+ msgid "    --normal                  output a normal diff (the default)"
+-msgstr "    --normal                  skriv ut en normal diff (standard)"
++msgstr "    --normal                  skriv ut en normal diff, standard"
+ 
+ #: src/diff.c:967
+ msgid "-q, --brief                   report only when files differ"
+@@ -717,17 +720,18 @@
+ 
+ #: src/diff.c:968
+ msgid "-s, --report-identical-files  report when two files are the same"
+-msgstr "-s  --report-identical-files  rapportera om två filer är lika"
++msgstr "-s, --report-identical-files  rapportera när två filer är lika"
+ 
+ #: src/diff.c:969
+ msgid "-c, -C NUM, --context[=NUM]   output NUM (default 3) lines of copied context"
+-msgstr "-c, -C ANT, --context[=ANT]   skriv ANT (3 som standard) rader kopia av sammanhang"
++msgstr "-c, -C ANT, --context[=ANT]   skriv ut ANT rader med kopierat sammanhang, 3 "
++"som standard"
+ 
+ #: src/diff.c:970
+ msgid "-u, -U NUM, --unified[=NUM]   output NUM (default 3) lines of unified context"
+ msgstr ""
+-"-u, -U ANT, --unified[=ANT]   skriv ut ANT (3 som standard) rader med\n"
+-"                                 sammanslagen omgivning"
++"-u, -U ANT, --unified[=ANT]   skriv ut ANT rader med enhetligt sammanhang, 3 "
++"som standard"
+ 
+ #: src/diff.c:971
+ msgid "-e, --ed                      output an ed script"
+@@ -743,7 +747,7 @@
+ 
+ #: src/diff.c:974
+ msgid "-W, --width=NUM               output at most NUM (default 130) print columns"
+-msgstr "-W, --width=ANT               skriv ut högst ANT (130 som standard) kolumner"
++msgstr "-W, --width=ANT               skriv ut högst ANT kolumner, 130 som standard"
+ 
+ #: src/diff.c:975
+ msgid "    --left-column             output only the left column of common lines"
+@@ -775,7 +779,8 @@
+ 
+ #: src/diff.c:984
+ msgid "-T, --initial-tab             make tabs line up by prepending a tab"
+-msgstr "-T, --initial-tab             justera tabulatorer genom att skjuta in en"
++msgstr "-T, --initial-tab             justera tabulatorer genom att lägga till en "
++"inledande tabulator"
+ 
+ #: src/diff.c:985
+ msgid "    --tabsize=NUM             tab stops every NUM (default 8) print columns"
+@@ -784,12 +789,13 @@
+ #: src/diff.c:986
+ msgid "    --suppress-blank-empty    suppress space or tab before empty output lines"
+ msgstr ""
+-"    --suppress-blank-empty    undertryck blanka eller tabulatorer före tomma\n"
+-"                                utrader"
++"    --suppress-blank-empty    undertryck blanksteg eller tabulatorer före "
++"tomma"
++" utdatarader"
+ 
+ #: src/diff.c:987
+ msgid "-l, --paginate                pass output through 'pr' to paginate it"
+-msgstr "-l, --paginate                skicka utdata till ”pr” för paginering"
++msgstr "-l, --paginate                skicka utdata till ”pr” för sidindelning"
+ 
+ #: src/diff.c:989
+ msgid "-r, --recursive                 recursively compare any subdirectories found"
+@@ -805,15 +811,17 @@
+ 
+ #: src/diff.c:992
+ msgid "    --unidirectional-new-file   treat absent first files as empty"
+-msgstr "    --unidirectional-new-file   behandla saknade förstafiler som tomma"
++msgstr "    --unidirectional-new-file   behandla saknade första filer som tomma"
+ 
+ #: src/diff.c:993
+ msgid "    --ignore-file-name-case     ignore case when comparing file names"
+-msgstr "    --ignore-file-name-case     bortse från skiftläge när filnamn jämförs"
++msgstr "    --ignore-file-name-case     bortse från skiftläge vid jämförelse av "
++"filnamn"
+ 
+ #: src/diff.c:994
+ msgid "    --no-ignore-file-name-case  consider case when comparing file names"
+-msgstr "    --no-ignore-file-name-case  ta hänsyn till skiftläge när filnamn jämförs"
++msgstr "    --no-ignore-file-name-case  ta hänsyn till skiftläge vid jämförelse av "
++"filnamn"
+ 
+ #: src/diff.c:995
+ msgid "-x, --exclude=PAT               exclude files that match PAT"
+@@ -821,7 +829,7 @@
+ 
+ #: src/diff.c:996
+ msgid "-X, --exclude-from=FILE         exclude files that match any pattern in FILE"
+-msgstr "-X, --exclude-from=FIL         uteslut filer som matchar något mönster i FIL"
++msgstr "-X, --exclude-from=FIL         uteslut filer som matchar ett mönster i FIL"
+ 
+ #: src/diff.c:997
+ msgid "-S, --starting-file=FILE        start with FILE when comparing directories"
+@@ -849,15 +857,16 @@
+ 
+ #: src/diff.c:1004
+ msgid "-E, --ignore-tab-expansion      ignore changes due to tab expansion"
+-msgstr "-E, --ignore-tab-expansion      bortse från ändringar på grund av tab-expansion"
++msgstr "-E, --ignore-tab-expansion      bortse från ändringar på grund av "
++"tabulatorexpansion"
+ 
+ #: src/diff.c:1005
+ msgid "-Z, --ignore-trailing-space     ignore white space at line end"
+-msgstr "-Z, --ignore-trailing-space     ignorera alla blanktecken i slutet av raden"
++msgstr "-Z, --ignore-trailing-space     bortse från blanktecken i slutet av raden"
+ 
+ #: src/diff.c:1006
+ msgid "-b, --ignore-space-change       ignore changes in the amount of white space"
+-msgstr "-b, --ignore-space-change       bortse från ändringar i antalet blanka"
++msgstr "-b, --ignore-space-change       bortse från ändringar i mängden blanktecken"
+ 
+ #: src/diff.c:1007
+ msgid "-w, --ignore-all-space          ignore all white space"
+@@ -865,7 +874,7 @@
+ 
+ #: src/diff.c:1008
+ msgid "-B, --ignore-blank-lines        ignore changes where lines are all blank"
+-msgstr "-B, --ignore-blank-lines        bortse från ändringar där raderna är helt blanka"
++msgstr "-B, --ignore-blank-lines        bortse från ändringar där rader är helt blanka"
+ 
+ #: src/diff.c:1009
+ msgid "-I, --ignore-matching-lines=RE  ignore changes where all lines match RE"
+@@ -877,11 +886,11 @@
+ 
+ #: src/diff.c:1012
+ msgid "    --strip-trailing-cr         strip trailing carriage return on input"
+-msgstr "    --strip-trailing-cr         tag bort avslutande vagnreturer i indata"
++msgstr "    --strip-trailing-cr         ta bort avslutande vagnretur i indata"
+ 
+ #: src/diff.c:1014
+ msgid "    --binary                    read and write data in binary mode"
+-msgstr "    --binary                    läs och skriv data binärt"
++msgstr "    --binary                    läs och skriv data i binärt läge"
+ 
+ #: src/diff.c:1017
+ msgid "-D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs"
+@@ -906,12 +915,13 @@
+ "  These format options provide fine-grained control over the output\n"
+ "    of diff, generalizing -D/--ifdef."
+ msgstr ""
+-"  Dessa formatflaggor gör det möjligt att finjustera utskriften från\n"
+-"    diff, generaliserande -D/--ifdef."
++"  Dessa formatflaggor ger detaljerad kontroll över"
++" diff:s utdata\n"
++"och generaliserar -D/--ifdef."
+ 
+ #: src/diff.c:1023
+ msgid "  LTYPE is 'old', 'new', or 'unchanged'.  GTYPE is LTYPE or 'changed'."
+-msgstr "  RTYP är ”old”, ”new” eller ”unchanged”.  GTYP är RTYP eller ”changed”."
++msgstr "  LTYPE är ”old”, ”new” eller ”unchanged”. GTYPE är LTYPE eller ”changed”."
+ 
+ #: src/diff.c:1024
+ msgid ""
+@@ -961,30 +971,30 @@
+ "    %c'\\OOO'  the character with octal code OOO\n"
+ "    C    the character C (other characters represent themselves)"
+ msgstr ""
+-"  Både GFMT och RFMT kan innehålla:\n"
++"  Både GFMT och LFMT kan innehålla:\n"
+ "    %%  %\n"
+-"    %c'T'  det ensamma tecknet T\n"
++"    %c'C'  det enskilda tecknet C\n"
+ "    %c'\\OOO'  tecknet med oktalkod OOO\n"
+-"    T    tecknet T (övriga tecken representerar sig själva)"
++"    C    tecknet C, övriga tecken representerar sig själva"
+ 
+ #: src/diff.c:1046
+ msgid "-d, --minimal            try hard to find a smaller set of changes"
+-msgstr "-d, --minimal            arbeta hårt för att hitta en mindre mängd av ändringar"
++msgstr "-d, --minimal            försök hitta en mindre mängd ändringar"
+ 
+ #: src/diff.c:1047
+ msgid "    --horizon-lines=NUM  keep NUM lines of the common prefix and suffix"
+-msgstr "    --horizon-lines=ANT  spara ANT rader av gemensamt prefix och suffix"
++msgstr "    --horizon-lines=ANT  behåll ANT rader av gemensamt prefix och suffix"
+ 
+ #: src/diff.c:1048
+ msgid "    --speed-large-files  assume large files and many scattered small changes"
+-msgstr "    --speed-large-files  antag stora filer och små spridda ändringar"
++msgstr "    --speed-large-files  förutsätt stora filer och många spridda små ändringar"
+ 
+ #: src/diff.c:1049
+ msgid ""
+ "    --color[=WHEN]       color output; WHEN is 'never', 'always', or 'auto';\n"
+ "                           plain --color means --color='auto'"
+ msgstr ""
+-"    --color[=NÄR]        färgad utdata; NÄR kan vara ”never”, ”always” eller\n"
++"    --color[=NÄR]        färga utdata; NÄR är ”never”, ”always” eller\n"
+ "                           ”auto”; bara --color betyder --color='auto'"
+ 
+ #: src/diff.c:1051
+@@ -992,8 +1002,8 @@
+ "    --palette=PALETTE    the colors to use when --color is active; PALETTE is\n"
+ "                           a colon-separated list of terminfo capabilities"
+ msgstr ""
+-"    --palette=PALETT     färgerna att använda när --color är aktivt; PALETT är\n"
+-"                           en kolonseparerad lista av terminfoförmågor"
++"    --palette=PALETT     färger att använda när --color är aktivt; PALETT är\n"
++"                           en kolonseparerad lista över terminfo-funktioner"
+ 
+ #: src/diff.c:1054
+ msgid "    --help               display this help and exit"
+@@ -1010,12 +1020,12 @@
+ #: src/diff.c:1058
+ msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s)."
+ msgstr ""
+-"Om --from-file eller --to-file är angivet finns det inga begränsningar\n"
+-"på FILER."
++"Om --from-file eller --to-file anges finns inga begränsningar för"
++" FILER."
+ 
+ #: src/diff.c:1059 src/diff3.c:478 src/sdiff.c:220
+ msgid "If a FILE is '-', read standard input."
+-msgstr "Om en FIL är ”-”, läs standard in."
++msgstr "Om en FIL är ”-”, läs standardindata."
+ 
+ #: src/diff.c:1067
+ #, c-format
+@@ -1029,12 +1039,12 @@
+ #: src/diff.c:1102
+ #, c-format
+ msgid "conflicting %s option value %s"
+-msgstr "motstridigt %s-flaggsvärde %s"
++msgstr "motstridigt värde %s för flaggan %s"
+ 
+ #: src/diff.c:1115
+ #, c-format
+ msgid "conflicting output style options"
+-msgstr "motstridig utmatningsstilsflagga"
++msgstr "motstridiga flaggor för utmatningsstil"
+ 
+ #: src/diff.c:1131
+ #, c-format
+@@ -1048,7 +1058,7 @@
+ #: src/diff.c:1199
+ #, c-format
+ msgid "Common subdirectories: %s and %s\n"
+-msgstr "Lika underkataloger: %s och %s\n"
++msgstr "Gemensamma underkataloger: %s och %s\n"
+ 
+ #: src/diff.c:1216 src/diff.c:1402
+ #, c-format
+@@ -1063,11 +1073,11 @@
+ #: src/diff.c:1281
+ #, c-format
+ msgid "Symbolic links %s -> %s and %s -> %s differ\n"
+-msgstr "De symboliska länkarna %s → %s och %s → %s skiljer\n"
++msgstr "De symboliska länkarna %s → %s och %s → %s skiljer sig\n"
+ 
+ #: src/diff.c:1564
+ msgid "cannot compare '-' to a directory"
+-msgstr "kan inte jämföra ”-” med en katalog"
++msgstr "det går inte att jämföra ”-” med en katalog"
+ 
+ #: src/diff.c:1651
+ #, c-format
+@@ -1085,7 +1095,7 @@
+ 
+ #: src/diff3.c:363
+ msgid "'-' specified for more than one input file"
+-msgstr "”-” angivet för mer än en infil"
++msgstr "”-” har angetts för fler än en infil"
+ 
+ #: src/diff3.c:405 src/diff3.c:1183 src/diff3.c:1569 src/diff3.c:1625
+ #: src/sdiff.c:307 src/sdiff.c:831 src/sdiff.c:841
+@@ -1094,7 +1104,7 @@
+ 
+ #: src/diff3.c:427
+ msgid "-A, --show-all              output all changes, bracketing conflicts"
+-msgstr "-A, --show-all              skriv alla ändringar med markering runt konflikter"
++msgstr "-A, --show-all              skriv ut alla ändringar och markera konflikter"
+ 
+ #: src/diff3.c:429
+ msgid ""
+@@ -1110,15 +1120,16 @@
+ 
+ #: src/diff3.c:432
+ msgid "-3, --easy-only             like -e, but incorporate only nonoverlapping changes"
+-msgstr "-3, --easy-only             som -e, men tag endast med ej överlappande ändringar"
++msgstr "-3, --easy-only             som -e, men använd endast icke-överlappande "
++"ändringar"
+ 
+ #: src/diff3.c:433
+ msgid "-x, --overlap-only          like -e, but incorporate only overlapping changes"
+-msgstr "-x, --overlap-only          som -e, men tag endast med överlappande ändringar"
++msgstr "-x, --overlap-only          som -e, men använd endast överlappande ändringar"
+ 
+ #: src/diff3.c:434
+ msgid "-X                          like -x, but bracket conflicts"
+-msgstr "-X                          som -x, men skriv klamrar om konflikter"
++msgstr "-X                          som -x, men markera konflikter"
+ 
+ #: src/diff3.c:435
+ msgid "-i                          append 'w' and 'q' commands to ed scripts"
+@@ -1129,20 +1140,21 @@
+ "-m, --merge                 output actual merged file, according to\n"
+ "                                -A if no other options are given"
+ msgstr ""
+-"-m, --merge                 skriv ut en faktiskt sammanslagen fil, enligt\n"
+-"                                -A om inga andra flaggor ges"
++"-m, --merge                 skriv ut den faktiska sammanslagna filen enligt\n"
++"                                -A om inga andra flaggor anges"
+ 
+ #: src/diff3.c:440
+ msgid "-a, --text                  treat all files as text"
+-msgstr "-a, --text                  betrakta alla filer som text"
++msgstr "-a, --text                  behandla alla filer som text"
+ 
+ #: src/diff3.c:441
+ msgid "    --strip-trailing-cr     strip trailing carriage return on input"
+-msgstr "    --strip-trailing-cr     tag bort avslutande vagnreturer i indata"
++msgstr "    --strip-trailing-cr     ta bort avslutande vagnretur i indata"
+ 
+ #: src/diff3.c:442
+ msgid "-T, --initial-tab           make tabs line up by prepending a tab"
+-msgstr "-T, --initial-tab           justera tabulatorer genom att skjuta in en tabulator"
++msgstr "-T, --initial-tab           justera tabulatorer genom att lägga till en "
++"inledande tabulator"
+ 
+ #: src/diff3.c:443
+ msgid "    --diff-program=PROGRAM  use PROGRAM to compare files"
+@@ -1153,8 +1165,8 @@
+ "-L, --label=LABEL           use LABEL instead of file name\n"
+ "                                (can be repeated up to three times)"
+ msgstr ""
+-"-L, --label=ETIKETT         använd ETIKETT istället för filnamn\n"
+-"                                (kan upprepas upp till tre gånger)"
++"-L, --label=ETIKETT         använd ETIKETT i stället för filnamn\n"
++"                                kan upprepas högst tre gånger"
+ 
+ #: src/diff3.c:447
+ msgid "    --help                  display this help and exit"
+@@ -1187,23 +1199,26 @@
+ "robust than using ed.\n"
+ msgstr ""
+ "\n"
+-"Standardformatet för utskrift är en något så när mänskligt läsbar representation\n"
+-"av ändringarna.\n"
++"Standardformatet för utdata är en någorlunda läsbar representation "
++"av\n"
++"ändringarna.\n"
+ "\n"
+-"Flaggorna -e, -E, -x, -X (och motsvarande långa) gör att ett ed-skript skrivs\n"
+-"ut istället för standardtext.\n"
++"Flaggorna -e, -E, -x och -X, och motsvarande långa flaggor, gör att ett "
++"ed-skript\n"
++"skrivs "
++"ut i stället för standardformatet.\n"
+ "\n"
+-"Slutligen får flaggan -m (--merge) diff3 att göra sammanslagningen internt\n"
+-"och skriva ut den faktiskt sammanslagna filen.  För ovanlig indata är detta\n"
++"Slutligen gör flaggan -m (--merge) att diff3 slår samman internt\n"
++"och skriver ut den faktiska sammanslagna filen. För ovanlig indata är detta\n"
+ "mer robust än att använda ed.\n"
+ 
+ #: src/diff3.c:479
+ msgid "Exit status is 0 if successful, 1 if conflicts, 2 if trouble."
+-msgstr "Slutstatus är 0 om allt bra, 1 vid konflikt, 2 vid problem."
++msgstr "Slutstatus är 0 om det lyckas, 1 vid konflikter och 2 vid problem."
+ 
+ #: src/diff3.c:648
+ msgid "internal error: screwup in format of diff blocks"
+-msgstr "internt fel: trasigt format i diff-block"
++msgstr "internt fel: fel i formatet för diffblock"
+ 
+ #: src/diff3.c:924
+ #, c-format
+@@ -1216,7 +1231,7 @@
+ 
+ #: src/diff3.c:969
+ msgid "invalid diff format; invalid change separator"
+-msgstr "ogiltigt diff-format; ogiltig ändringsseparator"
++msgstr "ogiltigt diff-format; ogiltig ändringsavgränsare"
+ 
+ #: src/diff3.c:1190
+ msgid "invalid diff format; incomplete last line"
+@@ -1229,11 +1244,11 @@
+ 
+ #: src/diff3.c:1240
+ msgid "invalid diff format; incorrect leading line chars"
+-msgstr "ogiltigt diff-format; felaktiga starttecken på rad"
++msgstr "ogiltigt diff-format; felaktiga inledande radtecken"
+ 
+ #: src/diff3.c:1308
+ msgid "internal error: invalid diff type passed to output"
+-msgstr "internt fel: ogiltig diff-typ utskickad"
++msgstr "internt fel: ogiltig diff-typ skickad till utdata"
+ 
+ #: src/diff3.c:1571 src/diff3.c:1629
+ msgid "input file shrank"
+@@ -1242,7 +1257,7 @@
+ #: src/dir.c:194
+ #, c-format
+ msgid "cannot compare file names %s and %s"
+-msgstr "kan inte jämföra filnamnen %s och %s"
++msgstr "det går inte att jämföra filnamnen %s och %s"
+ 
+ #: src/dir.c:246
+ #, c-format
+@@ -1255,31 +1270,32 @@
+ 
+ #: src/sdiff.c:176
+ msgid "-o, --output=FILE            operate interactively, sending output to FILE"
+-msgstr "-o, --output=FIL             kör interaktivt, med utdata till FIL"
++msgstr "-o, --output=FIL             kör interaktivt och skriv utdata till FIL"
+ 
+ #: src/sdiff.c:178
+ msgid "-i, --ignore-case            consider upper- and lower-case to be the same"
+-msgstr "-i, --ignore-case            betrakta versaler och gemena som lika"
++msgstr "-i, --ignore-case            betrakta versaler och gemener som lika"
+ 
+ #: src/sdiff.c:179
+ msgid "-E, --ignore-tab-expansion   ignore changes due to tab expansion"
+-msgstr "-E, --ignore-tab-expansion   ignorera ändringar på grund av tabulatorexpansion"
++msgstr "-E, --ignore-tab-expansion   bortse från ändringar på grund av "
++"tabulatorexpansion"
+ 
+ #: src/sdiff.c:180
+ msgid "-Z, --ignore-trailing-space  ignore white space at line end"
+-msgstr "-Z, --ignore-trailing-space  ignorera alla blanktecken i slutet av raden"
++msgstr "-Z, --ignore-trailing-space  bortse från blanktecken i slutet av raden"
+ 
+ #: src/sdiff.c:181
+ msgid "-b, --ignore-space-change    ignore changes in the amount of white space"
+-msgstr "-b, --ignore-space-change    ignorera ändringar i antalet blanka"
++msgstr "-b, --ignore-space-change    bortse från ändringar i mängden blanktecken"
+ 
+ #: src/sdiff.c:182
+ msgid "-W, --ignore-all-space       ignore all white space"
+-msgstr "-W, --ignore-all-space       ignorera alla blanktecken"
++msgstr "-W, --ignore-all-space       bortse från alla blanktecken"
+ 
+ #: src/sdiff.c:183
+ msgid "-B, --ignore-blank-lines     ignore changes whose lines are all blank"
+-msgstr "-B, --ignore-blank-lines     ignorera ändringar i form av enbart blanka rader"
++msgstr "-B, --ignore-blank-lines     bortse från ändringar vars rader är helt blanka"
+ 
+ #: src/sdiff.c:184
+ msgid "-I, --ignore-matching-lines=RE  ignore changes all whose lines match RE"
+@@ -1287,7 +1303,7 @@
+ 
+ #: src/sdiff.c:185
+ msgid "    --strip-trailing-cr      strip trailing carriage return on input"
+-msgstr "    --strip-trailing-cr      tag bort avslutande vagnreturer i indata"
++msgstr "    --strip-trailing-cr      ta bort avslutande vagnretur i indata"
+ 
+ #: src/sdiff.c:186
+ msgid "-a, --text                   treat all files as text"
+@@ -1295,11 +1311,12 @@
+ 
+ #: src/sdiff.c:188
+ msgid "-w, --width=NUM              output at most NUM (default 130) print columns"
+-msgstr "-w, --width=ANT              skriv ut högst ANT (130 som standard) kolumner"
++msgstr "-w, --width=ANT              skriv ut högst ANT kolumner, 130 som standard"
+ 
+ #: src/sdiff.c:189
+ msgid "-l, --left-column            output only the left column of common lines"
+-msgstr "-l, --left-column            skriv endast ut gemensamma raders vänstra kolumn"
++msgstr "-l, --left-column            skriv ut endast vänster kolumn för gemensamma "
++"rader"
+ 
+ #: src/sdiff.c:190
+ msgid "-s, --suppress-common-lines  do not output common lines"
+@@ -1311,15 +1328,16 @@
+ 
+ #: src/sdiff.c:193
+ msgid "    --tabsize=NUM            tab stops at every NUM (default 8) print columns"
+-msgstr "    --tabsize=N              tabulatorstopp var N:e (8 som standard) kolumn"
++msgstr "    --tabsize=N              tabulatorstopp var N:e kolumn, 8 som standard"
+ 
+ #: src/sdiff.c:195
+ msgid "-d, --minimal                try hard to find a smaller set of changes"
+-msgstr "-d, --minimal                arbeta hårt för att hitta en mindre mängd ändringar"
++msgstr "-d, --minimal                försök hitta en mindre mängd ändringar"
+ 
+ #: src/sdiff.c:196
+ msgid "-H, --speed-large-files      assume large files, many scattered small changes"
+-msgstr "-H, --speed-large-files      antag stora filer och små spridda ändringar"
++msgstr "-H, --speed-large-files      förutsätt stora filer och många spridda små "
++"ändringar"
+ 
+ #: src/sdiff.c:197
+ msgid "    --diff-program=PROGRAM   use PROGRAM to compare files"
+@@ -1340,15 +1358,15 @@
+ 
+ #: src/sdiff.c:209
+ msgid "Side-by-side merge of differences between FILE1 and FILE2."
+-msgstr "Sammanslagning sida-vid-sida av skillnader mellan FIL1 och FIL2."
++msgstr "Sammanslagning sida vid sida av skillnader mellan FIL1 och FIL2."
+ 
+ #: src/sdiff.c:329
+ msgid "cannot interactively merge standard input"
+-msgstr "kan inte slå samman standard in interaktivt"
++msgstr "det går inte att slå samman standardindata interaktivt"
+ 
+ #: src/sdiff.c:585
+ msgid "both files to be compared are directories"
+-msgstr "båda filerna som skall jämföras är kataloger"
++msgstr "båda objekten som ska jämföras är kataloger"
+ 
+ #: src/sdiff.c:805
+ msgid ""
+@@ -1363,15 +1381,15 @@
+ "v:\tVerbosely include common lines.\n"
+ "q:\tQuit.\n"
+ msgstr ""
+-"ed:\tRedigera och använd sedan båda versioner, dekorerade med huvuden.\n"
+-"eb:\tRedigera och använd sedan båda versioner.\n"
++"ed:\tRedigera och använd sedan båda versionerna, var och en med en rubrik.\n"
++"eb:\tRedigera och använd sedan båda versionerna.\n"
+ "el eller e1:\tRedigera och använd sedan vänstra versionen.\n"
+ "er eller e2:\tRedigera och använd sedan högra versionen.\n"
+-"e:\tKasta båda versionerna, och redigera sedan en ny.\n"
++"e:\tFörkasta båda versionerna och redigera sedan en ny.\n"
+ "l eller 1:\tAnvänd vänstra versionen.\n"
+ "r eller 2:\tAnvänd högra versionen.\n"
+-"s:\tInkludera tyst gemensamma rader.\n"
+-"v:\tInkludera och tillkännage gemensamma rader.\n"
++"s:\tTa med gemensamma rader utan utskrift.\n"
++"v:\tTa med gemensamma rader med utförlig utskrift.\n"
+ "q:\tAvsluta.\n"
+ 
+ #: src/util.c:727
