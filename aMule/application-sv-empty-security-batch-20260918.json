@@ -1,0 +1,499 @@
+{
+  "project": "aMule",
+  "component": "amule-application",
+  "language": "sv",
+  "units": [
+    {
+      "id": 200193106,
+      "source": [
+        "Type a password to set or change it. Stored passwords cannot be shown, so leaving this empty keeps the current one."
+      ],
+      "target": [
+        "Ange ett lösenord för att ställa in eller ändra det. Sparade lösenord kan inte visas, så om du lämnar fältet tomt behålls det nuvarande."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200193109,
+      "source": [
+        "Guest sessions may read status and listings but cannot change anything. Turning this off clears the stored guest password."
+      ],
+      "target": [
+        "Gästsessioner kan läsa status och listor men kan inte ändra något. Om detta stängs av rensas det sparade gästlösenordet."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200193112,
+      "source": [
+        "Guest access needs a password. Type one in the guest password field, or untick Enable guest access."
+      ],
+      "target": [
+        "Gäståtkomst kräver ett lösenord. Ange ett i fältet för gästlösenord eller avmarkera Aktivera gäståtkomst."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200193113,
+      "source": [
+        "The amuleapi password could not be saved: %s"
+      ],
+      "target": [
+        "Det gick inte att spara lösenordet för amuleapi: %s"
+      ],
+      "state": 20
+    },
+    {
+      "id": 200195606,
+      "source": [
+        "Create new files as sparse files"
+      ],
+      "target": [
+        "Skapa nya filer som glesa filer"
+      ],
+      "state": 20
+    },
+    {
+      "id": 200195607,
+      "source": [
+        "Sparse part files only occupy disk space for the parts already downloaded, so free space is used up gradually as the file fills in. Turn this off to use an ordinary file instead - useful where sparse files are unsupported or slow, or where backup/de-duplication tools handle them badly. Applies only when the core runs on Windows; on Linux and macOS part files are sparse anyway and this setting has no effect."
+      ],
+      "target": [
+        "Glesa delfiler använder endast diskutrymme för de delar som redan har hämtats, så ledigt utrymme används gradvis när filen fylls. Stäng av detta för att använda en vanlig fil i stället – användbart där glesa filer inte stöds eller är långsamma, eller där säkerhetskopierings-/dubblettelimineringsverktyg hanterar dem dåligt. Gäller endast när kärnan körs i Windows; i Linux och macOS är delfiler ändå glesa och inställningen saknar effekt."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200579495,
+      "source": [
+        "Could not resolve %s to an IPv4 address."
+      ],
+      "target": [
+        "Det gick inte att lösa %s till en IPv4-adress."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200727244,
+      "source": [
+        "Authentication failed: this aMule requires an encrypted External Connection, and the client did not negotiate one."
+      ],
+      "target": [
+        "Autentiseringen misslyckades: denna aMule kräver en krypterad extern anslutning och klienten förhandlade inte fram en sådan."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200727245,
+      "source": [
+        "Do not encrypt the External Connect session. Encryption is on by default whenever the remote aMule supports it; turning it off leaves everything after the login readable and modifiable by anyone on the path."
+      ],
+      "target": [
+        "Kryptera inte sessionen för extern anslutning. Kryptering är aktiverad som standard när fjärr-aMule stöder den; om den stängs av kan allt efter inloggningen läsas och ändras av vem som helst på vägen."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200727246,
+      "source": [
+        "Require encrypted connections (rejects clients that cannot encrypt)"
+      ],
+      "target": [
+        "Kräv krypterade anslutningar (nekar klienter som inte kan kryptera)"
+      ],
+      "state": 20
+    },
+    {
+      "id": 200884175,
+      "source": [
+        "Restricted permissions on %s to owner-only."
+      ],
+      "target": [
+        "Begränsade behörigheterna för %s till endast ägaren."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200884176,
+      "source": [
+        "Could not write the amuleapi EC token to %s; amuleapi will fall back to its configured password."
+      ],
+      "target": [
+        "Det gick inte att skriva EC-token för amuleapi till %s; amuleapi återgår till sitt konfigurerade lösenord."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200884177,
+      "source": [
+        "External connection: could not bind to '%s', listening on 127.0.0.1 only."
+      ],
+      "target": [
+        "Extern anslutning: det gick inte att binda till '%s', lyssnar endast på 127.0.0.1."
+      ],
+      "state": 20
+    },
+    {
+      "id": 200936433,
+      "source": [
+        "Initializing network"
+      ],
+      "target": [
+        "Initierar nätverket"
+      ],
+      "state": 20
+    },
+    {
+      "id": 200936443,
+      "source": [
+        "Clear the saved search history? This cannot be undone."
+      ],
+      "target": [
+        "Rensa den sparade sökhistoriken? Detta kan inte ångras."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400830,
+      "source": [
+        "This directory is part of a recursive share. To remove it, un-share or modify the recursive share root above it."
+      ],
+      "target": [
+        "Den här katalogen ingår i en rekursiv delning. Avsluta eller ändra den rekursiva delningens rot ovanför den för att ta bort den."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400831,
+      "source": [
+        "Cannot unshare inside a recursive share"
+      ],
+      "target": [
+        "Kan inte sluta dela inuti en rekursiv delning"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400832,
+      "source": [
+        "Cannot modify inside a recursive share"
+      ],
+      "target": [
+        "Kan inte ändra inuti en rekursiv delning"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400833,
+      "source": [
+        "Authentication failed: the client offered an encrypted External Connection but sent no usable key."
+      ],
+      "target": [
+        "Autentiseringen misslyckades: klienten erbjöd en krypterad extern anslutning men skickade ingen användbar nyckel."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400834,
+      "source": [
+        "Authentication failed: the client could not confirm the encrypted session."
+      ],
+      "target": [
+        "Autentiseringen misslyckades: klienten kunde inte bekräfta den krypterade sessionen."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400836,
+      "source": [
+        "Could not set up connection encryption. Connection closed."
+      ],
+      "target": [
+        "Det gick inte att konfigurera anslutningskryptering. Anslutningen stängdes."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400837,
+      "source": [
+        "The core did not negotiate an encrypted connection. It may be an older aMule without encryption support, or the connection may have been tampered with. To connect without encryption, turn it off in the connection settings."
+      ],
+      "target": [
+        "Kärnan förhandlade inte fram en krypterad anslutning. Det kan vara en äldre aMule utan krypteringsstöd eller så kan anslutningen ha manipulerats. Stäng av kryptering i anslutningsinställningarna för att ansluta utan kryptering."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400839,
+      "source": [
+        "Shared-dir watcher: backend overflow/error (%s); falling back to full reload"
+      ],
+      "target": [
+        "Övervakare av delade kataloger: bakändesöverskridning/fel (%s); återgår till full omläsning"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400840,
+      "source": [
+        "Shared-dir watcher: events dropped by backend, forcing a full shared-files reload to resync"
+      ],
+      "target": [
+        "Övervakare av delade kataloger: bakänden tappade händelser, framtvingar full omläsning av delade filer för att synkronisera igen"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400841,
+      "source": [
+        "Export selected files to an emulecollection"
+      ],
+      "target": [
+        "Exportera valda filer till en emulecollection"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400843,
+      "source": [
+        "No files are selected to export."
+      ],
+      "target": [
+        "Inga filer är valda för export."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400844,
+      "source": [
+        "eMule collections (*.emulecollection)"
+      ],
+      "target": [
+        "eMule-samlingar (*.emulecollection)"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201400845,
+      "source": [
+        "'%s' already exists. Overwrite it?"
+      ],
+      "target": [
+        "'%s' finns redan. Vill du skriva över den?"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201693399,
+      "source": [
+        "Show in file manager"
+      ],
+      "target": [
+        "Visa i filhanteraren"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201693400,
+      "source": [
+        "The configured video player was not found: %s"
+      ],
+      "target": [
+        "Den konfigurerade videospelaren hittades inte: %s"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201693401,
+      "source": [
+        "Cannot open '%s': the file is not present on this computer."
+      ],
+      "target": [
+        "Det går inte att öppna '%s': filen finns inte på den här datorn."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201693402,
+      "source": [
+        "Previewing an unfinished download needs a video player: the partly-downloaded file has no type the system can open on its own. One can be set in Preferences -> General."
+      ],
+      "target": [
+        "Förhandsvisning av en oavslutad hämtning kräver en videospelare: den delvis hämtade filen har ingen typ som systemet kan öppna på egen hand. En spelare kan anges i Inställningar -> Allmänt."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201693403,
+      "source": [
+        "ERROR: Failed to open '%s' with the default application."
+      ],
+      "target": [
+        "FEL: Det gick inte att öppna '%s' med standardprogrammet."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839042,
+      "source": [
+        "When the connected core's files live on a different machine, map a path prefix it reports to where that filesystem is reachable from here (a network share, say) so \"Open\" and \"Show in folder\" work."
+      ],
+      "target": [
+        "När den anslutna fjärrkärnans filer finns på en annan dator kan du mappa ett sökvägsprefix som den rapporterar till platsen där filsystemet nås härifrån (t.ex. en nätverksresurs), så att \"Öppna\" och \"Visa i mapp\" fungerar."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839045,
+      "source": [
+        "A path prefix as the core reports it, e.g. /home/user/downloads/incoming"
+      ],
+      "target": [
+        "Ett sökvägsprefix som kärnan rapporterar, t.ex. /home/användare/hämtningar/inkommande"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839047,
+      "source": [
+        "Where that same folder is reachable from this computer, e.g. a mounted network share"
+      ],
+      "target": [
+        "Där samma mapp är åtkomlig från denna dator, t.ex. en monterad nätverksresurs"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839049,
+      "source": [
+        "Path Mappings"
+      ],
+      "target": [
+        "Sökvägsmappningar"
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839052,
+      "source": [
+        "Both the remote and local prefix must be filled in."
+      ],
+      "target": [
+        "Både fjärr- och lokalt prefix måste fyllas i."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839053,
+      "source": [
+        "This remote prefix is already mapped."
+      ],
+      "target": [
+        "Det här fjärrprefixet är redan mappat."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839055,
+      "source": [
+        "Only saving the %u most recent of %u open searches to %s."
+      ],
+      "target": [
+        "Sparar endast de %u senaste av %u öppna sökningarna till %s."
+      ],
+      "state": 20
+    },
+    {
+      "id": 201839056,
+      "source": [
+        "Only saving the first %u of %u results for search \"%s\"."
+      ],
+      "target": [
+        "Sparar endast de första %u av %u resultaten för sökningen \"%s\"."
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077711,
+      "source": [
+        "Skipped %u unusable link in collection: %s",
+        "Skipped %u unusable links in collection: %s"
+      ],
+      "target": [
+        "Hoppade över %u oanvändbar länk i samlingen: %s",
+        "Hoppade över %u oanvändbara länkar i samlingen: %s"
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077713,
+      "source": [
+        "Error! Unable to load Preferences"
+      ],
+      "target": [
+        "Fel! Det gick inte att läsa in Inställningar"
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077714,
+      "source": [
+        "The remote core was restarted; reloading."
+      ],
+      "target": [
+        "Fjärrkärnan startades om; läser in igen."
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077715,
+      "source": [
+        "The remote core sent inconsistent data for \"%s\" (part status %d, expected %d). The file list may be showing the wrong information; reconnect to clear it."
+      ],
+      "target": [
+        "Fjärrkärnan skickade inkonsekventa data för \"%s\" (delstatus %d, förväntade %d). Fillistan kan visa fel information; återanslut för att rensa den."
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077716,
+      "source": [
+        "Error creating UDP socket %s %d : %s"
+      ],
+      "target": [
+        "Fel när UDP-uttaget %s %d skapades: %s"
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077717,
+      "source": [
+        "Created %s at port %u"
+      ],
+      "target": [
+        "Skapade %s på port %u"
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077718,
+      "source": [
+        "WARNING! %s: Packet to %s discarded due to error (%s) while sending."
+      ],
+      "target": [
+        "VARNING! %s: Paket till %s förkastades på grund av fel (%s) vid sändning."
+      ],
+      "state": 20
+    },
+    {
+      "id": 202077719,
+      "source": [
+        "- Proxy settings changed (needed for HTTP transfers).\n"
+      ],
+      "target": [
+        "- Proxyinställningarna ändrades (krävs för HTTP-överföringar).\n"
+      ],
+      "state": 20
+    }
+  ]
+}
