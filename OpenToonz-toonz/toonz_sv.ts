@@ -10236,158 +10236,160 @@ Vill du skapa den?</translation>
     </message>
     <message>
         <source>Unable to create a blank drawing on the current column</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa en tom ritning i den aktuella kolumnen</translation>
     </message>
     <message>
         <source>Unable to replace the current drawing with a blank drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ersätta den aktuella ritningen med en tom ritning</translation>
     </message>
     <message>
         <source>There are no drawings in the camera column to duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga ritningar att duplicera i kamerakolumnen</translation>
     </message>
     <message>
         <source>Cannot duplicate a drawing in the current column</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att duplicera en ritning i den aktuella kolumnen</translation>
     </message>
     <message>
         <source>Unable to duplicate a drawing on the current column</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att duplicera en ritning i den aktuella kolumnen</translation>
     </message>
     <message>
         <source>Unable to replace the current or next drawing with a duplicate drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ersätta den aktuella eller nästa ritning med en duplicerad ritning</translation>
     </message>
     <message>
         <source>Stop Motion Controller</source>
-        <translation type="unfinished"></translation>
+        <translation>Stop motion-styrenhet</translation>
     </message>
     <message>
         <source>Camera Column Switch :  </source>
-        <translation type="unfinished"></translation>
+        <translation>Växla kamerakolumn:  </translation>
     </message>
     <message>
         <source>Vector Guided Drawing Controls</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller för vektorstyrd ritning</translation>
     </message>
     <message>
         <source>Vector Guided Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektorstyrd ritning</translation>
     </message>
     <message>
         <source>Group strokes by vector levels?</source>
-        <translation type="unfinished"></translation>
+        <translation>Gruppera streck efter vektornivåer?</translation>
     </message>
     <message>
         <source>Merge Vector Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfoga vektornivåer</translation>
     </message>
     <message>
         <source>Report a Bug</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapportera ett fel</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
 </context>
 <context>
     <name>ReframePopup</name>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>steps</source>
-        <translation type="unfinished"></translation>
+        <translation>steg</translation>
     </message>
     <message>
         <source>with</source>
-        <translation type="unfinished"></translation>
+        <translation>med</translation>
     </message>
     <message>
         <source>(</source>
-        <translation type="unfinished"></translation>
+        <translation>(</translation>
     </message>
     <message>
         <source> blank cells will be inserted.)</source>
-        <translation type="unfinished"></translation>
+        <translation> tomma celler infogas.)</translation>
     </message>
     <message>
         <source>Reframe with Empty Inbetweens</source>
-        <translation type="unfinished"></translation>
+        <translation>Rama om med tomma mellanbilder</translation>
     </message>
     <message>
         <source>empty inbetweens</source>
-        <translation type="unfinished"></translation>
+        <translation>tomma mellanbilder</translation>
     </message>
 </context>
 <context>
     <name>RenameAsToonzPopup</name>
     <message>
         <source>Delete Original Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort ursprungliga filer</translation>
     </message>
     <message>
         <source>Level Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivånamn:</translation>
     </message>
     <message>
         <source>Rename</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt namn</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Renaming File </source>
-        <translation type="unfinished"></translation>
+        <translation>Byter namn på fil </translation>
     </message>
     <message>
         <source>Creating an animation level of %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar en animationsnivå med %1 bildrutor</translation>
     </message>
     <message>
         <source>The file name cannot be empty or contain any of the following characters:(new line)  \ / : * ? &quot;  |</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamnet får inte vara tomt eller innehålla något av följande tecken:(ny rad)  \ / : * ? &quot;  |</translation>
     </message>
 </context>
 <context>
     <name>RenderController</name>
     <message>
         <source>Continue</source>
-        <translation type="unfinished"></translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Exporting ...</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporterar …</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Exporting</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporterar</translation>
     </message>
     <message>
         <source>The %1 scene contains an audio file with different characteristics from the one used in the first exported scene.
 The audio file will not be included in the rendered clip.</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenen %1 innehåller en ljudfil med andra egenskaper än den som användes i den första exporterade scenen.
+Ljudfilen tas inte med i det renderade klippet.</translation>
     </message>
     <message>
         <source>The %1  scene has a different resolution from the %2 scene.
                            The output result may differ from what you expect. What do you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Scenen %1 har en annan upplösning än scenen %2.
+                           Utdataresultatet kan skilja sig från det förväntade. Vad vill du göra?</translation>
     </message>
 </context>
 <context>
@@ -10401,19 +10403,19 @@ The audio file will not be included in the rendered clip.</source>
     <name>RenumberPopup</name>
     <message>
         <source>Renumber</source>
-        <translation type="unfinished"></translation>
+        <translation>Omnumrera</translation>
     </message>
     <message>
         <source>Start:</source>
-        <translation type="unfinished"></translation>
+        <translation>Start:</translation>
     </message>
     <message>
         <source>Step:</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg:</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
 </context>
 <context>
