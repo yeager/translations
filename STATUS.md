@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**CopyQ (2026-09-18):** Aktuell release 16.0.0. Svenska UI:t är **684/684**, 0 fuzzy. Den enda kontrollvarningen, *Change Password Successful* → *Lösenordsbytet lyckades.*, är språkgranskad som korrekt. XML-export: `CopyQ/sv.ts` (SHA-256 `493275b9…0160`).
+
 **phpMyAdmin 5.2 (2026-09-18):** Aktuell release 5.2.3. Svenska katalogen är **3 436/3 436** med **0 fuzzy** efter 42 kontextgranskade rättningar för frågor, anslutningsfel, sortering, cache, replikering, extern HTML-transformering, SSL och reCAPTCHA. Officiell export arkiveras i `phpMyAdmin-5.2/`.
 
 **phpMyAdmin SQL-parser (2026-09-18):** **53/53**, 0 fuzzy och 0 kontrollvarningar. 21 syntaxfel för CTE, CASE, alias, LOCK och flertabellsfrågor är översatta och arkiveras i `phpMyAdmin-SQL-parser/`.
