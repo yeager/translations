@@ -11583,98 +11583,98 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Reset Subcamera</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ delkamera</translation>
     </message>
     <message>
         <source>Select Camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj kamera</translation>
     </message>
     <message>
         <source>Select Pegbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj tappregister</translation>
     </message>
     <message>
         <source>Select Column</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj kolumn</translation>
     </message>
     <message>
         <source>Vector Guided Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektorstyrd ritning</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>Av</translation>
     </message>
     <message>
         <source>Closest Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Närmaste ritning</translation>
     </message>
     <message>
         <source>Farthest Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjärraste ritning</translation>
     </message>
     <message>
         <source>All Drawings</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla ritningar</translation>
     </message>
     <message>
         <source>Show %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa %1</translation>
     </message>
     <message>
         <source>Hide %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj %1</translation>
     </message>
     <message>
         <source>Table</source>
-        <translation type="unfinished"></translation>
+        <translation>Tabell</translation>
     </message>
     <message>
         <source>Select %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj %1</translation>
     </message>
     <message>
         <source>Flip View</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd visning</translation>
     </message>
     <message>
         <source>Reset View</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ vy</translation>
     </message>
     <message>
         <source>Auto Inbetween</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk mellanbild</translation>
     </message>
     <message>
         <source>Linear Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär interpolation</translation>
     </message>
     <message>
         <source>Ease In Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolation med mjuk inledning</translation>
     </message>
     <message>
         <source>Ease Out Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolation med mjuk avslutning</translation>
     </message>
     <message>
         <source>Ease In/Out Interpolation</source>
-        <translation type="unfinished"></translation>
+        <translation>Interpolation med mjuk in-/uttoning</translation>
     </message>
 </context>
 <context>
     <name>SceneViewerPanel</name>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsgranskning</translation>
     </message>
     <message>
         <source>Sub-camera Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsgranskning av delkamera</translation>
     </message>
     <message>
         <source>Untitled</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnlös</translation>
     </message>
     <message>
         <source>Scene: </source>
@@ -11682,11 +11682,11 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>   ::   Frame: </source>
-        <translation type="unfinished"></translation>
+        <translation>   ::   Bildruta: </translation>
     </message>
     <message>
         <source>   ::   Level: </source>
-        <translation type="unfinished"></translation>
+        <translation>   ::   Nivå: </translation>
     </message>
     <message>
         <source>Level: </source>
@@ -11694,35 +11694,35 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Freeze</source>
-        <translation type="unfinished"></translation>
+        <translation>Frys</translation>
     </message>
     <message>
         <source>Camera Stand View</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerastativvy</translation>
     </message>
     <message>
         <source>3D View</source>
-        <translation type="unfinished"></translation>
+        <translation>3D-vy</translation>
     </message>
     <message>
         <source>Camera View</source>
-        <translation type="unfinished"></translation>
+        <translation>Kameravy</translation>
     </message>
     <message>
         <source>  ::  Zoom : </source>
-        <translation type="unfinished"></translation>
+        <translation>  ::  Zoom: </translation>
     </message>
     <message>
         <source>Safe Area (Right Click to Select)</source>
-        <translation type="unfinished"></translation>
+        <translation>Säkerhetsområde (högerklicka för att välja)</translation>
     </message>
     <message>
         <source>Field Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Fältguide</translation>
     </message>
     <message>
         <source> (Flipped)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Vänd)</translation>
     </message>
     <message>
         <source>   ::   Project: </source>
@@ -11730,34 +11730,34 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>[SCENE]: </source>
-        <translation type="unfinished"></translation>
+        <translation>[SCEN]: </translation>
     </message>
     <message>
         <source>[LEVEL]: </source>
-        <translation type="unfinished"></translation>
+        <translation>[NIVÅ]: </translation>
     </message>
 </context>
 <context>
     <name>SeparateColorsPopup</name>
     <message>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt</translation>
     </message>
     <message>
         <source>Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Förhandsgranskning</translation>
     </message>
     <message>
         <source>Separate</source>
-        <translation type="unfinished"></translation>
+        <translation>Separera</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Sub Color 3:</source>
-        <translation type="unfinished"></translation>
+        <translation>Underfärg 3:</translation>
     </message>
     <message>
         <source>Alpha Matting</source>
