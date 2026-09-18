@@ -5528,17 +5528,17 @@ You can migrate manually by renaming old directory and renaming file to antimicr
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="369"/>
         <source>No set number was specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget uppsättningsnummer angavs.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="180"/>
         <source>An invalid event generator was specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>En ogiltig händelsegenerator angavs.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="186"/>
         <source>No event generator string was specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen sträng för händelsegenerator angavs.</translation>
     </message>
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="207"/>
@@ -5548,12 +5548,12 @@ You can migrate manually by renaming old directory and renaming file to antimicr
     <message>
         <location filename="../../../src/commandlineutility.cpp" line="218"/>
         <source>No log file specified.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen loggfil angavs.</translation>
     </message>
     <message>
         <location filename="../../../src/x11extras.cpp" line="712"/>
         <source>xinput version must be at least 2.0. No mouse acceleration changes will occur.</source>
-        <translation type="unfinished"></translation>
+        <translation>xinput-versionen måste vara minst 2.0. Musacceleration kommer inte att ändras.</translation>
     </message>
     <message>
         <location filename="../../../src/eventhandlers/uinputeventhandler.cpp" line="483"/>
@@ -5567,18 +5567,18 @@ To check possible solutions please visit: </source>
     <message>
         <location filename="../../../src/gui/quicksetdialog.ui" line="14"/>
         <source>Quick Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Snabbinställning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/quicksetdialog.ui" line="23"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Please press a button or move an axis on %1 (&lt;span style=&quot; font-weight:600;&quot;&gt;%2&lt;/span&gt;).&lt;br/&gt;A dialog window will then appear which will&lt;br/&gt;allow you to make an assignment.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Tryck på en knapp eller flytta en axel på %1 (&lt;span style=&quot; font-weight:600;&quot;&gt;%2&lt;/span&gt;).&lt;br/&gt;Ett dialogfönster visas sedan där du&lt;br/&gt;kan göra en tilldelning.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/gui/quicksetdialog.cpp" line="48"/>
         <location filename="../../../src/gui/quicksetdialog.cpp" line="88"/>
         <source>Quick Set %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Snabbinställning %1</translation>
     </message>
 </context>
 <context>
@@ -5586,14 +5586,16 @@ To check possible solutions please visit: </source>
     <message>
         <location filename="../../../src/gui/setaxisthrottledialog.ui" line="14"/>
         <source>Throttle Change</source>
-        <translation type="unfinished"></translation>
+        <translation>Gasändring</translation>
     </message>
     <message>
         <location filename="../../../src/gui/setaxisthrottledialog.ui" line="20"/>
         <source>The throttle setting for Axis %1 has been changed.
 
 Would you like to distribute this throttle change to all sets?</source>
-        <translation type="unfinished"></translation>
+        <translation>Gasinställningen för axel %1 har ändrats.
+
+Vill du sprida den här gasändringen till alla uppsättningar?</translation>
     </message>
 </context>
 <context>
@@ -5601,7 +5603,7 @@ Would you like to distribute this throttle change to all sets?</source>
     <message>
         <location filename="../../../src/setjoystick.cpp" line="1021"/>
         <source>Set %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning %1: %2</translation>
     </message>
     <message>
         <location filename="../../../src/setjoystick.cpp" line="1023"/>
@@ -5614,12 +5616,12 @@ Would you like to distribute this throttle change to all sets?</source>
     <message>
         <location filename="../../../src/gui/setnamesdialog.ui" line="14"/>
         <source>Set Name Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för uppsättningsnamn</translation>
     </message>
     <message>
         <location filename="../../../src/gui/setnamesdialog.ui" line="60"/>
         <source>Set 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/setnamesdialog.ui" line="65"/>
