@@ -4174,32 +4174,32 @@ per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="688"/>
         <source>Русский</source>
-        <translation type="unfinished"></translation>
+        <translation>Ryska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="693"/>
         <source>српски / srpski</source>
-        <translation type="unfinished"></translation>
+        <translation>Serbiska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="698"/>
         <source>简体中文</source>
-        <translation type="unfinished"></translation>
+        <translation>Kinesiska (förenklad han-skrift)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="703"/>
         <source>Español</source>
-        <translation type="unfinished"></translation>
+        <translation>Spanska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="708"/>
         <source>українська</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukrainska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="713"/>
         <source>Polski</source>
-        <translation type="unfinished"></translation>
+        <translation>Polska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="721"/>
@@ -4215,17 +4215,17 @@ per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="996"/>
         <source>History Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>Historik&amp;storlek:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1022"/>
         <source>Weight Modi&amp;fier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Viktmodi&amp;fierare:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1302"/>
         <source>Log File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Loggfil:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1321"/>
@@ -4235,7 +4235,7 @@ per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1358"/>
         <source>Log Level:</source>
-        <translation type="unfinished"></translation>
+        <translation>Loggnivå:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1372"/>
@@ -4245,12 +4245,12 @@ per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1377"/>
         <source>Error</source>
-        <translation type="unfinished"></translation>
+        <translation>Fel</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1382"/>
         <source>Warning</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1387"/>
@@ -4265,27 +4265,27 @@ per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1397"/>
         <source>Debug</source>
-        <translation type="unfinished"></translation>
+        <translation>Felsökning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1453"/>
         <source>Note: To see the change of log level in console output (not in log file), application restart is required</source>
-        <translation type="unfinished"></translation>
+        <translation>Obs: Programmet måste startas om för att ändrad loggnivå ska visas i konsolutdata (inte i loggfilen)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1507"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="861"/>
         <source>Class</source>
-        <translation type="unfinished"></translation>
+        <translation>Klass</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="145"/>
         <source>Pro&amp;file Directory:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pro&amp;filkatalog:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="356"/>
@@ -4300,12 +4300,12 @@ per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="866"/>
         <source>Title</source>
-        <translation type="unfinished"></translation>
+        <translation>Titel</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="871"/>
         <source>Program</source>
-        <translation type="unfinished"></translation>
+        <translation>Program</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="959"/>
@@ -4313,22 +4313,25 @@ per sekund.</translation>
 while AntiMicroX is running. Disabling &quot;Enhanced Pointer Precision&quot;
 will allow mouse movement within AntiMicroX to be more
 precise.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera Windows-inställningen ”Förbättrad pekarprecision”
+medan AntiMicroX körs. När ”Förbättrad pekarprecision”
+inaktiveras kan musrörelser i AntiMicroX bli mer
+exakta.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="965"/>
         <source>Disable Enhance Pointer Precision</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera förbättrad pekarprecision</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="975"/>
         <source>Smoothing</source>
-        <translation type="unfinished"></translation>
+        <translation>Utjämning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1055"/>
         <source>Refresh Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdateringsfrekvens:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1062"/>
