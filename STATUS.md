@@ -211,9 +211,9 @@ OSGeo Weblate är nu indexerat via den inloggade officiella vyn. Direkta API-anr
 
 GitHub-releasekontrollen omfattade 77 översättningsprojekt med verifierbar uppströmsadress den 10 september: 46 från befintliga GitHub-länkar i loggen och 31 ytterligare från lokala arbetskopiors `origin`. 74 har en release yngre än två år eller aktiv uppströmsgren utan GitHub Releases; de tre ovan uppfyller nedprioriteringsregeln. Två lokala svenska språkresurser (referensverktygen `svensktext` och `awesome-swedish-nlp`) räknas inte som översättningsprojekt. Plattformsexklusiva projekt verifieras successivt mot deras deklarerade uppströmsförvar/releasekanal.
 
-## PR-kontroll 2026-09-17
+## PR-kontroll 2026-09-18
 
-Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes igen den 17 september; **56** av dem är länkade i detta dokument. Fördelningen är 55 `CLEAN`, 30 `BLOCKED`, 9 `UNSTABLE`, 4 `DIRTY` och 2 `BEHIND`. Tre exponerade kontroller kräver bevakning: LanguageTools CircleCI-jobb misslyckas innan språkreglerna testas, Canonical authd:s gamla CLA-kontroll är röd trots att projektet ännu saknar l10n-stöd, och OpenClaws avbrutna hjälpkontroller kommer från en ersatt körning. De är inte nya belagda fel i svenska språkfiler. Fyra FreeRDP-PR:er har aktiva granskningskommentarer; endast #13367 är l10n-infrastruktur. `CLEAN`, `UNSTABLE`, `BEHIND` och `DIRTY` är GitHubs sammanslagningssignaler, inte en fristående språkdom. En sammanslagen PR räknas som mottagen; en stängd PR räknas aldrig som inskickad utan ersättande aktiv PR eller officiellt plattformsflöde.
+Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes den 18 september genom GitHubs PR-API. Fördelningen är **53 `CLEAN`**, **22 `UNKNOWN`**, **13 `BLOCKED`**, **6 `UNSTABLE`**, **4 `DIRTY`** och **2 `BEHIND`**. Nineteen PR:er kräver granskning och fyra har begärda ändringar, främst i FreeRDP-serien. De enda aktuella felande kontrollerna är OpenClaws `dispatch`, `label` och `actionlint`, samt Canonical authd:s CLA-kontroll. Inga av de andra 98 PR:erna har en felande eller väntande exponerad GitHub-kontroll. `UNKNOWN` är GitHubs sammanslagningssignal och inte i sig ett språkfel. PR-data sparas i `PR-AUDIT-20260918.json`.
 
 | Projekt | PR | Aktuellt läge |
 |---|---|---|
