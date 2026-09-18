@@ -1,0 +1,560 @@
+[
+  {
+    "id": 206258702,
+    "source": [
+      "Peak cannot start before the drink window"
+    ],
+    "target": [
+      "Drickfönstrets topp kan inte börja före drickfönstret"
+    ],
+    "context": "addBottle.peakBeforeWindow",
+    "state": 20
+  },
+  {
+    "id": 206258703,
+    "source": [
+      "Peak cannot end after the drink window"
+    ],
+    "target": [
+      "Drickfönstrets topp kan inte sluta efter drickfönstret"
+    ],
+    "context": "addBottle.peakAfterWindow",
+    "state": 20
+  },
+  {
+    "id": 206258704,
+    "source": [
+      "Your photo"
+    ],
+    "target": [
+      "Ditt foto"
+    ],
+    "context": "addBottle.scanYourPhoto",
+    "state": 20
+  },
+  {
+    "id": 206258705,
+    "source": [
+      "In our registry"
+    ],
+    "target": [
+      "I vårt register"
+    ],
+    "context": "addBottle.scanRegistryPhoto",
+    "state": 20
+  },
+  {
+    "id": 206258706,
+    "source": [
+      "We couldn't read everything from the front label. Snap the back label to fill the gaps?"
+    ],
+    "target": [
+      "Vi kunde inte läsa allt på frametiketten. Vill du fotografera baksidesetiketten för att fylla i luckorna?"
+    ],
+    "context": "addBottle.backScanPrompt",
+    "state": 20
+  },
+  {
+    "id": 206258707,
+    "source": [
+      "Scan the back label"
+    ],
+    "target": [
+      "Skanna baksidesetiketten"
+    ],
+    "context": "addBottle.backScanCta",
+    "state": 20
+  },
+  {
+    "id": 206258708,
+    "source": [
+      "Skip"
+    ],
+    "target": [
+      "Hoppa över"
+    ],
+    "context": "addBottle.backScanSkip",
+    "state": 20
+  },
+  {
+    "id": 206258709,
+    "source": [
+      "Front and back label disagree on: {{fields}} — we kept the front."
+    ],
+    "target": [
+      "Fram- och baksidesetiketten skiljer sig åt för: {{fields}} – vi behöll frametikettens uppgifter."
+    ],
+    "context": "addBottle.backScanConflicts",
+    "state": 20
+  },
+  {
+    "id": 206258710,
+    "source": [
+      "The producer we read looks like label text (a place or style term) rather than a winery name — please check that box. The back label usually shows the real producer."
+    ],
+    "target": [
+      "Producenten vi läste in ser ut som etiketttext (en plats- eller stilbeteckning) snarare än ett vingårdsnamn – kontrollera det fältet. Baksidesetiketten visar oftast den riktiga producenten."
+    ],
+    "context": "addBottle.producerSuspectNote",
+    "state": 20
+  },
+  {
+    "id": 206258711,
+    "source": [
+      "Wine name and country are required."
+    ],
+    "target": [
+      "Vinnamn och land krävs."
+    ],
+    "context": "addBottle.scanNameCountryRequired",
+    "state": 20
+  },
+  {
+    "id": 206258712,
+    "source": [
+      "Leave empty if not readable"
+    ],
+    "target": [
+      "Lämna tomt om det inte går att läsa"
+    ],
+    "context": "addBottle.scanProducerOptionalPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206258713,
+    "source": [
+      "Similar wine already in the registry: {{name}} ({{percent}}% match)"
+    ],
+    "target": [
+      "Liknande vin finns redan i registret: {{name}} ({{percent}} % matchning)"
+    ],
+    "context": "addBottle.scanRegistryMatch",
+    "state": 20
+  },
+  {
+    "id": 206258714,
+    "source": [
+      "We think this is your wine"
+    ],
+    "target": [
+      "Vi tror att det här är ditt vin"
+    ],
+    "context": "addBottle.aiIdentifiedTitle",
+    "state": 20
+  },
+  {
+    "id": 206258715,
+    "source": [
+      "This wine isn't in our registry yet. Check the details — we'll add it to the shared registry when you continue."
+    ],
+    "target": [
+      "Det här vinet finns inte i vårt register ännu. Kontrollera uppgifterna – vi lägger till det i det delade registret när du fortsätter."
+    ],
+    "context": "addBottle.aiIdentifiedHint",
+    "state": 20
+  },
+  {
+    "id": 206258716,
+    "source": [
+      "This wine is already in our registry — using it won't create a duplicate."
+    ],
+    "target": [
+      "Det här vinet finns redan i vårt register – att använda det skapar ingen dubblett."
+    ],
+    "context": "addBottle.aiMatchHint",
+    "state": 20
+  },
+  {
+    "id": 206258717,
+    "source": [
+      "Looks right — add it"
+    ],
+    "target": [
+      "Ser rätt ut – lägg till det"
+    ],
+    "context": "addBottle.aiAddAndUse",
+    "state": 20
+  },
+  {
+    "id": 206258718,
+    "source": [
+      "{{percent}}% confident"
+    ],
+    "target": [
+      "{{percent}} % säker"
+    ],
+    "context": "addBottle.aiConfidence",
+    "state": 20
+  },
+  {
+    "id": 206258719,
+    "source": [
+      "Already in the registry — did you mean one of these?"
+    ],
+    "target": [
+      "Finns redan i registret – menade du något av dessa?"
+    ],
+    "context": "addBottle.aiSimilarTitle",
+    "state": 20
+  },
+  {
+    "id": 206258720,
+    "source": [
+      "This applies to the bottle you are adding.",
+      "These details apply to all {{count}} bottles."
+    ],
+    "target": [
+      "Detta gäller flaskan du lägger till.",
+      "Dessa uppgifter gäller alla {{count}} flaskor."
+    ],
+    "context": "addBottle.detailsApplyToAll",
+    "state": 20
+  },
+  {
+    "id": 206258721,
+    "source": [
+      "producer being confirmed"
+    ],
+    "target": [
+      "producenten bekräftas"
+    ],
+    "context": "bottleDetail.producerPending",
+    "state": 20
+  },
+  {
+    "id": 206258722,
+    "source": [
+      "Reservation"
+    ],
+    "target": [
+      "Reservation"
+    ],
+    "context": "bottleDetail.reservationLabel",
+    "state": 20
+  },
+  {
+    "id": 206258723,
+    "source": [
+      "Held back — excluded from drink suggestions."
+    ],
+    "target": [
+      "Undanlagd – tas inte med i dryckesförslagen."
+    ],
+    "context": "bottleDetail.reservationHint",
+    "state": 20
+  },
+  {
+    "id": 206258724,
+    "source": [
+      "Reserved for {{who}} (until {{year}})"
+    ],
+    "target": [
+      "Reserverad för {{who}} (till {{year}})"
+    ],
+    "context": "bottleDetail.reservedForUntil",
+    "state": 20
+  },
+  {
+    "id": 206258725,
+    "source": [
+      "Reserved for {{who}}"
+    ],
+    "target": [
+      "Reserverad för {{who}}"
+    ],
+    "context": "bottleDetail.reservedForOnly",
+    "state": 20
+  },
+  {
+    "id": 206258726,
+    "source": [
+      "Reserved until {{year}}"
+    ],
+    "target": [
+      "Reserverad till {{year}}"
+    ],
+    "context": "bottleDetail.reservedUntilOnly",
+    "state": 20
+  },
+  {
+    "id": 206258727,
+    "source": [
+      "Reserved for"
+    ],
+    "target": [
+      "Reserverad för"
+    ],
+    "context": "bottleDetail.reservedForLabel",
+    "state": 20
+  },
+  {
+    "id": 206258728,
+    "source": [
+      "e.g. Elias's 18th birthday"
+    ],
+    "target": [
+      "t.ex. Elias 18-årsdag"
+    ],
+    "context": "bottleDetail.reservedForPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206258729,
+    "source": [
+      "Reserved until (year)"
+    ],
+    "target": [
+      "Reserverad till (år)"
+    ],
+    "context": "bottleDetail.reservedUntilLabel",
+    "state": 20
+  },
+  {
+    "id": 206258730,
+    "source": [
+      "e.g. 2034"
+    ],
+    "target": [
+      "t.ex. 2034"
+    ],
+    "context": "bottleDetail.reservedUntilPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206258731,
+    "source": [
+      "Mark this bottle as spoken for — it will be excluded from drink suggestions and you'll get a heads-up when the year arrives. Clear both fields to remove the reservation."
+    ],
+    "target": [
+      "Markera flaskan som reserverad – den tas inte med i dryckesförslagen och du får en påminnelse när året kommer. Rensa båda fälten för att ta bort reservationen."
+    ],
+    "context": "bottleDetail.reservationEditHint",
+    "state": 20
+  },
+  {
+    "id": 206258732,
+    "source": [
+      "Reserved-until must be a whole year between {{min}} and {{max}}"
+    ],
+    "target": [
+      "Året för ”reserverad till” måste vara ett helt år mellan {{min}} och {{max}}"
+    ],
+    "context": "bottleDetail.reservedUntilInvalid",
+    "state": 20
+  },
+  {
+    "id": 206258733,
+    "source": [
+      "Also apply the drink window and price to the other bottle of this wine and vintage",
+      "Also apply the drink window and price to the other {{count}} bottles of this wine and vintage"
+    ],
+    "target": [
+      "Tillämpa även drickfönster och pris på den andra flaskan av detta vin och denna årgång",
+      "Tillämpa även drickfönster och pris på de andra {{count}} flaskorna av detta vin och denna årgång"
+    ],
+    "context": "bottleDetail.applyToLot",
+    "state": 20
+  },
+  {
+    "id": 206258734,
+    "source": [
+      "Only the drink window, price and currency you change in this save are copied. Rating, notes, reservation and rack slot stay per bottle."
+    ],
+    "target": [
+      "Endast drickfönster, pris och valuta som du ändrar i den här sparningen kopieras. Betyg, anteckningar, reservation och hyllplats finns kvar per flaska."
+    ],
+    "context": "bottleDetail.applyToLotHint",
+    "state": 20
+  },
+  {
+    "id": 206258735,
+    "source": [
+      "Applied to {{count}} other bottle of this wine and vintage.",
+      "Applied to {{count}} other bottles of this wine and vintage."
+    ],
+    "target": [
+      "Tillämpades på {{count}} annan flaska av detta vin och denna årgång.",
+      "Tillämpades på {{count}} andra flaskor av detta vin och denna årgång."
+    ],
+    "context": "bottleDetail.lotApplied",
+    "state": 20
+  },
+  {
+    "id": 206258736,
+    "source": [
+      "{{count}} bottle was skipped — already consumed, or its own years conflict.",
+      "{{count}} bottles were skipped — already consumed, or their own years conflict."
+    ],
+    "target": [
+      "{{count}} flaska hoppades över – den är redan drucken eller har motstridiga egna år.",
+      "{{count}} flaskor hoppades över – de är redan druckna eller har motstridiga egna år."
+    ],
+    "context": "bottleDetail.lotSkipped",
+    "state": 20
+  },
+  {
+    "id": 206258737,
+    "source": [
+      "Nothing to copy to the other bottles: the drink window and price did not change."
+    ],
+    "target": [
+      "Det finns inget att kopiera till de andra flaskorna: drickfönstret och priset ändrades inte."
+    ],
+    "context": "bottleDetail.lotNothing",
+    "state": 20
+  },
+  {
+    "id": 206258738,
+    "source": [
+      "This bottle is saved, but applying to the other bottles failed: {{error}}"
+    ],
+    "target": [
+      "Flaskan är sparad, men det gick inte att tillämpa ändringarna på de andra flaskorna: {{error}}"
+    ],
+    "context": "bottleDetail.lotFailed",
+    "state": 20
+  },
+  {
+    "id": 206258739,
+    "source": [
+      "This bottle is {{reservation}}. Removing it will end that plan — continue only if you're sure."
+    ],
+    "target": [
+      "Den här flaskan är {{reservation}}. Om du tar bort den avslutas reservationen – fortsätt bara om du är säker."
+    ],
+    "context": "bottleDetail.consumeReservedWarning",
+    "state": 20
+  },
+  {
+    "id": 206258740,
+    "source": [
+      "Early — peak from {{year}}"
+    ],
+    "target": [
+      "Tidig – topp från {{year}}"
+    ],
+    "context": "bottleDetail.personalEarly",
+    "state": 20
+  },
+  {
+    "id": 206258741,
+    "source": [
+      "Late — past its peak"
+    ],
+    "target": [
+      "Sen – efter sin topp"
+    ],
+    "context": "bottleDetail.personalLate",
+    "state": 20
+  },
+  {
+    "id": 206258742,
+    "source": [
+      "A curator has a question about this wine"
+    ],
+    "target": [
+      "En registerförvaltare har en fråga om det här vinet"
+    ],
+    "context": "bottleDetail.ownerInquiry.title",
+    "state": 20
+  },
+  {
+    "id": 206258743,
+    "source": [
+      "You own a bottle of it, so you can check what research cannot. Answering is optional; only registry curators see your answer."
+    ],
+    "target": [
+      "Du äger en flaska av det och kan därför kontrollera sådant som forskning inte kan avgöra. Det är frivilligt att svara, och bara registerförvaltare kan se svaret."
+    ],
+    "context": "bottleDetail.ownerInquiry.intro",
+    "state": 20
+  },
+  {
+    "id": 206258744,
+    "source": [
+      "e.g. The label says “E. Pira e Figli — Chiara Boschis” on the front."
+    ],
+    "target": [
+      "t.ex. På framsidan av etiketten står det ”E. Pira e Figli – Chiara Boschis”."
+    ],
+    "context": "bottleDetail.ownerInquiry.placeholder",
+    "state": 20
+  },
+  {
+    "id": 206258745,
+    "source": [
+      "Send answer"
+    ],
+    "target": [
+      "Skicka svar"
+    ],
+    "context": "bottleDetail.ownerInquiry.send",
+    "state": 20
+  },
+  {
+    "id": 206258746,
+    "source": [
+      "Sending…"
+    ],
+    "target": [
+      "Skickar …"
+    ],
+    "context": "bottleDetail.ownerInquiry.sending",
+    "state": 20
+  },
+  {
+    "id": 206258747,
+    "source": [
+      "Could not send your answer — please try again."
+    ],
+    "target": [
+      "Det gick inte att skicka ditt svar – försök igen."
+    ],
+    "context": "bottleDetail.ownerInquiry.sendError",
+    "state": 20
+  },
+  {
+    "id": 206258748,
+    "source": [
+      "Thank you — your answer was sent to the curators and helps keep the shared registry accurate."
+    ],
+    "target": [
+      "Tack – ditt svar skickades till registerförvaltarna och hjälper till att hålla det delade registret korrekt."
+    ],
+    "context": "bottleDetail.ownerInquiry.thanks",
+    "state": 20
+  },
+  {
+    "id": 206258749,
+    "source": [
+      "One answer per owner — it cannot be edited after sending."
+    ],
+    "target": [
+      "Ett svar per ägare – det kan inte redigeras efter att det skickats."
+    ],
+    "context": "bottleDetail.ownerInquiry.oneShot",
+    "state": 20
+  },
+  {
+    "id": 206258750,
+    "source": [
+      "A curator replied about this wine"
+    ],
+    "target": [
+      "En registerförvaltare har svarat om det här vinet"
+    ],
+    "context": "bottleDetail.ownerInquiry.replyTitle",
+    "state": 20
+  },
+  {
+    "id": 206258751,
+    "source": [
+      "You answered a question about this wine — here is what came of it. Thank you: the shared registry is more accurate because you checked."
+    ],
+    "target": [
+      "Du svarade på en fråga om det här vinet – här ser du resultatet. Tack: det delade registret är mer korrekt eftersom du kontrollerade det."
+    ],
+    "context": "bottleDetail.ownerInquiry.replyIntro",
+    "state": 20
+  }
+]
