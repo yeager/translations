@@ -3721,31 +3721,31 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Quit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avsluta</translation>
     </message>
     <message>
         <source>&amp;Select All</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Markera allt</translation>
     </message>
     <message>
         <source>&amp;Invert Selection</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Invertera markering</translation>
     </message>
     <message>
         <source>&amp;Undo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ångra</translation>
     </message>
     <message>
         <source>&amp;Redo</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gör om</translation>
     </message>
     <message>
         <source>&amp;Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klipp ut</translation>
     </message>
     <message>
         <source>&amp;Copy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopiera</translation>
     </message>
     <message>
         <source>&amp;Paste</source>
@@ -3753,11 +3753,11 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Merge</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sammanfoga</translation>
     </message>
     <message>
         <source>&amp;Paste Into</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Klistra in i</translation>
     </message>
     <message>
         <source>Paste RGBA Values</source>
@@ -3765,27 +3765,27 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort</translation>
     </message>
     <message>
         <source>&amp;Insert</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Infoga</translation>
     </message>
     <message>
         <source>&amp;Group</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gruppera</translation>
     </message>
     <message>
         <source>&amp;Ungroup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dela upp grupp</translation>
     </message>
     <message>
         <source>&amp;Bring to Front</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lägg längst fram</translation>
     </message>
     <message>
         <source>&amp;Bring Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Flytta framåt</translation>
     </message>
     <message>
         <source>&amp;Send Back</source>
@@ -3793,71 +3793,71 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Send Backward</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Flytta bakåt</translation>
     </message>
     <message>
         <source>&amp;Enter Group</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gå in i grupp</translation>
     </message>
     <message>
         <source>&amp;Exit Group</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Avsluta grupp</translation>
     </message>
     <message>
         <source>&amp;Remove Vector Overflow</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort vektoröverskott</translation>
     </message>
     <message>
         <source>&amp;Define Scanner...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ange bildläsare...</translation>
     </message>
     <message>
         <source>&amp;Scan Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bildläsarinställningar...</translation>
     </message>
     <message>
         <source>&amp;Scan</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Läs in</translation>
     </message>
     <message>
         <source>&amp;Set Cropbox</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ange beskärningsruta</translation>
     </message>
     <message>
         <source>&amp;Reset Cropbox</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Återställ beskärningsruta</translation>
     </message>
     <message>
         <source>&amp;Cleanup Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Renritningsinställningar...</translation>
     </message>
     <message>
         <source>&amp;Preview Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Förhandsvisa renritning</translation>
     </message>
     <message>
         <source>&amp;Camera Test</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kameratest</translation>
     </message>
     <message>
         <source>&amp;Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Renritning</translation>
     </message>
     <message>
         <source>&amp;Add Frames...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lägg till bildrutor...</translation>
     </message>
     <message>
         <source>&amp;Renumber...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Numrera om...</translation>
     </message>
     <message>
         <source>&amp;Replace Level...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ersätt nivå...</translation>
     </message>
     <message>
         <source>&amp;Revert to Cleaned Up</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Återställ till renritad</translation>
     </message>
     <message>
         <source>&amp;Revert to Last Saved Version</source>
@@ -3865,103 +3865,103 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>&amp;Expose in Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Exponera i XSheet</translation>
     </message>
     <message>
         <source>&amp;Display in Level Strip</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visa i nivåremsa</translation>
     </message>
     <message>
         <source>&amp;Level Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nivåinställningar...</translation>
     </message>
     <message>
         <source>&amp;Brightness and Contrast...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ljusstyrka och kontrast...</translation>
     </message>
     <message>
         <source>&amp;Color Fade...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Färgtoning...</translation>
     </message>
     <message>
         <source>&amp;Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fånga</translation>
     </message>
     <message>
         <source>&amp;Canvas Size...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dukstorlek...</translation>
     </message>
     <message>
         <source>&amp;Info...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Information...</translation>
     </message>
     <message>
         <source>&amp;View...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visa...</translation>
     </message>
     <message>
         <source>&amp;Remove All Unused Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort alla oanvända nivåer</translation>
     </message>
     <message>
         <source>&amp;Scene Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sceninställningar...</translation>
     </message>
     <message>
         <source>&amp;Camera Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kamerainställningar...</translation>
     </message>
     <message>
         <source>&amp;Open Sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Öppna under-XSheet</translation>
     </message>
     <message>
         <source>&amp;Close Sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stäng under-XSheet</translation>
     </message>
     <message>
         <source>Explode Sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Dela upp under-XSheet</translation>
     </message>
     <message>
         <source>Collapse</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäll ihop</translation>
     </message>
     <message>
         <source>&amp;Save Sub-xsheet As...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spara under-XSheet som...</translation>
     </message>
     <message>
         <source>Resequence</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordna om sekvens</translation>
     </message>
     <message>
         <source>Clone Sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Klona under-XSheet</translation>
     </message>
     <message>
         <source>&amp;Apply Match Lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tillämpa matchningslinjer...</translation>
     </message>
     <message>
         <source>&amp;Delete Match Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort matchningslinjer</translation>
     </message>
     <message>
         <source>&amp;Delete Lines...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ta bort linjer...</translation>
     </message>
     <message>
         <source>&amp;Merge Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sammanfoga nivåer</translation>
     </message>
     <message>
         <source>&amp;New FX...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ny FX...</translation>
     </message>
     <message>
         <source>&amp;New Output</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ny utdata</translation>
     </message>
     <message>
         <source>&amp;Edit FX...</source>
@@ -3969,15 +3969,15 @@ Använd bildrutenumren som referens.</translation>
     </message>
     <message>
         <source>Insert Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga bildruta</translation>
     </message>
     <message>
         <source>Remove Frame</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort bildruta</translation>
     </message>
     <message>
         <source>Insert Multiple Keys</source>
-        <translation type="unfinished"></translation>
+        <translation>Infoga flera nyckelbilder</translation>
     </message>
     <message>
         <source>Remove Multiple Keys</source>
