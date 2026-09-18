@@ -1102,7 +1102,7 @@ för alla standardprofiler.</translation>
     <message>
         <location filename="../../../src/gui/advancebuttondialog.cpp" line="1488"/>
         <source>Config Files (*.amgp *.xml)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurationsfiler (*.amgp *.xml)</translation>
     </message>
 </context>
 <context>
@@ -1110,33 +1110,33 @@ för alla standardprofiler.</translation>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="20"/>
         <source>Stick/Pad Assignment</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilldelning av styrspak/riktningsplatta</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="41"/>
         <source>Sticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspakar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="46"/>
         <source>DPads</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsplattor</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="85"/>
         <source>Note: This window is meant for backwards compatibility with profiles made before antimicro 2.0. Since version 2.0, use of the Game Controller Mapping window is preferred.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obs: Det här fönstret är avsett för bakåtkompatibilitet med profiler som skapades före antimicro 2.0. Sedan version 2.0 rekommenderas i stället fönstret för handkontrollmappning.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="101"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="358"/>
         <source>%1 (Joystick %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (Styrspak %2)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="124"/>
         <source>Stick 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspak 1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="134"/>
@@ -1153,54 +1153,54 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="535"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="545"/>
         <source>Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilldela</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="186"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="308"/>
         <source>X Axis:</source>
-        <translation type="unfinished"></translation>
+        <translation>X-axel:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="204"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="326"/>
         <source>Y Axis:</source>
-        <translation type="unfinished"></translation>
+        <translation>Y-axel:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="246"/>
         <source>Stick 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspak 2</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="371"/>
         <source>Number of Physical DPads: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal fysiska riktningsplattor: %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="402"/>
         <source>Virtual DPad 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Virtuell riktningsplatta 1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="498"/>
         <source>Up:</source>
-        <translation type="unfinished"></translation>
+        <translation>Upp:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="463"/>
         <source>Down:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ned:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="477"/>
         <source>Left:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.ui" line="491"/>
         <source>Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="65"/>
@@ -1208,7 +1208,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="68"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="69"/>
         <source>Axis %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="408"/>
@@ -1216,7 +1216,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="410"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="411"/>
         <source>Axis %1 -</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel %1 -</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="417"/>
@@ -1224,7 +1224,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="419"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="420"/>
         <source>Axis %1 +</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel %1 +</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="430"/>
@@ -1232,27 +1232,27 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="432"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="433"/>
         <source>Button %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Knapp %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="764"/>
         <source>Move stick 1 along the X axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta styrspak 1 längs X-axeln</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="780"/>
         <source>Move stick 1 along the Y axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta styrspak 1 längs Y-axeln</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="814"/>
         <source>Move stick 2 along the X axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta styrspak 2 längs X-axeln</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="830"/>
         <source>Move stick 2 along the Y axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta styrspak 2 längs Y-axeln</translation>
     </message>
     <message>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="869"/>
@@ -1260,7 +1260,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="991"/>
         <location filename="../../../src/gui/advancestickassignmentdialog.cpp" line="1054"/>
         <source>Press a button or move an axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Tryck på en knapp eller flytta en axel</translation>
     </message>
 </context>
 <context>
@@ -1268,13 +1268,13 @@ för alla standardprofiler.</translation>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="32"/>
         <source>Axis</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="77"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="635"/>
         <source>Mouse (Horizontal)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mus (vågrät)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="82"/>
@@ -1286,7 +1286,7 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/axiseditdialog.ui" line="87"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="637"/>
         <source>Mouse (Vertical)</source>
-        <translation type="unfinished"></translation>
+        <translation>Mus (lodrät)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="92"/>
@@ -1298,37 +1298,37 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/axiseditdialog.ui" line="97"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="639"/>
         <source>Arrows: Up | Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Piltangenter: Upp | Ned</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="102"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="640"/>
         <source>Arrows: Left | Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Piltangenter: Vänster | Höger</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="107"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="641"/>
         <source>Keys: W | S</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangenter: W | S</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="112"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="642"/>
         <source>Keys: A | D</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangenter: A | D</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="117"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="643"/>
         <source>NumPad: KP_8 | KP_2</source>
-        <translation type="unfinished"></translation>
+        <translation>Numeriskt tangentbord: KP_8 | KP_2</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="122"/>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="644"/>
         <source>NumPad: KP_4 | KP_6</source>
-        <translation type="unfinished"></translation>
+        <translation>Numeriskt tangentbord: KP_4 | KP_6</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="127"/>
@@ -1343,17 +1343,18 @@ för alla standardprofiler.</translation>
         <location filename="../../../src/gui/axiseditdialog.ui" line="277"/>
         <source>Set the value to use as the limit for an axis. Useful for a
 worn out analog stick.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange värdet som ska användas som gräns för en axel. Användbart för en
+sliten analog styrspak.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="388"/>
         <source>Negative Half Throttle</source>
-        <translation type="unfinished"></translation>
+        <translation>Negativ halvgas</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="408"/>
         <source>Positive Half Throttle</source>
-        <translation type="unfinished"></translation>
+        <translation>Positiv halvgas</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="416"/>
@@ -1363,12 +1364,12 @@ worn out analog stick.</source>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="523"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="533"/>
         <source>Specify the name of an axis.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange namnet på en axel.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="542"/>
@@ -1379,7 +1380,7 @@ worn out analog stick.</source>
         <location filename="../../../src/gui/axiseditdialog.ui" line="206"/>
         <location filename="../../../src/gui/axiseditdialog.ui" line="261"/>
         <source>Set the value of the dead zone for an axis.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange värdet för en axels dödzon.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="52"/>
@@ -1406,12 +1407,13 @@ worn out analog stick.</source>
         <location filename="../../../src/gui/axiseditdialog.ui" line="374"/>
         <source>Throttle setting that determines the behavior of how to
 interpret an axis hold or release.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gasinställning som avgör hur en axel som hålls i läge eller släpps ska
+tolkas.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="393"/>
         <source>Negative Throttle</source>
-        <translation type="unfinished"></translation>
+        <translation>Negativ gas</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="398"/>
@@ -1421,12 +1423,12 @@ interpret an axis hold or release.</source>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="403"/>
         <source>Positive Throttle</source>
-        <translation type="unfinished"></translation>
+        <translation>Positiv gas</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.ui" line="477"/>
         <source>Current Value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuellt värde:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="606"/>
@@ -1441,12 +1443,12 @@ interpret an axis hold or release.</source>
     <message>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="652"/>
         <source>Left Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster musknapp</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="653"/>
         <source>Right Mouse Button</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger musknapp</translation>
     </message>
     <message>
         <location filename="../../../src/gui/axiseditdialog.cpp" line="661"/>
@@ -1479,7 +1481,7 @@ interpret an axis hold or release.</source>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="44"/>
         <source>To make a new assignment, press any keyboard key or click a button in the Keyboard or Mouse tab</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du vill göra en ny tilldelning trycker du på valfri tangent eller klickar på en knapp på fliken Tangentbord eller Mus</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="70"/>
@@ -1494,12 +1496,12 @@ interpret an axis hold or release.</source>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="96"/>
         <source>Enables a key press or release to only occur when a controller button is pressed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gör att ett tangentnedtryck eller -släpp endast sker när en handkontrollsknapp trycks ned.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="124"/>
         <source>Enables rapid key presses and releases. Turbo controller.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiverar snabba tangentnedtryckningar och -släpp. Turbohandkontroll.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="127"/>
@@ -1519,12 +1521,12 @@ interpret an axis hold or release.</source>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="186"/>
         <source>Last keyboard/mouse button:</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste tangentbords-/musknapp:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="193"/>
         <source>Slots</source>
-        <translation type="unfinished"></translation>
+        <translation>Platser</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="223"/>
@@ -1534,18 +1536,18 @@ interpret an axis hold or release.</source>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="233"/>
         <source>Specify the name of a button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange namnet på en knapp.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="250"/>
         <source>Action:</source>
-        <translation type="unfinished"></translation>
+        <translation>Åtgärd:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="260"/>
         <source>Specify the action that will be performed in game while
 this button is being used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange åtgärden som ska utföras i spelet medan den här knappen används.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="287"/>
@@ -1556,12 +1558,12 @@ this button is being used.</source>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="62"/>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="509"/>
         <source>Choose your keyboard key</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj tangent på tangentbordet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="320"/>
         <source>No button</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen knapp</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="329"/>
@@ -1569,47 +1571,47 @@ this button is being used.</source>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="397"/>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="477"/>
         <source>Last button</source>
-        <translation type="unfinished"></translation>
+        <translation>Senaste knapp</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="330"/>
         <source>To change settings for last button, it must be at least one assignment from keyboard to gamepad</source>
-        <translation type="unfinished"></translation>
+        <translation>För att ändra inställningarna för den senaste knappen måste minst en tangent ha mappats till handkontrollen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="340"/>
         <source>To change settings of turbo for last button, it must be at least one assignment from keyboard to gamepad</source>
-        <translation type="unfinished"></translation>
+        <translation>För att ändra turboinställningarna för den senaste knappen måste minst en tangent ha mappats till handkontrollen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="390"/>
         <source>No choice</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget val</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="391"/>
         <source>Before you open window with advanced settings, you have to choose a key</source>
-        <translation type="unfinished"></translation>
+        <translation>Innan du öppnar fönstret med avancerade inställningar måste du välja en tangent</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="398"/>
         <source>To open advanced dialog, it&apos;s needed to map at least one button from keyboard to gamepad</source>
-        <translation type="unfinished"></translation>
+        <translation>För att öppna den avancerade dialogrutan måste minst en tangent mappas till handkontrollen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="478"/>
         <source>Slots for button couldn&apos;t be cleared, because there was not any set button from keyboard for gamepad. Map at least one button from keyboard to gamepad</source>
-        <translation type="unfinished"></translation>
+        <translation>Platser för knappen kunde inte rensas eftersom ingen tangent har mappats till handkontrollen. Mappa minst en tangent till handkontrollen</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="488"/>
         <source>As last gamepad button has been set</source>
-        <translation type="unfinished"></translation>
+        <translation>Har angetts som senaste handkontrollsknapp</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.cpp" line="496"/>
         <source>Index %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Index %1</translation>
     </message>
 </context>
 <context>
@@ -1617,7 +1619,7 @@ this button is being used.</source>
     <message>
         <location filename="../../../src/gui/calibration.ui" line="20"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulär</translation>
     </message>
     <message>
         <location filename="../../../src/gui/calibration.ui" line="71"/>
@@ -1673,7 +1675,7 @@ this button is being used.</source>
         <location filename="../../../src/gui/calibration.cpp" line="457"/>
         <location filename="../../../src/gui/calibration.cpp" line="585"/>
         <source>Start calibration</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta kalibrering</translation>
     </message>
     <message>
         <location filename="../../../src/gui/calibration.ui" line="278"/>
@@ -1683,12 +1685,12 @@ this button is being used.</source>
     <message>
         <location filename="../../../src/gui/calibration.ui" line="238"/>
         <source>Reset settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ inställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/calibration.ui" line="271"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../../../src/gui/calibration.cpp" line="48"/>
