@@ -9964,100 +9964,100 @@ to use the duplicate command in the xsheet / timeline.</source>
     <message>
         <source>Rendering frame %1 / %2</source>
         <comment>RenderListener</comment>
-        <translation type="unfinished"></translation>
+        <translation>Renderar bildruta %1/%2</translation>
     </message>
     <message>
         <source>Precomputing %1 Frames</source>
         <comment>RenderListener</comment>
-        <translation type="unfinished"></translation>
+        <translation>Förberäknar %1 bildrutor</translation>
     </message>
     <message>
         <source> of %1</source>
         <comment>RenderListener</comment>
-        <translation type="unfinished"></translation>
+        <translation> av %1</translation>
     </message>
     <message>
         <source>Finalizing render, please wait.</source>
         <comment>RenderListener</comment>
-        <translation type="unfinished"></translation>
+        <translation>Slutför renderingen, vänta.</translation>
     </message>
     <message>
         <source>Aborting render...</source>
         <comment>RenderListener</comment>
-        <translation type="unfinished"></translation>
+        <translation>Avbryter renderingen …</translation>
     </message>
     <message>
         <source>Building Schematic...</source>
         <comment>RenderCommand</comment>
-        <translation type="unfinished"></translation>
+        <translation>Skapar schema …</translation>
     </message>
     <message>
         <source>column </source>
         <comment>MultimediaProgressBar label (mode name)</comment>
-        <translation type="unfinished"></translation>
+        <translation>kolumn </translation>
     </message>
     <message>
         <source>layer </source>
         <comment>MultimediaProgressBar label (mode name)</comment>
-        <translation type="unfinished"></translation>
+        <translation>lager </translation>
     </message>
     <message>
         <source>Rendering %1%2, frame %3 / %4</source>
         <comment>MultimediaProgressBar label</comment>
-        <translation type="unfinished"></translation>
+        <translation>Renderar %1%2, bildruta %3/%4</translation>
     </message>
     <message>
         <source>Rendering %1 frames of %2</source>
         <comment>MultimediaProgressBar</comment>
-        <translation type="unfinished"></translation>
+        <translation>Renderar %1 bildrutor av %2</translation>
     </message>
     <message>
         <source>%1 of %2</source>
         <comment>MultimediaProgressBar - [totalframe] of [path]</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1 av %2</translation>
     </message>
     <message>
         <source>Aborting render...</source>
         <comment>MultimediaProgressBar</comment>
-        <translation type="unfinished"></translation>
+        <translation>Avbryter renderingen …</translation>
     </message>
     <message>
         <source>It is not possible to write the output:  the file</source>
         <comment>RenderCommand</comment>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skriva utdata: fil</translation>
     </message>
     <message>
         <source>s are read only.</source>
         <comment>RenderCommand</comment>
-        <translation type="unfinished"></translation>
+        <translation>erna är skrivskyddade.</translation>
     </message>
     <message>
         <source> is read only.</source>
         <comment>RenderCommand</comment>
-        <translation type="unfinished"></translation>
+        <translation> en är skrivskyddad.</translation>
     </message>
     <message>
         <source>Save Cleanup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara inställningar för renritning</translation>
     </message>
     <message>
         <source>Load Cleanup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in inställningar för renritning</translation>
     </message>
     <message>
         <source>It is not possible to find the %1 level.</source>
         <comment>FileData</comment>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att hitta nivån %1.</translation>
     </message>
     <message>
         <source>There was an error copying %1</source>
         <comment>FileData</comment>
-        <translation type="unfinished"></translation>
+        <translation>Ett fel uppstod när %1 kopierades</translation>
     </message>
     <message>
         <source>Clone Level</source>
         <comment>CloneLevelUndo::LevelNamePopup</comment>
-        <translation type="unfinished"></translation>
+        <translation>Klona nivå</translation>
     </message>
     <message>
         <source>Level Name:</source>
