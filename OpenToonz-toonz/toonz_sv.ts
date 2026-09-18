@@ -8356,11 +8356,11 @@ Vill du importera den eller läsa in den från ursprunglig plats?</translation>
     </message>
     <message>
         <source>No saved drawings available for the current selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga sparade ritningar för den aktuella markeringen.</translation>
     </message>
     <message>
         <source>The current selection is invalid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuella markeringen är ogiltig.</translation>
     </message>
     <message>
         <source>Yes</source>
@@ -8376,16 +8376,17 @@ Vill du importera den eller läsa in den från ursprunglig plats?</translation>
     </message>
     <message>
         <source>No more Undo operations available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga fler ångraåtgärder är tillgängliga.</translation>
     </message>
     <message>
         <source>No more Redo operations available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga fler gör om-åtgärder är tillgängliga.</translation>
     </message>
     <message>
         <source>An update is available for this software.
 Visit the Web site for more information.</source>
-        <translation type="unfinished"></translation>
+        <translation>En uppdatering finns för programvaran.
+Besök webbplatsen för mer information.</translation>
     </message>
     <message>
         <source>Quit</source>
@@ -8393,11 +8394,11 @@ Visit the Web site for more information.</source>
     </message>
     <message>
         <source>Scan</source>
-        <translation type="unfinished"></translation>
+        <translation>Skanna</translation>
     </message>
     <message>
         <source>Don&apos;t Scan</source>
-        <translation type="unfinished"></translation>
+        <translation>Skanna inte</translation>
     </message>
     <message>
         <source>Select an empty cell or a sub-xsheet cell.</source>
@@ -8405,60 +8406,65 @@ Visit the Web site for more information.</source>
     </message>
     <message>
         <source>Collapsing columns: what you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Fäller ihop kolumner: vad vill du göra?</translation>
     </message>
     <message>
         <source>Include relevant pegbars in the sub-xsheet as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta även med relevanta tappregister i under-XSheeten.</translation>
     </message>
     <message>
         <source>Include only selected columns in the sub-xsheet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta endast med markerade kolumner i under-XSheeten.</translation>
     </message>
     <message>
         <source>Exploding Sub-xsheet: what you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Delar upp under-XSheet: vad vill du göra?</translation>
     </message>
     <message>
         <source>Bring relevant pegbars in the main xsheet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta med relevanta tappregister i huvud-XSheeten.</translation>
     </message>
     <message>
         <source>Bring only columns in the main xsheet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta endast med kolumner i huvud-XSheeten.</translation>
     </message>
     <message>
         <source>Are you sure you want to override </source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill åsidosätta </translation>
     </message>
     <message>
         <source>Override</source>
-        <translation type="unfinished"></translation>
+        <translation>Åsidosätt</translation>
     </message>
     <message>
         <source>It is not possible to track the level:
 allocation error.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra nivån:
+tilldelningsfel.</translation>
     </message>
     <message>
         <source>It is not possible to track the level:
 no region defined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra nivån:
+inget område har angetts.</translation>
     </message>
     <message>
         <source>It is not possible to track specified regions:
 more than 30 regions defined.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra angivna områden:
+fler än 30 områden har angetts.</translation>
     </message>
     <message>
         <source>It is not possible to track specified regions:
 defined regions are not valid.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra angivna områden:
+de angivna områdena är ogiltiga.</translation>
     </message>
     <message>
         <source>It is not possible to track specified regions:
 some regions are too wide.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att spåra angivna områden:
+vissa områden är för breda.</translation>
     </message>
     <message>
         <source>It is not possible to track specified regions:
