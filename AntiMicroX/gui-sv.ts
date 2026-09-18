@@ -3980,7 +3980,7 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="225"/>
         <source>Gamepad Poll Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Avfrågningsfrekvens för handkontroll:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="232"/>
@@ -3990,52 +3990,62 @@ events from gamepads. Defaults to 10 ms.
 Reducing the poll rate value could cause the application to
 use more CPU power so please test the setting that you use
 before using AntiMicroX unattended.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra avfrågningsfrekvensen som programmet använder för att upptäcka nya
+händelser från handkontroller. Standardvärdet är 10 ms.
+
+Ett lägre intervallvärde kan göra att programmet
+använder mer processorkraft, så testa inställningen du använder
+innan du kör AntiMicroX utan tillsyn.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="246"/>
         <source>Hide main window when the main window close button is
 clicked instead of quitting the program.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj huvudfönstret när huvudfönstrets stängknapp
+klickas i stället för att avsluta programmet.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="250"/>
         <source>Close To Tray</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng till systemfältet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="257"/>
         <source>Have Windows start AntiMicroX at system startup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Låt Windows starta AntiMicroX vid systemstart.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="260"/>
         <source>Launch At Windows Startup</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta vid Windows systemstart</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="267"/>
         <source>Display recent profiles for all controllers
 as a single list in the tray menu. Defaults
 to using sub-menus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa senaste profiler för alla handkontroller
+som en enda lista i systemfältsmenyn. Standard är
+att använda undermenyer.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="272"/>
         <source>Single Profile List in Tray</source>
-        <translation type="unfinished"></translation>
+        <translation>Ensam profillista i systemfältet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="279"/>
         <source>Have the program minimize to the taskbar.
 By default, the program minimizes to the system
 tray if available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Låt programmet minimera till aktivitetsfältet.
+Som standard minimeras programmet till systemfältet
+om det är tillgängligt.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="284"/>
         <source>Minimize to Taskbar</source>
-        <translation type="unfinished"></translation>
+        <translation>Minimera till aktivitetsfältet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="291"/>
@@ -4043,45 +4053,51 @@ tray if available.</source>
 buttons that have no slots assigned to them.
 The Quick Set dialog window will have to be used
 to bring up the edit dialog for gamepad buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det här alternativet gör att programmet döljer alla
+knappar som inte har några tilldelade platser.
+Dialogfönstret Snabbinställning måste användas
+för att öppna redigeringsdialogrutan för handkontrollsknappar.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="297"/>
         <source>Hide Empty Buttons</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj tomma knappar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="304"/>
         <source>When the program is launched, open the last
 known profile that was opened during the
 previous session.</source>
-        <translation type="unfinished"></translation>
+        <translation>När programmet startas öppnas den senast
+använda profil som öppnades under den
+föregående sessionen.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="309"/>
         <source>Auto Load Last Opened Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in senast öppnade profil automatiskt</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="319"/>
         <source>Only show the system tray icon when the program
 first launches.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa endast systemfältsikonen när programmet
+startas första gången.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="323"/>
         <source>Launch in Tray</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta i systemfältet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="330"/>
         <source>Associate .amgp files with AntiMicroX in Windows Explorer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Associera .amgp-filer med AntiMicroX i Utforskaren.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="333"/>
         <source>Associate Profiles</source>
-        <translation type="unfinished"></translation>
+        <translation>Associera profiler</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="343"/>
@@ -4096,61 +4112,64 @@ first launches.</source>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="386"/>
         <source>Key Repeat</source>
-        <translation type="unfinished"></translation>
+        <translation>Tangentrepetition</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="392"/>
         <source>Active keys will be repeatedly pressed when this
 option is enabled.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiva tangenter trycks ned upprepade gånger när det här
+alternativet är aktiverat.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="396"/>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="987"/>
         <source>Enable</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="415"/>
         <source>Specifies how much time should elapse before key repeating
 begins.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger hur lång tid som ska gå innan tangentrepetition
+börjar.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="480"/>
         <source>Specifies how many times key presses will be performed
 per seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger hur många tangentnedtryckningar som ska utföras
+per sekund.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="623"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AntiMicroX has been translated into many different languages by contributors. By default, the program will choose an appropriate translation based on your system&apos;s locale setting. However, you can make AntiMicroX load a different translation depending on the language that you choose from the list below.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;AntiMicroX har översatts till många olika språk av bidragsgivare. Som standard väljer programmet en lämplig översättning utifrån systemets språkinställning. Du kan dock låta AntiMicroX läsa in en annan översättning beroende på vilket språk du väljer i listan nedan.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="658"/>
         <source>Português do Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugisiska (Brasilien)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="668"/>
         <source>Français</source>
-        <translation type="unfinished"></translation>
+        <translation>Franska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="673"/>
         <source>Deutsch</source>
-        <translation type="unfinished"></translation>
+        <translation>Tyska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="678"/>
         <source>Italiano</source>
-        <translation type="unfinished"></translation>
+        <translation>Italienska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="683"/>
         <source>日本語</source>
-        <translation type="unfinished"></translation>
+        <translation>Japanska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="688"/>
