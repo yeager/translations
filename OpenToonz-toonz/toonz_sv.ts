@@ -10062,174 +10062,177 @@ to use the duplicate command in the xsheet / timeline.</source>
     <message>
         <source>Level Name:</source>
         <comment>CloneLevelUndo::LevelNamePopup</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nivånamn:</translation>
     </message>
     <message>
         <source>Collecting assets...</source>
-        <translation type="unfinished"></translation>
+        <translation>Samlar resurser …</translation>
     </message>
     <message>
         <source>Abort</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Importing scenes...</source>
-        <translation type="unfinished"></translation>
+        <translation>Importerar scener …</translation>
     </message>
     <message>
         <source>It is not possible to execute the merge column command because no column was selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att köra kommandot för att sammanfoga kolumner eftersom ingen kolumn har valts.</translation>
     </message>
     <message>
         <source>It is not possible to execute the merge column command because only one columns is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att köra kommandot för att sammanfoga kolumner eftersom endast en kolumn har valts.</translation>
     </message>
     <message>
         <source>It is not possible to apply the match lines because no column was selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att tillämpa passningslinjer eftersom ingen kolumn har valts.</translation>
     </message>
     <message>
         <source>It is not possible to apply the match lines because two columns have to be selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att tillämpa passningslinjer eftersom två kolumner måste väljas.</translation>
     </message>
     <message>
         <source>It is not possible to merge tlv columns because no column was selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att sammanfoga TLV-kolumner eftersom ingen kolumn har valts.</translation>
     </message>
     <message>
         <source>It is not possible to merge tlv columns because at least two columns have to be selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att sammanfoga TLV-kolumner eftersom minst två kolumner måste väljas.</translation>
     </message>
     <message>
         <source>Merging Tlv Levels...</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfogar TLV-nivåer …</translation>
     </message>
     <message>
         <source>Save Previewed Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara förhandsgranskade bilder</translation>
     </message>
     <message>
         <source>The file name cannot be empty or contain any of the following characters:(new line)  \ / : * ? &quot;  |</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamnet får inte vara tomt eller innehålla något av följande tecken:(ny rad)  \ / : * ? &quot;  |</translation>
     </message>
     <message>
         <source>Unsopporter raster format, cannot save</source>
-        <translation type="unfinished"></translation>
+        <translation>Rastformatet stöds inte och kan inte sparas</translation>
     </message>
     <message>
         <source>Cannot create %1 : %2</source>
         <comment>Previewer warning %1:path %2:message</comment>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa %1: %2</translation>
     </message>
     <message>
         <source>Cannot create %1</source>
         <comment>Previewer warning %1:path</comment>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa %1</translation>
     </message>
     <message>
         <source>Saved %1 frames out of %2 in %3</source>
         <comment>Previewer %1:savedframes %2:framecount %3:filepath</comment>
-        <translation type="unfinished"></translation>
+        <translation>Sparade %1 av %2 bildrutor i %3</translation>
     </message>
     <message>
         <source>Canceled! </source>
         <comment>Previewer</comment>
-        <translation type="unfinished"></translation>
+        <translation>Avbrutet! </translation>
     </message>
     <message>
         <source>No frame to save!</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen bildruta att spara!</translation>
     </message>
     <message>
         <source>Already saving!</source>
-        <translation type="unfinished"></translation>
+        <translation>Sparar redan!</translation>
     </message>
     <message>
         <source>Warning!</source>
         <comment>OverwriteDialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Varning!</translation>
     </message>
     <message>
         <source>Overwrite</source>
         <comment>OverwriteDialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över</translation>
     </message>
     <message>
         <source>Skip</source>
         <comment>OverwriteDialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Hoppa över</translation>
     </message>
     <message>
         <source>File &quot;%1&quot; already exists.
 Do you want to overwrite it?</source>
         <comment>OverwriteDialog</comment>
-        <translation type="unfinished"></translation>
+        <translation>Filen ”%1” finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>%1 does not exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 finns inte.</translation>
     </message>
     <message>
         <source>The file %1 already exists.
 Do you want to overwrite it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 finns redan.
+Vill du skriva över den?</translation>
     </message>
     <message>
         <source>The file %1 has been exported successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 har exporterats.</translation>
     </message>
     <message>
         <source>Open containing folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna mappen där filen finns</translation>
     </message>
     <message>
         <source>Please enable &quot;Show Keyframes on Cell Area&quot; to show or hide the camera column.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera ”Visa nyckelbildrutor i cellområdet” för att visa eller dölja kamerakolumnen.</translation>
     </message>
     <message>
         <source>The chosen folder path does not exist.
 Do you want to create it?</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda mappsökvägen finns inte.
+Vill du skapa den?</translation>
     </message>
     <message>
         <source>Create</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa</translation>
     </message>
     <message>
         <source>Edit Level Settings : %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera nivåinställningar: %1</translation>
     </message>
     <message>
         <source>Shift Key Frames Down</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta ned nyckelbildrutor</translation>
     </message>
     <message>
         <source>Shift Key Frames Up</source>
-        <translation type="unfinished"></translation>
+        <translation>Flytta upp nyckelbildrutor</translation>
     </message>
     <message>
         <source>Create Blank Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa tom ritning</translation>
     </message>
     <message>
         <source>Duplicate Drawing</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicera ritning</translation>
     </message>
     <message>
         <source>Unable to create a blank drawing on the camera column</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa en tom ritning i kamerakolumnen</translation>
     </message>
     <message>
         <source>The current column is locked</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuella kolumnen är låst</translation>
     </message>
     <message>
         <source>Cannot create a blank drawing on the current column</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa en tom ritning i den aktuella kolumnen</translation>
     </message>
     <message>
         <source>The current level is not editable</source>
-        <translation type="unfinished"></translation>
+        <translation>Den aktuella nivån kan inte redigeras</translation>
     </message>
     <message>
         <source>Unable to create a blank drawing on the current column</source>
