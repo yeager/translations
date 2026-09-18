@@ -3468,7 +3468,7 @@ functionality to an analog stick.</source>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1109"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2482"/>
         <source>&lt;New&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Ny&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="98"/>
@@ -3479,13 +3479,13 @@ functionality to an analog stick.</source>
         <location filename="../../../src/gui/joytabwidget.cpp" line="109"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1595"/>
         <source>Remove</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="111"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1596"/>
         <source>Remove configuration from recent list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort konfigurationen från listan över senast använda.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="116"/>
@@ -3497,150 +3497,150 @@ functionality to an analog stick.</source>
         <location filename="../../../src/gui/joytabwidget.cpp" line="118"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1599"/>
         <source>Load configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in konfigurationsfil.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="124"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1601"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="126"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1602"/>
         <source>Save changes to configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara ändringarna i konfigurationsfilen.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="131"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1604"/>
         <source>Save As</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara som</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="133"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1605"/>
         <source>Save changes to a new configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara ändringarna i en ny konfigurationsfil.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="322"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1607"/>
         <source>Sets</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="324"/>
         <source>Copy from Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera från uppsättning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="325"/>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="333"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1608"/>
         <source>Set 1</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="337"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1609"/>
         <source>Set 2</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 2</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="341"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1610"/>
         <source>Set 3</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 3</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="345"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1611"/>
         <source>Set 4</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 4</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="349"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1612"/>
         <source>Set 5</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 5</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="353"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1613"/>
         <source>Set 6</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 6</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="357"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1614"/>
         <source>Set 7</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 7</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="361"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1615"/>
         <source>Set 8</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning 8</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="427"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1621"/>
         <source>Stick/Pad Assign</source>
-        <translation type="unfinished"></translation>
+        <translation>Tilldelning av styrspak/riktningsplatta</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="435"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1620"/>
         <source>Controller Mapping</source>
-        <translation type="unfinished"></translation>
+        <translation>Handkontrollmappning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="444"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1622"/>
         <source>Quick Set</source>
-        <translation type="unfinished"></translation>
+        <translation>Snabbinställning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="452"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1625"/>
         <source>Names</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="454"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1626"/>
         <source>Toggle button name displaying.</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa eller dölj knappnamn.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="460"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1628"/>
         <source>Pref</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställn.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="462"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1629"/>
         <source>Change global profile settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra globala profilinställningar.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="466"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1623"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1631"/>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="468"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1632"/>
         <source>Revert changes to the configuration. Reload configuration file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ ändringarna i konfigurationen. Läs in konfigurationsfilen på nytt.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="532"/>
@@ -3650,42 +3650,42 @@ functionality to an analog stick.</source>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="532"/>
         <source>Config Files (*.amgp *.xml)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurationsfiler (*.amgp *.xml)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="640"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="808"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="820"/>
         <source>Config File (*.%1.amgp)</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurationsfil (*.%1.amgp)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="729"/>
         <source>Do you really want to reset buttons settings for joystick?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du verkligen återställa knappinställningarna för styrspaken?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1650"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1711"/>
         <source>Save Profile Changes?</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara profiländringar?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1653"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1715"/>
         <source>Changes to the new profile have not been saved. Would you like to save or discard the current profile?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändringarna i den nya profilen har inte sparats. Vill du spara eller förkasta den aktuella profilen?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1657"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1719"/>
         <source>Changes to the profile &quot;%1&quot; have not been saved. Would you like to save or discard changes to the current profile?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändringarna i profilen ”%1” har inte sparats. Vill du spara eller förkasta ändringarna i den aktuella profilen?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1990"/>
         <source>Sticks</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspakar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2063"/>
@@ -3696,19 +3696,20 @@ functionality to an analog stick.</source>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2128"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2180"/>
         <source>DPads</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsplattor</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2333"/>
         <source>No buttons have been assigned. Please use Quick Set to assign keys
 to buttons or disable hiding empty buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga knappar har tilldelats. Använd Snabbinställning för att tilldela tangenter
+till knappar eller inaktivera att tomma knappar döljs.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2504"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2528"/>
         <source>Set %1: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning %1: %2</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2507"/>
@@ -3719,19 +3720,19 @@ to buttons or disable hiding empty buttons.</source>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2539"/>
         <source>Copy Set Assignments</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopiera uppsättningstilldelningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2540"/>
         <source>Are you sure you want to copy the assignments and device properties from %1?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill kopiera tilldelningarna och enhetsegenskaperna från %1?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="639"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="807"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="819"/>
         <source>Save Config</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara konfiguration</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1560"/>
