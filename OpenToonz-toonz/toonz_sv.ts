@@ -852,204 +852,204 @@ Vad vill du göra?</translation>
     </message>
     <message>
         <source>Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbetning</translation>
     </message>
     <message>
         <source>Camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamera</translation>
     </message>
     <message>
         <source>Toggle Swatch Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj provfärgsförhandsvisning</translation>
     </message>
     <message>
         <source>Toggle Opacity Check</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj opacitetskontroll</translation>
     </message>
     <message>
         <source>Save Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara inställningar</translation>
     </message>
     <message>
         <source>Load Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in inställningar</translation>
     </message>
     <message>
         <source>Reset Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ inställningar</translation>
     </message>
     <message>
         <source>Cleanup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningar</translation>
     </message>
     <message>
         <source>Cleanup Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningar: %1</translation>
     </message>
 </context>
 <context>
     <name>CleanupSettingsPane</name>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontell</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal</translation>
     </message>
     <message>
         <source>MLAA Intensity:</source>
-        <translation type="unfinished"></translation>
+        <translation>MLAA-intensitet:</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Reset</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen</translation>
     </message>
     <message>
         <source>Morphological</source>
-        <translation type="unfinished"></translation>
+        <translation>Morfologisk</translation>
     </message>
     <message>
         <source>Greyscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Gråskala</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <source>Rotate</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotera</translation>
     </message>
     <message>
         <source>Flip</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd</translation>
     </message>
     <message>
         <source>Line Processing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjerbearbetning:</translation>
     </message>
     <message>
         <source>Antialias:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kantutjämning:</translation>
     </message>
     <message>
         <source>Sharpness:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skärpa:</translation>
     </message>
     <message>
         <source>Despeckling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Borttagning av prickar:</translation>
     </message>
     <message>
         <source>Save In</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i</translation>
     </message>
     <message>
         <source>Please fill the Save In field.</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyll i fältet Spara i.</translation>
     </message>
     <message>
         <source>Cleanup Settings (Global)</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningar (globala)</translation>
     </message>
     <message>
         <source>Cleanup Settings: </source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningar: </translation>
     </message>
     <message>
         <source>Cleanup Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningar</translation>
     </message>
     <message>
         <source>Cleanup Settings: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Renritningsinställningar: %1</translation>
     </message>
     <message>
         <source>Autocenter</source>
-        <translation type="unfinished"></translation>
+        <translation>Centrera automatiskt</translation>
     </message>
     <message>
         <source>Pegbar Holes</source>
-        <translation type="unfinished"></translation>
+        <translation>Tapphål</translation>
     </message>
     <message>
         <source>Field Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Fältguide</translation>
     </message>
     <message>
         <source>Bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Nederkant</translation>
     </message>
     <message>
         <source>Top</source>
-        <translation type="unfinished"></translation>
+        <translation>Överkant</translation>
     </message>
     <message>
         <source>Left</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänster</translation>
     </message>
     <message>
         <source>Right</source>
-        <translation type="unfinished"></translation>
+        <translation>Höger</translation>
     </message>
 </context>
 <context>
     <name>CleanupTab</name>
     <message>
         <source>Autocenter</source>
-        <translation type="unfinished"></translation>
+        <translation>Centrera automatiskt</translation>
     </message>
     <message>
         <source>Pegbar Holes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tapphål:</translation>
     </message>
     <message>
         <source>Field Guide:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fältguide:</translation>
     </message>
     <message>
         <source>Rotate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rotera:</translation>
     </message>
     <message>
         <source>Flip:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vänd:</translation>
     </message>
     <message>
         <source>Horizontal</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontell</translation>
     </message>
     <message>
         <source>Vertical</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikal</translation>
     </message>
     <message>
         <source>Save in:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
 </context>
 <context>
     <name>ClipListViewer</name>
     <message>
         <source>Load Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in scen</translation>
     </message>
 </context>
 <context>
@@ -1067,52 +1067,53 @@ Vad vill du göra?</translation>
     <name>ColorModelBehaviorPopup</name>
     <message>
         <source>Select the Palette Operation</source>
-        <translation type="unfinished"></translation>
+        <translation>Välj palettåtgärd</translation>
     </message>
     <message>
         <source>Overwrite the destination palette.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv över målpaletten.</translation>
     </message>
     <message>
         <source>Keep the destination palette and apply it to the color model.</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll målpaletten och tillämpa den på färgmodellen.</translation>
     </message>
     <message>
         <source>The color model palette is different from the destination palette.
 What do you want to do? </source>
-        <translation type="unfinished"></translation>
+        <translation>Färgmodellens palett skiljer sig från målpaletten.
+Vad vill du göra? </translation>
     </message>
     <message>
         <source>Add color model&apos;s palette to the destination palette.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till färgmodellens palett i målpaletten.</translation>
     </message>
     <message>
         <source>Picking Colors from Raster Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta färger från rasterbild</translation>
     </message>
     <message>
         <source>Pick Every Colors as Different Styles</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta varje färg som en egen stil</translation>
     </message>
     <message>
         <source>Integrate Similar Colors as One Style</source>
-        <translation type="unfinished"></translation>
+        <translation>Sammanfoga liknande färger till en stil</translation>
     </message>
     <message>
         <source>Pick Colors in Color Chip Grid</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta färger i färgrutnät</translation>
     </message>
     <message>
         <source>Horizontal - Top to bottom</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontellt – uppifrån och ned</translation>
     </message>
     <message>
         <source>Horizontal - Bottom to top</source>
-        <translation type="unfinished"></translation>
+        <translation>Horisontellt – nedifrån och upp</translation>
     </message>
     <message>
         <source>Vertical - Left to right</source>
-        <translation type="unfinished"></translation>
+        <translation>Vertikalt – från vänster till höger</translation>
     </message>
     <message>
         <source>Pick Type:</source>
