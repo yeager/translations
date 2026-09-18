@@ -1547,7 +1547,8 @@ tolkas.</translation>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="260"/>
         <source>Specify the action that will be performed in game while
 this button is being used.</source>
-        <translation>Ange åtgärden som ska utföras i spelet medan den här knappen används.</translation>
+        <translation>Ange åtgärden som ska utföras i spelet medan
+den här knappen används.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/buttoneditdialog.ui" line="287"/>
@@ -2595,17 +2596,17 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="1709"/>
         <source>[Set %1 1W]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Uppsättning %1 1W]</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="1714"/>
         <source>[Set %1 2W]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Uppsättning %1 2W]</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttontypes/joybutton.cpp" line="1721"/>
         <source>[Set %1 WH]</source>
-        <translation type="unfinished"></translation>
+        <translation>[Uppsättning %1 WH]</translation>
     </message>
 </context>
 <context>
@@ -2623,12 +2624,12 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttoncontextmenu.cpp" line="54"/>
         <source>Clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttoncontextmenu.cpp" line="60"/>
         <source>Set Select</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättningsval</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttoncontextmenu.cpp" line="61"/>
@@ -2643,17 +2644,17 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttoncontextmenu.cpp" line="85"/>
         <source>Set %1 1W</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning %1 1W</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttoncontextmenu.cpp" line="86"/>
         <source>Set %1 2W</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning %1 2W</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttoncontextmenu.cpp" line="87"/>
         <source>Set %1 WH</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättning %1 WH</translation>
     </message>
 </context>
 <context>
@@ -2662,7 +2663,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
         <location filename="../../../src/joybuttonslot.cpp" line="122"/>
         <location filename="../../../src/joybuttonslot.cpp" line="174"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Mus</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="127"/>
@@ -2687,17 +2688,17 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="179"/>
         <source>LB</source>
-        <translation type="unfinished"></translation>
+        <translation>VMB</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="182"/>
         <source>MB</source>
-        <translation type="unfinished"></translation>
+        <translation>MMB</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="185"/>
         <source>RB</source>
-        <translation type="unfinished"></translation>
+        <translation>HMB</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="203"/>
@@ -2712,7 +2713,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="227"/>
         <source>Cycle</source>
-        <translation type="unfinished"></translation>
+        <translation>Cykel</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="231"/>
@@ -2742,22 +2743,22 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="293"/>
         <source>Load %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in %1</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="300"/>
         <source>Set Change %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppsättningsbyte %1</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="313"/>
         <source>[Text] %1</source>
-        <translation type="unfinished"></translation>
+        <translation>[Text] %1</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="326"/>
         <source>[Exec] %1</source>
-        <translation type="unfinished"></translation>
+        <translation>[Kör] %1</translation>
     </message>
     <message>
         <location filename="../../../src/joybuttonslot.cpp" line="348"/>
@@ -2773,7 +2774,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
         <location filename="../../../src/joycontrolstick.cpp" line="811"/>
         <location filename="../../../src/joycontrolstick.cpp" line="816"/>
         <source>Stick</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspak</translation>
     </message>
 </context>
 <context>
@@ -2859,22 +2860,22 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="125"/>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="133"/>
         <source>Eight Way</source>
-        <translation type="unfinished"></translation>
+        <translation>Åtta riktningar</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="142"/>
         <source>4 Way Cardinal</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyrvägs med huvudriktningar</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="151"/>
         <source>4 Way Diagonal</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyrvägs diagonalt</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="162"/>
@@ -2892,7 +2893,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="211"/>
         <source>X:</source>
-        <translation type="unfinished"></translation>
+        <translation>X:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="107"/>
@@ -2906,12 +2907,12 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="185"/>
         <source>Y:</source>
-        <translation type="unfinished"></translation>
+        <translation>Y:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="172"/>
         <source>Distance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Avstånd:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="274"/>
@@ -2961,7 +2962,7 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="336"/>
         <source>Stick Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspaksläge:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="349"/>
@@ -2977,17 +2978,28 @@ the cardinal directions of the stick. Useful for menus.
 
 4 Way Diagonal: 4 region stick with each region corresponding
 to a diagonal zone of the stick.</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard: styrspak med 8 områden där två riktningsknappar är aktiva
+när styrspaken befinner sig i ett diagonalt område.
+
+Åtta riktningar: styrspak med 8 områden där varje riktning har
+en egen dedikerad knapp. Endast en knapp är aktiv åt
+gången. Användbart för roguelike-spel.
+
+Fyrvägs med huvudriktningar: styrspak med 4 områden som motsvarar
+styrspakens huvudriktningar. Användbart för menyer.
+
+Fyrvägs diagonalt: styrspak med 4 områden där varje område motsvarar
+en diagonal zon på styrspaken.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="374"/>
         <source>4 Way Cardinal</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyrvägs med huvudriktningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="379"/>
         <source>4 Way Diagonal</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyrvägs diagonalt</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="531"/>
@@ -2998,13 +3010,13 @@ to a diagonal zone of the stick.</source>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="566"/>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="681"/>
         <source>Dead zone value to use for an analog stick.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dödzonsvärde att använda för en analog styrspak.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="605"/>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="659"/>
         <source>Value when an analog stick is considered moved 100%.</source>
-        <translation type="unfinished"></translation>
+        <translation>Värde när en analog styrspak anses vara förflyttad 100 %.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="417"/>
@@ -3015,13 +3027,13 @@ to a diagonal zone of the stick.</source>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="467"/>
         <source>Square Stick:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fyrkantig styrspak:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="481"/>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="726"/>
         <source>Percentage to modify a square stick coordinates to confine values to a circle</source>
-        <translation type="unfinished"></translation>
+        <translation>Procentandel som ändrar koordinaterna för en fyrkantig styrspak så att värdena begränsas till en cirkel</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="484"/>
@@ -3031,7 +3043,7 @@ to a diagonal zone of the stick.</source>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="598"/>
         <source>Stick Delay:</source>
-        <translation type="unfinished"></translation>
+        <translation>Styrspaksfördröjning:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="433"/>
@@ -3047,7 +3059,7 @@ to a diagonal zone of the stick.</source>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="410"/>
         <source>Modifier:</source>
-        <translation type="unfinished"></translation>
+        <translation>Modifieringsknapp:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="517"/>
@@ -3056,12 +3068,16 @@ to a diagonal zone of the stick.</source>
 This button is useful for assigning zones with
 modifier keys that can be used to assign walk/run
 functionality to an analog stick.</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera knappen som är aktiv medan styrspaken är aktiv.
+
+Knappen är användbar för att tilldela zoner med
+modifieringstangenter som kan användas för att tilldela gång-/springfunktioner
+till en analog styrspak.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="524"/>
         <source>PushButton</source>
-        <translation type="unfinished"></translation>
+        <translation>PushButton</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="630"/>
@@ -3096,7 +3112,7 @@ functionality to an analog stick.</source>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="827"/>
         <source>Specify the name of an analog stick.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange namnet på en analog styrspak.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="836"/>
@@ -3106,12 +3122,12 @@ functionality to an analog stick.</source>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="364"/>
         <source>Standard</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="146"/>
         <source>Bearing:</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktning:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="198"/>
@@ -3121,7 +3137,7 @@ functionality to an analog stick.</source>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="369"/>
         <source>Eight Way</source>
-        <translation type="unfinished"></translation>
+        <translation>Åtta riktningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="503"/>
@@ -3156,7 +3172,7 @@ functionality to an analog stick.</source>
         <location filename="../../../src/joybuttontypes/joycontrolstickmodifierbutton.cpp" line="55"/>
         <location filename="../../../src/joybuttontypes/joycontrolstickmodifierbutton.cpp" line="61"/>
         <source>Modifier</source>
-        <translation type="unfinished"></translation>
+        <translation>Modifieringsknapp</translation>
     </message>
 </context>
 <context>
@@ -3166,7 +3182,7 @@ functionality to an analog stick.</source>
         <location filename="../../../src/joydpad.cpp" line="95"/>
         <location filename="../../../src/joydpad.cpp" line="100"/>
         <source>DPad</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningsplatta</translation>
     </message>
 </context>
 <context>
