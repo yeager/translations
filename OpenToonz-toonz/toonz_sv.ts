@@ -7606,27 +7606,27 @@ Is it OK to release these shortcuts?</source>
     </message>
     <message>
         <source>Vector Snapping:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektorfästning:</translation>
     </message>
     <message>
         <source>New Levels Default to the Current Camera Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Nya nivåer använder som standard den aktuella kamerans storlek</translation>
     </message>
     <message>
         <source>Enable OpenToonz Commands&apos; Shortcut Keys While Renaming Cell</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera kortkommandon för OpenToonz-kommandon medan cell byter namn</translation>
     </message>
     <message>
         <source>Life is too short for Comic Sans</source>
-        <translation type="unfinished"></translation>
+        <translation>Livet är för kort för Comic Sans</translation>
     </message>
     <message>
         <source>Good luck.  You&apos;re on your own from here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lycka till. Härifrån är du på egen hand.</translation>
     </message>
     <message>
         <source>Font*:</source>
-        <translation type="unfinished"></translation>
+        <translation>Teckensnitt*:</translation>
     </message>
     <message>
         <source>Font Weight *:</source>
@@ -7634,15 +7634,15 @@ Is it OK to release these shortcuts?</source>
     </message>
     <message>
         <source>Arrow Markers</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilmarkörer</translation>
     </message>
     <message>
         <source>Animated Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Animerad hjälp</translation>
     </message>
     <message>
         <source>Vector Guided Style:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vektorledd stil:</translation>
     </message>
     <message>
         <source>Layout Preference*:</source>
@@ -7650,48 +7650,49 @@ Is it OK to release these shortcuts?</source>
     </message>
     <message>
         <source>Keep fill when using &quot;Replace Vectors&quot; command</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll fyllning när kommandot ”Ersätt vektorer” används</translation>
     </message>
     <message>
         <source>Use higher DPI for calculations - Slower but more accurate</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd högre DPI för beräkningar – långsammare men mer exakt</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktyg</translation>
     </message>
     <message>
         <source>Sync Level Strip Drawing Number Changes with the Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Synka ändringar av ritningsnummer i nivåremsan med XSheet</translation>
     </message>
     <message>
         <source>Show Current Time Indicator (Timeline Mode only)</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa aktuell tidsindikator (endast tidslinjeläge)</translation>
     </message>
     <message>
         <source>Project Folder Aliases (+drawings, +scenes, etc.)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alias för projektmappar (+ritningar, +scener osv.)</translation>
     </message>
     <message>
         <source>Scene Folder Alias ($scenefolder)</source>
-        <translation type="unfinished"></translation>
+        <translation>Alias för scenmapp ($scenefolder)</translation>
     </message>
     <message>
         <source>Use Project Folder Aliases Only</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd endast alias för projektmappar</translation>
     </message>
     <message>
         <source>This option defines which alias to be used
 if both are possible on coding file path.</source>
-        <translation type="unfinished"></translation>
+        <translation>Detta alternativ anger vilket alias som används
+om båda är möjliga när filsökvägen kodas.</translation>
     </message>
     <message>
         <source>Open the dropdown to display all options</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna listrutan för att visa alla alternativ</translation>
     </message>
     <message>
         <source>Cycle through the available options</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläddra bland tillgängliga alternativ</translation>
     </message>
     <message>
         <source>Path Alias Priority:</source>
