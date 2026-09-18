@@ -1,0 +1,1263 @@
+# Swedish translation for direvent.
+# Copyright © 2017, 2019, 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the direvent package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2021.
+# Sebastian Rasmussen <sebras@gmail.com>, 2019.
+# Luna Jernberg <droidbittin@gmail.com>, 2021, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: direvent 5.5\n"
+"Report-Msgid-Bugs-To: bug-direvent@gnu.org.ua\n"
+"POT-Creation-Date: 2026-06-05 22:14+0300\n"
+"PO-Revision-Date: 2026-09-06 15:00+0200\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.9\n"
+
+#: src/config.c:66
+#, c-format
+msgid "unknown syslog facility: %s"
+msgstr "okänd syslog-facilitet: %s"
+
+#: src/config.c:83
+#, c-format
+msgid "unknown syslog priority: %s"
+msgstr "okänd syslog-prioritet: %s"
+
+#: src/config.c:91 grecs/src/assert.c:45
+msgid "unexpected block statement"
+msgstr "oväntad blocksats"
+
+#: src/config.c:100 grecs/src/assert.c:28
+#, c-format
+msgid "expected %s"
+msgstr "förväntade %s"
+
+#: src/config.c:105 grecs/src/assert.c:33
+#, c-format
+msgid "expected %s, but found %s"
+msgstr "förväntade %s, men hittade %s"
+
+#: src/config.c:127
+#, c-format
+msgid "unknown syslog facility `%s'"
+msgstr "okänd syslog-facilitet ”%s”"
+
+#: src/config.c:136 src/config.c:781 src/config.c:867
+msgid "name"
+msgstr "namn"
+
+#: src/config.c:137
+msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
+msgstr "Ange syslog-facilitet. Argumentet är user, daemon, auth, authpriv, mail, "
+"cron, local0 till local7 (inte skiftlägeskänsligt), eller ett facilitetstal."
+
+#: src/config.c:142 src/config.c:775 grecs/src/format.c:38 grecs/src/tree.c:69
+msgid "string"
+msgstr "sträng"
+
+#: src/config.c:142
+msgid "Tag syslog messages with this string"
+msgstr "Märk syslog-meddelanden med denna sträng"
+
+#: src/config.c:145 grecs/src/format.c:142
+msgid "arg"
+msgstr "arg"
+
+#: src/config.c:146
+msgid "Prefix each message with its priority"
+msgstr "Förse varje meddelande med dess prioritetsnivå."
+
+#: src/config.c:198
+#, c-format
+msgid "%s: recursion depth does not match previous definition"
+msgstr "%s: rekursionsdjupet matchar inte föregående definition"
+
+#: src/config.c:218
+msgid "no paths configured"
+msgstr "inga sökvägar har konfigurerats"
+
+#: src/config.c:223
+msgid "no command configured"
+msgstr "inget kommando har konfigurerats"
+
+#: src/config.c:235 grecs/src/tree.c:655
+msgid "invalid use of block statement"
+msgstr "ogiltig användning av blocksats"
+
+#: src/config.c:280
+msgid "expected \"recursive\" or end of statement"
+msgstr "förväntade ”recursive” eller satsens slut"
+
+#: src/config.c:295
+msgid "surplus argument"
+msgstr "överflödigt argument"
+
+#: src/config.c:301 src/config.c:452
+msgid "unexpected list"
+msgstr "oväntad lista"
+
+#: src/config.c:332 src/config.c:347 src/config.c:362
+msgid "unrecognized event code"
+msgstr "okänd händelsekod"
+
+#: src/config.c:444
+msgid "surplus arguments"
+msgstr "överflödiga argument"
+
+#: src/config.c:458
+msgid "no such user"
+msgstr "ingen sådan användare"
+
+#: src/config.c:465
+msgid "no such group"
+msgstr "ingen sådan grupp"
+
+#: src/config.c:507
+msgid "unrecognized option"
+msgstr "okänd flagga"
+
+#: src/config.c:587
+msgid "can't parse legacy environ statement"
+msgstr "det går inte att tolka den äldre environ-satsen"
+
+#: src/config.c:632
+msgid "legacy environ syntax is not allowed in global context"
+msgstr "äldre environ-syntax är inte tillåten i global kontext"
+
+#: src/config.c:647
+msgid "unexpected argument"
+msgstr "oväntat argument"
+
+#: src/config.c:757
+msgid "Clear environment."
+msgstr "Rensa miljö."
+
+#: src/config.c:762
+msgid "name[=value]"
+msgstr "namn[=värde]"
+
+#: src/config.c:763
+msgid ""
+"Keep this variable. Unless value is supplied, name can contain wildcards.\n"
+"Implies \"clear\"."
+msgstr ""
+"Behåll den här variabeln. Om inget värde anges kan namnet innehålla "
+"jokertecken.\n"
+"Innebär ”"
+"clear”."
+
+#: src/config.c:769
+msgid "name=value"
+msgstr "namn=värde"
+
+#: src/config.c:770
+msgid "Set environment variable. Note, that argument must be quoted."
+msgstr "Ange miljövariabel. Observera att argumentet måste stå inom citationstecken."
+
+#: src/config.c:776
+msgid "Evaluate string. Useful for side-effects, e.g. eval ${X:=2}."
+msgstr "Utvärdera sträng. Användbar för biverkningar, t.ex. eval ${X:=2}."
+
+#: src/config.c:782
+msgid "Unset environment variable. Name can contain wildcards."
+msgstr "Ta bort miljövariabel. Namnet kan innehålla jokertecken."
+
+#: src/config.c:846
+msgid "bad duration value"
+msgstr "ogiltigt varaktighetsvärde"
+
+#: src/config.c:856
+msgid "Pathname to watch"
+msgstr "Sökväg att övervaka"
+
+#: src/config.c:859
+msgid "Events to watch for"
+msgstr "Händelser att övervaka"
+
+#: src/config.c:862
+msgid "regexp"
+msgstr "reguljärt uttryck"
+
+#: src/config.c:862
+msgid "Files to watch for"
+msgstr "Filer att övervaka"
+
+#: src/config.c:865
+msgid "Command to execute on event"
+msgstr "Kommando som ska köras vid händelse"
+
+#: src/config.c:867
+msgid "Run command as this user"
+msgstr "Kör kommandot som den här användaren"
+
+#: src/config.c:870
+msgid "seconds"
+msgstr "sekunder"
+
+#: src/config.c:870
+msgid "Timeout for the command"
+msgstr "Tidsgräns för kommandot"
+
+#: src/config.c:872
+msgid "List of additional options"
+msgstr "Lista över ytterligare alternativ"
+
+#: src/config.c:876
+msgid "Modify program environment."
+msgstr "Ändra programmets miljö."
+
+#: src/config.c:880
+msgid "<arg: string> <arg: string>..."
+msgstr "<arg: sträng> <arg: sträng>…"
+
+#: src/config.c:881
+msgid "Modify environment (legacy form)"
+msgstr "Ändra miljön (äldre form)"
+
+#: src/config.c:885
+msgid "Maximum number of instances running simultaneously."
+msgstr "Högsta antal instanser som kör samtidigt."
+
+#: src/config.c:891
+msgid "Run as this user"
+msgstr "Kör som denna användare"
+
+#: src/config.c:893
+msgid "Run in foreground"
+msgstr "Kör i förgrunden"
+
+#: src/config.c:895
+msgid "file"
+msgstr "fil"
+
+#: src/config.c:895
+msgid "Set pid file name"
+msgstr "Ange PID-filnamn"
+
+#: src/config.c:897
+msgid "Configure syslog logging"
+msgstr "Konfigurera syslog-loggning"
+
+#: src/config.c:899
+msgid "level"
+msgstr "nivå"
+
+#: src/config.c:899
+msgid "Set debug level"
+msgstr "Ange felsökningsnivå"
+
+#: src/config.c:902
+msgid "Modify global program environment."
+msgstr "Ändra den globala programmijön."
+
+#: src/config.c:907
+msgid "Time to wait for all subprocesses to terminate"
+msgstr "Tid att vänta på att alla delprocesser ska avslutas"
+
+#: src/config.c:910
+msgid "Configure event watcher"
+msgstr "Konfigurera händelseövervakare"
+
+#: src/config.c:921
+msgid ""
+"Configuration file structure for direvent.\n"
+"For more information, use `info direvent configuration'."
+msgstr ""
+"Konfigurationsfilens struktur för direvent.\n"
+"För mer information, använd ”info direvent configuration”."
+
+#: src/direvent.c:144 src/watcher.c:199 src/watcher.c:246
+msgid "not enough memory"
+msgstr "slut på minne"
+
+#: src/direvent.c:306
+#, c-format
+msgid "cannot open pidfile %s for writing: %s"
+msgstr "det går inte att öppna pidfilen %s för skrivning: %s"
+
+#: src/direvent.c:341
+#, c-format
+msgid "no user with UID %lu"
+msgstr "ingen användare med UID %lu"
+
+#: src/direvent.c:506 src/progman.c:676 src/watcher.c:740 src/watcher.c:809
+msgid "out of memory"
+msgstr "slut på minne"
+
+#: src/direvent.c:552
+#, c-format
+msgid "cannot run `%s': fork failed: %s"
+msgstr "det går inte att köra ”%s”: fork misslyckades: %s"
+
+#: src/direvent.c:634
+msgid "increase debug level"
+msgstr "öka felsökningsnivå"
+
+#: src/direvent.c:645
+msgid "PRIO"
+msgstr "PRIO"
+
+#: src/direvent.c:647
+msgid "log everything with priority PRIO and higher to the stderr, as well as to the syslog"
+msgstr "logga allt med prioritet PRIO och högre till standardfel och syslog"
+
+#: src/direvent.c:654
+msgid "NAME"
+msgstr "NAMN"
+
+#: src/direvent.c:655
+msgid "set syslog facility"
+msgstr "ange syslog-facilitet"
+
+#: src/direvent.c:665
+msgid "remain in foreground"
+msgstr "stanna kvar i förgrunden"
+
+#: src/direvent.c:676
+msgid "DIR"
+msgstr "KAT"
+
+#: src/direvent.c:677
+msgid "add include directory"
+msgstr "lägg till inkluderingskatalog"
+
+#: src/direvent.c:687
+msgid "PROG"
+msgstr "PROG"
+
+#: src/direvent.c:688
+msgid "self-test mode"
+msgstr "självtestsläge"
+
+#: src/direvent.c:699
+msgid "FILE"
+msgstr "FIL"
+
+#: src/direvent.c:700
+msgid "set PID file"
+msgstr "ange PID-fil"
+
+#: src/direvent.c:711
+msgid "check configuration file and exit"
+msgstr "kontrollera konfigurationsfilen och avsluta"
+
+#: src/direvent.c:722
+msgid "USER"
+msgstr "ANVÄNDARE"
+
+#: src/direvent.c:723
+msgid "run as this user"
+msgstr "kör som denna användare"
+
+#: src/direvent.c:733
+msgid "show configuration file summary"
+msgstr "visa sammanfattning av konfigurationsfilen"
+
+#: src/direvent.c:757
+#, c-format
+msgid "The optional CONFIG argument supplies the name of the configuration file to use instead of %s."
+msgstr "Det valfria KONFIG-argumentet anger namnet på den konfigurationsfil som ska "
+"användas i stället för %s."
+
+#: src/direvent.c:763
+#, c-format
+msgid "This direvent uses %s interface."
+msgstr "Direvent använder gränssnittet %s."
+
+#: src/direvent.c:766
+msgid "Include search path:"
+msgstr "Sökväg för inkludering:"
+
+#: src/direvent.c:769
+msgid "No include search path."
+msgstr "Ingen sökväg för inkludering."
+
+#: src/direvent.c:785
+msgid "(C)"
+msgstr "©"
+
+#: src/direvent.c:791
+msgid "GNU direvent monitors changes in directories"
+msgstr "GNU direvent övervakar ändringar i kataloger"
+
+#: src/direvent.c:792
+msgid "[CONFIG]"
+msgstr "[KONFIG]"
+
+#: src/direvent.c:818
+msgid "parseopt_getopt failed"
+msgstr "parseopt_getopt misslyckades"
+
+#: src/direvent.c:825
+msgid "too many arguments"
+msgstr "för många argument"
+
+#: src/direvent.c:867
+#, c-format
+msgid "%s %s started"
+msgstr "%s %s startades"
+
+#: src/direvent.c:893
+#, c-format
+msgid "%s %s stopped"
+msgstr "%s %s stoppades"
+
+#: src/ev_inotify.c:68 src/ev_inotify.c:76
+#, c-format
+msgid "can't allocate memory for fd %d"
+msgstr "det går inte att allokera minne för fd %d"
+
+#: src/ev_inotify.c:157
+msgid "not enough memory: cannot look up a watcher to delete"
+msgstr "inte tillräckligt med minne: det går inte att slå upp en bevakare som ska tas "
+"bort"
+
+#: src/ev_inotify.c:208
+#, c-format
+msgid "watcher not found: %d (%s)"
+msgstr "bevakaren hittades inte: %d (%s)"
+
+#: src/ev_inotify.c:214 src/ev_kqueue.c:253
+#, c-format
+msgid "%s deleted"
+msgstr "%s togs bort"
+
+#: src/ev_inotify.c:220
+msgid "event queue overflow"
+msgstr "överflöde i händelsekön"
+
+#: src/ev_inotify.c:231
+#, c-format
+msgid "unrecognized event %x for %s"
+msgstr "okänd händelse %x för %s"
+
+#: src/ev_inotify.c:234
+#, c-format
+msgid "unrecognized event %x"
+msgstr "okänd händelse %x"
+
+#: src/ev_inotify.c:239
+#, c-format
+msgid "%s/%s created"
+msgstr "%s/%s skapades"
+
+#: src/ev_inotify.c:242
+#, c-format
+msgid "%s/%s: ignoring CREATE event: already delivered"
+msgstr "%s/%s: ignorerar CREATE-händelse: redan levererad"
+
+#: src/ev_inotify.c:254
+#, c-format
+msgid "%s: ignoring event (%x) for the watchpoint directory"
+msgstr "%s: ignorerar händelse (%x) för övervakningspunktens katalog"
+
+#: src/ev_inotify.c:258
+#, c-format
+msgid "%s: ignoring event (%s) for the watchpoint directory"
+msgstr "%s: ignorerar händelse (%s) för watchpoint-katalogen"
+
+#: src/ev_inotify.c:289
+#, c-format
+msgid "%s/%s deleted"
+msgstr "%s/%s togs bort"
+
+#: src/ev_inotify.c:307
+#, c-format
+msgid "got signal %d"
+msgstr "fick signal %d"
+
+#: src/ev_inotify.c:311
+#, c-format
+msgid "read failed: %s"
+msgstr "läsning misslyckades: %s"
+
+#: src/fnpat.c:90
+msgid "unterminated regexp"
+msgstr "oavslutat reguljärt uttryck"
+
+#: src/fnpat.c:104
+#, c-format
+msgid "unrecognized flag: %c"
+msgstr "okänd flagga: %c"
+
+#: src/progman.c:147
+#, c-format
+msgid "process %lu (%s) exited successfully"
+msgstr "process %lu (%s) avslutades utan fel"
+
+#: src/progman.c:152
+#, c-format
+msgid "process %lu (%s) failed with status %d"
+msgstr "process %lu (%s) misslyckades med status %d"
+
+#: src/progman.c:165
+msgid " (dumped core)"
+msgstr " (skapade minnesdump)"
+
+#: src/progman.c:168
+#, c-format
+msgid "process %lu (%s) terminated on signal %d%s"
+msgstr "process %lu (%s) avslutades av signal %d%s"
+
+#: src/progman.c:172
+#, c-format
+msgid "process %lu (%s) stopped on signal %d"
+msgstr "process %lu (%s) stoppades av signal %d"
+
+#: src/progman.c:177
+#, c-format
+msgid "process %lu (%s) terminated with unrecognized status"
+msgstr "process %lu (%s) avslutades med okänd status"
+
+#: src/progman.c:259
+msgid "waiting for processes to terminate"
+msgstr "väntar på att processer ska avslutas"
+
+#: src/progman.c:272
+msgid "forcefully terminating the remaining processes"
+msgstr "avslutar de återstående processerna med tvång"
+
+#: src/progman.c:285
+msgid "begin scanning process list"
+msgstr "börjar gå igenom processlistan"
+
+#: src/progman.c:289
+#, c-format
+msgid "process %lu timed out"
+msgstr "tidsgräns överskreds för process %lu"
+
+#: src/progman.c:298
+#, c-format
+msgid "scheduling alarm in %lu seconds"
+msgstr "schemalägger larm om %lu sekunder"
+
+#: src/progman.c:302
+msgid "end scanning process list"
+msgstr "slutar gå igenom processlistan"
+
+#: src/progman.c:352
+#, c-format
+msgid "cannot start logger for %s, pipe failed: %s"
+msgstr "det går inte att starta loggaren för %s: pipe misslyckades: %s"
+
+#: src/progman.c:381
+#, c-format
+msgid "cannot run logger `%s': fork failed: %s"
+msgstr "det går inte att köra loggaren ”%s”: fork misslyckades: %s"
+
+#: src/progman.c:386
+#, c-format
+msgid "logger for %s started, pid=%lu"
+msgstr "loggare för %s startades, pid=%lu"
+
+#: src/progman.c:690
+#, c-format
+msgid "starting %s, dir=%s, file=%s"
+msgstr "startar %s, katalog=%s, fil=%s"
+
+#: src/progman.c:719
+#, c-format
+msgid "cannot change to %s: %s"
+msgstr "det går inte att byta katalog till %s: %s"
+
+#: src/progman.c:754
+#, c-format
+msgid "%s running; run_count=%zu; dir=%s, file=%s, pid=%lu"
+msgstr "%s kör; antal_körningar=%zu; katalog=%s, fil=%s, pid=%lu"
+
+#: src/progman.c:773
+#, c-format
+msgid "waiting for %s (%lu) to terminate"
+msgstr "väntar på att %s (%lu) ska avslutas"
+
+#: src/watcher.c:128
+#, c-format
+msgid "%s: recent status expired"
+msgstr "%s: den senaste statusen har upphört"
+
+#: src/watcher.c:288 src/watcher.c:676
+#, c-format
+msgid "removing watcher %s"
+msgstr "tar bort övervakare %s"
+
+#: src/watcher.c:300
+#, c-format
+msgid "%s: failed to install sentinel; exiting now"
+msgstr "%s: misslyckades med att installera vaktpost; avslutar nu"
+
+#: src/watcher.c:307
+msgid "no watchers left; exiting now"
+msgstr "inga övervakare kvar; avslutar"
+
+#: src/watcher.c:344
+#, c-format
+msgid "uninstalling CREATE sentinel for %s"
+msgstr "avinstallerar CREATE-vaktpost för %s"
+
+#: src/watcher.c:379
+#, c-format
+msgid "installing CREATE sentinel for %s"
+msgstr "installerar CREATE-vaktpost för %s"
+
+#: src/watcher.c:417
+#, c-format
+msgid "cannot create watcher %s/%s: not enough memory"
+msgstr "det går inte att skapa övervakare %s/%s: för lite minne"
+
+#: src/watcher.c:424
+#, c-format
+msgid "cannot create watcher %s, stat failed: %s"
+msgstr "det går inte att skapa övervakare %s, stat misslyckades: %s"
+
+#: src/watcher.c:486
+#, c-format
+msgid "installing CREATE sentinel for %s/*"
+msgstr "installerar CREATE-vaktpost för %s/*"
+
+#: src/watcher.c:487
+#, c-format
+msgid "installing CREATE sentinel for file %s"
+msgstr "installerar CREATE-vaktpost för fil %s"
+
+#: src/watcher.c:502
+#, c-format
+msgid "creating watcher %s"
+msgstr "skapar övervakare %s"
+
+#: src/watcher.c:510 src/watcher.c:525
+#, c-format
+msgid "cannot set watcher on %s: %s"
+msgstr "det går inte att ställa in övervakare på %s: %s"
+
+#: src/watcher.c:546
+#, c-format
+msgid "delivering CREATE for %s %s"
+msgstr "levererar CREATE för %s %s"
+
+#: src/watcher.c:589
+#, c-format
+msgid "cannot open directory %s: %s"
+msgstr "det går inte att öppna katalogen %s: %s"
+
+#: src/watcher.c:615
+#, c-format
+msgid "cannot stat %s/%s: not enough memory"
+msgstr "det går inte att ta status på %s/%s: för lite minne"
+
+#: src/watcher.c:622
+#, c-format
+msgid "cannot stat %s: %s"
+msgstr "det går inte att ta status på %s: %s"
+
+#: src/watcher.c:660
+msgid "no event handlers configured"
+msgstr "inga händelsehanterare konfigurerade"
+
+#: src/watcher.c:665
+msgid "no event handlers installed"
+msgstr "inga händelsehanterare installerade"
+
+#: grecs/src/cidr.c:129 grecs/src/cidr.c:179 grecs/src/cidr.c:186
+#, c-format
+msgid "invalid network mask: %s"
+msgstr "ogiltig nätverksmask: %s"
+
+#: grecs/src/cidr.c:142 grecs/src/cidr.c:149 grecs/src/cidr.c:160
+#, c-format
+msgid "unrecognized address family: %s"
+msgstr "okänd adressfamilj: %s"
+
+#: grecs/src/cidr.c:153
+#, c-format
+msgid "invalid network address: %s"
+msgstr "ogiltig nätverksadress: %s"
+
+#. TRANSLATORS: The msgids below are data types in direct (nominative)
+#. and indirect (most often, genitive) cases.  The indirect case is
+#. used only in the construct "list %s" (e.g., for "number" data type,
+#. this makes "list of numbers").  Please, translate it so that it
+#. forms a correct sentence in this context.
+#: grecs/src/format.c:37
+msgid "void"
+msgstr "void"
+
+#: grecs/src/format.c:38
+msgid "of strings"
+msgstr "av strängar"
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "number"
+msgstr "tal"
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "of numbers"
+msgstr "av tal"
+
+#: grecs/src/format.c:46
+msgid "time"
+msgstr "tid"
+
+#: grecs/src/format.c:46
+msgid "of times"
+msgstr "av tider"
+
+#: grecs/src/format.c:47
+msgid "boolean"
+msgstr "boolesk variabel"
+
+#: grecs/src/format.c:47
+msgid "of booleans"
+msgstr "av booleska variabler"
+
+#: grecs/src/format.c:48
+msgid "IPv4"
+msgstr "IPv4"
+
+#: grecs/src/format.c:48
+msgid "of IPv4"
+msgstr "av IPv4"
+
+#: grecs/src/format.c:49
+msgid "CIDR"
+msgstr "CIDR"
+
+#: grecs/src/format.c:49
+msgid "of CIDR"
+msgstr "av CIDR"
+
+#: grecs/src/format.c:50
+msgid "hostname"
+msgstr "värdnamn"
+
+#: grecs/src/format.c:50
+msgid "of hostnames"
+msgstr "av värdnamn"
+
+#: grecs/src/format.c:51
+msgid "sockaddr"
+msgstr "sockaddr"
+
+#: grecs/src/format.c:51
+msgid "of sockaddr"
+msgstr "av sockaddr"
+
+#: grecs/src/format.c:52
+msgid "section"
+msgstr "avsnitt"
+
+#: grecs/src/format.c:53
+msgid "null"
+msgstr "null"
+
+#: grecs/src/format.c:134
+msgid "Disabled;"
+msgstr "Inaktiverad;"
+
+#. TRANSLATORS: The %s in this message will be expanded
+#. to a data type in indirect case (see above).  The two
+#. must form a grammatically correct sentence.
+#: grecs/src/format.c:158
+#, c-format
+msgid "list %s"
+msgstr "lista %s"
+
+#: grecs/src/grecs-lex.l:183
+msgid "end of file in comment"
+msgstr "filslut i kommentar"
+
+#: grecs/src/grecs-lex.l:318
+msgid "end of file in quoted string"
+msgstr "filslut i citerad sträng"
+
+#: grecs/src/grecs-lex.l:384
+#, c-format
+msgid "stray character %c"
+msgstr "löst tecken %c"
+
+#: grecs/src/grecs-lex.l:387
+#, c-format
+msgid "stray character \\%03o"
+msgstr "löst tecken \\%03o"
+
+#: grecs/src/grecs-lex.l:421
+#, c-format
+msgid "\"%2.2s\" starts comment here; use quotes if you want it to be a part of string, or inserta whitespace to suppress this warning"
+msgstr "”%2.2s” börjar kommentaren här; använd citattecken om du vill att den ska "
+"vara en del av en sträng, eller infoga ett mellanslag för att undertrycka "
+"denna varning"
+
+#: grecs/src/grecs-lex.l:460 grecs/src/grecs-lex.l:478
+msgid "invalid include statement"
+msgstr "ogiltig inkluderingssats"
+
+#: grecs/src/grecs-lex.l:494
+msgid "read error"
+msgstr "läsfel"
+
+#: grecs/src/grecs-lex.l:502
+#, c-format
+msgid "%s: No such file or directory"
+msgstr "%s: Ingen sådan fil eller katalog"
+
+#: grecs/src/grecs-lex.l:835 grecs/src/grecs-lex.l:860
+#, c-format
+msgid "Cannot stat `%s'"
+msgstr "Det går inte att ta status på ”%s”"
+
+#: grecs/src/grecs-lex.l:841 grecs/src/grecs-lex.l:847
+msgid "Recursive inclusion"
+msgstr "Rekursiv inkludering"
+
+#: grecs/src/grecs-lex.l:850
+#, c-format
+msgid "`%s' already included here"
+msgstr "”%s” är redan inkluderad här"
+
+#: grecs/src/grecs-lex.l:854
+#, c-format
+msgid "`%s' already included at top level"
+msgstr "”%s” är redan inkluderad på toppnivå"
+
+#: grecs/src/grecs-lex.l:871 grecs/src/grecs-lex.l:892
+#, c-format
+msgid "Cannot open `%s'"
+msgstr "Det går inte att öppna ”%s”"
+
+#: grecs/src/grecs-lex.l:1182 grecs/src/grecs-lex.l:1203
+#, c-format
+msgid "cannot parse #line line: %s"
+msgstr "kan inte tolka #line-rad: %s"
+
+#: grecs/src/grecs-lex.l:1189 grecs/src/grecs-lex.l:1206
+msgid "invalid #line statement"
+msgstr "ogiltig #line-sats"
+
+#: grecs/src/grecs-lex.l:1192 grecs/src/grecs-lex.l:1208
+msgid "malformed #line statement"
+msgstr "missbildad #line-sats"
+
+#: grecs/src/grecs-lex.l:1297 grecs/src/grecs-lex.l:1328
+#, c-format
+msgid "Cannot run `%s'"
+msgstr "Det går inte att köra ”%s”"
+
+#: grecs/src/grecs-lex.l:1350
+#, c-format
+msgid "%s exited with status %d"
+msgstr "%s avslutade med status %d"
+
+#: grecs/src/grecs-lex.l:1355
+#, c-format
+msgid "%s terminated on signal %d"
+msgstr "%s avslutades på signal %d"
+
+#: grecs/src/grecs-lex.l:1359
+#, c-format
+msgid "%s terminated abnormally (%d)"
+msgstr "%s avslutades onormalt (%d)"
+
+#: grecs/src/lineacc.c:68
+#, c-format
+msgid "unknown escape sequence: '\\%c'"
+msgstr "okänd escape-sekvens: ”\\%c”"
+
+#: grecs/src/path-parser.c:65
+#, c-format
+msgid "cannot open `%s'"
+msgstr "det går inte att öppna ”%s”"
+
+#: grecs/src/path-parser.c:111 grecs/src/path-parser.c:126
+msgid "unexpected end of file"
+msgstr "oväntat filslut"
+
+#: grecs/src/path-parser.c:146
+msgid "parse error"
+msgstr "tolkningsfel"
+
+#: grecs/src/symtab.c:236
+msgid "element not found in table"
+msgstr "element hittades inte i tabell"
+
+#: grecs/src/symtab.c:238
+msgid "symbol table is full"
+msgstr "symboltabellen är full"
+
+#: grecs/src/tree.c:70
+msgid "list"
+msgstr "lista"
+
+#: grecs/src/tree.c:71
+msgid "one or more arguments"
+msgstr "ett eller flera argument"
+
+#: grecs/src/tree.c:75
+msgid "unrecognized type; please report"
+msgstr "okänd typ; rapportera"
+
+#: grecs/src/tree.c:310
+msgid "section keyword used as a scalar"
+msgstr "avsnittsnyckelord använt som skalär"
+
+#: grecs/src/tree.c:312
+msgid "scalar keyword used as a section"
+msgstr "skalärnyckelord använt som avsnitt"
+
+#: grecs/src/tree.c:315
+msgid "unknown keyword"
+msgstr "okänt nyckelord"
+
+#: grecs/src/tree.c:350
+#, c-format
+msgid "%s: not a valid boolean value"
+msgstr "%s: inte ett giltigt booleskt värde"
+
+#: grecs/src/tree.c:381
+#, c-format
+msgid "%s: UNIX socket name too long"
+msgstr "%s: namnet på UNIX-uttaget (socket) är för långt"
+
+#: grecs/src/tree.c:410 grecs/src/tree.c:634
+#, c-format
+msgid "%s: not a valid IP address or hostname"
+msgstr "%s: inte en giltig IP-adress eller värdnamn"
+
+#: grecs/src/tree.c:434
+#, c-format
+msgid "%s: not a valid port number"
+msgstr "%s: inte ett giltigt portnummer"
+
+#: grecs/src/tree.c:442
+msgid "missing port number"
+msgstr "saknar portnummer"
+
+#: grecs/src/tree.c:491
+msgid "numeric overflow"
+msgstr "numeriskt överspill"
+
+#: grecs/src/tree.c:496
+msgid "value out of allowed range"
+msgstr "värde utanför tillåtet intervall"
+
+#: grecs/src/tree.c:531 grecs/src/tree.c:561
+#, c-format
+msgid "not a number (stopped near `%s')"
+msgstr "inte ett tal (stoppade nära ”%s”)"
+
+#: grecs/src/tree.c:625
+#, c-format
+msgid "%s: not a valid IP address"
+msgstr "%s: inte en giltig IP-adress"
+
+#: grecs/src/tree.c:752
+#, c-format
+msgid "too many arguments to `%s'; missing semicolon?"
+msgstr "för många argument till ”%s”, saknas semikolon?"
+
+#: grecs/src/tree.c:766 grecs/src/tree.c:814
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unhandled data type %d"
+msgstr "INTERNT FEL vid %s:%d: ohanterad datatyp %d"
+
+#: grecs/src/tree.c:781
+#, c-format
+msgid "%s: incompatible data type in list item #%d"
+msgstr "%s: inkompatibel datatyp i listpost #%d"
+
+#: grecs/src/tree.c:801
+#, c-format
+msgid "incompatible data type for `%s'"
+msgstr "inkompatibel datatyp för ”%s”"
+
+#: grecs/wordsplit/wordsplit.c:78 grecs/wordsplit/wordsplit.c:2851
+msgid "memory exhausted"
+msgstr "slut på minne"
+
+#: grecs/wordsplit/wordsplit.c:132
+msgid "memory exhausted while trying to store error context"
+msgstr "slut på minne vid försök att lagra felkontext"
+
+#: grecs/wordsplit/wordsplit.c:873
+msgid "Restarting"
+msgstr "Startar om"
+
+#: grecs/wordsplit/wordsplit.c:1599
+#, c-format
+msgid "%.*s: variable null or not set"
+msgstr "%.*s: variabeln är null eller inte angiven"
+
+#: grecs/wordsplit/wordsplit.c:1629
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr "varning: odefinierad variabel ”%.*s”"
+
+#: grecs/wordsplit/wordsplit.c:2130
+#, c-format
+msgid "no files match pattern %s"
+msgstr "inga filer matchar mönstret %s"
+
+#: grecs/wordsplit/wordsplit.c:2595
+msgid "WS trimming"
+msgstr "trimning av blanktecken"
+
+#: grecs/wordsplit/wordsplit.c:2597
+msgid "command substitution"
+msgstr "kommandosubstitution"
+
+#: grecs/wordsplit/wordsplit.c:2599 grecs/wordsplit/wordsplit.c:2607
+msgid "coalesce list"
+msgstr "sammanfoga lista"
+
+#: grecs/wordsplit/wordsplit.c:2601
+msgid "tilde expansion"
+msgstr "tilde-expansion"
+
+#: grecs/wordsplit/wordsplit.c:2603
+msgid "variable expansion"
+msgstr "variabelexpansion"
+
+#: grecs/wordsplit/wordsplit.c:2605
+msgid "quote removal"
+msgstr "borttagning av citattecken"
+
+#: grecs/wordsplit/wordsplit.c:2609
+msgid "path expansion"
+msgstr "sökvägsexpansion"
+
+#: grecs/wordsplit/wordsplit.c:2634
+#, c-format
+msgid "(%02d) Input:%.*s;"
+msgstr "(%02d) Indata:%.*s;"
+
+#: grecs/wordsplit/wordsplit.c:2660
+msgid "Initial list:"
+msgstr "Ursprunglig lista:"
+
+#: grecs/wordsplit/wordsplit.c:2675
+msgid "Coalesced list:"
+msgstr "Förenad lista:"
+
+#: grecs/wordsplit/wordsplit.c:2849
+msgid "no error"
+msgstr "inget fel"
+
+#: grecs/wordsplit/wordsplit.c:2850
+msgid "missing closing quote"
+msgstr "saknar avslutande citattecken"
+
+#: grecs/wordsplit/wordsplit.c:2852
+msgid "invalid wordsplit usage"
+msgstr "ogiltig användning av orddelning"
+
+#: grecs/wordsplit/wordsplit.c:2853
+msgid "unbalanced curly brace"
+msgstr "obalanserad klammerparentes"
+
+#: grecs/wordsplit/wordsplit.c:2854
+msgid "undefined variable"
+msgstr "odefinierad variabel"
+
+#: grecs/wordsplit/wordsplit.c:2855
+msgid "input exhausted"
+msgstr "slut på indata"
+
+#: grecs/wordsplit/wordsplit.c:2856
+msgid "unbalanced parenthesis"
+msgstr "obalanserad parentes"
+
+#: grecs/wordsplit/wordsplit.c:2857
+msgid "globbing error"
+msgstr "matchningsfel"
+
+#: grecs/wordsplit/wordsplit.c:2858
+msgid "user-defined error"
+msgstr "användardefinierat fel"
+
+#: grecs/wordsplit/wordsplit.c:2859
+msgid "invalid parameter number in assignment"
+msgstr "ogiltigt parameternummer i tilldelning"
+
+#: grecs/wordsplit/wordsplit.c:2871
+msgid "unknown error"
+msgstr "okänt fel"
+
+#: grecs/wordsplit/wordsplit.c:2880
+#, c-format
+msgid "missing closing %c (start near #%lu)"
+msgstr "saknar stängande %c (börjar nära #%lu)"
+
+#: parseopt/help.c:91
+#, c-format
+msgid "error in ARGP_HELP_FMT: improper usage of [no-]%s"
+msgstr "fel i ARGP_HELP_FMT: felaktig användning av [no-]%s"
+
+#: parseopt/help.c:104
+#, c-format
+msgid "error in ARGP_HELP_FMT: bad value for %s (near %s)"
+msgstr "fel i ARGP_HELP_FMT: dåligt värde för %s (nära %s)"
+
+#: parseopt/help.c:110
+#, c-format
+msgid "error in ARGP_HELP_FMT: %s value is out of range"
+msgstr "fel i ARGP_HELP_FMT: värdet %s är utanför intervallet"
+
+#: parseopt/help.c:117
+#, c-format
+msgid "%s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%s: parametern ARGP_HELP_FMT kräver ett värde"
+
+#: parseopt/help.c:123
+#, c-format
+msgid "%s: unknown ARGP_HELP_FMT parameter"
+msgstr "%s: okänd parameter i ARGP_HELP_FMT"
+
+#: parseopt/help.c:149
+#, c-format
+msgid "ARGP_HELP_FMT: missing delimiter near %s"
+msgstr "ARGP_HELP_FMT: saknad avgränsare nära %s"
+
+#: parseopt/help.c:300
+msgid "Usage:"
+msgstr "Användning:"
+
+#: parseopt/help.c:319
+#, c-format
+msgid "or: %s [OPTIONS...] %s\n"
+msgstr "eller %s [ALTERNATIV...] %s\n"
+
+#: parseopt/help.c:582
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Obligatoriska eller valfria argument till långa flaggor är också obligatoriska eller valfria för motsvarande korta flaggor."
+
+#: parseopt/help.c:584
+msgid "If an option has several forms, mandatory or optional argument is listed only once, after the last form."
+msgstr "Om ett alternativ har flera former listas ett obligatoriskt eller valfritt argument endast en gång, efter den sista formen."
+
+#: parseopt/help.c:740
+#, c-format
+msgid "usage: %s"
+msgstr "Användning: %s"
+
+#: parseopt/help.c:746
+msgid "[OPTIONS...]"
+msgstr "[ALTERNATIV...]"
+
+#: parseopt/help.c:757
+#, c-format
+msgid "or: %s %s\n"
+msgstr "eller: %s %s\n"
+
+#: parseopt/help.c:802
+#, c-format
+msgid "Report bugs and suggestions to <%s>\n"
+msgstr ""
+"Rapportera fel och förslag till <%s>\n"
+"Skicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>\n"
+
+#: parseopt/help.c:806
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Webbsida för %s: <%s>\n"
+
+#: parseopt/optset.c:122 parseopt/optset.c:138
+msgid "memory allocation error"
+msgstr "Minnesallokeringsfel"
+
+#: parseopt/parseopt.c:71
+#, c-format
+msgid "unrecognized option '-%c'"
+msgstr "okänd flagga '-%c'"
+
+#: parseopt/parseopt.c:142
+#, c-format
+msgid "option '%s%*.*s' is ambiguous; possibilities:"
+msgstr "alternativet '%s%*.*s' är tvetydigt; möjligheter:"
+
+#: parseopt/parseopt.c:174
+#, c-format
+msgid "unrecognized option '%s%*.*s'"
+msgstr "okänd flagga '%s%*.*s'"
+
+#: parseopt/parseopt.c:337
+#, c-format
+msgid "option '%s%s' requires argument"
+msgstr "alternativet '%s%s' kräver ett argument"
+
+#: parseopt/parseopt.c:351
+#, c-format
+msgid "option '%s%s' does not take argument"
+msgstr "alternativet '%s%s' tar inte emot argument"
+
+#: parseopt/parseopt.c:364
+#, c-format
+msgid "bad value for option '%s%s'"
+msgstr "felaktigt värde för alternativet '%s%s'"
+
+#: parseopt/parseopt.c:388
+#, c-format
+msgid "invalid argument '%s'"
+msgstr "ogiltigt argument ”%s”"
+
+#: parseopt/parseopt.c:571
+msgid "Informative options"
+msgstr "Informativa alternativ"
+
+#: parseopt/parseopt.c:576
+msgid "produce this help text"
+msgstr "visa denna hjälptext"
+
+#: parseopt/parseopt.c:585
+msgid "give a short usage message"
+msgstr "ger ett kort användningsmeddelande"
+
+#: parseopt/parseopt.c:595 parseopt/parseopt.c:604
+msgid "print program version"
+msgstr "visa programversion"
+
+#~ msgid "Aliases"
+#~ msgstr "Alias"
+
+#~ msgid "Alias"
+#~ msgstr "Alias"
+
+#~ msgid ""
+#~ "License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+#~ "This is free software: you are free to change and redistribute it.\n"
+#~ "There is NO WARRANTY, to the extent permitted by law.\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+#~ "Det här är fri programvara: du får ändra och distribuera den.\n"
+#~ "Det finns INGEN GARANTI, så långt som tillåts enligt lag.\n"
+#~ "\n"
+
+#~ msgid "Written by "
+#~ msgstr "Skriven av "
+
+#~ msgid ", "
+#~ msgstr ", "
+
+#~ msgid " and "
+#~ msgstr " och "
+
+#~ msgid "cannot run redirector `%s': fork failed: %s"
+#~ msgstr "det går inte att köra omdirigeraren ”%s”, ”fork” misslyckades: %s"
+
+#~ msgid "Unable to start external preprocessor `%s'"
+#~ msgstr "Kan inte starta extern preprocessor ”%s”"
+
+#~ msgid "%s: unknown keyword"
+#~ msgstr "%s: okänt nyckelord"
+
+#~ msgid "(%02d) Restart:%.*s;"
+#~ msgstr "(%02d) Omstart:%.*s;"
