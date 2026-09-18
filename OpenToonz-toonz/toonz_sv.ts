@@ -10965,172 +10965,172 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     <name>SVNRevertDialog</name>
     <message>
         <source>Version Control: Revert changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Återställ ändringar</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Revert Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ sceninnehåll</translation>
     </message>
     <message>
         <source>Revert</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>No items to revert.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att återställa.</translation>
     </message>
     <message>
         <source>%1 items to revert.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att återställa.</translation>
     </message>
     <message>
         <source>Reverting %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställer %1 objekt …</translation>
     </message>
     <message>
         <source>Revert done successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställningen slutfördes.</translation>
     </message>
 </context>
 <context>
     <name>SVNRevertFrameRangeDialog</name>
     <message>
         <source>Version Control: Revert Frame Range changes</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Återställ ändringar av bildruteintervall</translation>
     </message>
     <message>
         <source>1 item to revert.</source>
-        <translation type="unfinished"></translation>
+        <translation>1 objekt att återställa.</translation>
     </message>
     <message>
         <source>Revert</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Reverting 1 item...</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställer 1 objekt …</translation>
     </message>
     <message>
         <source>Revert done successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställningen slutfördes.</translation>
     </message>
     <message>
         <source>Reverting %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställer %1 objekt …</translation>
     </message>
     <message>
         <source>It is not possible to revert the file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att återställa filen.</translation>
     </message>
 </context>
 <context>
     <name>SVNTimeline</name>
     <message>
         <source>Version Control: Timeline </source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Tidslinje </translation>
     </message>
     <message>
         <source>Getting file history...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar filhistorik …</translation>
     </message>
     <message>
         <source>Get Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta sceninnehåll</translation>
     </message>
     <message>
         <source>Get Last Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta senaste revision</translation>
     </message>
     <message>
         <source>Get Selected Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämta vald revision</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Date</source>
-        <translation type="unfinished"></translation>
+        <translation>Datum</translation>
     </message>
     <message>
         <source>Author</source>
-        <translation type="unfinished"></translation>
+        <translation>Författare</translation>
     </message>
     <message>
         <source>Comment</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar</translation>
     </message>
     <message>
         <source>Revision</source>
-        <translation type="unfinished"></translation>
+        <translation>Revision</translation>
     </message>
     <message>
         <source>Getting the status for %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar status för %1 …</translation>
     </message>
     <message>
         <source>Getting %1 to revision %2...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar %1 till revision %2 …</translation>
     </message>
     <message>
         <source>Getting %1 items to revision %2...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar %1 objekt till revision %2 …</translation>
     </message>
     <message>
         <source>Getting %1...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar %1 …</translation>
     </message>
     <message>
         <source>Getting %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar %1 objekt …</translation>
     </message>
 </context>
 <context>
     <name>SVNUnlockFrameRangeDialog</name>
     <message>
         <source>Version Control: Unlock Frame Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Lås upp bildruteintervall</translation>
     </message>
     <message>
         <source>Note: the file will be updated too. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Obs! Filen uppdateras också. Är du säker?</translation>
     </message>
     <message>
         <source>Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Unlock done successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>Upplåsningen slutfördes.</translation>
     </message>
     <message>
         <source>Locking file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Låser fil …</translation>
     </message>
     <message>
         <source>Getting frame range edit information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar information om redigeringar av bildruteintervall …</translation>
     </message>
     <message>
         <source>No frame range edited.</source>
