@@ -27,6 +27,8 @@ Senast uppdaterad: 2026-09-18
 
 **Fossify Documents:** Den aktiva Android-appen har release `1.0.1` från 2026-08-01. Metadataresursen är nu **2/2** svenska poster, med 0 fuzzy och 0 kvalitetsmarkeringar enligt Hosted Weblate. Den fullständiga appbeskrivningen är kontextgranskad: offlinefunktion, PDF/DOCX/Markdown/CSV/TSV/HTML, lösenordsskyddade PDF:er, redigering, lagring på enheten och frånvaro av annonser, analyser och spårning. Officiellt metadataarkiv: `Fossify-Documents/metadata-sv.zip` (SHA-256 `feb38d2c…ad47d`).
 
+**Freeplane uppdatering 2026-09-18:** Den fjärde UI-granskningen har publicerats. Aktuell status är **1 721/2 804** svenska poster med **61** fuzzy och 28 kvalitetsmarkeringar. Batchen rättade 25 ytterligare texter för säkerhetskopior, automatisk sparning, kart-/anteckningsfokus, sökning, filter, tangentbindningar och nodformatering. Senaste officiella export: `Freeplane/Freeplane_sv.properties` (SHA-256 `3d71278b…d58da`).
+
 **Arbetsregler:** Dokumentation har alltid lägre prioritet än programgränssnitt och webbplatser. Använd `yeager/hunspell-sv` och `yeager/l10n-lint` vid granskning. Skicka in färdiggranskat arbete direkt via officiell kanal. Dokumentera osäkerheter här och gå vidare till nästa arbete utan att invänta användaren. Säkerhetskopiera svenska officiella exporter i detta arkiv och uppdatera status efter avslutade jobb. 100 % täckning är inte i sig bevis på genomförd språkgranskning.
 
 ## Codeberg Weblate – svensk indexering 2026-09-12
