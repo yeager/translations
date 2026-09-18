@@ -1929,12 +1929,12 @@ This can take up to %1 seconds.</source>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="69"/>
         <source>4 Way Cardinal</source>
-        <translation>Fyrvägs med huvudriktningar</translation>
+        <translation>4-vägs med huvudriktningar</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="71"/>
         <source>4 Way Diagonal</source>
-        <translation>Fyrvägs diagonalt</translation>
+        <translation>4-vägs diagonalt</translation>
     </message>
     <message>
         <location filename="../../../src/dpadcontextmenu.cpp" line="76"/>
@@ -2007,12 +2007,12 @@ This can take up to %1 seconds.</source>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="131"/>
         <source>4 Way Cardinal</source>
-        <translation>Fyrvägs med huvudriktningar</translation>
+        <translation>4-vägs med huvudriktningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="136"/>
         <source>4 Way Diagonal</source>
-        <translation>Fyrvägs diagonalt</translation>
+        <translation>4-vägs diagonalt</translation>
     </message>
     <message>
         <location filename="../../../src/gui/dpadeditdialog.ui" line="166"/>
@@ -2066,10 +2066,10 @@ när riktningsplattan befinner sig i ett diagonalt område.
 en egen dedikerad knapp. Endast en knapp är aktiv åt
 gången. Användbart för roguelike-spel.
 
-Fyrvägs med huvudriktningar: riktningsplatta med 4 områden som motsvarar
+4-vägs med huvudriktningar: riktningsplatta med 4 områden som motsvarar
 riktningsplattans huvudriktningar. Användbart för menyer.
 
-Fyrvägs diagonalt: riktningsplatta med 4 områden där varje område motsvarar
+4-vägs diagonalt: riktningsplatta med 4 områden där varje område motsvarar
 en diagonal zon.</translation>
     </message>
     <message>
@@ -2870,12 +2870,12 @@ Om den förkastas återställs handkontrollen till en styrspak när du uppdatera
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="142"/>
         <source>4 Way Cardinal</source>
-        <translation>Fyrvägs med huvudriktningar</translation>
+        <translation>4-vägs med huvudriktningar</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="151"/>
         <source>4 Way Diagonal</source>
-        <translation>Fyrvägs diagonalt</translation>
+        <translation>4-vägs diagonalt</translation>
     </message>
     <message>
         <location filename="../../../src/joycontrolstickcontextmenu.cpp" line="162"/>
@@ -2985,21 +2985,21 @@ när styrspaken befinner sig i ett diagonalt område.
 en egen dedikerad knapp. Endast en knapp är aktiv åt
 gången. Användbart för roguelike-spel.
 
-Fyrvägs med huvudriktningar: styrspak med 4 områden som motsvarar
+4-vägs med huvudriktningar: styrspak med 4 områden som motsvarar
 styrspakens huvudriktningar. Användbart för menyer.
 
-Fyrvägs diagonalt: styrspak med 4 områden där varje område motsvarar
+4-vägs diagonalt: styrspak med 4 områden där varje område motsvarar
 en diagonal zon på styrspaken.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="374"/>
         <source>4 Way Cardinal</source>
-        <translation>Fyrvägs med huvudriktningar</translation>
+        <translation>4-vägs med huvudriktningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="379"/>
         <source>4 Way Diagonal</source>
-        <translation>Fyrvägs diagonalt</translation>
+        <translation>4-vägs diagonalt</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joycontrolstickeditdialog.ui" line="531"/>
@@ -3468,7 +3468,7 @@ functionality to an analog stick.</source>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1109"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="2482"/>
         <source>&lt;New&gt;</source>
-        <translation>&lt;Ny&gt;</translation>
+        <translation>&amp;lt;Ny&amp;gt;</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="98"/>
@@ -3621,7 +3621,7 @@ functionality to an analog stick.</source>
         <location filename="../../../src/gui/joytabwidget.cpp" line="460"/>
         <location filename="../../../src/gui/joytabwidget.cpp" line="1628"/>
         <source>Pref</source>
-        <translation>Inställn.</translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joytabwidget.cpp" line="462"/>
@@ -3754,17 +3754,17 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="23"/>
         <source>Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Egenskaper</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="50"/>
         <source>Details</source>
-        <translation type="unfinished"></translation>
+        <translation>Detaljer</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="64"/>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="71"/>
@@ -3776,27 +3776,27 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="284"/>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="320"/>
         <source>%1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="91"/>
         <source>Number:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nummer:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="118"/>
         <source>Axes:</source>
-        <translation type="unfinished"></translation>
+        <translation>Axlar:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="145"/>
         <source>Buttons:</source>
-        <translation type="unfinished"></translation>
+        <translation>Knappar:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="172"/>
         <source>Hats:</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningshattar:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="199"/>
@@ -3806,38 +3806,38 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="244"/>
         <source>Battery:</source>
-        <translation type="unfinished"></translation>
+        <translation>Batteri:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="257"/>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="79"/>
         <source>Unknown</source>
-        <translation type="unfinished"></translation>
+        <translation>Okänd</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="277"/>
         <source>GUID:</source>
-        <translation type="unfinished"></translation>
+        <translation>GUID:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="313"/>
         <source>Game Controller:</source>
-        <translation type="unfinished"></translation>
+        <translation>Handkontroll:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="343"/>
         <source>Axes</source>
-        <translation type="unfinished"></translation>
+        <translation>Axlar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="406"/>
         <source>Buttons</source>
-        <translation type="unfinished"></translation>
+        <translation>Knappar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="469"/>
         <source>Hats</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningshattar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.ui" line="490"/>
@@ -3847,7 +3847,7 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="50"/>
         <source>%1 (#%2) Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Egenskaper för %1 (nr %2)</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="58"/>
@@ -3902,22 +3902,22 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="124"/>
         <source>Axis %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Axel %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="177"/>
         <source>Hat %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Riktningshatt %1</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="291"/>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <location filename="../../../src/gui/joystickstatuswindow.cpp" line="294"/>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja</translation>
     </message>
 </context>
 <context>
@@ -3925,32 +3925,32 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="29"/>
         <source>Edit Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera inställningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="70"/>
         <source>General</source>
-        <translation type="unfinished"></translation>
+        <translation>Allmänt</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="75"/>
         <source>Controller Mappings</source>
-        <translation type="unfinished"></translation>
+        <translation>Handkontrollmappningar</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="80"/>
         <source>Language</source>
-        <translation type="unfinished"></translation>
+        <translation>Språk</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="85"/>
         <source>Auto Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk profil</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="90"/>
         <source>Mouse</source>
-        <translation type="unfinished"></translation>
+        <translation>Mus</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="95"/>
@@ -3965,17 +3965,17 @@ till knappar eller inaktivera att tomma knappar döljs.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="155"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Specify the default directory that the program should use in file dialogs when loading a profile or saving a new profile.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ange standardkatalogen som programmet ska använda i fildialoger när en profil läses in eller en ny profil sparas.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="182"/>
         <source>Recent Profile Count:</source>
-        <translation type="unfinished"></translation>
+        <translation>Antal senaste profiler:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="189"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Number of profiles that can be placed in recent profile list. 0 will result in the program not enforcing a limit on the number of profiles displayed.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Antal profiler som kan placeras i listan över senast använda profiler. 0 innebär att programmet inte begränsar antalet profiler som visas.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="225"/>
