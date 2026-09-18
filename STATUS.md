@@ -2,6 +2,8 @@
 
 Senast uppdaterad: 2026-09-18
 
+**Språkverktyg (2026-09-18):** `swedish-foss-terminology` hade ett dokumenterat CSV-schema som inte motsvarade den faktiska exporten; schema och exempel är rättade och publicerade. `svlang` rättades och testades (55 tester passerar): frekvenskontrollen skiljer nu Hunspell-godkända svenska böjningar från okända ord, och svengelskakontrollen ger inte längre falsklarm för *blockerad* eller *adresser*. Förbättringarna kom från valideringen av Orbot och är pushade till respektive verktygsrepo.
+
 **Paperless-ngx QA, stavning (2026-09-18):** Första CrowdIn-gruppen med stavningsmarkeringar har lästs i produktkontext. Nästan alla träffar är korrekta produktnamn, platshållare, API-/OCR-/PDF-identiferare, sammansättningar eller protokolltermer. Ett faktiskt kvarlämnat engelskt ML-ord rättades och skickades: `Train Classifier` → **Träna klassificerare**.
 
 **Paperless-ngx (2026-09-18):** Den svenska resursen är åter komplett efter en uppströmsuppdatering: **2 118/2 118** fraser enligt Crowdin. Femton nya, kontextgranskade texter för AI-förslag och offentliga dokumentlänkar är inskickade, inklusive utgångna länkar, felhantering, borttagning och beskrivningen av åtkomst till enskilda dokument och dokumentpaket. API-återläsning bekräftar varje publicerad måltext; hunspell-sv har endast den etablerade gränssnittstermen *Sidindelning* som träff. Det finns fortfarande 282 äldre CrowdIn-QA-markeringar att granska separat. Delbackup: `Paperless-ngx/sv-published-20260918.json`.
