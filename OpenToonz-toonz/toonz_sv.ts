@@ -11328,46 +11328,46 @@ Checka in eller återställ ändringarna först.</translation>
     <name>SavePaletteAsPopup</name>
     <message>
         <source>Save Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara palett</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
 </context>
 <context>
     <name>SavePresetPopup</name>
     <message>
         <source>Save Preset</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara förinställning</translation>
     </message>
     <message>
         <source>Preset Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn på förinställning:</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>It is not possible to create the preset folder %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att skapa mappen %1 för förinställningar.</translation>
     </message>
     <message>
         <source>Do you want to overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Vill du skriva över?</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nej</translation>
     </message>
 </context>
 <context>
@@ -11385,11 +11385,11 @@ Checka in eller återställ ändringarna först.</translation>
     <name>SaveSceneAsPopup</name>
     <message>
         <source>Save Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara scen</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
 </context>
 <context>
@@ -11407,68 +11407,68 @@ Checka in eller återställ ändringarna först.</translation>
     <name>SaveSubSceneAsPopup</name>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
     <message>
         <source>Sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Under-XSheet</translation>
     </message>
 </context>
 <context>
     <name>SaveTaskListPopup</name>
     <message>
         <source>Save Task List</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara uppgiftslista</translation>
     </message>
     <message>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara</translation>
     </message>
 </context>
 <context>
     <name>ScanSettingsPopup</name>
     <message>
         <source>Scan Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Skanningsinställningar</translation>
     </message>
     <message>
         <source>[no scanner]</source>
-        <translation type="unfinished"></translation>
+        <translation>[ingen skanner]</translation>
     </message>
     <message>
         <source>Paper Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pappersformat:</translation>
     </message>
     <message>
         <source>Reverse Order</source>
-        <translation type="unfinished"></translation>
+        <translation>Omvänd ordning</translation>
     </message>
     <message>
         <source>Paper Feeder</source>
-        <translation type="unfinished"></translation>
+        <translation>Dokumentmatare</translation>
     </message>
     <message>
         <source>Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge:</translation>
     </message>
     <message>
         <source>Dpi: </source>
-        <translation type="unfinished"></translation>
+        <translation>DPI: </translation>
     </message>
     <message>
         <source>Brightness: </source>
-        <translation type="unfinished"></translation>
+        <translation>Ljusstyrka: </translation>
     </message>
     <message>
         <source>Threshold: </source>
-        <translation type="unfinished"></translation>
+        <translation>Tröskelvärde: </translation>
     </message>
 </context>
 <context>
     <name>SceneSettingsPopup</name>
     <message>
         <source>Scene Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Sceninställningar</translation>
     </message>
     <message>
         <source>          Frame Rate:</source>
@@ -11476,7 +11476,7 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Camera BG Color:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bakgrundsfärg för kamera:</translation>
     </message>
     <message>
         <source>Viewer BG Color:</source>
@@ -11496,7 +11496,7 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Image Subsampling:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildnedsampling:</translation>
     </message>
     <message>
         <source>      Marker Interval:</source>
@@ -11504,7 +11504,7 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>A/R:</source>
-        <translation type="unfinished"></translation>
+        <translation>B/h:</translation>
     </message>
     <message>
         <source>Safe Area Box 2:</source>
@@ -11516,7 +11516,7 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>TLV Subsampling:</source>
-        <translation type="unfinished"></translation>
+        <translation>TLV-nedsampling:</translation>
     </message>
     <message>
         <source>Start Frame:</source>
@@ -11528,42 +11528,42 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Field Guide Size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Storlek på fältguide:</translation>
     </message>
     <message>
         <source>Frame Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildfrekvens:</translation>
     </message>
     <message>
         <source>Marker Interval:</source>
-        <translation type="unfinished"></translation>
+        <translation>Markeringsintervall:</translation>
     </message>
     <message>
         <source>  Start Frame:</source>
-        <translation type="unfinished"></translation>
+        <translation>  Startbildruta:</translation>
     </message>
     <message>
         <source>Enable Column Color Filter and Transparency for Rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera kolumnfärgfilter och genomskinlighet vid rendering</translation>
     </message>
 </context>
 <context>
     <name>SceneViewerContextMenu</name>
     <message>
         <source>Swap Compared Images</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla jämförda bilder</translation>
     </message>
     <message>
         <source>Save Previewed Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara förhandsgranskade bildrutor</translation>
     </message>
     <message>
         <source>Regenerate Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Generera om förhandsgranskning</translation>
     </message>
     <message>
         <source>Regenerate Frame Preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Generera om förhandsgranskning av bildruta</translation>
     </message>
     <message>
         <source>Select </source>
@@ -11579,7 +11579,7 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Show / Hide</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa/dölj</translation>
     </message>
     <message>
         <source>Reset Subcamera</source>
