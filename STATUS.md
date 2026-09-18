@@ -2,7 +2,7 @@
 
 Senast uppdaterad: 2026-09-18
 
-**Syncthing GUI (2026-09-18):** Hela huvudgränssnittet är granskat trots redan full täckning: **563/563** svenska strängar, 0 tomma, 0 ogranskade och 0 Weblate-kontroller. Synkronisering, enhetsparning, mappdelning, kryptering, versionshantering, relay, nätverksregler och åtkomstnycklar har språkgranskats i produktkontext. Officiell export: `Syncthing/gui-sv.json` (JSON- samt Syncthing-mall/platshållarvaliderad och hunspell-sv-granskad; l10n-lint saknar JSON-stöd).
+**Syncthing GUI (2026-09-18):** Hela huvudgränssnittet är granskat trots redan full täckning: **563/563** svenska strängar, 0 tomma, 0 ogranskade och 0 Weblate-kontroller. Synkronisering, enhetsparning, mappdelning, kryptering, versionshantering, relay, nätverksregler och åtkomstnycklar har språkgranskats i produktkontext. Officiell export: `Syncthing/gui-sv.json` (JSON-validerad och hunspell-sv-granskad; API-kontroll bekräftar att Syncthings `{{…}}`-mallar och platshållare är bevarade. JSON-exporten skriver däremot källmallar som `{%…%}`, vilket inte är en käll- eller måltextavvikelse. l10n-lint saknar JSON-stöd).
 
 **CalyxOS Android Auto support (2026-09-18):** Android Auto-stödet är färdigställt: **8/8** strängar, 0 tomma och 0 ogranskade. Konfigurationsflödet bevarar upplysningen om extra appar och integritetskonsekvenser. Officiell export: `CalyxOS-Android-Auto/strings.xml` (XML-validerad).
 
