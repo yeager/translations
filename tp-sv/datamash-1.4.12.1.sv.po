@@ -1,0 +1,834 @@
+# Swedish messages for datamash.
+# Copyright © 2015, 2016, 2017 Free Software Foundation, Inc.
+# This file is distributed under the same license as the datamash package.
+# Translations from Coreutils:
+# Peter Antman <peter.antman@abc.se>, 1997.
+# Thomas Olsson <cid95tho@lustudat.student.lu.se>, 1997.
+# Daniel Resare <daniel@resare.com> 1999, 2000.
+# Göran Uddeborg <goeran@uddeborg.se>, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015.
+#
+# Datamash translation:
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2015, 2016, 2017.
+# Luna Jernberg <droidbittin@gmail.com>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: datamash 1.4.12.1\n"
+"Report-Msgid-Bugs-To: bug-datamash@gnu.org\n"
+"POT-Creation-Date: 2019-08-31 20:56-0600\n"
+"PO-Revision-Date: 2022-02-15 10:37+0100\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: lib/closeout.c:122
+msgid "write error"
+msgstr "skrivfel"
+
+#: lib/error.c:195
+msgid "Unknown system error"
+msgstr "Okänt systemfel"
+
+#: lib/getopt.c:278
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: flaggan ”%s%s” är tvetydig\n"
+
+#: lib/getopt.c:284
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: flaggan ”%s%s” är tvetydig; möjligheter:"
+
+#: lib/getopt.c:319
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: okänd flagga ”%s%s”\n"
+
+#: lib/getopt.c:345
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: flaggan ”%s%s” tar inget argument\n"
+
+#: lib/getopt.c:360
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: flaggan ”%s%s” kräver ett argument\n"
+
+#: lib/getopt.c:621
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: ogiltig flagga -- ”%c”\n"
+
+#: lib/getopt.c:636 lib/getopt.c:682
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:362
+msgid "`"
+msgstr "”"
+
+#: lib/quotearg.c:363
+msgid "'"
+msgstr "”"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Paketerad av %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Paketerad av %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Licens GPLv3+: GNU GPL version 3 eller senare <%s>.\n"
+"Detta är fri programvara: du får lov att ändra och vidaredistribuera den.\n"
+"Det finns INGEN GARANTI, så långt lagen tillåter.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Skrivet av %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Skrivet av %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Skrivet av %s, %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s\n"
+"och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
+"och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s med flera.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr ""
+"Rapportera fel till %s\n"
+"Rapportera kommentarer om översättningen till <tp-sv@listor.tp-sv.se>\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr ""
+"Rapportera fel i %s till %s\n"
+"Rapportera kommentarer om översättningen till <tp-sv@listor.tp-sv.se>\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s hemsida: <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "Allmän hjälp med att använda GNU-program: <%s>\n"
+
+#: lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "minnet slut"
+
+#: lib/xstrtol-error.c:63
+#, c-format
+msgid "invalid %s%s argument '%s'"
+msgstr "felaktigt argument till %s%s: ”%s”"
+
+#: lib/xstrtol-error.c:68
+#, c-format
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr "felaktigt suffix i argument till %s%s ”%s”"
+
+#: lib/xstrtol-error.c:72
+#, c-format
+msgid "%s%s argument '%s' too large"
+msgstr "argument ”%3$s” till %1$s%2$s är för stort"
+
+#. This is a proper name. See the gettext manual, section Names.
+#: src/datamash.c:65
+msgid "Assaf Gordon"
+msgstr "Assaf Gordon"
+
+#: src/datamash.c:161 src/datamash.c:503
+#, c-format
+msgid "column name %s not found in input file"
+msgstr "kolumnnamnet %s hittades inte i indatafil"
+
+#: src/datamash.c:174
+#, c-format
+msgid "Usage: %s [OPTION] op [fld] [op fld ...]\n"
+msgstr "Användning: %s [FLAGGA] åtg [flt] [åtg flt ...]\n"
+
+#: src/datamash.c:177
+msgid "Performs numeric/string operations on input from stdin."
+msgstr "Utför numeriska åtgärder eller strängåtgärder på indata från stdin."
+
+#: src/datamash.c:180
+msgid ""
+"'op' is the operation to perform.  If a primary operation is used,\n"
+"it must be listed first, optionally followed by other operations.\n"
+msgstr ""
+"”åtg” är åtgärden att utföra. Om en primär åtgärd används\n"
+"måste den listas först, möjligen följd av andra åtgärder.\n"
+
+#: src/datamash.c:183
+msgid ""
+"'fld' is the input field to use.  'fld' can be a number (1=first field),\n"
+"or a field name when using the -H or --header-in options.\n"
+msgstr ""
+"”flt” är indatafältet att använda. ”flt” kan vara ett tal (1=första fältet),\n"
+"eller ett fältnamn då flaggorna -H eller --header-in används.\n"
+
+# Hyphen used in example rather than dash.
+#: src/datamash.c:186
+msgid ""
+"Multiple fields can be listed with a comma (e.g. 1,6,8).  A range of\n"
+"fields can be listed with a dash (e.g. 2-8).  Use colons for operations\n"
+"which require a pair of fields (e.g. 'pcov 2:6').\n"
+msgstr ""
+"Flera fält kan listas med ett komma (t.ex. 1,6,8).  Ett intervall\n"
+"av fält kan listas med ett bindestreck (t.ex. 2-8).  Använd kolon för\n"
+"åtgärder som kräver ett fältpar (t.ex. ”pcov 2:6”).\n"
+
+#: src/datamash.c:191
+msgid "Primary operations:\n"
+msgstr "Primära åtgärder:\n"
+
+#: src/datamash.c:194
+msgid "Line-Filtering operations:\n"
+msgstr "Radfiltreringsåtgärder:\n"
+
+#: src/datamash.c:197
+msgid "Per-Line operations:\n"
+msgstr "Åtgärder per rad:\n"
+
+#: src/datamash.c:202
+msgid "Numeric Grouping operations:\n"
+msgstr "Numeriska grupperingsåtgärder:\n"
+
+#: src/datamash.c:205
+msgid "Textual/Numeric Grouping operations:\n"
+msgstr "Textuella/numeriska grupperingsåtgärder:\n"
+
+#: src/datamash.c:209
+msgid "Statistical Grouping operations:\n"
+msgstr "Statistiska grupperingsåtgärder:\n"
+
+#: src/datamash.c:218
+msgid "Grouping Options:\n"
+msgstr "Grupperingsflaggor:\n"
+
+#: src/datamash.c:219
+msgid ""
+"  -C, --skip-comments       skip comment lines (starting with '#' or ';'\n"
+"                              and optional whitespace)\n"
+msgstr ""
+"  -C, --skip-comments       hoppa över kommentarsrader (börjar med ”#” eller "
+"”;”"
+"\n"
+"                              eventuellt efter blanktecken)\n"
+
+#: src/datamash.c:223
+msgid ""
+"  -f, --full                print entire input line before op results\n"
+"                              (default: print only the grouped keys)\n"
+msgstr ""
+"  -f, --full                skriv ut hela indataraden innan resultat av åtg\n"
+"                              (standard: skriv ut endast de grupperade\n"
+"                              nycklarna)\n"
+
+#: src/datamash.c:227
+msgid ""
+"  -g, --group=X[,Y,Z]       group via fields X,[Y,Z];\n"
+"                              equivalent to primary operation 'groupby'\n"
+msgstr ""
+"  -g, --group=X[,Y,Z]       gruppera via fälten X,[Y,Z];\n"
+"                              likvärdig med den primära åtgärden ”groupby”\n"
+
+#: src/datamash.c:231
+msgid "      --header-in           first input line is column headers\n"
+msgstr "      --header-in           första indatarad är kolumnrubriker\n"
+
+#: src/datamash.c:234
+msgid "      --header-out          print column headers as first line\n"
+msgstr "      --header-out          skriv ut kolumnrubriker som första rad\n"
+
+#: src/datamash.c:237
+msgid "  -H, --headers             same as '--header-in --header-out'\n"
+msgstr "  -H, --headers             samma som ”--header-in --header-out”\n"
+
+#: src/datamash.c:240
+msgid ""
+"  -i, --ignore-case         ignore upper/lower case when comparing text;\n"
+"                              this affects grouping, and string operations\n"
+msgstr ""
+"  -i, --ignore-case         ignorera skiftläge då text jämförs;\n"
+"                              detta påverkar gruppering och strängåtgärder\n"
+
+#: src/datamash.c:244
+msgid ""
+"  -s, --sort                sort the input before grouping; this removes the\n"
+"                              need to manually pipe the input through 'sort'\n"
+msgstr ""
+"  -s, --sort                sortera indata innan gruppering; detta tar bort\n"
+"                              behovet av att manuellt skicka indata genom ”sort”\n"
+
+#: src/datamash.c:249
+msgid "File Operation Options:\n"
+msgstr "Filåtgärdsflaggor:\n"
+
+#: src/datamash.c:250
+msgid "      --no-strict           allow lines with varying number of fields\n"
+msgstr "      --no-strict           tillåt rader med varierande antal fält\n"
+
+#: src/datamash.c:253
+#, c-format
+msgid "      --filler=X            fill missing values with X (default %s)\n"
+msgstr "      --filler=X            fyll i saknade värden med X (standard %s)\n"
+
+#: src/datamash.c:258
+msgid "General Options:\n"
+msgstr "Allmänna flaggor:\n"
+
+#: src/datamash.c:259
+msgid "  -t, --field-separator=X   use X instead of TAB as field delimiter\n"
+msgstr "  -t, --field-separator=X   använd X istället för TAB som fältseparator\n"
+
+#: src/datamash.c:262
+msgid ""
+"      --format=FORMAT       print numeric values with printf style\n"
+"                            floating-point FORMAT.\n"
+msgstr ""
+"      --format=FORMAT       skriv ut tal med flyttalsformatet FORMAT\n"
+"                            i printf-stil.\n"
+
+#: src/datamash.c:266
+msgid ""
+"      --output-delimiter=X  use X instead as output field delimiter\n"
+"                            (default: use same delimiter as -t/-W)\n"
+msgstr ""
+"      --output-delimiter=X  använd X istället som utdatafältsavgränsare\n"
+"                            (standard: använd samma avgränsare som -t/-W)\n"
+
+#: src/datamash.c:270
+msgid "      --narm                skip NA/NaN values\n"
+msgstr "      --narm                hoppa över NA/NaN-värden\n"
+
+#: src/datamash.c:273
+msgid "  -R, --round=N             round numeric output to N decimal places\n"
+msgstr "  -R, --round=N             avrunda numerisk utdata till N decimaler\n"
+
+#: src/datamash.c:276
+msgid ""
+"  -W, --whitespace          use whitespace (one or more spaces and/or tabs)\n"
+"                              for field delimiters\n"
+msgstr ""
+"  -W, --whitespace          använd blanktecken (ett eller flera mellanslag "
+"och/eller\n"
+"                              tabulatorer) som fältavgränsare\n"
+
+#: src/datamash.c:280
+msgid "  -z, --zero-terminated     end lines with 0 byte, not newline\n"
+msgstr "  -z, --zero-terminated     avsluta rader med nollbyte, inte nyrad\n"
+
+#: src/datamash.c:289
+msgid "Examples:"
+msgstr "Exempel:"
+
+#: src/datamash.c:291
+msgid "Print the sum and the mean of values from column 1:"
+msgstr "Skriv summan och medelvärdet av värden från kolumn 1:"
+
+#: src/datamash.c:296
+msgid "Transpose input:"
+msgstr "Transponera indata:"
+
+#: src/datamash.c:303
+msgid "For detailed usage information and examples, see\n"
+msgstr "För utförlig användningsinformation och exempel, se\n"
+
+#: src/datamash.c:305
+msgid "The manual and more examples are available at\n"
+msgstr "Handboken och fler exempel är tillgängliga på\n"
+
+#: src/datamash.c:314
+#, c-format
+msgid "invalid input: field %<PRIuMAX> requested, line %<PRIuMAX> has only %<PRIuMAX> fields"
+msgstr "ogiltiga indata: fält %<PRIuMAX> begärdes, rad %<PRIuMAX> har bara %<PRIuMAX> "
+"fält"
+
+#: src/datamash.c:384
+#, c-format
+msgid "%s in line %<PRIuMAX> field %<PRIuMAX>: '%s'"
+msgstr "%s i rad %<PRIuMAX> fält %<PRIuMAX>: ”%s”"
+
+#: src/datamash.c:712
+#, c-format
+msgid ""
+"transpose input error: line %<PRIuMAX> has %<PRIuMAX> fields (previous lines had %<PRIuMAX>);\n"
+"see --help to disable strict mode"
+msgstr ""
+"indatafel vid transponering: rad %<PRIuMAX> har %<PRIuMAX> fält (föregående "
+"rader hade %<PRIuMAX>);\n"
+"se --help för att inaktivera strikt läge"
+
+#: src/datamash.c:769
+#, c-format
+msgid ""
+"reverse-field input error: line %<PRIuMAX> has %<PRIuMAX> fields (previous lines had %<PRIuMAX>);\n"
+"see --help to disable strict mode"
+msgstr ""
+"indatafel vid omkastning av fält: rad %<PRIuMAX> har %<PRIuMAX> fält "
+"(föregående rader hade %<PRIuMAX>);\n"
+"se --help för att inaktivera strikt läge"
+
+#: src/datamash.c:878 src/datamash.c:895 src/datamash.c:901
+#, c-format
+msgid ""
+"line %<PRIuMAX> (%<PRIuMAX> fields):\n"
+"  "
+msgstr ""
+"rad %<PRIuMAX> (%<PRIuMAX> fält):\n"
+"  "
+
+#: src/datamash.c:884
+#, c-format
+msgid "check failed: line %<PRIuMAX> has %<PRIuMAX> fields (expecting %<PRIuMAX>)"
+msgstr "kontroll misslyckades: rad %<PRIuMAX> har %<PRIuMAX> fält (förväntar %<PRIuMAX>)"
+
+#: src/datamash.c:907
+#, c-format
+msgid "check failed: line %<PRIuMAX> has %<PRIuMAX> fields (previous line had %<PRIuMAX>)"
+msgstr "kontroll misslyckades: rad %<PRIuMAX> har %<PRIuMAX> fält (föregående rad hade %<PRIuMAX>)"
+
+#: src/datamash.c:921
+#, c-format
+msgid "check failed: input had %<PRIuMAX> lines (expecting %<PRIuMAX>)"
+msgstr "kontroll misslyckades: indata hade %<PRIuMAX> rader (förväntar %<PRIuMAX>)"
+
+#: src/datamash.c:927
+#, c-format
+msgid "%<PRIuMAX> line"
+msgid_plural "%<PRIuMAX> lines"
+msgstr[0] "%<PRIuMAX> rad"
+msgstr[1] "%<PRIuMAX> rader"
+
+#: src/datamash.c:930
+#, c-format
+msgid "%<PRIuMAX> field"
+msgid_plural "%<PRIuMAX> fields"
+msgstr[0] "%<PRIuMAX> fält"
+msgstr[1] "%<PRIuMAX> fält"
+
+#: src/datamash.c:1031
+msgid "hash memory allocation error"
+msgstr "minnesallokeringsfel för hash"
+
+#: src/datamash.c:1098
+msgid "sort command too-long (please report this bug)"
+msgstr "sorteringskommando för långt (rapportera gärna detta fel)"
+
+#: src/datamash.c:1104
+msgid "failed to run 'sort': popen failed"
+msgstr "misslyckades att köra ”sort”: popen misslyckades"
+
+#: src/datamash.c:1120
+msgid "read error"
+msgstr "läsfel"
+
+#: src/datamash.c:1128
+msgid "read error (on close)"
+msgstr "läsfel (vid stängning)"
+
+#: src/datamash.c:1221 src/datamash.c:1228
+msgid "the delimiter must be a single character"
+msgstr "avgränsaren måste vara ett enda tecken"
+
+#: src/datamash.c:1264
+#, c-format
+msgid "missing operation specifiers"
+msgstr "specifikationer för åtgärder saknas"
+
+#: src/datamash.c:1282
+msgid "-H or --header-in must be used with named columns"
+msgstr "-H eller --header-in måste användas med namngivna kolumner"
+
+#: src/double-format.c:49
+#, c-format
+msgid "format %s has no %% directive"
+msgstr "format %s har inget %%-direktiv"
+
+#: src/double-format.c:62
+#, c-format
+msgid "format %s missing valid type after '%%'"
+msgstr "format %s saknar giltig typ efter ”%%”"
+
+#: src/double-format.c:66
+#, c-format
+msgid "format %s has unknown/invalid type %%%c directive"
+msgstr "format %s har direktivet %%%c med okänd eller ogiltig typ"
+
+#: src/double-format.c:79
+#, c-format
+msgid "format %s has too many %% directives"
+msgstr "format %s har för många %%-direktiv"
+
+#: src/field-ops.c:336
+#, c-format
+msgid "input error for operation %s: fields %<PRIuMAX>,%<PRIuMAX> have different number of items"
+msgstr "indatafel för åtgärden %s: fälten %<PRIuMAX>,%<PRIuMAX> har olika antal poster"
+
+#: src/field-ops.c:1128
+msgid "invalid numeric value"
+msgstr "ogiltigt numeriskt värde"
+
+#: src/field-ops.c:1130
+msgid "invalid base64 value"
+msgstr "ogiltigt base64-värde"
+
+#: src/op-parser.c:168 src/op-parser.c:182 src/op-parser.c:196
+#: src/op-parser.c:211 src/op-parser.c:247 src/op-parser.c:254
+#, c-format
+msgid "too many parameters for operation %s"
+msgstr "för många parametrar för åtgärden %s"
+
+#: src/op-parser.c:179
+msgid "strbin bucket size must not be zero"
+msgstr "antalet fack för strbin får inte vara noll"
+
+#: src/op-parser.c:193
+#, c-format
+msgid "invalid percentile value %<PRIuMAX>"
+msgstr "ogiltigt percentilvärde %<PRIuMAX>"
+
+#: src/op-parser.c:207
+#, c-format
+msgid "invalid trim mean value %Lg (expected 0 <= X <= 0.5)"
+msgstr "ogiltig trimningsandel %Lg för medelvärde (förväntat 0 <= X <= 0,5)"
+
+#: src/op-parser.c:243
+#, c-format
+msgid "invalid getnum type '%c'"
+msgstr "ogiltig getnum-typ ”%c”"
+
+#: src/op-parser.c:275 src/op-parser.c:286 src/op-parser.c:554
+#, c-format
+msgid "missing field for operation %s"
+msgstr "saknar fält för åtgärden %s"
+
+#: src/op-parser.c:281 src/op-parser.c:290 src/op-parser.c:346
+#: src/op-parser.c:591
+#, c-format
+msgid "invalid field range for operation %s"
+msgstr "ogiltigt fältintervall för åtgärden %s"
+
+#: src/op-parser.c:284 src/op-parser.c:294 src/op-parser.c:594
+#, c-format
+msgid "invalid field pair for operation %s"
+msgstr "ogiltigt par av fält för åtgärden %s"
+
+#: src/op-parser.c:309 src/op-parser.c:569
+#, c-format
+msgid "invalid field '%s' for operation %s"
+msgstr "ogiltigt fält ”%s” för åtgärden %s"
+
+#: src/op-parser.c:343
+#, c-format
+msgid "field range for %s must be numeric"
+msgstr "fältintervall för %s måste vara numeriskt"
+
+#: src/op-parser.c:403
+#, c-format
+msgid "missing parameter for operation %s"
+msgstr "saknar parameter för åtgärden %s"
+
+#: src/op-parser.c:421
+#, c-format
+msgid "invalid parameter %s for operation %s"
+msgstr "ogiltig parameter %s för åtgärden %s"
+
+#: src/op-parser.c:453
+#, c-format
+msgid "operation %s requires field pairs"
+msgstr "åtgärden %s kräver par av fält"
+
+#: src/op-parser.c:456
+#, c-format
+msgid "operation %s cannot use pair of fields"
+msgstr "åtgärden %s kan inte använda par av fält"
+
+#: src/op-parser.c:496
+#, c-format
+msgid "conflicting operation %s"
+msgstr "motstridig åtgärd %s"
+
+#: src/op-parser.c:499 src/op-parser.c:752
+#, c-format
+msgid "invalid operation %s"
+msgstr "ogiltig åtgärd %s"
+
+#: src/op-parser.c:504
+#, c-format
+msgid "conflicting operation found: expecting %s operations, but found %s operation %s"
+msgstr "motstridig åtgärd funnen: förväntar %s-åtgärder, men fann %s-åtgärden %s"
+
+#: src/op-parser.c:608
+#, c-format
+msgid "invalid option %s for operation check"
+msgstr "ogiltig flagga %s för åtgärden ”check”"
+
+#: src/op-parser.c:636
+msgid "number expected after option in operation 'check'"
+msgstr "tal förväntades efter flagga i åtgärden ”check”"
+
+#: src/op-parser.c:642
+msgid "invalid value zero for lines/fields in operation 'check'"
+msgstr "ogiltigt värde noll för rader/fält i åtgärden ”check”"
+
+#: src/op-parser.c:648
+msgid "number of lines/rows already set in operation 'check'"
+msgstr "antal rader är redan inställt i åtgärden ”check”"
+
+#: src/op-parser.c:655
+msgid "number of fields/columns already set in operation 'check'"
+msgstr "antal fält/kolumner är redan inställt i åtgärden ”check”"
+
+#: src/op-parser.c:692
+#, c-format
+msgid "crosstab requires exactly 2 fields, found %<PRIuMAX>"
+msgstr "crosstab kräver exakt 2 fält, hittade %<PRIuMAX>"
+
+#: src/op-parser.c:705
+#, c-format
+msgid "crosstab supports one operation, found %<PRIuMAX>"
+msgstr "crosstab stöder en åtgärd, hittade %<PRIuMAX>"
+
+#: src/op-parser.c:714
+msgid "missing operation"
+msgstr "saknar åtgärd"
+
+#: src/op-parser.c:728
+#, c-format
+msgid "extra operand %s"
+msgstr "extra operand %s"
+
+#: src/op-parser.c:865 src/op-scanner.c:237
+msgid "missing script (among arguments)"
+msgstr "saknar skript (bland argument)"
+
+#: src/op-scanner.c:169
+#, c-format
+msgid "invalid numeric value '%s'"
+msgstr "ogiltigt numeriskt värde ”%s”"
+
+#: src/op-scanner.c:194
+msgid "backslash at end of identifier"
+msgstr "omvänt snedstreck i slutet av identifieraren"
+
+#: src/op-scanner.c:202
+msgid "identifier name too long"
+msgstr "identifierarnamnet är för långt"
+
+#: src/op-scanner.c:215
+#, c-format
+msgid "invalid operand %s"
+msgstr "ogiltig operand %s"
+
+#: src/op-scanner.c:271
+#, c-format
+msgid "unknown token %d\n"
+msgstr "okänd symbol %d\n"
+
+#: src/system.h:133
+msgid "      --help     display this help and exit\n"
+msgstr "      --help     visa denna hjälptext och avsluta\n"
+
+#: src/system.h:135
+msgid "      --version  output version information and exit\n"
+msgstr "      --version  visa versionsinformation och avsluta\n"
+
+#: src/system.h:140
+#, c-format
+msgid "Try '%s --help' for more information.\n"
+msgstr "Försök med ”%s --help” för mer information.\n"
+
+#: src/text-options.c:111
+msgid "missing rounding digits value"
+msgstr "antal decimaler för avrundning saknas"
+
+#: src/text-options.c:116
+#, c-format
+msgid "invalid rounding digits value %s"
+msgstr "ogiltigt antal decimaler för avrundning: %s"
+
+#~ msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+#~ msgstr "%s hemsida: <http://www.gnu.org/software/%s/>\n"
+
+#~ msgid "%s: option '--%s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan ”--%s” tar inget argument\n"
+
+#~ msgid "%s: unrecognized option '--%s'\n"
+#~ msgstr "%s: okänd flagga ”--%s”\n"
+
+#~ msgid "%s: option '-W %s' is ambiguous\n"
+#~ msgstr "%s: flaggan ”-W %s” är tvetydig\n"
+
+#~ msgid "%s: option '-W %s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan ”-W %s” tar inget argument\n"
+
+#~ msgid "%s: option '-W %s' requires an argument\n"
+#~ msgstr "%s: flaggan ”-W %s” kräver ett argument\n"
+
+#~ msgid "'op' is the operation to perform;\n"
+#~ msgstr "”åtg” är åtgärden att utföra;\n"
+
+#~ msgid "File operations:\n"
+#~ msgstr "Filåtgärder:\n"
+
+#~ msgid "Options:\n"
+#~ msgstr "Flaggor:\n"
+
+#~ msgid "  -g, --group=X[,Y,Z]       group via fields X,[Y,Z]\n"
+#~ msgstr "  -g, --group=X[,Y,Z]       gruppera efter fälten X,[Y,Z]\n"
+
+#~ msgid "invalid empty grouping parameter"
+#~ msgstr "ogiltig tom grupperingsparameter"

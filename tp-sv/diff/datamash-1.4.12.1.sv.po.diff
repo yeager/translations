@@ -1,0 +1,193 @@
+--- a/datamash-1.4.12.1.sv.po
++++ b/datamash-1.4.12.1.sv.po
+@@ -326,8 +326,8 @@
+ "which require a pair of fields (e.g. 'pcov 2:6').\n"
+ msgstr ""
+ "Flera fält kan listas med ett komma (t.ex. 1,6,8).  Ett intervall\n"
+-"av fält kan listas med ett tankstreck (t.ex. 2-8).  Använd kolon för\n"
+-"åtgärder som kräver ett par av fält (t.ex. ”pcov 2:6”).\n"
++"av fält kan listas med ett bindestreck (t.ex. 2-8).  Använd kolon för\n"
++"åtgärder som kräver ett fältpar (t.ex. ”pcov 2:6”).\n"
+ 
+ #: src/datamash.c:191
+ msgid "Primary operations:\n"
+@@ -339,7 +339,7 @@
+ 
+ #: src/datamash.c:197
+ msgid "Per-Line operations:\n"
+-msgstr "Per rads-åtgärder:\n"
++msgstr "Åtgärder per rad:\n"
+ 
+ #: src/datamash.c:202
+ msgid "Numeric Grouping operations:\n"
+@@ -362,9 +362,10 @@
+ "  -C, --skip-comments       skip comment lines (starting with '#' or ';'\n"
+ "                              and optional whitespace)\n"
+ msgstr ""
+-" -C --skip-comments       skippa kommentarsrader (börjar med '#' \" eller ';'\n"
+-"\"\n"
+-"                              och valfritt blanksteg)\n"
++"  -C, --skip-comments       hoppa över kommentarsrader (börjar med ”#” eller "
++"”;”"
++"\n"
++"                              eventuellt efter blanktecken)\n"
+ 
+ #: src/datamash.c:223
+ msgid ""
+@@ -437,9 +438,8 @@
+ "      --format=FORMAT       print numeric values with printf style\n"
+ "                            floating-point FORMAT.\n"
+ msgstr ""
+-"      --format=FORMAT       skriv ut numeriska värden med printf stil\n"
+-"                            flyttals FORMAT.\n"
+-"\n"
++"      --format=FORMAT       skriv ut tal med flyttalsformatet FORMAT\n"
++"                            i printf-stil.\n"
+ 
+ #: src/datamash.c:266
+ msgid ""
+@@ -448,7 +448,6 @@
+ msgstr ""
+ "      --output-delimiter=X  använd X istället som utdatafältsavgränsare\n"
+ "                            (standard: använd samma avgränsare som -t/-W)\n"
+-"\n"
+ 
+ #: src/datamash.c:270
+ msgid "      --narm                skip NA/NaN values\n"
+@@ -463,8 +462,9 @@
+ "  -W, --whitespace          use whitespace (one or more spaces and/or tabs)\n"
+ "                              for field delimiters\n"
+ msgstr ""
+-"  -W, --whitespace          använd blanktecken (en eller flera mellanslag eller\n"
+-"                              tabulatorer) som fältseparatorer\n"
++"  -W, --whitespace          använd blanktecken (ett eller flera mellanslag "
++"och/eller\n"
++"                              tabulatorer) som fältavgränsare\n"
+ 
+ #: src/datamash.c:280
+ msgid "  -z, --zero-terminated     end lines with 0 byte, not newline\n"
+@@ -493,7 +493,8 @@
+ #: src/datamash.c:314
+ #, c-format
+ msgid "invalid input: field %<PRIuMAX> requested, line %<PRIuMAX> has only %<PRIuMAX> fields"
+-msgstr "ogiltigt indata: fält %<PRIuMAX> begärdes, rad %<PRIuMAX> har bara %<PRIuMAX> fält"
++msgstr "ogiltiga indata: fält %<PRIuMAX> begärdes, rad %<PRIuMAX> har bara %<PRIuMAX> "
++"fält"
+ 
+ #: src/datamash.c:384
+ #, c-format
+@@ -506,7 +507,8 @@
+ "transpose input error: line %<PRIuMAX> has %<PRIuMAX> fields (previous lines had %<PRIuMAX>);\n"
+ "see --help to disable strict mode"
+ msgstr ""
+-"indatafel för transpose: rad %<PRIuMAX> har %<PRIuMAX> fält (föregående rader hade %<PRIuMAX>);\n"
++"indatafel vid transponering: rad %<PRIuMAX> har %<PRIuMAX> fält (föregående "
++"rader hade %<PRIuMAX>);\n"
+ "se --help för att inaktivera strikt läge"
+ 
+ #: src/datamash.c:769
+@@ -515,7 +517,8 @@
+ "reverse-field input error: line %<PRIuMAX> has %<PRIuMAX> fields (previous lines had %<PRIuMAX>);\n"
+ "see --help to disable strict mode"
+ msgstr ""
+-"indatafel för reverse-fält: rad %<PRIuMAX> har %<PRIuMAX> fält (föregående rader hade %<PRIuMAX>);\n"
++"indatafel vid omkastning av fält: rad %<PRIuMAX> har %<PRIuMAX> fält "
++"(föregående rader hade %<PRIuMAX>);\n"
+ "se --help för att inaktivera strikt läge"
+ 
+ #: src/datamash.c:878 src/datamash.c:895 src/datamash.c:901
+@@ -578,12 +581,12 @@
+ 
+ #: src/datamash.c:1221 src/datamash.c:1228
+ msgid "the delimiter must be a single character"
+-msgstr "avskiljaren måste vara endast ett tecken"
++msgstr "avgränsaren måste vara ett enda tecken"
+ 
+ #: src/datamash.c:1264
+ #, c-format
+ msgid "missing operation specifiers"
+-msgstr "saknar åtgärdsbeskrivning"
++msgstr "specifikationer för åtgärder saknas"
+ 
+ #: src/datamash.c:1282
+ msgid "-H or --header-in must be used with named columns"
+@@ -592,22 +595,22 @@
+ #: src/double-format.c:49
+ #, c-format
+ msgid "format %s has no %% directive"
+-msgstr "format %s har inget %%direktiv"
++msgstr "format %s har inget %%-direktiv"
+ 
+ #: src/double-format.c:62
+ #, c-format
+ msgid "format %s missing valid type after '%%'"
+-msgstr "format %s saknar giltig typ efter '%%'"
++msgstr "format %s saknar giltig typ efter ”%%”"
+ 
+ #: src/double-format.c:66
+ #, c-format
+ msgid "format %s has unknown/invalid type %%%c directive"
+-msgstr "format %s har okänt/ogiltigt typ %%%cdirektiv"
++msgstr "format %s har direktivet %%%c med okänd eller ogiltig typ"
+ 
+ #: src/double-format.c:79
+ #, c-format
+ msgid "format %s has too many %% directives"
+-msgstr "format %s har för många %%direktiv"
++msgstr "format %s har för många %%-direktiv"
+ 
+ #: src/field-ops.c:336
+ #, c-format
+@@ -630,7 +633,7 @@
+ 
+ #: src/op-parser.c:179
+ msgid "strbin bucket size must not be zero"
+-msgstr "strbin-hinkstorlek får inte vara noll"
++msgstr "antalet fack för strbin får inte vara noll"
+ 
+ #: src/op-parser.c:193
+ #, c-format
+@@ -640,12 +643,12 @@
+ #: src/op-parser.c:207
+ #, c-format
+ msgid "invalid trim mean value %Lg (expected 0 <= X <= 0.5)"
+-msgstr "ogiltigt trimmedelvärde %Lg (förväntat 0 <= X <= 0,5)"
++msgstr "ogiltig trimningsandel %Lg för medelvärde (förväntat 0 <= X <= 0,5)"
+ 
+ #: src/op-parser.c:243
+ #, c-format
+ msgid "invalid getnum type '%c'"
+-msgstr "ogiltig getnum-typ '%c'"
++msgstr "ogiltig getnum-typ ”%c”"
+ 
+ #: src/op-parser.c:275 src/op-parser.c:286 src/op-parser.c:554
+ #, c-format
+@@ -723,11 +726,11 @@
+ 
+ #: src/op-parser.c:648
+ msgid "number of lines/rows already set in operation 'check'"
+-msgstr "antal rader redan inställda i åtgärden ”check”"
++msgstr "antal rader är redan inställt i åtgärden ”check”"
+ 
+ #: src/op-parser.c:655
+ msgid "number of fields/columns already set in operation 'check'"
+-msgstr "antal fält/kolumner redan inställda i åtgärden ”check”"
++msgstr "antal fält/kolumner är redan inställt i åtgärden ”check”"
+ 
+ #: src/op-parser.c:692
+ #, c-format
+@@ -790,12 +793,12 @@
+ 
+ #: src/text-options.c:111
+ msgid "missing rounding digits value"
+-msgstr "saknar avrundningssiffror värde"
++msgstr "antal decimaler för avrundning saknas"
+ 
+ #: src/text-options.c:116
+ #, c-format
+ msgid "invalid rounding digits value %s"
+-msgstr "ogiltigt värde %s för avrundningssiffror"
++msgstr "ogiltigt antal decimaler för avrundning: %s"
+ 
+ #~ msgid "%s home page: <http://www.gnu.org/software/%s/>\n"
+ #~ msgstr "%s hemsida: <http://www.gnu.org/software/%s/>\n"
