@@ -13552,43 +13552,43 @@ Click the arrow button to create a new sub-xsheet</source>
     </message>
     <message>
         <source>Accuracy</source>
-        <translation type="unfinished"></translation>
+        <translation>Noggrannhet</translation>
     </message>
     <message>
         <source>Despeckling</source>
-        <translation type="unfinished"></translation>
+        <translation>Prickborttagning</translation>
     </message>
     <message>
         <source>Max Thickness</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximal tjocklek</translation>
     </message>
     <message>
         <source>Thickness Calibration</source>
-        <translation type="unfinished"></translation>
+        <translation>Tjocklekskalibrering</translation>
     </message>
     <message>
         <source>Adherence</source>
-        <translation type="unfinished"></translation>
+        <translation>Vidhäftning</translation>
     </message>
     <message>
         <source>Angle</source>
-        <translation type="unfinished"></translation>
+        <translation>Vinkel</translation>
     </message>
     <message>
         <source>Curve Radius</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurvradie</translation>
     </message>
     <message>
         <source>Max Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Maximalt antal färger</translation>
     </message>
     <message>
         <source>Transparent Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Genomskinlig färg</translation>
     </message>
     <message>
         <source>Tone Threshold</source>
-        <translation type="unfinished"></translation>
+        <translation>Tontröskelvärde</translation>
     </message>
 </context>
 <context>
@@ -13596,109 +13596,115 @@ Click the arrow button to create a new sub-xsheet</source>
     <message>
         <source>The version control configuration file is empty or wrongly defined.
 Please refer to the user guide for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfigurationsfilen för versionshantering är tom eller felaktigt definierad.
+Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>The version control client application specified on the configuration file cannot be found.
 Please refer to the user guide for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klientprogrammet för versionshantering som anges i konfigurationsfilen kan inte hittas.
+Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>The version control client application is not installed on your computer.
 Subversion 1.5 or later is required.
 Please refer to the user guide for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klientprogrammet för versionshantering är inte installerat på datorn.
+Subversion 1.5 eller senare krävs.
+Mer information finns i användarhandboken.</translation>
     </message>
     <message>
         <source>The version control client application installed on your computer needs to be updated, otherwise some features may not be available.
 Subversion 1.5 or later is required.
 Please refer to the user guide for details.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klientprogrammet för versionshantering på datorn behöver uppdateras, annars kanske vissa funktioner inte är tillgängliga.
+Subversion 1.5 eller senare krävs.
+Mer information finns i användarhandboken.</translation>
     </message>
 </context>
 <context>
     <name>ViewerHistogramPopup</name>
     <message>
         <source>Viewer Histogram</source>
-        <translation type="unfinished"></translation>
+        <translation>Histogram för visare</translation>
     </message>
 </context>
 <context>
     <name>XDTSImportPopup</name>
     <message>
         <source>Importing XDTS file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Importerar XDTS-filen %1</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Please specify the level locations. Suggested paths are input in the fields with blue border.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange nivåernas platser. Föreslagna sökvägar anges i fälten med blå kant.</translation>
     </message>
     <message>
         <source>Level Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivånamn</translation>
     </message>
     <message>
         <source>Level Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivåsökväg</translation>
     </message>
 </context>
 <context>
     <name>XsheetGUI::CellArea</name>
     <message>
         <source>Click to select keyframe, drag to move it</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att välja nyckelbildruta, dra för att flytta den</translation>
     </message>
     <message>
         <source>Click and drag to set the acceleration range</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka och dra för att ange accelerationsintervallet</translation>
     </message>
     <message>
         <source>Click and drag to set the deceleration range</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka och dra för att ange retardationsintervallet</translation>
     </message>
     <message>
         <source>Set the cycle of previous keyframes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange cykeln för föregående nyckelbildrutor</translation>
     </message>
     <message>
         <source>Click and drag to move the selection</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka och dra för att flytta markeringen</translation>
     </message>
     <message>
         <source>Click and drag to play</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka och dra för att spela upp</translation>
     </message>
     <message>
         <source>Click and drag to repeat selected cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka och dra för att upprepa markerade celler</translation>
     </message>
     <message>
         <source>Open Memo</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna anteckning</translation>
     </message>
     <message>
         <source>Delete Memo</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort anteckning</translation>
     </message>
     <message>
         <source>Reframe</source>
-        <translation type="unfinished"></translation>
+        <translation>Rama om</translation>
     </message>
     <message>
         <source>Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg</translation>
     </message>
     <message>
         <source>Each</source>
-        <translation type="unfinished"></translation>
+        <translation>Varje</translation>
     </message>
     <message>
         <source>Replace</source>
@@ -13706,30 +13712,30 @@ Please refer to the user guide for details.</source>
     </message>
     <message>
         <source>Edit Cell Numbers</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera cellnummer</translation>
     </message>
     <message>
         <source>Replace Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt nivå</translation>
     </message>
     <message>
         <source>Replace with</source>
-        <translation type="unfinished"></translation>
+        <translation>Ersätt med</translation>
     </message>
     <message>
         <source>Paste Special</source>
-        <translation type="unfinished"></translation>
+        <translation>Klistra in special</translation>
     </message>
     <message>
         <source>Edit Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera bild</translation>
     </message>
 </context>
 <context>
     <name>XsheetGUI::ColumnArea</name>
     <message>
         <source>Click to select camera</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicka för att välja kamera</translation>
     </message>
     <message>
         <source>Camera Stand Toggle</source>
@@ -13741,7 +13747,7 @@ Please refer to the user guide for details.</source>
     </message>
     <message>
         <source>Lock Toggle</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla lås</translation>
     </message>
     <message>
         <source>Click to play the soundtrack back</source>
