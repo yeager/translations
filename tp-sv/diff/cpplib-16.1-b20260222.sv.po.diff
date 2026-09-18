@@ -1,0 +1,298 @@
+--- a/cpplib-16.1-b20260222.sv.po
++++ b/cpplib-16.1-b20260222.sv.po
+@@ -68,11 +68,12 @@
+ 
+ #: charset.cc:1629
+ msgid "empty named universal character escape sequence; treating it as separate tokens"
+-msgstr "tomma namngivna universella teckenspecialsekvenser; behandlar det som separata symboler"
++msgstr "tom namngiven universell teckenspecialsekvens; behandlar den som separata "
++"symboler"
+ 
+ #: charset.cc:1636
+ msgid "empty named universal character escape sequence"
+-msgstr "ofullständig namngiven universell teckenspecialsekvens"
++msgstr "tom namngiven universell teckenspecialsekvens"
+ 
+ #: charset.cc:1643
+ msgid "named universal character escapes are only valid in C++23"
+@@ -172,7 +173,7 @@
+ 
+ #: charset.cc:1923 charset.cc:3180
+ msgid "converting UCN to source character set"
+-msgstr "vid konvertering av UCN källteckenuppsättning"
++msgstr "vid konvertering av UCN till källteckenuppsättningen"
+ 
+ #: charset.cc:1930
+ msgid "converting UCN to execution character set"
+@@ -224,7 +225,7 @@
+ #: charset.cc:2370 charset.cc:2380
+ #, gcc-internal-format
+ msgid "numeric escape sequence in unevaluated string: %<\\%c%>"
+-msgstr "numerisk specialsekvens i oevaluerad sträng: %<\\%c%>"
++msgstr "numerisk specialsekvens i ej utvärderad sträng: %<\\%c%>"
+ 
+ #: charset.cc:2408
+ #, gcc-internal-format
+@@ -256,11 +257,12 @@
+ 
+ #: charset.cc:2915
+ msgid "character not encodable in a single execution character code unit"
+-msgstr "tecknet är inte kodbart i en ensam körtidsteckenskodenhet"
++msgstr "tecknet kan inte kodas med en enda kodenhet i teckenuppsättningen för körning"
+ 
+ #: charset.cc:2920
+ msgid "at least one character in a multi-character literal not encodable in a single execution character code unit"
+-msgstr "åtminstone ett tecken i en flerteckenslitteral är inte kodbart i en ensam körtidsteckenskodenhet"
++msgstr "minst ett tecken i en flerteckenslitteral kan inte kodas med en enda kodenhet "
++"i teckenuppsättningen för körning"
+ 
+ #: charset.cc:2938
+ #, gcc-internal-format
+@@ -273,11 +275,11 @@
+ 
+ #: charset.cc:2945 charset.cc:3040
+ msgid "character not encodable in a single code unit"
+-msgstr "tecknet är inte kodbart i en ensam kodenhet"
++msgstr "tecknet kan inte kodas med en enda kodenhet"
+ 
+ #: charset.cc:2949
+ msgid "multi-character character constant"
+-msgstr "flerteckens teckenkonstant"
++msgstr "teckenkonstant med flera tecken"
+ 
+ #: charset.cc:3081
+ msgid "empty character constant"
+@@ -317,7 +319,7 @@
+ #: directives.cc:423
+ #, gcc-internal-format
+ msgid "%<#%s%> is a deprecated GCC extension"
+-msgstr "%<#%s%> är en GCC-utvidgning som avrådes ifrån"
++msgstr "%<#%s%> är en föråldrad GCC-utvidgning"
+ 
+ #: directives.cc:436
+ #, gcc-internal-format
+@@ -443,7 +445,7 @@
+ #: directives.cc:1277
+ #, gcc-internal-format
+ msgid "unknown embed parameter '%.*s%s%.*s'"
+-msgstr "okänd inbäddningsparameter '%.*s%s%.*s'"
++msgstr "okänd inbäddningsparameter ”%.*s%s%.*s”"
+ 
+ #: directives.cc:1286
+ #, gcc-internal-format
+@@ -506,7 +508,7 @@
+ #: directives.cc:1667
+ #, gcc-internal-format
+ msgid "file %qs linemarker ignored due to incorrect nesting"
+-msgstr "filen %qs linjemarkör ignoreras på grund av felaktig nästning"
++msgstr "radmarkören för filen %qs ignoreras på grund av felaktig nästning"
+ 
+ #: directives.cc:1745 directives.cc:1747 directives.cc:1749 directives.cc:2356
+ #, gcc-internal-format, gfc-internal-format
+@@ -531,7 +533,7 @@
+ #: directives.cc:1863
+ #, gcc-internal-format
+ msgid "registering %qs as both a pragma and a pragma namespace"
+-msgstr "registrerar %qs både som ett pragma och ett pragma namespace"
++msgstr "registrerar %qs både som ett pragma och en pragmanamnrymd"
+ 
+ #: directives.cc:1866
+ #, gcc-internal-format
+@@ -661,11 +663,11 @@
+ 
+ #: errors.cc:366
+ msgid "stdout"
+-msgstr "standard ut"
++msgstr "standardut"
+ 
+ #: expr.cc:694 expr.cc:822
+ msgid "fixed-point constants are a GCC extension"
+-msgstr "fastdecimalskonstanter är en GCC-utvidgning"
++msgstr "fastpunktskonstanter är en GCC-utvidgning"
+ 
+ #: expr.cc:721
+ #, gcc-internal-format
+@@ -675,7 +677,7 @@
+ #: expr.cc:727
+ #, gcc-internal-format
+ msgid "invalid prefix %<0o%> for floating constant"
+-msgstr "ogiltigt prefix %<0b%> på flyttalskonstant"
++msgstr "ogiltigt prefix %<0o%> på flyttalskonstant"
+ 
+ #: expr.cc:740
+ msgid "use of C++17 hexadecimal floating constant"
+@@ -826,7 +828,7 @@
+ 
+ #: expr.cc:1355
+ msgid "assertions are a deprecated extension"
+-msgstr "försäkringar är en utvidgning som avrådes ifrån"
++msgstr "försäkringar är en föråldrad utvidgning"
+ 
+ #: expr.cc:1629
+ #, gcc-internal-format, gfc-internal-format
+@@ -926,7 +928,7 @@
+ #: files.cc:1489
+ #, gcc-internal-format
+ msgid "%<gnu::base64%> parameter can be only used with %<\".\"%>"
+-msgstr "en parameter till %<gnu::base64%> kan endast användas med %<\".\"%>"
++msgstr "parametern %<gnu::base64%> kan endast användas med %<\".\"%>"
+ 
+ #: files.cc:1506
+ #, gcc-internal-format
+@@ -935,12 +937,12 @@
+ 
+ #: files.cc:2262
+ msgid "Multiple include guards may be useful for:\n"
+-msgstr "Multipla inkluderingsvakter kan vara användbart för:\n"
++msgstr "Skydd mot upprepad inkludering kan vara användbart för:\n"
+ 
+ #: files.cc:2340
+ #, gcc-internal-format
+ msgid "header guard %qs followed by %<#define%> of a different macro"
+-msgstr "huvudvakten %qs följs av %<#define%> av ett annat makro"
++msgstr "inkluderingsvakten %qs följs av %<#define%> av ett annat makro"
+ 
+ #: files.cc:2344
+ #, gcc-internal-format
+@@ -950,7 +952,7 @@
+ #: init.cc:687
+ #, gcc-internal-format
+ msgid "%<cppchar_t%> must be an unsigned type"
+-msgstr "%<cppchar_t%> måste vare en teckenlös typ"
++msgstr "%<cppchar_t%> måste vara en teckenlös typ"
+ 
+ #: init.cc:691
+ #, gcc-internal-format, gfc-internal-format
+@@ -988,7 +990,7 @@
+ 
+ #: lex.cc:1104
+ msgid "backslash and newline separated by space"
+-msgstr "bakåtstreck och nyrad skiljda av mellanrum"
++msgstr "bakåtstreck och nyrad skilda av mellanrum"
+ 
+ #: lex.cc:1109 lex.cc:1145
+ msgid "trailing whitespace"
+@@ -1152,7 +1154,7 @@
+ 
+ #: lex.cc:2731
+ msgid "invalid new-line in raw string delimiter"
+-msgstr "felaktig nyrad i rå sträng-avgränsare"
++msgstr "ogiltigt radbrytningstecken i avgränsare för rå sträng"
+ 
+ #: lex.cc:2735 lex.cc:5709
+ #, gcc-internal-format, gfc-internal-format
+@@ -1211,7 +1213,7 @@
+ 
+ #: lex.cc:4087 lex.cc:4122
+ msgid "C++ style comments are not allowed in ISO C90"
+-msgstr "C++ kommentarer tillåts inte i ISO C90"
++msgstr "kommentarer i C++-stil tillåts inte i ISO C90"
+ 
+ #: lex.cc:4090 lex.cc:4101 lex.cc:4125
+ msgid "(this will be reported only once per input file)"
+@@ -1271,7 +1273,7 @@
+ #: macro.cc:425
+ #, gcc-internal-format
+ msgid "operator %qs requires a header-name"
+-msgstr "operatorn %qs måste ha ett huvudnamn"
++msgstr "operatorn %qs kräver ett huvudfilsnamn"
+ 
+ #: macro.cc:454
+ #, gcc-internal-format
+@@ -1300,7 +1302,7 @@
+ 
+ #: macro.cc:610
+ msgid "could not determine file timestamp"
+-msgstr "det gick inte att avgöra fils tidsstämpel"
++msgstr "det gick inte att avgöra filens tidsstämpel"
+ 
+ #: macro.cc:701
+ msgid "could not determine date and time"
+@@ -1319,7 +1321,7 @@
+ #: macro.cc:763
+ #, gcc-internal-format
+ msgid "%<__has_embed%> not supported in traditional C"
+-msgstr "%<_has_embed%> stödjs inte i traditionell C"
++msgstr "%<__has_embed%> stödjs inte i traditionell C"
+ 
+ #: macro.cc:1013
+ #, gcc-internal-format
+@@ -1349,7 +1351,7 @@
+ #: macro.cc:1225
+ #, gcc-internal-format
+ msgid "macro %qs passed %u arguments, but takes just %u"
+-msgstr "makro %qs skickade %u argument, men det tar bara %u"
++msgstr "makrot %qs fick %u argument, men tar bara %u"
+ 
+ #: macro.cc:1229
+ #, gcc-internal-format
+@@ -1364,7 +1366,7 @@
+ #: macro.cc:1569
+ #, gcc-internal-format
+ msgid "function-like macro %qs must be used with arguments in traditional C"
+-msgstr "funktionsliknande makrot %qs måste användas med ett argument i traditionell C"
++msgstr "det funktionsliknande makrot %qs måste användas med argument i traditionell C"
+ 
+ #: macro.cc:2404
+ #, gcc-internal-format, gfc-internal-format
+@@ -1412,19 +1414,19 @@
+ 
+ #: macro.cc:3638
+ msgid "anonymous variadic macros were introduced in C++11"
+-msgstr "anonyma variabla makron introducerades i C++11"
++msgstr "anonyma makron med variabelt antal argument introducerades i C++11"
+ 
+ #: macro.cc:3639 macro.cc:3643
+ msgid "anonymous variadic macros were introduced in C99"
+-msgstr "anonyma variabla makron introducerades i C99"
++msgstr "anonyma makron med variabelt antal argument introducerades i C99"
+ 
+ #: macro.cc:3649
+ msgid "ISO C++ does not permit named variadic macros"
+-msgstr "ISO C++ tillåter inte namngivna variabla makron"
++msgstr "ISO C++ tillåter inte namngivna makron med variabelt antal argument"
+ 
+ #: macro.cc:3650
+ msgid "ISO C does not permit named variadic macros"
+-msgstr "ISO C tillåter inte namngivna variabla makron"
++msgstr "ISO C tillåter inte namngivna makron med variabelt antal argument"
+ 
+ #: macro.cc:3696
+ #, gcc-internal-format
+@@ -1433,15 +1435,15 @@
+ 
+ #: macro.cc:3734
+ msgid "ISO C++11 requires whitespace after the macro name"
+-msgstr "ISO C++11 kräver mellanrum efter makronamnet"
++msgstr "ISO C++11 kräver blanktecken efter makronamnet"
+ 
+ #: macro.cc:3735
+ msgid "ISO C99 requires whitespace after the macro name"
+-msgstr "ISO C99 kräver mellanrum efter makronamnet"
++msgstr "ISO C99 kräver blanktecken efter makronamnet"
+ 
+ #: macro.cc:3759
+ msgid "missing whitespace after the macro name"
+-msgstr "mellanrum saknas efter makronamn"
++msgstr "blanktecken saknas efter makronamn"
+ 
+ #: macro.cc:3812
+ #, gcc-internal-format
+@@ -1474,7 +1476,7 @@
+ 
+ #: pch.cc:90 pch.cc:342 pch.cc:356 pch.cc:374 pch.cc:380 pch.cc:389 pch.cc:396
+ msgid "while writing precompiled header"
+-msgstr "vid skrivning av förkompilerat huvud"
++msgstr "vid skrivning av förkompilerad huvudfil"
+ 
+ #: pch.cc:616
+ #, gcc-internal-format
+@@ -1503,7 +1505,7 @@
+ 
+ #: pch.cc:722 pch.cc:968
+ msgid "while reading precompiled header"
+-msgstr "vid läsning av förkompilerat huvud"
++msgstr "vid läsning av förkompilerad huvudfil"
+ 
+ #: traditional.cc:891
+ #, gcc-internal-format
