@@ -5335,24 +5335,24 @@ på din skärm.</translation>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="112"/>
         <source>Native Key Value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Inbyggt tangentvärde:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="119"/>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="142"/>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="165"/>
         <source>0x00000000</source>
-        <translation type="unfinished"></translation>
+        <translation>0x00000000</translation>
     </message>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="135"/>
         <source>Qt Key Value:</source>
-        <translation type="unfinished"></translation>
+        <translation>Qt-tangentvärde:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/qkeydisplaydialog.ui" line="158"/>
         <source>antimicro Key Value:</source>
-        <translation type="unfinished"></translation>
+        <translation>AntiMicroX-tangentvärde:</translation>
     </message>
 </context>
 <context>
@@ -5360,37 +5360,37 @@ på din skärm.</translation>
     <message>
         <location filename="../../../src/winextras.cpp" line="141"/>
         <source>Super</source>
-        <translation type="unfinished"></translation>
+        <translation>Super</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="142"/>
         <source>Menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Meny</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="143"/>
         <source>Mute</source>
-        <translation type="unfinished"></translation>
+        <translation>Tysta</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="144"/>
         <source>Vol+</source>
-        <translation type="unfinished"></translation>
+        <translation>Vol+</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="145"/>
         <source>Vol-</source>
-        <translation type="unfinished"></translation>
+        <translation>Vol-</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="146"/>
         <source>Play/Pause</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela upp/Pausa</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="147"/>
         <source>Play</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela upp</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="148"/>
@@ -5400,32 +5400,32 @@ på din skärm.</translation>
     <message>
         <location filename="../../../src/winextras.cpp" line="149"/>
         <source>Prev</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="150"/>
         <source>Next</source>
-        <translation type="unfinished"></translation>
+        <translation>Nästa</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="151"/>
         <source>Mail</source>
-        <translation type="unfinished"></translation>
+        <translation>E-post</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="152"/>
         <source>Home</source>
-        <translation type="unfinished"></translation>
+        <translation>Home</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="153"/>
         <source>Media</source>
-        <translation type="unfinished"></translation>
+        <translation>Media</translation>
     </message>
     <message>
         <location filename="../../../src/winextras.cpp" line="154"/>
         <source>Search</source>
-        <translation type="unfinished"></translation>
+        <translation>Sök</translation>
     </message>
     <message>
         <location filename="../../../src/main.cpp" line="205"/>
