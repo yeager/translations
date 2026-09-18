@@ -10787,178 +10787,178 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     </message>
     <message>
         <source>Unlocking %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Låser upp %1 objekt …</translation>
     </message>
 </context>
 <context>
     <name>SVNLockFrameRangeDialog</name>
     <message>
         <source>Version Control: Edit Frame Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Redigera bildruteintervall</translation>
     </message>
     <message>
         <source>Temporary Lock file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillfällig låsfil …</translation>
     </message>
     <message>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Från:</translation>
     </message>
     <message>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Till:</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>No frame range edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget bildruteintervall har redigerats.</translation>
     </message>
     <message>
         <source>Getting frame range edit information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar information om redigeringar av bildruteintervall …</translation>
     </message>
     <message>
         <source>%1 on %2 is editing frames from %3 to %4.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 på %2 redigerar bildrutor från %3 till %4.</translation>
     </message>
 </context>
 <context>
     <name>SVNLockInfoDialog</name>
     <message>
         <source>Version Control: Edit Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Redigeringsinformation</translation>
     </message>
     <message>
         <source>&lt;b&gt;Edited By:&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Redigerad av:&lt;/b&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Host:&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Värd:&lt;/b&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Comment:&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Kommentar:&lt;/b&gt;</translation>
     </message>
     <message>
         <source>&lt;b&gt;Date:&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Datum:&lt;/b&gt;</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
 </context>
 <context>
     <name>SVNLockMultiFrameRangeDialog</name>
     <message>
         <source>Version Control: Edit Frame Range</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Redigera bildruteintervall</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>From:</source>
-        <translation type="unfinished"></translation>
+        <translation>Från:</translation>
     </message>
     <message>
         <source>To:</source>
-        <translation type="unfinished"></translation>
+        <translation>Till:</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>No frame range edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget bildruteintervall har redigerats.</translation>
     </message>
     <message>
         <source>Editing %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigerar %1 objekt …</translation>
     </message>
     <message>
         <source>%1 is editing frames from %2 to %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 redigerar bildrutor från %2 till %3</translation>
     </message>
 </context>
 <context>
     <name>SVNMultiFrameRangeLockInfoDialog</name>
     <message>
         <source>Version Control: Edit Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Redigeringsinformation</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>No frame range edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget bildruteintervall har redigerats.</translation>
     </message>
     <message>
         <source>%1 is editing frames from %2 to %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 redigerar bildrutor från %2 till %3</translation>
     </message>
 </context>
 <context>
     <name>SVNPurgeDialog</name>
     <message>
         <source>Version Control: Purge</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Rensa</translation>
     </message>
     <message>
         <source>Note: the file will be updated too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obs! Filen uppdateras också.</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Purge</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensa</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>No items to purge.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att rensa.</translation>
     </message>
     <message>
         <source>%1 items to purge.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att rensa.</translation>
     </message>
     <message>
         <source>Purging files...</source>
-        <translation type="unfinished"></translation>
+        <translation>Rensar filer …</translation>
     </message>
 </context>
 <context>
