@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 13 677 aktiva poster i de 21 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 2 778 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 19 978 aktiva poster i de 22 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 5 157 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -31,6 +31,7 @@ Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska
 | cpplib | 16.1-b20260222 | 319 | 37 | [PO](cpplib-16.1-b20260222.sv.po) | [Diff](diff/cpplib-16.1-b20260222.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/cpplib-16.1-b20260222.sv.po) |
 | cryptsetup | 2.8.8-rc0 | 921 | 223 | [PO](cryptsetup-2.8.8-rc0.sv.po) | [Diff](diff/cryptsetup-2.8.8-rc0.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/cryptsetup-2.8.8-rc0.sv.po) |
 | datamash | 1.4.12.1 | 133 | 22 | [PO](datamash-1.4.12.1.sv.po) | [Diff](diff/datamash-1.4.12.1.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/datamash-1.4.12.1.sv.po) |
+| denemo | 2.6-rc2 | 6301 | 2379 | [PO](denemo-2.6-rc2.sv.po) | [Diff](diff/denemo-2.6-rc2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/denemo-2.6-rc2.sv.po) |
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
 
