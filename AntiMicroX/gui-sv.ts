@@ -5056,7 +5056,7 @@ enligt antalet simulerade hack per sekund.</translation>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="410"/>
         <source>Sensitivit&amp;y:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Känslighet:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="423"/>
@@ -5064,12 +5064,15 @@ enligt antalet simulerade hack per sekund.</translation>
 the factor to use for curve sensitivity. When the value
 is above 1.0, the mouse movement will be accelerated
 faster at the low end of an axis.</source>
-        <translation type="unfinished"></translation>
+        <translation>För accelerationskurvan Potensfunktion. Anger
+faktorn som ska användas för kurvans känslighet. När värdet
+är över 1,0 accelereras musrörelsen
+snabbare vid en axels lägre värden.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="452"/>
         <source>Easing Duration:</source>
-        <translation type="unfinished"></translation>
+        <translation>Varaktighet för mjuk övergång:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="470"/>
@@ -5080,84 +5083,86 @@ faster at the low end of an axis.</source>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="553"/>
         <source>Highest value to accelerate mouse movement by</source>
-        <translation type="unfinished"></translation>
+        <translation>Högsta värde som musrörelsen kan accelereras med</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="556"/>
         <source>x</source>
-        <translation type="unfinished"></translation>
+        <translation>x</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="576"/>
         <source>Start %:</source>
-        <translation type="unfinished"></translation>
+        <translation>Start %:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="586"/>
         <source>Acceleration begins at this percentage of the base multiplier</source>
-        <translation type="unfinished"></translation>
+        <translation>Accelerationen börjar vid den här procentsatsen av basmultiplikatorn</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="627"/>
         <source>Minimum amount of axis travel required for acceleration to begin</source>
-        <translation type="unfinished"></translation>
+        <translation>Minsta axelrörelse som krävs för att accelerationen ska börja</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="647"/>
         <source>Max
 Threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Max
+tröskel:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="658"/>
         <source>Maximum axis travel before acceleration has reached the multiplier value</source>
-        <translation type="unfinished"></translation>
+        <translation>Största axelrörelse innan accelerationen har nått multiplikatorvärdet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="680"/>
         <source>E&amp;xtra Duration:</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;xtra varaktighet:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="715"/>
         <source>Curve:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurva:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="733"/>
         <source>Ease Out Sine</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk uttoning med sinus</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="738"/>
         <source>Ease Out Quad</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk kvadratisk uttoning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="743"/>
         <source>Ease Out Cubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk kubisk uttoning</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="831"/>
         <source>Release Radius:</source>
-        <translation type="unfinished"></translation>
+        <translation>Frisläppningsradie:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="864"/>
         <source>Specifies that the spring area will be relative to the
 mouse position set by a non-relative spring.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger att fjäderområdet ska vara relativt till
+muspositionen som angetts av en icke-relativ fjäder.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="868"/>
         <source>Relative</source>
-        <translation type="unfinished"></translation>
+        <translation>Relativ</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="891"/>
         <source>Mouse Status</source>
-        <translation type="unfinished"></translation>
+        <translation>Musstatus</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="899"/>
