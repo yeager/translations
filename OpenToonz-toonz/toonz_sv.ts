@@ -1396,11 +1396,11 @@ Vad vill du göra? </translation>
     </message>
     <message>
         <source>Add Antialiasing with Intensity:</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till kantutjämning med intensitet:</translation>
     </message>
     <message>
         <source>Remove Antialiasing using Threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort kantutjämning med tröskelvärde:</translation>
     </message>
     <message>
         <source>                      Palette:</source>
@@ -1408,7 +1408,7 @@ Vad vill du göra? </translation>
     </message>
     <message>
         <source>Tolerance:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tolerans:</translation>
     </message>
     <message>
         <source>End:</source>
@@ -1416,7 +1416,7 @@ Vad vill du göra? </translation>
     </message>
     <message>
         <source>File to convert:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fil att konvertera:</translation>
     </message>
     <message>
         <source>Output Name:</source>
@@ -1424,131 +1424,131 @@ Vad vill du göra? </translation>
     </message>
     <message>
         <source>Same as Painted</source>
-        <translation type="unfinished"></translation>
+        <translation>Samma som målad</translation>
     </message>
     <message>
         <source>No unpainted suffix specified: cannot convert.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget suffix för omålad har angetts: kan inte konvertera.</translation>
     </message>
     <message>
         <source>Level </source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå </translation>
     </message>
     <message>
         <source> already exists; skipped</source>
-        <translation type="unfinished"></translation>
+        <translation> finns redan; hoppades över</translation>
     </message>
     <message>
         <source>Generating level </source>
-        <translation type="unfinished"></translation>
+        <translation>Skapar nivå </translation>
     </message>
     <message>
         <source> converted to tlv.</source>
-        <translation type="unfinished"></translation>
+        <translation> konverterad till tlv.</translation>
     </message>
     <message>
         <source>Level %1 converted to TLV Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå %1 konverterad till TLV-format</translation>
     </message>
     <message>
         <source>Warning: Level %1 NOT converted to TLV Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning: Nivå %1 konverterades INTE till TLV-format</translation>
     </message>
     <message>
         <source>Converted %1 out of %2 Levels to TLV Format</source>
-        <translation type="unfinished"></translation>
+        <translation>Konverterade %1 av %2 nivåer till TLV-format</translation>
     </message>
     <message>
         <source>No output filename specified: please choose a valid level name.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget filnamn för utdata har angetts: välj ett giltigt nivånamn.</translation>
     </message>
     <message>
         <source>Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Läge:</translation>
     </message>
     <message>
         <source>Warning: Can&apos;t read palette &apos;%1&apos; </source>
-        <translation type="unfinished"></translation>
+        <translation>Varning: Det går inte att läsa paletten ”%1” </translation>
     </message>
     <message>
         <source>Level %1 already exists; skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå %1 finns redan; hoppades över.</translation>
     </message>
     <message>
         <source>Level %1 has no frame; skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå %1 saknar bildruta; hoppades över.</translation>
     </message>
     <message>
         <source>Unpainted tlv</source>
-        <translation type="unfinished"></translation>
+        <translation>Omålad tlv</translation>
     </message>
     <message>
         <source>Painted tlv from two images</source>
-        <translation type="unfinished"></translation>
+        <translation>Målad tlv från två bilder</translation>
     </message>
     <message>
         <source>Painted tlv from non AA source</source>
-        <translation type="unfinished"></translation>
+        <translation>Målad tlv från källa utan kantutjämning</translation>
     </message>
     <message>
         <source>Convert completed with %1 error(s) and %2 level(s) skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>Konverteringen slutfördes med %1 fel och %2 nivåer som hoppades över</translation>
     </message>
     <message>
         <source>Convert completed with %1 error(s) </source>
-        <translation type="unfinished"></translation>
+        <translation>Konverteringen slutfördes med %1 fel </translation>
     </message>
     <message>
         <source>%1 level(s) skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 nivåer hoppades över</translation>
     </message>
     <message>
         <source>Create new palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa ny palett</translation>
     </message>
     <message>
         <source>Stroke Mode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Konturläge:</translation>
     </message>
     <message>
         <source>Centerline</source>
-        <translation type="unfinished"></translation>
+        <translation>Mittlinje</translation>
     </message>
     <message>
         <source>Outline</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontur</translation>
     </message>
     <message>
         <source>Unpainted tlv from non AA source</source>
-        <translation type="unfinished"></translation>
+        <translation>Omålad tlv från källa utan kantutjämning</translation>
     </message>
     <message>
         <source>Remove dot before frame number</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort punkt före bildrutenummer</translation>
     </message>
     <message>
         <source>  End:</source>
-        <translation type="unfinished"></translation>
+        <translation>  Slut:</translation>
     </message>
     <message>
         <source>File Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamn:</translation>
     </message>
     <message>
         <source>Save Backup to &quot;nopaint&quot; Folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara säkerhetskopia i mappen ”nopaint”</translation>
     </message>
     <message>
         <source>Antialias:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kantutjämning:</translation>
     </message>
     <message>
         <source>Palette:</source>
-        <translation type="unfinished"></translation>
+        <translation>Palett:</translation>
     </message>
     <message>
         <source>Append Default Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till standardpalett</translation>
     </message>
     <message>
         <source>When activated, styles of the default palette
@@ -1556,102 +1556,108 @@ Vad vill du göra? </translation>
 be appended to the palette after conversion in 
 order to save the effort of creating styles 
 before color designing.</source>
-        <translation type="unfinished"></translation>
+        <translation>När alternativet är aktiverat läggs stilar från standardpaletten
+($TOONZSTUDIOPALETTE\cleanup_default.tpl) till i
+paletten efter konverteringen, så att du slipper skapa
+stilar före färgsättningen.</translation>
     </message>
     <message>
         <source>Remove Unused Styles from Input Palette</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort oanvända stilar från indatapaletten</translation>
     </message>
     <message>
         <source>Image DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildens DPI</translation>
     </message>
     <message>
         <source>Current Camera DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuell kameras DPI</translation>
     </message>
     <message>
         <source>Custom DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassad DPI</translation>
     </message>
     <message>
         <source>Specify the policy for setting DPI of converted tlv. 
 If you select the &quot;Image DPI&quot; option and the source image does not 
 contain the dpi information, then the current camera dpi will be used.
 </source>
-        <translation type="unfinished"></translation>
+        <translation>Ange principen för DPI för den konverterade tlv-filen. 
+Om du väljer alternativet ”Bildens DPI” och källbilden saknar
+DPI-information används den aktuella kamerans DPI.
+</translation>
     </message>
     <message>
         <source>Dpi:</source>
-        <translation type="unfinished"></translation>
+        <translation>DPI:</translation>
     </message>
     <message>
         <source>Level %1 converting to same file format; skipped.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå %1 konverteras till samma filformat; hoppades över.</translation>
     </message>
 </context>
 <context>
     <name>DVGui::ProgressDialog</name>
     <message>
         <source>Loading &quot;%1&quot;...</source>
-        <translation type="unfinished"></translation>
+        <translation>Läser in ”%1”...</translation>
     </message>
     <message>
         <source>Importing &quot;%1&quot;...</source>
-        <translation type="unfinished"></translation>
+        <translation>Importerar ”%1”...</translation>
     </message>
 </context>
 <context>
     <name>DateChooserWidget</name>
     <message>
         <source>time ago.</source>
-        <translation type="unfinished"></translation>
+        <translation>sedan.</translation>
     </message>
     <message>
         <source>days ago.</source>
-        <translation type="unfinished"></translation>
+        <translation>dagar sedan.</translation>
     </message>
     <message>
         <source>weeks ago.</source>
-        <translation type="unfinished"></translation>
+        <translation>veckor sedan.</translation>
     </message>
     <message>
         <source>( Custom date )</source>
-        <translation type="unfinished"></translation>
+        <translation>( Anpassat datum )</translation>
     </message>
 </context>
 <context>
     <name>DefineScannerPopup</name>
     <message>
         <source>Define Scanner</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange bildläsare</translation>
     </message>
     <message>
         <source>Scanner Driver:</source>
-        <translation type="unfinished"></translation>
+        <translation>Drivrutin för bildläsare:</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
 </context>
 <context>
     <name>DeleteInkDialog</name>
     <message>
         <source>Delete Lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort linjer</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Style Index: </source>
@@ -1663,18 +1669,18 @@ contain the dpi information, then the current camera dpi will be used.
     </message>
     <message>
         <source>Style Index:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stilindex:</translation>
     </message>
     <message>
         <source>Apply to Frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa på bildrutor:</translation>
     </message>
 </context>
 <context>
     <name>DuplicatePopup</name>
     <message>
         <source>Repeat</source>
-        <translation type="unfinished"></translation>
+        <translation>Upprepa</translation>
     </message>
     <message>
         <source>Times:</source>
