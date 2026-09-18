@@ -4331,7 +4331,7 @@ exakta.</translation>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1055"/>
         <source>Refresh Rate:</source>
-        <translation>Uppdateringsfrekvens:</translation>
+        <translation>Uppdateringsintervall:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1062"/>
@@ -4341,29 +4341,36 @@ editing this setting as it will cause the program to use
 more CPU power. Setting this value too low can cause
 system instability. Please test the setting before using
 it unattended.</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdateringsintervallet är tidsrymden mellan
+mushändelser. Var försiktig när du ändrar den här
+inställningen eftersom programmet då använder
+mer processorkraft. Ett alltför lågt värde kan orsaka
+systeminstabilitet. Testa inställningen innan du använder
+den utan tillsyn.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1076"/>
         <source>Spring</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjäder</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1090"/>
         <source>Screen:</source>
-        <translation type="unfinished"></translation>
+        <translation>Skärm:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1100"/>
         <source>Utilize the specified screen for spring mode. On Linux, the
 default is to use the primary screen. On Windows, the default
 is to use all available screens.</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd den angivna skärmen för fjäderläget. I Linux
+används den primära skärmen som standard. I Windows används
+alla tillgängliga skärmar som standard.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1134"/>
         <source>Accel Numerator:</source>
-        <translation type="unfinished"></translation>
+        <translation>Accelerationsräknare:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1147"/>
@@ -4375,12 +4382,12 @@ is to use all available screens.</source>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1171"/>
         <source>Accel Denominator:</source>
-        <translation type="unfinished"></translation>
+        <translation>Accelerationsnämnare:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1202"/>
         <source>Accel Threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Accelerationströskel:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1246"/>
@@ -4388,12 +4395,15 @@ is to use all available screens.</source>
 changed by a different process, particularly when quitting
 an older game, then you might want to reset the acceleration
 values used by the virtual mouse.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om accelerationsvärdena för den virtuella musen har
+ändrats av en annan process, särskilt när ett
+äldre spel avslutas, kan du vilja återställa de accelerationsvärden
+som används av den virtuella musen.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="1252"/>
         <source>Reset Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Återställ acceleration</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="405"/>
@@ -4403,7 +4413,7 @@ values used by the virtual mouse.</source>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="447"/>
         <source> ms</source>
-        <translation type="unfinished"></translation>
+        <translation> ms</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="470"/>
@@ -4413,29 +4423,31 @@ values used by the virtual mouse.</source>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="506"/>
         <source> times/s</source>
-        <translation type="unfinished"></translation>
+        <translation> gånger/s</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="537"/>
         <source>Below is a list of the custom mappings that have been saved. You can use the following table to delete mappings or have mappings temporarily disabled. You can also disable mappings that are included with SDL; just insert a new row with the appropriate joystick GUID and check disable.
 
 Settings will not take affect until you either refresh all joysticks or unplug that particular joystick.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nedan visas en lista över de anpassade mappningar som har sparats. Du kan använda följande tabell för att ta bort mappningar eller tillfälligt inaktivera dem. Du kan även inaktivera mappningar som ingår i SDL; lägg bara till en ny rad med rätt styrspaks-GUID och markera inaktivering.
+
+Inställningarna träder inte i kraft förrän du antingen uppdaterar alla styrspakar eller kopplar från den aktuella styrspaken.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="574"/>
         <source>GUID</source>
-        <translation type="unfinished"></translation>
+        <translation>GUID</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="579"/>
         <source>Mapping String</source>
-        <translation type="unfinished"></translation>
+        <translation>Mappningssträng</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="584"/>
         <source>Disable?</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktivera?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="604"/>
@@ -4447,44 +4459,44 @@ Settings will not take affect until you either refresh all joysticks or unplug t
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="653"/>
         <location filename="../../../src/gui/mainsettingsdialog.cpp" line="1786"/>
         <source>Default</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="663"/>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>Engelska</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="754"/>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="846"/>
         <source>Active</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiv</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="779"/>
         <source>Devices:</source>
-        <translation type="unfinished"></translation>
+        <translation>Enheter:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="787"/>
         <location filename="../../../src/gui/mainsettingsdialog.cpp" line="1067"/>
         <source>All</source>
-        <translation type="unfinished"></translation>
+        <translation>Alla</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="851"/>
         <source>Device</source>
-        <translation type="unfinished"></translation>
+        <translation>Enhet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="856"/>
         <source>Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Profil</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="876"/>
         <source>Default?</source>
-        <translation type="unfinished"></translation>
+        <translation>Standard?</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mainsettingsdialog.ui" line="594"/>
