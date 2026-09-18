@@ -944,3 +944,7 @@ Detaljerade ändringsbeskrivningar hör hemma i respektive PR, commit eller öve
 **Freeplane Java-klassökväg (2026-09-18):** Etikett och hjälptext för skriptens klassökväg har språk- och funktionsgranskats och publicerats i Hosted Weblate. Svenska använder nu konsekvent termerna `klassökväg`, `JAR-filer` och `.class-filer`, beskriver att katalogerna genomsöks och bevarar den säkerhetsrelevanta upplysningen om att läsåtkomst måste tillåtas.
 
 **Freeplane kontrollsluttest (2026-09-18):** Sökningarna `check:reused` och `has:check` i Hosted Weblate ger inga träffar efter kontextgranskning och direkta rättningar. Den automatiska kontrollkön är därmed tom; det är inte i sig ett påstående om att all svensk text i projektet har fått full manuell innehållsgranskning.
+
+### Android IMSI-Catcher Detector — hoppad över 2026-09-18
+
+Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma strängar), men senaste taggade applikationsreleasen är `v0.1.43-alpha` från 2016-05-01. Projektet uppfyller därmed inte regeln om release inom två år. Ingen översättning har ändrats eller skickats in.
