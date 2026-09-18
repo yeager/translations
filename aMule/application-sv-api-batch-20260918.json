@@ -1,0 +1,499 @@
+{
+  "project": "aMule",
+  "component": "amule-application",
+  "language": "sv",
+  "units": [
+    {
+      "id": 196156454,
+      "source": [
+        "aMule can install desktop launchers, icons, and shell command shortcuts into your home directory so it appears in your application menu like a regularly installed app.\n\nThis is reversible - the files live under ~/.local/share/applications, ~/.local/share/icons, and ~/.local/bin, and can be removed at any time.\n\nInstall desktop integration now?"
+      ],
+      "target": [
+        "aMule kan installera skrivbordsstartare, ikoner och kommandogenvägar i din hemkatalog så att det visas i programmenyn som ett vanligt installerat program.\n\nDetta går att ångra – filerna finns under ~/.local/share/applications, ~/.local/share/icons och ~/.local/bin och kan tas bort när som helst.\n\nInstallera skrivbordsintegrering nu?"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156455,
+      "source": [
+        "AppImage integration: aMule added to your application menu (%d shell shortcuts under ~/.local/bin)."
+      ],
+      "target": [
+        "AppImage-integrering: aMule har lagts till i programmenyn (%d skalgenvägar under ~/.local/bin)."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156456,
+      "source": [
+        "Register aMule for ed2k:// links"
+      ],
+      "target": [
+        "Registrera aMule för ed2k://-länkar"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156457,
+      "source": [
+        "Makes aMule the default handler for ed2k:// links so clicking one in your browser or file manager opens it here."
+      ],
+      "target": [
+        "Gör aMule till standardhanterare för ed2k://-länkar så att ett klick i webbläsaren eller filhanteraren öppnar dem här."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156458,
+      "source": [
+        "Register aMule for magnet: links"
+      ],
+      "target": [
+        "Registrera aMule för magnet:-länkar"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156459,
+      "source": [
+        "aMule only handles eD2k-compatible magnets (containing xt=urn:ed2k:). BitTorrent magnets are NOT supported and clicking them will silently fail. If you use a BitTorrent client (Transmission, qBittorrent, etc.), leave this off."
+      ],
+      "target": [
+        "aMule hanterar endast eD2k-kompatibla magnetlänkar (som innehåller xt=urn:ed2k:). BitTorrent-magnetlänkar stöds INTE och ett klick på dem misslyckas tyst. Om du använder en BitTorrent-klient (Transmission, qBittorrent osv.) ska du lämna detta avstängt."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156460,
+      "source": [
+        "Endgame mode: rotate to faster sources for the final blocks"
+      ],
+      "target": [
+        "Slutspelsläge: växla till snabbare källor för de sista blocken"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156461,
+      "source": [
+        "aMule only handles eD2k-compatible magnets. If you replace the current magnet handler (%s), BitTorrent magnet links will stop working - aMule cannot download BitTorrent content. Continue?"
+      ],
+      "target": [
+        "aMule hanterar endast eD2k-kompatibla magnetlänkar. Om du ersätter den nuvarande magnethanteraren (%s) slutar BitTorrent-magnetlänkar att fungera – aMule kan inte hämta BitTorrent-innehåll. Vill du fortsätta?"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156462,
+      "source": [
+        "Another application is currently the default handler for these links (%s). Replace it with aMule?"
+      ],
+      "target": [
+        "Ett annat program är för närvarande standardhanterare för dessa länkar (%s). Ersätt det med aMule?"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156463,
+      "source": [
+        "Register URL handler"
+      ],
+      "target": [
+        "Registrera URL-hanterare"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156464,
+      "source": [
+        "Could not register aMule as the URL handler. The registration store may be read-only."
+      ],
+      "target": [
+        "Det gick inte att registrera aMule som URL-hanterare. Registreringslagringen kan vara skrivskyddad."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156465,
+      "source": [
+        "Could not remove the URL handler registration."
+      ],
+      "target": [
+        "Det gick inte att ta bort registreringen av URL-hanteraren."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156466,
+      "source": [
+        "Endgame source rotation is %s.\n"
+      ],
+      "target": [
+        "Rotation av källor i slutspelsläge är %s.\n"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196156469,
+      "source": [
+        "Get endgame source rotation state."
+      ],
+      "target": [
+        "Hämta status för rotation av källor i slutspelsläge."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196192673,
+      "source": [
+        "Remove aMule application files, Start Menu / desktop shortcuts, autostart Run-key entry, URL scheme registrations, and Add/Remove Programs entry (required)."
+      ],
+      "target": [
+        "Ta bort aMules programfiler, Start-menyns-/skrivbordsgenvägar, autostartposten i Run-nyckeln, URL-schemaregistreringar och posten i Lägg till/ta bort program (krävs)."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253576,
+      "source": [
+        "Exclude files matching:"
+      ],
+      "target": [
+        "Uteslut filer som matchar:"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253577,
+      "source": [
+        "Wildcard patterns separated by '|', e.g. .DS_Store|Thumbs.db|*.tmp. Files whose name matches are not shared. Matching is case-insensitive."
+      ],
+      "target": [
+        "Jokerteckenmönster separerade med '|', t.ex. .DS_Store|Thumbs.db|*.tmp. Filer vars namn matchar delas inte. Matchningen är skiftlägesokänslig."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253578,
+      "source": [
+        "Patterns are regular expressions"
+      ],
+      "target": [
+        "Mönster är reguljära uttryck"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253579,
+      "source": [
+        "When set, the whole field is one regular expression ('|' is alternation). When unset, it is a list of '|'-separated wildcards."
+      ],
+      "target": [
+        "När detta är angivet är hela fältet ett reguljärt uttryck ('|' är alternativ). När det inte är angivet är fältet en lista med jokertecken separerade med '|'."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253580,
+      "source": [
+        "Show how many shared files the current pattern would exclude."
+      ],
+      "target": [
+        "Visa hur många delade filer det aktuella mönstret skulle utesluta."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253581,
+      "source": [
+        "Concurrent Kad source lookups"
+      ],
+      "target": [
+        "Samtidiga Kad-källuppslag"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253585,
+      "source": [
+        "Reset the settings on the current page to their default values."
+      ],
+      "target": [
+        "Återställ inställningarna på den aktuella sidan till standardvärden."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253586,
+      "source": [
+        "The shared-file exclusion pattern is not a valid regular expression. The filter has been left disabled."
+      ],
+      "target": [
+        "Uteslutningsmönstret för delade filer är inte ett giltigt reguljärt uttryck. Filtret har lämnats inaktiverat."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253589,
+      "source": [
+        "Reset the settings on this page to their default values?"
+      ],
+      "target": [
+        "Återställ inställningarna på denna sida till standardvärden?"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196253591,
+      "source": [
+        "Excluded %i file from sharing by filter",
+        "Excluded %i files from sharing by filter"
+      ],
+      "target": [
+        "Uteslöt %i fil från delning med filter",
+        "Uteslöt %i filer från delning med filter"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196332562,
+      "source": [
+        "Run amuleapi (REST API) on startup"
+      ],
+      "target": [
+        "Kör amuleapi (REST API) vid start"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196418065,
+      "source": [
+        "Version check throttled; try again shortly."
+      ],
+      "target": [
+        "Versionskontrollen är begränsad; försök igen om en stund."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196418066,
+      "source": [
+        "Version check is not available on this daemon."
+      ],
+      "target": [
+        "Versionskontrollen är inte tillgänglig på denna demon."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196432636,
+      "source": [
+        "The interface amuleapi's HTTP server listens on. 127.0.0.1 (default) accepts only local connections; use 0.0.0.0 or a specific IP to expose it to other hosts (set an admin password below)."
+      ],
+      "target": [
+        "Gränssnittet som amuleapis HTTP-server lyssnar på. 127.0.0.1 (standard) tillåter endast lokala anslutningar; använd 0.0.0.0 eller en specifik IP-adress för att exponera servern för andra värdar (ange ett administratörslösenord nedan)."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196432640,
+      "source": [
+        "The aMule web server is deprecated. Consider running the aMule API instead."
+      ],
+      "target": [
+        "aMules webbserver är föråldrad. Överväg att köra aMule API i stället."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196525517,
+      "source": [
+        "Connection to %s lost.\n%s\n\nThe interface is paused until the connection is restored."
+      ],
+      "target": [
+        "Anslutningen till %s bröts.\n%s\n\nGränssnittet är pausat tills anslutningen har återställts."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196525522,
+      "source": [
+        "Reconnect could not start; retrying shortly."
+      ],
+      "target": [
+        "Återanslutningen kunde inte starta; försöker igen snart."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584220,
+      "source": [
+        "Reconnecting... (attempt %d)"
+      ],
+      "target": [
+        "Återansluter … (försök %d)"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584221,
+      "source": [
+        "Next attempt in %d s..."
+      ],
+      "target": [
+        "Nästa försök om %d s …"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584222,
+      "source": [
+        "Connection to the remote core was lost. Trying to reconnect..."
+      ],
+      "target": [
+        "Anslutningen till fjärrkärnan bröts. Försöker återansluta …"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584223,
+      "source": [
+        "Could not start a Kad search"
+      ],
+      "target": [
+        "Det gick inte att starta en Kad-sökning"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584225,
+      "source": [
+        "Kad note search for '%s' not started: Kad is not connected"
+      ],
+      "target": [
+        "Kad-anteckningssökning efter '%s' startades inte: Kad är inte ansluten"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584226,
+      "source": [
+        "Kad note search for '%s' not started: a note lookup is already running for this file"
+      ],
+      "target": [
+        "Kad-anteckningssökning efter '%s' startades inte: ett anteckningsuppslag körs redan för filen"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584228,
+      "source": [
+        "Kad note search for '%s' not started: another Kad search (e.g. a source search) is already using this file's hash - try again shortly"
+      ],
+      "target": [
+        "Kad-anteckningssökning efter '%s' startades inte: en annan Kad-sökning (t.ex. en källsökning) använder redan filens hash – försök igen om en stund"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584229,
+      "source": [
+        "Kad note search for '%s' not started: PrepareLookup failed"
+      ],
+      "target": [
+        "Kad-anteckningssökning efter '%s' startades inte: PrepareLookup misslyckades"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584233,
+      "source": [
+        "Scanning for subdirectories..."
+      ],
+      "target": [
+        "Söker igenom undermappar …"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196584234,
+      "source": [
+        "Scanned %u directories..."
+      ],
+      "target": [
+        "Genomsökte %u mappar …"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196597513,
+      "source": [
+        "Verify Local Data"
+      ],
+      "target": [
+        "Verifiera lokala data"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196597514,
+      "source": [
+        "Verify Local Data on PartFile is currently not supported: %s"
+      ],
+      "target": [
+        "Verifiering av lokala data för delfil stöds för närvarande inte: %s"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196597515,
+      "source": [
+        "Verify Local Data (%s): Result OK for %s"
+      ],
+      "target": [
+        "Verifiering av lokala data (%s): resultat OK för %s"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196597516,
+      "source": [
+        "Verify Local Data (%s): ERRORS FOUND! %s Failed blocks: MD4: %s. %s %s"
+      ],
+      "target": [
+        "Verifiering av lokala data (%s): FEL HITTADES! %s misslyckade block: MD4: %s. %s %s"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196823360,
+      "source": [
+        "Kad note search for '%s' not started: file is not in the shared list, download queue or search results"
+      ],
+      "target": [
+        "Kad-anteckningssökning efter '%s' startades inte: filen finns inte i listan över delade filer, hämtningskön eller sökresultaten"
+      ],
+      "state": 20
+    },
+    {
+      "id": 196887852,
+      "source": [
+        "Append a copy of all console output to this log file (default: <config-dir>/amuleapi.log)."
+      ],
+      "target": [
+        "Lägg till en kopia av all konsolutdata i denna loggfil (standard: <config-dir>/amuleapi.log)."
+      ],
+      "state": 20
+    },
+    {
+      "id": 196887853,
+      "source": [
+        "Do not write a log file; print to the console only."
+      ],
+      "target": [
+        "Skriv ingen loggfil; skriv endast ut till konsolen."
+      ],
+      "state": 20
+    }
+  ]
+}
