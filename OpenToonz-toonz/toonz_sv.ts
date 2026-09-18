@@ -6524,83 +6524,86 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>Save images as they are captured</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara bilder när de fångas</translation>
     </message>
     <message>
         <source>Interval timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervalltimer</translation>
     </message>
     <message>
         <source>Use interval timer</source>
-        <translation type="unfinished"></translation>
+        <translation>Använd intervalltimer</translation>
     </message>
     <message>
         <source>Capture
 [Return key]</source>
-        <translation type="unfinished"></translation>
+        <translation>Fånga
+[Returtangent]</translation>
     </message>
     <message>
         <source>Interval(sec):</source>
-        <translation type="unfinished"></translation>
+        <translation>Intervall (sek):</translation>
     </message>
     <message>
         <source>Start Capturing
 [Return key]</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta fångst
+[Returtangent]</translation>
     </message>
     <message>
         <source>Stop Capturing
 [Return key]</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa fångst
+[Returtangent]</translation>
     </message>
     <message>
         <source>Camera Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerafångst</translation>
     </message>
     <message>
         <source>- Select camera -</source>
-        <translation type="unfinished"></translation>
+        <translation>- Välj kamera -</translation>
     </message>
     <message>
         <source>Video Capture Filter Settings...</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för videofångstfilter...</translation>
     </message>
     <message>
         <source>Load Selected Image</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in markerad bild</translation>
     </message>
     <message>
         <source>Subfolder</source>
-        <translation type="unfinished"></translation>
+        <translation>Undermapp</translation>
     </message>
     <message>
         <source>No image selected.  Please select an image in the Xsheet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen bild har valts. Välj en bild i XSheet.</translation>
     </message>
     <message>
         <source>The selected image is not in a raster level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda bilden finns inte i en raster-nivå.</translation>
     </message>
     <message>
         <source>The selected image size does not match the current camera settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda bildstorleken matchar inte aktuella kamerainställningar.</translation>
     </message>
     <message>
         <source>No</source>
         <comment>frame id</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nr</translation>
     </message>
     <message>
         <source>Previous Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Föregående nivå</translation>
     </message>
     <message>
         <source>UNDEFINED WARNING</source>
-        <translation type="unfinished"></translation>
+        <translation>ODEFINIERAD VARNING</translation>
     </message>
     <message>
         <source>The level is not registered in the scene, but exists in the file system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån är inte registrerad i scenen men finns i filsystemet.</translation>
     </message>
     <message>
         <source>WARNING : Image size mismatch. The saved image size is %1 x %2.</source>
@@ -6608,180 +6611,190 @@ Vill du skriva över den?</translation>
     </message>
     <message>
         <source>WARNING</source>
-        <translation type="unfinished"></translation>
+        <translation>VARNING</translation>
     </message>
     <message>
         <source>
 Frame %1 exists.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Bildruta %1 finns.</translation>
     </message>
     <message>
         <source>
 Frames %1 exist.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+Bildrutor %1 finns.</translation>
     </message>
     <message>
         <source>OVERWRITE 1 of</source>
-        <translation type="unfinished"></translation>
+        <translation>SKRIV ÖVER 1 av</translation>
     </message>
     <message>
         <source>ADD to</source>
-        <translation type="unfinished"></translation>
+        <translation>LÄGG TILL i</translation>
     </message>
     <message>
         <source> %1 frame</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 bildruta</translation>
     </message>
     <message>
         <source> %1 frames</source>
-        <translation type="unfinished"></translation>
+        <translation> %1 bildrutor</translation>
     </message>
     <message>
         <source>The level will be newly created.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån skapas på nytt.</translation>
     </message>
     <message>
         <source>NEW</source>
-        <translation type="unfinished"></translation>
+        <translation>NY</translation>
     </message>
     <message>
         <source>The level is already registered in the scene.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivån är redan registrerad i scenen.</translation>
     </message>
     <message>
         <source>
 NOTE : The level is not saved.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+OBS: Nivån är inte sparad.</translation>
     </message>
     <message>
         <source>
 WARNING : Failed to get image size of the existing level %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Det gick inte att hämta bildstorleken för den befintliga nivån %1.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The existing level size is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken matchar inte. Den befintliga nivån har storleken %1 × %2.</translation>
     </message>
     <message>
         <source>WARNING : Level name conflicts. There already is a level %1 in the scene with the path                        
           %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>VARNING: Konflikt mellan nivånamn. Det finns redan en nivå %1 i scenen med sökvägen                        
+          %2.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The size of level with the same name is is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken matchar inte. Nivån med samma namn har storleken %1 × %2.</translation>
     </message>
     <message>
         <source>WARNING : Level path conflicts. There already is a level with the path %1                        
           in the scene with the name %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>VARNING: Konflikt mellan nivåsökvägar. Det finns redan en nivå med sökvägen %1                        
+          i scenen med namnet %2.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The size of level with the same path is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken matchar inte. Nivån med samma sökväg har storleken %1 × %2.</translation>
     </message>
     <message>
         <source>
 WARNING : Image size mismatch. The saved image size is %1 x %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>
+VARNING: Bildstorleken matchar inte. Den sparade bilden har storleken %1 × %2.</translation>
     </message>
     <message>
         <source>Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Färg</translation>
     </message>
     <message>
         <source>Grayscale</source>
-        <translation type="unfinished"></translation>
+        <translation>Gråskala</translation>
     </message>
     <message>
         <source>Black &amp; White</source>
-        <translation type="unfinished"></translation>
+        <translation>Svartvitt</translation>
     </message>
     <message>
         <source>Subcamera</source>
-        <translation type="unfinished"></translation>
+        <translation>Underkamera</translation>
     </message>
 </context>
 <context>
     <name>PencilTestSaveInFolderPopup</name>
     <message>
         <source>Create Subfolder</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapa undermapp</translation>
     </message>
     <message>
         <source>Infomation</source>
-        <translation type="unfinished"></translation>
+        <translation>Information</translation>
     </message>
     <message>
         <source>Subfolder Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Undermappens namn</translation>
     </message>
     <message>
         <source>Auto Format:</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatiskt format:</translation>
     </message>
     <message>
         <source>Show This on Launch of the Camera Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa detta när kamerafångsten startar</translation>
     </message>
     <message>
         <source>OK</source>
-        <translation type="unfinished"></translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>C- + Sequence + Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>C- + sekvens + scen</translation>
     </message>
     <message>
         <source>Sequence + Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekvens + scen</translation>
     </message>
     <message>
         <source>Episode + Sequence + Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Episod + sekvens + scen</translation>
     </message>
     <message>
         <source>Project + Episode + Sequence + Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Projekt + episod + sekvens + scen</translation>
     </message>
     <message>
         <source>Save In:</source>
-        <translation type="unfinished"></translation>
+        <translation>Spara i:</translation>
     </message>
     <message>
         <source>Project:</source>
-        <translation type="unfinished"></translation>
+        <translation>Projekt:</translation>
     </message>
     <message>
         <source>Episode:</source>
-        <translation type="unfinished"></translation>
+        <translation>Episod:</translation>
     </message>
     <message>
         <source>Sequence:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sekvens:</translation>
     </message>
     <message>
         <source>Scene:</source>
-        <translation type="unfinished"></translation>
+        <translation>Scen:</translation>
     </message>
     <message>
         <source>Subfolder Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Undermappens namn:</translation>
     </message>
     <message>
         <source>Subfolder name should not be empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Undermappens namn får inte vara tomt.</translation>
     </message>
     <message>
         <source>Subfolder name should not contain following characters:  * . &quot; / \ [ ] : ; | = , </source>
-        <translation type="unfinished"></translation>
+        <translation>Undermappens namn får inte innehålla följande tecken:  * . &quot; / \ [ ] : ; | = , </translation>
     </message>
     <message>
         <source>Folder %1 already exists.</source>
