@@ -12102,7 +12102,7 @@ Checka in eller återställ ändringarna först.</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Hjälp</translation>
     </message>
 </context>
 <context>
@@ -12110,162 +12110,163 @@ Checka in eller återställ ändringarna först.</translation>
     <message>
         <source>%1 is already assigned to &apos;%2&apos;
 Assign to &apos;%3&apos;?</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 är redan tilldelat till ”%2”
+Tilldela till ”%3”?</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>Nej</translation>
     </message>
 </context>
 <context>
     <name>StackedMenuBar</name>
     <message>
         <source>Files</source>
-        <translation type="unfinished"></translation>
+        <translation>Filer</translation>
     </message>
     <message>
         <source>Scan</source>
-        <translation type="unfinished"></translation>
+        <translation>Skanning</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar</translation>
     </message>
     <message>
         <source>Processing</source>
-        <translation type="unfinished"></translation>
+        <translation>Bearbetning</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Fönster</translation>
     </message>
     <message>
         <source>Other Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Andra fönster</translation>
     </message>
     <message>
         <source>Customize</source>
-        <translation type="unfinished"></translation>
+        <translation>Anpassa</translation>
     </message>
     <message>
         <source>View</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa</translation>
     </message>
     <message>
         <source>Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Verktyg</translation>
     </message>
     <message>
         <source>More Tools</source>
-        <translation type="unfinished"></translation>
+        <translation>Fler verktyg</translation>
     </message>
     <message>
         <source>Checks</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontroller</translation>
     </message>
     <message>
         <source>Render</source>
-        <translation type="unfinished"></translation>
+        <translation>Rendera</translation>
     </message>
     <message>
         <source>Draw</source>
-        <translation type="unfinished"></translation>
+        <translation>Rita</translation>
     </message>
     <message>
         <source>Xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>XSheet</translation>
     </message>
     <message>
         <source>Subxsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Under-XSheet</translation>
     </message>
     <message>
         <source>Levels</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivåer</translation>
     </message>
     <message>
         <source>Cells</source>
-        <translation type="unfinished"></translation>
+        <translation>Celler</translation>
     </message>
     <message>
         <source>Reframe</source>
-        <translation type="unfinished"></translation>
+        <translation>Rama om</translation>
     </message>
     <message>
         <source>Step</source>
-        <translation type="unfinished"></translation>
+        <translation>Steg</translation>
     </message>
     <message>
         <source>Each</source>
-        <translation type="unfinished"></translation>
+        <translation>Varje</translation>
     </message>
     <message>
         <source>File</source>
-        <translation type="unfinished"></translation>
+        <translation>Arkiv</translation>
     </message>
     <message>
         <source>Scan &amp;&amp; Cleanup</source>
-        <translation type="unfinished"></translation>
+        <translation>Skanna &amp;&amp; renrita</translation>
     </message>
     <message>
         <source>Level</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivå</translation>
     </message>
     <message>
         <source>Help</source>
-        <translation type="unfinished"></translation>
+        <translation>Hjälp</translation>
     </message>
     <message>
         <source>Failed to load menu %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att läsa in menyn %1</translation>
     </message>
     <message>
         <source>Failed to add command %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att lägga till kommandot %1</translation>
     </message>
     <message>
         <source>Cannot open menubar settings file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att öppna menyradsinställningsfilen %1</translation>
     </message>
     <message>
         <source>Failed to create menubar</source>
-        <translation type="unfinished"></translation>
+        <translation>Det gick inte att skapa menyraden</translation>
     </message>
     <message>
         <source>Project Management</source>
-        <translation type="unfinished"></translation>
+        <translation>Projekthantering</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera</translation>
     </message>
     <message>
         <source>Export</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera</translation>
     </message>
     <message>
         <source>Script</source>
-        <translation type="unfinished"></translation>
+        <translation>Skript</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupp</translation>
     </message>
     <message>
         <source>Arrange</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordna</translation>
     </message>
     <message>
         <source>New</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt</translation>
     </message>
     <message>
         <source>Adjust</source>
