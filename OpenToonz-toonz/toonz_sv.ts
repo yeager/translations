@@ -8265,29 +8265,29 @@ What do you want to do? </source>
     </message>
     <message>
         <source>Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>Låst</translation>
     </message>
     <message>
         <source>Unversioned</source>
-        <translation type="unfinished"></translation>
+        <translation>Inte versionshanterad</translation>
     </message>
     <message>
         <source>Missing</source>
-        <translation type="unfinished"></translation>
+        <translation>Saknas</translation>
     </message>
     <message>
         <source>Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicera</translation>
     </message>
     <message>
         <source>Don&apos;t Duplicate</source>
-        <translation type="unfinished"></translation>
+        <translation>Duplicera inte</translation>
     </message>
     <message numerus="yes">
         <source>Deleting %n files. Are you sure?</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Tar bort %n fil. Är du säker?</numerusform>
+            <numerusform>Tar bort %n filer. Är du säker?</numerusform>
         </translation>
     </message>
     <message>
@@ -8297,60 +8297,62 @@ What do you want to do? </source>
     <message>
         <source>You are going to premultiply selected files.
 The operation cannot be undone: are you sure?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kommer att förmultiplicera markerade filer.
+Åtgärden kan inte ångras: är du säker?</translation>
     </message>
     <message>
         <source>Premultiply</source>
-        <translation type="unfinished"></translation>
+        <translation>Förmultiplicera</translation>
     </message>
     <message>
         <source>%1  has an invalid extension format.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 har ett ogiltigt filändelseformat.</translation>
     </message>
     <message>
         <source>File %1 doesn&apos;t belong to the current project.
 Do you want to import it or load it from its original location?</source>
-        <translation type="unfinished"></translation>
+        <translation>Filen %1 tillhör inte det aktuella projektet.
+Vill du importera den eller läsa in den från ursprunglig plats?</translation>
     </message>
     <message>
         <source>Import</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera</translation>
     </message>
     <message>
         <source>Load</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in</translation>
     </message>
     <message>
         <source>The camera settings of the scene you are loading as sub-xsheet are different from those of your current scene. What you want to do?</source>
-        <translation type="unfinished"></translation>
+        <translation>Kamerainställningarna för scenen som du läser in som under-XSheet skiljer sig från dem i den aktuella scenen. Vad vill du göra?</translation>
     </message>
     <message>
         <source>Keep the sub-xsheet original camera settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Behåll under-XSheetens ursprungliga kamerainställningar.</translation>
     </message>
     <message>
         <source>Apply the current scene camera settings to the sub-xsheet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tillämpa den aktuella scenens kamerainställningar på under-XSheeten.</translation>
     </message>
     <message>
         <source>%1 has an invalid file extension.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 har en ogiltig filändelse.</translation>
     </message>
     <message>
         <source>%1 is an invalid path.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 är en ogiltig sökväg.</translation>
     </message>
     <message>
         <source>Import Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera scen</translation>
     </message>
     <message>
         <source>Change Project</source>
-        <translation type="unfinished"></translation>
+        <translation>Byt projekt</translation>
     </message>
     <message>
         <source>No cleaned up drawings available for the current selection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga renritade ritningar för den aktuella markeringen.</translation>
     </message>
     <message>
         <source>No saved drawings available for the current selection.</source>
