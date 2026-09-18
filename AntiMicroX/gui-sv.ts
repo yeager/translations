@@ -4939,59 +4939,60 @@ axeln flyttas tillbaka till dödzonen.</translation>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="109"/>
         <source>Enhanced Precision</source>
-        <translation type="unfinished"></translation>
+        <translation>Förbättrad precision</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="114"/>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="728"/>
         <source>Linear</source>
-        <translation type="unfinished"></translation>
+        <translation>Linjär</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="119"/>
         <source>Quadratic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvadratisk</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="124"/>
         <source>Cubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Kubisk</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="129"/>
         <source>Quadratic Extreme</source>
-        <translation type="unfinished"></translation>
+        <translation>Extremt kvadratisk</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="134"/>
         <source>Power Function</source>
-        <translation type="unfinished"></translation>
+        <translation>Potensfunktion</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="139"/>
         <source>Easing Quadratic</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk kvadratisk</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="144"/>
         <source>Easing Cubic</source>
-        <translation type="unfinished"></translation>
+        <translation>Mjuk kubisk</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="177"/>
         <source>Mouse Speed Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Inställningar för mushastighet</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="192"/>
         <source>Enable to change the horizontal and vertical speed
 boxes at the same time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivera för att ändra fälten för vågrät och lodrät hastighet
+samtidigt.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="196"/>
         <source>Change Together</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändra tillsammans</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="516"/>
@@ -5001,47 +5002,56 @@ produce. Acceleration is added based on how quickly an axis is
 moved in one gamepad poll. This is meant to help work around
 some of the issues of the very limited input range available
 using typical gamepad analog sticks.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alternativ för att lägga till mer acceleration till
+musrörelsen utöver vad accelerationskurvan ger.
+Acceleration läggs till utifrån hur snabbt en axel
+flyttas under en avfrågning av handkontrollen. Detta är avsett att kringgå
+vissa problem med det mycket begränsade inmatningsintervall som
+vanliga analoga styrspakar för handkontroller ger.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="524"/>
         <source>Delta Acceleration</source>
-        <translation type="unfinished"></translation>
+        <translation>Deltaacceleration</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="543"/>
         <source>&amp;Multiplier:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Multiplikator:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="616"/>
         <source>Mi&amp;n
 Threshold:</source>
-        <translation type="unfinished"></translation>
+        <translation>Mi&amp;nsta
+tröskel:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="247"/>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="292"/>
         <source>1 = 20 pps</source>
-        <translation type="unfinished"></translation>
+        <translation>1 = 20 pps</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="318"/>
         <source>Wheel Hori.
 Speed:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vågrät
+rullningshastighet:</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="329"/>
         <source>Set the speed used for horizontal mouse wheel movement
 according to number of simulated notches per second.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange hastigheten för vågrät musrullning
+enligt antalet simulerade hack per sekund.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="381"/>
         <source>Set the speed used for vertical mouse wheel movement
 according to number of simulated notches per second.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange hastigheten för lodrät musrullning
+enligt antalet simulerade hack per sekund.</translation>
     </message>
     <message>
         <location filename="../../../src/gui/mousesettingsdialog.ui" line="410"/>
