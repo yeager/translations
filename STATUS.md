@@ -2,7 +2,7 @@
 
 Senast uppdaterad: 2026-09-18
 
-**ADB Explorer (2026-09-18):** Aktuell release `v1.0.26092` (2026-09-17) bekräftad. Första kontextgranskade batchen har publicerat alla **106** tidigare tomma svenska strängar för ADB-verifiering, integritet, emulatorer, sökning, arkiv, konfliktlösning och APK-säkerhetskopior. Svenska resurser är nu **146/557** med 411 äldre poster som behöver redigeras. Officiell RESX-export: `ADB-Explorer/Resources.sv.resx` (XML-validerad).
+**ADB Explorer (2026-09-18):** Aktuell release `v1.0.26092` (2026-09-17) bekräftad. Första kontextgranskade batchen har publicerat alla **106** tidigare tomma svenska strängar för ADB-verifiering, integritet, emulatorer, sökning, arkiv, konfliktlösning och APK-säkerhetskopior. Svenska resurser är nu **246/557** med 311 äldre poster som behöver redigeras. En andra kontextgranskad batch rättade ADB-anslutning, hämta/skicka, emulatorhantering, konfliktlösning och inställningar; Weblates kontrollmarkeringar minskade från 97 till 7. Officiell RESX-export: `ADB-Explorer/Resources.sv.resx` (XML-validerad).
 
 **Aves (2026-09-18):** Aktuell release `v1.15.3` (2026-09-09) bekräftad. Alla svenska komponenter är kompletta: huvudapp 735/735, Android 9/9 och butiksmetadata 4/4. Två granskade förbättringar är redo (`Show raw icon` → **Visa RAW-ikon**, samt korrigerad HTML-markering i butiksbeskrivningen), men Hosted Weblate avvisade båda API-uppdateringarna med HTTP 403. Den officiella exporten är arkiverad som `Aves/`; publicera rättningarna när skrivbehörigheten aktiveras.
 
