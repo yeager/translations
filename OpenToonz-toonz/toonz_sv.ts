@@ -10618,172 +10618,172 @@ Ljudfilen tas inte med i det renderade klippet.</translation>
     </message>
     <message>
         <source>Locking file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Låser fil …</translation>
     </message>
     <message>
         <source>Getting frame range edit information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar information om redigeringar av bildruteintervall …</translation>
     </message>
     <message>
         <source>No frame range edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget bildruteintervall har redigerats.</translation>
     </message>
     <message>
         <source>Updating frame range edit information...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar information om redigeringar av bildruteintervall …</translation>
     </message>
     <message>
         <source>Putting changes...</source>
-        <translation type="unfinished"></translation>
+        <translation>Checkar in ändringar …</translation>
     </message>
     <message>
         <source>Updating file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Uppdaterar fil …</translation>
     </message>
     <message>
         <source>Adding hook file to repository...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägger till hookfil i arkivet …</translation>
     </message>
     <message>
         <source>Setting the needs-lock property to hook file...</source>
-        <translation type="unfinished"></translation>
+        <translation>Anger egenskapen needs-lock för hookfilen …</translation>
     </message>
 </context>
 <context>
     <name>SVNDeleteDialog</name>
     <message>
         <source>Version Control: Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Ta bort</translation>
     </message>
     <message>
         <source>Delete folder that contains %1 items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort mappen som innehåller %1 objekt.</translation>
     </message>
     <message>
         <source>Delete empty folder.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort tom mapp.</translation>
     </message>
     <message>
         <source>Delete %1 items.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort %1 objekt.</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
     <message>
         <source>Delete Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort sceninnehåll</translation>
     </message>
     <message>
         <source> Keep Local Copy</source>
-        <translation type="unfinished"></translation>
+        <translation> Behåll lokal kopia</translation>
     </message>
     <message>
         <source>Delete Local Copy </source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort lokal kopia </translation>
     </message>
     <message>
         <source>Delete on Server </source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort på servern </translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>Deleting %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort %1 objekt …</translation>
     </message>
     <message>
         <source>Delete</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort</translation>
     </message>
     <message>
         <source>You are deleting items also on repository. Are you sure ?</source>
-        <translation type="unfinished"></translation>
+        <translation>Du tar även bort objekt från arkivet. Är du säker?</translation>
     </message>
 </context>
 <context>
     <name>SVNFrameRangeLockInfoDialog</name>
     <message>
         <source>Version Control: Edit Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Redigeringsinformation</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Close</source>
-        <translation type="unfinished"></translation>
+        <translation>Stäng</translation>
     </message>
     <message>
         <source>No frame range edited.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inget bildruteintervall har redigerats.</translation>
     </message>
     <message>
         <source>%1 on %2 is editing frames from %3 to %4.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 på %2 redigerar bildrutor från %3 till %4.</translation>
     </message>
 </context>
 <context>
     <name>SVNLockDialog</name>
     <message>
         <source>Version Control: Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Redigera</translation>
     </message>
     <message>
         <source>Version Control: Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering: Lås upp</translation>
     </message>
     <message>
         <source>Getting repository status...</source>
-        <translation type="unfinished"></translation>
+        <translation>Hämtar arkivstatus …</translation>
     </message>
     <message>
         <source>Comment:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kommentar:</translation>
     </message>
     <message>
         <source>Edit Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera sceninnehåll</translation>
     </message>
     <message>
         <source>Unlock Scene Contents</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp sceninnehåll</translation>
     </message>
     <message>
         <source>Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigera</translation>
     </message>
     <message>
         <source>Unlock</source>
-        <translation type="unfinished"></translation>
+        <translation>Lås upp</translation>
     </message>
     <message>
         <source>Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Avbryt</translation>
     </message>
     <message>
         <source>No items to edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att redigera.</translation>
     </message>
     <message>
         <source>No items to unlock.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga objekt att låsa upp.</translation>
     </message>
     <message>
         <source>%1 items to edit.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att redigera.</translation>
     </message>
     <message>
         <source>%1 items to unlock.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 objekt att låsa upp.</translation>
     </message>
     <message>
         <source>Editing %1 items...</source>
-        <translation type="unfinished"></translation>
+        <translation>Redigerar %1 objekt …</translation>
     </message>
     <message>
         <source>Unlocking %1 items...</source>
