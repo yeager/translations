@@ -29,6 +29,8 @@ Senast uppdaterad: 2026-09-18
 
 **Freeplane uppdatering 2026-09-18:** Den fjärde UI-granskningen har publicerats. Aktuell status är **1 721/2 804** svenska poster med **61** fuzzy och 28 kvalitetsmarkeringar. Batchen rättade 25 ytterligare texter för säkerhetskopior, automatisk sparning, kart-/anteckningsfokus, sökning, filter, tangentbindningar och nodformatering. Senaste officiella export: `Freeplane/Freeplane_sv.properties` (SHA-256 `3d71278b…d58da`).
 
+**Freeplane slutgranskning av befintliga svenska poster 2026-09-18:** Samtliga 59 kvarvarande poster som Weblate markerade som *behöver redigeras* har kontextgranskats och återpublicerats. 27 rättningar täcker ikoner, HTML-import/-export, länkar, nodredigering, URL-öppning och paneler. Svenskan är nu **1 780/2 804**, med 2 fuzzy-poster och 51 kontrollmarkeringar; de 1 024 återstående tomma posterna kräver en separat komplett översättningsinsats. Officiell export: `Freeplane/Freeplane_sv.properties` (SHA-256 `985f613d…27f2b`).
+
 **Arbetsregler:** Dokumentation har alltid lägre prioritet än programgränssnitt och webbplatser. Använd `yeager/hunspell-sv` och `yeager/l10n-lint` vid granskning. Skicka in färdiggranskat arbete direkt via officiell kanal. Dokumentera osäkerheter här och gå vidare till nästa arbete utan att invänta användaren. Säkerhetskopiera svenska officiella exporter i detta arkiv och uppdatera status efter avslutade jobb. 100 % täckning är inte i sig bevis på genomförd språkgranskning.
 
 ## Codeberg Weblate – svensk indexering 2026-09-12
