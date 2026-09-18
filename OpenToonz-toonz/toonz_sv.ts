@@ -8060,92 +8060,92 @@ Do you want to overwrite it?</source>
     </message>
     <message>
         <source>Bad project name: &apos;%1&apos; looks like an absolute file path</source>
-        <translation type="unfinished"></translation>
+        <translation>Ogiltigt projektnamn: ”%1” ser ut som en absolut filsökväg</translation>
     </message>
     <message>
         <source>Project &apos;%1&apos; already exists</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektet ”%1” finns redan</translation>
     </message>
 </context>
 <context>
     <name>ProjectPopup</name>
     <message>
         <source>Project Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektnamn:</translation>
     </message>
     <message>
         <source>Append $scenepath to +drawings</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till $scenepath till +drawings</translation>
     </message>
     <message>
         <source>Append $scenepath to +inputs</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till $scenepath till +inputs</translation>
     </message>
     <message>
         <source>Append $scenepath to +extras</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till $scenepath till +extras</translation>
     </message>
     <message>
         <source>Project:</source>
-        <translation type="unfinished"></translation>
+        <translation>Projekt:</translation>
     </message>
 </context>
 <context>
     <name>ProjectSettingsPopup</name>
     <message>
         <source>Project Settings</source>
-        <translation type="unfinished"></translation>
+        <translation>Projektinställningar</translation>
     </message>
 </context>
 <context>
     <name>PsdSettingsPopup</name>
     <message>
         <source>Load PSD File</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in PSD-fil</translation>
     </message>
     <message>
         <source>Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn:</translation>
     </message>
     <message>
         <source>Path:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg:</translation>
     </message>
     <message>
         <source>Expose in a Sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponera i en under-XSheet</translation>
     </message>
     <message>
         <source>Load As:</source>
-        <translation type="unfinished"></translation>
+        <translation>Läs in som:</translation>
     </message>
     <message>
         <source>Group Option</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupperingsalternativ</translation>
     </message>
     <message>
         <source>Ignore groups</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorera grupper</translation>
     </message>
     <message>
         <source>Expose layers in a group as columns in a sub-xsheet</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponera lager i en grupp som kolumner i en under-XSheet</translation>
     </message>
     <message>
         <source>Expose layers in a group as frames in a column</source>
-        <translation type="unfinished"></translation>
+        <translation>Exponera lager i en grupp som bildrutor i en kolumn</translation>
     </message>
     <message>
         <source>FileName#LayerName</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamn#Lagernamn</translation>
     </message>
     <message>
         <source>LayerName</source>
-        <translation type="unfinished"></translation>
+        <translation>Lagernamn</translation>
     </message>
     <message>
         <source>Level Name:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nivånamn:</translation>
     </message>
     <message>
         <source>Single Image</source>
