@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 23 757 aktiva poster i de 29 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 6 697 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 24 070 aktiva poster i de 30 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 6 759 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -39,6 +39,7 @@ Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska
 | direvent | 5.5 | 267 | 81 | [PO](direvent-5.5.sv.po) | [Diff](diff/direvent-5.5.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/direvent-5.5.sv.po) |
 | doodle | 0.7.2 | 114 | 14 | [PO](doodle-0.7.2.sv.po) | [Diff](diff/doodle-0.7.2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/doodle-0.7.2.sv.po) |
 | dos2unix | 7.5.7-beta3 | 131 | 26 | [PO](dos2unix-7.5.7-beta3.sv.po) | [Diff](diff/dos2unix-7.5.7-beta3.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/dos2unix-7.5.7-beta3.sv.po) |
+| dos2unix-man | 7.5.6-beta2 | 313 | 62 | [PO](dos2unix-man-7.5.6-beta2.sv.po) | [Diff](diff/dos2unix-man-7.5.6-beta2.sv.po.diff) | [Original](https://translationproject.org/PO-files/sv/dos2unix-man-7.5.6-beta2.sv.po) |
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
 
