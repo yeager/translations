@@ -318,77 +318,77 @@
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="102"/>
         <source>Chord Selector</source>
-        <translation type="unfinished"></translation>
+        <translation>Ackordväljare</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="113"/>
         <source>Custom</source>
-        <translation type="unfinished">Egen</translation>
+        <translation>Egen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="117"/>
         <source>Diatonic</source>
-        <translation type="unfinished"></translation>
+        <translation>Diatonisk</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="146"/>
         <source>Constrain to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Begränsa till %1</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="187"/>
         <source>Maj</source>
-        <translation type="unfinished"></translation>
+        <translation>dur</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="191"/>
         <source>min</source>
-        <translation type="unfinished"></translation>
+        <translation>moll</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="195"/>
         <source>dim</source>
-        <translation type="unfinished"></translation>
+        <translation>dim</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="199"/>
         <source>sus4</source>
-        <translation type="unfinished"></translation>
+        <translation>sus4</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="203"/>
         <source>sus2</source>
-        <translation type="unfinished"></translation>
+        <translation>sus2</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="207"/>
         <source>aug</source>
-        <translation type="unfinished"></translation>
+        <translation>aug</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="298"/>
         <source>Bass:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bas:</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="337"/>
         <source>Inv:</source>
-        <translation type="unfinished"></translation>
+        <translation>Omv:</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="376"/>
         <source>No scale at playhead</source>
-        <translation type="unfinished"></translation>
+        <translation>Ingen skala vid uppspelningshuvudet</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="382"/>
         <source>Add a scale to the chord track to see diatonic chords here.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lägg till en skala i ackordspåret för att se diatoniska ackord här.</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ChordSelectorDialog.qml" line="390"/>
         <source>No diatonic chord presets available for this scale type. Use the Custom tab to build chords manually.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det finns inga diatoniska ackordförinställningar för denna skaltyp. Använd fliken Egen för att bygga ackord manuellt.</translation>
     </message>
 </context>
 <context>
@@ -396,32 +396,32 @@
     <message>
         <location filename="../src/gui/qml/components/editors/ClipEditorGrid.qml" line="59"/>
         <source>Highlight</source>
-        <translation type="unfinished"></translation>
+        <translation>Markera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/ClipEditorGrid.qml" line="65"/>
         <source>No Highlight</source>
-        <translation type="unfinished">Ingen markering</translation>
+        <translation>Ingen markering</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/ClipEditorGrid.qml" line="69"/>
         <source>Chord</source>
-        <translation type="unfinished">Ackord</translation>
+        <translation>Ackord</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/ClipEditorGrid.qml" line="73"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Skala</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/ClipEditorGrid.qml" line="77"/>
         <source>Scale + Chord</source>
-        <translation type="unfinished"></translation>
+        <translation>Skala + ackord</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/editors/ClipEditorGrid.qml" line="90"/>
         <source>Piano Roll Highlighting</source>
-        <translation type="unfinished"></translation>
+        <translation>Markering i pianorullen</translation>
     </message>
 </context>
 <context>
@@ -429,37 +429,37 @@
     <message>
         <location filename="../src/gui/qml/components/ClipLaunchButton.qml" line="80"/>
         <source>Start Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta uppspelning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLaunchButton.qml" line="80"/>
         <source> (Right-click for quantization options)</source>
-        <translation type="unfinished"></translation>
+        <translation> (Högerklicka för kvantiseringsalternativ)</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLaunchButton.qml" line="83"/>
         <source>Stop Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa uppspelning</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLaunchButton.qml" line="91"/>
         <source>Launch Quantization</source>
-        <translation type="unfinished"></translation>
+        <translation>Startkvantisering</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLaunchButton.qml" line="94"/>
         <source>Launch Immediately</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta omedelbart</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLaunchButton.qml" line="100"/>
         <source>Launch on Next Bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta vid nästa takt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLaunchButton.qml" line="106"/>
         <source>Launch on Next Beat</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta vid nästa slag</translation>
     </message>
 </context>
 <context>
@@ -467,17 +467,17 @@
     <message>
         <location filename="../src/gui/qml/components/ClipLauncherView.qml" line="86"/>
         <source>Stop Scenes</source>
-        <translation type="unfinished"></translation>
+        <translation>Stoppa scener</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLauncherView.qml" line="123"/>
         <source>Play Scene</source>
-        <translation type="unfinished"></translation>
+        <translation>Spela scen</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/components/ClipLauncherView.qml" line="160"/>
         <source>Switch Playback to Timeline</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla uppspelning till tidslinjen</translation>
     </message>
 </context>
 <context>
@@ -485,143 +485,143 @@
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="332"/>
         <source>Editor</source>
-        <translation type="unfinished">Redigerare</translation>
+        <translation>Redigerare</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="338"/>
         <source>Mixer</source>
-        <translation type="unfinished">Mixer</translation>
+        <translation>Mixer</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="344"/>
         <source>Modulators</source>
-        <translation type="unfinished">Modulatorer</translation>
+        <translation>Modulatorer</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="359"/>
         <source>Track Inspector</source>
-        <translation type="unfinished">Spårinspektör</translation>
+        <translation>Spårinspektör</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="364"/>
         <source>Plugin Inspector</source>
-        <translation type="unfinished">Plugin-inspektör</translation>
+        <translation>Insticksinspektör</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="375"/>
         <source>Plugin Browser</source>
-        <translation type="unfinished">Insticksfilutforskare</translation>
+        <translation>Insticksbläddrare</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="383"/>
         <source>File Browser</source>
-        <translation type="unfinished">Filutforskare</translation>
+        <translation>Filbläddrare</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="391"/>
         <source>Monitor Section</source>
-        <translation type="unfinished">Ingång för monitorns fader</translation>
+        <translation>Monitorsektion</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="399"/>
         <source>Chord Preset Browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Bläddrare för ackordförinställningar</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="80"/>
         <location filename="../src/gui/qml/DemoView.qml" line="122"/>
         <source>Undo</source>
-        <translation type="unfinished">Ångra</translation>
+        <translation>Ångra</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="79"/>
         <source>Undo Multiple</source>
-        <translation type="unfinished"></translation>
+        <translation>Ångra flera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="84"/>
         <source>Undo Move</source>
-        <translation type="unfinished"></translation>
+        <translation>Ångra flytt</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="88"/>
         <source>Undo Cut</source>
-        <translation type="unfinished"></translation>
+        <translation>Ångra klipp</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="99"/>
         <source>Redo</source>
-        <translation type="unfinished">Gör om</translation>
+        <translation>Gör om</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="98"/>
         <source>Redo Multiple</source>
-        <translation type="unfinished"></translation>
+        <translation>Gör om flera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="107"/>
         <source>&amp;File</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Arkiv</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="110"/>
         <source>New Long Long Long Long Long Long Long Long Long Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Nytt långt långt långt långt långt långt långt långt långt namn</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="114"/>
         <source>Open</source>
-        <translation type="unfinished"></translation>
+        <translation>Öppna</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="119"/>
         <source>&amp;Edit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Redigera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="127"/>
         <source>&amp;View</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Visa</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="130"/>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Utseende</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="133"/>
         <source>Switch Light/Dark Theme</source>
-        <translation type="unfinished"></translation>
+        <translation>Växla ljust/mörkt tema</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="139"/>
         <source>Theme Color</source>
-        <translation type="unfinished"></translation>
+        <translation>Temafärg</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="142"/>
         <source>Zrythm Orange</source>
-        <translation type="unfinished"></translation>
+        <translation>Zrythm-orange</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="150"/>
         <source>Celestial Blue</source>
-        <translation type="unfinished"></translation>
+        <translation>Himmelsblå</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="158"/>
         <source>Jonquil Yellow</source>
-        <translation type="unfinished"></translation>
+        <translation>Jonquilgul</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="169"/>
         <source>&amp;Help</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hjälp</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/DemoView.qml" line="172"/>
         <source>Something</source>
-        <translation type="unfinished"></translation>
+        <translation>Något</translation>
     </message>
 </context>
 <context>
@@ -629,7 +629,7 @@
     <message>
         <location filename="../src/gui/qml/components/basic/DropAreaBase.qml" line="38"/>
         <source>Drop files and plugins here</source>
-        <translation type="unfinished"></translation>
+        <translation>Släpp filer och insticksmoduler här</translation>
     </message>
 </context>
 <context>
@@ -638,7 +638,8 @@
         <location filename="../src/gui/qml/components/DspLoadIndicator.qml" line="26"/>
         <source>DSP Load: %1%
 XRun Count: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>DSP-belastning: %1%
+Antal XRuns: %2</translation>
     </message>
 </context>
 <context>
@@ -646,51 +647,51 @@ XRun Count: %2</source>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="35"/>
         <source>Export As...</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera som…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="45"/>
         <source>Export</source>
-        <translation type="unfinished">Exportera</translation>
+        <translation>Exportera</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="59"/>
         <source>Exporting audio...</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporterar ljud…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="74"/>
         <source>Audio</source>
-        <translation type="unfinished">Audio</translation>
+        <translation>Ljud</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="78"/>
         <source>MIDI</source>
-        <translation type="unfinished">MIDI</translation>
+        <translation>MIDI</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="104"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="214"/>
         <source>Export Audio</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera ljud</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="107"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="341"/>
         <source>Track title</source>
-        <translation type="unfinished"></translation>
+        <translation>Spårtitel</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="108"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="342"/>
         <source>Title</source>
-        <translation type="unfinished">Titel</translation>
+        <translation>Titel</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="114"/>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="348"/>
         <source>Enter title...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ange titel…</translation>
     </message>
     <message>
         <location filename="../src/gui/qml/views/ExportDialog.qml" line="125"/>
