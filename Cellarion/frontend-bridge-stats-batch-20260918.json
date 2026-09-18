@@ -1,0 +1,560 @@
+[
+  {
+    "id": 206259252,
+    "source": [
+      "Reader"
+    ],
+    "target": [
+      "Läsare"
+    ],
+    "context": "adminBridge.reader",
+    "state": 20
+  },
+  {
+    "id": 206259253,
+    "source": [
+      "Kind"
+    ],
+    "target": [
+      "Typ"
+    ],
+    "context": "adminBridge.kind",
+    "state": 20
+  },
+  {
+    "id": 206259254,
+    "source": [
+      "address"
+    ],
+    "target": [
+      "adress"
+    ],
+    "context": "adminBridge.kindIp",
+    "state": 20
+  },
+  {
+    "id": 206259255,
+    "source": [
+      "member"
+    ],
+    "target": [
+      "medlem"
+    ],
+    "context": "adminBridge.kindUser",
+    "state": 20
+  },
+  {
+    "id": 206259256,
+    "source": [
+      "token"
+    ],
+    "target": [
+      "token"
+    ],
+    "context": "adminBridge.kindToken",
+    "state": 20
+  },
+  {
+    "id": 206259257,
+    "source": [
+      "bridge key"
+    ],
+    "target": [
+      "bryggnyckel"
+    ],
+    "context": "adminBridge.kindKey",
+    "state": 20
+  },
+  {
+    "id": 206259258,
+    "source": [
+      "Worst day"
+    ],
+    "target": [
+      "Värsta dagen"
+    ],
+    "context": "adminBridge.worstDay",
+    "state": 20
+  },
+  {
+    "id": 206259259,
+    "source": [
+      "Reads"
+    ],
+    "target": [
+      "Läsningar"
+    ],
+    "context": "adminBridge.reads",
+    "state": 20
+  },
+  {
+    "id": 206259260,
+    "source": [
+      "Days"
+    ],
+    "target": [
+      "Dagar"
+    ],
+    "context": "adminBridge.days",
+    "state": 20
+  },
+  {
+    "id": 206259261,
+    "source": [
+      "Refused"
+    ],
+    "target": [
+      "Nekad"
+    ],
+    "context": "adminBridge.blocked",
+    "state": 20
+  },
+  {
+    "id": 206259262,
+    "source": [
+      "over the alert level"
+    ],
+    "target": [
+      "över varningsnivån"
+    ],
+    "context": "adminBridge.overAlert",
+    "state": 20
+  },
+  {
+    "id": 206259263,
+    "source": [
+      "Revoke bridge key"
+    ],
+    "target": [
+      "Återkalla bryggnyckel"
+    ],
+    "context": "adminBridge.revokeTitle",
+    "state": 20
+  },
+  {
+    "id": 206259264,
+    "source": [
+      "Revoke \"{{name}}\" owned by {{owner}}? Their install loses registry access on its next request; wines it already copied stay. The owner will see your reason in their Settings."
+    ],
+    "target": [
+      "Vill du återkalla ”{{name}}”, som ägs av {{owner}}? Installationen förlorar åtkomsten till registret vid nästa förfrågan; viner den redan har kopierat blir kvar. Ägaren ser din orsak i Inställningar."
+    ],
+    "context": "adminBridge.revokeConfirm",
+    "state": 20
+  },
+  {
+    "id": 206259265,
+    "source": [
+      "Reason shown to the owner"
+    ],
+    "target": [
+      "Orsak som visas för ägaren"
+    ],
+    "context": "adminBridge.reasonLabel",
+    "state": 20
+  },
+  {
+    "id": 206259266,
+    "source": [
+      "e.g. 4,000 distinct wines fetched in one day; please get in touch if this was an import."
+    ],
+    "target": [
+      "t.ex. 4 000 unika viner hämtades på en dag; hör gärna av dig om det här var en import."
+    ],
+    "context": "adminBridge.reasonPlaceholder",
+    "state": 20
+  },
+  {
+    "id": 206259267,
+    "source": [
+      "required, 3–300 characters"
+    ],
+    "target": [
+      "obligatoriskt, 3–300 tecken"
+    ],
+    "context": "adminBridge.reasonHint",
+    "state": 20
+  },
+  {
+    "id": 206259268,
+    "source": [
+      "Revoking…"
+    ],
+    "target": [
+      "Återkallar …"
+    ],
+    "context": "adminBridge.revoking",
+    "state": 20
+  },
+  {
+    "id": 206259269,
+    "source": [
+      "Cellar users"
+    ],
+    "target": [
+      "Vinkällaranvändare"
+    ],
+    "context": "adminStats.cellarUsers",
+    "state": 20
+  },
+  {
+    "id": 206259270,
+    "source": [
+      "Accounts expected to keep a cellar here: everyone except bridge-only accounts. This is the honest denominator for activation."
+    ],
+    "target": [
+      "Konton som förväntas ha en vinkällare här: alla utom konton som endast använder bryggan. Detta är den korrekta nämnaren för aktivering."
+    ],
+    "context": "adminStats.cellarUsersTip",
+    "state": 20
+  },
+  {
+    "id": 206259271,
+    "source": [
+      "{{pct}}% have added a bottle"
+    ],
+    "target": [
+      "{{pct}} % har lagt till en flaska"
+    ],
+    "context": "adminStats.activationPct",
+    "state": 20
+  },
+  {
+    "id": 206259272,
+    "source": [
+      "Excludes demo accounts and accounts pending deletion. Admins too, unless you switch them back on."
+    ],
+    "target": [
+      "Utesluter demokonton och konton som väntar på radering. Även administratörer, om du inte aktiverar dem igen."
+    ],
+    "context": "adminStats.totalUsersTip",
+    "state": 20
+  },
+  {
+    "id": 206259273,
+    "source": [
+      "excludes {{list}}"
+    ],
+    "target": [
+      "utesluter {{list}}"
+    ],
+    "context": "adminStats.excludedNote",
+    "state": 20
+  },
+  {
+    "id": 206259274,
+    "source": [
+      "{{count}} admin",
+      "{{count}} admins"
+    ],
+    "target": [
+      "{{count}} administratör",
+      "{{count}} administratörer"
+    ],
+    "context": "adminStats.exAdmins",
+    "state": 20
+  },
+  {
+    "id": 206259275,
+    "source": [
+      "{{count}} demo"
+    ],
+    "target": [
+      "{{count}} demo"
+    ],
+    "context": "adminStats.exDemo",
+    "state": 20
+  },
+  {
+    "id": 206259276,
+    "source": [
+      "{{count}} leaving",
+      "{{count}} leaving"
+    ],
+    "target": [
+      "{{count}} på väg bort",
+      "{{count}} på väg bort"
+    ],
+    "context": "adminStats.exPending",
+    "state": 20
+  },
+  {
+    "id": 206259277,
+    "source": [
+      "Connected installs"
+    ],
+    "target": [
+      "Anslutna installationer"
+    ],
+    "context": "adminStats.bridgeLive",
+    "state": 20
+  },
+  {
+    "id": 206259278,
+    "source": [
+      "{{count}} ever connected",
+      "{{count}} ever connected"
+    ],
+    "target": [
+      "{{count}} någonsin ansluten",
+      "{{count}} någonsin anslutna"
+    ],
+    "context": "adminStats.bridgeEver",
+    "state": 20
+  },
+  {
+    "id": 206259279,
+    "source": [
+      "Bridge accounts"
+    ],
+    "target": [
+      "Bryggkonton"
+    ],
+    "context": "adminStats.bridgeAccounts",
+    "state": 20
+  },
+  {
+    "id": 206259280,
+    "source": [
+      "{{count}} keeps no cellar here",
+      "{{count}} keep no cellar here"
+    ],
+    "target": [
+      "{{count}} har ingen vinkällare här",
+      "{{count}} har ingen vinkällare här"
+    ],
+    "context": "adminStats.bridgeOnly",
+    "state": 20
+  },
+  {
+    "id": 206259281,
+    "source": [
+      "Accounts that accepted the Registry Data Terms. The marker survives a key being revoked, so this counts everyone who came for the bridge."
+    ],
+    "target": [
+      "Konton som har godkänt registervillkoren. Markeringen finns kvar när en nyckel återkallas, så detta räknar alla som kom för bryggan."
+    ],
+    "context": "adminStats.bridgeAccountsTip",
+    "state": 20
+  },
+  {
+    "id": 206259282,
+    "source": [
+      "Self-hosted installs"
+    ],
+    "target": [
+      "Självhostade installationer"
+    ],
+    "context": "adminStats.section.bridge",
+    "state": 20
+  },
+  {
+    "id": 206259283,
+    "source": [
+      "By days with a bottle added or consumed"
+    ],
+    "target": [
+      "Efter dagar då en flaska har lagts till eller druckits"
+    ],
+    "context": "adminStats.retentionByActivity",
+    "state": 20
+  },
+  {
+    "id": 206259284,
+    "source": [
+      "Active {{days}}+ days"
+    ],
+    "target": [
+      "Aktiv i {{days}}+ dagar"
+    ],
+    "context": "adminStats.activityTier",
+    "state": 20
+  },
+  {
+    "id": 206259285,
+    "source": [
+      "Users who added or consumed a bottle on {{days}} or more separate calendar days, counted over the whole history. Each tier contains the ones above it."
+    ],
+    "target": [
+      "Användare som har lagt till eller druckit en flaska under {{days}} eller fler olika kalenderdagar, räknat över hela historiken. Varje nivå innehåller dem från nivåerna ovanför."
+    ],
+    "context": "adminStats.activityTierTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259286,
+    "source": [
+      "Users on a paid supporter tier right now."
+    ],
+    "target": [
+      "Användare som just nu har en betald stödjarnivå."
+    ],
+    "context": "adminStats.paidUsersTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259287,
+    "source": [
+      "{{count, number}} new in 30d"
+    ],
+    "target": [
+      "{{count, number}} nya på 30 dagar"
+    ],
+    "context": "adminStats.newSupporters30",
+    "state": 20
+  },
+  {
+    "id": 206259288,
+    "source": [
+      "New supporters (90d)"
+    ],
+    "target": [
+      "Nya stödjare (90 d)"
+    ],
+    "context": "adminStats.newSupporters90",
+    "state": 20
+  },
+  {
+    "id": 206259289,
+    "source": [
+      "Users whose supporter tier started in the last 90 days, by the date the tier was granted rather than the date they signed up."
+    ],
+    "target": [
+      "Användare vars stödjarnivå började under de senaste 90 dagarna, efter datumet då nivån beviljades i stället för när de registrerade sig."
+    ],
+    "context": "adminStats.newSupportersTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259290,
+    "source": [
+      "Former supporters"
+    ],
+    "target": [
+      "Tidigare stödjare"
+    ],
+    "context": "adminStats.formerSupporters",
+    "state": 20
+  },
+  {
+    "id": 206259291,
+    "source": [
+      "supported, not currently"
+    ],
+    "target": [
+      "har stöttat, men gör det inte nu"
+    ],
+    "context": "adminStats.formerSupportersSub",
+    "state": 20
+  },
+  {
+    "id": 206259292,
+    "source": [
+      "Users on the free plan whose supporter tier once started — the start is stamped only when support is actually granted, so an abandoned Stripe checkout does not count. Someone who resubscribed counts as current, not former."
+    ],
+    "target": [
+      "Användare med gratisnivån vars stödjarnivå en gång började – starten markeras bara när stödet faktiskt beviljas, så en övergiven Stripe-utcheckning räknas inte. Den som återtecknar räknas som nuvarande, inte tidigare."
+    ],
+    "context": "adminStats.formerSupportersTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259293,
+    "source": [
+      "(not a configured tier)"
+    ],
+    "target": [
+      "(inte en konfigurerad nivå)"
+    ],
+    "context": "adminStats.planUnconfigured",
+    "state": 20
+  },
+  {
+    "id": 206259294,
+    "source": [
+      "Do new users come back?"
+    ],
+    "target": [
+      "Kommer nya användare tillbaka?"
+    ],
+    "context": "adminStats.cohortsHead",
+    "state": 20
+  },
+  {
+    "id": 206259295,
+    "source": [
+      "New users present"
+    ],
+    "target": [
+      "Nya användare som är närvarande"
+    ],
+    "context": "adminStats.cohortReturned",
+    "state": 20
+  },
+  {
+    "id": 206259296,
+    "source": [
+      "{{returned}} of {{total}} recent signups"
+    ],
+    "target": [
+      "{{returned}} av {{total}} nyligen registrerade"
+    ],
+    "context": "adminStats.cohortReturnedSub",
+    "state": 20
+  },
+  {
+    "id": 206259297,
+    "source": [
+      "Of everyone who signed up between 1 and 4 weeks ago, the share who were present in the last 7 days: signed in, or did anything the app records. The same rule as the presence ladder below — automated API traffic does not count, and a session lasting 30 days without a fresh sign-in does not hide anyone. The most recent week is excluded because its members were present in the window by virtue of signing up in it."
+    ],
+    "target": [
+      "Av alla som registrerade sig för 1 till 4 veckor sedan: andelen som var närvarande under de senaste 7 dagarna, genom att ha loggat in eller gjort något som appen registrerar. Samma regel som för närvarotrappan nedan – automatiserad API-trafik räknas inte och en session som varar i 30 dagar utan ny inloggning döljer ingen. Den senaste veckan utesluts eftersom medlemmarna var närvarande i perioden genom att registrera sig under den."
+    ],
+    "context": "adminStats.cohortReturnedTooltip",
+    "state": 20
+  },
+  {
+    "id": 206259298,
+    "source": [
+      "{{from}}–{{to}} days ago"
+    ],
+    "target": [
+      "{{from}}–{{to}} dagar sedan"
+    ],
+    "context": "adminStats.cohortRange",
+    "state": 20
+  },
+  {
+    "id": 206259299,
+    "source": [
+      "too recent"
+    ],
+    "target": [
+      "för nyligen"
+    ],
+    "context": "adminStats.cohortTooNew",
+    "state": 20
+  },
+  {
+    "id": 206259300,
+    "source": [
+      "Present = signed in, or did anything the app records, in the last 7 days — the same rule as the presence ladder below. Changed a cellar = added or consumed a bottle in the same 7 days. A new user finding their way around is present without having changed anything yet; the gap between the two columns is exactly that. The newest group shows its intake only: those users were present in the window because they joined during it, so a rate there would measure nothing."
+    ],
+    "target": [
+      "Närvarande = har loggat in eller gjort något som appen registrerar de senaste 7 dagarna – samma regel som för närvarotrappan nedan. Ändrade en vinkällare = lade till eller drack en flaska under samma 7 dagar. En ny användare som hittar runt är närvarande utan att ha ändrat något; skillnaden mellan kolumnerna är just det. Den nyaste gruppen visar bara inflödet: användarna var närvarande i perioden eftersom de gick med under den, så en andel där skulle inte mäta något."
+    ],
+    "context": "adminStats.cohortNote",
+    "state": 20
+  },
+  {
+    "id": 206259301,
+    "source": [
+      "Changed a cellar"
+    ],
+    "target": [
+      "Ändrade en vinkällare"
+    ],
+    "context": "adminStats.engagementChanged",
+    "state": 20
+  }
+]
