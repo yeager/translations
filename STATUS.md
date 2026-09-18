@@ -917,3 +917,5 @@ Detaljerade ändringsbeskrivningar hör hemma i respektive PR, commit eller öve
 **Freeplane säkerhetstext (2026-09-18):** Säkerhetsvarningen för aktiverad skriptkörning har språk- och kontextgranskats och publicerats i Hosted Weblate. Den svenska texten beskriver nu tydligt att Freeplane-skript kan utföra alla åtgärder på användarens dator och att bara kända säkra skript ska köras. HTML-radbrytningen är bevarad.
 
 **Freeplane behörighetsterminologi (2026-09-18):** Två etiketter i säkerhetsinställningarna har publicerats med precis svensk terminologi: `Skriptkörning aktiverad` och `Tillåt läsåtkomst till filer (INTE rekommenderat)`. Detta skiljer läsbehörighet från skrivbehörighet och gör riskinställningarna konsekventa med respektive förklarande text.
+
+**Freeplane kontrollgranskning (2026-09-18):** Fyra kontroller för oförändrad översättning har kontextgranskats och avfärdats i Hosted Weblate: *Bomb*, de två AI-nivåerna *Minimal* samt språkposten *Hindi / हिन्दी*. De är sakligt korrekta internationella eller delade svenska termer. Freeplane har efter granskningen 70 aktiva kontroller, varav 6 oförändrade översättningar och 64 återanvända översättningar.
