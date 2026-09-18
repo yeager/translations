@@ -8838,7 +8838,7 @@ Vissa nivåer har inte lästs in eftersom deras version inte stöds</translation
     </message>
     <message>
         <source>It is not possible to delete the used level %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att ta bort den använda nivån %1.</translation>
     </message>
     <message>
         <source>The Revert to Last Saved command is not supported for the current selection.</source>
@@ -8846,79 +8846,79 @@ Vissa nivåer har inte lästs in eftersom deras version inte stöds</translation
     </message>
     <message>
         <source>The selected column is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Den valda kolumnen är tom.</translation>
     </message>
     <message>
         <source>Selected cells must be in the same column.</source>
-        <translation type="unfinished"></translation>
+        <translation>Markerade celler måste finnas i samma kolumn.</translation>
     </message>
     <message>
         <source>Match lines can be deleted from Toonz raster levels only</source>
-        <translation type="unfinished"></translation>
+        <translation>Passningslinjer kan endast tas bort från Toonz-raster-nivåer</translation>
     </message>
     <message>
         <source>Partially Edited</source>
-        <translation type="unfinished"></translation>
+        <translation>Delvis redigerad</translation>
     </message>
     <message>
         <source>Partially Locked</source>
-        <translation type="unfinished"></translation>
+        <translation>Delvis låst</translation>
     </message>
     <message>
         <source>Partially Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Delvis ändrad</translation>
     </message>
     <message>
         <source>Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Namn</translation>
     </message>
     <message>
         <source>Path</source>
-        <translation type="unfinished"></translation>
+        <translation>Sökväg</translation>
     </message>
     <message>
         <source>Date Created</source>
-        <translation type="unfinished"></translation>
+        <translation>Skapandedatum</translation>
     </message>
     <message>
         <source>Date Modified</source>
-        <translation type="unfinished"></translation>
+        <translation>Ändringsdatum</translation>
     </message>
     <message>
         <source>Size</source>
-        <translation type="unfinished"></translation>
+        <translation>Storlek</translation>
     </message>
     <message>
         <source>Frames</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildrutor</translation>
     </message>
     <message>
         <source>Version Control</source>
-        <translation type="unfinished"></translation>
+        <translation>Versionshantering</translation>
     </message>
     <message>
         <source>Warning: level %1 already exists; overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>Varning: nivån %1 finns redan; skriva över?</translation>
     </message>
     <message>
         <source>It is not possible to paste image on the current cell.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att klistra in bild i den aktuella cellen.</translation>
     </message>
     <message>
         <source>Are you sure you want to delete the selected cleanup color?</source>
-        <translation type="unfinished"></translation>
+        <translation>Är du säker på att du vill ta bort den valda renritningsfärgen?</translation>
     </message>
     <message>
         <source>Installing %1 again could fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Att installera %1 igen kan lösa problemet.</translation>
     </message>
     <message>
         <source>It is not possible to apply match lines to a column containing more than one level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att tillämpa passningslinjer på en kolumn som innehåller fler än en nivå.</translation>
     </message>
     <message>
         <source>It is not possible to use a match lines column containing more than one level.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det går inte att använda en passningslinjekolumn som innehåller fler än en nivå.</translation>
     </message>
     <message>
         <source>Match lines can be applied to Toonz raster levels only.</source>
