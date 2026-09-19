@@ -1,0 +1,302 @@
+--- a/gtkam-1.1.sv.po
++++ b/gtkam-1.1.sv.po
+@@ -50,7 +50,7 @@
+ #: src/gtkam-chooser.c:361
+ #, c-format
+ msgid "Could not get abilities of model '%s'."
+-msgstr "Kunde inte hämta färdigheterna för modell \"%s\"."
++msgstr "Kunde inte hämta funktionerna för modellen ”%s”."
+ 
+ #: src/gtkam-chooser.c:409
+ msgid "Detecting cameras..."
+@@ -98,11 +98,11 @@
+ 
+ #: src/gtkam-chooser.c:739
+ msgid "Could not get number of supported camera models"
+-msgstr "Kunde inte få antalet kameramodeller som stöds"
++msgstr "Kunde inte hämta antalet kameramodeller som stöds"
+ 
+ #: src/gtkam-chooser.c:769
+ msgid "Could not get number of ports."
+-msgstr "Kunde inte få antalet portar."
++msgstr "Kunde inte hämta antalet portar."
+ 
+ #: src/gtkam-config.c:163
+ msgid "Applying configuration..."
+@@ -122,7 +122,7 @@
+ 
+ #: src/gtkam-config.c:326
+ msgid "Could not execute command."
+-msgstr "Kunde inte starta kommando."
++msgstr "Kunde inte köra kommandot."
+ 
+ #: src/gtkam-config.c:532
+ msgid "No additional information available. (2)"
+@@ -130,7 +130,7 @@
+ 
+ #: src/gtkam-config.c:569
+ msgid "Set to system's time"
+-msgstr "Ställ in till systemets tid"
++msgstr "Ställ in systemets tid"
+ 
+ #: src/gtkam-config.c:603
+ msgid "No additional information available. (3)"
+@@ -248,12 +248,12 @@
+ 
+ #: src/gtkam-gimp.c:67 src/gtkam-gimp.c:68
+ msgid "Captures images from digital camera"
+-msgstr "Fångar bilder från digitalkamera"
++msgstr "Fångar bilder från digitalkameran"
+ 
+ #. TRANSLATORS: do not translate <Toolbox>/File/Acquire, but only the Capture from Camera part
+ #: src/gtkam-gimp.c:71
+ msgid "<Toolbox>/File/Acquire/Capture from Camera..."
+-msgstr "<Toolbox>/File/Acquire/Tag kort med kamera..."
++msgstr "<Toolbox>/File/Acquire/Fånga från kamera..."
+ 
+ #: src/gtkam-gimp.c:75 src/gtkam-gimp.c:76
+ msgid "Loads files from digital cameras"
+@@ -304,7 +304,7 @@
+ 
+ #: src/gtkam-info.c:316 src/gtkam-info.c:425 src/gtkam-info.c:474
+ msgid "MIME type:"
+-msgstr "Mime-typ:"
++msgstr "MIME-typ:"
+ 
+ #: src/gtkam-info.c:334
+ msgid "Last modified:"
+@@ -321,7 +321,7 @@
+ 
+ #: src/gtkam-info.c:377
+ msgid "Permissions:"
+-msgstr "Rättigheter:"
++msgstr "Åtkomsträttigheter:"
+ 
+ #: src/gtkam-info.c:389
+ msgid "Read"
+@@ -384,7 +384,7 @@
+ #: src/gtkam-list.c:923 src/gtkam-tree.c:711
+ #, c-format
+ msgid "Could not get file list for folder '%s'"
+-msgstr "Kunde inte hämta fillistan för mappen \"%s\""
++msgstr "Kunde inte hämta fillistan för mappen ”%s”"
+ 
+ #: src/gtkam-list.c:940
+ msgid "Unknown"
+@@ -399,12 +399,12 @@
+ "\n"
+ "Enjoy the wonderful world of gphoto!"
+ msgstr ""
+-"gtkam är ett program som låter dig hämta ner\n"
+-"bilder från olika digitalkameror. Det använder\n"
+-"libgphoto2. Mer information finns tillgänglig på\n"
++"gtkam är ett program som låter dig hämta\n"
++"bilder från många digitalkameror. Det använder\n"
++"libgphoto2. Mer information finns på\n"
+ "http://www.gphoto.org.\n"
+ "\n"
+-"Upplev den underbara världen av gphoto!"
++"Upptäck gphotos underbara värld!"
+ 
+ #: src/gtkam-main.c:436
+ msgid "Many others"
+@@ -436,7 +436,7 @@
+ 
+ #: src/gtkam-main.c:548
+ msgid "_File"
+-msgstr "/_Arkiv"
++msgstr "_Arkiv"
+ 
+ #: src/gtkam-main.c:549
+ msgid "_Save Photos"
+@@ -444,11 +444,11 @@
+ 
+ #: src/gtkam-main.c:550
+ msgid "_Delete Photos"
+-msgstr "/_Ta bort foton"
++msgstr "_Ta bort foton"
+ 
+ #: src/gtkam-main.c:551 src/gtkam-main.c:553
+ msgid "_Selected"
+-msgstr "/_Markerade"
++msgstr "_Markerade"
+ 
+ #: src/gtkam-main.c:552 src/gtkam-main.c:554 src/gtkam-main.c:561
+ msgid "_All"
+@@ -496,7 +496,7 @@
+ 
+ #: src/gtkam-main.c:566
+ msgid "_Rescan"
+-msgstr "/_Uppdatera"
++msgstr "_Sök igen"
+ 
+ #: src/gtkam-main.c:567
+ msgid "_Help"
+@@ -531,7 +531,7 @@
+ #: src/gtkam-mkdir.c:213
+ #, c-format
+ msgid "Please choose a name for the directory that should be created in '%s':"
+-msgstr "Välj ett namn för katalogen som ska skapas i \"%s\":"
++msgstr "Ange ett namn på katalogen som ska skapas i ”%s”:"
+ 
+ #: src/gtkam-mkdir.c:229
+ msgid "New directory"
+@@ -557,7 +557,7 @@
+ 
+ #: src/gtkam-preview.c:322
+ msgid "Download directory not selected."
+-msgstr "Hämtningskatalog ej vald."
++msgstr "Ingen hämtningskatalog är vald."
+ 
+ #: src/gtkam-preview.c:352
+ msgid "Could not capture image."
+@@ -607,11 +607,11 @@
+ 
+ #: src/gtkam-preview.c:556
+ msgid "Download captured images into specified directory."
+-msgstr "Hämta tagna bilder till angiven katalog."
++msgstr "Hämta tagna bilder till den angivna katalogen."
+ 
+ #: src/gtkam-preview.c:559
+ msgid "Download target directory"
+-msgstr "Målkatalog för hämtning"
++msgstr "Hämtningsmålkatalog"
+ 
+ #: src/gtkam-save.c:299 src/gtkam-tree.c:623
+ #, c-format
+@@ -661,7 +661,7 @@
+ 
+ #: src/gtkam-save.c:652
+ msgid "Photos will be saved if this is checked"
+-msgstr "Foton kommer att sparas om denna är kryssad"
++msgstr "Foton sparas om detta är markerat"
+ 
+ #: src/gtkam-save.c:656
+ msgid "Save raw data"
+@@ -669,7 +669,7 @@
+ 
+ #: src/gtkam-save.c:659
+ msgid "Raw data will be saved if this is checked"
+-msgstr "Rådata kommer att sparas om denna är kryssad"
++msgstr "Rådata sparas om detta är markerat"
+ 
+ #: src/gtkam-save.c:663
+ msgid "Save audio data"
+@@ -677,7 +677,7 @@
+ 
+ #: src/gtkam-save.c:666
+ msgid "Audio data will be saved if this is checked"
+-msgstr "Ljuddata kommer att sparas om denna är kryssad"
++msgstr "Ljuddata sparas om detta är markerat"
+ 
+ #: src/gtkam-save.c:670
+ msgid "Save thumbnails"
+@@ -685,7 +685,7 @@
+ 
+ #: src/gtkam-save.c:673
+ msgid "Thumbnails will be saved if this is checked"
+-msgstr "Minibilder kommer att sparas om denna är kryssad"
++msgstr "Miniatyrbilder sparas om detta är markerat"
+ 
+ #: src/gtkam-save.c:677
+ msgid "Save EXIF data"
+@@ -693,7 +693,7 @@
+ 
+ #: src/gtkam-save.c:680
+ msgid "EXIF data will be saved if this is checked"
+-msgstr "EXIF-data kommer att sparas om denna är kryssad"
++msgstr "EXIF-data sparas om detta är markerat"
+ 
+ #: src/gtkam-save.c:689
+ msgid "Open image(s) with: "
+@@ -701,7 +701,7 @@
+ 
+ #: src/gtkam-save.c:696
+ msgid "Type in the name of the program you want to run, leave blank for none"
+-msgstr "Ange namnet på programmet som du vill köra, lämna blank för inget"
++msgstr "Ange namnet på programmet som ska köras, eller lämna fältet tomt"
+ 
+ #: src/gtkam-save.c:702
+ msgid "Use filename(s) provided by the camera"
+@@ -717,7 +717,7 @@
+ 
+ #: src/gtkam-save.c:729
+ msgid "Start numbering with: "
+-msgstr "Starta numrering med: "
++msgstr "Börja numrera med: "
+ 
+ #: src/gtkam-save.c:771
+ #, c-format
+@@ -746,17 +746,17 @@
+ #: src/gtkam-tree.c:422
+ #, c-format
+ msgid "Uploading '%s' into folder '%s'..."
+-msgstr "Skickar upp \"%s\" till mappen \"%s\"..."
++msgstr "Överför ”%s” till mappen ”%s” …"
+ 
+ #: src/gtkam-tree.c:446
+ #, c-format
+ msgid "Could not upload '%s' into '%s'."
+-msgstr "Kunde inte skicka upp \"%s\" till \"%s\"."
++msgstr "Kunde inte överföra ”%s” till ”%s”."
+ 
+ #: src/gtkam-tree.c:471
+ #, c-format
+ msgid "Upload into '%s'..."
+-msgstr "Skickar upp till \"%s\"..."
++msgstr "Överför till ”%s” …"
+ 
+ #: src/gtkam-tree.c:547
+ #, c-format
+@@ -791,7 +791,7 @@
+ #: src/gtkam-tree.c:809
+ #, c-format
+ msgid "Could not get subfolders list for folder '%s'"
+-msgstr "Kunde inte hämta lista på undermappar för mappen \"%s\""
++msgstr "Kunde inte hämta listan över undermappar för mappen ”%s”"
+ 
+ #: src/gtkam-tree.c:872
+ #, c-format
+@@ -820,7 +820,7 @@
+ 
+ #: src/gtkam-tree.c:1120
+ msgid "Could not capture."
+-msgstr "Kunde inte fånga bild."
++msgstr "Kunde inte fånga bilden."
+ 
+ #: src/gtkam-tree.c:1159
+ msgid "/Upload file..."
+@@ -848,7 +848,7 @@
+ 
+ #: src/gtkam-tree.c:1167
+ msgid "/View camera summary"
+-msgstr "/Visa sammanfattning om kamera"
++msgstr "Visa sammanfattning av kameran"
+ 
+ #: src/gtkam-tree.c:1168
+ msgid "/View camera manual"
+@@ -856,7 +856,7 @@
+ 
+ #: src/gtkam-tree.c:1169
+ msgid "/View driver details"
+-msgstr "/Visa detaljer om drivrutin"
++msgstr "Visa drivrutinens detaljer"
+ 
+ #: src/gtkam-tree.c:1171
+ msgid "/Select camera..."
+@@ -885,11 +885,13 @@
+ #: src/gtkam-util.c:44
+ #, c-format
+ msgid "Could not display '%s'. Either the image type ('%s') is not supported by gtk or the file itself is corrupt."
+-msgstr "Kunde inte visa \"%s\". Antingen stöds inte bildtypen (\"%s\") av gtk eller så är filen skadad."
++msgstr "Kunde inte visa ”%s”. Antingen stöds inte bildtypen (”%s”) av GTK eller så är "
++"filen skadad."
+ 
+ #: src/gtkam-version.c:100
+ msgid "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE MAILING LIST:"
+-msgstr "INKLUDERA ALLTID FÖLJANDE RADER NÄR FELSÖKNINGSMEDDELANDEN SKICKAS TILL SÄNDLISTAN:"
++msgstr "INKLUDERA ALLTID FÖLJANDE RADER NÄR DU SKICKAR FELSÖKNINGSMEDDELANDEN TILL "
++"SÄNDLISTAN:"
+ 
+ #: src/gtkam-viewer.c:245
+ #, c-format
