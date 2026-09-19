@@ -1023,3 +1023,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **Blender UI – shader- och matematiknoder (2026-09-19):** Fortsatt kontextuell radgranskning av `check:same`. Publicerade **Strålportal-BSDF**, **Lyster-BSDF**, **Tecknad BSDF** och **Avrunda uppåt** för respektive shader- och nodfunktion. *Ashikhmin*, *Transparent BSDF*, *Bump*, *Exponent* och `exp(A)` granskades som eponymer, etablerade Blender-nodnamn eller matematisk notation och avfärdades. Nästa köposition är **344/775** (`sin(A)`); granskningen fortsätter.
 
 **Blender UI – matematiska funktioner (2026-09-19):** Fortsatt radgranskning: `sin(A)`, `cos(A)` och **Tangent** är korrekt internationell matematisk notation/term och avfärdades efter kontextkontroll. Nästa köposition är **347/775** (`arcsin(A)`).
+
+**Blender UI – trigonometriska noder (2026-09-19):** Radgranskningen fortsatte genom inversa trigonometriska funktioner. `arcsin(A)` och `arccos(A)` är korrekt matematisk notation och avfärdades. **Arctangent** rättades och publicerades som **Arctangens**. Nästa köposition är **350/775** (`arctan(A)`).
