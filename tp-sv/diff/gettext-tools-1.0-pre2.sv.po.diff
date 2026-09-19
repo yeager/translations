@@ -1,0 +1,609 @@
+--- a/gettext-tools-1.0-pre2.sv.po
++++ b/gettext-tools-1.0-pre2.sv.po
+@@ -65,11 +65,12 @@
+ "LOCALE from RULES and print them in a form suitable for gettext use.\n"
+ "If no argument is given, it reads CLDR plural rules from the standard input.\n"
+ msgstr ""
+-"Extrahera eller konvertera Unicode CLDR plural-regler.\n"
++"Extrahera eller konvertera Unicode CLDR-pluralregler.\n"
+ "\n"
+-"Om både LOKAL och REGLER anges, läser den CLDR plural-regler för\n"
+-"LOKAL från REGLER och skriv dem i en form som passar för gettext att använda.\n"
+-"Om inget argument anges, läser den CLDR plural-regler från standard in.\n"
++"Om både LOKAL och REGLER anges läser programmet CLDR-pluralregler för "
++"LOKAL från REGLER och skriver dem i en form som gettext kan använda.\n"
++"Om inget argument anges läser programmet CLDR-pluralregler från "
++"standardindata.\n"
+ 
+ #: src/cldr-plurals.c:345 src/msgfmt.c:945 src/xgettext.c:1173
+ #, c-format, no-wrap
+@@ -392,7 +393,7 @@
+ 
+ #: src/format-d.c:1659
+ msgid "Found '%|' outside of '%(...%)'."
+-msgstr "Hittade ”%|” utanför ”%{…%}”."
++msgstr "Hittade ”%|” utanför ”%(...%)”."
+ 
+ #: src/format-d.c:1662
+ msgid "The string ends in the middle of a compound specifier."
+@@ -481,7 +482,7 @@
+ #: src/format-gcc-internal.c:667
+ #, c-format
+ msgid "The color group opened by the directive number %zu is not terminated."
+-msgstr "Färgruppen som öppnades av direktiv nummer %zu är inte avslutad."
++msgstr "Färggruppen som öppnades av direktiv nummer %zu är inte avslutad."
+ 
+ #: src/format-gcc-internal.c:672
+ #, c-format
+@@ -554,12 +555,14 @@
+ #: src/format-invalid.h:39
+ #, c-format
+ msgid "In the directive number %zu, the character '%c' is not a valid conversion specifier."
+-msgstr "I direktiv nummer %zu är inte tecknet \"%c\" en giltig konvertering."
++msgstr "I direktiv nummer %zu är inte tecknet ”%c” en giltig "
++"konverteringsspecificerare."
+ 
+ #: src/format-invalid.h:40
+ #, c-format
+ msgid "The character that terminates the directive number %zu is not a valid conversion specifier."
+-msgstr "Tecknet som avslutar direktiv nummer %zu är inte en giltig konvertering."
++msgstr "Tecknet som avslutar direktiv nummer %zu är inte en giltig "
++"konverteringsspecificerare."
+ 
+ #: src/format-invalid.h:43
+ #, c-format
+@@ -574,7 +577,7 @@
+ #: src/format-java.c:237
+ #, c-format
+ msgid "In the directive number %zu, the substring \"%s\" is not a valid date/time style."
+-msgstr "I direktiv nummer %zu är delsträngen \"%s\" inte en giltig datum/tid-stil."
++msgstr "I direktiv nummer %zu är delsträngen ”%s” inte en giltig datum-/tidsstil."
+ 
+ #: src/format-java.c:248 src/format-java.c:282 src/format-java.c:311
+ #, c-format
+@@ -584,7 +587,7 @@
+ #: src/format-java.c:271
+ #, c-format
+ msgid "In the directive number %zu, the substring \"%s\" is not a valid number style."
+-msgstr "I direktiv nummer %zu är delsträngen \"%s\" inte en giltig nummerstil."
++msgstr "I direktiv nummer %zu är delsträngen ”%s” inte en giltig talstil."
+ 
+ #: src/format-java.c:320
+ #, c-format
+@@ -594,7 +597,7 @@
+ #: src/format-java.c:565
+ #, c-format
+ msgid "In the directive number %zu, a choice contains no number."
+-msgstr "I direktiv nummer %zu innehåller ett val inga nummer."
++msgstr "I direktiv nummer %zu innehåller ett val inget tal."
+ 
+ #: src/format-java.c:576
+ #, c-format
+@@ -731,7 +734,8 @@
+ #: src/format-python-brace.c:193
+ #, c-format
+ msgid "In the directive number %zu, a getattr argument starts with a character that is not alphabetical or underscore."
+-msgstr "I direktiv nummer %zu börjar ett getattr-argument med ett tecken som inte är alfanumeriskt eller understrykningstecken."
++msgstr "I direktiv nummer %zu börjar ett getattr-argument med ett tecken som varken "
++"är en bokstav eller ett understreck."
+ 
+ #: src/format-python-brace.c:215
+ #, c-format
+@@ -741,7 +745,8 @@
+ #: src/format-python-brace.c:217
+ #, c-format
+ msgid "In the directive number %zu, a getitem argument starts with a character that is not alphanumerical or underscore."
+-msgstr "I direktiv nummer %zu börjar ett getitem-argument med ett tecken som inte är alfanumeriskt eller understrykningstecken."
++msgstr "I direktiv nummer %zu börjar ett getitem-argument med ett tecken som varken "
++"är alfanumeriskt eller ett understreck."
+ 
+ #: src/format-python-brace.c:227
+ #, c-format
+@@ -756,7 +761,8 @@
+ #: src/format-python-brace.c:252
+ #, c-format
+ msgid "In the directive number %zu, a field name starts with a character that is not alphanumerical or underscore."
+-msgstr "I direktiv nummer %zu börjar ett fältnamn med ett tecken som inte är alfanumeriskt eller understrykningstecken."
++msgstr "I direktiv nummer %zu börjar ett fältnamn med ett tecken som varken är "
++"alfanumeriskt eller ett understreck."
+ 
+ #: src/format-python-brace.c:265
+ #, c-format
+@@ -998,7 +1004,7 @@
+ #: src/its.c:372
+ #, c-format
+ msgid "cannot evaluate XPath expression: %s"
+-msgstr "kan inte evaluera XPath-uttryck: %s"
++msgstr "Kan inte utvärdera XPath-uttryck: %s"
+ 
+ #: src/its.c:694
+ #, c-format
+@@ -1024,7 +1030,7 @@
+ #: src/its.c:1771
+ #, c-format
+ msgid "cannot evaluate XPath location path: %s"
+-msgstr "kan inte evaluera XPath-platssökväg: %s"
++msgstr "Kan inte utvärdera XPath-platssökväg: %s"
+ 
+ #: src/locating-rules.c:96
+ #, c-format
+@@ -1055,7 +1061,7 @@
+ #: src/msggrep.c:444 src/msginit.c:185 src/msgpre.c:182 src/msguniq.c:279
+ #, c-format
+ msgid "at most one input file allowed"
+-msgstr "högst en infil tillåten"
++msgstr "Högst en indatafil är tillåten"
+ 
+ #: src/msgattrib.c:373 src/msgcat.c:307 src/msgcomm.c:296 src/msgconv.c:265
+ #: src/msgen.c:268 src/msgfilter.c:303 src/msgfmt.c:512 src/msgfmt.c:526
+@@ -1114,7 +1120,7 @@
+ #: src/msggrep.c:540 src/msgpre.c:475 src/msgunfmt.c:452 src/msguniq.c:347
+ #, c-format
+ msgid "If no input file is given or if it is -, standard input is read.\n"
+-msgstr "Om ingen infil är angiven eller om den är -, läses standard in.\n"
++msgstr "Om ingen indatafil anges eller om den är - läses standardindata.\n"
+ 
+ #: src/msgattrib.c:436 src/msgcat.c:391 src/msgcomm.c:387 src/msgconv.c:323
+ #: src/msgen.c:332 src/msgfilter.c:434 src/msgfmt.c:978 src/msggrep.c:543
+@@ -1139,7 +1145,8 @@
+ msgid ""
+ "The results are written to standard output if no output file is specified\n"
+ "or if it is -.\n"
+-msgstr "Resultatet skrivs till standard ut om ingen utfil anges eller om den är -.\n"
++msgstr "Resultatet skrivs till standardutdata om ingen utdatafil anges eller om den "
++"är -.\n"
+ 
+ #: src/msgattrib.c:444 src/msgcat.c:399 src/msgcomm.c:395 src/msgpre.c:486
+ #: src/msguniq.c:358
+@@ -1439,7 +1446,7 @@
+ #: src/xgettext.c:1186
+ #, c-format
+ msgid "If input file is -, standard input is read.\n"
+-msgstr "Om infil är - läses standard in.\n"
++msgstr "Om indatafilen är - läses standardindata.\n"
+ 
+ #: src/msgcat.c:401 src/msgcomm.c:397
+ #, c-format
+@@ -1531,13 +1538,14 @@
+ "you have translated each and every message in your program.  Where an exact\n"
+ "match cannot be found, fuzzy matching is used to produce better diagnostics.\n"
+ msgstr ""
+-"Jämför två .po-filer av Uniforum-typ för att kontrollera att de innehåller\n"
+-"samma uppsättning id-strängar.  Filen def.po är en existerande PO-fil med de\n"
+-"gamla översättningarna.  Filen ref.po är den senast skapade PO-filen eller\n"
+-"en PO-mönsterfil (i allmänhet skapad av xgettext).\n"
+-"Detta är användbart för att kontrollera att du har översatt alla strängar i\n"
+-"programmet.  Om en exakt likhet inte kan hittas används luddig jämförelse \n"
+-"för att ge bättre felmeddelanden.\n"
++"Jämför två .po-filer av Uniforum-typ för att kontrollera att de innehåller "
++"samma uppsättning msgid-strängar. Filen def.po är en befintlig PO-fil med"
++" översättningarna. Filen ref.pot är den senast skapade PO-filen eller "
++"en PO-mallfil (vanligen skapad av xgettext). "
++"Detta är användbart för att kontrollera att du har översatt varje meddelande "
++"i "
++"programmet. Om en exakt träff inte kan hittas används luddig matchning "
++"för att ge bättre diagnoser.\n"
+ 
+ #: src/msgcmp.c:231
+ #, c-format
+@@ -1557,7 +1565,8 @@
+ #: src/msgcmp.c:240 src/msgmerge.c:546
+ #, c-format
+ msgid "  -m, --multi-domain          apply ref.pot to each of the domains in def.po\n"
+-msgstr "  -m, --multi-domain          tillämpa ref.pot till alla domäner i def.po\n"
++msgstr "  -m, --multi-domain          tillämpa ref.pot på var och en av domänerna i "
++"def.po\n"
+ 
+ #: src/msgcmp.c:242 src/msgmerge.c:551
+ #, c-format
+@@ -1687,7 +1696,7 @@
+ #: src/msgen.c:257 src/msgfmt.c:470 src/xgettext.c:841
+ #, c-format
+ msgid "no input file given"
+-msgstr "inga infiler givna"
++msgstr "Ingen indatafil angavs"
+ 
+ #: src/msgen.c:262
+ #, c-format
+@@ -1736,10 +1745,12 @@
+ "across all invocations.\n"
+ msgstr ""
+ "Tillämpa ett kommando på alla översättningar i en meddelandekatalog.\n"
+-"KOMMANDO kan vara vilket program som helst som läser ett meddelande från\n"
+-"standard in.  Det körs en gång för varje meddelande.  Utdata från KOMMANDO\n"
+-"blir utdata från msgexec.  Slutstatusvärdet för msgexec är det maximala\n"
+-"slutstatusvärdet för alla kommandokörningar.\n"
++"KOMMANDO kan vara vilket program som helst som läser en översättning från\n"
++"standardindata. Det körs en gång för varje översättning. Dess"
++" utdata blir\n"
++"msgexecs utdata. Msgexecs "
++"slutstatus är den högsta slutstatusen från alla\n"
++"körningar.\n"
+ 
+ #: src/msgexec.c:273
+ #, c-format, no-wrap
+@@ -1747,9 +1758,9 @@
+ "A special builtin command called '0' outputs the translation, followed by a\n"
+ "null byte.  The output of \"msgexec 0\" is suitable as input for \"xargs -0\".\n"
+ msgstr ""
+-"Ett speciellt inbyggt kommando som heter \"0\" skriver ut meddelandet följt\n"
+-"av ett nolltecken.  Utdata för \"msgexec 0\" är lämpligt som indata för\n"
+-"\"xargs -O\"\n"
++"Ett särskilt inbyggt kommando med namnet ”0” skriver ut översättningen följd "
++"av en nollbyte. Utdata från ”msgexec 0” kan användas som indata för ”"
++"xargs -0”.\n"
+ 
+ #: src/msgexec.c:278
+ #, c-format
+@@ -1769,7 +1780,7 @@
+ #: src/msgexec.c:357
+ #, c-format
+ msgid "write to stdout failed"
+-msgstr "skrivning till standard ut misslyckades"
++msgstr "Skrivning till standardutdata misslyckades"
+ 
+ #: src/msgexec.c:427
+ #, c-format
+@@ -1803,7 +1814,7 @@
+ "and writes a modified translation to standard output.\n"
+ msgstr ""
+ "FILTER kan vara vilket program som helst som läser en översättning från\n"
+-"standard in och skriver den modifierade översättningen till standard ut.\n"
++"standardindata och skriver den ändrade översättningen till standardutdata.\n"
+ 
+ #: src/msgfilter.c:447
+ #, c-format
+@@ -1858,7 +1869,7 @@
+ #: src/msgfilter.c:486
+ #, c-format
+ msgid "      --keep-header           keep header entry unmodified, don't filter it\n"
+-msgstr "      --keep-header           bevara huvudrader oförändrade, filtrera dem inte\n"
++msgstr "Bevara huvudposten oförändrad; filtrera den inte\n"
+ 
+ #: src/msgfilter.c:664
+ #, c-format
+@@ -2028,7 +2039,7 @@
+ #: src/msgfmt.c:984 src/xgettext.c:1197
+ #, c-format
+ msgid "If output file is -, output is written to standard output.\n"
+-msgstr "Om utfilen är - skrivs resultatet till standard ut.\n"
++msgstr "Om utdatafilen är - skrivs resultatet till standardutdata.\n"
+ 
+ #: src/msgfmt.c:987
+ #, c-format
+@@ -2173,7 +2184,7 @@
+ "  -c, --check                 perform all the checks implied by\n"
+ "                                --check-format, --check-header, --check-domain\n"
+ msgstr ""
+-"  -c, --check                 utför alla kontroller som bestäms av\n"
++"  -c, --check                 utför alla kontroller som innebär\n"
+ "                                --check-format, --check-header, --check-domain\n"
+ 
+ #: src/msgfmt.c:1074
+@@ -2233,7 +2244,7 @@
+ #: src/msgfmt.c:1096
+ #, c-format
+ msgid "  -a, --alignment=NUMBER      align strings to NUMBER bytes (default: %d)\n"
+-msgstr "  -a, --alignment=TAL         lägg strängar på jämna TAL byte (normalt: %d)\n"
++msgstr "  -a, --alignment=TAL         justera strängar till TAL byte (normalt: %d)\n"
+ 
+ #: src/msgfmt.c:1098
+ #, c-format
+@@ -2325,7 +2336,7 @@
+ #: src/msggrep.c:506
+ #, c-format
+ msgid "option '%c' cannot be used before 'J' or 'K' or 'T' or 'C' or 'X' has been specified"
+-msgstr "flagga \"%c\" kan inte användas förrän \"J\", \"K\", \"T\" \"C\" eller \"X\" angivits"
++msgstr "Flaggan ”%c” kan inte användas innan ”J”, ”K”, ”T”, ”C” eller ”X” har angetts"
+ 
+ #: src/msggrep.c:526
+ #, c-format, no-wrap
+@@ -2477,8 +2488,8 @@
+ "If no input file is given, the current directory is searched for the POT file.\n"
+ "If it is -, standard input is read.\n"
+ msgstr ""
+-"Om ingen infil ges söks POT-filen i aktuell katalog.\n"
+-"Om den är - läses standard in.\n"
++"Om ingen indatafil anges söks POT-filen i den aktuella katalogen.\n"
++"Om den är - läses standardindata.\n"
+ 
+ #: src/msginit.c:401
+ #, c-format
+@@ -2494,11 +2505,11 @@
+ "as if through '%s'.\n"
+ "If it is -, the results are written to standard output.\n"
+ msgstr ""
+-"Om ingen utfil ges beror den på flaggan --locale eller användarens\n"
++"Om ingen utdatafil anges beror den på flaggan --locale eller användarens "
+ "lokalinställning.\n"
+-"Om utdatafilen redan finns slås den samman med indatafilen, som\n"
+-"via ”%s”.\n"
+-"Om den är - skrivs resultatet till standard ut.\n"
++"Om utdatafilen redan finns slås den samman med indatafilen, som om"
++" ”%s” hade använts.\n"
++"Om den är - skrivs resultatet till standardutdata.\n"
+ 
+ #: src/msginit.c:420
+ #, c-format
+@@ -2695,9 +2706,9 @@
+ "  then convert back to %s using 'msgconv'.\n"
+ msgstr ""
+ "- Sätt LC_ALL till en lokal med kodning %s,\n"
+-"  konvertera meddelandekatalogen till %s med \"msgconv\",\n"
+-"  tillämpa därefter \"%s\"\n"
+-"  konvertera sedan tillbaka till %s med \"msgconv\".\n"
++"  konvertera meddelandekatalogen till %s med ”msgconv”,\n"
++"  tillämpa därefter ”%s”,\n"
++"  konvertera sedan tillbaka till %s med ”msgconv”.\n"
+ 
+ #: src/msgl-charset.c:176
+ #, c-format
+@@ -2716,11 +2727,11 @@
+ 
+ #: src/msgl-check.c:112
+ msgid "plural expression can produce integer overflow"
+-msgstr "pluraluttryck kan ge heltalsspill"
++msgstr "Pluraluttryck kan ge heltalsöverflöde"
+ 
+ #: src/msgl-check.c:115
+ msgid "plural expression can produce stack overflow"
+-msgstr "pluraluttryck kan ge stackspill"
++msgstr "Pluraluttryck kan ge stacköverflöde"
+ 
+ #: src/msgl-check.c:129
+ msgid "plural expression can produce negative values"
+@@ -2742,7 +2753,7 @@
+ 
+ #: src/msgl-check.c:298
+ msgid "but header entry lacks a \"plural=EXPRESSION\" attribute"
+-msgstr "men huvudrader saknar attribut av typ \"plurals=UTTRYCK\""
++msgstr "Men huvudposten saknar attributet ”plural=UTTRYCK”"
+ 
+ #: src/msgl-check.c:322
+ msgid "but header entry lacks a \"nplurals=INTEGER\" attribute"
+@@ -2781,7 +2792,7 @@
+ 
+ #: src/msgl-check.c:508 src/read-po-lex.c:80 src/read-po-lex.c:101
+ msgid "memory exhausted"
+-msgstr "minnet slut"
++msgstr "Slut på minne"
+ 
+ #: src/msgl-check.c:559
+ msgid "'msgid' and 'msgid_plural' entries do not both begin with '\\n'"
+@@ -2877,7 +2888,8 @@
+ #: src/msgl-merge.c:1439
+ #, c-format
+ msgid "%sRead %ld old + %ld reference, merged %ld, fuzzied %ld, missing %ld, obsolete %ld.\n"
+-msgstr "%sLäste %ld gamla + %ld referenser, %ld sammanslagna, %ld luddiga, %ld saknade, %ld föråldrade.\n"
++msgstr "%sLäste %ld gamla och %ld referenser, slog ihop %ld, markerade %ld som "
++"luddiga, saknade %ld, föråldrade %ld.\n"
+ 
+ #: src/msgl-merge.c:1447 src/urlget.c:295 src/urlget.c:341 src/urlget.c:382
+ #: src/urlget.c:423
+@@ -2920,7 +2932,7 @@
+ #: src/msgmerge.c:500
+ #, c-format
+ msgid "  def.po                      translations referring to old sources\n"
+-msgstr "  def.po                      översättningar som refererar till gamla källkoden\n"
++msgstr "  def.po                      översättningar som refererar till gamla källor\n"
+ 
+ #: src/msgmerge.c:502
+ #, c-format
+@@ -2988,7 +3000,7 @@
+ "The backup suffix is '~', unless set with --suffix or the SIMPLE_BACKUP_SUFFIX\n"
+ "environment variable.\n"
+ msgstr ""
+-"Suffix för säkerhetskopior är \"~\", om den inte sätts med --suffix eller\n"
++"Suffixet för säkerhetskopior är ”~”, om det inte anges med --suffix eller "
+ "miljövariabeln SIMPLE_BACKUP_SUFFIX.\n"
+ 
+ #: src/msgmerge.c:548
+@@ -3086,7 +3098,8 @@
+ #: src/msgpre.c:502
+ #, c-format
+ msgid "      --prompt=TEXT           Specifies the prompt to use before standard input.\n"
+-msgstr "      --prompt=TEXT          Anger prompt:en som skall användas före standard in.\n"
++msgstr "      --prompt=TEXT           Anger prompten som ska användas före "
++"standardindata.\n"
+ 
+ #: src/msgpre.c:504 src/spit.c:428
+ #, c-format
+@@ -3158,8 +3171,8 @@
+ "The -l and -d options are mandatory.  The .dll file is located in a\n"
+ "subdirectory of the specified directory whose name depends on the locale.\n"
+ msgstr ""
+-"Flaggorna -l och -d är obligatoriska.  .dll-filen placeras i en\n"
+-"underkatalog till den givna katalogen vars namn beror på lokalen.\n"
++"Flaggorna -l och -d är obligatoriska. .dll-filen finns i en "
++"underkatalog till den angivna katalogen vars namn beror på lokalen.\n"
+ 
+ #: src/msgunfmt.c:478
+ #, c-format
+@@ -3218,7 +3231,7 @@
+ 
+ #: src/open-catalog.c:47 libgettextpo/gettext-po.c:101
+ msgid "<stdin>"
+-msgstr "<standard in>"
++msgstr "<standardindata>"
+ 
+ #: src/read-catalog.c:338 src/xgettext.c:1402
+ msgid "this file may not contain domain directives"
+@@ -3287,7 +3300,8 @@
+ #: src/read-mo.c:340
+ #, c-format
+ msgid "file \"%s\" is not in GNU .mo format: The hash table contains invalid entries."
+-msgstr "filen ”%s” är inte på GNUs .mo-format: hash-tabellen innehåller felaktiga poster."
++msgstr "Filen ”%s” är inte i GNU:s .mo-format: hash-tabellen innehåller felaktiga "
++"poster."
+ 
+ #: src/read-mo.c:347
+ #, c-format
+@@ -3466,7 +3480,7 @@
+ #: src/recode-sr-latin.c:149
+ #, c-format, no-wrap
+ msgid "Recode Serbian text from Cyrillic to Latin script.\n"
+-msgstr "Omkoda serbisk text från kyrillisk till latinsk kodning.\n"
++msgstr "Omkoda serbisk text från kyrillisk till latinsk skrift.\n"
+ 
+ #: src/recode-sr-latin.c:152
+ #, c-format, no-wrap
+@@ -3474,8 +3488,8 @@
+ "The input text is read from standard input.  The converted text is output to\n"
+ "standard output.\n"
+ msgstr ""
+-"Indatatexten läses från standard in. Den konverterade texten skrivs till\n"
+-"standard ut.\n"
++"Indatatexten läses från standardindata. Den konverterade texten skrivs till "
++"standardutdata.\n"
+ 
+ #: src/recode-sr-latin.c:325
+ #, c-format
+@@ -3509,10 +3523,11 @@
+ "With the %s option, it translates standard input to the specified language\n"
+ "through a Large Language Model (LLM) and prints the translation.\n"
+ msgstr ""
+-"Skickar standard in till en instans av en stor språkmodell (Large Language\n"
+-"Model,(LLM) och skriver ut svaret.\n"
+-"Med flaggan %s översätter den standard in till det angivna språket genom en\n"
+-"stor språkmodell (Large Language Model, LLM) och skriver ut översättningen.\n"
++"Skickar standardindata till en instans av en stor språkmodell "
++"(LLM) och skriver ut svaret.\n"
++"Med flaggan %s översätter den standardindata till det angivna språket genom "
++"en "
++"stor språkmodell (LLM) och skriver ut översättningen.\n"
+ 
+ #: src/spit.c:409
+ #, c-format
+@@ -3539,7 +3554,8 @@
+ "      --prompt=TEXT           Specifies the prompt to use before standard input.\n"
+ "                              This option overrides the --to option.\n"
+ msgstr ""
+-"      --prompt=TEXT           Anger prompt:en som skall användas före standard in.\n"
++"      --prompt=TEXT           Anger prompten som ska användas före "
++"standardindata.\n"
+ "                              Denna flagga åsidosätter flaggan --to.\n"
+ 
+ #: src/spit.c:434
+@@ -3555,7 +3571,7 @@
+ #: src/spit.c:585
+ #, c-format
+ msgid "error reading standard input"
+-msgstr "fel när standard in lästes"
++msgstr "Fel vid läsning av standardindata"
+ 
+ #: src/urlget.c:153
+ #, c-format
+@@ -3573,8 +3589,8 @@
+ "Fetches and outputs the contents of an URL.  If the URL cannot be accessed,\n"
+ "the locally accessible FILE is used instead.\n"
+ msgstr ""
+-"Hämtar och skriver ut innehållet på URL.  Om URL inte kan hämtas används\n"
+-"den lokala filen FIL istället.\n"
++"Hämtar och skriver ut innehållet från en URL. Om URL:en inte kan nås används "
++"den lokalt tillgängliga filen FIL i stället.\n"
+ 
+ #: src/urlget.c:225
+ #, c-format
+@@ -3584,7 +3600,7 @@
+ #: src/urlget.c:231
+ #, c-format
+ msgid "error writing stdout"
+-msgstr "fel vid skrivning till standard ut"
++msgstr "Fel vid skrivning till standardutdata"
+ 
+ #: src/urlget.c:235
+ #, c-format
+@@ -3636,7 +3652,7 @@
+ 
+ #: src/write-catalog.c:216 src/write-catalog.c:257
+ msgid "standard output"
+-msgstr "standard ut"
++msgstr "standardutdata"
+ 
+ #: src/write-catalog.c:232 src/write-catalog.c:300 src/write-csharp.c:696
+ #: src/write-desktop.c:178 src/write-java.c:1106 src/write-java.c:1144
+@@ -3943,7 +3959,8 @@
+ #: src/x-d.c:1780
+ #, c-format
+ msgid "file \"%s\" is unsupported because not UTF-8 or UTF-16 or UTF-32 encoded"
+-msgstr "filen ”%s” stödjs inte eftersom den inte är UTF-8- eller UTF-16 eller UTF-32-kodad"
++msgstr "Filen ”%s” stöds inte eftersom den varken är UTF-8-, UTF-16- eller "
++"UTF-32-kodad"
+ 
+ #: src/x-elisp.c:444
+ #, c-format
+@@ -3977,7 +3994,7 @@
+ 
+ #: src/xg-check.c:92
+ msgid "ASCII ellipsis ('...') instead of Unicode"
+-msgstr "ASCII-ellips (”...”) istället för Unicode"
++msgstr "ASCII-ellips (”...”) används i stället för Unicode"
+ 
+ #: src/xg-check.c:181
+ msgid "space before ellipsis found in user visible string"
+@@ -4064,7 +4081,7 @@
+ #: src/xgettext.c:829
+ #, c-format
+ msgid "--join-existing cannot be used when output is written to stdout"
+-msgstr "--join-existing kan inte användas då resultatet skrivs till standard ut"
++msgstr "--join-existing kan inte användas när resultatet skrivs till standardutdata"
+ 
+ #: src/xgettext.c:833
+ #, c-format
+@@ -4159,7 +4176,7 @@
+ #: src/xgettext.c:1221
+ #, c-format
+ msgid "By default the input files are assumed to be in ASCII.\n"
+-msgstr "Normalt antas att filer är i ASCII-format.\n"
++msgstr "Som standard antas indatafilerna vara ASCII-kodade.\n"
+ 
+ #: src/xgettext.c:1226
+ #, c-format
+@@ -4169,7 +4186,7 @@
+ #: src/xgettext.c:1228
+ #, c-format
+ msgid "  -x, --exclude-file=FILE.po  entries from FILE.po are not extracted\n"
+-msgstr "  -x, --exclude-file=FIL.po   rader från FIL tas inte ut\n"
++msgstr "  -x, --exclude-file=FIL.po   poster från FIL.po extraheras inte\n"
+ 
+ #: src/xgettext.c:1230
+ #, c-format
+@@ -4427,7 +4444,7 @@
+ 
+ #: src/xgettext.c:2036
+ msgid "standard input"
+-msgstr "standard in"
++msgstr "standardindata"
+ 
+ #: src/xgettext.c:2218
+ msgid ""
+@@ -4497,16 +4514,17 @@
+ #: src/xg-message.c:332
+ #, c-format
+ msgid "%s%s: Here is the occurrence without plural."
+-msgstr "%s%s: här finns förekomsten utan plural."
++msgstr "%s%s: Här finns förekomsten utan plural."
+ 
+ #: src/xg-message.c:334
+ #, c-format
+ msgid "%s%s: Here is the occurrence with plural."
+-msgstr "%s%s: här finns förekomsten med plural."
++msgstr "%s%s: Här finns förekomsten med plural."
+ 
+ #: src/xg-message.c:336
+ msgid "Workaround: If the msgid is a sentence, change the wording of the sentence; otherwise, use contexts for disambiguation."
+-msgstr "Sätt att gå runt: om msgid:n är en mening, ändra ordalydelsen i meningen; annars, använd kontexter för att särskilja."
++msgstr "Lösning: Om msgid är en mening, ändra meningen; använd annars kontexter för "
++"att skilja betydelser åt."
+ 
+ #: src/xg-mixed-string.c:514 src/x-typescript-impl.h:346
+ #, c-format
+@@ -4676,7 +4694,7 @@
+ #: src/x-php.c:1030
+ #, c-format
+ msgid "unterminated expression in string literal contains unbalanced '%c'"
+-msgstr "ett oavsluttat utryck i stränglitteral innehåller obalanserad ”%c”"
++msgstr "Ett oavslutat uttryck i en stränglitteral innehåller en obalanserad ”%c”"
+ 
+ #: src/x-po.c:215
+ #, c-format

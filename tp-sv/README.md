@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 52 856 aktiva poster i de 44 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 14 540 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 53 750 aktiva poster i de 46 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 14 607 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -55,6 +55,8 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#f4f1c9"><td>gdbm</td><td>1.26</td><td align="right">307</td><td align="right">35</td><td align="right">11.40 %</td><td><a href="gdbm-1.26.sv.po">PO</a></td><td><a href="diff/gdbm-1.26.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gdbm-1.26.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>gettext-examples</td><td>1.0-pre2</td><td align="right">24</td><td align="right">12</td><td align="right">50.00 %</td><td><a href="gettext-examples-1.0-pre2.sv.po">PO</a></td><td><a href="diff/gettext-examples-1.0-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gettext-examples-1.0-pre2.sv.po">Original</a></td></tr>
 <tr bgcolor="#fff2cc"><td>gettext-runtime</td><td>1.0-pre2</td><td align="right">71</td><td align="right">11</td><td align="right">15.49 %</td><td><a href="gettext-runtime-1.0-pre2.sv.po">PO</a></td><td><a href="diff/gettext-runtime-1.0-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gettext-runtime-1.0-pre2.sv.po">Original</a></td></tr>
+<tr bgcolor="#e7f1cd"><td>gettext-tools</td><td>1.0-pre2</td><td align="right">811</td><td align="right">61</td><td align="right">7.52 %</td><td><a href="gettext-tools-1.0-pre2.sv.po">PO</a></td><td><a href="diff/gettext-tools-1.0-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gettext-tools-1.0-pre2.sv.po">Original</a></td></tr>
+<tr bgcolor="#e7f1cd"><td>gnubik</td><td>2.4.3</td><td align="right">83</td><td align="right">6</td><td align="right">7.23 %</td><td><a href="gnubik-2.4.3.sv.po">PO</a></td><td><a href="diff/gnubik-2.4.3.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gnubik-2.4.3.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
