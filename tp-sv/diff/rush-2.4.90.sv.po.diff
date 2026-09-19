@@ -1,0 +1,762 @@
+--- a/rush-2.4.90.sv.po
++++ b/rush-2.4.90.sv.po
+@@ -28,11 +28,11 @@
+ 
+ #: src/cfck.c:77
+ msgid "group writable configuration file"
+-msgstr "konfigurationsfil skrivbar för grupp"
++msgstr "gruppskrivbar konfigurationsfil"
+ 
+ #: src/cfck.c:79
+ msgid "world writable configuration file"
+-msgstr "konfigurationsfil skrivbar för alla"
++msgstr "världsskrivbar konfigurationsfil"
+ 
+ #: src/cfck.c:81
+ msgid "linked configuration file in writable dir"
+@@ -40,16 +40,16 @@
+ 
+ #: src/cfck.c:84
+ msgid "configuration file in group writable directory"
+-msgstr "konfigurationsfil i katalog skrivbar för grupp"
++msgstr "konfigurationsfil i gruppskrivbar katalog"
+ 
+ #: src/cfck.c:87
+ msgid "configuration file in world writable directory"
+-msgstr "konfigurationsfil i katalog skrivbar för alla"
++msgstr "konfigurationsfil i världsskrivbar katalog"
+ 
+ #: src/cfck.c:102
+ #, c-format
+ msgid "%s: cannot stat directory: %s"
+-msgstr "%s: det går inte att ta stat på katalog %s"
++msgstr "%s: kan inte ta status på katalogen %s"
+ 
+ #: src/cfgram.y:154
+ msgid "unsupported configuration file version"
+@@ -62,7 +62,7 @@
+ 
+ #: src/cfgram.y:538
+ msgid "$0 cannot be unset"
+-msgstr "det går inte att avinitialisera $0"
++msgstr "$0 kan inte tas bort"
+ 
+ #: src/cfgram.y:621 src/config.c:800
+ msgid "Unknown message reference"
+@@ -70,19 +70,19 @@
+ 
+ #: src/cfgram.y:646
+ msgid "$0 cannot be deleted"
+-msgstr "det går inte att radera $0"
++msgstr "$0 kan inte raderas"
+ 
+ #: src/cfgram.y:726
+ msgid "invalid character in short option designator"
+-msgstr "ogiltigt tecken i kortalternativets beteckning"
++msgstr "ogiltigt tecken i kortflaggans beteckning"
+ 
+ #: src/cfgram.y:728 src/cfgram.y:739
+ msgid "short option letter can be followed only by zero to two colons"
+-msgstr "kortalternativets bokstav får endast följas av noll till två kolon"
++msgstr "kortflaggans bokstav får endast följas av noll till två kolon"
+ 
+ #: src/cfgram.y:737
+ msgid "ignoring extra character in short option designator"
+-msgstr "ignorerar extra tecken i kortalternativets beteckning"
++msgstr "ignorerar extra tecken i kortflaggans beteckning"
+ 
+ #: src/cfgram.y:956
+ msgid "attempt to modify a read-only variable"
+@@ -90,7 +90,7 @@
+ 
+ #: src/cfgram.y:968
+ msgid "attempt to unset a read-only variable"
+-msgstr "försök att avinitialisera en skrivskyddad variabel"
++msgstr "försök att ta bort en skrivskyddad variabel"
+ 
+ #: src/cfgram.y:978 src/rush.c:1048
+ #, c-format
+@@ -105,7 +105,7 @@
+ #: src/cfgram.y:1002
+ #, c-format
+ msgid "bad value: %s"
+-msgstr "felaktigt värde: %s"
++msgstr "ogiltigt värde: %s"
+ 
+ #: src/cflex.l:113
+ #, c-format
+@@ -128,7 +128,7 @@
+ 
+ #: src/cflex.l:522
+ msgid "looking for rush version clause"
+-msgstr "letar efter rush-versionklausul"
++msgstr "letar efter versionsvillkoret för rush"
+ 
+ #: src/cflex.l:523
+ msgid "looking for rule"
+@@ -136,15 +136,15 @@
+ 
+ #: src/cflex.l:524
+ msgid "scanning arguments"
+-msgstr "skannar argumenten"
++msgstr "tolkar argumenten"
+ 
+ #: src/cflex.l:525
+ msgid "scanning quoted string"
+-msgstr "skannar citerad sträng"
++msgstr "tolkar citerad sträng"
+ 
+ #: src/cflex.l:526
+ msgid "scanning variable reference"
+-msgstr "skannar variabelreferens"
++msgstr "tolkar variabelreferens"
+ 
+ #: src/cflex.l:529
+ #, c-format
+@@ -158,17 +158,17 @@
+ 
+ #: src/cflex.l:604 src/config.c:893
+ msgid "invalid include file name"
+-msgstr "ogiltigt inkluderingsfilnamn"
++msgstr "ogiltigt filnamn för inkluderad fil"
+ 
+ #: src/cflex.l:610 src/cflex.l:629 src/config.c:900
+ #, c-format
+ msgid "Ignoring non-existing include file %s"
+-msgstr "Ignorerar icke existerande inkluderingsfil %s"
++msgstr "Ignorerar en fil som ska inkluderas men inte finns: %s"
+ 
+ #: src/cflex.l:615 src/config.c:906 src/map.c:359
+ #, c-format
+ msgid "cannot stat file %s: %s"
+-msgstr "det går inte att ta stat på fil %s: %s"
++msgstr "kan inte ta status på filen %s: %s"
+ 
+ #: src/config.c:163
+ #, c-format
+@@ -178,7 +178,7 @@
+ #: src/config.c:169
+ #, c-format
+ msgid "Resuming parsing %s from line %d"
+-msgstr "Återupptar tolkning av %s från rad %d"
++msgstr "Återupptar tolkningen av %s från rad %d"
+ 
+ #: src/config.c:262
+ #, c-format
+@@ -225,7 +225,7 @@
+ #: src/config.c:718
+ #, c-format
+ msgid "debug level set to %d"
+-msgstr "felsökningsnivå satt till %d"
++msgstr "felsökningsnivån är satt till %d"
+ 
+ #: src/config.c:730
+ #, c-format
+@@ -234,7 +234,7 @@
+ 
+ #: src/config.c:786
+ msgid "invalid file descriptor"
+-msgstr "ogiltig fildeskriptor"
++msgstr "ogiltig filbeskrivare"
+ 
+ #: src/config.c:934 src/dump.c:335 src/rush.c:1499
+ #, c-format
+@@ -243,16 +243,16 @@
+ 
+ #: src/config.c:982
+ msgid "key field is not a number"
+-msgstr "nyckelfältet är inte ett nummer"
++msgstr "nyckelfältet är inte ett tal"
+ 
+ #: src/config.c:988
+ msgid "value field is not a number"
+-msgstr "värdefältet är inte ett nummer"
++msgstr "värdefältet är inte ett tal"
+ 
+ #: src/config.c:1033 src/config.c:1038 src/rush.c:263
+ #, c-format
+ msgid "%s: not a number"
+-msgstr "%s: ingen siffra"
++msgstr "%s: inte ett tal"
+ 
+ #: src/config.c:1211 src/config.c:1340
+ #, c-format
+@@ -275,7 +275,7 @@
+ #: src/config.c:1310
+ #, c-format
+ msgid "failed to parse value: %s"
+-msgstr "misslyckades med att tolka värde: %s"
++msgstr "kunde inte tolka värdet: %s"
+ 
+ #: src/config.c:1328
+ msgid "statement cannot be used outside a rule"
+@@ -303,7 +303,7 @@
+ #: src/limits.c:68
+ #, c-format
+ msgid "Setting priority to %d"
+-msgstr "Ställer inte prioritet till %d"
++msgstr "Ställer in prioriteten till %d"
+ 
+ #: src/limits.c:70
+ #, c-format
+@@ -313,21 +313,21 @@
+ #: src/limits.c:86 src/limits.c:87
+ #, c-format
+ msgid "No logins allowed for `%s'"
+-msgstr "Inga inloggningar tillåtna för ”%s”"
++msgstr "Inga inloggningar är tillåtna för '%s'"
+ 
+ #: src/limits.c:91
+ #, c-format
+ msgid "counting logins for %s"
+-msgstr "räknar inloggningar för ”%s”"
++msgstr "räknar inloggningar för %s"
+ 
+ #: src/limits.c:97
+ msgid "acct database is empty"
+-msgstr "kontodatabas är tom"
++msgstr "kontodatabasen är tom"
+ 
+ #: src/limits.c:101
+ #, c-format
+ msgid "Cannot open database %s: %s"
+-msgstr "Det går inte att öppna databas %s: %s"
++msgstr "Det går inte att öppna databasen %s: %s"
+ 
+ #: src/limits.c:119
+ #, c-format
+@@ -357,7 +357,7 @@
+ #: src/map.c:386
+ #, c-format
+ msgid "%s:%lu: failed to parse line: %s"
+-msgstr "%s:%lu: misslyckades med att tolka rad: %s"
++msgstr "%s:%lu: kunde inte tolka raden: %s"
+ 
+ #: src/rush.c:44
+ msgid ""
+@@ -394,12 +394,12 @@
+ #: src/rush.c:157
+ #, c-format
+ msgid "failed to write message to stderr: %s"
+-msgstr "misslyckades med att skriva meddelande till stderr: %s"
++msgstr "kunde inte skriva meddelandet till standardfel: %s"
+ 
+ #: src/rush.c:161
+ #, c-format
+ msgid "failed to write message to stdout: %s"
+-msgstr "misslyckades med att skriva meddelande till stdout: %s"
++msgstr "kunde inte skriva meddelandet till standardutdata: %s"
+ 
+ #: src/rush.c:173
+ #, c-format
+@@ -438,12 +438,12 @@
+ #: src/rush.c:409
+ #, c-format
+ msgid "%s:%d: %s: can't stat '%s': %s"
+-msgstr "%s:%d: %s: det går inte att ta stat på '%s': %s"
++msgstr "%s:%d: %s: kan inte ta status på '%s': %s"
+ 
+ #: src/rush.c:470
+ #, c-format
+ msgid "INTERNAL ERROR at %s:%d: unrecognized operation %d"
+-msgstr "INTERNT FEL vid %s:%d: okänd operation %d"
++msgstr "INTERNT FEL vid %s:%d: okänd åtgärd %d"
+ 
+ #: src/rush.c:510
+ #, c-format
+@@ -467,12 +467,12 @@
+ #: src/rush.c:764
+ #, c-format
+ msgid "no argument at index %d in command: %s"
+-msgstr "inget argument vid index %d i kommando: %s"
++msgstr "inget argument vid index %d i kommandot: %s"
+ 
+ #: src/rush.c:907
+ #, c-format
+ msgid "Removing option %s %s"
+-msgstr "Tar bort flagga %s %s"
++msgstr "Tar bort flaggan %s %s"
+ 
+ #: src/rush.c:919
+ msgid "Transforming command line"
+@@ -495,17 +495,17 @@
+ 
+ #: src/rush.c:958 src/rush.c:1044
+ msgid "environment transformation is not yet implemented"
+-msgstr "miljötransformering är ännu ej implementerad"
++msgstr "omvandling av miljön är ännu inte implementerad"
+ 
+ #: src/rush.c:962
+ #, c-format
+ msgid "INTERNAL ERROR at %s:%d: can't modify read-only target"
+-msgstr "INTERNT FEL vid %s:%d: det går inte att modifiera skrivskyddat mål"
++msgstr "INTERNT FEL vid %s:%d: kan inte ändra det skrivskyddade målet"
+ 
+ #: src/rush.c:981
+ #, c-format
+ msgid "Transformation map: %s, %s, %s, %u, %u, %s"
+-msgstr "Transformationsmappning: %s, %s, %s, %u, %u, %s"
++msgstr "Mappning för omvandling: %s, %s, %s, %u, %u, %s"
+ 
+ #: src/rush.c:995
+ #, c-format
+@@ -515,12 +515,12 @@
+ #: src/rush.c:1002
+ #, c-format
+ msgid "transformed value: %s"
+-msgstr "transformerat värde: %s"
++msgstr "omvandlat värde: %s"
+ 
+ #: src/rush.c:1023
+ #, c-format
+ msgid "Deleting arguments %d-%d"
+-msgstr "Tar bort argument %d-%d"
++msgstr "Tar bort argumenten %d-%d"
+ 
+ #: src/rush.c:1026
+ msgid "Deleting argv[0] is prohibited"
+@@ -533,56 +533,56 @@
+ 
+ #: src/rush.c:1067
+ msgid "Final arguments:"
+-msgstr "Sista argument:"
++msgstr "Slutliga argument:"
+ 
+ #: src/rush.c:1085
+ #, c-format
+ msgid "error writing to database %s: %s"
+-msgstr "fel vid skrivning till databas %s: %s"
++msgstr "fel vid skrivning till databasen %s: %s"
+ 
+ #: src/rush.c:1094
+ #, c-format
+ msgid "error writing stop to database file %s: %s"
+-msgstr "fel vid skrivning av stopp till databasfil %s: %s"
++msgstr "fel vid skrivning av stopp till databasfilen %s: %s"
+ 
+ #: src/rush.c:1115
+ #, c-format
+ msgid "%s:%d: %s: cannot fork: %s"
+-msgstr "%s:%d: %s: det går inte att köra fork: %s"
++msgstr "%s:%d: %s: kan inte skapa underprocess: %s"
+ 
+ #: src/rush.c:1125
+ #, c-format
+ msgid "Forked process %lu"
+-msgstr "Grenad process %lu"
++msgstr "Skapade underprocess %lu"
+ 
+ #: src/rush.c:1129
+ #, c-format
+ msgid "%s: subprocess exited with code %d"
+-msgstr "%s: underprocess avslutade med kod %d"
++msgstr "%s: underprocessen avslutades med kod %d"
+ 
+ #: src/rush.c:1132
+ #, c-format
+ msgid "%s: subprocess terminated on signal %d"
+-msgstr "%s: underprocess avslutades på grund av signal %d"
++msgstr "%s: underprocessen avslutades av signal %d"
+ 
+ #: src/rush.c:1135
+ #, c-format
+ msgid "%s: subprocess terminated"
+-msgstr "%s: underprocess avslutades"
++msgstr "%s: underprocessen avslutades"
+ 
+ #: src/rush.c:1224
+ #, c-format
+ msgid "cannot enforce gid %lu: %s"
+-msgstr "det går inte att genomdriva gid %lu: %s"
++msgstr "kan inte tvinga fram GID %lu: %s"
+ 
+ #: src/rush.c:1229
+ #, c-format
+ msgid "cannot enforce uid %lu: %s"
+-msgstr "det går inte att genomdriva uid %lu: %s"
++msgstr "kan inte tvinga fram UID %lu: %s"
+ 
+ #: src/rush.c:1234
+ msgid "seteuid(0) succeeded when it should not"
+-msgstr "seteuid(0) framgångsrikt när det inte borde vara det"
++msgstr "seteuid(0) lyckades fast det inte borde ha gjort det"
+ 
+ #: src/rush.c:1240
+ #, c-format
+@@ -597,7 +597,7 @@
+ #: src/rush.c:1257
+ #, c-format
+ msgid "Error sending diagnostic message to descriptor %d: %s"
+-msgstr "Fel vid sändning av diagnostiskt meddelande till deskriptor %d: %s"
++msgstr "Fel när diagnostiskt meddelande skickades till filbeskrivare %d: %s"
+ 
+ #: src/rush.c:1263
+ #, c-format
+@@ -627,12 +627,12 @@
+ #: src/rush.c:1316
+ #, c-format
+ msgid "cannot chroot to %s: %s"
+-msgstr "det går inte att chroota till %s: %s"
++msgstr "kan inte byta rotkatalog till %s: %s"
+ 
+ #: src/rush.c:1323 src/rush.c:1593
+ #, c-format
+ msgid "invalid uid %lu"
+-msgstr "ogiltigt uid %lu"
++msgstr "ogiltigt UID %lu"
+ 
+ #: src/rush.c:1328
+ #, c-format
+@@ -642,12 +642,12 @@
+ #: src/rush.c:1331
+ #, c-format
+ msgid "cannot change to dir %s: %s"
+-msgstr "det går inte att byta katalog till %s: %s"
++msgstr "kan inte byta till katalogen %s: %s"
+ 
+ #: src/rush.c:1335
+ #, c-format
+ msgid "Executing %s, %s"
+-msgstr "Exekverar %s, %s"
++msgstr "Kör %s, %s"
+ 
+ #: src/rush.c:1350
+ #, c-format
+@@ -656,11 +656,11 @@
+ 
+ #: src/rush.c:1367 src/rushlast.c:93
+ msgid "NUMBER"
+-msgstr "NUMMER"
++msgstr "TAL"
+ 
+ #: src/rush.c:1368
+ msgid "Set debugging level."
+-msgstr "Ställ in felsökningsnivå."
++msgstr "Ställ in felsökningsnivån."
+ 
+ #: src/rush.c:1377
+ msgid "Run in test mode."
+@@ -668,11 +668,11 @@
+ 
+ #: src/rush.c:1390
+ msgid "Scanner test."
+-msgstr "Avläsningstest."
++msgstr "Test av lexikalisk analys."
+ 
+ #: src/rush.c:1395
+ msgid "Print grammar and lexical analyzer traces"
+-msgstr "Skriv ut spår för grammatisk och lexikalisk analysator"
++msgstr "Skriv ut spårningsinformation för grammatik och lexikalanalys"
+ 
+ #: src/rush.c:1404
+ msgid "NAME"
+@@ -680,7 +680,7 @@
+ 
+ #: src/rush.c:1405
+ msgid "Supply user name in test mode."
+-msgstr "Tillför användarnamn i testläge."
++msgstr "Ange användarnamn i testläge."
+ 
+ #: src/rush.c:1414
+ msgid "COMMAND"
+@@ -688,11 +688,11 @@
+ 
+ #: src/rush.c:1415
+ msgid "Execute COMMAND."
+-msgstr "Exekvera KOMMANDO."
++msgstr "Kör KOMMANDO."
+ 
+ #: src/rush.c:1420
+ msgid "Force interactive shell."
+-msgstr "Framtvinga interaktivt skal."
++msgstr "Tvinga fram ett interaktivt skal."
+ 
+ #: src/rush.c:1425
+ msgid "KEYWORDS"
+@@ -700,7 +700,7 @@
+ 
+ #: src/rush.c:1426
+ msgid "Dump final request in test mode."
+-msgstr "Dumpa slutgiltig begäran i testläge."
++msgstr "Skriv ut den slutliga begäran i testläge."
+ 
+ #: src/rush.c:1435
+ msgid "CHECK"
+@@ -745,7 +745,7 @@
+ #: src/rush.c:1595
+ #, c-format
+ msgid "user %s, uid %lu"
+-msgstr "användare %s, uid %lu"
++msgstr "användare %s, UID %lu"
+ 
+ #: src/rush.c:1607
+ msgid "Command line:"
+@@ -758,7 +758,7 @@
+ #: src/rush.c:1641
+ #, c-format
+ msgid "Serving interactive shell request for %s by rule %s"
+-msgstr "Hanterar interaktiv skalbegäran för %s via regel %s"
++msgstr "Hanterar begäran om ett interaktivt skal för %s via regel %s"
+ 
+ #: src/rush.c:1645
+ #, c-format
+@@ -776,15 +776,15 @@
+ 
+ #: src/rushlast.c:51 src/rushwho.c:37
+ msgid "Use STRING instead of the default format."
+-msgstr "Använd STRÄNG istället för standardformat."
++msgstr "Använd STRÄNG i stället för standardformatet."
+ 
+ #: src/rushlast.c:62 src/rushwho.c:48
+ msgid "DIR"
+-msgstr "KAT"
++msgstr "KATALOG"
+ 
+ #: src/rushlast.c:63 src/rushwho.c:49
+ msgid "Look for database files in DIR."
+-msgstr "Leta efter databasfiler i KAT."
++msgstr "Leta efter databasfiler i KATALOG."
+ 
+ #: src/rushlast.c:74
+ msgid "Show entries in chronological order."
+@@ -792,19 +792,19 @@
+ 
+ #: src/rushlast.c:82 src/rushwho.c:60
+ msgid "Do not display header line."
+-msgstr "Visa inte huvudrad."
++msgstr "Visa inte huvudraden."
+ 
+ #: src/rushlast.c:94
+ msgid "Show at most NUM records."
+-msgstr "Visa som mest NUM poster."
++msgstr "Visa högst TAL poster."
+ 
+ #: src/rushlast.c:152
+ msgid "show listing of last rush logins"
+-msgstr "visa lista över senaste rush-inloggningar"
++msgstr "visa en lista över de senaste rush-inloggningarna"
+ 
+ #: src/rushlast.c:153
+ msgid "[user [user...]]"
+-msgstr "[användare [användare…]]"
++msgstr "[användare [användare...]]"
+ 
+ #: src/rushlast.c:163 src/rushwho.c:86
+ #, c-format
+@@ -823,7 +823,7 @@
+ 
+ #: src/rushwho.c:75
+ msgid "show listing of online rush users."
+-msgstr "visa lista över inloggade rush-användare."
++msgstr "visa en lista över inloggade rush-användare."
+ 
+ #: src/rushwho.c:118
+ #, c-format
+@@ -842,36 +842,36 @@
+ 
+ #: src/transform.c:155
+ msgid "Transform expression must start with 's' followed by a punctuation character"
+-msgstr "Transformuttryck måste börja med ”s” följt av ett skiljetecken"
++msgstr "Ett omvandlingsuttryck måste börja med 's' följt av ett skiljetecken"
+ 
+ #: src/transform.c:166
+ #, c-format
+ msgid "Missing 2nd delimiter in position %d of expression %s"
+-msgstr "Saknar andra avgränsaren vid position %d i uttryck %s"
++msgstr "Den andra avgränsaren saknas vid position %d i uttrycket %s"
+ 
+ #: src/transform.c:176
+ #, c-format
+ msgid "Missing trailing delimiter in position %d of expression %s"
+-msgstr "Saknar avslutande avgränsare vid position %d i uttryck %s"
++msgstr "Den avslutande avgränsaren saknas vid position %d i uttrycket %s"
+ 
+ #: src/transform.c:203
+ #, c-format
+ msgid "Unknown flag in transform expression: %c"
+-msgstr "Okänd flagga i transformuttryck: %c"
++msgstr "Okänd flagga i omvandlingsuttrycket: %c"
+ 
+ #: src/transform.c:220
+ #, c-format
+ msgid "Invalid transform expression: %s"
+-msgstr "Ogiltigt transformuttryck: %s"
++msgstr "Ogiltigt omvandlingsuttryck: %s"
+ 
+ #: src/transform.c:248
+ msgid "Invalid transform replacement: back reference out of range"
+-msgstr "Ogiltig transformersättning: bakåtreferens utanför intervall"
++msgstr "Ogiltig ersättning i omvandling: bakåtreferensen ligger utanför intervallet"
+ 
+ #: lib/readfmt.c:40
+ #, c-format
+ msgid "cannot stat format file %s"
+-msgstr "det går inte att ta stat på formatfil %s"
++msgstr "kan inte ta status på formatfilen %s"
+ 
+ #: lib/readfmt.c:42
+ #, c-format
+@@ -881,7 +881,7 @@
+ #: lib/readfmt.c:46
+ #, c-format
+ msgid "cannot open format file %s"
+-msgstr "det går inte att öppna formatfil %s"
++msgstr "kan inte öppna formatfilen %s"
+ 
+ #: lib/rushdb.c:79
+ #, c-format
+@@ -891,7 +891,7 @@
+ #: lib/rushdb.c:84
+ #, c-format
+ msgid "cannot stat directory %s: %s"
+-msgstr "det går inte att ta stat på katalog %s: %s"
++msgstr "kan inte ta status på katalogen %s: %s"
+ 
+ #: lib/rushdb.c:89
+ #, c-format
+@@ -906,7 +906,7 @@
+ #: lib/rushdb.c:586
+ #, c-format
+ msgid "missing closing quote in string started near `%s'"
+-msgstr "saknar avslutande citattecken i sträng som började nära ”%s”"
++msgstr "saknar avslutande citattecken i strängen som började nära `%s'"
+ 
+ #: lib/version.c:25
+ msgid ""
+@@ -918,8 +918,8 @@
+ msgstr ""
+ "\n"
+ "Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+-"Detta är fri programvara; du kan fritt ändra och återdistribuera den.\n"
+-"Den kommer UTAN GARANTI, så långt lagen tillåter.\n"
++"Detta är fri programvara: du har rätt att ändra och vidaredistribuera den.\n"
++"Det finns INGEN GARANTI, så långt som lagen tillåter.\n"
+ "\n"
+ 
+ #: lib/version.c:39
+@@ -928,7 +928,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:82 lib/wordsplit/wordsplit.c:3396
+ msgid "memory exhausted"
+-msgstr "minnet slut"
++msgstr "slut på minne"
+ 
+ #: lib/wordsplit/wordsplit.c:136
+ msgid "memory exhausted while trying to store error context"
+@@ -941,7 +941,7 @@
+ #: lib/wordsplit/wordsplit.c:2144
+ #, c-format
+ msgid "%.*s: variable null or not set"
+-msgstr "%.*s: variabel är null eller inte satt"
++msgstr "%.*s: variabeln är null eller inte definierad"
+ 
+ #: lib/wordsplit/wordsplit.c:2174
+ #, c-format
+@@ -955,7 +955,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:3140
+ msgid "WS trimming"
+-msgstr "WS-rensning"
++msgstr "rensning av blanktecken"
+ 
+ #: lib/wordsplit/wordsplit.c:3142
+ msgid "command substitution"
+@@ -963,7 +963,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:3144 lib/wordsplit/wordsplit.c:3152
+ msgid "coalesce list"
+-msgstr "sammanfoga lista"
++msgstr "sammanfogning av lista"
+ 
+ #: lib/wordsplit/wordsplit.c:3146
+ msgid "tilde expansion"
+@@ -975,7 +975,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:3150
+ msgid "quote removal"
+-msgstr "citatborttagning"
++msgstr "borttagning av citattecken"
+ 
+ #: lib/wordsplit/wordsplit.c:3154
+ msgid "path expansion"
+@@ -988,7 +988,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:3205
+ msgid "Initial list:"
+-msgstr "Initial lista:"
++msgstr "Ursprunglig lista:"
+ 
+ #: lib/wordsplit/wordsplit.c:3220
+ msgid "Coalesced list:"
+@@ -1008,7 +1008,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:3398
+ msgid "unbalanced curly brace"
+-msgstr "obalanserad klammerparentes"
++msgstr "obalanserad klammer"
+ 
+ #: lib/wordsplit/wordsplit.c:3399
+ msgid "undefined variable"
+@@ -1016,7 +1016,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:3400
+ msgid "input exhausted"
+-msgstr "indata slut"
++msgstr "slut på indata"
+ 
+ #: lib/wordsplit/wordsplit.c:3401
+ msgid "unbalanced parenthesis"
+@@ -1024,7 +1024,7 @@
+ 
+ #: lib/wordsplit/wordsplit.c:3402
+ msgid "globbing error"
+-msgstr "globbingfel"
++msgstr "fel vid filnamnsexpansion"
+ 
+ #: lib/wordsplit/wordsplit.c:3403
+ msgid "user-defined error"
+@@ -1051,7 +1051,7 @@
+ #: lib/parseopt/help.c:104
+ #, c-format
+ msgid "error in ARGP_HELP_FMT: bad value for %s (near %s)"
+-msgstr "fel i ARGP_HELP_FMT: felaktigt värde för %s (nära %s)"
++msgstr "fel i ARGP_HELP_FMT: ogiltigt värde för %s (nära %s)"
+ 
+ #: lib/parseopt/help.c:110
+ #, c-format
+@@ -1088,7 +1088,7 @@
+ 
+ #: lib/parseopt/help.c:584
+ msgid "If an option has several forms, mandatory or optional argument is listed only once, after the last form."
+-msgstr "Om en flagga har flera former listas obligatoriskt eller valfritt argument bara en gång, efter den sista formen."
++msgstr "Om en flagga har flera former listas ett obligatoriskt eller valfritt argument bara en gång, efter den sista formen."
+ 
+ #: lib/parseopt/help.c:740
+ #, c-format
+@@ -1126,7 +1126,7 @@
+ #: lib/parseopt/parseopt.c:142
+ #, c-format
+ msgid "option '%s%*.*s' is ambiguous; possibilities:"
+-msgstr "flaggan '%s%*.*s' är tvetydig; möjligheter:"
++msgstr "flaggan '%s%*.*s' är tvetydig; möjliga tolkningar:"
+ 
+ #: lib/parseopt/parseopt.c:174
+ #, c-format
+@@ -1146,7 +1146,7 @@
+ #: lib/parseopt/parseopt.c:364
+ #, c-format
+ msgid "bad value for option '%s%s'"
+-msgstr "felaktigt värde för flaggan '%s%s'"
++msgstr "ogiltigt värde för flaggan '%s%s'"
+ 
+ #: lib/parseopt/parseopt.c:388
+ #, c-format
+@@ -1155,7 +1155,7 @@
+ 
+ #: lib/parseopt/parseopt.c:571
+ msgid "Informative options"
+-msgstr "Informativa flaggor"
++msgstr "Informationsflaggor"
+ 
+ #: lib/parseopt/parseopt.c:576
+ msgid "produce this help text"
