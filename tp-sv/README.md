@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 85 493 aktiva poster i de 97 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 22 251 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 86 070 aktiva poster i de 98 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 22 549 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.0 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -108,6 +108,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#ea9999"><td>msmtp</td><td>1.8.33</td><td align="right">329</td><td align="right">127</td><td align="right">38.60 %</td><td><a href="msmtp-1.8.33.sv.po">PO</a></td><td><a href="diff/msmtp-1.8.33.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/msmtp-1.8.33.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>nano</td><td>9.2-pre1</td><td align="right">648</td><td align="right">296</td><td align="right">45.68 %</td><td><a href="nano-9.2-pre1.sv.po">PO</a></td><td><a href="diff/nano-9.2-pre1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/nano-9.2-pre1.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>opcodes</td><td>2.46.90</td><td align="right">486</td><td align="right">285</td><td align="right">58.64 %</td><td><a href="opcodes-2.46.90.sv.po">PO</a></td><td><a href="diff/opcodes-2.46.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/opcodes-2.46.90.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>parted</td><td>3.7.14</td><td align="right">577</td><td align="right">298</td><td align="right">51.65 %</td><td><a href="parted-3.7.14.sv.po">PO</a></td><td><a href="diff/parted-3.7.14.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/parted-3.7.14.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:

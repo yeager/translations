@@ -772,7 +772,7 @@
  #: src/net.c:124
  msgid "no socket descriptors available"
 -msgstr "inga uttagsbeskrivningar tillgängliga"
-+msgstr "inga socketbeskrivare är tillgängliga"
++msgstr "inga uttagsbeskrivare är tillgängliga"
  
  #: src/net.c:127
  msgid "no buffer space available"
@@ -786,7 +786,7 @@
  #: src/net.c:136
  msgid "socket type is not supported in this address family"
 -msgstr "uttags-typ stöds inte i denna adressfamilj"
-+msgstr "sockettypen stöds inte i denna adressfamilj"
++msgstr "uttagstypen stöds inte i denna adressfamilj"
  
  #: src/net.c:139
  msgid "remote address is not valid"
@@ -805,12 +805,12 @@
  #: src/net.c:151
  msgid "socket not connected"
 -msgstr "uttag inte ansluten"
-+msgstr "socketen är inte ansluten"
++msgstr "uttaget är inte ansluten"
  
  #: src/net.c:154
  msgid "the socket was shut down"
 -msgstr "uttaget stängdes av"
-+msgstr "socketen stängdes"
++msgstr "uttaget stängdes"
  
  #: src/net.c:157 src/net.c:633
  msgid "host unreachable"
@@ -856,13 +856,7 @@
  
  #: src/net.c:642
  msgid "command not supported"
-@@ -1530,17 +1540,17 @@
- #: src/net.c:689 src/net.c:862
- #, c-format
- msgid "cannot create socket: %s"
--msgstr "kan inte skapa uttag: %s"
-+msgstr "kan inte skapa socket: %s"
- 
+@@ -1535,12 +1545,12 @@
  #: src/net.c:762 src/net.c:771
  #, c-format
  msgid "cannot locate host %s: %s"
