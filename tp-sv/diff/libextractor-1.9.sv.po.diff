@@ -1,0 +1,366 @@
+--- a/libextractor-1.9.sv.po
++++ b/libextractor-1.9.sv.po
+@@ -56,7 +56,7 @@
+ 
+ #: src/main/extract.c:227
+ msgid "load an extractor plugin named LIBRARY"
+-msgstr "läser in tillägg för uppackning med namnet BIBLIOTEK"
++msgstr "läs in ett extraheringstillägg med namnet BIBLIOTEK"
+ 
+ #: src/main/extract.c:229
+ msgid "list all keyword types"
+@@ -64,7 +64,7 @@
+ 
+ #: src/main/extract.c:231
+ msgid "do not use the default set of extractor plugins"
+-msgstr "använd inte standarduppsättningen av uppackningstillägg"
++msgstr "använd inte standarduppsättningen av extraheringstillägg"
+ 
+ #: src/main/extract.c:233
+ msgid "print only keywords of the given TYPE (use -L to get a list)"
+@@ -260,7 +260,7 @@
+ 
+ #: src/main/extractor_metatypes.c:79
+ msgid "author institution"
+-msgstr "upphovsinstitution"
++msgstr "upphovspersonens institution"
+ 
+ #: src/main/extractor_metatypes.c:80
+ msgid "institution the author worked for"
+@@ -348,7 +348,7 @@
+ 
+ #: src/main/extractor_metatypes.c:103
+ msgid "bibtex entry type"
+-msgstr "bibtex inmatningstyp"
++msgstr "BibTeX-posttyp"
+ 
+ #: src/main/extractor_metatypes.c:104
+ msgid "type of the publication for bibTeX bibliographies"
+@@ -364,7 +364,7 @@
+ 
+ #: src/main/extractor_metatypes.c:107
+ msgid "creation time"
+-msgstr "skapelsetid"
++msgstr "tidpunkt då filen skapades"
+ 
+ #: src/main/extractor_metatypes.c:108
+ msgid "time and date of creation"
+@@ -392,7 +392,7 @@
+ 
+ #: src/main/extractor_metatypes.c:115
+ msgid "ISRC number identifying the work"
+-msgstr "ISRC-nummer som identifierar arbetet"
++msgstr "ISRC-nummer som identifierar verket"
+ 
+ #: src/main/extractor_metatypes.c:116
+ msgid "MD4"
+@@ -436,7 +436,7 @@
+ 
+ #: src/main/extractor_metatypes.c:127 src/main/extractor_metatypes.c:128
+ msgid "GPS latitude ref"
+-msgstr "GPS-latitud ref"
++msgstr "GPS-latitudreferens"
+ 
+ #: src/main/extractor_metatypes.c:129 src/main/extractor_metatypes.c:130
+ msgid "GPS latitude"
+@@ -444,7 +444,7 @@
+ 
+ #: src/main/extractor_metatypes.c:131 src/main/extractor_metatypes.c:132
+ msgid "GPS longitude ref"
+-msgstr "GPS-longitud ref"
++msgstr "GPS-longitudreferens"
+ 
+ #: src/main/extractor_metatypes.c:134 src/main/extractor_metatypes.c:135
+ msgid "GPS longitude"
+@@ -460,7 +460,7 @@
+ 
+ #: src/main/extractor_metatypes.c:138
+ msgid "sublocation"
+-msgstr "underplats"
++msgstr "mer specifik platsangivelse"
+ 
+ #: src/main/extractor_metatypes.c:139
+ msgid "more specific location of the geographic origin"
+@@ -564,11 +564,11 @@
+ 
+ #: src/main/extractor_metatypes.c:172
+ msgid "ambiguous date (could specify creation time, modification time or access time)"
+-msgstr "tvetydigt datum (kan ange skapelsetid, ändringstid eller åtkomsttid)"
++msgstr "tvetydigt datum (kan ange datum för skapande, ändring eller åtkomst)"
+ 
+ #: src/main/extractor_metatypes.c:173
+ msgid "creation date"
+-msgstr "skapad den"
++msgstr "skapandedatum"
+ 
+ #: src/main/extractor_metatypes.c:174
+ msgid "date the document was created"
+@@ -600,7 +600,7 @@
+ 
+ #: src/main/extractor_metatypes.c:182
+ msgid "total editing time"
+-msgstr "total redigeringstid"
++msgstr "sammanlagd redigeringstid"
+ 
+ #: src/main/extractor_metatypes.c:183
+ msgid "time spent editing the document"
+@@ -616,7 +616,7 @@
+ 
+ #: src/main/extractor_metatypes.c:186
+ msgid "modified by software"
+-msgstr "ändrad av programvaran"
++msgstr "ändrad med programvara"
+ 
+ #: src/main/extractor_metatypes.c:187
+ msgid "name of software making modifications"
+@@ -636,7 +636,7 @@
+ 
+ #: src/main/extractor_metatypes.c:192
+ msgid "size of the contents of the container as embedded in the file"
+-msgstr "storlek på innehållet i containern som inbäddad i filen"
++msgstr "storlek på innehållet i behållaren, inbäddat i filen"
+ 
+ #: src/main/extractor_metatypes.c:193
+ msgid "file type"
+@@ -680,7 +680,7 @@
+ 
+ #: src/main/extractor_metatypes.c:205
+ msgid "priority for promoting the release to production"
+-msgstr "prioritet för att främja utgåvan till produktion"
++msgstr "prioritet för att befordra utgåvan till produktion"
+ 
+ #: src/main/extractor_metatypes.c:206
+ msgid "dependencies"
+@@ -768,7 +768,7 @@
+ 
+ #: src/main/extractor_metatypes.c:229
+ msgid "hardware architecture the contents can be used for"
+-msgstr "hårdvaruarkitektur kan innehållet användas för"
++msgstr "hårdvaruarkitektur som innehållet kan användas på"
+ 
+ #: src/main/extractor_metatypes.c:230
+ msgid "pre-dependency"
+@@ -792,7 +792,7 @@
+ 
+ #: src/main/extractor_metatypes.c:236
+ msgid "distribution the package is a part of"
+-msgstr "distributionspaketet är en del av"
++msgstr "distribution som paketet ingår i"
+ 
+ #: src/main/extractor_metatypes.c:237
+ msgid "build host"
+@@ -938,7 +938,7 @@
+ 
+ #: src/main/extractor_metatypes.c:294 src/main/extractor_metatypes.c:295
+ msgid "produced by software"
+-msgstr "produceras av programvara"
++msgstr "skapad av programvara"
+ 
+ #: src/main/extractor_metatypes.c:299
+ msgid "thumbnail"
+@@ -958,7 +958,7 @@
+ 
+ #: src/main/extractor_metatypes.c:305
+ msgid "Originating entity"
+-msgstr "Ursprunglig entitet"
++msgstr "Ursprungsentitet"
+ 
+ #: src/main/extractor_metatypes.c:306
+ msgid "character set"
+@@ -1067,7 +1067,7 @@
+ 
+ #: src/main/extractor_metatypes.c:341
+ msgid "disk number"
+-msgstr "disknummer"
++msgstr "skivnummer"
+ 
+ #: src/main/extractor_metatypes.c:342
+ msgid "number of the disk in a multi-disk (or volume) distribution"
+@@ -1079,7 +1079,8 @@
+ 
+ #: src/main/extractor_metatypes.c:344
+ msgid "The artist(s) who performed the work (conductor, orchestra, soloists, actor, etc.)"
+-msgstr "Artist(er) som framförde verket (dirigent, orkester, solister, skådespelare etc.)"
++msgstr "Artister som framförde verket (dirigent, orkester, solister, skådespelare "
++"osv.)"
+ 
+ #: src/main/extractor_metatypes.c:346
+ msgid "contact"
+@@ -1087,7 +1088,7 @@
+ 
+ #: src/main/extractor_metatypes.c:347
+ msgid "Contact information for the creator or distributor"
+-msgstr "Kontaktuppgifter till upphovsmannen eller distributören"
++msgstr "Kontaktuppgifter till upphovspersonen eller distributören"
+ 
+ #: src/main/extractor_metatypes.c:348
+ msgid "song version"
+@@ -1215,11 +1216,11 @@
+ 
+ #: src/main/extractor_metatypes.c:383
+ msgid "show"
+-msgstr "visa"
++msgstr "program"
+ 
+ #: src/main/extractor_metatypes.c:384
+ msgid "name of the show"
+-msgstr "namn på showen"
++msgstr "namn på programmet"
+ 
+ #: src/main/extractor_metatypes.c:385
+ msgid "chapter name"
+@@ -1227,7 +1228,7 @@
+ 
+ #: src/main/extractor_metatypes.c:386
+ msgid "name of the chapter"
+-msgstr "namn på avdelningen"
++msgstr "kapitlets namn"
+ 
+ #: src/main/extractor_metatypes.c:387
+ msgid "song count"
+@@ -1381,7 +1382,7 @@
+ 
+ #: src/main/extractor_metatypes.c:429
+ msgid "display type"
+-msgstr "skärmtyp"
++msgstr "visningstyp"
+ 
+ #: src/main/extractor_metatypes.c:430
+ msgid "what rendering method should be used to display this item"
+@@ -1545,7 +1546,7 @@
+ 
+ #: src/main/extractor_metatypes.c:478
+ msgid "track peak"
+-msgstr "spår topp"
++msgstr "spårtopp"
+ 
+ #: src/main/extractor_metatypes.c:479
+ msgid "peak of the track"
+@@ -1593,7 +1594,7 @@
+ 
+ #: src/main/extractor_metatypes.c:491
+ msgid "location horizontal error"
+-msgstr "platsens horisontalfel"
++msgstr "horisontellt positionsfel"
+ 
+ #: src/main/extractor_metatypes.c:492
+ msgid "represents the expected error on the horizontal positioning in meters"
+@@ -1605,7 +1606,7 @@
+ 
+ #: src/main/extractor_metatypes.c:494
+ msgid "speed of the capturing device when performing the capture. Represented in m/s"
+-msgstr "hastighet för den registrerande enheten när fångsten utförs. Representeras i m/s"
++msgstr "hastighet för den registrerande enheten vid registreringen, angiven i m/s"
+ 
+ #: src/main/extractor_metatypes.c:495
+ msgid "location movement direction"
+@@ -1613,19 +1614,22 @@
+ 
+ #: src/main/extractor_metatypes.c:496
+ msgid "indicates the movement direction of the device performing the capture of a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise"
+-msgstr "anger rörelseriktningen för den enhet som utför insamlingen av ett media. Det representeras som grader i flyttalsrepresentation, 0 betyder den geografiska norr, och ökar medurs"
++msgstr "anger rörelseriktningen för enheten som registrerar ett medieobjekt. Den "
++"anges som flyttalsgrader: 0 betyder geografiskt norr, och värdet ökar medurs"
+ 
+ #: src/main/extractor_metatypes.c:497
+ msgid "location capture direction"
+-msgstr "platsens fångstriktning"
++msgstr "platsens registreringsriktning"
+ 
+ #: src/main/extractor_metatypes.c:498
+ msgid "indicates the direction the device is pointing to when capturing a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise"
+-msgstr "anger den riktning som enheten pekar mot när den spelar in ett media. Det representeras som grader i flyttalsrepresentation, 0 betyder den geografiska norr, och ökar medurs"
++msgstr "anger den riktning som enheten är riktad mot när den registrerar ett "
++"medieobjekt. Den anges som flyttalsgrader: 0 betyder geografiskt norr, och "
++"värdet ökar medurs"
+ 
+ #: src/main/extractor_metatypes.c:500
+ msgid "show episode number"
+-msgstr "visa avsnittsnummer"
++msgstr "seriens avsnittsnummer"
+ 
+ #: src/main/extractor_metatypes.c:501
+ msgid "number of the episode within a season/show"
+@@ -1633,11 +1637,11 @@
+ 
+ #: src/main/extractor_metatypes.c:502
+ msgid "show season number"
+-msgstr "visa säsongsnummer"
++msgstr "seriens säsongsnummer"
+ 
+ #: src/main/extractor_metatypes.c:503
+ msgid "number of the season of a show/series"
+-msgstr "serienumret för säsongen av ett program/serie"
++msgstr "säsongsnummer för en serie/ett program"
+ 
+ #: src/main/extractor_metatypes.c:504
+ msgid "grouping"
+@@ -1645,7 +1649,8 @@
+ 
+ #: src/main/extractor_metatypes.c:505
+ msgid "groups together media that are related and spans multiple tracks. An example are multiple pieces of a concerto"
+-msgstr "grupperar media som är relaterade till varandra och sträcker sig över flera spår. Ett exempel är flera delar av en konsert"
++msgstr "grupperar relaterade medieobjekt som sträcker sig över flera spår. Ett "
++"exempel är flera delar av en konsert"
+ 
+ #: src/main/extractor_metatypes.c:506
+ msgid "device manufacturer"
+@@ -1713,7 +1718,7 @@
+ 
+ #: src/main/extractor_metatypes.c:525
+ msgid "width and height of the video track (WxH)"
+-msgstr "bredd och höjd på videospåret (BxH)"
++msgstr "bredd och höjd på videospåret (B×H)"
+ 
+ #: src/main/extractor_metatypes.c:526
+ msgid "video depth"
+@@ -1769,7 +1774,7 @@
+ 
+ #: src/main/extractor_metatypes.c:542
+ msgid "chapters, contents or bookmarks (in xml format)"
+-msgstr "kapitel, innehåll eller bokmärken (i xml-format)"
++msgstr "kapitel, innehåll eller bokmärken (i XML-format)"
+ 
+ # Detta rör sig om film och musik annars skulle det vara Varaktighet
+ #: src/main/extractor_metatypes.c:544
+@@ -1925,7 +1930,7 @@
+ # Hjälp! Rätt översättning?
+ #: src/plugins/ole2_extractor.c:413
+ msgid "No Proofing"
+-msgstr "Ingen korrekturläsning"
++msgstr "Ingen språkkontroll"
+ 
+ #: src/plugins/ole2_extractor.c:421
+ msgid "Traditional Chinese"
+@@ -1981,7 +1986,7 @@
+ 
+ #: src/plugins/ole2_extractor.c:473
+ msgid "Norwegian Bokmal"
+-msgstr "Norska (Bokmål)"
++msgstr "Norska (bokmål)"
+ 
+ #: src/plugins/ole2_extractor.c:483
+ msgid "Rhaeto-Romanic"
+@@ -1989,11 +1994,11 @@
+ 
+ #: src/plugins/ole2_extractor.c:489
+ msgid "Croato-Serbian (Latin)"
+-msgstr "Kroatoserbiska (Latin)"
++msgstr "Kroatoserbiska (latinsk)"
+ 
+ #: src/plugins/ole2_extractor.c:491
+ msgid "Serbo-Croatian (Cyrillic)"
+-msgstr "Serbokroatiska (Kyrillisk)"
++msgstr "Serbokroatiska (kyrillisk)"
+ 
+ #: src/plugins/ole2_extractor.c:519
+ msgid "Farsi"
+@@ -2002,7 +2007,7 @@
+ #: src/plugins/ole2_extractor.c:609
+ #, c-format
+ msgid "Revision #%u: Author `%s' worked on `%s'"
+-msgstr "Revision #%u: Upphovsperson `%s' arbetade på `%s'"
++msgstr "Revision nr %u: Upphovsperson ”%s” arbetade med ”%s”"
+ 
+ #: src/plugins/riff_extractor.c:145
+ #, c-format

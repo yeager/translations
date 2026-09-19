@@ -1,0 +1,2645 @@
+# Swedish translation of libextractor
+# Copyright (C) 2006, 2007, 2008, 2009, 2025 Free Software Foundation, Inc.
+# This file is distributed under the same license as the libextractor package.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: libextractor 1.9\n"
+"Report-Msgid-Bugs-To: libextractor@gnu.org\n"
+"POT-Creation-Date: 2019-02-10 17:43+0100\n"
+"PO-Revision-Date: 2025-10-16 18:21+0200\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.8\n"
+
+#: src/main/extract.c:132
+#, c-format
+msgid ""
+"Usage: %s\n"
+"%s\n"
+"\n"
+msgstr ""
+"Användning: %s\n"
+"%s\n"
+"\n"
+
+#: src/main/extract.c:135
+#, c-format
+msgid "Arguments mandatory for long options are also mandatory for short options.\n"
+msgstr "Argument som är obligatoriska för långa flaggor är också obligatoriska för korta flaggor.\n"
+
+#: src/main/extract.c:217
+msgid "print output in bibtex format"
+msgstr "skriv ut i bibtex-format"
+
+#: src/main/extract.c:219
+msgid "produce grep-friendly output (all results on one line per file)"
+msgstr "producera grep-vänligt utdata (alla resultat på en rad per fil)"
+
+#: src/main/extract.c:221
+msgid "print this help"
+msgstr "skriv ut denna hjälp"
+
+#: src/main/extract.c:223
+msgid "run plugins in-process (simplifies debugging)"
+msgstr "kör tillägg inne i processen (förenklar felsökning)"
+
+#: src/main/extract.c:225
+msgid "read data from file into memory and extract from memory"
+msgstr "läs data från fil till minne och extrahera från minne"
+
+#: src/main/extract.c:227
+msgid "load an extractor plugin named LIBRARY"
+msgstr "läs in ett extraheringstillägg med namnet BIBLIOTEK"
+
+#: src/main/extract.c:229
+msgid "list all keyword types"
+msgstr "lista alla typer av nyckelord"
+
+#: src/main/extract.c:231
+msgid "do not use the default set of extractor plugins"
+msgstr "använd inte standarduppsättningen av extraheringstillägg"
+
+#: src/main/extract.c:233
+msgid "print only keywords of the given TYPE (use -L to get a list)"
+msgstr "skriv endast ut nyckelord av angiven TYP (använd -L för lista)"
+
+#: src/main/extract.c:235
+msgid "print the version number"
+msgstr "skriv ut versionsnummer"
+
+#: src/main/extract.c:237
+msgid "be verbose"
+msgstr "var utförlig"
+
+#: src/main/extract.c:239
+msgid "do not print keywords of the given TYPE"
+msgstr "skriv inte ut nyckelord av angiven TYP"
+
+#: src/main/extract.c:242
+msgid "extract [OPTIONS] [FILENAME]*"
+msgstr "extract [FLAGGOR] [FILNAMN]*"
+
+#: src/main/extract.c:243
+msgid "Extract metadata from files."
+msgstr "Extrahera metadata från filer."
+
+#: src/main/extract.c:288
+#, c-format
+msgid "Found by `%s' plugin:\n"
+msgstr "Hittades av tillägget `%s':\n"
+
+#: src/main/extract.c:291 src/main/extract.c:380
+#: src/main/extractor_metatypes.c:145 src/main/extractor_print.c:86
+#: src/main/extractor_print.c:96
+msgid "unknown"
+msgstr "okänd"
+
+#: src/main/extract.c:296
+#, c-format
+msgid "%s - (unknown, %u bytes)\n"
+msgstr "%s - (okänd, %u byte)\n"
+
+#: src/main/extract.c:327
+#, c-format
+msgid "%s - (binary, %u bytes)\n"
+msgstr "%s - (binär, %u byte)\n"
+
+#: src/main/extract.c:815 src/main/extract.c:827
+msgid "Illegal combination of options, cannot combine multiple styles of printing.\n"
+msgstr "Olämplig kombination av flaggor, kan inte kombinera flera utskriftsstilar.\n"
+
+#: src/main/extract.c:860
+#, c-format
+msgid "You must specify an argument for the `%s' option (option ignored).\n"
+msgstr "Du måste ange ett argument för flaggan \"%s\" (flagga ignoreras).\n"
+
+#: src/main/extract.c:929
+msgid "Use --help to get a list of options.\n"
+msgstr "Använd --help för att få en lista på flaggor.\n"
+
+#: src/main/extract.c:970
+msgid "% BiBTeX file\n"
+msgstr "% BiBTeX-fil\n"
+
+#: src/main/extract.c:978
+#, c-format
+msgid "Keywords for file %s:\n"
+msgstr "Nyckelord för filen %s:\n"
+
+#: src/main/extractor.c:686
+#, c-format
+msgid "Initialization of plugin mechanism failed: %s!\n"
+msgstr "Initiering av tilläggsmekanism misslyckades: %s!\n"
+
+#: src/main/extractor_metatypes.c:46
+msgid "reserved"
+msgstr "reserverat"
+
+#: src/main/extractor_metatypes.c:47
+msgid "reserved value, do not use"
+msgstr "reserverat värde, använd inte"
+
+#: src/main/extractor_metatypes.c:48
+msgid "mimetype"
+msgstr "mime-typ"
+
+#: src/main/extractor_metatypes.c:49
+msgid "mime type"
+msgstr "mime-typ"
+
+#: src/main/extractor_metatypes.c:50
+msgid "embedded filename"
+msgstr "inbäddat filnamn"
+
+#: src/main/extractor_metatypes.c:51
+msgid "filename that was embedded (not necessarily the current filename)"
+msgstr "filnamn som var inbäddat (inte nödvändigtvis det aktuella filnamnet)"
+
+#: src/main/extractor_metatypes.c:52
+msgid "comment"
+msgstr "kommentar"
+
+#: src/main/extractor_metatypes.c:53
+msgid "comment about the content"
+msgstr "kommentar om innehållet"
+
+#: src/main/extractor_metatypes.c:54
+msgid "title"
+msgstr "titel"
+
+#: src/main/extractor_metatypes.c:55
+msgid "title of the work"
+msgstr "titel på verket"
+
+#: src/main/extractor_metatypes.c:57
+msgid "book title"
+msgstr "boktitel"
+
+#: src/main/extractor_metatypes.c:58
+msgid "title of the book containing the work"
+msgstr "titel på den bok som innehåller verket"
+
+#: src/main/extractor_metatypes.c:59
+msgid "book edition"
+msgstr "bokutgåva"
+
+#: src/main/extractor_metatypes.c:60
+msgid "edition of the book (or book containing the work)"
+msgstr "upplaga av boken (eller boken som innehåller verket)"
+
+#: src/main/extractor_metatypes.c:61
+msgid "book chapter"
+msgstr "bokkapitel"
+
+#: src/main/extractor_metatypes.c:62
+msgid "chapter number"
+msgstr "kapitelnummer"
+
+#: src/main/extractor_metatypes.c:63
+msgid "journal name"
+msgstr "tidskriftens namn"
+
+#: src/main/extractor_metatypes.c:64
+msgid "journal or magazine the work was published in"
+msgstr "tidskrift eller magasin som verket publicerades i"
+
+#: src/main/extractor_metatypes.c:65
+msgid "journal volume"
+msgstr "tidskriftsvolym"
+
+#: src/main/extractor_metatypes.c:66
+msgid "volume of a journal or multi-volume book"
+msgstr "volym av en tidskrift eller bok i flera volymer"
+
+#: src/main/extractor_metatypes.c:68
+msgid "journal number"
+msgstr "tidskriftsnummer"
+
+#: src/main/extractor_metatypes.c:69
+msgid "number of a journal, magazine or tech-report"
+msgstr "nummer på en tidskrift, magasin eller teknisk rapport"
+
+#: src/main/extractor_metatypes.c:70
+msgid "page count"
+msgstr "sidantal"
+
+#: src/main/extractor_metatypes.c:71
+msgid "total number of pages of the work"
+msgstr "totalt antal sidor i verket"
+
+#: src/main/extractor_metatypes.c:72
+msgid "page range"
+msgstr "sidintervall"
+
+#: src/main/extractor_metatypes.c:73
+msgid "page numbers of the publication in the respective journal or book"
+msgstr "sidnummer för publikationen i respektive tidskrift eller bok"
+
+#: src/main/extractor_metatypes.c:74
+msgid "author name"
+msgstr "upphovspersonens namn"
+
+#: src/main/extractor_metatypes.c:75
+msgid "name of the author(s)"
+msgstr "upphovspersonens namn"
+
+#: src/main/extractor_metatypes.c:76
+msgid "author email"
+msgstr "upphovspersonens e-post"
+
+#: src/main/extractor_metatypes.c:77
+msgid "e-mail of the author(s)"
+msgstr "e-post till upphovspersoner"
+
+#: src/main/extractor_metatypes.c:79
+msgid "author institution"
+msgstr "upphovspersonens institution"
+
+#: src/main/extractor_metatypes.c:80
+msgid "institution the author worked for"
+msgstr "institution som upphovspersonen arbetade för"
+
+#: src/main/extractor_metatypes.c:81
+msgid "publisher"
+msgstr "utgivare"
+
+#: src/main/extractor_metatypes.c:82
+msgid "name of the publisher"
+msgstr "namn på utgivaren"
+
+#: src/main/extractor_metatypes.c:83
+msgid "publisher's address"
+msgstr "utgivarens adress"
+
+#: src/main/extractor_metatypes.c:84
+msgid "Address of the publisher (often only the city)"
+msgstr "Utgivarens adress (ofta endast stad)"
+
+#: src/main/extractor_metatypes.c:85
+msgid "publishing institution"
+msgstr "utgivande institution"
+
+#: src/main/extractor_metatypes.c:86
+msgid "institution that was involved in the publishing, but not necessarily the publisher"
+msgstr "institution som var involverad i utgivningen, men inte nödvändigtvis utgivaren"
+
+#: src/main/extractor_metatypes.c:87
+msgid "publication series"
+msgstr "publiceringsserie"
+
+#: src/main/extractor_metatypes.c:88
+msgid "series of books the book was published in"
+msgstr "bokserie som boken gavs ut i"
+
+#: src/main/extractor_metatypes.c:90
+msgid "publication type"
+msgstr "publiceringstyp"
+
+#: src/main/extractor_metatypes.c:91
+msgid "type of the tech-report"
+msgstr "typ av teknisk rapport"
+
+#: src/main/extractor_metatypes.c:92
+msgid "publication year"
+msgstr "publiceringsår"
+
+#: src/main/extractor_metatypes.c:93
+msgid "year of publication (or, if unpublished, the year of creation)"
+msgstr "år för publicering (eller, om den inte är publicerad, år för skapande)"
+
+#: src/main/extractor_metatypes.c:94
+msgid "publication month"
+msgstr "publiceringsmånad"
+
+#: src/main/extractor_metatypes.c:95
+msgid "month of publication (or, if unpublished, the month of creation)"
+msgstr "utgivningsmånad (eller, om den är opublicerad, skapandemånad)"
+
+#: src/main/extractor_metatypes.c:96
+msgid "publication day"
+msgstr "publiceringsdag"
+
+#: src/main/extractor_metatypes.c:97
+msgid "day of publication (or, if unpublished, the day of creation), relative to the given month"
+msgstr "publiceringsdag (eller, om den inte är publicerad, skapelsedag), i förhållande till den angivna månaden"
+
+#: src/main/extractor_metatypes.c:98
+msgid "publication date"
+msgstr "publiceringsdatum"
+
+#: src/main/extractor_metatypes.c:99
+msgid "date of publication (or, if unpublished, the date of creation)"
+msgstr "datum för publicering (eller, om den inte är publicerad, datum för skapande)"
+
+#: src/main/extractor_metatypes.c:101
+msgid "bibtex eprint"
+msgstr "bibtex eprint"
+
+#: src/main/extractor_metatypes.c:102
+msgid "specification of an electronic publication"
+msgstr "specifikation av en elektronisk publikation"
+
+#: src/main/extractor_metatypes.c:103
+msgid "bibtex entry type"
+msgstr "BibTeX-posttyp"
+
+#: src/main/extractor_metatypes.c:104
+msgid "type of the publication for bibTeX bibliographies"
+msgstr "typ av publikation för bibTeX-bibliografier"
+
+#: src/main/extractor_metatypes.c:105
+msgid "language"
+msgstr "språk"
+
+#: src/main/extractor_metatypes.c:106
+msgid "language the work uses"
+msgstr "språk som används i verket"
+
+#: src/main/extractor_metatypes.c:107
+msgid "creation time"
+msgstr "tidpunkt då filen skapades"
+
+#: src/main/extractor_metatypes.c:108
+msgid "time and date of creation"
+msgstr "tid och datum för skapandet"
+
+#: src/main/extractor_metatypes.c:109
+msgid "URL"
+msgstr "URL"
+
+#: src/main/extractor_metatypes.c:110
+msgid "universal resource location (where the work is made available)"
+msgstr "universell resursplats (där arbetet görs tillgängligt)"
+
+#: src/main/extractor_metatypes.c:112
+msgid "URI"
+msgstr "URI"
+
+#: src/main/extractor_metatypes.c:113
+msgid "universal resource identifier"
+msgstr "universell resursidentifierare"
+
+#: src/main/extractor_metatypes.c:114
+msgid "international standard recording code"
+msgstr "internationell standardkod för inspelning"
+
+#: src/main/extractor_metatypes.c:115
+msgid "ISRC number identifying the work"
+msgstr "ISRC-nummer som identifierar verket"
+
+#: src/main/extractor_metatypes.c:116
+msgid "MD4"
+msgstr "MD4"
+
+#: src/main/extractor_metatypes.c:117
+msgid "MD4 hash"
+msgstr "MD4-hash"
+
+#: src/main/extractor_metatypes.c:118
+msgid "MD5"
+msgstr "MD5"
+
+#: src/main/extractor_metatypes.c:119
+msgid "MD5 hash"
+msgstr "MD5-hash"
+
+#: src/main/extractor_metatypes.c:120
+msgid "SHA-0"
+msgstr "SHA-0"
+
+#: src/main/extractor_metatypes.c:121
+msgid "SHA-0 hash"
+msgstr "SHA-0-hash"
+
+#: src/main/extractor_metatypes.c:123
+msgid "SHA-1"
+msgstr "SHA-1"
+
+#: src/main/extractor_metatypes.c:124
+msgid "SHA-1 hash"
+msgstr "SHA-1-hash"
+
+#: src/main/extractor_metatypes.c:125
+msgid "RipeMD160"
+msgstr "RipeMD160"
+
+#: src/main/extractor_metatypes.c:126
+msgid "RipeMD150 hash"
+msgstr "RipeMD150-hash"
+
+#: src/main/extractor_metatypes.c:127 src/main/extractor_metatypes.c:128
+msgid "GPS latitude ref"
+msgstr "GPS-latitudreferens"
+
+#: src/main/extractor_metatypes.c:129 src/main/extractor_metatypes.c:130
+msgid "GPS latitude"
+msgstr "GPS-latitud"
+
+#: src/main/extractor_metatypes.c:131 src/main/extractor_metatypes.c:132
+msgid "GPS longitude ref"
+msgstr "GPS-longitudreferens"
+
+#: src/main/extractor_metatypes.c:134 src/main/extractor_metatypes.c:135
+msgid "GPS longitude"
+msgstr "GPS-longitud"
+
+#: src/main/extractor_metatypes.c:136
+msgid "city"
+msgstr "ort"
+
+#: src/main/extractor_metatypes.c:137
+msgid "name of the city where the document originated"
+msgstr "namnet på den stad där dokumentet har sitt ursprung"
+
+#: src/main/extractor_metatypes.c:138
+msgid "sublocation"
+msgstr "mer specifik platsangivelse"
+
+#: src/main/extractor_metatypes.c:139
+msgid "more specific location of the geographic origin"
+msgstr "mer specifik plats för det geografiska ursprunget"
+
+#: src/main/extractor_metatypes.c:140
+msgid "country"
+msgstr "land"
+
+#: src/main/extractor_metatypes.c:141
+msgid "name of the country where the document originated"
+msgstr "namnet på det land där dokumentet har sitt ursprung"
+
+#: src/main/extractor_metatypes.c:142
+msgid "country code"
+msgstr "landskod"
+
+#: src/main/extractor_metatypes.c:143
+msgid "ISO 2-letter country code for the country of origin"
+msgstr "ISO-landskod med 2 bokstäver för ursprungslandet"
+
+#: src/main/extractor_metatypes.c:146
+msgid "specifics are not known"
+msgstr "detaljerna är inte kända"
+
+#: src/main/extractor_metatypes.c:147 src/main/extractor_metatypes.c:148
+msgid "description"
+msgstr "beskrivning"
+
+#: src/main/extractor_metatypes.c:149
+msgid "copyright"
+msgstr "copyright"
+
+#: src/main/extractor_metatypes.c:150
+msgid "Name of the entity holding the copyright"
+msgstr "Namn på den enhet som innehar upphovsrätten"
+
+#: src/main/extractor_metatypes.c:151
+msgid "rights"
+msgstr "rättigheter"
+
+#: src/main/extractor_metatypes.c:152
+msgid "information about rights"
+msgstr "information om rättigheter"
+
+#: src/main/extractor_metatypes.c:153 src/main/extractor_metatypes.c:154
+msgid "keywords"
+msgstr "nyckelord"
+
+#: src/main/extractor_metatypes.c:156 src/main/extractor_metatypes.c:157
+msgid "abstract"
+msgstr "abstrakt"
+
+#: src/main/extractor_metatypes.c:158 src/main/extractor_metatypes.c:159
+msgid "summary"
+msgstr "sammanfattning"
+
+#: src/main/extractor_metatypes.c:160
+msgid "subject"
+msgstr "ämne"
+
+#: src/main/extractor_metatypes.c:161
+msgid "subject matter"
+msgstr "ämne"
+
+#: src/main/extractor_metatypes.c:162 src/main/extractor_metatypes.c:195
+msgid "creator"
+msgstr "upphovsperson"
+
+#: src/main/extractor_metatypes.c:163
+msgid "name of the person who created the document"
+msgstr "namn på den person som skapade dokumentet"
+
+#: src/main/extractor_metatypes.c:164
+msgid "format"
+msgstr "format"
+
+#: src/main/extractor_metatypes.c:165
+msgid "name of the document format"
+msgstr "namn på dokumentformatet"
+
+#: src/main/extractor_metatypes.c:167
+msgid "format version"
+msgstr "formatversion"
+
+#: src/main/extractor_metatypes.c:168
+msgid "version of the document format"
+msgstr "version av dokumentformatet"
+
+#: src/main/extractor_metatypes.c:169
+msgid "created by software"
+msgstr "skapad med programvaran"
+
+#: src/main/extractor_metatypes.c:170
+msgid "name of the software that created the document"
+msgstr "namnet på den programvara som skapade dokumentet"
+
+#: src/main/extractor_metatypes.c:171
+msgid "unknown date"
+msgstr "okänt datum"
+
+#: src/main/extractor_metatypes.c:172
+msgid "ambiguous date (could specify creation time, modification time or access time)"
+msgstr "tvetydigt datum (kan ange datum för skapande, ändring eller åtkomst)"
+
+#: src/main/extractor_metatypes.c:173
+msgid "creation date"
+msgstr "skapandedatum"
+
+#: src/main/extractor_metatypes.c:174
+msgid "date the document was created"
+msgstr "datum då dokumentet skapades"
+
+#: src/main/extractor_metatypes.c:175
+msgid "modification date"
+msgstr "ändringsdatum"
+
+#: src/main/extractor_metatypes.c:176
+msgid "date the document was modified"
+msgstr "datum då dokumentet ändrades"
+
+#: src/main/extractor_metatypes.c:178
+msgid "last printed"
+msgstr "senast utskriven"
+
+#: src/main/extractor_metatypes.c:179
+msgid "date the document was last printed"
+msgstr "datum då dokumentet senast skrevs ut"
+
+#: src/main/extractor_metatypes.c:180
+msgid "last saved by"
+msgstr "senast sparad av"
+
+#: src/main/extractor_metatypes.c:181
+msgid "name of the user who saved the document last"
+msgstr "namnet på den användare som sparade dokumentet senast"
+
+#: src/main/extractor_metatypes.c:182
+msgid "total editing time"
+msgstr "sammanlagd redigeringstid"
+
+#: src/main/extractor_metatypes.c:183
+msgid "time spent editing the document"
+msgstr "tid för redigering av dokumentet"
+
+#: src/main/extractor_metatypes.c:184
+msgid "editing cycles"
+msgstr "redigeringscykler"
+
+#: src/main/extractor_metatypes.c:185
+msgid "number of editing cycles"
+msgstr "antal redigeringscykler"
+
+#: src/main/extractor_metatypes.c:186
+msgid "modified by software"
+msgstr "ändrad med programvara"
+
+#: src/main/extractor_metatypes.c:187
+msgid "name of software making modifications"
+msgstr "namn på programvara som gör ändringar"
+
+#: src/main/extractor_metatypes.c:189
+msgid "revision history"
+msgstr "revisionshistorik"
+
+#: src/main/extractor_metatypes.c:190
+msgid "information about the revision history"
+msgstr "information om revisionshistoriken"
+
+#: src/main/extractor_metatypes.c:191
+msgid "embedded file size"
+msgstr "inbäddad filstorlek"
+
+#: src/main/extractor_metatypes.c:192
+msgid "size of the contents of the container as embedded in the file"
+msgstr "storlek på innehållet i behållaren, inbäddat i filen"
+
+#: src/main/extractor_metatypes.c:193
+msgid "file type"
+msgstr "filtyp"
+
+#: src/main/extractor_metatypes.c:194
+msgid "standard Macintosh Finder file type information"
+msgstr "standardinformation om filtyp för Macintosh Finder"
+
+#: src/main/extractor_metatypes.c:196
+msgid "standard Macintosh Finder file creator information"
+msgstr "standardinformation om filskapare för Macintosh Finder"
+
+#: src/main/extractor_metatypes.c:197
+msgid "package name"
+msgstr "paketets namn"
+
+#: src/main/extractor_metatypes.c:198
+msgid "unique identifier for the package"
+msgstr "unik identifierare för paketet"
+
+#: src/main/extractor_metatypes.c:200
+msgid "package version"
+msgstr "paketets version"
+
+#: src/main/extractor_metatypes.c:201
+msgid "version of the software and its package"
+msgstr "version av programvaran och dess paket"
+
+#: src/main/extractor_metatypes.c:202
+msgid "section"
+msgstr "sektion"
+
+#: src/main/extractor_metatypes.c:203
+msgid "category the software package belongs to"
+msgstr "kategori som programvarupaketet tillhör"
+
+#: src/main/extractor_metatypes.c:204
+msgid "upload priority"
+msgstr "uppladdningsprioritet"
+
+#: src/main/extractor_metatypes.c:205
+msgid "priority for promoting the release to production"
+msgstr "prioritet för att befordra utgåvan till produktion"
+
+#: src/main/extractor_metatypes.c:206
+msgid "dependencies"
+msgstr "beroenden"
+
+#: src/main/extractor_metatypes.c:207
+msgid "packages this package depends upon"
+msgstr "paket som detta paket är beroende av"
+
+#: src/main/extractor_metatypes.c:208
+msgid "conflicting packages"
+msgstr "motstridiga paket"
+
+#: src/main/extractor_metatypes.c:209
+msgid "packages that cannot be installed with this package"
+msgstr "paket som inte kan installeras med detta paket"
+
+#: src/main/extractor_metatypes.c:211
+msgid "replaced packages"
+msgstr "ersatta paket"
+
+#: src/main/extractor_metatypes.c:212
+msgid "packages made obsolete by this package"
+msgstr "paket som blir föråldrade genom detta paket"
+
+#: src/main/extractor_metatypes.c:213
+msgid "provides"
+msgstr "tillhandahåller"
+
+#: src/main/extractor_metatypes.c:214
+msgid "functionality provided by this package"
+msgstr "funktionalitet som tillhandahålls av detta paket"
+
+#: src/main/extractor_metatypes.c:215
+msgid "recommendations"
+msgstr "rekommendationer"
+
+#: src/main/extractor_metatypes.c:216
+msgid "packages recommended for installation in conjunction with this package"
+msgstr "paket som rekommenderas för installation tillsammans med detta paket"
+
+#: src/main/extractor_metatypes.c:217
+msgid "suggestions"
+msgstr "förslag"
+
+#: src/main/extractor_metatypes.c:218
+msgid "packages suggested for installation in conjunction with this package"
+msgstr "paket som föreslås för installation tillsammans med detta paket"
+
+#: src/main/extractor_metatypes.c:219
+msgid "maintainer"
+msgstr "underhållare"
+
+#: src/main/extractor_metatypes.c:220
+msgid "name of the maintainer"
+msgstr "namn på underhållsansvarig"
+
+#: src/main/extractor_metatypes.c:222
+msgid "installed size"
+msgstr "installerad storlek"
+
+#: src/main/extractor_metatypes.c:223
+msgid "space consumption after installation"
+msgstr "utrymmesförbrukning efter installation"
+
+#: src/main/extractor_metatypes.c:224 src/main/extractor_metatypes.c:304
+msgid "source"
+msgstr "källa"
+
+#: src/main/extractor_metatypes.c:225
+msgid "original source code"
+msgstr "ursprunglig källkod"
+
+#: src/main/extractor_metatypes.c:226
+msgid "is essential"
+msgstr "är nödvändig"
+
+#: src/main/extractor_metatypes.c:227
+msgid "package is marked as essential"
+msgstr "paketet är markerat som väsentligt"
+
+#: src/main/extractor_metatypes.c:228
+msgid "target architecture"
+msgstr "målarkitektur"
+
+#: src/main/extractor_metatypes.c:229
+msgid "hardware architecture the contents can be used for"
+msgstr "hårdvaruarkitektur som innehållet kan användas på"
+
+#: src/main/extractor_metatypes.c:230
+msgid "pre-dependency"
+msgstr "förberoende"
+
+#: src/main/extractor_metatypes.c:231
+msgid "dependency that must be satisfied before installation"
+msgstr "beroende som måste uppfyllas före installation"
+
+#: src/main/extractor_metatypes.c:233
+msgid "license"
+msgstr "licens"
+
+#: src/main/extractor_metatypes.c:234
+msgid "applicable copyright license"
+msgstr "tillämplig upphovsrättslicens"
+
+#: src/main/extractor_metatypes.c:235
+msgid "distribution"
+msgstr "distribution"
+
+#: src/main/extractor_metatypes.c:236
+msgid "distribution the package is a part of"
+msgstr "distribution som paketet ingår i"
+
+#: src/main/extractor_metatypes.c:237
+msgid "build host"
+msgstr "byggvärd"
+
+#: src/main/extractor_metatypes.c:238
+msgid "machine the package was build on"
+msgstr "maskin som paketet byggdes på"
+
+#: src/main/extractor_metatypes.c:239
+msgid "vendor"
+msgstr "tillverkare"
+
+#: src/main/extractor_metatypes.c:240
+msgid "name of the software vendor"
+msgstr "namn på programvaruleverantören"
+
+#: src/main/extractor_metatypes.c:241
+msgid "target operating system"
+msgstr "måloperativsystem"
+
+#: src/main/extractor_metatypes.c:242
+msgid "operating system for which this package was made"
+msgstr "operativsystem för vilket detta paket skapades"
+
+#: src/main/extractor_metatypes.c:244
+msgid "software version"
+msgstr "programvaruversion"
+
+#: src/main/extractor_metatypes.c:245
+msgid "version of the software contained in the file"
+msgstr "version av programvaran som finns i filen"
+
+#: src/main/extractor_metatypes.c:246
+msgid "target platform"
+msgstr "målplattform"
+
+#: src/main/extractor_metatypes.c:247
+msgid "name of the architecture, operating system and distribution this package is for"
+msgstr "namn på arkitektur, operativsystem och distribution som detta paket är avsett för"
+
+#: src/main/extractor_metatypes.c:248
+msgid "resource type"
+msgstr "resurstyp"
+
+#: src/main/extractor_metatypes.c:249
+msgid "categorization of the nature of the resource that is more specific than the file format"
+msgstr "kategorisering av resursens karaktär som är mer specifik än filformatet"
+
+#: src/main/extractor_metatypes.c:250
+msgid "library search path"
+msgstr "bibliotekets sökväg"
+
+#: src/main/extractor_metatypes.c:251
+msgid "path in the file system to be considered when looking for required libraries"
+msgstr "sökväg i filsystemet som ska beaktas när man letar efter nödvändiga bibliotek"
+
+#: src/main/extractor_metatypes.c:252
+msgid "library dependency"
+msgstr "biblioteksberoenden"
+
+#: src/main/extractor_metatypes.c:253
+msgid "name of a library that this file depends on"
+msgstr "namnet på ett bibliotek som den här filen är beroende av"
+
+#: src/main/extractor_metatypes.c:255 src/main/extractor_metatypes.c:256
+msgid "camera make"
+msgstr "kameratillverkare"
+
+#: src/main/extractor_metatypes.c:257 src/main/extractor_metatypes.c:258
+msgid "camera model"
+msgstr "kameramodell"
+
+#: src/main/extractor_metatypes.c:259 src/main/extractor_metatypes.c:260
+msgid "exposure"
+msgstr "exponering"
+
+#: src/main/extractor_metatypes.c:261 src/main/extractor_metatypes.c:262
+msgid "aperture"
+msgstr "bländare"
+
+# Kallas även för slutartid
+#: src/main/extractor_metatypes.c:263 src/main/extractor_metatypes.c:264
+msgid "exposure bias"
+msgstr "exponeringskompensation"
+
+#: src/main/extractor_metatypes.c:266 src/main/extractor_metatypes.c:267
+msgid "flash"
+msgstr "blixt"
+
+# Hjälp! Är detta rätt?
+#: src/main/extractor_metatypes.c:268 src/main/extractor_metatypes.c:269
+msgid "flash bias"
+msgstr "blixttidskompensation"
+
+#: src/main/extractor_metatypes.c:270 src/main/extractor_metatypes.c:271
+msgid "focal length"
+msgstr "brännvidd"
+
+#: src/main/extractor_metatypes.c:272 src/main/extractor_metatypes.c:273
+msgid "focal length 35mm"
+msgstr "brännvidd 35mm"
+
+#: src/main/extractor_metatypes.c:274 src/main/extractor_metatypes.c:275
+msgid "iso speed"
+msgstr "ISO-hastighet"
+
+#: src/main/extractor_metatypes.c:277 src/main/extractor_metatypes.c:278
+msgid "exposure mode"
+msgstr "exponeringsläge"
+
+#: src/main/extractor_metatypes.c:279 src/main/extractor_metatypes.c:280
+msgid "metering mode"
+msgstr "mätarläge"
+
+#: src/main/extractor_metatypes.c:281 src/main/extractor_metatypes.c:282
+msgid "macro mode"
+msgstr "makroläge"
+
+#: src/main/extractor_metatypes.c:283 src/main/extractor_metatypes.c:284
+msgid "image quality"
+msgstr "bildkvalitet"
+
+#: src/main/extractor_metatypes.c:285 src/main/extractor_metatypes.c:286
+msgid "white balance"
+msgstr "vitbalans"
+
+#: src/main/extractor_metatypes.c:288 src/main/extractor_metatypes.c:289
+msgid "orientation"
+msgstr "orientering"
+
+#: src/main/extractor_metatypes.c:290 src/main/extractor_metatypes.c:291
+msgid "magnification"
+msgstr "förstoring"
+
+#: src/main/extractor_metatypes.c:292
+msgid "image dimensions"
+msgstr "bilddimensioner"
+
+#: src/main/extractor_metatypes.c:293
+msgid "size of the image in pixels (width times height)"
+msgstr "bildens storlek i bildpunkter (bredd gånger höjd)"
+
+#: src/main/extractor_metatypes.c:294 src/main/extractor_metatypes.c:295
+msgid "produced by software"
+msgstr "skapad av programvara"
+
+#: src/main/extractor_metatypes.c:299
+msgid "thumbnail"
+msgstr "miniatyr"
+
+#: src/main/extractor_metatypes.c:300
+msgid "smaller version of the image for previewing"
+msgstr "mindre version av bilden för förhandsgranskning"
+
+#: src/main/extractor_metatypes.c:302
+msgid "image resolution"
+msgstr "bildupplösning"
+
+#: src/main/extractor_metatypes.c:303
+msgid "resolution in dots per inch"
+msgstr "upplösning i punkter per tum"
+
+#: src/main/extractor_metatypes.c:305
+msgid "Originating entity"
+msgstr "Ursprungsentitet"
+
+#: src/main/extractor_metatypes.c:306
+msgid "character set"
+msgstr "teckenuppsättning"
+
+#: src/main/extractor_metatypes.c:307
+msgid "character encoding used"
+msgstr "teckenkodning som används"
+
+#: src/main/extractor_metatypes.c:308
+msgid "line count"
+msgstr "radantal"
+
+#: src/main/extractor_metatypes.c:309
+msgid "number of lines"
+msgstr "antal rader"
+
+#: src/main/extractor_metatypes.c:310
+msgid "paragraph count"
+msgstr "antal stycken"
+
+#: src/main/extractor_metatypes.c:311
+msgid "number of paragraphs"
+msgstr "antal stycken"
+
+#: src/main/extractor_metatypes.c:313
+msgid "word count"
+msgstr "antal ord"
+
+#: src/main/extractor_metatypes.c:314
+msgid "number of words"
+msgstr "antal ord"
+
+#: src/main/extractor_metatypes.c:315
+msgid "character count"
+msgstr "teckenantal"
+
+#: src/main/extractor_metatypes.c:316
+msgid "number of characters"
+msgstr "antal tecken"
+
+#: src/main/extractor_metatypes.c:317 src/main/extractor_metatypes.c:318
+msgid "page orientation"
+msgstr "sidorientering"
+
+#: src/main/extractor_metatypes.c:319 src/main/extractor_metatypes.c:320
+msgid "paper size"
+msgstr "pappersstorlek"
+
+#: src/main/extractor_metatypes.c:321
+msgid "template"
+msgstr "mall"
+
+#: src/main/extractor_metatypes.c:322
+msgid "template the document uses or is based on"
+msgstr "mall som dokumentet använder eller är baserat på"
+
+#: src/main/extractor_metatypes.c:324 src/main/extractor_metatypes.c:325
+msgid "company"
+msgstr "företag"
+
+#: src/main/extractor_metatypes.c:326 src/main/extractor_metatypes.c:327
+msgid "manager"
+msgstr "ansvarig"
+
+#: src/main/extractor_metatypes.c:328 src/main/extractor_metatypes.c:329
+msgid "revision number"
+msgstr "revisionsnummer"
+
+# Detta rör sig om film och musik annars skulle det vara Varaktighet
+#: src/main/extractor_metatypes.c:330
+msgid "duration"
+msgstr "speltid"
+
+#: src/main/extractor_metatypes.c:331
+msgid "play time for the medium"
+msgstr "speltid för mediet"
+
+#: src/main/extractor_metatypes.c:332
+msgid "album"
+msgstr "album"
+
+#: src/main/extractor_metatypes.c:333
+msgid "name of the album"
+msgstr "namn på albumet"
+
+#: src/main/extractor_metatypes.c:335
+msgid "artist"
+msgstr "artist"
+
+#: src/main/extractor_metatypes.c:336
+msgid "name of the artist or band"
+msgstr "namn på artisten eller bandet"
+
+#: src/main/extractor_metatypes.c:337 src/main/extractor_metatypes.c:338
+msgid "genre"
+msgstr "genre"
+
+#: src/main/extractor_metatypes.c:339
+msgid "track number"
+msgstr "spårnummer"
+
+#: src/main/extractor_metatypes.c:340
+msgid "original number of the track on the distribution medium"
+msgstr "originalnummer för spåret på distributionsmediet"
+
+#: src/main/extractor_metatypes.c:341
+msgid "disk number"
+msgstr "skivnummer"
+
+#: src/main/extractor_metatypes.c:342
+msgid "number of the disk in a multi-disk (or volume) distribution"
+msgstr "diskens nummer i en distribution med flera diskar (eller volymer)"
+
+#: src/main/extractor_metatypes.c:343
+msgid "performer"
+msgstr "artist"
+
+#: src/main/extractor_metatypes.c:344
+msgid "The artist(s) who performed the work (conductor, orchestra, soloists, actor, etc.)"
+msgstr "Artister som framförde verket (dirigent, orkester, solister, skådespelare "
+"osv.)"
+
+#: src/main/extractor_metatypes.c:346
+msgid "contact"
+msgstr "kontakt"
+
+#: src/main/extractor_metatypes.c:347
+msgid "Contact information for the creator or distributor"
+msgstr "Kontaktuppgifter till upphovspersonen eller distributören"
+
+#: src/main/extractor_metatypes.c:348
+msgid "song version"
+msgstr "låtversion"
+
+#: src/main/extractor_metatypes.c:349
+msgid "name of the version of the song (i.e. remix information)"
+msgstr "namn på versionen av låten (dvs. remixinformation)"
+
+#: src/main/extractor_metatypes.c:350
+msgid "picture"
+msgstr "bild"
+
+#: src/main/extractor_metatypes.c:351
+msgid "associated misc. picture"
+msgstr "tillhörande diverse bild"
+
+#: src/main/extractor_metatypes.c:352
+msgid "cover picture"
+msgstr "omslagsbild"
+
+#: src/main/extractor_metatypes.c:353
+msgid "picture of the cover of the distribution medium"
+msgstr "bild av omslaget till distributionsmediet"
+
+#: src/main/extractor_metatypes.c:354
+msgid "contributor picture"
+msgstr "bidragsgivarens bild"
+
+#: src/main/extractor_metatypes.c:355
+msgid "picture of one of the contributors"
+msgstr "bild på en av bidragsgivarna"
+
+#: src/main/extractor_metatypes.c:357
+msgid "event picture"
+msgstr "händelsebild"
+
+#: src/main/extractor_metatypes.c:358
+msgid "picture of an associated event"
+msgstr "bild av en associerad händelse"
+
+#: src/main/extractor_metatypes.c:359
+msgid "logo"
+msgstr "logotyp"
+
+#: src/main/extractor_metatypes.c:360
+msgid "logo of an associated organization"
+msgstr "logotyp för en associerad organisation"
+
+#: src/main/extractor_metatypes.c:361
+msgid "broadcast television system"
+msgstr "tv-system för utsändning"
+
+#: src/main/extractor_metatypes.c:362
+msgid "name of the television system for which the data is coded"
+msgstr "namnet på det tv-system för vilket uppgifterna är kodade"
+
+#: src/main/extractor_metatypes.c:363
+msgid "source device"
+msgstr "källenhet"
+
+#: src/main/extractor_metatypes.c:364
+msgid "device used to create the object"
+msgstr "enhet som används för att skapa objektet"
+
+#: src/main/extractor_metatypes.c:365
+msgid "disclaimer"
+msgstr "ansvarsfriskrivning"
+
+#: src/main/extractor_metatypes.c:366
+msgid "legal disclaimer"
+msgstr "juridisk ansvarsfriskrivning"
+
+#: src/main/extractor_metatypes.c:368
+msgid "warning"
+msgstr "varning"
+
+#: src/main/extractor_metatypes.c:369
+msgid "warning about the nature of the content"
+msgstr "varning om innehållets karaktär"
+
+#: src/main/extractor_metatypes.c:370
+msgid "page order"
+msgstr "sidordning"
+
+#: src/main/extractor_metatypes.c:371
+msgid "order of the pages"
+msgstr "ordning på sidorna"
+
+#: src/main/extractor_metatypes.c:372
+msgid "writer"
+msgstr "författare"
+
+#: src/main/extractor_metatypes.c:373
+msgid "contributing writer"
+msgstr "bidragande skribent"
+
+#: src/main/extractor_metatypes.c:374 src/main/extractor_metatypes.c:375
+msgid "product version"
+msgstr "produktversion"
+
+#: src/main/extractor_metatypes.c:376
+msgid "contributor"
+msgstr "bidragsgivare"
+
+#: src/main/extractor_metatypes.c:377
+msgid "name of a contributor"
+msgstr "namn på en bidragsgivare"
+
+#: src/main/extractor_metatypes.c:379
+msgid "movie director"
+msgstr "filmregissör"
+
+#: src/main/extractor_metatypes.c:380
+msgid "name of the director"
+msgstr "namn på regissören"
+
+#: src/main/extractor_metatypes.c:381
+msgid "network"
+msgstr "nätverk"
+
+#: src/main/extractor_metatypes.c:382
+msgid "name of the broadcasting network or station"
+msgstr "namnet på utsändningsnätet eller stationen"
+
+#: src/main/extractor_metatypes.c:383
+msgid "show"
+msgstr "program"
+
+#: src/main/extractor_metatypes.c:384
+msgid "name of the show"
+msgstr "namn på programmet"
+
+#: src/main/extractor_metatypes.c:385
+msgid "chapter name"
+msgstr "kapitlets namn"
+
+#: src/main/extractor_metatypes.c:386
+msgid "name of the chapter"
+msgstr "kapitlets namn"
+
+#: src/main/extractor_metatypes.c:387
+msgid "song count"
+msgstr "låtantal"
+
+#: src/main/extractor_metatypes.c:388
+msgid "number of songs"
+msgstr "antal låtar"
+
+#: src/main/extractor_metatypes.c:390
+msgid "starting song"
+msgstr "startlåt"
+
+#: src/main/extractor_metatypes.c:391
+msgid "number of the first song to play"
+msgstr "numret på den första låten som ska spelas"
+
+#: src/main/extractor_metatypes.c:392
+msgid "play counter"
+msgstr "antal spelningar"
+
+#: src/main/extractor_metatypes.c:393
+msgid "number of times the media has been played"
+msgstr "antal gånger mediet har spelats upp"
+
+# Osäker!
+#: src/main/extractor_metatypes.c:394
+msgid "conductor"
+msgstr "dirigent"
+
+# Osäker!
+#: src/main/extractor_metatypes.c:395
+msgid "name of the conductor"
+msgstr "namn på dirigenten"
+
+#: src/main/extractor_metatypes.c:396
+msgid "interpretation"
+msgstr "tolkning"
+
+#: src/main/extractor_metatypes.c:397
+msgid "information about the people behind interpretations of an existing piece"
+msgstr "information om personerna bakom tolkningar av ett befintligt verk"
+
+#: src/main/extractor_metatypes.c:398
+msgid "composer"
+msgstr "kompositör"
+
+#: src/main/extractor_metatypes.c:399
+msgid "name of the composer"
+msgstr "namn på kompositören"
+
+#: src/main/extractor_metatypes.c:401 src/main/extractor_metatypes.c:402
+msgid "beats per minute"
+msgstr "slag per minut"
+
+#: src/main/extractor_metatypes.c:403
+msgid "encoded by"
+msgstr "kodad av"
+
+#: src/main/extractor_metatypes.c:404
+msgid "name of person or organization that encoded the file"
+msgstr "namn på den person eller organisation som kodade filen"
+
+#: src/main/extractor_metatypes.c:405
+msgid "original title"
+msgstr "originaltitel"
+
+#: src/main/extractor_metatypes.c:406
+msgid "title of the original work"
+msgstr "titel på det ursprungliga verket"
+
+#: src/main/extractor_metatypes.c:407
+msgid "original artist"
+msgstr "originalartist"
+
+#: src/main/extractor_metatypes.c:408
+msgid "name of the original artist"
+msgstr "namn på den ursprungliga artisten/konstnären"
+
+#: src/main/extractor_metatypes.c:409
+msgid "original writer"
+msgstr "originalförfattare"
+
+#: src/main/extractor_metatypes.c:410
+msgid "name of the original lyricist or writer"
+msgstr "namn på den ursprungliga textförfattaren eller skribenten"
+
+#: src/main/extractor_metatypes.c:412
+msgid "original release year"
+msgstr "ursprungligt utgivningsår"
+
+#: src/main/extractor_metatypes.c:413
+msgid "year of the original release"
+msgstr "år för originalutgåvan"
+
+#: src/main/extractor_metatypes.c:414
+msgid "original performer"
+msgstr "originalartist"
+
+#: src/main/extractor_metatypes.c:415
+msgid "name of the original performer"
+msgstr "den ursprungliga artistens namn"
+
+#: src/main/extractor_metatypes.c:416
+msgid "lyrics"
+msgstr "låttexter"
+
+#: src/main/extractor_metatypes.c:417
+msgid "lyrics of the song or text description of vocal activities"
+msgstr "låttext eller textbeskrivning av sångaktiviteter"
+
+#: src/main/extractor_metatypes.c:418
+msgid "popularity"
+msgstr "popularitet"
+
+#: src/main/extractor_metatypes.c:419
+msgid "information about the file's popularity"
+msgstr "information om filens popularitet"
+
+#: src/main/extractor_metatypes.c:420
+msgid "licensee"
+msgstr "licensinnehavare"
+
+#: src/main/extractor_metatypes.c:421
+msgid "name of the owner or licensee of the file"
+msgstr "namn på ägaren eller licensinnehavaren av filen"
+
+#: src/main/extractor_metatypes.c:423
+msgid "musician credit list"
+msgstr "medverkandelista för musiker"
+
+#: src/main/extractor_metatypes.c:424
+msgid "names of contributing musicians"
+msgstr "namn på medverkande musiker"
+
+#: src/main/extractor_metatypes.c:425
+msgid "mood"
+msgstr "sinnesstämning"
+
+#: src/main/extractor_metatypes.c:426
+msgid "keywords reflecting the mood of the piece"
+msgstr "nyckelord som återspeglar stämningen i stycket"
+
+#: src/main/extractor_metatypes.c:427
+msgid "subtitle"
+msgstr "undertext"
+
+#: src/main/extractor_metatypes.c:428
+msgid "subtitle of this part"
+msgstr "undertext till denna del"
+
+#: src/main/extractor_metatypes.c:429
+msgid "display type"
+msgstr "visningstyp"
+
+#: src/main/extractor_metatypes.c:430
+msgid "what rendering method should be used to display this item"
+msgstr "vilken renderingsmetod som ska användas för att visa detta objekt"
+
+#: src/main/extractor_metatypes.c:431
+msgid "full data"
+msgstr "fullständig data"
+
+#: src/main/extractor_metatypes.c:432
+msgid "entry that contains the full, original binary data (not really meta data)"
+msgstr "post som innehåller fullständiga, ursprungliga binära data (egentligen inte metadata)"
+
+#: src/main/extractor_metatypes.c:434
+msgid "rating"
+msgstr "betyg"
+
+#: src/main/extractor_metatypes.c:435
+msgid "rating of the content"
+msgstr "betygsättning av innehållet"
+
+#: src/main/extractor_metatypes.c:436 src/main/extractor_metatypes.c:437
+msgid "organization"
+msgstr "organisation"
+
+#: src/main/extractor_metatypes.c:438 src/main/extractor_metatypes.c:439
+msgid "ripper"
+msgstr "rippare"
+
+#: src/main/extractor_metatypes.c:440 src/main/extractor_metatypes.c:441
+msgid "producer"
+msgstr "producent"
+
+#: src/main/extractor_metatypes.c:442
+msgid "group"
+msgstr "grupp"
+
+#: src/main/extractor_metatypes.c:443
+msgid "name of the group or band"
+msgstr "namn på gruppen eller bandet"
+
+#: src/main/extractor_metatypes.c:445
+msgid "original filename"
+msgstr "originalfilnamn"
+
+#: src/main/extractor_metatypes.c:446
+msgid "name of the original file (reserved for GNUnet)"
+msgstr "namn på originalfilen (reserverat för GNUnet)"
+
+#: src/main/extractor_metatypes.c:447
+msgid "disc count"
+msgstr "antal skivor"
+
+#: src/main/extractor_metatypes.c:448
+msgid "count of discs inside collection this disc belongs to"
+msgstr "antal skivor i samlingen som denna skiva tillhör"
+
+#: src/main/extractor_metatypes.c:449
+msgid "codec"
+msgstr "kodek"
+
+#: src/main/extractor_metatypes.c:450
+msgid "codec the data is stored in"
+msgstr "kodek som data lagras i"
+
+#: src/main/extractor_metatypes.c:451
+msgid "video codec"
+msgstr "videokodek"
+
+#: src/main/extractor_metatypes.c:452
+msgid "codec the video data is stored in"
+msgstr "kodek som videodata lagras i"
+
+#: src/main/extractor_metatypes.c:453
+msgid "audio codec"
+msgstr "ljudkodek"
+
+#: src/main/extractor_metatypes.c:454
+msgid "codec the audio data is stored in"
+msgstr "kodek som ljuddata lagras i"
+
+#: src/main/extractor_metatypes.c:456
+msgid "subtitle codec"
+msgstr "kodek för undertexter"
+
+#: src/main/extractor_metatypes.c:457
+msgid "codec/format the subtitle data is stored in"
+msgstr "kodek/format som undertextdata lagras i"
+
+#: src/main/extractor_metatypes.c:458
+msgid "container format"
+msgstr "behållarformat"
+
+#: src/main/extractor_metatypes.c:459
+msgid "container format the data is stored in"
+msgstr "behållarformat som data lagras i"
+
+#: src/main/extractor_metatypes.c:460
+msgid "bitrate"
+msgstr "bitfrekvens"
+
+#: src/main/extractor_metatypes.c:461
+msgid "exact or average bitrate in bits/s"
+msgstr "exakt eller genomsnittlig bitfrekvens i bitar/s"
+
+#: src/main/extractor_metatypes.c:462
+msgid "nominal bitrate"
+msgstr "nominell bitfrekvens"
+
+#: src/main/extractor_metatypes.c:463
+msgid "nominal bitrate in bits/s. The actual bitrate might be different from this target bitrate."
+msgstr "nominell bitfrekvens i bitar/s. Den faktiska bitfrekvensen kan skilja sig från denna målbitfrekvens."
+
+#: src/main/extractor_metatypes.c:464
+msgid "minimum bitrate"
+msgstr "minsta bitfrekvens"
+
+#: src/main/extractor_metatypes.c:465
+msgid "minimum bitrate in bits/s"
+msgstr "minsta bitfrekvens i bitar/s"
+
+#: src/main/extractor_metatypes.c:467
+msgid "maximum bitrate"
+msgstr "maximal bitfrekvens"
+
+#: src/main/extractor_metatypes.c:468
+msgid "maximum bitrate in bits/s"
+msgstr "maximal bitfrekvens i bitar/s"
+
+#: src/main/extractor_metatypes.c:469
+msgid "serial"
+msgstr "serienummer"
+
+#: src/main/extractor_metatypes.c:470
+msgid "serial number of track"
+msgstr "spårets serienummer"
+
+#: src/main/extractor_metatypes.c:471
+msgid "encoder"
+msgstr "kodare"
+
+#: src/main/extractor_metatypes.c:472
+msgid "encoder used to encode this stream"
+msgstr "kodare som används för att koda denna ström"
+
+#: src/main/extractor_metatypes.c:473
+msgid "encoder version"
+msgstr "kodarversion"
+
+#: src/main/extractor_metatypes.c:474
+msgid "version of the encoder used to encode this stream"
+msgstr "version av den kodare som används för att koda denna ström"
+
+#: src/main/extractor_metatypes.c:475
+msgid "track gain"
+msgstr "spårförstärkning"
+
+#: src/main/extractor_metatypes.c:476
+msgid "track gain in db"
+msgstr "spårförstärkning i db"
+
+#: src/main/extractor_metatypes.c:478
+msgid "track peak"
+msgstr "spårtopp"
+
+#: src/main/extractor_metatypes.c:479
+msgid "peak of the track"
+msgstr "spårets toppnotering"
+
+#: src/main/extractor_metatypes.c:480
+msgid "album gain"
+msgstr "albumförstärkning"
+
+#: src/main/extractor_metatypes.c:481
+msgid "album gain in db"
+msgstr "albumförstärkning i db"
+
+#: src/main/extractor_metatypes.c:482
+msgid "album peak"
+msgstr "albumtopp"
+
+#: src/main/extractor_metatypes.c:483
+msgid "peak of the album"
+msgstr "albumets toppnotering"
+
+#: src/main/extractor_metatypes.c:484
+msgid "reference level"
+msgstr "referensnivå"
+
+#: src/main/extractor_metatypes.c:485
+msgid "reference level of track and album gain values"
+msgstr "referensnivå för spår- och albumförstärkningsvärden"
+
+#: src/main/extractor_metatypes.c:486
+msgid "location name"
+msgstr "platsens namn"
+
+#: src/main/extractor_metatypes.c:487
+msgid "human readable descriptive location of where the media has been recorded or produced"
+msgstr "mänskligt läsbar platsbeskrivning av var mediet har spelats in eller producerats"
+
+#: src/main/extractor_metatypes.c:489
+msgid "location elevation"
+msgstr "platsens höjd"
+
+#: src/main/extractor_metatypes.c:490
+msgid "geo elevation of where the media has been recorded or produced in meters according to WGS84 (zero is average sea level)"
+msgstr "geo-höjden för den plats där mediet har spelats in eller producerats i meter enligt WGS84 (noll är genomsnittlig havsnivå)"
+
+#: src/main/extractor_metatypes.c:491
+msgid "location horizontal error"
+msgstr "horisontellt positionsfel"
+
+#: src/main/extractor_metatypes.c:492
+msgid "represents the expected error on the horizontal positioning in meters"
+msgstr "representerar det förväntade felet på den horisontella positioneringen i meter"
+
+#: src/main/extractor_metatypes.c:493
+msgid "location movement speed"
+msgstr "platsens rörelsehastighet"
+
+#: src/main/extractor_metatypes.c:494
+msgid "speed of the capturing device when performing the capture. Represented in m/s"
+msgstr "hastighet för den registrerande enheten vid registreringen, angiven i m/s"
+
+#: src/main/extractor_metatypes.c:495
+msgid "location movement direction"
+msgstr "platsens rörelseriktning"
+
+#: src/main/extractor_metatypes.c:496
+msgid "indicates the movement direction of the device performing the capture of a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise"
+msgstr "anger rörelseriktningen för enheten som registrerar ett medieobjekt. Den "
+"anges som flyttalsgrader: 0 betyder geografiskt norr, och värdet ökar medurs"
+
+#: src/main/extractor_metatypes.c:497
+msgid "location capture direction"
+msgstr "platsens registreringsriktning"
+
+#: src/main/extractor_metatypes.c:498
+msgid "indicates the direction the device is pointing to when capturing a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise"
+msgstr "anger den riktning som enheten är riktad mot när den registrerar ett "
+"medieobjekt. Den anges som flyttalsgrader: 0 betyder geografiskt norr, och "
+"värdet ökar medurs"
+
+#: src/main/extractor_metatypes.c:500
+msgid "show episode number"
+msgstr "seriens avsnittsnummer"
+
+#: src/main/extractor_metatypes.c:501
+msgid "number of the episode within a season/show"
+msgstr "nummer på avsnittet inom en säsong/serie"
+
+#: src/main/extractor_metatypes.c:502
+msgid "show season number"
+msgstr "seriens säsongsnummer"
+
+#: src/main/extractor_metatypes.c:503
+msgid "number of the season of a show/series"
+msgstr "säsongsnummer för en serie/ett program"
+
+#: src/main/extractor_metatypes.c:504
+msgid "grouping"
+msgstr "gruppering"
+
+#: src/main/extractor_metatypes.c:505
+msgid "groups together media that are related and spans multiple tracks. An example are multiple pieces of a concerto"
+msgstr "grupperar relaterade medieobjekt som sträcker sig över flera spår. Ett "
+"exempel är flera delar av en konsert"
+
+#: src/main/extractor_metatypes.c:506
+msgid "device manufacturer"
+msgstr "enhetstillverkare"
+
+#: src/main/extractor_metatypes.c:507
+msgid "manufacturer of the device used to create the media"
+msgstr "tillverkare av den enhet som används för att skapa media"
+
+#: src/main/extractor_metatypes.c:508
+msgid "device model"
+msgstr "enhetsmodell"
+
+#: src/main/extractor_metatypes.c:509
+msgid "model of the device used to create the media"
+msgstr "modell av den enhet som används för att skapa media"
+
+#: src/main/extractor_metatypes.c:511
+msgid "audio language"
+msgstr "ljudspråk"
+
+#: src/main/extractor_metatypes.c:512
+msgid "language of the audio track"
+msgstr "språk för ljudspåret"
+
+#: src/main/extractor_metatypes.c:513
+msgid "channels"
+msgstr "kanaler"
+
+#: src/main/extractor_metatypes.c:514
+msgid "number of audio channels"
+msgstr "antal ljudkanaler"
+
+#: src/main/extractor_metatypes.c:515
+msgid "sample rate"
+msgstr "samplingsfrekvens"
+
+#: src/main/extractor_metatypes.c:516
+msgid "sample rate of the audio track"
+msgstr "samplingsfrekvens för ljudspåret"
+
+#: src/main/extractor_metatypes.c:517
+msgid "audio depth"
+msgstr "ljuddjup"
+
+#: src/main/extractor_metatypes.c:518
+msgid "number of bits per audio sample"
+msgstr "antal bitar per ljudsampling"
+
+#: src/main/extractor_metatypes.c:519
+msgid "audio bitrate"
+msgstr "ljudets bitfrekvens"
+
+#: src/main/extractor_metatypes.c:520
+msgid "bitrate of the audio track"
+msgstr "bitfrekvens för ljudspåret"
+
+#: src/main/extractor_metatypes.c:522 src/main/extractor_metatypes.c:523
+msgid "maximum audio bitrate"
+msgstr "maximal ljudbitfrekvens"
+
+#: src/main/extractor_metatypes.c:524
+msgid "video dimensions"
+msgstr "videodimensioner"
+
+#: src/main/extractor_metatypes.c:525
+msgid "width and height of the video track (WxH)"
+msgstr "bredd och höjd på videospåret (B×H)"
+
+#: src/main/extractor_metatypes.c:526
+msgid "video depth"
+msgstr "videodjup"
+
+#: src/main/extractor_metatypes.c:527
+msgid "numbers of bits per pixel"
+msgstr "antal bitar per bildpunkt"
+
+#: src/main/extractor_metatypes.c:528
+msgid "frame rate"
+msgstr "bildfrekvens"
+
+#: src/main/extractor_metatypes.c:529
+msgid "number of frames per second (as D/N or floating point)"
+msgstr "antal bildrutor per sekund (som D/N eller flyttal)"
+
+#: src/main/extractor_metatypes.c:530
+msgid "pixel aspect ratio"
+msgstr "bildpunktsförhållande"
+
+#: src/main/extractor_metatypes.c:531
+msgid "pixel aspect ratio (as D/N)"
+msgstr "bildpunktsförhållande (som D/N)"
+
+#: src/main/extractor_metatypes.c:533 src/main/extractor_metatypes.c:534
+msgid "video bitrate"
+msgstr "videobitfrekvens"
+
+#: src/main/extractor_metatypes.c:535 src/main/extractor_metatypes.c:536
+msgid "maximum video bitrate"
+msgstr "maximal videobitfrekvens"
+
+#: src/main/extractor_metatypes.c:537
+msgid "subtitle language"
+msgstr "undertextens språk"
+
+#: src/main/extractor_metatypes.c:538
+msgid "language of the subtitle track"
+msgstr "språk för undertextspåret"
+
+#: src/main/extractor_metatypes.c:539
+msgid "video language"
+msgstr "videospråk"
+
+#: src/main/extractor_metatypes.c:540
+msgid "language of the video track"
+msgstr "språk för videospåret"
+
+#: src/main/extractor_metatypes.c:541
+msgid "table of contents"
+msgstr "innehållsförteckning"
+
+#: src/main/extractor_metatypes.c:542
+msgid "chapters, contents or bookmarks (in xml format)"
+msgstr "kapitel, innehåll eller bokmärken (i XML-format)"
+
+# Detta rör sig om film och musik annars skulle det vara Varaktighet
+#: src/main/extractor_metatypes.c:544
+msgid "video duration"
+msgstr "videospeltid"
+
+#: src/main/extractor_metatypes.c:545
+msgid "duration of a video stream"
+msgstr "varaktighet för en videoström"
+
+# Detta rör sig om film och musik annars skulle det vara Varaktighet
+#: src/main/extractor_metatypes.c:546
+msgid "audio duration"
+msgstr "ljudets varaktighet"
+
+#: src/main/extractor_metatypes.c:547
+msgid "duration of an audio stream"
+msgstr "varaktighet för en ljudström"
+
+# Detta rör sig om film och musik annars skulle det vara Varaktighet
+#: src/main/extractor_metatypes.c:548
+msgid "subtitle duration"
+msgstr "undertextens varaktighet"
+
+#: src/main/extractor_metatypes.c:549
+msgid "duration of a subtitle stream"
+msgstr "varaktighet för en undertextström"
+
+#: src/main/extractor_metatypes.c:551
+msgid "audio preview"
+msgstr "förhandsgranskning av ljud"
+
+#: src/main/extractor_metatypes.c:552
+msgid "a preview of the file audio stream"
+msgstr "en förhandsgranskning av filens ljudström"
+
+#: src/main/extractor_metatypes.c:554
+msgid "narinfo"
+msgstr "narinfo"
+
+#: src/main/extractor_metatypes.c:555
+msgid "file containing information about contents of a normalized archive (nar)"
+msgstr "fil som innehåller information om innehållet i ett normaliserat arkiv (nar)"
+
+#: src/main/extractor_metatypes.c:557
+msgid "nar"
+msgstr "nar"
+
+#: src/main/extractor_metatypes.c:558
+msgid "normalized archive"
+msgstr "normaliserat arkiv"
+
+#: src/main/extractor_metatypes.c:560 src/main/extractor_metatypes.c:561
+msgid "last"
+msgstr "sista"
+
+#: src/main/getopt.c:684
+#, c-format
+msgid "%s: option `%s' is ambiguous\n"
+msgstr "%s: flaggan \"%s\" är tvetydig\n"
+
+#: src/main/getopt.c:709
+#, c-format
+msgid "%s: option `--%s' doesn't allow an argument\n"
+msgstr "%s: flaggan \"--%s\" tillåter inte ett argument\n"
+
+#: src/main/getopt.c:715
+#, c-format
+msgid "%s: option `%c%s' doesn't allow an argument\n"
+msgstr "%s: flaggan \"%c%s\" tillåter inte ett argument\n"
+
+#: src/main/getopt.c:732 src/main/getopt.c:903
+#, c-format
+msgid "%s: option `%s' requires an argument\n"
+msgstr "%s: flaggan \"%s\" kräver ett argument\n"
+
+#: src/main/getopt.c:761
+#, c-format
+msgid "%s: unrecognized option `--%s'\n"
+msgstr "%s: okänd flagga \"--%s\"\n"
+
+#: src/main/getopt.c:765
+#, c-format
+msgid "%s: unrecognized option `%c%s'\n"
+msgstr "%s: okänd flagga \"%c%s\"\n"
+
+#: src/main/getopt.c:791
+#, c-format
+msgid "%s: illegal option -- %c\n"
+msgstr "%s: ej tillåten flagga -- %c\n"
+
+#: src/main/getopt.c:793
+#, c-format
+msgid "%s: invalid option -- %c\n"
+msgstr "%s: ogiltig flagga -- %c\n"
+
+#: src/main/getopt.c:822 src/main/getopt.c:952
+#, c-format
+msgid "%s: option requires an argument -- %c\n"
+msgstr "%s: flaggan kräver ett argument -- %c\n"
+
+#: src/main/getopt.c:870
+#, c-format
+msgid "%s: option `-W %s' is ambiguous\n"
+msgstr "%s: flaggan \"-W %s\" är tvetydig\n"
+
+#: src/main/getopt.c:888
+#, c-format
+msgid "%s: option `-W %s' doesn't allow an argument\n"
+msgstr "%s: flaggan \"-W %s\" tillåter inte ett argument\n"
+
+#: src/plugins/flac_extractor.c:322
+#, c-format
+msgid "%u Hz, %u channels"
+msgstr "%u Hz, %u kanaler"
+
+#: src/plugins/man_extractor.c:215
+msgid "Commands"
+msgstr "Kommandon"
+
+#: src/plugins/man_extractor.c:219
+msgid "System calls"
+msgstr "Systemanrop"
+
+#: src/plugins/man_extractor.c:223
+msgid "Library calls"
+msgstr "Biblioteksanrop"
+
+#: src/plugins/man_extractor.c:227
+msgid "Special files"
+msgstr "Specialfiler"
+
+#: src/plugins/man_extractor.c:231
+msgid "File formats and conventions"
+msgstr "Filformat och konventioner"
+
+#: src/plugins/man_extractor.c:235
+msgid "Games"
+msgstr "Spel"
+
+#: src/plugins/man_extractor.c:239
+msgid "Conventions and miscellaneous"
+msgstr "Konventioner och övrigt"
+
+#: src/plugins/man_extractor.c:243
+msgid "System management commands"
+msgstr "Kommandon för systemhantering"
+
+#: src/plugins/man_extractor.c:247
+msgid "Kernel routines"
+msgstr "Kärnrutiner"
+
+# Hjälp! Rätt översättning?
+#: src/plugins/ole2_extractor.c:413
+msgid "No Proofing"
+msgstr "Ingen språkkontroll"
+
+#: src/plugins/ole2_extractor.c:421
+msgid "Traditional Chinese"
+msgstr "Traditionell kinesiska"
+
+#: src/plugins/ole2_extractor.c:423
+msgid "Simplified Chinese"
+msgstr "Förenklad kinesiska"
+
+#: src/plugins/ole2_extractor.c:431
+msgid "Swiss German"
+msgstr "Schweizisk tyska"
+
+#: src/plugins/ole2_extractor.c:435
+msgid "U.S. English"
+msgstr "Amerikansk engelska"
+
+#: src/plugins/ole2_extractor.c:437
+msgid "U.K. English"
+msgstr "Brittisk engelska"
+
+#: src/plugins/ole2_extractor.c:439
+msgid "Australian English"
+msgstr "Australisk engelska"
+
+#: src/plugins/ole2_extractor.c:441
+msgid "Castilian Spanish"
+msgstr "Kastiliansk spanska"
+
+#: src/plugins/ole2_extractor.c:443
+msgid "Mexican Spanish"
+msgstr "Mexikansk spanska"
+
+#: src/plugins/ole2_extractor.c:449
+msgid "Belgian French"
+msgstr "Belgisk franska"
+
+#: src/plugins/ole2_extractor.c:451
+msgid "Canadian French"
+msgstr "Kanadensisk franska"
+
+#: src/plugins/ole2_extractor.c:453
+msgid "Swiss French"
+msgstr "Schweizisk franska"
+
+#: src/plugins/ole2_extractor.c:463
+msgid "Swiss Italian"
+msgstr "Schweizisk italienska"
+
+#: src/plugins/ole2_extractor.c:471
+msgid "Belgian Dutch"
+msgstr "Belgisk nederländska"
+
+#: src/plugins/ole2_extractor.c:473
+msgid "Norwegian Bokmal"
+msgstr "Norska (bokmål)"
+
+#: src/plugins/ole2_extractor.c:483
+msgid "Rhaeto-Romanic"
+msgstr "Rätoromanska"
+
+#: src/plugins/ole2_extractor.c:489
+msgid "Croato-Serbian (Latin)"
+msgstr "Kroatoserbiska (latinsk)"
+
+#: src/plugins/ole2_extractor.c:491
+msgid "Serbo-Croatian (Cyrillic)"
+msgstr "Serbokroatiska (kyrillisk)"
+
+#: src/plugins/ole2_extractor.c:519
+msgid "Farsi"
+msgstr "Farsi"
+
+#: src/plugins/ole2_extractor.c:609
+#, c-format
+msgid "Revision #%u: Author `%s' worked on `%s'"
+msgstr "Revision nr %u: Upphovsperson ”%s” arbetade med ”%s”"
+
+#: src/plugins/riff_extractor.c:145
+#, c-format
+msgid "codec: %s, %u fps, %u ms"
+msgstr "kodek: %s, %u bilder/s, %u ms"
+
+#: src/plugins/wav_extractor.c:122
+msgid "mono"
+msgstr "mono"
+
+#: src/plugins/wav_extractor.c:122
+msgid "stereo"
+msgstr "stereo"
+
+#~ msgid "do not remove any duplicates"
+#~ msgstr "ta inte bort några dubbletter"
+
+#~ msgid "use the generic plaintext extractor for the language with the 2-letter language code LANG"
+#~ msgstr "använd den generiska klartextuppackaren för språket med 2-bokstavskoden i LANG"
+
+#~ msgid "remove duplicates only if types match"
+#~ msgstr "ta bort dubbletter endast om typen stämmer"
+
+#~ msgid "use the filename as a keyword (loads filename-extractor plugin)"
+#~ msgstr "använd filnamnet som ett nyckelord (läser in insticket filename-extractor)"
+
+#~ msgid "compute hash using the given ALGORITHM (currently sha1 or md5)"
+#~ msgstr "beräkna hash med angiven ALGORITM (för närvarande sha1 eller md5)"
+
+#~ msgid "remove duplicates even if keyword types do not match"
+#~ msgstr "ta bort dubbletter även om nyckelordstyp inte stämmer"
+
+#~ msgid "use keyword splitting (loads split-extractor plugin)"
+#~ msgstr "använd delning av nyckelord (läser in insticket split-extractor)"
+
+#~ msgid "INVALID TYPE - %s\n"
+#~ msgstr "OGILTIG TYP - %s\n"
+
+#~ msgid "date"
+#~ msgstr "datum"
+
+#~ msgid "relation"
+#~ msgstr "relation"
+
+#~ msgid "coverage"
+#~ msgstr "täckning"
+
+#~ msgid "translated"
+#~ msgstr "översatt"
+
+#~ msgid "used fonts"
+#~ msgstr "använda typsnitt"
+
+#~ msgid "created for"
+#~ msgstr "skapad för"
+
+#~ msgid "release"
+#~ msgstr "utgåva"
+
+#~ msgid "size"
+#~ msgstr "storlek"
+
+#~ msgid "category"
+#~ msgstr "kategori"
+
+#~ msgid "owner"
+#~ msgstr "ägare"
+
+# Förslag på bättre önskas
+#~ msgid "binary thumbnail data"
+#~ msgstr "binär miniatyrbilddata"
+
+#~ msgid "focal length (35mm equivalent)"
+#~ msgstr "brännvidd (35mm motsvarande)"
+
+# Hjälp! En grovgissning.
+#~ msgid "split"
+#~ msgstr "delning"
+
+#~ msgid "security"
+#~ msgstr "säkerhet"
+
+#~ msgid "lower case conversion"
+#~ msgstr "gemenkonvertering"
+
+#~ msgid "generator"
+#~ msgstr "skapare"
+
+#~ msgid "scale"
+#~ msgstr "skala"
+
+#~ msgid "year"
+#~ msgstr "år"
+
+#~ msgid "link"
+#~ msgstr "länk"
+
+#~ msgid "music CD identifier"
+#~ msgstr "Identifierare för musik-cd"
+
+#~ msgid "time"
+#~ msgstr "tid"
+
+#~ msgid "preferred display style (GNUnet)"
+#~ msgstr "föredragen visningsstil (GNUnet)"
+
+#~ msgid "GNUnet URI of ECBC data"
+#~ msgstr "GNUnet-URI för ECBC-data"
+
+#~ msgid "Resolving symbol `%s' in library `%s' failed, so I tried `%s', but that failed also.  Errors are: `%s' and `%s'.\n"
+#~ msgstr "Uppslag av symbol \"%s\" i bibliotek \"%s\" misslyckades så jag försökte med \"%s\" men det misslyckades också.  Felen är: \"%s\" och \"%s\".\n"
+
+#~ msgid "Unloading plugin `%s' failed!\n"
+#~ msgstr "Urläsning av instick \"%s\" misslyckades!\n"
+
+#~ msgid "GB"
+#~ msgstr "GB"
+
+#~ msgid "MB"
+#~ msgstr "MB"
+
+#~ msgid "KB"
+#~ msgstr "KB"
+
+#~ msgid "Bytes"
+#~ msgstr "Byte"
+
+#~ msgid "%ux%u dots per cm"
+#~ msgstr "%u×%u punkter per cm"
+
+#~ msgid "%ux%u dots per inch?"
+#~ msgstr "%u×%u punkter per tum?"
+
+#~ msgid "Blues"
+#~ msgstr "Blues"
+
+#~ msgid "Classic Rock"
+#~ msgstr "Klassisk rock"
+
+#~ msgid "Dance"
+#~ msgstr "Dans"
+
+#~ msgid "Disco"
+#~ msgstr "Disco"
+
+#~ msgid "Funk"
+#~ msgstr "Funk"
+
+#~ msgid "Grunge"
+#~ msgstr "Grunge"
+
+#~ msgid "Hip-Hop"
+#~ msgstr "Hip-Hop"
+
+#~ msgid "Jazz"
+#~ msgstr "Jazz"
+
+#~ msgid "Metal"
+#~ msgstr "Metal"
+
+#~ msgid "New Age"
+#~ msgstr "New Age"
+
+#~ msgid "Oldies"
+#~ msgstr "Gamla godingar"
+
+#~ msgid "Other"
+#~ msgstr "Övrigt"
+
+#~ msgid "Pop"
+#~ msgstr "Pop"
+
+#~ msgid "R&B"
+#~ msgstr "R&B"
+
+#~ msgid "Rap"
+#~ msgstr "Rap"
+
+#~ msgid "Reggae"
+#~ msgstr "Reggae"
+
+#~ msgid "Rock"
+#~ msgstr "Rock"
+
+#~ msgid "Techno"
+#~ msgstr "Techno"
+
+#~ msgid "Alternative"
+#~ msgstr "Alternativ"
+
+#~ msgid "Ska"
+#~ msgstr "Ska"
+
+#~ msgid "Death Metal"
+#~ msgstr "Death Metal"
+
+#~ msgid "Pranks"
+#~ msgstr "Skämt"
+
+#~ msgid "Soundtrack"
+#~ msgstr "Soundtrack"
+
+#~ msgid "Euro-Techno"
+#~ msgstr "Euro-Techno"
+
+#~ msgid "Ambient"
+#~ msgstr "Ambient"
+
+#~ msgid "Trip-Hop"
+#~ msgstr "Trip-Hop"
+
+#~ msgid "Vocal"
+#~ msgstr "Vocal"
+
+#~ msgid "Jazz+Funk"
+#~ msgstr "Jazz+Funk"
+
+#~ msgid "Fusion"
+#~ msgstr "Fusion"
+
+#~ msgid "Trance"
+#~ msgstr "Trance"
+
+#~ msgid "Classical"
+#~ msgstr "Klassisk"
+
+#~ msgid "Instrumental"
+#~ msgstr "Instrumental"
+
+#~ msgid "Acid"
+#~ msgstr "Acid"
+
+#~ msgid "House"
+#~ msgstr "House"
+
+#~ msgid "Game"
+#~ msgstr "Spel"
+
+#~ msgid "Sound Clip"
+#~ msgstr "Ljudklipp"
+
+#~ msgid "Gospel"
+#~ msgstr "Gospel"
+
+#~ msgid "Noise"
+#~ msgstr "Noise"
+
+#~ msgid "Alt. Rock"
+#~ msgstr "Alt. Rock"
+
+#~ msgid "Bass"
+#~ msgstr "Bas"
+
+#~ msgid "Soul"
+#~ msgstr "Soul"
+
+#~ msgid "Punk"
+#~ msgstr "Punk"
+
+#~ msgid "Space"
+#~ msgstr "Space"
+
+#~ msgid "Meditative"
+#~ msgstr "Meditativ"
+
+#~ msgid "Instrumental Pop"
+#~ msgstr "Instrumental Pop"
+
+#~ msgid "Instrumental Rock"
+#~ msgstr "Instrumental Rock"
+
+#~ msgid "Ethnic"
+#~ msgstr "Ethnic"
+
+#~ msgid "Gothic"
+#~ msgstr "Gothic"
+
+#~ msgid "Darkwave"
+#~ msgstr "Darkwave"
+
+#~ msgid "Techno-Industrial"
+#~ msgstr "Techno-Industrial"
+
+#~ msgid "Electronic"
+#~ msgstr "Elektronisk"
+
+#~ msgid "Pop-Folk"
+#~ msgstr "Pop-Folk"
+
+#~ msgid "Eurodance"
+#~ msgstr "Eurodance"
+
+#~ msgid "Dream"
+#~ msgstr "Dream"
+
+#~ msgid "Southern Rock"
+#~ msgstr "Southern Rock"
+
+#~ msgid "Comedy"
+#~ msgstr "Komedi"
+
+#~ msgid "Cult"
+#~ msgstr "Kult"
+
+#~ msgid "Gangsta Rap"
+#~ msgstr "Gangsta Rap"
+
+#~ msgid "Top 40"
+#~ msgstr "Topp 40"
+
+#~ msgid "Christian Rap"
+#~ msgstr "Kristen rap"
+
+#~ msgid "Pop/Funk"
+#~ msgstr "Pop/Funk"
+
+#~ msgid "Jungle"
+#~ msgstr "Jungle"
+
+#~ msgid "Native American"
+#~ msgstr "Native American"
+
+#~ msgid "Cabaret"
+#~ msgstr "Kabaret"
+
+#~ msgid "New Wave"
+#~ msgstr "New Wave"
+
+#~ msgid "Psychedelic"
+#~ msgstr "Psykadelisk"
+
+#~ msgid "Rave"
+#~ msgstr "Rave"
+
+#~ msgid "Showtunes"
+#~ msgstr "Showtunes"
+
+#~ msgid "Trailer"
+#~ msgstr "Trailer"
+
+#~ msgid "Lo-Fi"
+#~ msgstr "Lo-Fi"
+
+#~ msgid "Tribal"
+#~ msgstr "Tribal"
+
+#~ msgid "Acid Punk"
+#~ msgstr "Acid Punk"
+
+#~ msgid "Acid Jazz"
+#~ msgstr "Acid Jazz"
+
+#~ msgid "Polka"
+#~ msgstr "Polka"
+
+#~ msgid "Retro"
+#~ msgstr "Retro"
+
+#~ msgid "Musical"
+#~ msgstr "Musikal"
+
+#~ msgid "Rock & Roll"
+#~ msgstr "Rock & Roll"
+
+#~ msgid "Hard Rock"
+#~ msgstr "Hårdrock"
+
+#~ msgid "Folk"
+#~ msgstr "Folk"
+
+#~ msgid "Folk/Rock"
+#~ msgstr "Folk/Rock"
+
+#~ msgid "National Folk"
+#~ msgstr "National Folk"
+
+#~ msgid "Swing"
+#~ msgstr "Swing"
+
+#~ msgid "Fast-Fusion"
+#~ msgstr "Fast-Fusion"
+
+#~ msgid "Bebob"
+#~ msgstr "Bebob"
+
+#~ msgid "Revival"
+#~ msgstr "Revival"
+
+#~ msgid "Celtic"
+#~ msgstr "Keltisk"
+
+#~ msgid "Bluegrass"
+#~ msgstr "Bluegrass"
+
+#~ msgid "Avantgarde"
+#~ msgstr "Avantgarde"
+
+#~ msgid "Gothic Rock"
+#~ msgstr "Gothisk rock"
+
+#~ msgid "Progressive Rock"
+#~ msgstr "Progressiv rock"
+
+#~ msgid "Psychedelic Rock"
+#~ msgstr "Psykedelisk rock"
+
+#~ msgid "Symphonic Rock"
+#~ msgstr "Symfonisk rock"
+
+#~ msgid "Slow Rock"
+#~ msgstr "Långsam rock"
+
+#~ msgid "Big Band"
+#~ msgstr "Storband"
+
+#~ msgid "Chorus"
+#~ msgstr "Chorus"
+
+#~ msgid "Easy Listening"
+#~ msgstr "Lättsam lyssning"
+
+#~ msgid "Acoustic"
+#~ msgstr "Ackustisk"
+
+#~ msgid "Humour"
+#~ msgstr "Humor"
+
+#~ msgid "Speech"
+#~ msgstr "Tal"
+
+#~ msgid "Chanson"
+#~ msgstr "Chanson"
+
+#~ msgid "Opera"
+#~ msgstr "Opera"
+
+#~ msgid "Chamber Music"
+#~ msgstr "Kammarmusik"
+
+#~ msgid "Sonata"
+#~ msgstr "Sonata"
+
+#~ msgid "Symphony"
+#~ msgstr "Symfoni"
+
+#~ msgid "Booty Bass"
+#~ msgstr "Booty Bass"
+
+#~ msgid "Primus"
+#~ msgstr "Primus"
+
+#~ msgid "Porn Groove"
+#~ msgstr "Porn Groove"
+
+#~ msgid "Satire"
+#~ msgstr "Satir"
+
+#~ msgid "Slow Jam"
+#~ msgstr "Slow Jam"
+
+#~ msgid "Club"
+#~ msgstr "Club"
+
+#~ msgid "Tango"
+#~ msgstr "Tango"
+
+#~ msgid "Samba"
+#~ msgstr "Samba"
+
+#~ msgid "Folklore"
+#~ msgstr "Folklore"
+
+#~ msgid "Ballad"
+#~ msgstr "Ballad"
+
+#~ msgid "Power Ballad"
+#~ msgstr "Power Ballad"
+
+#~ msgid "Rhythmic Soul"
+#~ msgstr "Rhythmic Soul"
+
+#~ msgid "Freestyle"
+#~ msgstr "Freestyle"
+
+#~ msgid "Duet"
+#~ msgstr "Duet"
+
+#~ msgid "Punk Rock"
+#~ msgstr "Punk Rock"
+
+#~ msgid "Drum Solo"
+#~ msgstr "Trumsolo"
+
+#~ msgid "A Cappella"
+#~ msgstr "A cappella"
+
+#~ msgid "Euro-House"
+#~ msgstr "Euro-House"
+
+#~ msgid "Dance Hall"
+#~ msgstr "Dance Hall"
+
+#~ msgid "Goa"
+#~ msgstr "Goa"
+
+#~ msgid "Drum & Bass"
+#~ msgstr "Drum & Bass"
+
+#~ msgid "Club-House"
+#~ msgstr "Club-House"
+
+#~ msgid "Hardcore"
+#~ msgstr "Hardcore"
+
+#~ msgid "Terror"
+#~ msgstr "Terror"
+
+#~ msgid "Indie"
+#~ msgstr "Indie"
+
+#~ msgid "BritPop"
+#~ msgstr "BritPop"
+
+#~ msgid "Negerpunk"
+#~ msgstr "Negerpunk"
+
+#~ msgid "Polsk Punk"
+#~ msgstr "Polsk Punk"
+
+#~ msgid "Beat"
+#~ msgstr "Beat"
+
+#~ msgid "Christian Gangsta Rap"
+#~ msgstr "Christian Gangsta Rap"
+
+#~ msgid "Heavy Metal"
+#~ msgstr "Heavy Metal"
+
+#~ msgid "Black Metal"
+#~ msgstr "Black Metal"
+
+#~ msgid "Crossover"
+#~ msgstr "Crossover"
+
+#~ msgid "Contemporary Christian"
+#~ msgstr "Contemporary Christian"
+
+#~ msgid "Christian Rock"
+#~ msgstr "Kristen rock"
+
+#~ msgid "Merengue"
+#~ msgstr "Merengue"
+
+#~ msgid "Salsa"
+#~ msgstr "Salsa"
+
+#~ msgid "Thrash Metal"
+#~ msgstr "Thrash Metal"
+
+#~ msgid "Anime"
+#~ msgstr "Anime"
+
+#~ msgid "JPop"
+#~ msgstr "JPop"
+
+#~ msgid "Synthpop"
+#~ msgstr "Synthpop"
+
+#~ msgid "joint stereo"
+#~ msgstr "joint stereo"
+
+#~ msgid "MPEG-1"
+#~ msgstr "MPEG-1"
+
+#~ msgid "MPEG-2"
+#~ msgstr "MPEG-2"
+
+#~ msgid "MPEG-2.5"
+#~ msgstr "MPEG-2.5"
+
+#~ msgid "Layer I"
+#~ msgstr "Layer I"
+
+#~ msgid "Layer II"
+#~ msgstr "Layer II"
+
+#~ msgid "Layer III"
+#~ msgstr "Layer III"
+
+#~ msgid "VBR"
+#~ msgstr "VBR"
+
+#~ msgid "CBR"
+#~ msgstr "CBR"
+
+#~ msgid "no copyright"
+#~ msgstr "ingen copyright"
+
+#~ msgid "copy"
+#~ msgstr "kopia"
+
+#~ msgid ""
+#~ "Please provide the name of the language you are building\n"
+#~ "a dictionary for.  For example:\n"
+#~ msgstr ""
+#~ "Vänligen ange namnet på det språk du bygger en\n"
+#~ "ordbok för.  Till exempel:\n"
+
+#~ msgid "Error opening file `%s': %s\n"
+#~ msgstr "Fel vid öppning av fil \"%s\": %s\n"
+
+#~ msgid ""
+#~ "Error allocating: %s\n"
+#~ "."
+#~ msgstr ""
+#~ "Fel vid allokering: %s\n"
+#~ "."
+
+#~ msgid "Increase ALLOCSIZE (in %s).\n"
+#~ msgstr "Öka ALLOCSIZE (i %s).\n"
+
+#~ msgid "(variable bps)"
+#~ msgstr "(variabel bithastighet)"
+
+#~ msgid "Source RPM %d.%d"
+#~ msgstr "Källkods-RPM %d.%d"
+
+#~ msgid "Binary RPM %d.%d"
+#~ msgstr "Binär RPM %d.%d"
+
+#~ msgid "Please provide a list of klp files as arguments.\n"
+#~ msgstr "Vänligen ange en lista av klp-filer som argument.\n"
+
+#~ msgid "os"
+#~ msgstr "operativsystem"
