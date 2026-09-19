@@ -302,7 +302,7 @@ Samtliga **100** öppna GitHub-PR:er från `yeager` återlästes den 18 septembe
 | Langflow | [#14864](https://github.com/langflow-ai/langflow/pull/14864) | Öppen, `BLOCKED`, `REVIEW_REQUIRED`; exponerade kontroller passerar eller hoppas över. |
 | Dify | [#41555](https://github.com/langgenius/dify/pull/41555) | **Stängd**; ersätts inte automatiskt utan ny kontroll av uppströms språkflöde. |
 | LanguageTool | [#12159](https://github.com/languagetool-org/languagetool/pull/12159) | Öppen, `UNSTABLE`. Återläst 2026-09-17: inga kod- eller översättningsanmärkningar. Den enda röda signalen är CodeRabbits rådgivande felklassning av en berörd testmetod som saknar docstring; den är inte ett projektkrav och kräver ingen ändring i svensk compounds- eller testkod. |
-| Piper | [#1134](https://github.com/libratbag/piper/pull/1134) | Öppen, `UNSTABLE`. |
+| Piper | [#1134](https://github.com/libratbag/piper/pull/1134) | Öppen, granskningsanmärkning åtgärdad 2026-09-19. |
 | LibreNMS | [#20167](https://github.com/librenms/librenms/pull/20167) | Öppen, `BLOCKED`, `REVIEW_REQUIRED`; 16 exponerade kontroller passerar. |
 | Calibre-Web NextGen, ersatt | [#2171](https://github.com/new-usemame/Calibre-Web-NextGen/pull/2171) | Stängd. |
 | Calibre-Web NextGen | [#2212](https://github.com/new-usemame/Calibre-Web-NextGen/pull/2212) | Öppen, `DIRTY`, `REVIEW_REQUIRED`. |
