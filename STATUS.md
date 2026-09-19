@@ -1164,3 +1164,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **svlang (2026-09-19):** Verktyget rättades och publicerades i commit `8cc21d9`: kommandona för språkgranskning extraherar nu svenska `msgstr`/pluralmål från PO-filer i stället för att analysera engelska `msgid`, kommentarer och metadata som om de vore svenska. Nytt regressionsprov och hela CLI-testsviten passerar.
 
 | SuperTux – Menu, granskningspass 4 | Transifex | Fem kontextgranskade rättningar är validerade med `msgfmt`, l10n-lint (0 fel) och svlang; alla fem rättningar är publicerade i Transifex 2026-09-19: föråldrad funktionalitet, skärmbildsförhandsvisningar, borttagningsvarning, jämn kamerarörelse och GPL-garantitext. Säkerhetskopia: `SuperTux/menu-sv-review-pass4-20260919.po`. | 2026-09-19 |
+
+**svlang (2026-09-19, naturlighetskontroll):** En andra PO-fix är publicerad i commit `5c54d9e`: varje målsträng får en explicit meningsgräns före naturlighetsanalys, så fristående UI-etiketter inte klumpas ihop till konstgjorda långmeningar. Hela testsviten passerar: 85 tester.
