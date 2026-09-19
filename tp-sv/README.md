@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 67 156 aktiva poster i de 74 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 16 803 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 68 621 aktiva poster i de 75 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 17 361 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -85,6 +85,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#ea9999"><td>kbd</td><td>2.10-rc1</td><td align="right">386</td><td align="right">152</td><td align="right">39.38 %</td><td><a href="kbd-2.10-rc1.sv.po">PO</a></td><td><a href="diff/kbd-2.10-rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/kbd-2.10-rc1.sv.po">Original</a></td></tr>
 <tr bgcolor="#f4cccc"><td>klavaro</td><td>3.12</td><td align="right">231</td><td align="right">59</td><td align="right">25.54 %</td><td><a href="klavaro-3.12.sv.po">PO</a></td><td><a href="diff/klavaro-3.12.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/klavaro-3.12.sv.po">Original</a></td></tr>
 <tr bgcolor="#fff2cc"><td>ld</td><td>2.46.90</td><td align="right">1230</td><td align="right">239</td><td align="right">19.43 %</td><td><a href="ld-2.46.90.sv.po">PO</a></td><td><a href="diff/ld-2.46.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/ld-2.46.90.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>libc</td><td>2.43.9000</td><td align="right">1465</td><td align="right">558</td><td align="right">38.09 %</td><td><a href="libc-2.43.9000.sv.po">PO</a></td><td><a href="diff/libc-2.43.9000.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/libc-2.43.9000.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
