@@ -1129,3 +1129,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **3D Slicer – CTK, batch 13 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **455/1 077**. Batchen omfattar DICOM-serverprofiler, AE-titlar, verifiering, hämtningsprotokoll/proxy, körstatus, anonymiserade undersökningar samt serieladdning. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
 
 **3D Slicer – CTK, batch 14 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **490/1 077**. Batchen omfattar DICOM-tabellernas patient-, undersöknings- och seriemetadata, bland annat remitterande/utförande läkare, modalitet, kontrastmedel, bildtagning och skanningssekvens. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
+
+**3D Slicer – CTK, batch 15 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **525/1 077**. Batchen omfattar visuell DICOM-bläddring, filtrering på patient, undersökning, serie, modalitet och datum samt den detaljerade fråge-/hämtningslogiken mot DICOM-servrar. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
