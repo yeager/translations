@@ -2,7 +2,7 @@
 
 Granskning 2026-09-18: samtliga 87 633 aktiva poster i de 100 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 22 772 rättade poster. Hela TP-granskningen pågår fortfarande.
 
-Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.0 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
+Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.1 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
 PO-filernas befintliga uppdelning på fysiska rader bevaras för oförändrade textdelar. Ren PO-omformatering räknas inte som en rättad post.
 
@@ -121,3 +121,4 @@ patch --fuzz=0 -p1 < diff/clisp-2.49.60.sv.po.diff
 
 Exakta källadresser, hämtningstidpunkter och SHA-256-kontrollsummor finns i [review-manifest.json](review-manifest.json).
 
+De tidigare befintliga util-linux-filerna omfattas inte av denna granskningsomgång.
