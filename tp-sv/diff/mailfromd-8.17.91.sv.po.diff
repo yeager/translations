@@ -1,0 +1,2914 @@
+--- a/mailfromd-8.17.91.sv.po
++++ b/mailfromd-8.17.91.sv.po
+@@ -31,7 +31,7 @@
+ #: gacopyz/gacopyz.c:42
+ #, c-format
+ msgid "smfi_register: %s: version mismatch; application %d != implementation %d"
+-msgstr "smfi_register: %s: version mismatch; applikation %d != implementering %d"
++msgstr "smfi_register: %s: versionskonflikt; program %d != implementering %d"
+ 
+ #: gacopyz/gacopyz.c:203 gacopyz/gacopyz.c:272
+ #, c-format
+@@ -46,17 +46,17 @@
+ #: gacopyz/gacopyz.c:238
+ #, c-format
+ msgid "%s: %s: UNIX socket name too long"
+-msgstr "%s: %s: UNIX-uttagsnamn för långt"
++msgstr "%s: %s: UNIX-socketnamnet är för långt"
+ 
+ #: gacopyz/gacopyz.c:254
+ #, c-format
+ msgid "%s: %s: cannot stat socket: %s"
+-msgstr "%s: %s: kan inte stat socket: %s"
++msgstr "%s: %s: kan inte hämta status för socketen: %s"
+ 
+ #: gacopyz/gacopyz.c:264
+ #, c-format
+ msgid "%s: %s: not a socket"
+-msgstr "%s: %s: inte ett uttag"
++msgstr "%s: %s: inte en socket"
+ 
+ #: gacopyz/gacopyz.c:290
+ #, c-format
+@@ -114,7 +114,7 @@
+ #: gacopyz/gacopyz.c:425
+ #, c-format
+ msgid "%s: unable to create new socket: %s"
+-msgstr "%s: Det går inte att skapa ett nytt uttag: %s"
++msgstr "%s: det går inte att skapa en ny socket: %s"
+ 
+ #: gacopyz/gacopyz.c:434
+ #, c-format
+@@ -124,12 +124,12 @@
+ #: gacopyz/gacopyz.c:445
+ #, c-format
+ msgid "%s: set reuseaddr failed (%s)"
+-msgstr "%s: Set reuseaddr misslyckades (%s)"
++msgstr "%s: reuseaddr misslyckades (%s)"
+ 
+ #: gacopyz/gacopyz.c:457
+ #, c-format
+ msgid "%s: cannot bind to port %s: %s"
+-msgstr "%s: kan inte binda till port %s: %s"
++msgstr "%s: kan inte binda porten %s: %s"
+ 
+ #: gacopyz/gacopyz.c:467
+ #, c-format
+@@ -138,22 +138,22 @@
+ 
+ #: gacopyz/gacopyz.c:487
+ msgid "empty or missing socket information"
+-msgstr "tom eller saknad information om uttag"
++msgstr "tom eller saknad socketinformation"
+ 
+ #: gacopyz/gacopyz.c:494
+ #, c-format
+ msgid "%s: opening listen socket on %s"
+-msgstr "%s: öppnar lyssningsuttag på %s"
++msgstr "%s: öppnar lyssningssocket på %s"
+ 
+ #: gacopyz/gacopyz.c:650 gacopyz/gacopyz.c:718 gacopyz/io.c:41 gacopyz/io.c:115
+ #, c-format
+ msgid "%s: connection timed out"
+-msgstr "%s: anslutningen tidsbegränsades"
++msgstr "%s: anslutningens tidsgräns överskreds"
+ 
+ #: gacopyz/gacopyz.c:664 gacopyz/gacopyz.c:732 gacopyz/io.c:55 gacopyz/io.c:129
+ #, c-format
+ msgid "%s: exception on control fd"
+-msgstr "%s: undantag på kontroll fd"
++msgstr "%s: undantag för kontrollfilbeskrivaren"
+ 
+ #: gacopyz/gacopyz.c:676 gacopyz/io.c:67
+ #, c-format
+@@ -163,7 +163,7 @@
+ #: gacopyz/gacopyz.c:684 gacopyz/io.c:75
+ #, c-format
+ msgid "%s: end of file"
+-msgstr "%s: slutet av filen"
++msgstr "%s: filslut"
+ 
+ #: gacopyz/gacopyz.c:744 gacopyz/io.c:141
+ #, c-format
+@@ -178,11 +178,11 @@
+ #: gacopyz/gacopyz.c:799 gacopyz/io.c:216
+ #, c-format
+ msgid "read header: size=%lu, cmd=%c"
+-msgstr "läs header: storlek=%lu, cmd=%c"
++msgstr "läser huvud: storlek=%lu, cmd=%c"
+ 
+ #: gacopyz/gacopyz.c:807 gacopyz/gacopyz.c:809 gacopyz/io.c:223
+ msgid "read data"
+-msgstr "läsa data"
++msgstr "läser data"
+ 
+ #: gacopyz/gacopyz.c:907
+ #, c-format
+@@ -191,7 +191,7 @@
+ 
+ #: gacopyz/gacopyz.c:1149
+ msgid "path too long"
+-msgstr "vägen för lång"
++msgstr "sökvägen är för lång"
+ 
+ #: gacopyz/gacopyz.c:1162
+ #, c-format
+@@ -206,7 +206,7 @@
+ #: gacopyz/gacopyz.c:1328
+ #, c-format
+ msgid "protocol version too old: %lu"
+-msgstr "protokollversionen för gammal: %lu"
++msgstr "protokollversionen är för gammal: %lu"
+ 
+ #: gacopyz/gacopyz.c:1377
+ #, c-format
+@@ -236,7 +236,7 @@
+ #: gacopyz/gacopyz.c:1631
+ #, c-format
+ msgid "ignoring milter command: \\%03o"
+-msgstr "ignorerar Milters order: \\%03o"
++msgstr "ignorerar Milter-kommandot: \\%03o"
+ 
+ #: gacopyz/gacopyz.c:1633 gacopyz/gacopyz.c:1711 gacopyz/gacopyz.c:1761
+ msgid "buffer"
+@@ -273,17 +273,17 @@
+ #: gacopyz/gacopyz.c:1793
+ #, c-format
+ msgid "%s handler returned failure"
+-msgstr "%s handläggaren returnerade fel"
++msgstr "%s-hanteraren returnerade fel"
+ 
+ #: gacopyz/gacopyz.c:1800
+ #, c-format
+ msgid "%s handler returned abort"
+-msgstr "%s handläggaren returnerade abort"
++msgstr "%s-hanteraren returnerade avbrott"
+ 
+ #: gacopyz/gacopyz.c:1811
+ #, c-format
+ msgid "end of context loop: %d"
+-msgstr "slutet av kontextloopen: %d"
++msgstr "slut på kontextloopen: %d"
+ 
+ #: gacopyz/gacopyz.c:1843
+ #, c-format
+@@ -302,7 +302,7 @@
+ #: gacopyz/gacopyz.c:1891
+ #, c-format
+ msgid "connect from socket %s"
+-msgstr "anslut från socket %s"
++msgstr "anslutning från socketen %s"
+ 
+ #: gacopyz/gacopyz.c:1898
+ #, c-format
+@@ -316,41 +316,41 @@
+ 
+ #: gacopyz/gacopyz.c:1914
+ msgid "finishing connection"
+-msgstr "avslutande anslutning"
++msgstr "avslutar anslutningen"
+ 
+ #: gacopyz/proc.c:64
+ #, c-format
+ msgid "child %lu exited successfully"
+-msgstr "barn %lu avslutades framgångsrikt"
++msgstr "den underordnade processen %lu avslutades utan fel"
+ 
+ #: gacopyz/proc.c:69
+ #, c-format
+ msgid "child %lu failed with status %d"
+-msgstr "barn %lu misslyckades med status %d"
++msgstr "den underordnade processen %lu misslyckades med status %d"
+ 
+ #: gacopyz/proc.c:81
+ #, c-format
+ msgid "child %lu terminated on signal %d"
+-msgstr "barn %lu avslutat på signal %d"
++msgstr "den underordnade processen %lu avslutades av signal %d"
+ 
+ #: gacopyz/proc.c:86
+ #, c-format
+ msgid "child %lu stopped on signal %d"
+-msgstr "barn %lu stoppas vid signal %d"
++msgstr "den underordnade processen %lu stoppades av signal %d"
+ 
+ #: gacopyz/proc.c:93
+ #, c-format
+ msgid "child %lu dumped core"
+-msgstr "barn %lu dumpade kärnan"
++msgstr "den underordnade processen %lu dumpade en kärndump"
+ 
+ #: gacopyz/proc.c:99
+ #, c-format
+ msgid "child %lu terminated with unrecognized status"
+-msgstr "barn %lu avslutat med okänd status"
++msgstr "den underordnade processen %lu avslutades med okänd status"
+ 
+ #: gacopyz/proc.c:131
+ msgid "terminating subprocesses"
+-msgstr "avsluta delprocesser"
++msgstr "avslutar underprocesser"
+ 
+ #: gacopyz/server.c:64
+ #, c-format
+@@ -365,7 +365,7 @@
+ #: gacopyz/server.c:433
+ #, c-format
+ msgid "%s: not a valid X spec, missing = near %s"
+-msgstr "%s: inte en giltig X-specifikation, saknas = nära %s"
++msgstr "%s: inte en giltig X-specifikation, saknar = nära %s"
+ 
+ #: gacopyz/server.c:444 gacopyz/server.c:456 gacopyz/server.c:493
+ #, c-format
+@@ -405,7 +405,7 @@
+ #: gacopyz/server.c:792 src/builtin/io.bi:780
+ #, c-format
+ msgid "%s: cannot stat socket: %s"
+-msgstr "%s: kan inte stat socket: %s"
++msgstr "%s: kan inte hämta status för socketen: %s"
+ 
+ #: gacopyz/server.c:799 src/builtin/io.bi:786
+ #, c-format
+@@ -450,7 +450,7 @@
+ #: gacopyz/server.c:951
+ #, c-format
+ msgid "cannot bind to local address: %s"
+-msgstr "kan inte binda till lokal adress: %s"
++msgstr "kan inte binda till den lokala adressen: %s"
+ 
+ #: gacopyz/server.c:984 src/builtin/io.bi:915
+ #, c-format
+@@ -478,7 +478,7 @@
+ #: gacopyz/server.c:1104
+ #, c-format
+ msgid "macros for stage \"%s\" (%d): %s"
+-msgstr "makron för scenen \"%s\" (%d): %s"
++msgstr "makron för steget ”%s” (%d): %s"
+ 
+ #: gacopyz/server.c:1124
+ #, c-format
+@@ -488,7 +488,7 @@
+ #: gacopyz/server.c:1130
+ #, c-format
+ msgid "%s: server already passed negotiation"
+-msgstr "%s: servern har redan klarat förhandlingen"
++msgstr "%s: servern har redan genomgått förhandlingen"
+ 
+ #: gacopyz/server.c:1144
+ #, c-format
+@@ -512,12 +512,13 @@
+ #: gacopyz/server.c:1177
+ #, c-format
+ msgid "filter abilities %#lx do not match MTA milter abilities %#lx"
+-msgstr "filterförmågan %#lx matchar inte MTA:s filterförmågor %#lx"
++msgstr "filterfunktionerna %#lx stämmer inte överens med MTA:s milterfunktioner %#lx"
+ 
+ #: gacopyz/server.c:1186
+ #, c-format
+ msgid "protocol abilities %#lx do not match MTA milter abilities %#lx"
+-msgstr "protokollets förmågor %#lx stämmer inte överens med MTA:s miltärförmågor %#lx"
++msgstr "protokollfunktionerna %#lx stämmer inte överens med MTA:s milterfunktioner "
++"%#lx"
+ 
+ #: gacopyz/server.c:1285
+ #, c-format
+@@ -536,7 +537,7 @@
+ 
+ #: gacopyz/smfi.c:107
+ msgid "connection not initialized"
+-msgstr "anslutningen inte initierad"
++msgstr "anslutningen är inte initierad"
+ 
+ #: lib/cache.c:112 lib/db.c:323
+ #, c-format
+@@ -551,7 +552,7 @@
+ #: lib/cache.c:166 lib/tbf_rate.c:184
+ #, c-format
+ msgid "cannot store datum `%s' into `%s': %s"
+-msgstr "kan inte lagra datum `%s' i `%s': %s"
++msgstr "kan inte lagra data ”%s” i ”%s”: %s"
+ 
+ #: lib/db.c:115 lib/db.c:450
+ #, c-format
+@@ -561,7 +562,7 @@
+ #: lib/db.c:122 src/builtin/db.bi:192
+ #, c-format
+ msgid "%s fails safety check: %s"
+-msgstr "%s misslyckas med säkerhetskontrollen: %s"
++msgstr "%s uppfyller inte säkerhetskontrollen: %s"
+ 
+ #: lib/db.c:130
+ #, c-format
+@@ -576,7 +577,7 @@
+ #: lib/db.c:200
+ #, c-format
+ msgid "unexpected error scanning database %s: %s"
+-msgstr "oväntat fel vid skanning av databas %s: %s"
++msgstr "oväntat fel vid genomsökning av databasen %s: %s"
+ 
+ #: lib/db.c:293
+ #, c-format
+@@ -592,12 +593,12 @@
+ #: lib/db.c:388 lib/rate.c:132
+ #, c-format
+ msgid "cannot insert datum `%s' into `%s': %s"
+-msgstr "kan inte infoga datum `%s' i `%s': %s"
++msgstr "kan inte infoga data ”%s” i ”%s”: %s"
+ 
+ #: lib/db.c:397
+ #, c-format
+ msgid "cannot insert datum `%*.*s' into `%s': %s"
+-msgstr "kan inte infoga datum `%*.*s' i `%s': %s"
++msgstr "kan inte infoga data ”%*.*s” i ”%s”: %s"
+ 
+ #: lib/db.c:458
+ #, c-format
+@@ -611,11 +612,11 @@
+ 
+ #: lib/dbcfg.c:47
+ msgid "positive-expire-interval is valid only for cache database"
+-msgstr "positive-expire-interval gäller endast för cache-databasen"
++msgstr "positive-expire-interval gäller endast för cachedatabasen"
+ 
+ #: lib/dbcfg.c:68
+ msgid "negative-expire-interval is valid only for cache database"
+-msgstr "negativ-expire-interval gäller endast för cache-databas"
++msgstr "negative-expire-interval gäller endast för cachedatabasen"
+ 
+ #: lib/dbcfg.c:86
+ msgid "Name of the database file"
+@@ -631,7 +632,7 @@
+ 
+ #: lib/dbcfg.c:92
+ msgid "Set database record expiration interval"
+-msgstr "Ange utgångsintervall för databasposter"
++msgstr "Ange hur länge databasposter ska sparas"
+ 
+ #: lib/dbcfg.c:93 lib/dbcfg.c:97 lib/dbcfg.c:102 pmult/pmult.c:425
+ #: pmult/pmult.c:428 pmult/pmult.c:431 pmult/pmult.c:434
+@@ -640,11 +641,11 @@
+ 
+ #: lib/dbcfg.c:96
+ msgid "Set positive expiration interval (for database \"cache\" only)"
+-msgstr "Ange positivt utgångsintervall (endast för databasens \"cache\")"
++msgstr "Ange ett positivt utgångsintervall (endast för databasen ”cache”)"
+ 
+ #: lib/dbcfg.c:100
+ msgid "Set negative expiration interval (for database id \"cache\")"
+-msgstr "Ange negativt utgångsintervall (för databas-ID \"cache\")"
++msgstr "Ange ett negativt utgångsintervall (för databas-id:t ”cache”)"
+ 
+ #: lib/dbcfg.c:121 src/mfdbtool.c:200
+ #, c-format
+@@ -691,7 +692,8 @@
+ #: lib/logger.c:68
+ #, c-format
+ msgid "cannot configure asynchronous syslog: %s; falling back to system one"
+-msgstr "kan inte konfigurera asynkron syslog: %s; faller tillbaka till system ett"
++msgstr "kan inte konfigurera asynkron syslogg: %s; använder systemets syslogg i "
++"stället"
+ 
+ #: lib/rate.c:87 lib/tbf_rate.c:150
+ #, c-format
+@@ -706,17 +708,18 @@
+ #: lib/server.c:56
+ #, c-format
+ msgid "cannot get pid from pidfile `%s'"
+-msgstr "kan inte hämta pid från pidfile `%s'"
++msgstr "kan inte hämta process-id från pidfilen `%s`"
+ 
+ #: lib/server.c:59
+ #, c-format
+ msgid "%s appears to run with pid %lu. If it does not, remove `%s' and retry."
+-msgstr "%s verkar köras med pid %lu. Om den inte gör det, ta bort `%s' och försök igen."
++msgstr "%s verkar köras med process-id %lu. Om så inte är fallet, ta bort `%s` och "
++"försök igen."
+ 
+ #: lib/server.c:68
+ #, c-format
+ msgid "cannot unlink pidfile `%s': %s"
+-msgstr "kan inte ta bort länken till pidfilen `%s': %s"
++msgstr "kan inte ta bort pidfilen `%s`: %s"
+ 
+ #: lib/server.c:79
+ #, c-format
+@@ -725,7 +728,7 @@
+ 
+ #: lib/server.c:147
+ msgid "when running as root, --user option is mandatory."
+-msgstr "när du kör som root är alternativet --user obligatoriskt."
++msgstr "när programmet körs som root krävs alternativet --user."
+ 
+ #: lib/server.c:152 lib/userprivs.c:328 mtasim/mtasim.c:127
+ #, c-format
+@@ -740,25 +743,25 @@
+ #: lib/server.c:178 src/builtin/io.bi:700
+ #, c-format
+ msgid "fork: %s"
+-msgstr "gaffel: %s"
++msgstr "förgrening: %s"
+ 
+ #: lib/server.c:191
+ #, c-format
+ msgid "cannot open input stream: %s"
+-msgstr "kan inte öppna inmatningsström: %s"
++msgstr "kan inte öppna indataströmmen: %s"
+ 
+ #: lib/server.c:223
+ msgid "syntax check failed; restart cancelled"
+-msgstr "syntaxkontroll misslyckades; omstart avbruten"
++msgstr "syntaxkontrollen misslyckades; omstarten avbröts"
+ 
+ #: lib/server.c:238 src/mfdbtool.c:396
+ #, c-format
+ msgid "cannot change to %s: %s"
+-msgstr "kan inte ändras till %s: %s"
++msgstr "kan inte byta till %s: %s"
+ 
+ #: lib/server.c:250
+ msgid "program started without full file name"
+-msgstr "program startat utan fullständigt filnamn"
++msgstr "programmet startades utan fullständigt filnamn"
+ 
+ #: lib/server.c:256
+ msgid "restart (SIGHUP) will not work"
+@@ -767,7 +770,7 @@
+ #: lib/server.c:264
+ #, c-format
+ msgid "cannot become a daemon: %s"
+-msgstr "kan inte bli en daemon: %s"
++msgstr "kan inte bli en demon: %s"
+ 
+ #: lib/server.c:278
+ #, c-format
+@@ -777,7 +780,7 @@
+ #: lib/server.c:292
+ #, c-format
+ msgid "%s restarting"
+-msgstr "%s omstart"
++msgstr "%s startar om"
+ 
+ #: lib/server.c:301
+ #, c-format
+@@ -792,12 +795,12 @@
+ #: lib/server.c:305
+ #, c-format
+ msgid "%s terminating"
+-msgstr "%s avslutande"
++msgstr "%s avslutas"
+ 
+ #: lib/srvman.c:158
+ #, c-format
+ msgid "cannot get URL scheme: %s"
+-msgstr "kan inte få URL-schema: %s"
++msgstr "kan inte hämta URL-schemat: %s"
+ 
+ #: lib/srvman.c:172
+ #, c-format
+@@ -807,7 +810,7 @@
+ #: lib/srvman.c:179
+ #, c-format
+ msgid "socket path name too long: %s"
+-msgstr "socket sökvägsnamn för långt: %s"
++msgstr "socketens sökväg är för lång: %s"
+ 
+ #: lib/srvman.c:195 lib/srvman.c:248
+ #, c-format
+@@ -817,7 +820,7 @@
+ #: lib/srvman.c:201 src/builtin/sa.bi:290
+ #, c-format
+ msgid "port out of range: %u"
+-msgstr "port utanför intervallet: %u"
++msgstr "portnumret ligger utanför intervallet: %u"
+ 
+ #: lib/srvman.c:206 lib/srvman.c:242
+ #, c-format
+@@ -841,17 +844,17 @@
+ #: lib/srvman.c:358
+ #, c-format
+ msgid "%s [%lu] terminated on signal %d"
+-msgstr "%s [%lu] avbruten vid signal %d"
++msgstr "%s [%lu] avslutades av signal %d"
+ 
+ #: lib/srvman.c:362
+ #, c-format
+ msgid "%s [%lu] stopped on signal %d"
+-msgstr "%s [%lu] stoppad på signal %d"
++msgstr "%s [%lu] stoppades av signal %d"
+ 
+ #: lib/srvman.c:366
+ #, c-format
+ msgid "%s [%lu] terminated with unrecognized status"
+-msgstr "%s [%lu] avbruten med okänd status"
++msgstr "%s [%lu] avslutades med okänd status"
+ 
+ #: lib/srvman.c:545
+ #, c-format
+@@ -861,7 +864,7 @@
+ #: lib/srvman.c:552
+ #, c-format
+ msgid "server %s: undefined ACL result; access from %s allowed"
+-msgstr "server %s: odefinierat ACL-resultat; åtkomst från %s tillåten"
++msgstr "server %s: odefinierat resultat från ACL:en; åtkomst från %s tillåts"
+ 
+ #: lib/srvman.c:563
+ #, c-format
+@@ -871,12 +874,12 @@
+ #: lib/srvman.c:633
+ #, c-format
+ msgid "removing shut down server %s"
+-msgstr "ta bort avstängd server %s"
++msgstr "tar bort avstängd server %s"
+ 
+ #: lib/srvman.c:640
+ #, c-format
+ msgid "server %s: too many children (%lu)"
+-msgstr "server %s: för många barn (%lu)"
++msgstr "server %s: för många underordnade processer (%lu)"
+ 
+ #: lib/srvman.c:648
+ #, c-format
+@@ -886,7 +889,7 @@
+ #: lib/srvman.c:738
+ #, c-format
+ msgid "too many children (%lu)"
+-msgstr "för många barn (%lu)"
++msgstr "för många underordnade processer (%lu)"
+ 
+ #: lib/srvman.c:760
+ #, c-format
+@@ -896,7 +899,7 @@
+ #: lib/srvman.c:784
+ #, c-format
+ msgid "%s: file %s exists but cannot be stat'd: %s"
+-msgstr "%s: filen %s finns men kan inte statas: %s"
++msgstr "%s: filen %s finns men kan inte avläsas med stat: %s"
+ 
+ #: lib/srvman.c:791
+ #, c-format
+@@ -906,7 +909,7 @@
+ #: lib/srvman.c:797
+ #, c-format
+ msgid "%s: cannot unlink file %s: %s"
+-msgstr "%s: kan inte avlänka fil %s: %s"
++msgstr "%s: kan inte ta bort filen %s: %s"
+ 
+ #: lib/srvman.c:803
+ #, c-format
+@@ -916,16 +919,16 @@
+ #: lib/srvman.c:820
+ #, c-format
+ msgid "%s: cannot bind to %s: %s"
+-msgstr "%s: kan inte bindas till %s: %s"
++msgstr "%s: kan inte binda till %s: %s"
+ 
+ #: lib/srvman.c:828
+ #, c-format
+ msgid "%s: listen on %s failed: %s"
+-msgstr "%s: lyssna på %s misslyckades: %s"
++msgstr "%s: kan inte lyssna på %s: %s"
+ 
+ #: lib/srvman.c:861
+ msgid "no servers configured"
+-msgstr "inga servrar konfigurerade"
++msgstr "inga servrar har konfigurerats"
+ 
+ #: lib/symtab.c:174
+ msgid "element not found in table"
+@@ -933,7 +936,7 @@
+ 
+ #: lib/symtab.c:176
+ msgid "symbol table is full"
+-msgstr "symbolbordet är fullt"
++msgstr "symboltabellen är full"
+ 
+ #: lib/tbf_rate.c:110 src/builtin/db.bi:228 src/builtin/db.bi:310
+ #: src/builtin/db.bi:354 src/builtin/db.bi:398 src/builtin/db.bi:482
+@@ -948,11 +951,11 @@
+ 
+ #: lib/transform.c:317
+ msgid "missing replacement expression"
+-msgstr "saknas ersättning uttryck"
++msgstr "ersättningsuttryck saknas"
+ 
+ #: lib/transform.c:330
+ msgid "missing trailing delimiter"
+-msgstr "saknar efterföljande avgränsare"
++msgstr "efterföljande avgränsare saknas"
+ 
+ #: lib/transform.c:360
+ msgid "unknown flag"
+@@ -960,11 +963,11 @@
+ 
+ #: lib/transform.c:413
+ msgid "back reference out of range"
+-msgstr "bakre referens utanför intervallet"
++msgstr "bakåtreferens utanför intervallet"
+ 
+ #: lib/userprivs.c:199
+ msgid "refusing to run as root"
+-msgstr "vägrar att ställa upp som root"
++msgstr "vägrar att köras som root"
+ 
+ #: lib/userprivs.c:210
+ #, c-format
+@@ -994,7 +997,7 @@
+ #: lib/userprivs.c:242
+ #, c-format
+ msgid "cannot set effective gid to %lu"
+-msgstr "kan inte sätta effektiv gid till %lu"
++msgstr "kan inte sätta effektivt grupp-id till %lu"
+ 
+ #: lib/userprivs.c:260
+ #, c-format
+@@ -1013,7 +1016,7 @@
+ 
+ #: lib/userprivs.c:283
+ msgid "seteuid(0) succeeded when it should not"
+-msgstr "seteuid(0) lyckades när det inte borde"
++msgstr "seteuid(0) lyckades trots att det inte borde ha gjort det"
+ 
+ #: lib/userprivs.c:286
+ msgid "cannot drop non-root setuid privileges"
+@@ -1031,18 +1034,18 @@
+ #: lib/utils.c:99 src/main.c:754
+ #, c-format
+ msgid "INTERNAL ERROR at %s:%d: please report"
+-msgstr "INTERNT FEL vid %s:%d: vänligen rapportera"
++msgstr "INTERNT FEL vid %s:%d: rapportera"
+ 
+ #: lib/utils.c:106 src/builtin/other.bi:69 src/drivers.c:1283 src/mfdbtool.c:85
+ #: src/mfdbtool.c:229
+ #, c-format
+ msgid "unrecognized time format (near `%s')"
+-msgstr "oigenkänt tidsformat (nära `%s')"
++msgstr "okänt tidsformat (nära `%s`)"
+ 
+ #: lib/utils.c:120
+ #, c-format
+ msgid "this statement has no effect in %s"
+-msgstr "detta uttalande har ingen effekt i %s"
++msgstr "den här satsen har ingen effekt i %s"
+ 
+ #: lib/version.c:50 mfmod/mfmodnew.c:231
+ msgid "(C)"
+@@ -1071,12 +1074,12 @@
+ #: mtasim/mtasim.c:258
+ #, c-format
+ msgid "expected %s, but got %3.3s"
+-msgstr "förväntade sig %s, men fick %3.3s"
++msgstr "förväntade %s men fick %3.3s"
+ 
+ #: mtasim/mtasim.c:276
+ #, c-format
+ msgid "expected \"%s\", but got %s"
+-msgstr "förväntade sig \"%s\", men fick %s"
++msgstr "förväntade ”%s” men fick %s"
+ 
+ #: mtasim/mtasim.c:293
+ msgid "mtasim -- MTA simulator for mailfromd"
+@@ -1089,7 +1092,7 @@
+ #: mtasim/mtasim.c:342
+ #, c-format
+ msgid "wrong assignment format: %s"
+-msgstr "fel format på uppgiften: %s"
++msgstr "felaktigt tilldelningsformat: %s"
+ 
+ #: mtasim/mtasim.c:387
+ #, c-format
+@@ -1099,22 +1102,22 @@
+ #: mtasim/mtasim.c:460
+ #, c-format
+ msgid "unknown timeout: %c"
+-msgstr "okänd timeout: %c"
++msgstr "okänd tidsgräns: %c"
+ 
+ #: mtasim/mtasim.c:465
+ #, c-format
+ msgid "missing '=' after %c"
+-msgstr "saknar '=' efter %c"
++msgstr "”=” saknas efter %c"
+ 
+ #: mtasim/mtasim.c:481
+ #, c-format
+ msgid "unexpected character at %s"
+-msgstr "oväntad karaktär vid %s"
++msgstr "oväntat tecken vid %s"
+ 
+ #: mtasim/mtasim.c:488
+ #, c-format
+ msgid "invalid timeout near %s"
+-msgstr "ogiltig timeout nära %s"
++msgstr "ogiltig tidsgräns nära %s"
+ 
+ #: mtasim/mtasim.c:490
+ #, c-format
+@@ -1145,11 +1148,11 @@
+ 
+ #: mtasim/mtasim.c:689
+ msgid "use the SMTP protocol on standard input and output (same as -bs)"
+-msgstr "använda SMTP-protokollet på standard in- och utdata (samma som -bs)"
++msgstr "använd SMTP-protokollet på standardindata och standardutdata (samma som -bs)"
+ 
+ #: mtasim/mtasim.c:692
+ msgid "run as daemon (same as -bd)"
+-msgstr "kör som daemon (samma som -bd)"
++msgstr "kör som demon (samma som -bd)"
+ 
+ #: mtasim/mtasim.c:694 mtasim/mtasim.c:697 src/main.c:625 src/srvcfg.c:648
+ #: src/srvcfg.c:651
+@@ -1158,11 +1161,11 @@
+ 
+ #: mtasim/mtasim.c:695
+ msgid "run with this user privileges"
+-msgstr "körs med dessa användarrättigheter"
++msgstr "kör med den här användarens behörighet"
+ 
+ #: mtasim/mtasim.c:698 src/srvcfg.c:652
+ msgid "retain the supplementary group NAME when switching to user privileges"
+-msgstr "behålla den kompletterande gruppen NAME när du byter till användarrättigheter"
++msgstr "behåll tilläggsgruppen NAME när du byter till användarbehörighet"
+ 
+ #: mtasim/mtasim.c:702 src/main.c:547
+ msgid "Operation modifiers"
+@@ -1174,7 +1177,7 @@
+ 
+ #: mtasim/mtasim.c:704
+ msgid "define Sendmail macro"
+-msgstr "define Sendmail makro"
++msgstr "definiera Sendmail-makro"
+ 
+ #: mtasim/mtasim.c:706
+ msgid "PORT"
+@@ -1186,7 +1189,8 @@
+ 
+ #: mtasim/mtasim.c:710
+ msgid "pass temporary directory to mailfromd as its state dir (with -Xauto)"
+-msgstr "skicka en tillfällig katalog till mailfromd som dess state dir (med -Xauto)"
++msgstr "skicka en tillfällig katalog till mailfromd som dess tillståndskatalog (med "
++"-Xauto)"
+ 
+ #: mtasim/mtasim.c:712 src/mfdbtool.c:281
+ msgid "NUMBER"
+@@ -1194,7 +1198,7 @@
+ 
+ #: mtasim/mtasim.c:713
+ msgid "set the body chunk for xxfi_body calls"
+-msgstr "ställa in kroppsbiten för xxfi_body-anrop"
++msgstr "ange datasegmentet för xxfi_body-anrop"
+ 
+ #: mtasim/mtasim.c:715
+ msgid "VER"
+@@ -1202,7 +1206,7 @@
+ 
+ #: mtasim/mtasim.c:716
+ msgid "force using the given Milter protocol version number"
+-msgstr "kraft med hjälp av det angivna versionsnumret för Milter-protokollet"
++msgstr "tvinga användning av det angivna versionsnumret för Milter-protokollet"
+ 
+ #: mtasim/mtasim.c:718 mtasim/mtasim.c:721
+ msgid "BITMASK"
+@@ -1214,7 +1218,7 @@
+ 
+ #: mtasim/mtasim.c:722
+ msgid "set Milter protocol capabilities"
+-msgstr "ställa in Milter-protokollets kapacitet"
++msgstr "ange Milter-protokollets funktioner"
+ 
+ #: mtasim/mtasim.c:724
+ msgid "F=V[,F=V...]"
+@@ -1243,7 +1247,7 @@
+ 
+ #: mtasim/mtasim.c:737
+ msgid "set readline prompt"
+-msgstr "ställa in readline prompt"
++msgstr "ange readline-prompten"
+ 
+ #: mtasim/mtasim.c:740
+ msgid "Debugging and tracing"
+@@ -1257,7 +1261,7 @@
+ #: mtasim/mtasim.c:762 src/calloutd.c:80 src/main.c:573 src/main.c:605
+ #: src/main.c:608 src/main.c:611 src/mfdbtool.c:252 src/srvcfg.c:645
+ msgid "FILE"
+-msgstr "ORDER"
++msgstr "FIL"
+ 
+ #: mtasim/mtasim.c:745
+ msgid "set name of the trace file"
+@@ -1265,7 +1269,7 @@
+ 
+ #: mtasim/mtasim.c:748
+ msgid "increase verbosity level"
+-msgstr "öka ordrikhetsnivån"
++msgstr "öka detaljnivån"
+ 
+ #: mtasim/mtasim.c:750 src/main.c:599 src/main.c:665 src/mfdbtool.c:273
+ #: src/srvcfg.c:666 pmult/pmult.c:834
+@@ -1274,7 +1278,7 @@
+ 
+ #: mtasim/mtasim.c:751 src/main.c:666
+ msgid "set Gacopyz log level"
+-msgstr "ställa in Gacopyz loggnivå"
++msgstr "ange Gacopyz-loggnivån"
+ 
+ #: mtasim/mtasim.c:755
+ msgid "TLS options"
+@@ -1286,7 +1290,7 @@
+ 
+ #: mtasim/mtasim.c:760
+ msgid "set name of the TLS CA file"
+-msgstr "ange namn på TLS CA-filen"
++msgstr "ange namnet på TLS-CA-filen"
+ 
+ #: mtasim/mtasim.c:763
+ msgid "set name of the TLS key file"
+@@ -1305,12 +1309,12 @@
+ #: mtasim/mtasim.c:842 src/srvcfg.c:157 src/srvcfg.c:588
+ #, c-format
+ msgid "cannot stat file `%s': %s"
+-msgstr "kan inte stat-fil `%s': %s"
++msgstr "kan inte avläsa filen `%s` med stat: %s"
+ 
+ #: mtasim/mtasim.c:849
+ #, c-format
+ msgid "cannot unlink %s: %s"
+-msgstr "kan inte ta bort länken %s: %s"
++msgstr "kan inte ta bort %s: %s"
+ 
+ #: mtasim/mtasim.c:912
+ #, c-format
+@@ -1335,21 +1339,21 @@
+ #: mtasim/mtasim.c:953
+ #, c-format
+ msgid "mailfromd terminated on signal %d"
+-msgstr "mailfromd avslutat på signal %d"
++msgstr "mailfromd avslutades av signal %d"
+ 
+ #: mtasim/mtasim.c:955
+ msgid "mailfromd terminated with unrecognized status"
+-msgstr "mailfromd avslutat med okänd status"
++msgstr "mailfromd avslutades med okänd status"
+ 
+ #: mtasim/mtasim.c:985
+ #, c-format
+ msgid "can't unlink %s: %s"
+-msgstr "kan inte ta bort länken %s: %s"
++msgstr "kan inte ta bort %s: %s"
+ 
+ #: mtasim/mtasim.c:995
+ #, c-format
+ msgid "cannot fork: %s"
+-msgstr "kan inte gaffla: %s"
++msgstr "kan inte förgrena: %s"
+ 
+ #: mtasim/mtasim.c:1033
+ #, c-format
+@@ -1363,7 +1367,7 @@
+ #: mtasim/mtasim.c:1096
+ #, c-format
+ msgid "cannot open trace output: %s"
+-msgstr "kan inte öppna spårningsutgång: %s"
++msgstr "kan inte öppna spårningsutdata: %s"
+ 
+ #: mtasim/mtasim.c:1103
+ msgid "use either --stdio or --daemon"
+@@ -1381,7 +1385,7 @@
+ #: mtasim/mtasim.c:1175
+ #, c-format
+ msgid "cannot connect to the milter using %s"
+-msgstr "kan inte ansluta till miltern med hjälp av %s"
++msgstr "kan inte ansluta till miltern via %s"
+ 
+ #: mtasim/mtasim.c:1206
+ msgid "end of file reached"
+@@ -1390,12 +1394,12 @@
+ #: mtasim/mtasim.c:1424 mtasim/mtasim.c:1448
+ #, c-format
+ msgid "write failed: %s"
+-msgstr "skrivning misslyckades: %s"
++msgstr "skrivningen misslyckades: %s"
+ 
+ #: mtasim/mtasim.c:1480
+ #, c-format
+ msgid "read failed: %s"
+-msgstr "läsning misslyckades: %s"
++msgstr "läsningen misslyckades: %s"
+ 
+ #: mtasim/mtasim.c:1656 mtasim/mtasim.c:1774 mtasim/mtasim.c:1838
+ #, c-format
+@@ -1420,12 +1424,12 @@
+ #: src/builtin/burst.bi:345
+ #, c-format
+ msgid "Cannot open temporary file: %s"
+-msgstr "Det går inte att öppna en temporär fil: %s"
++msgstr "kan inte öppna en tillfällig fil: %s"
+ 
+ #: src/builtin/burst.bi:358
+ #, c-format
+ msgid "error writing temporary stream: %s"
+-msgstr "fel vid skrivning av tillfällig ström: %s"
++msgstr "fel vid skrivning till tillfällig dataström: %s"
+ 
+ #: src/builtin/burst.bi:529
+ msgid "message is not a RFC-934 digest"
+@@ -1435,21 +1439,21 @@
+ #: src/builtin/mfmod.bi:294 src/builtin/msg.bi:133 src/builtin/msg.bi:506
+ #: src/builtin/msg.bi:687
+ msgid "no more message slots available"
+-msgstr "inga fler meddelandeplatser tillgängliga"
++msgstr "inga fler meddelandeplatser finns tillgängliga"
+ 
+ #: src/builtin/curhdr.bi:80 src/builtin/curhdr.bi:111
+ #, c-format
+ msgid "requested item (#%ld) not found"
+-msgstr "begärd artikel (#%ld) hittades inte"
++msgstr "den begärda posten (#%ld) hittades inte"
+ 
+ #: src/builtin/curhdr.bi:142
+ #, c-format
+ msgid "requested item (%s,%ld) not found"
+-msgstr "begärd artikel (%s,%ld) hittades inte"
++msgstr "den begärda posten (%s,%ld) hittades inte"
+ 
+ #: src/builtin/db.bi:102
+ msgid "bad numeric file mode"
+-msgstr "dåligt numeriskt filläge"
++msgstr "ogiltigt numeriskt filläge"
+ 
+ #: src/builtin/db.bi:108
+ #, c-format
+@@ -1459,12 +1463,12 @@
+ #: src/builtin/db.bi:113
+ #, c-format
+ msgid "bad symbolic file mode (near %s)"
+-msgstr "dåligt symboliskt filläge (nära %s)"
++msgstr "ogiltigt symboliskt filläge (nära %s)"
+ 
+ #: src/builtin/db.bi:122
+ #, c-format
+ msgid "cannot create list: %s"
+-msgstr "kan inte skapa lista: %s"
++msgstr "kan inte skapa en lista: %s"
+ 
+ #: src/builtin/db.bi:134
+ #, c-format
+@@ -1484,7 +1488,7 @@
+ #: src/builtin/db.bi:328 src/builtin/db.bi:376
+ #, c-format
+ msgid "failed to insert data to %s: %s %s: %s"
+-msgstr "misslyckades med att infoga data till %s: %s %s: %s"
++msgstr "kunde inte infoga data i %s: %s %s: %s"
+ 
+ #: src/builtin/db.bi:372
+ msgid "record already exists"
+@@ -1533,23 +1537,24 @@
+ #: src/builtin/db.bi:692
+ #, c-format
+ msgid "cannot insert datum `%-.*s' in greylist database %s: %s"
+-msgstr "kan inte infoga datum `%-.*s' i greylistdatabasen %s: %s"
++msgstr "kan inte infoga data `%-.*s` i greylistdatabasen %s: %s"
+ 
+ #: src/builtin/db.bi:718 src/builtin/db.bi:808 src/builtin/db.bi:836
+ #, c-format
+ msgid "Cannot insert datum `%-.*s' in greylist database %s: %s"
+-msgstr "Det går inte att infoga datum `%-.*s' i greylistdatabasen %s: %s"
++msgstr "kan inte infoga data `%-.*s` i greylistdatabasen %s: %s"
+ 
+ #: src/builtin/db.bi:742
+ #, c-format
+ msgid "is_greylisted is not implemented for traditional greylist databases; see documentation, chapter %s %s for more info"
+-msgstr "is_greylisted är inte implementerat för traditionella greylist-databaser; se dokumentation, kapitel %s %s för mer information"
++msgstr "is_greylisted är inte implementerat för traditionella greylistdatabaser; se "
++"dokumentationen, kapitel %s %s, för mer information"
+ 
+ #: src/builtin/db.bi:937 src/builtin/db.bi:947 src/builtin/db.bi:957
+ #: src/builtin/db.bi:967
+ #, c-format
+ msgid "no such db format: %s"
+-msgstr "inget sådant db-format: %s"
++msgstr "inget sådant databasformat: %s"
+ 
+ #: src/builtin/debug.bi:29
+ #, c-format
+@@ -1563,22 +1568,22 @@
+ #: src/builtin/dkim.bi:220
+ #, c-format
+ msgid "bad signing algorithm: %s"
+-msgstr "dålig signeringsalgoritm: %s"
++msgstr "ogiltig signeringsalgoritm: %s"
+ 
+ #: src/builtin/dkim.bi:231 src/builtin/dkim.bi:237
+ #, c-format
+ msgid "bad canonicalization type: %s"
+-msgstr "dålig kanoniseringstyp: %s"
++msgstr "ogiltig kanoniseringsmetod: %s"
+ 
+ #: src/builtin/dkim.bi:261
+ #, c-format
+ msgid "MMQ incompatible with dkim_sign: %s on %s, value %s"
+-msgstr "MMQ inkompatibel med dkim_sign: %s på %s, värde %s"
++msgstr "MMQ är inkompatibel med dkim_sign: %s på %s, värdet %s"
+ 
+ #: src/builtin/dkim.bi:267
+ #, c-format
+ msgid "%s failed on %s, value %s: %s"
+-msgstr "%s misslyckades på %s, värde %s: %s"
++msgstr "%s misslyckades för %s, värdet %s: %s"
+ 
+ #: src/builtin/dkim.bi:274
+ #, c-format
+@@ -1597,52 +1602,52 @@
+ #: src/builtin/dns.bi:37
+ #, c-format
+ msgid "cannot resolve IP %s"
+-msgstr "kan inte lösa IP %s"
++msgstr "kan inte slå upp IP-adressen %s"
+ 
+ #: src/builtin/dns.bi:73
+ #, c-format
+ msgid "cannot create reverse name from %s and %s"
+-msgstr "kan inte skapa omvänt namn från %s och %s"
++msgstr "kan inte skapa omvänt DNS-namn från %s och %s"
+ 
+ #: src/builtin/dns.bi:77
+ #, c-format
+ msgid "domain %s is not suitable for PTR record %s"
+-msgstr "domän %s är inte lämplig för PTR-post %s"
++msgstr "domänen %s är inte lämplig för PTR-posten %s"
+ 
+ #: src/builtin/dns.bi:82 src/builtin/dns.bi:99 src/builtin/dns.bi:268
+ #: src/builtin/dns.bi:289 src/builtin/dns.bi:298
+ #, c-format
+ msgid "cannot resolve host name %s"
+-msgstr "kan inte lösa värdnamn %s"
++msgstr "kan inte slå upp värdnamnet %s"
+ 
+ #: src/builtin/dns.bi:88
+ #, c-format
+ msgid "cannot reverse IP %s"
+-msgstr "kan inte vända IP %s"
++msgstr "kan inte göra en omvänd uppslagning av IP-adressen %s"
+ 
+ #: src/builtin/dns.bi:120 src/builtin/dns.bi:511
+ #, c-format
+ msgid "bad DNS reply type: %d"
+-msgstr "dåligt DNS-svar typ: %d"
++msgstr "felaktig DNS-svarstyp: %d"
+ 
+ #: src/builtin/dns.bi:133
+ msgid "invalid resolve family value"
+-msgstr "ogiltig upplösning familjevärde"
++msgstr "ogiltigt värde för uppslagsfamilj"
+ 
+ #: src/builtin/dns.bi:138
+ #, c-format
+ msgid "cannot resolve %s"
+-msgstr "kan inte lösa %s"
++msgstr "kan inte slå upp %s"
+ 
+ #: src/builtin/dns.bi:154
+ #, c-format
+ msgid "cannot get MX records for %s"
+-msgstr "kan inte få MX-poster för %s"
++msgstr "kan inte hämta MX-poster för %s"
+ 
+ #: src/builtin/dns.bi:259
+ #, c-format
+ msgid "cannot get MXs for %s"
+-msgstr "kan inte få MX för %s"
++msgstr "kan inte hämta MX-poster för %s"
+ 
+ #: src/builtin/dns.bi:283
+ #, c-format
+@@ -1652,12 +1657,12 @@
+ #: src/builtin/dns.bi:323
+ #, c-format
+ msgid "failed to get PTR record for %s"
+-msgstr "lyckades inte få PTR-rekord för %s"
++msgstr "kunde inte hämta PTR-posten för %s"
+ 
+ #: src/builtin/dns.bi:335
+ #, c-format
+ msgid "cannot get NS records for %s"
+-msgstr "kan inte få NS-poster för %s"
++msgstr "kan inte hämta NS-poster för %s"
+ 
+ #: src/builtin/dns.bi:480
+ #, c-format
+@@ -1672,7 +1677,7 @@
+ #: src/builtin/dns.bi:500 src/builtin/dns.bi:525
+ #, c-format
+ msgid "index out of range: %ld"
+-msgstr "index utanför intervallet: %ld"
++msgstr "indexet ligger utanför intervallet: %ld"
+ 
+ #: src/builtin/dns.bi:528
+ msgid "can't use dns_reply_ip on non-IPv4 replies"
+@@ -1680,7 +1685,7 @@
+ 
+ #: src/builtin/dns.bi:566
+ msgid "DNS reply table full"
+-msgstr "DNS-svarstabell full"
++msgstr "DNS-svarstabellen är full"
+ 
+ #: src/builtin/dns.bi:603
+ #, c-format
+@@ -1690,7 +1695,7 @@
+ #: src/builtin/dns.bi:611
+ #, c-format
+ msgid "cannot get %s records for %s"
+-msgstr "kan inte få %s poster för %s"
++msgstr "kan inte hämta %s-poster för %s"
+ 
+ #: src/builtin/geoip2.bi:170 src/builtin/geoip2.bi:263
+ msgid "IP not found in the database"
+@@ -1698,12 +1703,12 @@
+ 
+ #: src/builtin/geoip2.bi:294
+ msgid "malformed data list"
+-msgstr "missbildad datalista"
++msgstr "felaktigt utformad datalista"
+ 
+ #: src/builtin/geoip2.bi:363
+ #, c-format
+ msgid "unsupported MMDB data type %d"
+-msgstr "mMDB-datatyp som inte stöds %d"
++msgstr "MMDB-datatyp som inte stöds: %d"
+ 
+ #: src/builtin/geoip2.bi:394
+ msgid "malformed data list: reported and actual number of keys differ"
+@@ -1721,7 +1726,7 @@
+ 
+ #: src/builtin/io.bi:30
+ msgid "Maximum number of stream descriptors."
+-msgstr "Maximalt antal stream descriptors."
++msgstr "Maximalt antal strömdeskriptorer."
+ 
+ #: src/builtin/io.bi:70
+ #, c-format
+@@ -1738,7 +1743,7 @@
+ #: src/builtin/io.bi:1341 src/builtin/io.bi:1369 src/builtin/io.bi:1377
+ #, c-format
+ msgid "%s: error flushing stream"
+-msgstr "%s: fel vid spolning av ström"
++msgstr "%s: fel vid tömning av dataströmmen"
+ 
+ #: src/builtin/io.bi:158
+ msgid "buffer size out of allowed range"
+@@ -1751,7 +1756,7 @@
+ #: src/builtin/io.bi:171
+ #, c-format
+ msgid "bad buffering type: %ld"
+-msgstr "dålig buffringstyp: %ld"
++msgstr "ogiltig buffringstyp: %ld"
+ 
+ #: src/builtin/io.bi:202
+ #, c-format
+@@ -1780,7 +1785,7 @@
+ #: src/builtin/io.bi:426
+ #, c-format
+ msgid "fork failed: %s"
+-msgstr "gaffel misslyckades: %s"
++msgstr "förgrening misslyckades: %s"
+ 
+ #: src/builtin/io.bi:448
+ #, c-format
+@@ -1795,7 +1800,7 @@
+ #: src/builtin/io.bi:518
+ #, c-format
+ msgid "cannot open file %s for appending: %s"
+-msgstr "kan inte öppna filen %s för appending: %s"
++msgstr "kan inte öppna filen %s för tillägg: %s"
+ 
+ #: src/builtin/io.bi:632
+ #, c-format
+@@ -1853,17 +1858,17 @@
+ #: src/builtin/ipaddr.bi:138 src/builtin/ipaddr.bi:141
+ #, c-format
+ msgid "not a valid IP or CIDR: %s"
+-msgstr "inte en giltig IP eller CIDR: %s"
++msgstr "inte en giltig IP-adress eller ett giltigt CIDR-nät: %s"
+ 
+ #: src/builtin/macro.bi:27 src/gram.y:1084 src/main.c:295
+ #, c-format
+ msgid "unknown smtp state tag: %s"
+-msgstr "okänd smtp tillstånd tagg: %s"
++msgstr "okänd SMTP-tillståndstagg: %s"
+ 
+ #: src/builtin/macro.bi:38 src/prog.c:1286
+ #, c-format
+ msgid "macro not defined: %s"
+-msgstr "makro ej definierat: %s"
++msgstr "makro inte definierat: %s"
+ 
+ #: src/builtin/mail.bi:37
+ #, c-format
+@@ -1878,12 +1883,12 @@
+ #: src/builtin/mail.bi:60
+ #, c-format
+ msgid "bad sender address `%s': %s"
+-msgstr "dålig avsändaradress `%s': %s"
++msgstr "felaktig avsändaradress `%s`: %s"
+ 
+ #: src/builtin/mail.bi:72
+ #, c-format
+ msgid "opening mailer `%s' failed: %s"
+-msgstr "öppning av mailer `%s' misslyckades: %s"
++msgstr "kan inte öppna mailer `%s`: %s"
+ 
+ #: src/builtin/mail.bi:82
+ #, c-format
+@@ -1901,7 +1906,7 @@
+ 
+ #: src/builtin/mbox.bi:91
+ msgid "no more mailboxes available"
+-msgstr "inga fler brevlådor tillgängliga"
++msgstr "inga fler brevlådor finns tillgängliga"
+ 
+ #: src/builtin/mbox.bi:120 src/builtin/mbox.bi:126
+ #, c-format
+@@ -1929,7 +1934,7 @@
+ 
+ #: src/builtin/mbox.bi:181
+ msgid "mailbox not open"
+-msgstr "brevlådan inte öppen"
++msgstr "brevlådan är inte öppen"
+ 
+ #: src/builtin/mbox.bi:231
+ #, c-format
+@@ -1960,7 +1965,7 @@
+ 
+ #: src/builtin/mfmod.bi:190
+ msgid "invalid dynamic library handle"
+-msgstr "ogiltigt dynamiskt bibliotekshandtag"
++msgstr "ogiltigt handtag för dynamiskt bibliotek"
+ 
+ #: src/builtin/mfmod.bi:198
+ #, c-format
+@@ -1974,7 +1979,7 @@
+ 
+ #: src/builtin/mfmod.bi:223
+ msgid "number of arguments doesn't satisfy type string"
+-msgstr "antalet argument uppfyller inte typen string"
++msgstr "antalet argument uppfyller inte typsträngen"
+ 
+ #: src/builtin/mfmod.bi:265 src/builtin/mfmod.bi:275
+ #, c-format
+@@ -1989,7 +1994,7 @@
+ #: src/builtin/mfmod.bi:301
+ #, c-format
+ msgid "unsupported return type %d in call to %s, module %s failed"
+-msgstr "ej stödd returtyp %d i anrop till %s, modul %s misslyckades"
++msgstr "returtypen %d stöds inte i anropet till %s; modulen %s misslyckades"
+ 
+ #: src/builtin/msg.bi:26
+ msgid "Maximum number of messages to open simultaneously."
+@@ -1998,7 +2003,7 @@
+ #: src/builtin/msg.bi:127
+ #, c-format
+ msgid "cannot obtain capture stream reference: %s"
+-msgstr "kan inte erhålla referens för inspelningsström: %s"
++msgstr "kan inte hämta referens till inspelningsströmmen: %s"
+ 
+ #: src/builtin/msg.bi:147
+ msgid "invalid message descriptor"
+@@ -2006,15 +2011,15 @@
+ 
+ #: src/builtin/msg.bi:151
+ msgid "message not open"
+-msgstr "meddelandet inte öppet"
++msgstr "meddelandet är inte öppet"
+ 
+ #: src/builtin/msg.bi:222
+ msgid "message size out of representable range"
+-msgstr "meddelandets storlek utanför det representativa intervallet"
++msgstr "meddelandets storlek ligger utanför det representerbara intervallet"
+ 
+ #: src/builtin/msg.bi:256
+ msgid "body size out of representable range"
+-msgstr "kroppsstorlek utanför representativt intervall"
++msgstr "brödtextens storlek ligger utanför det representerbara intervallet"
+ 
+ #: src/builtin/msg.bi:291
+ #, c-format
+@@ -2023,11 +2028,11 @@
+ 
+ #: src/builtin/msg.bi:344
+ msgid "header size out of representable range"
+-msgstr "rubrikstorlek utanför representativt intervall"
++msgstr "huvudets storlek ligger utanför det representerbara intervallet"
+ 
+ #: src/builtin/msg.bi:419
+ msgid "header not found"
+-msgstr "rubriken hittades inte"
++msgstr "huvudet hittades inte"
+ 
+ #: src/builtin/msg.bi:544 src/builtin/msg.bi:579
+ msgid "end of input"
+@@ -2036,7 +2041,7 @@
+ #: src/builtin/msg.bi:877
+ #, c-format
+ msgid "can't convert from charset %s to %s: %s"
+-msgstr "kan inte konvertera från charset %s till %s: %s"
++msgstr "kan inte konvertera från teckenuppsättning %s till %s: %s"
+ 
+ #: src/builtin/other.bi:40
+ #, c-format
+@@ -2051,7 +2056,7 @@
+ #: src/builtin/other.bi:79
+ #, c-format
+ msgid "unrecongized state id %ld"
+-msgstr "orecongongized state id %ld"
++msgstr "oigenkänt tillstånds-id %ld"
+ 
+ #: src/builtin/other.bi:95
+ #, c-format
+@@ -2060,7 +2065,7 @@
+ 
+ #: src/builtin/prereq.bi:27
+ msgid "invalid version syntax"
+-msgstr "ogiltig version syntax"
++msgstr "ogiltig versionssyntax"
+ 
+ #: src/builtin/prereq.bi:29
+ #, c-format
+@@ -2080,17 +2085,17 @@
+ #: src/builtin/rate.bi:28
+ #, c-format
+ msgid "cannot get rate for %s"
+-msgstr "kan inte få pris för %s"
++msgstr "kan inte hämta frekvensen för %s"
+ 
+ #: src/builtin/rate.bi:42
+ #, c-format
+ msgid "cannot check TBF rate for %s"
+-msgstr "kan inte kontrollera TBF-avgiften för %s"
++msgstr "kan inte kontrollera TBF-frekvensen för %s"
+ 
+ #: src/builtin/sa.bi:48
+ #, c-format
+ msgid "cannot create debug stream; transcript disabled: %s"
+-msgstr "kan inte skapa debug-ström; transkription inaktiverad: %s"
++msgstr "kan inte skapa felsökningsström; transkribering inaktiverad: %s"
+ 
+ #: src/builtin/sa.bi:55
+ #, c-format
+@@ -2105,22 +2110,22 @@
+ #: src/builtin/sa.bi:266
+ #, c-format
+ msgid "%s: cannot get scheme: %s"
+-msgstr "%s: kan inte få schema: %s"
++msgstr "%s: kan inte hämta schemat: %s"
+ 
+ #: src/builtin/sa.bi:274
+ #, c-format
+ msgid "%s: cannot get path: %s"
+-msgstr "%s: kan inte få sökväg: %s"
++msgstr "%s: kan inte hämta sökvägen: %s"
+ 
+ #: src/builtin/sa.bi:283
+ #, c-format
+ msgid "%s: cannot get port: %s"
+-msgstr "%s: kan inte hämta port: %s"
++msgstr "%s: kan inte hämta porten: %s"
+ 
+ #: src/builtin/sa.bi:297
+ #, c-format
+ msgid "%s: cannot get host: %s"
+-msgstr "%s: kan inte hämta värd: %s"
++msgstr "%s: kan inte hämta värden: %s"
+ 
+ #: src/builtin/sa.bi:302
+ #, c-format
+@@ -2135,60 +2140,60 @@
+ #: src/builtin/sa.bi:405
+ #, c-format
+ msgid "send stream failed: %s"
+-msgstr "skicka ström misslyckades: %s"
++msgstr "sändning av dataström misslyckades: %s"
+ 
+ #: src/builtin/sa.bi:414
+ msgid "remote side has closed connection"
+-msgstr "fjärrsidan har sluten anslutning"
++msgstr "fjärränden har stängt anslutningen"
+ 
+ #: src/builtin/sa.bi:419
+ #, c-format
+ msgid "spamd responded with bad string '%s'"
+-msgstr "spamd svarade med fel sträng '%s'"
++msgstr "spamd svarade med en felaktig sträng ”%s”"
+ 
+ #: src/builtin/sa.bi:425
+ #, c-format
+ msgid "unsupported SPAMD version: %s"
+-msgstr "sPAMD-version som inte stöds: %s"
++msgstr "SPAMD-version som inte stöds: %s"
+ 
+ #: src/builtin/sa.bi:438
+ #, c-format
+ msgid "spamd responded with bad Spam header '%s'"
+-msgstr "spamd svarade med felaktigt spamhuvud '%s'"
++msgstr "spamd svarade med ett felaktigt spamhuvud ”%s”"
+ 
+ #: src/builtin/sa.bi:533
+ #, c-format
+ msgid "bad response from clamav: expected `PORT' but found `%s'"
+-msgstr "dåligt svar från clamav: förväntade sig `PORT' men fann `%s'"
++msgstr "felaktigt svar från ClamAV: förväntade ”PORT” men fick ”%s”"
+ 
+ #: src/builtin/sa.bi:552
+ #, c-format
+ msgid "sending to stream failed: %s"
+-msgstr "sändning till ström misslyckades: %s"
++msgstr "sändning till dataström misslyckades: %s"
+ 
+ #: src/builtin/sa.bi:557
+ #, c-format
+ msgid "error reading clamav response: %s"
+-msgstr "fel vid läsning av clamav-svar: %s"
++msgstr "fel vid läsning av svar från ClamAV: %s"
+ 
+ #: src/builtin/sa.bi:562 src/builtin/sa.bi:586
+ #, c-format
+ msgid "unknown clamav response: %s"
+-msgstr "okänd clamav svar: %s"
++msgstr "okänt svar från ClamAV: %s"
+ 
+ #: src/builtin/sa.bi:583
+ #, c-format
+ msgid "clamav error: %s"
+-msgstr "clamav fel: %s"
++msgstr "ClamAV-fel: %s"
+ 
+ #: src/builtin/sieve.bi:63
+ msgid "sieve called from here"
+-msgstr "sikt som kallas härifrån"
++msgstr "Sieve anropades härifrån"
+ 
+ #: src/builtin/sieve.bi:95
+ #, c-format
+ msgid "failed to initialize sieve machine: %s"
+-msgstr "misslyckades med att initiera siktmaskinen: %s"
++msgstr "misslyckades med att initiera Sieve-maskinen: %s"
+ 
+ #: src/builtin/sieve.bi:134
+ #, c-format
+@@ -2198,7 +2203,7 @@
+ #: src/builtin/sieve.bi:144
+ #, c-format
+ msgid "sieving failed: %s"
+-msgstr "siktningen misslyckades: %s"
++msgstr "Sieve-körningen misslyckades: %s"
+ 
+ #: src/builtin/string.bi:60
+ msgid "argument out of range"
+@@ -2227,12 +2232,12 @@
+ #: src/builtin/string.bi:197
+ #, c-format
+ msgid "error encoding string: %s"
+-msgstr "fel kodningssträng: %s"
++msgstr "fel vid kodning av sträng: %s"
+ 
+ #: src/builtin/tr.bi:72
+ #, c-format
+ msgid "unfinished character class near %s"
+-msgstr "oavslutad karaktär klass nära %s"
++msgstr "oavslutad teckenklass nära %s"
+ 
+ #: src/builtin/tr.bi:79
+ #, c-format
+@@ -2251,7 +2256,7 @@
+ 
+ #: src/builtin/tr.bi:181
+ msgid "replacement set cannot be empty"
+-msgstr "ersättningssetet kan inte vara tomt"
++msgstr "ersättningsmängden kan inte vara tom"
+ 
+ #: src/builtin/tr.bi:194
+ msgid "ranges in source set must be in ascending order"
+@@ -2259,11 +2264,11 @@
+ 
+ #: src/builtin/tr.bi:199
+ msgid "ranges should appear at the same offset in both source and replacement sets"
+-msgstr "intervall bör visas med samma offset i både käll- och ersättningsuppsättningar"
++msgstr "intervallen måste ha samma position i både käll- och ersättningsmängden"
+ 
+ #: src/builtin/tr.bi:206
+ msgid "source and replacement ranges differ in size"
+-msgstr "käll- och ersättningsområden skiljer sig åt i storlek"
++msgstr "käll- och ersättningsintervallen skiljer sig åt i storlek"
+ 
+ #: src/optab.opc:45 optab.opc:45
+ #, c-format
+@@ -2302,22 +2307,22 @@
+ 
+ #: src/callout.c:517
+ msgid "restarting session"
+-msgstr "omstart av session"
++msgstr "startar om sessionen"
+ 
+ #: src/callout.c:614
+ #, c-format
+ msgid "cannot create debug stream: %s; transcript disabled"
+-msgstr "kan inte skapa debug-ström: %s; transkription inaktiverad"
++msgstr "kan inte skapa felsökningsström: %s; transkribering inaktiverad"
+ 
+ #: src/callout.c:633
+ #, c-format
+ msgid "cannot create transcript filterstream: %s"
+-msgstr "kan inte skapa transkript filterström: %s"
++msgstr "kan inte skapa filterdataström för transkript: %s"
+ 
+ #: src/callout.c:638
+ #, c-format
+ msgid "cannot create transcript stream: %s; transcript disabled"
+-msgstr "kan inte skapa avskriftsström: %s; avskrift avaktiverad"
++msgstr "kan inte skapa transkriptström: %s; transkribering inaktiverad"
+ 
+ #: src/callout.c:664 src/srvcfg.c:187
+ #, c-format
+@@ -2345,11 +2350,11 @@
+ 
+ #: src/calloutd.c:79 src/main.c:580
+ msgid "General options"
+-msgstr "Allmäna inställningar"
++msgstr "Allmänna inställningar"
+ 
+ #: src/calloutd.c:81 src/main.c:609
+ msgid "read resolver configuration from FILE"
+-msgstr "läsa resolverkonfiguration från FILE"
++msgstr "läs namnuppslagskonfiguration från FIL"
+ 
+ #: src/dkim.c:62
+ #, c-format
+@@ -2369,20 +2374,20 @@
+ #: src/dkim.c:75
+ #, c-format
+ msgid "unsupported RSA version in file %s"
+-msgstr "rSA-version som inte stöds i filen %s"
++msgstr "RSA-version som inte stöds i filen %s"
+ 
+ #: src/dkim.c:79
+ #, c-format
+ msgid "INTERNAL ERROR: unrecognized PEM error code: %d"
+-msgstr "INTERNT FEL: Oigenkänd PEM-felkod: %d"
++msgstr "INTERNT FEL: oigenkänd PEM-felkod: %d"
+ 
+ #: src/dkim.c:710
+ msgid "unexpected end of file in canonical stream"
+-msgstr "oväntat slut på fil i kanonisk ström"
++msgstr "oväntat filslut i den kanoniska dataströmmen"
+ 
+ #: src/dkim.c:1622
+ msgid "malformed canonical stream"
+-msgstr "missbildad kanonisk ström"
++msgstr "felaktigt formaterad kanonisk dataström"
+ 
+ #: src/drivers.c:274 src/drivers.c:283 src/drivers.c:439 src/drivers.c:449
+ msgid "division by zero"
+@@ -2390,32 +2395,32 @@
+ 
+ #: src/drivers.c:317
+ msgid "left-hand side argument to the arithmetical operation is of wrong data type"
+-msgstr "vänster sidas argument till den aritmetiska operationen är av fel datatyp"
++msgstr "vänsterledsargumentet till den aritmetiska operationen har fel datatyp"
+ 
+ #: src/drivers.c:322
+ msgid "right-hand side argument to the arithmetical operation is of wrong data type"
+-msgstr "höger sidas argument till den aritmetiska operationen är av fel datatyp"
++msgstr "högerledsargumentet till den aritmetiska operationen har fel datatyp"
+ 
+ #: src/drivers.c:666
+ #, c-format
+ msgid "cannot compile regex: %s"
+-msgstr "kan inte kompilera regex: %s"
++msgstr "kan inte kompilera reguljärt uttryck: %s"
+ 
+ #: src/drivers.c:713
+ msgid "left-hand side argument to match is of wrong data type"
+-msgstr "vänster sidas argument för matchning är av fel datatyp"
++msgstr "vänsterledsargumentet till matchningen har fel datatyp"
+ 
+ #: src/drivers.c:727
+ msgid "right-hand side argument to match is of wrong data type (should not happen)"
+-msgstr "höger sidas argument för matchning är av fel datatyp (ska inte hända)"
++msgstr "högerledsargumentet till matchningen har fel datatyp (ska inte hända)"
+ 
+ #: src/drivers.c:745
+ msgid "left-hand side argument to fnmatch is of wrong data type"
+-msgstr "vänster sidas argument till fnmatch är av fel datatyp"
++msgstr "vänsterledsargumentet till fnmatch har fel datatyp"
+ 
+ #: src/drivers.c:749
+ msgid "right-hand side argument to fnmatch is of wrong data type"
+-msgstr "höger sidas argument till fnmatch är av fel datatyp"
++msgstr "högerledsargumentet till fnmatch har fel datatyp"
+ 
+ #: src/drivers.c:768
+ msgid "invalid argument type in binary operation"
+@@ -2427,7 +2432,7 @@
+ 
+ #: src/drivers.c:1099
+ msgid "reject extended code should be 5.x.x"
+-msgstr "avvisa utökad kod bör vara 5.x.x"
++msgstr "avvisningens utökade kod bör vara 5.x.x"
+ 
+ #: src/drivers.c:1106
+ msgid "tempfail code should be 4xx"
+@@ -2435,12 +2440,12 @@
+ 
+ #: src/drivers.c:1110
+ msgid "tempfail extended code should be 4.x.x"
+-msgstr "tempfail utökad kod bör vara 4.x.x"
++msgstr "tempfail-kodens utökade kod bör vara 4.x.x"
+ 
+ #: src/drivers.c:2342 src/drivers.c:2396
+ #, c-format
+ msgid "cannot convert %s to number"
+-msgstr "kan inte konvertera %s till nummer"
++msgstr "kan inte konvertera %s till tal"
+ 
+ #: src/drivers.c:2636 src/drivers.c:2668
+ #, c-format
+@@ -2449,7 +2454,7 @@
+ 
+ #: src/drivers.c:2862
+ msgid "cannot convert literal to number"
+-msgstr "kan inte konvertera bokstav till tal"
++msgstr "kan inte konvertera literal till tal"
+ 
+ #: src/drivers.c:2882
+ msgid "expression evaluates to unspecified data type"
+@@ -2462,7 +2467,7 @@
+ 
+ #: src/engine.c:237
+ msgid "execution of the filter program was not finished"
+-msgstr "utförandet av filterprogrammet var inte klart"
++msgstr "körningen av filterprogrammet slutfördes inte"
+ 
+ #: src/engine.c:312
+ #, c-format
+@@ -2496,11 +2501,11 @@
+ 
+ #: src/gram.y:555
+ msgid "missing module declaration"
+-msgstr "saknar moduldeklaration"
++msgstr "moduldeklaration saknas"
+ 
+ #: src/gram.y:567 src/gram.y:578
+ msgid "duplicate module declaration"
+-msgstr "duplikat moduldeklaration"
++msgstr "dubblerad moduldeklaration"
+ 
+ #: src/gram.y:582
+ msgid "invalid module declaration"
+@@ -2508,7 +2513,7 @@
+ 
+ #: src/gram.y:650
+ msgid "`precious' used with func"
+-msgstr "\"värdefull\" används med func"
++msgstr "`precious` används med func"
+ 
+ #: src/gram.y:654 src/gram.y:692 src/gram.y:707 src/gram.y:817
+ msgid "`static' and `public' used together"
+@@ -2517,7 +2522,7 @@
+ #: src/gram.y:770
+ #, c-format
+ msgid "duplicate `%s'"
+-msgstr "duplikat `%s'"
++msgstr "dubblerad `%s`"
+ 
+ #: src/gram.y:813
+ msgid "`precious' used with const"
+@@ -2544,7 +2549,7 @@
+ #: src/gram.y:1120
+ #, c-format
+ msgid "return from %s is ignored"
+-msgstr "retur från %s ignoreras"
++msgstr "returvärdet från %s ignoreras"
+ 
+ #: src/gram.y:1147 src/gram.y:1872 src/gram.y:3793
+ msgid "unspecified value not ignored as it should be"
+@@ -2560,7 +2565,7 @@
+ 
+ #: src/gram.y:1200
+ msgid "header action is not allowed in end block"
+-msgstr "rubrikåtgärd är inte tillåten i slutblock"
++msgstr "huvudåtgärd är inte tillåten i slutblocket"
+ 
+ #: src/gram.y:1218
+ msgid "arguments are ignored for accept"
+@@ -2572,11 +2577,11 @@
+ 
+ #: src/gram.y:1368
+ msgid "invalid extended reply code"
+-msgstr "ogiltig kod för utökat svar"
++msgstr "ogiltig utökad svarskod"
+ 
+ #: src/gram.y:1428
+ msgid "duplicate default statement"
+-msgstr "duplicera standarduttalande"
++msgstr "dubblerad default-sats"
+ 
+ #: src/gram.y:1430 src/symbols.c:831 src/symbols.c:837
+ msgid "previously defined here"
+@@ -2585,19 +2590,19 @@
+ #: src/gram.y:1517
+ #, c-format
+ msgid "expected string, but found %s"
+-msgstr "förväntad sträng, men hittades %s"
++msgstr "förväntade en sträng men fick %s"
+ 
+ #: src/gram.y:1606
+ msgid "duplicate loop increment"
+-msgstr "duplicera slinga inkrement"
++msgstr "dubblerad slinginkrementering"
+ 
+ #: src/gram.y:1613
+ msgid "duplicate for statement"
+-msgstr "duplikat för uttalande"
++msgstr "dubblerad for-sats"
+ 
+ #: src/gram.y:1620
+ msgid "duplicate while statement"
+-msgstr "duplicera while-satsen"
++msgstr "dubblerad while-sats"
+ 
+ #: src/gram.y:1662 src/gram.y:1676
+ #, c-format
+@@ -2637,11 +2642,11 @@
+ #: src/gram.y:2198
+ #, c-format
+ msgid "expected numeric value, but found `%s'"
+-msgstr "förväntat numeriskt värde, men hittade `%s'"
++msgstr "förväntade ett numeriskt värde men fick `%s`"
+ 
+ #: src/gram.y:2226
+ msgid "exception code not a number"
+-msgstr "undantagskod inte ett nummer"
++msgstr "undantagskoden är inte ett tal"
+ 
+ #: src/gram.y:2229 src/prog.c:2101
+ #, c-format
+@@ -2654,7 +2659,7 @@
+ 
+ #: src/gram.y:2244
+ msgid "`return' with no value, in function returning non-void"
+-msgstr "`return' utan värde, i funktion som returnerar icke-void"
++msgstr "`return` utan värde i en funktion som returnerar något annat än void"
+ 
+ #: src/gram.y:2258
+ msgid "`return' with a value, in function returning void"
+@@ -2662,15 +2667,15 @@
+ 
+ #: src/gram.y:2286
+ msgid "unspecified data type in conditional expression: please, report"
+-msgstr "ospecificerad datatyp i villkorligt uttryck: snälla, rapportera"
++msgstr "ospecificerad datatyp i villkorligt uttryck: rapportera"
+ 
+ #: src/gram.y:2306
+ msgid "`on poll' used without prior `require poll'"
+-msgstr "\"on poll\" används utan föregående \"require poll\""
++msgstr "`on poll` används utan föregående `require poll`"
+ 
+ #: src/gram.y:2316
+ msgid "recipient address not specified in `on poll' construct"
+-msgstr "mottagaradressen är inte angiven i \"on poll\"-konstruktionen"
++msgstr "mottagaradressen är inte angiven i `on poll`-konstruktionen"
+ 
+ #: src/gram.y:2453
+ msgid "invalid data type, expected number"
+@@ -2688,11 +2693,11 @@
+ #: src/gram.y:3343
+ #, c-format
+ msgid "unknown regexp flag: %s"
+-msgstr "okänd regexp-flagga: %s"
++msgstr "okänd flagga för reguljärt uttryck: %s"
+ 
+ #: src/gram.y:3370 src/gram.y:3402
+ msgid "invalid size: numeric overflow occurred"
+-msgstr "ogiltig storlek: numeriskt överflöd inträffade"
++msgstr "ogiltig storlek: numeriskt överflöde inträffade"
+ 
+ #: src/gram.y:3397
+ #, c-format
+@@ -2725,27 +2730,27 @@
+ #: src/gram.y:4013
+ #, c-format
+ msgid "automatic variable `%s' is shadowing a parameter"
+-msgstr "automatisk variabel `%s' skuggar en parameter"
++msgstr "automatisk variabel `%s` skymmer en parameter"
+ 
+ #: src/gram.y:4018
+ #, c-format
+ msgid "automatic variable `%s' is shadowing a global"
+-msgstr "automatiska variabeln `%s' skuggar en global"
++msgstr "automatisk variabel `%s` skymmer en global variabel"
+ 
+ #: src/gram.y:4026
+ #, c-format
+ msgid "parameter `%s' is shadowing a global"
+-msgstr "parametern `%s' skuggar en global"
++msgstr "parametern `%s` skymmer en global variabel"
+ 
+ #: src/gram.y:4040 src/gram.y:4053
+ #, c-format
+ msgid "redeclaring `%s' as different data type"
+-msgstr "omdefiniera `%s' som en annan datatyp"
++msgstr "omdeklarerar `%s` med en annan datatyp"
+ 
+ #: src/gram.y:4062
+ #, c-format
+ msgid "duplicate variable: %s"
+-msgstr "duplicera variabel: %s"
++msgstr "dubblerad variabel: %s"
+ 
+ #: src/gram.y:4069
+ #, c-format
+@@ -2780,7 +2785,7 @@
+ #: src/gram.y:4243
+ #, c-format
+ msgid "variable `%s' already initialized"
+-msgstr "variabeln `%s' redan initierad"
++msgstr "variabeln `%s` är redan initierad"
+ 
+ #: src/gram.y:4246
+ msgid "this is the location of the previous initialization"
+@@ -2802,7 +2807,7 @@
+ 
+ #: src/gram.y:4697
+ msgid "argument number too high"
+-msgstr "argument nummer för högt"
++msgstr "argumentnumret är för högt"
+ 
+ #: src/gram.y:4746
+ #, c-format
+@@ -2836,12 +2841,12 @@
+ #: src/lex.l:233
+ #, c-format
+ msgid "`%s' already included here"
+-msgstr "`%s' redan inkluderad här"
++msgstr "`%s` är redan inkluderad här"
+ 
+ #: src/lex.l:236
+ #, c-format
+ msgid "`%s' already included at top level"
+-msgstr "`%s' redan inkluderad på toppnivå"
++msgstr "`%s` är redan inkluderad på toppnivå"
+ 
+ #: src/lex.l:288
+ #, c-format
+@@ -2854,12 +2859,12 @@
+ 
+ #: src/lex.l:710
+ msgid "including a module file is unreliable and may cause subtle errors"
+-msgstr "att inkludera en modulfil är opålitligt och kan orsaka subtila fel"
++msgstr "att inkludera en modulfil är opålitligt och kan orsaka svårupptäckta fel"
+ 
+ #: src/lex.l:713
+ #, c-format
+ msgid "use `require %*.*s' instead"
+-msgstr "använd `require %*.*s' istället"
++msgstr "använd `require %*.*s` i stället"
+ 
+ #: src/lex.l:726
+ msgid "unexpected end of file"
+@@ -2867,24 +2872,24 @@
+ 
+ #: src/lex.l:734
+ msgid "misplaced `module'"
+-msgstr "felplacerad `modul'"
++msgstr "felplacerad `module`"
+ 
+ #: src/lex.l:1277
+ msgid "end of file in comment"
+-msgstr "slutet av filen i kommentar"
++msgstr "filslut i kommentaren"
+ 
+ #: src/lex.l:1285
+ msgid "end of file in string"
+-msgstr "slutet av filen i strängen"
++msgstr "filslut i strängen"
+ 
+ #: src/lex.l:1290
+ msgid "end of file in shell block"
+-msgstr "slutet av filen i skalblock"
++msgstr "filslut i skalblocket"
+ 
+ #: src/main.c:129
+ #, c-format
+ msgid "cannot create trace stream, using standard log: %s"
+-msgstr "kan inte skapa spårström, använder standardlogg: %s"
++msgstr "kan inte skapa spårningsström; använder standardloggen: %s"
+ 
+ #: src/main.c:196
+ #, c-format
+@@ -2893,7 +2898,7 @@
+ 
+ #: src/main.c:284
+ msgid "mailfromd -- a general purpose milter daemon"
+-msgstr "mailfromd -- en milter-daemon för allmänt bruk"
++msgstr "mailfromd – en allmän Milter-demon"
+ 
+ #: src/main.c:379
+ msgid "-O level must be a non-negative integer"
+@@ -2902,15 +2907,16 @@
+ #: src/main.c:393
+ #, c-format
+ msgid "expected assignment, but found `%s'"
+-msgstr "förväntat uppdrag, men hittade `%s'"
++msgstr "förväntade en tilldelning men fick `%s`"
+ 
+ #: src/main.c:423
+ msgid "preprocessor options given, but no default preprocessor defined: use the --preprocessor option"
+-msgstr "preprocessor-alternativ angivna, men ingen standardpreprocessor definierad: använd alternativet --preprocessor"
++msgstr "alternativ för förbehandlaren angivna, men ingen standardförbehandlare "
++"definierad: använd alternativet --preprocessor"
+ 
+ #: src/main.c:438 src/main.c:449
+ msgid "Your configuration file disables passing defines to the preprocessor"
+-msgstr "Din konfigurationsfil inaktiverar att defines skickas till preprocessorn"
++msgstr "Konfigurationsfilen inaktiverar att definitioner skickas till förbehandlaren"
+ 
+ #: src/main.c:459
+ #, c-format
+@@ -2920,11 +2926,11 @@
+ #: src/main.c:464
+ #, c-format
+ msgid "invalid milter timeout: %s"
+-msgstr "ogiltig milter timeout: %s"
++msgstr "ogiltig Milter-tidsgräns: %s"
+ 
+ #: src/main.c:548
+ msgid "HANDLER"
+-msgstr "HANDHAVARE"
++msgstr "HANTERARE"
+ 
+ #: src/main.c:549
+ msgid "run in test mode"
+@@ -2936,7 +2942,7 @@
+ 
+ #: src/main.c:552
+ msgid "run script and execute function FUNC (\"main\" if not given)"
+-msgstr "kör skript och exekvera funktionen FUNC (\"main\" om den inte anges)"
++msgstr "kör skriptet och kör funktionen FUNC (”main” om den inte anges)"
+ 
+ #: src/main.c:555
+ msgid "check syntax and exit"
+@@ -2948,7 +2954,7 @@
+ 
+ #: src/main.c:563
+ msgid "run in daemon mode (default)"
+-msgstr "körs i daemon-läge (standard)"
++msgstr "kör i demonläge (standard)"
+ 
+ #: src/main.c:567
+ msgid "preprocess source files and exit"
+@@ -2969,11 +2975,12 @@
+ 
+ #: src/main.c:577
+ msgid "add DIR to the load path"
+-msgstr "lägg till DIR i laddningsstigen"
++msgstr "lägg till DIR i laddningssökvägen"
+ 
+ #: src/main.c:582
+ msgid "add the directory DIR to the list of directories to be searched for header files"
+-msgstr "lägg till katalogen DIR i listan över kataloger som ska genomsökas efter header-filer"
++msgstr "lägg till katalogen DIR i listan över kataloger som ska genomsökas efter "
++"huvudfiler"
+ 
+ #: src/main.c:586
+ msgid "add the directory DIR to the list of directories to be searched for MFL module files"
+@@ -2981,11 +2988,11 @@
+ 
+ #: src/main.c:590
+ msgid "set communication socket"
+-msgstr "ställ in kommunikationsuttag"
++msgstr "ange kommunikationssocket"
+ 
+ #: src/main.c:594
+ msgid "set callout socket"
+-msgstr "inställd utropsteckning"
++msgstr "ange callout-socket"
+ 
+ #: src/main.c:597
+ msgid "run in mtasim compatibility mode"
+@@ -2993,7 +3000,7 @@
+ 
+ #: src/main.c:600
+ msgid "set code optimization level"
+-msgstr "ställa in kodoptimeringsnivå"
++msgstr "ange kodoptimeringsnivå"
+ 
+ #: src/main.c:602
+ msgid "VAR=VALUE"
+@@ -3005,15 +3012,15 @@
+ 
+ #: src/main.c:606
+ msgid "read relayed domains from FILE"
+-msgstr "läsa vidarebefordrade domäner från FILE"
++msgstr "läs vidarebefordrade domäner från FIL"
+ 
+ #: src/main.c:612
+ msgid "divert output of the \"echo\" instruction to FILE"
+-msgstr "avleda utdata från \"echo\"-instruktionen till FILE"
++msgstr "avled utdata från instruktionen ”echo” till FIL"
+ 
+ #: src/main.c:615
+ msgid "Preprocessor options"
+-msgstr "Alternativ för preprocessor"
++msgstr "Alternativ för förbehandlaren"
+ 
+ #: src/main.c:616
+ msgid "COMMAND"
+@@ -3021,11 +3028,11 @@
+ 
+ #: src/main.c:617
+ msgid "use command as external preprocessor"
+-msgstr "använda kommandot som extern preprocessor"
++msgstr "använd kommandot som extern förbehandlare"
+ 
+ #: src/main.c:620
+ msgid "disable the use of external preprocessor"
+-msgstr "inaktivera användningen av extern preprocessor"
++msgstr "inaktivera användningen av extern förbehandlare"
+ 
+ #: src/main.c:622
+ msgid "NAME[=VALUE]"
+@@ -3033,15 +3040,15 @@
+ 
+ #: src/main.c:623
+ msgid "define a preprocessor symbol NAME as having VALUE, or empty"
+-msgstr "definiera en preprocessorsymbol NAME som att den har VALUE, eller är tom"
++msgstr "definiera förbehandlarsymbolen NAME med värdet VALUE, eller tom"
+ 
+ #: src/main.c:626
+ msgid "undefine a preprocessor symbol NAME"
+-msgstr "avdefiniera en preprocessorsymbol NAME"
++msgstr "avdefiniera förbehandlarsymbolen NAME"
+ 
+ #: src/main.c:629
+ msgid "Timeout control"
+-msgstr "Timeout-kontroll"
++msgstr "Tidsgränskontroll"
+ 
+ #: src/main.c:630
+ msgid "TIME"
+@@ -3049,7 +3056,7 @@
+ 
+ #: src/main.c:631
+ msgid "set MTA connection timeout"
+-msgstr "set Timeout för MTA-anslutning"
++msgstr "ange tidsgräns för MTA-anslutning"
+ 
+ #: src/main.c:634
+ msgid "Informational and debugging options"
+@@ -3073,19 +3080,19 @@
+ 
+ #: src/main.c:646
+ msgid "dump disassembled code"
+-msgstr "dumpa disassemblerad kod"
++msgstr "skriv ut disassemblerad kod"
+ 
+ #: src/main.c:650
+ msgid "dump grammar traces"
+-msgstr "dumpa grammatiska spår"
++msgstr "skriv ut grammatikspår"
+ 
+ #: src/main.c:653
+ msgid "dump lexical analyzer traces"
+-msgstr "dumpa spår av lexikal analysator"
++msgstr "skriv ut spår från lexikalanalysatorn"
+ 
+ #: src/main.c:656
+ msgid "dump parser tree"
+-msgstr "dumpa parser träd"
++msgstr "skriv ut parsningsträdet"
+ 
+ #: src/main.c:659
+ msgid "show used Sendmail macros"
+@@ -3093,20 +3100,20 @@
+ 
+ #: src/main.c:662
+ msgid "produce a cross-reference listing"
+-msgstr "producera en korsreferenslista"
++msgstr "skapa en korsreferenslista"
+ 
+ #: src/main.c:669
+ msgid "enable stack traces on runtime errors"
+-msgstr "aktivera stackspårning vid körtidsfel"
++msgstr "aktivera stackspår vid körtidsfel"
+ 
+ #: src/main.c:711
+ #, c-format
+ msgid "Invalid milter timeout: %lu"
+-msgstr "Ogiltig milter timeout: %lu"
++msgstr "Ogiltig Milter-tidsgräns: %lu"
+ 
+ #: src/main.c:729
+ msgid "not enough arguments"
+-msgstr "inte tillräckligt med argument"
++msgstr "för få argument"
+ 
+ #: src/main.c:732
+ msgid "too many arguments"
+@@ -3114,15 +3121,15 @@
+ 
+ #: src/main.c:852
+ msgid "expected string or list of strings"
+-msgstr "förväntad sträng eller lista med strängar"
++msgstr "förväntade en sträng eller en lista med strängar"
+ 
+ #: src/main.c:862
+ msgid "Dump stack traces on runtime errors."
+-msgstr "Dumpa stackspår vid körtidsfel."
++msgstr "Skriv ut stackspår vid körtidsfel."
+ 
+ #: src/main.c:865
+ msgid "Set milter timeout."
+-msgstr "Ställ in milter timeout."
++msgstr "Ange Milter-tidsgräns."
+ 
+ #: src/main.c:866 src/srvcfg.c:421 src/srvcfg.c:426 src/srvcfg.c:431
+ #: src/srvcfg.c:436 src/srvcfg.c:442 src/srvcfg.c:448 src/srvcfg.c:454
+@@ -3132,7 +3139,7 @@
+ 
+ #: src/main.c:868
+ msgid "Sets the URL of the default callout server."
+-msgstr "Ställer in URL:en för standardservern för utrop."
++msgstr "Anger URL-adressen till standard-callout-servern."
+ 
+ #: src/main.c:869
+ msgid "url"
+@@ -3140,7 +3147,8 @@
+ 
+ #: src/main.c:871
+ msgid "Add directories to the list of directories to be searched for header files.  Argument is a list of directory names separated by colons."
+-msgstr "Lägger till kataloger i listan över kataloger som ska genomsökas efter header-filer.  Argumentet är en lista med katalognamn åtskilda med kolon."
++msgstr "Lägger till kataloger i listan över kataloger som ska genomsökas efter "
++"huvudfiler. Argumentet är en lista med katalognamn åtskilda med kolon."
+ 
+ #: src/main.c:874 src/main.c:879
+ msgid "path: string"
+@@ -3180,7 +3188,7 @@
+ 
+ #: src/main.c:894
+ msgid "Read relayed domain names from the file"
+-msgstr "Läsa vidarebefordrade domännamn från filen"
++msgstr "Läs vidarebefordrade domännamn från filen"
+ 
+ #: src/main.c:895
+ msgid "file: string"
+@@ -3188,7 +3196,7 @@
+ 
+ #: src/main.c:939
+ msgid "Configure MFL runtime values."
+-msgstr "Konfigurera MFL:s runtime-värden."
++msgstr "Konfigurera MFL:s körtidsvärden."
+ 
+ #: src/main.c:1006
+ msgid "unknown"
+@@ -3197,16 +3205,16 @@
+ #: src/main.c:1209
+ #, c-format
+ msgid "no servers defined; will listen on %s"
+-msgstr "inga servrar definierade; kommer att lyssna på %s"
++msgstr "inga servrar har definierats; lyssnar på %s"
+ 
+ #: src/main.c:1299
+ #, c-format
+ msgid "cannot create echo output stream: %s"
+-msgstr "kan inte skapa ekoutmatningsström: %s"
++msgstr "kan inte skapa ekoutdataström: %s"
+ 
+ #: src/main.c:1353
+ msgid "extra arguments in daemon mode"
+-msgstr "extra argument i daemon-läge"
++msgstr "extra argument i demonläge"
+ 
+ #: src/main.c:1364
+ #, c-format
+@@ -3235,7 +3243,7 @@
+ #: src/main.c:1543
+ #, c-format
+ msgid "function %s must return number"
+-msgstr "funktion %s måste returnera nummer"
++msgstr "funktionen %s måste returnera ett tal"
+ 
+ #: src/main.c:1563
+ msgid "script file is given without full file name"
+@@ -3243,23 +3251,23 @@
+ 
+ #: src/mfdbtool.c:47
+ msgid "operation is not applicable"
+-msgstr "operationen är inte tillämplig"
++msgstr "åtgärden är inte tillämplig"
+ 
+ #: src/mfdbtool.c:60
+ msgid "database file name is not given"
+-msgstr "databasens filnamn anges inte"
++msgstr "databasfilens namn har inte angetts"
+ 
+ #: src/mfdbtool.c:114
+ msgid "list is not applicable to this DB format"
+-msgstr "listan är inte tillämplig på detta DB-format"
++msgstr "list gäller inte för detta databasformat"
+ 
+ #: src/mfdbtool.c:146
+ msgid "expire is not applicable to this DB format"
+-msgstr "expire är inte tillämpligt på detta DB-format"
++msgstr "expire gäller inte för detta databasformat"
+ 
+ #: src/mfdbtool.c:160
+ msgid "compact is not applicable to this DB format"
+-msgstr "compact är inte tillämpligt för detta DB-format"
++msgstr "compact gäller inte för detta databasformat"
+ 
+ #: src/mfdbtool.c:169
+ msgid "mfdbtool -- Mailfromd database management tool"
+@@ -3271,11 +3279,11 @@
+ 
+ #: src/mfdbtool.c:239
+ msgid "delete given entries from the database"
+-msgstr "radera givna poster från databasen"
++msgstr "radera angivna poster från databasen"
+ 
+ #: src/mfdbtool.c:242
+ msgid "list given database (default cache)"
+-msgstr "lista given databas (standard cache)"
++msgstr "lista angiven databas (standard är cache)"
+ 
+ #: src/mfdbtool.c:245
+ msgid "delete expired entries from the database"
+@@ -3291,7 +3299,7 @@
+ 
+ #: src/mfdbtool.c:253
+ msgid "DB file name to operate upon"
+-msgstr "DB-filnamn att arbeta med"
++msgstr "DB-filnamn att hantera"
+ 
+ #: src/mfdbtool.c:255
+ msgid "FORMAT"
+@@ -3299,7 +3307,7 @@
+ 
+ #: src/mfdbtool.c:256
+ msgid "format of the DB file to operate upon"
+-msgstr "format för DB-filen som ska bearbetas"
++msgstr "format för DB-filen som ska hanteras"
+ 
+ #: src/mfdbtool.c:259
+ msgid "ignore failed reads while compacting the database"
+@@ -3319,7 +3327,7 @@
+ 
+ #: src/mfdbtool.c:274 src/srvcfg.c:667
+ msgid "set debugging level"
+-msgstr "ställa in felsökningsnivå"
++msgstr "ange felsökningsnivå"
+ 
+ #: src/mfdbtool.c:277
+ msgid "Configuration modifiers"
+@@ -3327,11 +3335,11 @@
+ 
+ #: src/mfdbtool.c:279 src/srvcfg.c:659
+ msgid "set new program state directory"
+-msgstr "ställa in nytt program statskatalog"
++msgstr "ange ny tillståndskatalog för programmet"
+ 
+ #: src/mfdbtool.c:282
+ msgid "set database expiration interval to NUMBER seconds"
+-msgstr "ställa in databasens utgångsintervall till ANTAL sekunder"
++msgstr "ange databasens utgångsintervall till ANTAL sekunder"
+ 
+ #: src/mfdbtool.c:305 src/srvcfg.c:536
+ msgid "Default database type"
+@@ -3343,7 +3351,7 @@
+ 
+ #: src/mfdbtool.c:313 src/srvcfg.c:533
+ msgid "Set program state directory."
+-msgstr "Ställ in programstatuskatalog."
++msgstr "Ange programmets tillståndskatalog."
+ 
+ #: src/mfdbtool.c:314
+ msgid "dir"
+@@ -3359,9 +3367,9 @@
+ msgstr ""
+ "Ange felsökningsnivå för mailfromd. Argumentet är en semikolonseparerad lista med felsökningsspecifikationer. En förenklad syntax för specifikationerna är:\n"
+ "   [!]<category: string>[.<level: string>,<level: string>...]\n"
+-"För mer information, se Mailfromd-manualen, avsnitt 3.18 \"Logging\n"
+-"and Debugging\", GNU Mailutils manual, avsnitt 3.3 \"Debugging\",\n"
+-"eller besök <http://mailutils.org/wiki/Debug_level>."
++"Mer information finns i Mailfromd-manualen, avsnitt 3.18 ”Logging\n"
++"and Debugging”, GNU Mailutils-manualen, avsnitt 3.3 ”Debugging”,\n"
++"eller på <http://mailutils.org/wiki/Debug_level>."
+ 
+ #: src/mfdbtool.c:322 src/srvcfg.c:499 pmult/pmult.c:705
+ msgid "spec: list"
+@@ -3374,7 +3382,7 @@
+ 
+ #: src/mfdbtool.c:372
+ msgid "you must specify one of --list, --delete, --expire or --compat"
+-msgstr "måste du ange ett av följande alternativ: --list, --delete, --expire eller --compat"
++msgstr "du måste ange ett av alternativen --list, --delete, --expire eller --compat"
+ 
+ #: src/mfdbtool.c:378
+ msgid "--all is meaningful only with --expire or --compact option"
+@@ -3397,16 +3405,16 @@
+ #: src/pp.c:256
+ #, c-format
+ msgid "cannot parse include line: %s"
+-msgstr "kan inte analysera inkludera rad: %s"
++msgstr "kan inte tolka include-raden: %s"
+ 
+ #: src/pp.c:327 src/pp.c:353
+ #, c-format
+ msgid "cannot parse #line line: %s"
+-msgstr "kan inte tolka #line linje: %s"
++msgstr "kan inte tolka #line-raden: %s"
+ 
+ #: src/pp.c:340 src/pp.c:360
+ msgid "malformed #line statement"
+-msgstr "felformad #line-sats"
++msgstr "felaktigt formaterad #line-sats"
+ 
+ #: src/pp.c:357
+ msgid "invalid #line statement"
+@@ -3414,49 +3422,53 @@
+ 
+ #: src/pp.c:378
+ msgid "Enable preprocessor (default)."
+-msgstr "Aktivera preprocessor (standard)."
++msgstr "Aktivera förbehandlaren (standard)."
+ 
+ #: src/pp.c:380
+ msgid "Preprocessor command line stub."
+-msgstr "Preprocessor kommandoradsstub."
++msgstr "Kommandoradsstub för förbehandlaren."
+ 
+ #: src/pp.c:382
+ msgid "Pass include search path to the preprocessor via -I options (default: false)"
+-msgstr "Skicka sökvägen för inkludering till preprocessorn via -I-alternativen (standard: false)"
++msgstr "Skicka include-sökvägen till förbehandlaren via alternativen -I (standard: "
++"false)"
+ 
+ #: src/pp.c:384
+ msgid "Pass feature definition and defines from the command line to the preprocessor via -D options (default: true)"
+-msgstr "Skicka funktionsdefinitioner och definitioner från kommandoraden till preprocessorn via -D-alternativ (standard: true)"
++msgstr "Skicka funktionsdefinitioner och definitioner från kommandoraden till "
++"förbehandlaren via alternativen -D (standard: true)"
+ 
+ #: src/pp.c:386
+ msgid "Name of the preprocessor setup file.  Looked up in include search path, unless absolute."
+-msgstr "Namnet på preprocessorns installationsfil.  Letas upp i sökvägen för include, om den inte är absolut."
++msgstr "Namnet på förbehandlarens inställningsfil. Söks i include-sökvägen, om den "
++"inte är absolut."
+ 
+ #: src/pp.c:397
+ msgid "MFL preprocessor configuration."
+-msgstr "Konfiguration av MFL-preprocessor."
++msgstr "Konfiguration av MFL-förbehandlaren."
+ 
+ #: src/pp.c:521
+ #, c-format
+ msgid "preprocessor exited with status %d"
+-msgstr "preprocessorn avslutades med status %d"
++msgstr "förbehandlaren avslutades med status %d"
+ 
+ #: src/pp.c:525
+ #, c-format
+ msgid "preprocessor terminated on signal %d"
+-msgstr "förprocessorn avslutades på signal %d"
++msgstr "förbehandlaren avslutades av signal %d"
+ 
+ #: src/pp.c:528
+ msgid "preprocessor stopped"
+-msgstr "preprocessorn stoppad"
++msgstr "förbehandlaren stoppades"
+ 
+ #: src/pp.c:530
+ msgid "preprocessor terminated abnormally"
+-msgstr "förprocessorn avslutades onormalt"
++msgstr "förbehandlaren avslutades onormalt"
+ 
+ #: src/pp.c:560
+ msgid "preprocessor options given, but the use of preprocessor is disabled; use the --preprocessor option"
+-msgstr "preprocessor-alternativ anges, men användningen av preprocessor är inaktiverad; använd alternativet --preprocessor"
++msgstr "alternativ för förbehandlaren angivna, men användningen av förbehandlaren är "
++"inaktiverad; använd alternativet --preprocessor"
+ 
+ #: src/pragma.c:175
+ msgid "too few arguments in pragma"
+@@ -3482,11 +3494,11 @@
+ #: src/prog.c:614
+ #, c-format
+ msgid "stack segment expanded, new size=%lu"
+-msgstr "stacksegmentet utökat, ny storlek=%lu"
++msgstr "stacksegmentet utökades, ny storlek=%lu"
+ 
+ #: src/prog.c:690
+ msgid "stack trace:"
+-msgstr "stackspårning:"
++msgstr "stackspår:"
+ 
+ #: src/prog.c:702
+ msgid "stack trace finishes"
+@@ -3504,11 +3516,11 @@
+ 
+ #: src/prog.c:798
+ msgid "stack underflow"
+-msgstr "stack underflöde"
++msgstr "stackunderflöde"
+ 
+ #: src/prog.c:809 src/prog.c:829
+ msgid "heap overrun; increase #pragma stacksize"
+-msgstr "överskridande av heap; öka #pragma stacksize"
++msgstr "heapen överskreds; öka #pragma stacksize"
+ 
+ #: src/prog.c:883 src/prog.c:894 src/prog.c:923
+ msgid "memory chunk too big to fit into heap"
+@@ -3528,7 +3540,7 @@
+ 
+ #: src/prog.c:1199
+ msgid "invalid back-reference number"
+-msgstr "ogiltigt back-referensnummer"
++msgstr "ogiltigt bakåtreferensnummer"
+ 
+ #: src/prog.c:1779
+ #, c-format
+@@ -3541,11 +3553,11 @@
+ 
+ #: src/prog.c:2548
+ msgid "pc out of range"
+-msgstr "pc utanför intervallet"
++msgstr "programräknaren ligger utanför intervallet"
+ 
+ #: src/prog.c:2562
+ msgid "out of memory while formatting error message:"
+-msgstr "slut på minne under formatering felmeddelande:"
++msgstr "slut på minne vid formatering av felmeddelande:"
+ 
+ #: src/prog.c:2625
+ #, c-format
+@@ -3555,36 +3567,36 @@
+ #: src/prog.c:2646
+ #, c-format
+ msgid "uncaught exception %s: %s"
+-msgstr "oavsiktligt undantag %s: %s"
++msgstr "ohanterat undantag %s: %s"
+ 
+ #: src/prog.c:2733
+ #, c-format
+ msgid "%scannot create temporary stream: %s"
+-msgstr "%skan inte skapa tillfällig ström: %s"
++msgstr "%skan inte skapa tillfällig dataström: %s"
+ 
+ #: src/prog.c:2768
+ #, c-format
+ msgid "%stemporary stream seek failed: %s"
+-msgstr "%s temporär strömsökning misslyckades: %s"
++msgstr "%ssökning i tillfällig dataström misslyckades: %s"
+ 
+ #: src/prog.c:2783
+ #, c-format
+ msgid "%stemporary stream write failed: %s"
+-msgstr "%sskrivning av tillfällig ström misslyckades: %s"
++msgstr "%sskrivning till tillfällig dataström misslyckades: %s"
+ 
+ #: src/prog.c:3011
+ #, c-format
+ msgid "unknown built-in private data requested (%d)"
+-msgstr "okänd inbyggd privat data begärd (%d)"
++msgstr "okänd inbyggd privatdata begärdes (%d)"
+ 
+ #: src/prog.c:3016
+ msgid "no built-in private data registered"
+-msgstr "inga inbyggda privata uppgifter registrerade"
++msgstr "ingen inbyggd privatdata är registrerad"
+ 
+ #: src/prog.c:3024
+ #, c-format
+ msgid "initial allocation for built-in private data #%d failed"
+-msgstr "initial tilldelning för inbyggda privata data #%d misslyckades"
++msgstr "ursprunglig allokering för inbyggd privatdata #%d misslyckades"
+ 
+ #: src/prog.c:3130
+ msgid "invalid use of $macro in startup handler"
+@@ -3621,7 +3633,7 @@
+ #: src/srvcfg.c:167 src/srvcfg.c:599
+ #, c-format
+ msgid "state directory `%s' is not an absolute file name"
+-msgstr "state directory `%s' är inte ett absolut filnamn"
++msgstr "tillståndskatalogen `%s` är inte ett absolut filnamn"
+ 
+ #: src/srvcfg.c:206
+ #, c-format
+@@ -3639,15 +3651,15 @@
+ 
+ #: src/srvcfg.c:268
+ msgid "Listen on this URL."
+-msgstr "Lyssna på den här URL:en."
++msgstr "Lyssna på den här URL-adressen."
+ 
+ #: src/srvcfg.c:269 pmult/pmult.c:677
+ msgid "url: string"
+-msgstr "webbadress: sträng"
++msgstr "URL-adress: sträng"
+ 
+ #: src/srvcfg.c:273
+ msgid "Maximum number of instances allowed for this server."
+-msgstr "Högsta antal instanser som tillåts för denna server."
++msgstr "Högsta tillåtna antal instanser för den här servern."
+ 
+ #: src/srvcfg.c:276
+ msgid "Single-process mode."
+@@ -3655,7 +3667,7 @@
+ 
+ #: src/srvcfg.c:279
+ msgid "Reuse existing socket (default)."
+-msgstr "Återanvänd befintligt uttag (standard)."
++msgstr "Återanvänd befintlig socket (standard)."
+ 
+ #: src/srvcfg.c:284
+ msgid "Server-dependent options"
+@@ -3684,35 +3696,35 @@
+ #: src/srvcfg.c:396
+ #, c-format
+ msgid "unknown timeout class: %s"
+-msgstr "okänd timeout klass: %s"
++msgstr "okänd tidsgränsklass: %s"
+ 
+ #: src/srvcfg.c:420
+ msgid "Initial SMTP connection timeout."
+-msgstr "Initial tidsgräns för SMTP-anslutning."
++msgstr "Ursprunglig tidsgräns för SMTP-anslutning."
+ 
+ #: src/srvcfg.c:425
+ msgid "Timeout for initial SMTP response."
+-msgstr "Timeout för det första SMTP-svaret."
++msgstr "Tidsgräns för det första SMTP-svaret."
+ 
+ #: src/srvcfg.c:430
+ msgid "Timeout for HELO response."
+-msgstr "Timeout för HELO-svar."
++msgstr "Tidsgräns för HELO-svar."
+ 
+ #: src/srvcfg.c:435
+ msgid "Timeout for MAIL response."
+-msgstr "Timeout för MAIL-svar."
++msgstr "Tidsgräns för MAIL-svar."
+ 
+ #: src/srvcfg.c:441
+ msgid "Timeout for RCPT response."
+-msgstr "Timeout för svar från RCPT."
++msgstr "Tidsgräns för RCPT-svar."
+ 
+ #: src/srvcfg.c:447
+ msgid "Timeout for RSET response."
+-msgstr "Timeout för RSET-svar."
++msgstr "Tidsgräns för RSET-svar."
+ 
+ #: src/srvcfg.c:453
+ msgid "Timeout for QUIT response."
+-msgstr "Timeout för QUIT-svar."
++msgstr "Tidsgräns för QUIT-svar."
+ 
+ #: src/srvcfg.c:465
+ msgid "Set SMTP timeouts."
+@@ -3722,7 +3734,7 @@
+ #. them
+ #: src/srvcfg.c:468
+ msgid "[soft | hard]"
+-msgstr "[mjuk | hård]"
++msgstr "[soft | hard]"
+ 
+ #: src/srvcfg.c:501
+ msgid "Enable transcript of call-out SMTP sessions."
+@@ -3736,11 +3748,11 @@
+ #. TRANSLATORS: Don't translate keywords to the right of arg:
+ #: src/srvcfg.c:508
+ msgid "arg: never|always|ondemand"
+-msgstr "arg: aldrig|alltid|ondemand"
++msgstr "arg: never|always|ondemand"
+ 
+ #: src/srvcfg.c:513
+ msgid "Timeout for all SMTP I/O operations."
+-msgstr "Timeout för alla SMTP I/O-operationer."
++msgstr "Tidsgräns för alla SMTP-I/O-operationer."
+ 
+ #: src/srvcfg.c:514
+ msgid "time: seconds"
+@@ -3756,7 +3768,7 @@
+ 
+ #: src/srvcfg.c:520
+ msgid "Retain the supplementary group <name> when switching to user privileges"
+-msgstr "Behåll tilläggsgruppen <name> när du byter till användarrättigheter"
++msgstr "Behåll tilläggsgruppen <name> när du byter till användarbehörighet"
+ 
+ #: src/srvcfg.c:522
+ msgid "group: string"
+@@ -3764,7 +3776,7 @@
+ 
+ #: src/srvcfg.c:524
+ msgid "Switch to this user privileges after startup."
+-msgstr "Byt till denna användarrättighet efter uppstart."
++msgstr "Byt till den här användarens behörighet efter uppstart."
+ 
+ #: src/srvcfg.c:526
+ msgid "Set file to store PID value in."
+@@ -3772,7 +3784,7 @@
+ 
+ #: src/srvcfg.c:531 pmult/pmult.c:695
+ msgid "Set logger stream."
+-msgstr "Ställ in loggerström."
++msgstr "Ange loggström."
+ 
+ #: src/srvcfg.c:534 pmult/pmult.c:715
+ msgid "dir: string"
+@@ -3784,7 +3796,9 @@
+ 
+ #: src/srvcfg.c:546
+ msgid "Set email address for use in SMTP `MAIL FROM' command.  Argument is an email address or a comma-separated list of addresses.  Use <> for null address.  Other addresses can be given without angle brackets."
+-msgstr "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM'.  Argumentet är en e-postadress eller en kommaseparerad lista med adresser.  Använd <> för nolladresser.  Andra adresser kan anges utan vinkelparenteser."
++msgstr "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM`. "
++"Argumentet är en e-postadress eller en kommaseparerad lista med adresser. "
++"Använd <> för en tom adress. Andra adresser kan anges utan vinkelparenteser."
+ 
+ #: src/srvcfg.c:550
+ msgid "addr"
+@@ -3796,7 +3810,7 @@
+ 
+ #: src/srvcfg.c:631
+ msgid "invalid pidfile name: must be absolute"
+-msgstr "ogiltigt pidfile-namn: måste vara absolut"
++msgstr "ogiltigt pidfilnamn: måste vara absolut"
+ 
+ #: src/srvcfg.c:638
+ msgid "Server configuration modifiers"
+@@ -3804,19 +3818,19 @@
+ 
+ #: src/srvcfg.c:640
+ msgid "stay in foreground"
+-msgstr "hålla sig i förgrunden"
++msgstr "håll dig i förgrunden"
+ 
+ #: src/srvcfg.c:643
+ msgid "run in single-process mode"
+-msgstr "körs i enprocessläge"
++msgstr "kör i enprocessläge"
+ 
+ #: src/srvcfg.c:646
+ msgid "set pidfile name"
+-msgstr "set pidfile namn"
++msgstr "ange pidfilnamn"
+ 
+ #: src/srvcfg.c:649
+ msgid "switch to this user privileges after startup"
+-msgstr "växla till denna användarbehörighet efter uppstart"
++msgstr "byt till den här användarens behörighet efter uppstart"
+ 
+ #: src/srvcfg.c:655
+ msgid "ADDRESS"
+@@ -3848,11 +3862,11 @@
+ 
+ #: src/srvcfg.c:683
+ msgid "select logger stream"
+-msgstr "välj loggerström"
++msgstr "välj loggström"
+ 
+ #: src/srvcfg.c:686 pmult/pmult.c:832
+ msgid "set the identifier used in syslog messages to STRING"
+-msgstr "ställ in identifieraren som används i syslog-meddelanden till STRING"
++msgstr "ange identifieraren som används i sysloggmeddelanden till STRING"
+ 
+ #: src/srvcfg.c:689
+ msgid "debug messages include source information"
+@@ -3861,12 +3875,12 @@
+ #: src/srvcfg.c:795 pmult/pmult.c:2284
+ #, c-format
+ msgid "unsupported logger stream: %s"
+-msgstr "logger-ström som inte stöds: %s"
++msgstr "loggström som inte stöds: %s"
+ 
+ #: src/symbols.c:151
+ #, c-format
+ msgid "cannot compile regex (%s): %s"
+-msgstr "kan inte kompilera regex (%s): %s"
++msgstr "kan inte kompilera reguljärt uttryck (%s): %s"
+ 
+ #: src/symbols.c:271
+ #, c-format
+@@ -3944,12 +3958,12 @@
+ #: pmult/pmult.c:156
+ #, c-format
+ msgid "cannot append body chunk: %s"
+-msgstr "kan inte lägga till body chunk: %s"
++msgstr "kan inte lägga till datasegment i brödtexten: %s"
+ 
+ #: pmult/pmult.c:261
+ #, c-format
+ msgid "cannot get the value of {%s}: %s"
+-msgstr "kan inte få värdet av {%s}: %s"
++msgstr "kan inte hämta värdet för {%s}: %s"
+ 
+ #: pmult/pmult.c:298
+ #, c-format
+@@ -3968,7 +3982,7 @@
+ 
+ #: pmult/pmult.c:417
+ msgid "Set remote milter type. Only `milter' is understood so far."
+-msgstr "Ange typ av fjärrstyrd milter. Endast `milter' är förstådd hittills."
++msgstr "Ange typ av fjärrmilter. Endast `milter` stöds hittills."
+ 
+ #. TRANSLATORS: 'milter' and 'pmilter' are keywords, do not translate
+ #. them.
+@@ -3982,23 +3996,27 @@
+ 
+ #: pmult/pmult.c:424
+ msgid "Set write timeout."
+-msgstr "Ställ in tidsgräns för skrivning."
++msgstr "Ange tidsgräns för skrivning."
+ 
+ #: pmult/pmult.c:427
+ msgid "Set read timeout."
+-msgstr "Ställ in tidsgräns för läsning."
++msgstr "Ange tidsgräns för läsning."
+ 
+ #: pmult/pmult.c:430
+ msgid "Set timeout for EOM."
+-msgstr "Ställ in timeout för EOM."
++msgstr "Ange tidsgräns för EOM."
+ 
+ #: pmult/pmult.c:433
+ msgid "Set connect timeout."
+-msgstr "Ställ in tidsgräns för anslutning."
++msgstr "Ange tidsgräns för anslutning."
+ 
+ #: pmult/pmult.c:436
+ msgid "Set log verbosity level. Arg is a list of items separated by commas or whitespace.  Each item is a log level optionally prefixed with `!' to indicate `any level except this', or '<', meaning `all levels up to and including this'.  Log levels in order of increasing priority are: proto, debug, info, warn, err, fatal."
+-msgstr "Ställer in loggens ordrikhetsnivå. Arg är en lista med objekt som separeras med kommatecken eller blanksteg.  Varje objekt är en loggnivå som kan föregås av `!' för att ange `alla nivåer utom denna', eller '<', vilket betyder `alla nivåer upp till och inklusive denna'.  Loggnivåerna är i stigande prioritetsordning: proto, debug, info, warn, err, fatal."
++msgstr "Ange loggens detaljnivå. Argumentet är en lista med objekt som separeras med "
++"kommatecken eller blanksteg. Varje objekt är en loggnivå som kan föregås av "
++"`!` för att ange ”alla nivåer utom denna”, eller `<`, vilket betyder ”alla "
++"nivåer upp till och inklusive denna”. Loggnivåerna i stigande "
++"prioritetsordning är: proto, debug, info, warn, err, fatal."
+ 
+ #: pmult/pmult.c:441
+ msgid "arg: list"
+@@ -4022,7 +4040,7 @@
+ #: pmult/pmult.c:547
+ #, c-format
+ msgid "macro %s already defined"
+-msgstr "makro %s redan definierat"
++msgstr "makro %s är redan definierat"
+ 
+ #: pmult/pmult.c:554 pmult/pmult.c:665 pmult/pmult.c:1320
+ #, c-format
+@@ -4035,23 +4053,24 @@
+ 
+ #: pmult/pmult.c:615
+ msgid "not enough arguments to define-macros"
+-msgstr "inte tillräckligt med argument för define-macros"
++msgstr "för få argument för define-macros"
+ 
+ #: pmult/pmult.c:620
+ msgid "too many arguments to define-macros"
+-msgstr "för många argument till define-makron"
++msgstr "för många argument för define-macros"
+ 
+ #: pmult/pmult.c:653
+ msgid "too many macros defined for stage \"mail\", while processing \"auth-macros\" statement"
+-msgstr "för många makron definierade för scenen \"mail\", vid bearbetning av \"auth-macros\" -uttalande"
++msgstr "för många makron definierade för stadiet ”mail” vid bearbetning av satsen "
++"”auth-macros”"
+ 
+ #: pmult/pmult.c:676
+ msgid "Listen for milter requests on the given URL."
+-msgstr "Lyssna efter milter-förfrågningar på den angivna URL:en."
++msgstr "Lyssna efter milterförfrågningar på den angivna URL-adressen."
+ 
+ #: pmult/pmult.c:679
+ msgid "Maximum number of threads (soft limit)."
+-msgstr "Maximalt antal trådar (soft limit)."
++msgstr "Maximalt antal trådar (mjuk gräns)."
+ 
+ #: pmult/pmult.c:681
+ msgid "Maximum number of threads (hard limit)."
+@@ -4063,7 +4082,7 @@
+ 
+ #: pmult/pmult.c:686
+ msgid "Set pmilter debug verbosity level."
+-msgstr "Ställ in pmilter debug-ordningsnivå."
++msgstr "Ange pmilters felsökningsdetaljnivå."
+ 
+ #: pmult/pmult.c:688
+ msgid "Write PID to this file."
+@@ -4087,9 +4106,11 @@
+ "  <module: string>[=<level: number>]\n"
+ "where <module> is the name of a Mailfromd module, and <level> is the desired verbosity level for that module."
+ msgstr ""
+-"Ställer in Mailfromds felsökningsnivå.  Argument är en kommaseparerad lista med felsökningsspecifikationer, som var och en har följande form:\n"
+-" <module: string>[=<level: number>]\n"
+-"där <module> är namnet på en Mailfromd-modul och <level> är den önskade felsökningsnivån för den modulen."
++"Anger Mailfromds felsökningsdetaljnivå. Argumentet är en kommaseparerad lista "
++"med felsökningsspecifikationer, som var och en har följande form:\n"
++"  <module: string>[=<level: number>]\n"
++"där <module> är namnet på en Mailfromd-modul och <level> är den önskade "
++"detaljnivån för den modulen."
+ 
+ #: pmult/pmult.c:708 pmult/pmult.c:711 pmult/pmult.c:714 pmult/pmult.c:717
+ #: pmult/pmult.c:720
+@@ -4102,7 +4123,7 @@
+ 
+ #: pmult/pmult.c:718
+ msgid "arg: number"
+-msgstr "arg: nummer"
++msgstr "arg: tal"
+ 
+ #: pmult/pmult.c:798
+ msgid "ident"
+@@ -4110,7 +4131,7 @@
+ 
+ #: pmult/pmult.c:805
+ msgid "pmilter multiplexer"
+-msgstr "pmilter multiplexer"
++msgstr "pmilter-multiplexor"
+ 
+ #: pmult/pmult.c:822
+ msgid "URL"
+@@ -4118,11 +4139,11 @@
+ 
+ #: pmult/pmult.c:823
+ msgid "listen on the given URL"
+-msgstr "lyssna på den angivna URL:en"
++msgstr "lyssna på den angivna URL-adressen"
+ 
+ #: pmult/pmult.c:835
+ msgid "set debug verbosity level"
+-msgstr "ställ in felsökningsnivå"
++msgstr "ange felsökningsdetaljnivå"
+ 
+ #: pmult/pmult.c:839
+ msgid "disable signal handling in the main thread (use for debugging)."
+@@ -4161,17 +4182,17 @@
+ #: pmult/pmult.c:2027
+ #, c-format
+ msgid "%scannot get the size of the header stream: %s"
+-msgstr "%s kan inte få storleken på rubrikströmmen: %s"
++msgstr "%skan inte hämta storleken på huvudets dataström: %s"
+ 
+ #: pmult/pmult.c:2035
+ #, c-format
+ msgid "%scannot create header: %s"
+-msgstr "%skan inte skapa rubrik: %s"
++msgstr "%skan inte skapa huvud: %s"
+ 
+ #: pmult/pmult.c:2164
+ #, c-format
+ msgid "reading from header stream failed: %s"
+-msgstr "läsning från header stream misslyckades: %s"
++msgstr "läsning från huvudets dataström misslyckades: %s"
+ 
+ #: pmult/pmult.c:2214
+ #, c-format
+@@ -4181,30 +4202,30 @@
+ #: pmult/pmult.c:2248
+ #, c-format
+ msgid "%s starting"
+-msgstr "%s start"
++msgstr "%s startar"
+ 
+ #: pmult/pmult.c:2250
+ #, c-format
+ msgid "%s terminated"
+-msgstr "%s avslutade"
++msgstr "%s avslutades"
+ 
+ #: pmult/pmult.c:2270
+ #, c-format
+ msgid "failed to set up signals: %s"
+-msgstr "misslyckades med att sätta upp signaler: %s"
++msgstr "misslyckades med att konfigurera signaler: %s"
+ 
+ #: pmult/pmult.c:2333
+ msgid "URL to listen on was not specified"
+-msgstr "URL för att lyssna på angavs inte"
++msgstr "URL-adressen att lyssna på angavs inte"
+ 
+ #: pmult/pmult.c:2339
+ msgid "no clients configured"
+-msgstr "inga klienter konfigurerade"
++msgstr "inga klienter har konfigurerats"
+ 
+ #: pmult/pmult.c:2347
+ #, c-format
+ msgid "version mismatch: compile_time=%d, run_time=%d"
+-msgstr "versionsmissmatchning: compile_time=%d, run_time=%d"
++msgstr "versionsinkonsekvens: compile_time=%d, run_time=%d"
+ 
+ #: pmult/pmult.c:2387
+ #, c-format
+@@ -4214,4 +4235,4 @@
+ #: pmult/pmult.c:2398
+ #, c-format
+ msgid "cannot create main thread: %s"
+-msgstr "kan inte skapa huvudtråd: %s"
++msgstr "kan inte skapa huvudtråden: %s"

@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 78 537 aktiva poster i de 85 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 19 382 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 79 452 aktiva poster i de 86 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 19 782 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.0 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -96,6 +96,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#f4f1c9"><td>lordsawar</td><td>0.3.3-pre2</td><td align="right">2184</td><td align="right">267</td><td align="right">12.23 %</td><td><a href="lordsawar-0.3.3-pre2.sv.po">PO</a></td><td><a href="diff/lordsawar-0.3.3-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/lordsawar-0.3.3-pre2.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>lynx</td><td>2.9.0-dev8</td><td align="right">1284</td><td align="right">390</td><td align="right">30.37 %</td><td><a href="lynx-2.9.0-dev8.sv.po">PO</a></td><td><a href="diff/lynx-2.9.0-dev8.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/lynx-2.9.0-dev8.sv.po">Original</a></td></tr>
 <tr bgcolor="#f4cccc"><td>m4</td><td>1.4.21</td><td align="right">199</td><td align="right">53</td><td align="right">26.63 %</td><td><a href="m4-1.4.21.sv.po">PO</a></td><td><a href="diff/m4-1.4.21.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/m4-1.4.21.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>mailfromd</td><td>8.17.91</td><td align="right">915</td><td align="right">400</td><td align="right">43.72 %</td><td><a href="mailfromd-8.17.91.sv.po">PO</a></td><td><a href="diff/mailfromd-8.17.91.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/mailfromd-8.17.91.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
