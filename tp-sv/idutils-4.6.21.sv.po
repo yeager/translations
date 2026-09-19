@@ -1,0 +1,939 @@
+# Swedish messages for idutils.
+# Copyright (C) 2000, 2008, 2017, 2018 Free Software Foundation, Inc.
+# This file is distributed under the same license as the idutils package.
+# Christian Rose <menthos@menthos.com>, 2000, 2008.
+# Sebastian Rasmussen <sebras@gmail.com>, 2017, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: idutils 4.6.21\n"
+"Report-Msgid-Bugs-To: bug-idutils@gnu.org\n"
+"POT-Creation-Date: 2017-12-16 13:31-0800\n"
+"PO-Revision-Date: 2018-07-27 11:26+0800\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 2.0.9\n"
+
+#: lib/closeout.c:112
+msgid "write error"
+msgstr "skrivfel"
+
+#: lib/error.c:191
+msgid "Unknown system error"
+msgstr "Okänt systemfel"
+
+#: lib/getopt.c:575 lib/getopt.c:604
+#, c-format
+msgid "%s: option '%s' is ambiguous; possibilities:"
+msgstr "%s: flaggan ”%s” är tvetydig; möjligheter:"
+
+#: lib/getopt.c:619
+#, c-format
+msgid "%s: option '%s' is ambiguous\n"
+msgstr "%s: flaggan ”%s” är tvetydig\n"
+
+#: lib/getopt.c:654 lib/getopt.c:658
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr "%s: flaggan ”--%s” tar inget argument\n"
+
+#: lib/getopt.c:667 lib/getopt.c:672
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr "%s: flaggan ”%c%s” tar inget argument\n"
+
+#: lib/getopt.c:715 lib/getopt.c:734
+#, c-format
+msgid "%s: option '--%s' requires an argument\n"
+msgstr "%s: flaggan ”--%s” kräver ett argument\n"
+
+#: lib/getopt.c:772 lib/getopt.c:775
+#, c-format
+msgid "%s: unrecognized option '--%s'\n"
+msgstr "%s: okänd flagga ”--%s”\n"
+
+#: lib/getopt.c:783 lib/getopt.c:786
+#, c-format
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr "%s: okänd flagga ”%c%s”\n"
+
+#: lib/getopt.c:835 lib/getopt.c:838
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: ogiltig flagga -- ”%c”\n"
+
+#: lib/getopt.c:891 lib/getopt.c:908 lib/getopt.c:1118 lib/getopt.c:1136
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
+
+#: lib/getopt.c:964 lib/getopt.c:980
+#, c-format
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr "%s: flaggan ”-W %s” är tvetydig\n"
+
+#: lib/getopt.c:1004 lib/getopt.c:1022
+#, c-format
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr "%s: flaggan ”-W %s” tar inget argument\n"
+
+#: lib/getopt.c:1043 lib/getopt.c:1061
+#, c-format
+msgid "%s: option '-W %s' requires an argument\n"
+msgstr "%s: flaggan ”-W %s” kräver ett argument\n"
+
+#: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34
+msgid "memory exhausted"
+msgstr "slut på minne"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr "misslyckades med att spara aktuell arbetskatalog"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "misslyckades med att återvända till ursprunglig arbetskatalog"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <http://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:354
+msgid "`"
+msgstr "”"
+
+#: lib/quotearg.c:355
+msgid "'"
+msgstr "”"
+
+#: lib/regcomp.c:135
+msgid "Success"
+msgstr "Lyckades"
+
+#: lib/regcomp.c:138
+msgid "No match"
+msgstr "Ingen träff"
+
+#: lib/regcomp.c:141
+msgid "Invalid regular expression"
+msgstr "Ogiltigt reguljärt uttryck"
+
+#: lib/regcomp.c:144
+msgid "Invalid collation character"
+msgstr "Ogiltigt sorteringstecken"
+
+#: lib/regcomp.c:147
+msgid "Invalid character class name"
+msgstr "Ogiltigt teckenklassnamn"
+
+#: lib/regcomp.c:150
+msgid "Trailing backslash"
+msgstr "Efterföljande omvänt snedstreck"
+
+#: lib/regcomp.c:153
+msgid "Invalid back reference"
+msgstr "Ogiltig bakåtreferens"
+
+#: lib/regcomp.c:156
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Omatchat [, [^, [:, [. eller [="
+
+#: lib/regcomp.c:159
+msgid "Unmatched ( or \\("
+msgstr "Omatchat ( eller \\("
+
+#: lib/regcomp.c:162
+msgid "Unmatched \\{"
+msgstr "Omatchat \\{"
+
+#: lib/regcomp.c:165
+msgid "Invalid content of \\{\\}"
+msgstr "Ogiltigt innehåll i \\{\\}"
+
+#: lib/regcomp.c:168
+msgid "Invalid range end"
+msgstr "Ogiltigt intervallslut"
+
+#: lib/regcomp.c:171
+msgid "Memory exhausted"
+msgstr "Slut på minne"
+
+#: lib/regcomp.c:174
+msgid "Invalid preceding regular expression"
+msgstr "Ogiltigt föregående reguljärt uttryck"
+
+#: lib/regcomp.c:177
+msgid "Premature end of regular expression"
+msgstr "För tidigt slut på reguljärt uttryck"
+
+#: lib/regcomp.c:180
+msgid "Regular expression too big"
+msgstr "Reguljärt uttryck är för stort"
+
+#: lib/regcomp.c:183
+msgid "Unmatched ) or \\)"
+msgstr "Omatchat ) eller \\)"
+
+#: lib/regcomp.c:687
+msgid "No previous regular expression"
+msgstr "Inget tidigare reguljärt uttryck"
+
+#: libidu/fnprint.c:133
+#, c-format
+msgid "invalid `--separator' style: `%s'"
+msgstr "ogiltig ”--separator”-stil: ”%s”"
+
+#: libidu/idfile.c:105
+#, c-format
+msgid "can't determine the io_size of a string!"
+msgstr "kan inte bestämma ”io_size” hos en sträng!"
+
+#: libidu/idread.c:49 src/lid.c:596 src/mkid.c:597 src/xtokid.c:339
+#, c-format
+msgid "can't open `%s'"
+msgstr "kan inte öppna ”%s”"
+
+#: libidu/idread.c:68
+#, c-format
+msgid "`%s' is not an ID file! (bad magic #)"
+msgstr "”%s” är ingen ID-fil! (felaktigt magiskt nummer)"
+
+#: libidu/idread.c:70
+#, c-format
+msgid "`%s' is version %d, but I only grok version %d"
+msgstr "”%s” är version %d men jag förstår bara version %d"
+
+#: libidu/idread.c:190
+#, c-format
+msgid "unsupported size in io_read (): %u"
+msgstr "storlek stöds ej i io_read(): %u"
+
+#: libidu/idread.c:200 libidu/idwrite.c:169
+#, c-format
+msgid "unknown I/O type: %d"
+msgstr "okänd I/O-typ: %d"
+
+#: libidu/idu-hash.c:51
+#, c-format
+msgid "can't allocate %lu bytes for hash table: memory exhausted"
+msgstr "kan inte allokera %lu byte till hashtabellen: minnet är slut"
+
+#: libidu/idu-hash.c:264
+#, c-format
+msgid "Load=%lu/%lu=%.0f%%, "
+msgstr "Utnyttjande=%lu/%lu=%.0f%%, "
+
+#: libidu/idu-hash.c:266
+#, c-format
+msgid "Rehash=%u, "
+msgstr "Omhash=%u, "
+
+#: libidu/idu-hash.c:267
+#, c-format
+msgid "Collisions=%lu/%lu=%.0f%%"
+msgstr "Kollisioner=%lu/%lu=%.0f%%"
+
+#: libidu/idwrite.c:158
+#, c-format
+msgid "unsupported size in io_write (): %u"
+msgstr "ej understödd storlek i io_write(): %u"
+
+#: libidu/scanners.c:107
+#, c-format
+msgid "unrecognized language: `%s'"
+msgstr "okänt språk: ”%s”"
+
+#: libidu/scanners.c:167
+#, c-format
+msgid "can't allocate language args obstack: memory exhausted"
+msgstr "kan inte allokera obstack för språkargument: minnet är slut"
+
+#: libidu/scanners.c:221 libidu/scanners.c:290
+#, c-format
+msgid "can't allocate language args: memory exhausted"
+msgstr "kan inte allokera språkargument: minnet är slut"
+
+#: libidu/scanners.c:229
+#, c-format
+msgid "language name expected following `%s' in file `%s'"
+msgstr "ett språknamn förväntades efter ”%s” i filen ”%s”"
+
+#: libidu/scanners.c:284
+#, c-format
+msgid "can't open language map file `%s'"
+msgstr "kan inte öppna språktabellfilen ”%s”"
+
+#: libidu/scanners.c:286
+#, c-format
+msgid "can't get size of map file `%s'"
+msgstr "kan inte ta reda på storleken hos tabellfilen ”%s”"
+
+#: libidu/scanners.c:296
+#, c-format
+msgid "can't read language map file `%s'"
+msgstr "kan inte läsa språktabellfilen ”%s”"
+
+#: libidu/scanners.c:299
+#, c-format
+msgid "can't read entire language map file `%s'"
+msgstr "kan inte läsa hela språktabellfilen ”%s”"
+
+#: libidu/scanners.c:448
+#, c-format
+msgid ""
+"C language:\n"
+"  -k,--keep=CHARS        Allow CHARS in single-token strings, keep the result\n"
+"  -i,--ignore=CHARS      Allow CHARS in single-token strings, toss the result\n"
+"  -u,--strip-underscore  Strip a leading underscore from single-token strings\n"
+msgstr ""
+"Språket C:\n"
+"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll "
+"resultatet\n"
+"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta "
+"resultatet\n"
+"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med "
+"ett enda token\n"
+
+#: libidu/scanners.c:459
+#, c-format
+msgid ""
+"C++ language:\n"
+"  -k,--keep=CHARS        Allow CHARS in single-token strings, keep the result\n"
+"  -i,--ignore=CHARS      Allow CHARS in single-token strings, toss the result\n"
+"  -u,--strip-underscore  Strip a leading underscore from single-token strings\n"
+msgstr ""
+"Språket C++:\n"
+"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll "
+"resultatet\n"
+"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta "
+"resultatet\n"
+"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med "
+"ett enda token\n"
+
+#: libidu/scanners.c:470
+#, c-format
+msgid ""
+"Java language:\n"
+"  -k,--keep=CHARS        Allow CHARS in single-token strings, keep the result\n"
+"  -i,--ignore=CHARS      Allow CHARS in single-token strings, toss the result\n"
+"  -u,--strip-underscore  Strip a leading underscore from single-token strings\n"
+msgstr ""
+"Språket Java:\n"
+"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll "
+"resultatet\n"
+"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta "
+"resultatet\n"
+"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med "
+"ett enda token\n"
+
+#: libidu/scanners.c:753 libidu/scanners.c:1022 libidu/scanners.c:1225
+#: libidu/scanners.c:1495
+#, c-format
+msgid "junk: `%c'"
+msgstr "skräp: ”%c”"
+
+#: libidu/scanners.c:755 libidu/scanners.c:1024 libidu/scanners.c:1227
+#: libidu/scanners.c:1497
+#, c-format
+msgid "junk: `\\%03o'"
+msgstr "skräp: ”\\%03o”"
+
+#: libidu/scanners.c:857
+#, c-format
+msgid ""
+"Assembly language:\n"
+"  -c,--comment=CHARS     Any of CHARS starts a comment until end-of-line\n"
+"  -k,--keep=CHARS        Allow CHARS in tokens, and keep the result\n"
+"  -i,--ignore=CHARS      Allow CHARS in tokens, and toss the result\n"
+"  -u,--strip-underscore  Strip a leading underscore from tokens\n"
+"  -n,--no-cpp            Don't handle C pre-processor directives\n"
+msgstr ""
+"Assemblerspråk:\n"
+"  -c,--comment=TECKEN    Ett av TECKEN inleder en kommentar"
+" till radslut\n"
+"  -k,--keep=TECKEN       Tillåt TECKEN i token och behåll resultatet\n"
+"  -i,--ignore=TECKEN     Tillåt TECKEN i token och kasta resultatet\n"
+"  -u,--strip-underscore  Ta bort ett inledande understreck från token\n"
+"  -n,--no-cpp            Hantera inte C-preprocessordirektiv\n"
+
+#: libidu/scanners.c:1128
+#, c-format
+msgid ""
+"Text language:\n"
+"  -i,--include=CHAR-CLASS  Treat characters of CHAR-CLASS as token constituents\n"
+"  -x,--exclude=CHAR-CLASS  Treat characters of CHAR-CLASS as token delimiters\n"
+msgstr ""
+"Textspråk:\n"
+"  -i,--include=TECKENKLASS  Behandla tecken i TECKENKLASS som "
+"delar av token\n"
+"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som avgränsare för "
+"token\n"
+
+#: libidu/scanners.c:1333
+#, c-format
+msgid ""
+"Perl language:\n"
+"  -i,--include=CHAR-CLASS  Treat characters of CHAR-CLASS as token constituents\n"
+"  -x,--exclude=CHAR-CLASS  Treat characters of CHAR-CLASS as token delimiters\n"
+"  -d,--dtags  Include documentation tags\n"
+msgstr ""
+"Språket Perl:\n"
+"  -i,--include=TECKENKLASS  Behandla tecken i TECKENKLASS som "
+"delar av token\n"
+"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som avgränsare för "
+"token\n"
+"  -d,--dtags  Inkludera dokumentationstaggar\n"
+
+#: libidu/scanners.c:1596
+#, c-format
+msgid "Lisp language:\n"
+msgstr "Språket Lisp:\n"
+
+#: libidu/walker.c:121
+#, c-format
+msgid "can't read directory `%s' (`.' from `%s')"
+msgstr "kan inte läsa katalogen ”%s” (”.” från ”%s”)"
+
+#: libidu/walker.c:188
+#, c-format
+msgid "notice: `%s' was a %s, but is now a %s!"
+msgstr "anmärkning: ”%s” var en %s, men är nu en %s!"
+
+#: libidu/walker.c:189 libidu/walker.c:190
+msgid "file"
+msgstr "fil"
+
+#: libidu/walker.c:189 libidu/walker.c:190
+msgid "directory"
+msgstr "katalog"
+
+#: libidu/walker.c:319
+#, c-format
+msgid "warning: `%s' and `%s' are the same file, but yield different scans!"
+msgstr "varning: ”%s” och ”%s” är samma fil men gav olika skanningsresultat!"
+
+#: libidu/walker.c:413
+#, c-format
+msgid "notice: scan parameters changed for `%s'"
+msgstr "anmärkning: skanningsparametrarna för ”%s” ändrades"
+
+#: libidu/walker.c:495 libidu/walker.c:503
+#, c-format
+msgid "can't mix --include and --exclude options"
+msgstr "kan inte blanda flaggorna --include och --exclude"
+
+#: libidu/walker.c:613
+#, c-format
+msgid "can't get working directory"
+msgstr "kan inte ta reda på aktuell katalog"
+
+#: libidu/walker.c:668
+#, c-format
+msgid "can't chdir to `%s'"
+msgstr "kan inte byta katalog till ”%s”"
+
+#: libidu/walker.c:673
+#, c-format
+msgid "can't chdir to `%s' from `%s'"
+msgstr "kan inte byta katalog till ”%s” från ”%s”"
+
+#: libidu/walker.c:734
+#, c-format
+msgid "can't lstat `%s' from `%s'"
+msgstr "kan inte ta status (lstat(2)) på ”%s” från ”%s”"
+
+#: libidu/walker.c:742
+#, c-format
+msgid "can't stat `%s' from `%s'"
+msgstr "kan inte ta status (stat(2)) på ”%s” från ”%s”"
+
+#: src/fid.c:72 src/fnid.c:51 src/lid.c:235 src/mkid.c:136 src/xtokid.c:54
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Prova ”%s --help” för mer information.\n"
+
+#: src/fid.c:80
+#, c-format
+msgid "Usage: %s [OPTION] FILENAME [FILENAME2]\n"
+msgstr "Användning: %s [FLAGGA] FILNAMN [FILNAMN2]\n"
+
+#: src/fid.c:83
+#, c-format
+msgid ""
+"List identifiers that occur in FILENAME, or if FILENAME2 is\n"
+"also given list the identifiers that occur in both files.\n"
+"\n"
+"  -f, --file=FILE  file name of ID database\n"
+"      --help       display this help and exit\n"
+"      --version    output version information and exit\n"
+msgstr ""
+"Lista de identifierare som finns i FILNAMN eller, om även\n"
+"FILNAMN2 anges, de identifierare som finns i båda filerna.\n"
+"\n"
+"  -f, --file=FIL   ID-databasens filnamn\n"
+"      --help       visa denna hjälp och avsluta\n"
+"      --version    skriv ut versionsinformation och avsluta\n"
+
+#: src/fid.c:91 src/fnid.c:80 src/lid.c:284 src/mkid.c:199 src/xtokid.c:105
+#, c-format
+msgid ""
+"\n"
+"Report bugs to "
+msgstr ""
+"\n"
+"Skicka synpunkter på översättningen till tp-sv@listor.tp-sv.se\n"
+"Rapportera fel till "
+
+#: src/fid.c:149
+#, c-format
+msgid "no file name arguments"
+msgstr "inga filnamnsargument"
+
+#: src/fid.c:154
+#, c-format
+msgid "too many file name arguments"
+msgstr "för många filnamnsargument"
+
+#: src/fid.c:161 src/fnid.c:155 src/lid.c:439
+#, c-format
+msgid "can't locate `ID'"
+msgstr "kan inte hitta ”ID”"
+
+#: src/fid.c:244
+#, c-format
+msgid "`%s' is ambiguous"
+msgstr "”%s” är tvetydig"
+
+#: src/fid.c:250
+#, c-format
+msgid "`%s' not found"
+msgstr "kunde inte hitta ”%s”"
+
+#: src/fnid.c:68
+#, c-format
+msgid "Usage: %s [OPTION]... [PATTERN]...\n"
+msgstr "Användning: %s [FLAGGA]… [MÖNSTER]…\n"
+
+#: src/fnid.c:72
+#, c-format
+msgid ""
+"Print constituent file names that match PATTERN,\n"
+"using shell-style wildcards.\n"
+"  -f, --file=FILE        file name of ID database\n"
+"  -S, --separator=STYLE  STYLE is one of `braces', `space' or `newline'\n"
+"      --help             display this help and exit\n"
+"      --version          output version information and exit\n"
+msgstr ""
+"Skriv ut namnen på de filer vars innehåll matchar MÖNSTER,\n"
+"med jokertecken i skalstil.\n"
+"  -f, --file=FIL         ID-databasens filnamn\n"
+"  -S, --separator=STIL   STIL är en av ”braces”, ”space” eller ”newline”\n"
+"      --help             visa denna hjälp och avsluta\n"
+"      --version          skriv ut versionsinformation och avsluta\n"
+
+#: src/lid.c:243
+#, c-format
+msgid "Usage: %s [OPTION]... PATTERN...\n"
+msgstr "Användning: %s [FLAGGA]… MÖNSTER…\n"
+
+#: src/lid.c:247
+#, c-format
+msgid ""
+"Query ID database and report results.\n"
+"By default, output consists of multiple lines, each line containing the\n"
+"matched identifier followed by the list of file names in which it occurs.\n"
+"\n"
+"  -f, --file=FILE       file name of ID database\n"
+"\n"
+"  -i, --ignore-case     match PATTERN case insensitively\n"
+"  -l, --literal         match PATTERN as a literal string\n"
+"  -r, --regexp          match PATTERN as a regular expression\n"
+"  -w, --word            match PATTERN as a delimited word\n"
+"  -s, --substring       match PATTERN as a substring\n"
+"            Note: If PATTERN contains extended regular expression meta-\n"
+"            characters, it is interpreted as a regular expression substring.\n"
+"            Otherwise, PATTERN is interpreted as a literal word.\n"
+"\n"
+"  -k, --key=STYLE       STYLE is one of `token', `pattern' or `none'\n"
+"  -R, --result=STYLE    STYLE is one of `filenames', `grep', `edit' or `none'\n"
+"  -S, --separator=STYLE  STYLE is one of `braces', `space' or `newline' and\n"
+"                        only applies to file names when `--result=filenames'\n"
+"            The above STYLE options control how query results are presented.\n"
+"            Defaults are --key=token --result=filenames --separator=%s\n"
+"\n"
+"  -F, --frequency=FREQ  find tokens that occur FREQ times, where FREQ\n"
+"                        is a range expressed as `N..M'.  If N is omitted, it\n"
+"                        defaults to 1, if M is omitted it defaults to MAX_USHRT\n"
+"  -a, --ambiguous=LEN   find tokens whose names are ambiguous for LEN chars\n"
+"\n"
+"  -x, --hex             only find numbers expressed as hexadecimal\n"
+"  -d, --decimal         only find numbers expressed as decimal\n"
+"  -o, --octal           only find numbers expressed as octal\n"
+"            By default, searches match numbers of any radix.\n"
+"\n"
+"      --help            display this help and exit\n"
+"      --version         output version information and exit\n"
+msgstr ""
+"Fråga ID-databasen och rapportera resultat.\n"
+"Som standard består utdata av flera rader där varje rad innehåller den\n"
+"matchade identifieraren följd av listan över filnamn där "
+"den förekommer.\n"
+"\n"
+"  -f, --file=FIL        ID-databasens filnamn\n"
+"\n"
+"  -i, --ignore-case     matcha MÖNSTER utan skillnad på versaler och gemener\n"
+"  -l, --literal         matcha MÖNSTER som en ordagrann sträng\n"
+"  -r, --regexp          matcha MÖNSTER som ett reguljärt uttryck\n"
+"  -w, --word            matcha MÖNSTER som ett avgränsat ord\n"
+"  -s, --substring       matcha MÖNSTER som en delsträng\n"
+"            Observera: Om MÖNSTER innehåller metatecken för utökade\n"
+"            reguljära uttryck tolkas det som en delsträng med reguljärt "
+"uttryck.\n"
+"            Annars tolkas MÖNSTER som ett ordagrant ord.\n"
+"\n"
+"  -k, --key=STIL        STIL är en av ”token”, ”pattern” eller ”none”\n"
+"  -R, --result=STIL     STIL är en av ”filenames”, ”grep”, ”edit” eller ”none”\n"
+"  -S, --separator=STIL  STIL är en av ”braces”, ”space” eller ”newline” och\n"
+"                        gäller endast för filnamn om ”--result=filenames”\n"
+"            STIL-flaggorna ovan bestämmer hur frågeresultat presenteras.\n"
+"            Standardvärden är --key=token --result=filenames --separator=%s\n"
+"\n"
+"  -F, --frequency=FREK  sök token som förekommer FREK gånger, där FREK är\n"
+"                        ett intervall som anges som ”N..M”. Om N utelämnas\n"
+"                        antas det vara 1, om M utelämnas antas det vara MAX_USHRT\n"
+"  -a, --ambiguous=LÄNGD sök token vars namn är tvetydiga efter LÄNGD tecken\n"
+"\n"
+"  -x, --hex             sök endast tal som anges hexadecimalt\n"
+"  -d, --decimal         sök endast tal som anges decimalt\n"
+"  -o, --octal           sök endast tal som anges oktalt\n"
+"            Som standard matchar sökningar tal med valfri bas.\n"
+"\n"
+"      --help            visa denna hjälp och avsluta\n"
+"      --version         skriv ut versionsinformation och avsluta\n"
+
+#: src/lid.c:283
+msgid "braces"
+msgstr "parenteser"
+
+#: src/lid.c:283
+msgid "space"
+msgstr "blanksteg"
+
+#: src/lid.c:377
+#, c-format
+msgid "notice: use of `-e' is deprecated, use `-r' instead"
+msgstr "anmärkning: användningen av ”-e” är föråldrad, använd ”-r” i stället"
+
+#: src/lid.c:460
+#, c-format
+msgid "All identifiers are non-ambiguous within the first %u characters\n"
+msgstr "Alla identifierare är otvetydiga de första %u tecknen\n"
+
+#: src/lid.c:495
+#, c-format
+msgid "invalid `--key' style: `%s'"
+msgstr "ogiltig ”--key”-stil: ”%s”"
+
+#: src/lid.c:507
+#, c-format
+msgid "invalid `--result' style: `%s'"
+msgstr "ogiltig ”--result”-stil: ”%s”"
+
+#: src/lid.c:608 src/lid.c:929
+#, c-format
+msgid "can't match regular-expression: memory exhausted"
+msgstr "kan inte matcha reguljärt uttryck: minnet är slut"
+
+#: src/lid.c:697
+#, c-format
+msgid "edit? [y1-9^S/nq] "
+msgstr "redigera? [y1-9^S/nq] "
+
+#: src/lid.c:766
+#, c-format
+msgid "can't fork"
+msgstr "kan inte avgrena"
+
+#: src/lid.c:788
+#, c-format
+msgid "can't exec `%s'"
+msgstr "kan inte köra ”%s”"
+
+#: src/mkid.c:169 src/xtokid.c:83
+#, c-format
+msgid "Usage: %s [OPTION]... [FILE]...\n"
+msgstr "Användning: %s [FLAGGA]… [FIL]…\n"
+
+#: src/mkid.c:173
+#, c-format
+msgid ""
+"Build an identifier database.\n"
+"  -o, --output=OUTFILE    file name of ID database output\n"
+"  -f, --file=OUTFILE      synonym for --output\n"
+"  -i, --include=LANGS     include languages in LANGS (default: \"C C++ asm\")\n"
+"  -x, --exclude=LANGS     exclude languages in LANGS\n"
+"  -l, --lang-option=L:OPT pass OPT as a default for language L (see below)\n"
+"  -m, --lang-map=MAPFILE  use MAPFILE to map file names onto source language\n"
+"  -d, --default-lang=LANG  make LANG the default source language\n"
+"  -p, --prune=NAMES       exclude the named files and/or directories\n"
+"  -v, --verbose           report per file statistics\n"
+"  -s, --statistics        report statistics at end of run\n"
+"\n"
+"      --files0-from=F     tokenize only the files specified by\n"
+"                           NUL-terminated names in file F\n"
+"\n"
+"       --help              display this help and exit\n"
+"      --version           output version information and exit\n"
+"\n"
+"FILE may be a file name, or a directory name to recursively search.\n"
+"If no FILE is given, the current directory is searched by default.\n"
+"Note that the `--include' and `--exclude' options are mutually-exclusive.\n"
+"\n"
+"The following arguments apply to the language-specific scanners:\n"
+msgstr ""
+"Bygg en databas över identifierare.\n"
+"  -o, --output=UTFIL      filnamn för ID-databasens utdata\n"
+"  -f, --file=UTFIL        synonym för --output\n"
+"  -i, --include=SPRÅK     inkludera SPRÅK (standardvärde: ”C C++ asm”)\n"
+"  -x, --exclude=SPRÅK     utelämna SPRÅK\n"
+"  -l, --lang-option=S:FLG skicka FLG som standard för språket S (se nedan)\n"
+"  -m, --lang-map=TABELLFIL använd TABELLFIL för att associera filnamn med\n"
+"                           rätt källkodsspråk\n"
+"  -d, --default-lang=SPRÅK använd SPRÅK som standardspråk\n"
+"  -p, --prune=NAMN         utelämna de angivna filerna och/eller katalogerna\n"
+"  -v, --verbose            skriv ut statistik för enskilda filer\n"
+"  -s, --statistics         skriv ut statistik i slutet av körningen\n"
+"\n"
+"      --files0-from=F      tolka endast filerna med NUL-terminerade filnamn i F\n"
+"\n"
+"      --help               visa denna hjälp och avsluta\n"
+"      --version            skriv ut versionsinformation och avsluta\n"
+"\n"
+"FIL kan vara ett filnamn eller ett katalognamn för rekursiv sökning.\n"
+"Om ingen FIL anges genomsöks den aktuella katalogen som standard.\n"
+"Observera att flaggorna ”--include” och ”--exclude” är ömsesidigt\n"
+"uteslutande.\n"
+"\n"
+"Följande argument gäller de språkspecifika läsarna:\n"
+
+#: src/mkid.c:317 src/xtokid.c:193
+#, c-format
+msgid "extra operand %s"
+msgstr "extra operand %s"
+
+#: src/mkid.c:319 src/xtokid.c:195
+msgid "file operands cannot be combined with --files0-from"
+msgstr "filoperander kan inte kombineras med --files0-from"
+
+#: src/mkid.c:324 src/xtokid.c:200
+#, c-format
+msgid "cannot open %s for reading"
+msgstr "kan inte öppna %s för läsning"
+
+#: src/mkid.c:358 src/xtokid.c:233
+#, c-format
+msgid "%s: read error"
+msgstr "%s: läsfel"
+
+#: src/mkid.c:372 src/xtokid.c:247
+#, c-format
+msgid "when reading file names from stdin, no file name of %s allowed"
+msgstr "vid läsning av filnamn från standardindata tillåts inget filnamn %s"
+
+#: src/mkid.c:386 src/mkid.c:394 src/xtokid.c:261 src/xtokid.c:269
+msgid "invalid zero-length file name"
+msgstr "ogiltigt nollängdsfilnamn"
+
+#: src/mkid.c:448
+#, c-format
+msgid "nothing to do"
+msgstr "inget att göra"
+
+#: src/mkid.c:498
+#, c-format
+msgid "can't create `%s' in `%s'"
+msgstr "kan inte skapa ”%s” i ”%s”"
+
+#: src/mkid.c:503
+#, c-format
+msgid "can't modify `%s'"
+msgstr "kan inte modifiera ”%s”"
+
+#: src/mkid.c:580
+#, c-format
+msgid "can't stat `%s'"
+msgstr "kan inte ta status på ”%s”"
+
+#: src/mkid.c:649
+#, c-format
+msgid "  new = %d/%d"
+msgstr "  ny = %d/%d"
+
+#: src/mkid.c:658
+#, c-format
+msgid "Name=%lu, "
+msgstr "Namn=%lu, "
+
+#: src/mkid.c:659
+#, c-format
+msgid "Number=%lu, "
+msgstr "Tal=%lu, "
+
+#: src/mkid.c:660
+#, c-format
+msgid "String=%lu, "
+msgstr "Sträng=%lu, "
+
+#: src/mkid.c:661
+#, c-format
+msgid "Literal=%lu, "
+msgstr "Ordagrann=%lu, "
+
+#: src/mkid.c:662
+#, c-format
+msgid "Comment=%lu\n"
+msgstr "Kommentar=%lu\n"
+
+#: src/mkid.c:664
+#, c-format
+msgid "Files=%lu, "
+msgstr "Filer=%lu, "
+
+#: src/mkid.c:665
+#, c-format
+msgid "Tokens=%lu, "
+msgstr "Symboler=%lu, "
+
+#: src/mkid.c:666
+#, c-format
+msgid "Bytes=%lu Kb, "
+msgstr "Byte=%lu kB, "
+
+#: src/mkid.c:667
+#, c-format
+msgid "Heap=%llu+%llu Kb, "
+msgstr "Heap=%llu+%llu Kb, "
+
+#: src/mkid.c:672
+#, c-format
+msgid "Output=%lu (%lu tok, %lu hit)\n"
+msgstr "Utdata=%lu (%lu token, %lu träff)\n"
+
+#: src/mkid.c:676
+#, c-format
+msgid ", Freq=%lu/%lu=%.2f\n"
+msgstr ", frekvens=%lu/%lu=%.2f\n"
+
+#: src/mkid.c:700
+#, c-format
+msgid "Sorting tokens...\n"
+msgstr "Sorterar symboler…\n"
+
+#: src/mkid.c:708
+#, c-format
+msgid "Writing `%s'...\n"
+msgstr "Skriver ”%s”…\n"
+
+#: src/mkid.c:711
+#, c-format
+msgid "can't create `%s'"
+msgstr "kan inte skapa ”%s”"
+
+#: src/mkid.c:723 src/mkid.c:733 src/mkid.c:780
+#, c-format
+msgid "internal limitation: offset of 2^32 or larger"
+msgstr "intern begränsning: position är 2^32 eller större"
+
+#: src/mkid.c:788
+#, c-format
+msgid "error closing `%s'"
+msgstr "fel vid stängning av ”%s”"
+
+#: src/mkid.c:876
+#, c-format
+msgid "level %d: %lu/%lu = %.0f%%\n"
+msgstr "nivå %d: %lu/%lu = %.0f%%\n"
+
+#: src/xtokid.c:87
+#, c-format
+msgid ""
+"Print all tokens found in a source file.\n"
+"  -i, --include=LANGS     include languages in LANGS (default: \"C C++ asm\")\n"
+"  -x, --exclude=LANGS     exclude languages in LANGS\n"
+"  -l, --lang-option=L:OPT pass OPT as a default for language L (see below)\n"
+"  -m, --lang-map=MAPFILE  use MAPFILE to map file names onto source language\n"
+"  -d, --default-lang=LANG  make LANG the default source language\n"
+"  -p, --prune=NAMES       exclude the named files and/or directories\n"
+"\n"
+"      --files0-from=F     tokenize only the files specified by\n"
+"                           NUL-terminated names in file F\n"
+"\n"
+"      --help              display this help and exit\n"
+"\t\t      --version           output version information and exit\n"
+"\n"
+"The following arguments apply to the language-specific scanners:\n"
+msgstr ""
+"Skriv ut alla symboler som hittas i en källfil.\n"
+"  -i, --include=SPRÅK      inkludera SPRÅK (standardvärde: ”C C++ asm”)\n"
+"  -x, --exclude=SPRÅK      utelämna SPRÅK\n"
+"  -l, --lang-option=S:FLG  skicka FLG som standard för språket S (se nedan)\n"
+"  -m, --lang-map=TABELLFIL använd TABELLFIL för att associera filnamn med\n"
+"                           rätt källkodsspråk\n"
+"  -d, --default-lang=SPRÅK använd SPRÅK som standardspråk\n"
+"  -p, --prune=NAMN         utelämna de angivna filerna och/eller katalogerna\n"
+"\n"
+"      --files0-from=F      tolka endast filerna med NUL-terminerade filnamn i F\n"
+"\n"
+"      --help               visa denna hjälp och avsluta\n"
+"      --version            visa versionsinformation och avsluta\n"
+"\n"
+"De följande flaggorna påverkar de språkspecifika läsarna:\n"
+
+#~ msgid "%s: illegal option -- %c\n"
+#~ msgstr "%s: otillåten flagga -- %c\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+
+#~ msgid "invalid `--%s' style: `%s'"
+#~ msgstr "ogiltig \"--%s\"-stil: \"%s\""
+
+#~ msgid "invalid `%s' style: `%s'"
+#~ msgstr "ogiltig \"%s\"-stil: \"%s\""
+
+#~ msgid "%s: option `-%s' is ambiguous\n"
+#~ msgstr "%s: flaggan \"-%s\" är tvetydig\n"
+
+#~ msgid "%s: option `-%s' doesn't allow an argument\n"
+#~ msgstr "%s: flaggan \"-%s\" tar inget argument\n"
+
+#~ msgid "%s: option `--%s' is ambiguous\n"
+#~ msgstr "%s: flaggan \"--%s\" är tvetydig\n"

@@ -1,0 +1,2057 @@
+--- a/ld-2.46.90.sv.po
++++ b/ld-2.46.90.sv.po
+@@ -99,11 +99,11 @@
+ 
+ #: ldctor.c:85
+ msgid "%X%P: different relocs used in set %s\n"
+-msgstr "%X%P: olika omlokaliseringar som används i uppsättningen %s\n"
++msgstr "%X%P: olika omlokaliseringar används i uppsättningen %s\n"
+ 
+ #: ldctor.c:103
+ msgid "%X%P: different object file formats composing set %s\n"
+-msgstr "%X%P: olika objektfilformat som utgör uppsättningen %s\n"
++msgstr "%X%P: olika objektfilformat ingår i uppsättningen %s\n"
+ 
+ #: ldctor.c:279 ldctor.c:300
+ msgid "%X%P: %s does not support reloc %s for set %s\n"
+@@ -111,11 +111,11 @@
+ 
+ #: ldctor.c:295
+ msgid "%X%P: special section %s does not support reloc %s for set %s\n"
+-msgstr "%X%P: specialavsnitt %s stöder inte reloc %s för uppsättning %s\n"
++msgstr "%X%P: specialavsnittet %s stöder inte omlokaliseringen %s för uppsättning %s\n"
+ 
+ #: ldctor.c:321
+ msgid "%X%P: unsupported size %d for set %s\n"
+-msgstr "%X%P: storlek som inte stöds %d för uppsättning %s\n"
++msgstr "%X%P: storleken %d stöds inte för uppsättning %s\n"
+ 
+ #: ldctor.c:344
+ msgid ""
+@@ -129,7 +129,7 @@
+ 
+ #: ldelf.c:98
+ msgid "%P: common page size (0x%v) > maximum page size (0x%v)\n"
+-msgstr "%P: vanlig sidstorlek (0x%v) > maximal sidstorlek (0x%v)\n"
++msgstr "%P: vanlig sidstorlek (0x%v) är större än maximal sidstorlek (0x%v)\n"
+ 
+ #: ldelf.c:124
+ msgid "%P: %pB: --just-symbols may not be used on DSO\n"
+@@ -155,11 +155,11 @@
+ #: ldelf.c:378
+ #, c-format
+ msgid "found %s at %s\n"
+-msgstr "hittade %s vid %s\n"
++msgstr "hittade %s på %s\n"
+ 
+ #: ldelf.c:411 ldlang.c:3332 ldlang.c:3346 ldlang.c:11406
+ msgid "%P: %pB: error adding symbols: %E\n"
+-msgstr "%P: %pB: fel vid tillägg av symboler: %E\n"
++msgstr "%P: fel vid tillägg av symboler: %E\n"
+ 
+ #. We only issue an "unrecognised" message in verbose mode
+ #. as the $<foo> token might be a legitimate component of
+@@ -167,7 +167,7 @@
+ #: ldelf.c:601
+ #, c-format
+ msgid "unrecognised or unsupported token '%s' in search path\n"
+-msgstr "okänd symbol eller symbol som saknar stöd ”%s” finns i sökväg\n"
++msgstr "okänd eller icke stödd token ”%s” i sökvägen\n"
+ 
+ #: ldelf.c:1084
+ #, c-format
+@@ -180,7 +180,7 @@
+ 
+ #: ldelf.c:1209
+ msgid "%P: failed to add DT_NEEDED dynamic tag\n"
+-msgstr "%P: kunde inte lägga till dynamisk tagg DT_NEEDED\n"
++msgstr "%P: kunde inte lägga till den dynamiska taggen DT_NEEDED\n"
+ 
+ #: ldelf.c:1260
+ msgid "%P: %s: can't open for writing: %E\n"
+@@ -188,15 +188,16 @@
+ 
+ #: ldelf.c:1316
+ msgid "%P: cannot use executable file '%pB' as input to a link\n"
+-msgstr "%P: kan inte använda den körbara filen '%pB' som indata till en länk\n"
++msgstr "%P: kan inte använda den körbara filen ”%pB” som indata till en länk\n"
+ 
+ #: ldelf.c:1372
+ msgid "%P: compact frame descriptions incompatible with DWARF2 .eh_frame from %pB\n"
+-msgstr "%P: kompakta rambeskrivningar är icke-kompatibla med DWARF2 .eh_frame från %pB\n"
++msgstr "%P: kompakta rambeskrivningar är inkompatibla med DWARF2 .eh_frame från %pB\n"
+ 
+ #: ldelf.c:1406
+ msgid "%P: warning: cannot create .eh_frame_hdr section, --eh-frame-hdr ignored\n"
+-msgstr "%P: varning: kan inte skapa .eh_frame_hdr_avsnitt, --eh-frame-hdr hoppas över\n"
++msgstr "%P: varning: kan inte skapa avsnittet .eh_frame_hdr; --eh-frame-hdr "
++"ignoreras\n"
+ 
+ #: ldelf.c:1412
+ msgid "%P: failed to parse EH frame entries\n"
+@@ -204,7 +205,7 @@
+ 
+ #: ldelf.c:1454
+ msgid "%P: warning: .note.gnu.build-id section discarded, --build-id ignored\n"
+-msgstr "%P: varning: .note.gnu.build-id-avsnittet förkastat, --build-id ignoreras\n"
++msgstr "%P: varning: avsnittet .note.gnu.build-id förkastades; --build-id ignoreras\n"
+ 
+ #: ldelf.c:1504 eaarch64pe.c:1357 earm64pe.c:1357 earm_wince_pe.c:1341
+ #: earmpe.c:1341 ei386pe.c:1341 ei386pe_posix.c:1341 ei386pep.c:1357
+@@ -218,15 +219,17 @@
+ 
+ #: ldelf.c:1544
+ msgid "%P: warning: .note.package section discarded, --package-metadata ignored\n"
+-msgstr "%P: varning: .note.package-avsnittet förkastat, --package-metadata ignoreras\n"
++msgstr "%P: varning: avsnittet .note.package förkastades; --package-metadata "
++"ignoreras\n"
+ 
+ #: ldelf.c:1600
+ msgid "%P: warning: --package-metadata is empty, ignoring\n"
+-msgstr "%P: varning: --package-metadata är tom, hoppar över\n"
++msgstr "%P: varning: --package-metadata är tomt; ignoreras\n"
+ 
+ #: ldelf.c:1610
+ msgid "%P: warning: --package-metadata=%s does not contain valid JSON, ignoring: %s\n"
+-msgstr "%P: varning: --package-metadata=%s innehåller inte giltig JSON, hoppar över: %s\n"
++msgstr "%P: varning: --package-metadata=%s innehåller inte giltig JSON; ignoreras: "
++"%s\n"
+ 
+ #: ldelf.c:1639
+ msgid "%P: warning: cannot create .note.package section, --package-metadata ignored\n"
+@@ -235,12 +238,12 @@
+ #: ldelf.c:1670 eaix5ppc.c:1545 eaix5rs6.c:1545 eaixppc.c:1545 eaixrs6.c:1545
+ #: eppcmacos.c:1545
+ msgid "%P: failed to record assignment to %s: %E\n"
+-msgstr "%P: misslyckades med att registrera tilldelning till %s: %E\n"
++msgstr "%P: kunde inte registrera tilldelning till %s: %E\n"
+ 
+ #: ldelf.c:1845 ldelf.c:1911 eaix5ppc.c:816 eaix5rs6.c:816 eaixppc.c:816
+ #: eaixrs6.c:816 eelf64_ia64_vms.c:205 eppcmacos.c:816
+ msgid "%P: failed to set dynamic section sizes: %E\n"
+-msgstr "%P: misslyckades med att ställa in dynamiska avsnittsstorlekar: %E\n"
++msgstr "%P: kunde inte ange storlekar för dynamiska avsnitt: %E\n"
+ 
+ #: ldelf.c:1883
+ msgid "%P: %pB: can't read contents of section %pA: %E\n"
+@@ -711,12 +714,12 @@
+ 
+ #: ldlang.c:5246
+ msgid "%W (size before relaxing)\n"
+-msgstr "%W (storlek innan avslappning)\n"
++msgstr "%W (storlek före avslappning)\n"
+ 
+ #: ldlang.c:5375
+ #, c-format
+ msgid "Address of section %s set to "
+-msgstr "Adressen på avsnittet %s ställd till "
++msgstr "Adressen för avsnittet %s angavs till "
+ 
+ #: ldlang.c:5588
+ #, c-format
+@@ -731,15 +734,16 @@
+ 
+ #: ldlang.c:5815
+ msgid "%P: Relaxation not supported with --enable-non-contiguous-regions (section `%pA' would overflow `%pA' after it changed size).\n"
+-msgstr "%P: Lättnad stöds inte med --enable-non-contiguous-regions (avsnittet `%pA' skulle överflöda `%pA' efter att den ändrat storlek).\n"
++msgstr "%P: Avslappning stöds inte med --enable-non-contiguous-regions (avsnittet "
++"`%pA` skulle överflöda `%pA` efter storleksändringen).\n"
+ 
+ #: ldlang.c:5924
+ msgid "%X%P: section %s VMA wraps around address space\n"
+-msgstr "%X%P: avsnitt %s VMA slår runt adressrymd\n"
++msgstr "%X%P: VMA för avsnittet %s slår runt adressrymden\n"
+ 
+ #: ldlang.c:5930
+ msgid "%X%P: section %s LMA wraps around address space\n"
+-msgstr "%X%P: avsnitt %s LMA slår runt adressrymd\n"
++msgstr "%X%P: LMA för avsnittet %s slår runt adressrymden\n"
+ 
+ #: ldlang.c:5982
+ msgid "%X%P: section %s LMA [%V,%V] overlaps section %s LMA [%V,%V]\n"
+@@ -757,11 +761,11 @@
+ 
+ #: ldlang.c:6074
+ msgid "%X%P: address 0x%v of %pB section `%s' is not within region `%s'\n"
+-msgstr "%X%P: adress 0x%v i %pB-avsnittet `%s' ligger inte inom regionen `%s'\n"
++msgstr "%X%P: adressen 0x%v för avsnittet `%s` i %pB ligger inte i regionen `%s`\n"
+ 
+ #: ldlang.c:6085
+ msgid "%X%P: %pB section `%s' will not fit in region `%s'\n"
+-msgstr "%X%P: %pB avsnittet `%s' passar inte in i regionen `%s'\n"
++msgstr "%X%P: avsnittet `%s` i %pB får inte plats i regionen `%s`\n"
+ 
+ #: ldlang.c:6171
+ msgid "%P:%pS: non constant or forward reference address expression for section %s\n"
+@@ -769,15 +773,15 @@
+ 
+ #: ldlang.c:6196
+ msgid "%X%P: internal error on COFF shared library section %s\n"
+-msgstr "%X%P: internt fel i COFF-delat biblioteksavsnitt %s\n"
++msgstr "%X%P: internt fel i COFF-avsnittet %s i ett delat bibliotek\n"
+ 
+ #: ldlang.c:6254
+ msgid "%P: error: no memory region specified for loadable section `%s'\n"
+-msgstr "%P: fel: ingen minnesregion angiven för inläsningsbara avsnittet `%s'\n"
++msgstr "%P: fel: ingen minnesregion angavs för det inläsningsbara avsnittet `%s`\n"
+ 
+ #: ldlang.c:6258
+ msgid "%P: warning: no memory region specified for loadable section `%s'\n"
+-msgstr "%P: varning: inget minnesområde angivet för inläsbara avsnittet ”%s”\n"
++msgstr "%P: varning: ingen minnesregion angavs för det inläsningsbara avsnittet ”%s”\n"
+ 
+ #: ldlang.c:6292
+ msgid "%P: warning: start of section %s changed by %ld\n"
+@@ -785,15 +789,15 @@
+ 
+ #: ldlang.c:6385
+ msgid "%P: warning: dot moved backwards before `%s'\n"
+-msgstr "%P: varning: punkt flyttad bakåt före ”%s”\n"
++msgstr "%P: varning: punkten flyttades bakåt före ”%s”\n"
+ 
+ #: ldlang.c:6561
+ msgid "%P: can't relax section: %E\n"
+-msgstr "%P: kan inte lätta på avsnitt: %E\n"
++msgstr "%P: kan inte avslappna avsnittet: %E\n"
+ 
+ #: ldlang.c:6973
+ msgid "%P: invalid data statement\n"
+-msgstr "%P: ogiltigt datavillkor\n"
++msgstr "%P: ogiltig datasats\n"
+ 
+ #: ldlang.c:7006
+ msgid "%P: invalid reloc statement\n"
+@@ -1280,7 +1284,7 @@
+ #: ldmain.c:2096
+ #, c-format
+ msgid " relocation truncated to fit: %s against `%pT'"
+-msgstr " omlokalisering avkortad för att passa: %s mot `%pT'"
++msgstr " omlokaliseringen avkortades för att få plats: %s mot `%pT`"
+ 
+ #: ldmain.c:2112
+ msgid "%X%H: dangerous relocation: %s\n"
+@@ -1288,11 +1292,11 @@
+ 
+ #: ldmain.c:2126
+ msgid "%X%H: reloc refers to symbol `%pT' which is not being output\n"
+-msgstr "%X%H: omlokalisering hänvisar till symbolen `%pT' som inte skrivs ut\n"
++msgstr "%X%H: omlokaliseringen hänvisar till symbolen `%pT` som inte skrivs ut\n"
+ 
+ #: ldmain.c:2160
+ msgid "%P: %pB: reference to %s\n"
+-msgstr "%P: %pB: referens till %s\n"
++msgstr "%P: %pB: hänvisning till %s\n"
+ 
+ #: ldmain.c:2162
+ msgid "%P: %pB: definition of %s\n"
+@@ -1314,7 +1318,7 @@
+ 
+ #: ldmisc.c:737
+ msgid "%P: warning: %s ignored\n"
+-msgstr "%P: varning: %s ignorerad\n"
++msgstr "%P: varning: %s ignoreras\n"
+ 
+ #: ldmisc.c:748
+ msgid "%P: internal error %s %d\n"
+@@ -1351,9 +1355,9 @@
+ "This program has absolutely no warranty.\n"
+ msgstr ""
+ "Detta program är fri programvara; du kan sprida det vidare under villkoren\n"
+-"i GNU General Public License version 3 eller (om du så vill) senare version.\n"
++"i GNU General Public License version 3 eller (om du så vill) en senare "
++"version.\n"
+ "Detta program har inga som helst garantier.\n"
+-"\n"
+ 
+ #: ldver.c:53
+ #, c-format
+@@ -1451,7 +1455,8 @@
+ 
+ #: lexsup.c:130
+ msgid "Enable warnings when --enable-non-contiguous-regions may cause unexpected behaviour"
+-msgstr "Aktivera varningar när --enable-non-contiguous-regions kan förorsaka oväntat beteende"
++msgstr "Aktivera varningar när --enable-non-contiguous-regions kan orsaka oväntat "
++"beteende"
+ 
+ #: lexsup.c:132
+ msgid "Disable the LINKER_VERSION linker script directive"
+@@ -1475,7 +1480,7 @@
+ 
+ #: lexsup.c:140
+ msgid "Auxiliary filter for shared object symbol table"
+-msgstr "Yttre filter för symboltabell över delade objekt"
++msgstr "Hjälpfilter för symboltabell för delat objekt"
+ 
+ #: lexsup.c:143
+ msgid "Filter for shared object symbol table"
+@@ -1507,7 +1512,7 @@
+ 
+ #: lexsup.c:153
+ msgid "Set PROGRAM as the dynamic linker to use"
+-msgstr "Ställ in PROGRAM som den dynamiska länkare som ska användas"
++msgstr "Ställ in PROGRAM som den dynamiska länkaren som ska användas"
+ 
+ #: lexsup.c:156
+ msgid "Produce an executable with no program interpreter header"
+@@ -1543,15 +1548,15 @@
+ 
+ #: lexsup.c:168
+ msgid "Print map file on standard output"
+-msgstr "Visa tabellfil på standard ut"
++msgstr "Visa tabellfil på standardutdata"
+ 
+ #: lexsup.c:170
+ msgid "Do not page align data"
+-msgstr "Justera inte data efter jämna sidor"
++msgstr "Sidjustera inte data"
+ 
+ #: lexsup.c:172
+ msgid "Do not page align data, do not make text readonly"
+-msgstr "Justera inte data efter jämna sidor, gör inte texten endast läsbar"
++msgstr "Sidjustera inte data, gör inte texten skrivskyddad"
+ 
+ #: lexsup.c:175
+ msgid "Page align data, make text readonly"
+@@ -1563,7 +1568,7 @@
+ 
+ #: lexsup.c:180
+ msgid "LEVEL"
+-msgstr ""
++msgstr "NIVÅ"
+ 
+ #: lexsup.c:180
+ msgid "Optimize output file"
+@@ -1575,7 +1580,7 @@
+ 
+ #: lexsup.c:184
+ msgid "PLUGIN"
+-msgstr "INSTICK"
++msgstr "INSTICKSMODUL"
+ 
+ #: lexsup.c:184
+ msgid "Load named plugin"
+@@ -1587,7 +1592,7 @@
+ 
+ #: lexsup.c:186
+ msgid "Send arg to last-loaded plugin"
+-msgstr "Skicka argument till senast inlästa instick"
++msgstr "Skicka argument till senast inlästa insticksmodulen"
+ 
+ #: lexsup.c:188
+ msgid "Store plugin intermediate files permanently"
+@@ -1631,7 +1636,7 @@
+ 
+ #: lexsup.c:227
+ msgid "Strip symbols in discarded sections"
+-msgstr "Ta bort symboler i kastade avsnitt"
++msgstr "Ta bort symboler i förkastade avsnitt"
+ 
+ #: lexsup.c:229
+ msgid "Do not strip symbols in discarded sections"
+@@ -1660,7 +1665,7 @@
+ 
+ #: lexsup.c:242
+ msgid "Require SYMBOL be defined in the final output"
+-msgstr "Kräv att SYMBOL är definierad i den slutgiltiga utdatan"
++msgstr "Kräv att SYMBOL är definierad i den slutliga utdatan"
+ 
+ #: lexsup.c:245
+ msgid "[=SECTION]"
+@@ -1676,7 +1681,7 @@
+ 
+ #: lexsup.c:250
+ msgid "Print version information"
+-msgstr "Visa versionsinformation"
++msgstr "Visa versions- och emuleringsinformation"
+ 
+ #: lexsup.c:252
+ msgid "Print version and emulation information"
+@@ -1712,7 +1717,7 @@
+ 
+ #: lexsup.c:267
+ msgid "End a group"
+-msgstr "Sluta en grupp"
++msgstr "Avsluta en grupp"
+ 
+ #: lexsup.c:271
+ msgid "Accept input files whose architecture cannot be determined"
+@@ -1724,7 +1729,7 @@
+ 
+ #: lexsup.c:287
+ msgid "Only set DT_NEEDED for following dynamic libs if used"
+-msgstr "Ställ endast in DT_NEEDED för följande dynamiska bibliotek om använda"
++msgstr "Ställ endast in DT_NEEDED för följande dynamiska bibliotek om de används"
+ 
+ #: lexsup.c:290
+ msgid ""
+@@ -1816,7 +1821,7 @@
+ 
+ #: lexsup.c:352
+ msgid "Call SYMBOL at unload-time"
+-msgstr "Anropa SYMBOL vid urladdning"
++msgstr "Anropa SYMBOL vid avlastning"
+ 
+ #: lexsup.c:354
+ msgid "Force generation of file with .exe suffix"
+@@ -1832,7 +1837,7 @@
+ 
+ #: lexsup.c:362
+ msgid "List removed unused sections on stderr"
+-msgstr "Lista borttagna oanvända avsnitt via standard fel"
++msgstr "Lista borttagna oanvända avsnitt via standardfel"
+ 
+ #: lexsup.c:365
+ msgid "Do not list removed unused sections"
+@@ -1848,7 +1853,7 @@
+ 
+ #: lexsup.c:374
+ msgid "Print option help"
+-msgstr "Visa hjälp om flaggor"
++msgstr "Visa hjälpen för flaggor"
+ 
+ #: lexsup.c:376
+ msgid "Call SYMBOL at load-time"
+@@ -1860,7 +1865,7 @@
+ 
+ #: lexsup.c:378
+ msgid "Write a linker map to FILE or DIR/<outputname>.map"
+-msgstr "Skriv en länkarmappning till FIL eller KAT/<utdatanamn>.map"
++msgstr "Skriv en länkarkarta till FIL eller KAT/<utdatanamn>.map"
+ 
+ #: lexsup.c:380
+ msgid "Do not define Common storage"
+@@ -1892,7 +1897,7 @@
+ 
+ #: lexsup.c:400
+ msgid "Allow multiple definitions"
+-msgstr "Tillåt flera defintioner"
++msgstr "Tillåt flera definitioner"
+ 
+ #: lexsup.c:404
+ msgid "SCRIPT"
+@@ -1920,7 +1925,7 @@
+ 
+ #: lexsup.c:417
+ msgid "Don't warn about mismatched input files"
+-msgstr "Varna inte om opassande indatafiler"
++msgstr "Varna inte om inkompatibla indatafiler"
+ 
+ #: lexsup.c:420
+ msgid "Don't warn on finding an incompatible library"
+@@ -1928,15 +1933,15 @@
+ 
+ #: lexsup.c:423
+ msgid "Turn off --whole-archive"
+-msgstr "Slå av ---whole-archive"
++msgstr "Slå av --whole-archive"
+ 
+ #: lexsup.c:425
+ msgid "Reject archives without a symbol map"
+-msgstr ""
++msgstr "Avvisa arkiv utan en symboltabell"
+ 
+ #: lexsup.c:427
+ msgid "Treat files specified as link objects"
+-msgstr ""
++msgstr "Behandla angivna filer som länkobjekt"
+ 
+ #: lexsup.c:429
+ msgid "Create an output file even if errors occur"
+@@ -1956,7 +1961,7 @@
+ 
+ #: lexsup.c:441
+ msgid "Print default output format"
+-msgstr "Skriv ut standardutskriftsformat"
++msgstr "Skriv ut standardformatet för utdata"
+ 
+ #: lexsup.c:443
+ msgid "Print current sysroot"
+@@ -1968,11 +1973,11 @@
+ 
+ #: lexsup.c:448
+ msgid "Reduce memory overheads, possibly taking much longer"
+-msgstr "Reducera minnesanvändning, kan ta längre tid"
++msgstr "Minska minnesanvändningen, möjligen till priset av betydligt längre körtid"
+ 
+ #: lexsup.c:452
+ msgid "Set the maximum cache size to SIZE bytes"
+-msgstr "Sätt maximal cachestorlek till STORLEK byte"
++msgstr "Ställ in maximal cachestorlek på STORLEK byte"
+ 
+ #: lexsup.c:455
+ msgid "Reduce code size by using target specific optimizations"
+@@ -1980,7 +1985,7 @@
+ 
+ #: lexsup.c:457
+ msgid "Do not use relaxation techniques to reduce code size"
+-msgstr "Använd inte lättnadstekniker för att reducera kodstorlek"
++msgstr "Använd inte avslappningstekniker för att minska kodstorleken"
+ 
+ #: lexsup.c:460
+ msgid "Keep only symbols listed in FILE"
+@@ -1988,11 +1993,11 @@
+ 
+ #: lexsup.c:462
+ msgid "Set runtime shared library search path"
+-msgstr "Ställ in körtidssökväg för delade bibliotek"
++msgstr "Ställ in sökvägen till delade bibliotek vid körning"
+ 
+ #: lexsup.c:464
+ msgid "Set link time shared library search path"
+-msgstr "Ställ in länkningstidssökväg för delade bibliotek"
++msgstr "Ställ in sökvägen till delade bibliotek vid länkning"
+ 
+ #: lexsup.c:467
+ msgid "Create a shared library"
+@@ -2040,7 +2045,7 @@
+ 
+ #: lexsup.c:492
+ msgid "Split output sections every SIZE octets"
+-msgstr "Dela utdataavsnitt var STORLEK oktett"
++msgstr "Dela utdataavsnitt för varje STORLEK oktetter"
+ 
+ #: lexsup.c:495
+ msgid "[=COUNT]"
+@@ -2048,7 +2053,7 @@
+ 
+ #: lexsup.c:495
+ msgid "Split output sections every COUNT relocs"
+-msgstr "Dela utdataavsnitt var ANTAL omlokalisering"
++msgstr "Dela utdataavsnitt för varje ANTAL omlokaliseringar"
+ 
+ #: lexsup.c:498
+ msgid "Print resource usage statistics"
+@@ -2068,7 +2073,7 @@
+ 
+ #: lexsup.c:506
+ msgid "Use same format as native linker"
+-msgstr "Använd samma format som inhemska länkaren"
++msgstr "Använd samma format som den inhemska länkaren"
+ 
+ #: lexsup.c:508
+ msgid "SECTION=ADDRESS"
+@@ -2076,7 +2081,7 @@
+ 
+ #: lexsup.c:508
+ msgid "Set address of named section"
+-msgstr "Ställ in adress på namngiven avsnitt"
++msgstr "Ställ in adressen för det namngivna avsnittet"
+ 
+ #: lexsup.c:511
+ msgid "Set image base address"
+@@ -2133,20 +2138,20 @@
+ "Take export symbols list from .exports, using\n"
+ "                                SYMBOL as the version."
+ msgstr ""
+-"Plocka lista med exportsymboler från .exports och\n"
++"Hämta listan över exportsymboler från .exports och\n"
+ "                                använd SYMBOL som version."
+ 
+ #: lexsup.c:543
+ msgid "Add data symbols to dynamic list"
+-msgstr "Lägg till datasymboler till dynamisk lista"
++msgstr "Lägg till datasymboler i den dynamiska listan"
+ 
+ #: lexsup.c:545
+ msgid "Use C++ operator new/delete dynamic list"
+-msgstr "Använd C++-operator new/delete dynamisk lista"
++msgstr "Använd den dynamiska listan för C++-operatorerna new/delete"
+ 
+ #: lexsup.c:547
+ msgid "Use C++ typeinfo dynamic list"
+-msgstr "Använd C++-typinformation dynamisk lista"
++msgstr "Använd den dynamiska listan för C++-typinformation"
+ 
+ #: lexsup.c:549
+ msgid "Read dynamic list"
+@@ -2158,7 +2163,7 @@
+ 
+ #: lexsup.c:553
+ msgid "Read export dynamic symbol list"
+-msgstr "Läs exportens dynamisk symbolista"
++msgstr "Läs den dynamiska exportlistan"
+ 
+ #: lexsup.c:555
+ msgid "Warn about duplicate common symbols"
+@@ -2194,7 +2199,7 @@
+ 
+ #: lexsup.c:602
+ msgid "Report unresolved symbols as warnings"
+-msgstr "Rapportera oupplösta symboler som varning"
++msgstr "Rapportera oupplösta symboler som varningar"
+ 
+ #: lexsup.c:605
+ msgid "Report unresolved symbols as errors"
+@@ -2206,11 +2211,11 @@
+ 
+ #: lexsup.c:610
+ msgid "Accept archives without a symbol map"
+-msgstr ""
++msgstr "Acceptera arkiv utan en symboltabell"
+ 
+ #: lexsup.c:613
+ msgid "Treat files specified as artificial archive members"
+-msgstr ""
++msgstr "Behandla angivna filer som konstgjorda arkivmedlemmar"
+ 
+ #: lexsup.c:616
+ msgid "Use wrapper functions for SYMBOL"
+@@ -2222,11 +2227,11 @@
+ 
+ #: lexsup.c:622
+ msgid "Push state of flags governing input file handling"
+-msgstr "Knuffa in tillståndsflaggor som styr indatafilshantering"
++msgstr "Spara tillståndet för flaggor som styr hanteringen av indatafiler"
+ 
+ #: lexsup.c:625
+ msgid "Pop state of flags governing input file handling"
+-msgstr "Ta bort tillståndsflaggor som styr indatafilshantering"
++msgstr "Återställ tillståndet för flaggor som styr hanteringen av indatafiler"
+ 
+ #: lexsup.c:628
+ msgid "Report target memory usage"
+@@ -2242,19 +2247,19 @@
+ 
+ #: lexsup.c:633
+ msgid "Show discarded sections in map file output (default)"
+-msgstr "Visa kastade avsnitt i tabellfilsutdata (standard)"
++msgstr "Visa förkastade avsnitt i länkarkartans utdata (standard)"
+ 
+ #: lexsup.c:636
+ msgid "Do not show discarded sections in map file output"
+-msgstr "Visa inte borttagna avsnitt i tabellfilens utdata"
++msgstr "Visa inte förkastade avsnitt i länkarkartans utdata"
+ 
+ #: lexsup.c:639
+ msgid "Show local symbols in map file output"
+-msgstr "Visa lokala symboler i tabellfilens utdata"
++msgstr "Visa lokala symboler i länkarkartans utdata"
+ 
+ #: lexsup.c:642
+ msgid "Do not show local symbols in map file output (default)"
+-msgstr "Visa inte lokala symboler i tabellfilens utdata (standard)"
++msgstr "Visa inte lokala symboler i länkarkartans utdata (standard)"
+ 
+ #: lexsup.c:645
+ msgid "Emit names and types of static variables in CTF"
+@@ -2304,7 +2309,7 @@
+ 
+ #: lexsup.c:937
+ msgid "%P: unknown demangling style `%s'\n"
+-msgstr "%P: okänd demanglingstil `%s'\n"
++msgstr "%P: okänd avkodningsstil `%s`\n"
+ 
+ #: lexsup.c:1044 lexsup.c:1579 eaarch64elf.c:1028 eaarch64elf32.c:1028
+ #: eaarch64elf32b.c:1028 eaarch64elfb.c:1028 eaarch64fbsd.c:1028
+@@ -2328,15 +2333,15 @@
+ 
+ #: lexsup.c:1193
+ msgid "%P: --no-whole-archive not allowed between --start-lib and --end-lib\n"
+-msgstr ""
++msgstr "%P: --no-whole-archive tillåts inte mellan --start-lib och --end-lib\n"
+ 
+ #: lexsup.c:1202
+ msgid "%P: --end-lib without --start-lib\n"
+-msgstr ""
++msgstr "%P: --end-lib utan --start-lib\n"
+ 
+ #: lexsup.c:1228
+ msgid "%P: -O requires a numerical argument or '-' or 'fast' or 'default'"
+-msgstr ""
++msgstr "%P: -O kräver ett numeriskt argument, '-' , 'fast' eller 'default'"
+ 
+ #: lexsup.c:1257
+ msgid "%P: bad -plugin-opt option\n"
+@@ -2380,7 +2385,7 @@
+ 
+ #: lexsup.c:1432
+ msgid "%P: invalid common section sorting option: %s\n"
+-msgstr "%P: ogiltigt sorteringsflagga för gemensam avsnitt: %s\n"
++msgstr "%P: ogiltig sorteringsflagga för gemensamma avsnitt: %s\n"
+ 
+ #: lexsup.c:1436
+ msgid "name"
+@@ -2396,7 +2401,8 @@
+ 
+ #: lexsup.c:1446
+ msgid "%P: warning: section ordering file changed.  Ignoring earlier definition\n"
+-msgstr "%P: varning: avsnittsordning i filen har ändrats.  Ignorerar tidigare definition\n"
++msgstr "%P: varning: avsnittsordningsfilen har ändrats.  Ignorerar tidigare "
++"definition\n"
+ 
+ #: lexsup.c:1494
+ msgid "%P: invalid argument to option \"--section-start\"\n"
+@@ -2404,23 +2410,23 @@
+ 
+ #: lexsup.c:1501
+ msgid "%P: missing argument(s) to option \"--section-start\"\n"
+-msgstr "%P: saknar argument till flaggan \"--section-start\"\n"
++msgstr "%P: argument saknas till flaggan \"--section-start\"\n"
+ 
+ #: lexsup.c:1702
+ msgid "%P: --whole-archive not allowed between --start-lib and --end-lib\n"
+-msgstr ""
++msgstr "%P: --whole-archive tillåts inte mellan --start-lib och --end-lib\n"
+ 
+ #: lexsup.c:1711
+ msgid "%P: nested --start-lib not allowed\n"
+-msgstr ""
++msgstr "%P: nästlad --start-lib tillåts inte\n"
+ 
+ #: lexsup.c:1779
+ msgid "%P: -( or --start-group not allowed between --start-lib and --end-lib\n"
+-msgstr ""
++msgstr "%P: -( eller --start-group tillåts inte mellan --start-lib och --end-lib\n"
+ 
+ #: lexsup.c:1786
+ msgid "%P: -) or --end-group not allowed between --start-lib and --end-lib\n"
+-msgstr ""
++msgstr "%P: -) eller --end-group tillåts inte mellan --start-lib och --end-lib\n"
+ 
+ #: lexsup.c:1789
+ msgid "%P: group ended before it began (--help for usage)\n"
+@@ -2446,11 +2452,12 @@
+ 
+ #: lexsup.c:1860
+ msgid "%P: no state pushed before popping\n"
+-msgstr "%P: inget tillstånd tryckt innan poppning\n"
++msgstr "%P: inget tillstånd har sparats före återställning\n"
+ 
+ #: lexsup.c:1865
+ msgid "%P: --pop-state not allowed to change --whole-archive setting between --start-lib and --end-lib\n"
+-msgstr ""
++msgstr "%P: --pop-state får inte ändra inställningen för --whole-archive mellan "
++"--start-lib och --end-lib\n"
+ 
+ #: lexsup.c:1889
+ msgid "%P: invalid argument to option \"--orphan-handling\"\n"
+@@ -2462,23 +2469,23 @@
+ 
+ #: lexsup.c:1944
+ msgid "%P: no file/directory name provided for map output; ignored\n"
+-msgstr "%P: inget fil-/katalognamn angivet för mapdata, hoppas över\n"
++msgstr "%P: inget fil- eller katalognamn angavs för kartutdata; ignoreras\n"
+ 
+ #: lexsup.c:1972
+ msgid "%P: cannot stat linker map file: %E\n"
+-msgstr "%P: kan inte ta status på länkarens tabellfil: %E\n"
++msgstr "%P: kan inte hämta status för länkarkartfilen: %E\n"
+ 
+ #: lexsup.c:1983
+ msgid "%P: linker map file is not a regular file\n"
+-msgstr "%P: länkarens tabellfil är inte en vanlig fil\n"
++msgstr "%P: länkarkartfilen är inte en vanlig fil\n"
+ 
+ #: lexsup.c:1998
+ msgid "%P: SONAME must not be empty string; ignored\n"
+-msgstr "%P: SONAME får inte vara en tom sträng; hoppas över\n"
++msgstr "%P: SONAME får inte vara en tom sträng; ignoreras\n"
+ 
+ #: lexsup.c:2004
+ msgid "%P: missing --end-group; added as last command line option\n"
+-msgstr "%P: saknar --end-group; tillagd som sista kommandoradsflagga\n"
++msgstr "%P: --end-group saknas; lägger till den som sista kommandoradsflagga\n"
+ 
+ #: lexsup.c:2093
+ msgid "%P: -r and -z nosectionheader may not be used together\n"
+@@ -2504,7 +2511,8 @@
+ #: lexsup.c:2189
+ #, c-format
+ msgid "  -Bgroup                     Selects group name lookup rules for DSO\n"
+-msgstr "  -Bgrupp                     Väljer gruppnamnsregler för DSO\n"
++msgstr "  -Bgroup                     Väljer regler för uppslagning av gruppnamn för "
++"DSO\n"
+ 
+ #: lexsup.c:2191
+ #, c-format
+@@ -2534,7 +2542,8 @@
+ #: lexsup.c:2201
+ #, c-format
+ msgid "  --hash-style=STYLE          Set hash style to sysv/gnu/both.  Default: "
+-msgstr "  --hash-style=STIL           Ställ in hash-stil till sysv/gnu/both.  Standard: "
++msgstr "  --hash-style=STIL           Ställ in hashstil till sysv/gnu/both.  "
++"Standard: "
+ 
+ #: lexsup.c:2220
+ #, c-format
+@@ -2548,12 +2557,14 @@
+ #: lexsup.c:2223
+ #, c-format
+ msgid "  -z combreloc                Merge dynamic relocs into one section and sort\n"
+-msgstr "  -z combreloc                Sammanfoga dynamiska omlokaliseringar till en avsnitt och sortera\n"
++msgstr "  -z combreloc                Sammanfoga dynamiska omlokaliseringar till ett "
++"avsnitt och sortera\n"
+ 
+ #: lexsup.c:2225
+ #, c-format
+ msgid "  -z nocombreloc              Don't merge dynamic relocs into one section\n"
+-msgstr "  -z nocombreloc              Sammanfoga inte dynamiska omlokaliseringar i en avsnitt\n"
++msgstr "  -z nocombreloc              Sammanfoga inte dynamiska omlokaliseringar till "
++"ett avsnitt\n"
+ 
+ #: lexsup.c:2227
+ #, c-format
+@@ -2567,12 +2578,13 @@
+ #: lexsup.c:2230
+ #, c-format
+ msgid "  -z initfirst                Mark DSO to be initialized first at runtime\n"
+-msgstr "  -z initfirst                Markera DSO att initieras först vid körtid\n"
++msgstr "  -z initfirst                Markera DSO:n för initiering först vid körning\n"
+ 
+ #: lexsup.c:2232
+ #, c-format
+ msgid "  -z interpose                Mark object to interpose all DSOs but executable\n"
+-msgstr "  -z interpose                Markera objekt som att inskjuta alla DOSer förutom körbara filer\n"
++msgstr "  -z interpose                Markera objekt som ska placeras mellan alla "
++"DSO:er utom den körbara filen\n"
+ 
+ #: lexsup.c:2234
+ #, c-format
+@@ -2587,32 +2599,36 @@
+ #: lexsup.c:2238
+ #, c-format
+ msgid "  -z lazy                     Mark object lazy runtime binding (default)\n"
+-msgstr "  -z lazy                     Markera objekt som lat körtidsbindning (standard)\n"
++msgstr "  -z lazy                     Markera objekt för lat bindning vid körning "
++"(standard)\n"
+ 
+ #: lexsup.c:2240
+ #, c-format
+ msgid "  -z loadfltr                 Mark object requiring immediate process\n"
+-msgstr "  -z loadfltr                 Markera objekt som att det kräver omedelbar process\n"
++msgstr "  -z loadfltr                 Markera objekt som kräver omedelbar behandling\n"
+ 
+ #: lexsup.c:2242
+ #, c-format
+ msgid "  -z nocopyreloc              Don't create copy relocs\n"
+-msgstr "  -z nocopyreloc              Skapa inte kopia av omlokaliseringar\n"
++msgstr "  -z nocopyreloc              Skapa inte kopieomlokaliseringar\n"
+ 
+ #: lexsup.c:2244
+ #, c-format
+ msgid "  -z nodefaultlib             Mark object not to use default search paths\n"
+-msgstr "  -z nodefaultlib             Markera objekt som att inte använda standardsökvägar\n"
++msgstr "  -z nodefaultlib             Markera objekt så att standardsökvägar inte "
++"används\n"
+ 
+ #: lexsup.c:2246
+ #, c-format
+ msgid "  -z nodelete                 Mark DSO non-deletable at runtime\n"
+-msgstr "  -z nodelete                 Markera DSO som oborttagningsbar vid körtid\n"
++msgstr "  -z nodelete                 Markera DSO:n som inte kan tas bort vid "
++"körning\n"
+ 
+ #: lexsup.c:2248
+ #, c-format
+ msgid "  -z nodlopen                 Mark DSO not available to dlopen\n"
+-msgstr "  -z nodlopen                 Markera DSO som inte tillänglig vid dlopen\n"
++msgstr "  -z nodlopen                 Markera DSO:n som inte är tillgänglig för "
++"dlopen\n"
+ 
+ #: lexsup.c:2250
+ #, c-format
+@@ -2622,7 +2638,8 @@
+ #: lexsup.c:2252
+ #, c-format
+ msgid "  -z now                      Mark object non-lazy runtime binding\n"
+-msgstr "  -z now                      Markera objekt som icke-lat körtidsbidning\n"
++msgstr "  -z now                      Markera objekt för omedelbar bindning vid "
++"körning\n"
+ 
+ #: lexsup.c:2254
+ #, c-format
+@@ -2630,8 +2647,8 @@
+ "  -z origin                   Mark object requiring immediate $ORIGIN\n"
+ "                                processing at runtime\n"
+ msgstr ""
+-"  -z origin                   Märk objekt som kräver omedelbar $ORIGIN-\n"
+-"                                bearbetning vid körtid\n"
++"  -z origin                   Markera objekt som kräver omedelbar $ORIGIN-\n"
++"                                bearbetning vid körning\n"
+ 
+ #: lexsup.c:2258
+ #, c-format
+@@ -2656,22 +2673,22 @@
+ #: lexsup.c:2269
+ #, c-format
+ msgid "  -z separate-code            Create separate code program header (default)\n"
+-msgstr "  -z separate-code            Skapa separat kodprogramrubrik (standard)\n"
++msgstr "  -z separate-code            Skapa separat kodprogramhuvud (standard)\n"
+ 
+ #: lexsup.c:2271
+ #, c-format
+ msgid "  -z noseparate-code          Don't create separate code program header\n"
+-msgstr "  -z noseparate-code          Skapa inte separat kodprogramrubrik\n"
++msgstr "  -z noseparate-code          Skapa inte separat kodprogramhuvud\n"
+ 
+ #: lexsup.c:2274
+ #, c-format
+ msgid "  -z separate-code            Create separate code program header\n"
+-msgstr "  -z separate-code            Skapa separat kodprogramrubrik\n"
++msgstr "  -z separate-code            Skapa separat kodprogramhuvud\n"
+ 
+ #: lexsup.c:2276
+ #, c-format
+ msgid "  -z noseparate-code          Don't create separate code program header (default)\n"
+-msgstr "  -z noseparate-code          Skapa inte separat kodprogramrubrik (standard)\n"
++msgstr "  -z noseparate-code          Skapa inte separat kodprogramhuvud (standard)\n"
+ 
+ #: lexsup.c:2280
+ #, c-format
+@@ -2696,12 +2713,14 @@
+ #: lexsup.c:2290
+ #, c-format
+ msgid "  -z common                   Generate common symbols with STT_COMMON type\n"
+-msgstr "  -z common                   Generera vanliga symboler med STT_COMMON-typ\n"
++msgstr "  -z common                   Generera gemensamma symboler med "
++"STT_COMMON-typ\n"
+ 
+ #: lexsup.c:2292
+ #, c-format
+ msgid "  -z nocommon                 Generate common symbols with STT_OBJECT type\n"
+-msgstr "  -z nocommon                 Generera vanliga symboler med STT_OBJECT-typ\n"
++msgstr "  -z nocommon                 Generera gemensamma symboler med "
++"STT_OBJECT-typ\n"
+ 
+ #: lexsup.c:2295
+ #, c-format
+@@ -2756,7 +2775,7 @@
+ #: lexsup.c:2330
+ #, c-format
+ msgid "  --build-id[=STYLE]          Generate build ID note\n"
+-msgstr "  --build-id[=STIL]           Generera bygg-ID notering\n"
++msgstr "  --build-id[=STIL]           Generera en bygg-ID-anteckning\n"
+ 
+ #: lexsup.c:2334
+ #, c-format
+@@ -2766,7 +2785,7 @@
+ #: lexsup.c:2338
+ #, c-format
+ msgid "                                Styles: none,md5,sha1,uuid,0xHEX\n"
+-msgstr "                                Stilar: ingen, md5, sha1, uuid, 0xHEX\n"
++msgstr "                                Stilar: none, md5, sha1, uuid, 0xHEX\n"
+ 
+ #: lexsup.c:2341
+ #, c-format
+@@ -2810,7 +2829,7 @@
+ #: lexsup.c:2357
+ #, c-format
+ msgid "  -z muldefs                  Allow multiple definitions\n"
+-msgstr "  -z muldef                   Tillåt multipla definitioner\n"
++msgstr "  -z muldefs                  Tillåt flera definitioner\n"
+ 
+ #: lexsup.c:2359
+ #, c-format
+@@ -2820,7 +2839,8 @@
+ #: lexsup.c:2362
+ #, c-format
+ msgid "  -z execstack                Mark executable as requiring executable stack\n"
+-msgstr "  -z execstack                Markera körbar som att den kräver körbar stack\n"
++msgstr "  -z execstack                Markera körbar fil som att den kräver körbar "
++"stack\n"
+ 
+ #: lexsup.c:2364
+ #, c-format
+@@ -2939,7 +2959,8 @@
+ #: lexsup.c:2425
+ #, c-format
+ msgid "  --ld-generated-unwind-info  Generate exception handling info for PLT\n"
+-msgstr "  --ld-generated-unwind-info  Generera undantagshanteringsinfo för PLT\n"
++msgstr "  --ld-generated-unwind-info  Generera information om undantagshantering för "
++"PLT\n"
+ 
+ #: lexsup.c:2427
+ #, c-format
+@@ -2985,7 +3006,7 @@
+ #: lexsup.c:2554
+ #, c-format
+ msgid "Read options from FILE\n"
+-msgstr "Inläsningsflaggor från FIL\n"
++msgstr "Läs flaggor från FIL\n"
+ 
+ #. Note: Various tools (such as libtool) depend upon the
+ #. format of the listings below - do not change them.
+@@ -3017,7 +3038,7 @@
+ 
+ #: pdb.c:844 pdb.c:1135
+ msgid "%P: CodeView symbol references out of range type %v\n"
+-msgstr "%P: CodeView-symbolreferenser utanför intervalltypen %v\n"
++msgstr "%P: CodeView-symbolreferenser av typen %v ligger utanför intervallet\n"
+ 
+ #: pdb.c:1013
+ msgid "%P: warning: truncated CodeView record S_LDATA32/S_GDATA32/S_LTHREAD32/S_GTHREAD32\n"
+@@ -3041,7 +3062,8 @@
+ 
+ #: pdb.c:1174
+ msgid "%P: CodeView S_GPROC32_ID/S_LPROC32_ID symbol referenced unknown type as ID\n"
+-msgstr "%P: CodeView S_GPROC32_ID/S_LPROC32_ID-symbol refererade till okänd typ som ID\n"
++msgstr "%P: CodeView-symbolreferensen S_GPROC32_ID/S_LPROC32_ID hänvisar till okänd "
++"typ som ID\n"
+ 
+ #: pdb.c:1248
+ msgid "%P: warning: truncated CodeView record S_UDT\n"
+@@ -3133,7 +3155,8 @@
+ 
+ #: pdb.c:2237
+ msgid "%P: CodeView type %v references other type %v not yet declared\n"
+-msgstr "%P: CodeView-typ %v refererar till annan typ %v som ännu inte har deklarerats\n"
++msgstr "%P: CodeView-typ %v hänvisar till en annan typ %v som ännu inte har "
++"deklarerats\n"
+ 
+ #: pdb.c:2244
+ msgid "%P: CodeView type %v references out of range type %v\n"
+@@ -3369,11 +3392,11 @@
+ 
+ #: pdb.c:3774
+ msgid "%P: warning: unable to get working directory\n"
+-msgstr "%P: varning: kunde inte få arbetskatalog\n"
++msgstr "%P: varning: kunde inte hämta arbetskatalogen\n"
+ 
+ #: pdb.c:3782
+ msgid "%P: warning: unable to get program name\n"
+-msgstr "%P: varning: kunde inte få programnamn\n"
++msgstr "%P: varning: kunde inte hämta programnamnet\n"
+ 
+ #: pdb.c:3791
+ msgid "%P: warning: unable to get full path to PDB\n"
+@@ -3421,27 +3444,27 @@
+ 
+ #: pdb.c:5351
+ msgid "%P: warning: cannot populate DBI stream in PDB file: %E\n"
+-msgstr "%P: varning: kan inte populera DBI-ström i PDB-fil: %E\n"
++msgstr "%P: varning: kan inte fylla DBI-strömmen i PDB-fil: %E\n"
+ 
+ #: pdb.c:5360
+ msgid "%P: warning: cannot populate TPI stream in PDB file: %E\n"
+-msgstr "%P: varning: kan inte populera TPI-ström i PDB-fil: %E\n"
++msgstr "%P: varning: kan inte fylla TPI-strömmen i PDB-fil: %E\n"
+ 
+ #: pdb.c:5371
+ msgid "%P: warning: cannot populate IPI stream in PDB file: %E\n"
+-msgstr "%P: varning: kan inte populera IPI-ström i PDB-fil: %E\n"
++msgstr "%P: varning: kan inte fylla IPI-strömmen i PDB-fil: %E\n"
+ 
+ #: pdb.c:5383
+ msgid "%P: warning: cannot populate names stream in PDB file: %E\n"
+-msgstr "%P: varning: kan inte populera namnström i PDB-fil: %E\n"
++msgstr "%P: varning: kan inte fylla namnströmmen i PDB-fil: %E\n"
+ 
+ #: pdb.c:5390
+ msgid "%P: warning: cannot populate publics stream in PDB file: %E\n"
+-msgstr "%P: varning: kan inte populera publics-ström i PDB-fil: %E\n"
++msgstr "%P: varning: kan inte fylla publics-strömmen i PDB-fil: %E\n"
+ 
+ #: pdb.c:5397
+ msgid "%P: warning: cannot populate info stream in PDB file: %E\n"
+-msgstr "%P: varning: kan inte populera informationsström i PDB-filen: %E\n"
++msgstr "%P: varning: kan inte fylla informationsströmmen i PDB-fil: %E\n"
+ 
+ #: pe-dll.c:510
+ msgid "%X%P: unsupported PEI architecture: %s\n"
+@@ -3464,7 +3487,7 @@
+ #: pe-dll.c:1073
+ #, c-format
+ msgid "%X%P: cannot export %s: symbol not defined\n"
+-msgstr "%X%P: kan inte exportera %s: symbol inte definierad\n"
++msgstr "%X%P: kan inte exportera %s: symbolen är inte definierad\n"
+ 
+ #: pe-dll.c:1079
+ #, c-format
+@@ -3522,7 +3545,7 @@
+ #: pe-dll.c:1224
+ #, c-format
+ msgid "%X%P: error: export ordinal too large: %d\n"
+-msgstr "%X%P: fel: exportordinal för stor: %d\n"
++msgstr "%X%P: fel: exportordinalen är för stor: %d\n"
+ 
+ #: pe-dll.c:1550
+ #, c-format
+@@ -3540,7 +3563,7 @@
+ #: pe-dll.c:1760
+ #, c-format
+ msgid "%X%P: error: %d-bit reloc in dll\n"
+-msgstr "%X%P: fel: %d-bitars omlokalisering i dll\n"
++msgstr "%X%P: fel: %d-bitars omlokalisering i DLL\n"
+ 
+ #: pe-dll.c:1883
+ #, c-format
+@@ -3576,7 +3599,7 @@
+ 
+ #: pe-dll.c:2974
+ msgid "%X%P: %s(%s): can't find member in non-archive file"
+-msgstr "%X%P: %s(%s): kan inte hitta medlem i icke-arkivfil"
++msgstr "%X%P: %s(%s): kan inte hitta medlem i en fil som inte är ett arkiv"
+ 
+ #: pe-dll.c:2988
+ msgid "%X%P: %s(%s): can't find member in archive"
+@@ -3584,11 +3607,11 @@
+ 
+ #: pe-dll.c:3245
+ msgid "%X%P: add symbols %s: %E\n"
+-msgstr "%X%P: lägg till symboler %s: %E\n"
++msgstr "%X%P: kan inte lägga till symboler %s: %E\n"
+ 
+ #: pe-dll.c:3456
+ msgid "%X%P: open %s: %E\n"
+-msgstr "%X%P: öppna %s: %E\n"
++msgstr "%X%P: kan inte öppna %s: %E\n"
+ 
+ #: pe-dll.c:3466
+ msgid "%X%P: %s: this doesn't appear to be a DLL\n"
+@@ -3600,7 +3623,7 @@
+ 
+ #: plugin.c:239 plugin.c:285
+ msgid "<no plugin>"
+-msgstr "<inget instick>"
++msgstr "<ingen insticksmodul>"
+ 
+ #: plugin.c:254 plugin.c:1138
+ msgid "%P: %s: error loading plugin: %s\n"
+@@ -3608,11 +3631,11 @@
+ 
+ #: plugin.c:261
+ msgid "%P: %s: duplicated plugin\n"
+-msgstr "%P: %s: duplicerat instick: %s\n"
++msgstr "%P: %s: dubblett av insticksmodul\n"
+ 
+ #: plugin.c:345
+ msgid "%P: could not create dummy IR bfd: %E\n"
+-msgstr "%P: kunde inte skapa dummy IR bfd: %E\n"
++msgstr "%P: kunde inte skapa skenbar IR-BFD: %E\n"
+ 
+ #: plugin.c:427
+ msgid "%P: %s: non-ELF symbol in ELF BFD!\n"
+@@ -3624,12 +3647,12 @@
+ 
+ #: plugin.c:560
+ msgid "%P: unsupported input file size: %s (%ld bytes)\n"
+-msgstr "%P: filstorleken för inmatning stöds inte: %s (%ld byte)\n"
++msgstr "%P: indatans filstorlek stöds inte: %s (%ld byte)\n"
+ 
+ #: plugin.c:705
+ #, c-format
+ msgid "unknown LTO kind value %x"
+-msgstr "okänt LTP-typvärde %x"
++msgstr "okänt LTO-typvärde %x"
+ 
+ #: plugin.c:731
+ #, c-format
+@@ -3668,15 +3691,15 @@
+ 
+ #: plugin.c:1251
+ msgid "%P: plugin failed to allocate memory for input: %s\n"
+-msgstr "%P: insticksmodulen kunde inte allokera minne för inmatning: %s\n"
++msgstr "%P: insticksmodulen kunde inte allokera minne för indata: %s\n"
+ 
+ #: plugin.c:1280
+ msgid "%P: %s: plugin reported error claiming file\n"
+-msgstr "%P: %s: insticksmodul rapporterade fel som gör anspråk på filen\n"
++msgstr "%P: %s: insticksmodulen rapporterade ett fel när den gjorde anspråk på filen\n"
+ 
+ #: plugin.c:1407
+ msgid "%P: %s: error in plugin cleanup: %d (ignored)\n"
+-msgstr "%P: %s fel vid insticksuppstädning: %d (överhoppat)\n"
++msgstr "%P: %s: fel vid upprensning av insticksmodul: %d (ignoreras)\n"
+ 
+ #: eaarch64elf.c:243 eaarch64elf32.c:243 eaarch64elf32b.c:243
+ #: eaarch64elfb.c:243 eaarch64fbsd.c:243 eaarch64fbsdb.c:243
+@@ -4449,7 +4472,7 @@
+ "  --no-enum-size-warning      Don't warn about objects with incompatible\n"
+ "                                enum sizes\n"
+ msgstr ""
+-"  --no-enum-size-warning      Varna inte om objekt med inkompatibla\n"
++"  --no-enum-size-warning      Varna inte för objekt med inkompatibla\n"
+ "                                enum-storlekar\n"
+ 
+ #: eaarch64elf.c:1049 eaarch64elf32.c:1049 eaarch64elf32b.c:1049
+@@ -4467,7 +4490,7 @@
+ "  --no-wchar-size-warning     Don't warn about objects with incompatible\n"
+ "                                wchar_t sizes\n"
+ msgstr ""
+-"  --no-wchar-size-warning     Varna inte om objekt med inkompatibla\n"
++"  --no-wchar-size-warning     Varna inte för objekt med inkompatibla\n"
+ "                                wchar_t-storlekar\n"
+ 
+ #: eaarch64elf.c:1051 eaarch64elf32.c:1051 eaarch64elf32b.c:1051
+@@ -4482,7 +4505,7 @@
+ #: earmelfb_linux_fdpiceabi.c:1194 earmelfb_nbsd.c:1189 earmnto.c:1149
+ #, c-format
+ msgid "  --pic-veneer                Always generate PIC interworking veneers\n"
+-msgstr "  --pic-veneer                Generera alltid PIC interworking veneers\n"
++msgstr "  --pic-veneer                Generera alltid PIC-övergångsstubbar\n"
+ 
+ #: eaarch64elf.c:1053 eaarch64elf32.c:1053 eaarch64elf32b.c:1053
+ #: eaarch64elfb.c:1053 eaarch64fbsd.c:1053 eaarch64fbsdb.c:1053
+@@ -4505,12 +4528,14 @@
+ "                                Values of +/-1 indicate the linker should\n"
+ "                                choose suitable defaults.\n"
+ msgstr ""
+-"  --stub-group-size=N         Maximal storlek på en grupp av ingångsavsnitt\n"
++"  --stub-group-size=N         Maximal storlek på en grupp av indataavsnitt\n"
+ "                                som kan hanteras av ett stubbavsnitt. Ett negativt värde\n"
+ "                                placerar alla stubbar efter sina grenar (med en gruppstorlek\n"
+ "                                på -N), medan ett positivt värde tillåter två grupper av\n"
+-"                                ingångsavsnitt, ett före och ett efter varje stubbavsnitt.\n"
+-"                                Värden på +/-1 indikerar att länkaren ska välja lämpliga\n"
++"                                indataavsnitt, en före och en efter varje "
++"stubbavsnitt.\n"
++"                                Värden på +/-1 innebär att länkaren ska välja "
++"lämpliga\n"
+ "                                standardvärden.\n"
+ 
+ #: eaarch64elf.c:1062 eaarch64elf32.c:1062 eaarch64elf32b.c:1062
+@@ -4538,17 +4563,20 @@
+ "                                                 instruction into an ADR.  As such the workaround will always use a\n"
+ "                                                 veneer and this will give you both a performance and size overhead.\n"
+ msgstr ""
+-"  --fix-cortex-a53-843419[=full|adr|adrp]      Korrigera fel 843419 och ange valfritt vilken lösning som ska användas.\n"
++"  --fix-cortex-a53-843419[=full|adr|adrp]      Åtgärda fel 843419 och ange "
++"valfritt vilken lösning som ska användas.\n"
+ "                                               full (standard): Använd både ADRP- och ADR-lösningen, detta\n"
+ "                                                 kommer att öka storleken på dina binärfiler.\n"
+ "                                               adr: Använd endast ADR-lösningen, detta kommer inte att orsaka någon\n"
+ "                                                 ökning av binärstorleken men länkningen kommer att misslyckas om den\n"
+ "                                                 refererade adressen ligger utanför räckvidden för en ADR-instruktion.\n"
+-"                                                 Detta eliminerar behovet av att använda en veneer och resulterar i både\n"
+-"                                                 prestanda- och storleksfördelar.\n"
++"                                                 Detta tar bort behovet av en "
++"stubb och ger både prestanda- och\n"
++"                                                 storleksfördelar.\n"
+ "                                               adrp: Använd endast ADRP-lösningen, detta kommer aldrig att skriva om din\n"
+ "                                                 ADRP-instruktion till en ADR.  Lösningen kommer därför alltid att använda\n"
+-"                                                 en veneer, vilket ger både prestanda- och storleksfördelar.\n"
++"                                                 en stubb, vilket medför "
++"kostnader för både prestanda och storlek.\n"
+ 
+ #: eaarch64elf.c:1074 eaarch64elf32.c:1074 eaarch64elf32b.c:1074
+ #: eaarch64elfb.c:1074 eaarch64fbsd.c:1074 eaarch64fbsdb.c:1074
+@@ -4567,8 +4595,10 @@
+ "  -z force-bti                         Turn on Branch Target Identification mechanism and generate PLTs with BTI.\n"
+ "                                         Generate warnings for missing BTI markings on inputs\n"
+ msgstr ""
+-"  -z force-bti                         Aktivera mekanismen för Branch Target Identification och generera PLT med BTI.\n"
+-"                                         Generera varningar för saknade BTI-markeringar på inmatningar\n"
++"  -z force-bti                         Aktivera mekanismen Branch Target "
++"Identification och generera PLT:er med BTI.\n"
++"                                         Generera varningar för saknade "
++"BTI-markeringar i indata\n"
+ 
+ #: eaarch64elf.c:1078 eaarch64elf32.c:1078 eaarch64elf32b.c:1078
+ #: eaarch64elfb.c:1078 eaarch64fbsd.c:1078 eaarch64fbsdb.c:1078
+@@ -4583,10 +4613,16 @@
+ "                                         error: Emit error when the input objects are missing BTI markings\n"
+ "                                           and output has BTI marking.\n"
+ msgstr ""
+-"  -z bti-report[=none|warning|error]   Varna/visa felmeddelande vid avvikelse mellan BTI-märkning för inmatade objekt och utdata.\n"
+-"                                         none: Visar inga varnings-/felmeddelanden.\n"
+-"                                         warning (standard): Varnar när ingångsobjekten saknar BTI-märkning och utgången har BTI-märkning.\n"
+-"                                         error: Varnar när ingångsobjekten saknar BTI-märkning och utdata har BTI-märkning.\n"
++"  -z bti-report[=none|warning|error]   Utfärda varning/fel vid avvikande "
++"BTI-markering mellan indataobjekt och utdata.\n"
++"                                         none: Utfärda inga varnings- eller "
++"felmeddelanden.\n"
++"                                         warning (standard): Utfärda en "
++"varning när indataobjekten saknar BTI-markeringar\n"
++"                                           och utdata har en BTI-markering.\n"
++"                                         error: Utfärda ett fel när "
++"indataobjekten saknar BTI-markeringar\n"
++"                                           och utdata har en BTI-markering.\n"
+ 
+ #: eaarch64elf.c:1085 eaarch64elf32.c:1085 eaarch64elf32b.c:1085
+ #: eaarch64elfb.c:1085 eaarch64fbsd.c:1085 eaarch64fbsdb.c:1085
+@@ -4608,9 +4644,12 @@
+ "                                         never: never marks the output with GCS.\n"
+ msgstr ""
+ "  -z gcs=[always|never|implicit]       Styr om utdata stöder mekanismen Guarded Control Stack (GCS).\n"
+-"                                         implicit (standard om '-z gcs' utelämnas): härleder GCS från inmatningsobjekt.\n"
+-"                                         always: markerar alltid utdata med GCS.\n"
+-"                                         never: markerar aldrig utdata med GCS.\n"
++"                                         implicit (standard om ”-z gcs” "
++"utelämnas): härled GCS från indataobjekten.\n"
++"                                         always: markera alltid utdata med "
++"GCS.\n"
++"                                         never: markera aldrig utdata med "
++"GCS.\n"
+ 
+ #: eaarch64elf.c:1092 eaarch64elf32.c:1092 eaarch64elf32b.c:1092
+ #: eaarch64elfb.c:1092 eaarch64fbsd.c:1092 eaarch64fbsdb.c:1092
+@@ -4625,10 +4664,16 @@
+ "                                         error: Emit error when the input objects are missing GCS markings\n"
+ "                                           and output have GCS marking.\n"
+ msgstr ""
+-"  -z gcs-report[=none|warning|error]   Varna/visa fel vid avvikelse mellan GCS-markeringar mellan inmatade objekt och utdata.\n"
+-"                                         none: Visa inte några varnings-/felmeddelanden.\n"
+-"                                         warning (standard): Varnar när inmatningsobjekten saknar GCS-markeringar och utgången har GCS-markeringar.\n"
+-"                                         error: Varnar när ingångsobjekten saknar GCS-markeringar och utgången har GCS-markeringar.\n"
++"  -z gcs-report[=none|warning|error]   Utfärda varning/fel vid avvikande "
++"GCS-markering mellan indataobjekt och utdata.\n"
++"                                         none: Utfärda inga varnings- eller "
++"felmeddelanden.\n"
++"                                         warning (standard): Utfärda en "
++"varning när indataobjekten saknar GCS-markeringar\n"
++"                                           och utdata har en GCS-markering.\n"
++"                                         error: Utfärda ett fel när "
++"indataobjekten saknar GCS-markeringar\n"
++"                                           och utdata har en GCS-markering.\n"
+ 
+ #: eaarch64elf.c:1099 eaarch64elf32.c:1099 eaarch64elf32b.c:1099
+ #: eaarch64elfb.c:1099 eaarch64fbsd.c:1099 eaarch64fbsdb.c:1099
+@@ -4644,11 +4689,20 @@
+ "                                               error: Emit error when the input objects are missing GCS markings\n"
+ "                                                 and output have GCS marking.\n"
+ msgstr ""
+-"  -z gcs-report-dynamic=none|warning|error   Varna/felrapportera vid avvikelse mellan GCS-markeringar för aktuell\n"
+-"                                             länkenhet och dynamiska ingångsobjekt.\n"
+-"                                               none: Varna/felrapportera inte.\n"
+-"                                               warning: Varna när ingångsobjekten saknar GCS-markeringar och utgången har GCS-markeringar.\n"
+-"                                               error: Varna när ingångsobjekten saknar GCS-markeringar och utgången har GCS-markeringar.\n"
++"  -z gcs-report-dynamic=none|warning|error   Utfärda varning/fel vid "
++"avvikande GCS-markering mellan aktuell\n"
++"                                             länkenhet och dynamiska "
++"indataobjekt.\n"
++"                                               none: Utfärda inga varnings- "
++"eller felmeddelanden.\n"
++"                                               warning: Utfärda en varning "
++"när indataobjekten saknar GCS-markeringar\n"
++"                                                 och utdata har en "
++"GCS-markering.\n"
++"                                               error: Utfärda ett fel när "
++"indataobjekten saknar GCS-markeringar\n"
++"                                                 och utdata har en "
++"GCS-markering.\n"
+ 
+ #: eaarch64elf.c:1107 eaarch64elf32.c:1107 eaarch64elf32b.c:1107
+ #: eaarch64elfb.c:1107 eaarch64fbsd.c:1107 eaarch64fbsdb.c:1107
+@@ -4665,13 +4719,17 @@
+ "                                               allocation tags detected on load/store operations.\n"
+ "                                         async: Enable imprecise exceptions.\n"
+ msgstr ""
+-"  -z memtag-mode[=none|sync|async]     Välj vilket driftläge som ska användas för Memory Tagging Extension.\n"
+-"                                       Skickar ut en dynamisk tagg DT_AARCH64_MEMTAG_MODE för binärfilen.\n"
+-"                                       Denna post är endast giltig för huvudprogrammet. Den ignoreras i de\n"
+-"                                       objekt som laddas dynamiskt av laddaren.\n"
++"  -z memtag-mode[=none|sync|async]     Välj driftläge för Memory Tagging "
++"Extension.\n"
++"                                       Skapa en dynamisk tagg "
++"DT_AARCH64_MEMTAG_MODE för binärfilen.\n"
++"                                       Denna post är bara giltig för "
++"huvudprogrammet. Den ignoreras i objekt\n"
++"                                       som laddaren läser in dynamiskt.\n"
+ "                                         none (standard): Inaktivera MTE-kontroll av minnesläsningar och -skrivningar.\n"
+ "                                         sync: Aktivera exakta undantag när felaktiga adress- och allokeringstaggar upptäcks\n"
+-"                                               vid laddnings-/lagringsoperationer.\n"
++"                                               vid läs- och "
++"skrivoperationer.\n"
+ "                                         async: Aktivera oprecisa undantag.\n"
+ 
+ #: eaarch64elf.c:1116 eaarch64elf32.c:1116 eaarch64elf32b.c:1116
+@@ -4708,7 +4766,7 @@
+ "  --stack <size>              Set size of the initial stack\n"
+ "  --lazy-stack                Set lazy allocation of stack\n"
+ msgstr ""
+-"  --stack <strl>             Ställ in storleken på initiala stacken\n"
++"  --stack <strl>             Ställ in storleken på den initiala stacken\n"
+ "  --lazy-stack                Ställ in lat allokering av stacken\n"
+ 
+ #: eaarch64pe.c:352 earm64pe.c:352 earm_wince_pe.c:340 earmpe.c:340
+@@ -4811,7 +4869,7 @@
+ #: ei386pe.c:354 ei386pe_posix.c:354 ei386pep.c:366 emcorepe.c:354 eshpe.c:354
+ #, c-format
+ msgid "  --support-old-code                 Support interworking with old code\n"
+-msgstr "  --support-old-code                 Stöd interaktion med gammal kod\n"
++msgstr "  --support-old-code                 Stöd samverkan med gammal kod\n"
+ 
+ #: eaarch64pe.c:367 earm64pe.c:367 earm_wince_pe.c:355 earmpe.c:355
+ #: ei386pe.c:355 ei386pe_posix.c:355 ei386pep.c:367 emcorepe.c:355 eshpe.c:355
+@@ -4880,12 +4938,14 @@
+ #: ei386pe.c:367 ei386pe_posix.c:367 ei386pep.c:378 emcorepe.c:367 eshpe.c:367
+ #, c-format
+ msgid "                                     Exclude objects, archive members from auto\n"
+-msgstr "                                     Exkludera objekt, arkivmedlemmar från auto\n"
++msgstr "                                     Exkludera objekt och arkivmedlemmar från "
++"automatisk\n"
+ 
+ #: eaarch64pe.c:379 earm64pe.c:379 ei386pep.c:379
+ #, c-format
+ msgid "                                     export, place into import library instead\n"
+-msgstr "                                     exportera, placera i importbiblioteket istället\n"
++msgstr "                                     export, och placera dem i "
++"importbiblioteket i stället\n"
+ 
+ #: eaarch64pe.c:380 earm64pe.c:380 earm_wince_pe.c:369 earmpe.c:369
+ #: ei386pe.c:369 ei386pe_posix.c:369 ei386pep.c:380 emcorepe.c:369 eshpe.c:369
+@@ -4973,9 +5033,10 @@
+ "                                       adding pseudo-relocations resolved at\n"
+ "                                       runtime\n"
+ msgstr ""
+-"  --enable-runtime-pseudo-reloc      Kom runt begränsningarna för automatisk\n"
+-"                                       import genom att lägga till pseudomål som slås upp\n"
+-"                                       vid körtid\n"
++"  --enable-runtime-pseudo-reloc      Kringgå begränsningarna för automatisk\n"
++"                                       import genom att lägga till "
++"pseudo-omlokaliseringar som löses upp\n"
++"                                       vid körning\n"
+ 
+ #: eaarch64pe.c:391 earm64pe.c:391 ei386pep.c:391
+ #, c-format
+@@ -5021,8 +5082,9 @@
+ "  --[disable-]high-entropy-va        Image is compatible with 64-bit address space\n"
+ "                                       layout randomization (ASLR)\n"
+ msgstr ""
+-"  --[disable-]high-entropy-va        Bilden är kompatibel med 64-bitars adress-\n"
+-"                                       utrymmeslayoutrandomisering (ASLR)\n"
++"  --[disable-]high-entropy-va        Avbilden är kompatibel med randomisering "
++"av\n"
++"                                       adressrymdslayout (ASLR) för 64 bitar\n"
+ 
+ #: eaarch64pe.c:396 earm64pe.c:396 earm_wince_pe.c:387 earmpe.c:387
+ #: ei386pe.c:387 ei386pe_posix.c:387 ei386pep.c:396 emcorepe.c:387 eshpe.c:387
+@@ -5059,8 +5121,9 @@
+ "  --[disable-]nxcompat               Image is compatible with data execution\n"
+ "                                       prevention\n"
+ msgstr ""
+-"  --[disable-]nxcompat               Avbilden är kompatibel med dataexekverings-\n"
+-"                                       skydd\n"
++"  --[disable-]nxcompat               Avbilden är kompatibel med förhindrande "
++"av\n"
++"                                       dataexekvering\n"
+ 
+ #: eaarch64pe.c:401 earm64pe.c:401 earm_wince_pe.c:392 earmpe.c:392
+ #: ei386pe.c:392 ei386pe_posix.c:392 ei386pep.c:401 emcorepe.c:392 eshpe.c:392
+@@ -5069,8 +5132,9 @@
+ "  --[disable-]no-isolation           Image understands isolation but do not\n"
+ "                                       isolate the image\n"
+ msgstr ""
+-"  --[disable-]no-isolation           Bilden förstår isolering men isolerar inte\n"
+-"                                       bilden\n"
++"  --[disable-]no-isolation           Avbilden har stöd för isolering men "
++"isoleras\n"
++"                                       inte\n"
+ 
+ #: eaarch64pe.c:402 earm64pe.c:402 ei386pep.c:402
+ #, c-format
+@@ -5356,7 +5420,8 @@
+ #: emcorepe.c:368 eshpe.c:368
+ #, c-format
+ msgid "                                     export, place into import library instead.\n"
+-msgstr "                                     export, placera i ett import-bibliotek istället.\n"
++msgstr "                                     export, och placera dem i "
++"importbiblioteket i stället.\n"
+ 
+ #: earm_wince_pe.c:373 earmpe.c:373 ei386pe.c:373 ei386pe_posix.c:373
+ #: emcorepe.c:373 eshpe.c:373
+@@ -5377,8 +5442,9 @@
+ "                                       specifically set with --image-base\n"
+ msgstr ""
+ "  --enable-auto-image-base[=<adress>] Välj automatiskt avbildningsbas för DLL:er\n"
+-"                                       (valfritt börjar med adress) såvida\n"
+-"                                       inte inställt med --image-base\n"
++"                                       (med adress som valfri startpunkt) om "
++"den inte\n"
++"                                       uttryckligen anges med --image-base\n"
+ 
+ #: earm_wince_pe.c:375 earmpe.c:375 ei386pe.c:375 ei386pe_posix.c:375
+ #: emcorepe.c:375 eshpe.c:375
+@@ -5398,8 +5464,9 @@
+ msgstr ""
+ "  --enable-runtime-pseudo-reloc      Kringgå begränsningar i automatisk\n"
+ "                                     import genom att lägga till\n"
+-"                                     pseudoomlokaliseringar som löses under\n"
+-"                                     körtid.\n"
++"                                     pseudo-omlokaliseringar som löses upp "
++"vid\n"
++"                                     körning.\n"
+ 
+ #: earm_wince_pe.c:380 earmpe.c:380 ei386pe.c:380 ei386pe_posix.c:380
+ #: emcorepe.c:380 eshpe.c:380
+@@ -5408,9 +5475,10 @@
+ "  --disable-runtime-pseudo-reloc     Do not add runtime pseudo-relocations for\n"
+ "                                       auto-imported DATA.\n"
+ msgstr ""
+-"  --disable-runtime-pseudo-reloc     Lägg inte till pseudoomlokaliseringar\n"
+-"                                     för automatisk importerad DATA under\n"
+-"                                     körtid.\n"
++"  --disable-runtime-pseudo-reloc     Lägg inte till pseudo-omlokaliseringar "
++"vid körning\n"
++"                                     för automatiskt importerad DATA"
++".\n"
+ 
+ #: earm_wince_pe.c:381 earmpe.c:381 ei386pe.c:381 ei386pe_posix.c:381
+ #: emcorepe.c:381 eshpe.c:381
+@@ -5440,7 +5508,8 @@
+ "  --disable-large-address-aware      Executable does not support virtual\n"
+ "                                       addresses greater than 2 gigabytes\n"
+ msgstr ""
+-"  --disable-large-address-aware      Körbara har inte stöd för virtuella\n"
++"  --disable-large-address-aware      Den körbara filen har inte stöd för "
++"virtuella\n"
+ "                                       adresser större än 2 gigabyte\n"
+ 
+ #: earm_wince_pe.c:393 earmpe.c:393 ei386pe.c:393 ei386pe_posix.c:393
+@@ -5461,13 +5530,13 @@
+ #: earm_wince_pe.c:1020 earmpe.c:1020 ei386pe.c:1020 ei386pe_posix.c:1020
+ #: emcorepe.c:1020 eshpe.c:1020
+ msgid "%P: warning: resolving %s by linking to %s\n"
+-msgstr "%P: varning: slår upp %s genom att länka till %s\n"
++msgstr "%P: varning: löser upp %s genom att länka till %s\n"
+ 
+ #: earm_wince_pe.c:1824 earmpe.c:1824 ei386pe.c:1824 ei386pe_posix.c:1824
+ #: emcorepe.c:1824 eshpe.c:1824
+ #, c-format
+ msgid "%P: errors encountered processing file %s for interworking\n"
+-msgstr "%P: fel uppstod vid bearbetning av filen %s för interworking\n"
++msgstr "%P: fel uppstod vid bearbetning av filen %s för samverkan\n"
+ 
+ #: earm_wince_pe.c:1992 earmelf.c:524 earmelf_fbsd.c:524 earmelf_fuchsia.c:525
+ #: earmelf_haiku.c:525 earmelf_linux.c:525 earmelf_linux_eabi.c:525
+@@ -5606,7 +5675,8 @@
+ #: earmelfb_linux_fdpiceabi.c:1186 earmelfb_nbsd.c:1181 earmnto.c:1141
+ #, c-format
+ msgid "  --fix-v4bx-interworking     Rewrite BX rn branch to ARMv4 interworking veneer\n"
+-msgstr "  --fix-v4bx-interworking     Skriv om BX rn-grenen till ARMv4 interworking veneer\n"
++msgstr "  --fix-v4bx-interworking     Skriv om BX rn-grenen till en "
++"ARMv4-övergångsstubb\n"
+ 
+ #: earmelf.c:1182 earmelf_fbsd.c:1182 earmelf_fuchsia.c:1187
+ #: earmelf_haiku.c:1187 earmelf_linux.c:1187 earmelf_linux_eabi.c:1187
+@@ -5688,7 +5758,8 @@
+ #: earmelfb_linux_fdpiceabi.c:1210 earmelfb_nbsd.c:1205 earmnto.c:1165
+ #, c-format
+ msgid "  --[no-]fix-cortex-a8        Disable/enable Cortex-A8 Thumb-2 branch erratum fix\n"
+-msgstr "  --[no-]fix-cortex-a8        Inaktivera/aktivera felkorrigering för Cortex-A8 Thumb-2-gren\n"
++msgstr "  --[no-]fix-cortex-a8        Inaktivera/aktivera korrigering av "
++"Cortex-A8-felet vid Thumb-2-grenar\n"
+ 
+ #: earmelf.c:1206 earmelf_fbsd.c:1206 earmelf_fuchsia.c:1211
+ #: earmelf_haiku.c:1211 earmelf_linux.c:1211 earmelf_linux_eabi.c:1211
+@@ -5735,7 +5806,7 @@
+ #: eavrxmega4.c:125 eavrxmega4_flmap.c:125 eavrxmega5.c:125 eavrxmega6.c:125
+ #: eavrxmega7.c:125
+ msgid "%X%P: can not setup the input section list: %E\n"
+-msgstr "%X%P: kan inte ställa in listan över inmatningsavsnitt: %E\n"
++msgstr "%X%P: kan inte ställa in listan över indataavsnitt: %E\n"
+ 
+ #: eavr1.c:160 eavr2.c:160 eavr25.c:160 eavr3.c:160 eavr31.c:160 eavr35.c:160
+ #: eavr4.c:160 eavr5.c:160 eavr51.c:160 eavr6.c:160 eavrtiny.c:160
+@@ -5756,9 +5827,10 @@
+ "                                program counter wrap-around occurs at address\n"
+ "                                <val>.  Supported values: 8k, 16k, 32k and 64k.\n"
+ msgstr ""
+-"  --pmem-wrap-around=<val>    Låt länkarens lättnadsmaskin anta att en\n"
+-"                                programräknaromslagning sker vid adressen\n"
+-"                               <val> .  Värden som stöds: 8k, 16k, 32k och 64k.\n"
++"  --pmem-wrap-around=<val>    Låt länkarens avslappningsmaskin anta att\n"
++"                                programräknaren går runt vid adressen\n"
++"                                <val>.  Värden som stöds: 8k, 16k, 32k och "
++"64k.\n"
+ 
+ #: eavr1.c:592 eavr2.c:592 eavr25.c:592 eavr3.c:592 eavr31.c:592 eavr35.c:592
+ #: eavr4.c:592 eavr5.c:592 eavr51.c:592 eavr6.c:592 eavrtiny.c:592
+@@ -5772,8 +5844,9 @@
+ "                                instructions by a single jump instruction.\n"
+ "                                This option disables this optimization.\n"
+ msgstr ""
+-"  --no-call-ret-replacement  Avkopplingsmaskinen ersätter normalt två\n"
+-"                                på varandra följande call/ret-instruktioner med en\n"
++"  --no-call-ret-replacement   Avslappningsmaskinen ersätter normalt två\n"
++"                                omedelbart efterföljande "
++"call/ret-instruktioner med en\n"
+ "                                enda hoppinstruktion.\n"
+ "                                Denna flagga inaktiverar denna optimering.\n"
+ 
+@@ -5789,9 +5862,11 @@
+ "                                is limited to 128k max, it inserts a jump\n"
+ "                                stub. You can de-active this with this switch.\n"
+ msgstr ""
+-"  --no-stubs                  Om länkaren upptäcker att den försöker\n"
+-"                                komma åt en instruktion bortom 128k genom\n"
+-"                                en omlokalisering som är begränsad till max 128k,\n"
++"  --no-stubs                  Om länkaren upptäcker ett försök"
++" att nå\n"
++"                                en instruktion bortom 128k genom en\n"
++"                                omlokalisering som är begränsad till högst "
++"128k,\n"
+ "                                infogar den en hoppstubb. Du kan inaktivera\n"
+ "                                detta med denna flagga.\n"
+ 
+@@ -5837,7 +5912,7 @@
+ "  --stub-group-size=N         Maximum size of a group of input sections\n"
+ "                                handled by one stub section.\n"
+ msgstr ""
+-"  --stub-group-size=N         Maximal storlek på en grupp av ingångsavsnitt\n"
++"  --stub-group-size=N         Maximal storlek på en grupp av indataavsnitt\n"
+ "                                som hanteras av ett stubbavsnitt.\n"
+ 
+ #: ed30v_e.c:73 ed30v_o.c:73 ed30velf.c:73 eelf32_dlx.c:73 eelf32fr30.c:73
+@@ -5881,15 +5956,15 @@
+ 
+ #: eelf32_spu.c:571
+ msgid "%X%P: %pA exceeds local store range\n"
+-msgstr "%X%P: %pA överskrider lokalt lagringsintervall\n"
++msgstr "%X%P: %pA överskrider det lokala lagringsintervallet\n"
+ 
+ #: eelf32_spu.c:574
+ msgid "%P: --auto-overlay ignored with zero local store range\n"
+-msgstr "%P: --auto-overlay ignoreras med noll lokalt lagringsintervall\n"
++msgstr "%P: --auto-overlay ignoreras när det lokala lagringsintervallet är noll\n"
+ 
+ #: eelf32_spu.c:938
+ msgid "%P: invalid --local-store address range `%s'\n"
+-msgstr "%P: ogiltig adressintervall för --local-store `%s'\n"
++msgstr "%P: ogiltigt adressintervall för --local-store `%s`\n"
+ 
+ #: eelf32_spu.c:974
+ msgid "%P: invalid --num-lines/--num-regions `%u'\n"
+@@ -5927,7 +6002,7 @@
+ #: eelf32_spu.c:1079
+ #, c-format
+ msgid "  --no-overlays               No overlay handling\n"
+-msgstr "  --no-overlays               Ingen hantering av överlagring\n"
++msgstr "  --no-overlays               Ingen hantering av överlagringar\n"
+ 
+ #: eelf32_spu.c:1081
+ #, c-format
+@@ -5942,7 +6017,8 @@
+ #: eelf32_spu.c:1085
+ #, c-format
+ msgid "  --extra-overlay-stubs       Add stubs on all calls out of overlay regions\n"
+-msgstr "  --extra-overlay-stubs       Lägg till stubbar på alla anrop utanför överlagringsregioner\n"
++msgstr "  --extra-overlay-stubs       Lägg till stubbar vid alla anrop ut ur "
++"överlagringsregioner\n"
+ 
+ #: eelf32_spu.c:1087
+ #, c-format
+@@ -5952,12 +6028,13 @@
+ #: eelf32_spu.c:1089
+ #, c-format
+ msgid "  --stack-analysis            Estimate maximum stack requirement\n"
+-msgstr "  --stack-analysis            Uppskatta maximala stackkrav\n"
++msgstr "  --stack-analysis            Uppskatta maximalt stackbehov\n"
+ 
+ #: eelf32_spu.c:1091
+ #, c-format
+ msgid "  --emit-stack-syms           Add sym giving stack needed for each func\n"
+-msgstr "  --emit-stack-syms           Lägg till sym som ger stack som behövs för varje funktion\n"
++msgstr "  --emit-stack-syms           Lägg till en symbol som anger stackbehovet för "
++"varje funktion\n"
+ 
+ #: eelf32_spu.c:1093
+ #, c-format
+@@ -6018,7 +6095,7 @@
+ #: eelf32_spu.c:1113
+ #, c-format
+ msgid "  --soft-icache               Generate software icache overlays\n"
+-msgstr "  --soft-icache               Generera programvaru-icache-överlagring\n"
++msgstr "  --soft-icache               Generera programvaru-icache-överlagringar\n"
+ 
+ #: eelf32_spu.c:1115
+ #, c-format
+@@ -6038,12 +6115,13 @@
+ #: eelf32_spu.c:1121
+ #, c-format
+ msgid "  --lrlive-analysis           Scan function prologue for lr liveness\n"
+-msgstr "  --lrlive-analysis           Sök igenom funktionens prolog för lr-livlighet\n"
++msgstr "  --lrlive-analysis           Sök igenom funktionsprologen efter "
++"lr-livlighet\n"
+ 
+ #: eelf32_tic6x_be.c:90 eelf32_tic6x_elf_be.c:90 eelf32_tic6x_elf_le.c:90
+ #: eelf32_tic6x_le.c:90 eelf32_tic6x_linux_be.c:90 eelf32_tic6x_linux_le.c:90
+ msgid "%P: invalid --dsbt-index %d, outside DSBT size\n"
+-msgstr "%P: ogiltig --dsbt-index %d, utanför DSBT-storlek\n"
++msgstr "%P: ogiltigt --dsbt-index %d, utanför DSBT:ns storlek\n"
+ 
+ #: eelf32_tic6x_be.c:628 eelf32_tic6x_elf_be.c:628 eelf32_tic6x_elf_le.c:628
+ #: eelf32_tic6x_le.c:628 eelf32_tic6x_linux_be.c:628
+@@ -6177,7 +6255,8 @@
+ #: eelf_x86_64_fbsd.c:817 eelf_x86_64_haiku.c:817 eelf_x86_64_sol2.c:982
+ #, c-format
+ msgid "  -z call-nop=PADDING         Use PADDING as 1-byte NOP for branch\n"
+-msgstr "  -z call-nop=UTFYLLNAD       Använd UTFYLLNAD som 1-byte NOP för gren\n"
++msgstr "  -z call-nop=UTFYLLNAD       Använd UTFYLLNAD som ett NOP på en byte för "
++"grenar\n"
+ 
+ #: eelf32_x86_64.c:8777 eelf_i386.c:8206 eelf_i386_fbsd.c:714
+ #: eelf_i386_haiku.c:714 eelf_i386_sol2.c:879 eelf_x86_64.c:8834
+@@ -6223,7 +6302,8 @@
+ #: eelf_x86_64_fbsd.c:833 eelf_x86_64_haiku.c:833 eelf_x86_64_sol2.c:998
+ #, c-format
+ msgid "  -z x86-64-{baseline|v[234]} Mark x86-64-{baseline|v[234]} ISA level as needed\n"
+-msgstr "  -z x86-64-{baseline|v[234]} Markera x86-64-{baseline|v[234]} ISA-nivå efter behov\n"
++msgstr "  -z x86-64-{baseline|v[234]} Markera x86-64-{baseline|v[234]} ISA-nivå vid "
++"behov\n"
+ 
+ #: eelf32_x86_64.c:8793 eelf_i386.c:8222 eelf_i386_fbsd.c:730
+ #: eelf_i386_haiku.c:730 eelf_i386_sol2.c:895 eelf_x86_64.c:8850
+@@ -6405,7 +6485,7 @@
+ #: eelf64lriscv.c:640 eelf64lriscv_lp64.c:640 eelf64lriscv_lp64f.c:640
+ #, c-format
+ msgid "  --relax-gp                  Perform GP relaxation\n"
+-msgstr "  --relax-gp                  Genomför GP-lättnad\n"
++msgstr "  --relax-gp                  Genomför GP-avslappning\n"
+ 
+ #: eelf32briscv.c:641 eelf32briscv_ilp32.c:641 eelf32briscv_ilp32f.c:641
+ #: eelf32lriscv.c:641 eelf32lriscv_ilp32.c:641 eelf32lriscv_ilp32f.c:641
+@@ -6413,7 +6493,7 @@
+ #: eelf64lriscv.c:641 eelf64lriscv_lp64.c:641 eelf64lriscv_lp64f.c:641
+ #, c-format
+ msgid "  --no-relax-gp               Don't perform GP relaxation\n"
+-msgstr "  --no-relax-gp               Genomför inte GP-lättnad\n"
++msgstr "  --no-relax-gp               Genomför inte GP-avslappning\n"
+ 
+ #: eelf32briscv.c:642 eelf32briscv_ilp32.c:642 eelf32briscv_ilp32f.c:642
+ #: eelf32lriscv.c:642 eelf32lriscv_ilp32.c:642 eelf32lriscv_ilp32f.c:642
+@@ -6421,7 +6501,8 @@
+ #: eelf64lriscv.c:642 eelf64lriscv_lp64.c:642 eelf64lriscv_lp64f.c:642
+ #, c-format
+ msgid "  --check-uleb128             Check if SUB_ULEB128 has non-zero addend\n"
+-msgstr "  --check-uleb128             Kontrollera om SUB_ULEB128 har ett addend som inte är noll\n"
++msgstr "  --check-uleb128             Kontrollera om SUB_ULEB128 har ett tillägg som "
++"inte är noll\n"
+ 
+ #: eelf32briscv.c:643 eelf32briscv_ilp32.c:643 eelf32briscv_ilp32f.c:643
+ #: eelf32lriscv.c:643 eelf32lriscv_ilp32.c:643 eelf32lriscv_ilp32f.c:643
+@@ -6429,11 +6510,12 @@
+ #: eelf64lriscv.c:643 eelf64lriscv_lp64.c:643 eelf64lriscv_lp64f.c:643
+ #, c-format
+ msgid "  --no-check-uleb128          Don't check if SUB_ULEB128 has non-zero addend\n"
+-msgstr "  --no-check-uleb128          Kontrollera inte om SUB_ULEB128 har ett addend som inte är noll\n"
++msgstr "  --no-check-uleb128          Kontrollera inte om SUB_ULEB128 har ett tillägg "
++"som inte är noll\n"
+ 
+ #: eelf32cr16.c:88
+ msgid "%P: %pB: all input objects must be COFF or ELF for --embedded-relocs\n"
+-msgstr "%P: %pB: alla inmatningsobjekt måste vara COFF eller ELF för --embedded-relocs\n"
++msgstr "%P: %pB: alla indataobjekt måste vara COFF eller ELF för --embedded-relocs\n"
+ 
+ #: eelf32cr16.c:112 em68kelf.c:116 em68kelfnbsd.c:116
+ msgid "%P: %pB: can not create .emreloc section: %E\n"
+@@ -6463,13 +6545,13 @@
+ #, fuzzy
+ #| msgid "%X%P: can not make stub section: %E\n"
+ msgid "%X%P: can not make align section: %E\n"
+-msgstr "%X%P: kan inte skapa stubbavsnitt: %E\n"
++msgstr "%X%P: kan inte skapa justeringsavsnitt: %E\n"
+ 
+ #: eelf32loongarch.c:239 eelf64loongarch.c:239
+ #, fuzzy
+ #| msgid "%X%P: can not size group sections: %E\n"
+ msgid "%X%P: can not size align section: %E\n"
+-msgstr "%X%P: kan inte storleksanpassa gruppavsnitt: %E\n"
++msgstr "%X%P: kan inte storleksanpassa justeringsavsnitt: %E\n"
+ 
+ #: eelf32lppc.c:99 eelf32lppclinux.c:99 eelf32lppcnto.c:99 eelf32lppcsim.c:99
+ #: eelf32ppc.c:99 eelf32ppc_fbsd.c:99 eelf32ppchaiku.c:99 eelf32ppclinux.c:99
+@@ -6536,7 +6618,7 @@
+ #: eelf64ppc_fbsd.c:1441
+ #, c-format
+ msgid "  --no-emit-stub-syms         Don't label linker stubs with a symbol\n"
+-msgstr "  --no-emit-stub-syms         Märk inte länkare-stubbar med en symbol\n"
++msgstr "  --no-emit-stub-syms         Märk inte länkarstubbar med en symbol\n"
+ 
+ #: eelf32lppc.c:878 eelf32lppclinux.c:878 eelf32lppcnto.c:878
+ #: eelf32lppcsim.c:878 eelf32ppc.c:878 eelf32ppc_fbsd.c:878
+@@ -6546,7 +6628,7 @@
+ #: eelf64ppc_fbsd.c:1461
+ #, c-format
+ msgid "  --no-tls-optimize           Don't try to optimize TLS accesses\n"
+-msgstr "  --no-tls-optimize           Försök att inte optimera TLS-åtkomst\n"
++msgstr "  --no-tls-optimize           Försök inte optimera TLS-åtkomst\n"
+ 
+ #: eelf32lppc.c:881 eelf32lppclinux.c:881 eelf32lppcnto.c:881
+ #: eelf32lppcsim.c:881 eelf32ppc.c:881 eelf32ppc_fbsd.c:881
+@@ -6564,7 +6646,7 @@
+ #: eelf32ppcsim.c:884 eelf32ppcwindiss.c:884
+ #, c-format
+ msgid "  --secure-plt                Use new-style PLT if possible\n"
+-msgstr "  --secure-plt                Använd ny stil för PLT om möjligt\n"
++msgstr "  --secure-plt                Använd PLT av ny typ om möjligt\n"
+ 
+ #: eelf32lppc.c:887 eelf32lppclinux.c:887 eelf32lppcnto.c:887
+ #: eelf32lppcsim.c:887 eelf32ppc.c:887 eelf32ppc_fbsd.c:887
+@@ -6572,7 +6654,7 @@
+ #: eelf32ppcsim.c:887 eelf32ppcwindiss.c:887
+ #, c-format
+ msgid "  --bss-plt                   Force old-style BSS PLT\n"
+-msgstr "  --bss-plt                   Tvinga gammal stil BSS PLT\n"
++msgstr "  --bss-plt                   Tvinga BSS-PLT av gammal typ\n"
+ 
+ #: eelf32lppc.c:890 eelf32lppclinux.c:890 eelf32lppcnto.c:890
+ #: eelf32lppcsim.c:890 eelf32ppc.c:890 eelf32ppc_fbsd.c:890
+@@ -6634,7 +6716,7 @@
+ #: eelf32ppcsim.c:909 eelf32ppcvxworks.c:865 eelf32ppcwindiss.c:909
+ #, c-format
+ msgid "  --no-pic-fixup              Don't edit non-pic to pic\n"
+-msgstr "  --no-pic-fixup              Redigera inte icke-pic till pic\n"
++msgstr "  --no-pic-fixup              Redigera inte icke-PIC till PIC\n"
+ 
+ #: eelf32lppc.c:912 eelf32lppclinux.c:912 eelf32lppcnto.c:912
+ #: eelf32lppcsim.c:912 eelf32ppc.c:912 eelf32ppc_fbsd.c:912
+@@ -6663,12 +6745,15 @@
+ "                                Values of +/-1 indicate the linker should\n"
+ "                                choose suitable defaults.\n"
+ msgstr ""
+-"  --stub-group-size=N         Maximal storlek på en grupp av ingångsavsnitt\n"
++"  --stub-group-size=N         Maximal storlek på en grupp av indataavsnitt\n"
+ "                                som kan hanteras av ett stubbavsnitt. Ett negativt värde\n"
+-"                                placerar alla stubbar före deras förgreningar (med en\n"
++"                                placerar alla stubbar före sina grenar (med "
++"en\n"
+ "                                gruppstorlek på -N), medan ett positivt värde tillåter två\n"
+-"                                grupper av ingångsavsnitt, ett före och ett efter varje stubb-\n"
+-"                                avsnitt. Värden på +/-1 indikerar att länkaren ska välja\n"
++"                                grupper av indataavsnitt, en före och en "
++"efter varje stubb-\n"
++"                                avsnitt. Värden på +/-1 innebär att länkaren "
++"ska välja\n"
+ "                                lämpliga standardvärden.\n"
+ 
+ #: eelf32rx.c:397
+@@ -6725,7 +6810,8 @@
+ 
+ #: eelf32xtensa.c:301
+ msgid "%P: warning: failed to convert %s table in %pB (%s); subsequent disassembly may be incomplete\n"
+-msgstr "%P: varning: kunde inte konvertera %s-tabell i %pB (%s); efterföljande disassembly kan vara ofullständig\n"
++msgstr "%P: varning: kunde inte konvertera %s-tabell i %pB (%s); efterföljande "
++"avassemblering kan vara ofullständig\n"
+ 
+ #: eelf32xtensa.c:421
+ msgid "%P: %pB: cannot read contents of section %pA\n"
+@@ -6749,7 +6835,7 @@
+ 
+ #: eelf32xtensa.c:487
+ msgid "%P: cross-endian linking for %pB not supported\n"
+-msgstr "%P: cross-endian-länkning för %pB stöds inte\n"
++msgstr "%P: länkning mellan byteordningar för %pB stöds inte\n"
+ 
+ #: eelf32xtensa.c:518
+ msgid "%P: failed to create .xtensa.info section\n"
+@@ -6757,7 +6843,7 @@
+ 
+ #: eelf32xtensa.c:1258
+ msgid "%P: Relaxation not supported with --enable-non-contiguous-regions.\n"
+-msgstr "%P: Lättnad stöds inte med --enable-non-contiguous-regions.\n"
++msgstr "%P: Avslappning stöds inte med --enable-non-contiguous-regions.\n"
+ 
+ #: eelf32xtensa.c:2470
+ #, c-format
+@@ -6765,7 +6851,8 @@
+ "  --size-opt                  When relaxing longcalls, prefer size\n"
+ "                                optimization over branch target alignment\n"
+ msgstr ""
+-"  --size-opt                  När långa anrop lättas, prioritera storleks-\n"
++"  --size-opt                  När långa anrop avslappnas, prioritera "
++"storleks-\n"
+ "                                optimering framför grenmålsjustering\n"
+ 
+ #: eelf32xtensa.c:2473
+@@ -6790,7 +6877,7 @@
+ #: eelf64_s390.c:667
+ #, c-format
+ msgid "  --s390-pgste                Tell the kernel to allocate 4k page tables\n"
+-msgstr "  --s390-pgste                Säg till kärnan att allokera 4k-sidtabeller\n"
++msgstr "  --s390-pgste                Be kärnan allokera 4k-sidtabeller\n"
+ 
+ #: eelf64alpha.c:617 eelf64alpha_fbsd.c:617 eelf64alpha_nbsd.c:617
+ #, c-format
+@@ -6810,11 +6897,11 @@
+ 
+ #: eelf64lppc.c:521 eelf64lppc_fbsd.c:521 eelf64ppc.c:521 eelf64ppc_fbsd.c:521
+ msgid "%X%P: linker script separates .got and .toc\n"
+-msgstr "%X%P: länkarskript separerar .got och .toc\n"
++msgstr "%X%P: länkarskriptet separerar .got och .toc\n"
+ 
+ #: eelf64lppc.c:582 eelf64lppc_fbsd.c:582 eelf64ppc.c:582 eelf64ppc_fbsd.c:582
+ msgid "%P: .init/.fini fragments use differing TOC pointers\n"
+-msgstr "%P: .init/.fini-fragment använder olika TOC-pekare\n"
++msgstr "%P: .init/.fini-fragmenten använder olika TOC-pekare\n"
+ 
+ #: eelf64lppc.c:1282 eelf64lppc_fbsd.c:1282 eelf64ppc.c:1282
+ #: eelf64ppc_fbsd.c:1282
+@@ -6835,7 +6922,7 @@
+ #: eelf64ppc_fbsd.c:1411
+ #, c-format
+ msgid "  --plt-thread-safe           PLT call stubs with load-load barrier\n"
+-msgstr "  --plt-thread-safe           PLT-anropsstubbar med load-load-barriär\n"
++msgstr "  --plt-thread-safe           PLT-anropsstubbar med läs-läs-barriär\n"
+ 
+ #: eelf64lppc.c:1414 eelf64lppc_fbsd.c:1414 eelf64ppc.c:1414
+ #: eelf64ppc_fbsd.c:1414
+@@ -6865,7 +6952,8 @@
+ #: eelf64ppc_fbsd.c:1429
+ #, c-format
+ msgid "  --power10-stubs [=auto]     Use Power10 PLT call stubs (default auto)\n"
+-msgstr "  --power10-stubs [=auto]     Använd Power10 PLT-anropsstubbar (standard auto)\n"
++msgstr "  --power10-stubs [=auto]     Använd Power10 PLT-anropsstubbar (standard: "
++"auto)\n"
+ 
+ #: eelf64lppc.c:1432 eelf64lppc_fbsd.c:1432 eelf64ppc.c:1432
+ #: eelf64ppc_fbsd.c:1432
+@@ -6908,7 +6996,8 @@
+ "                                final link, off for ld -r.\n"
+ msgstr ""
+ "  --save-restore-funcs        Tillhandahåll rutiner för att spara och återställa\n"
+-"                                register som används av gcc -Os-kod.  Standard-\n"
++"                                register som används av GCC -Os-kod.  "
++"Standard-\n"
+ "                                inställningen är på för normal slutlig länkning, av för ld -r.\n"
+ 
+ #: eelf64lppc.c:1458 eelf64lppc_fbsd.c:1458 eelf64ppc.c:1458
+@@ -6927,13 +7016,14 @@
+ #: eelf64ppc_fbsd.c:1470
+ #, c-format
+ msgid "  --tls-get-addr-regsave      Force register save __tls_get_addr stub\n"
+-msgstr "  --tls-get-addr-regsave      Tvinga registersparad __tls_get_addr-stubbe\n"
++msgstr "  --tls-get-addr-regsave      Tvinga registersparande __tls_get_addr-stubb\n"
+ 
+ #: eelf64lppc.c:1473 eelf64lppc_fbsd.c:1473 eelf64ppc.c:1473
+ #: eelf64ppc_fbsd.c:1473
+ #, c-format
+ msgid "  --no-tls-get-addr-regsave   Don't use register save __tls_get_addr stub\n"
+-msgstr "  --no-tls-get-addr-regsave   Använd inte registersparad __tls_get_addr-stubbe\n"
++msgstr "  --no-tls-get-addr-regsave   Använd inte registersparande "
++"__tls_get_addr-stubb\n"
+ 
+ #: eelf64lppc.c:1476 eelf64lppc_fbsd.c:1476 eelf64ppc.c:1476
+ #: eelf64ppc_fbsd.c:1476
+@@ -6951,7 +7041,7 @@
+ #: eelf64ppc_fbsd.c:1485
+ #, c-format
+ msgid "  --no-multi-toc              Disallow automatic multiple toc sections\n"
+-msgstr "  --no-multi-toc              Tillåt inte automatiska multipla toc-avsnitt\n"
++msgstr "  --no-multi-toc              Tillåt inte automatiska flera TOC-avsnitt\n"
+ 
+ #: eelf64lppc.c:1488 eelf64lppc_fbsd.c:1488 eelf64ppc.c:1488
+ #: eelf64ppc_fbsd.c:1488
+@@ -7088,7 +7178,8 @@
+ "                                multiple sub-space shared libraries\n"
+ msgstr ""
+ "  --multi-subspace            Generera import- och exportstubbar för att\n"
+-"                                ge stöd för flera delutrymmesdelade bibliotek\n"
++"                                ge stöd för delade bibliotek i flera "
++"delutrymmen\n"
+ 
+ #: ei386beos.c:354
+ msgid "%P: PE operations on non PE file\n"
+@@ -7110,7 +7201,6 @@
+ msgid "%P: warning: the size of the 'window' memory region is not a power of 2; its size %d is truncated to %d\n"
+ msgstr ""
+ "%P: varning: storleken på minnesregionen ”fönster” är inte en tvåpotens; dess storlek %d trunkerades till %d\n"
+-"\n"
+ 
+ #: em68hc11elf.c:159 em68hc11elfb.c:159 em68hc12elf.c:159 em68hc12elfb.c:159
+ msgid "%X%P: changing output format whilst linking is not supported\n"
+@@ -7122,8 +7212,10 @@
+ "  --no-trampoline             Do not generate the far trampolines used to call\n"
+ "                                a far function using jsr or bsr\n"
+ msgstr ""
+-"  --no-trampoline             Generera inte de fjädringar längre bort som används för\n"
+-"                                att anropa en funktion längre bort med hjälp av jsr eller bsr\n"
++"  --no-trampoline             Generera inte hoppstubbar för långa avstånd som "
++"används för\n"
++"                                att anropa en avlägsen funktion med jsr eller "
++"bsr\n"
+ 
+ #: em68hc11elf.c:626 em68hc11elfb.c:626 em68hc12elf.c:626 em68hc12elfb.c:626
+ #, c-format
+@@ -7136,13 +7228,12 @@
+ 
+ #: em68kelf.c:92 em68kelfnbsd.c:92
+ msgid "%P: %pB: all input objects must be ELF for --embedded-relocs\n"
+-msgstr "%P: %pB: alla inmatningsobjekt måste vara ELF för --embedded-relocs\n"
++msgstr "%P: %pB: alla indataobjekt måste vara ELF för --embedded-relocs\n"
+ 
+ #: em68kelf.c:700 em68kelfnbsd.c:700
+ msgid "%P: unrecognized --got argument '%s'\n"
+ msgstr ""
+-"%P: okänt argument till flagga --got ”%s”\n"
+-"\n"
++"%P: okänt argument till flaggan --got ”%s”\n"
+ 
+ #: em68kelf.c:713 em68kelfnbsd.c:713
+ #, c-format
+@@ -7151,21 +7242,20 @@
+ 
+ #: emmo.c:321
+ msgid "%X%P: internal problems scanning %pB after opening it"
+-msgstr "%X%P: interna problem vid genomsökning av %pB efter att har öppnat den"
++msgstr "%X%P: interna problem vid genomsökning av %pB efter att den har öppnats"
+ 
+ #: emsp430X.c:160 emsp430elf.c:160
+ msgid "%P: error: unhandled data_statement size\n"
+ msgstr ""
+ "%P: fel: ohanterad data_statement-storlek\n"
+-"\n"
+ 
+ #: emsp430X.c:300 emsp430elf.c:300
+ msgid "%P: error: no section named %s or %s in linker script\n"
+-msgstr "%P: fel: ingen avsnitt med namn %s eller %s i länkarskript\n"
++msgstr "%P: fel: inget avsnitt med namnet %s eller %s finns i länkarskriptet\n"
+ 
+ #: emsp430X.c:309 emsp430elf.c:309
+ msgid "%P: error: no section named %s in linker script\n"
+-msgstr "%P: fel: ingen avsnitt med namn %s i länkarskript\n"
++msgstr "%P: fel: inget avsnitt med namnet %s finns i länkarskriptet\n"
+ 
+ #: emsp430X.c:456 emsp430elf.c:456
+ #, c-format
+@@ -7204,7 +7294,7 @@
+ 
+ #: emsp430X.c:483 emsp430elf.c:483
+ msgid "%P: error: unrecognized argument to --code-region= option: \"%s\"\n"
+-msgstr "%P: fel: okänt argument till flagga -code-region=: ”%s”\n"
++msgstr "%P: fel: okänt argument till flaggan --code-region=: ”%s”\n"
+ 
+ #: emsp430X.c:500 emsp430elf.c:500
+ msgid "%P: --data-region requires an argument: {upper,lower,either,none}\n"
+@@ -7213,8 +7303,7 @@
+ #: emsp430X.c:506 emsp430elf.c:506
+ msgid "%P: error: unrecognized argument to --data-region= option: \"%s\"\n"
+ msgstr ""
+-"%P: fel: okänt argument till flagga -data-region=: ”%s”\n"
+-"\n"
++"%P: fel: okänt argument till flaggan --data-region=: ”%s”\n"
+ 
+ #. Incompatible objects.
+ #: ends32belf.c:129 ends32belf16m.c:129 ends32belf_linux.c:129 ends32elf.c:129
+@@ -7242,19 +7331,19 @@
+ #: ends32elf.c:486 ends32elf16m.c:477 ends32elf16m.c:486 ends32elf_linux.c:610
+ #: ends32elf_linux.c:619
+ msgid "%P: valid arguments to --mhyper-relax=(low|medium|high)\n"
+-msgstr "%P: giltigt argument till --mhyper-relax=(low|medium|high)\n"
++msgstr "%P: giltiga argument till --mhyper-relax=(low|medium|high)\n"
+ 
+ #: ends32belf.c:506 ends32belf16m.c:506 ends32belf_linux.c:639 ends32elf.c:506
+ #: ends32elf16m.c:506 ends32elf_linux.c:639
+ #, c-format
+ msgid "  --m[no-]fp-as-gp            Disable/enable fp-as-gp relaxation\n"
+-msgstr "  --m[no-]fp-as-gp            Inaktivera/aktivera fp-as-gp-lättnad\n"
++msgstr "  --m[no-]fp-as-gp            Inaktivera/aktivera fp-as-gp-avslappning\n"
+ 
+ #: ends32belf.c:508 ends32belf16m.c:508 ends32belf_linux.c:641 ends32elf.c:508
+ #: ends32elf16m.c:508 ends32elf_linux.c:641
+ #, c-format
+ msgid "  --mexport-symbols=FILE      Exporting symbols in linker script\n"
+-msgstr "  --mexport-symbols=FIL       Exporterar symboler i länkarskriptet\n"
++msgstr "  --mexport-symbols=FIL       Exportera symboler i länkarskriptet\n"
+ 
+ #: ends32belf.c:510 ends32belf16m.c:510 ends32belf_linux.c:643 ends32elf.c:510
+ #: ends32elf16m.c:510 ends32elf_linux.c:643
+@@ -7266,7 +7355,7 @@
+ #: ends32elf16m.c:512 ends32elf_linux.c:645
+ #, c-format
+ msgid "  --m[no-]tlsdesc-trampoline  Disable/enable TLS DESC trampoline\n"
+-msgstr "  --m[no-]tlsdesc-trampoline  Inaktivera/aktivera TLS DESC-fjädring\n"
++msgstr "  --m[no-]tlsdesc-trampoline  Inaktivera/aktivera TLS DESC-stubb\n"
+ 
+ #: epdp11.c:83
+ #, c-format
+@@ -7281,7 +7370,8 @@
+ #: epdp11.c:85
+ #, c-format
+ msgid "  -z, --imagic   Make text readonly, separate instruction and data spaces\n"
+-msgstr "  -z, --imagic   Gör texten skrivskyddad, separera instruktions- och datautrymme\n"
++msgstr "  -z, --imagic   Gör texten skrivskyddad, separera instruktions- och "
++"datautrymmen\n"
+ 
+ #: epdp11.c:86
+ #, c-format

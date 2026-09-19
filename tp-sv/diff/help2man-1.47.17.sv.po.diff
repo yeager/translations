@@ -1,0 +1,108 @@
+--- a/help2man-1.47.17.sv.po
++++ b/help2man-1.47.17.sv.po
+@@ -84,15 +84,15 @@
+ " -S, --source=TEXT       programkälla (FSF, Debian, ...)\n"
+ " -L, --locale=STRÄNG     välj lokal (standardvärde ”C”)\n"
+ " -i, --include=FIL       inkludera material från ”FIL”\n"
+-" -I, --opt-include=FIL   inkludera material från ”FIL” om den existerar\n"
++" -I, --opt-include=FIL   inkludera material från ”FIL” om den finns\n"
+ " -o, --output=FIL        skicka utdata till ”FIL”\n"
+ " -p, --info-page=TEXT    namn på Texinfo-manual\n"
+-" -N, --no-info           tysta ned pekare till Texinfo-manual\n"
++" -N, --no-info           utelämna hänvisning till Texinfo-manual\n"
+ " -l, --libtool           exkludera ”lt-” från programnamnet\n"
+ "     --help              skriv ut den här hjälpen, avsluta sedan\n"
+ "     --version           skriv ut versionsnummer, avsluta sedan\n"
+ "\n"
+-"KÖRBAR_FIL bör acceptera flaggorna ”--help” och ”--version” även om\n"
++"KÖRBAR_FIL bör acceptera flaggorna ”--help” och ”--version”, men\n"
+ "alternativ kan anges med:\n"
+ "\n"
+ " -h, --help-option=STRÄNG     sträng för hjälpflagga\n"
+@@ -123,7 +123,7 @@
+ #: help2man:261
+ #, perl-format
+ msgid "%s: no valid information found in `%s'"
+-msgstr "%s: ingen giltig information funnen i ”%s”"
++msgstr "%s: ingen giltig information hittades i ”%s”"
+ 
+ #. Translators: the following message is a strftime(3) format string, which in
+ #. the English version expands to the month as a word and the full year.  It
+@@ -282,15 +282,15 @@
+ #: help2man:760
+ #, perl-format
+ msgid "%s: can't get `%s' info from %s%s"
+-msgstr "%s: kan inte få ”%s”-info från %s%s"
++msgstr "%s: kan inte hämta information om ”%s” från %s%s"
+ 
+ #: help2man:762
+ msgid "Try `--no-discard-stderr' if option outputs to stderr"
+-msgstr "Prova ”--no-discard-stderr” om flagga matar ut till stderr"
++msgstr "Prova ”--no-discard-stderr” om flaggan skriver till stderr"
+ 
+ #: help2man.h2m.PL:83
+ msgid "Include file for help2man man page"
+-msgstr "Inkludera fil för help2man manualsida"
++msgstr "Inkluderingsfil för help2mans manualsida"
+ 
+ #: help2man.h2m.PL:89
+ msgid "help2man \\- generate a simple manual page"
+@@ -334,10 +334,10 @@
+ "(case insensitive), or after a paragraph matching\n"
+ ".BI / pattern /\\fR.\n"
+ msgstr ""
+-"Block av *roff-text infogas ord för ord i utskriften antingen vid\n"
+-"början av angivet\n"
++"Block av ordagrann *roff-text infogas i utdata antingen i "
++"början av det angivna\n"
+ ".BI [ avsnitt ]\n"
+-"(okänsligt för skiftläge), eller efter en paragraf som matchar\n"
++"(okänsligt för skiftläge) eller efter en paragraf som matchar\n"
+ ".BI / mönster /\\fR.\n"
+ 
+ #: help2man.h2m.PL:118
+@@ -390,14 +390,14 @@
+ "if required).\n"
+ msgstr ""
+ "Alla avsnitt\n"
+-".B [namn]\n"
++".B [ namn ]\n"
+ "eller\n"
+-".B [synopsis]\n"
+-"som förekommer i inkluderingsfilen kommer att ersätta vad som automatiskt\n"
+-"skulle bli producerat (även om du fortfarande kan åsidosätta\n"
+-"de senare med\n"
++".B [ synopsis ]\n"
++"som förekommer i inkluderingsfilen ersätter det som annars skulle ha "
++"genererats automatiskt"
++" (men avsnittet [ namn ] kan fortfarande åsidosättas med\n"
+ ".B \\-\\-name\n"
+-"om det krävs).\n"
++"vid behov).\n"
+ 
+ #: help2man.h2m.PL:166
+ msgid ""
+@@ -422,14 +422,14 @@
+ "to place the additional text before, in place of, or after the default\n"
+ "output respectively.\n"
+ msgstr ""
+-"Placering av text inom avsnittet kan uttryckligen begäras genom att använda\n"
++"Textens placering inom avsnittet kan anges uttryckligen med "
+ "syntaxen\n"
+ ".RI [< avsnitt ],\n"
+ ".RI [= avsnitt ]\n"
+ "eller\n"
+ ".RI [> avsnitt ]\n"
+-"för att placera den extra texten före, istället för, respektive efter\n"
+-"standardutmatningen.\n"
++"för att placera den extra texten före, i stället för respektive efter\n"
++"standardutdata.\n"
+ 
+ #: help2man.h2m.PL:185
+ msgid "AVAILABILITY"
+@@ -437,4 +437,4 @@
+ 
+ #: help2man.h2m.PL:186
+ msgid "The latest version of this distribution is available on-line from:"
+-msgstr "Senaste versionen av den här utgåvan finns tillgänglig online från:"
++msgstr "Den senaste versionen av denna utgåva finns på nätet på:"

@@ -1,0 +1,451 @@
+--- a/klavaro-3.12.sv.po
++++ b/klavaro-3.12.sv.po
+@@ -33,7 +33,7 @@
+ 
+ #: ../data/klavaro.glade.h:4
+ msgid "Clear progress data."
+-msgstr "Rensa framstegshistorik."
++msgstr "Rensa data om framsteg."
+ 
+ #: ../data/klavaro.glade.h:5
+ msgid "_Reset"
+@@ -41,7 +41,7 @@
+ 
+ #: ../data/klavaro.glade.h:6
+ msgid "Close this window, returning to the exercise."
+-msgstr "Stäng detta fönster och återgå till övningarna."
++msgstr "Stäng fönstret och återgå till övningen."
+ 
+ #: ../data/klavaro.glade.h:7
+ msgid "_Close"
+@@ -55,7 +55,7 @@
+ #. Confirmation check-button for removing data.
+ #: ../data/klavaro.glade.h:11
+ msgid "Clear data for every module, if checked!"
+-msgstr "Rensa all framstegshistorik för var modul, om ikryssad!"
++msgstr "Rensa data om framsteg för alla moduler om rutan är markerad!"
+ 
+ #: ../data/klavaro.glade.h:12
+ msgid "Load other exercises/lessons"
+@@ -71,11 +71,12 @@
+ 
+ #: ../data/klavaro.glade.h:15
+ msgid "This is a specific exercise, adjusted to your error profile."
+-msgstr "Denna övning är specifikt anpassad efter din felprofil."
++msgstr "Denna övning är särskilt anpassad till din felprofil."
+ 
+ #: ../data/klavaro.glade.h:16
+ msgid "Edit the character set to be used in lessons after 43: they are customizable!"
+-msgstr "Ändra teckenuppsättningen som ska användas efter lektion 43. De är anpassningsbara!"
++msgstr "Ändra teckenuppsättningen som används i lektioner efter lektion 43. De går "
++"att anpassa!"
+ 
+ #: ../data/klavaro.glade.h:17 ../src/tutor.c:397
+ msgid "Drag and drop text here to practice with it."
+@@ -87,7 +88,7 @@
+ 
+ #: ../data/klavaro.glade.h:19
+ msgid "Show the virtual keyboard and the relation between fingers and keys."
+-msgstr "Visa det virtuella tangentbordet samt relationen mellan fingrar och tangenter."
++msgstr "Visa det virtuella tangentbordet och sambandet mellan fingrar och tangenter."
+ 
+ #: ../data/klavaro.glade.h:20
+ msgid "_Keyboard"
+@@ -103,7 +104,7 @@
+ 
+ #: ../data/klavaro.glade.h:23
+ msgid "Alternative color scheme, needs restart!"
+-msgstr "Alternativa färgscheman, kräver omstart!"
++msgstr "Alternativt färgschema; kräver omstart!"
+ 
+ #: ../data/klavaro.glade.h:24
+ msgid "Co_urse information"
+@@ -111,7 +112,7 @@
+ 
+ #: ../data/klavaro.glade.h:25
+ msgid "Charts showing the learning progress along the exercises."
+-msgstr "Diagram som visar inlärningsframsteg vid sidan av övningarna."
++msgstr "Diagram som visar inlärningsframstegen under övningarna."
+ 
+ #: ../data/klavaro.glade.h:26
+ msgid "_Progress"
+@@ -127,7 +128,7 @@
+ 
+ #: ../data/klavaro.glade.h:29
+ msgid "B_ack to menu"
+-msgstr "Tillb_aka till menyn"
++msgstr "_Tillbaka till menyn"
+ 
+ #: ../data/klavaro.glade.h:30
+ msgid "Show local and external scores from other users."
+@@ -195,15 +196,15 @@
+ 
+ #: ../data/klavaro.glade.h:46
+ msgid "Remove the selected item."
+-msgstr "Ta bort det markerade alternativet."
++msgstr "Ta bort det markerade objektet."
+ 
+ #: ../data/klavaro.glade.h:47
+ msgid "_Remove copied file"
+-msgstr "Ta bort kopie_rad fil"
++msgstr "Ta bort kopierad _fil"
+ 
+ #: ../data/klavaro.glade.h:48
+ msgid "Apply the selected item to create an exercise."
+-msgstr "Tillämpa valet för att skapa en övning."
++msgstr "Använd det markerade objektet för att skapa en övning."
+ 
+ #: ../data/klavaro.glade.h:49
+ msgid "_Apply"
+@@ -227,11 +228,11 @@
+ 
+ #: ../data/klavaro.glade.h:54
+ msgid "_Remove"
+-msgstr "Ta bo_rt"
++msgstr "Ta _bort"
+ 
+ #: ../data/klavaro.glade.h:55
+ msgid "Toggles the shift effect on the keys. Alternates between the upper and lower characters of the keys."
+-msgstr "Växlar skift-påverkan på tangenterna. Byter mellan stora och små tecken på tangenterna."
++msgstr "Växlar skifteffekten på tangenterna mellan gemener och versaler."
+ 
+ #: ../data/klavaro.glade.h:56
+ msgid "SPACE BAR"
+@@ -279,7 +280,7 @@
+ 
+ #: ../data/klavaro.glade.h:67
+ msgid "Save the current keyboard layout with the name specified above."
+-msgstr "Spara nuvarande tangentbordslayout med namnet specificerat ovan."
++msgstr "Spara den aktuella tangentbordslayouten med namnet som anges ovan."
+ 
+ #: ../data/klavaro.glade.h:68
+ msgid "_Save and use"
+@@ -287,7 +288,7 @@
+ 
+ #: ../data/klavaro.glade.h:69
+ msgid "If you like those beautiful hands, click here to close this window keeping them."
+-msgstr "Om du gillar dessa vackra händer, klicka här innan du stänger detta fönster för att behålla dem."
++msgstr "Om du vill behålla de vackra händerna, klicka här och stäng fönstret."
+ 
+ #: ../data/klavaro.glade.h:70
+ msgid "_Keep hands"
+@@ -315,7 +316,7 @@
+ 
+ #: ../data/klavaro.glade.h:76
+ msgid "Memorizing the keyboard practicing random keys exercises."
+-msgstr "Memorera tangentbordet genom övningar med slumpmässiga tangenter."
++msgstr "Lär dig tangentbordet genom övningar med slumpmässiga tangenter."
+ 
+ #: ../data/klavaro.glade.h:77
+ msgid "Practice with random keys"
+@@ -323,7 +324,7 @@
+ 
+ #: ../data/klavaro.glade.h:78
+ msgid "Accelerating the touches practicing random words exercises."
+-msgstr "Öka hastigheten genom övningar med slumpmässiga ord."
++msgstr "Öka skrivhastigheten med övningar med slumpmässiga ord."
+ 
+ #: ../data/klavaro.glade.h:79
+ msgid "Practice with random words"
+@@ -331,7 +332,7 @@
+ 
+ #: ../data/klavaro.glade.h:80
+ msgid "Becoming proficient practicing complete paragraphs exercises."
+-msgstr "Bli duktig genom att träna på kompletta stycken."
++msgstr "Bli skicklig genom övningar med hela stycken."
+ 
+ #: ../data/klavaro.glade.h:81
+ msgid "Practice with complete texts"
+@@ -347,7 +348,8 @@
+ 
+ #: ../data/klavaro.glade.h:84
+ msgid "Keyboard layout for modules 1 and 2. Also used informatively in the fluidness contest."
+-msgstr "Tangentbordslayout för modul 1 och 2. Används också informativt i skrivflödestävlingen."
++msgstr "Tangentbordslayout för modulerna 1 och 2. Används även som information i "
++"skrivflödestävlingen."
+ 
+ #: ../data/klavaro.glade.h:85
+ msgid "_Keyboard:"
+@@ -387,7 +389,7 @@
+ 
+ #: ../data/klavaro.glade.h:94
+ msgid "Hide extra information."
+-msgstr "Göm extrainformation."
++msgstr "Dölj extrainformation."
+ 
+ #: ../data/klavaro.glade.h:95
+ msgid "Publish to the web your local scores."
+@@ -399,7 +401,7 @@
+ 
+ #: ../data/klavaro.glade.h:97
+ msgid "Download from the web the most up to date ranking."
+-msgstr "Hämta de senaste rankningarna från nätet."
++msgstr "Hämta den senaste rankningen från nätet."
+ 
+ #: ../data/klavaro.glade.h:98
+ msgid "_Update"
+@@ -470,7 +472,7 @@
+ 
+ #: ../src/callbacks.c:1167
+ msgid "This will OVERWRITE an existent keyboard layout."
+-msgstr "Detta kommer att SKRIVA ÖVER en existerande tangentbordslayout."
++msgstr "Detta SKRIVER ÖVER en befintlig tangentbordslayout."
+ 
+ #: ../src/callbacks.c:1174
+ msgid "Remove user layout"
+@@ -478,7 +480,7 @@
+ 
+ #: ../src/callbacks.c:1176
+ msgid "This will REMOVE an existent keyboard layout."
+-msgstr "Detta kommer att TA BORT en existerande tangentbordslayout."
++msgstr "Detta TAR BORT en befintlig tangentbordslayout."
+ 
+ #: ../src/callbacks.c:1183 ../src/callbacks.c:1188
+ msgid "Reset progress data"
+@@ -486,17 +488,17 @@
+ 
+ #: ../src/callbacks.c:1184
+ msgid "This will DELETE all the progress data of all modules."
+-msgstr "Detta kommer att RADERA all framstegshistorik för alla moduler."
++msgstr "Detta RADERAR all data om framsteg för alla moduler."
+ 
+ #: ../src/callbacks.c:1196
+ #, c-format
+ msgid "This will delete the data of this chart. <%s>"
+-msgstr "Detta kommer att radera all data för detta diagram. <%s>"
++msgstr "Detta tar bort data för detta diagram. <%s>"
+ 
+ #: ../src/callbacks.c:1199
+ #, c-format
+ msgid "This will delete the progress data of the module. (%s)"
+-msgstr "Rensa framstegshistoriken för modulen. (%s)"
++msgstr "Detta tar bort data om framsteg för modulen. (%s)"
+ 
+ #: ../src/callbacks.c:1399 ../src/top10.c:88
+ msgid "Accuracy"
+@@ -512,7 +514,7 @@
+ 
+ #: ../src/callbacks.c:1416
+ msgid "Touch times (s)"
+-msgstr "Hastighet (s)"
++msgstr "Nedslagstider (s)"
+ 
+ #: ../src/callbacks.c:1428 ../src/tutor.c:1352 ../src/top10.c:70
+ msgid "Score"
+@@ -525,55 +527,78 @@
+ 
+ #: ../src/translation.c:609
+ msgid "The basic course focuses on having you read the characters presented to you on screen and typing the corresponding keys. Remember to keep your hands correctly oriented on the home row of the keyboard at all times (see introduction on main menu)."
+-msgstr "I grundkursen förväntas du läsa de tecken som visas i fönstret och trycka ner motsvarande tangent. Kom ihåg den korrekta placeringen av fingrarna i startpositionen på tangentbordet (läs introduktionen på huvudmenyn)."
++msgstr "Grundkursen går ut på att du läser tecknen som visas på skärmen och trycker "
++"på motsvarande tangenter. Kom ihåg att alltid hålla händerna rätt placerade "
++"på tangentbordets utgångsrad (se introduktionen i huvudmenyn)."
+ 
+ #: ../src/translation.c:613
+ msgid "The key set used in each series will be shown in the above message line. The [Space], [Shift] and [Enter] keys may not show up there but are used very often."
+-msgstr "Tangenterna som används vid varje serie visas på den ovanstående meddelanderaden. [Mellanslag], [Skift] och [Retur]-tangenterna kanske inte visas där men de används väldigt ofta."
++msgstr "Tangenterna som används i varje serie visas på meddelanderaden ovanför. "
++"Tangenterna [Mellanslag], [Skift] och [Retur] kanske inte visas där, men "
++"används mycket ofta."
+ 
+ #: ../src/translation.c:616
+ msgid "The message line below follows and echoes your key presses. If required, it changes and displays instructions for actions required from you."
+-msgstr "Meddelanderaden nertill följer och efterhärmar dina tangentbordstryckningar. Om det krävs kommer raden att ändras och ge instruktioner om du behöver göra något."
++msgstr "Meddelanderaden nedanför följer och återger dina tangenttryckningar. Vid "
++"behov ändras den och visar instruktioner om vad du ska göra."
+ 
+ #: ../src/translation.c:620
+ msgid "Here you may practice and improve your memorization of all keys. There will be sentences presented with nonsense words which mix some numbers and symbols."
+-msgstr "Här kan du öva och förbättra din inlärning av  tangenternas placering. Du kommer att få meningar med meningslösa ord blandat med siffror och symboler."
++msgstr "Här kan du öva och förbättra minnet av tangenternas placering. Meningar med "
++"nonsensord, siffror och symboler visas."
+ 
+ #: ../src/translation.c:623
+ msgid "In order to keep the lesson contents language and keyboard independent, accented letter combinations will probably not appear. For real word sentences, please use the fourth option of the main menu (about fluidness)."
+-msgstr "För att vara oberoende av språk och tangentbordslayout kommer bokstäver med accent förmodligen inte att komma upp. För att träna med meningar som har verkliga ord ska du använda det fjärde alternativet i huvudmenyn (dvs. Skrivflöde)."
++msgstr "För att lektionsinnehållet ska vara oberoende av språk och tangentbordslayout "
++"visas troligen inte bokstäver med accenter. Om du vill träna med meningar med "
++"riktiga ord använder du det fjärde alternativet i huvudmenyn, Skrivflöde."
+ 
+ #: ../src/translation.c:627
+ msgid "After each exercise there will be a brief statistics panel reviewing your performance along with some relevant comments."
+-msgstr "Vid slutet av varje övning visas en liten ruta med statistik över din prestation samt relevanta kommentarer."
++msgstr "Efter varje övning visas en kort statistikpanel med din prestation och "
++"relevanta kommentarer."
+ 
+ #: ../src/translation.c:631
+ msgid "This exercise is very similar to the second one, for adaptability. The difference is that here you'll type real words."
+-msgstr "Den här övningen liknar väldigt mycket den andra övningen, Anpassning. Skillnaden är att här får du skriva med riktiga ord."
++msgstr "Den här övningen liknar den andra, Anpassning. Skillnaden är att du här "
++"skriver riktiga ord."
+ 
+ #: ../src/translation.c:634
+ msgid "The default language is the actual one of the interface. But you may select any other texts with words you would like to use. Press the 'Other' option above and add files containing those texts."
+-msgstr "Standardspråket är detsamma som användargränssnittets. Du kan fortfarande välja vilken annan text som helst med de ord som du skulle vilja använda. Välj  ”Andra texter”  ovan och lägg till filer som innehåller sådana texter."
++msgstr "Standardspråket är samma som gränssnittets aktuella språk. Du kan välja andra "
++"texter med de ord du vill använda. Välj ”Andra texter” ovan och lägg till "
++"filer som innehåller dem."
+ 
+ #: ../src/translation.c:638
+ msgid "With this exercise the focus is on speed. So, you are supposed to type really fast and I will only flatter you when you deserve it!"
+-msgstr "I den här övningen så har jag ögonen på hastigheten. Du förmodas skriva riktigt snabbt och jag kommer endast att smickra dig när du förtjänar det!"
++msgstr "Den här övningen fokuserar på hastighet. Skriv riktigt snabbt, och du får "
++"beröm när du förtjänar det!"
+ 
+ #: ../src/translation.c:642
+ msgid "We will now use complete sentences and paragraphs which make logical sense. This may distract you while you type if you try to understand what you are entering. The previous exercises were aimed at getting you to type without interpreting and analyzing the content."
+-msgstr "Nu har vi fullständiga meningar och stycken som är begripliga och hänger ihop. Detta kan påverka din uppmärksamhet om du försöker att förstå vad du skriver ner. De föregående övningarna var inriktade på att få dig att skriva utan att tolka och analysera textinnehållet."
++msgstr "Nu används hela meningar och stycken som hänger ihop. Det kan distrahera dig "
++"medan du skriver om du försöker förstå det du matar in. De föregående "
++"övningarna tränade dig i att skriva utan att tolka och analysera innehållet."
+ 
+ #: ../src/translation.c:646
+ msgid "We do not mean to imply that the typists must behave like a robot, without understanding what they type. We do aim to develop the skill of typing, making it an automatic reflex akin to the acts of walking, talking, etc. After reaching this goal, the act of typing will become automatic and require little concentration. Then you will be able to pay attention to the real meaning of the text."
+-msgstr "Vi menar inte att den som skriver måste uppföra sig som en robot utan att förstå vad de skriver. Vi siktar helt enkelt på att utveckla skrivskickligheten och göra den till en automatisk reflex, precis som när man går, talar, etc. Efter att detta mål har nåtts kommer inte själva skrivandet att vara en kamp längre. Du kommer då att kunna rikta uppmärksamheten på den verkliga meningen i texten."
++msgstr "Det betyder inte att den som skriver ska bete sig som en robot utan att "
++"förstå texten. Målet är att utveckla skrivförmågan till en automatisk reflex, "
++"likt att gå eller tala. När detta mål har nåtts blir skrivandet automatiskt "
++"och kräver liten koncentration. Då kan du ägna uppmärksamheten åt textens "
++"verkliga mening."
+ 
+ #: ../src/translation.c:650
+ msgid "These exercises are longer. Each exercise consists of three paragraphs and the emphasis is placed on correctness and rhythm, with a minimum speed requirement. Here you will be required to use the backspace key to correct any mistakes. In other words, only input without error will be accepted."
+-msgstr "Dessa övningar är längre. Var övning har en uppställning med tre stycken och större vikt läggs vid korrekthet och rytm med en minimal hastighetsgräns. Här måste du använda backstegstangenten för att rätta till eventuella misstag. Med andra ord - endast felfria texter accepteras."
++msgstr "Dessa övningar är längre. Varje övning består av tre stycken och betonar "
++"korrekthet och rytm med ett krav på lägsta hastighet. Här måste du använda "
++"backstegstangenten för att rätta alla misstag. Endast felfri inmatning godtas."
+ 
+ #: ../src/keyboard.c:1181
+ msgid "Correct positioning of the hands and fingers is very important to efficient typing. You will learn faster and type better if you follow the next recommendations."
+-msgstr "För att kunna skriva effektivt är det väldigt viktigt med en korrekt placering av händer och fingrar. Du kommer att lära dig skriva snabbare och bättre om du följer kommande rekommendationer."
++msgstr "Korrekt placering av händer och fingrar är mycket viktig för effektiv "
++"skrivning. Du lär dig snabbare och skriver bättre om du följer "
++"rekommendationerna nedan."
+ 
+ #: ../src/keyboard.c:1184
+ msgid "The index-finger tips rest over each of the two keys which have a small raised mark, in the center of the keyboard."
+@@ -581,39 +606,53 @@
+ 
+ #: ../src/keyboard.c:1187
+ msgid "These marks function as 'tactile hooks' for your fingers to remain at the correct position. This way, with a little experience, you will not need to look at the keyboard to see if your fingers are properly positioned."
+-msgstr "Dessa små upphöjda markeringar fungerar som igenkänningspunkter för dina fingrar för att de ska veta att de har en korrekt placering. Med lite erfarenhet behöver du inte längre titta på tangentbordet för att se att de är korrekt positionerade."
++msgstr "De små upphöjda markeringarna fungerar som känselmarkörer så att fingrarna "
++"behåller rätt position. Med lite erfarenhet behöver du inte titta på "
++"tangentbordet för att kontrollera att fingrarna är rätt placerade."
+ 
+ #: ../src/keyboard.c:1191
+ msgid "The tips of the other fingers lie naturally beside the index ones, over the keys on the same row of the keyboard."
+-msgstr "Fingertopparna på de andra fingrarna ligger naturligt bredvid pekfingrarna samt över tangenterna på samma rad."
++msgstr "De andra fingrarnas toppar vilar naturligt bredvid pekfingrarna, över "
++"tangenterna på samma rad."
+ 
+ #: ../src/keyboard.c:1194
+ msgid "The outside edges of your thumbs rest over the space bar."
+-msgstr "Sidorna på tummarna vilar över mellanslagstangenten."
++msgstr "Tummarnas yttre kanter vilar över mellanslagstangenten."
+ 
+ #: ../src/keyboard.c:1196
+ msgid "The part of the hands closest to the wrist (the base) rest over the table, outside the keyboard. Without this kind of support the arms would quickly tire."
+-msgstr "Den delen av händerna som är närmast handleden vilar mot bordet utanför tangentbordet. Utan detta stöd skulle armarna snabbt tröttna."
++msgstr "Den del av händerna som är närmast handleden, handbasen, vilar på bordet "
++"utanför tangentbordet. Utan detta stöd blir armarna snabbt trötta."
+ 
+ #: ../src/keyboard.c:1199
+ msgid "This is referred to as the home position for the hands. From it the fingers move all over the keyboard, reaching all the keys as naturally and quickly as possible. To reach this goal one uses a specific relation between each key and finger. This relation will be learned gradually as you complete the basic course."
+-msgstr "Detta är grundpositionen för händerna. Från denna position kan fingrarna röra sig över hela tangentbordet och nå alla tangenter så naturligt och snabbt som möjligt. För att nå detta mål använder man ett specifikt samband mellan varje tangent och finger. Inlärningen av detta samband sker gradvis under grundkursen."
++msgstr "Detta kallas händernas utgångsposition. Därifrån rör sig fingrarna över hela "
++"tangentbordet och når alla tangenter så naturligt och snabbt som möjligt. Det "
++"uppnås med ett särskilt samband mellan varje tangent och finger, som lärs in "
++"gradvis under grundkursen."
+ 
+ #: ../src/keyboard.c:1205
+ msgid "When learning the relation between fingers and keys, it is very important that you only move the finger which must press the key and allow all other fingers to remain in the home position."
+-msgstr "När man lär sig sambandet mellan tangenter och fingrar ska man eftersträva att endast det berörda fingret rör sig mot just den tangenten. Behåll alla de andra fingrarna i sin ursprungliga position."
++msgstr "När du lär dig sambandet mellan fingrar och tangenter är det viktigt att "
++"endast flytta det finger som ska trycka ned tangenten. Låt alla andra fingrar "
++"stanna i utgångspositionen."
+ 
+ #: ../src/keyboard.c:1209
+ msgid "After memorizing this relationship, you can relax the previous rule some, so that you can attain greater speed while typing."
+-msgstr "Efter att ha lärt dig detta samband kan du lätta en smula på regeln så att det är möjligt att utveckla högre hastigheter för tangentbordsnedslag."
++msgstr "När du har lärt dig detta samband kan du lätta något på den föregående regeln "
++"för att nå högre skrivhastighet."
+ 
+ #: ../src/keyboard.c:1212
+ msgid "The shift keys are used for capital letters and for some symbols. To get a shifted key input you should first use the small finger of the opposite hand. Just keep it in the closest Shift while reaching the target key with the other hand."
+-msgstr "Skift-tangenterna används för versaler och för en del symboler. För att erhålla skift-inmatning använder du lillfingret på motsatt hand. Håll nere närmsta skift-tangent medan du trycker ned önskad tangent med andra handen."
++msgstr "Skifttangenterna används för versaler och vissa symboler. För att skriva med "
++"skift använder du först lillfingret på den andra handen. Håll ned den "
++"närmaste Skift-tangenten medan du når måltangenten med den andra handen."
+ 
+ #: ../src/keyboard.c:1216
+ msgid "You should be prepared to start training with the basic course. It will take effort and patience to be successful as a typist. We trust you have these and look forward to your success!"
+-msgstr "Du borde nu vara förberedd nog  för att starta träningen i grundkursen. Det kräver vilja och tålamod att lära sig skriva korrekt! Vi litar på att du har detta och ser fram emot att se dig lyckas!"
++msgstr "Du är nu redo att börja träna i grundkursen. Det krävs ansträngning och "
++"tålamod för att bli en skicklig skrivare. Vi tror att du har det och ser fram "
++"emot dina framsteg!"
+ 
+ #: ../src/keyboard.c:1227
+ #, c-format
+@@ -632,11 +671,11 @@
+ 
+ #: ../src/keyboard.c:1322 ../src/keyboard.c:1324
+ msgid "Click on any key to see which finger you must use:"
+-msgstr "Tryck på någon tangent för att se vilket finger du ska använda:"
++msgstr "Klicka på en tangent för att se vilket finger du ska använda:"
+ 
+ #: ../src/keyboard.c:1323
+ msgid "Relation between fingers and keys"
+-msgstr "Förhållande mellan fingrar och tangenter"
++msgstr "Samband mellan fingrar och tangenter"
+ 
+ #: ../src/keyboard.c:1381 ../src/keyboard.c:1415
+ msgid "Keyboard"
+@@ -684,7 +723,7 @@
+ 
+ #: ../src/tutor.c:372
+ msgid "Adaptability exercises: automating the fingers responses, typing over all the keyboard."
+-msgstr "Anpassningsövningar: Automatisera fingerspetskänslan, skriv över hela tangentbordet."
++msgstr "Anpassningsövningar: automatisera fingrarnas rörelser över hela tangentbordet."
+ 
+ #: ../src/tutor.c:377
+ msgid "Klavaro - Velocity"
+@@ -692,7 +731,7 @@
+ 
+ #: ../src/tutor.c:378
+ msgid "Velocity exercises: accelerate typing real words."
+-msgstr "Hastighetsövningar: Öka hastigheten i att skriva hela ord."
++msgstr "Hastighetsövningar: öka hastigheten när du skriver riktiga ord."
+ 
+ #: ../src/tutor.c:382
+ msgid "Klavaro - Fluidness"
+@@ -700,11 +739,11 @@
+ 
+ #: ../src/tutor.c:384
+ msgid "Fluidness exercises: accuracy typing good sense paragraphs."
+-msgstr "Skrivflödesövningar: precision i att  skriva förnuftiga hela stycken."
++msgstr "Skrivflödesövningar: skriv begripliga stycken korrekt och flytande."
+ 
+ #: ../src/tutor.c:446
+ msgid "End of exercise. Press [Enter] to start another."
+-msgstr "Slut på övningen. Tryck [Retur] för att starta en ny."
++msgstr "Övningen är slut. Tryck på [Retur] för att starta en ny."
+ 
+ #: ../src/tutor.c:474
+ msgid "Learning the key positions."
+@@ -1077,12 +1116,12 @@
+ 
+ #: ../src/top10.c:857
+ msgid "Could not download file from the host server."
+-msgstr "Det gick inte att hämta fil från värdserver."
++msgstr "Kunde inte hämta filen från värdservern."
+ 
+ #: ../src/top10.c:902
+ msgid "Not able to upload files"
+-msgstr "Kan inte skicka upp filer"
++msgstr "Kan inte ladda upp filer"
+ 
+ #: ../src/top10.c:989
+ msgid "Could not upload/download scores."
+-msgstr "Det gick inte att skicka upp/hämta ner poäng."
++msgstr "Kunde inte ladda upp eller hämta poäng."
