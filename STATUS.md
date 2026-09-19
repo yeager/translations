@@ -1202,3 +1202,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **3D Slicer – SlicerVMTK, batch 2 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **105/719**. Batchen täcker centrumlinjeuppdelning, kärlklippning, förbearbetade ytor, modell-/segmenteringsnoder och parameternoder. TS-exporten kompilerar med `lrelease`; nästa grupp fortsätter med ytförenkling, flödesförlängningar och tvärsnittsanalys.
 
 **3D Slicer – SlicerVMTK, batch 3 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **160/719**. Batchen täcker ytförenkling, flödesförlängningar och klinisk tvärsnittsanalys av kärlvägg och lumen, inklusive stenos, radie, tvärsnittsarea och felhantering. TS-exporten kompilerar med `lrelease`.
+
+**3D Slicer – SlicerVMTK, batch 4 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **215/719**. Batchen täcker centrumlinjegeometri, RAS/LPS, DICOM-konvention, lumenregioner, kärlväggs- och lumensnitt, stenosmått och snittvyns navigering. TS-exporten kompilerar med `lrelease`.
