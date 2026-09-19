@@ -1242,3 +1242,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – kartgränssnitt (2026-09-19):** Sex verifierade UI-luckor för kartor och kartlistor i release 8.10 är översatta och API-publicerade med HTTP 201. Backup: `SuiteCRM-Core/sv-maps-810-20260919.json`.
 
 **SuiteCRM Core – kartgränssnitt, uppföljning (2026-09-19):** Tre verkliga svenska luckor för grupp, typ och tilldelning är API-publicerade med HTTP 201 i release 8.10. Backup: `SuiteCRM-Core/sv-maps-followup-810-20260919.json`.
+
+**SuiteCRM Core – kartgränssnitt, slutföljd (2026-09-19):** Tre ytterligare verifierade UI-luckor för ny karta, snabb radiekarta och tomt val är API-publicerade med HTTP 201. Backup: `SuiteCRM-Core/sv-maps-final-810-20260919.json`.
