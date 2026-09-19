@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 87 633 aktiva poster i de 100 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 22 772 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 90 190 aktiva poster i de 102 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 23 779 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.1 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -111,6 +111,8 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#ea9999"><td>parted</td><td>3.7.14</td><td align="right">577</td><td align="right">298</td><td align="right">51.65 %</td><td><a href="parted-3.7.14.sv.po">PO</a></td><td><a href="diff/parted-3.7.14.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/parted-3.7.14.sv.po">Original</a></td></tr>
 <tr bgcolor="#fff2cc"><td>pies</td><td>1.9</td><td align="right">612</td><td align="right">97</td><td align="right">15.85 %</td><td><a href="pies-1.9.sv.po">PO</a></td><td><a href="diff/pies-1.9.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/pies-1.9.sv.po">Original</a></td></tr>
 <tr bgcolor="#f4f1c9"><td>procps-ng</td><td>4.0.7rc1</td><td align="right">951</td><td align="right">126</td><td align="right">13.25 %</td><td><a href="procps-ng-4.0.7rc1.sv.po">PO</a></td><td><a href="diff/procps-ng-4.0.7rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/procps-ng-4.0.7rc1.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>procps-ng-man</td><td>4.0.7rc1</td><td align="right">2463</td><td align="right">965</td><td align="right">39.18 %</td><td><a href="procps-ng-man-4.0.7rc1.sv.po">PO</a></td><td><a href="diff/procps-ng-man-4.0.7rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/procps-ng-man-4.0.7rc1.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>psmisc</td><td>23.7-rc1</td><td align="right">94</td><td align="right">42</td><td align="right">44.68 %</td><td><a href="psmisc-23.7-rc1.sv.po">PO</a></td><td><a href="diff/psmisc-23.7-rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/psmisc-23.7-rc1.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
