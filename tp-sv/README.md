@@ -1,8 +1,8 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 90 190 aktiva poster i de 102 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 23 779 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 90 495 aktiva poster i de 103 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 23 918 rättade poster. Hela TP-granskningen pågår fortfarande.
 
-Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.1 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
+Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.1 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Vid IT-termer används i första hand [Computer Swedens IT-ord](https://it-ord.computersweden.se/). Vid övriga språk- och termbedömningar används [Svenska Akademiens ordböcker](https://svenska.se/), [TEPA](https://termipankki.fi/tepa/sv/), [IATE](https://iate.europa.eu/home), [Rikstermbanken](https://www.rikstermbanken.se/) och [ISOF:s vägledning om fackspråk och terminologi](https://www.isof.se/svenska-spraket/facksprak-och-terminologi). Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
 PO-filernas befintliga uppdelning på fysiska rader bevaras för oförändrade textdelar. Ren PO-omformatering räknas inte som en rättad post.
 
@@ -113,6 +113,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#f4f1c9"><td>procps-ng</td><td>4.0.7rc1</td><td align="right">951</td><td align="right">126</td><td align="right">13.25 %</td><td><a href="procps-ng-4.0.7rc1.sv.po">PO</a></td><td><a href="diff/procps-ng-4.0.7rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/procps-ng-4.0.7rc1.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>procps-ng-man</td><td>4.0.7rc1</td><td align="right">2463</td><td align="right">965</td><td align="right">39.18 %</td><td><a href="procps-ng-man-4.0.7rc1.sv.po">PO</a></td><td><a href="diff/procps-ng-man-4.0.7rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/procps-ng-man-4.0.7rc1.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>psmisc</td><td>23.7-rc1</td><td align="right">94</td><td align="right">42</td><td align="right">44.68 %</td><td><a href="psmisc-23.7-rc1.sv.po">PO</a></td><td><a href="diff/psmisc-23.7-rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/psmisc-23.7-rc1.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>recutils</td><td>1.8</td><td align="right">305</td><td align="right">139</td><td align="right">45.57 %</td><td><a href="recutils-1.8.sv.po">PO</a></td><td><a href="diff/recutils-1.8.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/recutils-1.8.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:

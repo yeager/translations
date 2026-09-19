@@ -1,0 +1,171 @@
+--- a/psmisc-man-23.7-rc1.sv.po
++++ b/psmisc-man-23.7-rc1.sv.po
+@@ -67,7 +67,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:28
+ msgid "B<fuser> [B<-fuv>] [B<-a>|B<-s>] [B<-4>|B<-6>] [B<-c>|B<-m>|B<-n> I<space>] [B<\\ -k> [B<-i>] [B<-M>] [B<-w>] [B<->I<SIGNAL>] ] I<name> ..."
+-msgstr "B<fuser> [B<-fuv>] [B<-a>|B<-s>] [B<-4>|B<-6>] [B<-c>|B<-m>|B<-n> I<utrymme>] [B<\\ -k> [B<-i>] [B<-M>] [B<-w>] [B<->I<SIGNAL>] ] I<namn> ..."
++msgstr "B<fuser> [B<-fuv>] [B<-a>|B<-s>] [B<-4>|B<-6>] [B<-c>|B<-m>|B<-n> I<space>] [B<\\ -k> [B<-i>] [B<-M>] [B<-w>] [B<->I<SIGNAL>] ] I<namn> ..."
+ 
+ #. type: Plain text
+ #: ../doc/fuser.1:30
+@@ -89,7 +89,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:38
+ msgid "B<fuser> displays the PIDs of processes using the specified files or file systems.  In the default display mode, each file name is followed by a letter denoting the type of access:"
+-msgstr "B<fuser> visar PID:arna för processor som använder den angivna filerna eller filsystemen.  I standardvisningsläge kommer varje filnamn att åtföljas av en bokstav som visar typen av åtkomst:"
++msgstr "B<fuser> visar PID:erna för processer som använder de angivna filerna eller filsystemen.  I standardvyn följs varje filnamn av en bokstav som anger typen av åtkomst:"
+ 
+ #. type: TP
+ #: ../doc/fuser.1:41
+@@ -111,7 +111,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:47
+ msgid "executable being run."
+-msgstr "körbar fil körs."
++msgstr "körbar fil som körs."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:47
+@@ -122,7 +122,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:52
+ msgid "open file.  B<f> is omitted in default display mode."
+-msgstr "fil öppen.  B<f> utelämnas i standardvisningsläge."
++msgstr "öppen fil.  B<f> visas inte i standardvyn."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:52
+@@ -133,7 +133,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:57
+ msgid "open file for writing.  B<F> is omitted in default display mode."
+-msgstr "öppen för skrivning.  B<F> utelämnas i standardvisningsläge."
++msgstr "öppen fil för skrivning.  B<F> visas inte i standardvyn."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:57
+@@ -155,7 +155,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:63
+ msgid "mmap'ed file or shared library."
+-msgstr "mmap:pad fil eller delat bibliotek."
++msgstr "minnesmappad fil eller delat bibliotek."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:63
+@@ -166,32 +166,32 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:66
+ msgid "Placeholder, omitted in default display mode."
+-msgstr "Platshållare, utelämnas i standardvisningsläge."
++msgstr "Platshållare, visas inte i standardvyn."
+ 
+ #. type: Plain text
+ #: ../doc/fuser.1:75
+ msgid "B<fuser> returns a non-zero return code if none of the specified files is accessed or in case of a fatal error.  If at least one access has been found, B<fuser> returns zero."
+-msgstr "B<fuser> returnerar en returkod som inte är noll om ingen av de angivna filerna används eller vid ett fatalt fel.  Om åtminstone en åtkomst hittats kommer B<fuser> att returnera noll."
++msgstr "B<fuser> returnerar en returkod skild från noll om ingen av de angivna filerna används eller om ett allvarligt fel inträffar.  Om minst en åtkomst har hittats returnerar B<fuser> noll."
+ 
+ #. type: Plain text
+ #: ../doc/fuser.1:89
+ msgid "In order to look up processes using TCP and UDP sockets, the corresponding name space has to be selected with the B<-n> option. By default B<fuser> will look in both IPv6 and IPv4 sockets.  To change the default behavior, use the B<-4> and B<-6> options.  The socket(s) can be specified by the local and remote port, and the remote address.  All fields are optional, but commas in front of missing fields must be present:"
+-msgstr "För att slå upp processer som använder TCP- och UDP-uttag måste motsvarande namnrymd väljas med flaggan B<-n>.  Som standard kommer B<fuser> att leta bland både IPv6- och IPv4-uttag.  För att förändra standardbeteendet, använd flaggorna B<-4> och B<-6>.  Uttagen kan anges antingen efter lokal eller fjärrport och fjärradressen.  Alla fält är valfria, men komman i början av fält som saknas måste finnas:"
++msgstr "För att slå upp processer som använder TCP- och UDP-uttag måste motsvarande namnrymd väljas med flaggan B<-n>.  Som standard söker B<fuser> i både IPv6- och IPv4-uttag.  Använd flaggorna B<-4> och B<-6> för att ändra standardbeteendet.  Uttagen kan anges med lokal port, fjärrport och fjärradress.  Alla fält är valfria, men kommatecknen före utelämnade fält måste finnas med:"
+ 
+ #. type: Plain text
+ #: ../doc/fuser.1:91
+ msgid "[I<lcl_port>][,[I<rmt_host>][,[I<rmt_port>]]]"
+-msgstr "[I<lkl_port>][,[I<fjr_värd>][,[I<fjr_port>]]]"
++msgstr "[I<lcl_port>][,[I<rmt_host>][,[I<rmt_port>]]]"
+ 
+ #. type: Plain text
+ #: ../doc/fuser.1:94
+ msgid "Either symbolic or numeric values can be used for IP addresses and port numbers."
+-msgstr "Endera symboliska eller numeriska värden kan användas för IP-adresser och portnummer."
++msgstr "Antingen symboliska eller numeriska värden kan användas för IP-adresser och portnummer."
+ 
+ #. type: Plain text
+ #: ../doc/fuser.1:97
+ msgid "B<fuser> outputs only the PIDs to stdout, everything else is sent to stderr."
+-msgstr "B<fuser> matar endas ut PID:ar till standard ut, allting annat skickas till standard fel."
++msgstr "B<fuser> skriver endast ut PID:er på standardutmatningen; allt annat skickas till standardfel."
+ 
+ #. type: SH
+ #: ../doc/fuser.1:97 ../doc/killall.1:78 ../doc/peekfd.1:28 ../doc/pslog.1:23
+@@ -209,7 +209,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:102
+ msgid "Show all files specified on the command line.  By default, only files that are accessed by at least one process are shown."
+-msgstr "Visa alla filer angivna på kommandoraden.  Som standard visas endast filer som används av åtminstone en process."
++msgstr "Visa alla filer som anges på kommandoraden.  Som standard visas endast filer som används av minst en process."
+ 
+ #. type: IP
+ #: ../doc/fuser.1:102 ../doc/pstree.1:97
+@@ -231,7 +231,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:108
+ msgid "Silently ignored, used for POSIX compatibility."
+-msgstr "Ignoreras tyst, används för POSIX-kompatibilitet."
++msgstr "Ignoreras utan meddelande; används för POSIX-kompatibilitet."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:108
+@@ -242,7 +242,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:120
+ msgid "Kill processes accessing the file.  Unless changed with B<->I<SIGNAL\\/>, SIGKILL is sent.  An B<fuser> process never kills itself, but may kill other B<fuser> processes.  The effective user ID of the process executing B<fuser> is set to its real user ID before attempting to kill."
+-msgstr "Döda processer som kommer åt filen.  Om det inte ändrats med B<->I<SIGNAL\\/>, så skickas SIGKILL.  En B<fuser> process dödar aldrig sig själv, men kan döda andra B<fuser>-processer.  Det effektiva användar-ID:t för processen som kör B<fuser> sätts till dess riktiga användar-ID innan försök att döda."
++msgstr "Döda processer som har åtkomst till filen.  Om ingen annan signal väljs med B<->I<SIGNAL\\/>, skickas SIGKILL.  En B<fuser>-process dödar aldrig sig själv, men kan döda andra B<fuser>-processer.  Det effektiva användar-ID:t för processen som kör B<fuser> sätts till dess verkliga användar-ID innan ett försök att döda processer görs."
+ 
+ #. type: IP
+ #: ../doc/fuser.1:120 ../doc/killall.1:99
+@@ -253,7 +253,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:127
+ msgid "Ask the user for confirmation before killing a process.  This option is silently ignored if B<-k> is not present too."
+-msgstr "Fråga användaren om bekräftelse innan en process dödas.  Denna flagga ignoreras tyst om B<-k> saknas."
++msgstr "Fråga användaren om bekräftelse innan en process dödas.  Den här flaggan ignoreras utan meddelande om B<-k> saknas."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:127
+@@ -264,7 +264,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:133
+ msgid "For the name space B<file> let all comparisons be based on the inodes of the specified file(s)  and never on the file names even on network based file systems."
+-msgstr "För namnrymden B<file> låt alla jämförelser baseras på inoderna för de angivna filerna och aldrig på filnamnen, gäller även för nätverksbaserade filsystem."
++msgstr "För namnrymden B<file> ska alla jämförelser baseras på inoderna för de angivna filerna och aldrig på filnamnen, inte ens på nätverksbaserade filsystem."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:133
+@@ -275,7 +275,7 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:136 ../doc/killall.1:103
+ msgid "List all known signal names."
+-msgstr "Lista alla kända signaler."
++msgstr "Lista alla kända signalnamn."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:136
+@@ -286,18 +286,18 @@
+ #. type: Plain text
+ #: ../doc/fuser.1:144
+ msgid "I<NAME> specifies a file on a mounted file system or a block device that is mounted.  All processes accessing files on that file system are listed.  If a directory is specified, it is automatically changed to I<NAME>/ to use any file system that might be mounted on that directory."
+-msgstr "I<NAMN> anger en fil på ett monterat filsystem eller en blockenhet som är monterad. Alla processer som använder filer på det filsystemet listas.  Om en katalog inte anges, ändras den automatiskt till I<NAMN>/ för att använda eventuellt filsystem som monterats på den katalogen."
++msgstr "I<NAMN> anger en fil på ett monterat filsystem eller en monterad blockenhet.  Alla processer som har åtkomst till filer på det filsystemet listas.  Om en katalog anges, ändras den automatiskt till I<NAMN>/ för att använda ett filsystem som kan vara monterat på den katalogen."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:144
+ #, no-wrap
+ msgid "B<-M>, B<--ismountpoint>"
+-msgstr "the shortcut notation"
++msgstr "B<-M>, B<--ismountpoint>"
+ 
+ #. type: Plain text
+ #: ../doc/fuser.1:152
+ msgid "Request will be fulfilled only if I<NAME> specifies a mountpoint.  This is an invaluable seat belt which prevents you from killing the machine if I<NAME> happens to not be a filesystem."
+-msgstr "Begäran kommer att uppfyllas om I<NAMN> anger en monteringspunkt.  Detta är ett ovärderligt säkerhetsbälte vilket förhindrar sig från att döda maskinen om I<NAMN> inte råkas vara ett filsystem."
++msgstr "Begäran uppfylls endast om I<NAMN> anger en monteringspunkt.  Detta är ett ovärderligt skydd som hindrar dig från att döda systemet om I<NAMN> inte råkar vara ett filsystem."
+ 
+ #. type: TP
+ #: ../doc/fuser.1:152

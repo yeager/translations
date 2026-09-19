@@ -1,0 +1,1167 @@
+--- a/recutils-1.8.sv.po
++++ b/recutils-1.8.sv.po
+@@ -25,7 +25,7 @@
+ #: lib/copy-acl.c:54
+ #, c-format
+ msgid "preserving permissions for %s"
+-msgstr "bevarar rättigheter för %s"
++msgstr "bevarar behörigheter för %s"
+ 
+ #: lib/error.c:195
+ msgid "Unknown system error"
+@@ -35,46 +35,46 @@
+ #: lib/wait-process.c:356
+ #, c-format
+ msgid "%s subprocess failed"
+-msgstr "%s underprocess misslyckades"
++msgstr "Underprocessen %s misslyckades"
+ 
+ #: lib/getopt.c:278
+ #, c-format
+ msgid "%s: option '%s%s' is ambiguous\n"
+-msgstr "%s: flaggan ”%s%s” är tvetydig\n"
++msgstr "%s: flaggan '%s%s' är tvetydig\n"
+ 
+ #: lib/getopt.c:284
+ #, c-format
+ msgid "%s: option '%s%s' is ambiguous; possibilities:"
+-msgstr "%s: flaggan ”%s%s” är tvetydig; möjligheter:"
++msgstr "%s: flaggan '%s%s' är tvetydig; möjliga tolkningar:"
+ 
+ #: lib/getopt.c:319
+ #, c-format
+ msgid "%s: unrecognized option '%s%s'\n"
+-msgstr "%s: okänd flagga ”%s%s”\n"
++msgstr "%s: okänd flagga '%s%s'\n"
+ 
+ #: lib/getopt.c:345
+ #, c-format
+ msgid "%s: option '%s%s' doesn't allow an argument\n"
+-msgstr "%s: flaggan ”%s%s” tar inget argument\n"
++msgstr "%s: flaggan '%s%s' tar inget argument\n"
+ 
+ #: lib/getopt.c:360
+ #, c-format
+ msgid "%s: option '%s%s' requires an argument\n"
+-msgstr "%s: flaggan ”%s%s” kräver ett argument\n"
++msgstr "%s: flaggan '%s%s' kräver ett argument\n"
+ 
+ #: lib/getopt.c:621
+ #, c-format
+ msgid "%s: invalid option -- '%c'\n"
+-msgstr "%s: ogiltig flagga — ”%c”\n"
++msgstr "%s: ogiltig flagga -- '%c'\n"
+ 
+ #: lib/getopt.c:636 lib/getopt.c:682
+ #, c-format
+ msgid "%s: option requires an argument -- '%c'\n"
+-msgstr "%s: flaggan kräver ett argument — ”%c”\n"
++msgstr "%s: flaggan kräver ett argument -- '%c'\n"
+ 
+ #: lib/obstack.c:338 lib/obstack.c:340 lib/xalloc-die.c:34
+ msgid "memory exhausted"
+-msgstr "minnet slut"
++msgstr "slut på minne"
+ 
+ #: parse-datetime.y:440 parse-datetime.y:540
+ #, c-format
+@@ -98,7 +98,7 @@
+ 
+ #: parse-datetime.y:547
+ msgid "today/this/now\n"
+-msgstr "idag/dennes/nu\n"
++msgstr "idag/detta/nu\n"
+ 
+ #: parse-datetime.y:612
+ msgid "number of seconds"
+@@ -114,7 +114,7 @@
+ 
+ #: parse-datetime.y:635
+ msgid "local_zone"
+-msgstr "lokal zon"
++msgstr "lokal tidszon"
+ 
+ #: parse-datetime.y:640
+ msgid "zone"
+@@ -134,7 +134,7 @@
+ 
+ #: parse-datetime.y:658
+ msgid "number"
+-msgstr "nummer"
++msgstr "tal"
+ 
+ #: parse-datetime.y:662
+ msgid "hybrid"
+@@ -143,12 +143,12 @@
+ #: parse-datetime.y:820
+ #, c-format
+ msgid "warning: value %<PRIdMAX> has %<PRIdMAX> digits. Assuming YYYY/MM/DD\n"
+-msgstr "varning: värdet %<PRIdMAX> har %<PRIdMAX> siffor.  Antar ÅÅÅÅ/MM/DD\n"
++msgstr "varning: värdet %<PRIdMAX> har %<PRIdMAX> siffror. Antar ÅÅÅÅ/MM/DD\n"
+ 
+ #: parse-datetime.y:832
+ #, c-format
+ msgid "warning: value %<PRIdMAX> has less than 4 digits. Assuming MM/DD/YY[YY]\n"
+-msgstr "varning: värdet %<PRIdMAX> har mindre än 4 siffror.  Antar MM/DD/ÅÅ[ÅÅ]\n"
++msgstr "varning: värdet %<PRIdMAX> har färre än 4 siffror. Antar MM/DD/ÅÅ[ÅÅ]\n"
+ 
+ #: parse-datetime.y:1276
+ #, c-format
+@@ -158,12 +158,12 @@
+ #: parse-datetime.y:1286
+ #, c-format
+ msgid "error: out-of-range year %<PRIdMAX>\n"
+-msgstr "fel: årtal utanför intervallet %<PRIdMAX>\n"
++msgstr "fel: årtalet %<PRIdMAX> ligger utanför intervallet\n"
+ 
+ #: parse-datetime.y:1524
+ #, c-format
+ msgid "error: unknown word '%s'\n"
+-msgstr "fel: okänt ord ”%s”\n"
++msgstr "fel: okänt ord '%s'\n"
+ 
+ #: parse-datetime.y:1673
+ msgid "error: invalid date/time value:\n"
+@@ -172,12 +172,12 @@
+ #: parse-datetime.y:1674
+ #, c-format
+ msgid "    user provided time: '%s'\n"
+-msgstr "    användargiven tid: ”%s”\n"
++msgstr "    tid som användaren angav: '%s'\n"
+ 
+ #: parse-datetime.y:1676
+ #, c-format
+ msgid "       normalized time: '%s'\n"
+-msgstr "       normaliserad tid: ”%s”\n"
++msgstr "       normaliserad tid: '%s'\n"
+ 
+ #: parse-datetime.y:1699
+ msgid "     possible reasons:\n"
+@@ -189,11 +189,11 @@
+ 
+ #: parse-datetime.y:1703
+ msgid "       invalid day/month combination;\n"
+-msgstr "       felaktig dag/månad-kombination;\n"
++msgstr "       ogiltig kombination av dag och månad;\n"
+ 
+ #: parse-datetime.y:1704
+ msgid "       numeric values overflow;\n"
+-msgstr "       spill i numeriska värden;\n"
++msgstr "       numeriska värden överskrider intervallet;\n"
+ 
+ #: parse-datetime.y:1705
+ msgid "incorrect timezone"
+@@ -205,7 +205,7 @@
+ 
+ #: parse-datetime.y:1826
+ msgid "error: initial year out of range\n"
+-msgstr "fel: ursprungligt år utanför giltigt intervall\n"
++msgstr "fel: det ursprungliga året ligger utanför intervallet\n"
+ 
+ #: parse-datetime.y:1923
+ msgid "error: parsing failed\n"
+@@ -214,36 +214,36 @@
+ #: parse-datetime.y:1924
+ #, c-format
+ msgid "error: parsing failed, stopped at '%s'\n"
+-msgstr "fel: tolkningen misslyckades, avslutades vid ”%s”\n"
++msgstr "fel: tolkningen misslyckades, stannade vid '%s'\n"
+ 
+ #: parse-datetime.y:1934
+ msgid "input timezone: "
+-msgstr "inmatad tidszon: "
++msgstr "tidszon från indata: "
+ 
+ #: parse-datetime.y:1937
+ #, c-format
+ msgid "'@timespec' - always UTC"
+-msgstr "”@timespec” — alltid UTC"
++msgstr "'@timespec' - alltid UTC"
+ 
+ #: parse-datetime.y:1939
+ #, c-format
+ msgid "parsed date/time string"
+-msgstr "tolkad datum/tid-sträng"
++msgstr "tolkad datum-/tidsträng"
+ 
+ #: parse-datetime.y:1943
+ #, c-format
+ msgid "TZ=\"%s\" in date string"
+-msgstr "TZ=”%s” i datumsträng"
++msgstr "TZ=\"%s\" i datumsträng"
+ 
+ #: parse-datetime.y:1947
+ #, c-format
+ msgid "TZ=\"UTC0\" environment value or -u"
+-msgstr "TZ=”UTC0” miljövärde eller -u"
++msgstr "miljövärdet TZ=\"UTC0\" eller -u"
+ 
+ #: parse-datetime.y:1950
+ #, c-format
+ msgid "TZ=\"%s\" environment value"
+-msgstr "TZ=”%s” miljövärde"
++msgstr "miljövärdet TZ=\"%s\""
+ 
+ #: parse-datetime.y:1953
+ #, c-format
+@@ -252,22 +252,22 @@
+ 
+ #: parse-datetime.y:1995
+ msgid "error: year, month, or day overflow\n"
+-msgstr "fel: år, månad eller dag spiller över\n"
++msgstr "fel: år, månad eller dag ligger utanför intervallet\n"
+ 
+ #: parse-datetime.y:2006
+ #, c-format
+ msgid "error: invalid hour %<PRIdMAX>%s\n"
+-msgstr "fel: felaktig timma %<PRIdMAX>%s\n"
++msgstr "fel: ogiltig timme %<PRIdMAX>%s\n"
+ 
+ #: parse-datetime.y:2014
+ #, c-format
+ msgid "using specified time as starting value: '%s'\n"
+-msgstr "använder angiven tid som startvärde: ”%s”\n"
++msgstr "använder angiven tid som startvärde: '%s'\n"
+ 
+ #: parse-datetime.y:2015
+ #, c-format
+ msgid "using current time as starting value: '%s'\n"
+-msgstr "använder aktuell tid som startvärde: ”%s”\n"
++msgstr "använder aktuell tid som startvärde: '%s'\n"
+ 
+ #: parse-datetime.y:2069
+ #, c-format
+@@ -277,17 +277,17 @@
+ #: parse-datetime.y:2114
+ #, c-format
+ msgid "error: day '%s' (day ordinal=%<PRIdMAX> number=%d) resulted in an invalid date: '%s'\n"
+-msgstr "fel: dag ”%s” (årsdag=%<PRIdMAX> nummer=%d) resulterade i ett felaktigt datum: ”%s”\n"
++msgstr "fel: dag '%s' (årsdag=%<PRIdMAX> tal=%d) resulterade i ett ogiltigt datum: '%s'\n"
+ 
+ #: parse-datetime.y:2125
+ #, c-format
+ msgid "new start date: '%s' is '%s'\n"
+-msgstr "nytt startdatum: ”%s” är ”%s”\n"
++msgstr "nytt startdatum: '%s' är '%s'\n"
+ 
+ #: parse-datetime.y:2134
+ #, c-format
+ msgid "using current date as starting value: '%s'\n"
+-msgstr "använder aktuellt datum som startvärde: ”%s”\n"
++msgstr "använder aktuellt datum som startvärde: '%s'\n"
+ 
+ #: parse-datetime.y:2138
+ #, c-format
+@@ -297,7 +297,7 @@
+ #: parse-datetime.y:2142
+ #, c-format
+ msgid "starting date/time: '%s'\n"
+-msgstr "startdatum/-tid: ”%s”\n"
++msgstr "startdatum/-tid: '%s'\n"
+ 
+ #: parse-datetime.y:2152
+ msgid "warning: when adding relative months/years, it is recommended to specify the 15th of the months\n"
+@@ -305,7 +305,7 @@
+ 
+ #: parse-datetime.y:2157
+ msgid "warning: when adding relative days, it is recommended to specify noon\n"
+-msgstr "varning: när relativa dagar läggs till rekommenderas det att ange middagstid\n"
++msgstr "varning: när relativa dagar läggs till rekommenderas det att ange klockan tolv\n"
+ 
+ #: parse-datetime.y:2167
+ #, c-format
+@@ -315,7 +315,7 @@
+ #: parse-datetime.y:2181
+ #, c-format
+ msgid "error: adding relative date resulted in an invalid date: '%s'\n"
+-msgstr "fel: att lägga till ett relativt datum resulterade i ett felaktigt datum: ”%s”\n"
++msgstr "fel: tillägg av relativt datum resulterade i ett ogiltigt datum: '%s'\n"
+ 
+ #: parse-datetime.y:2190
+ #, c-format
+@@ -325,7 +325,7 @@
+ #: parse-datetime.y:2194
+ #, c-format
+ msgid "    new date/time = '%s'\n"
+-msgstr "    nytt datum/tid = ”%s”\n"
++msgstr "    nytt datum/-tid = '%s'\n"
+ 
+ #: parse-datetime.y:2213
+ msgid "warning: daylight saving time changed after date adjustment\n"
+@@ -333,7 +333,7 @@
+ 
+ #: parse-datetime.y:2232
+ msgid "warning: month/year adjustment resulted in shifted dates:\n"
+-msgstr "varning: månads-/årsjusteringen resulterade i skiftade datum:\n"
++msgstr "varning: månads-/årsjusteringen resulterade i förskjutna datum:\n"
+ 
+ #: parse-datetime.y:2235
+ #, c-format
+@@ -348,16 +348,16 @@
+ #: parse-datetime.y:2265
+ #, c-format
+ msgid "error: timezone %d caused time_t overflow\n"
+-msgstr "fel: tidszon %d orsakade spill i time_t\n"
++msgstr "fel: tidszon %d gjorde att time_t överskred intervallet\n"
+ 
+ #: parse-datetime.y:2275
+ #, c-format
+ msgid "'%s' = %<PRIdMAX> epoch-seconds\n"
+-msgstr "”%s” = %<PRIdMAX> epoksekunder\n"
++msgstr "'%s' = %<PRIdMAX> epoksekunder\n"
+ 
+ #: parse-datetime.y:2303
+ msgid "error: adding relative time caused an overflow\n"
+-msgstr "fel: att lägga till relativ tid orsakade spill\n"
++msgstr "fel: tillägg av relativ tid gjorde att värdet överskred intervallet\n"
+ 
+ #: parse-datetime.y:2314
+ #, c-format
+@@ -375,16 +375,16 @@
+ 
+ #: parse-datetime.y:2345
+ msgid "timezone: system default\n"
+-msgstr "tidszon: systemstandard\n"
++msgstr "tidszon: systemets standardvärde\n"
+ 
+ #: parse-datetime.y:2347
+ msgid "timezone: Universal Time\n"
+-msgstr "tidszon: universell tid\n"
++msgstr "tidszon: universaltid\n"
+ 
+ #: parse-datetime.y:2349
+ #, c-format
+ msgid "timezone: TZ=\"%s\" environment value\n"
+-msgstr "Tidszon: TZ=\"%s\" miljövärde\n"
++msgstr "tidszon: miljövärdet TZ=\"%s\"\n"
+ 
+ #: parse-datetime.y:2353
+ #, c-format
+@@ -404,7 +404,7 @@
+ #: parse-datetime.y:2378
+ #, c-format
+ msgid "final: %s (unknown time zone offset)\n"
+-msgstr "slutligt: %s (okänd tidszonsavstånd)\n"
++msgstr "slutligt: %s (okänd tidszonsförskjutning)\n"
+ 
+ #. TRANSLATORS:
+ #. Get translations for open and closing quotation marks.
+@@ -437,7 +437,7 @@
+ 
+ #: lib/regcomp.c:135
+ msgid "Success"
+-msgstr "Gick bra"
++msgstr "Lyckades"
+ 
+ #: lib/regcomp.c:138
+ msgid "No match"
+@@ -449,7 +449,7 @@
+ 
+ #: lib/regcomp.c:144
+ msgid "Invalid collation character"
+-msgstr "Ogiltigt kollationeringstecken"
++msgstr "Ogiltigt sorteringstecken"
+ 
+ #: lib/regcomp.c:147
+ msgid "Invalid character class name"
+@@ -465,15 +465,15 @@
+ 
+ #: lib/regcomp.c:156
+ msgid "Unmatched [, [^, [:, [., or [="
+-msgstr "Ensam [, [^, [:, [. eller [="
++msgstr "Omatchad [, [^, [:, [. eller [="
+ 
+ #: lib/regcomp.c:159
+ msgid "Unmatched ( or \\("
+-msgstr "Ensam ( eller \\("
++msgstr "Omatchad ( eller \\("
+ 
+ #: lib/regcomp.c:162
+ msgid "Unmatched \\{"
+-msgstr "Ensam \\{"
++msgstr "Omatchad \\{"
+ 
+ #: lib/regcomp.c:165
+ msgid "Invalid content of \\{\\}"
+@@ -489,7 +489,7 @@
+ 
+ #: lib/regcomp.c:174
+ msgid "Invalid preceding regular expression"
+-msgstr "Felaktigt tidigare reguljärt uttryck"
++msgstr "Ogiltigt föregående reguljärt uttryck"
+ 
+ #: lib/regcomp.c:177
+ msgid "Premature end of regular expression"
+@@ -501,7 +501,7 @@
+ 
+ #: lib/regcomp.c:183
+ msgid "Unmatched ) or \\)"
+-msgstr "Ensam ) eller \\)"
++msgstr "Omatchad ) eller \\)"
+ 
+ #: lib/regcomp.c:676
+ msgid "No previous regular expression"
+@@ -510,7 +510,7 @@
+ #: lib/set-acl.c:46
+ #, c-format
+ msgid "setting permissions for %s"
+-msgstr "sätter rättigheter för %s"
++msgstr "ställer in behörigheter för %s"
+ 
+ #: lib/version-etc.c:73
+ #, c-format
+@@ -668,17 +668,17 @@
+ #: lib/version-etc.c:247 utils/recutl.c:125
+ #, c-format
+ msgid "Report %s bugs to: %s\n"
+-msgstr "Rapportera %s-fel till: %s\n"
++msgstr "Rapportera fel i %s till: %s\n"
+ 
+ #: lib/version-etc.c:251 utils/recutl.c:129
+ #, c-format
+ msgid "%s home page: <%s>\n"
+-msgstr "%s webbsida: <%s>\n"
++msgstr "%s webbplats: <%s>\n"
+ 
+ #: lib/version-etc.c:253
+ #, c-format
+ msgid "%s home page: <https://www.gnu.org/software/%s/>\n"
+-msgstr "%s hemsida: <https://www.gnu.org/software/%s/>\n"
++msgstr "%s webbplats: <https://www.gnu.org/software/%s/>\n"
+ 
+ #: lib/version-etc.c:256
+ msgid "General help using GNU software: <https://www.gnu.org/gethelp/>\n"
+@@ -692,7 +692,7 @@
+ #: lib/w32spawn.h:90
+ #, c-format
+ msgid "cannot restore fd %d: dup2 failed"
+-msgstr "det går inte att återställa fb %d: dup2 misslyckades"
++msgstr "kan inte återställa filbeskrivaren %d: dup2 misslyckades"
+ 
+ #: lib/wait-process.c:223 lib/wait-process.c:255 lib/wait-process.c:317
+ #, c-format
+@@ -702,12 +702,12 @@
+ #: lib/wait-process.c:274 lib/wait-process.c:346
+ #, c-format
+ msgid "%s subprocess got fatal signal %d"
+-msgstr "%s-underprocess fick ödesdiger signal %d"
++msgstr "%s-underprocessen fick en dödlig signal %d"
+ 
+ #: src/rec-fex.c:451
+ #, c-format
+ msgid "internal error: REC_FEX_MAX_ELEMS exceeded.  Please report this.\n"
+-msgstr "internt fel: REC_FEX_MAX_ELEMS överskreds.  Rapportera gärna detta.\n"
++msgstr "internt fel: REC_FEX_MAX_ELEMS överskreds.  Rapportera detta.\n"
+ 
+ #: src/rec-int.c:176
+ #, c-format
+@@ -737,12 +737,12 @@
+ #: src/rec-int.c:487
+ #, c-format
+ msgid "%s:%s: error: field '%s' not allowed in this record set\n"
+-msgstr "%s:%s: fel: fältet ”%s” är inte tillåtet i postmängd\n"
++msgstr "%s:%s: fel: fältet ”%s” är inte tillåtet i den här postmängden\n"
+ 
+ #: src/rec-int.c:534
+ #, c-format
+ msgid "%s:%s: error: field '%s' should be unique in this record\n"
+-msgstr "%s:%s: fel: fält ”%s” skall vara unikt i denna post\n"
++msgstr "%s:%s: fel: fältet ”%s” ska vara unikt i den här posten\n"
+ 
+ #: src/rec-int.c:578
+ #, c-format
+@@ -752,12 +752,12 @@
+ #: src/rec-int.c:610
+ #, c-format
+ msgid "%s:%s: error: %%constraint[%d] violated in record\n"
+-msgstr "%s:%s: fel: %%constraint[%d] brutet i posten\n"
++msgstr "%s:%s: fel: %%constraint[%d] uppfylls inte i posten\n"
+ 
+ #: src/rec-int.c:647
+ #, c-format
+ msgid "%s:%s: error: confidential field is not encrypted\n"
+-msgstr "%s:%s: fel: konfidentiellt fält är inte krypterat\n"
++msgstr "%s:%s: fel: det konfidentiella fältet är inte krypterat\n"
+ 
+ #: src/rec-int.c:699
+ #, c-format
+@@ -767,7 +767,7 @@
+ #: src/rec-int.c:708
+ #, c-format
+ msgid "%s:%s: error: multiple key fields '%s' in record\n"
+-msgstr "%s:%s: fel: flera nyckelfält ”%s” i posten\n"
++msgstr "%s:%s: fel: flera nyckelfält ”%s” finns i posten\n"
+ 
+ #: src/rec-int.c:751
+ #, c-format
+@@ -777,12 +777,12 @@
+ #: src/rec-int.c:799
+ #, c-format
+ msgid "%s:%s: error: missing %%rec field in record descriptor\n"
+-msgstr "%s:%s: fel: saknat %%rec-fält i postidentifierare\n"
++msgstr "%s:%s: fel: saknar %%rec-fält i postbeskrivaren\n"
+ 
+ #: src/rec-int.c:807
+ #, c-format
+ msgid "%s:%s: error: too many %%rec fields in record descriptor\n"
+-msgstr "%s:%s: fel: för många %%rec-fält i postidentifierare\n"
++msgstr "%s:%s: fel: för många %%rec-fält i postbeskrivaren\n"
+ 
+ #: src/rec-int.c:817
+ #, c-format
+@@ -792,17 +792,17 @@
+ #: src/rec-int.c:828
+ #, c-format
+ msgid "%s:%s: error: only one %%key field is allowed in a record descriptor\n"
+-msgstr "%s:%s: fel: endast ett %%key-fält är tillåtet i en postidentifierare\n"
++msgstr "%s:%s: fel: endast ett %%key-fält är tillåtet i en postbeskrivare\n"
+ 
+ #: src/rec-int.c:838
+ #, c-format
+ msgid "%s:%s: error: only one %%size field is allowed in a record descriptor\n"
+-msgstr "%s:%s: fel: endast ett %%size-fält är tillåtet i en postidentifierare\n"
++msgstr "%s:%s: fel: endast ett %%size-fält är tillåtet i en postbeskrivare\n"
+ 
+ #: src/rec-int.c:848
+ #, c-format
+ msgid "%s:%s: error: only one %%sort field is allowed in a record descriptor\n"
+-msgstr "%s:%s: fel: endast ett %%sort-fält är tillåtet i en postidentifierare\n"
++msgstr "%s:%s: fel: endast ett %%sort-fält är tillåtet i en postbeskrivare\n"
+ 
+ #: src/rec-int.c:871
+ #, c-format
+@@ -842,7 +842,7 @@
+ #: src/rec-int.c:1028
+ #, c-format
+ msgid "%s:%s: error: value for %s should be a number optionally preceded by >, <, >= or <=.\n"
+-msgstr "%s:%s: fel: värdet på %s skall vara ett tal eventuellt föregått av >, <, >= eller <=.\n"
++msgstr "%s:%s: fel: värdet på %s ska vara ett tal, eventuellt föregånget av >, <, >= eller <=.\n"
+ 
+ #: src/rec-int.c:1044
+ #, c-format
+@@ -852,22 +852,22 @@
+ #: src/rec-int.c:1072
+ #, c-format
+ msgid "%s:%s: error: auto-incremented field %s should be of type int, range, uuid or date\n"
+-msgstr "%s:%s: fel: automatökat fält ”%s” skall vara av typen heltal, intervall, uuid eller datum\n"
++msgstr "%s:%s: fel: automatiskt uppräknat fält ”%s” ska vara av typen heltal, intervall, uuid eller datum\n"
+ 
+ #: src/rec-int.c:1074
+ #, c-format
+ msgid "%s:%s: error: auto-incremented field %s should be of type int, range or date\n"
+-msgstr "%s:%s: fel: automatökat fält ”%s” skall vara av typen heltal, intervall eller datum\n"
++msgstr "%s:%s: fel: automatiskt uppräknat fält ”%s” ska vara av typen heltal, intervall eller datum\n"
+ 
+ #: src/rec-int.c:1157
+ #, c-format
+ msgid "%s:%s: error: could not fetch remote descriptor from url %s.\n"
+-msgstr "%s:%s: fel: kunde inte hämta fjärridentifieraren från url:en %s.\n"
++msgstr "%s:%s: fel: kunde inte hämta fjärrbeskrivaren från URL:en %s.\n"
+ 
+ #: src/rec-int.c:1176
+ #, c-format
+ msgid "%s:%s: error: could not read external descriptor from file %s.\n"
+-msgstr "%s:%s: vel: kan inte läsa extern identifieraren från filen %s.\n"
++msgstr "%s:%s: fel: kunde inte läsa den externa beskrivaren från filen %s.\n"
+ 
+ #: src/rec-int.c:1191
+ #, c-format
+@@ -890,19 +890,19 @@
+ 
+ #: src/rec-types.c:1208
+ msgid "invalid 'field' value."
+-msgstr "ogiltigt ”field”-värde."
++msgstr "ogiltigt 'field'-värde."
+ 
+ #: src/rec-types.c:1231
+ msgid "invalid 'uuid' value."
+-msgstr "ogiltigt ”uuid”-värde."
++msgstr "ogiltigt 'uuid'-värde."
+ 
+ #: src/rec-types.c:1249
+ msgid "invalid 'bool' value."
+-msgstr "ogiltigt ”bool”-värde."
++msgstr "ogiltigt 'bool'-värde."
+ 
+ #: src/rec-types.c:1272
+ msgid "invalid 'range' value."
+-msgstr "ogiltigt ”range”-värde."
++msgstr "ogiltigt 'range'-värde."
+ 
+ #: src/rec-types.c:1281
+ #, c-format
+@@ -911,20 +911,20 @@
+ 
+ #: src/rec-types.c:1302
+ msgid "invalid 'real' value."
+-msgstr "ogiltigt ”real”-värde."
++msgstr "ogiltigt 'real'-värde."
+ 
+ #: src/rec-types.c:1320
+ #, c-format
+ msgid "value too large.  Expected a size <= %zu."
+-msgstr "för stort värde.  En storlek ≤ %zu förväntades."
++msgstr "för stort värde.  En storlek <= %zu förväntades."
+ 
+ #: src/rec-types.c:1341
+ msgid "invalid 'line' value."
+-msgstr "ogiltigt ”line”-värde."
++msgstr "ogiltigt 'line'-värde."
+ 
+ #: src/rec-types.c:1360
+ msgid "value does not match the regexp."
+-msgstr "värdet stämmer inte med reguljäruttryck."
++msgstr "värdet stämmer inte överens med det reguljära uttrycket."
+ 
+ #: src/rec-types.c:1383
+ msgid "invalid date."
+@@ -958,7 +958,7 @@
+ #: utils/csv2rec.c:105
+ #, c-format
+ msgid "Usage: csv2rec [OPTIONS]... [CSV_FILE]\n"
+-msgstr "Användning: csv2rec [FLAGGOR] … [CSV_FIL]\n"
++msgstr "Användning: csv2rec [FLAGGOR]... [CSV_FIL]\n"
+ 
+ #. TRANSLATORS: --help output, csv2rec short description.
+ #. no-wrap
+@@ -975,21 +975,21 @@
+ "  -s, --strict                        be strict parsing the csv file.\n"
+ "  -e, --omit-empty                    omit empty fields.\n"
+ msgstr ""
+-"  -t, -type=TYP                       skriv namn för de konverterade posterna.\n"
+-"                                        Om denna parameter utelämnas används\n"
+-"                                        ingen typ.\n"
+-"  -s, -strict                         var strikt i tolkningen av csv-filen.\n"
+-"  -e, -omit-empty                     uteslut tomma fält.\n"
++"  -t, --type=TYP                     typnamn för de konverterade posterna; om denna\n"
++"                                        parameter utelämnas används"
++" ingen typ.\n"
++"  -s, --strict                        var strikt vid tolkning av CSV-filen.\n"
++"  -e, --omit-empty                    utelämna tomma fält.\n"
+ 
+ #: utils/csv2rec.c:230
+ #, c-format
+ msgid "invalid field name '%s' in header\n"
+-msgstr "ogiltigt fältnamn ”%s” i huvudet\n"
++msgstr "ogiltigt fältnamn '%s' i huvudraden\n"
+ 
+ #: utils/csv2rec.c:259
+ #, c-format
+ msgid "%s: %lu: this line contains %lu fields, but %lu header fields were read\n"
+-msgstr "%s: %lu: denna rad innehåller %lu fält, men %lu huvudfält lästes\n"
++msgstr "%s: %lu: denna rad innehåller %lu fält, men %lu fält i huvudraden lästes\n"
+ 
+ #: utils/csv2rec.c:347 utils/recdel.c:266 utils/recset.c:358
+ #: utils/recutl.c:328
+@@ -1011,7 +1011,7 @@
+ #: utils/mdb2rec.c:103
+ #, c-format
+ msgid "Usage: mdb2rec [OPTIONS]... MDB_FILE [TABLE]\n"
+-msgstr "Användning: mdb2rec [FLAGGOR] … MDB_FIL [TABELL]\n"
++msgstr "Användning: mdb2rec [FLAGGOR]... MDB_FIL [TABELL]\n"
+ 
+ #. TRANSLATORS: --help output, mdb2rec short description.
+ #. no-wrap
+@@ -1030,9 +1030,9 @@
+ "                                        in the mdb file.\n"
+ msgstr ""
+ "  -s, --system-tables                 inkludera systemtabeller.\n"
+-"  -e, --keep-empty-fields             beskär aldrig tomma fält i rec-utdata.\n"
+-"  -l, --list-tables                   skriv ut en lista av tabellnamnen som\n"
+-"                                        återfinns i mdb-filen.\n"
++"  -e, --keep-empty-fields             ta inte bort tomma fält från rec-utdata.\n"
++"  -l, --list-tables                   skriv ut en lista över tabellnamnen som\n"
++"                                        finns i mdb-filen.\n"
+ 
+ #: utils/mdb2rec.c:251 utils/mdb2rec.c:315
+ #, c-format
+@@ -1068,7 +1068,7 @@
+ #: utils/rec2csv.c:86
+ #, c-format
+ msgid "Usage: rec2csv [OPTIONS]... [REC_FILE]\n"
+-msgstr "Användning: rec2csv [FLAGGOR] … [CSV_FIL]\n"
++msgstr "Användning: rec2csv [FLAGGOR]... [REC_FIL]\n"
+ 
+ #. TRANSLATORS: --help output, rec2csv short description.
+ #. no-wrap
+@@ -1085,19 +1085,19 @@
+ "                                        is omitted then the default record set is used\n"
+ "  -S, --sort=FIELDS                   sort the output by the specified fields.\n"
+ msgstr ""
+-"  -d, --delim=tecken                  sätter avgränsaren (standard ”,”)\n"
+-"  -t, --type=TYP                      postuppsättning att konvertera till csv;\n"
+-"                                        om denna parameter utelämnas används\n"
+-"                                        standardpostuppsättningen\n"
++"  -d, --delim=TECKEN                 anger avgränsaren (standard ',')\n"
++"  -t, --type=TYP                      postmängd att konvertera till CSV; om denna\n"
++"                                        parameter utelämnas används\n"
++"                                        standardpostmängden\n"
+ "  -S, --sort=FÄLT                     sortera utdata efter de angivna fälten.\n"
+ 
+ #: utils/rec2csv.c:142
+ msgid "only one list of fields can be specified as a sorting criteria.\n"
+-msgstr "endast en lista av fält kan anges som ett sorteringskriterium.\n"
++msgstr "endast en lista över fält kan anges som sorteringskriterium.\n"
+ 
+ #: utils/rec2csv.c:149
+ msgid "invalid field name list in -S.\n"
+-msgstr "ogiltig fältnamnslista till -S.\n"
++msgstr "ogiltig fältnamnslista i -S.\n"
+ 
+ #: utils/rec2csv.c:155 utils/recsel.c:248 utils/recsel.c:286
+ msgid "internal error creating fex.\n"
+@@ -1108,7 +1108,7 @@
+ #: utils/recdel.c:89
+ #, c-format
+ msgid "Usage: recdel [OPTIONS]... [-t TYPE] [-n NUM | -e RECORD_EXPR | -q STR | -m NUM] [FILE]\n"
+-msgstr "Användning: recdel [FLAGGOR] … [-t TYP] [-n NUM | -e POSTUTTR | -q STR | -m ANT] [FIL]\n"
++msgstr "Användning: recdel [FLAGGOR]... [-t TYP] [-n TAL | -e POSTUTTRYCK | -q STR | -m TAL] [FIL]\n"
+ 
+ #. TRANSLATORS: --help output, recdel short description.
+ #. no-wrap
+@@ -1129,13 +1129,13 @@
+ "                                        fails.\n"
+ msgstr ""
+ "  -c, --comment                       kommentera ut de matchande posterna\n"
+-"                                        istället för att radera dem.\n"
++"                                        i stället för att radera dem.\n"
+ "      --force                         radera även i potentiellt farliga\n"
+-"                                        situationer, och om raderingen bryter\n"
++"                                        situationer och om raderingen bryter\n"
+ "                                        mot postrestriktionerna.\n"
+-"      --no-external                   använd inte externa identifierare.\n"
++"      --no-external                   använd inte externa beskrivare.\n"
+ "      --verbose                       ge en detaljerad rapport om\n"
+-"                                        integritetskontrollen hittar fel.\n"
++"                                        integritetskontrollen misslyckas.\n"
+ 
+ #. TRANSLATORS: --help output, notes on recdel.
+ #. no-wrap
+@@ -1149,7 +1149,7 @@
+ "the data from standard input and writing the result to standard output.\n"
+ msgstr ""
+ "Om ingen FIL anges fungerar kommandot som ett filter, som hämtar\n"
+-"data från standard in och skriver resultatet till standard ut.\n"
++"data från standardindata och skriver resultatet till standardutdata.\n"
+ 
+ #: utils/recdel.c:136
+ #, c-format
+@@ -1159,11 +1159,11 @@
+ #: utils/recdel.c:227
+ #, c-format
+ msgid "ignoring a request to delete all records of type %s.\n"
+-msgstr "ignorera en begäran om att ta bort alla poster av typen %s.\n"
++msgstr "ignorerar en begäran om att ta bort alla poster av typen %s.\n"
+ 
+ #: utils/recdel.c:229
+ msgid "use --force if you really want to proceed, or use either -n or -e.\n"
+-msgstr "använd --force om du verkligen vill fortsätta, eller använda antingen -n eller -e.\n"
++msgstr "använd --force om du verkligen vill fortsätta, eller använd antingen -n eller -e.\n"
+ 
+ #: utils/recdel.c:237
+ msgid "invalid selection expression.\n"
+@@ -1179,7 +1179,7 @@
+ #: utils/recfix.c:117
+ #, c-format
+ msgid "Usage: recfix [OPTION]... [OPERATION] [OP_OPTION]... [FILE]\n"
+-msgstr "Användning: recfix [FLAGGA]… [ÅTGÄRD] [OP_FLAGGA]… [FIL]\n"
++msgstr "Användning: recfix [FLAGGA]... [ÅTGÄRD] [ÅTGÄRDSFLAGGA]... [FIL]\n"
+ 
+ #. TRANSLATORS: --help output, recfix short description.
+ #. no-wrap
+@@ -1194,7 +1194,7 @@
+ "      --no-external                   don't use external descriptors.\n"
+ "      --force                         force the requested operation.\n"
+ msgstr ""
+-"      --no-external                   använd inte externa identifierare\n"
++"      --no-external                   använd inte externa beskrivare.\n"
+ "      --force                         tvinga fram den begärda åtgärden.\n"
+ 
+ #. TRANSLATORS: --help output, recfix operations.
+@@ -1207,11 +1207,11 @@
+ "      --auto                          insert auto-generated fields in records missing them.\n"
+ msgstr ""
+ "Åtgärder:\n"
+-"      --check                         kontrollera integriteten på den angivna\n"
+-"                                        filen.  Standardfall.\n"
++"      --check                         kontrollera den angivna filens integritet.\n"
++"                                        Standard.\n"
+ "      --sort                          sortera posterna i den angivna filen.\n"
+-"      --auto                          lägg in automatgenererade fält i poster\n"
+-"                                        som saknar dem.\n"
++"      --auto                          lägg till automatiskt genererade fält i\n"
++"                                        poster som saknar dem.\n"
+ 
+ #. TRANSLATORS: --help output, recfix operations related with encryption.
+ #. no-wrap
+@@ -1233,7 +1233,7 @@
+ "De/Encryption options:\n"
+ "  -s, --password=PASSWORD             encrypt/decrypt with this password.\n"
+ msgstr ""
+-"(De)krypteringsflaggor:\n"
++"Flaggor för kryptering och dekryptering:\n"
+ "  -s, --password=LÖSENORD             kryptera/dekryptera med detta lösenord.\n"
+ 
+ #: utils/recfix.c:208
+@@ -1263,26 +1263,26 @@
+ 
+ #: utils/recfix.c:574
+ msgid "unknown operation in recfix: please report this as a bug.\n"
+-msgstr "okänd åtgärd i recfix: rapportera gärna detta som ett fel.\n"
++msgstr "okänd åtgärd i recfix: rapportera detta som ett fel.\n"
+ 
+ #. TRANSLATORS: --help output, recfmt synopsis.
+ #. no-wrap
+ #: utils/recfmt.c:78
+ #, c-format
+ msgid "Usage: recfmt [OPTION]... [TEMPLATE]\n"
+-msgstr "Användning: recfmt [FLAGGA]… [MALL]\n"
++msgstr "Användning: recfmt [FLAGGA]... [MALL]\n"
+ 
+ #. TRANSLATORS: --help output, recfmt arguments.
+ #. no-wrap
+ #: utils/recfmt.c:83
+ msgid "Apply a template to records read from standard input.\n"
+-msgstr "Använda en mall för poster lästa från standard in.\n"
++msgstr "Använd en mall på poster som läses från standardindata.\n"
+ 
+ #. TRANSLATORS: --help output, recfmt arguments.
+ #. no-wrap
+ #: utils/recfmt.c:89
+ msgid "  -f, --file=FILENAME                 read the template to apply from a file.\n"
+-msgstr "  -f, -file=FILNAMN             läs mallen att använda från en fil.\n"
++msgstr "  -f, --file=FILNAMN                 läs mallen som ska användas från en fil.\n"
+ 
+ #: utils/recfmt.c:123
+ #, c-format
+@@ -1299,24 +1299,24 @@
+ 
+ #: utils/recfmt.c:170
+ msgid "error evaluating expression in a template slot.\n"
+-msgstr "fel vid beräkning av uttryck på en mallplats.\n"
++msgstr "fel vid utvärdering av uttrycket i en mallplats.\n"
+ 
+ #: utils/recfmt.c:204
+ msgid "recfmt_apply_template: error compiling regexp. Please report this.\n"
+-msgstr "recfmt_apply_template: fel vid kompilering av reguljäruttryck.  Vänligen rapportera det här.\n"
++msgstr "recfmt_apply_template: fel vid kompilering av reguljäruttryck.  Rapportera detta.\n"
+ 
+ #. TRANSLATORS: --help output, recinf synopsis.
+ #. no-wrap
+ #: utils/recinf.c:84
+ #, c-format
+ msgid "Usage: recinf [OPTION]... [FILE]...\n"
+-msgstr "Användning: recinf [FLAGGA]… [FIL]…\n"
++msgstr "Användning: recinf [FLAGGA]... [FIL]...\n"
+ 
+ #. TRANSLATORS: --help output, recinf short description.
+ #. no-wrap
+ #: utils/recinf.c:89
+ msgid "Print information about the types of records stored in the input.\n"
+-msgstr "Skriv ut information om typerna på poster som finns lagrade i indata.\n"
++msgstr "Skriv ut information om posttyperna som lagras i indata.\n"
+ 
+ #. TRANSLATORS: --help output, recinf arguments.
+ #. no-wrap
+@@ -1328,11 +1328,11 @@
+ "  -n, --names-only                output just the names of the record files\n"
+ "                                    found in the input.\n"
+ msgstr ""
+-"  -t, --type=POST_TYP             skriv ut information om de poster som har\n"
+-"                                    angiven typ.\n"
+-"  -d, -descriptor                 inkludera fullständiga postidentifierare.\n"
+-"  -n, -names-only                 skriv bara ut namnen på postfiler som fanns\n"
+-"                                    i indata.\n"
++"  -t, --type=POSTTYP               skriv ut information om de poster som har\n"
++"                                    den angivna typen.\n"
++"  -d, --descriptor                  inkludera de fullständiga postbeskrivarna.\n"
++"  -n, --names-only                  skriv bara ut namnen på postfiler som\n"
++"                                    hittas i indata.\n"
+ 
+ #. TRANSLATORS: --help output, recinf special options.
+ #. no-wrap
+@@ -1341,21 +1341,21 @@
+ "Special options:\n"
+ "  -S, --print-sexps                   print the data in sexps instead of rec format.\n"
+ msgstr ""
+-"Specialflaggor:\n"
+-"  -S, --print-sexps                   skriv ut data i sexps- istället för\n"
++"Särskilda flaggor:\n"
++"  -S, --print-sexps                   skriv ut data som s-uttryck i stället för i\n"
+ "                                        rec-format.\n"
+ 
+ #: utils/recinf.c:263
+ #, c-format
+ msgid "error: cannot read file %s\n"
+-msgstr "fel: det går inte läsa filen %s\n"
++msgstr "fel: det går inte att läsa filen %s\n"
+ 
+ #. TRANSLATORS: --help output, recins synopsis.
+ #. no-wrap
+ #: utils/recins.c:111
+ #, c-format
+ msgid "Usage: recins [OPTION]... [-t TYPE] [-n NUM | -e RECORD_EXPR | -q STR | -m NUM] [(-f NAME -v STR) | -r RECDATA]... [FILE]\n"
+-msgstr "Användning: recins [FLAGGA]… [-t TYP] [-n NUM | -e POSTUTTR | -q STR | -m ANT] [(-f NAMN -v STR) | -r POSTDATA]… [FIL]\n"
++msgstr "Användning: recins [FLAGGA]... [-t TYP] [-n TAL | -e POSTUTTRYCK | -q STR | -m TAL] [(-f NAMN -v STR) | -r POSTDATA]... [FIL]\n"
+ 
+ #. TRANSLATORS: --help output, recins short description.
+ #. no-wrap
+@@ -1377,15 +1377,15 @@
+ "      --verbose                       give a detailed report if the integrity check\n"
+ "                                        fails.\n"
+ msgstr ""
+-"  -f, --field=STR                     fältnamn; skall följas av ett -v.\n"
+-"  -v, --value=STR                     fältvärde; skall föregås av ett -f.\n"
+-"  -r, --record=STR                    post som kommer skjutas in i filen.\n"
+-"      --force                         skjut in posten även om det bryter mot\n"
+-"                                        postrestriktionerna.\n"
+-"      --no-external                   använd inte externa identifierare.\n"
+-"      --no-auto                       skjut inte in automatiskt genererade fält.\n"
+-"      --verbose                       få en detaljerad rapport om\n"
+-"                                        integritetskontrollen hittar fel.\n"
++"  -f, --field=STR                     fältnamn; ska följas av -v.\n"
++"  -v, --value=STR                     fältvärde; ska föregås av -f.\n"
++"  -r, --record=STR                    post som ska infogas i filen.\n"
++"      --force                         infoga posten även om infogningen bryter\n"
++"                                        mot postrestriktionerna.\n"
++"      --no-external                   använd inte externa beskrivare.\n"
++"      --no-auto                       infoga inte automatiskt genererade fält.\n"
++"      --verbose                       ge en detaljerad rapport om\n"
++"                                        integritetskontrollen misslyckas.\n"
+ 
+ #. TRANSLATORS: --help output, encryption related options.
+ #. no-wrap
+@@ -1419,7 +1419,7 @@
+ #: utils/recsel.c:118
+ #, c-format
+ msgid "Usage: recsel [OPTION]... [-t TYPE] [-j FIELD] [-n INDEXES | -e RECORD_EXPR | -q STR | -m NUM] [-c | (-p|-P) FIELD_EXPR] [FILE]...\n"
+-msgstr "Användning: recsel [FLAGGA]… [-t TYP] [-j FÄLT] [-n INDEX |-e POSTUTTR | -q STR | -m ANT] [-c | (-p|-P) FÄLTUTTR] [FIL]…\n"
++msgstr "Användning: recsel [FLAGGA]... [-t TYP] [-j FÄLT] [-n INDEX | -e POSTUTTRYCK | -q STR | -m TAL] [-c | (-p|-P) FÄLTUTTRYCK] [FIL]...\n"
+ 
+ #. TRANSLATORS: --help output, recsel arguments.
+ #. no-wrap
+@@ -1438,13 +1438,13 @@
+ "  -G, --group-by=FIELD,...            group records by the specified fields.\n"
+ "  -U, --uniq                          remove duplicated fields in the output records.\n"
+ msgstr ""
+-"-d, --include-descriptors           skriv ut postidentifierare tillsammans med\n"
+-"                                        matchade poster.\n"
++"  -d, --include-descriptors           skriv ut postbeskrivare tillsammans med\n"
++"                                        de matchande posterna.\n"
+ "  -C, --collapse                      dela inte upp resultatet i poster med\n"
+-"                                        nyrader.\n"
+-"  -S, --sort=FÄLT                     sortera utdata efter det angivna fältet.\n"
+-"  -G, --group-by=FÄLT,…               grupper poster efter de angivna fälten.\n"
+-"  -U, --uniq                          ta bort dubblerade fält i utposter.\n"
++"                                        radbrytningar.\n"
++"  -S, --sort=FÄLT,...                 sortera utdata efter de angivna fälten.\n"
++"  -G, --group-by=FÄLT,...             gruppera poster efter de angivna fälten.\n"
++"  -U, --uniq                          ta bort dubblettfält i posterna i utdata.\n"
+ 
+ #. TRANSLATORS: --help output, encryption related options.
+ #. no-wrap
+@@ -1454,7 +1454,7 @@
+ 
+ #: utils/recsel.c:150
+ msgid "  -j, --join=FIELD                    perform an inner join using the specified field.\n"
+-msgstr "  -j, --join=FÄLT                     utför en inre join med det angivna fältet.\n"
++msgstr "  -j, --join=FÄLT                     utför en inre koppling med det angivna fältet.\n"
+ 
+ #. TRANSLATORS: --help output, recsel output options.
+ #. no-wrap
+@@ -1471,14 +1471,14 @@
+ "                                        the records themselves.\n"
+ msgstr ""
+ "Utskriftsflaggor:\n"
+-"  -p, --print=FÄLT                    kommaseparerad lista av fält att skriva\n"
+-"                                        ut för varje matchad post.\n"
++"  -p, --print=FÄLT                    kommaseparerad lista över fält att skriva\n"
++"                                        ut för varje matchande post.\n"
+ "  -P, --print-values=FÄLT             samma som -p, men skriv endast värdena i\n"
+ "                                        de valda fälten.\n"
+-"  -R, --print-row=FÄLT                samma som -P, men dela av värdena med\n"
+-"                                        blanktecken istället för nyrader.\n"
+-"  -c, --count                         skriv antalet matchade poster istället\n"
+-"                                        istället för själva posterna.\n"
++"  -R, --print-row=FÄLT                samma som -P, men separera värdena med\n"
++"                                        mellanslag i stället för radbrytningar.\n"
++"  -c, --count                         skriv antalet matchande poster i stället\n"
++"                                        för posterna själva.\n"
+ 
+ #. TRANSLATORS: --help output, recsel special options.
+ #. no-wrap
+@@ -1487,8 +1487,8 @@
+ "Special options:\n"
+ "      --print-sexps                   print the data in sexps instead of rec format.\n"
+ msgstr ""
+-"Specialflaggor:\n"
+-"      --print-sexps                   skriv ut data i sexps- istället för\n"
++"Särskilda flaggor:\n"
++"      --print-sexps                   skriv ut data som s-uttryck i stället för i\n"
+ "                                        rec-format.\n"
+ 
+ #: utils/recsel.c:235
+@@ -1497,15 +1497,15 @@
+ 
+ #: utils/recsel.c:242
+ msgid "invalid field names in -S.\n"
+-msgstr "ogiltiga fältnamn till -S.\n"
++msgstr "ogiltiga fältnamn i -S.\n"
+ 
+ #: utils/recsel.c:258
+ msgid "only one field can be specified as join criteria.\n"
+-msgstr "endast ett fält kan anges som ett join-kriterium.\n"
++msgstr "endast ett fält kan anges som kopplingskriterium.\n"
+ 
+ #: utils/recsel.c:263
+ msgid "please specify a correct field name to -j|--join.\n"
+-msgstr "ange ett korrekt fältnamn till -j|--join.\n"
++msgstr "ange ett korrekt fältnamn för -j|--join.\n"
+ 
+ #: utils/recsel.c:274
+ msgid "only one field list can be specified as a grouping criteria.\n"
+@@ -1513,7 +1513,7 @@
+ 
+ #: utils/recsel.c:280
+ msgid "invalid field names in -G.\n"
+-msgstr "ogiltiga fältnamn till -G.\n"
++msgstr "ogiltiga fältnamn i -G.\n"
+ 
+ #: utils/recsel.c:300
+ msgid "cannot specify -[pPR] and also -c.\n"
+@@ -1522,7 +1522,7 @@
+ #: utils/recsel.c:317
+ #, c-format
+ msgid "invalid list of fields in -%c\n"
+-msgstr "ogiltig fältlista till -%c\n"
++msgstr "ogiltig fältlista i -%c\n"
+ 
+ #: utils/recsel.c:325
+ msgid "internal error creating the field expression.\n"
+@@ -1531,7 +1531,7 @@
+ #: utils/recsel.c:340
+ #, c-format
+ msgid "invalid aggregate function '%s'\n"
+-msgstr "felaktig aggregatfunktion ”%s”\n"
++msgstr "ogiltig aggregatfunktion '%s'\n"
+ 
+ #: utils/recsel.c:358
+ msgid "cannot specify -c and also -p.\n"
+@@ -1539,7 +1539,7 @@
+ 
+ #: utils/recsel.c:377
+ msgid "joins can only be used when a named record set is selected.\n"
+-msgstr "join kan endast göras när en namngiven postmängd är vald.\n"
++msgstr "kopplingar kan endast användas när en namngiven postmängd är vald.\n"
+ 
+ #: utils/recsel.c:439
+ msgid "several record types found.  Please use -t to specify one.\n"
+@@ -1550,7 +1550,7 @@
+ #: utils/recset.c:113
+ #, c-format
+ msgid "Usage: recset [OPTION]... [FILE]...\n"
+-msgstr "Användning: recset [FLAGGA]… [FIL]…\n"
++msgstr "Användning: recset [FLAGGA]... [FIL]...\n"
+ 
+ #. TRANSLATORS: --help output, recset short description.
+ #. no-wrap
+@@ -1566,9 +1566,9 @@
+ "      --force                         alter the records even if violating record\n"
+ "                                        restrictions.\n"
+ msgstr ""
+-"      --no-external                   använd inte externa identifierare.\n"
+-"      --force                         ändra posterna även om det bryter mot\n"
+-"                                        postbegränsningarna.\n"
++"      --no-external                   använd inte externa beskrivare.\n"
++"      --force                         ändra posterna även om ändringen bryter\n"
++"                                        mot postrestriktionerna.\n"
+ 
+ #. TRANSLATORS: --help output, recset field selection options.
+ #. no-wrap
+@@ -1604,10 +1604,10 @@
+ "  -S, --set-add=VÄRDE                 ändra värdet på de valda fälten.  Om de\n"
+ "                                        inte finns, lägg då till ett nytt fält\n"
+ "                                        med det värdet.\n"
+-"  -r, --rename=NAMN                   byt namn på de valda fälten till ett\n"
+-"                                        angivet namn.  Om en hel postmängd är\n"
+-"                                        vald byts namnet även i\n"
+-"                                        postidentifieraren.\n"
++"  -r, --rename=NAMN                   byt namn på de valda fälten till angivet\n"
++"                                        namn.  Om en hel postmängd har valts\n"
++"                                        byts fältets namn även i\n"
++"                                        postbeskrivaren.\n"
+ "  -d, --delete                        radera de valda fälten.\n"
+ "  -c, --comment                       kommentera bort de valda fälten.\n"
+ 
+@@ -1625,11 +1625,11 @@
+ 
+ #: utils/recset.c:221
+ msgid "creating the field expression.\n"
+-msgstr "när fältuttryck skapades.\n"
++msgstr "när fältuttrycket skapades.\n"
+ 
+ #: utils/recset.c:243
+ msgid "the rename operation requires just one field with an optional subscript.\n"
+-msgstr "åtgärden namnbyte tar endast ett fält med ett eventuellt index.\n"
++msgstr "namnbytesåtgärden kräver exakt ett fält med valfritt index.\n"
+ 
+ #. TRANSLATORS: --help output 5+ (reports)
+ #. TRANSLATORS: the placeholder indicates the bug-reporting address
+@@ -1646,7 +1646,7 @@
+ #: utils/recutl.c:131
+ #, c-format
+ msgid "%s home page: <http://www.gnu.org/software/recutils/>\n"
+-msgstr "%s hemsida: <http://www.gnu.org/software/recutils/>\n"
++msgstr "%s webbplats: <http://www.gnu.org/software/recutils/>\n"
+ 
+ #: utils/recutl.c:134
+ msgid "General help using GNU software: <http://www.gnu.org/gethelp/>\n"
+@@ -1676,15 +1676,16 @@
+ "  -m, --random=NUM                    select a given number of random records.\n"
+ msgstr ""
+ "Flaggor för postval:\n"
+-"  -i, --case-insensitive              gör strängar skiftlägseokänsliga i\n"
++"  -i, --case-insensitive              gör strängar skiftlägesokänsliga i\n"
+ "                                        urvalsuttryck.\n"
+-"  -t, --type=TYP                      arbeta enbart på poster med angiven typ.\n"
+-"  -e, --expression=POSTUTTR           urvalsuttryck.\n"
++"  -t, --type=TYP                      bearbeta endast poster av den angivna\n"
++"                                        typen.\n"
++"  -e, --expression=POSTUTTRYCK        urvalsuttryck.\n"
+ "  -q, --quick=STR                     välj poster med fält som innehåller en\n"
+ "                                        sträng.\n"
+-"  -n, --number=NUM,…                  välj vissa poster efter position, med\n"
++"  -n, --number=TAL,...                välj vissa poster efter position, med\n"
+ "                                        intervall.\n"
+-"  -R, --random=ANT                    välj ett angivet antal med slumpposter.\n"
++"  -m, --random=TAL                    välj ett angivet antal slumpmässiga poster.\n"
+ 
+ #: utils/recutl.c:179
+ #, c-format
+@@ -1718,7 +1719,7 @@
+ #: utils/recutl.c:254
+ #, c-format
+ msgid "duplicated record set '%s' from %s.\n"
+-msgstr "duplicerad postmängd ”%s” från %s.\n"
++msgstr "dubblett av postmängden '%s' från %s.\n"
+ 
+ #: utils/recutl.c:417
+ msgid "cannot create a unique name.\n"
+@@ -1731,7 +1732,7 @@
+ 
+ #: utils/recutl.c:482
+ msgid "operation aborted due to integrity failures.\n"
+-msgstr "åtgärden avbruten på grund av integritetsfel.\n"
++msgstr "åtgärden avbröts på grund av integritetsfel.\n"
+ 
+ #: utils/recutl.c:483
+ msgid "use --verbose to get a detailed report.\n"
+@@ -1779,7 +1780,7 @@
+ 
+ #: utils/recutl.h:140
+ msgid "invalid list of indexes in -n\n"
+-msgstr "ogiltig indexlista till -n\n"
++msgstr "ogiltig indexlista i -n\n"
+ 
+ #: utils/recutl.h:150
+ msgid "cannot specify -m and also -e\n"
