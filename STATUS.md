@@ -1214,3 +1214,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **3D Slicer – SlicerVMTK, batch 8 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **435/719**. Batchen omfattar Voronoi-diagram, centrumlinjekvantifiering, nätkontroller och kontrastförstärkt CT-angiografi med segmentering, flödesfyllning och extraktion av centrumlinjer. TS-exporten kompilerar med `lrelease`.
 
 **3D Slicer – SlicerVMTK, batch 9 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **490/719**. Batchen täcker lumenavgränsning, flödesfyllning, intensitetstolerans, CT-baserad vensegmentering samt skalmarginaler och Gaussisk utjämning. TS-exporten kompilerar med `lrelease`.
+
+**3D Slicer – SlicerVMTK, batch 10 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **545/719**. Batchen täcker CT-angiografi med fiducialpunkter och ROI, kontrastförstärkt lumen, kärnextrudering, flödesfyllning och vensegmentering. TS-exporten kompilerar med `lrelease`.
