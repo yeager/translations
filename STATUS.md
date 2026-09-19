@@ -1210,3 +1210,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **3D Slicer – SlicerVMTK, batch 6 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **325/719**. Batchen täcker Shape-rör från centrumlinjer, artärdimensioner, radiefördelning, segmentmasker och redigerade centrumlinjemodeller/-kurvor. TS-exporten kompilerar med `lrelease`.
 
 **3D Slicer – SlicerVMTK, batch 7 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **380/719**. Batchen täcker automatisk centrumlinjeextraktion för kärl/luftvägar, icke-manifoldgeometri, Voronoi-baserad analys, ändpunkter, centrumlinjenätverk och dess längd/radie/krökning/torsion. TS-exporten kompilerar med `lrelease`.
+
+**3D Slicer – SlicerVMTK, batch 8 (2026-09-19):** Ytterligare **55** radgranskade strängar är publicerade, totalt **435/719**. Batchen omfattar Voronoi-diagram, centrumlinjekvantifiering, nätkontroller och kontrastförstärkt CT-angiografi med segmentering, flödesfyllning och extraktion av centrumlinjer. TS-exporten kompilerar med `lrelease`.
