@@ -1027,3 +1027,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **Blender UI – trigonometriska noder (2026-09-19):** Radgranskningen fortsatte genom inversa trigonometriska funktioner. `arcsin(A)` och `arccos(A)` är korrekt matematisk notation och avfärdades. **Arctangent** rättades och publicerades som **Arctangens**. Nästa köposition är **350/775** (`arctan(A)`).
 
 **Blender UI – hyperboliska funktioner (2026-09-19):** `sinh(A)` och `cosh(A)` granskades som internationell matematisk funktionsnotation och avfärdades. Nästa köposition är **354/775** (`tanh(A)`).
+
+**Blender UI – funktionsnotation och renderare (2026-09-19):** `tanh(A)` granskades som korrekt internationell notation. **DirectX** och **Cycles** granskades i sina respektive normalmappnings- och renderingssammanhang; de är produktnamn och ska inte översättas. Nästa köposition är **356/775** (`Cycles`).
