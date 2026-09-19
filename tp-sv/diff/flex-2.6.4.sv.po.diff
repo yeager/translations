@@ -32,7 +32,7 @@
  #: src/main.c:183
  msgid "-s option given but default rule can be matched"
 -msgstr "flaggan -s angiven men standardregeln kan följas"
-+msgstr "alternativet -s har angetts, men standardregeln kan matcha"
++msgstr "flaggan -s har angetts, men standardregeln kan matcha"
  
  #: src/main.c:221
  msgid "Can't use -+ with -l option"
@@ -162,13 +162,12 @@
  
  #: src/main.c:1508
  #, c-format
-@@ -478,12 +478,14 @@
+@@ -478,12 +478,13 @@
  #: src/main.c:1529
  #, c-format
  msgid "-l AT&T lex compatibility option entails a large performance penalty\n"
 -msgstr "flaggan -l för beteende som AT&T:s lex medför en väsentlig prestandaförlust\n"
-+msgstr "alternativet -l för kompatibilitet med AT&T lex medför en stor "
-+"prestandaförlust\n"
++msgstr "flaggan -l för kompatibilitet med AT&T lex medför en stor prestandaförlust\n"
  
  #: src/main.c:1532
  #, c-format
@@ -179,7 +178,7 @@
  
  #: src/main.c:1538
  #, c-format
-@@ -508,7 +510,7 @@
+@@ -508,7 +509,7 @@
  #: src/main.c:1561
  #, c-format
  msgid "Variable trailing context rules entail a large performance penalty\n"
@@ -188,7 +187,7 @@
  
  #: src/main.c:1573
  msgid "REJECT cannot be used with -f or -F"
-@@ -522,7 +524,7 @@
+@@ -522,7 +523,7 @@
  #: src/main.c:1579
  msgid "variable trailing context rules cannot be used with -f or -F"
  msgstr ""
@@ -197,7 +196,7 @@
  "tillsammans med -f eller -F"
  
  #: src/main.c:1704
-@@ -533,7 +535,7 @@
+@@ -533,7 +534,7 @@
  #: src/main.c:1791
  #, c-format
  msgid "Usage: %s [OPTIONS] [FILE]...\n"
@@ -206,7 +205,7 @@
  
  #: src/main.c:1794
  #, c-format
-@@ -746,7 +748,7 @@
+@@ -746,7 +747,7 @@
  
  #: src/nfa.c:673
  msgid "found too many transitions in mkxtion()"
@@ -215,7 +214,7 @@
  
  #: src/nfa.c:699
  #, c-format
-@@ -779,7 +781,7 @@
+@@ -779,7 +780,7 @@
  
  #: src/parse.y:582 src/parse.y:600 src/parse.y:665 src/parse.y:683
  msgid "iteration value must be positive"
@@ -224,7 +223,7 @@
  
  #: src/parse.y:806 src/parse.y:816
  #, c-format
-@@ -818,7 +820,7 @@
+@@ -818,7 +819,7 @@
  
  #: src/scan.l:309
  msgid "Unmatched '{'"
@@ -233,7 +232,7 @@
  
  #: src/scan.l:325
  #, c-format
-@@ -858,7 +860,7 @@
+@@ -858,7 +859,7 @@
  
  #: src/scan.l:800
  msgid "missing quote"
@@ -242,7 +241,7 @@
  
  #: src/scan.l:866
  #, c-format
-@@ -875,11 +877,11 @@
+@@ -875,11 +876,11 @@
  
  #: src/scan.l:972
  msgid "EOF encountered inside an action"
@@ -256,7 +255,7 @@
  
  #: src/scan.l:1010
  #, c-format
-@@ -894,27 +896,27 @@
+@@ -894,27 +895,27 @@
  #: src/scanopt.c:259
  #, c-format
  msgid "Usage: %s [OPTIONS]...\n"
@@ -289,7 +288,7 @@
  
  #: src/scanopt.c:541
  #, c-format
-@@ -923,16 +925,16 @@
+@@ -923,16 +924,16 @@
  
  #: src/sym.c:92
  msgid "symbol table memory allocation failed"
@@ -309,7 +308,7 @@
  
  #: src/yylex.c:57
  msgid "premature EOF"
-@@ -946,4 +948,4 @@
+@@ -946,4 +947,4 @@
  #: src/yylex.c:206
  #, c-format
  msgid "*Something Weird* - tok: %d val: %d\n"

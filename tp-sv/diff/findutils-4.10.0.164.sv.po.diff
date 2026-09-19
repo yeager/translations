@@ -41,8 +41,8 @@
  msgid "The -delete action automatically turns on -depth, but -prune does nothing when -depth is in effect.  If you want to carry on anyway, just explicitly use the -depth option."
 -msgstr "Åtgärden -delete slår automatiskt på -depth, men -prune gör ingenting när -depth är aktiverat.  Om du vill fortsätta ändå kan du uttryckligen använda flaggan -depth."
 +msgstr "Åtgärden -delete aktiverar automatiskt -depth, men -prune gör ingenting när "
-+"-depth är aktivt. Om du ändå vill fortsätta använder du uttryckligen "
-+"alternativet -depth."
++"-depth är aktivt. Om du ändå vill fortsätta använder du uttryckligen flaggan "
++"-depth."
  
  #: find/parser.c:598
  #, c-format
@@ -64,8 +64,8 @@
  #, c-format
  msgid "warning: the -d option is deprecated; please use -depth instead, because the latter is a POSIX-compliant feature."
 -msgstr "varning: flaggan -d är föråldrad; använd -depth istället, eftersom den senare stöds enligt POSIX."
-+msgstr "varning: alternativet -d är föråldrat; använd -depth i stället eftersom det "
-+"senare är POSIX-kompatibelt."
++msgstr "varning: flaggan -d är föråldrad; använd -depth i stället eftersom det senare "
++"är POSIX-kompatibelt."
  
  #: find/parser.c:1159
  #, c-format
@@ -336,15 +336,6 @@
  "      -depth -files0-from FIL -maxdepth NIVÅER -mindepth NIVÅER\n"
  "      -mount -noleaf -xdev -ignore_readdir_race -noignore_readdir_race\n"
  
-@@ -667,7 +688,7 @@
- "Other common options:\n"
- msgstr ""
- "\n"
--"Andra vanliga flaggor:\n"
-+"Andra vanliga alternativ:\n"
- 
- #: find/util.c:204 xargs/xargs.c:1816
- msgid "      --help                   display this help and exit\n"
 @@ -688,8 +709,7 @@
  "\n"
  msgstr ""
@@ -355,13 +346,11 @@
  
  #: find/util.c:212
  msgid ""
-@@ -698,8 +718,7 @@
- "\n"
+@@ -699,7 +719,6 @@
  msgstr ""
  "\n"
--"Använd ”-D help” för en beskrivning av flaggorna, eller se find(1).\n"
+ "Använd ”-D help” för en beskrivning av flaggorna, eller se find(1).\n"
 -"\n"
-+"Använd ”-D help” för en beskrivning av alternativen, eller se find(1).\n"
  
  #: find/util.c:481
  #, c-format
@@ -455,7 +444,7 @@
  #, c-format
  msgid "The argument for option --max-database-age must not be empty"
 -msgstr "Argumentet för flaggan --max-database-age får inte vara tom"
-+msgstr "Argumentet till alternativet --max-database-age får inte vara tomt"
++msgstr "Argumentet till flaggan --max-database-age får inte vara tomt"
  
  #: locate/locate.c:174 locate/locate.c:181
  #, c-format
@@ -512,7 +501,7 @@
  #, c-format
  msgid "You specified the -E option, but that option cannot be used with slocate-format databases with a non-zero security level.  No results will be generated for this database.\n"
 -msgstr "Du angav flaggan -E men den flaggan kan inte användas med databaser med slocate-format med en säkerhetsnivå högre än 0.  Inga resultat kommer att genereras för den här databasen.\n"
-+msgstr "Du angav alternativet -E, men det kan inte användas med slocate-databaser med "
++msgstr "Du angav flaggan -E, men det kan inte användas med slocate-databaser med "
 +"säkerhetsnivå skild från noll. Inga resultat genereras för databasen.\n"
  
  #: locate/locate.c:1106
@@ -601,7 +590,7 @@
  #, c-format
  msgid "warning: value %ld for -s option is too large, using %ld instead"
 -msgstr "varning: värdet %ld för flaggan -s är för stort, använder %ld istället"
-+msgstr "varning: värdet %ld för alternativet -s är för stort; använder %ld i stället"
++msgstr "varning: värdet %ld för flaggan -s är för stort; använder %ld i stället"
  
  #: xargs/xargs.c:675
  #, c-format
@@ -672,7 +661,7 @@
  msgid "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option"
 -msgstr "citattecknet %s är oavslutat; som standard är citattecken speciella för xargs såvida du inte använder flaggan -0"
 +msgstr "oavslutat %s-citattecken; citattecken är normalt specialtecken för xargs om "
-+"inte alternativet -0 används"
++"inte flaggan -0 används"
  
  #: xargs/xargs.c:948 xargs/xargs.c:1044
  msgid "double"
@@ -682,7 +671,7 @@
  msgid "WARNING: a NUL character occurred in the input.  It cannot be passed through in the argument list.  Did you mean to use the --null option?"
 -msgstr "VARNING: ett NOLL-tecken förekommer i inmatningen.  Det kan inte skickas vidare i argumentlistan.  Tänkte du använda flaggan --null?"
 +msgstr "VARNING: ett NUL-tecken förekom i indata. Det kan inte skickas vidare i "
-+"argumentlistan. Menade du att använda alternativet --null?"
++"argumentlistan. Menade du att använda flaggan --null?"
  
  #: xargs/xargs.c:1073 xargs/xargs.c:1140
  #, c-format
@@ -837,7 +826,7 @@
 -"                                 KOMMANDO; om denna flagga inte anges kommer\n"
 -"                                 KOMMANDO köras åtminstone en gång\n"
 +"  -r, --no-run-if-empty        om det inte finns några argument, kör inte\n"
-+"                                 KOMMANDO; om alternativet inte anges körs\n"
++"                                 KOMMANDO; om flaggan inte anges körs\n"
 +"                                 KOMMANDO minst en gång\n"
  
  #: xargs/xargs.c:1811

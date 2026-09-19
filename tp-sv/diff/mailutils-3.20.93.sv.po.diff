@@ -1507,7 +1507,7 @@
  #, c-format
  msgid "multiple --from options"
 -msgstr "multipla \"--from\"-flaggor"
-+msgstr "flera --from-alternativ"
++msgstr "flera --from-flagga"
  
  #: mda/lib/deliver.c:39
  #, c-format
@@ -1660,15 +1660,6 @@
  
  #: mda/lib/script.c:107 mda/lib/script.c:113 mh/anno.c:39 mh/pick.c:135
  #: mh/pick.c:139 mh/pick.c:147 mh/pick.c:150 mh/pick.c:153 mh/pick.c:156
-@@ -2933,7 +2946,7 @@
- 
- #: mda/lib/script.c:108
- msgid "define scripting language for the next --script option"
--msgstr "definiera skriptspråk för nästa --script-flagga"
-+msgstr "definiera skriptspråk för nästa --script-alternativ"
- 
- #: mda/lib/script.c:110
- msgid "PATTERN"
 @@ -2941,11 +2954,12 @@
  
  #: mda/lib/script.c:111
@@ -1928,7 +1919,7 @@
  #: mail/mail.c:261
  msgid "set encoding for subsequent --attach options"
 -msgstr "ställ in kodning för efterföljande --attach-flaggor"
-+msgstr "ange kodning för efterföljande --attach-alternativ"
++msgstr "ange kodning för efterföljande --attach-flagga"
  
  #: mail/mail.c:264 mu/libexec/dbm.c:1741
  msgid "TYPE"
@@ -1937,19 +1928,19 @@
  #: mail/mail.c:265
  msgid "set content type for subsequent --attach options"
 -msgstr "ställ in innehållstyp för efterföljande --attach-flaggor"
-+msgstr "ange innehållstyp för efterföljande --attach-alternativ"
++msgstr "ange innehållstyp för efterföljande --attach-flagga"
  
  #. TRANSLATORS: Don't translate "Content-Type" and "name"!
  #: mail/mail.c:270
  msgid "set the Content-Type name parameter for the next --attach option"
 -msgstr "ställ in namnparametern för Content-Type för nästa --attach-flagga"
-+msgstr "ange parametern name i Content-Type för nästa --attach-alternativ"
++msgstr "ange parametern name i Content-Type för nästa --attach-flagga"
  
  #. TRANSLATORS: Don't translate "Content-Disposition" and "filename"!
  #: mail/mail.c:274
  msgid "set the Content-Disposition filename parameter for the next --attach option"
 -msgstr "ställ in filnamnsparametern Content-Disposition för nästa --attach-flagga"
-+msgstr "ange parametern filename i Content-Disposition för nästa --attach-alternativ"
++msgstr "ange parametern filename i Content-Disposition för nästa --attach-flagga"
  
  #: mail/mail.c:278
  msgid "attach FILE"
@@ -3911,7 +3902,7 @@
  #: mh/comp.c:57 mh/forw.c:97 mh/repl.c:113 mh/send.c:113
  msgid "undo the effect of the last --draftfolder option"
 -msgstr "ångra effekten av den sista --draftfolder-flaggan"
-+msgstr "ångra effekten av det senaste alternativet --draftfolder"
++msgstr "ångra effekten av den senaste flaggan --draftfolder"
  
  #: mh/comp.c:59 mh/forw.c:99 mh/repl.c:115 mh/send.c:109 mh/whatnow.c:36
  msgid "MSG"
@@ -4114,7 +4105,7 @@
  #: mh/forw.c:121 mh/send.c:119
  msgid "undo the effect of the last --filter option"
 -msgstr "ångra effekten av den sista --filter-flaggan"
-+msgstr "ångra effekten av det senaste alternativet --filter"
++msgstr "ångra effekten av den senaste flaggan --filter"
  
  #: mh/forw.c:127 mh/send.c:130
  msgid "use MIME encapsulation"
@@ -4198,7 +4189,7 @@
  #: mh/inc.c:117
  msgid "set language for the --script option"
 -msgstr "ställ in språk för flaggan --script"
-+msgstr "ange språk för alternativet --script"
++msgstr "ange språk för flaggan --script"
  
  #: mh/inc.c:120
  msgid "filter incoming messages using script FILE"
@@ -4879,15 +4870,6 @@
  
  #: mh/msgchk.c:342
  msgid "You don't have any mail waiting\n"
-@@ -7935,7 +7980,7 @@
- #: mh/msgchk.c:377
- #, c-format
- msgid "no arguments are allowed when the -user option is given"
--msgstr "inga argument tillåts när flaggan -user anges"
-+msgstr "inga argument tillåts när alternativet -user anges"
- 
- #: mh/pick-gram.y:124 mh/pick-gram.y:135
- #, c-format
 @@ -7944,7 +7989,7 @@
  
  #: mh/pick-gram.y:231
@@ -4931,9 +4913,9 @@
 -msgstr "flaggor som styr typen av reguljära uttryck. STRÄNG måste bestå av en eller flera av följande bokstäver: B=basic (grundläggande), E=extended (utökad), I=ignore case (ignorera skiftläge), C=case sensitive (skiftlägeskänslig). Standardvärdet är \"EI\". Flaggorna fortsätter att gälla tills nästa gång flaggan --cflags används. Alternativet måste komma precis före flaggan --pattern eller --component (eller dess alias)."
 +msgstr "flaggor som styr typen av reguljära uttryck. STRING måste bestå av en eller "
 +"flera av följande bokstäver: B=basic, E=extended, I=ignore case, C=case "
-+"sensitive. Standard är ”EI”. Flaggorna gäller till nästa förekomst av "
-+"alternativet --cflags. Alternativet måste stå direkt före alternativet "
-+"--pattern eller --component (eller dess alias)."
++"sensitive. Standard är ”EI”. Flaggorna gäller till nästa förekomst av flaggan "
++"--cflags. Flaggan måste stå direkt före flaggan --pattern eller --component "
++"(eller dess alias)."
  
  #: mh/pick.c:148
  msgid "search for Cc matching STRING"
@@ -5088,12 +5070,12 @@
  msgid "include a copy of the message being replied; the message will be processed using either the default filter \"mhl.reply\", or the filter specified by --filter option"
 -msgstr "inkludera en kopia av det meddelande som besvaras; meddelandet behandlas antingen med standardfiltret \"mhl.reply\" eller med det filter som anges med flaggan --filter"
 +msgstr "inkludera en kopia av meddelandet som besvaras; meddelandet behandlas med "
-+"standardfiltret `mhl.reply` eller filtret som anges med alternativet --filter"
++"standardfiltret `mhl.reply` eller filtret som anges med flaggan --filter"
  
  #: mh/repl.c:146
  msgid "cancels the effect of the recent -format option"
 -msgstr "avbryter effekten av den senaste -format-flaggan"
-+msgstr "upphäver effekten av det senaste alternativet -format"
++msgstr "upphäver effekten av den senaste flaggan -format"
  
  #: mh/repl.c:152
  msgid "query for addresses to place in To: and Cc: lists"
@@ -5287,7 +5269,7 @@
  #: mh/sortm.c:151
  msgid "undo the effect of the last -limit option"
 -msgstr "ångra effekten av den sista -limit-flaggan"
-+msgstr "upphäver effekten av det senaste alternativet -limit"
++msgstr "upphäver effekten av den senaste flaggan -limit"
  
  #: mh/sortm.c:154
  msgid "sort on the text field"
@@ -5338,7 +5320,7 @@
  #: mh/whatnow.c:34 mh/whom.c:52
  msgid "undo the effect of the last -draftfolder option"
 -msgstr "ångra effekten av den sista -draftfolder-flaggan"
-+msgstr "upphäver effekten av det senaste alternativet -draftfolder"
++msgstr "upphäver effekten av den senaste flaggan -draftfolder"
  
  #: mh/whatnow.c:46
  msgid "set the prompt"
@@ -6826,7 +6808,7 @@
  #, c-format
  msgid "unrecognized option: %s"
 -msgstr "oigenkänd flagga: %s"
-+msgstr "oigenkänt alternativ: %s"
++msgstr "oigenkänt flaggor: %s"
  
  #: mu/libexec/imap.c:1128
  msgid "no matches"

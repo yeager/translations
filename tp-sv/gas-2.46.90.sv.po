@@ -120,7 +120,7 @@ msgid ""
 "                      \t  s      include symbols\n"
 "                      \t  =FILE  list to FILE (must be last sub-option)\n"
 msgstr ""
-"Alternativ:\n"
+"Flaggor:\n"
 "  -a[underalternativ …]\t  aktivera listningar\n"
 "                      \t  Underalternativ [standard hls]:\n"
 "                      \t  c      utelämna falska villkor\n"
@@ -679,7 +679,7 @@ msgstr "Ogiltig --elf-stt-common=-flagga: ”%s”"
 #, fuzzy, c-format
 #| msgid "invalid -mrelax-relocations= option: `%s'"
 msgid "Invalid --reloc-section-sym= option: `%s'"
-msgstr "Ogiltigt --reloc-section-sym-alternativ: ”%s”"
+msgstr "Ogiltigt --reloc-section-sym-flagga: ”%s”"
 
 #: as.c:1070
 #, c-format
@@ -689,7 +689,7 @@ msgstr "Ogiltig --generate-missing-build-notes-flagga: ”%s”"
 #: as.c:1082
 #, c-format
 msgid "Invalid --gsframe option: `%s'"
-msgstr "Ogiltigt --gsframe-alternativ: ”%s”"
+msgstr "Ogiltigt --gsframe-flagga: ”%s”"
 
 #: as.c:1163
 #, c-format
@@ -3171,7 +3171,7 @@ msgid ""
 "-m21064 | -m21066 | -m21164 | -m21164a | -m21164pc | -m21264 | -m21264a | -m21264b\n"
 "\t\t\tthese variants include PALcode opcodes\n"
 msgstr ""
-"Alpha-alternativ:\n"
+"Alpha-flaggor:\n"
 "-32addr\t\t\tbehandla adresser som 32-bitarsvärden\n"
 "-F\t\t\tsaknar stöd för flyttalsinstruktioner\n"
 "-mev4 | -mev45 | -mev5 | -mev56 | -mpca56 | -mev6 | -mev67 | -mev68 | -mall\n"
@@ -6432,7 +6432,7 @@ msgid ""
 "BPF options:\n"
 msgstr ""
 "\n"
-"BPF-alternativ:\n"
+"BPF-flaggor:\n"
 
 #: config/tc-bpf.c:230
 #, c-format
@@ -6444,7 +6444,7 @@ msgid ""
 "  -misa-spec                  set the BPF ISA spec (v1, v2, v3, v4, xbpf)\n"
 "  -mxbpf                      alias for -misa-spec=xbpf\n"
 msgstr ""
-"BPF-alternativ:\n"
+"BPF-flaggor:\n"
 "  -EL                         generera kod för little-endian-maskin\n"
 "  -EB                         generera kod för big-endian-maskin\n"
 "  -mdialect=DIALEKT           ange assemblerdialekt (normal, pseudoc)\n"
@@ -6897,7 +6897,7 @@ msgstr "Värdet ligger inte i osignerat 6-bitarsintervall: %ld"
 #: config/tc-cris.c:3804
 #, c-format
 msgid "Please use --help to see usage and options for this assembler.\n"
-msgstr "Använd --help för att se användning och alternativ för assemblern.\n"
+msgstr "Använd --help för att se användning och flaggor för assemblern.\n"
 
 #: config/tc-cris.c:3816
 msgid "--no-underscore is invalid with a.out format"
@@ -7514,7 +7514,7 @@ msgid ""
 "-C                      Opposite of -C.  -c is the default.\n"
 msgstr ""
 "\n"
-"D30V-alternativ:\n"
+"D30V-flaggor:\n"
 "-O                      Gör intilliggande korta instruktioner parallella om möjligt.\n"
 "-n                      Varna för alla NOP:ar som infogas av assemblern.\n"
 "-N                      Varna för NOP:ar som infogas efter "
@@ -8107,7 +8107,7 @@ msgstr "ogiltig operand i stm"
 #: config/tc-h8300.c:2185
 #, c-format
 msgid "Invalid argument to --mach option: %s"
-msgstr "Ogiltigt argument till alternativet --mach: %s"
+msgstr "Ogiltigt argument till flaggan --mach: %s"
 
 #: config/tc-h8300.c:2196
 #, c-format
@@ -9750,17 +9750,17 @@ msgstr "ogiltig -mfence-as-lock-add=-flagga: ”%s”"
 #: config/tc-i386.c:17737
 #, c-format
 msgid "invalid -mlfence-after-load= option: `%s'"
-msgstr "ogiltigt alternativ -mlfence-after-load=: ”%s”"
+msgstr "ogiltig flagga -mlfence-after-load=: ”%s”"
 
 #: config/tc-i386.c:17754
 #, c-format
 msgid "invalid -mlfence-before-indirect-branch= option: `%s'"
-msgstr "ogiltigt alternativ -mlfence-before-indirect-branch=: ”%s”"
+msgstr "ogiltig flagga -mlfence-before-indirect-branch=: ”%s”"
 
 #: config/tc-i386.c:17768
 #, c-format
 msgid "invalid -mlfence-before-ret= option: `%s'"
-msgstr "ogiltigt alternativ -mlfence-before-ret=: ”%s”"
+msgstr "ogiltig flagga -mlfence-before-ret=: ”%s”"
 
 #: config/tc-i386.c:17778
 #, c-format
@@ -9785,7 +9785,7 @@ msgstr "ogiltig -malign-branch=-flagga: ”%s”"
 #: config/tc-i386.c:17897
 #, c-format
 msgid "invalid -mtls-check= option: `%s'"
-msgstr "ogiltigt alternativ -mtls-check=: ”%s”"
+msgstr "ogiltig flagga -mtls-check=: ”%s”"
 
 #: config/tc-i386.c:18023
 #, c-format
@@ -11285,10 +11285,9 @@ msgid ""
 msgstr ""
 "  -mthin-add-sub\t  Konvertera ett par R_LARCH_ADD32/64 och R_LARCH_SUB32/64 till\n"
 "\t\t\t  R_LARCH_32/64_PCREL så långt som möjligt\n"
-"\t\t\t  Alternativet påverkar inte genereringen av R_LARCH_32_PCREL-\n"
+"\t\t\t  Flaggan påverkar inte genereringen av R_LARCH_32_PCREL-\n"
 "\t\t\t  omlokaliseringar i .eh_frame\n"
-"  -mignore-start-align\t  Ignorera .align i början av en sektion. "
-"Alternativet\n"
+"  -mignore-start-align\t  Ignorera .align i början av en sektion. Flaggan\n"
 "\t\t\t  kan inte användas vid partiell länkning (ld -r).\n"
 
 #: config/tc-loongarch.c:2211

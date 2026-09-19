@@ -87,14 +87,12 @@
  
  #: as.c:239
  #, c-format
-@@ -120,24 +120,26 @@
- "                      \t  s      include symbols\n"
+@@ -121,23 +121,25 @@
  "                      \t  =FILE  list to FILE (must be last sub-option)\n"
  msgstr ""
--"Flaggor:\n"
+ "Flaggor:\n"
 -"  -a[underflagga..]\t  aktivera listningar\n"
 -"                      \t  Underflaggor [standard hls]:\n"
-+"Alternativ:\n"
 +"  -a[underalternativ …]\t  aktivera listningar\n"
 +"                      \t  Underalternativ [standard hls]:\n"
  "                      \t  c      utelämna falska villkor\n"
@@ -388,7 +386,7 @@
  #| msgid "invalid -mrelax-relocations= option: `%s'"
  msgid "Invalid --reloc-section-sym= option: `%s'"
 -msgstr "ogiltig -mrelax-relocations=-flagga: ”%s”"
-+msgstr "Ogiltigt --reloc-section-sym-alternativ: ”%s”"
++msgstr "Ogiltigt --reloc-section-sym-flagga: ”%s”"
  
  #: as.c:1070
  #, c-format
@@ -397,7 +395,7 @@
  #, c-format
  msgid "Invalid --gsframe option: `%s'"
 -msgstr "Ogiltigt flagga --gsframe: `%s'"
-+msgstr "Ogiltigt --gsframe-alternativ: ”%s”"
++msgstr "Ogiltigt --gsframe-flagga: ”%s”"
  
  #: as.c:1163
  #, c-format
@@ -2344,14 +2342,12 @@
  
  #: config/tc-alpha.c:5528 config/tc-arc.c:2529 config/tc-arc.c:2543
  #: config/tc-arm.c:888 config/tc-xtensa.c:5474 config/tc-xtensa.c:5550
-@@ -3152,13 +3171,13 @@
- "-m21064 | -m21066 | -m21164 | -m21164a | -m21164pc | -m21264 | -m21264a | -m21264b\n"
+@@ -3153,12 +3172,12 @@
  "\t\t\tthese variants include PALcode opcodes\n"
  msgstr ""
--"Alpha-flaggor:\n"
+ "Alpha-flaggor:\n"
 -"-32addr\t\t\tbehandla adresse som 32-bitarsvärden\n"
 -"-F\t\t\tavstå från stöd för flyttalsinstruktioner\n"
-+"Alpha-alternativ:\n"
 +"-32addr\t\t\tbehandla adresser som 32-bitarsvärden\n"
 +"-F\t\t\tsaknar stöd för flyttalsinstruktioner\n"
  "-mev4 | -mev45 | -mev5 | -mev56 | -mpca56 | -mev6 | -mev67 | -mev68 | -mall\n"
@@ -5016,25 +5012,14 @@
  
  #: config/tc-bpf.c:209
  #, c-format
-@@ -6398,7 +6432,7 @@
- "BPF options:\n"
- msgstr ""
- "\n"
--"BPF-flaggor:\n"
-+"BPF-alternativ:\n"
- 
- #: config/tc-bpf.c:230
- #, c-format
-@@ -6410,44 +6444,45 @@
- "  -misa-spec                  set the BPF ISA spec (v1, v2, v3, v4, xbpf)\n"
+@@ -6411,43 +6445,44 @@
  "  -mxbpf                      alias for -misa-spec=xbpf\n"
  msgstr ""
--"BPF-flaggor:\n"
+ "BPF-flaggor:\n"
 -"  -EL                         generera kod för en little endian-maskin\n"
 -"  -EB                         generera kod för en big endian-maskin\n"
 -"  -mdialect=DIALEKT           ställ in assemblerdialekten (normal, pseudoc)\n"
 -"  -misa-spec                  ställer in BPF ISA-specifikationen (v1, v2, v3, v4, xbpf)\n"
-+"BPF-alternativ:\n"
 +"  -EL                         generera kod för little-endian-maskin\n"
 +"  -EB                         generera kod för big-endian-maskin\n"
 +"  -mdialect=DIALEKT           ange assemblerdialekt (normal, pseudoc)\n"
@@ -5462,7 +5447,7 @@
  #, c-format
  msgid "Please use --help to see usage and options for this assembler.\n"
 -msgstr "Använd --help för att se användning och flaggor för denna assembler.\n"
-+msgstr "Använd --help för att se användning och alternativ för assemblern.\n"
++msgstr "Använd --help för att se användning och flaggor för assemblern.\n"
  
  #: config/tc-cris.c:3816
  msgid "--no-underscore is invalid with a.out format"
@@ -5805,12 +5790,9 @@
  
  #: config/tc-d30v.c:238
  #, c-format
-@@ -7474,12 +7514,13 @@
- "-C                      Opposite of -C.  -c is the default.\n"
- msgstr ""
+@@ -7476,10 +7516,11 @@
  "\n"
--"D30V-flaggor:\n"
-+"D30V-alternativ:\n"
+ "D30V-flaggor:\n"
  "-O                      Gör intilliggande korta instruktioner parallella om möjligt.\n"
 -"-n                      Varna om alla NOP:ar som infogas av assemblern.\n"
 -"-N                      Varna om NOP:ar som infogats efter multipler av ord.\n"
@@ -6300,7 +6282,7 @@
  #, c-format
  msgid "Invalid argument to --mach option: %s"
 -msgstr "Ogiltigt argument till --mach-flagga: %s"
-+msgstr "Ogiltigt argument till alternativet --mach: %s"
++msgstr "Ogiltigt argument till flaggan --mach: %s"
  
  #: config/tc-h8300.c:2196
  #, c-format
@@ -7517,19 +7499,19 @@
  #, c-format
  msgid "invalid -mlfence-after-load= option: `%s'"
 -msgstr "ogiltig flagga -mlfence-after-load=: `%s'"
-+msgstr "ogiltigt alternativ -mlfence-after-load=: ”%s”"
++msgstr "ogiltig flagga -mlfence-after-load=: ”%s”"
  
  #: config/tc-i386.c:17754
  #, c-format
  msgid "invalid -mlfence-before-indirect-branch= option: `%s'"
 -msgstr "ogiltig flagga -mlfence-before-indirect-branch=: `%s'"
-+msgstr "ogiltigt alternativ -mlfence-before-indirect-branch=: ”%s”"
++msgstr "ogiltig flagga -mlfence-before-indirect-branch=: ”%s”"
  
  #: config/tc-i386.c:17768
  #, c-format
  msgid "invalid -mlfence-before-ret= option: `%s'"
 -msgstr "ogiltig flagga för -mlfence-before-ret=: `%s'"
-+msgstr "ogiltigt alternativ -mlfence-before-ret=: ”%s”"
++msgstr "ogiltig flagga -mlfence-before-ret=: ”%s”"
  
  #: config/tc-i386.c:17778
  #, c-format
@@ -7553,7 +7535,7 @@
  #, c-format
  msgid "invalid -mtls-check= option: `%s'"
 -msgstr "ogiltig flagga -mtls-check=: `%s'"
-+msgstr "ogiltigt alternativ -mtls-check=: ”%s”"
++msgstr "ogiltig flagga -mtls-check=: ”%s”"
  
  #: config/tc-i386.c:18023
  #, c-format
@@ -8506,22 +8488,20 @@
  
  #: config/tc-loongarch.c:2144
  #, c-format
-@@ -11225,10 +11284,11 @@
+@@ -11225,10 +11284,10 @@
  "\t\t\t  can't be used when partial linking (ld -r).\n"
  msgstr ""
  "  -mthin-add-sub\t  Konvertera ett par R_LARCH_ADD32/64 och R_LARCH_SUB32/64 till\n"
 -"\t\t\t  R_LARCH_32/64_PCREL så mycket som möjligt\n"
--"\t\t\t  Flaggan påverkar inte genereringen av R_LARCH_32_PCREL-\n"
 +"\t\t\t  R_LARCH_32/64_PCREL så långt som möjligt\n"
-+"\t\t\t  Alternativet påverkar inte genereringen av R_LARCH_32_PCREL-\n"
+ "\t\t\t  Flaggan påverkar inte genereringen av R_LARCH_32_PCREL-\n"
  "\t\t\t  omlokaliseringar i .eh_frame\n"
 -"  -mignore-start-align\t  Ignorera .align om det finns i början av ett avsnitt. Denna flagga\n"
-+"  -mignore-start-align\t  Ignorera .align i början av en sektion. "
-+"Alternativet\n"
++"  -mignore-start-align\t  Ignorera .align i början av en sektion. Flaggan\n"
  "\t\t\t  kan inte användas vid partiell länkning (ld -r).\n"
  
  #: config/tc-loongarch.c:2211
-@@ -11257,17 +11317,18 @@
+@@ -11257,17 +11316,18 @@
  #: config/tc-m32r.c:374
  #, c-format
  msgid "  -m32r                   disable support for the m32rx instruction set\n"
@@ -8543,7 +8523,7 @@
  
  #: config/tc-m32r.c:380
  #, c-format
-@@ -11332,22 +11393,24 @@
+@@ -11332,22 +11392,24 @@
  #: config/tc-m32r.c:405
  #, c-format
  msgid "  -ignore-parallel-conflicts            do not check parallel instructions\n"
@@ -8572,7 +8552,7 @@
  
  #: config/tc-m32r.c:413
  #, c-format
-@@ -11362,12 +11425,13 @@
+@@ -11362,12 +11424,13 @@
  #: config/tc-m32r.c:418
  #, c-format
  msgid "  -warn-unmatched-high    warn when an (s)high reloc has no matching low reloc\n"
@@ -8588,7 +8568,7 @@
  
  #: config/tc-m32r.c:422
  #, c-format
-@@ -11390,11 +11454,11 @@
+@@ -11390,11 +11453,11 @@
  
  #: config/tc-m32r.c:855
  msgid "Instructions do not use parallel execution pipelines."
@@ -8602,7 +8582,7 @@
  
  #: config/tc-m32r.c:928 config/tc-m32r.c:1042
  #, c-format
-@@ -11433,21 +11497,23 @@
+@@ -11433,21 +11496,23 @@
  #: config/tc-m32r.c:1122
  #, c-format
  msgid "%s: output of 1st instruction is the same as an input to 2nd instruction - is this intentional ?"
@@ -8630,7 +8610,7 @@
  
  #: config/tc-m32r.c:1513 config/tc-microblaze.c:197 config/tc-ppc.c:2395
  #: config/tc-ppc.c:4339 config/tc-ppc.c:4394
-@@ -11456,7 +11522,7 @@
+@@ -11456,7 +11521,7 @@
  
  #: config/tc-m32r.c:1525 config/tc-microblaze.c:232 config/tc-v850.c:374
  msgid "Common alignment not a power of 2"
@@ -8639,7 +8619,7 @@
  
  #: config/tc-m32r.c:1540 config/tc-microblaze.c:208
  #, c-format
-@@ -11466,7 +11532,7 @@
+@@ -11466,7 +11531,7 @@
  #: config/tc-m32r.c:1549
  #, c-format
  msgid "Length of .scomm \"%s\" is already %ld. Not changed to %ld."
@@ -8648,7 +8628,7 @@
  
  #: config/tc-m32r.c:1925 config/tc-m32r.c:1978 config/tc-nds32.c:4786
  #: config/tc-nds32.c:4830 config/tc-sh.c:391 config/tc-sh.c:2048
-@@ -11475,7 +11541,7 @@
+@@ -11475,7 +11540,7 @@
  
  #: config/tc-m32r.c:2069
  msgid "Unmatched high/shigh reloc"
@@ -8657,7 +8637,7 @@
  
  #: config/tc-m68hc11.c:415
  #, c-format
-@@ -11502,19 +11568,19 @@
+@@ -11502,19 +11567,19 @@
  "Motorola 68HC11/68HC12/68HCS12-flaggor:\n"
  "  -m68hc11 | -m68hc12 |\n"
  "  -m68hcs12 | -mm9s12x |\n"
@@ -8688,7 +8668,7 @@
  "  --generate-example      generera ett exempel för varje instruktion\n"
  "                          (används för testning)\n"
  
-@@ -11527,7 +11593,7 @@
+@@ -11527,7 +11592,7 @@
  #: config/tc-m68hc11.c:481
  #, c-format
  msgid "Name   # Modes  Min ops  Max ops  Modes mask  # Used\n"
@@ -8697,7 +8677,7 @@
  
  #: config/tc-m68hc11.c:560
  #, c-format
-@@ -11619,15 +11685,15 @@
+@@ -11619,15 +11684,15 @@
  
  #: config/tc-m68hc11.c:1235
  msgid "Spurious `,' or bad indirect register addressing mode."
@@ -8716,7 +8696,7 @@
  
  #: config/tc-m68hc11.c:1283
  msgid "Missing `]' to close indexed-indirect mode."
-@@ -11663,7 +11729,7 @@
+@@ -11663,7 +11728,7 @@
  
  #: config/tc-m68hc11.c:1435
  msgid "Post-increment mode is not valid for 68HC11."
@@ -8725,7 +8705,7 @@
  
  #: config/tc-m68hc11.c:1453
  msgid "Invalid indexed indirect mode."
-@@ -11676,7 +11742,7 @@
+@@ -11676,7 +11741,7 @@
  
  #: config/tc-m68hc11.c:1582
  msgid "Trap id must be within [0x30..0x39] or [0x40..0xff]."
@@ -8734,7 +8714,7 @@
  
  #: config/tc-m68hc11.c:1589 config/tc-m68hc11.c:1741
  #, c-format
-@@ -11710,7 +11776,7 @@
+@@ -11710,7 +11775,7 @@
  #: config/tc-m68hc11.c:1887 config/tc-m68hc11.c:2018
  #, c-format
  msgid "Operand out of range for a relative branch: `%ld'"
@@ -8743,7 +8723,7 @@
  
  #: config/tc-m68hc11.c:1986
  msgid "Invalid register for dbcc/tbcc instruction."
-@@ -11719,7 +11785,7 @@
+@@ -11719,7 +11784,7 @@
  #: config/tc-m68hc11.c:2074
  #, c-format
  msgid "Increment/decrement value is out of range: `%ld'."
@@ -8752,7 +8732,7 @@
  
  #: config/tc-m68hc11.c:2086
  msgid "Expecting a register."
-@@ -11731,7 +11797,7 @@
+@@ -11731,7 +11796,7 @@
  
  #: config/tc-m68hc11.c:2131
  msgid "Invalid register."
@@ -8761,7 +8741,7 @@
  
  #: config/tc-m68hc11.c:2138
  #, c-format
-@@ -11749,11 +11815,11 @@
+@@ -11749,11 +11814,11 @@
  
  #: config/tc-m68hc11.c:2271
  msgid "Indexed indirect mode is not allowed for movb/movw."
@@ -8775,7 +8755,7 @@
  
  #: config/tc-m68hc11.c:2314
  msgid "Invalid indexed register."
-@@ -11761,7 +11827,7 @@
+@@ -11761,7 +11826,7 @@
  
  #: config/tc-m68hc11.c:2324
  msgid "Addressing mode not implemented yet."
@@ -8784,7 +8764,7 @@
  
  #: config/tc-m68hc11.c:2338
  msgid "Invalid source register for this instruction, use 'tfr'."
-@@ -11781,11 +11847,11 @@
+@@ -11781,11 +11846,11 @@
  
  #: config/tc-m68hc11.c:2522
  msgid "Invalid indexed register, expecting register X."
@@ -8798,7 +8778,7 @@
  
  #: config/tc-m68hc11.c:2843 config/tc-s12z.c:3802
  msgid "No instruction or missing opcode."
-@@ -11804,7 +11870,7 @@
+@@ -11804,7 +11869,7 @@
  #: config/tc-m68hc11.c:3439
  #, c-format
  msgid "Failed to find a valid mode for `%s'."
@@ -8807,7 +8787,7 @@
  
  #: config/tc-m68hc11.c:3463 config/tc-m68hc11.c:3680 config/tc-m68hc11.c:3686
  #, c-format
-@@ -11823,7 +11889,7 @@
+@@ -11823,7 +11888,7 @@
  #: config/tc-m68hc11.c:3841 config/tc-s12z.c:3895 config/tc-xgate.c:627
  #, c-format
  msgid "Relocation %d is not supported by object file format."
@@ -8816,7 +8796,7 @@
  
  #: config/tc-m68hc11.c:4118
  msgid "bra or bsr with undefined symbol."
-@@ -11852,12 +11918,12 @@
+@@ -11852,12 +11917,12 @@
  #: config/tc-m68hc11.c:4406 config/tc-xgate.c:688
  #, c-format
  msgid "Value %ld too large for 10-bit PC-relative branch."
@@ -8831,7 +8811,7 @@
  
  #: config/tc-m68hc11.c:4427
  #, c-format
-@@ -11906,12 +11972,12 @@
+@@ -11906,12 +11971,12 @@
  #: config/tc-m68k.c:1202
  #, c-format
  msgid "Unable to produce reloc against symbol '%s'"
@@ -8846,7 +8826,7 @@
  
  #: config/tc-m68k.c:1343 config/tc-vax.c:1872
  msgid "No operator"
-@@ -11923,7 +11989,7 @@
+@@ -11923,7 +11988,7 @@
  
  #: config/tc-m68k.c:2276
  msgid "invalid instruction for this architecture; needs "
@@ -8855,7 +8835,7 @@
  
  #: config/tc-m68k.c:2284
  msgid "hardware divide"
-@@ -11935,7 +12001,7 @@
+@@ -11935,7 +12000,7 @@
  
  #: config/tc-m68k.c:2367
  msgid "operands mismatch"
@@ -8864,7 +8844,7 @@
  
  #: config/tc-m68k.c:2431 config/tc-m68k.c:2437 config/tc-m68k.c:2443
  #: config/tc-mmix.c:2498 config/tc-mmix.c:2522
-@@ -11945,7 +12011,7 @@
+@@ -11945,7 +12010,7 @@
  #: config/tc-m68k.c:2500
  #, c-format
  msgid "Bignum too big for %c format; truncated"
@@ -8873,7 +8853,7 @@
  
  #: config/tc-m68k.c:2577
  msgid "displacement too large for this architecture; needs 68020 or higher"
-@@ -12014,7 +12080,7 @@
+@@ -12014,7 +12079,7 @@
  
  #: config/tc-m68k.c:3820 config/tc-m68k.c:3852 config/tc-sparc.c:3147
  msgid "failed sanity check."
@@ -8882,7 +8862,7 @@
  
  #. ERROR.
  #: config/tc-m68k.c:3882
-@@ -12043,17 +12109,17 @@
+@@ -12043,17 +12108,17 @@
  #: config/tc-m68k.c:4336
  #, c-format
  msgid "Don't know how to figure out width of %c in md_assemble()"
@@ -8903,7 +8883,7 @@
  
  #: config/tc-m68k.c:4879
  #, c-format
-@@ -12062,31 +12128,31 @@
+@@ -12062,31 +12127,31 @@
  
  #: config/tc-m68k.c:4893
  msgid "invalid byte branch offset"
@@ -8942,7 +8922,7 @@
  
  #: config/tc-m68k.c:5352 config/tc-m68k.c:5363 config/tc-m68k.c:5407
  msgid "expression out of range: defaulting to 1"
-@@ -12099,7 +12165,7 @@
+@@ -12099,7 +12164,7 @@
  #: config/tc-m68k.c:5440 config/tc-m68k.c:5452
  #, c-format
  msgid "Can't deal with expression; defaulting to %ld"
@@ -8951,7 +8931,7 @@
  
  #: config/tc-m68k.c:5466
  msgid "expression doesn't fit in BYTE"
-@@ -12134,7 +12200,7 @@
+@@ -12134,7 +12199,7 @@
  
  #: config/tc-m68k.c:5786
  msgid "bad format of OPT NEST=depth"
@@ -8960,7 +8940,7 @@
  
  #: config/tc-m68k.c:5842
  msgid "missing label"
-@@ -12151,16 +12217,16 @@
+@@ -12151,16 +12216,16 @@
  
  #: config/tc-m68k.c:6119 config/tc-m68k.c:6488
  msgid "syntax error in structured control directive"
@@ -8980,7 +8960,7 @@
  
  #: config/tc-m68k.c:6529
  msgid "missing then"
-@@ -12237,7 +12303,7 @@
+@@ -12237,7 +12302,7 @@
  
  #: config/tc-m68k.c:7478
  msgid "architecture features both enabled and disabled"
@@ -8989,7 +8969,7 @@
  
  #: config/tc-m68k.c:7505
  msgid "selected processor does not have all features of selected architecture"
-@@ -12249,7 +12315,7 @@
+@@ -12249,7 +12314,7 @@
  
  #: config/tc-m68k.c:7526
  msgid "68040 and 68851 specified; mmu instructions may assemble incorrectly"
@@ -8998,7 +8978,7 @@
  
  #: config/tc-m68k.c:7558
  #, c-format
-@@ -12258,12 +12324,12 @@
+@@ -12258,12 +12323,12 @@
  "-mcpu=<cpu>\t\tset cpu [default %s]\n"
  msgstr ""
  "-march=<ark>\t\tställ in arkitektur\n"
@@ -9013,7 +8993,7 @@
  
  #: config/tc-m68k.c:7569
  #, c-format
-@@ -12280,15 +12346,16 @@
+@@ -12280,15 +12345,16 @@
  "--disp-size-default-16\tdisplacement with unknown size is 16 bits\n"
  "--disp-size-default-32\tdisplacement with unknown size is 32 bits (default)\n"
  msgstr ""
@@ -9036,7 +9016,7 @@
  "--disp-size-default-16\tförskjutning med okänd storlek är 16 bitar\n"
  "--disp-size-default-32\tförskjutning med okänd storlek är 32 bitar (standard)\n"
  
-@@ -12335,18 +12402,19 @@
+@@ -12335,18 +12401,19 @@
  #: config/tc-m68k.c:7974
  #, c-format
  msgid "Adjusted signed .word (%#lx) overflows: `switch'-statement too large."
@@ -9059,7 +9039,7 @@
  
  #: config/tc-mcore.c:639
  msgid "bad/missing psr specifier"
-@@ -12355,7 +12423,7 @@
+@@ -12355,7 +12422,7 @@
  #: config/tc-mcore.c:784
  #, c-format
  msgid "operand must be absolute in range %u..%u, not %ld"
@@ -9068,7 +9048,7 @@
  
  #: config/tc-mcore.c:819
  msgid "operand must be a multiple of 4"
-@@ -12363,7 +12431,7 @@
+@@ -12363,7 +12430,7 @@
  
  #: config/tc-mcore.c:826
  msgid "operand must be a multiple of 2"
@@ -9077,7 +9057,7 @@
  
  #: config/tc-mcore.c:840 config/tc-mcore.c:1356 config/tc-mcore.c:1410
  msgid "base register expected"
-@@ -12383,7 +12451,7 @@
+@@ -12383,7 +12450,7 @@
  
  #: config/tc-mcore.c:980 config/tc-mcore.c:1561
  msgid "M340 specific opcode used when assembling for M210"
@@ -9086,7 +9066,7 @@
  
  #: config/tc-mcore.c:998 config/tc-mcore.c:1038 config/tc-mcore.c:1057
  #: config/tc-mcore.c:1076 config/tc-mcore.c:1104 config/tc-mcore.c:1133
-@@ -12396,7 +12464,7 @@
+@@ -12396,7 +12463,7 @@
  
  #: config/tc-mcore.c:1014
  msgid "destination register must be r1"
@@ -9095,7 +9075,7 @@
  
  #: config/tc-mcore.c:1035
  msgid "source register must be r1"
-@@ -12404,7 +12472,7 @@
+@@ -12404,7 +12471,7 @@
  
  #: config/tc-mcore.c:1099 config/tc-mcore.c:1156
  msgid "immediate is not a power of two"
@@ -9104,7 +9084,7 @@
  
  #: config/tc-mcore.c:1127
  msgid "translating bgeni to movi"
-@@ -12421,11 +12489,11 @@
+@@ -12421,11 +12488,11 @@
  
  #: config/tc-mcore.c:1286
  msgid "Invalid register: r0 and r15 illegal"
@@ -9118,7 +9098,7 @@
  
  #: config/tc-mcore.c:1330
  msgid "ending register must be r15"
-@@ -12433,15 +12501,15 @@
+@@ -12433,15 +12500,15 @@
  
  #: config/tc-mcore.c:1350
  msgid "bad base register: must be r0"
@@ -9137,7 +9117,7 @@
  
  #: config/tc-mcore.c:1416
  msgid "reg-reg expected"
-@@ -12449,7 +12517,7 @@
+@@ -12449,7 +12516,7 @@
  
  #: config/tc-mcore.c:1548
  msgid "zero used as immediate value"
@@ -9146,7 +9126,7 @@
  
  #: config/tc-mcore.c:1575
  msgid "duplicated psr bit specifier"
-@@ -12467,7 +12535,7 @@
+@@ -12467,7 +12534,7 @@
  #: config/tc-mcore.c:1597 config/tc-microblaze.c:1806
  #, c-format
  msgid "ignoring operands: %s "
@@ -9155,7 +9135,7 @@
  
  #: config/tc-mcore.c:1673
  #, c-format
-@@ -12485,8 +12553,8 @@
+@@ -12485,8 +12552,8 @@
  "  -EL                     assemble for a little endian system\n"
  msgstr ""
  "MCORE-specifika flaggor:\n"
@@ -9166,7 +9146,7 @@
  "  -cpu=[210|340]          välj CPU-typ\n"
  "  -EB                     assemblera för ett system med rak byteordning (standard)\n"
  "  -EL                     assemblera för ett system med omvänd byteordning\n"
-@@ -12502,29 +12570,29 @@
+@@ -12502,29 +12569,29 @@
  #: config/tc-mcore.c:1745
  #, c-format
  msgid "odd displacement at %x"
@@ -9202,7 +9182,7 @@
  
  #: config/tc-mcore.c:2189 config/tc-microblaze.c:2515 config/tc-tic30.c:1364
  #, c-format
-@@ -12553,22 +12621,25 @@
+@@ -12553,22 +12620,25 @@
  "  if only disabling -m options are given, only those are disabled.\n"
  msgstr ""
  "MeP-specifika kommandoradsflaggor:\n"
@@ -9236,7 +9216,7 @@
  
  #: config/tc-mep.c:415
  msgid "$mb0, $me0, $mb1, and $me1 are disabled when COP is off"
-@@ -12580,43 +12651,45 @@
+@@ -12580,43 +12650,45 @@
  
  #: config/tc-mep.c:611
  msgid "core and copro insn lengths must total 32 bits."
@@ -9291,7 +9271,7 @@
  
  #: config/tc-mep.c:1073
  #, c-format
-@@ -12636,7 +12709,7 @@
+@@ -12636,7 +12708,7 @@
  
  #: config/tc-mep.c:1362
  msgid "Leading plus sign not allowed in core mode"
@@ -9300,7 +9280,7 @@
  
  #: config/tc-mep.c:1892
  #, c-format
-@@ -12646,11 +12719,11 @@
+@@ -12646,11 +12718,11 @@
  #: config/tc-mep.c:1902
  #, c-format
  msgid "Perhaps you are missing %%tpoff()?"
@@ -9314,7 +9294,7 @@
  
  #: config/tc-metag.c:455
  msgid "no floating point unit specified"
-@@ -12663,7 +12736,7 @@
+@@ -12663,7 +12735,7 @@
  
  #: config/tc-metag.c:736 config/tc-metag.c:4441
  msgid "offset and base must be from the same unit"
@@ -9323,7 +9303,7 @@
  
  #: config/tc-metag.c:867 config/tc-metag.c:3166 config/tc-metag.c:3268
  msgid "invalid destination register"
-@@ -12693,7 +12766,7 @@
+@@ -12693,7 +12765,7 @@
  
  #: config/tc-metag.c:1064
  msgid "source and address units must not be shared for this addressing mode"
@@ -9332,7 +9312,7 @@
  
  #: config/tc-metag.c:1072 config/tc-metag.c:1675
  msgid "set can only use RD port as source"
-@@ -12730,7 +12803,7 @@
+@@ -12730,7 +12802,7 @@
  
  #: config/tc-metag.c:1356
  msgid "register list must be from the same unit"
@@ -9341,7 +9321,7 @@
  
  #: config/tc-metag.c:1379
  msgid "register list must not contain duplicates"
-@@ -12742,11 +12815,11 @@
+@@ -12742,11 +12814,11 @@
  
  #: config/tc-metag.c:1726
  msgid "invalid destination memory operand"
@@ -9355,7 +9335,7 @@
  
  #: config/tc-metag.c:1748
  #, c-format
-@@ -12755,7 +12828,7 @@
+@@ -12755,7 +12827,7 @@
  
  #: config/tc-metag.c:1755
  msgid "base and offset must be from the same unit"
@@ -9364,7 +9344,7 @@
  
  #: config/tc-metag.c:1763
  msgid "source and destination increment mode must agree"
-@@ -12805,7 +12878,7 @@
+@@ -12805,7 +12877,7 @@
  
  #: config/tc-metag.c:3553 config/tc-metag.c:3717 config/tc-metag.c:3985
  msgid "destination register should be even numbered"
@@ -9373,7 +9353,7 @@
  
  #: config/tc-metag.c:3625
  msgid "comparison must be with register or #0"
-@@ -12817,11 +12890,11 @@
+@@ -12817,11 +12889,11 @@
  
  #: config/tc-metag.c:3702
  msgid "zero flag is not valid for this instruction"
@@ -9387,7 +9367,7 @@
  
  #: config/tc-metag.c:3783 config/tc-metag.c:3792
  msgid "fraction bits value out of range"
-@@ -12833,12 +12906,12 @@
+@@ -12833,12 +12905,12 @@
  
  #: config/tc-metag.c:3992
  msgid "source registers should be even numbered"
@@ -9402,7 +9382,7 @@
  
  #: config/tc-metag.c:4388
  msgid "invalid register for memory access"
-@@ -12850,7 +12923,7 @@
+@@ -12850,7 +12922,7 @@
  
  #: config/tc-metag.c:4548
  msgid "'H' modifier only valid for accumulator registers"
@@ -9411,7 +9391,7 @@
  
  #: config/tc-metag.c:4601
  msgid "base unit must be either A0 or A1"
-@@ -12866,15 +12939,15 @@
+@@ -12866,15 +12938,15 @@
  
  #: config/tc-metag.c:4822
  msgid "could not parse template definition"
@@ -9430,7 +9410,7 @@
  
  #: config/tc-metag.c:5107
  msgid "missing flags: one of 'P', 'N' or 'Z' required"
-@@ -12886,7 +12959,7 @@
+@@ -12886,7 +12958,7 @@
  
  #: config/tc-metag.c:5156
  msgid "accumulator not a valid destination"
@@ -9439,7 +9419,7 @@
  
  #: config/tc-metag.c:5166 config/tc-metag.c:5382 config/tc-metag.c:5566
  msgid "invalid immediate value"
-@@ -12894,7 +12967,7 @@
+@@ -12894,7 +12966,7 @@
  
  #: config/tc-metag.c:5178
  msgid "immediate value not allowed when source & dest differ"
@@ -9448,7 +9428,7 @@
  
  #: config/tc-metag.c:5210
  #, c-format
-@@ -12927,7 +13000,7 @@
+@@ -12927,7 +12999,7 @@
  
  #: config/tc-metag.c:5410
  msgid "this instruction does not accept an immediate"
@@ -9457,7 +9437,7 @@
  
  #: config/tc-metag.c:5430
  msgid "invalid register operand #3"
-@@ -12959,7 +13032,7 @@
+@@ -12959,7 +13031,7 @@
  
  #: config/tc-metag.c:5724
  msgid "'L' modifier not valid for this instruction"
@@ -9466,7 +9446,7 @@
  
  #: config/tc-metag.c:5856
  #, c-format
-@@ -12992,7 +13065,7 @@
+@@ -12992,7 +13064,7 @@
  
  #: config/tc-metag.c:6037
  msgid "premature end of floating point prefix"
@@ -9475,7 +9455,7 @@
  
  #: config/tc-metag.c:6097
  msgid "unknown floating point prefix character"
-@@ -13006,12 +13079,12 @@
+@@ -13006,12 +13078,12 @@
  #: config/tc-metag.c:6507
  #, c-format
  msgid "instruction mnemonic too long: %s"
@@ -9490,7 +9470,7 @@
  
  #: config/tc-metag.c:6569
  #, c-format
-@@ -13031,12 +13104,12 @@
+@@ -13031,12 +13103,12 @@
  #: config/tc-metag.c:6627
  #, c-format
  msgid "cannot assemble DSP instruction, DSP option not set: %s"
@@ -9505,7 +9485,7 @@
  
  #: config/tc-metag.c:6729 config/tc-nds32.c:7348
  msgid "Bad call to md_atof()"
-@@ -13045,7 +13118,7 @@
+@@ -13045,7 +13117,7 @@
  #: config/tc-microblaze.c:216
  #, c-format
  msgid "Length of .lcomm \"%s\" is already %ld. Not changed to %ld."
@@ -9514,7 +9494,7 @@
  
  #: config/tc-microblaze.c:494 config/tc-microblaze.c:523
  #: config/tc-microblaze.c:560
-@@ -13060,7 +13133,7 @@
+@@ -13060,7 +13132,7 @@
  #: config/tc-microblaze.c:734
  #, c-format
  msgid "operand must be absolute in range %lx..%lx, not %lx"
@@ -9523,7 +9503,7 @@
  
  #: config/tc-microblaze.c:936 config/tc-microblaze.c:943
  #: config/tc-microblaze.c:950 config/tc-microblaze.c:983
-@@ -13099,7 +13172,7 @@
+@@ -13099,7 +13171,7 @@
  #: config/tc-microblaze.c:1586 config/tc-microblaze.c:1652
  #: config/tc-microblaze.c:1714
  msgid "Cannot use special register with this instruction"
@@ -9532,7 +9512,7 @@
  
  #: config/tc-microblaze.c:1010
  msgid "lmi pseudo instruction should not use a label in imm field"
-@@ -13107,16 +13180,16 @@
+@@ -13107,16 +13179,16 @@
  
  #: config/tc-microblaze.c:1012
  msgid "smi pseudo instruction should not use a label in imm field"
@@ -9552,7 +9532,7 @@
  
  #: config/tc-microblaze.c:1180
  msgid "Symbol used as immediate width value for bit field instruction"
-@@ -13128,12 +13201,12 @@
+@@ -13128,12 +13200,12 @@
  
  #: config/tc-microblaze.c:1198
  msgid "Symbol used as immediate shift value for bit field instruction"
@@ -9567,7 +9547,7 @@
  
  #: config/tc-microblaze.c:1215
  msgid "Width value + shift value must not be greater than 32"
-@@ -13141,7 +13214,7 @@
+@@ -13141,7 +13213,7 @@
  
  #: config/tc-microblaze.c:1327
  msgid "Symbol used as immediate value for msrset/msrclr instructions"
@@ -9576,7 +9556,7 @@
  
  #: config/tc-microblaze.c:1456 config/tc-microblaze.c:1509
  msgid "invalid value for special purpose register"
-@@ -13153,12 +13226,12 @@
+@@ -13153,12 +13225,12 @@
  
  #: config/tc-microblaze.c:1784
  msgid "Symbol used as immediate for mbar instruction"
@@ -9591,7 +9571,7 @@
  
  #: config/tc-microblaze.c:1864
  msgid "Bad call to MD_NTOF()"
-@@ -13167,26 +13240,28 @@
+@@ -13167,26 +13239,28 @@
  #: config/tc-microblaze.c:2131
  #, c-format
  msgid "pcrel for branch to %s too far (0x%x)"
@@ -9625,7 +9605,7 @@
  
  #: config/tc-microblaze.c:2379
  msgid "Incorrect fr_opcode value in frag.  Internal error....."
-@@ -13195,7 +13270,7 @@
+@@ -13195,7 +13269,7 @@
  #. We know the abs value: Should never happen.
  #: config/tc-microblaze.c:2386
  msgid "Absolute value in relaxation code.  Assembler error....."
@@ -9634,7 +9614,7 @@
  
  #. fprintf(stream, _("      MicroBlaze options:\n      -noSmall         Data in the comm and data sections do not go into the small data section\n"));
  #: config/tc-microblaze.c:2571
-@@ -13205,11 +13280,11 @@
+@@ -13205,11 +13279,11 @@
  
  #: config/tc-microblaze.c:2572
  msgid "assemble for a big endian cpu"
@@ -9648,7 +9628,7 @@
  
  #: config/tc-mips.c:2186
  #, c-format
-@@ -13219,7 +13294,7 @@
+@@ -13219,7 +13293,7 @@
  #: config/tc-mips.c:2189
  #, c-format
  msgid "the `%s' extension requires %s%d revision %d or greater"
@@ -9657,7 +9637,7 @@
  
  #: config/tc-mips.c:2198
  #, c-format
-@@ -13251,7 +13326,7 @@
+@@ -13251,7 +13325,7 @@
  #: config/tc-mips.c:3778
  #, c-format
  msgid "internal: bad mips opcode (mask error): %s %s"
@@ -9666,7 +9646,7 @@
  
  #: config/tc-mips.c:3805
  #, c-format
-@@ -13333,7 +13408,7 @@
+@@ -13333,7 +13407,7 @@
  
  #: config/tc-mips.c:4305
  msgid "`fp=xx' cannot be used with `singlefloat'"
@@ -9675,7 +9655,7 @@
  
  #: config/tc-mips.c:4309
  msgid "`fp=64' used with a 32-bit fpu"
-@@ -13345,7 +13420,7 @@
+@@ -13345,7 +13419,7 @@
  
  #: config/tc-mips.c:4318
  msgid "`fp=32' used with a 64-bit ABI"
@@ -9684,7 +9664,7 @@
  
  #: config/tc-mips.c:4320
  msgid "`fp=32' used with a MIPS R6 cpu"
-@@ -13441,7 +13516,7 @@
+@@ -13441,7 +13515,7 @@
  
  #: config/tc-mips.c:6204
  msgid "invalid element selector"
@@ -9693,7 +9673,7 @@
  
  #: config/tc-mips.c:6217
  #, c-format
-@@ -13459,12 +13534,12 @@
+@@ -13459,12 +13533,12 @@
  
  #: config/tc-mips.c:6644
  msgid "used $at without \".set noat\""
@@ -9708,7 +9688,7 @@
  
  #: config/tc-mips.c:7825
  #, c-format
-@@ -13487,7 +13562,7 @@
+@@ -13487,7 +13561,7 @@
  #: config/tc-mips.c:9462
  #, c-format
  msgid "branch address range overflow (0x%lx)"
@@ -9717,7 +9697,7 @@
  
  #: config/tc-mips.c:8155
  msgid "extended instruction in delay slot"
-@@ -13533,19 +13608,22 @@
+@@ -13533,19 +13607,22 @@
  
  #: config/tc-mips.c:9187 config/tc-mips.c:19392
  msgid "macro instruction expanded into multiple instructions in a branch delay slot"
@@ -9744,7 +9724,7 @@
  
  #: config/tc-mips.c:9659
  msgid "operand overflow"
-@@ -13587,11 +13665,11 @@
+@@ -13587,11 +13664,11 @@
  
  #: config/tc-mips.c:11302
  msgid "dla used to load 32-bit register; recommend using la instead"
@@ -9758,7 +9738,7 @@
  
  #: config/tc-mips.c:11415 config/tc-riscv.c:2440
  msgid "offset too large"
-@@ -13626,7 +13704,7 @@
+@@ -13626,7 +13703,7 @@
  #: config/tc-mips.c:13132
  #, c-format
  msgid "Unable to generate `%s' compliant code without mthc1"
@@ -9767,7 +9747,7 @@
  
  #: config/tc-mips.c:13873
  #, c-format
-@@ -13643,7 +13721,7 @@
+@@ -13643,7 +13720,7 @@
  #: config/tc-mips.c:14315
  #, c-format
  msgid "macro %s not implemented yet"
@@ -9776,7 +9756,7 @@
  
  #: config/tc-mips.c:14838
  msgid "extended operand requested but not required"
-@@ -13669,7 +13747,7 @@
+@@ -13669,7 +13746,7 @@
  
  #: config/tc-mips.c:15252
  msgid "-mmicromips cannot be used with -mips16"
@@ -9785,7 +9765,7 @@
  
  #: config/tc-mips.c:15267
  msgid "-mips16 cannot be used with -micromips"
-@@ -13677,7 +13755,7 @@
+@@ -13677,7 +13754,7 @@
  
  #: config/tc-mips.c:15436 config/tc-mips.c:15494
  msgid "no compiled in support for 64 bit object file format"
@@ -9794,7 +9774,7 @@
  
  #: config/tc-mips.c:15501
  #, c-format
-@@ -13808,7 +13886,7 @@
+@@ -13808,7 +13885,7 @@
  #: config/tc-mips.c:17060
  #, c-format
  msgid "unknown ISA or architecture %s"
@@ -9803,7 +9783,7 @@
  
  #: config/tc-mips.c:17119
  msgid "`noreorder' must be set before `nomacro'"
-@@ -13821,16 +13899,16 @@
+@@ -13821,16 +13898,16 @@
  #: config/tc-mips.c:17168
  #, c-format
  msgid "tried to set unrecognized symbol: %s\n"
@@ -9823,7 +9803,7 @@
  
  #: config/tc-mips.c:17307 config/tc-mips.c:17386 config/tc-mips.c:17488
  #: config/tc-mips.c:17518 config/tc-mips.c:17567
-@@ -13849,19 +13927,19 @@
+@@ -13849,19 +13926,19 @@
  #: config/tc-mips.c:17610 config/tc-riscv.c:5394
  #, c-format
  msgid "unsupported use of %s"
@@ -9847,7 +9827,7 @@
  
  #: config/tc-mips.c:17858
  msgid "bad .nan directive"
-@@ -13870,7 +13948,7 @@
+@@ -13870,7 +13947,7 @@
  #: config/tc-mips.c:17907
  #, c-format
  msgid "ignoring attempt to redefine symbol %s"
@@ -9856,7 +9836,7 @@
  
  #: config/tc-mips.c:17922 ecoff.c:3336
  msgid "bad .weakext directive"
-@@ -13878,7 +13956,7 @@
+@@ -13878,7 +13955,7 @@
  
  #: config/tc-mips.c:18896 config/tc-mips.c:19173
  msgid "relaxed out-of-range branch into a jump"
@@ -9865,7 +9845,7 @@
  
  #: config/tc-mips.c:19396
  msgid "extended instruction in a branch delay slot"
-@@ -13890,11 +13968,11 @@
+@@ -13890,11 +13967,11 @@
  
  #: config/tc-mips.c:20018 config/tc-score.c:5623
  msgid "expected simple number"
@@ -9879,7 +9859,7 @@
  
  #: config/tc-mips.c:20123 ecoff.c:2959
  msgid ".end directive without a preceding .ent directive"
-@@ -13902,11 +13980,11 @@
+@@ -13902,11 +13979,11 @@
  
  #: config/tc-mips.c:20132
  msgid ".end symbol does not match .ent symbol"
@@ -9893,7 +9873,7 @@
  
  #: config/tc-mips.c:20212 config/tc-score.c:5682
  msgid "missing .end"
-@@ -13936,11 +14014,11 @@
+@@ -13936,11 +14013,11 @@
  "\t\t\timplicitly with the gp register [default 8]\n"
  msgstr ""
  "MIPS-flaggor:\n"
@@ -9909,7 +9889,7 @@
  
  #: config/tc-mips.c:20677
  #, c-format
-@@ -13968,16 +14046,16 @@
+@@ -13968,16 +14045,16 @@
  "-mips4\t\t\tgenerera MIPS ISA IV-instruktioner\n"
  "-mips5                  generera MIPS ISA V-instruktioner\n"
  "-mips32                 generera MIPS32 ISA-instruktioner\n"
@@ -9935,7 +9915,7 @@
  
  #: config/tc-mips.c:20702
  #, c-format
-@@ -13986,9 +14064,9 @@
+@@ -13986,9 +14063,9 @@
  "-no-mCPU\t\tdon't generate code specific to CPU.\n"
  "\t\t\tFor -mCPU and -no-mCPU, CPU must be one of:\n"
  msgstr ""
@@ -9948,7 +9928,7 @@
  
  #: config/tc-mips.c:20715
  #, c-format
-@@ -14042,7 +14120,7 @@
+@@ -14042,7 +14119,7 @@
  "-mno-dspr2\t\tdo not generate DSP R2 instructions\n"
  msgstr ""
  "-mdspr2\t\t\tgenerera DSP R2-instruktioner\n"
@@ -9957,7 +9937,7 @@
  
  #: config/tc-mips.c:20733
  #, c-format
-@@ -14051,7 +14129,7 @@
+@@ -14051,7 +14128,7 @@
  "-mno-dspr3\t\tdo not generate DSP R3 instructions\n"
  msgstr ""
  "-mdspr3\t\t\tgenerera DSP R3-instruktioner\n"
@@ -9966,7 +9946,7 @@
  
  #: config/tc-mips.c:20736
  #, c-format
-@@ -14114,7 +14192,7 @@
+@@ -14114,7 +14191,7 @@
  "-mno-ginv\t\tdo not generate Global INValidate instructions\n"
  msgstr ""
  "-mginv\t\t\tgenerera GINV-instruktioner (Global INValidate)\n"
@@ -9975,7 +9955,7 @@
  
  #: config/tc-mips.c:20757
  #, c-format
-@@ -14167,8 +14245,8 @@
+@@ -14167,8 +14244,8 @@
  "-mfix-loongson3-llsc\twork around Loongson3 LL/SC errata, default\n"
  "-mno-fix-loongson3-llsc\tdisable work around Loongson3 LL/SC errata\n"
  msgstr ""
@@ -9986,7 +9966,7 @@
  
  #: config/tc-mips.c:20777
  #, c-format
-@@ -14233,13 +14311,13 @@
+@@ -14233,13 +14310,13 @@
  msgstr ""
  "-mhard-float\t\ttillåt flyttalsinstruktioner\n"
  "-msoft-float\t\ttillåt inte flyttalsinstruktioner\n"
@@ -10007,7 +9987,7 @@
  
  #: config/tc-mips.c:20817
  #, c-format
-@@ -14259,10 +14337,10 @@
+@@ -14259,10 +14336,10 @@
  "-mvxworks-pic\t\tgenerera positionsoberoende VxWorks-kod\n"
  "-non_shared\t\tgenerera inte kod som kan fungera med DSO:er\n"
  "-xgot\t\t\tantag en 32-bitars GOT\n"
@@ -10021,7 +10001,7 @@
  
  #: config/tc-mips.c:20838
  #, c-format
-@@ -14285,7 +14363,7 @@
+@@ -14285,7 +14362,7 @@
  
  #: config/tc-mips.c:20926
  msgid "missing .end at end of assembly"
@@ -10030,7 +10010,7 @@
  
  #: config/tc-mmix.c:694
  #, c-format
-@@ -14337,14 +14415,16 @@
+@@ -14337,14 +14414,16 @@
  #: config/tc-mmix.c:710
  #, c-format
  msgid "  -no-merge-gregs         Do not merge GREG definitions with nearby values.\n"
@@ -10049,7 +10029,7 @@
  
  #: config/tc-mmix.c:715
  #, c-format
-@@ -14402,7 +14482,7 @@
+@@ -14402,7 +14481,7 @@
  
  #: config/tc-mmix.c:2104
  msgid "BSPEC already active.  Nesting is not supported."
@@ -10058,7 +10038,7 @@
  
  #: config/tc-mmix.c:2113
  msgid "invalid BSPEC expression"
-@@ -14446,11 +14526,11 @@
+@@ -14446,11 +14525,11 @@
  
  #: config/tc-mmix.c:2813
  msgid "no suitable GREG definition for operands"
@@ -10072,7 +10052,7 @@
  
  #: config/tc-mmix.c:2898
  #, c-format
-@@ -14485,7 +14565,7 @@
+@@ -14485,7 +14564,7 @@
  
  #: config/tc-mmix.c:3488
  msgid "BSPEC without ESPEC."
@@ -10081,7 +10061,7 @@
  
  #: config/tc-mmix.c:3553
  msgid "LOC to section unknown or indeterminable at first pass"
-@@ -14549,7 +14629,7 @@
+@@ -14549,7 +14628,7 @@
  "none yet\n"
  msgstr ""
  "MN10200-flaggor:\n"
@@ -10090,7 +10070,7 @@
  
  #: config/tc-mn10200.c:886 config/tc-mn10300.c:1253 config/tc-s390.c:1949
  #: config/tc-v850.c:2297
-@@ -14562,7 +14642,7 @@
+@@ -14562,7 +14641,7 @@
  #: config/tc-s390.c:1859 config/tc-v850.c:3013
  #, c-format
  msgid "junk at end of line: `%s'"
@@ -10099,7 +10079,7 @@
  
  #: config/tc-mn10300.c:439
  #, c-format
-@@ -14570,8 +14650,8 @@
+@@ -14570,8 +14649,8 @@
  "MN10300 assembler options:\n"
  "none yet\n"
  msgstr ""
@@ -10110,7 +10090,7 @@
  
  #: config/tc-mn10300.c:1270
  msgid "Invalid opcode/operands"
-@@ -14584,21 +14664,21 @@
+@@ -14584,21 +14663,21 @@
  #: config/tc-mn10300.c:2388
  #, c-format
  msgid "Bad relocation fixup type (%d)"
@@ -10136,7 +10116,7 @@
  
  #: config/tc-moxie.c:326 config/tc-moxie.c:354 config/tc-moxie.c:445
  #: config/tc-moxie.c:487
-@@ -14607,7 +14687,7 @@
+@@ -14607,7 +14686,7 @@
  
  #: config/tc-moxie.c:437 config/tc-moxie.c:479
  msgid "expecting indirect register `($rX)'"
@@ -10145,7 +10125,7 @@
  
  #: config/tc-moxie.c:554 config/tc-pj.c:313
  msgid "Something forgot to clean up\n"
-@@ -14632,11 +14712,11 @@
+@@ -14632,11 +14711,11 @@
  
  #: config/tc-msp430.c:581
  msgid "unknown profiling flag - ignored."
@@ -10159,7 +10139,7 @@
  
  #: config/tc-msp430.c:607
  msgid "profiling in absolute section?"
-@@ -14650,7 +14730,7 @@
+@@ -14650,7 +14729,7 @@
  #: config/tc-msp430.c:1389
  #, c-format
  msgid "Expecting comma after CPU errata name, not: %s"
@@ -10168,7 +10148,7 @@
  
  #: config/tc-msp430.c:1399
  msgid "MCU option requires a name\n"
-@@ -14682,7 +14762,8 @@
+@@ -14682,7 +14761,8 @@
  
  #: config/tc-msp430.c:1670
  msgid "file was compiled for the small memory model, but the large memory model is selected"
@@ -10178,7 +10158,7 @@
  
  #: config/tc-msp430.c:1675
  msgid "file was compiled for the large memory model, but the small memory model is selected"
-@@ -14696,7 +14777,7 @@
+@@ -14696,7 +14776,7 @@
  #: config/tc-msp430.c:1691
  #, c-format
  msgid "unknown MSPABI build attribute tag '%d' in .mspabi_attribute directive"
@@ -10187,7 +10167,7 @@
  
  #: config/tc-msp430.c:1707
  msgid "file was compiled assuming all data will be in the lower memory region, but the upper region is in use"
-@@ -14765,7 +14846,7 @@
+@@ -14765,7 +14845,7 @@
  #: config/tc-msp430.c:1790
  #, c-format
  msgid "  -mY - do not warn about missing NOPs after changing interrupts\n"
@@ -10196,7 +10176,7 @@
  
  #: config/tc-msp430.c:1792
  #, c-format
-@@ -14789,7 +14870,7 @@
+@@ -14789,7 +14869,7 @@
  "        -mn and/or -my are required for this to have any effect\n"
  msgstr ""
  "  -mu - för en instruktion som ändrar avbrottstillstånd, men där det inte är\n"
@@ -10205,7 +10185,7 @@
  "        -mn och/eller -my krävs för att detta ska få någon effekt\n"
  
  #: config/tc-msp430.c:1801
-@@ -14804,7 +14885,7 @@
+@@ -14804,7 +14884,7 @@
  #: config/tc-msp430.c:1973
  #, c-format
  msgid "extra characters '%s' at end of immediate expression '%s'"
@@ -10214,7 +10194,7 @@
  
  #: config/tc-msp430.c:2005 config/tc-msp430.c:2189 config/tc-msp430.c:2304
  #, c-format
-@@ -14831,12 +14912,12 @@
+@@ -14831,12 +14911,12 @@
  #: config/tc-msp430.c:2105
  #, c-format
  msgid "unknown expression in operand %s.  Use #llo(), #lhi(), #hlo() or #hhi()"
@@ -10229,7 +10209,7 @@
  
  #: config/tc-msp430.c:2158
  #, c-format
-@@ -14846,7 +14927,7 @@
+@@ -14846,7 +14926,7 @@
  #: config/tc-msp430.c:2175
  #, c-format
  msgid "extra characters '%s' at the end of absolute operand '%s'"
@@ -10238,7 +10218,7 @@
  
  #: config/tc-msp430.c:2195 config/tc-msp430.c:2310
  #, c-format
-@@ -14856,7 +14937,7 @@
+@@ -14856,7 +14936,7 @@
  #: config/tc-msp430.c:2206
  #, c-format
  msgid "Registers cannot be used within absolute expression [%s]"
@@ -10247,7 +10227,7 @@
  
  #: config/tc-msp430.c:2208 config/tc-msp430.c:2339
  #, c-format
-@@ -14888,7 +14969,7 @@
+@@ -14888,7 +14968,7 @@
  
  #: config/tc-msp430.c:2280
  msgid "r2 should not be used in indexed addressing mode"
@@ -10256,7 +10236,7 @@
  
  #: config/tc-msp430.c:2293 config/tc-msp430.c:2368 config/tc-msp430.c:3512
  #: config/tc-msp430.c:3580 config/tc-msp430.c:3703 config/tc-msp430.c:4125
-@@ -14909,7 +14990,7 @@
+@@ -14909,7 +14989,7 @@
  #: config/tc-msp430.c:2403
  #, c-format
  msgid "Internal bug. Try to use 0(r%d) instead of @r%d"
@@ -10265,7 +10245,7 @@
  
  #: config/tc-msp430.c:2413
  msgid "this addressing mode is not applicable for destination operand"
-@@ -14944,7 +15025,7 @@
+@@ -14944,7 +15024,7 @@
  
  #: config/tc-msp430.c:2839
  msgid "no size modifier after period, .w assumed"
@@ -10274,7 +10254,7 @@
  
  #: config/tc-msp430.c:2842
  #, c-format
-@@ -14954,12 +15035,12 @@
+@@ -14954,12 +15034,12 @@
  #: config/tc-msp430.c:2856
  #, c-format
  msgid "junk found after instruction: %s.%s"
@@ -10289,7 +10269,7 @@
  
  #: config/tc-msp430.c:2890
  #, c-format
-@@ -14976,7 +15057,7 @@
+@@ -14976,7 +15056,7 @@
  #: config/tc-msp430.c:2928
  #, c-format
  msgid "unable to repeat %s insn"
@@ -10298,7 +10278,7 @@
  
  #: config/tc-msp430.c:3000
  msgid "CPU12: CMP/BIT with PC destination ignores next instruction"
-@@ -15004,7 +15085,7 @@
+@@ -15004,7 +15084,7 @@
  #: config/tc-msp430.c:3104 config/tc-msp430.c:3205 config/tc-msp430.c:3889
  #: config/tc-msp430.c:4058
  msgid "repeat instruction used with non-register mode instruction"
@@ -10307,7 +10287,7 @@
  
  #: config/tc-msp430.c:3179 config/tc-msp430.c:3538 config/tc-msp430.c:4014
  #, c-format
-@@ -15014,21 +15095,21 @@
+@@ -15014,21 +15094,21 @@
  #: config/tc-msp430.c:3430 config/tc-msp430.c:3506
  #, c-format
  msgid "expected #n as first argument of %s"
@@ -10333,7 +10313,7 @@
  
  #: config/tc-msp430.c:3477
  msgid "Cannot use POPM to restore the SR register"
-@@ -15042,33 +15123,33 @@
+@@ -15042,33 +15122,33 @@
  #: config/tc-msp430.c:3524
  #, c-format
  msgid "expected first argument of %s to be in the range 1-4"
@@ -10374,7 +10354,7 @@
  
  #: config/tc-msp430.c:3742
  msgid "Illegal emulated instruction"
-@@ -15091,11 +15172,11 @@
+@@ -15091,11 +15171,11 @@
  
  #: config/tc-msp430.c:4189
  msgid "instruction requires label sans '$'"
@@ -10388,7 +10368,7 @@
  
  #: config/tc-msp430.c:4199 config/tc-msp430.c:4253 config/tc-msp430.c:4301
  msgid "instruction requires label"
-@@ -15103,11 +15184,11 @@
+@@ -15103,11 +15183,11 @@
  
  #: config/tc-msp430.c:4207 config/tc-msp430.c:4259
  msgid "polymorphs are not enabled. Use -mP option to enable."
@@ -10402,7 +10382,7 @@
  
  #: config/tc-msp430.c:4359
  msgid "can't find opcode"
-@@ -15116,12 +15197,12 @@
+@@ -15116,12 +15196,12 @@
  #: config/tc-msp430.c:4871
  #, c-format
  msgid "internal inconsistency problem in %s: insn %04lx"
@@ -10417,7 +10397,7 @@
  
  #: config/tc-msp430.c:4957
  #, c-format
-@@ -15161,7 +15242,7 @@
+@@ -15161,7 +15241,7 @@
  #: config/tc-mt.c:226
  #, c-format
  msgid "instruction %s may not follow another memory access instruction."
@@ -10426,7 +10406,7 @@
  
  #: config/tc-mt.c:232
  #, c-format
-@@ -15171,7 +15252,7 @@
+@@ -15171,7 +15251,7 @@
  #: config/tc-mt.c:238
  #, c-format
  msgid "%s may not occupy the delay slot of another branch insn."
@@ -10435,7 +10415,7 @@
  
  #: config/tc-mt.c:263
  #, c-format
-@@ -15186,7 +15267,8 @@
+@@ -15186,7 +15266,8 @@
  #: config/tc-mt.c:283 config/tc-mt.c:288
  #, c-format
  msgid "conditional branch or jal insn's operand references R%ld of previous arithmetic or logic insn."
@@ -10445,7 +10425,7 @@
  
  #: config/tc-mt.c:351
  msgid "md_estimate_size_before_relax\n"
-@@ -15198,7 +15280,7 @@
+@@ -15198,7 +15279,7 @@
  "\t\t\t  <arch name> could be\n"
  "\t\t\t  v3, v3j, v3m, v3f, v3s, v2, v2j, v2f, v2s"
  msgstr ""
@@ -10454,7 +10434,7 @@
  "\t\t\t  <arknamn> kan vara\n"
  "\t\t\t  v3, v3j, v3m, v3f, v3s, v2, v2j, v2f, v2s"
  
-@@ -15207,7 +15289,7 @@
+@@ -15207,7 +15288,7 @@
  "<baseline>\t  Assemble for baseline <baseline>\n"
  "\t\t\t  <baseline> could be v2, v3, v3m"
  msgstr ""
@@ -10463,7 +10443,7 @@
  "\t\t\t  <baslinje> kan vara v2, v3, v3m"
  
  #: config/tc-nds32.c:2381
-@@ -15264,7 +15346,7 @@
+@@ -15264,7 +15345,7 @@
  
  #: config/tc-nds32.c:2427
  msgid "Reduced Register configuration (GPR16) option"
@@ -10472,7 +10452,7 @@
  
  #: config/tc-nds32.c:2428
  msgid "AUDIO ISA extension"
-@@ -15280,7 +15362,7 @@
+@@ -15280,7 +15361,7 @@
  
  #: config/tc-nds32.c:2431
  msgid "FPU fused-multiply-add instructions"
@@ -10481,7 +10461,7 @@
  
  #: config/tc-nds32.c:2432
  msgid "DSP extension"
-@@ -15288,7 +15370,7 @@
+@@ -15288,7 +15369,7 @@
  
  #: config/tc-nds32.c:2433
  msgid "hardware loop extension"
@@ -10490,7 +10470,7 @@
  
  #: config/tc-nds32.c:2470
  #, c-format
-@@ -15318,12 +15400,12 @@
+@@ -15318,12 +15399,12 @@
  "  -mb2bb-relax\t\t  Back-to-back branch optimization\n"
  "  -mno-all-relax\t  Suppress all relaxation for this file\n"
  msgstr ""
@@ -10508,7 +10488,7 @@
  
  #: config/tc-nds32.c:2485
  #, c-format
-@@ -15343,27 +15425,27 @@
+@@ -15343,27 +15424,27 @@
  #: config/tc-nds32.c:2770
  #, c-format
  msgid "la must use with symbol. '%s'"
@@ -10541,7 +10521,7 @@
  
  #. Logic here rejects the input arch name.
  #: config/tc-nds32.c:3549
-@@ -15387,12 +15469,12 @@
+@@ -15387,12 +15468,12 @@
  #: config/tc-nds32.c:3615
  #, c-format
  msgid "unknown ABI version`%s'\n"
@@ -10556,7 +10536,7 @@
  
  #: config/tc-nds32.c:4345
  #, c-format
-@@ -15476,12 +15558,12 @@
+@@ -15476,12 +15557,12 @@
  #: config/tc-nds32.c:5741
  #, c-format
  msgid "relax hint unrecognized instruction: line %d."
@@ -10571,7 +10551,7 @@
  
  #: config/tc-nds32.c:5993
  msgid "Internal error: .relax_hint KEY is not a number!"
-@@ -15504,7 +15586,7 @@
+@@ -15504,7 +15585,7 @@
  #: config/tc-nds32.c:6307
  #, c-format
  msgid "Not support instruction %s in verbatim."
@@ -10580,7 +10560,7 @@
  
  #: config/tc-nds32.c:6314
  #, c-format
-@@ -15544,7 +15626,7 @@
+@@ -15544,7 +15625,7 @@
  #: config/tc-nds32.c:6423
  #, c-format
  msgid "Junk at end of line, %s."
@@ -10589,7 +10569,7 @@
  
  #: config/tc-nds32.c:7123
  msgid "Addend to unresolved symbol is not on word boundary."
-@@ -15553,7 +15635,7 @@
+@@ -15553,7 +15634,7 @@
  #. Should never here.
  #: config/tc-nds32.c:7616
  msgid "Used FPU instructions requires enabling FPU extension"
@@ -10598,7 +10578,7 @@
  
  #: config/tc-nds32.c:7812
  #, c-format
-@@ -15566,15 +15648,15 @@
+@@ -15566,15 +15647,15 @@
  
  #: config/tc-ns32k.c:461
  msgid "Invalid syntax in External addressing mode"
@@ -10617,7 +10597,7 @@
  
  #: config/tc-ns32k.c:614
  msgid "Syntax in scaled-indexed mode, use [Rn:m] where n=[0..7] m={b,w,d,q}"
-@@ -15583,7 +15665,7 @@
+@@ -15583,7 +15664,7 @@
  # sebras: sounds contrieved..?
  #: config/tc-ns32k.c:619
  msgid "Scaled-indexed addressing mode combined with scaled-index"
@@ -10626,7 +10606,7 @@
  
  #: config/tc-ns32k.c:630
  msgid "Invalid or illegal addressing mode combined with scaled-index"
-@@ -15591,11 +15673,11 @@
+@@ -15591,11 +15672,11 @@
  
  #: config/tc-ns32k.c:753
  msgid "Premature end of suffix -- Defaulting to d"
@@ -10640,7 +10620,7 @@
  
  #: config/tc-ns32k.c:811
  msgid "Very short instr to option, ie you can't do it on a NULLstr"
-@@ -15619,7 +15701,7 @@
+@@ -15619,7 +15700,7 @@
  
  #: config/tc-ns32k.c:1074
  msgid "Bad opcode-table-option, check in file ns32k-opcode.h"
@@ -10649,7 +10629,7 @@
  
  #: config/tc-ns32k.c:1110
  msgid "No such opcode"
-@@ -15631,12 +15713,12 @@
+@@ -15631,12 +15712,12 @@
  
  #: config/tc-ns32k.c:1212
  msgid "Too many operands passed to instruction"
@@ -10664,7 +10644,7 @@
  
  #: config/tc-ns32k.c:1227
  msgid "Wrong number of operands"
-@@ -15665,7 +15747,7 @@
+@@ -15665,7 +15746,7 @@
  #: config/tc-ns32k.c:1420
  #, c-format
  msgid "value of %ld out of double word displacement range."
@@ -10673,7 +10653,7 @@
  
  #: config/tc-ns32k.c:1441
  #, c-format
-@@ -15687,7 +15769,7 @@
+@@ -15687,7 +15768,7 @@
  
  #: config/tc-ns32k.c:1707
  msgid "Bignum too big for long"
@@ -10682,7 +10662,7 @@
  
  #: config/tc-ns32k.c:1784
  msgid "iif convert internal pcrel/pointer"
-@@ -15718,7 +15800,7 @@
+@@ -15718,7 +15799,7 @@
  #: config/tc-ns32k.c:2156
  #, c-format
  msgid "invalid default displacement size \"%s\". Defaulting to %d."
@@ -10691,7 +10671,7 @@
  
  #: config/tc-ns32k.c:2172
  #, c-format
-@@ -15747,15 +15829,15 @@
+@@ -15747,15 +15828,15 @@
  
  #: config/tc-pdp11.c:510
  msgid "Low order bits truncated in immediate float operand"
@@ -10710,7 +10690,7 @@
  
  #: config/tc-pdp11.c:707
  msgid "No instruction found"
-@@ -15769,7 +15851,7 @@
+@@ -15769,7 +15850,7 @@
  #: config/tc-pdp11.c:723
  #, c-format
  msgid "Unsupported instruction set extension: %s"
@@ -10719,7 +10699,7 @@
  
  #: config/tc-pdp11.c:757
  msgid "operand is not an absolute constant"
-@@ -15825,7 +15907,7 @@
+@@ -15825,7 +15906,7 @@
  
  #: config/tc-pj.c:289
  msgid "expected expression"
@@ -10728,7 +10708,7 @@
  
  #: config/tc-pj.c:355
  #, c-format
-@@ -15897,7 +15979,7 @@
+@@ -15897,7 +15978,7 @@
  #: config/tc-ppc.c:1322
  #, c-format
  msgid "-mpwr                   generate code for POWER (RIOS1)\n"
@@ -10737,7 +10717,7 @@
  
  #: config/tc-ppc.c:1324
  #, c-format
-@@ -16123,17 +16205,17 @@
+@@ -16123,17 +16204,17 @@
  #: config/tc-ppc.c:1411
  #, c-format
  msgid "-mrelocatable           support for GCC's -mrelocatble option\n"
@@ -10758,7 +10738,7 @@
  
  #: config/tc-ppc.c:1417
  #, c-format
-@@ -16181,7 +16263,7 @@
+@@ -16181,7 +16262,7 @@
  #: config/tc-ppc.c:1462
  #, c-format
  msgid "unknown default cpu = %s, os = %s"
@@ -10767,7 +10747,7 @@
  
  #: config/tc-ppc.c:1548
  #, c-format
-@@ -16250,7 +16332,7 @@
+@@ -16250,7 +16331,7 @@
  
  #: config/tc-ppc.c:2373
  msgid "expected comma after symbol-name: rest of line ignored."
@@ -10776,7 +10756,7 @@
  
  #: config/tc-ppc.c:2406
  #, c-format
-@@ -16260,20 +16342,20 @@
+@@ -16260,20 +16341,20 @@
  #: config/tc-ppc.c:2414
  #, c-format
  msgid "length of .lcomm \"%s\" is already %ld. Not changed to %ld."
@@ -10801,7 +10781,7 @@
  
  #: config/tc-ppc.c:2504
  #, c-format
-@@ -16287,7 +16369,7 @@
+@@ -16287,7 +16368,7 @@
  
  #: config/tc-ppc.c:2536
  msgid "missing expression in .abiversion directive"
@@ -10810,7 +10790,7 @@
  
  #: config/tc-ppc.c:2545
  msgid ".abiversion expression does not evaluate to a constant"
-@@ -16304,7 +16386,7 @@
+@@ -16304,7 +16385,7 @@
  #: config/tc-ppc.c:3231
  #, c-format
  msgid "%s howto doesn't match size/pcrel in gas"
@@ -10819,7 +10799,7 @@
  
  #: config/tc-ppc.c:3310
  #, c-format
-@@ -16315,7 +16397,7 @@
+@@ -16315,7 +16396,7 @@
  #: config/tc-ppc.c:3321
  #, c-format
  msgid "`%s' invalid when little-endian"
@@ -10828,7 +10808,7 @@
  
  #: config/tc-ppc.c:3671
  #, c-format
-@@ -16324,7 +16406,7 @@
+@@ -16324,7 +16405,7 @@
  
  #: config/tc-ppc.c:3674
  msgid "@tls may only be used in last operand"
@@ -10837,7 +10817,7 @@
  
  #: config/tc-ppc.c:3712 config/tc-ppc.c:3722 config/tc-ppc.c:3732
  #: config/tc-ppc.c:3747
-@@ -16344,12 +16426,12 @@
+@@ -16344,12 +16425,12 @@
  #: config/tc-ppc.c:3970
  #, c-format
  msgid "syntax error; found `%c', expected `%c'"
@@ -10852,7 +10832,7 @@
  
  #: config/tc-ppc.c:4043 config/tc-ppc.c:6872
  #, c-format
-@@ -16370,7 +16452,7 @@
+@@ -16370,7 +16451,7 @@
  
  #: config/tc-ppc.c:4368
  msgid "missing real symbol name"
@@ -10861,7 +10841,7 @@
  
  #: config/tc-ppc.c:4407
  msgid "attempt to redefine symbol"
-@@ -16474,7 +16556,7 @@
+@@ -16474,7 +16555,7 @@
  
  #: config/tc-ppc.c:5998
  msgid "bad symbol suffix"
@@ -10870,7 +10850,7 @@
  
  #: config/tc-ppc.c:6097
  msgid "unrecognized symbol suffix"
-@@ -16496,7 +16578,7 @@
+@@ -16496,7 +16577,7 @@
  #: config/tc-ppc.c:7391
  #, c-format
  msgid "%s unsupported as instruction fixup"
@@ -10879,7 +10859,7 @@
  
  #: config/tc-ppc.c:7490
  #, c-format
-@@ -16515,7 +16597,7 @@
+@@ -16515,7 +16596,7 @@
  
  #: config/tc-pru.c:328
  msgid "expecting opcode string in self test mode"
@@ -10888,7 +10868,7 @@
  
  #: config/tc-pru.c:330
  #, c-format
-@@ -16580,17 +16662,17 @@
+@@ -16580,17 +16661,17 @@
  #: config/tc-pru.c:957 config/tc-pru.c:990
  #, c-format
  msgid "trailing garbage after expression: %s"
@@ -10909,7 +10889,7 @@
  
  #: config/tc-pru.c:1015 config/tc-pru.c:1035 config/tc-pru.c:1062
  #: config/tc-pru.c:1081 config/tc-pru.c:1095 config/tc-pru.c:1300
-@@ -16619,20 +16701,20 @@
+@@ -16619,20 +16700,20 @@
  #: config/tc-pru.c:1133
  #, c-format
  msgid "loop count constant %ld is out of range [1..%d]"
@@ -10934,7 +10914,7 @@
  
  #: config/tc-pru.c:1309
  #, fuzzy
-@@ -16761,22 +16843,22 @@
+@@ -16761,22 +16842,22 @@
  #: config/tc-riscv.c:1185
  #, c-format
  msgid "internal: bad RISC-V CSR class (0x%x)"
@@ -10961,7 +10941,7 @@
  
  #: config/tc-riscv.c:1220
  #, c-format
-@@ -16785,12 +16867,12 @@
+@@ -16785,12 +16866,12 @@
  
  #: config/tc-riscv.c:1469
  msgid "cannot find `}' for cm.push/cm.pop"
@@ -10976,7 +10956,7 @@
  
  #: config/tc-riscv.c:1845
  #, c-format
-@@ -16809,7 +16891,7 @@
+@@ -16809,7 +16890,7 @@
  #: config/tc-riscv.c:2069
  #, c-format
  msgid "internal: unsupported RISC-V relocation number %d"
@@ -10985,7 +10965,7 @@
  
  #: config/tc-riscv.c:2185
  #, c-format
-@@ -16828,7 +16910,7 @@
+@@ -16828,7 +16909,7 @@
  #: config/tc-riscv.c:2240
  #, c-format
  msgid "instruction %s requires absolute expression"
@@ -10994,7 +10974,7 @@
  
  #: config/tc-riscv.c:2408
  msgid "must provide temp if destination overlaps mask"
-@@ -16837,7 +16919,7 @@
+@@ -16837,7 +16918,7 @@
  #: config/tc-riscv.c:2501
  #, c-format
  msgid "internal: macro %s not implemented"
@@ -11003,7 +10983,7 @@
  
  #: config/tc-riscv.c:2726 config/tc-riscv.c:2739 config/tc-riscv.c:2800
  msgid "multiple vsew constants"
-@@ -16875,7 +16957,7 @@
+@@ -16875,7 +16956,7 @@
  #: config/tc-riscv.c:3038
  #, c-format
  msgid "read-only CSR is written `%s'"
@@ -11012,7 +10992,7 @@
  
  #: config/tc-riscv.c:3048
  msgid "illegal opcode for zve32x"
-@@ -16940,7 +17022,7 @@
+@@ -16940,7 +17021,7 @@
  
  #: config/tc-riscv.c:3788
  msgid "lui expression not in range 0..1048575"
@@ -11021,7 +11001,7 @@
  
  #: config/tc-riscv.c:3824
  #, fuzzy, c-format
-@@ -16975,7 +17057,8 @@
+@@ -16975,7 +17056,8 @@
  
  #: config/tc-riscv.c:3962
  msgid "bad fli constant operand, supported constants must be in decimal or hexadecimal floating-point literal form"
@@ -11031,7 +11011,7 @@
  
  #: config/tc-riscv.c:4093
  msgid "bad value for th.vsetvli immediate field, value must be 0..2047"
-@@ -17081,22 +17164,22 @@
+@@ -17081,22 +17163,22 @@
  #: config/tc-riscv.c:5088
  #, c-format
  msgid "invalid J-type offset (%+lld)"
@@ -11058,7 +11038,7 @@
  
  #: config/tc-riscv.c:5174
  msgid "too many pcrel_hi"
-@@ -17132,20 +17215,24 @@
+@@ -17132,20 +17214,24 @@
  "  -mlittle-endian             assemble for little-endian\n"
  msgstr ""
  "RISC-V-flaggor:\n"
@@ -11093,7 +11073,7 @@
  
  #: config/tc-riscv.c:5781
  #, c-format
-@@ -17179,11 +17266,11 @@
+@@ -17179,11 +17265,11 @@
  
  #: config/tc-rl78.c:213
  msgid "16-bit relocation used in 8-bit operand"
@@ -11107,7 +11087,7 @@
  
  #: config/tc-rl78.c:243 config/tc-rx.c:876
  #, c-format
-@@ -17218,7 +17305,7 @@
+@@ -17218,7 +17304,7 @@
  #: config/tc-rl78.c:371
  #, c-format
  msgid "  --mg14            Selects the G14 core [default]\n"
@@ -11116,7 +11096,7 @@
  
  #: config/tc-rl78.c:372
  #, c-format
-@@ -17233,7 +17320,7 @@
+@@ -17233,7 +17319,7 @@
  #: config/tc-rl78.c:374
  #, c-format
  msgid "  --m64bit-doubles  Source code uses 64-bit doubles\n"
@@ -11125,7 +11105,7 @@
  
  #: config/tc-rl78.c:432
  #, c-format
-@@ -17351,7 +17438,7 @@
+@@ -17351,7 +17437,7 @@
  
  #: config/tc-rx.c:292
  msgid "no filename following .INCLUDE pseudo-op"
@@ -11134,7 +11114,7 @@
  
  #: config/tc-rx.c:393
  #, c-format
-@@ -17370,12 +17457,12 @@
+@@ -17370,12 +17456,12 @@
  
  #: config/tc-rx.c:547
  msgid "expecting either ON or OFF after .list"
@@ -11149,7 +11129,7 @@
  
  #: config/tc-rx.c:955 config/tc-rx.c:957
  #, c-format
-@@ -17400,7 +17487,7 @@
+@@ -17400,7 +17486,7 @@
  
  #: config/tc-rx.c:2122
  msgid "invalid immediate field position"
@@ -11158,7 +11138,7 @@
  
  #: config/tc-rx.c:2289
  #, c-format
-@@ -17421,11 +17508,13 @@
+@@ -17421,11 +17507,13 @@
  
  #: config/tc-s12z.c:147
  msgid "  -mreg-prefix=PREFIX     set a prefix used to indicate register names (default none)\n"
@@ -11174,7 +11154,7 @@
  
  #: config/tc-s12z.c:315
  msgid "A non-constant expression is not permitted here"
-@@ -17462,7 +17551,7 @@
+@@ -17462,7 +17550,7 @@
  
  #: config/tc-s12z.c:809
  msgid "Garbage at end of instruction"
@@ -11183,7 +11163,7 @@
  
  #: config/tc-s12z.c:938
  msgid "Offset is outside of 15 bit range"
-@@ -17484,17 +17573,17 @@
+@@ -17484,17 +17572,17 @@
  
  #: config/tc-s12z.c:1429
  msgid "The destination and source registers are identical"
@@ -11204,7 +11184,7 @@
  
  #: config/tc-s12z.c:1964
  msgid "Shift value should be in the range [0,31]"
-@@ -17531,11 +17620,11 @@
+@@ -17531,11 +17619,11 @@
  #: config/tc-s12z.c:3821
  #, c-format
  msgid "First invalid token: \"%s\""
@@ -11218,7 +11198,7 @@
  
  #: config/tc-s390.c:439
  #, c-format
-@@ -17545,7 +17634,7 @@
+@@ -17545,7 +17633,7 @@
  #: config/tc-s390.c:450
  #, c-format
  msgid "junk at end of machine string, first unrecognized character is `%c'"
@@ -11227,7 +11207,7 @@
  
  #: config/tc-s390.c:525 config/tc-sparc.c:490
  #, c-format
-@@ -17640,7 +17729,7 @@
+@@ -17640,7 +17728,7 @@
  
  #: config/tc-s390.c:1180
  msgid "Big number is too big"
@@ -11236,7 +11216,7 @@
  
  #: config/tc-s390.c:1329
  msgid "relocation not applicable"
-@@ -17692,7 +17781,7 @@
+@@ -17692,7 +17780,7 @@
  
  #: config/tc-s390.c:1371
  msgid "unsigned number"
@@ -11245,7 +11225,7 @@
  
  #: config/tc-s390.c:1470
  #, c-format
-@@ -17732,7 +17821,7 @@
+@@ -17732,7 +17820,7 @@
  #: config/tc-s390.c:1540
  #, c-format
  msgid "operand %d: odd numbered general purpose register specified as register pair"
@@ -11254,7 +11234,7 @@
  
  #: config/tc-s390.c:1548
  #, c-format
-@@ -17746,17 +17835,17 @@
+@@ -17746,17 +17834,17 @@
  #: config/tc-s390.c:1579
  #, c-format
  msgid "operand %d: expected %s name as base register"
@@ -11275,7 +11255,7 @@
  
  #: config/tc-s390.c:1675
  #, c-format
-@@ -17766,17 +17855,17 @@
+@@ -17766,17 +17854,17 @@
  #: config/tc-s390.c:1702
  #, c-format
  msgid "operand %d: syntax error; missing '(' after displacement"
@@ -11296,7 +11276,7 @@
  
  #: config/tc-s390.c:1798
  #, c-format
-@@ -17786,11 +17875,11 @@
+@@ -17786,11 +17874,11 @@
  #: config/tc-s390.c:1954
  #, c-format
  msgid "Opcode %s not available in this mode"
@@ -11310,7 +11290,7 @@
  
  #: config/tc-s390.c:2006
  #, c-format
-@@ -17799,11 +17888,11 @@
+@@ -17799,11 +17887,11 @@
  
  #: config/tc-s390.c:2037
  msgid "second operand of .insn not a constant\n"
@@ -11324,7 +11304,7 @@
  
  #: config/tc-s390.c:2269
  msgid ".machinemode stack overflow"
-@@ -17851,7 +17940,7 @@
+@@ -17851,7 +17939,7 @@
  
  #: config/tc-score.c:464
  msgid "S+core register expected"
@@ -11333,7 +11313,7 @@
  
  #: config/tc-score.c:465
  msgid "S+core special-register expected"
-@@ -17863,7 +17952,7 @@
+@@ -17863,7 +17951,7 @@
  
  #: config/tc-score.c:1069
  msgid "Using temp register (r1)"
@@ -11342,7 +11322,7 @@
  
  #: config/tc-score.c:1088
  #, c-format
-@@ -17872,23 +17961,23 @@
+@@ -17872,23 +17960,23 @@
  
  #: config/tc-score.c:1144 config/tc-score.c:5482
  msgid "rd must be even number."
@@ -11370,7 +11350,7 @@
  
  #: config/tc-score.c:2063
  msgid "Using temp register(r1)"
-@@ -17897,7 +17986,7 @@
+@@ -17897,7 +17985,7 @@
  #: config/tc-score.c:2077
  #, c-format
  msgid "low register (r0-r15) expected, not '%.100s'"
@@ -11379,7 +11359,7 @@
  
  #: config/tc-score.c:2139 config/tc-score.c:3477 config/tc-score.c:3645
  #: config/tc-score.c:3690
-@@ -17930,7 +18019,7 @@
+@@ -17930,7 +18018,7 @@
  
  #: config/tc-score.c:2833
  msgid "address offset must be half word alignment"
@@ -11388,7 +11368,7 @@
  
  #: config/tc-score.c:2841
  msgid "address offset must be word alignment"
-@@ -17942,7 +18031,7 @@
+@@ -17942,7 +18030,7 @@
  
  #: config/tc-score.c:3088
  msgid "pre-indexed expression expected"
@@ -11397,7 +11377,7 @@
  
  #: config/tc-score.c:3417
  #, c-format
-@@ -17985,7 +18074,7 @@
+@@ -17985,7 +18073,7 @@
  #: config/tc-score.c:3898
  #, c-format
  msgid "%s register same as write-back base"
@@ -11406,7 +11386,7 @@
  
  #: config/tc-score.c:3900
  msgid "destination"
-@@ -18001,7 +18090,7 @@
+@@ -18001,7 +18089,7 @@
  
  #: config/tc-score.c:4313
  msgid "value not in range [-0xffffffff, 0xffffffff]"
@@ -11415,7 +11395,7 @@
  
  #: config/tc-score.c:4341
  msgid "li rd label isn't correct instruction form"
-@@ -18014,7 +18103,7 @@
+@@ -18014,7 +18102,7 @@
  
  #: config/tc-score.c:4894
  msgid "s3_PIC code offset overflow (max 16 signed bits)"
@@ -11424,7 +11404,7 @@
  
  #: config/tc-score.c:4950
  msgid "value not in range [0, 0x7fffffff]"
-@@ -18022,7 +18111,7 @@
+@@ -18022,7 +18110,7 @@
  
  #: config/tc-score.c:4955
  msgid "end on line error"
@@ -11433,7 +11413,7 @@
  
  #: config/tc-score.c:5202
  msgid "invalid constant: 25 bit expression not in range [-16777216, 16777215]"
-@@ -18038,7 +18127,8 @@
+@@ -18038,7 +18126,8 @@
  
  #: config/tc-score.c:5267
  msgid "invalid constant: 10 bit expression not in range [-2^9, 2^9-1]"
@@ -11443,7 +11423,7 @@
  
  #: config/tc-score.c:5362
  msgid "pce instruction error (16 bit || 16 bit)."
-@@ -18051,7 +18141,7 @@
+@@ -18051,7 +18140,7 @@
  
  #: config/tc-score.c:5999
  msgid "Unsupported use of .gpword"
@@ -11452,7 +11432,7 @@
  
  #: config/tc-score.c:6095
  #, c-format
-@@ -18128,17 +18218,17 @@
+@@ -18128,17 +18217,17 @@
  #: config/tc-score.c:7715
  #, c-format
  msgid "        -EL\t\tassemble code for a little-endian cpu\n"
@@ -11473,7 +11453,7 @@
  
  #: config/tc-score.c:7723
  #, c-format
-@@ -18201,7 +18291,7 @@
+@@ -18201,7 +18290,7 @@
  
  #: config/tc-sh.c:71
  msgid "directive .little encountered when option -little required"
@@ -11482,7 +11462,7 @@
  
  #: config/tc-sh.c:1026
  msgid "illegal double indirection"
-@@ -18233,7 +18323,7 @@
+@@ -18233,7 +18322,7 @@
  
  #: config/tc-sh.c:1147
  msgid "expecting )"
@@ -11491,7 +11471,7 @@
  
  #: config/tc-sh.c:1155
  msgid "illegal register after @"
-@@ -18264,7 +18354,7 @@
+@@ -18264,7 +18353,7 @@
  
  #: config/tc-sh.c:2228
  msgid "insn can't be combined with parallel processing insn"
@@ -11500,7 +11480,7 @@
  
  #: config/tc-sh.c:2235 config/tc-sh.c:2246 config/tc-sh.c:2278
  msgid "multiple movx specifications"
-@@ -18280,7 +18370,7 @@
+@@ -18280,7 +18369,7 @@
  
  #: config/tc-sh.c:2251
  msgid "insn cannot be combined with non-nopy"
@@ -11509,7 +11489,7 @@
  
  #: config/tc-sh.c:2265 config/tc-sh.c:2321
  msgid "invalid movy address register"
-@@ -18304,7 +18394,7 @@
+@@ -18304,7 +18393,7 @@
  
  #: config/tc-sh.c:2312 config/tc-sh.c:2317
  msgid "invalid movy dsp register"
@@ -11518,7 +11498,7 @@
  
  #: config/tc-sh.c:2327
  msgid "dsp immediate shift value not constant"
-@@ -18328,7 +18418,7 @@
+@@ -18328,7 +18417,7 @@
  
  #: config/tc-sh.c:2424
  msgid "destination register is same for parallel insns"
@@ -11527,7 +11507,7 @@
  
  #: config/tc-sh.c:2433
  msgid "condition not followed by conditionalizable insn"
-@@ -18340,11 +18430,11 @@
+@@ -18340,11 +18429,11 @@
  
  #: config/tc-sh.c:2536
  msgid "opcode not valid for this cpu variant"
@@ -11541,7 +11521,7 @@
  
  #: config/tc-sh.c:2602
  #, c-format
-@@ -18353,7 +18443,7 @@
+@@ -18353,7 +18442,7 @@
  
  #: config/tc-sh.c:2679
  msgid ".uses pseudo-op seen when not relaxing"
@@ -11550,7 +11530,7 @@
  
  #: config/tc-sh.c:2685
  msgid "bad .uses format"
-@@ -18412,7 +18502,7 @@
+@@ -18412,7 +18501,7 @@
  
  #: config/tc-sh.c:3038
  msgid "displacement overflows 12-bit field"
@@ -11559,7 +11539,7 @@
  
  #: config/tc-sh.c:3041
  #, c-format
-@@ -18472,7 +18562,7 @@
+@@ -18472,7 +18561,7 @@
  #: config/tc-sparc.c:562
  #, c-format
  msgid "No compiled in support for %d bit object file format"
@@ -11568,7 +11548,7 @@
  
  #: config/tc-sparc.c:646
  #, c-format
-@@ -18492,10 +18582,10 @@
+@@ -18492,10 +18581,10 @@
  msgstr ""
  "\n"
  "\t\t\tange variant av SPARC-arkitekturen\n"
@@ -11583,7 +11563,7 @@
  "-no-relax\t\tundvik att ändra hopp och grenar\n"
  
  #: config/tc-sparc.c:682
-@@ -18504,8 +18594,8 @@
+@@ -18504,8 +18593,8 @@
  "-32\t\t\tcreate 32 bit object file\n"
  "-64\t\t\tcreate 64 bit object file\n"
  msgstr ""
@@ -11594,7 +11574,7 @@
  
  #: config/tc-sparc.c:685
  #, c-format
-@@ -18543,15 +18633,15 @@
+@@ -18543,15 +18632,15 @@
  "-s\t\t\tignored\n"
  msgstr ""
  "-KPIC\t\t\tgenerera PIC\n"
@@ -11618,7 +11598,7 @@
  
  #: config/tc-sparc.c:705
  #, c-format
-@@ -18578,7 +18668,7 @@
+@@ -18578,7 +18667,7 @@
  
  #: config/tc-sparc.c:1204
  msgid "Support for 64-bit arithmetic not compiled in."
@@ -11627,7 +11607,7 @@
  
  #: config/tc-sparc.c:1250
  msgid "set: number not in 0..4294967295 range"
-@@ -18614,7 +18704,7 @@
+@@ -18614,7 +18703,7 @@
  
  #: config/tc-sparc.c:1610
  msgid "failed special case insn sanity check"
@@ -11636,7 +11616,7 @@
  
  #: config/tc-sparc.c:1800
  msgid ": invalid membar mask name"
-@@ -18630,7 +18720,7 @@
+@@ -18630,7 +18719,7 @@
  
  #: config/tc-sparc.c:1836
  msgid ": invalid siam mode expression"
@@ -11645,7 +11625,7 @@
  
  #: config/tc-sparc.c:1841
  msgid ": invalid siam mode number"
-@@ -18667,7 +18757,7 @@
+@@ -18667,7 +18756,7 @@
  #: config/tc-sparc.c:2030
  #, c-format
  msgid ": expecting %asrN"
@@ -11654,7 +11634,7 @@
  
  #: config/tc-sparc.c:2072
  msgid ": crypto immediate must be between 0 and 31"
-@@ -18675,7 +18765,7 @@
+@@ -18675,7 +18764,7 @@
  
  #: config/tc-sparc.c:2081
  msgid ": expecting crypto immediate"
@@ -11663,7 +11643,7 @@
  
  #: config/tc-sparc.c:2242 config/tc-sparc.c:2281 config/tc-sparc.c:2713
  #: config/tc-sparc.c:2749
-@@ -18695,7 +18785,8 @@
+@@ -18695,7 +18784,8 @@
  
  #: config/tc-sparc.c:2471
  msgid "detected global register use not covered by .register pseudo-op"
@@ -11673,7 +11653,7 @@
  
  #: config/tc-sparc.c:2573
  msgid ": There are only 64 f registers; [0-63]"
-@@ -18747,7 +18838,7 @@
+@@ -18747,7 +18837,7 @@
  
  #: config/tc-sparc.c:2972
  msgid ": invalid ASI name"
@@ -11682,7 +11662,7 @@
  
  #: config/tc-sparc.c:2981
  msgid ": invalid ASI expression"
-@@ -18755,7 +18846,7 @@
+@@ -18755,7 +18845,7 @@
  
  #: config/tc-sparc.c:2986
  msgid ": invalid ASI number"
@@ -11691,7 +11671,7 @@
  
  #: config/tc-sparc.c:3091
  msgid ": non-immdiate imm2 operand"
-@@ -18790,7 +18881,7 @@
+@@ -18790,7 +18880,7 @@
  #: config/tc-sparc.c:3258
  #, c-format
  msgid "Architecture mismatch on \"%s %s\"."
@@ -11700,7 +11680,7 @@
  
  #: config/tc-sparc.c:3259
  #, c-format
-@@ -18816,7 +18907,7 @@
+@@ -18816,7 +18906,7 @@
  
  #: config/tc-sparc.c:4133
  msgid "Expected comma after name"
@@ -11709,7 +11689,7 @@
  
  #: config/tc-sparc.c:4142
  #, c-format
-@@ -18833,7 +18924,7 @@
+@@ -18833,7 +18923,7 @@
  
  #: config/tc-sparc.c:4190 config/tc-sparc.c:4327 read.c:1590 read.c:2701
  msgid "alignment not a power of 2"
@@ -11718,7 +11698,7 @@
  
  #: config/tc-sparc.c:4235
  #, c-format
-@@ -18842,7 +18933,7 @@
+@@ -18842,7 +18932,7 @@
  
  #: config/tc-sparc.c:4258 config/tc-v850.c:279
  msgid "Expected comma after symbol-name"
@@ -11727,7 +11707,7 @@
  
  # sebras: comma?
  #: config/tc-sparc.c:4268
-@@ -18917,7 +19008,7 @@
+@@ -18917,7 +19007,7 @@
  #: config/tc-spu.c:278
  #, c-format
  msgid "Invalid mnemonic '%s'"
@@ -11736,7 +11716,7 @@
  
  #: config/tc-spu.c:284
  #, c-format
-@@ -18927,7 +19018,7 @@
+@@ -18927,7 +19017,7 @@
  #: config/tc-spu.c:316
  #, c-format
  msgid "Error in argument %d.  Expecting:  \"%s\""
@@ -11745,7 +11725,7 @@
  
  #: config/tc-spu.c:327
  msgid "Mixing register syntax, with and without '$'."
-@@ -18949,17 +19040,17 @@
+@@ -18949,17 +19039,17 @@
  #: config/tc-spu.c:598
  #, c-format
  msgid "Using old style, %%lo(expr), please change to PPC style, expr@l."
@@ -11766,7 +11746,7 @@
  
  #: config/tc-spu.c:769
  #, c-format
-@@ -19006,7 +19097,7 @@
+@@ -19006,7 +19096,7 @@
  
  #: config/tc-tic30.c:460
  msgid "More than one AR register found in indirect reference"
@@ -11775,7 +11755,7 @@
  
  #: config/tc-tic30.c:466
  msgid "Illegal AR register in indirect reference"
-@@ -19022,7 +19113,7 @@
+@@ -19022,7 +19112,7 @@
  
  #: config/tc-tic30.c:514
  msgid "AR register not found in indirect reference"
@@ -11784,7 +11764,7 @@
  
  #. Maybe an implied displacement of 1 again.
  #: config/tc-tic30.c:531
-@@ -19045,7 +19136,7 @@
+@@ -19045,7 +19135,7 @@
  #: config/tc-tic30.c:748 config/tc-tic30.c:1490
  #, c-format
  msgid "Unbalanced parenthesis in %s operand."
@@ -11793,7 +11773,7 @@
  
  #: config/tc-tic30.c:764 config/tc-tic30.c:1500
  #, c-format
-@@ -19061,19 +19152,19 @@
+@@ -19061,19 +19151,19 @@
  #: config/tc-tic30.c:801 config/tc-tic30.c:817 config/tc-tic30.c:1534
  #: config/tc-tic30.c:1550
  msgid "Expecting operand after ','; got nothing"
@@ -11817,7 +11797,7 @@
  
  #: config/tc-tic30.c:871
  #, c-format
-@@ -19083,11 +19174,11 @@
+@@ -19083,11 +19173,11 @@
  #. Shouldn't get here.
  #: config/tc-tic30.c:895 config/tc-tic30.c:902
  msgid "incorrect format for multiply parallel instruction"
@@ -11831,7 +11811,7 @@
  
  #: config/tc-tic30.c:916
  msgid "destination for add/subtract can only be R2 or R3"
-@@ -19100,7 +19191,7 @@
+@@ -19100,7 +19190,7 @@
  #: config/tc-tic30.c:1425
  #, c-format
  msgid "Invalid character %s in opcode"
@@ -11840,7 +11820,7 @@
  
  #: config/tc-tic30.c:1455
  #, c-format
-@@ -19109,7 +19200,7 @@
+@@ -19109,7 +19199,7 @@
  
  #: config/tc-tic30.c:1575
  msgid "Incorrect number of operands given"
@@ -11849,7 +11829,7 @@
  
  #: config/tc-tic30.c:1608
  #, c-format
-@@ -19139,7 +19230,7 @@
+@@ -19139,7 +19229,7 @@
  
  #: config/tc-tic30.c:1786 config/tc-tic30.c:1857
  msgid "first operand is too large for 16-bit signed int"
@@ -11858,7 +11838,7 @@
  
  #: config/tc-tic30.c:1851
  msgid "first operand is floating point"
-@@ -19169,15 +19260,15 @@
+@@ -19169,15 +19259,15 @@
  
  #: config/tc-tic4x.c:591 config/tc-tic4x.c:601
  msgid "Invalid floating point number"
@@ -11877,7 +11857,7 @@
  
  #: config/tc-tic4x.c:762
  #, c-format
-@@ -19204,7 +19295,7 @@
+@@ -19204,7 +19294,7 @@
  
  #: config/tc-tic4x.c:1033
  msgid ".set syntax invalid\n"
@@ -11886,7 +11866,7 @@
  
  #: config/tc-tic4x.c:1091
  msgid ".usect: non-zero alignment flag ignored"
-@@ -19221,12 +19312,12 @@
+@@ -19221,12 +19311,12 @@
  
  #: config/tc-tic4x.c:1413
  msgid "Auxiliary register AR0--AR7 required for indirect"
@@ -11901,7 +11881,7 @@
  
  #: config/tc-tic4x.c:1445
  msgid "Index register IR0,IR1 required for displacement"
-@@ -19234,15 +19325,15 @@
+@@ -19234,15 +19324,15 @@
  
  #: config/tc-tic4x.c:1513
  msgid "Expecting a register name"
@@ -11920,7 +11900,7 @@
  
  #: config/tc-tic4x.c:1569
  #, c-format
-@@ -19265,7 +19356,7 @@
+@@ -19265,7 +19355,7 @@
  
  #: config/tc-tic4x.c:1734
  msgid "Destination register must be ARn"
@@ -11929,7 +11909,7 @@
  
  #: config/tc-tic4x.c:1753 config/tc-tic4x.c:2126 config/tc-tic4x.c:2185
  #, c-format
-@@ -19340,7 +19431,7 @@
+@@ -19340,7 +19430,7 @@
  
  #: config/tc-tic4x.c:2377
  msgid "Too many operands scanned"
@@ -11938,7 +11918,7 @@
  
  #: config/tc-tic4x.c:2408
  msgid "Parallel opcode cannot contain more than two instructions"
-@@ -19430,18 +19521,18 @@
+@@ -19430,18 +19520,18 @@
  #: config/tc-tic4x.c:2795
  #, c-format
  msgid "Label \"$%d\" redefined"
@@ -11960,7 +11940,7 @@
  
  #: config/tc-tic54x.c:256
  #, c-format
-@@ -19546,15 +19637,15 @@
+@@ -19546,15 +19636,15 @@
  
  #: config/tc-tic54x.c:1131
  msgid "Use of .def/.ref is deprecated.  Use .global instead"
@@ -11979,7 +11959,7 @@
  
  #: config/tc-tic54x.c:1429
  msgid "Missing size argument"
-@@ -19600,7 +19691,7 @@
+@@ -19600,7 +19690,7 @@
  
  #: config/tc-tic54x.c:1901
  msgid "Current section is uninitialized, section name required for .clink"
@@ -11988,7 +11968,7 @@
  
  #: config/tc-tic54x.c:2101
  msgid "ENDLOOP without corresponding LOOP"
-@@ -19616,7 +19707,7 @@
+@@ -19616,7 +19706,7 @@
  
  #: config/tc-tic54x.c:2201
  msgid ".sblock may be used for initialized sections only"
@@ -11997,7 +11977,7 @@
  
  #: config/tc-tic54x.c:2231
  msgid "Symbol missing for .set/.equ"
-@@ -19657,7 +19748,7 @@
+@@ -19657,7 +19747,7 @@
  
  #: config/tc-tic54x.c:2557
  msgid "Macro nesting is too deep"
@@ -12006,7 +11986,7 @@
  
  #: config/tc-tic54x.c:2660
  #, c-format
-@@ -19671,11 +19762,11 @@
+@@ -19671,11 +19761,11 @@
  
  #: config/tc-tic54x.c:3176 config/tc-tic54x.c:3184
  msgid "Expecting operand after ','"
@@ -12020,7 +12000,7 @@
  
  #: config/tc-tic54x.c:3232
  msgid "Badly formed address expression"
-@@ -19693,7 +19784,7 @@
+@@ -19693,7 +19783,7 @@
  
  #: config/tc-tic54x.c:3600
  msgid "Address mode *+ARx is write-only. Results of reading are undefined."
@@ -12029,7 +12009,7 @@
  
  #: config/tc-tic54x.c:3620
  #, c-format
-@@ -19722,7 +19813,7 @@
+@@ -19722,7 +19812,7 @@
  #: config/tc-tic54x.c:3722
  #, c-format
  msgid "Condition \"%s\" uses a different accumulator from a preceding condition"
@@ -12038,7 +12018,7 @@
  
  #: config/tc-tic54x.c:3729
  msgid "Only one comparison conditional allowed"
-@@ -19730,7 +19821,7 @@
+@@ -19730,7 +19820,7 @@
  
  #: config/tc-tic54x.c:3734
  msgid "Only one overflow conditional allowed"
@@ -12047,7 +12027,7 @@
  
  #: config/tc-tic54x.c:3742
  #, c-format
-@@ -19760,7 +19851,7 @@
+@@ -19760,7 +19850,7 @@
  
  #: config/tc-tic54x.c:3926
  msgid "Invalid operand (use 1, 2, or 3)"
@@ -12056,7 +12036,7 @@
  
  #: config/tc-tic54x.c:3951
  msgid "A status register or status bit name is required"
-@@ -19794,7 +19885,7 @@
+@@ -19794,7 +19884,7 @@
  #: config/tc-tic54x.c:4255
  #, c-format
  msgid "Unrecognized parallel instruction \"%s\""
@@ -12065,7 +12045,7 @@
  
  #: config/tc-tic54x.c:4304
  #, c-format
-@@ -19821,19 +19912,19 @@
+@@ -19821,19 +19911,19 @@
  
  #: config/tc-tic54x.c:4595
  msgid "Expecting second argument"
@@ -12089,7 +12069,7 @@
  
  #: config/tc-tic54x.c:4658
  msgid "Both arguments must be substitution symbols"
-@@ -19883,8 +19974,10 @@
+@@ -19883,8 +19973,10 @@
  #, c-format
  msgid "Instruction does not fit in available delay slots (%d-word insn, %d slot left). Resulting behavior is undefined."
  msgid_plural "Instruction does not fit in available delay slots (%d-word insn, %d slots left). Resulting behavior is undefined."
@@ -12102,7 +12082,7 @@
  
  #: config/tc-tic54x.c:4993
  msgid "Instructions which cause PC discontinuity are not allowed in a delay slot. Resulting behavior is undefined."
-@@ -19893,7 +19986,7 @@
+@@ -19893,7 +19985,7 @@
  #: config/tc-tic54x.c:5004
  #, c-format
  msgid "'%s' is not repeatable. Resulting behavior is undefined."
@@ -12111,7 +12091,7 @@
  
  #: config/tc-tic54x.c:5008
  msgid "Instructions using long offset modifiers or absolute addresses are not repeatable. Resulting behavior is undefined."
-@@ -19916,7 +20009,7 @@
+@@ -19916,7 +20008,7 @@
  #: config/tc-tic54x.c:5375
  #, c-format
  msgid "attempt to .space/.bes backwards? (%ld)"
@@ -12120,7 +12100,7 @@
  
  #: config/tc-tic6x.c:232
  #, c-format
-@@ -19961,7 +20054,7 @@
+@@ -19961,7 +20053,7 @@
  #: config/tc-tic6x.c:326
  #, c-format
  msgid "  -mpid=no                code uses position-dependent data addressing\n"
@@ -12129,7 +12109,7 @@
  
  #: config/tc-tic6x.c:327
  #, c-format
-@@ -19989,12 +20082,12 @@
+@@ -19989,12 +20081,12 @@
  #: config/tc-tic6x.c:332
  #, c-format
  msgid "  -mno-pic                code addressing is position-dependent\n"
@@ -12144,7 +12124,7 @@
  
  #: config/tc-tic6x.c:384
  msgid "unexpected .cantunwind directive"
-@@ -20010,11 +20103,11 @@
+@@ -20010,11 +20102,11 @@
  
  #: config/tc-tic6x.c:531
  msgid "expected symbol"
@@ -12158,7 +12138,7 @@
  
  #: config/tc-tic6x.c:588
  #, c-format
-@@ -20023,7 +20116,7 @@
+@@ -20023,7 +20115,7 @@
  
  #: config/tc-tic6x.c:602
  msgid "alignment is not a positive number"
@@ -12167,7 +12147,7 @@
  
  #: config/tc-tic6x.c:614
  msgid "alignment is not a power of 2"
-@@ -20058,7 +20151,7 @@
+@@ -20058,7 +20150,7 @@
  
  #: config/tc-tic6x.c:899
  msgid "predication on A0 not supported on this architecture"
@@ -12176,7 +12156,7 @@
  
  #: config/tc-tic6x.c:932
  msgid "label after '||'"
-@@ -20070,11 +20163,11 @@
+@@ -20070,11 +20162,11 @@
  
  #: config/tc-tic6x.c:962
  msgid "'||' not followed by instruction"
@@ -12190,7 +12170,7 @@
  
  #: config/tc-tic6x.c:1401
  #, c-format
-@@ -20090,7 +20183,7 @@
+@@ -20090,7 +20182,7 @@
  #: config/tc-tic6x.c:1611
  #, c-format
  msgid "register pair for operand %u of '%.*s' not a valid even/odd pair"
@@ -12199,7 +12179,7 @@
  
  #: config/tc-tic6x.c:1667
  #, c-format
-@@ -20161,7 +20254,7 @@
+@@ -20161,7 +20253,7 @@
  #: config/tc-tic6x.c:2025
  #, c-format
  msgid "no %d-byte relocations available"
@@ -12208,7 +12188,7 @@
  
  #: config/tc-tic6x.c:2512 config/tc-tic6x.c:2543 config/tc-tic6x.c:2561
  #: config/tc-tic6x.c:2991 config/tc-tic6x.c:3010 config/tc-tic6x.c:3042
-@@ -20172,12 +20265,12 @@
+@@ -20172,12 +20264,12 @@
  #: config/tc-tic6x.c:2605 config/tc-tic6x.c:2830
  #, c-format
  msgid "offset in operand %u of '%.*s' not divisible by %u"
@@ -12223,7 +12203,7 @@
  
  #: config/tc-tic6x.c:2937
  #, c-format
-@@ -20211,7 +20304,7 @@
+@@ -20211,7 +20303,7 @@
  
  #: config/tc-tic6x.c:3362
  msgid "missing operand after comma"
@@ -12232,7 +12212,7 @@
  
  #: config/tc-tic6x.c:3370 config/tc-tic6x.c:3388
  #, c-format
-@@ -20226,7 +20319,7 @@
+@@ -20226,7 +20318,7 @@
  #: config/tc-tic6x.c:3473
  #, c-format
  msgid "operand %u of '%.*s' not constant"
@@ -12241,7 +12221,7 @@
  
  #: config/tc-tic6x.c:3478
  #, c-format
-@@ -20241,12 +20334,12 @@
+@@ -20241,12 +20333,12 @@
  #: config/tc-tic6x.c:3489
  #, c-format
  msgid "operand %u of '%.*s' is write-only"
@@ -12256,7 +12236,7 @@
  
  #: config/tc-tic6x.c:3499
  #, c-format
-@@ -20265,28 +20358,28 @@
+@@ -20265,28 +20357,28 @@
  
  #: config/tc-tic6x.c:3637
  msgid "parallel instruction not following another instruction"
@@ -12291,7 +12271,7 @@
  
  #: config/tc-tic6x.c:3726
  msgid "'||^' without previous SPMASK"
-@@ -20294,41 +20387,41 @@
+@@ -20294,41 +20386,41 @@
  
  #: config/tc-tic6x.c:3728
  msgid "cannot mask instruction using no functional unit"
@@ -12342,7 +12322,7 @@
  
  #: config/tc-tic6x.c:4536
  #, c-format
-@@ -20342,28 +20435,28 @@
+@@ -20342,28 +20434,28 @@
  
  #: config/tc-tic6x.c:4804
  msgid "missing .endp before .cfi_startproc"
@@ -12377,7 +12357,7 @@
  
  #: config/tc-tic6x.c:5167
  #, c-format
-@@ -20381,15 +20474,15 @@
+@@ -20381,15 +20473,15 @@
  
  #: config/tc-tic6x.c:5195
  msgid "unwound stack pointer not doubleword aligned"
@@ -12396,7 +12376,7 @@
  
  #: config/tc-tilegx.c:141
  #, c-format
-@@ -20406,11 +20499,11 @@
+@@ -20406,11 +20498,11 @@
  
  #: config/tc-tilegx.c:731 config/tc-tilepro.c:619
  msgid "Invalid operator for operand."
@@ -12410,7 +12390,7 @@
  
  #: config/tc-tilegx.c:819 config/tc-tilepro.c:707
  #, c-format
-@@ -20420,16 +20513,17 @@
+@@ -20420,16 +20512,17 @@
  #: config/tc-tilegx.c:846 config/tc-tilepro.c:734
  #, c-format
  msgid "Two instructions in the same bundle both write to register %s, which is not allowed."
@@ -12431,7 +12411,7 @@
  
  #: config/tc-tilegx.c:974 config/tc-tilepro.c:861
  msgid "instruction address is not a multiple of 8"
-@@ -21482,17 +21576,17 @@
+@@ -21482,17 +21575,17 @@
  
  #: config/tc-xtensa.c:4099
  msgid "immediate operands sum to greater than 32"
@@ -12452,7 +12432,7 @@
  
  #: config/tc-xtensa.c:4371
  #, c-format
-@@ -21506,7 +21600,7 @@
+@@ -21506,7 +21599,7 @@
  
  #: config/tc-xtensa.c:4853
  msgid "opcode 'NOP.N' unavailable in this configuration"
@@ -12461,7 +12441,7 @@
  
  #: config/tc-xtensa.c:4913
  msgid "get_expanded_loop_offset: invalid opcode"
-@@ -21515,7 +21609,8 @@
+@@ -21515,7 +21608,8 @@
  #: config/tc-xtensa.c:5074
  #, c-format
  msgid "assembly state not set for first frag in section %s"
@@ -12471,7 +12451,7 @@
  
  #: config/tc-xtensa.c:5127
  #, c-format
-@@ -21529,11 +21624,11 @@
+@@ -21529,11 +21623,11 @@
  
  #: config/tc-xtensa.c:5196
  msgid "unexpected fix"
@@ -12485,7 +12465,7 @@
  
  #: config/tc-xtensa.c:5372
  msgid "labels are not valid inside bundles"
-@@ -21541,19 +21636,19 @@
+@@ -21541,19 +21635,19 @@
  
  #: config/tc-xtensa.c:5392
  msgid "invalid last instruction for a zero-overhead loop"
@@ -12509,7 +12489,7 @@
  
  #: config/tc-xtensa.c:5594 config/tc-xtensa.c:5623
  #, c-format
-@@ -21572,20 +21667,20 @@
+@@ -21572,20 +21666,20 @@
  
  #: config/tc-xtensa.c:5651
  msgid "format names only valid inside bundles"
@@ -12534,7 +12514,7 @@
  
  #: config/tc-xtensa.c:5825
  msgid "bad instruction format"
-@@ -21617,7 +21712,7 @@
+@@ -21617,7 +21711,7 @@
  
  #: config/tc-xtensa.c:6400
  msgid "The option \"--no-allow-flix\" prohibits multi-slot flix."
@@ -12543,7 +12523,7 @@
  
  #: config/tc-xtensa.c:6407
  msgid "couldn't find a valid instruction format"
-@@ -21626,7 +21721,7 @@
+@@ -21626,7 +21720,7 @@
  #: config/tc-xtensa.c:6408
  #, c-format
  msgid "    ops were: "
@@ -12552,7 +12532,7 @@
  
  #: config/tc-xtensa.c:6410
  #, c-format
-@@ -21636,11 +21731,11 @@
+@@ -21636,11 +21730,11 @@
  #: config/tc-xtensa.c:6420
  #, c-format
  msgid "mismatch for format '%s': #slots = %d, #opcodes = %d"
@@ -12566,7 +12546,7 @@
  
  #: config/tc-xtensa.c:6615
  #, c-format
-@@ -21661,7 +21756,7 @@
+@@ -21661,7 +21755,7 @@
  #: config/tc-xtensa.c:6630
  #, c-format
  msgid "opcodes '%s' (slot %d) and '%s' (slot %d) both have volatile port accesses"
@@ -12575,7 +12555,7 @@
  
  #: config/tc-xtensa.c:6646
  msgid "multiple branches or jumps in the same bundle"
-@@ -21677,15 +21772,15 @@
+@@ -21677,15 +21771,15 @@
  
  #: config/tc-xtensa.c:8325
  msgid "instruction sequence (write a0, branch, retw) may trigger hardware errata"
@@ -12594,7 +12574,7 @@
  
  #: config/tc-xtensa.c:8528
  #, c-format
-@@ -21694,11 +21789,11 @@
+@@ -21694,11 +21788,11 @@
  
  #: config/tc-xtensa.c:8686
  msgid "loop containing less than three instructions may trigger hardware errata"
@@ -12608,7 +12588,7 @@
  
  #: config/tc-xtensa.c:8868
  msgid "invalid empty loop"
-@@ -21706,7 +21801,7 @@
+@@ -21706,7 +21800,7 @@
  
  #: config/tc-xtensa.c:8873
  msgid "loop target does not follow loop instruction in section"
@@ -12617,7 +12597,7 @@
  
  #: config/tc-xtensa.c:9440
  msgid "cannot find suitable trampoline"
-@@ -21714,7 +21809,7 @@
+@@ -21714,7 +21808,7 @@
  
  #: config/tc-xtensa.c:9695
  msgid "bad relaxation state"
@@ -12626,7 +12606,7 @@
  
  #: config/tc-xtensa.c:9753
  #, c-format
-@@ -21727,7 +21822,7 @@
+@@ -21727,7 +21821,7 @@
  
  #: config/tc-xtensa.c:10576
  msgid "invalid relaxation fragment result"
@@ -12635,7 +12615,7 @@
  
  #: config/tc-xtensa.c:10658
  msgid "unable to widen instruction"
-@@ -21735,7 +21830,7 @@
+@@ -21735,7 +21829,7 @@
  
  #: config/tc-xtensa.c:10796
  msgid "multiple literals in expansion"
@@ -12644,7 +12624,7 @@
  
  #: config/tc-xtensa.c:10800
  msgid "no registered fragment for literal"
-@@ -21743,7 +21838,7 @@
+@@ -21743,7 +21837,7 @@
  
  #: config/tc-xtensa.c:10802
  msgid "number of literal tokens != 1"
@@ -12653,7 +12633,7 @@
  
  #: config/tc-xtensa.c:10931 config/tc-xtensa.c:10937
  #, c-format
-@@ -21753,15 +21848,16 @@
+@@ -21753,15 +21847,16 @@
  #: config/tc-xtensa.c:11425
  #, c-format
  msgid "fixes not all moved from %s"
@@ -12673,7 +12653,7 @@
  
  #: config/tc-xtensa.c:12623
  msgid "invalid symbolic operand"
-@@ -21769,7 +21865,7 @@
+@@ -21769,7 +21864,7 @@
  
  #: config/tc-xtensa.c:12684
  msgid "operand number mismatch"
@@ -12682,7 +12662,7 @@
  
  #: config/tc-xtensa.c:12688
  #, c-format
-@@ -21795,7 +21891,7 @@
+@@ -21795,7 +21890,7 @@
  
  #: config/tc-xtensa.c:12846
  msgid "multiple writes to the same register"
@@ -12691,7 +12671,7 @@
  
  #: config/tc-xtensa.c:12960 config/tc-xtensa.c:12966
  msgid "out of memory"
-@@ -21803,7 +21899,7 @@
+@@ -21803,7 +21898,7 @@
  
  #: config/tc-xtensa.c:13055
  msgid "TLS relocation not allowed in FLIX bundle"
@@ -12700,7 +12680,7 @@
  
  #. Instructions that generate TLS relocations should always be
  #. relaxed in the front-end.  If "record_fixup" is set, then this
-@@ -21815,7 +21911,7 @@
+@@ -21815,7 +21910,7 @@
  
  #: config/tc-xtensa.c:13105
  msgid "symbolic operand not allowed"
@@ -12709,7 +12689,7 @@
  
  #: config/tc-xtensa.c:13142
  msgid "cannot decode instruction format"
-@@ -21833,32 +21929,32 @@
+@@ -21833,32 +21928,32 @@
  #: config/tc-xtensa.c:13302
  #, c-format
  msgid "section %s renamed multiple times"
@@ -12748,7 +12728,7 @@
  
  #: config/tc-z80.c:403
  #, c-format
-@@ -21876,7 +21972,7 @@
+@@ -21876,7 +21971,7 @@
  #: config/tc-z80.c:409
  #, c-format
  msgid "And EXT is combination (+EXT - add, -EXT - remove) of:\n"
@@ -12757,7 +12737,7 @@
  
  #: config/tc-z80.c:412
  #, c-format
-@@ -21906,11 +22002,11 @@
+@@ -21906,11 +22001,11 @@
  "  -fp-s=FORMAT\t\t  ställ in format för enkelprecisions-FP-tal\n"
  "  -fp-d=FORMAT\t\t  ställ in format för dubbelprecisions-FP-tal\n"
  "Där FORMAT är ett av följande:\n"
@@ -12774,7 +12754,7 @@
  "  math48\t\t  48-bitarsformat från Math48-biblioteket\n"
  "\n"
  "Standard: -march=z80+xyhl+infc\n"
-@@ -21925,7 +22021,7 @@
+@@ -21925,7 +22020,7 @@
  
  #: config/tc-z80.c:865 config/tc-z80.c:871
  msgid "mismatched parentheses"
@@ -12783,7 +12763,7 @@
  
  #: config/tc-z80.c:963
  msgid "bad expression syntax"
-@@ -21943,7 +22039,7 @@
+@@ -21943,7 +22038,7 @@
  
  #: config/tc-z80.c:1274
  msgid "cannot make a relative jump to an absolute location"
@@ -12792,7 +12772,7 @@
  
  #: config/tc-z80.c:1281
  #, c-format
-@@ -21965,7 +22061,7 @@
+@@ -21965,7 +22060,7 @@
  
  #: config/tc-z80.c:1900
  msgid "condition code invalid for jr"
@@ -12801,7 +12781,7 @@
  
  #: config/tc-z80.c:2489 config/tc-z80.c:2500 config/tc-z80.c:2516
  #: config/tc-z80.c:2549
-@@ -21978,15 +22074,15 @@
+@@ -21978,15 +22073,15 @@
  #. LIL prefix, in Z80 it is LD E,E
  #: config/tc-z80.c:2624
  msgid "unsupported instruction, assembled as NOP"
@@ -12820,7 +12800,7 @@
  
  #: config/tc-z80.c:3287
  msgid "assignment expected"
-@@ -21995,7 +22091,7 @@
+@@ -21995,7 +22090,7 @@
  #: config/tc-z80.c:3694
  #, c-format
  msgid "Unknown instruction `%s'"
@@ -12829,7 +12809,7 @@
  
  #: config/tc-z80.c:3770
  #, c-format
-@@ -22033,57 +22129,57 @@
+@@ -22033,57 +22128,57 @@
  
  #: config/tc-z80.c:4115
  msgid "overflow"
@@ -12898,7 +12878,7 @@
  
  #: config/tc-z8k.c:538
  #, c-format
-@@ -22097,7 +22193,7 @@
+@@ -22097,7 +22192,7 @@
  
  #: config/tc-z8k.c:672
  msgid "Missing ) in ra(rb)"
@@ -12907,7 +12887,7 @@
  
  #: config/tc-z8k.c:752 config/tc-z8k.c:791
  #, c-format
-@@ -22119,11 +22215,11 @@
+@@ -22119,11 +22214,11 @@
  
  #: config/tc-z8k.c:1095
  msgid "immediate must be 1 or 2"
@@ -12921,7 +12901,7 @@
  
  #: config/tc-z8k.c:1129
  msgid "can't use R0 here"
-@@ -22131,7 +22227,7 @@
+@@ -22131,7 +22226,7 @@
  
  #: config/tc-z8k.c:1287
  msgid "Can't find opcode to match operands"
@@ -12930,7 +12910,7 @@
  
  #: config/tc-z8k.c:1334
  #, c-format
-@@ -22147,10 +22243,10 @@
+@@ -22147,10 +22242,10 @@
  "  -z8002                  generate unsegmented code\n"
  "  -linkrelax              create linker relaxable code\n"
  msgstr ""
@@ -12943,7 +12923,7 @@
  
  #: config/tc-z8k.c:1365
  #, c-format
-@@ -22191,20 +22287,20 @@
+@@ -22191,20 +22286,20 @@
  #: config/xtensa-relax.c:1704 config/xtensa-relax.c:1714
  #, c-format
  msgid "opcode '%s': no bound opname '%s' for precondition in '%s'"
@@ -12968,7 +12948,7 @@
  
  #: config/xtensa-relax.c:1788
  #, c-format
-@@ -22215,8 +22311,8 @@
+@@ -22215,8 +22310,8 @@
  #, c-format
  msgid "opcode '%s': replacement does not have %d op"
  msgid_plural "opcode '%s': replacement does not have %d ops"
@@ -12979,7 +12959,7 @@
  
  #: config/xtensa-relax.c:1812
  #, c-format
-@@ -22271,11 +22367,11 @@
+@@ -22271,11 +22366,11 @@
  #: dw2gencfi.c:583 dw2gencfi.c:599
  #, c-format
  msgid "register save offset not a multiple of %u"
@@ -12993,7 +12973,7 @@
  
  #: dw2gencfi.c:740
  msgid "missing separator"
-@@ -22288,35 +22384,35 @@
+@@ -22288,35 +22383,35 @@
  #: dw2gencfi.c:810 dw2gencfi.c:959 dw2gencfi.c:1040 dw2gencfi.c:1111
  #: dw2gencfi.c:1184 dw2gencfi.c:1249 dw2gencfi.c:1448 scfidw2gen.c:176
  msgid "CFI instruction used without previous .cfi_startproc"
@@ -13037,7 +13017,7 @@
  
  #: dw2gencfi.c:1333
  msgid "inconsistent uses of .cfi_sections"
-@@ -22324,11 +22420,11 @@
+@@ -22324,11 +22419,11 @@
  
  #: dw2gencfi.c:1344
  msgid "previous CFI entry not closed (missing .cfi_endproc)"
@@ -13051,7 +13031,7 @@
  
  #: dw2gencfi.c:1459
  msgid "wrong argument to .cfi_personality_id"
-@@ -22357,11 +22453,11 @@
+@@ -22357,11 +22452,11 @@
  #: dw2gencfi.c:1608
  #, c-format
  msgid "Alignment too large: %d. assumed."
@@ -13065,7 +13045,7 @@
  
  #: dw2gencfi.c:1638
  msgid ".cfi_inline_lsda is not supported for this target"
-@@ -22378,11 +22474,11 @@
+@@ -22378,11 +22473,11 @@
  #: dw2gencfi.c:1974
  #, c-format
  msgid "return column number %d overflows in CIE version 1"
@@ -13079,7 +13059,7 @@
  
  #. Avoid erroring with DEFAULT_SFRAME for non-default options, like
  #. -32 on x86_64.
-@@ -22410,11 +22506,11 @@
+@@ -22410,11 +22505,11 @@
  
  #: dwarf2dbg.c:1190 dwarf2dbg.c:1282
  msgid "file number less than one"
@@ -13093,7 +13073,7 @@
  
  #: dwarf2dbg.c:1289 dwarf2dbg.c:2312
  #, c-format
-@@ -22423,19 +22519,19 @@
+@@ -22423,19 +22518,19 @@
  
  #: dwarf2dbg.c:1367
  msgid "is_stmt value not 0 or 1"
@@ -13117,7 +13097,7 @@
  
  #: dwarf2dbg.c:1452
  #, c-format
-@@ -22449,7 +22545,7 @@
+@@ -22449,7 +22544,7 @@
  #: ecoff.c:1560
  #, c-format
  msgid "string too big (%lu bytes)"
@@ -13126,7 +13106,7 @@
  
  #: ecoff.c:1613 ecoff.c:1806 ecoff.c:1829 ecoff.c:1859 ecoff.c:2011
  #: ecoff.c:2115
-@@ -22458,11 +22554,11 @@
+@@ -22458,11 +22553,11 @@
  
  #: ecoff.c:1700
  msgid "too many st_End's"
@@ -13140,7 +13120,7 @@
  
  #: ecoff.c:2267
  msgid "filename goes over one page boundary"
-@@ -22490,19 +22586,19 @@
+@@ -22490,19 +22585,19 @@
  
  #: ecoff.c:2494
  msgid ".def pseudo-op used inside of .def/.endef; ignored"
@@ -13164,7 +13144,7 @@
  
  #: ecoff.c:2559
  msgid "too many .dim entries"
-@@ -22510,11 +22606,11 @@
+@@ -22510,11 +22605,11 @@
  
  #: ecoff.c:2579
  msgid ".scl pseudo-op used outside of .def/.endef; ignored"
@@ -13178,7 +13158,7 @@
  
  #: ecoff.c:2619
  msgid "badly formed .size directive"
-@@ -22526,7 +22622,7 @@
+@@ -22526,7 +22621,7 @@
  
  #: ecoff.c:2654
  msgid ".type pseudo-op used outside of .def/.endef; ignored"
@@ -13187,7 +13167,7 @@
  
  #. FIXME: We could handle this by setting the continued bit.
  #. There would still be a limit: the .type argument can not
-@@ -22538,23 +22634,23 @@
+@@ -22538,23 +22633,23 @@
  
  #: ecoff.c:2683
  msgid "Unrecognized .type argument"
@@ -13216,7 +13196,7 @@
  
  #: ecoff.c:2809 ecoff.c:2889
  msgid "bad COFF debugging information"
-@@ -22575,7 +22671,7 @@
+@@ -22575,7 +22670,7 @@
  
  #: ecoff.c:3010
  msgid "second .ent directive found before .end directive"
@@ -13225,7 +13205,7 @@
  
  #: ecoff.c:3019
  #, c-format
-@@ -22584,7 +22680,7 @@
+@@ -22584,7 +22679,7 @@
  
  #: ecoff.c:3080
  msgid "no way to handle .file within .ent/.end section"
@@ -13234,7 +13214,7 @@
  
  #: ecoff.c:3202
  msgid ".loc before .file"
-@@ -22598,12 +22694,12 @@
+@@ -22598,12 +22693,12 @@
  #: ecoff.c:3413
  #, c-format
  msgid ".stab%c: ignoring non-zero other field"
@@ -13249,7 +13229,7 @@
  
  #: ecoff.c:3481
  #, c-format
-@@ -22620,15 +22716,15 @@
+@@ -22620,15 +22715,15 @@
  
  #: ecoff.c:5101
  msgid "GP prologue size exceeds field size, using 0 instead"
@@ -13268,7 +13248,7 @@
  
  #: expr.c:226
  msgid "bad floating-point constant: exponent overflow"
-@@ -22641,7 +22737,7 @@
+@@ -22641,7 +22736,7 @@
  
  #: expr.c:405
  msgid "a bignum with underscores may not have more than 8 hex digits in any word"
@@ -13277,7 +13257,7 @@
  
  #: expr.c:428
  msgid "a bignum with underscores must have exactly 4 words"
-@@ -22676,7 +22772,7 @@
+@@ -22676,7 +22771,7 @@
  #: expr.c:1206
  #, c-format
  msgid "Unary operator %c ignored because bad operand follows"
@@ -13286,7 +13266,7 @@
  
  #: expr.c:1270 expr.c:1292
  msgid "syntax error in .startof. or .sizeof."
-@@ -22689,23 +22785,23 @@
+@@ -22689,23 +22784,23 @@
  
  #: expr.c:1865
  msgid "missing operand; zero assumed"
@@ -13315,7 +13295,7 @@
  
  #: expr.c:1996 symbols.c:1674
  msgid "division by zero"
-@@ -22717,7 +22813,7 @@
+@@ -22717,7 +22812,7 @@
  
  #: expr.c:2172
  msgid "operation combines symbols in different segments"
@@ -13324,7 +13304,7 @@
  
  #: expr.c:2544
  msgid "missing closing '\"'"
-@@ -22732,7 +22828,7 @@
+@@ -22732,7 +22827,7 @@
  #, fuzzy
  #| msgid "Invalid number"
  msgid "bad number"
@@ -13333,7 +13313,7 @@
  
  #: frags.c:60
  msgid "attempt to allocate data in absolute section"
-@@ -22746,69 +22842,72 @@
+@@ -22746,69 +22841,72 @@
  #, c-format
  msgid "can't extend frag %lu char"
  msgid_plural "can't extend frag %lu chars"
@@ -13421,7 +13401,7 @@
  
  #. In all other cases (e.g., DW_CFA_def_cfa_expression or other
  #. OS-specific CFI opcodes), skip inspecting the DWARF expression.
-@@ -22817,12 +22916,12 @@
+@@ -22817,12 +22915,12 @@
  #: gen-sframe.c:2150
  #, c-format
  msgid "no SFrame FDE emitted; .cfi_escape with op (%#lx)"
@@ -13436,7 +13416,7 @@
  
  #: gen-sframe.c:2368
  msgid "(unknown)"
-@@ -22831,16 +22930,16 @@
+@@ -22831,16 +22929,16 @@
  #: gen-sframe.c:2369
  #, c-format
  msgid "no SFrame FDE emitted; CFI insn %s (%#x)"
@@ -13456,7 +13436,7 @@
  
  #: gen-sframe.c:2452
  msgid "no SFrame FDE emitted; FP without RA on stack"
-@@ -22849,7 +22948,8 @@
+@@ -22849,7 +22947,8 @@
  #: ginsn.c:877
  #, c-format
  msgid "missing label '%s' in func '%s' may result in imprecise cfg"
@@ -13466,7 +13446,7 @@
  
  #: ginsn.c:986
  #, c-format
-@@ -22858,7 +22958,7 @@
+@@ -22858,7 +22957,7 @@
  
  #: ginsn.c:1208
  msgid "GINSN process for prev func not done"
@@ -13475,7 +13455,7 @@
  
  #: ginsn.c:1242
  #, c-format
-@@ -22868,7 +22968,7 @@
+@@ -22868,7 +22967,7 @@
  #: ginsn.c:1252
  #, c-format
  msgid "Bad cfg of ginsn of func '%s'"
@@ -13484,7 +13464,7 @@
  
  #: ginsn.c:1314 ginsn.c:1321
  msgid "ginsn unsupported for target"
-@@ -22888,7 +22988,7 @@
+@@ -22888,7 +22987,7 @@
  #. that is produced at the end of the assembly.
  #: input-file.c:136 input-scrub.c:271 listing.c:345
  msgid "{standard input}"
@@ -13493,7 +13473,7 @@
  
  #: input-file.c:141
  #, c-format
-@@ -22907,16 +23007,16 @@
+@@ -22907,16 +23006,16 @@
  
  #: input-scrub.c:301
  msgid "macros nested too deeply"
@@ -13513,7 +13493,7 @@
  
  #: listing.c:244 messages.c:205 messages.c:207 messages.c:210
  msgid "Warning: "
-@@ -22929,7 +23029,7 @@
+@@ -22929,7 +23028,7 @@
  #: listing.c:656
  #, c-format
  msgid "unable to rebuffer file: %s\n"
@@ -13522,7 +13502,7 @@
  
  #: listing.c:1353
  #, c-format
-@@ -22962,7 +23062,7 @@
+@@ -22962,7 +23061,7 @@
  " options passed\t: "
  msgstr ""
  "\n"
@@ -13531,7 +13511,7 @@
  
  #: listing.c:1417
  #, c-format
-@@ -22971,7 +23071,7 @@
+@@ -22971,7 +23070,7 @@
  "\t using BFD version %s."
  msgstr ""
  " GNU assembler version %s (%s)\n"
@@ -13540,7 +13520,7 @@
  
  #: listing.c:1420
  #, c-format
-@@ -22989,7 +23089,7 @@
+@@ -22989,7 +23088,7 @@
  " output file   \t: %s"
  msgstr ""
  "\n"
@@ -13549,7 +13529,7 @@
  
  #: listing.c:1422
  #, c-format
-@@ -23008,7 +23108,7 @@
+@@ -23008,7 +23107,7 @@
  # sebras: no form?
  #: listing.c:1531
  msgid "strange paper height, set to no form"
@@ -13558,7 +13538,7 @@
  
  #: listing.c:1555
  msgid "new paper width is too small"
-@@ -23016,15 +23116,15 @@
+@@ -23016,15 +23115,15 @@
  
  #: listing.c:1558
  msgid "bad or irreducible expression for paper width"
@@ -13577,7 +13557,7 @@
  
  #: macro.c:369
  #, c-format
-@@ -23034,7 +23134,7 @@
+@@ -23034,7 +23133,7 @@
  #: macro.c:519
  #, c-format
  msgid "Missing parameter qualifier for `%s' in macro `%s'"
@@ -13586,7 +13566,7 @@
  
  #: macro.c:529
  #, c-format
-@@ -23044,17 +23144,17 @@
+@@ -23044,17 +23143,17 @@
  #: macro.c:546
  #, c-format
  msgid "Pointless default value for required parameter `%s' in macro `%s'"
@@ -13607,7 +13587,7 @@
  
  #: macro.c:648
  #, c-format
-@@ -23064,11 +23164,11 @@
+@@ -23064,11 +23163,11 @@
  #: macro.c:660
  #, c-format
  msgid "missing `)' after formals in macro definition `%s'"
@@ -13621,7 +13601,7 @@
  
  #: macro.c:684
  #, c-format
-@@ -23078,7 +23178,7 @@
+@@ -23078,7 +23177,7 @@
  #: macro.c:692
  #, c-format
  msgid "Macro `%s' was already defined"
@@ -13630,7 +13610,7 @@
  
  #: macro.c:818 macro.c:820
  msgid "missing `)'"
-@@ -23092,7 +23192,7 @@
+@@ -23092,7 +23191,7 @@
  #: macro.c:1074
  #, c-format
  msgid "Parameter named `%s' does not exist for macro `%s'"
@@ -13639,7 +13619,7 @@
  
  #: macro.c:1086
  #, c-format
-@@ -23101,7 +23201,7 @@
+@@ -23101,7 +23200,7 @@
  
  #: macro.c:1101
  msgid "can't mix positional and keyword arguments"
@@ -13648,7 +13628,7 @@
  
  #: macro.c:1112
  msgid "too many positional arguments"
-@@ -23110,12 +23210,12 @@
+@@ -23110,12 +23209,12 @@
  #: macro.c:1160
  #, c-format
  msgid "Missing value for required parameter `%s' of macro `%s'"
@@ -13663,7 +13643,7 @@
  
  #: macro.c:1299
  msgid "unexpected end of file in irp or irpc"
-@@ -23128,12 +23228,12 @@
+@@ -23128,12 +23227,12 @@
  #: messages.c:88
  #, c-format
  msgid "Assembler messages:\n"
@@ -13678,7 +13658,7 @@
  
  #: messages.c:386
  #, c-format
-@@ -23175,7 +23275,7 @@
+@@ -23175,7 +23274,7 @@
  #: output-file.c:37
  #, c-format
  msgid "can't open a bfd on stdout %s"
@@ -13687,7 +13667,7 @@
  
  #: output-file.c:44
  #, c-format
-@@ -23190,7 +23290,7 @@
+@@ -23190,7 +23289,7 @@
  #: read.c:567
  #, c-format
  msgid "error constructing %s pseudo-op table"
@@ -13696,7 +13676,7 @@
  
  #: read.c:755
  msgid "cannot change section or subsection inside .bundle_lock"
-@@ -23208,7 +23308,7 @@
+@@ -23208,7 +23307,7 @@
  
  #: read.c:821 read.c:2968 read.c:3608
  msgid "ignoring fill value in absolute section"
@@ -13705,7 +13685,7 @@
  
  #: read.c:823 read.c:2983 read.c:3645
  #, c-format
-@@ -23218,7 +23318,7 @@
+@@ -23218,7 +23317,7 @@
  #: read.c:1273
  #, c-format
  msgid "unknown pseudo-op: `%s'"
@@ -13714,7 +13694,7 @@
  
  #: read.c:1326
  msgid "unable to continue with assembly."
-@@ -23232,7 +23332,7 @@
+@@ -23232,7 +23331,7 @@
  #: read.c:1383
  #, c-format
  msgid "label \"%ld$\" redefined"
@@ -13723,7 +13703,7 @@
  
  #: read.c:1432
  msgid ".bundle_lock with no matching .bundle_unlock"
-@@ -23245,11 +23345,11 @@
+@@ -23245,11 +23344,11 @@
  #: read.c:1599
  #, c-format
  msgid "alignment too large: %u assumed"
@@ -13737,7 +13717,7 @@
  
  #: read.c:1638
  msgid "expected fill pattern missing"
-@@ -23276,7 +23376,7 @@
+@@ -23276,7 +23375,7 @@
  #: read.c:2114
  #, c-format
  msgid "line numbers must be positive; line number %d rejected"
@@ -13746,7 +13726,7 @@
  
  #: read.c:2150
  #, c-format
-@@ -23294,15 +23394,15 @@
+@@ -23294,15 +23393,15 @@
  
  #: read.c:2219
  msgid ".err encountered"
@@ -13765,7 +13745,7 @@
  
  #: read.c:2242
  #, c-format
-@@ -23329,19 +23429,19 @@
+@@ -23329,19 +23428,19 @@
  #: read.c:2376
  #, c-format
  msgid ".fill size clamped to %d"
@@ -13789,7 +13769,7 @@
  
  #: read.c:2399
  msgid "attempt to fill absolute section with non-zero value"
-@@ -23350,7 +23450,7 @@
+@@ -23350,7 +23449,7 @@
  #: read.c:2406
  #, c-format
  msgid "attempt to fill section `%s' with non-zero value"
@@ -13798,7 +13778,7 @@
  
  #: read.c:2568
  #, c-format
-@@ -23363,12 +23463,12 @@
+@@ -23363,12 +23462,12 @@
  
  #: read.c:2675
  msgid "expected alignment after size"
@@ -13813,7 +13793,7 @@
  
  #: read.c:2909
  msgid "ignoring macro exit outside a macro definition."
-@@ -23404,7 +23504,7 @@
+@@ -23404,7 +23503,7 @@
  
  #: read.c:3272
  msgid "`\\' at end of line/statement; ignored"
@@ -13822,7 +13802,7 @@
  
  #: read.c:3551
  msgid "unsupported variable size or fill value"
-@@ -23413,27 +23513,27 @@
+@@ -23413,27 +23512,27 @@
  #: read.c:3559
  #, c-format
  msgid "size value for space directive too large: %lx"
@@ -13856,7 +13836,7 @@
  
  #: read.c:3751
  msgid "unsupported variable nop control in .nops directive"
-@@ -23441,12 +23541,12 @@
+@@ -23441,12 +23540,12 @@
  
  #: read.c:3757
  msgid "negative nop control byte, ignored"
@@ -13871,7 +13851,7 @@
  
  #: read.c:4050
  #, c-format
-@@ -23456,7 +23556,7 @@
+@@ -23456,7 +23555,7 @@
  #: read.c:4107
  #, c-format
  msgid "junk at end of line, first unrecognized character valued 0x%x"
@@ -13880,7 +13860,7 @@
  
  #: read.c:4242 write.c:2421
  #, c-format
-@@ -23473,7 +23573,7 @@
+@@ -23473,7 +23572,7 @@
  
  #: read.c:4466
  msgid "missing or bad offset expression"
@@ -13889,7 +13869,7 @@
  
  #: read.c:4490
  msgid "missing reloc type"
-@@ -23489,7 +23589,7 @@
+@@ -23489,7 +23588,7 @@
  
  #: read.c:4682 read.c:5450 read.c:5578
  msgid "zero assumed for missing expression"
@@ -13898,7 +13878,7 @@
  
  #: read.c:4702 read.c:5481 read.c:5597
  msgid "attempt to store value in absolute section"
-@@ -23515,7 +23615,7 @@
+@@ -23515,7 +23614,7 @@
  
  #: read.c:5038 read.c:5189
  msgid "unresolvable or nonpositive repeat count; using 1"
@@ -13907,7 +13887,7 @@
  
  #: read.c:5081
  msgid "floating point constant too large"
-@@ -23532,23 +23632,24 @@
+@@ -23532,23 +23631,24 @@
  
  #: read.c:5584
  msgid "number invalid"
@@ -13937,7 +13917,7 @@
  
  #: read.c:5895
  msgid ".base64 string terminated early"
-@@ -23560,7 +23661,7 @@
+@@ -23560,7 +23660,7 @@
  
  #: read.c:5907
  msgid "equals character only allowed at end of .base64 string"
@@ -13946,7 +13926,7 @@
  
  #: read.c:5916
  msgid "the equals character cannot start a block of four base64 encoded bytes"
-@@ -23582,7 +23683,7 @@
+@@ -23582,7 +23682,7 @@
  
  #: read.c:5960
  msgid "no base64 characters expected after '=' padding characters"
@@ -13955,7 +13935,7 @@
  
  #: read.c:5970
  msgid ".base64 string must have a terminating double quote character"
-@@ -23601,16 +23702,16 @@
+@@ -23601,16 +23701,16 @@
  #, fuzzy
  #| msgid "out of range"
  msgid "<nn> out of range"
@@ -13975,7 +13955,7 @@
  
  #: read.c:6280
  msgid "bad escaped character in string"
-@@ -23618,16 +23719,16 @@
+@@ -23618,16 +23718,16 @@
  
  #: read.c:6304
  msgid "expected address expression"
@@ -13995,7 +13975,7 @@
  
  #: read.c:6359
  msgid "this string may not contain '\\0'"
-@@ -23640,7 +23741,7 @@
+@@ -23640,7 +23740,7 @@
  #: read.c:6513
  #, c-format
  msgid ".incbin count zero, ignoring `%s'"
@@ -14004,7 +13984,7 @@
  
  #: read.c:6525
  #, c-format
-@@ -23650,12 +23751,12 @@
+@@ -23650,12 +23750,12 @@
  #: read.c:6535
  #, c-format
  msgid "unable to include `%s'"
@@ -14019,7 +13999,7 @@
  
  #: read.c:6555
  #, c-format
-@@ -23670,7 +23771,7 @@
+@@ -23670,7 +23770,7 @@
  #: read.c:6571
  #, c-format
  msgid "truncated file `%s', %ld of %ld bytes read"
@@ -14028,7 +14008,7 @@
  
  #: read.c:6707
  msgid "missing .func"
-@@ -23683,7 +23784,7 @@
+@@ -23683,7 +23783,7 @@
  #: read.c:6779
  #, c-format
  msgid ".bundle_align_mode alignment too large (maximum %u)"
@@ -14037,7 +14017,7 @@
  
  #: read.c:6784
  msgid "cannot change .bundle_align_mode inside .bundle_lock"
-@@ -23714,7 +23815,7 @@
+@@ -23714,7 +23814,7 @@
  #: remap.c:53
  #, c-format
  msgid "invalid argument '%s' to -fdebug-prefix-map"
@@ -14046,7 +14026,7 @@
  
  #: scfi.c:545
  msgid "SCFI: usage of REG_FP as scratch not supported"
-@@ -23730,7 +23831,7 @@
+@@ -23730,7 +23830,7 @@
  
  #: scfi.c:969
  msgid "SCFI: Bad CFI propagation perhaps"
@@ -14055,7 +14035,7 @@
  
  #: scfi.c:1116
  #, c-format
-@@ -23744,13 +23845,13 @@
+@@ -23744,13 +23844,13 @@
  
  #: scfi.c:1190
  msgid "SCFI: Invalid DWARF CFI opcode data"
@@ -14071,7 +14051,7 @@
  
  #: scfi.c:1256 scfi.c:1265
  msgid "SCFI: unsupported for target"
-@@ -23762,7 +23863,7 @@
+@@ -23762,7 +23862,7 @@
  
  #: scfidw2gen.c:132
  msgid "SCFI: missing previous SCFI endproc marker"
@@ -14080,7 +14060,7 @@
  
  #: stabs.c:187
  #, c-format
-@@ -23775,7 +23876,8 @@
+@@ -23775,7 +23875,8 @@
  #: stabs.c:289
  #, c-format
  msgid ".stab%c: description field '%x' too big, try a different debug format"
@@ -14090,7 +14070,7 @@
  
  #: stabs.c:420
  msgid "comma missing in .xstabs"
-@@ -23784,7 +23886,7 @@
+@@ -23784,7 +23885,7 @@
  #: symbols.c:386 symbols.c:2531
  #, c-format
  msgid "symbol '%s' contains multibyte characters"
@@ -14099,7 +14079,7 @@
  
  #: symbols.c:526
  #, c-format
-@@ -23809,17 +23911,17 @@
+@@ -23809,17 +23910,17 @@
  #: symbols.c:1238
  #, c-format
  msgid "invalid operands (%s and %s sections) for `%s' when setting `%s'"
@@ -14120,7 +14100,7 @@
  
  #: symbols.c:1337
  #, c-format
-@@ -23834,12 +23936,12 @@
+@@ -23834,12 +23935,12 @@
  #. See PR 20895 for a reproducer.
  #: symbols.c:1746
  msgid "Invalid operation on symbol"
@@ -14135,7 +14115,7 @@
  
  #: symbols.c:2216
  #, c-format
-@@ -23853,7 +23955,7 @@
+@@ -23853,7 +23954,7 @@
  #: symbols.c:2249 symbols.c:2252
  #, c-format
  msgid "attempt to get value of unresolved symbol `%s'"
@@ -14144,7 +14124,7 @@
  
  #. Do not reassign section symbols.
  #: symbols.c:2552
-@@ -23867,12 +23969,12 @@
+@@ -23867,12 +23968,12 @@
  #: symbols.c:2664
  #, c-format
  msgid "Accessing function `%s' as thread-local object"
@@ -14159,7 +14139,7 @@
  
  #: write.c:158
  #, c-format
-@@ -23882,7 +23984,7 @@
+@@ -23882,7 +23983,7 @@
  #: write.c:435
  #, c-format
  msgid "attempt to .org/.space/.nops backwards? (%ld)"
@@ -14168,7 +14148,7 @@
  
  #: write.c:457
  #, c-format
-@@ -23897,7 +23999,8 @@
+@@ -23897,7 +23998,8 @@
  #: write.c:642
  #, c-format
  msgid "section `%s' size (%#<PRIx64>) is not a multiple of its entry size %#x"
@@ -14178,7 +14158,7 @@
  
  #: write.c:721
  msgid "invalid offset expression"
-@@ -23922,7 +24025,7 @@
+@@ -23922,7 +24024,7 @@
  #: write.c:1177
  #, c-format
  msgid "signed .word overflow; switch may be too large; %ld at 0x%lx"
@@ -14187,7 +14167,7 @@
  
  #: write.c:1218
  msgid "redefined symbol cannot be used on reloc"
-@@ -23935,15 +24038,15 @@
+@@ -23935,15 +24037,15 @@
  #: write.c:1234
  #, c-format
  msgid "%s:%u: bad return from bfd_install_relocation: %x"
@@ -14206,7 +14186,7 @@
  
  #: write.c:1439
  #, c-format
-@@ -23956,7 +24059,7 @@
+@@ -23956,7 +24058,7 @@
  
  #: write.c:1646
  msgid "unimplemented .nops directive"
@@ -14215,7 +14195,7 @@
  
  #: write.c:1692
  #, c-format
-@@ -23976,11 +24079,11 @@
+@@ -23976,11 +24078,11 @@
  
  #: write.c:1971
  msgid "unable to create reloc for build note"
@@ -14229,7 +14209,7 @@
  
  #: write.c:2388
  #, c-format
-@@ -23995,7 +24098,7 @@
+@@ -23995,7 +24097,7 @@
  #: write.c:2429
  #, c-format
  msgid "can't make global register symbol `%s'"
@@ -14238,7 +14218,7 @@
  
  #: write.c:2739
  #, c-format
-@@ -24015,7 +24118,7 @@
+@@ -24015,7 +24117,7 @@
  
  #: write.c:3058
  msgid "attempt to move .org backwards"
@@ -14247,7 +14227,7 @@
  
  #: write.c:3083
  msgid ".space, .nops or .fill specifies non-absolute value"
-@@ -24028,7 +24131,7 @@
+@@ -24028,7 +24130,7 @@
  #: write.c:3188
  #, c-format
  msgid "Infinite loop encountered whilst attempting to compute the addresses of symbols in section %s"

@@ -1,6 +1,6 @@
 --- a/help2man-1.47.17.sv.po
 +++ b/help2man-1.47.17.sv.po
-@@ -84,15 +84,15 @@
+@@ -84,16 +84,16 @@
  " -S, --source=TEXT       programkälla (FSF, Debian, ...)\n"
  " -L, --locale=STRÄNG     välj lokal (standardvärde ”C”)\n"
  " -i, --include=FIL       inkludera material från ”FIL”\n"
@@ -15,10 +15,12 @@
  "     --version           skriv ut versionsnummer, avsluta sedan\n"
  "\n"
 -"KÖRBAR_FIL bör acceptera flaggorna ”--help” och ”--version” även om\n"
+-"alternativ kan anges med:\n"
 +"KÖRBAR_FIL bör acceptera flaggorna ”--help” och ”--version”, men\n"
- "alternativ kan anges med:\n"
++"flaggor kan anges med:\n"
  "\n"
  " -h, --help-option=STRÄNG     sträng för hjälpflagga\n"
+ " -v, --version-option=STRÄNG  sträng för versionsflagga\n"
 @@ -123,7 +123,7 @@
  #: help2man:261
  #, perl-format
