@@ -1,0 +1,264 @@
+--- a/grep-3.11.68.sv.po
++++ b/grep-3.11.68.sv.po
+@@ -41,7 +41,7 @@
+ 
+ #: lib/c-stack.c:191
+ msgid "stack overflow"
+-msgstr "stacköverspill"
++msgstr "stacköverflöde"
+ 
+ #: lib/closeout.c:121 src/grep.c:1352
+ msgid "write error"
+@@ -61,23 +61,23 @@
+ 
+ #: lib/dfa.c:1234
+ msgid "unfinished \\ escape"
+-msgstr "oavslutad \\-sekvens"
++msgstr "oavslutad \\-escape-sekvens"
+ 
+ #: lib/dfa.c:1344
+ msgid "? at start of expression"
+-msgstr "? i början på uttryck"
++msgstr "? i början av uttrycket"
+ 
+ #: lib/dfa.c:1356
+ msgid "* at start of expression"
+-msgstr "* i början på uttryck"
++msgstr "* i början av uttrycket"
+ 
+ #: lib/dfa.c:1370
+ msgid "+ at start of expression"
+-msgstr "+ i början på uttryck"
++msgstr "+ i början av uttrycket"
+ 
+ #: lib/dfa.c:1425
+ msgid "{...} at start of expression"
+-msgstr "{...} i början på uttryck"
++msgstr "{...} i början av uttrycket"
+ 
+ #: lib/dfa.c:1428
+ msgid "invalid content of \\{\\}"
+@@ -89,20 +89,20 @@
+ 
+ #: lib/dfa.c:1580
+ msgid "stray \\ before unprintable character"
+-msgstr "löst \\ före ej utskrivbart tecken"
++msgstr "vilsekommet \\ före oskrivbart tecken"
+ 
+ #: lib/dfa.c:1582
+ msgid "stray \\ before white space"
+-msgstr "löst \\ före blanktecken"
++msgstr "vilsekommet \\ före blanktecken"
+ 
+ #: lib/dfa.c:1593
+ #, c-format
+ msgid "stray \\ before %s"
+-msgstr "löst \\ före %s"
++msgstr "vilsekommet \\ före %s"
+ 
+ #: lib/dfa.c:1594 lib/dfa.c:1597
+ msgid "stray \\"
+-msgstr "löst \\"
++msgstr "vilsekommet \\"
+ 
+ #: lib/dfa.c:1948
+ msgid "unbalanced ("
+@@ -143,7 +143,7 @@
+ #: lib/getopt.c:363
+ #, c-format
+ msgid "%s: option '%s%s' requires an argument\n"
+-msgstr "%s: flaggan ”%s%s” behöver ett argument\n"
++msgstr "%s: flaggan ”%s%s” kräver ett argument\n"
+ 
+ #: lib/getopt.c:624
+ #, c-format
+@@ -153,7 +153,7 @@
+ #: lib/getopt.c:639 lib/getopt.c:685
+ #, c-format
+ msgid "%s: option requires an argument -- '%c'\n"
+-msgstr "%s: flaggan behöver ett argument -- ”%c”\n"
++msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
+ 
+ #: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34
+ msgid "memory exhausted"
+@@ -161,16 +161,16 @@
+ 
+ #: lib/openat-die.c:38
+ msgid "unable to record current working directory"
+-msgstr "kan inte notera aktuell arbetskatalog"
++msgstr "kan inte fastställa aktuell arbetskatalog"
+ 
+ #: lib/openat-die.c:57
+ msgid "failed to return to initial working directory"
+-msgstr "misslyckades med att återvända till ursprunglig arbetskatalog"
++msgstr "kunde inte återvända till den ursprungliga arbetskatalogen"
+ 
+ #: lib/xbinary-io.c:36
+ #, c-format
+ msgid "failed to set file descriptor text/binary mode"
+-msgstr "misslyckades med att ställa in text/binärläge för filbeskrivare"
++msgstr "misslyckades att ställa in filbeskrivarens text-/binärläge"
+ 
+ # Då det skulle krävas att spara hela filen i UTF-8 för att kunna göra
+ # detta rätt, känns det inte värt det. Speciellt eftersom funktionen
+@@ -303,8 +303,8 @@
+ "There is NO WARRANTY, to the extent permitted by law.\n"
+ msgstr ""
+ "Licens GPLv3+: GNU GPL version 3 eller senare <%s>.\n"
+-"Det här är fri programvara: du får ändra och distribuera den.\n"
+-"Det finns INGEN GARANTI, så långt som tillåts enligt lag.\n"
++"Detta är fri programvara: du får ändra och vidaredistribuera den.\n"
++"Det finns INGEN GARANTI, så långt lagen tillåter.\n"
+ 
+ #. TRANSLATORS: %s denotes an author name.
+ #: lib/version-etc.c:105
+@@ -449,7 +449,7 @@
+ 
+ #: src/grep.c:657
+ msgid "(standard input)"
+-msgstr "(standard in)"
++msgstr "(standardindata)"
+ 
+ #: src/grep.c:838
+ msgid "invalid context length argument"
+@@ -472,7 +472,7 @@
+ #: src/grep.c:1912
+ #, c-format
+ msgid "%s: input file is also the output"
+-msgstr "%s: inmatningsfilen är även utmatningen"
++msgstr "%s: inmatningsfilen är även utdatafilen"
+ 
+ #: src/grep.c:1974 src/grep.c:1981
+ #, c-format
+@@ -482,7 +482,7 @@
+ #: src/grep.c:1976
+ #, c-format
+ msgid "Try '%s --help' for more information.\n"
+-msgstr "Försök med ”%s --help” för mer information\n"
++msgstr "Kör ”%s --help” för mer information.\n"
+ 
+ #: src/grep.c:1982
+ #, c-format
+@@ -565,14 +565,15 @@
+ "      --label=LABEL         use LABEL as the standard input file name prefix\n"
+ msgstr ""
+ "\n"
+-"Kontroll av utmatning:\n"
++"Kontroll av utdata:\n"
+ "  -m, --max-count=ANTAL     avsluta efter ANTAL träffar\n"
+-"  -b, --byte-offset         skriv ut byte-offset med utmatningsrader\n"
+-"  -n, --line-number         skriv ut radnummer med utmatningsrader\n"
+-"      --line-buffered       spola utmatning för varje rad\n"
+-"  -H, --with-filename       skriv ut filnamn med utmatningsrader\n"
+-"  -h, --no-filename         skriv inte ut filnamnets prefix vid utmatning\n"
+-"      --label=ETIKETT       skriv ut ETIKETT som filnamnsprefix för standard in\n"
++"  -b, --byte-offset         skriv ut byteförskjutningen med utdatarader\n"
++"  -n, --line-number         skriv ut radnummer med utdatarader\n"
++"      --line-buffered       spola utdata för varje rad\n"
++"  -H, --with-filename       skriv ut filnamn med utdatarader\n"
++"  -h, --no-filename         skriv inte ut filnamnsprefixet i utdata\n"
++"      --label=ETIKETT       använd ETIKETT som filnamnsprefix för "
++"standardindata\n"
+ 
+ #: src/grep.c:2020
+ #, c-format
+@@ -584,9 +585,9 @@
+ "  -a, --text                equivalent to --binary-files=text\n"
+ msgstr ""
+ "  -o, --only-matching       visa endast icke-tomma delar av rader som matchar\n"
+-"  -q, --quiet, --silent     undertryck all normal utmatning\n"
+-"      --binary-files=TYP    anta att binärfiler är av TYP;\n"
+-"                            TYP  är ”binary”, ”text” eller ”without-match”\n"
++"  -q, --quiet, --silent     undertryck all normal utdata\n"
++"      --binary-files=TYP    anta att binärfiler är av typen TYP;\n"
++"                            TYP är ”binary”, ”text” eller ”without-match”\n"
+ "  -a, --text                samma som --binary-files=text\n"
+ 
+ #: src/grep.c:2027
+@@ -664,11 +665,14 @@
+ "\n"
+ msgstr ""
+ "  -ANTAL                    samma som --context=ANTAL\n"
+-"      --group-separator=SEP  skriv ut SEP på rad mellan matchningar med sammanhang\n"
+-"      --no-group-separator  skriv inte ut separator för matchningar med sammanhang\n"
++"      --group-separator=SEP  skriv ut SEP på en rad mellan matchningar med "
++"sammanhang\n"
++"      --no-group-separator  skriv inte ut avgränsare för matchningar med "
++"sammanhang\n"
+ "      --color[=NÄR],\n"
+-"      --colour[=NÄR]        använd markörer för att särskilja träff\n"
+-"                            NÄR kan vara ”always”, ”never” eller ”auto”.\n"
++"      --colour[=NÄR]        använd markörer för att markera matchande "
++"strängar;\n"
++"                            NÄR kan vara ”always”, ”never” eller ”auto”\n"
+ "  -U, --binary              ta inte bort CR-tecken vid radslut (MSDOS/Windows)\n"
+ "\n"
+ 
+@@ -680,15 +684,15 @@
+ "fewer than two FILEs, assume -h.  Exit status is 0 if any line is selected,\n"
+ "1 otherwise; if any error occurs and -q is not given, the exit status is 2.\n"
+ msgstr ""
+-"När FIL är ”-”, läs från standard in.  Om ingen FIL anges, läs från\n"
+-"standard in, men med -r söks rekursivt i arbetskatalogen i stället.  Om\n"
+-"färre än två FILer anges, anta -h.  Avslutningsstatus är 0 om någon rad har\n"
++"När FIL är ”-”, läs från standardindata. Om ingen FIL anges, läs från\n"
++"standardindata, men med -r söks arbetskatalogen rekursivt i stället. Om\n"
++"färre än två FILer anges, anta -h. Avslutningsstatus är 0 om någon rad har\n"
+ "valts, annars 1; om något fel inträffar och -q inte angivits är\n"
+ "avslutningsstatusen 2.\n"
+ 
+ #: src/grep.c:2108
+ msgid "conflicting matchers specified"
+-msgstr "motstridiga söksträngar angivna"
++msgstr "motstridiga matchningsmetoder angivna"
+ 
+ #: src/grep.c:2115
+ msgid "Perl matching not supported in a --disable-perl-regexp build"
+@@ -697,7 +701,7 @@
+ #: src/grep.c:2117
+ #, c-format
+ msgid "invalid matcher %s"
+-msgstr "ogiltig matchning %s"
++msgstr "ogiltig matchningsmetod %s"
+ 
+ #: src/grep.c:2539
+ msgid "unknown devices method"
+@@ -747,7 +751,7 @@
+ 
+ #: src/pcresearch.c:288
+ msgid "exceeded PCRE's line length limit"
+-msgstr "översteg radlängdsgräns för PCRE"
++msgstr "PCRE:s radlängdsgräns överskreds"
+ 
+ #: src/pcresearch.c:366
+ #, c-format
+@@ -757,17 +761,17 @@
+ #: src/pcresearch.c:369
+ #, c-format
+ msgid "%s: exhausted PCRE JIT stack"
+-msgstr "%s: fyllde JIT-stacken för PCRE"
++msgstr "%s: PCRE:s JIT-stack är slut"
+ 
+ #: src/pcresearch.c:373
+ #, c-format
+ msgid "%s: exceeded PCRE's backtracking limit"
+-msgstr "%s: översteg gräns för PCRE-bakåtspårning"
++msgstr "%s: PCRE:s bakåtspårningsgräns överskreds"
+ 
+ #: src/pcresearch.c:378
+ #, c-format
+ msgid "%s: exceeded PCRE's nested backtracking limit"
+-msgstr "%s: översteg gräns för nästlad PCRE-bakåtspårning"
++msgstr "%s: PCRE:s gräns för nästlad bakåtspårning överskreds"
+ 
+ #: src/pcresearch.c:382
+ #, c-format
+@@ -777,7 +781,7 @@
+ #: src/pcresearch.c:387
+ #, c-format
+ msgid "%s: exceeded PCRE's heap limit"
+-msgstr "%s: översteg heap-gräns för PCRE"
++msgstr "%s: PCRE:s heapgräns överskreds"
+ 
+ #: src/pcresearch.c:396
+ #, c-format

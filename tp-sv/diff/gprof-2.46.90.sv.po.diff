@@ -1,0 +1,75 @@
+--- a/gprof-2.46.90.sv.po
++++ b/gprof-2.46.90.sv.po
+@@ -119,7 +119,7 @@
+ #: call_graph.c:69
+ #, c-format
+ msgid "[cg_tally] arc from %s to %s traversed %lu times\n"
+-msgstr "[cg_tally] båge från %s till %s traverserad %lu gånger\n"
++msgstr "[cg_tally] båge från %s till %s genomlöptes %lu gånger\n"
+ 
+ #: cg_print.c:74
+ #, c-format
+@@ -154,7 +154,7 @@
+ " for %.2f%% of %.2f seconds\n"
+ "\n"
+ msgstr ""
+-" för %.2f%% på %.2f sekunder\n"
++" för %.2f%% under %.2f sekunder\n"
+ "\n"
+ 
+ #: cg_print.c:87
+@@ -163,7 +163,7 @@
+ " no time propagated\n"
+ "\n"
+ msgstr ""
+-" ingen tid propagerad\n"
++" ingen tid propagerades\n"
+ "\n"
+ 
+ #: cg_print.c:96 cg_print.c:101 cg_print.c:104
+@@ -211,7 +211,7 @@
+ #: cg_print.c:132
+ #, c-format
+ msgid " <cycle %d as a whole> [%d]\n"
+-msgstr " <hela cykel %d> [%d]\n"
++msgstr " <hel cykel %d> [%d]\n"
+ 
+ #: cg_print.c:358
+ #, c-format
+@@ -260,7 +260,7 @@
+ #: corefile.c:348
+ #, c-format
+ msgid "%s: ran out room for %lu bytes of text space\n"
+-msgstr "%s: slut på utrymme för %lu byte textutrymme\n"
++msgstr "%s: slut på utrymme för %lu byte text\n"
+ 
+ #: corefile.c:362
+ #, c-format
+@@ -431,7 +431,8 @@
+ #: gprof.c:427
+ #, c-format
+ msgid "Based on BSD gprof, copyright 1983 Regents of the University of California.\n"
+-msgstr "Baserat på BSD gprof, copyright 1983 Regents of the University of California.\n"
++msgstr "Baserat på BSD gprof, upphovsrätt 1983 Regents of the University of "
++"California.\n"
+ 
+ #: gprof.c:428
+ #, c-format
+@@ -470,7 +471,7 @@
+ "%s: from '%s'\n"
+ "%s: to '%s'\n"
+ msgstr ""
+-"%s: dimensionsenhet ändrades mellan histogramposter\n"
++"%s: dimensionsenheten ändrades mellan histogramposter\n"
+ "%s: från ”%s”\n"
+ "%s: till ”%s”\n"
+ 
+@@ -481,7 +482,7 @@
+ "%s: from '%c'\n"
+ "%s: to '%c'\n"
+ msgstr ""
+-"%s: dimensionsförkortning ändrades mellan histogramposter\n"
++"%s: dimensionsförkortningen ändrades mellan histogramposter\n"
+ "%s: från ”%c”\n"
+ "%s: till ”%c”\n"
+ 

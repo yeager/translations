@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 56 506 aktiva poster i de 51 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 15 025 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 58 733 aktiva poster i de 55 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 15 624 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -62,6 +62,10 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#fce5cd"><td>gnulib</td><td>20241209</td><td align="right">334</td><td align="right">67</td><td align="right">20.06 %</td><td><a href="gnulib-20241209.sv.po">PO</a></td><td><a href="diff/gnulib-20241209.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gnulib-20241209.sv.po">Original</a></td></tr>
 <tr bgcolor="#fce5cd"><td>gnutls</td><td>3.6.8</td><td align="right">385</td><td align="right">85</td><td align="right">22.08 %</td><td><a href="gnutls-3.6.8.sv.po">PO</a></td><td><a href="diff/gnutls-3.6.8.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gnutls-3.6.8.sv.po">Original</a></td></tr>
 <tr bgcolor="#fce5cd"><td>gphoto2</td><td>2.5.32</td><td align="right">350</td><td align="right">73</td><td align="right">20.86 %</td><td><a href="gphoto2-2.5.32.sv.po">PO</a></td><td><a href="diff/gphoto2-2.5.32.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gphoto2-2.5.32.sv.po">Original</a></td></tr>
+<tr bgcolor="#e7f1cd"><td>gprof</td><td>2.46.90</td><td align="right">97</td><td align="right">8</td><td align="right">8.25 %</td><td><a href="gprof-2.46.90.sv.po">PO</a></td><td><a href="diff/gprof-2.46.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gprof-2.46.90.sv.po">Original</a></td></tr>
+<tr bgcolor="#f4cccc"><td>grep</td><td>3.11.68</td><td align="right">115</td><td align="right">30</td><td align="right">26.09 %</td><td><a href="grep-3.11.68.sv.po">PO</a></td><td><a href="diff/grep-3.11.68.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/grep-3.11.68.sv.po">Original</a></td></tr>
+<tr bgcolor="#fff2cc"><td>grip</td><td>4.1.0</td><td align="right">279</td><td align="right">45</td><td align="right">16.13 %</td><td><a href="grip-4.1.0.sv.po">PO</a></td><td><a href="diff/grip-4.1.0.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/grip-4.1.0.sv.po">Original</a></td></tr>
+<tr bgcolor="#f4cccc"><td>grub</td><td>2.14-rc1</td><td align="right">1736</td><td align="right">516</td><td align="right">29.72 %</td><td><a href="grub-2.14-rc1.sv.po">PO</a></td><td><a href="diff/grub-2.14-rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/grub-2.14-rc1.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
