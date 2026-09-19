@@ -1447,7 +1447,7 @@
  #: mda/mda/mda.c:65
  msgid "Log to stderr instead of syslog."
 -msgstr "Logga till stderr istället för syslog."
-+msgstr "Logga till standardfel i stället för syslogg."
++msgstr "Logga till standardfel i stället för syslog."
  
  #: mda/mda/mda.c:73
  msgid "mda -- the GNU local mail delivery agent."
@@ -2538,15 +2538,6 @@
  
  #: libmailutils/base/version.c:38
  msgid "Default mailbox type"
-@@ -4458,7 +4482,7 @@
- 
- #: libmailutils/base/version.c:39
- msgid "Default syslog facility"
--msgstr "Standardfacilitet för syslog"
-+msgstr "Standardfacilitet för syslogg"
- 
- #: libmailutils/base/version.c:41
- msgid "IPv6 support"
 @@ -4470,7 +4494,7 @@
  
  #: libmailutils/base/version.c:47
@@ -2813,25 +2804,16 @@
  #, c-format
  msgid "unknown syslog facility: %s"
 -msgstr "okänd syslog-facilitet: %s"
-+msgstr "okänd sysloggfacilitet: %s"
++msgstr "okänd syslogfacilitet: %s"
  
  #: libmailutils/cli/stdcapa.c:73 mu/libexec/logger.c:81
  #, c-format
-@@ -4942,7 +4971,7 @@
- 
- #: libmailutils/cli/stdcapa.c:82
- msgid "Send diagnostics to syslog."
--msgstr "Skicka diagnostik till syslog."
-+msgstr "Skicka diagnostik till syslogg."
- 
- #: libmailutils/cli/stdcapa.c:84
- msgid "Print message severity levels."
 @@ -4959,7 +4988,9 @@
  
  #: libmailutils/cli/stdcapa.c:91
  msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
 -msgstr "Ställ in syslog-facilitet. Arg är något av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt) eller ett facilitetsnummer."
-+msgstr "Ange sysloggfacilitet. Argumentet är något av följande: user, daemon, auth, "
++msgstr "Ange syslogfacilitet. Argumentet är något av följande: user, daemon, auth, "
 +"authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt) eller ett "
 +"facilitetsnummer."
  
@@ -2842,7 +2824,7 @@
  #: libmailutils/cli/stdcapa.c:99
  msgid "Tag syslog messages with this string."
 -msgstr "Tagga syslog-meddelanden med denna sträng."
-+msgstr "Tagga sysloggmeddelanden med den här strängen."
++msgstr "Tagga syslogmeddelanden med den här strängen."
  
  #: libmailutils/cli/stdcapa.c:104
  msgid "FACILITY"
@@ -2851,7 +2833,7 @@
  #: libmailutils/cli/stdcapa.c:105
  msgid "output logs to syslog FACILITY"
 -msgstr "logga utdata till syslog-FACILITET"
-+msgstr "logga utdata till sysloggfaciliteten FACILITY"
++msgstr "logga utdata till syslogfaciliteten FACILITY"
  
  #: libmailutils/cli/stdcapa.c:126
  #, c-format
@@ -3485,7 +3467,7 @@
  #, c-format
  msgid "%s: cannot create syslog stream: %s\n"
 -msgstr "%s: kan inte skapa syslog-ström: %s\n"
-+msgstr "%s: kan inte skapa sysloggdataström: %s\n"
++msgstr "%s: kan inte skapa syslogdataström: %s\n"
  
  #: libmailutils/stdstream/strerr.c:97
  #, c-format
@@ -6998,7 +6980,7 @@
  
  #: mu/libexec/logger.c:24
  msgid "[TEXT]"
-@@ -10719,53 +10781,53 @@
+@@ -10719,11 +10781,11 @@
  
  #: mu/libexec/logger.c:153
  msgid "FACILITY[.LEVEL]"
@@ -7008,12 +6990,11 @@
  #: mu/libexec/logger.c:154
  msgid "log at the specified syslog priority (implies --syslog)"
 -msgstr "logga med angiven syslog-prioritet (innebär --syslog)"
-+msgstr "logga med angiven sysloggprioritet (innebär --syslog)"
++msgstr "logga med angiven syslogprioritet (innebär --syslog)"
  
  #: mu/libexec/logger.c:157
  msgid "log via syslog"
--msgstr "logga via syslog"
-+msgstr "logga via syslogg"
+@@ -10731,41 +10793,41 @@
  
  #: mu/libexec/logger.c:160
  msgid "log to the standard error"
@@ -7048,7 +7029,7 @@
  #: mu/libexec/logger.c:169
  msgid "set syslog tag"
 -msgstr "ställ in syslog-tagg"
-+msgstr "ange sysloggtagg"
++msgstr "ange syslogtagg"
  
  #: mu/libexec/logger.c:185
  #, c-format
