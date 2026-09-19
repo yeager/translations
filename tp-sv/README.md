@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 52 454 aktiva poster i de 41 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 14 482 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 52 785 aktiva poster i de 43 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 14 529 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -52,6 +52,8 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#f4cccc"><td>gawk</td><td>5.4.0d</td><td align="right">822</td><td align="right">238</td><td align="right">28.95 %</td><td><a href="gawk-5.4.0d.sv.po">PO</a></td><td><a href="diff/gawk-5.4.0d.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gawk-5.4.0d.sv.po">Original</a></td></tr>
 <tr bgcolor="#fce5cd"><td>gcal</td><td>4.1</td><td align="right">1448</td><td align="right">331</td><td align="right">22.86 %</td><td><a href="gcal-4.1.sv.po">PO</a></td><td><a href="diff/gcal-4.1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gcal-4.1.sv.po">Original</a></td></tr>
 <tr bgcolor="#fce5cd"><td>gcc</td><td>16.2.0</td><td align="right">17951</td><td align="right">4251</td><td align="right">23.68 %</td><td><a href="gcc-16.2.0.sv.po">PO</a></td><td><a href="diff/gcc-16.2.0.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gcc-16.2.0.sv.po">Original</a></td></tr>
+<tr bgcolor="#f4f1c9"><td>gdbm</td><td>1.26</td><td align="right">307</td><td align="right">35</td><td align="right">11.40 %</td><td><a href="gdbm-1.26.sv.po">PO</a></td><td><a href="diff/gdbm-1.26.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gdbm-1.26.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>gettext-examples</td><td>1.0-pre2</td><td align="right">24</td><td align="right">12</td><td align="right">50.00 %</td><td><a href="gettext-examples-1.0-pre2.sv.po">PO</a></td><td><a href="diff/gettext-examples-1.0-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gettext-examples-1.0-pre2.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
