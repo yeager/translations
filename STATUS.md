@@ -1053,3 +1053,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **Blender UI – lager, kurvor och tidsenheter (2026-09-19):** Fortsatt radgranskning av `check:same`. Publicerade **Sammanfoga grupp** för lageroperatorn och **Interpolering U** enligt ordlistans Blender-terminologi. *Negation* och formatsträngen `{:.4g} fps` granskades i matematisk respektive bildfrekvenskontext och avfärdades som korrekta. Nästa köposition är **575/775**; granskningen fortsätter rad för rad.
 
 **Blender UI – enheter (2026-09-19):** **Centimeter** kontrollerades som korrekt SI-enhetsnamn och kontrollen för oförändrad översättning avfärdades. Nästa köposition är **576/775**.
+
+**Blender UI – tyg, spårning och sequencer (2026-09-19):** Fortsatt radgranskning av `check:same`. Publicerade **Maximal skjuvning** för tygsimulering, **Affin** för spårningsoperatorn, **Tona**, **Övertoning** och **Alfa under** för sequencer-/kompositionsoperatorer. Den tidigare föreslagna och sakgranskade översättningen **Rulla runt** för *Wrap Around* godkändes. `Gizmos:` granskades som etablerad Blender-term och avfärdades. Nästa köposition är **584/775**.
