@@ -1,0 +1,928 @@
+{
+  "project": "SuiteCRM core",
+  "branch": "release.8.10",
+  "file": "modules/Schedulers/language/en_us.lang.php",
+  "language": "sv-SE",
+  "entries": [
+    {
+      "stringId": 219722,
+      "translationId": 2527613,
+      "status": 201,
+      "target": "Bearbeta arbetsflödesuppgifter",
+      "identifier": "$mod_strings['LBL_OOTB_WORKFLOW']",
+      "source": "Process Workflow Tasks"
+    },
+    {
+      "stringId": 219724,
+      "translationId": 2527615,
+      "status": 201,
+      "target": "Kör schemalagda uppgifter för rapportgenerering",
+      "identifier": "$mod_strings['LBL_OOTB_REPORTS']",
+      "source": "Run Report Generation Scheduled Tasks"
+    },
+    {
+      "stringId": 219726,
+      "translationId": 2527617,
+      "status": 201,
+      "target": "Kontrollera inkorgar för inkommande e-post",
+      "identifier": "$mod_strings['LBL_OOTB_IE']",
+      "source": "Check Inbound Mailboxes"
+    },
+    {
+      "stringId": 219728,
+      "translationId": 2527619,
+      "status": 201,
+      "target": "Kör nattlig hantering av studsade kampanjmeddelanden",
+      "identifier": "$mod_strings['LBL_OOTB_BOUNCE']",
+      "source": "Run Nightly Process Bounced Campaign Emails"
+    },
+    {
+      "stringId": 219730,
+      "translationId": 2527621,
+      "status": 201,
+      "target": "Kör nattliga massutskickskampanjer",
+      "identifier": "$mod_strings['LBL_OOTB_CAMPAIGN']",
+      "source": "Run Nightly Mass Email Campaigns"
+    },
+    {
+      "stringId": 219732,
+      "translationId": 2527623,
+      "status": 201,
+      "target": "Rensa databasen den första varje månad",
+      "identifier": "$mod_strings['LBL_OOTB_PRUNE']",
+      "source": "Prune Database on 1st of Month"
+    },
+    {
+      "stringId": 219734,
+      "translationId": 2527625,
+      "status": 201,
+      "target": "Rensa spårningstabeller",
+      "identifier": "$mod_strings['LBL_OOTB_TRACKER']",
+      "source": "Prune Tracker Tables"
+    },
+    {
+      "stringId": 219736,
+      "translationId": 2527627,
+      "status": 201,
+      "target": "Rensa SuiteCRM:s flödestabeller",
+      "identifier": "$mod_strings['LBL_OOTB_SUITEFEEDS']",
+      "source": "Prune SuiteCRM Feed Tables"
+    },
+    {
+      "stringId": 219738,
+      "translationId": 2527629,
+      "status": 201,
+      "target": "Kör e-postpåminnelseaviseringar",
+      "identifier": "$mod_strings['LBL_OOTB_SEND_EMAIL_REMINDERS']",
+      "source": "Run Email Reminder Notifications"
+    },
+    {
+      "stringId": 219740,
+      "translationId": 2527631,
+      "status": 201,
+      "target": "Rensa jobbkö",
+      "identifier": "$mod_strings['LBL_OOTB_CLEANUP_QUEUE']",
+      "source": "Clean Jobs Queue"
+    },
+    {
+      "stringId": 219742,
+      "translationId": 2527633,
+      "status": 201,
+      "target": "Ta bort dokument från filsystemet",
+      "identifier": "$mod_strings['LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS']",
+      "source": "Removal of documents from filesystem"
+    },
+    {
+      "stringId": 219744,
+      "translationId": 2527635,
+      "status": 201,
+      "target": "Synkronisering av Google Kalender",
+      "identifier": "$mod_strings['LBL_OOTB_GOOGLE_CAL_SYNC']",
+      "source": "Google Calendar Sync"
+    },
+    {
+      "stringId": 219746,
+      "translationId": 2527637,
+      "status": 201,
+      "target": "Kör Elasticsearch-indexering",
+      "identifier": "$mod_strings['LBL_OOTB_ELASTIC_INDEX']",
+      "source": "Perform Elasticsearch Index"
+    },
+    {
+      "stringId": 219748,
+      "translationId": 2527639,
+      "status": 201,
+      "target": "Synkronisering av kalenderkonton",
+      "identifier": "$mod_strings['LBL_OOTB_CAL_ACC_SYNC']",
+      "source": "Calendar Accounts Sync"
+    },
+    {
+      "stringId": 219750,
+      "translationId": 2527641,
+      "status": 201,
+      "target": "Köa kampanjmeddelanden",
+      "identifier": "$mod_strings['LBL_OOTB_SEND_EMAIL_TO_QUEUE']",
+      "source": "Queue Campaign Emails"
+    },
+    {
+      "stringId": 219752,
+      "translationId": 2527643,
+      "status": 201,
+      "target": "Skicka kampanjmeddelanden",
+      "identifier": "$mod_strings['LBL_OOTB_SEND_EMAIL_FROM_QUEUE']",
+      "source": "Send Campaign Emails"
+    },
+    {
+      "stringId": 219754,
+      "translationId": 2527645,
+      "status": 201,
+      "target": "Rensa tillfälliga filer",
+      "identifier": "$mod_strings['LBL_OOTB_CLEAN_UP_TEMP_FILES']",
+      "source": "Clean Up Temporary Files"
+    },
+    {
+      "stringId": 219756,
+      "translationId": 2527647,
+      "status": 201,
+      "target": "Intervall:",
+      "identifier": "$mod_strings['LBL_LIST_JOB_INTERVAL']",
+      "source": "Interval:"
+    },
+    {
+      "stringId": 219758,
+      "translationId": 2527649,
+      "status": 201,
+      "target": "Schemaläggare:",
+      "identifier": "$mod_strings['LBL_LIST_LIST_ORDER']",
+      "source": "Schedulers:"
+    },
+    {
+      "stringId": 219760,
+      "translationId": 2527651,
+      "status": 201,
+      "target": "Schemaläggare:",
+      "identifier": "$mod_strings['LBL_LIST_NAME']",
+      "source": "Scheduler:"
+    },
+    {
+      "stringId": 219762,
+      "translationId": 2527653,
+      "status": 201,
+      "target": "Intervall:",
+      "identifier": "$mod_strings['LBL_LIST_RANGE']",
+      "source": "Range:"
+    },
+    {
+      "stringId": 219764,
+      "translationId": 2527655,
+      "status": 201,
+      "target": "Status:",
+      "identifier": "$mod_strings['LBL_LIST_STATUS']",
+      "source": "Status:"
+    },
+    {
+      "stringId": 219766,
+      "translationId": 2527657,
+      "status": 201,
+      "target": "Lista över scheman:",
+      "identifier": "$mod_strings['LBL_LIST_TITLE']",
+      "source": "Schedule List:"
+    },
+    {
+      "stringId": 219768,
+      "translationId": 2527659,
+      "status": 201,
+      "target": "Söndag",
+      "identifier": "$mod_strings['LBL_SUN']",
+      "source": "Sunday"
+    },
+    {
+      "stringId": 219770,
+      "translationId": 2527661,
+      "status": 201,
+      "target": "Måndag",
+      "identifier": "$mod_strings['LBL_MON']",
+      "source": "Monday"
+    },
+    {
+      "stringId": 219772,
+      "translationId": 2527663,
+      "status": 201,
+      "target": "Tisdag",
+      "identifier": "$mod_strings['LBL_TUE']",
+      "source": "Tuesday"
+    },
+    {
+      "stringId": 219774,
+      "translationId": 2527665,
+      "status": 201,
+      "target": "Onsdag",
+      "identifier": "$mod_strings['LBL_WED']",
+      "source": "Wednesday"
+    },
+    {
+      "stringId": 219776,
+      "translationId": 2527667,
+      "status": 201,
+      "target": "Torsdag",
+      "identifier": "$mod_strings['LBL_THU']",
+      "source": "Thursday"
+    },
+    {
+      "stringId": 219778,
+      "translationId": 2527669,
+      "status": 201,
+      "target": "Fredag",
+      "identifier": "$mod_strings['LBL_FRI']",
+      "source": "Friday"
+    },
+    {
+      "stringId": 219780,
+      "translationId": 2527671,
+      "status": 201,
+      "target": "Lördag",
+      "identifier": "$mod_strings['LBL_SAT']",
+      "source": "Saturday"
+    },
+    {
+      "stringId": 219782,
+      "translationId": 2527673,
+      "status": 201,
+      "target": "Varje dag",
+      "identifier": "$mod_strings['LBL_ALL']",
+      "source": "Every Day"
+    },
+    {
+      "stringId": 219784,
+      "translationId": 2527675,
+      "status": 201,
+      "target": "Varje",
+      "identifier": "$mod_strings['LBL_EVERY']",
+      "source": "Every"
+    },
+    {
+      "stringId": 219786,
+      "translationId": 2527677,
+      "status": 201,
+      "target": "Från",
+      "identifier": "$mod_strings['LBL_FROM']",
+      "source": "From"
+    },
+    {
+      "stringId": 219788,
+      "translationId": 2527679,
+      "status": 201,
+      "target": "Den",
+      "identifier": "$mod_strings['LBL_ON_THE']",
+      "source": "On the"
+    },
+    {
+      "stringId": 219790,
+      "translationId": 2527681,
+      "status": 201,
+      "target": "till",
+      "identifier": "$mod_strings['LBL_RANGE']",
+      "source": "to"
+    },
+    {
+      "stringId": 219792,
+      "translationId": 2527683,
+      "status": 201,
+      "target": "och",
+      "identifier": "$mod_strings['LBL_AND']",
+      "source": "and"
+    },
+    {
+      "stringId": 219794,
+      "translationId": 2527685,
+      "status": 201,
+      "target": "minuter",
+      "identifier": "$mod_strings['LBL_MINUTES']",
+      "source": "minutes"
+    },
+    {
+      "stringId": 219796,
+      "translationId": 2527687,
+      "status": 201,
+      "target": "timmar",
+      "identifier": "$mod_strings['LBL_HOUR']",
+      "source": "hours"
+    },
+    {
+      "stringId": 219798,
+      "translationId": 2527689,
+      "status": 201,
+      "target": "timme",
+      "identifier": "$mod_strings['LBL_HOUR_SING']",
+      "source": "hour"
+    },
+    {
+      "stringId": 219800,
+      "translationId": 2527691,
+      "status": 201,
+      "target": "Så ofta som möjligt.",
+      "identifier": "$mod_strings['LBL_OFTEN']",
+      "source": "As often as possible."
+    },
+    {
+      "stringId": 219802,
+      "translationId": 2527693,
+      "status": 201,
+      "target": "minutmarkering",
+      "identifier": "$mod_strings['LBL_MIN_MARK']",
+      "source": "minute mark"
+    },
+    {
+      "stringId": 219804,
+      "translationId": 2527695,
+      "status": 201,
+      "target": "min",
+      "identifier": "$mod_strings['LBL_MINS']",
+      "source": "min"
+    },
+    {
+      "stringId": 219806,
+      "translationId": 2527697,
+      "status": 201,
+      "target": "tim",
+      "identifier": "$mod_strings['LBL_HOURS']",
+      "source": "hrs"
+    },
+    {
+      "stringId": 219808,
+      "translationId": 2527699,
+      "status": 201,
+      "target": "datum",
+      "identifier": "$mod_strings['LBL_DAY_OF_MONTH']",
+      "source": "date"
+    },
+    {
+      "stringId": 219810,
+      "translationId": 2527701,
+      "status": 201,
+      "target": "mån",
+      "identifier": "$mod_strings['LBL_MONTHS']",
+      "source": "mo"
+    },
+    {
+      "stringId": 219812,
+      "translationId": 2527703,
+      "status": 201,
+      "target": "dag",
+      "identifier": "$mod_strings['LBL_DAY_OF_WEEK']",
+      "source": "day"
+    },
+    {
+      "stringId": 219814,
+      "translationId": 2527705,
+      "status": 201,
+      "target": "Ovanstående använder standardnotationen för crontab.",
+      "identifier": "$mod_strings['LBL_CRONTAB_EXAMPLES']",
+      "source": "The above uses standard crontab notation."
+    },
+    {
+      "stringId": 219816,
+      "translationId": 2527707,
+      "status": 201,
+      "target": "Alltid",
+      "identifier": "$mod_strings['LBL_ALWAYS']",
+      "source": "Always"
+    },
+    {
+      "stringId": 219818,
+      "translationId": 2527709,
+      "status": 201,
+      "target": "Kör om den missades",
+      "identifier": "$mod_strings['LBL_CATCH_UP']",
+      "source": "Execute If Missed"
+    },
+    {
+      "stringId": 219820,
+      "translationId": 2527711,
+      "status": 201,
+      "target": "Avmarkera om jobbet kan ta längre än ett ögonblick att köra.",
+      "identifier": "$mod_strings['LBL_CATCH_UP_WARNING']",
+      "source": "Uncheck if this job may take more than a moment to run."
+    },
+    {
+      "stringId": 219822,
+      "translationId": 2527713,
+      "status": 201,
+      "target": "Datum och tid för slut",
+      "identifier": "$mod_strings['LBL_DATE_TIME_END']",
+      "source": "Date & Time End"
+    },
+    {
+      "stringId": 219824,
+      "translationId": 2527715,
+      "status": 201,
+      "target": "Datum och tid för start",
+      "identifier": "$mod_strings['LBL_DATE_TIME_START']",
+      "source": "Date & Time Start"
+    },
+    {
+      "stringId": 219826,
+      "translationId": 2527717,
+      "status": 201,
+      "target": "Intervall",
+      "identifier": "$mod_strings['LBL_INTERVAL']",
+      "source": "Interval"
+    },
+    {
+      "stringId": 219828,
+      "translationId": 2527719,
+      "status": 201,
+      "target": "Jobb",
+      "identifier": "$mod_strings['LBL_JOB']",
+      "source": "Job"
+    },
+    {
+      "stringId": 219830,
+      "translationId": 2527721,
+      "status": 201,
+      "target": "Jobb-URL",
+      "identifier": "$mod_strings['LBL_JOB_URL']",
+      "source": "Job URL"
+    },
+    {
+      "stringId": 219832,
+      "translationId": 2527723,
+      "status": 201,
+      "target": "Senaste lyckade körning",
+      "identifier": "$mod_strings['LBL_LAST_RUN']",
+      "source": "Last Successful Run"
+    },
+    {
+      "stringId": 219834,
+      "translationId": 2527725,
+      "status": 201,
+      "target": "SuiteCRM-schemaläggare",
+      "identifier": "$mod_strings['LBL_MODULE_NAME']",
+      "source": "SuiteCRM Scheduler"
+    },
+    {
+      "stringId": 219836,
+      "translationId": 2527727,
+      "status": 201,
+      "target": "Schemaläggare",
+      "identifier": "$mod_strings['LBL_MODULE_TITLE']",
+      "source": "Schedulers"
+    },
+    {
+      "stringId": 219838,
+      "translationId": 2527729,
+      "status": 201,
+      "target": "Namn på schemaläggare",
+      "identifier": "$mod_strings['LBL_NAME']",
+      "source": "Scheduler Name"
+    },
+    {
+      "stringId": 219840,
+      "translationId": 2527731,
+      "status": 201,
+      "target": "Aldrig",
+      "identifier": "$mod_strings['LBL_NEVER']",
+      "source": "Never"
+    },
+    {
+      "stringId": 219842,
+      "translationId": 2527733,
+      "status": 201,
+      "target": "Nytt schema",
+      "identifier": "$mod_strings['LBL_NEW_FORM_TITLE']",
+      "source": "New Schedule"
+    },
+    {
+      "stringId": 219844,
+      "translationId": 2527735,
+      "status": 201,
+      "target": "permanent",
+      "identifier": "$mod_strings['LBL_PERENNIAL']",
+      "source": "perpetual"
+    },
+    {
+      "stringId": 219846,
+      "translationId": 2527737,
+      "status": 201,
+      "target": "Sök schemaläggare",
+      "identifier": "$mod_strings['LBL_SEARCH_FORM_TITLE']",
+      "source": "Scheduler Search"
+    },
+    {
+      "stringId": 219848,
+      "translationId": 2527739,
+      "status": 201,
+      "target": "Schemaläggare:",
+      "identifier": "$mod_strings['LBL_SCHEDULER']",
+      "source": "Scheduler:"
+    },
+    {
+      "stringId": 219850,
+      "translationId": 2527741,
+      "status": 201,
+      "target": "Status",
+      "identifier": "$mod_strings['LBL_STATUS']",
+      "source": "Status"
+    },
+    {
+      "stringId": 219852,
+      "translationId": 2527743,
+      "status": 201,
+      "target": "Aktiv från",
+      "identifier": "$mod_strings['LBL_TIME_FROM']",
+      "source": "Active From"
+    },
+    {
+      "stringId": 219854,
+      "translationId": 2527745,
+      "status": 201,
+      "target": "Aktiv till",
+      "identifier": "$mod_strings['LBL_TIME_TO']",
+      "source": "Active To"
+    },
+    {
+      "stringId": 219856,
+      "translationId": 2527747,
+      "status": 201,
+      "target": "cURL-varning:",
+      "identifier": "$mod_strings['LBL_WARN_CURL_TITLE']",
+      "source": "cURL Warning:"
+    },
+    {
+      "stringId": 219858,
+      "translationId": 2527749,
+      "status": 201,
+      "target": "Varning:",
+      "identifier": "$mod_strings['LBL_WARN_CURL']",
+      "source": "Warning:"
+    },
+    {
+      "stringId": 219860,
+      "translationId": 2527751,
+      "status": 201,
+      "target": "Det här systemet har inte cURL-biblioteken aktiverade eller kompilerade i PHP-modulen (--with-curl=/sökväg/till/curl_bibliotek). Kontakta administratören för att lösa problemet. Utan cURL-funktionen kan schemaläggaren inte köra sina jobb parallellt.",
+      "identifier": "$mod_strings['LBL_WARN_NO_CURL']",
+      "source": "This system does not have the cURL libraries enabled/compiled into the PHP module (--with-curl=/path/to/curl_library). Please contact your administrator to resolve this issue. Without the cURL functionality, the Scheduler cannot thread its jobs."
+    },
+    {
+      "stringId": 219862,
+      "translationId": 2527753,
+      "status": 201,
+      "target": "Grundläggande konfiguration",
+      "identifier": "$mod_strings['LBL_BASIC_OPTIONS']",
+      "source": "Basic Setup"
+    },
+    {
+      "stringId": 219864,
+      "translationId": 2527755,
+      "status": 201,
+      "target": "Avancerade alternativ",
+      "identifier": "$mod_strings['LBL_ADV_OPTIONS']",
+      "source": "Advanced Options"
+    },
+    {
+      "stringId": 219866,
+      "translationId": 2527757,
+      "status": 201,
+      "target": "Visa avancerade alternativ",
+      "identifier": "$mod_strings['LBL_TOGGLE_ADV']",
+      "source": "Show Advanced Options"
+    },
+    {
+      "stringId": 219868,
+      "translationId": 2527759,
+      "status": 201,
+      "target": "Visa grundläggande alternativ",
+      "identifier": "$mod_strings['LBL_TOGGLE_BASIC']",
+      "source": "Show Basic Options"
+    },
+    {
+      "stringId": 219870,
+      "translationId": 2527761,
+      "status": 201,
+      "target": "Schemaläggare",
+      "identifier": "$mod_strings['LNK_LIST_SCHEDULER']",
+      "source": "Schedulers"
+    },
+    {
+      "stringId": 219872,
+      "translationId": 2527763,
+      "status": 201,
+      "target": "Skapa schemaläggare",
+      "identifier": "$mod_strings['LNK_NEW_SCHEDULER']",
+      "source": "Create Scheduler"
+    },
+    {
+      "stringId": 219874,
+      "translationId": 2527765,
+      "status": 201,
+      "target": "Ogiltig Cron-syntax",
+      "identifier": "$mod_strings['ERR_CRON_SYNTAX']",
+      "source": "Invalid Cron syntax"
+    },
+    {
+      "stringId": 219876,
+      "translationId": 2527767,
+      "status": 201,
+      "target": "Konfigurera schemaläggare",
+      "identifier": "$mod_strings['LBL_CRON_SETUP']",
+      "source": "Setup Schedulers"
+    },
+    {
+      "stringId": 219878,
+      "translationId": 2527769,
+      "status": 201,
+      "target": "Ange i vilken ordning det här schemat ska visas i schemaläggarens listrutor",
+      "identifier": "$mod_strings['NTC_LIST_ORDER']",
+      "source": "Set the order this schedule will appear in the Scheduler dropdown lists"
+    },
+    {
+      "stringId": 219880,
+      "translationId": 2527771,
+      "status": 201,
+      "target": "Så här konfigurerar du Windows-schemaläggaren",
+      "identifier": "$mod_strings['LBL_CRON_INSTRUCTIONS_WINDOWS']",
+      "source": "To Setup Windows Scheduler"
+    },
+    {
+      "stringId": 219882,
+      "translationId": 2527773,
+      "status": 201,
+      "target": "Så här konfigurerar du crontab",
+      "identifier": "$mod_strings['LBL_CRON_INSTRUCTIONS_LINUX']",
+      "source": "To Setup Crontab"
+    },
+    {
+      "stringId": 219884,
+      "translationId": 2527775,
+      "status": 201,
+      "target": "För att köra SuiteCRM-schemaläggare",
+      "identifier": "$mod_strings['LBL_CRON_LINUX_DESC1']",
+      "source": "In order to run SuiteCRM Schedulers"
+    },
+    {
+      "stringId": 219886,
+      "translationId": 2527777,
+      "status": 201,
+      "target": "1. Redigera crontab-filen för webbserveranvändaren med det här kommandot",
+      "identifier": "$mod_strings['LBL_CRON_LINUX_DESC2']",
+      "source": "1. Edit your web server user's crontab file with this command"
+    },
+    {
+      "stringId": 219888,
+      "translationId": 2527779,
+      "status": 201,
+      "target": "2. Uppdatera sedan crontab-filen och lägg till följande rad:",
+      "identifier": "$mod_strings['LBL_CRON_LINUX_DESC3']",
+      "source": "2. Then update and add the following line to the crontab file:"
+    },
+    {
+      "stringId": 219890,
+      "translationId": 2527781,
+      "status": 201,
+      "target": "Gör detta först när installationen är klar.",
+      "identifier": "$mod_strings['LBL_CRON_LINUX_DESC4']",
+      "source": "You should do this only after the installation is concluded."
+    },
+    {
+      "stringId": 219892,
+      "translationId": 2527783,
+      "status": 201,
+      "target": "2(i). Lägg till följande rad för att ange miljövariablerna:",
+      "identifier": "$mod_strings['LBL_CRON_LINUX_DESC5']",
+      "source": "2(i). To define the environment variables, add the following line:"
+    },
+    {
+      "stringId": 219894,
+      "translationId": 2527785,
+      "status": 201,
+      "target": "Uppdatera [path/to/php] och [path/to/suite/instance] så att de motsvarar din miljö.",
+      "identifier": "$mod_strings['LBL_CRON_LINUX_DESC6']",
+      "source": "Please update [path/to/php] and [path/to/suite/instance] to reflect your environment."
+    },
+    {
+      "stringId": 219896,
+      "translationId": 2527787,
+      "status": 201,
+      "target": "För att köra SuiteCRM-schemaläggare",
+      "identifier": "$mod_strings['LBL_CRON_WINDOWS_DESC']",
+      "source": "In order to run the SuiteCRM Schedulers"
+    },
+    {
+      "stringId": 219898,
+      "translationId": 2527789,
+      "status": 201,
+      "target": "1. Skapa en batchfil som ska köras med Windows Schemalagda aktiviteter. Batchfilen ska innehålla följande kommandon:",
+      "identifier": "$mod_strings['LBL_CRON_WINDOWS_DESC2']",
+      "source": "1. Create a batch file to run using Windows Scheduled Tasks. The batch file should include the following commands:"
+    },
+    {
+      "stringId": 219900,
+      "translationId": 2527791,
+      "status": 201,
+      "target": "Uppdatera [path\\to\\php.exe] och [path\\to\\suite\\instance] så att de motsvarar din miljö.",
+      "identifier": "$mod_strings['LBL_CRON_WINDOWS_DESC3']",
+      "source": "Please update [path\\to\\php.exe] and [path\\to\\suite\\instance] to reflect your environment."
+    },
+    {
+      "stringId": 219902,
+      "translationId": 2527793,
+      "status": 201,
+      "target": "Information om schemaläggare",
+      "identifier": "$mod_strings['LBL_SCHEDULERS_INFO']",
+      "source": "Scheduler Information"
+    },
+    {
+      "stringId": 219904,
+      "translationId": 2527795,
+      "status": 201,
+      "target": "Schemaläggare har aldrig körts.",
+      "identifier": "$mod_strings['LBL_SCHEDULERS_NEVER_RUN']",
+      "source": "Schedulers have never been run."
+    },
+    {
+      "stringId": 219906,
+      "translationId": 2527797,
+      "status": 201,
+      "target": "Jobblogg",
+      "identifier": "$mod_strings['LBL_JOBS_SUBPANEL_TITLE']",
+      "source": "Job Log"
+    },
+    {
+      "stringId": 219908,
+      "translationId": 2527799,
+      "status": 201,
+      "target": "Körtid",
+      "identifier": "$mod_strings['LBL_EXECUTE_TIME']",
+      "source": "Execute Time"
+    },
+    {
+      "stringId": 219910,
+      "translationId": 2527801,
+      "status": 201,
+      "target": "Uppdatera jobb",
+      "identifier": "$mod_strings['LBL_REFRESHJOBS']",
+      "source": "Refresh Jobs"
+    },
+    {
+      "stringId": 219912,
+      "translationId": 2527803,
+      "status": 201,
+      "target": "Kontrollera konton för inkommande e-post",
+      "identifier": "$mod_strings['LBL_POLLMONITOREDINBOXES']",
+      "source": "Check Inbound Mail Accounts"
+    },
+    {
+      "stringId": 219914,
+      "translationId": 2527805,
+      "status": 201,
+      "target": "System för fulltextsökningsindex",
+      "identifier": "$mod_strings['LBL_PERFORMFULLFTSINDEX']",
+      "source": "Full-text Search Index System"
+    },
+    {
+      "stringId": 219916,
+      "translationId": 2527807,
+      "status": 201,
+      "target": "Kör nattliga massutskickskampanjer",
+      "identifier": "$mod_strings['LBL_RUNMASSEMAILCAMPAIGN']",
+      "source": "Run Nightly Mass Email Campaigns"
+    },
+    {
+      "stringId": 219918,
+      "translationId": 2527809,
+      "status": 201,
+      "target": "Kör nattlig hantering av studsade kampanjmeddelanden",
+      "identifier": "$mod_strings['LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS']",
+      "source": "Run Nightly Process Bounced Campaign Emails"
+    },
+    {
+      "stringId": 219920,
+      "translationId": 2527811,
+      "status": 201,
+      "target": "Rensa databasen den första varje månad",
+      "identifier": "$mod_strings['LBL_PRUNEDATABASE']",
+      "source": "Prune Database on 1st of Month"
+    },
+    {
+      "stringId": 219922,
+      "translationId": 2527813,
+      "status": 201,
+      "target": "Rensa spårningstabeller",
+      "identifier": "$mod_strings['LBL_TRIMTRACKER']",
+      "source": "Prune Tracker Tables"
+    },
+    {
+      "stringId": 219924,
+      "translationId": 2527815,
+      "status": 201,
+      "target": "Rensa SuiteCRM:s flödestabeller",
+      "identifier": "$mod_strings['LBL_TRIMSUGARFEEDS']",
+      "source": "Prune SuiteCRM Feed Tables"
+    },
+    {
+      "stringId": 219926,
+      "translationId": 2527817,
+      "status": 201,
+      "target": "Kör e-postpåminnelser",
+      "identifier": "$mod_strings['LBL_SENDEMAILREMINDERS']",
+      "source": "Run Email Reminders Sending"
+    },
+    {
+      "stringId": 219928,
+      "translationId": 2527819,
+      "status": 201,
+      "target": "Rensa jobbkö",
+      "identifier": "$mod_strings['LBL_CLEANJOBQUEUE']",
+      "source": "Cleanup Job Queue"
+    },
+    {
+      "stringId": 219930,
+      "translationId": 2527821,
+      "status": 201,
+      "target": "Ta bort dokument från filsystemet",
+      "identifier": "$mod_strings['LBL_REMOVEDOCUMENTSFROMFS']",
+      "source": "Removal of documents from filesystem"
+    },
+    {
+      "stringId": 219932,
+      "translationId": 2527823,
+      "status": 201,
+      "target": "Kontrollera övervakade inkorgar för AOP",
+      "identifier": "$mod_strings['LBL_POLLMONITOREDINBOXESAOP']",
+      "source": "AOP Poll Monitored Inboxes"
+    },
+    {
+      "stringId": 219934,
+      "translationId": 2527825,
+      "status": 201,
+      "target": "Kör schemalagda rapporter",
+      "identifier": "$mod_strings['LBL_AORRUNSCHEDULEDREPORTS']",
+      "source": "Run scheduled reports"
+    },
+    {
+      "stringId": 219936,
+      "translationId": 2527827,
+      "status": 201,
+      "target": "Bearbeta AOW-arbetsflöde",
+      "identifier": "$mod_strings['LBL_PROCESSAOW_WORKFLOW']",
+      "source": "Process AOW Workflow"
+    },
+    {
+      "stringId": 219938,
+      "translationId": 2527829,
+      "status": 201,
+      "target": "Elasticsearch-indexerare",
+      "identifier": "$mod_strings['LBL_RUNELASTICSEARCHINDEXERSCHEDULER']",
+      "source": "Elasticsearch indexer"
+    },
+    {
+      "stringId": 219940,
+      "translationId": 2527831,
+      "status": 201,
+      "target": "Synkronisera kalenderkonton",
+      "identifier": "$mod_strings['LBL_CALENDARSYNCJOB']",
+      "source": "Sync Calendar Accounts"
+    },
+    {
+      "stringId": 219942,
+      "translationId": 2527833,
+      "status": 201,
+      "target": "Skicka e-post från e-postkön",
+      "identifier": "$mod_strings['LBL_SENDFROMQUEUE']",
+      "source": "Send Emails from Email Queue"
+    },
+    {
+      "stringId": 219944,
+      "translationId": 2527835,
+      "status": 201,
+      "target": "Rensa tillfälliga filer",
+      "identifier": "$mod_strings['LBL_CLEANUPTEMPORARYFILES']",
+      "source": "Clean Up Temporary Files"
+    },
+    {
+      "stringId": 219946,
+      "translationId": 2527837,
+      "status": 201,
+      "target": "Skicka schemalagda e-postmeddelanden till e-postkön",
+      "identifier": "$mod_strings['LBL_EMAILTOQUEUE']",
+      "source": "Send Scheduled Emails to Email Queue"
+    },
+    {
+      "stringId": 219948,
+      "translationId": 2527839,
+      "status": 201,
+      "target": "Schemaläggartider",
+      "identifier": "$mod_strings['LBL_SCHEDULER_TIMES']",
+      "source": "Scheduler Times"
+    },
+    {
+      "stringId": 219950,
+      "translationId": 2527841,
+      "status": 201,
+      "target": "Synkronisera Google-kalendrar",
+      "identifier": "$mod_strings['LBL_SYNCGOOGLECALENDAR']",
+      "source": "Sync Google Calendars"
+    }
+  ]
+}
