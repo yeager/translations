@@ -1,0 +1,121 @@
+--- a/gnuchess-6.3.0-pre2.sv.po
++++ b/gnuchess-6.3.0-pre2.sv.po
+@@ -66,27 +66,27 @@
+ #: src/frontend/cmd.cc:236
+ #, c-format
+ msgid "Book is now on.\n"
+-msgstr "Bok är nu på.\n"
++msgstr "Öppningsboken är nu på.\n"
+ 
+ #: src/frontend/cmd.cc:239
+ #, c-format
+ msgid "Book is now off.\n"
+-msgstr "Bok är nu av.\n"
++msgstr "Öppningsboken är nu av.\n"
+ 
+ #: src/frontend/cmd.cc:242
+ #, c-format
+ msgid "Book is now best.\n"
+-msgstr "Bok är nu bästa.\n"
++msgstr "Öppningsboken använder nu bästa drag.\n"
+ 
+ #: src/frontend/cmd.cc:245
+ #, c-format
+ msgid "Book is now worst.\n"
+-msgstr "Bok är nu sämsta.\n"
++msgstr "Öppningsboken använder nu sämsta drag.\n"
+ 
+ #: src/frontend/cmd.cc:248
+ #, c-format
+ msgid "Book is now random.\n"
+-msgstr "Bok är nu slumpmässig.\n"
++msgstr "Öppningsboken använder nu slumpmässiga drag.\n"
+ 
+ #: src/frontend/cmd.cc:250
+ #, c-format
+@@ -210,7 +210,7 @@
+ #: src/frontend/cmd.cc:707
+ #, c-format
+ msgid "my rating = %d, opponent rating = %d\n"
+-msgstr "min ranking = %d, motståndarranking = %d\n"
++msgstr "Mitt ratingtal = %d, motståndarens ratingtal = %d\n"
+ 
+ #: src/frontend/cmd.cc:731 src/frontend/cmd.cc:804
+ #, c-format
+@@ -351,11 +351,11 @@
+ "and it will use the first one it finds, if any.\n"
+ "\n"
+ msgstr ""
+-"Filen ”gnuchess.ini” tillåter inställning av konfigurationsflaggor, men\n"
+-"ignoreras om flaggan --uci används. Se ”info gnuchess” för detaljer\n"
+-"om flaggorna. Programmet kommer söka ”gnuchess.ini” i\n"
+-"$XDG_CONFIG_HOME/gnuchess/ och $HOME/.config/gnuchess/ i den ordningen,\n"
+-"och kommer använda den första den hittar, om någon.\n"
++"Filen ”gnuchess.ini” gör det möjligt att ange konfigurationsflaggor, men "
++"ignoreras om flaggan --uci används. Se ”info gnuchess” för information "
++"om flaggorna. Programmet söker efter ”gnuchess.ini” i "
++"$XDG_CONFIG_HOME/gnuchess/ och $HOME/.config/gnuchess/ i den ordningen "
++"och använder den första fil som hittas.\n"
+ "\n"
+ 
+ #: src/frontend/cmd.cc:862
+@@ -465,7 +465,7 @@
+ 
+ #: src/frontend/cmd.cc:1058
+ msgid " add FILENAME - compiles book.bin from pgn book FILENAME"
+-msgstr " add FILNAMN - kompilerar book.bin från en pgn-boken FILNAMN"
++msgstr " add FILNAMN - kompilerar book.bin från en PGN-öppningsbok i FILNAMN"
+ 
+ #: src/frontend/cmd.cc:1059
+ msgid " on - enables use of book (default)"
+@@ -624,7 +624,7 @@
+ 
+ #: src/frontend/cmd.cc:1126
+ msgid " off - disables using the null-move heuristic"
+-msgstr " on - inaktiverar användning av nolldragssökning"
++msgstr " off - inaktiverar användning av nolldragssökning"
+ 
+ #: src/frontend/cmd.cc:1128
+ msgid " on - enables use of xboard/winboard"
+@@ -706,7 +706,7 @@
+ 
+ #: src/frontend/cmd.cc:1161
+ msgid " eval [or score] - shows the evaluation per piece and overall"
+-msgstr " eval [eller score] - visar evalueringen per pjäs och sammanlagt"
++msgstr " eval [eller score] - visar utvärderingen för varje pjäs och totalt"
+ 
+ #: src/frontend/cmd.cc:1162
+ msgid " game - shows moves in game history"
+@@ -722,7 +722,7 @@
+ 
+ #: src/frontend/cmd.cc:1166
+ msgid " capture - reads in an epd file and shows legal captures for its entries"
+-msgstr " capture - läser in en epd-fil och visar tillåtet tagande för dess poster"
++msgstr " capture - läser in en EPD-fil och visar tillåtna slag för dess poster"
+ 
+ #: src/frontend/cmd.cc:1167
+ msgid " movegenspeed - tests speed of move generator"
+@@ -754,11 +754,12 @@
+ 
+ #: src/frontend/cmd.cc:1178
+ msgid " Displays the chessboard rank and file in both graphic and classical views."
+-msgstr " Visar raden och linjen för schackbrädet både i grafiskt och klassiskt läge."
++msgstr " Visar schackbrädets rader och linjer i både grafiskt och klassiskt läge."
+ 
+ #: src/frontend/cmd.cc:1180
+ msgid " Does not display the chessboard rank nor file in either mode (graphic nor classical)."
+-msgstr " Visar inte raden eller linjen för schackbrädet i någotdera läge (grafiskt eller klassiskt)."
++msgstr " Visar varken schackbrädets rader eller linjer i något av lägena (grafiskt "
++"eller klassiskt)."
+ 
+ #: src/frontend/cmd.cc:1206
+ #, c-format
+@@ -781,7 +782,7 @@
+ "My move is : %s\n"
+ msgstr ""
+ "\n"
+-"Mitt drag är : %s\n"
++"Mitt drag är: %s\n"
+ 
+ #: src/frontend/pgn.cc:67
+ #, c-format

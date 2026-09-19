@@ -1,0 +1,1448 @@
+--- a/gnucobol-3.2.sv.po
++++ b/gnucobol-3.2.sv.po
+@@ -140,7 +140,7 @@
+ #: cobc/cobc.c:2086
+ #, c-format
+ msgid "environment variable '%s' is '%s'; should not contain '%c'"
+-msgstr "miljövariabel ”%s” är ”%s”; borde innehålla ”%c”"
++msgstr "miljövariabeln ”%s” är ”%s”; får inte innehålla ”%c”"
+ 
+ #: cobc/cobc.c:2116
+ msgid "parameter buffer size exceeded"
+@@ -392,7 +392,7 @@
+ 
+ #: cobc/cobc.c:4070
+ msgid "output to stdout only valid for preprocess"
+-msgstr "utmatning till standard ut är bara giltig för förbehandling"
++msgstr "Utdata till standardutdata är endast giltig för förbehandling"
+ 
+ #: cobc/cobc.c:4085
+ msgid "-MT must be given to specify target file"
+@@ -404,7 +404,7 @@
+ 
+ #: cobc/cobc.c:4316
+ msgid "only one stdin input allowed"
+-msgstr "endast en standard in inmatning tillåts"
++msgstr "Endast en indata från standardindata är tillåten"
+ 
+ #: cobc/cobc.c:4326
+ #, c-format
+@@ -431,7 +431,7 @@
+ 
+ #: cobc/cobc.c:5175
+ msgid "preprocessing:"
+-msgstr "preprocessar:"
++msgstr "förbehandling:"
+ 
+ #: cobc/cobc.c:5244
+ msgid "'cobxref' execution unsuccessful"
+@@ -444,7 +444,7 @@
+ 
+ #: cobc/cobc.c:5249
+ msgid "no listing produced"
+-msgstr "ingen listning producerad"
++msgstr "Ingen listning skapades"
+ 
+ #: cobc/cobc.c:6234 cobc/cobc.c:6273
+ msgid "No fields defined."
+@@ -491,7 +491,7 @@
+ #: cobc/cobc.c:6413
+ #, c-format
+ msgid "Too many errors in compilation group: %d maximum errors"
+-msgstr "För många fel i kompileringsgrupp: %d fel som mest"
++msgstr "För många fel i kompileringsgruppen: högst %d fel"
+ 
+ #: cobc/cobc.c:7028
+ #, c-format
+@@ -518,12 +518,12 @@
+ #: cobc/codegen.c:1040 cobc/codegen.c:4506 cobc/codegen.c:11910
+ #: cobc/codegen.c:12467
+ msgid "unexpected CONSTANT item"
+-msgstr "okänt CONSTANT-objekt"
++msgstr "Oväntat CONSTANT-objekt"
+ 
+ #: cobc/codegen.c:2921 cobc/codegen.c:3207 cobc/codegen.c:8866 cobc/tree.c:1419
+ #, c-format
+ msgid "unexpected cast type: %d"
+-msgstr "okänd typkonverteringstyp: %d"
++msgstr "Oväntad typkonverteringstyp: %d"
+ 
+ #: cobc/codegen.c:3690 cobc/codegen.c:4455
+ #, c-format
+@@ -583,7 +583,7 @@
+ #: cobc/config.c:167 libcob/common.c:7915 libcob/common.c:7939
+ #, c-format
+ msgid "should be one of the following values: %s"
+-msgstr "borde vara endera av följande värden: %s"
++msgstr "Ska vara ett av följande värden: %s"
+ 
+ #: cobc/config.c:169
+ msgid "must be numeric"
+@@ -913,7 +913,7 @@
+ 
+ #: cobc/config.def:251 cobc/parser.y:8566
+ msgid "LEFT/RIGHT phrases in SYNCHRONIZED clause"
+-msgstr "LEFT/RIGHT-frase i SYNCHRONIZED-klausul"
++msgstr "LEFT/RIGHT-fraser i SYNCHRONIZED-klausulen"
+ 
+ #: cobc/config.def:254
+ msgid "SPECIAL-NAMES clause"
+@@ -1106,7 +1106,7 @@
+ 
+ #: cobc/config.def:399
+ msgid "BINARY-SEQUENTIAL and LINE-SEQUENTIAL phrases in RECORD DELIMITER"
+-msgstr "BINARY-SEQUENTIAL- och LINE-SEQUENTIAL-frase i RECORD DELIMITER"
++msgstr "BINARY-SEQUENTIAL- och LINE-SEQUENTIAL-fraser i RECORD DELIMITER"
+ 
+ #: cobc/config.def:402 cobc/tree.c:4873
+ msgid "RECORD DELIMITER clause on file with fixed-length records"
+@@ -1158,7 +1158,7 @@
+ 
+ #: cobc/config.def:438
+ msgid "CALL to own PROGRAM-ID implies RECURSIVE attribute"
+-msgstr "CALL till eget PROGRAM-ID innebär RECURSIVE-attribut"
++msgstr "CALL till eget PROGRAM-ID innebär attributet RECURSIVE"
+ 
+ #: cobc/config.def:441
+ msgid "DEPENDING clause in RECORD CONTAINS"
+@@ -1176,7 +1176,7 @@
+ 
+ #: cobc/error.c:142 libcob/common.c:8784
+ msgid "note: "
+-msgstr "not: "
++msgstr "anmärkning: "
+ 
+ #: cobc/error.c:162
+ #, c-format
+@@ -1313,7 +1313,7 @@
+ 
+ #: cobc/field.c:139
+ msgid "constant expression has Divide by ZERO"
+-msgstr "konstantuttryck har division med noll"
++msgstr "Konstantuttrycket innebär division med noll"
+ 
+ #: cobc/field.c:195 cobc/field.c:332 cobc/field.c:340
+ msgid "missing right parenthesis"
+@@ -1322,12 +1322,12 @@
+ #: cobc/field.c:224
+ #, c-format
+ msgid "expression stack overflow at %d entries for operation '%c'"
+-msgstr "uttrycksstacken spiller över vid %d poster för operation ”%c”"
++msgstr "Uttrycksstacken överflödar vid %d poster för operationen ”%c”"
+ 
+ #: cobc/field.c:265
+ #, c-format
+ msgid "expression stack overflow at %d entries"
+-msgstr "uttrycksstacken spiller över vid %d poster"
++msgstr "Uttrycksstacken överflödar vid %d poster"
+ 
+ #: cobc/field.c:282
+ msgid "missing left parenthesis"
+@@ -1469,17 +1469,17 @@
+ #: cobc/field.c:1338
+ #, c-format
+ msgid "'%s' EXTERNAL not allowed with REDEFINES"
+-msgstr "”%s” EXTERNAL inte tillåten med REDEFINES"
++msgstr "”%s” EXTERNAL är inte tillåten med REDEFINES"
+ 
+ #: cobc/field.c:1350
+ #, c-format
+ msgid "'%s' BASED not allowed here"
+-msgstr "”%s” BASED inte tillåtet här"
++msgstr "”%s” BASED är inte tillåtet här"
+ 
+ #: cobc/field.c:1353
+ #, c-format
+ msgid "'%s' BASED not allowed with REDEFINES"
+-msgstr "”%s” BASED inte tillåtet med REDEFINES"
++msgstr "”%s” BASED är inte tillåtet med REDEFINES"
+ 
+ #: cobc/field.c:1356
+ #, c-format
+@@ -1694,7 +1694,7 @@
+ 
+ #: cobc/field.c:2399
+ msgid "OCCURS and multi COLUMNs is not allowed"
+-msgstr "OCCURS och flera COLUMN är inte tillåtet"
++msgstr "OCCURS och flera COLUMN är inte tillåtna"
+ 
+ #: cobc/field.c:2419
+ #, c-format
+@@ -1713,7 +1713,7 @@
+ #: cobc/field.c:2898 cobc/field.c:3222 cobc/field.c:3227
+ #, c-format
+ msgid "size of '%s' larger than size of '%s'"
+-msgstr "storlek för ”%s” större än storlek för ”%s”"
++msgstr "Storleken på ”%s” är större än storleken på ”%s”"
+ 
+ #: cobc/field.c:3045 cobc/field.c:3129 cobc/parser.y:832
+ #, c-format
+@@ -1848,7 +1848,8 @@
+ "                        intrinsics to be used without FUNCTION keyword"
+ msgstr ""
+ "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n"
+-"                        intrinsiska funktioner som får användas utan FUNCTION-nyckelord"
++"                        inbyggda funktioner som får användas utan "
++"FUNCTION-nyckelord"
+ 
+ #: cobc/flag.def:85
+ msgid ""
+@@ -1921,7 +1922,7 @@
+ "  -fstack-extended      store origin of entrypoints and PERFORM\n"
+ "                        * turned on by --debug/-fdump"
+ msgstr ""
+-"  -fstack-extended      lagra ursprung för entrypoints och PERFORM\n"
++"  -fstack-extended      lagra ursprunget för startpunkter och PERFORM\n"
+ "                        * aktiveras av --debug/-fdump"
+ 
+ #: cobc/flag.def:130
+@@ -1934,7 +1935,7 @@
+ "                        * turned off by -g"
+ msgstr ""
+ "  -fno-remove-unreachable\tinaktivera borttagning av oåtkomlig kod\n"
+-"                        * stängs av av -g"
++"                        * inaktiveras av -g"
+ 
+ #: cobc/flag.def:139
+ msgid ""
+@@ -2039,7 +2040,7 @@
+ "  -fno-trunc            allow numeric field overflow\n"
+ "                        * non-ANSI behaviour"
+ msgstr ""
+-"  -fno-trunc            tillåt överspill i numeriska fält\n"
++"  -fno-trunc            tillåt överflöde i numeriska fält\n"
+ "                        * icke-ANSI-beteende"
+ 
+ #: cobc/flag.def:197
+@@ -2154,7 +2155,7 @@
+ "or (preferably) use the issue tracker via the home page."
+ msgstr ""
+ "Rapportera fel till: %s\n"
+-"eller (hellre) via felrapporteringssystemet via webbplatsen."
++"eller, helst, via felhanteraren på webbplatsen."
+ 
+ #: cobc/help.c:52 bin/cobcrun.c:146
+ #, c-format
+@@ -2226,7 +2227,8 @@
+ 
+ #: cobc/help.c:78
+ msgid "  -j [<args>], --job[=<args>]\trun program after build, passing <args>"
+-msgstr "  -j [<arg>], --job[=<arg>]\tkör program efter bygge, skicka vidare <arg>"
++msgstr "  -j [<arg>], --job[=<arg>]\tkör programmet efter bygget och skicka vidare "
++"<arg>"
+ 
+ #: cobc/help.c:79
+ msgid ""
+@@ -2296,7 +2298,7 @@
+ 
+ #: cobc/help.c:101
+ msgid "  -o <file>             place the output into <file>"
+-msgstr "  -o <fil>              placera utmatning i <fil>"
++msgstr "  -o <fil>              skriv utdata till <fil>"
+ 
+ #: cobc/help.c:102
+ msgid ""
+@@ -2336,7 +2338,7 @@
+ 
+ #: cobc/help.c:111
+ msgid "  -P[=<dir or file>]    generate preprocessed program listing (.lst)"
+-msgstr "  -P[=<kat eller fil>]  generera preprocessad programlistning (.lst)"
++msgstr "  -P[=<kat eller fil>]  generera förbehandlad programlistning (.lst)"
+ 
+ #: cobc/help.c:113
+ msgid ""
+@@ -2551,7 +2553,8 @@
+ 
+ #: cobc/help.c:287
+ msgid "<word> or <word>:<definition>, where definition uses backslash escaped spaces"
+-msgstr "<ord> eller <ord>:<definition>, där definitionen använder omvänt snedstreck-escape för blanksteg"
++msgstr "<ord> eller <ord>:<definition>, där definitionen använder blanksteg med "
++"omvänt snedstreck som escape-tecken"
+ 
+ #: cobc/parser.y:307
+ #, c-format
+@@ -2570,7 +2573,7 @@
+ 
+ #: cobc/parser.y:330 cobc/parser.y:332
+ msgid "start of statement in Area A"
+-msgstr "start av sats i Area A"
++msgstr "början av sats i Area A"
+ 
+ #: cobc/parser.y:428
+ #, c-format
+@@ -2636,7 +2639,7 @@
+ 
+ #: cobc/parser.y:813 cobc/parser.y:8398
+ msgid "OCCURS TO must be greater than OCCURS FROM"
+-msgstr "OCCUR TO måste vara större än OCCURS FROM"
++msgstr "OCCURS TO måste vara större än OCCURS FROM"
+ 
+ #: cobc/parser.y:823
+ msgid "OCCURS DEPENDING ON without TO phrase"
+@@ -2688,7 +2691,7 @@
+ 
+ #: cobc/parser.y:1489
+ msgid "currency symbol must be one character long"
+-msgstr "valutasymbol måste vara ett tecken lång"
++msgstr "Valutasymbolen måste vara ett tecken lång"
+ 
+ #: cobc/parser.y:1546
+ #, c-format
+@@ -2811,7 +2814,8 @@
+ 
+ #: cobc/parser.y:2290
+ msgid "ambiguous DISPLAY; put items to display on device in separate DISPLAY"
+-msgstr "tvetydig DISPLAY; stoppa objekt att visa på enhet i separat DISPLAY"
++msgstr "Tvetydig DISPLAY; placera objekten som ska visas på enheten i en separat "
++"DISPLAY-sats"
+ 
+ #: cobc/parser.y:2301
+ #, c-format
+@@ -2839,7 +2843,7 @@
+ 
+ #: cobc/parser.y:2349 cobc/typeck.c:2822 cobc/typeck.c:2913
+ msgid "ANY LENGTH item not allowed here"
+-msgstr "ANY LENGTH-objekt inte tillåtet här"
++msgstr "ANY LENGTH-objekt är inte tillåtet här"
+ 
+ #: cobc/parser.y:2353
+ #, c-format
+@@ -2878,7 +2882,7 @@
+ 
+ #: cobc/parser.y:3717
+ msgid "prototypes must be come before any program/function definitions"
+-msgstr "prototyper måste komma före alla program-/funktionsdefinitioner"
++msgstr "Prototyper måste komma före alla program- och funktionsdefinitioner"
+ 
+ #: cobc/parser.y:3930
+ msgid "COMMON may only be used in a contained program"
+@@ -3010,7 +3014,7 @@
+ 
+ #: cobc/parser.y:6467
+ msgid "RECORD description missing or invalid"
+-msgstr "RECORD-beskrivning saknas eller ogiltig"
++msgstr "RECORD-beskrivningen saknas eller är ogiltig"
+ 
+ #: cobc/parser.y:6494
+ #, c-format
+@@ -3054,7 +3058,7 @@
+ 
+ #: cobc/parser.y:7372
+ msgid "CONSTANT item not at 01 level"
+-msgstr "CONSTANT-objekt inte vid nivå 01"
++msgstr "CONSTANT-objektet är inte på nivå 01"
+ 
+ #: cobc/parser.y:7517
+ msgid "REDEFINES clause not following entry-name"
+@@ -3064,7 +3068,7 @@
+ #: cobc/parser.y:8606
+ #, c-format
+ msgid "%s only allowed at 01/77 level"
+-msgstr "%s endast tillåtet vid nivå 01/77"
++msgstr "%s är endast tillåtet på nivå 01/77"
+ 
+ #: cobc/parser.y:7593 cobc/parser.y:7622 cobc/parser.y:7664 cobc/parser.y:8608
+ #: cobc/parser.y:8987 cobc/parser.y:9009
+@@ -3075,13 +3079,13 @@
+ #: cobc/parser.y:7597 cobc/parser.y:7846
+ #, c-format
+ msgid "%s not allowed in %s"
+-msgstr "%s inte tillåtet i %s"
++msgstr "%s är inte tillåtet i %s"
+ 
+ #: cobc/parser.y:7618 cobc/parser.y:7672 cobc/parser.y:8604 cobc/parser.y:8983
+ #: cobc/parser.y:9007
+ #, c-format
+ msgid "%s not allowed here"
+-msgstr "%s inte tillåtet här"
++msgstr "%s är inte tillåtet här"
+ 
+ #: cobc/parser.y:7809
+ #, c-format
+@@ -3146,7 +3150,7 @@
+ #: cobc/parser.y:8985
+ #, c-format
+ msgid "%s only allowed at 01 level"
+-msgstr "%s endast tillåtet på nivå 01"
++msgstr "%s är endast tillåtet på nivå 01"
+ 
+ #: cobc/parser.y:8989 cobc/parser.y:9011
+ #, c-format
+@@ -3209,12 +3213,12 @@
+ 
+ #: cobc/parser.y:10917
+ msgid "executable program requested but PROCEDURE/ENTRY has USING clause"
+-msgstr "körbart program begärt men PROCEDURE/ENTRY har USING-klausul"
++msgstr "Ett körbart program har begärts men PROCEDURE/ENTRY har en USING-klausul"
+ 
+ #: cobc/parser.y:10987 cobc/parser.y:11004 cobc/parser.y:12667
+ #, c-format
+ msgid "number of arguments exceeds maximum %d"
+-msgstr "antal argument överskrider max %d"
++msgstr "Antalet argument överskrider högsta tillåtna antal, %d"
+ 
+ #: cobc/parser.y:10996
+ msgid "CHAINING invalid in user FUNCTION"
+@@ -3227,7 +3231,7 @@
+ #: cobc/parser.y:11049 cobc/parser.y:12728 cobc/parser.y:12741
+ #, c-format
+ msgid "%s not allowed in CHAINED programs"
+-msgstr "%s inte tillåtet i CHAINED-program"
++msgstr "%s är inte tillåtet i CHAINED-program"
+ 
+ #: cobc/parser.y:11051
+ msgid "parameters passed BY VALUE"
+@@ -3236,7 +3240,7 @@
+ #: cobc/parser.y:11066 cobc/parser.y:11075 cobc/parser.y:11083
+ #: cobc/parser.y:11104
+ msgid "SIZE only allowed for BY VALUE items"
+-msgstr "SIZE endast tillåtet för BY VALUE-objekt"
++msgstr "SIZE är endast tillåtet för BY VALUE-objekt"
+ 
+ #: cobc/parser.y:11106 cobc/parser.y:11131
+ msgid "invalid value for SIZE"
+@@ -3248,7 +3252,7 @@
+ 
+ #: cobc/parser.y:11162
+ msgid "OPTIONAL only allowed for BY REFERENCE items"
+-msgstr "OPTIONAL endast tillåtet för BY REFERENCE-objekt"
++msgstr "OPTIONAL är endast tillåtet för BY REFERENCE-objekt"
+ 
+ #: cobc/parser.y:11177
+ msgid "RETURNING clause is required for a FUNCTION"
+@@ -3449,7 +3453,7 @@
+ 
+ #: cobc/parser.y:14394
+ msgid "EXIT FUNCTION only allowed within a FUNCTION"
+-msgstr "EXIT FUNCTION endast tillåtet inom en FUNCTION"
++msgstr "EXIT FUNCTION är endast tillåtet inom en FUNCTION"
+ 
+ #: cobc/parser.y:14408 cobc/parser.y:14431
+ msgid "EXIT PERFORM is only valid with inline PERFORM"
+@@ -3465,7 +3469,7 @@
+ 
+ #: cobc/parser.y:14497
+ msgid "RETURNING/GIVING not allowed for non-returning runtime elements"
+-msgstr "RETURNING/GIVING inte tillåtet för icke-returnerande körtidselement"
++msgstr "RETURNING/GIVING är inte tillåtet för körtidselement utan returvärde"
+ 
+ #: cobc/parser.y:14640
+ msgid "IF without imperative statement"
+@@ -3727,7 +3731,7 @@
+ #: cobc/typeck.c:14322
+ #, c-format
+ msgid "%s requires a record name as subject"
+-msgstr "%s kräver ett postnamn som ämne"
++msgstr "%s kräver ett postnamn som objekt"
+ 
+ #: cobc/parser.y:18771
+ #, c-format
+@@ -4111,7 +4115,7 @@
+ 
+ #: cobc/reserved.c:5403
+ msgid "Reserved Words"
+-msgstr "Reserverad ord"
++msgstr "Reserverade ord"
+ 
+ #: cobc/reserved.c:5415
+ msgid "Yes (Context sensitive)"
+@@ -4224,7 +4228,7 @@
+ 
+ #: cobc/scanner.l:1540
+ msgid "national-character literal"
+-msgstr "nationellt teckenlitteral"
++msgstr "Nationell teckenlitteral"
+ 
+ #: cobc/scanner.l:1571
+ msgid "hexadecimal literal has zero length; X'00' will be assumed"
+@@ -4267,7 +4271,7 @@
+ #: cobc/scanner.l:1829 cobc/scanner.l:1922 cobc/scanner.l:1985
+ #, c-format
+ msgid "literal exceeds limit %u"
+-msgstr "litteral överskred gräns %u"
++msgstr "Litteralen överskrider gränsen %u"
+ 
+ #: cobc/scanner.l:1863
+ msgid "numeric boolean literal"
+@@ -4445,12 +4449,12 @@
+ #: cobc/tree.c:1814
+ #, c-format
+ msgid "literal length %d exceeds maximum of %d digits"
+-msgstr "litterallängd %d överskriver maximala %d siffror"
++msgstr "Litterallängden %d överskrider högsta tillåtna antal, %d siffror"
+ 
+ #: cobc/tree.c:1819
+ #, c-format
+ msgid "literal length %d exceeds %d digits"
+-msgstr "litterallängd %d överskriver %d siffror"
++msgstr "Litterallängden %d överskrider %d siffror"
+ 
+ #: cobc/tree.c:1868 cobc/tree.c:1880 cobc/tree.c:1937 cobc/tree.c:1987
+ #, c-format
+@@ -4463,11 +4467,12 @@
+ 
+ #: cobc/tree.c:2803
+ msgid "only literals with the same category can be concatenated"
+-msgstr "endast litteraler med samma kategori kan konkateneras"
++msgstr "Endast litteraler i samma kategori kan sammanfogas"
+ 
+ #: cobc/tree.c:2811
+ msgid "only alphanumeric, utf-8, national or boolean literals may be concatenated"
+-msgstr "endast alfanumeriska, utf-8-, nationella eller booleska litteraler kan konkateneras"
++msgstr "Endast alfanumeriska, UTF-8-, nationella eller booleska litteraler kan "
++"sammanfogas"
+ 
+ #: cobc/tree.c:2823
+ #, c-format
+@@ -4484,11 +4489,11 @@
+ 
+ #: cobc/tree.c:3119
+ msgid "a leading +/- sign"
+-msgstr "ett inledande +/--tecken"
++msgstr "Ett inledande +/-tecken"
+ 
+ #: cobc/tree.c:3121
+ msgid "a trailing +/- sign"
+-msgstr "ett efterföljande +/--tecken"
++msgstr "Ett efterföljande +/-tecken"
+ 
+ #: cobc/tree.c:3123
+ msgid "CR or DB"
+@@ -4512,11 +4517,11 @@
+ 
+ #: cobc/tree.c:3133
+ msgid "a floating +/- string which is before the decimal point"
+-msgstr "en flytande +/--sträng som kommer före decimalpunkten"
++msgstr "En flytande +/-sträng före decimalpunkten"
+ 
+ #: cobc/tree.c:3135
+ msgid "a floating +/- string which is after the decimal point"
+-msgstr "en flytande +/--sträng som kommer efter decimalpunkten"
++msgstr "En flytande +/-sträng efter decimalpunkten"
+ 
+ #: cobc/tree.c:3137
+ msgid "a floating currency symbol string which is before the decimal point"
+@@ -4640,7 +4645,7 @@
+ #: cobc/tree.c:3873
+ #, c-format
+ msgid "numeric field cannot be larger than %d digits"
+-msgstr "Det går inte att ha ett numeriskt fält större än %d siffror"
++msgstr "Ett numeriskt fält får inte vara större än %d siffror"
+ 
+ #: cobc/tree.c:4333
+ #, c-format
+@@ -4655,7 +4660,7 @@
+ #: cobc/tree.c:4412 cobc/tree.c:4425
+ #, c-format
+ msgid "no DETAIL line defined in report %s"
+-msgstr "ingen DETAIL-rad definierad i rapport %s"
++msgstr "Ingen DETAIL-rad har definierats i rapporten %s"
+ 
+ #: cobc/tree.c:4427
+ msgid "PAGE LIMIT FIRST DETAIL should be >= HEADING"
+@@ -4700,7 +4705,7 @@
+ #: cobc/tree.c:4813
+ #, c-format
+ msgid "size of record '%s' (%d) smaller than minimum of file '%s' (%d)"
+-msgstr "storlek för post ”%s” (%d) mindre än det minsta för fil ”%s” (%d)"
++msgstr "Storleken på posten ”%s” (%d) är mindre än minimistorleken för filen ”%s” (%d)"
+ 
+ #: cobc/tree.c:4816 cobc/tree.c:4833
+ msgid "file size adjusted"
+@@ -4709,7 +4714,7 @@
+ #: cobc/tree.c:4828
+ #, c-format
+ msgid "size of record '%s' (%d) larger than maximum of file '%s' (%d)"
+-msgstr "storlek för post ”%s” (%d) större än det största för fil ”%s” (%d)"
++msgstr "Storleken på posten ”%s” (%d) är större än maximistorleken för filen ”%s” (%d)"
+ 
+ #: cobc/tree.c:4861
+ msgid "RECORD VARYING specified without limits, but implied limits are equal"
+@@ -4755,12 +4760,12 @@
+ #: cobc/tree.c:5646 cobc/tree.c:5676
+ #, c-format
+ msgid "unsigned '%s' may not be %s %s"
+-msgstr "teckenlös '%s' får inte vara %s %s"
++msgstr "Teckenlösa ”%s” får inte vara %s %s"
+ 
+ #: cobc/tree.c:5658 cobc/tree.c:5689
+ #, c-format
+ msgid "unsigned '%s' may always be %s %s"
+-msgstr "teckenlös '%s' får alltid vara %s %s"
++msgstr "Teckenlösa ”%s” kan alltid vara %s %s"
+ 
+ #: cobc/tree.c:5726 cobc/tree.c:5756
+ #, c-format
+@@ -4829,15 +4834,15 @@
+ 
+ #: cobc/tree.c:6740
+ msgid "PERFORM FOREVER since UNTIL is always FALSE"
+-msgstr "PERFORM FOREVER då UNTIL är alltid FALSE"
++msgstr "PERFORM FOREVER eftersom UNTIL alltid är FALSE"
+ 
+ #: cobc/tree.c:6744
+ msgid "PERFORM ONCE since UNTIL is always TRUE"
+-msgstr "PERFORM ONCE då UNTIL är alltid TRUE"
++msgstr "PERFORM ONCE eftersom UNTIL alltid är TRUE"
+ 
+ #: cobc/tree.c:6747
+ msgid "PERFORM NEVER since UNTIL is always TRUE"
+-msgstr "PERFORM NEVER då UNTIL alltid är TRUE"
++msgstr "PERFORM NEVER eftersom UNTIL alltid är TRUE"
+ 
+ #: cobc/tree.c:6871
+ #, c-format
+@@ -5057,7 +5062,8 @@
+ 
+ #: cobc/typeck.c:2908 cobc/typeck.c:2974
+ msgid "target must be in FILE SECTION or LINKAGE SECTION or have the EXTERNAL clause"
+-msgstr "mål måste vara i FILE SECTION eller LINKAGE SECTION eller har en EXTERNAL-klausul"
++msgstr "Målet måste finnas i FILE SECTION eller LINKAGE SECTION eller ha "
++"EXTERNAL-klausulen"
+ 
+ #: cobc/typeck.c:2964 cobc/typeck.c:2973
+ #, c-format
+@@ -5086,7 +5092,7 @@
+ #: cobc/typeck.c:3145 cobc/typeck.c:3180 cobc/typeck.c:4966
+ #, c-format
+ msgid "'%s' REDEFINES field not allowed here"
+-msgstr "”%s”REDEFINES-fält inte tillåtet här"
++msgstr "”%s” REDEFINES-fält är inte tillåtet här"
+ 
+ #: cobc/typeck.c:3165 cobc/typeck.c:8876
+ #, c-format
+@@ -5198,12 +5204,12 @@
+ #: cobc/typeck.c:4091
+ #, c-format
+ msgid "duplicate character values in alphabet '%s': %s"
+-msgstr "duplicerade teckenvärde i alfabet ”%s”: %s"
++msgstr "Dubbla teckenvärden i alfabetet ”%s”: %s"
+ 
+ #: cobc/typeck.c:4096
+ #, c-format
+ msgid "invalid character values in alphabet '%s', starting at position %d"
+-msgstr "ogiltiga teckenvärden i alfabet ”%s”, börjar på position %d"
++msgstr "Ogiltiga teckenvärden i alfabetet ”%s”, från position %d"
+ 
+ #: cobc/typeck.c:4198
+ #, c-format
+@@ -5416,7 +5422,7 @@
+ #: cobc/typeck.c:5126 cobc/typeck.c:5134
+ #, c-format
+ msgid "'%s' is not in DECLARATIVES"
+-msgstr "”%s” är inte inuti DECLARATIVES"
++msgstr "”%s” ingår inte i DECLARATIVES"
+ 
+ #: cobc/typeck.c:5148
+ #, c-format
+@@ -5426,7 +5432,7 @@
+ #: cobc/typeck.c:5162
+ #, c-format
+ msgid "GO TO paragraph '%s' which is defined in another SECTION"
+-msgstr "GO TO-stycke ”%s” som är definierat i en annan SECTION"
++msgstr "GO TO-stycke ”%s” som definieras i en annan SECTION"
+ 
+ #: cobc/typeck.c:5172
+ #, c-format
+@@ -5478,7 +5484,7 @@
+ #: cobc/typeck.c:6120
+ #, c-format
+ msgid "internal decimal structure size exceeded: %d"
+-msgstr "intern decimalstrukturstorlek överskriden: %d"
++msgstr "Den interna decimalstrukturens storlek överskreds: %d"
+ 
+ #: cobc/typeck.c:6123
+ msgid "Try to minimize the number of parentheses or split into multiple computations."
+@@ -5491,7 +5497,7 @@
+ 
+ #: cobc/typeck.c:6188
+ msgid "precision of result may change with arithmetic-osvs"
+-msgstr "precision för resultatet kan förändras med osvs-aritmetik"
++msgstr "Resultatets precision kan ändras med arithmetic-osvs"
+ 
+ #: cobc/typeck.c:6268
+ #, c-format
+@@ -5505,7 +5511,7 @@
+ 
+ #: cobc/typeck.c:6349
+ msgid "unexpected constant expansion"
+-msgstr "oväntat konstantuttryck"
++msgstr "oväntad konstantexpansion"
+ 
+ #: cobc/typeck.c:7106 cobc/typeck.c:11656 cobc/typeck.c:11661
+ msgid "alphanumeric value is expected"
+@@ -5530,7 +5536,7 @@
+ 
+ #: cobc/typeck.c:7667 cobc/typeck.c:7748
+ msgid "no CORRESPONDING items found"
+-msgstr "inget CORRESPONDING-objekt hittat"
++msgstr "Inga CORRESPONDING-objekt hittades"
+ 
+ #: cobc/typeck.c:7820
+ msgid "no items to ACCEPT found"
+@@ -5587,7 +5593,7 @@
+ 
+ #: cobc/typeck.c:8524
+ msgid "target of RETURNING is not a data pointer"
+-msgstr "mål för RETURNING är inte en datapekare"
++msgstr "RETURNING-målet är inte en datapekare"
+ 
+ #: cobc/typeck.c:8551 cobc/typeck.c:13410 cobc/typeck.c:13479
+ #: cobc/typeck.c:13547
+@@ -5617,11 +5623,11 @@
+ 
+ #: cobc/typeck.c:8694
+ msgid "STDCALL not available on this platform"
+-msgstr "STDCALL inte tillgängligt på denna plattform"
++msgstr "STDCALL är inte tillgängligt på denna plattform"
+ 
+ #: cobc/typeck.c:8698
+ msgid "STDCALL used on 64-bit Windows platform"
+-msgstr "STDCALL använt på 64-bitars Windows-plattform"
++msgstr "STDCALL används på 64-bitars Windows-plattform"
+ 
+ #: cobc/typeck.c:8703
+ msgid "STATIC CALL convention requires a literal program name"
+@@ -5638,7 +5644,7 @@
+ 
+ #: cobc/typeck.c:8805
+ msgid "numeric literal exceeds size limits"
+-msgstr "numerisk litteral överskriver storleksbegränsningar"
++msgstr "numerisk litteral överskrider storleksbegränsningarna"
+ 
+ #: cobc/typeck.c:8820
+ #, c-format
+@@ -5653,7 +5659,7 @@
+ #: cobc/typeck.c:8856
+ #, c-format
+ msgid "'%s' ANY LENGTH item not passed BY REFERENCE"
+-msgstr "”%s” ANY LENGTH-objekt förbigås inte av BY REFERENCE"
++msgstr "”%s” ANY LENGTH-objekt skickas inte med BY REFERENCE"
+ 
+ #: cobc/typeck.c:8909 cobc/typeck.c:8914
+ #, c-format
+@@ -5666,7 +5672,7 @@
+ #: cobc/typeck.c:14348
+ #, c-format
+ msgid "%s not allowed on %s files"
+-msgstr "%s inte tillåtet på %s-filer"
++msgstr "%s är inte tillåtet för %s-filer"
+ 
+ #: cobc/typeck.c:9172
+ msgid "positions cannot be specified for main windows"
+@@ -5674,7 +5680,7 @@
+ 
+ #: cobc/typeck.c:9183 cobc/typeck.c:9187 cobc/typeck.c:9211
+ msgid "HANDLE must be either a generic or a WINDOW HANDLE or X(10)"
+-msgstr "HANDLE måste vara antingen en generisk eller ett WINDOW HANDLE eller X(10)"
++msgstr "HANDLE måste vara antingen ett generiskt HANDLE, ett WINDOW HANDLE eller X(10)"
+ 
+ #: cobc/typeck.c:9324
+ #, c-format
+@@ -5688,7 +5694,7 @@
+ #: cobc/typeck.c:9668 cobc/typeck.c:9701
+ #, c-format
+ msgid "'%s' is not an output device"
+-msgstr "”%s” är inte en utmatningsenhet"
++msgstr "”%s” är inte en utdataenhet"
+ 
+ #: cobc/typeck.c:9800
+ msgid "invalid use of 88 level in WHEN expression"
+@@ -5748,22 +5754,22 @@
+ #: cobc/typeck.c:10448
+ #, c-format
+ msgid "'%s' defined here as PIC %s"
+-msgstr "”%s” definierat här som PIC %s"
++msgstr "”%s” definierades här som PIC %s"
+ 
+ #: cobc/typeck.c:10452
+ #, c-format
+ msgid "'%s' defined here as a group of length %d"
+-msgstr "”%s” definierat här som en grupp med längden %d"
++msgstr "”%s” definierades här som en grupp med längden %d"
+ 
+ #: cobc/typeck.c:10458
+ #, c-format
+ msgid "internal register '%s' defined as USAGE %s"
+-msgstr "internt register ”%s” definierat som USAGE %s"
++msgstr "internt register ”%s” definierades som USAGE %s"
+ 
+ #: cobc/typeck.c:10461
+ #, c-format
+ msgid "'%s' defined here as USAGE %s"
+-msgstr "”%s” definierat här som USAGE %s"
++msgstr "”%s” definierades här som USAGE %s"
+ 
+ #: cobc/typeck.c:10486 cobc/typeck.c:10504
+ #, c-format
+@@ -5805,7 +5811,7 @@
+ 
+ #: cobc/typeck.c:11381
+ msgid "overlapping MOVE may occur and produce unpredictable results"
+-msgstr "överlappande MOVE kan förekomma och ger oförutsägbara resultat"
++msgstr "överlappande MOVE kan förekomma och ge oförutsägbara resultat"
+ 
+ #: cobc/typeck.c:11388
+ msgid "overlapping MOVE may produce unpredictable results"
+@@ -5834,11 +5840,11 @@
+ 
+ #: cobc/typeck.c:11632
+ msgid "literal exceeds data size"
+-msgstr "litteral överskrider datastorlek"
++msgstr "litteralen överskrider datastorleken"
+ 
+ #: cobc/typeck.c:11636
+ msgid "numeric literal exceeds data size"
+-msgstr "numerisk litteral överskrider datastorlek"
++msgstr "numerisk litteral överskrider datastorleken"
+ 
+ #: cobc/typeck.c:11645
+ msgid "MOVE of non-integer to alphanumeric"
+@@ -5854,7 +5860,7 @@
+ 
+ #: cobc/typeck.c:11682
+ msgid "value size exceeds data size"
+-msgstr "storlek för värde överstiger datastorlek"
++msgstr "värdets storlek överskrider datastorleken"
+ 
+ #: cobc/typeck.c:11687
+ msgid "sending field larger than receiving field"
+@@ -5862,7 +5868,7 @@
+ 
+ #: cobc/typeck.c:11692
+ msgid "some digits may be truncated"
+-msgstr "vissa siffror kan komma att trunkeras"
++msgstr "vissa siffror kan komma att avkortas"
+ 
+ #: cobc/typeck.c:12566 cobc/typeck.c:12619
+ #, c-format
+@@ -5871,11 +5877,11 @@
+ 
+ #: cobc/typeck.c:12876
+ msgid "READ PREVIOUS not allowed for this file type"
+-msgstr "READ PREVIOUS inte tillåtet för denna filtyp"
++msgstr "READ PREVIOUS är inte tillåtet för denna filtyp"
+ 
+ #: cobc/typeck.c:12884
+ msgid "KEY ignored with sequential READ"
+-msgstr "KEY överhoppat med sekventiell READ"
++msgstr "KEY ignoreras vid sekventiell READ"
+ 
+ #: cobc/typeck.c:12980
+ msgid "figurative constants not allowed in FROM clause"
+@@ -5897,7 +5903,7 @@
+ 
+ #: cobc/typeck.c:13122
+ msgid "RELEASE not allowed on this record item"
+-msgstr "RELEASE inte tillåtet för detta postobjekt"
++msgstr "RELEASE är inte tillåtet för detta postobjekt"
+ 
+ #: cobc/typeck.c:13183 cobc/typeck.c:13209 cobc/typeck.c:13237
+ msgid "invalid SEARCH ALL condition"
+@@ -5905,7 +5911,7 @@
+ 
+ #: cobc/typeck.c:13231
+ msgid "SEARCH ALL requires comparision of KEY field"
+-msgstr "SEARCH ALL kräver jämförelse av KEY-fält"
++msgstr "SEARCH ALL kräver jämförelse av KEY-fältet"
+ 
+ #: cobc/typeck.c:13354 cobc/typeck.c:13361
+ msgid "SET targets must be PROGRAM-POINTER"
+@@ -5919,7 +5925,7 @@
+ #: cobc/typeck.c:13403 cobc/typeck.c:13475 cobc/typeck.c:13543
+ #, c-format
+ msgid "cannot change address of '%s', which is not level 1 or 77"
+-msgstr "det går inte att ändra adress för ”%s”, vilken inte är nivå 1 eller 77"
++msgstr "det går inte att ändra adressen för ”%s”, som inte är på nivå 1 eller 77"
+ 
+ #: cobc/typeck.c:13500
+ #, c-format
+@@ -5933,7 +5939,7 @@
+ 
+ #: cobc/typeck.c:13663
+ msgid "field does not have a FALSE clause"
+-msgstr "fält har inte en FALSE-klausul"
++msgstr "fältet har ingen FALSE-klausul"
+ 
+ #: cobc/typeck.c:13694
+ msgid "THREAD-priority must be between 1 and 32767"
+@@ -5958,11 +5964,11 @@
+ 
+ #: cobc/typeck.c:14017
+ msgid "LENGTH/SIZE clause only allowed on INDEXED files"
+-msgstr "LENGTH-/SIZE-klausul endast tillåten för INDEXED-filer"
++msgstr "LENGTH-/SIZE-klausulen är endast tillåten för INDEXED-filer"
+ 
+ #: cobc/typeck.c:14022
+ msgid "START not allowed with ACCESS MODE RANDOM"
+-msgstr "START inte tillåtet med ACCESS MODE RANDOM"
++msgstr "START är inte tillåtet med ACCESS MODE RANDOM"
+ 
+ #: cobc/typeck.c:14111 cobc/typeck.c:14117
+ #, c-format
+@@ -6008,7 +6014,7 @@
+ #: cobc/typeck.c:14690
+ #, c-format
+ msgid "%s must be a child of the input record"
+-msgstr "%s måste vara ett barn till inmatningsposten"
++msgstr "%s måste vara underordnat inmatningsposten"
+ 
+ #: cobc/typeck.c:14715
+ #, c-format
+@@ -6037,28 +6043,28 @@
+ 
+ #: cobc/typeck.c:14776 cobc/typeck.c:14782
+ msgid "JSON/XML GENERATE receiving item"
+-msgstr "JSON/XML GENERATE mottagarobjekt"
++msgstr "JSON/XML GENERATE-mottagarobjekt"
+ 
+ #: cobc/typeck.c:14779
+ msgid "JSON/XML GENERATE receiving item may not have JUSTIFIED clause"
+-msgstr "JSON/XML GENERATE mottagarobjekt får inte ha JUSTIFIED-klausul"
++msgstr "JSON/XML GENERATE-mottagarobjektet får inte ha JUSTIFIED-klausul"
+ 
+ #: cobc/typeck.c:14867
+ msgid "JSON/XML GENERATE input record may not be reference modified"
+-msgstr "JSON/XML GENERATE inmatningspost får inte referensmodifieras"
++msgstr "JSON/XML GENERATE-inmatningsposten får inte referensmodifieras"
+ 
+ #: cobc/typeck.c:14873
+ msgid "JSON/XML GENERATE input record may not have RENAMES clause"
+-msgstr "JSON/XML GENERATE inmatningspost får inte ha RENAMES-klausul"
++msgstr "JSON/XML GENERATE-inmatningsposten får inte ha RENAMES-klausul"
+ 
+ #: cobc/typeck.c:14878
+ #, c-format
+ msgid "all the children of '%s' are ignored in JSON/XML GENERATE"
+-msgstr "alla barn till ”%s” ignoreras i JSON/XML GENERATE"
++msgstr "alla underobjekt till ”%s” ignoreras i JSON/XML GENERATE"
+ 
+ #: cobc/typeck.c:14885
+ msgid "JSON/XML GENERATE input record has subrecords with non-unique names"
+-msgstr "JSON/XML GENERATE inmatningspost har underposter med icke-unika namn"
++msgstr "JSON/XML GENERATE-inmatningsposten har delposter med icke-unika namn"
+ 
+ #: cobc/typeck.c:14890
+ msgid "floating-point items in JSON/XML GENERATE"
+@@ -6082,7 +6088,7 @@
+ 
+ #: cobc/typeck.c:15019
+ msgid "NAME OF item must be the input record or a child of it"
+-msgstr "NAME OF-objekt måste vara inmatningsposten eller ett barn till den"
++msgstr "NAME OF-objektet måste vara inmatningsposten eller ett underobjekt till den"
+ 
+ #: cobc/typeck.c:15029
+ msgid "NAME OF ... OMITTED only valid for source identifier"
+@@ -6091,7 +6097,7 @@
+ #: cobc/typeck.c:15037
+ #, c-format
+ msgid "NAME OF literal must be a valid %s identifier"
+-msgstr "NAME OF-litteral måste vara en giltig %s-identifierare"
++msgstr "NAME OF-litteralen måste vara en giltig %s-identifierare"
+ 
+ #: cobc/typeck.c:15062 cobc/typeck.c:15063 cobc/typeck.c:15066
+ #: cobc/typeck.c:15070
+@@ -6120,7 +6126,7 @@
+ 
+ #: cobc/typeck.c:15204
+ msgid "WITH ATTRIBUTES specified, but no attributes can be generated"
+-msgstr "WITH ATTRIBUTES angivet, men inga attribut kan genereras"
++msgstr "WITH ATTRIBUTES har angetts, men inga attribut kan genereras"
+ 
+ #: cobc/warning.def:31
+ msgid "  -Wadditional          additional warnings only raised with -Wall"
+@@ -6132,15 +6138,17 @@
+ 
+ #: cobc/warning.def:37
+ msgid "  -Wno-pending          do not warn if pending features are used"
+-msgstr "  -Wno-pending          varna inte när väntande funktioner används"
++msgstr "  -Wno-pending          varna inte när funktioner under utveckling används"
+ 
+ #: cobc/warning.def:40
+ msgid "  -Wno-repository-checks\tdo not warn/check for program/function/external signature mismatch"
+-msgstr "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för program/funktion/extern"
++msgstr "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för "
++"program, funktioner och externa namn"
+ 
+ #: cobc/warning.def:43
+ msgid "  -Wno-ignored-error    do not warn about errors in code parts which are unreachable and so normally ignored"
+-msgstr "  -Wno-ignored-error    varna inte om fel i koddelar som är oåtkomliga och därför normalt ignoreras"
++msgstr "  -Wno-ignored-error    varna inte om fel i koddelar som inte kan nås och "
++"därför normalt ignoreras"
+ 
+ #: cobc/warning.def:46
+ msgid "  -Wobsolete            warn if obsolete features are used"
+@@ -6156,11 +6164,11 @@
+ 
+ #: cobc/warning.def:55
+ msgid "  -Wtruncate            warn about field truncation from constant assignments"
+-msgstr "  -Wtruncate            varna för fälttrunkering vid konstanttilldelningar"
++msgstr "  -Wtruncate            varna för fältavkortning vid konstanttilldelningar"
+ 
+ #: cobc/warning.def:58
+ msgid "  -Wpossible-truncate   warn about possible field truncation"
+-msgstr "  -Wpossible-truncate   varna för möjlig fälttrunkering"
++msgstr "  -Wpossible-truncate   varna för möjlig fältavkortning"
+ 
+ #: cobc/warning.def:61
+ msgid "  -Woverlap             warn about overlapping MOVE of items"
+@@ -6217,11 +6225,12 @@
+ 
+ #: cobc/warning.def:100
+ msgid "  -Wlarger-01-redefines  warn about larger redefines allowed by COBOL standards"
+-msgstr "  -Wlarger-01-redefines  varna om större redefines som tillåts av COBOL-standarder"
++msgstr "  -Wlarger-01-redefines  varna om större REDEFINES som tillåts av "
++"COBOL-standarderna"
+ 
+ #: cobc/warning.def:103
+ msgid "  -Wcolumn-overflow     warn about text after program-text area, FIXED format"
+-msgstr "  -Wcolumn-overflow     varna om text efter programtextområde, FIXED-format"
++msgstr "  -Wcolumn-overflow     varna om text efter programtextområdet, FIXED-format"
+ 
+ #: cobc/warning.def:106
+ msgid "  -Wterminator          warn about lack of scope terminator END-XXX"
+@@ -6241,19 +6250,21 @@
+ 
+ #: cobc/warning.def:118
+ msgid "  -Wno-goto-section     do not warn about GO TO section-name"
+-msgstr "  -Wno-goto-section     varna inte om GO TO sektionsnamn"
++msgstr "  -Wno-goto-section     varna inte om GO TO-sektionsnamn"
+ 
+ #: cobc/warning.def:121
+ msgid "  -Wgoto-different-section\twarn about GO TO a praragraph defined in a different section"
+-msgstr "  -Wgoto-different-section\tvarna om GO TO till stycke definierat i annan sektion"
++msgstr "  -Wgoto-different-section\tvarna om GO TO till ett stycke som definieras i "
++"en annan sektion"
+ 
+ #: cobc/warning.def:124
+ msgid "  -Wsuspicious-perform-thru\twarn if PERFORM THRU references procedures not in ascending order or multiple sections"
+-msgstr "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar procedurer utan stigande ordning eller flera sektioner"
++msgstr "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar till procedurer "
++"som inte står i stigande ordning eller till flera sektioner"
+ 
+ #: cobc/warning.def:127
+ msgid "  -Wdangling-text       warn about source text after program-area"
+-msgstr "  -Wdangling-text       varna om källtext efter programområde"
++msgstr "  -Wdangling-text       varna om källtext efter programområdet"
+ 
+ #: cobc/warning.def:130
+ msgid "  -Wno-missing-newline  do not warn about missing newlines"
+@@ -6304,12 +6315,12 @@
+ #: libcob/call.c:1247 libcob/call.c:1328 libcob/call.c:1448 libcob/call.c:1475
+ #, c-format
+ msgid "NULL parameter passed to '%s'"
+-msgstr "NULL-parameter skickad till ”%s”"
++msgstr "NULL-parametern skickades till ”%s”"
+ 
+ #: libcob/call.c:1332
+ #, c-format
+ msgid "invalid number of arguments passed to '%s'"
+-msgstr "ogiltigt antal argument skickade till ”%s”"
++msgstr "ogiltigt antal argument skickades till ”%s”"
+ 
+ #: libcob/call.c:1452
+ msgid "multiple call to 'cob_setjmp'"
+@@ -6331,7 +6342,7 @@
+ #: libcob/call.c:1712
+ #, c-format
+ msgid "parameter %d is not within range of %d"
+-msgstr "parameter %d är inte inom intervallet %d"
++msgstr "parameter %d ligger inte inom intervallet %d"
+ 
+ #: libcob/call.c:1718
+ #, c-format
+@@ -6344,12 +6355,12 @@
+ 
+ #: libcob/call.c:2053
+ msgid "field not allocated"
+-msgstr "fält ej allokerat"
++msgstr "fältet är inte allokerat"
+ 
+ #: libcob/call.c:2119
+ #, c-format
+ msgid "attempt to over-write constant field with '%s'"
+-msgstr "försök att skriva över konstant fält med ”%s”"
++msgstr "försök att skriva över konstantfält med ”%s”"
+ 
+ #: libcob/call.c:2161 libcob/call.c:2219 libcob/call.c:2270
+ #, c-format
+@@ -6394,11 +6405,11 @@
+ #: libcob/common.c:1074
+ #, c-format
+ msgid "requested coredump creation failed with status %d"
+-msgstr "begärd coredump-skapning misslyckades med status %d"
++msgstr "begärd coredump kunde inte skapas; status %d"
+ 
+ #: libcob/common.c:1303
+ msgid "fatal arithmetic error"
+-msgstr "ödesdigert aritmetiskt fel"
++msgstr "allvarligt aritmetiskt fel"
+ 
+ #: libcob/common.c:1306
+ msgid "interrupt from keyboard"
+@@ -6406,11 +6417,11 @@
+ 
+ #: libcob/common.c:1310
+ msgid "hangup"
+-msgstr "upphängning"
++msgstr "avbruten anslutning"
+ 
+ #: libcob/common.c:1314
+ msgid "quit"
+-msgstr "avsluta"
++msgstr "avslut"
+ 
+ #: libcob/common.c:1318
+ msgid "termination"
+@@ -6430,7 +6441,7 @@
+ 
+ #: libcob/common.c:1334
+ msgid "attempt to reference invalid memory address"
+-msgstr "försök att referera ogiltig minnesadress"
++msgstr "försök att referera till en ogiltig minnesadress"
+ 
+ #: libcob/common.c:1338
+ msgid "bus error"
+@@ -6446,7 +6457,7 @@
+ 
+ #: libcob/common.c:1350
+ msgid "process killed"
+-msgstr "processen dödades"
++msgstr "processen har dödats"
+ 
+ #: libcob/common.c:1354
+ msgid "alarm signal"
+@@ -6454,7 +6465,7 @@
+ 
+ #: libcob/common.c:1358
+ msgid "stop process"
+-msgstr "stoppa process"
++msgstr "stoppa processen"
+ 
+ #: libcob/common.c:1362 libcob/common.c:1366
+ msgid "child process stopped"
+@@ -6473,7 +6484,7 @@
+ #: libcob/common.c:1377 libcob/common.c:8922
+ #, c-format
+ msgid "abnormal termination - file contents may be incorrect"
+-msgstr "onormal avslutning - filinnehåll kan vara felaktigt"
++msgstr "onormal avslutning – filinnehållet kan vara felaktigt"
+ 
+ #: libcob/common.c:3441 libcob/common.c:9398 libcob/common.c:9412
+ msgid "version mismatch"
+@@ -6493,7 +6504,7 @@
+ #: libcob/common.c:4141
+ #, c-format
+ msgid "code execution leaving %s"
+-msgstr "kodkörning lämnar %s"
++msgstr "kodexekvering lämnar %s"
+ 
+ #: libcob/common.c:4151
+ #, c-format
+@@ -6503,18 +6514,18 @@
+ #: libcob/common.c:4168
+ #, c-format
+ msgid "memory violation detected for '%s' after %s"
+-msgstr "minnesöverträdelse upptäckt för ”%s” efter %s"
++msgstr "minnesåtkomstfel upptäcktes för ”%s” efter %s"
+ 
+ #: libcob/common.c:4171
+ #, c-format
+ msgid "memory violation detected after %s"
+-msgstr "minnesöverträdelse upptäckt efter %s"
++msgstr "minnesåtkomstfel upptäcktes efter %s"
+ 
+ #: libcob/common.c:4229 libcob/common.c:4244 libcob/common.c:4283
+ #: libcob/common.c:4287
+ #, c-format
+ msgid "LINKAGE item %s not passed by caller"
+-msgstr "LINKAGE-objekt %s inte skickat av anroparen"
++msgstr "LINKAGE-objektet %s skickades inte av anroparen"
+ 
+ #: libcob/common.c:4253
+ #, c-format
+@@ -6524,12 +6535,12 @@
+ #: libcob/common.c:4378
+ #, c-format
+ msgid "'%s' (Type: %s) not numeric: '%s'"
+-msgstr "”%s” (typ: %s) inte numeriskt: ”%s”"
++msgstr "”%s” (typ: %s) är inte numeriskt: ”%s”"
+ 
+ #: libcob/common.c:4403
+ #, c-format
+ msgid "OCCURS DEPENDING ON '%s' out of bounds: %d"
+-msgstr "OCCURS DEPENDING ON ”%s” utanför intervall: %d"
++msgstr "OCCURS DEPENDING ON ”%s” är utanför gränserna: %d"
+ 
+ #: libcob/common.c:4406 libcob/common.c:4444
+ #, c-format
+@@ -6549,22 +6560,23 @@
+ #: libcob/common.c:4465
+ #, c-format
+ msgid "offset of '%s' out of bounds: %d, maximum: %d"
+-msgstr "förskjutning för ”%s” utanför intervall: %d, max: %d"
++msgstr "förskjutning för ”%s” är utanför gränserna: %d, högsta värde: %d"
+ 
+ #: libcob/common.c:4480
+ #, c-format
+ msgid "length of '%s' out of bounds: %d, maximum: %d"
+-msgstr "längd för ”%s” utanför intervall: %d, max: %d"
++msgstr "längd för ”%s” är utanför gränserna: %d, högsta värde: %d"
+ 
+ #: libcob/common.c:4491
+ #, c-format
+ msgid "length of '%s' out of bounds: %d, starting at: %d, maximum: %d"
+-msgstr "längd för ”%s” utanför intervall: %d, start vid: %d, max: %d"
++msgstr "längd för ”%s” är utanför gränserna: %d, start: %d, högsta värde: %d"
+ 
+ #: libcob/common.c:4579 libcob/common.c:4584
+ #, c-format
+ msgid "EXTERNAL item '%s' previously allocated with size %d, requested size is %d"
+-msgstr "EXTERNAL-objekt ”%s” tidigare allokerat med storlek %d, begärd storlek är %d"
++msgstr "EXTERNAL-objektet ”%s” har tidigare allokerats med storleken %d, begärd "
++"storlek är %d"
+ 
+ #: libcob/common.c:4961 libcob/common.c:5201
+ #, c-format
+@@ -6597,7 +6609,7 @@
+ 
+ #: libcob/common.c:7220
+ msgid "call to CBL_GC_GETOPT with wrong longoption size"
+-msgstr "anrop till CBL_GC_GETOPT med fel storlek på långflagga"
++msgstr "anrop till CBL_GC_GETOPT med fel storlek på lång flagga"
+ 
+ #: libcob/common.c:7225
+ msgid "call to CBL_GC_GETOPT with missing longind"
+@@ -6637,12 +6649,12 @@
+ #: libcob/common.c:8223 libcob/common.c:8226 libcob/common.c:8229
+ #, c-format
+ msgid "set by %s"
+-msgstr "satt av %s"
++msgstr "angivet av %s"
+ 
+ #: libcob/common.c:8367
+ #, c-format
+ msgid "WARNING - '%s' without a value - ignored!"
+-msgstr "VARNING - ”%s” utan ett värde - överhoppat!"
++msgstr "VARNING – ”%s” utan värde – ignoreras!"
+ 
+ #: libcob/common.c:8370
+ #, c-format
+@@ -6652,7 +6664,7 @@
+ #: libcob/common.c:8397
+ #, c-format
+ msgid "WARNING - '%s %s' without a value - ignored!"
+-msgstr "VARNING - ”%s %s” utan ett värde - överhoppat!"
++msgstr "VARNING – ”%s %s” utan värde – ignoreras!"
+ 
+ #: libcob/common.c:8906
+ msgid "error"
+@@ -6668,7 +6680,7 @@
+ 
+ #: libcob/common.c:8979
+ msgid "stack overflow, possible PERFORM depth exceeded"
+-msgstr "stacköverspill, möjligt PERFORM-djup överskridit"
++msgstr "stacköverflöde, möjligt PERFORM-djup har överskridits"
+ 
+ #: libcob/common.c:8984
+ msgid "invalid entry/exit in GLOBAL USE procedure"
+@@ -6680,7 +6692,7 @@
+ 
+ #: libcob/common.c:8993
+ msgid "invalid entry into module"
+-msgstr "ogiltig ingång in i modul"
++msgstr "ogiltig ingång i modul"
+ 
+ #: libcob/common.c:9000
+ #, c-format
+@@ -6702,7 +6714,7 @@
+ 
+ #: libcob/common.c:9026
+ msgid "key order not ascending"
+-msgstr "nyckelsortering inte stigande"
++msgstr "nyckelordningen är inte stigande"
+ 
+ #: libcob/common.c:9029
+ msgid "record key already exists"
+@@ -6710,7 +6722,7 @@
+ 
+ #: libcob/common.c:9032
+ msgid "record key does not exist"
+-msgstr "postnyckel existerar inte"
++msgstr "postnyckeln finns inte"
+ 
+ #: libcob/common.c:9035
+ msgid "permanent file error"
+@@ -6730,15 +6742,15 @@
+ 
+ #: libcob/common.c:9047
+ msgid "mismatch of fixed file attributes"
+-msgstr "felmatchning av fasta filattribut"
++msgstr "fasta filattribut matchar inte"
+ 
+ #: libcob/common.c:9050
+ msgid "file already open"
+-msgstr "fil redan öppen"
++msgstr "filen är redan öppen"
+ 
+ #: libcob/common.c:9053
+ msgid "file not open"
+-msgstr "fil inte öppen"
++msgstr "filen är inte öppen"
+ 
+ #: libcob/common.c:9056
+ msgid "READ must be executed first"
+@@ -6746,7 +6758,7 @@
+ 
+ #: libcob/common.c:9059
+ msgid "record overflow"
+-msgstr "postöverspill"
++msgstr "postöverflöde"
+ 
+ #: libcob/common.c:9062
+ msgid "READ after unsuccessful READ/START"
+@@ -6754,19 +6766,19 @@
+ 
+ #: libcob/common.c:9065
+ msgid "READ/START not allowed, file not open for input"
+-msgstr "READ/START inte tillåtet, fil inte öppen för inmatning"
++msgstr "READ/START är inte tillåtet, filen är inte öppen för indata"
+ 
+ #: libcob/common.c:9068
+ msgid "WRITE not allowed, file not open for output"
+-msgstr "WRITE inte tillåtet, fil inte öppen för utmatning"
++msgstr "WRITE är inte tillåtet, filen är inte öppen för utdata"
+ 
+ #: libcob/common.c:9071
+ msgid "DELETE/REWRITE not allowed, file not open for I-O"
+-msgstr "DELETE/REWRITE inte tillåtet, fil inte öppen för in-/utmatning"
++msgstr "DELETE/REWRITE är inte tillåtet, filen är inte öppen för in-/utdata"
+ 
+ #: libcob/common.c:9074
+ msgid "record locked by another file connector"
+-msgstr "post låst av en annan filkontakt"
++msgstr "posten är låst av en annan filanslutning"
+ 
+ #: libcob/common.c:9077
+ msgid "LINAGE values invalid"
+@@ -6782,7 +6794,7 @@
+ 
+ #: libcob/common.c:9087
+ msgid "runtime library is not configured for this operation"
+-msgstr "körtidsbibliotek är inte konfigurerat för denna åtgärd"
++msgstr "körtidsbiblioteket är inte konfigurerat för denna åtgärd"
+ 
+ #: libcob/common.c:9092
+ msgid "unknown file error"
+@@ -6851,11 +6863,11 @@
+ 
+ #: libcob/common.c:9773
+ msgid "File I/O configuration"
+-msgstr "Fil in/ut-konfiguration"
++msgstr "Konfiguration av fil-I/O"
+ 
+ #: libcob/common.c:9774
+ msgid "Screen I/O configuration"
+-msgstr "Skärm in/ut-konfiguration"
++msgstr "Konfiguration av skärm-I/O"
+ 
+ #: libcob/common.c:9775
+ msgid "Miscellaneous"
+@@ -6894,7 +6906,7 @@
+ #: libcob/common.c:10338 libcob/common.c:10364
+ #, c-format
+ msgid "%s called with unknown option: %d"
+-msgstr "%s anropades med okänt alternativ: %d"
++msgstr "%s anropades med okänd flagga: %d"
+ 
+ #. TRANSLATORS: This msgid is shown for a requested but empty stack trace.
+ #: libcob/common.c:10411
+@@ -6909,12 +6921,12 @@
+ #: libcob/common.c:10762
+ #, c-format
+ msgid "Dump Program-Id %s from %s compiled %s"
+-msgstr "Dump Program-Id %s från %s kompilerad %s"
++msgstr "Dump av Program-Id %s från %s, kompilerad %s"
+ 
+ #: libcob/common.c:10788
+ #, c-format
+ msgid "dump written to %s"
+-msgstr "dump skriven till %s"
++msgstr "dump skrevs till %s"
+ 
+ #: libcob/fileio.c:784 libcob/fileio.c:1664 libcob/fileio.c:1926
+ #: libcob/fileio.c:3938 libcob/fileio.c:4522 libcob/fileio.c:10049
+@@ -6936,7 +6948,7 @@
+ #: libcob/fileio.c:3510 libcob/fileio.c:3530
+ #, c-format
+ msgid "cannot join BDB environment (%s), error: %d %s"
+-msgstr "det går inte att sammanfoga BDB-miljö (%s): fel: %d %s"
++msgstr "kan inte ansluta till BDB-miljön (%s), fel: %d %s"
+ 
+ #: libcob/fileio.c:3585 libcob/fileio.c:3610 libcob/fileio.c:3636
+ #: libcob/fileio.c:3655
+@@ -6947,7 +6959,7 @@
+ #: libcob/fileio.c:6199
+ #, c-format
+ msgid "ERROR FILE %s has ASSIGN field is NULL"
+-msgstr "FEL FIL %s har ASSIGN-fält som är NULL"
++msgstr "FEL: FIL %s har ett NULL-ASSIGN-fält"
+ 
+ #: libcob/fileio.c:7050
+ #, c-format
+@@ -6971,7 +6983,7 @@
+ 
+ #: libcob/fileio.c:7871
+ msgid "SORT is unable to acquire temporary file"
+-msgstr "SORT kan inte få tag i temporärfil"
++msgstr "SORT kan inte hämta temporärfil"
+ 
+ #. TRANSLATORS: This msgid is concatenated with a filename;
+ #. setup translation to allow this to be followed on the right side,
+@@ -7047,7 +7059,7 @@
+ 
+ #: libcob/screenio.c:1055
+ msgid "failed to initialize curses"
+-msgstr "misslyckades att initiera curses"
++msgstr "det gick inte att initiera curses"
+ 
+ #: libcob/screenio.c:5034
+ msgid "end of program, please press a key to exit"
+@@ -7064,7 +7076,7 @@
+ 
+ #: libcob/termio.c:421
+ msgid "COB_DISPLAY_PUNCH_FILE is invalid, output to SYSPUNCH skipped"
+-msgstr "COB_DISPLAY_PUNCH_FILE är ogiltig, utmatning till SYSPUNCH överhoppas"
++msgstr "COB_DISPLAY_PUNCH_FILE är ogiltig, utdata till SYSPUNCH hoppas över"
+ 
+ #: bin/cobcrun.c:118
+ msgid "GnuCOBOL module loader"
+@@ -7102,7 +7114,7 @@
+ 
+ #: bin/cobcrun.c:132
+ msgid "  -q, --brief                     reduced displays"
+-msgstr "  -q, --brief                     begränsade utskrifter"
++msgstr "  -q, --brief                     begränsad utdata"
+ 
+ #: bin/cobcrun.c:134
+ msgid "  -c <file>, --config=<file>      set runtime configuration from <file>"
+@@ -7113,8 +7125,8 @@
+ "  -r, --runtime-config            display current runtime configuration\n"
+ "                                  (value and origin for all settings)"
+ msgstr ""
+-"  -r, --runtime-config            skriv ut aktuell körtidskonfiguration\n"
+-"                                  (värde och härkomst för alla inställningar)"
++"  -r, --runtime-config            visa aktuell körtidskonfiguration\n"
++"                                  (värde och ursprung för alla inställningar)"
+ 
+ #: bin/cobcrun.c:137
+ msgid ""
+@@ -7147,7 +7159,7 @@
+ #: bin/cobcrun.c:410
+ #, c-format
+ msgid "Try '%s --help' for more information."
+-msgstr "Prova ”%s --help” för mer information."
++msgstr "Kör ”%s --help” för mer information."
+ 
+ #~ msgid "%s: %d: invalid cast from '%s' type %s to type %s"
+ #~ msgstr "%s: %d: ogiltig typkonvertering från ”%s” typ %s till typ %s"

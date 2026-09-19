@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 53 750 aktiva poster i de 46 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 14 607 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 55 437 aktiva poster i de 48 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 14 800 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -57,6 +57,8 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#fff2cc"><td>gettext-runtime</td><td>1.0-pre2</td><td align="right">71</td><td align="right">11</td><td align="right">15.49 %</td><td><a href="gettext-runtime-1.0-pre2.sv.po">PO</a></td><td><a href="diff/gettext-runtime-1.0-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gettext-runtime-1.0-pre2.sv.po">Original</a></td></tr>
 <tr bgcolor="#e7f1cd"><td>gettext-tools</td><td>1.0-pre2</td><td align="right">811</td><td align="right">61</td><td align="right">7.52 %</td><td><a href="gettext-tools-1.0-pre2.sv.po">PO</a></td><td><a href="diff/gettext-tools-1.0-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gettext-tools-1.0-pre2.sv.po">Original</a></td></tr>
 <tr bgcolor="#e7f1cd"><td>gnubik</td><td>2.4.3</td><td align="right">83</td><td align="right">6</td><td align="right">7.23 %</td><td><a href="gnubik-2.4.3.sv.po">PO</a></td><td><a href="diff/gnubik-2.4.3.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gnubik-2.4.3.sv.po">Original</a></td></tr>
+<tr bgcolor="#e7f1cd"><td>gnuchess</td><td>6.3.0-pre2</td><td align="right">149</td><td align="right">14</td><td align="right">9.40 %</td><td><a href="gnuchess-6.3.0-pre2.sv.po">PO</a></td><td><a href="diff/gnuchess-6.3.0-pre2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gnuchess-6.3.0-pre2.sv.po">Original</a></td></tr>
+<tr bgcolor="#f4f1c9"><td>gnucobol</td><td>3.2</td><td align="right">1538</td><td align="right">179</td><td align="right">11.64 %</td><td><a href="gnucobol-3.2.sv.po">PO</a></td><td><a href="diff/gnucobol-3.2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gnucobol-3.2.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
