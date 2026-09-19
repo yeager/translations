@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 59 279 aktiva poster i de 61 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 15 836 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 59 676 aktiva poster i de 62 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 15 960 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -72,6 +72,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#fce5cd"><td>gst-plugins-base</td><td>1.27.90</td><td align="right">237</td><td align="right">59</td><td align="right">24.89 %</td><td><a href="gst-plugins-base-1.27.90.sv.po">PO</a></td><td><a href="diff/gst-plugins-base-1.27.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gst-plugins-base-1.27.90.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>gst-plugins-good</td><td>1.27.90</td><td align="right">104</td><td align="right">46</td><td align="right">44.23 %</td><td><a href="gst-plugins-good-1.27.90.sv.po">PO</a></td><td><a href="diff/gst-plugins-good-1.27.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gst-plugins-good-1.27.90.sv.po">Original</a></td></tr>
 <tr bgcolor="#fce5cd"><td>gst-plugins-ugly</td><td>1.27.90</td><td align="right">10</td><td align="right">2</td><td align="right">20.00 %</td><td><a href="gst-plugins-ugly-1.27.90.sv.po">PO</a></td><td><a href="diff/gst-plugins-ugly-1.27.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gst-plugins-ugly-1.27.90.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>gstreamer</td><td>1.27.90</td><td align="right">397</td><td align="right">124</td><td align="right">31.23 %</td><td><a href="gstreamer-1.27.90.sv.po">PO</a></td><td><a href="diff/gstreamer-1.27.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/gstreamer-1.27.90.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
