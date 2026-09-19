@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 90 743 aktiva poster i de 104 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 24 020 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 91 272 aktiva poster i de 105 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 24 278 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.1 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Vid IT-termer används i första hand [Computer Swedens IT-ord](https://it-ord.computersweden.se/). Vid övriga språk- och termbedömningar används [Svenska Akademiens ordböcker](https://svenska.se/), [TEPA](https://termipankki.fi/tepa/sv/), [IATE](https://iate.europa.eu/home), [Rikstermbanken](https://www.rikstermbanken.se/) och [ISOF:s vägledning om fackspråk och terminologi](https://www.isof.se/svenska-spraket/facksprak-och-terminologi). Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -115,6 +115,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#ea9999"><td>psmisc</td><td>23.7-rc1</td><td align="right">94</td><td align="right">42</td><td align="right">44.68 %</td><td><a href="psmisc-23.7-rc1.sv.po">PO</a></td><td><a href="diff/psmisc-23.7-rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/psmisc-23.7-rc1.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>recutils</td><td>1.8</td><td align="right">305</td><td align="right">139</td><td align="right">45.57 %</td><td><a href="recutils-1.8.sv.po">PO</a></td><td><a href="diff/recutils-1.8.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/recutils-1.8.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>rush</td><td>2.4.90</td><td align="right">248</td><td align="right">102</td><td align="right">41.13 %</td><td><a href="rush-2.4.90.sv.po">PO</a></td><td><a href="diff/rush-2.4.90.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/rush-2.4.90.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>sarg</td><td>2.4.0</td><td align="right">529</td><td align="right">258</td><td align="right">48.77 %</td><td><a href="sarg-2.4.0.sv.po">PO</a></td><td><a href="diff/sarg-2.4.0.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/sarg-2.4.0.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
