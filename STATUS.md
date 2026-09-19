@@ -1246,3 +1246,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – kartgränssnitt, slutföljd (2026-09-19):** Tre ytterligare verifierade UI-luckor för ny karta, snabb radiekarta och tomt val är API-publicerade med HTTP 201. Backup: `SuiteCRM-Core/sv-maps-final-810-20260919.json`.
 
 **SuiteCRM Core – kartgeokodning (2026-09-19):** Tre aktuella UI-luckor för geokodningsresultat, modul och bekräftelse är API-publicerade med HTTP 201 i release 8.10. Backup: `SuiteCRM-Core/sv-maps-geocode-810-20260919.json`.
+
+**SuiteCRM Core – kartgeokodningsflöde (2026-09-19):** Tre viktiga användartexter för geokodningsgränser, schemalagd säker bearbetning och import/export av adressdata är kontextgranskade och API-publicerade med HTTP 201. URL-, autentiserings- och datalagringsinnebörd är bevarad. Backup: `SuiteCRM-Core/sv-maps-geocode-help-810-20260919.json`.
