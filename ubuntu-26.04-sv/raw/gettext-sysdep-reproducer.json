@@ -1,0 +1,34 @@
+[
+  {
+    "command": [
+      "msgfmt",
+      "-o",
+      "work/sysdep.mo",
+      "work/sysdep-original.po"
+    ],
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "command": [
+      "msgunfmt",
+      "--no-wrap",
+      "-o",
+      "work/sysdep-unformatted.po",
+      "work/sysdep.mo"
+    ],
+    "exit_code": 0,
+    "stderr": ""
+  },
+  {
+    "command": [
+      "msgfmt",
+      "--check-format",
+      "-o",
+      "/dev/null",
+      "work/sysdep-unformatted.po"
+    ],
+    "exit_code": 1,
+    "stderr": "work/sysdep-unformatted.po:13: duplicate message definition...\nwork/sysdep-unformatted.po:9: ...this is the location of the first definition\nmsgfmt: found 1 fatal error\n"
+  }
+]

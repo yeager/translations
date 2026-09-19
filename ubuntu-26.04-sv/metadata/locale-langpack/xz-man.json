@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/xz-man",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/xz-man.po",
+    "original_po": "original/locale-langpack/xz-man.po",
+    "diff": "diff/locale-langpack/xz-man.po.diff",
+    "report": "reports/locale-langpack/xz-man.md",
+    "metadata": "metadata/locale-langpack/xz-man.json",
+    "validation": "validation/locale-langpack/xz-man.json"
+  },
+  "upstream": {
+    "project": "XZ Utils",
+    "project_url": "https://tukaani.org/xz/",
+    "repository_url": null,
+    "ubuntu_source_package": "xz-utils",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/xz-utils",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "xz-utils",
+        "Version": "5.8.3-1",
+        "Homepage": "https://tukaani.org/xz/"
+      },
+      "po_project_id": "xz-man 5.8.2-pre1",
+      "po_bug_report_address": ""
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/xz-man.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/xz-man.mo",
+    "mo_sha256": "12550acac34705da61a9567f3942899bf18874e40130013ea833ac970772081b",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/xz-man.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "xz-man 5.8.2-pre1",
+      "Report-Msgid-Bugs-To": "",
+      "PO-Revision-Date": "2025-12-27 02:42+0000",
+      "Last-Translator": "Göran Uddeborg <goeran@uddeborg.se>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 17:38+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv",
+      "X-Bugs": "Report translation errors to the Language-Team address."
+    }
+  },
+  "sha256": {
+    "original_po": "e1ca9278f899011258cf0e6c13f5ad113e64d3da5d99352b7ebd50575d50b657",
+    "corrected_po": "5dec2d97e0e58fa207da6ff038104d21b6dcd5996d4d9f73ed55abce20405578",
+    "diff": "434c0ea4f784309478b337a9c350ac2c17fe04f4a33a30f84db4c270d93e8620"
+  },
+  "report": {
+    "changed_translations": 3,
+    "priorities": {
+      "P3": 3
+    },
+    "findings": [
+      {
+        "finding_id": "F048",
+        "severity": "P3",
+        "title": "Stavfel: kommmer",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 1120,
+        "msgctxt": null,
+        "msgid": "Future versions may add new line types and new columns can be added to the existing line types, but the existing columns won't be changed.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Framtida versioner kan lägga till fler radtyper och fler kolumner kan läggas til på de befintliga radtyperna, men de befintliga kolumnerna kommmer inte ändras.",
+        "after": "Framtida versioner kan lägga till fler radtyper och fler kolumner kan läggas til på de befintliga radtyperna, men de befintliga kolumnerna kommer inte ändras.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 1120
+      },
+      {
+        "finding_id": "F056",
+        "severity": "P3",
+        "title": "Felaktig upprepning: 1 beta beta",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 1651,
+        "msgctxt": null,
+        "msgid": "Stability.  0 is alpha, 1 is beta, and 2 is stable.  I<S> should be always 2 when I<YYY> is even.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Stabilitet.  0 är alfa, 1 beta beta och 2 är stabil. I<S> skall alltid vara 2 när I<YYY> är jämnt.",
+        "after": "Stabilitet.  0 är alfa, 1 är beta och 2 är stabil. I<S> skall alltid vara 2 när I<YYY> är jämnt.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 1651
+      },
+      {
+        "finding_id": "F057",
+        "severity": "P3",
+        "title": "Felaktig upprepning: med med",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 1837,
+        "msgctxt": null,
+        "msgid": "These are like B<-6> but with higher compressor and decompressor memory requirements.  These are useful only when compressing files bigger than 8\\ MiB, 16\\ MiB, and 32\\ MiB, respectively.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Dessa liknar B<-6> med med högre krav på minne till komprimerare och dekomprimerare. Dessa är bara användbara vid komprimering av filer större än 8\\ MiB, 16\\ MiB respektive 32\\ MiB.",
+        "after": "Dessa liknar B<-6> men med högre krav på minne till komprimerare och dekomprimerare. Dessa är bara användbara vid komprimering av filer större än 8\\ MiB, 16\\ MiB respektive 32\\ MiB.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 1837
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 202,
+    "lint_after": 197,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: xz-man 5.8.2-pre1\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2025-12-27 02:42+0000\nLast-Translator: Göran Uddeborg <goeran@uddeborg.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 17:38+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "corrected": "Project-Id-Version: xz-man 5.8.2-pre1\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2025-12-27 02:42+0000\nLast-Translator: Göran Uddeborg <goeran@uddeborg.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 17:38+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

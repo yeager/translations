@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/git",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/git.po",
+    "original_po": "original/locale-langpack/git.po",
+    "diff": "diff/locale-langpack/git.po.diff",
+    "report": "reports/locale-langpack/git.md",
+    "metadata": "metadata/locale-langpack/git.json",
+    "validation": "validation/locale-langpack/git.json"
+  },
+  "upstream": {
+    "project": "Git",
+    "project_url": "https://git-scm.com/",
+    "repository_url": "https://github.com/git/git",
+    "ubuntu_source_package": "git",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/git",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "git",
+        "Version": "1:2.53.0-1ubuntu1",
+        "Homepage": "https://git-scm.com/"
+      },
+      "po_project_id": "git 2.53.0",
+      "po_bug_report_address": "Git Mailing List <git@vger.kernel.org>"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/git.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/git.mo",
+    "mo_sha256": "31ae8dfb96c28e820409916306a04efe66c5fd807042ac7021f7138d7dde0c98",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/git.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "git 2.53.0",
+      "Report-Msgid-Bugs-To": "Git Mailing List <git@vger.kernel.org>",
+      "PO-Revision-Date": "2026-03-07 02:39+0000",
+      "Last-Translator": "Peter Krefting <peter@softwolves.pp.se>",
+      "Language-Team": "Svenska <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 16:07+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "9200f72bb6e829110ac3a9b7daffdd7c81c0e8239a3fd94aeb19c1087ab724a0",
+    "corrected_po": "bdfb38a8a714715dc8fb4d64ee3616494036ac63ee52c51d558173c6ce6a5b90",
+    "diff": "a91e281d7b535ed4b7cf58f97c7b7d8f48046c924ffad5d3b9fde63990802464"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P2": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F021",
+        "severity": "P2",
+        "title": "Extra %s i meddelandet om incheckningsgraf",
+        "reason": "Källtexten har ingen platshållare för filnamn men översättningen har %s.",
+        "original_line": 8271,
+        "msgctxt": null,
+        "msgid": "commit-graph file is too small",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "incheckningsgraffilen %s är för liten",
+        "after": "incheckningsgraffilen är för liten",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 8261
+      }
+    ],
+    "extraction_normalizations": [
+      {
+        "msgid": "The bundle contains this ref:",
+        "original_line": 5427,
+        "action": "Removed redundant pre-expanded sysdep entry; retained portable PRIuMAX entry.",
+        "reason": "msgunfmt emits duplicate keys for this MO. Regeneration preserves the runtime message table."
+      },
+      {
+        "msgid": "The bundle requires this ref:",
+        "original_line": 5435,
+        "action": "Removed redundant pre-expanded sysdep entry; retained portable PRIuMAX entry.",
+        "reason": "msgunfmt emits duplicate keys for this MO. Regeneration preserves the runtime message table."
+      }
+    ],
+    "lint_before": 756,
+    "lint_after": 747,
+    "svlang_before": 84,
+    "svlang_after": 84,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: git 2.53.0\nReport-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\nPO-Revision-Date: 2026-03-07 02:39+0000\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Svenska <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 16:07+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: git 2.53.0\nReport-Msgid-Bugs-To: Git Mailing List <git@vger.kernel.org>\nPO-Revision-Date: 2026-03-07 02:39+0000\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Svenska <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 16:07+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

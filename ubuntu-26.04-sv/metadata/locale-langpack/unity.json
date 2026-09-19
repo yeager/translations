@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/unity",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/unity.po",
+    "original_po": "original/locale-langpack/unity.po",
+    "diff": "diff/locale-langpack/unity.po.diff",
+    "report": "reports/locale-langpack/unity.md",
+    "metadata": "metadata/locale-langpack/unity.json",
+    "validation": "validation/locale-langpack/unity.json"
+  },
+  "upstream": {
+    "project": "Unity",
+    "project_url": "https://launchpad.net/unity",
+    "repository_url": null,
+    "ubuntu_source_package": "unity",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/unity",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "unity",
+        "Version": "7.7.1+26.04.20260306-0ubuntu3",
+        "Homepage": "https://launchpad.net/unity"
+      },
+      "po_project_id": "l 10n",
+      "po_bug_report_address": "ayatana-dev@lists.launchpad.net"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity.mo",
+    "mo_sha256": "83bc2eb6735a5a2c62d2f571125cfaf2a0206a49a84b6fffbbbdc0cbc94ea360",
+    "installed_owning_package": "language-pack-gnome-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/unity.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "l 10n",
+      "Report-Msgid-Bugs-To": "ayatana-dev@lists.launchpad.net",
+      "PO-Revision-Date": "2019-09-09 18:42+0000",
+      "Last-Translator": "Arve Eriksson <Unknown>",
+      "Language-Team": "Swedish",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 16:59+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)"
+    }
+  },
+  "sha256": {
+    "original_po": "45a1e861a7f54cc135209b3927900bd5b638609b929c4fb6b02547ddec5cc045",
+    "corrected_po": "777cc8ddfe9e515527f3b4724223249a22008c4e7b11356526997abd23a5aa0f",
+    "diff": "dc1b8d454fb14f167ee5ef977ec534ccf061cda9ac1a082a9d21a584119d2399"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P3": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F046",
+        "severity": "P3",
+        "title": "Stavfel: Tilllåter",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 81,
+        "msgctxt": null,
+        "msgid": "Allows using the mouse scrollwheel to focus an application if the icon is inactive.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Tilllåter musens rullhjul att sätta ett program i fokus om ikonen är inaktiv.",
+        "after": "Tillåter musens rullhjul att sätta ett program i fokus om ikonen är inaktiv.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 81
+      },
+      {
+        "finding_id": "F047",
+        "severity": "P3",
+        "title": "Stavfel: Skugggfärg",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 814,
+        "msgctxt": null,
+        "msgid": "The color of the shadows for the inactive windows.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Skugggfärg på de inaktiva fönstren.",
+        "after": "Skuggfärg på de inaktiva fönstren.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 814
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 22,
+    "lint_after": 20,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "outputs/ubuntu-26.04-sv/po/locale-langpack/unity.po:2: warning: header field 'Language' missing in header\n"
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: l 10n\nReport-Msgid-Bugs-To: ayatana-dev@lists.launchpad.net\nPO-Revision-Date: 2019-09-09 18:42+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 16:59+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\n",
+      "corrected": "Project-Id-Version: l 10n\nReport-Msgid-Bugs-To: ayatana-dev@lists.launchpad.net\nPO-Revision-Date: 2019-09-09 18:42+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 16:59+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

@@ -1,0 +1,236 @@
+diff --git a/l10n_lint.py b/l10n_lint.py
+index 680e6dd..ed14f07 100755
+--- a/l10n_lint.py
++++ b/l10n_lint.py
+@@ -34,7 +34,7 @@ from urllib.parse import urlparse
+ if __name__ == '__main__':
+     sys.modules.setdefault('l10n_lint', sys.modules[__name__])
+ 
+-__version__ = "1.21.2"
++__version__ = "1.21.2+localeaudit1"
+ L10N_EXTENSIONS = frozenset({'.po', '.ts', '.xlf', '.xliff', '.json'})
+ 
+ # Translation setup
+@@ -692,7 +692,7 @@ class L10nLinter:
+     NORDIC_CHARS = set('åäöÅÄÖæøÆØ')
+     
+     # Option value pattern (--option=VALUE or --option VALUE)
+-    OPTION_VALUE_PATTERN = re.compile(r'--?\w+[=\s]([A-Z][A-Z0-9_]+)')
++    OPTION_VALUE_PATTERN = re.compile(r'(?<![\w-])--?[A-Za-z][\w-]*(?:=|\s+)([A-Z][A-Z0-9_]+)')
+     
+     # Number patterns for localization checks
+     NUMBER_WITH_COMMAS = re.compile(r'\b\d{1,3}(,\d{3})+\b')  # e.g. 1,000 or 1,000,000
+@@ -1029,6 +1029,17 @@ class L10nLinter:
+                 explicit = bool(flags & {'c-format', 'python-format'})
+                 before = placeholder_signature(python_source if kind == 'python' else source, kind, explicit=explicit)
+                 after = placeholder_signature(python_translation if kind == 'python' else translation, kind, explicit=explicit)
++                if kind == 'printf' and not explicit and before != after:
++                    # msgunfmt usually loses format flags. Literal suffixes
++                    # such as %iHz, %uth and Swedish %ss (genitive) can then
++                    # hide one side of an otherwise identical contract. Only
++                    # suppress the mismatch when BOTH complete signatures
++                    # agree; retain the safeguards for prose percentages and
++                    # whitespace after %. Explicit format checks stay strict.
++                    suffixed_before = placeholder_signature(source, kind, explicit=False, allow_suffix=True)
++                    suffixed_after = placeholder_signature(translation, kind, explicit=False, allow_suffix=True)
++                    if suffixed_before and suffixed_before == suffixed_after:
++                        before, after = suffixed_before, suffixed_after
+             except ValueError as exc:
+                 result.add(LintIssue(filepath, line, Severity.ERROR, rule,
+                                      f"Invalid {kind} format: {exc}", source))
+@@ -2048,9 +2059,15 @@ class L10nLinter:
+         # Swedish compounds normally reduce three equal consecutive letters to
+         # two.  Flag triples, while retaining the narrowly scoped exemptions
+         # required for intentional dialogue and format tokens.
++        source_words = set(re.findall(r'\b\w+\b', source))
+         for word in re.findall(r'\b[a-zåäö]+\b', clean, re.IGNORECASE):
+             if not re.search(r'([a-zåäö])\1{2,}', word, re.IGNORECASE):
+                 continue
++            # Unchanged source tokens (IEEE, PPP, pppd, III, www) are
++            # technical names, not Swedish compounds. Curated typo checks
++            # above still apply, including when the source repeats a typo.
++            if word in source_words:
++                continue
+             # yyyy is a year token too; keep the exemption at word boundaries
+             # so repeated letters inside actual words still receive diagnostics.
+             if word.lower() == 'yyyy' or re.fullmatch(r'[åmdhs]+', word, re.IGNORECASE):
+@@ -2117,10 +2134,12 @@ class L10nLinter:
+         header_nplurals = None
+         header_plural_formula = None
+         header_lang = None
++        has_plural_header = False
+         
+         for entry in parser.entries[:5]:
+             if 'msgid' in entry and entry['msgid'] == '':
+                 msgstr = entry.get('msgstr', '')
++                has_plural_header = bool(re.search(r'^Plural-Forms:', msgstr, re.MULTILINE))
+                 # Extract Plural-Forms header
+                 plural_match = re.search(
+                     r'Plural-Forms:\s*nplurals\s*=\s*(\d+)\s*;\s*plural\s*=\s*([^;\\]+)',
+@@ -2147,7 +2166,7 @@ class L10nLinter:
+         if header_lang and header_lang in KNOWN_PLURALS:
+             expected = KNOWN_PLURALS[header_lang]
+             
+-            if header_nplurals is None:
++            if header_nplurals is None and (has_plural_header or any('msgid_plural' in e for e in parser.entries)):
+                 result.add(LintIssue(
+                     file=filepath,
+                     line=1,
+@@ -2158,7 +2177,7 @@ class L10nLinter:
+                     ),
+                     context="Plural-Forms header"
+                 ))
+-            elif header_nplurals != expected['nplurals']:
++            elif header_nplurals is not None and header_nplurals != expected['nplurals']:
+                 result.add(LintIssue(
+                     file=filepath,
+                     line=1,
+diff --git a/l10n_project.py b/l10n_project.py
+index 4a52633..e417417 100644
+--- a/l10n_project.py
++++ b/l10n_project.py
+@@ -71,7 +71,7 @@ def python_format_text(text):
+     return ''.join(chars)
+ 
+ 
+-def _unambiguous_printf(match, text):
++def _unambiguous_printf(match, text, *, allow_suffix=False):
+     """Unflagged messages need stronger evidence than '% coverage' or '10%s'."""
+     token = match.group()
+     if any(char.isspace() for char in token):
+@@ -80,7 +80,7 @@ def _unambiguous_printf(match, text):
+     # even when followed by a literal unit (e.g. %1$dpx or %.2fms).
+     if match['position'] or match['name'] or match['width'] or match['precision'] is not None:
+         return True
+-    if match.end() < len(text) and (text[match.end()].isalnum() or text[match.end()] == '_'):
++    if not allow_suffix and match.end() < len(text) and (text[match.end()].isalnum() or text[match.end()] == '_'):
+         return False
+     # A percent sign following a number is normally a prose percentage. An
+     # explicit PO format flag opts into ambiguous conversions in these strings.
+@@ -92,7 +92,7 @@ def _unambiguous_printf(match, text):
+     return True
+ 
+ 
+-def placeholder_signature(text, kind, *, explicit=True):
++def placeholder_signature(text, kind, *, explicit=True, allow_suffix=False):
+     """Compare argument identities/types/counts, allowing explicit reordering."""
+     if kind == 'qt':
+         return sorted(Counter(re.findall(r'%(?:L?(?:[1-9]\d?|n))', text)).items())
+@@ -100,7 +100,7 @@ def placeholder_signature(text, kind, *, explicit=True):
+         args, sequential = [], 1
+         # %% consumes no argument and must not be reconsidered as a placeholder.
+         for match in PRINTF.finditer(text):
+-            if match['type'] == '%' or (not explicit and not _unambiguous_printf(match, text)):
++            if match['type'] == '%' or (not explicit and not _unambiguous_printf(match, text, allow_suffix=allow_suffix)):
+                 continue
+             for field in ('width', 'precision'):
+                 value = match[field] or ''
+diff --git a/pyproject.toml b/pyproject.toml
+index d22265a..c827ac5 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = "l10n-lint"
+-version = "1.21.2"
++version = "1.21.2+localeaudit1"
+ description = "Linter for localization files (.po, .ts, .xlf/.xliff, .json)"
+ license = "GPL-3.0-or-later"
+ authors = [
+diff --git a/tests/test_installed_catalogs.py b/tests/test_installed_catalogs.py
+new file mode 100644
+index 0000000..35627a3
+--- /dev/null
++++ b/tests/test_installed_catalogs.py
+@@ -0,0 +1,90 @@
++"""Regression cases from Swedish catalogs decompiled with msgunfmt."""
++import json
++import pytest
++from l10n_lint import L10nLinter, RULES, resolve_rules
++
++
++def lint(source, target, checks, header='Language: sv\n', flags=''):
++    content = 'msgid ""\nmsgstr ' + json.dumps(header) + '\n\n'
++    if flags:
++        content += '#, ' + flags + '\n'
++    content += 'msgid ' + json.dumps(source, ensure_ascii=False) + '\nmsgstr ' + json.dumps(target, ensure_ascii=False) + '\n'
++    return L10nLinter(disabled_rules=set(RULES) - resolve_rules(checks)).lint_file('catalog.po', content)
++
++
++def test_singular_catalog_does_not_need_plural_header():
++    assert not lint('Hello', 'Hej', ['plural-forms']).issues
++
++
++def test_missing_plural_header_still_reported_for_plural_entry():
++    content = 'msgid ""\nmsgstr "Language: sv\\n"\n\nmsgid "File"\nmsgid_plural "Files"\nmsgstr[0] "Fil"\nmsgstr[1] "Filer"\n'
++    assert any(i.rule == 'plural-header-missing' for i in L10nLinter().lint_file('catalog.po', content).issues)
++
++
++def test_existing_invalid_plural_header_still_reported():
++    result = lint('Hello', 'Hej', ['plural-forms'], 'Language: sv\nPlural-Forms: broken\n')
++    assert any(i.rule == 'plural-header-missing' for i in result.issues)
++
++
++@pytest.mark.parametrize('source,target', [
++    ('invalid %uth argument to %s', 'ogiltigt %u:e argument till %s'),
++    ('Rate set to %iHz', 'Frekvensen inställd till %i Hz'),
++    ("%s's key", '%ss nyckel'),
++    ('Image size %ux%u', 'Bildstorlek %u×%u'),
++    ('Time %llums', 'Tid %llu ms'),
++    ('File %s of %s at %sB/s', 'Fil %s av %s i %s B/s'),
++])
++def test_matching_printf_contract_with_literal_suffix(source, target):
++    assert not lint(source, target, ['placeholders']).issues
++
++
++@pytest.mark.parametrize('source,target,flags', [
++    ('Name %s', 'Namn', ''),
++    ('Name', 'Namn %s', ''),
++    ('Count %d', 'Antal %s', ''),
++    ('Count %dHz', 'Antal %s Hz', ''),
++    ('%s %s', '%ss', ''),
++    ('Value %s', '75%strong', ''),
++    ('Count %dHz', 'Antal', 'c-format'),
++])
++def test_real_placeholder_changes_remain_errors(source, target, flags):
++    assert lint(source, target, ['placeholders'], flags=flags).error_count
++
++
++def test_prose_percentages_remain_unformatted():
++    assert not lint('100% coverage', '100 % täckning', ['placeholders']).issues
++
++
++@pytest.mark.parametrize('source,target', [
++    ('A cross-platform GUI', 'Ett plattformsoberoende gränssnitt'),
++    ('A mobile-friendly UI', 'Ett mobilvänligt gränssnitt'),
++    ('Lock-on AF: Center', 'Låsbar autofokus: Centrum'),
++    ('Official Aramaic (700-300 BCE)', 'Arameiska'),
++])
++def test_hyphenated_prose_is_not_an_option(source, target):
++    assert not lint(source, target, ['option-values']).issues
++
++
++@pytest.mark.parametrize('source', ['Use --output FILE', 'Use -o FILE', '(--output=FILE)'])
++def test_missing_real_option_value_is_reported(source):
++    assert any(i.rule == 'option-value-missing' for i in lint(source, 'Skriv ut', ['option-values']).issues)
++
++
++@pytest.mark.parametrize('source,target', [
++    ('IEEE 802.15.4 channel', 'IEEE 802.15.4-kanal'),
++    ('PPP configuration', 'PPP-konfiguration'),
++    ('Quake III Arena', 'Spela Quake III Arena'),
++    ('Visit http://www.example.com', 'Besök http://www.example.com'),
++    ('Cannot find pppd', 'Kunde inte hitta pppd'),
++])
++def test_preserved_technical_token_is_not_a_swedish_triple_letter_typo(source, target):
++    assert not lint(source, target, ['typo']).issues
++
++
++@pytest.mark.parametrize('source,target', [
++    ('Invalid route type', 'Ogiltig rutttyp'),
++    ('Failed to open file', 'Kunde inte öpppna filen'),
++    ('ogiltligt värde', 'ogiltligt värde'),
++])
++def test_real_swedish_typos_remain_reported(source, target):
++    assert any(i.rule == 'typo' for i in lint(source, target, ['typo']).issues)

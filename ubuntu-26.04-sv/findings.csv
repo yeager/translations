@@ -1,0 +1,243 @@
+﻿id,priority,category,catalog,po,line,source,translation,proposal,reason
+F001,P1,Format,locale-langpack/cinder,po/locale-langpack/cinder.po,1695,Error getting replication source details. Return code: %(ret.status)d Message: %(ret.data)s .,Fel vid hämtning av replikationskällans detaljer. Returkod: %(ret.statuss)d Meddelande: %(ret.data)s .,Fel vid hämtning av replikationskällans detaljer. Returkod: %(ret.status)d Meddelande: %(ret.data)s .,ret.status har blivit ret.statuss. Formatering med originalets nycklar ger KeyError.
+F002,P2,Format,locale-langpack/glance,po/locale-langpack/glance.po,1473,"The Image %(image_id)s object being created by this task %(task_id)s, is no longer in valid status for further processing.","Avbildobjektet %(image_id) som skapas av den här uppgiften %(task_id)s, är inte längre i en giltig status för vidare behandling.","Avbildobjektet %(image_id)s som skapas av den här uppgiften %(task_id)s, är inte längre i en giltig status för vidare behandling.",%(image_id) saknar s. Python konsumerar mellanslaget och s i ordet som som formatsyntax: exempelvärdet image-1 följs av om i stället för som.
+F003,P1,Format,locale-langpack/gdb,po/locale-langpack/gdb.po,14147,"Trace started at %ld.%06ld secs, stopped %ld.%06ld secs later.
+","Spårningen startade vid %ld.%06 sekunder och avslutades %ld.%06 sekunder senare
+","Spårningen startade vid %ld.%06ld sekunder och avslutades %ld.%06ld sekunder senare
+",Båda %06ld har trunkerats till %06. Formatkontraktet och återgivningen av tidsvärden går förlorade.
+F004,P2,Format,locale/OpenSP,po/locale/OpenSP.po,799,document type does not allow element %1 here; assuming missing %2 start-tag,dokumenttypen tillåter ej elementet %1 här; antar att starttaggen %1 saknas,dokumenttypen tillåter ej elementet %1 här; antar att starttaggen %2 saknas,Den andra platshållaren ska vara %2; nu visas argument %1 två gånger.
+F005,P2,Format,locale/OpenSP,po/locale/OpenSP.po,874,empty host in HTTP URL %1,tom värd i HTTP-URL:en(%),tom värd i HTTP-URL:en %1,"%1 har ersatts med (%), så den berörda URL-adressen kan inte återges korrekt."
+F006,P2,Format,locale/OpenSP,po/locale/OpenSP.po,1120,invalid formal public identifier %1: no SPACE after public text class,ogiltig formell publik identifierare: inget SPACE efter publik textklass,ogiltig formell publik identifierare %1: inget SPACE efter publik textklass,Originalets %1 saknas i översättningen.
+F007,P2,Format,locale/OpenSP,po/locale/OpenSP.po,1126,invalid host number %1,ogiltigt värdnummer,ogiltigt värdnummer %1,Originalets %1 saknas i översättningen.
+F008,P2,Format,locale/OpenSP,po/locale/OpenSP.po,1390,normalized length of attribute value literal must not exceed LITLEN (%1); length was %2,längden av normaliserad attributvärdesliteral får ej överskrida LITLEN (%d); längden var %2,längden av normaliserad attributvärdesliteral får ej överskrida LITLEN (%1); längden var %2,"%1 har ändrats till %d, vilket är en annan formatsyntax."
+F009,P2,Format,locale/OpenSP,po/locale/OpenSP.po,1537,reference to external data entity %1 not allowed in XML,referens till extern dataentitet ej tillåtet i XML,referens till extern dataentitet %1 ej tillåtet i XML,Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.
+F010,P2,Format,locale/OpenSP,po/locale/OpenSP.po,1546,reference to internal SDATA entity %1 not allowed in XML,referens till intern SDATA-entitet ej tillåtet i XML,referens till intern SDATA-entitet %1 ej tillåtet i XML,Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.
+F011,P2,Format,locale/OpenSP,po/locale/OpenSP.po,1567,reference to subdocument entity %1 not allowed in XML,referens till subdokumententitet ej tillåtet i XML,referens till subdokumententitet %1 ej tillåtet i XML,Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.
+F012,P2,Format,locale-langpack/dpkg,po/locale-langpack/dpkg.po,3433,need a pathname argument,--%s behöver ett sökvägsnamnargument,behöver ett sökvägsargument,Originalet innehåller ingen %s. Översättningen har kvar en platshållare och ett prefix som saknar motsvarighet i källtexten.
+F012,P2,Format,locale/dpkg,po/locale/dpkg.po,3412,need a pathname argument,--%s behöver ett sökvägsnamnargument,behöver ett sökvägsargument,Originalet innehåller ingen %s. Översättningen har kvar en platshållare och ett prefix som saknar motsvarighet i källtexten.
+F013,P2,Format,locale-langpack/binutils,po/locale-langpack/binutils.po,9133,can't create debugging section,kan inte skapa felsökningssektionen: %s,kan inte skapa felsökningssektionen,Källtexten har ingen formateringsparameter; den svenska texten lägger till : %s.
+F014,P2,Format,locale-langpack/binutils,po/locale-langpack/binutils.po,9601,error copying private BFD data,fel vid kopiering av privat BFD-data: %s,fel vid kopiering av privat BFD-data,Källtexten har ingen formateringsparameter; den svenska texten lägger till : %s.
+F015,P2,Format,locale-langpack/cryptsetup,po/locale-langpack/cryptsetup.po,2486,Root hash signature verification is not supported.,Begärd hashsignaturverifiering %s stöds inte.,Verifiering av rothashsignaturer stöds inte.,Root hash har fått annan innebörd och översättningen innehåller en %s som originalet saknar.
+F016,P2,Format,locale-langpack/cryptsetup,po/locale-langpack/cryptsetup.po,2717,Unexpected metadata entry found when parsing startup key.,Oväntad metadatapost av typ ”%u” funnen vid tolkning av uppstartsnyckel.,Oväntad metadatapost funnen vid tolkning av uppstartsnyckel.,Originalet anger inte någon numerisk posttyp men översättningen kräver ett sådant argument.
+F017,P2,Format,locale-langpack/fetchmail,po/locale-langpack/fetchmail.po,2123,"fetchmail: configuration invalid, --moveto is only valid for IMAP servers
+","fetchmail: %s-konfigurationen är ogiltig, --moveto är endast giltigt för IMAP-servrar
+","fetchmail: konfigurationen är ogiltig, --moveto är endast giltigt för IMAP-servrar
+",Översättningen har ett formatargument som inte finns i originalet.
+F018,P2,Format,locale-langpack/gas,po/locale-langpack/gas.po,11177,instruction requires label sans '$',instruktion kräver etikett utan ”%s”,instruktion kräver etikett utan ”$”,Originalets bokstavliga $ får inte ersättas med ett nytt formatargument.
+F019,P2,Betydelse och format,locale-langpack/gdb,po/locale-langpack/gdb.po,3188,"Case sensitivity in name search is ""%s"".
+","Namnsökningen är inte skiftlägeskänslig
+","Namnsökningens skiftlägeskänslighet är ”%s”.
+",Originalet återger inställningen via %s. Översättningen säger alltid att sökningen inte är skiftlägeskänslig.
+F020,P2,Format,locale-langpack/gdb,po/locale-langpack/gdb.po,9950,Section %s not found,Kapitel &s hittades inte,Sektionen %s hittades inte,Sektionens namn försvinner eftersom procenttecknet har blivit &.
+F021,P2,Format,locale-langpack/git,po/locale-langpack/git.po,8271,commit-graph file is too small,incheckningsgraffilen %s är för liten,incheckningsgraffilen är för liten,Källtexten har ingen platshållare för filnamn men översättningen har %s.
+F022,P2,Format,locale-langpack/ld,po/locale-langpack/ld.po,1712,"%P: %s: duplicated plugin
+","%P: %s: duplicerat instick: %s
+","%P: %s: duplicerat instick
+",Översättningen innehåller två %s medan originalet bara innehåller en. %P är länkarens egna direktiv och ska bevaras.
+F023,P2,Format,locale-langpack/libgphoto2-2,po/locale-langpack/libgphoto2-2.po,6856,Transmission timed out even after 2 retries. Giving up...,Överföringen tog för lång tid och avbröts efter %i försök. Ger upp…,Överföringen överskred tidsgränsen även efter två nya försök. Ger upp…,Originalets fasta två återförsök har blivit ett formatargument som inte finns i originalet.
+F023,P2,Format,locale-langpack/libgphoto2-6,po/locale-langpack/libgphoto2-6.po,9598,Transmission timed out even after 2 retries. Giving up...,Överföringen tog för lång tid och avbröts efter %i försök. Ger upp…,Överföringen överskred tidsgränsen även efter två nya försök. Ger upp…,Originalets fasta två återförsök har blivit ett formatargument som inte finns i originalet.
+F024,P2,Format,locale-langpack/libgphoto2-2,po/locale-langpack/libgphoto2-2.po,6161,"Some notes about Epson cameras:
+- Some parameters are not controllable remotely:
+  * zoom
+  * focus
+  * custom white balance setup
+- Configuration has been reverse-engineered with
+  a PhotoPC 3000z, if your camera acts differently
+  please send a mail to the gphoto developer mailing list (in English)
+","Några anteckningar om Epson-kameror:
+- Vissa parametrar går inte att fjärrstyra:
+  * zoom
+  * fokus
+  * anpassad vitbalansinställning
+- Konfigurationen har blivit avkodad med
+  en PhotoPC 3000z, om din kamera beter sig annorlunda
+  skriv ett brev till %s (på Engelska)
+","Några anteckningar om Epson-kameror:
+- Vissa parametrar går inte att fjärrstyra:
+  * zoom
+  * fokus
+  * anpassad vitbalansinställning
+- Konfigurationen har blivit avkodad med
+  en PhotoPC 3000z, om din kamera beter sig annorlunda
+  skriv ett brev till gphotos utvecklarsändlista (på engelska)
+",Originalet hänvisar till gphotos utvecklarlista utan formatargument. Översättningen kräver en extra %s.
+F024,P2,Format,locale-langpack/libgphoto2-6,po/locale-langpack/libgphoto2-6.po,8692,"Some notes about Epson cameras:
+- Some parameters are not controllable remotely:
+  * zoom
+  * focus
+  * custom white balance setup
+- Configuration has been reverse-engineered with
+  a PhotoPC 3000z, if your camera acts differently
+  please send a mail to the gphoto developer mailing list (in English)
+","Några anteckningar om Epson-kameror:
+- Vissa parametrar går inte att fjärrstyra:
+  * zoom
+  * fokus
+  * anpassad vitbalansinställning
+- Konfigurationen har blivit avkodad med
+  en PhotoPC 3000z, om din kamera beter sig annorlunda
+  skriv ett brev till %s (på Engelska)
+","Några anteckningar om Epson-kameror:
+- Vissa parametrar går inte att fjärrstyra:
+  * zoom
+  * fokus
+  * anpassad vitbalansinställning
+- Konfigurationen har blivit avkodad med
+  en PhotoPC 3000z, om din kamera beter sig annorlunda
+  skriv ett brev till gphotos utvecklarsändlista (på engelska)
+",Originalet hänvisar till gphotos utvecklarlista utan formatargument. Översättningen kräver en extra %s.
+F025,P2,Markup,locale-langpack/simple-scan,po/locale-langpack/simple-scan.po,278,"Please check if your <a href=""http://www.sane-project.org/sane-supported-devices.html"">scanner is supported by SANE</a>, otherwise report the issue to the <a href=""https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel"">SANE mailing list</a>.","Se om din <a href=\""http://www.sane-project.org/sane-supported-devices.html bildläsare stöds av SANE</a>, annars kan du rapportera problemet till a href=""https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel sändlistan för SANE</a>.""","Kontrollera om din <a href=""http://www.sane-project.org/sane-supported-devices.html"">bildläsare stöds av SANE</a>, annars kan du rapportera problemet till <a href=""https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel"">sändlistan för SANE</a>.",Den första länken har felaktig escapning och saknar avslutande attributcitat och >. Den andra saknar även inledande <. Länktexten hamnar i attributen.
+F026,P2,Markup,locale-langpack/synaptic,po/locale-langpack/synaptic.po,281,"<b><big>Mark upgrades in a smart way?</big></b>
+
+The default upgrade method skips upgrades that would introduce conflicts or require installation of additional packages.
+
+The smart upgrade (dist-upgrade) attempts to resolve conflicts and to fulfil all dependencies of upgrades in a smart way.
+
+<b>Note:</b> The upgrades will be marked only. You still have to apply them afterwards.","<b><big>Markera uppgraderingar på ett smart sätt?</b></b>
+
+Standardmetoden för uppgradering hoppar över de uppgraderingar som skulle introducera konflikter eller kräva installation av ytterligare paket.
+
+Den smarta uppgraderingen (dist-upgrade) försöker att lösa konflikter och uppfylla alla beroenden för uppgraderingen på ett smart sätt.
+
+<b>Observera:</b> Uppgraderingarna kommer endast markeras. Du behöver fortfarande verkställa dem efteråt.","<b><big>Markera uppgraderingar på ett smart sätt?</big></b>
+
+Standardmetoden för uppgradering hoppar över de uppgraderingar som skulle introducera konflikter eller kräva installation av ytterligare paket.
+
+Den smarta uppgraderingen (dist-upgrade) försöker att lösa konflikter och uppfylla alla beroenden för uppgraderingen på ett smart sätt.
+
+<b>Observera:</b> Uppgraderingarna kommer endast markeras. Du behöver fortfarande verkställa dem efteråt.",<b><big> avslutas med </b></b>. Den inre taggen ska avslutas med </big>.
+F027,P2,Markup,locale-langpack/slideshow-oem-config-ubuntu-mate,po/locale-langpack/slideshow-oem-config-ubuntu-mate.po,164,Ubuntu MATE comes with <strong>Firefox</strong> pre-installed and <strong>Google Chrome</strong> is in the Software Boutique so you can watch content from your favourite streaming services such as <strong>Netflix</strong> and <strong>YouTube</strong>.,"Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</string> och <strong>YouTube</strong>.","Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</strong> och <strong>YouTube</strong>.",</string> ska vara </strong>. Samma fel finns i OEM-bildspelet.
+F027,P2,Markup,locale-langpack/slideshow-ubuntu-mate,po/locale-langpack/slideshow-ubuntu-mate.po,164,Ubuntu MATE comes with <strong>Firefox</strong> pre-installed and <strong>Google Chrome</strong> is in the Software Boutique so you can watch content from your favourite streaming services such as <strong>Netflix</strong> and <strong>YouTube</strong>.,"Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</string> och <strong>YouTube</strong>.","Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</strong> och <strong>YouTube</strong>.",</string> ska vara </strong>. Samma fel finns i OEM-bildspelet.
+F028,P2,Länk,locale-langpack/snappy,po/locale-langpack/snappy.po,2305,"%s was not found in your $PATH. If you've not restarted your session since you installed snapd, try doing that. Please see https://forum.snapcraft.io/t/9469 for more details.","%s hittades inte i din $PATH. Om du inte har startat om din session sedan du installerade snapd, testa att göra det. Se https;//forum.snapcraft.io/t/9469 för fler detaljer.","%s hittades inte i din $PATH. Om du inte har startat om din session sedan du installerade snapd, testa att göra det. Se https://forum.snapcraft.io/t/9469 för fler detaljer.",https: har blivit https; så länken är inte längre korrekt.
+F029,P2,Betydelse,locale/libmypaint,po/locale/libmypaint.po,287,Declination of stylus tilt on X-Axis. 90/-90 when stylus is parallel to tablet and 0 when it's perpendicular to tablet.,Pennans lutning i x-led relativt ritbrädans yta. Är 0 när pennan är parallell och 90.0 när den hålls vinkelrät.,Pennans lutning i x-led. Värdet är 90 eller −90 när pennan är parallell med ritplattan och 0 när den är vinkelrät mot ritplattan.,Originalet anger ±90 vid parallell penna och 0 vid vinkelrät penna. Översättningen anger motsatsen.
+F030,P2,Betydelse,locale/libmypaint,po/locale/libmypaint.po,290,Declination of stylus tilt on Y-Axis. 90/-90 when stylus is parallel to tablet and 0 when it's perpendicular to tablet.,Pennans lutning i y-led relativt ritbrädans yta. Är 0 när pennan är parallell och 90.0 när den hålls vinkelrät.,Pennans lutning i y-led. Värdet är 90 eller −90 när pennan är parallell med ritplattan och 0 när den är vinkelrät mot ritplattan.,Originalet anger ±90 vid parallell penna och 0 vid vinkelrät penna. Översättningen anger motsatsen.
+F031,P2,Sifferuppgift,locale/iso_639-3,po/locale/iso_639-3.po,15064,Middle French (ca. 1400-1600),Medelfranska (ca 1300-1600),Medelfranska (ca 1400-1600),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F031,P2,Sifferuppgift,locale/iso_639_3,po/locale/iso_639_3.po,15064,Middle French (ca. 1400-1600),Medelfranska (ca 1300-1600),Medelfranska (ca 1400-1600),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F032,P2,Sifferuppgift,locale/iso_639-3,po/locale/iso_639-3.po,15073,Middle Irish (900-1200),Medeliriska (ca 1100-1550),Medeliriska (ca 900-1200),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F032,P2,Sifferuppgift,locale/iso_639_3,po/locale/iso_639_3.po,15073,Middle Irish (900-1200),Medeliriska (ca 1100-1550),Medeliriska (ca 900-1200),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F033,P2,Sifferuppgift,locale/iso_639-3,po/locale/iso_639-3.po,18205,Old French (842-ca. 1400),Fornfranska (ca 842-1300),Fornfranska (ca 842-1400),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F033,P2,Sifferuppgift,locale/iso_639_3,po/locale/iso_639_3.po,18205,Old French (842-ca. 1400),Fornfranska (ca 842-1300),Fornfranska (ca 842-1400),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F034,P2,Sifferuppgift,locale/iso_639-3,po/locale/iso_639-3.po,18223,Old Irish (to 900),Forniriska (-1100),Forniriska (-900),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F034,P2,Sifferuppgift,locale/iso_639_3,po/locale/iso_639_3.po,18223,Old Irish (to 900),Forniriska (-1100),Forniriska (-900),Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.
+F035,P3,Stavning,locale-langpack/NetworkManager,po/locale-langpack/NetworkManager.po,87,%s is not a valid route type,%s är inte en giltig rutttyp,%s är inte en giltig ruttyp,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F036,P3,Stavning,locale-langpack/NetworkManager,po/locale-langpack/NetworkManager.po,7022,"Whether to configure MPTCP endpoints and the address flags. If MPTCP is enabled in NetworkManager, it will configure the addresses of the interface as MPTCP endpoints. Note that IPv4 loopback addresses (127.0.0.0/8), IPv4 link local addresses (169.254.0.0/16), the IPv6 loopback address (::1), IPv6 link local addresses (fe80::/10), IPv6 unique local addresses (ULA, fc00::/7) and IPv6 privacy extension addresses (rfc3041, ipv6.ip6-privacy) will be excluded from being configured as endpoints. If ""disabled"" (0x1), MPTCP handling for the interface is disabled and no endpoints are registered. The ""enabled"" (0x2) flag means that MPTCP handling is enabled. This flag can also be implied from the presence of other flags. Even when enabled, MPTCP handling will by default still be disabled unless ""/proc/sys/net/mptcp/enabled"" sysctl is on. NetworkManager does not change the sysctl and this is up to the administrator or distribution. To configure endpoints even if the sysctl is disabled, ""also-without-sysctl"" (0x4) flag can be used. In that case, NetworkManager doesn't look at the sysctl and configures endpoints regardless. Even when enabled, NetworkManager will only configure MPTCP endpoints for a certain address family, if there is a unicast default route (0.0.0.0/0 or ::/0) in the main routing table. The flag ""also-without-default-route"" (0x8) can override that. When MPTCP handling is enabled then endpoints are configured with the specified address flags ""signal"" (0x10), ""subflow"" (0x20), ""backup"" (0x40), ""fullmesh"" (0x80). See ip-mptcp(8) manual for additional information about the flags. If the flags are zero (0x0), the global connection default from NetworkManager.conf is honored. If still unspecified, the fallback is ""enabled,subflow"". Note that this means that MPTCP is by default done depending on the ""/proc/sys/net/mptcp/enabled"" sysctl. NetworkManager does not change the MPTCP limits nor enable MPTCP via ""/proc/sys/net/mptcp/enabled"". That is a host configuration which the admin can change via sysctl and ip-mptcp. Strict reverse path filtering (rp_filter) breaks many MPTCP use cases, so when MPTCP handling for IPv4 addresses on the interface is enabled, NetworkManager would loosen the strict reverse path filtering (1) to the loose setting (2).","Huruvida MPTCP-ändpunkter och adressflaggor ska konfigureras. Om MPTCP är aktiverat i NetworkManager kommer den att konfigurera gränssnittets adresser som MPTCP-slutpunkter. Observera att IPv4 loopback-adresser (127.0.0.0/8), IPv4-länk lokala adresser (169.254.0.0/16), IPv6 loopback-adress (::1), IPv6-länk lokala adresser (fe80::/10), IPv6 unik lokal adresser (ULA, fc00::/7) och IPv6 integritetstilläggsadresser (rfc3041, ipv6.ip6-privacy) kommer att uteslutas från att konfigureras som slutpunkter. Om ""inaktiverad"" (0x1) är MTCP-hantering för gränssnittet inaktiverad och inga slutpunkter registreras. Flaggan ""enabled"" (0x2) betyder att MPTCP-hantering är aktiverad. Denna flagga kan också antydas från närvaron av andra flaggor. Även när den är aktiverad, kommer MPTCP-hantering som standard fortfarande att vara inaktiverad om inte ""/proc/sys/net/mptcp/enabled"" sysctl är på. NetworkManager ändrar inte sysctl och detta är upp till administratören eller distributionen. För att konfigurera slutpunkter även om sysctl är inaktiverat kan flaggan ""also-without-sysctl"" (0x4) användas. I så fall tittar NetworkManager inte på sysctl och konfigurerar slutpunkter oavsett. Även när den är aktiverad kommer NetworkManager endast att konfigurera MPTCP-slutpunkter för en viss adressfamilj, om det finns en unicast-standardrutt (0.0.0.0/0 eller ::/0) i huvudrutttabellen. Flaggan ""även-utan-default-route"" (0x8) kan åsidosätta det. När MPTCP-hantering är aktiverad konfigureras slutpunkter med de angivna adressflaggorna ""signal"" (0x10), ""subflow"" (0x20), ""backup"" (0x40), ""fullmesh"" (0x80). Se ip-mptcp(8) manual för ytterligare information om flaggorna. Om flaggorna är noll (0x0), uppfylls den globala anslutningsstandarden från NetworkManager.conf. Om den fortfarande är ospecificerad är reservfunktionen ""enabled,subflow"". Observera att detta betyder att MPTCP görs som standard beroende på ""/proc/sys/net/mptcp/enabled"" sysctl. NetworkManager ändrar inte MPTCP-gränserna eller aktiverar MPTCP via ""/proc/sys/net/mptcp/enabled"". Det är en värdkonfiguration som administratören kan ändra via sysctl och ip-mptcp. Strikt omvänd sökvägsfiltrering (rp_filter) bryter många MPTCP-användningsfall, så när MPTCP-hantering för IPv4-adresser på gränssnittet är aktiverad, skulle NetworkManager lossa den strikta omvända sökvägsfiltreringen (1) till den lösa inställningen (2).","Huruvida MPTCP-ändpunkter och adressflaggor ska konfigureras. Om MPTCP är aktiverat i NetworkManager kommer den att konfigurera gränssnittets adresser som MPTCP-slutpunkter. Observera att IPv4 loopback-adresser (127.0.0.0/8), IPv4-länk lokala adresser (169.254.0.0/16), IPv6 loopback-adress (::1), IPv6-länk lokala adresser (fe80::/10), IPv6 unik lokal adresser (ULA, fc00::/7) och IPv6 integritetstilläggsadresser (rfc3041, ipv6.ip6-privacy) kommer att uteslutas från att konfigureras som slutpunkter. Om ""inaktiverad"" (0x1) är MTCP-hantering för gränssnittet inaktiverad och inga slutpunkter registreras. Flaggan ""enabled"" (0x2) betyder att MPTCP-hantering är aktiverad. Denna flagga kan också antydas från närvaron av andra flaggor. Även när den är aktiverad, kommer MPTCP-hantering som standard fortfarande att vara inaktiverad om inte ""/proc/sys/net/mptcp/enabled"" sysctl är på. NetworkManager ändrar inte sysctl och detta är upp till administratören eller distributionen. För att konfigurera slutpunkter även om sysctl är inaktiverat kan flaggan ""also-without-sysctl"" (0x4) användas. I så fall tittar NetworkManager inte på sysctl och konfigurerar slutpunkter oavsett. Även när den är aktiverad kommer NetworkManager endast att konfigurera MPTCP-slutpunkter för en viss adressfamilj, om det finns en unicast-standardrutt (0.0.0.0/0 eller ::/0) i huvudruttabellen. Flaggan ""även-utan-default-route"" (0x8) kan åsidosätta det. När MPTCP-hantering är aktiverad konfigureras slutpunkter med de angivna adressflaggorna ""signal"" (0x10), ""subflow"" (0x20), ""backup"" (0x40), ""fullmesh"" (0x80). Se ip-mptcp(8) manual för ytterligare information om flaggorna. Om flaggorna är noll (0x0), uppfylls den globala anslutningsstandarden från NetworkManager.conf. Om den fortfarande är ospecificerad är reservfunktionen ""enabled,subflow"". Observera att detta betyder att MPTCP görs som standard beroende på ""/proc/sys/net/mptcp/enabled"" sysctl. NetworkManager ändrar inte MPTCP-gränserna eller aktiverar MPTCP via ""/proc/sys/net/mptcp/enabled"". Det är en värdkonfiguration som administratören kan ändra via sysctl och ip-mptcp. Strikt omvänd sökvägsfiltrering (rp_filter) bryter många MPTCP-användningsfall, så när MPTCP-hantering för IPv4-adresser på gränssnittet är aktiverad, skulle NetworkManager lossa den strikta omvända sökvägsfiltreringen (1) till den lösa inställningen (2).",Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F037,P3,Stavning,locale-langpack/app-install-data,po/locale-langpack/app-install-data.po,4845,Edit your network connections,Redigera dina nätverksanslutnngar,Redigera dina nätverksanslutningar,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F038,P3,Stavning,locale-langpack/app-install-data,po/locale-langpack/app-install-data.po,15555,Universal karaoke songs and movies player,Allmänn uppspelare av karaokelåtar och -filmer,Allmän uppspelare av karaokelåtar och -filmer,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F039,P3,Stavning,locale-langpack/ubiquity-debconf,po/locale-langpack/ubiquity-debconf.po,810,"This may be due to using an old installer image, or it may be due to a bug in some of the packages listed above. More details may be found in /var/log/syslog. The installer will try to continue anyway, but may fail at a later point, and will not be able to install or remove other packages (possibly including itself) from the installed system. You should first look for newer versions of your installer image, or failing that report the problem to your distributor.","Det här kan bero på användningen av en gammal installationsavbild, eller det kan bero på ett fel i några av de paket som listas ovan. Mer information kan hittas i filen /var/log/syslog. Installationsprogrammet kommer att försöka fortsätta ändå men kan misslyckas vid en senare tidspunkt, och kommer inte kunna installera eller ta bort andra paket (kanske även sig själv) från det installerade systemet. Du bör först leta efter nyare versioner av din installationsavbild, eller rapportera misslyckandet till din leverantör.","Det här kan bero på användningen av en gammal installationsavbild, eller det kan bero på ett fel i några av de paket som listas ovan. Mer information kan hittas i filen /var/log/syslog. Installationsprogrammet kommer att försöka fortsätta ändå men kan misslyckas vid en senare tidpunkt, och kommer inte kunna installera eller ta bort andra paket (kanske även sig själv) från det installerade systemet. Du bör först leta efter nyare versioner av din installationsavbild, eller rapportera misslyckandet till din leverantör.",Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F040,P3,Stavning,locale-langpack/dpkg-dev,po/locale-langpack/dpkg-dev.po,949,"Options:
+  -l<library-path>         add directory to private shared library search list.
+  -p<package>              generate symbols file for package.
+  -P<package-build-dir>    temporary build directory instead of debian/tmp.
+  -e<library>              explicitly list libraries to scan.
+  -v<version>              version of the packages (defaults to
+                           version extracted from debian/changelog).
+  -c<level>                compare generated symbols file with the reference
+                           template in the debian directory and fail if
+                           difference is too important; level goes from 0 for
+                           no check, to 4 for all checks (default level is 1).
+  -q                       keep quiet and never emit any warnings or
+                           generate a diff between generated symbols
+                           file and the reference template.
+  -I<file>                 force usage of <file> as reference symbols
+                           file instead of the default file.
+  -O[<file>]               write to stdout (or <file>), not .../DEBIAN/symbols.
+  -t                       write in template mode (tags are not
+                           processed and included in output).
+  -V                       verbose output; write deprecated symbols and pattern
+                           matching symbols as comments (in template mode only).
+  -a<arch>                 assume <arch> as host architecture when processing
+                           symbol files.
+  -d                       display debug information during work.
+  -?, --help               show this help message.
+      --version            show the version.
+","Flaggor:
+  -l<bibliotekssökväg>     lägg till katalog till privat söklista för delade bibliotek.
+  -p<paket>                skapar symbolfil för paket.
+  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.
+  -e<bibliotek>            explicit lista över bibliotek att söka i.
+  -v<version>              version på paketet (förval är versionen
+                           som utläses ur debian/changelog).
+  -c<nivå>                 jämför genererade symbolfiler med referensfilen
+                           i katalogen ”debian” och misslyckas om skillnaderna
+                           är för stora; nivå går från 0 för ingen test, till
+                           4 för alla tester (förvald nivå är 1).
+  -q                       var tyst och skriv aldrig ut några varningar eller
+                           generera en diff mellan genererad symbolfil och
+                           referensfilen.
+  -I<fil>                  tvinga användning av <fil> som symbolreferensfil
+                           istället för standardfilen.
+  -O[<fil>]                skriv till standard ut/<fil>, inte .../DEBIAN/symbols.
+  -t                       skriv i malläge (taggar behandlas inte och
+                           tas med i utdata).
+  -V                       pratsam utdata; skriv föråldrade symboler och
+                           mönster som motsvarar symboler som kommentarer
+                           (endast i mall-läget).
+  -a<ark>                  förutsätt <ark> som värdarkitektur vid behandling
+                           av symbofilen.
+  -d                       visa felsökningsinformation under körnng.
+  -?, --help               visa detta hjälpmeddelande.
+      --version            visa versionsnummer.
+","Flaggor:
+  -l<bibliotekssökväg>     lägg till katalog till privat söklista för delade bibliotek.
+  -p<paket>                skapar symbolfil för paket.
+  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.
+  -e<bibliotek>            explicit lista över bibliotek att söka i.
+  -v<version>              version på paketet (förval är versionen
+                           som utläses ur debian/changelog).
+  -c<nivå>                 jämför genererade symbolfiler med referensfilen
+                           i katalogen ”debian” och misslyckas om skillnaderna
+                           är för stora; nivå går från 0 för ingen test, till
+                           4 för alla tester (förvald nivå är 1).
+  -q                       var tyst och skriv aldrig ut några varningar eller
+                           generera en diff mellan genererad symbolfil och
+                           referensfilen.
+  -I<fil>                  tvinga användning av <fil> som symbolreferensfil
+                           istället för standardfilen.
+  -O[<fil>]                skriv till standard ut/<fil>, inte .../DEBIAN/symbols.
+  -t                       skriv i malläge (taggar behandlas inte och
+                           tas med i utdata).
+  -V                       pratsam utdata; skriv föråldrade symboler och
+                           mönster som motsvarar symboler som kommentarer
+                           (endast i mall-läget).
+  -a<ark>                  förutsätt <ark> som värdarkitektur vid behandling
+                           av symbofilen.
+  -d                       visa felsökningsinformation under körning.
+  -?, --help               visa detta hjälpmeddelande.
+      --version            visa versionsnummer.
+",Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F041,P3,Stavning,locale-langpack/dpkg-dev,po/locale-langpack/dpkg-dev.po,1649,changelog format %s is not a Dpkg::Changelog class,ändringsloggformatet %s är inte en Dpkg::Changelog-klasss,ändringsloggformatet %s är inte en Dpkg::Changelog-klass,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F042,P3,Stavning,locale-langpack/glance,po/locale-langpack/glance.po,1398,"Some resource types allow more than one key / value pair per instance.  For example, Cinder allows user and image metadata on volumes. Only the image properties metadata is evaluated by Nova (scheduling or drivers). This property allows a namespace target to remove the ambiguity.",Vissa resurstyper tillåter fler än ett nyckel-/värdepar per instans. Till exempel Cinder tilllåter användar- och bildmetadata på volymer. Bara bildegenskapers metadata utvärderas av Nova (schemaläggning eller drivrutiner). Denna egenskap tillåter en namnrymd att ta bort tvetydigheten.,Vissa resurstyper tillåter fler än ett nyckel-/värdepar per instans. Till exempel Cinder tillåter användar- och bildmetadata på volymer. Bara bildegenskapers metadata utvärderas av Nova (schemaläggning eller drivrutiner). Denna egenskap tillåter en namnrymd att ta bort tvetydigheten.,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F043,P3,Stavning,locale-langpack/mutt,po/locale-langpack/mutt.po,1298,Failure to open file to parse headers.,Misslyckades med att öpppna fil för att tolka huvuden.,Misslyckades med att öppna fil för att tolka huvuden.,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F044,P3,Stavning,locale-langpack/unity-control-center,po/locale-langpack/unity-control-center.po,343,Allow different sources for each window,Tilllåt olika källor för var fönster,Tillåt olika källor för var fönster,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F045,P3,Stavning,locale-langpack/unity-control-center,po/locale-langpack/unity-control-center.po,349,Allow louder than 100% (may distort sound),Tilllåt högre än 100% (kan förvränga ljudet),Tillåt högre än 100% (kan förvränga ljudet),Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F046,P3,Stavning,locale-langpack/unity,po/locale-langpack/unity.po,81,Allows using the mouse scrollwheel to focus an application if the icon is inactive.,Tilllåter musens rullhjul att sätta ett program i fokus om ikonen är inaktiv.,Tillåter musens rullhjul att sätta ett program i fokus om ikonen är inaktiv.,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F047,P3,Stavning,locale-langpack/unity,po/locale-langpack/unity.po,814,The color of the shadows for the inactive windows.,Skugggfärg på de inaktiva fönstren.,Skuggfärg på de inaktiva fönstren.,Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F048,P3,Stavning,locale-langpack/xz-man,po/locale-langpack/xz-man.po,1120,"Future versions may add new line types and new columns can be added to the existing line types, but the existing columns won't be changed.","Framtida versioner kan lägga till fler radtyper och fler kolumner kan läggas til på de befintliga radtyperna, men de befintliga kolumnerna kommmer inte ändras.","Framtida versioner kan lägga till fler radtyper och fler kolumner kan läggas til på de befintliga radtyperna, men de befintliga kolumnerna kommer inte ändras.",Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.
+F049,P3,Språk,locale/OpenSP,po/locale/OpenSP.po,646,character %1 is not significant in the reference concrete syntax and so cannot occur in a comment in the SGML declaration,tecknet %1 är ej signifikant i den konkreta referenssyntaxen och får därför därför ej förekomma i en kommentar i SGML-deklarationen,tecknet %1 är ej signifikant i den konkreta referenssyntaxen och får därför ej förekomma i en kommentar i SGML-deklarationen,Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F050,P3,Språk,locale/dpkg,po/locale/dpkg.po,133,"  %s provides %s but is %s.
+","%s tillhandahåller %s men men är %s.
+","%s tillhandahåller %s men är %s.
+",Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F051,P3,Språk,locale/dpkg,po/locale/dpkg.po,2424,cannot set security execution context for maintainer script,kan inte sätta säkerhetsexekveringssammanhang för för utvecklarskript,kan inte sätta säkerhetsexekveringssammanhang för utvecklarskript,Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F052,P3,Språk,locale/gnome-builder,po/locale/gnome-builder.po,2868,Quickly access your projects,Kom snabbt åt dina dina projekt,Kom snabbt åt dina projekt,Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F053,P3,Språk,locale-langpack/snappy,po/locale-langpack/snappy.po,2749,"Display absolute times (in RFC 3339 format). Otherwise, display relative times up to 60 days, then YYYY-MM-DD.","Visa absoluta tider (i formatet RFC 3339). Visa annars relative tider till till 60 dagar, sedan ÅÅÅÅ-MM-DD.","Visa absoluta tider (i formatet RFC 3339). Visa annars relativa tider upp till 60 dagar, sedan ÅÅÅÅ-MM-DD.",Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F054,P3,Språk,locale-langpack/xfsprogs,po/locale-langpack/xfsprogs.po,5717,"ALERT: The filesystem has valuable metadata changes in a log which is being
+ignored because the -n option was used.  Expect spurious inconsistencies
+which may be resolved by first mounting the filesystem to replay the log.
+","VARNING: Filsystemet har värdefulla metadataändringar i en logg som ignoreras
+ignoreras eftersom flaggan -n användes.  Förvänta dig falska inkonsekvenser
+som kan lösas genom att först montera filsystemet för att spela upp loggen igen.
+","VARNING: Filsystemet har värdefulla metadataändringar i en logg som ignoreras eftersom flaggan -n användes.  Förvänta dig falska inkonsekvenser
+som kan lösas genom att först montera filsystemet för att spela upp loggen igen.
+",Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F055,P3,Språk,locale-langpack/xfsprogs,po/locale-langpack/xfsprogs.po,6391,"ERROR: The log head and/or tail cannot be discovered. Attempt to mount the
+filesystem to replay the log or use the -L option to destroy the log and
+attempt a repair.
+","FEL: Loggens huvud och/eller svans kan inte hittas. Försök att montera filsystemet
+filsystemet för att spela upp loggen igen eller använd flaggan -L för att förstöra loggen och
+försöka reparera den.
+","FEL: Loggens huvud och/eller svans kan inte hittas. Försök att montera filsystemet för att spela upp loggen igen eller använd flaggan -L för att förstöra loggen och
+försöka reparera den.
+",Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F056,P3,Språk,locale-langpack/xz-man,po/locale-langpack/xz-man.po,1651,"Stability.  0 is alpha, 1 is beta, and 2 is stable.  I<S> should be always 2 when I<YYY> is even.","Stabilitet.  0 är alfa, 1 beta beta och 2 är stabil. I<S> skall alltid vara 2 när I<YYY> är jämnt.","Stabilitet.  0 är alfa, 1 är beta och 2 är stabil. I<S> skall alltid vara 2 när I<YYY> är jämnt.",Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.
+F057,P3,Språk,locale-langpack/xz-man,po/locale-langpack/xz-man.po,1837,"These are like B<-6> but with higher compressor and decompressor memory requirements.  These are useful only when compressing files bigger than 8\ MiB, 16\ MiB, and 32\ MiB, respectively.","Dessa liknar B<-6> med med högre krav på minne till komprimerare och dekomprimerare. Dessa är bara användbara vid komprimering av filer större än 8\ MiB, 16\ MiB respektive 32\ MiB.","Dessa liknar B<-6> men med högre krav på minne till komprimerare och dekomprimerare. Dessa är bara användbara vid komprimering av filer större än 8\ MiB, 16\ MiB respektive 32\ MiB.",Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.

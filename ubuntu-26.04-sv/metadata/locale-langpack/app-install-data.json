@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/app-install-data",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/app-install-data.po",
+    "original_po": "original/locale-langpack/app-install-data.po",
+    "diff": "diff/locale-langpack/app-install-data.po.diff",
+    "report": "reports/locale-langpack/app-install-data.md",
+    "metadata": "metadata/locale-langpack/app-install-data.json",
+    "validation": "validation/locale-langpack/app-install-data.json"
+  },
+  "upstream": {
+    "project": "Ubuntu app-install-data",
+    "project_url": "https://launchpad.net/ubuntu/+source/app-install-data-ubuntu",
+    "repository_url": null,
+    "ubuntu_source_package": "app-install-data-ubuntu",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/app-install-data-ubuntu",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "app-install-data",
+        "Source": "app-install-data-ubuntu",
+        "Version": "15.10build2"
+      },
+      "po_project_id": "app-install-data-ubuntu",
+      "po_bug_report_address": "Josef Andersson <josef.andersson@fripost.org>"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog. Ubuntu source package is the maintained project reference available for this catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/app-install-data.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/app-install-data.mo",
+    "mo_sha256": "33a61367b3b6f88d7bc58c9fb806b754f665d3f5346c192d0d0abffe470564bd",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/app-install-data.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "app-install-data-ubuntu",
+      "Report-Msgid-Bugs-To": "Josef Andersson <josef.andersson@fripost.org>",
+      "PO-Revision-Date": "2016-07-31 19:11+0000",
+      "Last-Translator": "Arve Eriksson <Unknown>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 16:37+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "576577e5f8f4af4ed68c1da4cd1a92dc66c7cddbaa02e05ee873502041a8ce5c",
+    "corrected_po": "dfc2be16974344d36613502503e1477ee25fdd8a4a3321e9fae9e7eeba1ef42d",
+    "diff": "624429678e50cd95b6b3551e84157e4ed81ff93056f4e80ba7d73979d8970444"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P3": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F037",
+        "severity": "P3",
+        "title": "Stavfel: nätverksanslutnngar",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 4845,
+        "msgctxt": null,
+        "msgid": "Edit your network connections",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Redigera dina nätverksanslutnngar",
+        "after": "Redigera dina nätverksanslutningar",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 4845
+      },
+      {
+        "finding_id": "F038",
+        "severity": "P3",
+        "title": "Stavfel: Allmänn",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 15555,
+        "msgctxt": null,
+        "msgid": "Universal karaoke songs and movies player",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Allmänn uppspelare av karaokelåtar och -filmer",
+        "after": "Allmän uppspelare av karaokelåtar och -filmer",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 15555
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 438,
+    "lint_after": 437,
+    "svlang_before": 19,
+    "svlang_after": 18,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: app-install-data-ubuntu\nReport-Msgid-Bugs-To: Josef Andersson <josef.andersson@fripost.org>\nPO-Revision-Date: 2016-07-31 19:11+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:37+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: app-install-data-ubuntu\nReport-Msgid-Bugs-To: Josef Andersson <josef.andersson@fripost.org>\nPO-Revision-Date: 2016-07-31 19:11+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:37+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

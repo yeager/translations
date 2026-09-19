@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale/libmypaint",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale/libmypaint.po",
+    "original_po": "original/locale/libmypaint.po",
+    "diff": "diff/locale/libmypaint.po.diff",
+    "report": "reports/locale/libmypaint.md",
+    "metadata": "metadata/locale/libmypaint.json",
+    "validation": "validation/locale/libmypaint.json"
+  },
+  "upstream": {
+    "project": "libmypaint",
+    "project_url": "https://github.com/mypaint/libmypaint",
+    "repository_url": null,
+    "ubuntu_source_package": "libmypaint",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/libmypaint",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "libmypaint-common",
+        "Source": "libmypaint",
+        "Version": "1.6.0-4build1",
+        "Homepage": "https://github.com/mypaint/libmypaint"
+      },
+      "po_project_id": "0.7.1-git",
+      "po_bug_report_address": ""
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale/sv/LC_MESSAGES/libmypaint.mo",
+    "resolved_mo_path": "/usr/share/locale/sv/LC_MESSAGES/libmypaint.mo",
+    "mo_sha256": "7cbb3dbf3565cad34c90e87d785c199f0f86b460d65fa25b102b86c31c4c102b",
+    "installed_owning_package": "libmypaint-common",
+    "installed_owning_package_version": "1.6.0-4build1",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale/sv/LC_MESSAGES/libmypaint.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "0.7.1-git",
+      "Report-Msgid-Bugs-To": "",
+      "PO-Revision-Date": "2020-01-11 10:21+0000",
+      "Last-Translator": "Jesper Lloyd <jpl.lloyd@gmail.com>",
+      "Language-Team": "Swedish <https://hosted.weblate.org/projects/mypaint/libmypaint/sv/>",
+      "Language": "sv",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Generator": "Weblate 3.10.1"
+    }
+  },
+  "sha256": {
+    "original_po": "93a7647f540aae5d6724549938f22f4cf1109488e40fb433d0ef0a9008fb5f0e",
+    "corrected_po": "7d9639880098311ab5dc721b6ac5f1173a104a9b24435244cda04141362555cb",
+    "diff": "25e35bbb0430151335f662c77decc097b5cca29d6478f4e0630a0bf1862575b6"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P2": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F029",
+        "severity": "P2",
+        "title": "Pennans vinkelvärden är omkastade (x-led)",
+        "reason": "Originalet anger ±90 vid parallell penna och 0 vid vinkelrät penna. Översättningen anger motsatsen.",
+        "original_line": 287,
+        "msgctxt": null,
+        "msgid": "Declination of stylus tilt on X-Axis. 90/-90 when stylus is parallel to tablet and 0 when it's perpendicular to tablet.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Pennans lutning i x-led relativt ritbrädans yta. Är 0 när pennan är parallell och 90.0 när den hålls vinkelrät.",
+        "after": "Pennans lutning i x-led. Värdet är 90 eller −90 när pennan är parallell med ritplattan och 0 när den är vinkelrät mot ritplattan.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 287
+      },
+      {
+        "finding_id": "F030",
+        "severity": "P2",
+        "title": "Pennans vinkelvärden är omkastade (y-led)",
+        "reason": "Originalet anger ±90 vid parallell penna och 0 vid vinkelrät penna. Översättningen anger motsatsen.",
+        "original_line": 290,
+        "msgctxt": null,
+        "msgid": "Declination of stylus tilt on Y-Axis. 90/-90 when stylus is parallel to tablet and 0 when it's perpendicular to tablet.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Pennans lutning i y-led relativt ritbrädans yta. Är 0 när pennan är parallell och 90.0 när den hålls vinkelrät.",
+        "after": "Pennans lutning i y-led. Värdet är 90 eller −90 när pennan är parallell med ritplattan och 0 när den är vinkelrät mot ritplattan.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 290
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 5,
+    "lint_after": 1,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: 0.7.1-git\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-01-11 10:21+0000\nLast-Translator: Jesper Lloyd <jpl.lloyd@gmail.com>\nLanguage-Team: Swedish <https://hosted.weblate.org/projects/mypaint/libmypaint/sv/>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 3.10.1\n",
+      "corrected": "Project-Id-Version: 0.7.1-git\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2020-01-11 10:21+0000\nLast-Translator: Jesper Lloyd <jpl.lloyd@gmail.com>\nLanguage-Team: Swedish <https://hosted.weblate.org/projects/mypaint/libmypaint/sv/>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 3.10.1\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

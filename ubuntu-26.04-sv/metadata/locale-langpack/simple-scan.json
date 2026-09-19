@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/simple-scan",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/simple-scan.po",
+    "original_po": "original/locale-langpack/simple-scan.po",
+    "diff": "diff/locale-langpack/simple-scan.po.diff",
+    "report": "reports/locale-langpack/simple-scan.md",
+    "metadata": "metadata/locale-langpack/simple-scan.json",
+    "validation": "validation/locale-langpack/simple-scan.json"
+  },
+  "upstream": {
+    "project": "GNOME Document Scanner",
+    "project_url": "https://apps.gnome.org/SimpleScan/",
+    "repository_url": "https://gitlab.gnome.org/GNOME/simple-scan",
+    "ubuntu_source_package": "simple-scan",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/simple-scan",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "simple-scan",
+        "Version": "48.1-0ubuntu3",
+        "Homepage": "https://apps.gnome.org/SimpleScan/"
+      },
+      "po_project_id": "simple-scan",
+      "po_bug_report_address": "https://gitlab.gnome.org/GNOME/simple-scan/issues"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/simple-scan.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/simple-scan.mo",
+    "mo_sha256": "3bd6e4b7f8c55a861d72f72ad7f8085b07ec397feb75cf1e84d44043536df33f",
+    "installed_owning_package": "language-pack-gnome-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/simple-scan.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "simple-scan",
+      "Report-Msgid-Bugs-To": "https://gitlab.gnome.org/GNOME/simple-scan/issues",
+      "PO-Revision-Date": "2026-01-23 11:39+0000",
+      "Last-Translator": "Anders Jonsson <Unknown>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 16:59+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "30903eec39e4b2dadbd5c0a0c171cc119abc3dc18f035721654ccde2e335d638",
+    "corrected_po": "c002a91c39b32aad608c0c461fc7efc791813af979c4cad5e53615ad5326946b",
+    "diff": "1456ae431e7bc5a854ab3286315758342150ceb687a26d577cec54c860267a42"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P2": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F025",
+        "severity": "P2",
+        "title": "Trasiga länktaggar i hjälptexten",
+        "reason": "Den första länken har felaktig escapning och saknar avslutande attributcitat och >. Den andra saknar även inledande <. Länktexten hamnar i attributen.",
+        "original_line": 278,
+        "msgctxt": null,
+        "msgid": "Please check if your <a href=\"http://www.sane-project.org/sane-supported-devices.html\">scanner is supported by SANE</a>, otherwise report the issue to the <a href=\"https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel\">SANE mailing list</a>.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Se om din <a href=\\\"http://www.sane-project.org/sane-supported-devices.html bildläsare stöds av SANE</a>, annars kan du rapportera problemet till a href=\"https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel sändlistan för SANE</a>.\"",
+        "after": "Kontrollera om din <a href=\"http://www.sane-project.org/sane-supported-devices.html\">bildläsare stöds av SANE</a>, annars kan du rapportera problemet till <a href=\"https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel\">sändlistan för SANE</a>.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 278
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 20,
+    "lint_after": 16,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: simple-scan\nReport-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\nPO-Revision-Date: 2026-01-23 11:39+0000\nLast-Translator: Anders Jonsson <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 16:59+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: simple-scan\nReport-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/simple-scan/issues\nPO-Revision-Date: 2026-01-23 11:39+0000\nLast-Translator: Anders Jonsson <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 16:59+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

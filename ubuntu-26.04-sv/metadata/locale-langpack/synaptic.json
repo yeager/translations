@@ -1,0 +1,118 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/synaptic",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/synaptic.po",
+    "original_po": "original/locale-langpack/synaptic.po",
+    "diff": "diff/locale-langpack/synaptic.po.diff",
+    "report": "reports/locale-langpack/synaptic.md",
+    "metadata": "metadata/locale-langpack/synaptic.json",
+    "validation": "validation/locale-langpack/synaptic.json"
+  },
+  "upstream": {
+    "project": "Synaptic",
+    "project_url": "https://github.com/mvo5/synaptic",
+    "repository_url": null,
+    "ubuntu_source_package": "synaptic",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/synaptic",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "synaptic",
+        "Version": "0.91.7build1",
+        "Homepage": "https://github.com/mvo5/synaptic/wiki"
+      },
+      "po_project_id": "synaptic",
+      "po_bug_report_address": ""
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/synaptic.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/synaptic.mo",
+    "mo_sha256": "4cfc265f46860484d2b26c7c00186c43ec863587e05212c1ca3ff5d2f1a62514",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/synaptic.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "synaptic",
+      "Report-Msgid-Bugs-To": "",
+      "PO-Revision-Date": "2026-02-11 14:31+0000",
+      "Last-Translator": "Anders Jonsson <Unknown>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 15:59+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "86cf4998b4881f579f4811f125a1776c5cba4e21a5b4e8e020443b4898919fda",
+    "corrected_po": "b1a347669bdeaaff29622a6785c93970ab698506732e072a71d4d3b83d4648fd",
+    "diff": "93e83ad0080146db156d4702ccdb28f68d80917f0b8ab9c09043336ac50fb5f8"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P2": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F026",
+        "severity": "P2",
+        "title": "Fel avslutning av big-taggen",
+        "reason": "<b><big> avslutas med </b></b>. Den inre taggen ska avslutas med </big>.",
+        "original_line": 281,
+        "msgctxt": null,
+        "msgid": "<b><big>Mark upgrades in a smart way?</big></b>\n\nThe default upgrade method skips upgrades that would introduce conflicts or require installation of additional packages.\n\nThe smart upgrade (dist-upgrade) attempts to resolve conflicts and to fulfil all dependencies of upgrades in a smart way.\n\n<b>Note:</b> The upgrades will be marked only. You still have to apply them afterwards.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "<b><big>Markera uppgraderingar på ett smart sätt?</b></b>\n\nStandardmetoden för uppgradering hoppar över de uppgraderingar som skulle introducera konflikter eller kräva installation av ytterligare paket.\n\nDen smarta uppgraderingen (dist-upgrade) försöker att lösa konflikter och uppfylla alla beroenden för uppgraderingen på ett smart sätt.\n\n<b>Observera:</b> Uppgraderingarna kommer endast markeras. Du behöver fortfarande verkställa dem efteråt.",
+        "after": "<b><big>Markera uppgraderingar på ett smart sätt?</big></b>\n\nStandardmetoden för uppgradering hoppar över de uppgraderingar som skulle introducera konflikter eller kräva installation av ytterligare paket.\n\nDen smarta uppgraderingen (dist-upgrade) försöker att lösa konflikter och uppfylla alla beroenden för uppgraderingen på ett smart sätt.\n\n<b>Observera:</b> Uppgraderingarna kommer endast markeras. Du behöver fortfarande verkställa dem efteråt.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 281
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 13,
+    "lint_after": 11,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: synaptic\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2026-02-11 14:31+0000\nLast-Translator: Anders Jonsson <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:59+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: synaptic\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2026-02-11 14:31+0000\nLast-Translator: Anders Jonsson <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:59+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

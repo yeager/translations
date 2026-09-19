@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/unity-control-center",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/unity-control-center.po",
+    "original_po": "original/locale-langpack/unity-control-center.po",
+    "diff": "diff/locale-langpack/unity-control-center.po.diff",
+    "report": "reports/locale-langpack/unity-control-center.md",
+    "metadata": "metadata/locale-langpack/unity-control-center.json",
+    "validation": "validation/locale-langpack/unity-control-center.json"
+  },
+  "upstream": {
+    "project": "Unity Control Center",
+    "project_url": "https://launchpad.net/unity-control-center",
+    "repository_url": null,
+    "ubuntu_source_package": "unity-control-center",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/unity-control-center",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "unity-control-center",
+        "Version": "15.04.0+23.04.20230220-0ubuntu13"
+      },
+      "po_project_id": "gnome-control-center",
+      "po_bug_report_address": ""
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity-control-center.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity-control-center.mo",
+    "mo_sha256": "65060dc7ec93bcb037333d3c9fbc5b87d0b00e3112513c7aba96f6b536feafe8",
+    "installed_owning_package": "language-pack-gnome-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/unity-control-center.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "gnome-control-center",
+      "Report-Msgid-Bugs-To": "",
+      "PO-Revision-Date": "2026-04-02 02:08+0000",
+      "Last-Translator": "Launchpad Translations Administrators <Unknown>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 17:18+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "561bf9ab6aef80cb770e93505f2298e1274e6284f9d4b96bdb7bd509cba1683c",
+    "corrected_po": "d8e1a51276d926c6071d413cd2aa1e857a83223f4c0503a99562f07b7666ba75",
+    "diff": "ffde67809de914ab1f1d03500059f2c057f651e33736dbdd048a7db7eea061d7"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P3": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F044",
+        "severity": "P3",
+        "title": "Stavfel: Tilllåt",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 343,
+        "msgctxt": null,
+        "msgid": "Allow different sources for each window",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Tilllåt olika källor för var fönster",
+        "after": "Tillåt olika källor för var fönster",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 343
+      },
+      {
+        "finding_id": "F045",
+        "severity": "P3",
+        "title": "Stavfel: Tilllåt",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 349,
+        "msgctxt": null,
+        "msgid": "Allow louder than 100% (may distort sound)",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Tilllåt högre än 100% (kan förvränga ljudet)",
+        "after": "Tillåt högre än 100% (kan förvränga ljudet)",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 349
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 58,
+    "lint_after": 56,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: gnome-control-center\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2026-04-02 02:08+0000\nLast-Translator: Launchpad Translations Administrators <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 17:18+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: gnome-control-center\nReport-Msgid-Bugs-To: \nPO-Revision-Date: 2026-04-02 02:08+0000\nLast-Translator: Launchpad Translations Administrators <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 17:18+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

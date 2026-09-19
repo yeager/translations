@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale/dpkg",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale/dpkg.po",
+    "original_po": "original/locale/dpkg.po",
+    "diff": "diff/locale/dpkg.po.diff",
+    "report": "reports/locale/dpkg.md",
+    "metadata": "metadata/locale/dpkg.json",
+    "validation": "validation/locale/dpkg.json"
+  },
+  "upstream": {
+    "project": "dpkg",
+    "project_url": "https://wiki.debian.org/Teams/Dpkg",
+    "repository_url": null,
+    "ubuntu_source_package": "dpkg",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/dpkg",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "dpkg",
+        "Version": "1.23.7ubuntu1",
+        "Homepage": "https://wiki.debian.org/Teams/Dpkg"
+      },
+      "po_project_id": "dpkg 1.23.6",
+      "po_bug_report_address": "debian-dpkg@lists.debian.org"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale/sv/LC_MESSAGES/dpkg.mo",
+    "resolved_mo_path": "/usr/share/locale/sv/LC_MESSAGES/dpkg.mo",
+    "mo_sha256": "d5addadc6827c96637e1be4b596837070b47ba6787f79a53f05810f22971a5f7",
+    "installed_owning_package": "dpkg",
+    "installed_owning_package_version": "1.23.7ubuntu1",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale/sv/LC_MESSAGES/dpkg.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "dpkg 1.23.6",
+      "Report-Msgid-Bugs-To": "debian-dpkg@lists.debian.org",
+      "PO-Revision-Date": "2026-02-20 16:31+0100",
+      "Last-Translator": "Peter Krefting <peter@softwolves.pp.se>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "Language": "sv",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=(n != 1);",
+      "X-Generator": "Gtranslator 42.0"
+    }
+  },
+  "sha256": {
+    "original_po": "eae630ed6bbb5a3280c25d3f55a72f51537845a928b9460d14eee1a3743f6c77",
+    "corrected_po": "5c8483b9e86114eacaa3608087c5f0a60108eda5e5a515f60d185bf2023854df",
+    "diff": "a34b5eabf99cfb8f893dd0efb233223593e49c8bc7cdc62575cd5ed169339799"
+  },
+  "report": {
+    "changed_translations": 3,
+    "priorities": {
+      "P2": 1,
+      "P3": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F012",
+        "severity": "P2",
+        "title": "Översättningen lägger till ett obefintligt argument",
+        "reason": "Originalet innehåller ingen %s. Översättningen har kvar en platshållare och ett prefix som saknar motsvarighet i källtexten.",
+        "original_line": 3412,
+        "msgctxt": null,
+        "msgid": "need a pathname argument",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "--%s behöver ett sökvägsnamnargument",
+        "after": "behöver ett sökvägsargument",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 3413
+      },
+      {
+        "finding_id": "F050",
+        "severity": "P3",
+        "title": "Felaktig upprepning: men men",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 133,
+        "msgctxt": null,
+        "msgid": "  %s provides %s but is %s.\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "%s tillhandahåller %s men men är %s.\n",
+        "after": "%s tillhandahåller %s men är %s.\n",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 133
+      },
+      {
+        "finding_id": "F051",
+        "severity": "P3",
+        "title": "Felaktig upprepning: för för",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 2424,
+        "msgctxt": null,
+        "msgid": "cannot set security execution context for maintainer script",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "kan inte sätta säkerhetsexekveringssammanhang för för utvecklarskript",
+        "after": "kan inte sätta säkerhetsexekveringssammanhang för utvecklarskript",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 2425
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 152,
+    "lint_after": 147,
+    "svlang_before": 3,
+    "svlang_after": 3,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: dpkg 1.23.6\nReport-Msgid-Bugs-To: debian-dpkg@lists.debian.org\nPO-Revision-Date: 2026-02-20 16:31+0100\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Generator: Gtranslator 42.0\n",
+      "corrected": "Project-Id-Version: dpkg 1.23.6\nReport-Msgid-Bugs-To: debian-dpkg@lists.debian.org\nPO-Revision-Date: 2026-02-20 16:31+0100\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Generator: Gtranslator 42.0\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

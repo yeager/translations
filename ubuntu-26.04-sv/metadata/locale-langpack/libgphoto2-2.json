@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/libgphoto2-2",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/libgphoto2-2.po",
+    "original_po": "original/locale-langpack/libgphoto2-2.po",
+    "diff": "diff/locale-langpack/libgphoto2-2.po.diff",
+    "report": "reports/locale-langpack/libgphoto2-2.md",
+    "metadata": "metadata/locale-langpack/libgphoto2-2.json",
+    "validation": "validation/locale-langpack/libgphoto2-2.json"
+  },
+  "upstream": {
+    "project": "libgphoto2",
+    "project_url": "https://github.com/gphoto/libgphoto2",
+    "repository_url": null,
+    "ubuntu_source_package": "libgphoto2",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/libgphoto2",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "libgphoto2-6t64",
+        "Source": "libgphoto2",
+        "Version": "2.5.33-1ubuntu1.1",
+        "Homepage": "https://github.com/gphoto/libgphoto2/"
+      },
+      "po_project_id": "libgphoto2 2.5.28",
+      "po_bug_report_address": "gphoto-devel@lists.sourceforge.net"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/libgphoto2-2.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/libgphoto2-2.mo",
+    "mo_sha256": "1a38c209bf6c3f87f8212f5294b996bcf79c9486a4130db9e01f7eb02bcded5b",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/libgphoto2-2.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "libgphoto2 2.5.28",
+      "Report-Msgid-Bugs-To": "gphoto-devel@lists.sourceforge.net",
+      "PO-Revision-Date": "2026-07-22 15:43+0000",
+      "Last-Translator": "Sebastian Rasmussen <Unknown>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 15:49+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv",
+      "X-Bugs": "Report translation errors to the Language-Team address."
+    }
+  },
+  "sha256": {
+    "original_po": "050c96f49c676a4c9604699f823ccbd3ede47b5ed46b35c40c1425e0864008df",
+    "corrected_po": "9712564048e39ec47cd390718a4ac403f66f0b1b307621dcca18ee4616c4e4bb",
+    "diff": "6bad900f1ca84d307531f21516862791c2c73c74264b167abc571aea0ab1f8af"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P2": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F023",
+        "severity": "P2",
+        "title": "Antalet återförsök har ersatts med %i",
+        "reason": "Originalets fasta två återförsök har blivit ett formatargument som inte finns i originalet.",
+        "original_line": 6856,
+        "msgctxt": null,
+        "msgid": "Transmission timed out even after 2 retries. Giving up...",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Överföringen tog för lång tid och avbröts efter %i försök. Ger upp…",
+        "after": "Överföringen överskred tidsgränsen även efter två nya försök. Ger upp…",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 6856
+      },
+      {
+        "finding_id": "F024",
+        "severity": "P2",
+        "title": "Adressen till utvecklarlistan ersätts med %s",
+        "reason": "Originalet hänvisar till gphotos utvecklarlista utan formatargument. Översättningen kräver en extra %s.",
+        "original_line": 6161,
+        "msgctxt": null,
+        "msgid": "Some notes about Epson cameras:\n- Some parameters are not controllable remotely:\n  * zoom\n  * focus\n  * custom white balance setup\n- Configuration has been reverse-engineered with\n  a PhotoPC 3000z, if your camera acts differently\n  please send a mail to the gphoto developer mailing list (in English)\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Några anteckningar om Epson-kameror:\n- Vissa parametrar går inte att fjärrstyra:\n  * zoom\n  * fokus\n  * anpassad vitbalansinställning\n- Konfigurationen har blivit avkodad med\n  en PhotoPC 3000z, om din kamera beter sig annorlunda\n  skriv ett brev till %s (på Engelska)\n",
+        "after": "Några anteckningar om Epson-kameror:\n- Vissa parametrar går inte att fjärrstyra:\n  * zoom\n  * fokus\n  * anpassad vitbalansinställning\n- Konfigurationen har blivit avkodad med\n  en PhotoPC 3000z, om din kamera beter sig annorlunda\n  skriv ett brev till gphotos utvecklarsändlista (på engelska)\n",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:18: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 6161
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 54,
+    "lint_after": 52,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: libgphoto2 2.5.28\nReport-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\nPO-Revision-Date: 2026-07-22 15:43+0000\nLast-Translator: Sebastian Rasmussen <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:49+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "corrected": "Project-Id-Version: libgphoto2 2.5.28\nReport-Msgid-Bugs-To: gphoto-devel@lists.sourceforge.net\nPO-Revision-Date: 2026-07-22 15:43+0000\nLast-Translator: Sebastian Rasmussen <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:49+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

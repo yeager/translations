@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/glance",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/glance.po",
+    "original_po": "original/locale-langpack/glance.po",
+    "diff": "diff/locale-langpack/glance.po.diff",
+    "report": "reports/locale-langpack/glance.md",
+    "metadata": "metadata/locale-langpack/glance.json",
+    "validation": "validation/locale-langpack/glance.json"
+  },
+  "upstream": {
+    "project": "OpenStack Glance",
+    "project_url": "https://launchpad.net/glance",
+    "repository_url": "https://opendev.org/openstack/glance",
+    "ubuntu_source_package": "glance",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/glance",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "glance-common",
+        "Source": "glance",
+        "Version": "2:32.0.0-0ubuntu1",
+        "Homepage": "https://launchpad.net/glance"
+      },
+      "po_project_id": "Glance",
+      "po_bug_report_address": "EMAIL@ADDRESS"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/glance.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/glance.mo",
+    "mo_sha256": "6bc43467f30d508b3e781735c615aae6499b1c05e3feac2b78fc985afc6ec41b",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/glance.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "Glance",
+      "Report-Msgid-Bugs-To": "EMAIL@ADDRESS",
+      "PO-Revision-Date": "2021-06-23 04:29+0000",
+      "Last-Translator": "Arve Eriksson <Unknown>",
+      "Language-Team": "Swedish (http://www.transifex.com/projects/p/openstack/language/sv/)",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 17:07+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Generated-By": "Babel 1.3"
+    }
+  },
+  "sha256": {
+    "original_po": "c226f7255cd70292c2d62d0bcf4c55957930fcb4d381ebf50a342c0384a0acfd",
+    "corrected_po": "389fd7b61a35864c1f1dfa10be1b9e0c865933e9923ccadaaceb5dcb6bb0818e",
+    "diff": "4f8831559e64eb176f59d2a64d4c396dfe75da249541c181cb5d0fadb8d74955"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P2": 1,
+      "P3": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F002",
+        "severity": "P2",
+        "title": "Typbokstaven saknas efter image_id",
+        "reason": "%(image_id) saknar s. Python konsumerar mellanslaget och s i ordet som som formatsyntax: exempelvärdet image-1 följs av om i stället för som.",
+        "original_line": 1473,
+        "msgctxt": null,
+        "msgid": "The Image %(image_id)s object being created by this task %(task_id)s, is no longer in valid status for further processing.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Avbildobjektet %(image_id) som skapas av den här uppgiften %(task_id)s, är inte längre i en giltig status för vidare behandling.",
+        "after": "Avbildobjektet %(image_id)s som skapas av den här uppgiften %(task_id)s, är inte längre i en giltig status för vidare behandling.",
+        "format_validation": {
+          "synthetic_flag": "python-format",
+          "before": {
+            "exit_code": 0,
+            "stderr": ""
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": {
+          "source": {
+            "ok": true,
+            "output": "The Image image-1 object being created by this task task-1, is no longer in valid status for further processing."
+          },
+          "before": {
+            "ok": true,
+            "output": "Avbildobjektet image-1om skapas av den här uppgiften task-1, är inte längre i en giltig status för vidare behandling."
+          },
+          "proposed": {
+            "ok": true,
+            "output": "Avbildobjektet image-1 som skapas av den här uppgiften task-1, är inte längre i en giltig status för vidare behandling."
+          }
+        },
+        "corrected_line": 1473
+      },
+      {
+        "finding_id": "F042",
+        "severity": "P3",
+        "title": "Stavfel: tilllåter",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 1398,
+        "msgctxt": null,
+        "msgid": "Some resource types allow more than one key / value pair per instance.  For example, Cinder allows user and image metadata on volumes. Only the image properties metadata is evaluated by Nova (scheduling or drivers). This property allows a namespace target to remove the ambiguity.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Vissa resurstyper tillåter fler än ett nyckel-/värdepar per instans. Till exempel Cinder tilllåter användar- och bildmetadata på volymer. Bara bildegenskapers metadata utvärderas av Nova (schemaläggning eller drivrutiner). Denna egenskap tillåter en namnrymd att ta bort tvetydigheten.",
+        "after": "Vissa resurstyper tillåter fler än ett nyckel-/värdepar per instans. Till exempel Cinder tillåter användar- och bildmetadata på volymer. Bara bildegenskapers metadata utvärderas av Nova (schemaläggning eller drivrutiner). Denna egenskap tillåter en namnrymd att ta bort tvetydigheten.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 1398
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 7,
+    "lint_after": 5,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "outputs/ubuntu-26.04-sv/po/locale-langpack/glance.po:2: warning: header field 'Language' missing in header\n"
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: Glance\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\nPO-Revision-Date: 2021-06-23 04:29+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish (http://www.transifex.com/projects/p/openstack/language/sv/)\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 17:07+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nGenerated-By: Babel 1.3\n",
+      "corrected": "Project-Id-Version: Glance\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\nPO-Revision-Date: 2021-06-23 04:29+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish (http://www.transifex.com/projects/p/openstack/language/sv/)\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 17:07+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nGenerated-By: Babel 1.3\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

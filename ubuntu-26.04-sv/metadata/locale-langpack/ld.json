@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/ld",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/ld.po",
+    "original_po": "original/locale-langpack/ld.po",
+    "diff": "diff/locale-langpack/ld.po.diff",
+    "report": "reports/locale-langpack/ld.md",
+    "metadata": "metadata/locale-langpack/ld.json",
+    "validation": "validation/locale-langpack/ld.json"
+  },
+  "upstream": {
+    "project": "GNU Binutils / GNU linker",
+    "project_url": "https://sourceware.org/binutils/",
+    "repository_url": null,
+    "ubuntu_source_package": "binutils",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/binutils",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "binutils",
+        "Version": "2.46-3ubuntu2",
+        "Homepage": "https://www.gnu.org/software/binutils/"
+      },
+      "po_project_id": "ld 2.45.90",
+      "po_bug_report_address": "https://sourceware.org/bugzilla/"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/ld.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/ld.mo",
+    "mo_sha256": "e32710279c1b4808a9b3080965988f6b13f35db9e3de0a2060bc6e9573c27fad",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/ld.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "ld 2.45.90",
+      "Report-Msgid-Bugs-To": "https://sourceware.org/bugzilla/",
+      "PO-Revision-Date": "2026-03-20 03:16+0000",
+      "Last-Translator": "Daniel Nylander <daniel@danielnylander.se>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 15:25+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv",
+      "X-Bugs": "Report translation errors to the Language-Team address."
+    }
+  },
+  "sha256": {
+    "original_po": "a6fe08331bdfe045cdb6699a82994e6e635da252f67ac1079432625529a8ad3e",
+    "corrected_po": "0a6dbef3d7882c4206e8d55bd5a4fb24d1039b93dd7b01035f044c582ebd9326",
+    "diff": "0227217a4bdb92e465517bba4d8dbd8ea0e8e9c8b046dc56d784d79023737518"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P2": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F022",
+        "severity": "P2",
+        "title": "Duplicerat instick får ett extra argument",
+        "reason": "Översättningen innehåller två %s medan originalet bara innehåller en. %P är länkarens egna direktiv och ska bevaras.",
+        "original_line": 1712,
+        "msgctxt": null,
+        "msgid": "%P: %s: duplicated plugin\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "%P: %s: duplicerat instick: %s\n",
+        "after": "%P: %s: duplicerat instick\n",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 1712
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 89,
+    "lint_after": 88,
+    "svlang_before": 1,
+    "svlang_after": 1,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: ld 2.45.90\nReport-Msgid-Bugs-To: https://sourceware.org/bugzilla/\nPO-Revision-Date: 2026-03-20 03:16+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:25+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "corrected": "Project-Id-Version: ld 2.45.90\nReport-Msgid-Bugs-To: https://sourceware.org/bugzilla/\nPO-Revision-Date: 2026-03-20 03:16+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:25+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

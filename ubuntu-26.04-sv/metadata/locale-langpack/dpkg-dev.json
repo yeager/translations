@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/dpkg-dev",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/dpkg-dev.po",
+    "original_po": "original/locale-langpack/dpkg-dev.po",
+    "diff": "diff/locale-langpack/dpkg-dev.po.diff",
+    "report": "reports/locale-langpack/dpkg-dev.md",
+    "metadata": "metadata/locale-langpack/dpkg-dev.json",
+    "validation": "validation/locale-langpack/dpkg-dev.json"
+  },
+  "upstream": {
+    "project": "dpkg",
+    "project_url": "https://wiki.debian.org/Teams/Dpkg",
+    "repository_url": null,
+    "ubuntu_source_package": "dpkg",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/dpkg",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "dpkg-dev",
+        "Source": "dpkg",
+        "Version": "1.23.7ubuntu1",
+        "Homepage": "https://wiki.debian.org/Teams/Dpkg"
+      },
+      "po_project_id": "dpkg-dev 1.23.7",
+      "po_bug_report_address": "debian-dpkg@lists.debian.org"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg-dev.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg-dev.mo",
+    "mo_sha256": "ef7e2e23b3f04f746d73e359f1739291e9d238b9bde20ca184bf6938e5e1ec12",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg-dev.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "dpkg-dev 1.23.7",
+      "Report-Msgid-Bugs-To": "debian-dpkg@lists.debian.org",
+      "PO-Revision-Date": "2026-03-13 06:27+0000",
+      "Last-Translator": "Peter Krefting <peter@softwolves.pp.se>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 15:31+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "1dd86acc4fcff1fd12dc21d8ba1b0746184004af398fa71c5200fe0475162cb5",
+    "corrected_po": "95e4b51c336552bfe81654f20c0853a446a7a2aacb7157daf63eeb95c9b28ff1",
+    "diff": "40a4a0b696f4b79e0829f2bde9e7736c2739ac15b1f2e438266045fd1e9be0e9"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P3": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F040",
+        "severity": "P3",
+        "title": "Stavfel: körnng",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 949,
+        "msgctxt": null,
+        "msgid": "Options:\n  -l<library-path>         add directory to private shared library search list.\n  -p<package>              generate symbols file for package.\n  -P<package-build-dir>    temporary build directory instead of debian/tmp.\n  -e<library>              explicitly list libraries to scan.\n  -v<version>              version of the packages (defaults to\n                           version extracted from debian/changelog).\n  -c<level>                compare generated symbols file with the reference\n                           template in the debian directory and fail if\n                           difference is too important; level goes from 0 for\n                           no check, to 4 for all checks (default level is 1).\n  -q                       keep quiet and never emit any warnings or\n                           generate a diff between generated symbols\n                           file and the reference template.\n  -I<file>                 force usage of <file> as reference symbols\n                           file instead of the default file.\n  -O[<file>]               write to stdout (or <file>), not .../DEBIAN/symbols.\n  -t                       write in template mode (tags are not\n                           processed and included in output).\n  -V                       verbose output; write deprecated symbols and pattern\n                           matching symbols as comments (in template mode only).\n  -a<arch>                 assume <arch> as host architecture when processing\n                           symbol files.\n  -d                       display debug information during work.\n  -?, --help               show this help message.\n      --version            show the version.\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Flaggor:\n  -l<bibliotekssökväg>     lägg till katalog till privat söklista för delade bibliotek.\n  -p<paket>                skapar symbolfil för paket.\n  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.\n  -e<bibliotek>            explicit lista över bibliotek att söka i.\n  -v<version>              version på paketet (förval är versionen\n                           som utläses ur debian/changelog).\n  -c<nivå>                 jämför genererade symbolfiler med referensfilen\n                           i katalogen ”debian” och misslyckas om skillnaderna\n                           är för stora; nivå går från 0 för ingen test, till\n                           4 för alla tester (förvald nivå är 1).\n  -q                       var tyst och skriv aldrig ut några varningar eller\n                           generera en diff mellan genererad symbolfil och\n                           referensfilen.\n  -I<fil>                  tvinga användning av <fil> som symbolreferensfil\n                           istället för standardfilen.\n  -O[<fil>]                skriv till standard ut/<fil>, inte .../DEBIAN/symbols.\n  -t                       skriv i malläge (taggar behandlas inte och\n                           tas med i utdata).\n  -V                       pratsam utdata; skriv föråldrade symboler och\n                           mönster som motsvarar symboler som kommentarer\n                           (endast i mall-läget).\n  -a<ark>                  förutsätt <ark> som värdarkitektur vid behandling\n                           av symbofilen.\n  -d                       visa felsökningsinformation under körnng.\n  -?, --help               visa detta hjälpmeddelande.\n      --version            visa versionsnummer.\n",
+        "after": "Flaggor:\n  -l<bibliotekssökväg>     lägg till katalog till privat söklista för delade bibliotek.\n  -p<paket>                skapar symbolfil för paket.\n  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.\n  -e<bibliotek>            explicit lista över bibliotek att söka i.\n  -v<version>              version på paketet (förval är versionen\n                           som utläses ur debian/changelog).\n  -c<nivå>                 jämför genererade symbolfiler med referensfilen\n                           i katalogen ”debian” och misslyckas om skillnaderna\n                           är för stora; nivå går från 0 för ingen test, till\n                           4 för alla tester (förvald nivå är 1).\n  -q                       var tyst och skriv aldrig ut några varningar eller\n                           generera en diff mellan genererad symbolfil och\n                           referensfilen.\n  -I<fil>                  tvinga användning av <fil> som symbolreferensfil\n                           istället för standardfilen.\n  -O[<fil>]                skriv till standard ut/<fil>, inte .../DEBIAN/symbols.\n  -t                       skriv i malläge (taggar behandlas inte och\n                           tas med i utdata).\n  -V                       pratsam utdata; skriv föråldrade symboler och\n                           mönster som motsvarar symboler som kommentarer\n                           (endast i mall-läget).\n  -a<ark>                  förutsätt <ark> som värdarkitektur vid behandling\n                           av symbofilen.\n  -d                       visa felsökningsinformation under körning.\n  -?, --help               visa detta hjälpmeddelande.\n      --version            visa versionsnummer.\n",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 949
+      },
+      {
+        "finding_id": "F041",
+        "severity": "P3",
+        "title": "Stavfel: klasss",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 1649,
+        "msgctxt": null,
+        "msgid": "changelog format %s is not a Dpkg::Changelog class",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "ändringsloggformatet %s är inte en Dpkg::Changelog-klasss",
+        "after": "ändringsloggformatet %s är inte en Dpkg::Changelog-klass",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 1649
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 112,
+    "lint_after": 110,
+    "svlang_before": 19,
+    "svlang_after": 19,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: dpkg-dev 1.23.7\nReport-Msgid-Bugs-To: debian-dpkg@lists.debian.org\nPO-Revision-Date: 2026-03-13 06:27+0000\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:31+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: dpkg-dev 1.23.7\nReport-Msgid-Bugs-To: debian-dpkg@lists.debian.org\nPO-Revision-Date: 2026-03-13 06:27+0000\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:31+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

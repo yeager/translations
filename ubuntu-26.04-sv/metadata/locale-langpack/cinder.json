@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/cinder",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/cinder.po",
+    "original_po": "original/locale-langpack/cinder.po",
+    "diff": "diff/locale-langpack/cinder.po.diff",
+    "report": "reports/locale-langpack/cinder.md",
+    "metadata": "metadata/locale-langpack/cinder.json",
+    "validation": "validation/locale-langpack/cinder.json"
+  },
+  "upstream": {
+    "project": "OpenStack Cinder",
+    "project_url": "https://opendev.org/openstack/cinder",
+    "repository_url": null,
+    "ubuntu_source_package": "cinder",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/cinder",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "cinder-common",
+        "Source": "cinder",
+        "Version": "2:28.0.0-0ubuntu1",
+        "Homepage": "https://opendev.org/openstack/cinder"
+      },
+      "po_project_id": "Cinder",
+      "po_bug_report_address": "EMAIL@ADDRESS"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/cinder.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/cinder.mo",
+    "mo_sha256": "1c1e269c1157fcfccc6d781fac8efb90ac9460e877a63b7938558115b48d5995",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/cinder.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "Cinder",
+      "Report-Msgid-Bugs-To": "EMAIL@ADDRESS",
+      "PO-Revision-Date": "2023-11-08 08:01+0000",
+      "Last-Translator": "Luna Jernberg <Unknown>",
+      "Language-Team": "Swedish (http://www.transifex.com/projects/p/openstack/language/sv/)",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 17:13+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Generated-By": "Babel 1.3"
+    }
+  },
+  "sha256": {
+    "original_po": "3ef46c23cd364c982994af446068ff1e59664e84ebf229fd9b7e6697ba399ce3",
+    "corrected_po": "00af52620fbdc02985a23599f98fd4fb9cdd3b0f9e10bb31cd8c4600de05a0b4",
+    "diff": "6922462d26bfd0b3d054f667b0d92041940cf3ddf34e913f1e6b7e43c4b6347d"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P1": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F001",
+        "severity": "P1",
+        "title": "Fel nyckel i Python-formatfält",
+        "reason": "ret.status har blivit ret.statuss. Formatering med originalets nycklar ger KeyError.",
+        "original_line": 1695,
+        "msgctxt": null,
+        "msgid": "Error getting replication source details. Return code: %(ret.status)d Message: %(ret.data)s .",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Fel vid hämtning av replikationskällans detaljer. Returkod: %(ret.statuss)d Meddelande: %(ret.data)s .",
+        "after": "Fel vid hämtning av replikationskällans detaljer. Returkod: %(ret.status)d Meddelande: %(ret.data)s .",
+        "format_validation": {
+          "synthetic_flag": "python-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:12: a format specification for argument 'ret.status' doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": {
+          "source": {
+            "ok": true,
+            "output": "Error getting replication source details. Return code: 0 Message: OK ."
+          },
+          "before": {
+            "ok": false,
+            "exception": "KeyError",
+            "message": "'ret.statuss'"
+          },
+          "proposed": {
+            "ok": true,
+            "output": "Fel vid hämtning av replikationskällans detaljer. Returkod: 0 Meddelande: OK ."
+          }
+        },
+        "corrected_line": 1695
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 31,
+    "lint_after": 30,
+    "svlang_before": 4,
+    "svlang_after": 4,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "outputs/ubuntu-26.04-sv/po/locale-langpack/cinder.po:2: warning: header field 'Language' missing in header\n"
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: Cinder\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\nPO-Revision-Date: 2023-11-08 08:01+0000\nLast-Translator: Luna Jernberg <Unknown>\nLanguage-Team: Swedish (http://www.transifex.com/projects/p/openstack/language/sv/)\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 17:13+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nGenerated-By: Babel 1.3\n",
+      "corrected": "Project-Id-Version: Cinder\nReport-Msgid-Bugs-To: EMAIL@ADDRESS\nPO-Revision-Date: 2023-11-08 08:01+0000\nLast-Translator: Luna Jernberg <Unknown>\nLanguage-Team: Swedish (http://www.transifex.com/projects/p/openstack/language/sv/)\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 17:13+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nGenerated-By: Babel 1.3\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

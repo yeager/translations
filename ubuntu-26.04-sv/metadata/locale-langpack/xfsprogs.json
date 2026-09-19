@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/xfsprogs",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/xfsprogs.po",
+    "original_po": "original/locale-langpack/xfsprogs.po",
+    "diff": "diff/locale-langpack/xfsprogs.po.diff",
+    "report": "reports/locale-langpack/xfsprogs.md",
+    "metadata": "metadata/locale-langpack/xfsprogs.json",
+    "validation": "validation/locale-langpack/xfsprogs.json"
+  },
+  "upstream": {
+    "project": "XFS utilities",
+    "project_url": "https://xfs.wiki.kernel.org/",
+    "repository_url": null,
+    "ubuntu_source_package": "xfsprogs",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/xfsprogs",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "xfsprogs",
+        "Version": "6.18.0-3",
+        "Homepage": "https://xfs.wiki.kernel.org/"
+      },
+      "po_project_id": "xfsprogs",
+      "po_bug_report_address": "FULL NAME <EMAIL@ADDRESS>"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/xfsprogs.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/xfsprogs.mo",
+    "mo_sha256": "9a36e26b57590629d12dddf8942f0c22a835ccde5f4b2b10a22a7fcb62b05624",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/xfsprogs.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "xfsprogs",
+      "Report-Msgid-Bugs-To": "FULL NAME <EMAIL@ADDRESS>",
+      "PO-Revision-Date": "2026-01-26 16:20+0000",
+      "Last-Translator": "Daniel Nylander <daniel@danielnylander.se>",
+      "Language-Team": "Swedish <sv@li.org>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 16:02+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "c1fb0c9221a7c3b0bbf2d3e018c3f8b2035701ec6a8e90faf02c0c653b2f5fab",
+    "corrected_po": "96dc0221fed0234612d52776b7c8557424b0a9b71f47177586d9ad38b52ccc61",
+    "diff": "0081ec82cdd43297027a1161640105feae0a72160aa19ad9dfccc7df14baac49"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P3": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F054",
+        "severity": "P3",
+        "title": "Felaktig upprepning: ignoreras ignoreras",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 5717,
+        "msgctxt": null,
+        "msgid": "ALERT: The filesystem has valuable metadata changes in a log which is being\nignored because the -n option was used.  Expect spurious inconsistencies\nwhich may be resolved by first mounting the filesystem to replay the log.\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "VARNING: Filsystemet har värdefulla metadataändringar i en logg som ignoreras\nignoreras eftersom flaggan -n användes.  Förvänta dig falska inkonsekvenser\nsom kan lösas genom att först montera filsystemet för att spela upp loggen igen.\n",
+        "after": "VARNING: Filsystemet har värdefulla metadataändringar i en logg som ignoreras eftersom flaggan -n användes.  Förvänta dig falska inkonsekvenser\nsom kan lösas genom att först montera filsystemet för att spela upp loggen igen.\n",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 5717
+      },
+      {
+        "finding_id": "F055",
+        "severity": "P3",
+        "title": "Felaktig upprepning: filsystemet filsystemet",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 6391,
+        "msgctxt": null,
+        "msgid": "ERROR: The log head and/or tail cannot be discovered. Attempt to mount the\nfilesystem to replay the log or use the -L option to destroy the log and\nattempt a repair.\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "FEL: Loggens huvud och/eller svans kan inte hittas. Försök att montera filsystemet\nfilsystemet för att spela upp loggen igen eller använd flaggan -L för att förstöra loggen och\nförsöka reparera den.\n",
+        "after": "FEL: Loggens huvud och/eller svans kan inte hittas. Försök att montera filsystemet för att spela upp loggen igen eller använd flaggan -L för att förstöra loggen och\nförsöka reparera den.\n",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 6390
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 400,
+    "lint_after": 398,
+    "svlang_before": 4,
+    "svlang_after": 4,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: xfsprogs\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2026-01-26 16:20+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:02+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: xfsprogs\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2026-01-26 16:20+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:02+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/snappy",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/snappy.po",
+    "original_po": "original/locale-langpack/snappy.po",
+    "diff": "diff/locale-langpack/snappy.po.diff",
+    "report": "reports/locale-langpack/snappy.md",
+    "metadata": "metadata/locale-langpack/snappy.json",
+    "validation": "validation/locale-langpack/snappy.json"
+  },
+  "upstream": {
+    "project": "snapd",
+    "project_url": "https://github.com/canonical/snapd",
+    "repository_url": null,
+    "ubuntu_source_package": "snapd",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/snapd",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "snapd",
+        "Version": "2.76.3+ubuntu26.04",
+        "Homepage": "https://github.com/canonical/snapd"
+      },
+      "po_project_id": "snapd",
+      "po_bug_report_address": "FULL NAME <EMAIL@ADDRESS>"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/snappy.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/snappy.mo",
+    "mo_sha256": "0687425c7898f10df515deee9f5ec655caab0eecb85cae691f7415ce9090e607",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/snappy.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "snapd",
+      "Report-Msgid-Bugs-To": "FULL NAME <EMAIL@ADDRESS>",
+      "PO-Revision-Date": "2026-05-17 08:48+0000",
+      "Last-Translator": "Daniel Nylander <daniel@danielnylander.se>",
+      "Language-Team": "Swedish <sv@li.org>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 17:22+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "945db4ddb86d97c89ab6753c74e832f9e79540a4e9a5dcb59732fa99402dbf0b",
+    "corrected_po": "76a16655c0a5d083fb2e1167d572e98abd469faa24872764f640878b579c3a9f",
+    "diff": "494c88edb3fe5ae6880a0857831b3e2903391b863cbf07055c0cf107b6a61554"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P2": 1,
+      "P3": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F028",
+        "severity": "P2",
+        "title": "Trasig länk till felsökningshjälp",
+        "reason": "https: har blivit https; så länken är inte längre korrekt.",
+        "original_line": 2305,
+        "msgctxt": null,
+        "msgid": "%s was not found in your $PATH. If you've not restarted your session since you installed snapd, try doing that. Please see https://forum.snapcraft.io/t/9469 for more details.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "%s hittades inte i din $PATH. Om du inte har startat om din session sedan du installerade snapd, testa att göra det. Se https;//forum.snapcraft.io/t/9469 för fler detaljer.",
+        "after": "%s hittades inte i din $PATH. Om du inte har startat om din session sedan du installerade snapd, testa att göra det. Se https://forum.snapcraft.io/t/9469 för fler detaljer.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 2305
+      },
+      {
+        "finding_id": "F053",
+        "severity": "P3",
+        "title": "Felaktig upprepning: relative tider till till",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 2749,
+        "msgctxt": null,
+        "msgid": "Display absolute times (in RFC 3339 format). Otherwise, display relative times up to 60 days, then YYYY-MM-DD.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Visa absoluta tider (i formatet RFC 3339). Visa annars relative tider till till 60 dagar, sedan ÅÅÅÅ-MM-DD.",
+        "after": "Visa absoluta tider (i formatet RFC 3339). Visa annars relativa tider upp till 60 dagar, sedan ÅÅÅÅ-MM-DD.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 2749
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 110,
+    "lint_after": 107,
+    "svlang_before": 27,
+    "svlang_after": 27,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: snapd\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2026-05-17 08:48+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 17:22+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: snapd\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2026-05-17 08:48+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 17:22+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/cryptsetup",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/cryptsetup.po",
+    "original_po": "original/locale-langpack/cryptsetup.po",
+    "diff": "diff/locale-langpack/cryptsetup.po.diff",
+    "report": "reports/locale-langpack/cryptsetup.md",
+    "metadata": "metadata/locale-langpack/cryptsetup.json",
+    "validation": "validation/locale-langpack/cryptsetup.json"
+  },
+  "upstream": {
+    "project": "cryptsetup",
+    "project_url": "https://gitlab.com/cryptsetup/cryptsetup",
+    "repository_url": null,
+    "ubuntu_source_package": "cryptsetup",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/cryptsetup",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "cryptsetup",
+        "Version": "2:2.8.4-1ubuntu4",
+        "Homepage": "https://gitlab.com/cryptsetup/cryptsetup"
+      },
+      "po_project_id": "cryptsetup 2.7.3-rc0",
+      "po_bug_report_address": "cryptsetup@lists.linux.dev"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/cryptsetup.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/cryptsetup.mo",
+    "mo_sha256": "af443bec477b02912793832392e650a25bd155ea684efe1832baa12a72121f9c",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/cryptsetup.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "cryptsetup 2.7.3-rc0",
+      "Report-Msgid-Bugs-To": "cryptsetup@lists.linux.dev",
+      "PO-Revision-Date": "2026-03-03 15:22+0000",
+      "Last-Translator": "Daniel Nylander <daniel@danielnylander.se>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 16:05+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv",
+      "X-Bugs": "Report translation errors to the Language-Team address."
+    }
+  },
+  "sha256": {
+    "original_po": "1ec42f18ee88afa883087b1213be9eb12b9b03f8875135783e657b9f145a7bb4",
+    "corrected_po": "2420c692cbd9b995506ca891cc30402a63f9617529c4fb349e4ebde994f72b2f",
+    "diff": "6c22ecc96b337a7b5717ac6d5056ee34418cbf9a9cfa527217c431f7f8771dcc"
+  },
+  "report": {
+    "changed_translations": 2,
+    "priorities": {
+      "P2": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F015",
+        "severity": "P2",
+        "title": "Rothash har blivit begärd hash och ett extra argument",
+        "reason": "Root hash har fått annan innebörd och översättningen innehåller en %s som originalet saknar.",
+        "original_line": 2486,
+        "msgctxt": null,
+        "msgid": "Root hash signature verification is not supported.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Begärd hashsignaturverifiering %s stöds inte.",
+        "after": "Verifiering av rothashsignaturer stöds inte.",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 2486
+      },
+      {
+        "finding_id": "F016",
+        "severity": "P2",
+        "title": "Extra %u i meddelandet om metadata",
+        "reason": "Originalet anger inte någon numerisk posttyp men översättningen kräver ett sådant argument.",
+        "original_line": 2717,
+        "msgctxt": null,
+        "msgid": "Unexpected metadata entry found when parsing startup key.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Oväntad metadatapost av typ ”%u” funnen vid tolkning av uppstartsnyckel.",
+        "after": "Oväntad metadatapost funnen vid tolkning av uppstartsnyckel.",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 2717
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 40,
+    "lint_after": 38,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: cryptsetup 2.7.3-rc0\nReport-Msgid-Bugs-To: cryptsetup@lists.linux.dev\nPO-Revision-Date: 2026-03-03 15:22+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:05+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "corrected": "Project-Id-Version: cryptsetup 2.7.3-rc0\nReport-Msgid-Bugs-To: cryptsetup@lists.linux.dev\nPO-Revision-Date: 2026-03-03 15:22+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:05+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

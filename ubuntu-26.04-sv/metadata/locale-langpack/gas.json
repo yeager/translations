@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/gas",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/gas.po",
+    "original_po": "original/locale-langpack/gas.po",
+    "diff": "diff/locale-langpack/gas.po.diff",
+    "report": "reports/locale-langpack/gas.md",
+    "metadata": "metadata/locale-langpack/gas.json",
+    "validation": "validation/locale-langpack/gas.json"
+  },
+  "upstream": {
+    "project": "GNU Binutils / GNU assembler",
+    "project_url": "https://sourceware.org/binutils/",
+    "repository_url": null,
+    "ubuntu_source_package": "binutils",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/binutils",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "binutils",
+        "Version": "2.46-3ubuntu2",
+        "Homepage": "https://www.gnu.org/software/binutils/"
+      },
+      "po_project_id": "gas 2.45.90",
+      "po_bug_report_address": "https://sourceware.org/bugzilla/"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/gas.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/gas.mo",
+    "mo_sha256": "6288c12ede72520677e4a8f64aea8f619698fe0f02b8592cfaece1227455c382",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/gas.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "gas 2.45.90",
+      "Report-Msgid-Bugs-To": "https://sourceware.org/bugzilla/",
+      "PO-Revision-Date": "2026-02-02 13:21+0000",
+      "Last-Translator": "Sebastian Rasmussen <Unknown>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 15:24+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv",
+      "X-Bugs": "Report translation errors to the Language-Team address."
+    }
+  },
+  "sha256": {
+    "original_po": "b6e6a75842557d677412cce52a7961e2ee039a6048b574cb9929d16a4f70223d",
+    "corrected_po": "bbf950ecfee120e5305fa83de213886f554484f3ba357fe5585c8aabb59738b8",
+    "diff": "276fae3bbc4fdd1ba9b2a3149de6bf954667d5f961f96e03f1777b96929accee"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P2": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F018",
+        "severity": "P2",
+        "title": "Ett dollartecken har blivit %s",
+        "reason": "Originalets bokstavliga $ får inte ersättas med ett nytt formatargument.",
+        "original_line": 11177,
+        "msgctxt": null,
+        "msgid": "instruction requires label sans '$'",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "instruktion kräver etikett utan ”%s”",
+        "after": "instruktion kräver etikett utan ”$”",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 11177
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 124,
+    "lint_after": 123,
+    "svlang_before": 18,
+    "svlang_after": 18,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: gas 2.45.90\nReport-Msgid-Bugs-To: https://sourceware.org/bugzilla/\nPO-Revision-Date: 2026-02-02 13:21+0000\nLast-Translator: Sebastian Rasmussen <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:24+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "corrected": "Project-Id-Version: gas 2.45.90\nReport-Msgid-Bugs-To: https://sourceware.org/bugzilla/\nPO-Revision-Date: 2026-02-02 13:21+0000\nLast-Translator: Sebastian Rasmussen <Unknown>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:24+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

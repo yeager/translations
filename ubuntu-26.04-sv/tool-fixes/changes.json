@@ -1,0 +1,25 @@
+{
+  "local_builds": {
+    "l10n-lint": "1.21.2+localeaudit1",
+    "svlang": "0.2.1+localeaudit1"
+  },
+  "changes": [
+    "Require a plural header only for catalogs containing plural entries; keep validation for malformed existing headers.",
+    "Accept identical printf contracts with literal suffixes while preserving safeguards for prose percentages.",
+    "Do not parse hyphenated prose and numeric ranges as command options.",
+    "Do not flag unchanged source tokens like IEEE, PPP, pppd and III as Swedish compound misspellings.",
+    "Accept both iv\u00e4g and i v\u00e4g."
+  ],
+  "tests": {
+    "l10n-lint": 274,
+    "svlang": 83
+  },
+  "l10n-lint": {
+    "base_commit": "1377624eae52703510d0c8f25010009edfdfee02",
+    "patch_sha256": "247d521f25a8e4fcf09af613b9f40f28b65aefbb2b50a776acb54678b7156b38"
+  },
+  "svlang": {
+    "base_commit": "41e5bc0afdf428e2ecf8f2379f2b2bfa4214d66c",
+    "patch_sha256": "d6810c6d671e65b48c56dcf7e1575ee2cb512b6c7d32f12f1d135dbfd6c08794"
+  }
+}

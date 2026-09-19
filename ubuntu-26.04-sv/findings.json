@@ -1,0 +1,2066 @@
+[
+  {
+    "id": "F001",
+    "severity": "P1",
+    "category": "Format",
+    "title": "Fel nyckel i Python-formatfält",
+    "reason": "ret.status har blivit ret.statuss. Formatering med originalets nycklar ger KeyError.",
+    "entry": {
+      "catalog": "locale-langpack/cinder",
+      "ordinal": 547,
+      "line": 1695,
+      "msgctxt": null,
+      "msgid": "Error getting replication source details. Return code: %(ret.status)d Message: %(ret.data)s .",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Fel vid hämtning av replikationskällans detaljer. Returkod: %(ret.statuss)d Meddelande: %(ret.data)s ."
+    },
+    "proposal": "Fel vid hämtning av replikationskällans detaljer. Returkod: %(ret.status)d Meddelande: %(ret.data)s .",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/cinder",
+        "line": 1695,
+        "ordinal": 547,
+        "po": "po/locale-langpack/cinder.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/cinder.mo",
+        "mo_sha256": "1c1e269c1157fcfccc6d781fac8efb90ac9460e877a63b7938558115b48d5995",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "python-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:12: a format specification for argument 'ret.status' doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    },
+    "runtime_reproducer": {
+      "source": {
+        "ok": true,
+        "output": "Error getting replication source details. Return code: 0 Message: OK ."
+      },
+      "before": {
+        "ok": false,
+        "exception": "KeyError",
+        "message": "'ret.statuss'"
+      },
+      "proposed": {
+        "ok": true,
+        "output": "Fel vid hämtning av replikationskällans detaljer. Returkod: 0 Meddelande: OK ."
+      }
+    }
+  },
+  {
+    "id": "F002",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Typbokstaven saknas efter image_id",
+    "reason": "%(image_id) saknar s. Python konsumerar mellanslaget och s i ordet som som formatsyntax: exempelvärdet image-1 följs av om i stället för som.",
+    "entry": {
+      "catalog": "locale-langpack/glance",
+      "ordinal": 487,
+      "line": 1473,
+      "msgctxt": null,
+      "msgid": "The Image %(image_id)s object being created by this task %(task_id)s, is no longer in valid status for further processing.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Avbildobjektet %(image_id) som skapas av den här uppgiften %(task_id)s, är inte längre i en giltig status för vidare behandling."
+    },
+    "proposal": "Avbildobjektet %(image_id)s som skapas av den här uppgiften %(task_id)s, är inte längre i en giltig status för vidare behandling.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/glance",
+        "line": 1473,
+        "ordinal": 487,
+        "po": "po/locale-langpack/glance.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/glance.mo",
+        "mo_sha256": "6bc43467f30d508b3e781735c615aae6499b1c05e3feac2b78fc985afc6ec41b",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "python-format",
+      "before": {
+        "exit_code": 0,
+        "stderr": ""
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    },
+    "runtime_reproducer": {
+      "source": {
+        "ok": true,
+        "output": "The Image image-1 object being created by this task task-1, is no longer in valid status for further processing."
+      },
+      "before": {
+        "ok": true,
+        "output": "Avbildobjektet image-1om skapas av den här uppgiften task-1, är inte längre i en giltig status för vidare behandling."
+      },
+      "proposed": {
+        "ok": true,
+        "output": "Avbildobjektet image-1 som skapas av den här uppgiften task-1, är inte längre i en giltig status för vidare behandling."
+      }
+    }
+  },
+  {
+    "id": "F003",
+    "severity": "P1",
+    "category": "Format",
+    "title": "Två trasiga tidsformat",
+    "reason": "Båda %06ld har trunkerats till %06. Formatkontraktet och återgivningen av tidsvärden går förlorade.",
+    "entry": {
+      "catalog": "locale-langpack/gdb",
+      "ordinal": 3994,
+      "line": 14147,
+      "msgctxt": null,
+      "msgid": "Trace started at %ld.%06ld secs, stopped %ld.%06ld secs later.\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Spårningen startade vid %ld.%06 sekunder och avslutades %ld.%06 sekunder senare\n"
+    },
+    "proposal": "Spårningen startade vid %ld.%06ld sekunder och avslutades %ld.%06ld sekunder senare\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/gdb",
+        "line": 14147,
+        "ordinal": 3994,
+        "po": "po/locale-langpack/gdb.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/gdb.mo",
+        "mo_sha256": "d379de878048ca7405376e89be478071dac10557c03544303aa352f9c812d229",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: 'msgstr' is not a valid C format string, unlike 'msgid'. Reason: In the directive number 2, the character ' ' is not a valid conversion specifier.\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F004",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Fel argument för den saknade starttaggen",
+    "reason": "Den andra platshållaren ska vara %2; nu visas argument %1 två gånger.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 263,
+      "line": 799,
+      "msgctxt": null,
+      "msgid": "document type does not allow element %1 here; assuming missing %2 start-tag",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "dokumenttypen tillåter ej elementet %1 här; antar att starttaggen %1 saknas"
+    },
+    "proposal": "dokumenttypen tillåter ej elementet %1 här; antar att starttaggen %2 saknas",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 799,
+        "ordinal": 263,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:11: a format specification for argument 2 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F005",
+    "severity": "P2",
+    "category": "Format",
+    "title": "HTTP-adressen har tappat sin platshållare",
+    "reason": "%1 har ersatts med (%), så den berörda URL-adressen kan inte återges korrekt.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 288,
+      "line": 874,
+      "msgctxt": null,
+      "msgid": "empty host in HTTP URL %1",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "tom värd i HTTP-URL:en(%)"
+    },
+    "proposal": "tom värd i HTTP-URL:en %1",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 874,
+        "ordinal": 288,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F006",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Identifieraren saknas i felmeddelandet",
+    "reason": "Originalets %1 saknas i översättningen.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 370,
+      "line": 1120,
+      "msgctxt": null,
+      "msgid": "invalid formal public identifier %1: no SPACE after public text class",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "ogiltig formell publik identifierare: inget SPACE efter publik textklass"
+    },
+    "proposal": "ogiltig formell publik identifierare %1: inget SPACE efter publik textklass",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 1120,
+        "ordinal": 370,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F007",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Värdnumret saknas i felmeddelandet",
+    "reason": "Originalets %1 saknas i översättningen.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 372,
+      "line": 1126,
+      "msgctxt": null,
+      "msgid": "invalid host number %1",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "ogiltigt värdnummer"
+    },
+    "proposal": "ogiltigt värdnummer %1",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 1126,
+        "ordinal": 372,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F008",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Numrerad platshållare har blivit printf-format",
+    "reason": "%1 har ändrats till %d, vilket är en annan formatsyntax.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 460,
+      "line": 1390,
+      "msgctxt": null,
+      "msgid": "normalized length of attribute value literal must not exceed LITLEN (%1); length was %2",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "längden av normaliserad attributvärdesliteral får ej överskrida LITLEN (%d); längden var %2"
+    },
+    "proposal": "längden av normaliserad attributvärdesliteral får ej överskrida LITLEN (%1); längden var %2",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 1390,
+        "ordinal": 460,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:12: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F009",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Entitetens namn saknas",
+    "reason": "Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 509,
+      "line": 1537,
+      "msgctxt": null,
+      "msgid": "reference to external data entity %1 not allowed in XML",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "referens till extern dataentitet ej tillåtet i XML"
+    },
+    "proposal": "referens till extern dataentitet %1 ej tillåtet i XML",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 1537,
+        "ordinal": 509,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F010",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Entitetens namn saknas",
+    "reason": "Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 512,
+      "line": 1546,
+      "msgctxt": null,
+      "msgid": "reference to internal SDATA entity %1 not allowed in XML",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "referens till intern SDATA-entitet ej tillåtet i XML"
+    },
+    "proposal": "referens till intern SDATA-entitet %1 ej tillåtet i XML",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 1546,
+        "ordinal": 512,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F011",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Entitetens namn saknas",
+    "reason": "Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 519,
+      "line": 1567,
+      "msgctxt": null,
+      "msgid": "reference to subdocument entity %1 not allowed in XML",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "referens till subdokumententitet ej tillåtet i XML"
+    },
+    "proposal": "referens till subdokumententitet %1 ej tillåtet i XML",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 1567,
+        "ordinal": 519,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "qt-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F012",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Översättningen lägger till ett obefintligt argument",
+    "reason": "Originalet innehåller ingen %s. Översättningen har kvar en platshållare och ett prefix som saknar motsvarighet i källtexten.",
+    "entry": {
+      "catalog": "locale/dpkg",
+      "ordinal": 829,
+      "line": 3412,
+      "msgctxt": null,
+      "msgid": "need a pathname argument",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "--%s behöver ett sökvägsnamnargument"
+    },
+    "proposal": "behöver ett sökvägsargument",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/dpkg",
+        "line": 3433,
+        "ordinal": 834,
+        "po": "po/locale-langpack/dpkg.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg.mo",
+        "mo_sha256": "d18722803ce8a1f6283f4e01d8f6fa5e2dace867463dadd6e1265476aeae7bbb",
+        "alias": false
+      },
+      {
+        "catalog": "locale/dpkg",
+        "line": 3412,
+        "ordinal": 829,
+        "po": "po/locale/dpkg.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/dpkg.mo",
+        "mo_sha256": "d5addadc6827c96637e1be4b596837070b47ba6787f79a53f05810f22971a5f7",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F013",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Extra %s i meddelandet om felsökningssektion",
+    "reason": "Källtexten har ingen formateringsparameter; den svenska texten lägger till : %s.",
+    "entry": {
+      "catalog": "locale-langpack/binutils",
+      "ordinal": 2425,
+      "line": 9133,
+      "msgctxt": null,
+      "msgid": "can't create debugging section",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "kan inte skapa felsökningssektionen: %s"
+    },
+    "proposal": "kan inte skapa felsökningssektionen",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/binutils",
+        "line": 9133,
+        "ordinal": 2425,
+        "po": "po/locale-langpack/binutils.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/binutils.mo",
+        "mo_sha256": "72a9b1366af78c5b042ec92c97549351488cab2ce162e541d23f8a8532ee94bc",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F014",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Extra %s i meddelandet om BFD-data",
+    "reason": "Källtexten har ingen formateringsparameter; den svenska texten lägger till : %s.",
+    "entry": {
+      "catalog": "locale-langpack/binutils",
+      "ordinal": 2581,
+      "line": 9601,
+      "msgctxt": null,
+      "msgid": "error copying private BFD data",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "fel vid kopiering av privat BFD-data: %s"
+    },
+    "proposal": "fel vid kopiering av privat BFD-data",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/binutils",
+        "line": 9601,
+        "ordinal": 2581,
+        "po": "po/locale-langpack/binutils.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/binutils.mo",
+        "mo_sha256": "72a9b1366af78c5b042ec92c97549351488cab2ce162e541d23f8a8532ee94bc",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F015",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Rothash har blivit begärd hash och ett extra argument",
+    "reason": "Root hash har fått annan innebörd och översättningen innehåller en %s som originalet saknar.",
+    "entry": {
+      "catalog": "locale-langpack/cryptsetup",
+      "ordinal": 767,
+      "line": 2486,
+      "msgctxt": null,
+      "msgid": "Root hash signature verification is not supported.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Begärd hashsignaturverifiering %s stöds inte."
+    },
+    "proposal": "Verifiering av rothashsignaturer stöds inte.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/cryptsetup",
+        "line": 2486,
+        "ordinal": 767,
+        "po": "po/locale-langpack/cryptsetup.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/cryptsetup.mo",
+        "mo_sha256": "af443bec477b02912793832392e650a25bd155ea684efe1832baa12a72121f9c",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F016",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Extra %u i meddelandet om metadata",
+    "reason": "Originalet anger inte någon numerisk posttyp men översättningen kräver ett sådant argument.",
+    "entry": {
+      "catalog": "locale-langpack/cryptsetup",
+      "ordinal": 834,
+      "line": 2717,
+      "msgctxt": null,
+      "msgid": "Unexpected metadata entry found when parsing startup key.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Oväntad metadatapost av typ ”%u” funnen vid tolkning av uppstartsnyckel."
+    },
+    "proposal": "Oväntad metadatapost funnen vid tolkning av uppstartsnyckel.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/cryptsetup",
+        "line": 2717,
+        "ordinal": 834,
+        "po": "po/locale-langpack/cryptsetup.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/cryptsetup.mo",
+        "mo_sha256": "af443bec477b02912793832392e650a25bd155ea684efe1832baa12a72121f9c",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F017",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Extra %s i meddelandet om --moveto",
+    "reason": "Översättningen har ett formatargument som inte finns i originalet.",
+    "entry": {
+      "catalog": "locale-langpack/fetchmail",
+      "ordinal": 655,
+      "line": 2123,
+      "msgctxt": null,
+      "msgid": "fetchmail: configuration invalid, --moveto is only valid for IMAP servers\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "fetchmail: %s-konfigurationen är ogiltig, --moveto är endast giltigt för IMAP-servrar\n"
+    },
+    "proposal": "fetchmail: konfigurationen är ogiltig, --moveto är endast giltigt för IMAP-servrar\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/fetchmail",
+        "line": 2123,
+        "ordinal": 655,
+        "po": "po/locale-langpack/fetchmail.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/fetchmail.mo",
+        "mo_sha256": "4076b7daea9932f40067f7f8dc486120f5b3ec61330f20b2fc2609231cf8615e",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:11: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F018",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Ett dollartecken har blivit %s",
+    "reason": "Originalets bokstavliga $ får inte ersättas med ett nytt formatargument.",
+    "entry": {
+      "catalog": "locale-langpack/gas",
+      "ordinal": 3289,
+      "line": 11177,
+      "msgctxt": null,
+      "msgid": "instruction requires label sans '$'",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "instruktion kräver etikett utan ”%s”"
+    },
+    "proposal": "instruktion kräver etikett utan ”$”",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/gas",
+        "line": 11177,
+        "ordinal": 3289,
+        "po": "po/locale-langpack/gas.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/gas.mo",
+        "mo_sha256": "6288c12ede72520677e4a8f64aea8f619698fe0f02b8592cfaece1227455c382",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F019",
+    "severity": "P2",
+    "category": "Betydelse och format",
+    "title": "Skiftlägesinställningen ersätts med ett fast påstående",
+    "reason": "Originalet återger inställningen via %s. Översättningen säger alltid att sökningen inte är skiftlägeskänslig.",
+    "entry": {
+      "catalog": "locale-langpack/gdb",
+      "ordinal": 952,
+      "line": 3188,
+      "msgctxt": null,
+      "msgid": "Case sensitivity in name search is \"%s\".\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Namnsökningen är inte skiftlägeskänslig\n"
+    },
+    "proposal": "Namnsökningens skiftlägeskänslighet är ”%s”.\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/gdb",
+        "line": 3188,
+        "ordinal": 952,
+        "po": "po/locale-langpack/gdb.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/gdb.mo",
+        "mo_sha256": "d379de878048ca7405376e89be478071dac10557c03544303aa352f9c812d229",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F020",
+    "severity": "P2",
+    "category": "Format",
+    "title": "&s används i stället för %s",
+    "reason": "Sektionens namn försvinner eftersom procenttecknet har blivit &.",
+    "entry": {
+      "catalog": "locale-langpack/gdb",
+      "ordinal": 2860,
+      "line": 9950,
+      "msgctxt": null,
+      "msgid": "Section %s not found",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Kapitel &s hittades inte"
+    },
+    "proposal": "Sektionen %s hittades inte",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/gdb",
+        "line": 9950,
+        "ordinal": 2860,
+        "po": "po/locale-langpack/gdb.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/gdb.mo",
+        "mo_sha256": "d379de878048ca7405376e89be478071dac10557c03544303aa352f9c812d229",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F021",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Extra %s i meddelandet om incheckningsgraf",
+    "reason": "Källtexten har ingen platshållare för filnamn men översättningen har %s.",
+    "entry": {
+      "catalog": "locale-langpack/git",
+      "ordinal": 2169,
+      "line": 8271,
+      "msgctxt": null,
+      "msgid": "commit-graph file is too small",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "incheckningsgraffilen %s är för liten"
+    },
+    "proposal": "incheckningsgraffilen är för liten",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/git",
+        "line": 8271,
+        "ordinal": 2169,
+        "po": "po/locale-langpack/git.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/git.mo",
+        "mo_sha256": "31ae8dfb96c28e820409916306a04efe66c5fd807042ac7021f7138d7dde0c98",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F022",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Duplicerat instick får ett extra argument",
+    "reason": "Översättningen innehåller två %s medan originalet bara innehåller en. %P är länkarens egna direktiv och ska bevaras.",
+    "entry": {
+      "catalog": "locale-langpack/ld",
+      "ordinal": 395,
+      "line": 1712,
+      "msgctxt": null,
+      "msgid": "%P: %s: duplicated plugin\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "%P: %s: duplicerat instick: %s\n"
+    },
+    "proposal": "%P: %s: duplicerat instick\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/ld",
+        "line": 1712,
+        "ordinal": 395,
+        "po": "po/locale-langpack/ld.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/ld.mo",
+        "mo_sha256": "e32710279c1b4808a9b3080965988f6b13f35db9e3de0a2060bc6e9573c27fad",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F023",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Antalet återförsök har ersatts med %i",
+    "reason": "Originalets fasta två återförsök har blivit ett formatargument som inte finns i originalet.",
+    "entry": {
+      "catalog": "locale-langpack/libgphoto2-6",
+      "ordinal": 2817,
+      "line": 9598,
+      "msgctxt": null,
+      "msgid": "Transmission timed out even after 2 retries. Giving up...",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Överföringen tog för lång tid och avbröts efter %i försök. Ger upp…"
+    },
+    "proposal": "Överföringen överskred tidsgränsen även efter två nya försök. Ger upp…",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/libgphoto2-2",
+        "line": 6856,
+        "ordinal": 1929,
+        "po": "po/locale-langpack/libgphoto2-2.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/libgphoto2-2.mo",
+        "mo_sha256": "1a38c209bf6c3f87f8212f5294b996bcf79c9486a4130db9e01f7eb02bcded5b",
+        "alias": false
+      },
+      {
+        "catalog": "locale-langpack/libgphoto2-6",
+        "line": 9598,
+        "ordinal": 2817,
+        "po": "po/locale-langpack/libgphoto2-6.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/libgphoto2-6.mo",
+        "mo_sha256": "9b83d0aefe0dce8649e3bc9ace2f4defb74050aedf6f86962b2e75fdf165f98a",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F024",
+    "severity": "P2",
+    "category": "Format",
+    "title": "Adressen till utvecklarlistan ersätts med %s",
+    "reason": "Originalet hänvisar till gphotos utvecklarlista utan formatargument. Översättningen kräver en extra %s.",
+    "entry": {
+      "catalog": "locale-langpack/libgphoto2-6",
+      "ordinal": 2619,
+      "line": 8692,
+      "msgctxt": null,
+      "msgid": "Some notes about Epson cameras:\n- Some parameters are not controllable remotely:\n  * zoom\n  * focus\n  * custom white balance setup\n- Configuration has been reverse-engineered with\n  a PhotoPC 3000z, if your camera acts differently\n  please send a mail to the gphoto developer mailing list (in English)\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Några anteckningar om Epson-kameror:\n- Vissa parametrar går inte att fjärrstyra:\n  * zoom\n  * fokus\n  * anpassad vitbalansinställning\n- Konfigurationen har blivit avkodad med\n  en PhotoPC 3000z, om din kamera beter sig annorlunda\n  skriv ett brev till %s (på Engelska)\n"
+    },
+    "proposal": "Några anteckningar om Epson-kameror:\n- Vissa parametrar går inte att fjärrstyra:\n  * zoom\n  * fokus\n  * anpassad vitbalansinställning\n- Konfigurationen har blivit avkodad med\n  en PhotoPC 3000z, om din kamera beter sig annorlunda\n  skriv ett brev till gphotos utvecklarsändlista (på engelska)\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/libgphoto2-2",
+        "line": 6161,
+        "ordinal": 1794,
+        "po": "po/locale-langpack/libgphoto2-2.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/libgphoto2-2.mo",
+        "mo_sha256": "1a38c209bf6c3f87f8212f5294b996bcf79c9486a4130db9e01f7eb02bcded5b",
+        "alias": false
+      },
+      {
+        "catalog": "locale-langpack/libgphoto2-6",
+        "line": 8692,
+        "ordinal": 2619,
+        "po": "po/locale-langpack/libgphoto2-6.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/libgphoto2-6.mo",
+        "mo_sha256": "9b83d0aefe0dce8649e3bc9ace2f4defb74050aedf6f86962b2e75fdf165f98a",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post.",
+    "format_validation": {
+      "synthetic_flag": "c-format",
+      "before": {
+        "exit_code": 1,
+        "stderr": "work/format-check.po:18: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+      },
+      "proposed": {
+        "exit_code": 0,
+        "stderr": ""
+      }
+    }
+  },
+  {
+    "id": "F025",
+    "severity": "P2",
+    "category": "Markup",
+    "title": "Trasiga länktaggar i hjälptexten",
+    "reason": "Den första länken har felaktig escapning och saknar avslutande attributcitat och >. Den andra saknar även inledande <. Länktexten hamnar i attributen.",
+    "entry": {
+      "catalog": "locale-langpack/simple-scan",
+      "ordinal": 87,
+      "line": 278,
+      "msgctxt": null,
+      "msgid": "Please check if your <a href=\"http://www.sane-project.org/sane-supported-devices.html\">scanner is supported by SANE</a>, otherwise report the issue to the <a href=\"https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel\">SANE mailing list</a>.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Se om din <a href=\\\"http://www.sane-project.org/sane-supported-devices.html bildläsare stöds av SANE</a>, annars kan du rapportera problemet till a href=\"https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel sändlistan för SANE</a>.\""
+    },
+    "proposal": "Kontrollera om din <a href=\"http://www.sane-project.org/sane-supported-devices.html\">bildläsare stöds av SANE</a>, annars kan du rapportera problemet till <a href=\"https://alioth-lists.debian.net/cgi-bin/mailman/listinfo/sane-devel\">sändlistan för SANE</a>.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/simple-scan",
+        "line": 278,
+        "ordinal": 87,
+        "po": "po/locale-langpack/simple-scan.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/simple-scan.mo",
+        "mo_sha256": "3bd6e4b7f8c55a861d72f72ad7f8085b07ec397feb75cf1e84d44043536df33f",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F026",
+    "severity": "P2",
+    "category": "Markup",
+    "title": "Fel avslutning av big-taggen",
+    "reason": "<b><big> avslutas med </b></b>. Den inre taggen ska avslutas med </big>.",
+    "entry": {
+      "catalog": "locale-langpack/synaptic",
+      "ordinal": 64,
+      "line": 281,
+      "msgctxt": null,
+      "msgid": "<b><big>Mark upgrades in a smart way?</big></b>\n\nThe default upgrade method skips upgrades that would introduce conflicts or require installation of additional packages.\n\nThe smart upgrade (dist-upgrade) attempts to resolve conflicts and to fulfil all dependencies of upgrades in a smart way.\n\n<b>Note:</b> The upgrades will be marked only. You still have to apply them afterwards.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "<b><big>Markera uppgraderingar på ett smart sätt?</b></b>\n\nStandardmetoden för uppgradering hoppar över de uppgraderingar som skulle introducera konflikter eller kräva installation av ytterligare paket.\n\nDen smarta uppgraderingen (dist-upgrade) försöker att lösa konflikter och uppfylla alla beroenden för uppgraderingen på ett smart sätt.\n\n<b>Observera:</b> Uppgraderingarna kommer endast markeras. Du behöver fortfarande verkställa dem efteråt."
+    },
+    "proposal": "<b><big>Markera uppgraderingar på ett smart sätt?</big></b>\n\nStandardmetoden för uppgradering hoppar över de uppgraderingar som skulle introducera konflikter eller kräva installation av ytterligare paket.\n\nDen smarta uppgraderingen (dist-upgrade) försöker att lösa konflikter och uppfylla alla beroenden för uppgraderingen på ett smart sätt.\n\n<b>Observera:</b> Uppgraderingarna kommer endast markeras. Du behöver fortfarande verkställa dem efteråt.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/synaptic",
+        "line": 281,
+        "ordinal": 64,
+        "po": "po/locale-langpack/synaptic.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/synaptic.mo",
+        "mo_sha256": "4cfc265f46860484d2b26c7c00186c43ec863587e05212c1ca3ff5d2f1a62514",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F027",
+    "severity": "P2",
+    "category": "Markup",
+    "title": "Netflix får fel avslutningstagg",
+    "reason": "</string> ska vara </strong>. Samma fel finns i OEM-bildspelet.",
+    "entry": {
+      "catalog": "locale-langpack/slideshow-ubuntu-mate",
+      "ordinal": 51,
+      "line": 164,
+      "msgctxt": null,
+      "msgid": "Ubuntu MATE comes with <strong>Firefox</strong> pre-installed and <strong>Google Chrome</strong> is in the Software Boutique so you can watch content from your favourite streaming services such as <strong>Netflix</strong> and <strong>YouTube</strong>.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</string> och <strong>YouTube</strong>."
+    },
+    "proposal": "Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</strong> och <strong>YouTube</strong>.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/slideshow-oem-config-ubuntu-mate",
+        "line": 164,
+        "ordinal": 51,
+        "po": "po/locale-langpack/slideshow-oem-config-ubuntu-mate.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/slideshow-oem-config-ubuntu-mate.mo",
+        "mo_sha256": "1cb91585bfe1ccc37826f9faa7db86d82db08e72d7c3bc3beebfec45a46c0e58",
+        "alias": false
+      },
+      {
+        "catalog": "locale-langpack/slideshow-ubuntu-mate",
+        "line": 164,
+        "ordinal": 51,
+        "po": "po/locale-langpack/slideshow-ubuntu-mate.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/slideshow-ubuntu-mate.mo",
+        "mo_sha256": "4872ca7e1fed9f2fd30e6435f0b2edb5ac208bb2d7e6c32823263343f6241d74",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F028",
+    "severity": "P2",
+    "category": "Länk",
+    "title": "Trasig länk till felsökningshjälp",
+    "reason": "https: har blivit https; så länken är inte längre korrekt.",
+    "entry": {
+      "catalog": "locale-langpack/snappy",
+      "ordinal": 160,
+      "line": 2305,
+      "msgctxt": null,
+      "msgid": "%s was not found in your $PATH. If you've not restarted your session since you installed snapd, try doing that. Please see https://forum.snapcraft.io/t/9469 for more details.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "%s hittades inte i din $PATH. Om du inte har startat om din session sedan du installerade snapd, testa att göra det. Se https;//forum.snapcraft.io/t/9469 för fler detaljer."
+    },
+    "proposal": "%s hittades inte i din $PATH. Om du inte har startat om din session sedan du installerade snapd, testa att göra det. Se https://forum.snapcraft.io/t/9469 för fler detaljer.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/snappy",
+        "line": 2305,
+        "ordinal": 160,
+        "po": "po/locale-langpack/snappy.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/snappy.mo",
+        "mo_sha256": "0687425c7898f10df515deee9f5ec655caab0eecb85cae691f7415ce9090e607",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F029",
+    "severity": "P2",
+    "category": "Betydelse",
+    "title": "Pennans vinkelvärden är omkastade (x-led)",
+    "reason": "Originalet anger ±90 vid parallell penna och 0 vid vinkelrät penna. Översättningen anger motsatsen.",
+    "entry": {
+      "catalog": "locale/libmypaint",
+      "ordinal": 51,
+      "line": 287,
+      "msgctxt": null,
+      "msgid": "Declination of stylus tilt on X-Axis. 90/-90 when stylus is parallel to tablet and 0 when it's perpendicular to tablet.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Pennans lutning i x-led relativt ritbrädans yta. Är 0 när pennan är parallell och 90.0 när den hålls vinkelrät."
+    },
+    "proposal": "Pennans lutning i x-led. Värdet är 90 eller −90 när pennan är parallell med ritplattan och 0 när den är vinkelrät mot ritplattan.",
+    "occurrences": [
+      {
+        "catalog": "locale/libmypaint",
+        "line": 287,
+        "ordinal": 51,
+        "po": "po/locale/libmypaint.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/libmypaint.mo",
+        "mo_sha256": "7cbb3dbf3565cad34c90e87d785c199f0f86b460d65fa25b102b86c31c4c102b",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F030",
+    "severity": "P2",
+    "category": "Betydelse",
+    "title": "Pennans vinkelvärden är omkastade (y-led)",
+    "reason": "Originalet anger ±90 vid parallell penna och 0 vid vinkelrät penna. Översättningen anger motsatsen.",
+    "entry": {
+      "catalog": "locale/libmypaint",
+      "ordinal": 52,
+      "line": 290,
+      "msgctxt": null,
+      "msgid": "Declination of stylus tilt on Y-Axis. 90/-90 when stylus is parallel to tablet and 0 when it's perpendicular to tablet.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Pennans lutning i y-led relativt ritbrädans yta. Är 0 när pennan är parallell och 90.0 när den hålls vinkelrät."
+    },
+    "proposal": "Pennans lutning i y-led. Värdet är 90 eller −90 när pennan är parallell med ritplattan och 0 när den är vinkelrät mot ritplattan.",
+    "occurrences": [
+      {
+        "catalog": "locale/libmypaint",
+        "line": 290,
+        "ordinal": 52,
+        "po": "po/locale/libmypaint.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/libmypaint.mo",
+        "mo_sha256": "7cbb3dbf3565cad34c90e87d785c199f0f86b460d65fa25b102b86c31c4c102b",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F031",
+    "severity": "P2",
+    "category": "Sifferuppgift",
+    "title": "Medelfranskans tidsintervall avviker",
+    "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+    "entry": {
+      "catalog": "locale/iso_639-3",
+      "ordinal": 5017,
+      "line": 15064,
+      "msgctxt": null,
+      "msgid": "Middle French (ca. 1400-1600)",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Medelfranska (ca 1300-1600)"
+    },
+    "proposal": "Medelfranska (ca 1400-1600)",
+    "occurrences": [
+      {
+        "catalog": "locale/iso_639-3",
+        "line": 15064,
+        "ordinal": 5017,
+        "po": "po/locale/iso_639-3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639-3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": false
+      },
+      {
+        "catalog": "locale/iso_639_3",
+        "line": 15064,
+        "ordinal": 5017,
+        "po": "po/locale/iso_639_3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639_3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": true
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F032",
+    "severity": "P2",
+    "category": "Sifferuppgift",
+    "title": "Medeliriskans tidsintervall avviker",
+    "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+    "entry": {
+      "catalog": "locale/iso_639-3",
+      "ordinal": 5020,
+      "line": 15073,
+      "msgctxt": null,
+      "msgid": "Middle Irish (900-1200)",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Medeliriska (ca 1100-1550)"
+    },
+    "proposal": "Medeliriska (ca 900-1200)",
+    "occurrences": [
+      {
+        "catalog": "locale/iso_639-3",
+        "line": 15073,
+        "ordinal": 5020,
+        "po": "po/locale/iso_639-3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639-3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": false
+      },
+      {
+        "catalog": "locale/iso_639_3",
+        "line": 15073,
+        "ordinal": 5020,
+        "po": "po/locale/iso_639_3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639_3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": true
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F033",
+    "severity": "P2",
+    "category": "Sifferuppgift",
+    "title": "Fornfranskans slutår avviker",
+    "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+    "entry": {
+      "catalog": "locale/iso_639-3",
+      "ordinal": 6064,
+      "line": 18205,
+      "msgctxt": null,
+      "msgid": "Old French (842-ca. 1400)",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Fornfranska (ca 842-1300)"
+    },
+    "proposal": "Fornfranska (ca 842-1400)",
+    "occurrences": [
+      {
+        "catalog": "locale/iso_639-3",
+        "line": 18205,
+        "ordinal": 6064,
+        "po": "po/locale/iso_639-3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639-3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": false
+      },
+      {
+        "catalog": "locale/iso_639_3",
+        "line": 18205,
+        "ordinal": 6064,
+        "po": "po/locale/iso_639_3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639_3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": true
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F034",
+    "severity": "P2",
+    "category": "Sifferuppgift",
+    "title": "Forniriskans slutår avviker",
+    "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+    "entry": {
+      "catalog": "locale/iso_639-3",
+      "ordinal": 6070,
+      "line": 18223,
+      "msgctxt": null,
+      "msgid": "Old Irish (to 900)",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Forniriska (-1100)"
+    },
+    "proposal": "Forniriska (-900)",
+    "occurrences": [
+      {
+        "catalog": "locale/iso_639-3",
+        "line": 18223,
+        "ordinal": 6070,
+        "po": "po/locale/iso_639-3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639-3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": false
+      },
+      {
+        "catalog": "locale/iso_639_3",
+        "line": 18223,
+        "ordinal": 6070,
+        "po": "po/locale/iso_639_3.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639_3.mo",
+        "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+        "alias": true
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F035",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: rutttyp",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/NetworkManager",
+      "ordinal": 23,
+      "line": 87,
+      "msgctxt": null,
+      "msgid": "%s is not a valid route type",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "%s är inte en giltig rutttyp"
+    },
+    "proposal": "%s är inte en giltig ruttyp",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/NetworkManager",
+        "line": 87,
+        "ordinal": 23,
+        "po": "po/locale-langpack/NetworkManager.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/NetworkManager.mo",
+        "mo_sha256": "3bc02cf7c74069829bc47da13ef18920fca8f3f5b52d34d6de28052014b0c2a1",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F036",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: huvudrutttabellen",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/NetworkManager",
+      "ordinal": 1785,
+      "line": 7022,
+      "msgctxt": null,
+      "msgid": "Whether to configure MPTCP endpoints and the address flags. If MPTCP is enabled in NetworkManager, it will configure the addresses of the interface as MPTCP endpoints. Note that IPv4 loopback addresses (127.0.0.0/8), IPv4 link local addresses (169.254.0.0/16), the IPv6 loopback address (::1), IPv6 link local addresses (fe80::/10), IPv6 unique local addresses (ULA, fc00::/7) and IPv6 privacy extension addresses (rfc3041, ipv6.ip6-privacy) will be excluded from being configured as endpoints. If \"disabled\" (0x1), MPTCP handling for the interface is disabled and no endpoints are registered. The \"enabled\" (0x2) flag means that MPTCP handling is enabled. This flag can also be implied from the presence of other flags. Even when enabled, MPTCP handling will by default still be disabled unless \"/proc/sys/net/mptcp/enabled\" sysctl is on. NetworkManager does not change the sysctl and this is up to the administrator or distribution. To configure endpoints even if the sysctl is disabled, \"also-without-sysctl\" (0x4) flag can be used. In that case, NetworkManager doesn't look at the sysctl and configures endpoints regardless. Even when enabled, NetworkManager will only configure MPTCP endpoints for a certain address family, if there is a unicast default route (0.0.0.0/0 or ::/0) in the main routing table. The flag \"also-without-default-route\" (0x8) can override that. When MPTCP handling is enabled then endpoints are configured with the specified address flags \"signal\" (0x10), \"subflow\" (0x20), \"backup\" (0x40), \"fullmesh\" (0x80). See ip-mptcp(8) manual for additional information about the flags. If the flags are zero (0x0), the global connection default from NetworkManager.conf is honored. If still unspecified, the fallback is \"enabled,subflow\". Note that this means that MPTCP is by default done depending on the \"/proc/sys/net/mptcp/enabled\" sysctl. NetworkManager does not change the MPTCP limits nor enable MPTCP via \"/proc/sys/net/mptcp/enabled\". That is a host configuration which the admin can change via sysctl and ip-mptcp. Strict reverse path filtering (rp_filter) breaks many MPTCP use cases, so when MPTCP handling for IPv4 addresses on the interface is enabled, NetworkManager would loosen the strict reverse path filtering (1) to the loose setting (2).",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Huruvida MPTCP-ändpunkter och adressflaggor ska konfigureras. Om MPTCP är aktiverat i NetworkManager kommer den att konfigurera gränssnittets adresser som MPTCP-slutpunkter. Observera att IPv4 loopback-adresser (127.0.0.0/8), IPv4-länk lokala adresser (169.254.0.0/16), IPv6 loopback-adress (::1), IPv6-länk lokala adresser (fe80::/10), IPv6 unik lokal adresser (ULA, fc00::/7) och IPv6 integritetstilläggsadresser (rfc3041, ipv6.ip6-privacy) kommer att uteslutas från att konfigureras som slutpunkter. Om \"inaktiverad\" (0x1) är MTCP-hantering för gränssnittet inaktiverad och inga slutpunkter registreras. Flaggan \"enabled\" (0x2) betyder att MPTCP-hantering är aktiverad. Denna flagga kan också antydas från närvaron av andra flaggor. Även när den är aktiverad, kommer MPTCP-hantering som standard fortfarande att vara inaktiverad om inte \"/proc/sys/net/mptcp/enabled\" sysctl är på. NetworkManager ändrar inte sysctl och detta är upp till administratören eller distributionen. För att konfigurera slutpunkter även om sysctl är inaktiverat kan flaggan \"also-without-sysctl\" (0x4) användas. I så fall tittar NetworkManager inte på sysctl och konfigurerar slutpunkter oavsett. Även när den är aktiverad kommer NetworkManager endast att konfigurera MPTCP-slutpunkter för en viss adressfamilj, om det finns en unicast-standardrutt (0.0.0.0/0 eller ::/0) i huvudrutttabellen. Flaggan \"även-utan-default-route\" (0x8) kan åsidosätta det. När MPTCP-hantering är aktiverad konfigureras slutpunkter med de angivna adressflaggorna \"signal\" (0x10), \"subflow\" (0x20), \"backup\" (0x40), \"fullmesh\" (0x80). Se ip-mptcp(8) manual för ytterligare information om flaggorna. Om flaggorna är noll (0x0), uppfylls den globala anslutningsstandarden från NetworkManager.conf. Om den fortfarande är ospecificerad är reservfunktionen \"enabled,subflow\". Observera att detta betyder att MPTCP görs som standard beroende på \"/proc/sys/net/mptcp/enabled\" sysctl. NetworkManager ändrar inte MPTCP-gränserna eller aktiverar MPTCP via \"/proc/sys/net/mptcp/enabled\". Det är en värdkonfiguration som administratören kan ändra via sysctl och ip-mptcp. Strikt omvänd sökvägsfiltrering (rp_filter) bryter många MPTCP-användningsfall, så när MPTCP-hantering för IPv4-adresser på gränssnittet är aktiverad, skulle NetworkManager lossa den strikta omvända sökvägsfiltreringen (1) till den lösa inställningen (2)."
+    },
+    "proposal": "Huruvida MPTCP-ändpunkter och adressflaggor ska konfigureras. Om MPTCP är aktiverat i NetworkManager kommer den att konfigurera gränssnittets adresser som MPTCP-slutpunkter. Observera att IPv4 loopback-adresser (127.0.0.0/8), IPv4-länk lokala adresser (169.254.0.0/16), IPv6 loopback-adress (::1), IPv6-länk lokala adresser (fe80::/10), IPv6 unik lokal adresser (ULA, fc00::/7) och IPv6 integritetstilläggsadresser (rfc3041, ipv6.ip6-privacy) kommer att uteslutas från att konfigureras som slutpunkter. Om \"inaktiverad\" (0x1) är MTCP-hantering för gränssnittet inaktiverad och inga slutpunkter registreras. Flaggan \"enabled\" (0x2) betyder att MPTCP-hantering är aktiverad. Denna flagga kan också antydas från närvaron av andra flaggor. Även när den är aktiverad, kommer MPTCP-hantering som standard fortfarande att vara inaktiverad om inte \"/proc/sys/net/mptcp/enabled\" sysctl är på. NetworkManager ändrar inte sysctl och detta är upp till administratören eller distributionen. För att konfigurera slutpunkter även om sysctl är inaktiverat kan flaggan \"also-without-sysctl\" (0x4) användas. I så fall tittar NetworkManager inte på sysctl och konfigurerar slutpunkter oavsett. Även när den är aktiverad kommer NetworkManager endast att konfigurera MPTCP-slutpunkter för en viss adressfamilj, om det finns en unicast-standardrutt (0.0.0.0/0 eller ::/0) i huvudruttabellen. Flaggan \"även-utan-default-route\" (0x8) kan åsidosätta det. När MPTCP-hantering är aktiverad konfigureras slutpunkter med de angivna adressflaggorna \"signal\" (0x10), \"subflow\" (0x20), \"backup\" (0x40), \"fullmesh\" (0x80). Se ip-mptcp(8) manual för ytterligare information om flaggorna. Om flaggorna är noll (0x0), uppfylls den globala anslutningsstandarden från NetworkManager.conf. Om den fortfarande är ospecificerad är reservfunktionen \"enabled,subflow\". Observera att detta betyder att MPTCP görs som standard beroende på \"/proc/sys/net/mptcp/enabled\" sysctl. NetworkManager ändrar inte MPTCP-gränserna eller aktiverar MPTCP via \"/proc/sys/net/mptcp/enabled\". Det är en värdkonfiguration som administratören kan ändra via sysctl och ip-mptcp. Strikt omvänd sökvägsfiltrering (rp_filter) bryter många MPTCP-användningsfall, så när MPTCP-hantering för IPv4-adresser på gränssnittet är aktiverad, skulle NetworkManager lossa den strikta omvända sökvägsfiltreringen (1) till den lösa inställningen (2).",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/NetworkManager",
+        "line": 7022,
+        "ordinal": 1785,
+        "po": "po/locale-langpack/NetworkManager.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/NetworkManager.mo",
+        "mo_sha256": "3bc02cf7c74069829bc47da13ef18920fca8f3f5b52d34d6de28052014b0c2a1",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F037",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: nätverksanslutnngar",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/app-install-data",
+      "ordinal": 1611,
+      "line": 4845,
+      "msgctxt": null,
+      "msgid": "Edit your network connections",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Redigera dina nätverksanslutnngar"
+    },
+    "proposal": "Redigera dina nätverksanslutningar",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/app-install-data",
+        "line": 4845,
+        "ordinal": 1611,
+        "po": "po/locale-langpack/app-install-data.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/app-install-data.mo",
+        "mo_sha256": "33a61367b3b6f88d7bc58c9fb806b754f665d3f5346c192d0d0abffe470564bd",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F038",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: Allmänn",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/app-install-data",
+      "ordinal": 5181,
+      "line": 15555,
+      "msgctxt": null,
+      "msgid": "Universal karaoke songs and movies player",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Allmänn uppspelare av karaokelåtar och -filmer"
+    },
+    "proposal": "Allmän uppspelare av karaokelåtar och -filmer",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/app-install-data",
+        "line": 15555,
+        "ordinal": 5181,
+        "po": "po/locale-langpack/app-install-data.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/app-install-data.mo",
+        "mo_sha256": "33a61367b3b6f88d7bc58c9fb806b754f665d3f5346c192d0d0abffe470564bd",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F039",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: tidspunkt",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/ubiquity-debconf",
+      "ordinal": 266,
+      "line": 810,
+      "msgctxt": null,
+      "msgid": "This may be due to using an old installer image, or it may be due to a bug in some of the packages listed above. More details may be found in /var/log/syslog. The installer will try to continue anyway, but may fail at a later point, and will not be able to install or remove other packages (possibly including itself) from the installed system. You should first look for newer versions of your installer image, or failing that report the problem to your distributor.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Det här kan bero på användningen av en gammal installationsavbild, eller det kan bero på ett fel i några av de paket som listas ovan. Mer information kan hittas i filen /var/log/syslog. Installationsprogrammet kommer att försöka fortsätta ändå men kan misslyckas vid en senare tidspunkt, och kommer inte kunna installera eller ta bort andra paket (kanske även sig själv) från det installerade systemet. Du bör först leta efter nyare versioner av din installationsavbild, eller rapportera misslyckandet till din leverantör."
+    },
+    "proposal": "Det här kan bero på användningen av en gammal installationsavbild, eller det kan bero på ett fel i några av de paket som listas ovan. Mer information kan hittas i filen /var/log/syslog. Installationsprogrammet kommer att försöka fortsätta ändå men kan misslyckas vid en senare tidpunkt, och kommer inte kunna installera eller ta bort andra paket (kanske även sig själv) från det installerade systemet. Du bör först leta efter nyare versioner av din installationsavbild, eller rapportera misslyckandet till din leverantör.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/ubiquity-debconf",
+        "line": 810,
+        "ordinal": 266,
+        "po": "po/locale-langpack/ubiquity-debconf.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/ubiquity-debconf.mo",
+        "mo_sha256": "d47901b437da226a889a7920fdb86d6a2af0181e0fe36f86cd486e17a3e7d43e",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F040",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: körnng",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/dpkg-dev",
+      "ordinal": 107,
+      "line": 949,
+      "msgctxt": null,
+      "msgid": "Options:\n  -l<library-path>         add directory to private shared library search list.\n  -p<package>              generate symbols file for package.\n  -P<package-build-dir>    temporary build directory instead of debian/tmp.\n  -e<library>              explicitly list libraries to scan.\n  -v<version>              version of the packages (defaults to\n                           version extracted from debian/changelog).\n  -c<level>                compare generated symbols file with the reference\n                           template in the debian directory and fail if\n                           difference is too important; level goes from 0 for\n                           no check, to 4 for all checks (default level is 1).\n  -q                       keep quiet and never emit any warnings or\n                           generate a diff between generated symbols\n                           file and the reference template.\n  -I<file>                 force usage of <file> as reference symbols\n                           file instead of the default file.\n  -O[<file>]               write to stdout (or <file>), not .../DEBIAN/symbols.\n  -t                       write in template mode (tags are not\n                           processed and included in output).\n  -V                       verbose output; write deprecated symbols and pattern\n                           matching symbols as comments (in template mode only).\n  -a<arch>                 assume <arch> as host architecture when processing\n                           symbol files.\n  -d                       display debug information during work.\n  -?, --help               show this help message.\n      --version            show the version.\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Flaggor:\n  -l<bibliotekssökväg>     lägg till katalog till privat söklista för delade bibliotek.\n  -p<paket>                skapar symbolfil för paket.\n  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.\n  -e<bibliotek>            explicit lista över bibliotek att söka i.\n  -v<version>              version på paketet (förval är versionen\n                           som utläses ur debian/changelog).\n  -c<nivå>                 jämför genererade symbolfiler med referensfilen\n                           i katalogen ”debian” och misslyckas om skillnaderna\n                           är för stora; nivå går från 0 för ingen test, till\n                           4 för alla tester (förvald nivå är 1).\n  -q                       var tyst och skriv aldrig ut några varningar eller\n                           generera en diff mellan genererad symbolfil och\n                           referensfilen.\n  -I<fil>                  tvinga användning av <fil> som symbolreferensfil\n                           istället för standardfilen.\n  -O[<fil>]                skriv till standard ut/<fil>, inte .../DEBIAN/symbols.\n  -t                       skriv i malläge (taggar behandlas inte och\n                           tas med i utdata).\n  -V                       pratsam utdata; skriv föråldrade symboler och\n                           mönster som motsvarar symboler som kommentarer\n                           (endast i mall-läget).\n  -a<ark>                  förutsätt <ark> som värdarkitektur vid behandling\n                           av symbofilen.\n  -d                       visa felsökningsinformation under körnng.\n  -?, --help               visa detta hjälpmeddelande.\n      --version            visa versionsnummer.\n"
+    },
+    "proposal": "Flaggor:\n  -l<bibliotekssökväg>     lägg till katalog till privat söklista för delade bibliotek.\n  -p<paket>                skapar symbolfil för paket.\n  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.\n  -e<bibliotek>            explicit lista över bibliotek att söka i.\n  -v<version>              version på paketet (förval är versionen\n                           som utläses ur debian/changelog).\n  -c<nivå>                 jämför genererade symbolfiler med referensfilen\n                           i katalogen ”debian” och misslyckas om skillnaderna\n                           är för stora; nivå går från 0 för ingen test, till\n                           4 för alla tester (förvald nivå är 1).\n  -q                       var tyst och skriv aldrig ut några varningar eller\n                           generera en diff mellan genererad symbolfil och\n                           referensfilen.\n  -I<fil>                  tvinga användning av <fil> som symbolreferensfil\n                           istället för standardfilen.\n  -O[<fil>]                skriv till standard ut/<fil>, inte .../DEBIAN/symbols.\n  -t                       skriv i malläge (taggar behandlas inte och\n                           tas med i utdata).\n  -V                       pratsam utdata; skriv föråldrade symboler och\n                           mönster som motsvarar symboler som kommentarer\n                           (endast i mall-läget).\n  -a<ark>                  förutsätt <ark> som värdarkitektur vid behandling\n                           av symbofilen.\n  -d                       visa felsökningsinformation under körning.\n  -?, --help               visa detta hjälpmeddelande.\n      --version            visa versionsnummer.\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/dpkg-dev",
+        "line": 949,
+        "ordinal": 107,
+        "po": "po/locale-langpack/dpkg-dev.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg-dev.mo",
+        "mo_sha256": "ef7e2e23b3f04f746d73e359f1739291e9d238b9bde20ca184bf6938e5e1ec12",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F041",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: klasss",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/dpkg-dev",
+      "ordinal": 267,
+      "line": 1649,
+      "msgctxt": null,
+      "msgid": "changelog format %s is not a Dpkg::Changelog class",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "ändringsloggformatet %s är inte en Dpkg::Changelog-klasss"
+    },
+    "proposal": "ändringsloggformatet %s är inte en Dpkg::Changelog-klass",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/dpkg-dev",
+        "line": 1649,
+        "ordinal": 267,
+        "po": "po/locale-langpack/dpkg-dev.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg-dev.mo",
+        "mo_sha256": "ef7e2e23b3f04f746d73e359f1739291e9d238b9bde20ca184bf6938e5e1ec12",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F042",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: tilllåter",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/glance",
+      "ordinal": 462,
+      "line": 1398,
+      "msgctxt": null,
+      "msgid": "Some resource types allow more than one key / value pair per instance.  For example, Cinder allows user and image metadata on volumes. Only the image properties metadata is evaluated by Nova (scheduling or drivers). This property allows a namespace target to remove the ambiguity.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Vissa resurstyper tillåter fler än ett nyckel-/värdepar per instans. Till exempel Cinder tilllåter användar- och bildmetadata på volymer. Bara bildegenskapers metadata utvärderas av Nova (schemaläggning eller drivrutiner). Denna egenskap tillåter en namnrymd att ta bort tvetydigheten."
+    },
+    "proposal": "Vissa resurstyper tillåter fler än ett nyckel-/värdepar per instans. Till exempel Cinder tillåter användar- och bildmetadata på volymer. Bara bildegenskapers metadata utvärderas av Nova (schemaläggning eller drivrutiner). Denna egenskap tillåter en namnrymd att ta bort tvetydigheten.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/glance",
+        "line": 1398,
+        "ordinal": 462,
+        "po": "po/locale-langpack/glance.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/glance.mo",
+        "mo_sha256": "6bc43467f30d508b3e781735c615aae6499b1c05e3feac2b78fc985afc6ec41b",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F043",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: öpppna",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/mutt",
+      "ordinal": 394,
+      "line": 1298,
+      "msgctxt": null,
+      "msgid": "Failure to open file to parse headers.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Misslyckades med att öpppna fil för att tolka huvuden."
+    },
+    "proposal": "Misslyckades med att öppna fil för att tolka huvuden.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/mutt",
+        "line": 1298,
+        "ordinal": 394,
+        "po": "po/locale-langpack/mutt.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/mutt.mo",
+        "mo_sha256": "f45c974a1235db24bd24712a3c025c93c27ded752417b709a8ef203d52521e1a",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F044",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: Tilllåt",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/unity-control-center",
+      "ordinal": 102,
+      "line": 343,
+      "msgctxt": null,
+      "msgid": "Allow different sources for each window",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Tilllåt olika källor för var fönster"
+    },
+    "proposal": "Tillåt olika källor för var fönster",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/unity-control-center",
+        "line": 343,
+        "ordinal": 102,
+        "po": "po/locale-langpack/unity-control-center.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity-control-center.mo",
+        "mo_sha256": "65060dc7ec93bcb037333d3c9fbc5b87d0b00e3112513c7aba96f6b536feafe8",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F045",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: Tilllåt",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/unity-control-center",
+      "ordinal": 104,
+      "line": 349,
+      "msgctxt": null,
+      "msgid": "Allow louder than 100% (may distort sound)",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Tilllåt högre än 100% (kan förvränga ljudet)"
+    },
+    "proposal": "Tillåt högre än 100% (kan förvränga ljudet)",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/unity-control-center",
+        "line": 349,
+        "ordinal": 104,
+        "po": "po/locale-langpack/unity-control-center.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity-control-center.mo",
+        "mo_sha256": "65060dc7ec93bcb037333d3c9fbc5b87d0b00e3112513c7aba96f6b536feafe8",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F046",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: Tilllåter",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/unity",
+      "ordinal": 23,
+      "line": 81,
+      "msgctxt": null,
+      "msgid": "Allows using the mouse scrollwheel to focus an application if the icon is inactive.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Tilllåter musens rullhjul att sätta ett program i fokus om ikonen är inaktiv."
+    },
+    "proposal": "Tillåter musens rullhjul att sätta ett program i fokus om ikonen är inaktiv.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/unity",
+        "line": 81,
+        "ordinal": 23,
+        "po": "po/locale-langpack/unity.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity.mo",
+        "mo_sha256": "83bc2eb6735a5a2c62d2f571125cfaf2a0206a49a84b6fffbbbdc0cbc94ea360",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F047",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: Skugggfärg",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/unity",
+      "ordinal": 264,
+      "line": 814,
+      "msgctxt": null,
+      "msgid": "The color of the shadows for the inactive windows.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Skugggfärg på de inaktiva fönstren."
+    },
+    "proposal": "Skuggfärg på de inaktiva fönstren.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/unity",
+        "line": 814,
+        "ordinal": 264,
+        "po": "po/locale-langpack/unity.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/unity.mo",
+        "mo_sha256": "83bc2eb6735a5a2c62d2f571125cfaf2a0206a49a84b6fffbbbdc0cbc94ea360",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F048",
+    "severity": "P3",
+    "category": "Stavning",
+    "title": "Stavfel: kommmer",
+    "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+    "entry": {
+      "catalog": "locale-langpack/xz-man",
+      "ordinal": 369,
+      "line": 1120,
+      "msgctxt": null,
+      "msgid": "Future versions may add new line types and new columns can be added to the existing line types, but the existing columns won't be changed.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Framtida versioner kan lägga till fler radtyper och fler kolumner kan läggas til på de befintliga radtyperna, men de befintliga kolumnerna kommmer inte ändras."
+    },
+    "proposal": "Framtida versioner kan lägga till fler radtyper och fler kolumner kan läggas til på de befintliga radtyperna, men de befintliga kolumnerna kommer inte ändras.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/xz-man",
+        "line": 1120,
+        "ordinal": 369,
+        "po": "po/locale-langpack/xz-man.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/xz-man.mo",
+        "mo_sha256": "12550acac34705da61a9567f3942899bf18874e40130013ea833ac970772081b",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F049",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: därför därför",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale/OpenSP",
+      "ordinal": 212,
+      "line": 646,
+      "msgctxt": null,
+      "msgid": "character %1 is not significant in the reference concrete syntax and so cannot occur in a comment in the SGML declaration",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "tecknet %1 är ej signifikant i den konkreta referenssyntaxen och får därför därför ej förekomma i en kommentar i SGML-deklarationen"
+    },
+    "proposal": "tecknet %1 är ej signifikant i den konkreta referenssyntaxen och får därför ej förekomma i en kommentar i SGML-deklarationen",
+    "occurrences": [
+      {
+        "catalog": "locale/OpenSP",
+        "line": 646,
+        "ordinal": 212,
+        "po": "po/locale/OpenSP.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+        "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F050",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: men men",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale/dpkg",
+      "ordinal": 25,
+      "line": 133,
+      "msgctxt": null,
+      "msgid": "  %s provides %s but is %s.\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "%s tillhandahåller %s men men är %s.\n"
+    },
+    "proposal": "%s tillhandahåller %s men är %s.\n",
+    "occurrences": [
+      {
+        "catalog": "locale/dpkg",
+        "line": 133,
+        "ordinal": 25,
+        "po": "po/locale/dpkg.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/dpkg.mo",
+        "mo_sha256": "d5addadc6827c96637e1be4b596837070b47ba6787f79a53f05810f22971a5f7",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F051",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: för för",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale/dpkg",
+      "ordinal": 525,
+      "line": 2424,
+      "msgctxt": null,
+      "msgid": "cannot set security execution context for maintainer script",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "kan inte sätta säkerhetsexekveringssammanhang för för utvecklarskript"
+    },
+    "proposal": "kan inte sätta säkerhetsexekveringssammanhang för utvecklarskript",
+    "occurrences": [
+      {
+        "catalog": "locale/dpkg",
+        "line": 2424,
+        "ordinal": 525,
+        "po": "po/locale/dpkg.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/dpkg.mo",
+        "mo_sha256": "d5addadc6827c96637e1be4b596837070b47ba6787f79a53f05810f22971a5f7",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F052",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: dina dina",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale/gnome-builder",
+      "ordinal": 946,
+      "line": 2868,
+      "msgctxt": null,
+      "msgid": "Quickly access your projects",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Kom snabbt åt dina dina projekt"
+    },
+    "proposal": "Kom snabbt åt dina projekt",
+    "occurrences": [
+      {
+        "catalog": "locale/gnome-builder",
+        "line": 2868,
+        "ordinal": 946,
+        "po": "po/locale/gnome-builder.po",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/gnome-builder.mo",
+        "mo_sha256": "7ddbd4355f86053ba38840ca8f51141a4be8715c37a07bcb44bcfa4a47086d0c",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F053",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: relative tider till till",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale-langpack/snappy",
+      "ordinal": 306,
+      "line": 2749,
+      "msgctxt": null,
+      "msgid": "Display absolute times (in RFC 3339 format). Otherwise, display relative times up to 60 days, then YYYY-MM-DD.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Visa absoluta tider (i formatet RFC 3339). Visa annars relative tider till till 60 dagar, sedan ÅÅÅÅ-MM-DD."
+    },
+    "proposal": "Visa absoluta tider (i formatet RFC 3339). Visa annars relativa tider upp till 60 dagar, sedan ÅÅÅÅ-MM-DD.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/snappy",
+        "line": 2749,
+        "ordinal": 306,
+        "po": "po/locale-langpack/snappy.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/snappy.mo",
+        "mo_sha256": "0687425c7898f10df515deee9f5ec655caab0eecb85cae691f7415ce9090e607",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F054",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: ignoreras ignoreras",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale-langpack/xfsprogs",
+      "ordinal": 909,
+      "line": 5717,
+      "msgctxt": null,
+      "msgid": "ALERT: The filesystem has valuable metadata changes in a log which is being\nignored because the -n option was used.  Expect spurious inconsistencies\nwhich may be resolved by first mounting the filesystem to replay the log.\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "VARNING: Filsystemet har värdefulla metadataändringar i en logg som ignoreras\nignoreras eftersom flaggan -n användes.  Förvänta dig falska inkonsekvenser\nsom kan lösas genom att först montera filsystemet för att spela upp loggen igen.\n"
+    },
+    "proposal": "VARNING: Filsystemet har värdefulla metadataändringar i en logg som ignoreras eftersom flaggan -n användes.  Förvänta dig falska inkonsekvenser\nsom kan lösas genom att först montera filsystemet för att spela upp loggen igen.\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/xfsprogs",
+        "line": 5717,
+        "ordinal": 909,
+        "po": "po/locale-langpack/xfsprogs.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/xfsprogs.mo",
+        "mo_sha256": "9a36e26b57590629d12dddf8942f0c22a835ccde5f4b2b10a22a7fcb62b05624",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F055",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: filsystemet filsystemet",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale-langpack/xfsprogs",
+      "ordinal": 1107,
+      "line": 6391,
+      "msgctxt": null,
+      "msgid": "ERROR: The log head and/or tail cannot be discovered. Attempt to mount the\nfilesystem to replay the log or use the -L option to destroy the log and\nattempt a repair.\n",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "FEL: Loggens huvud och/eller svans kan inte hittas. Försök att montera filsystemet\nfilsystemet för att spela upp loggen igen eller använd flaggan -L för att förstöra loggen och\nförsöka reparera den.\n"
+    },
+    "proposal": "FEL: Loggens huvud och/eller svans kan inte hittas. Försök att montera filsystemet för att spela upp loggen igen eller använd flaggan -L för att förstöra loggen och\nförsöka reparera den.\n",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/xfsprogs",
+        "line": 6391,
+        "ordinal": 1107,
+        "po": "po/locale-langpack/xfsprogs.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/xfsprogs.mo",
+        "mo_sha256": "9a36e26b57590629d12dddf8942f0c22a835ccde5f4b2b10a22a7fcb62b05624",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F056",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: 1 beta beta",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale-langpack/xz-man",
+      "ordinal": 546,
+      "line": 1651,
+      "msgctxt": null,
+      "msgid": "Stability.  0 is alpha, 1 is beta, and 2 is stable.  I<S> should be always 2 when I<YYY> is even.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Stabilitet.  0 är alfa, 1 beta beta och 2 är stabil. I<S> skall alltid vara 2 när I<YYY> är jämnt."
+    },
+    "proposal": "Stabilitet.  0 är alfa, 1 är beta och 2 är stabil. I<S> skall alltid vara 2 när I<YYY> är jämnt.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/xz-man",
+        "line": 1651,
+        "ordinal": 546,
+        "po": "po/locale-langpack/xz-man.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/xz-man.mo",
+        "mo_sha256": "12550acac34705da61a9567f3942899bf18874e40130013ea833ac970772081b",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  },
+  {
+    "id": "F057",
+    "severity": "P3",
+    "category": "Språk",
+    "title": "Felaktig upprepning: med med",
+    "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+    "entry": {
+      "catalog": "locale-langpack/xz-man",
+      "ordinal": 608,
+      "line": 1837,
+      "msgctxt": null,
+      "msgid": "These are like B<-6> but with higher compressor and decompressor memory requirements.  These are useful only when compressing files bigger than 8\\ MiB, 16\\ MiB, and 32\\ MiB, respectively.",
+      "msgid_plural": "",
+      "plural_index": null,
+      "msgstr": "Dessa liknar B<-6> med med högre krav på minne till komprimerare och dekomprimerare. Dessa är bara användbara vid komprimering av filer större än 8\\ MiB, 16\\ MiB respektive 32\\ MiB."
+    },
+    "proposal": "Dessa liknar B<-6> men med högre krav på minne till komprimerare och dekomprimerare. Dessa är bara användbara vid komprimering av filer större än 8\\ MiB, 16\\ MiB respektive 32\\ MiB.",
+    "occurrences": [
+      {
+        "catalog": "locale-langpack/xz-man",
+        "line": 1837,
+        "ordinal": 608,
+        "po": "po/locale-langpack/xz-man.po",
+        "mo": "/usr/share/locale-langpack/sv/LC_MESSAGES/xz-man.mo",
+        "mo_sha256": "12550acac34705da61a9567f3942899bf18874e40130013ea833ac970772081b",
+        "alias": false
+      }
+    ],
+    "validation": "Individuellt jämförd med källtext och dekompilerad PO-post."
+  }
+]

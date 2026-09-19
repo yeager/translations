@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/dpkg",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/dpkg.po",
+    "original_po": "original/locale-langpack/dpkg.po",
+    "diff": "diff/locale-langpack/dpkg.po.diff",
+    "report": "reports/locale-langpack/dpkg.md",
+    "metadata": "metadata/locale-langpack/dpkg.json",
+    "validation": "validation/locale-langpack/dpkg.json"
+  },
+  "upstream": {
+    "project": "dpkg",
+    "project_url": "https://wiki.debian.org/Teams/Dpkg",
+    "repository_url": null,
+    "ubuntu_source_package": "dpkg",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/dpkg",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "dpkg",
+        "Version": "1.23.7ubuntu1",
+        "Homepage": "https://wiki.debian.org/Teams/Dpkg"
+      },
+      "po_project_id": "dpkg 1.23.7",
+      "po_bug_report_address": "debian-dpkg@lists.debian.org"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg.mo",
+    "mo_sha256": "d18722803ce8a1f6283f4e01d8f6fa5e2dace867463dadd6e1265476aeae7bbb",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/dpkg.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "dpkg 1.23.7",
+      "Report-Msgid-Bugs-To": "debian-dpkg@lists.debian.org",
+      "PO-Revision-Date": "2026-04-03 14:41+0000",
+      "Last-Translator": "Peter Krefting <peter@softwolves.pp.se>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Launchpad-Export-Date": "2026-08-18 15:30+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "43f92b7593e6b1b4cf964468d0f178488f973ab6250790a5fbd6c44aa9864283",
+    "corrected_po": "47fa14c3351d735598e4c726b599f47f68750be1ad0a6db14b7a983f74c087ff",
+    "diff": "d807a9e6f6a98e4f571fce0d9b2c9a6e2fba7b51b49720ab42588dd8167d3070"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P2": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F012",
+        "severity": "P2",
+        "title": "Översättningen lägger till ett obefintligt argument",
+        "reason": "Originalet innehåller ingen %s. Översättningen har kvar en platshållare och ett prefix som saknar motsvarighet i källtexten.",
+        "original_line": 3433,
+        "msgctxt": null,
+        "msgid": "need a pathname argument",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "--%s behöver ett sökvägsnamnargument",
+        "after": "behöver ett sökvägsargument",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 3433
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 118,
+    "lint_after": 117,
+    "svlang_before": 3,
+    "svlang_after": 3,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: dpkg 1.23.7\nReport-Msgid-Bugs-To: debian-dpkg@lists.debian.org\nPO-Revision-Date: 2026-04-03 14:41+0000\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:30+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: dpkg 1.23.7\nReport-Msgid-Bugs-To: debian-dpkg@lists.debian.org\nPO-Revision-Date: 2026-04-03 14:41+0000\nLast-Translator: Peter Krefting <peter@softwolves.pp.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Launchpad-Export-Date: 2026-08-18 15:30+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

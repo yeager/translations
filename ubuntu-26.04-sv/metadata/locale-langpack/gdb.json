@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/gdb",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/gdb.po",
+    "original_po": "original/locale-langpack/gdb.po",
+    "diff": "diff/locale-langpack/gdb.po.diff",
+    "report": "reports/locale-langpack/gdb.md",
+    "metadata": "metadata/locale-langpack/gdb.json",
+    "validation": "validation/locale-langpack/gdb.json"
+  },
+  "upstream": {
+    "project": "GNU GDB",
+    "project_url": "https://sourceware.org/gdb/",
+    "repository_url": null,
+    "ubuntu_source_package": "gdb",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/gdb",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "gdb",
+        "Version": "17.1-2ubuntu1",
+        "Homepage": "https://www.gnu.org/s/gdb/"
+      },
+      "po_project_id": "crash",
+      "po_bug_report_address": "FULL NAME <EMAIL@ADDRESS>"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/gdb.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/gdb.mo",
+    "mo_sha256": "d379de878048ca7405376e89be478071dac10557c03544303aa352f9c812d229",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/gdb.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "crash",
+      "Report-Msgid-Bugs-To": "FULL NAME <EMAIL@ADDRESS>",
+      "PO-Revision-Date": "2025-11-12 17:39+0000",
+      "Last-Translator": "Daniel Nylander <daniel@danielnylander.se>",
+      "Language-Team": "Swedish <sv@li.org>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 16:05+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "4ad396caa03930b71d70e3e95f3156c6a83850656a52cdda32f118fd28982cbc",
+    "corrected_po": "db8e03e7fb74121b0120782bc218dd4e2cff438d97f44ceadd1d7624f77797aa",
+    "diff": "6e6d244d896b4d26bab82c2d74df0688225fa03d9f33756f7587eb6a766ef40b"
+  },
+  "report": {
+    "changed_translations": 3,
+    "priorities": {
+      "P1": 1,
+      "P2": 2
+    },
+    "findings": [
+      {
+        "finding_id": "F003",
+        "severity": "P1",
+        "title": "Två trasiga tidsformat",
+        "reason": "Båda %06ld har trunkerats till %06. Formatkontraktet och återgivningen av tidsvärden går förlorade.",
+        "original_line": 14147,
+        "msgctxt": null,
+        "msgid": "Trace started at %ld.%06ld secs, stopped %ld.%06ld secs later.\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Spårningen startade vid %ld.%06 sekunder och avslutades %ld.%06 sekunder senare\n",
+        "after": "Spårningen startade vid %ld.%06ld sekunder och avslutades %ld.%06ld sekunder senare\n",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: 'msgstr' is not a valid C format string, unlike 'msgid'. Reason: In the directive number 2, the character ' ' is not a valid conversion specifier.\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 14148
+      },
+      {
+        "finding_id": "F019",
+        "severity": "P2",
+        "title": "Skiftlägesinställningen ersätts med ett fast påstående",
+        "reason": "Originalet återger inställningen via %s. Översättningen säger alltid att sökningen inte är skiftlägeskänslig.",
+        "original_line": 3188,
+        "msgctxt": null,
+        "msgid": "Case sensitivity in name search is \"%s\".\n",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Namnsökningen är inte skiftlägeskänslig\n",
+        "after": "Namnsökningens skiftlägeskänslighet är ”%s”.\n",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 3188
+      },
+      {
+        "finding_id": "F020",
+        "severity": "P2",
+        "title": "&s används i stället för %s",
+        "reason": "Sektionens namn försvinner eftersom procenttecknet har blivit &.",
+        "original_line": 9950,
+        "msgctxt": null,
+        "msgid": "Section %s not found",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Kapitel &s hittades inte",
+        "after": "Sektionen %s hittades inte",
+        "format_validation": {
+          "synthetic_flag": "c-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: number of format specifications in 'msgid' and 'msgstr' does not match\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 9951
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 2261,
+    "lint_after": 2256,
+    "svlang_before": 8,
+    "svlang_after": 8,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: crash\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2025-11-12 17:39+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:05+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: crash\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2025-11-12 17:39+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:05+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

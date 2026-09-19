@@ -1,0 +1,64 @@
+{
+  "files_checked": 1,
+  "entries_checked": 695,
+  "errors": 1,
+  "warnings": 4,
+  "issues": [
+    {
+      "file": "outputs/locale-granskning/po/locale-langpack/glance.po",
+      "line": 93,
+      "severity": "warning",
+      "rule": "inconsistent-punctuation",
+      "message": "Missing ending punctuation (source ends with '.')",
+      "context": "A metadata tag with name=%(name)s already exists i"
+    },
+    {
+      "file": "outputs/locale-granskning/po/locale-langpack/glance.po",
+      "line": 93,
+      "severity": "warning",
+      "rule": "end-stop-mismatch",
+      "message": "Source ends with period but translation does not",
+      "context": "A metadata tag with name=%(name)s already exists i"
+    },
+    {
+      "file": "outputs/locale-granskning/po/locale-langpack/glance.po",
+      "line": 138,
+      "severity": "info",
+      "rule": "source-equals-translation",
+      "message": "Translation is identical to source (possibly untranslated)",
+      "context": "An image self url"
+    },
+    {
+      "file": "outputs/locale-granskning/po/locale-langpack/glance.po",
+      "line": 960,
+      "severity": "info",
+      "rule": "numeric-mismatch",
+      "message": "Numbers {'2'} from source missing in translation",
+      "context": "Json path should start with a '/', end with no '/'"
+    },
+    {
+      "file": "outputs/locale-granskning/po/locale-langpack/glance.po",
+      "line": 1398,
+      "severity": "warning",
+      "rule": "typo",
+      "message": "Possible typo(s): tilllåter",
+      "context": "Some resource types allow more than one key / valu"
+    },
+    {
+      "file": "outputs/locale-granskning/po/locale-langpack/glance.po",
+      "line": 1473,
+      "severity": "error",
+      "rule": "placeholder-mismatch",
+      "message": "Placeholder mismatch (printf): source has [(('image_id', 's'), 1), (('task_id', 's'), 1)], translation has [(('task_id', 's'), 1)]",
+      "context": "The Image %(image_id)s object being created by this task %(task_id)s, is no longer in valid status for further processing."
+    },
+    {
+      "file": "outputs/locale-granskning/po/locale-langpack/glance.po",
+      "line": 1800,
+      "severity": "warning",
+      "rule": "url-preservation",
+      "message": "URLs missing in translation: ['http://authurl.com/v1/container/obj,', 'http://user:pass@authurl.com/v1/container/obj']",
+      "context": "URI cannot contain more than one occurrence of a s"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/slideshow-ubuntu-mate",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/slideshow-ubuntu-mate.po",
+    "original_po": "original/locale-langpack/slideshow-ubuntu-mate.po",
+    "diff": "diff/locale-langpack/slideshow-ubuntu-mate.po.diff",
+    "report": "reports/locale-langpack/slideshow-ubuntu-mate.md",
+    "metadata": "metadata/locale-langpack/slideshow-ubuntu-mate.json",
+    "validation": "validation/locale-langpack/slideshow-ubuntu-mate.json"
+  },
+  "upstream": {
+    "project": "Ubiquity slideshow",
+    "project_url": "https://launchpad.net/ubiquity-slideshow-ubuntu",
+    "repository_url": null,
+    "ubuntu_source_package": "ubiquity-slideshow-ubuntu",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/ubiquity-slideshow-ubuntu",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "ubiquity-slideshow-ubuntu-mate",
+        "Source": "ubiquity-slideshow-ubuntu",
+        "Version": "203build1",
+        "Homepage": "https://launchpad.net/ubiquity-slideshow-ubuntu"
+      },
+      "po_project_id": "ubiquity-slideshow-ubuntu",
+      "po_bug_report_address": "FULL NAME <EMAIL@ADDRESS>"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/slideshow-ubuntu-mate.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/slideshow-ubuntu-mate.mo",
+    "mo_sha256": "4872ca7e1fed9f2fd30e6435f0b2edb5ac208bb2d7e6c32823263343f6241d74",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/slideshow-ubuntu-mate.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "ubiquity-slideshow-ubuntu",
+      "Report-Msgid-Bugs-To": "FULL NAME <EMAIL@ADDRESS>",
+      "PO-Revision-Date": "2021-07-07 04:41+0000",
+      "Last-Translator": "Arve Eriksson <Unknown>",
+      "Language-Team": "Swedish <sv@li.org>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 16:55+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)"
+    }
+  },
+  "sha256": {
+    "original_po": "6b3d9d20d2eeca458209cf5fbf3f99d6cda81a5bad8a075478b30b6d1e680efa",
+    "corrected_po": "67ed02728f15c31f14898f0335f83a5b23f28921d663dc91a6e2a6fb9d6df448",
+    "diff": "8eca3ffad1586450cd5a2b667ffdae50208e8a04011e175a2576b42645359914"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P2": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F027",
+        "severity": "P2",
+        "title": "Netflix får fel avslutningstagg",
+        "reason": "</string> ska vara </strong>. Samma fel finns i OEM-bildspelet.",
+        "original_line": 164,
+        "msgctxt": null,
+        "msgid": "Ubuntu MATE comes with <strong>Firefox</strong> pre-installed and <strong>Google Chrome</strong> is in the Software Boutique so you can watch content from your favourite streaming services such as <strong>Netflix</strong> and <strong>YouTube</strong>.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</string> och <strong>YouTube</strong>.",
+        "after": "Ubuntu MATE har <strong>Firefox</strong> förinstallerat, och <strong>Google Chrome</strong> finns i Programbutiken så att du kan titta på innehåll från dina favorit-streaming-tjänster, såsom <strong>Netflix</strong> och <strong>YouTube</strong>.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 164
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 2,
+    "lint_after": 0,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "outputs/ubuntu-26.04-sv/po/locale-langpack/slideshow-ubuntu-mate.po:2: warning: header field 'Language' missing in header\n"
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: ubiquity-slideshow-ubuntu\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2021-07-07 04:41+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:55+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\n",
+      "corrected": "Project-Id-Version: ubiquity-slideshow-ubuntu\nReport-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\nPO-Revision-Date: 2021-07-07 04:41+0000\nLast-Translator: Arve Eriksson <Unknown>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:55+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

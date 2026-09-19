@@ -1,0 +1,3000 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dpkg-dev 1.23.7\n"
+"Report-Msgid-Bugs-To: debian-dpkg@lists.debian.org\n"
+"PO-Revision-Date: 2026-03-13 06:27+0000\n"
+"Last-Translator: Peter Krefting <peter@softwolves.pp.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2026-08-18 15:31+0000\n"
+"X-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\n"
+"Language: sv\n"
+
+msgid ""
+"\n"
+"Options:\n"
+"  -a, --no-architecture    no architecture part in filename.\n"
+"  -o, --overwrite          overwrite if file exists.\n"
+"  -k, --symlink            do not create a new file, but a symlink.\n"
+"  -s, --subdir [dir]       move file into subdirectory (use with care).\n"
+"  -c, --create-dir         create target directory if not there (use with care).\n"
+"  -?, --help               show this help message.\n"
+"  -v, --version            show the version.\n"
+"\n"
+"file.deb changes to <package>_<version>_<architecture>.<package_type>\n"
+"according to the 'underscores convention'.\n"
+msgstr ""
+"\n"
+"Flaggor:\n"
+"  -a, --no-architecture    ingen arkitekturdel i filnamn.\n"
+"  -o, --overwrite          skriv över om fil finns.\n"
+"  -k, --symlink            skapa symbolisk länk, inte ny fil.\n"
+"  -s, --subdir [kat]       flytta fil till underkatalog (visa varsamhet).\n"
+"  -c, --create-dir         skapa målkatalog om den inte finns (visa varsamhet).\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"  -v, --version            visa versionsnummer.\n"
+"\n"
+"fil.deb ändras till <paket>_<version>_<arkitektur>.<pakettyp>\n"
+"enligt ”understreckskonventionen”.\n"
+
+msgid ""
+"\n"
+"This is free software; see the GNU General Public License version 2 or\n"
+"later for copying conditions. There is NO warranty.\n"
+msgstr ""
+"\n"
+"Detta program är fri programvara. Se GNU General Public License version 2\n"
+"eller senare för kopieringsvillkor. Det finns INGEN garanti.\n"
+
+msgid "  %s (package says %s, not %s)"
+msgstr "  %s (paketet säger %s, inte %s)"
+
+msgid "  new version is %s"
+msgstr "  ny version är %s"
+
+msgid "  old version is %s"
+msgstr "  gammal version är %s"
+
+msgid "  sq pki link authorize --cert FINGERPRINT --all --unconstrained"
+msgstr "  sq pki link authorize --cert FINGERAVTRYCK --all --unconstrained"
+
+msgid "$ORIGIN is used in RPATH of %s and the corresponding directory could not be identified due to lack of DEBIAN sub-directory in the root of package's build tree"
+msgstr "$ORIGIN används i RPATH för %s och motsvarande katalog kunde inte identifieras på grund av DEBIAN-underkatalogen saknas i roten av paketets byggträd"
+
+msgid "%d similar warning has been skipped (use -v to see it)"
+msgid_plural "%d other similar warnings have been skipped (use -v to see them all)"
+msgstr[0] "%d annan liknande varning har hoppats över (använd -v för att visa den)"
+msgstr[1] "%d andra liknande varningar har hoppats över (använd -v för att visa alla)"
+
+msgid "%s and %s fields are required to compute the source basename"
+msgstr "fälten %s och %s behövs för att beräkna basnamn för källkod"
+
+msgid "%s contains an insecure path: %s"
+msgstr "%s innehåller en osäker sökväg: %s"
+
+msgid "%s contains an unresolvable reference to symbol %s: it is probably a plugin"
+msgstr "%s innehåller en referens till symbolen %s som inte kan kopplas: det är troligen ett insticksprogram"
+
+msgid "%s did not complete in %d second"
+msgid_plural "%s did not complete in %d seconds"
+msgstr[0] "%s blev inte färdigt på %d sekund"
+msgstr[1] "%s blev inte färdigt på %d sekunder"
+
+msgid "%s does not contain a valid OpenPGP signature"
+msgstr "%s innehåller inte en giltig OpenPGP-signatur"
+
+msgid "%s does not contain any information about the source package"
+msgstr "%s innehåller inte någon information om källkodspaketet"
+
+msgid "%s does not exist"
+msgstr "%s finns inte"
+
+msgid "%s does not list any binary package"
+msgstr "%s räknar inte upp några binärpaket"
+
+msgid "%s does not match completely %s"
+msgstr "%s stämmer inte helt överens med %s"
+
+msgid "%s field contains both global and implementation specific keywords"
+msgstr "%s-fältet innehåller både globala och implementationsspecifika nyckelord"
+
+msgid "%s field contains the maintainer address"
+msgstr "fältet %s innehåller adress till ansvarig"
+
+msgid "%s field contains value '%s', but no tests control file %s"
+msgstr "Fältet %s innehåller värdet ”%s”, men ingen teststyrfil %s"
+
+msgid "%s field keyword \"%s\" is invalid; use \"%s\" instead"
+msgstr "%s-fältet nyckelord ”%s” är ogiltigt; använd ”%s” istället"
+
+msgid "%s field keyword \"%s\" is unknown"
+msgstr "%s-fältet nyckelord ”%s” är okänt"
+
+msgid "%s field keyword \"%s\" is unknown in dpkg namespace"
+msgstr "%s-fältet nyckelord ”%s” är okänt i dpkg-namnrymden"
+
+msgid "%s field keyword \"%s\" is uppercase; use \"%s\" instead"
+msgstr "%s-fältet nyckelord ”%s” har stora bokstäver; använd ”%s” istället"
+
+msgid "%s field of package %s: "
+msgstr "%s-fältet i paketet %s: "
+
+msgid "%s has an unexpected SONAME (%s)"
+msgstr "%s har ett oväntat SONAMN (%s)"
+
+msgid "%s is a symlink"
+msgstr "%s är en symbolisk länk"
+
+msgid "%s is a symlink to outside %s"
+msgstr "%s är en symbolisk till länk utanför %s"
+
+msgid "%s is deprecated; it is without effect"
+msgstr "%s rekommenderas ej; det har ingen effekt"
+
+msgid "%s is empty"
+msgstr "%s är tom"
+
+msgid "%s is not a compression level"
+msgstr "%s är inte en komprimeringsnivå"
+
+msgid "%s is not a plain file"
+msgstr "%s är inte en vanlig fil"
+
+msgid "%s is not a supported compression"
+msgstr "%s är inte en komprimering som stöds"
+
+msgid "%s is not a supported compression method"
+msgstr "%s är inte en komprimeringsmetod som stöds"
+
+msgid "%s is not a supported print format"
+msgstr "%s är inte ett utskriftsformat som stöds"
+
+msgid "%s is not a supported variable name"
+msgstr "%s är inte ett variabelnamn som stöds"
+
+msgid "%s is not a valid option for %s"
+msgstr "%s är inte en giltig flagga för %s"
+
+msgid "%s is not a valid version"
+msgstr "%s är inte en giltig version"
+
+msgid "%s is not executable; fixing that"
+msgstr "%s är inte exekverbar: rättar"
+
+msgid "%s is not the name of a file"
+msgstr "%s är inte namnet på en fil"
+
+msgid "%s needs a parameter"
+msgstr "%s behöver en parameter"
+
+msgid "%s package '%s' with udeb specific field %s"
+msgstr "%s-paket ”%s” med udeb-specifikt fält %s"
+
+msgid "%s should be a directory or non-existing"
+msgstr "%s borde vara en katalog eller inte finnas"
+
+msgid "%s should be a file or non-existing"
+msgstr "%s borde vara en fil eller inte finnas"
+
+msgid "%s should not be linked against %s (it uses none of the library's symbols)"
+msgstr "%s borde inte vara länkat mot %s (inga av symbolerna i biblioteket används)"
+
+msgid "%s subprocess failed with exit status %d"
+msgstr "underprocessen %s misslyckades med avslutningsstatus %d"
+
+msgid "%s subprocess failed with unknown status code %d"
+msgstr "underprocessen %s misslyckades med okänd felkod %d"
+
+msgid "%s subprocess was killed by signal %d"
+msgstr "underprocessen %s dödades av signal %d"
+
+msgid "%s(l%s): %s"
+msgstr "%s(l%s): %s"
+
+msgid ""
+"%s(l%s): %s\n"
+"LINE: %s"
+msgstr ""
+"%s(l%s): %s\n"
+"RAD: %s"
+
+msgid "'%s' is not a valid architecture in list '%s'"
+msgstr "”%s” är inte en giltig arkitektur i listan ”%s”"
+
+msgid "'%s' is not a valid architecture string in package '%s'"
+msgstr "”%s” är inte en giltig arkitektursträng i paketet ”%s”"
+
+msgid "'%s' is not a valid build profile restriction formula"
+msgstr "%s är inte en giltig formel för begränsning av byggprofiler"
+
+msgid "'%s' is not supported by the source format '%s'"
+msgstr "”%s” stöds inte av källkodsformatet ”%s”"
+
+msgid "'%s' option specifies non-existing version '%s'"
+msgstr "”%s”-flaggan anger en icke-existerande version ”%s”"
+
+msgid "'dpkg-deb -I %s control' exited with %d, skipping package"
+msgstr "”dpkg-deb -l %s control” avslutades med %d, hoppar över paket"
+
+msgid "'offset' without 'count' has no effect"
+msgstr "”offset” utan ”count” har ingen effekt"
+
+msgid "'since' option specifies most recent version '%s', ignoring"
+msgstr "”since”-flaggan anger den senaste versionen ”%s”, ignorerar"
+
+msgid "'until' option specifies oldest version '%s', ignoring"
+msgstr "”until”-flaggan anger den äldsta versionen ”%s”, ignorerar"
+
+msgid "--%s needs a directory"
+msgstr "--%s behöver en katalog"
+
+msgid "--%s needs at least one argument, the .dsc"
+msgstr "--%s behöver åtminstone ett argument, .dsc-filen"
+
+msgid "--%s needs the .dsc file as first argument, not a directory"
+msgstr "--%s måste ha .dsc-filen som första argument, inte en katalog"
+
+msgid "--%s takes no more than two arguments"
+msgstr "--%s tar maximalt två argument"
+
+msgid "--target-format option is missing"
+msgstr "flaggan --target-format saknas"
+
+msgid "-E and -W are deprecated, they are without effect"
+msgstr "-E och -W rekommenderas ej, de har ingen effekt"
+
+msgid "-L is obsolete; it is without effect"
+msgstr "-L är föråldrat; det har ingen effekt"
+
+msgid "-b takes at most a directory and an orig source argument (with v1.0 source package)"
+msgstr "-b tar som mest en katalog och en originalkällkod som argument (med v1.0-källkodspaket)"
+
+msgid "-b takes only one parameter with format '%s'"
+msgstr "-b tar bara en parameter för formatet ”%s”"
+
+msgid "-s%s is deprecated; always using gpg style interface"
+msgstr "-s%s är föråldrat; använder alltid gränssnitt av gpg-typ"
+
+msgid "-s%s option overrides earlier -s%s option"
+msgstr "flaggan -s%s ersätter tidigare flagga -s%s"
+
+msgid ".orig directory name %s is not <package>-<upstreamversion> (wanted %s)"
+msgstr ".orig-katalognamnet %s är inte <paket>-<uppströmsversion> (önskade %s)"
+
+msgid ".orig.tar name %s is not <package>_<upstreamversion>.orig.tar (wanted %s)"
+msgstr ".orig.tar-namnet %s är inte <paket>_<uppströmsversion>.orig.tar (önskade %s)"
+
+msgid "<control-file> is the control file to process (default: debian/control)."
+msgstr "<control-fil> är styrfilen som skall hanteras (förval: debian/control)."
+
+msgid "<standard input>"
+msgstr "<standard in>"
+
+msgid "<standard output>"
+msgstr "<standard ut>"
+
+msgid ""
+"Build options:\n"
+"  -c<control-file>         get control info from this file.\n"
+"  -l<changelog-file>       get per-version info from this file.\n"
+"  -F<changelog-format>     force changelog format.\n"
+"  --format=<source-format> set the format to be used for the source package.\n"
+"  -V<name>=<value>         set a substitution variable.\n"
+"  -T<substvars-file>       read variables here.\n"
+"  -D<field>=<value>        override or add a .dsc field and value.\n"
+"  -U<field>                remove a field.\n"
+"  -i, --diff-ignore[=<regex>]\n"
+"                           filter out files to ignore diffs of\n"
+"                             (defaults to: '%s').\n"
+"  -I, --tar-ignore[=<pattern>]\n"
+"                           filter out files when building tarballs\n"
+"                             (defaults to: %s).\n"
+"  -Z, --compression=<compression>\n"
+"                           select compression to use (defaults to '%s',\n"
+"                             supported are: %s).\n"
+"  -z, --compression-level=<level>\n"
+"                           compression level to use (defaults to '%d',\n"
+"                             supported are: '1'-'9', 'best', 'fast')"
+msgstr ""
+"Byggflaggor:\n"
+"  -c<styrfil>              hämta styrinfo från filen.\n"
+"  -l<ändringsloggfil>      hämta per version-information från denna fil.\n"
+"  -F<ändringsloggformat>   tvinga ändringsloggformat.\n"
+"  --format=<källformat>    sätt format att använda för källkodspaketet.\n"
+"  -V<namn>=<värde>         sätt en substitueringsvariabel.\n"
+"  -T<substvars-fil>        läs variabler här.\n"
+"  -D<fält>=<värde>         överstyr eller lägg till ett .dsc-fält och värde.\n"
+"  -U<fält>                 ta bort ett fält.\n"
+"  -i, --diff-ignore[=<reguttr>]\n"
+"                           filtrera ut filer att ignorera diffar från\n"
+"                             (förval: ”%s”).\n"
+"  -I, --tar-ignore[=<mönster>]\n"
+"                           filtrera ut filer när tarboll byggs\n"
+"                             (förval: ”%s”).\n"
+"  -Z, --compression=<komprimering>\n"
+"                           välj komprimering som skall användas (förval\n"
+"                             är ”%s”, värden som stöds: %s).\n"
+"  -z, --compression-level=<nivå>\n"
+"                           komprimeringsnivå att använda (förval är\n"
+"                             ”%d”, värden som stöds: ”1”-”9”, ”best”, ”fast”)"
+
+msgid ""
+"Commands:\n"
+"  --get <flag>       output the requested flag to stdout.\n"
+"  --origin <flag>    output the origin of the flag to stdout:\n"
+"                     value is one of vendor, system, user, env.\n"
+"  --status           output a synopsis with all parameters affecting the\n"
+"                     program behavior, the resulting flags and their origin.\n"
+"  --query            like --status, but in deb822 format.\n"
+"  --query-features <area>\n"
+"                     output the status of features for the given area.\n"
+"  --list             output a list of the flags supported by the current vendor.\n"
+"  --export=(sh|make|cmdline|configure)\n"
+"                     output something convenient to import the compilation\n"
+"                     flags in a shell script, in make, or in a command line.\n"
+"  --dump             output all compilation flags with their values.\n"
+"  --help             show this help message.\n"
+"  --version          show the version.\n"
+msgstr ""
+"Åtgärder:\n"
+"  --get <flagga>     skriv ut begärd flagga på standard ut.\n"
+"  --origin <flagga>  skriv ut ursprung till flaggan på standard ut:\n"
+"                     värdet är ett av vendor, system, user, env.\n"
+"  --status           skriv ut en sammanfattning med alla parametrar som påverkar\n"
+"                     programmets beteende, de resulterande flaggorna\n"
+"                     och deras ursprung.\n"
+"  --query            like --status, but in deb822 format.\n"
+"  --query-features <area>\n"
+"                     skriv ut status för funktioner för given area.\n"
+"  --list             skriv ut lista med flaggor som stöds av aktuell leverantör.\n"
+"  --export=(sh|make|cmdline|configure)\n"
+"                     skriv ut något som kan användas för att importera\n"
+"                     kompileringsflaggor i ett skalskript, i make,\n"
+"                     eller på en kommandorad\n"
+"  --dump             skriv ut alla kompileringsflaggor och deras värden.\n"
+"  --help             visa detta hjälpmeddelande.\n"
+"  --version          visa versionsnummer.\n"
+
+msgid ""
+"Commands:\n"
+"  --is <vendor>           returns true if current vendor is <vendor>.\n"
+"  --derives-from <vendor> returns true if current vendor derives from <vendor>.\n"
+"  --query <field>         print the content of the vendor-specific field.\n"
+"  --help                  show this help message.\n"
+"  --version               show the version."
+msgstr ""
+"Kommandon:\n"
+"  --is <leverantör>       sant om aktuell leverantör är <leverantör>.\n"
+"  --derives-from <lev.>   sant om aktuell leverantör härleds från <lev.>\n"
+"  --query <fält>          visa innehållet i leverantörsspecifikt fält.\n"
+"  --help                  visa detta hjälpmeddelande.\n"
+"  --version               visa versionsnummer."
+
+msgid ""
+"Commands:\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version."
+msgstr ""
+"Åtgärder:\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer."
+
+msgid ""
+"Commands:\n"
+"  -l, --list                list variables (default).\n"
+"  -L, --list-known          list valid architectures (matching some criteria).\n"
+"  -e, --equal <arch>        compare with host Debian architecture.\n"
+"  -i, --is <arch-wildcard>  match against host Debian architecture.\n"
+"  -q, --query <variable>    prints only the value of <variable>.\n"
+"  -s, --print-set           print command to set environment variables.\n"
+"  -u, --print-unset         print command to unset environment variables.\n"
+"  -c, --command <command>   set environment and run the command in it.\n"
+"  -?, --help                show this help message.\n"
+"      --version             show the version."
+msgstr ""
+"Åtgärder:\n"
+"  -l, --list                lista variabler (förval).\n"
+"  -L, --list-known          visa giltiga arkitekturer (motsvarande kriterier).\n"
+"  -e, --equal <ark>         jämför med värd-Debianarkitektur.\n"
+"  -i, --is <ark-joker>      matcha mot värd-Debianarkitektur.\n"
+"  -q, --query <variabel>    skriver bara ut värdet på <variabel>.\n"
+"  -s, --print-set           skriv kommandon för att sätta miljövariabler.\n"
+"  -u, --print-unset         skriv kommandon för att ta bort miljövariabler.\n"
+"  -c, --command <kommando>  ställ in miljö och kör kommandot i den.\n"
+"  -?, --help                visa detta hjälpmeddelande.\n"
+"      --version             visa versionsnummer."
+
+msgid ""
+"Commands:\n"
+"  -x, --extract <filename>.dsc [<output-dir>]\n"
+"                           extract source package.\n"
+"  -b, --build <dir>        build source package.\n"
+"      --print-format <dir> print the format to be used for the source package.\n"
+"      --before-build <dir> run the corresponding source package format hook.\n"
+"      --after-build <dir>  run the corresponding source package format hook.\n"
+"      --commit [<dir> [<patch-name>]]\n"
+"                           store upstream changes in a new patch."
+msgstr ""
+"Åtgärder:\n"
+"  -x, --extract <filnamn>.dsc [<utdatakatalog>]\n"
+"                           extrahera källkodspaket.\n"
+"  -b, --build <kat>        bygg källkodspaket.\n"
+"      --print-format <kat> visa formatet som skulle användas för att bygga\n"
+"                             källkodspaketet.\n"
+"      --before-build <kat> kör motsvarande källkodspaketformatkrok.\n"
+"      --after-build <kat>  kör motsvarande källkodspaketformatkrok.\n"
+"      --commit [<kat> [<patch-namn>]]\n"
+"                           spara uppströmsändringar som en ny patch."
+
+msgid ""
+"Commands:\n"
+"  clean              clean dpkg generated artifacts from the build tree.\n"
+"  is-rootless        checks whether the build tree needs root to build.\n"
+"  --help             show this help message.\n"
+"  --version          show the version.\n"
+msgstr ""
+"Åtgärder:\n"
+"  clean              städa dpkg-genererade artefakter från byggträdet.\n"
+"  is-rootless        kontrollerar om byggträdet kräver root för att bygga.\n"
+"  --help             visa detta hjälpmeddelande.\n"
+"  --version          visa versionsnummer.\n"
+
+msgid "Debian %s version %s.\n"
+msgstr "Debian %s version %s.\n"
+
+msgid ""
+"Dependency fields recognized are:\n"
+"  %s\n"
+msgstr ""
+"Beroendefält som stöds är:\n"
+"  %s\n"
+
+msgid "Dpkg::Compression::Process can only start one subprocess at a time"
+msgstr "Dpkg::Compression::Process kan bara starta en underprocess åt gången"
+
+msgid "Dpkg::Shlibs::Objdump cannot parse %s\n"
+msgstr "Dpkg::Shlips::Objdump kan inte tolka %s\n"
+
+msgid "Enter the desired patch name: "
+msgstr "Ange önskat patchnamn: "
+
+msgid ""
+"Extract options:\n"
+"  --no-copy                do not copy .orig tarballs\n"
+"  --no-check               do not check signature and checksums on extraction\n"
+"  --no-overwrite-dir       do not overwrite directory on extraction\n"
+"  --no-vendor-certs        do not use vendor specific certificate keyrings\n"
+"  --signer-certs=<keyring> use a signer certificates keyring\n"
+"  --require-valid-signature\n"
+"                           abort if the package does not have a valid signature\n"
+"  --require-strong-checksums\n"
+"                           abort if the package contains no strong checksums\n"
+"  --ignore-bad-version     allow bad source package versions."
+msgstr ""
+"Flaggor för uppackning:\n"
+"  --no-copy                kopiera inte .orig-tarbollar\n"
+"  --no-check               kolla inte signatur och kontrollsumma före uppackning\n"
+"  --no-overwrite-dir       skriv inte över katalog vid uppackning\n"
+"  --no-vendor-certs        använd inte leverantörspecifika certifikatnyckelringar\n"
+"  --signer-certs=<nyckelring>\n"
+"                           använd nyckelring för signeringscertifikat\n"
+"  --require-valid-signature\n"
+"                           avbryt om paketet saknar giltig signatur\n"
+"  --require-strong-checksums\n"
+"                           avbryt om paketet inte innehåller starka kontrollsummor\n"
+"  --ignore-bad-version     tillåt felaktiga versionsnummer i källkodspaket."
+
+msgid "File::FcntlLock not available; using flock which is not NFS-safe"
+msgstr "File::FcntlLock ej tillgänglig; använder flock som inte är NFS-säkert"
+
+msgid "Format '3.0 (custom)' is only used to create source packages"
+msgstr "Format ”3.0 (skräddarsytt)” används bara för att skapa källkodspaket"
+
+msgid ""
+"General options:\n"
+"      --threads-max=<threads>\n"
+"                           use at most <threads> with compressor.\n"
+"  -q                       quiet mode.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version."
+msgstr ""
+"Allmänna flaggor:\n"
+"      --threads-max=<trådar>\n"
+"                           använd som mest <trådar> för packare.\n"
+"  -q                       tyst läge.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer."
+
+msgid ""
+"Note: libraries are not searched in other binary packages that do not have any shlibs or symbols file.\n"
+"To help dpkg-shlibdeps find private libraries, you might need to use -l."
+msgstr ""
+"Observera: andra binärpaket som inte har shlibs- eller symbols-filer söks inte genom efter bibliotek.\n"
+"För att hjälpa dpkg-shlibdeps att hitta privata bibliotek måste du kanske använda -l."
+
+msgid "OpenPGP backend command cannot sign"
+msgstr "OpenPGP-kommandot kan inte skapa signatur"
+
+msgid "OpenPGP signature not allowed here"
+msgstr "OpenPGP-signatur tillåts inte här"
+
+msgid ""
+"Options passed to dpkg-architecture:\n"
+"  -a, --host-arch <arch>      set the host Debian architecture.\n"
+"  -t, --host-type <type>      set the host GNU system type.\n"
+"      --target-arch <arch>    set the target Debian architecture.\n"
+"      --target-type <type>    set the target GNU system type."
+msgstr ""
+"Flaggor som sänds till dpkg-architecture:\n"
+"  -a, --host-arch <ark>       sätt värd-Debianarkitektur.\n"
+"  -t, --host-type <typ>       sätt värd-GNU-systemtyp.\n"
+"      --target-arch <ark>     sätt mål-Debianarkitektur.\n"
+"      --target-type <typ>     sätt mål-GNU-systemtyp."
+
+msgid ""
+"Options passed to dpkg-genchanges:\n"
+"  -si                         source includes orig, if new upstream (default).\n"
+"  -sa                         source includes orig, always.\n"
+"  -sd                         source is diff and .dsc only.\n"
+"  -v<version>                 changes since version <version>.\n"
+"  -m, --source-by=<maint>     maintainer for this source or build is <maint>.\n"
+"      --build-by=<maint>      ditto.\n"
+"  -e, --release-by=<maint>    maintainer for this change or release is <maint>.\n"
+"      --changed-by=<maint>    ditto.\n"
+"  -C<descfile>                changes are described in <descfile>.\n"
+"      --changes-option=<opt>  pass option <opt> to dpkg-genchanges."
+msgstr ""
+"Flaggor som sänds till dpkg-genchanges:\n"
+"  -si                         källkod innehåller orig, om ny uppström (förval).\n"
+"  -sa                         källkod innehåller orig, alltid.\n"
+"  -sd                         källkod är endast diff och .dsc\n"
+"  -v<version>                 ändringar sedan version <version>.\n"
+"  -m, --source-by=<ansvarig>  ansvarig för denna källkod/bygge är <ansvarig>.\n"
+"      --build-by=<ansvarig>   dito.\n"
+"  -e, --release-by=<ansvarig> ansvarig för denna ändring/utgåva är <ansvarig>.\n"
+"      --changed-by=<ansvarig> dito.\n"
+"  -m, --release-by=<ansvarig> ansvarig för denna utgåva är <ansvarig>.\n"
+"  -e, --build-by=<ansvarig>   ansvarig för detta bygge är <ansvarig>.\n"
+"  -C<desc-fil>                ändringar beskrivs i <desc-fil>.\n"
+"      --changes-option=<flagga>\n"
+"                              sänd flaggan <flagga> till dpkg-genchanges."
+
+msgid ""
+"Options passed to dpkg-source:\n"
+"  -sn                         force Debian native source format.\n"
+"  -s[sAkurKUR]                see dpkg-source for explanation.\n"
+"  -z, --compression-level=<level>\n"
+"                              compression level to use for source.\n"
+"  -Z, --compression=<compressor>\n"
+"                              compression to use for source (gz|xz|bzip2|lzma).\n"
+"  -i, --diff-ignore[=<regex>] ignore diffs of files matching <regex>.\n"
+"  -I, --tar-ignore[=<pattern>]\n"
+"                              filter out files when building tarballs.\n"
+"      --source-option=<opt>   pass option <opt> to dpkg-source.\n"
+msgstr ""
+"Flaggor som sänds till dpkg-source:\n"
+"  -sn                         tvinga Debianeget källkodsformat.\n"
+"  -s[sAkurKUR]                se dpkg-source för förklaring.\n"
+"  -z, --compression-level=<nivå>\n"
+"                              komprimeringsnivå för källkod.\n"
+"  -Z, --compression=<komprim> komprimering att använda för källkod\n"
+"                                (gz|xz|bzip2|lzma).\n"
+"  -i, --diff-ingore=[<reg.uttr>]\n"
+"                              ignorerar diff på filer som motsvarar reg.uttr.\n"
+"  -I, --tar-ignore=[<mönster>]\n"
+"                              filtrera ut filer när tarboll byggs.\n"
+"      --source-option=<flagga>\n"
+"                              sänd flaggan <flagga> till dpkg-source.\n"
+
+msgid ""
+"Options:\n"
+"      --build=<type>[,...]    specify the build <type>: full, source, binary,\n"
+"                                any, all (default is 'full').\n"
+"  -F, --build=full            normal full build (source and binary; default).\n"
+"  -g, --build=source,all      source and arch-indep build.\n"
+"  -G, --build=source,any      source and arch-specific build.\n"
+"  -b, --build=binary          binary-only, no source files.\n"
+"  -B, --build=any             binary-only, only arch-specific files.\n"
+"  -A, --build=all             binary-only, only arch-indep files.\n"
+"  -S, --build=source          source-only, no binary files.\n"
+"  -nc, --no-pre-clean         do not pre clean source tree (implies -b).\n"
+"      --pre-clean             pre clean source tree (default).\n"
+"      --no-post-clean         do not post clean source tree (default).\n"
+"  -tc, --post-clean           post clean source tree.\n"
+"      --sanitize-env          sanitize the build environment.\n"
+"  -D, --check-builddeps       check build dependencies and conflicts (default).\n"
+"  -d, --no-check-builddeps    do not check build dependencies and conflicts.\n"
+"      --ignore-builtin-builddeps\n"
+"                              do not check builtin build dependencies.\n"
+"  -P, --build-profiles=<profiles>\n"
+"                              assume comma-separated build <profiles> as active.\n"
+"      --rules-requires-root   assume legacy Rules-Requires-Root field value.\n"
+"  -R, --rules-file=<rules>    rules file to execute (default is debian/rules).\n"
+"  -T, --rules-target=<target> call debian/rules <target>.\n"
+"      --as-root               ensure -T calls the target with root rights.\n"
+"  -j, --jobs[=<jobs>|auto]    jobs to run simultaneously (passed to <rules>),\n"
+"                                (default; default is auto, opt-in mode).\n"
+"  -J, --jobs-try[=<jobs>|auto]\n"
+"                              alias for -j, --jobs.\n"
+"      --jobs-force[=<jobs>|auto]\n"
+"                              jobs to run simultaneously (passed to <rules>),\n"
+"                                (default is auto, forced mode).\n"
+"  -r, --root-command=<command>\n"
+"                              command to gain root rights (default is fakeroot).\n"
+"      --check-command=<command>\n"
+"                              command to check the .changes file (no default).\n"
+"      --check-option=<opt>    pass <opt> to check <command>.\n"
+"      --hook-<name>=<command> set <command> as the hook <name>, known hooks:\n"
+"                                preinit init preclean source build binary\n"
+"                                buildinfo changes postclean check sign done\n"
+"      --buildinfo-file=<file> set the .buildinfo filename to generate.\n"
+"      --buildinfo-option=<opt>\n"
+"                              pass option <opt> to dpkg-genbuildinfo.\n"
+"      --changes-file=<file>   set the .changes filename to generate.\n"
+"      --sign-backend=<backend>\n"
+"                              OpenPGP backend to use to sign\n"
+"                                (default is auto).\n"
+"  -p, --sign-command=<command>\n"
+"                              command to sign .dsc and/or .changes files\n"
+"                                (default is gpg).\n"
+"      --sign-keyfile=<file>   the key file to use for signing.\n"
+"  -k, --sign-keyid=<keyid>    the key id to use for signing.\n"
+"      --sign-key=<keyid>      alias for -k, --sign-keyid.\n"
+"  -ap, --sign-pause           add pause before starting signature process.\n"
+"  -us, --unsigned-source      unsigned source package.\n"
+"  -ui, --unsigned-buildinfo   unsigned .buildinfo file.\n"
+"  -uc, --unsigned-changes     unsigned .buildinfo and .changes file.\n"
+"      --no-sign               do not sign any file.\n"
+"      --force-sign            force signing the resulting files.\n"
+"      --admindir=<directory>  change the administrative directory.\n"
+"  -?, --help                  show this help message.\n"
+"      --version               show the version."
+msgstr ""
+"Flaggor:\n"
+"      --build=<typ>[,...]     ange bygg-<typ>: full, source, binary,\n"
+"                                any, all (förval är 'full').\n"
+"  -F, --build=full            normalt komplett bygge (binärer+källkod; förval).\n"
+"  -g, --build=source,all      källkod och arkitektur-oberoende bygg.\n"
+"  -G, --build=source,any      källkod och arkitektur-specifikt bygg.\n"
+"  -b, --build=binary          endast binär, inga källkodsfiler.\n"
+"  -B, --build=any             endast binär, endast arkitektur-specifika filer.\n"
+"  -A, --build=all             endast binär, endast arkitektur-oberoende filer.\n"
+"  -S, --build=source          endast källkod, inga binärfiler.\n"
+"  -nc, --no-pre-clean         städa inte källkodsträd först (implicerar -b).\n"
+"      --pre-clean             städa källkodströdet först (förval).\n"
+"      --no-post-clean         städa inte källkodsträdet efteråt (förval).\n"
+"  -tc, --post-clean           städa källkodsträd efteråt.\n"
+"  -D, --check-builddeps       kontroll. byggberoenden och -konflikter (förval).\n"
+"  -d, --no-check-builddeps    kontrollera inte byggberoenden och -konflkter.\n"
+"      --ignore-builtin-builddeps\n"
+"                              kontrollera inte inbyggda byggberoenden.\n"
+"  -P, --build-profiles=<profiler>\n"
+"                              anta kommaavdelade bygg-<profiler> är aktiva.\n"
+"      --build-requires-root   anta gamla fältvärden för Rules-Requires-Root.\n"
+"  -R, --rules-file=<regler>   regelfil att exekvera (förval är debian/rules).\n"
+"  -T, --rules-target=<mål>    anropa debian/rules <mål>.\n"
+"      --as-root               ser till att -T anropar målet med rootbehörighet.\n"
+"  -j, --jobs[=<jobb>|auto]    jobb att köra samtidigt (sänds till <rules>),\n"
+"                                (förval; förval är auto, frivilligt läge).\n"
+"  -J, --jobs-try[=<jobb>|auto]\n"
+"                              alias för -j, --jobs.\n"
+"      --jobs-force[=<jobb>|auto]\n"
+"                              jobb att köra samtidigt (sänds till <rules>),\n"
+"                                (förval är auto, tvingat läge).\n"
+"  -r, --root-command=<kommando>\n"
+"                              kommando för root-behörighet (förval är fakeroot).\n"
+"      --check-command=<kommando>\n"
+"                              kommando för att kontrollera .changes-filen\n"
+"                              (inget förval).\n"
+"      --check-option=<arg>    sänd <arg> till --check-command-<kommando>.\n"
+"      --hook-<namn>=<kommando>\n"
+"                              välj <kommando> som haken <namn>, kända hakar:\n"
+"                                preinit init preclean source build binary\n"
+"                                buildinfo changes postclean check sign done\n"
+"      --buildinfo-file=<fil>  välj .buildinfo-filnamn att skapa.\n"
+"      --buildinfo-option=<flagga>\n"
+"                              sänd flaggan <flagga> till dpkg-genbuildinfo.\n"
+"      --changes-file=<fil>    välj .changes-filnamn att skapa.\n"
+"      --sign-backend=<bakända>\n"
+"                              OpenPGP-program att använda för signering\n"
+"                                (förval är auto).\n"
+"  -p, --sign-command=<kommando>\n"
+"                              kommando för att signera .dsc- och/eller\n"
+"                              .changes-filer (förval är gpg).\n"
+"      --sign-keyfile=<fil>    nyckelfil att använda vid signering.\n"
+"  -k, --sign-keyid=<nyckelid> nyckel-ID som skall användas vid signering.\n"
+"      --sign-key=<nyckelid>   alias för -k, --sign-keyid.\n"
+"  -ap, --sign-pause           lägg in paus innan signaturprocessen startas.\n"
+"  -us, --unsigned-source      osignerad källkod.\n"
+"  -ui, --unsigned-buildinfo   osignerad .buildinfo-fil.\n"
+"  -uc, --unsigned-changes     osignerad .buildinfo- och changes-fil.\n"
+"      --no-sign               signera inte någon fil.\n"
+"      --force-sign            tvinga signering av de resulterande filerna.\n"
+"      --admindir=<katalog>    ändra den administrativa katalogen.\n"
+"  -?, --help                  visa detta hjälpmeddelande.\n"
+"      --version               visa versionsnummer."
+
+msgid ""
+"Options:\n"
+"  --build=<type>[,...]     specify the build <type>: full, source, binary,\n"
+"                             any, all (default is 'full').\n"
+"  -c<control-file>         get control info from this file.\n"
+"  -l<changelog-file>       get per-version info from this file.\n"
+"  -f<files-list-file>      get .deb files list from this file.\n"
+"  -F<changelog-format>     force changelog format.\n"
+"  -O[<buildinfo-file>]     write to stdout (or <buildinfo-file>).\n"
+"  -u<upload-files-dir>     directory with files (default is '..').\n"
+"  --always-include-kernel  always include Build-Kernel-Version.\n"
+"  --always-include-path    always include Build-Path.\n"
+"  --admindir=<directory>   change the administrative directory.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+msgstr ""
+"Flaggor:\n"
+"  --build=<typ>[,...]      ange bygg-<typ>: full, source, binary,\n"
+"                             any, all (förval är 'full').\n"
+"  -c<control-fil>          hämta styrinfo från denna fil.\n"
+"  -l<changelog-fil>        hämta per-version-info från denna fil.\n"
+"  -f<fillistefil>          hämta .deb-fillista från denna fil.\n"
+"  -F<ändringslogg-format>  tvinga ändringsloggoformat.\n"
+"  -O[<buildinfo-fil>]      skriv till standard ut (eller <buildinfo-fil>).\n"
+"  -u<insändnings-kat>      katalog med filer (förval är '..').\n"
+"  --always-include-kernel  inkludera alltid Build-Kernel-Version.\n"
+"  --always-include-path    inkludera alltid Build-Path.\n"
+"  --admindir=<katalog>     ändra administrativ katalog.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+
+msgid ""
+"Options:\n"
+"  --build=<type>[,...]     specify the build <type>: full, source, binary,\n"
+"                             any, all (default is 'full').\n"
+"  -g                       source and arch-indep build.\n"
+"  -G                       source and arch-specific build.\n"
+"  -b                       binary-only, no source files.\n"
+"  -B                       binary-only, only arch-specific files.\n"
+"  -A                       binary-only, only arch-indep files.\n"
+"  -S                       source-only, no binary files.\n"
+"  -c<control-file>         get control info from this file.\n"
+"  -l<changelog-file>       get per-version info from this file.\n"
+"  -f<files-list-file>      get .deb files list from this file.\n"
+"  -v<since-version>        include all changes later than version.\n"
+"  -C<changes-description>  use change description from this file.\n"
+"  -m<maintainer>           override control's maintainer value.\n"
+"  -e<maintainer>           override changelog's maintainer value.\n"
+"  -u<upload-files-dir>     directory with files (default is '..').\n"
+"  -si                      source includes orig, if new upstream (default).\n"
+"  -sa                      source includes orig, always.\n"
+"  -sd                      source is diff and .dsc only.\n"
+"  -q                       quiet - no informational messages on stderr.\n"
+"  -F<changelog-format>     force changelog format.\n"
+"  -V<name>=<value>         set a substitution variable.\n"
+"  -T<substvars-file>       read variables here, not debian/substvars.\n"
+"  -D<field>=<value>        override or add a field and value.\n"
+"  -U<field>                remove a field.\n"
+"  -O[<filename>]           write to stdout (default) or <filename>.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+msgstr ""
+"Flaggor:\n"
+"  --build=<typ>[,...]      ange bygg-<typ>: full, source, binary, any, all\n"
+"                             (förval är 'full').\n"
+"  -g                       bygg källkod och arkitekturoberoende.\n"
+"  -G                       bygg källkod och arkitekturspecifikt.\n"
+"  -b                       endast binär, inga källkodsfiler.\n"
+"  -B                       endast binär, endast arkitekturspecifika filer.\n"
+"  -A                       endast binär, endast arkitekturoberoende filer.\n"
+"  -S                       endast källkod, inga binärfiler.\n"
+"  -c<control-fil>          hämta styrinformation från denna fil.\n"
+"  -l<ändringsloggfil>      hämta per-version-information från denna fil.\n"
+"  -f<fillistfil>           hämta .deb-fillistan från denna fil.\n"
+"  -v<sedanversion>         ta med alla ändringar senare än denna version.\n"
+"  -C<ändringsbeskrivning>  använd ändringsbeskrivning från denna fil.\n"
+"  -m<ansvarig>             överstyr ansvarigvärde från styrfilen.\n"
+"  -e<ansvarig>             överstyr ansvarigvärde från ändringsloggen.\n"
+"  -u<insändningskatalog>   katalog med filer (förval är ”..”).\n"
+"  -si                      källkod har orig, om ny uppströms (förval).\n"
+"  -sa                      källkod har orig, alltid.\n"
+"  -sd                      källkod är diff och endast .dsc.\n"
+"  -q                       tyst - inga informationsmeddelanden på std fel.\n"
+"  -F<ändringsloggformat>   tvinga ändringsloggformat.\n"
+"  -V<namn>=<värde>         ställ in en substitueringsvariabel.\n"
+"  -T<substvars-fil>        läs variabler härifrån, inte debian/substvars.\n"
+"  -D<fält>=<värde>         överstyr eller lägg till ett fält eller värde.\n"
+"  -U<fält>                 ta bort ett fält.\n"
+"  -O[<filnamn>]            skriv till standard ut (förval) eller <filnamn>.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+
+msgid ""
+"Options:\n"
+"  --package=<package>      generate substvars for <package> (default is unset).\n"
+"  -l<library-dir>          add directory to private shared library search list.\n"
+"  -p<varname-prefix>       set <varname-prefix>:* instead of shlibs:*.\n"
+"  -O[<file>]               write variable settings to stdout (or <file>).\n"
+"  -L<local-shlibs-file>    shlibs override file, not debian/shlibs.local.\n"
+"  -T<substvars-file>       update variables here, not debian/substvars.\n"
+"  -t<type>                 set package type (default is deb).\n"
+"  -x<package>              exclude package from the generated dependencies.\n"
+"  -S<package-build-dir>    search needed libraries in the given\n"
+"                             package build directory first.\n"
+"  -I<package-build-dir>    ignore needed libraries, shlibs and symbols files\n"
+"                             in the given build directory.\n"
+"  -v                       enable verbose mode (can be used multiple times).\n"
+"  --ignore-missing-info    do not fail on missing dependency information.\n"
+"  --warnings=<value>       define set of active warnings (see manual page).\n"
+"  --admindir=<directory>   change the administrative directory.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version."
+msgstr ""
+"Flaggor:\n"
+"  --package=<paket>        generera substvars för <paket> (förval är inte satt).\n"
+"  -l<bibliotekskatalog>    lägg till katalog i privat sökvägslista för delade\n"
+"                           bibliotek.\n"
+"  -p<varnamnprefix>        sätt <varnamnprefix>:* istället för shlibs:*.\n"
+"  -O[<fil>]                skriv variabelinställningar till standard ut/fil.\n"
+"  -L<lokalshlibsfil>       shlibs-överstyrningsfil, inte debian/shlibs.local.\n"
+"  -T<varlistfil>           uppdatera variabler här, inte debian/substvars.\n"
+"  -t<typ>                  sätt pakettyp (förval är deb).\n"
+"  -x<paket>                uteslut ett paket från skapade beroenden.\n"
+"  -S<paketbyggkatalog>     sök efter nödvändiga bibliotek i den givna\n"
+"                             paketbyggkatalogen först.\n"
+"  -I<paketbyggkatalog>     ignorera nödvändiga bibliotek, shlibs och symbols-filer\n"
+"                             i den givna byggkatalogen.\n"
+"  -v                       aktivera pratsamt läge (kan anges flera gånger).\n"
+"  --ignore-missing-info    misslyckas inte om beroendeinformationen inte hittas.\n"
+"  --warnings=<värde>       ange uppsätning aktiva varningar (se manualsida).\n"
+"  --admindir=<katalog>     ändra den administrativa katalogen.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer."
+
+msgid ""
+"Options:\n"
+"  --vendor <vendor>       assume <vendor> is the current vendor."
+msgstr ""
+"Flaggor:\n"
+"  --vendor <leverantör>   anta att <leverantör> är aktuell leverantör."
+
+msgid ""
+"Options:\n"
+"  -A             ignore Build-Depends-Arch and Build-Conflicts-Arch.\n"
+"  -B             ignore Build-Depends-Indep and Build-Conflicts-Indep.\n"
+"  -I             ignore built-in build dependencies and conflicts.\n"
+"  -d build-deps  use given string as build dependencies instead of\n"
+"                 retrieving them from control file\n"
+"  -c build-conf  use given string for build conflicts instead of\n"
+"                 retrieving them from control file\n"
+"  -a arch        assume given host architecture\n"
+"  -P profiles    assume given build profiles (comma-separated list)\n"
+"  --admindir=<directory>\n"
+"                 change the administrative directory.\n"
+"  -?, --help     show this help message.\n"
+"      --version  show the version."
+msgstr ""
+"Flaggor:\n"
+"  -A             ignorera Build-Depends-Arch och Build-Conflicts-Arch.\n"
+"  -B             ignorera BUild-Depends-Indep och Build-Conflicts-Indep.\n"
+"  -I             ignorera inbyggda byggberoenden och -konflikter.\n"
+"  -d byggber.    använd den givna strängen som byggberoenden istället\n"
+"                 för att hämta dem från styrfilen\n"
+"  -c byggkonfl.  använd den givna strängen som byggkonflikter istället\n"
+"                 för att hämta dem från styrfilen\n"
+"  -a ark         anta den angivna värdarkitekturen\n"
+"  -P profiler    anta angivna byggprofiler (kommaavdelad lista)\n"
+"  --admindir=<katalog>\n"
+"                 välj administrativ katalog.\n"
+"  -?, --help     visa detta hjälpmeddelande.\n"
+"      --verison  visa verisonen."
+
+msgid ""
+"Options:\n"
+"  -a, --host-arch <arch>    set host Debian architecture.\n"
+"  -t, --host-type <type>    set host GNU system type.\n"
+"  -A, --target-arch <arch>  set target Debian architecture.\n"
+"  -T, --target-type <type>  set target GNU system type.\n"
+"  -W, --match-wildcard <arch-wildcard>\n"
+"                            restrict architecture list matching <arch-wildcard>.\n"
+"  -B, --match-bits <arch-bits>\n"
+"                            restrict architecture list matching <arch-bits>.\n"
+"  -E, --match-endian <arch-endian>\n"
+"                            restrict architecture list matching <arch-endian>.\n"
+"      --print-format <format>\n"
+"                            use <format> for --print-set and --print-unset,\n"
+"                              allowed values: shell (default), make.\n"
+"  -f, --force               force flag (override variables set in environment)."
+msgstr ""
+"Flaggor:\n"
+"  -a, --host-arch <ark>     sätt värd-Debianarkitektur.\n"
+"  -t, --host-type <typ>     sätt värd-GNU-systemtyp.\n"
+"  -A, --target-arch <ark>   sätt mål-Debianarkitektur.\n"
+"  -T, --target-type <typ>   sätt mål-GNU-systemtyp.\n"
+"  -W, --match-wildcard <ark-joker>\n"
+"                            begränsa arkitekturlista till <ark-joker>.\n"
+"  -B, --match-bits <ark-bitar>\n"
+"                            begränsa arkitekturlista till <ark-bitar>.\n"
+"  -E, --match-endian <ark-endian>\n"
+"                            begränsa arkitekturlista till <ark-endian>.\n"
+"      --print-format <format>\n"
+"                            använd <format> för --print-set och --print-unset,\n"
+"                              tillåtna värden: shell (förval), make.\n"
+"  -f, --force               tvinga flagga (överstyr variabler satta i miljön)."
+
+msgid ""
+"Options:\n"
+"  -c<control-file>         get control info from this file.\n"
+msgstr ""
+"Flaggor:\n"
+"  -c<control-fil>          hämta styrinfo från denna fil.\n"
+
+msgid ""
+"Options:\n"
+"  -l, --file <changelog-file>\n"
+"                           get per-version info from this file.\n"
+"  -F <changelog-format>    force changelog format.\n"
+"  -S, --show-field <field> show the values for <field>.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version."
+msgstr ""
+"Flaggor:\n"
+"  -l, --file <ändringsloggfil>\n"
+"                           hämta information per version från filen.\n"
+"  -F <ändringsloggformat>  tvinga ändringsloggformat.\n"
+"  -S, --show-field <fält>  visa värden för <fält>.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnumret."
+
+msgid ""
+"Options:\n"
+"  -l<library-path>         add directory to private shared library search list.\n"
+"  -p<package>              generate symbols file for package.\n"
+"  -P<package-build-dir>    temporary build directory instead of debian/tmp.\n"
+"  -e<library>              explicitly list libraries to scan.\n"
+"  -v<version>              version of the packages (defaults to\n"
+"                           version extracted from debian/changelog).\n"
+"  -c<level>                compare generated symbols file with the reference\n"
+"                           template in the debian directory and fail if\n"
+"                           difference is too important; level goes from 0 for\n"
+"                           no check, to 4 for all checks (default level is 1).\n"
+"  -q                       keep quiet and never emit any warnings or\n"
+"                           generate a diff between generated symbols\n"
+"                           file and the reference template.\n"
+"  -I<file>                 force usage of <file> as reference symbols\n"
+"                           file instead of the default file.\n"
+"  -O[<file>]               write to stdout (or <file>), not .../DEBIAN/symbols.\n"
+"  -t                       write in template mode (tags are not\n"
+"                           processed and included in output).\n"
+"  -V                       verbose output; write deprecated symbols and pattern\n"
+"                           matching symbols as comments (in template mode only).\n"
+"  -a<arch>                 assume <arch> as host architecture when processing\n"
+"                           symbol files.\n"
+"  -d                       display debug information during work.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+msgstr ""
+"Flaggor:\n"
+"  -l<bibliotekssökväg>     lägg till katalog till privat söklista för delade bibliotek.\n"
+"  -p<paket>                skapar symbolfil för paket.\n"
+"  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.\n"
+"  -e<bibliotek>            explicit lista över bibliotek att söka i.\n"
+"  -v<version>              version på paketet (förval är versionen\n"
+"                           som utläses ur debian/changelog).\n"
+"  -c<nivå>                 jämför genererade symbolfiler med referensfilen\n"
+"                           i katalogen ”debian” och misslyckas om skillnaderna\n"
+"                           är för stora; nivå går från 0 för ingen test, till\n"
+"                           4 för alla tester (förvald nivå är 1).\n"
+"  -q                       var tyst och skriv aldrig ut några varningar eller\n"
+"                           generera en diff mellan genererad symbolfil och\n"
+"                           referensfilen.\n"
+"  -I<fil>                  tvinga användning av <fil> som symbolreferensfil\n"
+"                           istället för standardfilen.\n"
+"  -O[<fil>]                skriv till standard ut/<fil>, inte .../DEBIAN/symbols.\n"
+"  -t                       skriv i malläge (taggar behandlas inte och\n"
+"                           tas med i utdata).\n"
+"  -V                       pratsam utdata; skriv föråldrade symboler och\n"
+"                           mönster som motsvarar symboler som kommentarer\n"
+"                           (endast i mall-läget).\n"
+"  -a<ark>                  förutsätt <ark> som värdarkitektur vid behandling\n"
+"                           av symbofilen.\n"
+"  -d                       visa felsökningsinformation under körning.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+
+msgid ""
+"Options:\n"
+"  -p<package>              print control file for package.\n"
+"  -c<control-file>         get control info from this file.\n"
+"  -l<changelog-file>       get per-version info from this file.\n"
+"  -F<changelog-format>     force changelog format.\n"
+"  -v<force-version>        set version of binary package.\n"
+"  -f<files-list-file>      write files here instead of debian/files.\n"
+"  -P<package-build-dir>    temporary build directory instead of debian/tmp.\n"
+"  -n<filename>             assume the package filename will be <filename>.\n"
+"  -O[<file>]               write to stdout (or <file>), not .../DEBIAN/control.\n"
+"  -is, -ip, -isp, -ips     deprecated, ignored for compatibility.\n"
+"  -D<field>=<value>        override or add a field and value.\n"
+"  -U<field>                remove a field.\n"
+"  -V<name>=<value>         set a substitution variable.\n"
+"  -T<substvars-file>       read variables here, not debian/substvars.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+msgstr ""
+"Flaggor:\n"
+"  -p<paket>                skriv styrfil för paket.\n"
+"  -c<styrfil>              hämta styrinfo från filen.\n"
+"  -l<ändringsloggfil>      hämta info per version från filen.\n"
+"  -F<ändringsloggformat>   tvinga ändringsloggformat.\n"
+"  -v<tvingaversion>        sätt version på binärpaket.\n"
+"  -f<fillistefil>          skriv filer här istället för debian/files.\n"
+"  -P<paketbyggkatalog>     temporär byggkatalog istället för debian/tmp.\n"
+"  -n<filnamn>              anta att paketfilnamnet kommer vara <filnamn>.\n"
+"  -O[<fil>]                skriv till standard ut/<fil>, ej .../DEBIAN/control.\n"
+"  -is, -ip, -isp, -ips     avråds, ignoreras för kompatibilitet.\n"
+"  -D<fält>=<värde>         överstyr eller lägg till ett fält och värde.\n"
+"  -U<fält>                 ta bort ett fält.\n"
+"  -V<namn>=<värde>         sätt en substitueringsvariabel.\n"
+"  -T<substvars-fil>        läs variabler här, inte debian/substvars.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+
+msgid "Packages in archive but missing from override file:"
+msgstr "Paket i arkivet men som saknas i överstyrningsfilen:"
+
+msgid "Packages in override file but not in archive:"
+msgstr "Paket i överstyrningsfilen men inte i arkivet:"
+
+msgid "Packages in override file with incorrect old maintainer value:"
+msgstr "Paket i överstyrningsfilen med felaktigt värde på gammal ansvarig:"
+
+msgid "Packages specifying same maintainer as override file:"
+msgstr "Paket som anger samma ansvarig i överstyrningsfilen:"
+
+msgid "Packages with multiple instances but no --multiversion specified:"
+msgstr "Paket med flera instanser men ingen --multiversion angavs:"
+
+msgid ""
+"Parser options:\n"
+"      --format <output-format>\n"
+"                           set output format (defaults to 'dpkg').\n"
+"      --reverse            include all changes in reverse order.\n"
+"      --all                include all changes.\n"
+"  -s, --since <version>    include all changes later than <version>.\n"
+"  -v <version>             ditto.\n"
+"  -u, --until <version>    include all changes earlier than <version>.\n"
+"  -f, --from <version>     include all changes equal or later than <version>.\n"
+"  -t, --to <version>       include all changes up to or equal than <version>.\n"
+"  -c, --count <number>     include <number> entries from the top (or tail\n"
+"                             if <number> is lower than 0).\n"
+"  -n <number>              ditto.\n"
+"  -o, --offset <number>    change starting point for --count, counted from\n"
+"                             the top (or tail if <number> is lower than 0).\n"
+msgstr ""
+"Parserflaggor:\n"
+"      --format <utdataformat>\n"
+"                           ange utdataformat (förval är ”dpkg”).\n"
+"      --reverse            ta med alla ändringar i omvänd ordning.\n"
+"      --all                ta med alla ändringar.\n"
+"  -s, --since <version>    ta med alla ändringar senare än <version>.\n"
+"  -v <version>             dito.\n"
+"  -u, --until <version>    ta med alla ändringar tidigare än <version>.\n"
+"  -f, --from <version>     ta med alla ändringar från och med <version>.\n"
+"  -t, --to <version>       ta med alla ändringar till och med <version>.\n"
+"  -c, --count <antal>      ta med <antal> poster från början (eller slutet\n"
+"                             om <antal> är lägre än 0)\n"
+"  -o, --offset <antal>     byt startpunkt för --count, räknat från början\n"
+"                             (eller slutet om <antal> är lägre än 0)\n"
+
+msgid ""
+"Positional options (order is significant):\n"
+"  <executable>             include dependencies for <executable>,\n"
+"  -e<executable>           (use -e if <executable> starts with '-')\n"
+"  -d<dependency-field>     next executable(s) set shlibs:<dependency-field>."
+msgstr ""
+"Positionsberoende flaggor (ordningen har betydelse):\n"
+"  <binär>                  ta med beroenden för <binär>,\n"
+"  -e<binär>                (använd -e om <binär> börjar med ”-”)\n"
+"  -d<beroendefält>         nästa binär(er) sätter shlibs:<beroendefält>."
+
+msgid "Press <enter> to start the signing process.\n"
+msgstr "Tryck <enter> för att inleda signeringsproceduren.\n"
+
+msgid ""
+"Source format specific build and extract options are available;\n"
+"use --format with --help to see them."
+msgstr ""
+"Källkodsformatspecifika bygg- och uppackningsflaggor är tillgängliga;\n"
+"använd --format tillsammans med --help för att se dem."
+
+msgid ""
+"This is free software; see the GNU General Public License version 2 or\n"
+"later for copying conditions. There is NO warranty.\n"
+msgstr ""
+"Detta program är fri programvara. Se GNU General Public License version 2\n"
+"eller senare för kopieringsvillkor. Det finns INGEN garanti.\n"
+
+msgid "Usage: %s [<command>]"
+msgstr "Användning: %s [<åtgärd>]"
+
+msgid "Usage: %s [<option>...]"
+msgstr "Användning: %s [<flagga>...]"
+
+msgid ""
+"Usage: %s [<option>...] <binary-path> [<override-file> [<path-prefix>]] > Packages\n"
+"\n"
+"Options:\n"
+"  -t, --type <type>        scan for <type> packages (default is 'deb').\n"
+"  -a, --arch <arch>        architecture to scan for (with implicit arch all).\n"
+"      --no-implicit-arch   do not add implicit architecture all to --arch.\n"
+"  -h, --hash <hash-list>   only generate hashes for the specified list.\n"
+"  -m, --multiversion       allow multiple versions of a single package.\n"
+"  -e, --extra-override <file>\n"
+"                           use extra override file.\n"
+"  -M, --medium <medium>    add X-Medium field for dselect media access method\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+msgstr ""
+"Användning: %s [<flagga> ...] <binärkatalog> [<överstyrfil> [<sökvägprefix>]] > Packages\n"
+"\n"
+"Flaggor:\n"
+"  -t, --type <typ>         sök efter <typ>-paket (förval är ”deb”).\n"
+"  -a, --arch <ark>         arkitektur att söka efter (med implicit ark. all).\n"
+"      --no-implicit-arch   lägg inte implicit arkitektur all till --arch.\n"
+"  -h, --hash <hashlista>   generera bara hashar för den angivna listan.\n"
+"  -m, --multiversion       tillåt flera versioner av samma paket.\n"
+"  -e, --extra-override <fil>\n"
+"                           använd extra överstyrningsfil.\n"
+"  -M, --medium <medium>    lägg till X-Medium-fält för dselects:s\n"
+"                           media-åtkomstmetod\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+
+msgid ""
+"Usage: %s [<option>...] <binary-path> [<override-file> [<path-prefix>]] > Sources\n"
+"\n"
+"Options:\n"
+"  -n, --no-sort            do not sort by package before outputting.\n"
+"  -e, --extra-override <file>\n"
+"                           use extra override file.\n"
+"  -s, --source-override <file>\n"
+"                           use file for additional source overrides, default\n"
+"                           is regular override file with .src appended.\n"
+"      --debug              turn debugging on.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+"\n"
+"See the man page for the full documentation.\n"
+msgstr ""
+"Användning: %s [<flagga> ...] <binarkatalog> [<överstyrfil> [<sökvägprefix>]] > Sources\n"
+"\n"
+"Flaggor:\n"
+"  -n, --no-sort            sortera inte paket innan de skrivs ut.\n"
+"  -e, --extra-override <fil>\n"
+"                           använd extra överstyrningsfil.\n"
+"  -s, --source-override <fil>\n"
+"                           använd fil för ytterligare källkodsöverstyrningar,\n"
+"                           förval är vanliga överstyrningsfilen med tillägg\n"
+"                           .src.\n"
+"      --debug              slå på felsökning.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+"\n"
+"Se manualsidan för fullständig dokumentation.\n"
+
+msgid "Usage: %s [<option>...] <command>"
+msgstr "Användning: %s [<flagga> ...] <åtgärd>"
+
+msgid "Usage: %s [<option>...] <executable>|-e<executable> [<option>...]"
+msgstr "Användning: %s [<flagga> ...] <binär>|-e<binär> [<flagga> ...]"
+
+msgid "Usage: %s [<option>...] <file>...\n"
+msgstr "Användning: %s [<flagga>...] <fil>...\n"
+
+msgid ""
+"Usage: %s [<option>...] <filename> <section> <priority>\n"
+"\n"
+"Options:\n"
+"  -f<files-list-file>      write files here instead of debian/files.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+msgstr ""
+"Användning: %s [<flagga>...] <filnamn> <sektion> <prioritet>\n"
+"\n"
+"Flaggor:\n"
+"  -f<fillistfil>           skriver filer här istället för debian/files.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+
+msgid ""
+"Usage: %s [<option>...] <old> <new-a> <new-b> [<out>]\n"
+"\n"
+"Options:\n"
+"  -m, --merge-prereleases  merge pre-releases together, ignores everything\n"
+"                             after the last '~' in the version.\n"
+"      --merge-unreleased   merge UNRELEASED entries together, ignoring their\n"
+"                             version numbers.\n"
+"  -?, --help               show this help message.\n"
+"      --version            show the version.\n"
+msgstr ""
+"Användning: %s [<flagga>...] <gammal> <ny-a> <ny-b> [<ut>]\n"
+"\n"
+"Flaggor:\n"
+"  -m, --merge-prereleases  slå ihop förhandsutgåvor, ignorerar allt\n"
+"                             efter sista ”~” i versionsnumret.\n"
+"      --merge-unreleased   slå ihop UNRELEASED-poster, ignorerar deras\n"
+"                             versionsnummer.\n"
+"  -?, --help               visa detta hjälpmeddelande.\n"
+"      --version            visa versionsnummer.\n"
+
+msgid "Usage: %s [<option>...] [--] [<filename.dsc>|<directory>]"
+msgstr "Användning: %s [<flagga>...] [--] [<filnamn.dsc>|<katalog>]"
+
+msgid "Usage: %s [<option>...] [<command>]"
+msgstr "Användning: %s [<flagga>...] [<åtgärd>]"
+
+msgid "Usage: %s [<option>...] [<control-file>]"
+msgstr "Användning: %s [<flagga>...] [<control-fil>]"
+
+msgid "Use --help for program usage information."
+msgstr "Använd --help för hjälp om hur du använder programmet."
+
+msgid "Wrote %s entries to output Packages file."
+msgstr "Skrev %s poster till den skapade Packages-filen."
+
+msgid "a file header"
+msgstr "ett filhuvud"
+
+msgid "abort if generated diff has upstream files changes"
+msgstr "avbryt om genererad diff har ändringar i uppströmsfiler"
+
+msgid "aborting due to --abort-on-upstream-changes"
+msgstr "avbryter på grund av --abort-on-upstream-changes"
+
+msgid "aborting due to unexpected upstream changes, see %s"
+msgstr "avbryter på grund av oväntade uppströmsändringar, se %s-changes"
+
+msgid "accept quilt metadata <version> even if unknown"
+msgstr "godta quilt-metadata <version> även om okänd"
+
+msgid "add %s in debian/source/include-binaries if you want to store the modified binary in the debian tarball"
+msgstr "lägg till %s i debian/source/include-binaries om du vill spara den modifierade binären i debian-tarbollen"
+
+msgid "adding %s to %s"
+msgstr "lägger %s till %s"
+
+msgid "administrative directory '%s' does not exist"
+msgstr "administrativ katalog ”%s” finns inte"
+
+msgid "an union dependency can only contain simple dependencies"
+msgstr "ett unionsberoende kan endast innehålla enkla beroenden"
+
+msgid "applying %s"
+msgstr "tillämpar %s"
+
+msgid "architecture %s only allowed on its own (list for package %s is '%s')"
+msgstr "arkitektur %s tillåts inte ensamt (listan för paketet %s är ”%s”)"
+
+msgid "archive %s contains bad magic"
+msgstr "arkivet %s innehåller fel magiskt tal"
+
+msgid "archive %s contains no magic"
+msgstr "arkivet %s innehåller inget magiskt tal"
+
+msgid "archive %s is truncated or corrupt, it has a non-even byte size"
+msgstr "arkivet %s är avhugget eller trasigt, det har en icke-jämn bytestorlek"
+
+msgid "assuming architecture '%s' for '%s'"
+msgstr "antar arkitekturen ”%s” för ”%s”"
+
+msgid "assuming section '%s' for '%s'"
+msgstr "antar sektionen ”%s” för ”%s”"
+
+msgid "auto select original source"
+msgstr "välj originalkällkod automatiskt"
+
+msgid "bad binary-only value: %s"
+msgstr "felaktigt värde för endast binär: %s"
+
+msgid "bad changelog format name"
+msgstr "felaktigt namn på ändringsloggformat"
+
+msgid "bad key-value after ';': '%s'"
+msgstr "felaktigt nyckelvärde efter ”;”: ”%s”"
+
+msgid "bad line in substvars file %s at line %d"
+msgstr "felaktig rad i substvars-filen %s på rad %d"
+
+msgid "bad package control information for '%s'"
+msgstr "felaktig paketstyrinformation för %s"
+
+msgid "badly formatted heading line"
+msgstr "felaktigt formaterad rubrikrad"
+
+msgid "badly formatted trailer line"
+msgstr "felaktigt formaterad fotrad"
+
+msgid "badly formatted urgency value: %s"
+msgstr "felaktigt formaterat värde för ”urgency”: %s"
+
+msgid "badly formed file name in files list file, line %d"
+msgstr "felformaterat filnamn i fillistfilen, rad %d"
+
+msgid "badly formed line in files list file, line %d"
+msgstr "felformaterad rad i fillistfilen, rad %d"
+
+msgid "binaries to analyze should already be installed in their package's directory"
+msgstr "binärer som skall analyseras måste redan vara installerade i sitt pakets katalog"
+
+msgid "binary and diff upload (original source NOT included)"
+msgstr "binär- och diffinsändning (originalkällkod tas EJ med)"
+
+msgid "binary build with no binary artifacts found; .buildinfo is meaningless"
+msgstr "binärbygge utan binära artefakter upptäckt; .buildinfo är meningslös"
+
+msgid "binary build with no binary artifacts found; cannot distribute"
+msgstr "binärbygge utan binära artefakter upptäckt; kan inte distribuera"
+
+msgid "binary control file %s"
+msgstr "binär styrfil %s"
+
+msgid "binary file contents changed"
+msgstr "innehåll i binär fil ändrat"
+
+msgid "binary package control file"
+msgstr "binärpaketsts styrinfofil"
+
+msgid "binary package stanza of template control file"
+msgstr "binärpaketstrof från mallstyrinfofil"
+
+msgid "binary path %s not found"
+msgstr "binärsökvägen %s hittades inte"
+
+msgid "binary-only arch-indep upload (source code and arch-specific packages not included)"
+msgstr "endast binär arkitekturoberoende insändning (inkluderar ej källkod och ark-spec. paket)"
+
+msgid "binary-only arch-specific upload (source code and arch-indep packages not included)"
+msgstr "endast binär arkitekturspecifik insändning (inkluderar ej källkod och ark-ober. paket)"
+
+msgid "binary-only upload (no source code included)"
+msgstr "endast binär insändning (inkluderar ej källkod)"
+
+msgid "binary-only upload (no source included)"
+msgstr "endast binär insändning (ingen källkod tas med)"
+
+msgid "block device"
+msgstr "blockenhet"
+
+msgid "build dependencies/conflicts unsatisfied; aborting"
+msgstr "byggberoenden/-konflikter ej uppfyllda; avbryter"
+
+msgid "build driver %s is unknown: %s"
+msgstr "byggdrivrutinen %s är okänd: %s"
+
+msgid "build information file"
+msgstr "bygginformationsfil"
+
+msgid "building %s in %s"
+msgstr "bygger %s i %s"
+
+msgid "building %s using existing %s"
+msgstr "bygger %s med befintlig %s"
+
+msgid "building a source package without cleaning up as you asked; it might contain undesired files"
+msgstr "bygger ett källkodspaket utan att städa upp som efterfrågat; det kan innehålla oönskade filer."
+
+msgid "building source for a binary-only release"
+msgstr "bygger källkod för utgåva med endast binär"
+
+msgid "building source package would overwrite input source %s"
+msgstr "byggning av källkodspaket skulle skriva över in källindata %s"
+
+msgid "bundling: %s"
+msgstr "skapar packe: %s"
+
+msgid "bzr status exited nonzero"
+msgstr "bzr status avslutade med en annan status än noll"
+
+msgid "cannot build with source format '%s': %s"
+msgstr "kan inte bygga med källkodsformatet ”%s”: %s"
+
+msgid "cannot change directory %s mode"
+msgstr "kan inte ändra läge för katalogen %s"
+
+msgid "cannot change directory %s times"
+msgstr "kan inte ändra tider för katalogen %s"
+
+msgid "cannot change directory to %s"
+msgstr "kan inte byta katalog till %s"
+
+msgid "cannot change timestamp for %s"
+msgstr "kan inte ändra tidsstämpel på %s"
+
+msgid "cannot close %s"
+msgstr "kan inte stänga %s"
+
+msgid "cannot close stdout"
+msgstr "kan inte stänga standard ut"
+
+msgid "cannot combine %s and %s"
+msgstr "kan inte kombinera %s och %s"
+
+msgid "cannot continue due to the error above"
+msgid_plural "cannot continue due to the errors listed above"
+msgstr[0] "kan inte fortsätta på grund av ovanstående fel"
+msgstr[1] "kan inte fortsätta på grund av ovanstående fel"
+
+msgid "cannot copy %s to %s"
+msgstr "kan inte kopiera %s till %s"
+
+msgid "cannot create directory %s"
+msgstr "kan inte skapa katalogen %s"
+
+msgid "cannot create directory '%s'"
+msgstr "kan inte skapa katalogen ”%s”"
+
+msgid "cannot create file %s"
+msgstr "kan inte skapa filen %s"
+
+msgid "cannot create file %s to extract from archive %s"
+msgstr "kan inte skapa filen %s att extrahera från arkivet %s"
+
+msgid "cannot create symlink %s"
+msgstr "kan inte skapa den symboliska länken %s"
+
+msgid "cannot determine CC system type, falling back to default (native compilation)"
+msgstr "kunde inte bestämma CC-systemtyp, faller tillbaka på förval (lokal kompilering)"
+
+msgid "cannot extract name and version from library name '%s'"
+msgstr "kan inte extrahera namn och version från biblioteksnamnet ”%s”"
+
+msgid "cannot find '%s'"
+msgstr "kan inte hitta %s"
+
+msgid "cannot find an editor"
+msgstr "kan inte hitta något textredigeringsprogram"
+
+msgid "cannot find library %s needed by %s (ELF format: '%s' abi: '%s'; RPATH: '%s')"
+msgstr "hittade inte biblioteket %s som behövs av %s (ELF-format: ”%s” abi: ”%s”; RPATH: ”%s”)"
+
+msgid "cannot fork for %s"
+msgstr "kan inte grena för %s"
+
+msgid "cannot fstat file %s"
+msgstr "kan inte ta status (fstat) på filen %s"
+
+msgid "cannot get archive %s size"
+msgstr "kan inte hämta storleken för arkivet %s"
+
+msgid "cannot get file %s size"
+msgstr "kan inte hämta storlek på filen %s"
+
+msgid "cannot get source pathname %s metadata"
+msgstr "kan inte hämta metadata för källsökvägsnamnet %s"
+
+msgid "cannot get target pathname %s metadata"
+msgstr "kan inte hämta metadata för målsökvägsnamnet %s"
+
+msgid "cannot identify hardware device for hardware-backed secret keys"
+msgstr "kan inte identifiera maskinvaruenhet för maskinvarustödda hemliga nycklar"
+
+msgid "cannot install output buildinfo file '%s'"
+msgstr "kan inte installera skapad buildinfo-fil ”%s”"
+
+msgid "cannot install output control file '%s'"
+msgstr "kan inte installera utdatastyrfil ”%s”"
+
+msgid "cannot load OpenPGP backend %s"
+msgstr "kan inte läsa in OpenPGP-program %s"
+
+msgid "cannot make %s executable"
+msgstr "kan inte göra %s exekverbar"
+
+msgid "cannot merge symbols from objects without SONAME"
+msgstr "kan inte slå ihop symboler från objekt utan SONAMN"
+
+msgid "cannot mkdir %s"
+msgstr "kan inte skapa katalog %s"
+
+msgid "cannot move %s to %s"
+msgstr "kan inte flytta %s till %s"
+
+msgid "cannot move '%s' to existing file"
+msgstr "kan inte flytta ”%s” till befintlig fil"
+
+msgid "cannot open %s"
+msgstr "kan inte öppna %s"
+
+msgid "cannot open directory %s"
+msgstr "kan inte öppna katalogen %s"
+
+msgid "cannot open file %s"
+msgstr "kan inte öppna filen %s"
+
+msgid "cannot open file %s for binary detection"
+msgstr "kan inte öppna filen %s för att detektera binärtyp"
+
+msgid "cannot open file %s to append to archive %s"
+msgstr "kan inte öppna filen %s för att lägga till arkivet %s"
+
+msgid "cannot open or create archive %s"
+msgstr "kan inte öppna eller skapa arkivet %s"
+
+msgid "cannot opendir %s"
+msgstr "kan inte öppna katalog %s"
+
+msgid "cannot parse %s field"
+msgstr "kan inte tolka fältet %s"
+
+msgid "cannot parse %s field value \"%s\""
+msgstr "kan inte tolka fältet %s med värdet ”%s”"
+
+msgid "cannot parse control information from %s"
+msgstr "kan inte tolka styrinformation från %s"
+
+msgid "cannot parse dependency %s"
+msgstr "kan inte tolka beroendet %s:"
+
+msgid "cannot parse dynamic relocation record: %s"
+msgstr "kan inte tolka dynamisk relokeringspost: %s"
+
+msgid "cannot parse dynamic symbol definition: %s"
+msgstr "kan inte tolka definition av dynamisk symbol: %s"
+
+msgid "cannot parse maintainer email address \"%s\" from changelog entry"
+msgstr "kan inte tolka ansvariges epostadress ”%s” från ändringsloggposten"
+
+msgid "cannot parse non-conformant date '%s'"
+msgstr "kan inte tolka felformaterat datum ”%s”"
+
+msgid "cannot perform operation on hardware-backed secret key"
+msgstr "kan inte utföra åtgärd på maskinvarustödd hemlig nyckel"
+
+msgid "cannot read %s"
+msgstr "kan inte läsa %s"
+
+msgid "cannot read %s; archive %s at offset %d"
+msgstr "kan inte läsa %s; arkivet %s vid position %d"
+
+msgid "cannot read %s; archive %s is truncated at offset %d"
+msgstr "kan inte läsa %s; arkivet %s är trunkerat vid position %d"
+
+msgid "cannot read directory %s: %s"
+msgstr "kan inte läsa katalogen %s: %s"
+
+msgid "cannot read file %s"
+msgstr "kan inte läsa filen %s"
+
+msgid "cannot read link %s"
+msgstr "kan inte läsa länken %s"
+
+msgid "cannot read timestamp from %s"
+msgstr "kan inte läsa tidsstämpel från %s"
+
+msgid "cannot register changes in %s, this patch already exists"
+msgstr "kan inte registrera ändringar i %s, patchen finns redan"
+
+msgid "cannot remove %s"
+msgstr "kan inte ta bort %s"
+
+msgid "cannot remove destination directory %s"
+msgstr "kan inte ta bort målkatalogen %s"
+
+msgid "cannot remove destination file %s"
+msgstr "kan inte ta bort målfilen %s"
+
+msgid "cannot represent change to %s:"
+msgstr "kan inte representera ändringen för %s:"
+
+msgid "cannot represent change to %s: %s"
+msgstr "kan inte representera ändringen för %s: %s"
+
+msgid "cannot seek into beginning of archive %s"
+msgstr "kan inte söka till början på arkivet %s"
+
+msgid "cannot seek into file %s"
+msgstr "kan inte söka inuti filen %s"
+
+msgid "cannot seek into next file header at offset %d from archive %s"
+msgstr "kan inte söka in i nästa filhuvud vid positionen %d från arkivet %s"
+
+msgid "cannot stat %s"
+msgstr "kan inte ta status på %s"
+
+msgid "cannot stat directory %s"
+msgstr "kan inte ta status på katalogen %s"
+
+msgid "cannot stat directory %s (before removal)"
+msgstr "kan inte ta status på katalogen %s (före borttagning)"
+
+msgid "cannot stat file %s"
+msgstr "kan inte ta status på filen %s"
+
+msgid "cannot stat orig argument %s"
+msgstr "kunde inte ta status på originalargumentet %s"
+
+msgid "cannot unlock password-protected key"
+msgstr "kan inte låsa upp lösenordsskyddad nyckel"
+
+msgid "cannot unpack bzr-format source package because bzr is not in the PATH"
+msgstr "kan inte packa upp källkodspaket i bzr-format då bzr inte finns i PATH"
+
+msgid "cannot unpack git-format source package because git is not in the PATH"
+msgstr "kan inte packa upp källkodspaket i git-format då git inte finns i PATH"
+
+msgid "cannot verify inline signature for %s: %s"
+msgstr "kan inte bekräfta inbyggd signatur för %s: %s"
+
+msgid "cannot verify upstream tarball signature for %s: %s"
+msgstr "kan inte bekräfta uppströms tarboll-signatur för %s: %s"
+
+msgid "cannot write %s"
+msgstr "kan inte skriva %s"
+
+msgid "cannot write file %s"
+msgstr "kan inte skriva filen %s"
+
+msgid "cannot write file %s padding to archive %s"
+msgstr "kan inte skriva fyllning för filen %s till arkivet %s"
+
+msgid "cannot write file %s to the filesystem"
+msgstr "kan inte skriva filen %s till filsystemet"
+
+msgid "cannot write file header into archive %s"
+msgstr "kan inte skriva filhuvudet till arkivet %s"
+
+msgid "cannot write magic into archive %s"
+msgstr "kan inte skriva magiskt tal till arkivet %s"
+
+msgid "changelog format %s is not a Dpkg::Changelog class"
+msgstr "ändringsloggformatet %s är inte en Dpkg::Changelog-klass"
+
+msgid "changelog format %s is unknown: %s"
+msgstr "ändringsloggformatet %s är okänt: %s"
+
+msgid "character '%s' not allowed"
+msgstr "tecknet ”%s” är inte tillåtet"
+
+msgid "character device"
+msgstr "teckenenhet"
+
+msgid "chdir to %s"
+msgstr "chdir till ”%s”"
+
+msgid "check if the library actually comes from a package"
+msgstr "se om biblioteket faktiskt kommer från ett paket."
+
+msgid "check-command '%s' not found"
+msgstr "testkommandot ”%s” hittades inte"
+
+msgid "child process"
+msgstr "barnprocess"
+
+msgid "cloning %s"
+msgstr "klonar %s"
+
+msgid "close on tar input"
+msgstr "stängning av tar-indata"
+
+msgid "compression threads %s is not a number"
+msgstr "packartrådar %s är inte ett talvärde"
+
+msgid "conflicting checksums '%s' and '%s' for file '%s'"
+msgstr "motsägande kontrollsummor ”%s” och ”%s” för filen ”%s”"
+
+msgid "conflicting file sizes '%u' and '%u' for file '%s'"
+msgstr "motsägande filstorlekar ”%u” och ”%u” för filen ”%s”"
+
+msgid "continued value line not in field"
+msgstr "fortsatt värderad inte i fält"
+
+msgid "control information"
+msgstr "styrinformation"
+
+msgid "copy of the debian directory"
+msgstr "kopia av debian-katalogen"
+
+msgid "create a shallow clone with <number> depth"
+msgstr "skapa en grund klon med djupet <antal>"
+
+msgid "create an empty original tarball if missing"
+msgstr "skapa en tom original-tarboll om saknas"
+
+msgid "created directory '%s'"
+msgstr "skapade katalogen ”%s”"
+
+msgid "creating shallow clone with depth %s"
+msgstr "skapar grund klon med djupet %s"
+
+msgid "current host architecture '%s' does not appear in package '%s' architecture list (%s)"
+msgstr "den aktuella värdarkitekturen ”%s” finns inte i paketet ”%s”:s arkitekturlista (%s)"
+
+msgid "default GNU system type %s for Debian arch %s does not match specified GNU system type %s"
+msgstr "förvald GNU-systemtyp %s för Debianarkitekturen %s stämmer inte med den angivna GNU-systemtypen %s"
+
+msgid "define the format of the generated source package"
+msgstr "ange formatet för genererat källkodspaket"
+
+msgid "deprecated use of LD_LIBRARY_PATH with private library directory which interferes with cross-building, please use -l option instead"
+msgstr "ej rekommenderad användning av LD_LIBRARY_PATH med privat biblioteksktalog som stör kryssbyggning, använd flaggan -l istället"
+
+msgid "deprecated wildcard syntax in \"%s\"; use \"%s\" instead"
+msgstr "föråldrad jokersyntax i ”%s”; använd ”%s” istället"
+
+msgid "detected %d unwanted binary file (add it in debian/source/include-binaries to allow its inclusion)."
+msgid_plural "detected %d unwanted binary files (add them in debian/source/include-binaries to allow their inclusion)."
+msgstr[0] "upptäckte %d oönskad binärfil (lägg till den i debian/source/include-binaries för att tillåta att den tas med)."
+msgstr[1] "upptäckte %d oönskade binärfiler (lägg till dem i debian/source/include-binaries för att tillåta att de tas med)."
+
+msgid "device or socket is not allowed"
+msgstr "enhet eller uttag inte tillåtet"
+
+msgid "diff %s modifies file %s through a symlink: %s"
+msgstr "diffen %s ändrar filen %s genom en symbolisk länk: %s"
+
+msgid "diff %s patches file with C-style encoded filename"
+msgstr "diffen ”%s” patchar fil med filnamn kodat i C-stil"
+
+msgid "diff %s removes a non-existing file %s (line %d)"
+msgstr "diffen %s tar bort filen %s som inte finns (rad %d)"
+
+msgid "diff '%s' does not contain any patch"
+msgstr "diffen ”%s” innehåller inte någon patch"
+
+msgid "diff '%s' finishes in middle of ---/+++ (line %d)"
+msgstr "diffen ”%s” slutar mitt i en ---/+++ (rad %d)"
+
+msgid "diff '%s' patches file %s more than once"
+msgstr "diffen ”%s” patchar filen %s mer än en gång"
+
+msgid "diff '%s' patches file with name ending in .dpkg-orig"
+msgstr "diffen ”%s” patchar fil vars namn slutar på .dpkg-orig"
+
+msgid "diff '%s' patches files multiple times; split the diff in multiple files or merge the hunks into a single one"
+msgstr "diffen ”%s” patchar filer flera gånger; dela diffen i flera filer eller slå ihop styckena till ett enda"
+
+msgid "diff '%s' patches hard link %s which can have unintended consequences"
+msgstr "diffen ”%s” patchar hårda länken %s som kan ha oavsiktliga konsekvenser"
+
+msgid "diff '%s' patches something which is not a plain file"
+msgstr "diffen ”%s” patchar något som inte är en vanlig fil"
+
+msgid "diff on %s"
+msgstr "diff på %s"
+
+msgid "directory"
+msgstr "katalog"
+
+msgid "directory argument %s is not a directory"
+msgstr "katalogargumentet %s är inte en katalog"
+
+msgid "disallowed target in %s field keyword %s"
+msgstr "otillåtet mål i %s-fältet nyckelord %s"
+
+msgid "diversions involved - output may be incorrect"
+msgstr "omdirigeringar finns - utdata kan vara felaktiga"
+
+msgid "do not apply debian diff to upstream sources"
+msgstr "applicera inte debian-diff på uppströmskällkod"
+
+msgid "do not apply patches at the end of the extraction"
+msgstr "applicera inte patcher efter uppackningen"
+
+msgid "do not copy original source to current directory"
+msgstr "kopiera inte originalkällkod till aktuell katalog"
+
+msgid "do not extract debian tarball into upstream sources"
+msgstr "extrahera inte debian-tarboll i uppströmskällkod"
+
+msgid "do not prepare build tree by applying patches"
+msgstr "förbered inte byggträdet genom att applicera patchar"
+
+msgid "do not unapply patches if previously applied"
+msgstr "avapplicera inte patchar om de redan har applicerats"
+
+msgid "does not contain a bzr repository"
+msgstr "innehåller inte ett bzr-arkiv"
+
+msgid "does not contain a git repository"
+msgstr "innehåller inte något git-arkiv"
+
+msgid "dpkg build API level '%s' greater than max '%s'"
+msgstr "dpkg-bygg-API-nivån ”%s” större än maxvärdet ”%s”"
+
+msgid "dpkg build API level needs an exact version"
+msgstr "måste ange en exakt version för dpkg-bygg-API-nivå"
+
+msgid "dpkg build API level with conflicting versions: %s vs %s"
+msgstr "dpkg-bygg-API-nivå med motstridande versioner: %s mot %s"
+
+msgid "duplicate field %s found"
+msgstr "duplicerat fält %s hittades"
+
+msgid "duplicate files in %s source package: %s"
+msgstr "dubblerade filer i %s-källkodspaket: %s"
+
+msgid "duplicate files list entry for file %s (line %d)"
+msgstr "duplicerad fillistpost för filen %s (rad %d)"
+
+msgid "email address '%s' with single label domain"
+msgstr "epostadress ”%s” med domän med enkel etikett"
+
+msgid "epoch part of the version number cannot be empty"
+msgstr "epokdelen av versionsnumret kan inte vara tom"
+
+msgid "epoch part of the version number is not a number: '%s'"
+msgstr "epokdelen av versionsnumret är inte ett tal: ”%s”"
+
+msgid "error"
+msgstr "fel"
+
+msgid "error code %d"
+msgstr "felkod %d"
+
+msgid "executable mode %04o of '%s' will not be represented in diff"
+msgstr "exekveringsläge %04o på ”%s” kommer inte representeras i diffen"
+
+msgid "expected %s, got %s"
+msgstr "förväntade %s, fick %s"
+
+msgid "expected OpenPGP signature, found end of file after blank line"
+msgstr "förväntade OpenPGP-signatur, hittade filslut efter tomrad"
+
+msgid "expected OpenPGP signature, found something else '%s'"
+msgstr "förväntade OpenPGP-signatur, hittade något annat ”%s”"
+
+msgid "expected [ +-] at start of line %d of diff '%s'"
+msgstr "förväntade [ + ] vid början av rad %d i diffen ”%s”"
+
+msgid "expected ^--- in line %d of diff '%s'"
+msgstr "förväntade ^--- på rad %d i diffen ”%s”"
+
+msgid "expected ^@@ at line %d of diff '%s'"
+msgstr "förväntade ^@@ på rad %d i diffen ”%s”"
+
+msgid "extracting %s in %s"
+msgstr "extraherar %s i %s"
+
+msgid "extracting source package %s"
+msgstr "extraherar källkodspaket %s"
+
+msgid "extracting unsigned source package (%s)"
+msgstr "extraherar osignerat källkodspaket (%s)"
+
+msgid "failed to copy %s to %s"
+msgstr "misslyckades att kopiera %s till %s"
+
+msgid "failed to get a write lock on %s"
+msgstr "misslyckades få ett skrivlås på %s"
+
+msgid "failed to parse a line in %s: %s"
+msgstr "misslyckades att tolka en rad i %s: %s"
+
+msgid "failed to parse line in %s: %s"
+msgstr "misslyckades att tolka en rad i %s: %s"
+
+msgid "failed to rename newly-extracted %s to %s"
+msgstr "misslyckades att ta bort %s, som just extraherats, till %s"
+
+msgid "failed to rename saved %s to %s"
+msgstr "misslyckades att byta namn på sparad %s till %s"
+
+msgid "failed to sign %s file: %s"
+msgstr "misslyckades att signera %s-fil: %s"
+
+msgid "failed to write"
+msgstr "misslyckades att skriva"
+
+msgid "failed when writing stdout"
+msgstr "misslyckades vid skrivning på standard ut"
+
+msgid ""
+"fakeroot not found, either install the fakeroot\n"
+"package, specify a command with the -r option, or run this as root"
+msgstr ""
+"fakeroot hittades inte, du kan installera paketet fakeroot,\n"
+"ange ett kommando med flaggan -r, eller köra som root"
+
+msgid "fatal error occurred while parsing %s"
+msgstr "ödesdigert fel vid tolkning av %s"
+
+msgid "field %s contains duplicate keyword %s"
+msgstr "fältet %s innehåller duplicerat nyckelord %s"
+
+msgid "field cannot start with a hyphen"
+msgstr "fält kan inte inledas med bindestreck"
+
+msgid "file %s has checksum %s instead of expected %s (algorithm %s)"
+msgstr "filen %s har kontrollsumman %s istället för den förväntade %s (algoritm %s)"
+
+msgid "file %s has no final newline (either original or modified version)"
+msgstr "filen %s har inget avslutande nyradstecken (antingen i ursprunglig eller modifierad version)"
+
+msgid "file %s has size %u instead of expected %u"
+msgstr "filen %s har storleken %u istället för den förväntade %u"
+
+msgid "file arguments need to exist"
+msgstr "filargument måste finnas"
+
+msgid "file header at offset %d in archive %s contains bad magic"
+msgstr "filhuvudet vid position %d i arkivet %s har fel magiskt tal"
+
+msgid "file member %s in archive %s contains empty %s field"
+msgstr "filmedlemmen %s i arkivet %s har tomt fält %s"
+
+msgid "file removal without proper filename in diff '%s' (line %d)"
+msgstr "borttagen fil saknar korrekt filnamn i diffen ”%s” (rad %d)"
+
+msgid "filename %s is too long"
+msgstr "filnamnet %s är för långt"
+
+msgid "filename, section and priority may contain no whitespace"
+msgstr "filnamn, sektion och prioritet kan inte innehålla blanktecken"
+
+msgid "files stanza of copyright file"
+msgstr "files-strof i copyright-filen"
+
+msgid "first heading"
+msgstr "första rubrik"
+
+msgid "first stanza lacks a '%s' field"
+msgstr "första stycket saknar ”%s”-fält"
+
+msgid "format v3.0 (bzr) uses only one source file"
+msgstr "formatet v3.0 (bzr) innehåller endast en källkodsfil"
+
+msgid "format v3.0 (git) expected %s"
+msgstr "formatet v3.0 (git) förväntade %s"
+
+msgid "format v3.0 (git) unknown file: %s"
+msgstr "formatet v3.0 (git) okänd fil: %s"
+
+msgid "format v3.0 (git) uses only one .git file"
+msgstr "formatet v3.0 (git) använder endast en ”.git”-fil"
+
+msgid "format v3.0 (git) uses only one .gitshallow file"
+msgstr "formatet v3.0 (git) använder endast en ”.gitshallow”-fil"
+
+msgid "found blank line where expected %s"
+msgstr "hittade blank rad där %s förväntades"
+
+msgid "found change data where expected %s"
+msgstr "hittade ändringsdata där %s förväntades"
+
+msgid "found end of file where expected %s"
+msgstr "hittade filslut där %s förväntades"
+
+msgid "found non-interoperable LibrePGP artifact in %s, only OpenPGP is supported"
+msgstr "hittade icke-interoperabel LibrePGP-artefakt i %s, endast OpenPGP stöds"
+
+msgid "found start of entry where expected %s"
+msgstr "hittade början på posten där %s förväntades"
+
+msgid "found trailer where expected %s"
+msgstr "hittade fot där %s förväntades"
+
+msgid "full upload (original source is included)"
+msgstr "komplett insändning (originalkällkod tas med)"
+
+msgid "full upload; Debian-native package (full source is included)"
+msgstr "komplett insändnig; Debianeget paket (komplett källkod tas med)"
+
+msgid "gain-root-command '%s' not found"
+msgstr "få-root-kommandot ”%s” hittades inte"
+
+msgid "git ls-files exited nonzero"
+msgstr "git ls-files avslutade med en annan status än noll"
+
+msgid "git repository %s uses submodules; this is not yet supported"
+msgstr "git-arkivet %s använder undermoduler; detta stöds inte ännu"
+
+msgid "header stanza of copyright file"
+msgstr "huvud-strof i copyright-filen"
+
+msgid "hint"
+msgstr "tips"
+
+msgid "host architecture"
+msgstr "värdarkitektur"
+
+msgid "if patch '%s' is correctly applied by quilt, use '%s' to update it"
+msgstr "om patchen ”%s” kan tillämpas korrekt av quilt använder du ”%s” för att uppdatera den"
+
+msgid "if the file is present in the unpacked source, make sure it is also present in the orig tarball"
+msgstr "om filen finns i det uppackage källkodsträdet, se till att den också finns i orig-tarbollen"
+
+msgid "ignoring -sd option for native Debian package"
+msgstr "ignorerar flaggan -sd för Debianspecifikt paket"
+
+msgid "ignoring deletion of directory %s"
+msgstr "ignorerar borttagning av katalogen %s"
+
+msgid "ignoring deletion of file %s"
+msgstr "ignorerar borttagning av filen %s"
+
+msgid "ignoring deletion of file %s, use --include-removal to override"
+msgstr "ignorerar borttagning av filen %s, använd --include-removal för att överstyra"
+
+msgid "ignoring deletion of symlink %s"
+msgstr "ignorerar borttagning av symboliska länken %s"
+
+msgid "ignoring duplicate override entry for %s at line %d"
+msgstr "ignorerar duplicerad överstyrningspost för %s på rad %d"
+
+msgid "ignoring duplicate source override entry for %s at line %d"
+msgstr "ignorerar duplicerad källkodsöverstyrningspost för %s på rad %d"
+
+msgid "ignoring invalid week day '%s'"
+msgstr "ignorerar ogiltig veckodag ”%s”"
+
+msgid "ignoring override entry for %s, invalid priority %s"
+msgstr "ignorerar överstyrningspost för %s, ogiltig prioritet %s"
+
+msgid "imported own keys might be missing ownership information, try:"
+msgstr "importerade egna nycklar kan sakna information om ägarskap, testa:"
+
+msgid "include binary files in the tarball"
+msgstr "ta med binärfiler i patchen"
+
+msgid "include removed files in the patch"
+msgstr "ta med borttagna filer i patchen"
+
+msgid "include timestamp in the patch"
+msgstr "ta med tidsstämpeln i patchen"
+
+msgid "including full source code in upload"
+msgstr "sänder med komplett källkod med denna insändning"
+
+msgid "incorrect value in %s option of %s variable: %s"
+msgstr "felaktigt värde i flaggan %s i variabeln %s: %s"
+
+msgid "info"
+msgstr "info"
+
+msgid "input file does not exist"
+msgstr "indatafilen finns inte"
+
+msgid "install new files list file"
+msgstr "installerar ny fillistfil"
+
+msgid "install new varlist file '%s'"
+msgstr "installerar ny varlistefil ”%s”"
+
+msgid "invalid abbreviated month name '%s'"
+msgstr "ogiltigt förkortat månadsnamn ”%s”"
+
+msgid "invalid data type"
+msgstr "ogiltig datatyp"
+
+msgid "invalid dependency got generated: %s"
+msgstr "ogiltigt beroende skapades: %s"
+
+msgid "invalid dpkg build API level '%s'"
+msgstr "ogiltig dpkg-bygg-API-nivå ”%s”"
+
+msgid "invalid email address '%s'"
+msgstr "ogiltig e-postadress ”%s”"
+
+msgid "invalid email address list '%s'"
+msgstr "ogiltig e-postadresslista ”%s”"
+
+msgid "invalid filename %s"
+msgstr "ogiltigt filnamn %s"
+
+msgid "invalid flag in %s: %s"
+msgstr "felaktig flagga i %s: %s"
+
+msgid "invalid line in %s checksums string: %s"
+msgstr "ogiltigtrad i %s-kontrollsummesträng: %s"
+
+msgid "invalid override entry at line %d (%d fields)"
+msgstr "felaktig överstyrningspost på rad %d (%d fält)"
+
+msgid "invalid package name '%s': %s"
+msgstr "ogiltigt paketnamn ”%s”: %s"
+
+msgid "invalid source override entry at line %d (%d fields)"
+msgstr "felaktig källkodsöverstyrningspost på rad %d (%d fält)"
+
+msgid "invalid source version %s"
+msgstr "ogiltigt källkodsversion %s"
+
+msgid "invalid syntax for option in %s, line %d"
+msgstr "syntaxfel för flagga i %s, rad %d"
+
+msgid "key is not signature-capable"
+msgstr "nyckeln kan inte används för signering"
+
+msgid "leave original source packed in current directory"
+msgstr "lämna originalkällkod packad i aktuell katalog"
+
+msgid "license stanza of copyright file"
+msgstr "licens-strof i copyright-filen"
+
+msgid "like -sa, -sk, -sp, -su, -sr but may overwrite"
+msgstr "som -sa, -sk, -sp, -su, -sr men kan skriva över"
+
+msgid "line %d of %s is invalid, it has been ignored"
+msgstr "rad %d i %s är ogiltig och har ignorerats"
+
+msgid "line %d of %s mentions unknown flag %s"
+msgstr "rad %d i %s anger okänd flagga %s"
+
+msgid "line after --- is not as expected in diff '%s' (line %d)"
+msgstr "raden efter --- är inte som förväntad i diffen ”%s” (rad %d)"
+
+msgid "line with unknown format (not field-colon-value)"
+msgstr "rad med okänt format (inte fält-kolon-värde)"
+
+msgid "local changes detected, the modified files are:"
+msgstr "lokala ändringar upptäcktes, de ändrade filerna är:"
+
+msgid "local changes have been recorded in a new patch: %s"
+msgstr "lokala ändringar har skrivits till en ny patch: %s"
+
+msgid "long OpenPGP key IDs are strongly discouraged; please use key fingerprints in %s or %s instead"
+msgstr "långa OpenPGP-nyckel-id:n rekommenderas inte; använd nyckelfingeravtryck i %s eller %s istället"
+
+msgid "make sure the version in debian/changelog matches the unpacked source tree"
+msgstr "se till att versionen i debian/changelog motsvarar det uppackade källkodsträdet"
+
+msgid "may not be empty string"
+msgstr "får inte vara en tom sträng"
+
+msgid "mismatched addon orig.tar %s for signature %s in source package"
+msgstr "saknad tilläggs-orig.tar %s för signaturen %s i källkodspaketet"
+
+msgid "mismatched orig.tar %s for signature %s in source package"
+msgstr "saknad orig.tar %s för signaturen %s i källkodspaketet"
+
+msgid "missing .buildinfo filename"
+msgstr "saknat .buildinfo-filnamn"
+
+msgid "missing .changes filename"
+msgstr "saknat .changes-filnamn"
+
+msgid "missing OpenPGP implementation"
+msgstr "saknad OpenPGP-implementation"
+
+msgid "missing OpenPGP keyrings"
+msgstr "saknade OpenPGP-nyckelringar"
+
+msgid "missing action"
+msgstr "åtgärd saknas"
+
+msgid "missing addon orig.tar for signature %s in source package"
+msgstr "saknad orig.tar för signaturen %s i källkodspaketet"
+
+msgid "missing changelog filename"
+msgstr "saknat ändringsloggfilnamn"
+
+msgid "missing critical source control field %s"
+msgstr "saknar kritiska källkodsstyrfältet %s"
+
+msgid "missing hook %s command"
+msgstr "saknat kommando för haken %s"
+
+msgid "missing information for critical output field %s"
+msgstr "saknar information för kritiskt utdatafält %s"
+
+msgid "missing information for output field %s"
+msgstr "saknar information för utdatafält %s"
+
+msgid "missing information for output field %s; using default value \"%s\""
+msgstr "saknar information för utdatafältet %s; använder förvalt värde ”%s”"
+
+msgid "missing orig.tar or debian.tar file in v2.0 source package"
+msgstr "saknad orig.tar- eller debian.tar-fil för v2.0-källkodspaket"
+
+msgid "missing required argument"
+msgstr "saknat nödvändigt argument"
+
+msgid "mkdir can be used to create directory"
+msgstr "mkdir kan användas för att skapa katalogen"
+
+msgid "more change data or trailer"
+msgstr "mer ändringsdata eller fot"
+
+msgid "moved '%s' to '%s'"
+msgstr "flyttade ”%s” till ”%s”"
+
+msgid "multiple concatenated ASCII Armor blocks in %s, which is not an interoperable construct, see <%s>"
+msgstr "flera sammanslagna ASCII-skalblock i %s, vilket inte är en interoperabel konstruktion, se <%s>"
+
+msgid "multiple tarfiles in native source package"
+msgstr "flera tarfiler i eget källkodspaket"
+
+msgid "multiple tarfiles in v1.0 source package"
+msgstr "flera tarfiler i v1.0-källkodspaket"
+
+msgid "must specify package since control info has many (%s)"
+msgstr "måste ange paket eftersom styrinfo har flera (%s)"
+
+msgid "must start with an alphanumeric character"
+msgstr "måste börja med ett alfanumeriskt tecken"
+
+msgid "mutually exclusive options"
+msgstr "ömsesidigt uteslutande flaggor"
+
+msgid "named pipe"
+msgstr "namngivet rör"
+
+msgid "named socket"
+msgstr "namngivet uttag"
+
+msgid "native package version may not have a revision"
+msgstr "Debianegen paketversion kan inte ha en debianuppdateringsversion"
+
+msgid "native package with .orig.tar"
+msgstr "Debianspecifikt paket med .orig.tar"
+
+msgid "need an action option"
+msgstr "åtgärd krävs"
+
+msgid "need at least a filename"
+msgstr "behöver minst ett filnamn"
+
+msgid "need at least one executable"
+msgstr "behöver minst en binär"
+
+msgid "need exactly a filename, section and priority"
+msgstr "behöver exakt ett filnamn, en sektion och en prioritet"
+
+msgid "needs at least three arguments"
+msgstr "behöver åtminstone tre argument"
+
+msgid "new libraries appeared in the symbols file: %s"
+msgstr "nya bibliotek dök upp i symbolfilen: %s"
+
+msgid "newly created empty file '%s' will not be represented in diff"
+msgstr "den tomma filen ”%s” som just skapats kommer inte representeras i diffen"
+
+msgid "next heading or end of file"
+msgstr "nästa rubrik eller filslut"
+
+msgid "no Package field found in '%s', skipping package"
+msgstr "inget Package-fält hittades i ”%s”, hoppar över paketet"
+
+msgid "no Package field in control file of %s"
+msgstr "inget Package-fält i styrfilen för %s"
+
+msgid "no acceptable signature found"
+msgstr "ingen godtagbar signatur hittades"
+
+msgid "no arguments accepted"
+msgstr "inga argument godtas"
+
+msgid "no binary packages specified in %s"
+msgstr "inget binärpaket angivet i %s"
+
+msgid "no debian/symbols file used as basis for generating %s"
+msgstr "använde ingen debian/symbols-fil som grund för att generera %s"
+
+msgid "no dependency information found for %s (used by %s)"
+msgstr "hittade ingen beroendeinformation för %s (använd av %s)"
+
+msgid "no files indicated on command line"
+msgstr "inga filer angavs på kommandoraden"
+
+msgid "no package stanza found in control info"
+msgstr "paketstrof saknas i styrinfo"
+
+msgid "no patch name given; cannot proceed"
+msgstr "inget patchnamn angavs; kan inte fortsätta"
+
+msgid "no source format specified in %s, see dpkg-source(1)"
+msgstr "källkodsformat ej angivet i %s, se dpkg-source(1)"
+
+msgid "no such directory '%s', try --create-dir (-c) option"
+msgstr "katalogen ”%s” finns inte, försök med flaggan --create-dir (-c)"
+
+msgid "no such entry found, ignoring '%s' parameter '%s'"
+msgstr "hittade ingen sådan post, ignorerar ”%s”-parametern ”%s”"
+
+msgid "no tarfile in Files field"
+msgstr "ej tarfil i Files-fältet"
+
+msgid "no upstream tarball found at %s"
+msgstr "hittade ingen uppströms-tarboll på %s"
+
+msgid "non-native package version does not contain a revision"
+msgstr "icke-Debianegen paketversion saknar debianuppdateringsversion"
+
+msgid "non-sensical field export rules (%s) in field %s in binary stanza from source package template control file"
+msgstr "exportreglerna (%s) i fältet %s i binärstrofen från källkodspaketets mallstyrfil ger ingen mening"
+
+msgid "non-text input where text expected"
+msgstr "icke-text där text förväntades"
+
+msgid "none found, starting from the oldest entry"
+msgstr "hittade ingen, börjar från den äldsta posten"
+
+msgid "none of the filenames in ---/+++ are valid in diff '%s' (line %d)"
+msgstr "inget av filnamnen i ---/+++ är giltiga i diffen ”%s” (rad %d)"
+
+msgid "nonexistent"
+msgstr "saknas"
+
+msgid "not including original source code in upload"
+msgstr "tar inte med ursprunglig källkod i denna insändning"
+
+msgid "not signing UNRELEASED build; use --force-sign to override"
+msgstr "signerar inte ”UNRELEASED”-bygge; använd --force-sign för att överstyra"
+
+msgid "notice"
+msgstr "meddelande"
+
+msgid "obsolete substitution variable ${%s}"
+msgstr "föråldrad substitueringsvariabel ${%s}"
+
+msgid "old OpenPGP packet in %s with indeterminate length"
+msgstr "gammalt OpenPGP-paket i %s med obestämd längd"
+
+msgid "one to three arguments expected"
+msgstr "ett till tre argument förväntades"
+
+msgid "only supports gzip compression"
+msgstr "stöder endast gzip-komprimering"
+
+msgid "option %s is only meaningful with option %s"
+msgstr "flaggan %s ger endast mening med flaggan %s"
+
+msgid "orig argument %s is not a plain file or directory"
+msgstr "orig-parametern %s är inte en vanlig fil eller katalog"
+
+msgid "orig argument is empty (means no orig, no diff) but source handling style -s%s wants something"
+msgstr "originalargument är tomt (betyder ingen orig, ingen diff) men källkodshanteringstypen -s%s ber om något"
+
+msgid "orig argument is packed but source handling style -s%s calls for unpacked (.orig/)"
+msgstr "originalargument har packats men källkodshanteringstypen -s%s ber om en uppackad (orig/)"
+
+msgid "orig argument is unpacked but source handling style -s%s calls for packed (.orig.tar.<ext>)"
+msgstr "originalargument har packats upp men källkodshanteringstypen -s%s ber om en packad (.orig.tar.<ändelse>)"
+
+msgid "orig directory '%s' already exists, not overwriting, giving up; use -sA, -sK or -sP to override"
+msgstr "originalkatalog ”%s” finns redan, skriver inte över, ger upp; använd -sA, -sK eller -sP för att överstyra"
+
+msgid "original and modified files are /dev/null in diff '%s' (line %d)"
+msgstr "original och ändrad fil är /dev/null i diffen ”%s” (rad %d)"
+
+msgid "output file already exists"
+msgstr "utdatafilen finns redan"
+
+msgid "override file %s not found"
+msgstr "överstyrningsfilen %s hittades inte"
+
+msgid "package %s (filename %s) has Filename field!"
+msgstr "paketet %s (filnamn %s) har Filename-fält!"
+
+msgid "package %s (filename %s) is repeat but newer version; used that one and ignored data from %s!"
+msgstr "paketet %s (filnamn %s) repeterades men nyare version; använde den och ignorerade data från %s!"
+
+msgid "package %s (filename %s) is repeat; ignored that one and using data from %s!"
+msgstr "paketet %s (filnamn %s) repeterades; ignorerade den och använde data från %s!"
+
+msgid "package %s has value '%s' in %s field in control file but '%s' in files list"
+msgstr "paketet %s har värdet ”%s” i fältet ”%s” i styrinfofilen men ”%s” i fillistan"
+
+msgid "package %s in control file but not in files list"
+msgstr "paketet %s i styrinfofilen men inte i fillistfilen"
+
+msgid "package %s listed in files list but not in control info"
+msgstr "paketet %s listat i fillista men inte i styrinfo"
+
+msgid "package %s not in control info"
+msgstr "paketet %s inte i styrinfo"
+
+msgid "package %s: "
+msgstr "paketet %s: "
+
+msgid "package could avoid a useless dependency if %s was not linked against %s (it uses none of the library's symbols)"
+msgid_plural "package could avoid a useless dependency if %s were not linked against %s (they use none of the library's symbols)"
+msgstr[0] "paketet kunde undvika ett onödigt beroende om %s inte länkades mot %s (det använder inget av bibliotekets symboler)"
+msgstr[1] "paketet kunde undvika ett onödigt beroende om %s inte länkades mot %s (de använder inget av bibliotekets symboler)"
+
+msgid "packed orig '%s' exists but is not a plain file"
+msgstr "packad orig ”%s” finns men är inte en vanlig fil"
+
+msgid "parsed version of changelog"
+msgstr "tolkad version av ändringslogg"
+
+msgid "parsing package '%s' %s field: %s"
+msgstr "tolkar paketet ”%s”:s fält %s: %s"
+
+msgid "partial read %s (%d bytes of %d total)"
+msgstr "delvis läsning av %s (%d byte av %d totalt)"
+
+msgid "passing %s via %s is not supported; please use %s instead"
+msgstr "sända %s via %s stöds inte; använd ”%s” istället"
+
+msgid "patch file '%s' does not exist"
+msgstr "patchfilen ”%s” finns inte"
+
+msgid "patches are not applied, applying them now"
+msgstr "patcharna har inte tillämpats, tillämpar dem nu"
+
+msgid "pathname '%s' cannot be canonicalized"
+msgstr "sökvägsnamnet ”%s” kan inte kanoniseras"
+
+msgid "pathname '%s' points outside source root (to '%s')"
+msgstr "sökvägsnamnet ”%s” pekar till utanför källkodsroten (på ”%s”)"
+
+msgid "pattern '%s' did not match any file"
+msgstr "mönstret ”%s” motsvarade inte någon fil"
+
+msgid "pipe for %s"
+msgstr "rör för %s"
+
+msgid "plain file"
+msgstr "vanlig fil"
+
+msgid "record generated patches, instead of aborting"
+msgstr "spara skapade patchar istället för att avbryta"
+
+msgid "remove patch backup file %s"
+msgstr "tar bort patchsäkerhetskopian %s"
+
+msgid "removing extracted source directory %s"
+msgstr "tar bort extraherat källkodskatalog %s"
+
+msgid "reopen stdin"
+msgstr "öppna standard in på nytt"
+
+msgid "reopen stdout"
+msgstr "öppna standard ut på nytt"
+
+msgid "repeated key-value %s"
+msgstr "repeterat nyckelvärde %s"
+
+msgid "repository's %s file"
+msgstr "förrådets %s-fil"
+
+msgid "required removal of '%s' installed by original tarball"
+msgstr "nödvändig borttagning av ”%s” installerad av originaltarboll"
+
+msgid "required substitution variable ${%s} not used"
+msgstr "krävd substitueringsvariabel ${%s} används inte"
+
+msgid "restoring quilt backup files for %s"
+msgstr "återställer quilt-säkerhetskopior för %s"
+
+msgid "revision cannot be empty"
+msgstr "revisionen kan inte vara tom"
+
+msgid "rm -rf failed to remove '%s'"
+msgstr "rm -rf misslyckades att ta bort ”%s”"
+
+msgid "satisfy build dependencies with your package manager frontend"
+msgstr "uppfyll byggberoenden med ditt pakethanterarskal"
+
+msgid "see diff output below"
+msgstr "se diff-utdata nedan"
+
+msgid "setting remote %s to %s"
+msgstr "sätter fjärren %s till %s"
+
+msgid "setting up shallow clone"
+msgstr "ställer in grund klon"
+
+msgid "several orig.tar files found (%s and %s) but only one is allowed"
+msgstr "flera orig.tar-filer hittades (%s och %s) men endast en tillåts"
+
+msgid "shared libs metadata file '%s' line %d: bad line '%s'"
+msgstr "metadatafilen för delade bibliotek ”%s” rad %d: felaktig rad ”%s”"
+
+msgid "short OpenPGP key IDs are broken; please use key fingerprints in %s or %s instead"
+msgstr "korta OpenPGP-nyckel-id:n är trasiga; använd nyckelfingeravtryck i %s eller %s istället"
+
+msgid "short option not allowed in %s, line %d"
+msgstr "kort flagga tillåts inte i %s, rad %d"
+
+msgid "sign-command '%s' not found"
+msgstr "signeringskommandot ”%s” hittades inte"
+
+msgid "skipping '%s'"
+msgstr "hoppar över ”%s”"
+
+msgid "skipping absent keyring %s"
+msgstr "hoppar över saknad nyckelring %s"
+
+msgid "some libraries disappeared in the symbols file: %s"
+msgstr "några bibliotek försvann ur symbolfilen: %s"
+
+msgid "some new symbols appeared in the symbols file: %s"
+msgstr "några nya symboler dök upp i symbolfilen: %s"
+
+msgid "some symbols or patterns disappeared in the symbols file: %s"
+msgstr "några symboler eller mönster försvann ur symbolfilen: %s"
+
+msgid "source changed by"
+msgstr "källkod ändrad av"
+
+msgid "source directory %s exists already, aborting"
+msgstr "källkodspaketet %s finns redan, avbryter"
+
+msgid "source directory '%s' is not <sourcepackage>-<upstreamversion> '%s'"
+msgstr "källkodskatalog ”%s” är inte <källkodspaket>-<uppströmsversion> ”%s”"
+
+msgid "source directory is not the top directory of a bzr repository (%s/.bzr not present), but Format bzr was specified"
+msgstr "källkodskatalogen är inte toppkatalogen i bzr-arkivet (%s/.bzr finns inte), men formatet bzr angavs"
+
+msgid "source directory is not the top directory of a git repository (%s/.git not present), but Format git was specified"
+msgstr "källkodskatalogen är inte toppkatalogen i git-arkivet (%s/.git finns inte), men formatet git angavs"
+
+msgid "source distribution"
+msgstr "källkodsdistribution"
+
+msgid "source handling style -s%s not allowed with -b"
+msgstr "källkodshanteringstyp -s%s tillåts inte med -b"
+
+msgid "source handling style -s%s not allowed with -x"
+msgstr "källkodshanteringstyp -s%s tillåts inte med -x"
+
+msgctxt "source options"
+msgid "<none>"
+msgstr "<inget>"
+
+msgid "source package"
+msgstr "källkodspaket"
+
+msgid "source package %s is expected in the current directory"
+msgstr "källkodspaketet %s förväntas i aktuell katalog"
+
+msgid "source package control file"
+msgstr "källkodspaketets styrinfofil"
+
+msgid "source package format '%s' is invalid"
+msgstr "källkodsformatet ”%s” är felaktigt"
+
+msgid "source package format '%s' is not supported: %s"
+msgstr "källkodsformatet ”%s” stöds inte: %s"
+
+msgid "source package has two conflicting values - %s and %s"
+msgstr "källkodspaketet har två emotsägande värden - %s och %s"
+
+msgid "source package name '%s' is invalid %s"
+msgstr "namnet på källkodspaketet ”%s” är ogiltigt: %s"
+
+msgid "source package stanza of template control file"
+msgstr "källkodspaketstrof från mallstyrinfofil"
+
+msgid "source package tests control file"
+msgstr "källkodspaketets test-styrinfofil"
+
+msgid "source package uses only weak checksums"
+msgstr "källkodspaketet innehåller bara svaga kontrollsummor"
+
+msgid "source version"
+msgstr "källkodsversion"
+
+msgid "source-only upload (original source is included)"
+msgstr "insändning enbart med källkod (originalkällkod tas med)"
+
+msgid "source-only upload: Debian-native package"
+msgstr "insändning med endast källkod: Debianeget paket"
+
+msgid "source-only, diff-only upload (original source NOT included)"
+msgstr "insändning enbart med källkod, enbart med diff (originalkällkod tas EJ med)"
+
+msgid "special designator in indirect parameter is an existing file"
+msgstr "specialbenämnare i indirekt parameter är en befintlig fil"
+
+msgid "special mode %04o of '%s' will not be represented in diff"
+msgstr "specialläget %04o på ”%s” kommer inte representeras i diffen"
+
+msgid "specified GNU system type %s does not match CC system type %s, try setting a correct CC environment variable"
+msgstr "angiven GNU-systemtyp %s stämmer inte med CC-systemtypen %s, försök sätta en korrekt CC-miljövariabel"
+
+msgid "specified key needs a keystore"
+msgstr "angiven nyckel behöver ett nyckellager"
+
+msgid "specify a git <ref> to include in the git bundle"
+msgstr "ange en git-<referens> att inkludera i git-bunten"
+
+msgid "stanza in dpkg's status file"
+msgstr "stycke i dpkg:s statusfil"
+
+msgid "stanza in repository's %s file"
+msgstr "stycke i arkivets fil %s"
+
+msgid "stanza lacks either %s or %s fields"
+msgstr "stycket saknar antingen fältet %s eller %s"
+
+msgid "stanza lacks the '%s' field"
+msgstr "stycket saknar fältet ”%s”"
+
+msgid "start of change data"
+msgstr "början på ändringsdata"
+
+msgid "substitution variable ${%s} unused, but is defined"
+msgstr "substitueringsvariabeln ${%s} används inte, men är definierad"
+
+msgid "substitution variable ${%s} used, but is not defined"
+msgstr "substitueringsvariabeln ${%s} används, men är inte definierad"
+
+msgid "success"
+msgstr "lyckades"
+
+msgid "symbol %s used by %s found in none of the libraries"
+msgstr "symbolen %s, som används av %s, hittades inte i något av biblioteken"
+
+msgid "symbol information must be preceded by a header (file %s, line %s)"
+msgstr "symbolinformation måste föregås av ett huvud (fil %s, rad %s)"
+
+msgid "symbol name unspecified: %s"
+msgstr "symbolnamn ej angivet: %s"
+
+msgid "symlink to %s"
+msgstr "symbolisk länk till %s"
+
+msgid "symver tag with versioned symbol will not match: %s"
+msgstr "symver-tagg med versionerad symbol kommer inte matcha: %s"
+
+msgid "syntax error in %s at line %d: %s"
+msgstr "syntaxfel i %s på rad %d: %s"
+
+msgid "takes no non-option arguments"
+msgstr "tar inga argument som inte är flaggor"
+
+msgid "tarfile '%s' already exists, not overwriting, giving up; use -sU or -sR to override"
+msgstr "tarfilen ”%s” finns redan, skriver inte över, ger upp, använd -sU eller -sR för att överstyra"
+
+msgid "test control %s is missing %s or %s field"
+msgstr "testkontroll %s saknar fältet %s eller %s"
+
+msgid "test control %s is not a regular file"
+msgstr "testkontroll %s är inte en vanlig fil"
+
+msgid "the %s field contains an arch-specific dependency but the package '%s' is architecture all"
+msgstr "fältet %s innehåller ett arkitekturspecifikt beroende, men paketet ”%s” är för alla arkitekturer"
+
+msgid "the archive magic"
+msgstr "arkivets magiska tal"
+
+msgid "the current version (%s) is earlier than the previous one (%s)"
+msgstr "aktuell version (%s) är tidigare än den föregående (%s)"
+
+msgid "the diff modifies the following upstream files: %s"
+msgstr "diffen modifierar följande uppströmsfiler: %s"
+
+msgid "the generated symbols file is empty"
+msgstr "den genererade ”symbols”-filen är tom"
+
+msgid "the header does not match the expected regex"
+msgstr "huvudet motsvarar inte det förväntat reguljärt uttryck"
+
+msgid "the patch has fuzz which is not allowed, or is malformed"
+msgstr "patchen har otillåtet fuzz, eller är på fel format"
+
+msgid "the series file (%s) contains unsupported options ('%s', line %s); dpkg-source might fail when applying patches"
+msgstr "series-filen (%s) innehåller flaggor som inte stöds (”%s”, rad %s); dpkg-source kanske kommer att misslyckas med att tillämpa patchar"
+
+msgid "the trailer does not match the expected regex"
+msgstr "filslutet motsvarar inte det förväntat reguljärt uttryck"
+
+msgid "there are no local changes to record"
+msgstr "det finns inte några lokala ändringar att spara"
+
+msgid "there is no diff, do main tarfile only"
+msgstr "det finns ingen diff, skapa bara huvud-tarfil"
+
+msgid "too many ${%s} substitutions (recursive?) in '%s'"
+msgstr "för många ${%s}-substitueringar - rekursivt? - i ”%s”"
+
+msgid "tried to merge the same object (%s) twice in a symfile"
+msgstr "försökte slå ihop samma objekt (%s) två gånger i en symfil"
+
+msgid "trust packed and unpacked original sources are same"
+msgstr "lita på att packad och uppackad originalkällkod är identisk"
+
+msgid "two commands specified: %s and %s"
+msgstr "två åtgärder angavs: %s och %s"
+
+msgid "two commands specified: --%s and --%s"
+msgstr "två kommandon angavs: --%s och --%s"
+
+msgid "unable to change permission of '%s'"
+msgstr "kunde inte ändra beroenden på ”%s”"
+
+msgid "unable to chdir to '%s'"
+msgstr "kan inte byta katalog till ”%s”"
+
+msgid "unable to check for existence of '%s'"
+msgstr "kunde inte se om ”%s” existerar"
+
+msgid "unable to check for existence of orig directory '%s'"
+msgstr "kan inte se om existerande originalkatalog ”%s” finns"
+
+msgid "unable to check for removal of directory '%s'"
+msgstr "kan inte kontrollera för borttagning av katalogen ”%s”"
+
+msgid "unable to determine %s"
+msgstr "kan inte bestämma %s"
+
+msgid "unable to execute %s"
+msgstr "kan inte exekvera %s"
+
+msgid "unable to keep orig directory (already exists)"
+msgstr "kan inte behålla originalkatalog (finns redan)"
+
+msgid "unable to open shared libs metadata file '%s'"
+msgstr "kunde inte öppna metadatafil för delade bibliotek ”%s”"
+
+msgid "unable to rename %s to %s"
+msgstr "kan inte byta namn på %s till %s"
+
+msgid "unable to rename '%s' (newly created) to '%s'"
+msgstr "kunde inte byta namn på ”%s” (precis skapad) till ”%s”"
+
+msgid "unable to rename '%s' to '%s'"
+msgstr "kan inte byta namn på ”%s” till ”%s”"
+
+msgid "unable to stat putative unpacked orig '%s'"
+msgstr "kan inte ta status på förmodad uppackad orig ”%s”"
+
+msgid "unapply patches if previously applied (default)"
+msgstr "avapplicera patchar om de redan har applicerats (förval)"
+
+msgid "unapplying %s"
+msgstr "tar bort tillämpning av %s"
+
+msgid "uncommitted, not-ignored changes in working directory: %s"
+msgstr "ej incheckade, ej ignorerade ändringar i arbetskatalogen: %s"
+
+msgid "unconditional maintainer override for %s"
+msgstr "ovillkorlig överstyrning från paketansvariga för %s"
+
+msgid "unexpected empty file %s"
+msgstr "oväntad tom fil %s"
+
+msgid "unexpected end of diff '%s'"
+msgstr "oväntad slut på diffen ”%s”"
+
+msgid "unexpected trailing comma in %s field with value \"%s\""
+msgstr "oväntat avslutande komma i fältet %s med värdet ”%s”"
+
+msgid "unfinished OpenPGP signature"
+msgstr "oavslutad OpenPGP-signatur"
+
+msgid "unknown %% substitution in hook: %%%s"
+msgstr "okänd %%-substituering i krok: %%%s"
+
+msgid "unknown %s feature in %s variable: %s"
+msgstr "okänd funktion %s i variabeln %s: %s"
+
+msgid "unknown CC system type %s, falling back to default (native compilation)"
+msgstr "okänd CC-systemtyp %s, faller tillbaka på förval (lokal kompilering)"
+
+msgid "unknown Debian architecture %s, you must specify GNU system type, too"
+msgstr "okänd Debianarkitektur %s, du måste också ange en GNU-systemtyp"
+
+msgid "unknown GNU system type %s, you must specify Debian architecture, too"
+msgstr "okänd GNU-systemtyp %s, du måste också ange en Debianarkitektur"
+
+msgid "unknown OpenPGP api requested %s"
+msgstr "okänt OpenPGP-API efterfrågades %s"
+
+msgid "unknown OpenPGP backend %s"
+msgstr "okänt OpenPGP-program %s"
+
+msgid "unknown OpenPGP packet type %0x in %s"
+msgstr "okänd OpenPGP-pakettyp %0x i %s"
+
+msgid "unknown abi attributes for architecture '%s'"
+msgstr "okända abi-attribut för arkitekturen ”%s”"
+
+msgid "unknown build type %s"
+msgstr "okänd byggtyp %s"
+
+msgid "unknown default GNU system type for Debian architecture %s"
+msgstr "okänd förvald GNU-systemtyp för Debianarkitektur %s"
+
+msgid "unknown executable format in file '%s'"
+msgstr "okänt format på exekverbar fil ”%s”"
+
+msgid "unknown file type"
+msgstr "okänd filtyp"
+
+msgid "unknown hook name %s"
+msgstr "okänt namn på hake: %s"
+
+msgid "unknown host architecture '%s'"
+msgstr "okänd värdarkitektur ”%s”"
+
+msgid "unknown information field '%s' in input data in %s"
+msgstr "okänt informationsfält ”%s” i indata i %s"
+
+msgid "unknown key-value %s"
+msgstr "okänt nyckelvärde %s"
+
+msgid "unknown line from diff -u on %s: '%s'"
+msgstr "okänd rad från diff -u på %s: ”%s”"
+
+msgid "unknown option '%s'"
+msgstr "okänd flagga ”%s”"
+
+msgid "unknown option or argument %s"
+msgstr "okänd flagga eller argument %s"
+
+msgid "unknown output format %s"
+msgstr "okänd utdataformat %s"
+
+msgid "unknown output from dpkg --search: '%s'"
+msgstr "okända utdata från dpkg --search: ”%s”"
+
+msgid "unknown special designator in indirect parameter"
+msgstr "okänd specialbenämnare i indirekt parameter"
+
+msgid "unmet build conflicts: %s"
+msgstr "ej uppfyllda byggkonflikter: %s"
+
+msgid "unmet build dependencies: %s"
+msgstr "ej uppfyllda byggberoenden: %s"
+
+msgid "unpack original source tree too"
+msgstr "packa också upp originalkällkodsträdet"
+
+msgid "unpack target exists: %s"
+msgstr "mål för uppackning finns redan: %s"
+
+msgid "unpacked orig '%s' exists but is not a directory"
+msgstr "uppackad orig ”%s” finns men är inte en katalog"
+
+msgid "unpacking %s"
+msgstr "packar upp %s"
+
+msgid "unrecognized dependency field '%s'"
+msgstr "okänt beroendefält ”%s”"
+
+msgid "unrecognized file for a %s source package: %s"
+msgstr "okänd fil för ett %s-källkodspaket: %s"
+
+msgid "unrecognized file for a native source package: %s"
+msgstr "okänd fil i ett Debianeget källkodspaket: %s"
+
+msgid "unrecognized line"
+msgstr "okänd rad"
+
+msgid "unrepresentable changes to source"
+msgstr "ändring i källkod kan inte representeras"
+
+msgid "unsupported checksum '%s'"
+msgstr "kontrollsumman ”%s” stöds ej"
+
+msgid "unsupported option"
+msgstr "flaggan stöds inte"
+
+msgid "unsupported subcommand"
+msgstr "underkommandot stöds ej"
+
+msgid "unsupported version of the quilt metadata: %s"
+msgstr "versionen av quilt-metadata stöds inte: %s"
+
+msgid "unwanted binary file: %s"
+msgstr "oönskad binärfil: %s"
+
+msgid "upload changes control file"
+msgstr "sänd in changes-styrinfofil"
+
+msgid "upstream files that have been modified: %s"
+msgstr "uppströmsfiler som har ändrats: %s"
+
+msgid "upstream signing key but no upstream tarball signature"
+msgstr "uppströmssigneringsnycklen, men ingen uppströms tarboll-signatur"
+
+msgid "upstream tarball signatures but no upstream signing key"
+msgstr "signaturer för uppströms-tarbollen, men ingen uppströmssigneringsnyckel"
+
+msgid "upstream version cannot be empty"
+msgstr "uppströmsversionsnumret kan inte vara tomt"
+
+msgid "use -l option instead of LD_LIBRARY_PATH"
+msgstr "använd flaggan -l istället för LD_LIBRARY_PATH"
+
+msgid "use a single debianization patch"
+msgstr "använd en ensam debianiseringspatch"
+
+msgid "use newest entry that is earlier than the one specified"
+msgstr "använd den nyaste post som är tidigare än den angivna"
+
+msgid "use oldest entry that is later than the one specified"
+msgstr "använd den äldsta posten som är senare än den angivna"
+
+msgid "use packed original source (unpack and keep)"
+msgstr "använd packad originalkällkod (packa upp och behåll)"
+
+msgid "use packed original source (unpack and remove)"
+msgstr "använd packad originalkällkod (packa upp och ta bort)"
+
+msgid "use the '3.0 (quilt)' format to have separate and documented changes to upstream files, see dpkg-source(1)"
+msgstr "använd formatet ”3.0 (quilt)” för att ha separata och dokumenterade ändringar på uppströmsfiler, se dpkg-source(1)"
+
+msgid "use unpacked original source (pack and keep)"
+msgstr "använd uppackad originalkällkod (packa och behåll)"
+
+msgid "use unpacked original source (pack and remove)"
+msgstr "använd uppackad originalkällkod (packa och ta bort)"
+
+msgid "uses full '%s' instead of abbreviated month name '%s'"
+msgstr "använder fullständing ”%s” istället för förkortat månadsnamn ”%s”"
+
+msgid "using GnuPG specific KeyBox formatted keyring %s is deprecated; use an OpenPGP formatted keyring instead"
+msgstr "att använda GnuPG-specifika KeyBox-formaterade nyckelringen %s avråds från; använd en OpenPGP-formaterad nyckelring istället"
+
+msgid "using a gain-root-command while being root"
+msgstr "använder ett gain-root-command fast jag redan är root"
+
+msgid "using implicit trusted keyring %s is deprecated; use --signer-cert with an OpenPGP keyring instead"
+msgstr "att använda dne implicit betrodda nyckelringen %s avråds från; använd -signer-cert med en OpenPGP-nyckelring istället"
+
+msgid "using keyring %s"
+msgstr "använder nyckelringen %s"
+
+msgid "using options from %s: %s"
+msgstr "använder flaggor från %s: %s"
+
+msgid "using patch list from %s"
+msgstr "använder patchlista från %s"
+
+msgid "using source format '%s'"
+msgstr "använder källkodsformatet ”%s”"
+
+msgid "vendor %s does not exist in %s"
+msgstr "leverantören %s finns inte i %s"
+
+msgid "vendor file"
+msgstr "distributörsfil"
+
+msgid "verifying %s"
+msgstr "bekräftar %s"
+
+msgid "version '%s' is invalid: %s"
+msgstr "versionen ”%s” är ogiltig: %s"
+
+msgid "version number cannot be empty"
+msgstr "versionsnumret kan inte vara tomt"
+
+msgid "version number contains invalid character '%s'"
+msgstr "versionsnummer innehåller ogiltigt tecken ”%s”"
+
+msgid "version number does not start with digit"
+msgstr "versionsnumret börjar inte med en siffra"
+
+msgid "version number suggests %s vendor changes, but the %s field does not have %s vendor address"
+msgstr "versionsnumret indikerar ändringar från leverantören %s, men fältet %s innehåller inte en adress från leverantören %s"
+
+msgid "version number suggests %s vendor changes, but there is no %s field"
+msgstr "versionsnumret indikerar ändringar från leverantören %s, men fältet %s saknas"
+
+msgid "virtual dependency contains invalid relation: %s"
+msgstr "virtuellt beroende innehåller ogiltigt relation: %s"
+
+msgid "wait for %s"
+msgstr "väntar på %s"
+
+msgid "warning"
+msgstr "varning"
+
+msgid "write diversion info to stderr"
+msgstr "skriv omdirigeringsinformation på standard fel"
+
+msgid "write error on control data"
+msgstr "skrivfel i styrdata"
+
+msgid "write on tar input"
+msgstr "skriv på tar-indata"
+
+msgid "you can integrate the local changes with %s"
+msgstr "du kan integrera de lokala ändringarna med %s"
+
+msgid "you can not use symver tag to catch unversioned symbols: %s"
+msgstr "du kan inte använda symver-taggen för att fånga symboler som inte är versionerade: %s"
+
+msgid "you can only specify one of 'from' and 'since', using 'since'"
+msgstr "du kan bara ange en av ”from” och ”since”, använder ”since”"
+
+msgid "you can only specify one of 'to' and 'until', using 'until'"
+msgstr "du kan bara ange en av ”to” och ”until”, använder ”until”"
+
+msgid "you cannot combine 'count' or 'offset' with any other range option"
+msgstr "du kan inte kombinera ”count” eller ”offset” med andra intervallflaggor"

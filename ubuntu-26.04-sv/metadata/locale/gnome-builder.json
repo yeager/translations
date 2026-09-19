@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale/gnome-builder",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale/gnome-builder.po",
+    "original_po": "original/locale/gnome-builder.po",
+    "diff": "diff/locale/gnome-builder.po.diff",
+    "report": "reports/locale/gnome-builder.md",
+    "metadata": "metadata/locale/gnome-builder.json",
+    "validation": "validation/locale/gnome-builder.json"
+  },
+  "upstream": {
+    "project": "GNOME Builder",
+    "project_url": "https://apps.gnome.org/Builder/",
+    "repository_url": "https://gitlab.gnome.org/GNOME/gnome-builder",
+    "ubuntu_source_package": "gnome-builder",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/gnome-builder",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "gnome-builder",
+        "Version": "49.1-3",
+        "Homepage": "https://apps.gnome.org/Builder/"
+      },
+      "po_project_id": "gnome-builder main",
+      "po_bug_report_address": "https://gitlab.gnome.org/GNOME/gnome-builder/issues"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale/sv/LC_MESSAGES/gnome-builder.mo",
+    "resolved_mo_path": "/usr/share/locale/sv/LC_MESSAGES/gnome-builder.mo",
+    "mo_sha256": "7ddbd4355f86053ba38840ca8f51141a4be8715c37a07bcb44bcfa4a47086d0c",
+    "installed_owning_package": "gnome-builder",
+    "installed_owning_package_version": "49.1-3",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale/sv/LC_MESSAGES/gnome-builder.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "gnome-builder main",
+      "Report-Msgid-Bugs-To": "https://gitlab.gnome.org/GNOME/gnome-builder/issues",
+      "PO-Revision-Date": "2025-09-05 20:57+0200",
+      "Last-Translator": "Anders Jonsson <anders.jonsson@norsjovallen.se>",
+      "Language-Team": "Swedish <tp-sv@listor.tp-sv.se>",
+      "Language": "sv",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=(n != 1);",
+      "X-Generator": "Poedit 3.7"
+    }
+  },
+  "sha256": {
+    "original_po": "30927bd6af39309b332c3af86fd5a42948771a3c8f14ce3ae2ce009de3f45037",
+    "corrected_po": "ab6208b3acba67b057d499682271de827efb49b70a43515a8d45597c642e150c",
+    "diff": "dec220ff84c67a058aa35ae651deb78857cb120e9b447c9555a100fde2bee25e"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P3": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F052",
+        "severity": "P3",
+        "title": "Felaktig upprepning: dina dina",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 2868,
+        "msgctxt": null,
+        "msgid": "Quickly access your projects",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Kom snabbt åt dina dina projekt",
+        "after": "Kom snabbt åt dina projekt",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 2868
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 12,
+    "lint_after": 10,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: gnome-builder main\nReport-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-builder/issues\nPO-Revision-Date: 2025-09-05 20:57+0200\nLast-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Generator: Poedit 3.7\n",
+      "corrected": "Project-Id-Version: gnome-builder main\nReport-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-builder/issues\nPO-Revision-Date: 2025-09-05 20:57+0200\nLast-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\nLanguage-Team: Swedish <tp-sv@listor.tp-sv.se>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=(n != 1);\nX-Generator: Poedit 3.7\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

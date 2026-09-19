@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale/iso_639-3",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale/iso_639-3.po",
+    "original_po": "original/locale/iso_639-3.po",
+    "diff": "diff/locale/iso_639-3.po.diff",
+    "report": "reports/locale/iso_639-3.md",
+    "metadata": "metadata/locale/iso_639-3.json",
+    "validation": "validation/locale/iso_639-3.json"
+  },
+  "upstream": {
+    "project": "iso-codes",
+    "project_url": "https://salsa.debian.org/iso-codes-team/iso-codes",
+    "repository_url": null,
+    "ubuntu_source_package": "iso-codes",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/iso-codes",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "iso-codes",
+        "Version": "4.20.1-1",
+        "Homepage": "https://salsa.debian.org/iso-codes-team/iso-codes"
+      },
+      "po_project_id": "iso_639-3",
+      "po_bug_report_address": "https://salsa.debian.org/iso-codes-team/iso-codes/issues"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale/sv/LC_MESSAGES/iso_639-3.mo",
+    "resolved_mo_path": "/usr/share/locale/sv/LC_MESSAGES/iso_639-3.mo",
+    "mo_sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320",
+    "installed_owning_package": "iso-codes",
+    "installed_owning_package_version": "4.20.1-1",
+    "aliases": [
+      {
+        "id": "locale/iso_639_3",
+        "mo": "/usr/share/locale/sv/LC_MESSAGES/iso_639_3.mo",
+        "sha256": "f22498ada9ad411b16dbbc1108caba251566eaae1d748d8e2b98ef52ed174320"
+      }
+    ],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale/sv/LC_MESSAGES/iso_639-3.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "iso_639-3",
+      "Report-Msgid-Bugs-To": "https://salsa.debian.org/iso-codes-team/iso-codes/issues",
+      "PO-Revision-Date": "2025-10-14 21:22+0000",
+      "Last-Translator": "Anders Jonsson <anders.jonsson@norsjovallen.se>",
+      "Language-Team": "Swedish <https://hosted.weblate.org/projects/iso-codes/iso-639-3/sv/>",
+      "Language": "sv",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "Plural-Forms": "nplurals=2; plural=n != 1;",
+      "X-Generator": "Weblate 5.14-dev",
+      "X-Bugs": "Report translation errors to the Language-Team address."
+    }
+  },
+  "sha256": {
+    "original_po": "90ff367b02b38f1075f5e6de6af163f92d65f9eeacb68ca93dde7184682a7361",
+    "corrected_po": "7978910ec451057360d8ecf64a852190b567b03052b4c0cb17b3af7cc45be46e",
+    "diff": "17ff9b592fb95f0ba939a1f534ff1e592692df8a7789b4075431188e056b860b"
+  },
+  "report": {
+    "changed_translations": 4,
+    "priorities": {
+      "P2": 4
+    },
+    "findings": [
+      {
+        "finding_id": "F031",
+        "severity": "P2",
+        "title": "Medelfranskans tidsintervall avviker",
+        "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+        "original_line": 15064,
+        "msgctxt": null,
+        "msgid": "Middle French (ca. 1400-1600)",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Medelfranska (ca 1300-1600)",
+        "after": "Medelfranska (ca 1400-1600)",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 15064
+      },
+      {
+        "finding_id": "F032",
+        "severity": "P2",
+        "title": "Medeliriskans tidsintervall avviker",
+        "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+        "original_line": 15073,
+        "msgctxt": null,
+        "msgid": "Middle Irish (900-1200)",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Medeliriska (ca 1100-1550)",
+        "after": "Medeliriska (ca 900-1200)",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 15073
+      },
+      {
+        "finding_id": "F033",
+        "severity": "P2",
+        "title": "Fornfranskans slutår avviker",
+        "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+        "original_line": 18205,
+        "msgctxt": null,
+        "msgid": "Old French (842-ca. 1400)",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Fornfranska (ca 842-1300)",
+        "after": "Fornfranska (ca 842-1400)",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 18205
+      },
+      {
+        "finding_id": "F034",
+        "severity": "P2",
+        "title": "Forniriskans slutår avviker",
+        "reason": "Årtalen överensstämmer inte med katalogens engelska källtext. Förslaget återställer källtextens intervall.",
+        "original_line": 18223,
+        "msgctxt": null,
+        "msgid": "Old Irish (to 900)",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Forniriska (-1100)",
+        "after": "Forniriska (-900)",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 18223
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 756,
+    "lint_after": 752,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: iso_639-3\nReport-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/issues\nPO-Revision-Date: 2025-10-14 21:22+0000\nLast-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\nLanguage-Team: Swedish <https://hosted.weblate.org/projects/iso-codes/iso-639-3/sv/>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "corrected": "Project-Id-Version: iso_639-3\nReport-Msgid-Bugs-To: https://salsa.debian.org/iso-codes-team/iso-codes/issues\nPO-Revision-Date: 2025-10-14 21:22+0000\nLast-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\nLanguage-Team: Swedish <https://hosted.weblate.org/projects/iso-codes/iso-639-3/sv/>\nLanguage: sv\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.14-dev\nX-Bugs: Report translation errors to the Language-Team address.\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

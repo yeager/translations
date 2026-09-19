@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale/OpenSP",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale/OpenSP.po",
+    "original_po": "original/locale/OpenSP.po",
+    "diff": "diff/locale/OpenSP.po.diff",
+    "report": "reports/locale/OpenSP.md",
+    "metadata": "metadata/locale/OpenSP.json",
+    "validation": "validation/locale/OpenSP.json"
+  },
+  "upstream": {
+    "project": "OpenSP / OpenJade",
+    "project_url": "https://openjade.sourceforge.net/",
+    "repository_url": null,
+    "ubuntu_source_package": "opensp",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/opensp",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "libosp5",
+        "Source": "opensp",
+        "Version": "1.5.2-15.2ubuntu2"
+      },
+      "po_project_id": "OpenSP 1.5",
+      "po_bug_report_address": null
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+    "resolved_mo_path": "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo",
+    "mo_sha256": "d6b6994a1eef93767d9c17ab3919ab9c765e53a4086066e007221a3496fc2cf4",
+    "installed_owning_package": "libosp5",
+    "installed_owning_package_version": "1.5.2-15.2ubuntu2",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale/sv/LC_MESSAGES/OpenSP.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "OpenSP 1.5",
+      "POT-Creation-Date": "2005-11-05 09:50+0000",
+      "PO-Revision-Date": "1999-12-20 21:46+01:00",
+      "Last-Translator": "Peter Nilsson <pnidv96@student.vxu.se>",
+      "Language-Team": "Swedish <sv@li.org>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=ISO-8859-1",
+      "Content-Transfer-Encoding": "8BIT\n"
+    }
+  },
+  "sha256": {
+    "original_po": "d6df83fbf400b8db527315da0420e6bf5f7bb46e8aa435915a7a3242b7bc2ac9",
+    "corrected_po": "3b7b5c0991cc87a88e82f641d113fccc927e1a154165283b58ad2b84d11da833",
+    "diff": "96705f5ee73ef84350e85b60795dcd02112f3872042dcef45f6b44e14e7aa5e9"
+  },
+  "report": {
+    "changed_translations": 9,
+    "priorities": {
+      "P2": 8,
+      "P3": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F004",
+        "severity": "P2",
+        "title": "Fel argument för den saknade starttaggen",
+        "reason": "Den andra platshållaren ska vara %2; nu visas argument %1 två gånger.",
+        "original_line": 799,
+        "msgctxt": null,
+        "msgid": "document type does not allow element %1 here; assuming missing %2 start-tag",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "dokumenttypen tillåter ej elementet %1 här; antar att starttaggen %1 saknas",
+        "after": "dokumenttypen tillåter ej elementet %1 här; antar att starttaggen %2 saknas",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:11: a format specification for argument 2 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 799
+      },
+      {
+        "finding_id": "F005",
+        "severity": "P2",
+        "title": "HTTP-adressen har tappat sin platshållare",
+        "reason": "%1 har ersatts med (%), så den berörda URL-adressen kan inte återges korrekt.",
+        "original_line": 874,
+        "msgctxt": null,
+        "msgid": "empty host in HTTP URL %1",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "tom värd i HTTP-URL:en(%)",
+        "after": "tom värd i HTTP-URL:en %1",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 874
+      },
+      {
+        "finding_id": "F006",
+        "severity": "P2",
+        "title": "Identifieraren saknas i felmeddelandet",
+        "reason": "Originalets %1 saknas i översättningen.",
+        "original_line": 1120,
+        "msgctxt": null,
+        "msgid": "invalid formal public identifier %1: no SPACE after public text class",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "ogiltig formell publik identifierare: inget SPACE efter publik textklass",
+        "after": "ogiltig formell publik identifierare %1: inget SPACE efter publik textklass",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 1120
+      },
+      {
+        "finding_id": "F007",
+        "severity": "P2",
+        "title": "Värdnumret saknas i felmeddelandet",
+        "reason": "Originalets %1 saknas i översättningen.",
+        "original_line": 1126,
+        "msgctxt": null,
+        "msgid": "invalid host number %1",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "ogiltigt värdnummer",
+        "after": "ogiltigt värdnummer %1",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 1126
+      },
+      {
+        "finding_id": "F008",
+        "severity": "P2",
+        "title": "Numrerad platshållare har blivit printf-format",
+        "reason": "%1 har ändrats till %d, vilket är en annan formatsyntax.",
+        "original_line": 1390,
+        "msgctxt": null,
+        "msgid": "normalized length of attribute value literal must not exceed LITLEN (%1); length was %2",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "längden av normaliserad attributvärdesliteral får ej överskrida LITLEN (%d); längden var %2",
+        "after": "längden av normaliserad attributvärdesliteral får ej överskrida LITLEN (%1); längden var %2",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:12: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 1390
+      },
+      {
+        "finding_id": "F009",
+        "severity": "P2",
+        "title": "Entitetens namn saknas",
+        "reason": "Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.",
+        "original_line": 1537,
+        "msgctxt": null,
+        "msgid": "reference to external data entity %1 not allowed in XML",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "referens till extern dataentitet ej tillåtet i XML",
+        "after": "referens till extern dataentitet %1 ej tillåtet i XML",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 1537
+      },
+      {
+        "finding_id": "F010",
+        "severity": "P2",
+        "title": "Entitetens namn saknas",
+        "reason": "Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.",
+        "original_line": 1546,
+        "msgctxt": null,
+        "msgid": "reference to internal SDATA entity %1 not allowed in XML",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "referens till intern SDATA-entitet ej tillåtet i XML",
+        "after": "referens till intern SDATA-entitet %1 ej tillåtet i XML",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 1546
+      },
+      {
+        "finding_id": "F011",
+        "severity": "P2",
+        "title": "Entitetens namn saknas",
+        "reason": "Originalets %1 saknas; felmeddelandet tappar uppgiften om vilken entitet som avses.",
+        "original_line": 1567,
+        "msgctxt": null,
+        "msgid": "reference to subdocument entity %1 not allowed in XML",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "referens till subdokumententitet ej tillåtet i XML",
+        "after": "referens till subdokumententitet %1 ej tillåtet i XML",
+        "format_validation": {
+          "synthetic_flag": "qt-format",
+          "before": {
+            "exit_code": 1,
+            "stderr": "work/format-check.po:10: a format specification for argument 1 doesn't exist in 'msgstr'\nmsgfmt: found 1 fatal error\n"
+          },
+          "proposed": {
+            "exit_code": 0,
+            "stderr": ""
+          }
+        },
+        "runtime_reproducer": null,
+        "corrected_line": 1567
+      },
+      {
+        "finding_id": "F049",
+        "severity": "P3",
+        "title": "Felaktig upprepning: därför därför",
+        "reason": "Upprepningen är ett skrivfel i denna mening och har inte stöd i källtexten.",
+        "original_line": 646,
+        "msgctxt": null,
+        "msgid": "character %1 is not significant in the reference concrete syntax and so cannot occur in a comment in the SGML declaration",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "tecknet %1 är ej signifikant i den konkreta referenssyntaxen och får därför därför ej förekomma i en kommentar i SGML-deklarationen",
+        "after": "tecknet %1 är ej signifikant i den konkreta referenssyntaxen och får därför ej förekomma i en kommentar i SGML-deklarationen",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 646
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 49,
+    "lint_after": 30,
+    "svlang_before": 0,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "outputs/ubuntu-26.04-sv/po/locale/OpenSP.po:2: warning: header field 'Language' missing in header\n"
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: OpenSP 1.5\nPOT-Creation-Date: 2005-11-05 09:50+0000\nPO-Revision-Date: 1999-12-20 21:46+01:00\nLast-Translator: Peter Nilsson <pnidv96@student.vxu.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=ISO-8859-1\nContent-Transfer-Encoding: 8BIT\n\n",
+      "corrected": "Project-Id-Version: OpenSP 1.5\nPO-Revision-Date: 1999-12-20 21:46+01:00\nLast-Translator: Peter Nilsson <pnidv96@student.vxu.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8BIT\n\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "ISO-8859-1",
+    "diff": "ISO-8859-1",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

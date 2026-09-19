@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/mutt",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/mutt.po",
+    "original_po": "original/locale-langpack/mutt.po",
+    "diff": "diff/locale-langpack/mutt.po.diff",
+    "report": "reports/locale-langpack/mutt.md",
+    "metadata": "metadata/locale-langpack/mutt.json",
+    "validation": "validation/locale-langpack/mutt.json"
+  },
+  "upstream": {
+    "project": "Mutt",
+    "project_url": "http://www.mutt.org/",
+    "repository_url": "https://gitlab.com/muttmua/mutt",
+    "ubuntu_source_package": "mutt",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/mutt",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "mutt",
+        "Version": "2.2.13-1build2",
+        "Homepage": "http://www.mutt.org/"
+      },
+      "po_project_id": "Mutt 2.2.16",
+      "po_bug_report_address": "https://gitlab.com/muttmua/mutt/-/issues"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/mutt.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/mutt.mo",
+    "mo_sha256": "f45c974a1235db24bd24712a3c025c93c27ded752417b709a8ef203d52521e1a",
+    "installed_owning_package": "language-pack-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/mutt.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "Mutt 2.2.16",
+      "Report-Msgid-Bugs-To": "https://gitlab.com/muttmua/mutt/-/issues",
+      "PO-Revision-Date": "2025-12-12 12:48+0000",
+      "Last-Translator": "Daniel Nylander <daniel@danielnylander.se>",
+      "Language-Team": "Swedish <sv@li.org>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 15:55+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "5f7d7654817cb78770cc506107188fc25098e04be9b980688c3cf2c2d290cca5",
+    "corrected_po": "e40eaab388862f1ec2e26ee356ffbacb2feccfcadc22b764bf82057b28911a3d",
+    "diff": "2975ff69a6c0ba7238e2b142d836c494efa164f6205d2ffb1fec25352e401e28"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P3": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F043",
+        "severity": "P3",
+        "title": "Stavfel: öpppna",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 1298,
+        "msgctxt": null,
+        "msgid": "Failure to open file to parse headers.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Misslyckades med att öpppna fil för att tolka huvuden.",
+        "after": "Misslyckades med att öppna fil för att tolka huvuden.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 1298
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 96,
+    "lint_after": 95,
+    "svlang_before": 9,
+    "svlang_after": 9,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: Mutt 2.2.16\nReport-Msgid-Bugs-To: https://gitlab.com/muttmua/mutt/-/issues\nPO-Revision-Date: 2025-12-12 12:48+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 15:55+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: Mutt 2.2.16\nReport-Msgid-Bugs-To: https://gitlab.com/muttmua/mutt/-/issues\nPO-Revision-Date: 2025-12-12 12:48+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <sv@li.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 15:55+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}

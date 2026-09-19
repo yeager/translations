@@ -1,0 +1,116 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-09-19",
+  "catalog": "locale-langpack/ubiquity-debconf",
+  "language": "sv",
+  "distribution": "Ubuntu 26.04.1 LTS (Resolute Raccoon)",
+  "paths": {
+    "corrected_po": "po/locale-langpack/ubiquity-debconf.po",
+    "original_po": "original/locale-langpack/ubiquity-debconf.po",
+    "diff": "diff/locale-langpack/ubiquity-debconf.po.diff",
+    "report": "reports/locale-langpack/ubiquity-debconf.md",
+    "metadata": "metadata/locale-langpack/ubiquity-debconf.json",
+    "validation": "validation/locale-langpack/ubiquity-debconf.json"
+  },
+  "upstream": {
+    "project": "Ubiquity / Debian Installer messages",
+    "project_url": "https://launchpad.net/ubiquity",
+    "repository_url": null,
+    "ubuntu_source_package": "ubiquity",
+    "ubuntu_source_url": "https://launchpad.net/ubuntu/+source/ubiquity",
+    "evidence": {
+      "apt_package_metadata": {
+        "Package": "ubiquity",
+        "Version": "26.04.1"
+      },
+      "po_project_id": "debian-installer",
+      "po_bug_report_address": "ubiquity@packages.debian.org"
+    },
+    "note": "Project pointer, not a claim that this installed catalog matches current upstream. Apt versions describe available packages, not the version of a language-pack catalog. Header identifies Debian Installer; Ubiquity reuses these messages."
+  },
+  "origin": {
+    "mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/ubiquity-debconf.mo",
+    "resolved_mo_path": "/usr/share/locale-langpack/sv/LC_MESSAGES/ubiquity-debconf.mo",
+    "mo_sha256": "d47901b437da226a889a7920fdb86d6a2af0181e0fe36f86cd486e17a3e7d43e",
+    "installed_owning_package": "language-pack-gnome-sv-base",
+    "installed_owning_package_version": "1:26.04+20260818",
+    "aliases": [],
+    "extraction_command": [
+      "msgunfmt",
+      "--no-wrap",
+      "/usr/share/locale-langpack/sv/LC_MESSAGES/ubiquity-debconf.mo"
+    ],
+    "gettext_version": "0.23.2",
+    "po_headers": {
+      "Project-Id-Version": "debian-installer",
+      "Report-Msgid-Bugs-To": "ubiquity@packages.debian.org",
+      "PO-Revision-Date": "2023-12-13 19:52+0000",
+      "Last-Translator": "Kristoffer Grundström <Unknown>",
+      "Language-Team": "Swedish <debian-l10n-swedish@lists.debian.org>",
+      "MIME-Version": "1.0",
+      "Content-Type": "text/plain; charset=UTF-8",
+      "Content-Transfer-Encoding": "8bit",
+      "X-Launchpad-Export-Date": "2026-08-18 16:22+0000",
+      "X-Generator": "Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)",
+      "Language": "sv"
+    }
+  },
+  "sha256": {
+    "original_po": "ecd4f91849da5337e4c363f37cfdacdddd51b5ae107d1258a920255a94bee1d4",
+    "corrected_po": "de1c594c561845ab748ce38af7c93d949fbc8989da9a27ce1c05089c88ddb018",
+    "diff": "a17eb343121b8bcfa20c5193a26ad1e9d664da0d7e6308181a7335180b461c6d"
+  },
+  "report": {
+    "changed_translations": 1,
+    "priorities": {
+      "P3": 1
+    },
+    "findings": [
+      {
+        "finding_id": "F039",
+        "severity": "P3",
+        "title": "Stavfel: tidspunkt",
+        "reason": "Ett överflödigt eller saknat tecken ger ett felstavat svenskt ord.",
+        "original_line": 810,
+        "msgctxt": null,
+        "msgid": "This may be due to using an old installer image, or it may be due to a bug in some of the packages listed above. More details may be found in /var/log/syslog. The installer will try to continue anyway, but may fail at a later point, and will not be able to install or remove other packages (possibly including itself) from the installed system. You should first look for newer versions of your installer image, or failing that report the problem to your distributor.",
+        "msgid_plural": "",
+        "plural_index": null,
+        "before": "Det här kan bero på användningen av en gammal installationsavbild, eller det kan bero på ett fel i några av de paket som listas ovan. Mer information kan hittas i filen /var/log/syslog. Installationsprogrammet kommer att försöka fortsätta ändå men kan misslyckas vid en senare tidspunkt, och kommer inte kunna installera eller ta bort andra paket (kanske även sig själv) från det installerade systemet. Du bör först leta efter nyare versioner av din installationsavbild, eller rapportera misslyckandet till din leverantör.",
+        "after": "Det här kan bero på användningen av en gammal installationsavbild, eller det kan bero på ett fel i några av de paket som listas ovan. Mer information kan hittas i filen /var/log/syslog. Installationsprogrammet kommer att försöka fortsätta ändå men kan misslyckas vid en senare tidpunkt, och kommer inte kunna installera eller ta bort andra paket (kanske även sig själv) från det installerade systemet. Du bör först leta efter nyare versioner av din installationsavbild, eller rapportera misslyckandet till din leverantör.",
+        "format_validation": null,
+        "runtime_reproducer": null,
+        "corrected_line": 810
+      }
+    ],
+    "extraction_normalizations": [],
+    "lint_before": 48,
+    "lint_after": 48,
+    "svlang_before": 1,
+    "svlang_after": 0,
+    "remaining_hits_are_unreviewed_candidates": true
+  },
+  "verification": {
+    "msgfmt": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff_applies_without_fuzz": true,
+    "diff_reproduces_corrected_po_bytes": true,
+    "compiled_message_table_changes_exactly_match_reviewed_edits": true,
+    "po_headers_unchanged": true,
+    "system_mo_unchanged": true,
+    "compiled_headers": {
+      "original": "Project-Id-Version: debian-installer\nReport-Msgid-Bugs-To: ubiquity@packages.debian.org\nPO-Revision-Date: 2023-12-13 19:52+0000\nLast-Translator: Kristoffer Grundström <Unknown>\nLanguage-Team: Swedish <debian-l10n-swedish@lists.debian.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:22+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "corrected": "Project-Id-Version: debian-installer\nReport-Msgid-Bugs-To: ubiquity@packages.debian.org\nPO-Revision-Date: 2023-12-13 19:52+0000\nLast-Translator: Kristoffer Grundström <Unknown>\nLanguage-Team: Swedish <debian-l10n-swedish@lists.debian.org>\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nX-Launchpad-Export-Date: 2026-08-18 16:22+0000\nX-Generator: Launchpad (build 31c197e5e79ab0f4ab5cdf39f7fb1bdd55aff62f)\nLanguage: sv\n",
+      "note": "Excluded from message comparison: msgfmt may normalize charset and creation-date metadata."
+    }
+  },
+  "encoding": {
+    "po": "UTF-8",
+    "diff": "UTF-8",
+    "metadata": "UTF-8",
+    "report": "UTF-8"
+  }
+}
