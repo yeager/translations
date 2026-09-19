@@ -1234,3 +1234,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **Rethink DNS + Firewall – regelutfall, batch 10 (2026-09-19):** Sista synliga gruppen i den åtkomliga förslagskön är inskickad: app-, domän- och regionsvar samt regelutfall för betrodda/blockerade appar. Backup: `Rethink-DNS-Firewall/android-sv-rules-final-suggestions-20260919.json`.
 
 **SuiteCRM Core – adress- och tilldelningsgränssnitt (2026-09-19):** Crowdins aktuella sträng- och översättnings-API användes för att skilja verkliga luckor från befintliga svenska mål. **12** kontextgranskade poster för tilldelning, skapande/ändring, ID:n, beskrivning, borttagning och adresscachelista är publicerade med HTTP 201 i release 8.10. Backup: `SuiteCRM-Core/sv-address-cache-810-20260919.json`.
+
+**SuiteCRM Core – adresscache, uppföljning (2026-09-19):** **15** ytterligare API-verifierade svenska UI-strängar är publicerade med HTTP 201 för adresscachesökning, historik, aktiviteter, geokoordinater och användar-/revisionsmetadata i release 8.10. Backup: `SuiteCRM-Core/sv-address-cache-followup-810-20260919.json`.
