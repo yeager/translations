@@ -1141,3 +1141,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **3D Slicer – CTK, batch 19 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **665/1 077**. Batchen omfattar värdapps- och schemaläggarstatus, UI-detaljer samt CTK-metatypers validerings- och insticksmoduldiagnostik med bevarade Qt-typer och platshållare. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
 
 **3D Slicer – CTK, batch 20 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **700/1 077**. Batchen omfattar material- och renderingsegenskaper, sök-/meddelandedialoger samt DICOM-modaliteter. Materiallägena Gouraud, Phong och PBR har bevarats som etablerade grafiska facktermer. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
+
+**3D Slicer – CTK, batch 21 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **735/1 077**. Batchen omfattar DICOM-modaliteter och deras standardkoder, bland annat nuklearmedicin, ultraljud, doppler, PET/SPECT, röntgenangiografi och strålbehandling. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
