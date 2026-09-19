@@ -1,0 +1,465 @@
+--- a/gst-plugins-base-1.27.90.sv.po
++++ b/gst-plugins-base-1.27.90.sv.po
+@@ -135,7 +135,7 @@
+ 
+ #: gst/playback/gstplaysink.c:2532
+ msgid "Custom text sink element is not usable."
+-msgstr "Anpassat text utgångs-element är inte användbart."
++msgstr "Det anpassade textutdataelementet kan inte användas."
+ 
+ #: gst/playback/gstplaysink.c:2907
+ msgid "No volume control found"
+@@ -175,12 +175,12 @@
+ 
+ #: gst/playback/gsturidecodebin.c:1482 gst/playback/gsturisourcebin.c:1750
+ msgid "No URI specified to play from."
+-msgstr "Ingen uri angiven att spela upp från."
++msgstr "Ingen URI har angetts att spela upp från."
+ 
+ #: gst/playback/gsturidecodebin.c:1488 gst/playback/gsturisourcebin.c:1756
+ #, c-format
+ msgid "Invalid URI \"%s\"."
+-msgstr "Ogiltig uri ”%s”."
++msgstr "Ogiltig URI ”%s”."
+ 
+ #: gst/playback/gsturidecodebin.c:1495 gst/playback/gsturisourcebin.c:1763
+ msgid "This stream type cannot be played yet."
+@@ -206,7 +206,7 @@
+ 
+ #: gst/playback/gsturisourcebin.c:2575
+ msgid "Source element has no pads."
+-msgstr "Källelementet har inga kontakter."
++msgstr "Källelementet har inga anslutningspunkter."
+ 
+ #: gst/tcp/gsttcpclientsink.c:218
+ #, c-format
+@@ -231,7 +231,7 @@
+ 
+ #: gst-libs/gst/gl/gstglbasesrc.c:624
+ msgid "Subclass failed to initialize."
+-msgstr "Underklass misslyckades med initiering."
++msgstr "Underklassen misslyckades med initieringen."
+ 
+ #: gst-libs/gst/pbutils/descriptions.c:90
+ msgid "ID3 tag"
+@@ -277,12 +277,12 @@
+ 
+ #: gst-libs/gst/pbutils/descriptions.c:234
+ msgid "Run-length encoding"
+-msgstr "Skurlängdskodning"
++msgstr "RLE-kodning"
+ 
+ #. subtitle formats with static descriptions
+ #: gst-libs/gst/pbutils/descriptions.c:280
+ msgid "Timed Text"
+-msgstr "Textning"
++msgstr "Tidsstyrd text"
+ 
+ #. FIXME: add variant field to typefinder?
+ #: gst-libs/gst/pbutils/descriptions.c:284
+@@ -327,7 +327,7 @@
+ 
+ #: gst-libs/gst/pbutils/descriptions.c:344
+ msgid "Timed ID3 tag Metadata"
+-msgstr "Tidsbegränsad ID3-tagg metadata"
++msgstr "Tidsbestämda ID3-taggmetadata"
+ 
+ #: gst-libs/gst/pbutils/descriptions.c:488
+ #: gst-libs/gst/pbutils/descriptions.c:491
+@@ -371,7 +371,7 @@
+ 
+ #: gst-libs/gst/pbutils/descriptions.c:883
+ msgid "Uncompressed audio"
+-msgstr "Okomprimerad audio"
++msgstr "Okomprimerat ljud"
+ 
+ #: gst-libs/gst/pbutils/descriptions.c:889
+ #, c-format
+@@ -459,11 +459,11 @@
+ 
+ #: gst-libs/gst/pbutils/missing-plugins.c:641
+ msgid "Unknown source element"
+-msgstr "Okänt käll-element"
++msgstr "Okänt källelement"
+ 
+ #: gst-libs/gst/pbutils/missing-plugins.c:644
+ msgid "Unknown sink element"
+-msgstr "Okänt utgångs-element"
++msgstr "Okänt utdataelement"
+ 
+ #: gst-libs/gst/pbutils/missing-plugins.c:647
+ msgid "Unknown element"
+@@ -485,7 +485,7 @@
+ 
+ #: gst-libs/gst/tag/gsttagdemux.c:1263
+ msgid "Failed to read tag: not enough data"
+-msgstr "Misslyckades med att läsa tagg: inte tillräckligt mycket data"
++msgstr "Misslyckades med att läsa tagg: för lite data"
+ 
+ #: gst-libs/gst/tag/tags.c:77
+ msgid "track ID"
+@@ -521,23 +521,23 @@
+ 
+ #: gst-libs/gst/tag/tags.c:86
+ msgid "release group ID"
+-msgstr "släpp grupp-ID"
++msgstr "utgivningsgrupps-ID"
+ 
+ #: gst-libs/gst/tag/tags.c:87
+ msgid "MusicBrainz release group ID"
+-msgstr "MusicBrainz släpp grupp-ID"
++msgstr "MusicBrainz utgivningsgrupps-ID"
+ 
+ #: gst-libs/gst/tag/tags.c:89
+ msgid "release track ID"
+-msgstr "släpp spår-ID"
++msgstr "utgivningsspårs-ID"
+ 
+ #: gst-libs/gst/tag/tags.c:90
+ msgid "MusicBrainz release track ID"
+-msgstr "MusicBrainz släpp spår-ID"
++msgstr "MusicBrainz utgivningsspårs-ID"
+ 
+ #: gst-libs/gst/tag/tags.c:92
+ msgid "track TRM ID"
+-msgstr "spår TRM-ID"
++msgstr "spårets TRM-ID"
+ 
+ #: gst-libs/gst/tag/tags.c:92
+ msgid "MusicBrainz TRM ID"
+@@ -549,7 +549,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:96 gst-libs/gst/tag/tags.c:97
+ msgid "AcoustID fingerprint (chromaprint)"
+-msgstr "AcoustID fingeravtryck (chromaavtryck)"
++msgstr "AcoustID-fingeravtryck (chromaprint)"
+ 
+ #: gst-libs/gst/tag/tags.c:119
+ msgid "capturing shutter speed"
+@@ -577,7 +577,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:132
+ msgid "capturing 35 mm equivalent focal length"
+-msgstr "fångar 35mm-ekvivalent brännvidd"
++msgstr "35 mm-ekvivalent brännvidd"
+ 
+ #: gst-libs/gst/tag/tags.c:133
+ msgid "35 mm equivalent focal length of the lens used capturing the image, in mm"
+@@ -589,7 +589,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:138
+ msgid "Digital zoom ratio used when capturing an image"
+-msgstr "Digitalt zoom-förhållande som används när bild infångas"
++msgstr "Digital zoomfaktor som används vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:141
+ msgid "capturing iso speed"
+@@ -597,7 +597,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:142
+ msgid "The ISO speed used when capturing an image"
+-msgstr "ISO-tal som används när bild infångas"
++msgstr "ISO-tal som används vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:145
+ msgid "capturing exposure program"
+@@ -605,7 +605,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:146
+ msgid "The exposure program used when capturing an image"
+-msgstr "Det exponeringsprogram som används när bild infångas"
++msgstr "Exponeringsprogrammet som används vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:149
+ msgid "capturing exposure mode"
+@@ -613,7 +613,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:150
+ msgid "The exposure mode used when capturing an image"
+-msgstr "Exponeringsläge som används när bild infångas"
++msgstr "Exponeringsläget som används vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:153
+ msgid "capturing exposure compensation"
+@@ -621,7 +621,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:154
+ msgid "The exposure compensation used when capturing an image"
+-msgstr "Exponeringskompensationen som används när bild infångas"
++msgstr "Exponeringskompensationen som används vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:157
+ msgid "capturing scene capture type"
+@@ -629,7 +629,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:158
+ msgid "The scene capture mode used when capturing an image"
+-msgstr "Scenläge som används när bild infångas"
++msgstr "Scenläget som används vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:161
+ msgid "capturing gain adjustment"
+@@ -637,7 +637,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:162
+ msgid "The overall gain adjustment applied on an image"
+-msgstr "Förstärkningsjustering som appliceras på en bild"
++msgstr "Förstärkningsjustering som tillämpas på bilden"
+ 
+ #: gst-libs/gst/tag/tags.c:165
+ msgid "capturing white balance"
+@@ -645,15 +645,15 @@
+ 
+ #: gst-libs/gst/tag/tags.c:166
+ msgid "The white balance mode set when capturing an image"
+-msgstr "Vitbalansläge som sätts när bild infångas"
++msgstr "Vitbalansläget som ställs in vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:169
+ msgid "capturing light source"
+-msgstr "infångstljuskälla"
++msgstr "ljuskälla vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:170
+ msgid "The light source indicates the kind of light when capturing animage"
+-msgstr "Ljuskällan indikerar typen av ljus vid infångning av en bild"
++msgstr "Ljuskällan anger typen av ljus vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:174
+ msgid "capturing contrast"
+@@ -661,7 +661,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:175
+ msgid "The direction of contrast processing applied when capturing an image"
+-msgstr "Riktning för kontrastbehandling som appliceras när bild infångas"
++msgstr "Riktningen för kontrastbehandling som tillämpas vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:179
+ msgid "capturing saturation"
+@@ -669,7 +669,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:180
+ msgid "The direction of saturation processing applied when capturing an image"
+-msgstr "Riktning för mättnadsbehandling som appliceras när bild infångas"
++msgstr "Riktningen för mättnadsbehandling som tillämpas vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:184
+ msgid "capturing sharpness"
+@@ -677,7 +677,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:185
+ msgid "The direction of sharpness processing applied when capturing an image"
+-msgstr "Riktningen på skärpningsbehandling som appliceras när bild infångas"
++msgstr "Riktningen för skärpebehandling som tillämpas vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:189
+ msgid "capturing flash fired"
+@@ -685,7 +685,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:190
+ msgid "If the flash fired while capturing an image"
+-msgstr "Om blixten avfyrats när bild infångas"
++msgstr "Om blixten utlöstes vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:193
+ msgid "capturing flash mode"
+@@ -693,7 +693,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:194
+ msgid "The selected flash mode while capturing an image"
+-msgstr "Det valda blixtläget när bild infångas"
++msgstr "Det valda blixtläget vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:197
+ msgid "capturing metering mode"
+@@ -701,31 +701,31 @@
+ 
+ #: gst-libs/gst/tag/tags.c:198
+ msgid "The metering mode used while determining exposure for capturing an image"
+-msgstr "Ljusmätarläge som används då exponering bestäms när bild infångas"
++msgstr "Ljusmätarläget som används för att fastställa exponeringen vid bildtagning"
+ 
+ #: gst-libs/gst/tag/tags.c:202
+ msgid "capturing source"
+-msgstr "infångstkälla"
++msgstr "bildtagningskälla"
+ 
+ #: gst-libs/gst/tag/tags.c:203
+ msgid "The source or type of device used for the capture"
+-msgstr "Källa eller typ av enhet som används för infångsten"
++msgstr "Källa eller typ av enhet som används för bildtagningen"
+ 
+ #: gst-libs/gst/tag/tags.c:206
+ msgid "image horizontal ppi"
+-msgstr "bild horisontell ppi"
++msgstr "bildens horisontella ppi"
+ 
+ #: gst-libs/gst/tag/tags.c:207
+ msgid "Media (image/video) intended horizontal pixel density in ppi"
+-msgstr "Media (bild/video) avsedd horisontell pixeldensitet i ppi"
++msgstr "Avsedd horisontell pixeltäthet för media (bild/video) i ppi"
+ 
+ #: gst-libs/gst/tag/tags.c:210
+ msgid "image vertical ppi"
+-msgstr "bild vertikal ppi"
++msgstr "bildens vertikala ppi"
+ 
+ #: gst-libs/gst/tag/tags.c:211
+ msgid "Media (image/video) intended vertical pixel density in ppi"
+-msgstr "Media (bild/video) avsedd vertikal pixeldensitet i ppi"
++msgstr "Avsedd vertikal pixeltäthet för media (bild/video) i ppi"
+ 
+ #: gst-libs/gst/tag/tags.c:214
+ msgid "ID3v2 frame"
+@@ -733,7 +733,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:214
+ msgid "unparsed id3v2 tag frame"
+-msgstr "otolkad id3v2-tagg-ram"
++msgstr "otolkad ID3v2-taggram"
+ 
+ #: gst-libs/gst/tag/tags.c:218
+ msgid "musical-key"
+@@ -741,7 +741,7 @@
+ 
+ #: gst-libs/gst/tag/tags.c:218
+ msgid "Initial key in which the sound starts"
+-msgstr "Inledande tonart med vilken ljudet börjar"
++msgstr "Den ursprungliga tonart som ljudet börjar i"
+ 
+ #: tools/gst-device-monitor.c:445 tools/gst-play.c:1709
+ msgid "Print version information and exit"
+@@ -749,11 +749,12 @@
+ 
+ #: tools/gst-device-monitor.c:447
+ msgid "Don't exit after showing the initial device list, but wait for devices to added/removed."
+-msgstr "Avsluta inte efter att den inledande enhetslistan visats, utan vänta på att enheter läggs till/tas bort."
++msgstr "Avsluta inte efter att den inledande enhetslistan har visats, utan vänta på "
++"att enheter läggs till eller tas bort."
+ 
+ #: tools/gst-device-monitor.c:450
+ msgid "Include devices from hidden device providers."
+-msgstr "Inkludera enheter från gömda enhetsleverantörer."
++msgstr "Inkludera enheter från dolda enhetsleverantörer."
+ 
+ #: tools/gst-play.c:341
+ #, c-format
+@@ -814,7 +815,7 @@
+ 
+ #: tools/gst-play.c:502
+ msgid "Clock lost, selecting a new one\n"
+-msgstr "Klocka förlorad, väljer en ny\n"
++msgstr "Klockan förlorades, väljer en ny\n"
+ 
+ #: tools/gst-play.c:532 tools/gst-play.c:580 tools/gst-play.c:1049
+ #: tools/gst-play.c:1559
+@@ -833,7 +834,7 @@
+ #: tools/gst-play.c:913
+ #, c-format
+ msgid "About to finish, preparing next title: %s"
+-msgstr "Slutar snart, förbereder nästa titel: %s"
++msgstr "Håller på att avsluta, förbereder nästa titel: %s"
+ 
+ #: tools/gst-play.c:1167
+ #, c-format
+@@ -851,7 +852,7 @@
+ 
+ #: tools/gst-play.c:1494
+ msgid "pause/unpause"
+-msgstr "pausa/fortsätt"
++msgstr "pausa/återuppta"
+ 
+ #: tools/gst-play.c:1495
+ msgid "q or ESC"
+@@ -879,11 +880,11 @@
+ 
+ #: tools/gst-play.c:1498
+ msgid "seek forward"
+-msgstr "sök framåt"
++msgstr "spola framåt"
+ 
+ #: tools/gst-play.c:1499
+ msgid "seek backward"
+-msgstr "sök bakåt"
++msgstr "spola bakåt"
+ 
+ #: tools/gst-play.c:1500
+ msgid "volume up"
+@@ -895,7 +896,7 @@
+ 
+ #: tools/gst-play.c:1502
+ msgid "toggle audio mute on/off"
+-msgstr "växla tystnadsläge på/av"
++msgstr "växla ljudavstängning på/av"
+ 
+ #: tools/gst-play.c:1503
+ msgid "increase playback rate"
+@@ -927,7 +928,7 @@
+ 
+ #: tools/gst-play.c:1510
+ msgid "seek to beginning"
+-msgstr "sök till början"
++msgstr "gå till början"
+ 
+ #: tools/gst-play.c:1511
+ msgid "show keyboard shortcuts"
+@@ -952,11 +953,11 @@
+ 
+ #: tools/gst-play.c:1711
+ msgid "Video sink to use (default is autovideosink)"
+-msgstr "Videoutgång som ska användas (standard är autovideosink)"
++msgstr "Videoutdata som ska användas (standard är autovideosink)"
+ 
+ #: tools/gst-play.c:1713
+ msgid "Audio sink to use (default is autoaudiosink)"
+-msgstr "Ljudutgång som ska användas (standard är autoaudiosink)"
++msgstr "Ljudutdata som ska användas (standard är autoaudiosink)"
+ 
+ #: tools/gst-play.c:1715
+ msgid "Enable gapless playback"
+@@ -964,7 +965,7 @@
+ 
+ #: tools/gst-play.c:1717
+ msgid "Enable instantaneous uri changes (only with playbin3)"
+-msgstr "Aktivera omedelbara uri-ändringar (endast med playbin3)"
++msgstr "Aktivera omedelbara URI-ändringar (endast med playbin3)"
+ 
+ #: tools/gst-play.c:1719
+ msgid "Shuffle playlist"
+@@ -988,7 +989,7 @@
+ 
+ #: tools/gst-play.c:1730
+ msgid "Playlist file containing input media files"
+-msgstr "Fil med spellista innehållandes inkommande mediafiler"
++msgstr "Spellistefil som innehåller inmatade mediafiler"
+ 
+ #: tools/gst-play.c:1733
+ msgid "Use the experimental instant-rate-change flag when changing rate"
+@@ -996,7 +997,7 @@
+ 
+ #: tools/gst-play.c:1736
+ msgid "Do not print any output (apart from errors)"
+-msgstr "Mata inte ut någonting (bortsett från fel)"
++msgstr "Skriv inte ut något (utom fel)"
+ 
+ #: tools/gst-play.c:1738
+ msgid "Use playbin3 pipeline (default)"
+@@ -1008,7 +1009,8 @@
+ 
+ #: tools/gst-play.c:1745
+ msgid "Keep showing the last frame on EOS until quit or playlist change command (gapless is ignored)"
+-msgstr "Fortsätt visa den sista ramen vid EOS tills avslutning eller ändringskommando för spellista (mellanrumslös hoppas över)"
++msgstr "Fortsätt visa den sista bildrutan vid EOS tills avslutning eller kommando för "
++"ändring av spellista (mellanrumslös uppspelning ignoreras)"
+ 
+ #: tools/gst-play.c:1749
+ msgid "Do not print current position of pipeline"
+@@ -1025,7 +1027,7 @@
+ 
+ #: tools/gst-play.c:1847
+ msgid "You must provide at least one filename or URI to play."
+-msgstr "Du måste ange åtminstone ett filnamn eller en URI att spela."
++msgstr "Du måste ange minst ett filnamn eller en URI att spela upp."
+ 
+ #: tools/gst-play.c:1905
+ msgid "Press 'k' to see a list of keyboard shortcuts.\n"

@@ -1,0 +1,327 @@
+# Swedish translation of GSS.
+# Copyright (C) 2008 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gss package.
+# Simon Josefsson <simon@josefsson.org>, 2004-2007.
+# Christer Andersson <klamm@comhem.se>, 2008.
+# Mattias Hansson <hansson.mattias@gmail.com>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gss 1.0.1\n"
+"Report-Msgid-Bugs-To: bug-gss@gnu.org\n"
+"POT-Creation-Date: 2010-05-20 15:38+0200\n"
+"PO-Revision-Date: 2017-09-13 22:08+0200\n"
+"Last-Translator: Mattias Hansson <hansson.mattias@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.3\n"
+
+#: lib/meta.c:37
+msgid "Kerberos V5 GSS-API mechanism"
+msgstr "Kerberos V5 GSS-API-mekanism"
+
+#: lib/error.c:37
+msgid "A required input parameter could not be read"
+msgstr "En nödvändig indataparameter kunde inte läsas"
+
+#: lib/error.c:39
+msgid "A required output parameter could not be written"
+msgstr "En nödvändig utdataparameter kunde inte skrivas"
+
+#: lib/error.c:41
+msgid "A parameter was malformed"
+msgstr "En parameter var felaktigt formaterad"
+
+#: lib/error.c:46
+msgid "An unsupported mechanism was requested"
+msgstr "En mekanism som inte stöds begärdes"
+
+#: lib/error.c:48
+msgid "An invalid name was supplied"
+msgstr "Ett ogiltigt namn angavs"
+
+#: lib/error.c:50
+msgid "A supplied name was of an unsupported type"
+msgstr "Ett angivet namn hade en typ som inte stöds"
+
+#: lib/error.c:52
+msgid "Incorrect channel bindings were supplied"
+msgstr "Felaktig kanalbindning angavs"
+
+#: lib/error.c:54
+msgid "An invalid status code was supplied"
+msgstr "En ogiltig statuskod angavs"
+
+#: lib/error.c:56
+msgid "A token had an invalid MIC"
+msgstr "En token hade en ogiltig MIC"
+
+#: lib/error.c:58
+msgid "No credentials were supplied, or the credentials were unavailable or inaccessible"
+msgstr "Inga autentiseringsuppgifter angavs, eller så var de otillgängliga eller "
+"oåtkomliga"
+
+#: lib/error.c:61
+msgid "No context has been established"
+msgstr "Ingen säkerhetskontext har upprättats"
+
+#: lib/error.c:63
+msgid "A token was invalid"
+msgstr "En token var ogiltig"
+
+#: lib/error.c:65
+msgid "A credential was invalid"
+msgstr "Autentiseringsuppgifterna var ogiltiga"
+
+#: lib/error.c:67
+msgid "The referenced credentials have expired"
+msgstr "De angivna autentiseringsuppgifterna har gått ut"
+
+#: lib/error.c:69
+msgid "The context has expired"
+msgstr "Giltighetstiden för säkerhetskontext har gått ut"
+
+#: lib/error.c:71
+msgid "Unspecified error in underlying mechanism"
+msgstr "Okänt fel i underliggande mekanism"
+
+#: lib/error.c:73
+msgid "The quality-of-protection requested could not be provided"
+msgstr "Den begärda skyddsnivån kunde inte tillhandahållas"
+
+#: lib/error.c:75
+msgid "The operation is forbidden by local security policy"
+msgstr "Åtgärden förbjuds av lokal säkerhetspolicy"
+
+#: lib/error.c:77
+msgid "The operation or option is unavailable"
+msgstr "Åtgärden eller flaggan är inte tillgänglig"
+
+#: lib/error.c:79
+msgid "The requested credential element already exists"
+msgstr "Det begärda autentiseringsuppgiftselementet finns redan"
+
+#: lib/error.c:81
+msgid "The provided name was not a mechanism name"
+msgstr "Det angivna namnet var inte ett mekanismnamn"
+
+#: lib/error.c:86
+msgid "The gss_init_sec_context() or gss_accept_sec_context() function must be called again to complete its function"
+msgstr "Funktionerna gss_init_sec_context() eller gss_accept_sec_context() måste anropas igen för att fullfölja operationen"
+
+#: lib/error.c:89
+msgid "The token was a duplicate of an earlier token"
+msgstr "Token är en dubblett av en tidigare token"
+
+#: lib/error.c:91
+msgid "The token's validity period has expired"
+msgstr "Tokenens giltighetstid har gått ut"
+
+#: lib/error.c:93
+msgid "A later token has already been processed"
+msgstr "En senare token har redan bearbetats"
+
+#: lib/error.c:95
+msgid "An expected per-message token was not received"
+msgstr "En förväntad token per meddelande togs inte emot"
+
+#: lib/error.c:312
+msgid "No error"
+msgstr "Inget fel"
+
+#: lib/krb5/error.c:36
+msgid "No @ in SERVICE-NAME name string"
+msgstr "@ saknas i namnsträngen SERVICE-NAME"
+
+#: lib/krb5/error.c:38
+msgid "STRING-UID-NAME contains nondigits"
+msgstr "STRING-UID-NAME innehåller andra tecken än siffror"
+
+#: lib/krb5/error.c:40
+msgid "UID does not resolve to username"
+msgstr "UID identifierar inget användarnamn"
+
+#: lib/krb5/error.c:42
+msgid "Validation error"
+msgstr "Valideringsfel"
+
+#: lib/krb5/error.c:44
+msgid "Couldn't allocate gss_buffer_t data"
+msgstr "Kunde inte allokera gss_buffer_t-data"
+
+#: lib/krb5/error.c:46
+msgid "Message context invalid"
+msgstr "Meddelandekontexten är ogiltig"
+
+#: lib/krb5/error.c:48
+msgid "Buffer is the wrong size"
+msgstr "Bufferten har fel storlek"
+
+#: lib/krb5/error.c:50
+msgid "Credential usage type is unknown"
+msgstr "Autentiseringsuppgifterna har okänd användningstyp"
+
+#: lib/krb5/error.c:52
+msgid "Unknown quality of protection specified"
+msgstr "En okänd skyddsnivå angavs"
+
+#: lib/krb5/error.c:55
+msgid "Principal in credential cache does not match desired name"
+msgstr "Huvudmannen i cachen för autentiseringsuppgifter matchar inte det önskade "
+"namnet"
+
+#: lib/krb5/error.c:57
+msgid "No principal in keytab matches desired name"
+msgstr "Ingen huvudman i keytab matchar det önskade namnet"
+
+#: lib/krb5/error.c:59
+msgid "Credential cache has no TGT"
+msgstr "Cachen för autentiseringsuppgifter saknar TGT"
+
+#: lib/krb5/error.c:61
+msgid "Authenticator has no subkey"
+msgstr "Autentiseraren saknar undernyckel"
+
+#: lib/krb5/error.c:63
+msgid "Context is already fully established"
+msgstr "Säkerhetskontexten är redan helt upprättad"
+
+#: lib/krb5/error.c:65
+msgid "Unknown signature type in token"
+msgstr "Okänd signaturtyp i token"
+
+#: lib/krb5/error.c:67
+msgid "Invalid field length in token"
+msgstr "Ogiltigt fältlängd i token"
+
+#: lib/krb5/error.c:69
+msgid "Attempt to use incomplete security context"
+msgstr "Försökte använda ofullständig säkerhetskontext"
+
+#: lib/krb5/error.c:86
+msgid "No krb5 error"
+msgstr "Inget krb5-fel"
+
+#: lib/krb5/error.c:127
+msgid "Unknown krb5 error"
+msgstr "Okänt krb5-fel"
+
+#: src/gss.c:65
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr "Kör ”%s --help” för mer information.\n"
+
+#: src/gss.c:69
+#, c-format
+msgid "Usage: %s OPTIONS...\n"
+msgstr "Användning: %s FLAGGOR...\n"
+
+#: src/gss.c:72
+msgid ""
+"Command line interface to GSS, used to explain error codes.\n"
+"\n"
+msgstr ""
+"Kommandoradsgränssnitt till GSS för att förklara felkoder.\n"
+"\n"
+
+#: src/gss.c:76
+msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+msgstr "Obligatoriska argument för långa flaggor är även obligatoriska för korta flaggor.\n"
+
+#: src/gss.c:79
+msgid ""
+"  -h, --help        Print help and exit.\n"
+"  -V, --version     Print version and exit.\n"
+"  -l, --list-mechanisms\n"
+"                    List information about supported mechanisms\n"
+"                    in a human readable format.\n"
+"  -m, --major=LONG  Describe a `major status' error code value.\n"
+msgstr ""
+"  -h, --help        Skriv ut hjälptext och avsluta.\n"
+"  -V, --version     Skriv ut version och avsluta.\n"
+"  -l, --list-mechanisms\n"
+"                    Lista information om mekanismer som stöds\n"
+"                    i ett läsbart format.\n"
+"  -m, --major=LONG  Förklara ett felkodsvärde för ”huvudstatus”.\n"
+
+#: src/gss.c:87
+msgid "  -q, --quiet       Silent operation (default=off).\n"
+msgstr "  -q, --quiet       Tyst körning (standardvärde=avslaget).\n"
+
+#: src/gss.c:106
+#, c-format
+msgid ""
+"GSS-API major status code %ld (0x%lx).\n"
+"\n"
+msgstr ""
+"GSS-API huvudstatuskod %ld (0x%lx).\n"
+"\n"
+
+#: src/gss.c:109
+#, c-format
+msgid ""
+"   MSB                                                                 LSB\n"
+"   +-----------------+-----------------+---------------------------------+\n"
+"   |  Calling Error  |  Routine Error  |       Supplementary Info        |\n"
+"   | "
+msgstr ""
+"   MSB                                                                 LSB\n"
+"   +-----------------+-----------------+---------------------------------+\n"
+"   |    Anropsfel    |   Funktionsfel  |       Tilläggsinformation       |\n"
+"   | "
+
+#: src/gss.c:123
+#, c-format
+msgid ""
+"|\n"
+"   +-----------------+-----------------+---------------------------------+\n"
+"Bit 31            24  23            16  15                             0\n"
+"\n"
+msgstr ""
+"|\n"
+"   +-----------------+-----------------+---------------------------------+\n"
+"Bit 31            24  23            16  15                             0\n"
+"\n"
+
+#: src/gss.c:133
+#, c-format
+msgid "Masked routine error %ld (0x%lx) shifted into %ld (0x%lx):\n"
+msgstr "Maskerat funktionsfel %ld (0x%lx) skiftat till %ld (0x%lx):\n"
+
+#: src/gss.c:150 src/gss.c:184 src/gss.c:221
+#, c-format
+msgid "displaying status code failed (%d)"
+msgstr "visning av statuskod misslyckades (%d)"
+
+#: src/gss.c:170
+#, c-format
+msgid "Masked calling error %ld (0x%lx) shifted into %ld (0x%lx):\n"
+msgstr "Maskerat anropsfel %ld (0x%lx) skiftat till %ld (0x%lx):\n"
+
+#: src/gss.c:203
+#, c-format
+msgid "Masked supplementary info %ld (0x%lx) shifted into %ld (0x%lx):\n"
+msgstr "Maskerad tilläggsinformation %ld (0x%lx) skiftad till %ld (0x%lx):\n"
+
+#: src/gss.c:238
+#, c-format
+msgid "No error\n"
+msgstr "Inget fel\n"
+
+#: src/gss.c:256
+#, c-format
+msgid "indicating mechanisms failed (%d)"
+msgstr "angivande av mekanismer misslyckades (%d)"
+
+#: src/gss.c:271
+#, c-format
+msgid "inquiring information about mechanism failed (%d)"
+msgstr "hämtning av information om mekanism misslyckades (%d)"
+
+#~ msgid "%s: missing parameter\n"
+#~ msgstr "%s: parameter saknas\n"

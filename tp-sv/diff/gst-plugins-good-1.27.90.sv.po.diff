@@ -1,0 +1,327 @@
+--- a/gst-plugins-good-1.27.90.sv.po
++++ b/gst-plugins-good-1.27.90.sv.po
+@@ -92,7 +92,7 @@
+ 
+ #: gst/avi/gstavimux.c:1946
+ msgid "No or invalid input audio, AVI stream will be corrupt."
+-msgstr "Inget eller ogiltigt ingångsljud. AVI-strömmen kommer att skadas."
++msgstr "Inget eller ogiltigt inmatningsljud. AVI-strömmen blir skadad."
+ 
+ #: gst/isomp4/qtdemux.c:513 gst/isomp4/qtdemux.c:518
+ msgid "This file contains no playable streams."
+@@ -105,7 +105,7 @@
+ 
+ #: gst/isomp4/qtdemux.c:3080
+ msgid "Cannot play stream because it is encrypted with PlayReady DRM."
+-msgstr "Kan ej spela ström då den är krypterad med PlayReady DRM."
++msgstr "Kan inte spela upp strömmen eftersom den är krypterad med PlayReady DRM."
+ 
+ #: gst/isomp4/qtdemux.c:4736 gst/isomp4/qtdemux.c:9498
+ #: gst/isomp4/qtdemux.c:9505 gst/isomp4/qtdemux.c:10839
+@@ -120,11 +120,11 @@
+ 
+ #: gst/isomp4/qtdemux.c:5031 gst/isomp4/qtdemux.c:5038
+ msgid "Cannot query file size"
+-msgstr "Kan inte begära filstorlek"
++msgstr "Kan inte hämta filstorleken"
+ 
+ #: gst/isomp4/qtdemux.c:5047
+ msgid "Cannot demux file"
+-msgstr "Kan inte avmultiplexera fil"
++msgstr "Kan inte avmultiplexera filen"
+ 
+ #: gst/isomp4/qtdemux.c:5087
+ msgid "This file is incomplete and cannot be played."
+@@ -202,7 +202,7 @@
+ #: sys/v4l2/gstv4l2object.c:1398
+ #, c-format
+ msgid "Failed to enumerate possible video formats device '%s' can work with"
+-msgstr "Misslyckades med att räkna upp möjliga videoformat som enheten ”%s” kan arbeta med"
++msgstr "Misslyckades med att lista möjliga videoformat som enheten ”%s” kan använda"
+ 
+ #: sys/v4l2/gstv4l2object.c:3515
+ #, c-format
+@@ -212,7 +212,7 @@
+ #: sys/v4l2/gstv4l2object.c:3523
+ #, c-format
+ msgid "The driver of device '%s' does not support the IO method %d"
+-msgstr "Drivrutinen för enheten ”%s” stöder inte IO-metod %d"
++msgstr "Drivrutinen för enheten ”%s” stöder inte I/O-metoden %d"
+ 
+ #: sys/v4l2/gstv4l2object.c:3530
+ #, c-format
+@@ -221,7 +221,7 @@
+ 
+ #: sys/v4l2/gstv4l2object.c:4670
+ msgid "Invalid caps"
+-msgstr "Ogiltig förmåga"
++msgstr "Ogiltiga caps"
+ 
+ #: sys/v4l2/gstv4l2object.c:4677 sys/v4l2/gstv4l2object.c:4701
+ #, c-format
+@@ -231,7 +231,7 @@
+ #: sys/v4l2/gstv4l2object.c:4683 sys/v4l2/gstv4l2object.c:4707
+ #, c-format
+ msgid "Device '%s' failed during initialization"
+-msgstr "Enheten ”%s” misslyckades under initiering"
++msgstr "Enheten ”%s” kunde inte initieras"
+ 
+ #: sys/v4l2/gstv4l2object.c:4695
+ #, c-format
+@@ -241,22 +241,22 @@
+ #: sys/v4l2/gstv4l2object.c:4718
+ #, c-format
+ msgid "Device '%s' cannot capture at %dx%d"
+-msgstr "Enheten ”%s” kan inte fånga i %dx%d"
++msgstr "Enheten ”%s” kan inte fånga vid %dx%d"
+ 
+ #: sys/v4l2/gstv4l2object.c:4727
+ #, c-format
+ msgid "Device '%s' cannot capture in the specified format"
+-msgstr "Enheten ”%s” kan inte fånga i det angivna formatet"
++msgstr "Enheten ”%s” kan inte fånga i angivet format"
+ 
+ #: sys/v4l2/gstv4l2object.c:4738
+ #, c-format
+ msgid "Device '%s' does support non-contiguous planes"
+-msgstr "Enheten ”%s” stöder inte icke-kontinuerliga plan"
++msgstr "Enheten ”%s” stöder icke-sammanhängande plan"
+ 
+ #: sys/v4l2/gstv4l2object.c:4753
+ #, c-format
+ msgid "Device '%s' does not support %s interlacing"
+-msgstr "Enhet ”%s” stöder inte %s-sammanflätning"
++msgstr "Enheten ”%s” stöder inte %s-sammanflätning"
+ 
+ #: sys/v4l2/gstv4l2object.c:4768
+ #, c-format
+@@ -266,15 +266,15 @@
+ #: sys/v4l2/gstv4l2object.c:4780
+ #, c-format
+ msgid "Could not get parameters on device '%s'"
+-msgstr "Kunde inte få tag i parametrar på enheten ”%s”"
++msgstr "Kunde inte hämta parametrarna för enheten ”%s”"
+ 
+ #: sys/v4l2/gstv4l2object.c:4788
+ msgid "Video device did not accept new frame rate setting."
+-msgstr "Videoenheten accepterade inte ny inställning för bildfrekvens."
++msgstr "Videoenheten accepterade inte den nya inställningen för bildfrekvens."
+ 
+ #: sys/v4l2/gstv4l2object.c:4942
+ msgid "Video device did not provide output format."
+-msgstr "Videoenheten tillhandahöll inget utgångsformat."
++msgstr "Videoenheten tillhandahöll inget utdataformat."
+ 
+ #: sys/v4l2/gstv4l2object.c:4948
+ msgid "Video device returned invalid dimensions."
+@@ -282,33 +282,33 @@
+ 
+ #: sys/v4l2/gstv4l2object.c:4956
+ msgid "Video device uses an unsupported interlacing method."
+-msgstr "Videoenhet använder en sammanflätningsmetod som ej stöds."
++msgstr "Videoenheten använder en sammanflätningsmetod som inte stöds."
+ 
+ #: sys/v4l2/gstv4l2object.c:4963
+ msgid "Video device uses an unsupported pixel format."
+-msgstr "Videoenhet använder ett pixel-format som ej stöds."
++msgstr "Videoenheten använder ett pixelformat som inte stöds."
+ 
+ #: sys/v4l2/gstv4l2object.c:6056
+ msgid "Failed to configure internal buffer pool."
+-msgstr "Misslyckades med att konfigurera intern buffert-pool."
++msgstr "Misslyckades med att konfigurera intern buffertpool."
+ 
+ #: sys/v4l2/gstv4l2object.c:6062
+ msgid "Video device did not suggest any buffer size."
+-msgstr "Videoenheten föreslog inte ny buffertstorlek."
++msgstr "Videoenheten föreslog ingen buffertstorlek."
+ 
+ #: sys/v4l2/gstv4l2object.c:6068
+ msgid "No downstream pool to import from."
+-msgstr "Ingen nedströms-pool att importera från."
++msgstr "Ingen nedströmspool att importera från."
+ 
+ #: sys/v4l2/gstv4l2radio.c:144
+ #, c-format
+ msgid "Failed to get settings of tuner %d on device '%s'."
+-msgstr "Misslyckades med att få tag i inställningarna för mottagare %d på enheten ”%s”."
++msgstr "Misslyckades med att hämta inställningarna för mottagare %d på enheten ”%s”."
+ 
+ #: sys/v4l2/gstv4l2radio.c:151
+ #, c-format
+ msgid "Error getting capabilities for device '%s'."
+-msgstr "Fel vid läsning av förmågor för enheten ”%s”."
++msgstr "Fel vid hämtning av caps för enheten ”%s”."
+ 
+ #: sys/v4l2/gstv4l2radio.c:158
+ #, c-format
+@@ -318,7 +318,7 @@
+ #: sys/v4l2/gstv4l2radio.c:185
+ #, c-format
+ msgid "Failed to get radio input on device '%s'. "
+-msgstr "Kunde inte ställa in radioingång på enheten ”%s”. "
++msgstr "Kunde inte hämta radioingången för enheten ”%s”. "
+ 
+ #: sys/v4l2/gstv4l2radio.c:208
+ #, c-format
+@@ -328,16 +328,16 @@
+ #: sys/v4l2/gstv4l2radio.c:242
+ #, c-format
+ msgid "Failed to change mute state for device '%s'."
+-msgstr "Misslyckades med att ändra på ljudlös-läge för enheten ”%s”."
++msgstr "Misslyckades med att ändra ljudavstängningsläget för enheten ”%s”."
+ 
+ #: sys/v4l2/gstv4l2sink.c:638
+ msgid "Failed to allocated required memory."
+-msgstr "Misslyckades att allokera begärt minne."
++msgstr "Misslyckades med att allokera nödvändigt minne."
+ 
+ #: sys/v4l2/gstv4l2src.c:958 sys/v4l2/gstv4l2videodec.c:571
+ #: sys/v4l2/gstv4l2videodec.c:1114 sys/v4l2/gstv4l2videoenc.c:875
+ msgid "Failed to allocate required memory."
+-msgstr "Misslyckades med att allokera begärt minne."
++msgstr "Misslyckades med att allokera nödvändigt minne."
+ 
+ #: sys/v4l2/gstv4l2transform.c:146
+ #, c-format
+@@ -352,15 +352,15 @@
+ #: sys/v4l2/gstv4l2videodec.c:150
+ #, c-format
+ msgid "Decoder on device %s has no supported input format"
+-msgstr "Avkodaren på enhet %s har inget ingångsformat som stöds"
++msgstr "Avkodaren på enheten %s har inget ingångsformat som stöds"
+ 
+ #: sys/v4l2/gstv4l2videodec.c:1128
+ msgid "Failed to start decoding thread."
+-msgstr "Misslyckades med att starta avkodningstråd."
++msgstr "Misslyckades med att starta avkodningstråden."
+ 
+ #: sys/v4l2/gstv4l2videodec.c:1135 sys/v4l2/gstv4l2videoenc.c:895
+ msgid "Failed to process frame."
+-msgstr "Misslyckades att behandla ram."
++msgstr "Misslyckades med att behandla bildrutan."
+ 
+ #: sys/v4l2/gstv4l2videoenc.c:151
+ #, c-format
+@@ -374,36 +374,37 @@
+ 
+ #: sys/v4l2/gstv4l2videoenc.c:841
+ msgid "Failed to force keyframe."
+-msgstr "Misslyckades att tvinga nyckelram."
++msgstr "Misslyckades med att tvinga fram en nyckelbildruta."
+ 
+ #: sys/v4l2/gstv4l2videoenc.c:888
+ msgid "Failed to start encoding thread."
+-msgstr "Misslyckades med att starta kodningstråd."
++msgstr "Misslyckades med att starta kodningstråden."
+ 
+ #: sys/v4l2/v4l2_calls.c:92
+ #, c-format
+ msgid "Error getting capabilities for device '%s': It isn't a v4l2 driver. Check if it is a v4l1 driver."
+-msgstr "Fel vid läsning av förmågor för enheten ”%s”: Det är inte en v4l2-drivrutin. Kontrollera om det är en v4l1-drivrutin."
++msgstr "Fel vid hämtning av caps för enheten ”%s”: Det är inte en v4l2-drivrutin. "
++"Kontrollera om det är en v4l1-drivrutin."
+ 
+ #: sys/v4l2/v4l2_calls.c:156
+ #, c-format
+ msgid "Failed to query attributes of input %d in device %s"
+-msgstr "Misslyckades med att fråga efter attribut för ingång %d i enheten %s"
++msgstr "Misslyckades med att fråga efter attribut för ingång %d på enheten %s"
+ 
+ #: sys/v4l2/v4l2_calls.c:188
+ #, c-format
+ msgid "Failed to get setting of tuner %d on device '%s'."
+-msgstr "Misslyckades med att få tag i inställningen för mottagare %d på enheten ”%s”."
++msgstr "Misslyckades med att hämta inställningen för mottagare %d på enheten ”%s”."
+ 
+ #: sys/v4l2/v4l2_calls.c:236
+ #, c-format
+ msgid "Failed to query norm on device '%s'."
+-msgstr "Misslyckades med att fråga efter norm på enheten ”%s”."
++msgstr "Misslyckades med att hämta normen för enheten ”%s”."
+ 
+ #: sys/v4l2/v4l2_calls.c:422
+ #, c-format
+ msgid "Failed getting controls attributes on device '%s'."
+-msgstr "Misslyckades med att få tag på kontrollattributen på enheten ”%s”."
++msgstr "Misslyckades med att hämta kontrollattributen för enheten ”%s”."
+ 
+ #: sys/v4l2/v4l2_calls.c:614
+ #, c-format
+@@ -413,7 +414,7 @@
+ #: sys/v4l2/v4l2_calls.c:621
+ #, c-format
+ msgid "This isn't a device '%s'."
+-msgstr "Det här är inte en enhet ”%s”."
++msgstr "Det här är inte enheten ”%s”."
+ 
+ #: sys/v4l2/v4l2_calls.c:628
+ #, c-format
+@@ -423,12 +424,12 @@
+ #: sys/v4l2/v4l2_calls.c:635
+ #, c-format
+ msgid "Device '%s' is not a capture device."
+-msgstr "Enheten ”%s” är ingen fångstenhet."
++msgstr "Enheten ”%s” är inte en fångstenhet."
+ 
+ #: sys/v4l2/v4l2_calls.c:642
+ #, c-format
+ msgid "Device '%s' is not a output device."
+-msgstr "Enheten ”%s” är ingen utgångsenhet."
++msgstr "Enheten ”%s” är inte en utdataenhet."
+ 
+ #: sys/v4l2/v4l2_calls.c:649
+ #, c-format
+@@ -448,7 +449,7 @@
+ #: sys/v4l2/v4l2_calls.c:823
+ #, c-format
+ msgid "Failed to get current tuner frequency for device '%s'."
+-msgstr "Misslyckades med att gå tag på aktuell mottagarfrekvens för enheten ”%s”."
++msgstr "Misslyckades med att hämta aktuell mottagarfrekvens för enheten ”%s”."
+ 
+ #: sys/v4l2/v4l2_calls.c:865
+ #, c-format
+@@ -458,7 +459,7 @@
+ #: sys/v4l2/v4l2_calls.c:899
+ #, c-format
+ msgid "Failed to get signal strength for device '%s'."
+-msgstr "Misslyckades med att få tag på signalstyrka för enheten ”%s”."
++msgstr "Misslyckades med att hämta signalstyrkan för enheten ”%s”."
+ 
+ #: sys/v4l2/v4l2_calls.c:935
+ #, c-format
+@@ -473,27 +474,29 @@
+ #: sys/v4l2/v4l2_calls.c:1030
+ #, c-format
+ msgid "Failed to set value %s for control %d on device '%s'."
+-msgstr "Kunde inte ställa in värdet %s för kontroll %d på enheten ”%s”."
++msgstr "Kunde inte ställa in värdet %s för kontrollen %d på enheten ”%s”."
+ 
+ #: sys/v4l2/v4l2_calls.c:1118
+ #, c-format
+ msgid "Failed to get current input on device '%s'. May be it is a radio device"
+-msgstr "Misslyckades med att få tag på aktuell ingång på enheten ”%s”. Kan vara en radioenhet"
++msgstr "Misslyckades med att hämta aktuell ingång för enheten ”%s”. Det kan vara en "
++"radioenhet."
+ 
+ #: sys/v4l2/v4l2_calls.c:1143
+ #, c-format
+ msgid "Failed to set input %u on device %s."
+-msgstr "Kunde inte ställa in ingång %u på enhet %s."
++msgstr "Kunde inte ställa in ingång %u på enheten %s."
+ 
+ #: sys/v4l2/v4l2_calls.c:1190
+ #, c-format
+ msgid "Failed to get current output on device '%s'. May be it is a radio device"
+-msgstr "Misslyckades med att få tag på aktuell utgång på enheten ”%s”. Kan vara en radioenhet"
++msgstr "Misslyckades med att hämta aktuell utdata för enheten ”%s”. Det kan vara en "
++"radioenhet."
+ 
+ #: sys/v4l2/v4l2_calls.c:1215
+ #, c-format
+ msgid "Failed to set output %u on device %s."
+-msgstr "Misslyckades med att ställa in utgång %u på enhet %s."
++msgstr "Misslyckades med att ställa in utdata %u på enheten %s."
+ 
+ #: sys/ximage/gstximagesrc.c:873
+ msgid "Cannot operate without a clock"
