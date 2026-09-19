@@ -177,8 +177,7 @@ msgstr "inga symboler"
 #, fuzzy
 #| msgid "archive has no index; run ranlib to add one"
 msgid "archive has no index; run ranlib to add one or use --link-mapless"
-msgstr "arkivet har inget index; kör ranlib för att lägga till ett eller använd "
-"--link-mapless"
+msgstr "arkivet har inget index; kör ranlib för att lägga till ett eller använd --link-mapless"
 
 #: bfd.c:839
 msgid "no more archived files"
@@ -381,8 +380,7 @@ msgstr "%pB: %#<PRIx64>: varning: symbol i oväntat sektion"
 #: coff-sh.c:972 elf32-sh.c:727
 #, c-format
 msgid "%pB: %#<PRIx64>: warning: could not find expected COUNT reloc"
-msgstr "%pB: %#<PRIx64>: varning: kunde inte hitta den förväntade "
-"COUNT-omlokaliseringen"
+msgstr "%pB: %#<PRIx64>: varning: kunde inte hitta den förväntade COUNT-omlokaliseringen"
 
 #: coff-sh.c:982 elf32-sh.c:738
 #, c-format
@@ -599,8 +597,7 @@ msgstr "%pB: omlokaliseringar i sektionen `%pA', men den har inget innehåll"
 #: cofflink.c:2578 elflink.c:11880
 #, c-format
 msgid "%X`%s' referenced in section `%pA' of %pB: defined in discarded section `%pA' of %pB\n"
-msgstr "%X`%s' refereras i sektionen `%pA' i %pB: definierad i den borttagna "
-"sektionen `%pA' i %pB\n"
+msgstr "%X`%s' refereras i sektionen `%pA' i %pB: definierad i den borttagna sektionen `%pA' i %pB\n"
 
 #: cofflink.c:2779
 #, c-format
@@ -656,8 +653,7 @@ msgstr "DWARF-fel: sektionen %s är för stor"
 #: dwarf2.c:754
 #, c-format
 msgid "DWARF error: offset (%<PRIu64>) greater than or equal to %s size (%<PRIu64>)"
-msgstr "DWARF-fel: offset (%<PRIu64>) större än eller lika med storleken på %s "
-"(%<PRIu64>)"
+msgstr "DWARF-fel: offset (%<PRIu64>) större än eller lika med storleken på %s (%<PRIu64>)"
 
 #: dwarf2.c:1501
 msgid "DWARF error: info pointer extends beyond end of attributes"
@@ -694,8 +690,7 @@ msgstr "DWARF-fel: sektionen med radinformation är för liten (%<PRId64>)"
 #: dwarf2.c:2763
 #, c-format
 msgid "DWARF error: line info data is bigger (%#<PRIx64>) than the space remaining in the section (%#lx)"
-msgstr "DWARF-fel: data för radinfo är större (%#<PRIx64>) än det utrymme som "
-"återstår i sektionen (%#lx)"
+msgstr "DWARF-fel: data för radinfo är större (%#<PRIx64>) än det utrymme som återstår i sektionen (%#lx)"
 
 #: dwarf2.c:2776
 #, c-format
@@ -739,8 +734,7 @@ msgstr "DWARF-fel: det går inte att läsa den alternativa referensen %<PRIu64>"
 #: dwarf2.c:3585
 #, c-format
 msgid "DWARF error: unable to locate abstract instance DIE ref %<PRIu64>"
-msgstr "DWARF-fel: det går inte att hitta DIE-referensen %<PRIu64> för den abstrakta "
-"instansen"
+msgstr "DWARF-fel: det går inte att hitta DIE-referensen %<PRIu64> för den abstrakta instansen"
 
 #: dwarf2.c:3622 dwarf2.c:3938 dwarf2.c:4511
 #, c-format
@@ -759,8 +753,7 @@ msgstr "DWARF-fel: DW_AT_comp_dir-attributet påträffades med en icke-strängfo
 #: dwarf2.c:4428
 #, c-format
 msgid "DWARF error: found dwarf version '%u', this reader only handles version 2, 3, 4 and 5 information"
-msgstr "DWARF-fel: hittade DWARF-version '%u', den här läsaren hanterar endast "
-"information i version 2, 3, 4 och 5"
+msgstr "DWARF-fel: hittade DWARF-version '%u', den här läsaren hanterar endast information i version 2, 3, 4 och 5"
 
 #: dwarf2.c:4475
 #, c-format
@@ -866,26 +859,22 @@ msgstr "%pA: misslyckades med att justera sektionen\n"
 #: elf-attrs.c:903
 #, c-format
 msgid "%pB: error: found duplicated attributes '%s' with conflicting values (%#x vs %#x) in subsection %s"
-msgstr "%pB: fel: hittade dubblerade attribut '%s' med motstridiga värden (%#x mot "
-"%#x) i undersektion %s"
+msgstr "%pB: fel: hittade dubblerade attribut '%s' med motstridiga värden (%#x mot %#x) i undersektion %s"
 
 #: elf-attrs.c:908
 #, c-format
 msgid "%pB: error: found duplicated attributes '%s' with conflicting values ('%s' vs '%s') in subsection %s"
-msgstr "%pB: fel: hittade dubblerade attribut '%s' med motstridiga värden ('%s' mot "
-"'%s') i undersektion %s"
+msgstr "%pB: fel: hittade dubblerade attribut '%s' med motstridiga värden ('%s' mot '%s') i undersektion %s"
 
 #: elf-attrs.c:964
 #, c-format
 msgid "%pB: error: found 2 subsections with the same name '%s' and found conflicting values (%#x vs %#x) for object attribute '%s'"
-msgstr "%pB: fel: hittade 2 undersektion med samma namn '%s' och hittade motstridiga "
-"värden (%#x mot %#x) för objektattributet '%s'"
+msgstr "%pB: fel: hittade 2 undersektion med samma namn '%s' och hittade motstridiga värden (%#x mot %#x) för objektattributet '%s'"
 
 #: elf-attrs.c:976
 #, c-format
 msgid "%pB: error: found 2 subsections with the same name '%s' and found conflicting values ('%s' vs '%s') for object attribute '%s"
-msgstr "%pB: fel: hittade 2 undersektion med samma namn '%s' och hittade motstridiga "
-"värden ('%s' mot '%s') för objektattributet '%s"
+msgstr "%pB: fel: hittade 2 undersektion med samma namn '%s' och hittade motstridiga värden ('%s' mot '%s') för objektattributet '%s"
 
 #: elf-attrs.c:1358
 #, c-format
@@ -895,8 +884,7 @@ msgstr "%X%pB: fel: saknar obligatoriskt objektattribut '%s' i undersektion '%s'
 #: elf-attrs.c:1378
 #, c-format
 msgid "%X%pB: error: mismatching value for required object attribute '%s' in subsection '%s': %#x\n"
-msgstr "%X%pB: fel: felaktigt värde för obligatoriskt objektattribut '%s' i "
-"undersektion '%s': %#x\n"
+msgstr "%X%pB: fel: felaktigt värde för obligatoriskt objektattribut '%s' i undersektion '%s': %#x\n"
 
 #: elf-attrs.c:1382
 #, c-format
@@ -906,8 +894,7 @@ msgstr "%pB: info: motstridigt värde '%#x' finns här\n"
 #: elf-attrs.c:1388
 #, c-format
 msgid "%X%pB: error: mismatching value for required object attribute '%s' in subsection '%s': \"%s\"\n"
-msgstr "%X%pB: fel: felaktigt värde för obligatoriskt objektattribut '%s' i "
-"undersektion '%s': \"%s\"\n"
+msgstr "%X%pB: fel: felaktigt värde för obligatoriskt objektattribut '%s' i undersektion '%s': \"%s\"\n"
 
 #: elf-attrs.c:1392
 #, c-format
@@ -922,8 +909,7 @@ msgstr "%X%pB: fel: den obligatoriska undersektionen %s med objektattribut sakna
 #: elf-attrs.c:1683 elf-attrs.c:1693
 #, c-format
 msgid "%X%pB: error: <%s> property of subsection '%s' was incorrectly set.  Got '%s', expected '%s'\n"
-msgstr "%X%pB: fel: egenskapen <%s> för undersektionen '%s' har angetts felaktigt. "
-"Fick '%s', förväntade '%s'\n"
+msgstr "%X%pB: fel: egenskapen <%s> för undersektionen '%s' har angetts felaktigt. Fick '%s', förväntade '%s'\n"
 
 #: elf-attrs.c:1717
 #, c-format
@@ -1021,8 +1007,7 @@ msgstr "%pB: fel: okänd attributversion '%c'(%d)\n"
 #: elf-attrs.c:3013
 #, c-format
 msgid "error: %pB: object has vendor-specific contents that must be processed by the '%s' toolchain"
-msgstr "fel: %pB: objektet har leverantörsspecifikt innehåll som måste bearbetas av "
-"verktygskedjan \"%s\""
+msgstr "fel: %pB: objektet har leverantörsspecifikt innehåll som måste bearbetas av verktygskedjan \"%s\""
 
 #: elf-attrs.c:3023
 #, c-format
@@ -1291,8 +1276,7 @@ msgstr "%pB: strängtabellen [%u] är korrupt"
 #: elf.c:398
 #, c-format
 msgid "%pB: attempt to load strings from a non-string section (number %d)"
-msgstr "%pB: försök att läsa in strängar från en sektion som inte är en strängsektion "
-"(nummer %d)"
+msgstr "%pB: försök att läsa in strängar från en sektion som inte är en strängsektion (nummer %d)"
 
 #: elf.c:423
 #, c-format
@@ -1303,8 +1287,7 @@ msgstr "%pB: ogiltig strängoffset %u >= %<PRIu64> för sektion `%s'"
 #: elfnn-riscv.c:3893
 #, c-format
 msgid "%pB symbol number %lu references nonexistent SHT_SYMTAB_SHNDX section"
-msgstr "%pB: symbol nummer %lu refererar till en SHT_SYMTAB_SHNDX-sektion som inte "
-"finns"
+msgstr "%pB: symbol nummer %lu refererar till en SHT_SYMTAB_SHNDX-sektion som inte finns"
 
 #: elf.c:596
 #, c-format
@@ -1415,14 +1398,12 @@ msgstr "%pB: varning: loop i sektionsberoenden upptäckt"
 #: elf.c:2625
 #, c-format
 msgid "%pB: warning: multiple symbol tables detected - ignoring the table in section %u"
-msgstr "%pB: varning: flera symboltabeller upptäcktes - ignorerar tabellen i sektion "
-"%u"
+msgstr "%pB: varning: flera symboltabeller upptäcktes - ignorerar tabellen i sektion %u"
 
 #: elf.c:2710
 #, c-format
 msgid "%pB: warning: multiple dynamic symbol tables detected - ignoring the table in section %u"
-msgstr "%pB: varning: flera dynamiska symboltabeller upptäcktes - ignorerar tabellen "
-"i sektion %u"
+msgstr "%pB: varning: flera dynamiska symboltabeller upptäcktes - ignorerar tabellen i sektion %u"
 
 #: elf.c:2829
 #, c-format
@@ -1432,8 +1413,7 @@ msgstr "%pB: ogiltig länk %u för omlokaliseringssektion %s (index %u)"
 #: elf.c:2886
 #, c-format
 msgid "%pB: warning: secondary relocation section '%s' for section %pA found - ignoring"
-msgstr "%pB: varning: sekundär omlokaliseringssektion \"%s\" för sektion %pA hittades "
-"- ignoreras"
+msgstr "%pB: varning: sekundär omlokaliseringssektion \"%s\" för sektion %pA hittades - ignoreras"
 
 #: elf.c:2973 elf.c:2987 elf.c:2998 elf.c:3011
 #, c-format
@@ -1535,8 +1515,7 @@ msgstr "%pB: varning: det går inte att tilldela några sektioner till PT_GNU_RE
 #: elf.c:6797
 #, c-format
 msgid "%pB: error: non-load segment %d includes file header and/or program header"
-msgstr "%pB: fel: segment %d som inte är av typen LOAD innehåller filhuvud och/eller "
-"programhuvud"
+msgstr "%pB: fel: segment %d som inte är av typen LOAD innehåller filhuvud och/eller programhuvud"
 
 #: elf.c:6950
 #, c-format
@@ -1648,8 +1627,7 @@ msgstr "%pB(%pA): omlokalisering %zu har ogiltigt symbolindex %lu"
 #: elf.c:13826
 #, c-format
 msgid "%pB(%pA): link section cannot be set because the output file does not have a symbol table"
-msgstr "%pB(%pA): länksektionen kan inte ställas in eftersom utdatafilen inte har "
-"någon symboltabell"
+msgstr "%pB(%pA): länksektionen kan inte ställas in eftersom utdatafilen inte har någon symboltabell"
 
 #: elf.c:13840
 #, c-format
@@ -1659,8 +1637,7 @@ msgstr "%pB(%pA): index för informationssektion är ogiltigt"
 #: elf.c:13854
 #, c-format
 msgid "%pB(%pA): info section index cannot be set because the section is not in the output"
-msgstr "%pB(%pA): index för informationssektion kan inte ställas in eftersom "
-"sektionen inte finns med i utdata"
+msgstr "%pB(%pA): index för informationssektion kan inte ställas in eftersom sektionen inte finns med i utdata"
 
 #: elf.c:13930
 #, c-format
@@ -1675,8 +1652,7 @@ msgstr "%pB(%pA): fel: sekundär omlokaliseringssektion har nollstora poster"
 #: elf.c:13954
 #, c-format
 msgid "%pB(%pA): error: secondary reloc section has non-standard sized entries"
-msgstr "%pB(%pA): fel: sekundär omlokaliseringssektion har poster med "
-"icke-standardiserade storlekar"
+msgstr "%pB(%pA): fel: sekundär omlokaliseringssektion har poster med icke-standardiserade storlekar"
 
 #: elf.c:13968
 #, c-format
@@ -1686,8 +1662,7 @@ msgstr "%pB(%pA): fel: sekundär omlokaliseringssektion är tom!"
 #: elf.c:13992
 #, c-format
 msgid "%pB(%pA): error: internal relocs missing for secondary reloc section"
-msgstr "%pB(%pA): fel: interna omlokaliseringar saknas för sekundär "
-"omlokaliseringssektion"
+msgstr "%pB(%pA): fel: interna omlokaliseringar saknas för sekundär omlokaliseringssektion"
 
 #: elf.c:14012
 #, c-format
@@ -1777,14 +1752,12 @@ msgstr "varning: ej inställda eller gamla arkitekturflaggor; använd standardma
 #: elf32-arc.c:1165
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): CMEM relocation to `%s' is invalid, 16 MSB should be %#x (value is %#<PRIx64>)"
-msgstr "%pB(%pA+%#<PRIx64>): CMEM-omlokalisering till `%s' är ogiltig, 16 MSB ska "
-"vara %#x (värdet är %#<PRIx64>)"
+msgstr "%pB(%pA+%#<PRIx64>): CMEM-omlokalisering till `%s' är ogiltig, 16 MSB ska vara %#x (värdet är %#<PRIx64>)"
 
 #: elf32-arc.c:1176
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): CMEM relocation to `%s+%#<PRIx64>' is invalid, 16 MSB should be %#x (value is %#<PRIx64>)"
-msgstr "%pB(%pA+%#<PRIx64>): CMEM-omlokalisering till `%s+%#<PRIx64>' är ogiltig, 16 "
-"MSB ska vara %#x (värdet är %#<PRIx64>)"
+msgstr "%pB(%pA+%#<PRIx64>): CMEM-omlokalisering till `%s+%#<PRIx64>' är ogiltig, 16 MSB ska vara %#x (värdet är %#<PRIx64>)"
 
 #: elf32-arc.c:1900
 msgid "GOT and PLT relocations cannot be fixed with a non dynamic linker"
@@ -1819,8 +1792,7 @@ msgstr "%pB(%pA): internt fel: okänt fel"
 #: elf32-nds32.c:5604 elfnn-aarch64.c:8087 elfnn-riscv.c:910
 #, c-format
 msgid "%pB: relocation %s against `%s' can not be used when making a shared object; recompile with -fPIC"
-msgstr "%pB: omlokalisering %s mot `%s' kan inte användas när man skapar ett delat "
-"objekt; kompilera om med -fPIC"
+msgstr "%pB: omlokalisering %s mot `%s' kan inte användas när man skapar ett delat objekt; kompilera om med -fPIC"
 
 #: elf32-arc.c:2931
 #, c-format
@@ -1835,9 +1807,7 @@ msgstr "varning: %pB: okänt ARC-objektattribut %d"
 #: elf32-arm.c:4257 elf32-arm.c:4291 elf32-arm.c:4310 elf32-arm.c:4362
 #, c-format
 msgid "%pB(%pA): warning: long branch veneers used in section with SHF_ARM_PURECODE section attribute is only supported for M-profile targets that implement the movw instruction"
-msgstr "%pB(%pA): varning: kodstubbar för långa hopp (veneers) i sektioner med "
-"attributet SHF_ARM_PURECODE stöds endast för M-profilmål som implementerar "
-"movw-instruktionen"
+msgstr "%pB(%pA): varning: kodstubbar för långa hopp (veneers) i sektioner med attributet SHF_ARM_PURECODE stöds endast för M-profilmål som implementerar movw-instruktionen"
 
 #: elf32-arm.c:4322 elf32-arm.c:4376 elf32-arm.c:9069 elf32-arm.c:9159
 #, c-format
@@ -1847,8 +1817,7 @@ msgstr "%pB(%s): varning: samverkan ej aktiverad; första förekomsten: %pB: %s 
 #: elf32-arm.c:4498
 #, c-format
 msgid "ERROR: CMSE stub (%s section) too far (%#<PRIx64>) from destination (%#<PRIx64>)"
-msgstr "FEL: CMSE-stubben (sektionen %s) ligger för långt (%#<PRIx64>) från målet "
-"(%#<PRIx64>)"
+msgstr "FEL: CMSE-stubben (sektionen %s) ligger för långt (%#<PRIx64>) från målet (%#<PRIx64>)"
 
 #: elf32-arm.c:4667
 #, c-format
@@ -1866,8 +1835,7 @@ msgstr "%pB: kan inte skapa stub-post %s"
 #: elf32-hppa.c:841 elf32-m68hc11.c:422 elf32-m68hc12.c:542 elf32-metag.c:3317
 #: elf64-ppc.c:12299 elf64-ppc.c:12307 xcofflink.c:4742 elfnn-aarch64.c:3276
 msgid "%P: Could not assign `%pA' to an output section. Retry without --enable-non-contiguous-regions.\n"
-msgstr "%P: Det gick inte att tilldela `%pA' till en utdatasektion. Försök igen utan "
-"--enable-non-contiguous-regions.\n"
+msgstr "%P: Det gick inte att tilldela `%pA' till en utdatasektion. Försök igen utan --enable-non-contiguous-regions.\n"
 
 #: elf32-arm.c:5929
 #, c-format
@@ -1912,8 +1880,7 @@ msgstr "%pB: --in-implib stöds endast för Secure Gateway-importbibliotek"
 #: elf32-arm.c:6192
 #, c-format
 msgid "%pB: invalid import library entry: `%s'; symbol should be absolute, global and refer to Thumb functions"
-msgstr "%pB: ogiltig post i importbiblioteket: `%s'; symbolen ska vara absolut, "
-"global och referera till Thumb-funktioner"
+msgstr "%pB: ogiltig post i importbiblioteket: `%s'; symbolen ska vara absolut, global och referera till Thumb-funktioner"
 
 #: elf32-arm.c:6214
 #, c-format
@@ -1938,13 +1905,11 @@ msgstr "%pB: felaktig storlek för symbolen `%s'"
 #: elf32-arm.c:6281
 #, c-format
 msgid "offset of veneer for entry function `%s' not a multiple of its size"
-msgstr "offseten för kodstubben (veneer) för ingångsfunktionen `%s' är inte en "
-"multipel av dess storlek"
+msgstr "offseten för kodstubben (veneer) för ingångsfunktionen `%s' är inte en multipel av dess storlek"
 
 #: elf32-arm.c:6301
 msgid "new entry function(s) introduced but no output import library specified:"
-msgstr "nya ingångsfunktioner har införts men inget importbibliotek för utdata har "
-"angetts:"
+msgstr "nya ingångsfunktioner har införts men inget importbibliotek för utdata har angetts:"
 
 #: elf32-arm.c:6309
 #, c-format
@@ -1980,10 +1945,7 @@ msgstr "%pB: kan inte hitta %s-kodstubben (veneer) `%s'"
 #: elf32-arm.c:8870
 #, c-format
 msgid "%pB(%pA+%#x): error: multiple load detected in non-last IT block instruction: STM32L4XX veneer cannot be generated; use gcc option -mrestrict-it to generate only one instruction per IT block"
-msgstr "%pB(%pA+%#x): fel: en multipel inläsningsinstruktion upptäcktes före den "
-"sista instruktionen i ett IT-block: en STM32L4XX-kodstubb (veneer) kan inte "
-"genereras; använd gcc-flaggan -mrestrict-it för att generera endast en "
-"instruktion per IT-block"
+msgstr "%pB(%pA+%#x): fel: en multipel inläsningsinstruktion upptäcktes före den sista instruktionen i ett IT-block: en STM32L4XX-kodstubb (veneer) kan inte genereras; använd gcc-flaggan -mrestrict-it för att generera endast en instruktion per IT-block"
 
 #: elf32-arm.c:8968
 #, c-format
@@ -2005,14 +1967,12 @@ msgstr "%pB(%pA+%#<PRIx64>): oväntad %s-instruktion '%#lx' i TLS-trampolin"
 #: elf32-arm.c:10322
 #, c-format
 msgid "warning: %pB(%s): Forcing bramch to absolute symbol in Thumb mode (Thumb-only CPU) in %pB"
-msgstr "varning: %pB(%s): tvingar fram ett hopp till en absolut symbol i Thumb-läge "
-"(CPU med enbart Thumb) i %pB"
+msgstr "varning: %pB(%s): tvingar fram ett hopp till en absolut symbol i Thumb-läge (CPU med enbart Thumb) i %pB"
 
 #: elf32-arm.c:10327
 #, c-format
 msgid "warning: (%s): Forcing branch to absolute symbol in Thumb mode (Thumb-only CPU) in %pB"
-msgstr "varning: (%s): tvingar fram ett hopp till en absolut symbol i Thumb-läge (CPU "
-"med enbart Thumb) i %pB"
+msgstr "varning: (%s): tvingar fram ett hopp till en absolut symbol i Thumb-läge (CPU med enbart Thumb) i %pB"
 
 #: elf32-arm.c:10356
 #, c-format
@@ -2035,8 +1995,7 @@ msgstr "positionsoberoende körbar fil (PIE)"
 #: elf32-arm.c:10454
 #, c-format
 msgid "%pB: relocation %s against external or undefined symbol `%s' can not be used when making a %s; recompile with -fPIC"
-msgstr "%pB: omlokalisering %s mot extern eller odefinierad symbol `%s' kan inte "
-"användas vid skapandet av %s; kompilera om med -fPIC"
+msgstr "%pB: omlokalisering %s mot extern eller odefinierad symbol `%s' kan inte användas vid skapandet av %s; kompilera om med -fPIC"
 
 #: elf32-arm.c:10551
 #, c-format
@@ -2066,14 +2025,12 @@ msgstr "%pB(%pA+%#<PRIx64>): %s-omlokalisering inte tillåten i delat objekt"
 #: elf32-arm.c:12163
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): only ADD or SUB instructions are allowed for ALU group relocations"
-msgstr "%pB(%pA+%#<PRIx64>): endast ADD- eller SUB-instruktioner är tillåtna för "
-"ALU-gruppomlokaliseringar"
+msgstr "%pB(%pA+%#<PRIx64>): endast ADD- eller SUB-instruktioner är tillåtna för ALU-gruppomlokaliseringar"
 
 #: elf32-arm.c:12204 elf32-arm.c:12296 elf32-arm.c:12384 elf32-arm.c:12474
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): overflow whilst splitting %#<PRIx64> for group relocation %s"
-msgstr "%pB(%pA+%#<PRIx64>): överspill vid uppdelning av %#<PRIx64> för "
-"gruppomlokalisering %s"
+msgstr "%pB(%pA+%#<PRIx64>): överspill vid uppdelning av %#<PRIx64> för gruppomlokalisering %s"
 
 #: elf32-arm.c:12532 elf32-arm.c:12691
 msgid "local symbol index too big"
@@ -2125,8 +2082,7 @@ msgstr "okänt fel"
 #: elf32-arm.c:13820
 #, c-format
 msgid "warning: not setting interworking flag of %pB since it has already been specified as non-interworking"
-msgstr "varning: sätter inte samverkansflaggan för %pB eftersom den redan har angetts "
-"som utan samverkan"
+msgstr "varning: sätter inte samverkansflaggan för %pB eftersom den redan har angetts som utan samverkan"
 
 #: elf32-arm.c:13824
 #, c-format
@@ -2136,8 +2092,7 @@ msgstr "varning: rensar samverkansflaggan för %pB på grund av extern begäran"
 #: elf32-arm.c:13869
 #, c-format
 msgid "warning: clearing the interworking flag of %pB because non-interworking code in %pB has been linked with it"
-msgstr "varning: rensar samverkansflaggan för %pB eftersom icke-samverkande kod i %pB "
-"har länkats med den"
+msgstr "varning: rensar samverkansflaggan för %pB eftersom icke-samverkande kod i %pB har länkats med den"
 
 #: elf32-arm.c:13956
 #, c-format
@@ -2197,14 +2152,12 @@ msgstr "fel: %pB: SB-relativ adressering står i konflikt med användningen av R
 #: elf32-arm.c:14841
 #, c-format
 msgid "warning: %pB uses %u-byte wchar_t yet the output is to use %u-byte wchar_t; use of wchar_t values across objects may fail"
-msgstr "varning: %pB använder %u-byte wchar_t men utdata ska använda %u-byte wchar_t; "
-"användning av wchar_t-värden mellan objekt kan misslyckas"
+msgstr "varning: %pB använder %u-byte wchar_t men utdata ska använda %u-byte wchar_t; användning av wchar_t-värden mellan objekt kan misslyckas"
 
 #: elf32-arm.c:14872
 #, c-format
 msgid "warning: %pB uses %s enums yet the output is to use %s enums; use of enum values across objects may fail"
-msgstr "varning: %pB använder enum-typer av typen %s men utdata ska använda "
-"enum-typer av typen %s; användning av enum-värden mellan objekt kan misslyckas"
+msgstr "varning: %pB använder enum-typer av typen %s men utdata ska använda enum-typer av typen %s; användning av enum-värden mellan objekt kan misslyckas"
 
 #: elf32-arm.c:14884
 #, c-format
@@ -2385,8 +2338,7 @@ msgstr "%pB: fel: kodstubben för Cortex-A8-erratumet har allokerats på en osä
 #: elf32-arm.c:18486
 #, c-format
 msgid "%pB: error: Cortex-A8 erratum stub out of range (input file too large)"
-msgstr "%pB: fel: kodstubben för Cortex-A8-erratumet ligger utanför intervallet "
-"(indatafilen är för stor)"
+msgstr "%pB: fel: kodstubben för Cortex-A8-erratumet ligger utanför intervallet (indatafilen är för stor)"
 
 #: elf32-arm.c:19313 elf32-arm.c:19335
 #, c-format
@@ -2396,8 +2348,7 @@ msgstr "%pB: fel: VFP11-kodstubben (veneer) ligger utanför intervallet"
 #: elf32-arm.c:19386
 #, c-format
 msgid "%pB(%#<PRIx64>): error: cannot create STM32L4XX veneer; jump out of range by %<PRId64> bytes; cannot encode branch instruction"
-msgstr "%pB(%#<PRIx64>): fel: kan inte skapa STM32L4XX-kodstubben (veneer); hoppet "
-"ligger %<PRId64> byte utanför intervallet; kan inte koda hoppinstruktionen"
+msgstr "%pB(%#<PRIx64>): fel: kan inte skapa STM32L4XX-kodstubben (veneer); hoppet ligger %<PRId64> byte utanför intervallet; kan inte koda hoppinstruktionen"
 
 #: elf32-arm.c:19425
 #, c-format
@@ -2437,14 +2388,12 @@ msgstr "fel: %pB använder %s-instruktioner, medan %pB inte gör det"
 #: elf32-arm.c:20577
 #, c-format
 msgid "error: %pB uses software FP, whereas %pB uses hardware FP"
-msgstr "fel: %pB använder flyttalsberäkningar i programvara, medan %pB använder "
-"flyttalsberäkningar i hårdvara"
+msgstr "fel: %pB använder flyttalsberäkningar i programvara, medan %pB använder flyttalsberäkningar i hårdvara"
 
 #: elf32-arm.c:20581
 #, c-format
 msgid "error: %pB uses hardware FP, whereas %pB uses software FP"
-msgstr "fel: %pB använder flyttalsberäkningar i hårdvara, medan %pB använder "
-"flyttalsberäkningar i programvara"
+msgstr "fel: %pB använder flyttalsberäkningar i hårdvara, medan %pB använder flyttalsberäkningar i programvara"
 
 #: elf32-arm.c:20595
 #, c-format
@@ -2491,8 +2440,7 @@ msgstr "%pB(%pA+%#<PRIx64>): omlokalisering mot `%s': fel %d"
 #: elf32-bfin.c:2644
 #, c-format
 msgid "%pB: relocation at `%pA+%#<PRIx64>' references symbol `%s' with nonzero addend"
-msgstr "%pB: omlokalisering vid `%pA+%#<PRIx64>' refererar till symbolen `%s' med "
-"addend som inte är noll"
+msgstr "%pB: omlokalisering vid `%pA+%#<PRIx64>' refererar till symbolen `%s' med addend som inte är noll"
 
 #: elf32-bfin.c:2661
 msgid "relocation references symbol not defined in the module"
@@ -2585,20 +2533,17 @@ msgstr "[vars namn tappats bort]"
 #: elf32-cris.c:1314 elf32-tic6x.c:2536
 #, c-format
 msgid "%pB, section %pA: relocation %s with non-zero addend %<PRId64> against local symbol"
-msgstr "%pB, sektion %pA: omlokalisering %s med addenden %<PRId64>, som inte är noll, "
-"mot en lokal symbol"
+msgstr "%pB, sektion %pA: omlokalisering %s med addenden %<PRId64>, som inte är noll, mot en lokal symbol"
 
 #: elf32-cris.c:1323 elf32-cris.c:1667 elf32-cris.c:1821 elf32-tic6x.c:2545
 #, c-format
 msgid "%pB, section %pA: relocation %s with non-zero addend %<PRId64> against symbol `%s'"
-msgstr "%pB, sektion %pA: omlokalisering %s med addenden %<PRId64>, som inte är noll, "
-"mot symbolen `%s'"
+msgstr "%pB, sektion %pA: omlokalisering %s med addenden %<PRId64>, som inte är noll, mot symbolen `%s'"
 
 #: elf32-cris.c:1350
 #, c-format
 msgid "%pB, section %pA: relocation %s is not allowed for global symbol: `%s'"
-msgstr "%pB, sektion %pA: omlokaliseringen %s är inte tillåten för den globala "
-"symbolen: `%s'"
+msgstr "%pB, sektion %pA: omlokaliseringen %s är inte tillåten för den globala symbolen: `%s'"
 
 #: elf32-cris.c:1367
 #, c-format
@@ -2609,20 +2554,17 @@ msgstr "%pB, sektion %pA: omlokalisering %s utan GOT skapad"
 #: elf32-cris.c:1580
 #, c-format
 msgid "%pB, section %pA: relocation %s has an undefined reference to `%s', perhaps a declaration mixup?"
-msgstr "%pB, sektion %pA: omlokalisering %s har en odefinierad referens till `%s', "
-"kanske en deklarationsförväxling?"
+msgstr "%pB, sektion %pA: omlokalisering %s har en odefinierad referens till `%s', kanske en deklarationsförväxling?"
 
 #: elf32-cris.c:1583
 #, c-format
 msgid "%pB, section %pA: relocation %s is not allowed for `%s', a global symbol with default visibility, perhaps a declaration mixup?"
-msgstr "%pB, sektion %pA: omlokalisering %s är inte tillåten för `%s', en global "
-"symbol med standardsynlighet, kanske en deklarationsförväxling?"
+msgstr "%pB, sektion %pA: omlokalisering %s är inte tillåten för `%s', en global symbol med standardsynlighet, kanske en deklarationsförväxling?"
 
 #: elf32-cris.c:1957
 #, c-format
 msgid "%pB, section %pA: relocation %s is not allowed for symbol: `%s' which is defined outside the program, perhaps a declaration mixup?"
-msgstr "%pB, sektion %pA: omlokaliseringen %s är inte tillåten för symbolen: `%s' som "
-"är definierad utanför programmet, kanske en deklarationsförväxling?"
+msgstr "%pB, sektion %pA: omlokaliseringen %s är inte tillåten för symbolen: `%s' som är definierad utanför programmet, kanske en deklarationsförväxling?"
 
 #: elf32-cris.c:2010
 msgid "(too many global variables for -fpic: recompile with -fPIC)"
@@ -2630,8 +2572,7 @@ msgstr "(för många globala variabler för -fpic: kompilera om med -fPIC)"
 
 #: elf32-cris.c:2017
 msgid "(thread-local data too big for -fpic or -msmall-tls: recompile with -fPIC or -mno-small-tls)"
-msgstr "(trådlokala data är för stora för -fpic eller -msmall-tls: kompilera om med "
-"-fPIC eller -mno-small-tls)"
+msgstr "(trådlokala data är för stora för -fpic eller -msmall-tls: kompilera om med -fPIC eller -mno-small-tls)"
 
 #: elf32-cris.c:3088
 #, c-format
@@ -2640,20 +2581,17 @@ msgid ""
 "  relocation %s not valid in a shared object; typically an option mixup, recompile with -fPIC"
 msgstr ""
 "%pB, sektion %pA:\n"
-"  omlokalisering %s inte giltig i ett delat objekt; vanligtvis en förväxling "
-"av alternativ, kompilera om med -fPIC"
+"  omlokalisering %s inte giltig i ett delat objekt; vanligtvis en förväxling av alternativ, kompilera om med -fPIC"
 
 #: elf32-cris.c:3306
 #, c-format
 msgid "%pB, section %pA: relocation %s should not be used in a shared object; recompile with -fPIC"
-msgstr "%pB, sektion %pA: omlokalisering %s ska inte användas i ett delat objekt; "
-"kompilera om med -fPIC"
+msgstr "%pB, sektion %pA: omlokalisering %s ska inte användas i ett delat objekt; kompilera om med -fPIC"
 
 #: elf32-cris.c:3682
 #, c-format
 msgid "%pB, section `%pA', to symbol `%s': relocation %s should not be used in a shared object; recompile with -fPIC"
-msgstr "%pB, sektion `%pA', till symbol `%s': omlokalisering %s ska inte användas i "
-"ett delat objekt; kompilera om med -fPIC"
+msgstr "%pB, sektion `%pA', till symbol `%s': omlokalisering %s ska inte användas i ett delat objekt; kompilera om med -fPIC"
 
 #: elf32-cris.c:3794
 msgid "unexpected machine number"
@@ -2716,8 +2654,7 @@ msgstr "%pB: maskinflaggkonflikt med mål"
 #: elf32-csky.c:2927
 #, c-format
 msgid "warning: file %pB's arch flag %s conflict with target %s,set target arch flag to %s"
-msgstr "varning: filen %pB har arkitekturflaggan %s som står i konflikt med målet %s; "
-"sätt målets arkitekturflagga till %s"
+msgstr "varning: filen %pB har arkitekturflaggan %s som står i konflikt med målet %s; sätt målets arkitekturflagga till %s"
 
 #: elf32-csky.c:2956
 #, c-format
@@ -2737,8 +2674,7 @@ msgstr "Fel: %pB och %pB har olika FPU-ABI"
 #: elf32-csky.c:3087
 #, c-format
 msgid "warning: file %pB's arch flag %s conflicts with target ck%s, using %s"
-msgstr "varning: filen %pB har arkitekturflaggan %s som står i konflikt med målet "
-"ck%s; använder %s"
+msgstr "varning: filen %pB har arkitekturflaggan %s som står i konflikt med målet ck%s; använder %s"
 
 #. The r_type is error, not support it.
 #: elf32-csky.c:4325 elf32-i386.c:345
@@ -2872,8 +2808,7 @@ msgstr "%pB(%pA+%#<PRIx64>): kan inte nå %s, kompilera om med -ffunction-sectio
 #: elf32-hppa.c:1240
 #, c-format
 msgid "%pB: relocation %s can not be used when making a shared object; recompile with -fPIC"
-msgstr "%pB: omlokalisering %s kan inte användas när man skapar ett delat objekt; "
-"kompilera om med -fPIC"
+msgstr "%pB: omlokalisering %s kan inte användas när man skapar ett delat objekt; kompilera om med -fPIC"
 
 #: elf32-hppa.c:2578
 #, c-format
@@ -2883,8 +2818,7 @@ msgstr "%pB: duplicerad exportstub %s"
 #: elf32-hppa.c:3235
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): %s fixup for insn %#x is not supported in a non-shared link"
-msgstr "%pB(%pA+%#<PRIx64>): adresskorrigering (fixup) av typen %s för instruktionen "
-"%#x stöds inte vid länkning utan delade objekt"
+msgstr "%pB(%pA+%#<PRIx64>): adresskorrigering (fixup) av typen %s för instruktionen %#x stöds inte vid länkning utan delade objekt"
 
 #: elf32-hppa.c:3455
 #, c-format
@@ -2918,14 +2852,12 @@ msgstr ".got-sektion följer inte omedelbart efter .plt-sektion"
 #: elf32-i386.c:1310
 #, c-format
 msgid "%pB: direct GOT relocation R_386_GOT32X against `%s' without base register can not be used when making a shared object"
-msgstr "%pB: direkt GOT-omlokalisering R_386_GOT32X mot `%s' utan basregister kan "
-"inte användas när man skapar ett delat objekt"
+msgstr "%pB: direkt GOT-omlokalisering R_386_GOT32X mot `%s' utan basregister kan inte användas när man skapar ett delat objekt"
 
 #: elf32-i386.c:1596
 #, c-format
 msgid "%pB: bad reloc offset (%#<PRIx32> > %#<PRIx32>) for section `%pA'"
-msgstr "%pB: felaktig omlokaliseringsoffset (%#<PRIx32> > %#<PRIx32>) för sektion "
-"`%pA'"
+msgstr "%pB: felaktig omlokaliseringsoffset (%#<PRIx32> > %#<PRIx32>) för sektion `%pA'"
 
 #: elf32-i386.c:1797 elf32-s390.c:1150 elf32-sh.c:5497 elf32-tilepro.c:1546
 #: elf32-xtensa.c:1260 elf64-s390.c:1206 elfxx-sparc.c:1565 elfxx-tilegx.c:1763
@@ -2959,8 +2891,7 @@ msgstr "Lokal IFUNC-funktion `%s' i %pB\n"
 #: elf32-i386.c:2697
 #, c-format
 msgid "%pB: direct GOT relocation %s against `%s' without base register can not be used when making a shared object"
-msgstr "%pB: direkt GOT-omlokalisering %s mot `%s' utan basregister kan inte användas "
-"när man skapar ett delat objekt"
+msgstr "%pB: direkt GOT-omlokalisering %s mot `%s' utan basregister kan inte användas när man skapar ett delat objekt"
 
 #: elf32-i386.c:2732 elf64-x86-64.c:3758
 msgid "hidden symbol"
@@ -3060,8 +2991,7 @@ msgstr ": m32r2-instruktioner"
 #: elf32-m68hc1x.c:1136
 #, c-format
 msgid "reference to the far symbol `%s' using a wrong relocation may result in incorrect execution"
-msgstr "referens till far-symbolen `%s' med fel omlokalisering kan leda till "
-"felaktigt utförande"
+msgstr "referens till far-symbolen `%s' med fel omlokalisering kan leda till felaktigt utförande"
 
 #: elf32-m68hc1x.c:1167
 #, c-format
@@ -3076,8 +3006,7 @@ msgstr "bankad adress [%lx:%04lx] (%lx) är inte i samma bank som den aktuella b
 #: elf32-m68hc1x.c:1198
 #, c-format
 msgid "reference to a banked address [%lx:%04lx] in the normal address space at %04lx"
-msgstr "referens till en bankad adress [%lx:%04lx] i det normala adressutrymmet vid "
-"%04lx"
+msgstr "referens till en bankad adress [%lx:%04lx] i det normala adressutrymmet vid %04lx"
 
 #: elf32-m68hc1x.c:1234
 #, c-format
@@ -3092,8 +3021,7 @@ msgstr "%pB: länkning av filer som kompilerats för 16-bitars heltal (-mshort) 
 #: elf32-m68hc1x.c:1364
 #, c-format
 msgid "%pB: linking files compiled for 32-bit double (-fshort-double) and others for 64-bit double"
-msgstr "%pB: länkning av filer som kompilerats för 32-bitars double (-fshort-double) "
-"och andra för 64-bitars double"
+msgstr "%pB: länkning av filer som kompilerats för 32-bitars double (-fshort-double) och andra för 64-bitars double"
 
 #: elf32-m68hc1x.c:1373
 #, c-format
@@ -3203,8 +3131,7 @@ msgstr "%pB(%pA): flera TLS-modeller stöds inte"
 #: elf32-metag.c:1824
 #, c-format
 msgid "%pB(%pA): shared library symbol %s encountered whilst performing a static link"
-msgstr "%pB(%pA): symbolen %s från ett delat bibliotek påträffades vid statisk "
-"länkning"
+msgstr "%pB(%pA): symbolen %s från ett delat bibliotek påträffades vid statisk länkning"
 
 #: elf32-microblaze.c:1654 elf32-tilepro.c:3020 elfxx-sparc.c:3450
 #: elfxx-tilegx.c:3414
@@ -3600,13 +3527,11 @@ msgstr "%H: %s-omlokalisering mot `%s': fel %d\n"
 
 #: elf32-ppc.c:9982
 msgid "%X%P: text relocations and GNU indirect functions will result in a segfault at runtime\n"
-msgstr "%X%P: textomlokaliseringar och GNU:s indirekta funktioner leder till ett "
-"segmenteringsfel vid körning\n"
+msgstr "%X%P: textomlokaliseringar och GNU:s indirekta funktioner leder till ett segmenteringsfel vid körning\n"
 
 #: elf32-ppc.c:9986 elf64-ppc.c:18332
 msgid "%P: warning: text relocations and GNU indirect functions may result in a segfault at runtime\n"
-msgstr "%P: varning: textomlokaliseringar och GNU:s indirekta funktioner kan leda "
-"till ett segmenteringsfel vid körning\n"
+msgstr "%P: varning: textomlokaliseringar och GNU:s indirekta funktioner kan leda till ett segmenteringsfel vid körning\n"
 
 #: elf32-ppc.c:10033
 #, c-format
@@ -3783,8 +3708,7 @@ msgstr "%pB: %#<PRIx64>: varning: R_SH_USES pekar på en okänd instruktion 0x%x
 #: elf32-sh.c:3755
 #, c-format
 msgid "%pB: %#<PRIx64>: fatal: unaligned branch target for relax-support relocation"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: ojusterat hoppmål för omlokalisering som "
-"stöder relaxering"
+msgstr "%pB: %#<PRIx64>: allvarligt fel: ojusterat hoppmål för omlokalisering som stöder relaxering"
 
 #: elf32-sh.c:3785 elf32-sh.c:3801
 #, c-format
@@ -3794,20 +3718,17 @@ msgstr "%pB: %#<PRIx64>: allvarligt fel: ojusterad %s-omlokalisering %#<PRIx64>"
 #: elf32-sh.c:3817
 #, c-format
 msgid "%pB: %#<PRIx64>: fatal: R_SH_PSHA relocation %<PRId64> not in range -32..32"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: R_SH_PSHA-omlokalisering %<PRId64> inte inom "
-"intervallet -32..32"
+msgstr "%pB: %#<PRIx64>: allvarligt fel: R_SH_PSHA-omlokalisering %<PRId64> inte inom intervallet -32..32"
 
 #: elf32-sh.c:3833
 #, c-format
 msgid "%pB: %#<PRIx64>: fatal: R_SH_PSHL relocation %<PRId64> not in range -32..32"
-msgstr "%pB: %#<PRIx64>: allvarligt fel: R_SH_PSHL-omlokalisering %<PRId64> inte inom "
-"intervallet -32..32"
+msgstr "%pB: %#<PRIx64>: allvarligt fel: R_SH_PSHL-omlokalisering %<PRId64> inte inom intervallet -32..32"
 
 #: elf32-sh.c:3959 elf32-sh.c:4357
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): cannot emit fixup to `%s' in read-only section"
-msgstr "%pB(%pA+%#<PRIx64>): kan inte generera en adresskorrigering (fixup) till `%s' "
-"i en skrivskyddad sektion"
+msgstr "%pB(%pA+%#<PRIx64>): kan inte generera en adresskorrigering (fixup) till `%s' i en skrivskyddad sektion"
 
 #: elf32-sh.c:4460
 #, c-format
@@ -3817,8 +3738,7 @@ msgstr "%pB(%pA+%#<PRIx64>): %s-omlokalisering mot extern symbol \"%s\""
 #: elf32-sh.c:4581
 #, c-format
 msgid "%pB(%pA): offset in relocation for GD->LE translation is too small: %#<PRIx64>"
-msgstr "%pB(%pA): offset i omlokalisering för GD->LE-omvandling är för liten: "
-"%#<PRIx64>"
+msgstr "%pB(%pA): offset i omlokalisering för GD->LE-omvandling är för liten: %#<PRIx64>"
 
 #. The backslash is to prevent bogus trigraph detection.
 #: elf32-sh.c:4599
@@ -3854,8 +3774,7 @@ msgstr "%pB(%pA+%#<PRIx64>): oväntad instruktion %#04X (förväntad 0x34cc)"
 #: elf32-sh.c:4670
 #, c-format
 msgid "%pB(%pA): offset in relocation for IE->LE translation is too small: %#<PRIx64>"
-msgstr "%pB(%pA): offset i omlokalisering för IE->LE-omvandling är för liten: "
-"%#<PRIx64>"
+msgstr "%pB(%pA): offset i omlokalisering för IE->LE-omvandling är för liten: %#<PRIx64>"
 
 #: elf32-sh.c:4688
 #, c-format
@@ -3875,14 +3794,12 @@ msgstr "%pB(%pA+%#<PRIx64>): oväntad instruktion %#04X (förväntad 0x0?ce: mov
 #: elf32-sh.c:4819
 #, c-format
 msgid "%pB(%pA): offset in relocation for GD->IE translation is too small: %#<PRIx64>"
-msgstr "%pB(%pA): offset i omlokalisering för GD->IE-omvandling är för liten: "
-"%#<PRIx64>"
+msgstr "%pB(%pA): offset i omlokalisering för GD->IE-omvandling är för liten: %#<PRIx64>"
 
 #: elf32-sh.c:4887
 #, c-format
 msgid "%pB(%pA): offset in relocation for LD->LE translation is too small: %#<PRIx64>"
-msgstr "%pB(%pA): offset i omlokalisering för LD->LE-omvandling är för liten: "
-"%#<PRIx64>"
+msgstr "%pB(%pA): offset i omlokalisering för LD->LE-omvandling är för liten: %#<PRIx64>"
 
 #: elf32-sh.c:5011
 #, c-format
@@ -3917,8 +3834,7 @@ msgstr "%pB: kod för TLS-modellen local-exec kan inte länkas in i delade objek
 #: elf32-sh.c:5845
 #, c-format
 msgid "%pB: uses %s instructions while previous modules use %s instructions"
-msgstr "%pB: använder %s-instruktioner medan tidigare moduler använder "
-"%s-instruktioner"
+msgstr "%pB: använder %s-instruktioner medan tidigare moduler använder %s-instruktioner"
 
 #: elf32-sh.c:5857
 #, c-format
@@ -3943,8 +3859,7 @@ msgstr "%pB: kompilerad för ett 64-bitars system och målet är 32-bitars"
 #: elf32-sparc.c:102
 #, c-format
 msgid "%pB: linking little endian files with big endian files"
-msgstr "%pB: länkar filer med little-endian-byteordning med filer med "
-"big-endian-byteordning"
+msgstr "%pB: länkar filer med little-endian-byteordning med filer med big-endian-byteordning"
 
 #: elf32-sparc.c:157
 #, c-format
@@ -4047,8 +3962,7 @@ msgstr "inget stöd för duplicerade objektfiler i skript för automatisk överl
 #: elf32-spu.c:4396
 #, c-format
 msgid "non-overlay size of 0x%v plus maximum overlay size of 0x%v exceeds local store\n"
-msgstr "storleken utan överlagring, 0x%v, plus den största överlagringsstorleken, "
-"0x%v, överstiger det lokala minnet\n"
+msgstr "storleken utan överlagring, 0x%v, plus den största överlagringsstorleken, 0x%v, överstiger det lokala minnet\n"
 
 #: elf32-spu.c:4552
 #, c-format
@@ -4201,8 +4115,7 @@ msgstr "fel: %pB behöver 8-bytesjustering men %pB är inställd för 4-bytejust
 #: elf32-v850.c:2557
 #, c-format
 msgid "error: %pB uses 64-bit doubles but %pB uses 32-bit doubles"
-msgstr "fel: %pB använder 64-bitars double-värden men %pB använder 32-bitars "
-"double-värden"
+msgstr "fel: %pB använder 64-bitars double-värden men %pB använder 32-bitars double-värden"
 
 #: elf32-v850.c:2572
 #, c-format
@@ -4384,8 +4297,7 @@ msgstr " [g-flyttal]"
 #: elf32-vax.c:620
 #, c-format
 msgid "%pB: warning: GOT addend of %<PRId64> to `%s' does not match previous GOT addend of %<PRId64>"
-msgstr "%pB: varning: GOT-addenden %<PRId64> till `%s' stämmer inte överens med den "
-"tidigare GOT-addenden %<PRId64>"
+msgstr "%pB: varning: GOT-addenden %<PRId64> till `%s' stämmer inte överens med den tidigare GOT-addenden %<PRId64>"
 
 #: elf32-vax.c:1379
 #, c-format
@@ -4429,8 +4341,7 @@ msgstr "%pB(%pA): ogiltig egenskapstabell"
 #: elf32-xtensa.c:2730
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): relocation offset out of range (size=%#<PRIx64>)"
-msgstr "%pB(%pA+%#<PRIx64>): omlokaliseringsoffset utanför intervallet "
-"(storlek=%#<PRIx64>)"
+msgstr "%pB(%pA+%#<PRIx64>): omlokaliseringsoffset utanför intervallet (storlek=%#<PRIx64>)"
 
 #: elf32-xtensa.c:2813 elf32-xtensa.c:2936
 msgid "dynamic relocation in read-only section"
@@ -4456,15 +4367,12 @@ msgstr "försöket att omvandla L32R/CALLX till CALL misslyckades"
 #: elf32-xtensa.c:6565 elf32-xtensa.c:6644 elf32-xtensa.c:8070
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): could not decode instruction; possible configuration mismatch"
-msgstr "%pB(%pA+%#<PRIx64>): kunde inte avkoda instruktion; konfigurationerna stämmer "
-"kanske inte överens"
+msgstr "%pB(%pA+%#<PRIx64>): kunde inte avkoda instruktion; konfigurationerna stämmer kanske inte överens"
 
 #: elf32-xtensa.c:7811
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): could not decode instruction for XTENSA_ASM_SIMPLIFY relocation; possible configuration mismatch"
-msgstr "%pB(%pA+%#<PRIx64>): kunde inte avkoda instruktion för "
-"XTENSA_ASM_SIMPLIFY-omlokalisering; konfigurationerna stämmer kanske inte "
-"överens"
+msgstr "%pB(%pA+%#<PRIx64>): kunde inte avkoda instruktion för XTENSA_ASM_SIMPLIFY-omlokalisering; konfigurationerna stämmer kanske inte överens"
 
 #: elf32-xtensa.c:9669
 msgid "invalid relocation address"
@@ -4501,8 +4409,7 @@ msgstr "GPDISP-omlokalisering hittade inga ldah- och lda-instruktioner"
 #: elf64-alpha.c:1983
 #, c-format
 msgid "%pB: dynamic relocation against a local symbol in read-only section `%pA'\n"
-msgstr "%pB: dynamisk omlokalisering mot en lokal symbol i den skrivskyddade "
-"sektionen `%pA'\n"
+msgstr "%pB: dynamisk omlokalisering mot en lokal symbol i den skrivskyddade sektionen `%pA'\n"
 
 #: elf64-alpha.c:2435
 #, c-format
@@ -4573,8 +4480,7 @@ msgstr "%pB: Omlokaliseringar i generisk ELF (EM: %d)"
 #: elf64-hppa.c:1538 elflink.c:15727
 #, c-format
 msgid "%P: %pB: warning: relocation against `%s' in read-only section `%pA'\n"
-msgstr "%P: %pB: varning: omlokalisering mot `%s' i den skrivskyddade sektionen "
-"`%pA'\n"
+msgstr "%P: %pB: varning: omlokalisering mot `%s' i den skrivskyddade sektionen `%pA'\n"
 
 #: elf64-hppa.c:2222
 #, c-format
@@ -4594,8 +4500,7 @@ msgstr "%pB(%pA+%#<PRIx64>): R_PARISC_FPTR64-omlokalisering i en skrivskyddad se
 #: elf64-ia64-vms.c:600 elfnn-ia64.c:639
 #, c-format
 msgid "%pB: can't relax br at %#<PRIx64> in section `%pA'; please use brl or indirect branch"
-msgstr "%pB: kan inte relaxera br vid %#<PRIx64> i sektionen `%pA'; använd brl eller "
-"ett indirekt hopp"
+msgstr "%pB: kan inte relaxera br vid %#<PRIx64> i sektionen `%pA'; använd brl eller ett indirekt hopp"
 
 #: elf64-ia64-vms.c:2032 elfnn-ia64.c:2291
 msgid "@pltoff reloc against local symbol"
@@ -4648,20 +4553,17 @@ msgstr "omlokaliseringen stöds inte"
 #: elf64-ia64-vms.c:3949 elfnn-ia64.c:4465
 #, c-format
 msgid "%pB: missing TLS section for relocation %s against `%s' at %#<PRIx64> in section `%pA'."
-msgstr "%pB: TLS-sektion saknas för omlokaliseringen %s mot `%s' vid %#<PRIx64> i "
-"sektionen `%pA'."
+msgstr "%pB: TLS-sektion saknas för omlokaliseringen %s mot `%s' vid %#<PRIx64> i sektionen `%pA'."
 
 #: elf64-ia64-vms.c:3966 elfnn-ia64.c:4482
 #, c-format
 msgid "%pB: Can't relax br (%s) to `%s' at %#<PRIx64> in section `%pA' with size %#<PRIx64> (> 0x1000000)."
-msgstr "%pB: kan inte relaxera br (%s) till `%s' vid %#<PRIx64> i sektionen `%pA' med "
-"storleken %#<PRIx64> (> 0x1000000)."
+msgstr "%pB: kan inte relaxera br (%s) till `%s' vid %#<PRIx64> i sektionen `%pA' med storleken %#<PRIx64> (> 0x1000000)."
 
 #: elf64-ia64-vms.c:4262 elfnn-ia64.c:4741
 #, c-format
 msgid "%pB: linking trap-on-NULL-dereference with non-trapping files"
-msgstr "%pB: länkar filer som utlöser undantag vid NULL-dereferering med filer som "
-"inte gör det"
+msgstr "%pB: länkar filer som utlöser undantag vid NULL-dereferering med filer som inte gör det"
 
 #: elf64-ia64-vms.c:4271 elfnn-ia64.c:4750
 #, c-format
@@ -4686,8 +4588,7 @@ msgstr "%pB: länkar auto-pic-filer med icke-auto-pic-filer"
 #: elf64-ia64-vms.c:5149
 #, c-format
 msgid "warning: alignment %u of common symbol `%s' in %pB is greater than the alignment (%u) of its section %pA"
-msgstr "varning: justeringen %u för den gemensamma symbolen `%s' i %pB är större än "
-"justeringen (%u) för dess sektion %pA"
+msgstr "varning: justeringen %u för den gemensamma symbolen `%s' i %pB är större än justeringen (%u) för dess sektion %pA"
 
 #: elf64-ia64-vms.c:5156
 #, c-format
@@ -4697,8 +4598,7 @@ msgstr "varning: justeringen %u för symbolen `%s' i %pB är mindre än %u i %pB
 #: elf64-ia64-vms.c:5172 elflink.c:5587
 #, c-format
 msgid "warning: size of symbol `%s' changed from %<PRIu64> in %pB to %<PRIu64> in %pB"
-msgstr "varning: storleken på symbolen `%s' ändrades från %<PRIu64> i %pB till "
-"%<PRIu64> i %pB"
+msgstr "varning: storleken på symbolen `%s' ändrades från %<PRIu64> i %pB till %<PRIu64> i %pB"
 
 #: elf64-mips.c:4102
 #, c-format
@@ -4707,15 +4607,11 @@ msgstr "%pB(%pA): omlokalisering %<PRIu64> har ogiltigt symbolindex %ld"
 
 #: elf64-mmix.c:978
 msgid "invalid input relocation when producing non-ELF, non-mmo format output; please use the objcopy program to convert from ELF or mmo, or assemble using \"-no-expand\" (for gcc, \"-Wa,-no-expand\""
-msgstr "ogiltig omlokalisering i indata vid generering av utdata i annat format än "
-"ELF eller mmo; använd objcopy för att konvertera från ELF eller mmo, eller "
-"assemblera med \"-no-expand\" (för gcc, \"-Wa,-no-expand\")"
+msgstr "ogiltig omlokalisering i indata vid generering av utdata i annat format än ELF eller mmo; använd objcopy för att konvertera från ELF eller mmo, eller assemblera med \"-no-expand\" (för gcc, \"-Wa,-no-expand\")"
 
 #: elf64-mmix.c:1162
 msgid "invalid input relocation when producing non-ELF, non-mmo format output; please use the objcopy program to convert from ELF or mmo, or compile using the gcc-option \"-mno-base-addresses\"."
-msgstr "ogiltig omlokalisering i indata vid generering av utdata i annat format än "
-"ELF eller mmo; använd objcopy för att konvertera från ELF eller mmo, eller "
-"kompilera med gcc-flaggan \"-mno-base-addresses\"."
+msgstr "ogiltig omlokalisering i indata vid generering av utdata i annat format än ELF eller mmo; använd objcopy för att konvertera från ELF eller mmo, eller kompilera med gcc-flaggan \"-mno-base-addresses\"."
 
 #: elf64-mmix.c:1189
 #, c-format
@@ -4724,8 +4620,7 @@ msgid ""
 " linker-allocated global register: linked: %#<PRIx64> != relaxed: %#<PRIx64>"
 msgstr ""
 "%pB: internt inkonsekvensfel för värdet i\n"
-" ett globalt register allokerat av länkaren: länkat: %#<PRIx64> != relaxerat: "
-"%#<PRIx64>"
+" ett globalt register allokerat av länkaren: länkat: %#<PRIx64> != relaxerat: %#<PRIx64>"
 
 #: elf64-mmix.c:1613
 #, c-format
@@ -4812,8 +4707,7 @@ msgstr " [abiv%ld]"
 
 #: elf64-ppc.c:6845
 msgid "%P: copy reloc against `%pT' requires lazy plt linking; avoid setting LD_BIND_NOW=1 or upgrade gcc\n"
-msgstr "%P: kopieringsomlokalisering mot `%pT' kräver fördröjd PLT-länkning; undvik "
-"LD_BIND_NOW=1 eller uppgradera gcc\n"
+msgstr "%P: kopieringsomlokalisering mot `%pT' kräver fördröjd PLT-länkning; undvik LD_BIND_NOW=1 eller uppgradera gcc\n"
 
 #: elf64-ppc.c:7112
 #, c-format
@@ -4957,8 +4851,7 @@ msgstr "%H: anrop till `%pT' saknar nop, kan inte återställa TOC; (PLT-anropss
 #: elf64-ppc.c:16566
 #, c-format
 msgid "%H: call to `%pT' lacks nop, can't restore toc; (toc save/adjust stub)\n"
-msgstr "%H: anrop till `%pT' saknar nop, kan inte återställa TOC; (stubb för att "
-"spara/justera TOC)\n"
+msgstr "%H: anrop till `%pT' saknar nop, kan inte återställa TOC; (stubb för att spara/justera TOC)\n"
 
 #: elf64-ppc.c:17223
 #, c-format
@@ -4998,14 +4891,12 @@ msgstr "%H: %s mot `%pT': fel %d\n"
 #: elf64-s390.c:2817
 #, c-format
 msgid "%pB: `%s' non-PLT reloc for symbol defined in shared library and accessed from executable (rebuild file with -fPIC ?)"
-msgstr "%pB: `%s' är en icke-PLT-omlokalisering för en symbol som definieras i ett "
-"delat bibliotek och används från en körbar fil (bygg om filen med -fPIC?)"
+msgstr "%pB: `%s' är en icke-PLT-omlokalisering för en symbol som definieras i ett delat bibliotek och används från en körbar fil (bygg om filen med -fPIC?)"
 
 #: elf64-s390.c:3494
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): relocation %s against misaligned symbol `%s' (%#<PRIx64>) in %pB"
-msgstr "%pB(%pA+%#<PRIx64>): omlokaliseringen %s mot den felaktigt justerade symbolen "
-"`%s' (%#<PRIx64>) i %pB"
+msgstr "%pB(%pA+%#<PRIx64>): omlokaliseringen %s mot den felaktigt justerade symbolen `%s' (%#<PRIx64>) i %pB"
 
 #: elf64-sparc.c:135 elfcode.h:1605
 #, c-format
@@ -5089,8 +4980,7 @@ msgstr "%pB: omlokaliseringen %s mot %s%s`%s' kan inte användas vid skapandet a
 #: elf64-x86-64.c:2579
 #, c-format
 msgid "%pB: bad reloc offset (%#<PRIx64> > %#<PRIx64>) for section `%pA'"
-msgstr "%pB: felaktig omlokaliseringsoffset (%#<PRIx64> > %#<PRIx64>) för sektion "
-"`%pA'"
+msgstr "%pB: felaktig omlokaliseringsoffset (%#<PRIx64> > %#<PRIx64>) för sektion `%pA'"
 
 #: elf64-x86-64.c:2647
 #, c-format
@@ -5110,8 +5000,7 @@ msgstr "%pB: omlokalisering %s stöds inte mot symbolen `%s'"
 #: elf64-x86-64.c:3504 elfnn-aarch64.c:5859 elfnn-riscv.c:2572
 #, c-format
 msgid "%pB: relocation %s against STT_GNU_IFUNC symbol `%s' has non-zero addend: %<PRId64>"
-msgstr "%pB: omlokalisering %s mot STT_GNU_IFUNC-symbolen `%s' har addend som inte är "
-"noll: %<PRId64>"
+msgstr "%pB: omlokalisering %s mot STT_GNU_IFUNC-symbolen `%s' har addend som inte är noll: %<PRId64>"
 
 #: elf64-x86-64.c:3773
 #, c-format
@@ -5121,14 +5010,12 @@ msgstr "%pB: omlokalisering R_X86_64_GOTOFF64 mot odefinierade %s `%s' kan inte 
 #: elf64-x86-64.c:3787
 #, c-format
 msgid "%pB: relocation R_X86_64_GOTOFF64 against protected %s `%s' can not be used when making a shared object"
-msgstr "%pB: omlokalisering R_X86_64_GOTOFF64 mot skyddade %s `%s' kan inte användas "
-"när man skapar ett delat objekt"
+msgstr "%pB: omlokalisering R_X86_64_GOTOFF64 mot skyddade %s `%s' kan inte användas när man skapar ett delat objekt"
 
 #: elf64-x86-64.c:4077
 #, c-format
 msgid "%pB: addend %s%#x in relocation %s against symbol `%s' at %#<PRIx64> in section `%pA' is out of range"
-msgstr "%pB: addend %s%#x i omlokalisering %s mot symbol `%s' på %#<PRIx64> i sektion "
-"`%pA' är utanför intervallet"
+msgstr "%pB: addend %s%#x i omlokalisering %s mot symbol `%s' på %#<PRIx64> i sektion `%pA' är utanför intervallet"
 
 #: elf64-x86-64.c:4229
 msgid "%P: corrupt input: %pB\n"
@@ -5137,8 +5024,7 @@ msgstr "%P: skadade indata: %pB\n"
 #: elf64-x86-64.c:5099
 #, c-format
 msgid " failed to convert GOTPCREL relocation against '%s'; relink with --no-relax\n"
-msgstr " misslyckades med att konvertera GOTPCREL-omlokalisering mot \"%s\"; länka om "
-"med --no-relax\n"
+msgstr " misslyckades med att konvertera GOTPCREL-omlokalisering mot \"%s\"; länka om med --no-relax\n"
 
 #: elf64-x86-64.c:5249
 #, c-format
@@ -5158,8 +5044,7 @@ msgstr "%pB: överspill i PC-relativ offset i GOT-PLT-posten för `%s'\n"
 #: elf64-x86-64.c:5529
 #, c-format
 msgid "%pB: Unable to generate dynamic relocs because a suitable section does not exist\n"
-msgstr "%pB: kan inte generera dynamiska omlokaliseringar eftersom det inte finns "
-"någon lämplig sektion\n"
+msgstr "%pB: kan inte generera dynamiska omlokaliseringar eftersom det inte finns någon lämplig sektion\n"
 
 #: elfcode.h:342
 #, c-format
@@ -5194,8 +5079,7 @@ msgstr "varning: %pB har ett segment som sträcker sig längre än slutet av fil
 #: elflink.c:1496
 #, c-format
 msgid "%s: TLS definition in %pB section %pA mismatches non-TLS definition in %pB section %pA"
-msgstr "%s: TLS-definitionen i %pB, sektion %pA stämmer inte överens med "
-"icke-TLS-definitionen i %pB, sektion %pA"
+msgstr "%s: TLS-definitionen i %pB, sektion %pA stämmer inte överens med icke-TLS-definitionen i %pB, sektion %pA"
 
 #: elflink.c:1502
 #, c-format
@@ -5205,14 +5089,12 @@ msgstr "%s: TLS-referensen i %pB stämmer inte överens med icke-TLS-referensen 
 #: elflink.c:1508
 #, c-format
 msgid "%s: TLS definition in %pB section %pA mismatches non-TLS reference in %pB"
-msgstr "%s: TLS-definitionen i %pB, sektion %pA stämmer inte överens med "
-"icke-TLS-referensen i %pB"
+msgstr "%s: TLS-definitionen i %pB, sektion %pA stämmer inte överens med icke-TLS-referensen i %pB"
 
 #: elflink.c:1514
 #, c-format
 msgid "%s: TLS reference in %pB mismatches non-TLS definition in %pB section %pA"
-msgstr "%s: TLS-referensen i %pB stämmer inte överens med icke-TLS-definitionen i "
-"%pB, sektion %pA"
+msgstr "%s: TLS-referensen i %pB stämmer inte överens med icke-TLS-definitionen i %pB, sektion %pA"
 
 #: elflink.c:2228
 #, c-format
@@ -5227,14 +5109,12 @@ msgstr "%pB: versionsnoden hittades inte för symbolen %s"
 #: elflink.c:2857
 #, c-format
 msgid "%pB: bad reloc symbol index (%#<PRIx64> >= %#lx) for offset %#<PRIx64> in section `%pA'"
-msgstr "%pB: felaktigt symbolindex (%#<PRIx64> >= %#lx) för omlokaliseringen vid "
-"offset %#<PRIx64> i sektionen `%pA'"
+msgstr "%pB: felaktigt symbolindex (%#<PRIx64> >= %#lx) för omlokaliseringen vid offset %#<PRIx64> i sektionen `%pA'"
 
 #: elflink.c:2869
 #, c-format
 msgid "%pB: non-zero symbol index (%#<PRIx64>) for offset %#<PRIx64> in section `%pA' when the object file has no symbol table"
-msgstr "%pB: symbolindex som inte är noll (%#<PRIx64>) för offset %#<PRIx64> i "
-"sektion `%pA' när objektfilen inte har någon symboltabell"
+msgstr "%pB: symbolindex som inte är noll (%#<PRIx64>) för offset %#<PRIx64> i sektion `%pA' när objektfilen inte har någon symboltabell"
 
 #: elflink.c:3054
 #, c-format
@@ -5296,8 +5176,7 @@ msgstr "%pB: %s: ogiltigt versionskrav %d"
 #: elflink.c:5558
 #, c-format
 msgid "warning: alignment %<PRIu64> of common symbol `%s' in %pB is greater than the alignment (%<PRIu64>) of its section %pA"
-msgstr "varning: justeringen %<PRIu64> av gemensamma symbolen `%s' i %pB är större än "
-"justeringen (%<PRIu64>) av dess sektion %pA"
+msgstr "varning: justeringen %<PRIu64> av gemensamma symbolen `%s' i %pB är större än justeringen (%<PRIu64>) av dess sektion %pA"
 
 #: elflink.c:5565
 #, c-format
@@ -5306,8 +5185,7 @@ msgstr "varning: justeringen %<PRIu64> av normala symbolen `%s' i %pB är mindre
 
 #: elflink.c:5572
 msgid "warning: NOTE: alignment discrepancies can cause real problems.  Investigation is advised."
-msgstr "varning: OBS: avvikelser i justeringen kan orsaka verkliga problem.  "
-"Undersökning rekommenderas."
+msgstr "varning: OBS: avvikelser i justeringen kan orsaka verkliga problem.  Undersökning rekommenderas."
 
 #: elflink.c:5594
 msgid "warning: NOTE: size discrepancies can cause real problems.  Investigation is advised."
@@ -5344,20 +5222,17 @@ msgstr "varning: aktivering av en körbar stack på grund av kommandoradsalterna
 #: elflink.c:7518
 #, c-format
 msgid "error: %s: is triggering the generation of an executable stack (because it has an executable .note.GNU-stack section)"
-msgstr "fel: %s: utlöser generering av en körbar stack (eftersom den har en körbar "
-".note.GNU-stack-sektion)"
+msgstr "fel: %s: utlöser generering av en körbar stack (eftersom den har en körbar .note.GNU-stack-sektion)"
 
 #: elflink.c:7524
 #, c-format
 msgid "warning: %s: requires executable stack (because the .note.GNU-stack section is executable)"
-msgstr "varning: %s: kräver en körbar stack (eftersom .note.GNU-stack-sektionen är "
-"körbar)"
+msgstr "varning: %s: kräver en körbar stack (eftersom .note.GNU-stack-sektionen är körbar)"
 
 #: elflink.c:7532
 #, c-format
 msgid "error: %s: is triggering the generation of an executable stack because it does not have a .note.GNU-stack section"
-msgstr "fel: %s: utlöser generering av en körbar stack eftersom den inte har någon "
-".note.GNU-stack-sektion"
+msgstr "fel: %s: utlöser generering av en körbar stack eftersom den inte har någon .note.GNU-stack-sektion"
 
 #: elflink.c:7538
 #, c-format
@@ -5366,8 +5241,7 @@ msgstr "varning: %s: en saknad .note.GNU-stack-sektion innebär en körbar stack
 
 #: elflink.c:7541
 msgid "NOTE: This behaviour is deprecated and will be removed in a future version of the linker"
-msgstr "OBS: Detta beteende är föråldrat och kommer att tas bort i en framtida "
-"version av länkaren"
+msgstr "OBS: Detta beteende är föråldrat och kommer att tas bort i en framtida version av länkaren"
 
 #: elflink.c:7695
 #, c-format
@@ -5392,8 +5266,7 @@ msgstr "okänd operator ”%c” i komplex symbol"
 #: elflink.c:9800
 #, c-format
 msgid "%pB:%pA: error: relocation references symbol %s which was removed by garbage collection"
-msgstr "%pB:%pA: fel: omlokalisering refererar till symbolen %s som togs bort genom "
-"skräpsamling"
+msgstr "%pB:%pA: fel: omlokalisering refererar till symbolen %s som togs bort genom skräpsamling"
 
 #: elflink.c:9803
 #, c-format
@@ -5469,8 +5342,7 @@ msgstr "fel: %pB: kunde inte skapa en symbol för gruppsektionen"
 #: elflink.c:11796
 #, c-format
 msgid "error: %pB contains a reloc (%#<PRIx64>) for section '%pA' that references a non-existent global symbol"
-msgstr "fel: %pB innehåller en omlokalisering (%#<PRIx64>) för sektionen '%pA' som "
-"refererar till en icke-befintlig global symbol"
+msgstr "fel: %pB innehåller en omlokalisering (%#<PRIx64>) för sektionen '%pA' som refererar till en icke-befintlig global symbol"
 
 #: elflink.c:12262
 #, c-format
@@ -5543,8 +5415,7 @@ msgstr "oigenkänd INPUT_SECTION_FLAG %s\n"
 
 #: elflink.c:15814
 msgid "%P: warning: GNU indirect functions with DT_TEXTREL may result in a segfault at runtime; recompile with %s\n"
-msgstr "%P: varning: GNU:s indirekta funktioner med DT_TEXTREL kan leda till ett "
-"segmenteringsfel vid körning; kompilera om med %s\n"
+msgstr "%P: varning: GNU:s indirekta funktioner med DT_TEXTREL kan leda till ett segmenteringsfel vid körning; kompilera om med %s\n"
 
 #: elfxx-aarch64.c:480
 #, c-format
@@ -5559,8 +5430,7 @@ msgstr "%Xfel: hittade totalt %d indataobjekt som inte är kompatibla med BTI-kr
 #: elfxx-aarch64.c:790
 #, c-format
 msgid "warning: found a total of %d inputs incompatible with BTI requirements.\n"
-msgstr "varning: hittade totalt %d indataobjekt som inte är kompatibla med "
-"BTI-kraven.\n"
+msgstr "varning: hittade totalt %d indataobjekt som inte är kompatibla med BTI-kraven.\n"
 
 #: elfxx-aarch64.c:800
 #, c-format
@@ -5570,26 +5440,22 @@ msgstr "%Xfel: fann totalt %d indataobjekt som inte var kompatibla med GCS-krave
 #: elfxx-aarch64.c:802
 #, c-format
 msgid "warning: found a total of %d inputs incompatible with GCS requirements.\n"
-msgstr "varning: hittade totalt %d indataobjekt som inte är kompatibla med "
-"GCS-kraven.\n"
+msgstr "varning: hittade totalt %d indataobjekt som inte är kompatibla med GCS-kraven.\n"
 
 #: elfxx-aarch64.c:812
 #, c-format
 msgid "%Xerror: found a total of %d dynamically-linked objects incompatible with GCS requirements.\n"
-msgstr "%Xfel: hittade totalt %d dynamiskt länkade objekt som inte är kompatibla med "
-"GCS-kraven.\n"
+msgstr "%Xfel: hittade totalt %d dynamiskt länkade objekt som inte är kompatibla med GCS-kraven.\n"
 
 #: elfxx-aarch64.c:814
 #, c-format
 msgid "warning: found a total of %d dynamically-linked objects incompatible with GCS requirements.\n"
-msgstr "varning: hittade totalt %d dynamiskt länkade objekt som inte är kompatibla "
-"med GCS-kraven.\n"
+msgstr "varning: hittade totalt %d dynamiskt länkade objekt som inte är kompatibla med GCS-kraven.\n"
 
 #: elfxx-aarch64.c:1103
 #, c-format
 msgid "%pB: warning: cannot merge unknown tag 'Tag_unknown_%<PRIu64>' (=0x%<PRIx32>) in subsection '%s'\n"
-msgstr "%pB: varning: kan inte slå samman okänd tagg 'Tag_unknown_%<PRIu64>' "
-"(=0x%<PRIx32>) i undersektion '%s'\n"
+msgstr "%pB: varning: kan inte slå samman okänd tagg 'Tag_unknown_%<PRIu64>' (=0x%<PRIx32>) i undersektion '%s'\n"
 
 #: elfxx-aarch64.c:1190
 #, c-format
@@ -5614,18 +5480,12 @@ msgstr "%X%pB: fel: BTI krävs av -z force-bti, men den här indataobjektfilen s
 #: elfxx-aarch64.c:1548
 #, c-format
 msgid "%pB: warning: GCS is required by -z gcs, but this shared library lacks the necessary property note. The dynamic loader might not enable GCS or refuse to load the program unless all the shared library dependencies have the GCS marking.\n"
-msgstr "%pB: varning: GCS krävs av -z gcs, men det här delade biblioteket saknar den "
-"nödvändiga egenskapsnoteringen. Den dynamiska laddaren kan avstå från att "
-"aktivera GCS eller vägra att läsa in programmet om inte alla beroenden till "
-"det delade biblioteket har GCS-märkningen.\n"
+msgstr "%pB: varning: GCS krävs av -z gcs, men det här delade biblioteket saknar den nödvändiga egenskapsnoteringen. Den dynamiska laddaren kan avstå från att aktivera GCS eller vägra att läsa in programmet om inte alla beroenden till det delade biblioteket har GCS-märkningen.\n"
 
 #: elfxx-aarch64.c:1552
 #, c-format
 msgid "%X%pB: error: GCS is required by -z gcs, but this shared library lacks the necessary property note. The dynamic loader might not enable GCS or refuse to load the program unless all the shared library dependencies have the GCS marking.\n"
-msgstr "%X%pB: fel: GCS krävs av -z gcs, men det här delade biblioteket saknar den "
-"nödvändiga egenskapsnoteringen. Den dynamiska laddaren kan avstå från att "
-"aktivera GCS eller vägra att läsa in programmet om inte alla beroenden till "
-"det delade biblioteket har GCS-märkningen.\n"
+msgstr "%X%pB: fel: GCS krävs av -z gcs, men det här delade biblioteket saknar den nödvändiga egenskapsnoteringen. Den dynamiska laddaren kan avstå från att aktivera GCS eller vägra att läsa in programmet om inte alla beroenden till det delade biblioteket har GCS-märkningen.\n"
 
 #: elfxx-aarch64.c:1558
 #, c-format
@@ -5675,8 +5535,7 @@ msgstr "%X%H: hopp mellan ISA-lägen stöds inte; överväg att kompilera om med
 
 #: elfxx-mips.c:6751
 msgid "%X%H: cannot convert branch between ISA modes to JALX: relocation out of range\n"
-msgstr "%X%H: kan inte omvandla hopp mellan ISA-lägen till JALX: omlokalisering "
-"utanför intervallet\n"
+msgstr "%X%H: kan inte omvandla hopp mellan ISA-lägen till JALX: omlokalisering utanför intervallet\n"
 
 #: elfxx-mips.c:6763
 msgid "%X%H: unsupported branch between ISA modes\n"
@@ -5685,14 +5544,12 @@ msgstr "%X%H: hopp mellan ISA-lägen stöds inte\n"
 #: elfxx-mips.c:7409
 #, c-format
 msgid "%pB: incorrect `.reginfo' section size; expected %<PRIu64>, got %<PRIu64>"
-msgstr "%pB: felaktig storlek på sektionen `.reginfo'; förväntade %<PRIu64>, fick "
-"%<PRIu64>"
+msgstr "%pB: felaktig storlek på sektionen `.reginfo'; förväntade %<PRIu64>, fick %<PRIu64>"
 
 #: elfxx-mips.c:7453
 #, c-format
 msgid "%pB: warning: bad `%s' option size %u smaller than its header"
-msgstr "%pB: varning: felaktig storlek för alternativet `%s': %u är mindre än dess "
-"huvud"
+msgstr "%pB: varning: felaktig storlek för alternativet `%s': %u är mindre än dess huvud"
 
 #: elfxx-mips.c:7689
 #, c-format
@@ -5722,8 +5579,7 @@ msgstr "%pB: CALL16-omlokalisering vid %#<PRIx64> inte mot global symbol"
 #: elfxx-mips.c:9344
 #, c-format
 msgid "%X%H: relocation %s against `%s' cannot be used when making a shared object; recompile with -fPIC\n"
-msgstr "%X%H: omlokalisering %s mot `%s' kan inte användas när man skapar ett delat "
-"objekt; kompilera om med -fPIC\n"
+msgstr "%X%H: omlokalisering %s mot `%s' kan inte användas när man skapar ett delat objekt; kompilera om med -fPIC\n"
 
 #: elfxx-mips.c:9470
 #, c-format
@@ -5743,8 +5599,7 @@ msgstr "icke-dynamiska omlokaliseringar använder dynamisk symbol %s"
 #: elfxx-mips.c:10616 elfxx-mips.c:13271
 #, c-format
 msgid "can't find matching LO16 reloc against `%s' for %s at %#<PRIx64> in section `%s'"
-msgstr "kan inte hitta matchande LO16-omlokalisering mot `%s' för %s vid %#<PRIx64> i "
-"sektion `%s'"
+msgstr "kan inte hitta matchande LO16-omlokalisering mot `%s' för %s vid %#<PRIx64> i sektion `%s'"
 
 #: elfxx-mips.c:10765
 msgid "small-data section too large; lower small-data size limit (see option -G)"
@@ -5777,8 +5632,7 @@ msgstr "PC-relativ inläsning från en ojusterad adress"
 #: elfxx-mips.c:11093
 #, c-format
 msgid "%pB: `%pA' entry VMA of %#<PRIx64> outside the 32-bit range supported; consider using `-Ttext-segment=...'"
-msgstr "%pB: `%pA' har ingångs-VMA %#<PRIx64> utanför det 32-bitarsintervall som "
-"stöds; överväg att använda `-Ttext-segment=...'"
+msgstr "%pB: `%pA' har ingångs-VMA %#<PRIx64> utanför det 32-bitarsintervall som stöds; överväg att använda `-Ttext-segment=...'"
 
 #: elfxx-mips.c:11209 elfxx-mips.c:11809
 #, c-format
@@ -5788,8 +5642,7 @@ msgstr "%pB: `%pA' förskjutning av %<PRId64> från `%pA' utanför ADDIUPC:s omr
 #: elfxx-mips.c:11781
 #, c-format
 msgid "%pB: `%pA' start VMA of %#<PRIx64> outside the 32-bit range supported; consider using `-Ttext-segment=...'"
-msgstr "%pB: `%pA' har start-VMA %#<PRIx64> utanför det 32-bitarsintervall som stöds; "
-"överväg att använda `-Ttext-segment=...'"
+msgstr "%pB: `%pA' har start-VMA %#<PRIx64> utanför det 32-bitarsintervall som stöds; överväg att använda `-Ttext-segment=...'"
 
 #: elfxx-mips.c:13288
 #, c-format
@@ -5839,8 +5692,7 @@ msgstr "%pB: ASE stämmer inte överens: länkar en %s-modul med tidigare %s-mod
 #: elfxx-mips.c:15908
 #, c-format
 msgid "warning: %pB uses unknown floating point ABI %d (set by %pB), %pB uses unknown floating point ABI %d"
-msgstr "varning: %pB använder okänt ABI för flyttal %d (inställd av %pB), %pB "
-"använder okänt ABI för flyttal %d"
+msgstr "varning: %pB använder okänt ABI för flyttal %d (inställd av %pB), %pB använder okänt ABI för flyttal %d"
 
 #: elfxx-mips.c:15914
 #, c-format
@@ -5850,8 +5702,7 @@ msgstr "varning: %pB använder okänt ABI för flyttal %d (anges av %pB), %pB an
 #: elfxx-mips.c:15920
 #, c-format
 msgid "warning: %pB uses %s (set by %pB), %pB uses unknown floating point ABI %d"
-msgstr "varning: %pB använder %s (inställd av %pB), %pB använder okänt ABI för "
-"flyttal %d"
+msgstr "varning: %pB använder %s (inställd av %pB), %pB använder okänt ABI för flyttal %d"
 
 #: elfxx-mips.c:15934
 #, c-format
@@ -5871,8 +5722,7 @@ msgstr "varning: %pB använder okänt MSA-ABI %d (inställd av %pB), %pB använd
 #: elfxx-mips.c:15974
 #, c-format
 msgid "warning: %pB uses unknown MSA ABI %d (set by %pB), %pB uses unknown MSA ABI %d"
-msgstr "varning: %pB använder okänt MSA-ABI %d (inställd av %pB), %pB använder okänt "
-"MSA-ABI %d"
+msgstr "varning: %pB använder okänt MSA-ABI %d (inställd av %pB), %pB använder okänt MSA-ABI %d"
 
 #: elfxx-mips.c:16036
 #, c-format
@@ -5944,8 +5794,7 @@ msgstr "Programvaruflyttal\n"
 #: elfxx-mips.c:16470
 #, c-format
 msgid "Hard float (MIPS32r2 64-bit FPU 12 callee-saved)\n"
-msgstr "Hard-float (MIPS32r2, 64-bitars FPU, 12 register som sparas av den anropade "
-"funktionen)\n"
+msgstr "Hard-float (MIPS32r2, 64-bitars FPU, 12 register som sparas av den anropade funktionen)\n"
 
 #: elfxx-mips.c:16473
 #, c-format
@@ -6330,8 +6179,7 @@ msgstr "fel: %pB: ISA-strängen \"%s\" är skadad.  Första bokstaven borde vara
 #: elfxx-riscv.c:3647
 #, c-format
 msgid "error: %pB: mis-matched ISA string to merge '%s' and '%s'"
-msgstr "fel: %pB: ISA-strängarna \"%s\" och \"%s\" stämmer inte överens vid "
-"sammanfogning"
+msgstr "fel: %pB: ISA-strängarna \"%s\" och \"%s\" stämmer inte överens vid sammanfogning"
 
 #: elfxx-riscv.c:3784
 #, c-format
@@ -6350,14 +6198,12 @@ msgstr "fel: %pB: XLEN stöds inte (%u), du kanske använder fel emulering"
 
 #: elfxx-riscv.c:3948
 msgid "warning: privileged spec version 1.9.1 can not be linked with other spec versions"
-msgstr "varning: version 1.9.1 av specifikationen för privilegierade instruktioner "
-"kan inte länkas med andra specifikationsversioner"
+msgstr "varning: version 1.9.1 av specifikationen för privilegierade instruktioner kan inte länkas med andra specifikationsversioner"
 
 #: elfxx-riscv.c:3976
 #, c-format
 msgid "error: %pB use %u-byte stack aligned but the output use %u-byte stack aligned"
-msgstr "fel: %pB använder stackjustering till %u byte men utdata använder "
-"stackjustering till %u byte"
+msgstr "fel: %pB använder stackjustering till %u byte men utdata använder stackjustering till %u byte"
 
 #: elfxx-riscv.c:4018 elfnn-loongarch.c:542
 #, c-format
@@ -6400,8 +6246,7 @@ msgstr "%pB: kan inte länka samman %s- och %s-objekt"
 #: elfxx-x86.c:542 elfxx-x86.c:3626
 #, c-format
 msgid "%P: %pB: copy relocation against non-copyable protected symbol `%s' in %pB\n"
-msgstr "%P: %pB: kopieringsomlokalisering mot den skyddade symbolen `%s' i %pB som "
-"inte kan kopieras\n"
+msgstr "%P: %pB: kopieringsomlokalisering mot den skyddade symbolen `%s' i %pB som inte kan kopieras\n"
 
 #: elfxx-x86.c:1044
 #, c-format
@@ -6426,20 +6271,17 @@ msgstr "%P: %pB: misslyckades med att allokera minne för sektionen `%pA'\n"
 #: elfxx-x86.c:1759
 #, c-format
 msgid "%P: %pB: size of compact relative reloc section is changed: new (%lu) != old (%lu)\n"
-msgstr "%P: %pB: storleken på den kompakta relativa omlokaliseringssektionen har "
-"ändrats: ny (%lu) != gammal (%lu)\n"
+msgstr "%P: %pB: storleken på den kompakta relativa omlokaliseringssektionen har ändrats: ny (%lu) != gammal (%lu)\n"
 
 #: elfxx-x86.c:1781
 #, c-format
 msgid "%P: %pB: failed to allocate compact relative reloc section\n"
-msgstr "%P: %pB: misslyckades med att allokera en kompakt relativ "
-"omlokaliseringssektion\n"
+msgstr "%P: %pB: misslyckades med att allokera en kompakt relativ omlokaliseringssektion\n"
 
 #: elfxx-x86.c:2262
 #, c-format
 msgid "%P: %pB: relocation %s against absolute symbol `%s' in section `%pA' is disallowed\n"
-msgstr "%P: %pB: omlokaliseringen %s mot den absoluta symbolen `%s' i sektionen `%pA' "
-"är inte tillåten\n"
+msgstr "%P: %pB: omlokaliseringen %s mot den absoluta symbolen `%s' i sektionen `%pA' är inte tillåten\n"
 
 #: elfxx-x86.c:2342
 msgid "%P: %pB: warning: relocation in read-only section `%pA'\n"
@@ -6447,8 +6289,7 @@ msgstr "%P: %pB: varning: omlokalisering i den skrivskyddade sektionen `%pA'\n"
 
 #: elfxx-x86.c:3275
 msgid "%pB: %s (offset: 0x%v, info: 0x%v, addend: 0x%v) against '%s' for section '%pA' in %pB\n"
-msgstr "%pB: %s (offset: 0x%v, info: 0x%v, addend: 0x%v) mot '%s' för sektion '%pA' i "
-"%pB\n"
+msgstr "%pB: %s (offset: 0x%v, info: 0x%v, addend: 0x%v) mot '%s' för sektion '%pA' i %pB\n"
 
 #: elfxx-x86.c:3281
 msgid "%pB: %s (offset: 0x%v, info: 0x%v) against '%s' for section '%pA' in %pB\n"
@@ -6457,14 +6298,12 @@ msgstr "%pB: %s (offset: 0x%v, info: 0x%v) mot '%s' för sektion '%pA' i %pB\n"
 #: elfxx-x86.c:3317
 #, c-format
 msgid "%pB: TLS transition from %s to %s against `%s' at 0x%v in section `%pA' failed\n"
-msgstr "%pB: TLS-övergången från %s till %s mot `%s' på 0x%v i sektion `%pA' "
-"misslyckades\n"
+msgstr "%pB: TLS-övergången från %s till %s mot `%s' på 0x%v i sektion `%pA' misslyckades\n"
 
 #: elfxx-x86.c:3326
 #, c-format
 msgid "%pB(%pA+0x%v): relocation %s against `%s' must be used in ADD or MOV only\n"
-msgstr "%pB(%pA+0x%v): omlokalisering %s mot `%s' får endast användas i ADD eller "
-"MOV\n"
+msgstr "%pB(%pA+0x%v): omlokalisering %s mot `%s' får endast användas i ADD eller MOV\n"
 
 #: elfxx-x86.c:3334
 #, c-format
@@ -6474,14 +6313,12 @@ msgstr "%pB(%pA+0x%v): omlokalisering av %s mot `%s' får endast användas i ADD
 #: elfxx-x86.c:3342
 #, c-format
 msgid "%pB(%pA+0x%v): relocation %s against `%s' must be used in ADD, SUB or MOV only\n"
-msgstr "%pB(%pA+0x%v): omlokalisering %s mot `%s' får endast användas i ADD, SUB "
-"eller MOV\n"
+msgstr "%pB(%pA+0x%v): omlokalisering %s mot `%s' får endast användas i ADD, SUB eller MOV\n"
 
 #: elfxx-x86.c:3350
 #, c-format
 msgid "%pB(%pA+0x%v): relocation %s against `%s' must be used in indirect CALL with %s register only\n"
-msgstr "%pB(%pA+0x%v): omlokalisering %s mot `%s' får endast användas i indirekt CALL "
-"med registret %s\n"
+msgstr "%pB(%pA+0x%v): omlokalisering %s mot `%s' får endast användas i indirekt CALL med registret %s\n"
 
 #: elfxx-x86.c:3359
 #, c-format
@@ -6491,8 +6328,7 @@ msgstr "%pB(%pA+0x%v): omlokalisering av %s mot `%s' får endast användas i LEA
 #: elfxx-x86.c:3387
 #, c-format
 msgid "%pB: relocation %s against thread local symbol `%s' in invalid section `%pA'"
-msgstr "%pB: omlokaliseringen %s mot den trådlokala symbolen `%s' i den ogiltiga "
-"sektionen `%pA'"
+msgstr "%pB: omlokaliseringen %s mot den trådlokala symbolen `%s' i den ogiltiga sektionen `%pA'"
 
 #: elfxx-x86.c:4005
 #, c-format
@@ -6666,8 +6502,7 @@ msgstr "%pB: indirekt symbol `%s' till `%s' är en loop"
 
 #: linker.c:1833
 msgid "%P: %pB: note: the message above does not take linker garbage collection into account\n"
-msgstr "%P: %pB: observera: meddelandet ovan tar inte hänsyn till länkarens "
-"skräpsamling\n"
+msgstr "%P: %pB: observera: meddelandet ovan tar inte hänsyn till länkarens skräpsamling\n"
 
 #: linker.c:2682
 #, c-format
@@ -6697,19 +6532,16 @@ msgstr "%pB: duplicerad sektion `%pA' har olika innehåll\n"
 #: linker.c:3477
 #, c-format
 msgid "%pB: compiled for a big endian system and target is little endian"
-msgstr "%pB: kompilerad för ett system med big-endian-byteordning men målet har "
-"little-endian-byteordning"
+msgstr "%pB: kompilerad för ett system med big-endian-byteordning men målet har little-endian-byteordning"
 
 #: linker.c:3480
 #, c-format
 msgid "%pB: compiled for a little endian system and target is big endian"
-msgstr "%pB: kompilerad för ett system med little-endian-byteordning men målet har "
-"big-endian-byteordning"
+msgstr "%pB: kompilerad för ett system med little-endian-byteordning men målet har big-endian-byteordning"
 
 #: mach-o-arm.c:169 mach-o-arm.c:301
 msgid "malformed mach-o ARM reloc pair: reloc is first reloc"
-msgstr "felaktigt utformat Mach-O/ARM-omlokaliseringspar: omlokaliseringen är den "
-"första omlokaliseringen"
+msgstr "felaktigt utformat Mach-O/ARM-omlokaliseringspar: omlokaliseringen är den första omlokaliseringen"
 
 #: mach-o-arm.c:185
 #, c-format
@@ -6734,8 +6566,7 @@ msgstr "felaktigt utformad Mach-O/ARM-half-sectdiff-omlokalisering: ogiltig län
 #: mach-o-arm.c:262
 #, c-format
 msgid "malformed mach-o ARM vanilla reloc: invalid length: %d (pcrel: %d)"
-msgstr "felaktigt utformad Mach-O/ARM-vanilla-omlokalisering: ogiltig längd: %d "
-"(pcrel: %d)"
+msgstr "felaktigt utformad Mach-O/ARM-vanilla-omlokalisering: ogiltig längd: %d (pcrel: %d)"
 
 #: mach-o-arm.c:332
 #, c-format
@@ -6808,8 +6639,7 @@ msgstr "bfd_mach_o_canonicalize_symtab: kunde inte ladda symboler"
 
 #: mach-o.c:1516
 msgid "malformed mach-o reloc: section index is greater than the number of sections"
-msgstr "felaktigt utformad Mach-O-omlokalisering: sektionsindex är större än antalet "
-"sektioner"
+msgstr "felaktigt utformad Mach-O-omlokalisering: sektionsindex är större än antalet sektioner"
 
 #: mach-o.c:2158
 msgid "sorry: modtab, toc and extrefsyms are not yet implemented for dysymtab commands."
@@ -6898,8 +6728,7 @@ msgstr "%pB: minne saknas för att allokera en symbol som är %d byte lång"
 #: mmo.c:950
 #, c-format
 msgid "%pB: attempt to emit contents at non-multiple-of-4 address %#<PRIx64>"
-msgstr "%pB: försök att skriva innehåll vid adressen %#<PRIx64>, som inte är en "
-"multipel av 4"
+msgstr "%pB: försök att skriva innehåll vid adressen %#<PRIx64>, som inte är en multipel av 4"
 
 #: mmo.c:1245
 #, c-format
@@ -7072,8 +6901,7 @@ msgstr "Varning: sektionen %s har storleken noll\n"
 #: pei-x86_64.c:585
 #, c-format
 msgid "Warning: %s section size (%ld) is smaller than virtual size (%ld)\n"
-msgstr "Varning: sektionen %s har storleken %ld, som är mindre än den virtuella "
-"storleken (%ld)\n"
+msgstr "Varning: sektionen %s har storleken %ld, som är mindre än den virtuella storleken (%ld)\n"
 
 #: pei-x86_64.c:594
 #, c-format
@@ -7180,8 +7008,7 @@ msgstr "%pB: kunde inte hämta symboltabellen i sektionen med endast objektkod: 
 
 #: plugin.c:428
 msgid "plugin framework: out of file descriptors. Try using fewer objects/archives\n"
-msgstr "ramverk för insticksmoduler: slut på fildeskriptorer. Försök använda färre "
-"objekt/arkiv\n"
+msgstr "ramverk för insticksmoduler: slut på fildeskriptorer. Försök använda färre objekt/arkiv\n"
 
 #: ppcboot.c:392
 #, c-format
@@ -7269,8 +7096,7 @@ msgstr "%pB(%pA+%#<PRIx64>): offseten för %s-omlokaliseringen ligger i fel ordn
 #: som.c:3015
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): %s relocation offset out of range"
-msgstr "%pB(%pA+%#<PRIx64>): offseten för %s-omlokaliseringen ligger utanför "
-"intervallet"
+msgstr "%pB(%pA+%#<PRIx64>): offseten för %s-omlokaliseringen ligger utanför intervallet"
 
 #. User has specified a subspace without its containing space.
 #: som.c:5410
@@ -9100,8 +8926,7 @@ msgstr "kan inte läsa EISD\n"
 #: vms-alpha.c:8421
 #, c-format
 msgid "Image section descriptor: (major: %u, minor: %u, size: %u, offset: %u)\n"
-msgstr "Avbildens sektionsdeskriptor: (major: %u, minor: %u, storlek: %u, offset: "
-"%u)\n"
+msgstr "Avbildens sektionsdeskriptor: (major: %u, minor: %u, storlek: %u, offset: %u)\n"
 
 #: vms-alpha.c:8429
 #, c-format
@@ -9373,8 +9198,7 @@ msgstr "%pB: XMC_TC0-symbolen `%s' är klass %d scnlen %<PRIu64>"
 #: xcofflink.c:1800
 #, c-format
 msgid "%pB: TOC entry `%s' has a R_TLSMLrelocation not targeting itself"
-msgstr "%pB: TOC-post `%s' har en R_TLSML-omlokalisering som inte riktar sig till sig "
-"själv"
+msgstr "%pB: TOC-post `%s' har en R_TLSML-omlokalisering som inte riktar sig till sig själv"
 
 #: xcofflink.c:1834
 #, c-format
@@ -9413,8 +9237,7 @@ msgstr "fel: odefinierad symbol __rtinit"
 #: xcofflink.c:4921
 #, c-format
 msgid "%pB: Unable to find a stub csect in rangeof relocation at %#<PRIx64> targeting'%s'"
-msgstr "%pB: kan inte hitta en csect för en stubb inom räckvidden för "
-"omlokaliseringen vid %#<PRIx64> med målet '%s'"
+msgstr "%pB: kan inte hitta en csect för en stubb inom räckvidden för omlokaliseringen vid %#<PRIx64> med målet '%s'"
 
 #: xcofflink.c:4950
 #, c-format
@@ -9478,27 +9301,22 @@ msgstr "okänt attribut för symbolen `%s': 0x%02x"
 #: elfnn-aarch64.c:5561
 #, c-format
 msgid "%pB: error: erratum 835769 stub out of range (input file too large)"
-msgstr "%pB: fel: kodstubben för erratum 835769 ligger utanför intervallet "
-"(indatafilen är för stor)"
+msgstr "%pB: fel: kodstubben för erratum 835769 ligger utanför intervallet (indatafilen är för stor)"
 
 #: elfnn-aarch64.c:5653
 #, c-format
 msgid "%pB: error: erratum 843419 stub out of range (input file too large)"
-msgstr "%pB: fel: kodstubben för erratum 843419 ligger utanför intervallet "
-"(indatafilen är för stor)"
+msgstr "%pB: fel: kodstubben för erratum 843419 ligger utanför intervallet (indatafilen är för stor)"
 
 #: elfnn-aarch64.c:5666
 #, c-format
 msgid "%pB: error: erratum 843419 immediate 0x%<PRIx64> out of range for ADR (input file too large) and --fix-cortex-a53-843419=adr used.  Run the linker with --fix-cortex-a53-843419=full instead"
-msgstr "%pB: fel: direktvärdet för erratum 843419, 0x%<PRIx64> utanför intervallet "
-"för ADR (indatafilen är för stor) och --fix-cortex-a53-843419=adr användes.  "
-"Kör länkaren med --fix-cortex-a53-843419=full istället"
+msgstr "%pB: fel: direktvärdet för erratum 843419, 0x%<PRIx64> utanför intervallet för ADR (indatafilen är för stor) och --fix-cortex-a53-843419=adr användes.  Kör länkaren med --fix-cortex-a53-843419=full istället"
 
 #: elfnn-aarch64.c:6209
 #, c-format
 msgid "%pB: relocation %s against symbol `%s' which may bind externally can not be used when making a shared object; recompile with -fPIC"
-msgstr "%pB: omlokalisering %s mot symbol `%s' som kan bindas externt kan inte "
-"användas när man skapar ett delat objekt; kompilera om med -fPIC"
+msgstr "%pB: omlokalisering %s mot symbol `%s' som kan bindas externt kan inte användas när man skapar ett delat objekt; kompilera om med -fPIC"
 
 #: elfnn-aarch64.c:6229
 #, c-format
@@ -9508,8 +9326,7 @@ msgstr "%pB: villkorligt hopp till den odefinierade symbolen `%s' är inte till�
 #: elfnn-aarch64.c:6317 elfnn-kvx.c:2382
 #, c-format
 msgid "%pB: local symbol descriptor table be NULL when applying relocation %s against local symbol"
-msgstr "%pB: tabellen över lokala symboldeskriptorer är NULL när omlokaliseringen %s "
-"tillämpas på en lokal symbol"
+msgstr "%pB: tabellen över lokala symboldeskriptorer är NULL när omlokaliseringen %s tillämpas på en lokal symbol"
 
 #: elfnn-aarch64.c:6431 elfnn-aarch64.c:6468
 #, c-format
@@ -9522,26 +9339,21 @@ msgstr "för många GOT-poster för -fpic, kompilera om med -fPIC"
 
 #: elfnn-aarch64.c:7501
 msgid "one possible cause of this error is that the symbol is being referenced in the indicated code as if it had a larger alignment than was declared where it was defined"
-msgstr "en möjlig orsak till detta fel är att symbolen refereras till i den angivna "
-"koden som om den hade en större justering än vad som deklarerades där den "
-"definierades"
+msgstr "en möjlig orsak till detta fel är att symbolen refereras till i den angivna koden som om den hade en större justering än vad som deklarerades där den definierades"
 
 #: elfnn-aarch64.c:8068
 #, c-format
 msgid "%pB: relocation %s against `%s' can not be used when making a shared object"
-msgstr "%pB: omlokalisering %s mot `%s' kan inte användas när man skapar ett delat "
-"objekt"
+msgstr "%pB: omlokalisering %s mot `%s' kan inte användas när man skapar ett delat objekt"
 
 #: elfnn-aarch64.c:9027
 #, c-format
 msgid "%P: %pB: copy relocation against non-copyable protected symbol `%s'\n"
-msgstr "%P: %pB: kopieringsomlokalisering mot den skyddade symbolen `%s' som inte kan "
-"kopieras\n"
+msgstr "%P: %pB: kopieringsomlokalisering mot den skyddade symbolen `%s' som inte kan kopieras\n"
 
 #: elfnn-kvx.c:929
 msgid "%P: Could not assign '%pA' to an output section. Retry without --enable-non-contiguous-regions.\n"
-msgstr "%P: Det gick inte att tilldela '%pA' till en utdatasektion. Försök igen utan "
-"--enable-non-contiguous-regions.\n"
+msgstr "%P: Det gick inte att tilldela '%pA' till en utdatasektion. Försök igen utan --enable-non-contiguous-regions.\n"
 
 #: elfnn-kvx.c:2127
 #, c-format
@@ -9637,8 +9449,7 @@ msgstr "pcrel_lo saknar motsvarande pcrel_hi"
 #: elfnn-loongarch.c:1089
 #, c-format
 msgid "%pB:(%pA+%#lx): relocation %s against `%s` can not be used when making %s; recompile with %s%s"
-msgstr "%pB:(%pA+%#lx): omlokalisering %s mot `%s` kan inte användas när %s skapas; "
-"kompilera om med %s%s"
+msgstr "%pB:(%pA+%#lx): omlokalisering %s mot `%s` kan inte användas när %s skapas; kompilera om med %s%s"
 
 #: elfnn-loongarch.c:1093
 msgid " and check the symbol visibility"
@@ -9647,8 +9458,7 @@ msgstr " och kontrollera symbolens synlighet"
 #: elfnn-loongarch.c:1220
 #, c-format
 msgid "%pB: stack based reloc type (%u) is not supported with -z pack-relative-relocs"
-msgstr "%pB: stackbaserad omlokaliseringstyp (%u) stöds inte med -z "
-"pack-relative-relocs"
+msgstr "%pB: stackbaserad omlokaliseringstyp (%u) stöds inte med -z pack-relative-relocs"
 
 #: elfnn-loongarch.c:1419
 #, c-format
@@ -9662,8 +9472,7 @@ msgstr "%pB: R_LARCH_ALIGN med offset %<PRId64> inte justerad till instruktionsg
 
 #: elfnn-loongarch.c:4401
 msgid "cannot resolve R_LARCH_PCREL20_S2 against undefined weak symbol with addend out of [-2048, 2048)"
-msgstr "kan inte lösa R_LARCH_PCREL20_S2 mot en odefinierad svag symbol med addend "
-"utanför [-2048, 2048)"
+msgstr "kan inte lösa R_LARCH_PCREL20_S2 mot en odefinierad svag symbol med addend utanför [-2048, 2048)"
 
 #: elfnn-loongarch.c:4978
 msgid "recompile with 'gcc -mno-relax' or 'as -mno-relax' or 'ld --no-relax'"
@@ -9672,8 +9481,7 @@ msgstr "kompilera om med 'gcc -mno-relax' eller 'as -mno-relax' eller 'ld --no-r
 #: elfnn-loongarch.c:5915 elfnn-riscv.c:4716
 #, c-format
 msgid "%pB(%pA+%#<PRIx64>): %<PRId64> bytes required for alignment to %<PRId64>-byte boundary, but only %<PRId64> present"
-msgstr "%pB(%pA+%#<PRIx64>): %<PRId64> byte krävs för justering till "
-"%<PRId64>-bytegräns, men endast %<PRId64> finns"
+msgstr "%pB(%pA+%#<PRIx64>): %<PRId64> byte krävs för justering till %<PRId64>-bytegräns, men endast %<PRId64> finns"
 
 #: elfnn-riscv.c:380 elfnn-riscv.c:431 elfnn-riscv.c:479 elfnn-riscv.c:515
 #, c-format
@@ -9688,14 +9496,12 @@ msgstr "%pB: fel: PLT-typen stöds inte: %u"
 #: elfnn-riscv.c:1115
 #, c-format
 msgid "%pB: relocation %s against absolute symbol `%s' can not be used when making a shared object"
-msgstr "%pB: omlokalisering %s mot absolut symbol `%s' kan inte användas när man "
-"skapar ett delat objekt"
+msgstr "%pB: omlokalisering %s mot absolut symbol `%s' kan inte användas när man skapar ett delat objekt"
 
 #: elfnn-riscv.c:1157
 #, c-format
 msgid "%pB: relocation %s against non-absolute symbol `%s' can not be used in RV32 when making a shared object"
-msgstr "%pB: omlokalisering %s mot icke-absolut symbol `%s' kan inte användas i RV32 "
-"när man skapar ett delat objekt"
+msgstr "%pB: omlokalisering %s mot icke-absolut symbol `%s' kan inte användas i RV32 när man skapar ett delat objekt"
 
 #: elfnn-riscv.c:2092
 #, c-format
@@ -9716,9 +9522,7 @@ msgstr "%pcrel_lo med addend är inte tillåtet för R_RISCV_GOT_HI20"
 #: elfnn-riscv.c:2343
 #, c-format
 msgid "%%pcrel_lo overflow with an addend, the value of %%pcrel_hi is 0x%<PRIx64> without any addend, but may be 0x%<PRIx64> after adding the %%pcrel_lo addend"
-msgstr "%%pcrel_lo ger överspill med en addend; värdet på %%pcrel_hi är 0x%<PRIx64> "
-"utan någon addend, men kan vara 0x%<PRIx64> efter tillägg av "
-"%%pcrel_lo-addenden"
+msgstr "%%pcrel_lo ger överspill med en addend; värdet på %%pcrel_hi är 0x%<PRIx64> utan någon addend, men kan vara 0x%<PRIx64> efter tillägg av %%pcrel_lo-addenden"
 
 #: elfnn-riscv.c:2351
 #, c-format
@@ -9728,8 +9532,7 @@ msgstr "%pcrel_lo ger överspill med en addend"
 #: elfnn-riscv.c:2844
 #, c-format
 msgid "%pB: warning: R_RISCV_SUB_ULEB128 with non-zero addend, please rebuild by binutils 2.42 or up"
-msgstr "%pB: varning: R_RISCV_SUB_ULEB128 med icke-noll addend, bygg om med binutils "
-"2.42 eller senare"
+msgstr "%pB: varning: R_RISCV_SUB_ULEB128 med icke-noll addend, bygg om med binutils 2.42 eller senare"
 
 #: elfnn-riscv.c:2934
 msgid "The addend isn't allowed for R_RISCV_GOT_HI20"
@@ -9752,8 +9555,7 @@ msgstr "Addenden är inte tillåten för R_RISCV_GOT_HI20"
 #: elfnn-riscv.c:3033
 #, c-format
 msgid "%%X%%P: relocation %s against `%s' which may bind externally can not be used when making a shared object; recompile with -fPIC\n"
-msgstr "%%X%%P: omlokalisering %s mot `%s' som kan bindas externt kan inte användas "
-"när man skapar ett delat objekt; kompilera om med -fPIC\n"
+msgstr "%%X%%P: omlokalisering %s mot `%s' som kan bindas externt kan inte användas när man skapar ett delat objekt; kompilera om med -fPIC\n"
 
 #: elfnn-riscv.c:3114
 #, c-format
@@ -9794,8 +9596,7 @@ msgstr "varning: %pB: okänt RISCV ABI-objektattribut %d"
 #: elfnn-riscv.c:1157
 #, c-format
 msgid "%pB: relocation %s against non-absolute symbol `%s' can not be used in RV64 when making a shared object"
-msgstr "%pB: omlokalisering %s mot icke-absolut symbol `%s' kan inte användas i RV64 "
-"när man skapar ett delat objekt"
+msgstr "%pB: omlokalisering %s mot icke-absolut symbol `%s' kan inte användas i RV64 när man skapar ett delat objekt"
 
 #: peXXigen.c:161
 #, c-format
@@ -10083,8 +9884,7 @@ msgstr ""
 #: peXXigen.c:1760
 #, c-format
 msgid "\tInvalid Export Address Table rva (0x%lx) or entry count (0x%lx)\n"
-msgstr "\tOgiltig RVA (0x%lx) eller ogiltigt postantal (0x%lx) för "
-"exportadresstabellen\n"
+msgstr "\tOgiltig RVA (0x%lx) eller ogiltigt postantal (0x%lx) för exportadresstabellen\n"
 
 #: peXXigen.c:1779
 msgid "Forwarder RVA"
@@ -10111,8 +9911,7 @@ msgstr "\tOgiltig RVA (0x%lx) eller ogiltigt postantal (0x%lx) för namnpekartab
 #: peXXigen.c:1815
 #, c-format
 msgid "\tInvalid Ordinal Table rva (0x%lx) or entry count (0x%lx)\n"
-msgstr "\tOgiltig RVA (0x%lx) eller ogiltigt postantal (0x%lx) för "
-"ordningstalstabellen\n"
+msgstr "\tOgiltig RVA (0x%lx) eller ogiltigt postantal (0x%lx) för ordningstalstabellen\n"
 
 #: peXXigen.c:1829
 #, c-format
@@ -10150,8 +9949,7 @@ msgstr ""
 #: peXXigen.c:1908
 #, c-format
 msgid "Virtual size of .pdata section (%ld) larger than real size (%ld)\n"
-msgstr "Den virtuella storleken på .pdata-sektionen (%ld) är större än den verkliga "
-"storleken (%ld)\n"
+msgstr "Den virtuella storleken på .pdata-sektionen (%ld) är större än den verkliga storleken (%ld)\n"
 
 #: peXXigen.c:2062
 #, c-format
@@ -10180,8 +9978,7 @@ msgid ""
 "Virtual Address: %08lx Chunk size %ld (0x%lx) Number of fixups %ld\n"
 msgstr ""
 "\n"
-"Virtuell adress: %08lx Blockstorlek %ld (0x%lx) Antal adresskorrigeringar "
-"%ld\n"
+"Virtuell adress: %08lx Blockstorlek %ld (0x%lx) Antal adresskorrigeringar %ld\n"
 
 #: peXXigen.c:2234
 #, c-format
@@ -10264,8 +10061,7 @@ msgid ""
 "There is a debug directory, but the section containing it could not be found\n"
 msgstr ""
 "\n"
-"Det finns en felsökningskatalog, men sektionen som innehåller den kunde inte "
-"hittas\n"
+"Det finns en felsökningskatalog, men sektionen som innehåller den kunde inte hittas\n"
 
 #: peXXigen.c:2613
 #, c-format
@@ -10283,8 +10079,7 @@ msgid ""
 "Error: section %s contains the debug data starting address but it is too small\n"
 msgstr ""
 "\n"
-"Fel: sektionen %s innehåller startadressen för felsökningsdata men är för "
-"liten\n"
+"Fel: sektionen %s innehåller startadressen för felsökningsdata men är för liten\n"
 
 #: peXXigen.c:2625
 #, c-format
@@ -10315,8 +10110,7 @@ msgstr "(format %c%c%c%c signatur %s ålder %ld pdb %s)\n"
 #: peXXigen.c:2697
 #, c-format
 msgid "The debug directory size is not a multiple of the debug directory entry size\n"
-msgstr "Felsökningskatalogens storlek är inte en multipel av felsökningskatalogens "
-"poststorlek\n"
+msgstr "Felsökningskatalogens storlek är inte en multipel av felsökningskatalogens poststorlek\n"
 
 #. The MS dumpbin program reportedly ands with 0xff0f before
 #. printing the characteristics field.  Not sure why.  No reason to
@@ -10403,8 +10197,7 @@ msgstr "%pB: kan inte fylla i DataDirectory[%d]: %s är inte korrekt justerat"
 #: peXXigen.c:4694
 #, c-format
 msgid "%pB: unable to fill in DataDirectory[%d]: size too large for the containing section"
-msgstr "%pB: kan inte fylla i DataDirectory[%d]: storleken är för stor för den "
-"innehållande sektionen"
+msgstr "%pB: kan inte fylla i DataDirectory[%d]: storleken är för stor för den innehållande sektionen"
 
 #: peXXigen.c:4702
 #, c-format

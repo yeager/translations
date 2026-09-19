@@ -315,23 +315,21 @@
  
  #: src/global.c:592
  msgid "Search forward for a string or a regular expression"
-@@ -569,11 +569,13 @@
+@@ -569,11 +569,11 @@
  
  #: src/global.c:596
  msgid "Cut current line (or marked region) and store it in cutbuffer"
 -msgstr "Klipp ut den aktuella raden (eller markerat område (eller markerat område) och lagra den i urklippsbufferten"
-+msgstr "Klipp ut den aktuella raden (eller den markerade regionen) och lagra den i "
-+"urklippsbufferten"
++msgstr "Klipp ut den aktuella raden (eller den markerade regionen) och lagra den i urklippsbufferten"
  
  #: src/global.c:598
  msgid "Copy current line (or marked region) and store it in cutbuffer"
 -msgstr "Kopiera aktuell rad (eller markerat område) och lagra den i urklippsbufferten"
-+msgstr "Kopiera den aktuella raden (eller den markerade regionen) och lagra den i "
-+"urklippsbufferten"
++msgstr "Kopiera den aktuella raden (eller den markerade regionen) och lagra den i urklippsbufferten"
  
  #: src/global.c:600
  msgid "Paste the contents of cutbuffer at current cursor position"
-@@ -585,7 +587,7 @@
+@@ -585,7 +585,7 @@
  
  #: src/global.c:603
  msgid "Invoke the spell checker, if available"
@@ -340,7 +338,7 @@
  
  #: src/global.c:605
  msgid "Replace a string or a regular expression"
-@@ -597,15 +599,15 @@
+@@ -597,15 +597,15 @@
  
  #: src/global.c:608
  msgid "Go to the matching bracket"
@@ -359,7 +357,7 @@
  
  #: src/global.c:611
  msgid "Indent the current line (or marked lines)"
-@@ -621,7 +623,7 @@
+@@ -621,7 +621,7 @@
  
  #: src/global.c:614
  msgid "Redo the last undone operation"
@@ -368,7 +366,7 @@
  
  #: src/global.c:616
  msgid "Go back one character"
-@@ -649,11 +651,11 @@
+@@ -649,11 +649,11 @@
  
  #: src/global.c:622
  msgid "Go to beginning of current line"
@@ -382,7 +380,7 @@
  
  #: src/global.c:624
  msgid "Go to previous block of text"
-@@ -666,20 +668,20 @@
+@@ -666,20 +666,20 @@
  # Biten efter ; är konstig
  #: src/global.c:628
  msgid "Go to beginning of paragraph; then of previous paragraph"
@@ -407,7 +405,7 @@
  
  #: src/global.c:635
  msgid "Center the line where the cursor is"
-@@ -687,7 +689,7 @@
+@@ -687,7 +687,7 @@
  
  #: src/global.c:636
  msgid "Push the cursor line to the center, then top, then bottom"
@@ -416,7 +414,7 @@
  
  #: src/global.c:638
  msgid "Go one screenful up"
-@@ -707,19 +709,19 @@
+@@ -707,19 +707,19 @@
  
  #: src/global.c:643
  msgid "Scroll the viewport a tabsize to the left"
@@ -440,7 +438,7 @@
  
  #: src/global.c:653
  msgid "Switch to the previous file buffer"
-@@ -732,15 +734,15 @@
+@@ -732,15 +732,15 @@
  # Osäker
  #: src/global.c:656
  msgid "Insert the next keystroke verbatim"
@@ -459,7 +457,7 @@
  
  #: src/global.c:659
  msgid "Delete the character under the cursor"
-@@ -756,7 +758,7 @@
+@@ -756,7 +756,7 @@
  
  #: src/global.c:666
  msgid "Delete forward from cursor to next word start"
@@ -468,7 +466,7 @@
  
  #: src/global.c:668
  msgid "Cut from the cursor position to the end of the file"
-@@ -776,7 +778,7 @@
+@@ -776,7 +776,7 @@
  
  #: src/global.c:677
  msgid "Suspend the editor (return to the shell)"
@@ -477,7 +475,7 @@
  
  #: src/global.c:679
  msgid "Refresh (redraw) the current screen"
-@@ -784,15 +786,15 @@
+@@ -784,15 +784,15 @@
  
  #: src/global.c:681
  msgid "Try and complete the current word"
@@ -496,7 +494,7 @@
  
  #: src/global.c:688
  msgid "Search next occurrence backward"
-@@ -804,7 +806,7 @@
+@@ -804,7 +804,7 @@
  
  #: src/global.c:691
  msgid "Start/stop recording a macro"
@@ -505,7 +503,7 @@
  
  #: src/global.c:692
  msgid "Run the last recorded macro"
-@@ -816,7 +818,7 @@
+@@ -816,7 +816,7 @@
  
  #: src/global.c:694
  msgid "Jump backward to the nearest anchor"
@@ -514,7 +512,7 @@
  
  #: src/global.c:695
  msgid "Jump forward to the nearest anchor"
-@@ -824,11 +826,11 @@
+@@ -824,11 +824,11 @@
  
  #: src/global.c:697
  msgid "Toggle the case sensitivity of the search"
@@ -528,7 +526,7 @@
  
  #: src/global.c:699
  msgid "Toggle the use of regular expressions"
-@@ -836,11 +838,11 @@
+@@ -836,11 +836,11 @@
  
  #: src/global.c:701
  msgid "Recall the previous search/replace string"
@@ -542,7 +540,7 @@
  
  #: src/global.c:705
  msgid "Toggle the use of DOS format"
-@@ -848,11 +850,11 @@
+@@ -848,11 +848,11 @@
  
  #: src/global.c:706
  msgid "Toggle appending"
@@ -556,13 +554,12 @@
  
  #: src/global.c:708
  msgid "Toggle backing up of the original file"
-@@ -864,33 +866,34 @@
+@@ -864,33 +864,33 @@
  
  #: src/global.c:711
  msgid "Pipe the current buffer (or marked region) to the command"
 -msgstr "Skicka aktuell buffert (eller markerat område) till kommandot"
-+msgstr "Skicka den aktuella bufferten (eller markerade regionen) genom ett rör till "
-+"kommandot"
++msgstr "Skicka den aktuella bufferten (eller markerade regionen) genom ett rör till kommandot"
  
  #: src/global.c:713
  msgid "Recall the previous command"
@@ -598,7 +595,7 @@
  
  #: src/global.c:724
  msgid "Exit from the file browser"
-@@ -942,23 +945,23 @@
+@@ -942,23 +942,23 @@
  
  #: src/global.c:738
  msgid "Go to directory"
@@ -627,7 +624,7 @@
  
  #. TRANSLATORS: Try to keep the next thirteen strings at most 10 characters.
  #: src/global.c:765
-@@ -971,11 +974,11 @@
+@@ -971,11 +971,11 @@
  
  #: src/global.c:789
  msgid "Write Out"
@@ -641,7 +638,7 @@
  
  #: src/global.c:801 src/global.c:840
  msgid "Justify"
-@@ -1008,7 +1011,7 @@
+@@ -1008,7 +1008,7 @@
  #. TRANSLATORS: This refers to the position of the cursor.
  #: src/global.c:846
  msgid "Location"
@@ -650,7 +647,7 @@
  
  #: src/global.c:852 src/global.c:1019
  msgid "Go To Line"
-@@ -1025,7 +1028,7 @@
+@@ -1025,7 +1025,7 @@
  
  #: src/global.c:863
  msgid "Set Mark"
@@ -659,7 +656,7 @@
  
  #: src/global.c:865 src/global.c:1053
  msgid "Copy"
-@@ -1036,13 +1039,13 @@
+@@ -1036,13 +1036,13 @@
  #, fuzzy
  #| msgid " [Case Sensitive]"
  msgid "Case sensitive"
@@ -675,7 +672,7 @@
  
  #: src/global.c:874
  msgid "Backwards"
-@@ -1082,7 +1085,7 @@
+@@ -1082,7 +1082,7 @@
  
  #: src/global.c:921
  msgid "To Bracket"
@@ -684,7 +681,7 @@
  
  #. TRANSLATORS: This means move the cursor one character back.
  #: src/global.c:936 src/global.c:941
-@@ -1116,13 +1119,13 @@
+@@ -1116,13 +1116,13 @@
  #, fuzzy
  #| msgid "Scroll Up"
  msgid "Scroll Left"
@@ -700,7 +697,7 @@
  
  #. TRANSLATORS: Try to keep the next two strings at most 10 characters.
  #: src/global.c:968
-@@ -1155,7 +1158,7 @@
+@@ -1155,7 +1155,7 @@
  #, fuzzy
  #| msgid "End of Paragraph"
  msgid "Start of Paragraph"
@@ -709,7 +706,7 @@
  
  #: src/global.c:988
  msgid "End of Paragraph"
-@@ -1228,7 +1231,7 @@
+@@ -1228,7 +1228,7 @@
  # Osäker
  #: src/global.c:1045 src/global.c:1150
  msgid "Full Justify"
@@ -718,7 +715,7 @@
  
  #: src/global.c:1050
  msgid "Word Count"
-@@ -1244,7 +1247,7 @@
+@@ -1244,7 +1244,7 @@
  
  #: src/global.c:1066
  msgid "Unindent"
@@ -727,7 +724,7 @@
  
  #: src/global.c:1070
  msgid "Comment Lines"
-@@ -1265,7 +1268,7 @@
+@@ -1265,7 +1265,7 @@
  #. TRANSLATORS: This refers to deleting a line or marked region.
  #: src/global.c:1085
  msgid "Zap"
@@ -736,7 +733,7 @@
  
  #: src/global.c:1088
  msgid "Anchor"
-@@ -1286,7 +1289,7 @@
+@@ -1286,7 +1286,7 @@
  
  #: src/global.c:1100 src/global.c:1146
  msgid "Linter"
@@ -745,7 +742,7 @@
  
  #: src/global.c:1104 src/global.c:1154
  msgid "Formatter"
-@@ -1294,7 +1297,7 @@
+@@ -1294,7 +1294,7 @@
  
  #: src/global.c:1112 src/global.c:1187
  msgid "Suspend"
@@ -754,7 +751,7 @@
  
  #: src/global.c:1121
  msgid "Center"
-@@ -1302,7 +1305,7 @@
+@@ -1302,7 +1302,7 @@
  
  #: src/global.c:1123
  msgid "Cycle"
@@ -763,7 +760,7 @@
  
  #: src/global.c:1127
  msgid "Save"
-@@ -1310,7 +1313,7 @@
+@@ -1310,7 +1310,7 @@
  
  #: src/global.c:1137
  msgid "Pipe Text"
@@ -772,7 +769,7 @@
  
  #: src/global.c:1159
  msgid "DOS Format"
-@@ -1318,7 +1321,7 @@
+@@ -1318,7 +1318,7 @@
  
  #: src/global.c:1167
  msgid "Backup File"
@@ -781,7 +778,7 @@
  
  #: src/global.c:1170
  msgid "Append"
-@@ -1338,7 +1341,7 @@
+@@ -1338,7 +1338,7 @@
  
  #: src/global.c:1191
  msgid "Discard buffer"
@@ -790,7 +787,7 @@
  
  #. TRANSLATORS: This invokes the file browser.
  #: src/global.c:1198
-@@ -1364,17 +1367,17 @@
+@@ -1364,17 +1364,17 @@
  #. TRANSLATORS: The next two strings may be up to 37 characters each.
  #: src/global.c:1225
  msgid "Previous Linter message"
@@ -811,7 +808,7 @@
  
  #: src/global.c:1622
  msgid "Help mode"
-@@ -1382,11 +1385,11 @@
+@@ -1382,11 +1382,11 @@
  
  #: src/global.c:1624
  msgid "Constant cursor position display"
@@ -825,7 +822,7 @@
  
  #: src/global.c:1628
  msgid "Line numbering"
-@@ -1398,15 +1401,15 @@
+@@ -1398,15 +1398,15 @@
  
  #: src/global.c:1632
  msgid "Color syntax highlighting"
@@ -844,7 +841,7 @@
  
  #: src/global.c:1638
  msgid "Cut to end"
-@@ -1414,7 +1417,7 @@
+@@ -1414,7 +1414,7 @@
  
  #: src/global.c:1640
  msgid "Hard wrapping of overlong lines"
@@ -853,7 +850,7 @@
  
  #: src/global.c:1642
  msgid "Conversion of typed tabs to spaces"
-@@ -1432,11 +1435,14 @@
+@@ -1432,11 +1432,11 @@
  "\n"
  " The previous search string will be shown in brackets after the search prompt.  Hitting Enter without entering any text will perform the previous search.  "
  msgstr ""
@@ -864,40 +861,35 @@
 -" Den föregående söksträngen kommer att visas inom klamrar efter sökprompten. Att trycka Retur utan att ange någon text kommer att utföra den tidigare sökningen.  "
 +"Hjälp för sökkommandot\n"
 +"\n"
-+"Ange de ord eller tecken du vill söka efter och tryck sedan på Retur. Om den "
-+"angivna texten matchar något uppdateras skärmen så att den närmaste träffen "
-+"för söksträngen visas.\n"
++"Ange de ord eller tecken du vill söka efter och tryck sedan på Retur. Om den angivna texten matchar något uppdateras skärmen så att den närmaste träffen för söksträngen visas.\n"
 +"\n"
-+"Den föregående söksträngen visas inom hakparenteser efter sökprompten. Om du "
-+"trycker på Retur utan att ange någon text utförs den föregående sökningen.  "
++"Den föregående söksträngen visas inom hakparenteser efter sökprompten. Om du trycker på Retur utan att ange någon text utförs den föregående sökningen.  "
  
  #: src/help.c:63
  msgid ""
-@@ -1445,9 +1451,10 @@
+@@ -1445,9 +1445,9 @@
  " The following function keys are available in Search mode:\n"
  "\n"
  msgstr ""
 -"Om du har markerat text med markören och sedan sökt och ersatt, kommer endast träffar i den markerade texten att ersättas.\n"
 -"\n"
 -" Följande funktionstangenter finns tillgängliga i sökläget:\n"
-+"Om du har markerat text och sedan söker och ersätter, ersätts endast träffar "
-+"i den markerade texten.\n"
++"Om du har markerat text och sedan söker och ersätter, ersätts endast träffar i den markerade texten.\n"
 +"\n"
 +"Följande funktionstangenter är tillgängliga i sökläget:\n"
  "\n"
  
  #: src/help.c:69
-@@ -1459,7 +1466,8 @@
+@@ -1459,7 +1459,7 @@
  msgstr ""
  "=== Ersättning ===\n"
  "\n"
 -"Skriv tecknen som ska ersätta det du skrev vid föregående prompt och tryck på Retur.\n"
-+"Skriv tecknen som ska ersätta det du angav vid föregående prompt och tryck på "
-+"Retur.\n"
++"Skriv tecknen som ska ersätta det du angav vid föregående prompt och tryck på Retur.\n"
  "\n"
  
  #: src/help.c:72 src/help.c:136 src/help.c:159 src/help.c:175
-@@ -1479,11 +1487,12 @@
+@@ -1479,11 +1479,11 @@
  " The following function keys are available in Go To Line mode:\n"
  "\n"
  msgstr ""
@@ -908,14 +900,13 @@
 -" Följande funktionstangenter är tillgängliga i gå till rad-läge:\n"
 +"Hjälp för Gå till rad\n"
 +"\n"
-+"Ange det radnummer du vill gå till och tryck på Retur. Om det finns färre "
-+"rader text än talet du angav, kommer du till filens sista rad.\n"
++"Ange det radnummer du vill gå till och tryck på Retur. Om det finns färre rader text än talet du angav, kommer du till filens sista rad.\n"
 +"\n"
 +"Följande funktionstangenter är tillgängliga i Gå till rad-läget:\n"
  "\n"
  
  #: src/help.c:85
-@@ -1494,11 +1503,15 @@
+@@ -1494,11 +1494,11 @@
  "\n"
  " If you have compiled nano with multiple file buffer support, and enable multiple file buffers with the -F or --multibuffer command line flags, the Meta-F toggle, or a nanorc file, inserting a file will cause it to be loaded into a separate buffer (use Meta-< and > to switch between file buffers).  "
  msgstr ""
@@ -926,31 +917,26 @@
 -" Om du har kompilerat nano med stöd för flera samtidiga filbuffertar och aktiverar flera buffertar med kommandoradsflaggorna -F eller --multibuffer, kombinationen Meta-F eller en nanorc-fil, kommer att infoga en fil göra så att den läses in i en separat buffert (använd Meta-< och > för att växla mellan filbuffertar). "
 +"Hjälp för Infoga fil\n"
 +"\n"
-+"Ange namnet på en fil som ska infogas i den aktuella filbufferten vid "
-+"markörens aktuella position.\n"
++"Ange namnet på en fil som ska infogas i den aktuella filbufferten vid markörens aktuella position.\n"
 +"\n"
-+"Om du har kompilerat nano med stöd för flera filbuffertar och aktiverar flera "
-+"filbuffertar med kommandoradsflaggorna -F eller --multibuffer, växlingen "
-+"Meta-F eller en nanorc-fil, läses en infogad fil in i en separat buffert "
-+"(använd Meta-< och > för att växla mellan filbuffertar).  "
++"Om du har kompilerat nano med stöd för flera filbuffertar och aktiverar flera filbuffertar med kommandoradsflaggorna -F eller --multibuffer, växlingen Meta-F eller en nanorc-fil, läses en infogad fil in i en separat buffert (använd Meta-< och > för att växla mellan filbuffertar).  "
  
  #: src/help.c:94
  msgid ""
-@@ -1507,9 +1520,10 @@
+@@ -1507,9 +1507,9 @@
  " The following function keys are available in Insert File mode:\n"
  "\n"
  msgstr ""
 -"Om du behöver ytterligare en tom buffert, ange inget filnamn, eller ange ett ickeexisterande filnamn vid prompten och tryck Retur.\n"
 -"\n"
 -" Följande funktionstangenter är tillgängliga i infoga fil-läge:\n"
-+"Om du behöver en ny tom buffert ska du inte ange något filnamn, eller ange "
-+"ett filnamn som inte finns vid prompten och trycka på Retur.\n"
++"Om du behöver en ny tom buffert ska du inte ange något filnamn, eller ange ett filnamn som inte finns vid prompten och trycka på Retur.\n"
 +"\n"
 +"Följande funktionstangenter är tillgängliga i läget Infoga fil:\n"
  "\n"
  
  #: src/help.c:100
-@@ -1523,13 +1537,16 @@
+@@ -1523,13 +1523,13 @@
  " The following function keys are available in Write File mode:\n"
  "\n"
  msgstr ""
@@ -963,18 +949,15 @@
 -" Följande funktionstangenter är tillgängliga i skriv fil-läge:\n"
 +"Hjälp för Spara fil\n"
 +"\n"
-+"Ange det namn som du vill spara den aktuella filen under och tryck på Retur "
-+"för att spara filen.\n"
++"Ange det namn som du vill spara den aktuella filen under och tryck på Retur för att spara filen.\n"
 +"\n"
-+"Om du har markerat text ombeds du att endast spara den markerade delen till "
-+"en separat fil. För att minska risken att skriva över den aktuella filen med "
-+"bara en del av den, är det aktuella filnamnet inte förvalt i detta läge.\n"
++"Om du har markerat text ombeds du att endast spara den markerade delen till en separat fil. För att minska risken att skriva över den aktuella filen med bara en del av den, är det aktuella filnamnet inte förvalt i detta läge.\n"
 +"\n"
 +"Följande funktionstangenter är tillgängliga i läget Spara fil:\n"
  "\n"
  
  #: src/help.c:114
-@@ -1541,11 +1558,15 @@
+@@ -1541,11 +1541,11 @@
  " The following function keys are available in the file browser:\n"
  "\n"
  msgstr ""
@@ -985,17 +968,13 @@
 -" Följande funktionstangenter är tillgängliga i filbläddraren:\n"
 +"Hjälp för filbläddraren\n"
 +"\n"
-+"Filbläddraren används för att bläddra visuellt i katalogstrukturen och välja "
-+"en fil för läsning eller skrivning. Du kan använda piltangenterna eller Page "
-+"Up/Page Down för att bläddra bland filerna, samt S eller Retur för att välja "
-+"den markerade filen eller gå in i den markerade katalogen. Välj katalogen "
-+"”..” längst upp i fillistan för att gå upp en nivå.\n"
++"Filbläddraren används för att bläddra visuellt i katalogstrukturen och välja en fil för läsning eller skrivning. Du kan använda piltangenterna eller Page Up/Page Down för att bläddra bland filerna, samt S eller Retur för att välja den markerade filen eller gå in i den markerade katalogen. Välj katalogen ”..” längst upp i fillistan för att gå upp en nivå.\n"
 +"\n"
 +"Följande funktionstangenter är tillgängliga i filbläddraren:\n"
  "\n"
  
  #: src/help.c:127
-@@ -1557,11 +1578,14 @@
+@@ -1557,11 +1557,11 @@
  " The previous search string will be shown in brackets after the search prompt.  Hitting Enter without entering any text will perform the previous search.\n"
  "\n"
  msgstr ""
@@ -1006,16 +985,13 @@
 -" Den föregående söksträngen kommer att visas inom klamrar efter sökprompten. Att trycka Retur utan att ange någon text kommer att genomföra den tidigare sökningen.\n"
 +"Hjälp för filbläddrarens sökkommando\n"
 +"\n"
-+"Ange de ord eller tecken du vill söka efter och tryck sedan på Retur. Om den "
-+"angivna texten matchar något uppdateras skärmen så att den närmaste träffen "
-+"för söksträngen visas.\n"
++"Ange de ord eller tecken du vill söka efter och tryck sedan på Retur. Om den angivna texten matchar något uppdateras skärmen så att den närmaste träffen för söksträngen visas.\n"
 +"\n"
-+"Den föregående söksträngen visas inom hakparenteser efter sökprompten. Om du "
-+"trycker på Retur utan att ange någon text utförs den föregående sökningen.\n"
++"Den föregående söksträngen visas inom hakparenteser efter sökprompten. Om du trycker på Retur utan att ange någon text utförs den föregående sökningen.\n"
  "\n"
  
  #: src/help.c:140
-@@ -1575,13 +1599,15 @@
+@@ -1575,13 +1575,13 @@
  " The following function keys are available in Browser Go To Directory mode:\n"
  "\n"
  msgstr ""
@@ -1030,30 +1006,25 @@
 +"\n"
 +"Ange namnet på den katalog du vill bläddra till.\n"
 +"\n"
-+"Om tabulatorkomplettering inte har inaktiverats kan du använda "
-+"tabulatortangenten för att försöka komplettera katalognamnet automatiskt.\n"
++"Om tabulatorkomplettering inte har inaktiverats kan du använda tabulatortangenten för att försöka komplettera katalognamnet automatiskt.\n"
 +"\n"
-+"Följande funktionstangenter är tillgängliga i filbläddrarens Gå till "
-+"katalog-läge:\n"
++"Följande funktionstangenter är tillgängliga i filbläddrarens Gå till katalog-läge:\n"
  "\n"
  
  #: src/help.c:153
-@@ -1590,7 +1616,13 @@
+@@ -1590,7 +1590,10 @@
  "\n"
  " The spell checker has examined the spelling of all text in the current buffer or marked region.  An unknown word has been encountered -- it is highlighted and a replacement can now be edited.  After this you will be asked whether to replace each instance of that unknown word.\n"
  "\n"
 -msgstr ""
 +msgstr "=== Stavningskorrigering ===\n"
 +"\n"
-+"Stavningskontrollen har kontrollerat stavningen i all text i den aktuella "
-+"bufferten eller den markerade regionen. Ett okänt ord har påträffats -- det "
-+"är markerat och en ersättning kan nu redigeras. Därefter får du frågan om "
-+"varje förekomst av det okända ordet ska ersättas.\n"
++"Stavningskontrollen har kontrollerat stavningen i all text i den aktuella bufferten eller den markerade regionen. Ett okänt ord har påträffats -- det är markerat och en ersättning kan nu redigeras. Därefter får du frågan om varje förekomst av det okända ordet ska ersättas.\n"
 +"\n"
  
  #: src/help.c:166
  msgid ""
-@@ -1598,9 +1630,12 @@
+@@ -1598,9 +1601,9 @@
  "\n"
  " This mode allows you to insert the output of a command run by the shell into the current buffer (or into a new buffer).  If the command is preceded by '|' (the pipe symbol), the current contents of the buffer (or marked region) will be piped to the command.  "
  msgstr ""
@@ -1062,14 +1033,11 @@
 -" Detta läge låter dig infoga utdata från ett kommando som körs av ett skal i den aktuella bufferten (eller till ny buffert i flerbuffertläge). Om kommandot föregås av pip-symbolen ”|” skickas aktuellt innehåll i bufferten (eller markerat område) till kommandot. "
 +"Hjälp för Kör kommando\n"
 +"\n"
-+"I detta läge kan du infoga utdata från ett kommando som körs av skalet i den "
-+"aktuella bufferten (eller i en ny buffert). Om kommandot föregås av ”|” "
-+"(rörsymbolen), skickas det aktuella innehållet i bufferten (eller den "
-+"markerade regionen) genom ett rör till kommandot.  "
++"I detta läge kan du infoga utdata från ett kommando som körs av skalet i den aktuella bufferten (eller i en ny buffert). Om kommandot föregås av ”|” (rörsymbolen), skickas det aktuella innehållet i bufferten (eller den markerade regionen) genom ett rör till kommandot.  "
  
  #: src/help.c:172
  msgid ""
-@@ -1609,9 +1644,10 @@
+@@ -1609,9 +1612,9 @@
  " You can also pick one of four tools, or cut a large piece of the buffer, or put the editor to sleep.\n"
  "\n"
  msgstr ""
@@ -1078,12 +1046,11 @@
 -" Du kan också välja ett av fyra verktyg, eller att klippa ut en större del av bufferten, eller sätta redigeraren i viloläge.\n"
 +"Om du behöver ytterligare en tom buffert ska du inte ange något kommando.\n"
 +"\n"
-+"Du kan även välja ett av fyra verktyg, klippa ut en stor del av bufferten "
-+"eller pausa redigeraren.\n"
++"Du kan även välja ett av fyra verktyg, klippa ut en stor del av bufferten eller pausa redigeraren.\n"
  "\n"
  
  #: src/help.c:178
-@@ -1621,9 +1657,11 @@
+@@ -1621,9 +1624,9 @@
  " In this mode, the status bar shows an error message or warning, and the cursor is put at the corresponding position in the file.  With PageUp and PageDown you can switch to earlier and later messages.\n"
  "\n"
  msgstr ""
@@ -1092,13 +1059,11 @@
 -" I detta läge visar statusraden ett felmeddelande eller varning, och markören flyttas till motsvarande position i filen. Med upppil och nedpil kan du växla till tidigare och senare meddelanden.\n"
 +"=== Felkontroll ===\n"
 +"\n"
-+"I detta läge visar statusraden ett felmeddelande eller en varning, och "
-+"markören placeras vid motsvarande position i filen. Med Page Up och Page Down "
-+"kan du växla till tidigare och senare meddelanden.\n"
++"I detta läge visar statusraden ett felmeddelande eller en varning, och markören placeras vid motsvarande position i filen. Med Page Up och Page Down kan du växla till tidigare och senare meddelanden.\n"
  "\n"
  
  #: src/help.c:183
-@@ -1631,7 +1669,7 @@
+@@ -1631,7 +1634,7 @@
  " The following function keys are available in Linter mode:\n"
  "\n"
  msgstr ""
@@ -1107,7 +1072,7 @@
  "\n"
  
  #: src/help.c:190
-@@ -1640,9 +1678,14 @@
+@@ -1640,9 +1643,9 @@
  "\n"
  " The nano editor is designed to emulate the functionality and ease-of-use of the UW Pico text editor.  There are four main sections of the editor.  The top line shows the program version, the current filename being edited, and whether or not the file has been modified.  Next is the main editor window showing the file being edited.  The status line is the third line from the bottom and shows important messages.  "
  msgstr ""
@@ -1116,16 +1081,11 @@
 -" Textredigeraren nano är skapad för att emulera funktionaliteten och lättanvändheten hos textredigeraren UW Pico. Det finns fyra huvuddelar i redigeraren: Översta raden visar programmets versionsnummer, namnet på filen som redigeras och om filen har ändrats. Efter detta finns huvudfönstret som visar filen som redigeras. Statusraden är tredje raden från nederkanten och visar viktiga meddelanden.  "
 +"Hjälp för nano\n"
 +"\n"
-+"Textredigeraren nano är utformad för att efterlikna funktionerna och "
-+"användarvänligheten hos textredigeraren UW Pico. Redigeraren har fyra "
-+"huvuddelar. Den översta raden visar programversionen, namnet på den fil som "
-+"redigeras och om filen har ändrats. Därefter följer huvudredigeringsfönstret, "
-+"som visar filen som redigeras. Statusraden är den tredje raden från "
-+"nederkanten och visar viktiga meddelanden.  "
++"Textredigeraren nano är utformad för att efterlikna funktionerna och användarvänligheten hos textredigeraren UW Pico. Redigeraren har fyra huvuddelar. Den översta raden visar programversionen, namnet på den fil som redigeras och om filen har ändrats. Därefter följer huvudredigeringsfönstret, som visar filen som redigeras. Statusraden är den tredje raden från nederkanten och visar viktiga meddelanden.  "
  
  #: src/help.c:200
  msgid ""
-@@ -1650,16 +1693,22 @@
+@@ -1650,16 +1653,16 @@
  "\n"
  " Shortcuts are written as follows: Control-key sequences are notated with a '^' and can be entered either by using the Ctrl key or pressing the Esc key twice.  Meta-key sequences are notated with 'M-' and can be entered using either the Alt, Cmd, or Esc key, depending on your keyboard setup.  "
  msgstr ""
@@ -1134,10 +1094,7 @@
 -" Notationen för kortkommandon är som följer: Sekvenser med Control-tangent skrivs med ett taktecken (^) och kan anges genom att trycka ned antingen Ctrl-tangenten eller genom att trycka Escape-tangenten två gånger. Meta-key-sekvenser skrivs med metatecknet (M) och anges antingen med Esc-, Alt- eller Cmd-tangenten beroende på dina tangentbordsinställningar.  "
 +"De nedersta två raderna visar de vanligaste kortkommandona i redigeraren.\n"
 +"\n"
-+"Kortkommandon skrivs så här: Ctrl-tangentsekvenser anges med ”^” och kan "
-+"skrivas genom att använda Ctrl-tangenten eller trycka två gånger på "
-+"Esc-tangenten. Meta-tangentsekvenser anges med ”M-” och kan skrivas med Alt-, "
-+"Cmd- eller Esc-tangenten, beroende på tangentbordsinställningarna.  "
++"Kortkommandon skrivs så här: Ctrl-tangentsekvenser anges med ”^” och kan skrivas genom att använda Ctrl-tangenten eller trycka två gånger på Esc-tangenten. Meta-tangentsekvenser anges med ”M-” och kan skrivas med Alt-, Cmd- eller Esc-tangenten, beroende på tangentbordsinställningarna.  "
  
  #: src/help.c:207
  msgid ""
@@ -1145,14 +1102,11 @@
  "\n"
  msgstr ""
 -"Dessutom kan du genom att trycka på Escape två gånger och sedan ange ett tresiffrigt tal från 000 till 255 ange det tecken som har motsvarande ASCII-kod. Följande tangentkombinationer är tillgängliga i redigerarens huvudfönster. Alternativa tangenter visas inom parentes:\n"
-+"Du kan också skriva tecknet med motsvarande värde genom att trycka två gånger "
-+"på Esc och sedan ange ett tresiffrigt decimaltal från 000 till 255. Följande "
-+"tangenttryckningar är tillgängliga i huvudredigeringsfönstret. Alternativa "
-+"tangenter visas inom parentes:\n"
++"Du kan också skriva tecknet med motsvarande värde genom att trycka två gånger på Esc och sedan ange ett tresiffrigt decimaltal från 000 till 255. Följande tangenttryckningar är tillgängliga i huvudredigeringsfönstret. Alternativa tangenter visas inom parentes:\n"
  "\n"
  
  #: src/help.c:239 src/help.c:311
-@@ -1677,7 +1726,7 @@
+@@ -1677,7 +1680,7 @@
  "It is required for saving/loading search history or cursor positions.\n"
  msgstr ""
  "Kunde inte skapa katalogen %s: %s\n"
@@ -1161,7 +1115,7 @@
  
  #: src/history.c:245
  #, c-format
-@@ -1685,8 +1734,8 @@
+@@ -1685,8 +1688,8 @@
  "Path %s is not a directory and needs to be.\n"
  "Nano will be unable to load or save search history or cursor positions.\n"
  msgstr ""
@@ -1172,7 +1126,7 @@
  
  #: src/history.c:338 src/history.c:476
  #, c-format
-@@ -1698,11 +1747,11 @@
+@@ -1698,11 +1701,11 @@
  #, fuzzy, c-format
  #| msgid "Not possible"
  msgid "Not possible with '%s'"
@@ -1186,7 +1140,7 @@
  
  #: src/nano.c:208
  msgid "This function is disabled in restricted mode"
-@@ -1710,7 +1759,7 @@
+@@ -1710,7 +1713,7 @@
  
  #: src/nano.c:223
  msgid "To suspend, type ^T^Z"
@@ -1195,7 +1149,7 @@
  
  #: src/nano.c:312
  msgid "No file name"
-@@ -1718,7 +1767,7 @@
+@@ -1718,7 +1721,7 @@
  
  #: src/nano.c:314
  msgid "Save modified buffer? "
@@ -1204,7 +1158,7 @@
  
  #: src/nano.c:339
  #, c-format
-@@ -1744,7 +1793,7 @@
+@@ -1744,7 +1747,7 @@
  "Usage: nano [OPTIONS] [[+LINE[,COLUMN]] FILE]...\n"
  "\n"
  msgstr ""
@@ -1213,7 +1167,7 @@
  "\n"
  
  #. TRANSLATORS: The next two strings are part of the --help output.
-@@ -1755,8 +1804,8 @@
+@@ -1755,8 +1758,8 @@
  "To place the cursor on a specific line of a file, put the line number with\n"
  "a '+' before the filename.  The column number can be added after a comma.\n"
  msgstr ""
@@ -1224,7 +1178,7 @@
  
  #: src/nano.c:498
  #, c-format
-@@ -1764,7 +1813,7 @@
+@@ -1764,7 +1767,7 @@
  "When a filename is '-', nano reads data from standard input.\n"
  "\n"
  msgstr ""
@@ -1233,7 +1187,7 @@
  "\n"
  
  #. TRANSLATORS: The next three are column headers of the --help output.
-@@ -1784,7 +1833,7 @@
+@@ -1784,7 +1787,7 @@
  #. * for the --help output.  Try to keep them at most 40 characters.
  #: src/nano.c:503
  msgid "Enable smart home key"
@@ -1242,7 +1196,7 @@
  
  #: src/nano.c:505
  msgid "Save backups of existing files"
-@@ -1792,11 +1841,11 @@
+@@ -1792,11 +1795,11 @@
  
  #: src/nano.c:506
  msgid "-C <dir>"
@@ -1256,7 +1210,7 @@
  
  #: src/nano.c:507
  msgid "Directory for saving unique backup files"
-@@ -1804,15 +1853,15 @@
+@@ -1804,15 +1807,15 @@
  
  #: src/nano.c:510
  msgid "Use bold instead of reverse video text"
@@ -1275,7 +1229,7 @@
  
  #: src/nano.c:519
  msgid "Use (vim-style) lock files"
-@@ -1820,49 +1869,49 @@
+@@ -1820,49 +1823,49 @@
  
  #: src/nano.c:523
  msgid "Save & reload old search/replace strings"
@@ -1336,7 +1290,7 @@
  
  #: src/nano.c:548
  msgid "-Q <regex>"
-@@ -1876,7 +1925,7 @@
+@@ -1876,7 +1879,7 @@
  #. * like the > in: > quoted text.
  #: src/nano.c:551
  msgid "Regular expression to match quoting"
@@ -1345,7 +1299,7 @@
  
  #: src/nano.c:554
  msgid "Restrict access to the filesystem"
-@@ -1884,23 +1933,23 @@
+@@ -1884,23 +1887,23 @@
  
  #: src/nano.c:556
  msgid "Display overlong lines on multiple rows"
@@ -1374,7 +1328,7 @@
  
  #: src/nano.c:561
  msgid "Print version information and exit"
-@@ -1908,7 +1957,7 @@
+@@ -1908,7 +1911,7 @@
  
  #: src/nano.c:563
  msgid "Detect word boundaries more accurately"
@@ -1383,7 +1337,7 @@
  
  #: src/nano.c:564
  msgid "-X <string>"
-@@ -1920,7 +1969,7 @@
+@@ -1920,7 +1923,7 @@
  
  #: src/nano.c:565
  msgid "Which other characters are word parts"
@@ -1392,7 +1346,7 @@
  
  #: src/nano.c:568
  msgid "-Y <name>"
-@@ -1932,39 +1981,39 @@
+@@ -1932,39 +1935,39 @@
  
  #: src/nano.c:569
  msgid "Syntax definition to use for coloring"
@@ -1441,7 +1395,7 @@
  
  #: src/nano.c:585
  msgid "Use only this file for configuring nano"
-@@ -1972,7 +2021,7 @@
+@@ -1972,7 +1975,7 @@
  
  #: src/nano.c:588
  msgid "Show cursor in file browser & help text"
@@ -1450,7 +1404,7 @@
  
  #: src/nano.c:590
  msgid "Show this help text and exit"
-@@ -1980,15 +2029,15 @@
+@@ -1980,15 +1983,15 @@
  
  #: src/nano.c:592
  msgid "Automatically indent new lines"
@@ -1469,7 +1423,7 @@
  
  #: src/nano.c:597
  msgid "Show line numbers in front of the text"
-@@ -2004,15 +2053,15 @@
+@@ -2004,15 +2007,15 @@
  
  #: src/nano.c:606
  msgid "-o <dir>"
@@ -1488,7 +1442,7 @@
  
  #: src/nano.c:609
  msgid "Preserve XON (^Q) and XOFF (^S) keys"
-@@ -2020,19 +2069,19 @@
+@@ -2020,19 +2023,19 @@
  
  #: src/nano.c:611
  msgid "Show a position+portion indicator"
@@ -1512,7 +1466,7 @@
  
  #: src/nano.c:619
  msgid "-s <program>"
-@@ -2044,15 +2093,15 @@
+@@ -2044,15 +2047,15 @@
  
  #: src/nano.c:620
  msgid "Use this alternative spell checker"
@@ -1531,7 +1485,7 @@
  
  #: src/nano.c:626
  msgid "View mode (read-only)"
-@@ -2060,7 +2109,7 @@
+@@ -2060,7 +2063,7 @@
  
  #: src/nano.c:628
  msgid "Don't hard-wrap long lines [default]"
@@ -1540,7 +1494,7 @@
  
  #: src/nano.c:630
  msgid "Don't show the two help lines"
-@@ -2076,15 +2125,15 @@
+@@ -2076,15 +2079,15 @@
  
  #: src/nano.c:638
  msgid "Also try magic to determine syntax"
@@ -1559,7 +1513,7 @@
  
  #: src/nano.c:643
  msgid "Show a feedback bar at the bottom"
-@@ -2092,13 +2141,13 @@
+@@ -2092,13 +2095,13 @@
  
  #: src/nano.c:644
  msgid "Hide all bars, use whole terminal"
@@ -1575,7 +1529,7 @@
  
  #: src/nano.c:647
  msgid "Use better-known key bindings"
-@@ -2113,7 +2162,7 @@
+@@ -2113,7 +2116,7 @@
  #: src/nano.c:661
  #, c-format
  msgid " (C) %s the Free Software Foundation and various contributors\n"
@@ -1584,7 +1538,7 @@
  
  #: src/nano.c:663
  #, c-format
-@@ -2127,7 +2176,7 @@
+@@ -2127,7 +2130,7 @@
  
  #: src/nano.c:845
  msgid "Could not reconnect stdin to keyboard\n"
@@ -1593,7 +1547,7 @@
  
  #: src/nano.c:863
  #, c-format
-@@ -2137,21 +2186,21 @@
+@@ -2137,21 +2140,21 @@
  #: src/nano.c:872
  #, c-format
  msgid "Failed to open stdin: %s"
@@ -1619,7 +1573,7 @@
  
  #: src/nano.c:1120
  msgid "Current syntax determines Tab"
-@@ -2184,7 +2233,7 @@
+@@ -2184,7 +2187,7 @@
  #: src/nano.c:1300
  #, c-format
  msgid "Unbound key: F%i"
@@ -1628,7 +1582,7 @@
  
  #: src/nano.c:1303
  msgid "Unbound key"
-@@ -2206,7 +2255,7 @@
+@@ -2206,7 +2209,7 @@
  
  #: src/nano.c:1457
  msgid "Flawed paste"
@@ -1637,7 +1591,7 @@
  
  #: src/nano.c:1925 src/rcfile.c:1675
  #, c-format
-@@ -2221,7 +2270,7 @@
+@@ -2221,7 +2224,7 @@
  #: src/nano.c:2075 src/rcfile.c:1625
  #, c-format
  msgid "Requested fill size \"%s\" is invalid"
@@ -1646,7 +1600,7 @@
  
  #: src/nano.c:2150
  #, c-format
-@@ -2232,12 +2281,12 @@
+@@ -2232,12 +2235,12 @@
  #, fuzzy
  #| msgid "Standard input is not a terminal\n"
  msgid "Standard output is not a terminal\n"
@@ -1661,7 +1615,7 @@
  
  #: src/nano.c:2524
  #, c-format
-@@ -2254,23 +2303,23 @@
+@@ -2254,23 +2257,23 @@
  
  #: src/nano.c:2580
  msgid "Invalid number\n"
@@ -1690,7 +1644,7 @@
  
  #. TRANSLATORS: For the next three strings, specify the starting letters
  #. * of the translations for "Yes"/"No"/"All".  The first letter of each of
-@@ -2302,7 +2351,7 @@
+@@ -2302,7 +2305,7 @@
  #: src/rcfile.c:192
  #, c-format
  msgid "Mistakes in '%s'"
@@ -1699,7 +1653,7 @@
  
  #: src/rcfile.c:196
  msgid "Problems with history file"
-@@ -2316,15 +2365,15 @@
+@@ -2316,15 +2319,15 @@
  #: src/rcfile.c:567
  #, c-format
  msgid "Argument '%s' has an unterminated \""
@@ -1718,7 +1672,7 @@
  
  #: src/rcfile.c:628 src/search.c:45
  #, c-format
-@@ -2337,7 +2386,7 @@
+@@ -2337,7 +2340,7 @@
  
  #: src/rcfile.c:656
  msgid "Unpaired quote in syntax name"
@@ -1727,7 +1681,7 @@
  
  #: src/rcfile.c:668
  msgid "The \"none\" syntax is reserved"
-@@ -2345,16 +2394,16 @@
+@@ -2345,16 +2348,16 @@
  
  #: src/rcfile.c:699
  msgid "The \"default\" syntax does not accept extensions"
@@ -1747,7 +1701,7 @@
  
  #: src/rcfile.c:767 src/rcfile.c:774
  #, c-format
-@@ -2363,12 +2412,12 @@
+@@ -2363,12 +2366,12 @@
  
  #: src/rcfile.c:783
  msgid "Must specify a function to bind the key to"
@@ -1762,7 +1716,7 @@
  
  #: src/rcfile.c:800
  #, c-format
-@@ -2378,7 +2427,7 @@
+@@ -2378,7 +2381,7 @@
  #: src/rcfile.c:857
  #, c-format
  msgid "Function '%s' does not exist in menu '%s'"
@@ -1771,7 +1725,7 @@
  
  #: src/rcfile.c:867
  #, c-format
-@@ -2388,26 +2437,26 @@
+@@ -2388,26 +2391,26 @@
  #: src/rcfile.c:958 src/rcfile.c:1528
  #, c-format
  msgid "Command \"%s\" not understood"
@@ -1803,7 +1757,7 @@
  
  #: src/rcfile.c:1105 src/rcfile.c:1116
  msgid "An attribute requires a subsequent comma"
-@@ -2420,7 +2469,7 @@
+@@ -2420,7 +2423,7 @@
  #: src/rcfile.c:1171 src/rcfile.c:1271
  #, c-format
  msgid "Missing regex string after '%s' command"
@@ -1812,7 +1766,7 @@
  
  #: src/rcfile.c:1197
  msgid "\"start=\" requires a corresponding \"end=\""
-@@ -2434,7 +2483,7 @@
+@@ -2434,7 +2437,7 @@
  #: src/rcfile.c:1266
  #, c-format
  msgid "The \"default\" syntax does not accept '%s' regexes"
@@ -1821,7 +1775,7 @@
  
  #: src/rcfile.c:1313
  #, c-format
-@@ -2444,30 +2493,30 @@
+@@ -2444,30 +2447,30 @@
  #: src/rcfile.c:1323
  #, c-format
  msgid "Argument of '%s' lacks closing \""
@@ -1858,7 +1812,7 @@
  
  #: src/rcfile.c:1554
  #, c-format
-@@ -2477,16 +2526,16 @@
+@@ -2477,16 +2480,16 @@
  #: src/rcfile.c:1569
  #, c-format
  msgid "Cannot unset option \"%s\""
@@ -1878,7 +1832,7 @@
  
  #: src/rcfile.c:1633 src/rcfile.c:1651 src/rcfile.c:1656
  msgid "Non-blank characters required"
-@@ -2494,15 +2543,15 @@
+@@ -2494,15 +2497,15 @@
  
  #: src/rcfile.c:1635
  msgid "Even number of characters required"
@@ -1897,7 +1851,7 @@
  
  #: src/rcfile.c:1750
  msgid "I can't find my home directory!  Wah!"
-@@ -2519,7 +2568,7 @@
+@@ -2519,7 +2522,7 @@
  #, fuzzy
  #| msgid " [Regexp]"
  msgid " [Reg.exp.]"
@@ -1906,7 +1860,7 @@
  
  #: src/search.c:106
  msgid " (to replace) in selection"
-@@ -2538,7 +2587,7 @@
+@@ -2538,7 +2541,7 @@
  #: src/search.c:415
  #, c-format
  msgid "\"%.*s%s\" not found"
@@ -1915,7 +1869,7 @@
  
  #. TRANSLATORS: This is a prompt.
  #: src/search.c:601
-@@ -2560,7 +2609,7 @@
+@@ -2560,7 +2563,7 @@
  #. TRANSLATORS: This is a prompt.
  #: src/search.c:781
  msgid "Enter line number, column number"
@@ -1924,7 +1878,7 @@
  
  #: src/search.c:958
  msgid "Not a bracket"
-@@ -2584,7 +2633,7 @@
+@@ -2584,7 +2587,7 @@
  
  #: src/search.c:1042
  msgid "This is the only anchor"
@@ -1933,7 +1887,7 @@
  
  #: src/search.c:1044
  msgid "There are no anchors"
-@@ -2592,11 +2641,11 @@
+@@ -2592,11 +2595,11 @@
  
  #: src/text.c:43
  msgid "Mark Set"
@@ -1947,7 +1901,7 @@
  
  #: src/text.c:376
  msgid "Commenting is not supported for this file type"
-@@ -2604,7 +2653,7 @@
+@@ -2604,7 +2607,7 @@
  
  #: src/text.c:386
  msgid "Cannot comment past end of file"
@@ -1956,7 +1910,7 @@
  
  #: src/text.c:506
  msgid "Nothing to undo"
-@@ -2614,7 +2663,7 @@
+@@ -2614,7 +2617,7 @@
  #. * that are undone or redone.  They are all nouns, not verbs.
  #: src/text.c:517 src/text.c:577 src/text.c:702 src/text.c:762
  msgid "addition"
@@ -1965,7 +1919,7 @@
  
  #: src/text.c:525 src/text.c:714
  msgid "line break"
-@@ -2626,7 +2675,7 @@
+@@ -2626,7 +2629,7 @@
  
  #: src/text.c:552 src/text.c:730
  msgid "line join"
@@ -1974,7 +1928,7 @@
  
  #: src/text.c:569 src/text.c:746
  msgid "replacement"
-@@ -2634,16 +2683,16 @@
+@@ -2634,16 +2637,16 @@
  
  #: src/text.c:587 src/text.c:766
  msgid "erasure"
@@ -1994,7 +1948,7 @@
  
  #: src/text.c:604 src/text.c:779
  msgid "insertion"
-@@ -2655,7 +2704,7 @@
+@@ -2655,7 +2658,7 @@
  
  #: src/text.c:637 src/text.c:806
  msgid "unindent"
@@ -2003,7 +1957,7 @@
  
  #: src/text.c:642 src/text.c:811
  msgid "comment"
-@@ -2663,7 +2712,7 @@
+@@ -2663,7 +2666,7 @@
  
  #: src/text.c:646 src/text.c:815
  msgid "uncomment"
@@ -2012,7 +1966,7 @@
  
  #: src/text.c:654
  #, c-format
-@@ -2672,12 +2721,12 @@
+@@ -2672,12 +2675,12 @@
  
  #: src/text.c:689
  msgid "Nothing to redo"
@@ -2027,7 +1981,7 @@
  
  #. TRANSLATORS: This one goes with Undid/Redid messages.
  #: src/text.c:1782 src/text.c:2002
-@@ -2690,7 +2739,7 @@
+@@ -2690,7 +2693,7 @@
  
  #: src/text.c:2006
  msgid "Justified selection"
@@ -2036,7 +1990,7 @@
  
  #: src/text.c:2010
  msgid "Justified file"
-@@ -2706,7 +2755,7 @@
+@@ -2706,7 +2709,7 @@
  
  #: src/text.c:2146
  msgid "Invoking formatter..."
@@ -2045,7 +1999,7 @@
  
  #: src/text.c:2183 src/text.c:2534 src/text.c:2536 src/text.c:2538
  #: src/text.c:2775
-@@ -2717,7 +2766,7 @@
+@@ -2717,7 +2720,7 @@
  #: src/text.c:2187
  #, c-format
  msgid "Program '%s' complained"
@@ -2054,7 +2008,7 @@
  
  #: src/text.c:2195
  msgid "Nothing changed"
-@@ -2726,7 +2775,7 @@
+@@ -2726,7 +2729,7 @@
  #. TRANSLATORS: The next two go with Undid/Redid messages.
  #: src/text.c:2220
  msgid "spelling correction"
@@ -2063,7 +2017,7 @@
  
  #: src/text.c:2220
  msgid "formatting"
-@@ -2743,7 +2792,7 @@
+@@ -2743,7 +2746,7 @@
  #: src/text.c:2284
  #, c-format
  msgid "Unfindable word: %s"
@@ -2072,7 +2026,7 @@
  
  #. TRANSLATORS: This is a prompt.
  #: src/text.c:2303
-@@ -2761,21 +2810,21 @@
+@@ -2761,21 +2764,21 @@
  
  #: src/text.c:2454 src/text.c:2680
  msgid "Could not get size of pipe buffer"
@@ -2098,7 +2052,7 @@
  
  #: src/text.c:2642
  msgid "Invoking linter..."
-@@ -2784,12 +2833,12 @@
+@@ -2784,12 +2787,12 @@
  #: src/text.c:2790
  #, c-format
  msgid "Got 0 parsable lines from command: %s"
@@ -2113,7 +2067,7 @@
  
  #: src/text.c:2867
  msgid "No messages for this file"
-@@ -2797,15 +2846,15 @@
+@@ -2797,15 +2800,15 @@
  
  #: src/text.c:2917
  msgid "At first message"
@@ -2132,7 +2086,7 @@
  
  #: src/text.c:3046
  #, c-format
-@@ -2814,7 +2863,7 @@
+@@ -2814,7 +2817,7 @@
  
  #: src/text.c:3047
  msgid "In Selection:  "
@@ -2141,7 +2095,7 @@
  
  #: src/text.c:3048
  msgid "line"
-@@ -2837,7 +2886,7 @@
+@@ -2837,7 +2840,7 @@
  #. TRANSLATORS: Shown when the next keystroke will be inserted verbatim.
  #: src/text.c:3068
  msgid "Verbatim Input"
@@ -2150,7 +2104,7 @@
  
  #. TRANSLATORS: An invalid verbatim Unicode code was typed.
  #: src/text.c:3092
-@@ -2856,7 +2905,7 @@
+@@ -2856,7 +2859,7 @@
  #. TRANSLATORS: Shown when there are zero possible completions.
  #: src/text.c:3284
  msgid "No matches"
@@ -2159,7 +2113,7 @@
  
  #: src/utils.c:288 src/utils.c:299
  msgid "Nano is out of memory!\n"
-@@ -2868,11 +2917,11 @@
+@@ -2868,11 +2871,11 @@
  
  #: src/winio.c:108
  msgid "Stopped recording"
@@ -2173,7 +2127,7 @@
  
  #: src/winio.c:134
  msgid "Macro is empty"
-@@ -2884,7 +2933,7 @@
+@@ -2884,7 +2887,7 @@
  
  #: src/winio.c:262
  msgid "Too many errors from stdin\n"
@@ -2182,7 +2136,7 @@
  
  #. TRANSLATORS: This is shown while a six-digit hexadecimal
  #. * Unicode character code (%s) is being typed in.
-@@ -2896,7 +2945,7 @@
+@@ -2896,7 +2899,7 @@
  #. TRANSLATORS: The next five are "labels" in the title bar.
  #: src/winio.c:2037
  msgid "Linting --"
@@ -2191,7 +2145,7 @@
  
  #: src/winio.c:2043
  msgid "DIR:"
-@@ -2904,7 +2953,7 @@
+@@ -2904,7 +2907,7 @@
  
  #: src/winio.c:2063
  msgid "View"
@@ -2200,7 +2154,7 @@
  
  #: src/winio.c:2069 src/winio.c:2073
  msgid "Modified"
-@@ -2912,7 +2961,7 @@
+@@ -2912,7 +2915,7 @@
  
  #: src/winio.c:2071
  msgid "Restricted"
@@ -2209,7 +2163,7 @@
  
  #: src/winio.c:2176
  msgid "(nameless)"
-@@ -2935,7 +2984,7 @@
+@@ -2935,7 +2938,7 @@
  #: src/winio.c:3531
  #, c-format
  msgid "line %*zd/%zd (%2d%%), col %2zu/%2zu (%3d%%), char %*zu/%zu (%2d%%)"
@@ -2218,7 +2172,7 @@
  
  #: src/winio.c:3685
  msgid "The nano text editor"
-@@ -2947,11 +2996,11 @@
+@@ -2947,11 +2950,11 @@
  
  #: src/winio.c:3687
  msgid "Brought to you by:"
@@ -2232,7 +2186,7 @@
  
  #: src/winio.c:3689
  msgid "The Free Software Foundation"
-@@ -3014,7 +3063,7 @@
+@@ -3014,7 +3017,7 @@
  
  #: lib/regcomp.c:131
  msgid "No match"
@@ -2241,7 +2195,7 @@
  
  #: lib/regcomp.c:134
  msgid "Invalid regular expression"
-@@ -3022,7 +3071,7 @@
+@@ -3022,7 +3025,7 @@
  
  #: lib/regcomp.c:137
  msgid "Invalid collation character"
@@ -2250,7 +2204,7 @@
  
  #: lib/regcomp.c:140
  msgid "Invalid character class name"
-@@ -3030,7 +3079,7 @@
+@@ -3030,7 +3033,7 @@
  
  #: lib/regcomp.c:143
  msgid "Trailing backslash"
@@ -2259,7 +2213,7 @@
  
  #: lib/regcomp.c:146
  msgid "Invalid back reference"
-@@ -3050,7 +3099,7 @@
+@@ -3050,7 +3053,7 @@
  
  #: lib/regcomp.c:158
  msgid "Invalid content of \\{\\}"
@@ -2268,7 +2222,7 @@
  
  #: lib/regcomp.c:161
  msgid "Invalid range end"
-@@ -3058,7 +3107,7 @@
+@@ -3058,7 +3061,7 @@
  
  #: lib/regcomp.c:164
  msgid "Memory exhausted"
@@ -2277,7 +2231,7 @@
  
  #: lib/regcomp.c:167
  msgid "Invalid preceding regular expression"
-@@ -3066,11 +3115,11 @@
+@@ -3066,11 +3069,11 @@
  
  #: lib/regcomp.c:170
  msgid "Premature end of regular expression"
@@ -2291,7 +2245,7 @@
  
  #: lib/regcomp.c:176
  msgid "Unmatched ) or \\)"
-@@ -3078,7 +3127,7 @@
+@@ -3078,7 +3081,7 @@
  
  #: lib/regcomp.c:669
  msgid "No previous regular expression"

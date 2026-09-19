@@ -1,12 +1,11 @@
 --- a/cpplib-16.1-b20260222.sv.po
 +++ b/cpplib-16.1-b20260222.sv.po
-@@ -68,11 +68,12 @@
+@@ -68,11 +68,11 @@
  
  #: charset.cc:1629
  msgid "empty named universal character escape sequence; treating it as separate tokens"
 -msgstr "tomma namngivna universella teckenspecialsekvenser; behandlar det som separata symboler"
-+msgstr "tom namngiven universell teckenspecialsekvens; behandlar den som separata "
-+"symboler"
++msgstr "tom namngiven universell teckenspecialsekvens; behandlar den som separata symboler"
  
  #: charset.cc:1636
  msgid "empty named universal character escape sequence"
@@ -15,7 +14,7 @@
  
  #: charset.cc:1643
  msgid "named universal character escapes are only valid in C++23"
-@@ -172,7 +173,7 @@
+@@ -172,7 +172,7 @@
  
  #: charset.cc:1923 charset.cc:3180
  msgid "converting UCN to source character set"
@@ -24,7 +23,7 @@
  
  #: charset.cc:1930
  msgid "converting UCN to execution character set"
-@@ -224,7 +225,7 @@
+@@ -224,7 +224,7 @@
  #: charset.cc:2370 charset.cc:2380
  #, gcc-internal-format
  msgid "numeric escape sequence in unevaluated string: %<\\%c%>"
@@ -33,7 +32,7 @@
  
  #: charset.cc:2408
  #, gcc-internal-format
-@@ -256,11 +257,12 @@
+@@ -256,11 +256,11 @@
  
  #: charset.cc:2915
  msgid "character not encodable in a single execution character code unit"
@@ -43,12 +42,11 @@
  #: charset.cc:2920
  msgid "at least one character in a multi-character literal not encodable in a single execution character code unit"
 -msgstr "åtminstone ett tecken i en flerteckenslitteral är inte kodbart i en ensam körtidsteckenskodenhet"
-+msgstr "minst ett tecken i en flerteckenslitteral kan inte kodas med en enda kodenhet "
-+"i teckenuppsättningen för körning"
++msgstr "minst ett tecken i en flerteckenslitteral kan inte kodas med en enda kodenhet i teckenuppsättningen för körning"
  
  #: charset.cc:2938
  #, gcc-internal-format
-@@ -273,11 +275,11 @@
+@@ -273,11 +273,11 @@
  
  #: charset.cc:2945 charset.cc:3040
  msgid "character not encodable in a single code unit"
@@ -62,7 +60,7 @@
  
  #: charset.cc:3081
  msgid "empty character constant"
-@@ -317,7 +319,7 @@
+@@ -317,7 +317,7 @@
  #: directives.cc:423
  #, gcc-internal-format
  msgid "%<#%s%> is a deprecated GCC extension"
@@ -71,7 +69,7 @@
  
  #: directives.cc:436
  #, gcc-internal-format
-@@ -443,7 +445,7 @@
+@@ -443,7 +443,7 @@
  #: directives.cc:1277
  #, gcc-internal-format
  msgid "unknown embed parameter '%.*s%s%.*s'"
@@ -80,7 +78,7 @@
  
  #: directives.cc:1286
  #, gcc-internal-format
-@@ -506,7 +508,7 @@
+@@ -506,7 +506,7 @@
  #: directives.cc:1667
  #, gcc-internal-format
  msgid "file %qs linemarker ignored due to incorrect nesting"
@@ -89,7 +87,7 @@
  
  #: directives.cc:1745 directives.cc:1747 directives.cc:1749 directives.cc:2356
  #, gcc-internal-format, gfc-internal-format
-@@ -531,7 +533,7 @@
+@@ -531,7 +531,7 @@
  #: directives.cc:1863
  #, gcc-internal-format
  msgid "registering %qs as both a pragma and a pragma namespace"
@@ -98,7 +96,7 @@
  
  #: directives.cc:1866
  #, gcc-internal-format
-@@ -661,11 +663,11 @@
+@@ -661,11 +661,11 @@
  
  #: errors.cc:366
  msgid "stdout"
@@ -112,7 +110,7 @@
  
  #: expr.cc:721
  #, gcc-internal-format
-@@ -675,7 +677,7 @@
+@@ -675,7 +675,7 @@
  #: expr.cc:727
  #, gcc-internal-format
  msgid "invalid prefix %<0o%> for floating constant"
@@ -121,7 +119,7 @@
  
  #: expr.cc:740
  msgid "use of C++17 hexadecimal floating constant"
-@@ -826,7 +828,7 @@
+@@ -826,7 +826,7 @@
  
  #: expr.cc:1355
  msgid "assertions are a deprecated extension"
@@ -130,7 +128,7 @@
  
  #: expr.cc:1629
  #, gcc-internal-format, gfc-internal-format
-@@ -926,7 +928,7 @@
+@@ -926,7 +926,7 @@
  #: files.cc:1489
  #, gcc-internal-format
  msgid "%<gnu::base64%> parameter can be only used with %<\".\"%>"
@@ -139,7 +137,7 @@
  
  #: files.cc:1506
  #, gcc-internal-format
-@@ -935,12 +937,12 @@
+@@ -935,12 +935,12 @@
  
  #: files.cc:2262
  msgid "Multiple include guards may be useful for:\n"
@@ -154,7 +152,7 @@
  
  #: files.cc:2344
  #, gcc-internal-format
-@@ -950,7 +952,7 @@
+@@ -950,7 +950,7 @@
  #: init.cc:687
  #, gcc-internal-format
  msgid "%<cppchar_t%> must be an unsigned type"
@@ -163,7 +161,7 @@
  
  #: init.cc:691
  #, gcc-internal-format, gfc-internal-format
-@@ -988,7 +990,7 @@
+@@ -988,7 +988,7 @@
  
  #: lex.cc:1104
  msgid "backslash and newline separated by space"
@@ -172,7 +170,7 @@
  
  #: lex.cc:1109 lex.cc:1145
  msgid "trailing whitespace"
-@@ -1152,7 +1154,7 @@
+@@ -1152,7 +1152,7 @@
  
  #: lex.cc:2731
  msgid "invalid new-line in raw string delimiter"
@@ -181,7 +179,7 @@
  
  #: lex.cc:2735 lex.cc:5709
  #, gcc-internal-format, gfc-internal-format
-@@ -1211,7 +1213,7 @@
+@@ -1211,7 +1211,7 @@
  
  #: lex.cc:4087 lex.cc:4122
  msgid "C++ style comments are not allowed in ISO C90"
@@ -190,7 +188,7 @@
  
  #: lex.cc:4090 lex.cc:4101 lex.cc:4125
  msgid "(this will be reported only once per input file)"
-@@ -1271,7 +1273,7 @@
+@@ -1271,7 +1271,7 @@
  #: macro.cc:425
  #, gcc-internal-format
  msgid "operator %qs requires a header-name"
@@ -199,7 +197,7 @@
  
  #: macro.cc:454
  #, gcc-internal-format
-@@ -1300,7 +1302,7 @@
+@@ -1300,7 +1300,7 @@
  
  #: macro.cc:610
  msgid "could not determine file timestamp"
@@ -208,7 +206,7 @@
  
  #: macro.cc:701
  msgid "could not determine date and time"
-@@ -1319,7 +1321,7 @@
+@@ -1319,7 +1319,7 @@
  #: macro.cc:763
  #, gcc-internal-format
  msgid "%<__has_embed%> not supported in traditional C"
@@ -217,7 +215,7 @@
  
  #: macro.cc:1013
  #, gcc-internal-format
-@@ -1349,7 +1351,7 @@
+@@ -1349,7 +1349,7 @@
  #: macro.cc:1225
  #, gcc-internal-format
  msgid "macro %qs passed %u arguments, but takes just %u"
@@ -226,7 +224,7 @@
  
  #: macro.cc:1229
  #, gcc-internal-format
-@@ -1364,7 +1366,7 @@
+@@ -1364,7 +1364,7 @@
  #: macro.cc:1569
  #, gcc-internal-format
  msgid "function-like macro %qs must be used with arguments in traditional C"
@@ -235,7 +233,7 @@
  
  #: macro.cc:2404
  #, gcc-internal-format, gfc-internal-format
-@@ -1412,19 +1414,19 @@
+@@ -1412,19 +1412,19 @@
  
  #: macro.cc:3638
  msgid "anonymous variadic macros were introduced in C++11"
@@ -259,7 +257,7 @@
  
  #: macro.cc:3696
  #, gcc-internal-format
-@@ -1433,15 +1435,15 @@
+@@ -1433,15 +1433,15 @@
  
  #: macro.cc:3734
  msgid "ISO C++11 requires whitespace after the macro name"
@@ -278,7 +276,7 @@
  
  #: macro.cc:3812
  #, gcc-internal-format
-@@ -1474,7 +1476,7 @@
+@@ -1474,7 +1474,7 @@
  
  #: pch.cc:90 pch.cc:342 pch.cc:356 pch.cc:374 pch.cc:380 pch.cc:389 pch.cc:396
  msgid "while writing precompiled header"
@@ -287,7 +285,7 @@
  
  #: pch.cc:616
  #, gcc-internal-format
-@@ -1503,7 +1505,7 @@
+@@ -1503,7 +1503,7 @@
  
  #: pch.cc:722 pch.cc:968
  msgid "while reading precompiled header"

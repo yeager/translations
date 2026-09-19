@@ -662,7 +662,7 @@
  
  # Hittar inte ord för CITATION
  #: src/minicom.c:813
-@@ -1416,37 +1416,40 @@
+@@ -1416,37 +1416,37 @@
  "\n"
  "These options can also be specified in the MINICOM environment variable.\n"
  msgstr ""
@@ -687,16 +687,13 @@
 +"Användning: %s [OPTION]... [configuration]\n"
 +"Ett terminalprogram för Linux och andra Unix-liknande system.\n"
 +"\n"
-+"  -b, --baudrate         : ange överföringshastighet (ignorera värdet i "
-+"konfigurationen)\n"
-+"  -D, --device           : ange enhetsnamn (ignorera värdet i "
-+"konfigurationen)\n"
++"  -b, --baudrate         : ange överföringshastighet (ignorera värdet i konfigurationen)\n"
++"  -D, --device           : ange enhetsnamn (ignorera värdet i konfigurationen)\n"
 +"  -s, --setup            : öppna inställningsläge\n"
 +"  -o, --noinit           : initiera inte modem och låsfiler vid uppstart\n"
 +"  -m, --metakey          : använd Meta- eller Alt-tangent för kommandon\n"
 +"  -M, --metakey8         : använd 8-bitars Meta-tangent för kommandon\n"
-+"  -l, --ansi             : bokstavlig; anta att skärmen inte använder "
-+"IBM-PC-teckenuppsättning\n"
++"  -l, --ansi             : bokstavlig; anta att skärmen inte använder IBM-PC-teckenuppsättning\n"
 +"  -L, --iso              : anta inte att skärmen använder ISO8859\n"
 +"  -w, --wrap             : slå på radbrytning\n"
 +"  -H, --displayhex       : visa utdata hexadecimalt\n"
@@ -729,7 +726,7 @@
  
  #: src/minicom.c:915
  #, c-format
-@@ -1466,16 +1469,15 @@
+@@ -1466,16 +1466,15 @@
  "\n"
  "Report bugs to <minicom-devel@alioth-lists.debian.net>.\n"
  msgstr ""
@@ -749,7 +746,7 @@
  
  #: src/minicom.c:1195
  msgid "Timestamp OFF"
-@@ -1495,7 +1497,7 @@
+@@ -1495,7 +1494,7 @@
  
  #: src/minicom.c:1207
  msgid "Timestamp delta between lines"
@@ -758,7 +755,7 @@
  
  #: src/minicom.c:1372
  #, c-format
-@@ -1533,7 +1535,7 @@
+@@ -1533,7 +1532,7 @@
  #: src/minicom.c:1400
  #, c-format
  msgid "minicom: argument to -p must be a pty\n"
@@ -767,7 +764,7 @@
  
  #: src/minicom.c:1465
  #, c-format
-@@ -1585,7 +1587,7 @@
+@@ -1585,7 +1584,7 @@
  "\n"
  msgstr ""
  "\n"
@@ -776,7 +773,7 @@
  "\n"
  
  #: src/minicom.c:1752
-@@ -1614,7 +1616,7 @@
+@@ -1614,7 +1613,7 @@
  
  #: src/minicom.c:1781
  msgid "You are online. Really initialize?"
@@ -785,7 +782,7 @@
  
  #: src/minicom.c:1788
  msgid "Leave without reset?"
-@@ -1622,7 +1624,7 @@
+@@ -1622,7 +1621,7 @@
  
  #: src/minicom.c:1792 src/minicom.c:1810
  msgid "Save macros?"
@@ -794,7 +791,7 @@
  
  #: src/minicom.c:1802
  msgid "Leave Minicom?"
-@@ -1630,7 +1632,7 @@
+@@ -1630,7 +1629,7 @@
  
  #: src/minicom.c:1821
  msgid "Capture to which file? "
@@ -803,7 +800,7 @@
  
  #: src/minicom.c:1825
  msgid "Cannot open capture file"
-@@ -1650,7 +1652,7 @@
+@@ -1650,7 +1649,7 @@
  
  #: src/minicom.c:1917
  msgid "Quit without reset while online."
@@ -812,7 +809,7 @@
  
  #: src/rwconf.c:103 src/rwconf.c:136 src/rwconf.c:137
  msgid "No"
-@@ -1669,12 +1671,12 @@
+@@ -1669,12 +1668,12 @@
  #: src/rwconf.c:254
  #, c-format
  msgid "Memory allocation failed.\n"
@@ -827,7 +824,7 @@
  
  #: src/rwconf.c:324
  msgid "global"
-@@ -1706,7 +1708,7 @@
+@@ -1706,7 +1705,7 @@
  #: src/script.c:359
  #, c-format
  msgid "Input line %u too long, aborting (and fix me!)!\n"
@@ -836,7 +833,7 @@
  
  #: src/script.c:368 src/script.c:482
  #, c-format
-@@ -1740,7 +1742,7 @@
+@@ -1740,7 +1739,7 @@
  #: src/script.c:556
  #, c-format
  msgid "script \"%s\" line %d: nested expect%s\n"
@@ -845,7 +842,7 @@
  
  #: src/script.c:566
  msgid "(garbage after {)"
-@@ -1766,7 +1768,7 @@
+@@ -1766,7 +1765,7 @@
  #: src/script.c:756
  #, c-format
  msgid "script \"%s\": no return from gosub%s\n"
@@ -854,7 +851,7 @@
  
  #: src/script.c:799
  msgid "(missing var name)"
-@@ -1774,11 +1776,11 @@
+@@ -1774,11 +1773,11 @@
  
  #: src/script.c:816 src/script.c:832
  msgid "(expected variable)"
@@ -868,7 +865,7 @@
  
  #: src/script.c:879
  msgid "(unknown operator)"
-@@ -1792,13 +1794,13 @@
+@@ -1792,13 +1791,13 @@
  #: src/script.c:945
  #, c-format
  msgid "script \"%s\" line %d: break outside of expect%s\n"
@@ -884,7 +881,7 @@
  
  #: src/script.c:1034
  #, c-format
-@@ -1813,7 +1815,7 @@
+@@ -1813,7 +1812,7 @@
  #: src/script.c:1080
  #, c-format
  msgid "Usage: runscript <scriptfile> [logfile [homedir]]%s\n"
@@ -893,7 +890,7 @@
  
  #: src/updown.c:72
  #, c-format
-@@ -1834,11 +1836,11 @@
+@@ -1834,11 +1833,11 @@
  
  #: src/updown.c:280
  msgid "Please enter file names"
@@ -907,7 +904,7 @@
  
  #: src/updown.c:301
  #, c-format
-@@ -1855,17 +1857,17 @@
+@@ -1855,17 +1854,17 @@
  
  #: src/updown.c:305
  msgid "pipe() call failed"
@@ -928,7 +925,7 @@
  
  #: src/updown.c:492
  #, c-format
-@@ -1884,7 +1886,7 @@
+@@ -1884,7 +1883,7 @@
  
  #: src/updown.c:523
  msgid "No kermit path defined!"
@@ -937,7 +934,7 @@
  
  #: src/updown.c:642
  msgid "Same as last"
-@@ -1929,7 +1931,7 @@
+@@ -1929,7 +1928,7 @@
  #: src/window.c:1919
  #, c-format
  msgid "No cursor motion capability (cm)\n"

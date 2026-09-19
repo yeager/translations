@@ -118,8 +118,7 @@ msgstr "filoperander kan inte kombineras med -files0-from"
 #: find/ftsfind.c:578
 #, c-format
 msgid "when -ok or -okdir is in use, the option -files0-from cannot also read from standard input"
-msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från "
-"standardindata"
+msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från standardindata"
 
 #: find/ftsfind.c:580
 msgid "(standard input)"
@@ -133,9 +132,7 @@ msgstr "kan inte öppna %s för läsning"
 #: find/ftsfind.c:609
 #, c-format
 msgid "when -ok or -okdir is in use, the option -files0-from cannot also read from standard input, but the file (%s) used for -files0-from appears to refer to the same file as the standard input"
-msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från "
-"standardindata, men filen (%s) som används för -files0-from tycks vara samma "
-"fil som standardindata"
+msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från standardindata, men filen (%s) som används för -files0-from tycks vara samma fil som standardindata"
 
 #: find/ftsfind.c:651
 #, c-format
@@ -165,29 +162,22 @@ msgstr "Biblioteksfunktionen atexit misslyckades"
 #: find/parser.c:440
 #, c-format
 msgid "The -delete action automatically turns on -depth, but -prune does nothing when -depth is in effect.  If you want to carry on anyway, just explicitly use the -depth option."
-msgstr "Åtgärden -delete aktiverar automatiskt -depth, men -prune gör ingenting när "
-"-depth är aktivt. Om du ändå vill fortsätta använder du uttryckligen flaggan "
-"-depth."
+msgstr "Åtgärden -delete aktiverar automatiskt -depth, men -prune gör ingenting när -depth är aktivt. Om du ändå vill fortsätta använder du uttryckligen flaggan -depth."
 
 #: find/parser.c:598
 #, c-format
 msgid "warning: you have specified the global option %s after the argument %s, but global options are not positional, i.e., %s affects tests specified before it as well as those specified after it.  Please specify global options before other arguments."
-msgstr "varning: du har angett det globala alternativet %s efter argumentet %s, men "
-"globala alternativ är inte positionsberoende, det vill säga %s påverkar både "
-"tester före och efter alternativet. Ange globala alternativ före andra "
-"argument."
+msgstr "varning: du har angett det globala alternativet %s efter argumentet %s, men globala alternativ är inte positionsberoende, det vill säga %s påverkar både tester före och efter alternativet. Ange globala alternativ före andra argument."
 
 #: find/parser.c:658
 #, c-format
 msgid "warning: operator '%s' (with leading dash '-') will no longer be accepted in future findutils releases!"
-msgstr "varning: operatorn ”%s” (med inledande bindestreck ”-”) kommer inte längre "
-"att godtas i framtida versioner av findutils!"
+msgstr "varning: operatorn ”%s” (med inledande bindestreck ”-”) kommer inte längre att godtas i framtida versioner av findutils!"
 
 #: find/parser.c:915
 #, c-format
 msgid "warning: the -d option is deprecated; please use -depth instead, because the latter is a POSIX-compliant feature."
-msgstr "varning: flaggan -d är föråldrad; använd -depth i stället eftersom det senare "
-"är POSIX-kompatibelt."
+msgstr "varning: flaggan -d är föråldrad; använd -depth i stället eftersom det senare är POSIX-kompatibelt."
 
 #: find/parser.c:1159
 #, c-format
@@ -202,8 +192,7 @@ msgstr "grundläggande kontroll av biblioteksfunktionen fnmatch() misslyckades."
 #: find/parser.c:1247
 #, c-format
 msgid "warning: %s matches against basenames only, but the given pattern contains a directory separator (%s), thus the expression will evaluate to false all the time.  Did you mean %s?"
-msgstr "varning: %s matchar bara mot basnamn, men det angivna mönstret innehåller en "
-"katalogavgränsare (%s), så uttrycket blir alltid falskt. Menade du %s?"
+msgstr "varning: %s matchar bara mot basnamn, men det angivna mönstret innehåller en katalogavgränsare (%s), så uttrycket blir alltid falskt. Menade du %s?"
 
 #: find/parser.c:1361
 #, c-format
@@ -253,10 +242,7 @@ msgstr "ogiltiga filrättigheter %s"
 #: find/parser.c:1864
 #, c-format
 msgid "warning: you have specified a mode pattern %s (which is equivalent to /000). The meaning of -perm /000 was changed in 2007 to be consistent with -perm -000; that is, while it used to match no files, it now matches all files. This warning message will be removed in a future findutils release."
-msgstr "varning: du har angett rättighetsmönstret %s (som motsvarar /000). Betydelsen "
-"av -perm /000 ändrades 2007 för att stämma med -perm -000: det matchade "
-"tidigare inga filer men matchar nu alla filer. Varningsmeddelandet tas bort i "
-"en framtida version av findutils."
+msgstr "varning: du har angett rättighetsmönstret %s (som motsvarar /000). Betydelsen av -perm /000 ändrades 2007 för att stämma med -perm -000: det matchade tidigare inga filer men matchar nu alla filer. Varningsmeddelandet tas bort i en framtida version av findutils."
 
 #: find/parser.c:2039
 #, c-format
@@ -316,8 +302,7 @@ msgstr "%s %c stödjs inte eftersom FIFO:er inte stödjs på plattformen där fi
 #: find/parser.c:2636
 #, c-format
 msgid "%s %c is not supported because named sockets are not supported on the platform find was compiled on."
-msgstr "%s %c stöds inte eftersom socketar inte stöds på plattformen där find "
-"kompilerades."
+msgstr "%s %c stöds inte eftersom socketar inte stöds på plattformen där find kompilerades."
 
 #: find/parser.c:2652
 #, c-format
@@ -347,15 +332,12 @@ msgstr "Den sista filtypen saknas i listargumentet till %s; listan slutar på �
 #: find/parser.c:2752
 #, c-format
 msgid "The current directory is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove the current directory from your $PATH (that is, remove \".\", doubled colons, or leading or trailing colons)"
-msgstr "Den aktuella katalogen ingår i miljövariabeln PATH, vilket är osäkert "
-"tillsammans med åtgärden %s i find. Ta bort den aktuella katalogen från $PATH "
-"(ta bort ”.”, dubbla kolon eller inledande och avslutande kolon)"
+msgstr "Den aktuella katalogen ingår i miljövariabeln PATH, vilket är osäkert tillsammans med åtgärden %s i find. Ta bort den aktuella katalogen från $PATH (ta bort ”.”, dubbla kolon eller inledande och avslutande kolon)"
 
 #: find/parser.c:2764
 #, c-format
 msgid "The relative path %s is included in the PATH environment variable, which is insecure in combination with the %s action of find.  Please remove that entry from $PATH"
-msgstr "Den relativa sökvägen %s ingår i miljövariabeln PATH, vilket är osäkert "
-"tillsammans med åtgärden %s i find. Ta bort den posten från $PATH"
+msgstr "Den relativa sökvägen %s ingår i miljövariabeln PATH, vilket är osäkert tillsammans med åtgärden %s i find. Ta bort den posten från $PATH"
 
 #: find/parser.c:2883
 #, c-format
@@ -493,8 +475,7 @@ msgstr "ogiltigt uttryck; du har för många ”)”"
 #: find/tree.c:181
 #, c-format
 msgid "invalid expression; expected to find a ')' but didn't see one. Perhaps you need an extra predicate after '%s'"
-msgstr "ogiltigt uttryck; förväntade en ”)”, men hittade ingen. Kanske behövs ett "
-"extra predikat efter ”%s”"
+msgstr "ogiltigt uttryck; förväntade en ”)”, men hittade ingen. Kanske behövs ett extra predikat efter ”%s”"
 
 #: find/tree.c:196
 #, c-format
@@ -529,8 +510,7 @@ msgstr "misslyckades med att sortera costlookup-vektorn"
 #: find/tree.c:1114
 #, c-format
 msgid "warning: there is no entry in the predicate evaluation cost table for predicate %s; please report this as a bug"
-msgstr "varning: det saknas en post i tabellen över kostnader för predikatutvärdering "
-"för predikatet %s; rapportera detta som ett fel"
+msgstr "varning: det saknas en post i tabellen över kostnader för predikatutvärdering för predikatet %s; rapportera detta som ett fel"
 
 #: find/tree.c:1288
 #, c-format
@@ -594,8 +574,7 @@ msgstr "Prova ”%s --help” för mer information.\n"
 #: find/util.c:167
 #, c-format
 msgid "Usage: %s [-H] [-L] [-P] [-Olevel] [-D debugopts] [path...] [expression]\n"
-msgstr "Användning: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsalternativ] [sökväg …] "
-"[uttryck]\n"
+msgstr "Användning: %s [-H] [-L] [-P] [-Onivå] [-D felsökningsalternativ] [sökväg …] [uttryck]\n"
 
 #: find/util.c:171
 msgid ""
@@ -768,8 +747,7 @@ msgstr "Ogiltig optimeringsnivå %s"
 #: find/util.c:911
 #, c-format
 msgid "Optimisation level %lu is too high.  If you want to find files very quickly, consider using GNU locate."
-msgstr "Optimeringsnivån %lu är för hög. Om du vill hitta filer mycket snabbt kan du "
-"överväga att använda GNU locate."
+msgstr "Optimeringsnivån %lu är för hög. Om du vill hitta filer mycket snabbt kan du överväga att använda GNU locate."
 
 #: find/util.c:957
 #, c-format
@@ -791,8 +769,7 @@ msgid ""
 "you have no web access, by sending email to <%s>.\n"
 msgstr ""
 "Se även dokumentationen på %s.\n"
-"Fel i programmet ”%s” kan rapporteras och följas via felrapporteringssidan %s "
-"på\n"
+"Fel i programmet ”%s” kan rapporteras och följas via felrapporteringssidan %s på\n"
 "%s eller, om\n"
 "du saknar tillgång till webben, genom e-post till <%s>.\n"
 "Skicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>.\n"
@@ -825,9 +802,7 @@ msgstr "Miljövariabeln %s är inte satt till ett giltigt decimaltal"
 #: lib/fdleak.c:390
 #, c-format
 msgid "File descriptor %d will leak; please report this as a bug, remembering to include a detailed description of the simplest way to reproduce this problem."
-msgstr "Filbeskrivaren %d kommer att läcka; rapportera detta som ett fel och "
-"inkludera en detaljerad beskrivning av det enklaste sättet att återskapa "
-"problemet."
+msgstr "Filbeskrivaren %d kommer att läcka; rapportera detta som ett fel och inkludera en detaljerad beskrivning av det enklaste sättet att återskapa problemet."
 
 #. TRANSLATORS: This is a proper name.
 #: lib/findutils-version.c:50
@@ -998,8 +973,7 @@ msgstr "Komprimeringsförhållandet är odefinierat\n"
 #: locate/locate.c:956
 #, c-format
 msgid "locate database %s looks like an slocate database but it seems to have security level %c, which GNU findutils does not currently support"
-msgstr "locate-databasen %s ser ut som en slocate-databas, men den verkar ha "
-"säkerhetsnivån %c, som GNU findutils inte stöder."
+msgstr "locate-databasen %s ser ut som en slocate-databas, men den verkar ha säkerhetsnivån %c, som GNU findutils inte stöder."
 
 #: locate/locate.c:1078
 #, c-format
@@ -1009,8 +983,7 @@ msgstr "%s är en slocate-databas med säkerhetsnivån %d som inte stöds; hoppa
 #: locate/locate.c:1095
 #, c-format
 msgid "You specified the -E option, but that option cannot be used with slocate-format databases with a non-zero security level.  No results will be generated for this database.\n"
-msgstr "Du angav flaggan -E, men det kan inte användas med slocate-databaser med "
-"säkerhetsnivå skild från noll. Inga resultat genereras för databasen.\n"
+msgstr "Du angav flaggan -E, men det kan inte användas med slocate-databaser med säkerhetsnivå skild från noll. Inga resultat genereras för databasen.\n"
 
 #: locate/locate.c:1106
 #, c-format
@@ -1118,26 +1091,22 @@ msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare."
 #: xargs/xargs.c:271
 #, c-format
 msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lx."
-msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; "
-"teckenvärden får inte överstiga %lx."
+msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; teckenvärden får inte överstiga %lx."
 
 #: xargs/xargs.c:278
 #, c-format
 msgid "Invalid escape sequence %s in input delimiter specification; character values must not exceed %lo."
-msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; "
-"teckenvärden får inte överstiga %lo."
+msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; teckenvärden får inte överstiga %lo."
 
 #: xargs/xargs.c:288
 #, c-format
 msgid "Invalid escape sequence %s in input delimiter specification; trailing characters %s not recognised."
-msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; "
-"efterföljande tecken %s känns inte igen."
+msgstr "Ogiltig kontrollsekvens %s i specifikationen av indataavgränsare; efterföljande tecken %s känns inte igen."
 
 #: xargs/xargs.c:334
 #, c-format
 msgid "Invalid input delimiter specification %s: the delimiter must be either a single character or an escape sequence starting with \\."
-msgstr "Ogiltig specifikation av indataavgränsare %s: avgränsaren måste vara ett "
-"enstaka tecken eller en kontrollsekvens som börjar med \\."
+msgstr "Ogiltig specifikation av indataavgränsare %s: avgränsaren måste vara ett enstaka tecken eller en kontrollsekvens som börjar med \\."
 
 #: xargs/xargs.c:353
 #, c-format
@@ -1147,8 +1116,7 @@ msgstr "miljön är för stor för exec"
 #: xargs/xargs.c:390
 #, c-format
 msgid "warning: options %s and %s are mutually exclusive, ignoring previous %s value"
-msgstr "varning: alternativen %s och %s kan inte användas tillsammans; ignorerar "
-"tidigare värde för %s"
+msgstr "varning: alternativen %s och %s kan inte användas tillsammans; ignorerar tidigare värde för %s"
 
 #: xargs/xargs.c:635
 #, c-format
@@ -1227,8 +1195,7 @@ msgid ""
 "Execution of xargs will continue now, and it will try to read its input and run commands; if this is not what you wanted to happen, please type the end-of-file keystroke.\n"
 msgstr ""
 "\n"
-"Xargs fortsätter nu att försöka läsa indata och köra kommandon. Om detta inte "
-"är avsikten trycker du på tangentkombinationen för filslut.\n"
+"Xargs fortsätter nu att försöka läsa indata och köra kommandon. Om detta inte är avsikten trycker du på tangentkombinationen för filslut.\n"
 
 #: xargs/xargs.c:814
 #, c-format
@@ -1238,8 +1205,7 @@ msgstr "Varning: %s kommer att köras minst en gång.  Om du inte vill att det h
 #: xargs/xargs.c:946 xargs/xargs.c:1042
 #, c-format
 msgid "unmatched %s quote; by default quotes are special to xargs unless you use the -0 option"
-msgstr "oavslutat %s-citattecken; citattecken är normalt specialtecken för xargs om "
-"inte flaggan -0 används"
+msgstr "oavslutat %s-citattecken; citattecken är normalt specialtecken för xargs om inte flaggan -0 används"
 
 #: xargs/xargs.c:948 xargs/xargs.c:1044
 msgid "double"
@@ -1252,8 +1218,7 @@ msgstr "enkelt"
 #: xargs/xargs.c:1063
 #, c-format
 msgid "WARNING: a NUL character occurred in the input.  It cannot be passed through in the argument list.  Did you mean to use the --null option?"
-msgstr "VARNING: ett NUL-tecken förekom i indata. Det kan inte skickas vidare i "
-"argumentlistan. Menade du att använda flaggan --null?"
+msgstr "VARNING: ett NUL-tecken förekom i indata. Det kan inte skickas vidare i argumentlistan. Menade du att använda flaggan --null?"
 
 #: xargs/xargs.c:1073 xargs/xargs.c:1140
 #, c-format
@@ -1307,8 +1272,7 @@ msgstr "misslyckades med att köra kommandot %s"
 #: xargs/xargs.c:1435
 #, c-format
 msgid "errno-buffer safe_read failed in xargs_do_exec (this is probably a bug, please report it)"
-msgstr "safe_read av errno-bufferten misslyckades i xargs_do_exec (detta är "
-"förmodligen ett fel; rapportera det)"
+msgstr "safe_read av errno-bufferten misslyckades i xargs_do_exec (detta är förmodligen ett fel; rapportera det)"
 
 #: xargs/xargs.c:1566
 #, c-format

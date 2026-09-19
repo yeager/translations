@@ -24,19 +24,18 @@
  
  #: src/grip.c:187
  msgid "Grip"
-@@ -107,8 +107,9 @@
+@@ -107,8 +107,8 @@
  "You will need to re-configure Grip.\n"
  "Your old config file has been saved with -old appended."
  msgstr ""
 -"Din konfigurationsfil är föråldrad - återställs till standardvärden.\n"
 -"Du kommer att behöva konfigurera Grip på nytt.\n"
-+"Din konfigurationsfil är föråldrad – återställs till "
-+"standardinställningarna.\n"
++"Din konfigurationsfil är föråldrad – återställs till standardinställningarna.\n"
 +"Du behöver konfigurera Grip på nytt.\n"
  "Din gamla konfigurationsfil har sparats med -old tillagt."
  
  #: src/grip.c:868
-@@ -126,7 +127,7 @@
+@@ -126,7 +126,7 @@
  
  #: src/gripcfg.c:102
  msgid "CDRom device"
@@ -45,7 +44,7 @@
  
  #: src/gripcfg.c:107
  msgid "Don't interrupt playback on exit/startup"
-@@ -134,11 +135,11 @@
+@@ -134,11 +134,11 @@
  
  #: src/gripcfg.c:111
  msgid "Rewind when stopped"
@@ -59,7 +58,7 @@
  
  #: src/gripcfg.c:121
  msgid "Auto-play on disc insert"
-@@ -150,15 +151,15 @@
+@@ -150,15 +150,15 @@
  
  #: src/gripcfg.c:131
  msgid "Work around faulty eject"
@@ -78,7 +77,7 @@
  
  #: src/gripcfg.c:148
  msgid "CD"
-@@ -170,7 +171,7 @@
+@@ -170,7 +170,7 @@
  
  #: src/gripcfg.c:208
  msgid "Ripping executable"
@@ -87,7 +86,7 @@
  
  #: src/gripcfg.c:213
  msgid "Rip command-line"
-@@ -226,7 +227,7 @@
+@@ -226,7 +226,7 @@
  
  #: src/gripcfg.c:295
  msgid "Auto-rip on insert"
@@ -96,7 +95,7 @@
  
  #: src/gripcfg.c:299
  msgid "Beep after rip"
-@@ -254,7 +255,7 @@
+@@ -254,7 +254,7 @@
  
  #: src/gripcfg.c:335
  msgid "Wav filter command"
@@ -105,7 +104,7 @@
  
  #: src/gripcfg.c:340
  msgid "Disc filter command"
-@@ -302,7 +303,7 @@
+@@ -302,7 +302,7 @@
  
  #: src/gripcfg.c:450
  msgid "Insert info into SQL database"
@@ -114,7 +113,7 @@
  
  #: src/gripcfg.c:454
  msgid "Create .m3u files"
-@@ -342,11 +343,11 @@
+@@ -342,11 +342,11 @@
  
  #: src/gripcfg.c:509
  msgid "Add ID3 tags to encoded files"
@@ -128,7 +127,7 @@
  
  #: src/gripcfg.c:521
  msgid "Only tag files ending in '.mp3'"
-@@ -386,15 +387,15 @@
+@@ -386,15 +386,15 @@
  
  #: src/gripcfg.c:601
  msgid "DB Submit email"
@@ -147,7 +146,7 @@
  
  #: src/gripcfg.c:616
  msgid "Perform disc lookups automatically"
-@@ -442,7 +443,7 @@
+@@ -442,7 +442,7 @@
  
  #: src/gripcfg.c:684
  msgid "Do not lowercase filenames"
@@ -156,7 +155,7 @@
  
  #: src/gripcfg.c:689
  msgid "Allow high bits in filenames"
-@@ -458,7 +459,7 @@
+@@ -458,7 +458,7 @@
  
  #: src/gripcfg.c:704
  msgid "Write m3u files using non-posix compliant '\\'s"
@@ -165,7 +164,7 @@
  
  #: src/gripcfg.c:709
  msgid ""
-@@ -516,7 +517,7 @@
+@@ -516,7 +516,7 @@
  
  #: src/cdplay.c:90
  msgid "Cannot do lookup while ripping."
@@ -174,7 +173,7 @@
  
  #: src/cdplay.c:127
  msgid "Unknown Disc"
-@@ -597,7 +598,7 @@
+@@ -597,7 +597,7 @@
  
  #: src/cdplay.c:948
  msgid "Play track / Pause play"
@@ -183,7 +182,7 @@
  
  #: src/cdplay.c:959
  msgid "Rewind"
-@@ -605,7 +606,7 @@
+@@ -605,7 +605,7 @@
  
  #: src/cdplay.c:970
  msgid "FastForward"
@@ -192,7 +191,7 @@
  
  #: src/cdplay.c:980
  msgid "Go to previous track"
-@@ -633,7 +634,7 @@
+@@ -633,7 +633,7 @@
  
  #: src/cdplay.c:1041
  msgid "Scan Disc Contents"
@@ -201,7 +200,7 @@
  
  #: src/cdplay.c:1049
  msgid "Toggle Volume Control"
-@@ -673,7 +674,7 @@
+@@ -673,7 +673,7 @@
  
  #: src/cdplay.c:1344
  msgid "Have disc -- ejecting\n"
@@ -210,7 +209,7 @@
  
  #: src/cdplay.c:1411
  msgid "Cannot play while ripping."
-@@ -701,7 +702,7 @@
+@@ -701,7 +701,7 @@
  
  #: src/cdplay.c:1645
  msgid "CDStat said no disc\n"
@@ -219,7 +218,7 @@
  
  #: src/cdplay.c:1794 src/cdplay.c:1816
  #, c-format
-@@ -871,9 +872,9 @@
+@@ -871,9 +871,9 @@
  msgstr ""
  "Du är på väg att skicka denna skivinformation\n"
  "till en kommersiell CDDB-server, som sedan kommer att\n"
@@ -232,17 +231,16 @@
  "\n"
  "Fortsätt?"
  
-@@ -920,7 +921,8 @@
+@@ -920,7 +920,7 @@
  #: src/launch.c:121
  #, c-format
  msgid "Error: unable to translate filename. No such user as %s\n"
 -msgstr "Fel: Det går inte att översätta filnamnet. Ingen sådan användare som %s\n"
-+msgstr "Fel: Det går inte att expandera filnamnet. Det finns ingen användare med "
-+"namnet %s\n"
++msgstr "Fel: Det går inte att expandera filnamnet. Det finns ingen användare med namnet %s\n"
  
  #: src/launch.c:315
  msgid "Exec failed\n"
-@@ -932,7 +934,7 @@
+@@ -932,7 +932,7 @@
  
  #: src/parsecfg.c:82
  msgid "Error: Reading config file\n"
@@ -251,7 +249,7 @@
  
  #: src/parsecfg.c:88
  msgid "Error: Invalid config file\n"
-@@ -968,7 +970,7 @@
+@@ -968,7 +968,7 @@
  
  #: src/rip.c:133
  msgid "Kill rip process"
@@ -260,7 +258,7 @@
  
  #: src/rip.c:139
  msgid "DDJ Scan"
-@@ -976,11 +978,11 @@
+@@ -976,11 +976,11 @@
  
  #: src/rip.c:141
  msgid "Insert disc information into the DigitalDJ database"
@@ -274,7 +272,7 @@
  
  #: src/rip.c:167 src/tray.c:176
  msgid "Play"
-@@ -1031,7 +1033,7 @@
+@@ -1031,7 +1031,7 @@
  #: src/rip.c:886
  #, c-format
  msgid "Rip: Trk %d (%3.1fx)"
@@ -283,7 +281,7 @@
  
  #: src/rip.c:919
  #, c-format
-@@ -1041,7 +1043,7 @@
+@@ -1041,7 +1041,7 @@
  #: src/rip.c:967
  #, c-format
  msgid "Rip partial %d  num wavs %d\n"
@@ -292,13 +290,12 @@
  
  #: src/rip.c:970
  #, c-format
-@@ -1072,15 +1074,17 @@
+@@ -1072,15 +1072,15 @@
  
  #: src/rip.c:1369
  msgid "No disc was detected in the drive. If you have a disc in your drive, please check your CDRom device setting under Config->CD."
 -msgstr "Ingen skiva har hittats i enheten. Om du har en skiva i enheten, kontrollera inställningarna för CDRom-enheten under Konfig->CD."
-+msgstr "Ingen skiva har hittats i enheten. Om du har en skiva i enheten, kontrollera "
-+"inställningarna för CD-ROM-enheten under Konfig->CD."
++msgstr "Ingen skiva har hittats i enheten. Om du har en skiva i enheten, kontrollera inställningarna för CD-ROM-enheten under Konfig->CD."
  
  #: src/rip.c:1384
  msgid ""
@@ -308,12 +305,11 @@
 -"Ogiltig körbar fil för rippare.\n"
 -"Kontrollera din rip-konfiguration och se till att den anger den fullständiga sökvägen till den körbara ripparen."
 +"Ogiltigt rippningsprogram.\n"
-+"Kontrollera rippningskonfigurationen och säkerställ att den anger hela "
-+"sökvägen till rippningsprogrammets körbara fil."
++"Kontrollera rippningskonfigurationen och säkerställ att den anger hela sökvägen till rippningsprogrammets körbara fil."
  
  #: src/rip.c:1395
  msgid ""
-@@ -1100,7 +1104,7 @@
+@@ -1100,7 +1100,7 @@
  
  #: src/rip.c:1457
  msgid "Ripping whole CD\n"
@@ -322,7 +318,7 @@
  
  #: src/rip.c:1499
  msgid "In RipNextTrack\n"
-@@ -1117,7 +1121,7 @@
+@@ -1117,7 +1117,7 @@
  
  #: src/rip.c:1567
  msgid "No write access to write wav file"
@@ -331,7 +327,7 @@
  
  #: src/rip.c:1583
  #, c-format
-@@ -1139,7 +1143,7 @@
+@@ -1139,7 +1139,7 @@
  
  #: src/rip.c:1795
  msgid "No free cpus\n"
@@ -340,7 +336,7 @@
  
  #: src/rip.c:1811
  #, c-format
-@@ -1148,12 +1152,12 @@
+@@ -1148,12 +1148,12 @@
  
  #: src/rip.c:1837
  msgid "No write access to write encoded file."
@@ -355,7 +351,7 @@
  
  #: src/rip.c:1918
  msgid "In CalculateAll\n"
-@@ -1161,7 +1165,7 @@
+@@ -1161,7 +1161,7 @@
  
  #: src/rip.c:1924
  msgid "We aren't ripping now, so let's zero encoding values\n"
@@ -364,7 +360,7 @@
  
  #: src/rip.c:1940
  #, c-format
-@@ -1220,7 +1224,7 @@
+@@ -1220,7 +1220,7 @@
  
  #: src/tray.c:181
  msgid "Pause"

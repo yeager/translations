@@ -48,13 +48,12 @@
  
  #: src/conf.c:1317
  #, c-format
-@@ -149,14 +149,15 @@
+@@ -149,14 +149,14 @@
  #: src/conf.c:2233
  #, c-format
  msgid "contains secrets and therefore must have no more than user read/write permissions"
 -msgstr "innehåller hemligheter och får därför inte ha mer än användarens läs-/skrivbehörighet"
-+msgstr "innehåller hemligheter och får därför endast ha läs- och skrivbehörighet för "
-+"användaren"
++msgstr "innehåller hemligheter och får därför endast ha läs- och skrivbehörighet för användaren"
  
  #. TRANSLATORS: msmtp shares a lot of code and translatable strings with
  #. mpop <https://marlam.de/mpop>.
@@ -66,7 +65,7 @@
  
  #: src/msmtp.c:231 src/msmtp.c:409 src/msmtp.c:1514
  #, c-format
-@@ -166,7 +167,7 @@
+@@ -166,7 +166,7 @@
  #: src/msmtp.c:273
  #, c-format
  msgid "the server does not support Remote Message Queue Starting"
@@ -75,7 +74,7 @@
  
  #: src/msmtp.c:285 src/msmtp.c:1572
  #, c-format
-@@ -196,16 +197,16 @@
+@@ -196,16 +196,16 @@
  #: src/msmtp.c:486
  #, c-format
  msgid "No special capabilities.\n"
@@ -95,7 +94,7 @@
  
  #: src/msmtp.c:497
  #, c-format
-@@ -259,7 +260,7 @@
+@@ -259,7 +259,7 @@
  #: src/msmtp.c:1266 src/msmtp.c:3450
  #, c-format
  msgid "cannot write mail headers to temporary file: output error"
@@ -104,7 +103,7 @@
  
  #: src/msmtp.c:1374
  #, c-format
-@@ -292,15 +293,15 @@
+@@ -292,15 +292,15 @@
  
  #: src/msmtp.c:1748
  msgid "warning: the host does not match the mail domain; please check"
@@ -123,7 +122,7 @@
  
  #: src/msmtp.c:1782
  msgid "this system lacks libresolv"
-@@ -338,7 +339,7 @@
+@@ -338,7 +338,7 @@
  #: src/msmtp.c:2077
  #, c-format
  msgid "log info was: %s"
@@ -132,7 +131,7 @@
  
  #: src/msmtp.c:2186
  #, c-format
-@@ -380,7 +381,7 @@
+@@ -380,7 +380,7 @@
  #: src/msmtp.c:2237
  #, c-format
  msgid "IDN support: "
@@ -141,7 +140,7 @@
  
  #: src/msmtp.c:2241 src/msmtp.c:2249
  #, c-format
-@@ -400,7 +401,7 @@
+@@ -400,7 +400,7 @@
  #: src/msmtp.c:2250
  #, c-format
  msgid ", LOCALEDIR is %s"
@@ -150,7 +149,7 @@
  
  #: src/msmtp.c:2255
  #, c-format
-@@ -436,9 +437,9 @@
+@@ -436,9 +436,9 @@
  "There is NO WARRANTY, to the extent permitted by law.\n"
  msgstr ""
  "Copyright (C) %d Martin Lambers och andra.\n"
@@ -162,7 +161,7 @@
  
  #: src/msmtp.c:2293
  #, c-format
-@@ -457,10 +458,11 @@
+@@ -457,10 +457,10 @@
  "  %s [option...] -t [--] [recipient...]\n"
  "  Read a mail from standard input and transmit it to an SMTP or LMTP server.\n"
  msgstr ""
@@ -173,12 +172,11 @@
 +"Sendmail-läge (standard):\n"
 +"  %s [option...] [--] recipient...\n"
 +"  %s [option...] -t [--] [recipient...]\n"
-+"  Läs e-post från standardindata och överför den till en SMTP- eller "
-+"LMTP-server.\n"
++"  Läs e-post från standardindata och överför den till en SMTP- eller LMTP-server.\n"
  
  #: src/msmtp.c:2299
  #, c-format
-@@ -480,7 +482,7 @@
+@@ -480,7 +480,7 @@
  "  %s [option...] --serverinfo\n"
  "  Print information about a server.\n"
  msgstr ""
@@ -187,7 +185,7 @@
  "  %s [option...] --serverinfo\n"
  "  Skriv ut information om en server.\n"
  
-@@ -492,15 +494,15 @@
+@@ -492,15 +492,15 @@
  "  Send a Remote Message Queue Starting request to a server.\n"
  "\n"
  msgstr ""
@@ -207,27 +205,25 @@
  
  #: src/msmtp.c:2310
  #, c-format
-@@ -530,7 +532,8 @@
+@@ -530,7 +530,7 @@
  #: src/msmtp.c:2315
  #, c-format
  msgid "  --configure=mailaddress      generate and print configuration for address\n"
 -msgstr "  --configure=e-postaddress      generera och skriva ut konfiguration för adress\n"
-+msgstr "  --configure=mailaddress      generera och skriv ut konfiguration för "
-+"adress\n"
++msgstr "  --configure=mailaddress      generera och skriv ut konfiguration för adress\n"
  
  #: src/msmtp.c:2316
  #, c-format
-@@ -540,7 +543,8 @@
+@@ -540,7 +540,7 @@
  #: src/msmtp.c:2317
  #, c-format
  msgid "  --rmqs=host|@domain|#queue   send a Remote Message Queue Starting request\n"
 -msgstr "  --rmqs=värd|@domän|#kö  skicka en \"Remote Message Queue Starting\"-begäran\n"
-+msgstr "  --rmqs=host|@domain|#queue   skicka en Remote Message Queue "
-+"Starting-begäran\n"
++msgstr "  --rmqs=host|@domain|#queue   skicka en Remote Message Queue Starting-begäran\n"
  
  #: src/msmtp.c:2318
  #, c-format
-@@ -550,7 +554,7 @@
+@@ -550,7 +550,7 @@
  #: src/msmtp.c:2319
  #, c-format
  msgid "  -C, --file=filename          set configuration file\n"
@@ -236,7 +232,7 @@
  
  #: src/msmtp.c:2320
  #, c-format
-@@ -559,9 +563,10 @@
+@@ -559,9 +559,9 @@
  "                               named \"default\"; its settings may be changed\n"
  "                               with command-line options\n"
  msgstr ""
@@ -244,13 +240,12 @@
 -"                               med namnet \"standard\"; dess inställningar kan ändras\n"
 -"                               med kommandorads alternativ\n"
 +"  -a, --account=id             använd angivet konto i stället för kontot\n"
-+"                               med namnet ”default”; dess inställningar kan "
-+"ändras\n"
++"                               med namnet ”default”; dess inställningar kan ändras\n"
 +"                               med kommandoradsalternativ\n"
  
  #: src/msmtp.c:2323
  #, c-format
-@@ -575,12 +580,13 @@
+@@ -575,12 +575,12 @@
  #: src/msmtp.c:2325
  #, c-format
  msgid "  --port=number                set port number\n"
@@ -261,12 +256,11 @@
  #, c-format
  msgid "  --source-ip=[IP]             set/unset source ip address to bind the socket to\n"
 -msgstr "  --source-ip=[IP]             ställ in/ta bort källans ip-adress för att binda uttaget till\n"
-+msgstr "  --source-ip=[IP]             ange/ta bort lokal IP-adress att binda uttaget "
-+"till\n"
++msgstr "  --source-ip=[IP]             ange/ta bort lokal IP-adress att binda uttaget till\n"
  
  #: src/msmtp.c:2327
  #, c-format
-@@ -595,7 +601,7 @@
+@@ -595,7 +595,7 @@
  #: src/msmtp.c:2329
  #, c-format
  msgid "  --socket=[socketname]        set/unset local socket to connect to\n"
@@ -275,17 +269,16 @@
  
  #: src/msmtp.c:2330
  #, c-format
-@@ -610,7 +616,8 @@
+@@ -610,7 +610,7 @@
  #: src/msmtp.c:2332
  #, c-format
  msgid "  --domain=string              set the argument of EHLO or LHLO command\n"
 -msgstr "  --domain=sträng              ställ in argumentet för EHLO eller LHLO kommando\n"
-+msgstr "  --domain=string              ange argumentet till kommandot EHLO eller "
-+"LHLO\n"
++msgstr "  --domain=string              ange argumentet till kommandot EHLO eller LHLO\n"
  
  #: src/msmtp.c:2333
  #, c-format
-@@ -618,13 +625,13 @@
+@@ -618,13 +618,13 @@
  "  --auth[=(on|off|method)]     enable/disable authentication and optionally\n"
  "                               choose the method\n"
  msgstr ""
@@ -302,7 +295,7 @@
  
  #: src/msmtp.c:2336
  #, c-format
-@@ -634,7 +641,7 @@
+@@ -634,7 +634,7 @@
  #: src/msmtp.c:2337
  #, c-format
  msgid "  --tls[=(on|off)]             enable/disable TLS encryption\n"
@@ -311,7 +304,7 @@
  
  #: src/msmtp.c:2338
  #, c-format
-@@ -644,7 +651,7 @@
+@@ -644,7 +644,7 @@
  #: src/msmtp.c:2339
  #, c-format
  msgid "  --tls-trust-file=[file]      set/unset trust file for TLS\n"
@@ -320,7 +313,7 @@
  
  #: src/msmtp.c:2340
  #, c-format
-@@ -689,17 +696,18 @@
+@@ -689,17 +689,17 @@
  #: src/msmtp.c:2348
  #, c-format
  msgid "Options specific to sendmail mode:\n"
@@ -331,8 +324,7 @@
  #, c-format
  msgid "  --auto-from[=(on|off)]       enable/disable automatic envelope-from addresses\n"
 -msgstr "  --auto-from[=(av|på)]       aktivera/avaktivera automatiska kuvert-från-adresser\n"
-+msgstr "  --auto-from[=(on|off)]       aktivera/inaktivera automatiska "
-+"kuvertavsändaradresser\n"
++msgstr "  --auto-from[=(on|off)]       aktivera/inaktivera automatiska kuvertavsändaradresser\n"
  
  #: src/msmtp.c:2350
  #, c-format
@@ -342,7 +334,7 @@
  
  #: src/msmtp.c:2351
  #, c-format
-@@ -707,8 +715,8 @@
+@@ -707,8 +707,8 @@
  "  --maildomain=[domain]        set the domain for automatic envelope from\n"
  "                               addresses\n"
  msgstr ""
@@ -353,7 +345,7 @@
  
  #: src/msmtp.c:2353
  #, c-format
-@@ -718,12 +726,12 @@
+@@ -718,12 +718,12 @@
  #: src/msmtp.c:2354
  #, c-format
  msgid "  -R, --dsn-return=(off|ret)   set/unset DSN amount\n"
@@ -368,7 +360,7 @@
  
  #: src/msmtp.c:2356
  #, c-format
-@@ -743,7 +751,7 @@
+@@ -743,7 +743,7 @@
  #: src/msmtp.c:2359
  #, c-format
  msgid "  --read-envelope-from         read envelope from address from the mail\n"
@@ -377,7 +369,7 @@
  
  #: src/msmtp.c:2360
  #, c-format
-@@ -753,27 +761,29 @@
+@@ -753,27 +753,27 @@
  #: src/msmtp.c:2361
  #, c-format
  msgid "  --set-from-header[=(auto|on|off)] set From header handling\n"
@@ -400,19 +392,17 @@
  #, c-format
  msgid "  --set-to-header[=(on|off|undisclosed_recipients)] set To header handling\n"
 -msgstr "  --set-to-header[=(på|av|dold_mottagare)] ställ in Till rubrikhantering\n"
-+msgstr "  --set-to-header[=(on|off|undisclosed_recipients)] ange hantering av "
-+"To-huvud\n"
++msgstr "  --set-to-header[=(on|off|undisclosed_recipients)] ange hantering av To-huvud\n"
  
  #: src/msmtp.c:2365
  #, c-format
  msgid "  --remove-bcc-headers[=(on|off)] enable/disable removal of Bcc headers\n"
 -msgstr "  --remove-bcc-headers[=(av|på)] aktivera/inaktivera borttagning av hemlig kopia-rubriker\n"
-+msgstr "  --remove-bcc-headers[=(on|off)] aktivera/inaktivera borttagning av "
-+"Bcc-huvuden\n"
++msgstr "  --remove-bcc-headers[=(on|off)] aktivera/inaktivera borttagning av Bcc-huvuden\n"
  
  #: src/msmtp.c:2366
  #, c-format
-@@ -792,8 +802,7 @@
+@@ -792,8 +792,7 @@
  "Report bugs to <%s>.\n"
  msgstr ""
  "\n"
@@ -422,7 +412,7 @@
  
  #: src/msmtp.c:2612 src/msmtp.c:2626
  msgid "cannot use both --serverinfo and --rmqs"
-@@ -820,27 +829,27 @@
+@@ -820,27 +819,27 @@
  #: src/msmtp.c:3330
  #, c-format
  msgid "unsupported operation mode b%s"
@@ -455,7 +445,7 @@
  
  #: src/msmtp.c:3577
  #, c-format
-@@ -850,7 +859,7 @@
+@@ -850,7 +849,7 @@
  #: src/msmtp.c:3592
  #, c-format
  msgid "loaded user configuration file %s\n"
@@ -464,7 +454,7 @@
  
  #: src/msmtp.c:3649
  #, c-format
-@@ -880,7 +889,7 @@
+@@ -880,7 +879,7 @@
  #: src/msmtp.c:3675
  #, c-format
  msgid "1 second\n"
@@ -473,7 +463,7 @@
  
  #: src/msmtp.c:3684
  #, c-format
-@@ -905,7 +914,7 @@
+@@ -905,7 +904,7 @@
  
  #: src/msmtp.c:3752
  msgid "(read from mail)"
@@ -482,7 +472,7 @@
  
  #: src/msmtp.c:3758 src/msmtp.c:3761 src/msmtp.c:3764
  msgid "auto"
-@@ -928,11 +937,11 @@
+@@ -928,11 +927,11 @@
  #: src/msmtp.c:3937
  #, c-format
  msgid "envelope from address extracted from mail: %s\n"
@@ -496,7 +486,7 @@
  
  #: src/msmtp.c:3959
  msgid "no recipients found"
-@@ -941,12 +950,12 @@
+@@ -941,12 +940,12 @@
  #: src/msmtp.c:3989
  #, c-format
  msgid "account chosen by envelope from address %s: %s\n"
@@ -511,7 +501,7 @@
  
  #: src/msmtp.c:4026
  #, c-format
-@@ -966,12 +975,12 @@
+@@ -966,12 +965,12 @@
  #: src/msmtp.c:4050
  #, c-format
  msgid "account %s not found: no configuration file available"
@@ -526,7 +516,7 @@
  
  #: src/msmtp.c:4137
  #, c-format
-@@ -985,12 +994,12 @@
+@@ -985,12 +984,12 @@
  #: src/msmtp.c:4187
  #, c-format
  msgid "support for authentication method %s is not compiled in"
@@ -541,7 +531,7 @@
  
  #: src/msmtp.c:4206
  #, c-format
-@@ -1041,7 +1050,7 @@
+@@ -1041,7 +1040,7 @@
  
  #: src/mtls.c:146
  msgid "not available"
@@ -550,7 +540,7 @@
  
  #: src/mtls.c:154
  #, c-format
-@@ -1062,11 +1071,11 @@
+@@ -1062,11 +1061,11 @@
  
  #: src/mtls.c:161
  msgid "Activation time"
@@ -564,7 +554,7 @@
  
  #: src/mtls.c:164
  msgid "Fingerprints"
-@@ -1074,7 +1083,7 @@
+@@ -1074,7 +1073,7 @@
  
  #: src/mtls-gnutls.c:121 src/mtls-openssl.c:285 src/mtls-libtls.c:105
  msgid "cannot get TLS certificate info"
@@ -573,7 +563,7 @@
  
  #: src/mtls-gnutls.c:126 src/mtls-gnutls.c:242 src/mtls-openssl.c:288
  #, c-format
-@@ -1106,12 +1115,12 @@
+@@ -1106,12 +1105,12 @@
  #: src/mtls-gnutls.c:159 src/mtls-openssl.c:322 src/mtls-libtls.c:126
  #, c-format
  msgid "%s: cannot get activation time"
@@ -588,7 +578,7 @@
  
  #: src/mtls-gnutls.c:225 src/mtls-openssl.c:446 src/mtls-libtls.c:166
  msgid "TLS certificate verification failed"
-@@ -1159,7 +1168,7 @@
+@@ -1159,7 +1158,7 @@
  #: src/mtls-gnutls.c:439
  #, c-format
  msgid "cannot allocate certificate for TLS session: %s"
@@ -597,7 +587,7 @@
  
  #: src/mtls-gnutls.c:452 src/mtls-libtls.c:312
  #, c-format
-@@ -1169,22 +1178,22 @@
+@@ -1169,22 +1168,22 @@
  #: src/mtls-gnutls.c:474 src/mtls-openssl.c:720
  #, c-format
  msgid "cannot set X509 system trust for TLS session: %s"
@@ -624,17 +614,16 @@
  
  #: src/mtls-gnutls.c:568 src/mtls-libtls.c:410
  #, c-format
-@@ -1216,7 +1225,8 @@
+@@ -1216,7 +1215,7 @@
  #: src/mtls-openssl.c:92
  #, c-format
  msgid "no environment variables RANDFILE or HOME, or filename of rand file too long"
 -msgstr "inga miljövariabler RANDFILE eller HOME, eller filnamnet på rand-filen för långt"
-+msgstr "miljövariablerna RANDFILE och HOME saknas, eller är filnamnet på slumpfilen "
-+"för långt"
++msgstr "miljövariablerna RANDFILE och HOME saknas, eller är filnamnet på slumpfilen för långt"
  
  #: src/mtls-openssl.c:98
  #, c-format
-@@ -1226,17 +1236,17 @@
+@@ -1226,17 +1225,17 @@
  #: src/mtls-openssl.c:120
  #, c-format
  msgid "random file + time + pseudo randomness is not enough, giving up"
@@ -655,7 +644,7 @@
  
  #: src/mtls-openssl.c:450
  msgid "TLS certificate check failed"
-@@ -1250,7 +1260,7 @@
+@@ -1250,7 +1249,7 @@
  #: src/mtls-openssl.c:559
  #, c-format
  msgid "%s: certificate subject alternative name contains NUL"
@@ -664,7 +653,7 @@
  
  #: src/mtls-openssl.c:591
  #, c-format
-@@ -1265,21 +1275,21 @@
+@@ -1265,21 +1264,21 @@
  #: src/mtls-openssl.c:617
  #, c-format
  msgid "%s: the certificate owner does not match hostname %s"
@@ -690,7 +679,7 @@
  
  #: src/mtls-openssl.c:672
  #, c-format
-@@ -1299,12 +1309,12 @@
+@@ -1299,12 +1298,12 @@
  #: src/mtls-openssl.c:702
  #, c-format
  msgid "cannot load certificate file %s: %s"
@@ -705,7 +694,7 @@
  
  #: src/mtls-openssl.c:759 src/mtls-libtls.c:365
  #, c-format
-@@ -1313,7 +1323,7 @@
+@@ -1313,7 +1312,7 @@
  
  #: src/mtls-openssl.c:801
  msgid "a protocol violating EOF occurred"
@@ -714,7 +703,7 @@
  
  #: src/mtls-openssl.c:819
  msgid "the connection was closed unexpectedly"
-@@ -1322,12 +1332,12 @@
+@@ -1322,12 +1321,12 @@
  #: src/mtls-openssl.c:828 src/net.c:198 src/net.c:213 src/net.c:245
  #: src/net.c:260
  msgid "the operation timed out"
@@ -729,7 +718,7 @@
  
  #: src/mtls-openssl.c:872
  msgid "TLS handshake failed"
-@@ -1353,7 +1363,7 @@
+@@ -1353,7 +1352,7 @@
  
  #: src/mtls-libtls.c:232
  msgid "feature not yet implemented for libtls"
@@ -738,7 +727,7 @@
  
  #: src/mtls-libtls.c:288
  msgid "could not parse protocols"
-@@ -1373,23 +1383,23 @@
+@@ -1373,23 +1372,23 @@
  
  #: src/net.c:106
  msgid "the network subsystem has failed"
@@ -767,7 +756,7 @@
  
  #: src/net.c:121
  msgid "address family not supported"
-@@ -1397,7 +1407,7 @@
+@@ -1397,7 +1396,7 @@
  
  #: src/net.c:124
  msgid "no socket descriptors available"
@@ -776,7 +765,7 @@
  
  #: src/net.c:127
  msgid "no buffer space available"
-@@ -1409,11 +1419,11 @@
+@@ -1409,11 +1408,11 @@
  
  #: src/net.c:133
  msgid "wrong protocol type for this socket"
@@ -790,7 +779,7 @@
  
  #: src/net.c:139
  msgid "remote address is not valid"
-@@ -1425,27 +1435,27 @@
+@@ -1425,27 +1424,27 @@
  
  #: src/net.c:145 src/net.c:630
  msgid "network unreachable"
@@ -824,7 +813,7 @@
  
  #: src/net.c:163
  msgid "the underlying network subsystem is not ready"
-@@ -1461,7 +1471,7 @@
+@@ -1461,7 +1460,7 @@
  
  #: src/net.c:172
  msgid "limit on the number of tasks has been reached"
@@ -833,7 +822,7 @@
  
  #: src/net.c:175
  msgid "invalid request"
-@@ -1486,7 +1496,7 @@
+@@ -1486,7 +1485,7 @@
  
  #: src/net.c:528
  msgid "host name too long"
@@ -842,7 +831,7 @@
  
  #: src/net.c:542 src/net.c:576 src/net.c:1007
  #, c-format
-@@ -1508,11 +1518,11 @@
+@@ -1508,11 +1507,11 @@
  
  #: src/net.c:627
  msgid "connection not allowed"
@@ -856,7 +845,7 @@
  
  #: src/net.c:642
  msgid "command not supported"
-@@ -1535,12 +1545,12 @@
+@@ -1535,12 +1534,12 @@
  #: src/net.c:762 src/net.c:771
  #, c-format
  msgid "cannot locate host %s: %s"
@@ -871,7 +860,7 @@
  
  #: src/net.c:889 src/net.c:902
  #, c-format
-@@ -1575,35 +1585,35 @@
+@@ -1575,35 +1574,35 @@
  #: src/smtp.c:355
  #, c-format
  msgid "cannot get initial OK message from server"
@@ -913,7 +902,7 @@
  
  #: src/smtp.c:1198 src/smtp.c:1358 src/smtp.c:1410
  #, c-format
-@@ -1613,7 +1623,7 @@
+@@ -1613,7 +1612,7 @@
  #: src/smtp.c:1205
  #, c-format
  msgid "GNU SASL: authentication method %s not supported"
@@ -922,7 +911,7 @@
  
  #: src/smtp.c:1286 src/smtp.c:1590
  #, c-format
-@@ -1628,32 +1638,32 @@
+@@ -1628,32 +1627,32 @@
  #: src/smtp.c:1305 src/smtp.c:1608
  #, c-format
  msgid "authentication method %s needs a user name"
@@ -961,7 +950,7 @@
  
  #: src/smtp.c:1800
  #, c-format
-@@ -1673,12 +1683,12 @@
+@@ -1673,12 +1672,12 @@
  #: src/smtp.c:2123
  #, c-format
  msgid "the server refuses to send the mail to %s"

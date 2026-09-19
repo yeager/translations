@@ -85,7 +85,7 @@
  
  #: src/dumpkeys.c:95
  msgid "display only key bindings."
-@@ -169,11 +169,12 @@
+@@ -169,11 +169,11 @@
  
  #: src/dumpkeys.c:96
  msgid "display only compose key combinations."
@@ -95,12 +95,11 @@
  #: src/dumpkeys.c:97
  msgid "interpret character action codes to be from the specified character set."
 -msgstr "tolka teckenåtgärdsskoder som om de är från den angivna teckenuppsättningen."
-+msgstr "tolka teckenåtgärdskoder som om de kommer från den angivna "
-+"teckenuppsättningen."
++msgstr "tolka teckenåtgärdskoder som om de kommer från den angivna teckenuppsättningen."
  
  #: src/dumpkeys.c:99 src/loadkeys.c:144 src/mapscrn.c:55 src/openvt.c:266
  #: src/setfont.c:188 src/setleds.c:216 src/showconsolefont.c:135
-@@ -203,7 +204,7 @@
+@@ -203,7 +203,7 @@
  
  #: src/fgconsole.c:47
  msgid "print number of next unallocated VT."
@@ -109,7 +108,7 @@
  
  #: src/fgconsole.c:78
  msgid "Couldn't read VTNO: "
-@@ -212,27 +213,27 @@
+@@ -212,27 +212,27 @@
  #: src/getkeycodes.c:82
  #, c-format
  msgid "Plain scancodes xx (hex) versus keycodes (dec)\n"
@@ -142,7 +141,7 @@
  
  #: src/getunimap.c:63
  msgid "sort and merge elements."
-@@ -241,17 +242,17 @@
+@@ -241,17 +241,17 @@
  #: src/kbd_mode.c:32 src/loadunimap.c:29
  #, c-format
  msgid "This utility reports or sets the keyboard mode.\n"
@@ -163,7 +162,7 @@
  
  #: src/kbd_mode.c:51
  #, c-format
-@@ -266,7 +267,7 @@
+@@ -266,7 +266,7 @@
  #: src/kbd_mode.c:58
  #, c-format
  msgid "The keyboard is in Disabled mode, perhaps you are using a graphical environment?"
@@ -172,7 +171,7 @@
  
  #: src/kbd_mode.c:62
  #, c-format
-@@ -279,11 +280,11 @@
+@@ -279,11 +279,11 @@
  
  #: src/kbd_mode.c:89
  msgid "set keycode mode."
@@ -186,7 +185,7 @@
  
  #: src/kbd_mode.c:91
  msgid "set UTF-8 mode."
-@@ -295,7 +296,7 @@
+@@ -295,7 +295,7 @@
  
  #: src/kbd_mode.c:93
  msgid "switch the mode even if it makes the keyboard unusable."
@@ -195,7 +194,7 @@
  
  #: src/kbd_mode.c:178
  #, c-format
-@@ -321,12 +322,12 @@
+@@ -321,12 +321,12 @@
  "The utility allows to read and check various parameters\n"
  "of the keyboard and virtual console.\n"
  msgstr ""
@@ -210,7 +209,7 @@
  
  #: src/kbdinfo.c:136 src/setmetamode.c:119
  msgid "Unable to read meta key handling mode"
-@@ -344,7 +345,7 @@
+@@ -344,7 +344,7 @@
  #: src/kbdrate.c:140 src/kbdrate.c:205
  #, c-format
  msgid "Current keyboard delay %d ms\n"
@@ -219,7 +218,7 @@
  
  #: src/kbdrate.c:141
  #, c-format
-@@ -354,12 +355,12 @@
+@@ -354,12 +354,12 @@
  #: src/kbdrate.c:179 src/kbdrate.c:303
  #, c-format
  msgid "Typematic Rate set to %.1f cps (delay = %d ms)\n"
@@ -234,17 +233,16 @@
  
  #: src/kbdrate.c:269
  msgid "Cannot open /dev/port"
-@@ -368,7 +369,8 @@
+@@ -368,7 +368,7 @@
  #: src/kbdrate.c:323
  #, c-format
  msgid "The program sets the keyboard repeat rate and delay in user mode.\n"
 -msgstr "Programmet sätter repetitionshastigheten och fördröjningen för tangentbordet i användarläge.\n"
-+msgstr "Programmet anger tangentbordets upprepningshastighet och fördröjning i "
-+"användarläge.\n"
++msgstr "Programmet anger tangentbordets upprepningshastighet och fördröjning i användarläge.\n"
  
  #: src/kbdrate.c:349
  msgid "set the rate in characters per second."
-@@ -376,15 +378,15 @@
+@@ -376,15 +376,15 @@
  
  #: src/kbdrate.c:350
  msgid "set the amount of time the key must remain depressed before it will start to repeat."
@@ -263,7 +261,7 @@
  
  #: src/libcommon/getfd.c:70
  #, c-format
-@@ -446,7 +448,7 @@
+@@ -446,7 +446,7 @@
  
  #: src/libkbdfile/kbdfile-zstd.c:74
  msgid "prepare zstd streaming decompressor failed"
@@ -272,7 +270,7 @@
  
  #: src/libkbdfile/kbdfile-zstd.c:112
  #, c-format
-@@ -467,7 +469,7 @@
+@@ -467,7 +467,7 @@
  #: src/screendump.c:165 src/screendump.c:195 src/xkbsupport.c:566
  #: src/xkbsupport.c:573 src/xkbsupport.c:910
  msgid "out of memory"
@@ -281,7 +279,7 @@
  
  #: src/libkeymap/analyze.l:261
  #, c-format
-@@ -477,7 +479,7 @@
+@@ -477,7 +477,7 @@
  #: src/libkeymap/analyze.l:272
  #, c-format
  msgid "cannot open include file %s"
@@ -290,7 +288,7 @@
  
  #: src/libkeymap/analyze.l:292
  #, c-format
-@@ -505,12 +507,12 @@
+@@ -505,12 +505,12 @@
  #: src/libkeymap/analyze.l:457
  #, c-format
  msgid "unicode keysym out of range: %s"
@@ -305,7 +303,7 @@
  
  #: src/libkeymap/diacr.c:30 src/libkeymap/diacr.c:98
  #, c-format
-@@ -529,7 +531,7 @@
+@@ -529,7 +529,7 @@
  #: src/libkeymap/dump.c:97 src/libkfont/mapscrn.c:253
  #: src/libkfont/mapscrn.c:258
  msgid "Error writing map to file"
@@ -314,7 +312,7 @@
  
  #: src/libkeymap/dump.c:546
  #, c-format
-@@ -543,7 +545,7 @@
+@@ -543,7 +543,7 @@
  
  #: src/libkeymap/func.c:71
  msgid "Unable to remove item from the list of functions"
@@ -323,7 +321,7 @@
  
  #: src/libkeymap/kernel.c:26
  #, c-format
-@@ -583,7 +585,7 @@
+@@ -583,7 +583,7 @@
  #: src/libkeymap/kmap.c:108
  #, c-format
  msgid "unable to unset key %d for table %d"
@@ -332,7 +330,7 @@
  
  #: src/libkeymap/kmap.c:124
  #, c-format
-@@ -598,7 +600,7 @@
+@@ -598,7 +598,7 @@
  #: src/libkeymap/kmap.c:147
  #, c-format
  msgid "unable to set key %d for table %d"
@@ -341,7 +339,7 @@
  
  #: src/libkeymap/kmap.c:238
  msgid "impossible error in lk_add_constants"
-@@ -627,7 +629,7 @@
+@@ -627,7 +627,7 @@
  #: src/libkeymap/loadkeys.c:43
  #, c-format
  msgid "Keymap %d: Permission denied"
@@ -350,7 +348,7 @@
  
  #: src/libkeymap/loadkeys.c:59
  #, c-format
-@@ -641,7 +643,7 @@
+@@ -641,7 +641,7 @@
  #: src/libkeymap/loadkeys.c:63
  #, c-format
  msgid "failed to bind key %d to value %d"
@@ -359,7 +357,7 @@
  
  #: src/libkeymap/loadkeys.c:79
  #, c-format
-@@ -671,7 +673,7 @@
+@@ -671,7 +671,7 @@
  #: src/libkeymap/loadkeys.c:205
  #, c-format
  msgid "failed to bind string '%s' to function %s"
@@ -368,7 +366,7 @@
  
  #: src/libkeymap/loadkeys.c:215
  #, c-format
-@@ -680,11 +682,11 @@
+@@ -680,11 +680,11 @@
  
  #: src/libkeymap/loadkeys.c:233
  msgid "too many compose definitions"
@@ -382,7 +380,7 @@
  
  #: src/libkeymap/loadkeys.c:302
  #, c-format
-@@ -722,7 +724,7 @@
+@@ -722,7 +722,7 @@
  #: src/libkeymap/parser.y:170
  #, c-format
  msgid "loadkeys: don't know how to compose for %s"
@@ -391,7 +389,7 @@
  
  #: src/libkeymap/parser.y:265
  #, c-format
-@@ -747,7 +749,7 @@
+@@ -747,7 +747,7 @@
  #: src/libkeymap/summary.c:93
  #, c-format
  msgid "max number of actions bindable to a key:         %d\n"
@@ -400,7 +398,7 @@
  
  #: src/libkeymap/summary.c:95
  #, c-format
-@@ -762,7 +764,7 @@
+@@ -762,7 +762,7 @@
  #: src/libkeymap/summary.c:101
  #, c-format
  msgid "ranges of action codes supported by kernel:\n"
@@ -409,7 +407,7 @@
  
  #: src/libkeymap/summary.c:107
  #, c-format
-@@ -847,7 +849,7 @@
+@@ -847,7 +847,7 @@
  #: src/libkfont/loadunimap.c:236
  #, c-format
  msgid "%s: trailing junk (%s) ignored"
@@ -418,7 +416,7 @@
  
  #: src/libkfont/loadunimap.c:265
  #, c-format
-@@ -857,15 +859,15 @@
+@@ -857,15 +857,15 @@
  #: src/libkfont/loadunimap.c:271
  #, c-format
  msgid "%s: Warning: line too long"
@@ -437,7 +435,7 @@
  
  #: src/libkfont/loadunimap.c:301
  #, c-format
-@@ -885,7 +887,7 @@
+@@ -885,7 +885,7 @@
  #: src/libkfont/loadunimap.c:328
  #, c-format
  msgid "Saved unicode map on `%s'"
@@ -446,7 +444,7 @@
  
  #: src/libkfont/loadunimap.c:377
  msgid "Appended Unicode map"
-@@ -900,7 +902,7 @@
+@@ -900,7 +900,7 @@
  #: src/libkfont/mapscrn.c:107
  #, c-format
  msgid "Loading binary direct-to-font screen map from file %s"
@@ -455,7 +453,7 @@
  
  #: src/libkfont/mapscrn.c:111 src/libkfont/mapscrn.c:123
  #, c-format
-@@ -910,7 +912,7 @@
+@@ -910,7 +910,7 @@
  #: src/libkfont/mapscrn.c:118
  #, c-format
  msgid "Loading binary unicode screen map from file %s"
@@ -464,7 +462,7 @@
  
  #: src/libkfont/mapscrn.c:130
  #, c-format
-@@ -933,27 +935,27 @@
+@@ -933,27 +933,27 @@
  
  #: src/libkfont/psffontop.c:46
  msgid "short ucs2 unicode table"
@@ -498,7 +496,7 @@
  
  #: src/libkfont/psffontop.c:179
  msgid "Font is too big"
-@@ -966,25 +968,25 @@
+@@ -966,25 +966,25 @@
  #: src/libkfont/psffontop.c:237
  #, c-format
  msgid "Unsupported psf file mode (%d)"
@@ -529,7 +527,7 @@
  
  #: src/libkfont/psffontop.c:327
  msgid "Input file: trailing garbage"
-@@ -993,7 +995,7 @@
+@@ -993,7 +993,7 @@
  #: src/libkfont/psffontop.c:364
  #, c-format
  msgid "illegal unicode %d"
@@ -538,7 +536,7 @@
  
  #: src/libkfont/psffontop.c:468
  msgid "Cannot write font file header"
-@@ -1010,7 +1012,7 @@
+@@ -1010,7 +1010,7 @@
  #: src/libkfont/psfxtable.c:125
  #, c-format
  msgid "Glyph number (0x%x) past end of font"
@@ -547,7 +545,7 @@
  
  #: src/libkfont/psfxtable.c:129
  #, c-format
-@@ -1019,7 +1021,7 @@
+@@ -1019,7 +1019,7 @@
  
  #: src/libkfont/psfxtable.c:155
  msgid "Corresponding to a range of font positions, there should be a Unicode range"
@@ -556,7 +554,7 @@
  
  #: src/libkfont/psfxtable.c:167
  #, c-format
-@@ -1029,7 +1031,7 @@
+@@ -1029,7 +1029,7 @@
  #: src/libkfont/psfxtable.c:201
  #, c-format
  msgid "trailing junk (%s) ignored"
@@ -565,7 +563,7 @@
  
  #: src/libkfont/setfont.c:57
  #, c-format
-@@ -1048,15 +1050,15 @@
+@@ -1048,15 +1048,15 @@
  
  #: src/libkfont/setfont.c:142
  msgid "font position 32 is nonblank"
@@ -584,7 +582,7 @@
  
  #: src/libkfont/setfont.c:162
  #, c-format
-@@ -1084,12 +1086,12 @@
+@@ -1084,12 +1084,12 @@
  
  #: src/libkfont/setfont.c:259
  msgid "Loading Unicode mapping table..."
@@ -599,7 +597,7 @@
  
  #: src/libkfont/setfont.c:337
  #, c-format
-@@ -1115,7 +1117,7 @@
+@@ -1115,7 +1115,7 @@
  
  #: src/libkfont/setfont.c:497
  msgid "No final newline in combine file"
@@ -608,7 +606,7 @@
  
  #: src/libkfont/setfont.c:503
  msgid "Too many files to combine"
-@@ -1123,7 +1125,7 @@
+@@ -1123,7 +1123,7 @@
  
  #: src/libkfont/setfont.c:531
  msgid "Hmm - a font from restorefont? Using the first half."
@@ -617,7 +615,7 @@
  
  #: src/libkfont/setfont.c:550
  msgid "Bad input file size"
-@@ -1135,13 +1137,13 @@
+@@ -1135,13 +1135,13 @@
  "This file contains 3 fonts: 8x8, 8x14 and 8x16. Please indicate\n"
  "using an option -8 or -14 or -16 which one you want loaded.\n"
  msgstr ""
@@ -634,7 +632,7 @@
  
  #: src/libkfont/setfont.c:648
  msgid "Found nothing to save"
-@@ -1155,7 +1157,7 @@
+@@ -1155,7 +1155,7 @@
  #: src/libkfont/setfont.c:657
  #, c-format
  msgid "Saved %d-char %dx%d font file on %s"
@@ -643,7 +641,7 @@
  
  #: src/loadkeys.c:46
  #, c-format
-@@ -1169,23 +1171,23 @@
+@@ -1169,23 +1169,23 @@
  
  #: src/loadkeys.c:127
  msgid "Specifies model used to choose component names."
@@ -672,7 +670,7 @@
  
  #: src/loadkeys.c:134
  msgid "force conversion to ASCII."
-@@ -1193,11 +1195,11 @@
+@@ -1193,11 +1193,11 @@
  
  #: src/loadkeys.c:135
  msgid "output a binary keymap to stdout."
@@ -686,7 +684,7 @@
  
  #: src/loadkeys.c:137
  msgid "load default."
-@@ -1205,11 +1207,11 @@
+@@ -1205,11 +1205,11 @@
  
  #: src/loadkeys.c:138
  msgid "output a 'defkeymap.c' to stdout."
@@ -700,7 +698,7 @@
  
  #: src/loadkeys.c:140
  msgid "clear kernel string table."
-@@ -1221,11 +1223,11 @@
+@@ -1221,11 +1221,11 @@
  
  #: src/loadkeys.c:143
  msgid "output a text keymap to stdout."
@@ -714,7 +712,7 @@
  
  #: src/loadkeys.c:246
  #, c-format
-@@ -1237,21 +1239,21 @@
+@@ -1237,21 +1237,21 @@
  "Warning: loading non-Unicode keymap on Unicode console\n"
  "    (perhaps you want to do `kbd_mode -a'?)"
  msgstr ""
@@ -741,17 +739,16 @@
  
  #: src/loadunimap.c:55 src/mapscrn.c:53
  msgid "save the old map to the FILE."
-@@ -1270,7 +1272,8 @@
+@@ -1270,7 +1270,7 @@
  #: src/openvt.c:52
  #, c-format
  msgid "This utility helps you to start a program on a new virtual terminal (VT).\n"
 -msgstr "Detta verktyg hjälper till att starta ett program på en ny virtuell terminal (VT).\n"
-+msgstr "Detta verktyg hjälper dig att starta ett program på en ny virtuell terminal "
-+"(VT).\n"
++msgstr "Detta verktyg hjälper dig att starta ett program på en ny virtuell terminal (VT).\n"
  
  #: src/openvt.c:132
  msgid "Couldn't find owner of current tty!"
-@@ -1278,15 +1281,15 @@
+@@ -1278,15 +1278,15 @@
  
  #: src/openvt.c:259
  msgid "use the given VT number and not the first available."
@@ -770,7 +767,7 @@
  
  #: src/openvt.c:262
  msgid "make the command a login shell."
-@@ -1298,7 +1301,7 @@
+@@ -1298,7 +1298,7 @@
  
  #: src/openvt.c:264
  msgid "switch to the new VT."
@@ -779,7 +776,7 @@
  
  #: src/openvt.c:265
  msgid "wait for command to complete"
-@@ -1307,7 +1310,7 @@
+@@ -1307,7 +1307,7 @@
  #: src/openvt.c:279
  #, c-format
  msgid "%s: Illegal vt number"
@@ -788,7 +785,7 @@
  
  #: src/openvt.c:306
  msgid "Only root can use the -u flag."
-@@ -1315,17 +1318,18 @@
+@@ -1315,17 +1315,17 @@
  
  #: src/openvt.c:335
  msgid "Cannot find a free vt"
@@ -799,8 +796,7 @@
  #, c-format
  msgid "Cannot check whether vt %d is free; use `%s -f' to force."
 -msgstr "Kan inte undersöka huruvida vt %d är ledig; använd ”%s -f“ för att framtvinga."
-+msgstr "Kan inte kontrollera om VT %d är ledig; använd ”%s -f” för att tvinga fram "
-+"det."
++msgstr "Kan inte kontrollera om VT %d är ledig; använd ”%s -f” för att tvinga fram det."
  
  #: src/openvt.c:343
  #, c-format
@@ -810,7 +806,7 @@
  
  #: src/openvt.c:354
  msgid "Unable to find command."
-@@ -1333,7 +1337,7 @@
+@@ -1333,7 +1333,7 @@
  
  #: src/openvt.c:386
  msgid "Unable to set new session"
@@ -819,7 +815,7 @@
  
  #: src/openvt.c:415
  #, c-format
-@@ -1377,11 +1381,11 @@
+@@ -1377,11 +1377,11 @@
  
  #: src/psfxtable.c:168
  msgid "psf file with unknown magic"
@@ -833,7 +829,7 @@
  
  #: src/resizecons.c:146
  #, c-format
-@@ -1415,7 +1419,7 @@
+@@ -1415,7 +1415,7 @@
  #: src/resizecons.c:275
  #, c-format
  msgid "resizecons: the command `%s' failed\n"
@@ -842,7 +838,7 @@
  
  #: src/resizecons.c:360
  #, c-format
-@@ -1465,7 +1469,7 @@
+@@ -1465,7 +1465,7 @@
  #: src/setfont.c:22
  #, c-format
  msgid "Loads the console font, and possibly the corresponding screen map(s).\n"
@@ -851,7 +847,7 @@
  
  #: src/setfont.c:28
  #, c-format
-@@ -1522,15 +1526,15 @@
+@@ -1522,15 +1522,15 @@
  
  #: src/setfont.c:180
  msgid "write current font and unicode map to <FILE>."
@@ -870,7 +866,7 @@
  
  #: src/setfont.c:184
  msgid "check whether console is suitable for font operations."
-@@ -1538,15 +1542,16 @@
+@@ -1538,15 +1538,15 @@
  
  #: src/setfont.c:185
  msgid "double size of font horizontally and vertically."
@@ -885,12 +881,11 @@
  #: src/setfont.c:187
  msgid "reset the screen font, size, and unicode map to the bootup defaults."
 -msgstr "återställ skärmtypsnittet, storleken och unicode-avbildningen till startvärdena."
-+msgstr "återställ skärmtypsnittet, storleken och Unicode-avbildningen till "
-+"startvärdena."
++msgstr "återställ skärmtypsnittet, storleken och Unicode-avbildningen till startvärdena."
  
  #: src/setfont.c:300 src/setfont.c:312
  msgid "Too many input files."
-@@ -1554,12 +1559,12 @@
+@@ -1554,12 +1554,12 @@
  
  #: src/setfont.c:317
  msgid "Cannot both restore from character ROM and from file. Font unchanged."
@@ -905,7 +900,7 @@
  
  #: src/setkeycodes.c:28
  #, c-format
-@@ -1567,12 +1572,12 @@
+@@ -1567,12 +1567,12 @@
  "(where scancode is either xx or e0xx, given in hexadecimal,\n"
  "and keycode is given in decimal)\n"
  msgstr ""
@@ -921,7 +916,7 @@
  
  #: src/setkeycodes.c:52
  #, c-format
-@@ -1591,7 +1596,7 @@
+@@ -1591,7 +1591,7 @@
  #: src/setkeycodes.c:145
  #, c-format
  msgid "failed to set scancode %x to keycode %d: ioctl KDSETKEYCODE"
@@ -930,7 +925,7 @@
  
  #: src/setleds.c:32
  #, c-format
-@@ -1614,14 +1619,15 @@
+@@ -1614,14 +1614,15 @@
  msgstr ""
  "Alltså,\n"
  "\tsetleds +caps -num\n"
@@ -954,13 +949,12 @@
  
  #: src/setleds.c:58
  msgid "on "
-@@ -1633,21 +1639,22 @@
+@@ -1633,21 +1634,21 @@
  
  #: src/setleds.c:102
  msgid "Error reading current led setting. Maybe stdin is not a VT?: ioctl KDGETLED"
 -msgstr "Fel vid läsning av nuvarande lysdiodinställning.  Standard in kanske inte är en VT?: ioctl KDGETLED"
-+msgstr "Fel vid läsning av aktuell lysdiodinställning. Standardindata kanske inte är "
-+"en VT?: ioctl KDGETLED"
++msgstr "Fel vid läsning av aktuell lysdiodinställning. Standardindata kanske inte är en VT?: ioctl KDGETLED"
  
  #: src/setleds.c:132 src/setleds.c:145
  #, c-format
@@ -981,7 +975,7 @@
  
  #: src/setleds.c:213
  msgid "change the VT flags."
-@@ -1659,7 +1666,7 @@
+@@ -1659,7 +1660,7 @@
  
  #: src/setleds.c:291
  msgid "Error resetting ledmode"
@@ -990,7 +984,7 @@
  
  #: src/setleds.c:299
  #, c-format
-@@ -1721,18 +1728,18 @@
+@@ -1721,18 +1722,18 @@
  "              the keysym.\n"
  msgstr ""
  "Argument:\n"
@@ -1014,7 +1008,7 @@
  
  #: src/setmetamode.c:55
  msgid "Strange mode for Meta key?"
-@@ -1777,21 +1784,22 @@
+@@ -1777,21 +1778,22 @@
  "   #00AA00\n"
  "And so on, for all the 16 colors.\n"
  msgstr ""
@@ -1047,7 +1041,7 @@
  
  #: src/setvtrgb.c:80
  #, c-format
-@@ -1830,11 +1838,11 @@
+@@ -1830,11 +1832,11 @@
  
  #: src/showconsolefont.c:36
  msgid "failed to restore original translation table"
@@ -1061,7 +1055,7 @@
  
  #: src/showconsolefont.c:59
  msgid "cannot change translation table"
-@@ -1843,11 +1851,11 @@
+@@ -1843,11 +1845,11 @@
  #: src/showconsolefont.c:103
  #, c-format
  msgid "(probably after loading a font with `setfont font')\n"
@@ -1075,7 +1069,7 @@
  
  #: src/showconsolefont.c:192
  #, c-format
-@@ -1880,7 +1888,7 @@
+@@ -1880,7 +1882,7 @@
  #: src/showkey.c:52
  #, c-format
  msgid "kb mode was %s\n"
@@ -1084,7 +1078,7 @@
  
  #: src/showkey.c:54
  #, c-format
-@@ -1894,23 +1902,23 @@
+@@ -1894,23 +1896,23 @@
  #: src/showkey.c:74
  #, c-format
  msgid "caught signal %d, cleaning up...\n"
@@ -1113,7 +1107,7 @@
  
  #: src/showkey.c:180
  #, c-format
-@@ -1920,13 +1928,14 @@
+@@ -1920,13 +1922,13 @@
  "\n"
  msgstr ""
  "\n"
@@ -1125,12 +1119,11 @@
  #, c-format
  msgid "press any key (program terminates %ds after last keypress)...\n"
 -msgstr "tryck någon tangent (programmet avslutas %d s efter sista tangenttryckning)…\n"
-+msgstr "tryck på en tangent (programmet avslutas %d s efter senaste tangenttryckning) "
-+"…\n"
++msgstr "tryck på en tangent (programmet avslutas %d s efter senaste tangenttryckning) …\n"
  
  #: src/showkey.c:272
  msgid "release"
-@@ -1954,7 +1963,7 @@
+@@ -1954,7 +1956,7 @@
  #: src/vlock/auth.c:84
  #, c-format
  msgid "The entire console display is now completely locked by %s.\n"
@@ -1139,7 +1132,7 @@
  
  #: src/vlock/auth.c:87
  #, c-format
-@@ -1983,15 +1992,16 @@
+@@ -1983,15 +1985,15 @@
  "-v or --version: Print the version number of vlock and exit.\n"
  "-h or --help: Print this help message and exit.\n"
  msgstr ""
@@ -1149,8 +1142,7 @@
 -"       Där [flaggor] är några av:\n"
 -"-c eller --current: lås endast denna virtuella konsol, tillåt användare att\n"
 +"       Där [flaggor] kan vara:\n"
-+"-c eller --current: lås endast denna virtuella konsol och tillåt användaren "
-+"att\n"
++"-c eller --current: lås endast denna virtuella konsol och tillåt användaren att\n"
  "       byta till andra virtuella konsoler.\n"
  "-a eller --all: lås alla virtuella konsoler genom att hindra andra användare\n"
 -"       att byta virtuell konsol.\n"
@@ -1162,7 +1154,7 @@
  
  #: src/vlock/username.c:57
  msgid "unrecognized user"
-@@ -1999,7 +2009,7 @@
+@@ -1999,7 +2001,7 @@
  
  #: src/vlock/vlock.c:54
  msgid "stdin is not a tty"
@@ -1171,7 +1163,7 @@
  
  #: src/vlock/vt.c:147
  #, c-format
-@@ -2014,16 +2024,16 @@
+@@ -2014,16 +2016,16 @@
  #: src/xkbsupport.c:316
  #, c-format
  msgid "unable to convert unnamed non-Unicode xkb symbol `%s'"
@@ -1191,7 +1183,7 @@
  
  #: src/xkbsupport.c:535
  #, c-format
-@@ -2033,7 +2043,7 @@
+@@ -2033,7 +2035,7 @@
  #: src/xkbsupport.c:701
  #, c-format
  msgid "unable to convert XKB layouts: unsupported layout count %u"
@@ -1200,7 +1192,7 @@
  
  #: src/xkbsupport.c:1325
  #, c-format
-@@ -2043,9 +2053,10 @@
+@@ -2043,9 +2045,9 @@
  #: src/xkbsupport.c:1363
  #, c-format
  msgid "too many layouts specified. At the moment, you can use no more than %d"
@@ -1211,5 +1203,4 @@
  #, c-format
  msgid "xkb compose table for locale `%s' was not found; continuing without compose support"
 -msgstr "xkb-kompositionstabelen för lokalen ”%s” finns inte; fortsätter utan stöd för komponering"
-+msgstr "XKB-sammansättningstabellen för lokalen ”%s” hittades inte; fortsätter utan "
-+"stöd för sammansättning"
++msgstr "XKB-sammansättningstabellen för lokalen ”%s” hittades inte; fortsätter utan stöd för sammansättning"

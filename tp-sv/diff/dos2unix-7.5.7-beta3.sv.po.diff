@@ -36,13 +36,12 @@
  
  #: common.c:717
  msgid " -m, --add-bom         add Byte Order Mark (default UTF-8)\n"
-@@ -261,11 +261,12 @@
+@@ -261,11 +261,11 @@
  
  #: common.c:725
  msgid " --no-error-binary     don't return an error when a binary file is skipped (default)\n"
 -msgstr ""
-+msgstr " --no-error-binary     rapportera inte fel när en binär fil hoppas över "
-+"(standard)\n"
++msgstr " --no-error-binary     rapportera inte fel när en binär fil hoppas över (standard)\n"
  
  #: common.c:726
  msgid " -O, --to-stdout       write to standard output\n"
@@ -51,7 +50,7 @@
  
  #: common.c:727
  msgid ""
-@@ -297,15 +298,15 @@
+@@ -297,15 +297,15 @@
  
  #: common.c:737
  msgid " -ul, --assume-utf16le assume that the input format is UTF-16LE\n"
@@ -70,7 +69,7 @@
  
  #: common.c:742
  msgid " -F, --follow-symlink  follow symbolic links and convert the targets\n"
-@@ -388,7 +389,7 @@
+@@ -388,7 +388,7 @@
  #: common.c:789
  #, c-format
  msgid "%s version.\n"
@@ -79,7 +78,7 @@
  
  #: common.c:795
  msgid "With Unicode UTF-16 support.\n"
-@@ -447,15 +448,15 @@
+@@ -447,15 +447,15 @@
  #: common.c:1349
  #, c-format
  msgid "Input file %s has %s BOM.\n"
@@ -98,7 +97,7 @@
  
  #: common.c:1596
  #, c-format
-@@ -470,7 +471,7 @@
+@@ -470,7 +470,7 @@
  #: common.c:1626
  #, c-format
  msgid "using %s as temporary file\n"
@@ -107,7 +106,7 @@
  
  #: common.c:1680 common.c:1708
  #, c-format
-@@ -490,7 +491,7 @@
+@@ -490,7 +490,7 @@
  #: common.c:1775
  #, c-format
  msgid "problems renaming '%s' to '%s':"
@@ -116,7 +115,7 @@
  
  #: common.c:1779
  #, c-format
-@@ -500,7 +501,7 @@
+@@ -500,7 +500,7 @@
  #: common.c:1781
  #, c-format
  msgid "          output file remains in '%s'\n"
@@ -125,7 +124,7 @@
  
  #: common.c:1958 common.c:2053
  #, c-format
-@@ -510,7 +511,7 @@
+@@ -510,7 +510,7 @@
  #: common.c:1961 common.c:2056
  #, c-format
  msgid "code page %d is not supported.\n"
@@ -134,13 +133,12 @@
  
  #: common.c:1965 common.c:2060 common.c:2148
  #, c-format
-@@ -525,12 +526,13 @@
+@@ -525,12 +525,12 @@
  #: common.c:1972 common.c:2067
  #, c-format
  msgid "Skipping UTF-16 file %s, UTF-16 conversion is not supported in this version of %s.\n"
 -msgstr "Hoppar över UTF-16-fil %s, UTF-16-konvertering saknar stöd i denna version av %s.\n"
-+msgstr "Hoppar över UTF-16-filen %s; UTF-16-konvertering stöds inte i den här "
-+"versionen av %s.\n"
++msgstr "Hoppar över UTF-16-filen %s; UTF-16-konvertering stöds inte i den här versionen av %s.\n"
  
  #: common.c:2038 common.c:2137
  #, c-format
@@ -150,7 +148,7 @@
  
  #: common.c:2042
  #, c-format
-@@ -555,12 +557,12 @@
+@@ -555,12 +555,12 @@
  #: common.c:2075
  #, c-format
  msgid "converting file %s to file %s in Unix format...\n"
@@ -165,7 +163,7 @@
  
  #: common.c:2081
  #, c-format
-@@ -626,7 +628,7 @@
+@@ -626,7 +626,7 @@
  #: common.c:2125
  #, c-format
  msgid "problems converting file %s to file %s\n"
@@ -174,7 +172,7 @@
  
  #: common.c:2127
  #, c-format
-@@ -637,7 +639,7 @@
+@@ -637,7 +637,7 @@
  #, fuzzy, c-format
  #| msgid "can not read from input file %s:"
  msgid "cannot read from input file %s:"
@@ -183,7 +181,7 @@
  
  #: common.c:2531
  #, c-format
-@@ -679,7 +681,7 @@
+@@ -679,7 +679,7 @@
  #, fuzzy, c-format
  #| msgid "can not write to output file: %s\n"
  msgid "cannot write to output file: %s\n"
@@ -192,7 +190,7 @@
  
  #: common.c:2939 common.c:2980
  msgid "error: Invalid surrogate pair. Missing low surrogate.\n"
-@@ -697,9 +699,9 @@
+@@ -697,9 +697,9 @@
  #: common.c:3115
  #, c-format
  msgid "Binary symbol 0x00%02X found at line %u\n"

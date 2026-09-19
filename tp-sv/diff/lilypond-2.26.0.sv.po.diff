@@ -140,17 +140,16 @@
  
  #: lilypond-book.py:171 lilypond-book.py:179 lilypond-book.py:206
  #: lilypond-book.py:221 lilypond-book.py:247 lilypond-book.py:255 main.cc:135
-@@ -1514,7 +1514,8 @@
+@@ -1514,7 +1514,7 @@
  #: lilypond-book.py:188
  #, python-format
  msgid "set minimum distance between left margin and staff to PAD (in mm) [default: %default]"
 -msgstr ""
-+msgstr "ange minsta avstånd mellan vänstermarginalen och notsystemet som UTFYLLNAD (i "
-+"mm) [standard: %default]"
++msgstr "ange minsta avstånd mellan vänstermarginalen och notsystemet som UTFYLLNAD (i mm) [standard: %default]"
  
  #: lilypond-book.py:190
  msgid "PAD"
-@@ -1523,25 +1524,26 @@
+@@ -1523,25 +1523,25 @@
  #: lilypond-book.py:196
  #, python-format
  msgid "print lilypond log messages according to LOGLEVEL [default: %default]"
@@ -167,8 +166,7 @@
  #| msgid "print log messages according to LOGLEVEL (NONE, ERROR, WARNING, PROGRESS [default], DEBUG)"
  msgid "print log messages according to LOGLEVEL (NONE, ERROR, WARN, PROGRESS [default], DEBUG)"
 -msgstr "skriv ut loggmeddelanden utefter LOGLEVEL (NONE, ERROR, WARNING, PROGRESS (standard), DEBUG)"
-+msgstr "skriv ut loggmeddelanden enligt LOGGNIVÅ (NONE, ERROR, WARN, PROGRESS "
-+"[standard], DEBUG)"
++msgstr "skriv ut loggmeddelanden enligt LOGGNIVÅ (NONE, ERROR, WARN, PROGRESS [standard], DEBUG)"
  
  #: lilypond-book.py:220
  msgid "write output to DIR"
@@ -182,7 +180,7 @@
  
  #: lilypond-book.py:228
  msgid "COMMAND"
-@@ -1551,11 +1553,11 @@
+@@ -1551,11 +1551,11 @@
  #, fuzzy
  #| msgid "redirect the lilypond output"
  msgid "redirect lilypond output messages to log files"
@@ -196,7 +194,7 @@
  
  #: lilypond-book.py:246
  msgid "do not fail if no lilypond output is found"
-@@ -1575,16 +1577,17 @@
+@@ -1575,16 +1575,16 @@
  
  #: lilypond-book.py:284
  msgid "create PDF files for use with pdftex"
@@ -207,8 +205,7 @@
  #, python-format
  msgid "shift inline images vertically by VSHIFT (a factor of an image's height) [default: %default]"
 -msgstr ""
-+msgstr "förskjut bilder i löpande text lodrätt med FÖRSKJUTNING (en faktor av bildens "
-+"höjd) [standard: %default]"
++msgstr "förskjut bilder i löpande text lodrätt med FÖRSKJUTNING (en faktor av bildens höjd) [standard: %default]"
  
  #: lilypond-book.py:295
  msgid "VSHIFT"
@@ -217,7 +214,7 @@
  
  #: lilypond-book.py:300
  msgid "run executable PROG instead of latex or, in case --pdf option is set, instead of pdflatex"
-@@ -1719,7 +1722,7 @@
+@@ -1719,7 +1719,7 @@
  
  #: midi2ly.py:934
  msgid "found more than 5 voices on a staff, expect bad output"
@@ -226,7 +223,7 @@
  
  #: midi2ly.py:1150
  #, python-format
-@@ -2191,7 +2194,7 @@
+@@ -2191,7 +2191,7 @@
  #, fuzzy
  #| msgid "font index must be non-negative, using index 0"
  msgid "requested dynamics scale factor must be non-negative, setting to 0"
@@ -235,7 +232,7 @@
  
  #: musicxml2ly.py:5879
  #, python-format
-@@ -2220,17 +2223,17 @@
+@@ -2220,17 +2220,17 @@
  
  #: time-tracer.cc:63 time-tracer.cc:118 time-tracer.cc:214
  msgid "failed to write to time-trace file"
@@ -256,7 +253,7 @@
  
  #. Some expected warning was not triggered, so print out a warning.
  #: warn.cc:118
-@@ -2241,12 +2244,12 @@
+@@ -2241,12 +2241,12 @@
  #: warn.cc:197
  #, c-format
  msgid "fatal error: %s"
@@ -271,7 +268,7 @@
  
  #: warn.cc:235
  #, c-format
-@@ -2260,12 +2263,12 @@
+@@ -2260,12 +2260,12 @@
  #: warn.cc:246
  #, c-format
  msgid "suppressed error: %s"
@@ -286,7 +283,7 @@
  
  #: accidental-engraver.cc:162
  #, c-format
-@@ -2275,7 +2278,7 @@
+@@ -2275,7 +2275,7 @@
  #: accidental-engraver.cc:190
  #, c-format
  msgid "procedure or context-name expected for accidental rule, found %s"
@@ -295,7 +292,7 @@
  
  #: accidental.cc:129
  #, c-format
-@@ -2290,7 +2293,7 @@
+@@ -2290,7 +2290,7 @@
  #, fuzzy, c-format
  #| msgid "cannot find context: %s"
  msgid "cannot find font '%s' (search path: %s)"
@@ -304,7 +301,7 @@
  
  #: all-font-metrics.cc:311 font-config.cc:97
  #, c-format
-@@ -2322,7 +2325,7 @@
+@@ -2322,7 +2322,7 @@
  
  #: arpeggio.cc:139
  msgid "no heads for arpeggio found?"
@@ -313,7 +310,7 @@
  
  #: axis-group-engraver.cc:153
  msgid "Axis_group_engraver: vertical group already has a parent"
-@@ -2343,7 +2346,7 @@
+@@ -2343,7 +2343,7 @@
  
  #: axis-group-interface.cc:758
  msgid "an outside-staff object should have a direction, defaulting to up"
@@ -322,7 +319,7 @@
  
  #: axis-group-interface.cc:894
  msgid "Cannot set outside-staff-priority for element and elements' Y parent."
-@@ -2381,17 +2384,17 @@
+@@ -2381,17 +2381,17 @@
  #: breathing-sign.cc:61
  #, c-format
  msgid "do not know how to interpret breath type: %s"
@@ -343,7 +340,7 @@
  
  #: cairo.cc:211
  #, c-format
-@@ -2410,12 +2413,12 @@
+@@ -2410,12 +2410,12 @@
  #: cairo.cc:530 cairo.cc:543
  #, c-format
  msgid "unknown line-cap-style: %s"
@@ -358,7 +355,7 @@
  
  #: cairo.cc:951
  msgid ""
-@@ -2433,7 +2436,7 @@
+@@ -2433,7 +2433,7 @@
  #, fuzzy, c-format
  #| msgid "error reading font file %s: %s"
  msgid "error while reading PNG image: %s"
@@ -367,7 +364,7 @@
  
  #: cairo.cc:1537
  #, c-format
-@@ -2456,7 +2459,7 @@
+@@ -2456,7 +2456,7 @@
  
  #: chord-tremolo-engraver.cc:106
  msgid "unterminated chord tremolo"
@@ -376,7 +373,7 @@
  
  #: clef.cc:65
  #, c-format
-@@ -2470,13 +2473,13 @@
+@@ -2470,13 +2470,13 @@
  
  #: cluster.cc:160
  msgid "junking empty cluster"
@@ -392,7 +389,7 @@
  
  #: constrained-breaking.cc:197 constrained-breaking.cc:218
  msgid "cannot find line breaking that satisfies constraints"
-@@ -2516,7 +2519,7 @@
+@@ -2516,7 +2516,7 @@
  #: deprecated-property.cc:46 deprecated-property.cc:74
  #, c-format
  msgid "the property '%s' is deprecated; use '%s'"
@@ -401,7 +398,7 @@
  
  #: directional-element-interface.cc:33
  #, c-format
-@@ -2595,7 +2598,7 @@
+@@ -2595,7 +2595,7 @@
  
  #: fingering-column-engraver.cc:66
  msgid "Cannot add a fingering without a direction."
@@ -410,7 +407,7 @@
  
  #: flag.cc:138
  #, c-format
-@@ -2611,7 +2614,7 @@
+@@ -2611,7 +2611,7 @@
  #, fuzzy, c-format
  #| msgid "Adding fontconfig configuration file: %s"
  msgid "Creating %sfont configuration..."
@@ -419,7 +416,7 @@
  
  #: font-config.cc:71
  msgid "cannot find fontconfig default config, skipping."
-@@ -2631,7 +2634,7 @@
+@@ -2631,7 +2631,7 @@
  #, fuzzy, c-format
  #| msgid "Adding font directory: %s"
  msgid "Font cache directory: %s\n"
@@ -428,13 +425,12 @@
  
  #: font-config.cc:108
  msgid "Building font database..."
-@@ -2640,22 +2643,23 @@
+@@ -2640,22 +2640,22 @@
  #: font-select.cc:92
  #, c-format
  msgid "font-encoding is invalid, should be 'fetaMusic, 'fetaBraces, 'fetaText or 'latin1: %s"
 -msgstr ""
-+msgstr "font-encoding är ogiltig, ska vara ’fetaMusic, ’fetaBraces, ’fetaText eller "
-+"’latin1: %s"
++msgstr "font-encoding är ogiltig, ska vara ’fetaMusic, ’fetaBraces, ’fetaText eller ’latin1: %s"
  
  #: font-select.cc:95
  msgid "falling back to latin1"
@@ -456,7 +452,7 @@
  
  #: footnote-engraver.cc:53
  msgid "Must be footnote-event."
-@@ -2669,13 +2673,13 @@
+@@ -2669,13 +2669,13 @@
  #, fuzzy, c-format
  #| msgid "cannot find file: `%s'"
  msgid "cannot find file '%s'"
@@ -472,7 +468,7 @@
  
  #: general-scheme.cc:102 midi-stream.cc:67
  #, c-format
-@@ -2693,7 +2697,7 @@
+@@ -2693,7 +2693,7 @@
  
  #: general-scheme.cc:381
  msgid "Found infinity or nan in output.  Substituting 0.0"
@@ -481,7 +477,7 @@
  
  #: general-scheme.cc:504
  #, c-format
-@@ -2732,11 +2736,11 @@
+@@ -2732,11 +2732,11 @@
  
  #: global-context-scheme.cc:131
  msgid "skipping zero-duration score"
@@ -495,7 +491,7 @@
  
  #. The top-level music is LyricCombineMusic or something similar.
  #: global-context.cc:160
-@@ -2781,7 +2785,7 @@
+@@ -2781,7 +2781,7 @@
  #: grob.cc:540
  #, c-format
  msgid "ignored infinite %s-offset"
@@ -504,7 +500,7 @@
  
  #: guile-init.cc:97
  #, c-format
-@@ -2803,7 +2807,7 @@
+@@ -2803,7 +2803,7 @@
  
  #: horizontal-bracket-engraver.cc:61
  msgid "do not have that many brackets"
@@ -513,7 +509,7 @@
  
  #: horizontal-bracket-engraver.cc:70
  msgid "conflicting note group events"
-@@ -2842,12 +2846,12 @@
+@@ -2842,12 +2842,12 @@
  
  #: key-engraver.cc:197
  msgid "Incomplete keyAlterationOrder for key signature"
@@ -528,7 +524,7 @@
  
  #: key-signature-interface.cc:86
  msgid "alteration not found"
-@@ -2885,12 +2889,12 @@
+@@ -2885,12 +2885,12 @@
  #: lily-guile.cc:263
  #, c-format
  msgid "the property '%s' must be of type '%s', ignoring invalid value '%s'"
@@ -543,7 +539,7 @@
  
  #: lily-lexer.cc:257
  #, c-format
-@@ -2936,7 +2940,7 @@
+@@ -2936,7 +2936,7 @@
  
  #: lyric-combine-music-iterator.cc:220
  msgid "argument of \\lyricsto should contain Lyrics context"
@@ -552,7 +548,7 @@
  
  #: main.cc:84
  #, c-format
-@@ -2983,18 +2987,20 @@
+@@ -2983,18 +2983,20 @@
  "https://www.gnu.org/licenses/.\n"
  msgstr ""
  "    Detta program är fri programvara. Du kan distribuera det och/eller\n"
@@ -585,7 +581,7 @@
  
  #: main.cc:112
  msgid "FORMATs"
-@@ -3002,7 +3008,7 @@
+@@ -3002,7 +3004,7 @@
  
  #: main.cc:113
  msgid "dump FORMAT,...  Also as separate options:"
@@ -594,7 +590,7 @@
  
  #: main.cc:114
  msgid "generate PDF files (default)"
-@@ -3022,7 +3028,7 @@
+@@ -3022,7 +3024,7 @@
  
  #: main.cc:118
  msgid "generate Encapsulated PostScript files"
@@ -603,7 +599,7 @@
  
  #: main.cc:119
  msgid "KEY"
-@@ -3038,8 +3044,9 @@
+@@ -3038,8 +3040,9 @@
  "either 'size' (default), 'TeX', or\n"
  "'TeX-GS'"
  msgstr ""
@@ -615,7 +611,7 @@
  
  #: main.cc:123
  msgid "SYM[=VAL]"
-@@ -3051,11 +3058,12 @@
+@@ -3051,11 +3054,12 @@
  msgid ""
  "set Scheme option SYM to VAL (default:\n"
  "'#t')"
@@ -630,7 +626,7 @@
  
  #: main.cc:126
  msgid "set Scheme option SYM to '#f'"
-@@ -3086,9 +3094,8 @@
+@@ -3086,9 +3090,8 @@
  "dump \\header field FIELD to file named\n"
  "BASENAME.FIELD"
  msgstr ""
@@ -642,7 +638,7 @@
  
  #: main.cc:135
  msgid "append DIR to search path"
-@@ -3111,8 +3118,9 @@
+@@ -3111,8 +3114,9 @@
  "chroot to JAIL, become USER:GROUP and cd\n"
  "into DIR"
  msgstr ""
@@ -654,7 +650,7 @@
  
  #: main.cc:143
  #, fuzzy
-@@ -3125,9 +3133,9 @@
+@@ -3125,9 +3129,9 @@
  "which is either NONE, ERROR, WARN,\n"
  "BASIC, PROGRESS, INFO (default), or DEBUG"
  msgstr ""
@@ -667,7 +663,7 @@
  
  #: main.cc:147
  msgid ""
-@@ -3162,7 +3170,10 @@
+@@ -3162,7 +3166,10 @@
  "Top-level directory of LilyPond's data tree:\n"
  "  '%s'\n"
  "\n"
@@ -679,7 +675,7 @@
  
  #: main.cc:212
  #, c-format
-@@ -3186,7 +3197,7 @@
+@@ -3186,7 +3193,7 @@
  
  #: main.cc:254
  msgid "Typeset music and/or produce MIDI from FILE."
@@ -688,7 +684,7 @@
  
  #: main.cc:256
  msgid "LilyPond produces beautiful music notation."
-@@ -3212,7 +3223,7 @@
+@@ -3212,7 +3219,7 @@
  
  #: main.cc:288
  msgid "linked against Ghostscript:"
@@ -697,7 +693,7 @@
  
  #: main.cc:340
  #, c-format
-@@ -3281,38 +3292,39 @@
+@@ -3281,38 +3288,38 @@
  #, fuzzy
  #| msgid "ligature with less than 2 heads -> skipping"
  msgid "ligature with less than 2 heads; skipping"
@@ -731,8 +727,7 @@
  #| msgid "mensural ligature: duration none of Mx, L, B, S -> skipping"
  msgid "mensural ligature: duration none of maxima, longa, breve, or semibreve; skipping"
 -msgstr "mensural ligatur: längd ingen av Mx, L, B, S -> skippar"
-+msgstr "mensural ligatur: längden är inte maxima, longa, breve eller semibreve; "
-+"hoppar över"
++msgstr "mensural ligatur: längden är inte maxima, longa, breve eller semibreve; hoppar över"
  
  #: mensural-ligature-engraver.cc:200
  #, fuzzy
@@ -743,7 +738,7 @@
  
  #: mensural-ligature-engraver.cc:231
  #, fuzzy
-@@ -3328,10 +3340,11 @@
+@@ -3328,10 +3335,11 @@
  "or the ligature must be longa-brevis or\n"
  "semibrevis-semibrevis-brevis"
  msgstr ""
@@ -759,7 +754,7 @@
  
  #: mensural-ligature-engraver.cc:410
  msgid "unexpected case fall-through"
-@@ -3345,17 +3358,17 @@
+@@ -3345,17 +3353,17 @@
  #: midi-item.cc:95
  #, c-format
  msgid "no such MIDI instrument: `%s'"
@@ -780,7 +775,7 @@
  
  #: midi-stream.cc:53
  #, c-format
-@@ -3370,7 +3383,7 @@
+@@ -3370,7 +3378,7 @@
  #: midi-stream.cc:79
  #, c-format
  msgid "cannot write to file: `%s': %s"
@@ -789,7 +784,7 @@
  
  #. LINE BREAKING
  #: minimal-page-breaking.cc:40 one-page-breaking.cc:72 paper-score.cc:115
-@@ -3379,12 +3392,12 @@
+@@ -3379,12 +3387,12 @@
  
  #: minimal-page-breaking.cc:44
  msgid "Calculating page breaks..."
@@ -804,7 +799,7 @@
  
  #: multi-measure-rest.cc:131
  msgid "usable-duration-logs must be a non-empty list.  Falling back to whole rests."
-@@ -3401,7 +3414,7 @@
+@@ -3401,7 +3409,7 @@
  
  #: new-fingering-engraver.cc:263
  msgid "no placement found for fingerings"
@@ -813,7 +808,7 @@
  
  #: new-fingering-engraver.cc:264
  msgid "placing below"
-@@ -3418,7 +3431,7 @@
+@@ -3418,7 +3426,7 @@
  #: note-head.cc:88
  #, c-format
  msgid "none of note heads `%s' or `%s' found"
@@ -822,7 +817,7 @@
  
  #: note-heads-engraver.cc:80
  msgid "NoteEvent without pitch"
-@@ -3439,7 +3452,7 @@
+@@ -3439,7 +3447,7 @@
  #: open-type-font-scheme.cc:285 otf-scheme.cc:58 ttf.cc:456 ttf.cc:505
  #, c-format
  msgid "font index %d too large for font `%s', using index 0"
@@ -831,7 +826,7 @@
  
  #: open-type-font-scheme.cc:248
  #, c-format
-@@ -3456,7 +3469,7 @@
+@@ -3456,7 +3464,7 @@
  #: open-type-font-scheme.cc:367
  #, c-format
  msgid "font `%s' index %d does not have `CFF' table"
@@ -840,17 +835,16 @@
  
  #: open-type-font-scheme.cc:398
  #, c-format
-@@ -3526,7 +3539,8 @@
+@@ -3526,7 +3534,7 @@
  #: open-type-font-scheme.cc:651
  #, c-format
  msgid "font `%s': cannot read field `%s' for table `%s' of subfont %d"
 -msgstr "typsnitt ”%s”: det går inte att läsa fältet ”%s” för tabellen %s i subtypsnitt %d"
-+msgstr "typsnitt ”%s”: det går inte att läsa fältet ”%s” för tabellen ”%s” i "
-+"subtypsnitt %d"
++msgstr "typsnitt ”%s”: det går inte att läsa fältet ”%s” för tabellen ”%s” i subtypsnitt %d"
  
  #: open-type-font-scheme.cc:691
  #, c-format
-@@ -3546,7 +3560,7 @@
+@@ -3546,7 +3554,7 @@
  #: open-type-font.cc:59
  #, c-format
  msgid "cannot load font table: %s"
@@ -859,7 +853,7 @@
  
  #: open-type-font.cc:67
  #, c-format
-@@ -3557,13 +3571,13 @@
+@@ -3557,13 +3565,13 @@
  #, fuzzy
  #| msgid "cannot initialize FreeType"
  msgid "cannot initialize zlib decompression"
@@ -875,7 +869,7 @@
  
  #: open-type-font.cc:141
  #, c-format
-@@ -3611,12 +3625,12 @@
+@@ -3611,12 +3619,12 @@
  #: open-type-font.cc:363
  #, c-format
  msgid "no stem attachment found in font for glyph %s"
@@ -890,7 +884,7 @@
  
  #: open-type-font.cc:516
  #, c-format
-@@ -3634,7 +3648,7 @@
+@@ -3634,7 +3642,7 @@
  #. find out the ideal number of pages
  #: optimal-page-breaking.cc:109
  msgid "Finding the ideal number of pages..."
@@ -899,7 +893,7 @@
  
  #: optimal-page-breaking.cc:134
  #, c-format
-@@ -3654,7 +3668,7 @@
+@@ -3654,7 +3662,7 @@
  #: optimal-page-breaking.cc:166 optimal-page-breaking.cc:231
  #, c-format
  msgid "best score for this sys-count: %f"
@@ -908,17 +902,16 @@
  
  #: optimal-page-breaking.cc:250 page-turn-page-breaking.cc:276
  #: paper-score.cc:155
-@@ -3672,7 +3686,8 @@
+@@ -3672,7 +3680,7 @@
  
  #: output-def.cc:235
  msgid "systems run off the page due to improper paper settings, setting default values"
 -msgstr "systemen hamnar utanför sidan på grund av olämpliga pappersinställningar, ställer in standardvärden"
-+msgstr "systemen hamnar utanför sidan på grund av olämpliga pappersinställningar, "
-+"använder standardvärden"
++msgstr "systemen hamnar utanför sidan på grund av olämpliga pappersinställningar, använder standardvärden"
  
  #: page-breaking.cc:299
  msgid "ignoring min-systems-per-page and max-systems-per-page because systems-per-page was set"
-@@ -3699,7 +3714,7 @@
+@@ -3699,7 +3707,7 @@
  
  #: page-layout-problem.cc:432
  msgid "A page layout problem has been initiated that cannot accommodate footnotes."
@@ -927,13 +920,12 @@
  
  #: page-layout-problem.cc:811
  msgid "ragged-bottom was specified, but page must be compressed"
-@@ -3725,17 +3740,18 @@
+@@ -3725,17 +3733,17 @@
  
  #: page-turn-page-breaking.cc:245
  msgid "cannot fit the first page turn onto a single page.  Consider setting first-page-number to an even number."
 -msgstr "det går inte att passa in den första sidan till en enstaka sida. Fundera på att ställa in first-page-number till ett jämt nummer."
-+msgstr "det går inte att få plats med den första sidvändningen på en enda sida. "
-+"Överväg att ställa in first-page-number till ett jämnt tal."
++msgstr "det går inte att få plats med den första sidvändningen på en enda sida. Överväg att ställa in first-page-number till ett jämnt tal."
  
  #: page-turn-page-breaking.cc:259
  #, c-format
@@ -949,7 +941,7 @@
  
  #: page-turn-page-breaking.cc:331
  #, c-format
-@@ -3761,7 +3777,7 @@
+@@ -3761,7 +3769,7 @@
  #, fuzzy, c-format
  #| msgid "no glyph for character U+%04X in font `%s'"
  msgid "no glyph for character '%s' (U+%04X%s) in font `%s'"
@@ -958,7 +950,7 @@
  
  #: pango-font.cc:455
  #, c-format
-@@ -3775,22 +3791,28 @@
+@@ -3775,22 +3783,22 @@
  #: pango-select.cc:42
  #, c-format
  msgid "unknown font-variant value %s; allowed values are normal and small-caps"
@@ -975,23 +967,17 @@
  #, c-format
  msgid "unknown font-series value %s; allowed values are thin, ultralight (or extralight), light, semilight (or demilight), book, normal (or regular), medium, semibold (or demibold), bold, ultrabold (or extrabold), heavy (or black), and ultraheavy (or ultrablack or extrablack)"
 -msgstr ""
-+msgstr "okänt värde för font-series: %s; tillåtna värden är thin, ultralight (eller "
-+"extralight), light, semilight (eller demilight), book, normal (eller "
-+"regular), medium, semibold (eller demibold), bold, ultrabold (eller "
-+"extrabold), heavy (eller black) och ultraheavy (eller ultrablack eller "
-+"extrablack)"
++msgstr "okänt värde för font-series: %s; tillåtna värden är thin, ultralight (eller extralight), light, semilight (eller demilight), book, normal (eller regular), medium, semibold (eller demibold), bold, ultrabold (eller extrabold), heavy (eller black) och ultraheavy (eller ultrablack eller extrablack)"
  
  #: pango-select.cc:138
  #, c-format
  msgid "unknown font-stretch value %s; allowed values are ultra-condensed, extra-condensed, condensed, semi-condensed, normal, semi-expanded, extra-expanded and ultra-expanded"
 -msgstr ""
-+msgstr "okänt värde för font-stretch: %s; tillåtna värden är ultra-condensed, "
-+"extra-condensed, condensed, semi-condensed, normal, semi-expanded, "
-+"extra-expanded och ultra-expanded"
++msgstr "okänt värde för font-stretch: %s; tillåtna värden är ultra-condensed, extra-condensed, condensed, semi-condensed, normal, semi-expanded, extra-expanded och ultra-expanded"
  
  #: paper-book.cc:359
  #, c-format
-@@ -3815,7 +3837,7 @@
+@@ -3815,7 +3823,7 @@
  #: paper-score.cc:128
  #, c-format
  msgid "Element count %zu (spanners %zu) "
@@ -1000,7 +986,7 @@
  
  #: paper-score.cc:131
  msgid "Preprocessing graphical objects..."
-@@ -3837,13 +3859,13 @@
+@@ -3837,13 +3845,13 @@
  #, fuzzy, c-format
  #| msgid "cannot create temp file: %s: %s"
  msgid "cannot create a zero-track MIDI file; skipping `%s'"
@@ -1016,7 +1002,7 @@
  
  #: piano-pedal-engraver.cc:281
  #, c-format
-@@ -3867,30 +3889,33 @@
+@@ -3867,30 +3875,31 @@
  #: program-option-scheme.cc:329
  #, c-format
  msgid "ignoring option -d%s=\"%s\": value has wrong type"
@@ -1036,8 +1022,7 @@
  #, c-format
  msgid "option %s is accumulative; use ly:append-to-option instead of ly:set-option"
 -msgstr ""
-+msgstr "alternativet %s är ackumulerande; använd ly:append-to-option i stället för "
-+"ly:set-option"
++msgstr "alternativet %s är ackumulerande; använd ly:append-to-option i stället för ly:set-option"
  
  #: program-option-scheme.cc:384 program-option-scheme.cc:405
  #, fuzzy, c-format
@@ -1050,12 +1035,11 @@
  #, c-format
  msgid "option %s is not accumulative; use ly:set-option instead of ly:add-to-option"
 -msgstr ""
-+msgstr "alternativet %s är inte ackumulerande; använd ly:set-option i stället för "
-+"ly:add-to-option"
++msgstr "alternativet %s är inte ackumulerande; använd ly:set-option i stället för ly:add-to-option"
  
  #: property-iterator.cc:67
  #, c-format
-@@ -3919,12 +3944,12 @@
+@@ -3919,12 +3928,12 @@
  #: relocate.cc:94 relocate.cc:114
  #, c-format
  msgid "No such directory '%s' for %s"
@@ -1070,7 +1054,7 @@
  
  #: relocate.cc:129
  #, c-format
-@@ -4021,7 +4046,7 @@
+@@ -4021,7 +4030,7 @@
  #: relocate.cc:414
  #, c-format
  msgid "No relocation config directory '%s'"
@@ -1079,7 +1063,7 @@
  
  #: rest-collision.cc:159
  msgid "cannot resolve rest collision: rest direction not set"
-@@ -4046,7 +4071,7 @@
+@@ -4046,7 +4055,7 @@
  
  #: score.cc:173
  msgid "errors found, ignoring music expression"
@@ -1088,17 +1072,16 @@
  
  #: script-engraver.cc:116
  #, c-format
-@@ -4059,7 +4084,8 @@
+@@ -4059,7 +4068,7 @@
  #. iterated in a debug message.
  #: sequential-iterator.cc:140
  msgid "total length of sequential music elements is different than anticipated"
 -msgstr "den totala längden på de sekventiella musikelementen är annorlunda än förväntat"
-+msgstr "den totala längden på de sekventiella musikelementen skiljer sig från den "
-+"förväntade"
++msgstr "den totala längden på de sekventiella musikelementen skiljer sig från den förväntade"
  
  #. iter_ is !ok earlier than the length of its music predicts.
  #. Mitigate by waiting until the expected time so that the next
-@@ -4071,11 +4097,11 @@
+@@ -4071,11 +4080,11 @@
  #: side-position-interface.cc:494
  #, c-format
  msgid "no side-axis setting found for grob %s."
@@ -1112,7 +1095,7 @@
  
  #: slur-engraver.cc:115
  #, c-format
-@@ -4110,7 +4136,7 @@
+@@ -4110,7 +4119,7 @@
  #: slur.cc:404
  #, c-format
  msgid "Ignoring grob for slur: %s.  avoid-slur not set?"
@@ -1121,7 +1104,7 @@
  
  #: source-file.cc:62
  #, c-format
-@@ -4120,7 +4146,7 @@
+@@ -4120,7 +4129,7 @@
  #: source-file.cc:70
  #, c-format
  msgid "failed to get file size: `%s'"
@@ -1130,7 +1113,7 @@
  
  #: source-file.cc:85
  #, c-format
-@@ -4129,7 +4155,7 @@
+@@ -4129,7 +4138,7 @@
  
  #: staff-performer.cc:296
  msgid "MIDI channel wrapped around"
@@ -1139,7 +1122,7 @@
  
  #: staff-performer.cc:297
  msgid "remapping modulo 16"
-@@ -4158,11 +4184,11 @@
+@@ -4158,11 +4167,11 @@
  
  #: stem.cc:133
  msgid "weird stem size, check for narrow beams"
@@ -1153,7 +1136,7 @@
  
  #: stream-event.cc:113
  #, c-format
-@@ -4172,7 +4198,7 @@
+@@ -4172,7 +4181,7 @@
  #: stream-event.cc:116
  #, c-format
  msgid "discarding event: `%s'"
@@ -1162,7 +1145,7 @@
  
  #: system.cc:191
  #, c-format
-@@ -4182,7 +4208,7 @@
+@@ -4182,7 +4191,7 @@
  #: system.cc:536
  #, c-format
  msgid "Grob count %zu"
@@ -1171,7 +1154,7 @@
  
  #: system.cc:1079
  msgid "refusing to create a grob sticking to a System grob; systems should not be created from custom engravers."
-@@ -4196,11 +4222,11 @@
+@@ -4196,11 +4205,11 @@
  
  #: text-spanner-engraver.cc:63
  msgid "cannot find start of text spanner"
@@ -1185,7 +1168,7 @@
  
  #: text-spanner-engraver.cc:77
  msgid "text spanner was started here"
-@@ -4208,7 +4234,7 @@
+@@ -4208,7 +4217,7 @@
  
  #: text-spanner-engraver.cc:126
  msgid "unterminated text spanner"
@@ -1194,7 +1177,7 @@
  
  #: tie-engraver.cc:111
  msgid "unterminated tie"
-@@ -4220,35 +4246,36 @@
+@@ -4220,35 +4229,35 @@
  
  #: time-signature-engraver.cc:135
  msgid "mid-measure time signature without \\partial"
@@ -1218,8 +1201,7 @@
  #: timing-translator.cc:138
  msgid "cannot calculate a finite measurePosition from an infinite measureLength"
 -msgstr ""
-+msgstr "det går inte att beräkna en ändlig measurePosition från en oändlig "
-+"measureLength"
++msgstr "det går inte att beräkna en ändlig measurePosition från en oändlig measureLength"
  
  #: timing-translator.cc:194
  #, fuzzy, c-format
@@ -1237,17 +1219,16 @@
  
  #: timing-translator.cc:238
  #, fuzzy, c-format
-@@ -4268,7 +4295,8 @@
+@@ -4268,7 +4277,7 @@
  #: translator-group-ctors.cc:40
  #, c-format
  msgid "Couldn't find translator type %s (should be Engraver_group, Performer_group, Score_engraver or Score_performer)"
 -msgstr "Hittade inte översättningstypen %s (bör vara Engraver_group, Performer_group, Score_engraver eller Score_performer)"
-+msgstr "Det gick inte att hitta typen av graverare %s (ska vara Engraver_group, "
-+"Performer_group, Score_engraver eller Score_performer)"
++msgstr "Det gick inte att hitta typen av graverare %s (ska vara Engraver_group, Performer_group, Score_engraver eller Score_performer)"
  
  #: translator-group.cc:157
  #, c-format
-@@ -4277,12 +4305,13 @@
+@@ -4277,12 +4286,12 @@
  
  #: tuplet-engraver.cc:90
  msgid "No tuplet to end"
@@ -1258,22 +1239,20 @@
  #, c-format
  msgid "ignored prefix(es) `%s' of this head according to restrictions of the selected ligature style"
 -msgstr "ignorerade prefix/en ”%s” för detta huvud utefter restriktioner för den valda stilen för ligaturer"
-+msgstr "ignorerade prefixen ”%s” för detta nothuvud enligt den valda ligaturstilens "
-+"begränsningar"
++msgstr "ignorerade prefixen ”%s” för detta nothuvud enligt den valda ligaturstilens begränsningar"
  
  #: vaticana-ligature-engraver.cc:441
  msgid "Ambiguous use of dots in ligature: there are multiple dotted notes with the same pitch.  The ligature should be split."
-@@ -4290,7 +4319,8 @@
+@@ -4290,7 +4299,7 @@
  
  #: vaticana-ligature-engraver.cc:499
  msgid "This ligature has a dotted head followed by a non-dotted head.  The ligature should be split after the last dotted head before this head."
 -msgstr "Denna ligatur har punkterat huvud följt av ett icke-punkterat huvud. Ligaturen bör delas efter den sista prickade huvudet innan detta huvudet."
-+msgstr "Denna ligatur har ett punkterat nothuvud följt av ett opunkterat nothuvud. "
-+"Ligaturen bör delas efter det sista punkterade nothuvudet före detta nothuvud."
++msgstr "Denna ligatur har ett punkterat nothuvud följt av ett opunkterat nothuvud. Ligaturen bör delas efter det sista punkterade nothuvudet före detta nothuvud."
  
  #: vaticana-ligature.cc:89
  msgid "flexa-height undefined; assuming 0"
-@@ -4317,30 +4347,30 @@
+@@ -4317,30 +4326,30 @@
  #: volta-engraver.cc:177
  #, c-format
  msgid "discarding conflicting volta numbers: %s"
@@ -1309,7 +1288,7 @@
  
  #: parser.yy:759
  msgid "Not a markup function"
-@@ -4384,7 +4414,7 @@
+@@ -4384,7 +4393,7 @@
  
  #: parser.yy:2882
  msgid "only \\consists and \\remove take non-string argument."
@@ -1318,7 +1297,7 @@
  
  #: parser.yy:2947
  msgid "bad context property path"
-@@ -4396,7 +4426,7 @@
+@@ -4396,7 +4405,7 @@
  
  #: parser.yy:3047
  msgid "simple string expected"
@@ -1327,7 +1306,7 @@
  
  #: parser.yy:3060 parser.yy:3070
  msgid "symbol expected"
-@@ -4432,7 +4462,7 @@
+@@ -4432,7 +4441,7 @@
  
  #: parser.yy:3642
  msgid "Dropping surplus alteration symbols for bass figure."
@@ -1336,7 +1315,7 @@
  
  #: parser.yy:3720
  msgid "have to be in Note mode for notes"
-@@ -4457,7 +4487,7 @@
+@@ -4457,7 +4466,7 @@
  #: parser.yy:3827
  #, c-format
  msgid "not a note name: %s"
@@ -1345,7 +1324,7 @@
  
  #: parser.yy:3832
  msgid "string outside of text script or \\lyricmode"
-@@ -4467,7 +4497,7 @@
+@@ -4467,7 +4476,7 @@
  #, fuzzy
  #| msgid "not an unsigned integer"
  msgid "not an exact unsigned number"
@@ -1354,7 +1333,7 @@
  
  #: parser.yy:4007 parser.yy:4016
  msgid "not an unsigned integer"
-@@ -4480,17 +4510,17 @@
+@@ -4480,17 +4489,17 @@
  #: parser.yy:4849
  #, c-format
  msgid "Unattached %s"
@@ -1375,7 +1354,7 @@
  
  #: lexer.ll:208
  msgid "stray UTF-8 BOM encountered"
-@@ -4507,11 +4537,11 @@
+@@ -4507,11 +4516,11 @@
  
  #: lexer.ll:292
  msgid "quoted string expected after \\version"
@@ -1389,7 +1368,7 @@
  
  #: lexer.ll:300
  msgid "integer expected after \\sourcefileline"
-@@ -4532,15 +4562,15 @@
+@@ -4532,15 +4541,15 @@
  
  #: lexer.ll:378
  msgid "end quote missing"
@@ -1408,7 +1387,7 @@
  
  #: lexer.ll:750
  msgid "Unfinished main input"
-@@ -4555,16 +4585,16 @@
+@@ -4555,16 +4564,16 @@
  #, fuzzy, c-format
  #| msgid "unknown escaped string: `\\%s'"
  msgid "unknown command: `\\%s'"
@@ -1428,7 +1407,7 @@
  
  #: auto-beam.scm:163
  msgid "Beam end fits no pattern"
-@@ -4588,7 +4618,7 @@
+@@ -4588,7 +4597,7 @@
  #: backend-library.scm:149
  #, scheme-format
  msgid "Converting to `~a'...\n"
@@ -1437,7 +1416,7 @@
  
  #. Do not try to guess the name of the png file,
  #. GS produces PNG files like BASE-page%d.png.
-@@ -4600,7 +4630,7 @@
+@@ -4600,7 +4609,7 @@
  #: backend-library.scm:200
  #, scheme-format
  msgid "Copying to `~a'...\n"
@@ -1446,7 +1425,7 @@
  
  #: backend-library.scm:312
  #, scheme-format
-@@ -4615,7 +4645,7 @@
+@@ -4615,7 +4624,7 @@
  #: backend-library.scm:393
  #, scheme-format
  msgid "Writing header field `~a' to `~a'..."
@@ -1455,7 +1434,7 @@
  
  #: bar-line.scm:97
  #, scheme-format
-@@ -4635,17 +4665,18 @@
+@@ -4635,17 +4644,17 @@
  #: bar-line.scm:205
  #, scheme-format
  msgid "add-bar-glyph-print-procedure: glyph '~a' has to be a single ASCII character."
@@ -1466,8 +1445,7 @@
  #, scheme-format
  msgid "No span bar glyph defined for bar glyph '~a'; ignoring."
 -msgstr "Inget span-taktstreckstecken definierat för takttecken ”~a”'; ignorerar."
-+msgstr "Ingen glyf för förlängt taktstreck definierades för taktstrecksglyfen ”~a”; "
-+"ignorerar."
++msgstr "Ingen glyf för förlängt taktstreck definierades för taktstrecksglyfen ”~a”; ignorerar."
  
  #: chord-entry.scm:54
  #, scheme-format
@@ -1477,7 +1455,7 @@
  
  #: color.scm:804
  #, scheme-format
-@@ -4662,15 +4693,17 @@
+@@ -4662,15 +4671,15 @@
  #. intend to maintain it or replace it.
  #: define-context-properties.scm:1008
  msgid "the property 'barCheckSynchronize' is deprecated"
@@ -1487,18 +1465,16 @@
  #: define-context-properties.scm:1081
  msgid "'voltaSpannerDuration' is deprecated; use the grob property VoltaBracket.musical-length"
 -msgstr ""
-+msgstr "”voltaSpannerDuration” är föråldrad; använd grob-egenskapen "
-+"VoltaBracket.musical-length"
++msgstr "”voltaSpannerDuration” är föråldrad; använd grob-egenskapen VoltaBracket.musical-length"
  
  #: define-context-properties.scm:1093
  msgid "'voltaSpannerDurationAsMoment' is deprecated; use the grob property VoltaBracket.musical-length"
 -msgstr ""
-+msgstr "”voltaSpannerDurationAsMoment” är föråldrad; använd grob-egenskapen "
-+"VoltaBracket.musical-length"
++msgstr "”voltaSpannerDurationAsMoment” är föråldrad; använd grob-egenskapen VoltaBracket.musical-length"
  
  #: define-event-classes.scm:105
  #, scheme-format
-@@ -4694,12 +4727,13 @@
+@@ -4694,12 +4703,12 @@
  #: define-markup-commands.scm:1764
  #, scheme-format
  msgid "unrecognized image file, should have .png or .eps extension: ~a"
@@ -1509,12 +1485,11 @@
  #, scheme-format
  msgid "EPS image dimensions could not be determined; is '~a' a valid EPS file?"
 -msgstr ""
-+msgstr "Det gick inte att fastställa EPS-bildens dimensioner; är ”~a” en giltig "
-+"EPS-fil?"
++msgstr "Det gick inte att fastställa EPS-bildens dimensioner; är ”~a” en giltig EPS-fil?"
  
  #: define-music-callbacks.scm:103
  #, scheme-format
-@@ -4708,7 +4742,7 @@
+@@ -4708,7 +4717,7 @@
  
  #: define-music-callbacks.scm:279
  msgid "ignoring in Timing context"
@@ -1523,7 +1498,7 @@
  
  #: define-music-types.scm:1005
  #, scheme-format
-@@ -4741,7 +4775,7 @@
+@@ -4741,7 +4750,7 @@
  
  #: display-woodwind-diagrams.scm:1673
  msgid "woodwind markup error - invalid key or hole requested"
@@ -1532,7 +1507,7 @@
  
  #: display-woodwind-diagrams.scm:1947
  #, scheme-format
-@@ -4776,7 +4810,7 @@
+@@ -4776,7 +4785,7 @@
  #: documentation-lib.scm:169
  #, scheme-format
  msgid "Writing ~S..."
@@ -1541,7 +1516,7 @@
  
  #: documentation-lib.scm:181
  #, scheme-format
-@@ -4801,7 +4835,7 @@
+@@ -4801,7 +4810,7 @@
  #: framework-ps.scm:253
  #, scheme-format
  msgid "CFF font `~a' already embedded, skipping."
@@ -1550,7 +1525,7 @@
  
  #: framework-ps.scm:256
  #, scheme-format
-@@ -4811,11 +4845,11 @@
+@@ -4811,11 +4820,11 @@
  #: framework-ps.scm:261
  #, scheme-format
  msgid "Embedding CFF font `~a'."
@@ -1564,35 +1539,32 @@
  
  #: framework-ps.scm:288
  #, scheme-format
-@@ -4837,13 +4871,15 @@
+@@ -4837,13 +4846,13 @@
  #, fuzzy, scheme-format
  #| msgid "Font ~a cannot be used in PostScript resource directory because it is unknown format."
  msgid "Font ~S=~S cannot be used in PostScript resource directory because it uses the CFF2 format."
 -msgstr "Typsnittet ~a går inte att läsa in via PostScript-resurskatalog eftersom det är av okänt format."
-+msgstr "Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det "
-+"använder formatet CFF2."
++msgstr "Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det använder formatet CFF2."
  
  #: framework-ps.scm:328
  #, fuzzy, scheme-format
  #| msgid "Font ~a cannot be used in PostScript resource directory because it is unknown format."
  msgid "Font ~S=~S cannot be used in PostScript resource directory because it has an unknown format."
 -msgstr "Typsnittet ~a går inte att läsa in via PostScript-resurskatalog eftersom det är av okänt format."
-+msgstr "Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det "
-+"har ett okänt format."
++msgstr "Typsnittet ~S=~S kan inte användas i PostScript-resurskatalogen eftersom det har ett okänt format."
  
  #: framework-ps.scm:367
  #, scheme-format
-@@ -4858,7 +4894,8 @@
+@@ -4858,7 +4867,7 @@
  #: framework-ps.scm:381
  #, scheme-format
  msgid "Font ~a cannot be used via Ghostscript because it is a TrueType font that does not have glyph names."
 -msgstr "Typsnitt ~a går inte att använda via Ghostscript eftersom det är ett TrueType-typsnitt som inte har teckennamn."
-+msgstr "Typsnittet ~a kan inte användas via Ghostscript eftersom det är ett "
-+"TrueType-typsnitt utan glyfnamn."
++msgstr "Typsnittet ~a kan inte användas via Ghostscript eftersom det är ett TrueType-typsnitt utan glyfnamn."
  
  #: framework-ps.scm:402
  #, scheme-format
-@@ -4868,7 +4905,7 @@
+@@ -4868,7 +4877,7 @@
  #: framework-ps.scm:417
  #, scheme-format
  msgid "cannot embed ~S=~S because PostScript doesn't support the CFF2 format"
@@ -1601,7 +1573,7 @@
  
  #: framework-ps.scm:421
  #, scheme-format
-@@ -4898,7 +4935,7 @@
+@@ -4898,7 +4907,7 @@
  #: framework-ps.scm:536
  #, scheme-format
  msgid "PostScript resource directory `~a' already exists."
@@ -1610,7 +1582,7 @@
  
  #: framework-ps.scm:538
  #, scheme-format
-@@ -4918,7 +4955,7 @@
+@@ -4918,7 +4927,7 @@
  #: framework-ps.scm:546
  #, scheme-format
  msgid "Font directory `~a' already exists."
@@ -1619,7 +1591,7 @@
  
  #: framework-ps.scm:550
  #, scheme-format
-@@ -4928,12 +4965,13 @@
+@@ -4928,12 +4937,12 @@
  #: framework-ps.scm:553
  #, scheme-format
  msgid "Font export directory `~a' already exists."
@@ -1630,12 +1602,11 @@
  #, scheme-format
  msgid "conflict between embedded source files '~a' and '~a', which both have the base file name '~a'; skipping the former one"
 -msgstr ""
-+msgstr "konflikt mellan de inbäddade källfilerna ”~a” och ”~a”, som båda har "
-+"basfilnamnet ”~a”; hoppar över den första"
++msgstr "konflikt mellan de inbäddade källfilerna ”~a” och ”~a”, som båda har basfilnamnet ”~a”; hoppar över den första"
  
  #: framework-ps.scm:750
  msgid "PS backend does not support SVG format"
-@@ -4947,7 +4985,7 @@
+@@ -4947,7 +4956,7 @@
  #: framework-svg.scm:84
  #, scheme-format
  msgid "ignoring unsupported formats ~a"
@@ -1644,7 +1615,7 @@
  
  #: fret-diagrams.scm:33
  #, scheme-format
-@@ -4957,7 +4995,7 @@
+@@ -4957,7 +4966,7 @@
  #: fret-diagrams.scm:980
  #, scheme-format
  msgid "String ~a out of range 1-~a, ignoring"
@@ -1653,7 +1624,7 @@
  
  #: graphviz.scm:65
  #, scheme-format
-@@ -4967,7 +5005,7 @@
+@@ -4967,7 +4976,7 @@
  #: harp-pedals.scm:139
  #, scheme-format
  msgid "Unhandled entry in harp-pedal: ~a"
@@ -1662,17 +1633,16 @@
  
  #: harp-pedals.scm:187
  #, scheme-format
-@@ -5012,7 +5050,8 @@
+@@ -5012,7 +5021,7 @@
  
  #: lily-library.scm:1250
  msgid "version with third number omitted is only allowed for stable releases (when the second number is even)"
 -msgstr "version med tredje siffran utelämnad är endast tillåten för stabila utgåvor (när den andra siffran är jämn)"
-+msgstr "en version utan tredje siffra är endast tillåten för stabila utgåvor (när den "
-+"andra siffran är jämn)"
++msgstr "en version utan tredje siffra är endast tillåten för stabila utgåvor (när den andra siffran är jämn)"
  
  #: lily-library.scm:1263
  #, scheme-format
-@@ -5022,7 +5061,7 @@
+@@ -5022,7 +5031,7 @@
  #: lily-library.scm:1278
  #, scheme-format
  msgid "program too old: ~a (file requires: ~a)"
@@ -1681,7 +1651,7 @@
  
  #: lily-library.scm:1294
  #, scheme-format
-@@ -5035,8 +5074,8 @@
+@@ -5035,8 +5044,8 @@
  "\n"
  msgstr ""
  "\n"
@@ -1692,7 +1662,7 @@
  "\n"
  "  https://lilypond.org/doc/v~a.~a/Documentation/usage/updating-files-with-convert_002dly\n"
  "\n"
-@@ -5059,7 +5098,7 @@
+@@ -5059,7 +5068,7 @@
  #: lily-library.scm:1715
  #, scheme-format
  msgid "no \\version statement found, please add~afor future compatibility"
@@ -1701,7 +1671,7 @@
  
  #: lily-library.scm:1748
  #, scheme-format
-@@ -5084,13 +5123,13 @@
+@@ -5084,13 +5093,13 @@
  #: lily.scm:536
  #, scheme-format
  msgid "Ignoring option -d~a=\"~a\" due to read error: ~a"
@@ -1717,7 +1687,7 @@
  
  #: lily.scm:573
  #, scheme-format
-@@ -5101,20 +5140,20 @@
+@@ -5101,20 +5110,20 @@
  #, fuzzy, scheme-format
  #| msgid "music expected: ~S"
  msgid "note scale expected: ~S"
@@ -1742,7 +1712,7 @@
  
  #: lily.scm:1132
  #, scheme-format
-@@ -5122,18 +5161,18 @@
+@@ -5122,18 +5131,18 @@
  "logfile ~a (exit ~a):\n"
  "~a"
  msgstr ""
@@ -1764,7 +1734,7 @@
  
  #: lily.scm:1185
  #, scheme-format
-@@ -5152,11 +5191,11 @@
+@@ -5152,11 +5161,11 @@
  
  #: ly-syntax-constructors.scm:114
  msgid "not an articulation"
@@ -1778,7 +1748,7 @@
  
  #: markup-macros.scm:372
  #, scheme-format
-@@ -5171,7 +5210,7 @@
+@@ -5171,7 +5180,7 @@
  #: markup-macros.scm:383
  #, scheme-format
  msgid "~A: Invalid argument in position ~A.  Expect: ~A, found: ~S."
@@ -1787,7 +1757,7 @@
  
  #: markup-macros.scm:419
  #, scheme-format
-@@ -5180,11 +5219,11 @@
+@@ -5180,11 +5189,11 @@
  
  #: modal-transforms.scm:37
  msgid "'from' pitch not in scale; ignoring"
@@ -1801,7 +1771,7 @@
  
  #: modal-transforms.scm:45
  msgid "pitch to be transposed not in scale; ignoring"
-@@ -5192,7 +5231,7 @@
+@@ -5192,7 +5201,7 @@
  
  #: modal-transforms.scm:70
  msgid "'around' pitch not in scale; ignoring"
@@ -1810,7 +1780,7 @@
  
  #: modal-transforms.scm:78
  msgid "pitch to be inverted not in scale; ignoring"
-@@ -5216,15 +5255,15 @@
+@@ -5216,15 +5225,15 @@
  
  #: modal-transforms.scm:301
  msgid "Applies pitch-invert to all pitches in @var{music}."
@@ -1829,7 +1799,7 @@
  
  #: music-functions.scm:306
  #, scheme-format
-@@ -5233,7 +5272,7 @@
+@@ -5233,7 +5242,7 @@
  
  #: music-functions.scm:319
  msgid "alternative music expected"
@@ -1838,7 +1808,7 @@
  
  #: music-functions.scm:332
  msgid "More alternatives than repeats.  Junking excess alternatives"
-@@ -5242,7 +5281,7 @@
+@@ -5242,7 +5251,7 @@
  #: music-functions.scm:436
  #, scheme-format
  msgid "unknown repeat-type ~a, ignoring."
@@ -1847,7 +1817,7 @@
  
  #: music-functions.scm:526
  #, scheme-format
-@@ -5261,12 +5300,12 @@
+@@ -5261,12 +5270,12 @@
  
  #: music-functions.scm:941
  msgid "Bad chord repetition"
@@ -1862,7 +1832,7 @@
  
  #: music-functions.scm:1067
  msgid "\\voices needs more ids"
-@@ -5275,12 +5314,12 @@
+@@ -5275,12 +5284,12 @@
  #: music-functions.scm:1086
  #, scheme-format
  msgid "music expected: ~S"
@@ -1877,7 +1847,7 @@
  
  #: music-functions.scm:1629
  msgid "Add @var{octave-shift} to the octave of @var{pitch}."
-@@ -5293,7 +5332,7 @@
+@@ -5293,7 +5302,7 @@
  
  #: music-functions.scm:1693
  msgid "Defaulting to 'any-octave."
@@ -1886,7 +1856,7 @@
  
  #: music-functions.scm:2096
  #, scheme-format
-@@ -5302,7 +5341,7 @@
+@@ -5302,7 +5311,7 @@
  
  #: music-functions.scm:2582
  msgid "giving up on cloned grob transform"
@@ -1895,7 +1865,7 @@
  
  #: music-functions.scm:2645
  #, scheme-format
-@@ -5322,13 +5361,13 @@
+@@ -5322,13 +5331,13 @@
  #: music-functions.scm:2904
  #, scheme-format
  msgid "conflicting tag group ~a"
@@ -1911,7 +1881,7 @@
  
  #: output-lib.scm:681
  #, scheme-format
-@@ -5348,7 +5387,7 @@
+@@ -5348,7 +5357,7 @@
  #, fuzzy, scheme-format
  #| msgid "script-stencil property must be pair: %s"
  msgid "script-stencil property must be pair: ~a"
@@ -1920,7 +1890,7 @@
  
  #: output-lib.scm:2552
  #, scheme-format
-@@ -5365,12 +5404,12 @@
+@@ -5365,12 +5374,12 @@
  "Not enough space to print a nice arrow.\n"
  "Please consider to increase 'minimum-length or decrease 'arrow-length."
  msgstr ""
@@ -1936,7 +1906,7 @@
  
  #: output-lib.scm:3729
  #, scheme-format
-@@ -5380,34 +5419,35 @@
+@@ -5380,34 +5389,35 @@
  #: output-lib.scm:3753
  #, scheme-format
  msgid "no entry in measure-division-chord-placement-alist for measure division ~a"
@@ -1978,7 +1948,7 @@
  
  #: output-svg.scm:239
  msgid "Glyph must have a unicode value"
-@@ -5425,7 +5465,7 @@
+@@ -5425,7 +5435,7 @@
  #: paper.scm:152
  #, scheme-format
  msgid "Unknown unit '~a', using 'pt' instead"
@@ -1987,7 +1957,7 @@
  
  #. The documentation script currently expects units mm or in.
  #. Don't use decimals with millimeters.
-@@ -5477,7 +5517,7 @@
+@@ -5477,7 +5487,7 @@
  #: paper.scm:359
  #, scheme-format
  msgid "This is not a \\layout {} object, ~S"
@@ -1996,7 +1966,7 @@
  
  #: paper.scm:367
  #, scheme-format
-@@ -5494,7 +5534,7 @@
+@@ -5494,7 +5504,7 @@
  #, fuzzy, scheme-format
  #| msgid "unknown clef type `~a'"
  msgid "unknown clef type '~a'"
@@ -2005,7 +1975,7 @@
  
  #: parser-clef.scm:229
  #, fuzzy, scheme-format
-@@ -5511,7 +5551,7 @@
+@@ -5511,7 +5521,7 @@
  #: part-combiner.scm:1081
  #, scheme-format
  msgid "quoted music `~a' is empty"
@@ -2014,20 +1984,18 @@
  
  #: ps-to-png.scm:63
  #, scheme-format
-@@ -5525,25 +5565,27 @@
+@@ -5525,25 +5535,25 @@
  #: qr-code.scm:243
  #, scheme-format
  msgid "too many bytes (~a) to fit in a QR code with correction level ~a (max ~a)"
 -msgstr ""
-+msgstr "för många byte (~a) för att få plats i en QR-kod med felrättningsnivån ~a "
-+"(högst ~a)"
++msgstr "för många byte (~a) för att få plats i en QR-kod med felrättningsnivån ~a (högst ~a)"
  
  #: qr-code.scm:573
  #, scheme-format
  msgid "QR code error correction level must be 'low, 'medium, 'quarter or 'high; found ~s"
 -msgstr ""
-+msgstr "QR-kodens felrättningsnivå måste vara ’low, ’medium, ’quarter eller ’high; "
-+"fick ~s"
++msgstr "QR-kodens felrättningsnivå måste vara ’low, ’medium, ’quarter eller ’high; fick ~s"
  
  #: qr-code.scm:586
  #, scheme-format
@@ -2047,7 +2015,7 @@
  
  #: scheme-engravers.scm:278
  msgid "cannot find start of measure spanner"
-@@ -5563,39 +5605,40 @@
+@@ -5563,39 +5573,39 @@
  "ignoring. If you want to bend an open string, consider to override/tweak the\n"
  "'bend-me property."
  msgstr ""
@@ -2055,8 +2023,7 @@
 -"ignorerar. Om du vill böja en öppen sträng bör du överväga att åsidosätta/ändra\n"
 -"'böj-mig-egenskapen."
 +"Inga noter hittades att utgå från,\n"
-+"ignorerar. Om du vill böja en lös sträng kan du överväga att åsidosätta eller "
-+"justera\n"
++"ignorerar. Om du vill böja en lös sträng kan du överväga att åsidosätta eller justera\n"
 +"egenskapen ’bend-me."
  
  #: scheme-engravers.scm:900
@@ -2097,7 +2064,7 @@
  
  #: stencil.scm:796
  msgid "Both angle-increments and radial-increments must be positive numbers."
-@@ -5606,17 +5649,17 @@
+@@ -5606,17 +5616,17 @@
  #: time-signature-settings.scm:1017
  #, scheme-format
  msgid "the function '~a' is deprecated; use '~a'"
@@ -2118,7 +2085,7 @@
  
  #: translation-functions.scm:672
  #, scheme-format
-@@ -5645,7 +5688,7 @@
+@@ -5645,7 +5655,7 @@
  
  #: translation-functions.scm:751
  msgid "Ignoring string request and recalculating."
@@ -2127,7 +2094,7 @@
  
  #: translation-functions.scm:763
  msgid "Ignoring note in tablature."
-@@ -5667,7 +5710,7 @@
+@@ -5667,7 +5677,7 @@
  "only ~a fret labels provided"
  msgstr ""
  "Ingen etikett för band ~a (på sträng ~a);\n"

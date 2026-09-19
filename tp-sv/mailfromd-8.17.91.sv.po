@@ -517,8 +517,7 @@ msgstr "filterfunktionerna %#lx stämmer inte överens med MTA:s milterfunktione
 #: gacopyz/server.c:1186
 #, c-format
 msgid "protocol abilities %#lx do not match MTA milter abilities %#lx"
-msgstr "protokollfunktionerna %#lx stämmer inte överens med MTA:s milterfunktioner "
-"%#lx"
+msgstr "protokollfunktionerna %#lx stämmer inte överens med MTA:s milterfunktioner %#lx"
 
 #: gacopyz/server.c:1285
 #, c-format
@@ -712,8 +711,7 @@ msgstr "kan inte hämta process-id från pidfilen `%s`"
 #: lib/server.c:59
 #, c-format
 msgid "%s appears to run with pid %lu. If it does not, remove `%s' and retry."
-msgstr "%s verkar köras med process-id %lu. Om så inte är fallet, ta bort `%s` och "
-"försök igen."
+msgstr "%s verkar köras med process-id %lu. Om så inte är fallet, ta bort `%s` och försök igen."
 
 #: lib/server.c:68
 #, c-format
@@ -1188,8 +1186,7 @@ msgstr "kommunicera med Milter PORT"
 
 #: mtasim/mtasim.c:710
 msgid "pass temporary directory to mailfromd as its state dir (with -Xauto)"
-msgstr "skicka en tillfällig katalog till mailfromd som dess tillståndskatalog (med "
-"-Xauto)"
+msgstr "skicka en tillfällig katalog till mailfromd som dess tillståndskatalog (med -Xauto)"
 
 #: mtasim/mtasim.c:712 src/mfdbtool.c:281
 msgid "NUMBER"
@@ -1546,8 +1543,7 @@ msgstr "kan inte infoga data `%-.*s` i greylistdatabasen %s: %s"
 #: src/builtin/db.bi:742
 #, c-format
 msgid "is_greylisted is not implemented for traditional greylist databases; see documentation, chapter %s %s for more info"
-msgstr "is_greylisted är inte implementerat för traditionella greylistdatabaser; se "
-"dokumentationen, kapitel %s %s, för mer information"
+msgstr "is_greylisted är inte implementerat för traditionella greylistdatabaser; se dokumentationen, kapitel %s %s, för mer information"
 
 #: src/builtin/db.bi:937 src/builtin/db.bi:947 src/builtin/db.bi:957
 #: src/builtin/db.bi:967
@@ -2910,8 +2906,7 @@ msgstr "förväntade en tilldelning men fick `%s`"
 
 #: src/main.c:423
 msgid "preprocessor options given, but no default preprocessor defined: use the --preprocessor option"
-msgstr "flaggor för förbehandlaren angivna, men ingen standardförbehandlare "
-"definierad: använd flaggan --preprocessor"
+msgstr "flaggor för förbehandlaren angivna, men ingen standardförbehandlare definierad: använd flaggan --preprocessor"
 
 #: src/main.c:438 src/main.c:449
 msgid "Your configuration file disables passing defines to the preprocessor"
@@ -2978,8 +2973,7 @@ msgstr "lägg till DIR i laddningssökvägen"
 
 #: src/main.c:582
 msgid "add the directory DIR to the list of directories to be searched for header files"
-msgstr "lägg till katalogen DIR i listan över kataloger som ska genomsökas efter "
-"huvudfiler"
+msgstr "lägg till katalogen DIR i listan över kataloger som ska genomsökas efter huvudfiler"
 
 #: src/main.c:586
 msgid "add the directory DIR to the list of directories to be searched for MFL module files"
@@ -3146,8 +3140,7 @@ msgstr "url"
 
 #: src/main.c:871
 msgid "Add directories to the list of directories to be searched for header files.  Argument is a list of directory names separated by colons."
-msgstr "Lägger till kataloger i listan över kataloger som ska genomsökas efter "
-"huvudfiler. Argumentet är en lista med katalognamn åtskilda med kolon."
+msgstr "Lägger till kataloger i listan över kataloger som ska genomsökas efter huvudfiler. Argumentet är en lista med katalognamn åtskilda med kolon."
 
 #: src/main.c:874 src/main.c:879
 msgid "path: string"
@@ -3433,13 +3426,11 @@ msgstr "Skicka include-sökvägen till förbehandlaren via flaggorna -I (standar
 
 #: src/pp.c:384
 msgid "Pass feature definition and defines from the command line to the preprocessor via -D options (default: true)"
-msgstr "Skicka funktionsdefinitioner och definitioner från kommandoraden till "
-"förbehandlaren via flaggorna -D (standard: true)"
+msgstr "Skicka funktionsdefinitioner och definitioner från kommandoraden till förbehandlaren via flaggorna -D (standard: true)"
 
 #: src/pp.c:386
 msgid "Name of the preprocessor setup file.  Looked up in include search path, unless absolute."
-msgstr "Namnet på förbehandlarens inställningsfil. Söks i include-sökvägen, om den "
-"inte är absolut."
+msgstr "Namnet på förbehandlarens inställningsfil. Söks i include-sökvägen, om den inte är absolut."
 
 #: src/pp.c:397
 msgid "MFL preprocessor configuration."
@@ -3465,8 +3456,7 @@ msgstr "förbehandlaren avslutades onormalt"
 
 #: src/pp.c:560
 msgid "preprocessor options given, but the use of preprocessor is disabled; use the --preprocessor option"
-msgstr "flaggor för förbehandlaren angivna, men användningen av förbehandlaren är "
-"inaktiverad; använd flaggan --preprocessor"
+msgstr "flaggor för förbehandlaren angivna, men användningen av förbehandlaren är inaktiverad; använd flaggan --preprocessor"
 
 #: src/pragma.c:175
 msgid "too few arguments in pragma"
@@ -3794,9 +3784,7 @@ msgstr "Ställ in domännamnet för kommandot EHLO."
 
 #: src/srvcfg.c:546
 msgid "Set email address for use in SMTP `MAIL FROM' command.  Argument is an email address or a comma-separated list of addresses.  Use <> for null address.  Other addresses can be given without angle brackets."
-msgstr "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM`. "
-"Argumentet är en e-postadress eller en kommaseparerad lista med adresser. "
-"Använd <> för en tom adress. Andra adresser kan anges utan vinkelparenteser."
+msgstr "Ange en e-postadress som ska användas i SMTP-kommandot `MAIL FROM`. Argumentet är en e-postadress eller en kommaseparerad lista med adresser. Använd <> för en tom adress. Andra adresser kan anges utan vinkelparenteser."
 
 #: src/srvcfg.c:550
 msgid "addr"
@@ -4010,11 +3998,7 @@ msgstr "Ange tidsgräns för anslutning."
 
 #: pmult/pmult.c:436
 msgid "Set log verbosity level. Arg is a list of items separated by commas or whitespace.  Each item is a log level optionally prefixed with `!' to indicate `any level except this', or '<', meaning `all levels up to and including this'.  Log levels in order of increasing priority are: proto, debug, info, warn, err, fatal."
-msgstr "Ange loggens detaljnivå. Argumentet är en lista med objekt som separeras med "
-"kommatecken eller blanksteg. Varje objekt är en loggnivå som kan föregås av "
-"`!` för att ange ”alla nivåer utom denna”, eller `<`, vilket betyder ”alla "
-"nivåer upp till och inklusive denna”. Loggnivåerna i stigande "
-"prioritetsordning är: proto, debug, info, warn, err, fatal."
+msgstr "Ange loggens detaljnivå. Argumentet är en lista med objekt som separeras med kommatecken eller blanksteg. Varje objekt är en loggnivå som kan föregås av `!` för att ange ”alla nivåer utom denna”, eller `<`, vilket betyder ”alla nivåer upp till och inklusive denna”. Loggnivåerna i stigande prioritetsordning är: proto, debug, info, warn, err, fatal."
 
 #: pmult/pmult.c:441
 msgid "arg: list"
@@ -4059,8 +4043,7 @@ msgstr "för många argument för define-macros"
 
 #: pmult/pmult.c:653
 msgid "too many macros defined for stage \"mail\", while processing \"auth-macros\" statement"
-msgstr "för många makron definierade för stadiet ”mail” vid bearbetning av satsen "
-"”auth-macros”"
+msgstr "för många makron definierade för stadiet ”mail” vid bearbetning av satsen ”auth-macros”"
 
 #: pmult/pmult.c:676
 msgid "Listen for milter requests on the given URL."
@@ -4104,11 +4087,9 @@ msgid ""
 "  <module: string>[=<level: number>]\n"
 "where <module> is the name of a Mailfromd module, and <level> is the desired verbosity level for that module."
 msgstr ""
-"Anger Mailfromds felsökningsdetaljnivå. Argumentet är en kommaseparerad lista "
-"med felsökningsspecifikationer, som var och en har följande form:\n"
+"Anger Mailfromds felsökningsdetaljnivå. Argumentet är en kommaseparerad lista med felsökningsspecifikationer, som var och en har följande form:\n"
 "  <module: string>[=<level: number>]\n"
-"där <module> är namnet på en Mailfromd-modul och <level> är den önskade "
-"detaljnivån för den modulen."
+"där <module> är namnet på en Mailfromd-modul och <level> är den önskade detaljnivån för den modulen."
 
 #: pmult/pmult.c:708 pmult/pmult.c:711 pmult/pmult.c:714 pmult/pmult.c:717
 #: pmult/pmult.c:720

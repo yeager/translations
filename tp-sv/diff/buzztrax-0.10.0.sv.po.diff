@@ -1,6 +1,6 @@
 --- a/buzztrax-0.10.0.sv.po
 +++ b/buzztrax-0.10.0.sv.po
-@@ -21,12 +21,14 @@
+@@ -21,12 +21,12 @@
  
  #: ../buzztrax.appdata.xml.in.h:1
  msgid "Fully integrated music composer."
@@ -11,13 +11,11 @@
  #: ../buzztrax.appdata.xml.in.h:3
  msgid "Buzztrax is a music composer similar to tracker applications. It is roughly modelled after the windows only, closed source application called Buzz."
 -msgstr "Buzztrax är en musikkompositör liknande tracker-programvaror. Den har i stora drag modellerats efter den stängda Windowsprogramvaran Buzz."
-+msgstr "Buzztrax är ett musikkompositionsprogram som liknar tracker-program. Det är i "
-+"stora drag utformat efter Buzz, ett program med sluten källkod som bara finns "
-+"för Windows."
++msgstr "Buzztrax är ett musikkompositionsprogram som liknar tracker-program. Det är i stora drag utformat efter Buzz, ett program med sluten källkod som bara finns för Windows."
  
  #: ../src/lib/core/core.c:181
  msgid "Print the buzztrax core version"
-@@ -46,7 +48,7 @@
+@@ -46,7 +46,7 @@
  
  #: ../src/lib/core/cmd-pattern.c:153
  msgid "break"
@@ -26,7 +24,7 @@
  
  #: ../src/lib/core/cmd-pattern.c:153
  msgid "mute"
-@@ -68,7 +70,7 @@
+@@ -68,7 +68,7 @@
  #: ../src/lib/core/song-io.c:322
  #, c-format
  msgid "No io-module for filename '%s'."
@@ -35,7 +33,7 @@
  
  #: ../src/lib/core/song-io.c:349
  #, c-format
-@@ -78,7 +80,7 @@
+@@ -78,7 +78,7 @@
  #: ../src/lib/core/song-io.c:360
  #, c-format
  msgid "No io-module for media-type '%s'."
@@ -44,7 +42,7 @@
  
  #: ../src/lib/core/song-io.c:415
  #, c-format
-@@ -111,7 +113,7 @@
+@@ -111,7 +111,7 @@
  #: ../src/lib/core/song-io-native-xml.c:83
  #, c-format
  msgid "XML document is empty."
@@ -53,7 +51,7 @@
  
  #: ../src/lib/core/song-io-native-bzt.c:325
  #: ../src/lib/core/song-io-native-xml.c:88
-@@ -122,7 +124,7 @@
+@@ -122,7 +122,7 @@
  #. default name for new songs
  #: ../src/lib/core/song-info.c:122
  msgid "untitled song"
@@ -62,7 +60,7 @@
  
  #: ../src/lib/core/songio/bsl/buzztrax-songio-buzz.desktop.in.h:1
  #: ../src/ui/edit/buzztrax-edit.desktop.in.h:1
-@@ -132,7 +134,7 @@
+@@ -132,7 +132,7 @@
  #: ../src/lib/core/songio/bsl/song-io-buzz.c:2385
  #, c-format
  msgid "Error reading a buzz file section."
@@ -71,7 +69,7 @@
  
  #: ../src/lib/core/songio/bsl/song-io-buzz.c:2391
  #, c-format
-@@ -170,7 +172,7 @@
+@@ -170,7 +170,7 @@
  #: ../src/ui/cmd/bt-cmd.c:89 ../src/ui/cmd/bt-cmd.c:91
  #: ../src/ui/edit/bt-edit.c:98
  msgid "<songfile>"
@@ -80,34 +78,26 @@
  
  #: ../src/ui/cmd/bt-cmd.c:90
  msgid "Output file name"
-@@ -213,15 +215,23 @@
+@@ -213,15 +213,15 @@
  msgstr ""
  "Detta program är fri programvara. Du kan distribuera det och/eller modifiera det under villkoren i GNU Library General Public License, publicerad av Free Software Foundation, antingen version 2.1 eller (om du så vill) någon senare version.\n"
  "\n"
 -"Detta program distribueras i hopp om att det ska vara användbart, men UTAN NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License för ytterligare information.\n"
-+"Detta program distribueras i hopp om att det ska vara användbart, men UTAN "
-+"NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller "
-+"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU Library General Public License "
-+"för ytterligare information.\n"
++"Detta program distribueras i hopp om att det ska vara användbart, men UTAN NÅGON SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU Library General Public License för ytterligare information.\n"
  "\n"
 -"Du bör ha fått en kopia av GNU General Public License tillsammans med detta program. Om inte, skriv till Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA."
-+"Du bör ha fått en kopia av GNU Library General Public License tillsammans med "
-+"detta program. Om inte, skriv till Free Software Foundation, Inc., 51 "
-+"Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA."
++"Du bör ha fått en kopia av GNU Library General Public License tillsammans med detta program. Om inte, skriv till Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA."
  
  #. "Development version (do not translate this)"
  #.
  #: ../src/ui/edit/about-dialog.c:117
  msgid "Just a few month since the previous release, this update mostly focuses on getting rid of deprecated APIs. Besides that it also come with a new synthesizer plugin called 'ebeats'. As the name suggests it is good at making percussion sounds. Together with that the library providing the dsp components got overhauled."
 -msgstr "Då det bara är ett par månader sedan den föregående släppet, så fokuserar denna uppdatering mestadels på att bli av med föråldrade API:er. Förutom detta så finns det också en ny synthesizer-insticksmodul som heter 'ebeats'. Som namnet antyder så är den bra på att göra slagverksljud. Tillsammans med detta så har biblioteket som tillhandahåller dsp-komponenter reviderats."
-+msgstr "Bara några månader efter den föregående utgåvan fokuserar denna uppdatering "
-+"främst på att ta bort användningen av föråldrade API:er. Den innehåller även "
-+"en ny syntinsticksmodul som heter ”ebeats”. Som namnet antyder passar den bra "
-+"för slagverksljud. Dessutom har biblioteket med DSP-komponenter omarbetats."
++msgstr "Bara några månader efter den föregående utgåvan fokuserar denna uppdatering främst på att ta bort användningen av föråldrade API:er. Den innehåller även en ny syntinsticksmodul som heter ”ebeats”. Som namnet antyder passar den bra för slagverksljud. Dessutom har biblioteket med DSP-komponenter omarbetats."
  
  #: ../src/ui/edit/bt-edit.c:107
  msgid "buzztrax-edit options"
-@@ -233,11 +243,11 @@
+@@ -233,11 +233,11 @@
  
  #: ../src/ui/edit/buzztrax-edit.desktop.in.h:2
  msgid "Edit buzztrax song files"
@@ -121,7 +111,7 @@
  
  #. the song recovery has been finished
  #: ../src/ui/edit/crash-recover-dialog.c:174
-@@ -246,11 +256,11 @@
+@@ -246,11 +246,11 @@
  
  #: ../src/ui/edit/crash-recover-dialog.c:175
  msgid "The selected song has been recovered successful."
@@ -135,7 +125,7 @@
  
  #. FIXME(ensonic): the log is still there
  #. * - this dialog should be a warning
-@@ -263,15 +273,15 @@
+@@ -263,15 +263,15 @@
  
  #: ../src/ui/edit/crash-recover-dialog.c:185
  msgid "Sorry, the selected song could not be fully recovered."
@@ -154,7 +144,7 @@
  
  #. add dialog commision widgets (okay)
  #. FIXME(ensonic): add Okay, Cancel, Delete
-@@ -283,7 +293,7 @@
+@@ -283,7 +283,7 @@
  
  #: ../src/ui/edit/crash-recover-dialog.c:243
  msgid "Unsaved songs found"
@@ -163,7 +153,7 @@
  
  #: ../src/ui/edit/crash-recover-dialog.c:244
  msgid "Select them one by one and choose 'recover' or 'delete'."
-@@ -291,7 +301,7 @@
+@@ -291,7 +291,7 @@
  
  #: ../src/ui/edit/crash-recover-dialog.c:264
  msgid "Song file"
@@ -172,13 +162,12 @@
  
  #: ../src/ui/edit/crash-recover-dialog.c:270
  msgid "Last changed"
-@@ -317,18 +327,19 @@
+@@ -317,18 +317,18 @@
  
  #: ../src/ui/edit/edit-application.c:181
  msgid "-> Sample playback previews from the wavetable page will not work."
 -msgstr "-> Uppspelning av samplingar från sidan med vågformstabellen kommer ej att fungera."
-+msgstr "-> Förhandslyssning på samplingar från sidan med vågformstabellen kommer inte "
-+"att fungera."
++msgstr "-> Förhandslyssning på samplingar från sidan med vågformstabellen kommer inte att fungera."
  
  #: ../src/ui/edit/edit-application.c:240 ../src/ui/edit/main-menu.c:105
  #: ../src/ui/edit/main-window.c:156
@@ -195,7 +184,7 @@
  
  #: ../src/ui/edit/interaction-controller-menu.c:296
  msgid "Learn…"
-@@ -364,7 +375,7 @@
+@@ -364,7 +364,7 @@
  
  #: ../src/ui/edit/machine-canvas-item.c:784
  msgid "Mute"
@@ -204,7 +193,7 @@
  
  #: ../src/ui/edit/machine-canvas-item.c:794
  msgid "Solo"
-@@ -447,7 +458,7 @@
+@@ -447,7 +447,7 @@
  #. set dialog title
  #: ../src/ui/edit/machine-preset-properties-dialog.c:140
  msgid "preset name and comment"
@@ -213,7 +202,7 @@
  
  #. add dialog commision widgets (okay, cancel)
  #. add dialog commision widgets (okay)
-@@ -487,7 +498,7 @@
+@@ -487,7 +487,7 @@
  #: ../src/ui/edit/machine-preferences-dialog.c:509
  #, c-format
  msgid "%s preferences"
@@ -222,7 +211,7 @@
  
  #: ../src/ui/edit/machine-properties-dialog.c:691
  msgid "Reset parameter"
-@@ -499,7 +510,7 @@
+@@ -499,7 +499,7 @@
  
  #: ../src/ui/edit/machine-properties-dialog.c:708
  msgid "Copy parameter"
@@ -231,7 +220,7 @@
  
  #: ../src/ui/edit/machine-properties-dialog.c:714
  #: ../src/ui/edit/machine-properties-dialog.c:814
-@@ -599,22 +610,22 @@
+@@ -599,22 +599,22 @@
  #: ../src/ui/edit/pattern-properties-dialog.c:142
  #, c-format
  msgid "%s properties"
@@ -258,7 +247,7 @@
  
  #. gtk_menu_set_accel_path(GTK_MENU(self),"<Buzztrax-Main>/MainMenu");
  #. -- file menu
-@@ -642,7 +653,7 @@
+@@ -642,7 +642,7 @@
  
  #: ../src/ui/edit/main-menu.c:834
  msgid "Recover unsaved songs"
@@ -267,7 +256,7 @@
  
  #: ../src/ui/edit/main-menu.c:844
  msgid "_Record"
-@@ -709,7 +720,7 @@
+@@ -709,7 +709,7 @@
  
  #: ../src/ui/edit/main-menu.c:992
  msgid "Go to song information"
@@ -276,7 +265,7 @@
  
  #. TODO(ensonic): zoom menu items
  #. *  machine view:  zoom-in/zoom-out/zoom-fit
-@@ -776,7 +787,7 @@
+@@ -776,7 +776,7 @@
  
  #: ../src/ui/edit/main-page-info.c:409
  msgid "song meta data"
@@ -285,7 +274,7 @@
  
  #: ../src/ui/edit/main-page-info.c:436
  msgid "genre"
-@@ -800,7 +811,7 @@
+@@ -800,7 +800,7 @@
  
  #: ../src/ui/edit/main-page-info.c:511
  msgid "ticks per beat"
@@ -294,7 +283,7 @@
  
  #: ../src/ui/edit/main-page-info.c:524
  msgid "last saved"
-@@ -808,7 +819,7 @@
+@@ -808,7 +808,7 @@
  
  #: ../src/ui/edit/main-page-info.c:539
  msgid "free text info"
@@ -303,7 +292,7 @@
  
  #: ../src/ui/edit/main-page-machines.c:1593
  msgid "Add machine"
-@@ -816,7 +827,7 @@
+@@ -816,7 +816,7 @@
  
  #: ../src/ui/edit/main-page-machines.c:1603
  msgid "Unmute all machines"
@@ -312,7 +301,7 @@
  
  #: ../src/ui/edit/main-page-machines.c:1620
  msgid "Off"
-@@ -943,7 +954,7 @@
+@@ -943,7 +943,7 @@
  
  #: ../src/ui/edit/main-page-patterns.c:3168
  msgid "Remove last voice"
@@ -321,7 +310,7 @@
  
  #: ../src/ui/edit/main-page-patterns.c:3183
  msgid "New pattern …"
-@@ -979,7 +990,7 @@
+@@ -979,7 +979,7 @@
  
  #: ../src/ui/edit/main-page-sequence.c:1198
  msgid "Ticks"
@@ -330,7 +319,7 @@
  
  #: ../src/ui/edit/main-page-sequence.c:1200
  msgid "Time"
-@@ -996,7 +1007,7 @@
+@@ -996,7 +996,7 @@
  
  #: ../src/ui/edit/main-page-sequence.c:3569
  msgid "Show every n-th line"
@@ -339,7 +328,7 @@
  
  #: ../src/ui/edit/main-page-sequence.c:3579
  msgid "Steps"
-@@ -1036,7 +1047,7 @@
+@@ -1036,7 +1036,7 @@
  
  #: ../src/ui/edit/main-page-sequence.c:3906
  msgid "Key"
@@ -348,7 +337,7 @@
  
  #: ../src/ui/edit/main-page-sequence.c:3921
  msgid "Patterns"
-@@ -1044,7 +1055,7 @@
+@@ -1044,7 +1044,7 @@
  
  #: ../src/ui/edit/main-page-sequence.c:4569
  msgid "Add new tracks from right click context menu."
@@ -357,7 +346,7 @@
  
  #: ../src/ui/edit/main-page-waves.c:1302
  msgid "Play current wave table entry as C-4"
-@@ -1084,7 +1095,7 @@
+@@ -1084,7 +1084,7 @@
  
  #: ../src/ui/edit/main-page-waves.c:1471
  msgid "Root"
@@ -366,7 +355,7 @@
  
  #: ../src/ui/edit/main-page-waves.c:1479
  msgid "Length"
-@@ -1092,15 +1103,15 @@
+@@ -1092,15 +1092,15 @@
  
  #: ../src/ui/edit/main-page-waves.c:1487
  msgid "Rate"
@@ -385,7 +374,7 @@
  
  #: ../src/ui/edit/main-pages.c:177
  msgid "machines"
-@@ -1108,7 +1119,7 @@
+@@ -1108,7 +1108,7 @@
  
  #: ../src/ui/edit/main-pages.c:178
  msgid "machines used in the song and their wires"
@@ -394,7 +383,7 @@
  
  #: ../src/ui/edit/main-pages.c:184
  msgid "patterns"
-@@ -1116,7 +1127,7 @@
+@@ -1116,7 +1116,7 @@
  
  #: ../src/ui/edit/main-pages.c:184
  msgid "event pattern editor"
@@ -403,7 +392,7 @@
  
  #: ../src/ui/edit/main-pages.c:190
  msgid "sequence"
-@@ -1124,7 +1135,7 @@
+@@ -1124,7 +1124,7 @@
  
  #: ../src/ui/edit/main-pages.c:190
  msgid "song sequence editor"
@@ -412,7 +401,7 @@
  
  #: ../src/ui/edit/main-pages.c:196
  msgid "wave table"
-@@ -1132,7 +1143,7 @@
+@@ -1132,7 +1132,7 @@
  
  #: ../src/ui/edit/main-pages.c:196
  msgid "sample wave table editor"
@@ -421,7 +410,7 @@
  
  #: ../src/ui/edit/main-pages.c:202
  msgid "information"
-@@ -1140,7 +1151,7 @@
+@@ -1140,7 +1140,7 @@
  
  #: ../src/ui/edit/main-pages.c:202
  msgid "song meta data editor"
@@ -430,7 +419,7 @@
  
  #: ../src/ui/edit/main-statusbar.c:324
  msgid "CPU load"
-@@ -1168,15 +1179,15 @@
+@@ -1168,15 +1168,15 @@
  
  #: ../src/ui/edit/main-toolbar.c:867
  msgid "Prepare a new empty song"
@@ -449,7 +438,7 @@
  
  #: ../src/ui/edit/main-toolbar.c:890
  msgid "R_ewind"
-@@ -1184,11 +1195,11 @@
+@@ -1184,11 +1184,11 @@
  
  #: ../src/ui/edit/main-toolbar.c:892
  msgid "Rewind playback position of this song"
@@ -463,7 +452,7 @@
  
  #: ../src/ui/edit/main-toolbar.c:912
  msgid "_Forward"
-@@ -1196,11 +1207,11 @@
+@@ -1196,11 +1196,11 @@
  
  #: ../src/ui/edit/main-toolbar.c:914
  msgid "Forward playback position of this song"
@@ -477,24 +466,22 @@
  
  #: ../src/ui/edit/main-toolbar.c:935
  msgid "Toggle looping of playback"
-@@ -1259,12 +1270,14 @@
+@@ -1259,12 +1259,12 @@
  #: ../src/ui/edit/main-window.c:353
  #, c-format
  msgid "All unsaved changes since %s will be lost. This song was last saved on: %s"
 -msgstr "Alla osparade ändringar sedan %s kommer att gå förlorade. Denna sången sparades senast: %s"
-+msgstr "Alla osparade ändringar sedan %s kommer att gå förlorade. Denna låt sparades "
-+"senast: %s"
++msgstr "Alla osparade ändringar sedan %s kommer att gå förlorade. Denna låt sparades senast: %s"
  
  #: ../src/ui/edit/main-window.c:358
  #, c-format
  msgid "All unsaved changes since %s will be lost. This song was created on: %s"
 -msgstr "Alla osparade ändringar sedan %s kommer att gå förlorade. Denna sången skapades: %s"
-+msgstr "Alla osparade ändringar sedan %s kommer att gå förlorade. Denna låt skapades: "
-+"%s"
++msgstr "Alla osparade ändringar sedan %s kommer att gå förlorade. Denna låt skapades: %s"
  
  #: ../src/ui/edit/main-window.c:544 ../src/ui/edit/main-window.c:545
  msgid "Really quit?"
-@@ -1272,25 +1285,25 @@
+@@ -1272,25 +1272,25 @@
  
  #: ../src/ui/edit/main-window.c:557
  msgid "New song?"
@@ -525,17 +512,16 @@
  
  #: ../src/ui/edit/main-window.c:870 ../src/ui/edit/render-dialog.c:660
  msgid "Format"
-@@ -1302,7 +1315,8 @@
+@@ -1302,7 +1302,7 @@
  
  #: ../src/ui/edit/main-window.c:918
  msgid "Choose 'Okay' to overwrite or 'Cancel' to abort saving the song."
 -msgstr "Välj 'OK' för att skriva över eller 'Avbryt' för att avbryta sparandet av denna sång."
-+msgstr "Välj 'OK' för att skriva över eller 'Avbryt' för att avbryta sparandet av "
-+"denna låt."
++msgstr "Välj 'OK' för att skriva över eller 'Avbryt' för att avbryta sparandet av denna låt."
  
  #: ../src/ui/edit/main-window.c:930
  #, c-format
-@@ -1345,7 +1359,7 @@
+@@ -1345,7 +1345,7 @@
  #: ../src/ui/edit/missing-song-elements-dialog.c:125
  #: ../src/ui/edit/missing-song-elements-dialog.c:140
  msgid "Missing elements in song"
@@ -544,7 +530,7 @@
  
  #: ../src/ui/edit/missing-song-elements-dialog.c:148
  msgid "The machines listed below are missing or failed to load."
-@@ -1380,7 +1394,7 @@
+@@ -1380,7 +1380,7 @@
  
  #: ../src/ui/edit/render-dialog.c:610
  msgid "song rendering"
@@ -553,7 +539,7 @@
  
  #. add dialog commision widgets (okay, cancel)
  #: ../src/ui/edit/render-dialog.c:613
-@@ -1433,7 +1447,7 @@
+@@ -1433,7 +1433,7 @@
  #: ../src/ui/edit/settings-dialog.c:245 ../src/ui/edit/settings-dialog.c:305
  #: ../src/ui/edit/settings-page-shortcuts.c:87
  msgid "Shortcuts"
@@ -562,7 +548,7 @@
  
  #: ../src/ui/edit/settings-dialog.c:249
  msgid "User interface"
-@@ -1470,7 +1484,7 @@
+@@ -1470,7 +1470,7 @@
  
  #: ../src/ui/edit/settings-page-audiodevices.c:395
  msgid "Sampling rate"
@@ -571,7 +557,7 @@
  
  #: ../src/ui/edit/settings-page-audiodevices.c:444
  msgid "Channels"
-@@ -1490,7 +1504,7 @@
+@@ -1490,7 +1490,7 @@
  
  #: ../src/ui/edit/settings-page-directories.c:97
  msgid "Songs"
@@ -580,17 +566,16 @@
  
  #: ../src/ui/edit/settings-page-directories.c:111
  msgid "Recordings"
-@@ -1546,7 +1560,8 @@
+@@ -1546,7 +1546,7 @@
  #: ../src/ui/edit/settings-page-playback-controller.c:580
  #, c-format
  msgid "Jack transport requires that the jackaudiosink is active. Your current audiosink is '%s'."
 -msgstr "Jack-transport kräver att jackljudutgången är aktiv. Din aktuella ljudutgång är '%s'."
-+msgstr "JACK-transport kräver att jackaudiosink är aktiv. Din aktuella ljudutgång är "
-+"”%s”."
++msgstr "JACK-transport kräver att jackaudiosink är aktiv. Din aktuella ljudutgång är ”%s”."
  
  #: ../src/ui/edit/settings-page-playback-controller.c:582
  msgid "none"
-@@ -1570,21 +1585,21 @@
+@@ -1570,21 +1570,21 @@
  
  #: ../src/ui/edit/settings-page-ui.c:89
  msgid "Dark theme variant"
@@ -616,7 +601,7 @@
  
  #: ../src/ui/edit/signal-analysis-dialog.c:1025
  msgid "lin."
-@@ -1613,19 +1628,22 @@
+@@ -1613,19 +1613,19 @@
  
  #: ../src/ui/edit/tip-dialog.c:50
  msgid "New machines are added in machine view from the context menu."
@@ -626,70 +611,59 @@
  #: ../src/ui/edit/tip-dialog.c:51
  msgid "Connect machines by holding the shift key and dragging a connection for the source to the target machine."
 -msgstr "Koppla ihop maskiner genom att hålla ned skift-knappen och dra en koppling från käll- till mål-maskin."
-+msgstr "Koppla ihop maskiner genom att hålla ned skifttangenten och dra en anslutning "
-+"från källmaskinen till målmaskinen."
++msgstr "Koppla ihop maskiner genom att hålla ned skifttangenten och dra en anslutning från källmaskinen till målmaskinen."
  
  #: ../src/ui/edit/tip-dialog.c:52
  msgid "Songs can be recorded as single waves per track to give it to remixers."
 -msgstr "Sånger kan spelas in som enkla vågformer per spår för att ges till remixers."
-+msgstr "Låtar kan spelas in som separata ljudfiler för varje spår och lämnas till "
-+"andra för remixning."
++msgstr "Låtar kan spelas in som separata ljudfiler för varje spår och lämnas till andra för remixning."
  
  #: ../src/ui/edit/tip-dialog.c:53
  msgid "Fill the details on the info page. When recording songs, the metadata is added to the recording as tags."
 -msgstr "Fyll i detaljerna på info-sidan. När sånger spelas in så kommer metadatan att läggas till inspelningen som taggar."
-+msgstr "Fyll i uppgifterna på informationssidan. När låtar spelas in läggs metadata "
-+"till i inspelningen som taggar."
++msgstr "Fyll i uppgifterna på informationssidan. När låtar spelas in läggs metadata till i inspelningen som taggar."
  
  #: ../src/ui/edit/tip-dialog.c:54
  msgid "Use jackaudio sink in audio device settings to get lower latencies for live machine control."
-@@ -1633,15 +1651,19 @@
+@@ -1633,15 +1633,15 @@
  
  #: ../src/ui/edit/tip-dialog.c:55
  msgid "You can use input devices such as joysticks, beside midi devices to live control machine parameters."
 -msgstr "Du kan använda ingångsenheter så som styrspak, förutom midi-enheter för att kontrollera maskin-parametrar live."
-+msgstr "Utöver MIDI-enheter kan du använda inmatningsenheter som styrspakar för att "
-+"styra maskinparametrar i realtid."
++msgstr "Utöver MIDI-enheter kan du använda inmatningsenheter som styrspakar för att styra maskinparametrar i realtid."
  
  #: ../src/ui/edit/tip-dialog.c:56
  msgid "You can use a upnp media client (e.g. media streamer on nokia tablets) to remote control buzztrax."
 -msgstr "Du kan använda en upnp media-klient (t.ex. en mediaströmmare på en nokia-platta) för att fjärrstyra buzztrax."
-+msgstr "Du kan använda en UPnP-medieklient (t.ex. en medieströmmare på en "
-+"Nokia-platta) för att fjärrstyra Buzztrax."
++msgstr "Du kan använda en UPnP-medieklient (t.ex. en medieströmmare på en Nokia-platta) för att fjärrstyra Buzztrax."
  
  #: ../src/ui/edit/tip-dialog.c:57
  msgid "To enter notes, imagine your pc keyboard as a music keyboard in two rows. Bottom left y/z key becomes a 'c', s a 'c#', x a 'd' and so on."
 -msgstr "För att skriva in noter, tänk dig ditt PC-tangentbord som en två-raders klaviatur. Längst ner till vänster y/z blir ett 'c', s ett 'c#', x ett 'd' och så vidare."
-+msgstr "För att mata in toner kan du tänka dig datorns tangentbord som en klaviatur "
-+"med två rader. Tangenten y/z längst ned till vänster blir ett ”c”, s ett "
-+"”c#”, x ett ”d” och så vidare."
++msgstr "För att mata in toner kan du tänka dig datorns tangentbord som en klaviatur med två rader. Tangenten y/z längst ned till vänster blir ett ”c”, s ett ”c#”, x ett ”d” och så vidare."
  
  #: ../src/ui/edit/tip-dialog.c:58
  msgid "You can get more help from the community on irc://irc.freenode.net/#buzztrax."
-@@ -1657,7 +1679,9 @@
+@@ -1657,7 +1657,7 @@
  
  #: ../src/ui/edit/tip-dialog.c:61
  msgid "Each wire has volume and possible panorama/balance controls. These can also be adjusted in the machine-window of the machine that has the wire as an input."
 -msgstr "Varje sladd har volym och kontrollmöjlighet för panorama/balans. Dessa kan också justeras i maskinfönstret för den maskin som har sladden som en ingång."
-+msgstr "Varje sladd har en volymkontroll och kan även ha en kontroll för "
-+"panorering/balans. Dessa kan också justeras i maskinfönstret för den maskin "
-+"som har sladden som ingång."
++msgstr "Varje sladd har en volymkontroll och kan även ha en kontroll för panorering/balans. Dessa kan också justeras i maskinfönstret för den maskin som har sladden som ingång."
  
  #: ../src/ui/edit/tip-dialog.c:62
  msgid "The wire volume control pops up upon a click on the arrow box on the wire."
-@@ -1665,11 +1689,13 @@
+@@ -1665,11 +1665,11 @@
  
  #: ../src/ui/edit/tip-dialog.c:63
  msgid "The wire panorama/balance control pops up upon a shift+click on the arrow box on the wire if available."
 -msgstr "När boxen med en pil på klickas på med skift nedhållen visas sladdens panorama-/balansinställning."
-+msgstr "Håll ned skift och klicka på pilrutan på sladden för att visa kontrollen för "
-+"panorering/balans, om den finns."
++msgstr "Håll ned skift och klicka på pilrutan på sladden för att visa kontrollen för panorering/balans, om den finns."
  
  #: ../src/ui/edit/tip-dialog.c:64
  msgid "One can copy settings from the machine window (from the context menu of a group) and paste them to patterns and the other way around."
 -msgstr "Man kan kopiera inställningar från maskinfönstret (från en grupps snabbmeny) och klistra in dem som mönster och tvärtom."
-+msgstr "Man kan kopiera inställningar från maskinfönstret (från en grupps snabbmeny) "
-+"och klistra in dem i mönster och tvärtom."
++msgstr "Man kan kopiera inställningar från maskinfönstret (från en grupps snabbmeny) och klistra in dem i mönster och tvärtom."
  
  #: ../src/ui/edit/tip-dialog.c:65
  msgid "Install extra machines from http://github.com/Buzztrax/buzzmachines."

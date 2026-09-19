@@ -194,17 +194,16 @@
  
  #: src/main.c:133
  msgid "Do not print the number of blocks copied"
-@@ -906,7 +905,8 @@
+@@ -906,7 +905,7 @@
  
  #: src/main.c:143
  msgid "Set the ownership of all files created to the specified USER and/or GROUP"
 -msgstr "Ställ in ägaren på alla filer som skapas till den angivna användaren och/eller gruppen"
-+msgstr "Ställ in ägaren på alla filer som skapas till angiven ANVÄNDARE och/eller "
-+"GRUPP"
++msgstr "Ställ in ägaren på alla filer som skapas till angiven ANVÄNDARE och/eller GRUPP"
  
  #: src/main.c:148
  msgid "Operation modifiers valid in copy-in and copy-out modes"
-@@ -926,7 +926,7 @@
+@@ -926,7 +925,7 @@
  
  #: src/main.c:152
  msgid "Print STRING when the end of a volume of the backup media is reached"
@@ -213,7 +212,7 @@
  
  #: src/main.c:154 src/mt.c:181 tests/genfile.c:203
  msgid "COMMAND"
-@@ -1002,11 +1002,11 @@
+@@ -1002,11 +1001,11 @@
  
  #: src/main.c:201
  msgid "ignore number of links of a directory; always assume 2"
@@ -227,7 +226,7 @@
  
  #: src/main.c:210
  msgid "Operation modifiers valid only in copy-pass mode:"
-@@ -1034,7 +1034,7 @@
+@@ -1034,7 +1033,7 @@
  
  #: src/main.c:231
  msgid "Filenames in the list are delimited by null characters instead of newlines"
@@ -236,7 +235,7 @@
  
  #: src/main.c:233
  msgid "Dereference  symbolic  links  (copy  the files that they point to instead of copying the links)."
-@@ -1161,7 +1161,7 @@
+@@ -1161,7 +1160,7 @@
  
  #: src/mt.c:165
  msgid "control magnetic tape drive operation"
@@ -245,7 +244,7 @@
  
  #: src/mt.c:179
  msgid "DEVICE"
-@@ -1169,7 +1169,7 @@
+@@ -1169,7 +1168,7 @@
  
  #: src/mt.c:180
  msgid "use device as the file name of the tape drive to operate on"
@@ -254,7 +253,7 @@
  
  #: src/mt.c:182
  msgid "use remote COMMAND instead of rsh"
-@@ -1261,7 +1261,7 @@
+@@ -1261,7 +1260,7 @@
  #, c-format
  msgid "File %s grew, %<PRIuMAX> new byte not copied"
  msgid_plural "File %s grew, %<PRIuMAX> new bytes not copied"
@@ -263,7 +262,7 @@
  msgstr[1] "Filen %s växte, %<PRIuMAX> nya byte kopierades inte"
  
  #: src/util.c:592
-@@ -1277,12 +1277,12 @@
+@@ -1277,12 +1276,12 @@
  #: src/util.c:612
  #, c-format
  msgid "Creating intermediate directory `%s'"
@@ -278,7 +277,7 @@
  
  #: src/util.c:871
  #, c-format
-@@ -1351,7 +1351,7 @@
+@@ -1351,7 +1350,7 @@
  
  #: tests/genfile.c:139
  msgid "-T reads null-terminated names"
@@ -287,7 +286,7 @@
  
  #: tests/genfile.c:140
  msgid "PATTERN"
-@@ -1375,7 +1375,7 @@
+@@ -1375,7 +1374,7 @@
  
  #: tests/genfile.c:149
  msgid "Seek to the given offset before writing data"
@@ -296,23 +295,21 @@
  
  #: tests/genfile.c:152
  msgid "Suppress non-fatal diagnostic messages"
-@@ -1395,7 +1395,8 @@
+@@ -1395,7 +1394,7 @@
  
  #: tests/genfile.c:167
  msgid "Set access and modification times of the files to the time supplied by --date option"
 -msgstr "Ställ in åtkomst- och ändringstider för filerna till den tid som anges med alternativet --date"
-+msgstr "Ställ in åtkomst- och ändringstider för filerna till den tid som anges med "
-+"flaggan --date"
++msgstr "Ställ in åtkomst- och ändringstider för filerna till den tid som anges med flaggan --date"
  
  #: tests/genfile.c:174
  msgid "Synchronous execution options:"
-@@ -1407,11 +1408,12 @@
+@@ -1407,11 +1406,11 @@
  
  #: tests/genfile.c:177
  msgid "Execute ARGS. Trigger checkpoints every Nth record (default 1). Useful with --checkpoint and one of --cut, --append, --touch, --unlink"
 -msgstr "Kör ARGS. Utlöser återställningspunkter var Nth gång (förinställd 1). Använd med --checkpoint och en av --cut, --append, --touch, --unlink"
-+msgstr "Kör ARG. Aktivera kontrollpunkter vid var N:e post (standard 1). Användbart "
-+"med --checkpoint och en av --cut, --append, --touch, --unlink"
++msgstr "Kör ARG. Aktivera kontrollpunkter vid var N:e post (standard 1). Användbart med --checkpoint och en av --cut, --append, --touch, --unlink"
  
  #: tests/genfile.c:180
  msgid "Perform given action (see below) upon reaching checkpoint NUMBER"
@@ -321,7 +318,7 @@
  
  #: tests/genfile.c:183
  msgid "Set date for next --touch option"
-@@ -1443,7 +1445,7 @@
+@@ -1443,7 +1442,7 @@
  
  #: tests/genfile.c:207
  msgid "Delete FILE"
@@ -330,7 +327,7 @@
  
  #: tests/genfile.c:258
  #, c-format
-@@ -1453,7 +1455,7 @@
+@@ -1453,7 +1452,7 @@
  #: tests/genfile.c:263
  #, c-format
  msgid "Number out of allowed range: %s"
@@ -339,7 +336,7 @@
  
  #: tests/genfile.c:266
  #, c-format
-@@ -1497,12 +1499,12 @@
+@@ -1497,12 +1496,12 @@
  
  #: tests/genfile.c:463
  msgid "cannot seek"
@@ -354,7 +351,7 @@
  
  #: tests/genfile.c:593
  #, c-format
-@@ -1537,12 +1539,12 @@
+@@ -1537,12 +1536,12 @@
  #: tests/genfile.c:822
  #, c-format
  msgid "cannot stat `%s'"

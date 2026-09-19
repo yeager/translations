@@ -329,13 +329,12 @@
  
  #: tools/gst-device-monitor.c:445 tools/gst-play.c:1709
  msgid "Print version information and exit"
-@@ -749,11 +749,12 @@
+@@ -749,11 +749,11 @@
  
  #: tools/gst-device-monitor.c:447
  msgid "Don't exit after showing the initial device list, but wait for devices to added/removed."
 -msgstr "Avsluta inte efter att den inledande enhetslistan visats, utan vänta på att enheter läggs till/tas bort."
-+msgstr "Avsluta inte efter att den inledande enhetslistan har visats, utan vänta på "
-+"att enheter läggs till eller tas bort."
++msgstr "Avsluta inte efter att den inledande enhetslistan har visats, utan vänta på att enheter läggs till eller tas bort."
  
  #: tools/gst-device-monitor.c:450
  msgid "Include devices from hidden device providers."
@@ -344,7 +343,7 @@
  
  #: tools/gst-play.c:341
  #, c-format
-@@ -814,7 +815,7 @@
+@@ -814,7 +814,7 @@
  
  #: tools/gst-play.c:502
  msgid "Clock lost, selecting a new one\n"
@@ -353,7 +352,7 @@
  
  #: tools/gst-play.c:532 tools/gst-play.c:580 tools/gst-play.c:1049
  #: tools/gst-play.c:1559
-@@ -833,7 +834,7 @@
+@@ -833,7 +833,7 @@
  #: tools/gst-play.c:913
  #, c-format
  msgid "About to finish, preparing next title: %s"
@@ -362,7 +361,7 @@
  
  #: tools/gst-play.c:1167
  #, c-format
-@@ -851,7 +852,7 @@
+@@ -851,7 +851,7 @@
  
  #: tools/gst-play.c:1494
  msgid "pause/unpause"
@@ -371,7 +370,7 @@
  
  #: tools/gst-play.c:1495
  msgid "q or ESC"
-@@ -879,11 +880,11 @@
+@@ -879,11 +879,11 @@
  
  #: tools/gst-play.c:1498
  msgid "seek forward"
@@ -385,7 +384,7 @@
  
  #: tools/gst-play.c:1500
  msgid "volume up"
-@@ -895,7 +896,7 @@
+@@ -895,7 +895,7 @@
  
  #: tools/gst-play.c:1502
  msgid "toggle audio mute on/off"
@@ -394,7 +393,7 @@
  
  #: tools/gst-play.c:1503
  msgid "increase playback rate"
-@@ -927,7 +928,7 @@
+@@ -927,7 +927,7 @@
  
  #: tools/gst-play.c:1510
  msgid "seek to beginning"
@@ -403,7 +402,7 @@
  
  #: tools/gst-play.c:1511
  msgid "show keyboard shortcuts"
-@@ -952,11 +953,11 @@
+@@ -952,11 +952,11 @@
  
  #: tools/gst-play.c:1711
  msgid "Video sink to use (default is autovideosink)"
@@ -417,7 +416,7 @@
  
  #: tools/gst-play.c:1715
  msgid "Enable gapless playback"
-@@ -964,7 +965,7 @@
+@@ -964,7 +964,7 @@
  
  #: tools/gst-play.c:1717
  msgid "Enable instantaneous uri changes (only with playbin3)"
@@ -426,7 +425,7 @@
  
  #: tools/gst-play.c:1719
  msgid "Shuffle playlist"
-@@ -988,7 +989,7 @@
+@@ -988,7 +988,7 @@
  
  #: tools/gst-play.c:1730
  msgid "Playlist file containing input media files"
@@ -435,7 +434,7 @@
  
  #: tools/gst-play.c:1733
  msgid "Use the experimental instant-rate-change flag when changing rate"
-@@ -996,7 +997,7 @@
+@@ -996,7 +996,7 @@
  
  #: tools/gst-play.c:1736
  msgid "Do not print any output (apart from errors)"
@@ -444,17 +443,16 @@
  
  #: tools/gst-play.c:1738
  msgid "Use playbin3 pipeline (default)"
-@@ -1008,7 +1009,8 @@
+@@ -1008,7 +1008,7 @@
  
  #: tools/gst-play.c:1745
  msgid "Keep showing the last frame on EOS until quit or playlist change command (gapless is ignored)"
 -msgstr "Fortsätt visa den sista ramen vid EOS tills avslutning eller ändringskommando för spellista (mellanrumslös hoppas över)"
-+msgstr "Fortsätt visa den sista bildrutan vid EOS tills avslutning eller kommando för "
-+"ändring av spellista (mellanrumslös uppspelning ignoreras)"
++msgstr "Fortsätt visa den sista bildrutan vid EOS tills avslutning eller kommando för ändring av spellista (mellanrumslös uppspelning ignoreras)"
  
  #: tools/gst-play.c:1749
  msgid "Do not print current position of pipeline"
-@@ -1025,7 +1027,7 @@
+@@ -1025,7 +1025,7 @@
  
  #: tools/gst-play.c:1847
  msgid "You must provide at least one filename or URI to play."

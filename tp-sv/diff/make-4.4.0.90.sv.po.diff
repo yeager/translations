@@ -137,17 +137,16 @@
  
  #: src/file.c:1095
  msgid "#  Command line target."
-@@ -297,7 +297,8 @@
+@@ -297,7 +297,7 @@
  
  #: src/file.c:1097
  msgid "#  A default, MAKEFILES, or -include/sinclude makefile."
 -msgstr "#  En standardmakefil, eller enligt MAKEFILES, eller en -include/sinclude-makefil."
-+msgstr "#  En standardmakefil, en makefil från MAKEFILES eller en makefil från "
-+"-include/sinclude."
++msgstr "#  En standardmakefil, en makefil från MAKEFILES eller en makefil från -include/sinclude."
  
  #: src/file.c:1099
  msgid "#  Builtin rule"
-@@ -318,7 +319,7 @@
+@@ -318,7 +318,7 @@
  
  #: src/file.c:1106
  msgid "#  File is an intermediate prerequisite."
@@ -156,7 +155,7 @@
  
  #: src/file.c:1108
  msgid "#  File is a prerequisite of .NOTINTERMEDIATE."
-@@ -363,7 +364,7 @@
+@@ -363,7 +363,7 @@
  
  #: src/file.c:1139
  msgid "#  Dependencies recipe running (THIS IS A BUG)."
@@ -165,7 +164,7 @@
  
  #: src/file.c:1148
  msgid "#  Successfully updated."
-@@ -396,7 +397,7 @@
+@@ -396,7 +396,7 @@
  "# "
  msgstr ""
  "\n"
@@ -174,7 +173,7 @@
  "# "
  
  #: src/file.c:1193
-@@ -447,7 +448,7 @@
+@@ -447,7 +447,7 @@
  #: src/function.c:1708
  #, c-format
  msgid "windows32_openpipe: DuplicateHandle(Err) failed (e=%lu)\n"
@@ -183,7 +182,7 @@
  
  #: src/function.c:1715
  #, c-format
-@@ -462,7 +463,7 @@
+@@ -462,7 +462,7 @@
  #: src/function.c:1983
  #, c-format
  msgid "Cleaning up temporary batch file %s\n"
@@ -192,7 +191,7 @@
  
  #: src/function.c:2348 src/function.c:2388
  #, c-format
-@@ -492,7 +493,7 @@
+@@ -492,7 +492,7 @@
  #: src/function.c:2404
  #, c-format
  msgid "file: Failed to open '%s': %s\n"
@@ -201,7 +200,7 @@
  
  #: src/function.c:2422
  #, c-format
-@@ -512,7 +513,7 @@
+@@ -512,7 +512,7 @@
  #: src/function.c:2564
  #, c-format
  msgid "unimplemented on this platform: function '%s'"
@@ -210,7 +209,7 @@
  
  #: src/function.c:2633
  #, c-format
-@@ -537,12 +538,12 @@
+@@ -537,12 +537,12 @@
  #: src/function.c:2823
  #, c-format
  msgid "Invalid minimum argument count (%u) for function %s"
@@ -225,7 +224,7 @@
  
  #: src/getopt.c:663
  #, c-format
-@@ -612,12 +613,12 @@
+@@ -612,12 +612,12 @@
  #: src/hash.c:50
  #, c-format
  msgid "can't allocate %lu bytes for hash table: memory exhausted"
@@ -240,7 +239,7 @@
  
  #: src/hash.c:282
  #, c-format
-@@ -627,7 +628,7 @@
+@@ -627,7 +627,7 @@
  #: src/hash.c:283
  #, c-format
  msgid "Collisions=%lu/%lu=%.0f%%"
@@ -249,7 +248,7 @@
  
  #: src/implicit.c:41
  #, c-format
-@@ -642,12 +643,12 @@
+@@ -642,12 +642,12 @@
  #: src/implicit.c:61
  #, c-format
  msgid "No archive-member implicit rule found for '%s'.\n"
@@ -264,7 +263,7 @@
  
  #: src/implicit.c:451
  #, c-format
-@@ -677,7 +678,7 @@
+@@ -677,7 +677,7 @@
  #: src/implicit.c:787
  #, c-format
  msgid "Trying rule prerequisite '%s'.\n"
@@ -273,7 +272,7 @@
  
  #: src/implicit.c:788
  #, c-format
-@@ -702,7 +703,7 @@
+@@ -702,7 +702,7 @@
  #: src/implicit.c:856
  #, c-format
  msgid "Prerequisite '%s' of rule '%s' does not qualify as ought to exist.\n"
@@ -282,7 +281,7 @@
  
  #: src/implicit.c:870
  #, c-format
-@@ -750,7 +751,7 @@
+@@ -750,7 +750,7 @@
  
  #: src/job.c:549
  msgid " (core dumped)"
@@ -291,7 +290,7 @@
  
  #: src/job.c:554
  msgid " (ignored)"
-@@ -768,7 +769,7 @@
+@@ -768,7 +768,7 @@
  #: src/job.c:674
  #, c-format
  msgid "*** Waiting for unfinished jobs...."
@@ -300,7 +299,7 @@
  
  #: src/job.c:716
  #, c-format
-@@ -783,22 +784,22 @@
+@@ -783,22 +783,22 @@
  #: src/job.c:911
  #, c-format
  msgid "Reaping winning child %p PID %s %s\n"
@@ -327,7 +326,7 @@
  
  #: src/job.c:1080
  #, c-format
-@@ -808,12 +809,12 @@
+@@ -808,12 +808,12 @@
  #: src/job.c:1143
  #, c-format
  msgid "Released token for child %p (%s).\n"
@@ -342,7 +341,7 @@
  
  #: src/job.c:1584 src/job.c:2537
  #, c-format
-@@ -827,12 +828,12 @@
+@@ -827,12 +827,12 @@
  #: src/job.c:1647
  #, c-format
  msgid "Putting child %p (%s) PID %s%s on the chain.\n"
@@ -357,7 +356,7 @@
  
  #: src/job.c:1905
  #, c-format
-@@ -866,37 +867,38 @@
+@@ -866,37 +866,37 @@
  #: src/job.c:2231
  #, c-format
  msgid "no more file handles: could not duplicate stdin"
@@ -398,12 +397,11 @@
  #, c-format
  msgid "make reaped child pid %s, still waiting for pid %s\n"
 -msgstr "make inhöstade barn-pid %s, inväntar fortfarande pid %s\n"
-+msgstr "make avslutade den underordnade processen med pid %s, väntar fortfarande på "
-+"pid %s\n"
++msgstr "make avslutade den underordnade processen med pid %s, väntar fortfarande på pid %s\n"
  
  #: src/job.c:2674
  #, c-format
-@@ -911,7 +913,7 @@
+@@ -911,7 +911,7 @@
  #: src/job.c:3356 src/job.c:3560
  #, c-format
  msgid "Creating temporary batch file %s\n"
@@ -412,7 +410,7 @@
  
  #: src/job.c:3364
  #, c-format
-@@ -919,7 +921,7 @@
+@@ -919,7 +919,7 @@
  "Batch file contents:\n"
  "\t@echo off\n"
  msgstr ""
@@ -421,7 +419,7 @@
  "\t@echo off\n"
  
  #: src/job.c:3572
-@@ -928,7 +930,7 @@
+@@ -928,7 +928,7 @@
  "Batch file contents:%s\n"
  "\t%s\n"
  msgstr ""
@@ -430,7 +428,7 @@
  "\t%s\n"
  
  #: src/job.c:3680
-@@ -993,8 +995,8 @@
+@@ -993,8 +993,8 @@
  "  -C DIRECTORY, --directory=DIRECTORY\n"
  "                              Change to DIRECTORY before doing anything.\n"
  msgstr ""
@@ -441,17 +439,16 @@
  
  #: src/main.c:327
  msgid "  -d                          Print lots of debugging information.\n"
-@@ -1002,7 +1004,8 @@
+@@ -1002,7 +1002,7 @@
  
  #: src/main.c:329
  msgid "  --debug[=FLAGS]             Print various types of debugging information.\n"
 -msgstr "  --debug[=FLAGGOR]           Skriv ut olika sorters felsökningsinformation.\n"
-+msgstr "  --debug[=FLAGS]             Skriv ut olika typer av "
-+"felsökningsinformation.\n"
++msgstr "  --debug[=FLAGS]             Skriv ut olika typer av felsökningsinformation.\n"
  
  #: src/main.c:331
  msgid ""
-@@ -1014,15 +1017,15 @@
+@@ -1014,15 +1014,15 @@
  
  #: src/main.c:334
  msgid "  -E STRING, --eval=STRING    Evaluate STRING as a makefile statement.\n"
@@ -470,7 +467,7 @@
  
  #: src/main.c:339
  msgid "  -h, --help                  Print this message and exit.\n"
-@@ -1037,8 +1040,8 @@
+@@ -1037,8 +1037,8 @@
  "  -I DIRECTORY, --include-dir=DIRECTORY\n"
  "                              Search DIRECTORY for included makefiles.\n"
  msgstr ""
@@ -481,7 +478,7 @@
  
  #: src/main.c:346
  msgid "  -j [N], --jobs[=N]          Allow N jobs at once; infinite jobs with no arg.\n"
-@@ -1046,7 +1049,7 @@
+@@ -1046,7 +1046,7 @@
  
  #: src/main.c:348
  msgid "  --jobserver-style=STYLE     Select the style of jobserver to use.\n"
@@ -490,25 +487,23 @@
  
  #: src/main.c:350
  msgid "  -k, --keep-going            Keep going when some targets can't be made.\n"
-@@ -1062,7 +1065,8 @@
+@@ -1062,7 +1062,7 @@
  
  #: src/main.c:355
  msgid "  -L, --check-symlink-times   Use the latest mtime between symlinks and target.\n"
 -msgstr "  -L, --check-symlink-times   Använd den senaste av mtiderna för symboliska länkar eller mål.\n"
-+msgstr "  -L, --check-symlink-times   Använd den senaste ändringstiden för symboliska "
-+"länkar och mål.\n"
++msgstr "  -L, --check-symlink-times   Använd den senaste ändringstiden för symboliska länkar och mål.\n"
  
  #: src/main.c:357
  msgid ""
-@@ -1077,17 +1081,18 @@
+@@ -1077,17 +1077,17 @@
  "  -o FILE, --old-file=FILE, --assume-old=FILE\n"
  "                              Consider FILE to be very old and don't remake it.\n"
  msgstr ""
 -"  -o FIL, --old-file=FIL, --assume-old=FIL\n"
 -"                              Betrakta FIL som mycket gammal och återskapa den inte.\n"
 +"  -o FILE, --old-file=FILE, --assume-old=FILE\n"
-+"                              Betrakta FILE som mycket gammal och återskapa "
-+"den inte.\n"
++"                              Betrakta FILE som mycket gammal och återskapa den inte.\n"
  
  #: src/main.c:363
  msgid ""
@@ -524,7 +519,7 @@
  
  #: src/main.c:366
  msgid "  -p, --print-data-base       Print make's internal database.\n"
-@@ -1110,16 +1115,16 @@
+@@ -1110,16 +1110,16 @@
  "  --shuffle[={SEED|random|reverse|none}]\n"
  "                              Perform shuffle of prerequisites and goals.\n"
  msgstr ""
@@ -544,17 +539,16 @@
  
  #: src/main.c:381
  msgid ""
-@@ -1131,7 +1136,8 @@
+@@ -1131,7 +1131,7 @@
  
  #: src/main.c:384
  msgid "  -t, --touch                 Touch targets instead of remaking them.\n"
 -msgstr "  -t, --touch                 Nydatera mål i stället för att återskapa dem.\n"
-+msgstr "  -t, --touch                 Uppdatera tidsstämplarna för mål i stället för "
-+"att återskapa dem.\n"
++msgstr "  -t, --touch                 Uppdatera tidsstämplarna för mål i stället för att återskapa dem.\n"
  
  #: src/main.c:386
  msgid "  --trace                     Print tracing information.\n"
-@@ -1154,8 +1160,8 @@
+@@ -1154,8 +1154,8 @@
  "  -W FILE, --what-if=FILE, --new-file=FILE, --assume-new=FILE\n"
  "                              Consider FILE to be infinitely new.\n"
  msgstr ""
@@ -565,7 +559,7 @@
  
  #: src/main.c:397
  msgid "  --warn-undefined-variables  Warn when an undefined variable is referenced.\n"
-@@ -1164,7 +1170,7 @@
+@@ -1164,7 +1164,7 @@
  #: src/main.c:735 src/main.c:737
  #, c-format
  msgid "write error: stdout"
@@ -574,7 +568,7 @@
  
  #: src/main.c:749
  #, c-format
-@@ -1179,7 +1185,7 @@
+@@ -1179,7 +1179,7 @@
  #: src/main.c:881
  #, c-format
  msgid "unknown output-sync type '%s'"
@@ -583,7 +577,7 @@
  
  #: src/main.c:905
  #, c-format
-@@ -1214,7 +1220,7 @@
+@@ -1214,7 +1214,7 @@
  #: src/main.c:947
  #, c-format
  msgid "%s: Interrupt/Exception caught (code = 0x%lx, addr = 0x%p)\n"
@@ -592,7 +586,7 @@
  
  #: src/main.c:954
  #, c-format
-@@ -1244,7 +1250,7 @@
+@@ -1244,7 +1244,7 @@
  #: src/main.c:1035 src/main.c:1049
  #, c-format
  msgid "find_and_set_shell() setting default_shell = %s\n"
@@ -601,7 +595,7 @@
  
  #: src/main.c:1105
  #, c-format
-@@ -1253,7 +1259,7 @@
+@@ -1253,7 +1253,7 @@
  
  #: src/main.c:1158
  msgid "unlink (temporary file): "
@@ -610,7 +604,7 @@
  
  #: src/main.c:1848
  #, c-format
-@@ -1268,12 +1274,12 @@
+@@ -1268,12 +1268,12 @@
  #: src/main.c:1945
  #, c-format
  msgid "Makefile from standard input specified twice"
@@ -625,7 +619,7 @@
  
  #: src/main.c:1958
  #, c-format
-@@ -1298,12 +1304,12 @@
+@@ -1298,12 +1298,12 @@
  #: src/main.c:2266
  #, c-format
  msgid "Using jobserver controller %s\n"
@@ -640,7 +634,7 @@
  
  #: src/main.c:2273
  #, c-format
-@@ -1313,7 +1319,7 @@
+@@ -1313,7 +1313,7 @@
  #: src/main.c:2345
  #, c-format
  msgid "Enabled shuffle mode: %s\n"
@@ -649,7 +643,7 @@
  
  #: src/main.c:2357
  #, c-format
-@@ -1323,7 +1329,7 @@
+@@ -1323,7 +1323,7 @@
  #: src/main.c:2415
  #, c-format
  msgid "Makefile '%s' might loop; not remaking it.\n"
@@ -658,7 +652,7 @@
  
  #: src/main.c:2461 src/main.c:2517 src/output.c:523
  #, c-format
-@@ -1378,7 +1384,7 @@
+@@ -1378,7 +1378,7 @@
  #: src/main.c:2916
  #, c-format
  msgid "Updating goal targets....\n"
@@ -667,7 +661,7 @@
  
  #: src/main.c:2940
  #, c-format
-@@ -1413,8 +1419,8 @@
+@@ -1413,8 +1413,8 @@
  "%sThere is NO WARRANTY, to the extent permitted by law.\n"
  msgstr ""
  "%sLicens GPLv3+: GNU GPL version 3 eller senare <https://gnu.org/licenses/gpl.html>\n"
@@ -678,7 +672,7 @@
  
  #: src/main.c:3752
  #, c-format
-@@ -1423,7 +1429,7 @@
+@@ -1423,7 +1423,7 @@
  "# Make data base, printed on %s"
  msgstr ""
  "\n"
@@ -687,7 +681,7 @@
  
  #: src/main.c:3762
  #, c-format
-@@ -1432,7 +1438,7 @@
+@@ -1432,7 +1432,7 @@
  "# Finished Make data base on %s\n"
  msgstr ""
  "\n"
@@ -696,7 +690,7 @@
  
  #: src/misc.c:601
  #, c-format
-@@ -1452,7 +1458,7 @@
+@@ -1452,7 +1452,7 @@
  #: src/misc.c:654
  #, c-format
  msgid "cannot generate temp path from %s: %s"
@@ -705,7 +699,7 @@
  
  #: src/misc.c:662
  #, c-format
-@@ -1462,7 +1468,7 @@
+@@ -1462,7 +1462,7 @@
  #: src/misc.c:712
  #, c-format
  msgid "cannot create temporary file %s: %s"
@@ -714,13 +708,12 @@
  
  #: src/misc.c:725
  #, c-format
-@@ -1522,16 +1528,17 @@
+@@ -1522,16 +1522,16 @@
  #: src/output.c:252
  #, c-format
  msgid "cannot open output-sync lock file, suppressing output-sync."
 -msgstr "kan inte utmatningssynkronisera låsfilen, avaktiverar utmatningssynkronisering."
-+msgstr "kan inte öppna låsfilen för utdatasynkronisering, inaktiverar "
-+"utdatasynkronisering."
++msgstr "kan inte öppna låsfilen för utdatasynkronisering, inaktiverar utdatasynkronisering."
  
  #: src/output.c:283
  #, c-format
@@ -735,7 +728,7 @@
  
  #: src/output.c:514
  #, c-format
-@@ -1550,15 +1557,15 @@
+@@ -1550,15 +1550,15 @@
  
  #: src/posixos.c:197
  msgid "creating jobs pipe"
@@ -754,7 +747,7 @@
  
  #: src/posixos.c:273
  #, c-format
-@@ -1572,25 +1579,25 @@
+@@ -1572,25 +1572,25 @@
  #: src/posixos.c:495
  #, c-format
  msgid "job server shut down"
@@ -785,7 +778,7 @@
  
  #: src/posixos.c:867
  #, c-format
-@@ -1635,7 +1642,7 @@
+@@ -1635,7 +1635,7 @@
  #: src/read.c:660
  #, c-format
  msgid "Skipping UTF-8 BOM in makefile buffer\n"
@@ -794,7 +787,7 @@
  
  #: src/read.c:789
  #, c-format
-@@ -1645,7 +1652,7 @@
+@@ -1645,7 +1645,7 @@
  #: src/read.c:996
  #, c-format
  msgid "recipe commences before first target"
@@ -803,7 +796,7 @@
  
  #: src/read.c:1047
  #, c-format
-@@ -1655,7 +1662,7 @@
+@@ -1655,7 +1655,7 @@
  #: src/read.c:1147
  #, c-format
  msgid "missing separator (did you mean TAB instead of 8 spaces?)"
@@ -812,7 +805,7 @@
  
  #: src/read.c:1156
  #, c-format
-@@ -1720,27 +1727,27 @@
+@@ -1720,27 +1720,27 @@
  #: src/read.c:1580
  #, c-format
  msgid "only one 'else' per conditional"
@@ -845,7 +838,7 @@
  
  #: src/read.c:2060
  #, c-format
-@@ -1755,7 +1762,7 @@
+@@ -1755,7 +1755,7 @@
  #: src/read.c:2126
  #, c-format
  msgid "mixed implicit and normal rules"
@@ -854,7 +847,7 @@
  
  #: src/read.c:2158
  #, c-format
-@@ -1800,7 +1807,7 @@
+@@ -1800,7 +1800,7 @@
  #: src/remake.c:97
  #, c-format
  msgid "warning: pattern recipe did not update peer target '%s'."
@@ -863,7 +856,7 @@
  
  #: src/remake.c:254
  #, c-format
-@@ -1850,7 +1857,7 @@
+@@ -1850,7 +1850,7 @@
  #: src/remake.c:484
  #, c-format
  msgid "Finished updating file '%s'.\n"
@@ -872,7 +865,7 @@
  
  #: src/remake.c:513
  #, c-format
-@@ -1865,7 +1872,7 @@
+@@ -1865,7 +1865,7 @@
  #: src/remake.c:538
  #, c-format
  msgid "Grouped target peer '%s' of file '%s' does not exist.\n"
@@ -881,7 +874,7 @@
  
  #: src/remake.c:558
  #, c-format
-@@ -1880,7 +1887,7 @@
+@@ -1880,7 +1880,7 @@
  #: src/remake.c:737
  #, c-format
  msgid "Finished prerequisites of target file '%s'.\n"
@@ -890,7 +883,7 @@
  
  #: src/remake.c:743
  #, c-format
-@@ -1890,7 +1897,7 @@
+@@ -1890,7 +1890,7 @@
  #: src/remake.c:757
  #, c-format
  msgid "Giving up on target file '%s'.\n"
@@ -899,7 +892,7 @@
  
  #: src/remake.c:762
  #, c-format
-@@ -1900,7 +1907,7 @@
+@@ -1900,7 +1900,7 @@
  #: src/remake.c:814
  #, c-format
  msgid "Prerequisite '%s' is order-only for target '%s'.\n"
@@ -908,7 +901,7 @@
  
  #: src/remake.c:819
  #, c-format
-@@ -1925,17 +1932,17 @@
+@@ -1925,17 +1925,17 @@
  #: src/remake.c:852
  #, c-format
  msgid "No recipe for '%s' and no prerequisites actually changed.\n"
@@ -929,7 +922,7 @@
  
  #: src/remake.c:867
  #, c-format
-@@ -1965,7 +1972,7 @@
+@@ -1965,7 +1965,7 @@
  #: src/remake.c:917
  #, c-format
  msgid "Successfully remade target file '%s'.\n"
@@ -938,7 +931,7 @@
  
  #: src/remake.c:920
  #, c-format
-@@ -1980,7 +1987,7 @@
+@@ -1980,7 +1980,7 @@
  #: src/remake.c:1502
  #, c-format
  msgid "Warning: File '%s' has modification time %s s in the future"
@@ -947,7 +940,7 @@
  
  #: src/remake.c:1750
  #, c-format
-@@ -2019,7 +2026,7 @@
+@@ -2019,7 +2019,7 @@
  "# %u implicit rules, %u (%.1f%%) terminal."
  msgstr ""
  "\n"
@@ -956,7 +949,7 @@
  
  #: src/rule.c:619
  #, c-format
-@@ -2037,7 +2044,7 @@
+@@ -2037,7 +2037,7 @@
  
  #: src/signame.c:92
  msgid "Hangup"
@@ -965,7 +958,7 @@
  
  #: src/signame.c:95
  msgid "Interrupt"
-@@ -2045,7 +2052,7 @@
+@@ -2045,7 +2045,7 @@
  
  #: src/signame.c:98
  msgid "Quit"
@@ -974,7 +967,7 @@
  
  #: src/signame.c:101
  msgid "Illegal Instruction"
-@@ -2089,7 +2096,7 @@
+@@ -2089,7 +2089,7 @@
  
  #: src/signame.c:133
  msgid "Broken pipe"
@@ -983,7 +976,7 @@
  
  #: src/signame.c:136
  msgid "Alarm clock"
-@@ -2109,7 +2116,7 @@
+@@ -2109,7 +2109,7 @@
  
  #: src/signame.c:150 src/signame.c:153
  msgid "Child exited"
@@ -992,7 +985,7 @@
  
  #: src/signame.c:156
  msgid "Power failure"
-@@ -2121,11 +2128,11 @@
+@@ -2121,11 +2121,11 @@
  
  #: src/signame.c:162
  msgid "Stopped (tty input)"
@@ -1006,7 +999,7 @@
  
  #: src/signame.c:168
  msgid "Stopped (signal)"
-@@ -2141,7 +2148,7 @@
+@@ -2141,7 +2141,7 @@
  
  #: src/signame.c:177
  msgid "Virtual timer expired"
@@ -1015,7 +1008,7 @@
  
  #: src/signame.c:180
  msgid "Profiling timer expired"
-@@ -2173,7 +2180,7 @@
+@@ -2173,7 +2173,7 @@
  
  #: src/signame.c:211
  msgid "Resource lost"
@@ -1024,7 +1017,7 @@
  
  #: src/signame.c:214
  msgid "Danger signal"
-@@ -2185,7 +2192,7 @@
+@@ -2185,7 +2185,7 @@
  
  #: src/signame.c:220
  msgid "Floating point co-processor not available"
@@ -1033,7 +1026,7 @@
  
  #: src/strcache.c:274
  #, c-format
-@@ -2194,7 +2201,7 @@
+@@ -2194,7 +2194,7 @@
  "%s No strcache buffers\n"
  msgstr ""
  "\n"
@@ -1042,17 +1035,16 @@
  
  #: src/strcache.c:304
  #, c-format
-@@ -2208,7 +2215,8 @@
+@@ -2208,7 +2208,7 @@
  #: src/strcache.c:308
  #, c-format
  msgid "%s current buf: size = %hu B / used = %hu B / count = %hu / avg = %u B\n"
 -msgstr "%s aktuell buf: storlek = %hu B / använt = %hu B / antal = %hu / snitt = %u B\n"
-+msgstr "%s aktuell buffert: storlek = %hu B / använt = %hu B / antal = %hu / snitt = "
-+"%u B\n"
++msgstr "%s aktuell buffert: storlek = %hu B / använt = %hu B / antal = %hu / snitt = %u B\n"
  
  #: src/strcache.c:319
  #, c-format
-@@ -2227,14 +2235,14 @@
+@@ -2227,14 +2227,14 @@
  "%s strcache performance: lookups = %lu / hit rate = %lu%%\n"
  msgstr ""
  "\n"
@@ -1069,7 +1061,7 @@
  "# "
  
  #: src/variable.c:1827
-@@ -2248,7 +2256,7 @@
+@@ -2248,7 +2248,7 @@
  
  #: src/variable.c:1847
  msgid "default"
@@ -1078,7 +1070,7 @@
  
  #: src/variable.c:1850
  msgid "environment"
-@@ -2277,7 +2285,7 @@
+@@ -2277,7 +2277,7 @@
  
  #: src/variable.c:1935
  msgid "# variable set hash-table stats:\n"
@@ -1087,7 +1079,7 @@
  
  #: src/variable.c:1946
  msgid ""
-@@ -2389,7 +2397,7 @@
+@@ -2389,7 +2389,7 @@
  #: src/w32/w32os.c:224
  #, c-format
  msgid "jobserver slots limited to %d\n"
@@ -1096,7 +1088,7 @@
  
  #: src/w32/w32os.c:240
  #, c-format
-@@ -2419,9 +2427,9 @@
+@@ -2419,9 +2419,9 @@
  #: src/w32/w32os.c:451
  #, c-format
  msgid "cannot parse output sync mutex %s: %s"

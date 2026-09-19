@@ -157,17 +157,16 @@
  
  #: src/ps/global.c:294
  #, c-format
-@@ -1252,7 +1252,8 @@
+@@ -1252,7 +1252,7 @@
  
  #: src/ps/help.c:154
  msgid "     --delimiter <d>  Use <d> as a column delimiter instead of variable space\n"
 -msgstr "     --delimiter <a>  Använd <a> som en kolumnavgränsare istället för variabla blantecken\n"
-+msgstr "     --delimiter <a>  Använd <a> som kolumnavgränsare i stället för variabla "
-+"blanktecken\n"
++msgstr "     --delimiter <a>  Använd <a> som kolumnavgränsare i stället för variabla blanktecken\n"
  
  #: src/ps/help.c:155
  msgid "     --headers        repeat header lines, one per page\n"
-@@ -1423,7 +1424,7 @@
+@@ -1423,7 +1423,7 @@
  
  #: src/ps/parser.c:95 src/ps/parser.c:106
  msgid "process ID list syntax error"
@@ -176,7 +175,7 @@
  
  #: src/ps/parser.c:96 src/ps/parser.c:97 src/ps/parser.c:107
  #: src/ps/parser.c:108
-@@ -1544,7 +1545,7 @@
+@@ -1544,7 +1544,7 @@
  
  #: src/ps/parser.c:544
  msgid "second chance parse failed, not BSD or SysV"
@@ -185,7 +184,7 @@
  
  #: src/ps/parser.c:561
  msgid "option A is reserved"
-@@ -1568,7 +1569,7 @@
+@@ -1568,7 +1568,7 @@
  
  #: src/ps/parser.c:659 src/ps/parser.c:941 src/ps/parser.c:950
  msgid "only one heading option may be specified"
@@ -194,7 +193,7 @@
  
  #: src/ps/parser.c:674
  msgid "long sort specification must follow 'k'"
-@@ -1592,7 +1593,7 @@
+@@ -1592,7 +1592,7 @@
  
  #: src/ps/parser.c:861 src/ps/parser.c:873
  msgid "unknown gnu long option"
@@ -203,7 +202,7 @@
  
  #: src/ps/parser.c:881
  msgid "list of real groups must follow --Group"
-@@ -1660,7 +1661,7 @@
+@@ -1660,7 +1660,7 @@
  
  #: src/ps/parser.c:1023
  msgid "some sid thing(s) must follow --sid"
@@ -212,7 +211,7 @@
  
  #: src/ps/parser.c:1035
  msgid "long sort specification must follow --sort"
-@@ -1676,7 +1677,7 @@
+@@ -1676,7 +1676,7 @@
  
  #: src/ps/parser.c:1166
  msgid "way bad"
@@ -221,7 +220,7 @@
  
  #: src/ps/parser.c:1180
  msgid "garbage option"
-@@ -1688,7 +1689,7 @@
+@@ -1688,7 +1688,7 @@
  
  #: src/ps/parser.c:1204
  msgid "thread display conflicts with forest display"
@@ -230,17 +229,16 @@
  
  #: src/ps/parser.c:1209
  msgid "thread flags conflict; can't use H with m or -m"
-@@ -1750,7 +1751,8 @@
+@@ -1750,7 +1750,7 @@
  
  #: src/ps/sortformat.c:317
  msgid "can not set width for a macro (multi-column) format specifier"
 -msgstr "det går inte att sätta bredden för en (flerkolumners) makroformatspecificerare"
-+msgstr "det går inte att ange bredd för en makroformatspecificerare (med flera "
-+"kolumner)"
++msgstr "det går inte att ange bredd för en makroformatspecificerare (med flera kolumner)"
  
  #: src/ps/sortformat.c:384 src/ps/sortformat.c:400
  msgid "improper sort list"
-@@ -1762,12 +1764,12 @@
+@@ -1762,12 +1762,12 @@
  
  #: src/ps/sortformat.c:416 src/ps/sortformat.c:495 src/ps/sortformat.c:497
  msgid "unknown sort specifier"
@@ -255,7 +253,7 @@
  
  #: src/ps/sortformat.c:458
  msgid "PPID sort and forest output conflict"
-@@ -1779,7 +1781,7 @@
+@@ -1779,7 +1779,7 @@
  
  #: src/ps/sortformat.c:539 src/ps/sortformat.c:557
  msgid "multiple sort options"
@@ -264,7 +262,7 @@
  
  #: src/ps/sortformat.c:547
  msgid "option O is neither first format nor sort order"
-@@ -1795,11 +1797,11 @@
+@@ -1795,11 +1795,11 @@
  
  #: src/ps/sortformat.c:810
  msgid "tell <procps@freelists.org> what you expected"
@@ -278,7 +276,7 @@
  
  #: src/ps/sortformat.c:837
  #, c-format
-@@ -2023,7 +2025,7 @@
+@@ -2023,7 +2023,7 @@
  "The following are valid sort criteria:\n"
  msgstr ""
  "\n"
@@ -287,7 +285,7 @@
  
  #: src/slabtop.c:119
  msgid " a: sort by number of active objects\n"
-@@ -2125,7 +2127,7 @@
+@@ -2125,7 +2125,7 @@
  #: src/sysctl.c:143
  #, c-format
  msgid "separators should not be repeated: %s"
@@ -296,7 +294,7 @@
  
  #: src/sysctl.c:241
  #, c-format
-@@ -2146,15 +2148,15 @@
+@@ -2146,15 +2146,15 @@
  
  #: src/sysctl.c:248
  msgid "      --deprecated     include deprecated parameters to listing\n"
@@ -315,7 +313,7 @@
  
  #: src/sysctl.c:251
  msgid "  -e, --ignore         ignore unknown variables errors\n"
-@@ -2194,7 +2196,7 @@
+@@ -2194,7 +2194,7 @@
  
  #: src/sysctl.c:260
  msgid "  -w, --write          enable writing a value to variable\n"
@@ -324,7 +322,7 @@
  
  #: src/sysctl.c:261
  msgid "  -o                   does nothing\n"
-@@ -2240,7 +2242,7 @@
+@@ -2240,7 +2240,7 @@
  #: src/sysctl.c:587 src/sysctl.c:594
  #, c-format
  msgid "setting key \"%s\""
@@ -333,7 +331,7 @@
  
  #: src/sysctl.c:604
  #, c-format
-@@ -2259,7 +2261,7 @@
+@@ -2259,7 +2259,7 @@
  #: src/sysctl.c:617 src/sysctl.c:627
  #, c-format
  msgid "setting key \"%s\"%s"
@@ -342,17 +340,16 @@
  
  #: src/sysctl.c:696
  #, c-format
-@@ -2269,7 +2271,8 @@
+@@ -2269,7 +2269,7 @@
  #: src/sysctl.c:788
  #, c-format
  msgid "GLOB_TILDE is not supported on your platform, the tilde in \"%s\" won't be expanded."
 -msgstr "GLOB_TILDE stödjs inte på din plattform, tildet i ”%s” kommer inte expanderas."
-+msgstr "GLOB_TILDE stödjs inte på din plattform, tildet i ”%s” kommer inte att "
-+"expanderas."
++msgstr "GLOB_TILDE stödjs inte på din plattform, tildet i ”%s” kommer inte att expanderas."
  
  #: src/sysctl.c:794
  msgid "glob failed"
-@@ -2283,7 +2286,7 @@
+@@ -2283,7 +2283,7 @@
  #: src/sysctl.c:904 src/sysctl.c:911
  #, c-format
  msgid "* Applying %s ...\n"
@@ -361,7 +358,7 @@
  
  #: src/sysctl.c:1081
  #, c-format
-@@ -2379,7 +2382,7 @@
+@@ -2379,7 +2379,7 @@
  
  #: src/top/top_nls.c:135
  msgid "Process Id"
@@ -370,7 +367,7 @@
  
  #. Translation Hint: maximum 'PPID' = 5
  #: src/top/top_nls.c:137
-@@ -2388,7 +2391,7 @@
+@@ -2388,7 +2388,7 @@
  
  #: src/top/top_nls.c:138
  msgid "Parent Process pid"
@@ -379,7 +376,7 @@
  
  #. Translation Hint: maximum 'UID' = 5 +
  #: src/top/top_nls.c:140
-@@ -2397,7 +2400,7 @@
+@@ -2397,7 +2397,7 @@
  
  #: src/top/top_nls.c:141
  msgid "Effective User Id"
@@ -388,7 +385,7 @@
  
  #. Translation Hint: maximum 'USER' = 8 +
  #: src/top/top_nls.c:143 src/w.c:1136
-@@ -2415,7 +2418,7 @@
+@@ -2415,7 +2415,7 @@
  
  #: src/top/top_nls.c:147
  msgid "Real User Id"
@@ -397,7 +394,7 @@
  
  #. Translation Hint: maximum 'RUSER' = 8 +
  #: src/top/top_nls.c:149
-@@ -2433,7 +2436,7 @@
+@@ -2433,7 +2433,7 @@
  
  #: src/top/top_nls.c:153
  msgid "Saved User Id"
@@ -406,7 +403,7 @@
  
  #. Translation Hint: maximum 'SUSER' = 8 +
  #: src/top/top_nls.c:155
-@@ -2451,7 +2454,7 @@
+@@ -2451,7 +2451,7 @@
  
  #: src/top/top_nls.c:159
  msgid "Group Id"
@@ -415,7 +412,7 @@
  
  #. Translation Hint: maximum 'GROUP' = 8 +
  #: src/top/top_nls.c:161
-@@ -2469,7 +2472,7 @@
+@@ -2469,7 +2469,7 @@
  
  #: src/top/top_nls.c:165
  msgid "Process Group Id"
@@ -424,7 +421,7 @@
  
  #. Translation Hint: maximum 'TTY' = 8 +
  #: src/top/top_nls.c:167
-@@ -2478,7 +2481,7 @@
+@@ -2478,7 +2478,7 @@
  
  #: src/top/top_nls.c:168
  msgid "Controlling Tty"
@@ -433,7 +430,7 @@
  
  #. Translation Hint: maximum 'TPGID' = 5
  #: src/top/top_nls.c:170
-@@ -2487,7 +2490,7 @@
+@@ -2487,7 +2487,7 @@
  
  #: src/top/top_nls.c:171
  msgid "Tty Process Grp Id"
@@ -442,7 +439,7 @@
  
  #. Translation Hint: maximum 'SID' = 5
  #: src/top/top_nls.c:173
-@@ -2496,7 +2499,7 @@
+@@ -2496,7 +2496,7 @@
  
  #: src/top/top_nls.c:174
  msgid "Session Id"
@@ -451,7 +448,7 @@
  
  #. Translation Hint: maximum 'PR' = 3
  #: src/top/top_nls.c:176
-@@ -2578,7 +2581,7 @@
+@@ -2578,7 +2578,7 @@
  
  #: src/top/top_nls.c:201
  msgid "Virtual Image (KiB)"
@@ -460,7 +457,7 @@
  
  #. Translation Hint: maximum 'SWAP' = 6
  #: src/top/top_nls.c:203
-@@ -2587,7 +2590,7 @@
+@@ -2587,7 +2587,7 @@
  
  #: src/top/top_nls.c:204
  msgid "Swapped Size (KiB)"
@@ -469,7 +466,7 @@
  
  #. Translation Hint: maximum 'RES' = 6
  #: src/top/top_nls.c:206
-@@ -2659,7 +2662,7 @@
+@@ -2659,7 +2659,7 @@
  
  #: src/top/top_nls.c:228
  msgid "Process Status"
@@ -478,7 +475,7 @@
  
  #. Translation Hint: maximum 'COMMAND' = variable
  #: src/top/top_nls.c:230
-@@ -2686,7 +2689,7 @@
+@@ -2686,7 +2686,7 @@
  
  #: src/top/top_nls.c:237
  msgid "Task Flags <sched.h>"
@@ -487,7 +484,7 @@
  
  #. Translation Hint: maximum 'CGROUPS' = variable
  #: src/top/top_nls.c:239
-@@ -2704,7 +2707,7 @@
+@@ -2704,7 +2704,7 @@
  
  #: src/top/top_nls.c:243
  msgid "Supp Groups IDs"
@@ -496,7 +493,7 @@
  
  #. Translation Hint: maximum 'SUPGRPS' = variable
  #: src/top/top_nls.c:245
-@@ -2760,7 +2763,7 @@
+@@ -2760,7 +2760,7 @@
  
  #: src/top/top_nls.c:263
  msgid "Major Faults delta"
@@ -505,7 +502,7 @@
  
  #. Translation Hint: maximum 'vMn' = 3
  #: src/top/top_nls.c:265
-@@ -2769,7 +2772,7 @@
+@@ -2769,7 +2769,7 @@
  
  #: src/top/top_nls.c:266
  msgid "Minor Faults delta"
@@ -514,7 +511,7 @@
  
  #. Translation Hint: maximum 'USED' = 6
  #: src/top/top_nls.c:268
-@@ -3133,12 +3136,12 @@
+@@ -3133,12 +3133,12 @@
  #: src/top/top_nls.c:438
  #, c-format
  msgid "pid limit (%d) exceeded"
@@ -529,7 +526,7 @@
  
  #: src/top/top_nls.c:440
  #, c-format
-@@ -3210,12 +3213,12 @@
+@@ -3210,12 +3210,12 @@
  #: src/top/top_nls.c:455
  #, c-format
  msgid "Failed '%s' open: %s"
@@ -544,7 +541,7 @@
  
  #: src/top/top_nls.c:457
  #, c-format
-@@ -3240,12 +3243,12 @@
+@@ -3240,12 +3240,12 @@
  #: src/top/top_nls.c:461
  #, c-format
  msgid "Send pid %d signal [%d/sigterm]"
@@ -559,7 +556,7 @@
  
  #: src/top/top_nls.c:463
  msgid "Invalid signal"
-@@ -3283,11 +3286,11 @@
+@@ -3283,11 +3283,11 @@
  
  #: src/top/top_nls.c:470
  msgid "Invalid maximum"
@@ -573,7 +570,7 @@
  
  #: src/top/top_nls.c:472
  msgid "Unknown command - try 'h' for help"
-@@ -3320,11 +3323,11 @@
+@@ -3320,11 +3320,11 @@
  
  #: src/top/top_nls.c:479
  msgid "failed pid maximum size test"
@@ -587,7 +584,7 @@
  
  #: src/top/top_nls.c:481
  #, c-format
-@@ -3334,7 +3337,7 @@
+@@ -3334,7 +3334,7 @@
  #: src/top/top_nls.c:482
  #, c-format
  msgid "window entry #%d corrupt, please delete '%s'"
@@ -596,7 +593,7 @@
  
  #: src/top/top_nls.c:483
  msgid "Unavailable in secure mode"
-@@ -3342,7 +3345,7 @@
+@@ -3342,7 +3342,7 @@
  
  #: src/top/top_nls.c:484
  msgid "Only 1 cpu detected"
@@ -605,7 +602,7 @@
  
  #: src/top/top_nls.c:485
  msgid "Unacceptable integer"
-@@ -3419,11 +3422,11 @@
+@@ -3419,11 +3419,11 @@
  
  #: src/top/top_nls.c:517
  msgid "Locate next inactive, use \"L\""
@@ -619,7 +616,7 @@
  
  #: src/top/top_nls.c:519
  #, c-format
-@@ -3446,7 +3449,7 @@
+@@ -3446,7 +3446,7 @@
  
  #: src/top/top_nls.c:523
  msgid "even using field names only, window is now too small"
@@ -628,7 +625,7 @@
  
  #: src/top/top_nls.c:524
  msgid "Open Files"
-@@ -3462,7 +3465,7 @@
+@@ -3462,7 +3462,7 @@
  
  #: src/top/top_nls.c:527
  msgid "the '=' key will eventually show the actual file read or command(s) executed ..."
@@ -637,7 +634,7 @@
  
  #: src/top/top_nls.c:528
  msgid "demo"
-@@ -3556,7 +3559,7 @@
+@@ -3556,7 +3556,7 @@
  #: src/top/top_nls.c:564
  #, c-format
  msgid "unable to inspect, pid %d not found"
@@ -646,7 +643,7 @@
  
  #: src/top/top_nls.c:565
  #, c-format
-@@ -3593,7 +3596,7 @@
+@@ -3593,7 +3593,7 @@
  
  #: src/top/top_nls.c:574
  msgid "duplicate filter was ignored"
@@ -655,7 +652,7 @@
  
  #: src/top/top_nls.c:575
  #, c-format
-@@ -3620,7 +3623,7 @@
+@@ -3620,7 +3620,7 @@
  
  #: src/top/top_nls.c:580
  msgid "none"
@@ -664,7 +661,7 @@
  
  #. Translation Hint: The following word 'Node' should be exactly
  #. 4 characters, excluding leading %%, fmt chars & colon)
-@@ -3632,7 +3635,7 @@
+@@ -3632,7 +3632,7 @@
  #: src/top/top_nls.c:584
  #, c-format
  msgid "expand which numa node (0-%d)"
@@ -673,7 +670,7 @@
  
  #: src/top/top_nls.c:585
  msgid "invalid numa node"
-@@ -3640,7 +3643,7 @@
+@@ -3640,7 +3640,7 @@
  
  #: src/top/top_nls.c:586
  msgid "sorry, NUMA extensions unavailable"
@@ -682,7 +679,7 @@
  
  #. Translation Hint: 'Mem ' is an abbreviation for physical memory/ram
  #. .                 'Swap' represents the linux swap file --
-@@ -3657,17 +3660,17 @@
+@@ -3657,17 +3657,17 @@
  #: src/top/top_nls.c:593
  #, c-format
  msgid "library failed memory statistics, at %d: %s"
@@ -703,7 +700,7 @@
  
  #: src/top/top_nls.c:596
  #, c-format
-@@ -3677,7 +3680,7 @@
+@@ -3677,7 +3677,7 @@
  #: src/top/top_nls.c:597
  #, c-format
  msgid "PID to collapse/expand [default pid = %d]"
@@ -712,7 +709,7 @@
  
  #: src/top/top_nls.c:598
  msgid "saving prevents older top from reading, save anyway?"
-@@ -3700,7 +3703,7 @@
+@@ -3700,7 +3700,7 @@
  #: src/top/top_nls.c:602
  #, c-format
  msgid "set pid %d AGNI value to"
@@ -721,7 +718,7 @@
  
  #: src/top/top_nls.c:603
  msgid "valid AGNI range is -20 to +19"
-@@ -3709,37 +3712,37 @@
+@@ -3709,37 +3709,37 @@
  #: src/top/top_nls.c:604
  #, c-format
  msgid "autogroup open failed, %s"
@@ -766,7 +763,7 @@
  
  #: src/top/top_nls.c:611
  msgid "n/a"
-@@ -3748,7 +3751,7 @@
+@@ -3748,7 +3748,7 @@
  #: src/top/top_nls.c:612
  #, c-format
  msgid "supplementary groups for pid %d, %s"
@@ -775,7 +772,7 @@
  
  #: src/top/top_nls.c:613
  msgid "message log, last 10 messages:"
-@@ -3766,11 +3769,11 @@
+@@ -3766,11 +3766,11 @@
  
  #: src/top/top_nls.c:616
  msgid "sorry, distinct cpu core types do not exist"
@@ -789,7 +786,7 @@
  
  #. Translation Notes ------------------------------------------------
  #. .  It is strongly recommend that the --no-wrap command line option
-@@ -3887,32 +3890,38 @@
+@@ -3887,32 +3887,36 @@
  "\n"
  "Type 'q' or <Esc> to continue "
  msgstr ""
@@ -807,12 +804,10 @@
 +"\n"
 +"Dessa tangenter öppnar ett separat fönster längst ner på skärmen medan den\n"
 +"vanliga top-övervakningen fortsätter utan avbrott. Om du trycker samma\n"
-+"”~1Ctrl~2”-kommando en andra gång tas det separata fönstret bort; det gör "
-+"även\n"
++"”~1Ctrl~2”-kommando en andra gång tas det separata fönstret bort; det gör även\n"
 +"kommandot ”~1=~2”.\n"
 +"\n"
-+"Följande används för den första uppgiften som visas. ~1Piltangenterna~2 "
-+"upp/ned\n"
++"Följande används för den första uppgiften som visas. ~1Piltangenterna~2 upp/ned\n"
 +"är"
 +" viktiga när du väljer en målprocess, liksom en stabilare vy "
 +"som skogsvyn\n"
@@ -849,20 +844,18 @@
  
  #: src/top/top_nls.c:716
  #, c-format
-@@ -4049,8 +4058,10 @@
+@@ -4049,8 +4053,8 @@
  "   'd' or <Space> toggles display, 's' sets sort.  Use 'q' or <Esc> to end!\n"
  msgstr ""
  "Fälthantering~2 för fönster ~1%s~6, vars aktuella sorteringsfält är ~1%s~2\n"
 -"   Navigera med Upp/Ner, Höger väljer för flytt och <Retur> el Vänster sparar,\n"
 -"   ”d” el <Mellanslag> växlar visning, ”s” anger sort.  ”q” el <Esc> avslutar!\n"
-+"   Navigera med Upp/Ned; Höger väljer flytt, sedan sparar <Retur> eller "
-+"Vänster.\n"
-+"   ”d” eller <Mellanslag> växlar visning, ”s” anger sortering. ”q” eller "
-+"<Esc> avslutar!\n"
++"   Navigera med Upp/Ned; Höger väljer flytt, sedan sparar <Retur> eller Vänster.\n"
++"   ”d” eller <Mellanslag> växlar visning, ”s” anger sortering. ”q” eller <Esc> avslutar!\n"
  
  #. Translation Hint:
  #. .  The next 5 items must each be translated as a single line.
-@@ -4108,17 +4119,19 @@
+@@ -4108,17 +4112,17 @@
  "Use~2:  left/right/up/down/etc to ~1navigate~5 the output; 'L'/'&' to ~1locate~5/~1next~5.\n"
  "Or~2:   <Enter> to ~1select another~5; 'q' or <Esc> to ~1end~5 !\n"
  msgstr ""
@@ -870,10 +863,8 @@
 -"Använd~2:  vänster/höger/upp/ner/etc för att ~1navigera~5 utdatan; 'L'/'&' för att ~1hitta~5/~1nästa~5.\n"
 -"Eller~2:   <Retur> för att ~1välja en annan~5; 'q' eller <Esc> för att ~1avsluta~5 !\n"
 +"Inspektion~2 Visning vid PID: ~1%s~3, körande ~1%s~3. Söker: ~1%s~6\n"
-+"Använd~2: vänster/höger/upp/ned osv. för att ~1navigera~5 i utdata; ”L”/”&” "
-+"för att ~1söka~5/~1nästa~5.\n"
-+"Eller~2: <Retur> för att ~1välja en annan~5; ”q” eller <Esc> för att "
-+"~1avsluta~5!\n"
++"Använd~2: vänster/höger/upp/ned osv. för att ~1navigera~5 i utdata; ”L”/”&” för att ~1söka~5/~1nästa~5.\n"
++"Eller~2: <Retur> för att ~1välja en annan~5; ”q” eller <Esc> för att ~1avsluta~5!\n"
  
  #: src/uptime.c:49 src/w.c:545
  msgid "Cannot get container uptime"
@@ -887,7 +878,7 @@
  
  #: src/uptime.c:108
  msgid " -c, --container show container uptime\n"
-@@ -4126,7 +4139,7 @@
+@@ -4126,7 +4130,7 @@
  
  #: src/uptime.c:109
  msgid " -p, --pretty   show uptime in pretty format\n"
@@ -896,7 +887,7 @@
  
  #: src/uptime.c:110
  msgid " -r, --raw      show uptime values in raw format\n"
-@@ -4147,7 +4160,7 @@
+@@ -4147,7 +4151,7 @@
  
  #: src/vmstat.c:224
  msgid " -f, --forks            number of forks since boot\n"
@@ -905,7 +896,7 @@
  
  #: src/vmstat.c:225
  msgid " -m, --slabs            slabinfo\n"
-@@ -4171,7 +4184,7 @@
+@@ -4171,7 +4175,7 @@
  
  #: src/vmstat.c:230
  msgid " -p, --partition <dev>  partition specific statistics\n"
@@ -914,7 +905,7 @@
  
  #: src/vmstat.c:231
  msgid " -S, --unit <char>      define display unit\n"
-@@ -4378,17 +4391,17 @@
+@@ -4378,17 +4382,17 @@
  #: src/vmstat.c:876
  #, c-format
  msgid "%13lu inprogress IO\n"
@@ -935,7 +926,7 @@
  
  #: src/vmstat.c:906
  #, c-format
-@@ -4443,52 +4456,52 @@
+@@ -4443,52 +4447,52 @@
  #: src/vmstat.c:916
  #, c-format
  msgid "%13lld non-nice user cpu ticks\n"
@@ -998,7 +989,7 @@
  
  #: src/vmstat.c:926
  #, c-format
-@@ -4558,7 +4571,7 @@
+@@ -4558,7 +4562,7 @@
  #: src/vmstat.c:939 src/vmstat.c:957
  #, c-format
  msgid "%13lu forks\n"
@@ -1007,7 +998,7 @@
  
  #. Translation Hint: do not change argument characters
  #: src/vmstat.c:1060
-@@ -4666,11 +4679,12 @@
+@@ -4666,11 +4670,11 @@
  #: src/watch.c:1247
  #, c-format
  msgid "Follow -f option conflicts with change options -d,-e or -q"
@@ -1017,12 +1008,11 @@
  #: src/watch.c:1343
  msgid "command exit with a non-zero status, press a key to exit"
 -msgstr "kommandot avslutade med en nollskild status, tryck en tangent för att avsluta"
-+msgstr "kommandot avslutades med en nollskild status, tryck på en tangent för att "
-+"avsluta"
++msgstr "kommandot avslutades med en nollskild status, tryck på en tangent för att avsluta"
  
  #: src/w.c:301 src/w.c:316
  #, c-format
-@@ -4692,7 +4706,7 @@
+@@ -4692,7 +4696,7 @@
  
  #: src/w.c:551
  msgid "Cannot format uptime"
@@ -1031,7 +1021,7 @@
  
  #: src/w.c:744
  #, c-format
-@@ -4701,7 +4715,7 @@
+@@ -4701,7 +4705,7 @@
  
  #: src/w.c:746
  msgid " -c, --container     show container uptime\n"
@@ -1040,7 +1030,7 @@
  
  #: src/w.c:747
  msgid " -h, --no-header     do not print header\n"
-@@ -4709,7 +4723,7 @@
+@@ -4709,7 +4713,7 @@
  
  #: src/w.c:748
  msgid " -u, --no-current    ignore current process username\n"
@@ -1049,7 +1039,7 @@
  
  #: src/w.c:749
  msgid " -s, --short         short format\n"
-@@ -4730,7 +4744,7 @@
+@@ -4730,7 +4734,7 @@
  
  #: src/w.c:755
  msgid " -i, --ip-addr       display IP address instead of hostname (if possible)\n"

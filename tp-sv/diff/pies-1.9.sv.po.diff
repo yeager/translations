@@ -571,18 +571,16 @@
  
  #: src/pies.c:1610
  msgid "Administrative access"
-@@ -776,7 +776,9 @@
+@@ -776,7 +776,7 @@
  
  #: src/pies.c:1647
  msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
 -msgstr "Sätt syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt), eller ett facilitetstal."
-+msgstr "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, "
-+"mail, cron, local0 till local7 (skiftlägesokänsligt), eller ett "
-+"facilitetsnummer."
++msgstr "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt), eller ett facilitetsnummer."
  
  #: src/pies.c:1652
  msgid "Tag syslog messages with this string"
-@@ -825,7 +827,7 @@
+@@ -825,7 +825,7 @@
  
  #: src/pies.c:1729
  msgid "Set debug verbosity level."
@@ -591,7 +589,7 @@
  
  #: src/pies.c:1734
  msgid "Show source info with debugging messages."
-@@ -849,7 +851,7 @@
+@@ -849,7 +849,7 @@
  
  #: src/pies.c:1799
  msgid "Set global system limits."
@@ -600,7 +598,7 @@
  
  #: src/pies.c:1805
  msgid "arg: char"
-@@ -865,7 +867,7 @@
+@@ -865,7 +865,7 @@
  
  #: src/pies.c:1826
  msgid "Set global ACL."
@@ -609,7 +607,7 @@
  
  #: src/pies.c:1831
  msgid "name: string"
-@@ -919,7 +921,7 @@
+@@ -919,7 +919,7 @@
  #: src/pies.c:2100
  #, c-format
  msgid "unexpected character %#03o in pidfile %s"
@@ -618,7 +616,7 @@
  
  #: src/pies.c:2110
  #, c-format
-@@ -938,7 +940,7 @@
+@@ -938,7 +938,7 @@
  #: src/pies.c:2216
  #, c-format
  msgid "pies is not running, but a pidfile is found (pid %lu)"
@@ -627,7 +625,7 @@
  
  #: src/pies.c:2222
  #, c-format
-@@ -958,7 +960,7 @@
+@@ -958,7 +958,7 @@
  #: src/pies.c:2294
  #, c-format
  msgid "cannot create pidfile `%s': %s"
@@ -636,7 +634,7 @@
  
  #: src/pies.c:2318
  #, c-format
-@@ -1017,15 +1019,15 @@
+@@ -1017,15 +1017,15 @@
  
  #: src/pies.c:2672
  msgid "set instance name"
@@ -655,7 +653,7 @@
  
  #: src/pies.c:2689
  msgid "log to stderr"
-@@ -1141,7 +1143,7 @@
+@@ -1141,7 +1141,7 @@
  
  #: src/pies.c:2880
  msgid "set debug verbosity level"
@@ -664,7 +662,7 @@
  
  #: src/pies.c:2973
  #, c-format
-@@ -1311,7 +1313,7 @@
+@@ -1311,7 +1311,7 @@
  #: src/piesctl.c:704
  #, c-format
  msgid "original json was: %s"
@@ -673,7 +671,7 @@
  
  #: src/piesctl.c:706
  #, c-format
-@@ -1321,7 +1323,7 @@
+@@ -1321,7 +1321,7 @@
  #: src/piesctl.c:739
  #, c-format
  msgid "%s: raw JSON reply follows:\n"
@@ -682,7 +680,7 @@
  
  #: src/piesctl.c:773
  msgid "please report"
-@@ -2347,13 +2349,13 @@
+@@ -2347,13 +2347,13 @@
  #: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
  #: grecs/src/format.c:45
  msgid "number"
@@ -698,7 +696,7 @@
  
  #: grecs/src/format.c:46
  msgid "time"
-@@ -2527,7 +2529,7 @@
+@@ -2527,7 +2527,7 @@
  
  #: grecs/json/json.c:98
  msgid "Unrecognized token"
@@ -707,7 +705,7 @@
  
  #: grecs/json/json.c:99
  msgid "Bad delimiter"
-@@ -2598,7 +2600,7 @@
+@@ -2598,7 +2598,7 @@
  #: grecs/src/sockaddr.c:269
  #, c-format
  msgid "unknown or unsupported scheme: %s"
@@ -716,7 +714,7 @@
  
  #: grecs/src/sockaddr.c:278
  #, c-format
-@@ -2663,7 +2665,7 @@
+@@ -2663,7 +2663,7 @@
  #: grecs/src/tree.c:531 grecs/src/tree.c:561
  #, c-format
  msgid "not a number (stopped near `%s')"

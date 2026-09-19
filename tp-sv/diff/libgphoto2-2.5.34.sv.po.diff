@@ -11,7 +11,7 @@
  "Antal bilder = %i\n"
  
  #: camlibs/aox/library.c:110
-@@ -88,9 +88,9 @@
+@@ -88,9 +88,8 @@
  "The gphoto driver for these devices allows you to download,\n"
  "upload and delete pictures from the picture frame."
  msgstr ""
@@ -19,12 +19,11 @@
 -"Gphoto-drivrutinen för dessa enheter låter dig hämta,\n"
 -"sända upp och ta bort bilder från bildramen."
 +"AX203-baserade bildramar finns med många olika upplösningar.\n"
-+"Gphoto-drivrutinen för dessa enheter låter dig hämta, överföra och ta bort "
-+"bilder från bildramen."
++"Gphoto-drivrutinen för dessa enheter låter dig hämta, överföra och ta bort bilder från bildramen."
  
  #: camlibs/ax203/library.c:110
  msgid ""
-@@ -101,7 +101,7 @@
+@@ -101,7 +100,7 @@
  msgstr ""
  "AX203 USB-bildramsdrivrutin\n"
  "Hans de Goede <hdegoede@redhat.com>\n"
@@ -33,7 +32,7 @@
  "från bildramen."
  
  #: camlibs/ax203/library.c:432 camlibs/st2205/library.c:532
-@@ -122,7 +122,7 @@
+@@ -122,7 +121,7 @@
  "Firmware Version: %s"
  msgstr ""
  "Antal bilder: %i\n"
@@ -42,7 +41,7 @@
  
  #: camlibs/barbie/barbie.c:357
  msgid ""
-@@ -142,7 +142,7 @@
+@@ -142,7 +141,7 @@
  "Andreas Meyer <ahm@spies.com>\n"
  "Pete Zaitcev <zaitcev@metabyte.com>\n"
  "\n"
@@ -51,7 +50,7 @@
  "Jeff Laing <jeffl@SPATIALinfo.com>\n"
  "\n"
  "Implementerat med hjälp av dokument från\n"
-@@ -180,38 +180,41 @@
+@@ -180,38 +179,38 @@
  #: camlibs/canon/canon.c:2567
  #, c-format
  msgid "Name '%s' (%li characters) too long, maximum 30 characters are allowed."
@@ -68,14 +67,12 @@
  #, c-format
  msgid "canon_int_list_directory: ERROR: initial message too short (%i < minimum %i)"
 -msgstr "canon_int_list_directory: FEL: första meddelande för kort (%i < minimum %i)"
-+msgstr "canon_int_list_directory: FEL: första meddelandet är för kort (%i < minimum "
-+"%i)"
++msgstr "canon_int_list_directory: FEL: första meddelandet är för kort (%i < minimum %i)"
  
  #: camlibs/canon/canon.c:3185
  msgid "canon_int_list_directory: Reached end of packet while examining the first dirent"
 -msgstr "canon_int_list_directory: Nådde slutet på paket medan första katalogposten undersöktes"
-+msgstr "canon_int_list_directory: Nådde slutet på paketet medan den första "
-+"katalogposten undersöktes"
++msgstr "canon_int_list_directory: Nådde slutet på paketet medan den första katalogposten undersöktes"
  
  #: camlibs/canon/canon.c:3270
  msgid "canon_int_list_directory: truncated directory entry encountered"
@@ -96,12 +93,11 @@
  #: camlibs/canon/canon.c:4034
  msgid "Could not extract JPEG thumbnail from data: No beginning/end"
 -msgstr "Kunde inte extrahera JPEG-miniatyrbild från data: Ingen början/slut"
-+msgstr "Kunde inte extrahera JPEG-miniatyrbild från data: ingen början eller inget "
-+"slut"
++msgstr "Kunde inte extrahera JPEG-miniatyrbild från data: ingen början eller inget slut"
  
  #: camlibs/canon/canon.c:4123
  msgid "Could not extract JPEG thumbnail from data: Data is not JFIF"
-@@ -220,7 +223,7 @@
+@@ -220,7 +219,7 @@
  #: camlibs/canon/canon.h:156 camlibs/canon/canon.h:170
  #, c-format
  msgid "NULL parameter \"%s\" in %s line %i"
@@ -110,7 +106,7 @@
  
  #: camlibs/canon/canon.h:639
  #, c-format
-@@ -230,7 +233,7 @@
+@@ -230,7 +229,7 @@
  #: camlibs/canon/crc.c:222
  #, c-format
  msgid "FATAL ERROR: initial CRC value for length %d unknown\n"
@@ -119,7 +115,7 @@
  
  #: camlibs/canon/crc.c:235
  #, c-format
-@@ -270,7 +273,7 @@
+@@ -270,7 +269,7 @@
  
  #: camlibs/canon/library.c:199
  msgid "Auto focus: one-shot"
@@ -128,7 +124,7 @@
  
  #: camlibs/canon/library.c:200
  msgid "Auto focus: AI servo"
-@@ -282,7 +285,7 @@
+@@ -282,7 +281,7 @@
  
  #: camlibs/canon/library.c:202
  msgid "Manual focus"
@@ -137,7 +133,7 @@
  
  #: camlibs/canon/library.c:207
  msgid "Beep off"
-@@ -304,7 +307,7 @@
+@@ -304,7 +303,7 @@
  
  #: camlibs/canon/library.c:215
  msgid "Flash auto"
@@ -146,7 +142,7 @@
  
  #: camlibs/canon/library.c:242
  msgid "AUTO"
-@@ -408,7 +411,7 @@
+@@ -408,7 +407,7 @@
  
  #: camlibs/canon/library.c:261
  msgid "PanFocus"
@@ -155,7 +151,7 @@
  
  #: camlibs/canon/library.c:262 camlibs/ptp2/config.c:6343
  #: camlibs/ptp2/config.c:6588 camlibs/ptp2/ptp.c:8040 camlibs/ptp2/ptp.c:8361
-@@ -466,7 +469,7 @@
+@@ -466,7 +465,7 @@
  
  #: camlibs/canon/library.c:276
  msgid "MyColors"
@@ -164,7 +160,7 @@
  
  #: camlibs/canon/library.c:277
  msgid "Photo in movie"
-@@ -489,7 +492,7 @@
+@@ -489,7 +488,7 @@
  
  #: camlibs/canon/library.c:289
  msgid "Small Fine JPEG"
@@ -173,7 +169,7 @@
  
  #: camlibs/canon/library.c:291 camlibs/ptp2/config.c:1544
  msgid "Medium Normal JPEG"
-@@ -497,7 +500,7 @@
+@@ -497,7 +496,7 @@
  
  #: camlibs/canon/library.c:293
  msgid "Medium Fine JPEG"
@@ -182,7 +178,7 @@
  
  #: camlibs/canon/library.c:295 camlibs/ptp2/config.c:1543
  msgid "Large Normal JPEG"
-@@ -505,7 +508,7 @@
+@@ -505,7 +504,7 @@
  
  #: camlibs/canon/library.c:297 camlibs/ptp2/config.c:1542
  msgid "Large Fine JPEG"
@@ -191,7 +187,7 @@
  
  #: camlibs/canon/library.c:299
  msgid "RAW + Small Normal JPEG"
-@@ -513,7 +516,7 @@
+@@ -513,7 +512,7 @@
  
  #: camlibs/canon/library.c:301
  msgid "RAW + Small Fine JPEG"
@@ -200,7 +196,7 @@
  
  #: camlibs/canon/library.c:303
  msgid "RAW + Medium Normal JPEG"
-@@ -521,7 +524,7 @@
+@@ -521,7 +520,7 @@
  
  #: camlibs/canon/library.c:305
  msgid "RAW + Medium Fine JPEG"
@@ -209,7 +205,7 @@
  
  #: camlibs/canon/library.c:307
  msgid "RAW + Large Normal JPEG"
-@@ -529,7 +532,7 @@
+@@ -529,7 +528,7 @@
  
  #: camlibs/canon/library.c:309
  msgid "RAW + Large Fine JPEG"
@@ -218,7 +214,7 @@
  
  #: camlibs/canon/library.c:351
  msgid ""
-@@ -547,24 +550,25 @@
+@@ -547,24 +546,25 @@
  "If you experience a lot of serial transmission errors, try to have your\n"
  " computer as idle as possible (i.e. no disk activity)\n"
  msgstr ""
@@ -257,7 +253,7 @@
  
  #: camlibs/canon/library.c:493
  msgid "Switching Camera Off"
-@@ -586,7 +590,7 @@
+@@ -586,7 +586,7 @@
  #: camlibs/canon/library.c:661
  #, c-format
  msgid "Could not get disk info: %s"
@@ -266,7 +262,7 @@
  
  #: camlibs/canon/library.c:730
  #, c-format
-@@ -653,13 +657,13 @@
+@@ -653,13 +653,13 @@
  "Time: %s\n"
  msgstr ""
  "\n"
@@ -282,7 +278,7 @@
  "%s\n"
  "\n"
  "Tid: %s\n"
-@@ -696,7 +700,7 @@
+@@ -696,7 +696,7 @@
  
  #: camlibs/canon/library.c:1312 camlibs/canon/library.c:1445
  msgid "Speeds greater than 57600 are not supported for uploading to this camera"
@@ -291,7 +287,7 @@
  
  #: camlibs/canon/library.c:1329 camlibs/canon/library.c:1463
  msgid "Could not get flash drive letter"
-@@ -707,8 +711,8 @@
+@@ -707,8 +707,8 @@
  "Could not upload, no free folder name available!\n"
  "999CANON folder name exists and has an AUT_9999.JPG picture in it."
  msgstr ""
@@ -302,7 +298,7 @@
  
  #: camlibs/canon/library.c:1393 camlibs/canon/library.c:1506
  msgid "Could not create \\DCIM directory."
-@@ -882,7 +886,7 @@
+@@ -882,7 +882,7 @@
  #: camlibs/polaroid/pdc700.c:994 camlibs/polaroid/pdc700.c:1007
  #: camlibs/polaroid/pdc700.c:1079
  msgid "Date and Time"
@@ -311,7 +307,7 @@
  
  #: camlibs/canon/library.c:1906
  msgid "Error"
-@@ -891,7 +895,7 @@
+@@ -891,7 +891,7 @@
  #: camlibs/canon/library.c:1911 camlibs/ptp2/config.c:11485
  #: camlibs/ptp2/ptp.c:6204
  msgid "Firmware Version"
@@ -320,7 +316,7 @@
  
  #: camlibs/canon/library.c:1932
  msgid "Power"
-@@ -907,7 +911,7 @@
+@@ -907,7 +907,7 @@
  
  #: camlibs/canon/library.c:1951 camlibs/canon/library.c:2361
  msgid "Keep filename on upload"
@@ -329,7 +325,7 @@
  
  #: camlibs/canon/library.c:1978 camlibs/canon/library.c:2019
  #: camlibs/canon/library.c:2049 camlibs/canon/library.c:2079
-@@ -917,7 +921,7 @@
+@@ -917,7 +917,7 @@
  #: camlibs/canon/library.c:2277 camlibs/canon/library.c:2307
  #: camlibs/canon/library.c:2337
  msgid "Camera unavailable"
@@ -338,7 +334,7 @@
  
  #: camlibs/canon/library.c:1981
  msgid "Owner name changed"
-@@ -1062,11 +1066,11 @@
+@@ -1062,11 +1062,11 @@
  #: camlibs/canon/library.c:2567
  #, c-format
  msgid "Unsupported port type %i = 0x%x given. Initialization impossible."
@@ -352,7 +348,7 @@
  
  #: camlibs/canon/serial.c:675
  msgid "ERROR: unexpected message"
-@@ -1074,7 +1078,7 @@
+@@ -1074,7 +1074,7 @@
  
  #: camlibs/canon/serial.c:685
  msgid "ERROR: message overrun"
@@ -361,7 +357,7 @@
  
  #: camlibs/canon/serial.c:712
  msgid "ERROR: out of sequence."
-@@ -1094,7 +1098,7 @@
+@@ -1094,7 +1094,7 @@
  
  #: camlibs/canon/serial.c:949
  msgid "Uploading file..."
@@ -370,17 +366,16 @@
  
  #: camlibs/canon/serial.c:1020 camlibs/digita/digita.c:247
  #: camlibs/directory/directory.c:554
-@@ -1108,7 +1112,8 @@
+@@ -1108,7 +1108,7 @@
  #: camlibs/canon/serial.c:1098
  #, c-format
  msgid "canon_serial_get_dirents: Initial dirent packet too short (only %i bytes)"
 -msgstr "canon_serial_get_dirents: Första paket med katalogposter för kort (bara %i byte)"
-+msgstr "canon_serial_get_dirents: första katalogpostpaketet är för kort (endast %i "
-+"byte)"
++msgstr "canon_serial_get_dirents: första katalogpostpaketet är för kort (endast %i byte)"
  
  #: camlibs/canon/serial.c:1116
  #, c-format
-@@ -1121,7 +1126,7 @@
+@@ -1121,7 +1121,7 @@
  
  #: camlibs/canon/serial.c:1152
  msgid "canon_serial_get_dirents: Truncated directory entry received"
@@ -389,17 +384,16 @@
  
  #: camlibs/canon/serial.c:1180
  msgid "canon_serial_get_dirents: Too many dirents, we must be looping."
-@@ -1130,7 +1135,8 @@
+@@ -1130,7 +1130,7 @@
  #: camlibs/canon/serial.c:1190
  #, c-format
  msgid "canon_serial_get_dirents: Could not resize dirent buffer to %i bytes"
 -msgstr "canon_serial_get_dirents: Kunde inte ändra storlek på katalogpost buffert till %i byte"
-+msgstr "canon_serial_get_dirents: kunde inte ändra storlek på katalogpostbufferten "
-+"till %i byte"
++msgstr "canon_serial_get_dirents: kunde inte ändra storlek på katalogpostbufferten till %i byte"
  
  #: camlibs/canon/serial.c:1259
  msgid "Error changing speed."
-@@ -1159,11 +1165,11 @@
+@@ -1159,11 +1159,11 @@
  #: camlibs/canon/serial.c:1314 camlibs/canon/serial.c:1318
  #: camlibs/dimera/dimera3500.c:986
  msgid "No response from camera"
@@ -413,7 +407,7 @@
  
  #: camlibs/canon/serial.c:1342
  #, c-format
-@@ -1197,24 +1203,24 @@
+@@ -1197,24 +1197,24 @@
  
  #: camlibs/canon/serial.c:1420
  msgid "Error waiting for ACK during initialization, retrying"
@@ -443,7 +437,7 @@
  
  #: camlibs/canon/serial.c:1494
  msgid "Getting thumbnail..."
-@@ -1226,15 +1232,15 @@
+@@ -1226,15 +1226,15 @@
  
  #: camlibs/canon/usb.c:216
  msgid "Could not establish initial contact with camera"
@@ -462,41 +456,36 @@
  
  #: camlibs/canon/usb.c:232
  #, c-format
-@@ -1244,47 +1250,53 @@
+@@ -1244,47 +1244,47 @@
  #: camlibs/canon/usb.c:244
  #, c-format
  msgid "Step #2 of initialization failed: (\"%s\" on read of %i). Camera not operational"
 -msgstr "Steg #2 av initieringen misslyckades: (”%s” vid läsning av %i). Kamera inte i drift"
-+msgstr "Steg 2 av initieringen misslyckades: (”%s” vid läsning av %i). Kameran är "
-+"inte i drift"
++msgstr "Steg 2 av initieringen misslyckades: (”%s” vid läsning av %i). Kameran är inte i drift"
  
  #: camlibs/canon/usb.c:249
  #, c-format
  msgid "Step #2 of initialization failed! (returned %i bytes, expected %i). Camera not operational"
 -msgstr "Steg #2 av initiering misslyckades! (returnerade %i byte, %i förväntades). Kamera ej i drift"
-+msgstr "Steg 2 av initieringen misslyckades! (returnerade %i byte, %i förväntades). "
-+"Kameran är inte i drift"
++msgstr "Steg 2 av initieringen misslyckades! (returnerade %i byte, %i förväntades). Kameran är inte i drift"
  
  #: camlibs/canon/usb.c:268
  #, c-format
  msgid "Step #3 of initialization failed: \"%s\" on read of %i. Camera not operational"
 -msgstr "Steg #3 av initiering misslyckades: ”%s” vid läsning av %i. Kamera ej i drift"
-+msgstr "Steg 3 av initieringen misslyckades: ”%s” vid läsning av %i. Kameran är inte "
-+"i drift"
++msgstr "Steg 3 av initieringen misslyckades: ”%s” vid läsning av %i. Kameran är inte i drift"
  
  #: camlibs/canon/usb.c:275 camlibs/canon/usb.c:302
  #, c-format
  msgid "Step #3 of initialization failed! (returned %i, expected %i). Camera not operational"
 -msgstr "Steg #3 av initiering misslyckades! (returnerade %i, %i förväntades). Kamera ej i drift"
-+msgstr "Steg 3 av initieringen misslyckades! (returnerade %i, %i förväntades). "
-+"Kameran är inte i drift"
++msgstr "Steg 3 av initieringen misslyckades! (returnerade %i, %i förväntades). Kameran är inte i drift"
  
  #: camlibs/canon/usb.c:295
  #, c-format
  msgid "Step #3 of initialization failed: \"%s\" on write of %i. Camera not operational"
 -msgstr "Steg #3 av initiering misslyckades: ”%s” vid skrivning av %i. Kamera ej i drift"
-+msgstr "Steg 3 av initieringen misslyckades: ”%s” vid skrivning av %i. Kameran är "
-+"inte i drift"
++msgstr "Steg 3 av initieringen misslyckades: ”%s” vid skrivning av %i. Kameran är inte i drift"
  
  #: camlibs/canon/usb.c:333 camlibs/canon/usb.c:374
  #, c-format
@@ -514,8 +503,7 @@
  #, c-format
  msgid "Camera not ready, multiple 'Identify camera' requests failed: %s"
 -msgstr "Kamera ej redo, flera ”Identifiera kamera”-förfrågningar misslyckades: %s"
-+msgstr "Kameran är inte klar; flera förfrågningar om ”Identifiera kamera” "
-+"misslyckades: %s"
++msgstr "Kameran är inte klar; flera förfrågningar om ”Identifiera kamera” misslyckades: %s"
  
  #: camlibs/canon/usb.c:531 camlibs/canon/usb.c:547
  #, c-format
@@ -525,17 +513,16 @@
  
  #: camlibs/canon/usb.c:612
  #, c-format
-@@ -1322,7 +1334,8 @@
+@@ -1322,7 +1322,7 @@
  #: camlibs/canon/usb.c:2149
  #, c-format
  msgid "Warning in canon_usb_set_file_attributes: canon_usb_dialogue returned error status 0x%08x from camera"
 -msgstr "Verning i canon_usb_set_file_attributes: canon_usb_dialogue returnerade felstatus 0x%08x från kamera"
-+msgstr "Varning i canon_usb_set_file_attributes: canon_usb_dialogue returnerade "
-+"felstatus 0x%08x från kameran"
++msgstr "Varning i canon_usb_set_file_attributes: canon_usb_dialogue returnerade felstatus 0x%08x från kameran"
  
  #: camlibs/canon/usb.c:2239
  #, c-format
-@@ -1337,16 +1350,18 @@
+@@ -1337,16 +1337,16 @@
  #: camlibs/canon/usb.c:2282 camlibs/canon/usb.c:2292 camlibs/canon/usb.c:2327
  #: camlibs/canon/usb.c:2340 camlibs/canon/usb.c:2353
  msgid "File upload failed."
@@ -545,29 +532,26 @@
  #: camlibs/canon/usb.c:2378
  msgid "File was too big. You may have to turn your camera off and back on before uploading more files."
 -msgstr "Filen var för stor. Du kan behöva stänga av kameran och slå på den ingen innan du kan sända fler filer."
-+msgstr "Filen var för stor. Du kan behöva stänga av kameran och slå på den igen innan "
-+"du kan överföra fler filer."
++msgstr "Filen var för stor. Du kan behöva stänga av kameran och slå på den igen innan du kan överföra fler filer."
  
  #: camlibs/canon/usb.c:2424
  #, c-format
  msgid "canon_usb_get_dirents: Couldn't fit payload into buffer, '%.96s' (truncated) too long."
 -msgstr "canon_usb_get_dirents: Kunde inte få plats med nyttolast i buffert, ”%.96s” (trunkerad) för lång."
-+msgstr "canon_usb_get_dirents: fick inte plats med nyttolasten i bufferten; ”%.96s” "
-+"(avkortad) är för lång."
++msgstr "canon_usb_get_dirents: fick inte plats med nyttolasten i bufferten; ”%.96s” (avkortad) är för lång."
  
  #: camlibs/canon/usb.c:2441
  #, c-format
-@@ -1356,7 +1371,8 @@
+@@ -1356,7 +1356,7 @@
  #: camlibs/canon/usb.c:2495
  #, c-format
  msgid "canon_usb_list_all_dirs: Couldn't fit payload into buffer, '%.96s' (truncated) too long."
 -msgstr "canon_usb_list_all_dirs: Kunde inte få plats med nyttolast i buffert, ”%.96s” (trunkerad) för lång."
-+msgstr "canon_usb_list_all_dirs: fick inte plats med nyttolasten i bufferten; ”%.96s” "
-+"(avkortad) är för lång."
++msgstr "canon_usb_list_all_dirs: fick inte plats med nyttolasten i bufferten; ”%.96s” (avkortad) är för lång."
  
  #: camlibs/canon/usb.c:2514
  #, c-format
-@@ -1371,7 +1387,7 @@
+@@ -1371,7 +1371,7 @@
  #: camlibs/canon/usb.c:2597
  #, c-format
  msgid "Name \"%s\" from camera does not match any known camera"
@@ -576,7 +560,7 @@
  
  #: camlibs/casio/casio-qv.c:140
  #, c-format
-@@ -1389,9 +1405,10 @@
+@@ -1389,9 +1389,9 @@
  "This software has QVplay's source code, written by Ken-ichi HAYASHI <xg2k-hys@asahi-net.or.jp> and Jun-ichiro \"itojun\" Itoh <itojun@itojun.org>.\n"
  "Integration of QVplay by Michael Haardt <michael@moria.de>."
  msgstr ""
@@ -584,13 +568,12 @@
 -"Denna programvara har QVplays källkod, skriven av Ken-ichi HAYASHI <xg2k-hys@asahi-net.or.jp> och Jun-ichiro ”itojun” Itoh <itojun@itojun.org>.\n"
 -"Integration av QVPlay gjord av Michael Haardt <michael@moria.de>."
 +"Drivrutinsramverk skrivet av Lutz Mueller <lutz@users.sf.net>.\n"
-+"Denna programvara innehåller QVplays källkod, skriven av Ken-ichi HAYASHI "
-+"<xg2k-hys@asahi-net.or.jp> och Jun-ichiro ”itojun” Itoh <itojun@itojun.org>.\n"
++"Denna programvara innehåller QVplays källkod, skriven av Ken-ichi HAYASHI <xg2k-hys@asahi-net.or.jp> och Jun-ichiro ”itojun” Itoh <itojun@itojun.org>.\n"
 +"QVplay integrerades av Michael Haardt <michael@moria.de>."
  
  #: camlibs/casio/casio-qv.c:194
  #, c-format
-@@ -1457,23 +1474,30 @@
+@@ -1457,23 +1457,30 @@
  "For more details on the camera's functions, please consult\n"
  "libgphoto2/camlibs/clicksmart310/README.clicksmart310.\n"
  msgstr ""
@@ -638,7 +621,7 @@
  "libgphoto2/camlibs/clicksmart310/README.clicksmart310.\n"
  
  #: camlibs/clicksmart310/library.c:125
-@@ -1500,19 +1524,23 @@
+@@ -1500,19 +1507,23 @@
  "supported cameras allow deletion of individual photos by use of a\n"
  "software command.\n"
  msgstr ""
@@ -672,7 +655,7 @@
  
  #: camlibs/digigr8/library.c:158
  msgid ""
-@@ -1612,7 +1640,7 @@
+@@ -1612,7 +1623,7 @@
  
  #: camlibs/dimera/dimera3500.c:461
  msgid "No Power Light"
@@ -681,7 +664,7 @@
  
  #: camlibs/dimera/dimera3500.c:463
  msgid "ON"
-@@ -1633,7 +1661,7 @@
+@@ -1633,7 +1644,7 @@
  
  #: camlibs/dimera/dimera3500.c:467
  msgid "in fill mode"
@@ -690,7 +673,7 @@
  
  #: camlibs/dimera/dimera3500.c:467
  msgid "Not in fill mode"
-@@ -1665,13 +1693,13 @@
+@@ -1665,13 +1676,13 @@
  "  configured manually or set to automatic mode.\n"
  "* Image quality is currently lower than it could be.\n"
  msgstr ""
@@ -709,7 +692,7 @@
  
  #: camlibs/dimera/dimera3500.c:495
  msgid ""
-@@ -1690,16 +1718,16 @@
+@@ -1690,16 +1701,16 @@
  "     gphoto2 port\n"
  msgstr ""
  "gPhoto2 Mustek VDC-3500/Relisys Dimera 3500\n"
@@ -730,7 +713,7 @@
  "     gphoto2-portering\n"
  
  #: camlibs/dimera/dimera3500.c:588
-@@ -1924,18 +1952,24 @@
+@@ -1924,18 +1935,24 @@
  "each gphoto2 operation. In some situations, you might need to prevent it\n"
  "from turning off by repeatedly pressing any of the buttons."
  msgstr ""
@@ -766,7 +749,7 @@
  
  #: camlibs/docupen/docupen.c:412
  msgid ""
-@@ -1943,9 +1977,9 @@
+@@ -1943,9 +1960,9 @@
  "Copyright 2020 Ondrej Zary <ondrej@zary.sk>\n"
  "based on Docupen tools by Florian Heinz <fh@cronon-ag.de>"
  msgstr ""
@@ -778,7 +761,7 @@
  
  #: camlibs/enigma13/enigma13.c:65
  msgid "Download program for Digital Dream Enigma 1.3. by <olivier@aixmarseille.com>, and adapted from spca50x driver. Thank you, spca50x team, it was easy to port your driver on this cam! "
-@@ -1963,7 +1997,7 @@
+@@ -1963,7 +1980,7 @@
  #: camlibs/fuji/fuji.c:175
  #, c-format
  msgid "Received unexpected data (0x%02x, 0x%02x)."
@@ -787,7 +770,7 @@
  
  #: camlibs/fuji/fuji.c:201
  #, c-format
-@@ -2021,7 +2055,7 @@
+@@ -2021,7 +2038,7 @@
  #: camlibs/fuji/fuji.c:661
  #, c-format
  msgid "Could not initialize upload (camera responded with 0x%02x)."
@@ -796,7 +779,7 @@
  
  #: camlibs/fuji/fuji.c:759
  #, c-format
-@@ -2048,14 +2082,14 @@
+@@ -2048,14 +2065,14 @@
  
  #: camlibs/fuji/library.c:349
  msgid "Configuration for your FUJI camera"
@@ -813,7 +796,7 @@
  
  #: camlibs/fuji/library.c:369 camlibs/fuji/library.c:402
  #: camlibs/ptp2/config.c:10981
-@@ -2083,12 +2117,13 @@
+@@ -2083,12 +2100,13 @@
  "based on several other gphoto2 camlib modules and the specifications kindly provided by Mustek.\n"
  "\n"
  msgstr ""
@@ -831,17 +814,16 @@
  "\n"
  
  #: camlibs/gsmart300/library.c:194 camlibs/spca50x/library.c:561
-@@ -2103,7 +2138,8 @@
+@@ -2103,7 +2121,7 @@
  #: camlibs/gsmart300/library.c:317 camlibs/spca50x/library.c:499
  #, c-format
  msgid "Your camera only supports deleting the last file on the camera. In this case, this is file '%s'."
 -msgstr "Din kamera stöder endast borttagning av den senaste filen på kameran. I detta fall, detta är fil ”%s”."
-+msgstr "Din kamera stöder bara radering av den senaste filen på kameran. I det här "
-+"fallet är det filen ”%s”."
++msgstr "Din kamera stöder bara radering av den senaste filen på kameran. I det här fallet är det filen ”%s”."
  
  #: camlibs/hp215/hp215.c:446
  #, c-format
-@@ -2157,13 +2193,14 @@
+@@ -2157,13 +2175,14 @@
  msgstr ""
  "Information om kameror med ID 0x2770:0x9153.\n"
  "\n"
@@ -861,7 +843,7 @@
  
  #: camlibs/iclick/library.c:121
  msgid ""
-@@ -2200,12 +2237,12 @@
+@@ -2200,12 +2219,12 @@
  "   - thumbnails (64x48 PGM format)\n"
  "   - full images (640x480 PPM format)\n"
  msgstr ""
@@ -879,7 +861,7 @@
  
  #: camlibs/jd11/jd11.c:167
  msgid ""
-@@ -2216,8 +2253,8 @@
+@@ -2216,8 +2235,8 @@
  msgstr ""
  "JD11\n"
  "Marcus Meissner <marcus@jet.franken.de>\n"
@@ -890,7 +872,7 @@
  
  #: camlibs/jd11/jd11.c:180
  msgid "JD11 Configuration"
-@@ -2229,7 +2266,7 @@
+@@ -2229,7 +2248,7 @@
  
  #: camlibs/jd11/jd11.c:188 camlibs/jd11/jd11.c:237
  msgid "Bulb Exposure Time"
@@ -899,7 +881,7 @@
  
  #: camlibs/jd11/jd11.c:196 camlibs/jd11/jd11.c:246
  msgid "Color Settings"
-@@ -2254,7 +2291,7 @@
+@@ -2254,7 +2273,7 @@
  "The number of photos in it is %i. \n"
  msgstr ""
  "Denna kamera innehåller ett Jeilin JL2005A-chip.\n"
@@ -908,7 +890,7 @@
  
  #: camlibs/jl2005a/library.c:101
  msgid ""
-@@ -2267,14 +2304,15 @@
+@@ -2267,14 +2286,15 @@
  "as consecutive still photos.\n"
  "For further details please consult libgphoto2/camlibs/README.jl2005a\n"
  msgstr ""
@@ -932,7 +914,7 @@
  
  #: camlibs/jl2005a/library.c:118
  msgid ""
-@@ -2291,7 +2329,7 @@
+@@ -2291,7 +2311,7 @@
  "The number of photos in it is %i. \n"
  msgstr ""
  "Denna kamera innehåller ett Jeilin JL2005%c-chip.\n"
@@ -941,7 +923,7 @@
  
  #: camlibs/jl2005c/library.c:133
  msgid ""
-@@ -2302,12 +2340,12 @@
+@@ -2302,12 +2322,12 @@
  "as consecutive still photos.\n"
  "For more details please consult libgphoto2/camlibs/README.jl2005c\n"
  msgstr ""
@@ -959,7 +941,7 @@
  
  #: camlibs/jl2005c/library.c:148
  msgid ""
-@@ -2319,7 +2357,7 @@
+@@ -2319,7 +2339,7 @@
  
  #: camlibs/kodak/dc120/dc120.c:85 camlibs/kodak/dc120/dc120.c:158
  msgid "CompactFlash Card"
@@ -968,7 +950,7 @@
  
  #: camlibs/kodak/dc120/dc120.c:367
  msgid "The Kodak DC120 camera uses the KDC file format for storing images. If you want to view the images you download from your camera, you will need to download the \"kdc2tiff\" program. It is available from http://kdc2tiff.sourceforge.net"
-@@ -2332,9 +2370,9 @@
+@@ -2332,9 +2352,9 @@
  "Camera Library for the Kodak DC120 camera.\n"
  "(by popular demand)."
  msgstr ""
@@ -980,7 +962,7 @@
  "(på allmän begäran)."
  
  #: camlibs/kodak/dc120/library.c:139 camlibs/kodak/dc210/library.c:426
-@@ -2384,15 +2422,15 @@
+@@ -2384,15 +2404,15 @@
  
  #: camlibs/kodak/dc210/dc210.c:206 camlibs/kodak/dc210/dc210.c:212
  msgid "Low (best quality)"
@@ -999,7 +981,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:220 camlibs/konica/qm150.c:1050
  #: camlibs/ptp2/config.c:11424 camlibs/ptp2/config.c:11589
-@@ -2508,7 +2546,7 @@
+@@ -2508,7 +2528,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:272 camlibs/kodak/dc210/dc210.c:431
  msgid "Red eye flash"
@@ -1008,7 +990,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:274 camlibs/kodak/dc210/dc210.c:278
  #: camlibs/konica/library.c:655 camlibs/konica/library.c:662
-@@ -2619,14 +2657,14 @@
+@@ -2619,14 +2639,14 @@
  
  #: camlibs/kodak/dc210/dc210.c:314
  msgid "Debug"
@@ -1025,7 +1007,7 @@
  "med parametervärden."
  
  #: camlibs/kodak/dc210/dc210.c:492
-@@ -2660,7 +2698,7 @@
+@@ -2660,7 +2680,7 @@
  #: camlibs/kodak/dc210/dc210.c:508
  #, c-format
  msgid "Firmware: %d.%d\n"
@@ -1034,7 +1016,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:513
  #, c-format
-@@ -2670,7 +2708,7 @@
+@@ -2670,7 +2690,7 @@
  #: camlibs/kodak/dc210/dc210.c:515
  #, c-format
  msgid "Filetype: FlashPix ("
@@ -1043,7 +1025,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:521
  #, c-format
-@@ -2700,12 +2738,12 @@
+@@ -2700,12 +2720,12 @@
  #: camlibs/kodak/dc210/dc210.c:550
  #, c-format
  msgid "AC adapter is connected.\n"
@@ -1058,7 +1040,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:556
  msgid "Time: %a, %d %b %Y %T\n"
-@@ -2759,12 +2797,12 @@
+@@ -2759,12 +2779,12 @@
  #: camlibs/kodak/dc210/dc210.c:587
  #, c-format
  msgid "Flash mode: auto, "
@@ -1073,7 +1055,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:591
  #, c-format
-@@ -2779,12 +2817,12 @@
+@@ -2779,12 +2799,12 @@
  #: camlibs/kodak/dc210/dc210.c:601
  #, c-format
  msgid "red eye flash on.\n"
@@ -1088,7 +1070,7 @@
  
  #: camlibs/kodak/dc210/dc210.c:609
  #, c-format
-@@ -2798,22 +2836,22 @@
+@@ -2798,22 +2818,22 @@
  "Free space on card: %d kB\n"
  msgstr ""
  "Kortnamn: %s\n"
@@ -1116,7 +1098,7 @@
  "Michael Koltan <koltan@gmx.de>\n"
  
  #: camlibs/kodak/dc210/library.c:338
-@@ -2840,7 +2878,7 @@
+@@ -2840,7 +2860,7 @@
  #: camlibs/kodak/dc240/dc240.c:187
  #, c-format
  msgid "Firmware version: %d.%02d\n"
@@ -1125,7 +1107,7 @@
  
  #: camlibs/kodak/dc240/dc240.c:189
  #, c-format
-@@ -2874,10 +2912,10 @@
+@@ -2874,10 +2894,10 @@
  "Camera Library for the Kodak DC240, DC280, DC3400 and DC5000 cameras.\n"
  "Rewritten and updated for gPhoto2."
  msgstr ""
@@ -1139,7 +1121,7 @@
  
  #: camlibs/kodak/dc240/library.c:570
  msgid "Weak"
-@@ -2907,7 +2945,7 @@
+@@ -2907,7 +2927,7 @@
  
  #: camlibs/kodak/dc240/library.c:603
  msgid "Card is not open"
@@ -1148,18 +1130,16 @@
  
  #: camlibs/kodak/dc240/library.c:605
  msgid "Card is not formatted"
-@@ -2935,7 +2973,9 @@
+@@ -2935,7 +2955,7 @@
  msgstr ""
  "Kända problem:\n"
  "\n"
 -"1. Om Kodak DC3200 inte tar emot ett kommando minst var 10 sekund, kommer den att lösa ut, och måste återinitieras. Om du upptäcker att kameran inte svarar, så behöver du bara välja om kameran. Detta kommer orsaka att den återinitieras."
-+"1. Om Kodak DC3200 inte tar emot ett kommando minst var tionde sekund går "
-+"tidsgränsen ut och kameran måste initieras på nytt. Om kameran inte svarar "
-+"väljer du bara kameran igen. Då initieras den på nytt."
++"1. Om Kodak DC3200 inte tar emot ett kommando minst var tionde sekund går tidsgränsen ut och kameran måste initieras på nytt. Om kameran inte svarar väljer du bara kameran igen. Då initieras den på nytt."
  
  #: camlibs/kodak/dc3200/dc3200.c:459
  msgid ""
-@@ -2956,7 +2996,7 @@
+@@ -2956,7 +2976,7 @@
  "Number of PICs = %i\n"
  msgstr ""
  "Din USB-kamera är en Kodak EZ200.\n"
@@ -1168,7 +1148,7 @@
  
  #: camlibs/kodak/ez200/ez200.c:195
  msgid ""
-@@ -2992,7 +3032,7 @@
+@@ -2992,7 +3012,7 @@
  
  #: camlibs/konica/konica.c:64
  msgid "No card present."
@@ -1177,7 +1157,7 @@
  
  #: camlibs/konica/konica.c:67
  msgid "Card not supported."
-@@ -3020,7 +3060,7 @@
+@@ -3020,7 +3040,7 @@
  
  #: camlibs/konica/konica.c:85
  msgid "Image protected."
@@ -1186,7 +1166,7 @@
  
  #: camlibs/konica/konica.c:88
  msgid "Light too dark."
-@@ -3044,11 +3084,11 @@
+@@ -3044,11 +3064,11 @@
  
  #: camlibs/konica/konica.c:103
  msgid "Localization data too long."
@@ -1200,17 +1180,16 @@
  
  #: camlibs/konica/konica.c:109
  msgid "Unsupported command."
-@@ -3081,7 +3121,8 @@
+@@ -3081,7 +3101,7 @@
  
  #: camlibs/konica/library.c:322
  msgid "The camera could not be contacted. Please make sure it is connected to the computer and turned on."
 -msgstr "Kameran kunde inte kontaktas. Kontrollera att den ansluten till datorn och påslagen."
-+msgstr "Kameran kunde inte kontaktas. Kontrollera att den är ansluten till datorn och "
-+"påslagen."
++msgstr "Kameran kunde inte kontaktas. Kontrollera att den är ansluten till datorn och påslagen."
  
  #: camlibs/konica/library.c:406
  #, c-format
-@@ -3113,9 +3154,9 @@
+@@ -3113,9 +3133,9 @@
  "Lutz Mueller <lutz@users.sourceforge.net>\n"
  "Support for all Konica and several HP cameras."
  msgstr ""
@@ -1223,7 +1202,7 @@
  
  #: camlibs/konica/library.c:623
  msgid "Getting configuration..."
-@@ -3128,7 +3169,7 @@
+@@ -3128,7 +3148,7 @@
  #: camlibs/konica/library.c:635 camlibs/konica/library.c:846
  #: camlibs/konica/qm150.c:759
  msgid "Persistent Settings"
@@ -1232,7 +1211,7 @@
  
  #: camlibs/konica/library.c:665
  msgid "Shall the camera beep when taking a picture?"
-@@ -3141,7 +3182,7 @@
+@@ -3141,7 +3161,7 @@
  #: camlibs/konica/library.c:676 camlibs/konica/library.c:888
  #: camlibs/konica/qm150.c:768
  msgid "Auto Off Time"
@@ -1241,7 +1220,7 @@
  
  #: camlibs/konica/library.c:683 camlibs/konica/library.c:897
  msgid "Slide Show Interval"
-@@ -3187,7 +3228,7 @@
+@@ -3187,7 +3207,7 @@
  
  #: camlibs/konica/library.c:728 camlibs/konica/library.c:952
  msgid "TV Output Format"
@@ -1250,7 +1229,7 @@
  
  #: camlibs/konica/library.c:730 camlibs/konica/library.c:957
  #: camlibs/ptp2/config.c:2498
-@@ -3232,12 +3273,12 @@
+@@ -3232,12 +3252,12 @@
  #: camlibs/konica/library.c:1003 camlibs/konica/qm150.c:857
  #: camlibs/konica/qm150.c:866
  msgid "On, red-eye reduction"
@@ -1265,7 +1244,7 @@
  
  #: camlibs/konica/library.c:784 camlibs/konica/library.c:1022
  #: camlibs/konica/qm150.c:938 camlibs/ptp2/chdk.c:1024
-@@ -3298,15 +3339,15 @@
+@@ -3298,15 +3318,15 @@
  
  #: camlibs/konica/library.c:1137
  msgid "Localization file too long!"
@@ -1284,7 +1263,7 @@
  
  #: camlibs/konica/qm150.c:386
  msgid "Compiled without EXIF support, no thumbnails available."
-@@ -3328,11 +3369,11 @@
+@@ -3328,11 +3348,11 @@
  
  #: camlibs/konica/qm150.c:522
  msgid "Uploading image..."
@@ -1298,7 +1277,7 @@
  
  #: camlibs/konica/qm150.c:639
  msgid "You must be in record mode to capture images."
-@@ -3348,7 +3389,7 @@
+@@ -3348,7 +3368,7 @@
  
  #: camlibs/konica/qm150.c:658
  msgid "No answer from the camera."
@@ -1307,7 +1286,7 @@
  
  #: camlibs/konica/qm150.c:778 camlibs/konica/qm150.c:786
  #: camlibs/ptp2/config.c:2271 camlibs/ptp2/config.c:3037
-@@ -3674,7 +3715,7 @@
+@@ -3674,7 +3694,7 @@
  
  #: camlibs/lumix/lumix.c:1244
  msgid "Cur Menu"
@@ -1316,7 +1295,7 @@
  
  #: camlibs/lumix/lumix.c:1698
  msgid ""
-@@ -3685,8 +3726,8 @@
+@@ -3685,8 +3705,8 @@
  msgstr ""
  "Lumix WiFi-bibliotek\n"
  "Robert Hasson <robert_hasson@yahoo.com>\n"
@@ -1327,7 +1306,7 @@
  
  #: camlibs/mars/library.c:112
  #, c-format
-@@ -3717,15 +3758,16 @@
+@@ -3717,15 +3737,16 @@
  "For further details please consult libgphoto2/camlibs/README.\n"
  msgstr ""
  "Denna drivrutin stöder kameror med Mars MR97310-chip (och direkta\n"
@@ -1352,7 +1331,7 @@
  
  #: camlibs/mars/library.c:141
  msgid ""
-@@ -3761,14 +3803,14 @@
+@@ -3761,14 +3782,14 @@
  "Card ID:\t\t%d\n"
  "Flash Mode:\t\t"
  msgstr ""
@@ -1370,7 +1349,7 @@
  "Giltigt kort-ID:\t%s\n"
  "Kort-ID:\t\t%d\n"
  "Blixtläge:\t\t"
-@@ -3856,7 +3898,7 @@
+@@ -3856,7 +3877,7 @@
  #: camlibs/ptp2/config.c:2504 camlibs/ptp2/ptp.c:8099 camlibs/ptp2/ptp.c:8105
  #, c-format
  msgid "Full"
@@ -1379,7 +1358,7 @@
  
  #: camlibs/minolta/dimagev/dimagev.c:347
  msgid "Busy"
-@@ -3923,22 +3965,22 @@
+@@ -3923,22 +3944,22 @@
  "Gus Hartmann <gphoto@gus-the-cat.org>\n"
  "Special thanks to Minolta for the spec."
  msgstr ""
@@ -1407,7 +1386,7 @@
  
  #: camlibs/mustek/core.c:569
  msgid "FlashLight : On"
-@@ -3954,7 +3996,7 @@
+@@ -3954,7 +3975,7 @@
  
  #: camlibs/mustek/mdc800.c:205
  msgid "Summary for Mustek MDC800:\n"
@@ -1416,7 +1395,7 @@
  
  #: camlibs/mustek/mdc800.c:208
  msgid "no status reported."
-@@ -3962,11 +4004,11 @@
+@@ -3962,11 +3983,11 @@
  
  #: camlibs/mustek/mdc800.c:214
  msgid "Compact Flash Card detected\n"
@@ -1430,7 +1409,7 @@
  
  #: camlibs/mustek/mdc800.c:220
  msgid "Current Mode: Camera Mode\n"
-@@ -3991,10 +4033,10 @@
+@@ -3991,10 +4012,10 @@
  "Ported to gphoto2 by Marcus Meissner <marcus@jet.franken.de>\n"
  "Supports Serial and USB Protocols."
  msgstr ""
@@ -1444,7 +1423,7 @@
  
  #: camlibs/panasonic/coolshot/coolshot.c:243
  msgid "coolshot library v"
-@@ -4012,17 +4054,17 @@
+@@ -4012,17 +4033,17 @@
  #: camlibs/panasonic/dc1000.c:433 camlibs/panasonic/dc1580.c:552
  #, c-format
  msgid "Uploading image: %s."
@@ -1465,21 +1444,16 @@
  
  #: camlibs/panasonic/dc1000.c:484 camlibs/panasonic/dc1580.c:600
  #, c-format
-@@ -4079,7 +4121,12 @@
+@@ -4079,7 +4100,7 @@
  msgstr ""
  "Panasonic PV-L859-K/PV-L779-K Palmcorder\n"
  "\n"
 -"Panasonic introducerade en bildtagningsteknik som kallas PHOTOSHOT för första gången i denna serie av Palmcorders. Bilderna sparas i JPEG-format på ett internt flash-kort och kan överföras till en dator genom den inbyggda serieporten. Bilder sparas i endera av två upplösningar: NORMAL är 320x240 och FIN är 640x480. CCD-enheten som tar bilderna från objektivet är endast 300K och producerar därför endast bilder med låg kvalité."
-+"Panasonic introducerade för första gången bildtagningstekniken PHOTOSHOT i "
-+"den här serien Palmcorders. Bilder lagras i JPEG-format på ett internt "
-+"flashkort och kan överföras till en dator via den inbyggda serieporten. "
-+"Bilder sparas i en av två upplösningar: NORMAL är 320x240 och FINE är "
-+"640x480. CCD-enheten som fångar bilderna från objektivet är bara 300K och ger "
-+"därför bara bilder av låg kvalitet."
++"Panasonic introducerade för första gången bildtagningstekniken PHOTOSHOT i den här serien Palmcorders. Bilder lagras i JPEG-format på ett internt flashkort och kan överföras till en dator via den inbyggda serieporten. Bilder sparas i en av två upplösningar: NORMAL är 320x240 och FINE är 640x480. CCD-enheten som fångar bilderna från objektivet är bara 300K och ger därför bara bilder av låg kvalitet."
  
  #: camlibs/panasonic/l859/l859.c:589
  msgid ""
-@@ -4107,7 +4154,7 @@
+@@ -4107,7 +4128,7 @@
  " Filecount: %d"
  msgstr ""
  " Totalt minne är %8d byte.\n"
@@ -1488,7 +1462,7 @@
  " Antal filer: %d"
  
  #: camlibs/pccam300/library.c:216
-@@ -4260,7 +4307,7 @@
+@@ -4260,7 +4281,7 @@
  
  #: camlibs/pentax/library.c:982
  msgid "You need to switch the shooting mode or the camera to 'B' for bulb exposure."
@@ -1497,7 +1471,7 @@
  
  #: camlibs/polaroid/pdc320.c:446
  msgid ""
-@@ -4351,7 +4398,7 @@
+@@ -4351,7 +4372,7 @@
  #: camlibs/polaroid/pdc700.c:215
  #, c-format
  msgid "Received unexpected header (%i)"
@@ -1506,17 +1480,16 @@
  
  #: camlibs/polaroid/pdc700.c:232
  msgid "Received unexpected response"
-@@ -4378,7 +4425,8 @@
+@@ -4378,7 +4399,7 @@
  #: camlibs/polaroid/pdc700.c:904
  #, c-format
  msgid "%i bytes of an unknown image format have been received. Please write to %s and ask for assistance."
 -msgstr "%i byte från ett okänd bildformat har mottagits. Skriv till %s och be om hjälp."
-+msgstr "%i byte från ett okänt bildformat har tagits emot. Skriv till %s och be om "
-+"hjälp."
++msgstr "%i byte från ett okänt bildformat har tagits emot. Skriv till %s och be om hjälp."
  
  #: camlibs/polaroid/pdc700.c:929
  msgid "Download program for Polaroid DC700 camera. Originally written by Ryan Lantzer <rlantzer@umr.edu> for gphoto-4.x. Adapted for gphoto2 by Lutz Mueller <lutz@users.sf.net>."
-@@ -4391,7 +4439,7 @@
+@@ -4391,7 +4412,7 @@
  
  #: camlibs/polaroid/pdc700.c:985
  msgid "How long will it take until the camera powers off?"
@@ -1525,7 +1498,7 @@
  
  #: camlibs/polaroid/pdc700.c:988 camlibs/ricoh/library.c:338
  msgid "Image"
-@@ -4418,16 +4466,16 @@
+@@ -4418,16 +4439,16 @@
  "Datum: %i-%02i-%02i %02i:%02i:%02i\n"
  "Bilder tagna: %i\n"
  "Lediga bilder: %i\n"
@@ -1545,7 +1518,7 @@
  "Strömkälla: %s"
  
  #: camlibs/polaroid/pdc700.c:1226
-@@ -4564,12 +4612,12 @@
+@@ -4564,12 +4585,12 @@
  
  #: camlibs/ptp2/chdk.c:1342
  msgid "CHDK get live data failed"
@@ -1560,7 +1533,7 @@
  
  #: camlibs/ptp2/config.c:170
  msgid "CHDK did not leave recording mode."
-@@ -4577,7 +4625,7 @@
+@@ -4577,7 +4598,7 @@
  
  #: camlibs/ptp2/config.c:534 camlibs/ptp2/config.c:624
  msgid "Sorry, your Canon camera does not support Canon capture"
@@ -1569,7 +1542,7 @@
  
  #: camlibs/ptp2/config.c:768 camlibs/ptp2/config.c:800
  #: camlibs/ptp2/config.c:826 camlibs/ptp2/config.c:872
-@@ -4594,7 +4642,7 @@
+@@ -4594,7 +4615,7 @@
  
  #: camlibs/ptp2/config.c:1324
  msgid "Target value is not in enumeration."
@@ -1578,7 +1551,7 @@
  
  #: camlibs/ptp2/config.c:1419 camlibs/ptp2/config.c:1425
  msgid "Sony was not able to set the new value, is it valid?"
-@@ -4620,7 +4668,7 @@
+@@ -4620,7 +4641,7 @@
  
  #: camlibs/ptp2/config.c:1456 camlibs/ptp2/ptp.c:7808
  msgid "One-push Automatic"
@@ -1587,7 +1560,7 @@
  
  #: camlibs/ptp2/config.c:1458 camlibs/ptp2/config.c:1510
  #: camlibs/ptp2/config.c:4376 camlibs/ptp2/config.c:6470
-@@ -4677,7 +4725,7 @@
+@@ -4677,7 +4698,7 @@
  
  #: camlibs/ptp2/config.c:1466
  msgid "Natural light auto"
@@ -1596,7 +1569,7 @@
  
  #: camlibs/ptp2/config.c:1468
  msgid "Fluorescent Lamp 1"
-@@ -4780,7 +4828,7 @@
+@@ -4780,7 +4801,7 @@
  #: camlibs/sierra/epson-desc.c:157 camlibs/sierra/sierra.c:1564
  #: camlibs/sierra/sierra.c:1571 camlibs/sierra/sierra.c:1794
  msgid "Custom"
@@ -1605,7 +1578,7 @@
  
  #: camlibs/ptp2/config.c:1523 camlibs/ptp2/config.c:7251
  #: camlibs/ptp2/config.c:7262 camlibs/ptp2/config.c:7273
-@@ -4788,7 +4836,7 @@
+@@ -4788,7 +4809,7 @@
  #: camlibs/ptp2/config.c:7314 camlibs/ptp2/config.c:7329
  #: camlibs/ptp2/ptp.c:7803
  msgid "JPEG Fine"
@@ -1614,7 +1587,7 @@
  
  #: camlibs/ptp2/config.c:1524 camlibs/ptp2/config.c:7250
  #: camlibs/ptp2/config.c:7261 camlibs/ptp2/config.c:7272
-@@ -4799,7 +4847,7 @@
+@@ -4799,7 +4820,7 @@
  
  #: camlibs/ptp2/config.c:1525
  msgid "RAW + JPEG Fine"
@@ -1623,7 +1596,7 @@
  
  #: camlibs/ptp2/config.c:1526
  msgid "RAW + JPEG Normal"
-@@ -4813,35 +4861,35 @@
+@@ -4813,35 +4834,35 @@
  
  #: camlibs/ptp2/config.c:1532
  msgid "Strong Small"
@@ -1665,7 +1638,7 @@
  
  #: camlibs/ptp2/config.c:1547
  msgid "Large Normal JPEG+RAW"
-@@ -4873,76 +4921,76 @@
+@@ -4873,76 +4894,76 @@
  
  #: camlibs/ptp2/config.c:1558
  msgid "Mup Mirror up"
@@ -1755,7 +1728,7 @@
  
  #: camlibs/ptp2/config.c:1575
  #, fuzzy
-@@ -4954,7 +5002,7 @@
+@@ -4954,7 +4975,7 @@
  #, fuzzy
  #| msgid "Self Timer Time"
  msgid "Self Timer 2 Sec."
@@ -1764,7 +1737,7 @@
  
  #: camlibs/ptp2/config.c:1577
  msgid "Continuous Bracket 0.3 EV 2 Img. +"
-@@ -4966,19 +5014,19 @@
+@@ -4966,19 +4987,19 @@
  
  #: camlibs/ptp2/config.c:1579
  msgid "Continuous Bracket 0.3 EV 3 Img."
@@ -1788,7 +1761,7 @@
  
  #: camlibs/ptp2/config.c:1583
  msgid "Continuous Bracket 0.5 EV 2 Img. +"
-@@ -4990,19 +5038,19 @@
+@@ -4990,19 +5011,19 @@
  
  #: camlibs/ptp2/config.c:1585
  msgid "Continuous Bracket 0.5 EV 3 Img."
@@ -1812,7 +1785,7 @@
  
  #: camlibs/ptp2/config.c:1589
  msgid "Continuous Bracket 0.7 EV 2 Img. +"
-@@ -5014,19 +5062,19 @@
+@@ -5014,19 +5035,19 @@
  
  #: camlibs/ptp2/config.c:1591
  msgid "Continuous Bracket 0.7 EV 3 Img."
@@ -1836,7 +1809,7 @@
  
  #: camlibs/ptp2/config.c:1595
  msgid "Continuous Bracket 1.0 EV 2 Img. +"
-@@ -5038,19 +5086,19 @@
+@@ -5038,19 +5059,19 @@
  
  #: camlibs/ptp2/config.c:1597
  msgid "Continuous Bracket 1.0 EV 3 Img."
@@ -1860,7 +1833,7 @@
  
  #: camlibs/ptp2/config.c:1601
  msgid "Continuous Bracket 1.3 EV 2 Img. +"
-@@ -5062,15 +5110,15 @@
+@@ -5062,15 +5083,15 @@
  
  #: camlibs/ptp2/config.c:1603
  msgid "Continuous Bracket 1.3 EV 3 Img."
@@ -1879,7 +1852,7 @@
  
  #: camlibs/ptp2/config.c:1606
  msgid "Continuous Bracket 1.5 EV 2 Img. +"
-@@ -5082,15 +5130,15 @@
+@@ -5082,15 +5103,15 @@
  
  #: camlibs/ptp2/config.c:1608
  msgid "Continuous Bracket 1.5 EV 3 Img."
@@ -1898,7 +1871,7 @@
  
  #: camlibs/ptp2/config.c:1611
  msgid "Continuous Bracket 1.7 EV 2 Img. +"
-@@ -5102,15 +5150,15 @@
+@@ -5102,15 +5123,15 @@
  
  #: camlibs/ptp2/config.c:1613
  msgid "Continuous Bracket 1.7 EV 3 Img."
@@ -1917,7 +1890,7 @@
  
  #: camlibs/ptp2/config.c:1616
  msgid "Continuous Bracket 2.0 EV 2 Img. +"
-@@ -5122,15 +5170,15 @@
+@@ -5122,15 +5143,15 @@
  
  #: camlibs/ptp2/config.c:1618
  msgid "Continuous Bracket 2.0 EV 3 Img."
@@ -1936,7 +1909,7 @@
  
  #: camlibs/ptp2/config.c:1621
  msgid "Continuous Bracket 2.3 EV 2 Img. +"
-@@ -5142,11 +5190,11 @@
+@@ -5142,11 +5163,11 @@
  
  #: camlibs/ptp2/config.c:1623
  msgid "Continuous Bracket 2.3 EV 3 Img."
@@ -1950,7 +1923,7 @@
  
  #: camlibs/ptp2/config.c:1625
  msgid "Continuous Bracket 2.5 EV 2 Img. +"
-@@ -5158,11 +5206,11 @@
+@@ -5158,11 +5179,11 @@
  
  #: camlibs/ptp2/config.c:1627
  msgid "Continuous Bracket 2.5 EV 3 Img."
@@ -1964,7 +1937,7 @@
  
  #: camlibs/ptp2/config.c:1629
  msgid "Continuous Bracket 2.7 EV 2 Img. +"
-@@ -5174,11 +5222,11 @@
+@@ -5174,11 +5195,11 @@
  
  #: camlibs/ptp2/config.c:1631
  msgid "Continuous Bracket 2.7 EV 3 Img."
@@ -1978,7 +1951,7 @@
  
  #: camlibs/ptp2/config.c:1633
  msgid "Continuous Bracket 3.0 EV 2 Img. +"
-@@ -5190,11 +5238,11 @@
+@@ -5190,11 +5211,11 @@
  
  #: camlibs/ptp2/config.c:1635
  msgid "Continuous Bracket 3.0 EV 3 Img."
@@ -1992,7 +1965,7 @@
  
  #: camlibs/ptp2/config.c:1637
  msgid "Single Bracket 0.3 EV 2 Img. +"
-@@ -5206,19 +5254,19 @@
+@@ -5206,19 +5227,19 @@
  
  #: camlibs/ptp2/config.c:1639
  msgid "Single Bracket 0.3 EV 3 Img."
@@ -2016,7 +1989,7 @@
  
  #: camlibs/ptp2/config.c:1643
  msgid "Single Bracket 0.5 EV 2 Img. +"
-@@ -5230,19 +5278,19 @@
+@@ -5230,19 +5251,19 @@
  
  #: camlibs/ptp2/config.c:1645
  msgid "Single Bracket 0.5 EV 3 Img."
@@ -2040,7 +2013,7 @@
  
  #: camlibs/ptp2/config.c:1649
  msgid "Single Bracket 0.7 EV 2 Img. +"
-@@ -5254,19 +5302,19 @@
+@@ -5254,19 +5275,19 @@
  
  #: camlibs/ptp2/config.c:1651
  msgid "Single Bracket 0.7 EV 3 Img."
@@ -2064,7 +2037,7 @@
  
  #: camlibs/ptp2/config.c:1655
  msgid "Single Bracket 1.0 EV 2 Img. +"
-@@ -5278,19 +5326,19 @@
+@@ -5278,19 +5299,19 @@
  
  #: camlibs/ptp2/config.c:1657
  msgid "Single Bracket 1.0 EV 3 Img."
@@ -2088,7 +2061,7 @@
  
  #: camlibs/ptp2/config.c:1661
  msgid "Single Bracket 1.3 EV 2 Img. +"
-@@ -5302,15 +5350,15 @@
+@@ -5302,15 +5323,15 @@
  
  #: camlibs/ptp2/config.c:1663
  msgid "Single Bracket 1.3 EV 3 Img."
@@ -2107,7 +2080,7 @@
  
  #: camlibs/ptp2/config.c:1666
  msgid "Single Bracket 1.5 EV 2 Img. +"
-@@ -5322,15 +5370,15 @@
+@@ -5322,15 +5343,15 @@
  
  #: camlibs/ptp2/config.c:1668
  msgid "Single Bracket 1.5 EV 3 Img."
@@ -2126,7 +2099,7 @@
  
  #: camlibs/ptp2/config.c:1671
  msgid "Single Bracket 1.7 EV 2 Img. +"
-@@ -5342,15 +5390,15 @@
+@@ -5342,15 +5363,15 @@
  
  #: camlibs/ptp2/config.c:1673
  msgid "Single Bracket 1.7 EV 3 Img."
@@ -2145,7 +2118,7 @@
  
  #: camlibs/ptp2/config.c:1676
  msgid "Single Bracket 2.0 EV 2 Img. +"
-@@ -5362,15 +5410,15 @@
+@@ -5362,15 +5383,15 @@
  
  #: camlibs/ptp2/config.c:1678
  msgid "Single Bracket 2.0 EV 3 Img."
@@ -2164,7 +2137,7 @@
  
  #: camlibs/ptp2/config.c:1681
  msgid "Single Bracket 2.3 EV 2 Img. +"
-@@ -5382,11 +5430,11 @@
+@@ -5382,11 +5403,11 @@
  
  #: camlibs/ptp2/config.c:1683
  msgid "Single Bracket 2.3 EV 3 Img."
@@ -2178,7 +2151,7 @@
  
  #: camlibs/ptp2/config.c:1685
  msgid "Single Bracket 2.5 EV 2 Img. +"
-@@ -5398,11 +5446,11 @@
+@@ -5398,11 +5419,11 @@
  
  #: camlibs/ptp2/config.c:1687
  msgid "Single Bracket 2.5 EV 3 Img."
@@ -2192,7 +2165,7 @@
  
  #: camlibs/ptp2/config.c:1689
  msgid "Single Bracket 2.7 EV 2 Img. +"
-@@ -5414,11 +5462,11 @@
+@@ -5414,11 +5435,11 @@
  
  #: camlibs/ptp2/config.c:1691
  msgid "Single Bracket 2.7 EV 3 Img."
@@ -2206,7 +2179,7 @@
  
  #: camlibs/ptp2/config.c:1693
  msgid "Single Bracket 3.0 EV 2 Img. +"
-@@ -5430,47 +5478,47 @@
+@@ -5430,47 +5451,47 @@
  
  #: camlibs/ptp2/config.c:1695
  msgid "Single Bracket 3.0 EV 3 Img."
@@ -2262,7 +2235,7 @@
  
  #: camlibs/ptp2/config.c:1703 camlibs/ptp2/config.c:4520
  #: camlibs/ptp2/ptp.c:7855
-@@ -5481,65 +5529,65 @@
+@@ -5481,65 +5502,65 @@
  #, fuzzy
  #| msgid "Self Portrait"
  msgid "Self Portrait 1 Person"
@@ -2340,7 +2313,7 @@
  
  #: camlibs/ptp2/config.c:1720
  msgid "PROVIA/Standard"
-@@ -5559,7 +5607,7 @@
+@@ -5559,7 +5580,7 @@
  
  #: camlibs/ptp2/config.c:1724
  msgid "PRO Neg.Std"
@@ -2349,7 +2322,7 @@
  
  #: camlibs/ptp2/config.c:1725 camlibs/ptp2/config.c:4789
  #: camlibs/ricoh/library.c:312 camlibs/sierra/epson-desc.c:123
-@@ -5592,7 +5640,7 @@
+@@ -5592,7 +5613,7 @@
  
  #: camlibs/ptp2/config.c:1733
  msgid "ACROS+R Filter,"
@@ -2358,7 +2331,7 @@
  
  #: camlibs/ptp2/config.c:1734
  msgid "ACROS+G Filter"
-@@ -5600,7 +5648,7 @@
+@@ -5600,7 +5621,7 @@
  
  #: camlibs/ptp2/config.c:1735
  msgid "ETERNA/Cinema"
@@ -2367,7 +2340,7 @@
  
  #: camlibs/ptp2/config.c:1736
  msgid "Classic Neg"
-@@ -5608,7 +5656,7 @@
+@@ -5608,7 +5629,7 @@
  
  #: camlibs/ptp2/config.c:1737
  msgid "ETERNA BLEACH BYPASS"
@@ -2376,7 +2349,7 @@
  
  #: camlibs/ptp2/config.c:1743
  msgid "USB"
-@@ -5645,11 +5693,11 @@
+@@ -5645,11 +5666,11 @@
  
  #: camlibs/ptp2/config.c:2215 camlibs/ptp2/ptp.c:8218
  msgid "M_DEP"
@@ -2390,7 +2363,7 @@
  
  #: camlibs/ptp2/config.c:2231
  msgid "Lock"
-@@ -5890,7 +5938,7 @@
+@@ -5890,7 +5911,7 @@
  #: camlibs/ptp2/config.c:2490 camlibs/ptp2/config.c:6400
  #: camlibs/ptp2/config.c:6410 camlibs/ptp2/ptp.c:8056
  msgid "AF-A"
@@ -2399,7 +2372,7 @@
  
  #: camlibs/ptp2/config.c:2491 camlibs/ptp2/ptp.c:8057
  msgid "MF (fixed)"
-@@ -5924,11 +5972,11 @@
+@@ -5924,11 +5945,11 @@
  
  #: camlibs/ptp2/config.c:2520
  msgid "Spot metering interlocked with AF frame"
@@ -2413,7 +2386,7 @@
  
  #: camlibs/ptp2/config.c:2530
  msgid "Faithful"
-@@ -5956,19 +6004,19 @@
+@@ -5956,19 +5977,19 @@
  
  #: camlibs/ptp2/config.c:2623 camlibs/ptp2/ptp.c:8268
  msgid "Focusing Point on Center Only, Manual"
@@ -2437,7 +2410,7 @@
  
  #: camlibs/ptp2/config.c:2627 camlibs/ptp2/ptp.c:8272
  msgid "Multiple Focusing Points (Right)"
-@@ -5976,7 +6024,7 @@
+@@ -5976,7 +5997,7 @@
  
  #: camlibs/ptp2/config.c:2628 camlibs/ptp2/ptp.c:8273
  msgid "Multiple Focusing Points (Center)"
@@ -2446,7 +2419,7 @@
  
  #: camlibs/ptp2/config.c:2629 camlibs/ptp2/ptp.c:8274
  msgid "Multiple Focusing Points (Left)"
-@@ -6004,11 +6052,11 @@
+@@ -6004,11 +6025,11 @@
  
  #: camlibs/ptp2/config.c:2659
  msgid "4:3"
@@ -2460,7 +2433,7 @@
  
  #: camlibs/ptp2/config.c:2677 camlibs/ptp2/config.c:6140
  #: camlibs/ptp2/config.c:6158 camlibs/ptp2/ptp.c:7931 camlibs/ptp2/ptp.c:7934
-@@ -6067,67 +6115,67 @@
+@@ -6067,67 +6088,67 @@
  
  #: camlibs/ptp2/config.c:2700
  msgid "Quick"
@@ -2543,7 +2516,7 @@
  
  #: camlibs/ptp2/config.c:2720 camlibs/ptp2/config.c:6151
  msgid "SDRAM"
-@@ -6176,76 +6224,76 @@
+@@ -6176,76 +6197,76 @@
  #: camlibs/ptp2/config.c:2866 camlibs/ptp2/config.c:2885
  #: camlibs/ptp2/config.c:2890
  msgid "L"
@@ -2635,7 +2608,7 @@
  
  #: camlibs/ptp2/config.c:3005 camlibs/ptp2/ptp.c:8299
  msgid "Continuous"
-@@ -6257,7 +6305,7 @@
+@@ -6257,7 +6278,7 @@
  
  #: camlibs/ptp2/config.c:3009
  msgid "Single: Silent shooting"
@@ -2644,7 +2617,7 @@
  
  #: camlibs/ptp2/config.c:3010
  msgid "Continuous timer"
-@@ -6273,27 +6321,28 @@
+@@ -6273,27 +6294,27 @@
  
  #: camlibs/ptp2/config.c:3013
  msgid "Super high speed continuous shooting"
@@ -2674,12 +2647,11 @@
  #: camlibs/ptp2/config.c:3091 camlibs/ptp2/config.c:10573
  msgid "For bulb capture to work, make sure the mode dial is switched to 'M' and set 'shutterspeed' to 'bulb'."
 -msgstr "För att blixttagning ska fungera, säkerställ att lägesratten är inställt på ”M” och ställ in ”slutarhastighet” på ”blixt”."
-+msgstr "För att Bulb-tagning ska fungera måste lägesratten vara inställd på ”M” och "
-+"”slutarhastighet” på ”bulb”."
++msgstr "För att Bulb-tagning ska fungera måste lägesratten vara inställd på ”M” och ”slutarhastighet” på ”bulb”."
  
  #: camlibs/ptp2/config.c:3102
  msgid "Shoot"
-@@ -6301,11 +6350,11 @@
+@@ -6301,11 +6322,11 @@
  
  #: camlibs/ptp2/config.c:3103
  msgid "Bulb On"
@@ -2693,7 +2665,7 @@
  
  #: camlibs/ptp2/config.c:3105 camlibs/ptp2/config.c:9987
  msgid "AF"
-@@ -6325,25 +6374,25 @@
+@@ -6325,25 +6346,25 @@
  #, fuzzy
  #| msgid "51 points (3D)"
  msgid "91 Points (7x13)"
@@ -2723,7 +2695,7 @@
  
  #: camlibs/ptp2/config.c:3357 camlibs/ptp2/config.c:3390
  #: camlibs/ptp2/config.c:3499
-@@ -6389,7 +6438,7 @@
+@@ -6389,7 +6410,7 @@
  # sebras: bättre översättning?
  #: camlibs/ptp2/config.c:4115 camlibs/ptp2/config.c:4168
  msgid "Action"
@@ -2732,7 +2704,7 @@
  
  #: camlibs/ptp2/config.c:4123 camlibs/ptp2/config.c:4494
  #: camlibs/ptp2/ptp.c:7847
-@@ -6419,11 +6468,11 @@
+@@ -6419,11 +6440,11 @@
  
  #: camlibs/ptp2/config.c:4130 camlibs/ptp2/config.c:4170
  msgid "Intelligent Auto"
@@ -2746,7 +2718,7 @@
  
  #: camlibs/ptp2/config.c:4132 camlibs/ptp2/config.c:4194
  msgid "Movie (P)"
-@@ -6447,19 +6496,19 @@
+@@ -6447,19 +6468,19 @@
  
  #: camlibs/ptp2/config.c:4137 camlibs/ptp2/config.c:4189
  msgid "Tele-zoom Cont. Priority AE"
@@ -2769,7 +2741,7 @@
  
  #: camlibs/ptp2/config.c:4140 camlibs/ptp2/config.c:4193
  msgid "Sweep Panorama"
-@@ -6467,17 +6516,17 @@
+@@ -6467,17 +6488,17 @@
  
  #: camlibs/ptp2/config.c:4141 camlibs/ptp2/config.c:4204
  msgid "Intelligent Auto Flash Off"
@@ -2790,7 +2762,7 @@
  
  #: camlibs/ptp2/config.c:4146 camlibs/ptp2/config.c:4176
  msgid "Night Scene"
-@@ -6498,63 +6547,63 @@
+@@ -6498,63 +6519,63 @@
  
  #: camlibs/ptp2/config.c:4151 camlibs/ptp2/config.c:4207
  msgid "High Frame Rate (P)"
@@ -2866,7 +2838,7 @@
  
  #: camlibs/ptp2/config.c:4185 camlibs/ptp2/config.c:4188
  #, fuzzy
-@@ -6566,49 +6615,49 @@
+@@ -6566,49 +6587,49 @@
  #, fuzzy
  #| msgid "Memory card"
  msgid "Memory Recall"
@@ -2924,7 +2896,7 @@
  
  #: camlibs/ptp2/config.c:4216
  #, fuzzy
-@@ -6620,43 +6669,43 @@
+@@ -6620,43 +6641,43 @@
  #, fuzzy
  #| msgid "Movie (S)"
  msgid "F (Movie or S&Q)"
@@ -2977,7 +2949,7 @@
  
  #: camlibs/ptp2/config.c:4230
  msgid "Night landscape"
-@@ -6692,7 +6741,7 @@
+@@ -6692,7 +6713,7 @@
  
  #: camlibs/ptp2/config.c:4243
  msgid "Child"
@@ -2986,7 +2958,7 @@
  
  #: camlibs/ptp2/config.c:4245
  msgid "Close up"
-@@ -6780,7 +6829,7 @@
+@@ -6780,7 +6801,7 @@
  
  #: camlibs/ptp2/config.c:4431 camlibs/ptp2/config.c:4440
  msgid "0 image"
@@ -2995,7 +2967,7 @@
  
  #: camlibs/ptp2/config.c:4436
  msgid "2 shots (Off -> User setting)"
-@@ -6841,7 +6890,7 @@
+@@ -6841,7 +6862,7 @@
  
  #: camlibs/ptp2/config.c:4522
  msgid "Quick Response Remote"
@@ -3004,7 +2976,7 @@
  
  #: camlibs/ptp2/config.c:4523 camlibs/ptp2/config.c:6873
  #: camlibs/ptp2/ptp.c:8149
-@@ -6858,7 +6907,7 @@
+@@ -6858,7 +6879,7 @@
  
  #: camlibs/ptp2/config.c:4528
  msgid "Selftimer 2s"
@@ -3013,7 +2985,7 @@
  
  #: camlibs/ptp2/config.c:4529
  msgid "Selftimer 5s"
-@@ -7018,45 +7067,45 @@
+@@ -7018,45 +7039,45 @@
  
  #: camlibs/ptp2/config.c:4578
  msgid "Bracketing S 1.0 Steps 5 Pictures"
@@ -3069,7 +3041,7 @@
  
  #: camlibs/ptp2/config.c:4597 camlibs/ptp2/ptp.c:7857
  msgid "Centre-spot"
-@@ -7064,36 +7113,36 @@
+@@ -7064,36 +7085,36 @@
  
  #: camlibs/ptp2/config.c:4598 camlibs/ptp2/ptp.c:7825 camlibs/ptp2/ptp.c:7858
  msgid "Multi-spot"
@@ -3114,7 +3086,7 @@
  
  #: camlibs/ptp2/config.c:4612
  msgid "Dynamic Area (9)"
-@@ -7117,11 +7166,11 @@
+@@ -7117,11 +7138,11 @@
  
  #: camlibs/ptp2/config.c:4621
  msgid "Single-point AF"
@@ -3128,7 +3100,7 @@
  
  #: camlibs/ptp2/config.c:4623
  msgid "3D-tracking"
-@@ -7145,27 +7194,27 @@
+@@ -7145,27 +7166,27 @@
  
  #: camlibs/ptp2/config.c:4629
  msgid "Pinpoint AF"
@@ -3161,7 +3133,7 @@
  
  #: camlibs/ptp2/config.c:4638
  msgid "sRGB (portrait)"
-@@ -7215,7 +7264,7 @@
+@@ -7215,7 +7236,7 @@
  
  #: camlibs/ptp2/config.c:4722
  msgid "Zone"
@@ -3170,7 +3142,7 @@
  
  #: camlibs/ptp2/config.c:4723 camlibs/ptp2/config.c:4749
  msgid "Center"
-@@ -7225,51 +7274,51 @@
+@@ -7225,51 +7246,51 @@
  #, fuzzy
  #| msgid "Flexible Program"
  msgid "Flexible Spot: S"
@@ -3233,7 +3205,7 @@
  
  #: camlibs/ptp2/config.c:4740 camlibs/sierra/olympus-desc.c:783
  msgid "Center Weighted"
-@@ -7277,11 +7326,11 @@
+@@ -7277,11 +7298,11 @@
  
  #: camlibs/ptp2/config.c:4741
  msgid "Multi Spot"
@@ -3247,7 +3219,7 @@
  
  #: camlibs/ptp2/config.c:4744 camlibs/sierra/olympus-desc.c:785
  msgid "ESP"
-@@ -7289,11 +7338,11 @@
+@@ -7289,11 +7310,11 @@
  
  #: camlibs/ptp2/config.c:4745
  msgid "Spot+Highlights"
@@ -3261,7 +3233,7 @@
  
  #: camlibs/ptp2/config.c:4748
  msgid "Multi"
-@@ -7301,15 +7350,15 @@
+@@ -7301,15 +7322,15 @@
  
  #: camlibs/ptp2/config.c:4750
  msgid "Entire Screen Avg."
@@ -3280,7 +3252,7 @@
  
  #: camlibs/ptp2/config.c:4753
  msgid "Highlight"
-@@ -7325,11 +7374,11 @@
+@@ -7325,11 +7346,11 @@
  
  #: camlibs/ptp2/config.c:4761
  msgid "Red-eye automatic"
@@ -3294,7 +3266,7 @@
  
  #: camlibs/ptp2/config.c:4763 camlibs/ptp2/ptp.c:7833
  msgid "External sync"
-@@ -7337,27 +7386,27 @@
+@@ -7337,27 +7358,27 @@
  
  #: camlibs/ptp2/config.c:4765 camlibs/ptp2/ptp.c:7835
  msgid "Auto Slow Sync"
@@ -3328,7 +3300,7 @@
  
  #: camlibs/ptp2/config.c:4771
  msgid "Slow sync"
-@@ -7369,7 +7418,7 @@
+@@ -7369,7 +7390,7 @@
  
  #: camlibs/ptp2/config.c:4773
  msgid "Rear-curtain sync"
@@ -3337,7 +3309,7 @@
  
  #: camlibs/ptp2/config.c:4774 camlibs/sierra/epson-desc.c:141
  #: camlibs/sierra/sierra.c:1014 camlibs/sierra/sierra.c:1025
-@@ -7380,7 +7429,7 @@
+@@ -7380,7 +7401,7 @@
  
  #: camlibs/ptp2/config.c:4775
  msgid "Rear Curtain Sync"
@@ -3346,7 +3318,7 @@
  
  #: camlibs/ptp2/config.c:4776
  msgid "Wireless Sync"
-@@ -7390,35 +7439,35 @@
+@@ -7390,35 +7411,35 @@
  #, fuzzy
  #| msgid "auto"
  msgid "HSS auto"
@@ -3389,7 +3361,7 @@
  
  #: camlibs/ptp2/config.c:4795
  msgid "Night Vision"
-@@ -7438,11 +7487,11 @@
+@@ -7438,11 +7459,11 @@
  
  #: camlibs/ptp2/config.c:4800
  msgid "High key"
@@ -3403,7 +3375,7 @@
  
  #: camlibs/ptp2/config.c:4949 camlibs/ptp2/config.c:4987
  #: camlibs/ptp2/config.c:4995 camlibs/ptp2/config.c:5033
-@@ -7452,7 +7501,7 @@
+@@ -7452,7 +7473,7 @@
  
  #: camlibs/ptp2/config.c:4985 camlibs/ptp2/config.c:5029
  msgid "infinite"
@@ -3412,7 +3384,7 @@
  
  #: camlibs/ptp2/config.c:5058 camlibs/ptp2/config.c:5103
  #, c-format
-@@ -7479,11 +7528,11 @@
+@@ -7479,11 +7500,11 @@
  
  #: camlibs/ptp2/config.c:6075 camlibs/ptp2/config.c:6105
  msgid "Wide-area AF"
@@ -3426,7 +3398,7 @@
  
  #: camlibs/ptp2/config.c:6077 camlibs/ptp2/config.c:6107
  msgid "Subject-tracking AF"
-@@ -7491,7 +7540,7 @@
+@@ -7491,7 +7512,7 @@
  
  #: camlibs/ptp2/config.c:6078 camlibs/ptp2/config.c:6108
  msgid "Spot-area AF"
@@ -3435,7 +3407,7 @@
  
  #: camlibs/ptp2/config.c:6084 camlibs/ptp2/config.c:6094
  msgid "Entire Display"
-@@ -7526,15 +7575,15 @@
+@@ -7526,15 +7547,15 @@
  
  #: camlibs/ptp2/config.c:6113
  msgid "Single-servo AF"
@@ -3454,7 +3426,7 @@
  
  #: camlibs/ptp2/config.c:6116
  msgid "Manual Focus (fixed)"
-@@ -7550,15 +7599,15 @@
+@@ -7550,15 +7571,15 @@
  
  #: camlibs/ptp2/config.c:6131 camlibs/ptp2/ptp.c:7917
  msgid "AE Lock only"
@@ -3473,7 +3445,7 @@
  
  #: camlibs/ptp2/config.c:6134 camlibs/ptp2/ptp.c:7919
  msgid "AF On"
-@@ -7566,7 +7615,7 @@
+@@ -7566,7 +7587,7 @@
  
  #: camlibs/ptp2/config.c:6135
  msgid "Flash Level Lock"
@@ -3482,7 +3454,7 @@
  
  #: camlibs/ptp2/config.c:6141 camlibs/ptp2/config.c:6159
  #: camlibs/ptp2/ptp.c:7932 camlibs/ptp2/ptp.c:7935
-@@ -7619,7 +7668,7 @@
+@@ -7619,7 +7640,7 @@
  
  #: camlibs/ptp2/config.c:6182
  msgid "1/60"
@@ -3491,7 +3463,7 @@
  
  #: camlibs/ptp2/config.c:6183
  msgid "1/30"
-@@ -7671,7 +7720,7 @@
+@@ -7671,7 +7692,7 @@
  
  #: camlibs/ptp2/config.c:6200
  msgid "25s"
@@ -3500,7 +3472,7 @@
  
  #: camlibs/ptp2/config.c:6201
  msgid "20s"
-@@ -8295,7 +8344,7 @@
+@@ -8295,7 +8316,7 @@
  
  #: camlibs/ptp2/config.c:7297 camlibs/ptp2/config.c:7315
  msgid "JPEG Fine*"
@@ -3509,7 +3481,7 @@
  
  #: camlibs/ptp2/config.c:7298
  msgid "TIFF"
-@@ -8311,7 +8360,7 @@
+@@ -8311,7 +8332,7 @@
  
  #: camlibs/ptp2/config.c:7305 camlibs/ptp2/config.c:7322
  msgid "NEF+Fine*"
@@ -3518,7 +3490,7 @@
  
  #: camlibs/ptp2/config.c:7338 camlibs/ptp2/config.c:7375
  msgid "Extra Fine"
-@@ -8321,7 +8370,7 @@
+@@ -8321,7 +8342,7 @@
  #, fuzzy
  #| msgid "RAW+JPEG (Std)"
  msgid "RAW+JPEG (Light)"
@@ -3527,7 +3499,7 @@
  
  #: camlibs/ptp2/config.c:7341
  msgid "RAW+JPEG (Std)"
-@@ -8329,55 +8378,55 @@
+@@ -8329,55 +8350,55 @@
  
  #: camlibs/ptp2/config.c:7342
  msgid "RAW+JPEG (Fine)"
@@ -3593,7 +3565,7 @@
  
  #: camlibs/ptp2/config.c:7358 camlibs/ptp2/config.c:7377
  msgid "RAW+JPEG"
-@@ -8385,183 +8434,183 @@
+@@ -8385,183 +8406,183 @@
  
  #: camlibs/ptp2/config.c:7364
  msgid "n/a"
@@ -3815,7 +3787,7 @@
  
  #: camlibs/ptp2/config.c:7501
  msgid "Multi-Shot"
-@@ -8593,31 +8642,31 @@
+@@ -8593,31 +8614,31 @@
  
  #: camlibs/ptp2/config.c:7537
  msgid "High Efficiency*"
@@ -3852,7 +3824,7 @@
  
  #: camlibs/ptp2/config.c:7550
  msgid "Size Priority"
-@@ -8796,7 +8845,7 @@
+@@ -8796,7 +8817,7 @@
  
  #: camlibs/ptp2/config.c:7715
  msgid "+NEF (RAW)"
@@ -3861,7 +3833,7 @@
  
  #: camlibs/ptp2/config.c:7716
  msgid "Framing grid"
-@@ -8814,11 +8863,11 @@
+@@ -8814,11 +8835,11 @@
  
  #: camlibs/ptp2/config.c:7719
  msgid "Choose non-CPU lens number"
@@ -3875,7 +3847,7 @@
  
  #: camlibs/ptp2/config.c:7721
  msgid "Start movie recording"
-@@ -8826,7 +8875,7 @@
+@@ -8826,7 +8847,7 @@
  
  #: camlibs/ptp2/config.c:7728
  msgid "On (image review excluded)"
@@ -3884,7 +3856,7 @@
  
  #: camlibs/ptp2/config.c:7748
  msgid "Face detection"
-@@ -8834,7 +8883,7 @@
+@@ -8834,7 +8855,7 @@
  
  #: camlibs/ptp2/config.c:7749
  msgid "Face and pupil detection"
@@ -3893,7 +3865,7 @@
  
  #: camlibs/ptp2/config.c:7750
  msgid "Animal detection"
-@@ -8862,35 +8911,35 @@
+@@ -8862,35 +8883,35 @@
  
  #: camlibs/ptp2/config.c:8134
  msgid "Nikon manual focus at limit."
@@ -3935,7 +3907,7 @@
  
  #: camlibs/ptp2/config.c:8205 camlibs/ptp2/config.c:8246
  msgid "Release Half"
-@@ -8942,11 +8991,11 @@
+@@ -8942,11 +8963,11 @@
  
  #: camlibs/ptp2/config.c:8839
  msgid "Liveview cannot start: Battery exhausted"
@@ -3949,7 +3921,7 @@
  
  #: camlibs/ptp2/config.c:8841
  msgid "Liveview cannot start: TTL error"
-@@ -8954,11 +9003,11 @@
+@@ -8954,11 +8975,11 @@
  
  #: camlibs/ptp2/config.c:8842
  msgid "Liveview cannot start: In Mirror-up operation"
@@ -3963,7 +3935,7 @@
  
  #: camlibs/ptp2/config.c:8844
  msgid "Liveview cannot start: Minimum aperture warning"
-@@ -8966,7 +9015,7 @@
+@@ -8966,7 +8987,7 @@
  
  #: camlibs/ptp2/config.c:8845
  msgid "Liveview cannot start: Processing of shooting operation"
@@ -3972,7 +3944,7 @@
  
  #: camlibs/ptp2/config.c:8846
  msgid "Liveview cannot start: Sequence error"
-@@ -8978,19 +9027,19 @@
+@@ -8978,19 +8999,19 @@
  
  #: camlibs/ptp2/config.c:8848
  msgid "Liveview cannot start: Bulb warning"
@@ -3996,7 +3968,7 @@
  
  #: camlibs/ptp2/config.c:8852
  msgid "Liveview cannot start: Recording destination card, but no card or card protected"
-@@ -9014,11 +9063,11 @@
+@@ -9014,11 +9035,11 @@
  #: camlibs/ptp2/library.c:3816 camlibs/ptp2/library.c:3824
  #: camlibs/ptp2/library.c:3826 camlibs/ptp2/library.c:4257
  msgid "Nikon enable liveview failed"
@@ -4010,7 +3982,7 @@
  
  #: camlibs/ptp2/config.c:9090
  msgid "Not in application mode"
-@@ -9026,7 +9075,7 @@
+@@ -9026,7 +9047,7 @@
  
  #: camlibs/ptp2/config.c:9091 camlibs/ptp2/config.c:9206
  msgid "Set liveview selector is enabled"
@@ -4019,7 +3991,7 @@
  
  #: camlibs/ptp2/config.c:9092 camlibs/ptp2/config.c:9093
  #: camlibs/ptp2/config.c:9207
-@@ -9044,7 +9093,7 @@
+@@ -9044,7 +9065,7 @@
  
  #: camlibs/ptp2/config.c:9096 camlibs/ptp2/config.c:9210
  msgid "Images / movies not yet record in buffer"
@@ -4028,7 +4000,7 @@
  
  #: camlibs/ptp2/config.c:9097 camlibs/ptp2/config.c:9211
  msgid "Card full"
-@@ -9052,7 +9101,7 @@
+@@ -9052,7 +9073,7 @@
  
  #: camlibs/ptp2/config.c:9098 camlibs/ptp2/config.c:9212
  msgid "Card not formatted"
@@ -4037,7 +4009,7 @@
  
  #: camlibs/ptp2/config.c:9099 camlibs/ptp2/config.c:9139
  #: camlibs/ptp2/config.c:9213 camlibs/ptp2/library.c:3797
-@@ -9061,7 +9110,7 @@
+@@ -9061,7 +9082,7 @@
  
  #: camlibs/ptp2/config.c:9104
  msgid "No movie prohibit conditions"
@@ -4046,7 +4018,7 @@
  
  #: camlibs/ptp2/config.c:9122
  msgid "Live View prohibit conditions: "
-@@ -9433,7 +9482,7 @@
+@@ -9433,7 +9454,7 @@
  #: camlibs/ptp2/config.c:11429 camlibs/ptp2/config.c:11430
  #: camlibs/ptp2/config.c:11431 camlibs/ptp2/config.c:11432
  msgid "Bulb Mode"
@@ -4055,7 +4027,7 @@
  
  #: camlibs/ptp2/config.c:11433
  msgid "UI Lock"
-@@ -9441,29 +9490,29 @@
+@@ -9441,29 +9462,29 @@
  
  #: camlibs/ptp2/config.c:11434
  msgid "Popup Flash"
@@ -4091,7 +4063,7 @@
  
  #: camlibs/ptp2/config.c:11440
  msgid "Set Nikon Autofocus area"
-@@ -9493,23 +9542,23 @@
+@@ -9493,23 +9514,23 @@
  #, fuzzy
  #| msgid "Drive Fuji Autofocus"
  msgid "Drive Fuji Manual focus"
@@ -4119,7 +4091,7 @@
  
  #: camlibs/ptp2/config.c:11450
  msgid "Canon EOS Zoom"
-@@ -9554,49 +9603,49 @@
+@@ -9554,49 +9575,49 @@
  #, fuzzy
  #| msgid "Focus Mode"
  msgid "Focus Magnifier"
@@ -4177,7 +4149,7 @@
  
  #: camlibs/ptp2/config.c:11472
  msgid "PTP Opcode"
-@@ -9638,7 +9687,7 @@
+@@ -9638,7 +9659,7 @@
  #, fuzzy
  #| msgid "External Flash"
  msgid "External Flash Ready"
@@ -4186,7 +4158,7 @@
  
  #: camlibs/ptp2/config.c:11491 camlibs/ptp2/config.c:11492
  #: camlibs/ptp2/config.c:11493 camlibs/ptp2/ptp.c:6091 camlibs/ptp2/ptp.c:7438
-@@ -9647,33 +9696,33 @@
+@@ -9647,33 +9668,33 @@
  
  #: camlibs/ptp2/config.c:11494
  msgid "Mirror Up Status"
@@ -4226,7 +4198,7 @@
  
  #: camlibs/ptp2/config.c:11500 camlibs/ptp2/config.c:11501
  #: camlibs/ptp2/config.c:11502 camlibs/ptp2/ptp.c:6786
-@@ -9704,23 +9753,23 @@
+@@ -9704,23 +9725,23 @@
  #: camlibs/ptp2/config.c:11512 camlibs/ptp2/config.c:11513
  #: camlibs/ptp2/config.c:11514
  msgid "Available Shots"
@@ -4255,7 +4227,7 @@
  
  #: camlibs/ptp2/config.c:11520
  msgid "Low Light"
-@@ -9748,7 +9797,7 @@
+@@ -9748,7 +9769,7 @@
  
  #: camlibs/ptp2/config.c:11527
  msgid "Movie Prohibit Condition"
@@ -4264,7 +4236,7 @@
  
  #: camlibs/ptp2/config.c:11528
  msgid "Liveview Prohibit Condition"
-@@ -9758,7 +9807,7 @@
+@@ -9758,7 +9779,7 @@
  #, fuzzy
  #| msgid "Focus position"
  msgid "Focus Indication"
@@ -4273,7 +4245,7 @@
  
  #: camlibs/ptp2/config.c:11534 camlibs/ptp2/config.c:11535
  #: camlibs/ptp2/config.c:11536 camlibs/ptp2/config.c:11537
-@@ -9839,7 +9888,7 @@
+@@ -9839,7 +9860,7 @@
  
  #: camlibs/ptp2/config.c:11564
  msgid "Clean Sensor"
@@ -4282,7 +4254,7 @@
  
  #: camlibs/ptp2/config.c:11565 camlibs/ptp2/ptp.c:6546
  msgid "Flicker Reduction"
-@@ -9856,7 +9905,7 @@
+@@ -9856,7 +9877,7 @@
  #: camlibs/ptp2/config.c:11568 camlibs/ptp2/config.c:11816
  #: camlibs/ptp2/ptp.c:7451
  msgid "Focus Area"
@@ -4291,7 +4263,7 @@
  
  #: camlibs/ptp2/config.c:11569
  msgid "Strobo Firing"
-@@ -9868,7 +9917,7 @@
+@@ -9868,7 +9889,7 @@
  
  #: camlibs/ptp2/config.c:11571
  msgid "One Shot Raw On"
@@ -4300,7 +4272,7 @@
  
  #: camlibs/ptp2/config.c:11572
  msgid "Auto Power Off"
-@@ -9924,7 +9973,7 @@
+@@ -9924,7 +9945,7 @@
  
  #: camlibs/ptp2/config.c:11592
  msgid "Test OLC"
@@ -4309,7 +4281,7 @@
  
  #: camlibs/ptp2/config.c:11602
  msgid "Image Format SD"
-@@ -9952,7 +10001,7 @@
+@@ -9952,7 +9973,7 @@
  
  #: camlibs/ptp2/config.c:11625 camlibs/ptp2/ptp.c:6872
  msgid "ISO Auto"
@@ -4318,7 +4290,7 @@
  
  #: camlibs/ptp2/config.c:11627 camlibs/ptp2/config.c:11628
  #: camlibs/ptp2/config.c:11629 camlibs/ptp2/config.c:11634
-@@ -9962,11 +10011,11 @@
+@@ -9962,11 +9983,11 @@
  
  #: camlibs/ptp2/config.c:11636 camlibs/ptp2/config.c:11638
  msgid "WhiteBalance Adjust A"
@@ -4332,7 +4304,7 @@
  
  #: camlibs/ptp2/config.c:11640
  msgid "WhiteBalance X A"
-@@ -9993,7 +10042,7 @@
+@@ -9993,7 +10014,7 @@
  #, fuzzy
  #| msgid "Effects"
  msgid "Grain Effect"
@@ -4341,7 +4313,7 @@
  
  #: camlibs/ptp2/config.c:11648 camlibs/ptp2/ptp.c:6126
  msgid "Video Format"
-@@ -10005,7 +10054,7 @@
+@@ -10005,7 +10026,7 @@
  
  #: camlibs/ptp2/config.c:11651 camlibs/ptp2/ptp.c:6129
  msgid "Video Framerate"
@@ -4350,7 +4322,7 @@
  
  #: camlibs/ptp2/config.c:11652 camlibs/ptp2/ptp.c:6130
  msgid "Video Contrast"
-@@ -10017,11 +10066,11 @@
+@@ -10017,11 +10038,11 @@
  
  #: camlibs/ptp2/config.c:11654 camlibs/ptp2/ptp.c:6132
  msgid "Audio Format"
@@ -4364,7 +4336,7 @@
  
  #: camlibs/ptp2/config.c:11656
  msgid "Audio Sampling Rate"
-@@ -10029,7 +10078,7 @@
+@@ -10029,7 +10050,7 @@
  
  #: camlibs/ptp2/config.c:11657
  msgid "Audio Bit per Sample"
@@ -4373,7 +4345,7 @@
  
  #: camlibs/ptp2/config.c:11658 camlibs/ptp2/ptp.c:6136
  msgid "Audio Volume"
-@@ -10037,7 +10086,7 @@
+@@ -10037,7 +10058,7 @@
  
  #: camlibs/ptp2/config.c:11663 camlibs/ptp2/config.c:11664
  msgid "Long Exp Noise Reduction"
@@ -4382,7 +4354,7 @@
  
  #: camlibs/ptp2/config.c:11665
  msgid "Auto Focus Mode 2"
-@@ -10076,11 +10125,11 @@
+@@ -10076,11 +10097,11 @@
  
  #: camlibs/ptp2/config.c:11685
  msgid "Adjust A/B"
@@ -4396,7 +4368,7 @@
  
  #: camlibs/ptp2/config.c:11687 camlibs/ptp2/ptp.c:6177
  msgid "AF Mode"
-@@ -10090,17 +10139,17 @@
+@@ -10090,17 +10111,17 @@
  #, fuzzy
  #| msgid "MF Assist"
  msgid "MF Adjust"
@@ -4417,7 +4389,7 @@
  
  #: camlibs/ptp2/config.c:11693 camlibs/ptp2/ptp.c:6188
  msgid "Flash Compensation"
-@@ -10116,11 +10165,11 @@
+@@ -10116,11 +10137,11 @@
  
  #: camlibs/ptp2/config.c:11698 camlibs/ptp2/ptp.c:6868
  msgid "Flash Commander Mode"
@@ -4431,7 +4403,7 @@
  
  #: camlibs/ptp2/config.c:11700 camlibs/ptp2/ptp.c:6938
  msgid "Flash Command Channel"
-@@ -10128,23 +10177,23 @@
+@@ -10128,23 +10149,23 @@
  
  #: camlibs/ptp2/config.c:11701 camlibs/ptp2/ptp.c:6940
  msgid "Flash Command Self Mode"
@@ -4460,7 +4432,7 @@
  
  #: camlibs/ptp2/config.c:11706 camlibs/ptp2/ptp.c:6950
  msgid "Flash Command A Value"
-@@ -10152,11 +10201,11 @@
+@@ -10152,11 +10173,11 @@
  
  #: camlibs/ptp2/config.c:11707 camlibs/ptp2/ptp.c:6952
  msgid "Flash Command B Mode"
@@ -4474,7 +4446,7 @@
  
  #: camlibs/ptp2/config.c:11709 camlibs/ptp2/ptp.c:6956
  msgid "Flash Command B Value"
-@@ -10164,11 +10213,11 @@
+@@ -10164,11 +10185,11 @@
  
  #: camlibs/ptp2/config.c:11710 camlibs/ptp2/ptp.c:6864
  msgid "AF Area Illumination"
@@ -4488,7 +4460,7 @@
  
  #: camlibs/ptp2/config.c:11712 camlibs/ptp2/config.c:11713
  #: camlibs/ptp2/config.c:11714 camlibs/ptp2/config.c:11715
-@@ -10184,7 +10233,7 @@
+@@ -10184,7 +10205,7 @@
  
  #: camlibs/ptp2/config.c:11717
  msgid "Movie F-Number"
@@ -4497,7 +4469,7 @@
  
  #: camlibs/ptp2/config.c:11718 camlibs/ptp2/ptp.c:6776
  msgid "Flexible Program"
-@@ -10194,17 +10243,17 @@
+@@ -10194,17 +10215,17 @@
  #, fuzzy
  #| msgid "Quality"
  msgid "JPEG Quality"
@@ -4518,7 +4490,7 @@
  
  #: camlibs/ptp2/config.c:11725 camlibs/ptp2/ptp.c:6099
  msgid "Focus Distance"
-@@ -10218,7 +10267,7 @@
+@@ -10218,7 +10239,7 @@
  #, fuzzy
  #| msgid "Focus position"
  msgid "Focal Position"
@@ -4527,7 +4499,7 @@
  
  #: camlibs/ptp2/config.c:11732
  msgid "Focus Mode 2"
-@@ -10256,7 +10305,7 @@
+@@ -10256,7 +10277,7 @@
  #, fuzzy
  #| msgid "AF Mode"
  msgid "AF Method"
@@ -4536,7 +4508,7 @@
  
  #: camlibs/ptp2/config.c:11746
  msgid "Storage Device"
-@@ -10273,11 +10322,11 @@
+@@ -10273,11 +10294,11 @@
  
  #: camlibs/ptp2/config.c:11749 camlibs/ptp2/ptp.c:6818
  msgid "HDR High Dynamic"
@@ -4550,7 +4522,7 @@
  
  #: camlibs/ptp2/config.c:11751 camlibs/ptp2/config.c:11752
  #: camlibs/ptp2/config.c:11753 camlibs/ptp2/ptp.c:6111
-@@ -10298,7 +10347,7 @@
+@@ -10298,7 +10319,7 @@
  
  #: camlibs/ptp2/config.c:11757 camlibs/ptp2/ptp.c:6170
  msgid "Drive Mode"
@@ -4559,7 +4531,7 @@
  
  #: camlibs/ptp2/config.c:11758
  msgid "Picture Style"
-@@ -10521,17 +10570,17 @@
+@@ -10521,17 +10542,17 @@
  #: camlibs/ptp2/config.c:11842 camlibs/ptp2/config.c:11851
  #: camlibs/ptp2/ptp.c:6488
  msgid "Auto White Balance Bias"
@@ -4580,7 +4552,7 @@
  
  #: camlibs/ptp2/config.c:11845 camlibs/ptp2/config.c:11854
  #: camlibs/ptp2/ptp.c:6494
-@@ -10555,11 +10604,11 @@
+@@ -10555,11 +10576,11 @@
  
  #: camlibs/ptp2/config.c:11849
  msgid "Natural light auto White Balance Bias"
@@ -4594,7 +4566,7 @@
  
  #: camlibs/ptp2/config.c:11860
  msgid "White Balance Bias Preset 0"
-@@ -10592,7 +10641,7 @@
+@@ -10592,7 +10613,7 @@
  #: camlibs/ptp2/config.c:11867 camlibs/ptp2/config.c:12015
  #: camlibs/ptp2/config.c:12056 camlibs/ptp2/ptp.c:6654
  msgid "Flash Shutter Speed"
@@ -4603,7 +4575,7 @@
  
  #: camlibs/ptp2/config.c:11868 camlibs/ptp2/ptp.c:6874
  msgid "Remote Timeout"
-@@ -10644,7 +10693,7 @@
+@@ -10644,7 +10665,7 @@
  
  #: camlibs/ptp2/config.c:11882
  msgid "Reverse Indicators"
@@ -4612,7 +4584,7 @@
  
  #: camlibs/ptp2/config.c:11883 camlibs/ptp2/ptp.c:6759
  msgid "Auto Distortion Control"
-@@ -10652,7 +10701,7 @@
+@@ -10652,7 +10673,7 @@
  
  #: camlibs/ptp2/config.c:11884
  msgid "Vignette Correction"
@@ -4621,7 +4593,7 @@
  
  #: camlibs/ptp2/config.c:11885 camlibs/ptp2/ptp.c:6550
  msgid "Video Mode"
-@@ -10660,7 +10709,7 @@
+@@ -10660,7 +10681,7 @@
  
  #: camlibs/ptp2/config.c:11886 camlibs/ptp2/ptp.c:7509
  msgid "Sensor Crop"
@@ -4630,7 +4602,7 @@
  
  #: camlibs/ptp2/config.c:11887
  msgid "HDMI Output Data Depth"
-@@ -10682,33 +10731,33 @@
+@@ -10682,33 +10703,33 @@
  #, fuzzy
  #| msgid "Shutter Speed"
  msgid "Shutter Type"
@@ -4670,7 +4642,7 @@
  
  #: camlibs/ptp2/config.c:11919 camlibs/ptp2/config.c:11926
  msgid "Assign Func Button"
-@@ -10722,7 +10771,7 @@
+@@ -10722,7 +10743,7 @@
  #: camlibs/ptp2/config.c:12004 camlibs/ptp2/config.c:12012
  #: camlibs/ptp2/config.c:12039
  msgid "Continuous Shooting Speed Slow"
@@ -4679,7 +4651,7 @@
  
  #: camlibs/ptp2/config.c:11941 camlibs/ptp2/config.c:11989
  msgid "Movie Resolution"
-@@ -10732,7 +10781,7 @@
+@@ -10732,7 +10753,7 @@
  #: camlibs/ptp2/config.c:11992 camlibs/ptp2/config.c:12000
  #: camlibs/ptp2/config.c:12010 camlibs/ptp2/config.c:12034
  msgid "Minimum Shutter Speed"
@@ -4688,7 +4660,7 @@
  
  #: camlibs/ptp2/config.c:11981 camlibs/ptp2/config.c:11990
  #: camlibs/ptp2/config.c:12041 camlibs/ptp2/config.c:12042
-@@ -10743,12 +10792,12 @@
+@@ -10743,12 +10764,12 @@
  #: camlibs/ptp2/config.c:11994 camlibs/ptp2/config.c:12001
  #: camlibs/ptp2/config.c:12011 camlibs/ptp2/config.c:12035
  msgid "ISO Auto Hi Limit"
@@ -4703,7 +4675,7 @@
  
  #: camlibs/ptp2/config.c:11996
  msgid "Focus Metering"
-@@ -10756,7 +10805,7 @@
+@@ -10756,7 +10777,7 @@
  
  #: camlibs/ptp2/config.c:12013 camlibs/ptp2/config.c:12054
  msgid "Continuous Shooting Speed High"
@@ -4712,7 +4684,7 @@
  
  #: camlibs/ptp2/config.c:12017 camlibs/ptp2/ptp.c:6540
  msgid "JPEG Compression Policy"
-@@ -10776,7 +10825,7 @@
+@@ -10776,7 +10797,7 @@
  
  #: camlibs/ptp2/config.c:12021 camlibs/ptp2/ptp.c:6892
  msgid "Dynamic AF Area"
@@ -4721,7 +4693,7 @@
  
  #: camlibs/ptp2/config.c:12022 camlibs/ptp2/ptp.c:6584
  msgid "AF Lock On"
-@@ -10796,16 +10845,16 @@
+@@ -10796,16 +10817,16 @@
  
  #: camlibs/ptp2/config.c:12040
  msgid "Maximum continuous release"
@@ -4741,7 +4713,7 @@
  
  #: camlibs/ptp2/config.c:12050
  msgid "Image Quality 2"
-@@ -10813,7 +10862,7 @@
+@@ -10813,7 +10834,7 @@
  
  #: camlibs/ptp2/config.c:12059
  msgid "Live View Zoom Area"
@@ -4750,7 +4722,7 @@
  
  #: camlibs/ptp2/config.c:12079 camlibs/ptp2/config.c:12080
  #: camlibs/ptp2/config.c:12081 camlibs/ptp2/config.c:12082
-@@ -10831,7 +10880,7 @@
+@@ -10831,7 +10852,7 @@
  
  #: camlibs/ptp2/config.c:12102
  msgid "WIFI profiles"
@@ -4759,7 +4731,7 @@
  
  #: camlibs/ptp2/config.c:12370 camlibs/ptp2/config.c:12832
  msgid "Other PTP Device Properties"
-@@ -10893,11 +10942,11 @@
+@@ -10893,11 +10914,11 @@
  
  #: camlibs/ptp2/library.c:3603 camlibs/ptp2/library.c:4906
  msgid "Canon enable viewfinder failed"
@@ -4773,7 +4745,7 @@
  
  #: camlibs/ptp2/library.c:3749
  msgid "Sorry, your Canon camera does not support Canon Viewfinder mode"
-@@ -10922,7 +10971,7 @@
+@@ -10922,7 +10943,7 @@
  
  #: camlibs/ptp2/library.c:3866
  msgid "Nikon disable liveview failed"
@@ -4782,7 +4754,7 @@
  
  #: camlibs/ptp2/library.c:3920
  msgid "Sorry, your Sony camera does not seem to return a JPEG image in LiveView mode"
-@@ -10938,7 +10987,7 @@
+@@ -10938,7 +10959,7 @@
  
  #: camlibs/ptp2/library.c:4255 camlibs/ptp2/library.c:6291
  msgid "Failed to enable liveview on a Nikon 1, but it is required for capture"
@@ -4791,7 +4763,7 @@
  
  #: camlibs/ptp2/library.c:4502
  msgid "Sorry, your Canon camera does not support Canon EOS Capture"
-@@ -10947,7 +10996,7 @@
+@@ -10947,7 +10968,7 @@
  #: camlibs/ptp2/library.c:4513 camlibs/ptp2/library.c:6118
  #: camlibs/ptp2/library.c:6688
  msgid "Canon EOS Get Changes failed"
@@ -4800,7 +4772,7 @@
  
  #: camlibs/ptp2/library.c:4754
  msgid "Sorry, your Canon camera does not support Canon Capture initiation"
-@@ -10964,7 +11013,7 @@
+@@ -10964,7 +10985,7 @@
  
  #: camlibs/ptp2/library.c:5696
  msgid "Capture failed: No focus."
@@ -4809,7 +4781,7 @@
  
  #: camlibs/ptp2/library.c:5885 camlibs/ptp2/library.c:6641
  msgid "Sorry, your camera does not support generic capture"
-@@ -10976,24 +11025,24 @@
+@@ -10976,24 +10997,24 @@
  
  #: camlibs/ptp2/library.c:6110
  msgid "Canon EOS Half-Press failed"
@@ -4839,7 +4811,7 @@
  
  #: camlibs/ptp2/library.c:6180
  msgid "Canon EOS M Full-Press failed"
-@@ -11035,7 +11084,7 @@
+@@ -11035,7 +11056,7 @@
  #: camlibs/ptp2/library.c:6243
  #, c-format
  msgid "Canon EOS Capture failed to release: Unknown error %d, please report."
@@ -4848,7 +4820,7 @@
  
  #: camlibs/ptp2/library.c:6406
  msgid "Sorry, initializing your camera did not work. Please report this."
-@@ -11128,7 +11177,7 @@
+@@ -11128,7 +11149,7 @@
  
  #: camlibs/ptp2/library.c:7842
  msgid "File Deletion, "
@@ -4857,7 +4829,7 @@
  
  #: camlibs/ptp2/library.c:7844
  msgid "No File Deletion, "
-@@ -11136,11 +11185,11 @@
+@@ -11136,11 +11157,11 @@
  
  #: camlibs/ptp2/library.c:7847
  msgid "File Upload\n"
@@ -4871,7 +4843,7 @@
  
  #: camlibs/ptp2/library.c:7853
  msgid "\tGeneric Image Capture, "
-@@ -11176,11 +11225,11 @@
+@@ -11176,11 +11197,11 @@
  
  #: camlibs/ptp2/library.c:7875
  msgid "Nikon Capture 2, "
@@ -4885,7 +4857,7 @@
  
  #: camlibs/ptp2/library.c:7881
  msgid "Sony Capture, "
-@@ -11196,11 +11245,11 @@
+@@ -11196,11 +11217,11 @@
  
  #: camlibs/ptp2/library.c:7901
  msgid "\tNikon Wifi support\n"
@@ -4899,7 +4871,7 @@
  
  #: camlibs/ptp2/library.c:7912
  msgid ""
-@@ -11356,7 +11405,7 @@
+@@ -11356,7 +11377,7 @@
  
  #: camlibs/ptp2/ptp.c:5931
  msgid "PTP Undefined Error"
@@ -4908,7 +4880,7 @@
  
  #: camlibs/ptp2/ptp.c:5932
  msgid "PTP OK!"
-@@ -11364,15 +11413,15 @@
+@@ -11364,15 +11385,15 @@
  
  #: camlibs/ptp2/ptp.c:5933
  msgid "PTP General Error"
@@ -4927,7 +4899,7 @@
  
  #: camlibs/ptp2/ptp.c:5936
  msgid "PTP Operation Not Supported"
-@@ -11380,7 +11429,7 @@
+@@ -11380,7 +11401,7 @@
  
  #: camlibs/ptp2/ptp.c:5937
  msgid "PTP Parameter Not Supported"
@@ -4936,7 +4908,7 @@
  
  #: camlibs/ptp2/ptp.c:5938
  msgid "PTP Incomplete Transfer"
-@@ -11388,31 +11437,31 @@
+@@ -11388,31 +11409,31 @@
  
  #: camlibs/ptp2/ptp.c:5939
  msgid "PTP Invalid Storage ID"
@@ -4975,7 +4947,7 @@
  
  #: camlibs/ptp2/ptp.c:5946
  msgid "PTP Access Denied"
-@@ -11420,7 +11469,7 @@
+@@ -11420,7 +11441,7 @@
  
  #: camlibs/ptp2/ptp.c:5947
  msgid "PTP No Thumbnail Present"
@@ -4984,7 +4956,7 @@
  
  #: camlibs/ptp2/ptp.c:5948
  msgid "PTP Self Test Failed"
-@@ -11428,11 +11477,11 @@
+@@ -11428,11 +11449,11 @@
  
  #: camlibs/ptp2/ptp.c:5949
  msgid "PTP Partial Deletion"
@@ -4998,7 +4970,7 @@
  
  #: camlibs/ptp2/ptp.c:5951
  msgid "PTP Specification By Format Unsupported"
-@@ -11440,7 +11489,7 @@
+@@ -11440,7 +11461,7 @@
  
  #: camlibs/ptp2/ptp.c:5952
  msgid "PTP No Valid Object Info"
@@ -5007,7 +4979,7 @@
  
  #: camlibs/ptp2/ptp.c:5953
  msgid "PTP Invalid Code Format"
-@@ -11452,7 +11501,7 @@
+@@ -11452,7 +11473,7 @@
  
  #: camlibs/ptp2/ptp.c:5955
  msgid "PTP Capture Already Terminated"
@@ -5016,7 +4988,7 @@
  
  #: camlibs/ptp2/ptp.c:5956
  msgid "PTP Device Busy"
-@@ -11476,11 +11525,11 @@
+@@ -11476,11 +11497,11 @@
  
  #: camlibs/ptp2/ptp.c:5961
  msgid "PTP Session Already Opened"
@@ -5030,7 +5002,7 @@
  
  #: camlibs/ptp2/ptp.c:5963
  msgid "PTP Specification Of Destination Unsupported"
-@@ -11492,7 +11541,7 @@
+@@ -11492,7 +11513,7 @@
  
  #: camlibs/ptp2/ptp.c:5965
  msgid "No Stream Enabled"
@@ -5039,7 +5011,7 @@
  
  #: camlibs/ptp2/ptp.c:5966
  msgid "Invalid Data Set"
-@@ -11504,7 +11553,7 @@
+@@ -11504,7 +11525,7 @@
  
  #: camlibs/ptp2/ptp.c:5969
  msgid "Filename Conflicts"
@@ -5048,7 +5020,7 @@
  
  #: camlibs/ptp2/ptp.c:5970
  msgid "Filename Invalid"
-@@ -11516,7 +11565,7 @@
+@@ -11516,7 +11537,7 @@
  
  #: camlibs/ptp2/ptp.c:5973
  msgid "Out of Focus"
@@ -5057,7 +5029,7 @@
  
  #: camlibs/ptp2/ptp.c:5974
  msgid "Change Camera Mode Failed"
-@@ -11528,7 +11577,7 @@
+@@ -11528,7 +11549,7 @@
  
  #: camlibs/ptp2/ptp.c:5976
  msgid "Set Property Not Supported"
@@ -5066,7 +5038,7 @@
  
  #: camlibs/ptp2/ptp.c:5977
  msgid "Whitebalance Reset Error"
-@@ -11540,11 +11589,11 @@
+@@ -11540,11 +11561,11 @@
  
  #: camlibs/ptp2/ptp.c:5979
  msgid "Shutter Speed Bulb"
@@ -5080,7 +5052,7 @@
  
  #: camlibs/ptp2/ptp.c:5981
  msgid "Camera Mode Not Adjust FNumber"
-@@ -11552,7 +11601,7 @@
+@@ -11552,7 +11573,7 @@
  
  #: camlibs/ptp2/ptp.c:5982
  msgid "Not in Liveview"
@@ -5089,7 +5061,7 @@
  
  #: camlibs/ptp2/ptp.c:5983
  msgid "Mf Drive Step End"
-@@ -11568,7 +11617,7 @@
+@@ -11568,7 +11589,7 @@
  
  #: camlibs/ptp2/ptp.c:5986
  msgid "No Full HD Present"
@@ -5098,7 +5070,7 @@
  
  #: camlibs/ptp2/ptp.c:5987
  msgid "Store Error"
-@@ -11576,11 +11625,11 @@
+@@ -11576,11 +11597,11 @@
  
  #: camlibs/ptp2/ptp.c:5988
  msgid "Store Unformatted"
@@ -5112,7 +5084,7 @@
  
  #: camlibs/ptp2/ptp.c:5990
  msgid "Silent Release Busy"
-@@ -11612,23 +11661,23 @@
+@@ -11612,23 +11633,23 @@
  
  #: camlibs/ptp2/ptp.c:5998 camlibs/ptp2/ptp.c:6003
  msgid "Operation Refused"
@@ -5141,7 +5113,7 @@
  
  #: camlibs/ptp2/ptp.c:6005
  msgid "Low Battery"
-@@ -11636,7 +11685,7 @@
+@@ -11636,7 +11657,7 @@
  
  #: camlibs/ptp2/ptp.c:6006
  msgid "Object Not Ready"
@@ -5150,7 +5122,7 @@
  
  #: camlibs/ptp2/ptp.c:6007
  msgid "Cannot Make Object"
-@@ -11644,7 +11693,7 @@
+@@ -11644,7 +11665,7 @@
  
  #: camlibs/ptp2/ptp.c:6008
  msgid "Memory Status Not Ready"
@@ -5159,7 +5131,7 @@
  
  #: camlibs/ptp2/ptp.c:6011
  msgid "Invalid ObjectPropCode"
-@@ -11676,7 +11725,7 @@
+@@ -11676,7 +11697,7 @@
  
  #: camlibs/ptp2/ptp.c:6018
  msgid "Object Too Large"
@@ -5168,7 +5140,7 @@
  
  #: camlibs/ptp2/ptp.c:6019
  msgid "ObjectProp Not Supported"
-@@ -11756,7 +11805,7 @@
+@@ -11756,7 +11777,7 @@
  
  #: camlibs/ptp2/ptp.c:6108 camlibs/ptp2/ptp.c:7448 camlibs/ptp2/ptp.c:7546
  msgid "Exposure Bias Compensation"
@@ -5177,7 +5149,7 @@
  
  #: camlibs/ptp2/ptp.c:6110
  msgid "Pre-Capture Delay"
-@@ -11773,19 +11822,19 @@
+@@ -11773,19 +11794,19 @@
  
  #: camlibs/ptp2/ptp.c:6118
  msgid "Timelapse Number"
@@ -5201,7 +5173,7 @@
  
  #: camlibs/ptp2/ptp.c:6124
  msgid "Supported Streams"
-@@ -11797,11 +11846,11 @@
+@@ -11797,11 +11818,11 @@
  
  #: camlibs/ptp2/ptp.c:6134
  msgid "Audio Samplingrate"
@@ -5215,7 +5187,7 @@
  
  #: camlibs/ptp2/ptp.c:6145
  msgid "Date Time Stamp Format"
-@@ -11813,7 +11862,7 @@
+@@ -11813,7 +11834,7 @@
  
  #: camlibs/ptp2/ptp.c:6148
  msgid "Power Saving"
@@ -5224,7 +5196,7 @@
  
  #: camlibs/ptp2/ptp.c:6149
  msgid "UI Language"
-@@ -12281,19 +12330,19 @@
+@@ -12281,19 +12302,19 @@
  
  #: camlibs/ptp2/ptp.c:6709
  msgid "Movie Screen Size"
@@ -5248,7 +5220,7 @@
  
  #: camlibs/ptp2/ptp.c:6721
  msgid "Monitor Off Delay"
-@@ -12313,15 +12362,15 @@
+@@ -12313,15 +12334,15 @@
  
  #: camlibs/ptp2/ptp.c:6729
  msgid "Auto Exposure Bracket Count"
@@ -5267,7 +5239,7 @@
  
  #: camlibs/ptp2/ptp.c:6733
  msgid "Lens ID"
-@@ -12345,11 +12394,11 @@
+@@ -12345,11 +12366,11 @@
  
  #: camlibs/ptp2/ptp.c:6743
  msgid "Max. Aperture at Min. Focal Length"
@@ -5281,7 +5253,7 @@
  
  #: camlibs/ptp2/ptp.c:6747
  msgid "Finder ISO Display"
-@@ -12357,15 +12406,15 @@
+@@ -12357,15 +12378,15 @@
  
  #: camlibs/ptp2/ptp.c:6749
  msgid "Auto Off Photo"
@@ -5300,7 +5272,7 @@
  
  #: camlibs/ptp2/ptp.c:6755
  msgid "Self Timer Shot Number"
-@@ -12373,7 +12422,7 @@
+@@ -12373,7 +12394,7 @@
  
  #: camlibs/ptp2/ptp.c:6757
  msgid "Vignette Control"
@@ -5309,7 +5281,7 @@
  
  #: camlibs/ptp2/ptp.c:6763
  msgid "Nikon Exposure Time"
-@@ -12429,7 +12478,7 @@
+@@ -12429,7 +12450,7 @@
  
  #: camlibs/ptp2/ptp.c:6800
  msgid "Focus Point Bright"
@@ -5318,7 +5290,7 @@
  
  #: camlibs/ptp2/ptp.c:6802
  msgid "External Flash Attached"
-@@ -12441,7 +12490,7 @@
+@@ -12441,7 +12462,7 @@
  
  #: camlibs/ptp2/ptp.c:6806
  msgid "External Flash Sort"
@@ -5327,7 +5299,7 @@
  
  #: camlibs/ptp2/ptp.c:6808 camlibs/ptp2/ptp.c:6812
  msgid "External Flash Mode"
-@@ -12453,11 +12502,11 @@
+@@ -12453,11 +12474,11 @@
  
  #: camlibs/ptp2/ptp.c:6826
  msgid "BW Filler Effect"
@@ -5341,7 +5313,7 @@
  
  #: camlibs/ptp2/ptp.c:6830
  msgid "BW Contrast"
-@@ -12465,11 +12514,11 @@
+@@ -12465,11 +12486,11 @@
  
  #: camlibs/ptp2/ptp.c:6832
  msgid "BW Setting Type"
@@ -5355,7 +5327,7 @@
  
  #: camlibs/ptp2/ptp.c:6836
  msgid "Raw Bit Mode"
-@@ -12517,7 +12566,7 @@
+@@ -12517,7 +12538,7 @@
  
  #: camlibs/ptp2/ptp.c:6880
  msgid "Flash Mode Commander Power"
@@ -5364,7 +5336,7 @@
  
  #: camlibs/ptp2/ptp.c:6882
  msgid "Auto FP"
-@@ -12533,11 +12582,11 @@
+@@ -12533,11 +12554,11 @@
  
  #: camlibs/ptp2/ptp.c:6890
  msgid "ISO Auto High Limit"
@@ -5378,7 +5350,7 @@
  
  #: camlibs/ptp2/ptp.c:6896
  msgid "Info Disp Setting"
-@@ -12545,7 +12594,7 @@
+@@ -12545,7 +12566,7 @@
  
  #: camlibs/ptp2/ptp.c:6898
  msgid "Preview Button"
@@ -5387,7 +5359,7 @@
  
  #: camlibs/ptp2/ptp.c:6900
  msgid "Preview Button 2"
-@@ -12553,7 +12602,7 @@
+@@ -12553,7 +12574,7 @@
  
  #: camlibs/ptp2/ptp.c:6902
  msgid "AEAF Lock Button 2"
@@ -5396,7 +5368,7 @@
  
  #: camlibs/ptp2/ptp.c:6904
  msgid "Indicator Display"
-@@ -12585,15 +12634,15 @@
+@@ -12585,15 +12606,15 @@
  
  #: camlibs/ptp2/ptp.c:6920
  msgid "Exposure Display Status"
@@ -5415,7 +5387,7 @@
  
  #: camlibs/ptp2/ptp.c:6932
  msgid "Flash MRepeat Value"
-@@ -12669,7 +12718,7 @@
+@@ -12669,7 +12690,7 @@
  
  #: camlibs/ptp2/ptp.c:7200
  msgid "PlaysForSure ID"
@@ -5424,7 +5396,7 @@
  
  #: camlibs/ptp2/ptp.c:7210
  msgid "Release Mode"
-@@ -12687,11 +12736,11 @@
+@@ -12687,11 +12708,11 @@
  #, fuzzy
  #| msgid "Tone Compensation"
  msgid "DOC Compensation"
@@ -5438,7 +5410,7 @@
  
  #: camlibs/ptp2/ptp.c:7428
  msgid "Image size"
-@@ -13321,7 +13370,7 @@
+@@ -13321,7 +13342,7 @@
  
  #: camlibs/ptp2/ptp.c:8179
  msgid "Warning Level 1"
@@ -5447,7 +5419,7 @@
  
  #: camlibs/ptp2/ptp.c:8180
  msgid "Emergency"
-@@ -13329,7 +13378,7 @@
+@@ -13329,7 +13350,7 @@
  
  #: camlibs/ptp2/ptp.c:8181
  msgid "Warning Level 0"
@@ -5456,7 +5428,7 @@
  
  #: camlibs/ptp2/ptp.c:8184
  msgid "Economy"
-@@ -13337,11 +13386,11 @@
+@@ -13337,11 +13358,11 @@
  
  #: camlibs/ptp2/ptp.c:8188
  msgid "SuperFine"
@@ -5470,7 +5442,7 @@
  
  #: camlibs/ptp2/ptp.c:8208
  msgid "Low Speed Synchronization"
-@@ -13349,11 +13398,11 @@
+@@ -13349,11 +13370,11 @@
  
  #: camlibs/ptp2/ptp.c:8209
  msgid "Auto + Red Eye Suppression"
@@ -5484,7 +5456,7 @@
  
  #: camlibs/ptp2/ptp.c:8224
  msgid "Distant View"
-@@ -13377,7 +13426,7 @@
+@@ -13377,7 +13398,7 @@
  
  #: camlibs/ptp2/ptp.c:8234
  msgid "Pan Focus"
@@ -5493,7 +5465,7 @@
  
  #: camlibs/ptp2/ptp.c:8238
  msgid "Single-Frame Shooting"
-@@ -13385,15 +13434,15 @@
+@@ -13385,15 +13406,15 @@
  
  #: camlibs/ptp2/ptp.c:8240
  msgid "Timer (Single) Shooting"
@@ -5512,7 +5484,7 @@
  
  #: camlibs/ptp2/ptp.c:8245 camlibs/ricoh/library.c:359
  #: camlibs/sierra/sierra.c:1150 camlibs/sierra/sierra.c:1156
-@@ -13434,7 +13483,7 @@
+@@ -13434,7 +13455,7 @@
  
  #: camlibs/ptp2/ptp.c:8255
  msgid "Spot Metering Interlocked with AF Frame"
@@ -5521,7 +5493,7 @@
  
  #: camlibs/ptp2/ptp.c:8256
  msgid "Multi-Spot Metering"
-@@ -13442,7 +13491,7 @@
+@@ -13442,7 +13463,7 @@
  
  #: camlibs/ptp2/ptp.c:8293
  msgid "Low-speed shutter function not available"
@@ -5530,7 +5502,7 @@
  
  #: camlibs/ptp2/ptp.c:8303 camlibs/ptp2/ptp.c:8309 camlibs/ptp2/ptp.c:8315
  msgid "Low 2"
-@@ -13506,7 +13555,7 @@
+@@ -13506,7 +13527,7 @@
  
  #: camlibs/ptp2/ptp.c:8473
  msgid "Firmware"
@@ -5539,7 +5511,7 @@
  
  #: camlibs/ptp2/ptp.c:8474
  msgid "Windows Image Format"
-@@ -13558,7 +13607,7 @@
+@@ -13558,7 +13579,7 @@
  
  #: camlibs/ptp2/ptp.c:8494
  msgid "Abstract Message Folder"
@@ -5548,7 +5520,7 @@
  
  #: camlibs/ptp2/ptp.c:8495
  msgid "Abstract Chaptered Production"
-@@ -13566,11 +13615,11 @@
+@@ -13566,11 +13587,11 @@
  
  #: camlibs/ptp2/ptp.c:8496
  msgid "Abstract Audio Playlist"
@@ -5562,7 +5534,7 @@
  
  #: camlibs/ptp2/ptp.c:8498
  msgid "Abstract Mediacast"
-@@ -13683,7 +13732,7 @@
+@@ -13683,7 +13704,7 @@
  
  #: camlibs/ptp2/ptp.c:8590
  msgid "Get device info"
@@ -5571,7 +5543,7 @@
  
  #: camlibs/ptp2/ptp.c:8591
  msgid "Open session"
-@@ -14278,7 +14327,7 @@
+@@ -14278,7 +14299,7 @@
  
  #: camlibs/ricoh/library.c:483
  msgid "White level"
@@ -5580,7 +5552,7 @@
  
  #: camlibs/ricoh/library.c:487
  msgid "Record Mode"
-@@ -14296,12 +14345,12 @@
+@@ -14296,12 +14317,12 @@
  #: camlibs/ricoh/ricoh.c:51
  #, c-format
  msgid "Expected %i, got %i. Please report this error to %s."
@@ -5598,19 +5570,16 @@
  
  #: camlibs/ricoh/ricoh.c:164 camlibs/ricoh/ricoh.c:178
  #, c-format
-@@ -14350,7 +14399,10 @@
+@@ -14350,7 +14371,7 @@
  
  #: camlibs/samsung/samsung.c:233
  msgid "The Samsung digimax 800k driver has been written by James McKenzie <james@fishsoup.dhs.org> for gphoto. Lutz Mueller <lutz@users.sourceforge.net> ported it to gphoto2. Marcus Meissner <marcus@jet.franken.de> fixed and enhanced the port."
 -msgstr "Samsung digimax 800k drivrutinen har skrivits av James Mckenzie <james@fishsoup.dhs.org> för gphoto. Lutz Müller <lutz@users.sf.net> konverterade den till gphoto2. Marcus Meïssner <marcus@jet.franken.de> fixade och förbättrade konverteringen."
-+msgstr "Samsung Digimax 800k-drivrutinen skrevs av James McKenzie "
-+"<james@fishsoup.dhs.org> för gphoto. Lutz Mueller "
-+"<lutz@users.sourceforge.net> porterade den till gphoto2. Marcus Meissner "
-+"<marcus@jet.franken.de> rättade och förbättrade porteringen."
++msgstr "Samsung Digimax 800k-drivrutinen skrevs av James McKenzie <james@fishsoup.dhs.org> för gphoto. Lutz Mueller <lutz@users.sourceforge.net> porterade den till gphoto2. Marcus Meissner <marcus@jet.franken.de> rättade och förbättrade porteringen."
  
  #: camlibs/sierra/epson-desc.c:71 camlibs/sierra/nikon-desc.c:79
  #: camlibs/sierra/nikon-desc.c:113 camlibs/sierra/olympus-desc.c:94
-@@ -14361,7 +14413,7 @@
+@@ -14361,7 +14382,7 @@
  #: camlibs/sierra/epson-desc.c:89 camlibs/sierra/nikon-desc.c:131
  #: camlibs/sierra/olympus-desc.c:171
  msgid "Date and time (GMT)"
@@ -5619,7 +5588,7 @@
  
  #: camlibs/sierra/epson-desc.c:113 camlibs/sierra/nikon-desc.c:197
  #: camlibs/sierra/olympus-desc.c:382 camlibs/sierra/olympus-desc.c:414
-@@ -14380,7 +14432,7 @@
+@@ -14380,7 +14401,7 @@
  #: camlibs/sierra/sierra.c:1537 camlibs/sierra/sierra.c:1546
  #: camlibs/sierra/sierra.c:1775
  msgid "Red-eye Reduction"
@@ -5628,7 +5597,7 @@
  
  #: camlibs/sierra/epson-desc.c:146 camlibs/sierra/nikon-desc.c:230
  #: camlibs/sierra/olympus-desc.c:499 camlibs/sierra/olympus-desc.c:518
-@@ -14390,11 +14442,11 @@
+@@ -14390,11 +14411,11 @@
  
  #: camlibs/sierra/epson-desc.c:179 camlibs/sierra/olympus-desc.c:702
  msgid "Host power save (seconds)"
@@ -5642,7 +5611,7 @@
  
  #: camlibs/sierra/epson-desc.c:210 camlibs/sierra/sierra.c:1101
  #: camlibs/sierra/sierra.c:1381 camlibs/sierra/sierra.c:1587
-@@ -14443,7 +14495,7 @@
+@@ -14443,7 +14464,7 @@
  #: camlibs/sierra/epson-desc.c:226 camlibs/sierra/sierra.c:1690
  #: camlibs/sierra/sierra.c:1706 camlibs/sierra/sierra.c:1892
  msgid "Portuguese"
@@ -5651,7 +5620,7 @@
  
  #: camlibs/sierra/epson-desc.c:264 camlibs/sierra/nikon-desc.c:678
  #: camlibs/sierra/nikon-desc.c:689 camlibs/sierra/nikon-desc.c:700
-@@ -14469,13 +14521,13 @@
+@@ -14469,13 +14490,13 @@
  "  * zoom\n"
  "  * fokus\n"
  "  * anpassad vitbalansinställning\n"
@@ -5669,7 +5638,7 @@
  
  #: camlibs/sierra/library.c:289
  msgid "Cannot retrieve the battery capacity"
-@@ -14497,7 +14549,7 @@
+@@ -14497,7 +14518,7 @@
  #: camlibs/sierra/library.c:606
  #, c-format
  msgid "The first byte received (0x%x) is not valid."
@@ -5678,7 +5647,7 @@
  
  #: camlibs/sierra/library.c:732
  #, c-format
-@@ -14520,7 +14572,7 @@
+@@ -14520,7 +14541,7 @@
  
  #: camlibs/sierra/library.c:902
  msgid "Transmission timed out even after 2 retries. Giving up..."
@@ -5687,7 +5656,7 @@
  
  #: camlibs/sierra/library.c:921
  #, c-format
-@@ -14530,7 +14582,7 @@
+@@ -14530,7 +14551,7 @@
  #: camlibs/sierra/library.c:1020
  #, c-format
  msgid "Received unexpected answer (%i). Please contact %s."
@@ -5696,7 +5665,7 @@
  
  #: camlibs/sierra/library.c:1083
  #, c-format
-@@ -14543,7 +14595,7 @@
+@@ -14543,7 +14564,7 @@
  
  #: camlibs/sierra/library.c:1163
  msgid "Sending data..."
@@ -5705,7 +5674,7 @@
  
  #: camlibs/sierra/library.c:1221
  #, c-format
-@@ -14562,12 +14614,12 @@
+@@ -14562,12 +14583,12 @@
  
  #: camlibs/sierra/nikon-desc.c:149 camlibs/sierra/olympus-desc.c:350
  msgid "Shutter Speed microseconds (0 auto)"
@@ -5720,7 +5689,7 @@
  
  #: camlibs/sierra/nikon-desc.c:207 camlibs/sierra/olympus-desc.c:474
  msgid "B/W"
-@@ -14576,7 +14628,7 @@
+@@ -14576,7 +14597,7 @@
  #: camlibs/sierra/nikon-desc.c:224 camlibs/sierra/olympus-desc.c:494
  #: camlibs/sierra/olympus-desc.c:511 camlibs/sierra/olympus-desc.c:530
  msgid "Anti-redeye"
@@ -5729,7 +5698,7 @@
  
  #: camlibs/sierra/nikon-desc.c:225
  msgid "Slow-sync"
-@@ -14614,7 +14666,7 @@
+@@ -14614,7 +14635,7 @@
  
  #: camlibs/sierra/nikon-desc.c:313
  msgid "Infinity"
@@ -5738,7 +5707,7 @@
  
  #: camlibs/sierra/nikon-desc.c:349
  msgid "Preview Thumbnail"
-@@ -14962,7 +15014,7 @@
+@@ -14962,7 +14983,7 @@
  #: camlibs/sierra/sierra.c:1104 camlibs/sierra/sierra.c:1111
  #: camlibs/sierra/sierra.c:1390
  msgid "Infinity/Fish-eye"
@@ -5747,7 +5716,7 @@
  
  #: camlibs/sierra/sierra.c:1125 camlibs/sierra/sierra.c:1400
  msgid "Spot Metering Mode"
-@@ -14983,7 +15035,7 @@
+@@ -14983,7 +15004,7 @@
  #: camlibs/sierra/sierra.c:1179 camlibs/sierra/sierra.c:1436
  #: camlibs/sierra/sierra.c:1655 camlibs/sierra/sierra.c:1853
  msgid "Auto Off (host) (in seconds)"
@@ -5756,7 +5725,7 @@
  
  #: camlibs/sierra/sierra.c:1181 camlibs/sierra/sierra.c:1657
  msgid "How long will it take until the camera powers off when connected to the computer?"
-@@ -14992,19 +15044,20 @@
+@@ -14992,19 +15013,19 @@
  #: camlibs/sierra/sierra.c:1193 camlibs/sierra/sierra.c:1447
  #: camlibs/sierra/sierra.c:1669 camlibs/sierra/sierra.c:1864
  msgid "Auto Off (field) (in seconds)"
@@ -5766,8 +5735,7 @@
  #: camlibs/sierra/sierra.c:1195 camlibs/sierra/sierra.c:1671
  msgid "How long will it take until the camera powers off when not connected to the computer?"
 -msgstr "Hur lång tid tar det tills kameran stänger av sig när den inte ansluten till datorn?"
-+msgstr "Hur lång tid dröjer det innan kameran stängs av när den inte är ansluten till "
-+"datorn?"
++msgstr "Hur lång tid dröjer det innan kameran stängs av när den inte är ansluten till datorn?"
  
  #: camlibs/sierra/sierra.c:1217 camlibs/sierra/sierra.c:1468
  msgid "LCD Auto Off (in seconds)"
@@ -5781,7 +5749,7 @@
  
  #: camlibs/sierra/sierra.c:1500 camlibs/sierra/sierra.c:1508
  #: camlibs/sierra/sierra.c:1744
-@@ -15049,7 +15102,7 @@
+@@ -15049,7 +15070,7 @@
  #: camlibs/sierra/sierra.c:1633 camlibs/sierra/sierra.c:1636
  #: camlibs/sierra/sierra.c:1842
  msgid "color"
@@ -5790,7 +5758,7 @@
  
  #: camlibs/sierra/sierra.c:1634 camlibs/sierra/sierra.c:1638
  #: camlibs/sierra/sierra.c:1844
-@@ -15058,7 +15111,7 @@
+@@ -15058,7 +15079,7 @@
  
  #: camlibs/sierra/sierra.c:1950
  msgid "Note: no memory card present, some values may be invalid\n"
@@ -5799,7 +5767,7 @@
  
  #: camlibs/sierra/sierra.c:1959
  #, c-format
-@@ -15102,7 +15155,7 @@
+@@ -15102,7 +15123,7 @@
  
  #: camlibs/sierra/sierra.c:2052
  msgid "No camera manual available.\n"
@@ -5808,7 +5776,7 @@
  
  #: camlibs/sierra/sierra.c:2059
  #, c-format
-@@ -15121,9 +15174,9 @@
+@@ -15121,9 +15142,9 @@
  "  * zoom\n"
  "  * fokus\n"
  "  * anpassad vitbalansinställning\n"
@@ -5821,7 +5789,7 @@
  
  #: camlibs/sierra/sierra.c:2071
  msgid ""
-@@ -15191,7 +15244,7 @@
+@@ -15191,7 +15212,7 @@
  
  #: camlibs/sipix/blink.c:983 camlibs/stv0674/stv0674.c:240
  msgid "Could not apply USB settings"
@@ -5830,7 +5798,7 @@
  
  #: camlibs/sipix/web2.c:616
  msgid ""
-@@ -15201,7 +15254,7 @@
+@@ -15201,7 +15222,7 @@
  msgstr ""
  "SiPix Web2\n"
  "Marcus Meissner <marcus@jet.franken.de>\n"
@@ -5839,7 +5807,7 @@
  
  #: camlibs/smal/smal.c:152
  msgid ""
-@@ -15242,17 +15295,17 @@
+@@ -15242,17 +15263,17 @@
  "Thumbnails for AVIs are still photos made from the first frame.\n"
  "A single image cannot be deleted unless it is the last one.\n"
  msgstr ""
@@ -5867,7 +5835,7 @@
  
  #: camlibs/sonix/library.c:138
  msgid ""
-@@ -15582,7 +15635,7 @@
+@@ -15582,7 +15603,7 @@
  
  #: camlibs/sx330z/library.c:263
  msgid "sx330z is USB only"
@@ -5876,7 +5844,7 @@
  
  #: camlibs/topfield/puppy.c:531
  msgid "Driver Settings"
-@@ -15601,7 +15654,7 @@
+@@ -15601,7 +15622,7 @@
  msgstr ""
  "Topfield TF5000PVR\n"
  "Marcus Meissner <marcus@jet.franken.de>\n"
@@ -5885,7 +5853,7 @@
  "Porterat från puppy (c) Peter Urbanec <toppy at urbanec.net>\n"
  
  #: camlibs/topfield/puppy.c:638
-@@ -15630,9 +15683,9 @@
+@@ -15630,9 +15651,9 @@
  "The gphoto driver for these devices allows you to download,\n"
  "upload and delete pictures from the picture frame."
  msgstr ""
@@ -5897,7 +5865,7 @@
  
  #: camlibs/tp6801/library.c:106
  msgid ""
-@@ -15643,22 +15696,22 @@
+@@ -15643,22 +15664,22 @@
  msgstr ""
  "TP6801 USB-bildramsdrivrutin\n"
  "Hans de Goede <hdegoede@redhat.com>\n"
@@ -5924,7 +5892,7 @@
  
  #: libgphoto2/gphoto2-camera.c:714
  msgid "Could not detect any camera"
-@@ -15710,7 +15763,7 @@
+@@ -15710,7 +15731,7 @@
  
  #: libgphoto2/gphoto2-camera.c:1361
  msgid "This camera can not trigger capture."

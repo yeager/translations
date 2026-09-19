@@ -139,17 +139,16 @@
  
  #: lib/gai_strerror.c:87
  msgid "Unknown error"
-@@ -603,7 +603,8 @@
+@@ -603,7 +603,7 @@
  #: lib/javacomp.c:103
  #, c-format
  msgid "The java program is too old. Cannot compile Java code for this old version any more."
 -msgstr "Javaprogrammet är för gammalt. Kan inte kompilera Javakod för denna gamla version längre."
-+msgstr "Java-programmet är för gammalt. Kan inte längre kompilera Java-kod för denna "
-+"gamla version."
++msgstr "Java-programmet är för gammalt. Kan inte längre kompilera Java-kod för denna gamla version."
  
  #: lib/javacomp.c:147
  #, c-format
-@@ -618,7 +619,7 @@
+@@ -618,7 +618,7 @@
  #: lib/javacomp.c:1131
  #, c-format
  msgid "Java compiler not found, try setting $JAVAC"
@@ -158,7 +157,7 @@
  
  #: lib/javaexec.c:309
  #, c-format
-@@ -628,7 +629,7 @@
+@@ -628,7 +628,7 @@
  #: lib/mkdir-p.c:162
  #, c-format
  msgid "cannot stat %s"
@@ -167,7 +166,7 @@
  
  #: lib/mkdir-p.c:190
  #, c-format
-@@ -643,7 +644,7 @@
+@@ -643,7 +643,7 @@
  #: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34 lib/xsetenv.c:37
  #, c-format
  msgid "memory exhausted"
@@ -176,7 +175,7 @@
  
  #: lib/openat-die.c:38
  #, c-format
-@@ -663,12 +664,12 @@
+@@ -663,12 +663,12 @@
  #: lib/os2-spawn.c:88
  #, c-format
  msgid "cannot restore fd %d: dup2 failed"
@@ -191,7 +190,7 @@
  
  #: lib/parse-datetime.y:434 lib/parse-datetime.y:534
  #, c-format
-@@ -692,7 +693,7 @@
+@@ -692,7 +692,7 @@
  
  #: lib/parse-datetime.y:541
  msgid "today/this/now\n"
@@ -200,7 +199,7 @@
  
  #: lib/parse-datetime.y:606
  msgid "number of seconds"
-@@ -700,7 +701,7 @@
+@@ -700,7 +700,7 @@
  
  #: lib/parse-datetime.y:619
  msgid "datetime"
@@ -209,7 +208,7 @@
  
  #: lib/parse-datetime.y:624
  msgid "time"
-@@ -737,7 +738,7 @@
+@@ -737,7 +737,7 @@
  #: lib/parse-datetime.y:819
  #, c-format
  msgid "warning: value %<PRIdMAX> has %<PRIdMAX> digits. Assuming YYYY/MM/DD\n"
@@ -218,7 +217,7 @@
  
  #: lib/parse-datetime.y:831
  #, c-format
-@@ -787,7 +788,7 @@
+@@ -787,7 +787,7 @@
  
  #: lib/parse-datetime.y:1724
  msgid "       numeric values overflow;\n"
@@ -227,7 +226,7 @@
  
  #: lib/parse-datetime.y:1725
  msgid "incorrect timezone"
-@@ -842,16 +843,16 @@
+@@ -842,16 +842,16 @@
  #: lib/parse-datetime.y:1932
  #, c-format
  msgid "system default"
@@ -247,7 +246,7 @@
  
  #: lib/parse-datetime.y:1993
  #, c-format
-@@ -866,7 +867,7 @@
+@@ -866,7 +866,7 @@
  #: lib/parse-datetime.y:2048
  #, c-format
  msgid "error: tzalloc (\"%s\") failed\n"
@@ -256,7 +255,7 @@
  
  #: lib/parse-datetime.y:2092
  #, c-format
-@@ -942,7 +943,7 @@
+@@ -942,7 +942,7 @@
  #: lib/parse-datetime.y:2245
  #, c-format
  msgid "error: timezone %d caused time_t overflow\n"
@@ -265,7 +264,7 @@
  
  #: lib/parse-datetime.y:2255
  #, c-format
-@@ -951,7 +952,7 @@
+@@ -951,7 +951,7 @@
  
  #: lib/parse-datetime.y:2283
  msgid "error: adding relative time caused an overflow\n"
@@ -274,7 +273,7 @@
  
  #: lib/parse-datetime.y:2294
  #, c-format
-@@ -998,47 +999,47 @@
+@@ -998,47 +998,47 @@
  #: lib/parse-datetime.y:2359
  #, c-format
  msgid "final: %s (unknown time zone offset)\n"
@@ -331,7 +330,7 @@
  
  #. TRANSLATORS:
  #. Get translations for open and closing quotation marks.
-@@ -1119,7 +1120,7 @@
+@@ -1119,7 +1119,7 @@
  
  #: lib/regcomp.c:158
  msgid "Memory exhausted"
@@ -340,7 +339,7 @@
  
  #: lib/regcomp.c:161
  msgid "Invalid preceding regular expression"
-@@ -1168,7 +1169,7 @@
+@@ -1168,7 +1168,7 @@
  
  #: lib/siglist.h:31
  msgid "Hangup"
@@ -349,7 +348,7 @@
  
  #: lib/siglist.h:34
  msgid "Interrupt"
-@@ -1176,7 +1177,7 @@
+@@ -1176,7 +1176,7 @@
  
  #: lib/siglist.h:37
  msgid "Quit"
@@ -358,7 +357,7 @@
  
  #: lib/siglist.h:40
  msgid "Illegal instruction"
-@@ -1236,7 +1237,7 @@
+@@ -1236,7 +1236,7 @@
  
  #: lib/siglist.h:82
  msgid "Child exited"
@@ -367,7 +366,7 @@
  
  #: lib/siglist.h:85
  msgid "Stopped (tty input)"
-@@ -1248,27 +1249,27 @@
+@@ -1248,27 +1248,27 @@
  
  #: lib/siglist.h:91
  msgid "I/O possible"
@@ -401,7 +400,7 @@
  
  #: lib/siglist.h:109
  msgid "User defined signal 1"
-@@ -1280,7 +1281,7 @@
+@@ -1280,7 +1280,7 @@
  
  #: lib/siglist.h:117
  msgid "EMT trap"
@@ -410,7 +409,7 @@
  
  #: lib/siglist.h:120
  msgid "Bad system call"
-@@ -1327,27 +1328,27 @@
+@@ -1327,27 +1327,27 @@
  
  #: lib/timevar.c:318
  msgid "CPU user"
@@ -444,7 +443,7 @@
  
  #: lib/unicodeio.c:191
  #, c-format
-@@ -1401,7 +1402,7 @@
+@@ -1401,7 +1401,7 @@
  "There is NO WARRANTY, to the extent permitted by law.\n"
  msgstr ""
  "Licens GPLv3+: GNU GPL version 3 eller senare <%s>.\n"
@@ -453,7 +452,7 @@
  "Det finns INGEN GARANTI, så långt lagen tillåter.\n"
  
  #. TRANSLATORS: %s denotes an author name.
-@@ -1521,7 +1522,7 @@
+@@ -1521,7 +1521,7 @@
  msgid "Report bugs to: %s\n"
  msgstr ""
  "Rapportera fel till: %s\n"
@@ -462,7 +461,7 @@
  
  #: lib/version-etc.c:251
  #, c-format
-@@ -1551,19 +1552,19 @@
+@@ -1551,19 +1551,19 @@
  #: lib/xbinary-io.c:36
  #, c-format
  msgid "failed to set file descriptor text/binary mode"
@@ -486,7 +485,7 @@
  
  #: lib/xfreopen.c:37
  msgid "unknown stream"
-@@ -1597,7 +1598,7 @@
+@@ -1597,7 +1597,7 @@
  #: lib/xstdopen.c:34
  #, c-format
  msgid "standard file descriptors"

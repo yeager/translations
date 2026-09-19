@@ -24,55 +24,46 @@
  
  #: libidu/scanners.c:229
  #, c-format
-@@ -311,9 +311,12 @@
+@@ -311,9 +311,9 @@
  "  -u,--strip-underscore  Strip a leading underscore from single-token strings\n"
  msgstr ""
  "Språket C:\n"
 -"  -k,--keep=TECKEN       Tillåt TECKEN i ensymbolssträngar, behåll resultatet\n"
 -"  -i,--ignore=TECKEN     Tillåt TECKEN i ensymbolssträngar, släng resultatet\n"
 -"  -u,--strip-underscore  Ta bort inledande understreck från ensymbolssträngar\n"
-+"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll "
-+"resultatet\n"
-+"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta "
-+"resultatet\n"
-+"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med "
-+"ett enda token\n"
++"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll resultatet\n"
++"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta resultatet\n"
++"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med ett enda token\n"
  
  #: libidu/scanners.c:459
  #, c-format
-@@ -324,9 +327,12 @@
+@@ -324,9 +324,9 @@
  "  -u,--strip-underscore  Strip a leading underscore from single-token strings\n"
  msgstr ""
  "Språket C++:\n"
 -"  -k,--keep=TECKEN       Tillåt TECKEN i ensymbolssträngar, behåll resultatet\n"
 -"  -i,--ignore=TECKEN     Tillåt TECKEN i ensymbolssträngar, släng resultatet\n"
 -"  -u,--strip-underscore  Ta bort inledande understreck från ensymbolssträngar\n"
-+"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll "
-+"resultatet\n"
-+"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta "
-+"resultatet\n"
-+"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med "
-+"ett enda token\n"
++"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll resultatet\n"
++"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta resultatet\n"
++"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med ett enda token\n"
  
  #: libidu/scanners.c:470
  #, c-format
-@@ -337,9 +343,12 @@
+@@ -337,9 +337,9 @@
  "  -u,--strip-underscore  Strip a leading underscore from single-token strings\n"
  msgstr ""
  "Språket Java:\n"
 -"  -k,--keep=TECKEN       Tillåt TECKEN i ensymbolssträngar, behåll resultatet\n"
 -"  -i,--ignore=TECKEN     Tillåt TECKEN i ensymbolssträngar, släng resultatet\n"
 -"  -u,--strip-underscore  Ta bort inledande understreck från ensymbolssträngar\n"
-+"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll "
-+"resultatet\n"
-+"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta "
-+"resultatet\n"
-+"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med "
-+"ett enda token\n"
++"  -k,--keep=TECKEN       Tillåt TECKEN i strängar med ett enda token, behåll resultatet\n"
++"  -i,--ignore=TECKEN     Tillåt TECKEN i strängar med ett enda token, kasta resultatet\n"
++"  -u,--strip-underscore  Ta bort ett inledande understreck från strängar med ett enda token\n"
  
  #: libidu/scanners.c:753 libidu/scanners.c:1022 libidu/scanners.c:1225
  #: libidu/scanners.c:1495
-@@ -364,12 +373,12 @@
+@@ -364,12 +364,12 @@
  "  -n,--no-cpp            Don't handle C pre-processor directives\n"
  msgstr ""
  "Assemblerspråk:\n"
@@ -91,7 +82,7 @@
  
  #: libidu/scanners.c:1128
  #, c-format
-@@ -379,9 +388,10 @@
+@@ -379,9 +379,9 @@
  "  -x,--exclude=CHAR-CLASS  Treat characters of CHAR-CLASS as token delimiters\n"
  msgstr ""
  "Textspråk:\n"
@@ -100,12 +91,11 @@
 -"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som symbolavgränsare\n"
 +"  -i,--include=TECKENKLASS  Behandla tecken i TECKENKLASS som "
 +"delar av token\n"
-+"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som avgränsare för "
-+"token\n"
++"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som avgränsare för token\n"
  
  #: libidu/scanners.c:1333
  #, c-format
-@@ -392,9 +402,10 @@
+@@ -392,9 +392,9 @@
  "  -d,--dtags  Include documentation tags\n"
  msgstr ""
  "Språket Perl:\n"
@@ -114,12 +104,11 @@
 -"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som symbolavgränsare\n"
 +"  -i,--include=TECKENKLASS  Behandla tecken i TECKENKLASS som "
 +"delar av token\n"
-+"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som avgränsare för "
-+"token\n"
++"  -x,--exclude=TECKENKLASS  Behandla tecken i TECKENKLASS som avgränsare för token\n"
  "  -d,--dtags  Inkludera dokumentationstaggar\n"
  
  #: libidu/scanners.c:1596
-@@ -423,12 +434,12 @@
+@@ -423,12 +423,12 @@
  #: libidu/walker.c:319
  #, c-format
  msgid "warning: `%s' and `%s' are the same file, but yield different scans!"
@@ -134,7 +123,7 @@
  
  #: libidu/walker.c:495 libidu/walker.c:503
  #, c-format
-@@ -538,7 +549,7 @@
+@@ -538,7 +538,7 @@
  "      --version          output version information and exit\n"
  msgstr ""
  "Skriv ut namnen på de filer vars innehåll matchar MÖNSTER,\n"
@@ -143,7 +132,7 @@
  "  -f, --file=FIL         ID-databasens filnamn\n"
  "  -S, --separator=STIL   STIL är en av ”braces”, ”space” eller ”newline”\n"
  "      --help             visa denna hjälp och avsluta\n"
-@@ -589,7 +600,7 @@
+@@ -589,7 +589,7 @@
  msgstr ""
  "Fråga ID-databasen och rapportera resultat.\n"
  "Som standard består utdata av flera rader där varje rad innehåller den\n"
@@ -152,19 +141,18 @@
  "den förekommer.\n"
  "\n"
  "  -f, --file=FIL        ID-databasens filnamn\n"
-@@ -600,8 +611,9 @@
+@@ -600,8 +600,8 @@
  "  -w, --word            matcha MÖNSTER som ett avgränsat ord\n"
  "  -s, --substring       matcha MÖNSTER som en delsträng\n"
  "            Observera: Om MÖNSTER innehåller metatecken för utökade\n"
 -"            reguljära uttryck tolkas det som en reguljär uttrycksdelsträng.\n"
 -"            Annars betraktas det som en ordagrann sträng.\n"
-+"            reguljära uttryck tolkas det som en delsträng med reguljärt "
-+"uttryck.\n"
++"            reguljära uttryck tolkas det som en delsträng med reguljärt uttryck.\n"
 +"            Annars tolkas MÖNSTER som ett ordagrant ord.\n"
  "\n"
  "  -k, --key=STIL        STIL är en av ”token”, ”pattern” eller ”none”\n"
  "  -R, --result=STIL     STIL är en av ”filenames”, ”grep”, ”edit” eller ”none”\n"
-@@ -610,18 +622,18 @@
+@@ -610,18 +610,18 @@
  "            STIL-flaggorna ovan bestämmer hur frågeresultat presenteras.\n"
  "            Standardvärden är --key=token --result=filenames --separator=%s\n"
  "\n"
@@ -187,7 +175,7 @@
  
  #: src/lid.c:283
  msgid "braces"
-@@ -634,7 +646,7 @@
+@@ -634,7 +634,7 @@
  #: src/lid.c:377
  #, c-format
  msgid "notice: use of `-e' is deprecated, use `-r' instead"
@@ -196,7 +184,7 @@
  
  #: src/lid.c:460
  #, c-format
-@@ -654,7 +666,7 @@
+@@ -654,7 +654,7 @@
  #: src/lid.c:608 src/lid.c:929
  #, c-format
  msgid "can't match regular-expression: memory exhausted"
@@ -205,7 +193,7 @@
  
  #: src/lid.c:697
  #, c-format
-@@ -664,7 +676,7 @@
+@@ -664,7 +664,7 @@
  #: src/lid.c:766
  #, c-format
  msgid "can't fork"
@@ -214,7 +202,7 @@
  
  #: src/lid.c:788
  #, c-format
-@@ -704,11 +716,11 @@
+@@ -704,11 +704,11 @@
  "The following arguments apply to the language-specific scanners:\n"
  msgstr ""
  "Bygg en databas över identifierare.\n"
@@ -231,7 +219,7 @@
  "  -m, --lang-map=TABELLFIL använd TABELLFIL för att associera filnamn med\n"
  "                           rätt källkodsspråk\n"
  "  -d, --default-lang=SPRÅK använd SPRÅK som standardspråk\n"
-@@ -719,14 +731,14 @@
+@@ -719,14 +719,14 @@
  "      --files0-from=F      tolka endast filerna med NUL-terminerade filnamn i F\n"
  "\n"
  "      --help               visa denna hjälp och avsluta\n"
@@ -251,7 +239,7 @@
  
  #: src/mkid.c:317 src/xtokid.c:193
  #, c-format
-@@ -750,7 +762,7 @@
+@@ -750,7 +750,7 @@
  #: src/mkid.c:372 src/xtokid.c:247
  #, c-format
  msgid "when reading file names from stdin, no file name of %s allowed"
@@ -260,7 +248,7 @@
  
  #: src/mkid.c:386 src/mkid.c:394 src/xtokid.c:261 src/xtokid.c:269
  msgid "invalid zero-length file name"
-@@ -829,7 +841,7 @@
+@@ -829,7 +829,7 @@
  #: src/mkid.c:672
  #, c-format
  msgid "Output=%lu (%lu tok, %lu hit)\n"

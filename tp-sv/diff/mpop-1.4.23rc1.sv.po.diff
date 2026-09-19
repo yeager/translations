@@ -18,17 +18,16 @@
  
  #: src/conf.c:1674
  #, c-format
-@@ -122,7 +122,8 @@
+@@ -122,7 +122,7 @@
  #: src/conf.c:1734
  #, c-format
  msgid "contains secrets and therefore must have no more than user read/write permissions"
 -msgstr "innehåller hemligheter och får därför inte ha mer än användarens läs-/skrivbehörighet"
-+msgstr "innehåller hemligheter och får därför endast ha läs- och skrivbehörighet för "
-+"användaren"
++msgstr "innehåller hemligheter och får därför endast ha läs- och skrivbehörighet för användaren"
  
  #: src/delivery.c:82
  msgid "EX_OK: no error"
-@@ -166,11 +167,11 @@
+@@ -166,11 +166,11 @@
  
  #: src/delivery.c:112
  msgid "EX_CANTCREAT: cannot create output file"
@@ -42,7 +41,7 @@
  
  #: src/delivery.c:118
  msgid "EX_TEMPFAIL: temporary failure"
-@@ -221,7 +222,7 @@
+@@ -221,7 +221,7 @@
  #: src/delivery.c:382 src/delivery.c:541
  #, c-format
  msgid "cannot open %s%c%s: %s"
@@ -51,7 +50,7 @@
  
  #: src/delivery.c:397 src/delivery.c:567
  #, c-format
-@@ -283,7 +284,7 @@
+@@ -283,7 +283,7 @@
  #: src/mpop.c:94
  #, c-format
  msgid "%s: FATAL: %s\n"
@@ -60,7 +59,7 @@
  
  #: src/mpop.c:235 src/mpop.c:735
  #, c-format
-@@ -293,27 +294,27 @@
+@@ -293,27 +293,27 @@
  #: src/mpop.c:305
  #, c-format
  msgid "POP3 server at %s (%s [%s]), port %d:\n"
@@ -93,7 +92,7 @@
  
  #: src/mpop.c:340
  msgid "Support for the CAPA command (get list of capabilities)"
-@@ -369,7 +370,7 @@
+@@ -369,7 +369,7 @@
  
  #: src/mpop.c:451 src/mpop.c:457
  msgid "Server error messages in square brackets have a special meaning"
@@ -102,7 +101,7 @@
  
  #: src/mpop.c:466
  #, c-format
-@@ -395,8 +396,8 @@
+@@ -395,8 +395,8 @@
  "This server does not support the CAPA command, so this\n"
  "    list is probably not complete.\n"
  msgstr ""
@@ -113,7 +112,7 @@
  
  #: src/mpop.c:510
  #, c-format
-@@ -426,7 +427,7 @@
+@@ -426,7 +426,7 @@
  #: src/mpop.c:543
  #, c-format
  msgid "skipping message %ld of %ld (reason: filter + keep)\n"
@@ -122,7 +121,7 @@
  
  #: src/mpop.c:548
  #, c-format
-@@ -436,7 +437,7 @@
+@@ -436,7 +436,7 @@
  #: src/mpop.c:554
  #, c-format
  msgid "skipping message %ld of %ld (reason: filter)\n"
@@ -131,7 +130,7 @@
  
  #: src/mpop.c:563
  #, c-format
-@@ -446,7 +447,7 @@
+@@ -446,7 +446,7 @@
  #: src/mpop.c:568
  #, c-format
  msgid "retrieving message %ld of %ld: "
@@ -140,7 +139,7 @@
  
  #: src/mpop.c:779 src/mpop.c:833 src/mpop.c:856 src/mpop.c:1013
  #: src/mtls-gnutls.c:648 src/mtls-gnutls.c:695 src/mtls-openssl.c:866
-@@ -495,17 +496,17 @@
+@@ -495,17 +495,17 @@
  #: src/mpop.c:981
  #, c-format
  msgid "skipping message %ld of %ld (reason: killsize + keep)\n"
@@ -161,7 +160,7 @@
  
  #: src/mpop.c:1023
  #, c-format
-@@ -533,15 +534,15 @@
+@@ -533,15 +533,15 @@
  
  #: src/mpop.c:1263
  msgid "warning: the host does not match the mail domain; please check"
@@ -180,7 +179,7 @@
  
  #: src/mpop.c:1275
  msgid "adjust the delivery command"
-@@ -579,7 +580,7 @@
+@@ -579,7 +579,7 @@
  #: src/mpop.c:1428
  #, c-format
  msgid "cannot clean up after delivery: %s"
@@ -189,7 +188,7 @@
  
  #: src/mpop.c:1465
  #, c-format
-@@ -607,7 +608,7 @@
+@@ -607,7 +607,7 @@
  #: src/mpop.c:2331
  #, c-format
  msgid "Platform: %s\n"
@@ -198,7 +197,7 @@
  
  #: src/mpop.c:2333
  #, c-format
-@@ -639,7 +640,7 @@
+@@ -639,7 +639,7 @@
  #: src/mpop.c:2385
  #, c-format
  msgid "IDN support: "
@@ -207,7 +206,7 @@
  
  #: src/mpop.c:2389 src/mpop.c:2397
  #, c-format
-@@ -659,7 +660,7 @@
+@@ -659,7 +659,7 @@
  #: src/mpop.c:2398
  #, c-format
  msgid ", LOCALEDIR is %s"
@@ -216,7 +215,7 @@
  
  #: src/mpop.c:2403
  #, c-format
-@@ -679,7 +680,7 @@
+@@ -679,7 +679,7 @@
  #: src/mpop.c:2417
  #, c-format
  msgid "Configuration file name: %s\n"
@@ -225,7 +224,7 @@
  
  #: src/mpop.c:2421
  #, c-format
-@@ -690,9 +691,9 @@
+@@ -690,9 +690,9 @@
  "There is NO WARRANTY, to the extent permitted by law.\n"
  msgstr ""
  "Copyright (C) %d Martin Lambers och andra.\n"
@@ -237,7 +236,7 @@
  
  #: src/mpop.c:2430
  #, c-format
-@@ -713,10 +714,10 @@
+@@ -713,10 +713,10 @@
  "  Read mails from one or more POP3 accounts and deliver them.\n"
  msgstr ""
  "E-posthämtningsläge (standard):\n"
@@ -252,7 +251,7 @@
  
  #: src/mpop.c:2437
  #, c-format
-@@ -739,15 +740,15 @@
+@@ -739,15 +739,15 @@
  "\n"
  msgstr ""
  "Serverinformationsläge:\n"
@@ -272,17 +271,16 @@
  
  #: src/mpop.c:2445
  #, c-format
-@@ -777,7 +778,8 @@
+@@ -777,7 +777,7 @@
  #: src/mpop.c:2450
  #, c-format
  msgid "  --configure=mailaddress      generate and print configuration for address\n"
 -msgstr "  --configure=e-postaddress      generera och skriva ut konfiguration för adress\n"
-+msgstr "  --configure=mailaddress      generera och skriv ut konfiguration för "
-+"adress\n"
++msgstr "  --configure=mailaddress      generera och skriv ut konfiguration för adress\n"
  
  #: src/mpop.c:2451
  #, c-format
-@@ -787,7 +789,7 @@
+@@ -787,7 +787,7 @@
  #: src/mpop.c:2452
  #, c-format
  msgid "Configuration options:\n"
@@ -291,7 +289,7 @@
  
  #: src/mpop.c:2453
  #, c-format
-@@ -806,12 +808,13 @@
+@@ -806,12 +806,12 @@
  #: src/mpop.c:2456
  #, c-format
  msgid "  --port=number                set port number\n"
@@ -302,12 +300,11 @@
  #, c-format
  msgid "  --source-ip=[IP]             set/unset source ip address to bind the socket to\n"
 -msgstr "  --source-ip=[IP]             ställ in/avaktivera källans ip-adress för att binda uttaget till\n"
-+msgstr "  --source-ip=[IP]             ange/ta bort lokal IP-adress att binda uttaget "
-+"till\n"
++msgstr "  --source-ip=[IP]             ange/ta bort lokal IP-adress att binda uttaget till\n"
  
  #: src/mpop.c:2458
  #, c-format
-@@ -826,7 +829,7 @@
+@@ -826,7 +826,7 @@
  #: src/mpop.c:2460
  #, c-format
  msgid "  --socket=[socketname]        set/unset local socket to connect to\n"
@@ -316,7 +313,7 @@
  
  #: src/mpop.c:2461
  #, c-format
-@@ -841,7 +844,7 @@
+@@ -841,7 +841,7 @@
  #: src/mpop.c:2463
  #, c-format
  msgid "  --received-header[=(on|off)] enable/disable Received-header\n"
@@ -325,7 +322,7 @@
  
  #: src/mpop.c:2464
  #, c-format
-@@ -861,7 +864,7 @@
+@@ -861,7 +861,7 @@
  #: src/mpop.c:2467
  #, c-format
  msgid "  --tls[=(on|off)]             enable/disable TLS encryption\n"
@@ -334,7 +331,7 @@
  
  #: src/mpop.c:2468
  #, c-format
-@@ -916,7 +919,7 @@
+@@ -916,7 +916,7 @@
  #: src/mpop.c:2478
  #, c-format
  msgid "Options specific to mail retrieval mode:\n"
@@ -343,7 +340,7 @@
  
  #: src/mpop.c:2479
  #, c-format
-@@ -936,7 +939,7 @@
+@@ -936,7 +936,7 @@
  #: src/mpop.c:2482
  #, c-format
  msgid "  -A, --auth-only              authenticate only; do not retrieve mail\n"
@@ -352,7 +349,7 @@
  
  #: src/mpop.c:2483
  #, c-format
-@@ -956,12 +959,12 @@
+@@ -956,12 +956,12 @@
  #: src/mpop.c:2486
  #, c-format
  msgid "  --killsize=(off|number)      set/unset kill size\n"
@@ -367,7 +364,7 @@
  
  #: src/mpop.c:2488
  #, c-format
-@@ -985,7 +988,7 @@
+@@ -985,7 +985,7 @@
  "Report bugs to <%s>.\n"
  msgstr ""
  "\n"
@@ -376,7 +373,7 @@
  
  #: src/mpop.c:2507
  msgid "--mda requires --delivery"
-@@ -997,7 +1000,7 @@
+@@ -997,7 +997,7 @@
  
  #: src/mpop.c:2535
  msgid "cannot use both --host and accounts"
@@ -385,7 +382,7 @@
  
  #: src/mpop.c:2541
  msgid "cannot use both --all-accounts and a list of accounts"
-@@ -1038,7 +1041,7 @@
+@@ -1038,7 +1038,7 @@
  #: src/mpop.c:2698
  #, c-format
  msgid "1 second\n"
@@ -394,7 +391,7 @@
  
  #: src/mpop.c:2702
  #, c-format
-@@ -1071,7 +1074,7 @@
+@@ -1071,7 +1071,7 @@
  #: src/mpop.c:2843
  #, c-format
  msgid "support for authentication method %s is not compiled in"
@@ -403,7 +400,7 @@
  
  #: src/mpop.c:2855
  #, c-format
-@@ -1090,7 +1093,7 @@
+@@ -1090,7 +1090,7 @@
  #: src/mpop.c:2940
  #, c-format
  msgid "POP3 server message: %s"
@@ -412,7 +409,7 @@
  
  #: src/mpop.c:2949
  #, c-format
-@@ -1108,7 +1111,7 @@
+@@ -1108,7 +1108,7 @@
  
  #: src/mtls.c:146
  msgid "not available"
@@ -421,7 +418,7 @@
  
  #: src/mtls.c:154
  #, c-format
-@@ -1141,7 +1144,7 @@
+@@ -1141,7 +1141,7 @@
  
  #: src/mtls-gnutls.c:121 src/mtls-libtls.c:105 src/mtls-openssl.c:285
  msgid "cannot get TLS certificate info"
@@ -430,7 +427,7 @@
  
  #: src/mtls-gnutls.c:126 src/mtls-gnutls.c:242 src/mtls-openssl.c:288
  #, c-format
-@@ -1261,7 +1264,7 @@
+@@ -1261,7 +1261,7 @@
  #: src/mtls-gnutls.c:568 src/mtls-libtls.c:410
  #, c-format
  msgid "TLS handshake failed: %s"
@@ -439,7 +436,7 @@
  
  #: src/mtls-gnutls.c:652 src/mtls-libtls.c:497
  #, c-format
-@@ -1286,7 +1289,7 @@
+@@ -1286,7 +1286,7 @@
  #: src/mtls-libtls.c:223
  #, c-format
  msgid "cannot use deprecated fingerprints, please update to SHA256"
@@ -448,7 +445,7 @@
  
  #: src/mtls-libtls.c:231 src/mtls-openssl.c:649
  #, c-format
-@@ -1295,7 +1298,7 @@
+@@ -1295,7 +1295,7 @@
  
  #: src/mtls-libtls.c:232
  msgid "feature not yet implemented for libtls"
@@ -457,7 +454,7 @@
  
  #: src/mtls-libtls.c:288
  msgid "could not parse protocols"
-@@ -1309,12 +1312,13 @@
+@@ -1309,12 +1309,12 @@
  #: src/mtls-libtls.c:402 src/mtls-openssl.c:853
  #, c-format
  msgid "cannot set the file descriptor for TLS: %s"
@@ -468,12 +465,11 @@
  #, c-format
  msgid "no environment variables RANDFILE or HOME, or filename of rand file too long"
 -msgstr "inga miljövariabler RANDFILE eller HOME, eller filnamnet på rand-filen för långt"
-+msgstr "varken miljövariabeln RANDFILE eller HOME finns, eller så är rand-filens namn "
-+"för långt"
++msgstr "varken miljövariabeln RANDFILE eller HOME finns, eller så är rand-filens namn för långt"
  
  #: src/mtls-openssl.c:98 src/uidls.c:380
  #, c-format
-@@ -1324,17 +1328,17 @@
+@@ -1324,17 +1324,17 @@
  #: src/mtls-openssl.c:120
  #, c-format
  msgid "random file + time + pseudo randomness is not enough, giving up"
@@ -494,7 +490,7 @@
  
  #: src/mtls-openssl.c:450
  msgid "TLS certificate check failed"
-@@ -1353,7 +1357,7 @@
+@@ -1353,7 +1353,7 @@
  #: src/mtls-openssl.c:591
  #, c-format
  msgid "%s: cannot get certificate common name"
@@ -503,7 +499,7 @@
  
  #: src/mtls-openssl.c:600
  #, c-format
-@@ -1367,12 +1371,12 @@
+@@ -1367,12 +1367,12 @@
  
  #: src/mtls-openssl.c:650 src/mtls-openssl.c:658 src/mtls-openssl.c:666
  msgid "feature not yet implemented for OpenSSL"
@@ -518,7 +514,7 @@
  
  #: src/mtls-openssl.c:672
  #, c-format
-@@ -1392,7 +1396,7 @@
+@@ -1392,7 +1392,7 @@
  #: src/mtls-openssl.c:702
  #, c-format
  msgid "cannot load certificate file %s: %s"
@@ -527,7 +523,7 @@
  
  #: src/mtls-openssl.c:732
  #, c-format
-@@ -1401,7 +1405,7 @@
+@@ -1401,7 +1401,7 @@
  
  #: src/mtls-openssl.c:801
  msgid "a protocol violating EOF occurred"
@@ -536,7 +532,7 @@
  
  #: src/mtls-openssl.c:819
  msgid "the connection was closed unexpectedly"
-@@ -1410,11 +1414,11 @@
+@@ -1410,11 +1410,11 @@
  #: src/mtls-openssl.c:828 src/net.c:198 src/net.c:213 src/net.c:245
  #: src/net.c:260
  msgid "the operation timed out"
@@ -550,7 +546,7 @@
  
  #: src/mtls-openssl.c:938
  msgid "cannot read from TLS connection"
-@@ -1426,7 +1430,7 @@
+@@ -1426,7 +1426,7 @@
  
  #: src/net.c:94
  msgid "not enough memory"
@@ -559,7 +555,7 @@
  
  #: src/net.c:100 src/net.c:684
  msgid "invalid argument"
-@@ -1478,7 +1482,7 @@
+@@ -1478,7 +1478,7 @@
  
  #: src/net.c:136
  msgid "socket type is not supported in this address family"
@@ -568,7 +564,7 @@
  
  #: src/net.c:139
  msgid "remote address is not valid"
-@@ -1494,11 +1498,11 @@
+@@ -1494,11 +1494,11 @@
  
  #: src/net.c:148
  msgid "timeout"
@@ -582,7 +578,7 @@
  
  #: src/net.c:154
  msgid "the socket was shut down"
-@@ -1510,11 +1514,11 @@
+@@ -1510,11 +1510,11 @@
  
  #: src/net.c:160
  msgid "connection reset by peer"
@@ -596,7 +592,7 @@
  
  #: src/net.c:166
  msgid "the requested version is not available"
-@@ -1526,7 +1530,7 @@
+@@ -1526,7 +1526,7 @@
  
  #: src/net.c:172
  msgid "limit on the number of tasks has been reached"
@@ -605,7 +601,7 @@
  
  #: src/net.c:175
  msgid "invalid request"
-@@ -1577,7 +1581,7 @@
+@@ -1577,7 +1577,7 @@
  
  #: src/net.c:639
  msgid "time-to-live expired"
@@ -614,7 +610,7 @@
  
  #: src/net.c:642
  msgid "command not supported"
-@@ -1605,7 +1609,7 @@
+@@ -1605,7 +1605,7 @@
  #: src/net.c:873
  #, c-format
  msgid "cannot bind source ip %s: %s"
@@ -623,7 +619,7 @@
  
  #: src/net.c:889 src/net.c:902
  #, c-format
-@@ -1620,12 +1624,12 @@
+@@ -1620,12 +1620,12 @@
  #: src/pop3.c:311
  #, c-format
  msgid "POP3 server sent an empty reply"
@@ -638,7 +634,7 @@
  
  #: src/pop3.c:370
  #, c-format
-@@ -1635,20 +1639,20 @@
+@@ -1635,20 +1635,20 @@
  #: src/pop3.c:679
  #, c-format
  msgid "cannot get initial OK message from POP3 server"
@@ -662,7 +658,7 @@
  
  #: src/pop3.c:1026
  #, c-format
-@@ -1658,12 +1662,12 @@
+@@ -1658,12 +1658,12 @@
  #: src/pop3.c:1598
  #, c-format
  msgid "cannot write to temporary file: output error"
@@ -677,7 +673,7 @@
  
  #: src/pop3.c:1776
  #, c-format
-@@ -1678,12 +1682,12 @@
+@@ -1678,12 +1678,12 @@
  #: src/pop3.c:1792
  #, c-format
  msgid "cannot create temporary file: %s"
@@ -692,7 +688,7 @@
  
  #: src/pop3.c:2063
  #, c-format
-@@ -1706,7 +1710,7 @@
+@@ -1706,7 +1706,7 @@
  #: src/pop3.c:2791 src/pop3.c:3144
  #, c-format
  msgid "POP3 server does not support authentication method %s"
@@ -701,7 +697,7 @@
  
  #: src/pop3.c:2797 src/pop3.c:2979 src/pop3.c:3031
  #, c-format
-@@ -1741,7 +1745,7 @@
+@@ -1741,7 +1741,7 @@
  #: src/pop3.c:2940
  #, c-format
  msgid "authentication method %s needs TLS channel binding information"
@@ -710,7 +706,7 @@
  
  #: src/pop3.c:3105
  #, c-format
-@@ -1766,22 +1770,22 @@
+@@ -1766,22 +1766,22 @@
  #: src/uidls.c:263
  #, c-format
  msgid "%s, line %ld: invalid number of UIDs"

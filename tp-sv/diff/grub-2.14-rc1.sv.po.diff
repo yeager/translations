@@ -14,7 +14,7 @@
  
  #: grub-core/commands/acpi.c:61
  msgid "Export version 1 tables to the OS."
-@@ -62,28 +62,29 @@
+@@ -62,28 +62,28 @@
  
  #: grub-core/commands/acpi.c:63
  msgid "Set OEMID of RSDP, XSDT and RSDT."
@@ -45,12 +45,11 @@
  #: grub-core/commands/acpi.c:73
  msgid "Don't update EBDA. May fix failures or hangs on some BIOSes but makes it ineffective with OS not receiving RSDP from GRUB."
 -msgstr "Uppdatera inte EBDA. Kan fixa fel eller hängningar på en del BIOS, men gör det ineffektivt med OS som inte erhåller RSDP från GRUB."
-+msgstr "Uppdatera inte EBDA. Kan åtgärda fel eller hängningar i vissa BIOS, men gör "
-+"det oanvändbart med OS som inte får RSDP från GRUB."
++msgstr "Uppdatera inte EBDA. Kan åtgärda fel eller hängningar i vissa BIOS, men gör det oanvändbart med OS som inte får RSDP från GRUB."
  
  #: grub-core/commands/acpi.c:680 grub-core/commands/acpi.c:697
  #: grub-core/commands/i386/pc/play.c:105 grub-core/commands/keylayouts.c:230
-@@ -136,7 +137,7 @@
+@@ -136,7 +136,7 @@
  
  #: grub-core/commands/acpi.c:812
  msgid "Load host ACPI tables and tables specified by arguments."
@@ -59,7 +58,7 @@
  
  #: grub-core/commands/acpihalt.c:368 grub-core/kern/err.c:119
  #: grub-core/kern/fs.c:79
-@@ -159,7 +160,7 @@
+@@ -159,7 +159,7 @@
  #: grub-core/script/lexer.c:161 grub-core/script/lexer.c:197
  #: grub-core/video/efi_gop.c:485
  msgid "out of memory"
@@ -68,7 +67,7 @@
  
  #: grub-core/commands/acpihalt.c:374 grub-core/disk/cryptodisk.c:815
  #: grub-core/disk/cryptodisk.c:859 grub-core/kern/emu/hostdisk.c:307
-@@ -177,7 +178,7 @@
+@@ -177,7 +177,7 @@
  #. TRANSLATORS: It's computer shutdown using ACPI, not disabling ACPI.
  #: grub-core/commands/acpihalt.c:452
  msgid "ACPI shutdown failed"
@@ -77,7 +76,7 @@
  
  #: grub-core/commands/appendedsig/appendedsig.c:134
  msgid "hash file of the binary."
-@@ -206,11 +207,11 @@
+@@ -206,11 +206,11 @@
  
  #: grub-core/commands/appendedsig/appendedsig.c:1677
  msgid "Add trusted X509_CERTIFICATE to the db list"
@@ -91,7 +90,7 @@
  
  #: grub-core/commands/appendedsig/appendedsig.c:1682
  msgid "Show the list of distrusted certificates and certificate/binary hashes from the dbx list"
-@@ -263,7 +264,7 @@
+@@ -263,7 +263,7 @@
  #: grub-core/commands/bli.c:111 grub-core/commands/bli.c:115
  #: grub-core/commands/blsuki.c:1134
  msgid "unable to find boot device"
@@ -100,7 +99,7 @@
  
  #: grub-core/commands/bli.c:124
  msgid "unable to determine partition UUID of boot device"
-@@ -366,7 +367,7 @@
+@@ -366,7 +366,7 @@
  #: util/grub-syslinux2cfg.c:67 util/grub-syslinux2cfg.c:71
  #: util/grub-reboot.in:54 util/grub-set-default.in:54
  msgid "DIR"
@@ -109,7 +108,7 @@
  
  #: grub-core/commands/blsuki.c:87
  msgid "Specify path to find UKI entries."
-@@ -387,16 +388,16 @@
+@@ -387,16 +387,16 @@
  #: grub-core/commands/blsuki.c:269
  #, c-format
  msgid "duplicate file: `%s'"
@@ -129,7 +128,7 @@
  
  #: grub-core/commands/blsuki.c:1302 grub-core/fs/fshelp.c:284
  #: grub-core/fs/minix.c:649 grub-core/fs/ufs.c:662 grub-core/fs/ufs.c:758
-@@ -470,11 +471,11 @@
+@@ -470,11 +470,11 @@
  
  #: grub-core/commands/cat.c:163 grub-core/commands/minicmd.c:212
  msgid "Show the contents of a file."
@@ -143,7 +142,7 @@
  
  #: grub-core/commands/cmp.c:51 grub-core/commands/i386/pc/drivemap.c:236
  #: grub-core/commands/i386/wrmsr.c:50 grub-core/commands/iorw.c:86
-@@ -493,12 +494,12 @@
+@@ -493,12 +493,12 @@
  #: grub-core/commands/cmp.c:62
  #, c-format
  msgid "Files differ in size: %llu [%s], %llu [%s]\n"
@@ -158,7 +157,7 @@
  
  #: grub-core/commands/cmp.c:103
  msgid "The files are identical.\n"
-@@ -538,11 +539,11 @@
+@@ -538,11 +538,11 @@
  
  #: grub-core/commands/echo.c:30
  msgid "Do not output the trailing newline."
@@ -172,17 +171,16 @@
  
  #: grub-core/commands/echo.c:134
  msgid "[-e|-n] STRING"
-@@ -554,7 +555,8 @@
+@@ -554,7 +554,7 @@
  
  #: grub-core/commands/efi/efifwsetup.c:48
  msgid "reboot to firmware setup is not supported by the current firmware"
 -msgstr "omstart till konfiguration av fast programvara stöds inte av aktuell fast programvara"
-+msgstr "Omstart till den fasta programvarans inställningar stöds inte av den aktuella "
-+"fasta programvaran"
++msgstr "Omstart till den fasta programvarans inställningar stöds inte av den aktuella fasta programvaran"
  
  #: grub-core/commands/efi/efifwsetup.c:95
  msgid "Reboot into firmware setup menu."
-@@ -571,11 +573,11 @@
+@@ -571,11 +571,11 @@
  #: grub-core/commands/efi/efitextmode.c:50
  #, c-format
  msgid "unexpected EFI error number: `%u'"
@@ -196,7 +194,7 @@
  
  #: grub-core/commands/efi/efitextmode.c:72
  msgid "no mode struct for UEFI output console"
-@@ -587,7 +589,7 @@
+@@ -587,7 +587,7 @@
  
  #: grub-core/commands/efi/efitextmode.c:79
  msgid "Available modes for console output device.\n"
@@ -205,7 +203,7 @@
  
  #: grub-core/commands/efi/efitextmode.c:83
  msgid " [%"
-@@ -596,7 +598,7 @@
+@@ -596,7 +596,7 @@
  #: grub-core/commands/efi/efitextmode.c:100
  #, c-format
  msgid "non-numeric or invalid mode `%s'"
@@ -214,7 +212,7 @@
  
  #: grub-core/commands/efi/efitextmode.c:111
  #, c-format
-@@ -606,7 +608,7 @@
+@@ -606,7 +606,7 @@
  #: grub-core/commands/efi/efitextmode.c:122
  #, c-format
  msgid "non-numeric or invalid columns number `%s'"
@@ -223,7 +221,7 @@
  
  #: grub-core/commands/efi/efitextmode.c:128
  #, c-format
-@@ -627,11 +629,11 @@
+@@ -627,11 +627,11 @@
  
  #: grub-core/commands/efi/fixvideo.c:107
  msgid "Fix video problem."
@@ -237,7 +235,7 @@
  
  #: grub-core/commands/efi/loadbios.c:70
  msgid "Can't enable ROM area."
-@@ -639,7 +641,7 @@
+@@ -639,7 +639,7 @@
  
  #: grub-core/commands/efi/loadbios.c:191
  msgid "Create BIOS-like structures for backward compatibility with existing OS."
@@ -246,7 +244,7 @@
  
  #: grub-core/commands/efi/loadbios.c:196
  msgid "BIOS_DUMP [INT10_DUMP]"
-@@ -651,7 +653,7 @@
+@@ -651,7 +651,7 @@
  
  #: grub-core/commands/efi/tpm.c:170
  msgid "command failed"
@@ -255,7 +253,7 @@
  
  #: grub-core/commands/efi/tpm.c:172
  msgid "invalid parameter"
-@@ -659,11 +661,11 @@
+@@ -659,11 +659,11 @@
  
  #: grub-core/commands/efi/tpm.c:174
  msgid "output buffer too small"
@@ -269,7 +267,7 @@
  
  #: grub-core/commands/efi/tpm.c:178
  msgid "unknown TPM error"
-@@ -672,11 +674,11 @@
+@@ -672,11 +672,11 @@
  #: grub-core/commands/efi/tpm.c:203 grub-core/commands/efi/tpm.c:237
  #: grub-core/lib/efi/tcg2.c:165
  msgid "cannot allocate TPM event buffer"
@@ -283,7 +281,7 @@
  
  #: grub-core/commands/eval.c:63
  msgid "STRING ..."
-@@ -689,7 +691,7 @@
+@@ -689,7 +689,7 @@
  #: grub-core/commands/extcmd.c:123 grub-core/kern/command.c:88
  #, c-format
  msgid "%s: the command is not allowed when lockdown is enforced"
@@ -292,7 +290,7 @@
  
  #: grub-core/commands/file.c:41
  msgid "Check if FILE can be booted as i386 PAE Xen unprivileged guest kernel"
-@@ -705,11 +707,11 @@
+@@ -705,11 +705,11 @@
  
  #: grub-core/commands/file.c:48
  msgid "Check if FILE can be used as x86 multiboot kernel"
@@ -306,7 +304,7 @@
  
  #: grub-core/commands/file.c:52
  msgid "Check if FILE is ARM Linux"
-@@ -793,11 +795,11 @@
+@@ -793,11 +793,11 @@
  
  #: grub-core/commands/file.c:94
  msgid "Check if FILE is RISC-V 32bit EFI file"
@@ -320,7 +318,7 @@
  
  #: grub-core/commands/file.c:98
  msgid "Check if FILE is hiberfil.sys in hibernated state"
-@@ -809,7 +811,7 @@
+@@ -809,7 +809,7 @@
  
  #: grub-core/commands/file.c:102
  msgid "Check if FILE is i386 XNU (Mac OS X kernel)"
@@ -329,18 +327,16 @@
  
  #: grub-core/commands/file.c:104
  msgid "Check if FILE is XNU (Mac OS X kernel) hibernated image"
-@@ -856,7 +858,9 @@
+@@ -856,7 +856,7 @@
  #. type id.
  #: grub-core/commands/gptsync.c:255
  msgid "Fill hybrid MBR of GPT drive DEVICE. Specified partitions will be a part of hybrid MBR. Up to 3 partitions are allowed. TYPE is an MBR type. + means that partition is active. Only one partition can be active."
 -msgstr "Fyll hybrid-MBR på GPT-enheten ENHET. Specificerade partitioner kommer att vara en del av hybrid-MBR. Upp till tre partitioner är tillåtna. TYP är en MBR-typ. + betyder att partitionen är aktiv. Endast en partition kan vara aktiv."
-+msgstr "Fyll hybrid-MBR på GPT-enheten ENHET. Angivna partitioner blir en del av "
-+"hybrid-MBR. Upp till tre partitioner är tillåtna. TYP är en MBR-typ. + "
-+"betyder att partitionen är aktiv. Endast en partition kan vara aktiv."
++msgstr "Fyll hybrid-MBR på GPT-enheten ENHET. Angivna partitioner blir en del av hybrid-MBR. Upp till tre partitioner är tillåtna. TYP är en MBR-typ. + betyder att partitionen är aktiv. Endast en partition kan vara aktiv."
  
  #: grub-core/commands/halt.c:40
  msgid "Halts the computer.  This command does not work on all firmware implementations."
-@@ -864,7 +868,7 @@
+@@ -864,7 +864,7 @@
  
  #: grub-core/commands/hashsum.c:32
  msgid "Specify hash to use."
@@ -349,7 +345,7 @@
  
  #: grub-core/commands/hashsum.c:32
  msgid "HASH"
-@@ -872,7 +876,7 @@
+@@ -872,7 +872,7 @@
  
  #: grub-core/commands/hashsum.c:33
  msgid "Check hashes of files with hash list FILE."
@@ -358,7 +354,7 @@
  
  #: grub-core/commands/hashsum.c:35
  msgid "Base directory for hash list."
-@@ -884,7 +888,7 @@
+@@ -884,7 +884,7 @@
  
  #: grub-core/commands/hashsum.c:38
  msgid "Uncompress file before checksumming."
@@ -367,7 +363,7 @@
  
  #: grub-core/commands/hashsum.c:172
  #, c-format
-@@ -912,7 +916,7 @@
+@@ -912,7 +912,7 @@
  #: grub-core/commands/hashsum.c:306 grub-core/commands/hashsum.c:311
  #: grub-core/commands/hashsum.c:316 grub-core/commands/hashsum.c:322
  msgid "Compute or check hash checksum."
@@ -376,7 +372,7 @@
  
  #: grub-core/commands/hashsum.c:299 grub-core/commands/hashsum.c:304
  #: grub-core/commands/hashsum.c:309 grub-core/commands/hashsum.c:314
-@@ -934,7 +938,7 @@
+@@ -934,7 +934,7 @@
  
  #: grub-core/commands/hdparm.c:37
  msgid "Freeze ATA security settings until reset."
@@ -385,7 +381,7 @@
  
  #: grub-core/commands/hdparm.c:39
  msgid "Display SMART health status."
-@@ -966,7 +970,7 @@
+@@ -966,7 +966,7 @@
  
  #: grub-core/commands/hdparm.c:48
  msgid "Print drive identity and settings."
@@ -394,7 +390,7 @@
  
  #: grub-core/commands/hdparm.c:50
  msgid "Show raw contents of ATA IDENTIFY sector."
-@@ -994,7 +998,7 @@
+@@ -994,7 +994,7 @@
  #: grub-core/normal/context.c:194 grub-core/script/execute.c:139
  #: grub-core/term/gfxterm_background.c:136
  msgid "one argument expected"
@@ -403,7 +399,7 @@
  
  #: grub-core/commands/hdparm.c:440
  msgid "[OPTIONS] DISK"
-@@ -1018,7 +1022,7 @@
+@@ -1018,7 +1018,7 @@
  
  #: grub-core/commands/hexdump.c:32
  msgid "Skip offset bytes from the beginning of file."
@@ -412,7 +408,7 @@
  
  #: grub-core/commands/hexdump.c:34
  msgid "Read only LENGTH bytes."
-@@ -1034,7 +1038,7 @@
+@@ -1034,7 +1034,7 @@
  
  #: grub-core/commands/hexdump.c:131
  msgid "Show raw contents of a file or memory."
@@ -421,7 +417,7 @@
  
  #: grub-core/commands/i386/cmosdump.c:58
  msgid "Show raw dump of the CMOS contents."
-@@ -1061,7 +1065,7 @@
+@@ -1061,7 +1061,7 @@
  
  #: grub-core/commands/i386/coreboot/cb_timestamps.c:120
  msgid "Show coreboot boot time statistics."
@@ -430,7 +426,7 @@
  
  #: grub-core/commands/i386/coreboot/cbls.c:137
  msgid "List coreboot tables."
-@@ -1075,7 +1079,7 @@
+@@ -1075,7 +1075,7 @@
  
  #: grub-core/commands/i386/cpuid.c:37
  msgid "Check if CPU supports Physical Address Extension."
@@ -439,7 +435,7 @@
  
  #: grub-core/commands/i386/cpuid.c:119
  msgid "Check for CPU features."
-@@ -1122,7 +1126,7 @@
+@@ -1122,7 +1122,7 @@
  
  #: grub-core/commands/i386/pc/halt.c:119
  msgid "Halt the system, if possible using APM."
@@ -448,7 +444,7 @@
  
  #: grub-core/commands/i386/pc/lsapm.c:75
  msgid "no APM found"
-@@ -1143,19 +1147,19 @@
+@@ -1143,19 +1143,19 @@
  
  #: grub-core/commands/i386/pc/lsapm.c:86
  msgid "16-bit protected interface supported\n"
@@ -472,7 +468,7 @@
  
  #: grub-core/commands/i386/pc/lsapm.c:92
  msgid "CPU Idle slows down processor\n"
-@@ -1191,7 +1195,7 @@
+@@ -1191,7 +1191,7 @@
  #. This error happens if none is specified.
  #: grub-core/commands/i386/pc/play.c:88
  msgid "filename or tempo and notes expected"
@@ -481,7 +477,7 @@
  
  #: grub-core/commands/i386/pc/play.c:113 grub-core/commands/i386/pc/play.c:144
  #, c-format
-@@ -1226,71 +1230,71 @@
+@@ -1226,71 +1226,71 @@
  
  #: grub-core/commands/i386/pc/sendkey.c:39
  msgid "set numlock mode"
@@ -570,7 +566,7 @@
  
  #: grub-core/commands/i386/pc/sendkey.c:372
  msgid "[KEYSTROKE1] [KEYSTROKE2] ..."
-@@ -1342,7 +1346,7 @@
+@@ -1342,7 +1342,7 @@
  
  #: grub-core/commands/i386/wrmsr.c:77
  msgid "Write a value to a CPU model specific register."
@@ -579,7 +575,7 @@
  
  #: grub-core/commands/ieee1275/suspend.c:34
  msgid "Run `go' to resume GRUB."
-@@ -1406,15 +1410,15 @@
+@@ -1406,15 +1406,15 @@
  #. "true" is returned, otherwise "false".
  #: grub-core/commands/keystatus.c:32
  msgid "Check Shift key."
@@ -598,7 +594,7 @@
  
  #. TRANSLATORS: there are 3 modifiers.
  #: grub-core/commands/keystatus.c:88
-@@ -1438,19 +1442,19 @@
+@@ -1438,19 +1438,19 @@
  #. "config as used by grub-legacy".
  #: grub-core/commands/legacycfg.c:855
  msgid "Parse legacy config in same context"
@@ -622,7 +618,7 @@
  
  #: grub-core/commands/legacycfg.c:874
  msgid "[--no-mem-option] [--type=TYPE] FILE [ARG ...]"
-@@ -1524,7 +1528,7 @@
+@@ -1524,7 +1524,7 @@
  
  #: grub-core/commands/ls.c:41
  msgid "Print sizes in a human readable format."
@@ -631,7 +627,7 @@
  
  #: grub-core/commands/ls.c:42
  msgid "List all files."
-@@ -1566,7 +1570,7 @@
+@@ -1566,7 +1566,7 @@
  #. and which can be used by OS once it loads ACPI tables.
  #: grub-core/commands/lsmmap.c:35
  msgid "ACPI reclaimable RAM"
@@ -640,7 +636,7 @@
  
  #. TRANSLATORS: this refers to memory which ACPI-compliant OS
  #. is required to save accross hibernations.
-@@ -1588,25 +1592,25 @@
+@@ -1588,25 +1588,25 @@
  
  #: grub-core/commands/lsmmap.c:42
  msgid "RAM holding coreboot tables"
@@ -671,7 +667,7 @@
  
  #: grub-core/commands/lspci.c:232
  msgid "List PCI devices."
-@@ -1674,7 +1678,7 @@
+@@ -1674,7 +1674,7 @@
  
  #: grub-core/commands/menuentry.c:33
  msgid "List of users allowed to boot this entry."
@@ -680,7 +676,7 @@
  
  #: grub-core/commands/menuentry.c:33
  msgid "USERNAME[,USERNAME]"
-@@ -1690,7 +1694,7 @@
+@@ -1690,7 +1690,7 @@
  
  #: grub-core/commands/menuentry.c:38
  msgid "Use STRING as menu entry body."
@@ -689,7 +685,7 @@
  
  #: grub-core/commands/menuentry.c:39
  msgid "Menu entry identifier."
-@@ -1724,7 +1728,7 @@
+@@ -1724,7 +1724,7 @@
  #.
  #: grub-core/commands/minicmd.c:169
  msgid "Name\tRef Count\tDependencies\n"
@@ -698,7 +694,7 @@
  
  #: grub-core/commands/minicmd.c:215
  msgid "Show this message."
-@@ -1778,7 +1782,7 @@
+@@ -1778,7 +1778,7 @@
  #: grub-core/commands/mips/loongson/lsspd.c:66
  #, c-format
  msgid "RAM slot number %d\n"
@@ -707,13 +703,12 @@
  
  #: grub-core/commands/mips/loongson/lsspd.c:73
  #, c-format
-@@ -1819,14 +1823,15 @@
+@@ -1819,14 +1819,14 @@
  
  #: grub-core/commands/nativedisk.c:326
  msgid "Switch to native disk drivers. If no modules are specified default set (pata,ahci,usbms,ohci,uhci,ehci) is used"
 -msgstr "Växla till inbyggda diskdrivrutiner. Om inga moduler anges som används (pata,ahci,usbms,ohci,uhci,ehci) som standard"
-+msgstr "Växla till inbyggda diskdrivrutiner. Om inga moduler anges används "
-+"standarduppsättningen (pata,ahci,usbms,ohci,uhci,ehci)"
++msgstr "Växla till inbyggda diskdrivrutiner. Om inga moduler anges används standarduppsättningen (pata,ahci,usbms,ohci,uhci,ehci)"
  
  #: grub-core/commands/parttool.c:40
  msgid ""
@@ -725,7 +720,7 @@
  "Använd ”parttool PARTITION help” för en lista över tillgängliga kommandon."
  
  #: grub-core/commands/parttool.c:129
-@@ -1854,7 +1859,7 @@
+@@ -1854,7 +1854,7 @@
  
  #: grub-core/commands/password.c:86
  msgid "Set user password (plaintext). Unrecommended and insecure."
@@ -734,7 +729,7 @@
  
  #. TRANSLATORS: it means that the string which
  #. was supposed to be a password hash doesn't
-@@ -1874,7 +1879,7 @@
+@@ -1874,7 +1874,7 @@
  
  #: grub-core/commands/password_pbkdf2.c:203
  msgid "Set user password (PBKDF2). "
@@ -743,7 +738,7 @@
  
  #: grub-core/commands/pcidump.c:39 grub-core/commands/setpci.c:69
  msgid "Select device by vendor and device IDs."
-@@ -1927,7 +1932,7 @@
+@@ -1927,7 +1927,7 @@
  #: grub-core/commands/pgp.c:421 grub-core/commands/pgp.c:424
  #: grub-core/commands/pgp.c:613
  msgid "bad signature"
@@ -752,7 +747,7 @@
  
  #: grub-core/commands/pgp.c:570
  msgid "public key %08"
-@@ -1960,7 +1965,7 @@
+@@ -1960,7 +1960,7 @@
  
  #: grub-core/commands/pgp.c:947
  msgid "Add PUBKEY_FILE to trusted keys."
@@ -761,7 +756,7 @@
  
  #: grub-core/commands/pgp.c:951
  msgid "Show the list of trusted keys."
-@@ -2008,7 +2013,7 @@
+@@ -2008,7 +2008,7 @@
  #: util/grub-probe.c:462
  #, c-format
  msgid "filesystem `%s' does not support labels"
@@ -770,7 +765,7 @@
  
  #: grub-core/commands/probe.c:243 grub-core/fs/zfs/zfsinfo.c:433
  #: grub-core/loader/i386/bsd.c:170 util/grub-setup.c:223
-@@ -2021,7 +2026,7 @@
+@@ -2021,7 +2021,7 @@
  
  #: grub-core/commands/read.c:34
  msgid "Do not echo input"
@@ -779,7 +774,7 @@
  
  #: grub-core/commands/read.c:66 grub-core/commands/read.c:71
  #: grub-core/fs/ext2.c:771 grub-core/kern/buffer.c:111
-@@ -2033,15 +2038,15 @@
+@@ -2033,15 +2033,15 @@
  #: grub-core/video/readers/png.c:332 include/grub/buffer.h:79
  #: include/grub/buffer.h:117 include/grub/misc.h:354 include/grub/misc.h:363
  msgid "overflow is detected"
@@ -798,7 +793,7 @@
  
  #: grub-core/commands/reboot.c:40
  msgid "Reboot the computer."
-@@ -2058,7 +2063,7 @@
+@@ -2058,7 +2058,7 @@
  #.
  #: grub-core/commands/regexp.c:44
  msgid "Store matched component NUMBER in VARNAME."
@@ -807,29 +802,26 @@
  
  #: grub-core/commands/regexp.c:45
  msgid "[NUMBER:]VARNAME"
-@@ -2081,15 +2086,18 @@
+@@ -2081,15 +2081,15 @@
  
  #: grub-core/commands/search_file.c:4
  msgid "Search devices by file. If VARIABLE is specified, the first device found is set to a variable."
 -msgstr "Sök enheter efter fil. Om VARIABEL är specificerad, kommer första enheten som hittas att ställas in till en variabel."
-+msgstr "Sök enheter efter fil. Om VARIABEL anges lagras den första enheten som hittas "
-+"i en variabel."
++msgstr "Sök enheter efter fil. Om VARIABEL anges lagras den första enheten som hittas i en variabel."
  
  #: grub-core/commands/search_label.c:4
  msgid "Search devices by label. If VARIABLE is specified, the first device found is set to a variable."
 -msgstr "Sök enheter efter etikett. Om VARIABEL är specificerad kommer den första enheten som hittas att ställas in till en variabel."
-+msgstr "Sök enheter efter etikett. Om VARIABEL anges lagras den första enheten som "
-+"hittas i en variabel."
++msgstr "Sök enheter efter etikett. Om VARIABEL anges lagras den första enheten som hittas i en variabel."
  
  #: grub-core/commands/search_uuid.c:4
  msgid "Search devices by UUID. If VARIABLE is specified, the first device found is set to a variable."
 -msgstr "Sök enheter efter UUID. Om VARIABEL är specificerad kommer första enheten som hittas att ställas in till en variabel."
-+msgstr "Sök enheter efter UUID. Om VARIABEL anges lagras den första enheten som "
-+"hittas i en variabel."
++msgstr "Sök enheter efter UUID. Om VARIABEL anges lagras den första enheten som hittas i en variabel."
  
  #: grub-core/commands/search_wrap.c:34
  msgid "Search devices by a file."
-@@ -2105,7 +2113,7 @@
+@@ -2105,7 +2105,7 @@
  
  #: grub-core/commands/search_wrap.c:40
  msgid "Set a variable to the first device found."
@@ -838,7 +830,7 @@
  
  #: grub-core/commands/search_wrap.c:42
  msgid "Do not probe any floppy drive."
-@@ -2113,7 +2121,7 @@
+@@ -2113,7 +2113,7 @@
  
  #: grub-core/commands/search_wrap.c:43
  msgid "Only probe EFI disks."
@@ -847,58 +839,50 @@
  
  #: grub-core/commands/search_wrap.c:44
  msgid "Only probe encrypted disks."
-@@ -2121,7 +2129,8 @@
+@@ -2121,7 +2121,7 @@
  
  #: grub-core/commands/search_wrap.c:46
  msgid "First try the device HINT. If HINT ends in comma, also try subpartitions"
 -msgstr "Prova först enhetens TIPS. Om TIPS slutar på komma, prova också subpartitioner"
-+msgstr "Försök först med enhetens TIPS. Om TIPS slutar med ett kommatecken, försök "
-+"även med underpartitioner"
++msgstr "Försök först med enhetens TIPS. Om TIPS slutar med ett kommatecken, försök även med underpartitioner"
  
  #: grub-core/commands/search_wrap.c:47 grub-core/commands/search_wrap.c:51
  #: grub-core/commands/search_wrap.c:55 grub-core/commands/search_wrap.c:59
-@@ -2131,23 +2140,28 @@
+@@ -2131,23 +2131,23 @@
  
  #: grub-core/commands/search_wrap.c:49
  msgid "First try the device HINT if currently running on IEEE1275. If HINT ends in comma, also try subpartitions"
 -msgstr "Prova först enhetens HINT om aktuell körning sker på IEEE1275. Om HINT slutar på komma, prova också subpartitioner"
-+msgstr "Försök först med enhetens HINT om aktuell körning sker på IEEE1275. Om HINT "
-+"slutar med ett kommatecken, försök även med underpartitioner"
++msgstr "Försök först med enhetens HINT om aktuell körning sker på IEEE1275. Om HINT slutar med ett kommatecken, försök även med underpartitioner"
  
  #: grub-core/commands/search_wrap.c:53
  msgid "First try the device HINT if currently running on BIOS. If HINT ends in comma, also try subpartitions"
 -msgstr "Prova först enhetens HINT om aktuell körning sker på BIOS. Om HINT slutar på komma, prova också subpartitioner"
-+msgstr "Försök först med enhetens HINT om aktuell körning sker på BIOS. Om HINT "
-+"slutar med ett kommatecken, försök även med underpartitioner"
++msgstr "Försök först med enhetens HINT om aktuell körning sker på BIOS. Om HINT slutar med ett kommatecken, försök även med underpartitioner"
  
  #: grub-core/commands/search_wrap.c:57
  msgid "First try the device HINT if direct hardware access is supported. If HINT ends in comma, also try subpartitions"
 -msgstr "Prova först enhetens HINT om direkt hårdvaruåtkomst stöds. Om HINT slutar på komma, prova också subpartitioner"
-+msgstr "Försök först med enhetens HINT om direkt hårdvaruåtkomst stöds. Om HINT "
-+"slutar med ett kommatecken, försök även med underpartitioner"
++msgstr "Försök först med enhetens HINT om direkt hårdvaruåtkomst stöds. Om HINT slutar med ett kommatecken, försök även med underpartitioner"
  
  #: grub-core/commands/search_wrap.c:61
  msgid "First try the device HINT if currently running on EFI. If HINT ends in comma, also try subpartitions"
 -msgstr "Prova först enhetens HINT om aktuell körning sker på EFI. Om HINT slutar på komma, prova också subpartitioner"
-+msgstr "Försök först med enhetens HINT om aktuell körning sker på EFI. Om HINT slutar "
-+"med ett kommatecken, försök även med underpartitioner"
++msgstr "Försök först med enhetens HINT om aktuell körning sker på EFI. Om HINT slutar med ett kommatecken, försök även med underpartitioner"
  
  #: grub-core/commands/search_wrap.c:65
  msgid "First try the device HINT if currently running on ARC. If HINT ends in comma, also try subpartitions"
 -msgstr "Prova först enhetens HINT om aktuell körning sker på ARC. Om HINT slutar på komma, prova också subpartitioner"
-+msgstr "Försök först med enhetens HINT om aktuell körning sker på ARC. Om HINT slutar "
-+"med ett kommatecken, försök även med underpartitioner"
++msgstr "Försök först med enhetens HINT om aktuell körning sker på ARC. Om HINT slutar med ett kommatecken, försök även med underpartitioner"
  
  #: grub-core/commands/search_wrap.c:218
  msgid "[-f|-l|-u|-s|-n] [--cryptodisk-only] [--hint HINT [--hint HINT] ...] NAME"
-@@ -2155,12 +2169,14 @@
+@@ -2155,12 +2155,12 @@
  
  #: grub-core/commands/search_wrap.c:220
  msgid "Search devices by file, filesystem label or filesystem UUID. If --set is specified, the first device found is set to a variable. If no variable name is specified, `root' is used."
 -msgstr "Sök enheter efter fil, filsystemsetikett eller filsystems-UUID. Om --set är specificerad, sätts den första enheten till en variabel. Om inget variabelnamn är specificerat används ”root”."
-+msgstr "Sök enheter efter fil, filsystemsetikett eller filsystems-UUID. Om --set "
-+"anges lagras den första enheten som hittas i en variabel. Om inget "
-+"variabelnamn anges används ”root”."
++msgstr "Sök enheter efter fil, filsystemsetikett eller filsystems-UUID. Om --set anges lagras den första enheten som hittas i en variabel. Om inget variabelnamn anges används ”root”."
  
  #: grub-core/commands/setpci.c:132
  #, c-format
@@ -908,7 +892,7 @@
  
  #: grub-core/commands/setpci.c:331
  msgid "[-s POSITION] [-d DEVICE] [-v VAR] REGISTER[=VALUE[:MASK]]"
-@@ -2176,7 +2192,7 @@
+@@ -2176,7 +2176,7 @@
  
  #: grub-core/commands/sleep.c:33
  msgid "Allow to interrupt with ESC."
@@ -917,7 +901,7 @@
  
  #: grub-core/commands/sleep.c:109
  msgid "NUMBER_OF_SECONDS"
-@@ -2213,7 +2229,7 @@
+@@ -2213,7 +2213,7 @@
  
  #: grub-core/commands/smbios.c:203
  msgid "Get the byte's value at the given offset."
@@ -926,7 +910,7 @@
  
  #: grub-core/commands/smbios.c:204 grub-core/commands/smbios.c:206
  #: grub-core/commands/smbios.c:208 grub-core/commands/smbios.c:210
-@@ -2223,23 +2239,23 @@
+@@ -2223,23 +2223,23 @@
  
  #: grub-core/commands/smbios.c:205
  msgid "Get two bytes' value at the given offset."
@@ -955,7 +939,7 @@
  
  #: grub-core/commands/smbios.c:215 grub-core/loader/efi/fdt.c:44
  msgid "Store the value in the given variable name."
-@@ -2252,7 +2268,7 @@
+@@ -2252,7 +2252,7 @@
  
  #: grub-core/commands/smbios.c:217
  msgid "Filter the result like linux does."
@@ -964,7 +948,7 @@
  
  #: grub-core/commands/smbios.c:289
  msgid "the SMBIOS entry point structure was not found"
-@@ -2268,15 +2284,15 @@
+@@ -2268,15 +2268,15 @@
  
  #: grub-core/commands/smbios.c:313
  msgid "the match must be a positive integer"
@@ -983,7 +967,7 @@
  
  #: grub-core/commands/smbios.c:336
  msgid "no structure matched the given options"
-@@ -2288,11 +2304,11 @@
+@@ -2288,11 +2288,11 @@
  
  #: grub-core/commands/smbios.c:348
  msgid "the field ends outside the structure"
@@ -997,7 +981,7 @@
  
  #: grub-core/commands/smbios.c:389
  msgid "[-t type] [-h handle] [-m match] (-b|-w|-d|-q|-s|-u) offset [--set variable]"
-@@ -2304,7 +2320,7 @@
+@@ -2304,7 +2304,7 @@
  
  #: grub-core/commands/syslinuxcfg.c:50 util/grub-syslinux2cfg.c:66
  msgid "root directory of the syslinux disk [default=/]."
@@ -1006,7 +990,7 @@
  
  #: grub-core/commands/syslinuxcfg.c:53 util/grub-syslinux2cfg.c:72
  msgid "current directory of syslinux [default is parent directory of input file]."
-@@ -2326,19 +2342,19 @@
+@@ -2326,19 +2326,19 @@
  #. "config as used by syslinux".
  #: grub-core/commands/syslinuxcfg.c:189
  msgid "Execute syslinux config in same context"
@@ -1030,7 +1014,7 @@
  
  #: grub-core/commands/terminal.c:90
  msgid "no terminal specified"
-@@ -2351,19 +2367,19 @@
+@@ -2351,19 +2351,19 @@
  
  #: grub-core/commands/terminal.c:244
  msgid "Active input terminals:"
@@ -1054,7 +1038,7 @@
  
  #: grub-core/commands/terminal.c:271 grub-core/commands/terminal.c:276
  msgid "[--append|--remove] [TERMINAL1] [TERMINAL2] ..."
-@@ -2379,7 +2395,7 @@
+@@ -2379,7 +2379,7 @@
  
  #: grub-core/commands/test.c:405
  msgid "max recursion depth exceeded"
@@ -1063,7 +1047,7 @@
  
  #: grub-core/commands/test.c:459
  msgid "EXPRESSION ]"
-@@ -2443,7 +2459,7 @@
+@@ -2443,7 +2443,7 @@
  
  #: grub-core/commands/time.c:62
  msgid "Measure time used by COMMAND"
@@ -1072,7 +1056,7 @@
  
  #: grub-core/commands/tpm2_key_protector/args.c:44
  msgid "empty entry in PCR list"
-@@ -2452,12 +2468,13 @@
+@@ -2452,12 +2452,12 @@
  #: grub-core/commands/tpm2_key_protector/args.c:50
  #, c-format
  msgid "entry '%s' in PCR list is not a number"
@@ -1083,12 +1067,11 @@
  #, c-format
  msgid "entry %llu in PCR list is too large to be a PCR number, PCR numbers range from 0 to %u"
 -msgstr "posten %llu i PCR-lista är för stor för att vara ett PCR-nummer, PCR-nummer går från 0 till %u"
-+msgstr "posten %llu i PCR-listan är för stor för att vara ett PCR-nummer; PCR-nummer "
-+"går från 0 till %u"
++msgstr "posten %llu i PCR-listan är för stor för att vara ett PCR-nummer; PCR-nummer går från 0 till %u"
  
  #: grub-core/commands/tpm2_key_protector/args.c:63
  msgid "trailing comma at the end of PCR list"
-@@ -2471,17 +2488,17 @@
+@@ -2471,17 +2471,17 @@
  #: grub-core/commands/tpm2_key_protector/args.c:89
  #, c-format
  msgid "value '%s' is not a valid asymmetric key type"
@@ -1109,44 +1092,37 @@
  
  #: grub-core/commands/tpm2_key_protector/args.c:122
  #, c-format
-@@ -2490,31 +2507,38 @@
+@@ -2490,31 +2490,31 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:84
  msgid "Unseal key using SRK ('srk') (default) or retrieve it from an NV Index ('nv')."
 -msgstr "Lås upp nyckeln med SRK ('srk') (standard) eller hämta den från ett NV-index ('nv')."
-+msgstr "Avförsegla nyckeln med SRK (”srk”, standard) eller hämta den från ett "
-+"NV-index (”nv”)."
++msgstr "Avförsegla nyckeln med SRK (”srk”, standard) eller hämta den från ett NV-index (”nv”)."
  
  #: grub-core/commands/tpm2_key_protector/module.c:94
  msgid "Comma-separated list of PCRs used to authorize key release e.g., '7,11'. (default: 7)"
 -msgstr "Kommaseparerad lista över PCR:er som används för att auktorisera nyckelutgivning, t.ex. '7,11'. (standard: 7)"
-+msgstr "Kommaseparerad lista över PCR:er som används för att auktorisera "
-+"nyckelutlämning, t.ex. ”7,11”. (standard: 7)"
++msgstr "Kommaseparerad lista över PCR:er som används för att auktorisera nyckelutlämning, t.ex. ”7,11”. (standard: 7)"
  
  #: grub-core/commands/tpm2_key_protector/module.c:104
  msgid "Bank of PCRs used to authorize key release: SHA1, SHA256, SHA384 or SHA512. (default: SHA256)"
 -msgstr "Bank med PCRer som används för att auktorisera nyckelutgivning: SHA1, SHA256, SHA384 eller SHA512. (standard: SHA256)"
-+msgstr "PCR-bank som används för att auktorisera nyckelutlämning: SHA1, SHA256, "
-+"SHA384 eller SHA512. (standard: SHA256)"
++msgstr "PCR-bank som används för att auktorisera nyckelutlämning: SHA1, SHA256, SHA384 eller SHA512. (standard: SHA256)"
  
  #: grub-core/commands/tpm2_key_protector/module.c:114
  msgid "Comma-separated list of PCRs to be capped after key release e.g., '7,11'."
 -msgstr "Kommaseparerad lista över PCRer som ska begränsas efter nyckelutgivning, t.ex. '7,11'."
-+msgstr "Kommaseparerad lista över PCR:er som ska begränsas efter nyckelutlämning, "
-+"t.ex. ”7,11”."
++msgstr "Kommaseparerad lista över PCR:er som ska begränsas efter nyckelutlämning, t.ex. ”7,11”."
  
  #: grub-core/commands/tpm2_key_protector/module.c:125
  msgid "In SRK mode, path to the key file in the TPM 2.0 Key File format to unseal using the TPM (e.g., (hd0,gpt1)/boot/grub2/sealed.tpm)."
 -msgstr "I SRK-läge, sökvägen till nyckelfilen i TPM 2.0-nyckelfilformat som ska öppnas med TPM (t.ex. (hd0,gpt1)/boot/grub2/sealed.tpm)."
-+msgstr "I SRK-läge: ange sökvägen till nyckelfilen i TPM 2.0-nyckelfilformat som ska "
-+"avförseglas med TPM, t.ex. (hd0,gpt1)/boot/grub2/sealed.tpm."
++msgstr "I SRK-läge: ange sökvägen till nyckelfilen i TPM 2.0-nyckelfilformat som ska avförseglas med TPM, t.ex. (hd0,gpt1)/boot/grub2/sealed.tpm."
  
  #: grub-core/commands/tpm2_key_protector/module.c:135
  msgid "In SRK mode, path to the key file in the raw format to unseal using the TPM (e.g., (hd0,gpt1)/boot/grub2/sealed.key). (Mainly for backward compatibility. Please use '--tpm2key'.)"
 -msgstr "I SRK-läge, sökvägen till nyckelfilen i råformat som ska öppnas med TPM (t.ex. (hd0,gpt1)/boot/grub2/sealed.key). (Främst för bakåtkompatibilitet. Använd '--tpm2key'.)"
-+msgstr "I SRK-läge: ange sökvägen till nyckelfilen i råformat som ska avförseglas med "
-+"TPM, t.ex. (hd0,gpt1)/boot/grub2/sealed.key. (Främst för bakåtkompatibilitet. "
-+"Använd --tpm2key.)"
++msgstr "I SRK-läge: ange sökvägen till nyckelfilen i råformat som ska avförseglas med TPM, t.ex. (hd0,gpt1)/boot/grub2/sealed.key. (Främst för bakåtkompatibilitet. Använd --tpm2key.)"
  
  #: grub-core/commands/tpm2_key_protector/module.c:146
  msgid "In SRK mode, the SRK handle if the SRK is persistent."
@@ -1155,17 +1131,16 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:155
  msgid "In SRK mode, the type of SRK: RSA (RSA2048) and ECC (ECC_NIST_P256)(default: ECC)"
-@@ -2522,7 +2546,8 @@
+@@ -2522,7 +2522,7 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:166
  msgid "Required in NV Index mode, the NV handle to read which must readily exist on the TPM and which contains the key."
 -msgstr "Krävs i NV-indexläge, NV-handtaget att läsa måste finnas på TPM och innehålla nyckeln."
-+msgstr "Krävs i NV-indexläge: NV-handtaget som ska läsas måste redan finnas på TPM "
-+"och innehålla nyckeln."
++msgstr "Krävs i NV-indexläge: NV-handtaget som ska läsas måste redan finnas på TPM och innehålla nyckeln."
  
  #: grub-core/commands/tpm2_key_protector/module.c:199
  #, c-format
-@@ -2548,11 +2573,11 @@
+@@ -2548,11 +2548,11 @@
  #: grub-core/commands/tpm2_key_protector/module.c:390
  #, c-format
  msgid "sealed key larger than %llu bytes"
@@ -1179,7 +1154,7 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:404
  msgid "malformed TPM 2.0 key file"
-@@ -2560,11 +2585,11 @@
+@@ -2560,11 +2560,11 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:902
  msgid "no memory left to allocate unlock key buffer"
@@ -1193,7 +1168,7 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:1260
  msgid "Unknown Mode"
-@@ -2576,23 +2601,23 @@
+@@ -2576,23 +2576,23 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:1292
  msgid "in SRK mode, a key file must be specified: --tpm2key/-T or --keyfile/-k"
@@ -1222,7 +1197,7 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:1311
  msgid "an SRK cannot be specified when using NV index mode with a persistent handle"
-@@ -2604,16 +2629,17 @@
+@@ -2604,16 +2604,16 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:1352
  msgid "no memory to duplicate file path"
@@ -1238,12 +1213,11 @@
  #: grub-core/commands/tpm2_key_protector/module.c:1378
  msgid "the TPM2 key protector does not accept any non-option arguments (i.e., like -o and/or --option only)"
 -msgstr "TPM2-nyckelskyddet accepterar inga icke-flaggargument (dvs. endast -o och/eller --option)"
-+msgstr "TPM2-nyckelskyddet accepterar inga argument utan flagga (endast -o och/eller "
-+"--option)."
++msgstr "TPM2-nyckelskyddet accepterar inga argument utan flagga (endast -o och/eller --option)."
  
  #: grub-core/commands/tpm2_key_protector/module.c:1468
  msgid "tpm2_key_protector_clear accepts no arguments"
-@@ -2633,7 +2659,7 @@
+@@ -2633,7 +2633,7 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:1533
  msgid "Dump TPM2 PCRs"
@@ -1252,7 +1226,7 @@
  
  #: grub-core/commands/tpm2_key_protector/module.c:1534
  msgid "Print all PCRs of the specified TPM 2.0 bank"
-@@ -2658,12 +2684,12 @@
+@@ -2658,12 +2658,12 @@
  #. TRANSLATORS: it's a command description.
  #: grub-core/commands/true.c:50
  msgid "Do nothing, successfully."
@@ -1267,7 +1241,7 @@
  
  #: grub-core/commands/usbtest.c:221
  msgid "Test USB support."
-@@ -2695,7 +2721,7 @@
+@@ -2695,7 +2695,7 @@
  #. components of the same pixel.
  #: grub-core/commands/videoinfo.c:85
  msgid "Planar "
@@ -1276,7 +1250,7 @@
  
  #: grub-core/commands/videoinfo.c:87
  msgid "Hercules "
-@@ -2713,11 +2739,11 @@
+@@ -2713,11 +2713,11 @@
  
  #: grub-core/commands/videoinfo.c:95
  msgid "Monochrome "
@@ -1290,27 +1264,25 @@
  
  #: grub-core/commands/videoinfo.c:111
  msgid "  EDID checksum invalid"
-@@ -2778,7 +2804,8 @@
+@@ -2778,7 +2778,7 @@
  
  #: grub-core/commands/videoinfo.c:245 grub-core/commands/videoinfo.c:254
  msgid "List available video modes. If resolution is given show only modes matching it."
 -msgstr "Lista över tillgängliga videolägen. Om upplösning ges visas bara lägen som stödjer det."
-+msgstr "Lista tillgängliga videolägen. Om en upplösning anges visas endast lägen som "
-+"matchar den."
++msgstr "Lista tillgängliga videolägen. Om en upplösning anges visas endast lägen som matchar den."
  
  #. TRANSLATORS: "x" has to be entered in,
  #. like an identifier, so please don't
-@@ -2813,7 +2840,8 @@
+@@ -2813,7 +2813,7 @@
  
  #: grub-core/commands/xnu_uuid.c:111
  msgid "Transform 64-bit UUID to format suitable for XNU. If -l is given keep it lowercase as done by blkid."
 -msgstr "Transformera 64-bitars UUID till ett passande format för XNU. Om -l ges, behåll det i gemener precis som blkid."
-+msgstr "Transformera 64-bitars UUID till ett format som passar XNU. Om -l anges, "
-+"behåll det med gemener som blkid gör."
++msgstr "Transformera 64-bitars UUID till ett format som passar XNU. Om -l anges, behåll det med gemener som blkid gör."
  
  #: grub-core/disk/arc/arcdisk.c:248 grub-core/disk/efi/efidisk.c:613
  #: grub-core/disk/i386/pc/biosdisk.c:494 grub-core/disk/i386/pc/biosdisk.c:539
-@@ -2831,7 +2859,7 @@
+@@ -2831,7 +2831,7 @@
  
  #: grub-core/disk/cryptodisk.c:58
  msgid "Mount by UUID."
@@ -1319,7 +1291,7 @@
  
  #. TRANSLATORS: It's still restricted to cryptodisks only.
  #: grub-core/disk/cryptodisk.c:60
-@@ -2840,7 +2868,7 @@
+@@ -2840,7 +2840,7 @@
  
  #: grub-core/disk/cryptodisk.c:61
  msgid "Mount all volumes with `boot' flag set."
@@ -1328,7 +1300,7 @@
  
  #: grub-core/disk/cryptodisk.c:62
  msgid "Password to open volumes."
-@@ -2852,7 +2880,7 @@
+@@ -2852,7 +2852,7 @@
  
  #: grub-core/disk/cryptodisk.c:64
  msgid "Key file offset (bytes)"
@@ -1337,7 +1309,7 @@
  
  #: grub-core/disk/cryptodisk.c:65
  msgid "Key file data size (bytes)"
-@@ -2860,7 +2888,7 @@
+@@ -2860,7 +2860,7 @@
  
  #: grub-core/disk/cryptodisk.c:66
  msgid "Read header from file"
@@ -1346,7 +1318,7 @@
  
  #: grub-core/disk/cryptodisk.c:68
  msgid "Unlock volume(s) using key protector(s)."
-@@ -2905,7 +2933,7 @@
+@@ -2905,7 +2905,7 @@
  #: grub-core/disk/cryptodisk.c:749
  #, c-format
  msgid "failed to query size of device `%s': %s"
@@ -1355,7 +1327,7 @@
  
  #: grub-core/disk/cryptodisk.c:811 grub-core/disk/cryptodisk.c:855
  #: grub-core/kern/emu/hostdisk.c:270 grub-core/kern/emu/hostfs.c:142
-@@ -2922,7 +2950,7 @@
+@@ -2922,7 +2922,7 @@
  
  #: grub-core/disk/cryptodisk.c:1058
  msgid "header file too small"
@@ -1364,7 +1336,7 @@
  
  #: grub-core/disk/cryptodisk.c:1184 grub-core/disk/cryptodisk.c:1204
  #: grub-core/disk/cryptodisk.c:1263 grub-core/disk/cryptodisk.c:1847
-@@ -2938,7 +2966,7 @@
+@@ -2938,7 +2938,7 @@
  #: grub-core/disk/cryptodisk.c:1253
  #, c-format
  msgid "Invalid cryptodisk_passphrase_tries value `%s'. Defaulting to %lu.\n"
@@ -1373,7 +1345,7 @@
  
  #: grub-core/disk/cryptodisk.c:1261 grub-core/disk/cryptodisk.c:1845
  #, c-format
-@@ -2952,16 +2980,16 @@
+@@ -2952,16 +2952,16 @@
  #: grub-core/disk/cryptodisk.c:1464
  #, c-format
  msgid "non-numeric or invalid keyfile offset `%s'"
@@ -1393,7 +1365,7 @@
  
  #: grub-core/disk/cryptodisk.c:1483
  #, c-format
-@@ -2971,7 +2999,7 @@
+@@ -2971,7 +2971,7 @@
  #: grub-core/disk/cryptodisk.c:1494
  #, c-format
  msgid "Keyfile offset, %llu, is greater than keyfile size, %llu"
@@ -1402,7 +1374,7 @@
  
  #: grub-core/disk/cryptodisk.c:1505
  msgid "keyfile is too small: requested %llu bytes, but the file only has %"
-@@ -3044,12 +3072,12 @@
+@@ -3044,12 +3044,12 @@
  
  #: grub-core/disk/diskfilter.c:1485
  msgid "Check if a logical volume resides on encrypted disks."
@@ -1417,7 +1389,7 @@
  
  #: grub-core/disk/geli.c:75
  msgid "Couldn't load sha256"
-@@ -3077,13 +3105,13 @@
+@@ -3077,13 +3077,13 @@
  #: grub-core/disk/geli.c:517 grub-core/disk/luks.c:267
  #, c-format
  msgid "Slot %d opened\n"
@@ -1433,7 +1405,7 @@
  
  #: grub-core/disk/i386/pc/biosdisk.c:487 grub-core/disk/i386/pc/biosdisk.c:610
  #: grub-core/disk/scsi.c:724
-@@ -3096,7 +3124,7 @@
+@@ -3096,7 +3096,7 @@
  
  #: grub-core/disk/ieee1275/obdisk.c:138
  msgid "overflow detected while obtaining size of device name"
@@ -1442,7 +1414,7 @@
  
  #: grub-core/disk/ieee1275/obdisk.c:176
  msgid "overflow detected while obtaining encoding size"
-@@ -3126,13 +3154,13 @@
+@@ -3126,13 +3126,13 @@
  #. called "embedding".
  #: grub-core/disk/ldm.c:1086
  msgid "your LDM Embedding Partition is too small; embedding won't be possible"
@@ -1458,7 +1430,7 @@
  
  #. TRANSLATORS: The disk is simply removed from the list of available ones,
  #. not wiped, avoid to scare user.
-@@ -3142,11 +3170,11 @@
+@@ -3142,11 +3142,11 @@
  
  #: grub-core/disk/loopback.c:48
  msgid "Transparently decompress backing file."
@@ -1472,7 +1444,7 @@
  
  #. TRANSLATORS: The file itself is not destroyed
  #. or transformed into drive.
-@@ -3156,7 +3184,7 @@
+@@ -3156,7 +3156,7 @@
  
  #: grub-core/disk/luks2.c:398
  msgid "could not unescape Base64 string"
@@ -1481,7 +1453,7 @@
  
  #: grub-core/disk/luks2.c:403
  msgid "could not decode Base64 string"
-@@ -3168,7 +3196,7 @@
+@@ -3168,7 +3168,7 @@
  #: grub-core/disk/luks2.c:793
  #, c-format
  msgid "Slot \"%s\" opened\n"
@@ -1490,7 +1462,7 @@
  
  #. TRANSLATORS: It's still restricted to this module only.
  #: grub-core/disk/plainmount.c:50
-@@ -3193,7 +3221,7 @@
+@@ -3193,7 +3193,7 @@
  
  #: grub-core/disk/plainmount.c:55
  msgid "Keyfile path"
@@ -1499,7 +1471,7 @@
  
  #: grub-core/disk/plainmount.c:56
  msgid "Keyfile offset"
-@@ -3205,17 +3233,17 @@
+@@ -3205,17 +3205,17 @@
  
  #: grub-core/disk/plainmount.c:70
  msgid "cannot set specified key"
@@ -1520,7 +1492,7 @@
  
  #: grub-core/disk/plainmount.c:151
  msgid "overflow detected while allocating size of password buffer"
-@@ -3253,7 +3281,7 @@
+@@ -3253,7 +3253,7 @@
  
  #: grub-core/disk/plainmount.c:253
  msgid "invalid cipher mode, must be of format cipher-mode"
@@ -1529,7 +1501,7 @@
  
  #: grub-core/disk/plainmount.c:259
  msgid "password exceeds maximium size"
-@@ -3265,7 +3293,7 @@
+@@ -3265,7 +3265,7 @@
  
  #: grub-core/disk/plainmount.c:267
  msgid "specified UUID too short"
@@ -1538,7 +1510,7 @@
  
  #: grub-core/disk/plainmount.c:276
  msgid "unrecognized keyfile offset"
-@@ -3305,7 +3333,7 @@
+@@ -3305,7 +3305,7 @@
  #: grub-core/disk/plainmount.c:348
  #, c-format
  msgid "invalid mode %s"
@@ -1547,7 +1519,7 @@
  
  #: grub-core/disk/plainmount.c:350
  #, c-format
-@@ -3328,15 +3356,17 @@
+@@ -3328,15 +3328,15 @@
  
  #: grub-core/disk/plainmount.c:396
  msgid "warning: hash is ignored if keyfile is specified\n"
@@ -1557,18 +1529,16 @@
  #: grub-core/disk/plainmount.c:400
  msgid "warning: password specified with -p option is ignored if keyfile is provided\n"
 -msgstr "varning: lösenordet som anges med flaggan -p ignoreras om keyfile tillhandahålls\n"
-+msgstr "varning: lösenordet som anges med flaggan -p ignoreras om en nyckelfil "
-+"tillhandahålls\n"
++msgstr "varning: lösenordet som anges med flaggan -p ignoreras om en nyckelfil tillhandahålls\n"
  
  #: grub-core/disk/plainmount.c:405
  msgid "warning: keyfile offset option -O specified without keyfile option -d\n"
 -msgstr "varning: keyfile offset-flaggan -O anges utan keyfile-flaggan -d\n"
-+msgstr "varning: flaggan för nyckelfilsförskjutning -O anges utan flaggan för "
-+"nyckelfil -d\n"
++msgstr "varning: flaggan för nyckelfilsförskjutning -O anges utan flaggan för nyckelfil -d\n"
  
  #: grub-core/disk/plainmount.c:453
  msgid "-c cipher -s key-size [-h hash] [-S sector-size] [-o offset] [-p password] [-u uuid]  [[-d keyfile] [-O keyfile offset]] <SOURCE>"
-@@ -3344,7 +3374,7 @@
+@@ -3344,7 +3344,7 @@
  
  #: grub-core/disk/plainmount.c:456
  msgid "Open partition encrypted in plain mode."
@@ -1577,7 +1547,7 @@
  
  #: grub-core/efiemu/i386/loadcore32.c:111 grub-core/kern/arm/dl.c:256
  #: grub-core/kern/i386/dl.c:75 grub-core/kern/mips/dl.c:258
-@@ -3391,7 +3421,7 @@
+@@ -3391,7 +3391,7 @@
  
  #: grub-core/efiemu/main.c:320
  msgid "Unload EFI emulator."
@@ -1586,7 +1556,7 @@
  
  #: grub-core/efiemu/symbols.c:92 grub-core/kern/dl.c:404
  #, c-format
-@@ -3408,7 +3438,7 @@
+@@ -3408,7 +3408,7 @@
  
  #: grub-core/font/font_cmd.c:75
  msgid "Specify one or more font files to load."
@@ -1595,7 +1565,7 @@
  
  #: grub-core/font/font_cmd.c:78
  msgid "List the loaded fonts."
-@@ -3436,7 +3466,7 @@
+@@ -3436,7 +3436,7 @@
  #: grub-core/fs/bfs.c:229 grub-core/fs/fshelp.c:383 grub-core/fs/minix.c:273
  #: grub-core/kern/file.c:168
  msgid "attempt to read past the end of file"
@@ -1604,7 +1574,7 @@
  
  #: grub-core/fs/btrfs.c:1903
  msgid "directory item size overflow"
-@@ -3458,7 +3488,7 @@
+@@ -3458,7 +3458,7 @@
  #: grub-core/fs/btrfs.c:2410 grub-core/fs/zfs/zfs.c:4535
  #: grub-core/partmap/msdos.c:404
  msgid "your core.img is unusually large.  It won't fit in the embedding area"
@@ -1613,7 +1583,7 @@
  
  #: grub-core/fs/cpio_common.c:67 grub-core/fs/tar.c:180
  msgid "data size overflow"
-@@ -3470,7 +3500,7 @@
+@@ -3470,7 +3470,7 @@
  
  #: grub-core/fs/cpio_common.c:76 grub-core/fs/tar.c:193
  msgid "mode overflow"
@@ -1622,7 +1592,7 @@
  
  #: grub-core/fs/cpio_common.c:79
  msgid "namesize overflow"
-@@ -3527,7 +3557,7 @@
+@@ -3527,7 +3527,7 @@
  
  #: grub-core/fs/tar.c:166
  msgid "long name size overflow"
@@ -1631,7 +1601,7 @@
  
  #: grub-core/fs/xfs.c:817
  msgid "directory data size overflow"
-@@ -3539,7 +3569,7 @@
+@@ -3539,7 +3539,7 @@
  
  #: grub-core/fs/zfs/zfs.c:1528
  msgid "couldn't find a necessary member device of multi-device filesystem"
@@ -1640,7 +1610,7 @@
  
  #: grub-core/fs/zfs/zfs.c:3010 grub-core/fs/zfs/zfs.c:3093
  msgid "path buffer size overflow"
-@@ -3555,19 +3585,19 @@
+@@ -3555,19 +3555,19 @@
  
  #: grub-core/fs/zfs/zfscrypt.c:309
  msgid "MAC verification failed"
@@ -1664,7 +1634,7 @@
  
  #: grub-core/fs/zfs/zfscrypt.c:442 util/grub-fstest.c:564 util/grub-mount.c:503
  msgid "Enter ZFS password: "
-@@ -3579,7 +3609,7 @@
+@@ -3579,7 +3579,7 @@
  
  #: grub-core/fs/zfs/zfscrypt.c:482
  msgid "Import ZFS wrapping key stored in FILE."
@@ -1673,7 +1643,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:51
  msgid "Virtual device is removed"
-@@ -3597,7 +3627,7 @@
+@@ -3597,7 +3597,7 @@
  #. component are missing but virtual device as whole is still usable.
  #: grub-core/fs/zfs/zfsinfo.c:70
  msgid "Virtual device is degraded"
@@ -1682,7 +1652,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:73
  msgid "Virtual device is online"
-@@ -3614,7 +3644,7 @@
+@@ -3614,7 +3614,7 @@
  #. (or partitions) or files.
  #: grub-core/fs/zfs/zfsinfo.c:105
  msgid "Leaf virtual device (file or disk)"
@@ -1691,7 +1661,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:113
  msgid "Bootpath: unavailable\n"
-@@ -3627,7 +3657,7 @@
+@@ -3627,7 +3627,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:120
  msgid "Path: unavailable"
@@ -1700,7 +1670,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:122
  #, c-format
-@@ -3659,7 +3689,7 @@
+@@ -3659,7 +3659,7 @@
  #: grub-core/fs/zfs/zfsinfo.c:161
  #, c-format
  msgid "VDEV with %d children\n"
@@ -1709,7 +1679,7 @@
  
  #. TRANSLATORS: it's the element carying the number %d, not
  #. total element number. And the number itself is fine,
-@@ -3668,7 +3698,7 @@
+@@ -3668,7 +3668,7 @@
  #: grub-core/fs/zfs/zfsinfo.c:177
  #, c-format
  msgid "VDEV element number %d isn't correct\n"
@@ -1718,7 +1688,7 @@
  
  #. TRANSLATORS: it's the element carying the number %d, not
  #. total element number. This is used in enumeration
-@@ -3716,7 +3746,7 @@
+@@ -3716,7 +3716,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:261
  msgid "Pool state: potentially active"
@@ -1727,7 +1697,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:306
  msgid "Pool name: unavailable"
-@@ -3749,7 +3779,7 @@
+@@ -3749,7 +3749,7 @@
  #.
  #: grub-core/fs/zfs/zfsinfo.c:332
  msgid "No virtual device tree available"
@@ -1736,7 +1706,7 @@
  
  #: grub-core/fs/zfs/zfsinfo.c:434
  msgid "Print ZFS info about DEVICE."
-@@ -3776,7 +3806,7 @@
+@@ -3776,7 +3776,7 @@
  #.
  #: grub-core/gdb/gdb.c:86
  msgid "Start GDB stub on given port"
@@ -1745,7 +1715,7 @@
  
  #. TRANSLATORS: this refers to triggering
  #. a breakpoint so that the user will land
-@@ -3784,11 +3814,11 @@
+@@ -3784,11 +3784,11 @@
  #.
  #: grub-core/gdb/gdb.c:93
  msgid "Break into GDB"
@@ -1759,20 +1729,17 @@
  
  #: grub-core/gettext/gettext.c:86
  msgid "premature end of file"
-@@ -3804,20 +3834,23 @@
+@@ -3804,20 +3804,20 @@
  
  #: grub-core/gfxmenu/gui_label.c:186 grub-core/normal/menu_text.c:186
  msgid "Press enter to boot the selected OS, `e' to edit the commands before booting or `c' for a command-line. ESC to return previous menu."
 -msgstr "Tryck retur för att starta upp markerat OS, ”e” för att redigera kommandon innan start eller ”c” för kommandorad. ESC för att återgå till föregående meny."
-+msgstr "Tryck på Retur för att starta det markerade OS:et, ”e” för att redigera "
-+"kommandona före start eller ”c” för en kommandorad. Esc för att återgå till "
-+"föregående meny."
++msgstr "Tryck på Retur för att starta det markerade OS:et, ”e” för att redigera kommandona före start eller ”c” för en kommandorad. Esc för att återgå till föregående meny."
  
  #: grub-core/gfxmenu/gui_label.c:190 grub-core/normal/menu_text.c:194
  msgid "Press enter to boot the selected OS, `e' to edit the commands before booting or `c' for a command-line."
 -msgstr "Tryck retur för att starta upp markerat OS, ”e” för att redigera kommandon innan start eller ”c” för kommandorad."
-+msgstr "Tryck på Retur för att starta det markerade OS:et, ”e” för att redigera "
-+"kommandona före start eller ”c” för en kommandorad."
++msgstr "Tryck på Retur för att starta det markerade OS:et, ”e” för att redigera kommandona före start eller ”c” för en kommandorad."
  
  #: grub-core/gfxmenu/gui_label.c:194
  msgid "enter: boot, `e': options, `c': cmd-line"
@@ -1787,7 +1754,7 @@
  
  #. TRANSLATORS:  's' stands for seconds.
  #. It's a standalone timeout notification.
-@@ -3838,7 +3871,7 @@
+@@ -3838,7 +3838,7 @@
  
  #: grub-core/gfxmenu/view.c:103
  msgid "GRUB Boot Menu"
@@ -1796,7 +1763,7 @@
  
  #: grub-core/hello/hello.c:36
  msgid "Hello World"
-@@ -3864,11 +3897,11 @@
+@@ -3864,11 +3864,11 @@
  
  #: grub-core/io/xzio.c:278
  msgid "xz file corrupted or unsupported block options"
@@ -1810,7 +1777,7 @@
  
  #: grub-core/kern/arm/dl.c:277 grub-core/kern/arm64/dl.c:44
  #: grub-core/kern/i386/dl.c:36 grub-core/kern/ia64/dl.c:41
-@@ -3881,7 +3914,7 @@
+@@ -3881,7 +3881,7 @@
  #: grub-core/loader/powerpc/ieee1275/linux.c:305
  #: grub-core/loader/sparc64/ieee1275/linux.c:331
  msgid "invalid arch-dependent ELF magic"
@@ -1819,7 +1786,7 @@
  
  #: grub-core/kern/buffer.c:74
  msgid "requested buffer size is too large"
-@@ -3889,7 +3922,7 @@
+@@ -3889,7 +3889,7 @@
  
  #: grub-core/kern/buffer.c:115
  msgid "new read is position beyond the end of the written data"
@@ -1828,7 +1795,7 @@
  
  #: grub-core/kern/corecmd.c:181
  msgid "[ENVVAR=VALUE]"
-@@ -3926,14 +3959,14 @@
+@@ -3926,14 +3926,14 @@
  
  #: grub-core/kern/disk_common.c:27
  msgid "attempt to read or write outside of partition"
@@ -1845,7 +1812,7 @@
  
  #: grub-core/kern/efi/debug.c:37
  msgid "Print infomation useful for GDB debugging"
-@@ -3962,12 +3995,12 @@
+@@ -3962,12 +3962,12 @@
  
  #: grub-core/kern/elfXX.c:215
  msgid "NULL pointer passed for shnum"
@@ -1860,7 +1827,7 @@
  
  #: grub-core/kern/elfXX.c:227 grub-core/kern/elfXX.c:261
  #: grub-core/kern/elfXX.c:294
-@@ -3984,7 +4017,7 @@
+@@ -3984,7 +3984,7 @@
  
  #: grub-core/kern/elfXX.c:249
  msgid "NULL pointer passed for shstrndx"
@@ -1869,7 +1836,7 @@
  
  #: grub-core/kern/elfXX.c:266
  #, c-format
-@@ -3998,7 +4031,7 @@
+@@ -3998,7 +3998,7 @@
  
  #: grub-core/kern/elfXX.c:282
  msgid "NULL pointer passed for phnum"
@@ -1878,27 +1845,25 @@
  
  #: grub-core/kern/elfXX.c:299
  #, c-format
-@@ -4034,7 +4067,8 @@
+@@ -4034,7 +4034,7 @@
  #: grub-core/kern/emu/hostdisk.c:503
  #, c-format
  msgid "the device.map entry `%s' is invalid. Ignoring it. Please correct or delete your device.map"
 -msgstr "enhetsmappningen ”%s” är ogiltig. Ignorerar den. Reparera eller ta bort din enhetsmappning"
-+msgstr "enhetsmappningsposten ”%s” är ogiltig. Ignorerar den. Rätta eller ta bort din "
-+"enhetsmappning"
++msgstr "enhetsmappningsposten ”%s” är ogiltig. Ignorerar den. Rätta eller ta bort din enhetsmappning"
  
  #. TRANSLATORS: device.map is a filename. Not to be translated.
  #. device.map specifies disk correspondance overrides. Previously
-@@ -4044,7 +4078,8 @@
+@@ -4044,7 +4044,7 @@
  #: grub-core/kern/emu/hostdisk.c:555
  #, c-format
  msgid "the drive name `%s' in device.map is incorrect. Using %s instead. Please use the form [hfc]d[0-9]* (E.g. `hd0' or `cd')"
 -msgstr "enhetsnamnet ”%s” för enhetsmappningen är felaktig. Använder %s istället. Använd formen [hfc]d[0-9]* (exempelvis ”hd0” eller ”cd”)"
-+msgstr "enhetsnamnet ”%s” i enhetsmappningen är felaktigt. Använder %s i stället. "
-+"Använd formen [hfc]d[0-9]* (t.ex. ”hd0” eller ”cd”)"
++msgstr "enhetsnamnet ”%s” i enhetsmappningen är felaktigt. Använder %s i stället. Använd formen [hfc]d[0-9]* (t.ex. ”hd0” eller ”cd”)"
  
  #: grub-core/kern/emu/hostfs.c:76 grub-core/kern/emu/hostfs.c:109
  #, c-format
-@@ -4064,17 +4099,17 @@
+@@ -4064,17 +4064,17 @@
  #: grub-core/kern/emu/main.c:102 util/grub-probe.c:733 util/grub-setup.c:85
  #, c-format
  msgid "use FILE as the device map [default=%s]"
@@ -1919,7 +1884,7 @@
  
  #: grub-core/kern/emu/main.c:108 include/grub/util/install.h:77
  #: util/grub-editenv.c:61 util/grub-fstest.c:536 util/grub-glue-efi.c:58
-@@ -4082,7 +4117,7 @@
+@@ -4082,7 +4082,7 @@
  #: util/grub-mklayout.c:56 util/grub-mount.c:478 util/grub-render-label.c:74
  #: util/grub-script-check.c:52 util/grub-setup.c:90 util/grub-syslinux2cfg.c:78
  msgid "print verbose messages."
@@ -1928,7 +1893,7 @@
  
  #: grub-core/kern/emu/main.c:109
  msgid "SECS"
-@@ -4090,11 +4125,12 @@
+@@ -4090,11 +4090,11 @@
  
  #: grub-core/kern/emu/main.c:109
  msgid "wait until a debugger will attach"
@@ -1938,12 +1903,11 @@
  #: grub-core/kern/emu/main.c:110
  msgid "use kexec to boot Linux kernels via systemctl (pass twice to enable dangerous fallback to non-systemctl)."
 -msgstr "använd kexec för att starta Linux-kärnor via systemctl (skicka två gånger för att aktivera farlig fallback till icke-systemctl)."
-+msgstr "använd kexec för att starta Linux-kärnor via systemctl (ange två gånger för "
-+"att aktivera den riskabla reservvägen utan systemctl)."
++msgstr "använd kexec för att starta Linux-kärnor via systemctl (ange två gånger för att aktivera den riskabla reservvägen utan systemctl)."
  
  #: grub-core/kern/emu/main.c:111
  msgid "DEV"
-@@ -4102,7 +4138,7 @@
+@@ -4102,7 +4102,7 @@
  
  #: grub-core/kern/emu/main.c:111
  msgid "set TPM device."
@@ -1952,7 +1916,7 @@
  
  #: grub-core/kern/emu/main.c:180 util/grub-macbless.c:143
  #: util/grub-mkrelpath.c:61 util/grub-probe.c:875 util/grub-script-check.c:75
-@@ -4155,7 +4191,7 @@
+@@ -4155,7 +4155,7 @@
  #: grub-core/kern/emu/misc.c:246
  #, c-format
  msgid "cannot open TPM device '%s': %s"
@@ -1961,7 +1925,7 @@
  
  #: grub-core/kern/emu/misc.c:261
  #, c-format
-@@ -4195,7 +4231,7 @@
+@@ -4195,7 +4195,7 @@
  #: grub-core/kern/partition.c:54 grub-core/partmap/bsdlabel.c:108
  #, c-format
  msgid "Discarding improperly nested partition (%s,%s,%s%d)"
@@ -1970,7 +1934,7 @@
  
  #: grub-core/kern/partition.c:139
  msgid "invalid partition number"
-@@ -4209,7 +4245,7 @@
+@@ -4209,7 +4209,7 @@
  #: grub-core/kern/verifiers.c:120
  #, c-format
  msgid "verification requested but nobody cares: %s"
@@ -1979,7 +1943,7 @@
  
  #: grub-core/kern/verifiers.c:140
  msgid "big file signature isn't implemented yet"
-@@ -4240,7 +4276,7 @@
+@@ -4240,7 +4240,7 @@
  
  #: grub-core/lib/backtrace.c:64
  msgid "Print backtrace."
@@ -1988,7 +1952,7 @@
  
  #: grub-core/lib/datetime.c:32
  msgid "Sunday"
-@@ -4277,7 +4313,7 @@
+@@ -4277,7 +4277,7 @@
  
  #: grub-core/lib/i386/halt.c:77
  msgid "GRUB doesn't know how to halt this machine yet!"
@@ -1997,7 +1961,7 @@
  
  #: grub-core/lib/json/json.c:274
  msgid "output parameters are not set"
-@@ -4285,21 +4321,21 @@
+@@ -4285,21 +4285,21 @@
  
  #: grub-core/lib/json/json.c:287
  msgid "expected escaped character"
@@ -2023,7 +1987,7 @@
  
  #: grub-core/lib/legacy_parse.c:75
  msgid "Default server is ${net_default_server}"
-@@ -4322,7 +4358,7 @@
+@@ -4322,7 +4322,7 @@
  
  #: grub-core/lib/random.c:114
  msgid "Hexdump random data."
@@ -2032,7 +1996,7 @@
  
  #: grub-core/loader/arm/linux.c:243
  msgid "device tree must be supplied (see `devicetree' command)"
-@@ -4366,11 +4402,11 @@
+@@ -4366,11 +4366,11 @@
  
  #: grub-core/loader/arm64/xen_boot.c:408
  msgid "you need to load the Xen Hypervisor first"
@@ -2046,7 +2010,7 @@
  
  #: grub-core/loader/arm64/xen_boot.c:507
  msgid "Load a xen module."
-@@ -4385,7 +4421,7 @@
+@@ -4385,7 +4385,7 @@
  #. BIOS.
  #: grub-core/loader/efi/appleloader.c:235
  msgid "Boot BIOS-based system."
@@ -2055,7 +2019,7 @@
  
  #: grub-core/loader/efi/chainloader.c:435
  #: grub-core/loader/i386/pc/chainloader.c:303
-@@ -4426,12 +4462,12 @@
+@@ -4426,12 +4426,12 @@
  
  #: grub-core/loader/emu/linux.c:65
  msgid "error trying to perform kexec load operation"
@@ -2070,7 +2034,7 @@
  
  #: grub-core/loader/emu/linux.c:82
  #, c-format
-@@ -4455,7 +4491,7 @@
+@@ -4455,7 +4455,7 @@
  
  #: grub-core/loader/i386/bsd.c:104
  msgid "Display output on all consoles."
@@ -2079,7 +2043,7 @@
  
  #: grub-core/loader/i386/bsd.c:105 grub-core/loader/i386/bsd.c:139
  #: grub-core/loader/i386/bsd.c:172
-@@ -4465,7 +4501,7 @@
+@@ -4465,7 +4465,7 @@
  #: grub-core/loader/i386/bsd.c:106 grub-core/loader/i386/bsd.c:132
  #: grub-core/loader/i386/bsd.c:160
  msgid "Ask for file name to reboot from."
@@ -2088,7 +2052,7 @@
  
  #: grub-core/loader/i386/bsd.c:107
  msgid "Use CD-ROM as root."
-@@ -4486,11 +4522,11 @@
+@@ -4486,11 +4486,11 @@
  
  #: grub-core/loader/i386/bsd.c:111
  msgid "Disable all boot output."
@@ -2102,7 +2066,7 @@
  
  #: grub-core/loader/i386/bsd.c:115
  msgid "Use compiled-in root device."
-@@ -4503,11 +4539,11 @@
+@@ -4503,11 +4503,11 @@
  
  #: grub-core/loader/i386/bsd.c:117 grub-core/loader/i386/bsd.c:167
  msgid "Boot with verbose messages."
@@ -2116,7 +2080,7 @@
  
  #: grub-core/loader/i386/bsd.c:134 grub-core/loader/i386/bsd.c:162
  msgid "Change configured devices."
-@@ -4518,7 +4554,7 @@
+@@ -4518,7 +4518,7 @@
  #.
  #: grub-core/loader/i386/bsd.c:143
  msgid "comUNIT[,SPEED]"
@@ -2125,7 +2089,7 @@
  
  #: grub-core/loader/i386/bsd.c:158
  msgid "Disable SMP."
-@@ -4538,14 +4574,14 @@
+@@ -4538,14 +4538,14 @@
  
  #: grub-core/loader/i386/bsd.c:169
  msgid "Suppress normal output (warnings remain)."
@@ -2142,7 +2106,7 @@
  
  #: grub-core/loader/i386/bsd.c:490 grub-core/loader/i386/bsd.c:556
  msgid "name"
-@@ -4612,20 +4648,21 @@
+@@ -4612,20 +4612,20 @@
  
  #: grub-core/loader/i386/linux.c:911
  msgid "Legacy `ask' parameter no longer supported."
@@ -2162,12 +2126,11 @@
  #, c-format
  msgid "%s is deprecated. VGA mode %d isn't recognized. Use set gfxpayload=WIDTHxHEIGHT[xDEPTH] before linux command instead.\n"
 -msgstr "%s är föråldrat. VGA-läget %d känns inte igen. Använd set gfxpayload=BREDDxHÖJD[xDJUP] före linuxkommandot istället.\n"
-+msgstr "%s är föråldrat. VGA-läget %d känns inte igen. Använd set "
-+"gfxpayload=BREDDxHÖJD[xDJUP] före Linux-kommandot i stället.\n"
++msgstr "%s är föråldrat. VGA-läget %d känns inte igen. Använd set gfxpayload=BREDDxHÖJD[xDJUP] före Linux-kommandot i stället.\n"
  
  #: grub-core/loader/i386/linux.c:1121
  msgid "the size of initrd is bigger than addr_max"
-@@ -4664,7 +4701,7 @@
+@@ -4664,7 +4664,7 @@
  
  #: grub-core/loader/i386/pc/plan9.c:599
  msgid "KERNEL ARGS"
@@ -2176,7 +2139,7 @@
  
  #: grub-core/loader/i386/pc/plan9.c:599
  msgid "Load Plan9 kernel."
-@@ -4684,7 +4721,7 @@
+@@ -4684,7 +4684,7 @@
  
  #: grub-core/loader/i386/xen.c:974
  msgid "Load module."
@@ -2185,7 +2148,7 @@
  
  #: grub-core/loader/i386/xnu.c:998
  msgid "Press any key to launch xnu"
-@@ -4728,7 +4765,7 @@
+@@ -4728,7 +4728,7 @@
  
  #: grub-core/loader/multiboot.c:444
  msgid "Load a multiboot 2 kernel."
@@ -2194,7 +2157,7 @@
  
  #: grub-core/loader/multiboot.c:447
  msgid "Load a multiboot 2 module."
-@@ -4736,11 +4773,11 @@
+@@ -4736,11 +4736,11 @@
  
  #: grub-core/loader/multiboot.c:450
  msgid "Load a multiboot kernel."
@@ -2208,7 +2171,7 @@
  
  #: grub-core/loader/multiboot_elfxx.c:208
  msgid "memory being set is larger than allocated memory"
-@@ -4748,7 +4785,7 @@
+@@ -4748,7 +4748,7 @@
  
  #: grub-core/loader/multiboot_elfxx.c:254
  msgid "ELF section header region is larger than the file size"
@@ -2217,7 +2180,7 @@
  
  #: grub-core/loader/xnu.c:674
  msgid "missing p-list filename"
-@@ -4843,20 +4880,20 @@
+@@ -4843,20 +4843,20 @@
  
  #: grub-core/net/bootp.c:705
  msgid "no DHCP info found"
@@ -2242,7 +2205,7 @@
  
  #: grub-core/net/bootp.c:735 grub-core/net/bootp.c:773
  msgid "tag length overflow"
-@@ -4865,7 +4902,7 @@
+@@ -4865,7 +4865,7 @@
  #: grub-core/net/bootp.c:794
  #, c-format
  msgid "unrecognised DHCP option format specification `%s'"
@@ -2251,7 +2214,7 @@
  
  #: grub-core/net/bootp.c:818
  msgid "no network card found"
-@@ -4882,11 +4919,11 @@
+@@ -4882,11 +4882,11 @@
  
  #: grub-core/net/bootp.c:928
  msgid "perform a bootp autoconfiguration"
@@ -2265,7 +2228,7 @@
  
  #: grub-core/net/bootp.c:933
  msgid "VAR INTERFACE NUMBER DESCRIPTION"
-@@ -4894,7 +4931,7 @@
+@@ -4894,7 +4894,7 @@
  
  #: grub-core/net/bootp.c:934
  msgid "retrieve DHCP option and save it into VAR. If VAR is - then print the value."
@@ -2274,7 +2237,7 @@
  
  #: grub-core/net/dns.c:465
  msgid "no DNS servers configured"
-@@ -4934,7 +4971,7 @@
+@@ -4934,7 +4934,7 @@
  
  #: grub-core/net/dns.c:771
  msgid "Perform a DNS lookup"
@@ -2283,7 +2246,7 @@
  
  #: grub-core/net/dns.c:773 grub-core/net/dns.c:776
  msgid "DNSSERVER"
-@@ -4975,11 +5012,11 @@
+@@ -4975,11 +4975,11 @@
  #: grub-core/net/drivers/ieee1275/ofnet.c:452
  #: grub-core/net/drivers/ieee1275/ofnet.c:461
  msgid "overflow detected while obatining size of ofdata path"
@@ -2297,7 +2260,7 @@
  
  #: grub-core/net/http.c:109
  msgid "unsupported HTTP response"
-@@ -4999,7 +5036,7 @@
+@@ -4999,7 +4999,7 @@
  
  #: grub-core/net/net.c:185
  msgid "timeout: could not resolve hardware address"
@@ -2306,7 +2269,7 @@
  
  #: grub-core/net/net.c:583
  #, c-format
-@@ -5013,7 +5050,7 @@
+@@ -5013,7 +5013,7 @@
  
  #: grub-core/net/net.c:696
  msgid "destination unreachable"
@@ -2315,7 +2278,7 @@
  
  #. TRANSLATORS: route loop is a condition when e.g.
  #. to contact server A you need to go through B
-@@ -5028,7 +5065,7 @@
+@@ -5028,7 +5028,7 @@
  
  #: grub-core/net/net.c:739
  msgid "you can't delete this address"
@@ -2324,7 +2287,7 @@
  
  #: grub-core/net/net.c:811 grub-core/net/net.c:841
  #, c-format
-@@ -5046,21 +5083,21 @@
+@@ -5046,21 +5046,21 @@
  
  #: grub-core/net/net.c:1104
  msgid "card not found"
@@ -2350,7 +2313,7 @@
  
  #. TRANSLATORS: it refers to the network address.
  #: grub-core/net/net.c:1284
-@@ -5078,11 +5115,11 @@
+@@ -5078,11 +5078,11 @@
  
  #: grub-core/net/net.c:1435
  msgid "mismatched [ in address"
@@ -2364,7 +2327,7 @@
  
  #: grub-core/net/net.c:1462
  msgid "overflow detected while obtaining length of host"
-@@ -5091,7 +5128,7 @@
+@@ -5091,7 +5091,7 @@
  #: grub-core/net/net.c:1836
  #, c-format
  msgid "timeout reading `%s'"
@@ -2373,7 +2336,7 @@
  
  #. TRANSLATORS: HWADDRESS stands for
  #. "hardware address".
-@@ -5109,7 +5146,7 @@
+@@ -5109,7 +5109,7 @@
  
  #: grub-core/net/net.c:2105
  msgid "Perform an IPV6 autoconfiguration"
@@ -2382,7 +2345,7 @@
  
  #: grub-core/net/net.c:2108 grub-core/net/net.c:2115
  msgid "SHORTNAME"
-@@ -5138,19 +5175,19 @@
+@@ -5138,19 +5138,19 @@
  
  #: grub-core/net/net.c:2119
  msgid "Set an interface's vlan id."
@@ -2406,7 +2369,7 @@
  
  #: grub-core/net/tcp.c:723
  msgid "connection refused"
-@@ -5178,30 +5215,30 @@
+@@ -5178,30 +5178,30 @@
  
  #: grub-core/normal/cmdline.c:175 grub-core/normal/menu_entry.c:1077
  msgid "Possible commands are:"
@@ -2443,18 +2406,16 @@
  
  #: grub-core/normal/color.c:81
  #, c-format
-@@ -5242,7 +5279,9 @@
+@@ -5242,7 +5242,7 @@
  #: grub-core/normal/main.c:387
  #, c-format
  msgid "Minimal BASH-like line editing is supported. For the first word, TAB lists possible command completions. Anywhere else TAB lists possible device or file completions. To enable less(1)-like paging, \"set pager=1\". %s"
 -msgstr "Minimal BASH-liknande radredigering stöds. För det första ordet listar TAB möjliga kompletteringsalternativ. I övriga fall visar TAB möjliga enheter eller filnamn för komplettering. För att aktivera less(1)-liknade paging, \"set pager=1\". %s"
-+msgstr "Minimal BASH-liknande radredigering stöds. För det första ordet listar Tab "
-+"möjliga kommandoavslutningar. I övriga fall listar Tab möjliga enhets- eller "
-+"filavslutningar. Aktivera less(1)-liknande sidindelning med ”set pager=1”. %s"
++msgstr "Minimal BASH-liknande radredigering stöds. För det första ordet listar Tab möjliga kommandoavslutningar. I övriga fall listar Tab möjliga enhets- eller filavslutningar. Aktivera less(1)-liknande sidindelning med ”set pager=1”. %s"
  
  #. TRANSLATORS: it's command line prompt.
  #: grub-core/normal/main.c:420
-@@ -5264,7 +5303,7 @@
+@@ -5264,7 +5264,7 @@
  
  #: grub-core/normal/main.c:560
  msgid "Exit from normal mode."
@@ -2463,7 +2424,7 @@
  
  #: grub-core/normal/menu.c:67 grub-core/normal/menu_entry.c:1462
  msgid "Press any key to continue..."
-@@ -5278,7 +5317,7 @@
+@@ -5278,7 +5278,7 @@
  #: grub-core/normal/menu.c:836
  #, c-format
  msgid "Falling back to `%s'"
@@ -2472,7 +2433,7 @@
  
  #: grub-core/normal/menu.c:852
  msgid "Failed to boot both default and fallback entries.\n"
-@@ -5286,11 +5325,13 @@
+@@ -5286,11 +5286,11 @@
  
  #: grub-core/normal/menu_entry.c:1180
  msgid "Booting a command list"
@@ -2482,13 +2443,11 @@
  #: grub-core/normal/menu_text.c:160
  msgid "Minimum Emacs-like screen editing is supported. TAB lists completions. Press Ctrl-x or F10 to boot, Ctrl-c or F2 for a command-line or ESC to discard edits and return to the GRUB menu."
 -msgstr "Minimal Emacs-liknande skärmredigering stöds. TAB listar kompletteringsalternativ. Tryck Ctrl-x eller F10 för att starta, Ctrl-c eller F2 för kommandorad eller ESC för att förkasta ändringar och återgå till GRUB-menyn."
-+msgstr "Minimal Emacs-liknande skärmredigering stöds. Tab listar avslutningar. Tryck "
-+"på Ctrl-x eller F10 för att starta, Ctrl-c eller F2 för en kommandorad eller "
-+"Esc för att förkasta ändringarna och återgå till GRUB-menyn."
++msgstr "Minimal Emacs-liknande skärmredigering stöds. Tab listar avslutningar. Tryck på Ctrl-x eller F10 för att starta, Ctrl-c eller F2 för en kommandorad eller Esc för att förkasta ändringarna och återgå till GRUB-menyn."
  
  #: grub-core/normal/menu_text.c:170
  #, c-format
-@@ -5406,7 +5447,7 @@
+@@ -5406,7 +5406,7 @@
  #: grub-core/normal/misc.c:174
  #, c-format
  msgid " - Partition start at %llu%sKiB"
@@ -2497,7 +2456,7 @@
  
  #: grub-core/normal/misc.c:178
  #, c-format
-@@ -5420,7 +5461,7 @@
+@@ -5420,7 +5420,7 @@
  #: grub-core/normal/misc.c:182
  #, c-format
  msgid " - Total size %llu%sKiB"
@@ -2506,7 +2465,7 @@
  
  #. TRANSLATORS: Replace dot with appropriate decimal separator for
  #. your language.
-@@ -5471,28 +5512,28 @@
+@@ -5471,28 +5471,28 @@
  
  #: grub-core/osdep/devmapper/getroot.c:78
  msgid "Failed to create `device-mapper' tree"
@@ -2540,7 +2499,7 @@
  
  #: grub-core/osdep/devmapper/getroot.c:237
  msgid "can't create dm task DM_DEVICE_TABLE"
-@@ -5511,26 +5552,26 @@
+@@ -5511,26 +5511,26 @@
  #: grub-core/osdep/devmapper/getroot.c:249
  #, c-format
  msgid "dm target of type `%s' is not `crypt'"
@@ -2572,7 +2531,7 @@
  
  #. TRANSLATORS: geom is the name of (k)FreeBSD device framework.
  #. Usually left untranslated.
-@@ -5542,7 +5583,7 @@
+@@ -5542,7 +5542,7 @@
  
  #: grub-core/osdep/freebsd/getroot.c:182 grub-core/osdep/freebsd/getroot.c:277
  msgid "couldn't find geli consumer"
@@ -2581,13 +2540,12 @@
  
  #: grub-core/osdep/freebsd/getroot.c:282
  msgid "couldn't retrieve geli UUID"
-@@ -5608,12 +5649,13 @@
+@@ -5608,12 +5608,12 @@
  #: grub-core/osdep/hurd/getroot.c:109
  #, c-format
  msgid "translator `%s' for path `%s' is given only options, cannot find device part"
 -msgstr "översättaren ”%s” för sökvägen ”%s”  har bara fått flaggor, kan inte hitta enhetsdelen"
-+msgstr "översättaren ”%s” för sökvägen ”%s” har endast flaggor; kan inte hitta "
-+"enhetsdelen"
++msgstr "översättaren ”%s” för sökvägen ”%s” har endast flaggor; kan inte hitta enhetsdelen"
  
  #: grub-core/osdep/hurd/hostdisk.c:73
  #, c-format
@@ -2597,17 +2555,16 @@
  
  #: grub-core/osdep/hurd/hostdisk.c:75
  #, c-format
-@@ -5623,7 +5665,8 @@
+@@ -5623,7 +5623,7 @@
  #: grub-core/osdep/hurd/hostdisk.c:78
  #, c-format
  msgid "Storage information for `%s' indicates neither a plain partition nor a plain disk"
 -msgstr "Lagringsinformationen för ”%s” indikerar varken en vanlig partition eller en vanlig disk"
-+msgstr "Lagringsinformationen för ”%s” anger varken en vanlig partition eller en "
-+"vanlig disk"
++msgstr "Lagringsinformationen för ”%s” anger varken en vanlig partition eller en vanlig disk"
  
  #: grub-core/osdep/linux/blocklist.c:81 grub-core/osdep/linux/blocklist.c:96
  #: grub-core/osdep/linux/blocklist.c:122
-@@ -5633,11 +5676,11 @@
+@@ -5633,11 +5633,11 @@
  
  #: grub-core/osdep/linux/blocklist.c:84
  msgid "blocksize is not divisible by 512"
@@ -2621,7 +2578,7 @@
  
  #: grub-core/osdep/linux/blocklist.c:90 util/setup.c:747
  msgid "can't retrieve blocklists"
-@@ -5646,7 +5689,7 @@
+@@ -5646,7 +5646,7 @@
  #: grub-core/osdep/linux/getroot.c:152
  #, c-format
  msgid "ioctl RAID_VERSION error: %s"
@@ -2630,7 +2587,7 @@
  
  #: grub-core/osdep/linux/getroot.c:158 grub-core/osdep/linux/getroot.c:162
  #, c-format
-@@ -5656,12 +5699,12 @@
+@@ -5656,12 +5656,12 @@
  #: grub-core/osdep/linux/getroot.c:167
  #, c-format
  msgid "ioctl GET_ARRAY_INFO error: %s"
@@ -2645,17 +2602,16 @@
  
  #: grub-core/osdep/linux/getroot.c:611 grub-core/osdep/linux/getroot.c:682
  #: grub-core/osdep/unix/getroot.c:249 grub-core/osdep/unix/getroot.c:638
-@@ -5678,7 +5721,8 @@
+@@ -5678,7 +5678,7 @@
  #: grub-core/osdep/linux/ofpath.c:181
  #, c-format
  msgid "`obppath' not found in parent dirs of `%s', no IEEE1275 name discovery"
 -msgstr "”obppath” hittade inte föräldrakatalogerna för ”%s”, ingen IEEE1275-namnidentifiering"
-+msgstr "”obppath” hittades inte i föräldrakatalogerna till ”%s”; ingen "
-+"IEEE1275-namnidentifiering"
++msgstr "”obppath” hittades inte i föräldrakatalogerna till ”%s”; ingen IEEE1275-namnidentifiering"
  
  #: grub-core/osdep/linux/ofpath.c:222 grub-core/osdep/unix/getroot.c:501
  #: grub-core/osdep/unix/getroot.c:525 grub-core/osdep/unix/relpath.c:49
-@@ -5701,7 +5745,7 @@
+@@ -5701,7 +5701,7 @@
  #: grub-core/osdep/unix/exec.c:217
  #, c-format
  msgid "Unable to fork: %s"
@@ -2664,7 +2620,7 @@
  
  #: grub-core/osdep/unix/exec.c:166 grub-core/osdep/unix/exec.c:211
  #, c-format
-@@ -5724,17 +5768,17 @@
+@@ -5724,17 +5724,17 @@
  #: util/grub-macbless.c:70
  #, c-format
  msgid "cannot stat `%s': %s"
@@ -2685,7 +2641,7 @@
  
  #: grub-core/osdep/unix/platform.c:77
  #, c-format
-@@ -5781,11 +5825,11 @@
+@@ -5781,11 +5781,11 @@
  
  #: grub-core/osdep/windows/hostdisk.c:499 util/grub-install.c:581
  msgid "couldn't retrieve random data"
@@ -2699,13 +2655,12 @@
  
  #: grub-core/osdep/windows/platform.c:225
  msgid "no EFI routines are available when running in BIOS mode"
-@@ -5801,11 +5845,12 @@
+@@ -5801,11 +5801,11 @@
  
  #: grub-core/partmap/gpt.c:195
  msgid "this GPT partition label contains no BIOS Boot Partition; embedding won't be possible"
 -msgstr "denna GPT-partitionsetikett har ingen BIOS-startpartition; inbäddning kommer inte vara möjlig"
-+msgstr "denna GPT-partitionstabell har ingen BIOS-startpartition; det går inte att "
-+"bädda in"
++msgstr "denna GPT-partitionstabell har ingen BIOS-startpartition; det går inte att bädda in"
  
  #: grub-core/partmap/gpt.c:203
  msgid "your BIOS Boot Partition is too small; embedding won't be possible"
@@ -2714,34 +2669,28 @@
  
  #. TRANSLATORS: MBR gap and boot track is the same thing and is the space
  #. between MBR and first partitition. If your language translates well only
-@@ -5816,28 +5861,34 @@
+@@ -5816,28 +5816,28 @@
  #: grub-core/partmap/msdos.c:51
  #, c-format
  msgid "Sector %llu is already in use by raid controller `%s'; avoiding it.  Please ask the manufacturer not to store data in MBR gap"
 -msgstr "Sektor %llu används redan av raidkontrollern ”%s”; undviker den.  Be tillverkaren att inte lagra data i MBR-spåret"
-+msgstr "Sektor %llu används redan av RAID-kontrollern ”%s”; undviker den. Be "
-+"tillverkaren att inte lagra data i MBR-gapet"
++msgstr "Sektor %llu används redan av RAID-kontrollern ”%s”; undviker den. Be tillverkaren att inte lagra data i MBR-gapet"
  
  #: grub-core/partmap/msdos.c:54
  #, c-format
  msgid "Sector %llu is already in use by the program `%s'; avoiding it.  This software may cause boot or other problems in future.  Please ask its authors not to store data in the boot track"
 -msgstr "Sektor %llu används redan av programmet ”%s”; undviker den.  Denna programvara kan orsaka uppstarts- eller andra problem i framtiden.  Be tillverkaren att inte lagra data i startspåret"
-+msgstr "Sektor %llu används redan av programmet ”%s”; undviker den. Denna programvara "
-+"kan orsaka uppstarts- eller andra problem i framtiden. Be dess "
-+"upphovspersoner att inte lagra data i startspåret"
++msgstr "Sektor %llu används redan av programmet ”%s”; undviker den. Denna programvara kan orsaka uppstarts- eller andra problem i framtiden. Be dess upphovspersoner att inte lagra data i startspåret"
  
  #: grub-core/partmap/msdos.c:385
  msgid "other software is using the embedding area, and there is not enough room for core.img.  Such software is often trying to store data in a way that avoids detection.  We recommend you investigate"
 -msgstr "annan programvara använder det inbäddade området, och det finns inte plats för core.img.  Sådan programvara försöker ofta lagra data på ett sätt som undviker upptäckt.  Vi rekommenderar att du undersöker"
-+msgstr "annan programvara använder inbäddningsområdet och det finns inte tillräckligt "
-+"med plats för core.img. Sådan programvara försöker ofta lagra data på ett "
-+"sätt som undviker upptäckt. Vi rekommenderar att du undersöker detta"
++msgstr "annan programvara använder inbäddningsområdet och det finns inte tillräckligt med plats för core.img. Sådan programvara försöker ofta lagra data på ett sätt som undviker upptäckt. Vi rekommenderar att du undersöker detta"
  
  #: grub-core/partmap/msdos.c:399
  msgid "this msdos-style partition label has no post-MBR gap; embedding won't be possible"
 -msgstr "denna msdos-liknande partitionsetikett har inget utrymme efter MBR; inbäddning kommer inte vara möjlig"
-+msgstr "denna msdos-liknande partitionstabell har inget mellanrum efter MBR; det går "
-+"inte att bädda in"
++msgstr "denna msdos-liknande partitionstabell har inget mellanrum efter MBR; det går inte att bädda in"
  
  #: grub-core/partmap/msdos.c:408
  msgid "your embedding area is unusually small.  core.img won't fit in it."
@@ -2755,7 +2704,7 @@
  
  #: grub-core/parttool/msdospart.c:51
  msgid "not a primary partition"
-@@ -5846,12 +5897,12 @@
+@@ -5846,12 +5846,12 @@
  #: grub-core/parttool/msdospart.c:69
  #, c-format
  msgid "Partition %d is active now. \n"
@@ -2770,7 +2719,7 @@
  
  #: grub-core/parttool/msdospart.c:87
  msgid "Change partition type"
-@@ -5871,7 +5922,7 @@
+@@ -5871,7 +5871,7 @@
  #: grub-core/parttool/msdospart.c:136
  #, c-format
  msgid "Setting partition type to 0x%x\n"
@@ -2779,7 +2728,7 @@
  
  #. TRANSLATORS: 0 is a quantifier. "break" (similar to bash)
  #. can be used e.g. to break 3 loops at once.
-@@ -5895,7 +5946,7 @@
+@@ -5895,7 +5895,7 @@
  
  #: grub-core/script/execute.c:833
  msgid "maximum recursion depth exceeded"
@@ -2788,7 +2737,7 @@
  
  #: grub-core/script/execute.c:978
  msgid "cannot allocate command buffer"
-@@ -5903,7 +5954,7 @@
+@@ -5903,7 +5903,7 @@
  
  #: grub-core/script/function.c:68
  msgid "attempt to redefine a function being executed"
@@ -2797,7 +2746,7 @@
  
  #: grub-core/script/lexer.c:149 util/grub-fstest.c:337
  msgid "unexpected end of file"
-@@ -5916,7 +5967,7 @@
+@@ -5916,7 +5916,7 @@
  
  #: grub-core/script/main.c:55
  msgid "Exit from loops"
@@ -2806,7 +2755,7 @@
  
  #: grub-core/script/main.c:57
  msgid "Continue loops"
-@@ -5934,7 +5985,7 @@
+@@ -5934,7 +5934,7 @@
  
  #: grub-core/script/main.c:65
  msgid "Set positional parameters."
@@ -2815,7 +2764,7 @@
  
  #. TRANSLATORS: It's a command description
  #. and "Return" is a verb, not a noun. The
-@@ -5943,7 +5994,7 @@
+@@ -5943,7 +5943,7 @@
  #. equivalent.
  #: grub-core/script/main.c:73
  msgid "Return from a function."
@@ -2824,7 +2773,7 @@
  
  #: grub-core/term/gfxterm_background.c:176
  msgid "[-m (stretch|normal)] FILE"
-@@ -5965,7 +6016,7 @@
+@@ -5965,7 +5965,7 @@
  
  #: grub-core/term/i386/coreboot/cbmemc.c:139
  msgid "Show CBMEM console content."
@@ -2833,7 +2782,7 @@
  
  #: grub-core/term/serial.c:55
  msgid "Set the serial unit."
-@@ -6043,7 +6094,7 @@
+@@ -6043,7 +6043,7 @@
  #. "logically-ordered UTF-8" by opposition.
  #: grub-core/term/terminfo.c:680
  msgid "visually-ordered UTF-8"
@@ -2842,7 +2791,7 @@
  
  #: grub-core/term/terminfo.c:683
  msgid "Unknown encoding"
-@@ -6051,7 +6102,7 @@
+@@ -6051,7 +6051,7 @@
  
  #: grub-core/term/terminfo.c:687
  msgid "Current terminfo types:"
@@ -2851,7 +2800,7 @@
  
  #: grub-core/term/terminfo.c:702
  msgid "Terminal is ASCII-only [default]."
-@@ -6059,15 +6110,15 @@
+@@ -6059,15 +6059,15 @@
  
  #: grub-core/term/terminfo.c:703
  msgid "Terminal is logical-ordered UTF-8."
@@ -2870,7 +2819,7 @@
  
  #. TRANSLATORS: "x" has to be entered in, like an identifier, so please don't
  #. use better Unicode codepoints.
-@@ -6082,7 +6133,7 @@
+@@ -6082,7 +6082,7 @@
  #: grub-core/term/terminfo.c:779
  #, c-format
  msgid "terminal %s isn't found or it's not handled by terminfo"
@@ -2879,7 +2828,7 @@
  
  #: grub-core/term/terminfo.c:788
  msgid "[[-a|-u|-v] [-g WxH] [TERM] [TYPE]]"
-@@ -6090,7 +6141,7 @@
+@@ -6090,7 +6090,7 @@
  
  #: grub-core/term/terminfo.c:789
  msgid "Set terminfo type of TERM to TYPE.\n"
@@ -2888,7 +2837,7 @@
  
  #. TRANSLATORS: this is the BLOCK-argument, not
  #. environment block.
-@@ -6103,7 +6154,7 @@
+@@ -6103,7 +6103,7 @@
  #: grub-core/video/bitmap.c:216
  #, c-format
  msgid "bitmap file `%s' is of unsupported format"
@@ -2897,7 +2846,7 @@
  
  #: grub-core/video/i386/pc/vbe.c:1191
  #, c-format
-@@ -6117,7 +6168,7 @@
+@@ -6117,7 +6117,7 @@
  
  #: grub-core/video/video.c:617 grub-core/video/video.c:783
  msgid "no suitable video mode found"
@@ -2906,7 +2855,7 @@
  
  #: include/grub/buffer.h:123
  msgid "peek out of range"
-@@ -6125,7 +6176,7 @@
+@@ -6125,7 +6125,7 @@
  
  #: include/grub/crypto.h:607
  msgid "access denied"
@@ -2915,7 +2864,7 @@
  
  #: include/grub/util/install.h:30 include/grub/util/install.h:35
  msgid "MODULES"
-@@ -6133,11 +6184,11 @@
+@@ -6133,11 +6133,11 @@
  
  #: include/grub/util/install.h:31
  msgid "pre-load specified modules MODULES"
@@ -2929,7 +2878,7 @@
  
  #: include/grub/util/install.h:36
  msgid "install only MODULES and their dependencies [default=all]"
-@@ -6175,7 +6226,7 @@
+@@ -6175,7 +6175,7 @@
  
  #: include/grub/util/install.h:48 util/grub-mkimage.c:84
  msgid "choose the compression to use for core image"
@@ -2938,7 +2887,7 @@
  
  #. TRANSLATORS: platform here isn't identifier. It can be translated.
  #: include/grub/util/install.h:51 include/grub/util/install.h:54
-@@ -6187,12 +6238,12 @@
+@@ -6187,12 +6187,12 @@
  #: include/grub/util/install.h:57
  #, c-format
  msgid "use translations under DIR [default=%s]"
@@ -2953,7 +2902,7 @@
  
  #: include/grub/util/install.h:65
  msgid "embed FILE as public key for signature checking"
-@@ -6204,11 +6255,11 @@
+@@ -6204,11 +6204,11 @@
  
  #: include/grub/util/install.h:69 util/grub-mkimage.c:86
  msgid "disable shim_lock verifier"
@@ -2967,7 +2916,7 @@
  
  #: include/grub/util/install.h:73 util/grub-mkimage.c:79
  msgid "embed FILE as an x509 certificate for appended signature checking"
-@@ -6237,7 +6288,7 @@
+@@ -6237,7 +6237,7 @@
  #: util/getroot.c:402
  #, c-format
  msgid "disk does not exist, so falling back to partition device %s"
@@ -2976,7 +2925,7 @@
  
  #: util/grub-editenv.c:48 util/grub-fstest.c:516
  msgid "Commands:"
-@@ -6301,12 +6352,12 @@
+@@ -6301,12 +6301,12 @@
  #: util/grub-editenv.c:299 util/grub-editenv.c:417 util/grub-editenv.c:476
  #: util/grub-editenv.c:487
  msgid "environment block too small"
@@ -2991,7 +2940,7 @@
  
  #: util/grub-editenv.c:351
  msgid "invalid environment block"
-@@ -6333,7 +6384,7 @@
+@@ -6333,7 +6333,7 @@
  #: util/grub-probe.c:372
  #, c-format
  msgid "cannot find a GRUB drive for %s.  Check your device.map"
@@ -3000,7 +2949,7 @@
  
  #: util/grub-editenv.c:613
  #, c-format
-@@ -6343,12 +6394,12 @@
+@@ -6343,12 +6343,12 @@
  #: util/grub-editenv.c:621
  #, c-format
  msgid "cannot probe fs for %s: %s"
@@ -3015,7 +2964,7 @@
  
  #: util/grub-fstest.c:139
  #, c-format
-@@ -6358,7 +6409,7 @@
+@@ -6358,7 +6358,7 @@
  #: util/grub-fstest.c:161 util/grub-fstest.c:247
  #, c-format
  msgid "read error at offset %llu: %s"
@@ -3024,7 +2973,7 @@
  
  #: util/grub-fstest.c:211
  #, c-format
-@@ -6368,27 +6419,27 @@
+@@ -6368,27 +6368,27 @@
  #: util/grub-fstest.c:226 util/misc.c:126
  #, c-format
  msgid "cannot write to the stdout: %s"
@@ -3057,7 +3006,7 @@
  
  #: util/grub-fstest.c:484 util/grub-fstest.c:488
  msgid "couldn't retrieve UUID"
-@@ -6416,7 +6467,7 @@
+@@ -6416,7 +6416,7 @@
  
  #: util/grub-fstest.c:519
  msgid "Copy FILE to standard output."
@@ -3066,7 +3015,7 @@
  
  #: util/grub-fstest.c:520
  msgid "cmp FILE LOCAL"
-@@ -6432,7 +6483,7 @@
+@@ -6432,7 +6432,7 @@
  
  #: util/grub-fstest.c:521
  msgid "Show contents of FILE in hex."
@@ -3075,7 +3024,7 @@
  
  #: util/grub-fstest.c:522
  msgid "crc FILE"
-@@ -6456,7 +6507,7 @@
+@@ -6456,7 +6456,7 @@
  
  #: util/grub-fstest.c:524
  msgid "Compute XNU UUID of the device."
@@ -3084,7 +3033,7 @@
  
  #: util/grub-fstest.c:525
  msgid "zfs-bootfs ZFS_DATASET"
-@@ -6476,7 +6527,7 @@
+@@ -6476,7 +6476,7 @@
  
  #: util/grub-fstest.c:528
  msgid "Skip N bytes from output file."
@@ -3093,7 +3042,7 @@
  
  #: util/grub-fstest.c:529
  msgid "Handle N bytes in output file."
-@@ -6484,11 +6535,11 @@
+@@ -6484,11 +6484,11 @@
  
  #: util/grub-fstest.c:530
  msgid "Specify the number of input files."
@@ -3107,7 +3056,7 @@
  
  #: util/grub-fstest.c:532 util/grub-mount.c:474
  msgid "Mount crypto devices."
-@@ -6505,7 +6556,7 @@
+@@ -6505,7 +6505,7 @@
  
  #: util/grub-fstest.c:537
  msgid "Uncompress data."
@@ -3116,7 +3065,7 @@
  
  #: util/grub-fstest.c:616
  msgid "Invalid disk count.\n"
-@@ -6516,7 +6567,7 @@
+@@ -6516,7 +6516,7 @@
  #.
  #: util/grub-fstest.c:624
  msgid "Disk count must precede disks list.\n"
@@ -3125,7 +3074,7 @@
  
  #: util/grub-fstest.c:644
  msgid "No command is specified.\n"
-@@ -6524,7 +6575,7 @@
+@@ -6524,7 +6524,7 @@
  
  #: util/grub-fstest.c:649
  msgid "Not enough parameters to command.\n"
@@ -3134,7 +3083,7 @@
  
  #: util/grub-fstest.c:727
  #, c-format
-@@ -6549,7 +6600,7 @@
+@@ -6549,7 +6549,7 @@
  
  #: util/grub-glue-efi.c:57 util/grub-mklayout.c:55 util/grub-render-label.c:71
  msgid "set output filename. Default is STDOUT"
@@ -3143,7 +3092,7 @@
  
  #: util/grub-glue-efi.c:94 util/grub-mklayout.c:476
  #: util/grub-mkpasswd-pbkdf2.c:86 util/grub-render-label.c:131
-@@ -6558,7 +6609,7 @@
+@@ -6558,7 +6558,7 @@
  
  #: util/grub-glue-efi.c:95
  msgid "Glue 32-bit and 64-bit binary into Apple universal one."
@@ -3152,7 +3101,7 @@
  
  #: util/grub-glue-efi.c:116
  msgid "Missing input file\n"
-@@ -6577,7 +6628,7 @@
+@@ -6577,7 +6577,7 @@
  #: util/grub-install-common.c:182 util/grub-install-common.c:189
  #, c-format
  msgid "failed to make directory: '%s'"
@@ -3161,7 +3110,7 @@
  
  #: util/grub-install-common.c:239 util/grub-install-common.c:768
  #: util/grub-install-common.c:795 util/grub-install-common.c:840
-@@ -6588,7 +6639,7 @@
+@@ -6588,7 +6588,7 @@
  #: util/grub-install-common.c:264
  #, c-format
  msgid "cannot backup `%s': %s"
@@ -3170,7 +3119,7 @@
  
  #: util/grub-install-common.c:274
  #, c-format
-@@ -6617,12 +6668,12 @@
+@@ -6617,12 +6617,12 @@
  #: util/grub-install-common.c:586 util/grub-mkimage.c:184
  #, c-format
  msgid "non-numeric or invalid appended signature size `%s'"
@@ -3185,13 +3134,12 @@
  
  #: util/grub-install-common.c:724
  #, c-format
-@@ -6674,11 +6725,12 @@
+@@ -6674,11 +6674,11 @@
  #. likely to make the install unbootable from HDD.
  #: util/grub-install.c:267 util/grub-setup.c:94
  msgid "make the drive also bootable as floppy (default for fdX devices). May break on some BIOSes."
 -msgstr "gör enheten startbar som floppy (standard för fdX-enheter). Kan gå sönder på en del BIOS."
-+msgstr "gör enheten även startbar som diskett (standard för fdX-enheter). Kan göra "
-+"installationen omöjlig att starta från hårddisk på vissa BIOS."
++msgstr "gör enheten även startbar som diskett (standard för fdX-enheter). Kan göra installationen omöjlig att starta från hårddisk på vissa BIOS."
  
  #: util/grub-install.c:270
  msgid "delete device map if it already exists"
@@ -3200,7 +3148,7 @@
  
  #: util/grub-install.c:272 util/grub-setup.c:87
  msgid "install even if problems are detected"
-@@ -6686,7 +6738,7 @@
+@@ -6686,7 +6686,7 @@
  
  #: util/grub-install.c:274
  msgid "use identifier file even if UUID is available"
@@ -3209,33 +3157,30 @@
  
  #: util/grub-install.c:276
  msgid "disk module to use (biosdisk or native). This option is only available on BIOS target."
-@@ -6694,7 +6746,8 @@
+@@ -6694,7 +6694,7 @@
  
  #: util/grub-install.c:279
  msgid "don't update the `boot-device'/`Boot*' NVRAM variables. This option is only available on EFI and IEEE1275 targets."
 -msgstr "uppdatera inte ”boot-device”/`Boot*' NVRAM-variabler. Denna flagga är bara tillgänglig på EFI- och IEEE1275-mål."
-+msgstr "uppdatera inte NVRAM-variablerna ”boot-device”/”Boot*”. Denna flagga är bara "
-+"tillgänglig för EFI- och IEEE1275-mål."
++msgstr "uppdatera inte NVRAM-variablerna ”boot-device”/”Boot*”. Denna flagga är bara tillgänglig för EFI- och IEEE1275-mål."
  
  #: util/grub-install.c:282 util/grub-setup.c:89
  msgid "do not probe for filesystems in DEVICE"
-@@ -6706,11 +6759,13 @@
+@@ -6706,11 +6706,11 @@
  
  #: util/grub-install.c:286 util/grub-setup.c:96
  msgid "Do not apply any reed-solomon codes when embedding core.img. This option is only available on x86 BIOS targets."
 -msgstr "Verkställ inte några reed-solomon-koder när core.img bäddas in. Denna flagga är bara tillgänglig på x86 BIOS."
-+msgstr "Använd inga Reed–Solomon-koder när core.img bäddas in. Denna flagga är bara "
-+"tillgänglig för x86 BIOS-mål."
++msgstr "Använd inga Reed–Solomon-koder när core.img bäddas in. Denna flagga är bara tillgänglig för x86 BIOS-mål."
  
  #: util/grub-install.c:293
  msgid "the installation device is removable. This option is only available on EFI."
 -msgstr "installationsenheten är borttagningsbar. Denna flagga är endast tillgängligt på EFI."
-+msgstr "installationsenheten är borttagningsbar. Denna flagga är endast tillgänglig "
-+"på EFI."
++msgstr "installationsenheten är borttagningsbar. Denna flagga är endast tillgänglig på EFI."
  
  #: util/grub-install.c:295
  msgid "ID"
-@@ -6722,23 +6777,23 @@
+@@ -6722,23 +6722,23 @@
  
  #: util/grub-install.c:298
  msgid "use DIR as the EFI System Partition root."
@@ -3264,7 +3209,7 @@
  
  #: util/grub-install.c:304 util/grub-mkrescue.c:110
  msgid "use STRING as product version"
-@@ -6782,7 +6837,7 @@
+@@ -6782,7 +6782,7 @@
  
  #: util/grub-install.c:964
  msgid "install device isn't specified"
@@ -3273,7 +3218,7 @@
  
  #: util/grub-install.c:1098
  msgid "cannot find EFI directory"
-@@ -6800,7 +6855,7 @@
+@@ -6800,7 +6800,7 @@
  
  #: util/grub-install.c:1178 util/grub-install.c:1670
  msgid "You've found a bug"
@@ -3282,17 +3227,16 @@
  
  #: util/grub-install.c:1283
  #, c-format
-@@ -6810,7 +6865,8 @@
+@@ -6810,7 +6810,7 @@
  #: util/grub-install.c:1344
  #, c-format
  msgid "attempt to install to encrypted disk without cryptodisk enabled. Set `%s' in file `%s'"
 -msgstr "försök att installera till krypterad disk utan cryptodisk aktiverad. Ange ”%s” i fil ”%s”"
-+msgstr "försök att installera på en krypterad disk utan att cryptodisk är aktiverad. "
-+"Ange ”%s” i filen ”%s”"
++msgstr "försök att installera på en krypterad disk utan att cryptodisk är aktiverad. Ange ”%s” i filen ”%s”"
  
  #: util/grub-install.c:1464 util/grub-install.c:1840 util/grub-install.c:1945
  #, c-format
-@@ -6819,7 +6875,7 @@
+@@ -6819,7 +6819,7 @@
  
  #: util/grub-install.c:1546
  msgid "no hints available for your platform. Expect reduced performance"
@@ -3301,17 +3245,16 @@
  
  #. TRANSLATORS: This is a prefix in the log to indicate that usually
  #. a command would be executed but due to an option was skipped.
-@@ -6838,7 +6894,8 @@
+@@ -6838,7 +6838,7 @@
  #: util/grub-install.c:1887
  #, c-format
  msgid "the PReP partition is not empty. If you are sure you want to use it, run dd to clear it: `%s'"
 -msgstr "partitionen PReP är inte tom. Om du är säker på att du vill använda den, kör dd för att tomma den: ”%s”"
-+msgstr "PReP-partitionen är inte tom. Om du är säker på att du vill använda den, kör "
-+"dd för att tömma den: ”%s”"
++msgstr "PReP-partitionen är inte tom. Om du är säker på att du vill använda den, kör dd för att tömma den: ”%s”"
  
  #: util/grub-install.c:1963 util/grub-install.c:2011
  #, c-format
-@@ -6855,7 +6912,7 @@
+@@ -6855,7 +6855,7 @@
  
  #: util/grub-install.c:2044
  msgid "Installation finished. No error reported."
@@ -3320,7 +3263,7 @@
  
  #: util/grub-macbless.c:101
  msgid "bless for x86-based macs"
-@@ -6885,7 +6942,7 @@
+@@ -6885,7 +6885,7 @@
  #: util/grub-mkfont.c:162
  #, c-format
  msgid "Freetype Error %d loading glyph 0x%x for U+0x%x%s"
@@ -3329,7 +3272,7 @@
  
  #. TRANSLATORS: These qualifiers are used for cursive typography,
  #. mainly Arabic. Note that the terms refer to the visual position
-@@ -6894,20 +6951,20 @@
+@@ -6894,20 +6894,20 @@
  #. rightmost is the initial.
  #: util/grub-mkfont.c:170
  msgid " (medial)"
@@ -3354,7 +3297,7 @@
  
  #. TRANSLATORS: "lookup" is taken directly from font specifications
  #. which are formulated as "Under condition X replace LOOKUP with
-@@ -6915,12 +6972,12 @@
+@@ -6915,12 +6915,12 @@
  #: util/grub-mkfont.c:517
  #, c-format
  msgid "Out of range lookup: %d\n"
@@ -3369,7 +3312,7 @@
  
  #: util/grub-mkfont.c:566
  #, c-format
-@@ -6945,7 +7002,7 @@
+@@ -6945,7 +6945,7 @@
  #: util/grub-mkfont.c:982 util/grub-mkrescue.c:98 util/grub-mkstandalone.c:51
  #: util/grub-kbdcomp.in:29
  msgid "save output in FILE [required]"
@@ -3378,7 +3321,7 @@
  
  #. TRANSLATORS: some font files may have multiple faces (fonts).
  #. This option is used to chose among them, the first face being '0'.
-@@ -6961,7 +7018,7 @@
+@@ -6961,7 +6961,7 @@
  #. TRANSLATORS: It refers to the range of characters in font.
  #: util/grub-mkfont.c:991
  msgid "set font range"
@@ -3387,7 +3330,7 @@
  
  #: util/grub-mkfont.c:992
  msgid "NAME"
-@@ -6987,19 +7044,19 @@
+@@ -6987,19 +6987,19 @@
  
  #: util/grub-mkfont.c:998
  msgid "set font ascent"
@@ -3411,7 +3354,7 @@
  
  #. TRANSLATORS: some fonts contain bitmap rendering for
  #. some sizes. This option forces rerendering even if
-@@ -7020,7 +7077,7 @@
+@@ -7020,7 +7020,7 @@
  #: util/grub-mkfont.c:1228 util/grub-mkrescue.c:507
  #: util/grub-mkstandalone.c:327 util/grub-kbdcomp.in:70
  msgid "output file must be specified"
@@ -3420,17 +3363,16 @@
  
  #: util/grub-mkfont.c:1231
  msgid "FT_Init_FreeType fails"
-@@ -7048,7 +7105,8 @@
+@@ -7048,7 +7048,7 @@
  "Implies `-p (memdisk)/boot/grub' and overrides any prefix supplied previously, but the prefix itself can be overridden by later options"
  msgstr ""
  "bädda in FIL som en memdisk-avbild\n"
 -"Implicerar ”-p (memdisk)/boot/grub” och åsidosätter tidigare angivna prefix, men själva prefixet kan bli åsidosatt med senare flaggor"
-+"Innebär ”-p (memdisk)/boot/grub” och åsidosätter tidigare angivna prefix, men "
-+"prefixet kan åsidosättas med senare flaggor"
++"Innebär ”-p (memdisk)/boot/grub” och åsidosätter tidigare angivna prefix, men prefixet kan åsidosättas med senare flaggor"
  
  #: util/grub-mkimage.c:74
  msgid "embed FILE as a device tree (DTB)\n"
-@@ -7060,7 +7118,7 @@
+@@ -7060,7 +7060,7 @@
  
  #: util/grub-mkimage.c:78
  msgid "embed FILE as public key for PGP signature checking"
@@ -3439,7 +3381,7 @@
  
  #. TRANSLATORS: NOTE is a name of segment.
  #: util/grub-mkimage.c:81
-@@ -7069,7 +7127,7 @@
+@@ -7069,7 +7069,7 @@
  
  #: util/grub-mkimage.c:82
  msgid "output a generated image to FILE [default=stdout]"
@@ -3448,7 +3390,7 @@
  
  #: util/grub-mkimage.c:83
  msgid "FORMAT"
-@@ -7077,7 +7135,7 @@
+@@ -7077,7 +7077,7 @@
  
  #: util/grub-mkimage.c:87
  msgid "disable command line interface access"
@@ -3457,7 +3399,7 @@
  
  #: util/grub-mkimage.c:105 util/grub-mkstandalone.c:65
  msgid "generate an image in FORMAT"
-@@ -7098,15 +7156,15 @@
+@@ -7098,15 +7098,15 @@
  
  #: util/grub-mkimage.c:284
  msgid "Make a bootable image of GRUB."
@@ -3476,37 +3418,34 @@
  
  #: util/grub-mkimage.c:363 util/setup.c:796
  #, c-format
-@@ -7116,7 +7174,8 @@
+@@ -7116,7 +7116,7 @@
  #: util/grub-mkimagexx.c:2402
  #, c-format
  msgid "`%s' is miscompiled: its start address is 0x%llx instead of 0x%llx: ld.gold bug?"
 -msgstr "”%s” är felkompilerat: dess startadress är 0x%llx istället för 0x%llx: ld.gold-fel?"
-+msgstr "”%s” är felkompilerat: dess startadress är 0x%llx i stället för 0x%llx: "
-+"ld.gold-fel?"
++msgstr "”%s” är felkompilerat: dess startadress är 0x%llx i stället för 0x%llx: ld.gold-fel?"
  
  #: util/grub-mklayout.c:53
  msgid "set input filename. Default is STDIN"
-@@ -7155,7 +7214,8 @@
+@@ -7155,7 +7155,7 @@
  
  #: util/grub-mknetdir.c:88
  msgid "Prepares GRUB network boot images at net_directory/subdir assuming net_directory being TFTP root."
 -msgstr "Förbereder GRUB-startavbilder för nätverk på net_directory/subdir förutsättandes att net_directory är en TFTP-rot."
-+msgstr "Förbereder GRUB-startavbilder för nätverk i net_directory/subdir, med "
-+"antagandet att net_directory är TFTP-roten."
++msgstr "Förbereder GRUB-startavbilder för nätverk i net_directory/subdir, med antagandet att net_directory är TFTP-roten."
  
  #: util/grub-mknetdir.c:147
  #, c-format
-@@ -7166,7 +7226,8 @@
+@@ -7166,7 +7166,7 @@
  #: util/grub-mknetdir.c:169
  #, c-format
  msgid "Netboot directory for %s created. Configure your DHCP server to point to %s\n"
 -msgstr "Netboot-katalog för %s skapad. Konfigurera din DHCP-server till att peka på %s\n"
-+msgstr "Netboot-katalogen för %s har skapats. Konfigurera DHCP-servern så att den "
-+"pekar på %s\n"
++msgstr "Netboot-katalogen för %s har skapats. Konfigurera DHCP-servern så att den pekar på %s\n"
  
  #: util/grub-mkpasswd-pbkdf2.c:46
  msgid "Number of PBKDF2 iterations"
-@@ -7178,7 +7239,7 @@
+@@ -7178,7 +7178,7 @@
  
  #: util/grub-mkpasswd-pbkdf2.c:48
  msgid "Length of salt"
@@ -3515,7 +3454,7 @@
  
  #: util/grub-mkpasswd-pbkdf2.c:87
  msgid "Generate PBKDF2 password hash."
-@@ -7198,12 +7259,12 @@
+@@ -7198,12 +7198,12 @@
  
  #: util/grub-mkpasswd-pbkdf2.c:159
  msgid "couldn't retrieve random data for salt"
@@ -3530,7 +3469,7 @@
  
  #: util/grub-mkpasswd-pbkdf2.c:193
  #, c-format
-@@ -7220,7 +7281,7 @@
+@@ -7220,7 +7220,7 @@
  
  #: util/grub-mkrelpath.c:79
  msgid "Transform a system filename into GRUB one."
@@ -3539,7 +3478,7 @@
  
  #: util/grub-mkrescue.c:100
  msgid "save ROM images in DIR [optional]"
-@@ -7229,7 +7290,7 @@
+@@ -7229,7 +7229,7 @@
  #. TRANSLATORS: xorriso is a program for creating ISOs and burning CDs.
  #: util/grub-mkrescue.c:103
  msgid "use FILE as xorriso [optional]"
@@ -3548,34 +3487,30 @@
  
  #: util/grub-mkrescue.c:109
  msgid "use STRING as product name"
-@@ -7237,11 +7298,13 @@
+@@ -7237,11 +7237,11 @@
  
  #: util/grub-mkrescue.c:111
  msgid "enable sparc boot. Disables HFS+, APM, ARCS and boot as disk image for i386-pc"
 -msgstr "aktiverar sparc-start. Inaktiverar HFS+, APM, ARCS och startar som diskavbild för i386-pc"
-+msgstr "aktivera SPARC-start. Inaktiverar HFS+, APM, ARCS och start som diskavbild "
-+"för i386-pc"
++msgstr "aktivera SPARC-start. Inaktiverar HFS+, APM, ARCS och start som diskavbild för i386-pc"
  
  #: util/grub-mkrescue.c:112
  msgid "enable ARCS (big-endian mips machines, mostly SGI) boot. Disables HFS+, APM, sparc64 and boot as disk image for i386-pc"
 -msgstr "aktiverar ARCS-start (big-endian mips-maskiner, mest SGI). Inaktiverar HFS+, APM, sparc64 och att starta som en diskavbild för i386-pc"
-+msgstr "aktivera ARCS-start (big-endian MIPS-system, främst SGI). Inaktiverar HFS+, "
-+"APM, SPARC64 och start som diskavbild för i386-pc"
++msgstr "aktivera ARCS-start (big-endian MIPS-system, främst SGI). Inaktiverar HFS+, APM, SPARC64 och start som diskavbild för i386-pc"
  
  #. TRANSLATORS: it generates one single image which is bootable through any method.
  #: util/grub-mkrescue.c:125
-@@ -7251,7 +7314,9 @@
+@@ -7251,7 +7251,7 @@
  #: util/grub-mkrescue.c:130
  #, c-format
  msgid "Generates a bootable CD/USB/floppy image.  Arguments other than options to this program are passed to xorriso, and indicate source files, source directories, or any of the mkisofs options listed by the output of `%s'."
 -msgstr "Genererar en startbar cd-/usb-/diskettavbild.  Andra argument än flaggorna till detta program skickas till xorriso, och indikerar källfiler, källkataloger eller andra mkisofs-flaggor listade av utmatningen av ”%s”."
-+msgstr "Genererar en startbar cd-/usb-/diskettavbild. Andra argument än programmets "
-+"flaggor skickas till xorriso och anger källfiler, källkataloger eller "
-+"mkisofs-flaggor som listas i utdata från ”%s”."
++msgstr "Genererar en startbar cd-/usb-/diskettavbild. Andra argument än programmets flaggor skickas till xorriso och anger källfiler, källkataloger eller mkisofs-flaggor som listas i utdata från ”%s”."
  
  #: util/grub-mkrescue.c:134
  msgid "Option -- switches to native xorriso command mode."
-@@ -7259,7 +7324,7 @@
+@@ -7259,7 +7259,7 @@
  
  #: util/grub-mkrescue.c:135
  msgid "Mail xorriso support requests to <bug-xorriso@gnu.org>."
@@ -3584,7 +3519,7 @@
  
  #: util/grub-mkrescue.c:221 util/grub-mkstandalone.c:117
  msgid "[OPTION] SOURCE..."
-@@ -7288,16 +7353,16 @@
+@@ -7288,16 +7288,16 @@
  
  #: util/grub-mkstandalone.c:118
  msgid "Generate a standalone image (containing all modules) in the selected format"
@@ -3604,13 +3539,12 @@
  
  #: util/grub-mount.c:574
  msgid "IMAGE1 [IMAGE2 ...] MOUNTPOINT"
-@@ -7313,11 +7378,12 @@
+@@ -7313,11 +7313,11 @@
  
  #: util/grub-probe.c:736
  msgid "print verbose messages (pass twice to enable debug printing)."
 -msgstr "skriver ut utförliga meddelanden (ange två gånger för att aktivera debug-utskrift)."
-+msgstr "skriv ut utförliga meddelanden (ange två gånger för att aktivera "
-+"felsökningsutskrift)."
++msgstr "skriv ut utförliga meddelanden (ange två gånger för att aktivera felsökningsutskrift)."
  
  #: util/grub-probe.c:737
  msgid "separate items in output using ASCII NUL characters"
@@ -3619,13 +3553,12 @@
  
  #: util/grub-probe.c:755
  #, c-format
-@@ -7338,11 +7404,12 @@
+@@ -7338,11 +7338,11 @@
  
  #: util/grub-probe.c:841
  msgid "Probe device information for a given path (or device, if the -d option is given)."
 -msgstr "Avsök enhetsinformation för en given sökväg (eller enhet, om flaggan -d är given)."
-+msgstr "Avsök enhetsinformation för en angiven sökväg (eller enhet, om flaggan -d "
-+"anges)."
++msgstr "Avsök enhetsinformation för en angiven sökväg (eller enhet, om flaggan -d anges)."
  
  #: util/grub-protect.c:128
  msgid "Add or remove a key protector to or from a key."
@@ -3634,27 +3567,21 @@
  
  #: util/grub-protect.c:137
  msgid "Set key protector to use (only tpm2 is currently supported)."
-@@ -7354,11 +7421,17 @@
+@@ -7354,11 +7354,11 @@
  
  #: util/grub-protect.c:156
  msgid "Set a comma-separated list of PCRs used to authorize key release e.g., '7,11'. Please be aware that PCR 0~7 are used by the firmware and the measurement result may change after a firmware update (for baremetal systems) or a package (OVMF/SLOF) update in the VM host. This may lead to the failure of key unsealing. (default: 7)"
 -msgstr "Ange en kommaseparerad lista över PCR:er som används för att auktorisera nyckelutgivning, t.ex. '7,11'. Observera att PCR 0~7 används av fasta programvaran och att mätresultatet kan ändras efter en uppdatering av den fasta programvaran (för baremetal-system) eller en paketuppdatering (OVMF/SLOF) i VM-värden. Detta kan leda till att nyckelutgivningen misslyckas. (standard: 7)"
-+msgstr "Ange en kommaseparerad lista över PCR:er som används för att auktorisera "
-+"nyckelutlämning, t.ex. ”7,11”. Observera att PCR 0~7 används av den fasta "
-+"programvaran och att mätresultatet kan ändras efter en uppdatering av den "
-+"fasta programvaran (för bare-metal-system) eller en paketuppdatering "
-+"(OVMF/SLOF) i VM-värden. Detta kan leda till att avförseglingen av nyckeln "
-+"misslyckas. (standard: 7)"
++msgstr "Ange en kommaseparerad lista över PCR:er som används för att auktorisera nyckelutlämning, t.ex. ”7,11”. Observera att PCR 0~7 används av den fasta programvaran och att mätresultatet kan ändras efter en uppdatering av den fasta programvaran (för bare-metal-system) eller en paketuppdatering (OVMF/SLOF) i VM-värden. Detta kan leda till att avförseglingen av nyckeln misslyckas. (standard: 7)"
  
  #: util/grub-protect.c:170
  msgid "Set the bank of PCRs used to authorize key release: SHA1, SHA256, SHA384, or SHA512. (default: SHA256)"
 -msgstr "Ställ in den PCR-bank som används för att auktorisera nyckelutgivning: SHA1, SHA256, SHA384 eller SHA512. (standard: SHA256)"
-+msgstr "Ange PCR-banken som används för att auktorisera nyckelutlämning: SHA1, "
-+"SHA256, SHA384 eller SHA512. (standard: SHA256)"
++msgstr "Ange PCR-banken som används för att auktorisera nyckelutlämning: SHA1, SHA256, SHA384 eller SHA512. (standard: SHA256)"
  
  #: util/grub-protect.c:180
  msgid "Set the path to a file that contains the cleartext key to protect."
-@@ -7441,7 +7514,7 @@
+@@ -7441,7 +7441,7 @@
  #: util/grub-protect.c:466
  #, c-format
  msgid "PCR concatenation buffer not big enough.\n"
@@ -3663,7 +3590,7 @@
  
  #: util/grub-protect.c:476
  #, c-format
-@@ -7461,7 +7534,7 @@
+@@ -7461,7 +7461,7 @@
  #: util/grub-protect.c:1018
  #, c-format
  msgid "Input key size larger than %u bytes.\n"
@@ -3672,7 +3599,7 @@
  
  #: util/grub-protect.c:1040
  #, c-format
-@@ -7566,7 +7639,7 @@
+@@ -7566,7 +7566,7 @@
  #: util/grub-protect.c:1370
  #, c-format
  msgid "'%s' is not a valid protector.\n"
@@ -3681,7 +3608,7 @@
  
  #: util/grub-protect.c:1380
  #, c-format
-@@ -7626,7 +7699,7 @@
+@@ -7626,7 +7626,7 @@
  #: util/grub-protect.c:1545
  #, c-format
  msgid "--protector is mandatory and only 'tpm2' is currently supported.\n"
@@ -3690,7 +3617,7 @@
  
  #: util/grub-protect.c:1604
  msgid "Protect a cleartext key using a GRUB key protector that can retrieve the key during boot to unlock fully-encrypted disks automatically."
-@@ -7654,7 +7727,7 @@
+@@ -7654,7 +7654,7 @@
  #. "render" doesn't translate directly.
  #: util/grub-render-label.c:69
  msgid "set the label to render"
@@ -3699,7 +3626,7 @@
  
  #: util/grub-render-label.c:73
  msgid "use FILE as font (PF2)."
-@@ -7666,7 +7739,7 @@
+@@ -7666,7 +7666,7 @@
  #. "render" doesn't translate directly.
  #: util/grub-render-label.c:136
  msgid "Render Apple .disk_label."
@@ -3708,7 +3635,7 @@
  
  #: util/grub-render-label.c:158 util/grub-syslinux2cfg.c:169
  msgid "Missing arguments\n"
-@@ -7678,7 +7751,7 @@
+@@ -7678,7 +7678,7 @@
  
  #: util/grub-script-check.c:88
  msgid "Checks GRUB script configuration file for syntax errors."
@@ -3717,7 +3644,7 @@
  
  #: util/grub-script-check.c:207
  #, c-format
-@@ -7710,9 +7783,9 @@
+@@ -7710,9 +7710,9 @@
  "\n"
  "You should not normally run this program directly.  Use grub-install instead."
  msgstr ""
@@ -3729,7 +3656,7 @@
  
  #: util/grub-setup.c:228
  msgid "DEVICE must be an OS device (e.g. /dev/sda)."
-@@ -7725,19 +7798,20 @@
+@@ -7725,19 +7725,19 @@
  
  #: util/grub-syslinux2cfg.c:64
  msgid "root directory as it will be seen on runtime [default=/]."
@@ -3739,8 +3666,7 @@
  #: util/grub-syslinux2cfg.c:69
  msgid "current directory of syslinux as it will be seen on runtime  [default is parent directory of input file]."
 -msgstr "aktuell katalog för syslinux som den kommer att ses under körtid [standard är överordnad katalog för inmatningsfil]."
-+msgstr "aktuell katalog för syslinux som den syns under körning [standard är "
-+"överordnad katalog till inmatningsfilen]."
++msgstr "aktuell katalog för syslinux som den syns under körning [standard är överordnad katalog till inmatningsfilen]."
  
  #: util/grub-syslinux2cfg.c:74
  msgid "write output to FILE [default=stdout]."
@@ -3754,17 +3680,16 @@
  
  #: util/mkimage.c:704 util/mkimage.c:733 util/mkimage.c:750
  msgid "cannot compress the kernel image"
-@@ -7755,7 +7829,8 @@
+@@ -7755,7 +7755,7 @@
  
  #: util/mkimage.c:933
  msgid "x509 public key can be support only to appended signature with powerpc-ieee1275 images"
 -msgstr "publik x509-nyckel kan ges stöd endast för signaturer som bifogats med powerpc-ieee1275-avbilder"
-+msgstr "en öppen x509-nyckel kan endast användas för bifogad signatur i "
-+"powerpc-ieee1275-avbilder"
++msgstr "en öppen x509-nyckel kan endast användas för bifogad signatur i powerpc-ieee1275-avbilder"
  
  #: util/mkimage.c:965
  msgid "SBAT data can be added only to EFI or powerpc-ieee1275 images"
-@@ -7763,7 +7838,7 @@
+@@ -7763,7 +7763,7 @@
  
  #: util/mkimage.c:968
  msgid "appended signature can be support only to powerpc-ieee1275 images"
@@ -3773,7 +3698,7 @@
  
  #: util/mkimage.c:1222
  msgid "Decompressor is too big"
-@@ -7786,7 +7861,7 @@
+@@ -7786,7 +7786,7 @@
  
  #: util/mkimage.c:1694
  msgid "fwstart.img doesn't match the known good version. proceed at your own risk"
@@ -3782,7 +3707,7 @@
  
  #: util/mkimage.c:1698 util/mkimage.c:1724
  msgid "firmware image is too big"
-@@ -7804,15 +7879,15 @@
+@@ -7804,15 +7804,15 @@
  
  #: util/setup.c:167
  msgid "the first sector of the core file is not sector-aligned"
@@ -3801,38 +3726,29 @@
  
  #: util/setup.c:284
  #, c-format
-@@ -7837,18 +7912,27 @@
+@@ -7837,18 +7837,18 @@
  #: util/setup.c:449
  #, c-format
  msgid "%s appears to contain a %s filesystem which isn't known to reserve space for DOS-style boot.  Installing GRUB there could result in FILESYSTEM DESTRUCTION if valuable data is overwritten by grub-setup (--skip-fs-probe disables this check, use at your own risk)"
 -msgstr "%s verkar innehålla ett %s filsystem som inte kan reservera plats för DOS-liknande uppstart. Installeras GRUB där kan det innebära att FILSYSTEMET FÖRSTÖRS om viktiga data skrivs över av grub-setup (flaggan --skip-fs-probe inaktiverar denna kontroll, använd den på egen risk)"
-+msgstr "%s verkar innehålla ett %s-filsystem som GRUB inte vet reserverar plats för "
-+"DOS-liknande uppstart. Installation av GRUB där kan leda till att FILSYSTEMET "
-+"FÖRSTÖRS om värdefulla data skrivs över av grub-setup (flaggan "
-+"--skip-fs-probe inaktiverar denna kontroll; använd den på egen risk)"
++msgstr "%s verkar innehålla ett %s-filsystem som GRUB inte vet reserverar plats för DOS-liknande uppstart. Installation av GRUB där kan leda till att FILSYSTEMET FÖRSTÖRS om värdefulla data skrivs över av grub-setup (flaggan --skip-fs-probe inaktiverar denna kontroll; använd den på egen risk)"
  
  #. TRANSLATORS: Partition map may reserve the space just GRUB isn't sure about it.
  #: util/setup.c:462
  #, c-format
  msgid "%s appears to contain a %s partition map which isn't known to reserve space for DOS-style boot.  Installing GRUB there could result in FILESYSTEM DESTRUCTION if valuable data is overwritten by grub-setup (--skip-fs-probe disables this check, use at your own risk)"
 -msgstr "%s verkar innehålla en %s-partitionstabell som inte kan reservera plats för DOS-liknande uppstart. Installeras GRUB där kan det innebära att FILSYSTEMET FÖRSTÖRS om viktiga data skrivs över av grub-setup (flaggan --skip-fs-probe inaktiverar denna kontroll, använd den på egen risk)"
-+msgstr "%s verkar innehålla en %s-partitionstabell som GRUB inte vet reserverar plats "
-+"för DOS-liknande uppstart. Installation av GRUB där kan leda till att "
-+"FILSYSTEMET FÖRSTÖRS om värdefulla data skrivs över av grub-setup (flaggan "
-+"--skip-fs-probe inaktiverar denna kontroll; använd den på egen risk)"
++msgstr "%s verkar innehålla en %s-partitionstabell som GRUB inte vet reserverar plats för DOS-liknande uppstart. Installation av GRUB där kan leda till att FILSYSTEMET FÖRSTÖRS om värdefulla data skrivs över av grub-setup (flaggan --skip-fs-probe inaktiverar denna kontroll; använd den på egen risk)"
  
  #: util/setup.c:469
  #, c-format
  msgid "%s appears to contain a %s partition map and LDM which isn't known to be a safe combination.  Installing GRUB there could result in FILESYSTEM DESTRUCTION if valuable data is overwritten by grub-setup (--skip-fs-probe disables this check, use at your own risk)"
 -msgstr "%s verkar innehålla en %s-partitionstabell som inte är känd som en säker kombination. Installeras GRUB där kan det innebära att FILSYSTEMET FÖRSTÖRS om viktiga data skrivs över av grub-setup (flaggan --skip-fs-probe inaktiverar denna kontroll, använd den på egen risk)"
-+msgstr "%s verkar innehålla en %s-partitionstabell och LDM, en kombination som inte "
-+"är känd som säker. Installation av GRUB där kan leda till att FILSYSTEMET "
-+"FÖRSTÖRS om värdefulla data skrivs över av grub-setup (flaggan "
-+"--skip-fs-probe inaktiverar denna kontroll; använd den på egen risk)"
++msgstr "%s verkar innehålla en %s-partitionstabell och LDM, en kombination som inte är känd som säker. Installation av GRUB där kan leda till att FILSYSTEMET FÖRSTÖRS om värdefulla data skrivs över av grub-setup (flaggan --skip-fs-probe inaktiverar denna kontroll; använd den på egen risk)"
  
  #: util/setup.c:482
  msgid "Attempting to install GRUB to a partitionless disk or to a partition.  This is a BAD idea."
-@@ -7866,11 +7950,11 @@
+@@ -7866,11 +7866,11 @@
  #: util/setup.c:500
  #, c-format
  msgid "File system `%s' doesn't support embedding"
@@ -3846,7 +3762,7 @@
  
  #: util/setup.c:563 util/setup.c:729 util/setup.c:847
  msgid "no terminator in the core image"
-@@ -7882,7 +7966,7 @@
+@@ -7882,7 +7882,7 @@
  
  #: util/setup.c:679
  msgid "embedding is not possible, but this is required for RAID and LVM install"
@@ -3855,7 +3771,7 @@
  
  #: util/setup.c:686
  #, c-format
-@@ -7892,22 +7976,23 @@
+@@ -7892,22 +7892,22 @@
  #: util/setup.c:689
  #, c-format
  msgid "filesystem `%s' doesn't support blocklists"
@@ -3872,8 +3788,7 @@
  #: util/setup.c:704
  msgid "Embedding is not possible.  GRUB can only be installed in this setup by using blocklists.  However, blocklists are UNRELIABLE and their use is discouraged."
 -msgstr "Inbäddning är inte möjlig. GRUB kan bara bli installerad i denna form genom att använda blocklistor. Blocklistor är tyvärr OPÅLITLIGA och användandet av dem avrådes."
-+msgstr "Inbäddning är inte möjlig. GRUB kan endast installeras i denna konfiguration "
-+"med blocklistor. Blocklistor är dock OPÅLITLIGA och användning av dem avråds."
++msgstr "Inbäddning är inte möjlig. GRUB kan endast installeras i denna konfiguration med blocklistor. Blocklistor är dock OPÅLITLIGA och användning av dem avråds."
  
  #. TRANSLATORS: Here GRUB refuses to continue with blocklist install.
  #: util/setup.c:709
@@ -3883,7 +3798,7 @@
  
  #: util/setup.c:820 util/setup.c:840
  msgid "blocklists are invalid"
-@@ -7961,7 +8046,7 @@
+@@ -7961,7 +7961,7 @@
  
  #: util/grub-mkconfig.in:60
  msgid "output generated config to FILE [default=stdout]"
@@ -3892,7 +3807,7 @@
  
  #: util/grub-mkconfig.in:97 util/grub-reboot.in:104 util/grub-set-default.in:98
  msgid "Unrecognized option `%s'\\n"
-@@ -8010,7 +8095,7 @@
+@@ -8010,7 +8010,7 @@
  
  #: util/grub-reboot.in:53 util/grub-set-default.in:53
  msgid "expect GRUB images under the directory DIR/%s instead of the %s directory"
@@ -3901,51 +3816,45 @@
  
  #: util/grub-reboot.in:56
  msgid ""
-@@ -8021,13 +8106,19 @@
+@@ -8021,13 +8021,15 @@
  "in the GRUB Manual in the section about the 'default' command. "
  msgstr ""
  "MENYPOST är ett nummer, en menyposttitel eller en menypostidentifierare. Observera att menyposter\n"
 -"i undermenyer eller under-undermenyer kräver att du anger undermenykomponenterna och sedan menypostkomponenten.\n"
 -"Titlarna ska separeras med hjälp av tecknet större än (>) utan extra mellanslag. Beroende på din shell kan vissa tecken,\n"
 -"inklusive >, behöva escape-kodas. Mer information om detta finns i GRUB-manualen i avsnittet om kommandot 'default'. "
-+"i undermenyer eller underundermenyer kräver att du anger "
-+"undermenykomponenterna och sedan\n"
++"i undermenyer eller underundermenyer kräver att du anger undermenykomponenterna och sedan\n"
 +"menypostkomponenten. "
-+"Titlarna ska separeras med större än-tecknet (>) utan extra mellanslag. "
-+"Beroende på ditt skal kan vissa tecken, "
++"Titlarna ska separeras med större än-tecknet (>) utan extra mellanslag. Beroende på ditt skal kan vissa tecken, "
 +"inklusive >, behöva skyddstecknas. Mer information finns\n"
 +"i GRUB-manualens avsnitt om kommandot ”default”. "
  
  #: util/grub-reboot.in:62
  msgid "NOTE: In cases where GRUB cannot write to the environment block, such as when it is stored on an MDRAID or LVM device, the chosen boot menu entry will remain the default even after reboot. "
 -msgstr "OBSERVERA: I fall där GRUB inte kan skriva till miljöblocket, till exempel när det lagras på en MDRAID- eller LVM-enhet, förblir den valda uppstartsmenyposten som standard även efter omstart. "
-+msgstr "OBSERVERA: Om GRUB inte kan skriva till miljöblocket, till exempel när det "
-+"lagras på en MDRAID- eller LVM-enhet, förblir den valda uppstartsmenyposten "
-+"standard även efter omstart. "
++msgstr "OBSERVERA: Om GRUB inte kan skriva till miljöblocket, till exempel när det lagras på en MDRAID- eller LVM-enhet, förblir den valda uppstartsmenyposten standard även efter omstart. "
  
  #: util/grub-reboot.in:110 util/grub-set-default.in:104
  msgid "More than one menu entry?"
-@@ -8076,7 +8167,8 @@
+@@ -8076,7 +8078,7 @@
  #: util/grub.d/00_header.in:312
  #, c-format
  msgid "Setting GRUB_TIMEOUT to a non-zero value when GRUB_HIDDEN_TIMEOUT is set is no longer supported."
 -msgstr "Ställa in GRUB_TIMEOUT till ett värde som inte är noll när GRUB_HIDDEN_TIMEOUT är inställt stöds inte längre."
-+msgstr "Det stöds inte längre att ange GRUB_TIMEOUT till ett värde som inte är noll "
-+"när GRUB_HIDDEN_TIMEOUT är inställt."
++msgstr "Det stöds inte längre att ange GRUB_TIMEOUT till ett värde som inte är noll när GRUB_HIDDEN_TIMEOUT är inställt."
  
  #: util/grub.d/10_hurd.in:48
  #, c-format
-@@ -8107,7 +8199,8 @@
+@@ -8107,7 +8109,7 @@
  #: util/grub.d/10_netbsd.in:113 util/grub.d/30_os-prober.in:306
  #, c-format
  msgid "Please don't use old title `%s' for GRUB_DEFAULT, use `%s' (for versions before 2.00) or `%s' (for 2.00 or later)"
 -msgstr "Använd inte den gamla titeln `%s' för GRUB_DEFAULT, använd istället `%s' (för versioner före 2.00) eller `%s' (för 2.00 eller senare)"
-+msgstr "Använd inte den gamla titeln ”%s” för GRUB_DEFAULT; använd i stället ”%s” "
-+"(för versioner före 2.00) eller ”%s” (för 2.00 eller senare)"
++msgstr "Använd inte den gamla titeln ”%s” för GRUB_DEFAULT; använd i stället ”%s” (för versioner före 2.00) eller ”%s” (för 2.00 eller senare)"
  
  #: util/grub.d/10_hurd.in:137
  #, c-format
-@@ -8125,7 +8218,7 @@
+@@ -8125,7 +8127,7 @@
  #: util/grub.d/30_os-prober.in:282
  #, c-format
  msgid "Advanced options for %s"
@@ -3954,7 +3863,7 @@
  
  #: util/grub.d/10_illumos.in:40
  #, c-format
-@@ -8166,7 +8259,7 @@
+@@ -8166,7 +8168,7 @@
  #: util/grub.d/10_linux.in:150 util/grub.d/20_linux_xen.in:161
  #, c-format
  msgid "Loading initial ramdisk ..."
@@ -3963,7 +3872,7 @@
  
  #: util/grub.d/10_linux.in:209 util/grub.d/20_linux_xen.in:289
  #, c-format
-@@ -8251,13 +8344,13 @@
+@@ -8251,13 +8253,13 @@
  #: util/grub.d/20_linux_xen.in:265 util/grub.d/20_linux_xen.in:358
  #, c-format
  msgid "Xen hypervisor, version %s"
@@ -3979,14 +3888,13 @@
  
  #: util/grub.d/30_os-prober.in:30
  #, c-format
-@@ -8267,7 +8360,9 @@
+@@ -8267,7 +8269,8 @@
  #: util/grub.d/30_os-prober.in:39
  #, c-format
  msgid "os-prober will be executed to detect other bootable partitions.\\nIts output will be used to detect bootable binaries on them and create new boot entries."
 -msgstr "os-prober kommer att köras för att upptäcka andra uppstartsbara partitioner..\\nDess utdata kommer att användas för att upptäcka uppstartsbara binärfiler på dem och skapa nya uppstartsposter."
 +msgstr "os-prober kommer att köras för att upptäcka andra uppstartsbara partitioner.\n"
-+"Dess utdata används för att upptäcka uppstartsbara binärfiler på dem och "
-+"skapa nya uppstartsposter."
++"Dess utdata används för att upptäcka uppstartsbara binärfiler på dem och skapa nya uppstartsposter."
  
  #: util/grub.d/30_os-prober.in:121
  #, c-format

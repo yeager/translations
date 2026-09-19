@@ -1,16 +1,15 @@
 --- a/gstreamer-1.27.90.sv.po
 +++ b/gstreamer-1.27.90.sv.po
-@@ -35,7 +35,8 @@
+@@ -35,7 +35,7 @@
  
  #: gst/gst.c:255
  msgid "Default debug level from 1 (only error) to 9 (anything) or 0 for no output"
 -msgstr "Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för ingen utmatning"
-+msgstr "Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för "
-+"ingen utdata"
++msgstr "Standardfelsökningsnivå från 1 (endast fel) till 9 (allting) eller 0 för ingen utdata"
  
  #: gst/gst.c:257
  msgid "LEVEL"
-@@ -51,11 +52,12 @@
+@@ -51,11 +51,11 @@
  
  #: gst/gst.c:264
  msgid "Disable colored debugging output"
@@ -20,22 +19,20 @@
  #: gst/gst.c:268
  msgid "Changes coloring mode of the debug log. Possible modes: off, on, disable, auto, unix"
 -msgstr "Ändrar färgläggning av felsökningsutskrifter. Möjliga lägen: off, on, disable, auto, unix"
-+msgstr "Ändrar färgläget för felsökningsloggen. Möjliga lägen: off, on, disable, "
-+"auto, unix"
++msgstr "Ändrar färgläget för felsökningsloggen. Möjliga lägen: off, on, disable, auto, unix"
  
  #: gst/gst.c:272
  msgid "Disable debugging"
-@@ -71,7 +73,8 @@
+@@ -71,7 +71,7 @@
  
  #: gst/gst.c:279
  msgid "Comma-separated list of plugins to preload in addition to the list stored in environment variable GST_PLUGIN_PATH"
 -msgstr "Kommaseparerad lista med insticksmoduler att förhandsinläsa utöver listan som lagras i miljövariabeln GST_PLUGIN_PATH"
-+msgstr "Kommaseparerad lista med insticksmoduler att förinläsa utöver listan i "
-+"miljövariabeln GST_PLUGIN_PATH"
++msgstr "Kommaseparerad lista med insticksmoduler att förinläsa utöver listan i miljövariabeln GST_PLUGIN_PATH"
  
  #: gst/gst.c:281
  msgid "PLUGINS"
-@@ -79,7 +82,7 @@
+@@ -79,7 +79,7 @@
  
  #: gst/gst.c:284
  msgid "Disable trapping of segmentation faults during plugin loading"
@@ -44,7 +41,7 @@
  
  #: gst/gst.c:289
  msgid "Disable updating the registry"
-@@ -87,7 +90,7 @@
+@@ -87,7 +87,7 @@
  
  #: gst/gst.c:294
  msgid "Disable spawning a helper process while scanning the registry"
@@ -53,7 +50,7 @@
  
  #: gst/gst.c:299
  msgid "GStreamer Options"
-@@ -100,11 +103,11 @@
+@@ -100,11 +100,11 @@
  #: gst/gst.c:1022
  #, c-format
  msgid "Unknown option"
@@ -67,7 +64,7 @@
  
  #: gst/gsterror.c:138 gst/gsterror.c:180 gst/gsterror.c:204 gst/gsterror.c:246
  msgid "GStreamer developers were too lazy to assign an error code to this error."
-@@ -112,11 +115,12 @@
+@@ -112,11 +112,11 @@
  
  #: gst/gsterror.c:141
  msgid "Internal GStreamer error: code not implemented."
@@ -77,12 +74,11 @@
  #: gst/gsterror.c:143
  msgid "GStreamer error: state change failed and some element failed to post a proper error message with the reason for the failure."
 -msgstr "GStreamer-fel: tillståndsändring misslyckades och några element misslyckades med att skicka ett korrekt felmeddelande med anledningen till felet."
-+msgstr "GStreamer-fel: tillståndsändring misslyckades och ett element misslyckades "
-+"med att skicka ett korrekt felmeddelande med orsaken till felet."
++msgstr "GStreamer-fel: tillståndsändring misslyckades och ett element misslyckades med att skicka ett korrekt felmeddelande med orsaken till felet."
  
  #: gst/gsterror.c:146
  msgid "Internal GStreamer error: pad problem."
-@@ -140,7 +144,7 @@
+@@ -140,7 +140,7 @@
  
  #: gst/gsterror.c:156
  msgid "Internal GStreamer error: caps problem."
@@ -91,7 +87,7 @@
  
  #: gst/gsterror.c:158
  msgid "Internal GStreamer error: tag problem."
-@@ -160,19 +164,19 @@
+@@ -160,19 +160,19 @@
  
  #: gst/gsterror.c:178
  msgid "GStreamer encountered a general supporting library error."
@@ -115,7 +111,7 @@
  
  #: gst/gsterror.c:189
  msgid "Encoding error."
-@@ -188,7 +192,7 @@
+@@ -188,7 +188,7 @@
  
  #: gst/gsterror.c:209
  msgid "Resource busy or not available."
@@ -124,7 +120,7 @@
  
  #: gst/gsterror.c:211
  msgid "Could not open resource for reading."
-@@ -216,7 +220,7 @@
+@@ -216,7 +216,7 @@
  
  #: gst/gsterror.c:223
  msgid "Could not perform seek on resource."
@@ -133,7 +129,7 @@
  
  #: gst/gsterror.c:225
  msgid "Could not synchronize on resource."
-@@ -232,7 +236,7 @@
+@@ -232,7 +232,7 @@
  
  #: gst/gsterror.c:231
  msgid "Not authorized to access resource."
@@ -142,7 +138,7 @@
  
  #: gst/gsterror.c:244
  msgid "GStreamer encountered a general stream error."
-@@ -240,7 +244,7 @@
+@@ -240,7 +240,7 @@
  
  #: gst/gsterror.c:249
  msgid "Element doesn't implement handling of this stream. Please file a bug."
@@ -151,7 +147,7 @@
  
  #: gst/gsterror.c:252
  msgid "Could not determine type of stream."
-@@ -252,7 +256,7 @@
+@@ -252,7 +252,7 @@
  
  #: gst/gsterror.c:257
  msgid "There is no codec present that can handle the stream's type."
@@ -160,7 +156,7 @@
  
  #: gst/gsterror.c:259
  msgid "Could not decode stream."
-@@ -294,7 +298,7 @@
+@@ -294,7 +294,7 @@
  
  #: gst/gstpipeline.c:484
  msgid "Selected clock cannot be used in pipeline."
@@ -169,7 +165,7 @@
  
  #: gst/gstregistry.c:1895
  #, c-format
-@@ -355,7 +359,7 @@
+@@ -355,7 +355,7 @@
  
  #: gst/gsttaglist.c:133
  msgid "The artist of the entire album, as it should be displayed"
@@ -178,7 +174,7 @@
  
  #: gst/gsttaglist.c:137
  msgid "album artist sortname"
-@@ -363,7 +367,7 @@
+@@ -363,7 +363,7 @@
  
  #: gst/gsttaglist.c:138
  msgid "The artist of the entire album, as it should be sorted"
@@ -187,7 +183,7 @@
  
  #: gst/gsttaglist.c:140
  msgid "date"
-@@ -395,7 +399,7 @@
+@@ -395,7 +395,7 @@
  
  #: gst/gsttaglist.c:152
  msgid "free text commenting the data"
@@ -196,7 +192,7 @@
  
  #: gst/gsttaglist.c:155
  msgid "extended comment"
-@@ -403,7 +407,7 @@
+@@ -403,7 +403,7 @@
  
  #: gst/gsttaglist.c:156
  msgid "free text commenting the data in key=value or key[en]=comment form"
@@ -205,7 +201,7 @@
  
  #: gst/gsttaglist.c:160
  msgid "track number"
-@@ -451,7 +455,7 @@
+@@ -451,7 +451,7 @@
  
  #: gst/gsttaglist.c:184
  msgid "Homepage for this media (i.e. artist or movie homepage)"
@@ -214,7 +210,7 @@
  
  #: gst/gsttaglist.c:187
  msgid "description"
-@@ -487,15 +491,15 @@
+@@ -487,15 +487,15 @@
  
  #: gst/gsttaglist.c:202
  msgid "copyright notice of the data"
@@ -233,7 +229,7 @@
  
  #: gst/gsttaglist.c:207
  msgid "encoded by"
-@@ -523,19 +527,19 @@
+@@ -523,19 +523,19 @@
  
  #: gst/gsttaglist.c:215
  msgid "license uri"
@@ -257,7 +253,7 @@
  
  #: gst/gsttaglist.c:223
  msgid "composer"
-@@ -547,11 +551,11 @@
+@@ -547,11 +547,11 @@
  
  #: gst/gsttaglist.c:228
  msgid "conductor"
@@ -271,7 +267,7 @@
  
  #: gst/gsttaglist.c:232
  msgid "duration"
-@@ -563,35 +567,35 @@
+@@ -563,35 +563,35 @@
  
  #: gst/gsttaglist.c:235
  msgid "codec"
@@ -315,7 +311,7 @@
  
  #: gst/gsttaglist.c:247
  msgid "container format"
-@@ -655,11 +659,11 @@
+@@ -655,11 +655,11 @@
  
  #: gst/gsttaglist.c:265
  msgid "serial number of track"
@@ -329,7 +325,7 @@
  
  #: gst/gsttaglist.c:267
  msgid "track gain in dB"
-@@ -675,7 +679,7 @@
+@@ -675,7 +675,7 @@
  
  #: gst/gsttaglist.c:271
  msgid "replaygain track peak"
@@ -338,7 +334,7 @@
  
  #: gst/gsttaglist.c:271
  msgid "peak of the track"
-@@ -683,7 +687,7 @@
+@@ -683,7 +683,7 @@
  
  #: gst/gsttaglist.c:273
  msgid "replaygain album gain"
@@ -347,7 +343,7 @@
  
  #: gst/gsttaglist.c:273
  msgid "album gain in dB"
-@@ -699,7 +703,7 @@
+@@ -699,7 +699,7 @@
  
  #: gst/gsttaglist.c:277
  msgid "replaygain album peak"
@@ -356,7 +352,7 @@
  
  #: gst/gsttaglist.c:277
  msgid "peak of the album"
-@@ -776,7 +780,7 @@
+@@ -776,7 +776,7 @@
  
  #: gst/gsttaglist.c:305
  msgid "human readable descriptive location of where the media has been recorded or produced"
@@ -365,7 +361,7 @@
  
  #: gst/gsttaglist.c:308
  msgid "geo location latitude"
-@@ -828,11 +832,11 @@
+@@ -828,11 +828,11 @@
  
  #: gst/gsttaglist.c:334
  msgid "geo location horizontal error"
@@ -379,28 +375,25 @@
  
  #: gst/gsttaglist.c:338
  msgid "geo location movement speed"
-@@ -848,7 +852,8 @@
+@@ -848,7 +848,7 @@
  
  #: gst/gsttaglist.c:343
  msgid "indicates the movement direction of the device performing the capture of a media. It is represented as degrees in floating point representation, 0 means the geographic north, and increases clockwise"
 -msgstr "indikerar riktningen som enheten förflyttas när mediet skapas. Det representeras som grader i flyttalsrepresentation, 0 betyder geografiskt nordlig riktning och ökar medsols"
-+msgstr "Anger rörelseriktningen för enheten som fångar mediet. Den anges som ett "
-+"flyttal i grader, där 0 betyder geografiskt norr och värdet ökar medsols."
++msgstr "Anger rörelseriktningen för enheten som fångar mediet. Den anges som ett flyttal i grader, där 0 betyder geografiskt norr och värdet ökar medsols."
  
  #: gst/gsttaglist.c:348
  msgid "geo location capture direction"
-@@ -856,7 +861,9 @@
+@@ -856,7 +856,7 @@
  
  #: gst/gsttaglist.c:349
  msgid "indicates the direction the device is pointing to when capturing  a media. It is represented as degrees in floating point  representation, 0 means the geographic north, and increases clockwise"
 -msgstr "indikerar riktningen som enheten pekar mot när mediet skapas. Det representeras som grader i flyttalsrepresentation, 0 betyder geografiskt nordlig riktning och ökar medsols"
-+msgstr "Anger riktningen som enheten pekar mot när den fångar ett medium. Den anges "
-+"som ett flyttal i grader, där 0 betyder geografiskt norr och värdet ökar "
-+"medsols."
++msgstr "Anger riktningen som enheten pekar mot när den fångar ett medium. Den anges som ett flyttal i grader, där 0 betyder geografiskt norr och värdet ökar medsols."
  
  #. TRANSLATORS: 'show name' = 'TV/radio/podcast show name' here
  #: gst/gsttaglist.c:355
-@@ -870,7 +877,7 @@
+@@ -870,7 +870,7 @@
  #. TRANSLATORS: 'show sortname' = 'TV/radio/podcast show name as used for sorting purposes' here
  #: gst/gsttaglist.c:361
  msgid "show sortname"
@@ -409,28 +402,25 @@
  
  #: gst/gsttaglist.c:362
  msgid "Name of the tv/podcast/series show the media is from, for sorting purposes"
-@@ -914,7 +921,9 @@
+@@ -914,7 +914,7 @@
  
  #: gst/gsttaglist.c:380
  msgid "Groups related media that spans multiple tracks, like the different pieces of a concerto. It is a higher level than a track, but lower than an album"
 -msgstr "Grupprelaterade media som spänner över flera spår, såsom olika delar av en konsert. Det är en högre nivå än ett spår, men lägre än ett album"
-+msgstr "Grupperar relaterade medier som omfattar flera spår, exempelvis de olika "
-+"satserna i en konsert. Det är en högre nivå än ett spår, men lägre än ett "
-+"album."
++msgstr "Grupperar relaterade medier som omfattar flera spår, exempelvis de olika satserna i en konsert. Det är en högre nivå än ett spår, men lägre än ett album."
  
  #: gst/gsttaglist.c:384
  msgid "user rating"
-@@ -922,7 +931,8 @@
+@@ -922,7 +922,7 @@
  
  #: gst/gsttaglist.c:385
  msgid "Rating attributed by a user. The higher the rank, the more the user likes this media"
 -msgstr "Betyg angivit av en användare. Desto högre rankning, desto mer gillar användaren detta media"
-+msgstr "Betyg som en användare har angett. Ju högre betyg, desto mer gillar "
-+"användaren detta medium."
++msgstr "Betyg som en användare har angett. Ju högre betyg, desto mer gillar användaren detta medium."
  
  #: gst/gsttaglist.c:388
  msgid "device manufacturer"
-@@ -954,7 +964,7 @@
+@@ -954,7 +954,7 @@
  
  #: gst/gsttaglist.c:398
  msgid "Arbitrary application data to be serialized into the media"
@@ -439,7 +429,7 @@
  
  #: gst/gsttaglist.c:400
  msgid "image orientation"
-@@ -978,7 +988,7 @@
+@@ -978,7 +978,7 @@
  
  #: gst/gsttaglist.c:409
  msgid "Information about the people behind a remix and similar interpretations"
@@ -448,7 +438,7 @@
  
  #: gst/gsttaglist.c:413
  msgid "midi-base-note"
-@@ -986,15 +996,15 @@
+@@ -986,15 +986,15 @@
  
  #: gst/gsttaglist.c:413
  msgid "Midi note number of the audio track."
@@ -467,7 +457,7 @@
  
  #: gst/gsttaglist.c:419
  msgid "container-specific-track-id"
-@@ -1017,12 +1027,12 @@
+@@ -1017,12 +1017,12 @@
  #: gst/gsturi.c:660
  #, c-format
  msgid "No URI handler for the %s protocol found"
@@ -482,7 +472,7 @@
  
  #: gst/gstutils.c:2726 tools/gst-launch.c:352
  #, c-format
-@@ -1044,12 +1054,12 @@
+@@ -1044,12 +1044,12 @@
  #: gst/parse/grammar.y.in:327
  #, c-format
  msgid "link has no source [sink=%s@%p]"
@@ -497,7 +487,7 @@
  
  #: gst/parse/grammar.y.in:533
  msgid "No such property."
-@@ -1093,47 +1103,47 @@
+@@ -1093,47 +1093,47 @@
  #: gst/parse/grammar.y.in:1187 gst/parse/grammar.y.in:1192
  #, c-format
  msgid "could not link %s to %s, %s can't handle caps %s"
@@ -554,7 +544,7 @@
  
  #: gst/parse/grammar.y.in:1549
  msgid "syntax error"
-@@ -1142,20 +1152,20 @@
+@@ -1142,20 +1142,20 @@
  #: gst/parse/grammar.y.in:1572
  #, c-format
  msgid "specified empty bin \"%s\", not allowed"
@@ -579,7 +569,7 @@
  
  #: libs/gst/base/gstbasesink.c:3147
  msgid "A lot of buffers are being dropped."
-@@ -1167,7 +1177,7 @@
+@@ -1167,7 +1167,7 @@
  
  #: libs/gst/base/gstbasesink.c:4645 libs/gst/base/gstbasesrc.c:2820
  msgid "Internal data flow error."
@@ -588,7 +578,7 @@
  
  #: libs/gst/base/gstbasesrc.c:2750
  msgid "Internal clock error."
-@@ -1176,23 +1186,24 @@
+@@ -1176,23 +1176,23 @@
  #: libs/gst/base/gstbasesrc.c:2778 plugins/elements/gstdownloadbuffer.c:850
  #: plugins/elements/gstdownloadbuffer.c:1277
  msgid "Failed to map buffer."
@@ -603,8 +593,7 @@
  #: plugins/elements/gstcapsfilter.c:132
  msgid "Restrict the possible allowed capabilities (NULL means ANY). Setting this property takes a reference to the supplied GstCaps object."
 -msgstr "Begränsa de möjliga tillåtna förmågorna (NULL betyder ANY). Inställning av egenskapen tar en referens till det angivna GstCaps-objektet."
-+msgstr "Begränsa möjliga tillåtna caps (NULL betyder ANY). Den här egenskapen tar en "
-+"referens till det angivna GstCaps-objektet."
++msgstr "Begränsa möjliga tillåtna caps (NULL betyder ANY). Den här egenskapen tar en referens till det angivna GstCaps-objektet."
  
  #: plugins/elements/gstcapsfilter.c:139
  msgid "Caps Change Mode"
@@ -618,7 +607,7 @@
  
  #: plugins/elements/gstdownloadbuffer.c:935 plugins/elements/gstqueue2.c:1847
  msgid "No Temp directory specified."
-@@ -1259,19 +1270,19 @@
+@@ -1259,19 +1259,19 @@
  
  #: plugins/elements/gstidentity.c:850
  msgid "Failed after iterations as requested."
@@ -642,7 +631,7 @@
  
  #: plugins/elements/gsttypefindelement.c:258
  msgid "minimum"
-@@ -1279,11 +1290,11 @@
+@@ -1279,11 +1279,11 @@
  
  #: plugins/elements/gsttypefindelement.c:263
  msgid "force caps"
@@ -656,7 +645,7 @@
  
  #: plugins/elements/gsttypefindelement.c:1013
  #: plugins/elements/gsttypefindelement.c:1035
-@@ -1292,7 +1303,7 @@
+@@ -1292,7 +1292,7 @@
  
  #: plugins/elements/gsttypefindelement.c:1155
  msgid "Stream contains no data."
@@ -665,7 +654,7 @@
  
  #: tools/gst-inspect.c:406
  #, c-format
-@@ -1383,7 +1394,7 @@
+@@ -1383,7 +1383,7 @@
  
  #: tools/gst-inspect.c:2275
  msgid "Print list of blacklisted files"
@@ -674,13 +663,12 @@
  
  #: tools/gst-inspect.c:2277
  msgid ""
-@@ -1400,11 +1411,12 @@
+@@ -1400,11 +1400,11 @@
  
  #: tools/gst-inspect.c:2284
  msgid "A slashes ('/') separated list of types of elements (also known as klass) to list. (unordered)"
 -msgstr "En snedstreckseparerad lista (”/”) av typer av element (också känd som en klass) att lista. (oordnad)"
-+msgstr "En snedstrecksseparerad lista över elementtyper (även kallade klasser) att "
-+"lista. (osorterad)"
++msgstr "En snedstrecksseparerad lista över elementtyper (även kallade klasser) att lista. (osorterad)"
  
  #: tools/gst-inspect.c:2287
  msgid "Check if the specified element or plugin exists"
@@ -689,17 +677,16 @@
  
  #: tools/gst-inspect.c:2290
  msgid "When checking if an element or plugin exists, also check that its version is at least the version specified"
-@@ -1412,7 +1424,8 @@
+@@ -1412,7 +1412,7 @@
  
  #: tools/gst-inspect.c:2294
  msgid "Print supported URI schemes, with the elements that implement them"
 -msgstr "Skriv ut uri-scheman som stöds, tillsammans med elementen som implementerar dem"
-+msgstr "Skriv ut URI-scheman som stöds, tillsammans med elementen som implementerar "
-+"dem"
++msgstr "Skriv ut URI-scheman som stöds, tillsammans med elementen som implementerar dem"
  
  #: tools/gst-inspect.c:2299
  msgid "Disable colors in output. You can also achieve the same by setting 'GST_INSPECT_NO_COLORS' environment variable to any value."
-@@ -1420,7 +1433,7 @@
+@@ -1420,7 +1420,7 @@
  
  #: tools/gst-inspect.c:2307
  msgid "Color output, even when not sending to a tty."
@@ -708,7 +695,7 @@
  
  #: tools/gst-inspect.c:2481
  #, c-format
-@@ -1452,11 +1465,11 @@
+@@ -1452,11 +1452,11 @@
  
  #: tools/gst-launch.c:573
  msgid "Setting pipeline to PLAYING ...\n"
@@ -722,7 +709,7 @@
  
  #: tools/gst-launch.c:605
  #, c-format
-@@ -1481,11 +1494,11 @@
+@@ -1481,11 +1481,11 @@
  #: tools/gst-launch.c:648
  #, c-format
  msgid "Got EOS from element \"%s\".\n"
@@ -736,7 +723,7 @@
  
  #: tools/gst-launch.c:661
  #, c-format
-@@ -1536,7 +1549,7 @@
+@@ -1536,7 +1536,7 @@
  
  #: tools/gst-launch.c:746
  msgid "Pipeline is PREROLLED ...\n"
@@ -745,7 +732,7 @@
  
  #: tools/gst-launch.c:750
  msgid "Prerolled, waiting for buffering to finish...\n"
-@@ -1552,16 +1565,16 @@
+@@ -1552,16 +1552,16 @@
  
  #: tools/gst-launch.c:784
  msgid "Done buffering, setting pipeline to PLAYING ...\n"
@@ -765,7 +752,7 @@
  
  #: tools/gst-launch.c:811
  #, c-format
-@@ -1572,15 +1585,15 @@
+@@ -1572,15 +1572,15 @@
  #. * we need to stop the pipeline.
  #: tools/gst-launch.c:827
  msgid "Interrupt: Stopping pipeline ...\n"
@@ -784,7 +771,7 @@
  
  #: tools/gst-launch.c:841
  msgid "Waiting for EOS...\n"
-@@ -1603,7 +1616,7 @@
+@@ -1603,7 +1603,7 @@
  
  #: tools/gst-launch.c:1003
  msgid "ERROR: pipeline doesn't want to preroll.\n"
@@ -793,7 +780,7 @@
  
  #: tools/gst-launch.c:1005
  msgid "An error happened while waiting for EOS\n"
-@@ -1616,7 +1629,7 @@
+@@ -1616,7 +1616,7 @@
  
  #: tools/gst-launch.c:1104
  msgid "Output tags (also known as metadata)"
@@ -802,7 +789,7 @@
  
  #: tools/gst-launch.c:1106
  msgid "Output TOC (chapters and editions)"
-@@ -1632,11 +1645,12 @@
+@@ -1632,11 +1632,11 @@
  
  #: tools/gst-launch.c:1112
  msgid "Output messages"
@@ -812,12 +799,11 @@
  #: tools/gst-launch.c:1114
  msgid "Do not output status information for the specified property if verbose output is enabled (can be used multiple times)"
 -msgstr "Mata inte ut statusinformation för den angivna egenskapen om utförlig diagnostik är aktiverad (kan användas flera gånger)"
-+msgstr "Skriv inte ut statusinformation för den angivna egenskapen när utförlig "
-+"utdata är aktiverad (kan användas flera gånger)"
++msgstr "Skriv inte ut statusinformation för den angivna egenskapen när utförlig utdata är aktiverad (kan användas flera gånger)"
  
  #: tools/gst-launch.c:1116
  msgid "PROPERTY-NAME"
-@@ -1644,7 +1658,7 @@
+@@ -1644,7 +1644,7 @@
  
  #: tools/gst-launch.c:1118
  msgid "Set the name of the program"
@@ -826,7 +812,7 @@
  
  #: tools/gst-launch.c:1119
  msgid "PROGRAM-NAME"
-@@ -1656,7 +1670,7 @@
+@@ -1656,7 +1656,7 @@
  
  #: tools/gst-launch.c:1123
  msgid "Force EOS on sources before shutting the pipeline down"
@@ -835,20 +821,17 @@
  
  #: tools/gst-launch.c:1126
  msgid "Gather and print index statistics"
-@@ -1664,25 +1678,28 @@
+@@ -1664,25 +1664,25 @@
  
  #: tools/gst-launch.c:1130
  msgid "Do not print current position of pipeline. If this option is unspecified, the position will be printed when stdout is a TTY. To enable printing position when stdout is not a TTY, use \"force-position\" option"
 -msgstr "Skriv inte ut aktuell position för rörledningen. Om denna flagga inte är angivet, kommer positionen att skrivas ut då standard ut är en TTY. För att aktivera utskrift av position när standard ut inte är en TTY använd ”force-position”-flaggan"
-+msgstr "Skriv inte ut pipelines aktuella position. Om flaggan inte anges skrivs "
-+"positionen ut när standardutdata är en TTY. Använd flaggan ”force-position” "
-+"för att skriva ut positionen när standardutdata inte är en TTY."
++msgstr "Skriv inte ut pipelines aktuella position. Om flaggan inte anges skrivs positionen ut när standardutdata är en TTY. Använd flaggan ”force-position” för att skriva ut positionen när standardutdata inte är en TTY."
  
  #: tools/gst-launch.c:1136
  msgid "Allow printing current position of pipeline even if stdout is not a TTY. This option has no effect if the \"no-position\" option is specified"
 -msgstr "Tillåt utskrift av aktuell position av rörledningen även om standard ut inte är en TTY. Denna flagga har ingen effekt om flaggan ”no-position” är angiven"
-+msgstr "Tillåt att pipelines aktuella position skrivs ut även om standardutdata inte "
-+"är en TTY. Flaggan har ingen effekt om ”no-position” anges."
++msgstr "Tillåt att pipelines aktuella position skrivs ut även om standardutdata inte är en TTY. Flaggan har ingen effekt om ”no-position” anges."
  
  #: tools/gst-launch.c:1224
  #, c-format
@@ -869,7 +852,7 @@
  
  #: tools/gst-launch.c:1248
  msgid "ERROR: the 'pipeline' element wasn't found.\n"
-@@ -1690,21 +1707,20 @@
+@@ -1690,21 +1690,20 @@
  
  #: tools/gst-launch.c:1297
  msgid "Setting pipeline to PAUSED ...\n"
@@ -895,7 +878,7 @@
  
  #: tools/gst-launch.c:1354
  msgid "Execution ended after %"
-@@ -1712,11 +1728,11 @@
+@@ -1712,11 +1711,11 @@
  
  #: tools/gst-launch.c:1371
  msgid "Setting pipeline to NULL ...\n"

@@ -27,7 +27,7 @@
  
  #: ../src/DFArcFrame.cpp:710
  msgid ""
-@@ -181,12 +181,13 @@
+@@ -181,12 +181,12 @@
  "After completing the main game, give some D-Mods a try.\n"
  "There are hundreds of them, just click File-Download D-Mods."
  msgstr ""
@@ -39,25 +39,23 @@
 -"Det finns hundratals av dem, bara klicka på Arkiv-Hämta ner D-Mod:ar."
 +"Välkommen till DFArc, Dink Smallwoods gränssnitt!\n"
 +"\n"
-+"Du kan spela originalspelet Dink Smallwood eller Dink-moduler, D-Mods, med "
-+"nya äventyr.\n"
++"Du kan spela originalspelet Dink Smallwood eller Dink-moduler, D-Mods, med nya äventyr.\n"
 +"\n"
 +"När du avslutat huvudspelet kan du prova några D-Mods.\n"
 +"Det finns hundratals; välj Arkiv → Hämta D-Mods."
  
  #: ../src/DFArcFrame.cpp:717
  msgid "Introduction"
-@@ -195,7 +196,8 @@
+@@ -195,7 +195,7 @@
  #. If there's no directory, let's not override
  #: ../src/DFArcFrame.cpp:860
  msgid "Cannot use the overridden Dink Smallwood directory - ignoring it. (permission problem?)"
 -msgstr "Kan inte använda den åsidosatta Dink Smallwood-katalogen - ignorerar den. (rättighetsproblem?)"
-+msgstr "Kan inte använda den åsidosatta Dink Smallwood-katalogen; den ignoreras. "
-+"(Rättighetsproblem?)"
++msgstr "Kan inte använda den åsidosatta Dink Smallwood-katalogen; den ignoreras. (Rättighetsproblem?)"
  
  #: ../src/DFArcFrame.cpp:862 ../src/DFArcFrame.cpp:870
  msgid "Configuration error"
-@@ -204,11 +206,12 @@
+@@ -204,11 +204,11 @@
  #. If there's no directory, let's not override
  #: ../src/DFArcFrame.cpp:869
  msgid "The Dink Smallwood directory you entered does not exist - ignoring it."
@@ -67,12 +65,11 @@
  #: ../src/DFArcFrame.cpp:884
  msgid "You must select the uninstall option from the start menu to uninstall the main game."
 -msgstr "Du måste markera avinstallationsalternativet från startmenyn för att avinstallera huvudspelet."
-+msgstr "Du måste välja avinstallationsalternativet i startmenyn för att avinstallera "
-+"huvudspelet."
++msgstr "Du måste välja avinstallationsalternativet i startmenyn för att avinstallera huvudspelet."
  
  #: ../src/DFArcFrame.cpp:885
  msgid "Uninstall - Error"
-@@ -220,7 +223,7 @@
+@@ -220,7 +220,7 @@
  
  #: ../src/DFArcFrame.cpp:891
  msgid "Uninstall - Save Game Files"
@@ -81,7 +78,7 @@
  
  #: ../src/DFArcFrame.cpp:913
  msgid "Unable to remove D-Mod directory. All other files were removed."
-@@ -228,11 +231,11 @@
+@@ -228,11 +228,11 @@
  
  #: ../src/DFArcFrame.cpp:919
  msgid "D-Mod successfully uninstalled"
@@ -95,7 +92,7 @@
  
  #: ../src/InstallVerifyFrame.cpp:47
  msgid "Preparing"
-@@ -240,7 +243,7 @@
+@@ -240,7 +240,7 @@
  
  #: ../src/InstallVerifyFrame.cpp:48
  msgid "The D-Mod archive is being decompressed in a temporary file."
@@ -104,7 +101,7 @@
  
  #: ../src/InstallVerifyFrame.cpp:67
  #, c-format
-@@ -249,9 +252,9 @@
+@@ -249,9 +249,9 @@
  "\n"
  "The D-Mod will be installed in subdirectory '%s'."
  msgstr ""
@@ -117,7 +114,7 @@
  
  #: ../src/InstallVerifyFrame.cpp:80
  msgid "DFArc - Install D-Mod - "
-@@ -259,7 +262,7 @@
+@@ -259,7 +259,7 @@
  
  #: ../src/InstallVerifyFrame.cpp:119 ../src/InstallVerifyFrame.cpp:136
  msgid "DFArc - Installing"
@@ -126,7 +123,7 @@
  
  #: ../src/InstallVerifyFrame.cpp:135
  #, c-format
-@@ -268,19 +271,19 @@
+@@ -268,19 +268,19 @@
  
  #: ../src/InstallVerifyFrame.cpp:147
  msgid "The D-Mod you selected"
@@ -150,7 +147,7 @@
  
  #: ../src/Options.cpp:113
  msgid "System language"
-@@ -288,11 +291,11 @@
+@@ -288,11 +288,11 @@
  
  #: ../src/Options.cpp:136
  msgid "Custom"
@@ -164,7 +161,7 @@
  
  #: ../src/Options.cpp:183
  msgid "Choose a folder containing D-Mods"
-@@ -300,7 +303,7 @@
+@@ -300,7 +300,7 @@
  
  #: ../src/Package.cpp:123
  msgid "You must provide an identifier filename."
@@ -173,7 +170,7 @@
  
  #: ../src/Package.cpp:134
  msgid "Packaging"
-@@ -314,11 +317,11 @@
+@@ -314,11 +314,11 @@
  #: ../src/Package.cpp:160
  #, c-format
  msgid "%s was successfully packaged (compression ratio %2.1f : 1)."
@@ -187,7 +184,7 @@
  
  #: ../src/Package.cpp:168
  msgid "Abort"
-@@ -340,11 +343,12 @@
+@@ -340,11 +340,11 @@
  #: ../src/Tar.cpp:177
  #, c-format
  msgid "Error: Could not open tar file '%s' for bzip compression."
@@ -197,12 +194,11 @@
  #: ../src/Tar.cpp:199
  msgid "Error: Could not initialize compression method!  Will not generate a correct .dmod file.  Quitting."
 -msgstr "Fel: Kunde inte initiera komprimeringsmetod!  Kommer inte att generera en korrekt .dmod-fil.  Avslutar."
-+msgstr "Fel: Kunde inte initiera komprimeringsmetoden. En korrekt .dmod-fil kan inte "
-+"skapas. Avslutar."
++msgstr "Fel: Kunde inte initiera komprimeringsmetoden. En korrekt .dmod-fil kan inte skapas. Avslutar."
  
  #: ../src/Tar.cpp:232
  #, c-format
-@@ -368,7 +372,7 @@
+@@ -368,7 +368,7 @@
  
  #: ../src/Tar.cpp:472
  msgid "Error: invalid D-Mod directory.  Stopping."
@@ -211,7 +207,7 @@
  
  #: ../src/Tar.cpp:527
  #, c-format
-@@ -388,12 +392,12 @@
+@@ -388,12 +388,12 @@
  #: ../src/Tar.cpp:594
  #, c-format
  msgid "Got bad file %d/%d.  Skipping."
@@ -226,7 +222,7 @@
  
  #: ../src/Tar.cpp:651
  msgid "Done."
-@@ -409,11 +413,11 @@
+@@ -409,11 +409,11 @@
  
  #: ../src/DFArcFrame_Base.cpp:28
  msgid "&Download D-Mods"
@@ -240,7 +236,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:30
  msgid "E&xit"
-@@ -429,19 +433,19 @@
+@@ -429,19 +429,19 @@
  
  #: ../src/DFArcFrame_Base.cpp:33
  msgid "&Refresh D-Mod List"
@@ -264,7 +260,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:35
  msgid "&Uninstall Selected D-Mod"
-@@ -457,7 +461,7 @@
+@@ -457,7 +457,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:37
  msgid "View or modify DFArc options"
@@ -273,7 +269,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:38
  msgid "&Edit"
-@@ -469,7 +473,7 @@
+@@ -469,7 +469,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:40
  msgid "A quick introduction to Dinking and D-Mods"
@@ -282,7 +278,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:41
  msgid "&Walkthroughs and Guides"
-@@ -477,7 +481,7 @@
+@@ -477,7 +477,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:41
  msgid "Stuck in a D-Mod? Check out The Dink Smallwood Solutions."
@@ -291,7 +287,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:42
  msgid "&Forums"
-@@ -509,7 +513,7 @@
+@@ -509,7 +509,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:52
  msgid "Windowed"
@@ -300,7 +296,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:53
  msgid "Sound"
-@@ -533,7 +537,7 @@
+@@ -533,7 +533,7 @@
  
  #: ../src/DFArcFrame_Base.cpp:58 ../src/Package_Base.cpp:26
  msgid "Package"
@@ -309,7 +305,7 @@
  
  #. begin wxGlade: DFArcFrame_Base::set_properties
  #: ../src/DFArcFrame_Base.cpp:73
-@@ -551,7 +555,7 @@
+@@ -551,7 +551,7 @@
  
  #: ../src/InstallVerifyFrame_Base.cpp:25
  msgid "Main Dink directory"
@@ -318,7 +314,7 @@
  
  #: ../src/InstallVerifyFrame_Base.cpp:26 ../src/Options_Base.cpp:29
  msgid "Additional D-Mods directory"
-@@ -559,7 +563,7 @@
+@@ -559,7 +559,7 @@
  
  #: ../src/InstallVerifyFrame_Base.cpp:28
  msgid "Where do you want to install this D-Mod?"
@@ -327,7 +323,7 @@
  
  #: ../src/InstallVerifyFrame_Base.cpp:29
  msgid "Install"
-@@ -609,7 +613,7 @@
+@@ -609,7 +609,7 @@
  "(restart DFArc to apply)"
  msgstr ""
  "DFArc-språk\n"
@@ -336,7 +332,7 @@
  
  #. begin wxGlade: Options_Base::set_properties
  #: ../src/Options_Base.cpp:56
-@@ -626,10 +630,10 @@
+@@ -626,10 +626,10 @@
  "Will package '%s' located at\n"
  "%s"
  msgstr ""
@@ -351,7 +347,7 @@
  "%s"
  
  #: ../src/Package_Base.cpp:24
-@@ -647,7 +651,7 @@
+@@ -647,7 +647,7 @@
  
  #: ../share/freedink-dfarc.desktop.in.h:1
  msgid "DFArc - Dink frontend"

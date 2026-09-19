@@ -228,7 +228,7 @@
  
  #: lib/xfreopen.c:37
  msgid "unknown stream"
-@@ -476,22 +476,23 @@
+@@ -476,22 +476,22 @@
  #: lib/xfreopen.c:38
  #, c-format
  msgid "failed to reopen %s with mode %s"
@@ -239,8 +239,7 @@
  #, c-format
  msgid "failed to open all three standard file descriptors; maybe %s or %s are not working right?"
 -msgstr "misslyckades att öppna alla tra standardfilbeskrivare; kanske %s eller %s inte fungerar som de skall?"
-+msgstr "det gick inte att öppna alla tre standardfilbeskrivarna; kanske fungerar %s "
-+"eller %s inte korrekt?"
++msgstr "det gick inte att öppna alla tre standardfilbeskrivarna; kanske fungerar %s eller %s inte korrekt?"
  
  #: src/analyze.c:445 src/diff.c:1330
  #, c-format
@@ -256,7 +255,7 @@
  
  #: src/analyze.c:687 src/diff3.c:1347 src/util.c:1033
  msgid "No newline at end of file"
-@@ -509,7 +510,7 @@
+@@ -509,7 +509,7 @@
  #: src/cmp.c:143
  #, c-format
  msgid "invalid --ignore-initial value %s"
@@ -265,7 +264,7 @@
  
  #: src/cmp.c:153
  #, c-format
-@@ -523,15 +524,16 @@
+@@ -523,15 +523,15 @@
  
  #: src/cmp.c:163 src/diff.c:962 src/diff.c:1660 src/diff3.c:423 src/sdiff.c:172
  msgid "standard output"
@@ -280,22 +279,20 @@
  #: src/cmp.c:168
  msgid "-i, --ignore-initial=SKIP         skip first SKIP bytes of both inputs"
 -msgstr "-i,  --ignore-initial=HOPP        hoppa över de första HOPP byte indata"
-+msgstr "-i, --ignore-initial=HOPP         hoppa över de första HOPP bytena i båda "
-+"indata"
++msgstr "-i, --ignore-initial=HOPP         hoppa över de första HOPP bytena i båda indata"
  
  #: src/cmp.c:169
  msgid ""
-@@ -543,7 +545,8 @@
+@@ -543,7 +543,7 @@
  
  #: src/cmp.c:171
  msgid "-l, --verbose              output byte numbers and differing byte values"
 -msgstr "-l, --verbose              skriv ut bytenummer och värde för alla skiljande byte"
-+msgstr "-l, --verbose              skriv ut bytenummer och värden för byte som "
-+"skiljer sig"
++msgstr "-l, --verbose              skriv ut bytenummer och värden för byte som skiljer sig"
  
  #: src/cmp.c:172
  msgid "-n, --bytes=LIMIT          compare at most LIMIT bytes"
-@@ -551,7 +554,7 @@
+@@ -551,7 +551,7 @@
  
  #: src/cmp.c:173
  msgid "-s, --quiet, --silent      suppress all normal output"
@@ -304,7 +301,7 @@
  
  #: src/cmp.c:174
  msgid "    --help                 display this help and exit"
-@@ -559,7 +562,7 @@
+@@ -559,7 +559,7 @@
  
  #: src/cmp.c:175
  msgid "-v, --version              output version information and exit"
@@ -313,7 +310,7 @@
  
  #: src/cmp.c:182
  #, c-format
-@@ -576,7 +579,7 @@
+@@ -576,7 +576,7 @@
  "at the beginning of each file (zero by default)."
  msgstr ""
  "De valfria HOPP1 och HOPP2 anger antalet byte att hoppa över\n"
@@ -322,7 +319,7 @@
  
  #: src/cmp.c:189 src/diff.c:1070 src/diff3.c:459 src/sdiff.c:211
  msgid "Mandatory arguments to long options are mandatory for short options too.\n"
-@@ -594,21 +597,21 @@
+@@ -594,21 +594,21 @@
  
  #: src/cmp.c:198
  msgid "If a FILE is '-' or missing, read standard input."
@@ -348,7 +345,7 @@
  
  #: src/cmp.c:280 src/diff.c:877 src/diff3.c:330 src/sdiff.c:563
  #, c-format
-@@ -618,17 +621,17 @@
+@@ -618,17 +618,17 @@
  #: src/cmp.c:551
  #, c-format
  msgid "%s %s differ: byte %<PRIdMAX>, line %<PRIdMAX>\n"
@@ -369,7 +366,7 @@
  
  #: src/cmp.c:626
  #, c-format
-@@ -668,17 +671,17 @@
+@@ -668,17 +668,17 @@
  #: src/diff.c:376
  #, c-format
  msgid "invalid context length %s"
@@ -390,7 +387,7 @@
  
  #: src/diff.c:587
  #, c-format
-@@ -687,21 +690,21 @@
+@@ -687,21 +687,21 @@
  
  #: src/diff.c:591
  msgid "conflicting width options"
@@ -416,7 +413,7 @@
  
  #: src/diff.c:850
  msgid "--from-file and --to-file both specified"
-@@ -709,7 +712,7 @@
+@@ -709,7 +709,7 @@
  
  #: src/diff.c:966
  msgid "    --normal                  output a normal diff (the default)"
@@ -425,7 +422,7 @@
  
  #: src/diff.c:967
  msgid "-q, --brief                   report only when files differ"
-@@ -717,17 +720,18 @@
+@@ -717,17 +717,16 @@
  
  #: src/diff.c:968
  msgid "-s, --report-identical-files  report when two files are the same"
@@ -435,20 +432,18 @@
  #: src/diff.c:969
  msgid "-c, -C NUM, --context[=NUM]   output NUM (default 3) lines of copied context"
 -msgstr "-c, -C ANT, --context[=ANT]   skriv ANT (3 som standard) rader kopia av sammanhang"
-+msgstr "-c, -C ANT, --context[=ANT]   skriv ut ANT rader med kopierat sammanhang, 3 "
-+"som standard"
++msgstr "-c, -C ANT, --context[=ANT]   skriv ut ANT rader med kopierat sammanhang, 3 som standard"
  
  #: src/diff.c:970
  msgid "-u, -U NUM, --unified[=NUM]   output NUM (default 3) lines of unified context"
  msgstr ""
 -"-u, -U ANT, --unified[=ANT]   skriv ut ANT (3 som standard) rader med\n"
 -"                                 sammanslagen omgivning"
-+"-u, -U ANT, --unified[=ANT]   skriv ut ANT rader med enhetligt sammanhang, 3 "
-+"som standard"
++"-u, -U ANT, --unified[=ANT]   skriv ut ANT rader med enhetligt sammanhang, 3 som standard"
  
  #: src/diff.c:971
  msgid "-e, --ed                      output an ed script"
-@@ -743,7 +747,7 @@
+@@ -743,7 +742,7 @@
  
  #: src/diff.c:974
  msgid "-W, --width=NUM               output at most NUM (default 130) print columns"
@@ -457,24 +452,22 @@
  
  #: src/diff.c:975
  msgid "    --left-column             output only the left column of common lines"
-@@ -775,7 +779,8 @@
+@@ -775,7 +774,7 @@
  
  #: src/diff.c:984
  msgid "-T, --initial-tab             make tabs line up by prepending a tab"
 -msgstr "-T, --initial-tab             justera tabulatorer genom att skjuta in en"
-+msgstr "-T, --initial-tab             justera tabulatorer genom att lägga till en "
-+"inledande tabulator"
++msgstr "-T, --initial-tab             justera tabulatorer genom att lägga till en inledande tabulator"
  
  #: src/diff.c:985
  msgid "    --tabsize=NUM             tab stops every NUM (default 8) print columns"
-@@ -784,12 +789,13 @@
+@@ -784,12 +783,12 @@
  #: src/diff.c:986
  msgid "    --suppress-blank-empty    suppress space or tab before empty output lines"
  msgstr ""
 -"    --suppress-blank-empty    undertryck blanka eller tabulatorer före tomma\n"
 -"                                utrader"
-+"    --suppress-blank-empty    undertryck blanksteg eller tabulatorer före "
-+"tomma"
++"    --suppress-blank-empty    undertryck blanksteg eller tabulatorer före tomma"
 +" utdatarader"
  
  #: src/diff.c:987
@@ -484,7 +477,7 @@
  
  #: src/diff.c:989
  msgid "-r, --recursive                 recursively compare any subdirectories found"
-@@ -805,15 +811,17 @@
+@@ -805,15 +804,15 @@
  
  #: src/diff.c:992
  msgid "    --unidirectional-new-file   treat absent first files as empty"
@@ -494,18 +487,16 @@
  #: src/diff.c:993
  msgid "    --ignore-file-name-case     ignore case when comparing file names"
 -msgstr "    --ignore-file-name-case     bortse från skiftläge när filnamn jämförs"
-+msgstr "    --ignore-file-name-case     bortse från skiftläge vid jämförelse av "
-+"filnamn"
++msgstr "    --ignore-file-name-case     bortse från skiftläge vid jämförelse av filnamn"
  
  #: src/diff.c:994
  msgid "    --no-ignore-file-name-case  consider case when comparing file names"
 -msgstr "    --no-ignore-file-name-case  ta hänsyn till skiftläge när filnamn jämförs"
-+msgstr "    --no-ignore-file-name-case  ta hänsyn till skiftläge vid jämförelse av "
-+"filnamn"
++msgstr "    --no-ignore-file-name-case  ta hänsyn till skiftläge vid jämförelse av filnamn"
  
  #: src/diff.c:995
  msgid "-x, --exclude=PAT               exclude files that match PAT"
-@@ -821,7 +829,7 @@
+@@ -821,7 +820,7 @@
  
  #: src/diff.c:996
  msgid "-X, --exclude-from=FILE         exclude files that match any pattern in FILE"
@@ -514,13 +505,12 @@
  
  #: src/diff.c:997
  msgid "-S, --starting-file=FILE        start with FILE when comparing directories"
-@@ -849,15 +857,16 @@
+@@ -849,15 +848,15 @@
  
  #: src/diff.c:1004
  msgid "-E, --ignore-tab-expansion      ignore changes due to tab expansion"
 -msgstr "-E, --ignore-tab-expansion      bortse från ändringar på grund av tab-expansion"
-+msgstr "-E, --ignore-tab-expansion      bortse från ändringar på grund av "
-+"tabulatorexpansion"
++msgstr "-E, --ignore-tab-expansion      bortse från ändringar på grund av tabulatorexpansion"
  
  #: src/diff.c:1005
  msgid "-Z, --ignore-trailing-space     ignore white space at line end"
@@ -534,7 +524,7 @@
  
  #: src/diff.c:1007
  msgid "-w, --ignore-all-space          ignore all white space"
-@@ -865,7 +874,7 @@
+@@ -865,7 +864,7 @@
  
  #: src/diff.c:1008
  msgid "-B, --ignore-blank-lines        ignore changes where lines are all blank"
@@ -543,7 +533,7 @@
  
  #: src/diff.c:1009
  msgid "-I, --ignore-matching-lines=RE  ignore changes where all lines match RE"
-@@ -877,11 +886,11 @@
+@@ -877,11 +876,11 @@
  
  #: src/diff.c:1012
  msgid "    --strip-trailing-cr         strip trailing carriage return on input"
@@ -557,7 +547,7 @@
  
  #: src/diff.c:1017
  msgid "-D, --ifdef=NAME                output merged file with '#ifdef NAME' diffs"
-@@ -906,12 +915,13 @@
+@@ -906,12 +905,13 @@
  "  These format options provide fine-grained control over the output\n"
  "    of diff, generalizing -D/--ifdef."
  msgstr ""
@@ -574,7 +564,7 @@
  
  #: src/diff.c:1024
  msgid ""
-@@ -961,30 +971,30 @@
+@@ -961,30 +961,30 @@
  "    %c'\\OOO'  the character with octal code OOO\n"
  "    C    the character C (other characters represent themselves)"
  msgstr ""
@@ -612,7 +602,7 @@
  "                           ”auto”; bara --color betyder --color='auto'"
  
  #: src/diff.c:1051
-@@ -992,8 +1002,8 @@
+@@ -992,8 +992,8 @@
  "    --palette=PALETTE    the colors to use when --color is active; PALETTE is\n"
  "                           a colon-separated list of terminfo capabilities"
  msgstr ""
@@ -623,7 +613,7 @@
  
  #: src/diff.c:1054
  msgid "    --help               display this help and exit"
-@@ -1010,12 +1020,12 @@
+@@ -1010,12 +1010,12 @@
  #: src/diff.c:1058
  msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s)."
  msgstr ""
@@ -639,7 +629,7 @@
  
  #: src/diff.c:1067
  #, c-format
-@@ -1029,12 +1039,12 @@
+@@ -1029,12 +1029,12 @@
  #: src/diff.c:1102
  #, c-format
  msgid "conflicting %s option value %s"
@@ -654,7 +644,7 @@
  
  #: src/diff.c:1131
  #, c-format
-@@ -1048,7 +1058,7 @@
+@@ -1048,7 +1048,7 @@
  #: src/diff.c:1199
  #, c-format
  msgid "Common subdirectories: %s and %s\n"
@@ -663,7 +653,7 @@
  
  #: src/diff.c:1216 src/diff.c:1402
  #, c-format
-@@ -1063,11 +1073,11 @@
+@@ -1063,11 +1063,11 @@
  #: src/diff.c:1281
  #, c-format
  msgid "Symbolic links %s -> %s and %s -> %s differ\n"
@@ -677,7 +667,7 @@
  
  #: src/diff.c:1651
  #, c-format
-@@ -1085,7 +1095,7 @@
+@@ -1085,7 +1085,7 @@
  
  #: src/diff3.c:363
  msgid "'-' specified for more than one input file"
@@ -686,7 +676,7 @@
  
  #: src/diff3.c:405 src/diff3.c:1183 src/diff3.c:1569 src/diff3.c:1625
  #: src/sdiff.c:307 src/sdiff.c:831 src/sdiff.c:841
-@@ -1094,7 +1104,7 @@
+@@ -1094,7 +1094,7 @@
  
  #: src/diff3.c:427
  msgid "-A, --show-all              output all changes, bracketing conflicts"
@@ -695,13 +685,12 @@
  
  #: src/diff3.c:429
  msgid ""
-@@ -1110,15 +1120,16 @@
+@@ -1110,15 +1110,15 @@
  
  #: src/diff3.c:432
  msgid "-3, --easy-only             like -e, but incorporate only nonoverlapping changes"
 -msgstr "-3, --easy-only             som -e, men tag endast med ej överlappande ändringar"
-+msgstr "-3, --easy-only             som -e, men använd endast icke-överlappande "
-+"ändringar"
++msgstr "-3, --easy-only             som -e, men använd endast icke-överlappande ändringar"
  
  #: src/diff3.c:433
  msgid "-x, --overlap-only          like -e, but incorporate only overlapping changes"
@@ -715,7 +704,7 @@
  
  #: src/diff3.c:435
  msgid "-i                          append 'w' and 'q' commands to ed scripts"
-@@ -1129,20 +1140,21 @@
+@@ -1129,20 +1129,20 @@
  "-m, --merge                 output actual merged file, according to\n"
  "                                -A if no other options are given"
  msgstr ""
@@ -737,12 +726,11 @@
  #: src/diff3.c:442
  msgid "-T, --initial-tab           make tabs line up by prepending a tab"
 -msgstr "-T, --initial-tab           justera tabulatorer genom att skjuta in en tabulator"
-+msgstr "-T, --initial-tab           justera tabulatorer genom att lägga till en "
-+"inledande tabulator"
++msgstr "-T, --initial-tab           justera tabulatorer genom att lägga till en inledande tabulator"
  
  #: src/diff3.c:443
  msgid "    --diff-program=PROGRAM  use PROGRAM to compare files"
-@@ -1153,8 +1165,8 @@
+@@ -1153,8 +1153,8 @@
  "-L, --label=LABEL           use LABEL instead of file name\n"
  "                                (can be repeated up to three times)"
  msgstr ""
@@ -753,7 +741,7 @@
  
  #: src/diff3.c:447
  msgid "    --help                  display this help and exit"
-@@ -1187,23 +1199,26 @@
+@@ -1187,23 +1187,25 @@
  "robust than using ed.\n"
  msgstr ""
  "\n"
@@ -765,8 +753,7 @@
  "\n"
 -"Flaggorna -e, -E, -x, -X (och motsvarande långa) gör att ett ed-skript skrivs\n"
 -"ut istället för standardtext.\n"
-+"Flaggorna -e, -E, -x och -X, och motsvarande långa flaggor, gör att ett "
-+"ed-skript\n"
++"Flaggorna -e, -E, -x och -X, och motsvarande långa flaggor, gör att ett ed-skript\n"
 +"skrivs "
 +"ut i stället för standardformatet.\n"
  "\n"
@@ -788,7 +775,7 @@
  
  #: src/diff3.c:924
  #, c-format
-@@ -1216,7 +1231,7 @@
+@@ -1216,7 +1218,7 @@
  
  #: src/diff3.c:969
  msgid "invalid diff format; invalid change separator"
@@ -797,7 +784,7 @@
  
  #: src/diff3.c:1190
  msgid "invalid diff format; incomplete last line"
-@@ -1229,11 +1244,11 @@
+@@ -1229,11 +1231,11 @@
  
  #: src/diff3.c:1240
  msgid "invalid diff format; incorrect leading line chars"
@@ -811,7 +798,7 @@
  
  #: src/diff3.c:1571 src/diff3.c:1629
  msgid "input file shrank"
-@@ -1242,7 +1257,7 @@
+@@ -1242,7 +1244,7 @@
  #: src/dir.c:194
  #, c-format
  msgid "cannot compare file names %s and %s"
@@ -820,7 +807,7 @@
  
  #: src/dir.c:246
  #, c-format
-@@ -1255,31 +1270,32 @@
+@@ -1255,31 +1257,31 @@
  
  #: src/sdiff.c:176
  msgid "-o, --output=FILE            operate interactively, sending output to FILE"
@@ -835,8 +822,7 @@
  #: src/sdiff.c:179
  msgid "-E, --ignore-tab-expansion   ignore changes due to tab expansion"
 -msgstr "-E, --ignore-tab-expansion   ignorera ändringar på grund av tabulatorexpansion"
-+msgstr "-E, --ignore-tab-expansion   bortse från ändringar på grund av "
-+"tabulatorexpansion"
++msgstr "-E, --ignore-tab-expansion   bortse från ändringar på grund av tabulatorexpansion"
  
  #: src/sdiff.c:180
  msgid "-Z, --ignore-trailing-space  ignore white space at line end"
@@ -860,7 +846,7 @@
  
  #: src/sdiff.c:184
  msgid "-I, --ignore-matching-lines=RE  ignore changes all whose lines match RE"
-@@ -1287,7 +1303,7 @@
+@@ -1287,7 +1289,7 @@
  
  #: src/sdiff.c:185
  msgid "    --strip-trailing-cr      strip trailing carriage return on input"
@@ -869,7 +855,7 @@
  
  #: src/sdiff.c:186
  msgid "-a, --text                   treat all files as text"
-@@ -1295,11 +1311,12 @@
+@@ -1295,11 +1297,11 @@
  
  #: src/sdiff.c:188
  msgid "-w, --width=NUM              output at most NUM (default 130) print columns"
@@ -879,12 +865,11 @@
  #: src/sdiff.c:189
  msgid "-l, --left-column            output only the left column of common lines"
 -msgstr "-l, --left-column            skriv endast ut gemensamma raders vänstra kolumn"
-+msgstr "-l, --left-column            skriv ut endast vänster kolumn för gemensamma "
-+"rader"
++msgstr "-l, --left-column            skriv ut endast vänster kolumn för gemensamma rader"
  
  #: src/sdiff.c:190
  msgid "-s, --suppress-common-lines  do not output common lines"
-@@ -1311,15 +1328,16 @@
+@@ -1311,15 +1313,15 @@
  
  #: src/sdiff.c:193
  msgid "    --tabsize=NUM            tab stops at every NUM (default 8) print columns"
@@ -899,12 +884,11 @@
  #: src/sdiff.c:196
  msgid "-H, --speed-large-files      assume large files, many scattered small changes"
 -msgstr "-H, --speed-large-files      antag stora filer och små spridda ändringar"
-+msgstr "-H, --speed-large-files      förutsätt stora filer och många spridda små "
-+"ändringar"
++msgstr "-H, --speed-large-files      förutsätt stora filer och många spridda små ändringar"
  
  #: src/sdiff.c:197
  msgid "    --diff-program=PROGRAM   use PROGRAM to compare files"
-@@ -1340,15 +1358,15 @@
+@@ -1340,15 +1342,15 @@
  
  #: src/sdiff.c:209
  msgid "Side-by-side merge of differences between FILE1 and FILE2."
@@ -923,7 +907,7 @@
  
  #: src/sdiff.c:805
  msgid ""
-@@ -1363,15 +1381,15 @@
+@@ -1363,15 +1365,15 @@
  "v:\tVerbosely include common lines.\n"
  "q:\tQuit.\n"
  msgstr ""

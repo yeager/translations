@@ -1,46 +1,33 @@
 --- a/dos2unix-man-7.5.6-beta2.sv.po
 +++ b/dos2unix-man-7.5.6-beta2.sv.po
-@@ -57,7 +57,12 @@
+@@ -57,7 +57,7 @@
  #. type: textblock
  #: dos2unix.pod:66
  msgid "In DOS/Windows text files a line break, also known as newline, is a combination of two characters: a Carriage Return (CR) followed by a Line Feed (LF). In Unix text files a line break is a single character: the Line Feed (LF). In Mac text files, prior to Mac OS X, a line break was single Carriage Return (CR)  character. Nowadays Mac OS uses Unix style (LF) line breaks."
 -msgstr "Textfiler i DOS/Windows har en radbrytning, också känd som nyrad, som är en kombination av två tecken: vagnretur (Carriage Return, CR) åtföljt av radmatning (Line Feed, LF). Textfiler i Unix har en radbrytning som är ett enda tecken: radmatning (Line Feed, LF). Textfiler för Mac, innan Mac OS X, hade en radbrytning som var en enda vagnretur (Carriage Return, CR). Numera använder Mac OS radbrytning i Unix-stil (LF)."
-+msgstr "I textfiler i DOS/Windows är en radbrytning, även kallad nyrad, en "
-+"kombination av två tecken: en vagnretur (Carriage Return, CR) följd av en "
-+"radmatning (Line Feed, LF). I textfiler i Unix är en radbrytning ett enda "
-+"tecken: radmatning (Line Feed, LF). I textfiler för Mac, före Mac OS X, var "
-+"en radbrytning en enda vagnretur (Carriage Return, CR). Numera använder Mac "
-+"OS radbrytningar i Unix-stil (LF)."
++msgstr "I textfiler i DOS/Windows är en radbrytning, även kallad nyrad, en kombination av två tecken: en vagnretur (Carriage Return, CR) följd av en radmatning (Line Feed, LF). I textfiler i Unix är en radbrytning ett enda tecken: radmatning (Line Feed, LF). I textfiler för Mac, före Mac OS X, var en radbrytning en enda vagnretur (Carriage Return, CR). Numera använder Mac OS radbrytningar i Unix-stil (LF)."
  
  #. type: textblock
  #: dos2unix.pod:72
-@@ -82,7 +87,13 @@
+@@ -82,7 +82,7 @@
  #. type: textblock
  #: dos2unix.pod:84
  msgid "dos2unix was modelled after dos2unix under SunOS/Solaris.  There is one important difference with the original SunOS/Solaris version. This version does by default in-place conversion (old file mode), while the original SunOS/Solaris version only supports paired conversion (new file mode). See also options C<-o> and C<-n>. Another difference is that the SunOS/Solaris version uses by default I<iso> mode conversion while this version uses by default I<ascii> mode conversion."
 -msgstr "dos2unix modellerades efter dos2unix från SunOS/Solaris. Det finns en viktig skillnad gentemot originalversionen för SunOS/Solaris. Denna versionen gör som standard konverteringen på plats (gammalfilsläge), medan originalversionen från SunOS/Solaris bara hade stöd för parad konvertering (nyfilsläge). Se vidare flaggorna C<-o> och C<-n>. En annan skillnad är att SunOS/Solaris-versionen som standard använder I<iso>-lägeskonvertering medan denna version som standard använder I<ascii>-lägeskonvertering."
-+msgstr "dos2unix modellerades efter dos2unix i SunOS/Solaris. Det finns en viktig "
-+"skillnad jämfört med originalversionen för SunOS/Solaris. Den här versionen "
-+"konverterar som standard på plats (gammalfilsläge), medan originalversionen "
-+"för SunOS/Solaris bara stöder parad konvertering (nyfilsläge). Se även "
-+"flaggorna C<-o> och C<-n>. En annan skillnad är att SunOS/Solaris-versionen "
-+"som standard använder I<iso>-lägeskonvertering, medan den här versionen som "
-+"standard använder I<ascii>-lägeskonvertering."
++msgstr "dos2unix modellerades efter dos2unix i SunOS/Solaris. Det finns en viktig skillnad jämfört med originalversionen för SunOS/Solaris. Den här versionen konverterar som standard på plats (gammalfilsläge), medan originalversionen för SunOS/Solaris bara stöder parad konvertering (nyfilsläge). Se även flaggorna C<-o> och C<-n>. En annan skillnad är att SunOS/Solaris-versionen som standard använder I<iso>-lägeskonvertering, medan den här versionen som standard använder I<ascii>-lägeskonvertering."
  
  #. type: =head1
  #: dos2unix.pod:92
-@@ -97,7 +108,9 @@
+@@ -97,7 +97,7 @@
  #. type: textblock
  #: dos2unix.pod:98
  msgid "Treat all following options as file names. Use this option if you want to convert files whose names start with a dash. For instance to convert a file named \"-foo\", you can use this command:"
 -msgstr "Behandla alla efterföljande flaggor som filnamn. Använd denna flagga om du vill konvertera filer vars namn börjar med bindestreck. För att till exempel konvertera en fil med namnet “-foo“ kan du använda detta kommando:"
-+msgstr "Behandla alla efterföljande argument som filnamn. Använd flaggan om du vill "
-+"konvertera filer vars namn börjar med ett bindestreck. För att till exempel "
-+"konvertera en fil med namnet ”-foo” kan du använda det här kommandot:"
++msgstr "Behandla alla efterföljande argument som filnamn. Använd flaggan om du vill konvertera filer vars namn börjar med ett bindestreck. För att till exempel konvertera en fil med namnet ”-foo” kan du använda det här kommandot:"
  
  #. type: verbatim
  #: dos2unix.pod:102
-@@ -132,12 +145,17 @@
+@@ -132,12 +132,12 @@
  #. type: textblock
  #: dos2unix.pod:110
  msgid "Allow file ownership change in old file mode."
@@ -51,35 +38,25 @@
  #: dos2unix.pod:112
  msgid "When this option is used, the conversion will not be aborted when the user and/or group ownership of the original file can't be preserved in old file mode. Conversion will continue and the converted file will get the same new ownership as if it was converted in new file mode. See also options C<-o> and C<-n>. This option is only available if dos2unix has support for preserving the user and group ownership of files."
 -msgstr "När denna flagga används, kommer konverteringen inte att avbrytas när användar- och/eller gruppägarskap för originalfilen inte kan bevaras i gammalt filläget. Konverteringen kommer att fortsätta och den konverterade filen kommer att få samma nya ägarskap som om den konverterades i nyfilsläge. Se också flaggorna C<-o> och C<-n>. Denna flagga är endast tillgänglig om dos2unix har stöd för att bevara användar- och gruppägarskap för filer."
-+msgstr "När den här flaggan används avbryts inte konverteringen om användar- "
-+"och/eller gruppägarskapet för originalfilen inte kan bevaras i "
-+"gammalfilsläge. Konverteringen fortsätter och den konverterade filen får "
-+"samma nya ägarskap som om den konverterades i nyfilsläge. Se även flaggorna "
-+"C<-o> och C<-n>. Flaggan är bara tillgänglig om dos2unix stöder bevarande av "
-+"användar- och gruppägarskap för filer."
++msgstr "När den här flaggan används avbryts inte konverteringen om användar- och/eller gruppägarskapet för originalfilen inte kan bevaras i gammalfilsläge. Konverteringen fortsätter och den konverterade filen får samma nya ägarskap som om den konverterades i nyfilsläge. Se även flaggorna C<-o> och C<-n>. Flaggan är bara tillgänglig om dos2unix stöder bevarande av användar- och gruppägarskap för filer."
  
  #. type: =item
  #: dos2unix.pod:119
-@@ -337,7 +355,8 @@
+@@ -337,7 +337,7 @@
  #. type: textblock
  #: dos2unix.pod:237
  msgid "The default encoding can be changed with environment variable DOS2UNIX_DISPLAY_ENC by setting it to C<unicode>, C<unicodebom>, C<utf8>, or C<utf8bom>."
 -msgstr "Standardkodningen kan ändras via miljövariabeln DOS2UNIX_DISPLAY_ENC genom att sätta den till C<unicode>, C<unicodebom>, C<utf8> or C<utf8bom>."
-+msgstr "Standardkodningen kan ändras med miljövariabeln DOS2UNIX_DISPLAY_ENC genom "
-+"att sätta den till C<unicode>, C<unicodebom>, C<utf8> eller C<utf8bom>."
++msgstr "Standardkodningen kan ändras med miljövariabeln DOS2UNIX_DISPLAY_ENC genom att sätta den till C<unicode>, C<unicodebom>, C<utf8> eller C<utf8bom>."
  
  #. type: =item
  #: dos2unix.pod:240
-@@ -352,17 +371,21 @@
+@@ -352,17 +352,17 @@
  #. type: textblock
  #: dos2unix.pod:245
  msgid "A file converted from DOS to Unix format may lack a line break on the last line. There are text editors that write text files without a line break on the last line. Some Unix programs have problems processing these files, because the POSIX standard defines that every line in a text file must end with a terminating newline character. For instance concatenating files may not give the expected result."
 -msgstr "En fil konverterad från DOS- till Unix-format kan sakna en radbrytning på sista raden. Det finns textredigerare som skriver textfiler utan en radbrytning på den sista raden. Vissa Unix-program har problem med att behandla dessa filer, då POSIX-standarden definierar det som att varje rad i en textfil måste har ett avslutande nyradstecken. Att konkatenera filer kan till exempel ge oväntat resultat."
-+msgstr "En fil som konverterats från DOS- till Unix-format kan sakna en radbrytning "
-+"på sista raden. Vissa textredigerare skriver textfiler utan radbrytning på "
-+"sista raden. En del Unix-program har problem att bearbeta sådana filer, "
-+"eftersom POSIX-standarden anger att varje rad i en textfil måste avslutas med "
-+"ett nyradstecken. Att sammanfoga filer kan till exempel ge oväntade resultat."
++msgstr "En fil som konverterats från DOS- till Unix-format kan sakna en radbrytning på sista raden. Vissa textredigerare skriver textfiler utan radbrytning på sista raden. En del Unix-program har problem att bearbeta sådana filer, eftersom POSIX-standarden anger att varje rad i en textfil måste avslutas med ett nyradstecken. Att sammanfoga filer kan till exempel ge oväntade resultat."
  
  #. type: =item
  #: dos2unix.pod:252
@@ -95,40 +72,34 @@
  
  #. type: =item
  #: dos2unix.pod:256
-@@ -407,7 +430,9 @@
+@@ -407,7 +407,7 @@
  #. type: textblock
  #: dos2unix.pod:274
  msgid "The following information is printed, in this order: number of DOS line breaks, number of Unix line breaks, number of Mac line breaks, byte order mark, text or binary, file name."
 -msgstr "Följande information skrivs ut, i denna ordningen: antal DOS-radbrytningar, antal Unix-radbrytningar, antal Mac-radbrytningar, byteordningsmarkeringen, text eller binär, filnamn."
-+msgstr "Följande information skrivs ut i denna ordning: antal DOS-radbrytningar, "
-+"antal Unix-radbrytningar, antal Mac-radbrytningar, byteordningsmarkering, "
-+"text eller binär, filnamn."
++msgstr "Följande information skrivs ut i denna ordning: antal DOS-radbrytningar, antal Unix-radbrytningar, antal Mac-radbrytningar, byteordningsmarkering, text eller binär, filnamn."
  
  #. type: textblock
  #: dos2unix.pod:278 dos2unix.pod:294
-@@ -467,7 +492,8 @@
+@@ -467,7 +467,7 @@
  #. type: textblock
  #: dos2unix.pod:301
  msgid "Optionally extra flags can be set to change the output. One or more flags can be added."
 -msgstr "Extra flaggor kan användas valfritt för att ändra utmatningen. En eller fler flaggor kan läggas till."
-+msgstr "Ytterligare flaggor kan användas för att ändra utmatningen. En eller flera "
-+"flaggor kan läggas till."
++msgstr "Ytterligare flaggor kan användas för att ändra utmatningen. En eller flera flaggor kan läggas till."
  
  #. type: =item
  #: dos2unix.pod:306
-@@ -477,7 +503,10 @@
+@@ -477,7 +477,7 @@
  #. type: textblock
  #: dos2unix.pod:308
  msgid "Print the file information lines followed by a null character instead of a newline character. This enables correct interpretation of file names with spaces or quotes when flag c is used. Use this flag in combination with xargs(1) option C<-0> or C<--null>."
 -msgstr "Skriv ut filinformationsraderna följt av ett null-tecken istället för ett nyradstecken. Detta möjliggör korrekt tolkning av filnamn med blanksteg eller citationstecken när c-flaggan används. Använd denna flagga i kombination med xargs(1):s flagga C<-0> eller C<--null>."
-+msgstr "Skriv ut filinformationsraderna följda av ett nulltecken i stället för ett "
-+"nyradstecken. Detta möjliggör korrekt tolkning av filnamn med blanksteg eller "
-+"citattecken när flaggan c används. Använd flaggan tillsammans med "
-+"xargs(1)-flaggan C<-0> eller C<--null>."
++msgstr "Skriv ut filinformationsraderna följda av ett nulltecken i stället för ett nyradstecken. Detta möjliggör korrekt tolkning av filnamn med blanksteg eller citattecken när flaggan c används. Använd flaggan tillsammans med xargs(1)-flaggan C<-0> eller C<--null>."
  
  #. type: =item
  #: dos2unix.pod:313
-@@ -712,7 +741,7 @@
+@@ -712,7 +712,7 @@
  #. type: textblock
  #: dos2unix.pod:393
  msgid "Keep the date stamp of output file same as input file."
@@ -137,7 +108,7 @@
  
  #. type: =item
  #: dos2unix.pod:395
-@@ -732,7 +761,7 @@
+@@ -732,7 +732,7 @@
  #. type: textblock
  #: dos2unix.pod:401
  msgid "Add additional newline."
@@ -146,13 +117,12 @@
  
  #. type: textblock
  #: dos2unix.pod:403
-@@ -752,12 +781,13 @@
+@@ -752,12 +752,12 @@
  #. type: textblock
  #: dos2unix.pod:412
  msgid "Write a Byte Order Mark (BOM) in the output file. By default an UTF-8 BOM is written."
 -msgstr "Skriv en byteordningsmarkering (Byte Order Mark, BOM) i utfilen. Som standard skrivs en UTF-8 BOM."
-+msgstr "Skriv en byteordningsmarkering (Byte Order Mark, BOM) i utfilen. Som standard "
-+"skrivs en UTF-8-BOM."
++msgstr "Skriv en byteordningsmarkering (Byte Order Mark, BOM) i utfilen. Som standard skrivs en UTF-8-BOM."
  
  #. type: textblock
  #: dos2unix.pod:415
@@ -162,18 +132,16 @@
  
  #. type: textblock
  #: dos2unix.pod:418
-@@ -772,7 +802,9 @@
+@@ -772,7 +772,7 @@
  #. type: textblock
  #: dos2unix.pod:424
  msgid "New file mode. Convert file INFILE and write output to file OUTFILE.  File names must be given in pairs and wildcard names should I<not> be used or you I<will> lose your files."
 -msgstr "Nyfilsläge. Konvertera filen INFIL och skriv utfilen UTFIL. Filnamnen måste ange i par och jokertecken i namnen ska I<inte> användas annars I<kommer> du att förlora filer."
-+msgstr "Nyfilsläge. Konvertera filen INFIL och skriv utdata till filen UTFIL. "
-+"Filnamnen måste anges parvis och jokertecken i namnen bör I<inte> användas, "
-+"annars I<kommer> du att förlora filer."
++msgstr "Nyfilsläge. Konvertera filen INFIL och skriv utdata till filen UTFIL. Filnamnen måste anges parvis och jokertecken i namnen bör I<inte> användas, annars I<kommer> du att förlora filer."
  
  #. type: textblock
  #: dos2unix.pod:428
-@@ -787,7 +819,7 @@
+@@ -787,7 +787,7 @@
  #. type: textblock
  #: dos2unix.pod:435
  msgid "Don't allow file ownership change in old file mode (default)."
@@ -182,13 +150,12 @@
  
  #. type: textblock
  #: dos2unix.pod:437
-@@ -804,17 +836,18 @@
+@@ -804,17 +804,17 @@
  #, fuzzy
  #| msgid "Do not add a line break to the last line if there isn't one."
  msgid "Do not add a line break to the last line if there isn't one (default)."
 -msgstr "Lägg inte till en radbrytning på den sista raden om det inte finns någon."
-+msgstr "Lägg inte till en radbrytning på sista raden om det inte finns någon "
-+"(standard)."
++msgstr "Lägg inte till en radbrytning på sista raden om det inte finns någon (standard)."
  
  #. type: =item
  #: dos2unix.pod:446
@@ -204,186 +171,148 @@
  
  #. type: =item
  #: dos2unix.pod:450
-@@ -824,12 +857,15 @@
+@@ -824,12 +824,12 @@
  #. type: textblock
  #: dos2unix.pod:452
  msgid "Write to standard output, like a Unix filter. Use option C<-o> to go back to old file (in-place) mode."
 -msgstr "Skriv till standard ut som ett Unix-filter. Använd flaggan C<-o> för att återgå till det gamla (på-plats) filläget."
-+msgstr "Skriv till standardutdata, som ett Unix-filter. Använd flaggan C<-o> för att "
-+"återgå till gammalfilsläge (på plats)."
++msgstr "Skriv till standardutdata, som ett Unix-filter. Använd flaggan C<-o> för att återgå till gammalfilsläge (på plats)."
  
  #. type: textblock
  #: dos2unix.pod:455
  msgid "Combined with option C<-e> files can be properly concatenated. No merged last and first lines, and no Unicode byte order marks in the middle of the concatenated file. Example:"
 -msgstr "Kombinerat med flaggan C<-e> kan filer konkateneras korrekt. Inga sammanfogade sista och första rader, och inga Unicode byteordningsmarkeringar i mitten på den konkatenerade filen. Exempel:"
-+msgstr "Tillsammans med flaggan C<-e> kan filer sammanfogas korrekt. Inga "
-+"sammanslagna sista och första rader och inga Unicode-byteordningsmarkeringar "
-+"mitt i den sammanfogade filen. Exempel:"
++msgstr "Tillsammans med flaggan C<-e> kan filer sammanfogas korrekt. Inga sammanslagna sista och första rader och inga Unicode-byteordningsmarkeringar mitt i den sammanfogade filen. Exempel:"
  
  #. type: verbatim
  #: dos2unix.pod:459
-@@ -859,7 +895,8 @@
+@@ -859,7 +859,7 @@
  #. type: textblock
  #: dos2unix.pod:475
  msgid "To check if dos2unix has support for preserving the user and group ownership of files type C<dos2unix -V>."
 -msgstr "För att kontrollera om dos2unix har stöd för att bevara användar- och gruppägarskap för filer skriv C<dosunix -V>."
-+msgstr "För att kontrollera om dos2unix stöder bevarande av användar- och "
-+"gruppägarskap för filer, skriv C<dos2unix -V>."
++msgstr "För att kontrollera om dos2unix stöder bevarande av användar- och gruppägarskap för filer, skriv C<dos2unix -V>."
  
  #. type: textblock
  #: dos2unix.pod:478
-@@ -904,7 +941,8 @@
+@@ -904,7 +904,7 @@
  #. type: textblock
  #: dos2unix.pod:498
  msgid "Quiet mode. Suppress all warnings and messages. The return value is zero.  Except when wrong command-line options are used."
 -msgstr "Tyst drift. Undertryck alla varningar och meddelanden. Returvärdet är noll. Utom när felaktiga kommandoradsflaggor används."
-+msgstr "Tyst läge. Undertryck alla varningar och meddelanden. Returvärdet är noll, "
-+"utom när felaktiga kommandoradsflaggor används."
++msgstr "Tyst läge. Undertryck alla varningar och meddelanden. Returvärdet är noll, utom när felaktiga kommandoradsflaggor används."
  
  #. type: =item
  #: dos2unix.pod:501
-@@ -929,12 +967,17 @@
+@@ -929,12 +929,12 @@
  #. type: textblock
  #: dos2unix.pod:511
  msgid "The skipping of binary files is done to avoid accidental mistakes. Be aware that the detection of binary files is not 100% foolproof. Input files are scanned for binary symbols which are typically not found in text files. It is possible that a binary file contains only normal text characters. Such a binary file will mistakenly be seen as a text file."
 -msgstr "Binärfiler hoppas över för att undvika oavsiktliga misstag. Var medveten om att detektering av binärfiler inte är 100% säker. Infiler genomsöks efter binära symboler som typiskt inte återfinns i textfiler. Det är möjligt att en binärfil enbart innehåller texttecken. En sådan binärfil kommer oavsiktligt att ses som en textfil."
-+msgstr "Binärfiler hoppas över för att undvika oavsiktliga misstag. Observera att "
-+"identifiering av binärfiler inte är helt säker. Infiler genomsöks efter "
-+"binärsymboler som normalt inte förekommer i textfiler. Det är möjligt att en "
-+"binärfil bara innehåller vanliga texttecken. En sådan binärfil identifieras "
-+"då felaktigt som en textfil."
++msgstr "Binärfiler hoppas över för att undvika oavsiktliga misstag. Observera att identifiering av binärfiler inte är helt säker. Infiler genomsöks efter binärsymboler som normalt inte förekommer i textfiler. Det är möjligt att en binärfil bara innehåller vanliga texttecken. En sådan binärfil identifieras då felaktigt som en textfil."
  
  #. type: textblock
  #: dos2unix.pod:517
  msgid "By default, no error is returned when a binary file is skipped. When the C<--error-binary> option is used, an error is returned."
 -msgstr ""
-+msgstr "Som standard returneras inget fel när en binär fil hoppas över. När flaggan "
-+"C<--error-binary> används returneras ett fel."
++msgstr "Som standard returneras inget fel när en binär fil hoppas över. När flaggan C<--error-binary> används returneras ett fel."
  
  #. type: =item
  #: dos2unix.pod:520
-@@ -946,7 +989,10 @@
+@@ -946,7 +946,7 @@
  #, fuzzy
  #| msgid "Keep the original UTF-16 encoding of the input file. The output file will be written in the same UTF-16 encoding, little or big endian, as the input file.  This prevents transformation to UTF-8. An UTF-16 BOM will be written accordingly. This option can be disabled with the C<-ascii> option."
  msgid "Keep the original UTF-16 encoding of the input file. The output file will be written in the same UTF-16 encoding, little- or big-endian, as the input file.  This prevents transformation to UTF-8. An UTF-16 BOM will be written accordingly. This option can be disabled with the C<-ascii> option."
 -msgstr "Behåll infilens original UTF-16-kodning. Utfilen kommer att skrivas med samma UTF-16-kodning som infilen, omvänd eller rak byteordning (little eller big endian). Detta förhindrar transformation till UTF-8. En UTF-16 BOM kommer att skrivas i enlighet med detta. Denna flagga kan inaktiveras med C<-ascii>-flaggan."
-+msgstr "Behåll infilens ursprungliga UTF-16-kodning. Utfilen skrivs med samma "
-+"UTF-16-kodning som infilen, liten eller stor byteordning (little eller big "
-+"endian). Detta förhindrar omvandling till UTF-8. En UTF-16-BOM skrivs enligt "
-+"detta. Flaggan kan inaktiveras med C<-ascii>-flaggan."
++msgstr "Behåll infilens ursprungliga UTF-16-kodning. Utfilen skrivs med samma UTF-16-kodning som infilen, liten eller stor byteordning (little eller big endian). Detta förhindrar omvandling till UTF-8. En UTF-16-BOM skrivs enligt detta. Flaggan kan inaktiveras med C<-ascii>-flaggan."
  
  #. type: =item
  #: dos2unix.pod:527
-@@ -966,12 +1012,16 @@
+@@ -966,12 +966,12 @@
  #. type: textblock
  #: dos2unix.pod:534
  msgid "When you made a wrong assumption (the input file was not in UTF-16LE format) and the conversion succeeded, you will get an UTF-8 output file with wrong text.  You can undo the wrong conversion with iconv(1) by converting the UTF-8 output file back to UTF-16LE. This will bring back the original file."
 -msgstr "När du har gjort fel antagande (infilen var inte i UTF-16LE-format) och konverteringens lyckas, kommer du att få en UTF-8 utfil med felaktig text. Du kan göra denna konvertering ogjord med iconv(1) genom att konvertera UTF-8 utfilen tillbaka till UTF-16LE. Detta kommer att återskapa originalfilen."
-+msgstr "Om du gjort ett felaktigt antagande (infilen inte hade UTF-16LE-format) och "
-+"konverteringen lyckas, får du en UTF-8-utfil med felaktig text. Du kan ångra "
-+"den felaktiga konverteringen med iconv(1) genom att konvertera UTF-8-utfilen "
-+"tillbaka till UTF-16LE. Då återskapas originalfilen."
++msgstr "Om du gjort ett felaktigt antagande (infilen inte hade UTF-16LE-format) och konverteringen lyckas, får du en UTF-8-utfil med felaktig text. Du kan ångra den felaktiga konverteringen med iconv(1) genom att konvertera UTF-8-utfilen tillbaka till UTF-16LE. Då återskapas originalfilen."
  
  #. type: textblock
  #: dos2unix.pod:539
  msgid "The assumption of UTF-16LE works as a I<conversion mode>. By switching to the default I<ascii> mode the UTF-16LE assumption is turned off."
 -msgstr "Antagandet om UTF-16LE fungerar som ett I<konverteringsläge>. Genom att växla till standard I<ascii>-läget kommer UTF-16LE antagandet att stängas av."
-+msgstr "Antagandet om UTF-16LE fungerar som ett I<konverteringsläge>. Genom att växla "
-+"till standardläget I<ascii> stängs UTF-16LE-antagandet av."
++msgstr "Antagandet om UTF-16LE fungerar som ett I<konverteringsläge>. Genom att växla till standardläget I<ascii> stängs UTF-16LE-antagandet av."
  
  #. type: =item
  #: dos2unix.pod:542
-@@ -996,7 +1046,8 @@
+@@ -996,7 +996,7 @@
  #. type: textblock
  #: dos2unix.pod:550
  msgid "Display verbose messages. Extra information is displayed about Byte Order Marks and the amount of converted line breaks."
 -msgstr "Visa utförliga meddelanden. Extra information visas om byteordningsmarkeringar och antalet konverterade radbrytningar."
-+msgstr "Visa utförliga meddelanden. Ytterligare information visas om "
-+"byteordningsmarkeringar och antalet konverterade radbrytningar."
++msgstr "Visa utförliga meddelanden. Ytterligare information visas om byteordningsmarkeringar och antalet konverterade radbrytningar."
  
  #. type: =item
  #: dos2unix.pod:553
-@@ -1051,12 +1102,14 @@
+@@ -1051,12 +1051,12 @@
  #. type: textblock
  #: dos2unix.pod:577
  msgid "In Mac mode line breaks are converted from Mac to Unix and vice versa. DOS line breaks are not changed."
 -msgstr "I Mac-läge konverteras radbrytningar från Mac till Unix och vice versa. DOS-radbrytningar ändras ej."
-+msgstr "I Mac-läge konverteras radbrytningar från Mac till Unix och vice versa. "
-+"DOS-radbrytningar ändras inte."
++msgstr "I Mac-läge konverteras radbrytningar från Mac till Unix och vice versa. DOS-radbrytningar ändras inte."
  
  #. type: textblock
  #: dos2unix.pod:580
  msgid "To run in Mac mode use the command-line option C<-c mac> or use the commands C<mac2unix> or C<unix2mac>."
 -msgstr "För att köra i Mac-läge använd kommandoradsflaggan C<-c mac> eller använd kommandona C<mac2unix> eller C<unix2mac>."
-+msgstr "Kör i Mac-läge med kommandoradsflaggan C<-c mac> eller kommandona C<mac2unix> "
-+"och C<unix2mac>."
++msgstr "Kör i Mac-läge med kommandoradsflaggan C<-c mac> eller kommandona C<mac2unix> och C<unix2mac>."
  
  #. type: =head1
  #: dos2unix.pod:583
-@@ -1071,12 +1124,18 @@
+@@ -1071,12 +1071,12 @@
  #. type: textblock
  #: dos2unix.pod:589
  msgid "This is the default conversion mode. This mode is for converting ASCII and ASCII-compatible encoded files, like UTF-8. Enabling B<ascii> mode disables B<7bit> and B<iso> mode."
 -msgstr "Detta är standardkonverteringsläget. Detta läge används för att konvertera ASCII och ASCII-kompatibla kodade filer, så som UTF-8. Att aktiveras B<ascii>-läge inaktiverar B<7bit>- och B<iso>-läge."
-+msgstr "Detta är standardkonverteringsläget. Läget används för att konvertera ASCII- "
-+"och ASCII-kompatibelt kodade filer, till exempel UTF-8. Aktivering av "
-+"B<ascii>-läget inaktiverar B<7bit>- och B<iso>-läget."
++msgstr "Detta är standardkonverteringsläget. Läget används för att konvertera ASCII- och ASCII-kompatibelt kodade filer, till exempel UTF-8. Aktivering av B<ascii>-läget inaktiverar B<7bit>- och B<iso>-läget."
  
  #. type: textblock
  #: dos2unix.pod:593
  msgid "If dos2unix has UTF-16 support, UTF-16 encoded files are converted to the current locale character encoding on POSIX systems and to UTF-8 on Windows.  Enabling B<ascii> mode disables the option to keep UTF-16 encoding (C<-u>) and the options to assume UTF-16 input (C<-ul> and C<-ub>).  To see if dos2unix has UTF-16 support type C<dos2unix -V>. See also section UNICODE."
 -msgstr "Om dos2unix har UTF-16 stöd kommer UTF-16-kodade filer att konverteras till kodningen för den aktuella lokalen på POSIX-sytstem och till UTF-8 på Windows. Aktivering av B<ascii>-läget inaktiverar flaggan för att behålla UTF-16-kodning (C<-u>) och flaggorna för att anta UTF-16 indata (C<-ul> och C<-ub>). För att se om dos2unix har UTF-16-stöd skriv C<dox2unix -V>, se också avsnittet UNICODE."
-+msgstr "Om dos2unix stöder UTF-16 konverteras UTF-16-kodade filer till kodningen för "
-+"den aktuella lokalen på POSIX-system och till UTF-8 på Windows. Aktivering av "
-+"B<ascii>-läget inaktiverar flaggan för att behålla UTF-16-kodning (C<-u>) och "
-+"flaggorna för att anta UTF-16-indata (C<-ul> och C<-ub>). För att se om "
-+"dos2unix stöder UTF-16, skriv C<dos2unix -V>. Se även avsnittet UNICODE."
++msgstr "Om dos2unix stöder UTF-16 konverteras UTF-16-kodade filer till kodningen för den aktuella lokalen på POSIX-system och till UTF-8 på Windows. Aktivering av B<ascii>-läget inaktiverar flaggan för att behålla UTF-16-kodning (C<-u>) och flaggorna för att anta UTF-16-indata (C<-ul> och C<-ub>). För att se om dos2unix stöder UTF-16, skriv C<dos2unix -V>. Se även avsnittet UNICODE."
  
  #. type: =item
  #: dos2unix.pod:599
-@@ -1086,7 +1145,8 @@
+@@ -1086,7 +1086,7 @@
  #. type: textblock
  #: dos2unix.pod:601
  msgid "In this mode all 8 bit non-ASCII characters (with values from 128 to 255)  are converted to a 7 bit space."
 -msgstr "I detta läge konverteras alla 8-bitars icke-ASCII tecken (med värden från 128 till 255) till ett 7-bitars blanksteg."
-+msgstr "I det här läget konverteras alla 8-bitars icke-ASCII-tecken (med värden från "
-+"128 till 255) till ett 7-bitars blanksteg."
++msgstr "I det här läget konverteras alla 8-bitars icke-ASCII-tecken (med värden från 128 till 255) till ett 7-bitars blanksteg."
  
  #. type: =item
  #: dos2unix.pod:604
-@@ -1096,17 +1156,28 @@
+@@ -1096,17 +1096,17 @@
  #. type: textblock
  #: dos2unix.pod:606
  msgid "Characters are converted between a DOS character set (code page) and ISO character set ISO-8859-1 (Latin-1) on Unix. DOS characters without ISO-8859-1 equivalent, for which conversion is not possible, are converted to a dot. The same counts for ISO-8859-1 characters without DOS counterpart."
 -msgstr "Tecken konverteras mellan DOS teckenuppsättning (teckentabell) och ISO teckenuppsättning ISO-8859-1 (Latin-1) på Unix. DOS tecken utan motsvarande ISO-8859-1 tecken, för vilka konvertering är omöjligt, kommer att ersättas med en punkt. Detsamma gäller för ISO-8859-1 tecken utan motsvarighet i DOS."
-+msgstr "Tecken konverteras mellan en DOS-teckenuppsättning (teckentabell) och "
-+"ISO-teckenuppsättningen ISO-8859-1 (Latin-1) i Unix. DOS-tecken utan "
-+"motsvarighet i ISO-8859-1, där konvertering inte är möjlig, konverteras till "
-+"en punkt. Detsamma gäller ISO-8859-1-tecken utan motsvarighet i DOS."
++msgstr "Tecken konverteras mellan en DOS-teckenuppsättning (teckentabell) och ISO-teckenuppsättningen ISO-8859-1 (Latin-1) i Unix. DOS-tecken utan motsvarighet i ISO-8859-1, där konvertering inte är möjlig, konverteras till en punkt. Detsamma gäller ISO-8859-1-tecken utan motsvarighet i DOS."
  
  #. type: textblock
  #: dos2unix.pod:611
  msgid "When only option C<-iso> is used dos2unix will try to determine the active code page. When this is not possible dos2unix will use default code page CP437, which is mainly used in the USA.  To force a specific code page use options C<-437> (US), C<-850> (Western European), C<-860> (Portuguese), C<-863> (French Canadian), or C<-865> (Nordic).  Windows code page CP1252 (Western European) is also supported with option C<-1252>. For other code pages use dos2unix in combination with iconv(1).  Iconv can convert between a long list of character encodings."
 -msgstr "När enbart flaggan C<-iso> används kommer dos2unix att försöka avgöra den aktiva teckentabellen. När detta inte är möjligt kommer dos2unix att använda standardteckentabellen CP437, vilken huvudsakligen används i USA. För att tvinga en specifik teckentabell använd flaggorna C<-437> (USA), C<-850> (Västeuropeisk), C<-860> (Portugisisk), C<-863> (Fransk-kanadensisk) eller C<-865> (Nordisk). Det finns också stöd för Windows-teckentabell CP-1252 (Västeuropeisk) via flaggan C<-1252>. För andra teckentabeller använd dos2unix i kombination med iconv(1). iconv kan konvertera mellan en lång lista av teckenkodningar."
-+msgstr "När endast flaggan C<-iso> används försöker dos2unix avgöra den aktiva "
-+"teckentabellen. Om det inte går använder dos2unix standardteckentabellen "
-+"CP437, som huvudsakligen används i USA. Använd flaggorna C<-437> (USA), "
-+"C<-850> (västeuropeisk), C<-860> (portugisisk), C<-863> (fransk-kanadensisk) "
-+"eller C<-865> (nordisk) för att tvinga fram en viss teckentabell. "
-+"Windows-teckentabellen CP1252 (västeuropeisk) stöds också med flaggan "
-+"C<-1252>. För andra teckentabeller använder du dos2unix tillsammans med "
-+"iconv(1). iconv kan konvertera mellan många olika teckenkodningar."
++msgstr "När endast flaggan C<-iso> används försöker dos2unix avgöra den aktiva teckentabellen. Om det inte går använder dos2unix standardteckentabellen CP437, som huvudsakligen används i USA. Använd flaggorna C<-437> (USA), C<-850> (västeuropeisk), C<-860> (portugisisk), C<-863> (fransk-kanadensisk) eller C<-865> (nordisk) för att tvinga fram en viss teckentabell. Windows-teckentabellen CP1252 (västeuropeisk) stöds också med flaggan C<-1252>. För andra teckentabeller använder du dos2unix tillsammans med iconv(1). iconv kan konvertera mellan många olika teckenkodningar."
  
  #. type: textblock
  #: dos2unix.pod:620
  msgid "Never use ISO conversion on Unicode text files. It will corrupt UTF-8 encoded files."
 -msgstr "Använd aldrig ISO-konvertering på Unicode-textfiler. Det kommer att korrumpera UTF-8-kodade filer."
-+msgstr "Använd aldrig ISO-konvertering på Unicode-textfiler. Den skadar UTF-8-kodade "
-+"filer."
++msgstr "Använd aldrig ISO-konvertering på Unicode-textfiler. Den skadar UTF-8-kodade filer."
  
  #. type: textblock
  #: dos2unix.pod:622
-@@ -1116,7 +1187,7 @@
+@@ -1116,7 +1116,7 @@
  #. type: textblock
  #: dos2unix.pod:624
  msgid "Convert from DOS default code page to Unix Latin-1:"
@@ -392,118 +321,94 @@
  
  #. type: verbatim
  #: dos2unix.pod:626
-@@ -1238,7 +1309,8 @@
+@@ -1238,7 +1238,7 @@
  #, fuzzy
  #| msgid "See also L<http://czyborra.com/charsets/codepages.html> and L<http://czyborra.com/charsets/iso8859.html>."
  msgid "See also L<https://czyborra.com/charsets/codepages.html> and L<https://czyborra.com/charsets/iso8859.html>."
 -msgstr "Se även L<http://czyborra.com/charsets/codepages.html> och L<http://czyborra.com/charsets/iso8859.html>."
-+msgstr "Se även L<https://czyborra.com/charsets/codepages.html> och "
-+"L<https://czyborra.com/charsets/iso8859.html>."
++msgstr "Se även L<https://czyborra.com/charsets/codepages.html> och L<https://czyborra.com/charsets/iso8859.html>."
  
  #. type: =head1
  #: dos2unix.pod:661
-@@ -1255,7 +1327,10 @@
+@@ -1255,7 +1255,7 @@
  #, fuzzy
  #| msgid "There exist different Unicode encodings. On Unix and Linux Unicode files are typically encoded in UTF-8 encoding. On Windows Unicode text files can be encoded in UTF-8, UTF-16, or UTF-16 big endian, but are mostly encoded in UTF-16 format."
  msgid "There exist different Unicode encodings. On Unix and Linux Unicode files are typically encoded in UTF-8 encoding. On Windows Unicode text files can be encoded in UTF-8, UTF-16, or UTF-16 big-endian, but are mostly encoded in UTF-16 format."
 -msgstr "Det finns flera olika Unicode kodningar. I Unix och Linux kodas filer vanligtvis med UTF-8-kodning. I Windows kan Unicode-textfiler kodas i UTF-8, UTF-16 eller UTF-16 rak byteordning (big endian), men kodas mestadels i UTF-16-format."
-+msgstr "Det finns olika Unicode-kodningar. I Unix och Linux kodas Unicode-filer "
-+"vanligen med UTF-8. I Windows kan Unicode-textfiler kodas i UTF-8, UTF-16 "
-+"eller UTF-16 med stor byteordning (big endian), men de kodas oftast i "
-+"UTF-16-format."
++msgstr "Det finns olika Unicode-kodningar. I Unix och Linux kodas Unicode-filer vanligen med UTF-8. I Windows kan Unicode-textfiler kodas i UTF-8, UTF-16 eller UTF-16 med stor byteordning (big endian), men de kodas oftast i UTF-16-format."
  
  #. type: =head2
  #: dos2unix.pod:670
-@@ -1277,12 +1352,17 @@
+@@ -1277,12 +1277,12 @@
  #, fuzzy
  #| msgid "dos2unix and unix2dos with Unicode UTF-16 support, can read little and big endian UTF-16 encoded text files. To see if dos2unix was built with UTF-16 support type C<dos2unix -V>."
  msgid "dos2unix and unix2dos with Unicode UTF-16 support, can read little- and big-endian UTF-16 encoded text files. To see if dos2unix was built with UTF-16 support type C<dos2unix -V>."
 -msgstr "dos2unix och unix2dos med Unicode-UTF-16-stöd, kan läsa UTF-16-kodade textfiler i omvänd och rak byteordning (little och big endian). För att se om dos2unix byggts med UTF-16-stöd skriv C<dos2unix -V>."
-+msgstr "dos2unix och unix2dos med stöd för Unicode UTF-16 kan läsa UTF-16-kodade "
-+"textfiler med liten och stor byteordning (little och big endian). För att se "
-+"om dos2unix byggts med UTF-16-stöd, skriv C<dos2unix -V>."
++msgstr "dos2unix och unix2dos med stöd för Unicode UTF-16 kan läsa UTF-16-kodade textfiler med liten och stor byteordning (little och big endian). För att se om dos2unix byggts med UTF-16-stöd, skriv C<dos2unix -V>."
  
  #. type: textblock
  #: dos2unix.pod:682
  msgid "On Unix/Linux UTF-16 encoded files are converted to the locale character encoding. Use the locale(1) command to find out what the locale character encoding is. When conversion is not possible a conversion error will occur and the file will be skipped."
 -msgstr "Under Unix/Linux kommer UTF-16-kodade filer att konverteras till lokalens teckenkodning. Använd kommandot locale(1) för att ta reda på vilken lokalens teckenkodning är. När konvertering inte är möjlig kommer ett konverteringsfel att inträffa och filen kommer att hoppas över."
-+msgstr "I Unix/Linux konverteras UTF-16-kodade filer till lokalens teckenkodning. "
-+"Använd kommandot locale(1) för att ta reda på vilken teckenkodning lokalen "
-+"använder. Om konvertering inte är möjlig uppstår ett konverteringsfel och "
-+"filen hoppas över."
++msgstr "I Unix/Linux konverteras UTF-16-kodade filer till lokalens teckenkodning. Använd kommandot locale(1) för att ta reda på vilken teckenkodning lokalen använder. Om konvertering inte är möjlig uppstår ett konverteringsfel och filen hoppas över."
  
  #. type: textblock
  #: dos2unix.pod:687
-@@ -1292,7 +1372,9 @@
+@@ -1292,7 +1292,7 @@
  #. type: textblock
  #: dos2unix.pod:690
  msgid "UTF-16 and UTF-8 encoding are fully compatible, there will no text be lost in the conversion. When an UTF-16 to UTF-8 conversion error occurs, for instance when the UTF-16 input file contains an error, the file will be skipped."
 -msgstr "UTF-16- och UTF-8-kodning är fullt kompatibla, ingen text kommer att gå förlorad i konverteringen. När ett UTF-16 till UTF-8-konverteringsfel uppstår, till exempel när infilen i UTF-16-format innehåller ett fel, kommer att filen att hoppas över."
-+msgstr "UTF-16- och UTF-8-kodning är fullständigt kompatibla; ingen text går förlorad "
-+"vid konverteringen. Om ett konverteringsfel från UTF-16 till UTF-8 uppstår, "
-+"till exempel om UTF-16-infilen innehåller ett fel, hoppas filen över."
++msgstr "UTF-16- och UTF-8-kodning är fullständigt kompatibla; ingen text går förlorad vid konverteringen. Om ett konverteringsfel från UTF-16 till UTF-8 uppstår, till exempel om UTF-16-infilen innehåller ett fel, hoppas filen över."
  
  #. type: textblock
  #: dos2unix.pod:694
-@@ -1317,17 +1399,22 @@
+@@ -1317,17 +1317,17 @@
  #. type: textblock
  #: dos2unix.pod:703
  msgid "On Windows Unicode text files typically have a Byte Order Mark (BOM), because many Windows programs (including Notepad) add BOMs by default. See also L<https://en.wikipedia.org/wiki/Byte_order_mark>."
 -msgstr "I Windows har Unicode-textfiler typiskt en byteordningsmarkering (Byte Order Mark, BOM) eftersom många Windows-program (inklusive Notepad) lägger till BOM:ar som standard. Se även L<https://en.wikipedia.org/wiki/Byte_order_mark>."
-+msgstr "I Windows har Unicode-textfiler vanligen en byteordningsmarkering (Byte Order "
-+"Mark, BOM), eftersom många Windows-program, inklusive Anteckningar, lägger "
-+"till BOM:er som standard. Se även "
-+"L<https://en.wikipedia.org/wiki/Byte_order_mark>."
++msgstr "I Windows har Unicode-textfiler vanligen en byteordningsmarkering (Byte Order Mark, BOM), eftersom många Windows-program, inklusive Anteckningar, lägger till BOM:er som standard. Se även L<https://en.wikipedia.org/wiki/Byte_order_mark>."
  
  #. type: textblock
  #: dos2unix.pod:707
  msgid "On Unix Unicode files typically don't have a BOM. It is assumed that text files are encoded in the locale character encoding."
 -msgstr "I Unix har Unicode-textfiler typiskt ingen BOM. Filer antas vara kodade i den lokala teckenuppsättningen."
-+msgstr "I Unix har Unicode-filer vanligen ingen BOM. Textfiler antas vara kodade i "
-+"lokalens teckenkodning."
++msgstr "I Unix har Unicode-filer vanligen ingen BOM. Textfiler antas vara kodade i lokalens teckenkodning."
  
  #. type: textblock
  #: dos2unix.pod:710
  msgid "dos2unix can only detect if a file is in UTF-16 format if the file has a BOM.  When an UTF-16 file doesn't have a BOM, dos2unix will see the file as a binary file."
 -msgstr "dos2unix kan bara detektera om en fil är i UTF-16-format om filen har en BOM. När en UTF-16-fil inte har en BOM så kommer dos2unix att de filen som en binärfil."
-+msgstr "dos2unix kan bara identifiera om en fil har UTF-16-format om filen har en "
-+"BOM. När en UTF-16-fil saknar BOM ser dos2unix filen som en binärfil."
++msgstr "dos2unix kan bara identifiera om en fil har UTF-16-format om filen har en BOM. När en UTF-16-fil saknar BOM ser dos2unix filen som en binärfil."
  
  #. type: textblock
  #: dos2unix.pod:714
-@@ -1357,7 +1444,11 @@
+@@ -1357,7 +1357,7 @@
  #. type: textblock
  #: dos2unix.pod:726
  msgid "dos2unix has optional support for reading and writing Unicode file names in the Windows Command Prompt. That means that dos2unix can open files that have characters in the name that are not part of the default system ANSI code page.  To see if dos2unix for Windows was built with Unicode file name support type C<dos2unix -V>."
 -msgstr "dos2unix har valfritt stöd för läsning och skrivning av Unicode-filnamn i Windows kommandoprompt. Detta innebär att dos2unix kan öppna filer som har tecken i sina namn som inte är en del av systemets standard ANSI-teckentabell. För att se om dos2unix för Windows byggdes med stöd för Unicode-filnamn skriv C<dos2unix -V>."
-+msgstr "dos2unix har valfritt stöd för att läsa och skriva Unicode-filnamn i Windows "
-+"kommandotolk. Det innebär att dos2unix kan öppna filer som innehåller tecken "
-+"i namnet som inte ingår i systemets ANSI-standardteckentabell. För att se om "
-+"dos2unix för Windows byggdes med stöd för Unicode-filnamn, skriv C<dos2unix "
-+"-V>."
++msgstr "dos2unix har valfritt stöd för att läsa och skriva Unicode-filnamn i Windows kommandotolk. Det innebär att dos2unix kan öppna filer som innehåller tecken i namnet som inte ingår i systemets ANSI-standardteckentabell. För att se om dos2unix för Windows byggdes med stöd för Unicode-filnamn, skriv C<dos2unix -V>."
  
  #. type: textblock
  #: dos2unix.pod:732
-@@ -1437,12 +1528,16 @@
+@@ -1437,12 +1437,12 @@
  #. type: textblock
  #: dos2unix.pod:756
  msgid "GB18030 is a Chinese government standard. A mandatory subset of the GB18030 standard is officially required for all software products sold in China. See also L<https://en.wikipedia.org/wiki/GB_18030>."
 -msgstr "GB18030 är en standard från Kinesiska regeringen. En obligatorisk delmängd av standarden GB18030 krävs officiellt för alla programvaruprodukter som säljs i Kina. Se vidare L<https://en.wikipedia.org/wiki/GB_18030>."
-+msgstr "GB18030 är en kinesisk statlig standard. En obligatorisk delmängd av "
-+"GB18030-standarden krävs officiellt för alla programvaruprodukter som säljs i "
-+"Kina. Se även L<https://en.wikipedia.org/wiki/GB_18030>."
++msgstr "GB18030 är en kinesisk statlig standard. En obligatorisk delmängd av GB18030-standarden krävs officiellt för alla programvaruprodukter som säljs i Kina. Se även L<https://en.wikipedia.org/wiki/GB_18030>."
  
  #. type: textblock
  #: dos2unix.pod:760
  msgid "GB18030 is fully compatible with Unicode, and can be considered an unicode transformation format. Like UTF-8, GB18030 is compatible with ASCII. GB18030 is also compatible with Windows code page 936, also known as GBK."
 -msgstr "GB18030 är fullständigt kompatibel med Unicode och kan anses vara ett överföringsformat för unicode. Precis som UTF-8 är GB18030 kompatibel med ASCII. GB18030 är också kompatibel med Windows-teckentabell 936, också känd som GBK."
-+msgstr "GB18030 är helt kompatibel med Unicode och kan betraktas som ett "
-+"Unicode-överföringsformat. Liksom UTF-8 är GB18030 kompatibel med ASCII. "
-+"GB18030 är också kompatibel med Windows-teckentabell 936, även kallad GBK."
++msgstr "GB18030 är helt kompatibel med Unicode och kan betraktas som ett Unicode-överföringsformat. Liksom UTF-8 är GB18030 kompatibel med ASCII. GB18030 är också kompatibel med Windows-teckentabell 936, även kallad GBK."
  
  #. type: textblock
  #: dos2unix.pod:764
-@@ -1467,7 +1562,7 @@
+@@ -1467,7 +1467,7 @@
  #. type: textblock
  #: dos2unix.pod:774
  msgid "Read input from 'stdin' and write output to 'stdout':"
@@ -512,7 +417,7 @@
  
  #. type: verbatim
  #: dos2unix.pod:776
-@@ -1484,7 +1579,7 @@
+@@ -1484,7 +1484,7 @@
  #. type: textblock
  #: dos2unix.pod:779
  msgid "Convert and replace a.txt. Convert and replace b.txt:"
@@ -521,7 +426,7 @@
  
  #. type: verbatim
  #: dos2unix.pod:781
-@@ -1569,7 +1664,7 @@
+@@ -1569,7 +1569,7 @@
  #. type: textblock
  #: dos2unix.pod:805
  msgid "Convert and replace a.txt while keeping original date stamp:"
@@ -530,81 +435,63 @@
  
  #. type: verbatim
  #: dos2unix.pod:807
-@@ -1668,7 +1763,10 @@
+@@ -1668,7 +1668,7 @@
  #. type: textblock
  #: dos2unix.pod:836
  msgid "The find(1) option C<-print0> and corresponding xargs(1) option C<-0> are needed when there are files with spaces or quotes in the name. Otherwise these options can be omitted. Another option is to use find(1) with the C<-exec> option:"
 -msgstr "Flaggan C<-print0> till find(1) och motsvarande flagga C<-0> till xargs(1) behövs när det finns filer med mellanslag eller citationstecken i namnet. Annars kan dessa flaggor utelämnas. Ett annat alternativ är att användas find(1) med flaggan C<-exec>:"
-+msgstr "Flaggan C<-print0> till find(1) och motsvarande flagga C<-0> till xargs(1) "
-+"behövs när filnamn innehåller mellanslag eller citattecken. Annars kan "
-+"flaggorna utelämnas. Ett annat flaggor är att använda find(1) med flaggan "
-+"C<-exec>:"
++msgstr "Flaggan C<-print0> till find(1) och motsvarande flagga C<-0> till xargs(1) behövs när filnamn innehåller mellanslag eller citattecken. Annars kan flaggorna utelämnas. Ett annat flaggor är att använda find(1) med flaggan C<-exec>:"
  
  #. type: verbatim
  #: dos2unix.pod:840
-@@ -1723,7 +1821,11 @@
+@@ -1723,7 +1723,7 @@
  #. type: textblock
  #: dos2unix.pod:857
  msgid "The primary language is selected with the environment variable LANG. The LANG variable consists out of several parts. The first part is in small letters the language code. The second is optional and is the country code in capital letters, preceded with an underscore. There is also an optional third part: character encoding, preceded with a dot. A few examples for POSIX standard type shells:"
 -msgstr "Det primära språket väljs med miljövariabeln LANG. LANG-variabeln består av flera delas. Den första delen är språkkoden i gemener. Den andra delen är valfri och utgör landskoden i versaler, föregången av ett understreck. Det finns också en valfri tredje del: teckenkodning, föregången av en punkt. Ett par exempel för skal av POSIX-standard-typ:"
-+msgstr "Det primära språket väljs med miljövariabeln LANG. LANG-variabeln består av "
-+"flera delar. Den första delen är språkkoden med gemener. Den andra delen är "
-+"valfri och utgör landskoden med versaler, föregången av ett understreck. Det "
-+"finns också en valfri tredje del: teckenkodningen, föregången av en punkt. "
-+"Några exempel för skal av POSIX-typ:"
++msgstr "Det primära språket väljs med miljövariabeln LANG. LANG-variabeln består av flera delar. Den första delen är språkkoden med gemener. Den andra delen är valfri och utgör landskoden med versaler, föregången av ett understreck. Det finns också en valfri tredje del: teckenkodningen, föregången av en punkt. Några exempel för skal av POSIX-typ:"
  
  #. type: verbatim
  #: dos2unix.pod:864
-@@ -1755,7 +1857,8 @@
+@@ -1755,7 +1755,7 @@
  #. type: textblock
  #: dos2unix.pod:875
  msgid "On Unix systems you can use the command locale(1) to get locale specific information."
 -msgstr "På Unix-system kan du använda kommando locale(1) för att få lokal-specifik information."
-+msgstr "I Unix-system kan du använda kommandot locale(1) för att få lokalspecifik "
-+"information."
++msgstr "I Unix-system kan du använda kommandot locale(1) för att få lokalspecifik information."
  
  #. type: =item
  #: dos2unix.pod:878
-@@ -1765,12 +1868,19 @@
+@@ -1765,12 +1765,12 @@
  #. type: textblock
  #: dos2unix.pod:880
  msgid "With the LANGUAGE environment variable you can specify a priority list of languages, separated by colons. dos2unix gives preference to LANGUAGE over LANG.  For instance, first Dutch and then German: C<LANGUAGE=nl:de>. You have to first enable localization, by setting LANG (or LC_ALL) to a value other than \"C\", before you can use a language priority list through the LANGUAGE variable. See also the gettext manual: L<https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html>"
 -msgstr "Med miljövariabeln LANGUAGE kan du ange en prioritetslista över språk, separerade med kolon. dos2unix kommer att ge företräde till LANGAUGE över LANG. Exempelvis först nederländska och sedan tyska: C<LANGUAGE=nl:de>. Du måste först ha aktiverat lokalisering, genom att sätta LANG (eller LC_ALL) till ett värde annat än “C“, innan du kan använda en prioritetslista för språk via LANGUAGE-variabeln. Se vidare i gettext-manualen: L<https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html>"
-+msgstr "Med miljövariabeln LANGUAGE kan du ange en prioritetslista över språk, "
-+"avgränsade med kolon. dos2unix ger LANGUAGE företräde framför LANG. Till "
-+"exempel först nederländska och sedan tyska: C<LANGUAGE=nl:de>. Du måste först "
-+"aktivera lokalisering genom att sätta LANG (eller LC_ALL) till ett annat "
-+"värde än ”C” innan du kan använda en språkprioritetslista via "
-+"LANGUAGE-variabeln. Se även gettext-manualen: "
-+"L<https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html>"
++msgstr "Med miljövariabeln LANGUAGE kan du ange en prioritetslista över språk, avgränsade med kolon. dos2unix ger LANGUAGE företräde framför LANG. Till exempel först nederländska och sedan tyska: C<LANGUAGE=nl:de>. Du måste först aktivera lokalisering genom att sätta LANG (eller LC_ALL) till ett annat värde än ”C” innan du kan använda en språkprioritetslista via LANGUAGE-variabeln. Se även gettext-manualen: L<https://www.gnu.org/software/gettext/manual/html_node/The-LANGUAGE-variable.html>"
  
  #. type: textblock
  #: dos2unix.pod:888
  msgid "If you select a language which is not available you will get the standard English messages."
 -msgstr "Om du väljer ett språk som inte är tillgänglig kommer du att få engelska meddelanden som standard."
-+msgstr "Om du väljer ett språk som inte är tillgängligt får du engelska meddelanden "
-+"som standard."
++msgstr "Om du väljer ett språk som inte är tillgängligt får du engelska meddelanden som standard."
  
  #. type: =item
  #: dos2unix.pod:892
-@@ -1805,7 +1915,8 @@
+@@ -1805,7 +1805,7 @@
  #. type: textblock
  #: dos2unix.pod:908
  msgid "On success, zero is returned.  When a system error occurs the last system error will be returned. For other errors 1 is returned."
 -msgstr "Om allt går bra kommer noll att returneras. När ett systemfel uppstår kommer det senaste systemfelet att returneras. För andra fel kommer 1 att returneras."
-+msgstr "Vid framgång returneras noll. Om ett systemfel uppstår returneras det senaste "
-+"systemfelet. För andra fel returneras 1."
++msgstr "Vid framgång returneras noll. Om ett systemfel uppstår returneras det senaste systemfelet. För andra fel returneras 1."
  
  #. type: textblock
  #: dos2unix.pod:911
-@@ -1845,14 +1956,16 @@
+@@ -1845,14 +1845,14 @@
  #. type: textblock
  #: dos2unix.pod:926
  msgid "Benjamin Lin - <blin@socs.uts.edu.au>, Bernd Johannes Wuebben (mac2unix mode) - <wuebben@kde.org>, Christian Wurll (add extra newline) - <wurll@ira.uka.de>, Erwin Waterlander - <waterlan@xs4all.nl> (maintainer)"
 -msgstr "Benjamin Lin - <blin@socs.uts.edu.au>, Bernd Johannes Wuebben (mac2unix-läge) - <wuebben@kde.org>, Christian Wurll (lägg till en extra radbrytning) - <wurll@ira.uka.de>, Erwin Waterlander - <waterlan@xs4all.nl> (upphovsman)"
-+msgstr "Benjamin Lin - <blin@socs.uts.edu.au>, Bernd Johannes Wuebben (mac2unix-läge) "
-+"- <wuebben@kde.org>, Christian Wurll (lägger till en extra radbrytning) - "
-+"<wurll@ira.uka.de>, Erwin Waterlander - <waterlan@xs4all.nl> (underhållare)"
++msgstr "Benjamin Lin - <blin@socs.uts.edu.au>, Bernd Johannes Wuebben (mac2unix-läge) - <wuebben@kde.org>, Christian Wurll (lägger till en extra radbrytning) - <wurll@ira.uka.de>, Erwin Waterlander - <waterlan@xs4all.nl> (underhållare)"
  
  #. type: textblock
  #: dos2unix.pod:931

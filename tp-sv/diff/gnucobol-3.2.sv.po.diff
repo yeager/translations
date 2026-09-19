@@ -177,17 +177,16 @@
  
  #: cobc/field.c:3045 cobc/field.c:3129 cobc/parser.y:832
  #, c-format
-@@ -1848,7 +1848,8 @@
+@@ -1848,7 +1848,7 @@
  "                        intrinsics to be used without FUNCTION keyword"
  msgstr ""
  "  -fintrinsics=[ALL|intrinsic function name(,name,...)]\n"
 -"                        intrinsiska funktioner som får användas utan FUNCTION-nyckelord"
-+"                        inbyggda funktioner som får användas utan "
-+"FUNCTION-nyckelord"
++"                        inbyggda funktioner som får användas utan FUNCTION-nyckelord"
  
  #: cobc/flag.def:85
  msgid ""
-@@ -1921,7 +1922,7 @@
+@@ -1921,7 +1921,7 @@
  "  -fstack-extended      store origin of entrypoints and PERFORM\n"
  "                        * turned on by --debug/-fdump"
  msgstr ""
@@ -196,7 +195,7 @@
  "                        * aktiveras av --debug/-fdump"
  
  #: cobc/flag.def:130
-@@ -1934,7 +1935,7 @@
+@@ -1934,7 +1934,7 @@
  "                        * turned off by -g"
  msgstr ""
  "  -fno-remove-unreachable\tinaktivera borttagning av oåtkomlig kod\n"
@@ -205,7 +204,7 @@
  
  #: cobc/flag.def:139
  msgid ""
-@@ -2039,7 +2040,7 @@
+@@ -2039,7 +2039,7 @@
  "  -fno-trunc            allow numeric field overflow\n"
  "                        * non-ANSI behaviour"
  msgstr ""
@@ -214,7 +213,7 @@
  "                        * icke-ANSI-beteende"
  
  #: cobc/flag.def:197
-@@ -2154,7 +2155,7 @@
+@@ -2154,7 +2154,7 @@
  "or (preferably) use the issue tracker via the home page."
  msgstr ""
  "Rapportera fel till: %s\n"
@@ -223,17 +222,16 @@
  
  #: cobc/help.c:52 bin/cobcrun.c:146
  #, c-format
-@@ -2226,7 +2227,8 @@
+@@ -2226,7 +2226,7 @@
  
  #: cobc/help.c:78
  msgid "  -j [<args>], --job[=<args>]\trun program after build, passing <args>"
 -msgstr "  -j [<arg>], --job[=<arg>]\tkör program efter bygge, skicka vidare <arg>"
-+msgstr "  -j [<arg>], --job[=<arg>]\tkör programmet efter bygget och skicka vidare "
-+"<arg>"
++msgstr "  -j [<arg>], --job[=<arg>]\tkör programmet efter bygget och skicka vidare <arg>"
  
  #: cobc/help.c:79
  msgid ""
-@@ -2296,7 +2298,7 @@
+@@ -2296,7 +2296,7 @@
  
  #: cobc/help.c:101
  msgid "  -o <file>             place the output into <file>"
@@ -242,7 +240,7 @@
  
  #: cobc/help.c:102
  msgid ""
-@@ -2336,7 +2338,7 @@
+@@ -2336,7 +2336,7 @@
  
  #: cobc/help.c:111
  msgid "  -P[=<dir or file>]    generate preprocessed program listing (.lst)"
@@ -251,17 +249,16 @@
  
  #: cobc/help.c:113
  msgid ""
-@@ -2551,7 +2553,8 @@
+@@ -2551,7 +2551,7 @@
  
  #: cobc/help.c:287
  msgid "<word> or <word>:<definition>, where definition uses backslash escaped spaces"
 -msgstr "<ord> eller <ord>:<definition>, där definitionen använder omvänt snedstreck-escape för blanksteg"
-+msgstr "<ord> eller <ord>:<definition>, där definitionen använder blanksteg med "
-+"omvänt snedstreck som escape-tecken"
++msgstr "<ord> eller <ord>:<definition>, där definitionen använder blanksteg med omvänt snedstreck som escape-tecken"
  
  #: cobc/parser.y:307
  #, c-format
-@@ -2570,7 +2573,7 @@
+@@ -2570,7 +2570,7 @@
  
  #: cobc/parser.y:330 cobc/parser.y:332
  msgid "start of statement in Area A"
@@ -270,7 +267,7 @@
  
  #: cobc/parser.y:428
  #, c-format
-@@ -2636,7 +2639,7 @@
+@@ -2636,7 +2636,7 @@
  
  #: cobc/parser.y:813 cobc/parser.y:8398
  msgid "OCCURS TO must be greater than OCCURS FROM"
@@ -279,7 +276,7 @@
  
  #: cobc/parser.y:823
  msgid "OCCURS DEPENDING ON without TO phrase"
-@@ -2688,7 +2691,7 @@
+@@ -2688,7 +2688,7 @@
  
  #: cobc/parser.y:1489
  msgid "currency symbol must be one character long"
@@ -288,17 +285,16 @@
  
  #: cobc/parser.y:1546
  #, c-format
-@@ -2811,7 +2814,8 @@
+@@ -2811,7 +2811,7 @@
  
  #: cobc/parser.y:2290
  msgid "ambiguous DISPLAY; put items to display on device in separate DISPLAY"
 -msgstr "tvetydig DISPLAY; stoppa objekt att visa på enhet i separat DISPLAY"
-+msgstr "Tvetydig DISPLAY; placera objekten som ska visas på enheten i en separat "
-+"DISPLAY-sats"
++msgstr "Tvetydig DISPLAY; placera objekten som ska visas på enheten i en separat DISPLAY-sats"
  
  #: cobc/parser.y:2301
  #, c-format
-@@ -2839,7 +2843,7 @@
+@@ -2839,7 +2839,7 @@
  
  #: cobc/parser.y:2349 cobc/typeck.c:2822 cobc/typeck.c:2913
  msgid "ANY LENGTH item not allowed here"
@@ -307,7 +303,7 @@
  
  #: cobc/parser.y:2353
  #, c-format
-@@ -2878,7 +2882,7 @@
+@@ -2878,7 +2878,7 @@
  
  #: cobc/parser.y:3717
  msgid "prototypes must be come before any program/function definitions"
@@ -316,7 +312,7 @@
  
  #: cobc/parser.y:3930
  msgid "COMMON may only be used in a contained program"
-@@ -3010,7 +3014,7 @@
+@@ -3010,7 +3010,7 @@
  
  #: cobc/parser.y:6467
  msgid "RECORD description missing or invalid"
@@ -325,7 +321,7 @@
  
  #: cobc/parser.y:6494
  #, c-format
-@@ -3054,7 +3058,7 @@
+@@ -3054,7 +3054,7 @@
  
  #: cobc/parser.y:7372
  msgid "CONSTANT item not at 01 level"
@@ -334,7 +330,7 @@
  
  #: cobc/parser.y:7517
  msgid "REDEFINES clause not following entry-name"
-@@ -3064,7 +3068,7 @@
+@@ -3064,7 +3064,7 @@
  #: cobc/parser.y:8606
  #, c-format
  msgid "%s only allowed at 01/77 level"
@@ -343,7 +339,7 @@
  
  #: cobc/parser.y:7593 cobc/parser.y:7622 cobc/parser.y:7664 cobc/parser.y:8608
  #: cobc/parser.y:8987 cobc/parser.y:9009
-@@ -3075,13 +3079,13 @@
+@@ -3075,13 +3075,13 @@
  #: cobc/parser.y:7597 cobc/parser.y:7846
  #, c-format
  msgid "%s not allowed in %s"
@@ -359,7 +355,7 @@
  
  #: cobc/parser.y:7809
  #, c-format
-@@ -3146,7 +3150,7 @@
+@@ -3146,7 +3146,7 @@
  #: cobc/parser.y:8985
  #, c-format
  msgid "%s only allowed at 01 level"
@@ -368,7 +364,7 @@
  
  #: cobc/parser.y:8989 cobc/parser.y:9011
  #, c-format
-@@ -3209,12 +3213,12 @@
+@@ -3209,12 +3209,12 @@
  
  #: cobc/parser.y:10917
  msgid "executable program requested but PROCEDURE/ENTRY has USING clause"
@@ -383,7 +379,7 @@
  
  #: cobc/parser.y:10996
  msgid "CHAINING invalid in user FUNCTION"
-@@ -3227,7 +3231,7 @@
+@@ -3227,7 +3227,7 @@
  #: cobc/parser.y:11049 cobc/parser.y:12728 cobc/parser.y:12741
  #, c-format
  msgid "%s not allowed in CHAINED programs"
@@ -392,7 +388,7 @@
  
  #: cobc/parser.y:11051
  msgid "parameters passed BY VALUE"
-@@ -3236,7 +3240,7 @@
+@@ -3236,7 +3236,7 @@
  #: cobc/parser.y:11066 cobc/parser.y:11075 cobc/parser.y:11083
  #: cobc/parser.y:11104
  msgid "SIZE only allowed for BY VALUE items"
@@ -401,7 +397,7 @@
  
  #: cobc/parser.y:11106 cobc/parser.y:11131
  msgid "invalid value for SIZE"
-@@ -3248,7 +3252,7 @@
+@@ -3248,7 +3248,7 @@
  
  #: cobc/parser.y:11162
  msgid "OPTIONAL only allowed for BY REFERENCE items"
@@ -410,7 +406,7 @@
  
  #: cobc/parser.y:11177
  msgid "RETURNING clause is required for a FUNCTION"
-@@ -3449,7 +3453,7 @@
+@@ -3449,7 +3449,7 @@
  
  #: cobc/parser.y:14394
  msgid "EXIT FUNCTION only allowed within a FUNCTION"
@@ -419,7 +415,7 @@
  
  #: cobc/parser.y:14408 cobc/parser.y:14431
  msgid "EXIT PERFORM is only valid with inline PERFORM"
-@@ -3465,7 +3469,7 @@
+@@ -3465,7 +3465,7 @@
  
  #: cobc/parser.y:14497
  msgid "RETURNING/GIVING not allowed for non-returning runtime elements"
@@ -428,7 +424,7 @@
  
  #: cobc/parser.y:14640
  msgid "IF without imperative statement"
-@@ -3727,7 +3731,7 @@
+@@ -3727,7 +3727,7 @@
  #: cobc/typeck.c:14322
  #, c-format
  msgid "%s requires a record name as subject"
@@ -437,7 +433,7 @@
  
  #: cobc/parser.y:18771
  #, c-format
-@@ -4111,7 +4115,7 @@
+@@ -4111,7 +4111,7 @@
  
  #: cobc/reserved.c:5403
  msgid "Reserved Words"
@@ -446,7 +442,7 @@
  
  #: cobc/reserved.c:5415
  msgid "Yes (Context sensitive)"
-@@ -4224,7 +4228,7 @@
+@@ -4224,7 +4224,7 @@
  
  #: cobc/scanner.l:1540
  msgid "national-character literal"
@@ -455,7 +451,7 @@
  
  #: cobc/scanner.l:1571
  msgid "hexadecimal literal has zero length; X'00' will be assumed"
-@@ -4267,7 +4271,7 @@
+@@ -4267,7 +4267,7 @@
  #: cobc/scanner.l:1829 cobc/scanner.l:1922 cobc/scanner.l:1985
  #, c-format
  msgid "literal exceeds limit %u"
@@ -464,7 +460,7 @@
  
  #: cobc/scanner.l:1863
  msgid "numeric boolean literal"
-@@ -4445,12 +4449,12 @@
+@@ -4445,12 +4445,12 @@
  #: cobc/tree.c:1814
  #, c-format
  msgid "literal length %d exceeds maximum of %d digits"
@@ -479,7 +475,7 @@
  
  #: cobc/tree.c:1868 cobc/tree.c:1880 cobc/tree.c:1937 cobc/tree.c:1987
  #, c-format
-@@ -4463,11 +4467,12 @@
+@@ -4463,11 +4463,11 @@
  
  #: cobc/tree.c:2803
  msgid "only literals with the same category can be concatenated"
@@ -489,12 +485,11 @@
  #: cobc/tree.c:2811
  msgid "only alphanumeric, utf-8, national or boolean literals may be concatenated"
 -msgstr "endast alfanumeriska, utf-8-, nationella eller booleska litteraler kan konkateneras"
-+msgstr "Endast alfanumeriska, UTF-8-, nationella eller booleska litteraler kan "
-+"sammanfogas"
++msgstr "Endast alfanumeriska, UTF-8-, nationella eller booleska litteraler kan sammanfogas"
  
  #: cobc/tree.c:2823
  #, c-format
-@@ -4484,11 +4489,11 @@
+@@ -4484,11 +4484,11 @@
  
  #: cobc/tree.c:3119
  msgid "a leading +/- sign"
@@ -508,7 +503,7 @@
  
  #: cobc/tree.c:3123
  msgid "CR or DB"
-@@ -4512,11 +4517,11 @@
+@@ -4512,11 +4512,11 @@
  
  #: cobc/tree.c:3133
  msgid "a floating +/- string which is before the decimal point"
@@ -522,7 +517,7 @@
  
  #: cobc/tree.c:3137
  msgid "a floating currency symbol string which is before the decimal point"
-@@ -4640,7 +4645,7 @@
+@@ -4640,7 +4640,7 @@
  #: cobc/tree.c:3873
  #, c-format
  msgid "numeric field cannot be larger than %d digits"
@@ -531,7 +526,7 @@
  
  #: cobc/tree.c:4333
  #, c-format
-@@ -4655,7 +4660,7 @@
+@@ -4655,7 +4655,7 @@
  #: cobc/tree.c:4412 cobc/tree.c:4425
  #, c-format
  msgid "no DETAIL line defined in report %s"
@@ -540,7 +535,7 @@
  
  #: cobc/tree.c:4427
  msgid "PAGE LIMIT FIRST DETAIL should be >= HEADING"
-@@ -4700,7 +4705,7 @@
+@@ -4700,7 +4700,7 @@
  #: cobc/tree.c:4813
  #, c-format
  msgid "size of record '%s' (%d) smaller than minimum of file '%s' (%d)"
@@ -549,7 +544,7 @@
  
  #: cobc/tree.c:4816 cobc/tree.c:4833
  msgid "file size adjusted"
-@@ -4709,7 +4714,7 @@
+@@ -4709,7 +4709,7 @@
  #: cobc/tree.c:4828
  #, c-format
  msgid "size of record '%s' (%d) larger than maximum of file '%s' (%d)"
@@ -558,7 +553,7 @@
  
  #: cobc/tree.c:4861
  msgid "RECORD VARYING specified without limits, but implied limits are equal"
-@@ -4755,12 +4760,12 @@
+@@ -4755,12 +4755,12 @@
  #: cobc/tree.c:5646 cobc/tree.c:5676
  #, c-format
  msgid "unsigned '%s' may not be %s %s"
@@ -573,7 +568,7 @@
  
  #: cobc/tree.c:5726 cobc/tree.c:5756
  #, c-format
-@@ -4829,15 +4834,15 @@
+@@ -4829,15 +4829,15 @@
  
  #: cobc/tree.c:6740
  msgid "PERFORM FOREVER since UNTIL is always FALSE"
@@ -592,17 +587,16 @@
  
  #: cobc/tree.c:6871
  #, c-format
-@@ -5057,7 +5062,8 @@
+@@ -5057,7 +5057,7 @@
  
  #: cobc/typeck.c:2908 cobc/typeck.c:2974
  msgid "target must be in FILE SECTION or LINKAGE SECTION or have the EXTERNAL clause"
 -msgstr "mål måste vara i FILE SECTION eller LINKAGE SECTION eller har en EXTERNAL-klausul"
-+msgstr "Målet måste finnas i FILE SECTION eller LINKAGE SECTION eller ha "
-+"EXTERNAL-klausulen"
++msgstr "Målet måste finnas i FILE SECTION eller LINKAGE SECTION eller ha EXTERNAL-klausulen"
  
  #: cobc/typeck.c:2964 cobc/typeck.c:2973
  #, c-format
-@@ -5086,7 +5092,7 @@
+@@ -5086,7 +5086,7 @@
  #: cobc/typeck.c:3145 cobc/typeck.c:3180 cobc/typeck.c:4966
  #, c-format
  msgid "'%s' REDEFINES field not allowed here"
@@ -611,7 +605,7 @@
  
  #: cobc/typeck.c:3165 cobc/typeck.c:8876
  #, c-format
-@@ -5198,12 +5204,12 @@
+@@ -5198,12 +5198,12 @@
  #: cobc/typeck.c:4091
  #, c-format
  msgid "duplicate character values in alphabet '%s': %s"
@@ -626,7 +620,7 @@
  
  #: cobc/typeck.c:4198
  #, c-format
-@@ -5416,7 +5422,7 @@
+@@ -5416,7 +5416,7 @@
  #: cobc/typeck.c:5126 cobc/typeck.c:5134
  #, c-format
  msgid "'%s' is not in DECLARATIVES"
@@ -635,7 +629,7 @@
  
  #: cobc/typeck.c:5148
  #, c-format
-@@ -5426,7 +5432,7 @@
+@@ -5426,7 +5426,7 @@
  #: cobc/typeck.c:5162
  #, c-format
  msgid "GO TO paragraph '%s' which is defined in another SECTION"
@@ -644,7 +638,7 @@
  
  #: cobc/typeck.c:5172
  #, c-format
-@@ -5478,7 +5484,7 @@
+@@ -5478,7 +5478,7 @@
  #: cobc/typeck.c:6120
  #, c-format
  msgid "internal decimal structure size exceeded: %d"
@@ -653,7 +647,7 @@
  
  #: cobc/typeck.c:6123
  msgid "Try to minimize the number of parentheses or split into multiple computations."
-@@ -5491,7 +5497,7 @@
+@@ -5491,7 +5491,7 @@
  
  #: cobc/typeck.c:6188
  msgid "precision of result may change with arithmetic-osvs"
@@ -662,7 +656,7 @@
  
  #: cobc/typeck.c:6268
  #, c-format
-@@ -5505,7 +5511,7 @@
+@@ -5505,7 +5505,7 @@
  
  #: cobc/typeck.c:6349
  msgid "unexpected constant expansion"
@@ -671,7 +665,7 @@
  
  #: cobc/typeck.c:7106 cobc/typeck.c:11656 cobc/typeck.c:11661
  msgid "alphanumeric value is expected"
-@@ -5530,7 +5536,7 @@
+@@ -5530,7 +5530,7 @@
  
  #: cobc/typeck.c:7667 cobc/typeck.c:7748
  msgid "no CORRESPONDING items found"
@@ -680,7 +674,7 @@
  
  #: cobc/typeck.c:7820
  msgid "no items to ACCEPT found"
-@@ -5587,7 +5593,7 @@
+@@ -5587,7 +5587,7 @@
  
  #: cobc/typeck.c:8524
  msgid "target of RETURNING is not a data pointer"
@@ -689,7 +683,7 @@
  
  #: cobc/typeck.c:8551 cobc/typeck.c:13410 cobc/typeck.c:13479
  #: cobc/typeck.c:13547
-@@ -5617,11 +5623,11 @@
+@@ -5617,11 +5617,11 @@
  
  #: cobc/typeck.c:8694
  msgid "STDCALL not available on this platform"
@@ -703,7 +697,7 @@
  
  #: cobc/typeck.c:8703
  msgid "STATIC CALL convention requires a literal program name"
-@@ -5638,7 +5644,7 @@
+@@ -5638,7 +5638,7 @@
  
  #: cobc/typeck.c:8805
  msgid "numeric literal exceeds size limits"
@@ -712,7 +706,7 @@
  
  #: cobc/typeck.c:8820
  #, c-format
-@@ -5653,7 +5659,7 @@
+@@ -5653,7 +5653,7 @@
  #: cobc/typeck.c:8856
  #, c-format
  msgid "'%s' ANY LENGTH item not passed BY REFERENCE"
@@ -721,7 +715,7 @@
  
  #: cobc/typeck.c:8909 cobc/typeck.c:8914
  #, c-format
-@@ -5666,7 +5672,7 @@
+@@ -5666,7 +5666,7 @@
  #: cobc/typeck.c:14348
  #, c-format
  msgid "%s not allowed on %s files"
@@ -730,7 +724,7 @@
  
  #: cobc/typeck.c:9172
  msgid "positions cannot be specified for main windows"
-@@ -5674,7 +5680,7 @@
+@@ -5674,7 +5674,7 @@
  
  #: cobc/typeck.c:9183 cobc/typeck.c:9187 cobc/typeck.c:9211
  msgid "HANDLE must be either a generic or a WINDOW HANDLE or X(10)"
@@ -739,7 +733,7 @@
  
  #: cobc/typeck.c:9324
  #, c-format
-@@ -5688,7 +5694,7 @@
+@@ -5688,7 +5688,7 @@
  #: cobc/typeck.c:9668 cobc/typeck.c:9701
  #, c-format
  msgid "'%s' is not an output device"
@@ -748,7 +742,7 @@
  
  #: cobc/typeck.c:9800
  msgid "invalid use of 88 level in WHEN expression"
-@@ -5748,22 +5754,22 @@
+@@ -5748,22 +5748,22 @@
  #: cobc/typeck.c:10448
  #, c-format
  msgid "'%s' defined here as PIC %s"
@@ -775,7 +769,7 @@
  
  #: cobc/typeck.c:10486 cobc/typeck.c:10504
  #, c-format
-@@ -5805,7 +5811,7 @@
+@@ -5805,7 +5805,7 @@
  
  #: cobc/typeck.c:11381
  msgid "overlapping MOVE may occur and produce unpredictable results"
@@ -784,7 +778,7 @@
  
  #: cobc/typeck.c:11388
  msgid "overlapping MOVE may produce unpredictable results"
-@@ -5834,11 +5840,11 @@
+@@ -5834,11 +5834,11 @@
  
  #: cobc/typeck.c:11632
  msgid "literal exceeds data size"
@@ -798,7 +792,7 @@
  
  #: cobc/typeck.c:11645
  msgid "MOVE of non-integer to alphanumeric"
-@@ -5854,7 +5860,7 @@
+@@ -5854,7 +5854,7 @@
  
  #: cobc/typeck.c:11682
  msgid "value size exceeds data size"
@@ -807,7 +801,7 @@
  
  #: cobc/typeck.c:11687
  msgid "sending field larger than receiving field"
-@@ -5862,7 +5868,7 @@
+@@ -5862,7 +5862,7 @@
  
  #: cobc/typeck.c:11692
  msgid "some digits may be truncated"
@@ -816,7 +810,7 @@
  
  #: cobc/typeck.c:12566 cobc/typeck.c:12619
  #, c-format
-@@ -5871,11 +5877,11 @@
+@@ -5871,11 +5871,11 @@
  
  #: cobc/typeck.c:12876
  msgid "READ PREVIOUS not allowed for this file type"
@@ -830,7 +824,7 @@
  
  #: cobc/typeck.c:12980
  msgid "figurative constants not allowed in FROM clause"
-@@ -5897,7 +5903,7 @@
+@@ -5897,7 +5897,7 @@
  
  #: cobc/typeck.c:13122
  msgid "RELEASE not allowed on this record item"
@@ -839,7 +833,7 @@
  
  #: cobc/typeck.c:13183 cobc/typeck.c:13209 cobc/typeck.c:13237
  msgid "invalid SEARCH ALL condition"
-@@ -5905,7 +5911,7 @@
+@@ -5905,7 +5905,7 @@
  
  #: cobc/typeck.c:13231
  msgid "SEARCH ALL requires comparision of KEY field"
@@ -848,7 +842,7 @@
  
  #: cobc/typeck.c:13354 cobc/typeck.c:13361
  msgid "SET targets must be PROGRAM-POINTER"
-@@ -5919,7 +5925,7 @@
+@@ -5919,7 +5919,7 @@
  #: cobc/typeck.c:13403 cobc/typeck.c:13475 cobc/typeck.c:13543
  #, c-format
  msgid "cannot change address of '%s', which is not level 1 or 77"
@@ -857,7 +851,7 @@
  
  #: cobc/typeck.c:13500
  #, c-format
-@@ -5933,7 +5939,7 @@
+@@ -5933,7 +5933,7 @@
  
  #: cobc/typeck.c:13663
  msgid "field does not have a FALSE clause"
@@ -866,7 +860,7 @@
  
  #: cobc/typeck.c:13694
  msgid "THREAD-priority must be between 1 and 32767"
-@@ -5958,11 +5964,11 @@
+@@ -5958,11 +5958,11 @@
  
  #: cobc/typeck.c:14017
  msgid "LENGTH/SIZE clause only allowed on INDEXED files"
@@ -880,7 +874,7 @@
  
  #: cobc/typeck.c:14111 cobc/typeck.c:14117
  #, c-format
-@@ -6008,7 +6014,7 @@
+@@ -6008,7 +6008,7 @@
  #: cobc/typeck.c:14690
  #, c-format
  msgid "%s must be a child of the input record"
@@ -889,7 +883,7 @@
  
  #: cobc/typeck.c:14715
  #, c-format
-@@ -6037,28 +6043,28 @@
+@@ -6037,28 +6037,28 @@
  
  #: cobc/typeck.c:14776 cobc/typeck.c:14782
  msgid "JSON/XML GENERATE receiving item"
@@ -924,7 +918,7 @@
  
  #: cobc/typeck.c:14890
  msgid "floating-point items in JSON/XML GENERATE"
-@@ -6082,7 +6088,7 @@
+@@ -6082,7 +6082,7 @@
  
  #: cobc/typeck.c:15019
  msgid "NAME OF item must be the input record or a child of it"
@@ -933,7 +927,7 @@
  
  #: cobc/typeck.c:15029
  msgid "NAME OF ... OMITTED only valid for source identifier"
-@@ -6091,7 +6097,7 @@
+@@ -6091,7 +6091,7 @@
  #: cobc/typeck.c:15037
  #, c-format
  msgid "NAME OF literal must be a valid %s identifier"
@@ -942,7 +936,7 @@
  
  #: cobc/typeck.c:15062 cobc/typeck.c:15063 cobc/typeck.c:15066
  #: cobc/typeck.c:15070
-@@ -6120,7 +6126,7 @@
+@@ -6120,7 +6120,7 @@
  
  #: cobc/typeck.c:15204
  msgid "WITH ATTRIBUTES specified, but no attributes can be generated"
@@ -951,7 +945,7 @@
  
  #: cobc/warning.def:31
  msgid "  -Wadditional          additional warnings only raised with -Wall"
-@@ -6132,15 +6138,17 @@
+@@ -6132,15 +6132,15 @@
  
  #: cobc/warning.def:37
  msgid "  -Wno-pending          do not warn if pending features are used"
@@ -961,18 +955,16 @@
  #: cobc/warning.def:40
  msgid "  -Wno-repository-checks\tdo not warn/check for program/function/external signature mismatch"
 -msgstr "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för program/funktion/extern"
-+msgstr "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för "
-+"program, funktioner och externa namn"
++msgstr "  -Wno-repository-checks\tvarna inte/kontrollera inte signaturavvikelser för program, funktioner och externa namn"
  
  #: cobc/warning.def:43
  msgid "  -Wno-ignored-error    do not warn about errors in code parts which are unreachable and so normally ignored"
 -msgstr "  -Wno-ignored-error    varna inte om fel i koddelar som är oåtkomliga och därför normalt ignoreras"
-+msgstr "  -Wno-ignored-error    varna inte om fel i koddelar som inte kan nås och "
-+"därför normalt ignoreras"
++msgstr "  -Wno-ignored-error    varna inte om fel i koddelar som inte kan nås och därför normalt ignoreras"
  
  #: cobc/warning.def:46
  msgid "  -Wobsolete            warn if obsolete features are used"
-@@ -6156,11 +6164,11 @@
+@@ -6156,11 +6156,11 @@
  
  #: cobc/warning.def:55
  msgid "  -Wtruncate            warn about field truncation from constant assignments"
@@ -986,13 +978,12 @@
  
  #: cobc/warning.def:61
  msgid "  -Woverlap             warn about overlapping MOVE of items"
-@@ -6217,11 +6225,12 @@
+@@ -6217,11 +6217,11 @@
  
  #: cobc/warning.def:100
  msgid "  -Wlarger-01-redefines  warn about larger redefines allowed by COBOL standards"
 -msgstr "  -Wlarger-01-redefines  varna om större redefines som tillåts av COBOL-standarder"
-+msgstr "  -Wlarger-01-redefines  varna om större REDEFINES som tillåts av "
-+"COBOL-standarderna"
++msgstr "  -Wlarger-01-redefines  varna om större REDEFINES som tillåts av COBOL-standarderna"
  
  #: cobc/warning.def:103
  msgid "  -Wcolumn-overflow     warn about text after program-text area, FIXED format"
@@ -1001,7 +992,7 @@
  
  #: cobc/warning.def:106
  msgid "  -Wterminator          warn about lack of scope terminator END-XXX"
-@@ -6241,19 +6250,21 @@
+@@ -6241,19 +6241,19 @@
  
  #: cobc/warning.def:118
  msgid "  -Wno-goto-section     do not warn about GO TO section-name"
@@ -1011,14 +1002,12 @@
  #: cobc/warning.def:121
  msgid "  -Wgoto-different-section\twarn about GO TO a praragraph defined in a different section"
 -msgstr "  -Wgoto-different-section\tvarna om GO TO till stycke definierat i annan sektion"
-+msgstr "  -Wgoto-different-section\tvarna om GO TO till ett stycke som definieras i "
-+"en annan sektion"
++msgstr "  -Wgoto-different-section\tvarna om GO TO till ett stycke som definieras i en annan sektion"
  
  #: cobc/warning.def:124
  msgid "  -Wsuspicious-perform-thru\twarn if PERFORM THRU references procedures not in ascending order or multiple sections"
 -msgstr "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar procedurer utan stigande ordning eller flera sektioner"
-+msgstr "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar till procedurer "
-+"som inte står i stigande ordning eller till flera sektioner"
++msgstr "  -Wsuspicious-perform-thru\tvarna om PERFORM THRU refererar till procedurer som inte står i stigande ordning eller till flera sektioner"
  
  #: cobc/warning.def:127
  msgid "  -Wdangling-text       warn about source text after program-area"
@@ -1027,7 +1016,7 @@
  
  #: cobc/warning.def:130
  msgid "  -Wno-missing-newline  do not warn about missing newlines"
-@@ -6304,12 +6315,12 @@
+@@ -6304,12 +6304,12 @@
  #: libcob/call.c:1247 libcob/call.c:1328 libcob/call.c:1448 libcob/call.c:1475
  #, c-format
  msgid "NULL parameter passed to '%s'"
@@ -1042,7 +1031,7 @@
  
  #: libcob/call.c:1452
  msgid "multiple call to 'cob_setjmp'"
-@@ -6331,7 +6342,7 @@
+@@ -6331,7 +6331,7 @@
  #: libcob/call.c:1712
  #, c-format
  msgid "parameter %d is not within range of %d"
@@ -1051,7 +1040,7 @@
  
  #: libcob/call.c:1718
  #, c-format
-@@ -6344,12 +6355,12 @@
+@@ -6344,12 +6344,12 @@
  
  #: libcob/call.c:2053
  msgid "field not allocated"
@@ -1066,7 +1055,7 @@
  
  #: libcob/call.c:2161 libcob/call.c:2219 libcob/call.c:2270
  #, c-format
-@@ -6394,11 +6405,11 @@
+@@ -6394,11 +6394,11 @@
  #: libcob/common.c:1074
  #, c-format
  msgid "requested coredump creation failed with status %d"
@@ -1080,7 +1069,7 @@
  
  #: libcob/common.c:1306
  msgid "interrupt from keyboard"
-@@ -6406,11 +6417,11 @@
+@@ -6406,11 +6406,11 @@
  
  #: libcob/common.c:1310
  msgid "hangup"
@@ -1094,7 +1083,7 @@
  
  #: libcob/common.c:1318
  msgid "termination"
-@@ -6430,7 +6441,7 @@
+@@ -6430,7 +6430,7 @@
  
  #: libcob/common.c:1334
  msgid "attempt to reference invalid memory address"
@@ -1103,7 +1092,7 @@
  
  #: libcob/common.c:1338
  msgid "bus error"
-@@ -6446,7 +6457,7 @@
+@@ -6446,7 +6446,7 @@
  
  #: libcob/common.c:1350
  msgid "process killed"
@@ -1112,7 +1101,7 @@
  
  #: libcob/common.c:1354
  msgid "alarm signal"
-@@ -6454,7 +6465,7 @@
+@@ -6454,7 +6454,7 @@
  
  #: libcob/common.c:1358
  msgid "stop process"
@@ -1121,7 +1110,7 @@
  
  #: libcob/common.c:1362 libcob/common.c:1366
  msgid "child process stopped"
-@@ -6473,7 +6484,7 @@
+@@ -6473,7 +6473,7 @@
  #: libcob/common.c:1377 libcob/common.c:8922
  #, c-format
  msgid "abnormal termination - file contents may be incorrect"
@@ -1130,7 +1119,7 @@
  
  #: libcob/common.c:3441 libcob/common.c:9398 libcob/common.c:9412
  msgid "version mismatch"
-@@ -6493,7 +6504,7 @@
+@@ -6493,7 +6493,7 @@
  #: libcob/common.c:4141
  #, c-format
  msgid "code execution leaving %s"
@@ -1139,7 +1128,7 @@
  
  #: libcob/common.c:4151
  #, c-format
-@@ -6503,18 +6514,18 @@
+@@ -6503,18 +6503,18 @@
  #: libcob/common.c:4168
  #, c-format
  msgid "memory violation detected for '%s' after %s"
@@ -1161,7 +1150,7 @@
  
  #: libcob/common.c:4253
  #, c-format
-@@ -6524,12 +6535,12 @@
+@@ -6524,12 +6524,12 @@
  #: libcob/common.c:4378
  #, c-format
  msgid "'%s' (Type: %s) not numeric: '%s'"
@@ -1176,7 +1165,7 @@
  
  #: libcob/common.c:4406 libcob/common.c:4444
  #, c-format
-@@ -6549,22 +6560,23 @@
+@@ -6549,22 +6549,22 @@
  #: libcob/common.c:4465
  #, c-format
  msgid "offset of '%s' out of bounds: %d, maximum: %d"
@@ -1199,12 +1188,11 @@
  #, c-format
  msgid "EXTERNAL item '%s' previously allocated with size %d, requested size is %d"
 -msgstr "EXTERNAL-objekt ”%s” tidigare allokerat med storlek %d, begärd storlek är %d"
-+msgstr "EXTERNAL-objektet ”%s” har tidigare allokerats med storleken %d, begärd "
-+"storlek är %d"
++msgstr "EXTERNAL-objektet ”%s” har tidigare allokerats med storleken %d, begärd storlek är %d"
  
  #: libcob/common.c:4961 libcob/common.c:5201
  #, c-format
-@@ -6597,7 +6609,7 @@
+@@ -6597,7 +6597,7 @@
  
  #: libcob/common.c:7220
  msgid "call to CBL_GC_GETOPT with wrong longoption size"
@@ -1213,7 +1201,7 @@
  
  #: libcob/common.c:7225
  msgid "call to CBL_GC_GETOPT with missing longind"
-@@ -6637,12 +6649,12 @@
+@@ -6637,12 +6637,12 @@
  #: libcob/common.c:8223 libcob/common.c:8226 libcob/common.c:8229
  #, c-format
  msgid "set by %s"
@@ -1228,7 +1216,7 @@
  
  #: libcob/common.c:8370
  #, c-format
-@@ -6652,7 +6664,7 @@
+@@ -6652,7 +6652,7 @@
  #: libcob/common.c:8397
  #, c-format
  msgid "WARNING - '%s %s' without a value - ignored!"
@@ -1237,7 +1225,7 @@
  
  #: libcob/common.c:8906
  msgid "error"
-@@ -6668,7 +6680,7 @@
+@@ -6668,7 +6668,7 @@
  
  #: libcob/common.c:8979
  msgid "stack overflow, possible PERFORM depth exceeded"
@@ -1246,7 +1234,7 @@
  
  #: libcob/common.c:8984
  msgid "invalid entry/exit in GLOBAL USE procedure"
-@@ -6680,7 +6692,7 @@
+@@ -6680,7 +6680,7 @@
  
  #: libcob/common.c:8993
  msgid "invalid entry into module"
@@ -1255,7 +1243,7 @@
  
  #: libcob/common.c:9000
  #, c-format
-@@ -6702,7 +6714,7 @@
+@@ -6702,7 +6702,7 @@
  
  #: libcob/common.c:9026
  msgid "key order not ascending"
@@ -1264,7 +1252,7 @@
  
  #: libcob/common.c:9029
  msgid "record key already exists"
-@@ -6710,7 +6722,7 @@
+@@ -6710,7 +6710,7 @@
  
  #: libcob/common.c:9032
  msgid "record key does not exist"
@@ -1273,7 +1261,7 @@
  
  #: libcob/common.c:9035
  msgid "permanent file error"
-@@ -6730,15 +6742,15 @@
+@@ -6730,15 +6730,15 @@
  
  #: libcob/common.c:9047
  msgid "mismatch of fixed file attributes"
@@ -1292,7 +1280,7 @@
  
  #: libcob/common.c:9056
  msgid "READ must be executed first"
-@@ -6746,7 +6758,7 @@
+@@ -6746,7 +6746,7 @@
  
  #: libcob/common.c:9059
  msgid "record overflow"
@@ -1301,7 +1289,7 @@
  
  #: libcob/common.c:9062
  msgid "READ after unsuccessful READ/START"
-@@ -6754,19 +6766,19 @@
+@@ -6754,19 +6754,19 @@
  
  #: libcob/common.c:9065
  msgid "READ/START not allowed, file not open for input"
@@ -1325,7 +1313,7 @@
  
  #: libcob/common.c:9077
  msgid "LINAGE values invalid"
-@@ -6782,7 +6794,7 @@
+@@ -6782,7 +6782,7 @@
  
  #: libcob/common.c:9087
  msgid "runtime library is not configured for this operation"
@@ -1334,7 +1322,7 @@
  
  #: libcob/common.c:9092
  msgid "unknown file error"
-@@ -6851,11 +6863,11 @@
+@@ -6851,11 +6851,11 @@
  
  #: libcob/common.c:9773
  msgid "File I/O configuration"
@@ -1348,7 +1336,7 @@
  
  #: libcob/common.c:9775
  msgid "Miscellaneous"
-@@ -6894,7 +6906,7 @@
+@@ -6894,7 +6894,7 @@
  #: libcob/common.c:10338 libcob/common.c:10364
  #, c-format
  msgid "%s called with unknown option: %d"
@@ -1357,7 +1345,7 @@
  
  #. TRANSLATORS: This msgid is shown for a requested but empty stack trace.
  #: libcob/common.c:10411
-@@ -6909,12 +6921,12 @@
+@@ -6909,12 +6909,12 @@
  #: libcob/common.c:10762
  #, c-format
  msgid "Dump Program-Id %s from %s compiled %s"
@@ -1372,7 +1360,7 @@
  
  #: libcob/fileio.c:784 libcob/fileio.c:1664 libcob/fileio.c:1926
  #: libcob/fileio.c:3938 libcob/fileio.c:4522 libcob/fileio.c:10049
-@@ -6936,7 +6948,7 @@
+@@ -6936,7 +6936,7 @@
  #: libcob/fileio.c:3510 libcob/fileio.c:3530
  #, c-format
  msgid "cannot join BDB environment (%s), error: %d %s"
@@ -1381,7 +1369,7 @@
  
  #: libcob/fileio.c:3585 libcob/fileio.c:3610 libcob/fileio.c:3636
  #: libcob/fileio.c:3655
-@@ -6947,7 +6959,7 @@
+@@ -6947,7 +6947,7 @@
  #: libcob/fileio.c:6199
  #, c-format
  msgid "ERROR FILE %s has ASSIGN field is NULL"
@@ -1390,7 +1378,7 @@
  
  #: libcob/fileio.c:7050
  #, c-format
-@@ -6971,7 +6983,7 @@
+@@ -6971,7 +6971,7 @@
  
  #: libcob/fileio.c:7871
  msgid "SORT is unable to acquire temporary file"
@@ -1399,7 +1387,7 @@
  
  #. TRANSLATORS: This msgid is concatenated with a filename;
  #. setup translation to allow this to be followed on the right side,
-@@ -7047,7 +7059,7 @@
+@@ -7047,7 +7047,7 @@
  
  #: libcob/screenio.c:1055
  msgid "failed to initialize curses"
@@ -1408,7 +1396,7 @@
  
  #: libcob/screenio.c:5034
  msgid "end of program, please press a key to exit"
-@@ -7064,7 +7076,7 @@
+@@ -7064,7 +7064,7 @@
  
  #: libcob/termio.c:421
  msgid "COB_DISPLAY_PUNCH_FILE is invalid, output to SYSPUNCH skipped"
@@ -1417,7 +1405,7 @@
  
  #: bin/cobcrun.c:118
  msgid "GnuCOBOL module loader"
-@@ -7102,7 +7114,7 @@
+@@ -7102,7 +7102,7 @@
  
  #: bin/cobcrun.c:132
  msgid "  -q, --brief                     reduced displays"
@@ -1426,7 +1414,7 @@
  
  #: bin/cobcrun.c:134
  msgid "  -c <file>, --config=<file>      set runtime configuration from <file>"
-@@ -7113,8 +7125,8 @@
+@@ -7113,8 +7113,8 @@
  "  -r, --runtime-config            display current runtime configuration\n"
  "                                  (value and origin for all settings)"
  msgstr ""
@@ -1437,7 +1425,7 @@
  
  #: bin/cobcrun.c:137
  msgid ""
-@@ -7147,7 +7159,7 @@
+@@ -7147,7 +7147,7 @@
  #: bin/cobcrun.c:410
  #, c-format
  msgid "Try '%s --help' for more information."

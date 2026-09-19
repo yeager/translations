@@ -509,7 +509,7 @@
  
  #: dicod/main.c:766 dicod/main.c:840 dicod/main.c:844 dicod/main.c:849
  #: dicod/main.c:853 dicod/main.c:896 dicod/main.c:899 dicod/main.c:903
-@@ -1210,19 +1210,20 @@
+@@ -1210,19 +1210,19 @@
  
  #: dicod/main.c:841
  msgid "Short description, to be shown in reply to SHOW DB command."
@@ -519,8 +519,7 @@
  #: dicod/main.c:845
  msgid "Full description of the database, to be shown in reply to SHOW INFO command."
 -msgstr "Helbeskrivning av databasen, att visa i svaret för kommandot SHOW INFO."
-+msgstr "Fullständig beskrivning av databasen som visas i svaret på kommandot SHOW "
-+"INFO."
++msgstr "Fullständig beskrivning av databasen som visas i svaret på kommandot SHOW INFO."
  
  #: dicod/main.c:850
  msgid "List of languages this database translates from."
@@ -534,7 +533,7 @@
  
  #: dicod/main.c:857 dicod/main.c:1023 dicod/main.c:1026 dicod/main.c:1302
  #: dicod/main.c:1305 dicod/main.c:1324 dicod/main.c:1343 dicod/main.c:1348
-@@ -1240,7 +1241,7 @@
+@@ -1240,7 +1240,7 @@
  
  #: dicod/main.c:861
  msgid "ACL controlling visibility of this database"
@@ -543,7 +542,7 @@
  
  #: dicod/main.c:864 dicod/main.c:1312 dicod/main.c:1359 dicod/main.c:1362
  msgid "text"
-@@ -1252,7 +1253,7 @@
+@@ -1252,7 +1252,7 @@
  
  #: dicod/main.c:869
  msgid "bool"
@@ -552,17 +551,16 @@
  
  #: dicod/main.c:870
  msgid "Set database visibility"
-@@ -1264,7 +1265,8 @@
+@@ -1264,7 +1264,7 @@
  
  #: dicod/main.c:874
  msgid "For virtual database only: name of the member database. Optional mime|nomime specifies the condition under which the database is to be used."
 -msgstr "Endast för virtuell databas: namn på medlemsdatabas. Valfri mime|nomime specificerar villkoren för under vilka databasen ska användas."
-+msgstr "Endast för virtuell databas: namn på medlemsdatabasen. Det valfria "
-+"mime|nomime anger villkoret då databasen används."
++msgstr "Endast för virtuell databas: namn på medlemsdatabasen. Det valfria mime|nomime anger villkoret då databasen används."
  
  #: dicod/main.c:896
  msgid "Password file or query."
-@@ -1272,11 +1274,11 @@
+@@ -1272,11 +1272,11 @@
  
  #: dicod/main.c:900
  msgid "File containing user group information or a query to retrieve it."
@@ -576,7 +574,7 @@
  
  #: dicod/main.c:926 dicod/main.c:942
  msgid "URL must be a string"
-@@ -1301,7 +1303,7 @@
+@@ -1301,7 +1301,7 @@
  
  #: dicod/main.c:1008
  msgid "expected boolean value but found list"
@@ -585,7 +583,7 @@
  
  #: dicod/main.c:1017 dicod/main.c:1020
  msgid "mech: list"
-@@ -1309,11 +1311,11 @@
+@@ -1309,11 +1309,11 @@
  
  #: dicod/main.c:1018
  msgid "Disable SASL mechanisms listed in <mech>."
@@ -599,7 +597,7 @@
  
  #: dicod/main.c:1024
  msgid "Set service name for GSSAPI and Kerberos."
-@@ -1321,7 +1323,7 @@
+@@ -1321,7 +1321,7 @@
  
  #: dicod/main.c:1027
  msgid "Set realm name for GSSAPI and Kerberos."
@@ -608,7 +606,7 @@
  
  #: dicod/main.c:1030
  msgid "Define groups for anonymous users."
-@@ -1333,15 +1335,15 @@
+@@ -1333,15 +1333,15 @@
  
  #: dicod/main.c:1071
  msgid "missing section name"
@@ -627,7 +625,7 @@
  
  #: dicod/main.c:1159
  msgid "expected list or string"
-@@ -1349,7 +1351,7 @@
+@@ -1349,7 +1349,7 @@
  
  #: dicod/main.c:1182
  msgid "Expected number"
@@ -636,7 +634,7 @@
  
  #: dicod/main.c:1253
  msgid "arg: bool"
-@@ -1357,7 +1359,7 @@
+@@ -1357,7 +1357,7 @@
  
  #: dicod/main.c:1253
  msgid "Deny all * and ! look ups"
@@ -645,7 +643,7 @@
  
  #: dicod/main.c:1257
  msgid "cond"
-@@ -1390,11 +1392,11 @@
+@@ -1390,11 +1390,11 @@
  
  #: dicod/main.c:1287
  msgid "Deny * and ! look-ups on words with length == <len>."
@@ -659,7 +657,7 @@
  
  #: dicod/main.c:1302
  msgid "Run with these user privileges."
-@@ -1402,7 +1404,7 @@
+@@ -1402,7 +1402,7 @@
  
  #: dicod/main.c:1306
  msgid "Supplementary group to retain with the user privileges."
@@ -668,7 +666,7 @@
  
  #: dicod/main.c:1309
  msgid "arg: [daemon|inetd]"
-@@ -1414,11 +1416,11 @@
+@@ -1414,11 +1414,11 @@
  
  #: dicod/main.c:1313
  msgid "Server description to be shown in reply to SHOW SERVER command."
@@ -682,7 +680,7 @@
  
  #: dicod/main.c:1319
  msgid "Enable identification check using AUTH protocol (RFC 1413)"
-@@ -1434,23 +1436,25 @@
+@@ -1434,23 +1434,23 @@
  
  #: dicod/main.c:1325
  msgid "Name of the file containing the keys for decrypting AUTH replies."
@@ -702,9 +700,7 @@
  #: dicod/main.c:1333
  msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
 -msgstr "Ange syslog-funktionalitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (icke skiftlägeskänsligt) eller ett funktionalitetstal."
-+msgstr "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, "
-+"mail, cron, local0 till local7, oberoende av skiftläge, eller ett "
-+"facilitetsnummer."
++msgstr "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7, oberoende av skiftläge, eller ett facilitetsnummer."
  
  #: dicod/main.c:1338
  msgid "Prefix diagnostics messages with their severity."
@@ -713,7 +709,7 @@
  
  #: dicod/main.c:1340
  msgid "fmt"
-@@ -1458,7 +1462,7 @@
+@@ -1458,7 +1458,7 @@
  
  #: dicod/main.c:1341
  msgid "Set format string for access log file."
@@ -722,7 +718,7 @@
  
  #: dicod/main.c:1344
  msgid "Set access log file name."
-@@ -1466,7 +1470,7 @@
+@@ -1466,7 +1466,7 @@
  
  #: dicod/main.c:1346
  msgid "Log session transcript."
@@ -731,7 +727,7 @@
  
  #: dicod/main.c:1349
  msgid "Store PID of the master process in this file."
-@@ -1478,7 +1482,7 @@
+@@ -1478,7 +1478,7 @@
  
  #: dicod/main.c:1352
  msgid "Wait this number of seconds for all children to terminate."
@@ -740,7 +736,7 @@
  
  #: dicod/main.c:1355
  msgid "Set inactivity timeout."
-@@ -1494,15 +1498,16 @@
+@@ -1494,15 +1494,15 @@
  
  #: dicod/main.c:1360
  msgid "Display this text in the initial 220 banner"
@@ -750,8 +746,7 @@
  #: dicod/main.c:1363
  msgid "Display this text in reply to the HELP command. If text begins with a +, usual command summary is displayed before it."
 -msgstr "Visa denna i svar för kommandot HELP. Om texten börjar med + visas vanlig kommandosammanfattning före det."
-+msgstr "Visa denna text i svaret på kommandot HELP. Om texten börjar med + visas den "
-+"vanliga kommandosammanfattningen före den."
++msgstr "Visa denna text i svaret på kommandot HELP. Om texten börjar med + visas den vanliga kommandosammanfattningen före den."
  
  #: dicod/main.c:1366
  msgid "Override the host name."
@@ -760,7 +755,7 @@
  
  #: dicod/main.c:1368
  msgid "Request additional capabilities."
-@@ -1514,19 +1519,20 @@
+@@ -1514,19 +1514,19 @@
  
  #: dicod/main.c:1372
  msgid "List of directories searched for database modules."
@@ -770,8 +765,7 @@
  #: dicod/main.c:1376
  msgid "List of directories searched for database modules prior to the default module directory"
 -msgstr "Lista över kataloger som söks genom efter databasmoduler innan standardkatalogen för modulerna"
-+msgstr "Lista över kataloger som genomsöks efter databasmoduler före "
-+"standardkatalogen för moduler."
++msgstr "Lista över kataloger som genomsöks efter databasmoduler före standardkatalogen för moduler."
  
  #: dicod/main.c:1381
  msgid "Set the name of the default matching strategy."
@@ -785,7 +779,7 @@
  
  #: dicod/main.c:1388
  msgid "Set ACL to control visibility of all databases."
-@@ -1589,8 +1595,8 @@
+@@ -1589,8 +1589,8 @@
  "Configuration file structure for dicod.\n"
  "For more information, use `info dico configuration'."
  msgstr ""
@@ -796,17 +790,16 @@
  
  #: dicod/main.c:1788
  msgid "unknown strategy"
-@@ -1614,7 +1620,8 @@
+@@ -1614,7 +1614,7 @@
  
  #: cmdline.opt:69
  msgid "run unit tests for module; subsequent arguments are treated as module name and unit test arguments; the -- marker introduces module initialization arguments"
 -msgstr "kör enhetstester för modul; följande argument behandlas som modulnamn och enhetstestargument; markören -- introducerar argument för modulinitiering"
-+msgstr "kör modultester; efterföljande argument behandlas som modulnamn och "
-+"testargument; markören -- inleder argument för modulinitiering"
++msgstr "kör modultester; efterföljande argument behandlas som modulnamn och testargument; markören -- inleder argument för modulinitiering"
  
  #: cmdline.opt:63
  msgid "Modifiers"
-@@ -1626,23 +1633,23 @@
+@@ -1626,23 +1626,23 @@
  
  #: cmdline.opt:79
  msgid "read this configuration file"
@@ -835,7 +828,7 @@
  
  #: cmdline.opt:109 cmdline.opt:179
  msgid "DIR"
-@@ -1650,7 +1657,7 @@
+@@ -1650,7 +1650,7 @@
  
  #: cmdline.opt:109
  msgid "prepend DIR to the module load path"
@@ -844,7 +837,7 @@
  
  #: cmdline.opt:125
  msgid "disable session transcript"
-@@ -1666,7 +1673,7 @@
+@@ -1666,7 +1666,7 @@
  
  #: cmdline.opt:150
  msgid "trace config file lexer"
@@ -853,7 +846,7 @@
  
  #: cmdline.opt:142
  msgid "Additional help"
-@@ -1674,11 +1681,11 @@
+@@ -1674,11 +1674,11 @@
  
  #: cmdline.opt:158
  msgid "show configuration file summary"
@@ -867,7 +860,7 @@
  
  #: cmdline.opt:167
  msgid "PROG"
-@@ -1686,7 +1693,7 @@
+@@ -1686,7 +1686,7 @@
  
  #: cmdline.opt:167
  msgid "use PROG as a preprocessor for config file"
@@ -876,17 +869,16 @@
  
  #: cmdline.opt:173
  msgid "do not use external preprocessor"
-@@ -1694,7 +1701,8 @@
+@@ -1694,7 +1694,7 @@
  
  #: cmdline.opt:179
  msgid "add the directory DIR to the list of directories to be searched for preprocessor include files"
 -msgstr "lägg till katalogen DIR till listan över kataloger att sökas igenom efter include-filer till förprocessorn"
-+msgstr "lägg till katalogen DIR i listan över kataloger som genomsöks efter "
-+"include-filer för preprocessorn"
++msgstr "lägg till katalogen DIR i listan över kataloger som genomsöks efter include-filer för preprocessorn"
  
  #: cmdline.opt:185
  msgid "SYMBOL[=VALUE]"
-@@ -1702,11 +1710,11 @@
+@@ -1702,11 +1702,11 @@
  
  #: cmdline.opt:185
  msgid "define a preprocessor symbol"
@@ -900,7 +892,7 @@
  
  #: dicod/loader.c:38
  #, c-format
-@@ -1743,12 +1751,12 @@
+@@ -1743,12 +1743,12 @@
  
  #: dicod/alias.c:70
  msgid "this is the location of the previous definition"
@@ -915,7 +907,7 @@
  
  #: dicod/server.c:110
  #, c-format
-@@ -1758,12 +1766,12 @@
+@@ -1758,12 +1758,12 @@
  #: dicod/server.c:116
  #, c-format
  msgid "cannot unlink file %s"
@@ -930,7 +922,7 @@
  
  #: dicod/server.c:163
  msgid "No sockets opened"
-@@ -1772,7 +1780,7 @@
+@@ -1772,7 +1772,7 @@
  #: dicod/server.c:206
  #, c-format
  msgid "%lu exited successfully"
@@ -939,7 +931,7 @@
  
  #: dicod/server.c:211
  #, c-format
-@@ -1797,7 +1805,7 @@
+@@ -1797,7 +1797,7 @@
  #: dicod/server.c:234
  #, c-format
  msgid "%lu dumped core"
@@ -948,7 +940,7 @@
  
  #: dicod/server.c:237
  #, c-format
-@@ -1822,7 +1830,7 @@
+@@ -1822,7 +1822,7 @@
  #: dicod/server.c:324 dicod/server.c:343
  #, c-format
  msgid "Cannot unlink pidfile `%s'"
@@ -957,7 +949,7 @@
  
  #: dicod/server.c:334
  #, c-format
-@@ -1836,7 +1844,7 @@
+@@ -1836,7 +1836,7 @@
  
  #: dicod/server.c:459
  msgid "fork failed"
@@ -966,17 +958,16 @@
  
  #: dicod/server.c:475
  msgid "refusing to restart due to errors in configuration file"
-@@ -1844,7 +1852,8 @@
+@@ -1844,7 +1844,7 @@
  
  #: dicod/server.c:481
  msgid "refusing to restart due to unexpected return status of configuration checker"
 -msgstr "vägrar att starta om på grund av oväntad returstatus på konfiguratiionskontrollen"
-+msgstr "vägrar att starta om på grund av oväntad slutstatus från "
-+"konfigurationskontrollen"
++msgstr "vägrar att starta om på grund av oväntad slutstatus från konfigurationskontrollen"
  
  #: dicod/server.c:489
  msgid "refusing to restart: configuration checker did not exit within 5 seconds"
-@@ -1865,12 +1874,12 @@
+@@ -1865,12 +1865,12 @@
  
  #: dicod/server.c:557
  msgid "select error"
@@ -991,7 +982,7 @@
  
  #: dicod/server.c:590
  msgid "not running as root: ignoring user/group settings"
-@@ -1878,7 +1887,7 @@
+@@ -1878,7 +1878,7 @@
  
  #: dicod/server.c:603
  msgid "dicod started without full file name"
@@ -1000,7 +991,7 @@
  
  #: dicod/server.c:604 dicod/server.c:608
  msgid "restart (SIGHUP) will not work"
-@@ -1886,11 +1895,11 @@
+@@ -1886,11 +1886,11 @@
  
  #: dicod/server.c:607
  msgid "configuration file is not given with a full file name"
@@ -1014,7 +1005,7 @@
  
  #: dicod/server.c:632
  #, c-format
-@@ -1913,7 +1922,7 @@
+@@ -1913,7 +1913,7 @@
  
  #: dicod/ident.c:200
  msgid "Incorrect length of IDENT DES packet"
@@ -1023,7 +1014,7 @@
  
  #: dicod/ident.c:207
  #, c-format
-@@ -1922,7 +1931,7 @@
+@@ -1922,7 +1922,7 @@
  
  #: dicod/ident.c:388
  msgid "cannot create socket for AUTH identification"
@@ -1032,7 +1023,7 @@
  
  #: dicod/ident.c:400
  msgid "cannot bind AUTH socket"
-@@ -1936,16 +1945,17 @@
+@@ -1936,16 +1936,16 @@
  #: dicod/ident.c:437
  #, c-format
  msgid "Malformed IDENT response: `%s', from %s"
@@ -1042,8 +1033,7 @@
  #: dicod/ident.c:442
  msgid "Keyfile for AUTH responses not specified in config; use `ident-keyfile FILE'"
 -msgstr "Nyckelfilen för AUTH-svar är inte specificerad i konfigurationen; använd ”ident-keyfile FIL”"
-+msgstr "Nyckelfil för AUTH-svar har inte angetts i konfigurationen; använd "
-+"”ident-keyfile FIL”"
++msgstr "Nyckelfil för AUTH-svar har inte angetts i konfigurationen; använd ”ident-keyfile FIL”"
  
  #: dicod/ident.c:458
  #, c-format
@@ -1053,7 +1043,7 @@
  
  #: dicod/ident.c:469
  #, c-format
-@@ -1965,7 +1975,7 @@
+@@ -1965,7 +1965,7 @@
  #: dicod/accesslog.c:502
  #, c-format
  msgid "log format error (near char %td): unknown format char `%c'"
@@ -1062,7 +1052,7 @@
  
  #: dicod/accesslog.c:510
  #, c-format
-@@ -1994,7 +2004,7 @@
+@@ -1994,7 +1994,7 @@
  
  #: dicod/gsasl.c:269
  msgid "user name not supplied"
@@ -1071,7 +1061,7 @@
  
  #: dicod/gsasl.c:333
  #, c-format
-@@ -2004,7 +2014,7 @@
+@@ -2004,7 +2004,7 @@
  #: modules/dict.org/dictorg.c:83
  #, c-format
  msgid "mod_init: cannot stat `%s'"
@@ -1080,7 +1070,7 @@
  
  #: modules/dict.org/dictorg.c:88
  #, c-format
-@@ -2029,7 +2039,7 @@
+@@ -2029,7 +2029,7 @@
  #: modules/dict.org/dictorg.c:302
  #, c-format
  msgid "open_index: cannot stat `%s'"
@@ -1089,7 +1079,7 @@
  
  #: modules/dict.org/dictorg.c:306
  #, c-format
-@@ -2046,17 +2056,17 @@
+@@ -2046,17 +2046,17 @@
  #: modules/gcide/gcide.c:323 modules/gcide/gcide.c:732
  #, c-format
  msgid "cannot open stream `%s': %s"
@@ -1110,7 +1100,7 @@
  
  #: modules/dict.org/dictorg.c:468
  #, c-format
-@@ -2066,7 +2076,7 @@
+@@ -2066,7 +2066,7 @@
  #: modules/dict.org/dictorg.c:508
  #, c-format
  msgid "mod_init_db(%s): index files in old 8-bit format are not supported"
@@ -1119,7 +1109,7 @@
  
  #: modules/dict.org/dictorg.c:810 modules/dict.org/dictorg.c:993
  #: modules/gcide/gcide.c:756
-@@ -2086,7 +2096,7 @@
+@@ -2086,7 +2086,7 @@
  #: modules/dict.org/dictstr.c:176
  #, c-format
  msgid "cannot initialize inflation engine: %s"
@@ -1128,7 +1118,7 @@
  
  #: modules/dict.org/dictstr.c:198
  #, c-format
-@@ -2096,7 +2106,7 @@
+@@ -2096,7 +2096,7 @@
  #: modules/dict.org/dictstr.c:286
  #, c-format
  msgid "%s:%d: INTERNAL ERROR: cannot shut down inflation engine: %s"
@@ -1137,7 +1127,7 @@
  
  #: modules/dict.org/dictstr.c:437
  #, c-format
-@@ -2105,7 +2115,7 @@
+@@ -2105,7 +2105,7 @@
  
  #: modules/dict.org/dictstr.c:475
  msgid "unknown dictionary format"
@@ -1146,7 +1136,7 @@
  
  #: modules/dict.org/dictstr.c:478
  msgid "unsupported dictionary format"
-@@ -2113,7 +2123,7 @@
+@@ -2113,7 +2113,7 @@
  
  #: modules/dict.org/dictstr.c:481
  msgid "unsupported dictionary version"
@@ -1155,7 +1145,7 @@
  
  #: modules/dict.org/dictstr.c:484
  msgid "malformed header"
-@@ -2125,12 +2135,12 @@
+@@ -2125,12 +2125,12 @@
  
  #: modules/dict.org/dictstr.c:490
  msgid "error decompressing stream"
@@ -1170,7 +1160,7 @@
  
  #: modules/guile/guile.c:164
  #, c-format
-@@ -2140,7 +2150,7 @@
+@@ -2140,7 +2140,7 @@
  #: modules/guile/guile.c:184
  #, c-format
  msgid "procedure `%s' failed: see error output for details"
@@ -1179,7 +1169,7 @@
  
  #: modules/guile/guile.c:735
  #, c-format
-@@ -2154,7 +2164,7 @@
+@@ -2154,7 +2154,7 @@
  #: modules/guile/guile.c:802 modules/guile/guile.c:836
  #, c-format
  msgid "mod_init: cannot load init script %s"
@@ -1188,7 +1178,7 @@
  
  #: modules/guile/guile.c:862
  #, c-format
-@@ -2176,7 +2186,7 @@
+@@ -2176,7 +2176,7 @@
  
  #: modules/outline/outline.c:642
  msgid "outline_lang: not enough memory"
@@ -1197,7 +1187,7 @@
  
  #: modules/outline/outline.c:681
  msgid "outline_match_all: not enough memory"
-@@ -2213,17 +2223,17 @@
+@@ -2213,17 +2213,17 @@
  
  #: modules/ldap/ldap.c:215
  msgid "cannot allocate handle"
@@ -1218,7 +1208,7 @@
  
  #: modules/gcide/gcide.c:89
  #, c-format
-@@ -2233,7 +2243,7 @@
+@@ -2233,7 +2233,7 @@
  #: modules/gcide/gcide.c:93 modules/gcide/gcide.c:158
  #, c-format
  msgid "gcide: `%s' is not readable"
@@ -1227,7 +1217,7 @@
  
  #: modules/gcide/gcide.c:113
  #, c-format
-@@ -2247,7 +2257,7 @@
+@@ -2247,7 +2247,7 @@
  
  #: modules/gcide/gcide.c:125
  msgid "gcide_open_idx: fork failed"
@@ -1236,7 +1226,7 @@
  
  #: modules/gcide/gcide.c:129 modules/gcide/gcide.c:134
  #, c-format
-@@ -2257,12 +2267,12 @@
+@@ -2257,12 +2257,12 @@
  #: modules/gcide/gcide.c:141
  #, c-format
  msgid "gcide_open_idx: %s exited with status %d"
@@ -1251,7 +1241,7 @@
  
  #: modules/gcide/gcide.c:188
  msgid "gcide: index file older than database, reindexing"
-@@ -2275,7 +2285,7 @@
+@@ -2275,7 +2275,7 @@
  
  #: modules/gcide/gcide.c:249
  msgid "gcide_init_db: database directory not given"
@@ -1260,7 +1250,7 @@
  
  #: modules/gcide/gcide.c:335 modules/gcide/gcide.c:354
  #, c-format
-@@ -2285,11 +2295,11 @@
+@@ -2285,11 +2285,11 @@
  #: modules/gcide/gcide.c:344
  #, c-format
  msgid "cannot get size of stream `%s': %s"
@@ -1274,7 +1264,7 @@
  
  #: modules/gcide/gcide.c:518 modules/wordnet/wordnet.c:617
  #, c-format
-@@ -2309,7 +2319,7 @@
+@@ -2309,7 +2309,7 @@
  #: modules/gcide/idx.c:71
  #, c-format
  msgid "short read while reading from `%s'"
@@ -1283,7 +1273,7 @@
  
  #: modules/gcide/idx.c:91
  #, c-format
-@@ -2329,7 +2339,7 @@
+@@ -2329,7 +2329,7 @@
  #: modules/gcide/idx.c:246
  #, c-format
  msgid "seek error on `%s' while positioning to %lu"
@@ -1292,7 +1282,7 @@
  
  #: modules/gcide/idxgcide-cli.opt:62
  #, c-format
-@@ -2351,7 +2361,7 @@
+@@ -2351,7 +2351,7 @@
  #: modules/gcide/idxgcide.l:217
  #, c-format
  msgid "%s:%u: unknown or illegible character in a headword"
@@ -1301,7 +1291,7 @@
  
  #: modules/gcide/idxgcide.l:221
  #, c-format
-@@ -2384,7 +2394,7 @@
+@@ -2384,7 +2384,7 @@
  #: modules/gcide/idxgcide.l:356
  #, c-format
  msgid "headwords=%lu, definitions=%lu, refs per page=%lu, pages=%lu"
@@ -1310,7 +1300,7 @@
  
  #: modules/gcide/markup.l:148
  #, c-format
-@@ -2403,7 +2413,7 @@
+@@ -2403,7 +2403,7 @@
  
  #: modules/wordnet/wordnet.c:79
  msgid "cannot open wordnet database"
@@ -1319,7 +1309,7 @@
  
  #: modules/wordnet/wordnet.c:232
  #, c-format
-@@ -2461,11 +2471,11 @@
+@@ -2461,11 +2461,11 @@
  
  #: grecs/src/format.c:46
  msgid "time"
@@ -1333,7 +1323,7 @@
  
  #: grecs/src/format.c:47
  msgid "boolean"
-@@ -2489,7 +2499,7 @@
+@@ -2489,7 +2489,7 @@
  
  #: grecs/src/format.c:49
  msgid "of CIDR"
@@ -1342,7 +1332,7 @@
  
  #: grecs/src/format.c:50
  msgid "hostname"
-@@ -2509,7 +2519,7 @@
+@@ -2509,7 +2509,7 @@
  
  #: grecs/src/format.c:52
  msgid "section"
@@ -1351,7 +1341,7 @@
  
  #: grecs/src/format.c:53
  msgid "null"
-@@ -2530,12 +2540,12 @@
+@@ -2530,12 +2530,12 @@
  #: grecs/src/grecs-lex.l:186
  #, c-format
  msgid "stray character %c"
@@ -1366,7 +1356,7 @@
  
  #: grecs/src/grecs-lex.l:219 grecs/src/preproc.c:480
  #, c-format
-@@ -2545,20 +2555,20 @@
+@@ -2545,20 +2545,20 @@
  #: grecs/src/grecs-lex.l:227 grecs/src/preproc.c:698
  #, c-format
  msgid "Unable to start external preprocessor `%s'"
@@ -1391,7 +1381,7 @@
  
  #: grecs/src/lineacc.c:70
  #, c-format
-@@ -2583,7 +2593,7 @@
+@@ -2583,7 +2583,7 @@
  
  #: grecs/src/opthelp.c:186
  msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
@@ -1400,7 +1390,7 @@
  
  #. TRANSLATORS: The placeholder indicates the bug-reporting
  #. address for this package.  Please add _another line_ saying
-@@ -2598,7 +2608,7 @@
+@@ -2598,7 +2598,7 @@
  #: grecs/src/opthelp.c:205
  #, c-format
  msgid "%s home page: <%s>\n"
@@ -1409,15 +1399,14 @@
  
  #. TRANSLATORS: Translate "(C)" to the copyright symbol
  #. (C-in-a-circle), if this symbol is available in the user's
-@@ -2614,14 +2624,15 @@
+@@ -2614,14 +2614,14 @@
  "There is NO WARRANTY, to the extent permitted by law.\n"
  "\n"
  msgstr ""
 -"Licens GPLv3: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
 -"Detta är fri programvara: du är fri att ändra och distribuera den.\n"
 -"Det finns INGA GARANTIER.\n"
-+"Licens GPLv3+: GNU GPL version 3 eller senare "
-+"<http://gnu.org/licenses/gpl.html>\n"
++"Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
 +"Detta är fri programvara: du får ändra och vidaredistribuera den.\n"
 +"Det finns INGEN GARANTI, så långt lagen tillåter.\n"
  "\n"
@@ -1429,7 +1418,7 @@
  
  #. TRANSLATORS: This string is used as a delimiter between
  #. authors' names as in:
-@@ -2648,20 +2659,20 @@
+@@ -2648,20 +2648,20 @@
  
  #: grecs/src/path-parser.c:108 grecs/src/path-parser.c:123
  msgid "unexpected end of file"
@@ -1454,7 +1443,7 @@
  
  #: grecs/src/preproc.c:461
  #, c-format
-@@ -2675,11 +2686,11 @@
+@@ -2675,11 +2675,11 @@
  
  #: grecs/src/preproc.c:595
  msgid "Cannot parse include line"
@@ -1468,7 +1457,7 @@
  
  #: grecs/src/preproc.c:624
  msgid "read error"
-@@ -2698,7 +2709,7 @@
+@@ -2698,7 +2698,7 @@
  #: grecs/src/sockaddr.c:67
  #, c-format
  msgid "socket path name too long: %s"
@@ -1477,7 +1466,7 @@
  
  #: grecs/src/sockaddr.c:120
  #, c-format
-@@ -2708,7 +2719,7 @@
+@@ -2708,7 +2708,7 @@
  #: grecs/src/sockaddr.c:159
  #, c-format
  msgid "service not specified: %s"
@@ -1486,7 +1475,7 @@
  
  #: grecs/src/sockaddr.c:176
  #, c-format
-@@ -2718,7 +2729,7 @@
+@@ -2718,7 +2718,7 @@
  #: grecs/src/sockaddr.c:269
  #, c-format
  msgid "unknown or unsupported scheme: %s"
@@ -1495,7 +1484,7 @@
  
  #: grecs/src/sockaddr.c:278
  #, c-format
-@@ -2743,15 +2754,15 @@
+@@ -2743,15 +2743,15 @@
  
  #: grecs/src/tree.c:75
  msgid "unrecognized type; please report"
@@ -1514,7 +1503,7 @@
  
  #: grecs/src/tree.c:325
  msgid "unknown keyword"
-@@ -2774,15 +2785,15 @@
+@@ -2774,15 +2774,15 @@
  
  #: grecs/src/tree.c:452
  msgid "missing port number"
@@ -1533,7 +1522,7 @@
  
  #: grecs/src/tree.c:541 grecs/src/tree.c:571
  #, c-format
-@@ -2816,7 +2827,7 @@
+@@ -2816,7 +2816,7 @@
  
  #: grecs/wordsplit/wordsplit.c:130
  msgid "memory exhausted while trying to store error context"
@@ -1542,7 +1531,7 @@
  
  #: grecs/wordsplit/wordsplit.c:881
  msgid "Restarting"
-@@ -2825,12 +2836,12 @@
+@@ -2825,12 +2825,12 @@
  #: grecs/wordsplit/wordsplit.c:1607
  #, c-format
  msgid "%.*s: variable null or not set"
@@ -1557,7 +1546,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2138
  #, c-format
-@@ -2839,7 +2850,7 @@
+@@ -2839,7 +2839,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2599
  msgid "WS trimming"
@@ -1566,7 +1555,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2601
  msgid "command substitution"
-@@ -2847,19 +2858,19 @@
+@@ -2847,19 +2847,19 @@
  
  #: grecs/wordsplit/wordsplit.c:2603 grecs/wordsplit/wordsplit.c:2611
  msgid "coalesce list"
@@ -1590,7 +1579,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2613
  msgid "path expansion"
-@@ -2876,15 +2887,15 @@
+@@ -2876,15 +2876,15 @@
  
  #: grecs/wordsplit/wordsplit.c:2679
  msgid "Coalesced list:"
@@ -1609,7 +1598,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2852
  msgid "invalid wordsplit usage"
-@@ -2900,11 +2911,11 @@
+@@ -2900,11 +2900,11 @@
  
  #: grecs/wordsplit/wordsplit.c:2855
  msgid "input exhausted"
@@ -1623,7 +1612,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2857
  msgid "globbing error"
-@@ -2925,7 +2936,7 @@
+@@ -2925,7 +2925,7 @@
  #: grecs/wordsplit/wordsplit.c:2880
  #, c-format
  msgid "missing closing %c (start near #%lu)"

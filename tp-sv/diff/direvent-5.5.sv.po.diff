@@ -18,17 +18,16 @@
  
  #: src/config.c:136 src/config.c:781 src/config.c:867
  msgid "name"
-@@ -55,7 +55,8 @@
+@@ -55,7 +55,7 @@
  
  #: src/config.c:137
  msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
 -msgstr "Ställ in syslog-funktionalitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (inte skiftlägeskänsligt), eller ett funktionalitetstal."
-+msgstr "Ange syslog-facilitet. Argumentet är user, daemon, auth, authpriv, mail, "
-+"cron, local0 till local7 (inte skiftlägeskänsligt), eller ett facilitetstal."
++msgstr "Ange syslog-facilitet. Argumentet är user, daemon, auth, authpriv, mail, cron, local0 till local7 (inte skiftlägeskänsligt), eller ett facilitetstal."
  
  #: src/config.c:142 src/config.c:775 grecs/src/format.c:38 grecs/src/tree.c:69
  msgid "string"
-@@ -63,7 +64,7 @@
+@@ -63,7 +63,7 @@
  
  #: src/config.c:142
  msgid "Tag syslog messages with this string"
@@ -37,7 +36,7 @@
  
  #: src/config.c:145 grecs/src/format.c:142
  msgid "arg"
-@@ -71,20 +72,20 @@
+@@ -71,20 +71,20 @@
  
  #: src/config.c:146
  msgid "Prefix each message with its priority"
@@ -62,7 +61,7 @@
  
  #: src/config.c:235 grecs/src/tree.c:655
  msgid "invalid use of block statement"
-@@ -92,7 +93,7 @@
+@@ -92,7 +92,7 @@
  
  #: src/config.c:280
  msgid "expected \"recursive\" or end of statement"
@@ -71,7 +70,7 @@
  
  #: src/config.c:295
  msgid "surplus argument"
-@@ -124,11 +125,11 @@
+@@ -124,11 +124,11 @@
  
  #: src/config.c:587
  msgid "can't parse legacy environ statement"
@@ -85,20 +84,19 @@
  
  #: src/config.c:647
  msgid "unexpected argument"
-@@ -147,8 +148,10 @@
+@@ -147,8 +147,9 @@
  "Keep this variable. Unless value is supplied, name can contain wildcards.\n"
  "Implies \"clear\"."
  msgstr ""
 -"Behåll denna variabel. Namnet kan innehålla jokertecken om inte värde anges.\n"
 -"Medför \"clear\"."
-+"Behåll den här variabeln. Om inget värde anges kan namnet innehålla "
-+"jokertecken.\n"
++"Behåll den här variabeln. Om inget värde anges kan namnet innehålla jokertecken.\n"
 +"Innebär ”"
 +"clear”."
  
  #: src/config.c:769
  msgid "name=value"
-@@ -156,7 +159,7 @@
+@@ -156,7 +157,7 @@
  
  #: src/config.c:770
  msgid "Set environment variable. Note, that argument must be quoted."
@@ -107,7 +105,7 @@
  
  #: src/config.c:776
  msgid "Evaluate string. Useful for side-effects, e.g. eval ${X:=2}."
-@@ -164,11 +167,11 @@
+@@ -164,11 +165,11 @@
  
  #: src/config.c:782
  msgid "Unset environment variable. Name can contain wildcards."
@@ -121,7 +119,7 @@
  
  #: src/config.c:856
  msgid "Pathname to watch"
-@@ -180,7 +183,7 @@
+@@ -180,7 +181,7 @@
  
  #: src/config.c:862
  msgid "regexp"
@@ -130,7 +128,7 @@
  
  #: src/config.c:862
  msgid "Files to watch for"
-@@ -188,11 +191,11 @@
+@@ -188,11 +189,11 @@
  
  #: src/config.c:865
  msgid "Command to execute on event"
@@ -144,7 +142,7 @@
  
  #: src/config.c:870
  msgid "seconds"
-@@ -204,11 +207,11 @@
+@@ -204,11 +205,11 @@
  
  #: src/config.c:872
  msgid "List of additional options"
@@ -158,7 +156,7 @@
  
  #: src/config.c:880
  msgid "<arg: string> <arg: string>..."
-@@ -216,11 +219,11 @@
+@@ -216,11 +217,11 @@
  
  #: src/config.c:881
  msgid "Modify environment (legacy form)"
@@ -172,7 +170,7 @@
  
  #: src/config.c:891
  msgid "Run as this user"
-@@ -236,7 +239,7 @@
+@@ -236,7 +237,7 @@
  
  #: src/config.c:895
  msgid "Set pid file name"
@@ -181,7 +179,7 @@
  
  #: src/config.c:897
  msgid "Configure syslog logging"
-@@ -248,11 +251,11 @@
+@@ -248,11 +249,11 @@
  
  #: src/config.c:899
  msgid "Set debug level"
@@ -195,7 +193,7 @@
  
  #: src/config.c:907
  msgid "Time to wait for all subprocesses to terminate"
-@@ -267,12 +270,12 @@
+@@ -267,12 +268,12 @@
  "Configuration file structure for direvent.\n"
  "For more information, use `info direvent configuration'."
  msgstr ""
@@ -210,7 +208,7 @@
  
  #: src/direvent.c:306
  #, c-format
-@@ -291,7 +294,7 @@
+@@ -291,7 +292,7 @@
  #: src/direvent.c:552
  #, c-format
  msgid "cannot run `%s': fork failed: %s"
@@ -219,7 +217,7 @@
  
  #: src/direvent.c:634
  msgid "increase debug level"
-@@ -303,7 +306,7 @@
+@@ -303,7 +304,7 @@
  
  #: src/direvent.c:647
  msgid "log everything with priority PRIO and higher to the stderr, as well as to the syslog"
@@ -228,7 +226,7 @@
  
  #: src/direvent.c:654
  msgid "NAME"
-@@ -311,7 +314,7 @@
+@@ -311,7 +312,7 @@
  
  #: src/direvent.c:655
  msgid "set syslog facility"
@@ -237,7 +235,7 @@
  
  #: src/direvent.c:665
  msgid "remain in foreground"
-@@ -339,11 +342,11 @@
+@@ -339,11 +340,11 @@
  
  #: src/direvent.c:700
  msgid "set PID file"
@@ -251,7 +249,7 @@
  
  #: src/direvent.c:722
  msgid "USER"
-@@ -355,25 +358,26 @@
+@@ -355,25 +356,25 @@
  
  #: src/direvent.c:733
  msgid "show configuration file summary"
@@ -262,8 +260,7 @@
  #, c-format
  msgid "The optional CONFIG argument supplies the name of the configuration file to use instead of %s."
 -msgstr "Det valfria KONFIG-argumentet tillhandahåller namnet på konfigurationsfilen att använda istället för %s."
-+msgstr "Det valfria KONFIG-argumentet anger namnet på den konfigurationsfil som ska "
-+"användas i stället för %s."
++msgstr "Det valfria KONFIG-argumentet anger namnet på den konfigurationsfil som ska användas i stället för %s."
  
  #: src/direvent.c:763
  #, c-format
@@ -283,13 +280,12 @@
  
  #: src/direvent.c:785
  msgid "(C)"
-@@ -412,21 +416,22 @@
+@@ -412,21 +413,21 @@
  
  #: src/ev_inotify.c:157
  msgid "not enough memory: cannot look up a watcher to delete"
 -msgstr "inte tillräckligt med minne: kan inte slå upp en bevakare att ta bort"
-+msgstr "inte tillräckligt med minne: det går inte att slå upp en bevakare som ska tas "
-+"bort"
++msgstr "inte tillräckligt med minne: det går inte att slå upp en bevakare som ska tas bort"
  
  #: src/ev_inotify.c:208
  #, c-format
@@ -310,7 +306,7 @@
  
  #: src/ev_inotify.c:231
  #, c-format
-@@ -441,7 +446,7 @@
+@@ -441,7 +442,7 @@
  #: src/ev_inotify.c:239
  #, c-format
  msgid "%s/%s created"
@@ -319,7 +315,7 @@
  
  #: src/ev_inotify.c:242
  #, c-format
-@@ -451,7 +456,7 @@
+@@ -451,7 +452,7 @@
  #: src/ev_inotify.c:254
  #, c-format
  msgid "%s: ignoring event (%x) for the watchpoint directory"
@@ -328,7 +324,7 @@
  
  #: src/ev_inotify.c:258
  #, c-format
-@@ -461,7 +466,7 @@
+@@ -461,7 +462,7 @@
  #: src/ev_inotify.c:289
  #, c-format
  msgid "%s/%s deleted"
@@ -337,7 +333,7 @@
  
  #: src/ev_inotify.c:307
  #, c-format
-@@ -475,7 +480,7 @@
+@@ -475,7 +476,7 @@
  
  #: src/fnpat.c:90
  msgid "unterminated regexp"
@@ -346,7 +342,7 @@
  
  #: src/fnpat.c:104
  #, c-format
-@@ -485,7 +490,7 @@
+@@ -485,7 +486,7 @@
  #: src/progman.c:147
  #, c-format
  msgid "process %lu (%s) exited successfully"
@@ -355,7 +351,7 @@
  
  #: src/progman.c:152
  #, c-format
-@@ -494,7 +499,7 @@
+@@ -494,7 +495,7 @@
  
  #: src/progman.c:165
  msgid " (dumped core)"
@@ -364,7 +360,7 @@
  
  #: src/progman.c:168
  #, c-format
-@@ -517,11 +522,11 @@
+@@ -517,11 +518,11 @@
  
  #: src/progman.c:272
  msgid "forcefully terminating the remaining processes"
@@ -378,7 +374,7 @@
  
  #: src/progman.c:289
  #, c-format
-@@ -531,21 +536,21 @@
+@@ -531,21 +532,21 @@
  #: src/progman.c:298
  #, c-format
  msgid "scheduling alarm in %lu seconds"
@@ -404,7 +400,7 @@
  
  #: src/progman.c:386
  #, c-format
-@@ -555,7 +560,7 @@
+@@ -555,7 +556,7 @@
  #: src/progman.c:690
  #, c-format
  msgid "starting %s, dir=%s, file=%s"
@@ -413,7 +409,7 @@
  
  #: src/progman.c:719
  #, c-format
-@@ -565,7 +570,7 @@
+@@ -565,7 +566,7 @@
  #: src/progman.c:754
  #, c-format
  msgid "%s running; run_count=%zu; dir=%s, file=%s, pid=%lu"
@@ -422,7 +418,7 @@
  
  #: src/progman.c:773
  #, c-format
-@@ -575,7 +580,7 @@
+@@ -575,7 +576,7 @@
  #: src/watcher.c:128
  #, c-format
  msgid "%s: recent status expired"
@@ -431,7 +427,7 @@
  
  #: src/watcher.c:288 src/watcher.c:676
  #, c-format
-@@ -769,11 +774,11 @@
+@@ -769,11 +770,11 @@
  
  #: grecs/src/grecs-lex.l:183
  msgid "end of file in comment"
@@ -445,18 +441,16 @@
  
  #: grecs/src/grecs-lex.l:384
  #, c-format
-@@ -788,7 +793,9 @@
+@@ -788,7 +789,7 @@
  #: grecs/src/grecs-lex.l:421
  #, c-format
  msgid "\"%2.2s\" starts comment here; use quotes if you want it to be a part of string, or inserta whitespace to suppress this warning"
 -msgstr "\"%2.2s\" börjar kommentaren här; använd citattecken om du vill att den ska vara en del av en sträng, eller infoga ett mellanslag för att dölja denna varning"
-+msgstr "”%2.2s” börjar kommentaren här; använd citattecken om du vill att den ska "
-+"vara en del av en sträng, eller infoga ett mellanslag för att undertrycka "
-+"denna varning"
++msgstr "”%2.2s” börjar kommentaren här; använd citattecken om du vill att den ska vara en del av en sträng, eller infoga ett mellanslag för att undertrycka denna varning"
  
  #: grecs/src/grecs-lex.l:460 grecs/src/grecs-lex.l:478
  msgid "invalid include statement"
-@@ -815,12 +822,12 @@
+@@ -815,12 +816,12 @@
  #: grecs/src/grecs-lex.l:850
  #, c-format
  msgid "`%s' already included here"
@@ -471,7 +465,7 @@
  
  #: grecs/src/grecs-lex.l:871 grecs/src/grecs-lex.l:892
  #, c-format
-@@ -896,15 +903,15 @@
+@@ -896,15 +897,15 @@
  
  #: grecs/src/tree.c:75
  msgid "unrecognized type; please report"
@@ -490,7 +484,7 @@
  
  #: grecs/src/tree.c:315
  msgid "unknown keyword"
-@@ -918,7 +925,7 @@
+@@ -918,7 +919,7 @@
  #: grecs/src/tree.c:381
  #, c-format
  msgid "%s: UNIX socket name too long"
@@ -499,7 +493,7 @@
  
  #: grecs/src/tree.c:410 grecs/src/tree.c:634
  #, c-format
-@@ -974,11 +981,11 @@
+@@ -974,11 +975,11 @@
  
  #: grecs/wordsplit/wordsplit.c:78 grecs/wordsplit/wordsplit.c:2851
  msgid "memory exhausted"
@@ -513,7 +507,7 @@
  
  #: grecs/wordsplit/wordsplit.c:873
  msgid "Restarting"
-@@ -987,7 +994,7 @@
+@@ -987,7 +988,7 @@
  #: grecs/wordsplit/wordsplit.c:1599
  #, c-format
  msgid "%.*s: variable null or not set"
@@ -522,7 +516,7 @@
  
  #: grecs/wordsplit/wordsplit.c:1629
  #, c-format
-@@ -1001,7 +1008,7 @@
+@@ -1001,7 +1002,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2595
  msgid "WS trimming"
@@ -531,7 +525,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2597
  msgid "command substitution"
-@@ -1009,7 +1016,7 @@
+@@ -1009,7 +1010,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2599 grecs/wordsplit/wordsplit.c:2607
  msgid "coalesce list"
@@ -540,7 +534,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2601
  msgid "tilde expansion"
-@@ -1021,7 +1028,7 @@
+@@ -1021,7 +1022,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2605
  msgid "quote removal"
@@ -549,7 +543,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2609
  msgid "path expansion"
-@@ -1050,7 +1057,7 @@
+@@ -1050,7 +1051,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2852
  msgid "invalid wordsplit usage"
@@ -558,7 +552,7 @@
  
  #: grecs/wordsplit/wordsplit.c:2853
  msgid "unbalanced curly brace"
-@@ -1087,7 +1094,7 @@
+@@ -1087,7 +1088,7 @@
  #: grecs/wordsplit/wordsplit.c:2880
  #, c-format
  msgid "missing closing %c (start near #%lu)"
@@ -567,7 +561,7 @@
  
  #: parseopt/help.c:91
  #, c-format
-@@ -1102,17 +1109,17 @@
+@@ -1102,17 +1103,17 @@
  #: parseopt/help.c:110
  #, c-format
  msgid "error in ARGP_HELP_FMT: %s value is out of range"
@@ -588,7 +582,7 @@
  
  #: parseopt/help.c:149
  #, c-format
-@@ -1139,7 +1146,7 @@
+@@ -1139,7 +1140,7 @@
  #: parseopt/help.c:740
  #, c-format
  msgid "usage: %s"
@@ -597,7 +591,7 @@
  
  #: parseopt/help.c:746
  msgid "[OPTIONS...]"
-@@ -1154,7 +1161,7 @@
+@@ -1154,7 +1155,7 @@
  #, c-format
  msgid "Report bugs and suggestions to <%s>\n"
  msgstr ""
@@ -606,7 +600,7 @@
  "Skicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>\n"
  
  #: parseopt/help.c:806
-@@ -1199,7 +1206,7 @@
+@@ -1199,7 +1200,7 @@
  #: parseopt/parseopt.c:388
  #, c-format
  msgid "invalid argument '%s'"
@@ -615,7 +609,7 @@
  
  #: parseopt/parseopt.c:571
  msgid "Informative options"
-@@ -1207,7 +1214,7 @@
+@@ -1207,7 +1208,7 @@
  
  #: parseopt/parseopt.c:576
  msgid "produce this help text"
@@ -624,7 +618,7 @@
  
  #: parseopt/parseopt.c:585
  msgid "give a short usage message"
-@@ -1215,7 +1222,7 @@
+@@ -1215,7 +1216,7 @@
  
  #: parseopt/parseopt.c:595 parseopt/parseopt.c:604
  msgid "print program version"

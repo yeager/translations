@@ -330,17 +330,16 @@
  
  #: lib/errors.c:365
  msgid "PKCS #11 error in session"
-@@ -775,7 +775,8 @@
+@@ -775,7 +775,7 @@
  
  #: lib/errors.c:384
  msgid "The provided X.509 certificate list is not sorted (in subject to issuer order)"
 -msgstr "Den tillhandahållna X.509-certifikatlistan är inte sorterad (sorterad enligt utfärdare)"
-+msgstr "Den tillhandahållna X.509-certifikatlistan är inte sorterad i ordning från "
-+"innehavare till utfärdare"
++msgstr "Den tillhandahållna X.509-certifikatlistan är inte sorterad i ordning från innehavare till utfärdare"
  
  #: lib/errors.c:386
  msgid "The OCSP response is invalid"
-@@ -791,7 +792,7 @@
+@@ -791,7 +791,7 @@
  
  #: lib/errors.c:392
  msgid "Error in the system's randomness device."
@@ -349,7 +348,7 @@
  
  #: lib/errors.c:395
  msgid "No common application protocol could be negotiated."
-@@ -807,19 +808,19 @@
+@@ -807,19 +807,19 @@
  
  #: lib/errors.c:401
  msgid "An error has been detected in the library and cannot continue operations."
@@ -373,7 +372,7 @@
  
  #: lib/errors.c:409
  msgid "Peer's certificate or username has changed during a rehandshake."
-@@ -827,7 +828,7 @@
+@@ -827,7 +827,7 @@
  
  #: lib/errors.c:411
  msgid "The provided string has an embedded null."
@@ -382,7 +381,7 @@
  
  #: lib/errors.c:413
  msgid "Attempted handshake during false start."
-@@ -839,27 +840,27 @@
+@@ -839,27 +839,27 @@
  
  #: lib/errors.c:417
  msgid "There was an issue converting to or from UTF8."
@@ -416,7 +415,7 @@
  
  #: lib/errors.c:429
  msgid "The DER time encoding is invalid."
-@@ -871,7 +872,7 @@
+@@ -871,7 +871,7 @@
  
  #: lib/errors.c:433
  msgid "One of the involved algorithms has insufficient security level."
@@ -425,7 +424,7 @@
  
  #: lib/errors.c:435
  msgid "No common key share with peer."
-@@ -879,7 +880,7 @@
+@@ -879,7 +879,7 @@
  
  #: lib/errors.c:437
  msgid "The early data were rejected."
@@ -434,7 +433,7 @@
  
  #: lib/errors.c:443 libdane/errors.c:42
  msgid "Success."
-@@ -911,7 +912,7 @@
+@@ -911,7 +911,7 @@
  
  #: lib/errors.c:457
  msgid "Re-authentication was requested by the peer."
@@ -443,7 +442,7 @@
  
  #: lib/errors.c:549 libdane/errors.c:100
  msgid "(unknown error code)"
-@@ -923,7 +924,7 @@
+@@ -923,7 +923,7 @@
  
  #: lib/x509/ocsp.c:2610
  msgid "The OCSP response's signer could not be found. "
@@ -452,7 +451,7 @@
  
  #: lib/x509/ocsp.c:2615
  msgid "Error in the signer's key usageflags. "
-@@ -931,7 +932,7 @@
+@@ -931,7 +931,7 @@
  
  #: lib/x509/ocsp.c:2620
  msgid "The OCSP response's signer is not trusted. "
@@ -461,7 +460,7 @@
  
  #: lib/x509/ocsp.c:2625
  msgid "The OCSP response depends on insecure algorithms. "
-@@ -943,11 +944,11 @@
+@@ -943,11 +943,11 @@
  
  #: lib/x509/ocsp.c:2635
  msgid "The OCSP response's signer's certificate is not activated. "
@@ -475,7 +474,7 @@
  
  #: lib/x509/ocsp.c:2644
  msgid "Memory error"
-@@ -985,7 +986,7 @@
+@@ -985,7 +985,7 @@
  #: lib/x509/ocsp_output.c:320
  #, c-format
  msgid "\tProduced At: %s\n"
@@ -484,7 +483,7 @@
  
  #: lib/x509/ocsp_output.c:414
  #, c-format
-@@ -1044,7 +1045,7 @@
+@@ -1044,7 +1044,7 @@
  
  #: lib/x509/output.c:114
  msgid "warning: SAN contains an embedded NUL, replacing with '!'\n"
@@ -493,7 +492,7 @@
  
  #: lib/x509/output.c:130
  #, c-format
-@@ -1064,7 +1065,7 @@
+@@ -1064,7 +1064,7 @@
  #: lib/x509/output.c:152
  #, c-format
  msgid "%sKRB5Principal: %.*s\n"
@@ -502,7 +501,7 @@
  
  #: lib/x509/output.c:156
  #, c-format
-@@ -1100,12 +1101,12 @@
+@@ -1100,12 +1100,12 @@
  #: lib/x509/output.c:343
  #, c-format
  msgid "%s\t\t\tPermitted:\n"
@@ -517,7 +516,7 @@
  
  #: lib/x509/output.c:395 lib/x509/output.c:397 lib/x509/output.c:399
  #, c-format
-@@ -1121,7 +1122,7 @@
+@@ -1121,7 +1121,7 @@
  #: lib/x509/output.c:505
  #, c-format
  msgid "%sNon repudiation.\n"
@@ -526,7 +525,7 @@
  
  #: lib/x509/output.c:507
  #, c-format
-@@ -1161,12 +1162,12 @@
+@@ -1161,12 +1161,12 @@
  #: lib/x509/output.c:563
  #, c-format
  msgid "\t\t\tNot Before: %s\n"
@@ -541,7 +540,7 @@
  
  #: lib/x509/output.c:650
  #, c-format
-@@ -1246,7 +1247,7 @@
+@@ -1246,7 +1246,7 @@
  #: lib/x509/output.c:896
  #, c-format
  msgid "%s\t\tBasic Constraints (%s):\n"
@@ -550,7 +549,7 @@
  
  #: lib/x509/output.c:898 lib/x509/output.c:912 lib/x509/output.c:957
  #: lib/x509/output.c:991 lib/x509/output.c:1004 lib/x509/output.c:1016
-@@ -1351,7 +1352,7 @@
+@@ -1351,7 +1351,7 @@
  #: lib/x509/output.c:1241
  #, c-format
  msgid "\t%sPublic Key Algorithm: %s\n"
@@ -559,7 +558,7 @@
  
  #: lib/x509/output.c:1243
  #, c-format
-@@ -1480,7 +1481,7 @@
+@@ -1480,7 +1480,7 @@
  
  #: lib/x509/output.c:1667 lib/x509/output.c:2516
  msgid "\tSubject:\n"
@@ -568,7 +567,7 @@
  
  #: lib/x509/output.c:1672 lib/x509/output.c:2521
  #, c-format
-@@ -1505,7 +1506,7 @@
+@@ -1505,7 +1505,7 @@
  "%sPublic Key ID:\n"
  "%s\tsha1:"
  msgstr ""
@@ -577,7 +576,7 @@
  "%s\tsha1:"
  
  #: lib/x509/output.c:1811
-@@ -1514,12 +1515,12 @@
+@@ -1514,12 +1514,12 @@
  "%sPublic Key PIN:\n"
  "%s\tpin-sha256:"
  msgstr ""
@@ -592,7 +591,7 @@
  
  #: lib/x509/output.c:1899
  msgid "no issuer,"
-@@ -1528,7 +1529,7 @@
+@@ -1528,7 +1528,7 @@
  #: lib/x509/output.c:1946
  #, c-format
  msgid "signed using %s (broken!), "
@@ -601,7 +600,7 @@
  
  #: lib/x509/output.c:1948
  #, c-format
-@@ -1623,15 +1624,15 @@
+@@ -1623,15 +1623,15 @@
  
  #: lib/x509/output.c:2751
  msgid "Public Key Usage:\n"
@@ -620,7 +619,7 @@
  
  #: libdane/dane.c:1053
  msgid "Verification failed. "
-@@ -1639,7 +1640,7 @@
+@@ -1639,7 +1639,7 @@
  
  #: libdane/dane.c:1058
  msgid "CA constrains were violated. "
@@ -629,7 +628,7 @@
  
  #: libdane/dane.c:1062
  msgid "The certificate differs. "
-@@ -1659,11 +1660,11 @@
+@@ -1659,11 +1659,11 @@
  
  #: libdane/errors.c:47
  msgid "No DANE data were found."
@@ -643,7 +642,7 @@
  
  #: libdane/errors.c:51
  msgid "No DNSSEC signature was found."
-@@ -1671,7 +1672,7 @@
+@@ -1671,7 +1671,7 @@
  
  #: libdane/errors.c:53
  msgid "Received corrupt data."
@@ -652,7 +651,7 @@
  
  #: libdane/errors.c:55
  msgid "The DNSSEC signature is invalid."
-@@ -1691,7 +1692,7 @@
+@@ -1691,7 +1691,7 @@
  
  #: libdane/errors.c:65
  msgid "There was an error in the public key."

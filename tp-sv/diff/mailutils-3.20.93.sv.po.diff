@@ -173,17 +173,16 @@
  
  #: dotlock/dotlock.c:100
  msgid "GNU dotlock -- lock mail spool files."
-@@ -396,7 +396,8 @@
+@@ -396,7 +396,7 @@
  
  #: dotlock/dotlock.c:103
  msgid "Returns 0 on success, 3 if locking the file fails because it's already locked, and 1 if some other kind of error occurred."
 -msgstr "Returnerar 0 om lyckad, 3 om låsning av fil misslyckas på grund av att den redan är låst, och 1 om någon annan typ av fel inträffade."
-+msgstr "Returnerar 0 vid framgång, 3 om låsningen av filen misslyckas eftersom den "
-+"redan är låst, och 1 om någon annan typ av fel inträffar."
++msgstr "Returnerar 0 vid framgång, 3 om låsningen av filen misslyckas eftersom den redan är låst, och 1 om någon annan typ av fel inträffar."
  
  #: dotlock/dotlock.c:139
  #, c-format
-@@ -411,12 +412,12 @@
+@@ -411,12 +411,12 @@
  #: dotlock/dotlock.c:186
  #, c-format
  msgid "unlocking the file %s failed: %s"
@@ -198,7 +197,7 @@
  
  #: frm/common.c:124
  #, c-format
-@@ -426,7 +427,7 @@
+@@ -426,7 +426,7 @@
  #: frm/common.c:370
  #, c-format
  msgid "cannot decode line %s: %s"
@@ -207,7 +206,7 @@
  
  #: frm/common.c:509 frm/common.c:590
  #, c-format
-@@ -473,11 +474,11 @@
+@@ -473,11 +473,11 @@
  
  #: frm/frm.c:142
  msgid "header field to display"
@@ -221,7 +220,7 @@
  
  #: frm/frm.c:148
  msgid "display message numbers"
-@@ -485,7 +486,7 @@
+@@ -485,7 +485,7 @@
  
  #: frm/frm.c:151
  msgid "do not display headers"
@@ -230,13 +229,12 @@
  
  #: frm/frm.c:154
  msgid "print a message if the mailbox contains some unread mail"
-@@ -503,11 +504,12 @@
+@@ -503,11 +503,11 @@
  #. "old" and "read". They are keywords.
  #: frm/frm.c:162
  msgid "select messages with the specific attribute: new, unread, old (same as unread) or read (or any unambiguous abbreviation of these)"
 -msgstr "välj meddelanden med specifikt attribut: new, unread, old (samma som olästa) eller read (eller någon explicit förkortning av dessa)"
-+msgstr "välj meddelanden med det angivna attributet: new, unread, old (samma som "
-+"unread) eller read (eller någon entydig förkortning av dessa)"
++msgstr "välj meddelanden med det angivna attributet: new, unread, old (samma som unread) eller read (eller någon entydig förkortning av dessa)"
  
  #: frm/frm.c:167
  msgid "tidy mode: align subject lines"
@@ -245,7 +243,7 @@
  
  #: frm/frm.c:175
  msgid "GNU frm -- display From: lines."
-@@ -515,7 +517,7 @@
+@@ -515,7 +515,7 @@
  
  #: frm/frm.c:176
  msgid "[URL ...]"
@@ -254,7 +252,7 @@
  
  #: frm/frm.c:244
  msgid "Folder contains no messages."
-@@ -576,19 +578,19 @@
+@@ -576,19 +576,19 @@
  
  #: frm/from.c:28
  msgid "print only mail from addresses containing the supplied string"
@@ -278,7 +276,7 @@
  
  #: frm/from.c:102
  #, c-format
-@@ -699,57 +701,57 @@
+@@ -699,57 +699,57 @@
  #: imap4d/auth_gss.c:306
  #, c-format
  msgid "GSSAPI user %s is NOT authorized as %s"
@@ -347,7 +345,7 @@
  
  #: imap4d/bye.c:123
  #, c-format
-@@ -759,7 +761,7 @@
+@@ -759,7 +759,7 @@
  #: imap4d/bye.c:129 pop3d/extra.c:121
  #, c-format
  msgid "quitting (numeric reason %d)"
@@ -356,7 +354,7 @@
  
  #: imap4d/copy.c:167
  #, c-format
-@@ -792,7 +794,7 @@
+@@ -792,7 +792,7 @@
  
  #: imap4d/idle.c:74
  msgid "eof while idling"
@@ -365,7 +363,7 @@
  
  #: imap4d/imap4d.c:109
  msgid "run in test mode"
-@@ -800,17 +802,17 @@
+@@ -800,17 +800,17 @@
  
  #: imap4d/imap4d.c:113
  msgid "start in preauth mode"
@@ -386,7 +384,7 @@
  
  #: imap4d/imap4d.c:203
  #, c-format
-@@ -830,7 +832,7 @@
+@@ -830,7 +830,7 @@
  #: imap4d/imap4d.c:276 pop3d/pop3d.c:187
  #, c-format
  msgid "not a valid tls keyword: %s"
@@ -395,7 +393,7 @@
  
  #: imap4d/imap4d.c:321
  #, c-format
-@@ -845,7 +847,7 @@
+@@ -845,7 +845,7 @@
  #: imap4d/imap4d.c:332 imap4d/imap4d.c:347
  #, c-format
  msgid "%s is deprecated; use %s instead"
@@ -404,7 +402,7 @@
  
  #: imap4d/imap4d.c:354 libmailutils/cli/stdcapa.c:683
  #, c-format
-@@ -880,7 +882,7 @@
+@@ -880,7 +880,7 @@
  
  #: imap4d/imap4d.c:413
  msgid "type: string"
@@ -413,7 +411,7 @@
  
  #: imap4d/imap4d.c:420
  msgid "File mode for newly created mailboxes in this namespace"
-@@ -949,12 +951,12 @@
+@@ -949,12 +949,12 @@
  #. TRANSLATORS: Don't translate homedir.create.
  #: imap4d/imap4d.c:553
  msgid "DEPRECATED.  Use homedir.create instead."
@@ -428,7 +426,7 @@
  
  #: imap4d/imap4d.c:557 libmailutils/cli/stdcapa.c:725
  msgid "mode: octal"
-@@ -962,7 +964,7 @@
+@@ -962,7 +962,7 @@
  
  #: imap4d/imap4d.c:559
  msgid "Retain these supplementary groups when switching to user privileges."
@@ -437,7 +435,7 @@
  
  #: imap4d/imap4d.c:560 mda/lmtpd/lmtpd.c:132
  msgid "groups: list of string"
-@@ -979,9 +981,9 @@
+@@ -979,9 +979,9 @@
  "  ident[://:<port: string-or-number>]\n"
  "  stdio"
  msgstr ""
@@ -450,17 +448,16 @@
  "  stdio"
  
  #: imap4d/imap4d.c:573
-@@ -990,7 +992,8 @@
+@@ -990,7 +990,7 @@
  
  #: imap4d/imap4d.c:575
  msgid "Use only preauth mode.  If unable to setup it, disconnect immediately."
 -msgstr "Använd endast preauth-läge.  Om det inte kan konfigureras, koppla omedelbart från."
-+msgstr "Använd endast PREAUTH-läge. Om det inte kan konfigureras, koppla omedelbart "
-+"från."
++msgstr "Använd endast PREAUTH-läge. Om det inte kan konfigureras, koppla omedelbart från."
  
  #: imap4d/imap4d.c:578
  msgid "Name of DES keyfile for decoding encrypted ident responses."
-@@ -1006,7 +1009,7 @@
+@@ -1006,7 +1006,7 @@
  
  #: imap4d/imap4d.c:587 pop3d/pop3d.c:261
  msgid "Set global transcript mode."
@@ -469,7 +466,7 @@
  
  #: imap4d/imap4d.c:595
  msgid "GNU imap4d -- the IMAP4D daemon."
-@@ -1035,12 +1038,12 @@
+@@ -1035,12 +1035,12 @@
  #: imap4d/imap4d.c:674 mda/lib/script.c:261
  #, c-format
  msgid "cannot set up user home directory %s: %s"
@@ -484,7 +481,7 @@
  
  #: imap4d/imap4d.c:724
  #, c-format
-@@ -1050,7 +1053,7 @@
+@@ -1050,7 +1050,7 @@
  #: imap4d/imap4d.c:739 imap4d/login.c:51 pop3d/user.c:119
  #, c-format
  msgid "user %s nonexistent"
@@ -493,7 +490,7 @@
  
  #: imap4d/imap4d.c:764 pop3d/signal.c:49
  #, c-format
-@@ -1060,7 +1063,7 @@
+@@ -1060,7 +1060,7 @@
  #: imap4d/imap4d.c:820
  #, c-format
  msgid "started in test mode"
@@ -502,7 +499,7 @@
  
  #: imap4d/imap4d.c:971 pop3d/pop3d.c:504
  #, c-format
-@@ -1070,12 +1073,12 @@
+@@ -1070,12 +1070,12 @@
  #: imap4d/imap4d.c:983 pop3d/pop3d.c:516
  #, c-format
  msgid "error setting mail group: %s"
@@ -517,7 +514,7 @@
  
  #: imap4d/imap4d.c:1054 imap4d/starttls.c:189 pop3d/cmd.c:174 pop3d/pop3d.c:554
  #, c-format
-@@ -1085,27 +1088,27 @@
+@@ -1085,27 +1085,27 @@
  #: imap4d/imap4d.c:1076 pop3d/pop3d.c:576
  #, c-format
  msgid "main loop status: %s"
@@ -550,7 +547,7 @@
  
  #: imap4d/io.c:108 libmu_sieve/extensions/spamd.c:404 mda/lmtpd/lmtpd.c:234
  #: libmailutils/imapio/trace.c:42 libproto/mailer/smtp_trace.c:48
-@@ -1129,12 +1132,12 @@
+@@ -1129,12 +1129,12 @@
  #: imap4d/io.c:597
  #, c-format
  msgid "unexpected eof on input"
@@ -565,7 +562,7 @@
  
  #: imap4d/login.c:61
  #, c-format
-@@ -1154,7 +1157,7 @@
+@@ -1154,7 +1154,7 @@
  #: imap4d/namespace.c:122
  #, c-format
  msgid "empty prefix not allowed in the namespace %s"
@@ -574,7 +571,7 @@
  
  #: imap4d/namespace.c:322 imap4d/namespace.c:328 imap4d/preauth.c:451
  #: libmu_auth/ldap.c:647 libmu_auth/ldap.c:653 libmu_auth/radius.c:306
-@@ -1163,7 +1166,7 @@
+@@ -1163,7 +1163,7 @@
  #: libmailutils/mailbox/mbx_default.c:172 movemail/movemail.c:929
  #, c-format
  msgid "cannot expand line %s: %s"
@@ -583,7 +580,7 @@
  
  #: imap4d/preauth.c:241
  #, c-format
-@@ -1203,12 +1206,12 @@
+@@ -1203,12 +1203,12 @@
  #: imap4d/preauth.c:361
  #, c-format
  msgid "keyfile not specified in config; use 'ident-keyfile FILE'"
@@ -598,7 +595,7 @@
  
  #: imap4d/preauth.c:458
  #, c-format
-@@ -1223,7 +1226,7 @@
+@@ -1223,7 +1223,7 @@
  #: imap4d/preauth.c:510 pop3d/pop3d.c:299
  #, c-format
  msgid "cannot obtain IP address of client: %s"
@@ -607,17 +604,16 @@
  
  #: imap4d/quota.c:108
  #, c-format
-@@ -1253,7 +1256,8 @@
+@@ -1253,7 +1253,7 @@
  #: imap4d/rename.c:227
  #, c-format
  msgid "failed to restore mailbox ownership/modes after moving %s to %s"
 -msgstr "misslyckades med att återställa ägarskap/lägen för brevlåda efter att ha flyttat %s till %s"
-+msgstr "misslyckades med att återställa brevlådans ägarskap/filläge efter att ha "
-+"flyttat %s till %s"
++msgstr "misslyckades med att återställa brevlådans ägarskap/filläge efter att ha flyttat %s till %s"
  
  #: imap4d/rename.c:232
  #, c-format
-@@ -1278,7 +1282,7 @@
+@@ -1278,7 +1278,7 @@
  #: imap4d/starttls.c:53
  #, c-format
  msgid "session terminated"
@@ -626,7 +622,7 @@
  
  #: imap4d/starttls.c:130 imap4d/starttls.c:143 pop3d/cmd.c:111 pop3d/cmd.c:124
  #, c-format
-@@ -1293,7 +1297,7 @@
+@@ -1293,7 +1293,7 @@
  #: imap4d/util.c:203
  #, c-format
  msgid "cannot find out my own hostname"
@@ -635,7 +631,7 @@
  
  #: lib/mailcap.c:265
  #, c-format
-@@ -1308,12 +1312,12 @@
+@@ -1308,12 +1308,12 @@
  #: lib/mailcap.c:406
  #, c-format
  msgid "Command terminated on signal %d\n"
@@ -650,7 +646,7 @@
  
  #: lib/mailcap.c:494 mimeview/mimeview.c:200
  #, c-format
-@@ -1335,7 +1339,7 @@
+@@ -1335,7 +1335,7 @@
  
  #: lib/mdecode.c:127
  msgid "expected string or list"
@@ -659,7 +655,7 @@
  
  #: lib/mdecode.c:134
  msgid "Define textual MIME types."
-@@ -1367,7 +1371,7 @@
+@@ -1367,7 +1367,7 @@
  
  #: lib/strexit.c:27
  msgid "Normal termination"
@@ -668,7 +664,7 @@
  
  #: lib/strexit.c:28
  msgid "Unspecified error"
-@@ -1379,11 +1383,11 @@
+@@ -1379,11 +1379,11 @@
  
  #: lib/strexit.c:30
  msgid "Incorrect input data"
@@ -682,7 +678,7 @@
  
  #: lib/strexit.c:32
  msgid "User does not exist"
-@@ -1391,7 +1395,7 @@
+@@ -1391,7 +1391,7 @@
  
  #: lib/strexit.c:33
  msgid "Host does not exist"
@@ -691,7 +687,7 @@
  
  #: lib/strexit.c:34
  msgid "Service unavailable"
-@@ -1411,12 +1415,12 @@
+@@ -1411,12 +1411,12 @@
  
  #: lib/strexit.c:38
  msgid "Output file cannot be created"
@@ -706,7 +702,7 @@
  
  #: lib/strexit.c:40
  msgid "Temporary failure"
-@@ -1428,7 +1432,7 @@
+@@ -1428,7 +1428,7 @@
  
  #: lib/strexit.c:42
  msgid "Insufficient permissions"
@@ -715,7 +711,7 @@
  
  #: lib/strexit.c:43
  msgid "Configuration error"
-@@ -1440,11 +1444,12 @@
+@@ -1440,11 +1440,11 @@
  
  #: lib/tcpwrap.c:57
  msgid "Enable TCP wrapper access control.  Default is 'yes'."
@@ -725,12 +721,11 @@
  #: lib/tcpwrap.c:59
  msgid "Set daemon name for TCP wrapper lookups.  Default is program name."
 -msgstr "Ställ in daemon-namn för TCP-omslagsuppslagningar.  Standard är programnamn."
-+msgstr "Ange demonens namn för uppslagningar med TCP Wrappers. Standard är "
-+"programnamnet."
++msgstr "Ange demonens namn för uppslagningar med TCP Wrappers. Standard är programnamnet."
  
  #: lib/tcpwrap.c:60 libmu_auth/gsasl.c:53 libmu_auth/gsasl.c:56
  #: libmu_auth/gsasl.c:59 libmu_auth/gsasl.c:62 libmu_auth/pam.c:54
-@@ -1470,7 +1475,7 @@
+@@ -1470,7 +1470,7 @@
  #: lib/tcpwrap.c:109
  #, c-format
  msgid "access from %s blocked by TCP wrappers"
@@ -739,7 +734,7 @@
  
  #: libmu_auth/gsasl.c:47
  msgid "Enable GSASL (default)"
-@@ -1507,7 +1512,7 @@
+@@ -1507,7 +1507,7 @@
  
  #: libmu_auth/ldap.c:84
  msgid "Set URL of the LDAP server."
@@ -748,22 +743,20 @@
  
  #: libmu_auth/ldap.c:85 sieve/sieve.c:268
  msgid "url"
-@@ -1543,9 +1548,11 @@
+@@ -1543,9 +1543,9 @@
  "   <name: string>=<attr: string>\n"
  "where <name> is one of the following: name, passwd, uid, gid, gecos, dir, shell, mailbox, quota, and <attr> is the name of the corresponding LDAP attribute."
  msgstr ""
 -"Ange en field-map för analys av LDAP-svar.  Kartan är en lista med definitioner, som var och en har följande form:\n"
 -"  <namn: sträng>=<attr: sträng>\n"
 -"där <namn> är något av följande: name, passwd, uid, gid, gecos, dir, shell, mailbox, quota, och <attr> är namnet på motsvarande LDAP-attribut."
-+"Ange en field-map för tolkning av LDAP-svar. Mappningen är en lista med "
-+"definitioner, som var och en har följande form:\n"
++"Ange en field-map för tolkning av LDAP-svar. Mappningen är en lista med definitioner, som var och en har följande form:\n"
 +"   <name: string>=<attr: string>\n"
-+"där <name> är något av följande: name, passwd, uid, gid, gecos, dir, shell, "
-+"mailbox, quota, och <attr> är namnet på motsvarande LDAP-attribut."
++"där <name> är något av följande: name, passwd, uid, gid, gecos, dir, shell, mailbox, quota, och <attr> är namnet på motsvarande LDAP-attribut."
  
  #: libmu_auth/ldap.c:105 libmu_auth/sql.c:153
  msgid "map: definition"
-@@ -1576,7 +1583,7 @@
+@@ -1576,7 +1576,7 @@
  #: libmu_auth/ldap.c:182
  #, c-format
  msgid "cannot parse LDAP URL(s)=%s (%d)"
@@ -772,7 +765,7 @@
  
  #: libmu_auth/ldap.c:203
  #, c-format
-@@ -1616,16 +1623,16 @@
+@@ -1616,16 +1616,16 @@
  #: libmu_auth/ldap.c:474 mda/lib/mailquota.c:70
  #, c-format
  msgid "bad quota value: %s, stopped at %s"
@@ -792,7 +785,7 @@
  
  #: libmu_auth/radius.c:109
  #, c-format
-@@ -1635,7 +1642,7 @@
+@@ -1635,7 +1635,7 @@
  #: libmu_auth/radius.c:150
  #, c-format
  msgid "cannot create radius A/V pair %s"
@@ -801,7 +794,7 @@
  
  #: libmu_auth/radius.c:164
  #, c-format
-@@ -1645,11 +1652,11 @@
+@@ -1645,11 +1645,11 @@
  #: libmu_auth/radius.c:184
  #, c-format
  msgid "malformed radius A/V list"
@@ -815,7 +808,7 @@
  
  #: libmu_auth/radius.c:203 libmu_auth/radius.c:206 libmu_auth/radius.c:209
  msgid "request: string"
-@@ -1665,7 +1672,7 @@
+@@ -1665,7 +1665,7 @@
  
  #: libmu_auth/radius.c:211
  msgid "Set radius configuration directory."
@@ -824,7 +817,7 @@
  
  #: libmu_auth/radius.c:212 libmailutils/cli/stdcapa.c:295
  msgid "dir: string"
-@@ -1674,32 +1681,32 @@
+@@ -1674,32 +1674,32 @@
  #: libmu_auth/radius.c:275
  #, c-format
  msgid "cannot read radius dictionaries"
@@ -863,7 +856,7 @@
  
  #: libmu_auth/radius.c:510
  #, c-format
-@@ -1709,7 +1716,7 @@
+@@ -1709,7 +1709,7 @@
  #: libmu_auth/radius.c:538
  #, c-format
  msgid "radius request for getpwuid is not specified"
@@ -872,7 +865,7 @@
  
  #: libmu_auth/radius.c:551
  #, c-format
-@@ -1727,7 +1734,7 @@
+@@ -1727,7 +1727,7 @@
  
  #: libmu_auth/sql.c:120
  msgid "Set SQL interface to use."
@@ -881,7 +874,7 @@
  
  #. TRANSLATORS: Words to the right of : are keywords - do not translate
  #: libmu_auth/sql.c:122
-@@ -1741,7 +1748,7 @@
+@@ -1741,7 +1741,7 @@
  #: libmu_auth/sql.c:125 libmu_auth/sql.c:128 libmu_auth/sql.c:131
  #: mda/lib/mailquota.c:41
  msgid "query"
@@ -890,18 +883,16 @@
  
  #: libmu_auth/sql.c:127
  msgid "SQL query to use for getpwuid requests."
-@@ -1786,13 +1793,15 @@
+@@ -1786,13 +1786,13 @@
  "   <name: string>=<column: string>\n"
  "where <name> is one of the following: name, passwd, uid, gid, gecos, dir, shell, mailbox, quota, and <column> is the name of the corresponding SQL column."
  msgstr ""
 -"Ange en field-map för analys av SQL-svar.  Kartan är en lista med definitioner, som var och en har följande form:\n"
 -"  <namn: sträng>=<kolumn: sträng>\n"
 -"där <namn> är något av följande: name, passwd, uid, gid, gecos, dir, shell, mailbox, quota, och <kolumn> är namnet på motsvarande SQL-kolumn."
-+"Ange en field-map för tolkning av SQL-svar. Mappningen är en lista med "
-+"definitioner, som var och en har följande form:\n"
++"Ange en field-map för tolkning av SQL-svar. Mappningen är en lista med definitioner, som var och en har följande form:\n"
 +"   <name: string>=<column: string>\n"
-+"där <name> är något av följande: name, passwd, uid, gid, gecos, dir, shell, "
-+"mailbox, quota, och <column> är namnet på motsvarande SQL-kolumn."
++"där <name> är något av följande: name, passwd, uid, gid, gecos, dir, shell, mailbox, quota, och <column> är namnet på motsvarande SQL-kolumn."
  
  #: libmu_auth/sql.c:155
  msgid "Extra parameters for connection (backend-specific)"
@@ -910,7 +901,7 @@
  
  #: libmu_auth/sql.c:156 libmailutils/cfg/format.c:369
  #: libmailutils/cfg/format.c:376 libmailutils/cli/stdcapa.c:722
-@@ -1802,7 +1811,7 @@
+@@ -1802,7 +1802,7 @@
  #: libmu_auth/sql.c:228
  #, c-format
  msgid "cannot get SQL field '%s' (%s): %s"
@@ -919,7 +910,7 @@
  
  #: libmu_auth/sql.c:235
  #, c-format
-@@ -1828,7 +1837,7 @@
+@@ -1828,7 +1828,7 @@
  #: mda/lib/mailquota.c:236
  #, c-format
  msgid "SQL query failed: %s"
@@ -928,7 +919,7 @@
  
  #: libmu_auth/sql.c:419 libmu_auth/sql.c:514 libmu_auth/sql.c:601
  #: mda/lib/mailquota.c:247
-@@ -1839,7 +1848,7 @@
+@@ -1839,7 +1839,7 @@
  #: libmu_auth/sql.c:429 libmu_auth/sql.c:524 libmu_auth/sql.c:611
  #, c-format
  msgid "cannot get number of tuples: %s"
@@ -937,7 +928,7 @@
  
  #: libmu_auth/sql.c:628
  #, c-format
-@@ -1849,7 +1858,7 @@
+@@ -1849,7 +1849,7 @@
  #: libmu_auth/sql.c:638
  #, c-format
  msgid "SQL returned NULL password"
@@ -946,13 +937,12 @@
  
  #: libmu_auth/tlsconf.c:41 mda/lib/forward.c:38 libmailutils/cfg/parser.y:901
  #: movemail/movemail.c:265 pop3d/pop3d.c:113 mu/libexec/ldflags.c:172
-@@ -1910,11 +1919,12 @@
+@@ -1910,11 +1910,11 @@
  
  #: libmu_auth/tlsconf.c:118
  msgid "Set the priorities to use on the ciphers, key exchange methods, macs and compression methods."
 -msgstr "Ställ in vilka prioriteringar som ska användas för chiffer, nyckelutbytesmetoder, macar och komprimeringsmetoder."
-+msgstr "Ange prioriteringarna som ska användas för chiffer, nyckelutbytesmetoder, "
-+"MAC:ar och komprimeringsmetoder."
++msgstr "Ange prioriteringarna som ska användas för chiffer, nyckelutbytesmetoder, MAC:ar och komprimeringsmetoder."
  
  #: libmu_auth/tlsconf.c:123
  msgid "Timeout for handshake I/O operations (seconds)"
@@ -961,7 +951,7 @@
  
  #: libmu_auth/tlsconf.c:135
  msgid "Configure TLS"
-@@ -1922,17 +1932,17 @@
+@@ -1922,17 +1922,17 @@
  
  #: libmu_auth/tlsfdstr.c:857
  msgid "INTERNAL ERROR: cannot locate I/O stream"
@@ -982,7 +972,7 @@
  
  #: libmu_auth/virtual.c:63
  msgid "Name of the directory where virtual domain password files are located."
-@@ -1940,7 +1950,7 @@
+@@ -1940,7 +1940,7 @@
  
  #: libmu_auth/virtual.c:65
  msgid "dir"
@@ -991,7 +981,7 @@
  
  #: libmu_dbm/dbm.c:67
  #, c-format
-@@ -1955,12 +1965,12 @@
+@@ -1955,12 +1955,12 @@
  #: libmu_sieve/actions.c:69
  #, c-format
  msgid "marking as deleted"
@@ -1006,7 +996,7 @@
  
  #: libmu_sieve/actions.c:166
  #, c-format
-@@ -1985,7 +1995,7 @@
+@@ -1985,7 +1985,7 @@
  #: libmu_sieve/actions.c:213
  #, c-format
  msgid "cannot save to mailbox: %s"
@@ -1015,7 +1005,7 @@
  
  #: libmu_sieve/actions.c:419 libmu_sieve/extensions/vacation.c:710
  #, c-format
-@@ -2016,7 +2026,7 @@
+@@ -2016,7 +2016,7 @@
  #: libmu_sieve/actions.c:541
  #, c-format
  msgid "%lu: redirection loop detected"
@@ -1024,7 +1014,7 @@
  
  #: libmu_sieve/actions.c:550
  #, c-format
-@@ -2036,12 +2046,12 @@
+@@ -2036,12 +2036,12 @@
  #: libmu_sieve/comparator.c:102
  #, c-format
  msgid "regex error: %s"
@@ -1039,7 +1029,7 @@
  
  #: libmu_sieve/comparator.c:137
  #, c-format
-@@ -2051,7 +2061,7 @@
+@@ -2051,7 +2051,7 @@
  #: libmu_sieve/comparator.c:177
  #, c-format
  msgid "match type specified twice in call to '%s'"
@@ -1048,7 +1038,7 @@
  
  #. TRANSLATORS: Do not translate ':count'.
  #. It is the name of a Sieve tag
-@@ -2062,11 +2072,11 @@
+@@ -2062,11 +2062,11 @@
  
  #: libmu_sieve/comparator.c:239
  msgid ":count requires second argument to be a list of one element"
@@ -1062,7 +1052,7 @@
  
  #: libmu_sieve/comparator.c:263
  #, c-format
-@@ -2115,24 +2125,25 @@
+@@ -2115,24 +2115,24 @@
  
  #: libmu_sieve/conf.c:208
  msgid "Sieve options"
@@ -1088,12 +1078,11 @@
  #: libmu_sieve/conf.c:216
  msgid "add DIR to the beginning of the list of directories searched for library files"
 -msgstr "lägg till KAT i början av listan över kataloger som genomsöks efter biblioteksfiler"
-+msgstr "lägg till DIR i början av listan över kataloger som genomsöks efter "
-+"biblioteksfiler"
++msgstr "lägg till DIR i början av listan över kataloger som genomsöks efter biblioteksfiler"
  
  #: libmu_sieve/conf.c:220
  msgid "clear Sieve include path"
-@@ -2155,7 +2166,7 @@
+@@ -2155,7 +2155,7 @@
  #: libmu_sieve/mem.c:92
  #, c-format
  msgid "INTERNAL ERROR: trying to free unregistered memory pointer"
@@ -1102,7 +1091,7 @@
  
  #: libmu_sieve/mem.c:158
  #, c-format
-@@ -2170,7 +2181,7 @@
+@@ -2170,7 +2170,7 @@
  #: libmu_sieve/mem.c:221
  #, c-format
  msgid "requested too much memory %zu * %zu"
@@ -1111,7 +1100,7 @@
  
  # tagg?
  #: libmu_sieve/prog.c:156
-@@ -2226,7 +2237,7 @@
+@@ -2226,7 +2226,7 @@
  #: libmu_sieve/require.c:59
  #, c-format
  msgid "cannot require %s"
@@ -1120,7 +1109,7 @@
  
  #: libmu_sieve/sieve-gram.y:220
  #, c-format
-@@ -2236,7 +2247,7 @@
+@@ -2236,7 +2236,7 @@
  #: libmu_sieve/sieve-gram.y:227
  #, c-format
  msgid "test '%s' has not been required"
@@ -1129,7 +1118,7 @@
  
  #: libmu_sieve/sieve-gram.y:271
  #, c-format
-@@ -2246,7 +2257,7 @@
+@@ -2246,7 +2246,7 @@
  #: libmu_sieve/sieve-gram.y:278
  #, c-format
  msgid "action '%s' has not been required"
@@ -1138,7 +1127,7 @@
  
  #: libmu_sieve/sieve-gram.y:1350
  #, c-format
-@@ -2256,12 +2267,12 @@
+@@ -2256,12 +2256,12 @@
  #: libmu_sieve/sieve-gram.y:1575
  #, c-format
  msgid "Unoptimized parse tree"
@@ -1153,7 +1142,7 @@
  
  #: libmu_sieve/sieve-lex.l:156 libmu_sieve/sieve-lex.l:161
  #: mh/mh_alias_lex.l:110 mh/mh_alias_lex.l:116
-@@ -2272,20 +2283,20 @@
+@@ -2272,20 +2272,20 @@
  #: libmu_sieve/sieve-lex.l:165 mh/mh_alias_lex.l:119
  #, c-format
  msgid "%s already included here"
@@ -1178,7 +1167,7 @@
  
  #: libmu_sieve/sieve-lex.l:623
  #, c-format
-@@ -2304,12 +2315,12 @@
+@@ -2304,12 +2304,12 @@
  #: libmu_sieve/util.c:122
  #, c-format
  msgid "tag :%s has type %s, instead of expected %s"
@@ -1193,7 +1182,7 @@
  
  #: libmu_sieve/util.c:442
  #, c-format
-@@ -2329,11 +2340,11 @@
+@@ -2329,11 +2329,11 @@
  #: libmu_sieve/extensions/editheader.c:56
  #: libmu_sieve/extensions/editheader.c:106
  msgid "cannot get message header"
@@ -1207,7 +1196,7 @@
  
  #: libmu_sieve/extensions/editheader.c:213
  #, c-format
-@@ -2349,7 +2360,7 @@
+@@ -2349,7 +2349,7 @@
  #: sieve/sieve.c:548
  #, c-format
  msgid "cannot initialize sieve machine: %s"
@@ -1216,7 +1205,7 @@
  
  #: libmu_sieve/extensions/moderator.c:101
  #, c-format
-@@ -2364,12 +2375,12 @@
+@@ -2364,12 +2364,12 @@
  #: libmu_sieve/extensions/moderator.c:134
  #, c-format
  msgid "failed to run inferior sieve machine"
@@ -1231,7 +1220,7 @@
  
  #: libmu_sieve/extensions/moderator.c:204
  #, c-format
-@@ -2384,12 +2395,12 @@
+@@ -2384,12 +2384,12 @@
  #: libmu_sieve/extensions/moderator.c:230
  #, c-format
  msgid "cannot get message part #%lu: %s"
@@ -1246,7 +1235,7 @@
  
  #: libmu_sieve/extensions/moderator.c:258
  #, c-format
-@@ -2399,7 +2410,7 @@
+@@ -2399,7 +2399,7 @@
  #: libmu_sieve/extensions/moderator.c:264
  #, c-format
  msgid "no Content-Type header found"
@@ -1255,7 +1244,7 @@
  
  #: libmu_sieve/extensions/moderator.c:284
  #, c-format
-@@ -2414,7 +2425,7 @@
+@@ -2414,7 +2414,7 @@
  #: libmu_sieve/extensions/moderator.c:317
  #, c-format
  msgid "cannot get message part #3: %s"
@@ -1264,7 +1253,7 @@
  
  #: libmu_sieve/extensions/moderator.c:342
  #, c-format
-@@ -2428,24 +2439,24 @@
+@@ -2428,24 +2428,24 @@
  
  #: libmu_sieve/extensions/pipe.c:117
  msgid "cannot create command stream"
@@ -1294,7 +1283,7 @@
  
  #: libmu_sieve/extensions/pipe.c:157
  msgid "copying body failed"
-@@ -2453,7 +2464,7 @@
+@@ -2453,7 +2453,7 @@
  
  #: libmu_sieve/extensions/pipe.c:167
  msgid "error closing program stream"
@@ -1303,7 +1292,7 @@
  
  #: libmu_sieve/extensions/spamd.c:279
  #, c-format
-@@ -2473,7 +2484,7 @@
+@@ -2473,7 +2473,7 @@
  #: libmu_sieve/extensions/spamd.c:378
  #, c-format
  msgid "cannot get real message size: %s"
@@ -1312,7 +1301,7 @@
  
  #: libmu_sieve/extensions/spamd.c:443
  #, c-format
-@@ -2483,12 +2494,12 @@
+@@ -2483,12 +2483,12 @@
  #: libmu_sieve/extensions/spamd.c:454
  #, c-format
  msgid "spamd responded with bad Spam header '%s'"
@@ -1327,7 +1316,7 @@
  
  #: libmu_sieve/extensions/timestamp.c:68
  #, c-format
-@@ -2498,7 +2509,7 @@
+@@ -2498,7 +2498,7 @@
  #: libmu_sieve/extensions/uidnew.c:82
  #, c-format
  msgid "%s: cannot get pathname from url: %s"
@@ -1336,7 +1325,7 @@
  
  #: libmu_sieve/extensions/uidnew.c:91 mu/libexec/smtp.c:465
  #, c-format
-@@ -2508,22 +2519,22 @@
+@@ -2508,22 +2508,22 @@
  #: libmu_sieve/extensions/uidnew.c:102
  #, c-format
  msgid "cannot create temporary file stream: %s"
@@ -1363,7 +1352,7 @@
  
  #: libmu_sieve/extensions/uidnew.c:260
  #, c-format
-@@ -2533,37 +2544,37 @@
+@@ -2533,37 +2533,37 @@
  #: libmu_sieve/extensions/uidnew.c:267
  #, c-format
  msgid "cannot get mailbox url: %s"
@@ -1408,7 +1397,7 @@
  
  #: libmu_sieve/extensions/vacation.c:372
  #, c-format
-@@ -2578,12 +2589,12 @@
+@@ -2578,12 +2578,12 @@
  #: libmu_sieve/extensions/vacation.c:498
  #, c-format
  msgid "%lu: cannot compile reply prefix regexp: %s: %s"
@@ -1423,7 +1412,7 @@
  
  #: libmu_sieve/extensions/vacation.c:623
  #, c-format
-@@ -2598,7 +2609,7 @@
+@@ -2598,7 +2598,7 @@
  #: libmu_sieve/extensions/vacation.c:654
  #, c-format
  msgid "%lu: cannot create memory stream: %s"
@@ -1432,7 +1421,7 @@
  
  #: libmu_sieve/extensions/vacation.c:667
  #, c-format
-@@ -2612,15 +2623,15 @@
+@@ -2612,15 +2612,15 @@
  
  #: mda/mda/mda.c:26 mda/lmtpd/lmtpd.c:110
  msgid "General options"
@@ -1451,7 +1440,7 @@
  
  #: mda/mda/mda.c:73
  msgid "mda -- the GNU local mail delivery agent."
-@@ -2628,7 +2639,7 @@
+@@ -2628,7 +2628,7 @@
  
  #: mda/mda/mda.c:74
  msgid "[recipient...]"
@@ -1460,7 +1449,7 @@
  
  #: mda/mda/mda.c:83
  #, c-format
-@@ -2655,19 +2666,20 @@
+@@ -2655,19 +2655,19 @@
  "   file://<socket-file-name>\n"
  "or socket://<socket-file-name>"
  msgstr ""
@@ -1469,8 +1458,7 @@
 -"   file://<uttagets-filnamn>\n"
 -"eller socket://<uttagets-filnamn>"
 +"I LMTP-läge, lyssna på den angivna URL-adressen. Giltiga URL-adresser är:\n"
-+"   tcp://<address: string>:<port: number> (observera att port är "
-+"obligatorisk)\n"
++"   tcp://<address: string>:<port: number> (observera att port är obligatorisk)\n"
 +"   file://<socket-file-name>\n"
 +"eller uttag://<socket-file-name>"
  
@@ -1487,7 +1475,7 @@
  
  #: mda/lmtpd/lmtpd.c:143
  msgid "Add a message filter"
-@@ -2679,7 +2691,7 @@
+@@ -2679,7 +2679,7 @@
  
  #: mda/lmtpd/lmtpd.c:169
  msgid "GNU lmtpd -- local mail transfer protocol daemon."
@@ -1496,7 +1484,7 @@
  
  #: mda/lmtpd/lmtpd.c:568 mda/lib/deliver.c:84
  #, c-format
-@@ -2702,12 +2714,12 @@
+@@ -2702,12 +2702,12 @@
  
  #: mda/putmail/putmail.c:36
  msgid "[URL...]"
@@ -1511,7 +1499,7 @@
  
  #: mda/lib/deliver.c:39
  #, c-format
-@@ -2728,7 +2740,7 @@
+@@ -2728,7 +2728,7 @@
  
  #: mda/lib/deliver.c:57
  msgid "EMAIL"
@@ -1520,7 +1508,7 @@
  
  #: mda/lib/deliver.c:58
  msgid "specify the sender's name"
-@@ -2736,7 +2748,7 @@
+@@ -2736,7 +2736,7 @@
  
  #: mda/lib/deliver.c:98
  msgid "unexpected EOF on input"
@@ -1529,7 +1517,7 @@
  
  #: mda/lib/deliver.c:125
  msgid "cannot determine sender address"
-@@ -2750,22 +2762,23 @@
+@@ -2750,22 +2750,22 @@
  #: mda/lib/deliver.c:222
  #, c-format
  msgid "cannot get size of mailbox %s: %s"
@@ -1552,12 +1540,11 @@
  #, c-format
  msgid "%s: message would exceed maximum mailbox size for this recipient"
 -msgstr "%s: meddelande skulle överskrida maximal storlek för den här mottagarens brevlåda"
-+msgstr "%s: meddelandet skulle överskrida den högsta brevlådestorleken för den här "
-+"mottagaren"
++msgstr "%s: meddelandet skulle överskrida den högsta brevlådestorleken för den här mottagaren"
  
  #: mda/lib/deliver.c:276
  #, c-format
-@@ -2775,7 +2788,7 @@
+@@ -2775,7 +2775,7 @@
  #: mda/lib/deliver.c:285
  #, c-format
  msgid "error flushing mailbox %s: %s"
@@ -1566,7 +1553,7 @@
  
  #: mda/lib/deliver.c:323
  #, c-format
-@@ -2800,20 +2813,20 @@
+@@ -2800,20 +2800,20 @@
  #: mda/lib/deliver.c:422
  #, c-format
  msgid "%s: cannot create url: %s"
@@ -1591,7 +1578,7 @@
  
  #: mda/lib/forward.c:71 mda/lib/forward.c:137
  #, c-format
-@@ -2833,12 +2846,12 @@
+@@ -2833,12 +2833,12 @@
  #: mda/lib/forward.c:125
  #, c-format
  msgid "cannot get envelope: %s"
@@ -1606,7 +1593,7 @@
  
  #: mda/lib/forward.c:231
  #, c-format
-@@ -2848,12 +2861,12 @@
+@@ -2848,12 +2848,12 @@
  #: mda/lib/forward.c:256
  #, c-format
  msgid "skipping forward file %s: already processed"
@@ -1621,7 +1608,7 @@
  
  #: mda/lib/mailquota.c:36
  msgid "Name of DBM quota database file."
-@@ -2865,17 +2878,17 @@
+@@ -2865,17 +2865,17 @@
  
  #: mda/lib/mailquota.c:44
  msgid "Indicate temporary failure if the recipient is over his mail quota."
@@ -1642,7 +1629,7 @@
  
  #: mda/lib/mailquota.c:141
  #, c-format
-@@ -2897,7 +2910,7 @@
+@@ -2897,7 +2897,7 @@
  #: mda/lib/mailquota.c:266
  #, c-format
  msgid "cannot retrieve mailbox quota from SQL: %s"
@@ -1651,7 +1638,7 @@
  
  #: mda/lib/script.c:71 mh/inc.c:385 mh/inc.c:395
  #, c-format
-@@ -2921,7 +2934,7 @@
+@@ -2921,7 +2921,7 @@
  
  #: mda/lib/script.c:106
  msgid "Scripting options"
@@ -1660,7 +1647,7 @@
  
  #: mda/lib/script.c:107 mda/lib/script.c:113 mh/anno.c:39 mh/pick.c:135
  #: mh/pick.c:139 mh/pick.c:147 mh/pick.c:150 mh/pick.c:153 mh/pick.c:156
-@@ -2941,11 +2954,12 @@
+@@ -2941,11 +2941,11 @@
  
  #: mda/lib/script.c:111
  msgid "set name pattern for user-defined mail filter"
@@ -1670,12 +1657,11 @@
  #: mda/lib/script.c:114
  msgid "use this header to identify messages when logging Sieve actions"
 -msgstr "använd denna rubrik för att identifiera meddelanden vid loggning av Sieve-åtgärder"
-+msgstr "använd det här huvudet för att identifiera meddelanden vid loggning av "
-+"Sieve-åtgärder"
++msgstr "använd det här huvudet för att identifiera meddelanden vid loggning av Sieve-åtgärder"
  
  #: mda/lib/script.c:116 mh/inc.c:122 mimeview/mimeview.c:114 sieve/sieve.c:206
  msgid "FLAGS"
-@@ -2960,10 +2974,10 @@
+@@ -2960,10 +2960,10 @@
  "l - sieve action logs"
  msgstr ""
  "aktivera skriptfelsökning; FLAGGOR är:\n"
@@ -1690,7 +1676,7 @@
  
  #: mda/lib/script.c:134
  #, c-format
-@@ -2972,7 +2986,7 @@
+@@ -2972,7 +2972,7 @@
  
  #: mda/lib/script.c:178 mda/lib/script.c:301
  msgid "Set script language."
@@ -1699,7 +1685,7 @@
  
  #. TRANSLATORS: words to the right of : are keywords - do not translate
  #: mda/lib/script.c:180
-@@ -2981,7 +2995,7 @@
+@@ -2981,7 +2981,7 @@
  
  #: mda/lib/script.c:182 mda/lib/script.c:305
  msgid "Set script pattern."
@@ -1708,7 +1694,7 @@
  
  #: mda/lib/script.c:183 mda/lib/script.c:306
  msgid "arg: glob"
-@@ -2995,11 +3009,12 @@
+@@ -2995,11 +2995,11 @@
  "  i - sieve instructions trace (MU_SIEVE_DEBUG_INSTR)\n"
  "  l - sieve action logs\n"
  msgstr ""
@@ -1717,8 +1703,7 @@
 -"  t - sieve-spårning (MU_SIEVE_DEBUG_TRACE)\n"
 -"  i - spårning av sieve-instruktioner (MU_SIEVE_DEBUG_INSTR)\n"
 -"  l - loggar för sieve-åtgärder\n"
-+"Ange felsökningsnivå för skript. Argumentet är en eller flera av följande "
-+"bokstäver:\n"
++"Ange felsökningsnivå för skript. Argumentet är en eller flera av följande bokstäver:\n"
 +"  g – Guile-stackspår\n"
 +"  t – Sieve-spår (MU_SIEVE_DEBUG_TRACE)\n"
 +"  i – spår av Sieve-instruktioner (MU_SIEVE_DEBUG_INSTR)\n"
@@ -1726,13 +1711,12 @@
  
  #: mda/lib/script.c:191 libmailutils/cli/stdcapa.c:197
  #: libmailutils/cli/stdcapa.c:526 pop3d/pop3d.c:216 sieve/sieve.c:280
-@@ -3009,12 +3024,13 @@
+@@ -3009,12 +3009,12 @@
  
  #: mda/lib/script.c:193
  msgid "When logging Sieve actions, identify messages by the value of this header."
 -msgstr "Vid loggning av Sieve-åtgärder identifieras meddelanden med hjälp av värdet för denna rubrik."
-+msgstr "Vid loggning av Sieve-åtgärder identifieras meddelanden med värdet i det här "
-+"huvudet."
++msgstr "Vid loggning av Sieve-åtgärder identifieras meddelanden med värdet i det här huvudet."
  
  #: mda/lib/script.c:228
  #, c-format
@@ -1742,7 +1726,7 @@
  
  #: mda/lib/script.c:237
  #, c-format
-@@ -3059,7 +3075,7 @@
+@@ -3059,7 +3059,7 @@
  #: mail/copy.c:78 mail/copy.c:197 mail/send.c:1465
  #, c-format
  msgid "Cannot append message: %s"
@@ -1751,7 +1735,7 @@
  
  #: mail/copy.c:127
  #, c-format
-@@ -3074,17 +3090,17 @@
+@@ -3074,17 +3074,17 @@
  #: mail/copy.c:162
  #, c-format
  msgid "Cannot get envelope: %s"
@@ -1772,7 +1756,7 @@
  
  #: mail/copy.c:183
  #, c-format
-@@ -3128,17 +3144,17 @@
+@@ -3128,17 +3128,17 @@
  #: mail/echo.c:61
  #, c-format
  msgid "error writing to temporary stream: %s"
@@ -1793,7 +1777,7 @@
  
  #: mail/envelope.c:34
  #, c-format
-@@ -3200,7 +3216,7 @@
+@@ -3200,7 +3200,7 @@
  
  #: mail/escape.c:483
  msgid "Message contains:\n"
@@ -1802,7 +1786,7 @@
  
  #: mail/escape.c:613
  #, c-format
-@@ -3210,11 +3226,11 @@
+@@ -3210,11 +3210,11 @@
  #: mail/escape.c:635
  #, c-format
  msgid "Child terminated abnormally: %d"
@@ -1816,7 +1800,7 @@
  
  #: mail/file.c:39
  #, c-format
-@@ -3224,7 +3240,7 @@
+@@ -3224,7 +3224,7 @@
  #: mail/file.c:65
  #, c-format
  msgid "MBOX environment variable not set"
@@ -1825,7 +1809,7 @@
  
  #: mail/file.c:74
  #, c-format
-@@ -3244,7 +3260,7 @@
+@@ -3244,7 +3244,7 @@
  #: mail/if.c:54 mail/mailvar.c:560 libmailutils/base/alloc.c:34
  #, c-format
  msgid "Not enough memory"
@@ -1834,7 +1818,7 @@
  
  # Denna är en luring..
  #: mail/if.c:65
-@@ -3297,7 +3313,7 @@
+@@ -3297,7 +3297,7 @@
  #: mail/mail.c:174
  #, c-format
  msgid "%s: bad descriptor"
@@ -1843,7 +1827,7 @@
  
  #: mail/mail.c:196
  msgid "return true if mail exists"
-@@ -3309,7 +3325,7 @@
+@@ -3309,7 +3309,7 @@
  
  #: mail/mail.c:204
  msgid "write a header summary and exit"
@@ -1852,7 +1836,7 @@
  
  #: mail/mail.c:208
  msgid "ignore interrupts"
-@@ -3321,15 +3337,15 @@
+@@ -3321,15 +3321,15 @@
  
  #: mail/mail.c:216
  msgid "do not display initial header summary"
@@ -1871,7 +1855,7 @@
  
  # Fel engelska??
  #: mail/mail.c:229
-@@ -3346,7 +3362,7 @@
+@@ -3346,7 +3346,7 @@
  
  #: mail/mail.c:237
  msgid "read recipients from the message header"
@@ -1880,7 +1864,7 @@
  
  #: mail/mail.c:240 mu/libexec/dbm.c:1723
  msgid "USER"
-@@ -3354,23 +3370,23 @@
+@@ -3354,23 +3354,23 @@
  
  #: mail/mail.c:241
  msgid "operate on USER's mailbox"
@@ -1909,7 +1893,7 @@
  
  #: mail/mail.c:256
  msgid "COMMAND"
-@@ -3378,11 +3394,11 @@
+@@ -3378,11 +3378,11 @@
  
  #: mail/mail.c:257
  msgid "execute COMMAND"
@@ -1923,7 +1907,7 @@
  
  #: mail/mail.c:264 mu/libexec/dbm.c:1741
  msgid "TYPE"
-@@ -3390,17 +3406,17 @@
+@@ -3390,17 +3390,17 @@
  
  #: mail/mail.c:265
  msgid "set content type for subsequent --attach options"
@@ -1944,7 +1928,7 @@
  
  #: mail/mail.c:278
  msgid "attach FILE"
-@@ -3412,7 +3428,7 @@
+@@ -3412,7 +3412,7 @@
  
  #: mail/mail.c:282
  msgid "attach from file descriptor FD"
@@ -1953,7 +1937,7 @@
  
  #: mail/mail.c:286
  msgid "compose MIME messages"
-@@ -3420,15 +3436,15 @@
+@@ -3420,15 +3420,15 @@
  
  #: mail/mail.c:293
  msgid "[OPTION...] [file]"
@@ -1972,15 +1956,14 @@
  
  #. TRANSLATORS: "mail" is the name of the program. Don't translate it.
  #: mail/mail.c:303
-@@ -3436,12 +3452,13 @@
+@@ -3436,12 +3436,12 @@
  "GNU mail -- process mail messages.\n"
  "If -f or --file is given, mail operates on the mailbox named by the first argument, or the user's mbox, if no argument given."
  msgstr ""
 -"GNU mail -- behandla postmeddelanden.\n"
 -"Om -f eller --file anges så arbetar mail på den brevlåda som namngetts av första argumentet, eller användarens mbox, om inget argument angetts."
 +"GNU mail – behandla e-postmeddelanden.\n"
-+"Om -f eller --file anges arbetar mail med brevlådan som namnges av det första "
-+"argumentet, eller användarens mbox, om inget argument anges."
++"Om -f eller --file anges arbetar mail med brevlådan som namnges av det första argumentet, eller användarens mbox, om inget argument anges."
  
  #: mail/mail.c:306
  msgid "[address...]"
@@ -1989,7 +1972,7 @@
  
  #: mail/mail.c:342
  #, c-format
-@@ -3451,11 +3468,11 @@
+@@ -3451,11 +3451,11 @@
  #: mail/mail.c:348
  #, c-format
  msgid "Use \"quit\" to quit."
@@ -2003,7 +1986,7 @@
  
  #: mail/mail.c:501
  #, c-format
-@@ -3475,7 +3492,7 @@
+@@ -3475,7 +3475,7 @@
  #: mail/mail.c:625
  #, c-format
  msgid "mailbox opened read-only"
@@ -2012,7 +1995,7 @@
  
  #: mail/mail.c:646
  #, c-format
-@@ -3496,7 +3513,7 @@
+@@ -3496,7 +3496,7 @@
  #: mail/mailline.c:1253
  #, c-format
  msgid "Not enough memory to edit the line"
@@ -2021,7 +2004,7 @@
  
  #. TRANSLATORS: "mbox" is the name of a command. Don't translate it.
  #: mail/mailvar.c:80
-@@ -3510,15 +3527,15 @@
+@@ -3510,15 +3510,15 @@
  
  #: mail/mailvar.c:87
  msgid "prompt user for bcc before composing the message"
@@ -2040,7 +2023,7 @@
  
  #: mail/mailvar.c:97
  msgid "automatically incorporate newly arrived messages"
-@@ -3535,12 +3552,12 @@
+@@ -3535,12 +3535,12 @@
  
  #: mail/mailvar.c:108
  msgid "output character set for decoded header fields"
@@ -2055,14 +2038,12 @@
  
  #: mail/mailvar.c:115
  msgid "number of columns on terminal screen"
-@@ -3548,15 +3565,17 @@
+@@ -3548,15 +3548,15 @@
  
  #: mail/mailvar.c:120
  msgid "if numeric, sets the minimum number of output lines needed to engage paging; if boolean, use the height of the terminal screen to compute the threshold"
 -msgstr "om numerisk, ställer in det minsta antal utdatarader som krävs för att aktivera paging; om boolesk, använder terminalskärmens höjd för att beräkna tröskelvärdet"
-+msgstr "om värdet är numeriskt anges minsta antalet utdatarader som krävs för att "
-+"aktivera sidindelning; om värdet är booleskt används terminalskärmens höjd "
-+"för att beräkna tröskelvärdet"
++msgstr "om värdet är numeriskt anges minsta antalet utdatarader som krävs för att aktivera sidindelning; om värdet är booleskt används terminalskärmens höjd för att beräkna tröskelvärdet"
  
  #: mail/mailvar.c:125
  msgid "get date from the 'Date:' header, instead of the envelope"
@@ -2076,7 +2057,7 @@
  
  #: mail/mailvar.c:133
  msgid "how to represent characters that cannot be rendered using the current character set"
-@@ -3584,11 +3603,11 @@
+@@ -3584,11 +3584,11 @@
  
  #: mail/mailvar.c:154
  msgid "folder directory name"
@@ -2090,7 +2071,7 @@
  
  #: mail/mailvar.c:162
  msgid "last executed command line"
-@@ -3600,7 +3619,7 @@
+@@ -3600,7 +3600,7 @@
  
  #: mail/mailvar.c:168
  msgid "format string to use for the header summary"
@@ -2099,17 +2080,16 @@
  
  #: mail/mailvar.c:172
  msgid "hold the read or saved messages in the system mailbox"
-@@ -3616,7 +3635,8 @@
+@@ -3616,7 +3616,7 @@
  
  #: mail/mailvar.c:181
  msgid "string used by the ~m escape for indenting quoted messages"
 -msgstr "sträng som används av ~m escape för indragning av citerade meddelanden"
-+msgstr "sträng som används av escape-sekvensen ~m för indragning av citerade "
-+"meddelanden"
++msgstr "sträng som används av escape-sekvensen ~m för indragning av citerade meddelanden"
  
  #: mail/mailvar.c:184
  msgid "expand aliases in the address header field before starting composing the message"
-@@ -3624,7 +3644,7 @@
+@@ -3624,7 +3624,7 @@
  
  #: mail/mailvar.c:190
  msgid "keep the empty user's system mailbox, instead of removing it"
@@ -2118,7 +2098,7 @@
  
  #: mail/mailvar.c:194
  msgid "keep saved messages in system mailbox too"
-@@ -3656,23 +3676,25 @@
+@@ -3656,23 +3656,23 @@
  
  #: mail/mailvar.c:217
  msgid "display this text when sending a message with empty body"
@@ -2132,9 +2112,7 @@
  msgstr ""
 -"Om boolean, gör att de filer som används för att spela in utgående meddelanden placeras i den katalog som anges av mappvariabeln (om inte sökvägen är absolut).\n"
 -"Om string, namnges den katalog där filerna ska lagras."
-+"Om värdet är booleskt placeras filerna som används för att registrera "
-+"utgående meddelanden i katalogen som anges av variabeln folder (om inte "
-+"sökvägen är absolut).\n"
++"Om värdet är booleskt placeras filerna som används för att registrera utgående meddelanden i katalogen som anges av variabeln folder (om inte sökvägen är absolut).\n"
 +"Om värdet är en sträng anges katalogen där filerna ska lagras."
  
  #: mail/mailvar.c:227
@@ -2149,7 +2127,7 @@
  
  # Fel engelska??
  #: mail/mailvar.c:233
-@@ -3681,7 +3703,7 @@
+@@ -3681,7 +3681,7 @@
  
  #: mail/mailvar.c:236
  msgid "read the system-wide configuration file upon startup"
@@ -2158,7 +2136,7 @@
  
  #: mail/mailvar.c:239
  msgid "mailboxes are opened in readonly mode"
-@@ -3697,7 +3719,7 @@
+@@ -3697,7 +3697,7 @@
  
  #: mail/mailvar.c:248
  msgid "use of regular expressions in search message specifications"
@@ -2167,7 +2145,7 @@
  
  #: mail/mailvar.c:251
  msgid "prefix for the subject line of a reply message"
-@@ -3705,7 +3727,7 @@
+@@ -3705,7 +3705,7 @@
  
  #: mail/mailvar.c:254
  msgid "regexp for recognizing subject lines of reply messages"
@@ -2176,7 +2154,7 @@
  
  #: mail/mailvar.c:258
  msgid "return address for outgoing messages"
-@@ -3733,11 +3755,12 @@
+@@ -3733,11 +3733,11 @@
  
  #: mail/mailvar.c:281
  msgid "'print' command includes the SMTP envelope in its output"
@@ -2186,12 +2164,11 @@
  #: mail/mailvar.c:284
  msgid "if the message was sent by me, print its recipient address in the header summary"
 -msgstr "om meddelandet skickades av mig, skriv ut mottagarens adress i rubriksammandraget"
-+msgstr "om meddelandet skickades av mig, skriv ut mottagarens adress i "
-+"sammanfattningen av huvuden"
++msgstr "om meddelandet skickades av mig, skriv ut mottagarens adress i sammanfattningen av huvuden"
  
  #: mail/mailvar.c:288
  msgid "number of lines to be displayed by 'top' or 'Top'"
-@@ -3757,7 +3780,7 @@
+@@ -3757,7 +3757,7 @@
  
  #: mail/mailvar.c:304
  msgid "add the 'User-Agent' header to the outgoing messages"
@@ -2200,7 +2177,7 @@
  
  #: mail/mailvar.c:309
  msgid "always compose MIME messages"
-@@ -3769,7 +3792,7 @@
+@@ -3769,7 +3769,7 @@
  
  #: mail/mailvar.c:317
  msgid "how to create outgoing file name: local, domain, email"
@@ -2209,7 +2186,7 @@
  
  #: mail/mailvar.c:322
  msgid "PID of this process"
-@@ -3782,7 +3805,7 @@
+@@ -3782,7 +3782,7 @@
  #: mail/mailvar.c:491
  #, c-format
  msgid "No value set for \"%s\""
@@ -2218,7 +2195,7 @@
  
  #: mail/mailvar.c:603
  #, c-format
-@@ -3817,7 +3840,7 @@
+@@ -3817,7 +3817,7 @@
  #: mail/mailvar.c:855
  #, c-format
  msgid "escape character cannot be empty"
@@ -2227,7 +2204,7 @@
  
  #: mail/mailvar.c:860
  #, c-format
-@@ -3835,7 +3858,7 @@
+@@ -3835,7 +3835,7 @@
  
  #: mail/mailvar.c:1152
  msgid "untyped"
@@ -2236,7 +2213,7 @@
  
  #: mail/mailvar.c:1153
  msgid "numeric"
-@@ -3894,7 +3917,7 @@
+@@ -3894,7 +3894,7 @@
  #: mail/msgset.y:222
  #, c-format
  msgid "No messages satisfy :%c"
@@ -2245,7 +2222,7 @@
  
  #: mail/msgset.y:231
  #, c-format
-@@ -3921,19 +3944,19 @@
+@@ -3921,19 +3921,19 @@
  #: mail/msgset.y:995 mail/util.c:209
  #, c-format
  msgid "%lu: Inappropriate message (has been deleted)"
@@ -2269,7 +2246,7 @@
  
  #: mail/quit.c:195
  #, c-format
-@@ -3958,7 +3981,7 @@
+@@ -3958,7 +3958,7 @@
  # Synonym/bättre förslag på unfolded önskas
  #: mail/retain.c:79 mail/retain.c:91
  msgid "No fields are currently being unfolded\n"
@@ -2278,7 +2255,7 @@
  
  #: mail/retain.c:118 mail/retain.c:128
  msgid "Sender address is obtained from the envelope\n"
-@@ -3967,12 +3990,12 @@
+@@ -3967,12 +3967,12 @@
  #: mail/send.c:72
  #, c-format
  msgid "Cannot create header list: %s"
@@ -2293,7 +2270,7 @@
  
  #: mail/send.c:266
  #, c-format
-@@ -3996,12 +4019,12 @@
+@@ -3996,12 +3996,12 @@
  #: mail/send.c:449
  #, c-format
  msgid "not a valid number: %s"
@@ -2308,7 +2285,7 @@
  
  #: mail/send.c:474
  #, c-format
-@@ -4016,11 +4039,11 @@
+@@ -4016,11 +4016,11 @@
  #: mail/send.c:646
  #, c-format
  msgid "%s: not setting header"
@@ -2322,7 +2299,7 @@
  
  #: mail/send.c:735
  msgid "No recipients specified"
-@@ -4029,12 +4052,12 @@
+@@ -4029,12 +4029,12 @@
  #: mail/send.c:790 mail/send.c:929
  #, c-format
  msgid "Cannot create header: %s"
@@ -2337,7 +2314,7 @@
  
  #: mail/send.c:910 mail/util.c:997 mail/util.c:1065
  #, c-format
-@@ -4044,7 +4067,7 @@
+@@ -4044,7 +4044,7 @@
  #: mail/send.c:1030
  #, c-format
  msgid "cannot copy temporary stream: %s"
@@ -2346,7 +2323,7 @@
  
  #: mail/send.c:1192
  #, c-format
-@@ -4064,7 +4087,7 @@
+@@ -4064,7 +4064,7 @@
  #: mail/send.c:1223
  #, c-format
  msgid "Variable sendmail not set: no mailer"
@@ -2355,7 +2332,7 @@
  
  #: mail/send.c:1308
  #, c-format
-@@ -4073,17 +4096,17 @@
+@@ -4073,17 +4073,17 @@
  "(Interrupt -- one more to kill letter)"
  msgstr ""
  "\n"
@@ -2376,7 +2353,7 @@
  
  #: mail/send.c:1358
  #, c-format
-@@ -4103,7 +4126,7 @@
+@@ -4103,7 +4103,7 @@
  #: mail/send.c:1534
  #, c-format
  msgid "Cannot pipe to %s: %s"
@@ -2385,7 +2362,7 @@
  
  #: mail/send.c:1550
  #, c-format
-@@ -4168,7 +4191,7 @@
+@@ -4168,7 +4168,7 @@
  #: mail/util.c:451
  #, c-format
  msgid "Cannot get homedir"
@@ -2394,7 +2371,7 @@
  
  #: mail/util.c:494 mail/util.c:553
  #, c-format
-@@ -4183,7 +4206,7 @@
+@@ -4183,7 +4183,7 @@
  #: mail/util.c:837
  #, c-format
  msgid "Cannot unencapsulate message/part"
@@ -2403,7 +2380,7 @@
  
  #: mail/util.c:846
  #, c-format
-@@ -4193,12 +4216,12 @@
+@@ -4193,12 +4193,12 @@
  #: mail/util.c:853
  #, c-format
  msgid "Cannot get (sub)part from the message: %lu"
@@ -2418,7 +2395,7 @@
  
  #: mail/util.c:1109 mail/util.c:1128
  #, c-format
-@@ -4229,7 +4252,7 @@
+@@ -4229,7 +4229,7 @@
  #. name of the variable. Don't translate it.
  #: mail/util.c:1327
  msgid "folder must be set to a local folder"
@@ -2427,7 +2404,7 @@
  
  #: mail/write.c:105
  #, c-format
-@@ -4239,17 +4262,17 @@
+@@ -4239,17 +4239,17 @@
  #: mail/z.c:63
  #, c-format
  msgid "Bad arguments for the scrolling command"
@@ -2448,7 +2425,7 @@
  
  #: mail/z.c:92
  #, c-format
-@@ -4258,11 +4281,11 @@
+@@ -4258,11 +4258,11 @@
  
  #: mail/z.c:122
  msgid "On first screenful of messages\n"
@@ -2462,17 +2439,16 @@
  
  #: libmailutils/auth/mu_auth.c:368
  #, c-format
-@@ -4323,7 +4346,8 @@
+@@ -4323,7 +4323,7 @@
  #: libmailutils/base/copyfile.c:212
  #, c-format
  msgid "cannot change file mode and ownership after copying %s to %s; cannot get file handle: %s"
 -msgstr "kan inte ändra filläge och ägarskap efter kopiering av %s till %s; kan inte få filhandtag: %s"
-+msgstr "kan inte ändra filläge och ägarskap efter kopiering av %s till %s; kan inte "
-+"hämta filhandtag: %s"
++msgstr "kan inte ändra filläge och ägarskap efter kopiering av %s till %s; kan inte hämta filhandtag: %s"
  
  #: libmailutils/base/copyfile.c:237
  #, c-format
-@@ -4343,7 +4367,7 @@
+@@ -4343,7 +4343,7 @@
  #: libmailutils/base/onexit.c:65
  #, c-format
  msgid "cannot obtain current item while traversing the onexit action list: %s"
@@ -2481,7 +2457,7 @@
  
  #: libmailutils/base/opool.c:523
  #, c-format
-@@ -4353,17 +4377,17 @@
+@@ -4353,17 +4353,17 @@
  #: libmailutils/base/pidfile.c:178
  #, c-format
  msgid "cannot remove pidfile %s: %s"
@@ -2502,7 +2478,7 @@
  
  #: libmailutils/base/removefile.c:261 mh/rmf.c:91
  #, c-format
-@@ -4413,7 +4437,7 @@
+@@ -4413,7 +4413,7 @@
  #: libmailutils/base/userprivs.c:113
  #, c-format
  msgid "Cannot set effective gid to %lu"
@@ -2511,7 +2487,7 @@
  
  #: libmailutils/base/userprivs.c:133
  #, c-format
-@@ -4433,7 +4457,7 @@
+@@ -4433,7 +4433,7 @@
  #: libmailutils/base/userprivs.c:156
  #, c-format
  msgid "seteuid(0) succeeded when it should not"
@@ -2520,7 +2496,7 @@
  
  #: libmailutils/base/userprivs.c:161
  #, c-format
-@@ -4442,7 +4466,7 @@
+@@ -4442,7 +4442,7 @@
  
  #: libmailutils/base/version.c:35
  msgid "Version of this package"
@@ -2529,7 +2505,7 @@
  
  #: libmailutils/base/version.c:36
  msgid "System configuration directory"
-@@ -4450,7 +4474,7 @@
+@@ -4450,7 +4450,7 @@
  
  #: libmailutils/base/version.c:37
  msgid "Default mail spool directory"
@@ -2538,7 +2514,7 @@
  
  #: libmailutils/base/version.c:38
  msgid "Default mailbox type"
-@@ -4470,7 +4494,7 @@
+@@ -4470,7 +4470,7 @@
  
  #: libmailutils/base/version.c:47
  msgid "a portable 'dlopen' wrapper library"
@@ -2547,7 +2523,7 @@
  
  #: libmailutils/base/version.c:50
  msgid "Berkeley DB v. 2"
-@@ -4494,7 +4518,7 @@
+@@ -4494,7 +4494,7 @@
  
  #: libmailutils/base/version.c:68
  msgid "TLS support using GNU TLS"
@@ -2556,7 +2532,7 @@
  
  #: libmailutils/base/version.c:71
  msgid "SASL support using GNU SASL"
-@@ -4534,7 +4558,7 @@
+@@ -4534,7 +4534,7 @@
  
  #: libmailutils/base/version.c:101
  msgid "Support for TCP wrappers"
@@ -2565,7 +2541,7 @@
  
  #: libmailutils/base/version.c:104
  msgid "Support for virtual mail domains"
-@@ -4566,16 +4590,16 @@
+@@ -4566,16 +4566,16 @@
  
  #: libmailutils/base/version.c:125
  msgid "RADIUS protocol support"
@@ -2585,17 +2561,16 @@
  
  #: libmailutils/cfg/driver.c:568
  #, c-format
-@@ -4589,7 +4613,8 @@
+@@ -4589,7 +4589,7 @@
  
  #: libmailutils/cfg/driver.c:702
  msgid "using string value for field-map is deprecated; use string list instead"
 -msgstr "användning av strängvärde för field-map är föråldrat; använd stränglista istället"
-+msgstr "användning av strängvärde för field-map är föråldrad; använd stränglista i "
-+"stället"
++msgstr "användning av strängvärde för field-map är föråldrad; använd stränglista i stället"
  
  #: libmailutils/cfg/format.c:164
  #, c-format
-@@ -4598,7 +4623,7 @@
+@@ -4598,7 +4598,7 @@
  
  #: libmailutils/cfg/format.c:281 libmailutils/server/msrv.c:999
  msgid "number"
@@ -2604,7 +2579,7 @@
  
  #: libmailutils/cfg/format.c:283
  msgid "time"
-@@ -4643,7 +4668,7 @@
+@@ -4643,7 +4643,7 @@
  #: libmailutils/cfg/lexer.l:197
  #, c-format
  msgid "unknown escape sequence '\\%c'"
@@ -2613,7 +2588,7 @@
  
  #: libmailutils/cfg/lexer.l:352
  #, c-format
-@@ -4674,7 +4699,7 @@
+@@ -4674,7 +4674,7 @@
  #: libmailutils/cfg/lexer.l:395
  #, c-format
  msgid "finished parsing file %s"
@@ -2622,17 +2597,16 @@
  
  #: libmailutils/cfg/parser.y:126
  #, c-format
-@@ -4683,7 +4708,8 @@
+@@ -4683,7 +4683,7 @@
  
  #: libmailutils/cfg/parser.y:520
  msgid "ignoring 'include': directory argument is allowed only in the top-level configuration file"
 -msgstr "ignorerar \"include\": katalogargument är endast tillåtet i konfigurationsfilen på högsta nivån"
-+msgstr "ignorerar `include`: katalogargument är endast tillåtet i konfigurationsfilen "
-+"på toppnivå"
++msgstr "ignorerar `include`: katalogargument är endast tillåtet i konfigurationsfilen på toppnivå"
  
  #: libmailutils/cfg/parser.y:539
  msgid "include file or directory does not exist"
-@@ -4692,25 +4718,25 @@
+@@ -4692,25 +4692,25 @@
  #: libmailutils/cfg/parser.y:545
  #, c-format
  msgid "cannot stat include file or directory: %s"
@@ -2663,7 +2637,7 @@
  
  #: libmailutils/cfg/parser.y:870
  #, c-format
-@@ -4725,12 +4751,12 @@
+@@ -4725,12 +4725,12 @@
  
  #: libmailutils/cfg/parser.y:946
  msgid "expected list, but found array"
@@ -2678,7 +2652,7 @@
  
  #: libmailutils/cfg/parser.y:995
  #, c-format
-@@ -4746,7 +4772,7 @@
+@@ -4746,7 +4746,7 @@
  #: mu/libexec/send.c:93 mu/libexec/wicket.c:113
  #, c-format
  msgid "not enough arguments"
@@ -2687,7 +2661,7 @@
  
  #: libmailutils/cli/acl.c:84
  #, c-format
-@@ -4756,14 +4782,14 @@
+@@ -4756,14 +4756,14 @@
  #: libmailutils/cli/acl.c:126
  #, c-format
  msgid "junk after IP address"
@@ -2704,7 +2678,7 @@
  
  #. TRANSLATORS: Don't translate 'from'.
  #: libmailutils/cli/acl.c:213
-@@ -4840,11 +4866,11 @@
+@@ -4840,11 +4840,11 @@
  #: libmailutils/cli/cli.c:199
  #, c-format
  msgid "%s: bad number"
@@ -2718,7 +2692,7 @@
  
  #: libmailutils/cli/cli.c:212
  msgid "wait this number of seconds before startup"
-@@ -4852,11 +4878,11 @@
+@@ -4852,11 +4852,11 @@
  
  #: libmailutils/cli/cli.c:223
  msgid "Configuration handling"
@@ -2732,7 +2706,7 @@
  
  #: libmailutils/cli/cli.c:236
  msgid "do not load user configuration file"
-@@ -4868,11 +4894,11 @@
+@@ -4868,11 +4868,11 @@
  
  #: libmailutils/cli/cli.c:262
  msgid "verbosely log parsing of the configuration files"
@@ -2746,7 +2720,7 @@
  
  #: libmailutils/cli/cli.c:272
  msgid "load this configuration file; implies --no-config"
-@@ -4884,11 +4910,13 @@
+@@ -4884,11 +4884,11 @@
  
  #: libmailutils/cli/cli.c:275
  msgid "set configuration parameter"
@@ -2756,13 +2730,11 @@
  #: libmailutils/cli/cli.c:300
  msgid "Include contents of the given file.  If a directory is given, include contents of the file <file>/<program>, where <program> is the name of the program.  This latter form is allowed only in the site-wide configuration file."
 -msgstr "Inkludera innehållet i den angivna filen.  Om en katalog anges, inkludera innehållet i filen <fil>/<program>, där <program> är namnet på programmet.  Den senare formen är endast tillåten i globala konfigurationsfilen."
-+msgstr "Inkludera innehållet i den angivna filen. Om en katalog anges, inkludera "
-+"innehållet i filen <file>/<program>, där <program> är programmets namn. Den "
-+"senare formen är endast tillåten i den systemomfattande konfigurationsfilen."
++msgstr "Inkludera innehållet i den angivna filen. Om en katalog anges, inkludera innehållet i filen <file>/<program>, där <program> är programmets namn. Den senare formen är endast tillåten i den systemomfattande konfigurationsfilen."
  
  #: libmailutils/cli/cli.c:304
  msgid "file-or-directory"
-@@ -4897,29 +4925,30 @@
+@@ -4897,29 +4897,29 @@
  #: libmailutils/cli/cli.c:311
  #, c-format
  msgid "Configuration file structure for %s utility."
@@ -2773,8 +2745,7 @@
  #, c-format
  msgid "For use in global configuration file (%s), enclose it in 'program %s { ... };'"
 -msgstr "För användning i den globala konfigurationsfilen (%s), lägg till den i \"program %s { … };\""
-+msgstr "För användning i den systemomfattande konfigurationsfilen (%s), omslut den "
-+"med `program %s { ... };`"
++msgstr "För användning i den systemomfattande konfigurationsfilen (%s), omslut den med `program %s { ... };`"
  
  #: libmailutils/cli/cli.c:325
  #, c-format
@@ -2799,7 +2770,7 @@
  
  #: libmailutils/cli/cli.c:679
  msgid "unexpected arguments"
-@@ -4933,7 +4962,7 @@
+@@ -4933,7 +4933,7 @@
  #: libmailutils/cli/stdcapa.c:45 libmailutils/cli/stdcapa.c:57
  #, c-format
  msgid "unknown syslog facility: %s"
@@ -2808,18 +2779,16 @@
  
  #: libmailutils/cli/stdcapa.c:73 mu/libexec/logger.c:81
  #, c-format
-@@ -4959,7 +4988,9 @@
+@@ -4959,7 +4959,7 @@
  
  #: libmailutils/cli/stdcapa.c:91
  msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
 -msgstr "Ställ in syslog-facilitet. Arg är något av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt) eller ett facilitetsnummer."
-+msgstr "Ange syslogfacilitet. Argumentet är något av följande: user, daemon, auth, "
-+"authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt) eller ett "
-+"facilitetsnummer."
++msgstr "Ange syslogfacilitet. Argumentet är något av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt) eller ett facilitetsnummer."
  
  #. TRANSLATORS: Translate only arg: and <number>, rest are keywords
  #: libmailutils/cli/stdcapa.c:95
-@@ -4972,7 +5003,7 @@
+@@ -4972,7 +4972,7 @@
  
  #: libmailutils/cli/stdcapa.c:99
  msgid "Tag syslog messages with this string."
@@ -2828,7 +2797,7 @@
  
  #: libmailutils/cli/stdcapa.c:104
  msgid "FACILITY"
-@@ -4980,7 +5011,7 @@
+@@ -4980,7 +4980,7 @@
  
  #: libmailutils/cli/stdcapa.c:105
  msgid "output logs to syslog FACILITY"
@@ -2837,7 +2806,7 @@
  
  #: libmailutils/cli/stdcapa.c:126
  #, c-format
-@@ -4989,11 +5020,11 @@
+@@ -4989,11 +4989,11 @@
  
  #: libmailutils/cli/stdcapa.c:131
  msgid "MAILER"
@@ -2851,7 +2820,7 @@
  
  #: libmailutils/cli/stdcapa.c:146
  #, c-format
-@@ -5002,7 +5033,7 @@
+@@ -5002,7 +5002,7 @@
  
  #: libmailutils/cli/stdcapa.c:153
  msgid "Use this URL as the default mailer"
@@ -2860,7 +2829,7 @@
  
  #: libmailutils/cli/stdcapa.c:171
  msgid "Global debugging settings"
-@@ -5014,7 +5045,7 @@
+@@ -5014,7 +5014,7 @@
  
  #: libmailutils/cli/stdcapa.c:173
  msgid "set Mailutils debugging level"
@@ -2869,7 +2838,7 @@
  
  #: libmailutils/cli/stdcapa.c:176
  msgid "show source info with debugging messages"
-@@ -5027,14 +5058,15 @@
+@@ -5027,14 +5027,14 @@
  "For details, please see the section 3.3 \"Debugging\" of the GNU Mailutils\n"
  "manual, or visit <http://mailutils.org/wiki/Debug_level>."
  msgstr ""
@@ -2877,8 +2846,7 @@
 -"   [!]<kategori: sträng>[.<nivå: sträng>,<nivå: sträng>…]\n"
 -"För mer information, se avsnitt 3.3 \"Felsökning\" i GNU Mailutils\n"
 -"manualen, eller besök <http://mailutils.org/wiki/Debug_level>."
-+"Ange Mailutils felsökningsnivå. Argumentet är en semikolonseparerad lista med "
-+"felsökningsspecifikationer. En förenklad syntax för specifikationerna är:\n"
++"Ange Mailutils felsökningsnivå. Argumentet är en semikolonseparerad lista med felsökningsspecifikationer. En förenklad syntax för specifikationerna är:\n"
 +"   [!]<category: string>[.<level: string>,<level: string>...]\n"
 +"Mer information finns i avsnitt 3.3 ”Debugging” i GNU Mailutils-\n"
 +"manualen, eller på <http://mailutils.org/wiki/Debug_level>."
@@ -2890,7 +2858,7 @@
  
  #: libmailutils/cli/stdcapa.c:215
  #, c-format
-@@ -5059,11 +5091,11 @@
+@@ -5059,11 +5059,11 @@
  
  #: libmailutils/cli/stdcapa.c:285
  msgid "Use specified URL as a mailspool directory."
@@ -2904,7 +2872,7 @@
  
  #: libmailutils/cli/stdcapa.c:289
  msgid "pattern: string"
-@@ -5079,7 +5111,7 @@
+@@ -5079,7 +5079,7 @@
  
  #: libmailutils/cli/stdcapa.c:294
  msgid "Default user mail folder"
@@ -2913,14 +2881,13 @@
  
  #: libmailutils/cli/stdcapa.c:297
  msgid ""
-@@ -5090,16 +5122,17 @@
+@@ -5090,16 +5090,16 @@
  "            but possibly inaccurate\n"
  "  minimal - good balance between speed and accuracy"
  msgstr ""
 -"Noggrannhetsnivå för autodetektering av brevlådeformat. Argumentet är antingen ett decimaltal eller någon av följande konstanter:\n"
 -"  auto - ange noggrannhetsnivå från miljövariabeln\n"
-+"Noggrannhetsnivå för automatisk identifiering av brevlådeformat. Argumentet "
-+"är antingen ett decimaltal eller någon av följande konstanter:\n"
++"Noggrannhetsnivå för automatisk identifiering av brevlådeformat. Argumentet är antingen ett decimaltal eller någon av följande konstanter:\n"
 +"  auto    – ange noggrannhetsnivå från miljövariabeln\n"
  "            MU_AUTODETECT_ACCURACY (standard)\n"
 -"  fast - gör endast en grov uppskattning av brevlådeformatet: snabbast,\n"
@@ -2937,7 +2904,7 @@
  
  #: libmailutils/cli/stdcapa.c:331
  #, c-format
-@@ -5109,26 +5142,26 @@
+@@ -5109,26 +5109,26 @@
  #: libmailutils/cli/stdcapa.c:338
  #, c-format
  msgid "applying legacy flag %c, use %s instead"
@@ -2969,7 +2936,7 @@
  
  #: libmailutils/cli/stdcapa.c:505
  msgid "type: default | dotlock | external | kernel | null"
-@@ -5136,7 +5169,7 @@
+@@ -5136,7 +5136,7 @@
  
  #: libmailutils/cli/stdcapa.c:507
  msgid "Set the maximum number of times to retry acquiring the lock."
@@ -2978,7 +2945,7 @@
  
  #: libmailutils/cli/stdcapa.c:508
  msgid "arg: integer"
-@@ -5144,7 +5177,7 @@
+@@ -5144,7 +5144,7 @@
  
  #: libmailutils/cli/stdcapa.c:510
  msgid "Set the delay between two successive locking attempts."
@@ -2987,7 +2954,7 @@
  
  #: libmailutils/cli/stdcapa.c:511 libmailutils/cli/stdcapa.c:514
  #: libmailutils/cli/stdcapa.c:517
-@@ -5169,7 +5202,7 @@
+@@ -5169,7 +5169,7 @@
  
  #: libmailutils/cli/stdcapa.c:522
  msgid "Check if PID of the lock owner is active."
@@ -2996,17 +2963,16 @@
  
  #: libmailutils/cli/stdcapa.c:525
  msgid "Deprecated.  Retained for backward compatibility."
-@@ -5187,7 +5220,8 @@
+@@ -5187,7 +5187,7 @@
  
  #: libmailutils/cli/stdcapa.c:565
  msgid "Set the current user email address (default is loginname@defaultdomain)."
 -msgstr "Ställ in den aktuella användarens e-postadress (standard är inloggningsnamn@standarddomän)."
-+msgstr "Ange den aktuella användarens e-postadress (standard är "
-+"loginname@defaultdomain)."
++msgstr "Ange den aktuella användarens e-postadress (standard är loginname@defaultdomain)."
  
  #: libmailutils/cli/stdcapa.c:567
  msgid "email: address"
-@@ -5195,7 +5229,7 @@
+@@ -5195,7 +5195,7 @@
  
  #: libmailutils/cli/stdcapa.c:569
  msgid "Set e-mail domain for unqualified user names (default is this host)"
@@ -3015,28 +2981,25 @@
  
  #: libmailutils/cli/stdcapa.c:570
  msgid "domain: string"
-@@ -5203,7 +5237,8 @@
+@@ -5203,7 +5203,7 @@
  
  #: libmailutils/cli/stdcapa.c:645
  msgid "Set a list of modules for authentication. Modlist is a colon-separated list of module names or a word 'clear' to clear the previously set up values."
 -msgstr "Ställ in en lista med moduler för autentisering. Modlist är en kolonseparerad lista med modulnamn eller ett ord \"clear\" för att rensa de tidigare inställda värdena."
-+msgstr "Ange en lista med moduler för autentisering. modlist är en kolonseparerad "
-+"lista med modulnamn eller ordet clear för att rensa tidigare inställda värden."
++msgstr "Ange en lista med moduler för autentisering. modlist är en kolonseparerad lista med modulnamn eller ordet clear för att rensa tidigare inställda värden."
  
  #: libmailutils/cli/stdcapa.c:648 libmailutils/cli/stdcapa.c:653
  msgid "modlist"
-@@ -5211,7 +5246,9 @@
+@@ -5211,7 +5211,7 @@
  
  #: libmailutils/cli/stdcapa.c:650
  msgid "Set a list of modules for authorization. Modlist is a colon-separated list of module names or a word 'clear' to clear the previously set up values."
 -msgstr "Ställ in en lista med moduler för auktorisering. Modlist är en kolonseparerad lista med modulnamn eller ett ord \"clear\" för att rensa de tidigare inställda värdena."
-+msgstr "Ange en lista med moduler för behörighetskontroll. modlist är en "
-+"kolonseparerad lista med modulnamn eller ordet clear för att rensa tidigare "
-+"inställda värden."
++msgstr "Ange en lista med moduler för behörighetskontroll. modlist är en kolonseparerad lista med modulnamn eller ordet clear för att rensa tidigare inställda värden."
  
  #: libmailutils/cli/stdcapa.c:721
  msgid "Create user home directory if it doesn't exist."
-@@ -5224,7 +5261,7 @@
+@@ -5224,7 +5224,7 @@
  #: libmailutils/diag/debug.c:74 libmailutils/diag/debug.c:87
  #, c-format
  msgid "cannot reallocate debug category table"
@@ -3045,7 +3008,7 @@
  
  #: libmailutils/diag/debug.c:151 libmailutils/diag/debug.c:176
  #, c-format
-@@ -5298,11 +5335,11 @@
+@@ -5298,11 +5298,11 @@
  
  #: libmailutils/diag/errors:25
  msgid "Null output pointer"
@@ -3059,7 +3022,7 @@
  
  #: libmailutils/diag/errors:29
  msgid "Resource not open"
-@@ -5322,7 +5359,7 @@
+@@ -5322,7 +5322,7 @@
  
  #: libmailutils/diag/errors:35
  msgid "Locker null"
@@ -3068,7 +3031,7 @@
  
  #: libmailutils/diag/errors:36
  msgid "Conflict with previous locker"
-@@ -5338,19 +5375,19 @@
+@@ -5338,19 +5338,19 @@
  
  #: libmailutils/diag/errors:39
  msgid "Lock not held on file"
@@ -3092,7 +3055,7 @@
  
  #: libmailutils/diag/errors:44
  msgid "No such user name"
-@@ -5374,7 +5411,7 @@
+@@ -5374,7 +5374,7 @@
  
  #: libmailutils/diag/errors:50
  msgid "Malformed or unsupported mailer URL"
@@ -3101,7 +3064,7 @@
  
  #: libmailutils/diag/errors:51
  msgid "SMTP RCPT command failed"
-@@ -5386,7 +5423,7 @@
+@@ -5386,7 +5386,7 @@
  
  #: libmailutils/diag/errors:54
  msgid "Invalid port or service specification"
@@ -3110,7 +3073,7 @@
  
  #: libmailutils/diag/errors:56
  msgid "Input string is not RFC 2047 encoded"
-@@ -5434,11 +5471,11 @@
+@@ -5434,11 +5434,11 @@
  
  #: libmailutils/diag/errors:71
  msgid "Process exited on signal"
@@ -3124,7 +3087,7 @@
  
  #: libmailutils/diag/errors:73
  msgid "Connection closed by remote host"
-@@ -5474,11 +5511,11 @@
+@@ -5474,11 +5474,11 @@
  
  #: libmailutils/diag/errors:83
  msgid "Result of the previous query is not released"
@@ -3138,7 +3101,7 @@
  
  #: libmailutils/diag/errors:85
  msgid "Bad column address"
-@@ -5494,11 +5531,11 @@
+@@ -5494,11 +5494,11 @@
  
  #: libmailutils/diag/errors:89
  msgid "Inappropriate operation for this mode"
@@ -3152,7 +3115,7 @@
  
  #: libmailutils/diag/errors:91
  msgid "Read error"
-@@ -5506,11 +5543,11 @@
+@@ -5506,11 +5506,11 @@
  
  #: libmailutils/diag/errors:93
  msgid "Transport stream not set"
@@ -3166,7 +3129,7 @@
  
  #: libmailutils/diag/errors:97
  msgid "URL missing required parts"
-@@ -5518,7 +5555,7 @@
+@@ -5518,7 +5518,7 @@
  
  #: libmailutils/diag/errors:98
  msgid "URL has parts not allowed by its scheme"
@@ -3175,7 +3138,7 @@
  
  #: libmailutils/diag/errors:99
  msgid "Invalid parameter in URL"
-@@ -5526,11 +5563,11 @@
+@@ -5526,11 +5526,11 @@
  
  #: libmailutils/diag/errors:105
  msgid "Information is not yet available"
@@ -3189,7 +3152,7 @@
  
  #: libmailutils/diag/errors:109
  msgid "Bad value for flags"
-@@ -5538,7 +5575,7 @@
+@@ -5538,7 +5538,7 @@
  
  #: libmailutils/diag/errors:110
  msgid "Socket type not supported"
@@ -3198,7 +3161,7 @@
  
  #: libmailutils/diag/errors:111
  msgid "Address family not supported"
-@@ -5578,11 +5615,11 @@
+@@ -5578,11 +5578,11 @@
  
  #: libmailutils/diag/errors:122
  msgid "File in world writable directory"
@@ -3212,7 +3175,7 @@
  
  #: libmailutils/diag/errors:126
  msgid "Error in format string"
-@@ -5598,7 +5635,7 @@
+@@ -5598,7 +5598,7 @@
  
  #: libmailutils/diag/errors:130
  msgid "Failed to restore ownership or mode"
@@ -3221,7 +3184,7 @@
  
  #: libmailutils/diag/errors:134
  msgid "User-defined error 0"
-@@ -5654,11 +5691,11 @@
+@@ -5654,11 +5654,11 @@
  
  #: libmailutils/diag/errors:152
  msgid "cannot get transport descriptor"
@@ -3235,7 +3198,7 @@
  
  #: libmailutils/mailcap/parse.c:56
  #, c-format
-@@ -5668,15 +5705,15 @@
+@@ -5668,15 +5668,15 @@
  #: libmailutils/mime/mimehdr.c:298
  #, c-format
  msgid "semicolon missing (found %s)"
@@ -3254,7 +3217,7 @@
  
  #: libmailutils/mime/mimehdr.c:367
  #, c-format
-@@ -5686,12 +5723,12 @@
+@@ -5686,12 +5686,12 @@
  #: libmailutils/mime/mimehdr.c:375
  #, c-format
  msgid "continuation index out of sequence in %s: skipping"
@@ -3269,7 +3232,7 @@
  
  #: libmailutils/mime/mimehdr.c:649
  #, c-format
-@@ -5700,12 +5737,12 @@
+@@ -5700,12 +5700,12 @@
  
  #: libmailutils/mimetypes/grammar.y:243
  msgid "priority takes a single numeric argument"
@@ -3284,17 +3247,16 @@
  
  #: libmailutils/mimetypes/grammar.y:541
  #, c-format
-@@ -5720,7 +5757,8 @@
+@@ -5720,7 +5720,7 @@
  #: libmailutils/opt/help.c:344
  #, c-format
  msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
 -msgstr "Obligatoriska respektive valfria argument för långa flaggor är obligatoriska respektive valfria även för korta flaggor."
-+msgstr "Obligatoriska respektive valfria argument för långa alternativ är även "
-+"obligatoriska respektive valfria för motsvarande korta alternativ."
++msgstr "Obligatoriska respektive valfria argument för långa alternativ är även obligatoriska respektive valfria för motsvarande korta alternativ."
  
  #. TRANSLATORS: The placeholder indicates the bug-reporting address
  #. for this package.  Please add _another line_ saying
-@@ -5736,7 +5774,7 @@
+@@ -5736,7 +5736,7 @@
  #: libmailutils/opt/help.c:399
  #, c-format
  msgid "%s home page: <%s>\n"
@@ -3303,7 +3265,7 @@
  
  #: libmailutils/opt/help.c:551
  msgid "Usage:"
-@@ -5796,7 +5834,7 @@
+@@ -5796,7 +5796,7 @@
  #: libmailutils/property/mhprop.c:65
  #, c-format
  msgid "cannot create context %s: %s"
@@ -3312,7 +3274,7 @@
  
  #: libmailutils/property/mhprop.c:168
  #, c-format
-@@ -5811,12 +5849,12 @@
+@@ -5811,12 +5811,12 @@
  #: libmailutils/server/ipsrv.c:532
  #, c-format
  msgid "cannot create log filter stream: %s"
@@ -3327,7 +3289,7 @@
  
  #: libmailutils/server/msrv.c:209
  #, c-format
-@@ -5831,17 +5869,17 @@
+@@ -5831,17 +5831,17 @@
  #: libmailutils/server/msrv.c:543
  #, c-format
  msgid "failed to become a daemon: %s"
@@ -3348,7 +3310,7 @@
  
  #: libmailutils/server/msrv.c:626
  #, c-format
-@@ -5856,7 +5894,7 @@
+@@ -5856,7 +5856,7 @@
  #: libmailutils/server/msrv.c:670
  #, c-format
  msgid "no servers configured: exiting"
@@ -3357,7 +3319,7 @@
  
  #: libmailutils/server/msrv.c:675
  #, c-format
-@@ -5866,12 +5904,12 @@
+@@ -5866,12 +5866,12 @@
  #: libmailutils/server/msrv.c:680
  #, c-format
  msgid "%s started"
@@ -3372,7 +3334,7 @@
  
  #: libmailutils/server/msrv.c:700
  #, c-format
-@@ -5881,7 +5919,7 @@
+@@ -5881,7 +5881,7 @@
  #: libmailutils/server/msrv.c:711
  #, c-format
  msgid "%s: undefined ACL result; access allowed"
@@ -3381,7 +3343,7 @@
  
  #: libmailutils/server/msrv.c:723
  #, c-format
-@@ -5891,7 +5929,7 @@
+@@ -5891,7 +5891,7 @@
  #: libmailutils/server/msrv.c:752
  #, c-format
  msgid "too many children (%lu)"
@@ -3390,7 +3352,7 @@
  
  #: libmailutils/server/msrv.c:805
  #, c-format
-@@ -5901,12 +5939,12 @@
+@@ -5901,12 +5901,12 @@
  #: libmailutils/server/msrv.c:813
  #, c-format
  msgid "cannot create sockaddr for URL %s: %s"
@@ -3405,7 +3367,7 @@
  
  #: libmailutils/server/msrv.c:883
  #, c-format
-@@ -5920,11 +5958,11 @@
+@@ -5920,11 +5920,11 @@
  
  #: libmailutils/server/msrv.c:935
  msgid "Maximum number of children processes to run simultaneously."
@@ -3419,7 +3381,7 @@
  
  #. TRANSLATORS: Words to the right of : are keywords.
  #: libmailutils/server/msrv.c:940
-@@ -5949,7 +5987,7 @@
+@@ -5949,7 +5949,7 @@
  
  #: libmailutils/server/msrv.c:954 libmailutils/server/msrv.c:971
  msgid "Set idle timeout."
@@ -3428,7 +3390,7 @@
  
  #: libmailutils/server/msrv.c:958
  msgid "Per-server access control list"
-@@ -5961,11 +5999,11 @@
+@@ -5961,11 +5961,11 @@
  
  #: libmailutils/server/msrv.c:968
  msgid "Log the session transcript."
@@ -3442,7 +3404,7 @@
  
  #: libmailutils/server/msrv.c:989
  #, c-format
-@@ -5974,11 +6012,11 @@
+@@ -5974,11 +5974,11 @@
  
  #: libmailutils/server/msrv.c:998
  msgid "Size of the queue of pending connections"
@@ -3456,7 +3418,7 @@
  
  #: libmailutils/sockaddr/fromnode.c:123
  #, c-format
-@@ -5993,31 +6031,31 @@
+@@ -5993,31 +5993,31 @@
  #: libmailutils/stdstream/strerr.c:76
  #, c-format
  msgid "%s: cannot open output filter stream: %s"
@@ -3494,7 +3456,7 @@
  
  #: libmailutils/stream/logstream.c:44
  msgid "emerg"
-@@ -6026,7 +6064,7 @@
+@@ -6026,7 +6026,7 @@
  #: libmailutils/stream/prog_stream.c:217 mh/burst.c:726 mh/folder.c:865
  #, c-format
  msgid "cannot change to %s: %s"
@@ -3503,7 +3465,7 @@
  
  #: libmailutils/stream/prog_stream.c:242
  #, c-format
-@@ -6060,7 +6098,7 @@
+@@ -6060,7 +6060,7 @@
  
  #: libmailutils/string/str_to_c.c:224
  msgid "not an IPv4"
@@ -3512,7 +3474,7 @@
  
  #. TRANSLATORS: This is a list of characters which start
  #. an affirmative answer. Whenever possible, please preserve
-@@ -6095,22 +6133,22 @@
+@@ -6095,22 +6095,22 @@
  #: libproto/dotmail/dotmail.c:187 libproto/mbox/mboxrd.c:190
  #, c-format
  msgid "mailbox corrupted, shrank in size"
@@ -3539,7 +3501,7 @@
  
  #: libproto/dotmail/dotmail.c:1628 libproto/mbox/mboxrd.c:1818
  #, c-format
-@@ -6125,7 +6163,7 @@
+@@ -6125,7 +6125,7 @@
  #: libproto/imap/folder.c:61
  #, c-format
  msgid "IMAP session opened in preauth mode: %s"
@@ -3548,7 +3510,7 @@
  
  #: libproto/imap/folder.c:73
  #, c-format
-@@ -6140,7 +6178,7 @@
+@@ -6140,7 +6140,7 @@
  #: libproto/imap/folder.c:84
  #, c-format
  msgid "This probably indicates a bug in Mailutils client code."
@@ -3557,7 +3519,7 @@
  
  #: libproto/imap/folder.c:85
  #, c-format
-@@ -6150,12 +6188,12 @@
+@@ -6150,12 +6150,12 @@
  #: libproto/imap/folder.c:121
  #, c-format
  msgid "cannot create sockaddr from URL %s: %s"
@@ -3572,7 +3534,7 @@
  
  #: libproto/imap/folder.c:185
  #, c-format
-@@ -6179,12 +6217,12 @@
+@@ -6179,12 +6179,12 @@
  #: libproto/imap/folder.c:508
  #, c-format
  msgid "cannot test server capabilities (%s), continuing anyway"
@@ -3587,7 +3549,7 @@
  
  #: libproto/imap/folder.c:638
  #, c-format
-@@ -6194,13 +6232,13 @@
+@@ -6194,13 +6194,13 @@
  #: libproto/imap/mailbox.c:132
  #, c-format
  msgid "copying to cache failed: %s"
@@ -3603,7 +3565,7 @@
  
  #: libproto/imap/mailbox.c:167
  #, c-format
-@@ -6210,7 +6248,7 @@
+@@ -6210,7 +6210,7 @@
  #: libproto/imap/mailbox.c:202
  #, c-format
  msgid "cached message %lu: offset=%lu, size=%lu"
@@ -3612,7 +3574,7 @@
  
  #: libproto/imap/mailbox.c:781
  #, c-format
-@@ -6225,7 +6263,7 @@
+@@ -6225,7 +6225,7 @@
  #: libproto/imap/mailbox.c:1104
  #, c-format
  msgid "expunging mailbox %s"
@@ -3621,7 +3583,7 @@
  
  #: libproto/imap/mailbox.c:1119
  #, c-format
-@@ -6235,17 +6273,17 @@
+@@ -6235,17 +6235,17 @@
  #: libproto/imap/mailbox.c:1263
  #, c-format
  msgid "cannot reallocate array of messages: %s"
@@ -3642,7 +3604,7 @@
  
  #: libproto/imap/mailbox.c:1388
  #, c-format
-@@ -6269,7 +6307,7 @@
+@@ -6269,7 +6269,7 @@
  #: libproto/imap/search.c:70
  #, c-format
  msgid "not a number in untagged response from SEARCH: %s"
@@ -3651,7 +3613,7 @@
  
  #: libproto/imap/state.c:27
  msgid "initial"
-@@ -6277,19 +6315,19 @@
+@@ -6277,19 +6277,19 @@
  
  #: libproto/imap/state.c:28
  msgid "non-authenticated"
@@ -3675,7 +3637,7 @@
  
  #: messages/messages.c:33
  msgid "only display number of messages"
-@@ -6301,7 +6339,7 @@
+@@ -6301,7 +6301,7 @@
  
  #: messages/messages.c:52
  msgid "[mailbox...]"
@@ -3684,7 +3646,7 @@
  
  #: messages/messages.c:118
  #, c-format
-@@ -6320,11 +6358,11 @@
+@@ -6320,11 +6320,11 @@
  
  #: mh/ali.c:26
  msgid "List mail aliases"
@@ -3698,7 +3660,7 @@
  
  #: mh/ali.c:42
  msgid "use the additional alias FILE"
-@@ -6336,7 +6374,7 @@
+@@ -6336,7 +6336,7 @@
  
  #: mh/ali.c:48
  msgid "list each address on a separate line"
@@ -3707,7 +3669,7 @@
  
  #: mh/ali.c:51
  msgid "try to determine the official hostname for each address"
-@@ -6344,7 +6382,7 @@
+@@ -6344,7 +6344,7 @@
  
  #: mh/ali.c:54
  msgid "list the aliases that expand to given addresses"
@@ -3716,7 +3678,7 @@
  
  #: mh/anno.c:21
  msgid "Annotate messages"
-@@ -6353,7 +6391,7 @@
+@@ -6353,7 +6353,7 @@
  #: mh/anno.c:22 mh/burst.c:22 mh/forw.c:22 mh/mark.c:20 mh/mhn.c:25
  #: mh/mhpath.c:22 mh/rmm.c:22 mh/scan.c:29 mh/show.c:22 mh/sortm.c:25
  msgid "[MSGLIST]"
@@ -3725,7 +3687,7 @@
  
  #: mh/anno.c:31 mh/forw.c:124 mh/repl.c:149
  msgid "annotate the message in place"
-@@ -6361,7 +6399,7 @@
+@@ -6361,7 +6361,7 @@
  
  #: mh/anno.c:34
  msgid "add FIELD: date header"
@@ -3734,7 +3696,7 @@
  
  #: mh/anno.c:36 mh/pick.c:132
  msgid "FIELD"
-@@ -6369,7 +6407,7 @@
+@@ -6369,7 +6369,7 @@
  
  #: mh/anno.c:37
  msgid "add this FIELD to the message header"
@@ -3743,7 +3705,7 @@
  
  #: mh/anno.c:40
  msgid "field value for the component"
-@@ -6382,7 +6420,7 @@
+@@ -6382,7 +6382,7 @@
  #: mh/anno.c:84
  #, c-format
  msgid "error reading input stream: %s"
@@ -3752,7 +3714,7 @@
  
  #: mh/anno.c:90
  #, c-format
-@@ -6391,15 +6429,16 @@
+@@ -6391,15 +6391,15 @@
  
  #: mh/burst.c:21
  msgid "Explode digests into messages"
@@ -3762,8 +3724,7 @@
  #: mh/burst.c:35
  msgid "replace source message with the table of contents, insert extracted messages after it"
 -msgstr "ersätt källmeddelandet med innehållsförteckningen, infoga extraherade meddelanden efter den"
-+msgstr "ersätt källmeddelandet med innehållsförteckningen och infoga de extraherade "
-+"meddelandena efter det"
++msgstr "ersätt källmeddelandet med innehållsförteckningen och infoga de extraherade meddelandena efter det"
  
  #: mh/burst.c:38
  msgid "be quiet about the messages that are not in digest format"
@@ -3772,7 +3733,7 @@
  
  #: mh/burst.c:41
  msgid "verbosely list the actions taken"
-@@ -6415,34 +6454,34 @@
+@@ -6415,34 +6415,34 @@
  
  #: mh/burst.c:47
  msgid "set minimal length of digest encapsulation boundary (default 1)"
@@ -3814,7 +3775,7 @@
  
  #: mh/burst.c:571
  #, c-format
-@@ -6461,11 +6500,11 @@
+@@ -6461,11 +6461,11 @@
  #: mh/burst.c:615
  #, c-format
  msgid "copy stream error: %s"
@@ -3828,7 +3789,7 @@
  
  #: mh/burst.c:667
  #, c-format
-@@ -6475,11 +6514,11 @@
+@@ -6475,11 +6475,11 @@
  #: mh/burst.c:675
  #, c-format
  msgid "Opening temporary folder %s"
@@ -3842,7 +3803,7 @@
  
  #: mh/burst.c:710
  #, c-format
-@@ -6493,12 +6532,12 @@
+@@ -6493,12 +6493,12 @@
  
  #: mh/burst.c:737
  msgid "Expunging temporary folder"
@@ -3857,7 +3818,7 @@
  
  #: mh/comp.c:23
  msgid "Compose a message"
-@@ -6506,18 +6545,18 @@
+@@ -6506,18 +6506,18 @@
  
  #: mh/comp.c:24
  msgid "[MSG]"
@@ -3879,7 +3840,7 @@
  
  #: mh/comp.c:54 mh/forw.c:94 mh/repl.c:110 mh/send.c:107 mh/whatnow.c:31
  #: mh/whom.c:49
-@@ -6526,15 +6565,15 @@
+@@ -6526,15 +6526,15 @@
  
  #: mh/comp.c:57 mh/forw.c:97 mh/repl.c:113 mh/send.c:113
  msgid "undo the effect of the last --draftfolder option"
@@ -3898,7 +3859,7 @@
  
  #: mh/comp.c:63 mh/folder.c:132 mh/mhn.c:183 mh/refile.c:55
  msgid "specify folder to operate upon"
-@@ -6551,7 +6590,7 @@
+@@ -6551,7 +6551,7 @@
  
  #: mh/comp.c:69 mh/forw.c:103 mh/repl.c:128 mh/whatnow.c:40
  msgid "set the editor program to use"
@@ -3907,7 +3868,7 @@
  
  #: mh/comp.c:72 mh/forw.c:106 mh/repl.c:131 mh/whatnow.c:43
  msgid "suppress the initial edit"
-@@ -6564,7 +6603,7 @@
+@@ -6564,7 +6564,7 @@
  
  #: mh/comp.c:78 mh/forw.c:133 mh/repl.c:158
  msgid "set the replacement for whatnow program"
@@ -3916,7 +3877,7 @@
  
  #: mh/comp.c:81 mh/forw.c:137 mh/repl.c:162
  msgid "don't run whatnowproc"
-@@ -6608,7 +6647,7 @@
+@@ -6608,7 +6608,7 @@
  
  #: mh/fmtcheck.c:22 mh/whatnow.c:22 mu/libexec/smtp.c:902
  msgid "[FILE]"
@@ -3925,7 +3886,7 @@
  
  #: mh/fmtcheck.c:58 mh/inc.c:98 mh/scan.c:48 mh/sortm.c:180
  msgid "FORMAT"
-@@ -6620,11 +6659,11 @@
+@@ -6620,11 +6620,11 @@
  
  #: mh/fmtcheck.c:62
  msgid "dump the listing of compiled format code"
@@ -3939,7 +3900,7 @@
  
  #: mh/fmtcheck.c:68
  msgid "print program counter along with disassembled code (implies --disassemble)"
-@@ -6632,34 +6671,34 @@
+@@ -6632,34 +6632,34 @@
  
  #: mh/fmtcheck.c:71
  msgid "enable parser debugging output"
@@ -3981,20 +3942,17 @@
  
  #: mh/folder.c:109 pop3d/popauth.c:106
  msgid "Actions are:"
-@@ -6675,15 +6714,18 @@
+@@ -6675,15 +6675,15 @@
  
  #: mh/folder.c:117
  msgid "remove holes in message numbering, begin numbering from NUMBER (default: first message number)"
 -msgstr "ta bort hål i meddelandenumreringen, börja numrera från ANTAL (standard: första meddelandenumret)"
-+msgstr "ta bort luckor i meddelandenumreringen; börja numrera från NUMBER (standard: "
-+"första meddelandenumret)"
++msgstr "ta bort luckor i meddelandenumreringen; börja numrera från NUMBER (standard: första meddelandenumret)"
  
  #: mh/folder.c:120
  msgid "push the folder on the folder stack. If FOLDER is specified, it is pushed. Otherwise, if a folder is given in the command line (via + or --folder), it is pushed on stack. Otherwise, the current folder and the top of the folder stack are exchanged"
 -msgstr "skjuter upp mappen på mappstacken. Om MAPP anges läggs den i stacken. I annat fall, om en mapp anges på kommandoraden (via + eller --folder), läggs den i stacken. I annat fall byts den aktuella mappen och den översta mappen i mappstacken ut"
-+msgstr "lägg mappen överst på mappstacken. Om FOLDER anges läggs den överst. Annars, "
-+"om en mapp anges på kommandoraden (via + eller --folder), läggs den överst på "
-+"stacken. Annars växlas aktuell mapp och den översta mappen på mappstacken."
++msgstr "lägg mappen överst på mappstacken. Om FOLDER anges läggs den överst. Annars, om en mapp anges på kommandoraden (via + eller --folder), läggs den överst på stacken. Annars växlas aktuell mapp och den översta mappen på mappstacken."
  
  #: mh/folder.c:126
  msgid "pop the folder off the folder stack"
@@ -4003,7 +3961,7 @@
  
  #: mh/folder.c:129 mh/mh_whatnow.c:151 pop3d/popauth.c:123
  msgid "Options are:"
-@@ -6711,7 +6753,7 @@
+@@ -6711,7 +6711,7 @@
  
  #: mh/folder.c:150
  msgid "output the total statistics"
@@ -4012,7 +3970,7 @@
  
  #: mh/folder.c:153
  msgid "verbosely list actions taken"
-@@ -6719,7 +6761,7 @@
+@@ -6719,7 +6719,7 @@
  
  #: mh/folder.c:156
  msgid "do nothing, print what would be done (with --pack)"
@@ -4021,7 +3979,7 @@
  
  #: mh/folder.c:240 mh/rmf.c:109
  #, c-format
-@@ -6746,7 +6788,7 @@
+@@ -6746,7 +6746,7 @@
  #: mh/folder.c:416
  #, c-format
  msgid "Folder                  # of messages     (  range  )  cur msg   (other files)\n"
@@ -4030,7 +3988,7 @@
  
  #: mh/folder.c:425
  msgid "TOTAL"
-@@ -6774,7 +6816,7 @@
+@@ -6774,7 +6774,7 @@
  #: mh/folder.c:664
  #, c-format
  msgid "rolling back changes..."
@@ -4039,7 +3997,7 @@
  
  #: mh/folder.c:668
  #, c-format
-@@ -6790,7 +6832,7 @@
+@@ -6790,7 +6790,7 @@
  #: mh/folder.c:676
  #, c-format
  msgid "You will have to fix it manually."
@@ -4048,7 +4006,7 @@
  
  #: mh/folder.c:680
  #, c-format
-@@ -6800,7 +6842,7 @@
+@@ -6800,7 +6800,7 @@
  #: mh/folder.c:808 mh/inc.c:226
  #, c-format
  msgid "cannot read input mailbox: %s"
@@ -4057,7 +4015,7 @@
  
  #: mh/folder.c:824
  #, c-format
-@@ -6822,13 +6864,13 @@
+@@ -6822,13 +6822,13 @@
  #: mh/folder.c:857
  #, c-format
  msgid "Reverting pack table.\n"
@@ -4073,7 +4031,7 @@
  
  #: mh/folder.c:891
  #, c-format
-@@ -6846,7 +6888,7 @@
+@@ -6846,7 +6846,7 @@
  
  #: mh/forw.c:88
  msgid "add Forwarded: header to each forwarded message"
@@ -4082,7 +4040,7 @@
  
  #: mh/forw.c:109 mu/libexec/logger.c:151
  msgid "read message from FILE"
-@@ -6862,7 +6904,7 @@
+@@ -6862,7 +6862,7 @@
  
  #: mh/forw.c:121 mh/send.c:119
  msgid "undo the effect of the last --filter option"
@@ -4091,7 +4049,7 @@
  
  #: mh/forw.c:127 mh/send.c:130
  msgid "use MIME encapsulation"
-@@ -6892,7 +6934,7 @@
+@@ -6892,7 +6892,7 @@
  #: mh/forw.c:400
  #, c-format
  msgid "--build disables --mime"
@@ -4100,7 +4058,7 @@
  
  #: mh/forw.c:405
  #, c-format
-@@ -6912,10 +6954,10 @@
+@@ -6912,10 +6912,10 @@
  "  l - sieve action logs"
  msgstr ""
  "Felsökningsflaggor är:\n"
@@ -4115,7 +4073,7 @@
  
  #: mh/inc.c:74
  #, c-format
-@@ -6924,19 +6966,19 @@
+@@ -6924,19 +6924,19 @@
  
  #: mh/inc.c:81
  msgid "incorporate mail from named file"
@@ -4139,7 +4097,7 @@
  
  #: mh/inc.c:93
  msgid "mark first incorporated message as current (default)"
-@@ -6944,7 +6986,7 @@
+@@ -6944,7 +6944,7 @@
  
  #: mh/inc.c:102
  msgid "truncate source mailbox after incorporating (default)"
@@ -4148,7 +4106,7 @@
  
  #: mh/inc.c:104 mu/libexec/imap.c:1270 mu/libexec/imap.c:1282
  msgid "MAILBOX"
-@@ -6952,7 +6994,7 @@
+@@ -6952,7 +6952,7 @@
  
  #: mh/inc.c:105
  msgid "move incorporated messages to MAILBOX instead of deleting them"
@@ -4157,7 +4115,7 @@
  
  #: mh/inc.c:111 mh/mhn.c:242
  msgid "be quiet"
-@@ -6960,7 +7002,7 @@
+@@ -6960,7 +6960,7 @@
  
  #: mh/inc.c:114 movemail/movemail.c:365
  msgid "enable biff notification"
@@ -4166,7 +4124,7 @@
  
  #: mh/inc.c:116
  msgid "LANG"
-@@ -6968,7 +7010,7 @@
+@@ -6968,7 +6968,7 @@
  
  #: mh/inc.c:117
  msgid "set language for the --script option"
@@ -4175,7 +4133,7 @@
  
  #: mh/inc.c:120
  msgid "filter incoming messages using script FILE"
-@@ -6991,7 +7033,7 @@
+@@ -6991,7 +6991,7 @@
  #: mh/inc.c:218 mh/mh_init.c:532 sieve/sieve.c:414
  #, c-format
  msgid "cannot open mailbox %s: %s"
@@ -4184,7 +4142,7 @@
  
  #: mh/inc.c:257
  #, c-format
-@@ -7001,7 +7043,7 @@
+@@ -7001,7 +7001,7 @@
  #: mh/inc.c:270
  #, c-format
  msgid "%lu: error appending message: %s"
@@ -4193,7 +4151,7 @@
  
  #: mh/inc.c:318
  #, c-format
-@@ -7016,7 +7058,7 @@
+@@ -7016,7 +7016,7 @@
  #: mh/inc.c:404
  #, c-format
  msgid "script initialization failed: %s"
@@ -4202,7 +4160,7 @@
  
  #: mh/inc.c:414 movemail/movemail.c:1513
  #, c-format
-@@ -7067,7 +7109,7 @@
+@@ -7067,7 +7067,7 @@
  
  #: mh/mark.c:86 mh/pick.c:204
  msgid "empty the sequence before adding messages"
@@ -4211,7 +4169,7 @@
  
  #: mh/mark.c:125 mh/mark.c:142
  msgid "private"
-@@ -7076,12 +7118,12 @@
+@@ -7076,12 +7076,12 @@
  #: mh/mark.c:211
  #, c-format
  msgid "--add requires at least one --sequence argument"
@@ -4226,7 +4184,7 @@
  
  #: mh/mboxprop.c:46
  #, c-format
-@@ -7101,7 +7143,7 @@
+@@ -7101,7 +7101,7 @@
  #: mh/mh_fmtgram.y:498
  #, c-format
  msgid "%s:%d: INTERNAL ERROR: out of unput space: please report"
@@ -4235,7 +4193,7 @@
  
  #: mh/mh_fmtgram.y:982
  #, c-format
-@@ -7116,18 +7158,18 @@
+@@ -7116,18 +7116,18 @@
  #: mh/mh_fmtgram.y:1005
  #, c-format
  msgid "error reading format file %s: %s"
@@ -4257,7 +4215,7 @@
  
  #: mh/mh_format.c:1752
  #, c-format
-@@ -7141,31 +7183,31 @@
+@@ -7141,31 +7141,31 @@
  
  #: mh/mh_getopt.c:154
  msgid "set current folder"
@@ -4295,7 +4253,7 @@
  
  #: mh/mh_init.c:326
  #, c-format
-@@ -7204,7 +7246,7 @@
+@@ -7204,7 +7204,7 @@
  #: mu/libexec/wicket.c:128
  #, c-format
  msgid "cannot open input file %s: %s"
@@ -4304,7 +4262,7 @@
  
  #: mh/mh_init.c:748
  #, c-format
-@@ -7214,7 +7256,7 @@
+@@ -7214,7 +7214,7 @@
  #: mh/mh_init.c:771 mh/mhn.c:2344
  #, c-format
  msgid "cannot create input stream (file %s): %s"
@@ -4313,7 +4271,7 @@
  
  #: mh/mh_init.c:801
  #, c-format
-@@ -7225,12 +7267,12 @@
+@@ -7225,12 +7225,10 @@
  "is the path to use for all MH folder operations.  The suggested MH\n"
  "path for you is %s...\n"
  msgstr ""
@@ -4324,15 +4282,13 @@
 -"operationer.  Den föreslagna MH-sökvägen för dig är\n"
 -"%s…\n"
 +"Innan du börjar använda MH måste det finnas en fil"
-+" med namnet .mh_profile i din inloggningskatalog (%s). Den innehåller "
-+"information"
-+" som styr vissa MH-operationer. Det enda som krävs är sökvägen för alla "
-+"MH-mappoperationer. Den föreslagna MH-sökvägen är "
++" med namnet .mh_profile i din inloggningskatalog (%s). Den innehåller information"
++" som styr vissa MH-operationer. Det enda som krävs är sökvägen för alla MH-mappoperationer. Den föreslagna MH-sökvägen är "
 +"%s...\n"
  
  #. TRANSLATORS: This is a question and will be followed
  #. by question mark on output.
-@@ -7244,7 +7286,7 @@
+@@ -7244,7 +7242,7 @@
  #: mh/mh_init.c:830
  #, c-format
  msgid "Do you want the standard MH path %s"
@@ -4341,7 +4297,7 @@
  
  #. TRANSLATORS: This is a question and will be followed
  #. by question mark on output.
-@@ -7264,7 +7306,7 @@
+@@ -7264,7 +7262,7 @@
  #: mh/mh_init.c:901
  #, c-format
  msgid "I'm going to create the standard MH path for you.\n"
@@ -4350,7 +4306,7 @@
  
  #: mh/mh_init.c:912
  #, c-format
-@@ -7284,7 +7326,7 @@
+@@ -7284,7 +7282,7 @@
  #: mh/mh_init.c:1093
  #, c-format
  msgid "cannot obtain sequence number for the new message: %s"
@@ -4359,7 +4315,7 @@
  
  #: mh/mh_list.c:139
  #, c-format
-@@ -7319,12 +7361,12 @@
+@@ -7319,12 +7317,12 @@
  #: mh/mh_msgset.c:259
  #, c-format
  msgid "cannot get last message: %s"
@@ -4374,7 +4330,7 @@
  
  #: mh/mh_msgset.c:295
  #, c-format
-@@ -7339,12 +7381,12 @@
+@@ -7339,12 +7337,12 @@
  #: mh/mh_stream.c:35
  #, c-format
  msgid "cannot open draft message stream: %s"
@@ -4389,7 +4345,7 @@
  
  #: mh/mh_whatnow.c:90
  msgid "SWITCHES"
-@@ -7362,7 +7404,7 @@
+@@ -7362,7 +7360,7 @@
  #: mh/mh_whatnow.c:224
  #, c-format
  msgid "command %s terminated on signal %d"
@@ -4398,7 +4354,7 @@
  
  #: mh/mh_whatnow.c:227
  #, c-format
-@@ -7372,7 +7414,7 @@
+@@ -7372,7 +7370,7 @@
  #: mh/mh_whatnow.c:339
  #, c-format
  msgid "cannot read input stream: %s"
@@ -4407,7 +4363,7 @@
  
  #: mh/mh_whatnow.c:379
  #, c-format
-@@ -7387,7 +7429,7 @@
+@@ -7387,7 +7385,7 @@
  #: mh/mh_whatnow.c:459
  #, c-format
  msgid "problems with edit--%s preserved"
@@ -4416,7 +4372,7 @@
  
  #: mh/mh_whatnow.c:461
  #, c-format
-@@ -7402,19 +7444,21 @@
+@@ -7402,19 +7400,19 @@
  #: mh/mh_whatnow.c:504
  #, c-format
  msgid "draft left on %s."
@@ -4431,9 +4387,7 @@
  #: mh/mh_whatnow.c:559
  msgid "Edit the message. If EDITOR is omitted use the one that was used on the preceding round unless the profile entry \"LASTEDITOR-next\" names an alternate editor."
 -msgstr "Redigera meddelandet. Om REDIGERARE utelämnas används den som användes i föregående runda, såvida inte profilposten \"LASTEDITOR-next\" anger en alternativ redigerare."
-+msgstr "Redigera meddelandet. Om EDITOR utelämnas används den redigerare som användes "
-+"i föregående omgång, om inte profilposten ”LASTEDITOR-next” anger en "
-+"alternativ redigerare."
++msgstr "Redigera meddelandet. Om EDITOR utelämnas används den redigerare som användes i föregående omgång, om inte profilposten ”LASTEDITOR-next” anger en alternativ redigerare."
  
  #: mh/mh_whatnow.c:563 mh/mh_whatnow.c:593 mh/mh_whatnow.c:758
  msgid "List the draft on the terminal."
@@ -4442,7 +4396,7 @@
  
  #: mh/mh_whatnow.c:565
  msgid "Send the message in the background."
-@@ -7422,19 +7466,20 @@
+@@ -7422,19 +7420,19 @@
  
  #: mh/mh_whatnow.c:567
  msgid "Terminate the session. Preserve the draft, unless -delete flag is given."
@@ -4457,8 +4411,7 @@
  #: mh/mh_whatnow.c:571
  msgid "Send the message. The -watch flag causes the delivery process to be monitored. SWITCHES are passed to send program verbatim."
 -msgstr "Skicka meddelandet. Flaggan -watch gör att leveransprocessen övervakas. VÄXLAR skickas ordagrant till sändprogrammet."
-+msgstr "Skicka meddelandet. Alternativet -watch gör att leveransprocessen övervakas. "
-+"SWITCHES skickas ordagrant till sändprogrammet."
++msgstr "Skicka meddelandet. Alternativet -watch gör att leveransprocessen övervakas. SWITCHES skickas ordagrant till sändprogrammet."
  
  #: mh/mh_whatnow.c:574
  msgid "List the addresses and verify that they are acceptable to the transport service."
@@ -4467,7 +4420,7 @@
  
  #: mh/mh_whatnow.c:590
  msgid "Terminate the session. Preserve the draft."
-@@ -7442,7 +7487,7 @@
+@@ -7442,7 +7440,7 @@
  
  #: mh/mh_whatnow.c:591
  msgid "Replace the draft with the newly created one"
@@ -4476,7 +4429,7 @@
  
  #: mh/mh_whatnow.c:592
  msgid "Use this draft"
-@@ -7482,7 +7527,7 @@
+@@ -7482,7 +7480,7 @@
  #: mh/mh_whom.c:96
  #, c-format
  msgid "%s: cannot get address #%lu: %s"
@@ -4485,7 +4438,7 @@
  
  #: mh/mh_whom.c:176
  #, c-format
-@@ -7492,7 +7537,7 @@
+@@ -7492,7 +7490,7 @@
  #: mh/mh_whom.c:220
  #, c-format
  msgid "cannot get stream size: %s"
@@ -4494,7 +4447,7 @@
  
  #: mh/mh_whom.c:283
  msgid "-- Local Recipients --"
-@@ -7510,7 +7555,7 @@
+@@ -7510,7 +7508,7 @@
  #: mh/mh_whom.c:344
  #, c-format
  msgid "cannot get headers: %s"
@@ -4503,7 +4456,7 @@
  
  #: mh/mhl.c:23
  msgid "Produce formatted listings of MH messages"
-@@ -7518,7 +7563,7 @@
+@@ -7518,7 +7516,7 @@
  
  #: mh/mhl.c:24
  msgid "[FILE [FILE...]]"
@@ -4512,7 +4465,7 @@
  
  #: mh/mhl.c:42
  msgid "ring the bell at the end of each output page"
-@@ -7530,11 +7575,11 @@
+@@ -7530,11 +7528,11 @@
  
  #: mh/mhl.c:54 mh/show.c:146
  msgid "set output screen length"
@@ -4526,7 +4479,7 @@
  
  #: mh/mhl.c:60
  msgid "disable use of moreproc program"
-@@ -7548,12 +7593,12 @@
+@@ -7548,12 +7546,12 @@
  #: mh/mhl.c:114
  #, c-format
  msgid "cannot create input stream: %s"
@@ -4541,7 +4494,7 @@
  
  #: mh/mhn.c:24
  msgid "manipulate MIME messages"
-@@ -7561,11 +7606,11 @@
+@@ -7561,11 +7559,11 @@
  
  #: mh/mhn.c:186
  msgid "specify file to operate upon"
@@ -4555,7 +4508,7 @@
  
  #: mh/mhn.c:191
  msgid "compose the MIME message (default)"
-@@ -7573,7 +7618,7 @@
+@@ -7573,7 +7571,7 @@
  
  #: mh/mhn.c:195
  msgid "Listing options"
@@ -4564,7 +4517,7 @@
  
  #: mh/mhn.c:197
  msgid "list the table of contents"
-@@ -7581,7 +7626,7 @@
+@@ -7581,7 +7579,7 @@
  
  #: mh/mhn.c:200
  msgid "print the banner above the listing"
@@ -4573,7 +4526,7 @@
  
  #: mh/mhn.c:203
  msgid "list the decoded sizes"
-@@ -7589,7 +7634,7 @@
+@@ -7589,7 +7587,7 @@
  
  #: mh/mhn.c:206
  msgid "Display options"
@@ -4582,7 +4535,7 @@
  
  #: mh/mhn.c:208
  msgid "display the contents of the messages"
-@@ -7605,15 +7650,15 @@
+@@ -7605,15 +7603,15 @@
  
  #: mh/mhn.c:220
  msgid "Saving options"
@@ -4601,7 +4554,7 @@
  
  #: mh/mhn.c:228
  msgid "use this charset to represent attachment file names"
-@@ -7621,23 +7666,23 @@
+@@ -7621,23 +7619,23 @@
  
  #: mh/mhn.c:231
  msgid "Other options"
@@ -4630,7 +4583,7 @@
  
  #: mh/mhn.c:239
  msgid "print additional information"
-@@ -7651,7 +7696,7 @@
+@@ -7651,7 +7649,7 @@
  #: mh/mhn.c:626
  #, c-format
  msgid "don't know how to display content (content %s in message %lu, part %s)"
@@ -4639,7 +4592,7 @@
  
  #: mh/mhn.c:1215
  #, c-format
-@@ -7661,12 +7706,12 @@
+@@ -7661,12 +7659,12 @@
  #: mh/mhn.c:1239
  #, c-format
  msgid "%s: cannot get message body: %s"
@@ -4654,7 +4607,7 @@
  
  #: mh/mhn.c:1301
  #, c-format
-@@ -7676,12 +7721,12 @@
+@@ -7676,12 +7674,12 @@
  #: mh/mhn.c:1311
  #, c-format
  msgid "cannot create temporary stream (file %s): %s"
@@ -4669,7 +4622,7 @@
  
  #: mh/mhn.c:1395
  #, c-format
-@@ -7691,22 +7736,22 @@
+@@ -7691,22 +7689,22 @@
  #: mh/mhn.c:1513
  #, c-format
  msgid "%s: cannot decode attachment name: %s"
@@ -4696,7 +4649,7 @@
  
  #: mh/mhn.c:1614 mh/mhn.c:2753
  #, c-format
-@@ -7716,17 +7761,17 @@
+@@ -7716,17 +7714,17 @@
  #: mh/mhn.c:1632
  #, c-format
  msgid "storing msg %s part %s using command (cd %s; %s)\n"
@@ -4717,7 +4670,7 @@
  
  #: mh/mhn.c:1772
  #, c-format
-@@ -7746,32 +7791,32 @@
+@@ -7746,32 +7744,32 @@
  #: mh/mhn.c:1805 mh/mhn.c:2139
  #, c-format
  msgid "%s:%lu: content id redefined"
@@ -4756,7 +4709,7 @@
  
  #: mh/mhn.c:2199
  #, c-format
-@@ -7781,22 +7826,22 @@
+@@ -7781,22 +7779,22 @@
  #: mh/mhn.c:2333
  #, c-format
  msgid "%s:%lu: missing filename"
@@ -4783,7 +4736,7 @@
  
  #: mh/mhn.c:2811 mh/mhn.c:2826
  #, c-format
-@@ -7809,7 +7854,7 @@
+@@ -7809,7 +7807,7 @@
  
  #: mh/mhparam.c:22
  msgid "[COMPONENT [COMPONENT...]]"
@@ -4792,7 +4745,7 @@
  
  #: mh/mhparam.c:29
  msgid "display all components from the MH profile. All other arguments are ignored"
-@@ -7821,15 +7866,15 @@
+@@ -7821,15 +7819,15 @@
  
  #: mh/mhpath.c:21
  msgid "Print full pathnames of GNU MH messages and folders"
@@ -4811,7 +4764,7 @@
  
  #: mh/mhseq.c:26
  msgid "show message UIDs (default)"
-@@ -7845,7 +7890,7 @@
+@@ -7845,7 +7843,7 @@
  
  #: mh/msgchk.c:25
  msgid "USER [USER...]"
@@ -4820,7 +4773,7 @@
  
  #: mh/msgchk.c:71
  msgid "print out the last date mail was read"
-@@ -7853,7 +7898,7 @@
+@@ -7853,7 +7851,7 @@
  
  #: mh/msgchk.c:74
  msgid "produce a message upon these events"
@@ -4829,7 +4782,7 @@
  
  #: mh/msgchk.c:77
  msgid "disable notification"
-@@ -7865,11 +7910,11 @@
+@@ -7865,11 +7863,11 @@
  
  #: mh/msgchk.c:80
  msgid "check mail on this host or URL"
@@ -4843,7 +4796,7 @@
  
  #: mh/msgchk.c:86
  msgid "enable APOP"
-@@ -7916,7 +7961,7 @@
+@@ -7916,7 +7914,7 @@
  
  #: mh/msgchk.c:328
  msgid "; last read on %a, %d %b %Y %H:%M:%S %z"
@@ -4852,7 +4805,7 @@
  
  #: mh/msgchk.c:342
  msgid "You don't have any mail waiting\n"
-@@ -7944,7 +7989,7 @@
+@@ -7944,7 +7942,7 @@
  
  #: mh/pick-gram.y:231
  msgid "end of input"
@@ -4861,7 +4814,7 @@
  
  #: mh/pick-gram.y:238
  #, c-format
-@@ -7959,7 +8004,7 @@
+@@ -7959,7 +7957,7 @@
  #: mh/pick-gram.y:313
  #, c-format
  msgid "cannot get header: %s"
@@ -4870,7 +4823,7 @@
  
  #: mh/pick-gram.y:447
  #, c-format
-@@ -7972,7 +8017,7 @@
+@@ -7972,7 +7970,7 @@
  
  #: mh/pick.c:25
  msgid "[--COMPONENT PATTERN]... [MSGLIST]"
@@ -4879,7 +4832,7 @@
  
  #: mh/pick.c:131
  msgid "Search patterns"
-@@ -7980,7 +8025,7 @@
+@@ -7980,7 +7978,7 @@
  
  #: mh/pick.c:133
  msgid "search the named header field"
@@ -4888,20 +4841,16 @@
  
  #: mh/pick.c:136
  msgid "set pattern to look for"
-@@ -7988,7 +8033,11 @@
+@@ -7988,7 +7986,7 @@
  
  #: mh/pick.c:140
  msgid "flags controlling the type of regular expressions. STRING must consist of one or more of the following letters: B=basic, E=extended, I=ignore case, C=case sensitive. Default is \"EI\". The flags remain in effect until the next occurrence of --cflags option. The option must occur right before --pattern or --component option (or its alias)."
 -msgstr "flaggor som styr typen av reguljära uttryck. STRÄNG måste bestå av en eller flera av följande bokstäver: B=basic (grundläggande), E=extended (utökad), I=ignore case (ignorera skiftläge), C=case sensitive (skiftlägeskänslig). Standardvärdet är \"EI\". Flaggorna fortsätter att gälla tills nästa gång flaggan --cflags används. Alternativet måste komma precis före flaggan --pattern eller --component (eller dess alias)."
-+msgstr "flaggor som styr typen av reguljära uttryck. STRING måste bestå av en eller "
-+"flera av följande bokstäver: B=basic, E=extended, I=ignore case, C=case "
-+"sensitive. Standard är ”EI”. Flaggorna gäller till nästa förekomst av flaggan "
-+"--cflags. Flaggan måste stå direkt före flaggan --pattern eller --component "
-+"(eller dess alias)."
++msgstr "flaggor som styr typen av reguljära uttryck. STRING måste bestå av en eller flera av följande bokstäver: B=basic, E=extended, I=ignore case, C=case sensitive. Standard är ”EI”. Flaggorna gäller till nästa förekomst av flaggan --cflags. Flaggan måste stå direkt före flaggan --pattern eller --component (eller dess alias)."
  
  #: mh/pick.c:148
  msgid "search for Cc matching STRING"
-@@ -8012,15 +8061,15 @@
+@@ -8012,15 +8010,15 @@
  
  #: mh/pick.c:163
  msgid "Date constraint operations"
@@ -4920,7 +4869,7 @@
  
  #: mh/pick.c:168
  msgid "match messages after the given date"
-@@ -8056,11 +8105,11 @@
+@@ -8056,11 +8054,11 @@
  
  #: mh/pick.c:193
  msgid "Operations over the selected messages"
@@ -4934,7 +4883,7 @@
  
  #: mh/pick.c:198
  msgid "add matching messages to the given sequence"
-@@ -8079,7 +8128,7 @@
+@@ -8079,7 +8077,7 @@
  
  #: mh/prompter.c:22
  msgid "Prompting editor front-end for GNU MH"
@@ -4943,7 +4892,7 @@
  
  #: mh/prompter.c:32 mh/prompter.c:35
  msgid "CHAR"
-@@ -8087,15 +8136,15 @@
+@@ -8087,15 +8085,15 @@
  
  #: mh/prompter.c:33
  msgid "set erase character"
@@ -4962,7 +4911,7 @@
  
  #: mh/prompter.c:42
  msgid "do not display message body"
-@@ -8113,7 +8162,7 @@
+@@ -8113,7 +8111,7 @@
  #: mh/prompter.c:134
  #, c-format
  msgid "Cannot open temporary stream: %s"
@@ -4971,7 +4920,7 @@
  
  #: mh/prompter.c:202
  #, c-format
-@@ -8131,7 +8180,7 @@
+@@ -8131,7 +8129,7 @@
  
  #: mh/refile.c:27
  msgid "MSGLIST FOLDER [FOLDER...]"
@@ -4980,7 +4929,7 @@
  
  #: mh/refile.c:40
  #, c-format
-@@ -8152,7 +8201,7 @@
+@@ -8152,7 +8150,7 @@
  
  #: mh/refile.c:68
  msgid "specify source folder; it will become the current folder after the program exits"
@@ -4989,7 +4938,7 @@
  
  #: mh/refile.c:72
  msgid "use FILE as the source message"
-@@ -8171,12 +8220,12 @@
+@@ -8171,12 +8169,12 @@
  #: mh/refile.c:157
  #, c-format
  msgid "error appending message: %s"
@@ -5004,7 +4953,7 @@
  
  #: mh/repl.c:24
  msgid "Reply to a message"
-@@ -8184,7 +8233,7 @@
+@@ -8184,7 +8182,7 @@
  
  #: mh/repl.c:25
  msgid "[MESSAGE]"
@@ -5013,7 +4962,7 @@
  
  #: mh/repl.c:51
  #, c-format
-@@ -8193,15 +8242,15 @@
+@@ -8193,15 +8191,15 @@
  
  #: mh/repl.c:104
  msgid "add Replied: header to the message being replied to"
@@ -5032,7 +4981,7 @@
  
  #: mh/repl.c:125
  msgid "construct a group or followup reply"
-@@ -8209,7 +8258,7 @@
+@@ -8209,7 +8207,7 @@
  
  #: mh/repl.c:134
  msgid "set the folder to receive Fcc's"
@@ -5041,7 +4990,7 @@
  
  #: mh/repl.c:136
  msgid "MHL-FILTER"
-@@ -8217,19 +8266,20 @@
+@@ -8217,19 +8215,19 @@
  
  #: mh/repl.c:137
  msgid "set the mhl filter to preprocess the body of the message being replied"
@@ -5051,8 +5000,7 @@
  #: mh/repl.c:143
  msgid "include a copy of the message being replied; the message will be processed using either the default filter \"mhl.reply\", or the filter specified by --filter option"
 -msgstr "inkludera en kopia av det meddelande som besvaras; meddelandet behandlas antingen med standardfiltret \"mhl.reply\" eller med det filter som anges med flaggan --filter"
-+msgstr "inkludera en kopia av meddelandet som besvaras; meddelandet behandlas med "
-+"standardfiltret `mhl.reply` eller filtret som anges med flaggan --filter"
++msgstr "inkludera en kopia av meddelandet som besvaras; meddelandet behandlas med standardfiltret `mhl.reply` eller filtret som anges med flaggan --filter"
  
  #: mh/repl.c:146
  msgid "cancels the effect of the recent -format option"
@@ -5066,7 +5014,7 @@
  
  #: mh/repl.c:212
  #, c-format
-@@ -8239,7 +8289,7 @@
+@@ -8239,7 +8237,7 @@
  #: mh/repl.c:232
  #, c-format
  msgid "cannot create draft file stream %s: %s"
@@ -5075,7 +5023,7 @@
  
  #: mh/repl.c:306 mh/scanfmt.c:37
  #, c-format
-@@ -8252,7 +8302,7 @@
+@@ -8252,7 +8250,7 @@
  
  #: mh/rmf.c:49
  msgid "specify the folder to delete"
@@ -5084,7 +5032,7 @@
  
  #: mh/rmf.c:52
  msgid "interactive mode: ask for confirmation before removing each folder"
-@@ -8273,7 +8323,7 @@
+@@ -8273,7 +8271,7 @@
  
  #: mh/scan.c:28
  msgid "Produce a one line per message scan listing"
@@ -5093,7 +5041,7 @@
  
  #: mh/scan.c:43
  msgid "clear screen after displaying the list"
-@@ -8281,7 +8331,7 @@
+@@ -8281,7 +8279,7 @@
  
  #: mh/scan.c:52
  msgid "display header"
@@ -5102,7 +5050,7 @@
  
  #: mh/scan.c:58
  msgid "list messages in reverse order"
-@@ -8307,7 +8357,7 @@
+@@ -8307,7 +8305,7 @@
  
  #: mh/send.c:26
  msgid "FILE [FILE...]"
@@ -5111,7 +5059,7 @@
  
  #: mh/send.c:101 mh/whom.c:43
  msgid "specify additional alias file"
-@@ -8319,7 +8369,7 @@
+@@ -8319,7 +8317,7 @@
  
  #: mh/send.c:110
  msgid "use MSG from the draftfolder as a draft"
@@ -5120,7 +5068,7 @@
  
  #: mh/send.c:122
  msgid "reformat To: and Cc: addresses"
-@@ -8327,11 +8377,11 @@
+@@ -8327,11 +8325,11 @@
  
  #: mh/send.c:126
  msgid "in case of failure forward the draft along with the failure notice to the sender"
@@ -5134,13 +5082,12 @@
  
  #: mh/send.c:136
  msgid "run in the background"
-@@ -8343,23 +8393,24 @@
+@@ -8343,23 +8341,23 @@
  
  #: mh/send.c:143
  msgid "split the draft into several partial messages and send them with SECONDS interval"
 -msgstr "dela upp utkastet i flera delmeddelanden och skicka dem med SEKUNDER intervall"
-+msgstr "dela upp utkastet i flera delmeddelanden och skicka dem med intervallet "
-+"SECONDS"
++msgstr "dela upp utkastet i flera delmeddelanden och skicka dem med intervallet SECONDS"
  
  #: mh/send.c:146
  msgid "set the size of chunk for --split (in bytes)"
@@ -5164,7 +5111,7 @@
  
  #: mh/send.c:189 mh/send.c:680
  #, c-format
-@@ -8379,12 +8430,12 @@
+@@ -8379,12 +8377,12 @@
  #: mh/send.c:308
  #, c-format
  msgid "cannot get user email: %s"
@@ -5179,7 +5126,7 @@
  
  #: mh/send.c:345
  #, c-format
-@@ -8409,12 +8460,12 @@
+@@ -8409,12 +8407,12 @@
  #: mh/send.c:495
  #, c-format
  msgid "Fixed fcc: %s"
@@ -5194,7 +5141,7 @@
  
  #: mh/send.c:560
  #, c-format
-@@ -8433,7 +8484,7 @@
+@@ -8433,7 +8431,7 @@
  
  #: mh/send.c:659
  msgid "Destroying the mailer"
@@ -5203,7 +5150,7 @@
  
  #: mh/send.c:714
  #, c-format
-@@ -8443,7 +8494,7 @@
+@@ -8443,7 +8441,7 @@
  #: mh/send.c:812
  #, c-format
  msgid "cannot switch to background: %s"
@@ -5212,7 +5159,7 @@
  
  #: mh/show.c:21
  msgid "Display GNU MH messages"
-@@ -8476,11 +8527,11 @@
+@@ -8476,11 +8474,11 @@
  
  #: mh/show.c:134
  msgid "disable the use of the \"showproc:\" profile component"
@@ -5226,7 +5173,7 @@
  
  #: mh/show.c:143
  msgid "disable the use of moreproc"
-@@ -8497,11 +8548,11 @@
+@@ -8497,11 +8495,11 @@
  
  #: mh/sortm.c:137
  msgid "set output width (for -list)"
@@ -5240,13 +5187,12 @@
  
  #: mh/sortm.c:141
  msgid "sort on the date field (default 'Date')"
-@@ -8517,11 +8568,12 @@
+@@ -8517,11 +8515,11 @@
  
  #: mh/sortm.c:147
  msgid "consider two datefields equal if their difference falls within the given number of DAYS."
 -msgstr "betrakta två datumfält som lika om deras skillnad faller inom det angivna antalet DAGAR."
-+msgstr "betrakta två datumfält som lika om deras skillnad ligger inom angivet antal "
-+"DAYS."
++msgstr "betrakta två datumfält som lika om deras skillnad ligger inom angivet antal DAYS."
  
  #: mh/sortm.c:151
  msgid "undo the effect of the last -limit option"
@@ -5255,7 +5201,7 @@
  
  #: mh/sortm.c:154
  msgid "sort on the text field"
-@@ -8549,7 +8601,7 @@
+@@ -8549,7 +8547,7 @@
  
  #: mh/sortm.c:171
  msgid "do not do anything, only show what would have been done"
@@ -5264,7 +5210,7 @@
  
  #: mh/sortm.c:174
  msgid "list the sorted messages"
-@@ -8557,7 +8609,7 @@
+@@ -8557,7 +8555,7 @@
  
  #: mh/sortm.c:185
  msgid "verbosely list executed actions"
@@ -5273,7 +5219,7 @@
  
  #: mh/sortm.c:188
  msgid "Select sort algorithm:"
-@@ -8565,11 +8617,11 @@
+@@ -8565,11 +8563,11 @@
  
  #: mh/sortm.c:190
  msgid "use shell algorithm"
@@ -5287,7 +5233,7 @@
  
  #: mh/sortm.c:391
  #, c-format
-@@ -8584,31 +8636,31 @@
+@@ -8584,31 +8582,31 @@
  #: mh/sortm.c:524
  #, c-format
  msgid "Transpositions:\n"
@@ -5326,7 +5272,7 @@
  
  #: mh/whom.c:92
  #, c-format
-@@ -8621,13 +8673,14 @@
+@@ -8621,13 +8619,13 @@
  "\n"
  "This induces fixing of the maildir message attributes (bug #56428) and attaching persistent UID numbers (commits fd9b19bac-d7110faa).\n"
  msgstr ""
@@ -5334,8 +5280,7 @@
 +"söker rekursivt igenom alla maildir-kataloger i mappen\n"
  "\n"
 -"Detta leder till att maildir-meddelandeattributen fixas (bugg #56428) och att beständiga UID-nummer bifogas (commits fd9b19bac-d7110faa).\n"
-+"Detta åtgärdar maildir-meddelandenas attribut (bugg #56428) och tilldelar "
-+"beständiga UID-nummer (revisionerna fd9b19bac-d7110faa).\n"
++"Detta åtgärdar maildir-meddelandenas attribut (bugg #56428) och tilldelar beständiga UID-nummer (revisionerna fd9b19bac-d7110faa).\n"
  
  #: mu/libexec/maildir_fixup.c:147
  msgid "FOLDER ..."
@@ -5344,7 +5289,7 @@
  
  #: mimeview/mimeview.c:89
  #, c-format
-@@ -8636,11 +8689,13 @@
+@@ -8636,11 +8634,11 @@
  
  #: mimeview/mimeview.c:107
  msgid "TYPE-LIST"
@@ -5354,13 +5299,11 @@
  #: mimeview/mimeview.c:108
  msgid "do not ask for confirmation before displaying files, or, if TYPE-LIST is given, do not ask for confirmation before displaying such files whose MIME type matches one of the patterns from TYPE-LIST"
 -msgstr "fråga inte om bekräftelse innan du visar filer eller om TYPLISTA angetts, fråga inte om bekräftelse innan du visar sådana filer vars MIME-typ matchar ett av mönstren i TYPLISTA"
-+msgstr "fråga inte om bekräftelse innan filer visas, eller, om TYPE-LIST anges, fråga "
-+"inte om bekräftelse innan sådana filer visas vars MIME-typ matchar ett av "
-+"mönstren i TYPE-LIST"
++msgstr "fråga inte om bekräftelse innan filer visas, eller, om TYPE-LIST anges, fråga inte om bekräftelse innan sådana filer visas vars MIME-typ matchar ett av mönstren i TYPE-LIST"
  
  #: mimeview/mimeview.c:111
  msgid "disable interactive mode"
-@@ -8648,7 +8703,7 @@
+@@ -8648,7 +8646,7 @@
  
  #: mimeview/mimeview.c:118
  msgid "use this mime.types file"
@@ -5369,7 +5312,7 @@
  
  #: mimeview/mimeview.c:122
  msgid "do nothing, just print what would have been done"
-@@ -8656,7 +8711,7 @@
+@@ -8656,7 +8654,7 @@
  
  #: mimeview/mimeview.c:126
  msgid "test mime.types syntax and exit"
@@ -5378,7 +5321,7 @@
  
  #: mimeview/mimeview.c:130
  msgid "identify MIME type of each file"
-@@ -8668,7 +8723,7 @@
+@@ -8668,7 +8666,7 @@
  
  #: mimeview/mimeview.c:142
  msgid "Use this mime.types file."
@@ -5387,7 +5330,7 @@
  
  #: mimeview/mimeview.c:145
  msgid "Use this program to display files."
-@@ -8684,7 +8739,7 @@
+@@ -8684,7 +8682,7 @@
  
  #: mimeview/mimeview.c:154
  msgid "FILE [FILE ...]"
@@ -5396,7 +5339,7 @@
  
  #: mimeview/mimeview.c:156
  msgid ""
-@@ -8694,9 +8749,9 @@
+@@ -8694,9 +8692,9 @@
  "  0-9 - Set debugging level\n"
  msgstr ""
  "Felsökningsflaggor är:\n"
@@ -5409,7 +5352,7 @@
  
  #: mimeview/mimeview.c:258
  msgid "no files given"
-@@ -8705,7 +8760,7 @@
+@@ -8705,7 +8703,7 @@
  #: movemail/movemail.c:109
  #, c-format
  msgid "ownership method table overflow"
@@ -5418,7 +5361,7 @@
  
  #: movemail/movemail.c:140
  #, c-format
-@@ -8720,17 +8775,17 @@
+@@ -8720,17 +8718,17 @@
  #: movemail/movemail.c:176 movemail/movemail.c:206
  #, c-format
  msgid "ownership method %s requires value"
@@ -5439,7 +5382,7 @@
  
  #: movemail/movemail.c:228
  #, c-format
-@@ -8747,7 +8802,7 @@
+@@ -8747,7 +8745,7 @@
  
  #: movemail/movemail.c:329
  msgid "set mail synchronization mode"
@@ -5448,7 +5391,7 @@
  
  #: movemail/movemail.c:333
  msgid "same as --sync=uidl"
-@@ -8755,11 +8810,11 @@
+@@ -8755,11 +8753,11 @@
  
  #: movemail/movemail.c:337
  msgid "set synchronization directory"
@@ -5462,7 +5405,7 @@
  
  # Kan även vara rättigheter
  #: movemail/movemail.c:344
-@@ -8768,7 +8823,7 @@
+@@ -8768,7 +8766,7 @@
  
  #: movemail/movemail.c:345
  msgid "control mailbox ownership"
@@ -5471,7 +5414,7 @@
  
  #: movemail/movemail.c:349
  msgid "try to continue after errors"
-@@ -8776,7 +8831,7 @@
+@@ -8776,7 +8774,7 @@
  
  #: movemail/movemail.c:352
  msgid "KW[,KW...]"
@@ -5480,7 +5423,7 @@
  
  #: movemail/movemail.c:353
  msgid "what to do on errors"
-@@ -8788,7 +8843,7 @@
+@@ -8788,7 +8786,7 @@
  
  #: movemail/movemail.c:357
  msgid "set program identifier for diagnostics (default: program name)"
@@ -5489,7 +5432,7 @@
  
  #: movemail/movemail.c:361
  msgid "process at most NUMBER messages"
-@@ -8796,7 +8851,7 @@
+@@ -8796,7 +8794,7 @@
  
  #: movemail/movemail.c:369
  msgid "enable progress meter"
@@ -5498,7 +5441,7 @@
  
  #: movemail/movemail.c:442
  msgid "Do not remove messages from the source mailbox."
-@@ -8815,12 +8870,13 @@
+@@ -8815,12 +8813,12 @@
  " uidl    - use UIDL to avoid downloading the same message twice;\n"
  " pop     - same as uidl;"
  msgstr ""
@@ -5510,15 +5453,14 @@
 -" pop     - samma som uidl;"
 +"Ange synkroniseringsläge. Argumentet är ett av:\n"
 +" all     – hämta alla meddelanden (standard)\n"
-+" uidnext – använd värdena uidvalidity/uidnext för att välja meddelanden att "
-+"hämta\n"
++" uidnext – använd värdena uidvalidity/uidnext för att välja meddelanden att hämta\n"
 +" imap    – samma som uidnext\n"
 +" uidl    – använd UIDL för att undvika att hämta samma meddelande två gånger\n"
 +" pop     – samma som uidl"
  
  #: movemail/movemail.c:452
  msgid "mode"
-@@ -8832,15 +8888,15 @@
+@@ -8832,15 +8830,15 @@
  
  #: movemail/movemail.c:457
  msgid "Set synchronization directory."
@@ -5537,7 +5479,7 @@
  
  #: movemail/movemail.c:465
  msgid ""
-@@ -8850,15 +8906,16 @@
+@@ -8850,15 +8848,15 @@
  " set-id=UID[:GID] set supplied UID and GID\n"
  " set-name=USER    make destination mailbox owned by USER"
  msgstr ""
@@ -5546,8 +5488,7 @@
 -" copy-name hämtar ägarens namn från källbrevlådans URL\n"
 -" set-id=UID[:GID] ange UID och GID som levererats\n"
 -" set-name=USER gör att målbrevlådan ägs av USER"
-+"Definiera en lista med metoder för att ange brevlådeägarskap. Giltiga metoder "
-+"är:\n"
++"Definiera en lista med metoder för att ange brevlådeägarskap. Giltiga metoder är:\n"
 +" copy-id          hämta ägarens UID och GID från källbrevlådan\n"
 +" copy-name        hämta ägarens namn från källbrevlådans URL\n"
 +" set-id=UID[:GID] ange tillhandahållet UID och GID\n"
@@ -5560,7 +5501,7 @@
  
  #: movemail/movemail.c:473
  msgid "Copy at most <count> messages."
-@@ -8894,7 +8951,7 @@
+@@ -8894,7 +8892,7 @@
  
  #: movemail/movemail.c:492
  msgid "inbox-url destfile [POP-password]"
@@ -5569,7 +5510,7 @@
  
  #: movemail/movemail.c:510
  #, c-format
-@@ -8908,7 +8965,7 @@
+@@ -8908,7 +8906,7 @@
  
  #: movemail/movemail.c:530
  msgid "cannot retrieve locker"
@@ -5578,7 +5519,7 @@
  
  #: movemail/movemail.c:539
  msgid "cannot lock"
-@@ -8942,11 +8999,11 @@
+@@ -8942,11 +8940,11 @@
  
  #: movemail/movemail.c:680
  msgid "cannot get scheme"
@@ -5592,7 +5533,7 @@
  
  #: movemail/movemail.c:702
  #, c-format
-@@ -8955,56 +9012,56 @@
+@@ -8955,56 +8953,56 @@
  
  #: movemail/movemail.c:731
  msgid "cannot get mailbox owner name"
@@ -5660,7 +5601,7 @@
  
  #: movemail/movemail.c:1166
  #, c-format
-@@ -9014,12 +9071,12 @@
+@@ -9014,12 +9012,12 @@
  #: movemail/movemail.c:1172
  #, c-format
  msgid "%lu: stored and reported UIDL differ; fixing"
@@ -5675,7 +5616,7 @@
  
  #: movemail/movemail.c:1291
  #, c-format
-@@ -9034,17 +9091,17 @@
+@@ -9034,17 +9032,17 @@
  #: movemail/movemail.c:1354
  #, c-format
  msgid "%s: cannot get uidvalidity: %s"
@@ -5696,7 +5637,7 @@
  
  #: movemail/movemail.c:1386
  #, c-format
-@@ -9054,12 +9111,12 @@
+@@ -9054,12 +9052,12 @@
  #: movemail/movemail.c:1393
  #, c-format
  msgid "%s: downloading messages starting from UID %zu"
@@ -5711,7 +5652,7 @@
  
  #: movemail/movemail.c:1425
  #, c-format
-@@ -9085,8 +9142,8 @@
+@@ -9085,8 +9083,8 @@
  #, c-format
  msgid "will process last %lu message"
  msgid_plural "will process last %lu messages"
@@ -5722,7 +5663,7 @@
  
  #: movemail/movemail.c:1542
  #, c-format
-@@ -9106,7 +9163,7 @@
+@@ -9106,7 +9104,7 @@
  #: pop3d/apop.c:37 pop3d/apop.c:105
  #, c-format
  msgid "unable to create APOP db"
@@ -5731,7 +5672,7 @@
  
  #: pop3d/apop.c:62 pop3d/apop.c:116 pop3d/apop.c:175
  #, c-format
-@@ -9116,7 +9173,7 @@
+@@ -9116,7 +9114,7 @@
  #: pop3d/apop.c:125
  #, c-format
  msgid "unable to open APOP db: %s"
@@ -5740,7 +5681,7 @@
  
  #: pop3d/apop.c:145
  #, c-format
-@@ -9151,37 +9208,37 @@
+@@ -9151,37 +9149,37 @@
  #: pop3d/bulletin.c:133 pop3d/bulletin.c:226
  #, c-format
  msgid "unable to create bulletin db"
@@ -5785,7 +5726,7 @@
  
  #: pop3d/bulletin.c:304
  #, c-format
-@@ -9203,12 +9260,12 @@
+@@ -9203,12 +9201,12 @@
  #: pop3d/extra.c:88
  #, c-format
  msgid "no input stream"
@@ -5800,7 +5741,7 @@
  
  #: pop3d/extra.c:102
  #, c-format
-@@ -9218,12 +9275,12 @@
+@@ -9218,12 +9216,12 @@
  #: pop3d/extra.c:113
  #, c-format
  msgid "mailbox was updated by other party: %s"
@@ -5815,7 +5756,7 @@
  
  #: pop3d/extra.c:307
  msgid "Read time out"
-@@ -9232,27 +9289,27 @@
+@@ -9232,27 +9230,27 @@
  #: pop3d/extra.c:313
  #, c-format
  msgid "Read failed: %s"
@@ -5848,7 +5789,7 @@
  
  #: pop3d/logindelay.c:80
  #, c-format
-@@ -9262,21 +9319,21 @@
+@@ -9262,21 +9260,21 @@
  #: pop3d/logindelay.c:89
  #, c-format
  msgid "invalid entry for '%s': wrong timestamp size"
@@ -5874,7 +5815,7 @@
  
  #: pop3d/pop3d.c:206
  msgid "Automatically expire read messages after the given number of days."
-@@ -9292,11 +9349,11 @@
+@@ -9292,11 +9290,11 @@
  
  #: pop3d/pop3d.c:211
  msgid "Output the number of lines in the message in its scan listing."
@@ -5888,14 +5829,12 @@
  
  #: pop3d/pop3d.c:215
  msgid "Name or UID of the APOP database owner"
-@@ -9316,25 +9373,28 @@
+@@ -9316,25 +9314,25 @@
  "  gwrdir        forbid files in group writable directories\n"
  "  awrdir        forbid files in world writable directories\n"
  msgstr ""
 -"Konfigurerar säkerhetskontroller för APOP-databasfiler.  Argumentet är en lista eller sekvens av kontrollnamn som kan föregås av \"+\" för att aktivera eller \"-\" för att inaktivera motsvarande kontroll.  Giltiga kontrollnamn är:\n"
-+"Konfigurera säkerhetskontroller för APOP-databasfiler. Argumentet är en lista "
-+"eller sekvens av kontrollnamn som kan föregås av `+` för att aktivera eller "
-+"`-` för att inaktivera motsvarande kontroll. Giltiga kontrollnamn är:\n"
++"Konfigurera säkerhetskontroller för APOP-databasfiler. Argumentet är en lista eller sekvens av kontrollnamn som kan föregås av `+` för att aktivera eller `-` för att inaktivera motsvarande kontroll. Giltiga kontrollnamn är:\n"
  "\n"
  "  none          inaktivera alla kontroller\n"
  "  all           aktivera alla kontroller\n"
@@ -5910,8 +5849,7 @@
 +"  awrfil        förbjud filer skrivbara för andra\n"
 +"  grdfil        förbjud gruppläsbara filer\n"
 +"  ardfil        förbjud filer skrivbara för andra\n"
-+"  linkwrdir     förbjud symboliska länkar i kataloger skrivbara för grupp "
-+"eller andra\n"
++"  linkwrdir     förbjud symboliska länkar i kataloger skrivbara för grupp eller andra\n"
 +"  gwrdir        förbjud filer i gruppskrivbara kataloger\n"
 +"  awrdir        förbjud filer i kataloger skrivbara för andra\n"
  
@@ -5927,7 +5865,7 @@
  
  #: pop3d/pop3d.c:248
  msgid "Get bulletins from the specified mailbox."
-@@ -9342,7 +9402,7 @@
+@@ -9342,7 +9340,7 @@
  
  #: pop3d/pop3d.c:252
  msgid "Set the bulletin database file name."
@@ -5936,7 +5874,7 @@
  
  #: pop3d/pop3d.c:253
  msgid "file: string"
-@@ -9350,7 +9410,7 @@
+@@ -9350,7 +9348,7 @@
  
  #: pop3d/pop3d.c:256
  msgid "Size of the output buffer."
@@ -5945,7 +5883,7 @@
  
  #: pop3d/pop3d.c:278
  msgid "GNU pop3d -- the POP3 daemon."
-@@ -9359,22 +9419,22 @@
+@@ -9359,22 +9357,22 @@
  #: pop3d/pop3d.c:285
  #, c-format
  msgid "incoming connection opened"
@@ -5972,7 +5910,7 @@
  
  #: pop3d/popauth.c:108
  msgid "add user"
-@@ -9398,7 +9458,7 @@
+@@ -9398,7 +9396,7 @@
  
  #: pop3d/popauth.c:125
  msgid "read input from FILE (default stdin)"
@@ -5981,7 +5919,7 @@
  
  #: pop3d/popauth.c:128
  msgid "direct output to file"
-@@ -9422,7 +9482,7 @@
+@@ -9422,7 +9420,7 @@
  
  #: pop3d/popauth.c:137
  msgid "force given permissions on the database"
@@ -5990,7 +5928,7 @@
  
  #: pop3d/popauth.c:140
  msgid "compatibility mode"
-@@ -9435,7 +9495,7 @@
+@@ -9435,7 +9433,7 @@
  #: pop3d/popauth.c:176
  #, c-format
  msgid "Default database location: %s\n"
@@ -5999,7 +5937,7 @@
  
  #: pop3d/popauth.c:186
  #, c-format
-@@ -9450,21 +9510,21 @@
+@@ -9450,21 +9448,21 @@
  #: pop3d/popauth.c:191
  #, c-format
  msgid "For a user: --modify --user <username>"
@@ -6025,7 +5963,7 @@
  
  #: pop3d/popauth.c:359
  #, c-format
-@@ -9485,12 +9545,12 @@
+@@ -9485,12 +9483,12 @@
  #: mu/libexec/dbm.c:825
  #, c-format
  msgid "database fetch error: %s"
@@ -6040,7 +5978,7 @@
  
  #: pop3d/popauth.c:523 pop3d/popauth.c:533
  #, c-format
-@@ -9500,7 +9560,7 @@
+@@ -9500,7 +9498,7 @@
  #: pop3d/popauth.c:546
  #, c-format
  msgid "%s:%d: cannot store datum: %s"
@@ -6049,7 +5987,7 @@
  
  #: pop3d/popauth.c:603 mu/libexec/imap.c:707
  msgid "Password:"
-@@ -9520,17 +9580,17 @@
+@@ -9520,17 +9518,17 @@
  #: pop3d/popauth.c:643
  #, c-format
  msgid "missing user name to add"
@@ -6070,7 +6008,7 @@
  
  #: pop3d/popauth.c:689 mu/libexec/dbm.c:1533 mu/libexec/dbm.c:1538
  #, c-format
-@@ -9549,22 +9609,22 @@
+@@ -9549,22 +9547,22 @@
  #: pop3d/popauth.c:756
  #, c-format
  msgid "cannot replace datum: %s"
@@ -6097,7 +6035,7 @@
  
  #: pop3d/user.c:27
  #, c-format
-@@ -9596,7 +9656,7 @@
+@@ -9596,7 +9594,7 @@
  #: pop3d/user.c:137
  #, c-format
  msgid "user %s: authentication failed"
@@ -6106,7 +6044,7 @@
  
  #: pop3d/user.c:142
  #, c-format
-@@ -9606,7 +9666,7 @@
+@@ -9606,7 +9604,7 @@
  #: pop3d/user.c:149
  #, c-format
  msgid "possible probe of account %s"
@@ -6115,7 +6053,7 @@
  
  #: readmsg/readmsg.c:174
  msgid "display debugging information"
-@@ -9614,7 +9674,7 @@
+@@ -9614,7 +9612,7 @@
  
  #: readmsg/readmsg.c:177
  msgid "display entire headers"
@@ -6124,7 +6062,7 @@
  
  #: readmsg/readmsg.c:179
  msgid "LIST"
-@@ -9622,7 +9682,7 @@
+@@ -9622,7 +9620,7 @@
  
  #: readmsg/readmsg.c:180
  msgid "list of header names separated by whitespace or commas"
@@ -6133,7 +6071,7 @@
  
  #: readmsg/readmsg.c:183
  msgid "folder to use"
-@@ -9630,7 +9690,7 @@
+@@ -9630,7 +9628,7 @@
  
  #: readmsg/readmsg.c:185
  msgid "exclude all headers"
@@ -6142,7 +6080,7 @@
  
  #: readmsg/readmsg.c:188
  msgid "output formfeeds between messages"
-@@ -9658,19 +9718,20 @@
+@@ -9658,19 +9656,19 @@
  
  #: readmsg/readmsg.c:206
  msgid "decode MIME messages on output"
@@ -6162,12 +6100,11 @@
  #: readmsg/readmsg.c:217
  msgid "Display only headers from this list.  Argument is a list of header names separated by whitespace or commas."
 -msgstr "Lista endast rubriker från denna lista. Argument är en lista över rubriknamn separerade med blanksteg eller kommatecken."
-+msgstr "Lista endast huvuden från den här listan. Argumentet är en lista med "
-+"huvudnamn separerade med blanksteg eller kommatecken."
++msgstr "Lista endast huvuden från den här listan. Argumentet är en lista med huvudnamn separerade med blanksteg eller kommatecken."
  
  #: readmsg/readmsg.c:219
  msgid "list"
-@@ -9682,7 +9743,7 @@
+@@ -9682,7 +9680,7 @@
  
  #: readmsg/readmsg.c:223
  msgid "Exclude all headers."
@@ -6176,7 +6113,7 @@
  
  #: readmsg/readmsg.c:225
  msgid "Output formfeed character between messages."
-@@ -9699,12 +9760,12 @@
+@@ -9699,12 +9697,12 @@
  #: readmsg/readmsg.c:339
  #, c-format
  msgid "cannot get number of headers: %s"
@@ -6191,7 +6128,7 @@
  
  #: readmsg/readmsg.c:538
  #, c-format
-@@ -9736,11 +9797,11 @@
+@@ -9736,11 +9734,11 @@
  
  #: sieve/sieve.c:188
  msgid "do not execute any actions, just print what would be done"
@@ -6205,13 +6142,12 @@
  
  #: sieve/sieve.c:195
  msgid "compile script and exit"
-@@ -9748,23 +9809,24 @@
+@@ -9748,23 +9746,23 @@
  
  #: sieve/sieve.c:198
  msgid "compile script, dump disassembled sieve code to terminal and exit"
 -msgstr "kompilera skript, dumpa disassemblerad sieve-kod till terminal och avsluta"
-+msgstr "kompilera skriptet, skriv ut disassemblerad Sieve-kod på terminalen och "
-+"avsluta"
++msgstr "kompilera skriptet, skriv ut disassemblerad Sieve-kod på terminalen och avsluta"
  
  #: sieve/sieve.c:200 mu/libexec/imap.c:1302 mu/libexec/imap.c:1306
  msgid "MBOX"
@@ -6235,7 +6171,7 @@
  
  #: sieve/sieve.c:207
  msgid "debug flags (defaults to \""
-@@ -9780,7 +9842,7 @@
+@@ -9780,7 +9778,7 @@
  
  #: sieve/sieve.c:213
  msgid "print source location along with action logs (default)"
@@ -6244,7 +6180,7 @@
  
  #: sieve/sieve.c:216
  msgid "override user email address"
-@@ -9788,7 +9850,7 @@
+@@ -9788,7 +9786,7 @@
  
  #: sieve/sieve.c:219
  msgid "treat SCRIPT as Sieve program text"
@@ -6253,7 +6189,7 @@
  
  #: sieve/sieve.c:222
  msgid "do not prefix diagnostic messages with the program name"
-@@ -9800,11 +9862,11 @@
+@@ -9800,11 +9798,11 @@
  
  #: sieve/sieve.c:225
  msgid "set sieve environment value"
@@ -6267,7 +6203,7 @@
  
  #: sieve/sieve.c:265
  msgid "Do not abort if execution fails on a message."
-@@ -9812,7 +9874,7 @@
+@@ -9812,7 +9810,7 @@
  
  #: sieve/sieve.c:267
  msgid "Mailbox to sieve (defaults to user's mail spool)."
@@ -6276,7 +6212,7 @@
  
  #: sieve/sieve.c:270
  msgid "Ticket file for user authentication."
-@@ -9820,7 +9882,7 @@
+@@ -9820,7 +9818,7 @@
  
  #: sieve/sieve.c:271
  msgid "ticket"
@@ -6285,7 +6221,7 @@
  
  #: sieve/sieve.c:273
  msgid ""
-@@ -9831,16 +9893,16 @@
+@@ -9831,16 +9829,16 @@
  "   t - sieve trace (MU_SIEVE_DEBUG_TRACE)\n"
  "   i - sieve instructions trace (MU_SIEVE_DEBUG_INSTR)."
  msgstr ""
@@ -6309,7 +6245,7 @@
  
  #: sieve/sieve.c:284
  msgid "Print source locations along with action logs (default)."
-@@ -9856,7 +9918,7 @@
+@@ -9856,7 +9854,7 @@
  
  #: sieve/sieve.c:306
  msgid "SCRIPT"
@@ -6318,7 +6254,7 @@
  
  #: sieve/sieve.c:308
  msgid ""
-@@ -9877,28 +9939,28 @@
+@@ -9877,28 +9875,28 @@
  msgstr ""
  "Sieve-specifika felsökningsnivåer:\n"
  "\n"
@@ -6360,7 +6296,7 @@
  
  #: sieve/sieve.c:418
  #, c-format
-@@ -9908,12 +9970,12 @@
+@@ -9908,12 +9906,12 @@
  #: sieve/sieve.c:439
  #, c-format
  msgid "expunge on mailbox %s failed: %s"
@@ -6375,7 +6311,7 @@
  
  #: sieve/sieve.c:492
  #, c-format
-@@ -9923,7 +9985,7 @@
+@@ -9923,7 +9921,7 @@
  #: sieve/sieve.c:540
  #, c-format
  msgid "only one SCRIPT can be specified"
@@ -6384,7 +6320,7 @@
  
  #: sql/mysql.c:116
  #, c-format
-@@ -9943,7 +10005,7 @@
+@@ -9943,7 +9941,7 @@
  #: sql/sql.c:103
  #, c-format
  msgid "SQL dispatcher table empty"
@@ -6393,7 +6329,7 @@
  
  #: mu/mu.c:124
  msgid "No commands found.\n"
-@@ -9951,11 +10013,11 @@
+@@ -9951,11 +9949,11 @@
  
  #: mu/mu.c:135
  msgid "GNU Mailutils multi-purpose tool."
@@ -6407,7 +6343,7 @@
  
  #: mu/mu.c:189
  #, c-format
-@@ -9964,16 +10026,16 @@
+@@ -9964,16 +9962,16 @@
  
  #: mu/mu.c:196
  msgid "display help on mailutils subcommands"
@@ -6427,7 +6363,7 @@
  
  #: mu/mu.c:244
  #, c-format
-@@ -9986,15 +10048,15 @@
+@@ -9986,15 +9984,15 @@
  
  #: mu/libexec/acl.c:24
  msgid "ADDRESS [ADDRESS...]"
@@ -6446,7 +6382,7 @@
  
  #: mu/libexec/acl.c:36
  msgid "path to the ACL in the configuration tree"
-@@ -10012,7 +10074,7 @@
+@@ -10012,7 +10010,7 @@
  
  #: mu/libexec/cflags.c:23
  msgid "show compiler options"
@@ -6455,7 +6391,7 @@
  
  #: mu/libexec/dbm.c:27
  msgid ""
-@@ -10026,15 +10088,15 @@
+@@ -10026,15 +10024,15 @@
  "  add            - add records to the database\n"
  "  replace        - add records replacing ones with matching keys\n"
  msgstr ""
@@ -6479,7 +6415,7 @@
  
  #: mu/libexec/dbm.c:37
  msgid "DBM management tool"
-@@ -10042,12 +10104,12 @@
+@@ -10042,12 +10040,12 @@
  
  #: mu/libexec/dbm.c:38
  msgid "COMMAND FILE [KEY...]"
@@ -6494,7 +6430,7 @@
  
  #: mu/libexec/dbm.c:163 mu/libexec/dbm.c:1659
  #, c-format
-@@ -10087,7 +10149,7 @@
+@@ -10087,7 +10085,7 @@
  #: mu/libexec/dbm.c:651
  #, c-format
  msgid "unrecognized input line"
@@ -6503,7 +6439,7 @@
  
  #: mu/libexec/dbm.c:663
  #, c-format
-@@ -10102,17 +10164,17 @@
+@@ -10102,17 +10100,17 @@
  #: mu/libexec/dbm.c:1043
  #, c-format
  msgid "bad value for 'null' directive: %s"
@@ -6524,7 +6460,7 @@
  
  #: mu/libexec/dbm.c:1123
  #, c-format
-@@ -10122,7 +10184,7 @@
+@@ -10122,7 +10120,7 @@
  #: mu/libexec/dbm.c:1171 mu/libexec/dbm.c:1409
  #, c-format
  msgid "cannot split input line: %s"
@@ -6533,7 +6469,7 @@
  
  #: mu/libexec/dbm.c:1187
  #, c-format
-@@ -10137,22 +10199,22 @@
+@@ -10137,22 +10135,22 @@
  #: mu/libexec/dbm.c:1252
  #, c-format
  msgid "directive %s appeared twice"
@@ -6560,7 +6496,7 @@
  
  #: mu/libexec/dbm.c:1475
  #, c-format
-@@ -10162,7 +10224,7 @@
+@@ -10162,7 +10160,7 @@
  #: mu/libexec/dbm.c:1555
  #, c-format
  msgid "not enough arguments for delete"
@@ -6569,7 +6505,7 @@
  
  #: mu/libexec/dbm.c:1616
  #, c-format
-@@ -10171,21 +10233,21 @@
+@@ -10171,21 +10169,21 @@
  
  #: mu/libexec/dbm.c:1714
  msgid "Create Options"
@@ -6595,7 +6531,7 @@
  
  #: mu/libexec/dbm.c:1726
  msgid "GROUP"
-@@ -10193,15 +10255,15 @@
+@@ -10193,15 +10191,15 @@
  
  #: mu/libexec/dbm.c:1727
  msgid "set database owner group"
@@ -6614,7 +6550,7 @@
  
  #: mu/libexec/dbm.c:1735
  msgid "NAMES"
-@@ -10214,20 +10276,20 @@
+@@ -10214,20 +10212,20 @@
  #. TRANSLATORS: list and dump are dbm command names.
  #: mu/libexec/dbm.c:1740
  msgid "List and Dump Options"
@@ -6639,7 +6575,7 @@
  
  #: mu/libexec/dbm.c:1751
  msgid "treat keys as globbing patterns"
-@@ -10239,15 +10301,15 @@
+@@ -10239,15 +10237,15 @@
  
  #: mu/libexec/dbm.c:1757
  msgid "case-insensitive matches"
@@ -6658,7 +6594,7 @@
  
  #: mu/libexec/dbm.c:1765
  msgid "data length does not account for terminating zero"
-@@ -10256,7 +10318,7 @@
+@@ -10256,7 +10254,7 @@
  #: mu/libexec/dbm.c:1791
  #, c-format
  msgid "subcommand not given"
@@ -6667,7 +6603,7 @@
  
  #: mu/libexec/dbm.c:1797
  #, c-format
-@@ -10280,23 +10342,23 @@
+@@ -10280,23 +10278,23 @@
  
  #: mu/libexec/filter.c:25
  msgid "apply a chain of filters to the input"
@@ -6696,7 +6632,7 @@
  
  #: mu/libexec/filter.c:57
  msgid "list supported filters"
-@@ -10314,7 +10376,7 @@
+@@ -10314,7 +10312,7 @@
  
  #: mu/libexec/flt2047.c:23
  msgid "decode/encode email message headers"
@@ -6705,7 +6641,7 @@
  
  #: mu/libexec/flt2047.c:24
  msgid "[text]"
-@@ -10322,16 +10384,16 @@
+@@ -10322,16 +10320,16 @@
  
  #: mu/libexec/flt2047.c:49
  msgid "set charset (default: iso-8859-1)"
@@ -6725,7 +6661,7 @@
  
  #: mu/libexec/imap.c:34
  msgid "IMAP4 client shell"
-@@ -10340,7 +10402,7 @@
+@@ -10340,7 +10338,7 @@
  #: mu/libexec/imap.c:101
  #, c-format
  msgid "failed to parse message set near \"%s\": %s"
@@ -6734,7 +6670,7 @@
  
  #: mu/libexec/imap.c:115
  #, c-format
-@@ -10350,12 +10412,12 @@
+@@ -10350,12 +10348,12 @@
  #: mu/libexec/imap.c:147
  #, c-format
  msgid "session authenticated: %s"
@@ -6749,7 +6685,7 @@
  
  #: mu/libexec/imap.c:157
  #, c-format
-@@ -10378,7 +10440,7 @@
+@@ -10378,7 +10376,7 @@
  #: mu/libexec/imap.c:449
  #, c-format
  msgid "invalid boolean value"
@@ -6758,7 +6694,7 @@
  
  #: mu/libexec/imap.c:484
  #, c-format
-@@ -10393,7 +10455,7 @@
+@@ -10393,7 +10391,7 @@
  #: mu/libexec/imap.c:619
  #, c-format
  msgid "Try 'exit' to leave %s\n"
@@ -6767,7 +6703,7 @@
  
  #: mu/libexec/imap.c:657
  #, c-format
-@@ -10426,7 +10488,7 @@
+@@ -10426,7 +10424,7 @@
  
  #: mu/libexec/imap.c:794
  msgid "Flags permanent: "
@@ -6776,7 +6712,7 @@
  
  #: mu/libexec/imap.c:800
  #, c-format
-@@ -10466,7 +10528,7 @@
+@@ -10466,7 +10464,7 @@
  #: mu/libexec/imap.c:1026
  #, c-format
  msgid "cannot parse time"
@@ -6785,7 +6721,7 @@
  
  #: mu/libexec/imap.c:1043
  #, c-format
-@@ -10481,7 +10543,7 @@
+@@ -10481,7 +10479,7 @@
  #: mu/libexec/imap.c:1066
  #, c-format
  msgid "unrecognized option: %s"
@@ -6794,7 +6730,7 @@
  
  #: mu/libexec/imap.c:1128
  msgid "no matches"
-@@ -10490,22 +10552,22 @@
+@@ -10490,22 +10488,22 @@
  #. TRANSLATORS: -reread is a keyword; do not translate.
  #: mu/libexec/imap.c:1201 mu/libexec/pop.c:549
  msgid "[-reread] [NAME...]"
@@ -6821,7 +6757,7 @@
  
  #: mu/libexec/imap.c:1211 mu/libexec/pop.c:570 mu/libexec/smtp.c:860
  msgid "open connection"
-@@ -10517,11 +10579,11 @@
+@@ -10517,11 +10515,11 @@
  
  #: mu/libexec/imap.c:1219
  msgid "establish TLS encrypted channel"
@@ -6835,7 +6771,7 @@
  
  #: mu/libexec/imap.c:1223
  msgid "login to the server"
-@@ -10529,11 +10591,11 @@
+@@ -10529,11 +10527,11 @@
  
  #: mu/libexec/imap.c:1227
  msgid "quit imap session"
@@ -6849,7 +6785,7 @@
  
  #: mu/libexec/imap.c:1231
  msgid "send ID command"
-@@ -10561,15 +10623,15 @@
+@@ -10561,15 +10559,15 @@
  
  #: mu/libexec/imap.c:1250
  msgid "MBOX KW [KW...]"
@@ -6868,7 +6804,7 @@
  
  #: mu/libexec/imap.c:1255
  msgid "fetch message data"
-@@ -10581,11 +10643,11 @@
+@@ -10581,11 +10579,11 @@
  
  #: mu/libexec/imap.c:1263
  msgid "close the mailbox (with expunge)"
@@ -6882,7 +6818,7 @@
  
  #: mu/libexec/imap.c:1271
  msgid "delete the mailbox"
-@@ -10593,7 +10655,7 @@
+@@ -10593,7 +10591,7 @@
  
  #: mu/libexec/imap.c:1274
  msgid "OLD-NAME NEW-NAME"
@@ -6891,7 +6827,7 @@
  
  #: mu/libexec/imap.c:1275
  msgid "rename existing mailbox"
-@@ -10601,7 +10663,7 @@
+@@ -10601,7 +10599,7 @@
  
  #: mu/libexec/imap.c:1279
  msgid "permanently remove messages marked for deletion"
@@ -6900,7 +6836,7 @@
  
  #: mu/libexec/imap.c:1283
  msgid "create new mailbox"
-@@ -10609,19 +10671,19 @@
+@@ -10609,19 +10607,19 @@
  
  #: mu/libexec/imap.c:1286
  msgid "[-time DATETIME] [-flag FLAG] MAILBOX FILE"
@@ -6924,7 +6860,7 @@
  
  #: mu/libexec/imap.c:1294 mu/libexec/imap.c:1298
  msgid "REF MBOX"
-@@ -10641,7 +10703,7 @@
+@@ -10641,7 +10639,7 @@
  
  #: mu/libexec/imap.c:1307
  msgid "remove mailbox from subscription list"
@@ -6933,7 +6869,7 @@
  
  #: mu/libexec/imap.c:1311
  msgid "control UID mode"
-@@ -10649,7 +10711,7 @@
+@@ -10649,7 +10647,7 @@
  
  #: mu/libexec/imap.c:1314
  msgid "args..."
@@ -6942,7 +6878,7 @@
  
  #: mu/libexec/imap.c:1315
  msgid "search the mailbox"
-@@ -10657,7 +10719,7 @@
+@@ -10657,7 +10655,7 @@
  
  #: mu/libexec/imap.c:1319
  msgid "same as 'logout'"
@@ -6951,7 +6887,7 @@
  
  #: mu/libexec/info.c:23
  msgid "show Mailutils configuration"
-@@ -10665,23 +10727,23 @@
+@@ -10665,23 +10663,23 @@
  
  #: mu/libexec/info.c:24
  msgid "[capa...]"
@@ -6980,7 +6916,7 @@
  
  #: mu/libexec/logger.c:24
  msgid "[TEXT]"
-@@ -10719,11 +10781,11 @@
+@@ -10719,11 +10717,11 @@
  
  #: mu/libexec/logger.c:153
  msgid "FACILITY[.LEVEL]"
@@ -6994,7 +6930,7 @@
  
  #: mu/libexec/logger.c:157
  msgid "log via syslog"
-@@ -10731,41 +10793,41 @@
+@@ -10731,41 +10729,41 @@
  
  #: mu/libexec/logger.c:160
  msgid "log to the standard error"
@@ -7045,7 +6981,7 @@
  
  #: mu/libexec/pop.c:19
  msgid "POP3 client shell"
-@@ -10791,7 +10853,7 @@
+@@ -10791,7 +10789,7 @@
  
  #: mu/libexec/pop.c:559 mu/libexec/pop.c:591
  msgid "[NUMBER]"
@@ -7054,7 +6990,7 @@
  
  #: mu/libexec/pop.c:560
  msgid "list messages"
-@@ -10799,11 +10861,11 @@
+@@ -10799,11 +10797,11 @@
  
  #: mu/libexec/pop.c:563
  msgid "send a \"no operation\""
@@ -7068,7 +7004,7 @@
  
  #: mu/libexec/pop.c:566
  msgid "user password"
-@@ -10811,7 +10873,7 @@
+@@ -10811,7 +10809,7 @@
  
  #: mu/libexec/pop.c:573
  msgid "quit pop3 session"
@@ -7077,17 +7013,16 @@
  
  #: mu/libexec/pop.c:576
  msgid "retrieve a message"
-@@ -10831,7 +10893,8 @@
+@@ -10831,7 +10829,7 @@
  
  #: mu/libexec/pop.c:588
  msgid "display message headers and first NUMBER (default 5) lines of its body"
 -msgstr "visa meddelandets rubriker och första ANTAL (standard 5) raderna av dess kropp"
-+msgstr "visa meddelandets huvuden och de första NUMBER raderna av dess brödtext "
-+"(standard 5)"
++msgstr "visa meddelandets huvuden och de första NUMBER raderna av dess brödtext (standard 5)"
  
  #: mu/libexec/pop.c:592
  msgid "show unique message identifiers"
-@@ -10839,7 +10902,7 @@
+@@ -10839,7 +10837,7 @@
  
  #: mu/libexec/pop.c:595
  msgid "send login"
@@ -7096,7 +7031,7 @@
  
  #: mu/libexec/query.c:23
  msgid "query configuration values"
-@@ -10847,19 +10910,19 @@
+@@ -10847,19 +10845,19 @@
  
  #: mu/libexec/query.c:24
  msgid "PATH [PATH...]"
@@ -7120,7 +7055,7 @@
  
  #: mu/libexec/query.c:43
  msgid "display setting names as paths"
-@@ -10868,7 +10931,7 @@
+@@ -10868,7 +10866,7 @@
  #: mu/libexec/query.c:62
  #, c-format
  msgid "query what?"
@@ -7129,7 +7064,7 @@
  
  #: mu/libexec/send.c:43
  msgid "send a message"
-@@ -10884,7 +10947,7 @@
+@@ -10884,7 +10882,7 @@
  
  #: mu/libexec/send.c:69
  msgid "read recipients from the message"
@@ -7138,7 +7073,7 @@
  
  #: mu/libexec/shell.c:50
  msgid "Interrupt\n"
-@@ -10892,7 +10955,7 @@
+@@ -10892,7 +10890,7 @@
  
  #: mu/libexec/shell.c:68
  msgid "set command prompt"
@@ -7147,7 +7082,7 @@
  
  #: mu/libexec/shell.c:69
  msgid "exit program"
-@@ -10904,7 +10967,7 @@
+@@ -10904,7 +10902,7 @@
  
  #: mu/libexec/shell.c:75
  msgid "synonym for 'help'"
@@ -7156,7 +7091,7 @@
  
  #: mu/libexec/shell.c:79
  msgid "show command history"
-@@ -10913,12 +10976,12 @@
+@@ -10913,12 +10911,12 @@
  #: mu/libexec/shell.c:262
  #, c-format
  msgid "cannot start pager: %s"
@@ -7171,7 +7106,7 @@
  
  #: mu/libexec/smtp.c:30
  msgid "run a SMTP session"
-@@ -10937,7 +11000,7 @@
+@@ -10937,7 +10935,7 @@
  #: mu/libexec/smtp.c:474
  #, c-format
  msgid "error copying to temporary file: %s"
@@ -7180,7 +7115,7 @@
  
  #: mu/libexec/smtp.c:504
  #, c-format
-@@ -10967,7 +11030,7 @@
+@@ -10967,7 +10965,7 @@
  #: mu/libexec/smtp.c:654
  #, c-format
  msgid "authentication not implemented"
@@ -7189,7 +7124,7 @@
  
  #: mu/libexec/smtp.c:658
  #, c-format
-@@ -10982,7 +11045,7 @@
+@@ -10982,7 +10980,7 @@
  #: mu/libexec/smtp.c:733
  #, c-format
  msgid "error reading value: %s"
@@ -7198,7 +7133,7 @@
  
  #: mu/libexec/smtp.c:789
  msgid "no connection yet"
-@@ -10991,31 +11054,31 @@
+@@ -10991,31 +10989,31 @@
  #: mu/libexec/smtp.c:808 mu/libexec/smtp.c:822
  #, c-format
  msgid "%s not set\n"
@@ -7237,7 +7172,7 @@
  
  #: mu/libexec/smtp.c:875
  msgid "authenticate"
-@@ -11023,7 +11086,7 @@
+@@ -11023,7 +11021,7 @@
  
  #: mu/libexec/smtp.c:878
  msgid "[DOMAIN]"
@@ -7246,7 +7181,7 @@
  
  #: mu/libexec/smtp.c:879
  msgid "greet the server"
-@@ -11031,7 +11094,7 @@
+@@ -11031,7 +11029,7 @@
  
  #: mu/libexec/smtp.c:882
  msgid "[NAME...]"
@@ -7255,7 +7190,7 @@
  
  #: mu/libexec/smtp.c:887
  msgid "initiate encrypted connection"
-@@ -11043,7 +11106,7 @@
+@@ -11043,7 +11041,7 @@
  
  #: mu/libexec/smtp.c:894 mu/libexec/smtp.c:898
  msgid "[EMAIL]"
@@ -7264,7 +7199,7 @@
  
  #: mu/libexec/smtp.c:895
  msgid "set sender email"
-@@ -11059,7 +11122,7 @@
+@@ -11059,7 +11057,7 @@
  
  #: mu/libexec/smtp.c:906
  msgid "COMMAND [ARGS...]"
@@ -7273,7 +7208,7 @@
  
  #: mu/libexec/smtp.c:907
  msgid "send an arbitrary COMMAND"
-@@ -11080,11 +11143,11 @@
+@@ -11080,11 +11078,11 @@
  
  #: mu/libexec/stat.c:25
  msgid "[MAILBOX]"
@@ -7287,7 +7222,7 @@
  
  #: mu/libexec/stat.c:122
  msgid "type"
-@@ -11132,11 +11195,11 @@
+@@ -11132,11 +11130,11 @@
  
  #: mu/libexec/wicket.c:38
  msgid "use FILE instead of ~/.mu-tickets"
