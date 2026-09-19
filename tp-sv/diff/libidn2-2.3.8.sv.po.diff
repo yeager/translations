@@ -1,0 +1,100 @@
+--- a/libidn2-2.3.8.sv.po
++++ b/libidn2-2.3.8.sv.po
+@@ -27,11 +27,11 @@
+ 
+ #: lib/error.c:56
+ msgid "out of memory"
+-msgstr "kan inte allokera minne"
++msgstr "slut på minne"
+ 
+ #: lib/error.c:58
+ msgid "could not determine locale encoding format"
+-msgstr "det gick inte att avgöra lokalt kodningsformat"
++msgstr "kunde inte avgöra teckenkodningen för språkversionen"
+ 
+ #: lib/error.c:60
+ msgid "could not convert string to UTF-8"
+@@ -43,7 +43,7 @@
+ 
+ #: lib/error.c:64
+ msgid "string could not be NFC normalized"
+-msgstr "sträng kunde inte NFC-normaliseras"
++msgstr "strängen kunde inte NFC-normaliseras"
+ 
+ #: lib/error.c:66
+ msgid "string contains invalid punycode data"
+@@ -55,23 +55,23 @@
+ 
+ #: lib/error.c:70
+ msgid "punycode conversion resulted in overflow"
+-msgstr "punycode-konvertering resulterade i överspill"
++msgstr "punycode-konverteringen ledde till spill"
+ 
+ #: lib/error.c:72
+ msgid "domain name longer than 255 characters"
+-msgstr "domännamn längre än 255 tecken"
++msgstr "domännamnet är längre än 255 tecken"
+ 
+ #: lib/error.c:74
+ msgid "domain label longer than 63 characters"
+-msgstr "domänetikett längre än 63 tecken"
++msgstr "domänetiketten är längre än 63 tecken"
+ 
+ #: lib/error.c:76
+ msgid "input A-label is not valid"
+-msgstr "indata A-etikett är inte giltig"
++msgstr "A-etiketten i indata är inte giltig"
+ 
+ #: lib/error.c:78
+ msgid "input A-label and U-label does not match"
+-msgstr "indata A-etikett och U-etikett matchar inte"
++msgstr "A-etiketten och U-etiketten i indata stämmer inte överens"
+ 
+ #: lib/error.c:80
+ msgid "string is not in Unicode NFC format"
+@@ -79,15 +79,15 @@
+ 
+ #: lib/error.c:82
+ msgid "string contains forbidden two hyphens pattern"
+-msgstr "sträng innehåller förbjudet tvåstrecksmönster"
++msgstr "strängen innehåller ett förbjudet mönster med två bindestreck"
+ 
+ #: lib/error.c:84
+ msgid "string start/ends with forbidden hyphen"
+-msgstr "sträng börjar/slutar med förbjudet bindestreck"
++msgstr "strängen börjar eller slutar med ett förbjudet bindestreck"
+ 
+ #: lib/error.c:86
+ msgid "string contains a forbidden leading combining character"
+-msgstr "sträng innehåller ett förbjudet inledande kombineringstecken"
++msgstr "strängen innehåller ett förbjudet inledande kombinerande tecken"
+ 
+ #: lib/error.c:88
+ msgid "string contains a disallowed character"
+@@ -99,7 +99,7 @@
+ 
+ #: lib/error.c:92
+ msgid "string contains a context-j character with null rule"
+-msgstr "sträng innehåller ett kontext-j-tecken med nullregel"
++msgstr "strängen innehåller ett context-j-tecken med nullregel"
+ 
+ #: lib/error.c:94
+ msgid "string contains a forbidden context-o character"
+@@ -119,7 +119,7 @@
+ 
+ #: lib/error.c:102
+ msgid "domain label has forbidden dot (TR46)"
+-msgstr "domänetikett har förbjuden punkt (TR46)"
++msgstr "domänetiketten har en förbjuden punkt (TR46)"
+ 
+ #: lib/error.c:105
+ msgid "domain label has character forbidden in transitional mode (TR46)"
+@@ -131,7 +131,7 @@
+ 
+ #: lib/error.c:111
+ msgid "A-label roundtrip failed"
+-msgstr "A-etikettrundtur misslyckades"
++msgstr "A-etikettens rundtur misslyckades"
+ 
+ #: lib/error.c:113
+ msgid "Unknown error"

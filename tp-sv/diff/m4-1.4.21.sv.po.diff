@@ -1,0 +1,474 @@
+--- a/m4-1.4.21.sv.po
++++ b/m4-1.4.21.sv.po
+@@ -51,7 +51,7 @@
+ 
+ #: lib/c-stack.c:191
+ msgid "stack overflow"
+-msgstr "stacköverspill"
++msgstr "stackspill"
+ 
+ #: lib/clean-temp-simple.c:266
+ #, c-format
+@@ -110,12 +110,12 @@
+ #: lib/openat-die.c:38
+ #, c-format
+ msgid "unable to record current working directory"
+-msgstr "kan inte notera aktuell arbetskatalog"
++msgstr "kan inte spara aktuell arbetskatalog"
+ 
+ #: lib/openat-die.c:57
+ #, c-format
+ msgid "failed to return to initial working directory"
+-msgstr "misslyckades med att återvända till ursprunglig arbetskatalog"
++msgstr "kunde inte återvända till den ursprungliga arbetskatalogen"
+ 
+ #: lib/os2-spawn.c:51
+ #, c-format
+@@ -162,7 +162,7 @@
+ 
+ #: lib/regcomp.c:122
+ msgid "Success"
+-msgstr "Lyckat"
++msgstr "Lyckades"
+ 
+ #: lib/regcomp.c:125
+ msgid "No match"
+@@ -178,7 +178,7 @@
+ 
+ #: lib/regcomp.c:134
+ msgid "Invalid character class name"
+-msgstr "Ogiltigt teckenklassnamn"
++msgstr "Ogiltigt namn på teckenklass"
+ 
+ #: lib/regcomp.c:137
+ msgid "Trailing backslash"
+@@ -194,7 +194,7 @@
+ 
+ #: lib/regcomp.c:146
+ msgid "Unmatched ( or \\("
+-msgstr "Obalanserade ( eller \\("
++msgstr "Omatchad ( eller \\("
+ 
+ #: lib/regcomp.c:149
+ msgid "Unmatched \\{"
+@@ -238,11 +238,11 @@
+ 
+ #: lib/siglist.h:34
+ msgid "Interrupt"
+-msgstr "Avbruten (SIGINT)"
++msgstr "Avbrott"
+ 
+ #: lib/siglist.h:37
+ msgid "Quit"
+-msgstr "Lämnad"
++msgstr "Avsluta"
+ 
+ #: lib/siglist.h:40
+ msgid "Illegal instruction"
+@@ -250,7 +250,7 @@
+ 
+ #: lib/siglist.h:43
+ msgid "Trace/breakpoint trap"
+-msgstr "Spårningsfälla"
++msgstr "Spårnings-/brytpunktsfälla"
+ 
+ #: lib/siglist.h:46
+ msgid "Aborted"
+@@ -282,7 +282,7 @@
+ 
+ #: lib/siglist.h:67
+ msgid "Terminated"
+-msgstr "Avslutad"
++msgstr "Avslutades"
+ 
+ #: lib/siglist.h:70
+ msgid "Urgent I/O condition"
+@@ -302,7 +302,7 @@
+ 
+ #: lib/siglist.h:82
+ msgid "Child exited"
+-msgstr "Barnprocess avslutad"
++msgstr "Underordnad process avslutades"
+ 
+ #: lib/siglist.h:85
+ msgid "Stopped (tty input)"
+@@ -326,15 +326,15 @@
+ 
+ #: lib/siglist.h:100
+ msgid "Virtual timer expired"
+-msgstr "Alarmklocka - virtuell tid"
++msgstr "Virtuell timer löpte ut"
+ 
+ #: lib/siglist.h:103
+ msgid "Profiling timer expired"
+-msgstr "Profileringsklocka"
++msgstr "Profileringsklockan löpte ut"
+ 
+ #: lib/siglist.h:106
+ msgid "Window changed"
+-msgstr "Ändrat fönster"
++msgstr "Fönstret ändrades"
+ 
+ #: lib/siglist.h:109
+ msgid "User defined signal 1"
+@@ -346,7 +346,7 @@
+ 
+ #: lib/siglist.h:117
+ msgid "EMT trap"
+-msgstr "Emulatorfälla"
++msgstr "EMT-fälla"
+ 
+ #: lib/siglist.h:120
+ msgid "Bad system call"
+@@ -556,7 +556,7 @@
+ #: lib/wait-process.c:317 lib/wait-process.c:386
+ #, c-format
+ msgid "%s subprocess got fatal signal %d"
+-msgstr "%s underprocess fick ödesdiger signal %d"
++msgstr "%s underprocess fick en allvarlig signal %d"
+ 
+ #: lib/xprintf.c:47 lib/xprintf.c:68
+ #, c-format
+@@ -571,7 +571,7 @@
+ #: src/builtin.c:298
+ #, c-format
+ msgid "truncating macro `%s' definition to INT_MAX bytes"
+-msgstr "trunkerar makrodefinition ”%s” till INT_MAX byte"
++msgstr "trunkerar makrodefinitionen ”%s” till INT_MAX byte"
+ 
+ #: src/builtin.c:333
+ #, c-format
+@@ -591,7 +591,7 @@
+ #: src/builtin.c:407
+ #, c-format
+ msgid "Warning: excess arguments to builtin `%s' ignored"
+-msgstr "Varning: överskottsargument till inbyggt makro ”%s” ignorerade"
++msgstr "Varning: Överskottsargument till inbyggt makro ”%s” ignoreras"
+ 
+ #: src/builtin.c:428 src/builtin.c:1155
+ #, c-format
+@@ -606,7 +606,7 @@
+ #: src/builtin.c:444
+ #, c-format
+ msgid "leading whitespace ignored in builtin `%s'"
+-msgstr "inledande blanksteg ignorerade i inbyggt makro ”%s”"
++msgstr "inledande blanksteg ignoreras i inbyggt makro ”%s”"
+ 
+ #: src/builtin.c:448
+ #, c-format
+@@ -616,7 +616,7 @@
+ #: src/builtin.c:566 src/builtin.c:829 src/builtin.c:870
+ #, c-format
+ msgid "Warning: %s: invalid macro name ignored"
+-msgstr "Varning: %s: ogiltig makronamn ignorerat"
++msgstr "Varning: %s: ogiltigt makronamn ignoreras"
+ 
+ #: src/builtin.c:765 src/builtin.c:877
+ #, c-format
+@@ -631,12 +631,12 @@
+ #: src/builtin.c:928 src/builtin.c:2260
+ #, c-format
+ msgid "builtin `%s' requested by frozen file is not supported"
+-msgstr "inbyggt makro ”%s” begärt av fryst fil stöds ej"
++msgstr "inbyggt makro ”%s” som begärs av en fryst fil stöds inte"
+ 
+ #: src/builtin.c:932
+ #, c-format
+ msgid "Warning: cannot concatenate builtin `%s'"
+-msgstr "Varning: kan inte konkatenera inbyggt makro ”%s”"
++msgstr "Varning: kan inte sammanfoga inbyggt makro ”%s”"
+ 
+ #: src/builtin.c:1003 src/builtin.c:1053 src/builtin.c:1066 src/builtin.c:1101
+ #, c-format
+@@ -645,12 +645,12 @@
+ 
+ #: src/builtin.c:1089
+ msgid "cannot read pipe"
+-msgstr "kan inte läsa rör"
++msgstr "kan inte läsa från rör"
+ 
+ #: src/builtin.c:1140
+ #, c-format
+ msgid "radix %d in builtin `%s' out of range"
+-msgstr "radix %d i inbyggd ”%s” är utanför intervall"
++msgstr "talbasen %d i inbyggt makro ”%s” ligger utanför intervallet"
+ 
+ #: src/builtin.c:1149
+ #, c-format
+@@ -679,7 +679,7 @@
+ 
+ #: src/builtin.c:1507
+ msgid "recommend using mkstemp instead"
+-msgstr "rekommenderar att använda mkstemp istället"
++msgstr "rekommenderar att använda mkstemp i stället"
+ 
+ #: src/builtin.c:1600
+ #, c-format
+@@ -689,12 +689,12 @@
+ #: src/builtin.c:1726
+ #, c-format
+ msgid "Debugmode: bad debug flags: `%s'"
+-msgstr "Felsökningsläge: okänd flagga: ”%s”"
++msgstr "Felsökningsläge: ogiltiga felsökningsflaggor: ”%s”"
+ 
+ #: src/builtin.c:1767 src/m4.c:633 src/m4.c:700
+ #, c-format
+ msgid "cannot set debug file `%s'"
+-msgstr "kan inte ställa in felsöknings fil ”%s”"
++msgstr "kan inte ställa in felsökningsfilen ”%s”"
+ 
+ #: src/builtin.c:2034
+ msgid "Warning: \\0 will disappear, use \\& instead in replacements"
+@@ -703,7 +703,7 @@
+ #: src/builtin.c:2057
+ #, c-format
+ msgid "Warning: sub-expression %d not present"
+-msgstr "Varning: underuttryck %d inte närvarande"
++msgstr "Varning: underuttrycket %d finns inte"
+ 
+ #: src/builtin.c:2066
+ msgid "Warning: trailing \\ ignored in replacement"
+@@ -735,7 +735,7 @@
+ #: src/eval.c:569
+ #, c-format
+ msgid "bad expression in eval (missing right parenthesis): %s"
+-msgstr "felaktigt uttryck i eval (sakna högerparentes): %s"
++msgstr "felaktigt uttryck i eval (saknad högerparentes): %s"
+ 
+ #: src/eval.c:574
+ #, c-format
+@@ -755,7 +755,7 @@
+ #: src/eval.c:588
+ #, c-format
+ msgid "invalid number in eval: %s"
+-msgstr "ogiltigt nummer i eval: %s"
++msgstr "ogiltigt tal i eval: %s"
+ 
+ #: src/eval.c:592
+ #, c-format
+@@ -801,11 +801,11 @@
+ 
+ #: src/freeze.c:157
+ msgid "unable to create frozen state"
+-msgstr "kan inte skapa fruset tillstånd"
++msgstr "kan inte skapa ett fruset tillstånd"
+ 
+ #: src/freeze.c:168
+ msgid "expecting line feed in frozen file"
+-msgstr "nyrad förväntas i fryst fil"
++msgstr "förväntade radmatning i fryst fil"
+ 
+ #: src/freeze.c:170
+ #, c-format
+@@ -828,7 +828,7 @@
+ #: src/freeze.c:286
+ #, c-format
+ msgid "frozen file version %d greater than max supported of 1"
+-msgstr "fryst filversion %d större än den största som stöds, 1"
++msgstr "den frysta filversionen %d är högre än den högsta som stöds: 1"
+ 
+ #: src/freeze.c:289
+ msgid "ill-formed frozen file, version directive expected"
+@@ -872,7 +872,7 @@
+ #: src/m4.c:207
+ #, c-format
+ msgid "Try `%s --help' for more information."
+-msgstr "Försök med ”%s --help” för mer information."
++msgstr "Kör ”%s --help” för mer information."
+ 
+ #: src/m4.c:213
+ #, c-format
+@@ -884,8 +884,9 @@
+ "Process macros in FILEs.  If no FILE or if FILE is `-', standard input\n"
+ "is read.\n"
+ msgstr ""
+-"Hantera makron i FILer.  Om ingen FIL anges eller om FIL är ”-”,\n"
+-"så läses standard in.\n"
++"Bearbeta makron i FILER. Om ingen FIL anges eller om FIL är ”-”"
++" läses\n"
++"standardindata.\n"
+ 
+ #: src/m4.c:219
+ msgid ""
+@@ -927,12 +928,12 @@
+ "                                 default %s\n"
+ msgstr ""
+ "      --warn-macro-sequence[=REGUTR]\n"
+-"                               varna om makrodefinition matchar REGUTR,\n"
+-"                                 standardvärde %s\n"
++"                               varna om en makrodefinition matchar REGUTR,\n"
++"                                 standard %s\n"
+ 
+ #: src/m4.c:242
+ msgid "  -W, --word-regexp=REGEXP     use REGEXP for macro name syntax\n"
+-msgstr "  -W, --word-regexp=REGEXP     använd REGEXP som makronamnsyntax\n"
++msgstr "  -W, --word-regexp=REGUTR     använd REGUTR för syntaxen för makronamn\n"
+ 
+ #: src/m4.c:247
+ msgid ""
+@@ -943,10 +944,10 @@
+ "  -U, --undefine=NAME          undefine NAME\n"
+ msgstr ""
+ "Förprocessorstyrning:\n"
+-"  -D, --define=NAMN[=VÄRDE]    definiera NAMN som VÄRDE, eller tomt\n"
+-"  -I, --include=KATALOG        lägg till KATALOG till inkluderingssökväg\n"
+-"  -s, --synclines              generera rader med '#line NNN \"FIL\"'\n"
+-"  -U, --undefine=NAMN          ta bort definition av makro NAMN\n"
++"  -D, --define=NAMN[=VÄRDE]    definiera NAMN med värdet VÄRDE eller tomt\n"
++"  -I, --include=KATALOG        lägg till KATALOG i inkluderingssökvägen\n"
++"  -s, --synclines              generera rader med ”#line NNN \\\"FIL\\\"”\n"
++"  -U, --undefine=NAMN          ta bort definitionen av makrot NAMN\n"
+ 
+ #: src/m4.c:255
+ #, c-format
+@@ -959,9 +960,10 @@
+ msgstr ""
+ "Begränsningskontroll:\n"
+ "  -g, --gnu                    åsidosätt -G för att återaktivera GNU-tillägg\n"
+-"  -G, --traditional            undertryck alla extra GNU-tillägg\n"
+-"  -H, --hashsize=PRIMTAL       sätt storlek på symboltabellen [%d]\n"
+-"  -L, --nesting-limit=ANTAL    ändra nästningsnivå, 0 för obegränsad [%d]\n"
++"  -G, --traditional            undertryck alla GNU-tillägg\n"
++"  -H, --hashsize=PRIMTAL       ange storleken på hashtabellen för "
++"symboluppslag [%d]\n"
++"  -L, --nesting-limit=ANTAL    ändra nästningsgränsen, 0 för obegränsad [%d]\n"
+ 
+ #: src/m4.c:263
+ msgid ""
+@@ -970,8 +972,9 @@
+ "  -R, --reload-state=FILE      reload a frozen state from FILE at start\n"
+ msgstr ""
+ "Frysta tillståndsfiler:\n"
+-"  -F, --freeze-state=FIL       spara fryst tillstånd i FIL vid avslut\n"
+-"  -R, --reload-state=FIL       läs fryst tillstånd från FIL vid start\n"
++"  -F, --freeze-state=FIL       skapa ett fruset tillstånd i FIL vid avslut\n"
++"  -R, --reload-state=FIL       läs in ett fruset tillstånd från FIL vid "
++"start\n"
+ 
+ #: src/m4.c:269
+ msgid ""
+@@ -983,11 +986,14 @@
+ "  -t, --trace=NAME             trace NAME when it is defined\n"
+ msgstr ""
+ "Felsökning:\n"
+-"  -d, --debug=[FLAGGOR]        sätt felsökningsnivå (inga FLAGGOR innebär ”aeq”)\n"
+-"      --debugfile[=FIL]        omdirigera felsöknings- och spårningsutdata till FIL\n"
+-"                                 (stderr som standard, släng om tom sträng)\n"
+-"  -l, --arglength=ANTAL        begränsa makrospårningsstorleken\n"
+-"  -t, --trace=NAMN             spåra NAMN när den blir definierad\n"
++"  -d, --debug[=FLAGGOR]         ange felsökningsnivå (inga FLAGGOR innebär "
++"”aeq”)\n"
++"      --debugfile[=FIL]       omdirigera felsöknings- och spårningsutdata "
++"till FIL\n"
++"                                 (standardfel som standard, ignorera om tom "
++"sträng)\n"
++"  -l, --arglength=ANTAL        begränsa storleken på makrospårning\n"
++"  -t, --trace=NAMN             spåra NAMN när det definieras\n"
+ 
+ #: src/m4.c:278
+ msgid ""
+@@ -1014,10 +1020,10 @@
+ "  x   add a unique macro call id, useful with c flag\n"
+ "  V   shorthand for all of the above flags\n"
+ msgstr ""
+-"  l   visa aktuella radnummer\n"
++"  l   visa radnumret för aktuell indata\n"
+ "  p   visa resultat av sökvägssökningar\n"
+-"  q   sätt citationstecken där det behövs, gäller flaggorna a och e\n"
+-"  t   spåra alla makroanrop, inte bara de som spåras med traceon\n"
++"  q   citera värden vid behov, med flaggan a eller e\n"
++"  t   spåra alla makroanrop, inte bara dem som aktiverats med traceon\n"
+ "  x   lägg till en unik identifierare för makroanrop, användbart med flaggan c\n"
+ "  V   förkortning för alla ovanstående flaggor\n"
+ 
+@@ -1026,16 +1032,17 @@
+ "If defined, the environment variable `M4PATH' is a colon-separated list\n"
+ "of directories included after any specified by `-I'.\n"
+ msgstr ""
+-"Om definierad är miljövariabeln ”M4PATH” en kolonseparerad lista\n"
+-"av kataloger som inkluderats efter de som anges med ”-I”.\n"
++"Om den är definierad är miljövariabeln ”M4PATH” en kolonseparerad lista\n"
++"över kataloger som läggs till efter dem som anges med ”-I”.\n"
+ 
+ #: src/m4.c:300
+ msgid ""
+ "Exit status is 0 for success, 1 for failure, 63 for frozen file version\n"
+ "mismatch, or whatever value was passed to the m4exit macro.\n"
+ msgstr ""
+-"Avslutningsstatus 0 för framgång, 1 för fel, 63 för fryst filversion\n"
+-"som inte stämmer, eller det värde som skickats till m4exit-makrot.\n"
++"Avslutningsstatus är 0 vid framgång, 1 vid fel, 63 vid\n"
++"versionskonflikt för en fryst fil"
++" eller det värde som skickats till makrot m4exit.\n"
+ 
+ #: src/m4.c:443
+ #, c-format
+@@ -1060,7 +1067,7 @@
+ #: src/m4.c:586
+ #, c-format
+ msgid "warning: `m4 -e' is deprecated, use `-i' instead"
+-msgstr "varning: ”m4 -e” är föråldrat, använd ”-i” istället"
++msgstr "varning: ”m4 -e” är föråldrat, använd ”-i” i stället"
+ 
+ #: src/m4.c:701
+ msgid "stderr"
+@@ -1068,7 +1075,7 @@
+ 
+ #: src/macro.c:178 src/macro.c:225
+ msgid "Warning: cannot concatenate builtin tokens"
+-msgstr "Varning: kan inte konkatenera inbyggda tokens"
++msgstr "Varning: kan inte sammanfoga inbyggda token"
+ 
+ #: src/macro.c:205
+ msgid "ERROR: end of file in argument list"
+@@ -1077,15 +1084,15 @@
+ #: src/macro.c:348
+ #, c-format
+ msgid "recursion limit of %d exceeded, use -L<N> to change it"
+-msgstr "rekursionsgräns %d överskriden, använd -L<N> för att ändra"
++msgstr "rekursionsgränsen %d har överskridits, använd -L<N> för att ändra den"
+ 
+ #: src/output.c:178 src/output.c:933 src/output.c:936
+ msgid "cannot clean temporary file for diversion"
+-msgstr "kan inte rensa temporär fil för avledning"
++msgstr "kan inte rensa temporärfilen för avledning"
+ 
+ #: src/output.c:230 src/output.c:239 src/output.c:273 src/output.c:370
+ msgid "cannot create temporary file for diversion"
+-msgstr "kan inte skapa temporär fil för avledning"
++msgstr "kan inte skapa temporärfil för avledning"
+ 
+ #: src/output.c:258 src/output.c:265 src/output.c:277
+ msgid "cannot seek within diversion"
+@@ -1093,7 +1100,7 @@
+ 
+ #: src/output.c:350 src/output.c:363 src/output.c:512 src/output.c:768
+ msgid "cannot close temporary file for diversion"
+-msgstr "kan inte stänga temporär fil för avledning"
++msgstr "kan inte stänga temporärfilen för avledning"
+ 
+ #: src/output.c:484
+ msgid "ERROR: cannot flush diversion to temporary file"
+@@ -1101,7 +1108,7 @@
+ 
+ #: src/output.c:579
+ msgid "ERROR: copying inserted file"
+-msgstr "FEL: kopiering av insatt fil"
++msgstr "FEL: kopiering av infogad fil"
+ 
+ #: src/output.c:851
+ msgid "error reading inserted file"
+@@ -1109,11 +1116,11 @@
+ 
+ #: src/output.c:1018
+ msgid "cannot stat diversion"
+-msgstr "kan inte ta status på avledningen"
++msgstr "kan inte hämta status för avledningen"
+ 
+ #: src/output.c:1022
+ msgid "diversion too large"
+-msgstr "avledning för stor"
++msgstr "avledningen är för stor"
+ 
+ #, c-format
+ #~ msgid "unable to display error message"

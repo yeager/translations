@@ -1,0 +1,3334 @@
+--- a/lynx-2.9.0-dev8.sv.po
++++ b/lynx-2.9.0-dev8.sv.po
+@@ -36,7 +36,7 @@
+ #: LYMessages.c:28
+ #, c-format
+ msgid "Alert!: %s"
+-msgstr "Varning!: %s"
++msgstr "Varning: %s"
+ 
+ #: LYMessages.c:29
+ msgid "Welcome"
+@@ -44,11 +44,11 @@
+ 
+ #: LYMessages.c:30
+ msgid "Are you sure you want to quit?"
+-msgstr "Är du säker att du vill avsluta?"
++msgstr "Är du säker på att du vill avsluta?"
+ 
+ #: LYMessages.c:32
+ msgid "Really exit from Lynx?"
+-msgstr "Verkligen avsluta Lynx?"
++msgstr "Vill du verkligen avsluta Lynx?"
+ 
+ #: LYMessages.c:34
+ msgid "Connection interrupted."
+@@ -60,7 +60,7 @@
+ 
+ #: LYMessages.c:36
+ msgid "Cancelled!!!"
+-msgstr "Avbruten!!!"
++msgstr "Avbrutet!!!"
+ 
+ #: LYMessages.c:37
+ msgid "Cancelling!"
+@@ -68,7 +68,7 @@
+ 
+ #: LYMessages.c:38
+ msgid "Excellent!!!"
+-msgstr "Underbart!!!"
++msgstr "Utmärkt!!!"
+ 
+ #: LYMessages.c:39
+ msgid "OK"
+@@ -101,16 +101,18 @@
+ #. #define HELP
+ #: LYMessages.c:47
+ msgid "Commands: Use arrow keys to move, '?' for help, 'q' to quit, '<-' to go back."
+-msgstr "Kommandon: Piltangenter flyttar, \"?\" ger hjälp, \"q\" avslutar, \"<-\" återgår."
++msgstr "Kommandon: Använd piltangenterna för att flytta, ”?” för hjälp, ”q” för att "
++"avsluta och ”<-” för att gå tillbaka."
+ 
+ #. #define MOREHELP
+ #: LYMessages.c:49
+ msgid "-- press space for more, use arrow keys to move, '?' for help, 'q' to quit."
+-msgstr "-- tryck blanksteg för mer, piltangenter flyttar, \"?\" ger hjälp, \"q\" avslutar."
++msgstr "-- tryck på blanksteg för mer, använd piltangenterna för att flytta, ”?” för "
++"hjälp och ”q” för att avsluta."
+ 
+ #: LYMessages.c:50
+ msgid "-- press space for next page --"
+-msgstr "-- tryck blanksteg för nästa sida --"
++msgstr "-- tryck på blanksteg för nästa sida --"
+ 
+ #: LYMessages.c:51
+ msgid "URL too long"
+@@ -143,49 +145,54 @@
+ #: LYMessages.c:65
+ #, c-format
+ msgid "(Textarea \"%s\"); Inactive.  Press <return> to activate (%s for editor)."
+-msgstr "(Textruta \"%s\"); Inaktivt. Tryck <Enter> för att aktivera (%s för redigeringsprogram)."
++msgstr "(Textruta ”%s”); inaktiv. Tryck på <Enter> för att aktivera (%s för "
++"redigeraren)."
+ 
+ #. #define FORM_LINK_TEXTAREA_MESSAGE_INA_E
+ #: LYMessages.c:67
+ #, c-format
+ msgid "(Textarea) Inactive.  Press <return> to activate (%s for editor)."
+-msgstr "(Textruta) Inaktivt. Tryck <Enter> för att aktivera (%s för redigeringsprogram)."
++msgstr "(Textruta); inaktiv. Tryck på <Enter> för att aktivera (%s för redigeraren)."
+ 
+ #. #define FORM_LINK_TEXT_SUBMIT_MESSAGE_INA
+ #: LYMessages.c:69
+ msgid "(Form field) Inactive.  Use <return> to edit."
+-msgstr "(Formulärfält) Inaktivt. Tryck <Enter> för att redigera."
++msgstr "(Formulärfält) inaktivt. Tryck på <Enter> för att redigera."
+ 
+ #. #define FORM_TEXT_SUBMIT_MESSAGE_INA_X
+ #: LYMessages.c:71
+ #, c-format
+ msgid "(Form field) Inactive.  Use <return> to edit (%s to submit with no cache)."
+-msgstr "(Formulärfält) Inaktivt. Tryck <Enter> för att redigera (%s skickar utan cache)."
++msgstr "(Formulärfält) inaktivt. Tryck på <Enter> för att redigera (%s skickar utan "
++"cacheminne)."
+ 
+ #. #define FORM_TEXT_RESUBMIT_MESSAGE_INA
+ #: LYMessages.c:73
+ msgid "(Form field) Inactive. Press <return> to edit, press <return> twice to submit."
+-msgstr "(Formulärfält) Inaktivt. Redigera med <Enter>, två gånger för att skicka."
++msgstr "(Formulärfält) inaktivt. Tryck på <Enter> för att redigera, eller två gånger "
++"för att skicka."
+ 
+ #. #define FORM_TEXT_SUBMIT_MAILTO_MSG_INA
+ #: LYMessages.c:75
+ msgid "(mailto form field) Inactive.  Press <return> to change."
+-msgstr "(e-postformulärfält) Inaktivt. Tryck <Enter> för att ändra."
++msgstr "(E-postformulärfält) inaktivt. Tryck på <Enter> för att ändra."
+ 
+ #. #define FORM_LINK_PASSWORD_MESSAGE_INA
+ #: LYMessages.c:77
+ msgid "(Password entry field) Inactive.  Press <return> to activate."
+-msgstr "(Lösenordsinmatningsfält) Inaktivt. Tryck <Enter> för att aktivera."
++msgstr "(Lösenordsinmatningsfält) inaktivt. Tryck på <Enter> för att aktivera."
+ 
+ #. #define FORM_LINK_FILE_UNM_MSG
+ #: LYMessages.c:80
+ msgid "UNMODIFIABLE file entry field.  Use UP or DOWN arrows or tab to move off."
+-msgstr "SKRIVSKYDDAT filinmatningsfält. Använd UPP-/NED-pil eller tabb för att lämna."
++msgstr "SKRIVSKYDDAT filinmatningsfält. Använd uppåt- eller nedåtpilen eller "
++"tabbtangenten för att lämna fältet."
+ 
+ #. #define FORM_LINK_FILE_MESSAGE
+ #: LYMessages.c:82
+ msgid "(File entry field) Enter filename.  Use UP or DOWN arrows or tab to move off."
+-msgstr "(Filinmatningsfält) Ange filnamn. Använd UPP-/NED-pil eller tabb för att lämna."
++msgstr "(Filinmatningsfält) Ange filnamn. Använd uppåt- eller nedåtpilen eller "
++"tabbtangenten för att lämna fältet."
+ 
+ #. #define FORM_LINK_TEXT_ADV_MSG
+ #. #define FORM_LINK_TEXT_MESSAGE
+@@ -241,27 +248,31 @@
+ #. #define FORM_LINK_TEXT_SUBMIT_UNM_MSG
+ #: LYMessages.c:104
+ msgid "UNMODIFIABLE form field.  Use UP or DOWN arrows or tab to move off."
+-msgstr "SKRIVSKYDDAT formulärfält. Använd UPP-/NED-pil eller tabb för att lämna."
++msgstr "SKRIVSKYDDAT formulärfält. Använd uppåt- eller nedåtpilen eller tabbtangenten "
++"för att lämna fältet."
+ 
+ #. #define FORM_LINK_TEXT_SUBMIT_MAILTO_MSG
+ #: LYMessages.c:106
+ msgid "(mailto form field) Enter text.  Use <return> to submit, arrows to move off."
+-msgstr "(e-postformulärfält) Ange text. <Enter> skickar, pilar lämnar."
++msgstr "(E-postformulärfält) Ange text. Tryck på <Enter> för att skicka och använd "
++"piltangenterna för att lämna fältet."
+ 
+ #. #define FORM_LINK_TEXT_SUBMIT_MAILTO_DIS_MSG
+ #: LYMessages.c:108
+ msgid "(mailto form field) Mail is disallowed so you cannot submit."
+-msgstr "(e-postformulärfält) E-post tillåts ej, så du kan inte skicka."
++msgstr "(E-postformulärfält) E-post tillåts inte, så du kan inte skicka."
+ 
+ #. #define FORM_LINK_PASSWORD_MESSAGE
+ #: LYMessages.c:110
+ msgid "(Password entry field) Enter text.  Use UP or DOWN arrows or tab to move off."
+-msgstr "(Lösenordsfält) Ange text. Använd UPP-/NED-pil eller tabb för att lämna."
++msgstr "(Lösenordsinmatningsfält) Ange text. Använd uppåt- eller nedåtpilen eller "
++"tabbtangenten för att lämna fältet."
+ 
+ #. #define FORM_LINK_PASSWORD_UNM_MSG
+ #: LYMessages.c:112
+ msgid "UNMODIFIABLE form password.  Use UP or DOWN arrows or tab to move off."
+-msgstr "SKRIVSKYDDAT formulärlösenord. Använd UPP-/NED-pil eller tabb för att lämna."
++msgstr "SKRIVSKYDDAT formulärlösenord. Använd uppåt- eller nedåtpilen eller "
++"tabbtangenten för att lämna fältet."
+ 
+ #. #define FORM_LINK_CHECKBOX_ADV_MSG
+ #: LYMessages.c:114
+@@ -365,38 +376,42 @@
+ #: LYMessages.c:152
+ #, c-format
+ msgid "(Option list \"%s\"); Hit return to select option."
+-msgstr "(Alternativlista \"%s\"); Tryck Enter och använd pilar och Enter för att välja."
++msgstr "(Alternativlista ”%s”); tryck på <Enter> för att välja alternativet."
+ 
+ #. #define FORM_LINK_OPTION_LIST_MESSAGE
+ #: LYMessages.c:154
+ msgid "(Option list) Hit return and use arrow keys and return to select option."
+-msgstr "(Alternativlista) Tryck Enter och använd pilar och Enter för att välja."
++msgstr "(Alternativlista) Tryck på <Enter> och använd piltangenterna och <Enter> för "
++"att välja alternativet."
+ 
+ #. #define CHOICE_LIST_ADV_MSG
+ #: LYMessages.c:156
+ #, c-format
+ msgid "(Choice entry \"%s\"); Use arrow keys and return to select option."
+-msgstr "(Valpost \"%s\"); Använd piltangenter och Enter för att välja."
++msgstr "(Valpost ”%s”); använd piltangenterna och <Enter> för att välja alternativet."
+ 
+ #. #define CHOICE_LIST_MESSAGE
+ #: LYMessages.c:158
+ msgid "(Choice list) Hit return and use arrow keys and return to select option."
+-msgstr "(Vallista) Tryck Enter och använd piltangenter och Enter för att välja."
++msgstr "(Vallista) Tryck på <Enter> och använd piltangenterna och <Enter> för att "
++"välja alternativet."
+ 
+ #. #define MOUSE_CHOICE_MESSAGE
+ #: LYMessages.c:160
+ msgid "Left mouse button or return to select, arrow keys to scroll."
+-msgstr "Vänster musknapp eller Enter väljer, piltangenter rullar."
++msgstr "Vänster musknapp eller <Enter> väljer, piltangenterna rullar."
+ 
+ #. #define FORM_LINK_OPTION_LIST_UNM_MSG
+ #: LYMessages.c:162
+ msgid "UNMODIFIABLE option list.  Use return or arrow keys to review or leave."
+-msgstr "SKRIVSKYDDAD alternativlista. Använd Enter och pilar för att visa eller lämna."
++msgstr "SKRIVSKYDDAD alternativlista. Använd <Enter> eller piltangenterna för att "
++"granska eller lämna listan."
+ 
+ #. #define CHOICE_LIST_UNM_MSG
+ #: LYMessages.c:164
+ msgid "UNMODIFIABLE choice list.  Use return or arrow keys to review or leave."
+-msgstr "SKRIVSKYDDAD vallista. Använd Enter och piltangenter för att visa eller lämna."
++msgstr "SKRIVSKYDDAD vallista. Använd <Enter> eller piltangenterna för att granska "
++"eller lämna listan."
+ 
+ #: LYMessages.c:165
+ msgid "Submitting form..."
+@@ -409,7 +424,7 @@
+ #. #define RELOADING_FORM
+ #: LYMessages.c:168
+ msgid "Reloading document.  Any form entries will be lost!"
+-msgstr "Hämtar om dokument. Eventuellt formulärinnehåll förkastas!"
++msgstr "Läser om dokumentet. Alla formulärposter går förlorade!"
+ 
+ #. #define LINK_NOT_IN_FORM
+ #: LYMessages.c:170
+@@ -419,7 +434,7 @@
+ #: LYMessages.c:171
+ #, c-format
+ msgid "Warning: Cannot transcode form data to charset %s!"
+-msgstr "Varning: Kan inte koda formulärdata i teckenuppsättningen %s!"
++msgstr "Varning: Det går inte att omkoda formulärdata till teckenkodningen %s!"
+ 
+ #. #define NORMAL_LINK_MESSAGE
+ #: LYMessages.c:174
+@@ -428,11 +443,11 @@
+ 
+ #: LYMessages.c:175
+ msgid "The resource requested is not available at this time."
+-msgstr "Resursen du begärt är inte tillgänglig just nu."
++msgstr "Resursen du har begärt är inte tillgänglig just nu."
+ 
+ #: LYMessages.c:176
+ msgid "Enter Lynx keystroke command: "
+-msgstr "Ange Lynxtangentkommando: "
++msgstr "Ange Lynx-tangentkommando: "
+ 
+ #: LYMessages.c:177
+ msgid "Looking up "
+@@ -446,7 +461,7 @@
+ #: LYMessages.c:179
+ #, c-format
+ msgid "Skipping %s"
+-msgstr "Hoppas över %s"
++msgstr "Hoppar över %s"
+ 
+ #: LYMessages.c:180
+ #, c-format
+@@ -461,7 +476,7 @@
+ #: LYMessages.c:182
+ #, c-format
+ msgid "Badly formed address %s"
+-msgstr "Trasig adress %s"
++msgstr "Felaktigt formaterad adress %s"
+ 
+ #: LYMessages.c:183
+ #, c-format
+@@ -515,7 +530,8 @@
+ #. #define NOVICE_LINE_TWO_C
+ #: LYMessages.c:200
+ msgid "O)ther cmds  C)omment  History: <backspace>  Bookmarks: V)iew, A)dd, R)emove \n"
+-msgstr "O=Fler  C=Kommentera  Historik: backsteg  Bokmärken: V=Visa A=Nytt R=Ta bort \n"
++msgstr "O=Fler kommandon C=Kommentera Historik: backsteg Bokmärken: V=Visa A=Lägg "
++"till R=Ta bort \n"
+ 
+ #. #define FORM_NOVICELINE_ONE
+ #: LYMessages.c:202
+@@ -525,33 +541,33 @@
+ #. #define FORM_NOVICELINE_TWO
+ #: LYMessages.c:204
+ msgid "    Ctrl-U to delete all text in field, [Backspace] to delete a character    "
+-msgstr "        Ctrl-U tömmer inmatningsfältet, [Backsteg] tar bort en bokstav       "
++msgstr "Ctrl-U tömmer inmatningsfältet, [Backsteg] tar bort ett tecken"
+ 
+ #. #define FORM_NOVICELINE_TWO_DELBL
+ #: LYMessages.c:206
+ msgid "      Ctrl-U to delete text in field, [Backspace] to delete a character    "
+-msgstr "        Ctrl-U tömmer inmatningsfältet, [Backsteg] tar bort en bokstav     "
++msgstr "Ctrl-U tömmer inmatningsfältet, [Backsteg] tar bort ett tecken"
+ 
+ #. #define FORM_NOVICELINE_TWO_VAR
+ #: LYMessages.c:208
+ #, c-format
+ msgid "    %s to delete all text in field, [Backspace] to delete a character    "
+-msgstr "       %s tömmer inmatningsfältet, [Backsteg] tar bort en bokstav        "
++msgstr "%s tömmer inmatningsfältet, [Backsteg] tar bort ett tecken"
+ 
+ #. #define FORM_NOVICELINE_TWO_DELBL_VAR
+ #: LYMessages.c:210
+ #, c-format
+ msgid "      %s to delete text in field, [Backspace] to delete a character    "
+-msgstr "       %s tömmer inmatningsfältet, [Backsteg] tar bort en bokstav      "
++msgstr "%s tömmer inmatningsfältet, [Backsteg] tar bort ett tecken"
+ 
+ #. mailto
+ #: LYMessages.c:213
+ msgid "Malformed mailto form submission!  Cancelled!"
+-msgstr "Trasig \"mailto\" i formulär! Avbryter!"
++msgstr "Felaktig formulärskickning med mailto! Avbrutet!"
+ 
+ #: LYMessages.c:214
+ msgid "Warning!  Control codes in mail address replaced by ?"
+-msgstr "Varning!  Kontrollkoder i e-postadress ersatta med frågetecken"
++msgstr "Varning! Kontrollkoder i e-postadressen ersattes med frågetecken"
+ 
+ #: LYMessages.c:215
+ msgid "Mail disallowed!  Cannot submit."
+@@ -563,7 +579,7 @@
+ 
+ #: LYMessages.c:217
+ msgid "Mailto form submission Cancelled!!!"
+-msgstr "Insändning av e-postformulär avbruten!!!"
++msgstr "Skickandet av e-postformulär avbröts!!!"
+ 
+ #: LYMessages.c:218
+ msgid "Sending form content..."
+@@ -571,12 +587,12 @@
+ 
+ #: LYMessages.c:219
+ msgid "No email address is present in mailto URL!"
+-msgstr "Ingen e-postadress i \"mailto\"-fältet!"
++msgstr "Ingen e-postadress finns i mailto-adressen!"
+ 
+ #. #define MAILTO_URL_TEMPOPEN_FAILED
+ #: LYMessages.c:221
+ msgid "Unable to open temporary file for mailto URL!"
+-msgstr "Kan inte öppna temporärfil för \"mailto\"-adress!"
++msgstr "Det går inte att öppna en temporärfil för mailto-adressen!"
+ 
+ #. #define INC_ORIG_MSG_PROMPT
+ #: LYMessages.c:223
+@@ -591,12 +607,12 @@
+ #. #define SPAWNING_EDITOR_FOR_MAIL
+ #: LYMessages.c:227
+ msgid "Spawning your selected editor to edit mail message"
+-msgstr "Startar ditt valda textredigeringsprogram för att skriva brevet"
++msgstr "Startar den valda redigeraren för att redigera e-postmeddelandet"
+ 
+ #. #define ERROR_SPAWNING_EDITOR
+ #: LYMessages.c:229
+ msgid "Error spawning editor, check your editor definition in the options menu"
+-msgstr "Fel vid start av textredigeringsprogram, se inställningar i valmenyn"
++msgstr "Fel vid start av redigeraren, kontrollera redigerarinställningen i valmenyn"
+ 
+ #: LYMessages.c:230
+ msgid "Send this comment?"
+@@ -625,12 +641,12 @@
+ 
+ #: LYMessages.c:239
+ msgid "file: ACTIONs are disallowed!"
+-msgstr "file:-formulärmål tillåts inte!"
++msgstr "file:-åtgärder tillåts inte!"
+ 
+ #. #define FILE_SERVED_LINKS_DISALLOWED
+ #: LYMessages.c:241
+ msgid "file: URLs via served links are disallowed!"
+-msgstr "file:-adresser i givna adresser tillåts ej!"
++msgstr "file:-adresser via serverade länkar tillåts inte!"
+ 
+ #: LYMessages.c:242
+ msgid "Access to local files denied."
+@@ -647,7 +663,7 @@
+ 
+ #: LYMessages.c:246
+ msgid "Press <return> to return to Lynx."
+-msgstr "Tryck <Enter> för att återgå till Lynx."
++msgstr "Tryck på <Enter> för att återgå till Lynx."
+ 
+ #. #define SPAWNING_MSG
+ #: LYMessages.c:249
+@@ -662,11 +678,11 @@
+ #. #define SPAWNING_MSG
+ #: LYMessages.c:256
+ msgid "Spawning your default shell.  Use 'exit' to return to Lynx.\n"
+-msgstr "Startar ditt valda skal. Skriv \"exit\" för att återgå till Lynx.\n"
++msgstr "Startar ditt standardskal. Skriv ”exit” för att återgå till Lynx.\n"
+ 
+ #: LYMessages.c:259
+ msgid "Spawning is currently disabled."
+-msgstr "Start av externa program tillåts ej just nu."
++msgstr "Start av externa program är för närvarande inaktiverad."
+ 
+ #: LYMessages.c:260
+ msgid "The 'd'ownload command is currently disabled."
+@@ -678,11 +694,11 @@
+ 
+ #: LYMessages.c:262
+ msgid "Form has a mailto action!  Cannot download."
+-msgstr "Detta är ett e-postformulär! Kan inte hämta."
++msgstr "Formuläret har en mailto-åtgärd! Det går inte att hämta."
+ 
+ #: LYMessages.c:263
+ msgid "You cannot download a mailto: link."
+-msgstr "Du kan inte hämta en mailto:-länk."
++msgstr "Du kan inte hämta en mailto:-adress."
+ 
+ #: LYMessages.c:264
+ msgid "You cannot download cookies."
+@@ -698,7 +714,7 @@
+ 
+ #: LYMessages.c:267
+ msgid "You cannot download an permit option."
+-msgstr "Du kan inte hämta en inställning."
++msgstr "Du kan inte hämta en behörighetsinställning."
+ 
+ #: LYMessages.c:268
+ msgid "This special URL cannot be downloaded!"
+@@ -729,7 +745,7 @@
+ #. #define PSEUDO_INLINE_ALTS_ON
+ #: LYMessages.c:277
+ msgid "Pseudo_ALTs will be inserted for inlines without ALT strings!  Reloading..."
+-msgstr "\"Pseudo-ALT\" sätts in för bilder som saknar ALT-strängar! Hämtar om..."
++msgstr "Pseudo-ALT sätts in för inlinebilder som saknar ALT-strängar! Hämtar om..."
+ 
+ #. #define PSEUDO_INLINE_ALTS_OFF
+ #: LYMessages.c:279
+@@ -764,7 +780,7 @@
+ 
+ #: LYMessages.c:288
+ msgid "Sorry, the ACTION for this form is disabled."
+-msgstr "Tyvärr, formulärmålet detta formulär är avstängt."
++msgstr "Tyvärr är formulärmålet för detta formulär inaktiverat."
+ 
+ #. #define FORM_ACTION_NOT_HTTP_URL
+ #: LYMessages.c:290
+@@ -785,7 +801,7 @@
+ 
+ #: LYMessages.c:294
+ msgid "News posting is disabled!"
+-msgstr "Postning av artiklar deaktiverad!"
++msgstr "Publicering av nyhetsartiklar är inaktiverad!"
+ 
+ #: LYMessages.c:295
+ msgid "File management support is disabled!"
+@@ -809,7 +825,7 @@
+ 
+ #: LYMessages.c:300
+ msgid "No random URLs have been used thus far."
+-msgstr "Inga slumpmässiga adresser har ännu används."
++msgstr "Inga slumpmässiga adresser har använts hittills."
+ 
+ #: LYMessages.c:301
+ msgid "Bookmark features are currently disabled."
+@@ -817,13 +833,13 @@
+ 
+ #: LYMessages.c:302
+ msgid "Execution via bookmarks is disabled."
+-msgstr "Programkörning via bokmärken är deaktiverat."
++msgstr "Programkörning via bokmärken är inaktiverad."
+ 
+ #. #define BOOKMARK_FILE_NOT_DEFINED
+ #: LYMessages.c:304
+ #, c-format
+ msgid "Bookmark file is not defined. Use %s to see options."
+-msgstr "Bokmärkesfil ej definierad. Använd %s för att se alternativ."
++msgstr "Ingen bokmärkesfil är definierad. Använd %s för att se alternativen."
+ 
+ #. #define NO_TEMP_FOR_HOTLIST
+ #: LYMessages.c:306
+@@ -842,7 +858,7 @@
+ #. #define BOOKSCRA_OPEN_FAILED_FOR_DEL
+ #: LYMessages.c:311
+ msgid "Unable to open scratch file for deletion of link."
+-msgstr "Kan inte öppna skräpfil för borttagning av länk."
++msgstr "Det går inte att öppna arbetsfilen för att ta bort länken."
+ 
+ #: LYMessages.c:313
+ msgid "Error renaming scratch file."
+@@ -865,7 +881,7 @@
+ #. #define BOOKMARK_LINK_NOT_ONE_LINE
+ #: LYMessages.c:322
+ msgid "Link is not by itself all on one line in bookmark file."
+-msgstr "Länk är inte själv helt på en rad i bokmärkesfilen."
++msgstr "Länken ligger inte ensam på en rad i bokmärkesfilen."
+ 
+ #: LYMessages.c:323
+ msgid "Bookmark deletion failed."
+@@ -906,7 +922,7 @@
+ #. #define NOBOOK_POST_FORM
+ #: LYMessages.c:336
+ msgid "Documents from forms with POST content cannot be saved as bookmarks."
+-msgstr "Dokument från \"POST\"-formulär kan inte lagras som bokmärken."
++msgstr "Dokument från formulär med POST-innehåll kan inte sparas som bokmärken."
+ 
+ #: LYMessages.c:337
+ msgid "Cannot save form fields/links"
+@@ -924,7 +940,7 @@
+ 
+ #: LYMessages.c:342
+ msgid "Malformed address."
+-msgstr "Trasig adress."
++msgstr "Felaktigt formaterad adress."
+ 
+ #. #define HISTORICAL_ON_MINIMAL_OFF
+ #: LYMessages.c:344
+@@ -968,11 +984,11 @@
+ 
+ #: LYMessages.c:359
+ msgid "Soft double-quote parsing ON!"
+-msgstr "Mjuk citationsteckenstolkning PÅ!"
++msgstr "Tolkning av mjuka dubbla citattecken PÅ!"
+ 
+ #: LYMessages.c:360
+ msgid "Soft double-quote parsing OFF!"
+-msgstr "Mjuk citationsteckenstolkning AV!"
++msgstr "Tolkning av mjuka dubbla citattecken AV!"
+ 
+ #: LYMessages.c:361
+ msgid "Now using TagSoup parsing of HTML."
+@@ -998,7 +1014,7 @@
+ #: LYMessages.c:366
+ #, c-format
+ msgid "Link number %d already is current."
+-msgstr "Länk nummer %d är redan nuvarande."
++msgstr "Länk nummer %d är redan den aktuella länken."
+ 
+ #: LYMessages.c:367
+ msgid "You are already at the first document"
+@@ -1015,7 +1031,7 @@
+ #. #define MAXLEN_REACHED_DEL_OR_MOV
+ #: LYMessages.c:371
+ msgid "Maximum length reached!  Delete text or move off field."
+-msgstr "Maximal längd nådd! Ta bort text eller lämna fältet."
++msgstr "Maximal längd har nåtts! Ta bort text eller lämna fältet."
+ 
+ #. #define NOT_ON_SUBMIT_OR_LINK
+ #: LYMessages.c:373
+@@ -1029,7 +1045,7 @@
+ 
+ #: LYMessages.c:376
+ msgid "No submit button for this form, submit single text field?"
+-msgstr "Ingen insändningsknapp i formuläret, skicka ensamt textfält?"
++msgstr "Ingen skickaknapp för formuläret, skicka det enda textfältet?"
+ 
+ #: LYMessages.c:377
+ msgid "Do you want to go back to the previous document?"
+@@ -1037,12 +1053,12 @@
+ 
+ #: LYMessages.c:378
+ msgid "Use arrows or tab to move off of field."
+-msgstr "Använd pilar eller tabb för att lämna."
++msgstr "Använd piltangenterna eller tabbtangenten för att lämna fältet."
+ 
+ #. #define ENTER_TEXT_ARROWS_OR_TAB
+ #: LYMessages.c:380
+ msgid "Enter text.  Use arrows or tab to move off of field."
+-msgstr "Ange text. Använd pilar eller tabb för att lämna."
++msgstr "Ange text. Använd piltangenterna eller tabbtangenten för att lämna fältet."
+ 
+ #: LYMessages.c:381
+ msgid "** Bad HTML!!  No form action defined. **"
+@@ -1075,15 +1091,15 @@
+ 
+ #: LYMessages.c:388
+ msgid "Edit the current Goto URL: "
+-msgstr "Redigera aktuell gåadress: "
++msgstr "Redigera aktuell Goto-adress: "
+ 
+ #: LYMessages.c:389
+ msgid "Edit the previous Goto URL: "
+-msgstr "Redigera föregående gåadress: "
++msgstr "Redigera föregående Goto-adress: "
+ 
+ #: LYMessages.c:390
+ msgid "Edit a previous Goto URL: "
+-msgstr "Redigera en tidigare gåadress: "
++msgstr "Redigera en tidigare Goto-adress: "
+ 
+ #: LYMessages.c:391
+ msgid "Current document has POST data."
+@@ -1099,7 +1115,7 @@
+ 
+ #: LYMessages.c:394
+ msgid "Edit the form's submit-URL: "
+-msgstr "Redigera formulärets mottagaradress: "
++msgstr "Redigera formulärets skickadress: "
+ 
+ #: LYMessages.c:395
+ msgid "You cannot edit File Management URLs"
+@@ -1128,7 +1144,7 @@
+ #. #define USE_C_R_TO_RESUB_CUR_QUERY
+ #: LYMessages.c:402
+ msgid "Use Control-R to resubmit the current query."
+-msgstr "Använd Control-R för att skicka frågan på nytt."
++msgstr "Använd Ctrl-R för att skicka den aktuella frågan på nytt."
+ 
+ #: LYMessages.c:403
+ msgid "Edit the current shortcut: "
+@@ -1140,7 +1156,7 @@
+ 
+ #: LYMessages.c:405
+ msgid "Edit a previous shortcut: "
+-msgstr "Redigera en tidigare genväg:"
++msgstr "Redigera en tidigare genväg: "
+ 
+ #: LYMessages.c:406
+ #, c-format
+@@ -1149,7 +1165,7 @@
+ 
+ #: LYMessages.c:407
+ msgid "Cannot locate jump file!"
+-msgstr "Kan inte lokalisera hoppfil!"
++msgstr "Kan inte hitta hoppfilen!"
+ 
+ #: LYMessages.c:408
+ msgid "Cannot open jump file!"
+@@ -1193,7 +1209,7 @@
+ #: LYMessages.c:420
+ #, c-format
+ msgid "No owner is defined. Use %s?"
+-msgstr "Ingen ägaren är angiven. Använda %s?"
++msgstr "Ingen ägare är angiven. Använd %s?"
+ 
+ #: LYMessages.c:421
+ msgid "Do you wish to send a comment?"
+@@ -1205,11 +1221,11 @@
+ 
+ #: LYMessages.c:423
+ msgid "The 'e'dit command is currently disabled."
+-msgstr "Redigeringskommandot är just nu deaktiverat."
++msgstr "Redigeringskommandot är inaktiverat."
+ 
+ #: LYMessages.c:424
+ msgid "External editing is currently disabled."
+-msgstr "Extern redigering är just nu deaktiverad."
++msgstr "Extern redigering är inaktiverad."
+ 
+ #: LYMessages.c:425
+ msgid "System error - failure to get status."
+@@ -1217,23 +1233,23 @@
+ 
+ #: LYMessages.c:426
+ msgid "No editor is defined!"
+-msgstr "Inget textredigeringsprogram har angivits!"
++msgstr "Ingen redigerare har angetts!"
+ 
+ #: LYMessages.c:427
+ msgid "The 'p'rint command is currently disabled."
+-msgstr "Utskriftskommandot är just nu deaktiverat."
++msgstr "Utskriftskommandot är inaktiverat."
+ 
+ #: LYMessages.c:428
+ msgid "Document has no Toolbar links or Banner."
+-msgstr "Dokumentet har varken verktygsradslänkar eller baner."
++msgstr "Dokumentet har varken verktygsfältslänkar eller baner."
+ 
+ #: LYMessages.c:429
+ msgid "Unable to open traversal file."
+-msgstr "Kan inte öppna traverseringsfil."
++msgstr "Kan inte öppna genomsökningsfilen."
+ 
+ #: LYMessages.c:430
+ msgid "Unable to open traversal found file."
+-msgstr "Kan inte öppna traverseringens resultatfil."
++msgstr "Kan inte öppna resultatfilen för genomgången."
+ 
+ #: LYMessages.c:431
+ msgid "Unable to open reject file."
+@@ -1241,7 +1257,7 @@
+ 
+ #: LYMessages.c:432
+ msgid "Unable to open traversal errors output file"
+-msgstr "Kan inte öppna traverseringens felfil."
++msgstr "Kan inte öppna felfilen för genomgången."
+ 
+ #: LYMessages.c:433
+ msgid "TRAVERSAL WAS INTERRUPTED"
+@@ -1249,7 +1265,7 @@
+ 
+ #: LYMessages.c:434
+ msgid "Follow link (or goto link or page) number: "
+-msgstr "Följ länk (eller gå till länk eller sida) nummer: "
++msgstr "Ange numret på länken (eller länken eller sidan) som ska följas: "
+ 
+ #: LYMessages.c:435
+ msgid "Select option (or page) number: "
+@@ -1286,11 +1302,11 @@
+ 
+ #: LYMessages.c:445
+ msgid "Give name of file to save in"
+-msgstr "Ange filnamn att spara till"
++msgstr "Ange namnet på filen som ska sparas"
+ 
+ #: LYMessages.c:446
+ msgid "Can't save data to file -- please run WWW locally"
+-msgstr "Kan inte spara data till fil -- kör lokal webbläsare"
++msgstr "Kan inte spara data till fil – kör WWW lokalt"
+ 
+ #: LYMessages.c:447
+ msgid "Can't open temporary file!"
+@@ -1302,18 +1318,19 @@
+ 
+ #: LYMessages.c:449
+ msgid "Execution is disabled."
+-msgstr "Programkörning deaktiverad."
++msgstr "Programkörning är inaktiverad."
+ 
+ #. #define EXECUTION_DISABLED_FOR_FILE
+ #: LYMessages.c:451
+ #, c-format
+ msgid "Execution is not enabled for this file.  See the Options menu (use %s)."
+-msgstr "Programkörning inte aktiverad för denna fil. Se alternativmeny (använd %s)."
++msgstr "Programkörning är inte aktiverad för denna fil. Se alternativmenyn (använd "
++"%s)."
+ 
+ #. #define EXECUTION_NOT_COMPILED
+ #: LYMessages.c:453
+ msgid "Execution capabilities are not compiled into this version."
+-msgstr "Programkörningsmöjligheter inte inkompilerade i denna version."
++msgstr "Programkörningsfunktioner har inte kompilerats in i denna version."
+ 
+ #: LYMessages.c:454
+ msgid "This file cannot be displayed on this terminal."
+@@ -1331,11 +1348,11 @@
+ 
+ #: LYMessages.c:458
+ msgid "Cancelling file."
+-msgstr "Avbryter fil."
++msgstr "Avbryter filhämtningen."
+ 
+ #: LYMessages.c:459
+ msgid "Retrieving file.  - PLEASE WAIT -"
+-msgstr "Hämtar fil. - VÄNLIGEN VÄNTA -"
++msgstr "Hämtar fil. – VÄNTA –"
+ 
+ #: LYMessages.c:460
+ msgid "Enter a filename: "
+@@ -1359,11 +1376,11 @@
+ 
+ #: LYMessages.c:466
+ msgid "File exists.  Create higher version?"
+-msgstr "Filen existerar. Skapa en högre version?"
++msgstr "Filen finns redan. Skapa en högre version?"
+ 
+ #: LYMessages.c:468
+ msgid "File exists.  Overwrite?"
+-msgstr "Filen existerar. Skriva över?"
++msgstr "Filen finns redan. Skriva över?"
+ 
+ #: LYMessages.c:470
+ msgid "Cannot write to file."
+@@ -1413,7 +1430,7 @@
+ #. #define CANNOT_EDIT_REMOTE_FILES
+ #: LYMessages.c:482
+ msgid "Lynx cannot currently (e)dit remote WWW files."
+-msgstr "Lynx kan ännu inte redigera fjärrwebbfiler."
++msgstr "Lynx kan för närvarande inte redigera fjärranslutna webbfiler."
+ 
+ #. #define CANNOT_EDIT_FIELD
+ #: LYMessages.c:484
+@@ -1430,7 +1447,7 @@
+ 
+ #: LYMessages.c:487
+ msgid "You are not authorized to edit this file."
+-msgstr "Du har inte rättighet att redigera filen."
++msgstr "Du har inte behörighet att redigera filen."
+ 
+ #: LYMessages.c:488
+ msgid "Title: "
+@@ -1458,19 +1475,19 @@
+ 
+ #: LYMessages.c:494
+ msgid "Clear all authorization info for this session?"
+-msgstr "Rensa all auktoriseringsinformation från denna session?"
++msgstr "Rensa all autentiseringsinformation för den här sessionen?"
+ 
+ #: LYMessages.c:495
+ msgid "Authorization info cleared."
+-msgstr "Auktoriseringsinformation rensad."
++msgstr "Autentiseringsinformationen rensades."
+ 
+ #: LYMessages.c:496
+ msgid "Authorization failed.  Retry?"
+-msgstr "Auktorisering misslyckades. Försök igen?"
++msgstr "Autentiseringen misslyckades. Försök igen?"
+ 
+ #: LYMessages.c:497
+ msgid "cgi support has been disabled."
+-msgstr "cgi-stöd har deaktiverats."
++msgstr "CGI-stöd har inaktiverats."
+ 
+ #. #define CGI_NOT_COMPILED
+ #: LYMessages.c:499
+@@ -1480,7 +1497,7 @@
+ #: LYMessages.c:500
+ #, c-format
+ msgid "Sorry, no known way of converting %s to %s."
+-msgstr "Tyvärr, kan inte konvertera %s till %s."
++msgstr "Tyvärr finns inget känt sätt att konvertera %s till %s."
+ 
+ #: LYMessages.c:501
+ msgid "Unable to set up connection."
+@@ -1493,7 +1510,7 @@
+ #. #define MALFORMED_EXEC_REQUEST
+ #: LYMessages.c:504
+ msgid "Executable link rejected due to malformed request."
+-msgstr "Körbar länk förkastad på grund av trasig förfrågan."
++msgstr "Körbar länk förkastades på grund av felaktig förfrågan."
+ 
+ #. #define BADCHAR_IN_EXEC_LINK
+ #: LYMessages.c:506
+@@ -1513,7 +1530,7 @@
+ 
+ #: LYMessages.c:511
+ msgid "Mail access is disabled!"
+-msgstr "Åtkomst till e-post deaktiverad!"
++msgstr "Åtkomst till e-post är inaktiverad!"
+ 
+ #. #define ACCESS_ONLY_LOCALHOST
+ #: LYMessages.c:513
+@@ -1527,7 +1544,7 @@
+ #. #define TELNET_PORT_SPECS_DISABLED
+ #: LYMessages.c:516
+ msgid "Telnet port specifications are disabled."
+-msgstr "Specificering av telnetport är deaktiverad."
++msgstr "Angivande av Telnet-port är inaktiverat."
+ 
+ #: LYMessages.c:517
+ msgid "USENET news access is disabled!"
+@@ -1547,7 +1564,7 @@
+ 
+ #: LYMessages.c:521
+ msgid "There are only hidden links from this document."
+-msgstr "Det finns inga dolda länkar i detta dokument."
++msgstr "Det finns bara dolda länkar i det här dokumentet."
+ 
+ #: LYMessages.c:523
+ msgid "Unable to open command file."
+@@ -1560,11 +1577,11 @@
+ #. #define SPAWNING_EDITOR_FOR_NEWS
+ #: LYMessages.c:527
+ msgid "Spawning your selected editor to edit news message"
+-msgstr "Startar ditt valda textredigeringsprogram för att redigera inlägg"
++msgstr "Startar den valda redigeraren för att redigera nyhetsinlägget"
+ 
+ #: LYMessages.c:528
+ msgid "Post this message?"
+-msgstr "Posta inlägget?"
++msgstr "Skicka det här inlägget?"
+ 
+ #: LYMessages.c:529
+ #, c-format
+@@ -1573,7 +1590,7 @@
+ 
+ #: LYMessages.c:530
+ msgid "Posting to newsgroup(s)..."
+-msgstr "Postar till diskussionsgrupp(er)..."
++msgstr "Skickar till nyhetsgrupp(er)…"
+ 
+ #: LYMessages.c:532
+ msgid "*** You have unread mail. ***"
+@@ -1593,7 +1610,7 @@
+ 
+ #: LYMessages.c:538
+ msgid "Not enough memory for file!"
+-msgstr "Minnet slut för fil!"
++msgstr "Inte tillräckligt med minne för filen!"
+ 
+ #: LYMessages.c:539
+ msgid "Can't open file for reading."
+@@ -1601,11 +1618,11 @@
+ 
+ #: LYMessages.c:540
+ msgid "File does not exist."
+-msgstr "Filen existerar inte."
++msgstr "Filen finns inte."
+ 
+ #: LYMessages.c:541
+ msgid "File does not exist - reenter or cancel:"
+-msgstr "Filen existerar inte - ange igen eller avbryt:"
++msgstr "Filen finns inte – ange på nytt eller avbryt:"
+ 
+ #: LYMessages.c:542
+ msgid "File is not readable."
+@@ -1625,7 +1642,7 @@
+ 
+ #: LYMessages.c:546
+ msgid "Mail request cancelled!!!"
+-msgstr "E-post avbrutet!!!"
++msgstr "E-postbegäran avbröts!!!"
+ 
+ #. #define CONFIRM_MAIL_SOURCE_PREPARSED
+ #: LYMessages.c:548
+@@ -1634,11 +1651,11 @@
+ 
+ #: LYMessages.c:549
+ msgid "Please wait..."
+-msgstr "Var god vänta..."
++msgstr "Vänta…"
+ 
+ #: LYMessages.c:550
+ msgid "Mailing file.  Please wait..."
+-msgstr "Skickar fil. Var god vänta..."
++msgstr "Skickar fil. Vänta…"
+ 
+ #: LYMessages.c:551
+ msgid "ERROR - Unable to mail file"
+@@ -1648,7 +1665,7 @@
+ #: LYMessages.c:553
+ #, c-format
+ msgid "File is %d screens long.  Are you sure you want to print?"
+-msgstr "Filen är %d skärmar lång. Är du säker att du vill skriva ut?"
++msgstr "Filen är %d skärmar lång. Är du säker på att du vill skriva ut?"
+ 
+ #: LYMessages.c:554
+ msgid "Print request cancelled!!!"
+@@ -1656,22 +1673,23 @@
+ 
+ #: LYMessages.c:555
+ msgid "Press <return> to begin: "
+-msgstr "Tryck <Enter> för att börja: "
++msgstr "Tryck på <Enter> för att börja: "
+ 
+ #: LYMessages.c:556
+ msgid "Press <return> to finish: "
+-msgstr "Tryck <Enter> för att avsluta: "
++msgstr "Tryck på <Enter> för att avsluta: "
+ 
+ #. #define CONFIRM_LONG_PAGE_PRINT
+ #: LYMessages.c:558
+ #, c-format
+ msgid "File is %d pages long.  Are you sure you want to print?"
+-msgstr "Filen är %d sidor lång. Är du säker att du vill skriva ut?"
++msgstr "Filen är %d sidor lång. Är du säker på att du vill skriva ut?"
+ 
+ #. #define CHECK_PRINTER
+ #: LYMessages.c:560
+ msgid "Be sure your printer is on-line.  Press <return> to start printing:"
+-msgstr "Försäkra dig om att skrivaren är inkopplad. Tryck <Enter> för att påbörja utskriften:"
++msgstr "Kontrollera att skrivaren är ansluten. Tryck på <Enter> för att börja skriva "
++"ut:"
+ 
+ #: LYMessages.c:561
+ msgid "ERROR - Unable to allocate file space!!!"
+@@ -1687,7 +1705,7 @@
+ 
+ #: LYMessages.c:564
+ msgid "Printing file.  Please wait..."
+-msgstr "Skriver ut fil. Var god vänta..."
++msgstr "Skriver ut fil. Vänta…"
+ 
+ #: LYMessages.c:565
+ msgid "Please enter a valid internet mail address: "
+@@ -1703,7 +1721,7 @@
+ 
+ #: LYMessages.c:568
+ msgid "Misdirected client-side image MAP request!"
+-msgstr "Feldirigerad klientbildkarteförfrågan!"
++msgstr "Felriktad bildkartförfrågan på klientsidan!"
+ 
+ #: LYMessages.c:569
+ msgid "Client-side image MAP is not accessible!"
+@@ -1734,7 +1752,7 @@
+ 
+ #: LYMessages.c:580
+ msgid "That key requires Advanced User mode."
+-msgstr "Den knappen kräver avancerat användarläge."
++msgstr "Den tangenten kräver avancerat användarläge."
+ 
+ #: LYMessages.c:581
+ #, c-format
+@@ -1771,15 +1789,15 @@
+ 
+ #: LYMessages.c:589
+ msgid "capital letter"
+-msgstr "stora bokstaven"
++msgstr "stor bokstav"
+ 
+ #: LYMessages.c:590
+ msgid " of option line,"
+-msgstr " i alternativet,"
++msgstr "i alternativraden,"
+ 
+ #: LYMessages.c:591
+ msgid " to save,"
+-msgstr " för att lagra,"
++msgstr "för att spara,"
+ 
+ #: LYMessages.c:592
+ msgid " to "
+@@ -1799,7 +1817,7 @@
+ 
+ #: LYMessages.c:596
+ msgid "Accept Changes"
+-msgstr "Bekräfta ändringar"
++msgstr "Godkänn ändringar"
+ 
+ #: LYMessages.c:597
+ msgid "Reset Changes"
+@@ -1811,20 +1829,21 @@
+ 
+ #: LYMessages.c:599
+ msgid "Save options to disk"
+-msgstr "Spara inställningar till disk"
++msgstr "Spara inställningar på disk"
+ 
+ #: LYMessages.c:600
+ msgid "Hit RETURN to accept entered data."
+-msgstr "Tryck ENTER för att bekräfta angiven data."
++msgstr "Tryck på ENTER för att godkänna angivna data."
+ 
+ #. #define ACCEPT_DATA_OR_DEFAULT
+ #: LYMessages.c:602
+ msgid "Hit RETURN to accept entered data.  Delete data to invoke the default."
+-msgstr "Tryck ENTER för att bekräfta angiven data. Ta bort för att återställa förval."
++msgstr "Tryck på ENTER för att godkänna angivna data. Ta bort data för att använda "
++"standardvärdet."
+ 
+ #: LYMessages.c:603
+ msgid "Value accepted!"
+-msgstr "Värdet accepterat!"
++msgstr "Värdet har godkänts!"
+ 
+ #. #define VALUE_ACCEPTED_WARNING_X
+ #: LYMessages.c:605
+@@ -1838,7 +1857,7 @@
+ 
+ #: LYMessages.c:608
+ msgid "You are not allowed to change which editor to use!"
+-msgstr "Du har inte rättighet att ändra textredigeringsprogram!"
++msgstr "Du har inte behörighet att ändra vilken redigerare som används!"
+ 
+ #: LYMessages.c:609
+ msgid "Failed to set DISPLAY variable!"
+@@ -1909,7 +1928,7 @@
+ #. #define ANY_KEY_CHANGE_RET_ACCEPT
+ #: LYMessages.c:630
+ msgid "Hit any key to change value; RETURN to accept."
+-msgstr "Valfri tangent ändrar, förutom ENTER som accepterar."
++msgstr "Tryck på valfri tangent för att ändra värdet; tryck på ENTER för att godkänna."
+ 
+ #: LYMessages.c:631
+ msgid "Error uncompressing temporary file!"
+@@ -1917,11 +1936,11 @@
+ 
+ #: LYMessages.c:632
+ msgid "Unsupported URL scheme!"
+-msgstr "Adresstypen stöds ej!"
++msgstr "URL-schemat stöds inte!"
+ 
+ #: LYMessages.c:633
+ msgid "Unsupported data: URL!  Use SHOWINFO, for now."
+-msgstr "Data stöds ej: URL! Använd SHOWINFO så länge."
++msgstr "data:-URL stöds inte! Använd SHOWINFO tills vidare."
+ 
+ #: LYMessages.c:634
+ #, c-format
+@@ -1936,11 +1955,11 @@
+ #: LYMessages.c:637
+ #, c-format
+ msgid "Server asked for %d redirection of POST content to"
+-msgstr "Servern bad om %d-omdirigering för POST-data till"
++msgstr "Servern begärde %d-omdirigering av POST-data till"
+ 
+ #: LYMessages.c:640
+ msgid "P)roceed, use G)ET or C)ancel "
+-msgstr "P=Fortsätt, G=använd Get, C=Avbryt"
++msgstr "P=Fortsätt, G=använd GET, C=Avbryt"
+ 
+ #: LYMessages.c:641
+ msgid "P)roceed, or C)ancel "
+@@ -2002,7 +2021,7 @@
+ 
+ #: LYMessages.c:660
+ msgid "Discarding POST data..."
+-msgstr "Kastar POST-data..."
++msgstr "Förkastar POST-data…"
+ 
+ #: LYMessages.c:661
+ msgid "Document will not be reloaded!"
+@@ -2023,7 +2042,7 @@
+ 
+ #: LYMessages.c:665
+ msgid "Screen too small! (8x35 min)"
+-msgstr "Skärm för liten! (min. 8x35)"
++msgstr "Skärmen är för liten! (minst 8×35)"
+ 
+ #: LYMessages.c:666
+ msgid "Select destination or ^G to Cancel: "
+@@ -2037,7 +2056,7 @@
+ #. #define MULTIBOOKMARKS_SELF
+ #: LYMessages.c:670
+ msgid "Reproduce L)ink in this bookmark file or C)ancel? (l,c): "
+-msgstr "L=Avbilda länk i bokmärkesfil, C=Avbryt? (l,c): "
++msgstr "L=Återskapa länk i bokmärkesfilen, C=Avbryt? (l,c): "
+ 
+ #: LYMessages.c:671
+ msgid "Multiple bookmark support is not available."
+@@ -2046,7 +2065,7 @@
+ #: LYMessages.c:672
+ #, c-format
+ msgid " Select Bookmark (screen %d of %d)"
+-msgstr " Välj bokmärke (skärm %d av %d)"
++msgstr "Välj bokmärke (sida %d av %d)"
+ 
+ #: LYMessages.c:673
+ msgid "       Select Bookmark"
+@@ -2070,16 +2089,17 @@
+ #. #define USE_PATH_OFF_HOME
+ #: LYMessages.c:681
+ msgid "Use a filepath off your login directory in SHELL syntax!"
+-msgstr "Använd en sökväg från din inloggningskatalog enligt SKAL-syntax!"
++msgstr "Använd en sökväg relativt din inloggningskatalog enligt skalets syntax!"
+ 
+ #: LYMessages.c:683
+ msgid "Use a filepath off your home directory!"
+-msgstr "Använd en sökväg från din hemkatalog!"
++msgstr "Använd en sökväg relativt din hemkatalog!"
+ 
+ #. #define MAXLINKS_REACHED
+ #: LYMessages.c:686
+ msgid "Maximum links per page exceeded!  Use half-page or two-line scrolling."
+-msgstr "Max antal länkar per sida överskreds! Använd halvsides- eller tvåradsrullning."
++msgstr "Maximalt antal länkar per sida har överskridits! Använd halvside- eller "
++"tvåradsrullning."
+ 
+ #: LYMessages.c:687
+ msgid "No previously visited links available!"
+@@ -2087,7 +2107,7 @@
+ 
+ #: LYMessages.c:688
+ msgid "Memory exhausted!  Program aborted!"
+-msgstr "Minnet slut! Programmet avbrutet!"
++msgstr "Minnet är slut! Programmet avbröts!"
+ 
+ #: LYMessages.c:689
+ msgid "Memory exhausted!  Aborting..."
+@@ -2095,7 +2115,7 @@
+ 
+ #: LYMessages.c:690
+ msgid "Not enough memory!"
+-msgstr "Ej tillräckligt minne!"
++msgstr "Inte tillräckligt med minne!"
+ 
+ #: LYMessages.c:691
+ msgid "Directory/File Manager not available"
+@@ -2103,11 +2123,11 @@
+ 
+ #: LYMessages.c:692
+ msgid "Location URL is not absolute."
+-msgstr "\"Location\"-adress ej absolut."
++msgstr "Location-adressen är inte absolut."
+ 
+ #: LYMessages.c:693
+ msgid "Refresh URL is not absolute."
+-msgstr "\"Refresh\"-adress ej absolut."
++msgstr "Refresh-adressen är inte absolut."
+ 
+ #. #define SENDING_MESSAGE_WITH_BODY_TO
+ #: LYMessages.c:695
+@@ -2115,7 +2135,7 @@
+ "You are sending a message with body to:\n"
+ "  "
+ msgstr ""
+-"Du sänder ett meddelande med textkropp till:\n"
++"Du skickar ett meddelande med meddelandetext till:\n"
+ "  "
+ 
+ #: LYMessages.c:696
+@@ -2178,7 +2198,7 @@
+ #. #define MEANS_TO_CONTACT_FOR_RESPONSE
+ #: LYMessages.c:706
+ msgid " means to contact you, if you desire a response.\n"
+-msgstr " sätt du kan nås på, om du vill ha ett svar.\n"
++msgstr "ett sätt att nå dig på, om du vill ha ett svar.\n"
+ 
+ #: LYMessages.c:707
+ msgid ""
+@@ -2186,7 +2206,7 @@
+ " Please enter a subject line.\n"
+ msgstr ""
+ "\n"
+-" Ange en ärenderad.\n"
++"Ange en ämnesrad.\n"
+ 
+ #. #define ENTER_ADDRESS_FOR_CC
+ #: LYMessages.c:709
+@@ -2217,7 +2237,7 @@
+ "Press RETURN to continue: "
+ msgstr ""
+ "\n"
+-"Tryck ENTER för att fortsätta: "
++"Tryck på ENTER för att fortsätta: "
+ 
+ #: LYMessages.c:713
+ msgid ""
+@@ -2225,7 +2245,7 @@
+ "Press RETURN to clean up: "
+ msgstr ""
+ "\n"
+-"Tryck ENTER för att städa upp: "
++"Tryck på ENTER för att städa upp: "
+ 
+ #: LYMessages.c:714
+ msgid " Use Control-U to erase the default.\n"
+@@ -2246,7 +2266,7 @@
+ " When you are done, press enter and put a single period (.)"
+ msgstr ""
+ "\n"
+-" När du är klar, tryck Enter och skriv en ensam punkt (.)"
++"När du är klar trycker du på Enter och skriver en ensam punkt (.)"
+ 
+ #. #define ENTER_PERIOD_WHEN_DONE_B
+ #: LYMessages.c:719 src/LYNews.c:361
+@@ -2255,26 +2275,26 @@
+ " on a line and press enter again."
+ msgstr ""
+ "\n"
+-" på en rad och tryck Enter igen."
++"på en rad och trycker sedan på Enter igen."
+ 
+ #. Cookies messages
+ #. #define ADVANCED_COOKIE_CONFIRMATION
+ #: LYMessages.c:723
+ #, c-format
+ msgid "%s cookie: %.*s=%.*s  Allow? (Y/N/Always/neVer)"
+-msgstr "%s kaka: %.*s=%.*s  Tillåta? (J/N/Alltid/aLdrig)"
++msgstr "%s kaka: %.*s=%.*s Tillåt? (J/N/Alltid/aLdrig)"
+ 
+ #. #define INVALID_COOKIE_DOMAIN_CONFIRMATION
+ #: LYMessages.c:725
+ #, c-format
+ msgid "Accept invalid cookie domain=%s for '%s'?"
+-msgstr "Tillåta ogiltig kakdomän=%s för \"%s\"?"
++msgstr "Tillåt ogiltig kakdomän=%s för ”%s”?"
+ 
+ #. #define INVALID_COOKIE_PATH_CONFIRMATION
+ #: LYMessages.c:727
+ #, c-format
+ msgid "Accept invalid cookie path=%s as a prefix of '%s'?"
+-msgstr "Tillåta ogiltig kaksökväg=%s som prefix för \"%s\"?"
++msgstr "Tillåt ogiltig kaksökväg=%s som prefix för ”%s”?"
+ 
+ #: LYMessages.c:728
+ msgid "Allowing this cookie."
+@@ -2295,7 +2315,7 @@
+ #. #define ACTIVATE_TO_GOBBLE
+ #: LYMessages.c:733
+ msgid "Activate links to gobble up cookies or entire domains,"
+-msgstr "Aktivera länk för att äta upp kakor eller hela domäner,"
++msgstr "Aktivera länkar för att äta upp kakor eller hela domäner,"
+ 
+ #: LYMessages.c:734
+ msgid "or to change a domain's 'allow' setting."
+@@ -2303,23 +2323,23 @@
+ 
+ #: LYMessages.c:735
+ msgid "(Cookies never allowed.)"
+-msgstr "(Kakor tillåts aldrig)"
++msgstr "(Kakor tillåts aldrig.)"
+ 
+ #: LYMessages.c:736
+ msgid "(Cookies always allowed.)"
+-msgstr "(Kakor tillåts alltid)"
++msgstr "(Kakor tillåts alltid.)"
+ 
+ #: LYMessages.c:737
+ msgid "(Cookies allowed via prompt.)"
+-msgstr "(Kakor tillåts via fråga)"
++msgstr "(Kakor tillåts efter fråga.)"
+ 
+ #: LYMessages.c:738
+ msgid "(Persistent Cookies.)"
+-msgstr "(Persistenta kakor)"
++msgstr "(Beständiga kakor.)"
+ 
+ #: LYMessages.c:739
+ msgid "(No title.)"
+-msgstr "(Titel saknas)"
++msgstr "(Ingen titel.)"
+ 
+ #: LYMessages.c:740
+ msgid "(No name.)"
+@@ -2335,7 +2355,7 @@
+ 
+ #: LYMessages.c:743
+ msgid "(End of session.)"
+-msgstr "(Slut på session)"
++msgstr "Ingen"
+ 
+ #: LYMessages.c:744
+ msgid "Delete this cookie?"
+@@ -2392,16 +2412,16 @@
+ 
+ #: LYMessages.c:759
+ msgid "Port 19 not permitted in URLs."
+-msgstr "Port 19 ej tillåten i adress."
++msgstr "Port 19 tillåts inte i URL:er."
+ 
+ #: LYMessages.c:760
+ msgid "Port 25 not permitted in URLs."
+-msgstr "Port 25 ej tillåten i adress."
++msgstr "Port 25 tillåts inte i URL:er."
+ 
+ #: LYMessages.c:761
+ #, c-format
+ msgid "Port %lu not permitted in URLs."
+-msgstr "Port %lu ej tillåten i adress."
++msgstr "Port %lu tillåts inte i URL:er."
+ 
+ #: LYMessages.c:762
+ msgid "URL has a bad port field."
+@@ -2409,11 +2429,11 @@
+ 
+ #: LYMessages.c:763
+ msgid "Maximum nesting of HTML elements exceeded."
+-msgstr "Maximal stapling av HTML-element överskreds."
++msgstr "Maximalt nästningsdjup för HTML-element har överskridits."
+ 
+ #: LYMessages.c:764
+ msgid "Bad partial reference!  Stripping lead dots."
+-msgstr "Felaktig partiell referens! Raderar inledande punkter."
++msgstr "Felaktig partiell referens! Tar bort inledande punkter."
+ 
+ #: LYMessages.c:765
+ msgid "Trace Log open failed.  Trace off!"
+@@ -2421,7 +2441,7 @@
+ 
+ #: LYMessages.c:766
+ msgid "Lynx Trace Log"
+-msgstr "Lynx' spårningslogg"
++msgstr "Lynx spårningslogg"
+ 
+ #: LYMessages.c:767
+ msgid "No trace log has been started for this session."
+@@ -2435,12 +2455,12 @@
+ #. #define FORM_VALUE_TOO_LONG
+ #: LYMessages.c:771
+ msgid "Form field value exceeds buffer length!  Trim the tail."
+-msgstr "Värdet för formulärfält är längre än bufferten! Klipp på slutet."
++msgstr "Formulärfältsvärdet överskrider buffertlängden! Korta av slutet."
+ 
+ #. #define FORM_TAIL_COMBINED_WITH_HEAD
+ #: LYMessages.c:773
+ msgid "Modified tail combined with head of form field value."
+-msgstr "Modifierad avslutning kombinerad med huvudet i formulärfältsvärdet."
++msgstr "Den ändrade slutdelen kombinerades med början av formulärfältsvärdet."
+ 
+ #. HTFile.c
+ #: LYMessages.c:776
+@@ -2453,7 +2473,7 @@
+ 
+ #: LYMessages.c:778
+ msgid "Selective access is not enabled for this directory"
+-msgstr "Selektiv åtkomst är inte tillgänglig för denna katalog"
++msgstr "Selektiv åtkomst är inte aktiverad för den här katalogen"
+ 
+ #: LYMessages.c:779
+ msgid "Multiformat: directory scan failed."
+@@ -2465,7 +2485,7 @@
+ 
+ #: LYMessages.c:781
+ msgid "Can't access requested file."
+-msgstr "Kan inte komma åt vald fil."
++msgstr "Kan inte komma åt den begärda filen."
+ 
+ #: LYMessages.c:782
+ msgid "Could not find suitable representation for transmission."
+@@ -2532,7 +2552,7 @@
+ "Press the 's' key and enter search keywords.\n"
+ msgstr ""
+ "\n"
+-"Tryck \"s\"-tangenten och ange söknyckelord.\n"
++"Tryck på tangenten ”s” och ange söknyckelord.\n"
+ 
+ #: LYMessages.c:800
+ msgid ""
+@@ -2552,7 +2572,7 @@
+ 
+ #: LYMessages.c:803
+ msgid " Search Results"
+-msgstr " Sökresultats"
++msgstr " Sökresultat"
+ 
+ #: LYMessages.c:804
+ msgid "Sending CSO/PH request."
+@@ -2588,12 +2608,12 @@
+ 
+ #: LYMessages.c:810
+ msgid " person's name in the database.\n"
+-msgstr " persons namn i databasen.\n"
++msgstr " en persons namn i databasen.\n"
+ 
+ #. HTNews.c
+ #: LYMessages.c:813
+ msgid "Connection closed ???"
+-msgstr "Anslutning stängd???"
++msgstr "Anslutningen stängdes???"
+ 
+ #: LYMessages.c:814
+ msgid "Cannot open temporary file for news POST."
+@@ -2601,7 +2621,7 @@
+ 
+ #: LYMessages.c:815
+ msgid "This client does not contain support for posting to news with SSL."
+-msgstr "Denna klient innehåller inte stöd för att posta inlägg över SSL."
++msgstr "Den här klienten har inte stöd för att publicera nyhetsinlägg via SSL."
+ 
+ #. HTStyle.c
+ #: LYMessages.c:818
+@@ -2626,15 +2646,15 @@
+ 
+ #: LYMessages.c:825
+ msgid "Can't retry with authorization!  Contact the server's WebMaster."
+-msgstr "Kan inte försöka igen utan tillåtelse! Kontakta serverns ansvariga."
++msgstr "Kan inte försöka igen med autentisering! Kontakta serverns webbansvarige."
+ 
+ #: LYMessages.c:826
+ msgid "Can't retry with proxy authorization!  Contact the server's WebMaster."
+-msgstr "Kan ej försöka igen utan mellanserverauktorisering! Kontakta serverns ansvariga."
++msgstr "Kan inte försöka igen med proxyautentisering! Kontakta serverns webbansvarige."
+ 
+ #: LYMessages.c:827
+ msgid "Retrying with proxy authorization information."
+-msgstr "Försöker igen med mellanserverauktoriseringsinformation."
++msgstr "Försöker igen med autentiseringsuppgifter för proxyservern."
+ 
+ #: LYMessages.c:828
+ #, c-format
+@@ -2653,7 +2673,7 @@
+ #. Miscellaneous status
+ #: LYMessages.c:835
+ msgid "Retrying as HTTP0 request."
+-msgstr "Försöker ingen som HTTP0-fråga."
++msgstr "Försöker igen som en HTTP0-förfrågan."
+ 
+ #: LYMessages.c:836
+ #, c-format
+@@ -2662,7 +2682,7 @@
+ 
+ #: LYMessages.c:837
+ msgid "Data transfer complete"
+-msgstr "Dataöverföring färdig"
++msgstr "Dataöverföringen är klar"
+ 
+ #: LYMessages.c:838
+ #, c-format
+@@ -2672,7 +2692,7 @@
+ #. Lynx internal page titles
+ #: LYMessages.c:841
+ msgid "Address List Page"
+-msgstr "Adresslistesida"
++msgstr "Adresslistsida"
+ 
+ #: LYMessages.c:842
+ msgid "Bookmark file"
+@@ -2700,7 +2720,7 @@
+ 
+ #: LYMessages.c:848
+ msgid "Download Options"
+-msgstr "Hämtningalternativ"
++msgstr "Hämtningsalternativ"
+ 
+ #: LYMessages.c:849
+ msgid "History Page"
+@@ -2712,7 +2732,7 @@
+ 
+ #: LYMessages.c:851
+ msgid "List Page"
+-msgstr "Listsida"
++msgstr "Listningssida"
+ 
+ #: LYMessages.c:852
+ msgid "Lynx.cfg Information"
+@@ -2720,7 +2740,7 @@
+ 
+ #: LYMessages.c:853
+ msgid "Converted Mosaic Hotlist"
+-msgstr "Konverterade Mosaicbokmärken"
++msgstr "Konverterad Mosaic-hotlist"
+ 
+ #: LYMessages.c:854
+ msgid "Options Menu"
+@@ -2744,11 +2764,11 @@
+ 
+ #: LYMessages.c:859
+ msgid "Upload Options"
+-msgstr "Insändningsalternativ"
++msgstr "Uppladdningsalternativ"
+ 
+ #: LYMessages.c:860
+ msgid "Visited Links Page"
+-msgstr "Använda länkar"
++msgstr "Besökta länkar"
+ 
+ #. CONFIG_DEF_TITLE subtitles
+ #: LYMessages.c:863
+@@ -2769,7 +2789,7 @@
+ 
+ #: LYMessages.c:867
+ msgid "color-style configuration"
+-msgstr "konfigurering av color-style"
++msgstr "färgstilskonfiguration"
+ 
+ #: LYMessages.c:868
+ msgid "latest release"
+@@ -2791,8 +2811,8 @@
+ "of this page."
+ msgstr ""
+ "Följande data hämtades under den automatiska konfigurations-/kompilerings-\n"
+-"processen för din kopia av Lynx. När du rapporterar ett fel ber vi dig\n"
+-"inkludera en kopia av denna sida."
++"processen för den här kopian av Lynx. När du rapporterar ett fel,\n"
++"inkludera en kopia av den här sidan."
+ 
+ #. #define AUTOCONF_LYNXCFG_H
+ #: LYMessages.c:876
+@@ -2806,7 +2826,7 @@
+ #. #define DIRED_NOVICELINE
+ #: LYMessages.c:881
+ msgid "  C)reate  D)ownload  E)dit  F)ull menu  M)odify  R)emove  T)ag  U)pload     \n"
+-msgstr "C=Skapa  D=Hämta  E=Redigera  F=Full meny  M=Ändra  R=Radera  T=Märk  U=Skicka\n"
++msgstr "C=Skapa D=Hämta E=Redigera F=Huvudmeny M=Ändra R=Radera T=Märk U=Ladda upp\n"
+ 
+ #: LYMessages.c:882
+ msgid "Failed to obtain status of current link!"
+@@ -2815,16 +2835,16 @@
+ #. #define INVALID_PERMIT_URL
+ #: LYMessages.c:885
+ msgid "Special URL only valid from current File Permission menu!"
+-msgstr "Speciell adress endast giltig i menyn för filbehörigheter!"
++msgstr "Specialadressen är endast giltig i den aktuella menyn för filbehörigheter!"
+ 
+ #: LYMessages.c:889
+ msgid "External support is currently disabled."
+-msgstr "Externt stöd är just nu deaktiverat."
++msgstr "Externt stöd är inaktiverat."
+ 
+ #. new with 2.8.4dev.21
+ #: LYMessages.c:893
+ msgid "Changing working-directory is currently disabled."
+-msgstr "Byte av arbetskatalog tillåts ej just nu."
++msgstr "Ändring av arbetskatalogen är inaktiverad."
+ 
+ #: LYMessages.c:894
+ msgid "Linewrap OFF!"
+@@ -2863,7 +2883,7 @@
+ #: WWW/Library/Implementation/HTAABrow.c:591
+ #, c-format
+ msgid "password for realm %s user %s changed"
+-msgstr "lösenordet för sfär %s användare %s ändrades"
++msgstr "lösenordet för användaren %s i sfären %s ändrades"
+ 
+ #: WWW/Library/Implementation/HTAABrow.c:703
+ #, c-format
+@@ -2872,11 +2892,12 @@
+ 
+ #: WWW/Library/Implementation/HTAABrow.c:976
+ msgid "This client doesn't know how to compose proxy authorization information for scheme"
+-msgstr "Denna klient kan inte skapa mellanserverauktoriseringsinformation för protokolltyp"
++msgstr "Den här klienten kan inte skapa autentiseringsuppgifter för proxyservern för "
++"schemat"
+ 
+ #: WWW/Library/Implementation/HTAABrow.c:1053
+ msgid "This client doesn't know how to compose authorization information for scheme"
+-msgstr "Denna klient kan inte skapa auktoriseringsinformation för protokolltyp"
++msgstr "Den här klienten kan inte skapa autentiseringsuppgifter för schemat"
+ 
+ #: WWW/Library/Implementation/HTAABrow.c:1162
+ #, c-format
+@@ -2885,11 +2906,11 @@
+ 
+ #: WWW/Library/Implementation/HTAABrow.c:1266
+ msgid "Proxy authorization required -- retrying"
+-msgstr "Mellanserverauktorisering krävs -- försöker igen"
++msgstr "Proxyautentisering krävs – försöker igen"
+ 
+ #: WWW/Library/Implementation/HTAABrow.c:1322
+ msgid "Access without authorization denied -- retrying"
+-msgstr "Åtkomst utan auktorisering avvisad -- försöker igen"
++msgstr "Åtkomst utan autentisering nekades – försöker igen"
+ 
+ #: WWW/Library/Implementation/HTAccess.c:698
+ msgid "Access forbidden by rule"
+@@ -2897,7 +2918,7 @@
+ 
+ #: WWW/Library/Implementation/HTAccess.c:800
+ msgid "Document with POST content not found in cache.  Resubmit?"
+-msgstr "Dokument med POST-data hittades ej i cache. Skicka in igen?"
++msgstr "Dokument med POST-data hittades inte i cacheminnet. Skicka igen?"
+ 
+ #: WWW/Library/Implementation/HTAccess.c:953
+ msgid "Loading failed, use a previous copy."
+@@ -2905,17 +2926,18 @@
+ 
+ #: WWW/Library/Implementation/HTAccess.c:1062 src/GridText.c:8939
+ msgid "Loading incomplete."
+-msgstr "Hämtning ej komplett."
++msgstr "Hämtningen är ofullständig."
+ 
+ #: WWW/Library/Implementation/HTAccess.c:1093
+ #, c-format
+ msgid "**** HTAccess: socket or file number returned by obsolete load routine!\n"
+-msgstr "**** HTAccess: uttag eller filnummer returnerad av föråldrad inläsningsrutin!\n"
++msgstr "**** HTAccess: socket- eller filnummer returnerades av föråldrad "
++"inläsningsrutin!\n"
+ 
+ #: WWW/Library/Implementation/HTAccess.c:1095
+ #, c-format
+ msgid "**** HTAccess: Internal software error.  Please mail lynx-dev@nongnu.org!\n"
+-msgstr "**** HTAccess: Internt programvarufel. Meddela lynx-dev@nongnu.org!\n"
++msgstr "**** HTAccess: Internt programvarufel. Rapportera till lynx-dev@nongnu.org!\n"
+ 
+ #: WWW/Library/Implementation/HTAccess.c:1096
+ #, c-format
+@@ -2945,11 +2967,11 @@
+ 
+ #: WWW/Library/Implementation/HTFTP.c:1137
+ msgid "close master socket"
+-msgstr "stängd huvuduttag (master socket)"
++msgstr "stäng huvud-socket"
+ 
+ #: WWW/Library/Implementation/HTFTP.c:1195
+ msgid "socket for master socket"
+-msgstr "uttag (socket) för huvuduttag"
++msgstr "socket för huvud-socket"
+ 
+ #: WWW/Library/Implementation/HTFTP.c:2925
+ msgid "Receiving FTP directory."
+@@ -2982,7 +3004,7 @@
+ 
+ #: WWW/Library/Implementation/HTFinger.c:391
+ msgid "Could not access finger host."
+-msgstr "Kunde inta komma åt \"finger\"-värd."
++msgstr "Kunde inte komma åt finger-värden."
+ 
+ #: WWW/Library/Implementation/HTFinger.c:399
+ msgid "No response from finger server."
+@@ -3037,7 +3059,7 @@
+ #: WWW/Library/Implementation/HTNews.c:1800
+ #, c-format
+ msgid "%s,  Articles %d-%d"
+-msgstr "%s, artiklar %d-%d"
++msgstr "%s, artiklar %d–%d"
+ 
+ #: WWW/Library/Implementation/HTNews.c:1823
+ msgid "Earlier articles"
+@@ -3051,7 +3073,7 @@
+ "\n"
+ msgstr ""
+ "\n"
+-"Det finns ca %d artiklar tillgängliga i %s nu med följande identifierare:\n"
++"Det finns ungefär %d artiklar tillgängliga i %s med följande identifierare:\n"
+ "\n"
+ 
+ #: WWW/Library/Implementation/HTNews.c:1898
+@@ -3086,7 +3108,7 @@
+ #: WWW/Library/Implementation/HTNews.c:2753
+ #, c-format
+ msgid "Can't read news info.  News host %.20s responded: %.200s"
+-msgstr "Kan inte läsa diskussionsinformation. Värden %.20s svarade %.200s"
++msgstr "Kan inte läsa diskussionsinformationen. Nyhetsvärden %.20s svarade: %.200s"
+ 
+ #: WWW/Library/Implementation/HTNews.c:2757
+ #, c-format
+@@ -3098,22 +3120,22 @@
+ #.
+ #: WWW/Library/Implementation/HTNews.c:2961
+ msgid "Reading list of available newsgroups."
+-msgstr "Läser lista över tillgängliga grupper."
++msgstr "Läser listan över tillgängliga nyhetsgrupper."
+ 
+ #: WWW/Library/Implementation/HTNews.c:2982
+ msgid "Reading list of articles in newsgroup."
+-msgstr "Läser lista över artiklar i grupp."
++msgstr "Läser listan över artiklar i nyhetsgruppen."
+ 
+ #.
+ #. * Get an article from a news group.  - FM
+ #.
+ #: WWW/Library/Implementation/HTNews.c:2988
+ msgid "Reading news article."
+-msgstr "Läser artikel."
++msgstr "Läser nyhetsartikel."
+ 
+ #: WWW/Library/Implementation/HTNews.c:3018
+ msgid "Sorry, could not load requested news."
+-msgstr "Kunde inte hämta begärda artiklar."
++msgstr "Kunde inte hämta den begärda nyhetsartikeln."
+ 
+ #: WWW/Library/Implementation/HTTCP.c:1339
+ msgid "Address has invalid port"
+@@ -3140,7 +3162,7 @@
+ #: WWW/Library/Implementation/HTTCP.c:1936
+ #, c-format
+ msgid "Unable to locate remote host %s."
+-msgstr "Kan inte hitta värd %s."
++msgstr "Kan inte hitta fjärrvärden %s."
+ 
+ #. Not HTProgress, so warning won't be overwritten immediately;
+ #. * but not HTAlert, because typically there will be other
+@@ -3155,28 +3177,28 @@
+ #: WWW/Library/Implementation/HTTCP.c:1945
+ #, c-format
+ msgid "Making %s connection to %s"
+-msgstr "Kopplar upp %s-anslutning till %s"
++msgstr "Upprättar %s-anslutning till %s"
+ 
+ #: WWW/Library/Implementation/HTTCP.c:1955
+ msgid "socket failed."
+-msgstr "uttag misslyckades."
++msgstr "socket-anropet misslyckades."
+ 
+ #: WWW/Library/Implementation/HTTCP.c:1969
+ #, c-format
+ msgid "socket failed: family %d addr %s port %s."
+-msgstr "uttag misslyckades: familj %d adress %s port %s."
++msgstr "socket-anropet misslyckades: familj %d, adress %s, port %s."
+ 
+ #: WWW/Library/Implementation/HTTCP.c:1992
+ msgid "Could not make connection non-blocking."
+-msgstr "Kunde inte koppla upp icke-blockerande anslutning."
++msgstr "Kunde inte göra anslutningen icke-blockerande."
+ 
+ #: WWW/Library/Implementation/HTTCP.c:2058
+ msgid "Connection failed (too many retries)."
+-msgstr "Uppkoppling misslyckades (för många försök)."
++msgstr "Anslutningen misslyckades (för många försök)."
+ 
+ #: WWW/Library/Implementation/HTTCP.c:2253
+ msgid "Could not restore socket to blocking."
+-msgstr "Kunde inte återställa blockering i uttag."
++msgstr "Kunde inte återställa socketen till blockerande läge."
+ 
+ #. RFC 1928: CONNECT request
+ #: WWW/Library/Implementation/HTTCP.c:2285
+@@ -3214,7 +3236,7 @@
+ 
+ #: WWW/Library/Implementation/HTTCP.c:2335
+ msgid "address type not supported"
+-msgstr "addresstypen stöds ej"
++msgstr "adresstypen stöds inte"
+ 
+ #: WWW/Library/Implementation/HTTCP.c:2338
+ msgid "unknown SOCKS error code"
+@@ -3226,7 +3248,7 @@
+ 
+ #: WWW/Library/Implementation/HTTCP.c:2460
+ msgid "Socket read failed (too many tries)."
+-msgstr "Fel vid läsning från uttag (för många försök)."
++msgstr "Fel vid läsning från socketen (för många försök)."
+ 
+ #: WWW/Library/Implementation/HTTP.c:165
+ #, c-format
+@@ -3236,7 +3258,7 @@
+ #: WWW/Library/Implementation/HTTP.c:668
+ #, c-format
+ msgid "User/password contains only punctuation: %s"
+-msgstr "Användar-id/lösenord innehåller endast interpunktion: %s"
++msgstr "Användarnamn/lösenord innehåller endast interpunktion: %s"
+ 
+ #: WWW/Library/Implementation/HTTP.c:672
+ #, c-format
+@@ -3246,7 +3268,7 @@
+ #: WWW/Library/Implementation/HTTP.c:733
+ #, c-format
+ msgid "Certificate issued by: %s"
+-msgstr "Certifikatutfärdare: %s"
++msgstr "Certifikatet utfärdades av: %s"
+ 
+ #: WWW/Library/Implementation/HTTP.c:922
+ msgid "This client does not contain support for HTTPS URLs."
+@@ -3254,7 +3276,7 @@
+ 
+ #: WWW/Library/Implementation/HTTP.c:947
+ msgid "Unable to connect to remote host."
+-msgstr "Kan inte ansluta till värd."
++msgstr "Kan inte ansluta till fjärrvärden."
+ 
+ #: WWW/Library/Implementation/HTTP.c:990
+ msgid "Retrying connection without TLS."
+@@ -3262,7 +3284,7 @@
+ 
+ #: WWW/Library/Implementation/HTTP.c:1042
+ msgid "GnuTLS error when trying to verify certificate."
+-msgstr "Fel i GnuTLS när certifikatet skulle bekräftas."
++msgstr "GnuTLS-fel vid försök att verifiera certifikatet."
+ 
+ #: WWW/Library/Implementation/HTTP.c:1055
+ msgid "the certificate has no known issuer"
+@@ -3282,22 +3304,22 @@
+ 
+ #: WWW/Library/Implementation/HTTP.c:1063
+ msgid "the certificate is not trusted"
+-msgstr "certifikatet är inte betrott"
++msgstr "certifikatet är inte tillförlitligt"
+ 
+ #: WWW/Library/Implementation/HTTP.c:1138
+ #, c-format
+ msgid "Verified connection to %s (cert=%s)"
+-msgstr "Verifierade anslutning mot %s (cert=%s)"
++msgstr "Verifierad anslutning till %s (cert=%s)"
+ 
+ #: WWW/Library/Implementation/HTTP.c:1188
+ #: WWW/Library/Implementation/HTTP.c:1230
+ #, c-format
+ msgid "Verified connection to %s (subj=%s)"
+-msgstr "Verifierade anslutning mot %s (subj=%s)"
++msgstr "Verifierad anslutning till %s (subj=%s)"
+ 
+ #: WWW/Library/Implementation/HTTP.c:1260
+ msgid "Can't find common name in certificate"
+-msgstr "Hittar inte vanligt namn i certifikatet"
++msgstr "Kan inte hitta det gemensamma namnet i certifikatet"
+ 
+ #: WWW/Library/Implementation/HTTP.c:1263
+ #, c-format
+@@ -3311,7 +3333,7 @@
+ #: WWW/Library/Implementation/HTTP.c:1278
+ #, c-format
+ msgid "UNVERIFIED connection to %s (cert=%s)"
+-msgstr "OVERIFIERAD anslutning mot %s (cert=%s)"
++msgstr "EJ VERIFIERAD anslutning till %s (cert=%s)"
+ 
+ # %d = SSL_get_cipher_bits(handle,NULL)
+ # %s = SSL_get_cipher_version(handle)
+@@ -3327,7 +3349,7 @@
+ 
+ #: WWW/Library/Implementation/HTTP.c:1799
+ msgid "Unexpected network write error; connection aborted."
+-msgstr "Oväntat skrivfel på nätverket; uppkopplingen avbröts."
++msgstr "Oväntat nätverksskrivfel; anslutningen avbröts."
+ 
+ #: WWW/Library/Implementation/HTTP.c:1805
+ msgid "HTTP request sent; waiting for response."
+@@ -3336,7 +3358,7 @@
+ #: WWW/Library/Implementation/HTTP.c:1878
+ #: WWW/Library/Implementation/HTTP.c:1888
+ msgid "Unexpected network read error; connection aborted."
+-msgstr "Oväntat läsfel på nätverket; uppkopplingen avbröts."
++msgstr "Oväntat nätverksläsfel; anslutningen avbröts."
+ 
+ #.
+ #. * HTTP/1.1 Informational statuses.
+@@ -3359,7 +3381,7 @@
+ #.
+ #: WWW/Library/Implementation/HTTP.c:2125
+ msgid "Request fulfilled.  Reset Content."
+-msgstr "Frågan slutförd. Nollställ innehåll."
++msgstr "Begäran slutfördes. Nollställ innehållet."
+ 
+ #. Not Modified
+ #.
+@@ -3381,15 +3403,15 @@
+ 
+ #: WWW/Library/Implementation/HTTP.c:2366
+ msgid "Retrying with access authorization information."
+-msgstr "Försöker igen med auktoriseringsinformation."
++msgstr "Försöker igen med autentiseringsuppgifter."
+ 
+ #: WWW/Library/Implementation/HTTP.c:2378
+ msgid "Show the 401 message body?"
+-msgstr "Visa kroppen för 401-meddelandet?"
++msgstr "Visa meddelandetexten för 401-svaret?"
+ 
+ #: WWW/Library/Implementation/HTTP.c:2422
+ msgid "Show the 407 message body?"
+-msgstr "Via kroppen för 407-meddelandet?"
++msgstr "Visa meddelandetexten för 407-svaret?"
+ 
+ #.
+ #. * Bad or unknown server_status number.  Take a chance and hope
+@@ -3423,7 +3445,7 @@
+ #: WWW/Library/Implementation/HTWAIS.c:464
+ #, c-format
+ msgid " contains the following %d item%s relevant to \""
+-msgstr " innehåller följande %d%s poster relevanta för \""
++msgstr "innehåller följande %d post%s relevanta för ”"
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:472
+ msgid "The first figure after each entry is its relative score, "
+@@ -3431,7 +3453,7 @@
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:473
+ msgid "the second is the number of lines in the item."
+-msgstr "den andra är antalet rader i posten"
++msgstr "den andra är antalet rader i objektet."
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:515
+ msgid " (bad file name)"
+@@ -3439,7 +3461,7 @@
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:541
+ msgid "(bad doc id)"
+-msgstr "(felaktig dokument-id)"
++msgstr "(felaktigt dokument-id)"
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:557
+ msgid "(Short Header record, can't display)"
+@@ -3459,7 +3481,7 @@
+ "Text record\n"
+ msgstr ""
+ "\n"
+-"Textfält\n"
++"Textpost\n"
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:580
+ msgid ""
+@@ -3475,7 +3497,7 @@
+ "Code record, can't display\n"
+ msgstr ""
+ "\n"
+-"Kodfält, kan inte visa\n"
++"Kodpost, kan inte visa\n"
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:692
+ msgid "Syntax error in WAIS URL"
+@@ -3665,7 +3687,7 @@
+ 
+ #: src/GridText.c:6262
+ msgid "keygen field"
+-msgstr "nyckelgenerering misslyckades"
++msgstr "nyckelgenereringsfält"
+ 
+ #: src/GridText.c:6265
+ msgid "unknown form field"
+@@ -3677,7 +3699,7 @@
+ 
+ #: src/GridText.c:10722
+ msgid "Can't open file for uploading"
+-msgstr "Kan inte öppna fil för sändning"
++msgstr "Kan inte öppna fil för uppladdning"
+ 
+ #: src/GridText.c:11910
+ #, c-format
+@@ -3696,7 +3718,7 @@
+ 
+ #: src/GridText.c:13772
+ msgid "Very long lines have been truncated!"
+-msgstr "mycket långa rader har trunkerats!"
++msgstr "Mycket långa rader har kortats av!"
+ 
+ #: src/HTAlert.c:164 src/LYShowInfo.c:389 src/LYShowInfo.c:393
+ msgid "bytes"
+@@ -3724,12 +3746,12 @@
+ #: src/HTAlert.c:374
+ #, c-format
+ msgid " (stalled for %s)"
+-msgstr " (avstannad i %s)"
++msgstr "(har stått still i %s)"
+ 
+ #: src/HTAlert.c:378
+ #, c-format
+ msgid ", ETA %s"
+-msgstr ", %s kvar"
++msgstr ", beräknad tid kvar %s"
+ 
+ #: src/HTAlert.c:400
+ msgid " (Press 'z' to abort)"
+@@ -3806,15 +3828,16 @@
+ 
+ #: src/HTML.c:7224
+ msgid "Document has only hidden links.  Use the 'l'ist command."
+-msgstr "Dokumentet innehåller endast dolda länkar. Använd \"l\"istkommandot."
++msgstr "Dokumentet innehåller endast dolda länkar. Använd kommandot ”l” för att lista "
++"dem."
+ 
+ #: src/HTML.c:7725
+ msgid "Source cache error - disk full?"
+-msgstr "Källkodscachefel - disk full?"
++msgstr "Källcachefel – disken är full?"
+ 
+ #: src/HTML.c:7738
+ msgid "Source cache error - not enough memory!"
+-msgstr "Källkodscachefel - minnet slut!"
++msgstr "Källcachefel – inte tillräckligt med minne!"
+ 
+ #: src/LYBookmark.c:167
+ msgid ""
+@@ -3912,7 +3935,7 @@
+ 
+ #: src/LYCookie.c:2712
+ msgid "Maximum Gobble Date:"
+-msgstr "Maximalt ätdatum:"
++msgstr "Senaste uppätningsdatum:"
+ 
+ #: src/LYCookie.c:2751
+ msgid "Internal"
+@@ -3936,7 +3959,7 @@
+ 
+ #: src/LYCurses.c:1841
+ msgid "You must use a vt100, 200, etc. terminal with this program."
+-msgstr "Du måste använda en vt100-, -200-, etc. -terminal med detta program."
++msgstr "Du måste använda en terminal av typen vt100, 200 osv. med det här programmet."
+ 
+ #: src/LYCurses.c:1890
+ msgid "Your Terminal type is unknown!"
+@@ -3948,7 +3971,7 @@
+ 
+ #: src/LYCurses.c:1905
+ msgid "TERMINAL TYPE IS SET TO"
+-msgstr "TERMINALTYP SATT TILL"
++msgstr "TERMINALTYPEN ÄR SATT TILL"
+ 
+ #: src/LYCurses.c:2464
+ #, c-format
+@@ -3957,7 +3980,7 @@
+ "A Fatal error has occurred in %s Ver. %s\n"
+ msgstr ""
+ "\n"
+-"Ett fatalt fel har uppstått i %s ver. %s\n"
++"Ett allvarligt fel har uppstått i %s version %s\n"
+ 
+ #: src/LYCurses.c:2467
+ #, c-format
+@@ -3970,11 +3993,14 @@
+ "TRACEBACK if it can be captured, and any other relevant information.\n"
+ msgstr ""
+ "\n"
+-"Kontakta din systemadministratör för att bekräfta ett programfel, och om\n"
+-"det bekräftas, att notifiera lynx-dev-listan. Felrapporter bör ha en\n"
+-"koncis beskrivning av kommandon och/eller webbadresser (URLar) som gör att\n"
+-"felet uppstår, namn och versionsnummer på operativsystemet, använd TCP/IP-\n"
+-"implementation, TRACEBACK om den kan fås, och all annan relevant information.\n"
++"Meddela systemadministratören så att hen kan bekräfta felet och, om\n"
++"det bekräftas, rapportera det till lynx-dev-listan. Felrapporter bör "
++"innehålla\n"
++"en "
++"kortfattad beskrivning av kommandot och/eller webbadressen som orsakar\n"
++"problemet, operativsystemets namn och versionsnummer, TCP/IP-"
++"implementationen,\n"
++"TRACEBACK om den kan hämtas samt annan relevant information.\n"
+ 
+ #: src/LYEdit.c:272
+ #, c-format
+@@ -3983,7 +4009,7 @@
+ 
+ #: src/LYEdit.c:275
+ msgid "Editor killed by signal"
+-msgstr "Redigeringsprogram dödat av signal"
++msgstr "Redigeraren dödades av en signal"
+ 
+ #: src/LYEdit.c:280
+ #, c-format
+@@ -4000,11 +4026,11 @@
+ 
+ #: src/LYDownload.c:521
+ msgid "Standard download options:"
+-msgstr "Fördefinierade hämtalternativ:"
++msgstr "Standardalternativ för hämtning:"
+ 
+ #: src/LYDownload.c:522
+ msgid "Download options:"
+-msgstr "Hämtalternativ:"
++msgstr "Hämtningsalternativ:"
+ 
+ #: src/LYDownload.c:538
+ msgid "Save to disk"
+@@ -4024,7 +4050,7 @@
+ 
+ #: src/LYDownload.c:574 src/LYUpload.c:206
+ msgid "No Name Given"
+-msgstr "Inget namn har angetts"
++msgstr "Inget namn angivet"
+ 
+ #: src/LYHistory.c:673
+ msgid "You selected:"
+@@ -4072,7 +4098,7 @@
+ 
+ #: src/LYLeaks.c:239 src/LYLeaks.c:246 src/LYLeaks.c:287 src/LYLeaks.c:298
+ msgid "LineCount:"
+-msgstr "Radnummer:"
++msgstr "Radantal:"
+ 
+ #: src/LYLeaks.c:260
+ msgid "Memory leak detected."
+@@ -4096,7 +4122,7 @@
+ 
+ #: src/LYLeaks.c:320
+ msgid "Peak allocation"
+-msgstr "Mesta allokering"
++msgstr "Högsta allokering"
+ 
+ #: src/LYLeaks.c:322
+ msgid "Bytes allocated"
+@@ -4104,11 +4130,11 @@
+ 
+ #: src/LYLeaks.c:324
+ msgid "Total mallocs"
+-msgstr "Totalt antal malloc"
++msgstr "Totalt antal malloc-anrop"
+ 
+ #: src/LYLeaks.c:326
+ msgid "Total frees"
+-msgstr "Totalt antal free"
++msgstr "Totalt antal free-anrop"
+ 
+ #: src/LYList.c:89
+ msgid "References in "
+@@ -4120,7 +4146,7 @@
+ 
+ #: src/LYList.c:98 src/LYList.c:363
+ msgid "Visible links:"
+-msgstr "Besökta länkar:"
++msgstr "Synliga länkar:"
+ 
+ #: src/LYList.c:202 src/LYList.c:322
+ msgid "Hidden links:"
+@@ -4133,7 +4159,7 @@
+ #: src/LYLocal.c:289
+ #, c-format
+ msgid "Unable to get status of '%s'."
+-msgstr "Kan inte ta status på \"%s\"."
++msgstr "Kan inte hämta status för ”%s”."
+ 
+ #: src/LYLocal.c:354
+ msgid "The selected item is not a file or a directory!  Request ignored."
+@@ -4147,7 +4173,7 @@
+ #: src/LYLocal.c:490
+ #, c-format
+ msgid "Probable failure to %s due to system error!"
+-msgstr "Möjligt misslyckande i %s på grund av systemfel!"
++msgstr "Åtgärden %s kan ha misslyckats på grund av ett systemfel!"
+ 
+ #: src/LYLocal.c:555 src/LYLocal.c:578
+ #, c-format
+@@ -4174,7 +4200,7 @@
+ 
+ #: src/LYLocal.c:680
+ msgid "The specified name is already in use!  Request ignored."
+-msgstr "Angivet filnamn används redan! Begäran ignoreras."
++msgstr "Det angivna namnet används redan! Begäran ignoreras."
+ 
+ #: src/LYLocal.c:692
+ msgid "Destination has different owner!  Request denied."
+@@ -4186,7 +4212,7 @@
+ 
+ #: src/LYLocal.c:711
+ msgid "Source and destination are the same location!  Request ignored!"
+-msgstr "Källa och mål är samma plats! Begäran ignorerad."
++msgstr "Källa och mål är samma plats! Begäran ignoreras!"
+ 
+ #: src/LYLocal.c:735
+ msgid "Remove all tagged files and directories?"
+@@ -4206,7 +4232,7 @@
+ 
+ #: src/LYLocal.c:920
+ msgid "Illegal character (path-separator) found! Request ignored."
+-msgstr "Felaktigt tecken (sökvägsavdelare) funnen! Begäran ignorerad."
++msgstr "Felaktigt tecken (sökvägsavdelare) hittades! Begäran ignoreras."
+ 
+ #: src/LYLocal.c:970
+ msgid "Enter new location for directory: "
+@@ -4222,7 +4248,7 @@
+ 
+ #: src/LYLocal.c:1061
+ msgid "Modify name, location, or permission (n, l, or p): "
+-msgstr "Ända N=namn, L=plats eller P=behörighet? "
++msgstr "Ändra namn, plats eller behörighet (n, l eller p): "
+ 
+ #: src/LYLocal.c:1063
+ msgid "Modify name or location (n or l): "
+@@ -4358,19 +4384,19 @@
+ #. directory not writable
+ #: src/LYLocal.c:2323 src/LYLocal.c:2382
+ msgid "Install in the selected directory not permitted."
+-msgstr "Installation i vald katalog ej tillåten."
++msgstr "Det går inte att installera i den valda katalogen."
+ 
+ #: src/LYLocal.c:2378
+ msgid "The selected item is not a directory!  Request ignored."
+-msgstr "Vald post är inte en katalog! Begäran ignorerad."
++msgstr "Vald post är inte en katalog! Begäran ignoreras."
+ 
+ #: src/LYLocal.c:2387
+ msgid "Just a moment, ..."
+-msgstr "Ett ögonblick, ..."
++msgstr "Ett ögonblick…"
+ 
+ #: src/LYLocal.c:2404
+ msgid "Error building install args"
+-msgstr "Fel vid uppbyggning av installationsflaggor"
++msgstr "Fel när installationsargument skapades"
+ 
+ #: src/LYLocal.c:2419 src/LYLocal.c:2450
+ #, c-format
+@@ -4384,7 +4410,7 @@
+ 
+ #: src/LYLocal.c:2475
+ msgid "Installation complete"
+-msgstr "Installation färdig"
++msgstr "Installationen är klar"
+ 
+ #: src/LYLocal.c:2678
+ msgid "Temporary URL or list would be too long."
+@@ -4419,7 +4445,7 @@
+ 
+ #: src/LYMail.c:1057
+ msgid "This message was automatically generated by"
+-msgstr "Detta meddelande automatgenererades av"
++msgstr "Detta meddelande skapades automatiskt av"
+ 
+ #: src/LYMail.c:1770
+ msgid "No system mailer configured"
+@@ -4462,12 +4488,12 @@
+ #: src/LYMain.c:1698
+ #, c-format
+ msgid "Ignored %d characters from standard input.\n"
+-msgstr "Ignorerade %d tecken från standard in.\n"
++msgstr "Ignorerade %d tecken från standardindata.\n"
+ 
+ #: src/LYMain.c:1700
+ #, c-format
+ msgid "Use \"-stdin\" or \"-\" to tell how to handle piped input.\n"
+-msgstr "Använd \"-stdin\" eller \"-\" för att beskriva hur indata från rör skall hanteras.\n"
++msgstr "Använd ”-stdin” eller ”-” för att ange hur röransluten indata ska hanteras.\n"
+ 
+ #: src/LYMain.c:1858
+ msgid "Warning:"
+@@ -4498,7 +4524,7 @@
+ 
+ #: src/LYMain.c:3278
+ msgid "the University of Kansas, CERN, and other contributors."
+-msgstr "Kansas Universitet, CERN, och andra bidragslämnare."
++msgstr "University of Kansas, CERN och andra bidragsgivare."
+ 
+ #: src/LYMain.c:3279
+ msgid "Distributed under the GNU General Public License (Version 2)."
+@@ -4506,7 +4532,7 @@
+ 
+ #: src/LYMain.c:3280
+ msgid "See https://lynx.invisible-island.net/ and the online help for more information."
+-msgstr "Se http://lynx.invisible-island.net/ och direkthjälpen för ytterligare information."
++msgstr "Se https://lynx.invisible-island.net/ och direkthjälpen för mer information."
+ 
+ #: src/LYMain.c:4139
+ #, c-format
+@@ -4534,7 +4560,7 @@
+ 
+ #: src/LYMainLoop.c:1142
+ msgid "Enctype multipart/form-data not yet supported!  Cannot submit."
+-msgstr "Kodningen multiport/form-data stöds inte ännu! Kan inte skicka."
++msgstr "Kodningen multipart/form-data stöds inte ännu! Det går inte att skicka."
+ 
+ #.
+ #. * Make a name for this help file.
+@@ -4550,11 +4576,11 @@
+ #: src/LYMainLoop.c:3577
+ #, c-format
+ msgid "Query parameter %d: "
+-msgstr "Anropsparameter %d: "
++msgstr "Frågeparameter %d: "
+ 
+ #: src/LYMainLoop.c:3806 src/LYMainLoop.c:5583
+ msgid "Entry into main screen"
+-msgstr "Ingång till huvudskärm"
++msgstr "Gå till huvudskärmen"
+ 
+ #: src/LYMainLoop.c:4064
+ msgid "No next document present"
+@@ -4562,11 +4588,11 @@
+ 
+ #: src/LYMainLoop.c:4359
+ msgid "charset for this document specified explicitly, sorry..."
+-msgstr "teckenuppsättning för detta dokumentet explicit deklarerat, ursäkta..."
++msgstr "Teckenuppsättning för dokumentet har angetts uttryckligen, ursäkta…"
+ 
+ #: src/LYMainLoop.c:5265
+ msgid "cd to:"
+-msgstr "byt katalog till:"
++msgstr "Byt katalog till:"
+ 
+ #: src/LYMainLoop.c:5288
+ msgid "A component of path is not a directory"
+@@ -4574,7 +4600,7 @@
+ 
+ #: src/LYMainLoop.c:5291
+ msgid "failed to change directory"
+-msgstr "lyckades inte byta katalog"
++msgstr "kunde inte byta katalog"
+ 
+ #: src/LYMainLoop.c:6517
+ msgid "Reparsing document under current settings..."
+@@ -4583,7 +4609,7 @@
+ #: src/LYMainLoop.c:6811
+ #, c-format
+ msgid "Fatal error - could not open output file %s\n"
+-msgstr "Fatalt fel - kunde inte öppna utdatafil %s\n"
++msgstr "Allvarligt fel – kunde inte öppna utdatafilen %s\n"
+ 
+ # Kollas!
+ #: src/LYMainLoop.c:7153
+@@ -4601,15 +4627,15 @@
+ 
+ #: src/LYMainLoop.c:7238 src/LYUtils.c:1909
+ msgid "Copy to clipboard failed."
+-msgstr "Misslyckades kopiera till urklipp."
++msgstr "Kopieringen till urklipp misslyckades."
+ 
+ #: src/LYMainLoop.c:7240
+ msgid "Document URL put to clipboard."
+-msgstr "Dokumentadress lagd i urklipp."
++msgstr "Dokumentets adress lades i urklipp."
+ 
+ #: src/LYMainLoop.c:7242
+ msgid "Link URL put to clipboard."
+-msgstr "Länkadress lagd i urklipp."
++msgstr "Länkens adress lades i urklipp."
+ 
+ #: src/LYMainLoop.c:7269
+ msgid "No URL in the clipboard."
+@@ -4638,7 +4664,7 @@
+ #. Enable scrolling.
+ #: src/LYNews.c:186
+ msgid "You will be posting to:"
+-msgstr "Du kommer att skicka till:"
++msgstr "Du kommer att publicera till:"
+ 
+ #.
+ #. * Get the mail address for the From header, offering personal_mail_address
+@@ -4652,7 +4678,7 @@
+ msgstr ""
+ "\n"
+ "\n"
+-" Ange din e-postadress för avsändarfältet\n"
++"Ange din e-postadress för From-raden\n"
+ 
+ #.
+ #. * Get the Subject header, offering the current document's title as the
+@@ -4666,7 +4692,7 @@
+ msgstr ""
+ "\n"
+ "\n"
+-" Ange eller redigera ärenderaden\n"
++"Ange eller redigera ämnesraden\n"
+ 
+ #: src/LYNews.c:302
+ msgid ""
+@@ -4693,11 +4719,11 @@
+ 
+ #: src/LYNews.c:405
+ msgid "Message has no original text!"
+-msgstr "Inlägget har ingen ursprunglig text!"
++msgstr "Meddelandet har ingen ursprunglig text!"
+ 
+ #: src/LYOptions.c:774
+ msgid "review/edit B)ookmarks files"
+-msgstr "se/redigera B)okmärkesfiler"
++msgstr "granska/redigera B=okmärkesfiler"
+ 
+ #: src/LYOptions.c:776
+ msgid "B)ookmark file: "
+@@ -4750,7 +4776,7 @@
+ # Numeriskt tangentbord
+ #: src/LYOptions.c:2179
+ msgid "Numbers act as arrows"
+-msgstr "Siffror som pilar"
++msgstr "Siffror fungerar som piltangenter"
+ 
+ #: src/LYOptions.c:2181
+ msgid "Links are numbered"
+@@ -4766,11 +4792,11 @@
+ 
+ #: src/LYOptions.c:2202
+ msgid "Case insensitive"
+-msgstr "Skilj inte VERSALER och gemener"
++msgstr "Skiftlägesokänslig"
+ 
+ #: src/LYOptions.c:2203
+ msgid "Case sensitive"
+-msgstr "Skilj VERSALER och gemener"
++msgstr "Skiftlägeskänslig"
+ 
+ #: src/LYOptions.c:2237
+ msgid "prompt normally"
+@@ -4802,7 +4828,7 @@
+ 
+ #: src/LYOptions.c:2269
+ msgid "Intermediate"
+-msgstr "Amatör"
++msgstr "Medelavancerad"
+ 
+ #: src/LYOptions.c:2270
+ msgid "Advanced"
+@@ -4814,7 +4840,7 @@
+ 
+ #: src/LYOptions.c:2281
+ msgid "By First Visit Reversed"
+-msgstr "Efter första användning, omvänt"
++msgstr "Efter första besök, omvänt"
+ 
+ #: src/LYOptions.c:2282
+ msgid "As Visit Tree"
+@@ -4831,7 +4857,7 @@
+ #. Old_DTD variable
+ #: src/LYOptions.c:2296
+ msgid "relaxed (TagSoup mode)"
+-msgstr "avslappnad (TagSoup-läge)"
++msgstr "tolerant (TagSoup-läge)"
+ 
+ #: src/LYOptions.c:2297
+ msgid "strict (SortaSGML mode)"
+@@ -4843,7 +4869,7 @@
+ 
+ #: src/LYOptions.c:2305
+ msgid "Add to trace-file"
+-msgstr "Lägg till spårningsfil"
++msgstr "Lägg till i spårningsfilen"
+ 
+ #: src/LYOptions.c:2306
+ msgid "Add to LYNXMESSAGES"
+@@ -4851,7 +4877,7 @@
+ 
+ #: src/LYOptions.c:2307
+ msgid "Warn, point to trace-file"
+-msgstr "Varna, visa mot spårfil"
++msgstr "Varna, hänvisa till spårningsfilen"
+ 
+ #: src/LYOptions.c:2314
+ msgid "as labels"
+@@ -4871,7 +4897,7 @@
+ 
+ #: src/LYOptions.c:2340
+ msgid "trim-lines"
+-msgstr "beskär-rader"
++msgstr "trimma"
+ 
+ #: src/LYOptions.c:2351
+ msgid "STANDARD"
+@@ -4911,35 +4937,35 @@
+ 
+ #: src/LYOptions.c:2408 src/LYOptions.c:2428
+ msgid "By Name"
+-msgstr "Efter namn"
++msgstr "Sortera efter namn"
+ 
+ #: src/LYOptions.c:2409 src/LYOptions.c:2429
+ msgid "By Type"
+-msgstr "Efter typ"
++msgstr "Sortera efter typ"
+ 
+ #: src/LYOptions.c:2410 src/LYOptions.c:2430
+ msgid "By Size"
+-msgstr "Efter storlek"
++msgstr "Sortera efter storlek"
+ 
+ #: src/LYOptions.c:2411 src/LYOptions.c:2431
+ msgid "By Date"
+-msgstr "Efter datum"
++msgstr "Sortera efter datum"
+ 
+ #: src/LYOptions.c:2412
+ msgid "By Mode"
+-msgstr "Efter läge"
++msgstr "Sortera efter läge"
+ 
+ #: src/LYOptions.c:2414
+ msgid "By User"
+-msgstr "Efter användare"
++msgstr "Sortera efter användare"
+ 
+ #: src/LYOptions.c:2415
+ msgid "By Group"
+-msgstr "Efter grupp"
++msgstr "Sortera efter grupp"
+ 
+ #: src/LYOptions.c:2440
+ msgid "Do not show rate"
+-msgstr "Visa inte hastighet"
++msgstr "Visa inte överföringshastighet"
+ 
+ #: src/LYOptions.c:2441 src/LYOptions.c:2442
+ #, c-format
+@@ -4962,7 +4988,7 @@
+ 
+ #: src/LYOptions.c:2471
+ msgid "Accept lynx's internal types"
+-msgstr "Godta lynx interna typer"
++msgstr "Godta Lynx interna typer"
+ 
+ #: src/LYOptions.c:2472
+ msgid "Also accept lynx.cfg's types"
+@@ -5124,7 +5150,7 @@
+ 
+ #: src/LYOptions.c:3961
+ msgid "Assumed document character set"
+-msgstr "Förvald dokumentteckenuppsättning"
++msgstr "Antagen dokumentteckenuppsättning"
+ 
+ #: src/LYOptions.c:3977
+ msgid "Internationalized domain names"
+@@ -5185,7 +5211,7 @@
+ #. Select Popups: ON/OFF
+ #: src/LYOptions.c:4081
+ msgid "Popups for select fields"
+-msgstr "Popup för valfält"
++msgstr "Popup-menyer för valfält"
+ 
+ #. HTML error recovery: SELECT
+ #: src/LYOptions.c:4087
+@@ -5205,7 +5231,7 @@
+ #. Verbose Images: ON/OFF
+ #: src/LYOptions.c:4113
+ msgid "Verbose images"
+-msgstr "Pratsamma bilder"
++msgstr "Utförliga bildbeskrivningar"
+ 
+ #. Collapse BR Tags: ON/OFF
+ #: src/LYOptions.c:4119
+@@ -5222,7 +5248,7 @@
+ #.
+ #: src/LYOptions.c:4133
+ msgid "Headers Transferred to Remote Servers"
+-msgstr "Frågehuvud överfört till fjärrservrar"
++msgstr "HTTP-huvuden som överförs till fjärrservrar"
+ 
+ #. ***************************************************************
+ #. Mail Address: INPUT
+@@ -5251,7 +5277,7 @@
+ #. Preferred encoding: SELECT
+ #: src/LYOptions.c:4167
+ msgid "Preferred encoding"
+-msgstr "Önskade kodningsform"
++msgstr "Önskad kodningsform"
+ 
+ #. Preferred Document Character Set: INPUT
+ #: src/LYOptions.c:4173
+@@ -5261,7 +5287,7 @@
+ #. Preferred Document Language: INPUT
+ #: src/LYOptions.c:4178
+ msgid "Preferred document language"
+-msgstr "Önskade dokumentspråk"
++msgstr "Önskat dokumentspråk"
+ 
+ #. HTTP protocol SELECT
+ #: src/LYOptions.c:4183
+@@ -5301,7 +5327,7 @@
+ #. Local Directory Order: SELECT
+ #: src/LYOptions.c:4225
+ msgid "Local directory sort order"
+-msgstr "Sortering för lokala kataloger"
++msgstr "Sorteringsordning för lokala kataloger"
+ 
+ #: src/LYOptions.c:4234
+ msgid "Show dot files"
+@@ -5309,7 +5335,7 @@
+ 
+ #: src/LYOptions.c:4242
+ msgid "Execution links"
+-msgstr "Exekveringslänkar"
++msgstr "Körbara länkar"
+ 
+ #: src/LYOptions.c:4260
+ msgid "Pause when showing message"
+@@ -5329,11 +5355,11 @@
+ 
+ #: src/LYOptions.c:4292
+ msgid "Multi-bookmarks"
+-msgstr "Multibokmärken"
++msgstr "Flera bokmärkesfiler"
+ 
+ #: src/LYOptions.c:4300
+ msgid "Review/edit Bookmarks files"
+-msgstr "Se/ändra bokmärkesfiler"
++msgstr "Granska/redigera bokmärkesfiler"
+ 
+ #: src/LYOptions.c:4303
+ msgid "Goto multi-bookmark menu"
+@@ -5346,12 +5372,12 @@
+ #. Auto Session: ON/OFF
+ #: src/LYOptions.c:4312
+ msgid "Auto Session"
+-msgstr "Automatiskt arbetspass"
++msgstr "Automatisk session"
+ 
+ #. Session File Menu: INPUT
+ #: src/LYOptions.c:4318
+ msgid "Session file"
+-msgstr "Arbetspassfil"
++msgstr "Sessionsfil"
+ 
+ #. Visited Pages: SELECT
+ #: src/LYOptions.c:4324
+@@ -5373,7 +5399,7 @@
+ 
+ #: src/LYPrint.c:1284
+ msgid "Number of lines:"
+-msgstr "Antal länkar:"
++msgstr "Antal rader:"
+ 
+ #: src/LYPrint.c:1285
+ msgid "Number of pages:"
+@@ -5401,7 +5427,7 @@
+ 
+ #: src/LYPrint.c:1299
+ msgid "Print options:"
+-msgstr "Utskriftsalternativ"
++msgstr "Utskriftsalternativ:"
+ 
+ #: src/LYPrint.c:1306
+ msgid "Save to a local file"
+@@ -5413,7 +5439,7 @@
+ 
+ #: src/LYPrint.c:1315
+ msgid "Mail the file"
+-msgstr "Sänd filer per e-post"
++msgstr "Skicka filen med e-post"
+ 
+ #: src/LYPrint.c:1322
+ msgid "Print to the screen"
+@@ -5457,7 +5483,7 @@
+ #: src/LYReadCFG.c:792
+ #, c-format
+ msgid "invalid line-editor selection %s for key %s, selecting all\n"
+-msgstr "ogiltig radredigeringsval %s för tangent %s, väljer alla\n"
++msgstr "ogiltigt val av radredigerare %s för tangent %s, väljer alla\n"
+ 
+ #: src/LYReadCFG.c:817 src/LYReadCFG.c:832
+ #, c-format
+@@ -5472,7 +5498,7 @@
+ #: src/LYReadCFG.c:937
+ #, c-format
+ msgid "Lynx: cannot start, CERN rules file %s is not available\n"
+-msgstr "Lynx: kan inte börja, CERN-regelfilen %s ej tillgänglig\n"
++msgstr "Lynx: kan inte starta, CERN-regelfilen %s är inte tillgänglig\n"
+ 
+ #: src/LYReadCFG.c:938
+ msgid "(no name)"
+@@ -5481,7 +5507,7 @@
+ #: src/LYReadCFG.c:2086
+ #, c-format
+ msgid "More than %d nested lynx.cfg includes -- perhaps there is a loop?!?\n"
+-msgstr "Mer än %d staplade lynx.cfg-inkluderingar -- kanske en slinga?!?\n"
++msgstr "Fler än %d nästlade lynx.cfg-inkluderingar – kanske finns en slinga?!?\n"
+ 
+ #: src/LYReadCFG.c:2088
+ #, c-format
+@@ -5499,11 +5525,11 @@
+ 
+ #: src/LYReadCFG.c:2501 src/LYReadCFG.c:2514
+ msgid "Please read the distribution"
+-msgstr "Se distributionens"
++msgstr "Läs distributionen"
+ 
+ #: src/LYReadCFG.c:2507 src/LYReadCFG.c:2517
+ msgid "for more comments."
+-msgstr "för ytterligare kommentarer."
++msgstr "för fler kommentarer."
+ 
+ #: src/LYReadCFG.c:2553
+ msgid "RELOAD THE CHANGES"
+@@ -5519,7 +5545,7 @@
+ 
+ #: src/LYShowInfo.c:200
+ msgid "Directory that you are currently viewing"
+-msgstr "Visad katalog"
++msgstr "Katalogen som visas"
+ 
+ #: src/LYShowInfo.c:203
+ msgid "Name:"
+@@ -5527,23 +5553,23 @@
+ 
+ #: src/LYShowInfo.c:220
+ msgid "Directory that you have currently selected"
+-msgstr "Markerade kataloger"
++msgstr "Katalogen som är markerad"
+ 
+ #: src/LYShowInfo.c:222
+ msgid "File that you have currently selected"
+-msgstr "Markerade filer"
++msgstr "Filen som är markerad"
+ 
+ #: src/LYShowInfo.c:225
+ msgid "Symbolic link that you have currently selected"
+-msgstr "Markerade symboliska länkar"
++msgstr "Den symboliska länken som är markerad"
+ 
+ #: src/LYShowInfo.c:228
+ msgid "Item that you have currently selected"
+-msgstr "Markerade poster"
++msgstr "Posten som är markerad"
+ 
+ #: src/LYShowInfo.c:230
+ msgid "Full name:"
+-msgstr "Fullt namn:"
++msgstr "Fullständigt namn:"
+ 
+ #: src/LYShowInfo.c:243
+ msgid "Unable to follow link"
+@@ -5551,7 +5577,7 @@
+ 
+ #: src/LYShowInfo.c:245
+ msgid "Points to file:"
+-msgstr "Pekar på fil:"
++msgstr "Pekar på filen:"
+ 
+ #: src/LYShowInfo.c:250
+ msgid "Name of owner:"
+@@ -5582,7 +5608,7 @@
+ 
+ #: src/LYShowInfo.c:268
+ msgid "Last accessed:"
+-msgstr "Senast åtkommen:"
++msgstr "Senast använd:"
+ 
+ #: src/LYShowInfo.c:274
+ msgid "Access Permissions"
+@@ -5610,7 +5636,7 @@
+ 
+ #: src/LYShowInfo.c:364
+ msgid "(assumed)"
+-msgstr "(antogs)"
++msgstr "(antas)"
+ 
+ #: src/LYShowInfo.c:371
+ msgid "Server:"
+@@ -5622,15 +5648,15 @@
+ 
+ #: src/LYShowInfo.c:377
+ msgid "Last Mod:"
+-msgstr "Senaste ändring:"
++msgstr "Senast ändrad:"
+ 
+ #: src/LYShowInfo.c:381
+ msgid "Expires:"
+-msgstr "Utgår:"
++msgstr "Upphör att gälla:"
+ 
+ #: src/LYShowInfo.c:384
+ msgid "Cache-Control:"
+-msgstr "Cachekontroll:"
++msgstr "Cache-Control:"
+ 
+ #: src/LYShowInfo.c:387
+ msgid "Content-Length:"
+@@ -5670,7 +5696,7 @@
+ 
+ #: src/LYShowInfo.c:421
+ msgid "source"
+-msgstr "källkod"
++msgstr "källa"
+ 
+ #: src/LYShowInfo.c:422
+ msgid "normal"
+@@ -5714,7 +5740,7 @@
+ 
+ #: src/LYShowInfo.c:462
+ msgid "Action:"
+-msgstr "Åtgärd:"
++msgstr "Formuläråtgärd:"
+ 
+ #: src/LYShowInfo.c:468
+ msgid "(Form field)"
+@@ -5722,11 +5748,11 @@
+ 
+ #: src/LYShowInfo.c:478
+ msgid "No Links on the current page"
+-msgstr "Ingen länk på aktuell sida"
++msgstr "Inga länkar på aktuell sida"
+ 
+ #: src/LYShowInfo.c:483
+ msgid "Server Headers:"
+-msgstr "Serverhuvuden:"
++msgstr "HTTP-huvuden:"
+ 
+ #: src/LYStyle.c:332
+ #, c-format
+@@ -5762,35 +5788,35 @@
+ 
+ #: src/LYUpload.c:77
+ msgid "ERROR! - upload command is misconfigured"
+-msgstr "FEL! - insändningskommandot är felkonfigurerat"
++msgstr "FEL! – uppladdningskommandot är felkonfigurerat"
+ 
+ #: src/LYUpload.c:98
+ msgid "Illegal redirection \"../\" found! Request ignored."
+-msgstr "Felaktig omdirigering \"../\" hittad! Begäran ignorerad."
++msgstr "Felaktig omdirigering ”../” hittades! Begäran ignoreras."
+ 
+ #: src/LYUpload.c:101
+ msgid "Illegal character \"/\" found! Request ignored."
+-msgstr "Felaktigt tecken \"/\" hittad! Begäran ignorerad."
++msgstr "Felaktigt tecken ”/” hittades! Begäran ignoreras."
+ 
+ #: src/LYUpload.c:104
+ msgid "Illegal redirection using \"~\" found! Request ignored."
+-msgstr "Ogiltig omdirigering med \"~\" hittad! Begäran ignorerad."
++msgstr "Felaktig omdirigering med ”~” hittades! Begäran ignoreras."
+ 
+ #: src/LYUpload.c:157
+ msgid "Unable to upload file."
+-msgstr "Kan inte skicka fil."
++msgstr "Kan inte ladda upp filen."
+ 
+ #: src/LYUpload.c:196
+ msgid "Upload To:"
+-msgstr "Skicka till:"
++msgstr "Ladda upp till:"
+ 
+ #: src/LYUpload.c:197
+ msgid "Upload options:"
+-msgstr "Insändningsalternativ:"
++msgstr "Uppladdningsalternativ:"
+ 
+ #: src/LYUtils.c:1911
+ msgid "Download document URL put to clipboard."
+-msgstr "Adress till hämtat dokument lagt i urklipp."
++msgstr "Adressen till det hämtade dokumentet lades i urklipp."
+ 
+ #: src/LYUtils.c:2658
+ msgid "Unexpected access protocol for this URL scheme."
+@@ -5807,12 +5833,12 @@
+ #: src/LYUtils.c:3902
+ #, c-format
+ msgid "No restrictions set.\n"
+-msgstr "Inga begränsningar satta.\n"
++msgstr "Inga begränsningar har angetts.\n"
+ 
+ #: src/LYUtils.c:3905
+ #, c-format
+ msgid "Restrictions set:\n"
+-msgstr "Satta begränsningar:\n"
++msgstr "Angivna begränsningar:\n"
+ 
+ #: src/LYUtils.c:5202
+ msgid "Cannot find HOME directory"
+@@ -5829,9 +5855,11 @@
+ "prompt for each cookie.  Set accept_all_cookies to \"TRUE\" to accept\n"
+ "all cookies.\n"
+ msgstr ""
+-"accept_all_cookies låter användaren tala om för Lynx att automatiskt\n"
+-"acceptera alla kakor. Förvalet är \"FALSE\", och visar en fråga för\n"
+-"varje kaka. Sätt accept_all_cookies till \"TRUE\" för att acceptera\n"
++"accept_all_cookies låter användaren ange att Lynx automatiskt ska\n"
++"acceptera alla kakor. Förvalet är ”FALSE”, vilket innebär att en fråga\n"
++"visas för "
++"varje kaka. Sätt accept_all_cookies till ”TRUE” för att\n"
++"acceptera "
+ "alla kakor.\n"
+ 
+ #: src/LYrcFile.c:381
+@@ -5841,10 +5869,10 @@
+ "Lynx will use the personal email address.  Set anonftp_password\n"
+ "to a different value if you choose.\n"
+ msgstr ""
+-"anonftp_password låter användaren ange den personliga e-postadress\n"
+-"Lynx skall använda som lösenord för anonym ftp. Om inget värde anges\n"
+-"kommer Lynx använda den personliga e-postadressen. Sätt anonftp_password\n"
+-"till ett annat värde om du vill välja.\n"
++"anonftp_password låter användaren ange att Lynx ska använda den personliga\n"
++"e-postadressen som lösenord för anonym FTP. Om inget värde anges\n"
++"använder Lynx den personliga e-postadressen. Sätt anonftp_password\n"
++"till ett annat värde om du vill.\n"
+ 
+ #: src/LYrcFile.c:390
+ msgid ""
+@@ -5852,8 +5880,8 @@
+ "file into which the user can paste links for easy access at a later\n"
+ "date.\n"
+ msgstr ""
+-"bookmark_file anger namn och plats för standardbokmärkesfilen, i vilken\n"
+-"användaren kan klistra in länkar för att lätt komma åt dem senare.\n"
++"bookmark_file anger namn och plats för standardbokmärkesfilen, där\n"
++"användaren kan klistra in länkar för att enkelt komma åt dem senare.\n"
+ 
+ #: src/LYrcFile.c:395
+ msgid ""
+@@ -5861,9 +5889,11 @@
+ "using the 's' or '/' keys, the search performed will be case sensitive\n"
+ "instead of case INsensitive.  The default is usually \"off\".\n"
+ msgstr ""
+-"Om case_sensitive_searching är \"on\" när användaren startar en sökning\n"
+-"med \"s\" eller \"/\" kommer sökningen som genomförs att göra skillnad på\n"
+-"gemener och versaler. Förvalet är normalt sett av (\"off\").\n"
++"Om case_sensitive_searching är ”on” används skiftlägeskänslig sökning när\n"
++"användaren startar en sökning "
++"med tangenterna ”s” eller ”/”"
++". Förvalet är\n"
++"vanligen ”off”.\n"
+ 
+ #: src/LYrcFile.c:400
+ msgid ""
+@@ -5873,10 +5903,10 @@
+ "set or using the 7 bit character approximations.\n"
+ "Current valid characters sets are:\n"
+ msgstr ""
+-"Inställningen för character_set anger hur åttabitarstecken representeras\n"
+-"på din terminal. Om åttabitarstecken inte visas korrekt på din skärm kan\n"
+-"du försöka att ändra till en annan åttabitarsteckenuppsättning, eller\n"
+-"använda sjubitarstolkningarna.\n"
++"Inställningen character_set styr hur åttabitarstecken representeras\n"
++"på terminalen. Om åttabitarstecken inte visas korrekt på skärmen kan\n"
++"du försöka byta till en annan åttabitarsteckenuppsättning eller\n"
++"använda sjubitarsteckenapproximationerna.\n"
+ "Giltiga teckenuppsättningar är:\n"
+ 
+ #: src/LYrcFile.c:408
+@@ -5887,10 +5917,11 @@
+ "take precedence.  The accept_all_cookies parameter will override any\n"
+ "settings made here.\n"
+ msgstr ""
+-"cookie_accept_domains och cookie_reject_domains är kommaavdelade\n"
+-"listor över domäner från vilka Lynx automatisk skall acceptera eller\n"
+-"avvisa kakor. Om en domän anges i båda alternativet kommer avvisning\n"
+-"att gå före. Flaggan accept_all_cookies går före alla inställningar\n"
++"cookie_accept_domains och cookie_reject_domains är kommaavgränsade\n"
++"listor över domäner från vilka Lynx automatiskt ska acceptera eller\n"
++"avvisa alla kakor. Om en domän anges i båda alternativen har avvisning\n"
++"företräde. Parametern accept_all_cookies åsidosätter alla\n"
++"inställningar "
+ "som görs här.\n"
+ 
+ #: src/LYrcFile.c:416
+@@ -5898,8 +5929,8 @@
+ "cookie_file specifies the file from which to read persistent cookies.\n"
+ "The default is ~/"
+ msgstr ""
+-"cookie_file anger filen som varaktiga kakor skall läsas från.\n"
+-"Förval är ~/"
++"cookie_file anger filen som beständiga kakor ska läsas från.\n"
++"Förvalet är ~/"
+ 
+ #: src/LYrcFile.c:421
+ msgid ""
+@@ -5912,12 +5943,14 @@
+ "querying the user for an invalid path or domain.\n"
+ msgstr ""
+ "cookie_loose_invalid_domains, cookie_strict_invalid_domains och\n"
+-"cookie_query_invalid_domains är kommaavdelade listor över domäner som\n"
+-"skall underkastas olika nivåer av giltighetskontroll. Om en domän sätts\n"
+-"till strikt kontroll kommer strikt tolkning av RFC2109 att gälla.\n"
+-"En domän med lös kontroll gör det möjligt att sätta kakor med felaktiga\n"
+-"sökväg- eller domänattribut. Alla domäner får som förval frågor till\n"
+-"användaren för felaktiga sökvägar eller domäner.\n"
++"cookie_query_invalid_domains är kommaavgränsade listor över domäner som\n"
++"ska genomgå olika grad av giltighetskontroll. Om en domän är inställd\n"
++"på strikt kontroll tillämpas strikt överensstämmelse med RFC2109. "
++"En\n"
++"domän med lös kontroll tillåts sätta kakor med ett ogiltigt "
++"sökvägs-\n"
++"eller domänattribut. För alla domäner är standardvärdet att fråga\n"
++"användaren om en ogiltig sökväg eller domän.\n"
+ 
+ #: src/LYrcFile.c:435
+ msgid ""
+@@ -5993,17 +6026,19 @@
+ "\n"
+ "Current lineedit modes are:\n"
+ msgstr ""
+-"lineedit_mode ange tangentbordsfunktioner som används för att skriva\n"
+-"in strängar i frågor och formulär. Om lineedit_mode sätts till\n"
+-"\"Default Binding\" kommer följande kontrolltecken användas för att\n"
++"lineedit_mode anger tangentbindningarna för inmatning av strängar i\n"
++"frågor och formulär. Om lineedit_mode är satt till ”"
++"Default Binding”\n"
++"används följande kontrolltecken för att "
+ "flytta och ta bort:\n"
+ "\n"
+-"              Bakåt Framåt      Enter = Bekräfta indata\n"
++"              Föreg. Nästa       Enter = Godkänn indata\n"
+ " Flytta tecken: <-    ->        ^G    = Avbryt inmatning\n"
+ "    Flytta ord: ^P    ^N        ^U    = Radera rad\n"
+-" Radera tecken: ^H    ^R        ^A    = Radbörjan\n"
+-"    Radera ord: ^B    ^F        ^E    = Radslut\n"
+-"\n"
++" Radera tecken: ^H    ^R        ^A    = Till radens början\n"
++"    Radera ord: ^B    ^F        ^E    = Till radens slut\n"
++"\n"
++"Aktuella lineedit-lägen är:\n"
+ 
+ #: src/LYrcFile.c:510
+ msgid ""
+@@ -6029,12 +6064,13 @@
+ "your mailed comments.\n"
+ msgstr ""
+ "personal_mail_address anger din personliga e-postadress. Adressen\n"
+-"sänds under HTTP-filöverföringar för auktoriserings- och\n"
+-"loggningsändamål, samt för att sända kommentarer per e-post\n"
+-"Om du inte vill att denna information skall sändas, sätt NO_FROM_HEADER\n"
+-"till TRUE i lynx.cfg, eller använd kommandoradsflaggan -nofrom. Du kan\n"
+-"även lämna detta fält blankt, men då inkluderas det inte i kommentarer\n"
+-"du sänder.\n"
++"skickas vid HTTP-filöverföringar för autentisering och "
++"loggning samt\n"
++"för kommentarer som skickas med e-post.\n"
++"Om du inte vill lämna ut informationen, sätt NO_FROM_HEADER\n"
++"till TRUE i lynx.cfg eller använd kommandoradsflaggan -nofrom. Du kan\n"
++"även lämna fältet tomt, men då tas adressen inte med i kommentarer\n"
++"du skickar med e-post.\n"
+ 
+ #: src/LYrcFile.c:525
+ msgid ""
+@@ -6071,17 +6107,23 @@
+ "an error response, though the sending of an unacceptable response\n"
+ "is also allowed.\n"
+ msgstr ""
+-"preferred_charset anger de teckenuppsättningar Lynx kommer att ange att\n"
+-"du önskar ta emot i frågor till http-serverar i MIME-notation (t.ex\n"
+-"ISO-8859-2, ISO-8859-5). Detta sänds i Accept-Charset-huvudet. Värdet\n"
+-"bör inte innehålla ISO-8859-1 eller US-ASCII eftersom de värdena alltid\n"
+-"antas som förval. Kan vara en kommaseparerad lista.\n"
+-"Om en fil i den teckenuppsättningen finns att tillgå kommer servern\n"
+-"Om inget Accept-Charset sänds är förvalet att alla teckenuppsättningar\n"
+-"är acceptabla. Om en Accept-Charset är tillgänglig, och om servern inte\n"
+-"kan sända ett svar som är acceptabelt enligt Accept-Charset-huvudet BÖR\n"
+-"servern sända ett felmeddelande, även om det är tillåtet att sända även\n"
+-"ett icke-acceptabelt svar.\n"
++"preferred_charset anger den teckenuppsättning"
++" i MIME-notation (t.ex.\n"
++"ISO-8859-2, ISO-8859-5) som Lynx anger som önskad i begäranden till\n"
++"HTTP-servrar genom huvudet Accept-Charset. Värdet "
++"bör INTE innehålla\n"
++"ISO-8859-1 eller US-ASCII, eftersom dessa värden alltid "
++"antas som\n"
++"standard. Värdet kan vara en kommaseparerad lista.\n"
++"Om en fil i den teckenuppsättningen är tillgänglig skickar servern den.\n"
++"Om inget Accept-Charset-huvud finns är standardvärdet att alla\n"
++"teckenuppsättningar "
++"är acceptabla. Om ett Accept-Charset-huvud finns\n"
++"och servern inte "
++"kan skicka ett svar som är acceptabelt enligt huvudet\n"
++"BÖR "
++"servern skicka ett felsvar, även om det också är tillåtet att skicka\n"
++"ett oacceptabelt svar.\n"
+ 
+ #: src/LYrcFile.c:553
+ msgid ""
+@@ -6091,11 +6133,13 @@
+ "If a file in that language is available, the server will send it.\n"
+ "Otherwise, the server will send the file in its default language.\n"
+ msgstr ""
+-"preferred_language anger de språk som Lynx kommer att ange att du önskar\n"
+-"ta emot i frågor till webbservrar i MIME-notation (t.ex en,fr, kan vara\n"
+-"en kommaseparerad lista i minskande prioriteringsordning).\n"
+-"Om en fil i det språket finns att tillgå kommer servern sända den.\n"
+-"Annars kommer servern sända filen i sitt standardspråk.\n"
++"preferred_language anger det språk"
++" i MIME-notation (t.ex. en, fr; kan\n"
++"vara "
++"en kommaseparerad lista i fallande prioritetsordning) som Lynx\n"
++"anger som önskat i begäranden till HTTP-servrar.\n"
++"Om en fil på det språket är tillgänglig skickar servern den.\n"
++"Annars skickar servern filen på sitt standardspråk.\n"
+ 
+ #: src/LYrcFile.c:564
+ msgid ""
+@@ -6109,15 +6153,16 @@
+ "          or compromise security.  This should only be set to \"on\" if\n"
+ "          you are viewing trusted source information.\n"
+ msgstr ""
+-"Om run_all_execution_links är satt till \"on\" kommer alla lokala\n"
+-"programkörningslänkar att köras när de väljs.\n"
+-"\n"
+-"VARNING - Detta kan vara MYCKET farligt. Eftersom du kan visa information\n"
+-"          som skrivits av okända och otillförlitliga källor är det möjligt\n"
+-"          att trojanska hästlänkar kan skrivas. Trojanska hästlänkar kan\n"
+-"          skrivas så att de raderar filer eller komprometterar säkerheten.\n"
+-"          Detta bör endast aktiveras (\"on\") om du visar information från\n"
+-"          tillförlitliga källor.\n"
++"Om run_all_execution_links sätts till ”on” körs alla lokala\n"
++"körbara länkar när de väljs.\n"
++"\n"
++"VARNING – Detta kan vara MYCKET farligt. Eftersom du kan visa information\n"
++"från okända och otillförlitliga källor kan länkar av typen"
++" trojanska hästar\n"
++"skapas. Sådana länkar kan "
++"radera filer eller äventyra säkerheten.\n"
++"Detta ska endast sättas till ”on” när du visar information från\n"
++"tillförlitliga källor.\n"
+ 
+ #: src/LYrcFile.c:575
+ msgid ""
+@@ -6134,18 +6179,22 @@
+ "          or compromise security.  This should only be set to \"on\" if\n"
+ "          you are viewing trusted source information.\n"
+ msgstr ""
+-"Om run_all_execution_links_on_local_files är satt till \"on\" kommer\n"
+-"alla lokala programkörningslänkar i LOKALA filer att köras när de väljs.\n"
+-"Detta skiljer sig från run_all_execution_links i det att endast filer\n"
+-"som ligger på det lokala systemet har rättighet att innehålla\n"
+-"programkörningslänkar.\n"
+-"\n"
+-"VARNING - Detta kan vara farligt. Eftersom du kan visa information som\n"
+-"          skrivits av okända och otillförlitliga källor är det möjligt att\n"
+-"          trojanska hästlänkar kan skrivas. Trojanska hästlänkar kan\n"
+-"          skrivas å att de raderar filer eller komprometterar säkerheten.\n"
+-"          Detta bör endast aktiveras (\"on\") om du visar information från\n"
+-"          tillförlitliga källor.\n"
++"Om run_execution_links_on_local_files sätts till ”on” körs "
++"alla lokala\n"
++"körbara länkar i LOKALA filer när de väljs. "
++"Detta skiljer sig från\n"
++"run_all_execution_links genom att endast filer "
++"som finns i det lokala\n"
++"systemet får innehålla "
++"körbara länkar.\n"
++"\n"
++"VARNING – Detta kan vara farligt. Eftersom du kan visa information från\n"
++"okända och otillförlitliga källor kan länkar av typen"
++" trojanska hästar\n"
++"skapas. Sådana länkar kan "
++"radera filer eller äventyra säkerheten.\n"
++"Detta ska endast sättas till ”on” när du visar information från\n"
++"tillförlitliga källor.\n"
+ 
+ #: src/LYrcFile.c:593
+ msgid ""
+@@ -6157,12 +6206,17 @@
+ "as the default while a value of \"off\" will set use of radio boxes.\n"
+ "The default can be overridden via the -popup command line toggle.\n"
+ msgstr ""
+-"select_popups anger huruvida OPTION i ett SELECT-block som saknar\n"
+-"MULTIPLE-attribut skall visas som en vertikal lista med radioknappar\n"
+-"eller via en popupmeny. Observera att om MULTIPLE-attributet finns i\n"
+-"SELECT-märket kommer Lynx alltid skapa en vertikal lista med kryssrutor\n"
+-"för varje OPTION. Värdet \"on\" skapar som förval popupmenyer, medan\n"
+-"värdet \"off\" väljer radioknappar. Förvalet kan gås förbi via\n"
++"select_popups anger om OPTION i ett SELECT-block utan "
++"MULTIPLE-attribut\n"
++"visas som en vertikal lista med radioknappar "
++"eller i en popupmeny. Om\n"
++"MULTIPLE-attributet finns i "
++"SELECT-starttaggen skapar Lynx alltid en\n"
++"vertikal lista med kryssrutor "
++"för OPTION. Värdet ”on” gör popupmenyer\n"
++"till standard, medan "
++"värdet ”off” använder radioknappar. Standarden kan\n"
++"åsidosättas med "
+ "kommandoradsflaggan -popup.\n"
+ 
+ #: src/LYrcFile.c:604
+@@ -6183,20 +6237,25 @@
+ "the 'o'ptions menu.  If the option settings are saved, the \"on\" and\n"
+ "\"off\" \"show color\" settings will be treated as \"default\".\n"
+ msgstr ""
+-"show_color anger hur färger ställs in vid start. Värdet \"never\" tvingar\n"
+-"färg att stängas av (terminalen behandlas som vore den monokrom) vid\n"
+-"start, även om terminalen verkar vara kapabel till färg. Värdet \"always\"\n"
+-"tvingar färg att slås på även om terminalen verkar vara monokrom, om det\n"
+-"stöds av det bibliotek som användes för att bygga lynx. Värdet \"default\"\n"
+-"gör att en monokrom terminal antas såvida inte färgstöd anges vid start\n"
+-"baserat på terminaltyp, eller via kommandoradsflaggan -color, eller om\n"
+-"miljövariabeln COLORTERM är satt. Detta beteende används alltid för anonyma\n"
+-"konton, eller om \"option_save\"-begränsningen är satt.\n"
+-"Det sparade värdet kan förbigås med kommandoradsflaggorna -color och\n"
+-"-nocolor.\n"
+-"Läget som sätts vid start kan ändras via inställningen \"visa färg\" i\n"
+-"alternativmenyn. Om alternativen sparas kommer inställningarna \"on\" och\n"
+-"\"off\" att tolkas som \"default\".\n"
++"show_color anger hur färgläget ställs in vid start. Värdet ”never”\n"
++"tvingar "
++"färgläget att vara avstängt (terminalen behandlas som monokrom)\n"
++"vid "
++"start, även om terminalen verkar stödja färg. Värdet ”always”\n"
++"tvingar färgläget att vara på även om terminalen verkar vara monokrom,\n"
++"om"
++" biblioteket som användes för att bygga Lynx stöder detta. Värdet\n"
++"”default” innebär att terminalen antas vara monokrom, om inte färgstöd\n"
++"upptäcks vid start utifrån terminaltypen, kommandoradsflaggan -color\n"
++"används eller "
++"miljövariabeln COLORTERM är satt. Standardbeteendet används\n"
++"alltid för anonyma "
++"konton eller när begränsningen ”option_save” är satt.\n"
++"Det sparade värdet kan åsidosättas med kommandoradsflaggorna -color och\n"
++"-nocolor. "
++"Läget vid start kan ändras med inställningen ”show color” i\n"
++"menyn ”options”. Om inställningarna sparas tolkas ”on” och ”off” för\n"
++"”show color” som ”default”.\n"
+ 
+ #: src/LYrcFile.c:621
+ msgid ""
+@@ -6210,14 +6269,16 @@
+ "default while a value of \"off\" will set 'hiding' of the cursor.\n"
+ "The default can be overridden via the -show_cursor command line toggle.\n"
+ msgstr ""
+-"show_cursor anger om markören skall \"gömmas\" till höger (och nederst,\n"
+-"om möjligt) på skärmen, eller om den skall ställas till vänster om\n"
+-"aktuell länk i dokument, eller aktuellt alternativ i popupfönster.\n"
+-"Att ställa markören till vänster om den aktuella länken eller alternativet\n"
+-"förenklar för tal- och braillegränssnitt, och om terminalen inte gör\n"
+-"skillnad på den aktuella länken med ljus- eller färgmarkering. Värdet\n"
+-"\"on\" placerar markören till vänster som förval, medan \"off\" \"gömmer\"\n"
+-"markören. Förvalet kan gås förbi via kommandoradsflaggan -show_cursor.\n"
++"show_cursor anger om markören ska ”gömmas” till höger (och längst ned,\n"
++"om möjligt) på skärmen eller placeras till vänster om den "
++"aktuella\n"
++"länken i dokument eller det aktuella alternativet i popupfönster.\n"
++"Att placera markören till vänster om den aktuella länken eller alternativet\n"
++"underlättar för tal- och punktskriftsgränssnitt samt när terminalen inte\n"
++"skiljer ut den aktuella länken med markering eller färg. Värdet ”"
++"on”\n"
++"gör vänsterplacering till standard medan ”off” ”gömmer” markören.\n"
++"Standarden kan åsidosättas med kommandoradsflaggan -show_cursor.\n"
+ 
+ #: src/LYrcFile.c:632
+ msgid ""
+@@ -6227,12 +6288,14 @@
+ "restricted via a command line switch.  If display of hidden files\n"
+ "is disabled, creation of such files via Lynx also is disabled.\n"
+ msgstr ""
+-"show_dotfiles anger att kataloglistan skall inkludera \"dolda\"\n"
+-"(punkt-)filer/kataloger. Om satt till \"on\" kommer detta endast\n"
+-"att läsas om det aktiverats via userdefs.h och/eller lynx.cfg, och\n"
+-"inte begränsat via en kommandoradsflagga. Om visning av dolda\n"
+-"filer är deaktiverat kommer skapandet av sådana filer via Lynx\n"
+-"också att deaktiveras.\n"
++"show_dotfiles anger att kataloglistan ska inkludera ”dolda”\n"
++"(punkt-)filer och -kataloger. Om värdet är ”on” respekteras detta endast\n"
++"om det har aktiverats via userdefs.h och/eller lynx.cfg och "
++"inte\n"
++"begränsas av en kommandoradsflagga. Om visning av dolda "
++"filer\n"
++"är inaktiverad är även skapandet av sådana filer via Lynx"
++" inaktiverat.\n"
+ 
+ #: src/LYrcFile.c:643
+ msgid ""
+@@ -6246,14 +6309,19 @@
+ "user modes.  When this option is set to \"standard\", the menu will be\n"
+ "presented regardless of user mode.\n"
+ msgstr ""
+-"Om sub_bookmarks inte är avstängt (\"off\"), och multipla bokmärken\n"
+-"har angetts (se nedan) kommer alla bokmärkesfunktioner först att be\n"
+-"användaren ange en aktiv underbokmärkesfil. Om en standardbokmärkesfil\n"
+-"har definierats (se bookmark_file ovan), kommer den att användas som\n"
+-"förval. När detta alternativ är satt till \"advanced\", och användarläget\n"
+-"är avancerat, kommer kommandot visa bokmärke att visa en statusradsfråga\n"
+-"istället för den meny som visas i användarlägets nybörjar- och\n"
+-"mellannivåer. Om detta alternativ sätts till \"standard\" visas menyn\n"
++"Om sub_bookmarks inte är satt till ”off” och flera bokmärkesfiler "
++"har\n"
++"definierats (se nedan) uppmanas "
++"användaren vid varje bokmärkesåtgärd att\n"
++"välja en aktiv underbokmärkesfil. Om Lynx standardbokmärkesfil\n"
++"bookmark_file är definierad (se ovan) används den som standardval. När\n"
++"detta alternativ är satt till ”advanced” och användarläget "
++"är avancerat\n"
++"öppnar kommandot för att visa bokmärken en statusradsfråga "
++"i stället för\n"
++"menyn som visas i användarlägena nybörjare och "
++"medelavancerad. När\n"
++"alternativet är satt till ”standard” visas menyn "
+ "oavsett användarläge.\n"
+ 
+ #: src/LYrcFile.c:658
+@@ -6265,12 +6333,16 @@
+ "Use \"ADVANCED\" to see the URL of the currently selected link at the\n"
+ "bottom of the screen.\n"
+ msgstr ""
+-"user_mode anger användarens nivå av kunskap om Lynx. Förvalet\n"
+-"\"NOVICE\" (nybörjare) visar två extra rader med hjälp nederst på\n"
+-"skärmen för att hjälpa användaren lära de grundläggande kommandona\n"
+-"i Lynx. Sätt user_mode till \"INTERMEDIATE\" (mellannivå) för att\n"
+-"stänga av extrainformationen. Använd \"ADVANCED\" för att se adressen\n"
+-"för den markerade länken nederst på skärmen.\n"
++"user_mode anger användarens kunskapsnivå om Lynx. Standardvärdet\n"
++"”NOVICE” visar två extra hjälprader längst ned på "
++"skärmen för att hjälpa\n"
++"användaren att lära sig grundläggande Lynx-kommandon"
++". Sätt user_mode\n"
++"till ”INTERMEDIATE” för att "
++"stänga av extrainformationen. Använd\n"
++"”ADVANCED” för att se adressen till"
++" den markerade länken längst ned på\n"
++"skärmen.\n"
+ 
+ #: src/LYrcFile.c:667
+ msgid ""
+@@ -6278,8 +6350,8 @@
+ "source file in place of [INLINE], [LINK] or [IMAGE]\n"
+ "See also VERBOSE_IMAGES in lynx.cfg\n"
+ msgstr ""
+-"Om verbose_images är \"on\" skriver lynx namnet på bildens källfil\n"
+-"istället för [INLINE], [LINK] eller [IMAGE]\n"
++"Om verbose_images är ”on” skriver Lynx namnet på bildens källfil\n"
++"i stället för [INLINE], [LINK] eller [IMAGE].\n"
+ "Se även VERBOSE_IMAGES i lynx.cfg\n"
+ 
+ #: src/LYrcFile.c:672
+@@ -6303,8 +6375,8 @@
+ "The visited_links setting controls how Lynx organizes the information\n"
+ "in the Visited Links Page.\n"
+ msgstr ""
+-"Inställningen visited_links anger hur Lynx organiserar informationen\n"
+-"på sidan Använda länkar.\n"
++"Inställningen visited_links styr hur Lynx organiserar informationen\n"
++"på sidan Besökta länkar.\n"
+ 
+ #: src/LYrcFile.c:924
+ msgid ""
+@@ -6357,9 +6429,9 @@
+ "\"LINKS_ARE_NUMBERED\" or \"LINKS_AND_FORM_FIELDS_ARE_NUMBERED\" are\n"
+ "enabled.\n"
+ msgstr ""
+-"OBS: Vissa dokument med fixerat format kan se trasiga ut när\n"
+-"\"LINKS_ARE_NUMBERED\" eller \"LINKS_AND_FORM_FILES_ARE_NUMBERED\" är\n"
+-"aktiva.\n"
++"OBS: Vissa dokument med fast format kan se förvanskade ut när\n"
++"”LINKS_ARE_NUMBERED” eller ”LINKS_AND_FORM_FIELDS_ARE_NUMBERED” är\n"
++"aktiverade.\n"
+ 
+ #: src/LYrcFile.c:978
+ msgid ""
+@@ -6375,8 +6447,8 @@
+ "with the 'o' key).  To save options with that screen, you must select the\n"
+ "checkbox:\n"
+ msgstr ""
+-"Filen innehåller inställningar som lagrats från Lynx inställningsskärm\n"
+-"(vanligtvis med knappen \"o\"). För att spara inställningar därifrån måste\n"
++"Filen innehåller inställningar som sparats från Lynx inställningsskärm\n"
++"(vanligtvis med tangenten ”o”). För att spara inställningar där måste\n"
+ "du markera kryssrutan:\n"
+ 
+ #: src/LYrcFile.c:994
+@@ -6419,13 +6491,13 @@
+ "called \"lynx.cfg\".  It has different content and a different format.\n"
+ "It is not this file.\n"
+ msgstr ""
+-"Vanligtvis behöver du inte redigera denna fil manuellt, eftersom\n"
+-"inställningarna kan nås från alternativmenyn, och nästa gång alternativen\n"
+-"lagras från alternativmenyn kommer denna fil helt att skrivas över.\n"
+-"Du har varnats...\n"
+-"\n"
+-"Om du letar efter den generella konfigurationsfilen heter den normalt\n"
+-"\"lynx.cfg\". Den har ett annat innehåll och ett annat format.\n"
++"Vanligtvis behöver du inte redigera den här filen manuellt, eftersom\n"
++"inställningarna här kan styras från inställningsskärmen och filen skrivs\n"
++"om helt nästa gång inställningar sparas från inställningsskärmen.\n"
++"Du har varnats…\n"
++"\n"
++"Om du letar efter den allmänna konfigurationsfilen heter den normalt\n"
++"”lynx.cfg”. Den har ett annat innehåll och format.\n"
+ "Det är inte den här filen.\n"
+ 
+ #~ msgid "HREF in BASE tag is not an absolute URL."
