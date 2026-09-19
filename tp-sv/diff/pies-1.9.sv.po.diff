@@ -1,0 +1,727 @@
+--- a/pies-1.9.sv.po
++++ b/pies-1.9.sv.po
+@@ -22,12 +22,12 @@
+ #: src/acl.c:200
+ #, c-format
+ msgid "socket name too long: %s"
+-msgstr "uttagsnamn är för långt: %s"
++msgstr "uttagsnamnet är för långt: %s"
+ 
+ #: src/acl.c:223
+ #, c-format
+ msgid "cannot resolve host name: %s"
+-msgstr "det går inte att slå upp värdnamn: %s"
++msgstr "kan inte slå upp värdnamnet: %s"
+ 
+ #: src/acl.c:260 src/acl.c:267
+ #, c-format
+@@ -36,37 +36,37 @@
+ 
+ #: src/acl.c:304
+ msgid "expected \"from\", but found list"
+-msgstr "förväntade \"from\", men hittade lista"
++msgstr "förväntade ”from”, men hittade en lista"
+ 
+ #: src/acl.c:309
+ #, c-format
+ msgid "expected \"from\", but found \"%s\""
+-msgstr "förväntade \"from\", men hittade \"%s\""
++msgstr "förväntade ”from”, men hittade ”%s”"
+ 
+ #: src/acl.c:319
+ msgid "unexpected end of statement after \"from\""
+-msgstr "oväntat slut på sats efter \"from\""
++msgstr "oväntat satsslut efter ”from”"
+ 
+ #: src/acl.c:344
+ msgid "junk after from-list"
+-msgstr "skräp efter from-lista"
++msgstr "skräp efter from-listan"
+ 
+ #: src/acl.c:362
+ msgid "expected ACL name, but found end of statement"
+-msgstr "förväntade ACL-namn, men hittade slut på sats"
++msgstr "förväntade ett ACL-namn, men hittade satsslut"
+ 
+ #: src/acl.c:369
+ msgid "expected string, but found list"
+-msgstr "förväntade sträng, men hittade lista"
++msgstr "förväntade en sträng, men hittade en lista"
+ 
+ #: src/acl.c:377 src/acl.c:578
+ #, c-format
+ msgid "ACL not defined: %s"
+-msgstr "ACL inte definierad: %s"
++msgstr "ACL:en är inte definierad: %s"
+ 
+ #: src/acl.c:406
+ msgid "expected identity list, but found end of statement"
+-msgstr "förväntade identitetslista, men hittade slut på sats"
++msgstr "förväntade en identitetslista, men hittade satsslut"
+ 
+ #: src/acl.c:457
+ #, c-format
+@@ -79,11 +79,11 @@
+ 
+ #: src/acl.c:529
+ msgid "ACL name must be a string"
+-msgstr "ACL-namn måste vara en sträng"
++msgstr "Ett ACL-namn måste vara en sträng"
+ 
+ #: src/acl.c:539
+ msgid "ACL name is not expected"
+-msgstr "ACL-namn är inte väntat"
++msgstr "ACL-namn förväntas inte"
+ 
+ #: src/acl.c:543
+ msgid "ACL name is ignored"
+@@ -91,11 +91,11 @@
+ 
+ #: src/acl.c:553
+ msgid "missing ACL name"
+-msgstr "saknar ACL-namn"
++msgstr "ACL-namn saknas"
+ 
+ #: src/acl.c:629 src/acl.c:646 grecs/src/assert.c:45
+ msgid "unexpected block statement"
+-msgstr "oväntad block-sats"
++msgstr "oväntad blocksats"
+ 
+ #. TRANSLATORS: only words within angle brackets are translatable
+ #: src/acl.c:655 src/acl.c:660
+@@ -123,16 +123,16 @@
+ #: src/acl.c:844
+ #, c-format
+ msgid "cannot install ACL: %s"
+-msgstr "det går inte att installera ACL:et: %s"
++msgstr "kan inte installera ACL: %s"
+ 
+ #: src/acl.c:851
+ #, c-format
+ msgid "redefinition of ACL %s"
+-msgstr "omdefiniering av ACL %s"
++msgstr "omdefinition av ACL %s"
+ 
+ #: src/acl.c:854
+ msgid "location of the previous definition"
+-msgstr "plats för föregående definition"
++msgstr "platsen för den föregående definitionen"
+ 
+ #: src/comp.c:442
+ #, c-format
+@@ -146,7 +146,7 @@
+ 
+ #: src/comp.c:474
+ msgid "cyclic dependencies detected:"
+-msgstr "cykliska beroenden upptäckta:"
++msgstr "cykliska beroenden upptäcktes:"
+ 
+ #: src/comp.c:644
+ #, c-format
+@@ -175,7 +175,7 @@
+ 
+ #: src/comp.c:690
+ msgid "pass-fd-socket ignored: wrong mode"
+-msgstr "pass-fd-uttag ignoreras: fel läge"
++msgstr "pass-fd-socket ignoreras: fel läge"
+ 
+ #: src/comp.c:696
+ msgid "socket ignored: wrong mode"
+@@ -183,11 +183,11 @@
+ 
+ #: src/comp.c:702
+ msgid "must supply pass-fd-socket in this mode"
+-msgstr "måste ange pass-fd-uttag i detta läge"
++msgstr "pass-fd-socket måste anges i detta läge"
+ 
+ #: src/comp.c:713
+ msgid "pass-fd-socket must be an absolute file name or chdir must be specified"
+-msgstr "pass-fd-uttag måste vara ett absolut filnamn eller chdir måste anges"
++msgstr "pass-fd-socket måste vara ett absolut filnamn eller så måste chdir anges"
+ 
+ #: src/comp.c:722 src/comp.c:747
+ msgid "socket must be specified in this mode"
+@@ -195,11 +195,11 @@
+ 
+ #: src/comp.c:735
+ msgid "TCPMUX master not specified, assuming \"tcpmux\""
+-msgstr "TCPMUX-master är inte angiven, antar \"tcpmux\""
++msgstr "TCPMUX-master är inte angiven, antar ”tcpmux”"
+ 
+ #: src/comp.c:753
+ msgid "SystemV init support is not compiled in"
+-msgstr "SystemV-initstöd är inte inkompilerat"
++msgstr "System V-initstöd är inte inkompilerat"
+ 
+ #: src/comp.c:763
+ msgid "max-instances ignored"
+@@ -212,12 +212,12 @@
+ 
+ #: src/comp.c:782
+ msgid "stdout redirection invalid in this mode"
+-msgstr "stdout-omdirigering ogiltig i detta läge"
++msgstr "standardutdataomdirigering är ogiltig i detta läge"
+ 
+ #: src/comp.c:802
+ #, c-format
+ msgid "%s: must be an absolute file name or chdir must be specified"
+-msgstr "%s: måste vara ett absolut filnamn eller chdir måste anges"
++msgstr "%s måste vara ett absolut filnamn eller så måste chdir anges"
+ 
+ #: src/comp.c:827
+ msgid "flags \"shell\" and \"expandenv\" used together: ignoring \"expandenv\""
+@@ -225,7 +225,7 @@
+ 
+ #: src/comp.c:893
+ msgid "No components defined"
+-msgstr "Inga komponenter definierade"
++msgstr "Inga komponenter är definierade"
+ 
+ #: src/comp.c:897
+ msgid "Dependency map"
+@@ -238,7 +238,7 @@
+ #: src/ctl.c:299
+ #, c-format
+ msgid "can't parse input line: %s"
+-msgstr "det går inte att tolka inmatningsraden: %s"
++msgstr "kan inte tolka indataraden: %s"
+ 
+ #: src/ctl.c:305 src/ctl.c:328 src/ctl.c:358
+ msgid "protocol error"
+@@ -247,56 +247,56 @@
+ #: src/ctl.c:337
+ #, c-format
+ msgid "cannot install header: %s"
+-msgstr "det går inte att installera huvudet: %s"
++msgstr "kan inte installera huvudet: %s"
+ 
+ #: src/ctl.c:441
+ #, c-format
+ msgid "cannot install output header: %s"
+-msgstr "det går inte att installera utdatahuvudet: %s"
++msgstr "kan inte installera utdatahuvudet: %s"
+ 
+ #: src/ctl.c:766
+ #, c-format
+ msgid "%s: can't authenticate: %s"
+-msgstr "%s: det går inte att autentisera: %s"
++msgstr "%s: kan inte autentisera: %s"
+ 
+ #: src/ctl.c:776
+ #, c-format
+ msgid "trying identity provider %s..."
+-msgstr "försöker identitetsleverantör %s..."
++msgstr "försöker använda identitetsleverantören %s..."
+ 
+ #: src/ctl.c:785
+ #, c-format
+ msgid "%s granted admin access via %s"
+-msgstr "%s fick administratörsåtkomst via %s"
++msgstr "%s beviljades administratörsåtkomst via %s"
+ 
+ #: src/ctl.c:794
+ #, c-format
+ msgid "%s authenticated via %s"
+-msgstr "%s autentiserad via %s"
++msgstr "%s autentiserades via %s"
+ 
+ #: src/ctl.c:804
+ #, c-format
+ msgid "%s authenticated via %s, component %s"
+-msgstr "%s autentiserad via %s, komponent %s"
++msgstr "%s autentiserades via %s, komponent %s"
+ 
+ #: src/ctl.c:809
+ #, c-format
+ msgid "%s authenticated via %s, but failed ACL check"
+-msgstr "%s autentiserad via %s, men ACL-kontrollen misslyckades"
++msgstr "%s autentiserades via %s, men ACL-kontrollen misslyckades"
+ 
+ #: src/ctl.c:1216
+ #, c-format
+ msgid "error reading from control socket: %s"
+-msgstr "fel vid läsning från kontrolluttag: %s"
++msgstr "fel vid läsning från kontrolluttaget: %s"
+ 
+ #: src/ctl.c:1236
+ msgid "error writing to control socket"
+-msgstr "fel vid skrivning till kontrolluttag"
++msgstr "fel vid skrivning till kontrolluttaget"
+ 
+ #: src/ctl.c:1238
+ #, c-format
+ msgid "error writing to control socket: %s"
+-msgstr "fel vid skrivning till kontrolluttag: %s"
++msgstr "fel vid skrivning till kontrolluttaget: %s"
+ 
+ #: src/ctl.c:1277 src/progman.c:1471
+ #, c-format
+@@ -310,11 +310,11 @@
+ #: src/ctl.c:1307
+ #, c-format
+ msgid "can't create control socket %s"
+-msgstr "det går inte att skapa kontrolluttaget %s"
++msgstr "kan inte skapa kontrolluttaget %s"
+ 
+ #: src/diag.c:186
+ msgid "out of memory trying to log a message"
+-msgstr "slut på minne vid försök att logga ett meddelande"
++msgstr "minnet tog slut vid försök att logga ett meddelande"
+ 
+ #: src/diag.c:256 src/piesctl.c:439 lib/urlconn.c:70 lib/urlconn.c:128
+ #: lib/urlconn.c:144 lib/urlconn.c:152
+@@ -330,7 +330,7 @@
+ #: src/inetd-bi.c:231 src/pies.c:2086 src/pies.c:2261
+ #, c-format
+ msgid "cannot open file %s: %s"
+-msgstr "det går inte att öppna filen %s: %s"
++msgstr "kan inte öppna filen %s: %s"
+ 
+ #: src/inetd-bi.c:243
+ #, c-format
+@@ -340,12 +340,12 @@
+ #: src/inetd-bi.c:351
+ #, c-format
+ msgid "%s: cannot get peer name: %s"
+-msgstr "%s: det går inte att hämta peer-namnet: %s"
++msgstr "%s: kan inte hämta motpartens namn: %s"
+ 
+ #: src/inetd.c:93 src/sysvinit.c:1285 lib/netrc.c:205
+ #, c-format
+ msgid "cannot open configuration file %s: %s"
+-msgstr "det går inte att öppna konfigurationsfilen %s: %s"
++msgstr "kan inte öppna konfigurationsfilen %s: %s"
+ 
+ #: src/inetd.c:172 src/pies.c:1141
+ msgid "bad socket type"
+@@ -353,11 +353,11 @@
+ 
+ #: src/inetd.c:183
+ msgid "bad protocol for tcpmux service"
+-msgstr "felaktigt protokoll för tcpmux-tjänst"
++msgstr "felaktigt protokoll för tcpmux-tjänsten"
+ 
+ #: src/inetd.c:189
+ msgid "bad socket type for tcpmux service"
+-msgstr "felaktig uttagstyp för tcpmux-tjänst"
++msgstr "felaktig uttagstyp för tcpmux-tjänsten"
+ 
+ #: src/inetd.c:212
+ msgid "invalid socket address"
+@@ -374,12 +374,12 @@
+ 
+ #: src/limits.c:83
+ msgid "L limit is not implemented"
+-msgstr "L-gränsen är ej implementerad"
++msgstr "L-gränsen är inte implementerad"
+ 
+ #: src/meta1parse.c:102
+ #, c-format
+ msgid "no \"%s\" statement in block"
+-msgstr "ingen \"%s\"-sats i blocket"
++msgstr "ingen ”%s”-sats i blocket"
+ 
+ #: src/meta1parse.c:109
+ msgid "unexpected scalar statement"
+@@ -387,7 +387,7 @@
+ 
+ #: src/meta1parse.c:205
+ msgid "unsupported type"
+-msgstr "typ som inte stöds"
++msgstr "typen stöds inte"
+ 
+ #: src/pies.c:213
+ #, c-format
+@@ -401,7 +401,7 @@
+ 
+ #: src/pies.c:224
+ msgid "Specifies action to take when a component finishes with this return code."
+-msgstr "Anger åtgärd att utföra när en komponent avslutas med denna returkod."
++msgstr "Anger åtgärden som ska utföras när en komponent avslutas med denna returkod."
+ 
+ #: src/pies.c:231
+ msgid "arg: emails"
+@@ -413,7 +413,7 @@
+ 
+ #: src/pies.c:238
+ msgid "Notification message text (with headers)."
+-msgstr "Text för notifieringsmeddelande (med huvuden)."
++msgstr "Text för meddelandet (med huvuden)."
+ 
+ #: src/pies.c:244
+ msgid "Execute this command."
+@@ -422,7 +422,7 @@
+ #: src/pies.c:428
+ #, c-format
+ msgid "%s: not a number"
+-msgstr "%s: inte ett nummer"
++msgstr "%s: inte ett tal"
+ 
+ #: src/pies.c:437 src/pies.c:1304
+ #, c-format
+@@ -436,15 +436,15 @@
+ 
+ #: src/pies.c:494
+ msgid "cannot get list item"
+-msgstr "det går inte att hämta listposten"
++msgstr "kan inte hämta listposten"
+ 
+ #: src/pies.c:518 src/pies.c:1576 src/piesctl.c:95
+ msgid "missing tag"
+-msgstr "saknar tagg"
++msgstr "tagg saknas"
+ 
+ #: src/pies.c:546 src/piesctl.c:110 grecs/src/tree.c:655
+ msgid "invalid use of block statement"
+-msgstr "ogiltig användning av block-sats"
++msgstr "ogiltig användning av en blocksats"
+ 
+ #: src/pies.c:589
+ msgid "invalid octal number"
+@@ -452,7 +452,7 @@
+ 
+ #: src/pies.c:740
+ msgid "can't parse legacy env statement"
+-msgstr "det går inte att tolka den äldre env-satsen"
++msgstr "kan inte tolka den äldre env-satsen"
+ 
+ #: src/pies.c:781
+ msgid "unexpected argument"
+@@ -460,7 +460,7 @@
+ 
+ #: src/pies.c:871
+ msgid "bool"
+-msgstr "bool"
++msgstr "boolesk"
+ 
+ #: src/pies.c:872
+ msgid "Clear environment."
+@@ -476,7 +476,7 @@
+ "Implies \"clear\"."
+ msgstr ""
+ "Behåll denna variabel. Om inget värde anges kan namnet innehålla jokertecken.\n"
+-"Innebär \"clear\"."
++"Innebär ”clear”."
+ 
+ #: src/pies.c:884
+ msgid "name=value"
+@@ -484,7 +484,7 @@
+ 
+ #: src/pies.c:885
+ msgid "Set environment variable. Note, that argument must be quoted."
+-msgstr "Sätt miljövariabel. Observera att argumentet måste vara citerat."
++msgstr "Ange miljövariabeln. Observera att argumentet måste citeras."
+ 
+ #: src/pies.c:890 src/pies.c:1652 grecs/src/format.c:38 grecs/src/tree.c:69
+ msgid "string"
+@@ -492,7 +492,7 @@
+ 
+ #: src/pies.c:891
+ msgid "Evaluate string. Useful for side-effects, e.g. eval ${X:=2}."
+-msgstr "Utvärdera sträng. Användbart för sidoeffekter, t.ex. eval ${X:=2}."
++msgstr "Utvärdera strängen. Användbart för sidoeffekter, till exempel eval ${X:=2}."
+ 
+ #: src/pies.c:896 src/pies.c:1365 src/pies.c:1536 src/pies.c:1628
+ #: src/pies.c:1640 src/pies.c:1646 src/piesctl.c:127
+@@ -501,7 +501,7 @@
+ 
+ #: src/pies.c:897
+ msgid "Unset environment variable. Name can contain wildcards."
+-msgstr "Avsätt miljövariabel. Namnet kan innehålla jokertecken."
++msgstr "Avdefiniera miljövariabeln. Namnet kan innehålla jokertecken."
+ 
+ #: src/pies.c:971 src/pies.c:983
+ msgid "unknown syslog priority"
+@@ -513,7 +513,7 @@
+ 
+ #: src/pies.c:1020
+ msgid "expected facility number or symbolic name"
+-msgstr "förväntade facilitetstal eller symboliskt namn"
++msgstr "förväntade ett facilitetstal eller ett symboliskt namn"
+ 
+ #: src/pies.c:1025
+ #, c-format
+@@ -554,7 +554,7 @@
+ 
+ #: src/pies.c:1315
+ msgid "Component execution mode."
+-msgstr "Komponentens körläge."
++msgstr "Komponentens exekveringsläge."
+ 
+ #: src/pies.c:1322
+ msgid "Full name of the program."
+@@ -578,7 +578,7 @@
+ 
+ #: src/pies.c:1348
+ msgid "List of flags."
+-msgstr "Lista över flaggor."
++msgstr "Lista med flaggor."
+ 
+ #: src/pies.c:1352
+ msgid "SIGNAL"
+@@ -594,19 +594,19 @@
+ 
+ #: src/pies.c:1359
+ msgid "Runlevels to start that component in."
+-msgstr "Runlevels att starta komponenten i."
++msgstr "Körnivåer där komponenten ska startas."
+ 
+ #: src/pies.c:1366
+ msgid "Pass fd through this socket."
+-msgstr "Skicka filbeskrivare (fd) genom detta uttag."
++msgstr "Skicka filbeskrivaren (fd) genom detta uttag."
+ 
+ #: src/pies.c:1373
+ msgid "Time to wait for pass-fd socket to become available."
+-msgstr "Tid att vänta på att pass-fd-uttag blir tillgänglig."
++msgstr "Tid att vänta på att pass-fd-socket blir tillgänglig."
+ 
+ #: src/pies.c:1380
+ msgid "Maximum number of running instances."
+-msgstr "Maximalt antal körande instanser."
++msgstr "Maximalt antal instanser som körs."
+ 
+ #: src/pies.c:1386
+ msgid "Text to send back if max-instances is reached (inetd-components only)."
+@@ -622,15 +622,15 @@
+ 
+ #: src/pies.c:1405
+ msgid "Maximum number of times an inetd component can be invoked in one minute."
+-msgstr "Maximalt antal gånger en inetd-komponent kan anropas på en minut."
++msgstr "Maximalt antal gånger en inetd-komponent kan startas under en minut."
+ 
+ #: src/pies.c:1410 src/pies.c:1598 src/piesctl.c:70 src/piesctl.c:117
+ msgid "url: string"
+-msgstr "URL: sträng"
++msgstr "url: sträng"
+ 
+ #: src/pies.c:1411 src/pies.c:1599
+ msgid "Listen on the given url."
+-msgstr "Lyssna på den angivna URL:en."
++msgstr "Lyssna på angiven URL."
+ 
+ #. TRANSLATORS: words after `type:' are keywords.
+ #: src/pies.c:1418
+@@ -684,7 +684,7 @@
+ 
+ #: src/pies.c:1481 src/pies.c:1778
+ msgid "Retain supplementary group."
+-msgstr "Behåll kompletterande grupp."
++msgstr "Behåll den kompletterande gruppen."
+ 
+ #: src/pies.c:1488 src/pies.c:1785
+ msgid "Retain all supplementary groups of which user is a member."
+@@ -692,7 +692,7 @@
+ 
+ #: src/pies.c:1494 src/pies.c:1791
+ msgid "arg: number"
+-msgstr "arg: nummer"
++msgstr "arg: tal"
+ 
+ #: src/pies.c:1495 src/pies.c:1792
+ msgid "Force this umask."
+@@ -700,7 +700,7 @@
+ 
+ #: src/pies.c:1502
+ msgid "Set system limits"
+-msgstr "Ställ in systemgränser"
++msgstr "Ange systemgränser"
+ 
+ #: src/pies.c:1509 src/pies.c:1711
+ msgid "Modify program environment."
+@@ -720,7 +720,7 @@
+ 
+ #: src/pies.c:1523
+ msgid "dir"
+-msgstr "katalog"
++msgstr "dir"
+ 
+ #: src/pies.c:1524
+ msgid "Change to this directory before executing the component."
+@@ -728,7 +728,7 @@
+ 
+ #: src/pies.c:1530 src/pies.c:1819
+ msgid "tag: exit-code-list"
+-msgstr "tagg: exit-code-list"
++msgstr "tag: exit-code-list"
+ 
+ #: src/pies.c:1531 src/pies.c:1820
+ msgid "Define what to do when the component finishes."
+@@ -740,19 +740,19 @@
+ 
+ #: src/pies.c:1542
+ msgid "tag"
+-msgstr "tagg"
++msgstr "tag"
+ 
+ #: src/pies.c:1543
+ msgid "Tag of master TCPMUX component."
+-msgstr "Tagg för huvud‑TCPMUX‑komponent."
++msgstr "Tagg för TCPMUX-huvudkomponenten."
+ 
+ #: src/pies.c:1591
+ msgid "expected block statement"
+-msgstr "förväntade block-sats"
++msgstr "en blocksats förväntades"
+ 
+ #: src/pies.c:1604
+ msgid "Set connection ACL."
+-msgstr "Sätt anslutnings-ACL."
++msgstr "Ange anslutnings-ACL."
+ 
+ #: src/pies.c:1610
+ msgid "Administrative access"
+@@ -776,7 +776,9 @@
+ 
+ #: src/pies.c:1647
+ msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
+-msgstr "Sätt syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, mail, cron, local0 till local7 (skiftlägesokänsligt), eller ett facilitetstal."
++msgstr "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, "
++"mail, cron, local0 till local7 (skiftlägesokänsligt), eller ett "
++"facilitetsnummer."
+ 
+ #: src/pies.c:1652
+ msgid "Tag syslog messages with this string"
+@@ -825,7 +827,7 @@
+ 
+ #: src/pies.c:1729
+ msgid "Set debug verbosity level."
+-msgstr "Ställ in detaljnivå för felsökning."
++msgstr "Ange detaljnivå för felsökning."
+ 
+ #: src/pies.c:1734
+ msgid "Show source info with debugging messages."
+@@ -849,7 +851,7 @@
+ 
+ #: src/pies.c:1799
+ msgid "Set global system limits."
+-msgstr "Ställ in globala systemgränser."
++msgstr "Ange globala systemgränser."
+ 
+ #: src/pies.c:1805
+ msgid "arg: char"
+@@ -865,7 +867,7 @@
+ 
+ #: src/pies.c:1826
+ msgid "Set global ACL."
+-msgstr "Sätt global ACL."
++msgstr "Ange global ACL."
+ 
+ #: src/pies.c:1831
+ msgid "name: string"
+@@ -919,7 +921,7 @@
+ #: src/pies.c:2100
+ #, c-format
+ msgid "unexpected character %#03o in pidfile %s"
+-msgstr "oväntat tecken %#03o i pid-fil %s"
++msgstr "oväntat tecken %#03o i PID-fil %s"
+ 
+ #: src/pies.c:2110
+ #, c-format
+@@ -938,7 +940,7 @@
+ #: src/pies.c:2216
+ #, c-format
+ msgid "pies is not running, but a pidfile is found (pid %lu)"
+-msgstr "pies kör inte, men en pid-fil hittades (pid %lu)"
++msgstr "pies kör inte, men en PID-fil hittades (pid %lu)"
+ 
+ #: src/pies.c:2222
+ #, c-format
+@@ -958,7 +960,7 @@
+ #: src/pies.c:2294
+ #, c-format
+ msgid "cannot create pidfile `%s': %s"
+-msgstr "det går inte att skapa pid-filen `%s': %s"
++msgstr "det går inte att skapa PID-filen `%s': %s"
+ 
+ #: src/pies.c:2318
+ #, c-format
+@@ -1017,15 +1019,15 @@
+ 
+ #: src/pies.c:2672
+ msgid "set instance name"
+-msgstr "ställ in instansnamn"
++msgstr "ange instansnamn"
+ 
+ #: src/pies.c:2680
+ msgid "NUMBER"
+-msgstr "NUMMER"
++msgstr "TAL"
+ 
+ #: src/pies.c:2681
+ msgid "set default maximum rate for inetd-style components"
+-msgstr "ställ in standard för maxhastighet för inetd-komponenter"
++msgstr "ange standardvärde för högsta hastighet för inetd-komponenter"
+ 
+ #: src/pies.c:2689
+ msgid "log to stderr"
+@@ -1141,7 +1143,7 @@
+ 
+ #: src/pies.c:2880
+ msgid "set debug verbosity level"
+-msgstr "ställ in detaljnivå för felsökning"
++msgstr "ange detaljnivå för felsökning"
+ 
+ #: src/pies.c:2973
+ #, c-format
+@@ -1311,7 +1313,7 @@
+ #: src/piesctl.c:704
+ #, c-format
+ msgid "original json was: %s"
+-msgstr "ursprunglig json var: %s"
++msgstr "ursprunglig JSON var: %s"
+ 
+ #: src/piesctl.c:706
+ #, c-format
+@@ -1321,7 +1323,7 @@
+ #: src/piesctl.c:739
+ #, c-format
+ msgid "%s: raw JSON reply follows:\n"
+-msgstr "%s: rå JSON‑svar följer:\n"
++msgstr "%s: rått JSON-svar följer:\n"
+ 
+ #: src/piesctl.c:773
+ msgid "please report"
+@@ -2347,13 +2349,13 @@
+ #: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+ #: grecs/src/format.c:45
+ msgid "number"
+-msgstr "nummer"
++msgstr "tal"
+ 
+ #: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+ #: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+ #: grecs/src/format.c:45
+ msgid "of numbers"
+-msgstr "av nummer"
++msgstr "av tal"
+ 
+ #: grecs/src/format.c:46
+ msgid "time"
+@@ -2527,7 +2529,7 @@
+ 
+ #: grecs/json/json.c:98
+ msgid "Unrecognized token"
+-msgstr "Okänd token"
++msgstr "Okänd symbol"
+ 
+ #: grecs/json/json.c:99
+ msgid "Bad delimiter"
+@@ -2598,7 +2600,7 @@
+ #: grecs/src/sockaddr.c:269
+ #, c-format
+ msgid "unknown or unsupported scheme: %s"
+-msgstr "okänt eller inte stödd schema: %s"
++msgstr "okänt eller inte stött schema: %s"
+ 
+ #: grecs/src/sockaddr.c:278
+ #, c-format
+@@ -2663,7 +2665,7 @@
+ #: grecs/src/tree.c:531 grecs/src/tree.c:561
+ #, c-format
+ msgid "not a number (stopped near `%s')"
+-msgstr "inte ett nummer (stoppade nära `%s')"
++msgstr "inte ett tal (stoppade nära `%s')"
+ 
+ #: grecs/src/tree.c:625
+ #, c-format

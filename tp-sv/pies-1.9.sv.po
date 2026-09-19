@@ -1,0 +1,2802 @@
+# pies
+# Copyright (C) 2026 Free Software Foundation, Inc.
+# Swedish translations for GNU pies.
+# This file is distributed under the same license as the pies package.
+# Josef Andersson <janderssonse@proton.me>, 2026
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pies 1.9\n"
+"Report-Msgid-Bugs-To: bug-pies@gnu.org\n"
+"POT-Creation-Date: 2026-02-06 09:38+0200\n"
+"PO-Revision-Date: 2026-02-21 00:00+0200\n"
+"Last-Translator: Josef Andersson <janderssonse@proton.me>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/acl.c:200
+#, c-format
+msgid "socket name too long: %s"
+msgstr "uttagsnamnet är för långt: %s"
+
+#: src/acl.c:223
+#, c-format
+msgid "cannot resolve host name: %s"
+msgstr "kan inte slå upp värdnamnet: %s"
+
+#: src/acl.c:260 src/acl.c:267
+#, c-format
+msgid "invalid netmask: %s"
+msgstr "ogiltig nätmask: %s"
+
+#: src/acl.c:304
+msgid "expected \"from\", but found list"
+msgstr "förväntade ”from”, men hittade en lista"
+
+#: src/acl.c:309
+#, c-format
+msgid "expected \"from\", but found \"%s\""
+msgstr "förväntade ”from”, men hittade ”%s”"
+
+#: src/acl.c:319
+msgid "unexpected end of statement after \"from\""
+msgstr "oväntat satsslut efter ”from”"
+
+#: src/acl.c:344
+msgid "junk after from-list"
+msgstr "skräp efter from-listan"
+
+#: src/acl.c:362
+msgid "expected ACL name, but found end of statement"
+msgstr "förväntade ett ACL-namn, men hittade satsslut"
+
+#: src/acl.c:369
+msgid "expected string, but found list"
+msgstr "förväntade en sträng, men hittade en lista"
+
+#: src/acl.c:377 src/acl.c:578
+#, c-format
+msgid "ACL not defined: %s"
+msgstr "ACL:en är inte definierad: %s"
+
+#: src/acl.c:406
+msgid "expected identity list, but found end of statement"
+msgstr "förväntade en identitetslista, men hittade satsslut"
+
+#: src/acl.c:457
+#, c-format
+msgid "unknown word: %s"
+msgstr "okänt ord: %s"
+
+#: src/acl.c:469 src/pies.c:732 src/pies.c:1099
+msgid "unexpected list"
+msgstr "oväntad lista"
+
+#: src/acl.c:529
+msgid "ACL name must be a string"
+msgstr "Ett ACL-namn måste vara en sträng"
+
+#: src/acl.c:539
+msgid "ACL name is not expected"
+msgstr "ACL-namn förväntas inte"
+
+#: src/acl.c:543
+msgid "ACL name is ignored"
+msgstr "ACL-namn ignoreras"
+
+#: src/acl.c:553
+msgid "missing ACL name"
+msgstr "ACL-namn saknas"
+
+#: src/acl.c:629 src/acl.c:646 grecs/src/assert.c:45
+msgid "unexpected block statement"
+msgstr "oväntad blocksats"
+
+#. TRANSLATORS: only words within angle brackets are translatable
+#: src/acl.c:655 src/acl.c:660
+msgid "[all|authenticated|user <usr: list>|group <grp: list>] [acl <name: string>] [from <addr: list>]"
+msgstr "[all|authenticated|user <usr: lista>|group <grp: lista>] [acl <namn: sträng>] [from <addr: lista>]"
+
+#: src/acl.c:656
+msgid "Allow access"
+msgstr "Tillåt åtkomst"
+
+#: src/acl.c:661
+msgid "Deny access"
+msgstr "Neka åtkomst"
+
+#. TRANSLATORS: `MATCHES' is the verb `match' in 2nd person.
+#. E.g., in French: CONCORD AVEC
+#: src/acl.c:762
+msgid "MATCHES"
+msgstr "MATCHAR"
+
+#: src/acl.c:762
+msgid "does not match"
+msgstr "matchar inte"
+
+#: src/acl.c:844
+#, c-format
+msgid "cannot install ACL: %s"
+msgstr "kan inte installera ACL: %s"
+
+#: src/acl.c:851
+#, c-format
+msgid "redefinition of ACL %s"
+msgstr "omdefinition av ACL %s"
+
+#: src/acl.c:854
+msgid "location of the previous definition"
+msgstr "platsen för den föregående definitionen"
+
+#: src/comp.c:442
+#, c-format
+msgid "component %s depends on %s, which is not declared"
+msgstr "komponenten %s beror på %s, som inte är deklarerad"
+
+#: src/comp.c:459
+#, c-format
+msgid "undefined component %s depends on %s"
+msgstr "odefinierad komponent %s beror på %s"
+
+#: src/comp.c:474
+msgid "cyclic dependencies detected:"
+msgstr "cykliska beroenden upptäcktes:"
+
+#: src/comp.c:644
+#, c-format
+msgid "in component %s:"
+msgstr "i komponenten %s:"
+
+#: src/comp.c:657 src/comp.c:685
+msgid "\"internal\" used without \"service\""
+msgstr "\"internal\" används utan \"service\""
+
+#: src/comp.c:664 src/inetd.c:258
+msgid "unknown internal service"
+msgstr "okänd intern tjänst"
+
+#: src/comp.c:669
+msgid "\"internal\" used with \"command\""
+msgstr "\"internal\" används med \"command\""
+
+#: src/comp.c:673
+msgid "no 'command' statement"
+msgstr "ingen 'command'-sats"
+
+#: src/comp.c:681
+msgid "both \"tcpmux\" and \"tcpmuxplus\" used"
+msgstr "både \"tcpmux\" och \"tcpmuxplus\" används"
+
+#: src/comp.c:690
+msgid "pass-fd-socket ignored: wrong mode"
+msgstr "pass-fd-socket ignoreras: fel läge"
+
+#: src/comp.c:696
+msgid "socket ignored: wrong mode"
+msgstr "uttag ignoreras: fel läge"
+
+#: src/comp.c:702
+msgid "must supply pass-fd-socket in this mode"
+msgstr "pass-fd-socket måste anges i detta läge"
+
+#: src/comp.c:713
+msgid "pass-fd-socket must be an absolute file name or chdir must be specified"
+msgstr "pass-fd-socket måste vara ett absolut filnamn eller så måste chdir anges"
+
+#: src/comp.c:722 src/comp.c:747
+msgid "socket must be specified in this mode"
+msgstr "uttag måste anges i detta läge"
+
+#: src/comp.c:735
+msgid "TCPMUX master not specified, assuming \"tcpmux\""
+msgstr "TCPMUX-master är inte angiven, antar ”tcpmux”"
+
+#: src/comp.c:753
+msgid "SystemV init support is not compiled in"
+msgstr "System V-initstöd är inte inkompilerat"
+
+#: src/comp.c:763
+msgid "max-instances ignored"
+msgstr "max-instances ignoreras"
+
+#. TRANSLATORS: `wait' is a keywords, do not translate.
+#: src/comp.c:771
+msgid "wait is useless in this mode"
+msgstr "wait är meningslöst i detta läge"
+
+#: src/comp.c:782
+msgid "stdout redirection invalid in this mode"
+msgstr "standardutdataomdirigering är ogiltig i detta läge"
+
+#: src/comp.c:802
+#, c-format
+msgid "%s: must be an absolute file name or chdir must be specified"
+msgstr "%s måste vara ett absolut filnamn eller så måste chdir anges"
+
+#: src/comp.c:827
+msgid "flags \"shell\" and \"expandenv\" used together: ignoring \"expandenv\""
+msgstr "flaggorna \"shell\" och \"expandenv\" används tillsammans: ignorerar \"expandenv\""
+
+#: src/comp.c:893
+msgid "No components defined"
+msgstr "Inga komponenter är definierade"
+
+#: src/comp.c:897
+msgid "Dependency map"
+msgstr "Beroendekarta"
+
+#: src/comp.c:909
+msgid "Legend"
+msgstr "Förklaring"
+
+#: src/ctl.c:299
+#, c-format
+msgid "can't parse input line: %s"
+msgstr "kan inte tolka indataraden: %s"
+
+#: src/ctl.c:305 src/ctl.c:328 src/ctl.c:358
+msgid "protocol error"
+msgstr "protokollfel"
+
+#: src/ctl.c:337
+#, c-format
+msgid "cannot install header: %s"
+msgstr "kan inte installera huvudet: %s"
+
+#: src/ctl.c:441
+#, c-format
+msgid "cannot install output header: %s"
+msgstr "kan inte installera utdatahuvudet: %s"
+
+#: src/ctl.c:766
+#, c-format
+msgid "%s: can't authenticate: %s"
+msgstr "%s: kan inte autentisera: %s"
+
+#: src/ctl.c:776
+#, c-format
+msgid "trying identity provider %s..."
+msgstr "försöker använda identitetsleverantören %s..."
+
+#: src/ctl.c:785
+#, c-format
+msgid "%s granted admin access via %s"
+msgstr "%s beviljades administratörsåtkomst via %s"
+
+#: src/ctl.c:794
+#, c-format
+msgid "%s authenticated via %s"
+msgstr "%s autentiserades via %s"
+
+#: src/ctl.c:804
+#, c-format
+msgid "%s authenticated via %s, component %s"
+msgstr "%s autentiserades via %s, komponent %s"
+
+#: src/ctl.c:809
+#, c-format
+msgid "%s authenticated via %s, but failed ACL check"
+msgstr "%s autentiserades via %s, men ACL-kontrollen misslyckades"
+
+#: src/ctl.c:1216
+#, c-format
+msgid "error reading from control socket: %s"
+msgstr "fel vid läsning från kontrolluttaget: %s"
+
+#: src/ctl.c:1236
+msgid "error writing to control socket"
+msgstr "fel vid skrivning till kontrolluttaget"
+
+#: src/ctl.c:1238
+#, c-format
+msgid "error writing to control socket: %s"
+msgstr "fel vid skrivning till kontrolluttaget: %s"
+
+#: src/ctl.c:1277 src/progman.c:1471
+#, c-format
+msgid "%s wants %s"
+msgstr "%s vill ha %s"
+
+#: src/ctl.c:1277
+msgid "control socket"
+msgstr "kontrolluttag"
+
+#: src/ctl.c:1307
+#, c-format
+msgid "can't create control socket %s"
+msgstr "kan inte skapa kontrolluttaget %s"
+
+#: src/diag.c:186
+msgid "out of memory trying to log a message"
+msgstr "minnet tog slut vid försök att logga ett meddelande"
+
+#: src/diag.c:256 src/piesctl.c:439 lib/urlconn.c:70 lib/urlconn.c:128
+#: lib/urlconn.c:144 lib/urlconn.c:152
+#, c-format
+msgid "%s: %s failed"
+msgstr "%s: %s misslyckades"
+
+#: src/diag.c:258
+#, c-format
+msgid "%s failed"
+msgstr "%s misslyckades"
+
+#: src/inetd-bi.c:231 src/pies.c:2086 src/pies.c:2261
+#, c-format
+msgid "cannot open file %s: %s"
+msgstr "kan inte öppna filen %s: %s"
+
+#: src/inetd-bi.c:243
+#, c-format
+msgid "error reading %s: %s"
+msgstr "fel vid läsning av %s: %s"
+
+#: src/inetd-bi.c:351
+#, c-format
+msgid "%s: cannot get peer name: %s"
+msgstr "%s: kan inte hämta motpartens namn: %s"
+
+#: src/inetd.c:93 src/sysvinit.c:1285 lib/netrc.c:205
+#, c-format
+msgid "cannot open configuration file %s: %s"
+msgstr "kan inte öppna konfigurationsfilen %s: %s"
+
+#: src/inetd.c:172 src/pies.c:1141
+msgid "bad socket type"
+msgstr "felaktig uttagstyp"
+
+#: src/inetd.c:183
+msgid "bad protocol for tcpmux service"
+msgstr "felaktigt protokoll för tcpmux-tjänsten"
+
+#: src/inetd.c:189
+msgid "bad socket type for tcpmux service"
+msgstr "felaktig uttagstyp för tcpmux-tjänsten"
+
+#: src/inetd.c:212
+msgid "invalid socket address"
+msgstr "ogiltig uttagsadress"
+
+#: src/inetd.c:237
+msgid "invalid wait field"
+msgstr "ogiltigt wait-fält"
+
+#: src/inetd.c:337
+#, c-format
+msgid "cannot open directory %s: %s"
+msgstr "det går inte att öppna katalogen %s: %s"
+
+#: src/limits.c:83
+msgid "L limit is not implemented"
+msgstr "L-gränsen är inte implementerad"
+
+#: src/meta1parse.c:102
+#, c-format
+msgid "no \"%s\" statement in block"
+msgstr "ingen ”%s”-sats i blocket"
+
+#: src/meta1parse.c:109
+msgid "unexpected scalar statement"
+msgstr "oväntad skalarsats"
+
+#: src/meta1parse.c:205
+msgid "unsupported type"
+msgstr "typen stöds inte"
+
+#: src/pies.c:213
+#, c-format
+msgid "unknown action code: %s"
+msgstr "okänd åtgärdskod: %s"
+
+#. TRANSLATORS: disable and restart are keywords, do not translate them.
+#: src/pies.c:223
+msgid "arg: {disable | restart}"
+msgstr "arg: {disable | restart}"
+
+#: src/pies.c:224
+msgid "Specifies action to take when a component finishes with this return code."
+msgstr "Anger åtgärden som ska utföras när en komponent avslutas med denna returkod."
+
+#: src/pies.c:231
+msgid "arg: emails"
+msgstr "arg: e-postadresser"
+
+#: src/pies.c:232
+msgid "Notify this address when a component terminates."
+msgstr "Meddela denna adress när en komponent avslutas."
+
+#: src/pies.c:238
+msgid "Notification message text (with headers)."
+msgstr "Text för meddelandet (med huvuden)."
+
+#: src/pies.c:244
+msgid "Execute this command."
+msgstr "Kör detta kommando."
+
+#: src/pies.c:428
+#, c-format
+msgid "%s: not a number"
+msgstr "%s: inte ett tal"
+
+#: src/pies.c:437 src/pies.c:1304
+#, c-format
+msgid "%s: bad signal specification"
+msgstr "%s: felaktig signalspecifikation"
+
+#: src/pies.c:445
+#, c-format
+msgid "%s: not a return code"
+msgstr "%s: inte en returkod"
+
+#: src/pies.c:494
+msgid "cannot get list item"
+msgstr "kan inte hämta listposten"
+
+#: src/pies.c:518 src/pies.c:1576 src/piesctl.c:95
+msgid "missing tag"
+msgstr "tagg saknas"
+
+#: src/pies.c:546 src/piesctl.c:110 grecs/src/tree.c:655
+msgid "invalid use of block statement"
+msgstr "ogiltig användning av en blocksats"
+
+#: src/pies.c:589
+msgid "invalid octal number"
+msgstr "ogiltigt oktalt tal"
+
+#: src/pies.c:740
+msgid "can't parse legacy env statement"
+msgstr "kan inte tolka den äldre env-satsen"
+
+#: src/pies.c:781
+msgid "unexpected argument"
+msgstr "oväntat argument"
+
+#: src/pies.c:871
+msgid "bool"
+msgstr "boolesk"
+
+#: src/pies.c:872
+msgid "Clear environment."
+msgstr "Rensa miljön."
+
+#: src/pies.c:877
+msgid "name[=value]"
+msgstr "namn[=värde]"
+
+#: src/pies.c:878
+msgid ""
+"Keep this variable. Unless value is supplied, name can contain wildcards.\n"
+"Implies \"clear\"."
+msgstr ""
+"Behåll denna variabel. Om inget värde anges kan namnet innehålla jokertecken.\n"
+"Innebär ”clear”."
+
+#: src/pies.c:884
+msgid "name=value"
+msgstr "namn=värde"
+
+#: src/pies.c:885
+msgid "Set environment variable. Note, that argument must be quoted."
+msgstr "Ange miljövariabeln. Observera att argumentet måste citeras."
+
+#: src/pies.c:890 src/pies.c:1652 grecs/src/format.c:38 grecs/src/tree.c:69
+msgid "string"
+msgstr "sträng"
+
+#: src/pies.c:891
+msgid "Evaluate string. Useful for side-effects, e.g. eval ${X:=2}."
+msgstr "Utvärdera strängen. Användbart för sidoeffekter, till exempel eval ${X:=2}."
+
+#: src/pies.c:896 src/pies.c:1365 src/pies.c:1536 src/pies.c:1628
+#: src/pies.c:1640 src/pies.c:1646 src/piesctl.c:127
+msgid "name"
+msgstr "namn"
+
+#: src/pies.c:897
+msgid "Unset environment variable. Name can contain wildcards."
+msgstr "Avdefiniera miljövariabeln. Namnet kan innehålla jokertecken."
+
+#: src/pies.c:971 src/pies.c:983
+msgid "unknown syslog priority"
+msgstr "okänd syslog-prioritet"
+
+#: src/pies.c:978
+msgid "unknown syslog facility"
+msgstr "okänd syslog-facilitet"
+
+#: src/pies.c:1020
+msgid "expected facility number or symbolic name"
+msgstr "förväntade ett facilitetstal eller ett symboliskt namn"
+
+#: src/pies.c:1025
+#, c-format
+msgid "unknown syslog facility %s"
+msgstr "okänd syslog-facilitet %s"
+
+#: src/pies.c:1063
+#, c-format
+msgid "%s: unrecognized redirector type"
+msgstr "%s: okänd omdirigerartyp"
+
+#: src/pies.c:1071
+msgid "wrong number of arguments"
+msgstr "fel antal argument"
+
+#: src/pies.c:1183
+#, c-format
+msgid "%s: unrecognized mode"
+msgstr "%s: okänt läge"
+
+#: src/pies.c:1202
+#, c-format
+msgid "invalid limit string (near %s)"
+msgstr "ogiltig gränssträng (nära %s)"
+
+#: src/pies.c:1260 src/pies.c:1276
+#, c-format
+msgid "%s: unrecognized flag"
+msgstr "%s: okänd flagga"
+
+#: src/pies.c:1285 src/sysvinit.c:999
+msgid "too many arguments"
+msgstr "för många argument"
+
+#: src/pies.c:1314
+msgid "mode"
+msgstr "läge"
+
+#: src/pies.c:1315
+msgid "Component execution mode."
+msgstr "Komponentens exekveringsläge."
+
+#: src/pies.c:1322
+msgid "Full name of the program."
+msgstr "Programmets fullständiga namn."
+
+#: src/pies.c:1329
+msgid "Command line."
+msgstr "Kommandorad."
+
+#: src/pies.c:1335 src/pies.c:1341 src/pies.c:1347 grecs/src/tree.c:70
+msgid "list"
+msgstr "lista"
+
+#: src/pies.c:1336
+msgid "List of prerequisites."
+msgstr "Lista över förutsättningar."
+
+#: src/pies.c:1342
+msgid "List of components for which this one is a prerequisite."
+msgstr "Lista över komponenter för vilka denna är en förutsättning."
+
+#: src/pies.c:1348
+msgid "List of flags."
+msgstr "Lista med flaggor."
+
+#: src/pies.c:1352
+msgid "SIGNAL"
+msgstr "SIGNAL"
+
+#: src/pies.c:1353
+msgid "Termination signal."
+msgstr "Avslutningssignal."
+
+#: src/pies.c:1358
+msgid "chars"
+msgstr "tecken"
+
+#: src/pies.c:1359
+msgid "Runlevels to start that component in."
+msgstr "Körnivåer där komponenten ska startas."
+
+#: src/pies.c:1366
+msgid "Pass fd through this socket."
+msgstr "Skicka filbeskrivaren (fd) genom detta uttag."
+
+#: src/pies.c:1373
+msgid "Time to wait for pass-fd socket to become available."
+msgstr "Tid att vänta på att pass-fd-socket blir tillgänglig."
+
+#: src/pies.c:1380
+msgid "Maximum number of running instances."
+msgstr "Maximalt antal instanser som körs."
+
+#: src/pies.c:1386
+msgid "Text to send back if max-instances is reached (inetd-components only)."
+msgstr "Text att skicka tillbaka om max-instances nås (endast inetd-komponenter)."
+
+#: src/pies.c:1392
+msgid "Maximum number of simultaneous connections per IP address (inetd only)."
+msgstr "Maximalt antal samtidiga anslutningar per IP-adress (endast inetd)."
+
+#: src/pies.c:1398
+msgid "Text to send back if max-ip-connections is reached (inetd only)."
+msgstr "Text att skicka tillbaka om max-ip-connections nås (endast inetd)."
+
+#: src/pies.c:1405
+msgid "Maximum number of times an inetd component can be invoked in one minute."
+msgstr "Maximalt antal gånger en inetd-komponent kan startas under en minut."
+
+#: src/pies.c:1410 src/pies.c:1598 src/piesctl.c:70 src/piesctl.c:117
+msgid "url: string"
+msgstr "url: sträng"
+
+#: src/pies.c:1411 src/pies.c:1599
+msgid "Listen on the given url."
+msgstr "Lyssna på angiven URL."
+
+#. TRANSLATORS: words after `type:' are keywords.
+#: src/pies.c:1418
+msgid "type: {stream | dgram | raw | rdm | seqpacket}"
+msgstr "typ: {stream | dgram | raw | rdm | seqpacket}"
+
+#: src/pies.c:1419
+msgid "Set socket type."
+msgstr "Ange uttagstyp."
+
+#: src/pies.c:1425
+msgid "Define connection ACL."
+msgstr "Definiera anslutnings-ACL."
+
+#: src/pies.c:1431
+msgid "Define who can list this component."
+msgstr "Definiera vem som kan lista denna komponent."
+
+#: src/pies.c:1437
+msgid "Define who can change this component."
+msgstr "Definiera vem som kan ändra denna komponent."
+
+#: src/pies.c:1443
+msgid "Text to send back if access is denied (inetd-components only)."
+msgstr "Text att skicka tillbaka om åtkomst nekas (endast inetd-komponenter)."
+
+#: src/pies.c:1448
+msgid "file"
+msgstr "fil"
+
+#: src/pies.c:1449
+msgid "Remove file before starting the component."
+msgstr "Ta bort filen innan komponenten startas."
+
+#. TRANSLATORS: file and syslog are keywords. Do not translate them.
+#: src/pies.c:1456 src/pies.c:1465
+msgid "type: {file | syslog}> <channel: string"
+msgstr "type: {file | syslog}> <channel: string"
+
+#: src/pies.c:1457
+msgid "Redirect program's standard output to the given file or syslog priority."
+msgstr "Omdirigera programmets standardutdata till angiven fil eller syslog-prioritet."
+
+#: src/pies.c:1466
+msgid "Redirect program's standard error to the given file or syslog priority."
+msgstr "Omdirigera programmets standardfel till angiven fil eller syslog-prioritet."
+
+#: src/pies.c:1474 src/pies.c:1771
+msgid "Run with this user privileges."
+msgstr "Kör med denna användares behörigheter."
+
+#: src/pies.c:1481 src/pies.c:1778
+msgid "Retain supplementary group."
+msgstr "Behåll den kompletterande gruppen."
+
+#: src/pies.c:1488 src/pies.c:1785
+msgid "Retain all supplementary groups of which user is a member."
+msgstr "Behåll alla kompletterande grupper som användaren är medlem i."
+
+#: src/pies.c:1494 src/pies.c:1791
+msgid "arg: number"
+msgstr "arg: tal"
+
+#: src/pies.c:1495 src/pies.c:1792
+msgid "Force this umask."
+msgstr "Tvinga denna umask."
+
+#: src/pies.c:1502
+msgid "Set system limits"
+msgstr "Ange systemgränser"
+
+#: src/pies.c:1509 src/pies.c:1711
+msgid "Modify program environment."
+msgstr "Ändra programmets miljö."
+
+#: src/pies.c:1515
+msgid "arg: list"
+msgstr "arg: lista"
+
+#: src/pies.c:1516
+msgid ""
+"Modify program environment (legacy syntax).\n"
+"Argument is a list of quoted assignments separated by white space."
+msgstr ""
+"Ändra programmets miljö (äldre syntax).\n"
+"Argumentet är en lista med citerade tilldelningar separerade av blanksteg."
+
+#: src/pies.c:1523
+msgid "dir"
+msgstr "dir"
+
+#: src/pies.c:1524
+msgid "Change to this directory before executing the component."
+msgstr "Byt till denna katalog innan komponenten körs."
+
+#: src/pies.c:1530 src/pies.c:1819
+msgid "tag: exit-code-list"
+msgstr "tag: exit-code-list"
+
+#: src/pies.c:1531 src/pies.c:1820
+msgid "Define what to do when the component finishes."
+msgstr "Definiera vad som ska göras när komponenten avslutas."
+
+#: src/pies.c:1537
+msgid "Service name for inetd component."
+msgstr "Tjänstenamn för inetd-komponent."
+
+#: src/pies.c:1542
+msgid "tag"
+msgstr "tag"
+
+#: src/pies.c:1543
+msgid "Tag of master TCPMUX component."
+msgstr "Tagg för TCPMUX-huvudkomponenten."
+
+#: src/pies.c:1591
+msgid "expected block statement"
+msgstr "en blocksats förväntades"
+
+#: src/pies.c:1604
+msgid "Set connection ACL."
+msgstr "Ange anslutnings-ACL."
+
+#: src/pies.c:1610
+msgid "Administrative access"
+msgstr "Administrativ åtkomst"
+
+#: src/pies.c:1616
+msgid "User access"
+msgstr "Användaråtkomst"
+
+#: src/pies.c:1622
+msgid "Disconnect after <n> seconds of inaction (not implemented)."
+msgstr "Koppla från efter <n> sekunders inaktivitet (ej implementerat)."
+
+#: src/pies.c:1629
+msgid "Authentication realm name"
+msgstr "Namn på autentiseringsrealm"
+
+#: src/pies.c:1641
+msgid "Syslog device: either absolute pathname of the socket file, or an IPv4 address and optional port, separated with a colon"
+msgstr "Syslog-enhet: antingen absolut sökväg till uttagsfilen eller en IPv4-adress och valfri port, separerade med kolon"
+
+#: src/pies.c:1647
+msgid "Set syslog facility. Arg is one of the following: user, daemon, auth, authpriv, mail, cron, local0 through local7 (case-insensitive), or a facility number."
+msgstr "Ange syslog-facilitet. Arg är en av följande: user, daemon, auth, authpriv, "
+"mail, cron, local0 till local7 (skiftlägesokänsligt), eller ett "
+"facilitetsnummer."
+
+#: src/pies.c:1652
+msgid "Tag syslog messages with this string"
+msgstr "Tagga syslog-meddelanden med denna sträng"
+
+#: src/pies.c:1655
+msgid "filename"
+msgstr "filnamn"
+
+#: src/pies.c:1655
+msgid "Name of the fallback log file"
+msgstr "Namn på reservloggfilen"
+
+#: src/pies.c:1658 src/pies.c:1662 src/pies.c:1669 src/piesctl.c:75
+#: src/piesctl.c:122 grecs/src/format.c:142
+msgid "arg"
+msgstr "arg"
+
+#: src/pies.c:1658
+msgid "Max. capacity of the log message queue"
+msgstr "Max. kapacitet för loggmeddelandekön"
+
+#: src/pies.c:1663
+msgid "Ignore errors during writes to the fallback file"
+msgstr "Ignorera fel vid skrivning till reservfilen"
+
+#: src/pies.c:1669
+msgid "Prefix each message with its priority"
+msgstr "Prefixa varje meddelande med dess prioritet"
+
+#: src/pies.c:1704
+msgid "tag: string"
+msgstr "tagg: sträng"
+
+#: src/pies.c:1705
+msgid "Define a component"
+msgstr "Definiera en komponent"
+
+#: src/pies.c:1718
+msgid "Define control socket"
+msgstr "Definiera kontrolluttag"
+
+#: src/pies.c:1724
+msgid "Configure syslog logging"
+msgstr "Konfigurera syslog-loggning"
+
+#: src/pies.c:1729
+msgid "Set debug verbosity level."
+msgstr "Ange detaljnivå för felsökning."
+
+#: src/pies.c:1734
+msgid "Show source info with debugging messages."
+msgstr "Visa källinfo med felsökningsmeddelanden."
+
+#: src/pies.c:1739
+msgid "Full file name of the program state directory."
+msgstr "Fullständigt filnamn för programmets tillståndskatalog."
+
+#: src/pies.c:1744
+msgid "Write PID to this file."
+msgstr "Skriv PID till denna fil."
+
+#: src/pies.c:1751 src/pies.c:1758
+msgid "Ignored for compatibility with version 1.2."
+msgstr "Ignoreras för kompatibilitet med version 1.2."
+
+#: src/pies.c:1765
+msgid "Set location of the QOTD file."
+msgstr "Ange plats för QOTD-filen."
+
+#: src/pies.c:1799
+msgid "Set global system limits."
+msgstr "Ange globala systemgränser."
+
+#: src/pies.c:1805
+msgid "arg: char"
+msgstr "arg: tecken"
+
+#: src/pies.c:1806
+msgid "Default runlevel"
+msgstr "Standardkörnivå"
+
+#: src/pies.c:1813
+msgid "Wait <n> seconds for all components to shut down."
+msgstr "Vänta <n> sekunder på att alla komponenter ska stängas ned."
+
+#: src/pies.c:1826
+msgid "Set global ACL."
+msgstr "Ange global ACL."
+
+#: src/pies.c:1831
+msgid "name: string"
+msgstr "namn: sträng"
+
+#: src/pies.c:1832
+msgid "Define an ACL."
+msgstr "Definiera en ACL."
+
+#: src/pies.c:1837
+msgid "file-or-dir: string"
+msgstr "fil-eller-katalog: sträng"
+
+#: src/pies.c:1838
+msgid "Include inetd configuration file or directory"
+msgstr "Inkludera inetd-konfigurationsfil eller katalog"
+
+#: src/pies.c:1843
+msgid "file: string"
+msgstr "fil: sträng"
+
+#: src/pies.c:1844
+msgid "Include components from the specified MeTA1 configuration file."
+msgstr "Inkludera komponenter från den angivna MeTA1-konfigurationsfilen."
+
+#: src/pies.c:1851
+msgid "Set the name of MeTA1 queue directory (default /var/spool/meta1)."
+msgstr "Ange namnet på MeTA1-kökatalogen (standard /var/spool/meta1)."
+
+#: src/pies.c:1858
+msgid "Full path to the mailer binary."
+msgstr "Fullständig sökväg till postprogram-binären."
+
+#: src/pies.c:1865
+msgid "Mailer command line (without recipient addresses)."
+msgstr "Mailer-kommandorad (utan mottagaradresser)."
+
+#. TRANSLATORS: do not translate words in quotes
+#: src/pies.c:1920
+msgid ""
+"Configuration file structure for pies.\n"
+"For more information, use command \"info pies configuration\"."
+msgstr ""
+"Konfigurationsfilstruktur för pies.\n"
+"För mer information, använd kommandot \"info pies configuration\"."
+
+#: src/pies.c:1954
+msgid "reading configuration"
+msgstr "läser konfiguration"
+
+#: src/pies.c:2100
+#, c-format
+msgid "unexpected character %#03o in pidfile %s"
+msgstr "oväntat tecken %#03o i PID-fil %s"
+
+#: src/pies.c:2110
+#, c-format
+msgid "cannot signal master process %lu: %s"
+msgstr "det går inte att signalera huvudprocess %lu: %s"
+
+#: src/pies.c:2195 src/pies.c:2211 src/pies.c:2240
+msgid "pies is not running"
+msgstr "pies kör inte"
+
+#: src/pies.c:2199
+#, c-format
+msgid "reloading pies at PID %lu"
+msgstr "läser om pies vid PID %lu"
+
+#: src/pies.c:2216
+#, c-format
+msgid "pies is not running, but a pidfile is found (pid %lu)"
+msgstr "pies kör inte, men en PID-fil hittades (pid %lu)"
+
+#: src/pies.c:2222
+#, c-format
+msgid "pies seems to run with pid %lu, but is not responding"
+msgstr "pies verkar köra med pid %lu, men svarar inte"
+
+#: src/pies.c:2244
+#, c-format
+msgid "stopping pies at PID %lu"
+msgstr "stoppar pies vid PID %lu"
+
+#: src/pies.c:2275
+#, c-format
+msgid "%s appears to run with pid %lu. If it does not, remove %s and retry."
+msgstr "%s verkar köras med pid %lu. Om den inte gör det, ta bort %s och försök igen."
+
+#: src/pies.c:2294
+#, c-format
+msgid "cannot create pidfile `%s': %s"
+msgstr "det går inte att skapa PID-filen `%s': %s"
+
+#: src/pies.c:2318
+#, c-format
+msgid "cannot parse mailer command line: %s"
+msgstr "det går inte att tolka postprogramskommandoraden: %s"
+
+#: src/pies.c:2539
+#, c-format
+msgid "unknown syntax type: %s"
+msgstr "okänd syntaxtyp: %s"
+
+#: src/pies.c:2572
+#, c-format
+msgid "conflicting options: %s%s and %s%s"
+msgstr "konflikterande flaggor: %s%s och %s%s"
+
+#: src/pies.c:2610
+msgid "Operation Mode"
+msgstr "Driftläge"
+
+#: src/pies.c:2615 src/piesctl.c:2397
+msgid "FILE"
+msgstr "FIL"
+
+#: src/pies.c:2616 src/piesctl.c:2398
+msgid "use FILE instead of the default configuration"
+msgstr "använd FIL i stället för standardkonfigurationen"
+
+#: src/pies.c:2626 src/piesctl.c:2409
+msgid "show configuration file summary"
+msgstr "visa sammanfattning av konfigurationsfil"
+
+#: src/pies.c:2633
+msgid "preprocess configuration file and exit"
+msgstr "förprocessa konfigurationsfil och avsluta"
+
+#: src/pies.c:2640
+msgid "force startup even if another instance may be running"
+msgstr "tvinga start även om en annan instans kan vara igång"
+
+#: src/pies.c:2648
+msgid "remain in foreground"
+msgstr "stanna i förgrunden"
+
+#: src/pies.c:2654
+msgid "don't suppose SysV init mode if PID is 1"
+msgstr "anta inte SysV-initläge om PID är 1"
+
+#: src/pies.c:2661
+msgid "run in inetd mode"
+msgstr "kör i inetd-läge"
+
+#: src/pies.c:2671 src/pies.c:2786 src/piesctl.c:2385 src/piesctl.c:2518
+msgid "NAME"
+msgstr "NAMN"
+
+#: src/pies.c:2672
+msgid "set instance name"
+msgstr "ange instansnamn"
+
+#: src/pies.c:2680
+msgid "NUMBER"
+msgstr "TAL"
+
+#: src/pies.c:2681
+msgid "set default maximum rate for inetd-style components"
+msgstr "ange standardvärde för högsta hastighet för inetd-komponenter"
+
+#: src/pies.c:2689
+msgid "log to stderr"
+msgstr "logga till stderr"
+
+#: src/pies.c:2697
+msgid "{pies|meta1|inetd|inittab}"
+msgstr "{pies|meta1|inetd|inittab}"
+
+#: src/pies.c:2698
+msgid "expect configuration files in the given syntax"
+msgstr "förvänta konfigurationsfiler med angiven syntax"
+
+#: src/pies.c:2705
+msgid "log to syslog"
+msgstr "logga till syslog"
+
+#: src/pies.c:2713
+msgid "parse configuration file and exit"
+msgstr "tolka konfigurationsfil och avsluta"
+
+#: src/pies.c:2723
+msgid "telinit command: run \"pies -T --help\" for help"
+msgstr "telinit-kommando: kör \"pies -T --help\" för hjälp"
+
+#: src/pies.c:2733 src/piesctl.c:2467
+msgid "Preprocessor"
+msgstr "Förprocessor"
+
+#: src/pies.c:2738 src/piesctl.c:2472
+msgid "COMMAND"
+msgstr "KOMMANDO"
+
+#: src/pies.c:2739 src/piesctl.c:2473
+msgid "use COMMAND instead of the default preprocessor"
+msgstr "använd KOMMANDO i stället för standardförprocessorn"
+
+#: src/pies.c:2747 src/piesctl.c:2481
+msgid "disable preprocessing"
+msgstr "inaktivera förprocessning"
+
+#: src/pies.c:2755 src/piesctl.c:2489
+msgid "DIR"
+msgstr "KATALOG"
+
+#: src/pies.c:2756 src/piesctl.c:2490
+msgid "add include directory"
+msgstr "lägg till inkluderingskatalog"
+
+#: src/pies.c:2766 src/piesctl.c:2500
+msgid "clear default preprocessor search path"
+msgstr "rensa standard sökväg för förprocessor"
+
+#: src/pies.c:2774 src/piesctl.c:2507
+msgid "NAME[=VALUE]"
+msgstr "NAMN[=VÄRDE]"
+
+#: src/pies.c:2776 src/piesctl.c:2509
+msgid "define a preprocessor symbol NAME as having VALUE or empty"
+msgstr "definiera preprocessorsymbolen NAMN med värdet VÄRDE eller tom"
+
+#: src/pies.c:2787 src/piesctl.c:2519
+msgid "undefine a preprocessor symbol NAME"
+msgstr "avdefiniera preprocessorsymbolen NAMN"
+
+#: src/pies.c:2797
+msgid "Component Management"
+msgstr "Komponenthantering"
+
+#: src/pies.c:2802
+msgid "reload the running instance of pies"
+msgstr "ladda om den körande pies‑instansen"
+
+#: src/pies.c:2815
+msgid "restart components named in the command line"
+msgstr "starta om komponenter angivna på kommandoraden"
+
+#: src/pies.c:2824
+msgid "display info about the running instance"
+msgstr "visa information om den körande instansen"
+
+#: src/pies.c:2833
+msgid "stop the running instance"
+msgstr "stoppa den körande instansen"
+
+#: src/pies.c:2842
+msgid "Debugging and Additional Diagnostics"
+msgstr "Felsökning och ytterligare diagnostik"
+
+#: src/pies.c:2847
+msgid "dump dependency map"
+msgstr "dumpa beroendekarta"
+
+#: src/pies.c:2853
+msgid "trace dependencies"
+msgstr "spåra beroenden"
+
+#: src/pies.c:2859
+msgid "trace prerequisites"
+msgstr "spåra förutsättningar"
+
+#: src/pies.c:2865
+msgid "list components in shutdown sequence ordering"
+msgstr "lista komponenter i nedstängningssekvensens ordning"
+
+#: src/pies.c:2871
+msgid "show source info with debugging messages"
+msgstr "visa källinfo med felsökningsmeddelanden"
+
+#: src/pies.c:2879
+msgid "LEVEL"
+msgstr "NIVÅ"
+
+#: src/pies.c:2880
+msgid "set debug verbosity level"
+msgstr "ange detaljnivå för felsökning"
+
+#: src/pies.c:2973
+#, c-format
+msgid "This pies preprocesses its configuration using %s\n"
+msgstr "Denna pies förprocessar sin konfiguration med %s\n"
+
+#: src/pies.c:2976
+#, c-format
+msgid "Preprocessor include path: %s\n"
+msgstr "Förprocessorns inkluderingssökväg: %s\n"
+
+#: src/pies.c:2981
+msgid "This pies does not use configuration preprocessor.\n"
+msgstr "Denna pies använder ingen konfigurationsförprocessor.\n"
+
+#: src/pies.c:2995
+msgid "process invocation and execution supervisor"
+msgstr "övervakare för processanrop och körning"
+
+#: src/pies.c:3021 src/piesctl.c:2560 src/sysvinit.c:987
+msgid "parseopt_getopt failed"
+msgstr "parseopt_getopt misslyckades"
+
+#: src/pies.c:3164
+#, c-format
+msgid "%s: cannot create control URL: %s"
+msgstr "%s: det går inte att skapa kontroll-URL:en %s"
+
+#: src/pies.c:3225
+#, c-format
+msgid "another pies instance may be running (pid %lu), use --force to override"
+msgstr "en annan pies‑instans kan vara igång (pid %lu), använd --force för att åsidosätta"
+
+#: src/pies.c:3232
+#, c-format
+msgid "another pies instance already running (pid %lu)"
+msgstr "en annan pies‑instans kör redan (pid %lu)"
+
+#: src/pies.c:3248
+#, c-format
+msgid "%s %s starting"
+msgstr "%s %s startar"
+
+#: src/pies.c:3259
+msgid "not started as an absolute pathname; restart will not work"
+msgstr "startades inte med absolut sökväg; omstart kommer inte att fungera"
+
+#: src/pies.c:3277
+msgid "restart command ignored"
+msgstr "omstartskommando ignorerat"
+
+#: src/pies.c:3360
+#, c-format
+msgid "%s %s terminated"
+msgstr "%s %s avslutades"
+
+#: src/pies.c:3367
+msgid "not enough memory"
+msgstr "inte tillräckligt med minne"
+
+#: src/piesctl.c:71
+msgid "Socket URL for that instance."
+msgstr "Uttags‑URL för den instansen."
+
+#: src/piesctl.c:76 src/piesctl.c:123
+msgid "Source IP address."
+msgstr "Käll-IP-adress."
+
+#: src/piesctl.c:118
+msgid "Default socket URL."
+msgstr "Standard‑URL för uttag."
+
+#: src/piesctl.c:128
+msgid "Configure connection to a pies instance"
+msgstr "Konfigurera anslutning till en pies‑instans"
+
+#: src/piesctl.c:158 src/piesctl.c:179
+#, c-format
+msgid "%s: reading configuration from %s\n"
+msgstr "%s: läser konfiguration från %s\n"
+
+#: src/piesctl.c:166 src/piesctl.c:200
+#, c-format
+msgid "%s: URL not found in %s\n"
+msgstr "%s: URL hittades inte i %s\n"
+
+#: src/piesctl.c:194 src/piesctl.c:216 src/piesctl.c:2355 lib/grecsasrt.c:38
+#, c-format
+msgid "%s: cannot create URL: %s"
+msgstr "%s: det går inte att skapa URL:en %s"
+
+#: src/piesctl.c:209
+#, c-format
+msgid "%s: falling back to default URL\n"
+msgstr "%s: faller tillbaka till standard‑URL\n"
+
+#: src/piesctl.c:227
+#, c-format
+msgid "%s: using URL %s\n"
+msgstr "%s: använder URL %s\n"
+
+#: src/piesctl.c:235
+msgid ""
+"Configuration file structure for piesctl.\n"
+"For more information, use command \"info piesctl.conf\"."
+msgstr ""
+"Konfigurationsfilstruktur för piesctl.\n"
+"För mer information, använd kommandot \"info piesctl.conf\"."
+
+#: src/piesctl.c:254
+#, c-format
+msgid "warning: "
+msgstr "varning: "
+
+#: src/piesctl.c:382
+#, c-format
+msgid "cannot install header %s: %s"
+msgstr "det går inte att installera huvudet %s: %s"
+
+#: src/piesctl.c:526
+msgid "HTTP read error"
+msgstr "HTTP‑läsfel"
+
+#: src/piesctl.c:576
+#, c-format
+msgid "wrote %lu of %lu bytes of content"
+msgstr "skrev %lu av %lu byte innehåll"
+
+#: src/piesctl.c:599
+#, c-format
+msgid "malformed header line: %s"
+msgstr "felaktig huvudrad: %s"
+
+#: src/piesctl.c:633
+#, c-format
+msgid "unexpected reply: %s"
+msgstr "oväntat svar: %s"
+
+#: src/piesctl.c:640
+#, c-format
+msgid "unsupported HTTP version: %s"
+msgstr "HTTP-version som inte stöds: %s"
+
+#: src/piesctl.c:647
+#, c-format
+msgid "bad reply status: %s"
+msgstr "felaktig svarstatus: %s"
+
+#: src/piesctl.c:673
+#, c-format
+msgid "bad content length: %s"
+msgstr "felaktig innehållslängd: %s"
+
+#: src/piesctl.c:685
+msgid "content read error"
+msgstr "innehållsläsfel"
+
+#: src/piesctl.c:691
+msgid "no content type specified"
+msgstr "ingen innehållstyp angiven"
+
+#: src/piesctl.c:693
+#, c-format
+msgid "unsupported content type: %s"
+msgstr "innehållstyp som inte stöds: %s"
+
+#: src/piesctl.c:704
+#, c-format
+msgid "original json was: %s"
+msgstr "ursprunglig JSON var: %s"
+
+#: src/piesctl.c:706
+#, c-format
+msgid "original status line: %s %s %s"
+msgstr "ursprunglig statusrad: %s %s %s"
+
+#: src/piesctl.c:739
+#, c-format
+msgid "%s: raw JSON reply follows:\n"
+msgstr "%s: rått JSON-svar följer:\n"
+
+#: src/piesctl.c:773
+msgid "please report"
+msgstr "rapportera gärna"
+
+#: src/piesctl.c:866
+#, c-format
+msgid "unsupported authentication type: %s"
+msgstr "autentiseringstyp som inte stöds: %s"
+
+#: src/piesctl.c:884
+#, c-format
+msgid "%s user"
+msgstr "%s användare"
+
+#: src/piesctl.c:885
+#, c-format
+msgid "%s password"
+msgstr "%s lösenord"
+
+#: src/piesctl.c:932 src/piesctl.c:1003
+#, c-format
+msgid "no \"%s\" member"
+msgstr "ingen \"%s\"-medlem"
+
+#: src/piesctl.c:934 src/piesctl.c:1006
+#, c-format
+msgid "can't get value of \"%s\""
+msgstr "det går inte att hämta värdet för \"%s\""
+
+#: src/piesctl.c:938 src/piesctl.c:1010
+#, c-format
+msgid "\"%s\" has wrong type"
+msgstr "\"%s\" har fel typ"
+
+#: src/piesctl.c:1028 src/piesctl.c:1464
+#, c-format
+msgid "%lu: unexpected value type"
+msgstr "%lu: oväntad värdetyp"
+
+#: src/piesctl.c:1168
+msgid "unexpected end of statement"
+msgstr "oväntat slut på sats"
+
+#: src/piesctl.c:1177
+#, c-format
+msgid "expected end of statement, but found \"%s\""
+msgstr "förväntade slut på sats, men hittade \"%s\""
+
+#: src/piesctl.c:1243 src/piesctl.c:1250
+#, c-format
+msgid "%s requires argument"
+msgstr "%s kräver ett argument"
+
+#: src/piesctl.c:1259 grecs/wordsplit/wordsplit.c:2856
+msgid "unbalanced parenthesis"
+msgstr "obalanserad parentes"
+
+#: src/piesctl.c:1262
+#, c-format
+msgid "parse error at %s"
+msgstr "tolkningsfel vid %s"
+
+#: src/piesctl.c:1368
+msgid "condition must be specified"
+msgstr "villkor måste anges"
+
+#: src/piesctl.c:1437
+#, c-format
+msgid "can't get attribute %s"
+msgstr "det går inte att hämta attributet för %s"
+
+#: src/piesctl.c:1453
+msgid "no component matches the supplied condition"
+msgstr "ingen komponent matchar angivet villkor"
+
+#: src/piesctl.c:1480 src/piesctl.c:1760 src/piesctl.c:1960 src/piesctl.c:2035
+#: src/piesctl.c:2112 grecs/wordsplit/wordsplit.c:2871
+#, c-format
+msgid "unknown error"
+msgstr "okänt fel"
+
+#: src/piesctl.c:1483
+#, c-format
+msgid "unknown status"
+msgstr "okänd status"
+
+#: src/piesctl.c:1766
+msgid "unrecognized response"
+msgstr "okänt svar"
+
+#: src/piesctl.c:1830
+#, c-format
+msgid "expected \"list\" or \"set\", but found \"%s\""
+msgstr "förväntade \"list\" eller \"set\", men hittade \"%s\""
+
+#: src/piesctl.c:1843
+#, c-format
+msgid "unrecognized subcommand: %s"
+msgstr "okänt underkommando: %s"
+
+#: src/piesctl.c:1884
+msgid "bad syntax"
+msgstr "felaktig syntax"
+
+#: src/piesctl.c:2130 src/piesctl.c:2143
+#, c-format
+msgid "unexpected word: %s"
+msgstr "oväntat ord: %s"
+
+#: src/piesctl.c:2163
+msgid "[CONDITION]"
+msgstr "[VILLKOR]"
+
+#: src/piesctl.c:2164
+msgid "list configured components"
+msgstr "lista konfigurerade komponenter"
+
+#: src/piesctl.c:2165 src/piesctl.c:2167 src/piesctl.c:2169
+msgid "CONDITION"
+msgstr "VILLKOR"
+
+#: src/piesctl.c:2166
+msgid "stop components"
+msgstr "stoppa komponenter"
+
+#: src/piesctl.c:2168
+msgid "start components"
+msgstr "starta komponenter"
+
+#: src/piesctl.c:2170
+msgid "restart components"
+msgstr "starta om komponenter"
+
+#. TRANSLATORS: You can leave the BNF below untranslated.  If you
+#. chose to translate it, please do not translate words in double
+#. quotes.
+#: src/piesctl.c:2175
+msgid ""
+"CONDITION is defined as follows:\n"
+"\n"
+"<condition> ::= <disjunction>\n"
+"<disjunction> ::= <conjunction> | <conjunction> \"or\" <disjunction>\n"
+"<conjunction> ::= <unary> | <unary> \"and\" <conjunction>\n"
+"<unary> ::= <term> | \"not\" <condition> | \"(\" <condition> \")\"\n"
+"<term> ::= \"all\" | \"active\" | <keyword> <value>\n"
+"<keyword> ::= \"type\" | \"mode\" | \"status\" | \"component\"\n"
+"<value> ::= <word> | <quoted-string>\n"
+"<word> ::= <printable> | <word> <printable>\n"
+"<printable> ::= \"A\" - \"Z\" | \"a\" - \"z\" | \"0\" - \"9\" |\"_\" | \".\" | \"*\" | \":\" | \"@\" | \"[\" | \"]\" | \"-\" | \"/\"\n"
+"<quoted-string> ::= \"\"\" <string> \"\"\"\n"
+"<string> ::= <char> | <string> <char>\n"
+"<char> ::= <any character except \"\\\" and \"\"\"> | \"\\\\\" | \"\\\"\""
+msgstr ""
+"VILLKOR definieras så här:\n"
+"\n"
+"<condition> ::= <disjunction>\n"
+"<disjunction> ::= <conjunction> | <conjunction> \"or\" <disjunction>\n"
+"<conjunction> ::= <unary> | <unary> \"and\" <conjunction>\n"
+"<unary> ::= <term> | \"not\" <condition> | \"(\" <condition> \")\"\n"
+"<term> ::= \"all\" | \"active\" | <keyword> <value>\n"
+"<keyword> ::= \"type\" | \"mode\" | \"status\" | \"component\"\n"
+"<value> ::= <word> | <quoted-string>\n"
+"<word> ::= <printable> | <word> <printable>\n"
+"<printable> ::= \"A\" - \"Z\" | \"a\" - \"z\" | \"0\" - \"9\" |\"_\" | \".\" | \"*\" | \":\" | \"@\" | \"[\" | \"]\" | \"-\" | \"/\"\n"
+"<quoted-string> ::= \"\"\" <string> \"\"\"\n"
+"<string> ::= <char> | <string> <char>\n"
+"<char> ::= <any character except \"\\\" and \"\"\"> | \"\\\\\" | \"\\\"\""
+
+#: src/piesctl.c:2192
+msgid "[KEYWORDS...]"
+msgstr "[NYCKELORD...]"
+
+#: src/piesctl.c:2193
+msgid "show info about the running GNU Pies instance"
+msgstr "visa information om den körande GNU Pies‑instansen"
+
+#. TRANSLATORS: Please don't translate the keywords.
+#: src/piesctl.c:2197
+msgid "Available KEYWORDS are: package, version, instance, binary, argv, PID"
+msgstr "Tillgängliga NYCKELORD är: package, version, instance, binary, argv, PID"
+
+#: src/piesctl.c:2199
+msgid "stop running pies instance"
+msgstr "stoppa körande pies‑instans"
+
+#: src/piesctl.c:2201
+msgid "restart pies instance"
+msgstr "starta om pies‑instans"
+
+#: src/piesctl.c:2204
+msgid "reload configuration"
+msgstr "ladda om konfiguration"
+
+#: src/piesctl.c:2206
+msgid "clear configuration file list"
+msgstr "rensa listan över konfigurationsfiler"
+
+#. TRANSLATORS: Translate only words in upper case
+#: src/piesctl.c:2208
+msgid "file add SYNTAX FILE"
+msgstr "file add SYNTAX FIL"
+
+#: src/piesctl.c:2209
+msgid "add FILE of given SYNTAX to the list of configuration files"
+msgstr "lägg till FIL med angiven SYNTAX till listan över konfigurationsfiler"
+
+#. TRANSLATORS: Translate only words in upper case
+#: src/piesctl.c:2211
+msgid "file del[ete] NAME [NAME...]"
+msgstr "file del[ete] NAMN [NAMN...]"
+
+#: src/piesctl.c:2212
+msgid "remove listed names from the list of configuration files"
+msgstr "ta bort angivna namn från listan över konfigurationsfiler"
+
+#: src/piesctl.c:2214
+msgid "list configuration files"
+msgstr "lista konfigurationsfiler"
+
+#: src/piesctl.c:2216
+msgid "list or change the runlevel"
+msgstr "lista eller ändra körnivå"
+
+#. TRANSLATORS: Translate only words in upper case
+#: src/piesctl.c:2219
+msgid "environ list [NAME]"
+msgstr "environ list [NAMN]"
+
+#: src/piesctl.c:2220
+msgid "list init execution environment"
+msgstr "lista init‑körmiljö"
+
+#. TRANSLATORS: Translate only words in upper case
+#: src/piesctl.c:2222
+msgid "environ set NAME=VALUE"
+msgstr "environ set NAMN=VÄRDE"
+
+#: src/piesctl.c:2223 src/piesctl.c:2226
+msgid "update execution environment"
+msgstr "uppdatera körmiljön"
+
+#. TRANSLATORS: Translate only words in upper case
+#: src/piesctl.c:2225
+msgid "environ unset NAME"
+msgstr "environ unset NAMN"
+
+#: src/piesctl.c:2259
+#, c-format
+msgid "%s: ambiguous command %s:\n"
+msgstr "%s: tvetydigt kommando %s:\n"
+
+#: src/piesctl.c:2268
+#, c-format
+msgid "unknown command: %s"
+msgstr "okänt kommando: %s"
+
+#: src/piesctl.c:2282
+msgid "Available commands with their arguments are:"
+msgstr "Tillgängliga kommandon med sina argument är:"
+
+#: src/piesctl.c:2386
+msgid "connect to instance NAME"
+msgstr "anslut till instans NAMN"
+
+#: src/piesctl.c:2416
+msgid "preprocess configuration files and exit"
+msgstr "förprocessa konfigurationsfiler och avsluta"
+
+#: src/piesctl.c:2423
+msgid "verbose diagnostics"
+msgstr "utförlig diagnostik"
+
+#: src/piesctl.c:2434
+msgid "dump obtained responses verbatim"
+msgstr "dumpa mottagna svar ordagrant"
+
+#: src/piesctl.c:2445
+msgid "URL"
+msgstr "URL"
+
+#: src/piesctl.c:2446
+msgid "connect to this socket"
+msgstr "anslut till detta uttag"
+
+#: src/piesctl.c:2456
+msgid "don't read ~/.netrc file"
+msgstr "läs inte ~/.netrc‑filen"
+
+#: src/piesctl.c:2533
+msgid "GNU pies control program"
+msgstr "GNU pies kontrollprogram"
+
+#: src/piesctl.c:2534
+msgid "COMMAND [ARG...]"
+msgstr "KOMMANDO [ARG...]"
+
+#: src/piesctl.c:2567
+msgid "not enough arguments"
+msgstr "inte tillräckligt med argument"
+
+#: src/progman.c:395
+msgid "ANSI sequence too long"
+msgstr "ANSI‑sekvens för lång"
+
+#: src/progman.c:522 src/progman.c:542 src/progman.c:635
+#, c-format
+msgid "%s: %s while reading %s"
+msgstr "%s: %s vid läsning av %s"
+
+#: src/progman.c:530 src/progman.c:643
+#, c-format
+msgid "%s: EOF on %s"
+msgstr "%s: EOF på %s"
+
+#: src/progman.c:550
+#, c-format
+msgid "%s: EOF writing %s"
+msgstr "%s: EOF vid skrivning av %s"
+
+#: src/progman.c:573
+#, c-format
+msgid "cannot open output file %s: %s"
+msgstr "det går inte att öppna utdatafilen %s: %s"
+
+#: src/progman.c:795
+#, c-format
+msgid "unexpected address family: %d"
+msgstr "oväntad adressfamilj: %d"
+
+#: src/progman.c:829
+#, c-format
+msgid "connections in class %s/%s: %lu"
+msgstr "anslutningar i klass %s/%s: %lu"
+
+#: src/progman.c:989
+#, c-format
+msgid "%s is respawning too fast, disabled for %d minute"
+msgid_plural "%s is respawning too fast, disabled for %d minutes"
+msgstr[0] "%s startar om för snabbt, inaktiverad i %d minut"
+msgstr[1] "%s startar om för snabbt, inaktiverad i %d minuter"
+
+#: src/progman.c:1006
+#, c-format
+msgid "%s is starting too often, disabled for %d minute"
+msgid_plural "%s is starting too often, disabled for %d minutes"
+msgstr[0] "%s startar för ofta, inaktiverad i %d minut"
+msgstr[1] "%s startar för ofta, inaktiverad i %d minuter"
+
+#: src/progman.c:1103
+#, c-format
+msgid "%s: can't split command line: %s"
+msgstr "%s: det går inte att dela kommandoraden: %s"
+
+#: src/progman.c:1132
+#, c-format
+msgid "chdir %s"
+msgstr "chdir %s"
+
+#: src/progman.c:1134
+#, c-format
+msgid "%s: cannot change to directory %s: %s"
+msgstr "%s: det går inte att byta till katalog %s: %s"
+
+#: src/progman.c:1163
+#, c-format
+msgid "cannot start `%s': %s"
+msgstr "det går inte att starta `%s': %s"
+
+#: src/progman.c:1230 src/progman.c:1260
+#, c-format
+msgid "unlinking %s"
+msgstr "tar bort länk %s"
+
+#: src/progman.c:1256
+#, c-format
+msgid "starting %s"
+msgstr "startar %s"
+
+#: src/progman.c:1262
+#, c-format
+msgid "%s: cannot remove file `%s': %s"
+msgstr "%s: det går inte att ta bort fil `%s': %s"
+
+#: src/progman.c:1367
+#, c-format
+msgid "cannot run `%s': fork failed: %s"
+msgstr "det går inte att köra `%s': fork misslyckades: %s"
+
+#: src/progman.c:1396
+#, c-format
+msgid "%s started, pid=%lu"
+msgstr "%s startade, pid=%lu"
+
+#: src/progman.c:1419
+#, c-format
+msgid "access from %s blocked"
+msgstr "åtkomst från %s blockerad"
+
+#: src/progman.c:1441
+#, c-format
+msgid "error writing to socket: %s"
+msgstr "fel vid skrivning till uttag: %s"
+
+#: src/progman.c:1488
+#, c-format
+msgid "%s: access from %s denied: too many instances running"
+msgstr "%s: åtkomst från %s nekad: för många instanser kör"
+
+#: src/progman.c:1502
+#, c-format
+msgid "%s: access from %s denied: too many connections from that ip"
+msgstr "%s: åtkomst från %s nekad: för många anslutningar från den IP‑adressen"
+
+#: src/progman.c:1542
+#, c-format
+msgid "someone wants %s"
+msgstr "någon vill ha %s"
+
+#: src/progman.c:1548
+#, c-format
+msgid "%s: too many instances running, dropping connection"
+msgstr "%s: för många instanser kör, släpper anslutningen"
+
+#: src/progman.c:1702
+#, c-format
+msgid "INTERNAL ERROR: attempting to kill nonexistent process %s"
+msgstr "INTERNT FEL: försöker döda icke‑existerande process %s"
+
+#: src/progman.c:1719
+msgid "checking for components to start"
+msgstr "söker efter komponenter att starta"
+
+#: src/progman.c:1900
+#, c-format
+msgid "%s (%lu) exited successfully"
+msgstr "%s (%lu) avslutades utan fel"
+
+#: src/progman.c:1903
+#, c-format
+msgid "%s (%lu) exited with status %d"
+msgstr "%s (%lu) avslutades med status %d"
+
+#: src/progman.c:1916
+msgid " (core dumped)"
+msgstr " (core dumpad)"
+
+#: src/progman.c:1918
+#, c-format
+msgid "%s (%lu) terminated on signal %d%s"
+msgstr "%s (%lu) terminerades av signal %d%s"
+
+#: src/progman.c:1923
+#, c-format
+msgid "%s (%lu) stopped on signal %d"
+msgstr "%s (%lu) stoppades av signal %d"
+
+#: src/progman.c:1927
+#, c-format
+msgid "%s (%lu) terminated with unrecognized status: %d"
+msgstr "%s (%lu) terminerades med okänd status: %d"
+
+#: src/progman.c:1999
+#, c-format
+msgid "cannot parse recipient address list (%s)"
+msgstr "det går inte att tolka mottagaradresslistan (%s)"
+
+#: src/progman.c:2004
+#, c-format
+msgid "sending notification to %s"
+msgstr "skickar notifiering till %s"
+
+#: src/progman.c:2051 src/progman.c:2081
+#, c-format
+msgid "cannot send mail: fork failed: %s"
+msgstr "det går inte att skicka e‑post: fork misslyckades: %s"
+
+#: src/progman.c:2059
+#, c-format
+msgid "started mailer: %s, pid=%lu"
+msgstr "startade postprogram: %s, pid=%lu"
+
+#: src/progman.c:2071
+#, c-format
+msgid "cannot send mail: pipe failed: %s"
+msgstr "det går inte att skicka e‑post: rör misslyckades: %s"
+
+#: src/progman.c:2106
+#, c-format
+msgid "cannot write to pipe: %s"
+msgstr "det går inte att skriva till rör: %s"
+
+#. TRANSLATORS: The subject of this statement is 'component'
+#: src/progman.c:2151
+msgid "exited with code"
+msgstr "avslutades med kod"
+
+#. TRANSLATORS: The subject of this statement is 'component'
+#: src/progman.c:2154
+msgid "terminated on signal"
+msgstr "terminerades av signal"
+
+#: src/progman.c:2302
+#, c-format
+msgid "executing %s"
+msgstr "kör %s"
+
+#: src/progman.c:2326
+#, c-format
+msgid "started command: %s, pid=%lu"
+msgstr "startade kommando: %s, pid=%lu"
+
+#: src/progman.c:2328
+msgid "[action]"
+msgstr "[åtgärd]"
+
+#: src/progman.c:2343
+#, c-format
+msgid "%s: terminated with code %d"
+msgstr "%s: terminerades med kod %d"
+
+#: src/progman.c:2348
+#, c-format
+msgid "%s: terminated on signal %d"
+msgstr "%s: terminerades av signal %d"
+
+#: src/progman.c:2353
+#, c-format
+msgid "%s: unrecognized termination status"
+msgstr "%s: okänd termineringsstatus"
+
+#: src/progman.c:2380
+#, c-format
+msgid "disabling component %s"
+msgstr "inaktiverar komponent %s"
+
+#: src/progman.c:2412
+msgid "unknown child"
+msgstr "okänt barn"
+
+#: src/progman.c:2529
+#, c-format
+msgid "stopping component %s"
+msgstr "stoppar komponent %s"
+
+#: src/progman.c:2549
+#, c-format
+msgid "waking up component %s"
+msgstr "väcker komponent %s"
+
+#: src/progman.c:2563
+#, c-format
+msgid "stopping component %s: component not started"
+msgstr "stoppar komponent %s: komponenten är inte startad"
+
+#: src/progman.c:2572
+#, c-format
+msgid "deactivating listener %s"
+msgstr "inaktiverar lyssnare %s"
+
+#: src/progman.c:2585
+#, c-format
+msgid "activating listener %s"
+msgstr "aktiverar lyssnare %s"
+
+#: src/socket.c:30 src/userprivs.c:242
+#, c-format
+msgid "cannot switch to EGID %lu: %s"
+msgstr "det går inte att växla till EGID %lu: %s"
+
+#: src/socket.c:33 src/userprivs.c:248
+#, c-format
+msgid "cannot switch to EUID %lu: %s"
+msgstr "det går inte att växla till EUID %lu: %s"
+
+#: src/socket.c:82 src/socket.c:95
+#, c-format
+msgid "%s: invalid octal number (%s)"
+msgstr "%s: ogiltigt oktalt tal (%s)"
+
+#: src/socket.c:85
+#, c-format
+msgid "%s: invalid umask (%s)"
+msgstr "%s: ogiltig umask (%s)"
+
+#: src/socket.c:98
+#, c-format
+msgid "%s: invalid mode (%s)"
+msgstr "%s: ogiltigt läge (%s)"
+
+#: src/socket.c:111 src/userprivs.c:199 src/userprivs.c:228
+#, c-format
+msgid "no such user: %s"
+msgstr "ingen sådan användare: %s"
+
+#: src/socket.c:123
+#, c-format
+msgid "no such group: %s"
+msgstr "ingen sådan grupp: %s"
+
+#: src/socket.c:132 src/socket.c:299 lib/urlconn.c:56 grecs/src/tree.c:381
+#, c-format
+msgid "%s: UNIX socket name too long"
+msgstr "%s: UNIX-uttagsnamn är för långt"
+
+#: src/socket.c:151 src/socket.c:324 lib/urlconn.c:78
+#, c-format
+msgid "%s: not a socket"
+msgstr "%s: inte ett uttag"
+
+#: src/socket.c:180
+#, c-format
+msgid "%s: unknown host name %s"
+msgstr "%s: okänt värdnamn %s"
+
+#: src/socket.c:193
+#, c-format
+msgid "%s: unsupported address family"
+msgstr "%s: adressfamilj som inte stöds"
+
+#: src/socket.c:217
+#, c-format
+msgid "%s: set reuseaddr failed: %s"
+msgstr "%s: set reuseaddr misslyckades: %s"
+
+#: src/socket.c:272
+msgid "no way to send fd"
+msgstr "inget sätt att skicka fd"
+
+#: src/socket.c:311
+#, c-format
+msgid "pass-fd timed out in state %s"
+msgstr "pass-fd tidsgräns i tillstånd %s"
+
+#: src/socket.c:340
+#, c-format
+msgid "cannot stat %s: %s"
+msgstr "det går inte att ta stat på %s: %s"
+
+#: src/socket.c:550
+#, c-format
+msgid "disabling fd %d"
+msgstr "inaktiverar fd %d"
+
+#: src/socket.c:562
+#, c-format
+msgid "enabling fd %d"
+msgstr "aktiverar fd %d"
+
+#: src/sysvinit.c:513 src/sysvinit.c:1326
+#, c-format
+msgid "error reading from %s: %s"
+msgstr "fel vid läsning från %s: %s"
+
+#: src/sysvinit.c:520
+#, c-format
+msgid "end of file on %s: reopening"
+msgstr "filslut på %s: öppnar igen"
+
+#: src/sysvinit.c:532
+msgid "got invalid initreq"
+msgstr "fick ogiltig initreq"
+
+#: src/sysvinit.c:755 src/sysvinit.c:768
+msgid "out of memory"
+msgstr "slut på minne"
+
+#: src/sysvinit.c:931
+#, c-format
+msgid "argument to %s%s too long"
+msgstr "argument till %s%s är för långt"
+
+#: src/sysvinit.c:944
+msgid "SECONDS"
+msgstr "SEKUNDER"
+
+#: src/sysvinit.c:945
+msgid "set interval between sending TERM and KILL signals"
+msgstr "ställ in intervallet mellan sändning av TERM- och KILL-signaler"
+
+#: src/sysvinit.c:956
+msgid "VAR=[VAL]"
+msgstr "VAR=[VÄR]"
+
+#: src/sysvinit.c:957
+msgid "change environment"
+msgstr "ändra miljön"
+
+#: src/sysvinit.c:1007
+msgid "bad number of arguments"
+msgstr "fel antal argument"
+
+#: src/sysvinit.c:1012
+#, c-format
+msgid "invalid runlevel: %s"
+msgstr "ogiltig körnivå: %s"
+
+#: src/sysvinit.c:1037 src/sysvinit.c:1334
+#, c-format
+msgid "cannot open %s: %s"
+msgstr "det går inte att öppna %s: %s"
+
+#: src/sysvinit.c:1042
+#, c-format
+msgid "error writing to %s: %s"
+msgstr "fel vid skrivning till %s: %s"
+
+#: src/sysvinit.c:1170
+msgid "unknown syntax type"
+msgstr "okänd syntaxtyp"
+
+#: src/sysvinit.c:1196
+msgid "not enough fields"
+msgstr "inte tillräckligt många fält"
+
+#: src/sysvinit.c:1205
+msgid "invalid runlevel"
+msgstr "ogiltig körnivå"
+
+#: src/sysvinit.c:1221
+msgid "unknown action"
+msgstr "okänd åtgärd"
+
+#: src/sysvinit.c:1322
+#, c-format
+msgid "unexpected EOF on %s"
+msgstr "oväntat filslut på %s"
+
+#: src/sysvinit.c:1401
+msgid "argument must be a single character"
+msgstr "argument måste vara ett enda tecken"
+
+#: src/sysvinit.c:1406
+msgid "not a valid runlevel"
+msgstr "ingen giltig körnivå"
+
+#: src/sysvinit.c:1428
+#, c-format
+msgid "not a valid runlevel: %c"
+msgstr "ingen giltig körnivå: %c"
+
+#: src/userprivs.c:86
+#, c-format
+msgid "unknown group: %s"
+msgstr "okänd grupp: %s"
+
+#: src/userprivs.c:97
+#, c-format
+msgid "setgroups(1, %lu) failed: %s"
+msgstr "setgroups(1, %lu) misslyckades: %s"
+
+#: src/userprivs.c:108
+#, c-format
+msgid "setegid(%lu) failed: %s"
+msgstr "setegid(%lu) misslyckades: %s"
+
+#: src/userprivs.c:112
+#, c-format
+msgid "setregid(%lu,%lu) failed: %s"
+msgstr "setregid(%lu,%lu) misslyckades: %s"
+
+#: src/userprivs.c:116
+#, c-format
+msgid "setresgid(%lu,%lu,%lu) failed: %s"
+msgstr "setresgid(%lu,%lu,%lu) misslyckades: %s"
+
+#: src/userprivs.c:124
+#, c-format
+msgid "setgid(%lu) failed: %s"
+msgstr "setgid(%lu) misslyckades: %s"
+
+#: src/userprivs.c:128
+#, c-format
+msgid "cannot set effective gid to %lu"
+msgstr "det går inte att sätta effektiv GID till %lu"
+
+#: src/userprivs.c:149
+#, c-format
+msgid "setreuid(%lu,-1) failed: %s"
+msgstr "setreuid(%lu,-1) misslyckades: %s"
+
+#: src/userprivs.c:155
+#, c-format
+msgid "second setuid(%lu) failed: %s"
+msgstr "andra setuid(%lu) misslyckades: %s"
+
+#: src/userprivs.c:163
+#, c-format
+msgid "setuid(%lu) failed: %s"
+msgstr "setuid(%lu) misslyckades: %s"
+
+#: src/userprivs.c:172
+msgid "seteuid(0) succeeded when it should not"
+msgstr "seteuid(0) lyckades när det inte skulle"
+
+#: src/userprivs.c:177
+msgid "cannot drop non-root setuid privileges"
+msgstr "det går inte att släppa setuid-behörigheter för icke-root"
+
+#: src/utmp.c:137 src/utmp.c:163
+#, c-format
+msgid "cannot open %s for writing"
+msgstr "det går inte att öppna %s för skrivning"
+
+#: lib/netrc.c:120
+msgid "incomplete sentence"
+msgstr "ofullständig sats"
+
+#: lib/netrc.c:168
+msgid "ignoring unrecognized line"
+msgstr "ignorerar okänd rad"
+
+#: lib/pp.c:40
+msgid "no preprocessor configured"
+msgstr "ingen förprocessor konfigurerad"
+
+#: lib/urlconn.c:46
+#, c-format
+msgid "%s: invalid connection type: port is meaningless for UNIX sockets"
+msgstr "%s: ogiltig anslutningstyp: port är meningslös för UNIX-uttag"
+
+#: lib/urlconn.c:102
+msgid "cannot parse address"
+msgstr "det går inte att tolka adressen"
+
+#: lib/urlconn.c:108
+#, c-format
+msgid "%s:%d: internal error while converting network address"
+msgstr "%s:%d: internt fel vid konvertering av nätverksadress"
+
+#: lib/urlconn.c:134
+#, c-format
+msgid "%s: cannot set close-on-exec: %s"
+msgstr "%s: det går inte att sätta close-on-exec: %s"
+
+#: lib/urlconn.c:141
+msgid "source and destination address family differ"
+msgstr "käll- och måladressfamilj skiljer sig"
+
+#: lib/version.c:25
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"\n"
+"Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+"Detta är fri programvara: du får ändra och sprida den.\n"
+"Det finns INGEN GARANTI, i den utsträckning lagen tillåter.\n"
+"\n"
+
+#: lib/version.c:39
+msgid "(C)"
+msgstr "(C)"
+
+#: lib/parseopt/help.c:91
+#, c-format
+msgid "error in ARGP_HELP_FMT: improper usage of [no-]%s"
+msgstr "fel i ARGP_HELP_FMT: felaktig användning av [no-]%s"
+
+#: lib/parseopt/help.c:104
+#, c-format
+msgid "error in ARGP_HELP_FMT: bad value for %s (near %s)"
+msgstr "fel i ARGP_HELP_FMT: felaktigt värde för %s (nära %s)"
+
+#: lib/parseopt/help.c:110
+#, c-format
+msgid "error in ARGP_HELP_FMT: %s value is out of range"
+msgstr "fel i ARGP_HELP_FMT: %s-värdet är utanför intervallet"
+
+#: lib/parseopt/help.c:117
+#, c-format
+msgid "%s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%s: ARGP_HELP_FMT-parameter kräver ett värde"
+
+#: lib/parseopt/help.c:123
+#, c-format
+msgid "%s: unknown ARGP_HELP_FMT parameter"
+msgstr "%s: okänd ARGP_HELP_FMT-parameter"
+
+#: lib/parseopt/help.c:149
+#, c-format
+msgid "ARGP_HELP_FMT: missing delimiter near %s"
+msgstr "ARGP_HELP_FMT: saknar avgränsare nära %s"
+
+#: lib/parseopt/help.c:300
+msgid "Usage:"
+msgstr "Användning:"
+
+#: lib/parseopt/help.c:319
+#, c-format
+msgid "or: %s [OPTIONS...] %s\n"
+msgstr "eller: %s [FLAGGOR...] %s\n"
+
+#: lib/parseopt/help.c:582
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Obligatoriska eller valfria argument till långa flaggor är också obligatoriska eller valfria för motsvarande korta flaggor."
+
+#: lib/parseopt/help.c:584
+msgid "If an option has several forms, mandatory or optional argument is listed only once, after the last form."
+msgstr "Om en flagga har flera former listas obligatoriskt eller valfritt argument bara en gång, efter den sista formen."
+
+#: lib/parseopt/help.c:740
+#, c-format
+msgid "usage: %s"
+msgstr "användning: %s"
+
+#: lib/parseopt/help.c:746
+msgid "[OPTIONS...]"
+msgstr "[FLAGGOR...]"
+
+#: lib/parseopt/help.c:757
+#, c-format
+msgid "or: %s %s\n"
+msgstr "eller: %s %s\n"
+
+#: lib/parseopt/help.c:802
+#, c-format
+msgid "Report bugs and suggestions to <%s>\n"
+msgstr "Rapportera fel och förslag till <%s>\n"
+
+#: lib/parseopt/help.c:806
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "%s webbplats: <%s>\n"
+
+#: lib/parseopt/optset.c:120 lib/parseopt/optset.c:136
+msgid "memory allocation error"
+msgstr "minnesallokeringsfel"
+
+#: lib/parseopt/parseopt.c:71
+#, c-format
+msgid "unrecognized option '-%c'"
+msgstr "okänd flagga '-%c'"
+
+#: lib/parseopt/parseopt.c:142
+#, c-format
+msgid "option '%s%*.*s' is ambiguous; possibilities:"
+msgstr "flaggan '%s%*.*s' är tvetydig; möjligheter:"
+
+#: lib/parseopt/parseopt.c:174
+#, c-format
+msgid "unrecognized option '%s%*.*s'"
+msgstr "okänd flagga '%s%*.*s'"
+
+#: lib/parseopt/parseopt.c:337
+#, c-format
+msgid "option '%s%s' requires argument"
+msgstr "flaggan '%s%s' kräver ett argument"
+
+#: lib/parseopt/parseopt.c:351
+#, c-format
+msgid "option '%s%s' does not take argument"
+msgstr "flaggan '%s%s' tar inget argument"
+
+#: lib/parseopt/parseopt.c:364
+#, c-format
+msgid "bad value for option '%s%s'"
+msgstr "felaktigt värde för flaggan '%s%s'"
+
+#: lib/parseopt/parseopt.c:388
+#, c-format
+msgid "invalid argument '%s'"
+msgstr "ogiltigt argument '%s'"
+
+#: lib/parseopt/parseopt.c:571
+msgid "Informative options"
+msgstr "Informativa flaggor"
+
+#: lib/parseopt/parseopt.c:576
+msgid "produce this help text"
+msgstr "skriv ut denna hjälptext"
+
+#: lib/parseopt/parseopt.c:585
+msgid "give a short usage message"
+msgstr "ge ett kort användningsmeddelande"
+
+#: lib/parseopt/parseopt.c:595 lib/parseopt/parseopt.c:604
+msgid "print program version"
+msgstr "skriv ut programversion"
+
+#: grecs/src/assert.c:28
+#, c-format
+msgid "expected %s"
+msgstr "förväntade %s"
+
+#: grecs/src/assert.c:33
+#, c-format
+msgid "expected %s, but found %s"
+msgstr "förväntade %s, men hittade %s"
+
+#: grecs/src/cidr.c:129 grecs/src/cidr.c:179 grecs/src/cidr.c:186
+#, c-format
+msgid "invalid network mask: %s"
+msgstr "ogiltig nätmask: %s"
+
+#: grecs/src/cidr.c:142 grecs/src/cidr.c:149 grecs/src/cidr.c:160
+#, c-format
+msgid "unrecognized address family: %s"
+msgstr "okänd adressfamilj: %s"
+
+#: grecs/src/cidr.c:153
+#, c-format
+msgid "invalid network address: %s"
+msgstr "ogiltig nätverksadress: %s"
+
+#. TRANSLATORS: The msgids below are data types in direct (nominative)
+#. and indirect (most often, genitive) cases.  The indirect case is
+#. used only in the construct "list %s" (e.g., for "number" data type,
+#. this makes "list of numbers").  Please, translate it so that it
+#. forms a correct sentence in this context.
+#: grecs/src/format.c:37
+msgid "void"
+msgstr "tom"
+
+#: grecs/src/format.c:38
+msgid "of strings"
+msgstr "av strängar"
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "number"
+msgstr "tal"
+
+#: grecs/src/format.c:39 grecs/src/format.c:40 grecs/src/format.c:41
+#: grecs/src/format.c:42 grecs/src/format.c:43 grecs/src/format.c:44
+#: grecs/src/format.c:45
+msgid "of numbers"
+msgstr "av tal"
+
+#: grecs/src/format.c:46
+msgid "time"
+msgstr "tid"
+
+#: grecs/src/format.c:46
+msgid "of times"
+msgstr "av tider"
+
+#: grecs/src/format.c:47
+msgid "boolean"
+msgstr "boolesk"
+
+#: grecs/src/format.c:47
+msgid "of booleans"
+msgstr "av booleska"
+
+#: grecs/src/format.c:48
+msgid "IPv4"
+msgstr "IPv4"
+
+#: grecs/src/format.c:48
+msgid "of IPv4"
+msgstr "av IPv4"
+
+#: grecs/src/format.c:49
+msgid "CIDR"
+msgstr "CIDR"
+
+#: grecs/src/format.c:49
+msgid "of CIDR"
+msgstr "av CIDR"
+
+#: grecs/src/format.c:50
+msgid "hostname"
+msgstr "värdnamn"
+
+#: grecs/src/format.c:50
+msgid "of hostnames"
+msgstr "av värdnamn"
+
+#: grecs/src/format.c:51
+msgid "sockaddr"
+msgstr "sockaddr"
+
+#: grecs/src/format.c:51
+msgid "of sockaddr"
+msgstr "av sockaddr"
+
+#: grecs/src/format.c:52
+msgid "section"
+msgstr "avsnitt"
+
+#: grecs/src/format.c:53
+msgid "null"
+msgstr "null"
+
+#: grecs/src/format.c:134
+msgid "Disabled;"
+msgstr "Inaktiverad;"
+
+#. TRANSLATORS: The %s in this message will be expanded
+#. to a data type in indirect case (see above).  The two
+#. must form a grammatically correct sentence.
+#: grecs/src/format.c:158
+#, c-format
+msgid "list %s"
+msgstr "lista %s"
+
+#: grecs/src/grecs-lex.l:183
+msgid "end of file in comment"
+msgstr "filslut i kommentar"
+
+#: grecs/src/grecs-lex.l:318
+msgid "end of file in quoted string"
+msgstr "filslut i citerad sträng"
+
+#: grecs/src/grecs-lex.l:384 grecs/src/meta1-lex.l:115
+#, c-format
+msgid "stray character %c"
+msgstr "oväntat tecken %c"
+
+#: grecs/src/grecs-lex.l:387 grecs/src/meta1-lex.l:116
+#, c-format
+msgid "stray character \\%03o"
+msgstr "oväntat tecken \\%03o"
+
+#: grecs/src/grecs-lex.l:421
+#, c-format
+msgid "\"%2.2s\" starts comment here; use quotes if you want it to be a part of string, or insert a whitespace to suppress this warning"
+msgstr "\"%2.2s\" startar en kommentar här; använd citattecken om du vill att det ska ingå i strängen, eller infoga ett blanksteg för att undertrycka denna varning"
+
+#: grecs/src/grecs-lex.l:460 grecs/src/grecs-lex.l:478
+msgid "invalid include statement"
+msgstr "ogiltig include-sats"
+
+#: grecs/src/grecs-lex.l:494
+msgid "read error"
+msgstr "läsfel"
+
+#: grecs/src/grecs-lex.l:502
+#, c-format
+msgid "%s: No such file or directory"
+msgstr "%s: Ingen sådan fil eller katalog"
+
+#: grecs/src/grecs-lex.l:835 grecs/src/grecs-lex.l:860
+#, c-format
+msgid "Cannot stat `%s'"
+msgstr "Det går inte att ta stat på `%s'"
+
+#: grecs/src/grecs-lex.l:841 grecs/src/grecs-lex.l:847
+msgid "Recursive inclusion"
+msgstr "Rekursiv inkludering"
+
+#: grecs/src/grecs-lex.l:850
+#, c-format
+msgid "`%s' already included here"
+msgstr "`%s' redan inkluderad här"
+
+#: grecs/src/grecs-lex.l:854
+#, c-format
+msgid "`%s' already included at top level"
+msgstr "`%s' redan inkluderad på toppnivå"
+
+#: grecs/src/grecs-lex.l:871 grecs/src/grecs-lex.l:892
+#: grecs/src/meta1-lex.l:159
+#, c-format
+msgid "Cannot open `%s'"
+msgstr "Det går inte att öppna `%s'"
+
+#: grecs/src/grecs-lex.l:1182 grecs/src/grecs-lex.l:1203
+#, c-format
+msgid "cannot parse #line line: %s"
+msgstr "det går inte att tolka #line-raden: %s"
+
+#: grecs/src/grecs-lex.l:1189 grecs/src/grecs-lex.l:1206
+msgid "invalid #line statement"
+msgstr "ogiltig #line-sats"
+
+#: grecs/src/grecs-lex.l:1192 grecs/src/grecs-lex.l:1208
+msgid "malformed #line statement"
+msgstr "felaktig #line-sats"
+
+#: grecs/src/grecs-lex.l:1297 grecs/src/grecs-lex.l:1328
+#, c-format
+msgid "Cannot run `%s'"
+msgstr "Det går inte att köra `%s'"
+
+#: grecs/src/grecs-lex.l:1350
+#, c-format
+msgid "%s exited with status %d"
+msgstr "%s avslutades med status %d"
+
+#: grecs/src/grecs-lex.l:1355
+#, c-format
+msgid "%s terminated on signal %d"
+msgstr "%s terminerades av signal %d"
+
+#: grecs/src/grecs-lex.l:1359
+#, c-format
+msgid "%s terminated abnormally (%d)"
+msgstr "%s terminerades onormalt (%d)"
+
+#: grecs/json/json.c:96
+msgid "No error"
+msgstr "Inget fel"
+
+#: grecs/json/json.c:97
+msgid "Not enough memory"
+msgstr "Inte tillräckligt med minne"
+
+#: grecs/json/json.c:98
+msgid "Unrecognized token"
+msgstr "Okänd symbol"
+
+#: grecs/json/json.c:99
+msgid "Bad delimiter"
+msgstr "Felaktig avgränsare"
+
+#: grecs/json/json.c:100
+msgid "Malformed string"
+msgstr "Felaktig sträng"
+
+#: grecs/json/json.c:101
+msgid "Value out of range"
+msgstr "Värde utanför intervallet"
+
+#: grecs/json/json.c:102
+msgid "Unexpected end of input"
+msgstr "Oväntat slut på indata"
+
+#: grecs/json/json.c:103
+msgid "Usage error"
+msgstr "Användningsfel"
+
+#: grecs/json/json.c:107
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+#: grecs/src/lineacc.c:68
+#, c-format
+msgid "unknown escape sequence: '\\%c'"
+msgstr "okänd escape-sekvens: '\\%c'"
+
+#: grecs/src/meta1-lex.l:105
+msgid "newline in a string"
+msgstr "radbrytning i en sträng"
+
+#: grecs/src/path-parser.c:65
+#, c-format
+msgid "cannot open `%s'"
+msgstr "det går inte att öppna `%s'"
+
+#: grecs/src/path-parser.c:111 grecs/src/path-parser.c:126
+msgid "unexpected end of file"
+msgstr "oväntat filslut"
+
+#: grecs/src/path-parser.c:146
+msgid "parse error"
+msgstr "tolkningsfel"
+
+#: grecs/src/sockaddr.c:67
+#, c-format
+msgid "socket path name too long: %s"
+msgstr "uttagsökvägsnamn är för långt: %s"
+
+#: grecs/src/sockaddr.c:120
+#, c-format
+msgid "%s: garbage near %s"
+msgstr "%s: skräp nära %s"
+
+#: grecs/src/sockaddr.c:159
+#, c-format
+msgid "service not specified: %s"
+msgstr "tjänst inte angiven: %s"
+
+#: grecs/src/sockaddr.c:176
+#, c-format
+msgid "%s: cannot parse address: %s"
+msgstr "%s: det går inte att tolka adressen: %s"
+
+#: grecs/src/sockaddr.c:269
+#, c-format
+msgid "unknown or unsupported scheme: %s"
+msgstr "okänt eller inte stött schema: %s"
+
+#: grecs/src/sockaddr.c:278
+#, c-format
+msgid "%s: UNIX socket must be an absolute file name"
+msgstr "%s: UNIX-uttag måste vara ett absolut filnamn"
+
+#: grecs/src/symtab.c:236
+msgid "element not found in table"
+msgstr "element hittades inte i tabell"
+
+#: grecs/src/symtab.c:238
+msgid "symbol table is full"
+msgstr "symboltabellen är full"
+
+#: grecs/src/tree.c:71
+msgid "one or more arguments"
+msgstr "ett eller flera argument"
+
+#: grecs/src/tree.c:75
+msgid "unrecognized type; please report"
+msgstr "okänd typ; rapportera gärna"
+
+#: grecs/src/tree.c:310
+msgid "section keyword used as a scalar"
+msgstr "avsnitt-nyckelord används som skalär"
+
+#: grecs/src/tree.c:312
+msgid "scalar keyword used as a section"
+msgstr "skalär-nyckelord används som avsnitt"
+
+#: grecs/src/tree.c:315
+msgid "unknown keyword"
+msgstr "okänt nyckelord"
+
+#: grecs/src/tree.c:350
+#, c-format
+msgid "%s: not a valid boolean value"
+msgstr "%s: inte ett giltigt booleskt värde"
+
+#: grecs/src/tree.c:410 grecs/src/tree.c:634
+#, c-format
+msgid "%s: not a valid IP address or hostname"
+msgstr "%s: inte en giltig IP-adress eller värdnamn"
+
+#: grecs/src/tree.c:434
+#, c-format
+msgid "%s: not a valid port number"
+msgstr "%s: inte ett giltigt portnummer"
+
+#: grecs/src/tree.c:442
+msgid "missing port number"
+msgstr "saknar portnummer"
+
+#: grecs/src/tree.c:491
+msgid "numeric overflow"
+msgstr "numerisk överflytning"
+
+#: grecs/src/tree.c:496
+msgid "value out of allowed range"
+msgstr "värde utanför tillåtet intervall"
+
+#: grecs/src/tree.c:531 grecs/src/tree.c:561
+#, c-format
+msgid "not a number (stopped near `%s')"
+msgstr "inte ett tal (stoppade nära `%s')"
+
+#: grecs/src/tree.c:625
+#, c-format
+msgid "%s: not a valid IP address"
+msgstr "%s: inte en giltig IP-adress"
+
+#: grecs/src/tree.c:752
+#, c-format
+msgid "too many arguments to `%s'; missing semicolon?"
+msgstr "för många argument till `%s'; saknas semikolon?"
+
+#: grecs/src/tree.c:766 grecs/src/tree.c:814
+#, c-format
+msgid "INTERNAL ERROR at %s:%d: unhandled data type %d"
+msgstr "INTERNT FEL vid %s:%d: ohanterad datatyp %d"
+
+#: grecs/src/tree.c:781
+#, c-format
+msgid "%s: incompatible data type in list item #%d"
+msgstr "%s: inkompatibel datatyp i listpost #%d"
+
+#: grecs/src/tree.c:801
+#, c-format
+msgid "incompatible data type for `%s'"
+msgstr "inkompatibel datatyp för `%s'"
+
+#: grecs/wordsplit/wordsplit.c:78 grecs/wordsplit/wordsplit.c:2851
+msgid "memory exhausted"
+msgstr "minnet slut"
+
+#: grecs/wordsplit/wordsplit.c:132
+msgid "memory exhausted while trying to store error context"
+msgstr "minnet tog slut vid försök att lagra felkontext"
+
+#: grecs/wordsplit/wordsplit.c:873
+msgid "Restarting"
+msgstr "Startar om"
+
+#: grecs/wordsplit/wordsplit.c:1599
+#, c-format
+msgid "%.*s: variable null or not set"
+msgstr "%.*s: variabel är null eller inte satt"
+
+#: grecs/wordsplit/wordsplit.c:1629
+#, c-format
+msgid "warning: undefined variable `%.*s'"
+msgstr "varning: odefinierad variabel `%.*s'"
+
+#: grecs/wordsplit/wordsplit.c:2130
+#, c-format
+msgid "no files match pattern %s"
+msgstr "inga filer matchar mönstret %s"
+
+#: grecs/wordsplit/wordsplit.c:2595
+msgid "WS trimming"
+msgstr "WS-rensning"
+
+#: grecs/wordsplit/wordsplit.c:2597
+msgid "command substitution"
+msgstr "kommandoersättning"
+
+#: grecs/wordsplit/wordsplit.c:2599 grecs/wordsplit/wordsplit.c:2607
+msgid "coalesce list"
+msgstr "sammanfoga lista"
+
+#: grecs/wordsplit/wordsplit.c:2601
+msgid "tilde expansion"
+msgstr "tildeexpansion"
+
+#: grecs/wordsplit/wordsplit.c:2603
+msgid "variable expansion"
+msgstr "variabelexpansion"
+
+#: grecs/wordsplit/wordsplit.c:2605
+msgid "quote removal"
+msgstr "citatborttagning"
+
+#: grecs/wordsplit/wordsplit.c:2609
+msgid "path expansion"
+msgstr "sökvägsexpansion"
+
+#: grecs/wordsplit/wordsplit.c:2634
+#, c-format
+msgid "(%02d) Input:%.*s;"
+msgstr "(%02d) Indata:%.*s;"
+
+#: grecs/wordsplit/wordsplit.c:2660
+msgid "Initial list:"
+msgstr "Initial lista:"
+
+#: grecs/wordsplit/wordsplit.c:2675
+msgid "Coalesced list:"
+msgstr "Sammanfogad lista:"
+
+#: grecs/wordsplit/wordsplit.c:2849
+msgid "no error"
+msgstr "inga fel"
+
+#: grecs/wordsplit/wordsplit.c:2850
+msgid "missing closing quote"
+msgstr "saknar avslutande citattecken"
+
+#: grecs/wordsplit/wordsplit.c:2852
+msgid "invalid wordsplit usage"
+msgstr "ogiltig wordsplit-användning"
+
+#: grecs/wordsplit/wordsplit.c:2853
+msgid "unbalanced curly brace"
+msgstr "obalanserad klammerparentes"
+
+#: grecs/wordsplit/wordsplit.c:2854
+msgid "undefined variable"
+msgstr "odefinierad variabel"
+
+#: grecs/wordsplit/wordsplit.c:2855
+msgid "input exhausted"
+msgstr "indata slut"
+
+#: grecs/wordsplit/wordsplit.c:2857
+msgid "globbing error"
+msgstr "globbingfel"
+
+#: grecs/wordsplit/wordsplit.c:2858
+msgid "user-defined error"
+msgstr "användardefinierat fel"
+
+#: grecs/wordsplit/wordsplit.c:2859
+msgid "invalid parameter number in assignment"
+msgstr "ogiltigt parameternummer i tilldelning"
+
+#: grecs/wordsplit/wordsplit.c:2880
+#, c-format
+msgid "missing closing %c (start near #%lu)"
+msgstr "saknar avslutande %c (börjar nära #%lu)"
