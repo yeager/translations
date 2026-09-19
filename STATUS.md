@@ -1147,3 +1147,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **3D Slicer – CTK, batch 22 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **770/1 077**. Batchen fortsätter DICOM-modaliteterna och deras standardkoder: radioterapi, digital/intraoral/panoramaröntgen, mikroskopi, EKG, elektrofysiologi, hemodynamik och intravaskulärt ultraljud. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
 
 **3D Slicer – CTK, batch 23 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **805/1 077**. Batchen omfattar oftalmiska DICOM-modaliteter med standardkoder, segmentering/registrering samt fil- och sökvägshantering med behörighetsdiagnostik. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
+
+**3D Slicer – CTK, batch 24 (2026-09-19):** Ytterligare **35** CTK-strängar är publicerade, totalt **840/1 077**. Batchen omfattar sökvägsfel, insticksmodulernas OSGi-liknande tillstånd och åtgärder, resurs-/tjänstbläddring samt generatorn för nya insticksmoduler. TS-exporten är XML-validerad och Qt-kompilerar med `lrelease`.
