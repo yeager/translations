@@ -121,4 +121,3 @@ patch --fuzz=0 -p1 < diff/clisp-2.49.60.sv.po.diff
 
 Exakta källadresser, hämtningstidpunkter och SHA-256-kontrollsummor finns i [review-manifest.json](review-manifest.json).
 
-De tidigare befintliga util-linux-filerna omfattas inte av denna granskningsomgång.
