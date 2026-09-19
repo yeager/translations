@@ -1,0 +1,497 @@
+--- a/gnulib-20241209.sv.po
++++ b/gnulib-20241209.sv.po
+@@ -91,11 +91,11 @@
+ 
+ #: lib/argp-parse.c:80
+ msgid "give this help list"
+-msgstr "ge denna hjälplista"
++msgstr "visa denna hjälplista"
+ 
+ #: lib/argp-parse.c:81
+ msgid "give a short usage message"
+-msgstr "ge ett kort användningsmeddelande"
++msgstr "visa ett kort användningsmeddelande"
+ 
+ #: lib/argp-parse.c:82
+ msgid "NAME"
+@@ -111,7 +111,7 @@
+ 
+ #: lib/argp-parse.c:85
+ msgid "hang for SECS seconds (default 3600)"
+-msgstr "häng i S sekunder (3600 som standard)"
++msgstr "vänta i S sekunder (3600 som standard)"
+ 
+ #: lib/argp-parse.c:142
+ msgid "print program version"
+@@ -294,7 +294,7 @@
+ 
+ #: lib/c-stack.c:191
+ msgid "stack overflow"
+-msgstr "stackspill"
++msgstr "stacköverflöde"
+ 
+ #: lib/clean-temp-simple.c:297
+ #, c-format
+@@ -304,7 +304,7 @@
+ #: lib/clean-temp.c:234
+ #, c-format
+ msgid "cannot find a temporary directory, try setting $TMPDIR"
+-msgstr "kan inte hitta en temporärkatalog, försök sätta $TMPDIR"
++msgstr "kan inte hitta en temporärkatalog, försök att ange $TMPDIR"
+ 
+ #: lib/clean-temp.c:249
+ #, c-format
+@@ -318,7 +318,7 @@
+ 
+ #: lib/closein.c:99
+ msgid "error closing file"
+-msgstr "fel när fil stängdes"
++msgstr "fel när filen stängdes"
+ 
+ #: lib/closeout.c:121
+ msgid "write error"
+@@ -403,12 +403,12 @@
+ #: lib/csharpexec.c:681
+ #, c-format
+ msgid "C# virtual machine not found, try installing mono or dotnet"
+-msgstr "den virtuella C#-maskinen hittades inte, försök installera mono eller dotnet"
++msgstr "den virtuella Java-maskinen hittades inte, försök installera mono eller dotnet"
+ 
+ #: lib/cygpath.c:59
+ #, c-format
+ msgid "cannot convert file name '%s' to Windows syntax"
+-msgstr "kan inte konvertera filnamnet ”%s” till Windows syntax"
++msgstr "kan inte konvertera filnamnet ”%s” till Windows-syntax"
+ 
+ #: lib/cygpath.c:65
+ #, c-format
+@@ -434,7 +434,7 @@
+ 
+ #: lib/dfa.c:1234
+ msgid "unfinished \\ escape"
+-msgstr "oavslutad \\-sekvens"
++msgstr "oavslutad \\-escape-sekvens"
+ 
+ #: lib/dfa.c:1344
+ msgid "? at start of expression"
+@@ -450,7 +450,7 @@
+ 
+ #: lib/dfa.c:1425
+ msgid "{...} at start of expression"
+-msgstr "{...} vid början av uttrycket"
++msgstr "{...} i början av uttrycket"
+ 
+ #: lib/dfa.c:1428
+ msgid "invalid content of \\{\\}"
+@@ -511,15 +511,15 @@
+ 
+ #: lib/gai_strerror.c:62
+ msgid "Memory allocation failure"
+-msgstr "Minnesallokeringsfel"
++msgstr "misslyckad minnesallokering"
+ 
+ #: lib/gai_strerror.c:63
+ msgid "No address associated with hostname"
+-msgstr "Ingen adress associerad med värdnamnet"
++msgstr "Ingen adress är associerad med värdnamnet"
+ 
+ #: lib/gai_strerror.c:64
+ msgid "Name or service not known"
+-msgstr "Namn eller tjänst inte känd"
++msgstr "Namn eller tjänst är okänd"
+ 
+ #: lib/gai_strerror.c:65
+ msgid "Servname not supported for ai_socktype"
+@@ -535,11 +535,11 @@
+ 
+ #: lib/gai_strerror.c:68
+ msgid "Argument buffer too small"
+-msgstr "Argumentbufferten för liten"
++msgstr "Argumentbufferten är för liten"
+ 
+ #: lib/gai_strerror.c:70
+ msgid "Processing request in progress"
+-msgstr "Bearbetar pågående begäran"
++msgstr "Begäran bearbetas"
+ 
+ #: lib/gai_strerror.c:71
+ msgid "Request canceled"
+@@ -547,11 +547,11 @@
+ 
+ #: lib/gai_strerror.c:72
+ msgid "Request not canceled"
+-msgstr "Begäran inte annullerad"
++msgstr "Begäran avbröts inte"
+ 
+ #: lib/gai_strerror.c:73
+ msgid "All requests done"
+-msgstr "Alla begäran utförda"
++msgstr "Alla begäranden har utförts"
+ 
+ #: lib/gai_strerror.c:74
+ msgid "Interrupted by a signal"
+@@ -559,7 +559,7 @@
+ 
+ #: lib/gai_strerror.c:75
+ msgid "Parameter string not correctly encoded"
+-msgstr "Parametersträng inte korrekt kodad"
++msgstr "Parametersträngen är inte korrekt kodad"
+ 
+ #: lib/gai_strerror.c:87
+ msgid "Unknown error"
+@@ -603,7 +603,8 @@
+ #: lib/javacomp.c:103
+ #, c-format
+ msgid "The java program is too old. Cannot compile Java code for this old version any more."
+-msgstr "Javaprogrammet är för gammalt. Kan inte kompilera Javakod för denna gamla version längre."
++msgstr "Java-programmet är för gammalt. Kan inte längre kompilera Java-kod för denna "
++"gamla version."
+ 
+ #: lib/javacomp.c:147
+ #, c-format
+@@ -618,7 +619,7 @@
+ #: lib/javacomp.c:1131
+ #, c-format
+ msgid "Java compiler not found, try setting $JAVAC"
+-msgstr "Javakompilatorn hittades inte, försök at sätta $JAVAC"
++msgstr "Java-kompilatorn hittades inte, försök att sätta $JAVAC"
+ 
+ #: lib/javaexec.c:309
+ #, c-format
+@@ -628,7 +629,7 @@
+ #: lib/mkdir-p.c:162
+ #, c-format
+ msgid "cannot stat %s"
+-msgstr "kan inte ta status på %s"
++msgstr "kan inte hämta status för %s"
+ 
+ #: lib/mkdir-p.c:190
+ #, c-format
+@@ -643,7 +644,7 @@
+ #: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34 lib/xsetenv.c:37
+ #, c-format
+ msgid "memory exhausted"
+-msgstr "minnet slut"
++msgstr "minnet är slut"
+ 
+ #: lib/openat-die.c:38
+ #, c-format
+@@ -663,12 +664,12 @@
+ #: lib/os2-spawn.c:88
+ #, c-format
+ msgid "cannot restore fd %d: dup2 failed"
+-msgstr "kan inte återställa fb %d: dup2 misslyckades"
++msgstr "kan inte återställa filbeskrivare %d: dup2 misslyckades"
+ 
+ #: lib/pagealign_alloc.c:137
+ #, c-format
+ msgid "Failed to open /dev/zero for read"
+-msgstr "Misslyckades att öppna /dev/zero för läsning"
++msgstr "kunde inte öppna /dev/zero för läsning"
+ 
+ #: lib/parse-datetime.y:434 lib/parse-datetime.y:534
+ #, c-format
+@@ -692,7 +693,7 @@
+ 
+ #: lib/parse-datetime.y:541
+ msgid "today/this/now\n"
+-msgstr "idag/dennes/nu\n"
++msgstr "idag/den här/nu\n"
+ 
+ #: lib/parse-datetime.y:606
+ msgid "number of seconds"
+@@ -700,7 +701,7 @@
+ 
+ #: lib/parse-datetime.y:619
+ msgid "datetime"
+-msgstr "datumtid"
++msgstr "datum och tid"
+ 
+ #: lib/parse-datetime.y:624
+ msgid "time"
+@@ -737,7 +738,7 @@
+ #: lib/parse-datetime.y:819
+ #, c-format
+ msgid "warning: value %<PRIdMAX> has %<PRIdMAX> digits. Assuming YYYY/MM/DD\n"
+-msgstr "varning: värdet %<PRIdMAX> har %<PRIdMAX> siffor.  Antar ÅÅÅÅ/MM/DD\n"
++msgstr "varning: värdet %<PRIdMAX> har %<PRIdMAX> siffror.  Antar ÅÅÅÅ/MM/DD\n"
+ 
+ #: lib/parse-datetime.y:831
+ #, c-format
+@@ -787,7 +788,7 @@
+ 
+ #: lib/parse-datetime.y:1724
+ msgid "       numeric values overflow;\n"
+-msgstr "       spill i numeriska värden;\n"
++msgstr "       överflöde i numeriska värden;\n"
+ 
+ #: lib/parse-datetime.y:1725
+ msgid "incorrect timezone"
+@@ -842,16 +843,16 @@
+ #: lib/parse-datetime.y:1932
+ #, c-format
+ msgid "system default"
+-msgstr "felaktigt systemanrop"
++msgstr "systemstandard"
+ 
+ #: lib/parse-datetime.y:1974
+ msgid "error: year, month, or day overflow\n"
+-msgstr "fel: år, månad eller dag spiller över\n"
++msgstr "fel: år, månad eller dag ger överflöde\n"
+ 
+ #: lib/parse-datetime.y:1985
+ #, c-format
+ msgid "error: invalid hour %<PRIdMAX>%s\n"
+-msgstr "fel: felaktig timma %<PRIdMAX>%s\n"
++msgstr "fel: felaktig timme %<PRIdMAX>%s\n"
+ 
+ #: lib/parse-datetime.y:1993
+ #, c-format
+@@ -866,7 +867,7 @@
+ #: lib/parse-datetime.y:2048
+ #, c-format
+ msgid "error: tzalloc (\"%s\") failed\n"
+-msgstr "fel: tzalloc (\"%s\") misslyckades\n"
++msgstr "fel: tzalloc (”%s”) misslyckades\n"
+ 
+ #: lib/parse-datetime.y:2092
+ #, c-format
+@@ -942,7 +943,7 @@
+ #: lib/parse-datetime.y:2245
+ #, c-format
+ msgid "error: timezone %d caused time_t overflow\n"
+-msgstr "fel: tidszon %d orsakade spill i time_t\n"
++msgstr "fel: tidszon %d orsakade överflöde i time_t\n"
+ 
+ #: lib/parse-datetime.y:2255
+ #, c-format
+@@ -951,7 +952,7 @@
+ 
+ #: lib/parse-datetime.y:2283
+ msgid "error: adding relative time caused an overflow\n"
+-msgstr "fel: att lägga till relativ tid orsakade spill\n"
++msgstr "fel: att lägga till relativ tid orsakade överflöde\n"
+ 
+ #: lib/parse-datetime.y:2294
+ #, c-format
+@@ -998,47 +999,47 @@
+ #: lib/parse-datetime.y:2359
+ #, c-format
+ msgid "final: %s (unknown time zone offset)\n"
+-msgstr "slutligt: %s (okänd tidszonsavstånd)\n"
++msgstr "slutligt: %s (okänd tidszonsförskjutning)\n"
+ 
+ #: lib/pipe-filter-gi.c:152
+ #, c-format
+ msgid "creation of reading thread failed"
+-msgstr "att skapa lästråd misslyckades"
++msgstr "det gick inte att skapa lästråden"
+ 
+ #: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:419
+ #, c-format
+ msgid "cannot set up nonblocking I/O to %s subprocess"
+-msgstr "det gick inte att sätta upp icke blockerande I/O till %s-underprocess"
++msgstr "det gick inte att ställa in icke-blockerande I/O till %s-underprocessen"
+ 
+ #: lib/pipe-filter-gi.c:335 lib/pipe-filter-ii.c:457
+ #, c-format
+ msgid "communication with %s subprocess failed"
+-msgstr "kommunikation med %s-underprocess misslyckades"
++msgstr "kommunikationen med %s-underprocessen misslyckades"
+ 
+ #: lib/pipe-filter-gi.c:365 lib/pipe-filter-ii.c:345 lib/pipe-filter-ii.c:502
+ #, c-format
+ msgid "write to %s subprocess failed"
+-msgstr "skrivning till %s-underprocess misslyckades"
++msgstr "skrivning till %s-underprocessen misslyckades"
+ 
+ #: lib/pipe-filter-gi.c:405 lib/pipe-filter-ii.c:366 lib/pipe-filter-ii.c:545
+ #, c-format
+ msgid "read from %s subprocess failed"
+-msgstr "läsning från %s-underprocess misslyckades"
++msgstr "läsning från %s-underprocessen misslyckades"
+ 
+ #: lib/pipe-filter-gi.c:458
+ #, c-format
+ msgid "subprocess %s terminated with exit code %d"
+-msgstr "underprocess %s avslutad med slutstatus %d"
++msgstr "underprocessen %s avslutades med slutstatus %d"
+ 
+ #: lib/pipe-filter-ii.c:313
+ #, c-format
+ msgid "creation of threads failed"
+-msgstr "att skapa trådar misslyckades"
++msgstr "det gick inte att skapa trådar"
+ 
+ #: lib/pipe-filter-ii.c:577
+ #, c-format
+ msgid "%s subprocess terminated with exit code %d"
+-msgstr "%s-underprocess avslutad med slutstatus %d"
++msgstr "%s-underprocessen avslutades med slutstatus %d"
+ 
+ #. TRANSLATORS:
+ #. Get translations for open and closing quotation marks.
+@@ -1119,7 +1120,7 @@
+ 
+ #: lib/regcomp.c:158
+ msgid "Memory exhausted"
+-msgstr "Minnet slut"
++msgstr "Minnet är slut"
+ 
+ #: lib/regcomp.c:161
+ msgid "Invalid preceding regular expression"
+@@ -1168,7 +1169,7 @@
+ 
+ #: lib/siglist.h:31
+ msgid "Hangup"
+-msgstr "Avringd"
++msgstr "Avbruten anslutning"
+ 
+ #: lib/siglist.h:34
+ msgid "Interrupt"
+@@ -1176,7 +1177,7 @@
+ 
+ #: lib/siglist.h:37
+ msgid "Quit"
+-msgstr "Lämnad"
++msgstr "Avslut"
+ 
+ #: lib/siglist.h:40
+ msgid "Illegal instruction"
+@@ -1236,7 +1237,7 @@
+ 
+ #: lib/siglist.h:82
+ msgid "Child exited"
+-msgstr "Barn avslutade"
++msgstr "Underprocess avslutades"
+ 
+ #: lib/siglist.h:85
+ msgid "Stopped (tty input)"
+@@ -1248,27 +1249,27 @@
+ 
+ #: lib/siglist.h:91
+ msgid "I/O possible"
+-msgstr "I/O möjligt"
++msgstr "I/O möjlig"
+ 
+ #: lib/siglist.h:94
+ msgid "CPU time limit exceeded"
+-msgstr "Begränsning av CPU-tid överskriden"
++msgstr "CPU-tidsgränsen överskreds"
+ 
+ #: lib/siglist.h:97
+ msgid "File size limit exceeded"
+-msgstr "Begränsning av filstorlek överskriden"
++msgstr "Filstorleksgränsen överskreds"
+ 
+ #: lib/siglist.h:100
+ msgid "Virtual timer expired"
+-msgstr "Alarmklocka - virtuell tid gick ut"
++msgstr "Virtuell timer har löpt ut"
+ 
+ #: lib/siglist.h:103
+ msgid "Profiling timer expired"
+-msgstr "Profileringsklocka gick ut"
++msgstr "Profileringsklockan har löpt ut"
+ 
+ #: lib/siglist.h:106
+ msgid "Window changed"
+-msgstr "Ändrat fönster"
++msgstr "Fönstret ändrades"
+ 
+ #: lib/siglist.h:109
+ msgid "User defined signal 1"
+@@ -1280,7 +1281,7 @@
+ 
+ #: lib/siglist.h:117
+ msgid "EMT trap"
+-msgstr "Emulatorfälla"
++msgstr "EMT-fälla"
+ 
+ #: lib/siglist.h:120
+ msgid "Bad system call"
+@@ -1327,27 +1328,27 @@
+ 
+ #: lib/timevar.c:318
+ msgid "CPU user"
+-msgstr "CPU användare"
++msgstr "CPU, användare"
+ 
+ #: lib/timevar.c:318
+ msgid "CPU system"
+-msgstr "CPU system"
++msgstr "CPU, system"
+ 
+ #: lib/timevar.c:318
+ msgid "wall clock"
+-msgstr "väggklocka"
++msgstr "verklig tid"
+ 
+ #: lib/unicodeio.c:102
+ msgid "iconv function not usable"
+-msgstr "iconv-funktion inte användbar"
++msgstr "iconv-funktionen kan inte användas"
+ 
+ #: lib/unicodeio.c:104
+ msgid "iconv function not available"
+-msgstr "iconv-funktion inte tillgänglig"
++msgstr "iconv-funktionen är inte tillgänglig"
+ 
+ #: lib/unicodeio.c:111
+ msgid "character out of range"
+-msgstr "tecken utanför intervall"
++msgstr "tecknet är utanför intervallet"
+ 
+ #: lib/unicodeio.c:191
+ #, c-format
+@@ -1401,7 +1402,7 @@
+ "There is NO WARRANTY, to the extent permitted by law.\n"
+ msgstr ""
+ "Licens GPLv3+: GNU GPL version 3 eller senare <%s>.\n"
+-"Detta är fri programvara: du får lov att ändra och vidaredistribuera den.\n"
++"Detta är fri programvara: du får ändra och vidaredistribuera den.\n"
+ "Det finns INGEN GARANTI, så långt lagen tillåter.\n"
+ 
+ #. TRANSLATORS: %s denotes an author name.
+@@ -1521,7 +1522,7 @@
+ msgid "Report bugs to: %s\n"
+ msgstr ""
+ "Rapportera fel till: %s\n"
+-"Skicka synpunkter på översättningen till: tp-sv-list@lists.sourceforg.net\n"
++"Skicka synpunkter på översättningen till: <tp-sv-list@lists.sourceforge.net>\n"
+ 
+ #: lib/version-etc.c:251
+ #, c-format
+@@ -1551,19 +1552,19 @@
+ #: lib/xbinary-io.c:36
+ #, c-format
+ msgid "failed to set file descriptor text/binary mode"
+-msgstr "misslyckades att sätta filbeskrivaren i text-/binärt läge"
++msgstr "misslyckades att sätta filbeskrivarens text-/binärläge"
+ 
+ #: lib/xfreopen.c:34
+ msgid "stdin"
+-msgstr "standard in"
++msgstr "standardindata"
+ 
+ #: lib/xfreopen.c:35
+ msgid "stdout"
+-msgstr "standard ut"
++msgstr "standardutdata"
+ 
+ #: lib/xfreopen.c:36
+ msgid "stderr"
+-msgstr "standard fel"
++msgstr "standardfel"
+ 
+ #: lib/xfreopen.c:37
+ msgid "unknown stream"
+@@ -1597,7 +1598,7 @@
+ #: lib/xstdopen.c:34
+ #, c-format
+ msgid "standard file descriptors"
+-msgstr "standard filbeskrivare"
++msgstr "standardfilbeskrivare"
+ 
+ #: lib/xstrerror.c:51
+ #, c-format

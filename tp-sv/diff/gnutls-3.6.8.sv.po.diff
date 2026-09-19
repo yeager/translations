@@ -1,0 +1,663 @@
+--- a/gnutls-3.6.8.sv.po
++++ b/gnutls-3.6.8.sv.po
+@@ -116,11 +116,11 @@
+ 
+ #: lib/alert.c:71
+ msgid "Inappropriate fallback"
+-msgstr "Olämplig reserv"
++msgstr "Olämplig återgång"
+ 
+ #: lib/alert.c:73
+ msgid "No renegotiation is allowed"
+-msgstr "Ingen återförhandling tillåts"
++msgstr "Ingen återförhandling är tillåten"
+ 
+ #: lib/alert.c:75
+ msgid "Could not retrieve the specified certificate"
+@@ -128,7 +128,7 @@
+ 
+ #: lib/alert.c:77
+ msgid "An unsupported extension was sent"
+-msgstr "En utökning skickades som inte stöds"
++msgstr "En tilläggsfunktion som inte stöds skickades"
+ 
+ #: lib/alert.c:79
+ msgid "The server name sent was not recognized"
+@@ -144,7 +144,7 @@
+ 
+ #: lib/alert.c:86
+ msgid "No supported application protocol could be negotiated"
+-msgstr "Inget programprotokoll som stöds kunde förhandlas"
++msgstr "Inget applikationsprotokoll som stöds kunde förhandlas fram"
+ 
+ #: lib/alert.c:88
+ msgid "Certificate is required"
+@@ -172,11 +172,11 @@
+ 
+ #: lib/errors.c:54
+ msgid "An unknown public key algorithm was encountered."
+-msgstr "En okänd öppen nyckel-algoritm påträffades."
++msgstr "En okänd algoritm för öppen nyckel påträffades."
+ 
+ #: lib/errors.c:57
+ msgid "An algorithm that is not enabled was negotiated."
+-msgstr "En algoritm som inte är aktiverad blev förhandlad."
++msgstr "En algoritm som inte är aktiverad förhandlades fram."
+ 
+ #: lib/errors.c:60
+ msgid "A packet with illegal or unsupported version was received."
+@@ -193,7 +193,7 @@
+ 
+ #: lib/errors.c:69
+ msgid "A TLS record packet with invalid length was received."
+-msgstr "Ett TLS-journalpaket med ogiltig längd togs emot."
++msgstr "Ett TLS-postpaket med ogiltig längd togs emot."
+ 
+ #: lib/errors.c:71
+ msgid "The TLS connection was non-properly terminated."
+@@ -209,7 +209,7 @@
+ 
+ #: lib/errors.c:79
+ msgid "A connection with inappropriate fallback was attempted."
+-msgstr "Försökte ansluta med en olämplig reserv."
++msgstr "Ett anslutningsförsök med olämplig återgång gjordes."
+ 
+ #: lib/errors.c:81
+ msgid "An illegal TLS extension was received."
+@@ -217,7 +217,7 @@
+ 
+ #: lib/errors.c:83
+ msgid "An required TLS extension was received."
+-msgstr "En nödvändig TLS-utökning togs emot."
++msgstr "En obligatorisk TLS-utökning togs emot."
+ 
+ #: lib/errors.c:85
+ msgid "A TLS fatal alert has been received."
+@@ -293,15 +293,15 @@
+ 
+ #: lib/errors.c:125
+ msgid "Public key signature verification has failed."
+-msgstr "Validering av öppna nyckelns signatur misslyckades."
++msgstr "Verifiering av den öppna nyckelns signatur misslyckades."
+ 
+ #: lib/errors.c:128
+ msgid "Decompression of the TLS record packet has failed."
+-msgstr "Dekomprimering av TLS-journalpaketet har misslyckats."
++msgstr "Dekomprimering av TLS-postpaketet misslyckades."
+ 
+ #: lib/errors.c:130
+ msgid "Compression of the TLS record packet has failed."
+-msgstr "Komprimering av TLS-journalpaketet har misslyckats."
++msgstr "Komprimering av TLS-postpaketet misslyckades."
+ 
+ #: lib/errors.c:133
+ msgid "Internal error in memory allocation."
+@@ -309,11 +309,11 @@
+ 
+ #: lib/errors.c:136
+ msgid "An unimplemented or disabled feature has been requested."
+-msgstr "En icke implementerad eller inaktiverad funktion begärdes."
++msgstr "En oimplementerad eller inaktiverad funktion begärdes."
+ 
+ #: lib/errors.c:138
+ msgid "Insufficient credentials for that request."
+-msgstr "Otillräckliga rättigheter för begäran."
++msgstr "Otillräckliga autentiseringsuppgifter för begäran."
+ 
+ #: lib/errors.c:140
+ msgid "Error in password/key file."
+@@ -321,7 +321,7 @@
+ 
+ #: lib/errors.c:141
+ msgid "Wrong padding in PKCS1 packet."
+-msgstr "Fel utfyllnad i PKCS1-paket."
++msgstr "Felaktig utfyllnad i PKCS1-paket."
+ 
+ #: lib/errors.c:143
+ msgid "The session or certificate has expired."
+@@ -369,7 +369,7 @@
+ 
+ #: lib/errors.c:163
+ msgid "The upper limit of record packet sequence numbers has been reached. Wow!"
+-msgstr "Den övre gränsen för sekvensnummer för journalpaket har nåtts. Wow!"
++msgstr "Den övre gränsen för sekvensnummer för postpaket har nåtts. Oj då!"
+ 
+ #: lib/errors.c:165
+ msgid "Error in the certificate."
+@@ -381,7 +381,7 @@
+ 
+ #: lib/errors.c:169
+ msgid "Error in the certificate verification."
+-msgstr "Fel i certifikatverifikationen."
++msgstr "Fel vid certifikatverifieringen."
+ 
+ #: lib/errors.c:171
+ msgid "Error in the CRL verification."
+@@ -389,7 +389,7 @@
+ 
+ #: lib/errors.c:173
+ msgid "Error in the private key verification; seed doesn't match."
+-msgstr "Fel i privata nyckelverifikationen: frö matchar inte."
++msgstr "Fel vid verifiering av den privata nyckeln: fröet stämmer inte."
+ 
+ #: lib/errors.c:175
+ msgid "Could not authenticate peer."
+@@ -405,11 +405,11 @@
+ 
+ #: lib/errors.c:185
+ msgid "Unsupported critical extension in X.509 certificate."
+-msgstr "Kritisk utökning som ej stöds i X.509-certifikat."
++msgstr "Kritisk tilläggsfunktion som inte stöds i X.509-certifikat."
+ 
+ #: lib/errors.c:187
+ msgid "Unsupported extension in X.509 certificate."
+-msgstr "Utökning som ej stöds i X.509-certifikat."
++msgstr "Tilläggsfunktion som inte stöds i X.509-certifikat."
+ 
+ #: lib/errors.c:190
+ msgid "Key usage violation in certificate has been detected."
+@@ -425,7 +425,7 @@
+ 
+ #: lib/errors.c:196
+ msgid "Error in Database backend."
+-msgstr "Fel i databasbakänden."
++msgstr "Fel i databasmotorn."
+ 
+ #: lib/errors.c:197
+ msgid "The Database entry already exists."
+@@ -437,7 +437,7 @@
+ 
+ #: lib/errors.c:201
+ msgid "The given memory buffer is too short to hold parameters."
+-msgstr "Den angivna minnesbufferten är för liten för att lagra parametrar."
++msgstr "Den angivna minnesbufferten är för liten för att rymma parametrarna."
+ 
+ #: lib/errors.c:203 libdane/errors.c:61
+ msgid "The request is invalid."
+@@ -457,7 +457,7 @@
+ 
+ #: lib/errors.c:210
+ msgid "Error while reading file."
+-msgstr "Fel vid läsning av fil."
++msgstr "Fel vid läsning av filen."
+ 
+ #: lib/errors.c:211
+ msgid "A disallowed SNI server name has been received."
+@@ -473,7 +473,7 @@
+ 
+ #: lib/errors.c:218
+ msgid "ASN1 parser: Error in DER parsing."
+-msgstr "ASN1-tolkare: Fel i DER-tolkning."
++msgstr "ASN1-tolkare: Fel vid DER-tolkning."
+ 
+ #: lib/errors.c:220
+ msgid "ASN1 parser: Value was not found."
+@@ -489,15 +489,15 @@
+ 
+ #: lib/errors.c:226
+ msgid "ASN1 parser: Error in TAG."
+-msgstr "ASN1-tolkare: Fel i TAG."
++msgstr "ASN1-tolkare: Fel i TAGG."
+ 
+ #: lib/errors.c:228
+ msgid "ASN1 parser: error in implicit tag"
+-msgstr "ASN1-tolkare: fel i implicit tag"
++msgstr "ASN1-tolkare: fel i implicit tagg"
+ 
+ #: lib/errors.c:230
+ msgid "ASN1 parser: Error in type 'ANY'."
+-msgstr "ASN1-tolkare: Fel i typen \"ANY\"."
++msgstr "ASN1-tolkare: Fel i typen ”ANY”."
+ 
+ #: lib/errors.c:232
+ msgid "ASN1 parser: Syntax error."
+@@ -505,11 +505,11 @@
+ 
+ #: lib/errors.c:234
+ msgid "ASN1 parser: Overflow in DER parsing."
+-msgstr "ASN1-tolkare: Överspill i DER-tolkning."
++msgstr "ASN1-tolkare: Överflöde i DER-tolkning."
+ 
+ #: lib/errors.c:238
+ msgid "Too many empty record packets have been received."
+-msgstr "För många tomma journalpaket har tagits emot."
++msgstr "För många tomma postpaket har tagits emot."
+ 
+ #: lib/errors.c:240
+ msgid "Too many handshake packets have been received."
+@@ -521,7 +521,7 @@
+ 
+ #: lib/errors.c:244
+ msgid "The crypto library version is too old."
+-msgstr "Versionen av crypto-biblioteket är för gammal."
++msgstr "Kryptobibliotekets version är för gammal."
+ 
+ #: lib/errors.c:247
+ msgid "The tasn1 library version is too old."
+@@ -541,7 +541,7 @@
+ 
+ #: lib/errors.c:255
+ msgid "The initialization of crypto backend has failed."
+-msgstr "Initieringen av krypteringsbakände misslyckades."
++msgstr "Initieringen av kryptomotorn misslyckades."
+ 
+ #: lib/errors.c:258
+ msgid "No supported compression algorithms have been found."
+@@ -602,7 +602,7 @@
+ # Hjälp!
+ #: lib/errors.c:288
+ msgid "The PKCS structure's bag type is unknown."
+-msgstr "PKCS-strukturens väsktyp är okänd."
++msgstr "PKCS-strukturens behållartyp är okänd."
+ 
+ #: lib/errors.c:290 lib/errors.c:296
+ msgid "The given password contains invalid characters."
+@@ -622,11 +622,11 @@
+ 
+ #: lib/errors.c:301
+ msgid "Some constraint limits were reached."
+-msgstr "Vissa begränsningar nåddes."
++msgstr "Vissa begränsningar uppnåddes."
+ 
+ #: lib/errors.c:303
+ msgid "Failed to acquire random data."
+-msgstr "Misslyckades med att få tag på slumpmässigt data."
++msgstr "Misslyckades med att hämta slumpdata."
+ 
+ #: lib/errors.c:305
+ msgid "Verifying TLS/IA phase checksum failed"
+@@ -638,7 +638,7 @@
+ 
+ #: lib/errors.c:311
+ msgid "The handshake data size is too large."
+-msgstr "Datastorlek för handskakning är för stor."
++msgstr "Handskakningsdatans storlek är för stor."
+ 
+ #: lib/errors.c:314
+ msgid "Error opening /dev/crypto"
+@@ -654,7 +654,7 @@
+ 
+ #: lib/errors.c:321
+ msgid "Channel binding data not available"
+-msgstr "Kanalbindningsdata är inte tillgängligt"
++msgstr "Kanalbindningsdata är inte tillgängliga"
+ 
+ #: lib/errors.c:324
+ msgid "TPM error."
+@@ -671,7 +671,7 @@
+ 
+ #: lib/errors.c:330
+ msgid "TPM key was not found in persistent storage."
+-msgstr "TPM-nyckeln hittades inte i bestående lagring."
++msgstr "TPM-nyckeln hittades inte i permanent lagring."
+ 
+ #: lib/errors.c:332
+ msgid "Cannot initialize a session with the TPM."
+@@ -687,11 +687,11 @@
+ 
+ #: lib/errors.c:338
+ msgid "Error in parsing."
+-msgstr "Fel i tolkning."
++msgstr "Fel vid tolkning."
+ 
+ #: lib/errors.c:340
+ msgid "Error in provided PIN."
+-msgstr "Fel i tillhandahållen PIN."
++msgstr "Fel i angiven PIN-kod."
+ 
+ #: lib/errors.c:342
+ msgid "Error in provided SRK password for TPM."
+@@ -699,7 +699,7 @@
+ 
+ #: lib/errors.c:345
+ msgid "Error in provided password for key to be loaded in TPM."
+-msgstr "Fel i tillhandahållet lösenord för nyckel som ska läsas in i TPM."
++msgstr "Fel i angivet lösenord för nyckeln som ska läsas in i TPM."
+ 
+ #: lib/errors.c:347
+ msgid "PKCS #11 error in slot"
+@@ -731,11 +731,11 @@
+ 
+ #: lib/errors.c:361
+ msgid "PKCS #11 PIN expired"
+-msgstr "PKCS #11 PIN-kod utgången"
++msgstr "PKCS #11 PIN-koden har gått ut"
+ 
+ #: lib/errors.c:363
+ msgid "PKCS #11 PIN locked"
+-msgstr "PKCS #11 PIN-kod låst"
++msgstr "PKCS #11 PIN-koden är låst"
+ 
+ #: lib/errors.c:365
+ msgid "PKCS #11 error in session"
+@@ -775,7 +775,8 @@
+ 
+ #: lib/errors.c:384
+ msgid "The provided X.509 certificate list is not sorted (in subject to issuer order)"
+-msgstr "Den tillhandahållna X.509-certifikatlistan är inte sorterad (sorterad enligt utfärdare)"
++msgstr "Den tillhandahållna X.509-certifikatlistan är inte sorterad i ordning från "
++"innehavare till utfärdare"
+ 
+ #: lib/errors.c:386
+ msgid "The OCSP response is invalid"
+@@ -791,7 +792,7 @@
+ 
+ #: lib/errors.c:392
+ msgid "Error in the system's randomness device."
+-msgstr "Fel i systemets slumpmässighetsenhet."
++msgstr "Fel i systemets slumpenhet."
+ 
+ #: lib/errors.c:395
+ msgid "No common application protocol could be negotiated."
+@@ -807,19 +808,19 @@
+ 
+ #: lib/errors.c:401
+ msgid "An error has been detected in the library and cannot continue operations."
+-msgstr "Ett fel har upptäckts i biblioteket och åtgärder kan inte fortsätta."
++msgstr "Ett fel har upptäckts i biblioteket och det går inte att fortsätta åtgärderna."
+ 
+ #: lib/errors.c:403
+ msgid "Error in sockets initialization."
+-msgstr "Fel i uttagets initiering."
++msgstr "Fel vid initiering av uttag."
+ 
+ #: lib/errors.c:405
+ msgid "Error in public key generation."
+-msgstr "Fel vid publik nyckelgenerering."
++msgstr "Fel vid generering av öppen nyckel."
+ 
+ #: lib/errors.c:407
+ msgid "Invalid TLS extensions length field."
+-msgstr "TLS-utökningens längdfält är ogiltiga."
++msgstr "TLS-utökningens längdfält är ogiltigt."
+ 
+ #: lib/errors.c:409
+ msgid "Peer's certificate or username has changed during a rehandshake."
+@@ -827,7 +828,7 @@
+ 
+ #: lib/errors.c:411
+ msgid "The provided string has an embedded null."
+-msgstr "Den givna strängen har en inbäddad null."
++msgstr "Den givna strängen innehåller ett inbäddat nolltecken."
+ 
+ #: lib/errors.c:413
+ msgid "Attempted handshake during false start."
+@@ -839,27 +840,27 @@
+ 
+ #: lib/errors.c:417
+ msgid "There was an issue converting to or from UTF8."
+-msgstr "Det uppstod ett problem vid konvertering till eller från UTF8."
++msgstr "Det uppstod ett problem vid konvertering till eller från UTF-8."
+ 
+ #: lib/errors.c:419
+ msgid "Cannot perform this action while handshake is in progress."
+-msgstr "Kan inte utföra denna åtgärd medan handskakning pågår."
++msgstr "Kan inte utföra denna åtgärd medan handskakningen pågår."
+ 
+ #: lib/errors.c:421
+ msgid "The public key is invalid."
+-msgstr "Publika nyckeln är ogiltig."
++msgstr "Den offentliga nyckeln är ogiltig."
+ 
+ #: lib/errors.c:423
+ msgid "There are no validation parameters present."
+-msgstr "Det finns inga valideringsparametrar närvarande."
++msgstr "Det finns inga valideringsparametrar."
+ 
+ #: lib/errors.c:425
+ msgid "The public key parameters are invalid."
+-msgstr "Publika nyckelns parametrar är ogiltiga."
++msgstr "Parametrarna för den offentliga nyckeln är ogiltiga."
+ 
+ #: lib/errors.c:427
+ msgid "The private key is invalid."
+-msgstr "Privata nyckeln är ogiltig."
++msgstr "Den privata nyckeln är ogiltig."
+ 
+ #: lib/errors.c:429
+ msgid "The DER time encoding is invalid."
+@@ -871,7 +872,7 @@
+ 
+ #: lib/errors.c:433
+ msgid "One of the involved algorithms has insufficient security level."
+-msgstr "En av dom inblandade algoritmerna har otillräcklig säkerhetsnivå."
++msgstr "En av de inblandade algoritmerna har otillräcklig säkerhetsnivå."
+ 
+ #: lib/errors.c:435
+ msgid "No common key share with peer."
+@@ -879,7 +880,7 @@
+ 
+ #: lib/errors.c:437
+ msgid "The early data were rejected."
+-msgstr "Den tidiga datan avvisades."
++msgstr "De tidiga data avvisades."
+ 
+ #: lib/errors.c:443 libdane/errors.c:42
+ msgid "Success."
+@@ -911,7 +912,7 @@
+ 
+ #: lib/errors.c:457
+ msgid "Re-authentication was requested by the peer."
+-msgstr "Ny autentisering begärd av motparten."
++msgstr "Ny autentisering begärdes av motparten."
+ 
+ #: lib/errors.c:549 libdane/errors.c:100
+ msgid "(unknown error code)"
+@@ -923,7 +924,7 @@
+ 
+ #: lib/x509/ocsp.c:2610
+ msgid "The OCSP response's signer could not be found. "
+-msgstr "OCSP-svarens undertecknare kunde inte hittas. "
++msgstr "OCSP-svarets undertecknare kunde inte hittas. "
+ 
+ #: lib/x509/ocsp.c:2615
+ msgid "Error in the signer's key usageflags. "
+@@ -931,7 +932,7 @@
+ 
+ #: lib/x509/ocsp.c:2620
+ msgid "The OCSP response's signer is not trusted. "
+-msgstr "OCSP-svarens undertecknare är inte betrodd. "
++msgstr "OCSP-svarets undertecknare är inte betrodd. "
+ 
+ #: lib/x509/ocsp.c:2625
+ msgid "The OCSP response depends on insecure algorithms. "
+@@ -943,11 +944,11 @@
+ 
+ #: lib/x509/ocsp.c:2635
+ msgid "The OCSP response's signer's certificate is not activated. "
+-msgstr "Undertecknarens OCSP-svarscertifikat är inte aktiverat. "
++msgstr "Certifikatet för OCSP-svarets undertecknare är inte aktiverat. "
+ 
+ #: lib/x509/ocsp.c:2640
+ msgid "The OCSP response's signer's certificate is expired. "
+-msgstr "Undertecknarens OCSP-svarscertifikat har gått ut. "
++msgstr "Certifikatet för OCSP-svarets undertecknare har gått ut. "
+ 
+ #: lib/x509/ocsp.c:2644
+ msgid "Memory error"
+@@ -985,7 +986,7 @@
+ #: lib/x509/ocsp_output.c:320
+ #, c-format
+ msgid "\tProduced At: %s\n"
+-msgstr "\tProducerat: %s\n"
++msgstr "\tFramställt: %s\n"
+ 
+ #: lib/x509/ocsp_output.c:414
+ #, c-format
+@@ -1044,7 +1045,7 @@
+ 
+ #: lib/x509/output.c:114
+ msgid "warning: SAN contains an embedded NUL, replacing with '!'\n"
+-msgstr "varning: SAN innehåller en inbäddad NUL, ersätter med \"!\"\n"
++msgstr "varning: SAN innehåller en inbäddad NUL, ersätter med ”!”\n"
+ 
+ #: lib/x509/output.c:130
+ #, c-format
+@@ -1064,7 +1065,7 @@
+ #: lib/x509/output.c:152
+ #, c-format
+ msgid "%sKRB5Principal: %.*s\n"
+-msgstr "%sKRB5-huvudsak: %.*s\n"
++msgstr "%sKRB5-huvudman: %.*s\n"
+ 
+ #: lib/x509/output.c:156
+ #, c-format
+@@ -1100,12 +1101,12 @@
+ #: lib/x509/output.c:343
+ #, c-format
+ msgid "%s\t\t\tPermitted:\n"
+-msgstr "%s\t\t\tTillåten:\n"
++msgstr "%s\t\t\tTillåtet:\n"
+ 
+ #: lib/x509/output.c:355
+ #, c-format
+ msgid "%s\t\t\tExcluded:\n"
+-msgstr "%s\t\t\tExkluderad:\n"
++msgstr "%s\t\t\tUteslutet:\n"
+ 
+ #: lib/x509/output.c:395 lib/x509/output.c:397 lib/x509/output.c:399
+ #, c-format
+@@ -1121,7 +1122,7 @@
+ #: lib/x509/output.c:505
+ #, c-format
+ msgid "%sNon repudiation.\n"
+-msgstr "%sOförnekbarhet.\n"
++msgstr "%sOavvislighet.\n"
+ 
+ #: lib/x509/output.c:507
+ #, c-format
+@@ -1161,12 +1162,12 @@
+ #: lib/x509/output.c:563
+ #, c-format
+ msgid "\t\t\tNot Before: %s\n"
+-msgstr "\t\t\tInte före: %s\n"
++msgstr "\t\t\tGäller från: %s\n"
+ 
+ #: lib/x509/output.c:572
+ #, c-format
+ msgid "\t\t\tNot After: %s\n"
+-msgstr "\t\t\tInte efter: %s\n"
++msgstr "\t\t\tGäller till: %s\n"
+ 
+ #: lib/x509/output.c:650
+ #, c-format
+@@ -1246,7 +1247,7 @@
+ #: lib/x509/output.c:896
+ #, c-format
+ msgid "%s\t\tBasic Constraints (%s):\n"
+-msgstr "%s\t\tAllmänna begränsningar (%s):\n"
++msgstr "%s\t\tGrundläggande begränsningar (%s):\n"
+ 
+ #: lib/x509/output.c:898 lib/x509/output.c:912 lib/x509/output.c:957
+ #: lib/x509/output.c:991 lib/x509/output.c:1004 lib/x509/output.c:1016
+@@ -1351,7 +1352,7 @@
+ #: lib/x509/output.c:1241
+ #, c-format
+ msgid "\t%sPublic Key Algorithm: %s\n"
+-msgstr "\t%sÖppen nyckel-algoritm: %s\n"
++msgstr "\t%sAlgoritm för öppen nyckel: %s\n"
+ 
+ #: lib/x509/output.c:1243
+ #, c-format
+@@ -1480,7 +1481,7 @@
+ 
+ #: lib/x509/output.c:1667 lib/x509/output.c:2516
+ msgid "\tSubject:\n"
+-msgstr "\tÄmne:\n"
++msgstr "\tInnehavare:\n"
+ 
+ #: lib/x509/output.c:1672 lib/x509/output.c:2521
+ #, c-format
+@@ -1505,7 +1506,7 @@
+ "%sPublic Key ID:\n"
+ "%s\tsha1:"
+ msgstr ""
+-"%sPublikt nyckel-ID:\n"
++"%sID för offentlig nyckel:\n"
+ "%s\tsha1:"
+ 
+ #: lib/x509/output.c:1811
+@@ -1514,12 +1515,12 @@
+ "%sPublic Key PIN:\n"
+ "%s\tpin-sha256:"
+ msgstr ""
+-"%sPublik nyckel-PIN:\n"
++"%sPIN för offentlig nyckel:\n"
+ "%s\tpin-sha256:"
+ 
+ #: lib/x509/output.c:1883
+ msgid "no subject,"
+-msgstr "inget ämne,"
++msgstr "ingen innehavare,"
+ 
+ #: lib/x509/output.c:1899
+ msgid "no issuer,"
+@@ -1528,7 +1529,7 @@
+ #: lib/x509/output.c:1946
+ #, c-format
+ msgid "signed using %s (broken!), "
+-msgstr "signerat med %s (trasig!), "
++msgstr "signerat med %s (bruten!), "
+ 
+ #: lib/x509/output.c:1948
+ #, c-format
+@@ -1623,15 +1624,15 @@
+ 
+ #: lib/x509/output.c:2751
+ msgid "Public Key Usage:\n"
+-msgstr "Öppen nyckel-användning:\n"
++msgstr "Användning av offentlig nyckel:\n"
+ 
+ #: lib/x509/output.c:2791
+ msgid "Public Key Information:\n"
+-msgstr "Öppen nyckel-information:\n"
++msgstr "Information om offentlig nyckel:\n"
+ 
+ #: libdane/dane.c:1050
+ msgid "Certificate matches. "
+-msgstr "Certifikat matchar. "
++msgstr "Certifikaten stämmer överens. "
+ 
+ #: libdane/dane.c:1053
+ msgid "Verification failed. "
+@@ -1639,7 +1640,7 @@
+ 
+ #: libdane/dane.c:1058
+ msgid "CA constrains were violated. "
+-msgstr "Certifkatutfärdarbegränsningar bröts. "
++msgstr "Certifikatutfärdarens begränsningar överträddes. "
+ 
+ #: libdane/dane.c:1062
+ msgid "The certificate differs. "
+@@ -1659,11 +1660,11 @@
+ 
+ #: libdane/errors.c:47
+ msgid "No DANE data were found."
+-msgstr "Ingen DANE-data hittades."
++msgstr "Inga DANE-data hittades. "
+ 
+ #: libdane/errors.c:49
+ msgid "Unknown DANE data were found."
+-msgstr "Okänd DANE-data funnen."
++msgstr "Okända DANE-data hittades. "
+ 
+ #: libdane/errors.c:51
+ msgid "No DNSSEC signature was found."
+@@ -1671,7 +1672,7 @@
+ 
+ #: libdane/errors.c:53
+ msgid "Received corrupt data."
+-msgstr "Korrupt data mottagen."
++msgstr "Skadade data togs emot. "
+ 
+ #: libdane/errors.c:55
+ msgid "The DNSSEC signature is invalid."
+@@ -1691,7 +1692,7 @@
+ 
+ #: libdane/errors.c:65
+ msgid "There was an error in the public key."
+-msgstr "Det uppstod ett fel i den publika nyckeln."
++msgstr "Det uppstod ett fel i den offentliga nyckeln."
+ 
+ #: libdane/errors.c:69
+ msgid "Error in file."

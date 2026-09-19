@@ -1,0 +1,1621 @@
+# Swedish messages for gnulib.
+# Copyright © 1997, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2019, 2020, 2024 Free Software Foundation, Inc.
+# This file is distributed under the same license as the gnulib package.
+# Peter Antman <peter.antman@abc.se>, 1997.
+# Thomas Olsson <cid95tho@lustudat.student.lu.se>, 1997.
+# Daniel Resare <daniel@resare.com>, 1999, 2000.
+# Göran Uddeborg <goeran@uddeborg.se>, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2007, 2009, 2010, 2011, 2019, 2020, 2024.
+#
+# $Revision: 1.21 $
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnulib 20241209\n"
+"Report-Msgid-Bugs-To: bug-gnulib@gnu.org\n"
+"POT-Creation-Date: 2024-12-09 10:23-0800\n"
+"PO-Revision-Date: 2024-12-14 10:02+0100\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: lib/argmatch.c:145
+#, c-format
+msgid "invalid argument %s for %s"
+msgstr "felaktigt argument %s till %s"
+
+#: lib/argmatch.c:146
+#, c-format
+msgid "ambiguous argument %s for %s"
+msgstr "tvetydigt argument %s till %s"
+
+#: lib/argmatch.c:165 lib/argmatch.h:242
+msgid "Valid arguments are:"
+msgstr "Giltiga argument är:"
+
+#: lib/argp-help.c:151
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr "ARGP_HELP_FMT: värdet på %s är mindre än eller lika med %s"
+
+#: lib/argp-help.c:227
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr "%.*s: ARGP_HELP_FMT-parametern kräver ett värde"
+
+#: lib/argp-help.c:237
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr "%.*s: Okänd ARGP_HELP_FMT-parameter"
+
+#: lib/argp-help.c:250
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr "Skräp i ARGP_HELP_FMT: %s"
+
+#: lib/argp-help.c:1368
+msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
+msgstr "Obligatoriska eller valfria argument till långa flaggor är obligatoriska eller valfria även för motsvarande korta flaggor."
+
+#: lib/argp-help.c:1734
+msgid "Usage:"
+msgstr "Användning:"
+
+#: lib/argp-help.c:1738
+msgid "  or: "
+msgstr "   eller:  "
+
+#: lib/argp-help.c:1750
+msgid " [OPTION...]"
+msgstr " [FLAGGA...]"
+
+#: lib/argp-help.c:1777
+#, c-format
+msgid "Try '%s --help' or '%s --usage' for more information.\n"
+msgstr "Försök med ”%s --help” eller ”%s --usage” för mer information.\n"
+
+#: lib/argp-help.c:1805
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+"Rapportera fel till %s.\n"
+"Skicka synpunkter på översättningen till <tp-sv-list@lists.sourceforge.net>.\n"
+
+#: lib/argp-help.c:2006 lib/error.c:208 lib/xstrerror.c:46
+msgid "Unknown system error"
+msgstr "Okänt systemfel"
+
+#: lib/argp-parse.c:80
+msgid "give this help list"
+msgstr "visa denna hjälplista"
+
+#: lib/argp-parse.c:81
+msgid "give a short usage message"
+msgstr "visa ett kort användningsmeddelande"
+
+#: lib/argp-parse.c:82
+msgid "NAME"
+msgstr "NAMN"
+
+#: lib/argp-parse.c:83
+msgid "set the program name"
+msgstr "ange programnamnet"
+
+#: lib/argp-parse.c:84
+msgid "SECS"
+msgstr "S"
+
+#: lib/argp-parse.c:85
+msgid "hang for SECS seconds (default 3600)"
+msgstr "vänta i S sekunder (3600 som standard)"
+
+#: lib/argp-parse.c:142
+msgid "print program version"
+msgstr "skriv ut programversion"
+
+#: lib/argp-parse.c:159
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr "(PROGRAMFEL) Ingen version känd!?"
+
+#: lib/argp-parse.c:612
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr "%s: För många argument\n"
+
+#: lib/argp-parse.c:758
+msgid "(PROGRAM ERROR) Option should have been recognized!?"
+msgstr "(PROGRAMFEL) Flaggan borde ha känts igen!?"
+
+#: lib/bitset/stats.c:183
+#, c-format
+msgid "%u bitset_allocs, %u freed (%.2f%%).\n"
+msgstr "%u bitset-allokeringar, %u frigjorda (%.2f %%).\n"
+
+#: lib/bitset/stats.c:186
+#, c-format
+msgid "%u bitset_sets, %u cached (%.2f%%)\n"
+msgstr "%u bitset-mängder, %u cachade (%.2f %%)\n"
+
+#: lib/bitset/stats.c:189
+#, c-format
+msgid "%u bitset_resets, %u cached (%.2f%%)\n"
+msgstr "%u bitset-återställningar, %u cachade (%.2f %%)\n"
+
+#: lib/bitset/stats.c:192
+#, c-format
+msgid "%u bitset_tests, %u cached (%.2f%%)\n"
+msgstr "%u bitset-tester, %u cachade (%.2f %%)\n"
+
+#: lib/bitset/stats.c:196
+#, c-format
+msgid "%u bitset_lists\n"
+msgstr "%u bitset-listor\n"
+
+#: lib/bitset/stats.c:198
+msgid "count log histogram"
+msgstr "antalsloggshistogram"
+
+#: lib/bitset/stats.c:201
+msgid "size log histogram"
+msgstr "storleksloggshistogram"
+
+#: lib/bitset/stats.c:204
+msgid "density histogram"
+msgstr "densitetshistogram"
+
+#: lib/bitset/stats.c:216
+msgid "Bitset statistics:"
+msgstr "Bitset-statistik:"
+
+#: lib/bitset/stats.c:220
+#, c-format
+msgid "Accumulated runs = %u"
+msgstr "Ackumulerade körningar = %u"
+
+#: lib/bitset/stats.c:264 lib/bitset/stats.c:271 lib/bitset/stats.c:274
+msgid "cannot read stats file"
+msgstr "kan inte läsa statistikfilen"
+
+#: lib/bitset/stats.c:266
+msgid "bad stats file size"
+msgstr "felaktig storlek på statistikfil"
+
+#: lib/bitset/stats.c:297 lib/bitset/stats.c:299
+msgid "cannot write stats file"
+msgstr "kan inte skriva statistikfilen"
+
+#: lib/bitset/stats.c:302
+msgid "cannot open stats file for writing"
+msgstr "kan inte öppna statistikfilen för skrivning"
+
+#: lib/c-file-type.c:40
+msgid "regular empty file"
+msgstr "tom normal fil"
+
+#: lib/c-file-type.c:40
+msgid "regular file"
+msgstr "normal fil"
+
+#: lib/c-file-type.c:43
+msgid "directory"
+msgstr "katalog"
+
+#: lib/c-file-type.c:46
+msgid "symbolic link"
+msgstr "symbolisk länk"
+
+#: lib/c-file-type.c:52
+msgid "message queue"
+msgstr "meddelandekö"
+
+#: lib/c-file-type.c:55
+msgid "semaphore"
+msgstr "semafor"
+
+#: lib/c-file-type.c:58
+msgid "shared memory object"
+msgstr "objekt av delat minne"
+
+#: lib/c-file-type.c:61
+msgid "typed memory object"
+msgstr "objekt av typat minne"
+
+#: lib/c-file-type.c:66
+msgid "block special file"
+msgstr "blockspecialfil"
+
+#: lib/c-file-type.c:69
+msgid "character special file"
+msgstr "teckenspecialfil"
+
+#: lib/c-file-type.c:72
+msgid "contiguous data"
+msgstr "sammanhängande data"
+
+#: lib/c-file-type.c:75
+msgid "fifo"
+msgstr "fifo"
+
+#: lib/c-file-type.c:78
+msgid "door"
+msgstr "dörr"
+
+#: lib/c-file-type.c:81
+msgid "multiplexed block special file"
+msgstr "multiplexad blockspecialfil"
+
+#: lib/c-file-type.c:84
+msgid "multiplexed character special file"
+msgstr "multiplexad teckenspecialfil"
+
+#: lib/c-file-type.c:87
+msgid "multiplexed file"
+msgstr "multiplexad fil"
+
+#: lib/c-file-type.c:90
+msgid "named file"
+msgstr "namngiven fil"
+
+#: lib/c-file-type.c:93
+msgid "network special file"
+msgstr "nätverksspecialfil"
+
+#: lib/c-file-type.c:96
+msgid "migrated file with data"
+msgstr "migrerad fil med data"
+
+#: lib/c-file-type.c:99
+msgid "migrated file without data"
+msgstr "migrerad fil utan data"
+
+#: lib/c-file-type.c:102
+msgid "port"
+msgstr "port"
+
+#: lib/c-file-type.c:105
+msgid "socket"
+msgstr "uttag (socket)"
+
+#: lib/c-file-type.c:108
+msgid "whiteout"
+msgstr "övertäckningsfil"
+
+#: lib/c-file-type.c:110
+msgid "weird file"
+msgstr "konstig fil"
+
+#: lib/c-stack.c:190
+msgid "program error"
+msgstr "programfel"
+
+#: lib/c-stack.c:191
+msgid "stack overflow"
+msgstr "stacköverflöde"
+
+#: lib/clean-temp-simple.c:297
+#, c-format
+msgid "cannot remove temporary file %s"
+msgstr "kan inte ta bort temporärfil %s"
+
+#: lib/clean-temp.c:234
+#, c-format
+msgid "cannot find a temporary directory, try setting $TMPDIR"
+msgstr "kan inte hitta en temporärkatalog, försök att ange $TMPDIR"
+
+#: lib/clean-temp.c:249
+#, c-format
+msgid "cannot create a temporary directory using template \"%s\""
+msgstr "kan inte skapa en temporärkatalog med användning av mallen ”%s”"
+
+#: lib/clean-temp.c:370
+#, c-format
+msgid "cannot remove temporary directory %s"
+msgstr "kan inte ta bort temporärkatalog %s"
+
+#: lib/closein.c:99
+msgid "error closing file"
+msgstr "fel när filen stängdes"
+
+#: lib/closeout.c:121
+msgid "write error"
+msgstr "skrivfel"
+
+#: lib/copy-acl.c:54 lib/copy-file.c:235
+#, c-format
+msgid "preserving permissions for %s"
+msgstr "bevarar rättigheter på %s"
+
+#: lib/copy-file.c:212
+#, c-format
+msgid "error while opening %s for reading"
+msgstr "fel när %s öppnades för läsning"
+
+#: lib/copy-file.c:216
+#, c-format
+msgid "cannot open backup file %s for writing"
+msgstr "det går inte att öppna säkerhetskopiefilen %s för skrivning"
+
+#: lib/copy-file.c:220
+#, c-format
+msgid "error reading %s"
+msgstr "fel vid läsning av %s"
+
+#: lib/copy-file.c:224
+#, c-format
+msgid "error writing %s"
+msgstr "fel vid skrivning av %s"
+
+#: lib/copy-file.c:228
+#, c-format
+msgid "error after reading %s"
+msgstr "fel efter läsning av %s"
+
+#: lib/csharpcomp.c:225 lib/csharpcomp.c:368 lib/csharpcomp.c:460
+#: lib/csharpexec.c:397 lib/cygpath.c:104 lib/javacomp.c:355
+#: lib/javaversion.c:75
+#, c-format
+msgid "fdopen() failed"
+msgstr "fdopen() misslyckades"
+
+#: lib/csharpcomp.c:360 lib/csharpcomp.c:378 lib/csharpcomp.c:452
+#: lib/csharpcomp.c:470 lib/csharpexec.c:389 lib/csharpexec.c:407
+#: lib/cygpath.c:110 lib/javacomp.c:361 lib/javaversion.c:81
+#, c-format
+msgid "%s subprocess I/O error"
+msgstr "%s-underprocess I/O-fel"
+
+#: lib/csharpcomp.c:430 lib/csharpcomp.c:517 lib/csharpexec.c:453
+#: lib/execute.c:377 lib/spawn-pipe.c:599 lib/wait-process.c:326
+#: lib/wait-process.c:400
+#, c-format
+msgid "%s subprocess failed"
+msgstr "%s-underprocess misslyckades"
+
+#: lib/csharpcomp.c:1082
+#, c-format
+msgid "C# compiler not found, try installing mono or dotnet"
+msgstr "C#-kompilator hittades inte, försök installera mono eller dotnet"
+
+#: lib/csharpexec.c:291
+#, c-format
+msgid "failed to copy '%s' to '%s'"
+msgstr "kunde inte kopiera ”%s” till ”%s”"
+
+#: lib/csharpexec.c:463
+#, c-format
+msgid "could not determine %s version"
+msgstr "kunde inte avgöra %s-versionen"
+
+#: lib/csharpexec.c:483 lib/javacomp.c:456
+#, c-format
+msgid "failed to create \"%s\""
+msgstr "det gick inte att skapa ”%s”"
+
+#: lib/csharpexec.c:498 lib/javacomp.c:463
+#, c-format
+msgid "error while writing \"%s\" file"
+msgstr "fel vid skrivning av filen ”%s”"
+
+#: lib/csharpexec.c:681
+#, c-format
+msgid "C# virtual machine not found, try installing mono or dotnet"
+msgstr "den virtuella Java-maskinen hittades inte, försök installera mono eller dotnet"
+
+#: lib/cygpath.c:59
+#, c-format
+msgid "cannot convert file name '%s' to Windows syntax"
+msgstr "kan inte konvertera filnamnet ”%s” till Windows-syntax"
+
+#: lib/cygpath.c:65
+#, c-format
+msgid "cygwin_conv_path failed"
+msgstr "cygwin_conv_path misslyckades"
+
+#: lib/cygpath.c:149
+#, c-format
+msgid "%s invocation failed"
+msgstr "anrop av %s misslyckades"
+
+#: lib/dfa.c:910
+msgid "unbalanced ["
+msgstr "obalanserad ["
+
+#: lib/dfa.c:1031
+msgid "invalid character class"
+msgstr "ogiltig teckenklass"
+
+#: lib/dfa.c:1159
+msgid "character class syntax is [[:space:]], not [:space:]"
+msgstr "teckenklassyntaxen är [[:space:]], inte [:space:]"
+
+#: lib/dfa.c:1234
+msgid "unfinished \\ escape"
+msgstr "oavslutad \\-escape-sekvens"
+
+#: lib/dfa.c:1344
+msgid "? at start of expression"
+msgstr "? i början av uttrycket"
+
+#: lib/dfa.c:1356
+msgid "* at start of expression"
+msgstr "* i början av uttrycket"
+
+#: lib/dfa.c:1370
+msgid "+ at start of expression"
+msgstr "+ i början av uttrycket"
+
+#: lib/dfa.c:1425
+msgid "{...} at start of expression"
+msgstr "{...} i början av uttrycket"
+
+#: lib/dfa.c:1428
+msgid "invalid content of \\{\\}"
+msgstr "ogiltigt innehåll i \\{\\}"
+
+#: lib/dfa.c:1430
+msgid "regular expression too big"
+msgstr "för stort reguljärt uttryck"
+
+#: lib/dfa.c:1580
+msgid "stray \\ before unprintable character"
+msgstr "vilsekommet \\ före oskrivbart tecken"
+
+#: lib/dfa.c:1582
+msgid "stray \\ before white space"
+msgstr "vilsekommet \\ före blanktecken"
+
+#: lib/dfa.c:1593
+#, c-format
+msgid "stray \\ before %s"
+msgstr "vilsekommet \\ före %s"
+
+#: lib/dfa.c:1594 lib/dfa.c:1597
+msgid "stray \\"
+msgstr "vilsekommet \\"
+
+#: lib/dfa.c:1948
+msgid "unbalanced ("
+msgstr "obalanserad ("
+
+#: lib/dfa.c:2065
+msgid "no syntax specified"
+msgstr "ingen syntax angiven"
+
+#: lib/dfa.c:2076
+msgid "unbalanced )"
+msgstr "obalanserad )"
+
+#: lib/gai_strerror.c:57
+msgid "Address family for hostname not supported"
+msgstr "Adressfamiljen för värdnamnet stöds inte"
+
+#: lib/gai_strerror.c:58
+msgid "Temporary failure in name resolution"
+msgstr "Tillfälligt fel i namnuppslagning"
+
+#: lib/gai_strerror.c:59
+msgid "Bad value for ai_flags"
+msgstr "Felaktigt värde för ai_flags"
+
+#: lib/gai_strerror.c:60
+msgid "Non-recoverable failure in name resolution"
+msgstr "Oreparabelt fel i namnuppslagning"
+
+#: lib/gai_strerror.c:61
+msgid "ai_family not supported"
+msgstr "ai_family stöds inte"
+
+#: lib/gai_strerror.c:62
+msgid "Memory allocation failure"
+msgstr "misslyckad minnesallokering"
+
+#: lib/gai_strerror.c:63
+msgid "No address associated with hostname"
+msgstr "Ingen adress är associerad med värdnamnet"
+
+#: lib/gai_strerror.c:64
+msgid "Name or service not known"
+msgstr "Namn eller tjänst är okänd"
+
+#: lib/gai_strerror.c:65
+msgid "Servname not supported for ai_socktype"
+msgstr "Servname stöds inte för ai_socktype"
+
+#: lib/gai_strerror.c:66
+msgid "ai_socktype not supported"
+msgstr "ai_socktype stöds inte"
+
+#: lib/gai_strerror.c:67
+msgid "System error"
+msgstr "Systemfel"
+
+#: lib/gai_strerror.c:68
+msgid "Argument buffer too small"
+msgstr "Argumentbufferten är för liten"
+
+#: lib/gai_strerror.c:70
+msgid "Processing request in progress"
+msgstr "Begäran bearbetas"
+
+#: lib/gai_strerror.c:71
+msgid "Request canceled"
+msgstr "Begäran annullerad"
+
+#: lib/gai_strerror.c:72
+msgid "Request not canceled"
+msgstr "Begäran avbröts inte"
+
+#: lib/gai_strerror.c:73
+msgid "All requests done"
+msgstr "Alla begäranden har utförts"
+
+#: lib/gai_strerror.c:74
+msgid "Interrupted by a signal"
+msgstr "Avbruten av en signal"
+
+#: lib/gai_strerror.c:75
+msgid "Parameter string not correctly encoded"
+msgstr "Parametersträngen är inte korrekt kodad"
+
+#: lib/gai_strerror.c:87
+msgid "Unknown error"
+msgstr "Okänt fel"
+
+#: lib/getopt.c:282
+#, c-format
+msgid "%s: option '%s%s' is ambiguous\n"
+msgstr "%s: flaggan ”%s%s” är tvetydig\n"
+
+#: lib/getopt.c:288
+#, c-format
+msgid "%s: option '%s%s' is ambiguous; possibilities:"
+msgstr "%s: flaggan ”%s%s” är tvetydig: möjligheter:"
+
+#: lib/getopt.c:322
+#, c-format
+msgid "%s: unrecognized option '%s%s'\n"
+msgstr "%s: okänd flagga ”%s%s”\n"
+
+#: lib/getopt.c:348
+#, c-format
+msgid "%s: option '%s%s' doesn't allow an argument\n"
+msgstr "%s: flaggan ”%s%s” tar inget argument\n"
+
+#: lib/getopt.c:363
+#, c-format
+msgid "%s: option '%s%s' requires an argument\n"
+msgstr "%s: flaggan ”%s%s” kräver ett argument\n"
+
+#: lib/getopt.c:624
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr "%s: ogiltig flagga -- ”%c”\n"
+
+#: lib/getopt.c:639 lib/getopt.c:685
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
+
+#: lib/javacomp.c:103
+#, c-format
+msgid "The java program is too old. Cannot compile Java code for this old version any more."
+msgstr "Java-programmet är för gammalt. Kan inte längre kompilera Java-kod för denna "
+"gamla version."
+
+#: lib/javacomp.c:147
+#, c-format
+msgid "invalid source_version argument to compile_java_class"
+msgstr "ogiltigt source_version-argument till compile_java_class"
+
+#: lib/javacomp.c:168
+#, c-format
+msgid "invalid target_version argument to compile_java_class"
+msgstr "ogiltigt target_version-argument till compile_java_class"
+
+#: lib/javacomp.c:1131
+#, c-format
+msgid "Java compiler not found, try setting $JAVAC"
+msgstr "Java-kompilatorn hittades inte, försök att sätta $JAVAC"
+
+#: lib/javaexec.c:309
+#, c-format
+msgid "Java virtual machine not found, try setting $JAVA"
+msgstr "Javas virtuella maskin hittades inte, försök att sätta $JAVA"
+
+#: lib/mkdir-p.c:162
+#, c-format
+msgid "cannot stat %s"
+msgstr "kan inte hämta status för %s"
+
+#: lib/mkdir-p.c:190
+#, c-format
+msgid "cannot change permissions of %s"
+msgstr "kan inte ändra rättigheter på %s"
+
+#: lib/mkdir-p.c:200
+#, c-format
+msgid "cannot create directory %s"
+msgstr "kan inte skapa katalogen %s"
+
+#: lib/obstack.c:320 lib/obstack.c:322 lib/xalloc-die.c:34 lib/xsetenv.c:37
+#, c-format
+msgid "memory exhausted"
+msgstr "minnet är slut"
+
+#: lib/openat-die.c:38
+#, c-format
+msgid "unable to record current working directory"
+msgstr "kan inte notera aktuell arbetskatalog"
+
+#: lib/openat-die.c:57
+#, c-format
+msgid "failed to return to initial working directory"
+msgstr "kunde inte återvända till den ursprungliga arbetskatalogen"
+
+#: lib/os2-spawn.c:51
+#, c-format
+msgid "_open_osfhandle failed"
+msgstr "_open_osfhandle misslyckades"
+
+#: lib/os2-spawn.c:88
+#, c-format
+msgid "cannot restore fd %d: dup2 failed"
+msgstr "kan inte återställa filbeskrivare %d: dup2 misslyckades"
+
+#: lib/pagealign_alloc.c:137
+#, c-format
+msgid "Failed to open /dev/zero for read"
+msgstr "kunde inte öppna /dev/zero för läsning"
+
+#: lib/parse-datetime.y:434 lib/parse-datetime.y:534
+#, c-format
+msgid "parsed %s part: "
+msgstr "tolkade %s-delen: "
+
+#: lib/parse-datetime.y:449
+#, c-format
+msgid "year: %04<PRIdMAX>"
+msgstr "år: %04<PRIdMAX>"
+
+#: lib/parse-datetime.y:477
+#, c-format
+msgid "%s (day ordinal=%<PRIdMAX> number=%d)"
+msgstr "%s (ordningsdag=%<PRIdMAX> nummer=%d)"
+
+#: lib/parse-datetime.y:508
+#, c-format
+msgid "number of seconds: %<PRIdMAX>"
+msgstr "antal sekunder: %<PRIdMAX>"
+
+#: lib/parse-datetime.y:541
+msgid "today/this/now\n"
+msgstr "idag/den här/nu\n"
+
+#: lib/parse-datetime.y:606
+msgid "number of seconds"
+msgstr "antal sekunder"
+
+#: lib/parse-datetime.y:619
+msgid "datetime"
+msgstr "datum och tid"
+
+#: lib/parse-datetime.y:624
+msgid "time"
+msgstr "tid"
+
+#: lib/parse-datetime.y:629
+msgid "local_zone"
+msgstr "lokal zon"
+
+#: lib/parse-datetime.y:639
+msgid "zone"
+msgstr "zon"
+
+#: lib/parse-datetime.y:644
+msgid "date"
+msgstr "datum"
+
+#: lib/parse-datetime.y:649
+msgid "day"
+msgstr "dag"
+
+#: lib/parse-datetime.y:653 lib/parse-datetime.y:760 lib/parse-datetime.y:765
+msgid "relative"
+msgstr "relativ"
+
+#: lib/parse-datetime.y:657
+msgid "number"
+msgstr "nummer"
+
+#: lib/parse-datetime.y:661
+msgid "hybrid"
+msgstr "hybrid"
+
+#: lib/parse-datetime.y:819
+#, c-format
+msgid "warning: value %<PRIdMAX> has %<PRIdMAX> digits. Assuming YYYY/MM/DD\n"
+msgstr "varning: värdet %<PRIdMAX> har %<PRIdMAX> siffror.  Antar ÅÅÅÅ/MM/DD\n"
+
+#: lib/parse-datetime.y:831
+#, c-format
+msgid "warning: value %<PRIdMAX> has less than 4 digits. Assuming MM/DD/YY[YY]\n"
+msgstr "varning: värdet %<PRIdMAX> har mindre än 4 siffror.  Antar MM/DD/ÅÅ[ÅÅ]\n"
+
+#: lib/parse-datetime.y:1280
+#, c-format
+msgid "warning: adjusting year value %<PRIdMAX> to %<PRIdMAX>\n"
+msgstr "varning: justerar årsvärdet %<PRIdMAX> till %<PRIdMAX>\n"
+
+#: lib/parse-datetime.y:1290
+#, c-format
+msgid "error: out-of-range year %<PRIdMAX>\n"
+msgstr "fel: årtal utanför intervallet %<PRIdMAX>\n"
+
+#: lib/parse-datetime.y:1521
+#, c-format
+msgid "error: unknown word '%s'\n"
+msgstr "fel: okänt ord ”%s”\n"
+
+#: lib/parse-datetime.y:1693
+msgid "error: invalid date/time value:\n"
+msgstr "fel: ogiltigt datum-/tidvärde:\n"
+
+#: lib/parse-datetime.y:1694
+#, c-format
+msgid "    user provided time: '%s'\n"
+msgstr "    användargiven tid: ”%s”\n"
+
+#: lib/parse-datetime.y:1696
+#, c-format
+msgid "       normalized time: '%s'\n"
+msgstr "       normaliserad tid: ”%s”\n"
+
+#: lib/parse-datetime.y:1719
+msgid "     possible reasons:\n"
+msgstr "     möjliga orsaker:\n"
+
+#: lib/parse-datetime.y:1721
+msgid "       nonexistent due to daylight-saving time;\n"
+msgstr "       finns inte på grund av byte till sommartid;\n"
+
+#: lib/parse-datetime.y:1723
+msgid "       invalid day/month combination;\n"
+msgstr "       felaktig dag/månad-kombination;\n"
+
+#: lib/parse-datetime.y:1724
+msgid "       numeric values overflow;\n"
+msgstr "       överflöde i numeriska värden;\n"
+
+#: lib/parse-datetime.y:1725
+msgid "incorrect timezone"
+msgstr "felaktig tidszon"
+
+#: lib/parse-datetime.y:1726
+msgid "missing timezone"
+msgstr "saknad tidszon"
+
+#: lib/parse-datetime.y:1834
+msgid "error: initial year out of range\n"
+msgstr "fel: startåret är utanför intervallet\n"
+
+#: lib/parse-datetime.y:1902
+msgid "error: parsing failed\n"
+msgstr "fel: tolkningen misslyckades\n"
+
+#: lib/parse-datetime.y:1903
+#, c-format
+msgid "error: parsing failed, stopped at '%s'\n"
+msgstr "fel: tolkningen misslyckades, avslutades vid ”%s”\n"
+
+#: lib/parse-datetime.y:1913
+msgid "input timezone: "
+msgstr "inmatad tidszon: "
+
+#: lib/parse-datetime.y:1916
+#, c-format
+msgid "'@timespec' - always UTC"
+msgstr "”@timespec” — alltid UTC"
+
+#: lib/parse-datetime.y:1918
+#, c-format
+msgid "parsed date/time string"
+msgstr "tolkad datum/tid-sträng"
+
+#: lib/parse-datetime.y:1922
+#, c-format
+msgid "TZ=\"%s\" in date string"
+msgstr "TZ=”%s” i datumsträng"
+
+#: lib/parse-datetime.y:1926
+#, c-format
+msgid "TZ=\"UTC0\" environment value or -u"
+msgstr "miljövariabelvärdet TZ=\"UTC0\" eller -u"
+
+#: lib/parse-datetime.y:1929
+#, c-format
+msgid "TZ=\"%s\" environment value"
+msgstr "TZ=”%s” miljövärde"
+
+#: lib/parse-datetime.y:1932
+#, c-format
+msgid "system default"
+msgstr "systemstandard"
+
+#: lib/parse-datetime.y:1974
+msgid "error: year, month, or day overflow\n"
+msgstr "fel: år, månad eller dag ger överflöde\n"
+
+#: lib/parse-datetime.y:1985
+#, c-format
+msgid "error: invalid hour %<PRIdMAX>%s\n"
+msgstr "fel: felaktig timme %<PRIdMAX>%s\n"
+
+#: lib/parse-datetime.y:1993
+#, c-format
+msgid "using specified time as starting value: '%s'\n"
+msgstr "använder angiven tid som startvärde: ”%s”\n"
+
+#: lib/parse-datetime.y:1994
+#, c-format
+msgid "using current time as starting value: '%s'\n"
+msgstr "använder aktuell tid som startvärde: ”%s”\n"
+
+#: lib/parse-datetime.y:2048
+#, c-format
+msgid "error: tzalloc (\"%s\") failed\n"
+msgstr "fel: tzalloc (”%s”) misslyckades\n"
+
+#: lib/parse-datetime.y:2092
+#, c-format
+msgid "error: day '%s' (day ordinal=%<PRIdMAX> number=%d) resulted in an invalid date: '%s'\n"
+msgstr "fel: dag ”%s” (ordningsdag=%<PRIdMAX> nummer=%d) resulterade i ett felaktigt datum: ”%s”\n"
+
+#: lib/parse-datetime.y:2103
+#, c-format
+msgid "new start date: '%s' is '%s'\n"
+msgstr "nytt startdatum: ”%s” är ”%s”\n"
+
+#: lib/parse-datetime.y:2112
+#, c-format
+msgid "using current date as starting value: '%s'\n"
+msgstr "använder aktuellt datum som startvärde: ”%s”\n"
+
+#: lib/parse-datetime.y:2116
+#, c-format
+msgid "warning: day (%s) ignored when explicit dates are given\n"
+msgstr "varning: dag (%s) ignoreras när explicita datum anges\n"
+
+#: lib/parse-datetime.y:2120
+#, c-format
+msgid "starting date/time: '%s'\n"
+msgstr "startdatum/-tid: ”%s”\n"
+
+#: lib/parse-datetime.y:2130
+msgid "warning: when adding relative months/years, it is recommended to specify the 15th of the months\n"
+msgstr "varning: när relativa månader/år läggs till rekommenderas det att ange den 15:e i månaden\n"
+
+#: lib/parse-datetime.y:2135
+msgid "warning: when adding relative days, it is recommended to specify noon\n"
+msgstr "varning: när relativa dagar läggs till rekommenderas det att ange middagstid\n"
+
+#: lib/parse-datetime.y:2145
+#, c-format
+msgid "error: %s:%d\n"
+msgstr "fel: %s:%d\n"
+
+#: lib/parse-datetime.y:2160
+#, c-format
+msgid "error: adding relative date resulted in an invalid date: '%s'\n"
+msgstr "fel: att lägga till ett relativt datum resulterade i ett felaktigt datum: ”%s”\n"
+
+#: lib/parse-datetime.y:2169
+#, c-format
+msgid "after date adjustment (%+<PRIdMAX> years, %+<PRIdMAX> months, %+<PRIdMAX> days),\n"
+msgstr "efter datumjustering (%+<PRIdMAX> år, %+<PRIdMAX> månader, %+<PRIdMAX> dagar),\n"
+
+#: lib/parse-datetime.y:2173
+#, c-format
+msgid "    new date/time = '%s'\n"
+msgstr "    nytt datum/tid = ”%s”\n"
+
+#: lib/parse-datetime.y:2192
+msgid "warning: daylight saving time changed after date adjustment\n"
+msgstr "varning: sommartid ändrades efter datumjusteringen\n"
+
+#: lib/parse-datetime.y:2211
+msgid "warning: month/year adjustment resulted in shifted dates:\n"
+msgstr "varning: månads-/årsjusteringen resulterade i skiftade datum:\n"
+
+#: lib/parse-datetime.y:2214
+#, c-format
+msgid "     adjusted Y M D: %s %02d %02d\n"
+msgstr "     justerade Å M D: %s %02d %02d\n"
+
+#: lib/parse-datetime.y:2216
+#, c-format
+msgid "   normalized Y M D: %s %02d %02d\n"
+msgstr "   normaliserade Å M D: %s %02d %02d\n"
+
+#: lib/parse-datetime.y:2245
+#, c-format
+msgid "error: timezone %d caused time_t overflow\n"
+msgstr "fel: tidszon %d orsakade överflöde i time_t\n"
+
+#: lib/parse-datetime.y:2255
+#, c-format
+msgid "'%s' = %<PRIdMAX> epoch-seconds\n"
+msgstr "”%s” = %<PRIdMAX> epoksekunder\n"
+
+#: lib/parse-datetime.y:2283
+msgid "error: adding relative time caused an overflow\n"
+msgstr "fel: att lägga till relativ tid orsakade överflöde\n"
+
+#: lib/parse-datetime.y:2294
+#, c-format
+msgid "after time adjustment (%+<PRIdMAX> hours, %+<PRIdMAX> minutes, %+<PRIdMAX> seconds, %+d ns),\n"
+msgstr "efter tidsjustering (%+<PRIdMAX> timmar, %+<PRIdMAX> minuter, %+<PRIdMAX> sekunder, %+d ns),\n"
+
+#: lib/parse-datetime.y:2300
+#, c-format
+msgid "    new time = %<PRIdMAX> epoch-seconds\n"
+msgstr "    ny tid = %<PRIdMAX> epoksekunder\n"
+
+#: lib/parse-datetime.y:2316
+msgid "warning: daylight saving time changed after time adjustment\n"
+msgstr "varning: sommartid ändrades efter tidsjusteringen\n"
+
+#: lib/parse-datetime.y:2326
+msgid "timezone: system default\n"
+msgstr "tidszon: systemstandard\n"
+
+#: lib/parse-datetime.y:2328
+msgid "timezone: Universal Time\n"
+msgstr "tidszon: universell tid\n"
+
+#: lib/parse-datetime.y:2330
+#, c-format
+msgid "timezone: TZ=\"%s\" environment value\n"
+msgstr "Tidszon: TZ=\"%s\" miljövärde\n"
+
+#: lib/parse-datetime.y:2334
+#, c-format
+msgid "final: %<PRIdMAX>.%09d (epoch-seconds)\n"
+msgstr "slutligt: %<PRIdMAX>.%09d (epoksekunder)\n"
+
+#: lib/parse-datetime.y:2340
+#, c-format
+msgid "final: %s (UTC)\n"
+msgstr "slutligt: %s (UTC)\n"
+
+#: lib/parse-datetime.y:2355
+#, c-format
+msgid "final: %s (UTC%s)\n"
+msgstr "slutligt: %s (UTC%s)\n"
+
+#: lib/parse-datetime.y:2359
+#, c-format
+msgid "final: %s (unknown time zone offset)\n"
+msgstr "slutligt: %s (okänd tidszonsförskjutning)\n"
+
+#: lib/pipe-filter-gi.c:152
+#, c-format
+msgid "creation of reading thread failed"
+msgstr "det gick inte att skapa lästråden"
+
+#: lib/pipe-filter-gi.c:257 lib/pipe-filter-ii.c:419
+#, c-format
+msgid "cannot set up nonblocking I/O to %s subprocess"
+msgstr "det gick inte att ställa in icke-blockerande I/O till %s-underprocessen"
+
+#: lib/pipe-filter-gi.c:335 lib/pipe-filter-ii.c:457
+#, c-format
+msgid "communication with %s subprocess failed"
+msgstr "kommunikationen med %s-underprocessen misslyckades"
+
+#: lib/pipe-filter-gi.c:365 lib/pipe-filter-ii.c:345 lib/pipe-filter-ii.c:502
+#, c-format
+msgid "write to %s subprocess failed"
+msgstr "skrivning till %s-underprocessen misslyckades"
+
+#: lib/pipe-filter-gi.c:405 lib/pipe-filter-ii.c:366 lib/pipe-filter-ii.c:545
+#, c-format
+msgid "read from %s subprocess failed"
+msgstr "läsning från %s-underprocessen misslyckades"
+
+#: lib/pipe-filter-gi.c:458
+#, c-format
+msgid "subprocess %s terminated with exit code %d"
+msgstr "underprocessen %s avslutades med slutstatus %d"
+
+#: lib/pipe-filter-ii.c:313
+#, c-format
+msgid "creation of threads failed"
+msgstr "det gick inte att skapa trådar"
+
+#: lib/pipe-filter-ii.c:577
+#, c-format
+msgid "%s subprocess terminated with exit code %d"
+msgstr "%s-underprocessen avslutades med slutstatus %d"
+
+#. TRANSLATORS:
+#. Get translations for open and closing quotation marks.
+#. The message catalog should translate "`" to a left
+#. quotation mark suitable for the locale, and similarly for
+#. "'".  For example, a French Unicode local should translate
+#. these to U+00AB (LEFT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), and U+00BB (RIGHT-POINTING DOUBLE ANGLE
+#. QUOTATION MARK), respectively.
+#.
+#. If the catalog has no translation, we will try to
+#. use Unicode U+2018 (LEFT SINGLE QUOTATION MARK) and
+#. Unicode U+2019 (RIGHT SINGLE QUOTATION MARK).  If the
+#. current locale is not Unicode, locale_quoting_style
+#. will quote 'like this', and clocale_quoting_style will
+#. quote "like this".  You should always include translations
+#. for "`" and "'" even if U+2018 and U+2019 are appropriate
+#. for your locale.
+#.
+#. If you don't know what to put here, please see
+#. <https://en.wikipedia.org/wiki/Quotation_marks_in_other_languages>
+#. and use glyphs suitable for your language.
+#: lib/quotearg.c:354
+msgid "`"
+msgstr "”"
+
+#: lib/quotearg.c:355
+msgid "'"
+msgstr "”"
+
+#: lib/regcomp.c:122
+msgid "Success"
+msgstr "Lyckades"
+
+#: lib/regcomp.c:125
+msgid "No match"
+msgstr "Ingen träff"
+
+#: lib/regcomp.c:128
+msgid "Invalid regular expression"
+msgstr "Felaktigt reguljärt uttryck"
+
+#: lib/regcomp.c:131
+msgid "Invalid collation character"
+msgstr "Ogiltigt sorteringstecken"
+
+#: lib/regcomp.c:134
+msgid "Invalid character class name"
+msgstr "Ogiltigt teckenklassnamn"
+
+#: lib/regcomp.c:137
+msgid "Trailing backslash"
+msgstr "Avslutande bakstreck"
+
+#: lib/regcomp.c:140
+msgid "Invalid back reference"
+msgstr "Ogiltig bakåtreferens"
+
+#: lib/regcomp.c:143
+msgid "Unmatched [, [^, [:, [., or [="
+msgstr "Ensam [, [^, [:, [. eller [="
+
+#: lib/regcomp.c:146
+msgid "Unmatched ( or \\("
+msgstr "Ensam ( eller \\("
+
+#: lib/regcomp.c:149
+msgid "Unmatched \\{"
+msgstr "Ensam \\{"
+
+#: lib/regcomp.c:152
+msgid "Invalid content of \\{\\}"
+msgstr "Ogiltigt innehåll i \\{\\}"
+
+#: lib/regcomp.c:155
+msgid "Invalid range end"
+msgstr "Ogiltigt intervallslut"
+
+#: lib/regcomp.c:158
+msgid "Memory exhausted"
+msgstr "Minnet är slut"
+
+#: lib/regcomp.c:161
+msgid "Invalid preceding regular expression"
+msgstr "Felaktigt föregående reguljärt uttryck"
+
+#: lib/regcomp.c:164
+msgid "Premature end of regular expression"
+msgstr "Förtida slut av reguljärt uttryck"
+
+#: lib/regcomp.c:167
+msgid "Regular expression too big"
+msgstr "För stort reguljärt uttryck"
+
+#: lib/regcomp.c:170
+msgid "Unmatched ) or \\)"
+msgstr "Ensam ) eller \\)"
+
+#: lib/regcomp.c:650
+msgid "No previous regular expression"
+msgstr "Inget föregående reguljärt uttryck"
+
+#. TRANSLATORS: A regular expression testing for an affirmative answer
+#. (english: "yes").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^yesexpr='
+#: lib/rpmatch.c:149
+msgid "^[yY]"
+msgstr "^[yYjJ]"
+
+#. TRANSLATORS: A regular expression testing for a negative answer
+#. (english: "no").  Testing the first character may be sufficient.
+#. Take care to consider upper and lower case.
+#. To enquire the regular expression that your system uses for this
+#. purpose, you can use the command
+#. locale -k LC_MESSAGES | grep '^noexpr='
+#: lib/rpmatch.c:162
+msgid "^[nN]"
+msgstr "^[nN]"
+
+#: lib/set-acl.c:46
+#, c-format
+msgid "setting permissions for %s"
+msgstr "ändrar rättigheter på %s"
+
+#: lib/siglist.h:31
+msgid "Hangup"
+msgstr "Avbruten anslutning"
+
+#: lib/siglist.h:34
+msgid "Interrupt"
+msgstr "Avbruten"
+
+#: lib/siglist.h:37
+msgid "Quit"
+msgstr "Avslut"
+
+#: lib/siglist.h:40
+msgid "Illegal instruction"
+msgstr "Otillåten instruktion"
+
+#: lib/siglist.h:43
+msgid "Trace/breakpoint trap"
+msgstr "Spårnings-/brytpunktsfälla"
+
+#: lib/siglist.h:46
+msgid "Aborted"
+msgstr "Avbruten (abort)"
+
+#: lib/siglist.h:49
+msgid "Floating point exception"
+msgstr "Flyttalsundantag"
+
+#: lib/siglist.h:52
+msgid "Killed"
+msgstr "Dödad"
+
+#: lib/siglist.h:55
+msgid "Bus error"
+msgstr "Bussfel"
+
+#: lib/siglist.h:58
+msgid "Segmentation fault"
+msgstr "Segmenteringsfel"
+
+#: lib/siglist.h:61
+msgid "Broken pipe"
+msgstr "Brutet rör"
+
+#: lib/siglist.h:64
+msgid "Alarm clock"
+msgstr "Alarmklocka"
+
+#: lib/siglist.h:67
+msgid "Terminated"
+msgstr "Avslutad"
+
+#: lib/siglist.h:70
+msgid "Urgent I/O condition"
+msgstr "Brådskande I/O-situation"
+
+#: lib/siglist.h:73
+msgid "Stopped (signal)"
+msgstr "Stoppad (signal)"
+
+#: lib/siglist.h:76
+msgid "Stopped"
+msgstr "Stoppad"
+
+#: lib/siglist.h:79
+msgid "Continued"
+msgstr "Återupptagen"
+
+#: lib/siglist.h:82
+msgid "Child exited"
+msgstr "Underprocess avslutades"
+
+#: lib/siglist.h:85
+msgid "Stopped (tty input)"
+msgstr "Stoppad (terminalläsning)"
+
+#: lib/siglist.h:88
+msgid "Stopped (tty output)"
+msgstr "Stoppad (terminalskrivning)"
+
+#: lib/siglist.h:91
+msgid "I/O possible"
+msgstr "I/O möjlig"
+
+#: lib/siglist.h:94
+msgid "CPU time limit exceeded"
+msgstr "CPU-tidsgränsen överskreds"
+
+#: lib/siglist.h:97
+msgid "File size limit exceeded"
+msgstr "Filstorleksgränsen överskreds"
+
+#: lib/siglist.h:100
+msgid "Virtual timer expired"
+msgstr "Virtuell timer har löpt ut"
+
+#: lib/siglist.h:103
+msgid "Profiling timer expired"
+msgstr "Profileringsklockan har löpt ut"
+
+#: lib/siglist.h:106
+msgid "Window changed"
+msgstr "Fönstret ändrades"
+
+#: lib/siglist.h:109
+msgid "User defined signal 1"
+msgstr "Användarsignal 1"
+
+#: lib/siglist.h:112
+msgid "User defined signal 2"
+msgstr "Användarsignal 2"
+
+#: lib/siglist.h:117
+msgid "EMT trap"
+msgstr "EMT-fälla"
+
+#: lib/siglist.h:120
+msgid "Bad system call"
+msgstr "Felaktigt systemanrop"
+
+#: lib/siglist.h:123
+msgid "Stack fault"
+msgstr "Stackfel"
+
+#: lib/siglist.h:126
+msgid "Information request"
+msgstr "Informationsbegäran"
+
+#: lib/siglist.h:128
+msgid "Power failure"
+msgstr "Strömavbrott"
+
+#: lib/siglist.h:131
+msgid "Resource lost"
+msgstr "Förlorad resurs"
+
+#: lib/sigpipe-die.c:37
+msgid "error writing to a closed pipe or socket"
+msgstr "fel vid skrivning till ett stängt rör eller uttag"
+
+#: lib/spawn-pipe.c:218 lib/spawn-pipe.c:221
+#, c-format
+msgid "cannot create pipe"
+msgstr "kan inte skapa rör"
+
+#: lib/strsignal.c:114
+#, c-format
+msgid "Real-time signal %d"
+msgstr "Realtidssignal %d"
+
+#: lib/strsignal.c:118
+#, c-format
+msgid "Unknown signal %d"
+msgstr "Okänd signal %d"
+
+#: lib/timevar.c:316
+msgid "Execution times (seconds)"
+msgstr "Körtider (sekunder)"
+
+#: lib/timevar.c:318
+msgid "CPU user"
+msgstr "CPU, användare"
+
+#: lib/timevar.c:318
+msgid "CPU system"
+msgstr "CPU, system"
+
+#: lib/timevar.c:318
+msgid "wall clock"
+msgstr "verklig tid"
+
+#: lib/unicodeio.c:102
+msgid "iconv function not usable"
+msgstr "iconv-funktionen kan inte användas"
+
+#: lib/unicodeio.c:104
+msgid "iconv function not available"
+msgstr "iconv-funktionen är inte tillgänglig"
+
+#: lib/unicodeio.c:111
+msgid "character out of range"
+msgstr "tecknet är utanför intervallet"
+
+#: lib/unicodeio.c:191
+#, c-format
+msgid "cannot convert U+%04X to local character set"
+msgstr "kan inte konvertera U+%04X till lokal teckenuppsättning"
+
+#: lib/unicodeio.c:193
+#, c-format
+msgid "cannot convert U+%04X to local character set: %s"
+msgstr "kan inte konvertera U+%04X till lokal teckenuppsättning: %s"
+
+#: lib/userspec.c:165
+msgid "invalid spec"
+msgstr "ogiltig specifikation"
+
+#: lib/userspec.c:174
+msgid "invalid user"
+msgstr "ogiltig användare"
+
+#: lib/userspec.c:207
+msgid "invalid group"
+msgstr "ogiltig grupp"
+
+#: lib/userspec.c:279
+msgid "warning: '.' should be ':'"
+msgstr "varning: ”.” borde vara ”:”"
+
+#: lib/version-etc.c:73
+#, c-format
+msgid "Packaged by %s (%s)\n"
+msgstr "Paketerat av %s (%s)\n"
+
+#: lib/version-etc.c:76
+#, c-format
+msgid "Packaged by %s\n"
+msgstr "Paketerat av %s\n"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: lib/version-etc.c:83
+msgid "(C)"
+msgstr "©"
+
+#. TRANSLATORS: The %s placeholder is the web address of the GPL license.
+#: lib/version-etc.c:88
+#, c-format
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <%s>.\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+msgstr ""
+"Licens GPLv3+: GNU GPL version 3 eller senare <%s>.\n"
+"Detta är fri programvara: du får ändra och vidaredistribuera den.\n"
+"Det finns INGEN GARANTI, så långt lagen tillåter.\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: lib/version-etc.c:105
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Skrivet av %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:109
+#, c-format
+msgid "Written by %s and %s.\n"
+msgstr "Skrivet av %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#: lib/version-etc.c:113
+#, c-format
+msgid "Written by %s, %s, and %s.\n"
+msgstr "Skrivet av %s, %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:120
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s\n"
+"och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:127
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:134
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:142
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:150
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s, %s\n"
+"och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:159
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, and %s.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s och %s.\n"
+
+#. TRANSLATORS: Each %s denotes an author name.
+#. You can use line breaks, estimating that each author name occupies
+#. ca. 16 screen columns and that a screen line has ca. 80 columns.
+#: lib/version-etc.c:170
+#, c-format
+msgid ""
+"Written by %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s, and others.\n"
+msgstr ""
+"Skrivet av %s, %s, %s,\n"
+"%s, %s, %s, %s,\n"
+"%s, %s med flera.\n"
+
+#. TRANSLATORS: The placeholder indicates the bug-reporting address
+#. for this package.  Please add _another line_ saying
+#. "Report translation bugs to <...>\n" with the address for translation
+#. bugs (typically your translation team's web or email address).
+#: lib/version-etc.c:249
+#, c-format
+msgid "Report bugs to: %s\n"
+msgstr ""
+"Rapportera fel till: %s\n"
+"Skicka synpunkter på översättningen till: <tp-sv-list@lists.sourceforge.net>\n"
+
+#: lib/version-etc.c:251
+#, c-format
+msgid "Report %s bugs to: %s\n"
+msgstr "Rapportera %s-fel till: %s\n"
+
+#: lib/version-etc.c:255 lib/version-etc.c:257
+#, c-format
+msgid "%s home page: <%s>\n"
+msgstr "Webbsida för %s: <%s>\n"
+
+#: lib/version-etc.c:260
+#, c-format
+msgid "General help using GNU software: <%s>\n"
+msgstr "Allmän hjälp med att använda GNU-program: <%s>\n"
+
+#: lib/wait-process.c:267 lib/wait-process.c:299 lib/wait-process.c:361
+#, c-format
+msgid "%s subprocess"
+msgstr "%s-underprocess"
+
+#: lib/wait-process.c:318 lib/wait-process.c:390
+#, c-format
+msgid "%s subprocess got fatal signal %d"
+msgstr "%s-underprocess fick ödesdiger signal %d"
+
+#: lib/xbinary-io.c:36
+#, c-format
+msgid "failed to set file descriptor text/binary mode"
+msgstr "misslyckades att sätta filbeskrivarens text-/binärläge"
+
+#: lib/xfreopen.c:34
+msgid "stdin"
+msgstr "standardindata"
+
+#: lib/xfreopen.c:35
+msgid "stdout"
+msgstr "standardutdata"
+
+#: lib/xfreopen.c:36
+msgid "stderr"
+msgstr "standardfel"
+
+#: lib/xfreopen.c:37
+msgid "unknown stream"
+msgstr "okänd ström"
+
+#: lib/xfreopen.c:38
+#, c-format
+msgid "failed to reopen %s with mode %s"
+msgstr "det gick inte att öppna om %s i läget %s"
+
+#: lib/xmemcoll.c:39
+#, c-format
+msgid "string comparison failed"
+msgstr "strängjämförelse misslyckades"
+
+#: lib/xmemcoll.c:40
+#, c-format
+msgid "Set LC_ALL='C' to work around the problem."
+msgstr "Sätt LC_ALL='C' för att gå runt problemet."
+
+#: lib/xmemcoll.c:42
+#, c-format
+msgid "The strings compared were %s and %s."
+msgstr "De jämförda strängarna var %s och %s."
+
+#: lib/xprintf.c:52 lib/xprintf.c:78
+#, c-format
+msgid "cannot perform formatted output"
+msgstr "kan inte utföra formaterad utmatning"
+
+#: lib/xstdopen.c:34
+#, c-format
+msgid "standard file descriptors"
+msgstr "standardfilbeskrivare"
+
+#: lib/xstrerror.c:51
+#, c-format
+msgid "%s: %s"
+msgstr "%s: %s"
+
+#: lib/xstrtol-error.c:64
+#, c-format
+msgid "invalid %s%s argument '%s'"
+msgstr "felaktigt %s%s-argument ”%s”"
+
+#: lib/xstrtol-error.c:69
+#, c-format
+msgid "invalid suffix in %s%s argument '%s'"
+msgstr "felaktigt suffix i %s%s-argument ”%s”"
+
+#: lib/xstrtol-error.c:73
+#, c-format
+msgid "%s%s argument '%s' too large"
+msgstr "%s%s-argumentet ”%s” är för stort"

@@ -1,0 +1,582 @@
+--- a/gphoto2-2.5.32.sv.po
++++ b/gphoto2-2.5.32.sv.po
+@@ -60,7 +60,7 @@
+ #: gphoto2/actions.c:284 gphoto2/actions.c:316 gphoto2/actions.c:332
+ #, c-format
+ msgid "  None available.\n"
+-msgstr "  Ingen tillgänglig.\n"
++msgstr "  Ingen är tillgänglig.\n"
+ 
+ #: gphoto2/actions.c:287 gphoto2/actions.c:319
+ #, c-format
+@@ -75,12 +75,12 @@
+ #: gphoto2/actions.c:291 gphoto2/actions.c:323
+ #, c-format
+ msgid "  Width:       %i pixel(s)\n"
+-msgstr "  Bredd:       %i bildpunkt(er)\n"
++msgstr "  Bredd:       %i bildpunkter\n"
+ 
+ #: gphoto2/actions.c:293 gphoto2/actions.c:325
+ #, c-format
+ msgid "  Height:      %i pixel(s)\n"
+-msgstr "  Höjd:        %i bildpunkt(er)\n"
++msgstr "  Höjd:        %i bildpunkter\n"
+ 
+ #: gphoto2/actions.c:295 gphoto2/actions.c:327
+ #, c-format
+@@ -195,7 +195,7 @@
+ #: gphoto2/actions.c:595
+ #, c-format
+ msgid "\t\"%s\" (TESTING)\n"
+-msgstr "\t”%s” (TEST)\n"
++msgstr "\t”%s” (TESTNING)\n"
+ 
+ #: gphoto2/actions.c:598
+ #, c-format
+@@ -242,7 +242,7 @@
+ #: gphoto2/actions.c:700
+ #, c-format
+ msgid "Abilities for camera             : %s\n"
+-msgstr "Förmågor hos kameran            : %s\n"
++msgstr "Funktioner för kameran           : %s\n"
+ 
+ #: gphoto2/actions.c:701
+ #, c-format
+@@ -267,7 +267,7 @@
+ #: gphoto2/actions.c:711
+ #, c-format
+ msgid "Capture choices                  :\n"
+-msgstr "Tagningsval                      :\n"
++msgstr "Alternativ för tagning           :\n"
+ 
+ #: gphoto2/actions.c:713
+ #, c-format
+@@ -292,7 +292,7 @@
+ #: gphoto2/actions.c:729
+ #, c-format
+ msgid "                                 : Trigger Capture\n"
+-msgstr "                                 : Utlösartagning\n"
++msgstr "                                 : Utlös tagning\n"
+ 
+ #: gphoto2/actions.c:733
+ #, c-format
+@@ -302,7 +302,7 @@
+ #: gphoto2/actions.c:735
+ #, c-format
+ msgid "Configuration support            : %s\n"
+-msgstr "Konfigurationsstöd                :%s\n"
++msgstr "Konfigurationsstöd               : %s\n"
+ 
+ #: gphoto2/actions.c:737
+ #, c-format
+@@ -322,7 +322,7 @@
+ #: gphoto2/actions.c:746
+ #, c-format
+ msgid "File upload support              : %s\n"
+-msgstr "Stöd för filsändningar           : %s\n"
++msgstr "Stöd för filuppladdning          : %s\n"
+ 
+ #: gphoto2/actions.c:763
+ #, c-format
+@@ -409,13 +409,12 @@
+ #, c-format
+ msgid "Movie capture: SIGUSR2 signal received, stopping capture!\n"
+ msgstr ""
+-"Filminfångning: SIGUSR2 signal mottagen, avslutar infångning!\n"
+-"\n"
++"Filminfångning: SIGUSR2-signal mottagen, avslutar infångning!\n"
+ 
+ #: gphoto2/actions.c:1096
+ #, c-format
+ msgid "Ctrl-C pressed ... Exiting.\n"
+-msgstr "Ctrl-C nedtryckt … Avslutar.\n"
++msgstr "Ctrl-C trycktes ned … Avslutar.\n"
+ 
+ #: gphoto2/actions.c:1110
+ #, c-format
+@@ -425,7 +424,7 @@
+ #: gphoto2/actions.c:1142
+ #, c-format
+ msgid "Waiting for events from camera. Press Ctrl-C to abort.\n"
+-msgstr "Väntar på händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
++msgstr "Väntar på händelser från kameran. Tryck Ctrl-C för att avbryta.\n"
+ 
+ #: gphoto2/actions.c:1148
+ #, c-format
+@@ -435,22 +434,24 @@
+ #: gphoto2/actions.c:1153
+ #, c-format
+ msgid "Waiting for %d milliseconds for events from camera. Press Ctrl-C to abort.\n"
+-msgstr "Väntar i %d millisekunder på händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
++msgstr "Väntar i %d millisekunder på händelser från kameran. Tryck Ctrl-C för att "
++"avbryta.\n"
+ 
+ #: gphoto2/actions.c:1158
+ #, c-format
+ msgid "Waiting for %d seconds for events from camera. Press Ctrl-C to abort.\n"
+-msgstr "Väntar i %d sekunder på händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
++msgstr "Väntar i %d sekunder på händelser från kameran. Tryck Ctrl-C för att "
++"avbryta.\n"
+ 
+ #: gphoto2/actions.c:1161
+ #, c-format
+ msgid "Waiting for %d events from camera. Press Ctrl-C to abort.\n"
+-msgstr "Väntar på %d händelser från kamera. Tryck Ctrl-C för att avbryta.\n"
++msgstr "Väntar på %d händelser från kameran. Tryck Ctrl-C för att avbryta.\n"
+ 
+ #: gphoto2/actions.c:1165
+ #, c-format
+ msgid "Waiting for '%s' event from camera. Press Ctrl-C to abort.\n"
+-msgstr "Väntar på ”%s”-händelse från kamera. Tryck Ctrl-C för att avbryta.\n"
++msgstr "Väntar på ”%s”-händelse från kameran. Tryck Ctrl-C för att avbryta.\n"
+ 
+ #: gphoto2/actions.c:1180
+ #, c-format
+@@ -461,19 +462,18 @@
+ #, c-format
+ msgid "SIGUSR2 signal received, stopping wait!\n"
+ msgstr ""
+-"SIGUSR2 signal mottagen, avslutar väntan!\n"
+-"\n"
++"SIGUSR2-signal mottagen, avslutar väntan!\n"
+ 
+ #: gphoto2/actions.c:1229 gphoto2/actions.c:1240 gphoto2/actions.c:1247
+ #: gphoto2/actions.c:1263 gphoto2/actions.c:1301 gphoto2/actions.c:1309
+ #: gphoto2/actions.c:1317
+ #, c-format
+ msgid "event found, stopping wait!\n"
+-msgstr "händelse hittad, avslutar väntan!\n"
++msgstr "Händelse hittades, avslutar väntan!\n"
+ 
+ #: gphoto2/actions.c:1273 gphoto2/main.c:840
+ msgid "Could not set folder."
+-msgstr "Kunde inte ställa in mapp."
++msgstr "Kunde inte ställa in mappen."
+ 
+ #: gphoto2/actions.c:1279 gphoto2/main.c:855
+ msgid "Could not get image."
+@@ -481,7 +481,7 @@
+ 
+ #: gphoto2/actions.c:1286 gphoto2/main.c:862
+ msgid "Buggy libcanon.so?"
+-msgstr "Felaktig libcanon.so?"
++msgstr "Fel i libcanon.so?"
+ 
+ #: gphoto2/actions.c:1296 gphoto2/main.c:874
+ msgid "Could not delete image."
+@@ -495,7 +495,7 @@
+ #: gphoto2/actions.c:1351
+ #, c-format
+ msgid "Read-Write"
+-msgstr "Läs-skriv"
++msgstr "Läs/skriv"
+ 
+ #: gphoto2/actions.c:1354
+ #, c-format
+@@ -540,22 +540,22 @@
+ #: gphoto2/actions.c:1395
+ #, c-format
+ msgid "Generic Flat"
+-msgstr "Allmänt platt"
++msgstr "Generisk platt"
+ 
+ #: gphoto2/actions.c:1398
+ #, c-format
+ msgid "Generic Hierarchical"
+-msgstr "Allmänt hierarkisk"
++msgstr "Generisk hierarkisk"
+ 
+ #: gphoto2/actions.c:1401
+ #, c-format
+ msgid "Camera layout (DCIM)"
+-msgstr "Kameralayout (DCIM)"
++msgstr "Kamerastruktur (DCIM)"
+ 
+ #: gphoto2/actions.c:1442
+ #, c-format
+ msgid "Overriding USB vendor/product id 0x%x/0x%x with 0x%x/0x%x"
+-msgstr "Åsidosätt USB-id för tillverkare/produkt 0x%x/0x%x med 0x%x/0x%x"
++msgstr "Åsidosätter USB-ID:n för tillverkare/produkt 0x%x/0x%x med 0x%x/0x%x"
+ 
+ #: gphoto2/actions.c:1510
+ msgid "ALWAYS INCLUDE THE FOLLOWING LINES WHEN SENDING DEBUG MESSAGES TO THE MAILING LIST:"
+@@ -593,7 +593,7 @@
+ 
+ #: gphoto2/actions.c:1767
+ msgid "Use 'now' as the current time when setting.\n"
+-msgstr "Använd ”nu” som aktuell tid vid inställning.\n"
++msgstr "Använd ”now” som aktuell tid vid inställning.\n"
+ 
+ #: gphoto2/actions.c:1789
+ #, c-format
+@@ -613,12 +613,12 @@
+ #: gphoto2/actions.c:1859 gphoto2/actions.c:2102
+ #, c-format
+ msgid "The passed value %s is not a floating point value."
+-msgstr "Det vidaresända värdet %s är inte ett flyttalsvärde."
++msgstr "Det angivna värdet %s är inte ett flyttalsvärde."
+ 
+ #: gphoto2/actions.c:1864 gphoto2/actions.c:2107
+ #, c-format
+ msgid "The passed value %f is not within the expected range %f - %f."
+-msgstr "Det vidaresända värdet %f är inte inom det förväntade intervallet %f - %f."
++msgstr "Det angivna värdet %f ligger inte inom det förväntade intervallet %f–%f."
+ 
+ #: gphoto2/actions.c:1870 gphoto2/actions.c:2113
+ #, c-format
+@@ -644,7 +644,7 @@
+ #: gphoto2/actions.c:1891 gphoto2/actions.c:2134
+ #, c-format
+ msgid "The passed value %s is not a valid toggle value."
+-msgstr "Det vidaresända värdet %s är inte ett giltigt växlingsvärde."
++msgstr "Det angivna värdet %s är inte ett giltigt växlingsvärde."
+ 
+ #: gphoto2/actions.c:1897 gphoto2/actions.c:2140
+ #, c-format
+@@ -658,7 +658,7 @@
+ #: gphoto2/actions.c:1921 gphoto2/actions.c:2155
+ #, c-format
+ msgid "The passed value %s is neither a valid time nor an integer."
+-msgstr "Det vidaresända värdet %s är varken en giltig tid eller ett heltal."
++msgstr "Det angivna värdet %s är varken en giltig tid eller ett heltal."
+ 
+ #: gphoto2/actions.c:1929 gphoto2/actions.c:2162
+ #, c-format
+@@ -688,7 +688,9 @@
+ #: gphoto2/foreach.c:272
+ #, c-format
+ msgid "Bad file number. You specified %i, but there are only %i files available in '%s' or its subfolders. Please obtain a valid file number from a file listing first."
+-msgstr "Felaktigt filnummer. Du angav %i, men det fanns bara %i filer tillgängliga i ”%s” eller dess underkataloger. Leta fram ett giltigt filnummer från en fillista först."
++msgstr "Felaktigt filnummer. Du angav %i, men det finns bara %i filer tillgängliga i "
++"”%s” eller dess underkataloger. Hämta först ett giltigt filnummer från en "
++"fillista."
+ 
+ #: gphoto2/foreach.c:297
+ #, c-format
+@@ -718,7 +720,7 @@
+ #: gphoto2/gp-params.c:266
+ #, c-format
+ msgid "Not enough memory."
+-msgstr "Slut på minne."
++msgstr "Otillräckligt minne."
+ 
+ #: gphoto2/gphoto2-cmd-capture.c:197
+ msgid "Operation cancelled"
+@@ -768,12 +770,12 @@
+ #: gphoto2/main.c:221
+ #, c-format
+ msgid "Zero padding numbers in file names is only possible with %%n."
+-msgstr "Utfyllning med nollor i filnamn är endast möjligt med %%n."
++msgstr "Nollutfyllnad av tal i filnamn är endast möjlig med %%n."
+ 
+ #: gphoto2/main.c:230
+ #, c-format
+ msgid "You cannot use %%n zero padding without a precision value!"
+-msgstr "Du kan inte använda %%n utfyllning med nollor utan ett precist värde!"
++msgstr "Du kan inte använda %%n-nollutfyllnad utan ett precisionsvärde!"
+ 
+ #: gphoto2/main.c:263
+ #, c-format
+@@ -788,12 +790,12 @@
+ #: gphoto2/main.c:387 gphoto2/main.c:593
+ #, c-format
+ msgid "Skip existing file %s\n"
+-msgstr "Hoppa över existerande fil %s\n"
++msgstr "Hoppar över befintlig fil %s\n"
+ 
+ #: gphoto2/main.c:399
+ #, c-format
+ msgid "File %s exists. Overwrite? [y|n] "
+-msgstr "Filen %s finns redan. Skriv över? Ja/Nej [y|n] "
++msgstr "Filen %s finns redan. Skriv över? [y|n] "
+ 
+ #: gphoto2/main.c:411
+ #, c-format
+@@ -826,7 +828,7 @@
+ #: gphoto2/main.c:848 gphoto2/main.c:879
+ #, c-format
+ msgid "Keeping file %s%s%s on the camera\n"
+-msgstr "Behåll fil %s%s%s på kameran\n"
++msgstr "Behåller filen %s%s%s på kameran\n"
+ 
+ #: gphoto2/main.c:869
+ #, c-format
+@@ -865,12 +867,12 @@
+ #: gphoto2/main.c:962
+ #, c-format
+ msgid "Standing by waiting for SIGUSR1 to capture.\n"
+-msgstr "Väntar på SIGUSR1 för att fånga in.\n"
++msgstr "Väntar i beredskap på SIGUSR1 för att ta en bild.\n"
+ 
+ #: gphoto2/main.c:968
+ #, c-format
+ msgid "Bulb mode enabled (exposure time: %ds).\n"
+-msgstr "Långtidsexponering aktiverat (exponeringstid: %ds).\n"
++msgstr "Långtidsexponering aktiverad (exponeringstid: %ds).\n"
+ 
+ #: gphoto2/main.c:976
+ #, c-format
+@@ -893,7 +895,7 @@
+ 
+ #: gphoto2/main.c:1015
+ msgid "Could not trigger image capture."
+-msgstr "Kunde inte utläsa bildtagning."
++msgstr "Kunde inte utlösa bildtagning."
+ 
+ #: gphoto2/main.c:1022
+ msgid "Could not capture image."
+@@ -1006,16 +1008,16 @@
+ "Please make sure there is sufficient quoting around the arguments.\n"
+ "\n"
+ msgstr ""
+-"Vänligen säkerställ att det finns tillräckligt med citationstecken runt argumenten.\n"
++"Säkerställ att argumenten är tillräckligt citerade.\n"
+ "\n"
+ 
+ #: gphoto2/main.c:1999
+ msgid "Print complete help message on program usage"
+-msgstr "Skriv ut komplett hjälpmeddelande för användning"
++msgstr "Skriv ut fullständigt hjälpmeddelande om programanvändning"
+ 
+ #: gphoto2/main.c:2001
+ msgid "Print short message on program usage"
+-msgstr "Skriv ut kort meddelande för användning"
++msgstr "Skriv ut kort hjälpmeddelande om programanvändning"
+ 
+ #: gphoto2/main.c:2003
+ msgid "Turn on debugging"
+@@ -1040,11 +1042,11 @@
+ 
+ #: gphoto2/main.c:2011
+ msgid "Simple parsable output (implies quiet)"
+-msgstr "Enkelt tolkningsbar utmatning (medför tyst)"
++msgstr "Enkel tolkningsbar utdata (medför tyst läge)"
+ 
+ #: gphoto2/main.c:2013
+ msgid "Hook script to call after downloads, captures, etc."
+-msgstr "Hook-skript att anropa efter hämtningar, tagningar, etc."
++msgstr "Hook-skript att anropa efter hämtningar, tagningar osv."
+ 
+ #: gphoto2/main.c:2020
+ msgid "Specify device port"
+@@ -1072,11 +1074,11 @@
+ 
+ #: gphoto2/main.c:2026
+ msgid "USBIDs"
+-msgstr "USBID"
++msgstr "USB-ID:n"
+ 
+ #: gphoto2/main.c:2032
+ msgid "Display version and exit"
+-msgstr "Visa versionsnummer och avsluta"
++msgstr "Visa versionsinformation och avsluta"
+ 
+ #: gphoto2/main.c:2034
+ msgid "List supported camera models"
+@@ -1088,7 +1090,7 @@
+ 
+ #: gphoto2/main.c:2038
+ msgid "Display the camera/driver abilities in the libgphoto2 database"
+-msgstr "Visa kamera-/drivrutinsförmågor i libgphoto2-databasen"
++msgstr "Visa kamerans/drivrutinens funktioner i libgphoto2-databasen"
+ 
+ #: gphoto2/main.c:2045
+ msgid "Configure"
+@@ -1124,15 +1126,15 @@
+ 
+ #: gphoto2/main.c:2066
+ msgid "Keep images on camera after capturing"
+-msgstr "Behåll bilder på kamera efter tagning"
++msgstr "Behåll bilder på kameran efter tagning"
+ 
+ #: gphoto2/main.c:2068
+ msgid "Keep RAW images on camera after capturing"
+-msgstr "Behåll RAW-bilder på kamera efter tagning"
++msgstr "Behåll RAW-bilder på kameran efter tagning"
+ 
+ #: gphoto2/main.c:2070
+ msgid "Remove images from camera after capturing"
+-msgstr "Ta bort bilder från kamera efter tagning"
++msgstr "Ta bort bilder från kameran efter tagning"
+ 
+ #: gphoto2/main.c:2072
+ msgid "Wait for event(s) from camera"
+@@ -1152,7 +1154,7 @@
+ 
+ #: gphoto2/main.c:2080
+ msgid "Show a quick preview as Ascii Art"
+-msgstr "Visa en snabb förhandsgranskning som Ascii-konst"
++msgstr "Visa en snabb förhandsgranskning som ASCII-konst"
+ 
+ #: gphoto2/main.c:2082
+ msgid "Set bulb exposure time in seconds"
+@@ -1164,7 +1166,7 @@
+ 
+ #: gphoto2/main.c:2084
+ msgid "Set number of frames to capture (default=infinite)"
+-msgstr "Ställ in antal bildrutor att fånga in (standard=oändligt)"
++msgstr "Ställ in antal bildrutor som ska tas (standard=oändligt)"
+ 
+ #: gphoto2/main.c:2084
+ msgid "COUNT"
+@@ -1212,7 +1214,7 @@
+ 
+ #: gphoto2/main.c:2108
+ msgid "List files in folder"
+-msgstr "Lista filer i mapp"
++msgstr "Lista filer i mappen"
+ 
+ #: gphoto2/main.c:2110
+ msgid "Create a directory"
+@@ -1220,7 +1222,7 @@
+ 
+ #: gphoto2/main.c:2110 gphoto2/main.c:2112
+ msgid "DIRNAME"
+-msgstr "KATNAMN"
++msgstr "KATALOGNAMN"
+ 
+ #: gphoto2/main.c:2112
+ msgid "Remove a directory"
+@@ -1246,7 +1248,7 @@
+ 
+ #: gphoto2/main.c:2120
+ msgid "Get thumbnails given in range"
+-msgstr "Hämta alla miniatyrbilder i det angivna intervallet"
++msgstr "Hämta miniatyrbilder i det angivna intervallet"
+ 
+ #: gphoto2/main.c:2123
+ msgid "Get all thumbnails from folder"
+@@ -1258,11 +1260,11 @@
+ 
+ #: gphoto2/main.c:2127
+ msgid "Get all metadata from folder"
+-msgstr "Hämta all metadata från mapp"
++msgstr "Hämta all metadata från mappen"
+ 
+ #: gphoto2/main.c:2129
+ msgid "Upload metadata for file"
+-msgstr "Skicka upp metadata för fil"
++msgstr "Ladda upp metadata för en fil"
+ 
+ #: gphoto2/main.c:2132
+ msgid "Get raw data given in range"
+@@ -1290,7 +1292,7 @@
+ 
+ #: gphoto2/main.c:2151
+ msgid "Upload a file to camera"
+-msgstr "Skicka upp fil till kamera"
++msgstr "Ladda upp en fil till kameran"
+ 
+ #: gphoto2/main.c:2153
+ msgid "Specify a filename or filename pattern"
+@@ -1303,7 +1305,7 @@
+ #: gphoto2/main.c:2155
+ #, c-format
+ msgid "Specify the number a filename %%n will starts with (default 1)"
+-msgstr "Ange numret som filnamn %%n kommer att starta med (standardvärde 1)"
++msgstr "Ange talet som %%n i filnamnet ska börja med (standardvärde 1)"
+ 
+ #: gphoto2/main.c:2155
+ msgid "NUMBER"
+@@ -1339,11 +1341,11 @@
+ 
+ #: gphoto2/main.c:2169
+ msgid "Skip existing files"
+-msgstr "Hoppa över existerande filer"
++msgstr "Hoppa över befintliga filer"
+ 
+ #: gphoto2/main.c:2175
+ msgid "Send file to stdout"
+-msgstr "Skicka fil till standard ut"
++msgstr "Skicka fil till standardutdata"
+ 
+ #: gphoto2/main.c:2177
+ msgid "Print filesize before data"
+@@ -1359,15 +1361,15 @@
+ 
+ #: gphoto2/main.c:2186 gphoto2/shell.c:143
+ msgid "Show image information, like width, height, and capture time"
+-msgstr "Visa bildinformation, så som bredd, höjd och tagningstid"
++msgstr "Visa bildinformation, såsom bredd, höjd och tagningstid"
+ 
+ #: gphoto2/main.c:2188 gphoto2/shell.c:156
+ msgid "Show camera summary"
+-msgstr "Visa kamera-sammandrag"
++msgstr "Visa kamerasammanfattning"
+ 
+ #: gphoto2/main.c:2190
+ msgid "Show camera driver manual"
+-msgstr "Visa kameradrivrutinens manual"
++msgstr "Visa kameradrivrutinens handbok"
+ 
+ #: gphoto2/main.c:2192
+ msgid "About the camera driver manual"
+@@ -1407,7 +1409,7 @@
+ 
+ #: gphoto2/main.c:2214
+ msgid "Downloading, uploading and manipulating files"
+-msgstr "Hämtar, skickar upp och manipulerar filer"
++msgstr "Hämta, ladda upp och hantera filer"
+ 
+ #: gphoto2/main.c:2269
+ msgid "EVENT can be either COUNT, SECONDS, MILLISECONDS, or MATCHSTRING.\n"
+@@ -1542,7 +1544,7 @@
+ 
+ #: gphoto2/shell.c:152 gphoto2/shell.c:172
+ msgid "Displays command usage"
+-msgstr "Visar kommandoanvändning"
++msgstr "Visar kommandots användning"
+ 
+ #: gphoto2/shell.c:153 gphoto2/shell.c:172
+ msgid "[command]"
+@@ -1550,7 +1552,7 @@
+ 
+ #: gphoto2/shell.c:154
+ msgid "List the contents of the current directory"
+-msgstr "Lista innehållet av den aktuella katalogen"
++msgstr "Lista innehållet i den aktuella katalogen"
+ 
+ #: gphoto2/shell.c:155
+ msgid "[directory/]"
+@@ -1610,11 +1612,11 @@
+ 
+ #: gphoto2/shell.c:168
+ msgid "Wait for images to be captured and download it"
+-msgstr "Vänta på bilder att fångas in och hämta dem"
++msgstr "Vänta på att bilder fångas in och hämta dem"
+ 
+ #: gphoto2/shell.c:169
+ msgid "Wait for events and images to be captured and download it"
+-msgstr "Vänta på händelser och bilder att fångas in samt hämta dem"
++msgstr "Vänta på händelser och att bilder fångas in samt hämta dem"
+ 
+ #: gphoto2/shell.c:494
+ msgid "Invalid command."
+@@ -1666,7 +1668,8 @@
+ #: gphoto2/shell.c:1032
+ #, c-format
+ msgid "Command '%s' not found. Use 'help' to get a list of available commands."
+-msgstr "Kommandot ”%s” hittades inte. Använd ”help” för att få en lista av tillgängliga kommandon."
++msgstr "Kommandot ”%s” hittades inte. Använd ”help” för att få en lista över "
++"tillgängliga kommandon."
+ 
+ #: gphoto2/shell.c:1039
+ #, c-format
+@@ -1686,7 +1689,7 @@
+ #: gphoto2/shell.c:1046
+ #, c-format
+ msgid "* Arguments in brackets [] are optional"
+-msgstr "* Argument inom klamrar [] är valfria"
++msgstr "* Argument inom hakparenteser [] är valfria"
+ 
+ #: gphoto2/shell.c:1067
+ #, c-format
+@@ -1696,7 +1699,7 @@
+ #: gphoto2/shell.c:1072
+ #, c-format
+ msgid "To get help on a particular command, type in 'help command-name'."
+-msgstr "För att få hjälp om ett speciellt kommando, skriv ”help kommandonamn”."
++msgstr "För att få hjälp om ett visst kommando, skriv ”help kommandonamn”."
+ 
+ #~ msgid "OS/2 port by Bart van Leeuwen\n"
+ #~ msgstr "OS/2-portering av Bart van Leeuwen\n"
