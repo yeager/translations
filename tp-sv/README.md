@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 70 434 aktiva poster i de 77 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 17 605 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 73 709 aktiva poster i de 79 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 18 394 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.20.3 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -88,6 +88,8 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#ea9999"><td>libc</td><td>2.43.9000</td><td align="right">1465</td><td align="right">558</td><td align="right">38.09 %</td><td><a href="libc-2.43.9000.sv.po">PO</a></td><td><a href="diff/libc-2.43.9000.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/libc-2.43.9000.sv.po">Original</a></td></tr>
 <tr bgcolor="#fff2cc"><td>libexif</td><td>0.6.25</td><td align="right">1323</td><td align="right">201</td><td align="right">15.19 %</td><td><a href="libexif-0.6.25.sv.po">PO</a></td><td><a href="diff/libexif-0.6.25.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/libexif-0.6.25.sv.po">Original</a></td></tr>
 <tr bgcolor="#e7f1cd"><td>libextractor</td><td>1.9</td><td align="right">490</td><td align="right">43</td><td align="right">8.78 %</td><td><a href="libextractor-1.9.sv.po">PO</a></td><td><a href="diff/libextractor-1.9.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/libextractor-1.9.sv.po">Original</a></td></tr>
+<tr bgcolor="#fce5cd"><td>libgphoto2</td><td>2.5.34</td><td align="right">3229</td><td align="right">781</td><td align="right">24.19 %</td><td><a href="libgphoto2-2.5.34.sv.po">PO</a></td><td><a href="diff/libgphoto2-2.5.34.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/libgphoto2-2.5.34.sv.po">Original</a></td></tr>
+<tr bgcolor="#fff2cc"><td>libiconv</td><td>1.17-pre1</td><td align="right">46</td><td align="right">8</td><td align="right">17.39 %</td><td><a href="libiconv-1.17-pre1.sv.po">PO</a></td><td><a href="diff/libiconv-1.17-pre1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/libiconv-1.17-pre1.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
