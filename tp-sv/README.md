@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 84 359 aktiva poster i de 95 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 21 670 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 85 007 aktiva poster i de 96 domänerna nedan är genomlästa. PO-filerna innehåller sammanlagt 21 966 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.0 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -106,6 +106,7 @@ Radernas färg visar rättningsandelen: grönt är låg och rött är hög. Skal
 <tr bgcolor="#f4cccc"><td>minicom</td><td>2.11.0-rc2</td><td align="right">418</td><td align="right">113</td><td align="right">27.03 %</td><td><a href="minicom-2.11.0-rc2.sv.po">PO</a></td><td><a href="diff/minicom-2.11.0-rc2.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/minicom-2.11.0-rc2.sv.po">Original</a></td></tr>
 <tr bgcolor="#f4cccc"><td>mpop</td><td>1.4.23rc1</td><td align="right">355</td><td align="right">89</td><td align="right">25.07 %</td><td><a href="mpop-1.4.23rc1.sv.po">PO</a></td><td><a href="diff/mpop-1.4.23rc1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/mpop-1.4.23rc1.sv.po">Original</a></td></tr>
 <tr bgcolor="#ea9999"><td>msmtp</td><td>1.8.33</td><td align="right">329</td><td align="right">127</td><td align="right">38.60 %</td><td><a href="msmtp-1.8.33.sv.po">PO</a></td><td><a href="diff/msmtp-1.8.33.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/msmtp-1.8.33.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>nano</td><td>9.2-pre1</td><td align="right">648</td><td align="right">296</td><td align="right">45.68 %</td><td><a href="nano-9.2-pre1.sv.po">PO</a></td><td><a href="diff/nano-9.2-pre1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/nano-9.2-pre1.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
