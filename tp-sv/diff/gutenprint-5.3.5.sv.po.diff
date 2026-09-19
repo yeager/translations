@@ -1326,3 +1326,751 @@
  
  #: src/escputil/escputil.c:1075 src/escputil/escputil.c:1094
  #: src/xml/xmli18n-tmp.h:159 src/xml/xmli18n-tmp.h:665
+@@ -4693,7 +4708,7 @@
+ #: src/escputil/escputil.c:1116
+ #, c-format
+ msgid "Status: Self-Printing\n"
+-msgstr "Status: självskrivande\n"
++msgstr "Status: skriver ut själv\n"
+ 
+ #: src/escputil/escputil.c:1119
+ #, c-format
+@@ -4708,7 +4723,7 @@
+ #: src/escputil/escputil.c:1125
+ #, c-format
+ msgid "Status: Idle\n"
+-msgstr "Status: overksam\n"
++msgstr "Status: inaktiv\n"
+ 
+ #: src/escputil/escputil.c:1128
+ #, c-format
+@@ -4718,7 +4733,7 @@
+ #: src/escputil/escputil.c:1131
+ #, c-format
+ msgid "Status: Cleaning\n"
+-msgstr "Status: rensar\n"
++msgstr "Status: rengör\n"
+ 
+ #: src/escputil/escputil.c:1134
+ #, c-format
+@@ -4733,7 +4748,7 @@
+ #: src/escputil/escputil.c:1140
+ #, c-format
+ msgid "Status: Shutting down\n"
+-msgstr "Status: stänger ner\n"
++msgstr "Status: stängs av\n"
+ 
+ #: src/escputil/escputil.c:1143
+ #, c-format
+@@ -4743,7 +4758,7 @@
+ #: src/escputil/escputil.c:1146
+ #, c-format
+ msgid "Status: Black ink switching\n"
+-msgstr "Status: byte av svart bläck\n"
++msgstr "Status: byter svart bläck\n"
+ 
+ #: src/escputil/escputil.c:1149
+ #, c-format
+@@ -4773,7 +4788,7 @@
+ #: src/escputil/escputil.c:1172
+ #, c-format
+ msgid "Error: Paper jam\n"
+-msgstr "Fel: papperstrassel\n"
++msgstr "Fel: papper har fastnat\n"
+ 
+ #: src/escputil/escputil.c:1175
+ #, c-format
+@@ -4798,7 +4813,7 @@
+ #: src/escputil/escputil.c:1187
+ #, c-format
+ msgid "Error: Maintenance cartridge overflow\n"
+-msgstr "Fel: spill i underhållskassetten.\n"
++msgstr "Fel: underhållskassetten är full\n"
+ 
+ #: src/escputil/escputil.c:1190
+ #, c-format
+@@ -4813,7 +4828,7 @@
+ #: src/escputil/escputil.c:1196
+ #, c-format
+ msgid "Error: Cleaning impossible\n"
+-msgstr "Fel: rengöring är omöjlig\n"
++msgstr "Fel: rengöring kan inte utföras\n"
+ 
+ #: src/escputil/escputil.c:1199
+ #, c-format
+@@ -4821,38 +4836,38 @@
+ "Error: Ink cartridge lever released\n"
+ "\n"
+ msgstr ""
+-"Fel: bläckpatronspaken släppt\n"
++"Fel: spärren för bläckpatronen är upplåst\n"
+ "\n"
+ 
+ #: src/escputil/escputil.c:1202
+ #, c-format
+ msgid "Error: Unrecoverable cutter error\n"
+-msgstr "Fel: orättbart fel i avskäraren\n"
++msgstr "Fel: avskärarfel som inte kan återställas\n"
+ 
+ #: src/escputil/escputil.c:1205
+ #, c-format
+ msgid "Error: Recoverable cutter jam\n"
+-msgstr "Fel: rättbar stockning i avskäraren\n"
++msgstr "Fel: avskäraren har fastnat men kan återställas\n"
+ 
+ #: src/escputil/escputil.c:1208
+ #, c-format
+ msgid "Error: No maintenance cartridge present\n"
+-msgstr "Fel: ingen underhållskassett tillgänglig\n"
++msgstr "Fel: ingen underhållskassett finns\n"
+ 
+ #: src/escputil/escputil.c:1211
+ #, c-format
+ msgid "Error: Rear cover open\n"
+-msgstr "Fel: Bakre luckan är öppen\n"
++msgstr "Fel: bakre luckan är öppen\n"
+ 
+ #: src/escputil/escputil.c:1214
+ #, c-format
+ msgid "Error: CD Tray Out\n"
+-msgstr "Fel: CD-facket slut\n"
++msgstr "Fel: cd-facket är utdraget\n"
+ 
+ #: src/escputil/escputil.c:1217
+ #, c-format
+ msgid "Error: Card loading error\n"
+-msgstr "Fel: kortläsningsfel\n"
++msgstr "Fel: kortmatningsfel\n"
+ 
+ #: src/escputil/escputil.c:1220
+ #, c-format
+@@ -4882,7 +4897,7 @@
+ #: src/escputil/escputil.c:1235
+ #, c-format
+ msgid "Error: Strip bin missing\n"
+-msgstr "Fel: remstunnan saknas\n"
++msgstr "Fel: behållaren för remsor saknas\n"
+ 
+ #: src/escputil/escputil.c:1238
+ #, c-format
+@@ -4897,12 +4912,12 @@
+ #: src/escputil/escputil.c:1253
+ #, c-format
+ msgid "Warning: %s Ink Low\n"
+-msgstr "Varning: %s bläcknivå är låg\n"
++msgstr "Varning: låg bläcknivå för %s\n"
+ 
+ #: src/escputil/escputil.c:1256
+ #, c-format
+ msgid "Warning: Channel %lu Ink Low\n"
+-msgstr "Varning: kanal %lu bläcknivå är låg\n"
++msgstr "Varning: låg bläcknivå för kanal %lu\n"
+ 
+ #: src/escputil/escputil.c:1262
+ #, c-format
+@@ -4932,7 +4947,7 @@
+ #: src/escputil/escputil.c:1290
+ #, c-format
+ msgid "Printing nozzle self-test\n"
+-msgstr "Skriver ut självtest av munstycke\n"
++msgstr "Skriver ut munstyckstest\n"
+ 
+ #: src/escputil/escputil.c:1354 src/escputil/escputil.c:1424
+ #, c-format
+@@ -4972,7 +4987,7 @@
+ #: src/escputil/escputil.c:1513
+ #, c-format
+ msgid "Paper Remaining:"
+-msgstr "Återstående papper: "
++msgstr "Återstående papper:"
+ 
+ #: src/escputil/escputil.c:1519
+ #, c-format
+@@ -4990,7 +5005,7 @@
+ #: src/escputil/escputil.c:1564
+ #, c-format
+ msgid "Obtaining %s requires using a raw device.\n"
+-msgstr "Få tag på %s kräver att en rå enhet används.\n"
++msgstr "Det krävs en rå enhet för att hämta %s.\n"
+ 
+ #: src/escputil/escputil.c:1772 src/escputil/escputil.c:1799
+ #: src/escputil/escputil.c:1821 src/escputil/escputil.c:1838
+@@ -5007,17 +5022,17 @@
+ #: src/escputil/escputil.c:1895
+ #, c-format
+ msgid "Obtaining extended ink information requires using a raw device.\n"
+-msgstr "Få tag på bläckinformation kräver att en rå enhet används.\n"
++msgstr "Det krävs en rå enhet för att hämta utökad bläckinformation.\n"
+ 
+ #: src/escputil/escputil.c:1922
+ #, c-format
+ msgid "Resetting ink levels requires using a raw device.\n"
+-msgstr "Att återställa bläcknivåer kräver att en rå enhet används.\n"
++msgstr "Det krävs en rå enhet för att återställa bläcknivåerna.\n"
+ 
+ #: src/escputil/escputil.c:1970
+ #, c-format
+ msgid "Printer identification requires using a raw device.\n"
+-msgstr "Skrivaridentifiering kräver att en rå enhet används.\n"
++msgstr "Det krävs en rå enhet för att identifiera skrivaren.\n"
+ 
+ #: src/escputil/escputil.c:1988
+ #, c-format
+@@ -5027,13 +5042,13 @@
+ #: src/escputil/escputil.c:2010
+ #, c-format
+ msgid "Cleaning heads...\n"
+-msgstr "Rensar huvuden...\n"
++msgstr "Rengör skrivarhuvudena …\n"
+ 
+ #: src/escputil/escputil.c:2027
+ #, c-format
+ msgid "Running nozzle check, please ensure paper is in the printer.\n"
+ msgstr ""
+-"Kör kontroll av munstycken, försäkra dig om att det finns papper i\n"
++"Kör munstyckstest. Kontrollera att det finns papper i "
+ "skrivaren.\n"
+ 
+ #: src/escputil/escputil.c:2031
+@@ -5180,7 +5195,7 @@
+ #: src/escputil/escputil.c:2110
+ #, c-format
+ msgid "Unable to send command to the printer, exiting.\n"
+-msgstr "Kan inte skicka kommando till skrivaren, avslutar.\n"
++msgstr "Kan inte skicka kommandot till skrivaren, avslutar.\n"
+ 
+ #: src/escputil/escputil.c:2124 src/escputil/escputil.c:2293
+ #, c-format
+@@ -5215,7 +5230,7 @@
+ #: src/escputil/escputil.c:2142
+ #, c-format
+ msgid "Please confirm by typing 'q' again that you wish to quit without saving:\n"
+-msgstr "Bekräfta att du vill avsluta utan att spara genom att trycka \"q\" igen:\n"
++msgstr "Bekräfta att du vill avsluta utan att spara genom att ange ”q” igen:\n"
+ 
+ #: src/escputil/escputil.c:2149
+ #, c-format
+@@ -5232,8 +5247,8 @@
+ "Please confirm by typing 'r' again that you wish to repeat the\n"
+ "alignment process:\n"
+ msgstr ""
+-"Bekräfta att du vill upprepa justeringsprocessen genom att\n"
+-"ange \"r\" igen:\n"
++"Bekräfta att du vill upprepa justeringsprocessen genom att "
++"ange ”r” igen:\n"
+ 
+ #: src/escputil/escputil.c:2164
+ #, c-format
+@@ -5249,16 +5264,16 @@
+ "Please confirm by typing 's' again that you wish to save the settings\n"
+ "to your printer:\n"
+ msgstr ""
+-"Detta kommer att permanent ändra din skrivares konfiguration.\n"
+-"VARNING: detta förlopp har inte godkänts av Seiko Epson, och kan\n"
+-"skada din skrivare. Vill du fortsätta?\n"
+-"Bekräfta att du vill spara ändringarna i skrivaren genom att ange\n"
+-"\"s\" igen:\n"
++"Detta ändrar skrivarens konfiguration permanent.\n"
++"VARNING: förfarandet har inte godkänts av Seiko Epson och kan "
++"skada skrivaren. Fortsätt?\n"
++"Bekräfta att du vill spara inställningarna i skrivaren genom att ange ”"
++"s” igen:\n"
+ 
+ #: src/escputil/escputil.c:2182
+ #, c-format
+ msgid "About to save settings..."
+-msgstr "Kommer att spara inställningar..."
++msgstr "Ska spara inställningarna …"
+ 
+ #: src/escputil/escputil.c:2188
+ #, c-format
+@@ -5271,7 +5286,7 @@
+ "Your settings were not saved successfully.  You must repeat the\n"
+ "alignment procedure.\n"
+ msgstr ""
+-"Dina inställningar sparades inte utan problem. Du måste upprepa\n"
++"Inställningarna sparades inte. Du måste upprepa "
+ "justeringsproceduren.\n"
+ 
+ #: src/escputil/escputil.c:2193
+@@ -5282,7 +5297,7 @@
+ #: src/escputil/escputil.c:2194
+ #, c-format
+ msgid "Your alignment settings have been saved to the printer.\n"
+-msgstr "Dina justeringsinställningar har sparats till skrivaren.\n"
++msgstr "Justeringsinställningarna har sparats i skrivaren.\n"
+ 
+ #: src/escputil/escputil.c:2199
+ #, c-format
+@@ -5304,17 +5319,16 @@
+ "Please place a sheet of paper in your printer to begin the head\n"
+ "alignment procedure.\n"
+ msgstr ""
+-"Denna procedur förutsätter att din skrivare är en %s.\n"
+-"Om detta inte är din skrivarmodell bör du trycka Control+C nu\n"
+-"och välja din rätta skrivarmodell.\n"
++"Förfarandet förutsätter att skrivaren är en %s.\n"
++"Om detta inte är skrivarmodellen, tryck Ctrl-C nu "
++"och välj rätt skrivarmodell.\n"
+ "\n"
+-"Placera ett pappersark i skrivaren för att påbörja justeringen\n"
+-"av huvudena.\n"
++"Placera ett pappersark i skrivaren för att börja justera skrivarhuvudena.\n"
+ 
+ #: src/escputil/escputil.c:2276 src/escputil/escputil.c:2307
+ #: src/escputil/escputil.c:2350
+ msgid "Press enter to continue > "
+-msgstr "Tryck retur för att fortsätta > "
++msgstr "Tryck på Retur för att fortsätta > "
+ 
+ #: src/escputil/escputil.c:2283
+ #, c-format
+@@ -5323,7 +5337,7 @@
+ "Type a pair number, '?' for help, or 'r' to repeat the procedure.\n"
+ msgstr ""
+ "Granska utskriften och välj det bästa linjeparet i varje mönster.\n"
+-"Skriv in ett parnummer, \"?\" för hjälp, eller \"r\" för att upprepa proceduren.\n"
++"Ange ett parnummer, ”?” för hjälp eller ”r” för att upprepa proceduren.\n"
+ 
+ #: src/escputil/escputil.c:2296
+ #, c-format
+@@ -5343,7 +5357,7 @@
+ #: src/escputil/escputil.c:2328
+ #, c-format
+ msgid "I cannot understand what you typed!\n"
+-msgstr "Jag kan inte förstå vad du skrev!\n"
++msgstr "Jag förstår inte vad du angav!\n"
+ 
+ #: src/escputil/escputil.c:2334
+ #, c-format
+@@ -5353,7 +5367,7 @@
+ #: src/escputil/escputil.c:2341
+ #, c-format
+ msgid "Attempting to set alignment..."
+-msgstr "Försöker ställa in justering..."
++msgstr "Försöker ange justeringen …"
+ 
+ #: src/escputil/escputil.c:2344
+ #, c-format
+@@ -5368,10 +5382,10 @@
+ "pattern %d.  If it is not, you should repeat the process to get the best\n"
+ "quality printing.\n"
+ msgstr ""
+-"Verifiera att justeringen är korrekt. Efter det att justeringsmönstret\n"
+-"skrivits ut igen bör du försäkra dig om att det bästa mönstret för varje\n"
+-"linje är mönster %d. Om det inte är det bör du upprepa proceduren för\n"
+-"att få bästa utskriftskvalitet.\n"
++"Kontrollera att justeringen är korrekt. När justeringsmönstret har "
++"skrivits ut igen ska det bästa mönstret för varje "
++"linje vara mönster %d. Upprepa proceduren om så inte är fallet för"
++" bästa utskriftskvalitet.\n"
+ 
+ #: src/escputil/escputil.c:2391
+ #, c-format
+@@ -5581,7 +5595,7 @@
+ #: src/xml/xmli18n-tmp.h:423 src/xml/xmli18n-tmp.h:513
+ #: src/xml/xmli18n-tmp.h:538
+ msgid "MIS Six Tone"
+-msgstr "MIS sextoners"
++msgstr "MIS sexton"
+ 
+ #: src/xml/xmli18n-tmp.h:110 src/xml/xmli18n-tmp.h:349
+ #: src/xml/xmli18n-tmp.h:374 src/xml/xmli18n-tmp.h:399
+@@ -5606,32 +5620,32 @@
+ 
+ #: src/xml/xmli18n-tmp.h:121
+ msgid "Five Color Photo"
+-msgstr "Femfärgs foto"
++msgstr "Femfärgsfoto"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:143 src/xml/xmli18n-tmp.h:165
+ msgid "One Color Raw Enhanced Gloss"
+-msgstr "Enfärgers rå förbättrad glansig"
++msgstr "Enfärgsrå med förbättrad glans"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:145 src/xml/xmli18n-tmp.h:167
+ msgid "Three Color Raw Gloss"
+-msgstr "Trefärgers rå glansig"
++msgstr "Trefärgsrå med glans"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:146 src/xml/xmli18n-tmp.h:168
+ msgid "Four Color Raw Gloss"
+-msgstr "Fyrfärgers rå glansig"
++msgstr "Fyrfärgsrå med glans"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:147 src/xml/xmli18n-tmp.h:169
+ msgid "Six Color Enhanced Gloss Raw"
+-msgstr "Sexfärgers förbättrad glansig rå"
++msgstr "Sexfärgsrå med förbättrad glans"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:148 src/xml/xmli18n-tmp.h:170
+ msgid "Seven Color Enhanced Gloss Raw"
+-msgstr "Sjufärgers förbättrad glansig rå"
++msgstr "Sjufärgsrå med förbättrad glans"
+ 
+ #: src/xml/xmli18n-tmp.h:171
+ msgid "MatteBlack"
+@@ -5650,23 +5664,23 @@
+ #: src/xml/xmli18n-tmp.h:689 src/xml/xmli18n-tmp.h:708
+ #: src/xml/xmli18n-tmp.h:727 src/xml/xmli18n-tmp.h:786
+ msgid "Seven Color Photo"
+-msgstr "Sjufärgs foto"
++msgstr "Sjufärgsfoto"
+ 
+ #: src/xml/xmli18n-tmp.h:231 src/xml/xmli18n-tmp.h:1362
+ #: src/xml/xmli18n-tmp.h:1387
+ msgid "Dark Yellow"
+-msgstr "Mörk gul"
++msgstr "Mörkgul"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:233
+ msgid "Six Color Enhanced Composite"
+-msgstr "Sexfärgs förbättrad sammansatt"
++msgstr "Förbättrad sexfärgskomposit"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:243 src/xml/xmli18n-tmp.h:264
+ #: src/xml/xmli18n-tmp.h:578 src/xml/xmli18n-tmp.h:805
+ msgid "Seven Color Raw"
+-msgstr "Sjufärgers rå"
++msgstr "Sjufärgsrå"
+ 
+ #: src/xml/xmli18n-tmp.h:244 src/xml/xmli18n-tmp.h:558
+ #: src/xml/xmli18n-tmp.h:785 src/xml/xmli18n-tmp.h:2261
+@@ -5682,13 +5696,13 @@
+ #: src/xml/xmli18n-tmp.h:257 src/xml/xmli18n-tmp.h:571
+ #: src/xml/xmli18n-tmp.h:798
+ msgid "Two Level Grayscale"
+-msgstr "Tvånivås gråton"
++msgstr "Gråskala med två nivåer"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:259 src/xml/xmli18n-tmp.h:573
+ #: src/xml/xmli18n-tmp.h:800
+ msgid "Two Color Raw"
+-msgstr "Tvåfärgers rå"
++msgstr "Tvåfärgsrå"
+ 
+ #: src/xml/xmli18n-tmp.h:265 src/xml/xmli18n-tmp.h:579
+ #: src/xml/xmli18n-tmp.h:806 src/xml/xmli18n-tmp.h:2262
+@@ -5699,7 +5713,7 @@
+ #: src/xml/xmli18n-tmp.h:2736 src/xml/xmli18n-tmp.h:2758
+ #: src/xml/xmli18n-tmp.h:2846
+ msgid "UltraChrome Matte Black"
+-msgstr "UltraChrome matterad svart"
++msgstr "UltraChrome matsvart"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:267 src/xml/xmli18n-tmp.h:284
+@@ -5707,7 +5721,7 @@
+ #: src/xml/xmli18n-tmp.h:623 src/xml/xmli18n-tmp.h:649
+ #: src/xml/xmli18n-tmp.h:669
+ msgid "Eight Color Photo"
+-msgstr "Åttafärgers foto"
++msgstr "Åttafärgsfoto"
+ 
+ # Jag tror inte detta ska skrivas samman, jfr snarlika meddelanden
+ #: src/xml/xmli18n-tmp.h:281 src/xml/xmli18n-tmp.h:298
+@@ -5716,11 +5730,11 @@
+ #: src/xml/xmli18n-tmp.h:683 src/xml/xmli18n-tmp.h:701
+ #: src/xml/xmli18n-tmp.h:720 src/xml/xmli18n-tmp.h:739
+ msgid "Eight Color Raw"
+-msgstr "Åttafärgers rå"
++msgstr "Åttafärgsrå"
+ 
+ #: src/xml/xmli18n-tmp.h:475 src/xml/xmli18n-tmp.h:489
+ msgid "Four Color Photo"
+-msgstr "Fyrfärgs foto"
++msgstr "Fyrfärgsfoto"
+ 
+ #: src/xml/xmli18n-tmp.h:580 src/xml/xmli18n-tmp.h:2621
+ msgid "UltraChrome D6-S"
+@@ -5730,7 +5744,7 @@
+ #: src/xml/xmli18n-tmp.h:703 src/xml/xmli18n-tmp.h:722
+ #: src/xml/xmli18n-tmp.h:741
+ msgid "Ten Color Raw"
+-msgstr "Tiofärgers rå"
++msgstr "Tiofärgsrå"
+ 
+ #: src/xml/xmli18n-tmp.h:847
+ msgid "Main Tray"
+@@ -5755,7 +5769,7 @@
+ #: src/xml/xmli18n-tmp.h:851 src/xml/xmli18n-tmp.h:894
+ #: src/xml/xmli18n-tmp.h:897
+ msgid "Front Tray"
+-msgstr "Framlucka"
++msgstr "Främre fack"
+ 
+ #: src/xml/xmli18n-tmp.h:855 src/xml/xmli18n-tmp.h:861
+ #: src/xml/xmli18n-tmp.h:874
+@@ -5806,15 +5820,15 @@
+ 
+ #: src/xml/xmli18n-tmp.h:900
+ msgid "Cut Sheet Bin 1"
+-msgstr "Skurna ark hög 1"
++msgstr "Arkfack 1"
+ 
+ #: src/xml/xmli18n-tmp.h:901
+ msgid "Cut Sheet Bin 2"
+-msgstr "Skurna ark hög 2"
++msgstr "Arkfack 2"
+ 
+ #: src/xml/xmli18n-tmp.h:902
+ msgid "Cut Sheet Autoselect"
+-msgstr "Skär ark välj automatiskt"
++msgstr "Välj arkfack automatiskt"
+ 
+ #: src/xml/xmli18n-tmp.h:903
+ msgid "Manual Selection"
+@@ -5851,7 +5865,7 @@
+ #: src/xml/xmli18n-tmp.h:2976 src/xml/xmli18n-tmp.h:3018
+ #: src/xml/xmli18n-tmp.h:3028
+ msgid "360 x 180 DPI Draft"
+-msgstr "360 × 180 DPI utdrag"
++msgstr "360 × 180 DPI utkast"
+ 
+ #: src/xml/xmli18n-tmp.h:918 src/xml/xmli18n-tmp.h:940
+ #: src/xml/xmli18n-tmp.h:969 src/xml/xmli18n-tmp.h:985
+@@ -6171,7 +6185,7 @@
+ #: src/xml/xmli18n-tmp.h:2985 src/xml/xmli18n-tmp.h:2992
+ #: src/xml/xmli18n-tmp.h:3001 src/xml/xmli18n-tmp.h:3009
+ msgid "360 x 240 DPI Draft"
+-msgstr "360 × 240 DPI utdrag"
++msgstr "360 × 240 DPI utkast"
+ 
+ #: src/xml/xmli18n-tmp.h:945 src/xml/xmli18n-tmp.h:1083
+ #: src/xml/xmli18n-tmp.h:1149 src/xml/xmli18n-tmp.h:1190
+@@ -6186,7 +6200,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:965
+ msgid "1440 x 720 DPI Transposed"
+-msgstr "1440 x 720 DPI omvänt"
++msgstr "1440 × 720 DPI transponerad"
+ 
+ #: src/xml/xmli18n-tmp.h:982 src/xml/xmli18n-tmp.h:995
+ #: src/xml/xmli18n-tmp.h:1114 src/xml/xmli18n-tmp.h:1127
+@@ -6244,7 +6258,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:1724
+ msgid "Vivid Light Magenta"
+-msgstr "Intensiv ljus magenta"
++msgstr "Intensiv ljusmagenta"
+ 
+ #: src/xml/xmli18n-tmp.h:1729
+ msgid "Vivid Magenta"
+@@ -6314,7 +6328,7 @@
+ #: src/xml/xmli18n-tmp.h:2852 src/xml/xmli18n-tmp.h:2873
+ #: src/xml/xmli18n-tmp.h:2892
+ msgid "Back Light Film"
+-msgstr "Bakljusfilm"
++msgstr "Bakgrundsbelyst film"
+ 
+ #: src/xml/xmli18n-tmp.h:1908 src/xml/xmli18n-tmp.h:1931
+ #: src/xml/xmli18n-tmp.h:1957 src/xml/xmli18n-tmp.h:1978
+@@ -6340,13 +6354,13 @@
+ #: src/xml/xmli18n-tmp.h:2854 src/xml/xmli18n-tmp.h:2875
+ #: src/xml/xmli18n-tmp.h:2894
+ msgid "Matte Paper Heavyweight"
+-msgstr "Matt tungt papper"
++msgstr "Kraftigt matt papper"
+ 
+ #: src/xml/xmli18n-tmp.h:1909 src/xml/xmli18n-tmp.h:1932
+ #: src/xml/xmli18n-tmp.h:2046 src/xml/xmli18n-tmp.h:2072
+ #: src/xml/xmli18n-tmp.h:2099
+ msgid "Premium Presentation Paper Matte"
+-msgstr "Premium matt presentationspapper"
++msgstr "Matt presentationspapper av premiummärke"
+ 
+ #: src/xml/xmli18n-tmp.h:1914 src/xml/xmli18n-tmp.h:1939
+ #: src/xml/xmli18n-tmp.h:2051 src/xml/xmli18n-tmp.h:2078
+@@ -6502,7 +6516,7 @@
+ #: src/xml/xmli18n-tmp.h:3049 src/xml/xmli18n-tmp.h:3054
+ #: src/xml/xmli18n-tmp.h:3060
+ msgid "Interleave"
+-msgstr "Fläta samman"
++msgstr "Sammanflätning"
+ 
+ #: src/xml/xmli18n-tmp.h:3050 src/xml/xmli18n-tmp.h:3055
+ #: src/xml/xmli18n-tmp.h:3061
+@@ -6512,16 +6526,16 @@
+ #: src/xml/xmli18n-tmp.h:3051 src/xml/xmli18n-tmp.h:3056
+ #: src/xml/xmli18n-tmp.h:3062
+ msgid "Four Pass"
+-msgstr "Fyrpass"
++msgstr "Fyra pass"
+ 
+ #: src/xml/xmli18n-tmp.h:3052 src/xml/xmli18n-tmp.h:3057
+ #: src/xml/xmli18n-tmp.h:3063
+ msgid "Full Overlap 2"
+-msgstr "Fullständigt överlapp 2"
++msgstr "Full överlappning 2"
+ 
+ #: src/xml/xmli18n-tmp.h:3058 src/xml/xmli18n-tmp.h:3064
+ msgid "Interleave 2"
+-msgstr "Fläta samman 2"
++msgstr "Sammanflätning 2"
+ 
+ #: src/xml/xmli18n-tmp.h:3065
+ msgid "Eight Pass"
+@@ -6985,7 +6999,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3189
+ msgid "ArchA transposed"
+-msgstr "ArchA omvänt"
++msgstr "ArchA transponerad"
+ 
+ #: src/xml/xmli18n-tmp.h:3190
+ msgid "ArchB"
+@@ -6993,7 +7007,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3191
+ msgid "ArchB transposed"
+-msgstr "ArchB omvänt"
++msgstr "ArchB transponerad"
+ 
+ #: src/xml/xmli18n-tmp.h:3192
+ msgid "ArchC"
+@@ -7001,7 +7015,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3193
+ msgid "ArchC transposed"
+-msgstr "ArchC omvänt"
++msgstr "ArchC transponerad"
+ 
+ #: src/xml/xmli18n-tmp.h:3194
+ msgid "ArchD"
+@@ -7009,7 +7023,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3195
+ msgid "ArchD transposed"
+-msgstr "ArchD omvänt"
++msgstr "ArchD transponerad"
+ 
+ #: src/xml/xmli18n-tmp.h:3196
+ msgid "ArchE"
+@@ -7017,7 +7031,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3197
+ msgid "ArchE transposed"
+-msgstr "ArchE omvänt"
++msgstr "ArchE transponerad"
+ 
+ #: src/xml/xmli18n-tmp.h:3198
+ msgid "American foolscap"
+@@ -7033,32 +7047,32 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3201
+ msgid "Large Crown Quarto"
+-msgstr "Large crown quarto"
++msgstr "Large Crown Quarto"
+ 
+ # får plats
+ #: src/xml/xmli18n-tmp.h:3202
+ msgid "Demy Quarto"
+-msgstr "Demy quarto"
++msgstr "Demy Quarto"
+ 
+ #: src/xml/xmli18n-tmp.h:3203
+ msgid "Royal Quarto"
+-msgstr "Royal quarto"
++msgstr "Royal Quarto"
+ 
+ #: src/xml/xmli18n-tmp.h:3204
+ msgid "Crown Octavo"
+-msgstr "Crown octavo"
++msgstr "Crown Octavo"
+ 
+ #: src/xml/xmli18n-tmp.h:3205
+ msgid "Large Crown Octavo"
+-msgstr "Large crown octavo"
++msgstr "Large Crown Octavo"
+ 
+ #: src/xml/xmli18n-tmp.h:3206
+ msgid "Demy Octavo"
+-msgstr "Demy octavo"
++msgstr "Demy Octavo"
+ 
+ #: src/xml/xmli18n-tmp.h:3207
+ msgid "Royal Octavo"
+-msgstr "Royal octavo"
++msgstr "Royal Octavo"
+ 
+ #: src/xml/xmli18n-tmp.h:3208
+ msgid "Small paperback"
+@@ -7074,7 +7088,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3211
+ msgid "10cm x 15cm"
+-msgstr "10cm x 15cm"
++msgstr "10 cm × 15 cm"
+ 
+ #: src/xml/xmli18n-tmp.h:3212
+ msgid "Hagaki Card"
+@@ -7170,15 +7184,15 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3235
+ msgid "Chilean Office"
+-msgstr "Chilenskt office"
++msgstr "Chilenskt Office"
+ 
+ #: src/xml/xmli18n-tmp.h:3236
+ msgid "Chilean Double Letter"
+-msgstr "Chilenskt dubbelt letter"
++msgstr "Chilenskt Double Letter"
+ 
+ #: src/xml/xmli18n-tmp.h:3237
+ msgid "Chilean Double Office"
+-msgstr "Chilenskt dubbelt office"
++msgstr "Chilenskt Double Office"
+ 
+ #: src/xml/xmli18n-tmp.h:3238
+ msgid "A3+"
+@@ -7194,11 +7208,11 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3241
+ msgid " Brazil Oficio"
+-msgstr " Brasilianskt oficio"
++msgstr " Brasilianskt Oficio"
+ 
+ #: src/xml/xmli18n-tmp.h:3242
+ msgid "Mexico Oficio"
+-msgstr "Mexiko Oficio"
++msgstr "Mexikanskt Oficio"
+ 
+ #: src/xml/xmli18n-tmp.h:3244
+ msgid "89 mm Roll Paper"
+@@ -7354,7 +7368,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:3282
+ msgid "8.00x12.00 in label"
+-msgstr "8.00x12.00 in label"
++msgstr "8,00 × 12,00 tum etikett"
+ 
+ #: src/xml/xmli18n-tmp.h:3283
+ msgid "8.50x6.00 in label"
+@@ -11458,7 +11472,7 @@
+ 
+ #: src/xml/xmli18n-tmp.h:4309
+ msgid "Canon TS5000 series"
+-msgstr "Canon TS5000 series"
++msgstr "Canon TS5000-serien"
+ 
+ #: src/xml/xmli18n-tmp.h:4310
+ msgid "Canon PIXMA TS5010"
+@@ -21850,8 +21864,8 @@
+ 
+ #: src/xml/xmli18n-tmp.h:6907
+ msgid "RAW DATA 16 bit"
+-msgstr "RÅ DATA 16-bitar"
++msgstr "16-bitars RÅDATA"
+ 
+ #: src/xml/xmli18n-tmp.h:6908
+ msgid "RAW DATA 8 bit"
+-msgstr "RÅ DATA 8-bitar"
++msgstr "8-bitars RÅDATA"
