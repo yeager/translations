@@ -1238,3 +1238,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – adresscache, uppföljning (2026-09-19):** **15** ytterligare API-verifierade svenska UI-strängar är publicerade med HTTP 201 för adresscachesökning, historik, aktiviteter, geokoordinater och användar-/revisionsmetadata i release 8.10. Backup: `SuiteCRM-Core/sv-address-cache-followup-810-20260919.json`.
 
 **SuiteCRM Core – områdesgränssnitt (2026-09-19):** Tre verifierade luckor i release 8.10:s områdes- och användarhistorikgränssnitt är kontextöversatta och publicerade med HTTP 201. Backup: `SuiteCRM-Core/sv-areas-810-20260919.json`.
+
+**SuiteCRM Core – kartgränssnitt (2026-09-19):** Sex verifierade UI-luckor för kartor och kartlistor i release 8.10 är översatta och API-publicerade med HTTP 201. Backup: `SuiteCRM-Core/sv-maps-810-20260919.json`.
