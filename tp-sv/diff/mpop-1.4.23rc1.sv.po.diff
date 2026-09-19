@@ -1,0 +1,739 @@
+--- a/mpop-1.4.23rc1.sv.po
++++ b/mpop-1.4.23rc1.sv.po
+@@ -23,7 +23,7 @@
+ #: src/conf.c:728 src/conf.c:733
+ #, c-format
+ msgid "host not set"
+-msgstr "värd inte inställd"
++msgstr "värd är inte angiven"
+ 
+ #: src/conf.c:738
+ #, c-format
+@@ -107,7 +107,7 @@
+ #: src/conf.c:1564 src/conf.c:1589
+ #, c-format
+ msgid "line %d: invalid size (not a number or out of range): %s"
+-msgstr "rad %d: ogiltigt storlek (inte ett nummer eller utanför intervallet): %s"
++msgstr "rad %d: ogiltig storlek (inte ett tal eller utanför intervallet): %s"
+ 
+ #: src/conf.c:1674
+ #, c-format
+@@ -122,7 +122,8 @@
+ #: src/conf.c:1734
+ #, c-format
+ msgid "contains secrets and therefore must have no more than user read/write permissions"
+-msgstr "innehåller hemligheter och får därför inte ha mer än användarens läs-/skrivbehörighet"
++msgstr "innehåller hemligheter och får därför endast ha läs- och skrivbehörighet för "
++"användaren"
+ 
+ #: src/delivery.c:82
+ msgid "EX_OK: no error"
+@@ -166,11 +167,11 @@
+ 
+ #: src/delivery.c:112
+ msgid "EX_CANTCREAT: cannot create output file"
+-msgstr "EX_CANTCREAT: kan inte skapa utdata fil"
++msgstr "EX_CANTCREAT: kan inte skapa utdatafil"
+ 
+ #: src/delivery.c:115
+ msgid "EX_IOERR: input/output error"
+-msgstr "EX_IOERR: in/utgångsfel"
++msgstr "EX_IOERR: indata-/utdatafel"
+ 
+ #: src/delivery.c:118
+ msgid "EX_TEMPFAIL: temporary failure"
+@@ -221,7 +222,7 @@
+ #: src/delivery.c:382 src/delivery.c:541
+ #, c-format
+ msgid "cannot open %s%c%s: %s"
+-msgstr "kan inte öppna: %s%c%s: %s"
++msgstr "kan inte öppna %s%c%s: %s"
+ 
+ #: src/delivery.c:397 src/delivery.c:567
+ #, c-format
+@@ -283,7 +284,7 @@
+ #: src/mpop.c:94
+ #, c-format
+ msgid "%s: FATAL: %s\n"
+-msgstr "%s: ÖDESDIGER: %s\n"
++msgstr "%s: KRITISKT FEL: %s\n"
+ 
+ #: src/mpop.c:235 src/mpop.c:735
+ #, c-format
+@@ -293,27 +294,27 @@
+ #: src/mpop.c:305
+ #, c-format
+ msgid "POP3 server at %s (%s [%s]), port %d:\n"
+-msgstr "POP3 server på %s (%s[%s]), port %d:\n"
++msgstr "POP3-server på %s (%s [%s]), port %d:\n"
+ 
+ #: src/mpop.c:311
+ #, c-format
+ msgid "POP3 server at %s (%s), port %d:\n"
+-msgstr "POP3 server på %s(%s), port %d:\n"
++msgstr "POP3-server på %s (%s), port %d:\n"
+ 
+ #: src/mpop.c:317
+ #, c-format
+ msgid "POP3 server at %s ([%s]), port %d:\n"
+-msgstr "POP3 server på %s([%s]), port %d:\n"
++msgstr "POP3-server på %s ([%s]), port %d:\n"
+ 
+ #: src/mpop.c:323
+ #, c-format
+ msgid "POP3 server at %s, port %d:\n"
+-msgstr "POP3 server på %s, port %d:\n"
++msgstr "POP3-server på %s, port %d:\n"
+ 
+ #: src/mpop.c:336
+ #, c-format
+ msgid "POP3 capabilities:\n"
+-msgstr "POP3 förmågor:\n"
++msgstr "POP3-funktioner:\n"
+ 
+ #: src/mpop.c:340
+ msgid "Support for the CAPA command (get list of capabilities)"
+@@ -369,7 +370,7 @@
+ 
+ #: src/mpop.c:451 src/mpop.c:457
+ msgid "Server error messages in square brackets have a special meaning"
+-msgstr "Serverfelmeddelanden inom hakparenteser har en speciell betydelse"
++msgstr "Serverfelmeddelanden inom hakparenteser har särskild betydelse"
+ 
+ #: src/mpop.c:466
+ #, c-format
+@@ -395,8 +396,8 @@
+ "This server does not support the CAPA command, so this\n"
+ "    list is probably not complete.\n"
+ msgstr ""
+-"Den här servern stöder inte CAPA-kommandot, så denna\n"
+-"     listan är förmodligen inte komplett.\n"
++"Den här servern stöder inte CAPA-kommandot, så listan\n"
++"     är sannolikt inte fullständig.\n"
+ 
+ #: src/mpop.c:510
+ #, c-format
+@@ -426,7 +427,7 @@
+ #: src/mpop.c:543
+ #, c-format
+ msgid "skipping message %ld of %ld (reason: filter + keep)\n"
+-msgstr "skippar meddelande %ld av %ld (anledning: filter + behåll)\n"
++msgstr "hoppar över meddelande %ld av %ld (orsak: filter + behåll)\n"
+ 
+ #: src/mpop.c:548
+ #, c-format
+@@ -436,7 +437,7 @@
+ #: src/mpop.c:554
+ #, c-format
+ msgid "skipping message %ld of %ld (reason: filter)\n"
+-msgstr "skippar meddelande %ld av %ld (anledning: filter)\n"
++msgstr "hoppar över meddelande %ld av %ld (orsak: filter)\n"
+ 
+ #: src/mpop.c:563
+ #, c-format
+@@ -446,7 +447,7 @@
+ #: src/mpop.c:568
+ #, c-format
+ msgid "retrieving message %ld of %ld: "
+-msgstr "hämtar meddelande %ld av %ld "
++msgstr "hämtar meddelande %ld av %ld: "
+ 
+ #: src/mpop.c:779 src/mpop.c:833 src/mpop.c:856 src/mpop.c:1013
+ #: src/mtls-gnutls.c:648 src/mtls-gnutls.c:695 src/mtls-openssl.c:866
+@@ -495,17 +496,17 @@
+ #: src/mpop.c:981
+ #, c-format
+ msgid "skipping message %ld of %ld (reason: killsize + keep)\n"
+-msgstr "skippar meddelande %ld av %ld (anledning: dödstorlek + behåll)\n"
++msgstr "hoppar över meddelande %ld av %ld (orsak: killsize + behåll)\n"
+ 
+ #: src/mpop.c:987
+ #, c-format
+ msgid "deleting message %ld of %ld (reason: killsize)\n"
+-msgstr "tar bort meddelande %ld av %ld (anledning: dödstorlek)\n"
++msgstr "tar bort meddelande %ld av %ld (orsak: killsize)\n"
+ 
+ #: src/mpop.c:998
+ #, c-format
+ msgid "skipping message %ld of %ld (reason: skipsize)\n"
+-msgstr "skippar meddelande %ld av %ld (anledning:dödstorlek)\n"
++msgstr "hoppar över meddelande %ld av %ld (orsak: skipsize)\n"
+ 
+ #: src/mpop.c:1023
+ #, c-format
+@@ -533,15 +534,15 @@
+ 
+ #: src/mpop.c:1263
+ msgid "warning: the host does not match the mail domain; please check"
+-msgstr "varning: värden matchar inte e-postdomänen; vänligen kontrollera"
++msgstr "varning: värden matchar inte e-postdomänen; kontrollera"
+ 
+ #: src/mpop.c:1266 src/mpop.c:1270
+ msgid "add your password to the key ring:"
+-msgstr "lägg till ditt lösenord till nyckelringen:"
++msgstr "lägg till lösenordet i nyckelringen:"
+ 
+ #: src/mpop.c:1273
+ msgid "encrypt your password:"
+-msgstr "kryptera ditt lösenord:"
++msgstr "kryptera lösenordet:"
+ 
+ #: src/mpop.c:1275
+ msgid "adjust the delivery command"
+@@ -579,7 +580,7 @@
+ #: src/mpop.c:1428
+ #, c-format
+ msgid "cannot clean up after delivery: %s"
+-msgstr "kan inte städa upp efter leveransen: %s"
++msgstr "kan inte rensa upp efter leveransen: %s"
+ 
+ #: src/mpop.c:1465
+ #, c-format
+@@ -607,7 +608,7 @@
+ #: src/mpop.c:2331
+ #, c-format
+ msgid "Platform: %s\n"
+-msgstr "Platform: %s\n"
++msgstr "Plattform: %s\n"
+ 
+ #: src/mpop.c:2333
+ #, c-format
+@@ -639,7 +640,7 @@
+ #: src/mpop.c:2385
+ #, c-format
+ msgid "IDN support: "
+-msgstr "IDN stöd: "
++msgstr "IDN-stöd: "
+ 
+ #: src/mpop.c:2389 src/mpop.c:2397
+ #, c-format
+@@ -659,7 +660,7 @@
+ #: src/mpop.c:2398
+ #, c-format
+ msgid ", LOCALEDIR is %s"
+-msgstr ", LOKALKATALOG är %s"
++msgstr ", LOCALEDIR är %s"
+ 
+ #: src/mpop.c:2403
+ #, c-format
+@@ -679,7 +680,7 @@
+ #: src/mpop.c:2417
+ #, c-format
+ msgid "Configuration file name: %s\n"
+-msgstr "Konfigurationsfilnamn %s\n"
++msgstr "Konfigurationsfilnamn: %s\n"
+ 
+ #: src/mpop.c:2421
+ #, c-format
+@@ -690,9 +691,9 @@
+ "There is NO WARRANTY, to the extent permitted by law.\n"
+ msgstr ""
+ "Copyright (C) %d Martin Lambers och andra.\n"
+-"Detta är gratis programvara. Du får vidaredistribuera kopior av den enligt villkoren i\n"
++"Detta är fri programvara. Du får vidaredistribuera kopior enligt villkoren i\n"
+ "GNU General Public License <http://www.gnu.org/licenses/gpl.html>.\n"
+-"Det finns INGEN GARANTI, i den utsträckning som lagen tillåter.\n"
++"Det finns INGEN GARANTI, i den utsträckning lagen tillåter.\n"
+ 
+ #: src/mpop.c:2430
+ #, c-format
+@@ -713,10 +714,10 @@
+ "  Read mails from one or more POP3 accounts and deliver them.\n"
+ msgstr ""
+ "E-posthämtningsläge (standard):\n"
+-"   %s [alternativ...] account...\n"
+-"   %s [alternativ...] --all-accounts\n"
+-"   %s --host=värd [alternativ...]\n"
+-"   Läs e-postmeddelanden från ett eller flera POP3-konton och leverera dem.\n"
++"  %s [option...] account...\n"
++"  %s [option...] --all-accounts\n"
++"  %s --host=host [option...]\n"
++"  Läs e-post från ett eller flera POP3-konton och leverera den.\n"
+ 
+ #: src/mpop.c:2437
+ #, c-format
+@@ -739,15 +740,15 @@
+ "\n"
+ msgstr ""
+ "Serverinformationsläge:\n"
+-"   %s [alternativ...] --serverinfo-konto...\n"
+-"   %s --host=värd [alternativ...] --serverinfo\n"
+-"   Skriv ut information om en eller flera POP3-servrar.\n"
++"  %s [option...] --serverinfo account...\n"
++"  %s --host=host [option...] --serverinfo\n"
++"  Skriv ut information om en eller flera POP3-servrar.\n"
+ "\n"
+ 
+ #: src/mpop.c:2444
+ #, c-format
+ msgid "General options:\n"
+-msgstr "Generella alternativ:\n"
++msgstr "Allmänna alternativ:\n"
+ 
+ #: src/mpop.c:2445
+ #, c-format
+@@ -777,7 +778,8 @@
+ #: src/mpop.c:2450
+ #, c-format
+ msgid "  --configure=mailaddress      generate and print configuration for address\n"
+-msgstr "  --configure=e-postaddress      generera och skriva ut konfiguration för adress\n"
++msgstr "  --configure=mailaddress      generera och skriv ut konfiguration för "
++"adress\n"
+ 
+ #: src/mpop.c:2451
+ #, c-format
+@@ -787,7 +789,7 @@
+ #: src/mpop.c:2452
+ #, c-format
+ msgid "Configuration options:\n"
+-msgstr "Konfigurations alternativ:\n"
++msgstr "Konfigurationsalternativ:\n"
+ 
+ #: src/mpop.c:2453
+ #, c-format
+@@ -806,12 +808,13 @@
+ #: src/mpop.c:2456
+ #, c-format
+ msgid "  --port=number                set port number\n"
+-msgstr "  --port=nummer                ställer in port nummer\n"
++msgstr "  --port=number                ange portnummer\n"
+ 
+ #: src/mpop.c:2457
+ #, c-format
+ msgid "  --source-ip=[IP]             set/unset source ip address to bind the socket to\n"
+-msgstr "  --source-ip=[IP]             ställ in/avaktivera källans ip-adress för att binda uttaget till\n"
++msgstr "  --source-ip=[IP]             ange/ta bort lokal IP-adress att binda uttaget "
++"till\n"
+ 
+ #: src/mpop.c:2458
+ #, c-format
+@@ -826,7 +829,7 @@
+ #: src/mpop.c:2460
+ #, c-format
+ msgid "  --socket=[socketname]        set/unset local socket to connect to\n"
+-msgstr "  --socket=[socketname]        ställ in/av lokalt uttag att ansluta till\n"
++msgstr "  --socket=[socketname]        ange/ta bort lokalt uttag att ansluta till\n"
+ 
+ #: src/mpop.c:2461
+ #, c-format
+@@ -841,7 +844,7 @@
+ #: src/mpop.c:2463
+ #, c-format
+ msgid "  --received-header[=(on|off)] enable/disable Received-header\n"
+-msgstr "  --received-header[=(av|på)] aktivera/inaktivera Mottaget-rubrik\n"
++msgstr "  --received-header[=(on|off)] aktivera/inaktivera Received-huvud\n"
+ 
+ #: src/mpop.c:2464
+ #, c-format
+@@ -861,7 +864,7 @@
+ #: src/mpop.c:2467
+ #, c-format
+ msgid "  --tls[=(on|off)]             enable/disable TLS encryption\n"
+-msgstr "  --tls[=(av|på)]             aktivera/inaktivera TLS kryptering\n"
++msgstr "  --tls[=(on|off)]             aktivera/inaktivera TLS-kryptering\n"
+ 
+ #: src/mpop.c:2468
+ #, c-format
+@@ -916,7 +919,7 @@
+ #: src/mpop.c:2478
+ #, c-format
+ msgid "Options specific to mail retrieval mode:\n"
+-msgstr "Alternativ som är specifika för e-posthämtningsläge:\n"
++msgstr "Alternativ specifika för e-posthämtningsläge:\n"
+ 
+ #: src/mpop.c:2479
+ #, c-format
+@@ -936,7 +939,7 @@
+ #: src/mpop.c:2482
+ #, c-format
+ msgid "  -A, --auth-only              authenticate only; do not retrieve mail\n"
+-msgstr "  -A, --auth-only               autentisera endast; men hämta inte e-post\n"
++msgstr "  -A, --auth-only              autentisera endast; hämta inte e-post\n"
+ 
+ #: src/mpop.c:2483
+ #, c-format
+@@ -956,12 +959,12 @@
+ #: src/mpop.c:2486
+ #, c-format
+ msgid "  --killsize=(off|number)      set/unset kill size\n"
+-msgstr "  --killsize=(av|nummer)      aktivera/avaktivera dödsstorlek\n"
++msgstr "  --killsize=(off|number)      ange/ta bort gräns för borttagningsstorlek\n"
+ 
+ #: src/mpop.c:2487
+ #, c-format
+ msgid "  --skipsize=(off|number)      set/unset skip size\n"
+-msgstr "  --skipsize=(av|nummer)      set/unset skip size\n"
++msgstr "  --skipsize=(off|number)      ange/ta bort gräns för överhoppningsstorlek\n"
+ 
+ #: src/mpop.c:2488
+ #, c-format
+@@ -985,7 +988,7 @@
+ "Report bugs to <%s>.\n"
+ msgstr ""
+ "\n"
+-"Rapportera buggar till <%s>.\n"
++"Rapportera fel till <%s>.\n"
+ 
+ #: src/mpop.c:2507
+ msgid "--mda requires --delivery"
+@@ -997,7 +1000,7 @@
+ 
+ #: src/mpop.c:2535
+ msgid "cannot use both --host and accounts"
+-msgstr "kan inte använda både --host och accounts"
++msgstr "kan inte använda både --host och konton"
+ 
+ #: src/mpop.c:2541
+ msgid "cannot use both --all-accounts and a list of accounts"
+@@ -1038,7 +1041,7 @@
+ #: src/mpop.c:2698
+ #, c-format
+ msgid "1 second\n"
+-msgstr "1 sekunder\n"
++msgstr "1 sekund\n"
+ 
+ #: src/mpop.c:2702
+ #, c-format
+@@ -1071,7 +1074,7 @@
+ #: src/mpop.c:2843
+ #, c-format
+ msgid "support for authentication method %s is not compiled in"
+-msgstr "stöd för autentiseringsmetod %s är inte kompilerat i"
++msgstr "stöd för autentiseringsmetoden %s är inte kompilerat"
+ 
+ #: src/mpop.c:2855
+ #, c-format
+@@ -1090,7 +1093,7 @@
+ #: src/mpop.c:2940
+ #, c-format
+ msgid "POP3 server message: %s"
+-msgstr "POP3 servermeddelande: %s"
++msgstr "POP3-servermeddelande: %s"
+ 
+ #: src/mpop.c:2949
+ #, c-format
+@@ -1108,7 +1111,7 @@
+ 
+ #: src/mtls.c:146
+ msgid "not available"
+-msgstr "inte tillgänglig"
++msgstr "inte tillgängligt"
+ 
+ #: src/mtls.c:154
+ #, c-format
+@@ -1141,7 +1144,7 @@
+ 
+ #: src/mtls-gnutls.c:121 src/mtls-libtls.c:105 src/mtls-openssl.c:285
+ msgid "cannot get TLS certificate info"
+-msgstr "kan inte få TLS-certifikatinformation"
++msgstr "kan inte hämta TLS-certifikatinformation"
+ 
+ #: src/mtls-gnutls.c:126 src/mtls-gnutls.c:242 src/mtls-openssl.c:288
+ #, c-format
+@@ -1261,7 +1264,7 @@
+ #: src/mtls-gnutls.c:568 src/mtls-libtls.c:410
+ #, c-format
+ msgid "TLS handshake failed: %s"
+-msgstr "TLS-handskakning misslyckades: %s"
++msgstr "TLS-handshake misslyckades: %s"
+ 
+ #: src/mtls-gnutls.c:652 src/mtls-libtls.c:497
+ #, c-format
+@@ -1286,7 +1289,7 @@
+ #: src/mtls-libtls.c:223
+ #, c-format
+ msgid "cannot use deprecated fingerprints, please update to SHA256"
+-msgstr "kan inte använda föråldrade fingeravtryck, uppdatera till SHA256"
++msgstr "kan inte använda föråldrade fingeravtryck; uppdatera till SHA256"
+ 
+ #: src/mtls-libtls.c:231 src/mtls-openssl.c:649
+ #, c-format
+@@ -1295,7 +1298,7 @@
+ 
+ #: src/mtls-libtls.c:232
+ msgid "feature not yet implemented for libtls"
+-msgstr "funktionen ännu inte implementerad för libtls"
++msgstr "funktionen är ännu inte implementerad för libtls"
+ 
+ #: src/mtls-libtls.c:288
+ msgid "could not parse protocols"
+@@ -1309,12 +1312,13 @@
+ #: src/mtls-libtls.c:402 src/mtls-openssl.c:853
+ #, c-format
+ msgid "cannot set the file descriptor for TLS: %s"
+-msgstr "kan inte ställa in filbeskrivningen för TLS: %s"
++msgstr "kan inte ange filbeskrivare för TLS: %s"
+ 
+ #: src/mtls-openssl.c:92
+ #, c-format
+ msgid "no environment variables RANDFILE or HOME, or filename of rand file too long"
+-msgstr "inga miljövariabler RANDFILE eller HOME, eller filnamnet på rand-filen för långt"
++msgstr "varken miljövariabeln RANDFILE eller HOME finns, eller så är rand-filens namn "
++"för långt"
+ 
+ #: src/mtls-openssl.c:98 src/uidls.c:380
+ #, c-format
+@@ -1324,17 +1328,17 @@
+ #: src/mtls-openssl.c:120
+ #, c-format
+ msgid "random file + time + pseudo randomness is not enough, giving up"
+-msgstr "slumpmässig fil + tid + pseudo slumpmässighet är inte tillräckligt, ger upp"
++msgstr "slumpfil + tid + pseudoslump räcker inte, ger upp"
+ 
+ #: src/mtls-openssl.c:293 src/mtls-openssl.c:579
+ #, c-format
+ msgid "%s: cannot get certificate subject"
+-msgstr "%s: kan inte hämta certifikatämne"
++msgstr "%s: kan inte hämta certifikatets ämne"
+ 
+ #: src/mtls-openssl.c:299
+ #, c-format
+ msgid "%s: cannot get certificate issuer"
+-msgstr "%s: kan inte hämta certifikatutfärdare"
++msgstr "%s: kan inte hämta certifikatets utfärdare"
+ 
+ #: src/mtls-openssl.c:450
+ msgid "TLS certificate check failed"
+@@ -1353,7 +1357,7 @@
+ #: src/mtls-openssl.c:591
+ #, c-format
+ msgid "%s: cannot get certificate common name"
+-msgstr "%s: kan inte hämta certifikatets gemensamma namn"
++msgstr "%s: kan inte hämta certifikatets vanliga namn"
+ 
+ #: src/mtls-openssl.c:600
+ #, c-format
+@@ -1367,12 +1371,12 @@
+ 
+ #: src/mtls-openssl.c:650 src/mtls-openssl.c:658 src/mtls-openssl.c:666
+ msgid "feature not yet implemented for OpenSSL"
+-msgstr "funktionen ännu inte implementerad för OpenSSL"
++msgstr "funktionen är ännu inte implementerad för OpenSSL"
+ 
+ #: src/mtls-openssl.c:665
+ #, c-format
+ msgid "cannot load CRL file: %s"
+-msgstr "kan inte ladda CRL fil: %s"
++msgstr "kan inte läsa in CRL-filen: %s"
+ 
+ #: src/mtls-openssl.c:672
+ #, c-format
+@@ -1392,7 +1396,7 @@
+ #: src/mtls-openssl.c:702
+ #, c-format
+ msgid "cannot load certificate file %s: %s"
+-msgstr "kan inte ladda certifikat fil %s: %s"
++msgstr "kan inte läsa in certifikatfilen %s: %s"
+ 
+ #: src/mtls-openssl.c:732
+ #, c-format
+@@ -1401,7 +1405,7 @@
+ 
+ #: src/mtls-openssl.c:801
+ msgid "a protocol violating EOF occurred"
+-msgstr "ett protokoll som bryter mot EOF inträffade"
++msgstr "ett EOF som bryter mot protokollet inträffade"
+ 
+ #: src/mtls-openssl.c:819
+ msgid "the connection was closed unexpectedly"
+@@ -1410,11 +1414,11 @@
+ #: src/mtls-openssl.c:828 src/net.c:198 src/net.c:213 src/net.c:245
+ #: src/net.c:260
+ msgid "the operation timed out"
+-msgstr "åtgärdens tidsgräns uppnåddes"
++msgstr "åtgärden fick en tidsgräns"
+ 
+ #: src/mtls-openssl.c:872
+ msgid "TLS handshake failed"
+-msgstr "TLS-handskakning misslyckades"
++msgstr "TLS-handshake misslyckades"
+ 
+ #: src/mtls-openssl.c:938
+ msgid "cannot read from TLS connection"
+@@ -1426,7 +1430,7 @@
+ 
+ #: src/net.c:94
+ msgid "not enough memory"
+-msgstr "inte tillräckligt med minne"
++msgstr "minnet räcker inte"
+ 
+ #: src/net.c:100 src/net.c:684
+ msgid "invalid argument"
+@@ -1478,7 +1482,7 @@
+ 
+ #: src/net.c:136
+ msgid "socket type is not supported in this address family"
+-msgstr "uttags-typ stöds inte i denna adressfamilj"
++msgstr "uttagstyp stöds inte i denna adressfamilj"
+ 
+ #: src/net.c:139
+ msgid "remote address is not valid"
+@@ -1494,11 +1498,11 @@
+ 
+ #: src/net.c:148
+ msgid "timeout"
+-msgstr "timeout"
++msgstr "tidsgräns"
+ 
+ #: src/net.c:151
+ msgid "socket not connected"
+-msgstr "uttag inte ansluten"
++msgstr "uttaget är inte anslutet"
+ 
+ #: src/net.c:154
+ msgid "the socket was shut down"
+@@ -1510,11 +1514,11 @@
+ 
+ #: src/net.c:160
+ msgid "connection reset by peer"
+-msgstr "anslutning återställdes av motpart"
++msgstr "anslutningen återställdes av motparten"
+ 
+ #: src/net.c:163
+ msgid "the underlying network subsystem is not ready"
+-msgstr "det underliggande nätverksundersystemet är inte redo"
++msgstr "det underliggande nätverksundersystemet är inte klart"
+ 
+ #: src/net.c:166
+ msgid "the requested version is not available"
+@@ -1526,7 +1530,7 @@
+ 
+ #: src/net.c:172
+ msgid "limit on the number of tasks has been reached"
+-msgstr "gränsen för antalet uppgifter har uppnåtts"
++msgstr "gränsen för antalet aktiviteter har nåtts"
+ 
+ #: src/net.c:175
+ msgid "invalid request"
+@@ -1577,7 +1581,7 @@
+ 
+ #: src/net.c:639
+ msgid "time-to-live expired"
+-msgstr "time-to-live har löpt ut"
++msgstr "time-to-live har gått ut"
+ 
+ #: src/net.c:642
+ msgid "command not supported"
+@@ -1605,7 +1609,7 @@
+ #: src/net.c:873
+ #, c-format
+ msgid "cannot bind source ip %s: %s"
+-msgstr "kan inte binda käll-ip %s: %s"
++msgstr "kan inte binda käll-IP-adressen %s: %s"
+ 
+ #: src/net.c:889 src/net.c:902
+ #, c-format
+@@ -1620,12 +1624,12 @@
+ #: src/pop3.c:311
+ #, c-format
+ msgid "POP3 server sent an empty reply"
+-msgstr "POP3 server skickade ett tomt svar"
++msgstr "POP3-servern skickade ett tomt svar"
+ 
+ #: src/pop3.c:315
+ #, c-format
+ msgid "POP3 server sent an invalid reply"
+-msgstr "POP3 server skickade ett ogiltigt svar"
++msgstr "POP3-servern skickade ett ogiltigt svar"
+ 
+ #: src/pop3.c:370
+ #, c-format
+@@ -1635,20 +1639,20 @@
+ #: src/pop3.c:679
+ #, c-format
+ msgid "cannot get initial OK message from POP3 server"
+-msgstr "kan inte få initialt OK-meddelande från POP3-server"
++msgstr "kan inte hämta det inledande OK-meddelandet från POP3-servern"
+ 
+ #: src/pop3.c:740 src/pop3.c:879 src/pop3.c:1011 src/pop3.c:1198
+ #: src/pop3.c:1313
+ #, c-format
+ msgid "invalid reply to command %s"
+-msgstr "ogiltigt svar för kommando %s"
++msgstr "ogiltigt svar på kommandot %s"
+ 
+ #: src/pop3.c:950 src/pop3.c:956 src/pop3.c:1003 src/pop3.c:1096
+ #: src/pop3.c:1239 src/pop3.c:2332 src/pop3.c:2474 src/pop3.c:2560
+ #: src/pop3.c:2646 src/pop3.c:3286 src/pop3.c:3314
+ #, c-format
+ msgid "command %s failed"
+-msgstr "kommando %s misslyckades"
++msgstr "kommandot %s misslyckades"
+ 
+ #: src/pop3.c:1026
+ #, c-format
+@@ -1658,12 +1662,12 @@
+ #: src/pop3.c:1598
+ #, c-format
+ msgid "cannot write to temporary file: output error"
+-msgstr "kan inte skriva till temporär fil: utdatafel"
++msgstr "kan inte skriva till temporärfil: utdatafel"
+ 
+ #: src/pop3.c:1679
+ #, c-format
+ msgid "cannot add Received header: %s"
+-msgstr "kan inte lägga till Mottaget rubrik: %s"
++msgstr "kan inte lägga till Received-huvud: %s"
+ 
+ #: src/pop3.c:1776
+ #, c-format
+@@ -1678,12 +1682,12 @@
+ #: src/pop3.c:1792
+ #, c-format
+ msgid "cannot create temporary file: %s"
+-msgstr "kunde inte skapa temporär fil: %s"
++msgstr "kan inte skapa temporärfil: %s"
+ 
+ #: src/pop3.c:1804
+ #, c-format
+ msgid "cannot rewind temporary file: %s"
+-msgstr "kunde inte spola tillbaka temporär fil: %s"
++msgstr "kan inte spola tillbaka temporärfil: %s"
+ 
+ #: src/pop3.c:2063
+ #, c-format
+@@ -1706,7 +1710,7 @@
+ #: src/pop3.c:2791 src/pop3.c:3144
+ #, c-format
+ msgid "POP3 server does not support authentication method %s"
+-msgstr "POP3 server stöder inte autentiseringsmetod %s"
++msgstr "POP3-servern stöder inte autentiseringsmetoden %s"
+ 
+ #: src/pop3.c:2797 src/pop3.c:2979 src/pop3.c:3031
+ #, c-format
+@@ -1741,7 +1745,7 @@
+ #: src/pop3.c:2940
+ #, c-format
+ msgid "authentication method %s needs TLS channel binding information"
+-msgstr "autentiseringsmetod %s behöver information om bindning för TLS-kanal"
++msgstr "autentiseringsmetoden %s behöver information om TLS-kanalbindning"
+ 
+ #: src/pop3.c:3105
+ #, c-format
+@@ -1766,22 +1770,22 @@
+ #: src/uidls.c:263
+ #, c-format
+ msgid "%s, line %ld: invalid number of UIDs"
+-msgstr "%s, rad %ld: ogiltigt nummer av UIDs"
++msgstr "%s, rad %ld: ogiltigt antal UID:er"
+ 
+ #: src/uidls.c:279
+ #, c-format
+ msgid "%s, line %ld: invalid or missing host name"
+-msgstr "%s, rad %ld: ogiltigt eller saknar värdnamn"
++msgstr "%s, rad %ld: ogiltigt eller saknat värdnamn"
+ 
+ #: src/uidls.c:291
+ #, c-format
+ msgid "%s, line %ld: invalid or missing user name"
+-msgstr "%s, rad %ld: ogiltigt eller saknar användarnamn"
++msgstr "%s, rad %ld: ogiltigt eller saknat användarnamn"
+ 
+ #: src/uidls.c:306 src/uidls.c:365
+ #, c-format
+ msgid "%s, line %ld: too few UIDs for user %s, host %s"
+-msgstr "%s, rad %ld: för få UID:n för användaren %s, värd %s"
++msgstr "%s, rad %ld: för få UID:er för användaren %s, värden %s"
+ 
+ #: src/uidls.c:327
+ #, c-format

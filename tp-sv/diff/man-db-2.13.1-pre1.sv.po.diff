@@ -1,0 +1,536 @@
+--- a/man-db-2.13.1-pre1.sv.po
++++ b/man-db-2.13.1-pre1.sv.po
+@@ -35,17 +35,17 @@
+ #: lib/security.c:80
+ #, c-format
+ msgid "can't set effective uid"
+-msgstr "kan inte ställa in effektivt uid"
++msgstr "kan inte ange effektivt UID"
+ 
+ #: lib/security.c:120
+ #, c-format
+ msgid "the setuid man user \"%s\" does not exist"
+-msgstr "en manualanvändare \"%s\" som är setuid finns inte"
++msgstr "setuid-användaren för manualsidor, ”%s”, finns inte"
+ 
+ #: lib/xregcomp.c:50
+ #, c-format
+ msgid "fatal: regex `%s': %s"
+-msgstr "ödesdigert: reguljärt uttryck \"%s\": %s"
++msgstr "kritiskt fel: reguljärt uttryck ”%s”: %s"
+ 
+ #: libdb/db_delete.c:108
+ #, c-format
+@@ -71,8 +71,8 @@
+ #, c-format
+ msgid "only %d field in content"
+ msgid_plural "only %d fields in content"
+-msgstr[0] "endast %d fält i innehåll"
+-msgstr[1] "endast %d fält i innehåll"
++msgstr[0] "endast %d fält i innehållet"
++msgstr[1] "endast %d fält i innehållet"
+ 
+ #: libdb/db_lookup.c:353
+ #, c-format
+@@ -97,11 +97,11 @@
+ #: libdb/db_ver.c:82
+ #, c-format
+ msgid "fatal: unable to insert version identifier into %s"
+-msgstr "ödesdiger: kan inte infoga versionsidentifierare i %s"
++msgstr "kritiskt fel: kan inte infoga versionsidentifierare i %s"
+ 
+ #: src/accessdb.c:62
+ msgid "[MAN DATABASE]"
+-msgstr "[MANUALDATABAS]"
++msgstr "[MAN DATABASE]"
+ 
+ # %s%s är en sökväg.
+ #: src/accessdb.c:63
+@@ -114,7 +114,7 @@
+ #: src/manconv_main.c:100 src/mandb.c:112 src/manpath.c:66 src/whatis.c:127
+ #: src/zsoelim_main.c:72
+ msgid "emit debugging messages"
+-msgstr "avge felsökningsmeddelanden"
++msgstr "visa felsökningsmeddelanden"
+ 
+ #: src/accessdb.c:138
+ #, c-format
+@@ -123,20 +123,20 @@
+ 
+ #: src/catman.c:102
+ msgid "[SECTION...]"
+-msgstr "[AVSNITT…]"
++msgstr "[SECTION...]"
+ 
+ #: src/catman.c:106 src/man.c:306 src/whatis.c:141
+ msgid "PATH"
+-msgstr "SÖKVÄG"
++msgstr "PATH"
+ 
+ #: src/catman.c:107 src/man.c:307 src/whatis.c:142
+ msgid "set search path for manual pages to PATH"
+-msgstr "ställ in sökväg för manualsidor till SÖKVÄG"
++msgstr "ange sökväg för manualsidor till PATH"
+ 
+ #: src/catman.c:108 src/man.c:275 src/mandb.c:124 src/manpath.c:68
+ #: src/whatis.c:145
+ msgid "FILE"
+-msgstr "FIL"
++msgstr "FILE"
+ 
+ #: src/catman.c:109 src/man.c:276 src/mandb.c:125 src/manpath.c:69
+ #: src/whatis.c:146
+@@ -151,7 +151,7 @@
+ #: src/catman.c:276
+ #, c-format
+ msgid "NULL content for key: %s"
+-msgstr "NULL-innehåll för nyckel: %s"
++msgstr "NULL-innehåll för nyckeln: %s"
+ 
+ #: src/catman.c:297
+ #, c-format
+@@ -160,7 +160,7 @@
+ "Updating cat files for section %s of man hierarchy %s\n"
+ msgstr ""
+ "\n"
+-"Uppdaterar cat-filer för avsnitt %s i man-hierarkin %s\n"
++"Uppdaterar cat-filer för avsnitt %s i manualhierarkin %s\n"
+ 
+ #: src/catman.c:350
+ #, c-format
+@@ -236,7 +236,7 @@
+ #: src/check_mandirs.c:581
+ #, c-format
+ msgid "Updating index cache for path `%s/%s'. Wait..."
+-msgstr "Uppdaterar indexcache för sökvägen \"%s/%s\". Vänta..."
++msgstr "Uppdaterar indexcache för sökvägen ”%s/%s” …"
+ 
+ #: src/check_mandirs.c:608 src/check_mandirs.c:665
+ msgid "done.\n"
+@@ -245,7 +245,7 @@
+ #: src/check_mandirs.c:936
+ #, c-format
+ msgid "Purging old database entries in %s...\n"
+-msgstr "Tömmer gamla databasposter i %s...\n"
++msgstr "Rensar gamla databasposter i %s …\n"
+ 
+ #: src/descriptions_store.c:62
+ #, c-format
+@@ -254,23 +254,23 @@
+ 
+ #: src/globbing_test.c:58
+ msgid "PATH SECTION NAME"
+-msgstr "SÖKVÄG AVSNITT NAMN"
++msgstr "PATH SECTION NAME"
+ 
+ #: src/globbing_test.c:62 src/man.c:311
+ msgid "EXTENSION"
+-msgstr "ÄNDELSE"
++msgstr "EXTENSION"
+ 
+ #: src/globbing_test.c:63 src/man.c:312
+ msgid "limit search to extension type EXTENSION"
+-msgstr "begränsa sökning till ändelsetyp ÄNDELSE"
++msgstr "begränsa sökningen till filändelsetypen EXTENSION"
+ 
+ #: src/globbing_test.c:65 src/man.c:314
+ msgid "look for pages case-insensitively (default)"
+-msgstr "leta efter sidor skiftlägesoberoende (standard)"
++msgstr "leta efter sidor utan hänsyn till skiftläge (standard)"
+ 
+ #: src/globbing_test.c:66 src/man.c:315
+ msgid "look for pages case-sensitively"
+-msgstr "leta efter sidor skiftlägesberoende"
++msgstr "leta efter sidor med hänsyn till skiftläge"
+ 
+ #: src/globbing_test.c:67
+ msgid "interpret page name as a regex"
+@@ -296,7 +296,7 @@
+ 
+ #: src/lexgrog_test.c:75 src/zsoelim_main.c:69
+ msgid "FILE..."
+-msgstr "FIL…"
++msgstr "FILE..."
+ 
+ #: src/lexgrog_test.c:76
+ msgid "The defaults are --man and --whatis."
+@@ -316,15 +316,15 @@
+ 
+ #: src/lexgrog_test.c:84
+ msgid "show guessed series of preprocessing filters"
+-msgstr "visa gissade serier av preprocessorfilter"
++msgstr "visa den gissade serien av förbehandlingsfilter"
+ 
+ #: src/lexgrog_test.c:85 src/man.c:298 src/man.c:336
+ msgid "ENCODING"
+-msgstr "KODNING"
++msgstr "ENCODING"
+ 
+ #: src/lexgrog_test.c:86 src/man.c:337
+ msgid "use selected output encoding"
+-msgstr "använd vald utmatningskodning"
++msgstr "använd vald utdatakodning"
+ 
+ #: src/lexgrog_test.c:129 src/man.c:573 src/man.c:581
+ #, c-format
+@@ -338,7 +338,7 @@
+ 
+ #: src/man.c:257
+ msgid "[SECTION] PAGE..."
+-msgstr "[AVSNITT] SIDA…"
++msgstr "[SECTION] PAGE..."
+ 
+ #: src/man.c:279
+ msgid "reset all options to their default values"
+@@ -354,7 +354,7 @@
+ 
+ #: src/man.c:284
+ msgid "Main modes of operation:"
+-msgstr "Huvudlägen för drift:"
++msgstr "Huvudlägen:"
+ 
+ #: src/man.c:285
+ msgid "equivalent to whatis"
+@@ -370,23 +370,23 @@
+ 
+ #: src/man.c:288
+ msgid "print physical location of man page(s)"
+-msgstr "skriv ut manualsidors fysiska platser"
++msgstr "skriv ut manualsidorna fysiska placering"
+ 
+ #: src/man.c:292
+ msgid "print physical location of cat file(s)"
+-msgstr "skriv ut fysiska platser för cat-filer"
++msgstr "skriv ut cat-filernas fysiska placering"
+ 
+ #: src/man.c:295
+ msgid "interpret PAGE argument(s) as local filename(s)"
+-msgstr "tolka SIDA-argument som lokala filnamn"
++msgstr "tolka PAGE-argument som lokala filnamn"
+ 
+ #: src/man.c:297
+ msgid "used by catman to reformat out of date cat pages"
+-msgstr "används av catman för att omformatera för gamla cat-sidor"
++msgstr "används av catman för att omformatera inaktuella cat-sidor"
+ 
+ #: src/man.c:299
+ msgid "output source page encoded in ENCODING"
+-msgstr "mata ut källsida kodad i KODNING"
++msgstr "mata ut källsidan kodad med ENCODING"
+ 
+ #: src/man.c:301
+ msgid "Finding manual pages:"
+@@ -394,11 +394,11 @@
+ 
+ #: src/man.c:302 src/whatis.c:143
+ msgid "LOCALE"
+-msgstr "LOKAL"
++msgstr "LOCALE"
+ 
+ #: src/man.c:303
+ msgid "define the locale for this particular man search"
+-msgstr "definiera lokalen för denna specifika manualsökning"
++msgstr "ange språkmiljön för just denna manualsökning"
+ 
+ #: src/man.c:304 src/manpath.c:70 src/whatis.c:139
+ msgid "SYSTEM"
+@@ -410,11 +410,11 @@
+ 
+ #: src/man.c:308 src/whatis.c:136
+ msgid "LIST"
+-msgstr "LISTA"
++msgstr "LIST"
+ 
+ #: src/man.c:309
+ msgid "use colon separated section list"
+-msgstr "använd kolonseparerad avsnittslista"
++msgstr "använd en kolonseparerad avsnittslista"
+ 
+ #: src/man.c:316
+ msgid "show all pages matching regex"
+@@ -442,23 +442,23 @@
+ 
+ #: src/man.c:329
+ msgid "Controlling formatted output:"
+-msgstr "Kontrollerar formaterad utmatning:"
++msgstr "Formaterad utdata:"
+ 
+ #: src/man.c:330
+ msgid "PAGER"
+-msgstr "SIDVISARE"
++msgstr "PAGER"
+ 
+ #: src/man.c:331
+ msgid "use program PAGER to display output"
+-msgstr "använd programmet SIDVISARE för att visa utmatning"
++msgstr "använd programmet PAGER för att visa utdata"
+ 
+ #: src/man.c:332 src/man.c:344
+ msgid "STRING"
+-msgstr "STRÄNG"
++msgstr "STRING"
+ 
+ #: src/man.c:333
+ msgid "provide the `less' pager with a prompt"
+-msgstr "tillhandahåll ”less”-sidvisaren med en prompt"
++msgstr "förse sidvisaren ”less” med en prompt"
+ 
+ #: src/man.c:335
+ msgid "display ASCII translation of certain latin1 chars"
+@@ -478,7 +478,7 @@
+ "e - [n]eqn, p - pic, t - tbl,\n"
+ "g - grap, r - refer, v - vgrind"
+ msgstr ""
+-"STRÄNG indikerar vilken preprocessor som ska köras:\n"
++"STRING anger vilka förbehandlare som ska köras:\n"
+ "e - [n]eqn, p - pic, t - tbl,\n"
+ "g - grap, r - refer, v - vgrind"
+ 
+@@ -489,7 +489,7 @@
+ 
+ #: src/man.c:350
+ msgid "DEVICE"
+-msgstr "ENHET"
++msgstr "DEVICE"
+ 
+ #: src/man.c:351
+ #, c-format
+@@ -498,16 +498,16 @@
+ 
+ #: src/man.c:352
+ msgid "BROWSER"
+-msgstr "WEBBLÄSARE"
++msgstr "BROWSER"
+ 
+ #: src/man.c:354
+ #, c-format
+ msgid "use %s or BROWSER to display HTML output"
+-msgstr "använd %s eller WEBBLÄSARE för att visa HTML-utmatning"
++msgstr "använd %s eller BROWSER för att visa HTML-utdata"
+ 
+ #: src/man.c:355
+ msgid "RESOLUTION"
+-msgstr "UPPLÖSNING"
++msgstr "RESOLUTION"
+ 
+ #: src/man.c:357
+ msgid ""
+@@ -547,7 +547,7 @@
+ #: src/man.c:778
+ #, c-format
+ msgid "See '%s' for help when manual pages are not available.\n"
+-msgstr "Se \"%s\" för hjälp när manualsidor inte är tillgängliga.\n"
++msgstr "Se ”%s” för hjälp när manualsidor inte är tillgängliga.\n"
+ 
+ #: src/man.c:1397
+ #, c-format
+@@ -562,7 +562,7 @@
+ #: src/man.c:1804
+ #, c-format
+ msgid "can't set times on %s"
+-msgstr "kan inte ställa in tider på %s"
++msgstr "kan inte ställa in tidsstämplar för %s"
+ 
+ #: src/man.c:1813 src/man.c:1850
+ #, c-format
+@@ -631,7 +631,7 @@
+ 
+ #: src/man-recode.c:108
+ msgid "-t CODE {--suffix SUFFIX | --in-place} FILENAME..."
+-msgstr "-t KOD {--suffix SUFFIX | --in-place} FILNAMN…"
++msgstr "-t CODE {--suffix SUFFIX | --in-place} FILENAME..."
+ 
+ #: src/man-recode.c:111 src/manconv_main.c:99
+ msgid "CODE"
+@@ -639,7 +639,7 @@
+ 
+ #: src/man-recode.c:111 src/manconv_main.c:99
+ msgid "encoding for output"
+-msgstr "kodning för utmatning"
++msgstr "kodning för utdata"
+ 
+ #: src/man-recode.c:112
+ msgid "SUFFIX"
+@@ -647,7 +647,7 @@
+ 
+ #: src/man-recode.c:113
+ msgid "suffix to append to output file name"
+-msgstr "suffix att lägga till på slutet av utdatafilnamn"
++msgstr "suffix att lägga till i slutet av utdatasfilnamnet"
+ 
+ #: src/man-recode.c:115
+ msgid "overwrite input files in place"
+@@ -655,12 +655,12 @@
+ 
+ #: src/man-recode.c:117 src/manconv_main.c:101 src/manpath.c:67
+ msgid "produce fewer warnings"
+-msgstr "producera färre varningar"
++msgstr "ge färre varningar"
+ 
+ #: src/man-recode.c:151 src/manconv_main.c:134
+ #, c-format
+ msgid "must specify an output encoding"
+-msgstr "måste ange en utmatningskodning"
++msgstr "måste ange en utdatakodning"
+ 
+ #: src/man-recode.c:155
+ #, c-format
+@@ -680,7 +680,7 @@
+ #: src/manconv.c:239
+ #, c-format
+ msgid "can't write to standard output"
+-msgstr "kan inte skriva till standard ut"
++msgstr "kan inte skriva till standardutdata"
+ 
+ #: src/manconv.c:467
+ msgid "iconv: incomplete character at end of buffer"
+@@ -688,11 +688,11 @@
+ 
+ #: src/manconv_main.c:94
+ msgid "[-f CODE[:...]] -t CODE [FILENAME]"
+-msgstr "[-f KOD[:...]] -t KOD [FILNAMN]"
++msgstr "[-f CODE[:...]] -t CODE [FILENAME]"
+ 
+ #: src/manconv_main.c:97
+ msgid "CODE[:...]"
+-msgstr "KOD[:…]"
++msgstr "CODE[:...]"
+ 
+ #: src/manconv_main.c:98
+ msgid "possible encodings of original text"
+@@ -700,11 +700,11 @@
+ 
+ #: src/mandb.c:109
+ msgid "[MANPATH]"
+-msgstr "[MANUALSÖKVÄG]"
++msgstr "[MANPATH]"
+ 
+ #: src/mandb.c:113
+ msgid "work quietly, except for 'bogus' warning"
+-msgstr "arbeta tyst, förutom vid felaktig varning"
++msgstr "arbeta tyst, förutom för varningen ”bogus”"
+ 
+ #: src/mandb.c:115
+ msgid "don't look for or add stray cats to the dbs"
+@@ -716,11 +716,11 @@
+ 
+ #: src/mandb.c:118
+ msgid "produce user databases only"
+-msgstr "producera endast användardatabaser"
++msgstr "skapa endast användardatabaser"
+ 
+ #: src/mandb.c:120
+ msgid "create dbs from scratch, rather than updating"
+-msgstr "skapa databaser från grunden, istället för att uppdatera dem"
++msgstr "skapa databaser från grunden i stället för att uppdatera dem"
+ 
+ #: src/mandb.c:121
+ msgid "check manual pages for correctness"
+@@ -752,12 +752,13 @@
+ #: src/mandb.c:733 src/mandb.c:761
+ #, c-format
+ msgid "Removing obsolete cat directory %s...\n"
+-msgstr "Tar bort föråldrad cat-katalog %s…\n"
++msgstr "Tar bort föråldrad cat-katalog %s …\n"
+ 
+ #: src/mandb.c:896
+ #, c-format
+ msgid "Only the '%s' user can create or update system-wide databases; acting as if the --user-db option was used.\n"
+-msgstr "Endast ”%s”-användare kan skapa eller uppdatera databaser för hela systemet; agerar som om flaggan --user-db används.\n"
++msgstr "Endast användaren ”%s” kan skapa eller uppdatera systemomfattande databaser; "
++"fungerar som om alternativet --user-db användes.\n"
+ 
+ #: src/mandb.c:919
+ #, c-format
+@@ -795,12 +796,12 @@
+ #: src/mandb.c:1022
+ #, c-format
+ msgid "No databases created."
+-msgstr "Inga databaser skapade."
++msgstr "Inga databaser skapades."
+ 
+ #: src/manp.c:325
+ #, c-format
+ msgid "can't make sense of the manpath configuration file %s"
+-msgstr "kan inte förstå mig på konfigurationsfilen för manualsökväg %s"
++msgstr "kan inte tolka konfigurationsfilen för manualsökvägen %s"
+ 
+ #: src/manp.c:331
+ #, c-format
+@@ -855,7 +856,7 @@
+ #: src/manp.c:893
+ #, c-format
+ msgid "warning: mandatory directory %s doesn't exist"
+-msgstr "varning: obligatoriska katalogen %s finns inte"
++msgstr "varning: den obligatoriska katalogen %s finns inte"
+ 
+ #: src/manp.c:1351
+ #, c-format
+@@ -883,7 +884,7 @@
+ #: src/ult_src.c:74
+ #, c-format
+ msgid "warning: %s is a dangling symlink"
+-msgstr "varning: %s är en lös symbolisk länk"
++msgstr "varning: %s är en hängande symbolisk länk"
+ 
+ #: src/ult_src.c:77 src/ult_src.c:272 src/ult_src.c:372
+ #, c-format
+@@ -893,11 +894,11 @@
+ #: src/ult_src.c:430
+ #, c-format
+ msgid "%s is self referencing"
+-msgstr "%s refererar till sig själv"
++msgstr "%s refererar till sig självt"
+ 
+ #: src/whatis.c:122
+ msgid "KEYWORD..."
+-msgstr "NYCKELORD…"
++msgstr "KEYWORD..."
+ 
+ #: src/whatis.c:124
+ msgid "The --regex option is enabled by default."
+@@ -925,7 +926,7 @@
+ 
+ #: src/whatis.c:135
+ msgid "do not trim output to terminal width"
+-msgstr "justera inte utmatning till terminalbredd"
++msgstr "anpassa inte utdata till terminalens bredd"
+ 
+ #: src/whatis.c:137
+ msgid "search only these sections (colon-separated)"
+@@ -933,7 +934,7 @@
+ 
+ #: src/whatis.c:144
+ msgid "define the locale for this search"
+-msgstr "definiera lokalen för denna sökning"
++msgstr "ange språkmiljön för denna sökning"
+ 
+ #: src/whatis.c:241
+ #, c-format
+@@ -957,22 +958,22 @@
+ #: src/zsoelim.l:186
+ #, c-format
+ msgid "%s:%d: .so requests nested too deeply or are recursive"
+-msgstr "%s:%d: .so-begäran nästlade för djupt eller är rekursiva"
++msgstr "%s:%d: .so-begäranden är nästlade för djupt eller rekursiva"
+ 
+ #: src/zsoelim.l:201
+ #, c-format
+ msgid "%s:%d: warning: failed .so request"
+-msgstr "%s:%d: varning: misslyckades med .so-begäran"
++msgstr "%s:%d: varning: .so-begäran misslyckades"
+ 
+ #: src/zsoelim.l:223
+ #, c-format
+ msgid "%s:%d: warning: newline in .so request, ignoring"
+-msgstr "%s:%d: varning: nyrad i .so-begäran, ignorerar"
++msgstr "%s:%d: varning: radbrytning i .so-begäran, ignorerar"
+ 
+ #: src/zsoelim.l:293
+ #, c-format
+ msgid "%s:%d: warning: newline in .lf request, ignoring"
+-msgstr "%s:%d: varning: nyrad i .lf-begäran, ignorerar"
++msgstr "%s:%d: varning: radbrytning i .lf-begäran, ignorerar"
+ 
+ #: src/zsoelim.l:333
+ #, c-format

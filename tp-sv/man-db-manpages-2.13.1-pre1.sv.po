@@ -1,0 +1,2834 @@
+# Swedish messages for man-db-manpages.
+# Copyright © 2015, 2016, 2018, 2019, 2022, 2023, 2024, 2023, 2024, 2023, 2024, 2023, 2024, 2023, 2024, 2023, 2024, 2023, 2024, 2023, 2024, 2023, 2024, 2026 Free Software Foundation, Inc.
+# This file is distributed under the same license as the man-db package.
+# Luna Jernberg <droidbittin@gmail.com>, 2023.
+# Sebastian Rasmussen <sebras@gmail.com>, 2015, 2016, 2018, 2019, 2022, 2024, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: man-db-manpages-2.13.1-pre1\n"
+"POT-Creation-Date: 2025-04-21 18:50+0100\n"
+"PO-Revision-Date: 2026-02-22 17:17+0800\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. type: TH
+#: ../../man/man1/apropos.man1:12 ../../man/man1/lexgrog.man1:44
+#: ../../man/man1/man.man1:15 ../../man/man1/man-recode.man1:9
+#: ../../man/man1/manconv.man1:9 ../../man/man1/manpath.man1:13
+#: ../../man/man1/whatis.man1:12 ../../man/man1/zsoelim.man1:12
+#: ../../man/man8/accessdb.man8:12 ../../man/man8/catman.man8:12
+#: ../../man/man8/mandb.man8:14
+#, no-wrap
+msgid "Manual pager utils"
+msgstr "Verktyg för visning av manualsidor"
+
+#. type: SH
+#: ../../man/man1/apropos.man1:13 ../../man/man1/lexgrog.man1:45
+#: ../../man/man1/man.man1:16 ../../man/man1/man-recode.man1:10
+#: ../../man/man1/manconv.man1:10 ../../man/man1/manpath.man1:14
+#: ../../man/man1/whatis.man1:13 ../../man/man1/zsoelim.man1:13
+#: ../../man/man5/manpath.man5:14 ../../man/man8/accessdb.man8:13
+#: ../../man/man8/catman.man8:13 ../../man/man8/mandb.man8:15
+#, no-wrap
+msgid "NAME"
+msgstr "NAMN"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:15
+msgid "%apropos% - search the manual page names and descriptions"
+msgstr "%apropos% – sök i manualsidors namn och beskrivningar"
+
+#. type: SH
+#: ../../man/man1/apropos.man1:15 ../../man/man1/lexgrog.man1:47
+#: ../../man/man1/man.man1:18 ../../man/man1/man-recode.man1:12
+#: ../../man/man1/manconv.man1:12 ../../man/man1/manpath.man1:16
+#: ../../man/man1/whatis.man1:15 ../../man/man1/zsoelim.man1:15
+#: ../../man/man8/accessdb.man8:16 ../../man/man8/catman.man8:15
+#: ../../man/man8/mandb.man8:17
+#, no-wrap
+msgid "SYNOPSIS"
+msgstr "SYNOPSIS"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:32
+msgid "B<%apropos%> [\\|B<-dalv?V>\\|] [\\|B<-e>\\||\\|B<-w>\\||\\|B<-r>\\|] [\\|B<-s> I<list>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<path>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-C> I<file>\\|] I<keyword> \\&.\\|.\\|."
+msgstr "B<%apropos%> [\\|B<-dalv?V>\\|] [\\|B<-e>\\||\\|B<-w>\\||\\|B<-r>\\|] "
+"[\\|B<-s> I<list>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> "
+"I<path>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-C> I<file>\\|] I<keyword> "
+"\\&.\\|.\\|."
+
+#. type: SH
+#: ../../man/man1/apropos.man1:32 ../../man/man1/lexgrog.man1:55
+#: ../../man/man1/man.man1:60 ../../man/man1/man-recode.man1:20
+#: ../../man/man1/manconv.man1:20 ../../man/man1/manpath.man1:23
+#: ../../man/man1/whatis.man1:32 ../../man/man1/zsoelim.man1:20
+#: ../../man/man5/manpath.man5:16 ../../man/man8/accessdb.man8:20
+#: ../../man/man8/catman.man8:24 ../../man/man8/mandb.man8:30
+#, no-wrap
+msgid "DESCRIPTION"
+msgstr "BESKRIVNING"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:37
+msgid "Each manual page has a short description available within it.  B<%apropos%> searches the descriptions for instances of I<keyword>."
+msgstr "Varje manualsida har en kort beskrivning. B<%apropos%> söker efter "
+"förekomster av I<keyword> i beskrivningarna."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:50
+msgid "I<keyword> is usually a regular expression, as if (B<-r>)  was used, or may contain wildcards (B<-w>), or match the exact keyword (B<-e>).  Using these options, it may be necessary to quote the I<keyword> or escape (\\e) the special characters to stop the shell from interpreting them."
+msgstr "I<keyword> är vanligen ett reguljärt uttryck, som om B<-r> hade använts, men "
+"kan innehålla jokertecken (B<-w>) eller matcha det exakta nyckelordet "
+"(B<-e>). När dessa alternativ används kan I<keyword> behöva citeras eller "
+"specialtecken skyddas med escape-tecknet (\\e), så att skalet inte tolkar dem."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:53
+msgid "The standard matching rules allow matches to be made against the page name and word boundaries in the description."
+msgstr "Standardreglerna för matchning tillåter träffar mot sidnamnet och ordgränser "
+"i beskrivningen."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:61
+msgid "The database searched by B<%apropos%> is updated by the B<%mandb%> program.  Depending on your installation, this may be run by a periodic cron job, or may need to be run manually after new manual pages have been installed."
+msgstr "Databasen som B<%apropos%> söker i uppdateras av programmet B<%mandb%>. "
+"Beroende på installationen kan det köras som ett återkommande cron-jobb, "
+"eller behöva köras manuellt efter att nya manualsidor har installerats."
+
+#. type: SH
+#: ../../man/man1/apropos.man1:61 ../../man/man1/lexgrog.man1:80
+#: ../../man/man1/man.man1:406 ../../man/man1/man-recode.man1:52
+#: ../../man/man1/manconv.man1:50 ../../man/man1/manpath.man1:38
+#: ../../man/man1/whatis.man1:71 ../../man/man1/zsoelim.man1:55
+#: ../../man/man8/accessdb.man8:29 ../../man/man8/catman.man8:55
+#: ../../man/man8/mandb.man8:74
+#, no-wrap
+msgid "OPTIONS"
+msgstr "FLAGGOR"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:65 ../../man/man1/lexgrog.man1:84
+#: ../../man/man1/man.man1:420 ../../man/man1/man-recode.man1:72
+#: ../../man/man1/manconv.man1:67 ../../man/man1/manpath.man1:45
+#: ../../man/man1/whatis.man1:75 ../../man/man8/accessdb.man8:33
+#: ../../man/man8/catman.man8:59 ../../man/man8/mandb.man8:78
+msgid "Print debugging information."
+msgstr "Visa felsökningsinformation."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:68 ../../man/man1/whatis.man1:78
+msgid "Print verbose warning messages."
+msgstr "Visa utförliga varningsmeddelanden."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:76
+msgid "Interpret each keyword as a regular expression.  This is the default behaviour.  Each keyword will be matched against the page names and the descriptions independently.  It can match any part of either.  The match is not limited to word boundaries."
+msgstr "Tolka varje nyckelord som ett reguljärt uttryck. Detta är standardbeteendet. "
+"Varje nyckelord matchas oberoende mot sidnamn och beskrivningar. Det kan "
+"matcha vilken del som helst av båda. Matchningen är inte begränsad till "
+"ordgränser."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:88
+msgid "Interpret each keyword as a pattern containing shell style wildcards.  Each keyword will be matched against the page names and the descriptions independently.  If B<--exact> is also used, a match will only be found if an expanded keyword matches an entire description or page name.  Otherwise the keyword is also allowed to match on word boundaries in the description."
+msgstr "Tolka varje nyckelord som ett mönster med jokertecken i skalstil. Varje "
+"nyckelord matchas oberoende mot sidnamn och beskrivningar. Om B<--exact> "
+"också används hittas en träff endast om ett expanderat nyckelord matchar en "
+"hel beskrivning eller ett helt sidnamn. Annars får nyckelordet också matcha "
+"vid ordgränser i beskrivningen."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:92
+msgid "Each keyword will be exactly matched against the page names and the descriptions."
+msgstr "Matcha varje nyckelord exakt mot sidnamnen och beskrivningarna."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:96
+msgid "Only display items that match all the supplied keywords.  The default is to display items that match any keyword."
+msgstr "Visa bara objekt som matchar alla angivna nyckelord.  Standard är att visa objekt som matchar vilket nyckelord som helst."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:103 ../../man/man1/whatis.man1:107
+msgid "Do not trim output to the terminal width.  Normally, output will be truncated to the terminal width to avoid ugly results from poorly-written B<NAME> sections."
+msgstr "Anpassa inte utdata till terminalens bredd. Vanligen kapas utdata vid "
+"terminalens bredd för att undvika fula resultat från dåligt skrivna "
+"B<NAME>-avsnitt."
+
+#. type: TP
+#: ../../man/man1/apropos.man1:103 ../../man/man1/whatis.man1:107
+#, no-wrap
+msgid "B<-s> I<list\\/>, B<--sections=>I<list\\/>, B<--section=>I<list>"
+msgstr "B<-s> I<list\\/>, B<--sections=>I<list\\/>, B<--section=>I<list>"
+
+#
+#. type: Plain text
+#: ../../man/man1/apropos.man1:118 ../../man/man1/whatis.man1:122
+msgid "Search only the given manual sections.  I<list> is a colon- or comma-separated list of sections.  If an entry in I<list> is a simple section, for example \"3\", then the displayed list of descriptions will include pages in sections \"3\", \"3perl\", \"3x\", and so on; while if an entry in I<list> has an extension, for example \"3perl\", then the list will only include pages in that exact part of the manual section."
+msgstr "Sök endast i de angivna manualavsnitten. I<list> är en kolon- eller "
+"kommaseparerad lista med avsnitt. Om en post i I<list> är ett enkelt avsnitt, "
+"till exempel ”3”, omfattar den visade listan med beskrivningar sidor i "
+"avsnitten ”3”, ”3perl”, ”3x” och så vidare. Om en post i I<list> har en "
+"filändelse, till exempel ”3perl”, omfattar listan däremot endast den exakta "
+"delen av manualavsnittet."
+
+#. type: TP
+#: ../../man/man1/apropos.man1:118 ../../man/man1/man.man1:571
+#: ../../man/man1/manpath.man1:54 ../../man/man1/whatis.man1:122
+#, no-wrap
+msgid "B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|, B<--systems=>I<system>\\|[\\|,.\\|.\\|.\\|]"
+msgstr "B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|, B<--systems=>I<system>\\|[\\|,.\\|.\\|.\\|]"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:126
+msgid "If this system has access to other operating systems' manual page descriptions, they can be searched using this option.  To search NewOS's manual page descriptions, use the option B<-m> B<NewOS>."
+msgstr "Om systemet har åtkomst till manualsidesbeskrivningar från andra "
+"operativsystem kan de sökas med detta alternativ. Sök i NewOS "
+"manualsidesbeskrivningar med alternativet B<-m> B<NewOS>."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:138
+msgid "The I<system> specified can be a combination of comma-delimited operating system names.  To include a search of the native operating system's B<whatis> descriptions, include the system name B<man> in the argument string.  This option will override the $B<SYSTEM> environment variable."
+msgstr "Det angivna I<system> kan vara en kombination av kommaavgränsade "
+"operativsystemsnamn. Ta med systemnamnet B<man> i argumentsträngen för att "
+"också söka i B<whatis>-beskrivningarna för det inhemska operativsystemet. "
+"Alternativet åsidosätter miljövariabeln $B<SYSTEM>."
+
+#. type: TP
+#: ../../man/man1/apropos.man1:138 ../../man/man1/man.man1:591
+#: ../../man/man1/whatis.man1:142 ../../man/man8/catman.man8:59
+#, no-wrap
+msgid "B<-M\\ >I<path>,\\ B<--manpath=>I<path>"
+msgstr "B<-M\\ >I<path>,\\ B<--manpath=>I<path>"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:152 ../../man/man1/whatis.man1:156
+msgid "Specify an alternate set of colon-delimited manual page hierarchies to search.  By default, B<%program%> uses the $B<MANPATH> environment variable, unless it is empty or unset, in which case it will determine an appropriate manpath based on your $B<PATH> environment variable.  This option overrides the contents of $B<MANPATH>."
+msgstr "Ange en alternativ uppsättning kolonseparerade manualsideshierarkier att söka "
+"i. Som standard använder B<%program%> miljövariabeln $B<MANPATH>, såvida den "
+"inte är tom eller osatt. I så fall fastställs en lämplig manualsökväg utifrån "
+"miljövariabeln $B<PATH>. Alternativet åsidosätter innehållet i $B<MANPATH>."
+
+#. type: TP
+#: ../../man/man1/apropos.man1:152 ../../man/man1/man.man1:554
+#: ../../man/man1/whatis.man1:156
+#, no-wrap
+msgid "B<-L\\ >I<locale>,\\ B<--locale=>I<locale>"
+msgstr "B<-L\\ >I<locale>,\\ B<--locale=>I<locale>"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:169 ../../man/man1/man.man1:571
+#: ../../man/man1/whatis.man1:173
+msgid "B<%program%> will normally determine your current locale by a call to the C function B<setlocale>(3)  which interrogates various environment variables, possibly including $B<LC_MESSAGES> and $B<LANG>.  To temporarily override the determined value, use this option to supply a I<locale> string directly to B<%program%>.  Note that it will not take effect until the search for pages actually begins.  Output such as the help message will always be displayed in the initially determined locale."
+msgstr "B<%program%> fastställer normalt den aktuella språkmiljön genom ett anrop "
+"till C-funktionen B<setlocale>(3), som läser olika miljövariabler, eventuellt "
+"$B<LC_MESSAGES> och $B<LANG>. Åsidosätt det fastställda värdet tillfälligt "
+"genom att med detta alternativ skicka en I<locale>-sträng direkt till "
+"B<%program%>. Det får ingen verkan förrän sökningen efter sidor faktiskt "
+"börjar. Utdata som hjälpmeddelandet visas alltid på den ursprungligen "
+"fastställda språkmiljön."
+
+#. type: TP
+#: ../../man/man1/apropos.man1:169 ../../man/man1/man.man1:413
+#: ../../man/man1/manpath.man1:74 ../../man/man1/whatis.man1:173
+#: ../../man/man8/catman.man8:64 ../../man/man8/mandb.man8:125
+#, no-wrap
+msgid "B<-C\\ >I<file>,\\ B<--config-file=>I<file>"
+msgstr "B<-C\\ >I<file>,\\ B<--config-file=>I<file>"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:173 ../../man/man1/man.man1:417
+#: ../../man/man1/manpath.man1:78 ../../man/man1/whatis.man1:177
+#: ../../man/man8/catman.man8:68 ../../man/man8/mandb.man8:129
+msgid "Use this user configuration file rather than the default of I<\\(ti/.manpath>."
+msgstr "Använd denna användarkonfigurationsfil i stället för standardfilen "
+"I<\\(ti/.manpath>."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:176 ../../man/man1/lexgrog.man1:124
+#: ../../man/man1/man.man1:1048 ../../man/man1/man-recode.man1:75
+#: ../../man/man1/manconv.man1:70 ../../man/man1/manpath.man1:81
+#: ../../man/man1/whatis.man1:180 ../../man/man1/zsoelim.man1:67
+#: ../../man/man8/accessdb.man8:36 ../../man/man8/catman.man8:71
+msgid "Print a help message and exit."
+msgstr "Skriv ut ett hjälpmeddelande och avsluta."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:179 ../../man/man1/lexgrog.man1:127
+#: ../../man/man1/man.man1:1051 ../../man/man1/manpath.man1:84
+#: ../../man/man1/whatis.man1:183 ../../man/man8/accessdb.man8:39
+#: ../../man/man8/catman.man8:74 ../../man/man8/mandb.man8:135
+msgid "Print a short usage message and exit."
+msgstr "Skriv ut ett kort användningsmeddelande och avsluta."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:182 ../../man/man1/lexgrog.man1:130
+#: ../../man/man1/man.man1:1054 ../../man/man1/man-recode.man1:78
+#: ../../man/man1/manconv.man1:73 ../../man/man1/manpath.man1:87
+#: ../../man/man1/whatis.man1:186 ../../man/man1/zsoelim.man1:70
+#: ../../man/man8/accessdb.man8:42 ../../man/man8/catman.man8:77
+msgid "Display version information."
+msgstr "Visa versionsinformation."
+
+#. type: SH
+#: ../../man/man1/apropos.man1:182 ../../man/man1/lexgrog.man1:130
+#: ../../man/man1/man.man1:1054 ../../man/man1/whatis.man1:186
+#: ../../man/man8/mandb.man8:138
+#, no-wrap
+msgid "EXIT STATUS"
+msgstr "SLUTSTATUS"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:186 ../../man/man1/lexgrog.man1:134
+#: ../../man/man1/man.man1:1058 ../../man/man1/whatis.man1:190
+#: ../../man/man8/mandb.man8:142
+msgid "Successful program execution."
+msgstr "Programmet avslutades korrekt."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:189 ../../man/man1/man.man1:1061
+#: ../../man/man1/whatis.man1:193
+msgid "Usage, syntax or configuration file error."
+msgstr "Användnings-, syntax- eller konfigurationsfilsfel."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:192 ../../man/man1/man.man1:1064
+#: ../../man/man1/whatis.man1:196 ../../man/man8/mandb.man8:148
+msgid "Operational error."
+msgstr "Driftfel."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:195 ../../man/man1/whatis.man1:199
+msgid "Nothing was found that matched the criteria specified."
+msgstr "Inget som motsvarade de angivna kriterierna hittades."
+
+#. type: SH
+#: ../../man/man1/apropos.man1:195 ../../man/man1/man.man1:1070
+#: ../../man/man1/manpath.man1:87 ../../man/man1/whatis.man1:199
+#: ../../man/man8/catman.man8:77
+#, no-wrap
+msgid "ENVIRONMENT"
+msgstr "MILJÖ"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:204 ../../man/man1/man.man1:1186
+#: ../../man/man1/manpath.man1:110 ../../man/man1/whatis.man1:208
+msgid "If $B<SYSTEM> is set, it will have the same effect as if it had been specified as the argument to the B<-m> option."
+msgstr "Om $B<SYSTEM> är satt kommer den att ha samma effekt som om den hade angetts som argument till flaggan B<-m>."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:210 ../../man/man1/whatis.man1:214
+#: ../../man/man8/catman.man8:94
+msgid "If $B<MANPATH> is set, its value is interpreted as the colon-delimited manual page hierarchy search path to use."
+msgstr "Om $B<MANPATH> är satt tolkas dess värde som den kolonseparerade sökvägen "
+"till manualsideshierarkier som ska användas."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:217 ../../man/man1/man.man1:1084
+#: ../../man/man1/manpath.man1:102 ../../man/man1/whatis.man1:221
+#: ../../man/man8/catman.man8:101
+msgid "See the B<SEARCH PATH> section of B<manpath>(5)  for the default behaviour and details of how this environment variable is handled."
+msgstr "Se avsnittet B<SEARCH PATH> i B<manpath>(5) för standardbeteendet och "
+"detaljer om hur miljövariabeln hanteras."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:229 ../../man/man1/whatis.man1:233
+msgid "If $B<MANWIDTH> is set, its value is used as the terminal width (see the B<--long> option).  If it is not set, the terminal width will be calculated using the value of $B<COLUMNS>, and B<ioctl>(2)  if available, or falling back to 80 characters if all else fails."
+msgstr "Om $B<MANWIDTH> är satt används värdet som terminalbredd (se alternativet "
+"B<--long>). Om den inte är satt beräknas terminalbredden med värdet i "
+"$B<COLUMNS> och, om tillgängligt, B<ioctl>(2); om allt annat misslyckas "
+"används 80 tecken."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:238
+msgid "If $B<POSIXLY_CORRECT> is set, even to a null value, the default B<%apropos%> search will be as an extended regex (B<-r>).  Nowadays, this is the default behaviour anyway."
+msgstr "Om $B<POSIXLY_CORRECT> är satt, även till ett tomt värde, utförs "
+"standardsökningen i B<%apropos%> som ett utökat reguljärt uttryck (B<-r>). "
+"Detta är numera ändå standardbeteendet."
+
+#. type: SH
+#: ../../man/man1/apropos.man1:238 ../../man/man1/man.man1:1271
+#: ../../man/man1/manpath.man1:110 ../../man/man1/whatis.man1:233
+#: ../../man/man8/catman.man8:101 ../../man/man8/mandb.man8:185
+#, no-wrap
+msgid "FILES"
+msgstr "FILER"
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:244 ../../man/man1/whatis.man1:239
+#: ../../man/man8/catman.man8:110 ../../man/man8/mandb.man8:201
+msgid "A traditional global I<index> database cache."
+msgstr "En traditionell global I<index>-databascache."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:250 ../../man/man1/whatis.man1:245
+#: ../../man/man8/mandb.man8:194
+msgid "An FHS compliant global I<index> database cache."
+msgstr "En FHS-kompatibel global I<index>-databascache."
+
+#. type: Plain text
+#: ../../man/man1/apropos.man1:255 ../../man/man1/whatis.man1:250
+msgid "A traditional B<whatis> text database."
+msgstr "En traditionell B<whatis>-textdatabas."
+
+#. type: SH
+#: ../../man/man1/apropos.man1:255 ../../man/man1/lexgrog.man1:226
+#: ../../man/man1/man.man1:1280 ../../man/man1/man-recode.man1:78
+#: ../../man/man1/manconv.man1:73 ../../man/man1/manpath.man1:114
+#: ../../man/man1/whatis.man1:250 ../../man/man1/zsoelim.man1:70
+#: ../../man/man8/catman.man8:116 ../../man/man8/mandb.man8:207
+#, no-wrap
+msgid "SEE ALSO"
+msgstr "SE VIDARE"
+
+#. type: SH
+#: ../../man/man1/apropos.man1:259 ../../man/man1/lexgrog.man1:236
+#: ../../man/man1/man-recode.man1:86 ../../man/man1/manconv.man1:77
+#: ../../man/man1/manpath.man1:118 ../../man/man1/whatis.man1:254
+#: ../../man/man1/zsoelim.man1:75 ../../man/man8/accessdb.man8:42
+#: ../../man/man8/catman.man8:120 ../../man/man8/mandb.man8:217
+#, no-wrap
+msgid "AUTHOR"
+msgstr "UPPHOVSPERSON"
+
+#. type: SH
+#: ../../man/man1/apropos.man1:265 ../../man/man1/lexgrog.man1:249
+#: ../../man/man1/man.man1:1313 ../../man/man1/man-recode.man1:82
+#: ../../man/man1/manconv.man1:81 ../../man/man1/manpath.man1:124
+#: ../../man/man1/whatis.man1:260 ../../man/man1/zsoelim.man1:81
+#: ../../man/man5/manpath.man5:240 ../../man/man8/accessdb.man8:48
+#: ../../man/man8/catman.man8:126 ../../man/man8/mandb.man8:223
+#, no-wrap
+msgid "BUGS"
+msgstr "FEL"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:47
+msgid "lexgrog - parse header information in man pages"
+msgstr "lexgrog – tolka rubrikinformation i manualsidor"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:55
+msgid "B<lexgrog> [\\|B<-m>\\||\\|B<-c>\\|] [\\|B<-dfw?V>\\|] [\\|B<-E> I<encoding>\\|] I<file> \\&.\\|.\\|."
+msgstr "B<lexgrog> [\\|B<-m>\\||\\|B<-c>\\|] [\\|B<-dfw?V>\\|] [\\|B<-E> "
+"I<encoding>\\|] I<file> \\&.\\|.\\|."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:71
+msgid "B<lexgrog> is an implementation of the traditional \\(lqgroff guess\\(rq utility in B<lex>.  It reads the list of files on its command line as either man page source files or preformatted \\(lqcat\\(rq pages, and displays their name and description as used by B<apropos> and B<whatis>, the list of preprocessing filters required by the man page before it is passed to B<nroff> or B<troff>, or both."
+msgstr "B<lexgrog> är en implementation i B<lex> av det traditionella verktyget "
+"\\(lqgroff guess\\(rq. Det läser filerna på kommandoraden som antingen "
+"manualsidors källfiler eller förformaterade \\(lqcat\\(rq-sidor och visar "
+"deras namn och beskrivning, såsom de används av B<apropos> och B<whatis>, "
+"samt listan över förbehandlingsfilter som manualsidan kräver före formatering "
+"med B<nroff>, B<troff> eller båda."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:80
+msgid "If its input is badly formatted, B<lexgrog> will print \\(lqparse failed\\(rq; this may be useful for external programs that need to check man pages for correctness.  If one of B<lexgrog>'s input files is \\(lq-\\(rq, it will read from standard input; if any input file is compressed, a decompressed version will be read automatically."
+msgstr "Om indata är felaktigt formaterade skriver B<lexgrog> ut \\(lqparse "
+"failed\\(rq; detta kan vara användbart för externa program som behöver "
+"kontrollera manualsidor. Om en av B<lexgrog>s indatafiler är \\(lq-\\(rq "
+"läser det från standardindata. Om någon indatafil är komprimerad läses en "
+"dekomprimerad version automatiskt."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:92
+msgid "Parse input as man page source files.  This is the default if neither B<--man> nor B<--cat> is given."
+msgstr "Tolka indata som manualsidors källfiler. Detta är standard om varken B<--man> "
+"eller B<--cat> anges."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:99
+msgid "Parse input as preformatted man pages (\\(lqcat pages\\(rq).  B<--man> and B<--cat> may not be given simultaneously."
+msgstr "Tolka indata som förformaterade manualsidor (\\(lqcat\\(rq-sidor). B<--man> "
+"och B<--cat> får inte anges samtidigt."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:110
+msgid "Display the name and description from the man page's header, as used by B<apropos> and B<whatis>.  This is the default if neither B<--whatis> nor B<--filters> is given."
+msgstr "Visa namn och beskrivning från manualsidans huvud, såsom de används av "
+"B<apropos> och B<whatis>. Detta är standard om varken B<--whatis> eller "
+"B<--filters> anges."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:117
+msgid "Display the list of filters needed to preprocess the man page before formatting with B<nroff> or B<troff>."
+msgstr "Visa listan över filter som behövs för att förbehandla manualsidan före "
+"formatering med B<nroff> eller B<troff>."
+
+#. type: TP
+#: ../../man/man1/lexgrog.man1:117
+#, no-wrap
+msgid "B<-E> I<encoding>, B<--encoding> I<encoding>"
+msgstr "B<-E> I<encoding>, B<--encoding> I<encoding>"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:121
+msgid "Override the guessed character set for the page to I<encoding>."
+msgstr "Åsidosätt sidans gissade teckenuppsättning med I<encoding>."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:137
+msgid "Usage error."
+msgstr "Användningsfel."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:141
+msgid "B<lexgrog> failed to parse one or more of its input files."
+msgstr "B<lexgrog> kunde inte tolka en eller flera av sina indatafiler."
+
+#. type: SH
+#: ../../man/man1/lexgrog.man1:141 ../../man/man1/man.man1:187
+#, no-wrap
+msgid "EXAMPLES"
+msgstr "EXEMPEL"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:151
+#, no-wrap
+msgid ""
+"  $ lexgrog man.1\n"
+"  man.1: \"man - an interface to the system reference manuals\"\n"
+"  $ lexgrog -fw man.1\n"
+"  man.1 (t): \"man - an interface to the system reference manuals\"\n"
+"  $ lexgrog -c whatis.cat1\n"
+"  whatis.cat1: \"whatis - display manual page descriptions\"\n"
+"  $ lexgrog broken.1\n"
+"  broken.1: parse failed\n"
+msgstr ""
+"  $ lexgrog man.1\n"
+"  man.1: \"man - ett gränssnitt för systemreferensmanualer\"\n"
+"  $ lexgrog -fw man.1\n"
+"  man.1 (t): \"man - ett gränssnitt för systemreferensmanualer\"\n"
+"  $ lexgrog -c whatis.cat1 \n"
+"  whatis.cat1: \"whatis - visa beskrivningar för manualsidor\"\n"
+"  $ lexgrog broken.1\n"
+"  broken.1: tolkning misslyckades\n"
+
+#. type: SH
+#: ../../man/man1/lexgrog.man1:152
+#, no-wrap
+msgid "WHATIS PARSING"
+msgstr "WHATIS-TOLKNING"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:163
+msgid "B<%mandb%> (which uses the same code as B<lexgrog>)  parses the B<NAME> section at the top of each manual page looking for names and descriptions of the features documented in each.  While the parser is quite tolerant, as it has to cope with a number of different forms that have historically been used, it may sometimes fail to extract the required information."
+msgstr "B<%mandb%> (som använder samma kod som B<lexgrog>) tolkar avsnittet B<NAME> "
+"överst på varje manualsida och söker efter namn och beskrivningar av "
+"funktionerna som dokumenteras på sidan. Tolken är tolerant eftersom den måste "
+"hantera flera format som har använts historiskt, men den kan ibland ändå "
+"misslyckas med att hämta den information som behövs."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:169
+msgid "When using the traditional I<man> macro set, a correct B<NAME> section looks something like this:"
+msgstr "När den traditionella makrouppsättningen I<man> används ser ett B<NAMN>-avsnitt ut ungefär så här:"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:174
+#, no-wrap
+msgid ""
+"\\&.SH NAME\n"
+"foo \\e- program to do something\n"
+msgstr ""
+"\\&.SH NAMN\n"
+"foo \\e- program som gör någonting\n"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:181
+msgid "Some manual pagers require the \\(oq\\e-\\(cq to be exactly as shown; B<%mandb%> is more tolerant, but for compatibility with other systems it is nevertheless a good idea to retain the backslash."
+msgstr "Vissa manualsidesvisare kräver att \\(oq\\e-\\(cq skrivs exakt som visat. "
+"B<%mandb%> är mer tolerant, men av kompatibilitetsskäl är det ändå lämpligt "
+"att behålla bakstrecket."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:191
+msgid "On the left-hand side, there may be several names, separated by commas.  Names containing whitespace will be ignored to avoid pathological behaviour on certain ill-formed B<NAME> sections.  The text on the right-hand side is free-form, and may be spread over multiple lines.  If several features with different descriptions are being documented in the same manual page, the following form is therefore used:"
+msgstr "På vänster sida kan flera namn förekomma, separerade med kommatecken. Namn "
+"med blanksteg ignoreras för att undvika problematiskt beteende för vissa "
+"felaktigt formaterade B<NAME>-avsnitt. Texten på höger sida är fri och kan "
+"sträcka sig över flera rader. Om flera funktioner med olika beskrivningar "
+"dokumenteras på samma manualsida används därför följande form:"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:198
+#, no-wrap
+msgid ""
+"\\&.SH NAME\n"
+"foo, bar \\e- programs to do something\n"
+"\\&.br\n"
+"baz \\e- program to do nothing\n"
+msgstr ""
+"\\&.SH NAMN\n"
+"foo, bar \\e- program som gör någonting\n"
+"\\&.br\n"
+"baz \\e- program som inte gör någonting\n"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:203
+msgid "(A macro which starts a new paragraph, like B<.PP>, may be used instead of the break macro B<.br>.)"
+msgstr "(Ett makro som börjar ett nytt stycke, som B<.PP>, kan användas i stället för "
+"radbrytningsmakrot B<.br>.)"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:209
+msgid "When using the BSD-derived I<mdoc> macro set, a correct B<NAME> section looks something like this:"
+msgstr "När den BSD-baserade makrouppsättningen I<mdoc> används ser ett B<NAMN>-avsnitt ut ungefär så här:"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:215
+#, no-wrap
+msgid ""
+"\\&.Sh NAME\n"
+"\\&.Nm foo\n"
+"\\&.Nd program to do something\n"
+msgstr ""
+"\\&.Sh NAMN\n"
+"\\&.Nm foo\n"
+"\\&.Nd program som gör någonting\n"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:226
+msgid "There are several common reasons why whatis parsing fails.  Sometimes authors of manual pages replace \\(oq.SH NAME\\(cq with \\(oq.SH MYPROGRAM\\(cq, and then B<%mandb%> cannot find the section from which to extract the information it needs.  Sometimes authors include a NAME section, but place free-form text there rather than \\(oqname \\e- description\\(cq.  However, any syntax resembling the above should be accepted."
+msgstr "B<whatis>-tolkningen kan misslyckas av flera vanliga skäl. Ibland ersätter en "
+"manualsidans upphovsperson \\(oq.SH NAME\\(cq med \\(oq.SH MYPROGRAM\\(cq, "
+"och då kan B<%mandb%> inte hitta avsnittet där den information som behövs ska "
+"hämtas. Ibland finns ett NAME-avsnitt, men med fri text i stället för "
+"\\(oqname \\e- description\\(cq. Syntax som liknar ovanstående bör dock "
+"accepteras."
+
+#. type: SH
+#: ../../man/man1/lexgrog.man1:231
+#, no-wrap
+msgid "NOTES"
+msgstr "NOTERINGAR"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:236
+msgid "B<lexgrog> attempts to parse files containing .so requests, but will only be able to do so correctly if the files are properly installed in a manual page hierarchy."
+msgstr "B<lexgrog> försöker tolka filer som innehåller .so-begäranden, men kan endast "
+"göra det korrekt om filerna är korrekt installerade i en manualsideshierarki."
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:240
+msgid "The code used by B<lexgrog> to scan man pages was written by:"
+msgstr "Koden som används av B<lexgrog> för att genomsöka manualsidor skrevs av:"
+
+#. type: Plain text
+#: ../../man/man1/lexgrog.man1:249
+msgid "Colin Watson wrote the current incarnation of the command-line front-end, as well as this man page."
+msgstr "Colin Watson skrev den nuvarande versionen av kommandoradsgränssnittet och "
+"denna manualsida."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:18
+msgid "%man% - an interface to the system reference manuals"
+msgstr "%man% – ett gränssnitt till systemets referensmanualer"
+
+#.  The general command line
+#.  The apropos command line
+#. type: Plain text
+#: ../../man/man1/man.man1:25
+msgid "B<%man%> [\\|I<man options>\\|] [\\|[\\|I<section>\\|] I<page>\\ \\|.\\|.\\|.\\|]\\ .\\|.\\|.\\&"
+msgstr "B<%man%> [\\|I<man options>\\|] [\\|[\\|I<section>\\|] I<page>\\ "
+"\\|.\\|.\\|.\\|]\\ .\\|.\\|.\\&"
+
+#.  The --global-apropos command line
+#. type: Plain text
+#: ../../man/man1/man.man1:32
+msgid "B<%man%> B<-k> [\\|I<apropos options>\\|] I<regexp> \\&.\\|.\\|.\\&"
+msgstr "B<%man%> B<-k> [\\|I<apropos options>\\|] I<regexp> \\&.\\|.\\|.\\&"
+
+#.  The whatis command line
+#. type: Plain text
+#: ../../man/man1/man.man1:39
+msgid "B<%man%> B<-K> [\\|I<man options>\\|] [\\|I<section>\\|] I<term>\\ .\\|.\\|.\\&"
+msgstr "B<%man%> B<-K> [\\|I<man options>\\|] [\\|I<section>\\|] I<term>\\ "
+".\\|.\\|.\\&"
+
+#.  The --local command line
+#. type: Plain text
+#: ../../man/man1/man.man1:47
+msgid "B<%man%> B<-f> [\\|I<whatis> I<options>\\|] I<page> \\&.\\|.\\|.\\&"
+msgstr "B<%man%> B<-f> [\\|I<whatis> I<options>\\|] I<page> \\&.\\|.\\|.\\&"
+
+#.  The --where/--where-cat command line
+#. type: Plain text
+#: ../../man/man1/man.man1:54
+msgid "B<%man%> B<-l> [\\|I<man options>\\|] I<file> \\&.\\|.\\|.\\&"
+msgstr "B<%man%> B<-l> [\\|I<man options>\\|] I<file> \\&.\\|.\\|.\\&"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:60
+msgid "B<%man%> B<-w>\\||\\|B<-W> [\\|I<man options>\\|] I<page> \\&.\\|.\\|.\\&"
+msgstr "B<%man%> B<-w>\\||\\|B<-W> [\\|I<man options>\\|] I<page> \\&.\\|.\\|.\\&"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:88
+msgid "B<%man%> is the system's manual pager.  Each I<page> argument given to B<%man%> is normally the name of a program, utility or function.  The I<manual page> associated with each of these arguments is then found and displayed.  A I<section>, if provided, will direct B<%man%> to look only in that I<section> of the manual.  The default action is to search in all of the available I<sections> following a pre-defined order (see B<DEFAULTS>), and to show only the first I<page> found, even if I<page> exists in several I<sections>."
+msgstr "B<%man%> är systemets manualsidesvisare. Varje I<page>-argument till B<%man%> "
+"är vanligen namnet på ett program, verktyg eller en funktion. Den I<manual "
+"page> som hör till vart och ett av argumenten hittas och visas sedan. Om "
+"I<section> anges söker B<%man%> endast i det avsnittet av manualen. Som "
+"standard söks alla tillgängliga I<sections> i en fördefinierad ordning (se "
+"B<DEFAULTS>), och endast den första hittade I<page> visas, även om I<page> "
+"finns i flera I<sections>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:92
+msgid "The table below shows the I<section> numbers of the manual followed by the types of pages they contain."
+msgstr "Tabellen nedan visar manualens I<section>-nummer följda av vilka sidtyper de "
+"innehåller."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:98
+#, no-wrap
+msgid "Executable programs or shell commands"
+msgstr "Körbara program eller skalkommandon"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:101
+#, no-wrap
+msgid "System calls (functions provided by the kernel)"
+msgstr "Systemanrop (funktioner som tillhandahålls av kärnan)"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:104
+#, no-wrap
+msgid "Library calls (functions within program libraries)"
+msgstr "Biblioteksanrop (funktioner i programbibliotek)"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:107
+#, no-wrap
+msgid "Special files (usually found in I</dev\\/>)"
+msgstr "Speciella filer (hittas vanligtvis i I</dev\\/>)"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:110
+#, no-wrap
+msgid "File formats and conventions, e.g.\\& I</etc/passwd>"
+msgstr "Filformat och konventioner t.ex. \\& I</etc/passwd>"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:113
+#, no-wrap
+msgid "Games"
+msgstr "Spel"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:117
+#, no-wrap
+msgid ""
+"Miscellaneous (including macro packages and conventions),\n"
+"e.g.\\& B<man>(7), B<groff>(7), B<man-pages>(7)"
+msgstr ""
+"Diverse (inklusive makropaket och konventioner),\n"
+"t.ex.\\& B<man>(7), B<groff>(7), B<man-pages>(7)"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:120
+#, no-wrap
+msgid "System administration commands (usually only for root)"
+msgstr "Kommandon för systemadministration (vanligen endast för root)"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:123
+#, no-wrap
+msgid "Kernel routines [\\|Non standard\\|]"
+msgstr "Kärnrutiner [\\|Icke-standard\\|]"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:129
+msgid "A manual I<page> consists of several sections."
+msgstr "En manual I<page> består av flera avsnitt."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:149
+msgid "Conventional section names include B<NAME>, B<SYNOPSIS>, B<CONFIGURATION>, B<DESCRIPTION>, B<OPTIONS>, B<EXIT\\ STATUS>, B<RETURN\\ VALUE>, B<ERRORS>, B<ENVIRONMENT>, B<FILES>, B<VERSIONS>, B<STANDARDS>, B<NOTES>, B<BUGS>, B<EXAMPLE>, B<AUTHORS>, and B<SEE\\ ALSO>."
+msgstr "Vanliga avsnittsnamn är B<NAME>, B<SYNOPSIS>, B<CONFIGURATION>, "
+"B<DESCRIPTION>, B<OPTIONS>, B<EXIT\\ STATUS>, B<RETURN\\ VALUE>, B<ERRORS>, "
+"B<ENVIRONMENT>, B<FILES>, B<VERSIONS>, B<STANDARDS>, B<NOTES>, B<BUGS>, "
+"B<EXAMPLE>, B<AUTHORS> och B<SEE\\ ALSO>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:153
+msgid "The following conventions apply to the B<SYNOPSIS> section and can be used as a guide in other sections."
+msgstr "Följande konventioner gäller för avsnittet B<SYNOPSIS> och kan användas som "
+"vägledning även i andra avsnitt."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:157
+#, no-wrap
+msgid "B<bold text>"
+msgstr "B<fet text>"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:159
+#, no-wrap
+msgid "type exactly as shown."
+msgstr "skriv exakt som visat."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:160
+#, no-wrap
+msgid "I<italic text>"
+msgstr "I<kursiv text>"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:162
+#, no-wrap
+msgid "replace with appropriate argument."
+msgstr "ersätt med lämpligt argument."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:163
+#, no-wrap
+msgid "[\\|B<-abc>\\|]"
+msgstr "[\\|B<-abc>\\|]"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:165
+#, no-wrap
+msgid "any or all arguments within [ ] are optional."
+msgstr "vilket eller alla argument inom [ ] är valfria."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:166
+#, no-wrap
+msgid "B<-a\\|>|\\|B<-b>"
+msgstr "B<-a\\|>|\\|B<-b>"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:168
+#, no-wrap
+msgid "options delimited by | cannot be used together."
+msgstr "alternativ avgränsade med | kan inte användas tillsammans."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:169
+#, no-wrap
+msgid "I<argument> .\\|.\\|."
+msgstr "I<argument> .\\|.\\|."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:171
+#, no-wrap
+msgid "I<argument> is repeatable."
+msgstr "I<argument> går att upprepa."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:172
+#, no-wrap
+msgid "[\\|I<expression>\\|] .\\|.\\|."
+msgstr "[\\|I<expression>\\|] .\\|.\\|."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:174
+#, no-wrap
+msgid "entire I<expression>\\ within [ ] is repeatable."
+msgstr "hela I<expression>\\ inom [ ] kan upprepas."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:180
+msgid "Exact rendering may vary depending on the output device.  For instance, man will usually not be able to render italics when running in a terminal, and will typically use underlined or coloured text instead."
+msgstr "Den exakta återgivningen kan variera beroende på utenheten. Man kan till "
+"exempel vanligen inte återge kursiv text i en terminal och använder då i "
+"stället understruken eller färgad text."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:187
+msgid "The command or function illustration is a pattern that should match all possible invocations.  In some cases it is advisable to illustrate several exclusive invocations as is shown in the B<SYNOPSIS> section of this manual page."
+msgstr "Kommando- eller funktionsillustrationen är ett mönster som bör matcha alla "
+"möjliga anrop. I vissa fall är det lämpligt att visa flera ömsesidigt "
+"uteslutande anrop, som i avsnittet B<SYNOPSIS> i denna manualsida."
+
+#. type: TP
+#: ../../man/man1/man.man1:188
+#, no-wrap
+msgid "B<%man%>I<\\ ls>"
+msgstr "B<%man%>I<\\ ls>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:194
+msgid "Display the manual page for the I<item> (program)  I<ls>."
+msgstr "Visa manualsidan för I<item> (programmet) I<ls>."
+
+#. type: TP
+#: ../../man/man1/man.man1:194
+#, no-wrap
+msgid "B<%man%> I<man>.I<7>"
+msgstr "B<%man%> I<man>.I<7>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:202
+msgid "Display the manual page for macro package I<man> from section I<7>.  (This is an alternative spelling of \"B<%man%> I<7 man>\".)"
+msgstr "Visa manualsidan för makropaketet I<man> från avsnitt I<7>. (Detta är en "
+"alternativ skrivning av ”B<%man%> I<7 man>”.)"
+
+#. type: TP
+#: ../../man/man1/man.man1:202
+#, no-wrap
+msgid "B<%man% '>I<man>(I<7>)B<'>"
+msgstr "B<%man% '>I<man>(I<7>)B<'>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:214
+msgid "Display the manual page for macro package I<man> from section I<7>.  (This is another alternative spelling of \"B<%man%> I<7 man>\".  It may be more convenient when copying and pasting cross-references to manual pages.  Note that the parentheses must normally be quoted to protect them from the shell.)"
+msgstr "Visa manualsidan för makropaketet I<man> från avsnitt I<7>. (Detta är "
+"ytterligare en alternativ skrivning av ”B<%man%> I<7 man>”. Det kan vara "
+"smidigare när korsreferenser till manualsidor kopieras och klistras in. "
+"Observera att parenteserna vanligen måste citeras för att skydda dem från "
+"skalet.)"
+
+#. type: TP
+#: ../../man/man1/man.man1:214
+#, no-wrap
+msgid "B<%man%\\ -a>I<\\ intro>"
+msgstr "B<%man%\\ -a>I<\\ intro>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:220
+msgid "Display, in succession, all of the available I<intro> manual pages contained within the manual.  It is possible to quit between successive displays or skip any of them."
+msgstr "Visa alla tillgängliga I<intro>-manualsidor i manualen i följd. Du kan "
+"avsluta mellan visningarna eller hoppa över någon av dem."
+
+#. type: TP
+#: ../../man/man1/man.man1:220
+#, no-wrap
+msgid "B<%man% -t >I<bash >|I< lpr -Pps>"
+msgstr "B<%man% -t >I<bash >|I< lpr -Pps>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:237
+msgid "Format the manual page for I<bash> into the default B<troff> or B<groff> format and pipe it to the printer named I<ps>.  The default output for B<groff> is usually PostScript.  B<%man% --help> should advise as to which processor is bound to the B<-t> option."
+msgstr "Formatera manualsidan för I<bash> i standardformatet för B<troff> eller "
+"B<groff> och skicka den genom ett rör till skrivaren I<ps>. B<groff> använder "
+"vanligen PostScript som standardutdata. B<%man% --help> bör ange vilken "
+"hanterare som är knuten till alternativet B<-t>."
+
+#. type: TP
+#: ../../man/man1/man.man1:237
+#, no-wrap
+msgid "B<%man% -l -T>I<dvi ./foo.1x.gz>B< E<gt> >I<./foo.1x.dvi>"
+msgstr "B<%man% -l -T>I<dvi ./foo.1x.gz>B< E<gt> >I<./foo.1x.dvi>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:253
+msgid "This command will decompress and format the nroff source manual page I<./foo.1x.gz> into a B<device independent (dvi)> file.  The redirection is necessary as the B<-T> flag causes output to be directed to B<stdout> with no pager.  The output could be viewed with a program such as B<xdvi> or further processed into PostScript using a program such as B<dvips>."
+msgstr "Kommandot dekomprimerar och formaterar nroff-källmanualsidan I<./foo.1x.gz> "
+"till en B<enhetsoberoende (dvi)>-fil. Omdirigeringen behövs eftersom "
+"alternativet B<-T> skickar utdata till B<stdout> utan sidvisare. Utdata kan "
+"visas med exempelvis B<xdvi> eller bearbetas vidare till PostScript med "
+"exempelvis B<dvips>."
+
+#. type: TP
+#: ../../man/man1/man.man1:253
+#, no-wrap
+msgid "B<%man%\\ -k>I<\\ printf>"
+msgstr "B<%man%\\ -k>I<\\ printf>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:261
+msgid "Search the short descriptions and manual page names for the keyword I<printf> as regular expression.  Print out any matches.  Equivalent to B<%apropos%>I<\\ printf>B<.>"
+msgstr "Sök i de korta beskrivningarna och manualsidornas namn efter nyckelordet "
+"I<printf> som reguljärt uttryck. Skriv ut alla träffar. Motsvarar "
+"B<%apropos%>I<\\ printf>B<.>"
+
+#. type: TP
+#: ../../man/man1/man.man1:261
+#, no-wrap
+msgid "B<%man%\\ -f>I<\\ smail>"
+msgstr "B<%man%\\ -f>I<\\ smail>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:268
+msgid "Lookup the manual pages referenced by I<smail> and print out the short descriptions of any found.  Equivalent to B<%whatis%>I<\\ smail>B<.>"
+msgstr "Slå upp manualsidorna som hänvisas till av I<smail> och skriv ut de korta "
+"beskrivningarna av träffarna. Motsvarar B<%whatis%>I<\\ smail>B<.>"
+
+#. type: SH
+#: ../../man/man1/man.man1:268
+#, no-wrap
+msgid "OVERVIEW"
+msgstr "ÖVERSIKT"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:274
+msgid "Many options are available to B<%man%> in order to give as much flexibility as possible to the user.  Changes can be made to the search path, section order, output processor, and other behaviours and operations detailed below."
+msgstr "B<%man%> har många alternativ för att ge användaren största möjliga "
+"flexibilitet. Du kan ändra sökväg, avsnittsordning, utdatahanterare och andra "
+"beteenden och åtgärder som beskrivs nedan."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:296
+msgid "If set, various environment variables are interrogated to determine the operation of B<%man%>.  It is possible to set the \"catch-all\" variable $B<MANOPT> to any string in command line format, with the exception that any spaces used as part of an option's argument must be escaped (preceded by a backslash).  B<%man%> will parse $B<MANOPT> prior to parsing its own command line.  Those options requiring an argument will be overridden by the same options found on the command line.  To reset all of the options set in $B<MANOPT>, B<-D> can be specified as the initial command line option.  This will allow %man% to \"forget\" about the options specified in $B<MANOPT>, although they must still have been valid."
+msgstr "När de är satta läses olika miljövariabler för att fastställa hur B<%man%> "
+"fungerar. Den övergripande variabeln $B<MANOPT> kan sättas till en valfri "
+"sträng i kommandoradsformat. Blanksteg som ingår i ett arguments värde måste "
+"dock skyddas med ett bakstreck. B<%man%> tolkar $B<MANOPT> före den egna "
+"kommandoraden. Alternativ som kräver argument åsidosätts av samma alternativ "
+"på kommandoraden. Återställ alla alternativ i $B<MANOPT> genom att ange B<-D> "
+"som första kommandoradsalternativ. Då kan %man% ”glömma” alternativen från "
+"$B<MANOPT>, även om de fortfarande måste vara giltiga."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:307
+msgid "Manual pages are normally stored in B<nroff>(1)  format under a directory such as I</usr/share/man>.  In some installations, there may also be preformatted I<cat pages> to improve performance.  See B<manpath>(5)  for details of where these files are stored."
+msgstr "Manualsidor lagras vanligen i B<nroff>(1)-format i en katalog som "
+"I</usr/share/man>. I vissa installationer finns även förformaterade "
+"I<cat-sidor> för att förbättra prestandan. Se B<manpath>(5) för information "
+"om var filerna lagras."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:318
+msgid "This package supports manual pages in multiple languages, controlled by your I<locale>.  If your system did not set this up for you automatically, then you may need to set $B<LC_MESSAGES>, $B<LANG>, or another system-dependent environment variable to indicate your preferred locale, usually specified in the B<POSIX> format:"
+msgstr "Paketet stöder manualsidor på flera språk, styrt av din I<locale>. Om "
+"systemet inte har ställt in detta automatiskt kan du behöva ange "
+"$B<LC_MESSAGES>, $B<LANG> eller någon annan systemberoende miljövariabel för "
+"att ange önskad språkmiljö, vanligen i B<POSIX>-format:"
+
+#
+#. type: Plain text
+#: ../../man/man1/man.man1:323
+msgid "E<lt>I<language>E<gt>[\\|B<_>E<lt>I<territory>E<gt>\\|[\\|B<.>E<lt>I<character-set>E<gt>\\|[\\|B<,>E<lt>I<version>E<gt>\\|]\\|]\\|]"
+msgstr "E<lt>I<language>E<gt>[\\|B<_>E<lt>I<territory>E<gt>\\|[\\|B<.>E<lt>I<character-set>E<gt>\\|[\\|B<,>E<lt>I<version>E<gt>\\|]\\|]\\|]"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:328
+msgid "If the desired page is available in your I<locale>, it will be displayed in lieu of the standard (usually American English) page."
+msgstr "Om den önskade sidan finns på din I<locale> visas den i stället för "
+"standardsidan, som vanligen är på amerikansk engelska."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:332
+msgid "If you find that the translations supplied with this package are not available in your native language and you would like to supply them, please contact the maintainer who will be coordinating such activity."
+msgstr "Om översättningarna i paketet saknas på ditt modersmål och du vill bidra med "
+"dem, kontakta den ansvariga utvecklaren som samordnar arbetet."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:338
+msgid "Individual manual pages are normally written and maintained by the maintainers of the program, function, or other topic that they document, and are not included with this package.  If you find that a manual page is missing or inadequate, please report that to the maintainers of the package in question."
+msgstr "Enskilda manualsidor skrivs och underhålls vanligen av de som ansvarar för "
+"programmet, funktionen eller ämnet de dokumenterar, och ingår inte i detta "
+"paket. Rapportera en saknad eller otillräcklig manualsida till de ansvariga "
+"för paketet i fråga."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:341
+msgid "For information regarding other features and extensions available with this manual pager, please read the documents supplied with the package."
+msgstr "Läs dokumenten som följer med paketet för information om andra funktioner och "
+"tillägg för denna manualsidesvisare."
+
+#. type: SH
+#: ../../man/man1/man.man1:341
+#, no-wrap
+msgid "DEFAULTS"
+msgstr "STANDARDVÄRDEN"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:350
+msgid "The order of sections to search may be overridden by the environment variable $B<MANSECT> or by the B<SECTION> directive in I<%manpath_config_file%>.  By default it is as follows:"
+msgstr "Ordningen i vilken avsnitten söks igenom kan åsidosättas med miljövariabeln "
+"$B<MANSECT> eller direktivet B<SECTION> i I<%manpath_config_file%>. "
+"Standardordningen är:"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:361
+msgid "The formatted manual page is displayed using a I<pager>.  This can be specified in a number of ways, or else will fall back to a default (see option B<-P> for details)."
+msgstr "Den formaterade manualsidan visas med en I<pager>. Detta kan anges på flera "
+"sätt, eller så används ett standardvärde (se alternativ B<-P> för detaljer)."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:373
+msgid "The filters are deciphered by a number of means.  Firstly, the command line option B<-p> or the environment variable $B<MANROFFSEQ> is interrogated.  If B<-p> was not used and the environment variable was not set, the initial line of the nroff file is parsed for a preprocessor string.  To contain a valid preprocessor string, the first line must resemble"
+msgstr "Filtren fastställs på flera sätt. Först läses kommandoradsalternativet B<-p> "
+"eller miljövariabeln $B<MANROFFSEQ>. Om B<-p> inte användes och "
+"miljövariabeln inte är satt tolkas första raden i nroff-filen för att hitta "
+"en förbehandlarsträng. För att vara giltig måste den första raden likna"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:376
+msgid "B<'\\e\"> E<lt>B<string>E<gt>"
+msgstr "B<'\\e\"> E<lt>B<string>E<gt>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:382
+msgid "where B<string> can be any combination of letters described by option B<-p> below."
+msgstr "där B<string> kan vara vilken kombination som helst av de bokstäver som "
+"beskrivs av alternativet B<-p> nedan."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:385
+msgid "If none of the above methods provide any filter information, a default set is used."
+msgstr "Om ingen av metoderna ovan ger filterinformation används en "
+"standarduppsättning."
+
+#.  ********************************************************************
+#. type: Plain text
+#: ../../man/man1/man.man1:406
+msgid "A formatting pipeline is formed from the filters and the primary formatter (B<nroff> or [B<tg>]B<roff> with B<-t>)  and executed.  Alternatively, if an executable program I<mandb_nfmt> (or I<mandb_tfmt> with B<-t>)  exists in the man tree root, it is executed instead.  It gets passed the manual source file, the preprocessor string, and optionally the device specified with B<-T> or B<-E> as arguments."
+msgstr "En formateringsrörledning byggs av filtren och den primära formateraren "
+"(B<nroff> eller [B<tg>]B<roff> med B<-t>) och körs. Om ett körbart program, "
+"I<mandb_nfmt> (eller I<mandb_tfmt> med B<-t>), finns i roten av man-trädet "
+"körs det i stället. Det får manualsidans källfil, förbehandlarsträngen och, "
+"som tillval, enheten som anges med B<-T> eller B<-E> som argument."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:412
+msgid "Non-argument options that are duplicated either on the command line, in $B<MANOPT>, or both, are not harmful.  For options that require an argument, each duplication will override the previous argument value."
+msgstr "Alternativ utan argument som upprepas på kommandoraden, i $B<MANOPT> eller på "
+"båda ställena är ofarliga. För alternativ som kräver ett argument åsidosätter "
+"varje upprepning det föregående argumentvärdet."
+
+#. type: SS
+#: ../../man/man1/man.man1:412
+#, no-wrap
+msgid "General options"
+msgstr "Allmänna flaggor"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:430
+msgid "This option is normally issued as the very first option and resets B<%man%'s> behaviour to its default.  Its use is to reset those options that may have been set in $B<MANOPT>.  Any options that follow B<-D> will have their usual effect."
+msgstr "Denna flagga anges normalt som den allra första flaggan och återställer B<%man%>:s beteende till standardinställningarna.  Den används för att återställa de flaggor som kan ha satts i $B<MANOPT>.  Flaggor som följer B<-D> kommer att ha sin vanliga effekt."
+
+#. type: TP
+#: ../../man/man1/man.man1:430
+#, no-wrap
+msgid "B<--warnings>[=I<warnings\\/>]"
+msgstr "B<--warnings>[=I<warnings\\/>]"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:448
+msgid "Enable warnings from I<groff>.  This may be used to perform sanity checks on the source text of manual pages.  I<warnings> is a comma-separated list of warning names; if it is not supplied, the default is \"mac\".  To disable a I<groff> warning, prefix it with \"!\": for example, B<--warnings=mac,!break> enables warnings in the \"mac\" category and disables warnings in the \"break\" category.  See the \\(lqWarnings\\(rq node in B<info groff> for a list of available warning names."
+msgstr "Aktivera varningar från I<groff>. Detta kan användas för rimlighetskontroller "
+"av manualsidornas källtext. I<warnings> är en kommaseparerad lista över "
+"varningsnamn; om den saknas används ”mac”. Inaktivera en I<groff>-varning "
+"genom att föregå den med ”!”, till exempel aktiverar B<--warnings=mac,!break> "
+"varningar i kategorin ”mac” och inaktiverar varningar i kategorin ”break”. Se "
+"noden \\(lqWarnings\\(rq i B<info groff> för en lista över tillgängliga "
+"varningsnamn."
+
+#. type: SS
+#: ../../man/man1/man.man1:448
+#, no-wrap
+msgid "Main modes of operation"
+msgstr "Huvudlägen"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:457
+msgid "Approximately equivalent to B<%whatis%>.  Display a short description from the manual page, if available.  See B<%whatis%>(1)  for details."
+msgstr "Motsvarar ungefär B<%whatis%>. Visa en kort beskrivning från manualsidan, om "
+"sådan finns. Se B<%whatis%>(1) för detaljer."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:466
+msgid "Approximately equivalent to B<%apropos%>.  Search the short manual page descriptions for keywords and display any matches.  See B<%apropos%>(1)  for details."
+msgstr "Motsvarar ungefär B<%apropos%>. Sök i de korta manualsidebeskrivningarna "
+"efter nyckelord och visa träffarna. Se B<%apropos%>(1) för detaljer."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:476
+msgid "Search for text in all manual pages.  This is a brute-force search, and is likely to take some time; if you can, you should specify a section to reduce the number of pages that need to be searched.  Search terms may be simple strings (the default), or regular expressions if the B<--regex> option is used."
+msgstr "Sök efter text i alla manualsidor. Detta är en uttömmande sökning och tar "
+"sannolikt tid; ange om möjligt ett avsnitt för att minska antalet sidor som "
+"behöver sökas igenom. Söktermer kan vara enkla strängar, vilket är standard, "
+"eller reguljära uttryck med alternativet B<--regex>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:483
+msgid "Note that this searches the I<sources> of the manual pages, not the rendered text, and so may include false positives due to things like comments in source files, or false negatives due to things like hyphens being written as \"\\e-\" in source files.  Searching the rendered text would be much slower."
+msgstr "Observera att detta söker i manualsidorna I<sources>, inte i den återgivna "
+"texten. Därför kan falska positiva träffar uppstå från exempelvis kommentarer "
+"i källfiler, och falska negativa träffar från exempelvis bindestreck som "
+"skrivs som ”\\e-” i källfiler. Sökning i den återgivna texten skulle vara "
+"mycket långsammare."
+
+#.  Compressed nroff source files with a supported compression
+#.  extension will be decompressed by man prior to being displaying via the
+#.  usual filters.
+#. type: Plain text
+#: ../../man/man1/man.man1:495
+msgid "Activate \"local\" mode.  Format and display local manual files instead of searching through the system's manual collection.  Each manual page argument will be interpreted as an nroff source file in the correct format.  No cat file is produced.  If '-' is listed as one of the arguments, input will be taken from stdin."
+msgstr "Aktivera läget ”local”. Formatera och visa lokala manualfiler i stället för "
+"att söka i systemets manualsidesamling. Varje manualsidesargument tolkas som "
+"en nroff-källfil i korrekt format. Ingen cat-fil skapas. Om ”-” anges som ett "
+"av argumenten läses indata från standardindata. När alternativet inte används "
+"och den begärda sidan inte hittas, fungerar programmet innan felmeddelandet "
+"visas som om alternativet hade angetts: namnet används som filnamn och en "
+"exakt träff söks."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:501
+msgid "If this option is not used, then B<%man%> will also fall back to interpreting manual page arguments as local file names if the argument contains a \"/\" character, since that is a good indication that the argument refers to a path on the file system."
+msgstr "Om alternativet inte används tolkar B<%man%> också manualsideargument som "
+"lokala filnamn om argumentet innehåller tecknet ”/”, eftersom det tydligt "
+"anger att argumentet syftar på en sökväg i filsystemet."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:509
+msgid "Don't actually display the manual page, but do print the location of the source nroff file that would be formatted.  If the B<-a> option is also used, then print the locations of all source files that match the search criteria."
+msgstr "Visa inte själva manualsidan, men skriv ut platsen för nroff-källfilen som "
+"skulle formateras. Om alternativet B<-a> också används skrivs platserna för "
+"alla källfiler som matchar sökkriterierna ut."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:517
+msgid "Don't actually display the manual page, but do print the location of the preformatted cat file that would be displayed.  If the B<-a> option is also used, then print the locations of all preformatted cat files that match the search criteria."
+msgstr "Visa inte själva manualsidan, men skriv ut platsen för den förformaterade "
+"cat-filen som skulle visas. Om alternativet B<-a> också används skrivs "
+"platserna för alla förformaterade cat-filer som matchar sökkriterierna ut."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:531
+msgid "If B<-w> and B<-W> are both used, then print both source file and cat file separated by a space.  If all of B<-w>, B<-W>, and B<-a> are used, then do this for each possible match."
+msgstr "Om både B<-w> och B<-W> används skrivs både källfil och cat-fil ut, åtskilda "
+"av ett blanksteg. Om även B<-a> används görs detta för varje möjlig träff."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:536
+msgid "This option is not for general use and should only be used by the B<%catman%> program."
+msgstr "Denna flagga är inte avsedd för allmänt bruk och bör bara användas av programmet B<%catman%>."
+
+#. type: TP
+#: ../../man/man1/man.man1:536
+#, no-wrap
+msgid "B<-R\\ >I<encoding>,\\ B<--recode>=I<encoding>"
+msgstr "B<-R\\ >I<encoding>,\\ B<--recode>=I<encoding>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:548
+msgid "Instead of formatting the manual page in the usual way, output its source converted to the specified I<encoding>.  If you already know the encoding of the source file, you can also use B<%manconv%>(1)  directly.  However, this option allows you to convert several manual pages to a single encoding without having to explicitly state the encoding of each, provided that they were already installed in a structure similar to a manual page hierarchy."
+msgstr "Mata ut manualsidans källtext konverterad till angiven I<encoding> i stället "
+"för att formatera sidan på vanligt sätt. Om du redan känner till källfilens "
+"kodning kan du också använda B<%manconv%>(1) direkt. Med alternativet kan du "
+"konvertera flera manualsidor till en kodning utan att uttryckligen ange varje "
+"sidans kodning, förutsatt att de redan är installerade i en struktur som "
+"liknar en manualsideshierarki."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:553
+msgid "Consider using B<%man_recode%>(1)  instead for converting multiple manual pages, since it has an interface designed for bulk conversion and so can be much faster."
+msgstr "Överväg att använda B<%man_recode%>(1) för konvertering av flera manualsidor. "
+"Det har ett gränssnitt för masskonvertering och kan därför vara mycket "
+"snabbare."
+
+#. type: SS
+#: ../../man/man1/man.man1:553
+#, no-wrap
+msgid "Finding manual pages"
+msgstr "Hitta manualsidor"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:580
+msgid "If this system has access to other operating systems' manual pages, they can be accessed using this option.  To search for a manual page from NewOS's manual page collection, use the option B<-m> B<NewOS>."
+msgstr "Om systemet har åtkomst till manualsidor från andra operativsystem kan de nås "
+"med detta alternativ. Sök efter en manualsida i NewOS samling med "
+"alternativet B<-m> B<NewOS>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:591
+msgid "The I<system> specified can be a combination of comma delimited operating system names.  To include a search of the native operating system's manual pages, include the system name B<man> in the argument string.  This option will override the $B<SYSTEM> environment variable."
+msgstr "Det angivna I<system> kan vara en kombination av kommaavgränsade "
+"operativsystemsnamn. Ta med systemnamnet B<man> i argumentsträngen för att "
+"också söka i det inhemska operativsystemets manualsidor. Alternativet "
+"åsidosätter miljövariabeln $B<SYSTEM>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:604
+msgid "Specify an alternate manpath to use.  By default, B<%man%> uses B<%manpath%> derived code to determine the path to search.  This option overrides the $B<MANPATH> environment variable and causes option B<-m> to be ignored."
+msgstr "Ange en alternativ manualsökväg. Som standard använder B<%man%> kod från "
+"B<%manpath%> för att fastställa sökvägen. Alternativet åsidosätter "
+"miljövariabeln $B<MANPATH> och gör att B<-m> ignoreras."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:611
+msgid "A path specified as a manpath must be the root of a manual page hierarchy structured into sections as described in the man-db manual (under \"The manual page system\").  To view manual pages outside such hierarchies, see the B<-l> option."
+msgstr "En sökväg som anges som manualsökväg måste vara roten till en "
+"manualsideshierarki indelad i avsnitt enligt beskrivningen i man-db-manualen, "
+"under ”The manual page system”. Se alternativet B<-l> för att visa "
+"manualsidor utanför sådana hierarkier."
+
+#. type: TP
+#: ../../man/man1/man.man1:611
+#, no-wrap
+msgid "B<-S> I<list\\/>, B<-s> I<list\\/>, B<--sections=>I<list\\/>"
+msgstr "B<-S> I<list\\/>, B<-s> I<list\\/>, B<--sections=>I<list\\/>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:625
+msgid "The given I<list> is a colon- or comma-separated list of sections, used to determine which manual sections to search and in what order.  This option overrides the $B<MANSECT> environment variable.  (The B<-s> spelling is for compatibility with System V.)"
+msgstr "Det angivna I<list> är en kolon- eller kommaseparerad lista med avsnitt som "
+"avgör vilka manualavsnitt som söks och i vilken ordning. Alternativet "
+"åsidosätter miljövariabeln $B<MANSECT>. (Skrivningen B<-s> finns för "
+"kompatibilitet med System V.)"
+
+#. type: TP
+#: ../../man/man1/man.man1:625
+#, no-wrap
+msgid "B<-e\\ >I<sub-extension>,\\ B<--extension=>I<sub-extension>"
+msgstr "B<-e\\ >I<sub-extension>,\\ B<--extension=>I<sub-extension>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:659
+msgid "Some systems incorporate large packages of manual pages, such as those that accompany the B<Tcl> package, into the main manual page hierarchy.  To get around the problem of having two manual pages with the same name such as B<exit>(3), the B<Tcl> pages were usually all assigned to section B<l>.  As this is unfortunate, it is now possible to put the pages in the correct section, and to assign a specific \"extension\" to them, in this case, B<exit>(3tcl).  Under normal operation, B<%man%> will display B<exit>(3)  in preference to B<exit>(3tcl).  To negotiate this situation and to avoid having to know which section the page you require resides in, it is now possible to give B<%man%> a I<sub-extension> string indicating which package the page must belong to.  Using the above example, supplying the option B<-e\\ tcl> to B<%man%> will restrict the search to pages having an extension of B<*tcl>."
+msgstr "Vissa system införlivar stora paket med manualsidor, som dem som följer med "
+"B<Tcl>, i huvudhierarkin för manualsidor. För att undvika två manualsidor med "
+"samma namn, exempelvis B<exit>(3), tilldelades B<Tcl>-sidorna vanligen "
+"avsnitt B<l>. Det är olyckligt, så sidorna kan nu placeras i rätt avsnitt och "
+"få en egen ”extension”, här B<exit>(3tcl). Vid normal användning visar "
+"B<%man%> B<exit>(3) före B<exit>(3tcl). För att hantera detta utan att känna "
+"till sidans avsnitt kan B<%man%> få en I<sub-extension>-sträng som anger "
+"vilket paket sidan måste tillhöra. I exemplet begränsar B<-e\\ tcl> sökningen "
+"till sidor med filändelsen B<*tcl>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:663
+msgid "Ignore case when searching for manual pages.  This is the default."
+msgstr "Ignorera skiftläge vid sökning efter manualsidor.  Detta är standard."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:666
+msgid "Search for manual pages case-sensitively."
+msgstr "Sök efter manualsidor med hänsyn till skiftläge."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:676
+msgid "Show all pages with any part of either their names or their descriptions matching each I<page> argument as a regular expression, as with B<apropos>(1).  Since there is usually no reasonable way to pick a \"best\" page when searching for a regular expression, this option implies B<-a>."
+msgstr "Visa alla sidor där någon del av namnet eller beskrivningen matchar varje "
+"I<page>-argument som reguljärt uttryck, som med B<apropos>(1). Eftersom det "
+"vanligen inte går att välja en ”bästa” sida när ett reguljärt uttryck "
+"används, innebär detta alternativ B<-a>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:691
+msgid "Show all pages with any part of either their names or their descriptions matching each I<page> argument using shell-style wildcards, as with B<apropos>(1)  B<--wildcard>.  The I<page> argument must match the entire name or description, or match on word boundaries in the description.  Since there is usually no reasonable way to pick a \"best\" page when searching for a wildcard, this option implies B<-a>."
+msgstr "Visa alla sidor där någon del av namnet eller beskrivningen matchar varje "
+"I<page>-argument med jokertecken i skalstil, som med B<apropos>(1) "
+"B<--wildcard>. Argumentet I<page> måste matcha hela namnet eller "
+"beskrivningen, eller en ordgräns i beskrivningen. Eftersom det vanligen inte "
+"går att välja en ”bästa” sida vid sökning med jokertecken, innebär "
+"alternativet B<-a>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:700
+msgid "If the B<--regex> or B<--wildcard> option is used, match only page names, not page descriptions, as with B<whatis>(1).  Otherwise, no effect."
+msgstr "Om B<--regex> eller B<--wildcard> används, matcha endast sidnamn och inte "
+"sidbeskrivningar, som med B<whatis>(1). I annat fall har alternativet ingen "
+"effekt."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:708
+msgid "By default, B<%man%> will exit after displaying the most suitable manual page it finds.  Using this option forces B<%man%> to display all the manual pages with names that match the search criteria."
+msgstr "Som standard avslutar B<%man%> efter att ha visat den mest lämpliga "
+"manualsidan som hittas. Med detta alternativ tvingas B<%man%> att visa alla "
+"manualsidor vars namn matchar sökkriterierna."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:716
+msgid "This option causes B<%man%> to update its database caches of installed manual pages.  This is only needed in rare situations, and it is normally better to run B<%mandb%>(8)  instead."
+msgstr "Med alternativet uppdaterar B<%man%> sina databasbufertar för installerade "
+"manualsidor. Det behövs bara sällan, och normalt är det bättre att köra "
+"B<%mandb%>(8)."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:728
+msgid "By default, B<%man%> will try to interpret pairs of manual page names given on the command line as equivalent to a single manual page name containing a hyphen or an underscore.  This supports the common pattern of programs that implement a number of subcommands, allowing them to provide manual pages for each that can be accessed using similar syntax as would be used to invoke the subcommands themselves.  For example:"
+msgstr "Som standard försöker B<%man%> tolka par av manualsidesnamn på kommandoraden "
+"som ett enda manualsidesnamn med bindestreck eller understreck. Detta stöder "
+"program med flera underkommandon och låter dem erbjuda manualsidor som nås "
+"med en syntax liknande den som används för underkommandona. Exempel:"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:737
+msgid "To disable this behaviour, use the B<--no-subpages> option."
+msgstr "För att inaktivera detta beteende, använd flaggan B<--no-subpages>."
+
+#. type: SS
+#: ../../man/man1/man.man1:744
+#, no-wrap
+msgid "Controlling formatted output"
+msgstr "Styr formaterad utdata"
+
+#. type: TP
+#: ../../man/man1/man.man1:745
+#, no-wrap
+msgid "B<-P\\ >I<pager>,\\ B<--pager=>I<pager>"
+msgstr "B<-P\\ >I<pager>,\\ B<--pager=>I<pager>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:766
+msgid "Specify which output pager to use.  By default, B<%man%> uses B<%pager%>, falling back to B<%cat%> if B<%pager%> is not found or is not executable.  This option overrides the $B<MANPAGER> environment variable, which in turn overrides the $B<PAGER> environment variable.  It is not used in conjunction with B<-f> or B<-k>."
+msgstr "Ange vilken sidvisare som ska användas för utdata. Som standard använder "
+"B<%man%> B<%pager%>, och faller tillbaka på B<%cat%> om B<%pager%> inte "
+"hittas eller inte är körbar. Alternativet åsidosätter miljövariabeln "
+"$B<MANPAGER>, som i sin tur åsidosätter $B<PAGER>. Det används inte "
+"tillsammans med B<-f> eller B<-k>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:772 ../../man/man1/man.man1:1143
+msgid "The value may be a simple command name or a command with arguments, and may use shell quoting (backslashes, single quotes, or double quotes).  It may not use pipes to connect multiple commands; if you need that, use a wrapper script, which may take the file to display either as an argument or on standard input."
+msgstr "Värdet kan vara ett enkelt kommandonamn eller ett kommando med argument och "
+"får använda skalcitering med bakstreck, enkla citattecken eller dubbla "
+"citattecken. Det får inte använda rör för att koppla samman flera kommandon; "
+"använd vid behov ett omslutande skript som tar filen som argument eller från "
+"standardindata."
+
+#. type: TP
+#: ../../man/man1/man.man1:772
+#, no-wrap
+msgid "B<-r\\ >I<prompt>,\\ B<--prompt=>I<prompt>"
+msgstr "B<-r\\ >I<prompt>,\\ B<--prompt=>I<prompt>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:780
+msgid "If a recent version of B<less> is used as the pager, B<%man%> will attempt to set its prompt and some sensible options.  The default prompt looks like"
+msgstr "Om en ny version av B<less> används som sidvisare försöker B<%man%> ange dess "
+"prompt och lämpliga alternativ. Standardprompten ser ut så här:"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:782
+msgid "B< Manual page>I< name>B<(>I<sec>B<) line>I< x>"
+msgstr "B< Manual page>I< name>B<(>I<sec>B<) line>I< x>"
+
+#. The default options are
+#. .BR \-six8 .
+#. The actual default will depend on your chosen
+#. .BR locale .
+#. type: Plain text
+#: ../../man/man1/man.man1:797
+msgid "where I<name> denotes the manual page name, I<sec> denotes the section it was found under and I<x> the current line number.  This is achieved by using the $B<LESS> environment variable."
+msgstr "där I<name> är manualsidans namn, I<sec> är avsnittet där den hittades och "
+"I<x> är det aktuella radnumret. Detta sker med miljövariabeln $B<LESS>."
+
+#. You may need to do this if your
+#. version of
+#. .B less
+#. rejects the default options or if you prefer a different prompt.
+#. type: Plain text
+#: ../../man/man1/man.man1:810
+msgid "Supplying B<-r> with a string will override this default.  The string may contain the text B<$MAN_PN> which will be expanded to the name of the current manual page and its section name surrounded by \"(\" and \")\".  The string used to produce the default could be expressed as"
+msgstr "Om B<-r> ges en sträng åsidosätts standardvärdet. Strängen kan innehålla "
+"B<$MAN_PN>, som expanderas till den aktuella manualsidans namn och dess "
+"avsnittsnamn inom ”(” och ”)”. Strängen som skapar standardvärdet kan skrivas "
+"som"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:812
+msgid "B<\\e\\ Manual\\e\\ page\\e\\ \\e$MAN_PN\\e\\ ?ltline\\e\\ %lt?L/%L.:>"
+msgstr "B<\\e\\ Manualsida\\e\\ \\e$MAN_PN\\e\\ ?ltrad\\e\\ %lt?L/%L.:>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:814
+msgid "B<byte\\e\\ %bB?s/%s..?\\e\\ (END):?pB\\e\\ %pB\\e\\e%..>"
+msgstr "B<byte\\e\\ %bB?s/%s..?\\e\\ (SLUT):?pB\\e\\ %pB\\e\\e%..>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:816
+msgid "B<(press h for help or q to quit)>"
+msgstr "B<(tryck på h för hjälp eller q för att avsluta)>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:831
+msgid "It is broken into three lines here for the sake of readability only.  For its meaning see the B<less>(1)  manual page.  The prompt string is first evaluated by the shell.  All double quotes, back-quotes and backslashes in the prompt must be escaped by a preceding backslash.  The prompt string may end in an escaped $ which may be followed by further options for less.  By default B<%man%> sets the B<-ix8> options."
+msgstr "Texten delas endast upp i tre rader här för läsbarhetens skull. Se B<less>(1) "
+"för innebörden. Promptsträngen utvärderas först av skalet. Alla dubbla "
+"citattecken, bakåtcitat och bakstreck i prompten måste skyddas med ett "
+"föregående bakstreck. Promptsträngen kan sluta med ett skyddat $ följt av "
+"ytterligare alternativ för less. Som standard anger B<%man%> alternativen "
+"B<-ix8>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:836
+msgid "The $B<MANLESS> environment variable described below may be used to set a default prompt string if none is supplied on the command line."
+msgstr "Miljövariabeln $B<MANLESS> som beskrivs nedan kan användas för att ställa in en standardpromptsträng om ingen anges på kommandoraden."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:862
+msgid "When viewing a pure I<ascii>(7)  manual page on a 7 bit terminal or terminal emulator, some characters may not display correctly when using the I<latin1>(7)  device description with B<GNU> B<nroff>.  This option allows pure I<ascii> manual pages to be displayed in I<ascii> with the I<latin1> device.  It will not translate any I<latin1> text.  The following table shows the translations performed: some parts of it may only be displayed properly when using B<GNU> B<nroff>'s I<latin1>(7)  device."
+msgstr "När en ren I<ascii>(7)-manualsida visas på en 7-bitars terminal eller "
+"terminalemulator kanske vissa tecken inte visas korrekt med "
+"enhetsbeskrivningen I<latin1>(7) för B<GNU> B<nroff>. Alternativet låter rena "
+"I<ascii>-manualsidor visas i I<ascii> med I<latin1>-enheten. Det översätter "
+"inte I<latin1>-text. Tabellen nedan visar översättningarna; vissa delar visas "
+"korrekt endast med B<GNU> B<nroff>s I<latin1>(7)-enhet."
+
+#. type: tbl table
+#: ../../man/man1/man.man1:871
+#, no-wrap
+msgid "Description"
+msgstr "Beskrivning"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:871
+#, no-wrap
+msgid "Octal"
+msgstr "Oktal"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:873
+#, no-wrap
+msgid "continuation hyphen"
+msgstr "bindestreck"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:874
+#, no-wrap
+msgid "bullet (middle dot)"
+msgstr "punkt (mittpunkt)"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:875
+#, no-wrap
+msgid "acute accent"
+msgstr "akut accent"
+
+#. type: tbl table
+#: ../../man/man1/man.man1:876
+#, no-wrap
+msgid "multiplication sign"
+msgstr "multiplikationstecken"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:897
+msgid "If the I<latin1> column displays correctly, your terminal may be set up for I<latin1> characters and this option is not necessary.  If the I<latin1> and I<ascii> columns are identical, you are reading this page using this option or B<%man%> did not format this page using the I<latin1> device description.  If the I<latin1> column is missing or corrupt, you may need to view manual pages with this option."
+msgstr "Om I<latin1>-kolumnen visas korrekt kan terminalen vara inställd för "
+"I<latin1>-tecken och alternativet behövs inte. Om I<latin1>- och "
+"I<ascii>-kolumnerna är identiska läser du sidan med detta alternativ, eller "
+"så formaterade B<%man%> inte sidan med I<latin1>-enhetsbeskrivningen. Om "
+"I<latin1>-kolumnen saknas eller är skadad kan du behöva visa manualsidor med "
+"detta alternativ."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:908
+msgid "This option is ignored when using options B<-t>, B<-H>, B<-T>, or B<-Z> and may be useless for B<nroff> other than B<GNU's>."
+msgstr "Alternativet ignoreras med B<-t>, B<-H>, B<-T> eller B<-Z> och kan vara "
+"meningslöst med annan B<nroff> än B<GNU>s."
+
+#. type: TP
+#: ../../man/man1/man.man1:908
+#, no-wrap
+msgid "B<-E\\ >I<encoding>,\\ B<--encoding>=I<encoding>"
+msgstr "B<-E\\ >I<encoding>,\\ B<--encoding>=I<encoding>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:919
+msgid "Generate output for a character encoding other than the default.  For backward compatibility, I<encoding> may be an B<nroff> device such as B<ascii>, B<latin1>, or B<utf8> as well as a true character encoding such as B<UTF-8>."
+msgstr "Generera utdata med en annan teckenkodning än standardkodningen. Av "
+"bakåtkompatibilitetsskäl kan I<encoding> vara både en B<nroff>-enhet som "
+"B<ascii>, B<latin1> eller B<utf8>, och en verklig teckenkodning som B<UTF-8>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:928
+msgid "Normally, B<nroff> will automatically hyphenate text at line breaks even in words that do not contain hyphens, if it is necessary to do so to lay out words on a line without excessive spacing.  This option disables automatic hyphenation, so words will only be hyphenated if they already contain hyphens."
+msgstr "B<nroff> avstavar vanligen automatiskt text vid radbrytningar, även ord utan "
+"bindestreck, om det krävs för att placera ord på en rad utan alltför stort "
+"mellanrum. Alternativet inaktiverar automatisk avstavning, så att ord bara "
+"avstavas om de redan innehåller bindestreck."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:937
+msgid "If you are writing a manual page and simply want to prevent B<nroff> from hyphenating a word at an inappropriate point, do not use this option, but consult the B<nroff> documentation instead; for instance, you can put \"\\e%\" inside a word to indicate that it may be hyphenated at that point, or put \"\\e%\" at the start of a word to prevent it from being hyphenated."
+msgstr "Om du skriver en manualsida och vill hindra B<nroff> från att avstava ett ord "
+"vid en olämplig punkt ska du inte använda alternativet, utan läsa "
+"B<nroff>-dokumentationen. Du kan till exempel placera ”\\e%” i ett ord för "
+"att ange en möjlig avstavningspunkt, eller i början av ett ord för att hindra "
+"avstavning."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:944
+msgid "Normally, B<nroff> will automatically justify text to both margins.  This option disables full justification, leaving justified only to the left margin, sometimes called \"ragged-right\" text."
+msgstr "B<nroff> marginaljusterar vanligen text automatiskt mot båda marginalerna. "
+"Alternativet inaktiverar full justering och lämnar texten justerad endast mot "
+"vänstermarginalen, ibland kallad ”ojämn högermarginal”."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:951
+msgid "If you are writing a manual page and simply want to prevent B<nroff> from justifying certain paragraphs, do not use this option, but consult the B<nroff> documentation instead; for instance, you can use the \".na\", \".nf\", \".fi\", and \".ad\" requests to temporarily disable adjusting and filling."
+msgstr "Om du skriver en manualsida och vill förhindra B<nroff> från att justera "
+"vissa stycken ska du inte använda alternativet, utan läsa "
+"B<nroff>-dokumentationen. Du kan till exempel använda begärandena ”.na”, "
+"”.nf”, ”.fi” och ”.ad” för att tillfälligt inaktivera justering och utfyllnad."
+
+#. type: TP
+#: ../../man/man1/man.man1:951
+#, no-wrap
+msgid "B<-p\\ >I<string>,\\ B<--preprocessor=>I<string>"
+msgstr "B<-p\\ >I<string>,\\ B<--preprocessor=>I<string>"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:970
+msgid "Specify the sequence of preprocessors to run before B<nroff> or B<troff>/B<groff>.  Not all installations will have a full set of preprocessors.  Some of the preprocessors and the letters used to designate them are: B<eqn> (B<e>), B<grap> (B<g>), B<pic> (B<p>), B<tbl> (B<t>), B<vgrind> (B<v>), B<refer> (B<r>).  This option overrides the $B<MANROFFSEQ> environment variable.  B<%zsoelim%> is always run as the very first preprocessor."
+msgstr "Ange följden av förbehandlare som ska köras före B<nroff> eller "
+"B<troff>/B<groff>. Alla installationer har inte en fullständig uppsättning "
+"förbehandlare. Några av dem och deras beteckningsbokstäver är B<eqn> (B<e>), "
+"B<grap> (B<g>), B<pic> (B<p>), B<tbl> (B<t>), B<vgrind> (B<v>) och B<refer> "
+"(B<r>). Alternativet åsidosätter miljövariabeln $B<MANROFFSEQ>. B<%zsoelim%> "
+"körs alltid först."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:980
+msgid "Use I<%troff%> to format the manual page to stdout.  This option is not required in conjunction with B<-H>, B<-T>, or B<-Z>."
+msgstr "Använd I<%troff%> för att formatera manualsidan till standardutdata. "
+"Alternativet krävs inte med B<-H>, B<-T> eller B<-Z>."
+
+#. type: TP
+#: ../../man/man1/man.man1:980
+#, no-wrap
+msgid "B<-T>[I<device\\/>], B<--troff-device>[=I<device\\/>]"
+msgstr "B<-T>[I<device\\/>], B<--troff-device>[=I<device\\/>]"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:998
+msgid "This option is used to change B<groff> (or possibly B<troff's>)  output to be suitable for a device other than the default.  It implies B<-t>.  Examples (as of groff 1.23.0) include B<dvi>, B<latin1>, B<pdf>, B<ps>, B<utf8>, B<X75> and B<X100>."
+msgstr "Använd alternativet för att ändra B<groff>s, eller möjligen B<troff>s, utdata "
+"så att den passar en annan enhet än standardenheten. Det innebär B<-t>. "
+"Exempel, från och med groff 1.23.0, är B<dvi>, B<latin1>, B<pdf>, B<ps>, "
+"B<utf8>, B<X75> och B<X100>."
+
+#. type: TP
+#: ../../man/man1/man.man1:998
+#, no-wrap
+msgid "B<-H>[I<browser\\/>], B<--html>[=I<browser\\/>]"
+msgstr "B<-H>[I<browser\\/>], B<--html>[=I<browser\\/>]"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1014
+msgid "This option will cause B<groff> to produce HTML output, and will display that output in a web browser.  The choice of browser is determined by the optional I<browser> argument if one is provided, by the $B<BROWSER> environment variable, or by a compile-time default if that is unset (usually B<lynx>).  This option implies B<-t>, and will only work with B<GNU> B<troff>."
+msgstr "Alternativet får B<groff> att skapa HTML-utdata och visar den i en "
+"webbläsare. Webbläsaren väljs med det valfria I<browser>-argumentet, "
+"miljövariabeln $B<BROWSER> eller ett standardvärde vid kompilering, vanligen "
+"B<lynx>. Alternativet innebär B<-t> och fungerar endast med B<GNU> B<troff>."
+
+#. type: TP
+#: ../../man/man1/man.man1:1014
+#, no-wrap
+msgid "B<-X>[I<dpi\\/>], B<--gxditview>[=I<dpi\\/>]"
+msgstr "B<-X>[I<dpi\\/>], B<--gxditview>[=I<dpi\\/>]"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1028
+msgid "This option displays the output of B<groff> in a graphical window using the B<gxditview> program.  The I<dpi> (dots per inch) may be 75, 75-12, 100, or 100-12, defaulting to 75; the -12 variants use a 12-point base font.  This option implies B<-T> with the X75, X75-12, X100, or X100-12 device respectively."
+msgstr "Alternativet visar B<groff>s utdata i ett grafiskt fönster med B<gxditview>. "
+"I<dpi> (punkter per tum) kan vara 75, 75-12, 100 eller 100-12, med 75 som "
+"standard; varianterna med -12 använder ett 12-punkters grundtypsnitt. "
+"Alternativet innebär B<-T> med enheten X75, X75-12, X100 respektive X100-12."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1044
+msgid "B<groff> will run B<troff> and then use an appropriate post-processor to produce output suitable for the chosen device.  If I<%troff%> is B<groff>, this option is passed to B<groff> and will suppress the use of a post-processor.  It implies B<-t>."
+msgstr "B<groff> kör B<troff> och använder sedan en lämplig efterbehandlare för att "
+"skapa utdata för den valda enheten. Om I<%troff%> är B<groff> skickas "
+"alternativet till B<groff> och användningen av en efterbehandlare "
+"undertrycks. Det innebär B<-t>."
+
+#. type: SS
+#: ../../man/man1/man.man1:1044
+#, no-wrap
+msgid "Getting help"
+msgstr "Få hjälp"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1067
+msgid "A child process returned a non-zero exit status."
+msgstr "En underordnad process avslutades med en status som inte är noll."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1070
+msgid "At least one of the pages/files/keywords didn't exist or wasn't matched."
+msgstr "Minst en av sidorna, filerna eller nyckelorden fanns inte eller matchade inte."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1077
+msgid "If $B<MANPATH> is set, its value is used as the path to search for manual pages."
+msgstr "Om $B<MANPATH> är satt används värdet som sökväg för manualsidor."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1096
+msgid "Every time B<man> invokes the formatter (B<nroff>, B<troff>, or B<groff>), it adds the contents of $B<MANROFFOPT> to the formatter's command line."
+msgstr "Varje gång B<man> anropar formateraren, B<nroff>, B<troff> eller B<groff>, "
+"lägger det till innehållet i $B<MANROFFOPT> på formaterarens kommandorad."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1101
+msgid "For example, B<MANROFFOPT=-P-i> tells the formatter to use italic text (which is only supported by some terminals) rather than underlined text."
+msgstr "Till exempel berättar B<MANROFFOPT=-P-i> för formateraren att den ska använda kursiv text (vilket endast stöds av vissa terminaler) snarare än understruken text."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1108
+msgid "If $B<MANROFFSEQ> is set, its value is used to determine the set of preprocessors to pass each manual page through.  The default preprocessor list is system dependent."
+msgstr "Om $B<MANROFFSEQ> är satt används värdet för att bestämma uppsättningen av "
+"förbehandlare som varje manualsida skickas genom. Standardlistan över "
+"förbehandlare är systemberoende."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1120 ../../man/man8/catman.man8:88
+msgid "If $B<MANSECT> is set, its value is a colon-delimited list of sections and it is used to determine which manual sections to search and in what order.  The default is \"%sections%\", unless overridden by the B<SECTION> directive in I<%manpath_config_file%>."
+msgstr "Om $B<MANSECT> är satt är dess värde en kolonavgränsad lista över avsnitt och den används för att bestämma vilka manualavsnitt som ska genomsökas och i vilken ordning.  Standardvärdet är ”%sections%” om det inte åsidosatts av direktivet B<SECTION> i I<%manpath_config_file%>."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1137
+msgid "If $B<MANPAGER> or $B<PAGER> is set ($B<MANPAGER> is used in preference), its value is used as the name of the program used to display the manual page.  By default, B<%pager%> is used, falling back to B<%cat%> if B<%pager%> is not found or is not executable."
+msgstr "Om $B<MANPAGER> eller $B<PAGER> är satt, med $B<MANPAGER> företrädesvis, "
+"används värdet som namn på programmet som visar manualsidan. Som standard "
+"används B<%pager%>, med B<%cat%> som reserv om B<%pager%> saknas eller inte "
+"är körbar."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1162
+msgid "If $B<MANLESS> is set, its value will be used as the default prompt string for the B<less> pager, as if it had been passed using the B<-r> option (so any occurrences of the text B<$MAN_PN> will be expanded in the same way).  For example, if you want to set the prompt string unconditionally to \\(lqmy prompt string\\(rq, set $B<MANLESS> to \\(oqB<-Psmy\\ prompt\\ string>\\(cq.  Using the B<-r> option overrides this environment variable."
+msgstr "Om $B<MANLESS> är satt används värdet som standardprompt för sidvisaren "
+"B<less>, som om det hade angetts med B<-r>; förekomster av B<$MAN_PN> "
+"expanderas på samma sätt. Vill du exempelvis ovillkorligen ange "
+"promptsträngen \\(lqmy prompt string\\(rq, sätter du $B<MANLESS> till "
+"\\(oqB<-Psmy\\ prompt\\ string>\\(cq. Alternativet B<-r> åsidosätter "
+"miljövariabeln."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1178
+msgid "If $B<BROWSER> is set, its value is a colon-delimited list of commands, each of which in turn is used to try to start a web browser for B<man> B<--html>.  In each command, I<%s> is replaced by a filename containing the HTML output from B<groff>, I<%%> is replaced by a single percent sign (%), and I<%c> is replaced by a colon (:)."
+msgstr "Om $B<BROWSER> är satt är värdet en kolonseparerad lista med kommandon som "
+"var för sig används för att försöka starta en webbläsare för B<man> "
+"B<--html>. I varje kommando ersätts I<%s> av filnamnet som innehåller "
+"HTML-utdata från B<groff>, I<%%> av ett enda procenttecken (%) och I<%c> av "
+"ett kolon (:)."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1201
+msgid "If $B<MANOPT> is set, it will be parsed prior to B<%man%'s> command line and is expected to be in a similar format.  As all of the other B<%man%> specific environment variables can be expressed as command line options, and are thus candidates for being included in $B<MANOPT> it is expected that they will become obsolete.  N.B.  All spaces that should be interpreted as part of an option's argument must be escaped."
+msgstr "Om $B<MANOPT> är satt tolkas den före B<%man%>:s kommandorad och förväntas ha "
+"ett liknande format. Eftersom alla andra B<%man%>-specifika miljövariabler "
+"kan uttryckas som kommandoradsalternativ och därmed kan ingå i $B<MANOPT>, "
+"väntas de bli föråldrade. Observera att blanksteg som ska ingå i ett "
+"arguments värde måste skyddas."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1215
+msgid "If $B<MANWIDTH> is set, its value is used as the line length for which manual pages should be formatted.  If it is not set, manual pages will be formatted with a line length appropriate to the current terminal (using the value of $B<COLUMNS>, and B<ioctl>(2)  if available, or falling back to 80 characters if neither is available).  Cat pages will only be saved when the default formatting can be used, that is when the terminal line length is between 66 and 80 characters."
+msgstr "Om $B<MANWIDTH> är satt används värdet som radlängd vid formatering av "
+"manualsidor. Annars används en radlängd som passar den aktuella terminalen, "
+"med $B<COLUMNS> och B<ioctl>(2) om tillgängligt, eller 80 tecken som reserv. "
+"Cat-sidor sparas endast när standardformatering kan användas, alltså när "
+"terminalens radlängd är mellan 66 och 80 tecken."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1226
+msgid "Normally, when output is not being directed to a terminal (such as to a file or a pipe), formatting characters are discarded to make it easier to read the result without special tools.  However, if $B<MAN_KEEP_FORMATTING> is set to any non-empty value, these formatting characters are retained.  This may be useful for wrappers around B<%man%> that can interpret formatting characters."
+msgstr "När utdata inte skickas till en terminal, exempelvis till en fil eller ett "
+"rör, tas formateringstecken vanligen bort så att resultatet kan läsas utan "
+"särskilda verktyg. Om $B<MAN_KEEP_FORMATTING> sätts till ett icke-tomt värde "
+"behålls de dock. Det kan vara användbart för omslutande skript kring B<%man%> "
+"som kan tolka formateringstecknen."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1239
+msgid "Normally, when output is being directed to a terminal (usually to a pager), any error output from the command used to produce formatted versions of manual pages is discarded to avoid interfering with the pager's display.  Programs such as B<groff> often produce relatively minor error messages about typographical problems such as poor alignment, which are unsightly and generally confusing when displayed along with the manual page.  However, some users want to see them anyway, so, if $B<MAN_KEEP_STDERR> is set to any non-empty value, error output will be displayed as usual."
+msgstr "När utdata skickas till en terminal, vanligen en sidvisare, tas felutdata "
+"från kommandot som skapar formaterade manualsidor vanligen bort för att inte "
+"störa sidvisarens bild. Program som B<groff> ger ofta mindre felmeddelanden "
+"om typografiska problem, exempelvis dålig justering, som är fula och "
+"förvirrande tillsammans med manualsidan. Om $B<MAN_KEEP_STDERR> är satt till "
+"ett icke-tomt värde visas felutdata ändå som vanligt."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1251
+msgid "On Linux, B<%man%> normally confines subprocesses that handle untrusted data using a B<seccomp>(2)  sandbox.  This makes it safer to run complex parsing code over arbitrary manual pages.  If this goes wrong for some reason unrelated to the content of the page being displayed, you can set $B<MAN_DISABLE_SECCOMP> to any non-empty value to disable the sandbox."
+msgstr "På Linux begränsar B<%man%> normalt underprocesser som hanterar opålitliga "
+"data med en B<seccomp>(2)-sandlåda. Det gör det säkrare att köra komplex "
+"tolkningskod på godtyckliga manualsidor. Om detta av något skäl som inte "
+"beror på innehållet i sidan går fel kan du sätta $B<MAN_DISABLE_SECCOMP> till "
+"ett icke-tomt värde för att inaktivera sandlådan."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1259
+msgid "If the $B<PIPELINE_DEBUG> environment variable is set to \"1\", then B<%man%> will print debugging messages to standard error describing each subprocess it runs."
+msgstr "Om miljövariabeln $B<PIPELINE_DEBUG> sätts till ”1” skriver B<%man%> "
+"felsökningsmeddelanden till standardfel som beskriver varje underprocess "
+"programmet kör."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1271
+msgid "Depending on system and implementation, either or both of $B<LANG> and $B<LC_MESSAGES> will be interrogated for the current message locale.  B<%man%> will display its messages in that locale (if available).  See B<setlocale>(3)  for precise details."
+msgstr "Beroende på system och implementation läses $B<LANG>, $B<LC_MESSAGES> eller "
+"båda för den aktuella språkmiljön för meddelanden. B<%man%> visar sina "
+"meddelanden på den språkmiljön, om den finns. Se B<setlocale>(3) för exakta "
+"detaljer."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1275 ../../man/man1/manpath.man1:114
+#: ../../man/man8/catman.man8:105 ../../man/man8/mandb.man8:189
+msgid "man-db configuration file."
+msgstr "man-db-konfigurationsfil."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1278
+msgid "A global manual page hierarchy."
+msgstr "En global hierarki av manualsidor."
+
+#. type: SH
+#: ../../man/man1/man.man1:1278
+#, no-wrap
+msgid "STANDARDS"
+msgstr "STANDARDER"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1280
+msgid "POSIX.1-2001, POSIX.1-2008, POSIX.1-2017."
+msgstr "POSIX.1-2001, POSIX.1-2008, POSIX.1-2017."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1297
+msgid "Documentation for some packages may be available in other formats, such as B<info>(1)  or HTML."
+msgstr "Dokumentation för vissa paket kan finnas i andra format, som B<info>(1) eller "
+"HTML."
+
+#. type: SH
+#: ../../man/man1/man.man1:1297
+#, no-wrap
+msgid "HISTORY"
+msgstr "HISTORIA"
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1299
+msgid "1990, 1991 \\(en Originally written by John W.\\& Eaton (jwe@che.utexas.edu)."
+msgstr "1990, 1991 \\(en Skrevs i original av John W.\\& Eaton (jwe@che.utexas.edu)."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1302
+msgid "Dec 23 1992: Rik Faith (faith@cs.unc.edu) applied bug fixes supplied by Willem Kasdorp (wkasdo@nikhefk.nikef.nl)."
+msgstr "23:e dec 1992: Rik Faith (faith@cs.unc.edu) lade till felfixar från Willem Kasdorp (wkasdo@nikhefk.nikef.nl)."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1306
+msgid "30th April 1994 \\(en 23rd February 2000: Wilf.\\& (G.Wilford@ee.surrey.ac.uk)  has been developing and maintaining this package with the help of a few dedicated people."
+msgstr "30:e april 1994 \\(en 23:e februari 2000: Wilf.\\& (G.Wilford@ee.surrey.ac.uk) har utvecklat och underhållit detta paket med hjälp av ett par hängivna individer."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1310
+msgid "30th October 1996 \\(en 30th March 2001: Fabrizio Polacco E<lt>fpolacco@debian.orgE<gt> maintained and enhanced this package for the Debian project, with the help of all the community."
+msgstr "30 oktober 1996 \\(en 30 mars 2001: Fabrizio Polacco "
+"E<lt>fpolacco@debian.orgE<gt> underhöll och förbättrade paketet för "
+"Debianprojektet med hjälp från hela gemenskapen."
+
+#. type: Plain text
+#: ../../man/man1/man.man1:1313
+msgid "31st March 2001 \\(en present day: Colin Watson E<lt>cjwatson@debian.orgE<gt> is now developing and maintaining man-db."
+msgstr "31:a mars 2001 \\(en idag: Colin Watson E<lt>cjwatson@debian.orgE<gt> utvecklar och underhåller nu man-db."
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:12
+msgid "%man_recode% - convert manual pages to another encoding"
+msgstr "%man_recode% - konvertera manualsidor från en kodning till en annan"
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:20
+msgid "B<%man_recode%> B<-t> I<to-code> {\\|B<--suffix=>I<suffix\\/>\\||\\|B<--in-place>\\|} [\\|B<-dqhV>\\|] [\\|I<filename>\\|]"
+msgstr "B<%man_recode%> B<-t> I<to-code> "
+"{\\|B<--suffix=>I<suffix\\/>\\||\\|B<--in-place>\\|} [\\|B<-dqhV>\\|] "
+"[\\|I<filename>\\|]"
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:32
+msgid "B<%man_recode%> converts multiple manual pages from one encoding to another, guessing the appropriate input encoding for each one.  It is useful when permanently recoding pages written in legacy character sets, or in build systems that need to recode a set of pages to a single common encoding (usually UTF-8) for installation.  When converting many manual pages, this program is much faster than running B<%man% --recode> or B<%manconv%> on each page."
+msgstr "B<%man_recode%> konverterar flera manualsidor från en kodning till en annan "
+"och gissar lämplig indatakodning för var och en. Det är användbart för "
+"permanent omkodning av sidor i äldre teckenuppsättningar, eller i byggsystem "
+"som behöver omkoda en uppsättning sidor till en gemensam kodning, vanligen "
+"UTF-8, för installation. Vid konvertering av många manualsidor är programmet "
+"mycket snabbare än B<%man% --recode> eller B<%manconv%> för varje sida."
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:36
+msgid "If an encoding declaration is found on the first line of a manual page, then that declaration is used as the input encoding for that page.  Failing that, the input encoding is guessed based on the file name."
+msgstr "Om en kodningsdeklaration finns på första raden i en manualsida används den "
+"som sidans indatakodning. Annars gissas indatakodningen utifrån filnamnet."
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:38
+msgid "Encoding declarations have the following form:"
+msgstr "Kodningsdeklarationer har följande form:"
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:46 ../../man/man1/manconv.man1:44
+msgid "or (if manual page preprocessors are also to be declared):"
+msgstr "eller, om manualsidans förbehandlare också ska deklareras:"
+
+#. type: TP
+#: ../../man/man1/man-recode.man1:53
+#, no-wrap
+msgid "B<-t> I<encoding\\/>, B<--to-code=>I<encoding>"
+msgstr "B<-t> I<encoding\\/>, B<--to-code=>I<encoding>"
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:57
+msgid "Convert manual pages to I<encoding>."
+msgstr "Konvertera manualsidor till I<encoding>."
+
+#. type: TP
+#: ../../man/man1/man-recode.man1:57
+#, no-wrap
+msgid "B<--suffix=>I<suffix>"
+msgstr "B<--suffix=>I<suffix>"
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:62
+msgid "Form each output file name by appending I<suffix> to the input file name, after removing any compression extension."
+msgstr "Skapa varje utdatas filnamn genom att lägga till I<suffix> till "
+"indatafilnamnet efter att en eventuell komprimeringsfiländelse tagits bort."
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:66
+msgid "Overwrite each input file with the output, after removing any compression extension."
+msgstr "Skriv över varje indatafil med utdata efter att en eventuell "
+"komprimeringsfiländelse tagits bort."
+
+#. type: Plain text
+#: ../../man/man1/man-recode.man1:69 ../../man/man1/manconv.man1:64
+msgid "Do not issue error messages when the page cannot be converted."
+msgstr "Skriv inte ut felmeddelanden när sidan inte kan konverteras."
+
+#. type: Plain text
+#: ../../man/man1/manconv.man1:12
+msgid "%manconv% - convert manual page from one encoding to another"
+msgstr "%manconv% - konvertera manualsida från en kodning till en annan"
+
+#. type: Plain text
+#: ../../man/man1/manconv.man1:20
+msgid "B<%manconv%> B<-f> [\\|I<from-code>\\|[:I<from-code>\\|.\\|.\\|.]\\|] B<-t> I<to-code> [\\|B<-dqhV>\\|] [\\|I<filename>\\|]"
+msgstr "B<%manconv%> B<-f> [\\|I<from-code>\\|[:I<from-code>\\|.\\|.\\|.]\\|] B<-t> "
+"I<to-code> [\\|B<-dqhV>\\|] [\\|I<filename>\\|]"
+
+#. type: Plain text
+#: ../../man/man1/manconv.man1:30
+msgid "B<%manconv%> converts a manual page from one encoding to another, like B<iconv>.  Unlike B<iconv>, it can try multiple possible input encodings in sequence.  This is useful for manual pages installed in directories without an explicit encoding declaration, since they may be in UTF-8 or in a legacy character set."
+msgstr "B<%manconv%> konverterar en manualsida från en kodning till en annan, liksom "
+"B<iconv>. Till skillnad från B<iconv> kan det prova flera möjliga "
+"indatakodningar i följd. Det är användbart för manualsidor i kataloger utan "
+"uttrycklig kodningsdeklaration, eftersom de kan använda UTF-8 eller en äldre "
+"teckenuppsättning."
+
+#. type: Plain text
+#: ../../man/man1/manconv.man1:36
+msgid "If an encoding declaration is found on the first line of the manual page, that declaration overrides any input encodings specified on B<%manconv%>'s command line.  Encoding declarations have the following form:"
+msgstr "Om en kodningsdeklaration finns på första raden i manualsidan åsidosätter den "
+"alla indatakodningar som anges på B<%manconv%>:s kommandorad. "
+"Kodningsdeklarationer har följande form:"
+
+#. type: TP
+#: ../../man/man1/manconv.man1:51
+#, no-wrap
+msgid "B<-f> I<encodings>, B<--from-code> I<encodings>"
+msgstr "B<-f> I<encodings>, B<--from-code> I<encodings>"
+
+#. type: Plain text
+#: ../../man/man1/manconv.man1:57
+msgid "Try each of I<encodings> (a colon-separated list) in sequence as the input encoding.  The default is to guess likely input encodings based on the file name."
+msgstr "Prova varje I<encodings>, en kolonseparerad lista, i följd som indatakodning. "
+"Som standard gissas sannolika indatakodningar utifrån filnamnet."
+
+#. type: TP
+#: ../../man/man1/manconv.man1:57
+#, no-wrap
+msgid "B<-t> I<encoding>, B<--to-code> I<encoding>"
+msgstr "B<-t> I<encoding>, B<--to-code> I<encoding>"
+
+#. type: Plain text
+#: ../../man/man1/manconv.man1:61
+msgid "Convert the manual page to I<encoding>."
+msgstr "Konvertera manualsidan till I<encoding>."
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:16
+msgid "%manpath% - determine search path for manual pages"
+msgstr "%manpath% - bestäm sökvägen för manualsidor"
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:23
+msgid "B<%manpath%> [\\|B<-qgdc?V>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-C> I<file>\\|]"
+msgstr "B<%manpath%> [\\|B<-qgdc?V>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] "
+"[\\|B<-C> I<file>\\|]"
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:33
+msgid "If $B<MANPATH> is set, B<%manpath%> will simply display its contents and issue a warning.  If not, B<%manpath%> will determine a suitable manual page hierarchy search path and display the results."
+msgstr "Om $B<MANPATH> är satt visar B<%manpath%> bara innehållet och ger en varning. "
+"Annars fastställer B<%manpath%> en lämplig sökväg till manualsideshierarkier "
+"och visar resultatet."
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:38
+msgid "The colon-delimited path is determined using information gained from the man-db configuration file \\(en (I<%manpath_config_file%>)  and the user's environment."
+msgstr "Den kolonseparerade sökvägen fastställs med information från man-db:s "
+"konfigurationsfil \\(en (I<%manpath_config_file%>) och användarens miljö."
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:42
+msgid "Do not issue warnings."
+msgstr "Skriv inte ut varningar."
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:50
+msgid "Produce a catpath as opposed to a manpath.  Once the manpath is determined, each path element is converted to its relative catpath."
+msgstr "Skapa en cat-sökväg i stället för en manualsökväg. När manualsökvägen har "
+"fastställts omvandlas varje sökvägselement till sin relativa cat-sökväg."
+
+#
+#. type: Plain text
+#: ../../man/man1/manpath.man1:54
+msgid "Produce a manpath consisting of all paths named as \"global\" within the man-db configuration file."
+msgstr "Skapa en manualsökväg av alla sökvägar som anges som ”global” i man-db:s "
+"konfigurationsfil."
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:63
+msgid "If this system has access to other operating systems' manual hierarchies, this option can be used to include them in the output of B<%manpath%>.  To include NewOS's manual page hierarchies use the option B<-m> B<NewOS>."
+msgstr "Om systemet har åtkomst till andra operativsystems manualsideshierarkier kan "
+"alternativet ta med dem i utdata från B<%manpath%>. Ta med NewOS hierarkier "
+"med B<-m> B<NewOS>."
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:74
+msgid "The I<system> specified can be a combination of comma delimited operating system names.  To include the native operating system's manual page hierarchies, the system name B<man> must be included in the argument string.  This option will override the $B<SYSTEM> environment variable."
+msgstr "Det angivna I<system> kan vara en kombination av kommaavgränsade "
+"operativsystemsnamn. Ta med systemnamnet B<man> i argumentsträngen för att "
+"inkludera det inhemska operativsystemets manualsideshierarkier. Alternativet "
+"åsidosätter miljövariabeln $B<SYSTEM>."
+
+#. type: Plain text
+#: ../../man/man1/manpath.man1:95
+msgid "If $B<MANPATH> is set, B<%manpath%> displays its value rather than determining it on the fly."
+msgstr "Om $B<MANPATH> är satt visar B<%manpath%> värdet i stället för att fastställa "
+"det dynamiskt."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:15
+msgid "%whatis% - display one-line manual page descriptions"
+msgstr "%whatis% – visa enradiga manualsidebeskrivningar"
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:32
+msgid "B<%whatis%> [\\|B<-dlv?V>\\|] [\\|B<-r>\\||\\|B<-w>\\|] [\\|B<-s> I<list>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<path>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-C> I<file>\\|] I<name> \\&.\\|.\\|."
+msgstr "B<%whatis%> [\\|B<-dlv?V>\\|] [\\|B<-r>\\||\\|B<-w>\\|] [\\|B<-s> I<list>\\|] "
+"[\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<path>\\|] [\\|B<-L> "
+"I<locale>\\|] [\\|B<-C> I<file>\\|] I<name> \\&.\\|.\\|."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:39
+msgid "Each manual page has a short description available within it.  B<%whatis%> searches the manual page names and displays the manual page descriptions of any I<name> matched."
+msgstr "Varje manualsida har en kort beskrivning. B<%whatis%> söker i manualsidornas "
+"namn och visar beskrivningen för varje träff på I<name>."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:49
+msgid "I<name> may contain wildcards (B<-w>)  or be a regular expression (B<-r>).  Using these options, it may be necessary to quote the I<name> or escape (\\e) the special characters to stop the shell from interpreting them."
+msgstr "I<name> kan innehålla jokertecken (B<-w>) eller vara ett reguljärt uttryck "
+"(B<-r>). Med dessa alternativ kan I<name> behöva citeras eller specialtecken "
+"skyddas med escape-tecknet (\\e) så att skalet inte tolkar dem."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:61
+msgid "B<index> databases are used during the search, and are updated by the B<%mandb%> program.  Depending on your installation, this may be run by a periodic cron job, or may need to be run manually after new manual pages have been installed.  To produce an old style text B<whatis> database from the relative B<index> database, issue the command:"
+msgstr "B<index>-databaser används vid sökningen och uppdateras av B<%mandb%>. "
+"Beroende på installationen kan det köras som ett återkommande cron-jobb eller "
+"behöva köras manuellt efter installation av nya manualsidor. Skapa en äldre "
+"B<whatis>-textdatabas från motsvarande B<index>-databas med kommandot:"
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:66
+msgid "B<%whatis% -M> I<manpath> B<-w '*' | sort E<gt>> I<manpath/whatis>"
+msgstr "B<%whatis% -M> I<manpath> B<-w '*' | sort E<gt>> I<manpath/whatis>"
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:71
+msgid "where I<manpath> is a manual page hierarchy such as I</usr/man>."
+msgstr "där I<manpath> är en manualsideshierarki som I</usr/man>."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:89
+msgid "Interpret each I<name> as a regular expression.  If a I<name> matches any part of a page name, a match will be made.  This option causes B<%whatis%> to be somewhat slower due to the nature of database searches."
+msgstr "Tolka varje I<name> som ett reguljärt uttryck. Om ett I<name> matchar någon "
+"del av ett sidnamn uppstår en träff. Databassökningarnas natur gör "
+"B<%whatis%> något långsammare med detta alternativ."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:100
+msgid "Interpret each I<name> as a pattern containing shell style wildcards.  For a match to be made, an expanded I<name> must match the entire page name.  This option causes B<%whatis%> to be somewhat slower due to the nature of database searches."
+msgstr "Tolka varje I<name> som ett mönster med jokertecken i skalstil. För att ge "
+"träff måste ett expanderat I<name> matcha hela sidnamnet. Databassökningarnas "
+"natur gör B<%whatis%> något långsammare med detta alternativ."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:131
+msgid "If this system has access to other operating systems' manual page names, they can be accessed using this option.  To search NewOS's manual page names, use the option B<-m> B<NewOS>."
+msgstr "Om systemet har åtkomst till andra operativsystems manualsidesnamn kan de nås "
+"med alternativet. Sök i NewOS manualsidesnamn med B<-m> B<NewOS>."
+
+#. type: Plain text
+#: ../../man/man1/whatis.man1:142
+msgid "The I<system> specified can be a combination of comma delimited operating system names.  To include a search of the native operating system's manual page names, include the system name B<man> in the argument string.  This option will override the $B<SYSTEM> environment variable."
+msgstr "Det angivna I<system> kan vara en kombination av kommaavgränsade "
+"operativsystemsnamn. Ta med systemnamnet B<man> i argumentsträngen för att "
+"också söka i det inhemska operativsystemets manualsidesnamn. Alternativet "
+"åsidosätter miljövariabeln $B<SYSTEM>."
+
+#. type: Plain text
+#: ../../man/man1/zsoelim.man1:15
+msgid "%zsoelim% - satisfy .so requests in roff input"
+msgstr "%zsoelim% – hantera .so-begäranden i roff-indata"
+
+#. type: Plain text
+#: ../../man/man1/zsoelim.man1:20
+msgid "B<%zsoelim%> [\\|B<-CVh>\\|] [\\|I<file> \\&.\\|.\\|.\\|]"
+msgstr "B<%zsoelim%> [\\|B<-CVh>\\|] [\\|I<file> \\&.\\|.\\|.\\|]"
+
+#. type: Plain text
+#: ../../man/man1/zsoelim.man1:26
+msgid "B<%zsoelim%> parses I<file> arguments, or if none are specified, its standard input for lines of the form:"
+msgstr "B<%zsoelim%> tolkar I<file>-argument eller, om inga anges, standardindata för "
+"rader med formen:"
+
+#. type: Plain text
+#: ../../man/man1/zsoelim.man1:29
+msgid "B<.so> E<lt>\\|I<filename>\\|E<gt>"
+msgstr "B<.so> E<lt>\\|I<filename>\\|E<gt>"
+
+#. type: Plain text
+#: ../../man/man1/zsoelim.man1:48
+msgid "These requests are replaced by the contents of the I<filename> specified.  If the request cannot be met, B<%zsoelim%> looks for I<filename.ext> where I<.ext> can be one of B<.gz>, B<.Z> or B<.z>.  Other extension types may be supported depending upon compile time options.  If the request can be met by a compressed file, this file is decompressed using an appropriate decompressor and its output is used to satisfy the request."
+msgstr "Begärandena ersätts av innehållet i angiven I<filename>. Om en begäran inte "
+"kan uppfyllas söker B<%zsoelim%> efter I<filename.ext>, där I<.ext> kan vara "
+"B<.gz>, B<.Z> eller B<.z>. Andra filändelsetyper kan stödjas beroende på "
+"alternativ vid kompileringen. Kan begäran uppfyllas av en komprimerad fil "
+"dekomprimeras den med lämpligt program och utdata används för att hantera "
+"begäran."
+
+#. type: Plain text
+#: ../../man/man1/zsoelim.man1:55
+msgid "Traditionally, B<soelim> programs were used to allow roff preprocessors to be able to preprocess the files referred to by the requests.  This particular version was written to circumvent problems created by support for compressed manual pages."
+msgstr "Traditionellt användes B<soelim>-program för att låta roff-förbehandlare "
+"förbehandla filer som begärandena hänvisar till. Denna version skrevs för att "
+"kringgå problemen med stöd för komprimerade manualsidor."
+
+#. type: Plain text
+#: ../../man/man1/zsoelim.man1:64
+msgid "This flag is available for compatibility with other B<soelim> programs.  Its use is to enable .so requests followed by something other than whitespace.  As this is already the default behaviour, it is ignored."
+msgstr "Alternativet finns för kompatibilitet med andra B<soelim>-program. Det "
+"aktiverar .so-begäranden följda av något annat än blanksteg. Eftersom detta "
+"redan är standardbeteendet ignoreras alternativet."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:16
+msgid "manpath - format of the %manpath_config_file% file"
+msgstr "manpath - formatet för filen %manpath_config_file%"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:21
+msgid "The manpath configuration file is used by the manual page utilities to assess users' manpaths at run time, to indicate which manual page hierarchies (manpaths) are to be treated as system hierarchies and to assign them directories to be used for storing cat files."
+msgstr "Konfigurationsfilen för manpath används av verktygen för manualsidor för att "
+"fastställa användarnas manualsökvägar vid körning, ange vilka "
+"manualsideshierarkier som ska behandlas som systemhierarkier och tilldela dem "
+"kataloger för cat-filer."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:26
+msgid "If the environment variable $B<MANPATH> is already set, the information contained within %manpath_config_file% will not override it."
+msgstr "Om miljövariabeln $B<MANPATH> redan är satt kommer informationen i %manpath_config_file% inte att åsidosätta den."
+
+#. type: SH
+#: ../../man/man5/manpath.man5:26
+#, no-wrap
+msgid "SEARCH PATH"
+msgstr "SÖKVÄG"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:35
+msgid "By default, man-db examines the user's $B<PATH>.  For each I<path_element> found there, it adds I<manpath_element> to the search path."
+msgstr "Som standard granskar man-db användarens $B<PATH>. För varje I<path_element> "
+"som hittas där läggs I<manpath_element> till i sökvägen."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:47
+msgid "If there is no B<MANPATH_MAP> line in the configuration file for a given I<path_element>, then it adds all of I<path_element/../man>, I<path_element/man>, I<path_element/../share/man>, and I<path_element/share/man> that exist as directories to the search path."
+msgstr "Om konfigurationsfilen saknar en B<MANPATH_MAP>-rad för ett I<path_element>, "
+"läggs alla existerande kataloger av I<path_element/../man>, "
+"I<path_element/man>, I<path_element/../share/man> och "
+"I<path_element/share/man> till i sökvägen."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:51
+msgid "It then adds any B<MANDATORY_MANPATH> entries from the configuration file to the search path."
+msgstr "Därefter läggs alla B<MANDATORY_MANPATH>-poster från konfigurationsfilen till "
+"i sökvägen."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:73
+msgid "Finally, if the B<--systems> option is used or the $B<SYSTEM> environment variable is set, then that should consist of a sequence of operating system names separated by commas or colons.  This acts as a template, expanding the search path once more to allow access to other operating systems' manual pages: for each system name, man-db looks for that name as a subdirectory of each entry in the search path, and adds it to the final search path if it exists.  A system name of B<man> inserts the normal search path without subdirectories.  For example, if the search path would otherwise have been I</usr/share/man:/usr/local/man>, and $B<SYSTEM> is set to I<newOS:man>, then the final search path will be I</usr/share/man/newOS:\\:/usr/share/man:\\:/usr/local/man/newOS:\\:/usr/local/man>."
+msgstr "Slutligen ska B<--systems> eller miljövariabeln $B<SYSTEM>, om den används, "
+"bestå av en följd av operativsystemsnamn åtskilda med kommatecken eller "
+"kolon. Den fungerar som en mall och utökar sökvägen så att andra "
+"operativsystems manualsidor blir åtkomliga: för varje systemnamn söker man-db "
+"efter namnet som en underkatalog till varje sökvägspost och lägger till den i "
+"den slutliga sökvägen om den finns. Systemnamnet B<man> infogar den vanliga "
+"sökvägen utan underkataloger. Om sökvägen annars är "
+"I</usr/share/man:/usr/local/man> och $B<SYSTEM> är I<newOS:man>, blir den "
+"slutliga sökvägen "
+"I</usr/share/man/newOS:\\:/usr/share/man:\\:/usr/local/man/newOS:\\:/usr/local/man>."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:83
+msgid "The $B<MANPATH> environment variable overrides man-db's default manual page search paths.  Most users should not need to set it.  Its syntax is similar to the $B<PATH> environment variable: it consists of a sequence of directory names separated by colons.  It overrides the default search path described above."
+msgstr "Miljövariabeln $B<MANPATH> åsidosätter man-db:s standardsökvägar för "
+"manualsidor. De flesta användare behöver inte sätta den. Syntaxen liknar "
+"$B<PATH>: en följd av katalognamn åtskilda med kolon. Den åsidosätter "
+"standardsökvägen ovan."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:96
+msgid "If the value of $B<MANPATH> starts with a colon, then the default search path is added at its start.  If the value of $B<MANPATH> ends with a colon, then the default search path is added at its end.  If the value of $B<MANPATH> contains a double colon (B<::>), then the default search path is inserted in the middle of the value, between the two colons."
+msgstr "Börjar $B<MANPATH> med ett kolon läggs standardsökvägen till i början. Slutar "
+"värdet med ett kolon läggs standardsökvägen till i slutet. Innehåller värdet "
+"ett dubbelkolon, B<::>, infogas standardsökvägen mellan de båda kolonen."
+
+#. type: SH
+#: ../../man/man5/manpath.man5:96
+#, no-wrap
+msgid "FORMAT"
+msgstr "FORMAT"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:98
+msgid "The following field types are currently recognised:"
+msgstr "Följande fälttyper känns för närvarande igen:"
+
+#. type: TP
+#: ../../man/man5/manpath.man5:98
+#, no-wrap
+msgid "B<#>I<\\ comment>"
+msgstr "B<#>I<\\ comment>"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:103
+msgid "Blank lines or those beginning with a B<#> will be treated as comments and ignored."
+msgstr "Tomma rader eller de som börjar med ett B<#> kommer att hanteras som kommentarer och ignoreras."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:103
+#, no-wrap
+msgid "B<MANDATORY_MANPATH>I<\\ manpath_element>"
+msgstr "B<MANDATORY_MANPATH>I<\\ manpath_element>"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:110
+msgid "Lines of this form indicate manpaths that every automatically generated $B<MANPATH> should contain.  This will typically include I</usr/man>."
+msgstr "Rader i detta format anger manualsökvägar som varje automatiskt genererad "
+"$B<MANPATH> ska innehålla. Det omfattar vanligen I</usr/man>."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:110
+#, no-wrap
+msgid "B<MANPATH_MAP>I<\\ path_element\\ manpath_element>"
+msgstr "B<MANPATH_MAP>I<\\ path_element\\ manpath_element>"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:124
+msgid "Lines of this form set up $B<PATH> to $B<MANPATH> mappings.  For each I<path_element> found in the user's $B<PATH>, I<manpath_element> will be added to the $B<MANPATH>."
+msgstr "Rader i detta format skapar mappningar från $B<PATH> till $B<MANPATH>. För "
+"varje I<path_element> i användarens $B<PATH> läggs I<manpath_element> till i "
+"$B<MANPATH>."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:124
+#, no-wrap
+msgid "B<MANDB_MAP >I<manpath_element >\\|[\\| I<catpath_element> \\|]"
+msgstr "B<MANDB_MAP >I<manpath_element >\\|[\\| I<catpath_element> \\|]"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:134
+msgid "Lines of this form indicate which manpaths are to be treated as system manpaths, and optionally where their cat files should be stored.  This field type is particularly important if B<man> is a setuid program, as (when in the system configuration file %manpath_config_file% rather than the per-user configuration file .manpath)  it indicates which manual page hierarchies to access as the setuid user and which as the invoking user."
+msgstr "Rader i detta format anger vilka manualsökvägar som ska behandlas som "
+"systemets manualsökvägar och, som tillval, var deras cat-filer lagras. "
+"Fälttypen är särskilt viktig när B<man> är ett setuid-program: i "
+"systemkonfigurationsfilen %manpath_config_file%, men inte "
+"användarkonfigurationsfilen .manpath, anger den vilka manualsideshierarkier "
+"som nås som setuid-användare respektive anropande användare."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:142
+msgid "The system manual page hierarchies are usually those stored under I</usr> such as I</usr/man>, I</usr/local/man> and I</usr/X11R6/man>."
+msgstr "Systemets manualsideshierarkier är vanligen de som lagras under I</usr>, "
+"exempelvis I</usr/man>, I</usr/local/man> och I</usr/X11R6/man>."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:148
+msgid "If cat pages from a particular I<manpath_element> are not to be stored or are to be stored in the traditional location, I<catpath_element> may be omitted."
+msgstr "Om cat-sidor från ett visst I<man-sökvägselement> inte ska lagras eller ska lagras på den traditionella platsen kan I<cat-sökvägselement> utelämnas."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:157
+msgid "Traditional cat placement would be impossible for read only mounted manual page hierarchies and because of this it is possible to specify any valid directory hierarchy for their storage.  To observe the B<Linux FSSTND> the keyword B<FSSTND> can be used in place of an actual directory."
+msgstr "Om cat-sidor från ett visst I<manpath_element> inte ska lagras, eller ska "
+"lagras på traditionell plats, kan I<catpath_element> utelämnas."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:166
+msgid "Unfortunately, it is necessary to specify B<all> system man tree paths, including alternate operating system paths such as I</usr/man/sun> and any B<NLS locale> paths such as I</usr/man/de_DE.88591>."
+msgstr "Tyvärr måste B<alla> systemets manualsökvägar anges, inklusive alternativa "
+"operativsystemssökvägar som I</usr/man/sun> och eventuella B<NLS "
+"locale>-sökvägar som I</usr/man/de_DE.88591>."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:174
+msgid "As the information is parsed line by line in the order written, it is necessary for any manpath that is a sub-hierarchy of another hierarchy to be listed first, otherwise an incorrect match will be made.  An example is that I</usr/man/de_DE.88591> must come before I</usr/man>."
+msgstr "Eftersom informationen tolkas rad för rad i skriven ordning måste en "
+"manualsökväg som är en underhierarki till en annan anges först, annars "
+"uppstår en felaktig matchning. I</usr/man/de_DE.88591> måste till exempel "
+"komma före I</usr/man>."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:174
+#, no-wrap
+msgid "B<DEFINE>I<\\ key\\ value>"
+msgstr "B<DEFINE>I<\\ key\\ value>"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:184
+msgid "Lines of this form define miscellaneous configuration variables; see the default configuration file for those variables used by the manual pager utilities.  They include default paths to various programs (such as I<grep> and I<tbl>), and default sets of arguments to those programs."
+msgstr "Rader i detta format definierar olika konfigurationsvariabler; se "
+"standardkonfigurationsfilen för de variabler som används av verktygen för "
+"manualsidesvisning. De omfattar standardsökvägar till program som I<grep> och "
+"I<tbl>, samt standarduppsättningar med argument till dem."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:184
+#, no-wrap
+msgid "B<SECTION> I<section> .\\|.\\|."
+msgstr "B<SECTION> I<section> .\\|.\\|."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:192
+msgid "Lines of this form define the order in which manual sections should be searched.  If there are no B<SECTION> directives in the configuration file, the default is:"
+msgstr "Rader i detta format definierar ordningen i vilken manualavsnitt ska sökas. "
+"Om konfigurationsfilen saknar B<SECTION>-direktiv används standardordningen:"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:202
+msgid "If multiple B<SECTION> directives are given, their section lists will be concatenated."
+msgstr "Om flera B<SECTION>-direktiv anges kommer avsnittslistorna att konkateneras."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:209
+msgid "If a particular extension is not in this list (say, 1mh) it will be displayed with the rest of the section it belongs to.  The effect of this is that you only need to explicitly list extensions if you want to force a particular order.  Sections with extensions should usually be adjacent to their main section (e.g.\\& \"1 1mh 8 ...\")."
+msgstr "Om en viss filändelse, exempelvis 1mh, saknas i listan visas den tillsammans "
+"med resten av avsnittet den tillhör. Du behöver alltså endast uttryckligen "
+"lista filändelser för att tvinga fram en viss ordning. Avsnitt med "
+"filändelser bör vanligen ligga intill huvudavsnittet, till exempel \\& ”1 1mh "
+"8 ...”."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:212
+msgid "B<SECTIONS> is accepted as an alternative name for this directive."
+msgstr "B<SECTIONS> accepteras som ett alternativt namn på detta direktiv."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:213
+#, no-wrap
+msgid "B<MINCATWIDTH>I<\\ width>"
+msgstr "B<MINCATWIDTH>I<\\ width>"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:219
+msgid "If the terminal width is less than I<width>, cat pages will not be created (if missing) or displayed.  The default is 80."
+msgstr "Är terminalbredden mindre än I<width> skapas eller visas cat-sidor inte. "
+"Standardvärdet är 80."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:219
+#, no-wrap
+msgid "B<MAXCATWIDTH>I<\\ width>"
+msgstr "B<MAXCATWIDTH>I<\\ width>"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:225
+msgid "If the terminal width is greater than I<width>, cat pages will not be created (if missing) or displayed.  The default is 80."
+msgstr "Är terminalbredden större än I<width> skapas eller visas cat-sidor inte. "
+"Standardvärdet är 80."
+
+#. type: TP
+#: ../../man/man5/manpath.man5:225
+#, no-wrap
+msgid "B<CATWIDTH>I<\\ width>"
+msgstr "B<CATWIDTH>I<\\ width>"
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:235
+msgid "If I<width> is non-zero, cat pages will always be formatted for a terminal of the given width, regardless of the width of the terminal actually being used.  This overrides B<MINCATWIDTH> and B<MAXCATWIDTH>."
+msgstr "Om I<width> inte är noll formateras cat-sidor alltid för terminaler med den "
+"angivna bredden, oavsett bredden på terminalen som används. Detta åsidosätter "
+"B<MINCATWIDTH> och B<MAXCATWIDTH>."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:240
+msgid "This flag prevents B<%man%>(1)  from creating cat pages automatically."
+msgstr "Denna flagga förhindrar B<%man%>(1) från att automatiskt skapa cat-sidor."
+
+#. type: Plain text
+#: ../../man/man5/manpath.man5:244
+msgid "Unless the rules above are followed and observed precisely, the manual pager utilities will not function as desired.  The rules are overly complicated."
+msgstr "Om reglerna ovan inte följs till punkt och pricka kommer verktygen för sidvisning av manualer inte att fungera som önskat.  Dessa regler är överdrivet komplicerade."
+
+#. type: Plain text
+#: ../../man/man8/accessdb.man8:16
+msgid "accessdb - dumps the content of a man-db database in a human readable format"
+msgstr "accessdb – skriv ut innehållet i en man-db-databas i läsbart format"
+
+#. type: Plain text
+#: ../../man/man8/accessdb.man8:20
+msgid "B</usr/sbin/accessdb> [\\|B<-d?V>\\|] [I<E<lt>index-fileE<gt>>]"
+msgstr "B</usr/sbin/accessdb> [\\|B<-d?V>\\|] [I<E<lt>index-fileE<gt>>]"
+
+#. type: Plain text
+#: ../../man/man8/accessdb.man8:27
+msgid "B<accessdb> will output the data contained within a man-db database in a human readable form.  By default, it will dump the data from B</var/cache/man/index.E<lt>db-typeE<gt>,> where E<lt>db-typeE<gt> is dependent on the database library in use."
+msgstr "B<accessdb> skriver ut data från en man-db-databas i läsbar form. Som "
+"standard hämtas data från B</var/cache/man/index.E<lt>db-typeE<gt>,> där "
+"E<lt>db-typeE<gt> beror på det använda databasbiblioteket."
+
+#. type: Plain text
+#: ../../man/man8/accessdb.man8:29
+msgid "Supplying an argument to accessdb will override this default."
+msgstr "Ett argument till accessdb åsidosätter standardvärdet."
+
+#. type: Plain text
+#: ../../man/man8/catman.man8:15
+msgid "%catman% - create or update the pre-formatted manual pages"
+msgstr "%catman% - skapa eller uppdatera de förformaterade manualsidorna"
+
+#. type: Plain text
+#: ../../man/man8/catman.man8:24
+msgid "B<%catman%> [\\|B<-d?V>\\|] [\\|B<-M> I<path>\\|] [\\|B<-C> I<file>\\|] [\\|I<section>\\|] \\&.\\|.\\|."
+msgstr "B<%catman%> [\\|B<-d?V>\\|] [\\|B<-M> I<path>\\|] [\\|B<-C> I<file>\\|] "
+"[\\|I<section>\\|] \\&.\\|.\\|."
+
+#. type: Plain text
+#: ../../man/man8/catman.man8:32
+msgid "B<%catman%> is used to create an up to date set of pre-formatted manual pages known as cat pages.  Cat pages are generally much faster to display than the original manual pages, but require extra storage space.  The decision to support cat pages is that of the local administrator, who must provide suitable directories to contain them."
+msgstr "B<%catman%> skapar en aktuell uppsättning förformaterade manualsidor, kallade "
+"cat-sidor. Cat-sidor visas vanligen mycket snabbare än originalmanualsidor, "
+"men kräver extra lagringsutrymme. Den lokala administratören avgör om "
+"cat-sidor ska stödjas och måste tillhandahålla lämpliga kataloger för dem."
+
+#. type: Plain text
+#: ../../man/man8/catman.man8:49
+msgid "The options available to B<%catman%> are the manual page hierarchies and sections to pre-format.  The default hierarchies are those specified as system hierarchies in the man-db configuration file, and the default sections are either the colon-delimited contents of the environment variable $B<MANSECT> or the standard set compiled into B<%man%> if $B<MANSECT> is undefined.  Supplying B<%catman%> with a set of whitespace-delimited section names will override both of the above."
+msgstr "Alternativen till B<%catman%> anger vilka manualsideshierarkier och avsnitt "
+"som ska förformateras. Standardhierarkierna är de som anges som "
+"systemhierarkier i man-db:s konfigurationsfil. Standardavsnitten är antingen "
+"det kolonseparerade innehållet i $B<MANSECT> eller den uppsättning som "
+"kompilerats in i B<%man%> om $B<MANSECT> är osatt. En blankstegsseparerad "
+"uppsättning avsnittsnamn till B<%catman%> åsidosätter båda."
+
+#. type: Plain text
+#: ../../man/man8/catman.man8:55
+msgid "B<%catman%> makes use of the B<index> database cache associated with each hierarchy to determine which files need to be formatted."
+msgstr "B<%catman%> använder B<index>-databascachen som hör till varje hierarki för "
+"att avgöra vilka filer som behöver formateras."
+
+#. type: Plain text
+#: ../../man/man8/catman.man8:64
+msgid "Specify an alternate colon-delimited manual page hierarchy search path.  By default, this is all paths indicated as system hierarchies in the man-db configuration file."
+msgstr "Ange en alternativ kolonseparerad sökväg till manualsideshierarkier. Som "
+"standard används alla sökvägar som anges som systemhierarkier i man-db:s "
+"konfigurationsfil."
+
+#. type: Plain text
+#: ../../man/man8/catman.man8:116 ../../man/man8/mandb.man8:207
+msgid "An alternate or FSSTND compliant global I<index> database cache."
+msgstr "En alternativ eller FSSTND-kompatibel global I<index>-databascache."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:17
+msgid "%mandb% - create or update the manual page index caches"
+msgstr "%mandb% - skapa eller uppdatera indexcachar för manualsidor"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:23
+msgid "B<%mandb%> [\\|B<-dqsucpt?V>\\|] [\\|B<-C> I<file>\\|] [\\|I<manpath>\\|]"
+msgstr "B<%mandb%> [\\|B<-dqsucpt?V>\\|] [\\|B<-C> I<file>\\|] [\\|I<manpath>\\|]"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:30
+msgid "B<%mandb%> [\\|B<-dqsut>\\|] [\\|B<-C> I<file>\\|] B<-f> I<filename>\\ .\\|.\\|."
+msgstr "B<%mandb%> [\\|B<-dqsut>\\|] [\\|B<-C> I<file>\\|] B<-f> I<filename>\\ "
+".\\|.\\|."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:38
+msgid "B<%mandb%> is used to initialise or manually update B<index> database caches.  The caches contain information relevant to the current state of the manual page system and the information stored within them is used by the man-db utilities to enhance their speed and functionality."
+msgstr "B<%mandb%> initierar eller uppdaterar B<index>-databascachar manuellt. "
+"Cacharna innehåller information om det aktuella tillståndet i "
+"manualsidessystemet, och man-db-verktygen använder den för att förbättra "
+"hastighet och funktionalitet."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:46
+msgid "When creating or updating an B<index>, B<%mandb%> will warn of bad ROFF .so requests, bogus manual page filenames and manual pages from which the B<whatis> cannot be parsed."
+msgstr "När ett B<index> skapas eller uppdateras varnar B<%mandb%> om felaktiga "
+"ROFF-.so-begäranden, tveksamma manualsidesfilnamn och manualsidor där "
+"B<whatis> inte kan tolkas."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:52
+msgid "Supplying B<%mandb%> with an optional colon-delimited path will override the internal system manual page hierarchy search path, determined from information found within the man-db configuration file."
+msgstr "En valfri kolonseparerad sökväg till B<%mandb%> åsidosätter den interna "
+"sökvägen till systemets manualsideshierarkier, som fastställs från man-db:s "
+"konfigurationsfil."
+
+#. type: SH
+#: ../../man/man8/mandb.man8:52
+#, no-wrap
+msgid "DATABASE CACHES"
+msgstr "DATABASCACHAR"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:55
+msgid "B<%mandb%> can be compiled with support for any one of the following database types."
+msgstr "B<%mandb%> kan kompileras med stöd för någon av följande databastyper."
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:59
+#, no-wrap
+msgid "Name"
+msgstr "Namn"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:59
+#, no-wrap
+msgid "Async"
+msgstr "Asynk"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:59
+#, no-wrap
+msgid "Filename"
+msgstr "Filnamn"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:61
+#, no-wrap
+msgid "Berkeley db"
+msgstr "Berkeley-db"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:61 ../../man/man8/mandb.man8:62
+#, no-wrap
+msgid "Yes"
+msgstr "Ja"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:61
+#, no-wrap
+msgid "I<index.bt>"
+msgstr "I<index.bt>"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:62
+#, no-wrap
+msgid "GNU gdbm"
+msgstr "GNU gdbm"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:62
+#, no-wrap
+msgid "I<index.db>"
+msgstr "I<index.db>"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:63
+#, no-wrap
+msgid "UNIX ndbm"
+msgstr "UNIX ndbm"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:63
+#, no-wrap
+msgid "No"
+msgstr "Nej"
+
+#. type: tbl table
+#: ../../man/man8/mandb.man8:63
+#, no-wrap
+msgid "I<index.(dir|pag)>"
+msgstr "I<index.(dir|pag)>"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:74
+msgid "Those database types that support asynchronous updates provide enhanced speed at the cost of possible corruption in the event of unusual termination.  In an unusual case where this has occurred, it may be necessary to rerun B<%mandb%> with the B<-c> option to re-create the databases from scratch."
+msgstr "Databastyper med stöd för asynkrona uppdateringar ger högre hastighet men "
+"riskerar skador vid ovanliga avslut. Om det inträffar kan B<%mandb%> behöva "
+"köras igen med B<-c> för att skapa om databaserna från grunden."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:81
+msgid "Produce no warnings."
+msgstr "Skriv inte ut varningar."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:85
+msgid "Do not spend time looking for or adding information to the databases regarding stray cats."
+msgstr "Lägg inte tid på att söka efter eller lägga till information om lösa "
+"cat-sidor i databaserna."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:89
+msgid "Do not spend time checking for deleted manual pages and purging them from the databases."
+msgstr "Lägg inte tid på att leta efter borttagna manualsidor och rensa dem från "
+"databaserna."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:101
+msgid "By default, B<%mandb%> will try to update any previously created databases.  If a database does not exist, it will create it.  This option forces B<%mandb%> to delete previous databases and re-create them from scratch, and implies B<--no-purge.> This may be necessary if a database becomes corrupt or if a new database storage scheme is introduced in the future."
+msgstr "Som standard försöker B<%mandb%> uppdatera tidigare skapade databaser. Saknas "
+"en databas skapas den. Alternativet tvingar B<%mandb%> att ta bort tidigare "
+"databaser och skapa om dem från grunden, och innebär B<--no-purge>. Det kan "
+"behövas om en databas skadas eller ett nytt lagringsschema införs."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:105
+msgid "Create user databases only, even with write permissions necessary to create system databases."
+msgstr "Skapa endast användardatabaser, även med skrivbehörigheter som behövs för att skapa systemdatabaser."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:111
+msgid "Perform correctness checks on manual pages in the hierarchy search path.  With this option, B<%mandb%> will not alter existing databases."
+msgstr "Utför korrekthetskontroller av manualsidor i sökvägen till hierarkier. Med "
+"alternativet ändrar B<%mandb%> inte befintliga databaser."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:125
+msgid "Update only the entries for the given filename.  This option is not for general use; it is used internally by B<%man%> when it has been compiled with the B<MAN_DB_UPDATES> option and finds that a page is out of date.  It implies B<-p> and disables B<-c> and B<-s>."
+msgstr "Uppdatera endast posterna för angivet filnamn. Alternativet är inte för "
+"allmänt bruk; det används internt av B<%man%> när det kompilerats med "
+"B<MAN_DB_UPDATES> och hittar en inaktuell sida. Det innebär B<-p> och "
+"inaktiverar B<-c> och B<-s>."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:132
+msgid "Show the usage message, then exit."
+msgstr "Visa användningsmeddelandet och avsluta."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:138
+msgid "Show the version, then exit."
+msgstr "Visa versionen och avsluta."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:145
+msgid "Usage, syntax, or configuration file error."
+msgstr "Användnings-, syntax- eller konfigurationsfilsfel."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:151
+msgid "A child process failed."
+msgstr "En underordnad process misslyckades."
+
+#. type: SH
+#: ../../man/man8/mandb.man8:151
+#, no-wrap
+msgid "DIAGNOSTICS"
+msgstr "DIAGNOSTIK"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:153
+msgid "The following warning messages can be emitted during database building."
+msgstr "Följande varningsmeddelanden kan skrivas ut under databasbygget."
+
+#. type: TP
+#: ../../man/man8/mandb.man8:153
+#, no-wrap
+msgid "B<E<lt>filenameE<gt>: whatis parse for page(sec) failed>"
+msgstr "B<E<lt>filenameE<gt>: whatis parse for page(sec) failed>"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:164
+msgid "An attempt to extract whatis line(s) from the given E<lt>filenameE<gt> failed.  This is usually due to a poorly written manual page, but if many such messages are emitted it is likely that the system contains non-standard manual pages which are incompatible with the man-db whatis parser.  See the B<WHATIS PARSING> section in B<lexgrog>(1)  for more information."
+msgstr "Ett försök att hämta whatis-rader från angivet E<lt>filenameE<gt> "
+"misslyckades. Detta beror vanligen på en dåligt skriven manualsida, men om "
+"många sådana meddelanden visas innehåller systemet sannolikt "
+"icke-standardiserade manualsidor som inte är kompatibla med man-db:s "
+"whatis-tolk. Se avsnittet B<WHATIS PARSING> i B<lexgrog>(1) för mer "
+"information."
+
+#. type: TP
+#: ../../man/man8/mandb.man8:164
+#, no-wrap
+msgid "B<E<lt>filenameE<gt>: is a dangling symlink>"
+msgstr "B<E<lt>filenameE<gt>: is a dangling symlink>"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:169
+msgid "E<lt>filenameE<gt> does not exist but is referenced by a symbolic link.  Further diagnostics are usually emitted to identify the E<lt>filenameE<gt> of the offending link."
+msgstr "E<lt>filenameE<gt> finns inte men refereras av en symbolisk länk. Ytterligare "
+"diagnostikmeddelanden visas vanligen för att identifiera E<lt>filenameE<gt> "
+"för den felaktiga länken."
+
+#. type: TP
+#: ../../man/man8/mandb.man8:169
+#, no-wrap
+msgid "B<E<lt>filenameE<gt>: bad symlink or ROFF `.so' request>"
+msgstr "B<E<lt>filenameE<gt>: bad symlink or ROFF `.so' request>"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:173
+msgid "E<lt>filenameE<gt> is either a symbolic link to, or contains a ROFF include request to, a non existent file."
+msgstr "E<lt>filenameE<gt> är antingen en symbolisk länk till en obefintlig fil eller "
+"innehåller en ROFF-inkluderingsbegäran till en sådan fil."
+
+#. type: TP
+#: ../../man/man8/mandb.man8:173
+#, no-wrap
+msgid "B<E<lt>filenameE<gt>: ignoring bogus filename>"
+msgstr "B<E<lt>filenameE<gt>: ignoring bogus filename>"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:179
+msgid "The E<lt>filenameE<gt> may or may not be a valid manual page but its name is invalid.  This is usually due to a manual page with sectional extension E<lt>xE<gt> being put in manual page section E<lt>yE<gt>."
+msgstr "E<lt>filenameE<gt> kan vara en giltig manualsida, men namnet är ogiltigt. Det "
+"beror vanligen på att en manualsida med avsnittsfiländelsen E<lt>xE<gt> har "
+"placerats i manualavsnitt E<lt>yE<gt>."
+
+#. type: TP
+#: ../../man/man8/mandb.man8:179
+#, no-wrap
+msgid "B<E<lt>filename_maskE<gt>: competing extensions>"
+msgstr "B<E<lt>filename_maskE<gt>: competing extensions>"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:185
+msgid "The wildcard E<lt>filename_maskE<gt> is not unique.  This is usually caused by the existence of both a compressed and uncompressed version of the same manual page.  All but the most recent are ignored."
+msgstr "Jokerteckensträngen E<lt>filename_maskE<gt> är inte unik. Det beror vanligen "
+"på att både en komprimerad och en okomprimerad version av samma manualsida "
+"finns. Alla utom den senaste ignoreras."
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:196
+msgid "Older locations for the database cache included:"
+msgstr "Äldre platser för databascachen inkluderar:"
+
+#. type: Plain text
+#: ../../man/man8/mandb.man8:217
+msgid "The B<WHATIS PARSING> section formerly in this manual page is now part of B<lexgrog>(1)."
+msgstr "Avsnittet B<WHATIS-TOLKNING> som tidigare fanns på denna manualsida finns nu i B<lexgrog>(1)."
+
+#~ msgid "Type"
+#~ msgstr "Typ"
+
+#~ msgid "Binary tree"
+#~ msgstr "Binärträd"
+
+#~ msgid "Hashed"
+#~ msgstr "Hashad"
+
+#~ msgid "B<%man%> [\\|B<-C> I<file>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] [\\|B<--warnings>\\|[\\|=I<warnings>\\|]\\|] [\\|B<-R> I<encoding>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<path>\\|] [\\|B<-S> I<list>\\|] [\\|B<-e> I<extension>\\|] [\\|B<-i>\\||\\|B<-I>\\|] [\\|B<--regex>\\||\\|B<--wildcard>\\|] [\\|B<--names-only>\\|] [\\|B<-a>\\|] [\\|B<-u>\\|] [\\|B<--no-subpages>\\|] [\\|B<-P> I<pager>\\|] [\\|B<-r> I<prompt>\\|] [\\|B<-7>\\|] [\\|B<-E> I<encoding>\\|] [\\|B<--no-hyphenation>\\|] [\\|B<--no-justification>\\|] [\\|B<-p> I<string>\\|] [\\|B<-t>\\|] [\\|B<-T>\\|[\\|I<device>\\|]\\|] [\\|B<-H>\\|[\\|I<browser>\\|]\\|] [\\|B<-X>\\|[\\|I<dpi>\\|]\\|] [\\|B<-Z>\\|] [\\|[\\|I<section>\\|] I<page>[.\\|I<section>\\|]\\ \\|.\\|.\\|.\\|]\\ .\\|.\\|.\\&"
+#~ msgstr "B<%man%> [\\|B<-C> I<fil>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] [\\|B<--warnings>\\|[\\|=I<varningar>\\|]\\|] [\\|B<-R> I<kodning>\\|] [\\|B<-L> I<lokal>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<sökväg>\\|] [\\|B<-S> I<lista>\\|] [\\|B<-e> I<ändelse>\\|] [\\|B<-i>\\||\\|B<-I>\\|] [\\|B<--regex>\\||\\|B<--wildcard>\\|] [\\|B<--names-only>\\|] [\\|B<-a>\\|] [\\|B<-u>\\|] [\\|B<--no-subpages>\\|] [\\|B<-P> I<sidvisare>\\|] [\\|B<-r> I<prompt>\\|] [\\|B<-7>\\|] [\\|B<-E> I<kodning>\\|] [\\|B<--no-hyphenation>\\|] [\\|B<--no-justification>\\|] [\\|B<-p> I<sträng>\\|] [\\|B<-t>\\|] [\\|B<-T>\\|[\\|I<enhet>\\|]\\|] [\\|B<-H>\\|[\\|I<webbläsare>\\|]\\|] [\\|B<-X>\\|[\\|I<ppt>\\|]\\|] [\\|B<-Z>\\|] [\\|[\\|I<avsnitt>\\|] I<sida>[.\\|I<avsnitt>\\|]\\ \\|.\\|.\\|.\\|]\\ .\\|.\\|.\\&"
+
+#~ msgid "B<%man%> B<-K> [\\|B<-w>\\||\\|B<-W>\\|] [\\|B<-S> I<list>\\|] [\\|B<-i>\\||\\|B<-I>\\|] [\\|B<--regex>\\|] [\\|I<section>\\|] I<term>\\ .\\|.\\|.\\&"
+#~ msgstr "B<%man%> B<-K> [\\|B<-w>\\||\\|B<-W>\\|] [\\|B<-S> I<lista>\\|] [\\|B<-i>\\||\\|B<-I>\\|] [\\|B<--regex>\\|] [\\|I<avsnitt>\\|] I<term>\\ .\\|.\\|.\\&"
+
+#~ msgid "B<%man%> B<-l> [\\|B<-C> I<file>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] [\\|B<--warnings>\\|[\\|=I<warnings>\\|]\\|] [\\|B<-R> I<encoding>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-P> I<pager>\\|] [\\|B<-r> I<prompt>\\|] [\\|B<-7>\\|] [\\|B<-E> I<encoding>\\|] [\\|B<-p> I<string>\\|] [\\|B<-t>\\|] [\\|B<-T>\\|[\\|I<device>\\|]\\|] [\\|B<-H>\\|[\\|I<browser>\\|]\\|] [\\|B<-X>\\|[\\|I<dpi>\\|]\\|] [\\|B<-Z>\\|] I<file> \\&.\\|.\\|.\\&"
+#~ msgstr "B<%man%> B<-l> [\\|B<-C> I<fil>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] [\\|B<--warnings>\\|[\\|=I<varningar>\\|]\\|] [\\|B<-R> I<kodning>\\|] [\\|B<-L> I<lokal>\\|] [\\|B<-P> I<sidvisare>\\|] [\\|B<-r> I<prompt>\\|] [\\|B<-7>\\|] [\\|B<-E> I<kodning>\\|] [\\|B<-p> I<sträng>\\|] [\\|B<-t>\\|] [\\|B<-T>\\|[\\|I<enhet>\\|]\\|] [\\|B<-H>\\|[\\|I<webbläsare>\\|]\\|] [\\|B<-X>\\|[\\|I<ppt>\\|]\\|] [\\|B<-Z>\\|] I<fil> \\&.\\|.\\|.\\&"
+
+#~ msgid "B<%man%> B<-w>\\||\\|B<-W> [\\|B<-C> I<file>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] I<page> \\&.\\|.\\|.\\&"
+#~ msgstr "B<%man%> B<-w>\\||\\|B<-W> [\\|B<-C> I<fil>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] I<sida> \\&.\\|.\\|.\\&"
+
+#~ msgid "B<%man%> B<-c> [\\|B<-C> I<file>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] I<page> \\&.\\|.\\|.\\&"
+#~ msgstr "B<%man%> B<-c> [\\|B<-C> I<sida>\\|] [\\|B<-d>\\|] [\\|B<-D>\\|] I<sida> \\&.\\|.\\|.\\&"
+
+#~ msgid "B<%man%> [\\|B<-?V>\\|]"
+#~ msgstr "B<%man%> [\\|B<-?V>\\|]"
+
+#~ msgid "The manual pager utilities packaged as B<man-db> make extensive use of B<index> database caches.  These caches contain information such as where each manual page can be found on the filesystem and what its I<whatis> (short one line description of the man page) contains, and allow B<%man%> to run faster than if it had to search the filesystem each time to find the appropriate manual page.  If requested using the B<-u> option, B<man> will ensure that the caches remain consistent, which can obviate the need to manually run software to update traditional I<whatis> text databases."
+#~ msgstr "Sidvisarverktygen för manualsidor som paketerats som B<man-db> använder B<index>-databascachar i stor utsträckning.  Dessa cachar innehåller information som t.ex. var en manualsida kan hittas i filsystemet och vad dess I<whatis> (kort en-rads-beskrivning av manualsidan) innehåller och tillåter B<%man%> att köra snabbare än om det hade varit tvunget att genomsöka filsystemet varje gång för att hitta den lämpliga manualsidan.  Om begärt, via B<-u>-flaggan, så kommer B<man> att försäkra sig om att cacharna förblir konsistenta vilket kan förebygga behovet att manuellt köra programvara för att uppdatera de traditionella I<whatis>-textdatabaserna."
+
+#~ msgid "If B<%man%> cannot find a B<%mandb%> initiated B<index> database for a particular manual page hierarchy, it will still search for the requested manual pages, although file globbing will be necessary to search within that hierarchy.  If B<%whatis%> or B<%apropos%> fails to find an B<index> it will try to extract information from a traditional I<whatis> database instead."
+#~ msgstr "Om B<%man%> inte kan hitta en B<%mandb%>-initierad B<index>-databas för en viss hierarki av manualsidor kommer det fortfarande att leta efter de begärda manualsidorna, även om filskalmönster (”globbing”) kommer att vara nödvändigt för att leta inom den hierarkin.  Om B<%whatis%> eller B<%apropos%> misslyckas med att hitta ett B<index> kommer de att försöka extrahera information från en traditionell I<whatis>-databas istället."
+
+#~ msgid "These utilities support compressed source nroff files having, by default, the extensions of B<.Z>, B<.z> and B<.gz>.  It is possible to deal with any compression extension, but this information must be known at compile time.  Also, by default, any cat pages produced are compressed using B<gzip>.  Each `global' manual page hierarchy such as I</usr/share/man> or I</usr/X11R6/man> may have any directory as its cat page hierarchy.  Traditionally the cat pages are stored under the same hierarchy as the man pages, but for reasons such as those specified in the B<File Hierarchy Standard (FHS)>, it may be better to store them elsewhere.  For details on how to do this, please read B<manpath>(5).  For details on why to do this, read the standard."
+#~ msgstr "Dessa verktyg har stöd för komprimerade nroff-källfiler som, som standard, har ändelserna B<.Z>, B<.z> och B<.gz>.  Det är möjligt att hantera vilken kompressionsändelse som helst, men denna information måste vara känd vid tiden för kompilering.  Dessutom kommer cat-sidor, som standard, att produceras som komprimerade med B<gzip>.  Varje ”global” hierarki av manualsidor så som I</usr/share/man> eller I</usr/X11R6/man> kan ha vilken katalog som helst som sin hierarki av cat-sidor.  Traditionellt lagras cat-sidorna under samma hierarki som manualsidorna, men av skäl så som de som anges i B<Filhierarkistandarden (FHS)>, så kan det vara bättre att lagra dem på annan plats.  För vidare information om hur du gör detta, läs B<manpath>(5).  För vidare information om varför du bör göra detta, läs standarden."
+
+#~ msgid "B<%man%> will search for the desired manual pages within the I<index> database caches. If the B<-u> option is given, a cache consistency check is performed to ensure the databases accurately reflect the filesystem.  If this option is always given, it is not generally necessary to run B<%mandb%> after the caches are initially created, unless a cache becomes corrupt.  However, the cache consistency check can be slow on systems with many manual pages installed, so it is not performed by default, and system administrators may wish to run B<%mandb%> every week or so to keep the database caches fresh.  To forestall problems caused by outdated caches, B<%man%> will fall back to file globbing if a cache lookup fails, just as it would if no cache was present."
+#~ msgstr "B<%man%> kommer att söka efter de önskade manualsidorna i I<index>-databascachen. Om flaggan B<-u> angetts så kommer en cachekonsistenskontroll att genomföras för att försäkra att databaserna korrekt speglar filsystemet.  Om denna flagga alltid anges är det generellt sett inte nödvändigt att köra B<%mandb%> efter att cacharna skapats initialt, förutsatt att cachen inte blir korrumpera.  Cachekonsistenskontrollen kan dock vara långsam på system med många manualsidor installerade, så den körs inte som standard och systemadministratörer kan komma att vilja köra B<%mandb%> varje vecka eller så för att hålla databascacharna färska.  För att förebygga problem som orsakats av föråldrade cachar så kommer B<%man%> att falla tillbaka på filskalmönster (”globbing”) om en cacheuppslagning misslyckas, precis som om den hade gjort om ingen cache existerar."
+
+#~ msgid "Once a manual page has been located, a check is performed to find out if a relative preformatted `cat' file already exists and is newer than the nroff file.  If it does and is, this preformatted file is (usually) decompressed and then displayed, via use of a pager.  The pager can be specified in a number of ways, or else will fall back to a default is used (see option B<-P> for details).  If no cat is found or is older than the nroff file, the nroff is filtered through various programs and is shown immediately."
+#~ msgstr "När en manualsida har lokaliserats kommer en kontroll att göras för att ta reda på om en relativ, förformaterad ”cat”-fil redan existerar och är nyare än nroff-filen.  Om den finns och är nyare kommer denna förformaterade fil att (vanligtvis) dekomprimeras och sedan visas med hjälp av en sidvisare.  Sidvisaren kan anges på ett antal olika sätt eller så kommer man att falla tillbaka på en standardvisare (se flaggan B<-P> för detaljer).  Om ingen cat-sida hittas eller den är äldre än nroff-filen så kommer nroff:en att filtreras genom diverse program och visas omedelbart."
+
+#~ msgid "If a cat file can be produced (a relative cat directory exists and has appropriate permissions), B<%man%> will compress and store the cat file in the background."
+#~ msgstr "Om en cat-fil kan produceras (en relativ cat-katalog existerar och har lämpliga rättigheter) så kommer B<%man%> att komprimera och i bakgrunden spara cat-filen."
+
+#~ msgid "Don't actually display the manual pages, but do print the location(s) of the source nroff files that would be formatted."
+#~ msgstr "Visa inte själva manualsidorna, men skriv ut plats(erna) för nroff-källkodsfilerna som skulle ha formaterats."
+
+#~ msgid "This option causes B<%man%> to perform an `inode level' consistency check on its database caches to ensure that they are an accurate representation of the filesystem.  It will only have a useful effect if B<%man%> is installed with the setuid bit set."
+#~ msgstr "Denna flagga gör så att B<%man%> utför en konsistenskontroll på ”inod-nivå” i dess databascachar för att försäkra att de är tillförlitliga representationer av filsystemet.  Den kommer endast att ha en användbart effekt om B<%man%> installerats med setuid-biten satt."
+
+#~ msgid "The contents of $B<MANROFFOPT> are added to the command line every time B<man> invokes the formatter (B<nroff>, B<troff>, or B<groff>)."
+#~ msgstr "Innehållet i $B<MANROFFOPT> läggs till kommandoraden varje gång B<man> startar formateraren (B<nroff>, B<troff> eller B<groff>)."
+
+#~ msgid "the man-db package manual, B<FSSTND>"
+#~ msgstr "man-db paketets manual, B<FSSTND>"
+
+#~ msgid "%thapropos%"
+#~ msgstr "%thapropos%"
+
+#~ msgid "%date%"
+#~ msgstr "%date%"
+
+#~ msgid "%version%"
+#~ msgstr "%version%"
+
+#~ msgid "LEXGROG"
+#~ msgstr "LEXGROG"
+
+#~ msgid "%thman%"
+#~ msgstr "%thman%"
+
+#~ msgid "%thmanconv%"
+#~ msgstr "%thmanconv%"
+
+#~ msgid "%thmanpath%"
+#~ msgstr "%thmanpath%"
+
+#~ msgid "%thwhatis%"
+#~ msgstr "%thwhatis%"
+
+#~ msgid "%thzsoelim%"
+#~ msgstr "%thzsoelim%"
+
+#~ msgid "MANPATH"
+#~ msgstr "MANPATH"
+
+#~ msgid "%manpath_config_file%"
+#~ msgstr "%manpath_config_file%"
+
+#~ msgid "ACCESSDB"
+#~ msgstr "ACCESSDB"
+
+#~ msgid "%thcatman%"
+#~ msgstr "%thcatman%"
+
+#~ msgid "%thmandb%"
+#~ msgstr "%thmandb%"
+
+#~ msgid "GNU gdbm v E<gt>= 1.6"
+#~ msgstr "GNU gdbm v E<gt>= 1.6"
+
+#~ msgid "GNU gdbm v E<lt>  1.6"
+#~ msgstr "GNU gdbm v E<lt>  1.6"
