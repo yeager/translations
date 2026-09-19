@@ -1,0 +1,147 @@
+--- a/gettext-runtime-1.0-pre2.sv.po
++++ b/gettext-runtime-1.0-pre2.sv.po
+@@ -109,11 +109,12 @@
+ "substituted; otherwise all environment variables references occurring in\n"
+ "standard input are substituted.\n"
+ msgstr ""
+-"I normalt körläge kopieras standard in till standard ut med referenser\n"
+-"till miljövariabler i form av $VARIABEL eller ${VARIABEL} ersatta med\n"
+-"motsvarande värden.  Om SKALFORMAT anges så ersätts bara de\n"
+-"miljövariabler som refereras i SKALFORMAT; annars ersätts alla miljövariabler\n"
+-"som hittas i standard in.\n"
++"I normalt körläge kopieras standardindata till standardutdata och referenser "
++"till miljövariabler i formen $VARIABEL eller ${VARIABEL} ersätts med "
++"motsvarande värden. Om SKALFORMAT anges ersätts endast de "
++"miljövariabler som refereras i SKALFORMAT; annars ersätts alla referenser "
++"till miljövariabler"
++" i standardindata.\n"
+ 
+ #: src/envsubst.c:216
+ #, c-format, no-wrap
+@@ -121,8 +122,8 @@
+ "When --variables is used, standard input is ignored, and the output consists\n"
+ "of the environment variables that are referenced in SHELL-FORMAT, one per line.\n"
+ msgstr ""
+-"När --variables används så ignoreras standard in och utdata består av de\n"
+-"miljövariabler som förekommer i SKALFORMAT, en per rad.\n"
++"När --variables används ignoreras standardindata och utdata består av "
++"miljövariablerna som refereras i SKALFORMAT, en per rad.\n"
+ 
+ #. TRANSLATORS: The first placeholder is the web address of the Savannah
+ #. project of this package.  The second placeholder is the bug-reporting
+@@ -148,7 +149,7 @@
+ 
+ #: src/envsubst.c:443
+ msgid "standard input"
+-msgstr "standard in"
++msgstr "standardindata"
+ 
+ #. This is a proper name. See the gettext manual, section Names.
+ #: src/gettext.c:142 src/ngettext.c:129
+@@ -233,13 +234,13 @@
+ "found in the selected catalog are translated.\n"
+ "Standard search directory: %s\n"
+ msgstr ""
+-"Om parametern TEXTDOMÄN utelämnas bestäms domänen av miljövariabeln\n"
+-"TEXTDOMAIN. Om meddelandekatalogen inte hittas i den normala katalogen så\n"
+-"kan en annan katalog anges med miljövariabeln TEXTDOMAINDIR.\n"
+-"När flaggan -s ges uppträder programmet som kommandot ”echo”.\n"
+-"Men det kopierar inte enbart sina argument till standard ut. Istället\n"
+-"översätts de argument som hittas i den valda meddelandekatalogen.\n"
+-"Normal katalog för meddelandekataloger: %s\n"
++"Om parametern TEXTDOMÄN inte anges bestäms domänen av miljövariabeln "
++"TEXTDOMAIN. Om meddelandekatalogen inte hittas i den vanliga katalogen "
++"kan en annan plats anges med miljövariabeln TEXTDOMAINDIR.\n"
++"När flaggan -s används beter sig programmet som kommandot ”echo”. "
++"Men det kopierar inte enbart sina argument till standardutdata. I stället "
++"översätts de argument som finns i den valda meddelandekatalogen.\n"
++"Standardkatalog för meddelandekataloger: %s\n"
+ 
+ #: src/ngettext.c:217
+ #, c-format, no-wrap
+@@ -268,12 +269,14 @@
+ #: src/ngettext.c:239
+ #, c-format
+ msgid "  MSGID MSGID-PLURAL        translate MSGID (singular) / MSGID-PLURAL (plural)\n"
+-msgstr "  MEDID MEDID-PLURAL        översätt MEDID (singularis) / MEDID-PLURAL (plural)\n"
++msgstr "  MEDID MEDID-PLURAL        översätt MEDID (singular) / MEDID-PLURAL "
++"(plural)\n"
+ 
+ #: src/ngettext.c:241 src/printf_ngettext.c:221
+ #, c-format
+ msgid "  COUNT                     choose singular/plural form based on this value\n"
+-msgstr "  ANTAL                     välj singular/plural form baserat på detta värde\n"
++msgstr "  ANTAL                     välj singular- eller pluralform utifrån detta "
++"värde\n"
+ 
+ #: src/ngettext.c:252
+ #, c-format, no-wrap
+@@ -297,7 +300,7 @@
+ #: src/printf-command.c:237
+ #, c-format
+ msgid "The string ends in the middle of a directive."
+-msgstr "Strängen slutar mitt i ett direktiv"
++msgstr "Strängen slutar mitt i ett direktiv."
+ 
+ #: src/printf-command.c:242
+ #, c-format
+@@ -327,7 +330,7 @@
+ #: src/printf-command.c:402
+ #, c-format
+ msgid "The escape sequence '%c%c' is unsupported (not in POSIX)."
+-msgstr "Styrsevkensen ”%c%c” stödjs inte (inte i POSIX)."
++msgstr "Styrsekvensen ”%c%c” stödjs inte (inte i POSIX)."
+ 
+ #: src/printf-command.c:403
+ #, c-format
+@@ -382,8 +385,8 @@
+ "Produces formatted output, applying the native language translation of FORMAT\n"
+ "to the ARGUMENTs.\n"
+ msgstr ""
+-"Producerar formaterad utdata, med tillämpning av det egna språkets översättning\n"
+-"av FORMAT till ARGUMENTen.\n"
++"Producerar formaterad utdata genom att tillämpa översättningen "
++"av FORMAT till ARGUMENTen på det lokala språket.\n"
+ 
+ #: src/printf_gettext.c:183 src/printf_ngettext.c:215
+ #, c-format
+@@ -434,20 +437,20 @@
+ "      - '%c', '%c', that print a floating-point number in hexadecimal notation.\n"
+ "Additionally there is the directive '%s', that prints a single '%c'.\n"
+ msgstr ""
+-"Ett direktiv som konsumerar ett argument\n"
+-"  - inleds med ”%s” eller ”%s” där %s är ett positivt heltal,\n"
+-"  - följs eventuellt av några av tecknen ”%c”, ”%c”, ”%c”, ”%c”, ”%c”,\n"
+-"    där var och ett fungerar som en flagga.\n"
++"Ett direktiv som använder ett argument\n"
++"  - inleds med ”%s” eller ”%s”, där %s är ett positivt heltal,\n"
++"  - följs eventuellt av något av tecknen ”%c”, ”%c”, ”%c”, ”%c”, ”%c”,\n"
++"    som vart och ett fungerar som en flagga,\n"
+ "  - följs eventuellt av en breddspecifikation (ett ickenegativt heltal),\n"
+ "  - följs eventuellt av ”%c” och en precisionsspecifikation (ett eventuellt\n"
+ "    ickenegativt heltal),\n"
+-"  - avslutas med en speicficerare\n"
++"  - avslutas med en specificerare\n"
+ "      - ”%c”, som skriver ett tecken,\n"
+ "      - ”%c”, som skriver en sträng,\n"
+ "      - ”%c”, ”%c”, som skriver ett heltal,\n"
+ "      - ”%c”, ”%c”, ”%c”, ”%c”, som skriver ett teckenlöst (ickenegativt) heltal,\n"
+ "      - ”%c”, ”%c”, som skriver ett flyttal i vetenskaplig notation,\n"
+-"      - ”%c”, ”%c”, som skriver ett flyttal utan någon exponent,\n"
++"      - ”%c”, ”%c”, som skriver ett flyttal utan exponent,\n"
+ "      - ”%c”, ”%c”, som skriver ett flyttal i allmän notation,\n"
+ "      - ”%c”, ”%c”, som skriver ett flyttal i hexadecimal notation.\n"
+ "Dessutom finns direktivet ”%s”, som skriver ett ensamt ”%c”.\n"
+@@ -512,9 +515,9 @@
+ "This binary is configured to use the default catalogs directory:\n"
+ "%s\n"
+ msgstr ""
+-"Den slås upp i katalogmappen som ges av miljövariabeln\n"
+-"%s eller, om den inte finns, i standardkatalogmappen.\n"
+-"Denna binär är konfigurerad att använda standardkatalogmappen:\n"
++"Den slås upp i katalogen som anges av miljövariabeln\n"
++"%s eller, om den inte finns, i standardkatalogen.\n"
++"Den här binärfilen är konfigurerad att använda standardkatalogen:\n"
+ "%s\n"
+ 
+ #: src/printf_ngettext.c:204
