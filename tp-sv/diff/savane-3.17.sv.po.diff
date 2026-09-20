@@ -4749,7 +4749,7 @@
  
  #: frontend/php/include/search/general.php:531
  #, php-format
-@@ -6701,65 +6704,66 @@
+@@ -6701,20 +6704,21 @@
  
  #: frontend/php/include/markup.php:56
  msgid "Tag Scope"
@@ -4762,7 +4762,7 @@
  "fit in a single line.  For example,\n"
  "this text isn't converted in two lines of italics:"
 -msgstr "Alla markup-element utom 'verbatim'- och 'nomarkup'-block ska rymmas på en enda rad. Denna text konverteras till exempel inte till två rader med kursiv stil:"
-+msgstr "Alla märkspråkselement utom blocken ”verbatim” och ”nomarkup” ska rymmas på en rad. Följande text omvandlas till exempel inte till två rader med kursiv stil:"
++msgstr "Alla markup-element utom blocken ”verbatim” och ”nomarkup” ska rymmas på en rad. Följande text omvandlas till exempel inte till två rader med kursiv stil:"
  
  #: frontend/php/include/markup.php:62
  msgid ""
@@ -4774,9 +4774,7 @@
  
  #: frontend/php/include/markup.php:65 frontend/php/include/markup.php:172
  #: frontend/php/markup-test.php:76
- msgid "Basic Markup"
--msgstr "Grundläggande markup"
-+msgstr "Grundläggande märkspråk"
+@@ -6723,43 +6727,43 @@
  
  #: frontend/php/include/markup.php:66
  msgid "Basic Markup tags are available almost everywhere."
@@ -4788,7 +4786,7 @@
  "Multiple subsequent spaces and newlines are collapsed in Basic markup\n"
  "into single spaces. In Rich and Full markup, they are preserved."
 -msgstr "Flera efterföljande mellanslag och radbrytningar sammanfogas i Basic-markup till ett enda mellanslag. I Rich- och Full-markup bevaras de."
-+msgstr "I grundläggande märkspråk slås flera efterföljande mellanslag och radbrytningar ihop till ett enda mellanslag. I utökat och fullständigt märkspråk bevaras de."
++msgstr "I grundläggande markup slås flera efterföljande mellanslag och radbrytningar ihop till ett enda mellanslag. I utökad och fullständig markup bevaras de."
  
  #: frontend/php/include/markup.php:72
  msgid "*bold* markup is:"
@@ -4834,12 +4832,12 @@
  #: frontend/php/markup-test.php:77
  msgid "Rich Markup"
 -msgstr "Avancerad markup"
-+msgstr "Utökat märkspråk"
++msgstr "Utökad markup"
  
  #: frontend/php/include/markup.php:111
  msgid "Rich Markup tags are available in comments."
 -msgstr "Rich Markup-taggar är tillgängliga i kommentarer."
-+msgstr "Taggar för utökat märkspråk är tillgängliga i kommentarer."
++msgstr "Taggar för utökad markup är tillgängliga i kommentarer."
  
  #: frontend/php/include/markup.php:112
  msgid "Unnumbered list markup is:"
@@ -4933,7 +4931,7 @@
  
  #: frontend/php/include/markup.php:153
  msgid "Subtitle"
-@@ -6866,43 +6876,43 @@
+@@ -6866,27 +6876,27 @@
  
  #: frontend/php/include/markup.php:154
  msgid "Third level heading markup is:"
@@ -4967,8 +4965,7 @@
  
  #: frontend/php/include/markup.php:176 frontend/php/markup-test.php:78
  msgid "Full Markup"
--msgstr "Fullständig markup"
-+msgstr "Fullständigt märkspråk"
+@@ -6894,7 +6904,7 @@
  
  #: frontend/php/include/markup.php:177
  msgid "Every tags are available in this input field."
@@ -4977,8 +4974,7 @@
  
  #: frontend/php/include/markup.php:178
  msgid "No Markup"
--msgstr "Ingen markup"
-+msgstr "Inget märkspråk"
+@@ -6902,7 +6912,7 @@
  
  #: frontend/php/include/markup.php:179
  msgid "No tags are available in this input field."
