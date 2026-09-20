@@ -4,6 +4,8 @@ Senast uppdaterad: 2026-09-20
 
 **Obligatorisk QA-regel (2026-09-18):** Varje projekt som bearbetas, även när svenska redan är 100 % färdig, ska alltid köras genom den aktuella `l10n-lint`-granskningen. För format som verktyget ännu inte stöder dokumenteras det förväntade formatfelet och katalogen valideras dessutom med relevant formatspecifik kontroll.
 
+**Bitwarden Browser – säker delning (2026-09-20):** 21 kontextgranskade strängar för tidsbegränsade delningslänkar, e-postverifiering, återkallad åtkomst och dekrypteringsfel är inskickade till CrowdIn och API-bekräftade med HTTP 201. `l10n-lint` passerar utan fel eller varningar. Backup: `Bitwarden/sv-bitwarden-browser-secure-sharing-batch4-20260920.json`.
+
 **Bitwarden Browser – delade valv (2026-09-20):** 30 kontextgranskade gränssnittstexter för delade valv, objektbehörigheter, personliga valv, filter och mappar är inskickade till CrowdIn och API-bekräftade med HTTP 201. `l10n-lint` rapporterar inga fel; den enda varningen gäller två medvetet identiska pluralsträngar med samma källa och mål. Backup: `Bitwarden/sv-bitwarden-browser-shared-vaults-batch3-20260920.json`.
 
 **Terminologi och översättningsminne (2026-09-20):** Etablerade resultat från de radgranskade PCSX2-, Rethink DNS Firewall-, Bitwarden Mobile- och Browser-, Paperless-ngx- samt Ente Mobile-resurserna har konsoliderats. `swedish-foss-terminology` innehåller nu spårbara rekommendationer för bland annat *Skärmvisning*, *Sparläge*, *alltid-på-WireGuard*, *passkey*, *delade mappar*, *valvinställningar*, PCSX2-grafiktermer och *WebSocket-anslutning*. `swedish-tm` har uppdaterats med 56 nya kontextfria, granskade Bitwarden Browser-par. Terminologiexporten synkroniserar nu nya review-poster säkert i CSV, JSON och TBX i en körning.
