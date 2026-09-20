@@ -99,7 +99,7 @@
         <message>
             <location filename="../Settings/AchievementLoginDialog.ui" line="109" />
             <source>Ready...</source>
-            <translation>Redo...</translation>
+            <translation>Redo…</translation>
         </message>
         <message>
             <location filename="../Settings/AchievementLoginDialog.cpp" line="25" />
@@ -114,7 +114,7 @@
         <message>
             <location filename="../Settings/AchievementLoginDialog.cpp" line="43" />
             <source>Logging in...</source>
-            <translation>Loggar in...</translation>
+            <translation>Loggar in…</translation>
         </message>
         <message>
             <location filename="../Settings/AchievementLoginDialog.cpp" line="73" />
@@ -226,12 +226,12 @@ Vill du aktivera hardcore-läget?</translation>
             <location filename="../Settings/AchievementSettingsWidget.ui" line="214" />
             <location filename="../Settings/AchievementSettingsWidget.cpp" line="162" />
             <source>Login...</source>
-            <translation>Logga in...</translation>
+            <translation>Logga in…</translation>
         </message>
         <message>
             <location filename="../Settings/AchievementSettingsWidget.ui" line="207" />
             <source>View Profile...</source>
-            <translation>Visa profil...</translation>
+            <translation>Visa profil…</translation>
         </message>
         <message>
             <location filename="../Settings/AchievementSettingsWidget.ui" line="29" />
@@ -709,13 +709,13 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../../pcsx2/Achievements.cpp" line="2761" />
             <source>Downloading leaderboard data, please wait...</source>
-            <translation>Hämtar data från topplistan. Vänta...</translation>
+            <translation>Hämtar data från topplistan. Vänta…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/Achievements.cpp" line="2780" />
             <location filename="../../pcsx2/Achievements.cpp" line="2789" />
             <source>Loading...</source>
-            <translation>Läser in...</translation>
+            <translation>Läser in…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/Achievements.cpp" line="1041" />
@@ -768,7 +768,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../Settings/AdvancedSettingsWidget.cpp" line="80" />
             <source>Determines how the results of floating-point division are rounded. Some games need specific settings; &lt;b&gt;modifying this setting when a game is not having a visible problem can cause instability.&lt;/b&gt;</source>
-            <translation>Bestämmer hur resultaten från flyttalsdivision rundas. Vissa spel behöver specifika inställningar; &lt;b&gt;att ändra den här inställningen när ett spel inte har ett synligt problem kan orsaka instabilitet.&lt;b&gt;</translation>
+            <translation>Bestämmer hur resultaten från flyttalsdivision rundas. Vissa spel behöver specifika inställningar; &lt;b&gt;att ändra den här inställningen när ett spel inte har ett synligt problem kan orsaka instabilitet.&lt;/b&gt;</translation>
         </message>
         <message>
             <location filename="../Settings/AdvancedSettingsWidget.cpp" line="82" />
@@ -1919,7 +1919,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../AutoUpdaterDialog.ui" line="110" />
             <source>Download and Install...</source>
-            <translation>Hämta och installera...</translation>
+            <translation>Hämta och installera…</translation>
         </message>
         <message>
             <location filename="../AutoUpdaterDialog.ui" line="117" />
@@ -1965,7 +1965,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../AutoUpdaterDialog.cpp" line="484" />
             <source>Downloading %1...</source>
-            <translation>Hämtar %1...</translation>
+            <translation>Hämtar %1…</translation>
         </message>
         <message>
             <location filename="../AutoUpdaterDialog.cpp" line="549" />
@@ -1990,7 +1990,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../AutoUpdaterDialog.cpp" line="570" />
             <source>Loading...</source>
-            <translation>Läser in...</translation>
+            <translation>Läser in…</translation>
         </message>
         <message>
             <location filename="../AutoUpdaterDialog.cpp" line="677" />
@@ -2013,7 +2013,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../Settings/BIOSSettingsWidget.ui" line="50" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../Settings/BIOSSettingsWidget.ui" line="57" />
@@ -2028,7 +2028,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../Settings/BIOSSettingsWidget.ui" line="90" />
             <source>Open BIOS Folder...</source>
-            <translation>Öppna BIOS-mappen...</translation>
+            <translation>Öppna BIOS-mappen…</translation>
         </message>
         <message>
             <location filename="../Settings/BIOSSettingsWidget.ui" line="97" />
@@ -2301,7 +2301,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../../pcsx2/CDVD/ThreadedFileReader.cpp" line="257" />
             <source>Precaching {}...</source>
-            <translation>Förinläser {}...</translation>
+            <translation>Förinläser {}…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/CDVD/ThreadedFileReader.cpp" line="263" />
@@ -2868,7 +2868,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../Settings/ControllerBindingWidget.cpp" line="696" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../Settings/ControllerBindingWidget.cpp" line="700" />
@@ -2997,7 +2997,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../Settings/ControllerGlobalSettingsWidget.ui" line="224" />
             <source>Settings...</source>
-            <translation>Inställningar...</translation>
+            <translation>Inställningar…</translation>
         </message>
         <message>
             <location filename="../Settings/ControllerGlobalSettingsWidget.ui" line="214" />
@@ -3104,7 +3104,7 @@ Topplisteposition: {1} av {2}</translation>
         <message>
             <location filename="../Settings/ControllerMacroEditWidget.ui" line="198" />
             <source>Set...</source>
-            <translation>Ställ in...</translation>
+            <translation>Ställ in…</translation>
         </message>
         <message>
             <location filename="../Settings/ControllerBindingWidget.cpp" line="405" />
@@ -3280,7 +3280,8 @@ Topplisteposition: {1} av {2}</translation>
 To apply a custom input profile to a game, go to its Game Properties, then change the 'Input Profile' on the Summary tab.
 
 Enter the name for the new input profile:</source>
-            <translation>Anpassade inmatningsprofiler används för att åsidosätta den Delade inmatningsprofilen för enskilda spel. För att använda en inmatningsprofil för ett spel, gå till dess Spelegenskaper och ändra 'Inmatningsprofil' under fliken Sammanfattning.
+            <translation>Anpassade inmatningsprofiler används för att åsidosätta den delade inmatningsprofilen för enskilda spel.
+För att använda en inmatningsprofil för ett spel går du till dess spelegenskaper och ändrar ”Inmatningsprofil” på fliken Sammanfattning.
 
 Ange namnet för den nya inmatningsprofilen:</translation>
         </message>
@@ -3443,7 +3444,7 @@ Du kan inte ångra denna åtgärd.</translation>
         <message>
             <location filename="../CoverDownloadDialog.ui" line="50" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;In the box below, specify the URLs to download covers from, with one template URL per line. The following variables are available:&lt;/p&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;${title}:&lt;/span&gt; Title of the game.&lt;br/&gt;&lt;span style=" font-style:italic;"&gt;${filetitle}:&lt;/span&gt; Name component of the game's filename.&lt;br/&gt;&lt;span style=" font-style:italic;"&gt;${serial}:&lt;/span&gt; Serial of the game.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;Example:&lt;/span&gt; https://www.example-not-a-real-domain.com/covers/${serial}.jpg&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ange URLer i rutan nedan att hämta omslagsbilder från, med en mall-URL per rad. Följande variabler finns tillgängliga:&lt;/p&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;${title}:&lt;/span&gt; Spelets titel.&lt;br/&gt;&lt;span style=" font-style:italic;"&gt;${filetitle}:&lt;/span&gt; Namnkomponenten för spelets filnamn.&lt;br/&gt;&lt;span style=" font-style:italic;"&gt;${serial}:&lt;/span&gt; Serienumret för spelet.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;Exempel:&lt;/span&gt; https://www.exampel-inte-en-riktig-domän.se/covers/${serial}.jpg&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Ange URL:er i rutan nedan som omslagsbilder ska hämtas från, med en mall-URL per rad. Följande variabler är tillgängliga:&lt;/p&gt;&lt;p&gt;&lt;span style=" font-style:italic;"&gt;${title}:&lt;/span&gt; spelets titel.&lt;br/&gt;&lt;span style=" font-style:italic;"&gt;${filetitle}:&lt;/span&gt; namndelen i spelets filnamn.&lt;br/&gt;&lt;span style=" font-style:italic;"&gt;${serial}:&lt;/span&gt; spelets serienummer.&lt;/p&gt;&lt;p&gt;&lt;span style=" font-weight:700;"&gt;Exempel:&lt;/span&gt; https://www.example-not-a-real-domain.com/covers/${serial}.jpg&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location filename="../CoverDownloadDialog.ui" line="63" />
@@ -3458,7 +3459,7 @@ Du kan inte ångra denna åtgärd.</translation>
         <message>
             <location filename="../CoverDownloadDialog.ui" line="80" />
             <source>Waiting to start...</source>
-            <translation>Väntar på att starta...</translation>
+            <translation>Väntar på att starta…</translation>
         </message>
         <message>
             <location filename="../CoverDownloadDialog.ui" line="95" />
@@ -4302,13 +4303,13 @@ Vill du skriva över?</translation>
             <location filename="../Settings/DebugSettingsWidget.ui" line="253" />
             <location filename="../Settings/DebugSettingsWidget.ui" line="274" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../Settings/DebugSettingsWidget.ui" line="260" />
             <location filename="../Settings/DebugSettingsWidget.ui" line="281" />
             <source>Open...</source>
-            <translation>Öppna...</translation>
+            <translation>Öppna…</translation>
         </message>
         <message>
             <location filename="../Settings/DebugSettingsWidget.ui" line="294" />
@@ -5083,7 +5084,7 @@ Vill du skriva över?</translation>
         <message>
             <location filename="../GameList/EmptyGameListWidget.ui" line="65" />
             <source>Add Game Directory...</source>
-            <translation>Lägg till spelkatalog...</translation>
+            <translation>Lägg till spelkatalog…</translation>
         </message>
         <message>
             <location filename="../GameList/EmptyGameListWidget.ui" line="102" />
@@ -5161,7 +5162,7 @@ Vill du skriva över?</translation>
         <message>
             <location filename="../QtHost.cpp" line="1553" />
             <source>Downloading %1...</source>
-            <translation>Hämtar %1...</translation>
+            <translation>Hämtar %1…</translation>
         </message>
         <message>
             <location filename="../QtHost.cpp" line="1566" />
@@ -5682,7 +5683,7 @@ URLen var: %1</translation>
             <location filename="../Settings/FolderSettingsWidget.ui" line="158" />
             <location filename="../Settings/FolderSettingsWidget.ui" line="198" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../Settings/FolderSettingsWidget.ui" line="45" />
@@ -5691,7 +5692,7 @@ URLen var: %1</translation>
             <location filename="../Settings/FolderSettingsWidget.ui" line="165" />
             <location filename="../Settings/FolderSettingsWidget.ui" line="205" />
             <source>Open...</source>
-            <translation>Öppna...</translation>
+            <translation>Öppna…</translation>
         </message>
         <message>
             <location filename="../Settings/FolderSettingsWidget.ui" line="52" />
@@ -5813,7 +5814,7 @@ URLen var: %1</translation>
         <message>
             <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="6921" />
             <source>Create New...</source>
-            <translation>Skapa ny...</translation>
+            <translation>Skapa ny…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="6922" />
@@ -5908,7 +5909,7 @@ URLen var: %1</translation>
         <message>
             <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="6957" />
             <source>Timing out in %.0f seconds...</source>
-            <translation>Tidsgräns går ut om %.0f sekunder...</translation>
+            <translation>Tidsgräns går ut om %.0f sekunder…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/ImGui/FullscreenUI.cpp" line="6958" />
@@ -10287,12 +10288,12 @@ Du bör ta bort detta paket för att använda Vulkan-renderaren.</translation>
         <message>
             <location filename="../../pcsx2/MTGS.cpp" line="997" />
             <source>Switching to Software Renderer...</source>
-            <translation>Växlar till programvarurenderare...</translation>
+            <translation>Växlar till programvarurenderare…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/MTGS.cpp" line="997" />
             <source>Switching to Hardware Renderer...</source>
-            <translation>Växlar till hårdvarurenderare...</translation>
+            <translation>Växlar till hårdvarurenderare…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/GS/Renderers/DX11/GSDevice11.cpp" line="115" />
@@ -10412,7 +10413,7 @@ Se vår officiella dokumentation för mer information.</translation>
         <message>
             <location filename="../Settings/GameCheatSettingsWidget.ui" line="48" />
             <source>Search...</source>
-            <translation>Sök...</translation>
+            <translation>Sök…</translation>
         </message>
         <message>
             <location filename="../Settings/GameCheatSettingsWidget.ui" line="72" />
@@ -10816,17 +10817,17 @@ grafiska kvaliteten, men detta kommer att öka systemkraven.</translation>
         <message>
             <location filename="../../pcsx2/GameList.cpp" line="595" />
             <source>Scanning directory {} (recursively)...</source>
-            <translation>Söker igenom katalog {} (rekursivt)...</translation>
+            <translation>Söker igenom katalog {} (rekursivt)…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/GameList.cpp" line="596" />
             <source>Scanning directory {}...</source>
-            <translation>Söker igenom katalog {}...</translation>
+            <translation>Söker igenom katalog {}…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/GameList.cpp" line="626" />
             <source>Scanning {}...</source>
-            <translation>Söker igenom {}...</translation>
+            <translation>Söker igenom {}…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/GameList.cpp" line="1084" />
@@ -10884,7 +10885,7 @@ grafiska kvaliteten, men detta kommer att öka systemkraven.</translation>
         <message>
             <location filename="../../pcsx2/GameList.cpp" line="1304" />
             <source>Downloading cover for {0} [{1}]...</source>
-            <translation>Hämtar omslag för {0} [{1}]...</translation>
+            <translation>Hämtar omslag för {0} [{1}]…</translation>
         </message>
     </context>
     <context>
@@ -10955,7 +10956,7 @@ grafiska kvaliteten, men detta kommer att öka systemkraven.</translation>
         <message>
             <location filename="../Settings/GameListSettingsWidget.ui" line="63" />
             <source>Add...</source>
-            <translation>Lägg till...</translation>
+            <translation>Lägg till…</translation>
         </message>
         <message>
             <location filename="../Settings/GameListSettingsWidget.ui" line="83" />
@@ -10982,12 +10983,12 @@ grafiska kvaliteten, men detta kommer att öka systemkraven.</translation>
         <message>
             <location filename="../Settings/GameListSettingsWidget.ui" line="141" />
             <source>Directory...</source>
-            <translation>Katalog...</translation>
+            <translation>Katalog…</translation>
         </message>
         <message>
             <location filename="../Settings/GameListSettingsWidget.ui" line="161" />
             <source>File...</source>
-            <translation>Fil...</translation>
+            <translation>Fil…</translation>
         </message>
         <message>
             <location filename="../Settings/GameListSettingsWidget.ui" line="221" />
@@ -11023,7 +11024,7 @@ grafiska kvaliteten, men detta kommer att öka systemkraven.</translation>
         <message>
             <location filename="../Settings/GameListSettingsWidget.cpp" line="184" />
             <source>Open Directory...</source>
-            <translation>Öppna katalog...</translation>
+            <translation>Öppna katalog…</translation>
         </message>
         <message>
             <location filename="../Settings/GameListSettingsWidget.cpp" line="198" />
@@ -11085,7 +11086,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
         <message>
             <location filename="../GameList/GameListWidget.ui" line="197" />
             <source>Search...</source>
-            <translation>Sök...</translation>
+            <translation>Sök…</translation>
         </message>
     </context>
     <context>
@@ -11187,7 +11188,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
         <message>
             <location filename="../Settings/GameSummaryWidget.ui" line="41" />
             <source>Clear the line to restore the original title...</source>
-            <translation>Töm raden för att återställa ursprungstiteln...</translation>
+            <translation>Töm raden för att återställa ursprungstiteln…</translation>
         </message>
         <message>
             <location filename="../Settings/GameSummaryWidget.ui" line="51" />
@@ -11454,7 +11455,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
         <message>
             <location filename="../Settings/GameSummaryWidget.ui" line="423" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../Settings/GameSummaryWidget.ui" line="430" />
@@ -11469,7 +11470,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
         <message>
             <location filename="../Settings/GameSummaryWidget.ui" line="525" />
             <source>Search on Redump.org...</source>
-            <translation>Sök på Redump.org...</translation>
+            <translation>Sök på Redump.org…</translation>
         </message>
         <message>
             <location filename="../Settings/GameSummaryWidget.cpp" line="76" />
@@ -12401,13 +12402,13 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
             <location filename="../Settings/GraphicsSettingsWidget.ui" line="1282" />
             <location filename="../Settings/GraphicsSettingsWidget.ui" line="2021" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../Settings/GraphicsSettingsWidget.ui" line="1289" />
             <location filename="../Settings/GraphicsSettingsWidget.ui" line="2028" />
             <source>Open...</source>
-            <translation>Öppna...</translation>
+            <translation>Öppna…</translation>
         </message>
         <message>
             <location filename="../Settings/GraphicsSettingsWidget.ui" line="1296" />
@@ -14367,7 +14368,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
         <message>
             <location filename="../../pcsx2/GS/GS.cpp" line="1246" />
             <source>Reloading texture replacements...</source>
-            <translation>Läser om texturersättningar...</translation>
+            <translation>Läser om texturersättningar…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/Hotkeys.cpp" line="37" />
@@ -14783,7 +14784,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
             <location filename="../Settings/InputBindingDialog.cpp" line="159" />
             <location filename="../Settings/InputBindingDialog.cpp" line="174" />
             <source>Push Button/Axis... [%1]</source>
-            <translation>Tryckknapp/Axlar... [%1]</translation>
+            <translation>Tryckknapp/Axlar… [%1]</translation>
         </message>
         <message>
             <location filename="../Settings/InputBindingDialog.cpp" line="332" />
@@ -14829,7 +14830,7 @@ Högerklicka för att tömma bindning</translation>
             <location filename="../Settings/InputBindingWidget.cpp" line="287" />
             <location filename="../Settings/InputBindingWidget.cpp" line="302" />
             <source>Push Button/Axis... [%1]</source>
-            <translation>Tryckknapp/Axlar... [%1]</translation>
+            <translation>Tryckknapp/Axlar… [%1]</translation>
         </message>
     </context>
     <context>
@@ -14867,7 +14868,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../../pcsx2/Recording/InputRecording.cpp" line="232" />
             <source>Congratulations, you've been playing for far too long and thus have reached the limit of input recording! Stopping recording now...</source>
-            <translation>Gratulerar, du har spelat för lång tid och därför nått till gränsen för inmatningsinspelning! Stoppar inspelningen nu...</translation>
+            <translation>Gratulerar, du har spelat för lång tid och därför nått till gränsen för inmatningsinspelning! Stoppar inspelningen nu…</translation>
         </message>
     </context>
     <context>
@@ -15179,7 +15180,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../Settings/InterfaceSettingsWidget.ui" line="199" />
             <source>Check for Updates...</source>
-            <translation>Leta efter uppdateringar...</translation>
+            <translation>Leta efter uppdateringar…</translation>
         </message>
         <message>
             <location filename="../Settings/InterfaceSettingsWidget.cpp" line="12" />
@@ -15399,7 +15400,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../LogWindow.cpp" line="139" />
             <source>&amp;Save...</source>
-            <translation>&amp;Spara...</translation>
+            <translation>&amp;Spara…</translation>
         </message>
         <message>
             <location filename="../LogWindow.cpp" line="144" />
@@ -15489,7 +15490,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../Translations.cpp" line="41" />
             <source>Preferences...</source>
-            <translation>Inställningar...</translation>
+            <translation>Inställningar…</translation>
         </message>
         <message>
             <location filename="../Translations.cpp" line="42" />
@@ -15563,7 +15564,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="274" />
             <source>Start &amp;File...</source>
-            <translation>Starta &amp;fil...</translation>
+            <translation>Starta &amp;fil…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="306" />
@@ -15628,7 +15629,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="477" />
             <source>&amp;Post-Processing Settings...</source>
-            <translation>Inställningar för e&amp;fterbehandling...</translation>
+            <translation>Inställningar för e&amp;fterbehandling…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="498" />
@@ -15638,32 +15639,32 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="506" />
             <source>&amp;GitHub Repository...</source>
-            <translation>&amp;GitHub-förråd...</translation>
+            <translation>&amp;GitHub-förråd…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="514" />
             <source>Support &amp;Forums...</source>
-            <translation>Supportfor&amp;um...</translation>
+            <translation>Supportfor&amp;um…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="522" />
             <source>&amp;Discord Server...</source>
-            <translation>&amp;Discord-server...</translation>
+            <translation>&amp;Discord-server…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="530" />
             <source>Check for &amp;Updates...</source>
-            <translation>Leta e&amp;fter uppdateringar...</translation>
+            <translation>Leta e&amp;fter uppdateringar…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="539" />
             <source>About &amp;Qt...</source>
-            <translation>Om &amp;Qt...</translation>
+            <translation>Om &amp;Qt…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="548" />
             <source>&amp;About PCSX2...</source>
-            <translation>Om &amp;PCSX2...</translation>
+            <translation>Om &amp;PCSX2…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="493" />
@@ -15675,7 +15676,7 @@ Högerklicka för att tömma bindning</translation>
             <location filename="../MainWindow.ui" line="556" />
             <source>Change Disc...</source>
             <comment>In Toolbar</comment>
-            <translation>Byt skiva...</translation>
+            <translation>Byt skiva…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="564" />
@@ -15731,7 +15732,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="290" />
             <source>Start D&amp;isc...</source>
-            <translation>Starta s&amp;kiva...</translation>
+            <translation>Starta s&amp;kiva…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="298" />
@@ -15804,7 +15805,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="588" />
             <source>Add Game &amp;Directory...</source>
-            <translation>Lägg till &amp;spelkatalog...</translation>
+            <translation>Lägg till &amp;spelkatalog…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="607" />
@@ -15815,17 +15816,17 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="615" />
             <source>&amp;From File...</source>
-            <translation>Från &amp;fil...</translation>
+            <translation>Från &amp;fil…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="620" />
             <source>From &amp;Device...</source>
-            <translation>Från &amp;enhet...</translation>
+            <translation>Från &amp;enhet…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="625" />
             <source>From &amp;Game List...</source>
-            <translation>Från spel&amp;lista...</translation>
+            <translation>Från spel&amp;lista…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="630" />
@@ -15866,7 +15867,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="817" />
             <source>&amp;Open Data Directory...</source>
-            <translation>Öppna &amp;datakatalog...</translation>
+            <translation>Öppna &amp;datakatalog…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="825" />
@@ -15969,7 +15970,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="998" />
             <source>&amp;Cover Downloader...</source>
-            <translation>Hämta omslags&amp;bilder...</translation>
+            <translation>Hämta omslags&amp;bilder…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="1006" />
@@ -15989,12 +15990,12 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="1030" />
             <source>&amp;Edit Cheats...</source>
-            <translation>&amp;Redigera fusk...</translation>
+            <translation>&amp;Redigera fusk…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="1038" />
             <source>Edit &amp;Patches...</source>
-            <translation>Redigera s&amp;pelpatchar...</translation>
+            <translation>Redigera s&amp;pelpatchar…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="708" />
@@ -16061,7 +16062,7 @@ Högerklicka för att tömma bindning</translation>
         <message>
             <location filename="../MainWindow.ui" line="809" />
             <source>Open Memory Card Directory...</source>
-            <translation>Öppna katalog för minnekort...</translation>
+            <translation>Öppna katalog för minnekort…</translation>
         </message>
         <message>
             <location filename="../MainWindow.ui" line="926" />
@@ -16171,12 +16172,12 @@ PCSX2-teamet kommer inte att ge support för konfigurationer som ändrar dessa i
         <message>
             <location filename="../MainWindow.cpp" line="1344" />
             <source>Properties...</source>
-            <translation>Egenskaper...</translation>
+            <translation>Egenskaper…</translation>
         </message>
         <message>
             <location filename="../MainWindow.cpp" line="1361" />
             <source>Set Cover Image...</source>
-            <translation>Ange omslagsbild...</translation>
+            <translation>Ange omslagsbild…</translation>
         </message>
         <message>
             <location filename="../MainWindow.cpp" line="1364" />
@@ -16216,7 +16217,7 @@ PCSX2-teamet kommer inte att ge support för konfigurationer som ändrar dessa i
         <message>
             <location filename="../MainWindow.cpp" line="1417" />
             <source>Add Search Directory...</source>
-            <translation>Lägg till sökkatalog...</translation>
+            <translation>Lägg till sökkatalog…</translation>
         </message>
         <message>
             <location filename="../MainWindow.cpp" line="1426" />
@@ -16463,12 +16464,12 @@ Vill du läsa in detta tillstånd eller starta från en fräsch uppstart?</trans
         <message>
             <location filename="../MainWindow.cpp" line="2862" />
             <source>Load State File...</source>
-            <translation>Läs in tillståndsfil...</translation>
+            <translation>Läs in tillståndsfil…</translation>
         </message>
         <message>
             <location filename="../MainWindow.cpp" line="2862" />
             <source>Load From File...</source>
-            <translation>Läs in från fil...</translation>
+            <translation>Läs in från fil…</translation>
         </message>
         <message>
             <location filename="../MainWindow.cpp" line="2865" />
@@ -16484,7 +16485,7 @@ Vill du läsa in detta tillstånd eller starta från en fräsch uppstart?</trans
         <message>
             <location filename="../MainWindow.cpp" line="2872" />
             <source>Delete Save States...</source>
-            <translation>Ta bort sparade tillstånd...</translation>
+            <translation>Ta bort sparade tillstånd…</translation>
         </message>
         <message>
             <location filename="../MainWindow.cpp" line="57" />
@@ -16544,7 +16545,7 @@ Detta går inte att ångra.</translation>
         <message>
             <location filename="../MainWindow.cpp" line="2934" />
             <source>Save To File...</source>
-            <translation>Spara till fil...</translation>
+            <translation>Spara till fil…</translation>
         </message>
         <message>
             <location filename="../MainWindow.cpp" line="2954" />
@@ -16923,12 +16924,12 @@ Stäng andra instanser av PCSX2 eller starta om din dator.
         <message>
             <location filename="../Settings/MemoryCardSettingsWidget.ui" line="73" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../Settings/MemoryCardSettingsWidget.ui" line="80" />
             <source>Open...</source>
-            <translation>Öppna...</translation>
+            <translation>Öppna…</translation>
         </message>
         <message>
             <location filename="../Settings/MemoryCardSettingsWidget.ui" line="87" />
@@ -17332,7 +17333,7 @@ Denna åtgärd går inte att ångra och du lörlorar alla sparningar på kortet.
         <message>
             <location filename="../Debugger/MemorySearchWidget.cpp" line="594" />
             <source>Searching...</source>
-            <translation>Söker...</translation>
+            <translation>Söker…</translation>
         </message>
         <message>
             <location filename="../Debugger/MemorySearchWidget.h" line="65" />
@@ -19009,7 +19010,7 @@ Vill du fortsätta?</translation>
         <message>
             <location filename="../SetupWizardDialog.ui" line="260" />
             <source>Browse...</source>
-            <translation>Bläddra...</translation>
+            <translation>Bläddra…</translation>
         </message>
         <message>
             <location filename="../SetupWizardDialog.ui" line="267" />
@@ -19029,7 +19030,7 @@ Vill du fortsätta?</translation>
         <message>
             <location filename="../SetupWizardDialog.ui" line="314" />
             <source>Open BIOS Folder...</source>
-            <translation>Öppna BIOS-mapp...</translation>
+            <translation>Öppna BIOS-mapp…</translation>
         </message>
         <message>
             <location filename="../SetupWizardDialog.ui" line="321" />
@@ -19039,7 +19040,7 @@ Vill du fortsätta?</translation>
         <message>
             <location filename="../SetupWizardDialog.ui" line="346" />
             <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PCSX2 will automatically scan and identify games from the selected directories below, and populate the game list.&lt;br&gt;These games should be dumped from discs you own. Guides for dumping discs can be found &lt;a href="https://pcsx2.net/docs/setup/dumping"&gt;here&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Supported formats for dumps include:&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;.bin/.iso (ISO Disc Images)&lt;/li&gt;&lt;li&gt;.mdf (Media Descriptor File)&lt;/li&gt;&lt;li&gt;.chd (Compressed Hunks of Data)&lt;/li&gt;&lt;li&gt;.cso (Compressed ISO)&lt;/li&gt;&lt;li&gt;.zso (Compressed ISO)&lt;/li&gt;&lt;li&gt;.gz (Gzip Compressed ISO)&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-            <translation>&lt;/p&gt;&lt;p&gt;&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PCSX2 kommer automatiskt att söka igenom och identifiera spel från de valda katalogerna nedan och fylla i spellistan. Dessa spel bör dumpas från skivor som du äger. Guider för hur man dumpar skivor hittas &lt;a href="https://pcsx2.net/docs/setup/dumping"&gt;här&lt;/a&gt;Format som stöds för dumpar inkluderar: &lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;.bin/.iso (ISO-skivavbilder)&lt;/li&gt;&lt;li&gt;.mdf (Media Descriptor File)&lt;/li&gt;&lt;li&gt;.chd (Compressed Hunks of Data)&lt;/li&gt;&lt;li&gt;.cso (Komprimerad ISO)&lt;/li&gt;&lt;li&gt;.zso (Compressed ISO)&lt;/li&gt;&lt;li&gt;.gz (Gzip-komprimerad ISO)&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+            <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;PCSX2 söker automatiskt igenom och identifierar spel i katalogerna nedan och fyller i spellistan.&lt;br&gt;Dessa spel bör vara dumpade från skivor som du äger. Guider för hur du dumpar skivor finns &lt;a href="https://pcsx2.net/docs/setup/dumping"&gt;här&lt;/a&gt;.&lt;/p&gt;&lt;p&gt;Format som stöds för dumpar är:&lt;/p&gt;&lt;p&gt;&lt;ul&gt;&lt;li&gt;.bin/.iso (ISO-skivavbilder)&lt;/li&gt;&lt;li&gt;.mdf (Media Descriptor File)&lt;/li&gt;&lt;li&gt;.chd (Compressed Hunks of Data)&lt;/li&gt;&lt;li&gt;.cso (komprimerad ISO)&lt;/li&gt;&lt;li&gt;.zso (komprimerad ISO)&lt;/li&gt;&lt;li&gt;.gz (Gzip-komprimerad ISO)&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
         </message>
         <message>
             <location filename="../SetupWizardDialog.ui" line="367" />
@@ -19049,7 +19050,7 @@ Vill du fortsätta?</translation>
         <message>
             <location filename="../SetupWizardDialog.ui" line="393" />
             <source>Add...</source>
-            <translation>Lägg till...</translation>
+            <translation>Lägg till…</translation>
         </message>
         <message>
             <location filename="../SetupWizardDialog.ui" line="413" />
@@ -19175,7 +19176,7 @@ Any changes have been saved, and the wizard will run again next time you start P
         <message>
             <location filename="../SetupWizardDialog.cpp" line="259" />
             <source>Open Directory...</source>
-            <translation>Öppna katalog...</translation>
+            <translation>Öppna katalog…</translation>
         </message>
         <message>
             <location filename="../SetupWizardDialog.cpp" line="271" />
@@ -20503,7 +20504,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
         <message>
             <location filename="../../pcsx2/USB/usb-pad/usb-pad.cpp" line="970" />
             <source>B 1</source>
-            <translation>Identifierad till konto: &amp;lt;b&gt;%1&amp;lt;/b&gt;</translation>
+            <translation>B 1</translation>
         </message>
         <message>
             <location filename="../../pcsx2/USB/usb-pad/usb-pad.cpp" line="971" />
@@ -20623,7 +20624,7 @@ Söka igenom den rekursivt tar längre tid men identifierar filer i underkatalog
         <message>
             <location filename="../../pcsx2/USB/usb-printer/usb-printer.cpp" line="98" />
             <source>Printer saving to '{}'...</source>
-            <translation>Skrivare sparas till '{}'...</translation>
+            <translation>Skrivare sparas till '{}'…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/USB/usb-printer/usb-printer.cpp" line="326" />
@@ -21907,7 +21908,7 @@ Se FAQ och guider för ytterligare instruktioner.</translation>
         <message>
             <location filename="../../pcsx2/VMManager.cpp" line="2018" />
             <source>Loading state from slot {}...</source>
-            <translation>Läser in tillstånd från plats {}...</translation>
+            <translation>Läser in tillstånd från plats {}…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/VMManager.cpp" line="2027" />
@@ -21922,7 +21923,7 @@ Se FAQ och guider för ytterligare instruktioner.</translation>
         <message>
             <location filename="../../pcsx2/VMManager.cpp" line="2051" />
             <source>Saving state to slot {}...</source>
-            <translation>Sparar tillstånd till plats {}...</translation>
+            <translation>Sparar tillstånd till plats {}…</translation>
         </message>
         <message>
             <location filename="../../pcsx2/VMManager.cpp" line="2217" />
