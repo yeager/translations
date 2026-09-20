@@ -1,5 +1,14 @@
 --- a/cpplib-16.1-b20260222.sv.po
 +++ b/cpplib-16.1-b20260222.sv.po
+@@ -22,7 +22,7 @@
+ #: charset.cc:759
+ #, gcc-internal-format, gfc-internal-format
+ msgid "conversion from %s to %s not supported by iconv"
+-msgstr "konvertering från %s till %s stödjs inte av iconv"
++msgstr "konvertering från %s till %s kan inte användas av iconv"
+ 
+ #: charset.cc:762
+ msgid "iconv_open"
 @@ -68,11 +68,11 @@
  
  #: charset.cc:1629
@@ -78,6 +87,15 @@
  
  #: directives.cc:1286
  #, gcc-internal-format
+@@ -462,7 +462,7 @@
+ #: directives.cc:1391
+ #, gcc-internal-format
+ msgid "%<#embed%> not supported in traditional C"
+-msgstr "%<#embed%> stödjs inte i traditionell C"
++msgstr "%<#embed%> kan inte användas i traditionell C"
+ 
+ #: directives.cc:1400
+ #, gcc-internal-format
 @@ -506,7 +506,7 @@
  #: directives.cc:1667
  #, gcc-internal-format
@@ -119,6 +137,15 @@
  
  #: expr.cc:740
  msgid "use of C++17 hexadecimal floating constant"
+@@ -734,7 +734,7 @@
+ #: expr.cc:905 expr.cc:916
+ #, gcc-internal-format
+ msgid "ISO C does not support literal %<wb%> suffixes before C23"
+-msgstr "ISO C stödjer inte litterala suffix %<wb%> före C23"
++msgstr "ISO C har inte stöd för litterala suffix %<wb%> före C23"
+ 
+ #: expr.cc:931
+ msgid "imaginary constants are a GCC extension"
 @@ -826,7 +826,7 @@
  
  #: expr.cc:1355
@@ -211,7 +238,7 @@
  #, gcc-internal-format
  msgid "%<__has_embed%> not supported in traditional C"
 -msgstr "%<_has_embed%> stödjs inte i traditionell C"
-+msgstr "%<__has_embed%> stödjs inte i traditionell C"
++msgstr "%<__has_embed%> kan inte användas i traditionell C"
  
  #: macro.cc:1013
  #, gcc-internal-format

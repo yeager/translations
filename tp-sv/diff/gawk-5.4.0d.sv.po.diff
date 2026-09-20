@@ -815,6 +815,24 @@
  
  #: ext.c:193
  #, c-format
+@@ -1899,7 +1899,7 @@
+ 
+ #: ext.c:298
+ msgid "dynamic loading of libraries is not supported"
+-msgstr "dynamisk laddning av bibliotek stödjs inte"
++msgstr "dynamisk laddning av bibliotek kan inte användas"
+ 
+ #: extension/filefuncs.c:445
+ #, c-format
+@@ -1925,7 +1925,7 @@
+ 
+ #: extension/filefuncs.c:614
+ msgid "fts is not supported on this system"
+-msgstr "fts stödjs inte på detta system"
++msgstr "fts kan inte användas på detta system"
+ 
+ #: extension/filefuncs.c:633
+ msgid "fill_stat_element: could not create array, out of memory"
 @@ -1954,7 +1954,7 @@
  
  #: extension/filefuncs.c:849
@@ -879,7 +897,7 @@
  
  #: extension/rwarray.c:436
  #, c-format
-@@ -2190,7 +2190,7 @@
+@@ -2190,11 +2190,11 @@
  
  #: extension/rwarray.c:826
  msgid "rwarray extension: GMP/MPFR value in file but compiled without GMP/MPFR support."
@@ -888,6 +906,20 @@
  
  #: extension/time.c:169
  msgid "gettimeofday: not supported on this platform"
+-msgstr "gettimeofday: stödjs inte på denna plattform"
++msgstr "gettimeofday: kan inte användas på denna plattform"
+ 
+ #: extension/time.c:190
+ msgid "sleep: missing required numeric argument"
+@@ -2206,7 +2206,7 @@
+ 
+ #: extension/time.c:230
+ msgid "sleep: not supported on this platform"
+-msgstr "sleep: stödjs inte på denna plattform"
++msgstr "sleep: kan inte användas på denna plattform"
+ 
+ #: extension/time.c:252
+ msgid "strptime: called with no arguments"
 @@ -2228,15 +2228,15 @@
  
  #: field.c:442
@@ -907,6 +939,15 @@
  
  #: field.c:1131 field.c:1140
  msgid "split: fourth argument is a gawk extension"
+@@ -2334,7 +2334,7 @@
+ 
+ #: gawkapi.c:184 gawkapi.c:196
+ msgid "awk_value_to_node: MPFR not supported"
+-msgstr "awk_value_to_node: MPFR stödjs inte"
++msgstr "awk_value_to_node: MPFR kan inte användas"
+ 
+ #: gawkapi.c:200
+ #, c-format
 @@ -2348,7 +2348,7 @@
  #: gawkapi.c:525
  #, c-format
@@ -925,6 +966,15 @@
  
  #: gawkapi.c:1126
  msgid "remove_element: received null array"
+@@ -2383,7 +2383,7 @@
+ 
+ #: gawkapi.c:1372 gawkapi.c:1389
+ msgid "api_get_mpfr: MPFR not supported"
+-msgstr "api_get_mpfr: MPFR stödjs inte"
++msgstr "api_get_mpfr: MPFR kan inte användas"
+ 
+ #: gawkapi.c:1420
+ msgid "cannot find end of BEGINFILE rule"
 @@ -2397,7 +2397,7 @@
  #: io.c:415
  #, c-format
@@ -1014,6 +1064,15 @@
 +msgstr "get_file kan inte skapa röret ”%s” med filbeskrivare %d"
  
  #: io.c:953
+ #, c-format
+@@ -2501,7 +2501,7 @@
+ #: io.c:1000
+ #, c-format
+ msgid "get_file socket creation not supported on this platform for `%s' with fd %d"
+-msgstr "att get_file skapar ett uttag stödjs inte på denna plattform för ”%s” med fb %d"
++msgstr "att get_file skapar ett uttag kan inte användas på denna plattform för ”%s” med fb %d"
+ 
+ #: io.c:1011
  #, c-format
 @@ -2511,7 +2511,7 @@
  #: io.c:1098

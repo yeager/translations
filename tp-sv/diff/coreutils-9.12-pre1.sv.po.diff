@@ -14,6 +14,38 @@
  
  #: lib/c-file-type.c:66
  msgid "block special file"
+@@ -153,7 +153,7 @@
+ 
+ #: lib/gai_strerror.c:57
+ msgid "Address family for hostname not supported"
+-msgstr "Adressfamiljen för värdnamnet stödjs inte"
++msgstr "Adressfamiljen för värdnamnet kan inte användas"
+ 
+ #: lib/gai_strerror.c:58
+ msgid "Temporary failure in name resolution"
+@@ -169,7 +169,7 @@
+ 
+ #: lib/gai_strerror.c:61
+ msgid "ai_family not supported"
+-msgstr "ai_family stödjs inte"
++msgstr "ai_family kan inte användas"
+ 
+ #: lib/gai_strerror.c:62
+ msgid "Memory allocation failure"
+@@ -185,11 +185,11 @@
+ 
+ #: lib/gai_strerror.c:65
+ msgid "Servname not supported for ai_socktype"
+-msgstr "Servname stödjs inte för ai_socktype"
++msgstr "Servname kan inte användas för ai_socktype"
+ 
+ #: lib/gai_strerror.c:66
+ msgid "ai_socktype not supported"
+-msgstr "ai_socktype stödjs inte"
++msgstr "ai_socktype kan inte användas"
+ 
+ #: lib/gai_strerror.c:67
+ msgid "System error"
 @@ -201,7 +201,7 @@
  
  #: lib/gai_strerror.c:70
@@ -449,6 +481,54 @@
  
  #: src/cksum.c:1382 src/cksum.c:1892 src/date.c:510 src/dd.c:2462
  #: src/head.c:875 src/od.c:1032 src/od.c:2062 src/pr.c:1150 src/pr.c:1364
+@@ -2577,7 +2579,7 @@
+ #: src/cksum.c:1703
+ #, c-format
+ msgid "--length is only supported with --algorithm blake2b, sha2, or sha3"
+-msgstr "--length stödjs endast med --algorithm blake2b, sha2 eller sha3"
++msgstr "--length kan endast användas med --algorithm blake2b, sha2 eller sha3"
+ 
+ #: src/cksum.c:1709
+ #, c-format
+@@ -2607,7 +2609,7 @@
+ #: src/cksum.c:1768
+ #, c-format
+ msgid "--check is not supported with --algorithm={bsd,sysv,crc,crc32b}"
+-msgstr "--check stödjs inte med --algorithm={bsd,sysv,crc,crc32b}"
++msgstr "--check kan inte användas med --algorithm={bsd,sysv,crc,crc32b}"
+ 
+ #: src/cksum.c:1775
+ #, c-format
+@@ -2617,7 +2619,7 @@
+ #: src/cksum.c:1782
+ #, c-format
+ msgid "the --zero option is not supported when verifying checksums"
+-msgstr "flaggan --zero stödjs inte när kontrollsummor verifieras"
++msgstr "flaggan --zero kan inte användas när kontrollsummor verifieras"
+ 
+ #: src/cksum.c:1790
+ #, c-format
+@@ -2657,17 +2659,17 @@
+ #: src/cksum.c:1849
+ #, c-format
+ msgid "--tag does not support --text mode"
+-msgstr "--tag stödjer inte läget --text"
++msgstr "--tag har inte stöd för läget --text"
+ 
+ #: src/cksum.c:1851
+ #, c-format
+ msgid "--text mode is only supported with --untagged"
+-msgstr "läget --text stödjs endast med --untagged"
++msgstr "läget --text kan endast användas med --untagged"
+ 
+ #: src/cksum.c:1866
+ #, c-format
+ msgid "the --raw option is not supported with multiple files"
+-msgstr "flaggan --raw stödjs inte med flera filer"
++msgstr "flaggan --raw kan inte användas med flera filer"
+ 
+ #: src/cksum_crc.c:151
+ msgid "using pclmul hardware support"
 @@ -2731,7 +2733,7 @@
  msgstr ""
  "\n"
@@ -658,6 +738,15 @@
  
  #: src/cp.c:291 src/mv.c:321
  msgid ""
+@@ -3534,7 +3536,7 @@
+ "Som standard eller med --reflink=auto kommer cp försöka med en\n"
+ "lättviktskopiering, där datablocken endast kopieras när de ändras, och\n"
+ "faller tillbaka till en standardkopiering om detta inte är möjligt.\n"
+-"Med --reflink[=always] kommer cp misslyckas om CoW inte stödjs, medan\n"
++"Med --reflink[=always] kommer cp misslyckas om CoW inte kan användas, medan\n"
+ "--reflink=never säkerställer att en standardkopiering görs.\n"
+ 
+ #: src/cp.c:339
 @@ -3552,12 +3554,12 @@
  #: src/cp.c:401
  #, c-format
@@ -1089,6 +1178,15 @@
 +"med komma. Ett tomt SIG-argument har ingen effekt.\n"
  
  #: src/env.c:227 src/env.c:273
+ #, c-format
+@@ -5884,7 +5888,7 @@
+ #: src/env.c:730
+ #, c-format
+ msgid "only ${VARNAME} expansion is supported, error at: %s"
+-msgstr "endast expansion av ${VARNAMN} stödjs, fel vid: %s"
++msgstr "endast expansion av ${VARNAMN} kan användas, fel vid: %s"
+ 
+ #: src/env.c:737
  #, c-format
 @@ -5924,12 +5928,12 @@
  #: src/env.c:867
@@ -1633,15 +1731,17 @@
  "Symboliska länkar kan innehålla godtycklig text.  Om de senare löses\n"
  "upp tolkas en relativ länk i förhållande till sin föräldrakatalog.\n"
  
-@@ -7501,7 +7506,7 @@
+@@ -7501,8 +7506,8 @@
  "         if supported by the system\n"
  msgstr ""
  "  -d, -F, --directory\n"
 -"         tillåt superanvändaren att försöka hårt länka kataloger,\n"
+-"         om det stödjs av systemet\n"
 +"         tillåt superanvändaren att försöka skapa hårda länkar till kataloger,\n"
- "         om det stödjs av systemet\n"
++"         om systemet har stöd för det\n"
  
  #: src/ln.c:454
+ msgid ""
 @@ -7759,7 +7764,7 @@
  "         print C-style escapes for nongraphic characters\n"
  msgstr ""
@@ -1798,6 +1898,21 @@
 +msgstr "kan inte sätta rättigheter på %s"
  
  #: src/mknod.c:53
+ #, c-format
+@@ -8439,12 +8442,12 @@
+ #: src/mknod.c:216
+ #, c-format
+ msgid "block special files not supported"
+-msgstr "blockspecialfiler stödjs inte"
++msgstr "blockspecialfiler kan inte användas"
+ 
+ #: src/mknod.c:225
+ #, c-format
+ msgid "character special files not supported"
+-msgstr "teckenspecialfiler stödjs inte"
++msgstr "teckenspecialfiler kan inte användas"
+ 
+ #: src/mknod.c:238
  #, c-format
 @@ -8484,7 +8487,7 @@
  msgstr ""
@@ -2013,6 +2128,15 @@
  
  #: src/numfmt.c:1010
  msgid ""
+@@ -9218,7 +9221,7 @@
+ "Multiple fields/ranges can be separated with commas\n"
+ msgstr ""
+ "\n"
+-"FÄLT stödjer fältintervall i stilen för cut(1):\n"
++"FÄLT har stöd för fältintervall i stilen för cut(1):\n"
+ "  N     N:e fältet, räknat från 1\n"
+ "  N-    från N:e fältet, till radslut\n"
+ "  N-M   från N:e till och med M:e fältet\n"
 @@ -9237,12 +9240,12 @@
  "Optional precision (%.1f) will override the input determined precision.\n"
  msgstr ""
@@ -2168,7 +2292,7 @@
  
  #: src/od.c:938
  #, c-format
-@@ -9717,7 +9720,7 @@
+@@ -9717,11 +9720,11 @@
  #: src/od.c:1877
  #, c-format
  msgid "no type may be specified when dumping strings"
@@ -2177,6 +2301,11 @@
  
  #: src/od.c:1952
  msgid "compatibility mode supports at most one file"
+-msgstr "kompatibilitetsläge stödjer högst en fil"
++msgstr "kompatibilitetsläge har stöd för högst en fil"
+ 
+ # "skip-bytes" och "read-bytes" är flaggor
+ #: src/od.c:1971
 @@ -9751,9 +9754,9 @@
  "The newline of every line except the line from the last file\n"
  "is replaced with a TAB.\n"
@@ -2189,6 +2318,15 @@
  "med en TAB.\n"
  
  #: src/paste.c:467
+@@ -9764,7 +9767,7 @@
+ msgstr ""
+ "  -d, --delimiters=LISTA\n"
+ "         återanvänd tecken från LISTA istället för TAB;\n"
+-"         styrsekvenser med omvänt snedstreck stödjs\n"
++"         styrsekvenser med omvänt snedstreck kan användas\n"
+ 
+ #: src/paste.c:472
+ msgid ""
 @@ -9773,13 +9776,13 @@
  "         every line except the last line in each file is replaced with a TAB\n"
  msgstr ""
@@ -2332,7 +2470,7 @@
  "  %q          '%q ' 'a' \\;b $'c\\n'        a ';b' 'c'$'\\n'\n"
  msgstr ""
 -"Följande tabell visar de konverteringsspecifiserare som stödjs,\n"
-+"Följande tabell visar de konverteringsspecifikationer som stödjs,\n"
++"Följande tabell visar de konverteringsspecifikationer som kan användas,\n"
  "med exempel inklusive användning av bredd, precision och flaggor.\n"
  "\n"
  "  KONVERTERING Skalformatexempel           Utskrift\n"
@@ -2718,6 +2856,15 @@
  
  #: src/shuf.c:227
  #, c-format
+@@ -11793,7 +11797,7 @@
+ msgstr ""
+ "  -n, --numeric-sort\n"
+ "         jämför enligt strängens numeriska värde;\n"
+-"         se den fullständiga dokumentationen för vilka strängar som stödjs\n"
++"         se den fullständiga dokumentationen för vilka strängar som kan användas\n"
+ 
+ #: src/sort.c:480
+ msgid ""
 @@ -11864,7 +11868,7 @@
  "         like -c, but do not report first bad line\n"
  msgstr ""
@@ -3334,15 +3481,17 @@
  
  #: src/sync.c:74
  msgid "  -f, --file-system      sync the file systems that contain the files\n"
-@@ -13724,7 +13729,7 @@
+@@ -13724,8 +13729,8 @@
  msgstr ""
  "\n"
  "Ditt skal kan ha sin egen version av %s, som ofta ersätter versionen som\n"
 -"beskrivs här.  Se dokumentationen för ditt skal för detaljer om valen det\n"
+-"stödjer.\n"
 +"beskrivs här.  Se dokumentationen för ditt skal för detaljer om flaggorna det\n"
- "stödjer.\n"
++"har stöd för.\n"
  
  #: src/system.h:383
+ msgid ""
 @@ -13798,12 +13803,12 @@
  "in files being replaced if they're older than the corresponding source file.\n"
  msgstr ""
@@ -3451,6 +3600,15 @@
  
  #: src/tail.c:2246
  msgid "invalid PID"
+@@ -14299,7 +14305,7 @@
+ #: src/tail.c:2306
+ #, c-format
+ msgid "warning: --pid=PID is not supported on this system"
+-msgstr "varning: --pid=PID stödjs inte på detta system"
++msgstr "varning: --pid=PID kan inte användas på detta system"
+ 
+ #: src/tail.c:2410
+ #, c-format
 @@ -14309,7 +14315,7 @@
  #: src/tail.c:2425
  #, c-format

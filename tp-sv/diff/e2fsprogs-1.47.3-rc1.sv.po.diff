@@ -311,7 +311,7 @@
  
  #. @-expanded: Error determining size of the physical device: %m\n
  #: e2fsck/problem.c:189
-@@ -958,7 +958,7 @@
+@@ -958,11 +958,11 @@
  #. @-expanded: inode count in superblock is %i, should be %j.\n
  #: e2fsck/problem.c:194
  msgid "@i count in @S is %i, @s %j.\n"
@@ -320,6 +320,11 @@
  
  #: e2fsck/problem.c:198
  msgid "The Hurd does not support the filetype feature.\n"
+-msgstr "Hurd stödjer inte funktionen filtyp.\n"
++msgstr "Hurd har inte stöd för funktionen filtyp.\n"
+ 
+ #. @-expanded: superblock has an invalid journal (inode %i).\n
+ #: e2fsck/problem.c:204
 @@ -973,7 +973,7 @@
  #. @-expanded: External journal has multiple filesystem users (unsupported).\n
  #: e2fsck/problem.c:209
@@ -329,6 +334,15 @@
  
  #. @-expanded: Can't find external journal\n
  #: e2fsck/problem.c:214
+@@ -988,7 +988,7 @@
+ #. @-expanded: External journal does not support this filesystem\n
+ #: e2fsck/problem.c:224
+ msgid "External @j does not support this @f\n"
+-msgstr "Extern journal stödjer inte detta filsystem\n"
++msgstr "Extern journal har inte stöd för detta filsystem\n"
+ 
+ #. @-expanded: filesystem journal superblock is unknown type %N (unsupported).\n
+ #. @-expanded: It is likely that your copy of e2fsck is old and/or doesn't support this journal 
 @@ -1000,10 +1000,10 @@
  "It is likely that your copy of e2fsck is old and/or doesn't support this @j format.\n"
  "It is also possible the @j @S is corrupt.\n"
@@ -1371,6 +1385,15 @@
  
  #: e2fsck/unix.c:391
  #, c-format
+@@ -3653,7 +3649,7 @@
+ #: e2fsck/unix.c:922
+ #, c-format
+ msgid "The -t option is not supported on this version of e2fsck.\n"
+-msgstr "Flaggan -t stödjs inte i denna version av e2fsck.\n"
++msgstr "Flaggan -t kan inte användas i denna version av e2fsck.\n"
+ 
+ #: e2fsck/unix.c:954 e2fsck/unix.c:1032 misc/dumpe2fs.c:679
+ #: misc/e2initrd_helper.c:331 misc/tune2fs.c:1936 misc/tune2fs.c:2236
 @@ -3719,11 +3715,11 @@
  #: e2fsck/unix.c:1269
  #, c-format
@@ -1795,7 +1818,7 @@
  
  #: misc/e2image.c:1677
  msgid "QCOW2 image can not be written to the stdout!\n"
-@@ -5021,7 +5017,7 @@
+@@ -5021,15 +5017,15 @@
  #: misc/e2image.c:1703
  #, c-format
  msgid "while trying to convert qcow2 image (%s) into raw image (%s)"
@@ -1804,7 +1827,8 @@
  
  #: misc/e2image.c:1713
  msgid "The -c option only supported in raw mode\n"
-@@ -5029,7 +5025,7 @@
+-msgstr "Flaggan -c stödjs endast i raw-läge\n"
++msgstr "Flaggan -c kan endast användas i raw-läge\n"
  
  #: misc/e2image.c:1718
  msgid "The -c option not supported when writing to stdout\n"
@@ -1813,6 +1837,15 @@
  
  #: misc/e2image.c:1725
  msgid "while allocating check_buf"
+@@ -5037,7 +5033,7 @@
+ 
+ #: misc/e2image.c:1731
+ msgid "The -p option only supported in raw mode\n"
+-msgstr "Flaggan -p stödjs endast i raw-läge\n"
++msgstr "Flaggan -p kan endast användas i raw-läge\n"
+ 
+ #: misc/e2image.c:1741
+ #, c-format
 @@ -5104,7 +5100,7 @@
  
  #: misc/e2undo.c:159
@@ -1951,7 +1984,22 @@
  
  #: misc/fuse2fs.c:779
  msgid "mounted filesystem"
-@@ -5431,7 +5426,7 @@
+@@ -5419,19 +5414,19 @@
+ 
+ #: misc/fuse2fs.c:4430
+ msgid "quotas not supported."
+-msgstr "kvoter stödjs inte."
++msgstr "kvoter kan inte användas."
+ 
+ #: misc/fuse2fs.c:4434
+ msgid "verity not supported."
+-msgstr "verity stödjs inte."
++msgstr "verity kan inte användas."
+ 
+ #: misc/fuse2fs.c:4438
+ msgid "encryption not supported."
+-msgstr "kryptering stödjs inte."
++msgstr "kryptering kan inte användas."
  
  #: misc/fuse2fs.c:4442
  msgid "casefolding not supported."
@@ -2162,7 +2210,7 @@
  
  #: misc/mke2fs.c:2058
  #, c-format
-@@ -6149,22 +6142,22 @@
+@@ -6149,34 +6142,34 @@
  "\ta modified partition being busy and in use.  You may need to reboot\n"
  "\tto re-read your partition table.\n"
  msgstr ""
@@ -2192,6 +2240,21 @@
  
  #: misc/mke2fs.c:2245
  msgid "The HURD does not support the huge_file feature.\n"
+-msgstr "HURD stödjer inte funktionen huge_file.\n"
++msgstr "HURD har inte stöd för funktionen huge_file.\n"
+ 
+ #: misc/mke2fs.c:2250
+ msgid "The HURD does not support the metadata_csum feature.\n"
+-msgstr "HURD stödjer inte funktionen metadata_csum.\n"
++msgstr "HURD har inte stöd för funktionen metadata_csum.\n"
+ 
+ #: misc/mke2fs.c:2255
+ msgid "The HURD does not support the ea_inode feature.\n"
+-msgstr "HURD stödjer inte funktionen ea_inode.\n"
++msgstr "HURD har inte stöd för funktionen ea_inode.\n"
+ 
+ #: misc/mke2fs.c:2265
+ msgid "while trying to determine hardware sector size"
 @@ -6201,8 +6194,8 @@
  "%s: Size of device (0x%llx blocks) %s too big to be expressed\n"
  "\tin 32 bits using a blocksize of %d.\n"
@@ -2265,6 +2328,15 @@
  
  #: misc/mke2fs.c:2647
  #, c-format
+@@ -6316,7 +6309,7 @@
+ 
+ #: misc/mke2fs.c:2684
+ msgid "Can't support bigalloc feature without extents feature"
+-msgstr "Kan inte stödja funktionen bigalloc utan funktionen utsträckningar"
++msgstr "Kan inte ge stöd för funktionen bigalloc utan funktionen utsträckningar"
+ 
+ #: misc/mke2fs.c:2691
+ msgid ""
 @@ -6346,7 +6339,7 @@
  
  #: misc/mke2fs.c:2743
@@ -2409,7 +2481,7 @@
  "nollställs.\n"
  
  #: misc/tune2fs.c:1227
-@@ -6803,7 +6796,7 @@
+@@ -6803,14 +6796,14 @@
  
  #: misc/tune2fs.c:1260
  msgid "orphan_file feature can be set only for filesystems with journal.\n"
@@ -2418,6 +2490,14 @@
  
  #: misc/tune2fs.c:1276
  msgid ""
+ "Setting filesystem feature 'sparse_super' not supported\n"
+ "for filesystems with the meta_bg feature enabled.\n"
+ msgstr ""
+-"Att sätta filsystemsfunktionen ”sparse_super” stödjs inte\n"
++"Att sätta filsystemsfunktionen ”sparse_super” kan inte användas\n"
+ "för filsystem med funktionen meta_bg aktiverad.\n"
+ 
+ #: misc/tune2fs.c:1289
 @@ -6843,7 +6836,7 @@
  #: misc/tune2fs.c:1333
  #, c-format
@@ -2445,7 +2525,15 @@
  
  #: misc/tune2fs.c:1426
  msgid "64-bit filesystem support is not enabled.  The larger fields afforded by this feature enable full-strength checksumming.  Run resize2fs -b to rectify.\n"
-@@ -6952,7 +6945,7 @@
+@@ -6945,14 +6938,14 @@
+ "Setting feature 'metadata_csum_seed' is only supported\n"
+ "on filesystems with the metadata_csum feature enabled.\n"
+ msgstr ""
+-"Att sätta funktionen ”metadata_csum_seed” stödjs bara\n"
++"Att sätta funktionen ”metadata_csum_seed” kan bara användas\n"
+ "för filsystem med funktionen metadata_csum aktiverad.\n"
+ 
+ #: misc/tune2fs.c:1654
  msgid ""
  "UUID has changed since enabling metadata_csum.  Filesystem must be unmounted \n"
  "to safely rewrite all metadata to match the new UUID.\n"
@@ -2553,6 +2641,15 @@
  
  #: misc/tune2fs.c:3273
  msgid "Cannot modify a journal device.\n"
+@@ -7257,7 +7248,7 @@
+ 
+ #: misc/tune2fs.c:3293
+ msgid "Shrinking inode size is not supported\n"
+-msgstr "Att krympa inodsstorleken stödjs inte\n"
++msgstr "Att krympa inodsstorleken kan inte användas\n"
+ 
+ #: misc/tune2fs.c:3298
+ #, c-format
 @@ -7278,17 +7269,17 @@
  "then rerun this command.  Otherwise, any changes made may be overwritten\n"
  "by journal recovery.\n"
@@ -2835,6 +2932,15 @@
  
  #: resize/online.c:122
  msgid "Not enough reserved gdt blocks for resizing"
+@@ -7926,7 +7916,7 @@
+ 
+ #: resize/online.c:129
+ msgid "Kernel does not support resizing a file system this large"
+-msgstr "Kärnan stödjer inte ändring av storlek på så stora filsystem"
++msgstr "Kärnan har inte stöd för ändring av storlek på så stora filsystem"
+ 
+ #: resize/online.c:137
+ #, c-format
 @@ -7936,11 +7926,11 @@
  #: resize/online.c:142
  #, c-format
@@ -2849,7 +2955,13 @@
  
  #: resize/online.c:164 resize/online.c:184
  msgid "While checking for on-line resizing support"
-@@ -7953,7 +7943,7 @@
+@@ -7948,12 +7938,12 @@
+ 
+ #: resize/online.c:181
+ msgid "Kernel does not support online resizing"
+-msgstr "Kärnan stödjer inte storleksändring uppkopplat"
++msgstr "Kärnan har inte stöd för storleksändring uppkopplat"
+ 
  #: resize/online.c:220
  #, c-format
  msgid "Performing an on-line resize of %s to %llu (%dk) blocks.\n"
@@ -2899,6 +3011,20 @@
  
  #: lib/ext2fs/ext2_err.c:49
  msgid "No free space in the directory"
+@@ -8268,11 +8258,11 @@
+ 
+ #: lib/ext2fs/ext2_err.c:78
+ msgid "Filesystem has unsupported feature(s)"
+-msgstr "Filsystemet har funktioner som inte stödjs"
++msgstr "Filsystemet har funktioner som inte kan användas"
+ 
+ #: lib/ext2fs/ext2_err.c:79
+ msgid "Filesystem has unsupported read-only feature(s)"
+-msgstr "Filsystemet har endast-läsbart-funktioner som inte stödjs"
++msgstr "Filsystemet har endast-läsbart-funktioner som inte kan användas"
+ 
+ #: lib/ext2fs/ext2_err.c:80
+ msgid "IO Channel failed to seek on read or write"
 @@ -8284,7 +8274,7 @@
  
  #: lib/ext2fs/ext2_err.c:82
@@ -3017,7 +3143,16 @@
  
  #: lib/ext2fs/ext2_err.c:139
  msgid "No current node"
-@@ -8528,7 +8518,7 @@
+@@ -8516,7 +8506,7 @@
+ 
+ #: lib/ext2fs/ext2_err.c:140
+ msgid "Ext2fs operation not supported"
+-msgstr "Ext2fs-operationen stödjs inte"
++msgstr "Ext2fs-operationen kan inte användas"
+ 
+ #: lib/ext2fs/ext2_err.c:141
+ msgid "No room to insert extent in node"
+@@ -8528,11 +8518,11 @@
  
  #: lib/ext2fs/ext2_err.c:143
  msgid "Extent not found"
@@ -3026,6 +3161,11 @@
  
  #: lib/ext2fs/ext2_err.c:144
  msgid "Operation not supported for inodes containing extents"
+-msgstr "Operationen stödjs inte för inoder som innehåller utsträckningar"
++msgstr "Operationen kan inte användas för inoder som innehåller utsträckningar"
+ 
+ #: lib/ext2fs/ext2_err.c:145
+ msgid "Extent length is invalid"
 @@ -8540,19 +8530,19 @@
  
  #: lib/ext2fs/ext2_err.c:146
@@ -3131,7 +3271,7 @@
  
  #: lib/ext2fs/ext2_err.c:187
  msgid "The journal superblock is corrupt"
-@@ -8724,7 +8714,7 @@
+@@ -8724,15 +8714,15 @@
  
  #: lib/ext2fs/ext2_err.c:192
  msgid "Found cyclic loop in extent tree"
@@ -3140,7 +3280,8 @@
  
  #: lib/ext2fs/ext2_err.c:193
  msgid "Operation not supported on an external journal"
-@@ -8732,7 +8722,7 @@
+-msgstr "Åtgärden stödjs inte på en extern journal"
++msgstr "Åtgärden kan inte användas på en extern journal"
  
  #: lib/support/prof_err.c:11
  msgid "Profile version 0.0"

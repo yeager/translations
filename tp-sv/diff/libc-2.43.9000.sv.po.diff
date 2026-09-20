@@ -1240,6 +1240,15 @@
  
  #: locale/programs/ld-collate.c:1694 locale/programs/ld-collate.c:1793
  #, c-format
+@@ -2122,7 +2123,7 @@
+ #: locale/programs/ld-collate.c:2527 locale/programs/ld-collate.c:3921
+ #, c-format
+ msgid "%s: nested conditionals not supported"
+-msgstr "%s: nästlade villkor stödjs ej"
++msgstr "%s: nästlade villkor kan användas ej"
+ 
+ #: locale/programs/ld-collate.c:2545
+ #, c-format
 @@ -2132,12 +2133,12 @@
  #: locale/programs/ld-collate.c:2724
  #, c-format
@@ -2567,6 +2576,15 @@
  
  #: nscd/nscd.c:497
  #, c-format
+@@ -4329,7 +4330,7 @@
+ "For bug reporting instructions, please see:\n"
+ "%s.\n"
+ msgstr ""
+-"Tabeller som stödjs:\n"
++"Tabeller som kan användas:\n"
+ "%s\n"
+ "För felrapporteringsinstruktioner, se:\n"
+ "%s.\n"
 @@ -4343,17 +4344,17 @@
  #: nscd/nscd.c:654
  #, c-format
@@ -2748,7 +2766,7 @@
  
  #: nscd/selinux.c:176 nscd/selinux.c:239
  msgid "prctl(KEEPCAPS) failed"
-@@ -4563,7 +4564,7 @@
+@@ -4563,11 +4564,11 @@
  
  #: nscd/selinux.c:238
  msgid "Failed to unset keep-capabilities"
@@ -2757,6 +2775,11 @@
  
  #: nscd/selinux.c:254
  msgid "Failed to determine if kernel supports SELinux"
+-msgstr "Misslyckades med att ta reda på om kärnan stödjer SELinux"
++msgstr "Misslyckades med att ta reda på om kärnan har stöd för SELinux"
+ 
+ #: nscd/selinux.c:269
+ msgid "Failed to start AVC thread"
 @@ -4575,7 +4576,7 @@
  
  #: nscd/selinux.c:291
@@ -2844,6 +2867,15 @@
  
  #: nss/getent.c:61
  msgid "print getaddrinfo error details"
+@@ -4669,7 +4670,7 @@
+ 
+ #: nss/getent.c:63
+ msgid "do not filter out unsupported IPv4/IPv6 addresses (with ahosts*)"
+-msgstr "filtrera inte bort IPv4/IPv6-adresser som inte stödjs (med ahosts*)"
++msgstr "filtrera inte bort IPv4/IPv6-adresser som inte kan användas (med ahosts*)"
+ 
+ #: nss/getent.c:68
+ msgid "Get entries from administrative database."
 @@ -4678,7 +4679,7 @@
  #: nss/getent.c:158 nss/getent.c:481 nss/getent.c:528
  #, c-format

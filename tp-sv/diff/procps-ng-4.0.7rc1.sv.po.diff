@@ -175,6 +175,15 @@
  
  #: src/ps/parser.c:96 src/ps/parser.c:97 src/ps/parser.c:107
  #: src/ps/parser.c:108
+@@ -1532,7 +1532,7 @@
+ 
+ #: src/ps/parser.c:525
+ msgid "unsupported SysV option"
+-msgstr "SysV-flagga som inte stödjs"
++msgstr "SysV-flagga som inte kan användas"
+ 
+ #: src/ps/parser.c:538
+ msgid "cannot happen - problem #1"
 @@ -1544,7 +1544,7 @@
  
  #: src/ps/parser.c:544
@@ -184,7 +193,12 @@
  
  #: src/ps/parser.c:561
  msgid "option A is reserved"
-@@ -1568,7 +1568,7 @@
+@@ -1564,11 +1564,11 @@
+ 
+ #: src/ps/parser.c:623
+ msgid "obsolete W option not supported (you have a /dev/drum?)"
+-msgstr "den föråldrade flaggan W stödjs inte (har du en /dev/drum?)"
++msgstr "den föråldrade flaggan W kan inte användas (har du en /dev/drum?)"
  
  #: src/ps/parser.c:659 src/ps/parser.c:941 src/ps/parser.c:950
  msgid "only one heading option may be specified"
@@ -193,7 +207,12 @@
  
  #: src/ps/parser.c:674
  msgid "long sort specification must follow 'k'"
-@@ -1592,7 +1592,7 @@
+@@ -1588,11 +1588,11 @@
+ 
+ #: src/ps/parser.c:772
+ msgid "unsupported option (BSD syntax)"
+-msgstr "flagga som inte stödjs (BSD-syntax)"
++msgstr "flagga som inte kan användas (BSD-syntax)"
  
  #: src/ps/parser.c:861 src/ps/parser.c:873
  msgid "unknown gnu long option"
@@ -276,6 +295,15 @@
  
  #: src/ps/sortformat.c:837
  #, c-format
+@@ -2007,7 +2007,7 @@
+ #: src/skill.c:594
+ #, c-format
+ msgid "skill: \"%s\" is not supported\n"
+-msgstr "skill: ”%s” stödjs inte\n"
++msgstr "skill: ”%s” kan inte användas\n"
+ 
+ #: src/slabtop.c:112
+ msgid " --human             show human-readable output\n"
 @@ -2023,7 +2023,7 @@
  "The following are valid sort criteria:\n"
  msgstr ""
@@ -345,7 +373,7 @@
  #, c-format
  msgid "GLOB_TILDE is not supported on your platform, the tilde in \"%s\" won't be expanded."
 -msgstr "GLOB_TILDE stödjs inte på din plattform, tildet i ”%s” kommer inte expanderas."
-+msgstr "GLOB_TILDE stödjs inte på din plattform, tildet i ”%s” kommer inte att expanderas."
++msgstr "GLOB_TILDE kan inte användas på din plattform, tildet i ”%s” kommer inte att expanderas."
  
  #: src/sysctl.c:794
  msgid "glob failed"

@@ -78,6 +78,15 @@
  
  #: cobc/config.c:169
  msgid "must be numeric"
+@@ -852,7 +852,7 @@
+ "                         * statements must not start in Area A; and\n"
+ "                         * separator periods must not be within Area A"
+ msgstr ""
+-"kontrollera innehåll i Area A (när referensformatet stödjer Area A-tvingande),\n"
++"kontrollera innehåll i Area A (när referensformatet har stöd för Area A-tvingande),\n"
+ "                         aktiverade kontroller omfattar:\n"
+ "                         * divisions-, sektion- och styckenamn, nivåindikatorer (FD, SD, RD och CD),\n"
+ "                           samt toppnivånummer (01 och 77) måste börja i Area A;\n"
 @@ -861,7 +861,7 @@
  
  #: cobc/config.def:209
@@ -114,6 +123,15 @@
  
  #: cobc/config.def:402 cobc/tree.c:4873
  msgid "RECORD DELIMITER clause on file with fixed-length records"
+@@ -1118,7 +1118,7 @@
+ 
+ #: cobc/config.def:408
+ msgid "missing period in PROCEDURE DIVISION (when reference format supports Area A enforcement)"
+-msgstr "saknar punkt i PROCEDURE DIVISION (när referensformatet stödjer Area A-tvingande)"
++msgstr "saknar punkt i PROCEDURE DIVISION (när referensformatet har stöd för Area A-tvingande)"
+ 
+ #: cobc/config.def:411
+ msgid "zero-length literals, e.g. '' and \"\""
 @@ -1158,7 +1158,7 @@
  
  #: cobc/config.def:438
@@ -571,6 +589,15 @@
  
  #: cobc/tree.c:4861
  msgid "RECORD VARYING specified without limits, but implied limits are equal"
+@@ -4725,7 +4725,7 @@
+ #: libcob/screenio.c:4639
+ #, c-format
+ msgid "runtime is not configured to support %s"
+-msgstr "körtiden är inte konfigurerad att stödja %s"
++msgstr "körtiden är inte konfigurerad att ge stöd för %s"
+ 
+ #: cobc/tree.c:5474
+ #, c-format
 @@ -4755,12 +4755,12 @@
  #: cobc/tree.c:5646 cobc/tree.c:5676
  #, c-format

@@ -859,7 +859,7 @@ msgstr "Strängen refererar till en skalvariabel med ett namn utanför ASCII."
 
 #: src/format-sh.c:78
 msgid "The string refers to a shell variable with complex shell brace syntax. This syntax is unsupported here due to security reasons."
-msgstr "Strängen refererar till en skalvariabel med komplex skalklammersyntax.  Denna syntax stödjs inte här av säkerhetsskäl."
+msgstr "Strängen refererar till en skalvariabel med komplex skalklammersyntax.  Denna syntax kan inte användas här av säkerhetsskäl."
 
 #: src/format-sh.c:80
 msgid "The string refers to a shell variable whose value may be different inside shell functions."
@@ -876,7 +876,7 @@ msgstr "Strängen avslutas mitt i en styrsekvens."
 #: src/format-sh-printf.c:344
 #, c-format
 msgid "The escape sequence '%c%c' is unsupported (not in POSIX)."
-msgstr "Styrsekvensen ”%c%c” stödjs inte (inte i POSIX)."
+msgstr "Styrsekvensen ”%c%c” kan inte användas (inte i POSIX)."
 
 #: src/format-sh-printf.c:345
 #, c-format
@@ -2853,7 +2853,7 @@ msgstr "infilen saknar en huvudrad som anger teckenuppsättning"
 #: src/xgettext.c:926 src/x-python.c:622
 #, c-format
 msgid "Cannot convert from \"%s\" to \"%s\". %s relies on iconv(), and iconv() does not support this conversion."
-msgstr "Kan inte konvertera från ”%s” till ”%s”.  %s beror på iconv(), och iconv() stödjer inte denna konvertering."
+msgstr "Kan inte konvertera från ”%s” till ”%s”.  %s beror på iconv(), och iconv() har inte stöd för denna konvertering."
 
 #: src/msgl-iconv.c:348
 #, c-format
@@ -3812,7 +3812,7 @@ msgstr "för många startparenteser"
 #: src/x-c.c:1126
 #, c-format
 msgid "hexadecimal escape sequence in wide string literal is unsupported; use \\u instead of \\x if you meant to designate a Unicode character"
-msgstr "hexadecimal styrsekvens i en bred litteral stödjs inte; använd \\u istället för \\x om du avsåg att beteckna ett Unicode-tecken"
+msgstr "hexadecimal styrsekvens i en bred litteral kan inte användas; använd \\u istället för \\x om du avsåg att beteckna ett Unicode-tecken"
 
 #: src/x-c.c:1130 src/x-scheme.c:770 src/x-scheme.c:826 src/x-vala.c:557
 #, c-format
@@ -3828,7 +3828,7 @@ msgstr "ogiltigt Unicodetecken"
 #: src/x-c.c:1423
 #, c-format
 msgid "a double-quote in the delimiter of a raw string literal is unsupported"
-msgstr "ett dubbelt citattecken i avgränsaren av en rå stränglitteral stödjs inte"
+msgstr "ett dubbelt citattecken i avgränsaren av en rå stränglitteral kan inte användas"
 
 #: src/x-c.c:1498
 #, c-format
@@ -3940,7 +3940,7 @@ msgstr "för många startparenteser, -hakparenteser eller -klamrar"
 #: src/x-typescript-impl.h:997
 #, c-format
 msgid "file \"%s\" is unsupported because too large"
-msgstr "filen ”%s” stödjs inte eftersom den är för stor"
+msgstr "filen ”%s” kan inte användas eftersom den är för stor"
 
 #: src/x-d.c:1780
 #, c-format
@@ -4770,7 +4770,7 @@ msgstr "felaktig RSJ-syntax"
 #: src/x-rst.c:678
 #, c-format
 msgid "invalid RSJ version. Only version 1 is supported."
-msgstr "felaktig RSJ-version.  Endast version 1 stödjs."
+msgstr "felaktig RSJ-version.  Endast version 1 kan användas."
 
 #: src/x-ruby.c:91
 #, c-format
@@ -4810,7 +4810,7 @@ msgstr "för djupt nästad kommandolista"
 #: src/x-typescript-impl.h:1003
 #, c-format
 msgid "file \"%s\" is unsupported because not UTF-8 encoded"
-msgstr "filen ”%s” stödjs inte eftersom den inte är UTF-8-kodad"
+msgstr "filen ”%s” kan inte användas eftersom den inte är UTF-8-kodad"
 
 #: src/x-vala.c:689
 #, c-format

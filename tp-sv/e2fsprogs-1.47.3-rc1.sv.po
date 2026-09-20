@@ -962,7 +962,7 @@ msgstr "Antalet inoder i superblocket är %i, ska vara %j.\n"
 
 #: e2fsck/problem.c:198
 msgid "The Hurd does not support the filetype feature.\n"
-msgstr "Hurd stödjer inte funktionen filtyp.\n"
+msgstr "Hurd har inte stöd för funktionen filtyp.\n"
 
 #. @-expanded: superblock has an invalid journal (inode %i).\n
 #: e2fsck/problem.c:204
@@ -988,7 +988,7 @@ msgstr "Extern journal har dåligt superblock\n"
 #. @-expanded: External journal does not support this filesystem\n
 #: e2fsck/problem.c:224
 msgid "External @j does not support this @f\n"
-msgstr "Extern journal stödjer inte detta filsystem\n"
+msgstr "Extern journal har inte stöd för detta filsystem\n"
 
 #. @-expanded: filesystem journal superblock is unknown type %N (unsupported).\n
 #. @-expanded: It is likely that your copy of e2fsck is old and/or doesn't support this journal 
@@ -3649,7 +3649,7 @@ msgstr "Endast en av flaggorna -p/-a, -n eller -y kan anges."
 #: e2fsck/unix.c:922
 #, c-format
 msgid "The -t option is not supported on this version of e2fsck.\n"
-msgstr "Flaggan -t stödjs inte i denna version av e2fsck.\n"
+msgstr "Flaggan -t kan inte användas i denna version av e2fsck.\n"
 
 #: e2fsck/unix.c:954 e2fsck/unix.c:1032 misc/dumpe2fs.c:679
 #: misc/e2initrd_helper.c:331 misc/tune2fs.c:1936 misc/tune2fs.c:2236
@@ -5021,7 +5021,7 @@ msgstr "vid försök att konvertera qcow2-avbild (%s) till rå avbild (%s)"
 
 #: misc/e2image.c:1713
 msgid "The -c option only supported in raw mode\n"
-msgstr "Flaggan -c stödjs endast i raw-läge\n"
+msgstr "Flaggan -c kan endast användas i raw-läge\n"
 
 #: misc/e2image.c:1718
 msgid "The -c option not supported when writing to stdout\n"
@@ -5033,7 +5033,7 @@ msgstr "när check_buf allokerades"
 
 #: misc/e2image.c:1731
 msgid "The -p option only supported in raw mode\n"
-msgstr "Flaggan -p stödjs endast i raw-läge\n"
+msgstr "Flaggan -p kan endast användas i raw-läge\n"
 
 #: misc/e2image.c:1741
 #, c-format
@@ -5414,15 +5414,15 @@ msgstr "kan inte ställa in diskcachestorleken till"
 
 #: misc/fuse2fs.c:4430
 msgid "quotas not supported."
-msgstr "kvoter stödjs inte."
+msgstr "kvoter kan inte användas."
 
 #: misc/fuse2fs.c:4434
 msgid "verity not supported."
-msgstr "verity stödjs inte."
+msgstr "verity kan inte användas."
 
 #: misc/fuse2fs.c:4438
 msgid "encryption not supported."
-msgstr "kryptering stödjs inte."
+msgstr "kryptering kan inte användas."
 
 #: misc/fuse2fs.c:4442
 msgid "casefolding not supported."
@@ -6161,15 +6161,15 @@ msgstr "HURD stöder inte funktionen filetype.\n"
 
 #: misc/mke2fs.c:2245
 msgid "The HURD does not support the huge_file feature.\n"
-msgstr "HURD stödjer inte funktionen huge_file.\n"
+msgstr "HURD har inte stöd för funktionen huge_file.\n"
 
 #: misc/mke2fs.c:2250
 msgid "The HURD does not support the metadata_csum feature.\n"
-msgstr "HURD stödjer inte funktionen metadata_csum.\n"
+msgstr "HURD har inte stöd för funktionen metadata_csum.\n"
 
 #: misc/mke2fs.c:2255
 msgid "The HURD does not support the ea_inode feature.\n"
-msgstr "HURD stödjer inte funktionen ea_inode.\n"
+msgstr "HURD har inte stöd för funktionen ea_inode.\n"
 
 #: misc/mke2fs.c:2265
 msgid "while trying to determine hardware sector size"
@@ -6309,7 +6309,7 @@ msgstr "%d-byteinoder är för små för projektkvoter"
 
 #: misc/mke2fs.c:2684
 msgid "Can't support bigalloc feature without extents feature"
-msgstr "Kan inte stödja funktionen bigalloc utan funktionen utsträckningar"
+msgstr "Kan inte ge stöd för funktionen bigalloc utan funktionen utsträckningar"
 
 #: misc/mke2fs.c:2691
 msgid ""
@@ -6803,7 +6803,7 @@ msgid ""
 "Setting filesystem feature 'sparse_super' not supported\n"
 "for filesystems with the meta_bg feature enabled.\n"
 msgstr ""
-"Att sätta filsystemsfunktionen ”sparse_super” stödjs inte\n"
+"Att sätta filsystemsfunktionen ”sparse_super” kan inte användas\n"
 "för filsystem med funktionen meta_bg aktiverad.\n"
 
 #: misc/tune2fs.c:1289
@@ -6938,7 +6938,7 @@ msgid ""
 "Setting feature 'metadata_csum_seed' is only supported\n"
 "on filesystems with the metadata_csum feature enabled.\n"
 msgstr ""
-"Att sätta funktionen ”metadata_csum_seed” stödjs bara\n"
+"Att sätta funktionen ”metadata_csum_seed” kan bara användas\n"
 "för filsystem med funktionen metadata_csum aktiverad.\n"
 
 #: misc/tune2fs.c:1654
@@ -7248,7 +7248,7 @@ msgstr "Inodsstorleken är redan %lu\n"
 
 #: misc/tune2fs.c:3293
 msgid "Shrinking inode size is not supported\n"
-msgstr "Att krympa inodsstorleken stödjs inte\n"
+msgstr "Att krympa inodsstorleken kan inte användas\n"
 
 #: misc/tune2fs.c:3298
 #, c-format
@@ -7916,7 +7916,7 @@ msgstr "Inte tillräckligt med reserverade gdt-block för storleksändring"
 
 #: resize/online.c:129
 msgid "Kernel does not support resizing a file system this large"
-msgstr "Kärnan stödjer inte ändring av storlek på så stora filsystem"
+msgstr "Kärnan har inte stöd för ändring av storlek på så stora filsystem"
 
 #: resize/online.c:137
 #, c-format
@@ -7938,7 +7938,7 @@ msgstr "Vid kontroll av stöd för storleksändring uppkopplat"
 
 #: resize/online.c:181
 msgid "Kernel does not support online resizing"
-msgstr "Kärnan stödjer inte storleksändring uppkopplat"
+msgstr "Kärnan har inte stöd för storleksändring uppkopplat"
 
 #: resize/online.c:220
 #, c-format
@@ -8258,11 +8258,11 @@ msgstr "Inoden är från ett dåligt block i inodstabellen"
 
 #: lib/ext2fs/ext2_err.c:78
 msgid "Filesystem has unsupported feature(s)"
-msgstr "Filsystemet har funktioner som inte stödjs"
+msgstr "Filsystemet har funktioner som inte kan användas"
 
 #: lib/ext2fs/ext2_err.c:79
 msgid "Filesystem has unsupported read-only feature(s)"
-msgstr "Filsystemet har endast-läsbart-funktioner som inte stödjs"
+msgstr "Filsystemet har endast-läsbart-funktioner som inte kan användas"
 
 #: lib/ext2fs/ext2_err.c:80
 msgid "IO Channel failed to seek on read or write"
@@ -8506,7 +8506,7 @@ msgstr "Ingen aktuell nod"
 
 #: lib/ext2fs/ext2_err.c:140
 msgid "Ext2fs operation not supported"
-msgstr "Ext2fs-operationen stödjs inte"
+msgstr "Ext2fs-operationen kan inte användas"
 
 #: lib/ext2fs/ext2_err.c:141
 msgid "No room to insert extent in node"
@@ -8522,7 +8522,7 @@ msgstr "Utsträckningen hittades inte"
 
 #: lib/ext2fs/ext2_err.c:144
 msgid "Operation not supported for inodes containing extents"
-msgstr "Operationen stödjs inte för inoder som innehåller utsträckningar"
+msgstr "Operationen kan inte användas för inoder som innehåller utsträckningar"
 
 #: lib/ext2fs/ext2_err.c:145
 msgid "Extent length is invalid"
@@ -8718,7 +8718,7 @@ msgstr "Hittade en cyklisk slinga i utsträckningsträdet"
 
 #: lib/ext2fs/ext2_err.c:193
 msgid "Operation not supported on an external journal"
-msgstr "Åtgärden stödjs inte på en extern journal"
+msgstr "Åtgärden kan inte användas på en extern journal"
 
 #: lib/support/prof_err.c:11
 msgid "Profile version 0.0"

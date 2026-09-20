@@ -102,7 +102,7 @@
  
  #, c-format
  msgid "%s at %s (folder %s)"
-@@ -352,59 +356,59 @@
+@@ -352,71 +356,71 @@
  
  #, c-format
  msgid "Too many mails skipped (%d > %d) due to transient errors for %s\n"
@@ -176,6 +176,21 @@
  
  #, c-format
  msgid "Option --flush is not supported with %s\n"
+-msgstr "Flaggan --flush stödjs inte med %s\n"
++msgstr "Flaggan --flush kan inte användas med %s\n"
+ 
+ #, c-format
+ msgid "Option --all is not supported with %s\n"
+-msgstr "Flaggan --all stödjs inte med %s\n"
++msgstr "Flaggan --all kan inte användas med %s\n"
+ 
+ #, c-format
+ msgid "Option --limit is not supported with %s\n"
+-msgstr "Flaggan --limit stödjs inte med %s\n"
++msgstr "Flaggan --limit kan inte användas med %s\n"
+ 
+ #, c-format
+ msgid ""
 @@ -479,15 +483,15 @@
  
  #, c-format
@@ -204,6 +219,27 @@
  
  #, c-format
  msgid "Unable to queue messages for node %s\n"
+@@ -516,16 +520,16 @@
+ msgstr "Okänt ETRN-fel %d\n"
+ 
+ msgid "Option --keep is not supported with ETRN\n"
+-msgstr "Flaggan --keep stödjs inte med ETRN\n"
++msgstr "Flaggan --keep kan inte användas med ETRN\n"
+ 
+ msgid "Option --flush is not supported with ETRN\n"
+-msgstr "Flaggan --flush stödjs inte med ETRN\n"
++msgstr "Flaggan --flush kan inte användas med ETRN\n"
+ 
+ msgid "Option --folder is not supported with ETRN\n"
+-msgstr "Flaggan --folder stödjs inte med ETRN\n"
++msgstr "Flaggan --folder kan inte användas med ETRN\n"
+ 
+ msgid "Option --check is not supported with ETRN\n"
+-msgstr "Flaggan --check stödjs inte med ETRN\n"
++msgstr "Flaggan --check kan inte användas med ETRN\n"
+ 
+ #, c-format
+ msgid ""
 @@ -546,9 +550,9 @@
  "are welcome to redistribute it under certain conditions. For details,\n"
  "please see the file COPYING in the source or documentation directory.\n"
@@ -1333,8 +1369,24 @@
  
  msgid "You have no mail.\n"
  msgstr "Du har ingen post.\n"
-@@ -1706,7 +1710,7 @@
- msgstr "Flaggan --check stödjs inte med ODMR\n"
+@@ -1694,19 +1698,19 @@
+ msgstr "tar emot meddelandedata\n"
+ 
+ msgid "Option --keep is not supported with ODMR\n"
+-msgstr "Flaggan --keep stödjs inte med ODMR\n"
++msgstr "Flaggan --keep kan inte användas med ODMR\n"
+ 
+ msgid "Option --flush is not supported with ODMR\n"
+-msgstr "Flaggan --flush stödjs inte med ODMR\n"
++msgstr "Flaggan --flush kan inte användas med ODMR\n"
+ 
+ msgid "Option --folder is not supported with ODMR\n"
+-msgstr "Flaggan --folder stödjs inte med ODMR\n"
++msgstr "Flaggan --folder kan inte användas med ODMR\n"
+ 
+ msgid "Option --check is not supported with ODMR\n"
+-msgstr "Flaggan --check stödjs inte med ODMR\n"
++msgstr "Flaggan --check kan inte användas med ODMR\n"
  
  msgid "server recv fatal\n"
 -msgstr "server mottog ödesdigert\n"
@@ -1541,7 +1593,7 @@
  
  msgid "\t\t\t   NOTE: all using same name and password!\n"
  msgstr "\t\t\t   OBSERVERA: alla använder samma namn och lösenord!\n"
-@@ -1935,49 +1939,49 @@
+@@ -1935,61 +1939,61 @@
  msgstr "      --fetchdomains hämta post för angivna domäner\n"
  
  msgid "  -D, --smtpaddress set SMTP delivery domain to use\n"
@@ -1603,8 +1655,14 @@
  
  msgid "      --showdots    show progress dots even in logfiles\n"
  msgstr "      --showdots    visa förloppspunkter även i loggfiler\n"
-@@ -1989,7 +1993,7 @@
- msgstr "POP2 stödjer endast lösenordsautentisering.  Ger upp.\n"
+ 
+ msgid "POP2 does not support STLS. Giving up.\n"
+-msgstr "POP2 stödjer inte STLS.  Ger upp.\n"
++msgstr "POP2 har inte stöd för STLS.  Ger upp.\n"
+ 
+ msgid "POP2 only supports password authentication. Giving up.\n"
+-msgstr "POP2 stödjer endast lösenordsautentisering.  Ger upp.\n"
++msgstr "POP2 har endast stöd för lösenordsautentisering.  Ger upp.\n"
  
  msgid "Warning: \"Maillennium POP3\" found, using RETR command instead of TOP.\n"
 -msgstr "Varning: ”Maillennium POP3” funnen, använder RETR-kommando istället för TOP.\n"
@@ -1643,7 +1701,14 @@
  
  msgid "protocol error\n"
  msgstr "protokollfel\n"
-@@ -2052,7 +2056,7 @@
+@@ -2046,29 +2050,29 @@
+ msgstr "id=%s (nr=%d) raderades, men är fortfarande kvar!\n"
+ 
+ msgid "Option --folder is not supported with POP3\n"
+-msgstr "Flaggan --folder stödjs inte med POP3\n"
++msgstr "Flaggan --folder kan inte användas med POP3\n"
+ 
+ msgid "end of input"
  msgstr "slut på indata"
  
  msgid "server option after user options"
@@ -1652,8 +1717,10 @@
  
  msgid "SDPS not enabled."
  msgstr "SDPS är inte aktiverat."
-@@ -2061,14 +2065,14 @@
- msgstr "fetchmail: gränssnittsflaggan stödjs endast under Linux (utan IPv6) och FreeBSD\n"
+ 
+ msgid "fetchmail: interface option is only supported under Linux (without IPv6) and FreeBSD\n"
+-msgstr "fetchmail: gränssnittsflaggan stödjs endast under Linux (utan IPv6) och FreeBSD\n"
++msgstr "fetchmail: gränssnittsflaggan kan endast användas under Linux (utan IPv6) och FreeBSD\n"
  
  msgid "fetchmail: monitor option is only supported under Linux (without IPv6) and FreeBSD\n"
 -msgstr "fetchmail: flaggan monitor stödjs endast under Linux (utan IPv6) och FreeBSD\n"

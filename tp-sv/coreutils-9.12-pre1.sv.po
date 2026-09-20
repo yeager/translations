@@ -153,7 +153,7 @@ msgstr "Okänt systemfel"
 
 #: lib/gai_strerror.c:57
 msgid "Address family for hostname not supported"
-msgstr "Adressfamiljen för värdnamnet stödjs inte"
+msgstr "Adressfamiljen för värdnamnet kan inte användas"
 
 #: lib/gai_strerror.c:58
 msgid "Temporary failure in name resolution"
@@ -169,7 +169,7 @@ msgstr "Oreparabelt fel i namnuppslagning"
 
 #: lib/gai_strerror.c:61
 msgid "ai_family not supported"
-msgstr "ai_family stödjs inte"
+msgstr "ai_family kan inte användas"
 
 #: lib/gai_strerror.c:62
 msgid "Memory allocation failure"
@@ -185,11 +185,11 @@ msgstr "Namn eller tjänst okänd"
 
 #: lib/gai_strerror.c:65
 msgid "Servname not supported for ai_socktype"
-msgstr "Servname stödjs inte för ai_socktype"
+msgstr "Servname kan inte användas för ai_socktype"
 
 #: lib/gai_strerror.c:66
 msgid "ai_socktype not supported"
-msgstr "ai_socktype stödjs inte"
+msgstr "ai_socktype kan inte användas"
 
 #: lib/gai_strerror.c:67
 msgid "System error"
@@ -2579,7 +2579,7 @@ msgstr "felaktig längd"
 #: src/cksum.c:1703
 #, c-format
 msgid "--length is only supported with --algorithm blake2b, sha2, or sha3"
-msgstr "--length stödjs endast med --algorithm blake2b, sha2 eller sha3"
+msgstr "--length kan endast användas med --algorithm blake2b, sha2 eller sha3"
 
 #: src/cksum.c:1709
 #, c-format
@@ -2609,7 +2609,7 @@ msgstr "längden är inte en multipel av 8"
 #: src/cksum.c:1768
 #, c-format
 msgid "--check is not supported with --algorithm={bsd,sysv,crc,crc32b}"
-msgstr "--check stödjs inte med --algorithm={bsd,sysv,crc,crc32b}"
+msgstr "--check kan inte användas med --algorithm={bsd,sysv,crc,crc32b}"
 
 #: src/cksum.c:1775
 #, c-format
@@ -2619,7 +2619,7 @@ msgstr "--base64 och --raw är ömsesidigt uteslutande"
 #: src/cksum.c:1782
 #, c-format
 msgid "the --zero option is not supported when verifying checksums"
-msgstr "flaggan --zero stödjs inte när kontrollsummor verifieras"
+msgstr "flaggan --zero kan inte användas när kontrollsummor verifieras"
 
 #: src/cksum.c:1790
 #, c-format
@@ -2659,17 +2659,17 @@ msgstr "flaggan --strict är meningsfull enbart när kontrollsummor verifieras"
 #: src/cksum.c:1849
 #, c-format
 msgid "--tag does not support --text mode"
-msgstr "--tag stödjer inte läget --text"
+msgstr "--tag har inte stöd för läget --text"
 
 #: src/cksum.c:1851
 #, c-format
 msgid "--text mode is only supported with --untagged"
-msgstr "läget --text stödjs endast med --untagged"
+msgstr "läget --text kan endast användas med --untagged"
 
 #: src/cksum.c:1866
 #, c-format
 msgid "the --raw option is not supported with multiple files"
-msgstr "flaggan --raw stödjs inte med flera filer"
+msgstr "flaggan --raw kan inte användas med flera filer"
 
 #: src/cksum_crc.c:151
 msgid "using pclmul hardware support"
@@ -3536,7 +3536,7 @@ msgstr ""
 "Som standard eller med --reflink=auto kommer cp försöka med en\n"
 "lättviktskopiering, där datablocken endast kopieras när de ändras, och\n"
 "faller tillbaka till en standardkopiering om detta inte är möjligt.\n"
-"Med --reflink[=always] kommer cp misslyckas om CoW inte stödjs, medan\n"
+"Med --reflink[=always] kommer cp misslyckas om CoW inte kan användas, medan\n"
 "--reflink=never säkerställer att en standardkopiering görs.\n"
 
 #: src/cp.c:339
@@ -5888,7 +5888,7 @@ msgstr "felaktig sekvens ”\\%c” i -S"
 #: src/env.c:730
 #, c-format
 msgid "only ${VARNAME} expansion is supported, error at: %s"
-msgstr "endast expansion av ${VARNAMN} stödjs, fel vid: %s"
+msgstr "endast expansion av ${VARNAMN} kan användas, fel vid: %s"
 
 #: src/env.c:737
 #, c-format
@@ -7507,7 +7507,7 @@ msgid ""
 msgstr ""
 "  -d, -F, --directory\n"
 "         tillåt superanvändaren att försöka skapa hårda länkar till kataloger,\n"
-"         om det stödjs av systemet\n"
+"         om systemet har stöd för det\n"
 
 #: src/ln.c:454
 msgid ""
@@ -8442,12 +8442,12 @@ msgstr "Fifo:er har inte övre och undre enhetsnummer."
 #: src/mknod.c:216
 #, c-format
 msgid "block special files not supported"
-msgstr "blockspecialfiler stödjs inte"
+msgstr "blockspecialfiler kan inte användas"
 
 #: src/mknod.c:225
 #, c-format
 msgid "character special files not supported"
-msgstr "teckenspecialfiler stödjs inte"
+msgstr "teckenspecialfiler kan inte användas"
 
 #: src/mknod.c:238
 #, c-format
@@ -9221,7 +9221,7 @@ msgid ""
 "Multiple fields/ranges can be separated with commas\n"
 msgstr ""
 "\n"
-"FÄLT stödjer fältintervall i stilen för cut(1):\n"
+"FÄLT har stöd för fältintervall i stilen för cut(1):\n"
 "  N     N:e fältet, räknat från 1\n"
 "  N-    från N:e fältet, till radslut\n"
 "  N-M   från N:e till och med M:e fältet\n"
@@ -9724,7 +9724,7 @@ msgstr "ingen typ kan anges när strängar skrivs ut"
 
 #: src/od.c:1952
 msgid "compatibility mode supports at most one file"
-msgstr "kompatibilitetsläge stödjer högst en fil"
+msgstr "kompatibilitetsläge har stöd för högst en fil"
 
 # "skip-bytes" och "read-bytes" är flaggor
 #: src/od.c:1971
@@ -9767,7 +9767,7 @@ msgid ""
 msgstr ""
 "  -d, --delimiters=LISTA\n"
 "         återanvänd tecken från LISTA istället för TAB;\n"
-"         styrsekvenser med omvänt snedstreck stödjs\n"
+"         styrsekvenser med omvänt snedstreck kan användas\n"
 
 #: src/paste.c:472
 msgid ""
@@ -10414,7 +10414,7 @@ msgid ""
 "  %b          '%bfoo' 'bar\\cbaz' qux      bar\n"
 "  %q          '%q ' 'a' \\;b $'c\\n'        a ';b' 'c'$'\\n'\n"
 msgstr ""
-"Följande tabell visar de konverteringsspecifikationer som stödjs,\n"
+"Följande tabell visar de konverteringsspecifikationer som kan användas,\n"
 "med exempel inklusive användning av bredd, precision och flaggor.\n"
 "\n"
 "  KONVERTERING Skalformatexempel           Utskrift\n"
@@ -11797,7 +11797,7 @@ msgid ""
 msgstr ""
 "  -n, --numeric-sort\n"
 "         jämför enligt strängens numeriska värde;\n"
-"         se den fullständiga dokumentationen för vilka strängar som stödjs\n"
+"         se den fullständiga dokumentationen för vilka strängar som kan användas\n"
 
 #: src/sort.c:480
 msgid ""
@@ -13730,7 +13730,7 @@ msgstr ""
 "\n"
 "Ditt skal kan ha sin egen version av %s, som ofta ersätter versionen som\n"
 "beskrivs här.  Se dokumentationen för ditt skal för detaljer om flaggorna det\n"
-"stödjer.\n"
+"har stöd för.\n"
 
 #: src/system.h:383
 msgid ""
@@ -14305,7 +14305,7 @@ msgstr "varning: --retry har endast effekt för det ursprungliga öppnandet"
 #: src/tail.c:2306
 #, c-format
 msgid "warning: --pid=PID is not supported on this system"
-msgstr "varning: --pid=PID stödjs inte på detta system"
+msgstr "varning: --pid=PID kan inte användas på detta system"
 
 #: src/tail.c:2410
 #, c-format

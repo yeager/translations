@@ -116,7 +116,7 @@
  
  #: find/parser.c:2119
  #, c-format
-@@ -287,7 +287,7 @@
+@@ -287,27 +287,27 @@
  #: find/parser.c:2547
  #, c-format
  msgid "Arguments to %s should contain at least one letter"
@@ -125,7 +125,16 @@
  
  #: find/parser.c:2612
  #, c-format
-@@ -302,7 +302,7 @@
+ msgid "%s %c is not supported because symbolic links are not supported on the platform find was compiled on."
+-msgstr "%s %c stödjs inte eftersom symboliska länkar inte stödjs på plattformen där find kompilerades."
++msgstr "%s %c kan inte användas eftersom symboliska länkar inte kan användas på plattformen där find kompilerades."
+ 
+ #: find/parser.c:2624
+ #, c-format
+ msgid "%s %c is not supported because FIFOs are not supported on the platform find was compiled on."
+-msgstr "%s %c stödjs inte eftersom FIFO:er inte stödjs på plattformen där find kompilerades."
++msgstr "%s %c kan inte användas eftersom FIFO:er inte kan användas på plattformen där find kompilerades."
+ 
  #: find/parser.c:2636
  #, c-format
  msgid "%s %c is not supported because named sockets are not supported on the platform find was compiled on."
@@ -133,6 +142,12 @@
 +msgstr "%s %c stöds inte eftersom socketar inte stöds på plattformen där find kompilerades."
  
  #: find/parser.c:2652
+ #, c-format
+ msgid "%s %c is not supported because Solaris doors are not supported on the platform find was compiled on."
+-msgstr "%s %c stödjs inte eftersom Solaris-dörrar inte stödjs på plattformen där find kompilerades."
++msgstr "%s %c kan inte användas eftersom Solaris-dörrar inte kan användas på plattformen där find kompilerades."
+ 
+ #: find/parser.c:2660
  #, c-format
 @@ -317,27 +317,27 @@
  #: find/parser.c:2668

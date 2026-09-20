@@ -147,7 +147,7 @@
  "                         namngivna funktionen.\n"
  "      -r  tangentsekv    Ta bort bindningen för TANGENTSEKV.\n"
  "      -f  filnamn        Läs tangentbindningar från FILNAMN.\n"
-@@ -2833,13 +2833,13 @@
+@@ -2833,19 +2833,19 @@
  "    katalognamn är detsamma som aktuell katalog.  Om KAT börjar med ett\n"
  "    snedstreck (/) används inte CDPATH.\n"
  "    \n"
@@ -163,6 +163,13 @@
  "        -P\tanvänd den fysiska katalogstrukturen utan att följa\n"
  "    \tsymboliska länkar: lös upp symboliska länkar i KAT före behandling av\n"
  "    \t”..”\n"
+ "        -e\tom flaggan -P ges, och det inte går att avgöra den aktuella\n"
+ "    \tkatalogen, returnera då med status skild från noll\n"
+-"        -@  på system som stödjer det, presentera en fil med utökade attribut\n"
++"        -@  på system som har stöd för det, presentera en fil med utökade attribut\n"
+ "            som en katalog som innehåller filattributen\n"
+ "    \n"
+ "    Standardvärde är att följa symboliska länkar, som om ”-L” vore angivet.\n"
 @@ -3006,7 +3006,7 @@
  "    attributen och värdena på alla variabler.\n"
  "    \n"

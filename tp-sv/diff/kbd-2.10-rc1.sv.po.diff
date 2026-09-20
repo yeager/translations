@@ -389,7 +389,13 @@
  
  #: src/libkeymap/parser.y:265
  #, c-format
-@@ -747,7 +747,7 @@
+@@ -742,12 +742,12 @@
+ #: src/libkeymap/summary.c:91
+ #, c-format
+ msgid "keycode range supported by kernel:           1 - %d\n"
+-msgstr "tangentkodsintervall som stödjs av kärnan:        1 - %d\n"
++msgstr "tangentkodsintervall som kan användas av kärnan:        1 - %d\n"
+ 
  #: src/libkeymap/summary.c:93
  #, c-format
  msgid "max number of actions bindable to a key:         %d\n"
@@ -398,7 +404,7 @@
  
  #: src/libkeymap/summary.c:95
  #, c-format
-@@ -762,7 +762,7 @@
+@@ -762,12 +762,12 @@
  #: src/libkeymap/summary.c:101
  #, c-format
  msgid "ranges of action codes supported by kernel:\n"
@@ -407,6 +413,21 @@
  
  #: src/libkeymap/summary.c:107
  #, c-format
+ msgid "number of function keys supported by kernel: %d\n"
+-msgstr "antal funktionstangenter som stödjs av kärnan: %d\n"
++msgstr "antal funktionstangenter som kan användas av kärnan: %d\n"
+ 
+ #: src/libkeymap/summary.c:109
+ #, c-format
+@@ -810,7 +810,7 @@
+ 
+ #: src/libkfont/kdfontop.c:226
+ msgid "tall font not supported"
+-msgstr "höga typsnitt stödjs ej"
++msgstr "höga typsnitt kan användas ej"
+ 
+ #: src/libkfont/kdfontop.c:242
+ msgid "Unable to load such font with such kernel version"
 @@ -847,7 +847,7 @@
  #: src/libkfont/loadunimap.c:236
  #, c-format
