@@ -1,0 +1,267 @@
+--- a/texinfo_document-7.2.90.sv.po
++++ b/texinfo_document-7.2.90.sv.po
+@@ -54,7 +54,7 @@
+ #. TRANSLATORS: category of user-modifiable options for @defopt
+ #: tta/perl/Texinfo/Common.pm:359 tta/C/main/utils.c:103
+ msgid "User Option"
+-msgstr "Användarinställning"
++msgstr "Användaralternativ"
+ 
+ #: tta/perl/Texinfo/Common.pm:362 tta/C/main/utils.c:105
+ msgctxt "category of functions for @deftypefun"
+@@ -69,12 +69,12 @@
+ #: tta/perl/Texinfo/Common.pm:368 tta/C/main/utils.c:111
+ msgctxt "category of instance variables in object-oriented programming for @defivar"
+ msgid "Instance Variable"
+-msgstr "Instantsvariabel"
++msgstr "Instansvariabel"
+ 
+ #: tta/perl/Texinfo/Common.pm:371 tta/C/main/utils.c:114
+ msgctxt "category of instance variables with data type in object-oriented programming for @deftypeivar"
+ msgid "Instance Variable"
+-msgstr "Instantsvariabel"
++msgstr "Instansvariabel"
+ 
+ #: tta/perl/Texinfo/Common.pm:374 tta/C/main/utils.c:117
+ msgctxt "category of methods in object-oriented programming for @defmethod"
+@@ -129,7 +129,7 @@
+ #: tta/perl/Texinfo/HTMLData.pm:171 tta/C/main/html_conversion_data.c:151
+ msgctxt "Prev direction string"
+ msgid "Prev"
+-msgstr "Föregånde"
++msgstr "Föregående"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:172 tta/C/main/html_conversion_data.c:152
+ msgctxt "Up direction string"
+@@ -154,12 +154,12 @@
+ #: tta/perl/Texinfo/HTMLData.pm:176 tta/C/main/html_conversion_data.c:156
+ msgctxt "NodeForward direction string"
+ msgid "Forward node"
+-msgstr "Framåt nod"
++msgstr "Framåtnod"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:177 tta/C/main/html_conversion_data.c:157
+ msgctxt "NodeBack direction string"
+ msgid "Back node"
+-msgstr "Bakåt nod"
++msgstr "Bakåtnod"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:178 tta/C/main/html_conversion_data.c:158
+ msgctxt "PrevFile direction string"
+@@ -224,7 +224,7 @@
+ #: tta/perl/Texinfo/HTMLData.pm:194 tta/C/main/html_conversion_data.c:175
+ msgctxt "FastBack direction description"
+ msgid "Beginning of this chapter or previous chapter"
+-msgstr "Början på detta kapitel eller föregående kapitel"
++msgstr "Början av detta kapitel eller föregående kapitel"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:195 tta/C/main/html_conversion_data.c:176
+ msgctxt "Next direction description"
+@@ -269,7 +269,7 @@
+ #: tta/perl/Texinfo/HTMLData.pm:203 tta/C/main/html_conversion_data.c:184
+ msgctxt "PrevFile direction description"
+ msgid "Back section in previous file"
+-msgstr "Bakåt ett avsnitt i nästa fil"
++msgstr "Bakåt ett avsnitt i föregående fil"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:204 tta/C/main/html_conversion_data.c:185
+ msgctxt "NextFile direction description"
+@@ -344,7 +344,7 @@
+ #: tta/perl/Texinfo/HTMLData.pm:222 tta/C/main/html_conversion_data.c:203
+ msgctxt "Prev direction button label"
+ msgid "Prev"
+-msgstr "Föregånde"
++msgstr "Föregående"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:223 tta/C/main/html_conversion_data.c:204
+ msgctxt "Up direction button label"
+@@ -359,22 +359,22 @@
+ #: tta/perl/Texinfo/HTMLData.pm:225 tta/C/main/html_conversion_data.c:206
+ msgctxt "NodePrev direction button label"
+ msgid "NodePrev"
+-msgstr "Föregånde nod"
++msgstr "Föregående nod"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:226 tta/C/main/html_conversion_data.c:207
+ msgctxt "NodeUp direction button label"
+ msgid "NodeUp"
+-msgstr "Nod upp"
++msgstr "Upp en nod"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:227 tta/C/main/html_conversion_data.c:208
+ msgctxt "NodeForward direction button label"
+ msgid "NodeForward"
+-msgstr "Framåt en nod"
++msgstr "Framåtnod"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:228 tta/C/main/html_conversion_data.c:209
+ msgctxt "NodeBack direction button label"
+ msgid "NodeBack"
+-msgstr "Bakåt en nod"
++msgstr "Bakåtnod"
+ 
+ #: tta/perl/Texinfo/HTMLData.pm:229 tta/C/main/html_conversion_data.c:210
+ msgctxt "PrevFile direction button label"
+@@ -499,12 +499,12 @@
+ #: tta/perl/Texinfo/Convert/DocBook.pm:1364
+ #, perl-brace-format
+ msgid "See ``{node_name}'' in @cite{{book}}"
+-msgstr "Se ``{node_name}'' in @cite{{book}}"
++msgstr "Se ``{node_name}'' i @cite{{book}}"
+ 
+ #: tta/perl/Texinfo/Convert/DocBook.pm:1368
+ #, perl-brace-format
+ msgid "see ``{node_name}'' in @cite{{book}}"
+-msgstr "se ``{node_name}'' in @cite{{book}}"
++msgstr "se ``{node_name}'' i @cite{{book}}"
+ 
+ #: tta/perl/Texinfo/Convert/DocBook.pm:1374
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2337
+@@ -535,12 +535,12 @@
+ #: tta/perl/Texinfo/Convert/DocBook.pm:1397
+ #, perl-brace-format
+ msgid "See section ``{section_name}'' in @file{{manual}}"
+-msgstr "Se avsnitt ``{section_name}'' in @file{{manual}}"
++msgstr "Se avsnitt ``{section_name}'' i @file{{manual}}"
+ 
+ #: tta/perl/Texinfo/Convert/DocBook.pm:1401
+ #, perl-brace-format
+ msgid "see section ``{section_name}'' in @file{{manual}}"
+-msgstr "se avsnitt ``{section_name}'' in @file{{manual}}"
++msgstr "se avsnitt ``{section_name}'' i @file{{manual}}"
+ 
+ #: tta/perl/Texinfo/Convert/DocBook.pm:1413
+ #, perl-brace-format
+@@ -613,7 +613,7 @@
+ #: tta/perl/Texinfo/Convert/HTML.pm:3371 tta/C/convert/format_html.c:6111
+ #, perl-brace-format
+ msgid "@{No value for `{value}'@}"
+-msgstr "@{Inget värdet för `{value}'@}"
++msgstr "@{Inget värde för `{value}'@}"
+ 
+ #. TRANSLATORS: quotation author
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:4860
+@@ -629,7 +629,7 @@
+ #: tta/C/convert/format_html.c:2010 tta/C/main/convert_utils.c:319
+ #, perl-brace-format
+ msgid "Appendix {number} {section_title}"
+-msgstr "Appendix {number} {section_title}"
++msgstr "Bilaga {number} {section_title}"
+ 
+ #. TRANSLATORS: numbered section title
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:1664
+@@ -657,7 +657,7 @@
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2070
+ msgid "(outside of any node)"
+-msgstr "(utanför varje annan nod)"
++msgstr "(utanför alla noder)"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2240
+ #, perl-brace-format
+@@ -875,47 +875,47 @@
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2711
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}: {name}{arguments}"
+-msgstr "@tie{}--- {category} om {class}: {name}{arguments}"
++msgstr "@tie{}--- {category} på {class}: {name}{arguments}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2715
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}: {name} {arguments}"
+-msgstr "@tie{}--- {category} om {class}: {name} {arguments}"
++msgstr "@tie{}--- {category} på {class}: {name} {arguments}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2719
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}: {name}"
+-msgstr "@tie{}--- {category} om {class}: {name}"
++msgstr "@tie{}--- {category} på {class}: {name}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2740
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}:@*{type}@*{name}{arguments}"
+-msgstr "@tie{}--- {category} om {class}:@*{type}@*{name}{arguments}"
++msgstr "@tie{}--- {category} på {class}:@*{type}@*{name}{arguments}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2745
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}:@*{type}@*{name} {arguments}"
+-msgstr "@tie{}--- {category} om {class}:@*{type}@*{name} {arguments}"
++msgstr "@tie{}--- {category} på {class}:@*{type}@*{name} {arguments}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2752
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}: {type} {name}{arguments}"
+-msgstr "@tie{}--- {category} om {class}: {type} {name}{arguments}"
++msgstr "@tie{}--- {category} på {class}: {type} {name}{arguments}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2757
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}: {type} {name} {arguments}"
+-msgstr "@tie{}--- {category} om {class}: {type} {name} {arguments}"
++msgstr "@tie{}--- {category} på {class}: {type} {name} {arguments}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2772
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}:@*{type}@*{name}"
+-msgstr "@tie{}--- {category} om {class}:@*{type}@*{name}"
++msgstr "@tie{}--- {category} på {class}:@*{type}@*{name}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2776
+ #, perl-brace-format
+ msgid "@tie{}--- {category} on {class}: {type} {name}"
+-msgstr "@tie{}--- {category} om {class}: {type} {name}"
++msgstr "@tie{}--- {category} på {class}: {type} {name}"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2793
+ #, perl-brace-format
+@@ -1047,26 +1047,26 @@
+ #: tta/perl/Texinfo/Convert/HTML.pm:6342 tta/C/convert/format_html.c:10422
+ #, perl-brace-format
+ msgid "@code{{main_index_entry}}, @emph{See@:} @code{{seeentry}}"
+-msgstr "@code{{main_index_entry}}, @emph{See@:} @code{{seeentry}}"
++msgstr "@code{{main_index_entry}}, @emph{Se@:} @code{{seeentry}}"
+ 
+ #. TRANSLATORS: redirect to another index entry
+ #. TRANSLATORS: @: is discardable and used to avoid a msgfmt error
+ #: tta/perl/Texinfo/Convert/HTML.pm:6349 tta/C/convert/format_html.c:10430
+ #, perl-brace-format
+ msgid "{main_index_entry}, @emph{See@:} {seeentry}"
+-msgstr "{main_index_entry}, @emph{See@:} {seeentry}"
++msgstr "{main_index_entry}, @emph{Se@:} {seeentry}"
+ 
+ #. TRANSLATORS: refer to another index entry
+ #: tta/perl/Texinfo/Convert/HTML.pm:6369 tta/C/convert/format_html.c:10473
+ #, perl-brace-format
+ msgid "@emph{See also} @code{{see_also_entry}}"
+-msgstr "@emph{See also} @code{{see_also_entry}}"
++msgstr "@emph{Se även} @code{{see_also_entry}}"
+ 
+ #. TRANSLATORS: refer to another index entry
+ #: tta/perl/Texinfo/Convert/HTML.pm:6374 tta/C/convert/format_html.c:10480
+ #, perl-brace-format
+ msgid "@emph{See also} {see_also_entry}"
+-msgstr "@emph{See also} {see_also_entry}"
++msgstr "@emph{Se även} {see_also_entry}"
+ 
+ #. TRANSLATORS: before list of letters and symbols grouping index entries
+ #: tta/perl/Texinfo/Convert/HTML.pm:6646 tta/perl/Texinfo/Convert/HTML.pm:6668
+@@ -1091,7 +1091,7 @@
+ #: tta/perl/Texinfo/Convert/HTML.pm:7761 tta/C/convert/format_html.c:12647
+ #, perl-brace-format
+ msgid "{category}:@* "
+-msgstr "{category}:@*  "
++msgstr "{category}:@* "
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:7763 tta/C/convert/format_html.c:12653
+ #, perl-brace-format
+@@ -1150,7 +1150,7 @@
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:12018
+ msgid "  where the @strong{ Example } assumes that the current position is at @strong{ Subsubsection One-Two-Three } of a document of the following structure:"
+-msgstr "  Där @strong{ Exempel } förutsätter att den aktuella positionen är vid  @strong{ Underunderavsnitt Ett-Två-Tree } för ett dokument med följande struktur:"
++msgstr "  där @strong{ Exempel } förutsätter att den aktuella positionen är i @strong{ Underunderavsnitt Ett-Två-Tre } i ett dokument med följande struktur:"
+ 
+ #. TRANSLATORS: example name of section for section 1
+ #: tta/perl/Texinfo/Convert/HTML.pm:12031

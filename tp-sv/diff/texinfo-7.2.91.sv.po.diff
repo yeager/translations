@@ -1,0 +1,2968 @@
+--- a/texinfo-7.2.91.sv.po
++++ b/texinfo-7.2.91.sv.po
+@@ -26,7 +26,7 @@
+ "Dir files used for this node\n"
+ "\n"
+ msgstr ""
+-"Ingen ”%s”-pekare för denna nod\n"
++"Dir-filer som används för denna nod\n"
+ "\n"
+ 
+ #: info/echo-area.c:290 info/session-cmd.c:424
+@@ -63,11 +63,11 @@
+ 
+ #: info/echo-area.c:475
+ msgid "Cancel or quit operation"
+-msgstr "Avbryt eller avsluta operation"
++msgstr "Avbryt eller avsluta åtgärden"
+ 
+ #: info/echo-area.c:490
+ msgid "Accept (or force completion of) this line"
+-msgstr "Acceptera (eller tvinga komplettering av) denna rad"
++msgstr "Acceptera (eller tvinga fram komplettering av) denna rad"
+ 
+ #: info/echo-area.c:495
+ msgid "Insert next character verbatim"
+@@ -75,39 +75,39 @@
+ 
+ #: info/echo-area.c:527
+ msgid "Insert a TAB character"
+-msgstr "Infoga ett TABULATOR-tecken"
++msgstr "Infoga ett tabulatortecken"
+ 
+ #: info/echo-area.c:579
+ msgid "Transpose characters at point"
+-msgstr "Transponera tecken vid punkt"
++msgstr "Byt plats på tecknen vid markören"
+ 
+ #: info/echo-area.c:648
+ msgid "Yank back the contents of the last kill"
+-msgstr "Ryck tillbaka innehållet i det senaste dödandet"
++msgstr "Klistra in innehållet från den senaste urklippningen"
+ 
+ #: info/echo-area.c:655
+ msgid "Kill ring is empty"
+-msgstr "Dödsringen är tom"
++msgstr "Urklippsringen är tom"
+ 
+ #: info/echo-area.c:668
+ msgid "Yank back a previous kill"
+-msgstr "Ryck tillbaka ett tidigare dödande"
++msgstr "Klistra in en tidigare urklippning"
+ 
+ #: info/echo-area.c:701
+ msgid "Kill to the end of the line"
+-msgstr "Döda till slutet på raden"
++msgstr "Klipp ut till slutet av raden"
+ 
+ #: info/echo-area.c:714
+ msgid "Kill to the beginning of the line"
+-msgstr "Döda till början på raden"
++msgstr "Klipp ut till början av raden"
+ 
+ #: info/echo-area.c:726
+ msgid "Kill the word following the cursor"
+-msgstr "Döda ordet efter markören"
++msgstr "Klipp ut ordet efter markören"
+ 
+ #: info/echo-area.c:746
+ msgid "Kill the word preceding the cursor"
+-msgstr "Döda ordet före markören"
++msgstr "Klipp ut ordet före markören"
+ 
+ #: info/echo-area.c:978 info/echo-area.c:1037
+ msgid "No completions"
+@@ -115,7 +115,7 @@
+ 
+ #: info/echo-area.c:980
+ msgid "Not complete"
+-msgstr "Inte fullständig"
++msgstr "Inte komplett"
+ 
+ #: info/echo-area.c:1030
+ msgid "List possible completions"
+@@ -139,7 +139,7 @@
+ #: info/echo-area.c:1274
+ #, c-format
+ msgid "Building completions..."
+-msgstr "Bygger kompletteringar..."
++msgstr "Bygger kompletteringar…"
+ 
+ #: info/echo-area.c:1400
+ msgid "Scroll the completions window"
+@@ -171,7 +171,7 @@
+ 
+ #: info/footnotes.c:251
+ msgid "Show the footnotes associated with this node in another window"
+-msgstr "Visa fotnoterna som är associerade med denna nod i ett annat fönster"
++msgstr "Visa fotnoterna som hör till denna nod i ett annat fönster"
+ 
+ #: info/footnotes.c:268
+ msgid "No footnotes in this node"
+@@ -179,12 +179,12 @@
+ 
+ #: info/footnotes.h:24
+ msgid "---------- Footnotes ----------"
+-msgstr "---------- Fotnoter -----------"
++msgstr "---------- Fotnoter ----------"
+ 
+ #: info/indices.c:144 info/indices.c:985
+ #, c-format
+ msgid "Finding index entries..."
+-msgstr "Söker indexposter..."
++msgstr "Söker indexposter…"
+ 
+ #: info/indices.c:247
+ msgid "Look up a string in the index for this file"
+@@ -247,11 +247,11 @@
+ #: info/indices.c:694
+ #, c-format
+ msgid "Scanning indices of '%s'..."
+-msgstr "Genomsöker index av ”%s”..."
++msgstr "Genomsöker index för ”%s”…"
+ 
+ #: info/indices.c:754
+ msgid "Grovel all known info file's indices for a string and build a menu"
+-msgstr "Gräv i alla kända infofilers index efter en sträng och bygg en meny"
++msgstr "Sök igenom alla kända infofilers index efter en sträng och bygg en meny"
+ 
+ #: info/indices.c:762 info/indices.c:764
+ msgid "Index apropos"
+@@ -268,7 +268,7 @@
+ #: info/indices.c:806
+ #, c-format
+ msgid "Index entries containing '%s':\n"
+-msgstr "Inga indexposter innehåller ”%s”:\n"
++msgstr "Indexposter som innehåller ”%s”:\n"
+ 
+ #: info/indices.c:926
+ #, c-format
+@@ -285,7 +285,7 @@
+ 
+ #: info/indices.c:973
+ msgid "List all matches of a string in the index"
+-msgstr "Lista alla matchningar för en sträng i indexet"
++msgstr "Lista alla träffar för en sträng i indexet"
+ 
+ #: info/indices.c:997 info/indices.c:999
+ msgid "Index topic"
+@@ -307,12 +307,12 @@
+ #: info/indices.h:41
+ #, c-format
+ msgid "No available info files have '%s' in their indices"
+-msgstr "Inga tillgängliga infofiler har ”%s” i deras index"
++msgstr "Inga tillgängliga infofiler har ”%s” i sina index"
+ 
+ #: info/info.c:320 info/session-cmd.c:1968
+ #, c-format
+ msgid "No menu item '%s' in node '%s'"
+-msgstr "Inget menyobjekt ”%s” i noden ”%s”"
++msgstr "Inget menyalternativ ”%s” i noden ”%s”"
+ 
+ #: info/info.c:476 info/info.c:1255
+ #, c-format
+@@ -322,7 +322,7 @@
+ #: info/info.c:498
+ #, c-format
+ msgid "No program name given"
+-msgstr "Inget programnamn angivet"
++msgstr "Inget programnamn angavs"
+ 
+ #: info/info.c:689
+ #, c-format
+@@ -332,7 +332,7 @@
+ #: info/info.c:905
+ #, c-format
+ msgid "malformed variable assignment: %s"
+-msgstr "felaktigt formaterad variabeltilldelning: %s"
++msgstr "felaktig variabeltilldelning: %s"
+ 
+ #: info/info.c:912 info/infokey.c:566
+ #, c-format
+@@ -342,7 +342,7 @@
+ #: info/info.c:918 info/infokey.c:568
+ #, c-format
+ msgid "value %s is not valid for variable %s"
+-msgstr "värde %s är inte giltigt för variabel %s"
++msgstr "värdet %s är inte giltigt för variabeln %s"
+ 
+ #: info/info.c:930
+ #, c-format
+@@ -358,9 +358,9 @@
+ "There is NO WARRANTY, to the extent permitted by law.\n"
+ msgstr ""
+ "Copyright © %s Free Software Foundation, Inc.\n"
+-"Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+-"Det här är fri programvara. Du kan fritt modifiera det och vidaredistribuera den.\n"
+-"Det finns INGEN GARANTI, i den omfattning som medges av gällande lag.\n"
++"Licens GPLv3+: GNU GPL version 3 eller senare <https://gnu.org/licenses/gpl.html>\n"
++"Detta är fri programvara: du får ändra och vidaredistribuera den.\n"
++"Det finns INGEN GARANTI, i den utsträckning lagen tillåter.\n"
+ 
+ #: info/info.c:1126
+ #, c-format
+@@ -374,13 +374,13 @@
+ "\n"
+ "Read documentation in Info format.\n"
+ msgstr ""
+-"Användning: %s [FLAGGA]... [MENYPOST...]\n"
++"Användning: %s [FLAGGA]... [MENYALTERNATIV...]\n"
+ "\n"
+ "Läs dokumentation i Info-format.\n"
+ 
+ #: info/info.c:1176
+ msgid "Frequently-used options:"
+-msgstr "Ofta använda alternativ:"
++msgstr "Ofta använda flaggor:"
+ 
+ #: info/info.c:1177
+ msgid "  -a, --all                    use all matching manuals"
+@@ -392,31 +392,31 @@
+ 
+ #: info/info.c:1179
+ msgid "  -d, --directory=DIR          add DIR to INFOPATH"
+-msgstr "  -d, --directory=KAT          lägg till KAT till INFOSÖKVÄG"
++msgstr "  -d, --directory=KAT          lägg till KAT i INFOPATH"
+ 
+ #: info/info.c:1180
+ msgid "  -f, --file=MANUAL            specify Info manual to visit"
+-msgstr "  -f, --file=MANUAL            specificera informationsmanual att besöka"
++msgstr "  -f, --file=MANUAL            ange vilken Info-handbok som ska besökas"
+ 
+ #: info/info.c:1181
+ msgid "  -h, --help                   display this help and exit"
+-msgstr "    --help                  visa denna hjälp och avsluta"
++msgstr "  -h, --help                   visa denna hjälp och avsluta"
+ 
+ #: info/info.c:1182
+ msgid "      --index-search=STRING    go to node pointed by index entry STRING"
+-msgstr "      --index-search=STRÄNG    gå till noden som pekas ut av indexpostens STRÄNG"
++msgstr "      --index-search=STRÄNG    gå till noden som indexposten STRÄNG pekar ut"
+ 
+ #: info/info.c:1183
+ msgid "  -n, --node=NODENAME          specify nodes in first visited Info file"
+-msgstr "  -n, --node=NODNAMN          specificera noder i den första besökta infofilen"
++msgstr "  -n, --node=NODNAMN          ange noder i den först besökta Info-filen"
+ 
+ #: info/info.c:1184
+ msgid "  -o, --output=FILE            output selected nodes to FILE"
+-msgstr "  -o, --output=FIL            mata ut valda noder till FIL"
++msgstr "  -o, --output=FIL             skriv valda noder till FIL"
+ 
+ #: info/info.c:1187
+ msgid "  -b, --speech-friendly        be friendly to speech synthesizers"
+-msgstr "  -b, --speech-friendly        var vänlig mot talsyntesprogram"
++msgstr "  -b, --speech-friendly        anpassa för talsynteser"
+ 
+ #: info/info.c:1190
+ msgid "      --subnodes               recursively output menu items"
+@@ -424,15 +424,15 @@
+ 
+ #: info/info.c:1191
+ msgid "  -v, --variable VAR=VALUE     assign VALUE to Info variable VAR"
+-msgstr "  -v, --variable VAR=VÄRDE     tilldela VÄRDE till infovariabeln VAR"
++msgstr "  -v, --variable VAR=VÄRDE     tilldela VÄRDE till Info-variabeln VAR"
+ 
+ #: info/info.c:1192
+ msgid "      --version                display version information and exit"
+-msgstr "    --version               visa versionsinformation och avsluta"
++msgstr "      --version                visa versionsinformation och avsluta"
+ 
+ #: info/info.c:1193
+ msgid "  -w, --where, --location      print physical location of Info file"
+-msgstr "  -w, --where, --location       skriv ut fysisk plats för informationsfilen"
++msgstr "  -w, --where, --location      skriv ut Info-filens fysiska plats"
+ 
+ #: info/info.c:1197
+ msgid ""
+@@ -442,15 +442,15 @@
+ "Any remaining arguments are treated as the names of menu\n"
+ "items relative to the initial node visited."
+ msgstr ""
+-"Det första argumentet som inte är en flagga är, om det finns, menyposten att börja från;\n"
+-"Det söks efter i alla ”kat”-filer i INFOPATH.\n"
+-"Om den inte finns slår info samman alla ”kat”-filer och visar resultatet.\n"
+-"Alla återstående argument betraktas som namnen på\n"
+-"menyposter relativa till den först besökta noden."
++"Det första argumentet som inte är en flagga är, om det finns, menyalternativet att börja från;\n"
++"det söks efter i alla dir-filer längs INFOPATH.\n"
++"Om det inte finns slår info samman alla dir-filer och visar resultatet.\n"
++"Alla återstående argument behandlas som namnen på\n"
++"menyalternativ i förhållande till den först besökta noden."
+ 
+ #: info/info.c:1204
+ msgid "For a summary of key bindings, type H within Info."
+-msgstr "För en sammanfattning av tangentbindningar, tryck H i Info."
++msgstr "För en sammanfattning av tangentbindningar, tryck på H i Info."
+ 
+ #: info/info.c:1207
+ msgid " Examples:"
+@@ -458,27 +458,27 @@
+ 
+ #: info/info.c:1208
+ msgid "  info                         show top-level dir menu"
+-msgstr "  info                         visa högsta-nivå katalog meny"
++msgstr "  info                         visa toppnivåmenyn i dir"
+ 
+ #: info/info.c:1209
+ msgid "  info info-stnd               show the manual for this Info program"
+-msgstr "  info info-stnd                visa manualsidan för detta Info program"
++msgstr "  info info-stnd               visa handboken för detta Info-program"
+ 
+ #: info/info.c:1210
+ msgid "  info emacs                   start at emacs node from top-level dir"
+-msgstr "  info emacs                   starta på emacs-nod från högsta-nivå katalog"
++msgstr "  info emacs                   starta vid emacs-noden från toppnivå-dir"
+ 
+ #: info/info.c:1211
+ msgid "  info emacs buffers           select buffers menu entry in emacs manual"
+-msgstr "  info emacs buffers           välj buffertar menypost i emacs manualen"
++msgstr "  info emacs buffers           välj menyalternativet buffers i emacs-handboken"
+ 
+ #: info/info.c:1212
+ msgid "  info emacs -n Files          start at Files node within emacs manual"
+-msgstr "  info emacs -n Files          starta på filer-nod inuti emacs manualen"
++msgstr "  info emacs -n Files          starta vid noden Files i emacs-handboken"
+ 
+ #: info/info.c:1213
+ msgid "  info '(emacs)Files'          alternative way to start at Files node"
+-msgstr " info '(emacs)Files''          alternativt sätt att börja vid filer-noden"
++msgstr "  info '(emacs)Files'          alternativt sätt att starta vid noden Files"
+ 
+ #: info/info.c:1214
+ msgid ""
+@@ -486,20 +486,20 @@
+ "                               dump entire emacs manual to out.txt"
+ msgstr ""
+ "  info --subnodes -o out.txt emacs\n"
+-"dumpa hela emacs manualen till out.txt"
++"                               skriv ut hela emacs-handboken till out.txt"
+ 
+ #: info/info.c:1216
+ msgid "  info -f ./foo.info           show file ./foo.info, not searching dir"
+-msgstr "  info -f ./foo.info           visa fil ./foo.info, söker inte katalog"
++msgstr "  info -f ./foo.info           visa filen ./foo.info, sök inte i dir"
+ 
+ #: info/info.c:1256
+ #, c-format
+ msgid "Cannot find node '(%s)%s'"
+-msgstr "Kan inte hitta nod ”(%s)%s”"
++msgstr "Kan inte hitta noden ”(%s)%s”"
+ 
+ #: info/info.c:1257
+ msgid "Point doesn't appear within this window's node!"
+-msgstr "Punkten finns inte inom detta fönsters nod!"
++msgstr "Markören verkar inte finnas i denna nod i fönstret!"
+ 
+ #: info/info.c:1258
+ msgid "No menu in this node"
+@@ -515,7 +515,7 @@
+ 
+ #: info/info.c:1261
+ msgid "Resulting window would be too small"
+-msgstr "Resulterande fönstret skulle bli för litet"
++msgstr "Det resulterande fönstret skulle bli för litet"
+ 
+ #: info/infodoc.c:40
+ msgid "Basic Info command keys\n"
+@@ -531,11 +531,11 @@
+ 
+ #: info/infodoc.c:44
+ msgid "\\%-10[get-info-help-node]  Invoke the Info tutorial.\n"
+-msgstr "\\%-10[get-info-help-node]  Starta Info-handboken.\n"
++msgstr "\\%-10[get-info-help-node]  Starta Info-handledningen.\n"
+ 
+ #: info/infodoc.c:46
+ msgid "\\%-10[prev-line]  Move up one line.\n"
+-msgstr "\\%-10[prev-node]  Gå en rad uppåt.\n"
++msgstr "\\%-10[prev-line]  Gå en rad uppåt.\n"
+ 
+ #: info/infodoc.c:47
+ msgid "\\%-10[next-line]  Move down one line.\n"
+@@ -567,7 +567,7 @@
+ 
+ #: info/infodoc.c:55
+ msgid "\\%-10[history-node]  Go back to the last node seen in this window.\n"
+-msgstr "\\%-10[history-node]  Gå till den sista noden i detta fönster.\n"
++msgstr "\\%-10[history-node]  Gå tillbaka till den senast visade noden i detta fönster.\n"
+ 
+ #: info/infodoc.c:57
+ msgid "\\%-10[global-prev-node]  Go to the previous node in the document.\n"
+@@ -595,19 +595,19 @@
+ 
+ #: info/infodoc.c:63
+ msgid "\\%-10[dir-node]  Go to the main 'directory' node.\n"
+-msgstr "\\%-10[dir-node]  Gå till huvudkatalognoden.\n"
++msgstr "\\%-10[dir-node]  Gå till huvudnoden ”directory”.\n"
+ 
+ #: info/infodoc.c:65
+ msgid "1...9       Pick the first...ninth item in this node's menu.\n"
+-msgstr "1...9       Välj första...nionde objektet i denna nods meny.\n"
++msgstr "1...9       Välj det första...nionde menyalternativet i denna nods meny.\n"
+ 
+ #: info/infodoc.c:66
+ msgid "\\%-10[last-menu-item]  Pick the last item in this node's menu.\n"
+-msgstr "\\%-10[last-menu-item]  Välj sista objektet i denna nods meny.\n"
++msgstr "\\%-10[last-menu-item]  Välj det sista menyalternativet i denna nods meny.\n"
+ 
+ #: info/infodoc.c:67
+ msgid "\\%-10[menu-item]  Pick a menu item specified by name.\n"
+-msgstr "\\%-10[menu-item]  Välj den namngivna menyposten.\n"
++msgstr "\\%-10[menu-item]  Välj ett menyalternativ angivet med namn.\n"
+ 
+ #: info/infodoc.c:68
+ msgid "\\%-10[xref-item]  Follow a cross reference specified by name.\n"
+@@ -634,12 +634,12 @@
+ "\\%-10[index-search]  Search for a specified string in the index, and\n"
+ "              select the node referenced by the first entry found.\n"
+ msgstr ""
+-"\\%-10[index-search]  Sök efter en angiven sträng i indexet, och välj\n"
+-"              noden som refereras av den första posten som hittas.\n"
++"\\%-10[index-search]  Sök efter en angiven sträng i indexet och välj\n"
++"              noden som den första hittade posten refererar till.\n"
+ 
+ #: info/infodoc.c:76
+ msgid "\\%-10[virtual-index]  Synthesize menu of matching index entries.\n"
+-msgstr "\\%-10[virtual-index]  Skapa en meny av matchande indexposter.\n"
++msgstr "\\%-10[virtual-index]  Skapa en meny med matchande indexposter.\n"
+ 
+ #: info/infodoc.c:78
+ msgid "\\%-10[abort-key]  Cancel the current operation.\n"
+@@ -667,7 +667,7 @@
+ "Commands available in the echo area:\n"
+ "\n"
+ msgstr ""
+-"Kommandon som är tillgängliga i echo-området:\n"
++"Kommandon som är tillgängliga i ekoområdet:\n"
+ "\n"
+ 
+ #: info/infodoc.c:227
+@@ -676,7 +676,7 @@
+ "The following commands can only be invoked via %s:\n"
+ "\n"
+ msgstr ""
+-"Följande kommandon kan endast startas via %s:\n"
++"Följande kommandon kan endast anropas via %s:\n"
+ "\n"
+ 
+ #: info/infodoc.c:232
+@@ -684,7 +684,7 @@
+ "The following commands cannot be invoked at all:\n"
+ "\n"
+ msgstr ""
+-"Följande kommandon kan inte startas alls:\n"
++"Följande kommandon kan inte anropas alls:\n"
+ "\n"
+ 
+ #: info/infodoc.c:249
+@@ -697,7 +697,7 @@
+ 
+ #: info/infodoc.c:305
+ msgid "Not enough room for a help window, please delete a window"
+-msgstr "Inte tillräckligt med utrymme för ett hjälpfönster, ta bort ett fönster"
++msgstr "Det finns inte tillräckligt med utrymme för ett hjälpfönster, ta bort ett fönster"
+ 
+ #: info/infodoc.c:348
+ msgid "Display help message"
+@@ -705,16 +705,16 @@
+ 
+ #: info/infodoc.c:361
+ msgid "Visit Info node '(info)Help'"
+-msgstr "Besök Info-noden ”(info)Help”"
++msgstr "Gå till Info-noden ”(info)Help”"
+ 
+ #: info/infodoc.c:464
+ msgid "Print documentation for KEY"
+-msgstr "Visa dokumentationen för NYCKEL"
++msgstr "Visa dokumentation för NYCKEL"
+ 
+ #: info/infodoc.c:475
+ #, c-format
+ msgid "Describe key: %s"
+-msgstr "Beskriv nyckel: %s"
++msgstr "Beskriv tangent: %s"
+ 
+ #: info/infodoc.c:486 info/infodoc.c:523
+ #, c-format
+@@ -723,26 +723,26 @@
+ 
+ #: info/infodoc.c:826
+ msgid "Show what to type to execute a given command"
+-msgstr "Visa vad som ska anges för att köra ett angivet kommando"
++msgstr "Visa vad som ska skrivas för att köra ett kommando"
+ 
+ #: info/infodoc.c:830
+ msgid "Where is command: "
+-msgstr "Var är kommando: "
++msgstr "Var finns kommando: "
+ 
+ #: info/infodoc.c:852
+ #, c-format
+ msgid "'%s' is not on any keys"
+-msgstr "”%s” finns inte på några tangenter"
++msgstr "”%s” är inte kopplad till några tangenter"
+ 
+ #: info/infodoc.c:858
+ #, c-format
+ msgid "%s can only be invoked via %s"
+-msgstr "%s kan endast startas via %s"
++msgstr "%s kan endast anropas via %s"
+ 
+ #: info/infodoc.c:862
+ #, c-format
+ msgid "%s can be invoked via %s"
+-msgstr "%s kan startas via %s"
++msgstr "%s kan anropas via %s"
+ 
+ #: info/infodoc.c:867
+ #, c-format
+@@ -772,7 +772,7 @@
+ #: info/infokey.c:391
+ #, c-format
+ msgid "invalid octal sequence for byte value (\\%o)"
+-msgstr "ogiltig oktal sekvens för bytevärde (\\%o)"
++msgstr "ogiltig oktalsekvens för bytevärde (\\%o)"
+ 
+ #: info/infokey.c:423
+ #, c-format
+@@ -787,7 +787,7 @@
+ #: info/infokey.c:464
+ #, c-format
+ msgid "cannot bind key sequence to menu-digit"
+-msgstr "kan inte binda nyckelsekvens till menysiffra"
++msgstr "kan inte koppla tangentsekvens till menysiffra"
+ 
+ #: info/infokey.c:488
+ #, c-format
+@@ -802,7 +802,7 @@
+ #: info/infokey.c:524
+ #, c-format
+ msgid "extra characters following action `%s'"
+-msgstr "extra tecken följer på åtgärden ”%s”"
++msgstr "ytterligare tecken följer på åtgärden ”%s”"
+ 
+ #: info/infokey.c:535
+ #, c-format
+@@ -839,12 +839,12 @@
+ 
+ #: info/m-x.c:89
+ msgid "Read a command name in the echo area and execute it"
+-msgstr "Läs ett kommandonamn i echo-området och kör det"
++msgstr "Läs ett kommandonamn i ekoområdet och kör det"
+ 
+ #: info/m-x.c:132
+ #, c-format
+ msgid "Cannot execute an 'echo-area' command here"
+-msgstr "Kan inte köra ett ”echo-area”-kommando här"
++msgstr "Kan inte köra ett ekoområdeskommando här"
+ 
+ #: info/m-x.c:146
+ msgid "Set the height of the displayed window"
+@@ -861,21 +861,21 @@
+ "   Source files groveled to make this file include:\n"
+ "\n"
+ msgstr ""
+-"   Källkodsfiler som grävdes igenom för att göra att denna fil inkluderar:\n"
++"   Källfiler som genomsöktes för att skapa denna fil innefattar:\n"
+ "\n"
+ 
+ #: info/makedoc.c:343
+ #, c-format
+ msgid "Couldn't manipulate the file %s.\n"
+-msgstr "Kunde inte manipulera filen %s.\n"
++msgstr "Kunde inte hantera filen %s.\n"
+ 
+ #: info/nodemenu.c:33
+ msgid ""
+ "  (File)Node                        Lines   Size   Containing File\n"
+ "  ----------                        -----   ----   ---------------"
+ msgstr ""
+-"  (Fil)Nod                          Rader   Storl. Innehållande fil\n"
+-"  --------                          -----   ------ ----------------"
++"  (Fil)Nod                          Rader   Storlek Innehållande fil\n"
++"  ----------                        -----   ------- ----------------"
+ 
+ #: info/nodemenu.c:185
+ msgid ""
+@@ -887,11 +887,11 @@
+ 
+ #: info/nodemenu.c:208
+ msgid "Make a window containing a menu of all of the currently visited nodes"
+-msgstr "Skapa ett fönster som innehåller en meny med alla nyligen besökta noder"
++msgstr "Skapa ett fönster som innehåller en meny med alla noder som för närvarande har besökts"
+ 
+ #: info/nodemenu.c:253
+ msgid "Select a node which has been previously visited in a visible window"
+-msgstr "Välj en nod som har besökts nyligen i ett synligt fönster"
++msgstr "Välj en nod som tidigare har besökts i ett synligt fönster"
+ 
+ #: info/nodemenu.c:260
+ msgid "Select visited node: "
+@@ -905,12 +905,12 @@
+ #: info/pcterm.c:223
+ #, c-format
+ msgid "Terminal cannot be initialized: %s\n"
+-msgstr "Terminal kan inte initieras: %s\n"
++msgstr "Terminalen kan inte initieras: %s\n"
+ 
+ #: info/scan.c:736
+ #, c-format
+ msgid "Error converting file character encoding"
+-msgstr "Fel vid konvertering av teckenkodning för fil"
++msgstr "Fel vid konvertering av filens teckenkodning"
+ 
+ #: info/search.c:203
+ #, c-format
+@@ -932,7 +932,7 @@
+ #: info/session.c:301
+ #, c-format
+ msgid "Terminal type '%s' is not smart enough to run Info"
+-msgstr "Terminaltypen ”%s” är inte tillräckligt smart för att köra Info"
++msgstr "Terminaltypen ”%s” är inte tillräckligt avancerad för att köra Info"
+ 
+ #: info/session.c:1029
+ #, c-format
+@@ -992,7 +992,7 @@
+ 
+ #: info/session-cmd.c:340
+ msgid "Move the cursor to a specific line of the window"
+-msgstr "Flytta markören till en specifik rad i fönstret"
++msgstr "Flytta markören till en viss rad i fönstret"
+ 
+ #: info/session-cmd.c:372
+ msgid "Move to the end of the line"
+@@ -1028,19 +1028,19 @@
+ 
+ #: info/session-cmd.c:622
+ msgid "Scroll forward in this window staying within node"
+-msgstr "Rulla framåt i detta fönster och stanna inom noden"
++msgstr "Rulla framåt i detta fönster utan att lämna noden"
+ 
+ #: info/session-cmd.c:637
+ msgid "Scroll backward in this window staying within node"
+-msgstr "Rulla bakåt i detta fönster och stanna inom noden"
++msgstr "Rulla bakåt i detta fönster utan att lämna noden"
+ 
+ #: info/session-cmd.c:645
+ msgid "Scroll forward in this window staying within node and set default window size"
+-msgstr "Rulla framåt i detta fönster och stanna inom noden och ställ in standardfönsterstorleken"
++msgstr "Rulla framåt i detta fönster utan att lämna noden och ställ in standardfönsterstorleken"
+ 
+ #: info/session-cmd.c:672
+ msgid "Scroll backward in this window staying within node and set default window size"
+-msgstr "Rulla bakåt i detta fönster och stanna inom noden och ställ in standardfönsterstorleken"
++msgstr "Rulla bakåt i detta fönster utan att lämna noden och ställ in standardfönsterstorleken"
+ 
+ #: info/session-cmd.c:678
+ msgid "Scroll down by lines"
+@@ -1096,7 +1096,7 @@
+ 
+ #: info/session-cmd.c:1071
+ msgid "Grow (or shrink) this window"
+-msgstr "Väx (eller krymp) detta fönster"
++msgstr "Förstora (eller förminska) detta fönster"
+ 
+ #: info/session-cmd.c:1082
+ msgid "Divide the available screen space among the visible windows"
+@@ -1108,27 +1108,27 @@
+ 
+ #: info/session-cmd.c:1356
+ msgid "Select this menu item"
+-msgstr "Välj denna menypost"
++msgstr "Välj detta menyalternativ"
+ 
+ #: info/session-cmd.c:1386
+ #, c-format
+ msgid "There isn't %d item in this menu"
+ msgid_plural "There aren't %d items in this menu"
+-msgstr[0] "Det finns inte %d poster i denna meny"
+-msgstr[1] "Det finns inte %d poster i denna meny"
++msgstr[0] "Det finns inte %d menyalternativ i denna meny"
++msgstr[1] "Det finns inte %d menyalternativ i denna meny"
+ 
+ #: info/session-cmd.c:1395
+ msgid "Select the last item in this node's menu"
+-msgstr "Välj det sista objektet i denna nods meny"
++msgstr "Välj det sista menyalternativet i denna nods meny"
+ 
+ #: info/session-cmd.c:1499
+ #, c-format
+ msgid "Menu item (%s): "
+-msgstr "Menypost (%s): "
++msgstr "Menyalternativ (%s): "
+ 
+ #: info/session-cmd.c:1501
+ msgid "Menu item: "
+-msgstr "Menypost: "
++msgstr "Menyalternativ: "
+ 
+ #: info/session-cmd.c:1506
+ #, c-format
+@@ -1146,7 +1146,7 @@
+ 
+ #: info/session-cmd.c:1597
+ msgid "Read a menu item and select its node"
+-msgstr "Läs en menypost och välj dess nod"
++msgstr "Läs ett menyalternativ och välj dess nod"
+ 
+ #: info/session-cmd.c:1622
+ msgid "Read a footnote or cross reference and select its node"
+@@ -1158,7 +1158,7 @@
+ 
+ #: info/session-cmd.c:1683
+ msgid "Visit as many menu items at once as possible"
+-msgstr "Besök så många menyposter som möjligt samtidigt"
++msgstr "Besök så många menyalternativ som möjligt samtidigt"
+ 
+ #: info/session-cmd.c:1786
+ msgid "Move to the previous cross reference"
+@@ -1170,7 +1170,7 @@
+ 
+ #: info/session-cmd.c:1910
+ msgid "Select reference or menu item appearing on this line"
+-msgstr "Välj referens eller menypost som finns på denna rad"
++msgstr "Välj referens eller menyalternativ som finns på denna rad"
+ 
+ #: info/session-cmd.c:1946
+ #, c-format
+@@ -1180,11 +1180,11 @@
+ #: info/session-cmd.c:1993
+ #, c-format
+ msgid "Unable to find node referenced by '%s' in '%s'"
+-msgstr "Kan inte hitta noden som refereras av ”%s” i ”%s”"
++msgstr "Kan inte hitta noden som ”%s” refererar till i ”%s”"
+ 
+ #: info/session-cmd.c:2049
+ msgid "Read a list of menus starting from dir and follow them"
+-msgstr "Läs en lista med menyer som börjar med katalog, och följ dem"
++msgstr "Läs en lista med menyer som börjar vid dir och följ dem"
+ 
+ #: info/session-cmd.c:2051
+ msgid "Follow menus: "
+@@ -1205,7 +1205,7 @@
+ 
+ #: info/session-cmd.c:2170
+ msgid "Select the Up node"
+-msgstr "Välj uppnoden"
++msgstr "Välj överordnad nod"
+ 
+ #: info/session-cmd.c:2176
+ msgid "Select the last node in this file"
+@@ -1221,19 +1221,19 @@
+ 
+ #: info/session-cmd.c:2257
+ msgid "You are already at the last page of this node"
+-msgstr "Du är redan på sista sidan för denna nod"
++msgstr "Du är redan på sista sidan i denna nod"
+ 
+ #: info/session-cmd.c:2343
+ msgid "No more nodes within this document"
+-msgstr "Inga fler noder inom detta dokument"
++msgstr "Inga fler noder i detta dokument"
+ 
+ #: info/session-cmd.c:2373
+ msgid "You are already at the first page of this node"
+-msgstr "Du är redan på första sidan för denna nod"
++msgstr "Du är redan på första sidan i denna nod"
+ 
+ #: info/session-cmd.c:2387 info/session-cmd.c:2434
+ msgid "No 'Prev' or 'Up' for this node within this document"
+-msgstr "Inget ”Prev” eller ”Up” för denna nod inom detta dokument"
++msgstr "Inget ”Prev” eller ”Up” för denna nod i detta dokument"
+ 
+ #: info/session-cmd.c:2447
+ msgid "Move forwards or down through node structure"
+@@ -1278,7 +1278,7 @@
+ 
+ #: info/session-cmd.c:2795
+ msgid "Show full file name of node being displayed"
+-msgstr "Visa fullständigt filnamn för visad noden"
++msgstr "Visa fullständigt filnamn för den visade noden"
+ 
+ #: info/session-cmd.c:2812
+ msgid "Select the most recently selected node"
+@@ -1287,7 +1287,7 @@
+ #: info/session-cmd.c:2817
+ #, c-format
+ msgid "No earlier node in history"
+-msgstr "Ingen tidigare nod i historik"
++msgstr "Ingen tidigare nod i historiken"
+ 
+ #: info/session-cmd.c:2821
+ msgid "Read the name of a file and select it"
+@@ -1304,12 +1304,12 @@
+ 
+ #: info/session-cmd.c:2862
+ msgid "Pipe the contents of this node through INFO_PRINT_COMMAND"
+-msgstr "Skicka innehållet i denna nod i rör till INFO_PRINT_COMMAND"
++msgstr "Skicka innehållet i denna nod genom ett rör till INFO_PRINT_COMMAND"
+ 
+ #: info/session-cmd.c:2890
+ #, c-format
+ msgid "Cannot open pipe to '%s'"
+-msgstr "Kan inte öppna rör till ”%s”"
++msgstr "Kan inte öppna ett rör till ”%s”"
+ 
+ #: info/session-cmd.c:2895
+ #, c-format
+@@ -1328,12 +1328,12 @@
+ #: info/session-cmd.c:2934
+ #, c-format
+ msgid "Using regular expressions for searches"
+-msgstr "Använder reguljära uttryck i sökningar"
++msgstr "Användning av reguljära uttryck i sökningar"
+ 
+ #: info/session-cmd.c:2935
+ #, c-format
+ msgid "Using literal strings for searches"
+-msgstr "Använder ordagranna strängar i sökningar"
++msgstr "Användning av ordagranna strängar i sökningar"
+ 
+ #: info/session-cmd.c:3138
+ msgid "Search continued from the end of the document"
+@@ -1346,7 +1346,7 @@
+ #: info/session-cmd.c:3160
+ #, c-format
+ msgid "Searching subfile %s ..."
+-msgstr "Söker i underfilen %s..."
++msgstr "Söker i underfilen %s…"
+ 
+ #: info/session-cmd.c:3200 info/session-cmd.c:3469 info/session-cmd.c:3582
+ #, c-format
+@@ -1387,11 +1387,11 @@
+ 
+ #: info/session-cmd.c:3222 info/session-cmd.c:3228
+ msgid " case-sensitively"
+-msgstr " skiljandes på VERSALER/gemener"
++msgstr " med hänsyn till versaler/gemener"
+ 
+ #: info/session-cmd.c:3223 info/session-cmd.c:3229
+ msgid " backward"
+-msgstr " baklänges"
++msgstr " bakåt"
+ 
+ # This is broken
+ #
+@@ -1424,7 +1424,7 @@
+ #: info/session-cmd.c:3440
+ #, c-format
+ msgid "Going back to last match from %s"
+-msgstr "Gå tillbaka till senaste träff från %s"
++msgstr "Återgår till senaste träff från %s"
+ 
+ #: info/session-cmd.c:3469 info/session-cmd.c:3582
+ #, c-format
+@@ -1439,11 +1439,11 @@
+ #: info/session-cmd.c:3616
+ #, c-format
+ msgid "Search under %s: "
+-msgstr "Söker i under %s: "
++msgstr "Sök under %s: "
+ 
+ #: info/session-cmd.c:3631
+ msgid "Go to next match in Info sub-tree"
+-msgstr "Gå till nästa matchning i Info-underträd"
++msgstr "Gå till nästa träff i Info-underträdet"
+ 
+ #: info/session-cmd.c:3635 info/session-cmd.c:3647
+ #, c-format
+@@ -1452,11 +1452,11 @@
+ 
+ #: info/session-cmd.c:3643
+ msgid "Go to previous match in Info sub-tree"
+-msgstr "Gå till föregående matchning i Info-underträd"
++msgstr "Gå till föregående träff i Info-underträdet"
+ 
+ #: info/session-cmd.c:3656
+ msgid "Read a string and search for it case-sensitively"
+-msgstr "Läs en sträng och sök efter den skiftlägeskänsligt"
++msgstr "Läs en sträng och sök efter den med hänsyn till versaler/gemener"
+ 
+ #: info/session-cmd.c:3661
+ msgid "Read a string and search for it"
+@@ -1464,7 +1464,7 @@
+ 
+ #: info/session-cmd.c:3667
+ msgid "Read a string and search backward for it"
+-msgstr "Läs en sträng och sök baklänges efter den"
++msgstr "Läs en sträng och sök bakåt efter den"
+ 
+ #: info/session-cmd.c:3675
+ msgid "Repeat last search in the same direction"
+@@ -1488,11 +1488,11 @@
+ 
+ #: info/session-cmd.c:3921
+ msgid "Regexp I-search backward: "
+-msgstr "I-sök med reguljärt uttryck baklänges: "
++msgstr "I-sök med reguljärt uttryck bakåt: "
+ 
+ #: info/session-cmd.c:3922
+ msgid "I-search backward: "
+-msgstr "I-sök baklänges: "
++msgstr "I-sök bakåt: "
+ 
+ #: info/session-cmd.c:3924
+ msgid "Regexp I-search: "
+@@ -1521,23 +1521,23 @@
+ 
+ #: info/session-cmd.c:4333
+ msgid "Redraw the display"
+-msgstr "Rita om displayen"
++msgstr "Rita om skärmen"
+ 
+ #: info/session-cmd.c:4370
+ msgid "Quit using Info"
+-msgstr "Avsluta användandet av Info"
++msgstr "Avsluta Info"
+ 
+ #: info/session-cmd.c:4386
+ msgid "Run command bound to this key's lowercase variant"
+-msgstr "Kör kommando som är knutet till denna tangents gemena variant"
++msgstr "Kör kommandot som är knutet till tangentens gemena variant"
+ 
+ #: info/session-cmd.c:4391
+ msgid "Add this digit to the current numeric argument"
+-msgstr "Lägg till denna siffra till det aktuella numeriska argumentet"
++msgstr "Lägg till denna siffra i det aktuella numeriska argumentet"
+ 
+ #: info/session-cmd.c:4398
+ msgid "Start (or multiply by 4) the current numeric argument"
+-msgstr "Börja (eller multiplicera med 4) det numeriska argumentet"
++msgstr "Starta (eller multiplicera med 4) det aktuella numeriska argumentet"
+ 
+ #: info/variables.c:70
+ msgid "When \"On\", footnotes appear and disappear automatically"
+@@ -1551,7 +1551,7 @@
+ 
+ #: info/variables.c:78
+ msgid "When \"On\", flash the screen instead of ringing the bell"
+-msgstr "När detta är ”On” blinkar skärmen till istället för att klockan ringer"
++msgstr "När detta är ”On” blinkar skärmen till i stället för att klockan ringer"
+ 
+ #: info/variables.c:82
+ msgid "When \"On\", errors cause the bell to ring"
+@@ -1559,7 +1559,7 @@
+ 
+ #: info/variables.c:86
+ msgid "When \"On\", Info garbage collects files which had to be uncompressed"
+-msgstr "När detta är ”On” skräpsamlar Info filer som behövde packas upp"
++msgstr "När detta är ”On” tar Info bort filer som behövde packas upp"
+ 
+ #: info/variables.c:90
+ msgid "When \"On\", the portion of the matched search string is highlighted"
+@@ -1567,7 +1567,7 @@
+ 
+ #: info/variables.c:94
+ msgid "Controls what happens when scrolling is requested at the end of a node"
+-msgstr "Styr vad som händer då rullning begärs i slutet på en nod"
++msgstr "Styr vad som händer när rullning begärs i slutet av en nod"
+ 
+ #: info/variables.c:99
+ msgid "Same as scroll-behaviour"
+@@ -1575,7 +1575,7 @@
+ 
+ #: info/variables.c:103
+ msgid "The number lines to scroll when the cursor moves out of the window"
+-msgstr "Antalet rader att rulla då markören flyttas utanför fönstret"
++msgstr "Antalet rader som ska rullas när markören flyttas utanför fönstret"
+ 
+ #: info/variables.c:107
+ msgid "Controls whether scroll-behavior affects cursor movement commands"
+@@ -1607,7 +1607,7 @@
+ 
+ #: info/variables.c:136
+ msgid "Length of time in milliseconds to wait for the next byte in a sequence indicating that a key has been pressed"
+-msgstr "Tid i millisekunder att vänd på nästa byte i en sekvens som indikerar att en tangent tryckts ned"
++msgstr "Tid i millisekunder att vänta på nästa byte i en sekvens som indikerar att en tangent har tryckts ned"
+ 
+ #: info/variables.c:140
+ msgid "Method to use to track mouse events"
+@@ -1635,15 +1635,15 @@
+ 
+ #: info/variables.c:164
+ msgid "How to print the information line at the start of a node"
+-msgstr "Hur informationsraden i början på en nod ska skrivas ut"
++msgstr "Hur informationsraden i början av en nod ska skrivas ut"
+ 
+ #: info/variables.c:168
+ msgid "Always pass through non-ASCII UTF-8 bytes in files to terminal"
+-msgstr "Skicka alltid icke-ASCII UTF-8 bytes i filer till terminalen"
++msgstr "Skicka alltid icke-ASCII-UTF-8-byte i filer till terminalen"
+ 
+ #: info/variables.c:282
+ msgid "Explain the use of a variable"
+-msgstr "Förklara användandet av en variabel"
++msgstr "Förklara användningen av en variabel"
+ 
+ #: info/variables.c:288
+ msgid "Describe variable: "
+@@ -1702,8 +1702,8 @@
+ "INFO-FILE and DIR-FILE are required unless the --info-file\n"
+ "or --dir-file (or --info-dir) options are given, respectively."
+ msgstr ""
+-"INFO-FIL och KATFIL krävs om inte flaggorna --in-file\n"
+-"eller --dir-fil (eller --info-dir) anges, respektive."
++"INFO-FIL och KATFIL krävs om inte flaggorna --info-file "
++"eller --dir-file (eller --info-dir) anges, respektive."
+ 
+ #: install-info/install-info.c:521
+ msgid ""
+@@ -1714,10 +1714,10 @@
+ "                       start at column COL."
+ msgstr ""
+ "Flaggor:\n"
+-" --add-once          lägg endast till det första matchande avsnittet, inte alla.\n"
+-" --align=KOL         börja beskrivning av nya poster vid kolumn KOL.\n"
+-" --calign=KOL        formatera andra och efterföljande beskrivningsrader till att\n"
+-"                       börja på kolumn KOL."
++" --add-once          lägg endast till i det första matchande avsnittet, inte i alla.\n"
++" --align=KOL         börja beskrivningen av nya poster vid kolumn KOL.\n"
++" --calign=KOL        formatera den andra och efterföljande beskrivningsrader så att de\n"
++"                       börjar vid kolumn KOL."
+ 
+ #: install-info/install-info.c:528
+ msgid ""
+@@ -1734,15 +1734,15 @@
+ " --dry-run           same as --test."
+ msgstr ""
+ " --debug             rapportera vad som görs.\n"
+-" --delete            ta bort existerande poster för INFO-FIL från KATALOGFIL\n"
++" --delete            ta bort befintliga poster för INFO-FIL från KATFIL\n"
+ "                      och infoga inte några nya poster.\n"
+ " --defsection=TEXT   som --section, men använd endast TEXT om inga\n"
+-"                      avsnitt finns i INFO-FILE (ersätter ”Diverse”).\n"
++"                      avsnitt finns i INFO-FIL (ersätter ”Diverse”).\n"
+ " --description=TEXT  postens beskrivning är TEXT. Detta används tillsammans\n"
+ "                      med flaggan --name för att den ska bli likvärdig med\n"
+ "                      flaggan --entry.\n"
+ " --dir-file=NAMN     ange filnamnet på Info-katalogfilen. Detta motsvarar\n"
+-"                      användning av argumentet KATALOGFIL.\n"
++"                      användning av argumentet KATFIL.\n"
+ " --dry-run           samma som --test."
+ 
+ #: install-info/install-info.c:541
+@@ -1756,12 +1756,12 @@
+ "                       from information in the Info file itself."
+ msgstr ""
+ " --entry=TEXT        infoga TEXT som en Info-katalogpost,\n"
+-"                      vilket åsidosätter motsvarande poster från DIR-FIL.\n"
+-"                      TEXT skrivs som en Info-menypostrad som följs av\n"
++"                      vilket åsidosätter motsvarande poster från KATFIL.\n"
++"                      TEXT skrivs som en Info-menyalternativrad följd av\n"
+ "                      noll eller fler extra rader som börjar med tomrum.\n"
+-"                     Om du anger mer än en post kommer alla att läggas\n"
+-"                      till. Om du inte anger några poster kommer de att\n"
+-"                      avgöras från information i själva Info-filen."
++"                      Om du anger mer än en post läggs alla till. Om du\n"
++"                      inte anger några poster avgörs de med ledning av\n"
++"                      information i själva Info-filen."
+ 
+ #: install-info/install-info.c:550
+ msgid ""
+@@ -1788,12 +1788,12 @@
+ " --no-indent         do not format new entries in the DIR file.\n"
+ " --quiet             suppress warnings."
+ msgstr ""
+-" --maxwidth, --max-width=KOL  radbryt beskrvining vid kolumn KOL.\n"
++" --maxwidth, --max-width=KOL  radbryt beskrivningen vid kolumn KOL.\n"
+ " --menuentry=TEXT    samma som --name=TEXT.\n"
+ " --name=TEXT         namnet på posten är TEXT. Används tillsammans med\n"
+ "                      --description för att bli likvärdigt med flaggan\n"
+ "                      --entry.\n"
+-" --no-indent         formatera inte nya poster i filen KAT.\n"
++" --no-indent         formatera inte nya poster i KAT-filen.\n"
+ " --quiet             undertryck varningar."
+ 
+ #: install-info/install-info.c:566
+@@ -1814,18 +1814,18 @@
+ " --section R SEC     equivalent to --regex=R --section=SEC --add-once."
+ msgstr ""
+ " --regex=R           placera denna fils poster i alla avsnitt som matchar\n"
+-"                      det reguljära uttrycket R (och ignorera skiftläge).\n"
++"                      det reguljära uttrycket R (utan hänsyn till skiftläge).\n"
+ " --remove            samma som --delete.\n"
+ " --remove-exactly    ta endast bort om Info-filnamnet matchar exakt.\n"
+-"                      Filändelser som till exempel .info- och .gz ignoreras\n"
+-"                      inte.\n"
++"                      Filändelser som .info och .gz ignoreras"
++" inte.\n"
+ " --section=AVSNITT   placera poster i avsnittet AVSNITT i katalogen. Om du\n"
+-"                      anger mer än ett avsnitt kommer alla poster att läggas\n"
+-"                      till i varje avsnitt. Om du inte anger några avsnitt\n"
+-"                      kommer de att bestämmas utifrån information i själva\n"
+-"                      Info-filen; om inget finns tillgängligt där används\n"
+-"                      värdet från --defsection; om det inte är angivet\n"
+-"                      är det slutgiltiga standardvärdet ”Diverse”.\n"
++"                      anger mer än ett avsnitt läggs alla poster till i\n"
++"                      varje avsnitt. Om du inte anger några avsnitt\n"
++"                      bestäms de utifrån information i själva Info-filen.\n"
++"                      Om inget finns tillgängligt där används värdet från\n"
++"                      --defsection. Om det inte anges är det slutgiltiga\n"
++"                      standardvärdet ”Diverse”.\n"
+ " --section R AVSNITT likvärdigt med --regex=R --section=AVSNITT --add-once."
+ 
+ #: install-info/install-info.c:582
+@@ -1835,7 +1835,7 @@
+ " --version           display version information and exit."
+ msgstr ""
+ " --silent            undertryck varningar.\n"
+-" --test              undertryck uppdatering av KATALOGFIL.\n"
++" --test              undertryck uppdatering av KATFIL.\n"
+ " --version           visa versionsinformation och avsluta."
+ 
+ #: install-info/install-info.c:589 Pod-Simple-Texinfo/pod2texi.pl:193
+@@ -1846,8 +1846,8 @@
+ "Texinfo home page: https://www.gnu.org/software/texinfo/"
+ msgstr ""
+ "Skicka felrapporter till bug-texinfo@gnu.org,\n"
+-"Allmänna frågor och diskussion till help-texinfo@gnu.org\n"
+-"Hemsida för texinfo: http://www.gnu.org/software/texinfo/"
++"allmänna frågor och diskussion till help-texinfo@gnu.org.\n"
++"Texinfos webbsida: https://www.gnu.org/software/texinfo/"
+ 
+ #: install-info/install-info.c:615
+ #, c-format
+@@ -1868,19 +1868,20 @@
+ "\n"
+ "%s\n"
+ msgstr ""
+-"Detta är filen .../info/dir som innehåller den översta noden i\n"
+-"Info-hierarkin som kallas (kat)Top.\n"
++"Detta är filen .../info/dir, som innehåller den översta noden i\n"
++"Info-hierarkin, som kallas (dir)Top.\n"
+ "Första gången du använder Info börjar du med denna nod.\n"
+ "%c\n"
+-"%s\tDetta är översta noden i INFO-trädet\n"
++"%s\tDetta är den översta noden i INFO-trädet\n"
+ "\n"
+-"  Denna nod (katalognoden) erbjuder en meny med huvudrubriker.\n"
++"  Denna nod (katalognoden) ger en meny med huvudämnen.\n"
+ "  Att skriva ”q” avslutar, ”H” visar alla Info-kommandon, ”d”\n"
+-"  återvänder hit, ”h” visar en hjälp för förstagångsanvändare,\n"
+-"  ”mEmacs<Retur>” besöker Emacs-manualen, osv.\n"
++"  återvänder hit, ”h” visar en introduktion för nybörjare,\n"
++"  ”mEmacs<Retur>” öppnar Emacs-manualen osv.\n"
+ "\n"
+-"  I Emacs kan du klicka med musknapp 2 på en menypost eller korsreferens\n"
+-"  för att välja den.\n"
++"  I Emacs kan du klicka med musknapp 2 på ett menyalternativ eller en\n"
++"  korsreferens"
++" för att välja det.\n"
+ "\n"
+ "%s\n"
+ 
+@@ -1922,7 +1923,7 @@
+ #: install-info/install-info.c:2319
+ #, c-format
+ msgid "excess command line argument `%s'"
+-msgstr "för många kommandoradsargument ”%s”"
++msgstr "överflödigt kommandoradsargument ”%s”"
+ 
+ #: install-info/install-info.c:2323
+ #, c-format
+@@ -1932,7 +1933,7 @@
+ #: install-info/install-info.c:2325
+ #, c-format
+ msgid "No dir file specified; try --help for more information."
+-msgstr "Ingen katalogfil angiven; prova --help för mer information."
++msgstr "Ingen KATFIL angiven; prova --help för mer information."
+ 
+ #: install-info/install-info.c:2346
+ #, c-format
+@@ -1942,7 +1943,7 @@
+ #: install-info/install-info.c:2493
+ #, c-format
+ msgid "no info dir entry in `%s'"
+-msgstr "ingen info-katalogpost i ”%s”"
++msgstr "ingen Info-katalogpost i ”%s”"
+ 
+ #: install-info/install-info.c:2741
+ #, c-format
+@@ -1963,21 +1964,22 @@
+ "to a file suitable for @include, and one more file with a main menu\n"
+ "and all the @include is generated."
+ msgstr ""
+-"Översätt Perl Pod dokumentationsfiler till Texinfo. Det finns två\n"
+-"grundläggande arbetssätt. Först är varje Pod som standard översatt till\n"
++"Översätt Perl Pod-dokumentationsfiler till Texinfo. Det finns två\n"
++"grundläggande arbetssätt. För det första översätts varje Pod som standard\n"
++"till "
+ "en fristående Texinfo-manual.\n"
+ "\n"
+-"Det andra sättet är om --base-level är högre än 0, översätts varje Pod\n"
++"För det andra översätts varje Pod, om --base-level är högre än 0,\n"
+ "till en fil som lämpar sig för @include, och ytterligare en fil med en huvudmeny\n"
+-"och alla @include genereras."
++"och samtliga @include genereras."
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:169
+ msgid ""
+ "Options:\n"
+ "    --appendix-sections     use appendix-like sections"
+ msgstr ""
+-"Alternativ:\n"
+-"    --appendix-sections     använd bilagaliknande sektioner"
++"Flaggor:\n"
++"    --appendix-sections     använd bilageliknande sektioner"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:171
+ msgid "    --base-level=NUM|NAME   level of the head1 commands; default 0"
+@@ -2009,7 +2011,7 @@
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:178
+ msgid "    --no-section-nodes      use anchors for sections instead of nodes"
+-msgstr "    --no-section-nodes      använd ankare för sektioner istället för noder"
++msgstr "    --no-section-nodes      använd ankare för sektioner i stället för noder"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:179
+ msgid "    --menus                 generate node menus"
+@@ -2020,24 +2022,24 @@
+ "    --outdir=NAME           output included files in NAME;\n"
+ "                              defaults to --subdir"
+ msgstr ""
+-"    --outdir=NAMN           UTDATA inkluderar filer i NAMN;\n"
+-"                                                    Standard är --subdir"
++"    --outdir=NAMN           skriv inkluderade filer till NAMN;\n"
++"                              standard är --subdir"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:182
+ msgid ""
+ "    --output=NAME           output to NAME for the first or main manual\n"
+ "                              instead of standard output"
+ msgstr ""
+-"    --output=NAME           utdata till NAMN för den första eller huvudmanualen\n"
+-"                            istället för standard utdata"
++"    --output=NAMN           skriv den första eller huvudmanualen till NAMN\n"
++"                              i stället för standard ut"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:184
+ msgid ""
+ "    --preamble=STR          insert STR as beginning boilerplate;\n"
+ "                              defaults to a minimal Texinfo document beginning"
+ msgstr ""
+-"    --preamble=STR          infoga STR som början till boilerplate;\n"
+-"                            Standard är ett minimalt Texinfo-dokuments början"
++"    --preamble=STR          infoga STR som inledande standardtext;\n"
++"                              standard är början av ett minimalt Texinfo-dokument"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:186
+ msgid "    --setfilename           @setfilename for the main manual"
+@@ -2045,11 +2047,11 @@
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:187
+ msgid "    --subdir=NAME           include files from NAME in the main manual"
+-msgstr "    --subdir=NAMN           inkluderar filer från NAMN i huvudmanualen"
++msgstr "    --subdir=NAMN           inkludera filer från NAMN i huvudmanualen"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:188
+ msgid "    --top                   top for the main manual"
+-msgstr "    --top                   högst upp på huvudmanualen"
++msgstr "    --top                   toppnod för huvudmanualen"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:189
+ msgid "    --unnumbered-sections   do not number sections"
+@@ -2069,7 +2071,7 @@
+ "There is NO WARRANTY, to the extent permitted by law."
+ msgstr ""
+ "Copyright © %s Free Software Foundation, Inc.\n"
+-"Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
++"Licens GPLv3+: GNU GPL version 3 eller senare <https://gnu.org/licenses/gpl.html>\n"
+ "Det här är fri programvara. Du kan fritt modifiera det och vidaredistribuera det.\n"
+ "Det finns INGEN GARANTI, i den omfattning som medges av gällande lag."
+ 
+@@ -2081,7 +2083,7 @@
+ #: Pod-Simple-Texinfo/pod2texi.pl:259
+ #, perl-format
+ msgid "%s: could not create directory %s: %s"
+-msgstr "%s: kunde inte skapa katalog %s: %s"
++msgstr "%s: kunde inte skapa katalogen %s: %s"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:273
+ #, perl-format
+@@ -2120,22 +2122,22 @@
+ #: tta/C/convert/texinfo.c:767
+ #, c-format, perl-format
+ msgid "%s: error on closing %s: %s"
+-msgstr "%s: fel vid stängning %s: %s"
++msgstr "%s: fel vid stängning av %s: %s"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:601
+ #, perl-format
+ msgid "%s: removing %s as input file %s has no content"
+-msgstr "%s: tar bort %s som indatafil %s har inget innehåll"
++msgstr "%s: tar bort %s eftersom indatafilen %s saknar innehåll"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:630
+ #, perl-format
+ msgid "%s: rename %s failed: %s"
+-msgstr "%s: byta namn på %s misslyckades: %s"
++msgstr "%s: namnbyte av %s misslyckades: %s"
+ 
+ #: Pod-Simple-Texinfo/pod2texi.pl:699
+ #, perl-format
+ msgid "%s: error on closing stdout: %s"
+-msgstr "%s: fel vid stängning av stdout %s"
++msgstr "%s: fel vid stängning av standard ut: %s"
+ 
+ #: tta/perl/Texinfo/Common.pm:475 tta/C/parsetexi/end_line.c:1489
+ #, c-format, perl-format
+@@ -2162,12 +2164,12 @@
+ #: tta/perl/Texinfo/Config.pm:201
+ #, perl-format
+ msgid "error parsing %s: %s"
+-msgstr "fel vid inläsning %s: %s"
++msgstr "fel vid tolkning av %s: %s"
+ 
+ #: tta/perl/Texinfo/Config.pm:205 tta/C/convert/convert_html.c:2730
+ #, c-format, perl-format
+ msgid "error reading %s: %s"
+-msgstr "fel vid inläsning %s: %s"
++msgstr "fel vid läsning av %s: %s"
+ 
+ #: tta/perl/Texinfo/Config.pm:226
+ #, perl-format
+@@ -2184,7 +2186,7 @@
+ #: tta/perl/Texinfo/Config.pm:270
+ #, perl-format
+ msgid "obsolete option: %s"
+-msgstr "föråldradat alternativ: %s"
++msgstr "föråldrad flagga: %s"
+ 
+ #: tta/perl/Texinfo/Config.pm:294
+ #, perl-format
+@@ -2194,7 +2196,7 @@
+ #: tta/perl/Texinfo/Config.pm:317
+ #, perl-format
+ msgid "unknown variable from command line: %s"
+-msgstr "okänd variabel från kommandorad: %s"
++msgstr "okänd variabel från kommandoraden: %s"
+ 
+ #: tta/perl/Texinfo/Config.pm:640 tta/perl/Texinfo/Config.pm:681
+ #: tta/perl/Texinfo/Config.pm:699 tta/perl/Texinfo/Config.pm:725
+@@ -2206,7 +2208,7 @@
+ #: tta/perl/Texinfo/Config.pm:870
+ #, perl-format
+ msgid "%s: unknown special element information type %s"
+-msgstr "%s: okänd specialelementinformationstyp %s"
++msgstr "%s: okänd informationstyp för specialelement %s"
+ 
+ #: tta/perl/Texinfo/Document.pm:689 tta/C/main/targets.c:158
+ #: tta/C/parsetexi/labels.c:122
+@@ -2299,23 +2301,23 @@
+ #: tta/perl/Texinfo/Convert/HTML.pm:4814 tta/C/convert/format_html.c:8293
+ #, c-format, perl-format
+ msgid "raw format %s is not converted"
+-msgstr "rått format %s konverterades inte"
++msgstr "rått format %s konverteras inte"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:6499 tta/C/convert/format_html.c:10696
+ #, c-format, perl-format
+ msgid "entry for index `%s' for @printindex %s outside of any node"
+-msgstr "post för index `%s' för @printindex %s utanför valfri nod"
++msgstr "post för index ”%s” för @printindex %s utanför någon nod"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:6530 tta/C/convert/format_html.c:10736
+ #, c-format, perl-format
+ msgid "entry for index `%s' for @printindex %s outside of any section"
+-msgstr "post för index `%s' för @printindex %s utanför valfri sektion"
++msgstr "post för index ”%s” för @printindex %s utanför något avsnitt"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:8490
+ #: tta/C/convert/html_prepare_converter.c:1009
+ #, c-format, perl-format
+ msgid "could not open html refs config file %s: %s"
+-msgstr "kunde inte öppna konfigurationsfil för html-refs %s: %s"
++msgstr "kunde inte öppna konfigurationsfilen för HTML-referenser %s: %s"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:8519
+ #: tta/C/convert/html_prepare_converter.c:1119
+@@ -2333,24 +2335,24 @@
+ #: tta/C/convert/html_prepare_converter.c:1229
+ #, c-format, perl-format
+ msgid "error on closing html refs config file %s: %s"
+-msgstr "fel vid stängning av html-referenskonfigurationsfil %s: %s"
++msgstr "fel vid stängning av konfigurationsfilen för HTML-referenser %s: %s"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:8587
+ #: tta/C/convert/html_prepare_converter.c:1270
+ #, c-format, perl-format
+ msgid "could not find html refs config file %s"
+-msgstr "kunde inte hitta konfigurationsfil för html-refs %s"
++msgstr "kunde inte hitta konfigurationsfilen för HTML-referenser %s"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:8706 tta/perl/texi2any.pl:662
+ #: tta/C/convert/html_prepare_converter.c:1507
+ #, c-format, perl-format
+ msgid "%s directory is deprecated. Use %s instead"
+-msgstr "%s katalogen är föråldrad. Använd %s istället"
++msgstr "%s-katalogen är föråldrad. Använd %s i stället"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:9134
+ #, perl-format
+ msgid "Unknown file and id setting function: %s"
+-msgstr "Okänd fil och id-inställningsfunktion: %s"
++msgstr "Okänd inställningsfunktion för fil och id: %s"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:9152
+ #, perl-format
+@@ -2361,19 +2363,19 @@
+ #: tta/C/convert/html_prepare_converter.c:1794
+ #, c-format, perl-format
+ msgid "string not closed in css file"
+-msgstr "sträng stängs inte i css-fil"
++msgstr "sträng avslutas inte i CSS-fil"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:9613
+ #: tta/C/convert/html_prepare_converter.c:1802
+ #, c-format, perl-format
+ msgid "--css-include ended in comment"
+-msgstr "--css-include slutade med kommentar"
++msgstr "--css-include avslutades i en kommentar"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:9615
+ #: tta/C/convert/html_prepare_converter.c:1810
+ #, c-format, perl-format
+ msgid "@import not finished in css file"
+-msgstr "@import avslutades inte i css-fil"
++msgstr "@import avslutades inte i CSS-fil"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:9651
+ #: tta/C/convert/html_prepare_converter.c:1862
+@@ -2385,7 +2387,7 @@
+ #: tta/C/convert/html_prepare_converter.c:1884
+ #, c-format, perl-format
+ msgid "could not open --include-file %s: %s"
+-msgstr "kunde inte öppna --include-fil %s: %s"
++msgstr "kunde inte öppna --include-file %s: %s"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:9681
+ #, perl-format
+@@ -2420,12 +2422,12 @@
+ #: tta/C/convert/html_prepare_converter.c:5519
+ #, c-format, perl-format
+ msgid "could not find %s node `%s'"
+-msgstr "kunde inte hitta %s nod `%s'"
++msgstr "kunde inte hitta %s-noden ”%s”"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:11076 tta/C/convert/format_html.c:838
+ #, c-format, perl-format
+ msgid "do not set %s suffix in reference for manual `%s'"
+-msgstr "ställ inte in %s suffix som referens för manual `%s'"
++msgstr "ställ inte in %s-suffixet i referensen till manualen ”%s”"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:11113
+ #: tta/perl/Texinfo/Convert/HTML.pm:11119 tta/C/convert/format_html.c:887
+@@ -2437,22 +2439,22 @@
+ #: tta/perl/Texinfo/Convert/HTML.pm:11617 tta/C/convert/format_html.c:4048
+ #, c-format, perl-format
+ msgid "%s not meaningful for non-split output"
+-msgstr "%s inte meningsfullt för icke-delad utdata"
++msgstr "%s är inte meningsfullt för odelad utdata"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:12134 tta/C/convert/convert_html.c:2607
+ #, c-format, perl-format
+ msgid "cannot use absolute path or URL `%s' for JS_WEBLABELS_FILE when generating web labels file"
+-msgstr "kan inte använda absolut sökväg eller URL `%s' för JS_WEBLABELS_FIL vid generering av webbetikettsfil"
++msgstr "kan inte använda absolut sökväg eller URL ”%s” för JS_WEBLABELS_FILE vid generering av webbetikettfil"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:12181 tta/C/convert/convert_html.c:2631
+ #, c-format, perl-format
+ msgid "overwriting output file with js licences: %s"
+-msgstr "skriver över utdatafil med js-licenser: %s"
++msgstr "skriver över utdatafilen med JS-licenser: %s"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:12904 tta/C/convert/convert_html.c:818
+ #, c-format, perl-format
+ msgid "handler %d of stage %s priority %s: non-numeric status"
+-msgstr "hanterare %d av steg %s prioritet %s: icke-numerisk status"
++msgstr "hanterare %d i steg %s med prioritet %s: icke-numerisk status"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:12911 tta/C/convert/convert_html.c:830
+ #, c-format, perl-format
+@@ -2467,7 +2469,7 @@
+ #: tta/perl/Texinfo/Convert/HTML.pm:12968 tta/C/convert/convert_html.c:2852
+ #, c-format, perl-format
+ msgid "error on creating empty %s: %s"
+-msgstr "fel vid skapande av tom %s: %s"
++msgstr "fel vid skapandet av en tom %s: %s"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:12973 tta/C/convert/convert_html.c:2864
+ #, c-format, perl-format
+@@ -2479,7 +2481,7 @@
+ #: tta/C/convert/convert_html.c:1110
+ #, c-format, perl-format
+ msgid "must specify a title with a title command or @top"
+-msgstr "måste ange en titel med ett titelkommando eller @top"
++msgstr "måste ange en titel med ett title-kommando eller @top"
+ 
+ #: tta/perl/Texinfo/Convert/HTML.pm:13368 tta/C/convert/convert_html.c:3064
+ #, c-format, perl-format
+@@ -2536,7 +2538,7 @@
+ #: tta/perl/Texinfo/Convert/HTML.pm:13523
+ #, perl-format
+ msgid "error on closing redirection node file %s: %s"
+-msgstr "fel vid stängning av omdirigeringsnodsfil %s: %s"
++msgstr "fel vid stängning av omdirigeringsnodfilen %s: %s"
+ 
+ #: tta/perl/Texinfo/Convert/Info.pm:168 tta/perl/Texinfo/Convert/Info.pm:171
+ #, perl-format
+@@ -2551,17 +2553,17 @@
+ #: tta/perl/Texinfo/Convert/Info.pm:246
+ #, perl-format
+ msgid "rename %s failed: %s"
+-msgstr "misslyckades med att byta namn på %s: %s"
++msgstr "namnbyte av %s misslyckades: %s"
+ 
+ #: tta/perl/Texinfo/Convert/Info.pm:364
+ #, perl-format
+ msgid "@%s output more than once: %s"
+-msgstr "@%s utmatat mer än en gång: %s"
++msgstr "@%s skriver ut mer än en gång: %s"
+ 
+ #: tta/perl/Texinfo/Convert/Info.pm:538
+ #, perl-format
+ msgid "@%s outside of any node"
+-msgstr "@%s utanför alla noder"
++msgstr "@%s utanför någon nod"
+ 
+ #: tta/perl/Texinfo/Convert/Info.pm:667
+ #, perl-format
+@@ -2593,22 +2595,22 @@
+ #: tta/perl/Texinfo/Convert/Info.pm:864
+ #, perl-format
+ msgid "@node name should not contain `,': %s"
+-msgstr "@node-namn borde innehålla ”,”: %s"
++msgstr "@node-namn får inte innehålla ”,”: %s"
+ 
+ #: tta/perl/Texinfo/Convert/Info.pm:905
+ #, perl-format
+ msgid "@node %s name should not contain `,': %s"
+-msgstr "@nod %s namn får inte innehålla `,': %s"
++msgstr "@node %s-namn får inte innehålla ”,”: %s"
+ 
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:3429
+ #, perl-format
+ msgid "\\verb delimiter `%s' (for LaTeX) used in text `%s'"
+-msgstr "\\verb avgränsare `%s' (för LaTeX) används i texten `%s'"
++msgstr "\\verb-avgränsare ”%s” (för LaTeX) används i texten ”%s”"
+ 
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:3469
+ #, perl-format
+ msgid "@image file `%s' (for LaTeX) not found"
+-msgstr "@image fil `%s' (för LaTeX) hittades inte"
++msgstr "@image-filen ”%s” (för LaTeX) hittades inte"
+ 
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:4997
+ #, perl-format
+@@ -2618,7 +2620,7 @@
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:5086
+ #, perl-format
+ msgid "math to images: chdir %s failed: %s"
+-msgstr "matematik till bilder: chdir %s misslyckades: %s"
++msgstr "matematik till bilder: kunde inte byta till katalogen %s: %s"
+ 
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:5094
+ #, perl-format
+@@ -2633,17 +2635,17 @@
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:5125
+ #, perl-format
+ msgid "math to images: closing communication failed: %s: %s"
+-msgstr "matematik till bilder: avslutande kommunikation misslyckades: %s: %s"
++msgstr "matematik till bilder: kunde inte avsluta kommunikationen: %s: %s"
+ 
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:5141
+ #, perl-format
+ msgid "math to images: dvi file missing: %s"
+-msgstr "matematik till bilder: utdatafil saknas: %s"
++msgstr "matematik till bilder: dvi-filen saknas: %s"
+ 
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:5156
+ #, perl-format
+ msgid "math to images: system `%s' failed: %d\n"
+-msgstr "matematik till bilder: system `%s' misslyckades %d\n"
++msgstr "matematik till bilder: systemanropet ”%s” misslyckades med %d\n"
+ 
+ #: tta/perl/Texinfo/Convert/LaTeX.pm:5163
+ #, perl-format
+@@ -2653,7 +2655,7 @@
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:707
+ #, perl-format
+ msgid "%s: output incompatible with split"
+-msgstr "%s: utmatning inkompatibel med delning"
++msgstr "%s: utdata är inkompatibel med delning"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2044
+ #, perl-format
+@@ -2664,7 +2666,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:3660 tta/C/parsetexi/indices.c:319
+ #, c-format, perl-format
+ msgid "entry for index `%s' outside of any node"
+-msgstr "post för index ”%s” är utanför alla noder"
++msgstr "post för index ”%s” utanför någon nod"
+ 
+ # This is broken
+ #
+@@ -2677,7 +2679,7 @@
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2102
+ #, perl-format
+ msgid "node name with index entries should not contain `%s'"
+-msgstr "nodnamn med indexposter får inte innehålla `%s'"
++msgstr "nodnamn med indexposter får inte innehålla ”%s”"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:2402
+ #, perl-format
+@@ -2693,15 +2695,15 @@
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:4121
+ #, perl-format
+ msgid "menu entry node name should not contain `%s'"
+-msgstr "nodnamn för menyobjekt borde inte innehålla ”%s”"
++msgstr "nodnamn för menyalternativ bör inte innehålla ”%s”"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:4132
+ msgid "menu entry node name should not contain `:'"
+-msgstr "nodnamn för menyobjekt borde inte innehålla ”:”"
++msgstr "nodnamn för menyalternativ bör inte innehålla ”:”"
+ 
+ #: tta/perl/Texinfo/Convert/Plaintext.pm:4167
+ msgid "menu entry name should not contain `:'"
+-msgstr "namn för menyobjekt borde inte innehålla ”:”"
++msgstr "namn för menyalternativ bör inte innehålla ”:”"
+ 
+ #: tta/perl/Texinfo/Convert/Utils.pm:537
+ #: tta/perl/Texinfo/Example/TreeElementConverter.pm:1097
+@@ -2722,7 +2724,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:3892 tta/C/main/convert_utils.c:713
+ #, c-format, perl-format
+ msgid "@%s: could not find %s"
+-msgstr "%s: kunde inte hitta %s"
++msgstr "@%s: kunde inte hitta %s"
+ 
+ #: tta/perl/Texinfo/Indices.pm:333 tta/C/main/manipulate_indices.c:484
+ #, c-format, perl-format
+@@ -2732,7 +2734,7 @@
+ #: tta/perl/Texinfo/Indices.pm:357
+ #, perl-format
+ msgid "empty index sub entry %d key in @%s"
+-msgstr "tom indexunderpost %d nyckel i @%s"
++msgstr "tom nyckel för indexunderpost %d i @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:980 tta/C/parsetexi/api.c:163
+ #, c-format, perl-format
+@@ -2742,13 +2744,13 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:1266 tta/C/parsetexi/parser.c:421
+ #, c-format, perl-format
+ msgid "multiple %s (@%s)"
+-msgstr "multipla %s (@%s)"
++msgstr "flera %s (@%s)"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:1269 tta/perl/Texinfo/Structuring.pm:631
+ #: tta/C/parsetexi/parser.c:424 tta/C/structuring_transfo/structuring.c:955
+ #, c-format, perl-format
+ msgid "multiple @%s"
+-msgstr "multipla @%s"
++msgstr "flera @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:1409 tta/perl/Texinfo/ParserNonXS.pm:4550
+ #: tta/perl/Texinfo/ParserNonXS.pm:4590 tta/C/parsetexi/end_line.c:1065
+@@ -2800,7 +2802,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:1851 tta/C/parsetexi/multitable.c:77
+ #, c-format, perl-format
+ msgid "@itemx should not begin @%s"
+-msgstr "@itemx borde inte inleda @%s"
++msgstr "@itemx bör inte inleda @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:1998 tta/C/parsetexi/multitable.c:214
+ #, c-format
+@@ -2825,7 +2827,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:2224 tta/C/parsetexi/close.c:424
+ #, c-format, perl-format
+ msgid "no matching `@end %s'"
+-msgstr "inget matchande ”@end %s”"
++msgstr "ingen matchande ”@end %s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:2248 tta/perl/Texinfo/ParserNonXS.pm:2259
+ #: tta/perl/Texinfo/ParserNonXS.pm:6687 tta/C/parsetexi/close.c:451
+@@ -2842,7 +2844,7 @@
+ #: tta/C/parsetexi/parser.c:2222 tta/C/parsetexi/parser.c:2272
+ #, c-format, perl-format
+ msgid "@%s expected braces"
+-msgstr "@%s förväntade klamrar"
++msgstr "@%s förväntar sig klamrar"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:2350
+ #, perl-format
+@@ -2852,7 +2854,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:2779 tta/C/parsetexi/macro.c:379
+ #, c-format, perl-format
+ msgid "use %s instead of %s in macro arg"
+-msgstr "använd %s istället för %s i makro argument"
++msgstr "använd %s i stället för %s i makroargument"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:2813 tta/C/parsetexi/macro.c:433
+ #, c-format, perl-format
+@@ -2862,12 +2864,12 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:2847 tta/C/parsetexi/macro.c:449
+ #, c-format, perl-format
+ msgid "macro `%s' declared without argument called with an argument"
+-msgstr "makro ”%s” deklarerat utan argument, anropades med ett argument"
++msgstr "makrot ”%s”, som deklarerats utan argument, anropades med ett argument"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:3040 tta/C/parsetexi/macro.c:713
+ #, c-format, perl-format
+ msgid "\\ in @%s expansion followed `%s' instead of parameter name or \\"
+-msgstr "\\ i @%sa-expansion följdes av ”%s” istället för parameternamn eller \\"
++msgstr "\\ i @%s-expansion följdes av ”%s” i stället för parameternamn eller \\"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:3827 tta/perl/Texinfo/ParserNonXS.pm:4052
+ #: tta/perl/Texinfo/ParserNonXS.pm:8230 tta/C/parsetexi/end_line.c:135
+@@ -2899,7 +2901,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:3918 tta/C/parsetexi/end_line.c:1371
+ #, c-format, perl-format
+ msgid "bad encoding name `%s'"
+-msgstr "dåligt kodningsnamn `%s'"
++msgstr "ogiltigt kodningsnamn ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:3924 tta/C/parsetexi/end_line.c:1406
+ #, c-format, perl-format
+@@ -2909,7 +2911,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:3955 tta/C/parsetexi/end_line.c:1473
+ #, c-format, perl-format
+ msgid "unhandled encoding name `%s'"
+-msgstr "ohanterat kodningsnamn `%s'"
++msgstr "inte hanterat kodningsnamn ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:4016 tta/perl/Texinfo/ParserNonXS.pm:6738
+ #: tta/C/parsetexi/end_line.c:1570 tta/C/parsetexi/separator.c:305
+@@ -2921,7 +2923,7 @@
+ #: tta/C/parsetexi/end_line.c:1703 tta/C/parsetexi/end_line.c:1712
+ #, c-format, perl-format
+ msgid "ignoring multiple @%s"
+-msgstr "hoppar över multipla @%s"
++msgstr "hoppar över flera @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:4180
+ #, perl-format
+@@ -2931,12 +2933,12 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:4189
+ #, perl-format
+ msgid "@%s only meaningful on a @multitable line"
+-msgstr "@%s är inte meningsfullt utanför @multitabell-rad"
++msgstr "@%s är endast meningsfullt på en @multitable-rad"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:4231
+ #, perl-format
+ msgid "@node precedes @%s, but parts may not be associated with nodes"
+-msgstr "@node föregår @%s, men delar kanske inte associeras med noder"
++msgstr "@node föregår @%s, men delar kanske inte kan associeras med noder"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:4269 tta/C/parsetexi/end_line.c:795
+ #, c-format, perl-format
+@@ -2974,12 +2976,12 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:4477 tta/C/parsetexi/end_line.c:973
+ #, c-format, perl-format
+ msgid "accent command `@%s' not allowed as @%s argument"
+-msgstr "accentkommando ”@%s” inte tillåtet som @%s-argument"
++msgstr "accentkommando ”@%s” är inte tillåtet som @%s-argument"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:4509 tta/C/parsetexi/end_line.c:1010
+ #, c-format, perl-format
+ msgid "missing @%s argument"
+-msgstr "saknar @%s argument"
++msgstr "saknar argument till @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:4517 tta/C/parsetexi/end_line.c:1019
+ #, c-format, perl-format
+@@ -2999,42 +3001,42 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:5012 tta/C/parsetexi/menus.c:59
+ #, c-format, perl-format
+ msgid "empty menu entry name in `%s'"
+-msgstr "tomt namn för menyobjekt i ”%s”"
++msgstr "tomt namn för menyalternativ i ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5021 tta/C/parsetexi/menus.c:74
+ #, c-format
+ msgid "empty node name in menu entry"
+-msgstr "tomt nodnamn i menyobjekt"
++msgstr "tomt nodnamn i menyalternativ"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5219 tta/C/parsetexi/parser.c:1394
+ #, c-format, perl-format
+ msgid "@%s should not appear in @%s"
+-msgstr "@%s borde inte förekomma i @%s"
++msgstr "@%s bör inte förekomma i @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5230 tta/C/parsetexi/parser.c:1408
+ #, c-format, perl-format
+ msgid "@%s should not appear anywhere inside caption"
+-msgstr "@%s ska inte visas någonstans i bildtexten"
++msgstr "@%s bör inte förekomma någonstans i bildtexten"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5247 tta/C/parsetexi/parser.c:1462
+ #, c-format, perl-format
+ msgid "@%s should not appear anywhere inside @%s"
+-msgstr "@%s ska inte visas någonstans inuti @%s"
++msgstr "@%s bör inte förekomma någonstans i @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5273 tta/C/parsetexi/parser.c:1477
+ #, c-format, perl-format
+ msgid "@%s should not appear on @%s line"
+-msgstr "@%s ska inte visas på @%s rad"
++msgstr "@%s bör inte förekomma på @%s-raden"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5287 tta/C/parsetexi/parser.c:1491
+ #, c-format, perl-format
+ msgid "@%s should not appear in @%s block"
+-msgstr "@%s ska inte visas i @%s block"
++msgstr "@%s bör inte förekomma i @%s-blocket"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5341 tta/C/parsetexi/macro.c:834
+ #, c-format, perl-format
+ msgid "macro call nested too deeply (set MAX_MACRO_CALL_NESTING to override; current value %d)"
+-msgstr "makroanrop kapslat för djupt (ställ in MAX_MACRO_CALL_NESTING för att åsidosätta; aktuellt värde %d)"
++msgstr "makroanrop är kapslat för djupt (ställ in MAX_MACRO_CALL_NESTING för att åsidosätta; aktuellt värde %d)"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5352 tta/C/parsetexi/macro.c:824
+ #, c-format, perl-format
+@@ -3044,17 +3046,17 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:5394 tta/C/parsetexi/macro.c:872
+ #, c-format, perl-format
+ msgid "@%s defined with zero or more than one argument should be invoked with {}"
+-msgstr "@%s definierat med noll eller fler än ett argument bör anropas med {}"
++msgstr "@%s som definierats med noll eller fler än ett argument bör anropas med {}"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5707 tta/C/parsetexi/handle_commands.c:434
+ #, c-format, perl-format
+ msgid "@%s should only appear in heading or footing"
+-msgstr "@%s borde endast förekomma i rubriker eller fotnoter"
++msgstr "@%s bör endast förekomma i rubrik eller sidfot"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5714
+ #, perl-format
+ msgid "@%s should only appear in math context"
+-msgstr "@%s borde endast förekomma i matematikkontext"
++msgstr "@%s bör endast förekomma i matematiskt sammanhang"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:5751 tta/perl/Texinfo/ParserNonXS.pm:5759
+ #: tta/C/parsetexi/handle_commands.c:486 tta/C/parsetexi/handle_commands.c:495
+@@ -3113,7 +3115,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:6178 tta/C/parsetexi/handle_commands.c:1031
+ #, c-format
+ msgid "@nodedescription outside of any node"
+-msgstr "@nodedescription utanför valfri nod"
++msgstr "@nodedescription utanför någon nod"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6185 tta/perl/Texinfo/ParserNonXS.pm:6506
+ #: tta/C/parsetexi/handle_commands.c:1445
+@@ -3124,7 +3126,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:6201 tta/C/parsetexi/handle_commands.c:1058
+ #, c-format
+ msgid "no more than two levels of index subentry are allowed"
+-msgstr "fler än två nivåer av index underposter tillåts"
++msgstr "högst två nivåer av indexunderposter tillåts"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6244 tta/C/parsetexi/handle_commands.c:1142
+ #, c-format, perl-format
+@@ -3159,7 +3161,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:6442 tta/C/parsetexi/handle_commands.c:1368
+ #, c-format
+ msgid "@nodedescriptionblock outside of any node"
+-msgstr "@nodedescriptionblock utanför valfri nod"
++msgstr "@nodedescriptionblock utanför någon nod"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6561 tta/C/parsetexi/separator.c:87
+ #, c-format
+@@ -3169,17 +3171,17 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:6582 tta/C/parsetexi/separator.c:122
+ #, c-format, perl-format
+ msgid "@%s is not meaningful outside `@float' environment"
+-msgstr "@%s är inte meningsfullt utanför ”@float”-omgivning"
++msgstr "@%s är inte meningsfullt utanför miljön ”@float”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6586 tta/C/parsetexi/separator.c:127
+ #, c-format, perl-format
+ msgid "@%s should be right below `@float'"
+-msgstr "@%s borde vara direkt under ”@float”"
++msgstr "@%s bör vara direkt under ”@float”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6771 tta/C/parsetexi/separator.c:335
+ #, c-format, perl-format
+ msgid "command @%s missing a node or external manual argument"
+-msgstr "kommando @%s saknar nod- eller extern manual-argument"
++msgstr "kommando @%s saknar argument för en nod eller extern manual"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6796 tta/C/parsetexi/separator.c:391
+ #, c-format, perl-format
+@@ -3205,7 +3207,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:6842 tta/C/parsetexi/separator.c:453
+ #, c-format, perl-format
+ msgid "@%s missing first argument"
+-msgstr "%s: saknar första argumentet"
++msgstr "@%s saknar första argumentet"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6858 tta/C/parsetexi/separator.c:475
+ #, c-format
+@@ -3225,7 +3227,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:6883 tta/C/parsetexi/separator.c:504
+ #, c-format, perl-format
+ msgid "argument for @U exceeds Unicode maximum 0x10FFFF: %s"
+-msgstr "argument till @U överstiger största Unicode 0x10FFFF: %s"
++msgstr "argument till @U överstiger det maximala Unicode-värdet 0x10FFFF: %s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:6894 tta/C/parsetexi/separator.c:519
+ #, c-format, perl-format
+@@ -3248,7 +3250,7 @@
+ #: tta/C/parsetexi/parser.c:1579 tta/C/parsetexi/parser.c:1712
+ #, c-format, perl-format
+ msgid "@end %s should only appear at the beginning of a line"
+-msgstr "@end %s ska bara uppträda vid böjran på en rad"
++msgstr "@end %s ska endast uppträda i början av en rad"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:7178 tta/C/parsetexi/parser.c:1595
+ #, c-format, perl-format
+@@ -3273,7 +3275,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:7446 tta/C/parsetexi/parser.c:2028
+ #, c-format, perl-format
+ msgid "value call nested too deeply (set MAX_MACRO_CALL_NESTING to override; current value %d)"
+-msgstr "värdeanrop kapslat för djupt (ställ in MAX_MACRO_CALL_NESTING för att åsidosätta; aktuellt värde %d)"
++msgstr "värdeanrop är kapslat för djupt (ställ in MAX_MACRO_CALL_NESTING för att åsidosätta; aktuellt värde %d)"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:7517 tta/C/parsetexi/parser.c:2140
+ #, c-format, perl-format
+@@ -3283,7 +3285,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:7552 tta/C/parsetexi/parser.c:2173
+ #, c-format, perl-format
+ msgid "command `@%s' must not be followed by new line"
+-msgstr "kommandot `@%s' får inte följas av en ny rad"
++msgstr "kommandot ”@%s” får inte följas av en ny rad"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:7661 tta/C/parsetexi/parser.c:2343
+ #, c-format, perl-format
+@@ -3293,7 +3295,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:7680 tta/C/parsetexi/parser.c:2383
+ #, c-format, perl-format
+ msgid "bad syntax for @%s"
+-msgstr "dålig syntax för @%s"
++msgstr "felaktig syntax för @%s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:7688 tta/C/parsetexi/parser.c:2393
+ #, c-format, perl-format
+@@ -3303,7 +3305,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:7712 tta/C/parsetexi/parser.c:2421
+ #, c-format, perl-format
+ msgid "@%s should only appear at the beginning of a line"
+-msgstr "@%s borde enbart uppträda vid början på en rad"
++msgstr "@%s bör endast uppträda i början av en rad"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:7861 tta/C/parsetexi/parser.c:2573
+ #, c-format
+@@ -3328,7 +3330,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8203 tta/C/parsetexi/handle_commands.c:398
+ #, c-format, perl-format
+ msgid "@clickstyle should only accept an @-command as argument, not `%s'"
+-msgstr "@clickstyle borde endast acceptera ett @-kommando som argument, inte ”%s”"
++msgstr "@clickstyle bör endast acceptera ett @-kommando som argument, inte ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8253 tta/C/parsetexi/end_line.c:198
+ #, c-format, perl-format
+@@ -3338,7 +3340,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8262 tta/C/parsetexi/end_line.c:206
+ #, c-format, perl-format
+ msgid "recursive alias definition of %s through %s ignored"
+-msgstr "rekursiv aliasdefinition av %s till %s ignoreras"
++msgstr "rekursiv aliasdefinition av %s genom %s ignoreras"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8289 tta/C/parsetexi/end_line.c:277
+ #, c-format, perl-format
+@@ -3358,12 +3360,12 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8327 tta/C/parsetexi/end_line.c:331
+ #, c-format, perl-format
+ msgid "column fraction not a number: %s"
+-msgstr "kolumndecimal inte ett nummer: %s"
++msgstr "kolumnandel är inte ett tal: %s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8336 tta/C/parsetexi/end_line.c:351
+ #, c-format, perl-format
+ msgid "@sp arg must be numeric, not `%s'"
+-msgstr "@sp argument måste vara numeriskt, inte ”%s”"
++msgstr "@sp-argument måste vara numeriskt, inte ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8348 tta/C/parsetexi/end_line.c:397
+ #, c-format, perl-format
+@@ -3383,7 +3385,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8408 tta/C/parsetexi/end_line.c:461
+ #, c-format, perl-format
+ msgid "@%s leads to a merging of %s in itself, ignoring"
+-msgstr "@%s leder till en sammanfogning av %s med sig själv, hoppar över"
++msgstr "@%s leder till att %s sammanfogas med sig självt; ignoreras"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8425 tta/C/parsetexi/end_line.c:489
+ #, c-format, perl-format
+@@ -3393,12 +3395,12 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8433 tta/C/parsetexi/end_line.c:496
+ #, c-format, perl-format
+ msgid "printing an index `%s' merged in another one, `%s'"
+-msgstr "skriver ut ett index ”%s” sammanfogat med et annat, ”%s”"
++msgstr "skriver ut ett index ”%s” som sammanfogats med ett annat, ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8441 tta/C/parsetexi/end_line.c:502
+ #, c-format, perl-format
+ msgid "printindex before document beginning: @printindex %s"
+-msgstr "prindindex före dokument börjar: @printindex %s"
++msgstr "@printindex före dokumentets början: @printindex %s"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8455 tta/C/parsetexi/end_line.c:535
+ #, c-format, perl-format
+@@ -3413,7 +3415,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8471 tta/C/parsetexi/end_line.c:558
+ #, c-format, perl-format
+ msgid "@setchapternewpage arg must be `on', `off' or `odd', not `%s'"
+-msgstr "@setchapternewpage argument måste vara ”on”, ”off” eller ”odd”, inte ”%s”"
++msgstr "@setchapternewpage-argument måste vara ”on”, ”off” eller ”odd”, inte ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8479 tta/C/parsetexi/end_line.c:569
+ #, c-format, perl-format
+@@ -3424,7 +3426,7 @@
+ #: tta/C/parsetexi/end_line.c:579
+ #, c-format, perl-format
+ msgid "@paragraphindent arg must be numeric/`none'/`asis', not `%s'"
+-msgstr "@paragraphindent-argument måste vara numeriskt/”none”/”asis” inte, ”%s”"
++msgstr "@paragraphindent-argument måste vara numeriskt/”none”/”asis”, inte ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8502 tta/C/parsetexi/end_line.c:590
+ #, c-format, perl-format
+@@ -3439,7 +3441,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8524 tta/C/parsetexi/end_line.c:616
+ #, c-format, perl-format
+ msgid "expected @%s on or off, not `%s'"
+-msgstr "förväntade @%s on eller off, inte ”%s”"
++msgstr "förväntade sig @%s on eller off, inte ”%s”"
+ 
+ #: tta/perl/Texinfo/ParserNonXS.pm:8533 tta/C/parsetexi/end_line.c:636
+ #, c-format, perl-format
+@@ -3459,7 +3461,7 @@
+ #: tta/perl/Texinfo/ParserNonXS.pm:8567 tta/C/parsetexi/end_line.c:523
+ #, c-format, perl-format
+ msgid "@%s arg must be `top' or `bottom', not `%s'"
+-msgstr "@%s argument måste vara ”top” eller ”bottom”, inte ”%s”"
++msgstr "@%s-argument måste vara ”top” eller ”bottom”, inte ”%s”"
+ 
+ #: tta/perl/Texinfo/Report.pm:80 tta/C/main/errors.c:104
+ #, c-format, perl-format
+@@ -3501,7 +3503,7 @@
+ #: tta/C/structuring_transfo/structuring.c:234
+ #, c-format, perl-format
+ msgid "no chapter-level command before @%s"
+-msgstr "inget kapitelnivåkommando före @%s"
++msgstr "inget kommando på kapitelnivå före @%s"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:240
+ #: tta/C/structuring_transfo/structuring.c:241
+@@ -3513,26 +3515,26 @@
+ #: tta/C/structuring_transfo/structuring.c:412
+ #, c-format, perl-format
+ msgid "no sectioning command associated with @%s"
+-msgstr "inget avsnittskommando associerat med @%s"
++msgstr "inget avsnittskommando kopplat till @%s"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:391
+ #: tta/C/structuring_transfo/structuring.c:437
+ #, c-format, perl-format
+ msgid "@%s not empty"
+-msgstr "@%s inte tomt"
++msgstr "@%s är inte tomt"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:416 tta/perl/Texinfo/Structuring.pm:1616
+ #: tta/C/structuring_transfo/structuring.c:460
+ #: tta/C/structuring_transfo/structuring.c:2003
+ #, c-format, perl-format
+ msgid "@%s reference to nonexistent node `%s'"
+-msgstr "@%s-referens till icke-existerande node ”%s”"
++msgstr "@%s-referens till obefintlig nod ”%s”"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:424
+ #: tta/C/structuring_transfo/structuring.c:474
+ #, c-format, perl-format
+ msgid "@%s entry node name `%s' different from %s name `%s'"
+-msgstr "@%s postnodsnamn ”%s” skiljer sig från %s namn ”%s”"
++msgstr "@%s-postens nodnamn ”%s” skiljer sig från %s-namnet ”%s”"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:581
+ #: tta/C/structuring_transfo/structuring.c:868
+@@ -3550,13 +3552,13 @@
+ #: tta/C/structuring_transfo/structuring.c:1236
+ #, c-format, perl-format
+ msgid "node `%s' in menu in `%s' but not under it in sectioning"
+-msgstr "nod ”%s” är i meny vid %s men inte avsnittsuppdelning"
++msgstr "nod ”%s” finns i menyn i ”%s” men ligger inte under den i avsnittsindelningen"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:810
+ #: tta/C/structuring_transfo/structuring.c:1258
+ #, c-format, perl-format
+ msgid "node `%s' in menu in `%s' but under `%s' in sectioning"
+-msgstr "nod `%s' är i menyn vid `%s' men inte under `%s' i avsnittsuppdelning"
++msgstr "nod ”%s” finns i menyn i ”%s” men ligger under ”%s” i avsnittsindelningen"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:891
+ #: tta/C/structuring_transfo/structuring.c:1378
+@@ -3583,7 +3585,7 @@
+ #: tta/C/structuring_transfo/structuring.c:1661
+ #, c-format, perl-format
+ msgid "node %s pointer for `%s' is `%s' but %s is `%s' in menu"
+-msgstr "nod %s pekare för `%s' är `%s' men %s är `%s' i menyn"
++msgstr "nodens %s-pekare för ”%s” är ”%s” men %s är ”%s” i menyn"
+ 
+ #: tta/perl/Texinfo/Structuring.pm:1255
+ #: tta/C/structuring_transfo/structuring.c:1900
+@@ -3607,7 +3609,7 @@
+ #: tta/C/structuring_transfo/structuring.c:2576
+ #, c-format, perl-format
+ msgid "node `%s' appears in its own menus"
+-msgstr "nod `%s' visas i sina egna menyer"
++msgstr "nod ”%s” förekommer i sina egna menyer"
+ 
+ #: tta/perl/Texinfo/Transformations.pm:946
+ #: tta/C/structuring_transfo/transformations.c:1508
+@@ -3631,17 +3633,17 @@
+ #: tta/perl/init/chm.pm:300 tta/perl/init/chm.pm:385 tta/perl/init/chm.pm:457
+ #, perl-format
+ msgid "chm.pm: error on closing %s: %s"
+-msgstr "chm.pm: fel vid stängning %s: %s"
++msgstr "chm.pm: fel vid stängning av %s: %s"
+ 
+ #: tta/perl/ext/epub3.pm:319
+ #, perl-format
+ msgid "@image file `%s' can not be copied"
+-msgstr "@image fil `%s' kan inte kopieras"
++msgstr "@image-filen ”%s” kan inte kopieras"
+ 
+ #: tta/perl/ext/epub3.pm:331
+ #, perl-format
+ msgid "could not create images directory `%s': %s"
+-msgstr "kunde inte skapa bildkatalogen `%s': %s"
++msgstr "kunde inte skapa bildkatalogen ”%s”: %s"
+ 
+ #: tta/perl/ext/epub3.pm:351
+ #, perl-format
+@@ -3656,12 +3658,12 @@
+ #: tta/perl/ext/epub3.pm:435
+ #, perl-format
+ msgid "error removing directory: %s: unlinking %s: %s"
+-msgstr "fel vid borttagning av katalog: %s: avlänkar %s: %s"
++msgstr "fel vid borttagning av katalog: %s: avlänkning av %s: %s"
+ 
+ #: tta/perl/ext/epub3.pm:479
+ #, perl-format
+ msgid "Archive::Zip is required for EPUB file output"
+-msgstr "Arkiv::Zip krävs för EPUB-filutmatning"
++msgstr "Archive::Zip krävs för EPUB-filutdata"
+ 
+ #: tta/perl/ext/epub3.pm:570
+ #, perl-format
+@@ -3676,12 +3678,12 @@
+ #: tta/perl/ext/epub3.pm:612
+ #, perl-format
+ msgid "epub: no filename output"
+-msgstr "epub: ingen filnamnsutmatning"
++msgstr "epub: inget filnamn för utdata"
+ 
+ #: tta/perl/ext/epub3.pm:623
+ #, perl-format
+ msgid "could not create meta informations directory `%s': %s"
+-msgstr "kunde inte skapa metainformationskatalog `%s': %s"
++msgstr "kunde inte skapa metainformationskatalogen ”%s”: %s"
+ 
+ #: tta/perl/ext/epub3.pm:637 tta/perl/ext/epub3.pm:678
+ #: tta/perl/ext/epub3.pm:711 tta/perl/ext/epub3.pm:846
+@@ -3693,12 +3695,12 @@
+ #: tta/perl/ext/epub3.pm:802 tta/perl/ext/epub3.pm:1013
+ #, perl-format
+ msgid "epub3.pm: error on closing %s: %s"
+-msgstr "epub3.pm: fel vid stängning %s: %s"
++msgstr "epub3.pm: fel vid stängning av %s: %s"
+ 
+ #: tta/perl/ext/epub3.pm:965
+ #, perl-format
+ msgid "epub3.pm: readdir %s error: %s"
+-msgstr "epub3.pm: fel vid läsning av katalog %s fel: %s"
++msgstr "epub3.pm: fel vid readdir av %s: %s"
+ 
+ #: tta/perl/ext/epub3.pm:1033 tta/perl/ext/epub3.pm:1042
+ #: tta/perl/ext/epub3.pm:1055
+@@ -3709,7 +3711,7 @@
+ #: tta/perl/ext/epub3.pm:1064
+ #, perl-format
+ msgid "epub3.pm: error writing archive %s"
+-msgstr "epub3.pm: fel vid skrivning av arkiv %s"
++msgstr "epub3.pm: fel vid skrivning av arkivet %s"
+ 
+ #: tta/perl/ext/highlight_syntax.pm:140 tta/perl/ext/highlight_syntax.pm:415
+ #, perl-format
+@@ -3729,17 +3731,17 @@
+ #: tta/perl/ext/highlight_syntax.pm:425
+ #, perl-format
+ msgid "%s: error closing input: %s"
+-msgstr "%s: fel vid stängning av ingång: %s"
++msgstr "%s: fel vid stängning av indata: %s"
+ 
+ #: tta/perl/ext/highlight_syntax.pm:436
+ #, perl-format
+ msgid "%s: error closing output: %s"
+-msgstr "%s: fel vid stängning av utgång: %s"
++msgstr "%s: fel vid stängning av utdata: %s"
+ 
+ #: tta/perl/ext/highlight_syntax.pm:441
+ #, perl-format
+ msgid "%s: error closing errors: %s"
+-msgstr "%s: fel vid stängning: %s"
++msgstr "%s: fel vid stängning av felutdata: %s"
+ 
+ #: tta/perl/ext/highlight_syntax.pm:449
+ #, perl-format
+@@ -3754,7 +3756,7 @@
+ #: tta/perl/ext/highlight_syntax.pm:501
+ #, perl-format
+ msgid "highlight_syntax.pm: could not make directory %s: %s"
+-msgstr "highlight_syntax.pm: kunde inte skapa katalog %s: %s"
++msgstr "highlight_syntax.pm: kunde inte skapa katalogen %s: %s"
+ 
+ #: tta/perl/ext/highlight_syntax.pm:526 tta/perl/ext/highlight_syntax.pm:598
+ #, perl-format
+@@ -3774,7 +3776,7 @@
+ #: tta/perl/ext/highlight_syntax.pm:633
+ #, perl-format
+ msgid "highlight_syntax.pm: %s: %d separators; expected %d, the number of fragments +1"
+-msgstr "highlight_syntax.pm: %s: %d separatorer; förväntat %d, antalet fragment +1"
++msgstr "highlight_syntax.pm: %s: %d avgränsare; förväntade %d, antalet fragment +1"
+ 
+ #: tta/perl/ext/highlight_syntax.pm:640
+ #, perl-format
+@@ -3789,7 +3791,7 @@
+ #: tta/perl/ext/highlight_syntax.pm:711
+ #, perl-format
+ msgid "highlight_syntax.pm: output has HTML item for @%s but no language %s"
+-msgstr "highlight_syntax.pm: utdata har inget HTML-objekt för @%s men inget språk %s"
++msgstr "highlight_syntax.pm: utdata har HTML-objekt för @%s men inget språk %s"
+ 
+ #: tta/perl/ext/highlight_syntax.pm:807
+ #, perl-format
+@@ -3809,7 +3811,7 @@
+ #: tta/perl/ext/latex2html.pm:381
+ #, perl-format
+ msgid "latex2html.pm: processing produced %d items in HTML; expected %d"
+-msgstr "latex2html.pm: bearbetning producerade %d objekt i HTML; förväntade %d"
++msgstr "latex2html.pm: bearbetningen gav %d objekt i HTML; förväntade %d"
+ 
+ #: tta/perl/ext/latex2html.pm:419
+ #, perl-format
+@@ -3824,7 +3826,7 @@
+ #: tta/perl/ext/latex2html.pm:432
+ #, perl-format
+ msgid "l2h: command not set"
+-msgstr "l2h: kommando inte inställt"
++msgstr "l2h: kommando har inte angetts"
+ 
+ #: tta/perl/ext/latex2html.pm:490
+ #, perl-format
+@@ -3839,12 +3841,12 @@
+ #: tta/perl/ext/latex2html.pm:557
+ #, perl-format
+ msgid "latex2html.pm: end of @%s text %d not found"
+-msgstr "latex2html.pm: slut på @%s text %d hittades inte"
++msgstr "latex2html.pm: slut på @%s-text %d hittades inte"
+ 
+ #: tta/perl/ext/latex2html.pm:565
+ #, perl-format
+ msgid "l2h: error on closing html file %s: %s"
+-msgstr "l2h: fel vid stängning av htmlfil %s: %s"
++msgstr "l2h: fel vid stängning av HTML-fil %s: %s"
+ 
+ #: tta/perl/ext/latex2html.pm:640
+ #, perl-format
+@@ -3854,7 +3856,7 @@
+ #: tta/perl/ext/latex2html.pm:707
+ #, perl-format
+ msgid "l2h: could not unlink file %s: %s"
+-msgstr "l2h: kunde inte koppla bort länken till fil %s: %s"
++msgstr "l2h: kunde inte avlänka filen %s: %s"
+ 
+ #: tta/perl/ext/latex2html.pm:745
+ #, perl-format
+@@ -3904,17 +3906,17 @@
+ #: tta/perl/ext/tex4ht.pm:304
+ #, perl-format
+ msgid "tex4ht.pm: error on closing %s: %s"
+-msgstr "tex4ht.pm: fel vid stängning %s: %s"
++msgstr "tex4ht.pm: fel vid stängning av %s: %s"
+ 
+ #: tta/perl/ext/tex4ht.pm:331
+ #, perl-format
+ msgid "tex4ht.pm: chdir %s failed: %s"
+-msgstr "tex4ht.pm: chdir %s misslyckades: %s"
++msgstr "tex4ht.pm: kunde inte byta till katalogen %s: %s"
+ 
+ #: tta/perl/ext/tex4ht.pm:345
+ #, perl-format
+ msgid "tex4ht.pm: unable to return to initial directory: %s"
+-msgstr "tex4ht.pm: kan inte återgå till tidigare katalog: %s"
++msgstr "tex4ht.pm: kunde inte återgå till den ursprungliga katalogen: %s"
+ 
+ #: tta/perl/ext/tex4ht.pm:359
+ #, perl-format
+@@ -3929,17 +3931,17 @@
+ #: tta/perl/ext/tex4ht.pm:392
+ #, perl-format
+ msgid "tex4ht.pm: closing communication failed: %s: %s"
+-msgstr "tex4ht.pm: avslutande kommunikation misslyckades: %s: %s"
++msgstr "tex4ht.pm: kunde inte avsluta kommunikationen: %s: %s"
+ 
+ #: tta/perl/ext/tex4ht.pm:441
+ #, perl-format
+ msgid "tex4ht.pm: end of %s item %d for @%s not found"
+-msgstr "tex4ht.pm: slut på %s objekt %d för @%s hittades inte"
++msgstr "tex4ht.pm: slut på %s-objekt %d för @%s hittades inte"
+ 
+ #: tta/perl/ext/tex4ht.pm:450
+ #, perl-format
+ msgid "tex4ht.pm: processing produced %d items in HTML; expected %d for format %s"
+-msgstr "tex4ht.pm: bearbetning producerade %d objekt i HTML; förväntade %d för format %s"
++msgstr "tex4ht.pm: bearbetningen gav %d objekt i HTML; förväntade %d för format %s"
+ 
+ #: tta/perl/ext/tex4ht.pm:485
+ #, perl-format
+@@ -3949,7 +3951,7 @@
+ #: tta/perl/ext/tex4ht.pm:502
+ #, perl-format
+ msgid "tex4ht.pm: output counter UNDEF; expected %d for @%s"
+-msgstr "tex4ht.pm: utgångsräknare UNDEF; förväntade %d för @%s"
++msgstr "tex4ht.pm: utdataräknaren UNDEF; förväntade %d för @%s"
+ 
+ #: tta/perl/ext/tex4ht.pm:506
+ #, perl-format
+@@ -3959,7 +3961,7 @@
+ #: tta/perl/ext/tex4ht.pm:513
+ #, perl-format
+ msgid "tex4ht.pm: processing retrieved %d items in HTML; collected %d for @%s"
+-msgstr "tex4ht.pm: bearbetar hämtade %d objekt i HTML; samlade %d för @%s"
++msgstr "tex4ht.pm: bearbetningen hämtade %d objekt i HTML; samlade %d för @%s"
+ 
+ #: tta/perl/texi2any.pl:679
+ #, perl-format
+@@ -3974,7 +3976,7 @@
+ #: tta/perl/texi2any.pl:988
+ #, perl-format
+ msgid "ignoring unrecognized TEXINFO_OUTPUT_FORMAT value `%s'"
+-msgstr "ignorerar okänt TEXINFO_OUTPUT_FORMAT värde `%s'"
++msgstr "ignorerar okänt TEXINFO_OUTPUT_FORMAT-värde ”%s”"
+ 
+ #: tta/perl/texi2any.pl:1046 tta/C/texi2any.c:1814
+ #, c-format, perl-format
+@@ -3989,23 +3991,23 @@
+ "This program is commonly installed as both `makeinfo' and `texi2any';\n"
+ "the behavior is identical, and does not depend on the installed name."
+ msgstr ""
+-"Översätt Texinfo-källdokumentation till diverse andra format, som standard\n"
+-"infofiler som är lämpliga för läsning med Emacs eller fristående GNU Info.\n"
++"Översätter Texinfo-källdokumentation till olika andra format, som standard\n"
++"Info-filer som är lämpliga för läsning med Emacs eller fristående GNU Info.\n"
+ "\n"
+-"Detta program installerars vanligen som både ”makeinfo” och ”texi2any”;\n"
+-"beteende är identiskt och beror inte på namnet det installeras under."
++"Programmet installeras vanligen som både ”makeinfo” och ”texi2any”;\n"
++"beteendet är detsamma och beror inte på vilket namn programmet installerats under."
+ 
+ #: tta/perl/texi2any.pl:1055 tta/C/texi2any.c:1829
+ msgid "General options:"
+-msgstr "Allmänna alternativ:"
++msgstr "Allmänna flaggor:"
+ 
+ #: tta/perl/texi2any.pl:1056 tta/C/texi2any.c:1832
+ msgid ""
+ "      --document-language=STR locale to use in translating Texinfo keywords\n"
+ "                                for the output document (default C)"
+ msgstr ""
+-"      --document-language=STR-språk att använda vid översättning av Texinfo-nyckelord\n"
+-"                                för utdatadokumentet (standard C)."
++"      --document-language=STR språkinställning att använda vid översättning av Texinfo-nyckelord\n"
++"                                för utdatadokumentet (standard C)"
+ 
+ #: tta/perl/texi2any.pl:1058 tta/C/texi2any.c:1836
+ #, c-format, perl-format
+@@ -4014,19 +4016,19 @@
+ 
+ #: tta/perl/texi2any.pl:1060 tta/C/texi2any.c:1840
+ msgid "      --force                 preserve output even if errors"
+-msgstr "      --force                 preservera utdata även om det uppstår fel"
++msgstr "      --force                 bevara utdata även om det uppstår fel"
+ 
+ #: tta/perl/texi2any.pl:1061 tta/C/texi2any.c:1843
+ msgid "      --help                  display this help and exit"
+-msgstr "    --help                  visa denna hjälptext och avsluta"
++msgstr "      --help                  visa denna hjälptext och avsluta"
+ 
+ #: tta/perl/texi2any.pl:1062 tta/C/texi2any.c:1846
+ msgid "      --no-validate           suppress node cross-reference validation"
+-msgstr "      --no-validate          dämpa validering av nodkorsreferens"
++msgstr "      --no-validate           undertryck validering av nodkorsreferenser"
+ 
+ #: tta/perl/texi2any.pl:1063 tta/C/texi2any.c:1849
+ msgid "      --no-warn               suppress warnings (but not errors)"
+-msgstr "      --no-warn               dämpa varningar (men inte fel)"
++msgstr "      --no-warn               undertryck varningar (men inte fel)"
+ 
+ #: tta/perl/texi2any.pl:1064 tta/C/texi2any.c:1852
+ msgid "      --conf-dir=DIR          search also for initialization files in DIR"
+@@ -4042,7 +4044,7 @@
+ "                                to value VAL"
+ msgstr ""
+ "  -c, --set-customization-variable VAR=VAL  ställ in anpassningsvariabel VAR\n"
+-"                                till värde VAL"
++"                                till värdet VAL"
+ 
+ #: tta/perl/texi2any.pl:1068 tta/C/texi2any.c:1862
+ msgid "      --trace-includes        print names of included files"
+@@ -4058,51 +4060,51 @@
+ 
+ #: tta/perl/texi2any.pl:1072 tta/C/texi2any.c:1874
+ msgid "Output format selection (default is to produce Info):"
+-msgstr "Val av utdataformat (standard är att producera info):"
++msgstr "Val av utdataformat (standard är att producera Info):"
+ 
+ #: tta/perl/texi2any.pl:1073 tta/C/texi2any.c:1877
+ msgid "      --docbook               output Docbook XML"
+-msgstr "      --docbook               utdata Docbook XML"
++msgstr "      --docbook               skriv DocBook XML"
+ 
+ #: tta/perl/texi2any.pl:1074 tta/C/texi2any.c:1880
+ msgid "      --html                  output HTML"
+-msgstr "      --html               utdata HTML"
++msgstr "      --html                  skriv HTML"
+ 
+ #: tta/perl/texi2any.pl:1075 tta/C/texi2any.c:1883
+ msgid "      --epub3                 output EPUB 3"
+-msgstr "      --epub3               utdata EPUB 3"
++msgstr "      --epub3                 skriv EPUB 3"
+ 
+ #: tta/perl/texi2any.pl:1076 tta/C/texi2any.c:1886
+ msgid "      --latex                 output LaTeX"
+-msgstr "      --latex               utdata LaTeX"
++msgstr "      --latex                 skriv LaTeX"
+ 
+ #: tta/perl/texi2any.pl:1077 tta/C/texi2any.c:1889
+ msgid "      --plaintext             output plain text rather than Info"
+-msgstr "      --plaintext             utdata vanlig text istället för Info"
++msgstr "      --plaintext             skriv vanlig text i stället för Info"
+ 
+ #: tta/perl/texi2any.pl:1078 tta/C/texi2any.c:1892
+ msgid "      --xml                   output Texinfo XML"
+-msgstr "      --xml               utdata Texinfo XML"
++msgstr "      --xml                   skriv Texinfo XML"
+ 
+ #: tta/perl/texi2any.pl:1079 tta/C/texi2any.c:1895
+ msgid ""
+ "      --dvi, --dvipdf, --ps, --pdf  call texi2dvi to generate given output,\n"
+ "                                after checking validity of TEXINFO-FILE"
+ msgstr ""
+-"      --dvi, --dvipdf, --ps, --pdf  anropa texi2dvi för att generera given utdata,\n"
+-"                                efter att ha kontrollerat giltigheten av TEXINFO-FIL"
++"      --dvi, --dvipdf, --ps, --pdf  anropa texi2dvi för att generera angiven utdata,\n"
++"                                efter kontroll av TEXINFO-FILENS giltighet"
+ 
+ #: tta/perl/texi2any.pl:1083 tta/C/texi2any.c:1899
+ msgid "General output options:"
+-msgstr "Allmänna utdataalternativ:"
++msgstr "Allmänna flaggor för utdata:"
+ 
+ #: tta/perl/texi2any.pl:1085 tta/C/texi2any.c:1902
+ msgid ""
+ "  -E, --macro-expand=FILE     output macro-expanded source to FILE,\n"
+ "                                ignoring any @setfilename"
+ msgstr ""
+-"  -E, --macro-expand=FILE     utdata makro-expanderad källkod till FIL,\n"
+-"                               ignorerar alla @setfilename"
++"  -E, --macro-expand=FIL      skriv makroexpanderad källkod till FIL,\n"
++"                                ignorera alla @setfilename"
+ 
+ #: tta/perl/texi2any.pl:1088 tta/C/texi2any.c:1906
+ msgid ""
+@@ -4112,18 +4114,18 @@
+ "                                Also, if producing Info, write to\n"
+ "                                standard output by default."
+ msgstr ""
+-"      --no-headers            dämpa nodseparatorer, Nod: linjer och menyer\n"
+-"                                från Info utdata (vilket producerar vanlig text)\n"
+-"                                eller från HTML (vilket ger kortare utdata.\n"
+-"                               Dessutom, om du producerar info, skriv till\n"
+-"                                standard utdata som standard."
++"      --no-headers            utelämna nodavgränsare, ”Node:”-rader och menyer\n"
++"                                från Info-utdata (och producera därmed vanlig text)\n"
++"                                eller från HTML (och producera därmed kortare utdata).\n"
++"                                Om Info skapas skrivs den som standard till\n"
++"                                standard ut."
+ 
+ #: tta/perl/texi2any.pl:1094 tta/C/texi2any.c:1913
+ msgid ""
+ "      --no-split              suppress any splitting of the output;\n"
+ "                                generate only one output file"
+ msgstr ""
+-"      --no-split              dämpa eventuell uppdelning av utdatan;\n"
++"      --no-split              utelämna all uppdelning av utdata;\n"
+ "                                generera endast en utdatafil"
+ 
+ #: tta/perl/texi2any.pl:1097 tta/C/texi2any.c:1917
+@@ -4131,7 +4133,7 @@
+ "      --[no-]number-sections  output chapter and sectioning numbers;\n"
+ "                                default is on"
+ msgstr ""
+-"      --[no-]number-sections  utdata kapter och sektionsnummer;\n"
++"      --[no-]number-sections  skriv ut kapitel- och avsnittsnummer;\n"
+ "                                standard är på"
+ 
+ #: tta/perl/texi2any.pl:1100 tta/C/texi2any.c:1921
+@@ -4148,13 +4150,13 @@
+ "                                put the output file there.\n"
+ "                                Otherwise, DEST names the output file."
+ msgstr ""
+-"  -o, --output=DEST           utdata till DEST.\n"
+-"                                Med uppdeladutdata, skapa DEST som en katalog\n"
+-"                                och stoppa utdata filerna där.\n"
+-"                                Med icke uppdeladutdata, om DEST redan finns\n"
+-"                                som en katalog eller slutar med ett a/,\n"
+-"                                stoppa utdata filerna där.\n"
+-"                                Annars, så är DEST namnen utdata filen."
++"  -o, --output=DEST           skriv till DEST.\n"
++"                                Vid uppdelad utdata skapas DEST som en katalog\n"
++"                                och utdatafilerna placeras där.\n"
++"                                Vid odelad utdata, om DEST redan är en katalog\n"
++"                                eller slutar med /,"
++" placeras utdatafilen där.\n"
++"                                Annars betecknar DEST utdatafilen."
+ 
+ #: tta/perl/texi2any.pl:1110 tta/C/texi2any.c:1933
+ msgid ""
+@@ -4162,23 +4164,23 @@
+ "                                in Info and plain text output based on document\n"
+ "                                encoding"
+ msgstr ""
+-"      ---disable-encoding       matar inte ut accenter och specialtecken\n"
+-"                                 i Info och oformaterad text baserat på dokument\n"
+-"                                 kodning"
++"      --disable-encoding      skriv inte ut accentuerade och specialtecken\n"
++"                                i Info och vanlig text baserat på dokumentets\n"
++"                                kodning"
+ 
+ #: tta/perl/texi2any.pl:1114 tta/C/texi2any.c:1938
+ msgid "      --enable-encoding       override --disable-encoding (default)"
+-msgstr "      --enable-encoding       åsidosätta --disable-encoding (standard)"
++msgstr "      --enable-encoding       åsidosätt --disable-encoding (standard)"
+ 
+ #: tta/perl/texi2any.pl:1116 tta/C/texi2any.c:1941
+ #, perl-format
+ msgid "Options for Info and plain text:"
+-msgstr "Alternativ för info och vanlig text:"
++msgstr "Flaggor för Info och vanlig text:"
+ 
+ #: tta/perl/texi2any.pl:1118 tta/C/texi2any.c:1944
+ #, c-format, perl-format
+ msgid "      --fill-column=NUM       break Info lines at NUM columns (default %d)"
+-msgstr "      --fill-column=NUM       bryt informationsrader vid NUM kolumner (standard %d)"
++msgstr "      --fill-column=NUM       bryt Info-rader vid NUM kolumner (standard %d)"
+ 
+ #: tta/perl/texi2any.pl:1120 tta/C/texi2any.c:1948
+ #, perl-format
+@@ -4188,10 +4190,10 @@
+ "                                `end' to put them at the end of the node, in\n"
+ "                                which they are defined (this is the default)"
+ msgstr ""
+-"      --footnote-style=STYLE  utdata fotnoter i Info enligt STIL:\n"
+-"                                `separate' för att placera dem i sin egen nod;\n"
+-"                                `end' för att placera dom vid slutet av nod;\n"
+-"                                som de är definierade (detta är standard)"
++"      --footnote-style=STYLE  skriv fotnoter i Info enligt STIL:\n"
++"                                ”separate” för att placera dem i en egen nod;\n"
++"                                ”end” för att placera dem i slutet av noden\n"
++"                                där de definieras (detta är standard)"
+ 
+ #: tta/perl/texi2any.pl:1125 tta/C/texi2any.c:1958
+ #, c-format, perl-format
+@@ -4200,26 +4202,26 @@
+ "                                If VAL is `none', do not indent; if VAL is\n"
+ "                                `asis', preserve existing indentation."
+ msgstr ""
+-"      --paragraph-indent=VAL dra in Info-stycken med VÄR-mellanslag (standard %d)\n"
+-"                                Om VAL är `none', indrag inte; om VAL är\n"
+-"                                `asis', bevara befintlig indragning."
++"      --paragraph-indent=VAL  dra in Info-stycken med VAL blanksteg (standard %d).\n"
++"                                Om VAL är ”none”, dra inte in; om VAL är\n"
++"                                ”asis”, bevara befintlig indragning."
+ 
+ #: tta/perl/texi2any.pl:1129 tta/C/texi2any.c:1964
+ #, c-format, perl-format
+ msgid "      --split-size=NUM        split Info files at size NUM (default %d)"
+-msgstr "      --split-size=NUM        dela upp informationsfiler vid storlek NUM (standard %d)"
++msgstr "      --split-size=NUM        dela upp Info-filer vid storlek NUM (standard %d)"
+ 
+ #: tta/perl/texi2any.pl:1135 tta/C/texi2any.c:1968
+ msgid "Options for HTML:"
+-msgstr "Alternativ för HTML:"
++msgstr "Flaggor för HTML:"
+ 
+ #: tta/perl/texi2any.pl:1136 tta/C/texi2any.c:1971
+ msgid ""
+ "      --css-include=FILE      include FILE in HTML <style> output;\n"
+ "                                read stdin if FILE is -"
+ msgstr ""
+-"      --css-include=FIL      inkludera FIL i HTML <style> utdata;\n"
+-"                                läs stdin om FIL är -"
++"      --css-include=FIL       inkludera FIL i HTML-<style>-utdata;\n"
++"                                läs standard in om FIL är -"
+ 
+ #: tta/perl/texi2any.pl:1138 tta/C/texi2any.c:1975
+ msgid "      --css-ref=URL           generate CSS reference to URL"
+@@ -4227,15 +4229,15 @@
+ 
+ #: tta/perl/texi2any.pl:1139 tta/C/texi2any.c:1978
+ msgid "      --internal-links=FILE   produce list of internal links in FILE"
+-msgstr "      --internal-links=FIL   producera lista av interna länkar i FIL"
++msgstr "      --internal-links=FIL    generera en lista över interna länkar i FIL"
+ 
+ #: tta/perl/texi2any.pl:1140 tta/C/texi2any.c:1981
+ msgid ""
+ "      --split=SPLIT           split at SPLIT, where SPLIT may be `chapter',\n"
+ "                                `section' or `node'"
+ msgstr ""
+-"      --split=DELA           dela vid DELA där, DEL, kan vara antingen `kapitel',\n"
+-"                                `sektion' eller `nod'"
++"      --split=DEL             dela vid DEL, där DEL kan vara ”chapter”,\n"
++"                                ”section” eller ”node”"
+ 
+ #: tta/perl/texi2any.pl:1142 tta/C/texi2any.c:1985
+ msgid "      --transliterate-file-names  use file names in ASCII transliteration"
+@@ -4246,12 +4248,12 @@
+ "      --node-files            produce redirection files for nodes and\n"
+ "                                anchors; default is set only if split"
+ msgstr ""
+-"      --node-files            producera omdirigeringsfiler för noder och\n"
+-"                                ankare; standard är endast inställd vid delning"
++"      --node-files            generera omdirigeringsfiler för noder och\n"
++"                                ankare; är som standard aktiverad endast vid delning"
+ 
+ #: tta/perl/texi2any.pl:1146 tta/C/texi2any.c:1992
+ msgid "Options for DVI/PS/PDF:"
+-msgstr "Alternativ för DVI/PS/PDF:"
++msgstr "Flaggor för DVI/PS/PDF:"
+ 
+ #: tta/perl/texi2any.pl:1147 tta/C/texi2any.c:1995
+ msgid "      --Xopt=OPT              pass OPT to texi2dvi; can be repeated"
+@@ -4259,7 +4261,7 @@
+ 
+ #: tta/perl/texi2any.pl:1149 tta/C/texi2any.c:1998
+ msgid "Input file options:"
+-msgstr "Inmatningsfilalternativ:"
++msgstr "Flaggor för indatafil:"
+ 
+ #: tta/perl/texi2any.pl:1150 tta/C/texi2any.c:2001
+ msgid " -D VAR                       define the variable VAR, as with @set"
+@@ -4267,19 +4269,19 @@
+ 
+ #: tta/perl/texi2any.pl:1151 tta/C/texi2any.c:2004
+ msgid " -D 'VAR VAL'                 define VAR to VAL (one shell argument)"
+-msgstr " -D 'VAR VAL'                 definiera VAR till VAL (ett skal-argument)"
++msgstr " -D ’VAR VAL’                 definiera VAR till VAL (ett skalargument)"
+ 
+ #: tta/perl/texi2any.pl:1152 tta/C/texi2any.c:2007
+ msgid " -I DIR                       append DIR to the @include search path"
+-msgstr " -I KAT                       lägg till KAT till @include-sökvägen"
++msgstr " -I KAT                       lägg till KAT i @include-sökvägen"
+ 
+ #: tta/perl/texi2any.pl:1153 tta/C/texi2any.c:2010
+ msgid " -P DIR                       prepend DIR to the @include search path"
+-msgstr " -P KAT                       lägg KAT till @include-sökvägen"
++msgstr " -P KAT                       lägg KAT före @include-sökvägen"
+ 
+ #: tta/perl/texi2any.pl:1154 tta/C/texi2any.c:2013
+ msgid " -U VAR                       undefine the variable VAR, as with @clear"
+-msgstr " -U VAR                       odefiniera variabeln VAR, som med @clear"
++msgstr " -U VAR                       ta bort definitionen av variabeln VAR, som med @clear"
+ 
+ #: tta/perl/texi2any.pl:1156 tta/C/texi2any.c:2017
+ msgid "Conditional processing in input:"
+@@ -4287,15 +4289,15 @@
+ 
+ #: tta/perl/texi2any.pl:1157 tta/C/texi2any.c:2020
+ msgid "      --ifdocbook       process @ifdocbook and @docbook"
+-msgstr "  --no-ifdocbook    bearbeta inte @ifdocbook och @docbook text"
++msgstr "      --ifdocbook       bearbeta @ifdocbook och @docbook"
+ 
+ #: tta/perl/texi2any.pl:1158 tta/C/texi2any.c:2023
+ msgid "      --ifhtml          process @ifhtml and @html"
+-msgstr "  --ifxml           bearbeta @ifxml och @xml"
++msgstr "      --ifhtml          bearbeta @ifhtml och @html"
+ 
+ #: tta/perl/texi2any.pl:1159 tta/C/texi2any.c:2026
+ msgid "      --ifinfo          process @ifinfo"
+-msgstr "  --no-ifinfo       bearbeta inte @ifinfo-text"
++msgstr "      --ifinfo          bearbeta @ifinfo"
+ 
+ #: tta/perl/texi2any.pl:1160 tta/C/texi2any.c:2029
+ msgid "      --iflatex         process @iflatex and @latex"
+@@ -4303,7 +4305,7 @@
+ 
+ #: tta/perl/texi2any.pl:1161 tta/C/texi2any.c:2032
+ msgid "      --ifplaintext     process @ifplaintext"
+-msgstr "  --no-ifplaintext  bearbeta inte @ifplaintext-text"
++msgstr "      --ifplaintext     bearbeta @ifplaintext"
+ 
+ #: tta/perl/texi2any.pl:1162 tta/C/texi2any.c:2035
+ msgid "      --iftex           process @iftex and @tex"
+@@ -4320,8 +4322,8 @@
+ "  Also, when --ifFORMAT is on, @ifnotFORMAT text is not processed."
+ msgstr ""
+ "  Som standard är en --ifFORMAT-inställning endast aktiverad när utdataformatet\n"
+-"  är FORMAT; till exempel, --ifhtml är aktiverat vid utmatning av HTML\n"
+-"  Också, när --ifFORMAT är på, @ifnotFORMAT text bearbetas inte."
++"  är FORMAT. Till exempel är --ifhtml aktiverat vid HTML-utdata.\n"
++"  När --ifFORMAT är aktiverad bearbetas inte @ifnotFORMAT-text."
+ 
+ #: tta/perl/texi2any.pl:1169 tta/C/texi2any.c:2051
+ msgid ""
+@@ -4329,9 +4331,9 @@
+ "  for example, --no-ifhtml means not to process @ifhtml or @html text,\n"
+ "  and to process @ifnothtml text."
+ msgstr ""
+-"  Varje --ifFORMAT alternativ kan prefixas med `--no-' för att negera det;\n"
+-"  till exempel, --no-ifhtml betyder att inte bearbeta @ifhtml eller @html text,\n"
+-"  och att bearbeta @ifnothtml text."
++"  Varje --ifFORMAT-flagga kan föregås av ”--no-” för att negera den.\n"
++"  Till exempel innebär --no-ifhtml att @ifhtml- eller @html-text inte bearbetas\n"
++"  och att @ifnothtml-text bearbetas."
+ 
+ #: tta/perl/texi2any.pl:1173 tta/C/texi2any.c:2056
+ msgid "Examples:"
+@@ -4355,12 +4357,12 @@
+ #: tta/perl/texi2any.pl:1177 tta/C/texi2any.c:2068
+ #, c-format, perl-format
+ msgid "  %s --docbook foo.texi            write Docbook XML"
+-msgstr "  %s --docbook foo.texi            skriv Docbook XML"
++msgstr "  %s --docbook foo.texi            skriv DocBook XML"
+ 
+ #: tta/perl/texi2any.pl:1178 tta/C/texi2any.c:2071
+ #, c-format, perl-format
+ msgid "  %s --plaintext foo.texi          write plain text to standard output"
+-msgstr "  %s --plaintext foo.texi          skriv vanlig text till standard utdata"
++msgstr "  %s --plaintext foo.texi          skriv vanlig text till standard ut"
+ 
+ #: tta/perl/texi2any.pl:1179 tta/C/texi2any.c:2074
+ #, c-format, perl-format
+@@ -4370,7 +4372,7 @@
+ #: tta/perl/texi2any.pl:1181 tta/C/texi2any.c:2078
+ #, c-format, perl-format
+ msgid "  %s --html --no-headers foo.texi  write html without node lines, menus"
+-msgstr "  %s --html --no-headers foo.texi  skriv html utan nodrader, menyer"
++msgstr "  %s --html --no-headers foo.texi  skriv HTML utan nodrader och menyer"
+ 
+ #: tta/perl/texi2any.pl:1182 tta/C/texi2any.c:2081
+ #, c-format, perl-format
+@@ -4380,27 +4382,27 @@
+ #: tta/perl/texi2any.pl:1183 tta/C/texi2any.c:2084
+ #, c-format, perl-format
+ msgid "  %s --no-split foo.texi           write one Info file however big"
+-msgstr "  %s --no-split foo.texi           skriv en infofil, hur stor den än är"
++msgstr "  %s --no-split foo.texi           skriv en Info-fil hur stor den än är"
+ 
+ #: tta/perl/texi2any.pl:1226 tta/C/texi2any.c:1665
+ #, c-format, perl-format
+ msgid "%s: --footnote-style arg must be `separate' or `end', not `%s'."
+-msgstr "%s: --footnote-style argumentet måste vara `separate' eller `end', inte `%s'."
++msgstr "%s: --footnote-style-argumentet måste vara ”separate” eller ”end”, inte ”%s”."
+ 
+ #: tta/perl/texi2any.pl:1233
+ #, perl-format
+ msgid "%s is not a valid split possibility"
+-msgstr "%s är inte en giltig delningsmöjlighet"
++msgstr "%s är inte ett giltigt delningsvärde"
+ 
+ #: tta/perl/texi2any.pl:1348
+ #, perl-format
+ msgid "%s: --paragraph-indent arg must be numeric/`none'/`asis', not `%s'."
+-msgstr "%s: --paragraph-indent argumentet måste vara numeriskt/`none'/`asis', inte `%s'."
++msgstr "%s: --paragraph-indent-argumentet måste vara numeriskt/”none”/”asis”, inte ”%s”."
+ 
+ #: tta/perl/texi2any.pl:1536
+ #, perl-format
+ msgid "overwriting file: %s"
+-msgstr "skriver över fil: %s"
++msgstr "skriver över filen: %s"
+ 
+ #: tta/perl/texi2any.pl:1586
+ #, perl-format
+@@ -4410,12 +4412,12 @@
+ #: tta/perl/texi2any.pl:1612
+ #, perl-format
+ msgid "ignoring splitting for converted format %s (for %s)"
+-msgstr "ignorerar delning för konverterat format %s (för %s)"
++msgstr "ignorerar uppdelning för konverterat format %s (för %s)"
+ 
+ #: tta/perl/texi2any.pl:1616
+ #, perl-format
+ msgid "ignoring splitting for format %s"
+-msgstr "hoppar över uppdelning för format %s"
++msgstr "ignorerar uppdelning för format %s"
+ 
+ #: tta/perl/texi2any.pl:1632 tta/C/texi2any.c:2294
+ #, c-format, perl-format
+@@ -4424,12 +4426,12 @@
+ 
+ #: tta/perl/texi2any.pl:1636
+ msgid "--Xopt option without printed output"
+-msgstr "--Xopt flagga utan utskrift"
++msgstr "flaggan --Xopt utan utskrift"
+ 
+ #: tta/perl/texi2any.pl:1653
+ #, perl-format
+ msgid "error loading %s: %s"
+-msgstr "fel vid inläsning %s: %s"
++msgstr "fel vid inläsning av %s: %s"
+ 
+ #: tta/perl/texi2any.pl:1730 tta/C/texi2any.c:2493
+ #, c-format, perl-format
+@@ -4439,7 +4441,7 @@
+ #: tta/perl/texi2any.pl:1765
+ #, perl-format
+ msgid "input file %s; did you mean %s?"
+-msgstr "inmatningsfil %s; menade du %s?"
++msgstr "indatafil %s; menade du %s?"
+ 
+ #: tta/perl/texi2any.pl:1885
+ #, perl-format
+@@ -4459,22 +4461,22 @@
+ #: tta/perl/texi2any.pl:2223
+ #, perl-format
+ msgid "%s: error on closing internal links file %s: %s"
+-msgstr "%s: fel vid stängning av intern länkfil %s: %s"
++msgstr "%s: fel vid stängning av filen för interna länkar %s: %s"
+ 
+ #: tta/perl/texi2any.pl:2341
+ #, perl-format
+ msgid "%s: error on closing elements size file %s: %s"
+-msgstr "%s: fel vid stängning av elementstorlek fil %s: %s"
++msgstr "%s: fel vid stängning av filen för elementstorlekar %s: %s"
+ 
+ #: tta/C/texi2any.c:913
+ #, c-format
+ msgid "%s: value \"%s\" invalid for option %s (number expected)"
+-msgstr "%s: värde \"%s\" ogiltigt för alternativ %s (förväntade sig ett tal)"
++msgstr "%s: värdet ”%s” är ogiltigt för flaggan %s (ett tal förväntades)"
+ 
+ #: tta/C/texi2any.c:917
+ #, c-format
+ msgid "%s: value \"%s\" invalid for option %c (number expected)"
+-msgstr "%s: värde \"%s\" ogiltigt för alternativ %c (förväntade sig ett tal)"
++msgstr "%s: värdet ”%s” är ogiltigt för flaggan %c (ett tal förväntades)"
+ 
+ #: tta/C/texi2any.c:1693
+ #, c-format
+@@ -4484,7 +4486,7 @@
+ #: tta/C/convert/convert_html.c:2414
+ #, c-format
+ msgid "%s: %zu registered opened sections not closed"
+-msgstr "%s: %zu registrerade öppnade sektioner inte stängda"
++msgstr "%s: %zu registrerade öppna avsnitt är inte stängda"
+ 
+ #: tta/C/convert/convert_html.c:2424
+ #, c-format
+@@ -4494,17 +4496,17 @@
+ #: tta/C/convert/convert_html.c:2441
+ #, c-format
+ msgid "left inline content associated to %s: '%s'"
+-msgstr "vänster inline innehåll kopplat till %s: '%s'"
++msgstr "kvarvarande inlineinnehåll kopplat till %s: ”%s”"
+ 
+ #: tta/C/convert/convert_html.c:2448
+ #, c-format
+ msgid "left inline content of %p: '%s'"
+-msgstr "vänster inline innehåll av %p: '%s'"
++msgstr "kvarvarande inlineinnehåll för %p: ”%s”"
+ 
+ #: tta/C/convert/convert_html.c:2453
+ #, c-format
+ msgid "left inline content associated: '%s'"
+-msgstr "vänster inline innehåll associerat med '%s'"
++msgstr "kvarvarande inlineinnehåll kopplat: ”%s”"
+ 
+ #: tta/C/convert/convert_html.c:2462
+ #, c-format
+@@ -4534,22 +4536,22 @@
+ #: tta/C/convert/html_prepare_converter.c:1911
+ #, c-format
+ msgid "error on closing CSS file  %s: %s"
+-msgstr "fel vid stängning av CSS-fil   %s: %s"
++msgstr "fel vid stängning av CSS-fil %s: %s"
+ 
+ #: tta/C/convert/texinfo.c:779
+ #, c-format
+ msgid "%s: error on closing io %s: %s"
+-msgstr "%s: fel vid stängning av io %s: %s"
++msgstr "%s: fel vid stängning av I/O %s: %s"
+ 
+ #: tta/C/main/manipulate_indices.c:535
+ #, c-format
+ msgid "empty index sub entry %zu key in @%s"
+-msgstr "tom indexunderpost för %zu nyckel i @%s"
++msgstr "tom nyckel för indexunderpost %zu i @%s"
+ 
+ #: tta/C/main/manipulate_indices.c:631
+ #, c-format
+ msgid "collation locale not found: %s"
+-msgstr "samlingslokal hittades inte: %s"
++msgstr "sorteringsspråkinställning hittades inte: %s"
+ 
+ #: tta/C/parsetexi/close.c:544
+ #, c-format
+@@ -4594,17 +4596,17 @@
+ #: tta/C/parsetexi/end_line.c:1785
+ #, c-format
+ msgid "@columnfractions only meaningful on a @multitable line"
+-msgstr "@columnfractions är inte meningsfullt utanför @multitabell-rad"
++msgstr "@columnfractions är endast meningsfullt på en @multitable-rad"
+ 
+ #: tta/C/parsetexi/end_line.c:1825
+ #, c-format
+ msgid "@part should not be associated with @top"
+-msgstr "@part borde inte associeras med @top"
++msgstr "@part bör inte kopplas till @top"
+ 
+ #: tta/C/parsetexi/end_line.c:1838
+ #, c-format
+ msgid "@node precedes @part, but parts may not be associated with nodes"
+-msgstr "@node föregår @part, men delar kanske inte associeras med noder"
++msgstr "@node föregår @part, men delar kanske inte kan kopplas till noder"
+ 
+ #: tta/C/parsetexi/handle_commands.c:265
+ #, c-format
+@@ -4624,22 +4626,22 @@
+ #: tta/C/parsetexi/handle_commands.c:442
+ #, c-format
+ msgid "@\\ should only appear in math context"
+-msgstr "@\\ borde endast förekomma i matematikkontext"
++msgstr "@\\ bör endast förekomma i matematiskt sammanhang"
+ 
+ #: tta/C/parsetexi/handle_commands.c:448
+ #, c-format
+ msgid "@ should not occur at end of argument to line command"
+-msgstr "@ bör inte förekomma i slutet av argument för rad kommando"
++msgstr "@ bör inte förekomma i slutet av argument till radkommando"
+ 
+ #: tta/C/parsetexi/handle_commands.c:1042
+ #, c-format
+ msgid "@subentry should only occur in an index entry"
+-msgstr "@subentry borde endast förekomma i en indexpost"
++msgstr "@subentry bör endast förekomma i en indexpost"
+ 
+ #: tta/C/parsetexi/macro.c:220
+ #, c-format
+ msgid "bad or empty @%s formal argument: "
+-msgstr "felaktigt eller tomt @%s formellt argument: "
++msgstr "felaktigt eller tomt formellt argument till @%s: "
+ 
+ #~ msgid ""
+ #~ "Frequently-used options:\n"
