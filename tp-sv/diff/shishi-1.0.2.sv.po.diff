@@ -1,0 +1,925 @@
+--- a/shishi-1.0.2.sv.po
++++ b/shishi-1.0.2.sv.po
+@@ -25,155 +25,155 @@
+ 
+ #: lib/error.c:35
+ msgid "Error in ASN.1 function (corrupt data?)"
+-msgstr "Fel i ASN.1-funktion (korrumperad data?)"
++msgstr "Fel i ASN.1-funktionen (skadade data?)"
+ 
+ #: lib/error.c:37
+ msgid "Could not open file"
+-msgstr "Kunde inte öppna fil"
++msgstr "Kunde inte öppna filen"
+ 
+ #: lib/error.c:39
+ msgid "File input/output error"
+-msgstr "Inmatnings/utmatningsfel för fil"
++msgstr "Fel vid in- eller utmatning av fil"
+ 
+ #: lib/error.c:41
+ msgid "Memory allocation error in shishi library."
+-msgstr "Minnesallokeringsfel i shishi-bibliotek."
++msgstr "Minnesallokeringsfel i Shishi-biblioteket."
+ 
+ #: lib/error.c:43
+ msgid "Base64 encoding or decoding failed. Data corrupt?"
+-msgstr "Base64-kodning/-avkodning misslyckades. Korrumperad data?"
++msgstr "Base64-kodning/-avkodning misslyckades. Skadade data?"
+ 
+ #: lib/error.c:45
+ msgid "Client realm value differ between request and reply."
+-msgstr "Värde för klientdomän skiljer sig mellan förfrågan och svar."
++msgstr "Klientens domänvärde skiljer sig mellan förfrågan och svar."
+ 
+ #: lib/error.c:47
+ msgid "Client name value differ between request and reply."
+-msgstr "Värde för klientnamn skiljer sig mellan förfrågan och svar."
++msgstr "Klientens namn skiljer sig mellan förfrågan och svar."
+ 
+ #: lib/error.c:49
+ msgid "Replay protection value (nonce) differ between request and reply."
+-msgstr "Värde för svarsskydd (nonce) skiljer sig mellan förfrågan och svar."
++msgstr "Värdet för återuppspelningsskydd (nonce) skiljer sig mellan förfrågan och svar."
+ 
+ #: lib/error.c:51
+ msgid "Incorrect key type used in TGS reply."
+-msgstr "Felaktig nyckeltyp använd i TGS-svar."
++msgstr "Felaktig nyckeltyp användes i TGS-svaret."
+ 
+ #: lib/error.c:53
+ msgid "Incorrect key type used in reply from KDC."
+-msgstr "Felaktig nyckeltyp använd i svar från KDC."
++msgstr "Felaktig nyckeltyp användes i svaret från KDC."
+ 
+ #: lib/error.c:55
+ msgid "Incorrect key type used in AP reply."
+-msgstr "Felaktig nyckeltyp används i AP-svar."
++msgstr "Felaktig nyckeltyp användes i AP-svaret."
+ 
+ #: lib/error.c:57
+ msgid "Failed verification of AP reply."
+-msgstr "Misslyckades med att verifiera AP-svar."
++msgstr "Verifieringen av AP-svaret misslyckades."
+ 
+ #: lib/error.c:59
+ msgid "Incorrect key type used in AP request."
+-msgstr "Felaktig nyckeltyp i AP-förfrågan."
++msgstr "Felaktig nyckeltyp användes i AP-förfrågan."
+ 
+ #: lib/error.c:61
+ msgid "Provided buffer was too small."
+-msgstr "Angiven buffert för liten."
++msgstr "Den angivna bufferten var för liten."
+ 
+ #: lib/error.c:63
+ msgid "Derived key material is too short to be applicable."
+-msgstr "Härlett nyckelmaterial är för kort för att vara tillämpligt."
++msgstr "Det härledda nyckelmaterialet är för kort för att kunna användas."
+ 
+ #: lib/error.c:65
+ msgid "The key is too large to be usable."
+-msgstr "Nyckel är för stor för att vara användbar."
++msgstr "Nyckeln är för stor för att kunna användas."
+ 
+ #: lib/error.c:67
+ msgid "Low-level cryptographic primitive failed.  This usually indicates bad password or data corruption."
+-msgstr "Kryptografisk lågnivåprimitiv misslyckades. Detta indikerar vanligtvis ett felaktigt lösenord eller korrumperad data."
++msgstr "En kryptografisk grundfunktion misslyckades. Det tyder vanligtvis på fel lösenord eller skadade data."
+ 
+ #: lib/error.c:70
+ msgid "Internal error in low-level crypto routines."
+-msgstr "Internt fel i kryptografiska lågnivårutiner."
++msgstr "Internt fel i kryptografiska grundrutiner."
+ 
+ #: lib/error.c:72
+ msgid "The system call socket() failed.  This usually indicates that your system does not support the socket type."
+-msgstr "Misslyckades med systemanropet socket(). Detta indikerar vanligtvis att ditt system inte har stöd för uttagstypen."
++msgstr "Systemanropet socket() misslyckades. Det tyder vanligtvis på att systemet inte stöder uttagstypen."
+ 
+ #: lib/error.c:75
+ msgid "The system call bind() failed.  This usually indicates insufficient permissions."
+-msgstr "Misslyckades med systemanropet bind(). Detta indikerar vanligtvis otillräckliga rättigheter."
++msgstr "Systemanropet bind() misslyckades. Det tyder vanligtvis på otillräckliga behörigheter."
+ 
+ #: lib/error.c:78
+ msgid "The system call sendto() failed."
+-msgstr "Misslyckades med systemanropet sendto()."
++msgstr "Systemanropet sendto() misslyckades."
+ 
+ #: lib/error.c:80
+ msgid "Error receiving data from server"
+-msgstr "Fel vid mottagning av data från server"
++msgstr "Fel vid mottagning av data från servern"
+ 
+ #: lib/error.c:82
+ msgid "The system call close() failed."
+-msgstr "Misslyckades med systemanropet close()."
++msgstr "Systemanropet close() misslyckades."
+ 
+ #: lib/error.c:84
+ msgid "Timed out talking to KDC. This usually indicates a network or KDC address problem."
+-msgstr "Tidsgräns överstegs vid samtal med KDC. Detta indikerar vanligtvis ett nätverks- eller KDC-adressproblem."
++msgstr "Tidsgränsen överskreds vid kommunikation med KDC. Det tyder vanligtvis på ett nätverksfel eller ett fel i KDC-adressen."
+ 
+ #: lib/error.c:87
+ msgid "No KDC known for given realm."
+-msgstr "Ingen KDC känd för given domän."
++msgstr "Ingen KDC är känd för den angivna domänen."
+ 
+ #: lib/error.c:89
+ msgid "No TTY assigned to process."
+-msgstr "Ingen TTY tilldelad till process."
++msgstr "Ingen TTY har tilldelats processen."
+ 
+ #: lib/error.c:91
+ msgid "Server replied to the request with an error message."
+-msgstr "Server svarade på förfrågan med ett felmeddelande."
++msgstr "Servern svarade på förfrågan med ett felmeddelande."
+ 
+ #: lib/error.c:93
+ msgid "Failure to use handle.  Missing handle, or misconfigured."
+-msgstr "Misslyckades med att använda handtag. Handtag saknas eller är felkonfigurerat."
++msgstr "Det gick inte att använda handtaget. Det saknas eller är felkonfigurerat."
+ 
+ #: lib/error.c:95
+ msgid "Ticket set not initialized.  This usually indicates an internal application error."
+-msgstr "Biljettuppsättning inte initierad. Detta indikerar vanligtvis ett internt programfel."
++msgstr "Biljettuppsättningen har inte initierats. Det tyder vanligtvis på ett internt programfel."
+ 
+ #: lib/error.c:98
+ msgid "Key type used to encrypt ticket doesn't match provided key. This usually indicates an internal application error."
+-msgstr "Nyckeltyp använd för att kryptera biljett matchar inte angiven nyckel. Detta indikerar vanligtvis ett internt programfel."
++msgstr "Nyckeltypen som användes för att kryptera biljetten stämmer inte överens med den angivna nyckeln. Det tyder vanligtvis på ett internt programfel."
+ 
+ #: lib/error.c:101
+ msgid "Reference to invalid encryption key."
+-msgstr "Referens till ogiltig krypteringsnyckel."
++msgstr "Referens till en ogiltig krypteringsnyckel."
+ 
+ #: lib/error.c:103
+ msgid "Could not decrypt AP-REQ using provided key. This usually indicates an internal application error."
+-msgstr "Kunde inte dekryptera AP-REQ med angiven nyckel. Detta indikerar vanligtvis ett internt programfel."
++msgstr "Kunde inte dekryptera AP-REQ med den angivna nyckeln. Det tyder vanligtvis på ett internt programfel."
+ 
+ #: lib/error.c:106
+ msgid "Could not decrypt Ticket using provided key. This usually indicates an internal application error."
+-msgstr "Kunde inte dekryptera biljett med angiven nyckel. Detta indikerar vanligtvis ett internt programfel."
++msgstr "Kunde inte dekryptera biljetten med den angivna nyckeln. Det tyder vanligtvis på ett internt programfel."
+ 
+ #: lib/error.c:109
+ msgid "Invalid ticked passed in call."
+-msgstr "Ogiltig biljett angiven i anrop."
++msgstr "En ogiltig biljett angavs i anropet."
+ 
+ #: lib/error.c:111
+ msgid "Argument lies outside of valid range."
+-msgstr "Argument ligger utanför giltigt intervall."
++msgstr "Argumentet ligger utanför det giltiga intervallet."
+ 
+ #: lib/error.c:113
+ msgid "The ASN.1 structure does not contain the indicated element."
+-msgstr "ASN.1-strukturen innehåller inte det indikerade elementet."
++msgstr "ASN.1-strukturen innehåller inte det angivna elementet."
+ 
+ #: lib/error.c:115
+ msgid "Attempted access to non-existent key type."
+-msgstr "Försök att komma åt icke-existerande nyckeltyp."
++msgstr "Försök att komma åt en obefintlig nyckeltyp."
+ 
+ #: lib/error.c:117 lib/error.c:135
+ msgid "Verification failed on either side."
+-msgstr "Verifikation misslyckades på endera sidan."
++msgstr "Verifieringen misslyckades på någon av sidorna."
+ 
+ #: lib/error.c:119
+ msgid "Invalid PKCS5 descriptor."
+@@ -181,31 +181,31 @@
+ 
+ #: lib/error.c:121
+ msgid "Invalid claim of iteration count in PKCS5 descriptor."
+-msgstr "Ogiltigt anspråk på iterationsräknare i PKCS5-deskriptor."
++msgstr "Ogiltigt värde för iterationsantal i PKCS5-deskriptorn."
+ 
+ #: lib/error.c:123
+ msgid "Derived key length is incorrect for PKCS5 descriptor."
+-msgstr "Härledd nyckellängd är felaktig för PKCS5-deskriptor."
++msgstr "Den härledda nyckellängden är felaktig för PKCS5-deskriptorn."
+ 
+ #: lib/error.c:125
+ msgid "Derived key is too long for PKCS5 descriptor."
+-msgstr "Härledd nyckellängd är för lång för PKCS5-deskriptor."
++msgstr "Den härledda nyckeln är för lång för PKCS5-deskriptorn."
+ 
+ #: lib/error.c:127
+ msgid "Principal name syntax error."
+-msgstr "Syntaxfel i huvudnamn."
++msgstr "Syntaxfel i huvudnamnet."
+ 
+ #: lib/error.c:129
+ msgid "Invalid argument passed in call.  Wrong or unknown value."
+-msgstr "Ogiltigt argument angivet i anrop. Felaktigt eller okänt värde."
++msgstr "Ett ogiltigt argument angavs i anropet. Felaktigt eller okänt värde."
+ 
+ #: lib/error.c:131
+ msgid "The indicated ASN.1 element does not carry a value."
+-msgstr "Det indikerade ASN.1-elementet bär inget värde."
++msgstr "Det angivna ASN.1-elementet innehåller inget värde."
+ 
+ #: lib/error.c:133
+ msgid "Connection attempt failed.  Try again, or check availability."
+-msgstr "Anslutningsförsök misslyckades. Försök igen eller kontrollera tillgänglighet."
++msgstr "Anslutningsförsöket misslyckades. Försök igen eller kontrollera tillgängligheten."
+ 
+ #: lib/error.c:137
+ msgid "The private key uses an incompatible encryption type."
+@@ -213,7 +213,7 @@
+ 
+ #: lib/error.c:139
+ msgid "The desired file could not be accessed.  Check permissions."
+-msgstr "Den önskade filen kunde inte nås. Kontrollera rättigheter."
++msgstr "Den efterfrågade filen gick inte att komma åt. Kontrollera behörigheterna."
+ 
+ #: lib/error.c:141
+ msgid "The present AP reply specifies an inpermissible key type."
+@@ -221,15 +221,15 @@
+ 
+ #: lib/error.c:143
+ msgid "A request for present time of day has failed. This is usually internal, but a valid time is imperative for us."
+-msgstr "En begäran om aktuell tid har misslyckats. Detta är vanligtvis internt, men en giltig tid är nödvändig för oss."
++msgstr "Begäran om aktuell tid misslyckades. Felet är vanligtvis internt, men en giltig tid är nödvändig."
+ 
+ #: lib/error.c:146
+ msgid "Failed to parse keytab file"
+-msgstr "Misslyckades med att tolka keytab-fil"
++msgstr "Kunde inte tolka keytab-filen"
+ 
+ #: lib/error.c:148
+ msgid "Failed to parse credential cache file"
+-msgstr "Misslyckades med att tolka cachefil med uppgifter"
++msgstr "Kunde inte tolka cachefilen med autentiseringsuppgifter"
+ 
+ #: lib/error.c:165
+ msgid "Unknown error"
+@@ -262,32 +262,32 @@
+ #: lib/krberror.c:137
+ #, c-format
+ msgid "Writing KRB-ERROR to %s...\n"
+-msgstr "Skriver KRB-FEL till %s…\n"
++msgstr "Skriver KRB-ERROR till %s…\n"
+ 
+ #: lib/krberror.c:144
+ #, c-format
+ msgid "Writing KRB-ERROR in %s format...\n"
+-msgstr "Skriver KRB-FEL i %s-format…\n"
++msgstr "Skriver KRB-ERROR i %s-format…\n"
+ 
+ #: lib/krberror.c:159
+ #, c-format
+ msgid "Writing KRB-ERROR to %s...done\n"
+-msgstr "Skriver KRB-FEL till %s…klart\n"
++msgstr "Skriver KRB-ERROR till %s… klart\n"
+ 
+ #: lib/krberror.c:217
+ #, c-format
+ msgid "Reading KRB-ERROR from %s...\n"
+-msgstr "Läser KRB-FEL från %s…\n"
++msgstr "Läser KRB-ERROR från %s…\n"
+ 
+ #: lib/krberror.c:224
+ #, c-format
+ msgid "Reading KRB-ERROR in %s format...\n"
+-msgstr "Läser KRB-FEL i %s-format…\n"
++msgstr "Läser KRB-ERROR i %s-format…\n"
+ 
+ #: lib/krberror.c:239
+ #, c-format
+ msgid "Reading KRB-ERROR from %s...done\n"
+-msgstr "Läser KRB-FEL från %s…klart\n"
++msgstr "Läser KRB-ERROR från %s… klart\n"
+ 
+ #: lib/krberror.c:1261
+ msgid "Client's entry in database has expired"
+@@ -299,23 +299,23 @@
+ 
+ #: lib/krberror.c:1265
+ msgid "Requested protocol version number not supported"
+-msgstr "Begärt protokollversionsnummer stöds inte"
++msgstr "Det begärda protokollversionsnumret stöds inte"
+ 
+ #: lib/krberror.c:1267
+ msgid "Client's key encrypted in old master key"
+-msgstr "Klientens nyckel krypterad i gammal huvudnyckel"
++msgstr "Klientens nyckel är krypterad med en gammal huvudnyckel"
+ 
+ #: lib/krberror.c:1269
+ msgid "Server's key encrypted in old master key"
+-msgstr "Serverns nyckel krypterad i gammal huvudnyckel"
++msgstr "Serverns nyckel är krypterad med en gammal huvudnyckel"
+ 
+ #: lib/krberror.c:1271
+ msgid "Client not found in database"
+-msgstr "Klient kan inte hittas i databasen"
++msgstr "Klienten finns inte i databasen"
+ 
+ #: lib/krberror.c:1273
+ msgid "Server not found in database"
+-msgstr "Servern kan inte hittas i databasen"
++msgstr "Servern finns inte i databasen"
+ 
+ #: lib/krberror.c:1275
+ msgid "Multiple principal entries in database"
+@@ -323,27 +323,27 @@
+ 
+ #: lib/krberror.c:1277
+ msgid "The client or server has a null key"
+-msgstr "Klienten eller servern har en nyckel som är null"
++msgstr "Klienten eller servern har en nollnyckel"
+ 
+ #: lib/krberror.c:1279
+ msgid "Ticket not eligible for postdating"
+-msgstr "Biljett inte berättigad till efterdatering"
++msgstr "Biljetten kan inte efterdateras"
+ 
+ #: lib/krberror.c:1281
+ msgid "Requested start time is later than end time"
+-msgstr "Begärd starttid är senare än sluttiden"
++msgstr "Den begärda starttiden är senare än sluttiden"
+ 
+ #: lib/krberror.c:1283
+ msgid "KDC policy rejects request"
+-msgstr "KDC-policy avböjer begäran"
++msgstr "KDC-policyn avvisar begäran"
+ 
+ #: lib/krberror.c:1285
+ msgid "KDC cannot accommodate requested option"
+-msgstr "KDC kan inte tillmötesgå begärt alternativ"
++msgstr "KDC kan inte tillmötesgå det begärda alternativet"
+ 
+ #: lib/krberror.c:1287
+ msgid "KDC has no support for encryption type"
+-msgstr "KDC har inte stöd för krypteringstyp"
++msgstr "KDC har inte stöd för krypteringstypen"
+ 
+ #: lib/krberror.c:1289
+ msgid "KDC has no support for checksum type"
+@@ -351,19 +351,19 @@
+ 
+ #: lib/krberror.c:1291
+ msgid "KDC has no support for padata type"
+-msgstr "KDC har inte stöd för padata-typ"
++msgstr "KDC har inte stöd för padata-typen"
+ 
+ #: lib/krberror.c:1293
+ msgid "KDC has no support for transited type"
+-msgstr "KDC har inte stöd för befordranstyp"
++msgstr "KDC har inte stöd för transited-typen"
+ 
+ #: lib/krberror.c:1295
+ msgid "Clients credentials have been revoked"
+-msgstr "Klientuppgifter har återkallats"
++msgstr "Klientens autentiseringsuppgifter har återkallats"
+ 
+ #: lib/krberror.c:1297
+ msgid "Credentials for server have been revoked"
+-msgstr "Uppgifter för server har återkallats"
++msgstr "Serverns autentiseringsuppgifter har återkallats"
+ 
+ #: lib/krberror.c:1299
+ msgid "TGT has been revoked"
+@@ -371,63 +371,63 @@
+ 
+ #: lib/krberror.c:1301
+ msgid "Client not yet valid - try again later"
+-msgstr "Klient inte giltig än - försök senare"
++msgstr "Klienten är ännu inte giltig; försök igen senare"
+ 
+ #: lib/krberror.c:1303
+ msgid "Server not yet valid - try again later"
+-msgstr "Server inte giltig än - försök senare"
++msgstr "Servern är ännu inte giltig; försök igen senare"
+ 
+ #: lib/krberror.c:1305
+ msgid "Password has expired "
+-msgstr "Lösenord har gått ut "
++msgstr "Lösenordet har gått ut "
+ 
+ #: lib/krberror.c:1307
+ msgid "Pre-authentication information was invalid"
+-msgstr "Förautentiseringsinformation är inte giltig"
++msgstr "Förautentiseringsinformationen var ogiltig"
+ 
+ #: lib/krberror.c:1309
+ msgid "Additional pre-authentication required"
+-msgstr "Ytterligare förautentiseringsinformation krävs"
++msgstr "Ytterligare förautentisering krävs"
+ 
+ #: lib/krberror.c:1311
+ msgid "Requested server and ticket don't match"
+-msgstr "Begärd server och biljett matchar inte"
++msgstr "Den begärda servern och biljetten stämmer inte överens"
+ 
+ #: lib/krberror.c:1313
+ msgid "Server principal valid for user2user only"
+-msgstr "Huvudnamn för server enbart giltigt för användare-till-användare"
++msgstr "Serverns huvudnamn är endast giltigt för användare-till-användare"
+ 
+ #: lib/krberror.c:1315
+ msgid "KDC Policy rejects transited path"
+-msgstr "KDC-policy avböjer befordransväg"
++msgstr "KDC-policyn avvisar transited-sökvägen"
+ 
+ #: lib/krberror.c:1317
+ msgid "A service is not available"
+-msgstr "En service är inte tillgänglig"
++msgstr "En tjänst är inte tillgänglig"
+ 
+ #: lib/krberror.c:1319
+ msgid "Integrity check on decrypted field failed"
+-msgstr "Integritetskontroll av dekrypterat fält misslyckades"
++msgstr "Integritetskontrollen av det dekrypterade fältet misslyckades"
+ 
+ #: lib/krberror.c:1321
+ msgid "Ticket expired"
+-msgstr "Biljett har gått ut"
++msgstr "Biljetten har gått ut"
+ 
+ #: lib/krberror.c:1323
+ msgid "Ticket not yet valid"
+-msgstr "Biljett ännu inte giltig"
++msgstr "Biljetten är ännu inte giltig"
+ 
+ #: lib/krberror.c:1325
+ msgid "Request is a replay"
+-msgstr "Begäran är ett svar"
++msgstr "Begäran är en återuppspelning"
+ 
+ #: lib/krberror.c:1327
+ msgid "The ticket isn't for us"
+-msgstr "Biljetten är inte vår"
++msgstr "Biljetten är inte avsedd för oss"
+ 
+ #: lib/krberror.c:1329
+ msgid "Ticket and authenticator don't match"
+-msgstr "Biljett och autentiserare matchar inte"
++msgstr "Biljetten och autentiseraren stämmer inte överens"
+ 
+ #: lib/krberror.c:1331
+ msgid "Clock skew too great"
+@@ -435,35 +435,35 @@
+ 
+ #: lib/krberror.c:1333
+ msgid "Incorrect net address"
+-msgstr "Felaktig nätadress"
++msgstr "Felaktig nätverksadress"
+ 
+ #: lib/krberror.c:1335
+ msgid "Protocol version mismatch"
+-msgstr "Protokollversion matchar inte"
++msgstr "Protokollversionerna stämmer inte överens"
+ 
+ #: lib/krberror.c:1337
+ msgid "Invalid msg type"
+-msgstr "Ogiltig msg-typ"
++msgstr "Ogiltig meddelandetyp"
+ 
+ #: lib/krberror.c:1339
+ msgid "Message stream modified"
+-msgstr "Meddelandeström modifierad"
++msgstr "Meddelandeströmmen har ändrats"
+ 
+ #: lib/krberror.c:1341
+ msgid "Message out of order"
+-msgstr "Meddelande i fel ordning"
++msgstr "Meddelandet kommer i fel ordning"
+ 
+ #: lib/krberror.c:1343
+ msgid "Specified version of key is not available"
+-msgstr "Angiven version av nyckel är inte tillgänglig"
++msgstr "Den angivna versionen av nyckeln är inte tillgänglig"
+ 
+ #: lib/krberror.c:1345
+ msgid "Service key not available"
+-msgstr "Servicenyckel inte tillgänglig"
++msgstr "Servicenyckeln är inte tillgänglig"
+ 
+ #: lib/krberror.c:1347
+ msgid "Mutual authentication failed"
+-msgstr "Samtidig autentisering misslyckades"
++msgstr "Ömsesidig autentisering misslyckades"
+ 
+ #: lib/krberror.c:1349
+ msgid "Incorrect message direction"
+@@ -471,23 +471,23 @@
+ 
+ #: lib/krberror.c:1351
+ msgid "Alternative authentication method required"
+-msgstr "Alternativ autentiseringsmetod begärd"
++msgstr "En alternativ autentiseringsmetod krävs"
+ 
+ #: lib/krberror.c:1353
+ msgid "Incorrect sequence number in message"
+-msgstr "Felaktigt sekvensnummer i meddelande"
++msgstr "Felaktigt sekvensnummer i meddelandet"
+ 
+ #: lib/krberror.c:1355
+ msgid "Inappropriate type of checksum in message"
+-msgstr "Olämplig typ av kontrollsumma i meddelande"
++msgstr "Olämplig kontrollsummetyp i meddelandet"
+ 
+ #: lib/krberror.c:1357
+ msgid "Policy rejects transited path"
+-msgstr "Policy avböjer befordransväg"
++msgstr "Policyn avvisar transited-sökvägen"
+ 
+ #: lib/krberror.c:1359
+ msgid "Response too big for UDP, retry with TCP"
+-msgstr "Svar för stort för UDP, försök med TCP"
++msgstr "Svaret är för stort för UDP; försök med TCP"
+ 
+ #: lib/krberror.c:1361
+ msgid "Generic error (description in e-text)"
+@@ -495,7 +495,7 @@
+ 
+ #: lib/krberror.c:1363
+ msgid "Field is too long for this implementation"
+-msgstr "Fält är för stort för denna implementation"
++msgstr "Fältet är för stort för den här implementeringen"
+ 
+ #: lib/krberror.c:1365 lib/krberror.c:1367 lib/krberror.c:1369
+ #: lib/krberror.c:1371 lib/krberror.c:1373 lib/krberror.c:1381
+@@ -511,7 +511,7 @@
+ #: lib/krberror.c:1420
+ #, c-format
+ msgid "Unknown KRB-ERROR error code %d."
+-msgstr "Okänd KRB-FEL-kod %d."
++msgstr "Okänd KRB-ERROR-kod %d."
+ 
+ #: db/err.c:33
+ msgid "Shisa success"
+@@ -523,87 +523,87 @@
+ 
+ #: db/err.c:37
+ msgid "The Shisa configuration file does not exist."
+-msgstr "Konfigurationsfilen för Shisa existerar inte."
++msgstr "Konfigurationsfilen för Shisa finns inte."
+ 
+ #: db/err.c:39
+ msgid "File I/O error for Shisa configuration file."
+-msgstr "In-/utmatningsfel för konfigurationsfil för Shisa."
++msgstr "Fel vid in- eller utmatning av Shisas konfigurationsfil."
+ 
+ #: db/err.c:41
+ msgid "Syntax error in Shisa configuration token."
+-msgstr "Syntaxfel i konfigurationssymbol för Shisa."
++msgstr "Syntaxfel i Shisas konfigurationstoken."
+ 
+ #: db/err.c:43
+ msgid "Shisa database could not be opened."
+-msgstr "Databas för Shisa kunde inte öppnas."
++msgstr "Shisas databas kunde inte öppnas."
+ 
+ #: db/err.c:45
+ msgid "Error enumerating realms in database."
+-msgstr "Fel vid uppräkning av domäner i databas."
++msgstr "Fel vid uppräkning av domäner i databasen."
+ 
+ #: db/err.c:47
+ msgid "Error enumerating principals in database."
+-msgstr "Fel vid uppräkning av huvudnamn i databas."
++msgstr "Fel vid uppräkning av huvudnamn i databasen."
+ 
+ #: db/err.c:49
+ msgid "Error enumerating keys in database."
+-msgstr "Fel vid uppräkning av nycklar i databas."
++msgstr "Fel vid uppräkning av nycklar i databasen."
+ 
+ #: db/err.c:51
+ msgid "Supplied realm does not exist."
+-msgstr "Angiven domän existerar inte."
++msgstr "Den angivna domänen finns inte."
+ 
+ #: db/err.c:53
+ msgid "Supplied principal does not exist."
+-msgstr "Angivet huvudnamn existerar inte."
++msgstr "Det angivna huvudnamnet finns inte."
+ 
+ #: db/err.c:55
+ msgid "Principal is not associated with any matching key."
+-msgstr "Huvudnamn är inte associerat med någon matchande nyckel."
++msgstr "Huvudnamnet är inte kopplat till någon matchande nyckel."
+ 
+ #: db/err.c:57
+ msgid "Error finding principal."
+-msgstr "Kunde inte hitta huvudnamn."
++msgstr "Kunde inte hitta huvudnamnet."
+ 
+ #: db/err.c:59
+ msgid "Tried to add a realm that already exist."
+-msgstr "Försökte att lägga till en domän som redan existerar."
++msgstr "Försökte lägga till en domän som redan finns."
+ 
+ #: db/err.c:61
+ msgid "Error adding realm to database."
+-msgstr "Fel vid tillägg av domän till databas."
++msgstr "Fel vid tillägg av domänen i databasen."
+ 
+ #: db/err.c:63
+ msgid "Tried to remove a non-empty realm."
+-msgstr "Försökte att ta bort en icke-tom domän."
++msgstr "Försökte ta bort en domän som inte är tom."
+ 
+ #: db/err.c:65
+ msgid "Error removing realm from database."
+-msgstr "Fel vid borttagning av domän från databas."
++msgstr "Fel vid borttagning av domänen från databasen."
+ 
+ #: db/err.c:67
+ msgid "Tried to add a principal that already exist."
+-msgstr "Försökte att lägga till ett huvudnamn som redan existerar."
++msgstr "Försökte lägga till ett huvudnamn som redan finns."
+ 
+ #: db/err.c:69
+ msgid "Error adding principal to database."
+-msgstr "Fel vid tillägg av huvudnamn till databas."
++msgstr "Fel vid tillägg av huvudnamnet i databasen."
+ 
+ #: db/err.c:71
+ msgid "Error removing principal from database."
+-msgstr "Fel vid borttagning av huvudnamn från databas."
++msgstr "Fel vid borttagning av huvudnamnet från databasen."
+ 
+ #: db/err.c:73
+ msgid "Error adding key to principal."
+-msgstr "Fel vid tillägg av nyckel till huvudnamn."
++msgstr "Fel vid tillägg av nyckeln till huvudnamnet."
+ 
+ #: db/err.c:75
+ msgid "Error removing key from principal."
+-msgstr "Fel vid borttagning av nyckel från huvudnamn."
++msgstr "Fel vid borttagning av nyckeln från huvudnamnet."
+ 
+ #: db/err.c:77
+ msgid "More than one key match given search criteria."
+-msgstr "Mer än en nyckel matchar angivna sökkriterier."
++msgstr "Fler än en nyckel matchar de angivna sökkriterierna."
+ 
+ #: db/err.c:98
+ msgid "Unknown Shisa error"
+@@ -616,7 +616,7 @@
+ 
+ #: src/shisa.c:143
+ msgid "Account is"
+-msgstr "Konto är"
++msgstr "Kontot är"
+ 
+ #: src/shisa.c:144
+ msgid "DISABLED"
+@@ -632,15 +632,15 @@
+ 
+ #: src/shisa.c:147
+ msgid "Account not valid before"
+-msgstr "Konto inte giltigt innan"
++msgstr "Kontot är inte giltigt före"
+ 
+ #: src/shisa.c:149
+ msgid "Last initial TGT request at"
+-msgstr "Senaste inledande TGT-begäran vid"
++msgstr "Senaste initiala TGT-begäran vid"
+ 
+ #: src/shisa.c:151
+ msgid "Last initial request at"
+-msgstr "Senaste inledande begäran vid"
++msgstr "Senaste initiala begäran vid"
+ 
+ #: src/shisa.c:153
+ msgid "Last TGT request at"
+@@ -652,11 +652,11 @@
+ 
+ #: src/shisa.c:157
+ msgid "Password expire on"
+-msgstr "Lösenord går ut"
++msgstr "Lösenordet går ut"
+ 
+ #: src/shisa.c:159
+ msgid "Account expire on"
+-msgstr "Konto går ut"
++msgstr "Kontot går ut"
+ 
+ #: src/shisa.c:172
+ msgid "Key"
+@@ -703,32 +703,32 @@
+ #: src/shisa.c:280
+ #, c-format
+ msgid "Adding realm `%s'...done\n"
+-msgstr "Lägger till domän ”%s”…klart\n"
++msgstr "Lägger till domän ”%s”… klart\n"
+ 
+ #: src/shisa.c:282
+ #, c-format
+ msgid "Adding principal `%s@%s'...done\n"
+-msgstr "Lägger till huvudnamn ”%s@%s”…klart\n"
++msgstr "Lägger till huvudnamn ”%s@%s”… klart\n"
+ 
+ #: src/shisa.c:313
+ #, c-format
+ msgid "Removing realm `%s'...\n"
+-msgstr "Tar bort domän ”%s”…\n"
++msgstr "Tar bort domänen ”%s”…\n"
+ 
+ #: src/shisa.c:315
+ #, c-format
+ msgid "Removing principal `%s@%s'...\n"
+-msgstr "Tar bort huvudnamn ”%s@%s”…\n"
++msgstr "Tar bort huvudnamnet ”%s@%s”…\n"
+ 
+ #: src/shisa.c:323
+ #, c-format
+ msgid "Removing realm `%s'...done\n"
+-msgstr "Tar bort domän ”%s”…klart\n"
++msgstr "Tar bort domänen ”%s”… klart\n"
+ 
+ #: src/shisa.c:325
+ #, c-format
+ msgid "Removing principal `%s@%s'...done\n"
+-msgstr "Tar bort huvudnamn ”%s@%s”…klart\n"
++msgstr "Tar bort huvudnamnet ”%s@%s”… klart\n"
+ 
+ #: src/shisa.c:372
+ #, c-format
+@@ -742,7 +742,7 @@
+ #: src/shisa.c:377
+ #, c-format
+ msgid "Could not read password"
+-msgstr "Kunde inte läsa lösenord"
++msgstr "Kunde inte läsa lösenordet"
+ 
+ #: src/shisa.c:389
+ #, c-format
+@@ -750,13 +750,13 @@
+ "Could not create key (%d):\n"
+ "%s"
+ msgstr ""
+-"Kunde inte skapa nyckel (%d):\n"
++"Kunde inte skapa en nyckel (%d):\n"
+ "%s"
+ 
+ #: src/shisa.c:423 src/shishi.c:59 src/shishid.c:494
+ #, c-format
+ msgid "Try `%s --help' for more information.\n"
+-msgstr "Prova ”%s --help” för vidare information.\n"
++msgstr "Prova ”%s --help” för mer information.\n"
+ 
+ #: src/shisa.c:428 src/shishi.c:64
+ #, c-format
+@@ -765,7 +765,7 @@
+ "Mandatory arguments to long options are mandatory for short options too.\n"
+ msgstr ""
+ "\n"
+-"Nödvändiga argument till långa flaggor är också nödvändiga för korta flaggor.\n"
++"Obligatoriska argument till långa flaggor är obligatoriska även för korta flaggor.\n"
+ 
+ #: src/shisa.c:468 src/shishi.c:100
+ #, c-format
+@@ -778,7 +778,7 @@
+ "Initialization failed:\n"
+ "%s"
+ msgstr ""
+-"Initialisering misslyckades:\n"
++"Initialiseringen misslyckades:\n"
+ "%s"
+ 
+ #: src/shisa.c:482
+@@ -796,7 +796,7 @@
+ "Shishi initialization failed:\n"
+ "%s"
+ msgstr ""
+-"Shishi-initiering misslyckades:\n"
++"Initialiseringen av Shishi misslyckades:\n"
+ "%s"
+ 
+ #: src/shisa.c:492
+@@ -805,7 +805,7 @@
+ "Could not set encryption type `%s':\n"
+ "%s"
+ msgstr ""
+-"Kunde inte ställa in krypteringstyp ”%s”:\n"
++"Kunde inte ställa in krypteringstypen ”%s”:\n"
+ "%s"
+ 
+ #: src/shisa.c:500
+@@ -816,37 +816,37 @@
+ #: src/shisa.c:531
+ #, c-format
+ msgid "Adding default realm `%s'...\n"
+-msgstr "Lägger till standarddomän ”%s”…\n"
++msgstr "Lägger till standarddomänen ”%s”…\n"
+ 
+ #: src/shisa.c:551
+ #, c-format
+ msgid "Modifying principal `%s@%s'...\n"
+-msgstr "Modifierar huvudnamn ”%s@%s”…\n"
++msgstr "Ändrar huvudnamnet ”%s@%s”…\n"
+ 
+ #: src/shisa.c:558
+ #, c-format
+ msgid "Modifying principal `%s@%s'...done\n"
+-msgstr "Modifierar huvudnamn ”%s@%s”…klart\n"
++msgstr "Ändrar huvudnamnet ”%s@%s”… klart\n"
+ 
+ #: src/shisa.c:562
+ #, c-format
+ msgid "Adding key to `%s@%s'...\n"
+-msgstr "Lägger till nyckel till ”%s@%s”…\n"
++msgstr "Lägger till en nyckel till ”%s@%s”…\n"
+ 
+ #: src/shisa.c:572
+ #, c-format
+ msgid "Adding key to `%s@%s'...done\n"
+-msgstr "Lägger till nyckel till ”%s@%s”…klart\n"
++msgstr "Lägger till en nyckel till ”%s@%s”… klart\n"
+ 
+ #: src/shisa.c:576
+ #, c-format
+ msgid "Removing key from `%s@%s'...\n"
+-msgstr "Tar bort nyckel från ”%s@%s”…\n"
++msgstr "Tar bort en nyckel från ”%s@%s”…\n"
+ 
+ #: src/shisa.c:589
+ #, c-format
+ msgid "Removing key from `%s@%s'...done\n"
+-msgstr "Tar bort nyckel från ”%s@%s”…klart\n"
++msgstr "Tar bort en nyckel från ”%s@%s”… klart\n"
+ 
+ #: src/shishi.c:111
+ #, c-format
+@@ -861,12 +861,12 @@
+ #: src/shishi.c:127
+ #, c-format
+ msgid "Could not parse client principal \"%s\": %s"
+-msgstr "Kunde inte tolka huvudnamn för klient ”%s”: %s"
++msgstr "Kunde inte tolka klientens huvudnamn ”%s”: %s"
+ 
+ #: src/shishi.c:140
+ #, c-format
+ msgid "Could not parse server principal \"%s\": %s"
+-msgstr "Kunde inte tolka huvudnamn för server ”%s”: %s"
++msgstr "Kunde inte tolka serverns huvudnamn ”%s”: %s"
+ 
+ #: src/shishi.c:146
+ #, c-format
+@@ -896,12 +896,12 @@
+ #: src/shishi.c:208
+ #, c-format
+ msgid "Could not list tickets: %s"
+-msgstr "Kunde inte lista biljetter: %s"
++msgstr "Kunde inte lista biljetterna: %s"
+ 
+ #: src/shishi.c:225
+ #, c-format
+ msgid "Removing ticket:\n"
+-msgstr "Tar bort biljett:\n"
++msgstr "Tar bort biljetten:\n"
+ 
+ #: src/shishi.c:232
+ #, c-format
+@@ -909,25 +909,25 @@
+ "Could not destroy ticket %d:\n"
+ "%s"
+ msgstr ""
+-"Kunde inte förstöra biljett %d:\n"
++"Kunde inte förstöra biljetten %d:\n"
+ "%s"
+ 
+ #: src/shishi.c:242
+ #, c-format
+ msgid "No tickets removed.\n"
+-msgstr "Inga biljetter borttagna.\n"
++msgstr "Inga biljetter togs bort.\n"
+ 
+ #: src/shishi.c:244
+ #, c-format
+ msgid "%d ticket removed.\n"
+ msgid_plural "%d tickets removed.\n"
+-msgstr[0] "%d biljett borttagen.\n"
+-msgstr[1] "%d biljetter borttagna.\n"
++msgstr[0] "%d biljett togs bort.\n"
++msgstr[1] "%d biljetter togs bort.\n"
+ 
+ #: src/shishi.c:277
+ #, c-format
+ msgid "could not get ticket as `%s' for `%s'"
+-msgstr "kunde inte hämta biljett som ”%s” för ”%s”"
++msgstr "kunde inte hämta en biljett som ”%s” för ”%s”"
+ 
+ #. TRANSLATORS: The placeholder indicates the bug-reporting address
+ #. for this package.  Please add _another line_ saying
+@@ -942,6 +942,7 @@
+ "Report bugs to <%s>.\n"
+ msgstr ""
+ "\n"
+-"Nödvändiga argument till långa flaggor är också nödvändiga för korta flaggor.\n"
++"Obligatoriska argument till långa flaggor är obligatoriska även för korta flaggor.\n"
+ "\n"
+ "Rapportera fel till <%s>.\n"
++"Rapportera översättningsfel till: tp-sv@listor.tp-sv.se\n"

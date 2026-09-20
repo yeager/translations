@@ -1,0 +1,1521 @@
+# Swedish translation for shepherd
+# This file is put in the public domain.
+# Sebastian Rasmussen <sebras@gmail.com>, 2018, 2019, 2020, 2023.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2022, 2023.
+# Luna Jernberg <droidbittin@gmail.com>, 2024, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: shepherd 1.0.9rc1\n"
+"Report-Msgid-Bugs-To: guix-devel@gnu.org\n"
+"POT-Creation-Date: 2025-11-30 11:35:49 +0100\n"
+"PO-Revision-Date: 2025-12-01 09:49+0100\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.8\n"
+
+#. TRANSLATORS: Strings occasionally contain escape sequences starting
+#. with '~' (tilde).  For example, '~a' corresponds to '%s' in C printf
+#. syntax and '~%' corresponds to '\n'.  These must be preserved as is.
+#. See
+#. <https://www.gnu.org/software/guile/manual/html_node/Formatted-Output.html>
+#. for more info.
+#: modules/shepherd/comm.scm:255
+#, scheme-format
+msgid "service '~a' could not be found"
+msgstr "tjänst ”~a” kunde inte hittas"
+
+#: modules/shepherd/comm.scm:258
+#, scheme-format
+msgid "service '~a' does not have an action '~a'"
+msgstr "tjänst ”~a” saknar åtgärd ”~a”"
+
+#: modules/shepherd/comm.scm:262
+#, scheme-format
+msgid "exception caught while executing '~a' on service '~a':"
+msgstr "ett undantag fångades när ”~a” kördes för tjänsten ”~a”:"
+
+#: modules/shepherd/comm.scm:267
+#, scheme-format
+msgid "something went wrong: ~s"
+msgstr "något gick fel: ~s"
+
+#: modules/shepherd/scripts/halt.scm:38
+msgid "Halt or power off the system."
+msgstr "Stoppa eller stäng av systemet."
+
+#: modules/shepherd/scripts/herd.scm:180
+msgid "Started:\n"
+msgstr "Startade:\n"
+
+#: modules/shepherd/scripts/herd.scm:182
+msgid "Running timers:\n"
+msgstr "Aktiva tidtagare:\n"
+
+#: modules/shepherd/scripts/herd.scm:184
+msgid "Starting:\n"
+msgstr "Startar:\n"
+
+#: modules/shepherd/scripts/herd.scm:187
+msgid "Stopped:\n"
+msgstr "Stoppade:\n"
+
+#: modules/shepherd/scripts/herd.scm:189
+msgid "Stopping:\n"
+msgstr "Stoppar:\n"
+
+#. TRANSLATORS: Here "one-shot" refers to "one-shot services".  These are
+#. services that are immediately marked as stopped once their 'start'
+#. method has completed.
+#: modules/shepherd/scripts/herd.scm:195
+msgid "One-shot:\n"
+msgstr "Engångstjänster:\n"
+
+#: modules/shepherd/scripts/herd.scm:198
+msgid "Failed to start:\n"
+msgstr "Misslyckades med att starta:\n"
+
+#: modules/shepherd/scripts/herd.scm:220
+#, scheme-format
+msgid "in ~a day"
+msgid_plural "in ~a days"
+msgstr[0] "om ~a dag"
+msgstr[1] "om ~a dagar"
+
+#: modules/shepherd/scripts/herd.scm:225
+#, scheme-format
+msgid "in ~a hour"
+msgid_plural "in ~a hours"
+msgstr[0] "om ~a timme"
+msgstr[1] "om ~a timmar"
+
+#: modules/shepherd/scripts/herd.scm:230
+#, scheme-format
+msgid "in ~a minute"
+msgid_plural "in ~a minutes"
+msgstr[0] "om ~a minut"
+msgstr[1] "om ~a minuter"
+
+#: modules/shepherd/scripts/herd.scm:233
+#, scheme-format
+msgid "in ~a second"
+msgid_plural "in ~a seconds"
+msgstr[0] "om ~a sekund"
+msgstr[1] "om ~a sekunder"
+
+#: modules/shepherd/scripts/herd.scm:236
+#, scheme-format
+msgid "~a second ago"
+msgid_plural "~a seconds ago"
+msgstr[0] "~a sekund sedan"
+msgstr[1] "~a sekunder sedan"
+
+#: modules/shepherd/scripts/herd.scm:241
+#, scheme-format
+msgid "~a minute ago"
+msgid_plural "~a minutes ago"
+msgstr[0] "~a minut sedan"
+msgstr[1] "~a minuter sedan"
+
+#: modules/shepherd/scripts/herd.scm:246
+#, scheme-format
+msgid "~a hour ago"
+msgid_plural "~a hours ago"
+msgstr[0] "~a timme sedan"
+msgstr[1] "~a timmar sedan"
+
+#: modules/shepherd/scripts/herd.scm:251
+#, scheme-format
+msgid "~a day ago"
+msgid_plural "~a days ago"
+msgstr[0] "~a dag sedan"
+msgstr[1] "~a dagar sedan"
+
+#. TRANSLATORS: The first placeholder is for a date string such as "April 22
+#. 19:07:46" and the parenthesized placeholder is for the corresponding
+#. relative date string like "2 hours ago".
+#: modules/shepherd/scripts/herd.scm:271
+#, scheme-format
+msgid "~a (~a)"
+msgstr "~a (~a)"
+
+#. TRANSLATORS: This string and the following ones denote a duration.
+#. It ends up being inserted in a sentence like "Process terminated
+#. after 10 seconds".  (Arguably not ideal.)
+#: modules/shepherd/scripts/herd.scm:280
+msgid "~h second"
+msgid_plural "~h seconds"
+msgstr[0] "~h sekund"
+msgstr[1] "~h sekunder"
+
+#: modules/shepherd/scripts/herd.scm:284
+msgid "~h minute"
+msgid_plural "~h minutes"
+msgstr[0] "~h minut"
+msgstr[1] "~h minuter"
+
+#: modules/shepherd/scripts/herd.scm:288
+msgid "~h hour"
+msgid_plural "~h hours"
+msgstr[0] "~h timme"
+msgstr[1] "~h timmar"
+
+#: modules/shepherd/scripts/herd.scm:325
+#, scheme-format
+msgid "Process exited successfully after ~a.~%"
+msgstr "Processen avslutades efter ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:327
+#, scheme-format
+msgid "Process exited successfully.~%"
+msgstr "Processen avslutades framgångsrikt.~%"
+
+#: modules/shepherd/scripts/herd.scm:334
+#, scheme-format
+msgid "Process exited with code ~a after ~a.~%"
+msgstr "Processen avslutades med koden ~a efter ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:337
+#, scheme-format
+msgid "Process exited with code ~a.~%"
+msgstr "Processen avslutades med koden ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:345
+#, scheme-format
+msgid "Process terminated with signal ~a after ~a.~%"
+msgstr "Processen avslutades med signal ~a efter ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:348
+#, scheme-format
+msgid "Process terminated with signal ~a.~%"
+msgstr "Processen avslutades med signal ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:356
+#, scheme-format
+msgid "Process stopped with signal ~a after ~a.~%"
+msgstr "Processen stoppades med signal ~a efter ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:359
+#, scheme-format
+msgid "Process stopped with signal ~a.~%"
+msgstr "Processen stoppades med signal ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:393
+#, scheme-format
+msgid "Status of ~a:~%"
+msgstr "Status för ~a:~%"
+
+#: modules/shepherd/scripts/herd.scm:401
+#, scheme-format
+msgid "  Timed service.~%"
+msgstr "  Tidsstyrd tjänst.~%"
+
+#: modules/shepherd/scripts/herd.scm:406
+#, scheme-format
+msgid "  Awaiting next timer alarm; service active since ~a.~%"
+msgstr "  Väntar på nästa tidslarm; tjänsten har varit aktiv sedan ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:412
+#, scheme-format
+msgid "  Executing timer action since ~a.~%"
+msgstr "  Utför tidsåtgärden sedan ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:416
+#, scheme-format
+msgid "  It is transient, running since ~a.~%"
+msgstr "  Den är tillfällig och har körts sedan ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:419
+#, scheme-format
+msgid "  It is running since ~a.~%"
+msgstr "  Den har körts sedan ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:424
+#, scheme-format
+msgid "  It is started and transient.~%"
+msgstr "  Den är startad och tillfällig.~%"
+
+#: modules/shepherd/scripts/herd.scm:425
+#, scheme-format
+msgid "  It is started.~%"
+msgstr "  Den är startad.~%"
+
+#. TRANSLATORS: "PID" is short for "process identifier" (Unix jargon).
+#. The string here looks like "Main PID: 123".
+#: modules/shepherd/scripts/herd.scm:432
+#, scheme-format
+msgid "  Main PID: ~a~%"
+msgstr "  Huvud-PID: ~a~%"
+
+#: modules/shepherd/scripts/herd.scm:434 modules/shepherd/scripts/herd.scm:456
+#: modules/shepherd/scripts/herd.scm:477
+#, scheme-format
+msgid "  Command: ~a~%"
+msgstr "  Kommando: ~a~%"
+
+#. TRANSLATORS: "Inetd" refers to a type of service and should be kept
+#. as-is.
+#: modules/shepherd/scripts/herd.scm:444
+#, scheme-format
+msgid "  Inetd-style service listening on ~a endpoint:~%"
+msgid_plural "  Inetd-style service listening on ~a endpoints:~%"
+msgstr[0] "  Inetd-liknande tjänst som lyssnar på ~a slutpunkt:~%"
+msgstr[1] " Inetd-liknande tjänst lyssnar på ~a slutpunkter:~%"
+
+#. TRANSLATORS: "Systemd" should be kept untranslated.
+#: modules/shepherd/scripts/herd.scm:465
+#, scheme-format
+msgid "  Systemd-style service listening on ~a endpoint:~%"
+msgid_plural "  Systemd-style service listening on ~a endpoints:~%"
+msgstr[0] "  Systemd-liknande tjänst som lyssnar på ~a ändpunkt:~%"
+msgstr[1] "  Systemd-liknande tjänst som lyssnar på ~a ändpunkter:~%"
+
+#: modules/shepherd/scripts/herd.scm:486
+#, scheme-format
+msgid "  System log listening on ~a endpoint:~%"
+msgid_plural "  System log listening on ~a endpoints:~%"
+msgstr[0] "  Systemlogg som lyssnar på ~a ändpunkt:~%"
+msgstr[1] "  Systemlogg som lyssnar på ~a ändpunkter:~%"
+
+#: modules/shepherd/scripts/herd.scm:502
+#, scheme-format
+msgid "  Periodically running as ~s: ~a~%"
+msgstr "  Körs regelbundet som ~s: ~a~%"
+
+#: modules/shepherd/scripts/herd.scm:505
+#, scheme-format
+msgid "  Periodically running: ~a~%"
+msgstr "  Körs regelbundet: ~a~%"
+
+#: modules/shepherd/scripts/herd.scm:508
+#, scheme-format
+msgid "  Child process:~{ ~a~}~%"
+msgid_plural "  Child processes:~{ ~a~}~%"
+msgstr[0] "  Underordnad process:~{ ~a~}~%"
+msgstr[1] "  Underordnade processer:~{ ~a~}~%"
+
+#: modules/shepherd/scripts/herd.scm:515
+#, scheme-format
+msgid "  Periodically running Scheme code.~%"
+msgstr "  Scheme-kod som körs regelbundet.~%"
+
+#. TRANSLATORS: The "~s" bit is most of the time a placeholder for a
+#. Scheme value associated with the service.
+#: modules/shepherd/scripts/herd.scm:520
+#, scheme-format
+msgid "  Running value is ~s.~%"
+msgstr "  Det aktuella värdet är ~s.~%"
+
+#: modules/shepherd/scripts/herd.scm:524
+#, scheme-format
+msgid "  It is stopped (one-shot).~%"
+msgstr "  Den är stoppad (engångstjänst).~%"
+
+#: modules/shepherd/scripts/herd.scm:527
+#, scheme-format
+msgid "  It is stopped (failing).~%"
+msgstr "  Den är stoppad (med fel).~%"
+
+#: modules/shepherd/scripts/herd.scm:531
+#, scheme-format
+msgid "  It is stopped since ~a.~%"
+msgstr "  Den är stoppad sedan ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:535
+#, scheme-format
+msgid "  It is stopped.~%"
+msgstr "  Den är stoppad.~%"
+
+#: modules/shepherd/scripts/herd.scm:544
+#, scheme-format
+msgid "  It is starting.~%"
+msgstr "  Den startar.~%"
+
+#: modules/shepherd/scripts/herd.scm:547
+#, scheme-format
+msgid "  It is being stopped.~%"
+msgstr "  Den stoppas.~%"
+
+#: modules/shepherd/scripts/herd.scm:549
+#, scheme-format
+msgid "  Unknown status '~a'.~%"
+msgstr "  Okänd status ”~a”.~%"
+
+#: modules/shepherd/scripts/herd.scm:552
+#, scheme-format
+msgid "  It is enabled.~%"
+msgstr "  Den är aktiverad.~%"
+
+#: modules/shepherd/scripts/herd.scm:556
+#, scheme-format
+msgid "  It is disabled.~%"
+msgstr "  Den är inaktiverad.~%"
+
+#: modules/shepherd/scripts/herd.scm:557
+#, scheme-format
+msgid "  Provides:~{ ~a~}~%"
+msgstr "  Tillhandahåller:~{ ~a~}~%"
+
+#: modules/shepherd/scripts/herd.scm:559
+#, scheme-format
+msgid "  Requires:~{ ~a~}~%"
+msgstr "  Kräver:~{ ~a~}~%"
+
+#: modules/shepherd/scripts/herd.scm:562
+#, scheme-format
+msgid "  Custom action:~{ ~a~}~%"
+msgid_plural "  Custom actions:~{ ~a~}~%"
+msgstr[0] "  Anpassad åtgärd:~{ ~a~}~%"
+msgstr[1] "  Anpassade åtgärder:~{ ~a~}~%"
+
+#: modules/shepherd/scripts/herd.scm:568
+#, scheme-format
+msgid "  Replacement pending (restart to upgrade).~%"
+msgstr "  Ersättning väntar (starta om för att uppgradera).~%"
+
+#: modules/shepherd/scripts/herd.scm:572
+#, scheme-format
+msgid "  Will be respawned.~%"
+msgstr "  Kommer att startas om.~%"
+
+#: modules/shepherd/scripts/herd.scm:573
+#, scheme-format
+msgid "  Will not be respawned.~%"
+msgstr "  Kommer inte att startas om.~%"
+
+#: modules/shepherd/scripts/herd.scm:576
+#, scheme-format
+msgid "  Last respawned on ~a.~%"
+msgstr "  Startades senast om ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:582
+#, scheme-format
+msgid "  Latest exit:~%"
+msgid_plural "  Latest exits:~%"
+msgstr[0] "  Senaste avslut:~%"
+msgstr[1] "  Senaste avsluten:~%"
+
+#: modules/shepherd/scripts/herd.scm:596
+#, scheme-format
+msgid "  Failed to start at ~a.~%"
+msgstr "  Misslyckades med att starta vid ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:602
+#, scheme-format
+msgid "  Log file:~{ ~a~}~%"
+msgid_plural "  Log files:~{ ~a~}~%"
+msgstr[0] "  Loggfil:~{ ~a~}~%"
+msgstr[1] "  Loggfiler:~{ ~a~}~%"
+
+#: modules/shepherd/scripts/herd.scm:616
+#, scheme-format
+msgid "Recent runs:~%"
+msgstr "Senaste körningar:~%"
+
+#: modules/shepherd/scripts/herd.scm:627
+#, scheme-format
+msgid "Completed in ~a.~%"
+msgstr "Slutfördes på ~a.~%"
+
+#: modules/shepherd/scripts/herd.scm:631
+#, scheme-format
+msgid "Exception thrown after ~a: ~a~%"
+msgstr "Ett undantag kastades efter ~a: ~a~%"
+
+#: modules/shepherd/scripts/herd.scm:648
+#, scheme-format
+msgid "Recent messages (use '-n' to view more or less):~%"
+msgstr "Senaste meddelanden (använd ”-n” för att visa fler eller färre):~%"
+
+#: modules/shepherd/scripts/herd.scm:650
+#, scheme-format
+msgid "Recent messages:~%"
+msgstr "Senaste meddelanden:~%"
+
+#: modules/shepherd/scripts/herd.scm:668
+#, scheme-format
+msgid "No upcoming timer alarm: about to stop.~%"
+msgstr "Inget kommande tidslarm: tjänsten håller på att stoppas.~%"
+
+#: modules/shepherd/scripts/herd.scm:672
+#, scheme-format
+msgid "Upcoming timer alarm:~%"
+msgid_plural "Upcoming timer alarms:~%"
+msgstr[0] "Kommande timerlarm:~%"
+msgstr[1] "Flera kommande timerlarm:~%"
+
+#: modules/shepherd/scripts/herd.scm:719
+msgid "event log is missing (shepherd is too old?)"
+msgstr "händelseloggen saknas (är Shepherd för gammal?)"
+
+#: modules/shepherd/scripts/herd.scm:732
+#, scheme-format
+msgid "service ~a is running~%"
+msgstr "tjänsten ~a körs~%"
+
+#: modules/shepherd/scripts/herd.scm:736
+#, scheme-format
+msgid "service ~a is done (one-shot)~%"
+msgstr "tjänsten ~a är klar (engångstjänst)~%"
+
+#: modules/shepherd/scripts/herd.scm:741
+#, scheme-format
+msgid "service ~a is done (transient)~%"
+msgstr "tjänsten ~a är klar (tillfällig)~%"
+
+#: modules/shepherd/scripts/herd.scm:745
+#, scheme-format
+msgid "service ~a is stopped~%"
+msgstr "tjänst ~a har stoppats~%"
+
+#: modules/shepherd/scripts/herd.scm:749
+#, scheme-format
+msgid "service ~a failed to start~%"
+msgstr "tjänsten ~a kunde inte starta~%"
+
+#: modules/shepherd/scripts/herd.scm:752
+#, scheme-format
+msgid "service ~a is being started~%"
+msgstr "tjänsten ~a startas~%"
+
+#: modules/shepherd/scripts/herd.scm:755
+#, scheme-format
+msgid "service ~a is being stopped~%"
+msgstr "tjänsten ~a stoppas~%"
+
+#: modules/shepherd/scripts/herd.scm:758
+#, scheme-format
+msgid "service ~a is entering state '~a'~%"
+msgstr "tjänsten ~a går in i tillståndet ”~a”~%"
+
+#: modules/shepherd/scripts/herd.scm:776
+#, scheme-format
+msgid "inconsistent graph: service '~a' not found~%"
+msgstr "inkonsekvent graf: tjänst ”~a” hittades inte~%"
+
+#: modules/shepherd/scripts/herd.scm:811
+msgid "Service Graph"
+msgstr "Tjänstegraf"
+
+#: modules/shepherd/scripts/herd.scm:917
+#, scheme-format
+msgid "failed to start service ~a"
+msgstr "kunde inte starta tjänsten ~a"
+
+#: modules/shepherd/scripts/herd.scm:934 modules/shepherd/scripts/herd.scm:938
+#, scheme-format
+msgid "Did you mean 'herd ~a ~a'?"
+msgstr "Menade du ”herd ~a ~a”?"
+
+#: modules/shepherd/scripts/herd.scm:943
+#, scheme-format
+msgid "Run 'herd doc ~a list-actions' to list supported actions."
+msgstr "Kör ”herd doc ~a list-actions” för att lista åtgärder som stöds."
+
+#: modules/shepherd/scripts/herd.scm:954
+msgid "premature end-of-file while talking to shepherd"
+msgstr "oväntat filslut vid kommunikation med Shepherd"
+
+#: modules/shepherd/scripts/herd.scm:981
+msgid "ACTION SERVICE [ARG...]"
+msgstr "ÅTGÄRD TJÄNST [ARG...]"
+
+#: modules/shepherd/scripts/herd.scm:982
+msgid "Apply ACTION (start, stop, status, etc.) on SERVICE with the ARGs."
+msgstr "Utför ÅTGÄRD (start, stop, status osv.) på TJÄNST med ARGUMENTEN."
+
+#: modules/shepherd/scripts/herd.scm:990 modules/shepherd/scripts/herd.scm:1023
+#: modules/shepherd.scm:488 modules/shepherd.scm:495 modules/shepherd.scm:502
+#: modules/shepherd.scm:509 modules/shepherd.scm:517
+msgid "FILE"
+msgstr "FIL"
+
+#: modules/shepherd/scripts/herd.scm:991
+msgid "send commands to FILE"
+msgstr "skicka kommandon till FIL"
+
+#: modules/shepherd/scripts/herd.scm:997
+msgid "NUMBER"
+msgstr "ANTAL"
+
+#: modules/shepherd/scripts/herd.scm:999
+msgid "display up to NUMBER service log lines"
+msgstr "visa upp till ANTAL rader ur tjänsteloggen"
+
+#: modules/shepherd/scripts/herd.scm:1005
+#, scheme-format
+msgid "~a: expected a positive integer"
+msgstr "~a: förväntar sig ett positivt heltal"
+
+#: modules/shepherd/scripts/herd.scm:1015
+msgid "NAME"
+msgstr "NAMN"
+
+#: modules/shepherd/scripts/herd.scm:1017
+msgid "register new service under NAME"
+msgstr "registrera ny tjänst under NAMN"
+
+#: modules/shepherd/scripts/herd.scm:1025
+msgid "log service output to FILE"
+msgstr "logga tjänstens utdata i FIL"
+
+#: modules/shepherd/scripts/herd.scm:1034
+msgid "DIRECTORY"
+msgstr "KAT"
+
+#: modules/shepherd/scripts/herd.scm:1036
+msgid "run service from DIRECTORY (for transient services)"
+msgstr "kör tjänsten från KAT (för tillfälliga tjänster)"
+
+#: modules/shepherd/scripts/herd.scm:1043
+msgid "ENVIRONMENT"
+msgstr "MILJÖ"
+
+#: modules/shepherd/scripts/herd.scm:1045
+msgid "pass the environment variable specified by ENVIRONMENT"
+msgstr "skicka miljövariabeln som anges av MILJÖ"
+
+#: modules/shepherd/scripts/herd.scm:1053
+msgid "USER"
+msgstr "ANVÄNDARE"
+
+#: modules/shepherd/scripts/herd.scm:1055
+msgid "run the given program as USER"
+msgstr "kör det angivna programmet som ANVÄNDARE"
+
+#: modules/shepherd/scripts/herd.scm:1061
+msgid "GROUP"
+msgstr "GRUPP"
+
+#: modules/shepherd/scripts/herd.scm:1063
+msgid "run the given program as GROUP"
+msgstr "kör det angivna programmet som GRUPP"
+
+#: modules/shepherd/scripts/herd.scm:1098
+#, scheme-format
+msgid "Usage: herd ACTION [SERVICE [OPTIONS...]]~%"
+msgstr "Användning: herd ÅTGÄRD [TJÄNST [FLAGGOR...]]~%"
+
+#: modules/shepherd/scripts/reboot.scm:41
+msgid "Reboot the system."
+msgstr "Starta om systemet."
+
+#: modules/shepherd/support.scm:167
+#, scheme-format
+msgid "~a: Assertion ~s failed in procedure '~a'."
+msgstr "~a: kontrollen ~s misslyckades i proceduren ”~a”."
+
+#: modules/shepherd/support.scm:169
+#, scheme-format
+msgid "~a: Assertion ~s failed."
+msgstr "~a: kontrollen ~s misslyckades."
+
+#: modules/shepherd/support.scm:385
+#, scheme-format
+msgid "In call to '~a', value ~S of argument '~a' has the wrong type (it should match '~a')."
+msgstr "Vid anrop av ”~a” har värdet ~S för argumentet ”~a” fel typ (det ska matcha ”~a”)."
+
+#. TRANSLATORS: '~a' is a placeholder for the copyright year.
+#: modules/shepherd/support.scm:421
+#, scheme-format
+msgid "Copyright (C) ~a the Shepherd authors"
+msgstr "Copyright (C) ~a Shepherds upphovspersoner"
+
+#: modules/shepherd/support.scm:422
+msgid ""
+"License GPLv3+: GNU GPL version 3 or later <https://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"Licens GPLv3+: GNU GPL version 3 eller senare <https://gnu.org/licenses/gpl.html>\n"
+"Detta är fri programvara: du har rätt att ändra och vidaredistribuera den.\n"
+"Det finns INGEN GARANTI, så långt som lagen tillåter."
+
+#: modules/shepherd/support.scm:446
+msgid "error"
+msgstr "fel"
+
+#: modules/shepherd/support.scm:450
+msgid "hint"
+msgstr "tips"
+
+#. TRANSLATORS: There's actually nothing to translate here.  This msgid
+#. exists solely because the error-reporting procedure requires it.
+#: modules/shepherd/support.scm:471
+#, scheme-format
+msgid "~a"
+msgstr "~a"
+
+#. TRANSLATORS: Please keep double semicolons at the beginning of each
+#. line: they introduce comments in the Scheme language.  Also, keep
+#. "shepherd" untranslated.  Thank you!  :-)
+#: modules/shepherd/support.scm:540
+msgid ";; init.scm -- default shepherd configuration file.\n"
+msgstr ";; init.scm -- standardkonfigurationsfil för Shepherd.\n"
+
+#: modules/shepherd/support.scm:542
+msgid ""
+";; Services known to shepherd:\n"
+";; Add new services (defined using 'service') to shepherd here by\n"
+";; providing them as a list to 'register-services'.\n"
+msgstr ""
+";; Tjänster som Shepherd känner till:\n"
+";; Lägg till nya tjänster (definierade med 'service') i Shepherd här"
+" genom\n"
+";; att ange dem som en lista till 'register-services'.\n"
+
+#: modules/shepherd/support.scm:547
+msgid ";; Send shepherd into the background.\n"
+msgstr ";; Kör Shepherd i bakgrunden.\n"
+
+#: modules/shepherd/support.scm:550
+msgid ""
+";; Services to start when shepherd starts:\n"
+";; Add the name of each service that should be started to the list\n"
+";; below passed to 'for-each'.\n"
+msgstr ""
+";; Tjänster att starta när Shepherd startar:\n"
+";; Lägg till namnet på varje tjänst som ska startas i listan"
+" nedan, som\n"
+";; skickas till 'for-each'.\n"
+
+#: modules/shepherd/support.scm:664
+#, scheme-format
+msgid "~a: socket directory has insecure permissions"
+msgstr "~a: uttagskatalogen har osäkra filrättigheter"
+
+#: modules/shepherd/service.scm:302
+#, scheme-format
+msgid "Service ~a (PID ~a) exited with ~a."
+msgstr "Tjänsten ~a (PID ~a) avslutades med ~a."
+
+#: modules/shepherd/service.scm:307
+#, scheme-format
+msgid "Service ~a (PID ~a) terminated with signal ~a."
+msgstr "Tjänsten ~a (PID ~a) avslutades med signal ~a."
+
+#: modules/shepherd/service.scm:312
+#, scheme-format
+msgid "Service ~a (PID ~a) stopped with signal ~a."
+msgstr "Tjänsten ~a (PID ~a) stoppades med signal ~a."
+
+#: modules/shepherd/service.scm:397
+msgid "[No description]."
+msgstr "[ingen beskrivning]."
+
+#: modules/shepherd/service.scm:569
+#, scheme-format
+msgid "Waiting for ~a to stop..."
+msgstr "Väntar på att ~a ska stanna…"
+
+#: modules/shepherd/service.scm:581
+#, scheme-format
+msgid "Service ~a started."
+msgstr "Tjänsten ~a startade."
+
+#: modules/shepherd/service.scm:583
+#, scheme-format
+msgid "Service ~a failed to start."
+msgstr "Tjänsten ~a kunde inte starta."
+
+#: modules/shepherd/service.scm:588
+#, scheme-format
+msgid "Starting service ~a..."
+msgstr "Startar tjänsten ~a…"
+
+#: modules/shepherd/service.scm:609
+#, scheme-format
+msgid "Service ~a running with value ~s."
+msgstr "Tjänsten ~a körs med värdet ~s."
+
+#: modules/shepherd/service.scm:646
+#, scheme-format
+msgid "Running value of service ~a changed to ~s."
+msgstr "Det aktuella värdet för tjänsten ~a ändrades till ~s."
+
+#: modules/shepherd/service.scm:673
+#, scheme-format
+msgid "Waiting for ~a to start..."
+msgstr "Väntar på att ~a ska starta…"
+
+#: modules/shepherd/service.scm:689
+#, scheme-format
+msgid "Service ~a stopped."
+msgstr "Tjänsten ~a stoppades."
+
+#: modules/shepherd/service.scm:692
+#, scheme-format
+msgid "Service ~a might have failed to stop."
+msgstr "Tjänsten ~a kanske inte kunde stoppas."
+
+#: modules/shepherd/service.scm:696
+#, scheme-format
+msgid "Stopping service ~a..."
+msgstr "Stoppar tjänsten ~a…"
+
+#: modules/shepherd/service.scm:703
+#, scheme-format
+msgid "Service ~a is now stopped."
+msgstr "Tjänsten ~a är nu stoppad."
+
+#: modules/shepherd/service.scm:765
+#, scheme-format
+msgid "Recording replacement for ~a."
+msgstr "Registrerar ersättning för ~a."
+
+#: modules/shepherd/service.scm:780
+#, scheme-format
+msgid "Registering new logger for ~a."
+msgstr "Registrerar en ny loggare för ~a."
+
+#: modules/shepherd/service.scm:801
+#, scheme-format
+msgid "Attempt to terminate controller of ~a in ~a state!"
+msgstr "Försök att avsluta styrenheten för ~a i tillståndet ~a!"
+
+#: modules/shepherd/service.scm:987
+#, scheme-format
+msgid "Exception caught while starting ~a: ~s"
+msgstr "Ett undantag fångades vid start av ~a: ~s"
+
+#: modules/shepherd/service.scm:1039
+#, scheme-format
+msgid "Service ~a depends on ~a."
+msgstr "Tjänsten ~a beror på ~a."
+
+#: modules/shepherd/service.scm:1056
+#, scheme-format
+msgid "Service ~a is currently disabled."
+msgstr "Tjänsten ~a är för närvarande inaktiverad."
+
+#: modules/shepherd/service.scm:1082
+#, scheme-format
+msgid "Service ~a has been started."
+msgstr "Tjänsten ~a har startats."
+
+#: modules/shepherd/service.scm:1083
+#, scheme-format
+msgid "Service ~a could not be started."
+msgstr "Tjänsten ~a kunde inte startas."
+
+#: modules/shepherd/service.scm:1105
+#, scheme-format
+msgid "Service ~a is not running."
+msgstr "Tjänsten ~a kör inte."
+
+#: modules/shepherd/service.scm:1147
+#, scheme-format
+msgid "Transient service ~a unregistered."
+msgstr "Den tillfälliga tjänsten ~a avregistrerades."
+
+#: modules/shepherd/service.scm:1183
+#, scheme-format
+msgid "Enabled service ~a."
+msgstr "Tjänsten ~a aktiverades."
+
+#: modules/shepherd/service.scm:1188
+#, scheme-format
+msgid "Disabled service ~a."
+msgstr "Tjänsten ~a inaktiverades."
+
+#: modules/shepherd/service.scm:1268
+msgid "Unknown keyword.  Try 'herd help'."
+msgstr "Okänt nyckelord. Kör ”herd help”."
+
+#: modules/shepherd/service.scm:1353
+#, scheme-format
+msgid "Cannot unregister service~{ ~a,~} which is still running"
+msgid_plural "Cannot unregister services~{ ~a,~} which are still running"
+msgstr[0] "Kan inte avregistrera tjänst~{ ~a,~} som fortfarande kör"
+msgstr[1] "Kan inte avregistrera tjänster~{ ~a,~} som fortfarande kör"
+
+#: modules/shepherd/service.scm:1382
+#, scheme-format
+msgid "Essential task ~a exited unexpectedly."
+msgstr "Den nödvändiga tjänsten ~a avslutades oväntat."
+
+#: modules/shepherd/service.scm:1386
+#, scheme-format
+msgid "Uncaught exception in essential task ~a: ~s"
+msgstr "Ohanterat undantag i den nödvändiga tjänsten ~a: ~s"
+
+#: modules/shepherd/service.scm:1444
+#, scheme-format
+msgid "Service '~a' is unknown and cannot be started."
+msgstr "Tjänsten ”~a” är okänd och kan inte startas."
+
+#: modules/shepherd/service.scm:1456
+#, scheme-format
+msgid "Successfully started ~a service in the background."
+msgid_plural "Successfully started ~a services in the background."
+msgstr[0] "Startade ~a tjänst i bakgrunden."
+msgstr[1] "Startade ~a tjänster i bakgrunden."
+
+#: modules/shepherd/service.scm:1462
+#, scheme-format
+msgid "The following service could not be started in the background:~{ ~a~}."
+msgid_plural "The following services could not be started in the background:~{ ~a~}."
+msgstr[0] "Följande tjänst kunde inte startas i bakgrunden:~{ ~a~}."
+msgstr[1] "Följande tjänster kunde inte startas i bakgrunden:~{ ~a~}."
+
+#: modules/shepherd/service.scm:1717
+#, scheme-format
+msgid "Failed to run~{ ~s~}: ~a"
+msgstr "Kunde inte köra~{ ~s~}: ~a"
+
+#: modules/shepherd/service.scm:1895
+#, scheme-format
+msgid "PID file '~a' did not show up; terminating process ~a."
+msgstr "PID-filen ”~a” dök inte upp; avslutar processen ~a."
+
+#: modules/shepherd/service.scm:2087
+#, scheme-format
+msgid "~a connection still in use after ~a termination."
+msgid_plural "~a connections still in use after ~a termination."
+msgstr[0] "~a anslutning används fortfarande efter att ~a avslutats."
+msgstr[1] "~a anslutningar används fortfarande efter att ~a avslutats."
+
+#. TRANSLATORS: The string below will be rendered as
+#. "rejecting connection from 1.2.3.4" (an IP address) or
+#. "rejecting connection from local process" (when the
+#. client is connecting over a Unix-domain socket).
+#: modules/shepherd/service.scm:2136
+#, scheme-format
+msgid "Maximum number of ~a clients reached; rejecting connection from ~:[~a~;~*local process~]."
+msgstr "Det maximala antalet klienter för ~a har uppnåtts; avvisar anslutning från ~:[~a~;~*lokal process~]."
+
+#. TRANSLATORS: See comment above.
+#: modules/shepherd/service.scm:2146
+#, scheme-format
+msgid "Accepted connection on ~a from ~:[~a~;~*local process~]."
+msgstr "Accepterade anslutning på ~a från ~:[~a~;~*lokal process~]."
+
+#: modules/shepherd/service.scm:2276
+#, scheme-format
+msgid "Spawning systemd-style service ~a."
+msgstr "Startar den systemd-liknande tjänsten ~a."
+
+#: modules/shepherd/service.scm:2530
+#, scheme-format
+msgid "Awaiting PID ~a, which is already gone."
+msgstr "Väntar på PID ~a, som redan är borta."
+
+#: modules/shepherd/service.scm:2696
+#, scheme-format
+msgid "Grace period of ~a seconds is over; sending ~a SIGKILL."
+msgstr "Tidsfristen på ~a sekunder är över; skickar SIGKILL till ~a."
+
+#: modules/shepherd/service.scm:2732
+#, scheme-format
+msgid "Respawning ~a."
+msgstr "Startar om ~a."
+
+#: modules/shepherd/service.scm:2741
+#, scheme-format
+msgid "Service ~a has been disabled."
+msgstr "Tjänsten ~a har inaktiverats."
+
+#: modules/shepherd/service.scm:2744
+msgid "  (Respawning too fast.)"
+msgstr "  (Startar om för snabbt.)"
+
+#: modules/shepherd/service.scm:2749
+#, scheme-format
+msgid "Transient service ~a terminated, now unregistered."
+msgstr "Den tillfälliga tjänsten ~a avslutades och är nu avregistrerad."
+
+#: modules/shepherd/service.scm:2814
+#, scheme-format
+msgid "Removing service '~a'..."
+msgstr "Tar bort tjänsten ”~a”…"
+
+#: modules/shepherd/service.scm:2820
+msgid "Done."
+msgstr "Klart."
+
+#: modules/shepherd/service.scm:2823
+#, scheme-format
+msgid "Loading ~a."
+msgstr "Läser in ~a."
+
+#: modules/shepherd/service.scm:2837
+#, scheme-format
+msgid "Ignoring error while stopping ~a: ~s"
+msgstr "Ignorerar fel vid stopp av ~a: ~s"
+
+#: modules/shepherd/service.scm:2844
+#, scheme-format
+msgid "Ignoring unknown error while stopping ~a: ~s"
+msgstr "Ignorerar okänt fel vid stopp av ~a: ~s"
+
+#: modules/shepherd/service.scm:2867
+#, scheme-format
+msgid "PID ~a (~a) is dead!"
+msgstr "PID ~a (~a) är död!"
+
+#: modules/shepherd/service.scm:2888
+msgid "The root service is used to operate on shepherd itself."
+msgstr "Rottjänsten används för att styra Shepherd självt."
+
+#: modules/shepherd/service.scm:2900
+msgid "Exiting shepherd..."
+msgstr "Avslutar Shepherd…"
+
+#: modules/shepherd/service.scm:2913
+msgid ""
+"This is the help message for the 'root' service of the Shepherd.  The 'root'\n"
+"service is used to control the Shepherd itself and it supports several\n"
+"actions.  For instance, running 'herd status root' shows information about the\n"
+"Shepherd, and running 'herd status' returns a summary of each service.\n"
+"\n"
+"Try 'herd doc root list-actions' to see the list of available actions.\n"
+"Run 'info shepherd' to access the user manual."
+msgstr ""
+"Detta är hjälpmeddelandet för Shepherds ”root”-tjänst. ”root”-tjänsten\n"
+"används för att styra Shepherd självt och stöder flera "
+"åtgärder. Exempelvis\n"
+"visar ”herd status root” information om Shepherd medan ”herd status” ger "
+"en\n"
+"sammanfattning av varje tjänst.\n"
+"\n"
+"Kör ”herd doc root list-actions” för en lista över tillgängliga åtgärder.\n"
+"Kör ”info shepherd” för att öppna användarhandboken."
+
+#: modules/shepherd/service.scm:2936
+msgid "Halting..."
+msgstr "Stoppar…"
+
+#: modules/shepherd/service.scm:2945
+msgid "Shutting down..."
+msgstr "Stänger av…"
+
+#: modules/shepherd/service.scm:2953
+msgid "Rebooting with kexec is not supported; doing nothing."
+msgstr "Omstart med kexec stöds inte; ingen åtgärd utförs."
+
+#: modules/shepherd/service.scm:2957
+msgid "No kexec image loaded; doing nothing."
+msgstr "Ingen kexec-avbildning har lästs in; ingen åtgärd utförs."
+
+#: modules/shepherd/service.scm:2962
+msgid "Rebooting with kexec..."
+msgstr "Startar om med kexec…"
+
+#: modules/shepherd/service.scm:2968
+#, scheme-format
+msgid "Failed to reboot with kexec: ~a"
+msgstr "Misslyckades med att starta om med kexec: ~a"
+
+#: modules/shepherd/service.scm:2983
+#, scheme-format
+msgid "Evaluating user expression ~a."
+msgstr "Utvärderar användaruttryck ~a."
+
+#: modules/shepherd/service.scm:3011
+msgid "Running as PID 1, so not daemonizing."
+msgstr "Kör som PID 1 och görs därför inte till en demon."
+
+#: modules/shepherd/service.scm:3018
+msgid "Services already running, so not daemonizing."
+msgstr "Tjänster körs redan; görs därför inte till en demon."
+
+#: modules/shepherd/service.scm:3021
+msgid "Daemonizing..."
+msgstr "Startar som demon…"
+
+#: modules/shepherd/service.scm:3031
+#, scheme-format
+msgid "Now running as process ~a."
+msgstr "Kör nu som processen ~a."
+
+#: modules/shepherd/service.scm:3041
+msgid "You must be kidding."
+msgstr "Du måste skoja."
+
+#: modules/shepherd/service/log-rotation.scm:133
+#, scheme-format
+msgid "Compression command~{ ~s~} failed with status ~a."
+msgstr "Komprimeringskommandot~{ ~s~} avslutades med status ~a."
+
+#: modules/shepherd/service/log-rotation.scm:157
+#, scheme-format
+msgid "Log file '~a' is inaccessible; not rotating."
+msgstr "Loggfilen ”~a” är oåtkomlig; den roteras inte."
+
+#: modules/shepherd/service/log-rotation.scm:163
+#, scheme-format
+msgid "Not rotating '~a', which is not a regular file."
+msgstr "Roterar inte ”~a”, eftersom den inte är en vanlig fil."
+
+#: modules/shepherd/service/log-rotation.scm:174
+#, scheme-format
+msgid "Rotated '~a'."
+msgstr "Roterade ”~a”."
+
+#: modules/shepherd/service/log-rotation.scm:177
+#, scheme-format
+msgid "Not rotating '~a', which is below the ~a B threshold."
+msgstr "Roterar inte ”~a”, eftersom den är mindre än tröskelvärdet ~a B."
+
+#: modules/shepherd/service/log-rotation.scm:274
+#, scheme-format
+msgid "Deleting old log file '~a'."
+msgstr "Tar bort den gamla loggfilen ”~a”."
+
+#. TRANSLATORS: "External" here refers to "external
+#. log files".
+#: modules/shepherd/service/log-rotation.scm:304
+#, scheme-format
+msgid "~a\t(external)~%"
+msgstr "~a\t(extern)~%"
+
+#: modules/shepherd/service/log-rotation.scm:307
+msgid "List the log files subject to rotation."
+msgstr "Lista de loggfiler som ska roteras."
+
+#: modules/shepherd/service/log-rotation.scm:314
+msgid "Periodically rotate the log files of services."
+msgstr "Rotera regelbundet loggfilerna för tjänster."
+
+#: modules/shepherd/service/monitoring.scm:30
+#, scheme-format
+msgid "service names: ~a; heap: ~,2f MiB; file descriptors: ~a"
+msgstr "tjänstenamn: ~a; heap: ~,2f MiB; fildeskriptorer: ~a"
+
+#: modules/shepherd/service/monitoring.scm:51
+msgid "Terminating shepherd monitoring."
+msgstr "Avslutar övervakningen av Shepherd."
+
+#: modules/shepherd/service/monitoring.scm:57
+#, scheme-format
+msgid "Monitoring logging period changed to ~a second."
+msgid_plural "Monitoring logging period changed to ~a seconds."
+msgstr[0] "Övervakningens loggningsperiod ändrades till ~a sekund."
+msgstr[1] "Övervakningens loggningsperiod ändrades till ~a sekunder."
+
+#: modules/shepherd/service/monitoring.scm:79
+msgid "Periodically log shepherd resource usage information."
+msgstr "Logga regelbundet resursanvändningen för Shepherd."
+
+#: modules/shepherd/service/monitoring.scm:99
+#, scheme-format
+msgid "~a: invalid number; expected a positive integer~%"
+msgstr "~a: ogiltigt tal; förväntar sig ett positivt heltal~%"
+
+#. TRANSLATORS: "REPL" stands for "read-eval-print loop".
+#: modules/shepherd/service/repl.scm:57
+msgid "Accepting REPL connection."
+msgstr "Accepterar REPL-anslutning."
+
+#: modules/shepherd/service/repl.scm:103
+#, scheme-format
+msgid "Uncaught REPL exception: ~s."
+msgstr "Ohanterat undantag i REPL: ~s."
+
+#: modules/shepherd/service/repl.scm:115
+msgid "Run a read-eval-print loop (REPL)."
+msgstr "Kör en read-eval-print-loop (REPL)."
+
+#: modules/shepherd/service/system-log.scm:261
+#, scheme-format
+msgid "Closing system log input file ~s on end-of-file."
+msgstr "Stänger systemloggens indatafil ~s vid filslut."
+
+#: modules/shepherd/service/system-log.scm:275
+msgid "Terminating system log service."
+msgstr "Avslutar systemloggtjänsten."
+
+#: modules/shepherd/service/system-log.scm:309
+msgid "Uncaught exception in message destination procedure: "
+msgstr "Ohanterat undantag i proceduren för meddelandemål: "
+
+#: modules/shepherd/service/system-log.scm:325
+#, scheme-format
+msgid "Failed to open log file '~a': ~a"
+msgstr "Kunde inte öppna loggfilen ”~a”: ~a"
+
+#: modules/shepherd/service/system-log.scm:355
+#, scheme-format
+msgid "Ignoring request to rotate unknown system log file '~a'."
+msgstr "Ignorerar begäran om att rotera den okända systemloggfilen ”~a”."
+
+#: modules/shepherd/service/system-log.scm:371
+#, scheme-format
+msgid "Closing ~a system log port."
+msgid_plural "Closing ~a system log ports."
+msgstr[0] "Stänger ~a systemloggport."
+msgstr[1] "Stänger ~a systemloggportar."
+
+#: modules/shepherd/service/system-log.scm:513
+#, scheme-format
+msgid "Dismissing kernel log '~a': ~a."
+msgstr "Avfärdar kärnloggen ”~a”: ~a."
+
+#: modules/shepherd/service/system-log.scm:548
+msgid ""
+"Listen for syslogd-style messages from\n"
+"applications, by default on /dev/log, and log them to files."
+msgstr ""
+"Lyssna efter meddelanden i syslogd-stil från\n"
+"program, normalt via /dev/log, och logga dem till filer."
+
+#. TRANSLATORS: 'calendar-event' is the name of a
+#. procedure and it must be kept unchanged.
+#: modules/shepherd/service/timer.scm:133
+#, scheme-format
+msgid "calendar-event: ~a: ~a: value out of range (~a-~a)"
+msgstr "calendar-event: ~a: ~a: värdet ligger utanför intervallet (~a-~a)"
+
+#: modules/shepherd/service/timer.scm:143
+#, scheme-format
+msgid "calendar-event: ~a: invalid day of week"
+msgstr "calendar-event: ~a: ogiltig veckodag"
+
+#: modules/shepherd/service/timer.scm:669
+#, scheme-format
+msgid "Finished last occurrence of timer '~a'."
+msgstr "Slutförde den sista förekomsten av tidslarmet ”~a”."
+
+#: modules/shepherd/service/timer.scm:693
+#, scheme-format
+msgid "Terminating timer '~a' with ~a process running."
+msgid_plural "Terminating timer '~a' with ~a processes running."
+msgstr[0] "Avslutar tidslarmet ”~a” medan ~a process körs."
+msgstr[1] "Avslutar tidslarmet ”~a” medan ~a processer körs."
+
+#: modules/shepherd/service/timer.scm:712
+#, scheme-format
+msgid "Process ~a of timer '~a' terminated with status ~a after ~a second."
+msgid_plural "Process ~a of timer '~a' terminated with status ~a after ~a seconds."
+msgstr[0] "Process ~a för tidslarmet ”~a” avslutades med status ~a efter ~a sekund."
+msgstr[1] "Process ~a för tidslarmet ”~a” avslutades med status ~a efter ~a sekunder."
+
+#: modules/shepherd/service/timer.scm:760
+#, scheme-format
+msgid "Terminating process ~a of timer '~a' after maximum duration of ~a second."
+msgid_plural "Terminating process ~a of timer '~a' after maximum duration of ~a seconds."
+msgstr[0] "Avslutar processen ~a för tidslarmet ”~a” efter den maximala körtiden på ~a sekund."
+msgstr[1] "Avslutar processen ~a för tidslarmet ”~a” efter den maximala körtiden på ~a sekunder."
+
+#: modules/shepherd/service/timer.scm:774
+#, scheme-format
+msgid "Timer '~a' spawned process ~a."
+msgstr "Tidslarmet ”~a” startade processen ~a."
+
+#: modules/shepherd/service/timer.scm:788
+#, scheme-format
+msgid "Exception caught while calling action of timer '~a': ~s"
+msgstr "Ett undantag fångades vid anrop av åtgärden för tidslarmet ”~a”: ~s"
+
+#: modules/shepherd/service/timer.scm:806
+#, scheme-format
+msgid "Waiting anew for timer '~a' (resuming from sleep state?)."
+msgstr "Väntar åter på tidslarmet ”~a” (återupptas från viloläge?)."
+
+#: modules/shepherd/service/timer.scm:825
+#, scheme-format
+msgid "No matching event for timer '~a': ~s."
+msgstr "Ingen matchande händelse för tidslarmet ”~a”: ~s."
+
+#: modules/shepherd/service/timer.scm:828
+msgid "This indicates that the calendar event is overly constrained."
+msgstr "Detta tyder på att kalenderhändelsen är alltför begränsad."
+
+#: modules/shepherd/service/timer.scm:847
+msgid "Triggering timer."
+msgstr "Utlöser tidslarmet."
+
+#: modules/shepherd/service/timer.scm:852
+msgid "Attempted to trigger a timer that is not running; doing nothing."
+msgstr "Försökte utlösa ett tidslarm som inte körs; ingen åtgärd utförs."
+
+#: modules/shepherd/service/timer.scm:895
+#, scheme-format
+msgid "~a: invalid calendar time specification"
+msgstr "~a: ogiltig kalendertidsspecifikation"
+
+#. TRANSLATORS: In the 'at TIME' string, only 'TIME' may be
+#. translated.  It refers to the fact that the user ran 'herd
+#. schedule timer COMMAND' instead of 'herd schedule timer at 12:00
+#. COMMAND', say, where '12:00' is a possible value for TIME.
+#: modules/shepherd/service/timer.scm:913
+msgid "Timer spec lacks 'at TIME'."
+msgstr "Timerspecifikationen saknar ”at TIME”."
+
+#: modules/shepherd/service/timer.scm:915
+msgid "Timer spec lacks a command to run."
+msgstr "Timerspecifikationen saknar ett kommando att köra."
+
+#: modules/shepherd/service/timer.scm:970
+msgid ""
+"Run the given command at the specified time\n"
+"and terminate."
+msgstr ""
+"Kör det angivna kommandot vid den angivna tidpunkten\n"
+"och avsluta."
+
+#: modules/shepherd/service/timer.scm:990
+msgid ""
+"Schedule a program to run at a specific time.  For example,\n"
+"'herd schedule timer at 10:00 -- mpg123 alarm.mp3' schedules the command that\n"
+"follows '--' to run at 10AM."
+msgstr ""
+"Schemalägg ett program att köras vid en bestämd tidpunkt.  Till exempel\n"
+"”herd schedule timer at 10:00 -- mpg123 alarm.mp3” schemalägger kommandot som\n"
+"följer efter ”--” till att köras klockan 10.00."
+
+#: modules/shepherd/service/timer.scm:999
+msgid "Spawn programs at specified times."
+msgstr "Starta program vid specificerade tidpunkter."
+
+#: modules/shepherd/service/transient.scm:42
+#, scheme-format
+msgid "Spawning transient service for ~s."
+msgstr "Startar tillfällig tjänst för ~s."
+
+#: modules/shepherd/service/transient.scm:89
+msgid ""
+"Spawn the given program as a transient service, running in\n"
+"the background."
+msgstr ""
+"Starta det givna programmet som en tillfällig tjänst som körs i\n"
+"bakgrunden."
+
+#: modules/shepherd/service/transient.scm:98
+msgid "Spawn programs to run as services in the background."
+msgstr "Starta program som körs som tjänster i bakgrunden."
+
+#: modules/shepherd/args.scm:64
+msgid "undocumented option"
+msgstr "odokumenterad flagga"
+
+#: modules/shepherd/args.scm:66
+msgid "ARG"
+msgstr "ARG"
+
+#: modules/shepherd/args.scm:150
+msgid "display version information and exit"
+msgstr "visa versionsinformation och avsluta"
+
+#: modules/shepherd/args.scm:156
+msgid "display short usage message and exit"
+msgstr "visa ett kort användningsmeddelande och avsluta"
+
+#: modules/shepherd/args.scm:203
+msgid "display this help and exit"
+msgstr "visa denna hjälp och avsluta"
+
+#: modules/shepherd/args.scm:207
+msgid " [OPTIONS...] "
+msgstr " [FLAGGOR…] "
+
+#. TRANSLATORS: The '~a' placeholders indicate the
+#. bug-reporting address, the name of this
+#. package, and its home page URL.  Please add
+#. another line saying "Report translation bugs to
+#. ...\n" with the address for translation bugs
+#. (typically your translation team's web or email
+#. address).
+#: modules/shepherd/args.scm:221
+#, scheme-format
+msgid ""
+"\n"
+"Mandatory or optional arguments to long options are also mandatory or\n"
+"optional to the corresponding short options.\n"
+"\n"
+"Report bugs to: ~a .\n"
+"~a general home page: <~a>\n"
+"General help using GNU software: <~a>~%"
+msgstr ""
+"\n"
+"Obligatoriska eller valfria argument till långa flaggor är också obligatoriska eller\n"
+"valfria för motsvarande korta flaggor.\n"
+"\n"
+"Rapportera fel till: ~a.\n"
+"~a:s allmänna hemsida: <~a>"
+"\n"
+"Allmän hjälp med GNU-programvara: <~a>~%\n"
+"Rapportera översättningsfel till: tp-sv@listor.tp-sv.se"
+
+#: modules/shepherd/args.scm:268
+#, scheme-format
+msgid "option '--~a' is ambiguous"
+msgstr "flaggan ”--~a” är tvetydig"
+
+#: modules/shepherd/args.scm:270
+#, scheme-format
+msgid "unknown option '--~a'"
+msgstr "okänd flagga ”--~a”"
+
+#: modules/shepherd/args.scm:272
+msgid "Try '--help'."
+msgstr "Prova ”--help”."
+
+#: modules/shepherd/args.scm:296
+#, scheme-format
+msgid "unknown option '-~a'"
+msgstr "okänd flagga ”-~a”"
+
+#: modules/shepherd/args.scm:309
+#, scheme-format
+msgid "Argument required by `-~a'."
+msgstr "Flaggan ”-~a” kräver ett argument."
+
+#: modules/shepherd.scm:64
+#, scheme-format
+msgid "shepherd instance already listening on '~a'"
+msgstr "En Shepherd-instans lyssnar redan på ”~a”."
+
+#: modules/shepherd.scm:71
+#, scheme-format
+msgid "while opening socket '~a': ~a: ~a"
+msgstr "vid öppning av uttaget ”~a”: ~a: ~a"
+
+#: modules/shepherd.scm:108
+#, scheme-format
+msgid "warning: already ~a threads running, disabling 'signalfd' support"
+msgstr "varning: ~a trådar kör redan; inaktiverar stöd för ”signalfd”"
+
+#: modules/shepherd.scm:117
+msgid "System lacks support for 'signalfd'; using fallback mechanism."
+msgstr "Systemet saknar stöd för ”signalfd”; använder reservmekanismen."
+
+#: modules/shepherd.scm:122
+msgid "Support for 'signalfd' is disabled."
+msgstr "Stöd för ”signalfd” är inaktiverat."
+
+#: modules/shepherd.scm:158
+#, scheme-format
+msgid "~s: exception thrown while loading configuration file~%"
+msgstr "~s: ett undantag kastades vid inläsning av konfigurationsfilen~%"
+
+#: modules/shepherd.scm:164
+#, scheme-format
+msgid "While loading configuration file '~a': ~s"
+msgstr "Vid inläsning av konfigurationsfilen ”~a”: ~s"
+
+#: modules/shepherd.scm:173
+#, scheme-format
+msgid "action '~a' on service '~a' failed: ~s"
+msgstr "Åtgärden ”~a” på tjänsten ”~a” misslyckades: ~s"
+
+#: modules/shepherd.scm:186
+#, scheme-format
+msgid "Error while loading configuration file '~a': ~a"
+msgstr "Fel vid inläsning av konfigurationsfilen ”~a”: ~a"
+
+#: modules/shepherd.scm:190
+#, scheme-format
+msgid "Uncaught exception while loading configuration file '~a': ~s"
+msgstr "Ohanterat undantag vid inläsning av konfigurationsfilen ”~a”: ~s"
+
+#: modules/shepherd.scm:195
+#, scheme-format
+msgid "Configuration successfully loaded from '~a'."
+msgstr "Konfigurationen lästes in från ”~a”."
+
+#: modules/shepherd.scm:281
+#, scheme-format
+msgid "Socket '~a' deleted; spawning new server."
+msgstr "Uttaget ”~a” togs bort; startar en ny server."
+
+#: modules/shepherd.scm:292
+#, scheme-format
+msgid "Failed to bind '~a': ~a."
+msgstr "Kunde inte binda ”~a”: ~a."
+
+#: modules/shepherd.scm:296
+#, scheme-format
+msgid "Socket '~a' deleted; stopping."
+msgstr "Uttaget ”~a” togs bort; avslutar."
+
+#: modules/shepherd.scm:314
+msgid "Restarting signal handler."
+msgstr "Startar om signalhanteraren."
+
+#: modules/shepherd.scm:462
+msgid "This is a service manager for Unix and GNU."
+msgstr "Detta är en tjänstehanterare för Unix och GNU."
+
+#: modules/shepherd.scm:467
+msgid "synonym for --silent"
+msgstr "synonym för --silent"
+
+#: modules/shepherd.scm:473
+msgid "don't do output to stdout"
+msgstr "skriv inte till standardutdata"
+
+#: modules/shepherd.scm:482
+msgid "don't ensure that the setup is secure"
+msgstr "säkerställ inte att installationen är säker"
+
+#: modules/shepherd.scm:489
+msgid "log actions in FILE"
+msgstr "logga åtgärder i FIL"
+
+#: modules/shepherd.scm:496
+msgid "when ready, write PID to FILE or stdout"
+msgstr "när den är klar, skriv PID till FIL eller standardutdata"
+
+#: modules/shepherd.scm:503
+msgid "read configuration from FILE"
+msgstr "läs konfiguration från FIL"
+
+#: modules/shepherd.scm:511
+msgid "get commands from socket FILE"
+msgstr "hämta kommandon från uttaget FIL"
+
+#: modules/shepherd.scm:519
+msgid "log to the system log (syslog) at FILE or /dev/log"
+msgstr "logga till systemloggen (syslog) via FIL eller /dev/log"
+
+#: modules/shepherd.scm:531
+#, scheme-format
+msgid "cannot access directory of socket '~a': ~a"
+msgstr "kan inte komma åt katalogen för uttaget ”~a”: ~a"
+
+#: modules/shepherd.scm:660
+msgid "Rebooting..."
+msgstr "Startar om…"
+
+#: modules/shepherd.scm:663
+msgid "Exiting."
+msgstr "Avslutar."
+
+#: modules/shepherd.scm:733
+#, scheme-format
+msgid "Service ~a is already running."
+msgstr "Tjänsten ~a kör redan."
+
+#: modules/shepherd.scm:755
+msgid "Invalid command."
+msgstr "Ogiltigt kommando."
+
+#~ msgid "invalid command line"
+#~ msgstr "ogiltig kommandorad"
+
+#, scheme-format
+#~ msgid "~s: invalid service provision list"
+#~ msgstr "~s ogiltig tjänstprovisionslista"
+
+#, scheme-format
+#~ msgid "Address ~a is in use; retrying to bind it in one second."
+#~ msgstr "Adress ~a används; provar att binda till den igen om en sekund."
+
+#~ msgid "Service ~a conflicts with running services ~a."
+#~ msgstr "Tjänst ~a står i konflikt med körande tjänster ~a."
+
+#~ msgid "Service ~a could not be stopped."
+#~ msgstr "Tjänst ~a kunde inte stoppas."
+
+#~ msgid "Unloading all optional services: '~a'..."
+#~ msgstr "Glöm alla valfria tjänster: ”~a”…"
+
+#~ msgid "use FILE to load and store state"
+#~ msgstr "använd FIL för att läsa in och spara tillstånd"

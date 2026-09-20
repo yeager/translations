@@ -1,0 +1,1556 @@
+--- a/sharutils-4.15.2.sv.po
++++ b/sharutils-4.15.2.sv.po
+@@ -22,7 +22,7 @@
+ #: src/scribble.c:166
+ #, c-format
+ msgid "could not allocate %u bytes of scribble space"
+-msgstr "kunde inte allokera %u byte klotterutrymme"
++msgstr "kunde inte allokera %u byte temporärt lagringsutrymme"
+ 
+ #. TRANSLATORS:  This is a phony function generated for the purpose of
+ #. constructing the strings to be extracted for translation.  Each string
+@@ -33,15 +33,15 @@
+ #.
+ #: src/scripts.x:449
+ msgid "Note: not verifying md5sums.  Consider installing GNU coreutils."
+-msgstr "OBS: verifierar inte md5-summor.  Överväg att installera GNU coreutils."
++msgstr "OBS: verifierar inte MD5-kontrollsummor. Överväg att installera GNU coreutils."
+ 
+ #: src/scripts.x:450
+ msgid ""
+ "WARNING: not restoring timestamps.  Consider getting and\n"
+ "installing GNU 'touch', distributed in GNU coreutils..."
+ msgstr ""
+-"VARNING: tidsstämplar återskapas inte.  Överväg att skaffa och\n"
+-"installera GNU ”touch” som medföljer GNU coreutils…"
++"VARNING: tidsstämplar återställs inte. Överväg att hämta och\n"
++"installera GNU:s ”touch”, som distribueras i GNU coreutils…"
+ 
+ #: src/scripts.x:452
+ #, c-format
+@@ -51,27 +51,27 @@
+ #: src/scripts.x:453
+ #, c-format
+ msgid "failed to create %s lock directory"
+-msgstr "misslyckades med att skapa låskatalog %s"
++msgstr "misslyckades med att skapa låskatalogen ”%s”"
+ 
+ #: src/scripts.x:454
+ #, c-format
+ msgid "x - created lock directory %s."
+-msgstr "x - skapade låskatalog %s."
++msgstr "x - skapade låskatalogen %s."
+ 
+ #: src/scripts.x:455
+ #, c-format
+ msgid "x - failed to create lock directory %s."
+-msgstr "x - misslyckades med att skapa låskatalog %s."
++msgstr "x - misslyckades med att skapa låskatalogen %s."
+ 
+ #: src/scripts.x:456
+ #, c-format
+ msgid "x - created directory %s."
+-msgstr "x - skapade katalog %s."
++msgstr "x - skapade katalogen %s."
+ 
+ #: src/scripts.x:457
+ #, c-format
+ msgid "x - failed to create directory %s."
+-msgstr "x - misslyckades med att skapa katalog %s."
++msgstr "x - misslyckades med att skapa katalogen %s."
+ 
+ #: src/scripts.x:458
+ msgid "yes"
+@@ -103,7 +103,7 @@
+ 
+ #: src/scripts.x:465
+ msgid "overwrite no files"
+-msgstr "skriv inte över någon fil"
++msgstr "skriv inte över några filer"
+ 
+ #: src/scripts.x:466
+ msgid "help"
+@@ -124,7 +124,7 @@
+ #: src/scripts.x:470
+ #, c-format
+ msgid "restore of %s failed"
+-msgstr "misslyckades att återskapa %s"
++msgstr "återställningen av %s misslyckades"
+ 
+ #: src/scripts.x:471
+ #, c-format
+@@ -139,12 +139,12 @@
+ #: src/scripts.x:473
+ #, c-format
+ msgid "End of %s part %d"
+-msgstr "Slut på %s del %d"
++msgstr "Slut på %s, del %d"
+ 
+ #: src/scripts.x:474
+ #, c-format
+ msgid "restoration warning:  size of %s is not %s"
+-msgstr "återskapningsvarning: storleken på %s är inte %s"
++msgstr "återställningsvarning: storleken på %s är inte %s"
+ 
+ #: src/scripts.x:475 src/shar.c:1456
+ msgid "(text)"
+@@ -173,7 +173,7 @@
+ #: src/scripts.x:481
+ #, c-format
+ msgid "File %s is continued in part %d"
+-msgstr "Fil %s fortsätter i del %d"
++msgstr "Filen %s fortsätter i del %d"
+ 
+ #: src/scripts.x:482
+ msgid "Please unpack part 1 first!"
+@@ -191,7 +191,7 @@
+ #: src/scripts.x:485
+ #, c-format
+ msgid "continuing file %s"
+-msgstr "fortsätter fil %s"
++msgstr "fortsätter med filen %s"
+ 
+ #: src/scripts.x:486
+ msgid "(empty)"
+@@ -214,7 +214,7 @@
+ 
+ #: src/scripts.x:490
+ msgid "extraction aborted"
+-msgstr "återskapandet avbryts"
++msgstr "uppackningen avbröts"
+ 
+ #: src/scripts.x:491
+ #, c-format
+@@ -224,17 +224,17 @@
+ #: src/scripts.x:492
+ #, c-format
+ msgid "x - extracting %s %s"
+-msgstr "x - extraherar %s %s"
++msgstr "x - packar upp %s %s"
+ 
+ #: src/scripts.x:493
+ #, c-format
+ msgid "File %s is complete"
+-msgstr "Fil %s är komplett"
++msgstr "Filen %s är komplett"
+ 
+ #: src/scripts.x:494
+ #, c-format
+ msgid "uudecoding file %s"
+-msgstr "uudecode:ar fil %s"
++msgstr "avkodar filen %s med uudecode"
+ 
+ #: src/scripts.x:495
+ msgid "MD5 check failed"
+@@ -247,7 +247,7 @@
+ #: src/scripts.x:497
+ #, c-format
+ msgid "x - removed lock directory %s."
+-msgstr "x - tog bort låskatalog %s."
++msgstr "x - tog bort låskatalogen %s."
+ 
+ #: src/scripts.x:498
+ #, c-format
+@@ -257,26 +257,26 @@
+ #: src/shar-opts.c:1870
+ #, c-format
+ msgid "Cannot reopen %s as stdin"
+-msgstr "Kan inte återöppna %s som standard in"
++msgstr "Kan inte återöppna %s som standardindata"
+ 
+ #: src/shar-opts.c:1990
+ msgid "shar usage error:\n"
+-msgstr "shar användningsfel:\n"
++msgstr "felaktig användning av shar:\n"
+ 
+ #: src/shar-opts.c:2027
+ msgid "shar fatal error:\n"
+-msgstr "shar ödesdigert fel:\n"
++msgstr "allvarligt fel i shar:\n"
+ 
+ #: src/shar-opts.c:2064 src/unshar-opts.c:738 src/uudecode-opts.c:512
+ #: src/uuencode-opts.c:463
+ #, c-format
+ msgid "fserr %d (%s) performing '%s' on %s\n"
+-msgstr "fserr %d (%s) utför ”%s” på %s\n"
++msgstr "fserr %d (%s) vid utförande av ”%s” på %s\n"
+ 
+ #: src/shar-opts.c:2189 src/unshar-opts.c:863 src/uudecode-opts.c:637
+ #: src/uuencode-opts.c:588
+ msgid "No memory for duping translated strings\n"
+-msgstr "Minne saknas för att duplicera översatta strängar\n"
++msgstr "Minnet är slut vid duplicering av översatta strängar\n"
+ 
+ #. TRANSLATORS:
+ #.
+@@ -353,15 +353,15 @@
+ "Usage:  %s [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ msgstr ""
+ "shar (GNU sharutils) - skapa ett skalarkiv\n"
+-"Användning:  %s [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
++"Användning:  %s [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
+ 
+ #: src/shar-opts.c:2280
+ msgid ""
+ "If no 'file's are specified, the list of input files is read from standard\n"
+ "input.  Standard input must not be a terminal.\n"
+ msgstr ""
+-"Om inga ”filer” anges kommer listan över indatafiler att läsas från standard in.\n"
+-"Standard in får inte vara en terminal.\n"
++"Om inga filer anges läses listan över indatafiler från standardindata.\n"
++"Standardindata får inte vara en terminal.\n"
+ 
+ #: src/shar-opts.c:2284
+ msgid ""
+@@ -374,12 +374,13 @@
+ "mailable 'tar' archive.\n"
+ "\n"
+ msgstr ""
+-"”shar” skapar ”skalarkiv” (eller shar-filer) som är i textformat\n"
+-"och kan e-postas.  Dessa filer kan packas upp senare genom att köra dem\n"
+-"med ”/bin/sh”.  Arkivet skickas till standard ut om inte flaggan ”-o” angetts.\n"
+-"Ett brett utbud av funktioner tillhandahåller omfattande flexibilitet vad det\n"
+-"gäller hur shar-filer skapas och att ange hur smarta ”shar” ska vara.\n"
+-"Arkiv kan vara väldigt enkla (”--vanilla-operation”) eller i princip ett\n"
++"”shar” skapar ”skalarkiv” (eller shar-filer) i textformat\n"
++"som kan skickas med e-post. Dessa filer kan senare packas upp genom att köras\n"
++"med ”/bin/sh”. Det resulterande arkivet skrivs till standardutdata om inte\n"
++"flaggan ”-o” anges. "
++"Ett stort antal funktioner ger omfattande flexibilitet när\n"
++"shar-filer skapas och när ”shar”:s funktionalitet ställs in.\n"
++"Arkiv kan vara ganska enkla (”--vanilla-operation”) eller i princip ett\n"
+ "e-postbart ”tar”-arkiv.\n"
+ "\n"
+ 
+@@ -402,9 +403,11 @@
+ "you are emailing files, please consider mime-encoded files.  If you do\n"
+ "'uuencode', base64 is the preferred encoding method.\n"
+ msgstr ""
+-"Även om detta program har stöd för filer kodade med uuencode så är de\n"
+-"föråldrade. Om du e-postar filer överväg att använda mime-kodade filer. Om\n"
+-"du ändå använder ”uuencode” så är base64 den föredragna kodningsmetoden.\n"
++"Även om programmet har stöd för filer som kodats med uuencode är de\n"
++"föråldrade. Om du skickar filer med e-post bör du överväga att använda\n"
++"MIME-kodade filer. Om "
++"du ändå använder ”uuencode” är base64 den föredragna\n"
++"kodningsmetoden.\n"
+ 
+ #: src/shar-opts.c:2300
+ msgid "shar (GNU sharutils) 4.15.2"
+@@ -417,7 +420,7 @@
+ "\n"
+ msgstr ""
+ "shar (GNU sharutils) - skapa ett skalarkiv\n"
+-"Användning:  shar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
++"Användning:  shar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
+ "\n"
+ 
+ #: src/shar-opts.c:2305
+@@ -428,7 +431,7 @@
+ msgstr ""
+ "Ange kompression:\n"
+ "   -p, --intermix-type        ange kompression för indatafiler\n"
+-"                                - förbjuder flaggan ”vanilla-option”\n"
++"                                - förbjuder flaggan ”vanilla-operation”\n"
+ 
+ #: src/shar-opts.c:2308
+ msgid ""
+@@ -437,8 +440,8 @@
+ "                                - may appear multiple times\n"
+ "                                - it must be known to shar: xz gzip bzip2\n"
+ msgstr ""
+-"   -C, --compactor=PROG       ange kompressionsprogram PROG\n"
+-"                                - förbjuder flaggan ”vanilla-option”\n"
++"   -C, --compactor=PROGRAM    ange kompressionsprogram PROGRAM\n"
++"                                - förbjuder flaggan ”vanilla-operation”\n"
+ "                                - får förekomma flera gånger\n"
+ "                                - måste vara känt av shar: xz gzip bzip2\n"
+ 
+@@ -482,11 +485,11 @@
+ 
+ #: src/shar-opts.c:2321
+ msgid "Specifying file selection and output modes:\n"
+-msgstr "Ange filurvalet och utdatalägen:\n"
++msgstr "Ange filurvals- och utdatalägen:\n"
+ 
+ #: src/shar-opts.c:2322
+ msgid "   -o, --output-prefix=str    print output to file PREFIX.nn\n"
+-msgstr "   -o, --output-prefix=str    skriv ut till fil PREFIX.nn\n"
++msgstr "   -o, --output-prefix=STRÄNG skriv utdata i filen PREFIX.nn\n"
+ 
+ #: src/shar-opts.c:2323
+ msgid ""
+@@ -498,11 +501,12 @@
+ "                                  8 to 1023, or 8192 to 4194304\n"
+ msgstr ""
+ "   -l, --whole-size-limit=STORLEK\n"
+-"                              dela arkiv, inte filer, enligt STORLEK\n"
++"                              dela arkivet, men inte filerna, i delar med\n"
++"                              storleken STORLEK\n"
+ "                                - kräver flaggan ”output-prefix”\n"
+-"                                - är skalbart med ett suffix: k/K/m/M/g/G/t/T\n"
+-"                                - måste vara i ett av intervallen:\n"
+-"                                  8 till 1023, eller 8192 till 4194304\n"
++"                                - kan skalas med suffixet: k/K/m/M/g/G/t/T\n"
++"                                - måste ligga i något av intervallen:\n"
++"                                  8 till 1023 eller 8192 till 4194304\n"
+ 
+ #: src/shar-opts.c:2329
+ msgid ""
+@@ -540,26 +544,26 @@
+ 
+ #: src/shar-opts.c:2339
+ msgid "   -s, --submitter=NAME       override the submitter name with NAME\n"
+-msgstr "   -s, --submitter=NAMN       åsidosätt upphovsmansnamnet med NAMN\n"
++msgstr "   -s, --submitter=NAMN       åsidosätt inlämnarens namn med NAMN\n"
+ 
+ #: src/shar-opts.c:2340
+ msgid ""
+ "   -a, --net-headers          output Submitted-by: & Archive-name: headers\n"
+ "                                - requires the option 'archive-name'\n"
+ msgstr ""
+-"   -a, --net-headers          skriv ut Submitted-by:- & Archive-name:-rubriker\n"
++"   -a, --net-headers          skriv ut rubrikerna Submitted-by: och Archive-name:\n"
+ "                                - kräver flaggan ”archive-name”\n"
+ 
+ #: src/shar-opts.c:2342
+ msgid "   -c, --cut-mark             start the shar with a cut line\n"
+-msgstr "   -c, --cut-mark             inled shar-filen med en klipprad\n"
++msgstr "   -c, --cut-mark             inled shar-filen med en klipplinje\n"
+ 
+ #: src/shar-opts.c:2343
+ msgid ""
+ "   -t, --translate            translate messages in the script\n"
+ "\n"
+ msgstr ""
+-"   -t, --translate            översätt meddelande i skriptet\n"
++"   -t, --translate            översätt meddelandena i skriptet\n"
+ "\n"
+ 
+ #: src/shar-opts.c:2344
+@@ -568,11 +572,11 @@
+ "       --no-character-count   do not use `wc -c' to check size\n"
+ msgstr ""
+ "Skydda mot överföringsproblem:\n"
+-"       --no-character-count   använd inte ”wc -c” för att kontrollera storlek\n"
++"       --no-character-count   använd inte ”wc -c” för att kontrollera storleken\n"
+ 
+ #: src/shar-opts.c:2346
+ msgid "   -D, --no-md5-digest        do not use md5sum digest to verify\n"
+-msgstr "   -D, --no-md5-digest        använd inte md5sum checksumma för att verifiera\n"
++msgstr "   -D, --no-md5-digest        använd inte md5sum-kontrollsumman för verifiering\n"
+ 
+ #: src/shar-opts.c:2347
+ msgid "   -F, --force-prefix         apply the prefix character on every line\n"
+@@ -583,7 +587,7 @@
+ "   -d, --here-delimiter=DELIM use DELIM to delimit the files\n"
+ "\n"
+ msgstr ""
+-"   -d, --here-delimiter=SEPAR använd SEPAR för att avgränsa filerna\n"
++"   -d, --here-delimiter=AVGRÄNSARE använd AVGRÄNSARE som filavgränsare\n"
+ "\n"
+ 
+ #: src/shar-opts.c:2349
+@@ -591,16 +595,16 @@
+ "Producing different kinds of shars:\n"
+ "   -V, --vanilla-operation    produce very simple shars\n"
+ msgstr ""
+-"Producera olika typer av shar-filer:\n"
+-"   -V, --vanilla-operation    producera väldigt enkla shar-filer\n"
++"Skapa olika typer av shar-filer:\n"
++"   -V, --vanilla-operation    skapa mycket enkla shar-filer\n"
+ 
+ #: src/shar-opts.c:2351
+ msgid "   -P, --no-piping            use temporary files between programs\n"
+-msgstr "   -P, --no-piping            använd temporärfiler mellan program\n"
++msgstr "   -P, --no-piping            använd tillfälliga filer mellan program\n"
+ 
+ #: src/shar-opts.c:2352
+ msgid "   -x, --no-check-existing    blindly overwrite existing files\n"
+-msgstr "   -x, --no-check-existing    skriv blint över existerande filer\n"
++msgstr "   -x, --no-check-existing    skriv blint över befintliga filer\n"
+ 
+ #: src/shar-opts.c:2353
+ msgid ""
+@@ -608,15 +612,15 @@
+ "                                - prohibits the option 'vanilla-operation'\n"
+ msgstr ""
+ "   -X, --query-user           fråga användaren innan filer skrivs över\n"
+-"                                - förbjuder flaggan 'vanilla-operation'\n"
++"                                - förbjuder flaggan ”vanilla-operation”\n"
+ 
+ #: src/shar-opts.c:2355
+ msgid "   -m, --no-timestamp         do not restore modification times\n"
+-msgstr "   -m, --no-timestamp         återställ inte modifieringstider\n"
++msgstr "   -m, --no-timestamp         återställ inte ändringstider\n"
+ 
+ #: src/shar-opts.c:2356
+ msgid "   -Q, --quiet-unshar         avoid verbose messages at unshar time\n"
+-msgstr "   -Q, --quiet-unshar         undvik utförliga meddelanden i unshar-tid\n"
++msgstr "   -Q, --quiet-unshar         undvik utförliga meddelanden när unshar körs\n"
+ 
+ #: src/shar-opts.c:2357
+ msgid ""
+@@ -639,7 +643,7 @@
+ "       --print-text-domain-dir  print directory with shar messages\n"
+ "\n"
+ msgstr ""
+-"       --print-text-domain-dir  skriv ut katalog med shar-meddelanden\n"
++"       --print-text-domain-dir  skriv ut katalogen med shar-meddelanden\n"
+ "\n"
+ 
+ #: src/shar-opts.c:2361
+@@ -647,7 +651,7 @@
+ "User feedback/entertainment:\n"
+ "   -q, --quiet                do not output verbose messages\n"
+ msgstr ""
+-"Användaråterkoppling/underhållning:\n"
++"Återkoppling/underhållning:\n"
+ "   -q, --quiet                skriv inte ut utförliga meddelanden\n"
+ 
+ #: src/shar-opts.c:2363
+@@ -679,7 +683,7 @@
+ 
+ #: src/shar-opts.c:2368 src/uudecode-opts.c:757 src/uuencode-opts.c:704
+ msgid "   -R, --save-opts[=FILE]     save the option state to a config file FILE\n"
+-msgstr "   -R, --save-opts[=FIL]      spara flaggtillståndet till en konfigurationsfil FIL\n"
++msgstr "   -R, --save-opts[=FIL]      spara flagginställningarna i konfigurationsfilen FIL\n"
+ 
+ #: src/shar-opts.c:2369 src/uudecode-opts.c:758 src/uuencode-opts.c:705
+ msgid ""
+@@ -688,7 +692,7 @@
+ "                                - may appear multiple times\n"
+ "\n"
+ msgstr ""
+-"   -r, --load-opts=FIL        läser in flaggor från konfigurationsfilen FIL\n"
++"   -r, --load-opts=FIL        läs in flaggor från konfigurationsfilen FIL\n"
+ "                                - inaktiveras med ”--no-load-opts”\n"
+ "                                - får förekomma flera gånger\n"
+ "\n"
+@@ -703,8 +707,8 @@
+ msgstr ""
+ "Flaggor anges med dubbla bindestreck och deras namn eller med ett\n"
+ "enkelt bindestreck och flaggtecknet.\n"
+-"Om inga ”filer” anges läses listan över indatafiler från\n"
+-"standard in. Standard in får inte vara en terminal.\n"
++"Om inga filer anges läses listan över indatafiler från\n"
++"standardindata. Standardindata får inte vara en terminal.\n"
+ "\n"
+ 
+ #: src/shar-opts.c:2376 src/unshar-opts.c:990 src/uudecode-opts.c:764
+@@ -725,15 +729,19 @@
+ "mailable 'tar' archive.\n"
+ "\n"
+ msgstr ""
+-" - läser fil $HOME/.sharrc\n"
+-"\n"
+-"”shar” skapar ”skalarkiv” (eller shar-filer) som är i textformat\n"
+-"och kan e-postas.  Dessa filer kan packas upp senare genom att köra dem\n"
+-"med ”/bin/sh”.  Arkivet skickas till standard ut om inte flaggan ”-o” angetts.\n"
+-"Ett brett utbud av funktioner tillhandahåller omfattande flexibilitet vad det\n"
+-"gäller hur shar-filer skapas och att ange hur smarta ”shar” ska vara.\n"
+-"Arkiv kan vara väldigt enkla (”--vanilla-operation”) eller i princip ett\n"
+-"e-postbart ”tar”-arkiv.\n"
++" - läser filen $HOME/.sharrc\n"
++"\n"
++"”shar” skapar ”kommandotolksarkiv” (eller shar-filer) i textformat\n"
++"som kan skickas med e-post. Dessa filer kan senare packas upp genom att\n"
++"de körs "
++"med ”/bin/sh”. Det resulterande arkivet skickas till standardutdata\n"
++"om flaggan ”-o” inte anges. "
++"Ett stort antal funktioner ger stor flexibilitet\n"
++"när shar-filer skapas och när man anger hur ”smarta” de ska vara. "
++"Arkiv kan\n"
++"vara mycket enkla (”--vanilla-operation”) eller i princip ett "
++"e-postbart\n"
++"”tar”-arkiv.\n"
+ "\n"
+ 
+ #: src/shar-opts.c:2389
+@@ -744,9 +752,11 @@
+ "\n"
+ "Please send bug reports to:  <bug-gnu-utils@gnu.org>\n"
+ msgstr ""
+-"Även om detta program har stöd för filer komprimerade med ”uuencode” så\n"
+-"är de föråldrade. Om du e-postar filer, överväg att mime-koda filerna. Om du\n"
+-"trots allt använder ”uuencode” så är base64 den föredragna kodningsmetoden.\n"
++"Även om programmet stöder filer som har kodats med ”uuencode” bör de inte\n"
++"längre användas. Om du skickar filer med e-post bör du överväga MIME-kodade\n"
++"filer. Om du"
++" ändå använder ”uuencode” är base64 den föredragna\n"
++"kodningsmetoden.\n"
+ "\n"
+ "Skicka felrapporter till:  <bug-gnu-utils@gnu.org>\n"
+ "Skicka synpunkter på översättningen till: <tp-sv@listor.tp-sv.org>\n"
+@@ -757,18 +767,18 @@
+ "Usage:  shar [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ "Try 'shar --help' for more information.\n"
+ msgstr ""
+-"shar (GNU sharutils) - skapa ett skalarkiv\n"
+-"Användning:  shar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
+-"Prova 'shar --help' för vidare information.\n"
++"shar (GNU sharutils) – skapa ett kommandotolksarkiv\n"
++"Användning:  shar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
++"Kör ”shar --help” för mer information.\n"
+ 
+ #: ../autoopts.c:67 ../autoopts.c:93
+ #, c-format
+ msgid "allocation of %d bytes failed\n"
+-msgstr "allokering av %d byte misslyckades\n"
++msgstr "kunde inte allokera %d byte\n"
+ 
+ #: ../init.c:53
+ msgid "AutoOpts function called without option descriptor\n"
+-msgstr "AutoOpts-funktionen anropad utan flaggbeskrivning\n"
++msgstr "AutoOpts-funktionen anropades utan flaggbeskrivning\n"
+ 
+ #: ../init.c:86
+ msgid "\tThis exceeds the compiled library version:  "
+@@ -786,7 +796,7 @@
+ #: ../autoopts.c:80
+ #, c-format
+ msgid "realloc of %d bytes at 0x%p failed\n"
+-msgstr "omallokering av %d byte vid 0x%p misslyckades\n"
++msgstr "kunde inte omallokera %d byte vid 0x%p\n"
+ 
+ #: ../init.c:88
+ msgid "\tThis is less than the minimum library version:  "
+@@ -798,8 +808,8 @@
+ "Automated Options version %s\n"
+ "\tCopyright (C) 1999-2014 by Bruce Korb - all rights reserved\n"
+ msgstr ""
+-"Automatiserade flaggor version %s\n"
+-"\tCopyright (C) 1999-2014 by Bruce Korb - med ensamrätt\n"
++"Automatiserad flagghantering, version %s\n"
++"\tCopyright (C) 1999-2014 Bruce Korb – alla rättigheter förbehållna\n"
+ 
+ #: ../makeshell.c:87
+ #, c-format
+@@ -808,15 +818,15 @@
+ 
+ #: ../reset.c:90
+ msgid "optionResetOpt() called, but reset-option not configured"
+-msgstr "optionResetOpt(), anropad med återställningsflagga inte konfigurerad"
++msgstr "optionResetOpt() anropades, men återställningsflaggan har inte konfigurerats"
+ 
+ #: ../usage.c:292
+ msgid "could not locate the 'help' option"
+-msgstr "kunde inte hitta ”hjälp”-flaggan"
++msgstr "kunde inte hitta ”help”-flaggan"
+ 
+ #: ../autoopts.c:336
+ msgid "optionProcess() was called with invalid data"
+-msgstr "optionProcess() anropades med ogiltig data"
++msgstr "optionProcess() anropades med ogiltiga data"
+ 
+ #: ../usage.c:748
+ msgid "invalid argument type specified"
+@@ -828,7 +838,7 @@
+ 
+ #: ../alias.c:76
+ msgid "aliasing option is out of range."
+-msgstr "alias-flagga är utanför intervall."
++msgstr "aliasflaggan ligger utanför intervallet."
+ 
+ #: ../enum.c:234
+ #, c-format
+@@ -852,12 +862,12 @@
+ #: ../alias.c:43
+ #, c-format
+ msgid "%d %s%s options allowed\n"
+-msgstr "%d %s%s flaggor tillåts\n"
++msgstr "högst %d %s%s flaggor är tillåtna\n"
+ 
+ #: ../makeshell.c:94
+ #, c-format
+ msgid "%s error %d (%s) calling %s for '%s'\n"
+-msgstr "%s-fel %d (%s) anropar %s för ”%s”\n"
++msgstr "%s-fel %d (%s) vid anrop av %s för ”%s”\n"
+ 
+ #: ../makeshell.c:306
+ msgid "interprocess pipe"
+@@ -871,10 +881,10 @@
+ "\t'c' - version and copyright\n"
+ "\t'n' - version and full copyright notice\n"
+ msgstr ""
+-"fel: argument ”%c” till versionsflagga ogiltigt. Använd:\n"
+-"\t”v” - endast version\n"
+-"\t”c” - version och upphovsrätt\n"
+-"\t”n” - version och fullständig upphovsrättsnotis\n"
++"fel: argumentet ”%c” till versionsflaggan är ogiltigt. Använd:\n"
++"\t”v” – endast version\n"
++"\t”c” – version och upphovsrätt\n"
++"\t”n” – version och fullständig upphovsrättsnotis\n"
+ 
+ #: ../check.c:58
+ #, c-format
+@@ -903,7 +913,7 @@
+ #: ../find.c:335
+ #, c-format
+ msgid "%s: unknown vendor extension option -- %s\n"
+-msgstr "%s: okänd flagga för tillverkarutökning -- %s\n"
++msgstr "%s: okänd flagga för leverantörstillägg -- %s\n"
+ 
+ #: ../enum.c:159 ../enum.c:169
+ #, c-format
+@@ -931,7 +941,7 @@
+ "(AutoOpts bug):  Equivalenced option '%s' was equivalenced to both\n"
+ "\t'%s' and '%s'."
+ msgstr ""
+-"(AutoOpts-fel):  Ekvivalent flagga ”%s” antogs vara ekvivalent med både\n"
++"(AutoOpts-fel):  Flaggan ”%s” gjordes ekvivalent med både\n"
+ "\t”%s” och ”%s”."
+ 
+ #: ../check.c:94
+@@ -957,7 +967,7 @@
+ #: ../enum.c:234
+ #, c-format
+ msgid "%s error:  '%s' does not match any %s keywords.\n"
+-msgstr "%s-fel: ”%s” matchar inte några %s-nyckelord.\n"
++msgstr "%s-fel: ”%s” stämmer inte överens med något %s-nyckelord.\n"
+ 
+ #: ../reset.c:93
+ #, c-format
+@@ -967,12 +977,12 @@
+ #: ../save.c:184 ../save.c:238
+ #, c-format
+ msgid "error %d (%s) stat-ing %s\n"
+-msgstr "fel %d (%s) vid körning av stat för %s\n"
++msgstr "fel %d (%s) vid hämtning av filstatus för %s\n"
+ 
+ #: ../restore.c:143
+ #, c-format
+ msgid "%s error: no saved option state\n"
+-msgstr "%s-fel: inget sparat flaggtillstånd\n"
++msgstr "%s-fel: inga sparade flagginställningar\n"
+ 
+ #: ../autoopts.c:231
+ #, c-format
+@@ -982,7 +992,7 @@
+ #: ../time.c:111
+ #, c-format
+ msgid "%s error:  '%s' is not a recognizable date/time.\n"
+-msgstr "%s-fel: ”%s” är inte ett identifierbart datum/tid.\n"
++msgstr "%s-fel: ”%s” kan inte tolkas som ett datum eller en tid.\n"
+ 
+ #: ../save.c:132
+ #, c-format
+@@ -992,42 +1002,42 @@
+ #: ../time.c:50
+ #, c-format
+ msgid "%s error:  '%s' is not a recognizable time duration.\n"
+-msgstr "%s-fel: ”%s” känns inte igen som en varaktighet.\n"
++msgstr "%s-fel: ”%s” kan inte tolkas som en tidslängd.\n"
+ 
+ #: ../check.c:92
+ #, c-format
+ msgid "%s error:  The %s option must appear %d times.\n"
+-msgstr "%s-fel: Flaggan %s måste finnas %d gånger.\n"
++msgstr "%s-fel: Flaggan %s måste anges %d gånger.\n"
+ 
+ #: ../numeric.c:164
+ #, c-format
+ msgid "%s error:  '%s' is not a recognizable number.\n"
+-msgstr "%s-fel: ”%s” är inte ett identifierbart nummer.\n"
++msgstr "%s-fel: ”%s” kan inte tolkas som ett tal.\n"
+ 
+ #: ../enum.c:200
+ #, c-format
+ msgid "%s error:  %s exceeds %s keyword count\n"
+-msgstr "%s-fel: %s överstiger antal %s-nyckelord\n"
++msgstr "%s-fel: %s överstiger antalet %s-nyckelord\n"
+ 
+ #: ../usage.c:330
+ #, c-format
+ msgid "Try '%s %s' for more information.\n"
+-msgstr "Prova ”%s %s” för vidare information.\n"
++msgstr "Kör ”%s %s” för mer information.\n"
+ 
+ #: ../alias.c:45
+ #, c-format
+ msgid "one %s%s option allowed\n"
+-msgstr "en %s%s-flagga tillåts\n"
++msgstr "endast en %s%s-flagga är tillåten\n"
+ 
+ #: ../makeshell.c:208 ../makeshell.c:943 ../usage.c:274 ../usage.c:415
+ #: ../usage.c:625 ../version.c:175 src/uuencode.c:107 src/uuencode.c:184
+ #: src/uuencode.c:273 src/uuencode.c:278 src/uuencode.c:280 src/uuencode.c:282
+ msgid "standard output"
+-msgstr "standard ut"
++msgstr "standardutdata"
+ 
+ #: ../usage.c:274 ../usage.c:415 ../usage.c:625 ../version.c:175
+ msgid "standard error"
+-msgstr "standard fel"
++msgstr "standardfel"
+ 
+ #: ../makeshell.c:208 ../makeshell.c:943 ../usage.c:273 ../usage.c:414
+ #: ../usage.c:624 ../version.c:174
+@@ -1037,7 +1047,7 @@
+ #: ../numeric.c:60
+ #, c-format
+ msgid "%s error:  %s option value %ld is out of range.\n"
+-msgstr "%s-fel: %s-flaggvärde %ld är utanför intervallet.\n"
++msgstr "%s-fel: %s-flaggvärdet %ld ligger utanför intervallet.\n"
+ 
+ #: ../check.c:44
+ #, c-format
+@@ -1047,12 +1057,12 @@
+ #: ../save.c:131 ../save.c:183 ../save.c:237 ../save.c:256 ../save.c:534
+ #, c-format
+ msgid "%s warning:  cannot save options - %s not regular file\n"
+-msgstr "%s-varning: kan inte spara flaggor - %s är inte en vanlig fil\n"
++msgstr "%s-varning: kan inte spara flagginställningar – %s är inte en vanlig fil\n"
+ 
+ #: src/shar.c:360
+ #, c-format
+ msgid "printf formatting error:  %s\n"
+-msgstr "printf formatfel:  %s\n"
++msgstr "printf-formateringsfel:  %s\n"
+ 
+ #: src/shar.c:407
+ msgid "sharutils bug - no status"
+@@ -1070,16 +1080,16 @@
+ #: src/shar.c:934
+ #, c-format
+ msgid "Cannot get current directory name"
+-msgstr "Kan inte komma åt namnet på aktuell katalog"
++msgstr "Kan inte hämta namnet på aktuell katalog"
+ 
+ #: src/shar.c:1023
+ #, c-format
+ msgid "Starting file %s\n"
+-msgstr "Påbörjar filen %s\n"
++msgstr "Börjar med filen %s\n"
+ 
+ #: src/shar.c:1117
+ msgid "Could not popen command"
+-msgstr "Kunde inte köra (popen) kommando"
++msgstr "Kunde inte öppna ett rör till kommandot"
+ 
+ #: src/shar.c:1177
+ #, c-format
+@@ -1092,7 +1102,7 @@
+ 
+ #: src/shar.c:1326
+ msgid "pipe fd"
+-msgstr "rör-fd"
++msgstr "rörfilbeskrivare"
+ 
+ #: src/shar.c:1441 src/shar.c:1455
+ msgid "text"
+@@ -1101,12 +1111,12 @@
+ #: src/shar.c:1559
+ #, c-format
+ msgid "Continuing file %s\n"
+-msgstr "Fortsätter fil %s\n"
++msgstr "Fortsätter med filen %s\n"
+ 
+ #: src/shar.c:1694
+ #, c-format
+ msgid "%s: Not a regular file"
+-msgstr "%s: Inte en normal fil"
++msgstr "%s: är inte en vanlig fil"
+ 
+ #: src/shar.c:1742
+ msgid "empty"
+@@ -1120,7 +1130,7 @@
+ #: src/shar.c:1970
+ #, c-format
+ msgid "Invalid format for output file names (%s): %s"
+-msgstr "Ogiltigt format för filnamn för utdata (%s): %s"
++msgstr "Ogiltigt format för namnen på utdatafiler (%s): %s"
+ 
+ #: src/shar.c:1985
+ msgid "more than one format element"
+@@ -1149,7 +1159,7 @@
+ #: src/shar.c:2158
+ #, c-format
+ msgid "reopening stderr to /dev/null"
+-msgstr "återöppnar standard fel som /dev/null"
++msgstr "återöppnar standardfel till /dev/null"
+ 
+ #: src/shar.c:2211
+ msgid "No input files"
+@@ -1158,7 +1168,7 @@
+ #: src/shar.c:2228
+ #, c-format
+ msgid "PLEASE avoid -X shars on Usenet or public networks"
+-msgstr "Vänligen undvik -X för skalarkiv som ska till Usenet eller offentliga nätverk"
++msgstr "Undvik -X-shararkiv på Usenet eller offentliga nätverk"
+ 
+ #: src/shar.c:2252
+ #, c-format
+@@ -1167,7 +1177,7 @@
+ "unless the --intermix-type option has been specified."
+ msgstr ""
+ "Flaggan ”%s” kan inte blandas med filnamn\n"
+-"om inte flaggan --intermix-type har angetts."
++"såvida inte flaggan ”--intermix-type” har angetts."
+ 
+ #: src/shar.c:2270
+ #, c-format
+@@ -1181,11 +1191,11 @@
+ "the known types are:\n"
+ msgstr ""
+ "ogiltig kompressionstyp: %s\n"
+-"kända typer är:\n"
++"de kända typerna är:\n"
+ 
+ #: src/shar.c:2345
+ msgid "files on command line and --input-file-list specified"
+-msgstr "filer på kommandoraden och --input-file-list angivna"
++msgstr "filer på kommandoraden och ”--input-file-list” har angetts"
+ 
+ #: src/shar.c:2394
+ #, c-format
+@@ -1195,20 +1205,20 @@
+ #: src/unshar-opts.c:583
+ #, c-format
+ msgid "fs error %d (%s) %s-ing %s\n"
+-msgstr "fs-fel %d (%s) %s-ar %s\n"
++msgstr "fs-fel %d (%s) vid %s av %s\n"
+ 
+ #: src/unshar-opts.c:585 src/unshar-opts.c:647 src/uudecode.c:526
+ #: src/uuencode.c:207
+ msgid "standard input"
+-msgstr "standard in"
++msgstr "standardindata"
+ 
+ #: src/unshar-opts.c:664
+ msgid "unshar usage error:\n"
+-msgstr "unshar användningsfel:\n"
++msgstr "användningsfel i unshar:\n"
+ 
+ #: src/unshar-opts.c:701
+ msgid "unshar fatal error:\n"
+-msgstr "unshar ödesdigert fel:\n"
++msgstr "allvarligt fel i unshar:\n"
+ 
+ #. TRANSLATORS:
+ #.
+@@ -1236,10 +1246,11 @@
+ "version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+ msgstr ""
+ "unshar (GNU sharutils) 4.15.2\n"
+-"Copyright © 1994-2015 Free Software Foundation, Inc., med ensamrätt.\n"
+-"Detta är fri programvara. Den licensieras för användning, modifiering och\n"
+-"återdistribution under villkoren för GNU General Public License,\n"
+-"version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
++"Copyright © 1994-2015 Free Software Foundation, Inc. – alla rättigheter förbehållna.\n"
++"Detta är fri programvara. Den licensieras för användning, ändring och\n"
++"vidaredistribution enligt GNU General Public License, "
++"version 3 eller senare\n"
++"<http://gnu.org/licenses/gpl.html>\n"
+ 
+ #: src/unshar-opts.c:938
+ msgid ""
+@@ -1249,9 +1260,11 @@
+ "version.\n"
+ "\n"
+ msgstr ""
+-"unshar är fri programvara. Du kan återdistribuera det och/eller modifiera det\n"
+-"under villkoren i GNU General Public License, publicerad av Free Software\n"
+-"Foundation, antingen version 3 av licensen, eller (om du så vill) någon senare\n"
++"unshar är fri programvara: du kan vidaredistribuera det och/eller modifiera det\n"
++"enligt villkoren i GNU General Public License såsom den publicerats av Free\n"
++"Software "
++"Foundation, antingen version 3 av licensen eller (om du så önskar)\n"
++"någon senare "
+ "version.\n"
+ "\n"
+ 
+@@ -1264,9 +1277,10 @@
+ "\n"
+ msgstr ""
+ "unshar distribueras i hopp om att det ska vara användbart, men UTAN NÅGON\n"
+-"SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller\n"
+-"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License\n"
+-"för ytterligare information.\n"
++"SOM HELST GARANTI, inte ens underförstådd garanti om SÄLJBARHET eller\n"
++"LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL. Se GNU General Public License "
++"för mer\n"
++"information.\n"
+ "\n"
+ 
+ #: src/unshar-opts.c:950
+@@ -1275,8 +1289,8 @@
+ "unshar (GNU sharutils) - unpack a shar archive\n"
+ "Usage:  %s [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ msgstr ""
+-"unshar (GNU sharutils) - packa upp ett shar-arkiv\n"
+-"Användning:  %s [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
++"unshar (GNU sharutils) – packa upp ett shararkiv\n"
++"Användning:  %s [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
+ 
+ #: src/unshar-opts.c:954
+ msgid ""
+@@ -1286,9 +1300,10 @@
+ "'stdin' may not be a terminal (tty).\n"
+ msgstr ""
+ "\n"
+-"Om inga argument anges kommer indataargument att läsas från standard\n"
+-"in, ett per rad; tomma rader och rader som prefixas med ”#” är kommentarer.\n"
+-"”stdin” får inte vara en terminal (tty).\n"
++"Om inga argument anges läses indataargument från standardindata, ett per rad;\n"
++"tomma rader och rader som inleds med ”#” är kommentarer. "
++"”stdin” får inte\n"
++"vara en terminal (tty).\n"
+ 
+ #: src/unshar-opts.c:960
+ msgid ""
+@@ -1297,10 +1312,12 @@
+ "processed instead.  It then passes each archive discovered through an\n"
+ "invocation of the shell program to unpack it.\n"
+ msgstr ""
+-"Unshar letar genom indatafiler (typiskt e-postmeddelanden) efter början\n"
+-"på ett skalarkiv. Om inga filer anges kommer standard in att behandlas\n"
+-"istället. Det skickar sedan varje identifierat arkiv genom en körning av\n"
+-"skalprogrammet för att packa upp det.\n"
++"Unshar söker igenom indatafiler (oftast e-postmeddelanden) efter början "
++"på\n"
++"ett kommandotolksarkiv. Om inga filer anges bearbetas standardindata i\n"
++"stället. Sedan skickas varje arkiv som hittas till kommandotolken"
++" för att\n"
++"packas upp.\n"
+ 
+ #: src/unshar-opts.c:966
+ msgid "unshar (GNU sharutils) 4.15.2"
+@@ -1312,17 +1329,17 @@
+ "Usage:  unshar [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ "\n"
+ msgstr ""
+-"unshar (GNU sharutils) - packa upp ett shar-arkiv\n"
+-"Användning:  unshar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
++"unshar (GNU sharutils) – packa upp ett shararkiv\n"
++"Användning:  unshar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
+ "\n"
+ 
+ #: src/unshar-opts.c:971
+ msgid "   -d, --directory=DIR        unpack into the directory DIR\n"
+-msgstr "   -d, --directory=KAT        dekomprimera i katalogen KAT\n"
++msgstr "   -d, --directory=KAT        packa upp i katalogen KAT\n"
+ 
+ #: src/unshar-opts.c:972
+ msgid "   -c, --overwrite            overwrite any pre-existing files\n"
+-msgstr "   -c, --overwrite            skriv över filer som redan existerar\n"
++msgstr "   -c, --overwrite            skriv över filer som redan finns\n"
+ 
+ #: src/unshar-opts.c:973
+ msgid "   -f, --force                an alias for the 'overwrite' option\n"
+@@ -1330,23 +1347,23 @@
+ 
+ #: src/unshar-opts.c:974
+ msgid "   -E, --split-at=SPLIT-PAT   split input on SPLIT-PAT lines\n"
+-msgstr "   -E, --split-at=DELN-MÖNST  dela indata på DELN-MÖNST-rader\n"
++msgstr "   -E, --split-at=DELNINGSMÖNSTER dela indata vid rader med DELNINGSMÖNSTER\n"
+ 
+ #: src/unshar-opts.c:975
+ msgid ""
+ "   -e, --exit-0               split input on \"exit 0\" lines\n"
+ "                                - prohibits the option 'split-at'\n"
+ msgstr ""
+-"   -e, --exit-0               dela indata på ”exit 0”-rader\n"
++"   -e, --exit-0               dela indata vid rader med ”exit 0”\n"
+ "                                - förbjuder flaggan ”split-at”\n"
+ 
+ #: src/unshar-opts.c:977
+ msgid "   -D, --debug                debug the shell code\n"
+-msgstr "   -D, --debug                felsök skalkoden\n"
++msgstr "   -D, --debug                felsök kommandotolkskoden\n"
+ 
+ #: src/unshar-opts.c:981
+ msgid "   -R, --save-opts[=FILE]     save the option state to the config file FILE\n"
+-msgstr "   -R, --save-opts[=FIL]      spara flaggtillståndet till konfigurationsfilen FIL\n"
++msgstr "   -R, --save-opts[=FIL]      spara flagginställningarna i konfigurationsfilen FIL\n"
+ 
+ #: src/unshar-opts.c:982
+ msgid ""
+@@ -1356,7 +1373,7 @@
+ "\n"
+ msgstr ""
+ "   -r, --load-opts=FIL        läs in flaggor från konfigurationsfilen FIL\n"
+-"                                - inaktiveras som ”--no-load-opts”\n"
++"                                - inaktiveras med ”--no-load-opts”\n"
+ "                                - får förekomma flera gånger\n"
+ "\n"
+ 
+@@ -1377,9 +1394,10 @@
+ "'stdin' may not be a terminal (tty).\n"
+ "\n"
+ msgstr ""
+-"Om inga argument anges kommer indataargument att läsas från standard\n"
+-"in, ett per rad; tomma rader och rader som prefixas med ”#” är kommentarer.\n"
+-"”stdin” får inte vara en terminal (tty).\n"
++"Om inga argument anges läses indataargument från standardindata, ett per rad;\n"
++"tomma rader och rader som inleds med ”#” är kommentarer. "
++"”stdin” får inte\n"
++"vara en terminal (tty).\n"
+ "\n"
+ 
+ #: src/unshar-opts.c:991
+@@ -1394,17 +1412,19 @@
+ msgstr ""
+ " - läser filen $HOME/.sharrc\n"
+ "\n"
+-"'unshar' letar genom indatafilerna (typiskt e-postmeddelanden) och letar\n"
+-"efter början på ett skalarkiv. Om inga filer anges kommer standard in att\n"
+-"behandlas istället. Det skickar sedan varje hittat arkiv genom en körning\n"
+-"av skalprogrammet för att packa upp det.\n"
++"”unshar” söker igenom indatafiler (oftast e-postmeddelanden) "
++"efter början på\n"
++"ett kommandotolksarkiv. Om inga filer anges bearbetas standardindata i\n"
++"stället. Sedan skickas varje arkiv som hittas till kommandotolken"
++" för att\n"
++"packas upp.\n"
+ "\n"
+ 
+ #: src/unshar-opts.c:996 src/uudecode-opts.c:780
+ msgid "Please send bug reports to:  <bug-gnu-utils@gnu.org>\n"
+ msgstr ""
+ "Skicka felrapporter till:  <bug-gnu-utils@gnu.org>\n"
+-"Skicka synpunkter på översättningen till: tp-sv@listor.tp-sv.org>\n"
++"Skicka synpunkter på översättningen till: <tp-sv@listor.tp-sv.org>\n"
+ 
+ #: src/unshar-opts.c:999
+ msgid ""
+@@ -1412,9 +1432,9 @@
+ "Usage:  unshar [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ "Try 'unshar --help' for more information.\n"
+ msgstr ""
+-"unshar (GNU sharutils) - packa upp ett shar-arkiv\n"
+-"Användning:  unshar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
+-"Prova 'unshar --help' för vidare information.\n"
++"unshar (GNU sharutils) – packa upp ett shararkiv\n"
++"Användning:  unshar [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
++"Kör ”unshar --help” för mer information.\n"
+ 
+ #: src/unshar-opts.h:263 src/uudecode-opts.h:241
+ #, c-format
+@@ -1424,27 +1444,27 @@
+ #: src/unshar.c:203
+ #, c-format
+ msgid "Found no shell commands after cut line in %s"
+-msgstr "Hittade inga skalkommandon efter klipprad i %s"
++msgstr "Hittade inga kommandotolkskommandon efter klipplinjen i %s"
+ 
+ #: src/unshar.c:222
+ #, c-format
+ msgid "%s is probably not a shell archive"
+-msgstr "%s är förmodligen inte ett skalarkiv"
++msgstr "%s är förmodligen inte ett kommandotolksarkiv"
+ 
+ #: src/unshar.c:223
+ #, c-format
+ msgid "The 'cut line' was followed by: %s"
+-msgstr "”Klippraden” följdes av: %s"
++msgstr "Klipplinjen följdes av: %s"
+ 
+ #: src/unshar.c:246
+ #, c-format
+ msgid "Found no shell commands in %s"
+-msgstr "Hittade inga skalkommandon i %s"
++msgstr "Hittade inga kommandotolkskommandon i %s"
+ 
+ #: src/unshar.c:255
+ #, c-format
+ msgid "%s looks like raw C code, not a shell archive"
+-msgstr "%s ser ut som C-kod, inte som ett skalarkiv"
++msgstr "%s ser ut som rå C-kod, inte som ett kommandotolksarkiv"
+ 
+ #: src/unshar.c:326
+ msgid "file name buffer"
+@@ -1456,11 +1476,11 @@
+ 
+ #: src/uudecode-opts.c:438
+ msgid "uudecode usage error:\n"
+-msgstr "uudecode användningsfel:\n"
++msgstr "användningsfel i uudecode:\n"
+ 
+ #: src/uudecode-opts.c:475
+ msgid "uudecode fatal error:\n"
+-msgstr "uudecode ödesdigert fel:\n"
++msgstr "allvarligt fel i uudecode:\n"
+ 
+ #. TRANSLATORS:
+ #.
+@@ -1488,10 +1508,11 @@
+ "version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+ msgstr ""
+ "uudecode (GNU sharutils) 4.15.2\n"
+-"Copyright © 1994-2015 Free Software Foundation, Inc., med ensamrätt.\n"
+-"Detta är fri programvara. Den licensieras för användning, modifiering och\n"
+-"återdistribution under villkoren för GNU General Public License,\n"
+-"version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
++"Copyright © 1994-2015 Free Software Foundation, Inc. – alla rättigheter förbehållna.\n"
++"Detta är fri programvara. Den licensieras för användning, ändring och\n"
++"vidaredistribution enligt GNU General Public License, "
++"version 3 eller senare\n"
++"<http://gnu.org/licenses/gpl.html>\n"
+ 
+ #: src/uudecode-opts.c:712
+ msgid ""
+@@ -1501,9 +1522,11 @@
+ "any later version.\n"
+ "\n"
+ msgstr ""
+-"uudecode är fri programvara. Du kan återdistribuera det och/eller modifiera det\n"
+-"under villkoren i GNU General Public License, publicerad av Free Software\n"
+-"Foundation, antingen version 3 av licensen, eller (om du så vill) någon senare\n"
++"uudecode är fri programvara: du kan vidaredistribuera det och/eller modifiera det\n"
++"enligt villkoren i GNU General Public License såsom den publicerats av Free\n"
++"Software "
++"Foundation, antingen version 3 av licensen eller (om du så önskar)\n"
++"någon senare "
+ "version.\n"
+ "\n"
+ 
+@@ -1516,9 +1539,10 @@
+ "\n"
+ msgstr ""
+ "uudecode distribueras i hopp om att det ska vara användbart, men UTAN NÅGON\n"
+-"SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller\n"
+-"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License\n"
+-"för ytterligare information.\n"
++"SOM HELST GARANTI, inte ens underförstådd garanti om SÄLJBARHET eller\n"
++"LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL. Se GNU General Public License "
++"för mer\n"
++"information.\n"
+ "\n"
+ 
+ #: src/uudecode-opts.c:724
+@@ -1527,19 +1551,19 @@
+ "uudecode (GNU sharutils) - decode an encoded file\n"
+ "Usage:  %s [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ msgstr ""
+-"uudecode (GNU sharutils) - avkoda en kodad fil\n"
+-"Användning:  %s [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
++"uudecode (GNU sharutils) – avkoda en kodad fil\n"
++"Användning:  %s [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
+ 
+ #: src/uudecode-opts.c:728
+ msgid "If no 'file'(s) are provided, then standard input is decoded.\n"
+-msgstr "Om inga ”filer” anges kommer standard in att avkodas.\n"
++msgstr "Om inga filer anges avkodas standardindata.\n"
+ 
+ #: src/uudecode-opts.c:731
+ msgid ""
+ "'uudecode' transforms uuencoded files into their original form.\n"
+ "\n"
+ msgstr ""
+-"”uudecode” transformerar filer kodade med uuencode till deras originalform.\n"
++"”uudecode” avkodar uuencode-kodade filer till ursprunglig form.\n"
+ "\n"
+ 
+ #: src/uudecode-opts.c:732 src/uudecode-opts.c:767
+@@ -1554,14 +1578,17 @@
+ "be written to the same file as the previous output.  Don't do that.\n"
+ "\n"
+ msgstr ""
+-"De kodade filerna kan anges på kommandoraden, eller så kan en läsas in\n"
+-"från standard in. Utdatafilnamnet som anges i den kodade filen kan\n"
+-"åsidosättas med flaggan ”-o”. Den kommer att få samma rättigheter som\n"
+-"originalfilen, förutom att setuid- och exekveringsbitarna inte behålls. Om\n"
+-"utdatafilen är angiven som ”/dev/stdout” eller ”-”, kommer resultatet att\n"
+-"skrivas till standard ut. Om det finns flera indatafiler och den andra eller\n"
+-"efterföljande filer anger standard ut kommer avkodad data att\n"
+-"skrivas till samma fil som föregående utdata. Gör inte så.\n"
++"De kodade filerna kan anges på kommandoraden, eller en kan läsas "
++"från\n"
++"standardindata. Utdatafilens namn anges i den kodade filen, men kan\n"
++"åsidosättas med flaggan ”-o”. Den får samma filrättigheter som\n"
++"originalfilen, förutom att setuid- och körbarhetsbitar inte behålls. Om\n"
++"utdatafilen anges som ”/dev/stdout” eller ”-” skrivs resultatet "
++"till\n"
++"standardutdata. Om det finns flera indatafiler och den andra eller en senare\n"
++"fil anger standardutdata skrivs avkodade data"
++" till samma fil som föregående\n"
++"utdata. Gör inte det.\n"
+ "\n"
+ 
+ #: src/uudecode-opts.c:740
+@@ -1572,11 +1599,12 @@
+ "which of the two supported encoding schemes was used and whether or not the\n"
+ "output file name has been encoded with base64 encoding.  See 'uuencode(5)'.\n"
+ msgstr ""
+-"”uudecode” hoppar över inledande och efterföljande rader. Det letar efter\n"
+-"en rad som börjar med ”'begin'” och fortsätter tills markören slut-på-kodning\n"
+-"hittas. Programmet avgör från rubrikraden i den kodade filen vilken av två\n"
+-"kodningsmetoder som använts och huruvida utdatafilnamnet har kodats med\n"
+-"base64-kodning. Se ”uuencode(5)”.\n"
++"”uudecode” ignorerar inledande och avslutande rader. Det letar efter "
++"en rad\n"
++"som börjar med ”'begin'” och fortsätter tills slutmarkören för kodningen\n"
++"hittas. Programmet avgör utifrån rubriken i den kodade filen vilken av de två\n"
++"kodningsmetoder som stöds som användes, samt om utdatafilnamnet har\n"
++"base64-kodats. Se ”uuencode(5)”.\n"
+ 
+ #: src/uudecode-opts.c:747
+ msgid "uudecode (GNU sharutils) 4.15.2"
+@@ -1588,13 +1616,13 @@
+ "Usage:  uudecode [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ "\n"
+ msgstr ""
+-"uudecode (GNU sharutils) - avkoda en kodad fil\n"
+-"Användning:  uudecode [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
++"uudecode (GNU sharutils) – avkoda en kodad fil\n"
++"Användning:  uudecode [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
+ "\n"
+ 
+ #: src/uudecode-opts.c:752
+ msgid "   -o, --output-file=str      direct output to file\n"
+-msgstr "   -o, --output-file=str      utdata direkt till fil\n"
++msgstr "   -o, --output-file=FIL      skriv utdata till FIL\n"
+ 
+ #: src/uudecode-opts.c:753
+ msgid "   -c, --ignore-chmod         ignore fchmod(3P) errors\n"
+@@ -1609,7 +1637,7 @@
+ msgstr ""
+ "Flaggor anges med dubbla bindestreck och deras namn eller med ett\n"
+ "enkelt bindestreck och flaggtecknet.\n"
+-"Om inga ”filer” anges kommer standard in att avkodas.\n"
++"Om inga filer anges avkodas standardindata.\n"
+ "\n"
+ 
+ #: src/uudecode-opts.c:765
+@@ -1621,7 +1649,7 @@
+ msgstr ""
+ " - läser filen $HOME/.sharrc\n"
+ "\n"
+-"'uudecode' transformerar filer kodade av uuencode till deras originalform.\n"
++"”uudecode” avkodar uuencode-kodade filer till ursprunglig form.\n"
+ "\n"
+ 
+ #: src/uudecode-opts.c:775
+@@ -1633,12 +1661,12 @@
+ "output file name has been encoded with base64 encoding.  See 'uuencode(5)'.\n"
+ "\n"
+ msgstr ""
+-"”uudecode” hoppar över inledande och efterföljande rader. Det letar efter\n"
+-"en rad som börjar med ”'begin'” och fortsätter tills markören slut-på-kodning\n"
+-"hittas. Programmet avgör från rubrikraden i den kodade filen vilken av två\n"
+-"kodningsmetoder som använts och huruvida utdatafilnamnet har kodades med\n"
+-"base64-kodning. Se ”uuencode(5)”.\n"
+-"\n"
++"”uudecode” ignorerar inledande och avslutande rader. Det letar efter "
++"en rad\n"
++"som börjar med ”'begin'” och fortsätter tills slutmarkören för kodningen\n"
++"hittas. Programmet avgör utifrån rubriken i den kodade filen vilken av de två\n"
++"kodningsmetoder som stöds som användes, samt om utdatafilnamnet har\n"
++"base64-kodats. Se ”uuencode(5)”.\n"
+ "\n"
+ 
+ #: src/uudecode-opts.c:783
+@@ -1647,14 +1675,14 @@
+ "Usage:  uudecode [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
+ "Try 'uudecode --help' for more information.\n"
+ msgstr ""
+-"uudecode (GNU sharutils) - avkoda en kodad fil\n"
+-"Användning:  uudecode [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]… [<fil>…]\n"
+-"Prova ”uudecode --help” för vidare information.\n"
++"uudecode (GNU sharutils) – avkoda en kodad fil\n"
++"Användning:  uudecode [ -<flagga> [<värde>] | --<namn>[{=| }<värde>] ]... [<fil>...]\n"
++"Kör ”uudecode --help” för mer information.\n"
+ 
+ #: src/uudecode.c:125 src/uudecode.c:189
+ #, c-format
+ msgid "%s: Short file"
+-msgstr "%s: Stympad fil"
++msgstr "%s: ofullständig fil"
+ 
+ #: src/uudecode.c:171
+ #, c-format
+@@ -1692,11 +1720,11 @@
+ #: src/uudecode.c:317
+ #, c-format
+ msgid "chmod of %s"
+-msgstr "åtkomständring (chmod) av %s"
++msgstr "ändring av filrättigheter för %s"
+ 
+ #: src/uudecode.c:341
+ msgid "output name is empty"
+-msgstr "utdatanamn är tomt"
++msgstr "namnet på utdatafilen är tomt"
+ 
+ #: src/uudecode.c:352
+ #, c-format
+@@ -1711,23 +1739,24 @@
+ #: src/uudecode.c:492
+ #, c-format
+ msgid "%s: Write error"
+-msgstr "%s: Skrivfel"
++msgstr "%s: fel vid skrivning"
+ 
+ #: src/uudecode.c:532
+ msgid ""
+ "You cannot specify an output file when processing\n"
+ "multiple input files.\n"
+ msgstr ""
+-"Du kan inte endast ange en enda utdatafil när\n"
+-"flera indatafiler behandlas.\n"
++"Du kan inte ange en utdatafil när "
++"flera indatafiler\n"
++"behandlas.\n"
+ 
+ #: src/uuencode-opts.c:389
+ msgid "uuencode usage error:\n"
+-msgstr "uuencode användningsfel:\n"
++msgstr "användningsfel i uuencode:\n"
+ 
+ #: src/uuencode-opts.c:426
+ msgid "uuencode fatal error:\n"
+-msgstr "uuencode ödesdigert fel:\n"
++msgstr "allvarligt fel i uuencode:\n"
+ 
+ #. TRANSLATORS:
+ #.
+@@ -1755,10 +1784,11 @@
+ "version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+ msgstr ""
+ "uuencode (GNU sharutils) 4.15.2\n"
+-"Copyright © 1994-2015 Free Software Foundation, Inc., med ensamrätt.\n"
+-"Detta är fri programvara. Den licensieras för användning, modifiering och\n"
+-"återdistribution under villkoren för GNU General Public License,\n"
+-"version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
++"Copyright © 1994-2015 Free Software Foundation, Inc. – alla rättigheter förbehållna.\n"
++"Detta är fri programvara. Den licensieras för användning, ändring och\n"
++"vidaredistribution enligt GNU General Public License, "
++"version 3 eller senare\n"
++"<http://gnu.org/licenses/gpl.html>\n"
+ 
+ #: src/uuencode-opts.c:663
+ msgid ""
+@@ -1768,9 +1798,11 @@
+ "any later version.\n"
+ "\n"
+ msgstr ""
+-"uuencode är fri programvara. Du kan återdistribuera det och/eller modifiera det\n"
+-"under villkoren i GNU General Public License, publicerad av Free Software\n"
+-"Foundation, antingen version 3 av licensen, eller (om du så vill) någon senare\n"
++"uuencode är fri programvara: du kan vidaredistribuera det och/eller modifiera det\n"
++"enligt villkoren i GNU General Public License såsom den publicerats av Free\n"
++"Software "
++"Foundation, antingen version 3 av licensen eller (om du så önskar)\n"
++"någon senare "
+ "version.\n"
+ "\n"
+ 
+@@ -1783,9 +1815,10 @@
+ "\n"
+ msgstr ""
+ "uuencode distribueras i hopp om att det ska vara användbart, men UTAN NÅGON\n"
+-"SOM HELST GARANTI, även utan underförstådd garanti om SÄLJBARHET eller\n"
+-"LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General Public License\n"
+-"för ytterligare information.\n"
++"SOM HELST GARANTI, inte ens underförstådd garanti om SÄLJBARHET eller\n"
++"LÄMPLIGHET FÖR ETT VISST ÄNDAMÅL. Se GNU General Public License "
++"för mer\n"
++"information.\n"
+ "\n"
+ 
+ #: src/uuencode-opts.c:675
+@@ -1794,8 +1827,8 @@
+ "uuencode (GNU sharutils) - encode a file into email friendly text\n"
+ "Usage:  %s [ -<flag> | --<name> ]... [<in-file>] <output-name>\n"
+ msgstr ""
+-"uuencode (GNU sharutils) - koda en fil som e-postvänlig text\n"
+-"Användning:  %s [ -<flagga> | --<namn> ]… [<indatafil>] <utdatanamn>\n"
++"uuencode (GNU sharutils) – koda en fil som e-postvänlig text\n"
++"Användning:  %s [ -<flagga> | --<namn> ]... [<indatafil>] <utdatanamn>\n"
+ 
+ #: src/uuencode-opts.c:679
+ msgid ""
+@@ -1806,9 +1839,10 @@
+ "\n"
+ msgstr ""
+ "”uuencode” används för att skapa en ASCII-representation av en fil som kan\n"
+-"skickas över kanaler som annars skulle ha förvrängt data.  I synnerhet\n"
+-"kan e-post inte hantera binärdata och kommer ofta att till och med infoga\n"
+-"ett tecken när teckensekvensen ”\\nFrom ” identifieras.\n"
++"skickas över kanaler som annars kan förvränga data. E-post kan i synnerhet\n"
++"inte hantera binärdata och kan ofta till och med infoga "
++"ett tecken när\n"
++"teckensekvensen ”\\nFrom ” påträffas.\n"
+ "\n"
+ 
+ #: src/uuencode-opts.c:683 src/uuencode-opts.c:716
+@@ -1821,12 +1855,14 @@
+ "standard out.\n"
+ "\n"
+ msgstr ""
+-"”uuencode” kommer att läsa ”indatafil” om den anges och i annat fall läsa\n"
+-"data från standard in och skriva kodad data på standard ut. Utdata kommer\n"
+-"att börja med en rubrikrad för användning av ”uudecode” som anger\n"
+-"föreslaget ”utdatanamn” och rättighetsläge. Om ”utdatanamn” är exakt\n"
+-"”/dev/stdout” kommer ”uudecode” att mata ut den avkodade filen till\n"
+-"standard ut.\n"
++"”uuencode” läser ”indatafil” om den anges; annars läser den "
++"data från\n"
++"standardindata och skriver den kodade formen till standardutdata. Utdata\n"
++"börjar med en rubrikrad som ”uudecode” använder för att få det "
++"föreslagna\n"
++"filnamnet ”utdatanamn” och filrättigheterna. Om ”utdatanamn” är exakt\n"
++"”/dev/stdout” skriver ”uudecode” den avkodade filen till "
++"standardutdata.\n"
+ "\n"
+ 
+ #: src/uuencode-opts.c:689
+@@ -1835,9 +1871,10 @@
+ "typed from a tty.  The consequence is that at a tty, you may need to hit\n"
+ "Ctl-D several times to terminate input.\n"
+ msgstr ""
+-"”Not”: ”uuencode” använder buffrad indata och förutsätter att det inte skrivs\n"
+-"in för hand från en tty. Konsekvensen är att för en tty kan du behöva trycka\n"
+-"på Ctrl-D flera gånger för att avsluta inmatning.\n"
++"Obs: ”uuencode” använder buffrad indata och förutsätter att indatan inte matas\n"
++"in för hand från en tty. Vid en tty kan du därför behöva trycka "
++"på Ctrl-D\n"
++"flera gånger för att avsluta inmatningen.\n"
+ 
+ #: src/uuencode-opts.c:694
+ msgid "uuencode (GNU sharutils) 4.15.2"
+@@ -1849,8 +1886,8 @@
+ "Usage:  uuencode [ -<flag> | --<name> ]... [<in-file>] <output-name>\n"
+ "\n"
+ msgstr ""
+-"uuencode (GNU sharutils) - koda en fil till e-postvänlig text\n"
+-"Användning:  uuencode [ -<flagga> | --<namn> ]… [<indatafil>] <utdatanamn>\n"
++"uuencode (GNU sharutils) – koda en fil till e-postvänlig text\n"
++"Användning:  uuencode [ -<flagga> | --<namn> ]... [<indatafil>] <utdatanamn>\n"
+ "\n"
+ 
+ #: src/uuencode-opts.c:699
+@@ -1871,12 +1908,13 @@
+ "the six character sequence \"\\nFrom \" is seen.\n"
+ "\n"
+ msgstr ""
+-" - läser fil $HOME/.sharrc\n"
++" - läser filen $HOME/.sharrc\n"
+ "\n"
+ "”uuencode” används för att skapa en ASCII-representation av en fil som kan\n"
+-"skickas över kanaler som annars skulle ha förvrängt data.  I synnerhet\n"
+-"kan e-post inte hantera binärdata och kommer ofta att till och med infoga\n"
+-"ett tecken när teckensekvensen ”\\nFrom ” identifieras.\n"
++"skickas över kanaler som annars kan förvränga data. E-post kan i synnerhet\n"
++"inte hantera binärdata och kan ofta till och med infoga "
++"ett tecken när\n"
++"teckensekvensen ”\\nFrom ” påträffas.\n"
+ "\n"
+ 
+ #: src/uuencode-opts.c:722
+@@ -1887,9 +1925,10 @@
+ "\n"
+ "Please send bug reports to:  <bug-gnu-utils@gnu.org>\n"
+ msgstr ""
+-"”Not”: ”uuencode” använder buffrad indata och förutsätter att det inte skrivs\n"
+-"in för hand från en tty. Konsekvensen är att för en tty kan du behöva trycka\n"
+-"på Ctrl-D flera gånger för att avsluta inmatning.\n"
++"Obs: ”uuencode” använder buffrad indata och förutsätter att indatan inte matas\n"
++"in för hand från en tty. Vid en tty kan du därför behöva trycka "
++"på Ctrl-D\n"
++"flera gånger för att avsluta inmatningen.\n"
+ "\n"
+ "Skicka felrapporter till:  <bug-gnu-utils@gnu.org>\n"
+ "Skicka synpunkter på översättningen till: <tp-sv@listor.tp-sv.se>\n"
+@@ -1900,13 +1939,13 @@
+ "Usage:  uuencode [ -<flag> | --<name> ]... [<in-file>] <output-name>\n"
+ "Try 'uuencode --help' for more information.\n"
+ msgstr ""
+-"uuencode (GNU sharutils) - koda en fil till e-postvänlig text\n"
+-"Användning:  uuencode [ -<flagga> | --<namn> ]… [<indatafil>] <utdatanamn>\n"
+-"Prova ”uuencode --help” för vidare information.\n"
++"uuencode (GNU sharutils) – koda en fil till e-postvänlig text\n"
++"Användning:  uuencode [ -<flagga> | --<namn> ]... [<indatafil>] <utdatanamn>\n"
++"Kör ”uuencode --help” för mer information.\n"
+ 
+ #: src/uuencode.c:228
+ msgid "freopen of stdin"
+-msgstr "kör freopen på standard in"
++msgstr "återöppning av standardindata"
+ 
+ #: src/uuencode.c:257
+ msgid "file name"
+@@ -1919,7 +1958,7 @@
+ #: lib/getopt.c:575 lib/getopt.c:604
+ #, c-format
+ msgid "%s: option '%s' is ambiguous; possibilities:"
+-msgstr "%s: flaggan ”%s” är tvetydig; alternativ:"
++msgstr "%s: flaggan ”%s” är tvetydig; möjliga tolkningar:"
+ 
+ #: lib/getopt.c:619
+ #, c-format
+@@ -1959,7 +1998,7 @@
+ #: lib/getopt.c:891 lib/getopt.c:908 lib/getopt.c:1118 lib/getopt.c:1136
+ #, c-format
+ msgid "%s: option requires an argument -- '%c'\n"
+-msgstr "%s: flaggan behöver ett argument -- ”%c”\n"
++msgstr "%s: flaggan kräver ett argument -- ”%c”\n"
+ 
+ #: lib/getopt.c:964 lib/getopt.c:980
+ #, c-format
+@@ -1979,12 +2018,12 @@
+ #: lib/openat-die.c:38
+ #, c-format
+ msgid "unable to record current working directory"
+-msgstr "misslyckades med att spara nuvarande katalog"
++msgstr "Kunde inte spara aktuell arbetskatalog"
+ 
+ #: lib/openat-die.c:57
+ #, c-format
+ msgid "failed to return to initial working directory"
+-msgstr "misslyckades med att återvända till ursprunglig katalog"
++msgstr "Kunde inte återvända till den ursprungliga arbetskatalogen"
+ 
+ #. TRANSLATORS:
+ #. Get translations for open and closing quotation marks.
+@@ -2019,13 +2058,13 @@
+ #: lib/spawn-pipe.c:262
+ #, c-format
+ msgid "cannot create pipe"
+-msgstr "kan inte skapa rör"
++msgstr "kan inte skapa ett rör"
+ 
+ #: lib/spawn-pipe.c:229 lib/spawn-pipe.c:343 lib/wait-process.c:282
+ #: lib/wait-process.c:356
+ #, c-format
+ msgid "%s subprocess failed"
+-msgstr "%s underprocess misslyckades"
++msgstr "underprocessen %s misslyckades"
+ 
+ #: lib/w32spawn.h:43
+ #, c-format
+@@ -2035,21 +2074,21 @@
+ #: lib/w32spawn.h:84
+ #, c-format
+ msgid "cannot restore fd %d: dup2 failed"
+-msgstr "kan inte återställa fd %d: dup2 misslyckades"
++msgstr "kan inte återställa filbeskrivaren %d: dup2 misslyckades"
+ 
+ #: lib/wait-process.c:223 lib/wait-process.c:255 lib/wait-process.c:317
+ #, c-format
+ msgid "%s subprocess"
+-msgstr "%s underprocess"
++msgstr "underprocessen %s"
+ 
+ #: lib/wait-process.c:274 lib/wait-process.c:346
+ #, c-format
+ msgid "%s subprocess got fatal signal %d"
+-msgstr "%s underprocess fick ödesdiger signal %d"
++msgstr "underprocessen %s fick den dödande signalen %d"
+ 
+ #: lib/xalloc-die.c:34
+ msgid "memory exhausted"
+-msgstr "minnet slut"
++msgstr "Minnet är slut"
+ 
+ #: lib/xstrtol-error.c:63
+ #, c-format
+@@ -2064,7 +2103,7 @@
+ #: lib/xstrtol-error.c:72
+ #, c-format
+ msgid "%s%s argument '%s' too large"
+-msgstr "%s%s-argument ”%s” för stort"
++msgstr "%s%s-argument ”%s” är för stort"
+ 
+ #~ msgid "New file, remaining %s, "
+ #~ msgstr "Ny fil, återstår %s, "
