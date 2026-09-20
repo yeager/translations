@@ -204,7 +204,7 @@
  
  #: lib/version-etc.c:260
  #, c-format
-@@ -455,19 +455,19 @@
+@@ -455,7 +455,7 @@
  
  #: lib/xalloc-die.c:34
  msgid "memory exhausted"
@@ -213,13 +213,7 @@
  
  #: lib/xfreopen.c:34
  msgid "stdin"
--msgstr "standard in"
-+msgstr "standardindata"
- 
- #: lib/xfreopen.c:35
- msgid "stdout"
--msgstr "standard ut"
-+msgstr "standardutdata"
+@@ -467,7 +467,7 @@
  
  #: lib/xfreopen.c:36
  msgid "stderr"
@@ -264,12 +258,7 @@
  
  #: src/cmp.c:153
  #, c-format
-@@ -523,15 +523,15 @@
- 
- #: src/cmp.c:163 src/diff.c:962 src/diff.c:1660 src/diff3.c:423 src/sdiff.c:172
- msgid "standard output"
--msgstr "standard ut"
-+msgstr "standardutdata"
+@@ -527,11 +527,11 @@
  
  #: src/cmp.c:167
  msgid "-b, --print-bytes          print differing bytes"
@@ -324,7 +313,7 @@
  #: src/cmp.c:198
  msgid "If a FILE is '-' or missing, read standard input."
 -msgstr "Om FIL är ”-” eller utelämnats, läs standard in."
-+msgstr "Om FIL är ”-” eller saknas, läs standardindata."
++msgstr "Om FIL är ”-” eller saknas, läs standard in."
  
  #: src/cmp.c:199 src/diff.c:1060 src/sdiff.c:221
  msgid "Exit status is 0 if inputs are the same, 1 if different, 2 if trouble."
@@ -613,7 +602,7 @@
  
  #: src/diff.c:1054
  msgid "    --help               display this help and exit"
-@@ -1010,12 +1010,12 @@
+@@ -1010,8 +1010,8 @@
  #: src/diff.c:1058
  msgid "If --from-file or --to-file is given, there are no restrictions on FILE(s)."
  msgstr ""
@@ -624,11 +613,6 @@
  
  #: src/diff.c:1059 src/diff3.c:478 src/sdiff.c:220
  msgid "If a FILE is '-', read standard input."
--msgstr "Om en FIL är ”-”, läs standard in."
-+msgstr "Om en FIL är ”-”, läs standardindata."
- 
- #: src/diff.c:1067
- #, c-format
 @@ -1029,12 +1029,12 @@
  #: src/diff.c:1102
  #, c-format
@@ -898,7 +882,7 @@
  #: src/sdiff.c:329
  msgid "cannot interactively merge standard input"
 -msgstr "kan inte slå samman standard in interaktivt"
-+msgstr "det går inte att slå samman standardindata interaktivt"
++msgstr "det går inte att slå samman standard in interaktivt"
  
  #: src/sdiff.c:585
  msgid "both files to be compared are directories"

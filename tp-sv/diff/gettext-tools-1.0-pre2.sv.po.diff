@@ -12,7 +12,7 @@
 -"Om inget argument anges, läser den CLDR plural-regler från standard in.\n"
 +"Om både LOKAL och REGLER anges läser programmet CLDR-pluralregler för "
 +"LOKAL från REGLER och skriver dem i en form som gettext kan använda.\n"
-+"Om inget argument anges läser programmet CLDR-pluralregler från standardindata.\n"
++"Om inget argument anges läser programmet CLDR-pluralregler från standard in.\n"
  
  #: src/cldr-plurals.c:345 src/msgfmt.c:945 src/xgettext.c:1173
  #, c-format, no-wrap
@@ -144,7 +144,7 @@
  #, c-format
  msgid "If no input file is given or if it is -, standard input is read.\n"
 -msgstr "Om ingen infil är angiven eller om den är -, läses standard in.\n"
-+msgstr "Om ingen indatafil anges eller om den är - läses standardindata.\n"
++msgstr "Om ingen indatafil anges eller om den är - läses standard in.\n"
  
  #: src/msgattrib.c:436 src/msgcat.c:391 src/msgcomm.c:387 src/msgconv.c:323
  #: src/msgen.c:332 src/msgfilter.c:434 src/msgfmt.c:978 src/msggrep.c:543
@@ -153,7 +153,7 @@
  "The results are written to standard output if no output file is specified\n"
  "or if it is -.\n"
 -msgstr "Resultatet skrivs till standard ut om ingen utfil anges eller om den är -.\n"
-+msgstr "Resultatet skrivs till standardutdata om ingen utdatafil anges eller om den är -.\n"
++msgstr "Resultatet skrivs till standard ut om ingen utdatafil anges eller om den är -.\n"
  
  #: src/msgattrib.c:444 src/msgcat.c:399 src/msgcomm.c:395 src/msgpre.c:486
  #: src/msguniq.c:358
@@ -171,7 +171,7 @@
  #, c-format
  msgid "If input file is -, standard input is read.\n"
 -msgstr "Om infil är - läses standard in.\n"
-+msgstr "Om indatafilen är - läses standardindata.\n"
++msgstr "Om indatafilen är - läses standard in.\n"
  
  #: src/msgcat.c:401 src/msgcomm.c:397
  #, c-format
@@ -249,7 +249,7 @@
  #, c-format
  msgid "write to stdout failed"
 -msgstr "skrivning till standard ut misslyckades"
-+msgstr "Skrivning till standardutdata misslyckades"
++msgstr "Skrivning till standard ut misslyckades"
  
  #: src/msgexec.c:427
  #, c-format
@@ -258,7 +258,7 @@
  msgstr ""
  "FILTER kan vara vilket program som helst som läser en översättning från\n"
 -"standard in och skriver den modifierade översättningen till standard ut.\n"
-+"standardindata och skriver den ändrade översättningen till standardutdata.\n"
++"standard in och skriver den ändrade översättningen till standard ut.\n"
  
  #: src/msgfilter.c:447
  #, c-format
@@ -285,7 +285,7 @@
  #, c-format
  msgid "If output file is -, output is written to standard output.\n"
 -msgstr "Om utfilen är - skrivs resultatet till standard ut.\n"
-+msgstr "Om utdatafilen är - skrivs resultatet till standardutdata.\n"
++msgstr "Om utdatafilen är - skrivs resultatet till standard ut.\n"
  
  #: src/msgfmt.c:987
  #, c-format
@@ -316,18 +316,16 @@
  
  #: src/msggrep.c:526
  #, c-format, no-wrap
-@@ -2477,8 +2479,8 @@
+@@ -2477,7 +2479,7 @@
  "If no input file is given, the current directory is searched for the POT file.\n"
  "If it is -, standard input is read.\n"
  msgstr ""
 -"Om ingen infil ges söks POT-filen i aktuell katalog.\n"
--"Om den är - läses standard in.\n"
 +"Om ingen indatafil anges söks POT-filen i den aktuella katalogen.\n"
-+"Om den är - läses standardindata.\n"
+ "Om den är - läses standard in.\n"
  
  #: src/msginit.c:401
- #, c-format
-@@ -2494,11 +2496,11 @@
+@@ -2494,10 +2496,10 @@
  "as if through '%s'.\n"
  "If it is -, the results are written to standard output.\n"
  msgstr ""
@@ -336,13 +334,11 @@
  "lokalinställning.\n"
 -"Om utdatafilen redan finns slås den samman med indatafilen, som\n"
 -"via ”%s”.\n"
--"Om den är - skrivs resultatet till standard ut.\n"
 +"Om utdatafilen redan finns slås den samman med indatafilen, som om"
 +" ”%s” hade använts.\n"
-+"Om den är - skrivs resultatet till standardutdata.\n"
+ "Om den är - skrivs resultatet till standard ut.\n"
  
  #: src/msginit.c:420
- #, c-format
 @@ -2695,9 +2697,9 @@
  "  then convert back to %s using 'msgconv'.\n"
  msgstr ""
@@ -420,7 +416,7 @@
  #, c-format
  msgid "      --prompt=TEXT           Specifies the prompt to use before standard input.\n"
 -msgstr "      --prompt=TEXT          Anger prompt:en som skall användas före standard in.\n"
-+msgstr "      --prompt=TEXT           Anger prompten som ska användas före standardindata.\n"
++msgstr "      --prompt=TEXT           Anger prompten som ska användas före standard in.\n"
  
  #: src/msgpre.c:504 src/spit.c:428
  #, c-format
@@ -444,15 +440,6 @@
  
  #: src/msgunfmt.c:478
  #, c-format
-@@ -3218,7 +3220,7 @@
- 
- #: src/open-catalog.c:47 libgettextpo/gettext-po.c:101
- msgid "<stdin>"
--msgstr "<standard in>"
-+msgstr "<standardindata>"
- 
- #: src/read-catalog.c:338 src/xgettext.c:1402
- msgid "this file may not contain domain directives"
 @@ -3287,7 +3289,7 @@
  #: src/read-mo.c:340
  #, c-format
@@ -471,17 +458,15 @@
  
  #: src/recode-sr-latin.c:152
  #, c-format, no-wrap
-@@ -3474,8 +3476,8 @@
+@@ -3474,7 +3476,7 @@
  "The input text is read from standard input.  The converted text is output to\n"
  "standard output.\n"
  msgstr ""
 -"Indatatexten läses från standard in. Den konverterade texten skrivs till\n"
--"standard ut.\n"
-+"Indatatexten läses från standardindata. Den konverterade texten skrivs till "
-+"standardutdata.\n"
++"Indatatexten läses från standard in. Den konverterade texten skrivs till "
+ "standard ut.\n"
  
  #: src/recode-sr-latin.c:325
- #, c-format
 @@ -3509,10 +3511,10 @@
  "With the %s option, it translates standard input to the specified language\n"
  "through a Large Language Model (LLM) and prints the translation.\n"
@@ -490,9 +475,9 @@
 -"Model,(LLM) och skriver ut svaret.\n"
 -"Med flaggan %s översätter den standard in till det angivna språket genom en\n"
 -"stor språkmodell (Large Language Model, LLM) och skriver ut översättningen.\n"
-+"Skickar standardindata till en instans av en stor språkmodell "
++"Skickar standard in till en instans av en stor språkmodell "
 +"(LLM) och skriver ut svaret.\n"
-+"Med flaggan %s översätter den standardindata till det angivna språket genom en "
++"Med flaggan %s översätter den standard in till det angivna språket genom en "
 +"stor språkmodell (LLM) och skriver ut översättningen.\n"
  
  #: src/spit.c:409
@@ -502,7 +487,7 @@
  "                              This option overrides the --to option.\n"
  msgstr ""
 -"      --prompt=TEXT           Anger prompt:en som skall användas före standard in.\n"
-+"      --prompt=TEXT           Anger prompten som ska användas före standardindata.\n"
++"      --prompt=TEXT           Anger prompten som ska användas före standard in.\n"
  "                              Denna flagga åsidosätter flaggan --to.\n"
  
  #: src/spit.c:434
@@ -511,7 +496,7 @@
  #, c-format
  msgid "error reading standard input"
 -msgstr "fel när standard in lästes"
-+msgstr "Fel vid läsning av standardindata"
++msgstr "Fel vid läsning av standard in"
  
  #: src/urlget.c:153
  #, c-format
@@ -531,7 +516,7 @@
  #, c-format
  msgid "error writing stdout"
 -msgstr "fel vid skrivning till standard ut"
-+msgstr "Fel vid skrivning till standardutdata"
++msgstr "Fel vid skrivning till standard ut"
  
  #: src/urlget.c:235
  #, c-format
@@ -544,15 +529,6 @@
  
  #: src/urlget.c:297
  #, c-format
-@@ -3636,7 +3638,7 @@
- 
- #: src/write-catalog.c:216 src/write-catalog.c:257
- msgid "standard output"
--msgstr "standard ut"
-+msgstr "standardutdata"
- 
- #: src/write-catalog.c:232 src/write-catalog.c:300 src/write-csharp.c:696
- #: src/write-desktop.c:178 src/write-java.c:1106 src/write-java.c:1144
 @@ -3943,7 +3945,7 @@
  #: src/x-d.c:1780
  #, c-format
@@ -576,7 +552,7 @@
  #, c-format
  msgid "--join-existing cannot be used when output is written to stdout"
 -msgstr "--join-existing kan inte användas då resultatet skrivs till standard ut"
-+msgstr "--join-existing kan inte användas när resultatet skrivs till standardutdata"
++msgstr "--join-existing kan inte användas när resultatet skrivs till standard ut"
  
  #: src/xgettext.c:833
  #, c-format
@@ -598,15 +574,6 @@
  
  #: src/xgettext.c:1230
  #, c-format
-@@ -4427,7 +4429,7 @@
- 
- #: src/xgettext.c:2036
- msgid "standard input"
--msgstr "standard in"
-+msgstr "standardindata"
- 
- #: src/xgettext.c:2218
- msgid ""
 @@ -4497,16 +4499,16 @@
  #: src/xg-message.c:332
  #, c-format

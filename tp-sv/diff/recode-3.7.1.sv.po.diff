@@ -61,7 +61,7 @@
 -"  -C, --copyright            visa copyrightinformation och kopieringsvillkor\n"
 +"  -l, --list[=FORMAT]        visa en eller alla kända teckenuppsättningar och alias\n"
 +"  -k, --known=PAR            begränsa teckenuppsättningar enligt listan över kända PAR\n"
-+"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN på standardutdata med LN och\n"
++"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN på standard ut med LN och\n"
 +"                             avsluta\n"
 +"  -T, --find-subsets         rapportera alla teckenuppsättningar som är\n"
 +"                             delmängder av andra\n"
@@ -170,19 +170,17 @@
  
  #: src/main.c:275
  msgid ""
-@@ -239,9 +241,9 @@
+@@ -239,8 +241,8 @@
  "FILE is specified, then act as a filter and recode stdin to stdout.\n"
  msgstr ""
  "\n"
 -"Varje FIL omkodas över sig själv och förstör originalet.  Om ingen\n"
 -"FIL anges så fungerar det som ett filter som omkodar standard in\n"
--"till standard ut.\n"
 +"Varje FIL omkodas över sig själv och förstör originalet. Om ingen\n"
-+"FIL anges fungerar programmet som ett filter och omkodar standardindata\n"
-+"till standardutdata.\n"
++"FIL anges fungerar programmet som ett filter och omkodar standard in\n"
+ "till standard ut.\n"
  
  #: src/main.c:280
- msgid ""
 @@ -254,32 +256,32 @@
  #: src/main.c:378
  #, c-format

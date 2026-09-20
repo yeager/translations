@@ -151,12 +151,7 @@
  
  #: src/scripts.x:498
  #, c-format
-@@ -257,26 +257,26 @@
- #: src/shar-opts.c:1870
- #, c-format
- msgid "Cannot reopen %s as stdin"
--msgstr "Kan inte återöppna %s som standard in"
-+msgstr "Kan inte återöppna %s som standardindata"
+@@ -261,22 +261,22 @@
  
  #: src/shar-opts.c:1990
  msgid "shar usage error:\n"
@@ -197,7 +192,7 @@
  msgstr ""
 -"Om inga ”filer” anges kommer listan över indatafiler att läsas från standard in.\n"
 -"Standard in får inte vara en terminal.\n"
-+"Om inga filer anges läses listan över indatafiler från standardindata.\n"
++"Om inga filer anges läses listan över indatafiler från standard in.\n"
 +"Standardindata får inte vara en terminal.\n"
  
  #: src/shar-opts.c:2284
@@ -434,7 +429,7 @@
 -"Om inga ”filer” anges läses listan över indatafiler från\n"
 -"standard in. Standard in får inte vara en terminal.\n"
 +"Om inga filer anges läses listan över indatafiler från\n"
-+"standardindata. Standardindata får inte vara en terminal.\n"
++"standard in. Standardindata får inte vara en terminal.\n"
  "\n"
  
  #: src/shar-opts.c:2376 src/unshar-opts.c:990 src/uudecode-opts.c:764
@@ -635,7 +630,7 @@
  
  #: ../save.c:132
  #, c-format
-@@ -992,42 +1002,42 @@
+@@ -992,32 +1002,32 @@
  #: ../time.c:50
  #, c-format
  msgid "%s error:  '%s' is not a recognizable time duration.\n"
@@ -674,10 +669,7 @@
  
  #: ../makeshell.c:208 ../makeshell.c:943 ../usage.c:274 ../usage.c:415
  #: ../usage.c:625 ../version.c:175 src/uuencode.c:107 src/uuencode.c:184
- #: src/uuencode.c:273 src/uuencode.c:278 src/uuencode.c:280 src/uuencode.c:282
- msgid "standard output"
--msgstr "standard ut"
-+msgstr "standardutdata"
+@@ -1027,7 +1037,7 @@
  
  #: ../usage.c:274 ../usage.c:415 ../usage.c:625 ../version.c:175
  msgid "standard error"
@@ -804,7 +796,7 @@
  
  #: src/shar.c:2394
  #, c-format
-@@ -1195,20 +1205,20 @@
+@@ -1195,7 +1205,7 @@
  #: src/unshar-opts.c:583
  #, c-format
  msgid "fs error %d (%s) %s-ing %s\n"
@@ -813,9 +805,7 @@
  
  #: src/unshar-opts.c:585 src/unshar-opts.c:647 src/uudecode.c:526
  #: src/uuencode.c:207
- msgid "standard input"
--msgstr "standard in"
-+msgstr "standardindata"
+@@ -1204,11 +1214,11 @@
  
  #: src/unshar-opts.c:664
  msgid "unshar usage error:\n"
@@ -885,21 +875,22 @@
  
  #: src/unshar-opts.c:954
  msgid ""
-@@ -1286,9 +1300,10 @@
+@@ -1286,9 +1300,11 @@
  "'stdin' may not be a terminal (tty).\n"
  msgstr ""
  "\n"
 -"Om inga argument anges kommer indataargument att läsas från standard\n"
 -"in, ett per rad; tomma rader och rader som prefixas med ”#” är kommentarer.\n"
 -"”stdin” får inte vara en terminal (tty).\n"
-+"Om inga argument anges läses indataargument från standardindata, ett per rad;\n"
++"Om inga argument anges läses indataargument från standard "
++"in, ett per rad;\n"
 +"tomma rader och rader som inleds med ”#” är kommentarer. "
 +"”stdin” får inte\n"
 +"vara en terminal (tty).\n"
  
  #: src/unshar-opts.c:960
  msgid ""
-@@ -1297,10 +1312,12 @@
+@@ -1297,10 +1313,12 @@
  "processed instead.  It then passes each archive discovered through an\n"
  "invocation of the shell program to unpack it.\n"
  msgstr ""
@@ -909,14 +900,14 @@
 -"skalprogrammet för att packa upp det.\n"
 +"Unshar söker igenom indatafiler (oftast e-postmeddelanden) efter början "
 +"på\n"
-+"ett kommandotolksarkiv. Om inga filer anges bearbetas standardindata i\n"
++"ett kommandotolksarkiv. Om inga filer anges bearbetas standard in i\n"
 +"stället. Sedan skickas varje arkiv som hittas till kommandotolken"
 +" för att\n"
 +"packas upp.\n"
  
  #: src/unshar-opts.c:966
  msgid "unshar (GNU sharutils) 4.15.2"
-@@ -1312,17 +1329,17 @@
+@@ -1312,17 +1330,17 @@
  "Usage:  unshar [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
  "\n"
  msgstr ""
@@ -938,7 +929,7 @@
  
  #: src/unshar-opts.c:973
  msgid "   -f, --force                an alias for the 'overwrite' option\n"
-@@ -1330,23 +1347,23 @@
+@@ -1330,23 +1348,23 @@
  
  #: src/unshar-opts.c:974
  msgid "   -E, --split-at=SPLIT-PAT   split input on SPLIT-PAT lines\n"
@@ -966,7 +957,7 @@
  
  #: src/unshar-opts.c:982
  msgid ""
-@@ -1356,7 +1373,7 @@
+@@ -1356,7 +1374,7 @@
  "\n"
  msgstr ""
  "   -r, --load-opts=FIL        läs in flaggor från konfigurationsfilen FIL\n"
@@ -975,21 +966,22 @@
  "                                - får förekomma flera gånger\n"
  "\n"
  
-@@ -1377,9 +1394,10 @@
+@@ -1377,9 +1395,11 @@
  "'stdin' may not be a terminal (tty).\n"
  "\n"
  msgstr ""
 -"Om inga argument anges kommer indataargument att läsas från standard\n"
 -"in, ett per rad; tomma rader och rader som prefixas med ”#” är kommentarer.\n"
 -"”stdin” får inte vara en terminal (tty).\n"
-+"Om inga argument anges läses indataargument från standardindata, ett per rad;\n"
++"Om inga argument anges läses indataargument från standard "
++"in, ett per rad;\n"
 +"tomma rader och rader som inleds med ”#” är kommentarer. "
 +"”stdin” får inte\n"
 +"vara en terminal (tty).\n"
  "\n"
  
  #: src/unshar-opts.c:991
-@@ -1394,17 +1412,19 @@
+@@ -1394,17 +1414,19 @@
  msgstr ""
  " - läser filen $HOME/.sharrc\n"
  "\n"
@@ -999,7 +991,7 @@
 -"av skalprogrammet för att packa upp det.\n"
 +"”unshar” söker igenom indatafiler (oftast e-postmeddelanden) "
 +"efter början på\n"
-+"ett kommandotolksarkiv. Om inga filer anges bearbetas standardindata i\n"
++"ett kommandotolksarkiv. Om inga filer anges bearbetas standard in i\n"
 +"stället. Sedan skickas varje arkiv som hittas till kommandotolken"
 +" för att\n"
 +"packas upp.\n"
@@ -1014,7 +1006,7 @@
  
  #: src/unshar-opts.c:999
  msgid ""
-@@ -1412,9 +1432,9 @@
+@@ -1412,9 +1434,9 @@
  "Usage:  unshar [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
  "Try 'unshar --help' for more information.\n"
  msgstr ""
@@ -1027,7 +1019,7 @@
  
  #: src/unshar-opts.h:263 src/uudecode-opts.h:241
  #, c-format
-@@ -1424,27 +1444,27 @@
+@@ -1424,27 +1446,27 @@
  #: src/unshar.c:203
  #, c-format
  msgid "Found no shell commands after cut line in %s"
@@ -1060,7 +1052,7 @@
  
  #: src/unshar.c:326
  msgid "file name buffer"
-@@ -1456,11 +1476,11 @@
+@@ -1456,11 +1478,11 @@
  
  #: src/uudecode-opts.c:438
  msgid "uudecode usage error:\n"
@@ -1074,7 +1066,7 @@
  
  #. TRANSLATORS:
  #.
-@@ -1488,10 +1508,11 @@
+@@ -1488,10 +1510,11 @@
  "version 3 or later <http://gnu.org/licenses/gpl.html>\n"
  msgstr ""
  "uudecode (GNU sharutils) 4.15.2\n"
@@ -1090,7 +1082,7 @@
  
  #: src/uudecode-opts.c:712
  msgid ""
-@@ -1501,9 +1522,11 @@
+@@ -1501,9 +1524,11 @@
  "any later version.\n"
  "\n"
  msgstr ""
@@ -1105,7 +1097,7 @@
  "version.\n"
  "\n"
  
-@@ -1516,9 +1539,10 @@
+@@ -1516,9 +1541,10 @@
  "\n"
  msgstr ""
  "uudecode distribueras i hopp om att det ska vara användbart, men UTAN NÅGON\n"
@@ -1119,7 +1111,7 @@
  "\n"
  
  #: src/uudecode-opts.c:724
-@@ -1527,19 +1551,19 @@
+@@ -1527,19 +1553,19 @@
  "uudecode (GNU sharutils) - decode an encoded file\n"
  "Usage:  %s [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
  msgstr ""
@@ -1131,7 +1123,7 @@
  #: src/uudecode-opts.c:728
  msgid "If no 'file'(s) are provided, then standard input is decoded.\n"
 -msgstr "Om inga ”filer” anges kommer standard in att avkodas.\n"
-+msgstr "Om inga filer anges avkodas standardindata.\n"
++msgstr "Om inga filer anges avkodas standard in.\n"
  
  #: src/uudecode-opts.c:731
  msgid ""
@@ -1143,7 +1135,7 @@
  "\n"
  
  #: src/uudecode-opts.c:732 src/uudecode-opts.c:767
-@@ -1554,14 +1578,17 @@
+@@ -1554,14 +1580,17 @@
  "be written to the same file as the previous output.  Don't do that.\n"
  "\n"
  msgstr ""
@@ -1157,19 +1149,19 @@
 -"skrivas till samma fil som föregående utdata. Gör inte så.\n"
 +"De kodade filerna kan anges på kommandoraden, eller en kan läsas "
 +"från\n"
-+"standardindata. Utdatafilens namn anges i den kodade filen, men kan\n"
++"standard in. Utdatafilens namn anges i den kodade filen, men kan\n"
 +"åsidosättas med flaggan ”-o”. Den får samma filrättigheter som\n"
 +"originalfilen, förutom att setuid- och körbarhetsbitar inte behålls. Om\n"
 +"utdatafilen anges som ”/dev/stdout” eller ”-” skrivs resultatet "
 +"till\n"
-+"standardutdata. Om det finns flera indatafiler och den andra eller en senare\n"
-+"fil anger standardutdata skrivs avkodade data"
++"standard ut. Om det finns flera indatafiler och den andra eller en senare\n"
++"fil anger standard ut skrivs avkodade data"
 +" till samma fil som föregående\n"
 +"utdata. Gör inte det.\n"
  "\n"
  
  #: src/uudecode-opts.c:740
-@@ -1572,11 +1599,12 @@
+@@ -1572,11 +1601,12 @@
  "which of the two supported encoding schemes was used and whether or not the\n"
  "output file name has been encoded with base64 encoding.  See 'uuencode(5)'.\n"
  msgstr ""
@@ -1187,7 +1179,7 @@
  
  #: src/uudecode-opts.c:747
  msgid "uudecode (GNU sharutils) 4.15.2"
-@@ -1588,13 +1616,13 @@
+@@ -1588,13 +1618,13 @@
  "Usage:  uudecode [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
  "\n"
  msgstr ""
@@ -1204,16 +1196,16 @@
  
  #: src/uudecode-opts.c:753
  msgid "   -c, --ignore-chmod         ignore fchmod(3P) errors\n"
-@@ -1609,7 +1637,7 @@
+@@ -1609,7 +1639,7 @@
  msgstr ""
  "Flaggor anges med dubbla bindestreck och deras namn eller med ett\n"
  "enkelt bindestreck och flaggtecknet.\n"
 -"Om inga ”filer” anges kommer standard in att avkodas.\n"
-+"Om inga filer anges avkodas standardindata.\n"
++"Om inga filer anges avkodas standard in.\n"
  "\n"
  
  #: src/uudecode-opts.c:765
-@@ -1621,7 +1649,7 @@
+@@ -1621,7 +1651,7 @@
  msgstr ""
  " - läser filen $HOME/.sharrc\n"
  "\n"
@@ -1222,7 +1214,7 @@
  "\n"
  
  #: src/uudecode-opts.c:775
-@@ -1633,12 +1661,12 @@
+@@ -1633,12 +1663,12 @@
  "output file name has been encoded with base64 encoding.  See 'uuencode(5)'.\n"
  "\n"
  msgstr ""
@@ -1241,7 +1233,7 @@
  "\n"
  
  #: src/uudecode-opts.c:783
-@@ -1647,14 +1675,14 @@
+@@ -1647,14 +1677,14 @@
  "Usage:  uudecode [ -<flag> [<val>] | --<name>[{=| }<val>] ]... [<file>...]\n"
  "Try 'uudecode --help' for more information.\n"
  msgstr ""
@@ -1260,7 +1252,7 @@
  
  #: src/uudecode.c:171
  #, c-format
-@@ -1692,11 +1720,11 @@
+@@ -1692,11 +1722,11 @@
  #: src/uudecode.c:317
  #, c-format
  msgid "chmod of %s"
@@ -1274,7 +1266,7 @@
  
  #: src/uudecode.c:352
  #, c-format
-@@ -1711,23 +1739,24 @@
+@@ -1711,23 +1741,24 @@
  #: src/uudecode.c:492
  #, c-format
  msgid "%s: Write error"
@@ -1304,7 +1296,7 @@
  
  #. TRANSLATORS:
  #.
-@@ -1755,10 +1784,11 @@
+@@ -1755,10 +1786,11 @@
  "version 3 or later <http://gnu.org/licenses/gpl.html>\n"
  msgstr ""
  "uuencode (GNU sharutils) 4.15.2\n"
@@ -1320,7 +1312,7 @@
  
  #: src/uuencode-opts.c:663
  msgid ""
-@@ -1768,9 +1798,11 @@
+@@ -1768,9 +1800,11 @@
  "any later version.\n"
  "\n"
  msgstr ""
@@ -1335,7 +1327,7 @@
  "version.\n"
  "\n"
  
-@@ -1783,9 +1815,10 @@
+@@ -1783,9 +1817,10 @@
  "\n"
  msgstr ""
  "uuencode distribueras i hopp om att det ska vara användbart, men UTAN NÅGON\n"
@@ -1349,7 +1341,7 @@
  "\n"
  
  #: src/uuencode-opts.c:675
-@@ -1794,8 +1827,8 @@
+@@ -1794,8 +1829,8 @@
  "uuencode (GNU sharutils) - encode a file into email friendly text\n"
  "Usage:  %s [ -<flag> | --<name> ]... [<in-file>] <output-name>\n"
  msgstr ""
@@ -1360,7 +1352,7 @@
  
  #: src/uuencode-opts.c:679
  msgid ""
-@@ -1806,9 +1839,10 @@
+@@ -1806,9 +1841,10 @@
  "\n"
  msgstr ""
  "”uuencode” används för att skapa en ASCII-representation av en fil som kan\n"
@@ -1374,7 +1366,7 @@
  "\n"
  
  #: src/uuencode-opts.c:683 src/uuencode-opts.c:716
-@@ -1821,12 +1855,14 @@
+@@ -1821,11 +1857,13 @@
  "standard out.\n"
  "\n"
  msgstr ""
@@ -1383,19 +1375,17 @@
 -"att börja med en rubrikrad för användning av ”uudecode” som anger\n"
 -"föreslaget ”utdatanamn” och rättighetsläge. Om ”utdatanamn” är exakt\n"
 -"”/dev/stdout” kommer ”uudecode” att mata ut den avkodade filen till\n"
--"standard ut.\n"
 +"”uuencode” läser ”indatafil” om den anges; annars läser den "
 +"data från\n"
-+"standardindata och skriver den kodade formen till standardutdata. Utdata\n"
++"standard in och skriver den kodade formen till standard ut. Utdata\n"
 +"börjar med en rubrikrad som ”uudecode” använder för att få det "
 +"föreslagna\n"
 +"filnamnet ”utdatanamn” och filrättigheterna. Om ”utdatanamn” är exakt\n"
 +"”/dev/stdout” skriver ”uudecode” den avkodade filen till "
-+"standardutdata.\n"
+ "standard ut.\n"
  "\n"
  
- #: src/uuencode-opts.c:689
-@@ -1835,9 +1871,10 @@
+@@ -1835,9 +1873,10 @@
  "typed from a tty.  The consequence is that at a tty, you may need to hit\n"
  "Ctl-D several times to terminate input.\n"
  msgstr ""
@@ -1409,7 +1399,7 @@
  
  #: src/uuencode-opts.c:694
  msgid "uuencode (GNU sharutils) 4.15.2"
-@@ -1849,8 +1886,8 @@
+@@ -1849,8 +1888,8 @@
  "Usage:  uuencode [ -<flag> | --<name> ]... [<in-file>] <output-name>\n"
  "\n"
  msgstr ""
@@ -1420,7 +1410,7 @@
  "\n"
  
  #: src/uuencode-opts.c:699
-@@ -1871,12 +1908,13 @@
+@@ -1871,12 +1910,13 @@
  "the six character sequence \"\\nFrom \" is seen.\n"
  "\n"
  msgstr ""
@@ -1438,7 +1428,7 @@
  "\n"
  
  #: src/uuencode-opts.c:722
-@@ -1887,9 +1925,10 @@
+@@ -1887,9 +1927,10 @@
  "\n"
  "Please send bug reports to:  <bug-gnu-utils@gnu.org>\n"
  msgstr ""
@@ -1452,7 +1442,7 @@
  "\n"
  "Skicka felrapporter till:  <bug-gnu-utils@gnu.org>\n"
  "Skicka synpunkter på översättningen till: <tp-sv@listor.tp-sv.se>\n"
-@@ -1900,13 +1939,13 @@
+@@ -1900,13 +1941,13 @@
  "Usage:  uuencode [ -<flag> | --<name> ]... [<in-file>] <output-name>\n"
  "Try 'uuencode --help' for more information.\n"
  msgstr ""
@@ -1466,11 +1456,11 @@
  #: src/uuencode.c:228
  msgid "freopen of stdin"
 -msgstr "kör freopen på standard in"
-+msgstr "återöppning av standardindata"
++msgstr "återöppning av standard in"
  
  #: src/uuencode.c:257
  msgid "file name"
-@@ -1919,7 +1958,7 @@
+@@ -1919,7 +1960,7 @@
  #: lib/getopt.c:575 lib/getopt.c:604
  #, c-format
  msgid "%s: option '%s' is ambiguous; possibilities:"
@@ -1479,7 +1469,7 @@
  
  #: lib/getopt.c:619
  #, c-format
-@@ -1959,7 +1998,7 @@
+@@ -1959,7 +2000,7 @@
  #: lib/getopt.c:891 lib/getopt.c:908 lib/getopt.c:1118 lib/getopt.c:1136
  #, c-format
  msgid "%s: option requires an argument -- '%c'\n"
@@ -1488,7 +1478,7 @@
  
  #: lib/getopt.c:964 lib/getopt.c:980
  #, c-format
-@@ -1979,12 +2018,12 @@
+@@ -1979,12 +2020,12 @@
  #: lib/openat-die.c:38
  #, c-format
  msgid "unable to record current working directory"
@@ -1503,7 +1493,7 @@
  
  #. TRANSLATORS:
  #. Get translations for open and closing quotation marks.
-@@ -2019,13 +2058,13 @@
+@@ -2019,13 +2060,13 @@
  #: lib/spawn-pipe.c:262
  #, c-format
  msgid "cannot create pipe"
@@ -1519,7 +1509,7 @@
  
  #: lib/w32spawn.h:43
  #, c-format
-@@ -2035,21 +2074,21 @@
+@@ -2035,21 +2076,21 @@
  #: lib/w32spawn.h:84
  #, c-format
  msgid "cannot restore fd %d: dup2 failed"
@@ -1545,7 +1535,7 @@
  
  #: lib/xstrtol-error.c:63
  #, c-format
-@@ -2064,7 +2103,7 @@
+@@ -2064,7 +2105,7 @@
  #: lib/xstrtol-error.c:72
  #, c-format
  msgid "%s%s argument '%s' too large"

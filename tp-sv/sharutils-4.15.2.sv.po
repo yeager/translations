@@ -257,7 +257,7 @@ msgstr "x - misslyckades med att ta bort låskatalog %s."
 #: src/shar-opts.c:1870
 #, c-format
 msgid "Cannot reopen %s as stdin"
-msgstr "Kan inte återöppna %s som standardindata"
+msgstr "Kan inte återöppna %s som standard in"
 
 #: src/shar-opts.c:1990
 msgid "shar usage error:\n"
@@ -360,7 +360,7 @@ msgid ""
 "If no 'file's are specified, the list of input files is read from standard\n"
 "input.  Standard input must not be a terminal.\n"
 msgstr ""
-"Om inga filer anges läses listan över indatafiler från standardindata.\n"
+"Om inga filer anges läses listan över indatafiler från standard in.\n"
 "Standardindata får inte vara en terminal.\n"
 
 #: src/shar-opts.c:2284
@@ -708,7 +708,7 @@ msgstr ""
 "Flaggor anges med dubbla bindestreck och deras namn eller med ett\n"
 "enkelt bindestreck och flaggtecknet.\n"
 "Om inga filer anges läses listan över indatafiler från\n"
-"standardindata. Standardindata får inte vara en terminal.\n"
+"standard in. Standardindata får inte vara en terminal.\n"
 "\n"
 
 #: src/shar-opts.c:2376 src/unshar-opts.c:990 src/uudecode-opts.c:764
@@ -1033,7 +1033,7 @@ msgstr "endast en %s%s-flagga är tillåten\n"
 #: ../usage.c:625 ../version.c:175 src/uuencode.c:107 src/uuencode.c:184
 #: src/uuencode.c:273 src/uuencode.c:278 src/uuencode.c:280 src/uuencode.c:282
 msgid "standard output"
-msgstr "standardutdata"
+msgstr "standard ut"
 
 #: ../usage.c:274 ../usage.c:415 ../usage.c:625 ../version.c:175
 msgid "standard error"
@@ -1210,7 +1210,7 @@ msgstr "fs-fel %d (%s) vid %s av %s\n"
 #: src/unshar-opts.c:585 src/unshar-opts.c:647 src/uudecode.c:526
 #: src/uuencode.c:207
 msgid "standard input"
-msgstr "standardindata"
+msgstr "standard in"
 
 #: src/unshar-opts.c:664
 msgid "unshar usage error:\n"
@@ -1300,7 +1300,8 @@ msgid ""
 "'stdin' may not be a terminal (tty).\n"
 msgstr ""
 "\n"
-"Om inga argument anges läses indataargument från standardindata, ett per rad;\n"
+"Om inga argument anges läses indataargument från standard "
+"in, ett per rad;\n"
 "tomma rader och rader som inleds med ”#” är kommentarer. "
 "”stdin” får inte\n"
 "vara en terminal (tty).\n"
@@ -1314,7 +1315,7 @@ msgid ""
 msgstr ""
 "Unshar söker igenom indatafiler (oftast e-postmeddelanden) efter början "
 "på\n"
-"ett kommandotolksarkiv. Om inga filer anges bearbetas standardindata i\n"
+"ett kommandotolksarkiv. Om inga filer anges bearbetas standard in i\n"
 "stället. Sedan skickas varje arkiv som hittas till kommandotolken"
 " för att\n"
 "packas upp.\n"
@@ -1394,7 +1395,8 @@ msgid ""
 "'stdin' may not be a terminal (tty).\n"
 "\n"
 msgstr ""
-"Om inga argument anges läses indataargument från standardindata, ett per rad;\n"
+"Om inga argument anges läses indataargument från standard "
+"in, ett per rad;\n"
 "tomma rader och rader som inleds med ”#” är kommentarer. "
 "”stdin” får inte\n"
 "vara en terminal (tty).\n"
@@ -1414,7 +1416,7 @@ msgstr ""
 "\n"
 "”unshar” söker igenom indatafiler (oftast e-postmeddelanden) "
 "efter början på\n"
-"ett kommandotolksarkiv. Om inga filer anges bearbetas standardindata i\n"
+"ett kommandotolksarkiv. Om inga filer anges bearbetas standard in i\n"
 "stället. Sedan skickas varje arkiv som hittas till kommandotolken"
 " för att\n"
 "packas upp.\n"
@@ -1556,7 +1558,7 @@ msgstr ""
 
 #: src/uudecode-opts.c:728
 msgid "If no 'file'(s) are provided, then standard input is decoded.\n"
-msgstr "Om inga filer anges avkodas standardindata.\n"
+msgstr "Om inga filer anges avkodas standard in.\n"
 
 #: src/uudecode-opts.c:731
 msgid ""
@@ -1580,13 +1582,13 @@ msgid ""
 msgstr ""
 "De kodade filerna kan anges på kommandoraden, eller en kan läsas "
 "från\n"
-"standardindata. Utdatafilens namn anges i den kodade filen, men kan\n"
+"standard in. Utdatafilens namn anges i den kodade filen, men kan\n"
 "åsidosättas med flaggan ”-o”. Den får samma filrättigheter som\n"
 "originalfilen, förutom att setuid- och körbarhetsbitar inte behålls. Om\n"
 "utdatafilen anges som ”/dev/stdout” eller ”-” skrivs resultatet "
 "till\n"
-"standardutdata. Om det finns flera indatafiler och den andra eller en senare\n"
-"fil anger standardutdata skrivs avkodade data"
+"standard ut. Om det finns flera indatafiler och den andra eller en senare\n"
+"fil anger standard ut skrivs avkodade data"
 " till samma fil som föregående\n"
 "utdata. Gör inte det.\n"
 "\n"
@@ -1637,7 +1639,7 @@ msgid ""
 msgstr ""
 "Flaggor anges med dubbla bindestreck och deras namn eller med ett\n"
 "enkelt bindestreck och flaggtecknet.\n"
-"Om inga filer anges avkodas standardindata.\n"
+"Om inga filer anges avkodas standard in.\n"
 "\n"
 
 #: src/uudecode-opts.c:765
@@ -1857,12 +1859,12 @@ msgid ""
 msgstr ""
 "”uuencode” läser ”indatafil” om den anges; annars läser den "
 "data från\n"
-"standardindata och skriver den kodade formen till standardutdata. Utdata\n"
+"standard in och skriver den kodade formen till standard ut. Utdata\n"
 "börjar med en rubrikrad som ”uudecode” använder för att få det "
 "föreslagna\n"
 "filnamnet ”utdatanamn” och filrättigheterna. Om ”utdatanamn” är exakt\n"
 "”/dev/stdout” skriver ”uudecode” den avkodade filen till "
-"standardutdata.\n"
+"standard ut.\n"
 "\n"
 
 #: src/uuencode-opts.c:689
@@ -1945,7 +1947,7 @@ msgstr ""
 
 #: src/uuencode.c:228
 msgid "freopen of stdin"
-msgstr "återöppning av standardindata"
+msgstr "återöppning av standard in"
 
 #: src/uuencode.c:257
 msgid "file name"

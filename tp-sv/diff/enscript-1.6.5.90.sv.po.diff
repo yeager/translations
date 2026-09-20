@@ -1,6 +1,6 @@
 --- a/enscript-1.6.5.90.sv.po
 +++ b/enscript-1.6.5.90.sv.po
-@@ -643,13 +643,13 @@
+@@ -643,12 +643,12 @@
  "  --h-column-height=HEIGHT   set the horizontal column height to HEIGHT\n"
  "  --help                     print this help and exit\n"
  msgstr ""
@@ -11,15 +11,13 @@
 -"                             inte om numreringen för nya filer.\n"
 -"  --download-font=NAMN       hämta hem typsnittet NAMN\n"
 -"  --extended-return-values   använd utökade returvärden\n"
--"  --filter-stdin=NAMN        ange hur standard in visas för indatafiltret\n"
 +"  --continuous-page-numbers  räkna sidnummer över indatafiler. Börja inte\n"
 +"                             om numreringen i början av varje fil.\n"
 +"  --download-font=NAMN       hämta typsnittet NAMN\n"
 +"  --extended-return-values   aktivera utökade returvärden\n"
-+"  --filter-stdin=NAMN        ange hur standardindata visas för indatafiltret\n"
+ "  --filter-stdin=NAMN        ange hur standard in visas för indatafiltret\n"
  "  --footer=SIDFOT            sätt sidfoten\n"
  "  --h-column-height=HÖJD     sätt den horisontella kolumnhöjden till HÖJD\n"
- "  --help                     visa denna hjälptext och avsluta\n"
 @@ -669,13 +669,13 @@
  msgstr ""
  "  --help-highlight           beskriv alla språk och filformat med\n"
@@ -105,28 +103,17 @@
  
  #: src/util.c:906
  #, c-format
-@@ -1012,7 +1012,7 @@
- 
- #: src/mkafmmap.c:167
- msgid "stdout"
--msgstr "standard ut"
-+msgstr "standardutdata"
- 
- #: src/mkafmmap.c:175
- #, c-format
-@@ -1037,9 +1037,9 @@
+@@ -1037,8 +1037,8 @@
  "Användning: %s [FLAGGA]… FIL…\n"
  "Obligatoriska argument till långa flaggor är obligatoriska även för de korta.\n"
  "  -h, --help              visa den här hjälptexten och avsluta\n"
 -"  -p, --output-file=NAMN  skriv utdatan till filen NAMN (standardvalet är\n"
 -"                          font.map). Om FIL är ”-” skicka utdatan till\n"
--"                          standard ut.\n"
 +"  -p, --output-file=NAMN  skriv utdata till filen NAMN (standardfilen är\n"
 +"                          font.map). Om FIL är ”-”, skriv utdata till\n"
-+"                          standardutdata.\n"
+ "                          standard ut.\n"
  "  -V, --version           visa versionsnummer\n"
  
- #: states/lex.l:167 states/lex.l:173
 @@ -1106,13 +1106,13 @@
  "  -V, --version              print version number\n"
  "  -W, --warning=LEVEL        set the warning level to LEVEL\n"

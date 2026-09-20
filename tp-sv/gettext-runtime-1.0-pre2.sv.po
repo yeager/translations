@@ -109,11 +109,11 @@ msgid ""
 "substituted; otherwise all environment variables references occurring in\n"
 "standard input are substituted.\n"
 msgstr ""
-"I normalt körläge kopieras standardindata till standardutdata och referenser "
+"I normalt körläge kopieras standard in till standard ut och referenser "
 "till miljövariabler i formen $VARIABEL eller ${VARIABEL} ersätts med "
 "motsvarande värden. Om SKALFORMAT anges ersätts endast de "
 "miljövariabler som refereras i SKALFORMAT; annars ersätts alla referenser till miljövariabler"
-" i standardindata.\n"
+" i standard in.\n"
 
 #: src/envsubst.c:216
 #, c-format, no-wrap
@@ -121,7 +121,7 @@ msgid ""
 "When --variables is used, standard input is ignored, and the output consists\n"
 "of the environment variables that are referenced in SHELL-FORMAT, one per line.\n"
 msgstr ""
-"När --variables används ignoreras standardindata och utdata består av "
+"När --variables används ignoreras standard in och utdata består av "
 "miljövariablerna som refereras i SKALFORMAT, en per rad.\n"
 
 #. TRANSLATORS: The first placeholder is the web address of the Savannah
@@ -148,7 +148,7 @@ msgstr "fel uppstod då ”%s” lästes"
 
 #: src/envsubst.c:443
 msgid "standard input"
-msgstr "standardindata"
+msgstr "standard in"
 
 #. This is a proper name. See the gettext manual, section Names.
 #: src/gettext.c:142 src/ngettext.c:129
@@ -237,7 +237,7 @@ msgstr ""
 "TEXTDOMAIN. Om meddelandekatalogen inte hittas i den vanliga katalogen "
 "kan en annan plats anges med miljövariabeln TEXTDOMAINDIR.\n"
 "När flaggan -s används beter sig programmet som kommandot ”echo”. "
-"Men det kopierar inte enbart sina argument till standardutdata. I stället "
+"Men det kopierar inte enbart sina argument till standard ut. I stället "
 "översätts de argument som finns i den valda meddelandekatalogen.\n"
 "Standardkatalog för meddelandekataloger: %s\n"
 

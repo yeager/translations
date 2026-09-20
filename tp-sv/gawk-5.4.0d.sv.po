@@ -577,7 +577,7 @@ msgstr "%s till \"%s\" misslyckades: %s"
 
 #: builtin.c:128
 msgid "standard output"
-msgstr "standardutdata"
+msgstr "standard ut"
 
 #: builtin.c:129
 msgid "standard error"
@@ -1019,7 +1019,7 @@ msgstr "down [N] — flytta N ramar ner i stacken"
 
 #: command.y:838
 msgid "dump [filename] - dump instructions to file or stdout"
-msgstr "dump [filnamn] — skriv instruktioner till filen eller standardutdata"
+msgstr "dump [filnamn] — skriv instruktioner till filen eller standard ut"
 
 #: command.y:840
 msgid "enable [once|del] [breakpoints] [range] - enable specified breakpoints"
@@ -1692,7 +1692,7 @@ msgstr "[\"%.*s\"] finns inte i vektorn ”%s”"
 #: debug.c:5414
 #, c-format
 msgid "sending output to stdout\n"
-msgstr "skickar utdata till standardutdata\n"
+msgstr "skickar utdata till standard ut\n"
 
 #: debug.c:5454
 msgid "invalid number"
@@ -2050,12 +2050,12 @@ msgstr "inplace::begin: chmod misslyckades (%s)"
 #: extension/inplace.c:188
 #, c-format
 msgid "inplace::begin: dup(stdout) failed (%s)"
-msgstr "inplace::begin: dup(standardutdata) misslyckades (%s)"
+msgstr "inplace::begin: dup(standard ut) misslyckades (%s)"
 
 #: extension/inplace.c:191
 #, c-format
 msgid "inplace::begin: dup2(%d, stdout) failed (%s)"
-msgstr "inplace::begin: dup2(%d, standardutdata) misslyckades (%s)"
+msgstr "inplace::begin: dup2(%d, standard ut) misslyckades (%s)"
 
 #: extension/inplace.c:194
 #, c-format
@@ -2078,7 +2078,7 @@ msgstr "inplace::end: redigering på plats är inte aktivt"
 #: extension/inplace.c:226
 #, c-format
 msgid "inplace::end: dup2(%d, stdout) failed (%s)"
-msgstr "inplace::end: dup2(%d, standardutdata) misslyckades (%s)"
+msgstr "inplace::end: dup2(%d, standard ut) misslyckades (%s)"
 
 #: extension/inplace.c:229
 #, c-format
@@ -2088,7 +2088,7 @@ msgstr "inplace::end: close(%d) misslyckades (%s)"
 #: extension/inplace.c:233
 #, c-format
 msgid "inplace::end: fsetpos(stdout) failed (%s)"
-msgstr "inplace::end: fsetpos(standardutdata) misslyckades (%s)"
+msgstr "inplace::end: fsetpos(standard ut) misslyckades (%s)"
 
 #: extension/inplace.c:246
 #, c-format
@@ -2587,7 +2587,7 @@ msgstr "filen ”%s” stängdes inte uttryckligen"
 #: io.c:1463
 #, c-format
 msgid "fflush: cannot flush standard output: %s"
-msgstr "fflush: kan inte spola standardutdata: %s"
+msgstr "fflush: kan inte spola standard ut: %s"
 
 #: io.c:1464
 #, c-format
@@ -2597,7 +2597,7 @@ msgstr "fflush: kan inte spola standardfel: %s"
 #: io.c:1469 io.c:1558 main.c:676 main.c:721
 #, c-format
 msgid "error writing standard output: %s"
-msgstr "fel vid skrivning till standardutdata: %s"
+msgstr "fel vid skrivning till standard ut: %s"
 
 #: io.c:1470 io.c:1569 main.c:678
 #, c-format
@@ -2656,22 +2656,22 @@ msgstr "stängning av huvud-pty misslyckades: %s"
 #: io.c:2067 io.c:2119 io.c:2460 io.c:2715
 #, c-format
 msgid "close of stdout in child failed: %s"
-msgstr "stängning av standardutdata i barnprocessen misslyckades: %s"
+msgstr "stängning av standard ut i barnprocessen misslyckades: %s"
 
 #: io.c:2070 io.c:2122
 #, c-format
 msgid "moving slave pty to stdout in child failed (dup: %s)"
-msgstr "flyttning av slav-pty till standardutdata i barnprocessen misslyckades (dup: %s)"
+msgstr "flyttning av slav-pty till standard ut i barnprocessen misslyckades (dup: %s)"
 
 #: io.c:2072 io.c:2124 io.c:2465
 #, c-format
 msgid "close of stdin in child failed: %s"
-msgstr "stängning av standardindata i barnprocessen misslyckades: %s"
+msgstr "stängning av standard in i barnprocessen misslyckades: %s"
 
 #: io.c:2075 io.c:2127
 #, c-format
 msgid "moving slave pty to stdin in child failed (dup: %s)"
-msgstr "flyttning av slav-pty till standardindata i barnprocessen misslyckades (dup: %s)"
+msgstr "flyttning av slav-pty till standard in i barnprocessen misslyckades (dup: %s)"
 
 #: io.c:2077 io.c:2129 io.c:2151
 #, c-format
@@ -2685,20 +2685,20 @@ msgstr "kan inte skapa barnprocess eller öppna en pty"
 #: io.c:2399 io.c:2463 io.c:2690 io.c:2718
 #, c-format
 msgid "moving pipe to stdout in child failed (dup: %s)"
-msgstr "flyttning av rör till standardutdata i barnprocessen misslyckades (dup: %s)"
+msgstr "flyttning av rör till standard ut i barnprocessen misslyckades (dup: %s)"
 
 #: io.c:2406 io.c:2468
 #, c-format
 msgid "moving pipe to stdin in child failed (dup: %s)"
-msgstr "flyttning av rör till standardindata i barnprocessen misslyckades (dup: %s)"
+msgstr "flyttning av rör till standard in i barnprocessen misslyckades (dup: %s)"
 
 #: io.c:2428 io.c:2708
 msgid "restoring stdout in parent process failed"
-msgstr "återställning av standardutdata i föräldraprocessen misslyckades"
+msgstr "återställning av standard ut i föräldraprocessen misslyckades"
 
 #: io.c:2436
 msgid "restoring stdin in parent process failed"
-msgstr "återställning av standardindata i föräldraprocessen misslyckades"
+msgstr "återställning av standard in i föräldraprocessen misslyckades"
 
 #: io.c:2471 io.c:2720 io.c:2735
 #, c-format
@@ -2792,7 +2792,7 @@ msgstr "IPv6-kommunikation stöds inte"
 
 #: io.c:4731
 msgid "gawk_popen_write: failed to move pipe fd to standard input"
-msgstr "gawk_popen_write: misslyckades att flytta rörfilbeskrivaren till standardindata"
+msgstr "gawk_popen_write: misslyckades att flytta rörfilbeskrivaren till standard in"
 
 #: main.c:327
 msgid "environment variable `POSIXLY_CORRECT' set: turning on `--posix'"
@@ -2826,12 +2826,12 @@ msgstr "Flaggorna -r/--re-interval har inte längre någon effekt"
 #: main.c:427
 #, c-format
 msgid "cannot set binary mode on stdin: %s"
-msgstr "kan inte sätta binärläge för standardindata: %s"
+msgstr "kan inte sätta binärläge för standard in: %s"
 
 #: main.c:430
 #, c-format
 msgid "cannot set binary mode on stdout: %s"
-msgstr "kan inte sätta binärläge för standardutdata: %s"
+msgstr "kan inte sätta binärläge för standard ut: %s"
 
 #: main.c:432
 #, c-format
@@ -3049,7 +3049,7 @@ msgid ""
 msgstr ""
 "gawk är ett språk för mönstersökning och bearbetning.\n"
 "Som standard"
-" läser det från standardindata och skriver till standardutdata.\n"
+" läser det från standard in och skriver till standard ut.\n"
 
 #: main.c:663
 #, c-format

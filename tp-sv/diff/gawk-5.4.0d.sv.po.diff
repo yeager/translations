@@ -199,12 +199,7 @@
  
  #: awkgram.y:5512 awkgram.y:5575
  msgid "division by zero may occur at runtime"
-@@ -577,11 +577,11 @@
- 
- #: builtin.c:128
- msgid "standard output"
--msgstr "standard ut"
-+msgstr "standardutdata"
+@@ -581,7 +581,7 @@
  
  #: builtin.c:129
  msgid "standard error"
@@ -386,15 +381,6 @@
  
  #: command.y:836
  msgid "down [N] - move N frames down the stack"
-@@ -1019,7 +1019,7 @@
- 
- #: command.y:838
- msgid "dump [filename] - dump instructions to file or stdout"
--msgstr "dump [filnamn] — skriv instruktioner till filen eller standard ut"
-+msgstr "dump [filnamn] — skriv instruktioner till filen eller standardutdata"
- 
- #: command.y:840
- msgid "enable [once|del] [breakpoints] [range] - enable specified breakpoints"
 @@ -1043,15 +1043,15 @@
  
  #: command.y:850
@@ -712,15 +698,6 @@
  
  #. TRANSLATORS: don't translate the 'q' inside the brackets.
  #: debug.c:4387
-@@ -1692,7 +1692,7 @@
- #: debug.c:5414
- #, c-format
- msgid "sending output to stdout\n"
--msgstr "skickar utdata till standard ut\n"
-+msgstr "skickar utdata till standardutdata\n"
- 
- #: debug.c:5454
- msgid "invalid number"
 @@ -1710,7 +1710,7 @@
  #: debug.c:5644
  #, c-format
@@ -879,21 +856,6 @@
  
  #: extension/inplace.c:158
  #, c-format
-@@ -2050,12 +2050,12 @@
- #: extension/inplace.c:188
- #, c-format
- msgid "inplace::begin: dup(stdout) failed (%s)"
--msgstr "inplace::begin: dup(standard ut) misslyckades (%s)"
-+msgstr "inplace::begin: dup(standardutdata) misslyckades (%s)"
- 
- #: extension/inplace.c:191
- #, c-format
- msgid "inplace::begin: dup2(%d, stdout) failed (%s)"
--msgstr "inplace::begin: dup2(%d, standard ut) misslyckades (%s)"
-+msgstr "inplace::begin: dup2(%d, standardutdata) misslyckades (%s)"
- 
- #: extension/inplace.c:194
- #, c-format
 @@ -2065,11 +2065,11 @@
  #: extension/inplace.c:210
  #, c-format
@@ -908,24 +870,6 @@
  
  #: extension/inplace.c:220
  msgid "inplace::end: in-place editing not active"
-@@ -2078,7 +2078,7 @@
- #: extension/inplace.c:226
- #, c-format
- msgid "inplace::end: dup2(%d, stdout) failed (%s)"
--msgstr "inplace::end: dup2(%d, standard ut) misslyckades (%s)"
-+msgstr "inplace::end: dup2(%d, standardutdata) misslyckades (%s)"
- 
- #: extension/inplace.c:229
- #, c-format
-@@ -2088,7 +2088,7 @@
- #: extension/inplace.c:233
- #, c-format
- msgid "inplace::end: fsetpos(stdout) failed (%s)"
--msgstr "inplace::end: fsetpos(standard ut) misslyckades (%s)"
-+msgstr "inplace::end: fsetpos(standardutdata) misslyckades (%s)"
- 
- #: extension/inplace.c:246
- #, c-format
 @@ -2149,7 +2149,7 @@
  
  #: extension/rwarray.c:397
@@ -1113,7 +1057,7 @@
  
  #: io.c:1401
  #, c-format
-@@ -2567,42 +2567,42 @@
+@@ -2567,22 +2567,22 @@
  #: io.c:1419
  #, c-format
  msgid "no explicit close of socket `%s' provided"
@@ -1140,10 +1084,7 @@
  
  #: io.c:1463
  #, c-format
- msgid "fflush: cannot flush standard output: %s"
--msgstr "fflush: kan inte spola standard ut: %s"
-+msgstr "fflush: kan inte spola standardutdata: %s"
- 
+@@ -2592,7 +2592,7 @@
  #: io.c:1464
  #, c-format
  msgid "fflush: cannot flush standard error: %s"
@@ -1152,10 +1093,7 @@
  
  #: io.c:1469 io.c:1558 main.c:676 main.c:721
  #, c-format
- msgid "error writing standard output: %s"
--msgstr "fel vid skrivning till standard ut: %s"
-+msgstr "fel vid skrivning till standardutdata: %s"
- 
+@@ -2602,7 +2602,7 @@
  #: io.c:1470 io.c:1569 main.c:678
  #, c-format
  msgid "error writing standard error: %s"
@@ -1190,25 +1128,25 @@
  #, c-format
  msgid "close of stdout in child failed: %s"
 -msgstr "stängning av standard ut i barnet misslyckades: %s"
-+msgstr "stängning av standardutdata i barnprocessen misslyckades: %s"
++msgstr "stängning av standard ut i barnprocessen misslyckades: %s"
  
  #: io.c:2070 io.c:2122
  #, c-format
  msgid "moving slave pty to stdout in child failed (dup: %s)"
 -msgstr "flyttandet av slavpty till standard ut i barnet misslyckades (dup: %s)"
-+msgstr "flyttning av slav-pty till standardutdata i barnprocessen misslyckades (dup: %s)"
++msgstr "flyttning av slav-pty till standard ut i barnprocessen misslyckades (dup: %s)"
  
  #: io.c:2072 io.c:2124 io.c:2465
  #, c-format
  msgid "close of stdin in child failed: %s"
 -msgstr "stängning av standard in i barnet misslyckades: %s"
-+msgstr "stängning av standardindata i barnprocessen misslyckades: %s"
++msgstr "stängning av standard in i barnprocessen misslyckades: %s"
  
  #: io.c:2075 io.c:2127
  #, c-format
  msgid "moving slave pty to stdin in child failed (dup: %s)"
 -msgstr "flyttandet av slavpty till standard in i barnet misslyckades (dup: %s)"
-+msgstr "flyttning av slav-pty till standardindata i barnprocessen misslyckades (dup: %s)"
++msgstr "flyttning av slav-pty till standard in i barnprocessen misslyckades (dup: %s)"
  
  #: io.c:2077 io.c:2129 io.c:2151
  #, c-format
@@ -1223,23 +1161,23 @@
  #, c-format
  msgid "moving pipe to stdout in child failed (dup: %s)"
 -msgstr "flyttande av rör till standard ut i barnet misslyckades (dup: %s)"
-+msgstr "flyttning av rör till standardutdata i barnprocessen misslyckades (dup: %s)"
++msgstr "flyttning av rör till standard ut i barnprocessen misslyckades (dup: %s)"
  
  #: io.c:2406 io.c:2468
  #, c-format
  msgid "moving pipe to stdin in child failed (dup: %s)"
 -msgstr "flyttande av rör till standard in i barnet misslyckades (dup: %s)"
-+msgstr "flyttning av rör till standardindata i barnprocessen misslyckades (dup: %s)"
++msgstr "flyttning av rör till standard in i barnprocessen misslyckades (dup: %s)"
  
  #: io.c:2428 io.c:2708
  msgid "restoring stdout in parent process failed"
 -msgstr "återställande av standard ut i föräldraprocessen misslyckades"
-+msgstr "återställning av standardutdata i föräldraprocessen misslyckades"
++msgstr "återställning av standard ut i föräldraprocessen misslyckades"
  
  #: io.c:2436
  msgid "restoring stdin in parent process failed"
 -msgstr "återställande av standard in i föräldraprocessen misslyckades"
-+msgstr "återställning av standardindata i föräldraprocessen misslyckades"
++msgstr "återställning av standard in i föräldraprocessen misslyckades"
  
  #: io.c:2471 io.c:2720 io.c:2735
  #, c-format
@@ -1257,7 +1195,7 @@
  #: io.c:4731
  msgid "gawk_popen_write: failed to move pipe fd to standard input"
 -msgstr "gawk_popen_write: misslyckades att pipe-fd:n till standard in"
-+msgstr "gawk_popen_write: misslyckades att flytta rörfilbeskrivaren till standardindata"
++msgstr "gawk_popen_write: misslyckades att flytta rörfilbeskrivaren till standard in"
  
  #: main.c:327
  msgid "environment variable `POSIXLY_CORRECT' set: turning on `--posix'"
@@ -1277,13 +1215,13 @@
  #, c-format
  msgid "cannot set binary mode on stdin: %s"
 -msgstr "kan inte sätta binärläge på standard in: %s"
-+msgstr "kan inte sätta binärläge för standardindata: %s"
++msgstr "kan inte sätta binärläge för standard in: %s"
  
  #: main.c:430
  #, c-format
  msgid "cannot set binary mode on stdout: %s"
 -msgstr "kan inte sätta binärläge på standard ut: %s"
-+msgstr "kan inte sätta binärläge för standardutdata: %s"
++msgstr "kan inte sätta binärläge för standard ut: %s"
  
  #: main.c:432
  #, c-format
@@ -1321,7 +1259,7 @@
 -"\n"
 +"gawk är ett språk för mönstersökning och bearbetning.\n"
 +"Som standard"
-+" läser det från standardindata och skriver till standardutdata.\n"
++" läser det från standard in och skriver till standard ut.\n"
  
  #: main.c:663
  #, c-format

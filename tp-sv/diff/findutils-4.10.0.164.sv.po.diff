@@ -5,12 +5,12 @@
  #, c-format
  msgid "when -ok or -okdir is in use, the option -files0-from cannot also read from standard input"
 -msgstr "när -ok eller -okdir används kan flaggan -files0-from inte dessutom läsa från standard in"
-+msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från standardindata"
++msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från standard in"
  
  #: find/ftsfind.c:580
  msgid "(standard input)"
 -msgstr "(standard ut)"
-+msgstr "(standardindata)"
++msgstr "(standard in)"
  
  #: find/ftsfind.c:589
  #, c-format
@@ -19,7 +19,7 @@
  #, c-format
  msgid "when -ok or -okdir is in use, the option -files0-from cannot also read from standard input, but the file (%s) used for -files0-from appears to refer to the same file as the standard input"
 -msgstr "när -ok eller -okdir används kan flaggan -files0-from inte dessutom läsa från standard in, men filen (%s) som används till -files0-from förefaller referera till samma fil som standard in"
-+msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från standardindata, men filen (%s) som används för -files0-from tycks vara samma fil som standardindata"
++msgstr "när -ok eller -okdir används kan -files0-from inte också läsa från standard in, men filen (%s) som används för -files0-from tycks vara samma fil som standard in"
  
  #: find/ftsfind.c:651
  #, c-format
@@ -191,7 +191,7 @@
  
  #: find/parser.c:3137
  #, c-format
-@@ -381,11 +381,11 @@
+@@ -381,7 +381,7 @@
  
  #: find/parser.c:3306
  msgid "standard error"
@@ -200,11 +200,6 @@
  
  #: find/parser.c:3311
  msgid "standard output"
--msgstr "standard ut"
-+msgstr "standardutdata"
- 
- #: find/pred.c:233
- #, c-format
 @@ -405,7 +405,7 @@
  #: find/pred.c:655
  #, c-format
@@ -399,13 +394,7 @@
  
  #: locate/frcode.c:195
  #, c-format
-@@ -888,12 +885,12 @@
- #: locate/frcode.c:278
- #, c-format
- msgid "Failed to write to standard output"
--msgstr "Misslyckades med att skriva till standard ut"
-+msgstr "Misslyckades med att skriva till standardutdata"
- 
+@@ -893,7 +890,7 @@
  #: locate/frcode.c:287
  #, c-format
  msgid "The input file should end with the delimiter"
@@ -504,7 +493,7 @@
  #, c-format
  msgid "warning: the locate database can only be read from standard input once."
 -msgstr "varning: locate-databasen kan endast läsas en gång från standard in."
-+msgstr "varning: locate-databasen kan bara läsas från standardindata en gång."
++msgstr "varning: locate-databasen kan bara läsas från standard in en gång."
  
  #: locate/locate.c:1832
  #, c-format
@@ -649,21 +638,12 @@
  
  #: xargs/xargs.c:1182
  #, c-format
-@@ -1241,7 +1238,7 @@
- #: xargs/xargs.c:1199
- #, c-format
- msgid "Failed to read from standard input"
--msgstr "Misslyckades med att läsa från standard in"
-+msgstr "Misslyckades med att läsa från standardindata"
- 
- #: xargs/xargs.c:1235
- #, c-format
 @@ -1251,7 +1248,7 @@
  #: xargs/xargs.c:1289
  #, c-format
  msgid "failed to redirect standard input of the child process"
 -msgstr "misslyckades att omdirigera barnprocessens standard in"
-+msgstr "misslyckades med att omdirigera barnprocessens standardindata"
++msgstr "misslyckades med att omdirigera barnprocessens standard in"
  
  #. TRANSLATORS: The pipe being referred to is an
  #. * operating-system object for communicating between
@@ -729,22 +709,13 @@
  
  #: xargs/xargs.c:1781
  msgid ""
-@@ -1351,7 +1348,7 @@
- 
- #: xargs/xargs.c:1784
- msgid "  -a, --arg-file=FILE          read arguments from FILE, not standard input\n"
--msgstr "  -a, --arg-file=FIL           läs argument från FIL, inte standard in\n"
-+msgstr "  -a, --arg-file=FIL           läs argument från FIL, inte standardindata\n"
- 
- #: xargs/xargs.c:1785
- msgid ""
 @@ -1393,8 +1390,8 @@
  "                                 if R is unspecified, assume {}\n"
  msgstr ""
  "  -i, --replace[=E]            ersätt E i STARTARGUMENT med namn lästa från\n"
 -"                                 standard in; dela vid nyrader;\n"
 -"                                 om E utelämnas, anta {}\n"
-+"                                 standardindata, uppdelade vid nyrader;\n"
++"                                 standard in, uppdelade vid nyrader;\n"
 +"                                 om E inte anges används {}\n"
  
  #: xargs/xargs.c:1797
@@ -767,7 +738,7 @@
 -"  -o, --open-tty               Öppna om standard in som /dev/tty i barnprocessen\n"
 -"                                 före kommandot körs; användbart för att köra\n"
 -"                                 ett interaktivt program.\n"
-+"  -o, --open-tty               öppna standardindata som /dev/tty igen i\n"
++"  -o, --open-tty               öppna standard in som /dev/tty igen i\n"
 +"                                 barnprocessen före körning av kommandot;\n"
 +"                                 användbart för interaktiva program.\n"
  

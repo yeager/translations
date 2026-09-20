@@ -5,7 +5,7 @@
  #, c-format
  msgid "Unable to change owner or mode of tty stdin: %s"
 -msgstr "Kunde inte ändra ägare eller rättigheter för tty standard in: %s"
-+msgstr "Kunde inte ändra ägare eller behörigheter för TTY-standardindata: %s"
++msgstr "Kunde inte ändra ägare eller behörigheter för TTY-standard in: %s"
  
  #: lib/cleanup_group.c:178 lib/cleanup_group.c:200 lib/cleanup_user.c:101
  #: lib/cleanup_user.c:122 src/chage.c:102 src/chage.c:109 src/chage.c:582
@@ -1211,7 +1211,7 @@
  
  #: src/passwd.c:168 src/vipw.c:94
  msgid "  -q, --quiet                   quiet mode\n"
-@@ -2217,19 +2219,19 @@
+@@ -2217,15 +2219,15 @@
  
  #: src/passwd.c:174
  msgid "  -w, --warndays WARN_DAYS      set expiration warning days to WARN_DAYS\n"
@@ -1230,11 +1230,6 @@
  
  #: src/passwd.c:177
  msgid "  -s, --stdin                   read new token from stdin\n"
--msgstr "  -s, --stdin                   läs ny token från standard in\n"
-+msgstr "  -s, --stdin                   läs ny token från standardindata\n"
- 
- #: src/passwd.c:205
- msgid "Old password: "
 @@ -2241,7 +2243,7 @@
  "Enter the new password (minimum of %d characters)\n"
  "Please use a combination of upper and lower case letters and numbers.\n"

@@ -112,15 +112,6 @@
  
  #. TRANSLATORS: %s denotes an author name.
  #: lib/version-etc.c:105
-@@ -449,7 +449,7 @@
- 
- #: src/grep.c:657
- msgid "(standard input)"
--msgstr "(standard in)"
-+msgstr "(standardindata)"
- 
- #: src/grep.c:838
- msgid "invalid context length argument"
 @@ -472,7 +472,7 @@
  #: src/grep.c:1912
  #, c-format
@@ -157,7 +148,7 @@
 +"      --line-buffered       spola utdata för varje rad\n"
 +"  -H, --with-filename       skriv ut filnamn med utdatarader\n"
 +"  -h, --no-filename         skriv inte ut filnamnsprefixet i utdata\n"
-+"      --label=ETIKETT       använd ETIKETT som filnamnsprefix för standardindata\n"
++"      --label=ETIKETT       använd ETIKETT som filnamnsprefix för standard in\n"
  
  #: src/grep.c:2020
  #, c-format
@@ -197,8 +188,8 @@
 -"När FIL är ”-”, läs från standard in.  Om ingen FIL anges, läs från\n"
 -"standard in, men med -r söks rekursivt i arbetskatalogen i stället.  Om\n"
 -"färre än två FILer anges, anta -h.  Avslutningsstatus är 0 om någon rad har\n"
-+"När FIL är ”-”, läs från standardindata. Om ingen FIL anges, läs från\n"
-+"standardindata, men med -r söks arbetskatalogen rekursivt i stället. Om\n"
++"När FIL är ”-”, läs från standard in. Om ingen FIL anges, läs från\n"
++"standard in, men med -r söks arbetskatalogen rekursivt i stället. Om\n"
 +"färre än två FILer anges, anta -h. Avslutningsstatus är 0 om någon rad har\n"
  "valts, annars 1; om något fel inträffar och -q inte angivits är\n"
  "avslutningsstatusen 2.\n"

@@ -9,11 +9,11 @@
 -"motsvarande värden.  Om SKALFORMAT anges så ersätts bara de\n"
 -"miljövariabler som refereras i SKALFORMAT; annars ersätts alla miljövariabler\n"
 -"som hittas i standard in.\n"
-+"I normalt körläge kopieras standardindata till standardutdata och referenser "
++"I normalt körläge kopieras standard in till standard ut och referenser "
 +"till miljövariabler i formen $VARIABEL eller ${VARIABEL} ersätts med "
 +"motsvarande värden. Om SKALFORMAT anges ersätts endast de "
 +"miljövariabler som refereras i SKALFORMAT; annars ersätts alla referenser till miljövariabler"
-+" i standardindata.\n"
++" i standard in.\n"
  
  #: src/envsubst.c:216
  #, c-format, no-wrap
@@ -23,20 +23,11 @@
  msgstr ""
 -"När --variables används så ignoreras standard in och utdata består av de\n"
 -"miljövariabler som förekommer i SKALFORMAT, en per rad.\n"
-+"När --variables används ignoreras standardindata och utdata består av "
++"När --variables används ignoreras standard in och utdata består av "
 +"miljövariablerna som refereras i SKALFORMAT, en per rad.\n"
  
  #. TRANSLATORS: The first placeholder is the web address of the Savannah
  #. project of this package.  The second placeholder is the bug-reporting
-@@ -148,7 +148,7 @@
- 
- #: src/envsubst.c:443
- msgid "standard input"
--msgstr "standard in"
-+msgstr "standardindata"
- 
- #. This is a proper name. See the gettext manual, section Names.
- #: src/gettext.c:142 src/ngettext.c:129
 @@ -233,13 +233,13 @@
  "found in the selected catalog are translated.\n"
  "Standard search directory: %s\n"
@@ -52,7 +43,7 @@
 +"TEXTDOMAIN. Om meddelandekatalogen inte hittas i den vanliga katalogen "
 +"kan en annan plats anges med miljövariabeln TEXTDOMAINDIR.\n"
 +"När flaggan -s används beter sig programmet som kommandot ”echo”. "
-+"Men det kopierar inte enbart sina argument till standardutdata. I stället "
++"Men det kopierar inte enbart sina argument till standard ut. I stället "
 +"översätts de argument som finns i den valda meddelandekatalogen.\n"
 +"Standardkatalog för meddelandekataloger: %s\n"
  

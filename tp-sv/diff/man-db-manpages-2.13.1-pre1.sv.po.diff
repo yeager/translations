@@ -247,7 +247,7 @@
  #: ../../man/man1/lexgrog.man1:80
  msgid "If its input is badly formatted, B<lexgrog> will print \\(lqparse failed\\(rq; this may be useful for external programs that need to check man pages for correctness.  If one of B<lexgrog>'s input files is \\(lq-\\(rq, it will read from standard input; if any input file is compressed, a decompressed version will be read automatically."
 -msgstr "Om inmatningen är dåligt formaterad kommer B<lexgrog> att skriva ut \\(lqtolkning misslyckades\\(rq; detta kan vara användbart för externa program som behöver kontrollera manualsidors korrekthet.  Om en av B<lexgrog>:s inmatningsfiler är \\(lq-\\(rq så kommer det att läsa från standard in; om någon inmatningsfil är komprimerad kommer en dekomprimerad version automatiskt att läsas in."
-+msgstr "Om indata är felaktigt formaterade skriver B<lexgrog> ut \\(lqparse failed\\(rq; detta kan vara användbart för externa program som behöver kontrollera manualsidor. Om en av B<lexgrog>s indatafiler är \\(lq-\\(rq läser det från standardindata. Om någon indatafil är komprimerad läses en dekomprimerad version automatiskt."
++msgstr "Om indata är felaktigt formaterade skriver B<lexgrog> ut \\(lqparse failed\\(rq; detta kan vara användbart för externa program som behöver kontrollera manualsidor. Om en av B<lexgrog>s indatafiler är \\(lq-\\(rq läser det från standard in. Om någon indatafil är komprimerad läses en dekomprimerad version automatiskt."
  
  #. type: Plain text
  #: ../../man/man1/lexgrog.man1:92
@@ -757,7 +757,7 @@
  #: ../../man/man1/man.man1:495
  msgid "Activate \"local\" mode.  Format and display local manual files instead of searching through the system's manual collection.  Each manual page argument will be interpreted as an nroff source file in the correct format.  No cat file is produced.  If '-' is listed as one of the arguments, input will be taken from stdin."
 -msgstr "Aktivera ”lokalt” läge.  Formatera och visa lokala manualfiler istället för att söka genom systemets manualsamling.  Varje manualsidesargument kommer att tolkas som en nroff-källkodsfil i det korrekta formatet.  Ingen cat-fil produceras.  Om ”-” listas som ett av argumenten kommer inmatningen att tas från standard in.  När denna flagga inte används och man misslyckas med att hitta den begärda sidan, innan felmeddelandet visas, så kommer det att bete sig som om denna flagga angavs, och använda namnet som ett filnamn och söka efter en exakt matchning."
-+msgstr "Aktivera läget ”local”. Formatera och visa lokala manualfiler i stället för att söka i systemets manualsidesamling. Varje manualsidesargument tolkas som en nroff-källfil i korrekt format. Ingen cat-fil skapas. Om ”-” anges som ett av argumenten läses indata från standardindata. När alternativet inte används och den begärda sidan inte hittas, fungerar programmet innan felmeddelandet visas som om alternativet hade angetts: namnet används som filnamn och en exakt träff söks."
++msgstr "Aktivera läget ”local”. Formatera och visa lokala manualfiler i stället för att söka i systemets manualsidesamling. Varje manualsidesargument tolkas som en nroff-källfil i korrekt format. Ingen cat-fil skapas. Om ”-” anges som ett av argumenten läses indata från standard in. När alternativet inte används och den begärda sidan inte hittas, fungerar programmet innan felmeddelandet visas som om alternativet hade angetts: namnet används som filnamn och en exakt träff söks."
  
  #. type: Plain text
  #: ../../man/man1/man.man1:501
@@ -932,7 +932,7 @@
  #: ../../man/man1/man.man1:772 ../../man/man1/man.man1:1143
  msgid "The value may be a simple command name or a command with arguments, and may use shell quoting (backslashes, single quotes, or double quotes).  It may not use pipes to connect multiple commands; if you need that, use a wrapper script, which may take the file to display either as an argument or on standard input."
 -msgstr "Värdet kan vara ett enkelt kommandonamn eller ett kommando med argument och får använda skalcitering (bakstreck, enkla citattecken eller dubbla citattecken).  Det får inte använda rörledningar för att koppla ihop flera kommandon; om du behöver detta så använd ett inkapslingsskript som kan ta filen som ska visas antingen som ett argument eller via standard in."
-+msgstr "Värdet kan vara ett enkelt kommandonamn eller ett kommando med argument och får använda skalcitering med bakstreck, enkla citattecken eller dubbla citattecken. Det får inte använda rör för att koppla samman flera kommandon; använd vid behov ett omslutande skript som tar filen som argument eller från standardindata."
++msgstr "Värdet kan vara ett enkelt kommandonamn eller ett kommando med argument och får använda skalcitering med bakstreck, enkla citattecken eller dubbla citattecken. Det får inte använda rör för att koppla samman flera kommandon; använd vid behov ett omslutande skript som tar filen som argument eller från standard in."
  
  #. type: TP
  #: ../../man/man1/man.man1:772
@@ -1054,7 +1054,7 @@
  #: ../../man/man1/man.man1:980
  msgid "Use I<%troff%> to format the manual page to stdout.  This option is not required in conjunction with B<-H>, B<-T>, or B<-Z>."
 -msgstr "Använd I<%troff%> för att formatera manualsidan till standard ut.  Denna flagga krävs inte i samband med B<-H>, B<-T>, eller B<-Z>."
-+msgstr "Använd I<%troff%> för att formatera manualsidan till standardutdata. Flaggan krävs inte med B<-H>, B<-T> eller B<-Z>."
++msgstr "Använd I<%troff%> för att formatera manualsidan till standard ut. Flaggan krävs inte med B<-H>, B<-T> eller B<-Z>."
  
  #. type: TP
  #: ../../man/man1/man.man1:980
@@ -1473,7 +1473,7 @@
  #: ../../man/man1/zsoelim.man1:26
  msgid "B<%zsoelim%> parses I<file> arguments, or if none are specified, its standard input for lines of the form:"
 -msgstr "B<%zsoelim%> tolkar I<fil> argumenten, eller om inget angivits, dess standardinmatning efter rader på formen:"
-+msgstr "B<%zsoelim%> tolkar I<file>-argument eller, om inga anges, standardindata för rader med formen:"
++msgstr "B<%zsoelim%> tolkar I<file>-argument eller, om inga anges, standard in för rader med formen:"
  
  #. type: Plain text
  #: ../../man/man1/zsoelim.man1:29
