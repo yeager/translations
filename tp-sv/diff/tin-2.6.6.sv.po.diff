@@ -1,0 +1,3318 @@
+--- a/tin-2.6.6.sv.po
++++ b/tin-2.6.6.sv.po
+@@ -30,7 +30,7 @@
+ 
+ #: src/lang.c:50
+ msgid "Aborting read, please wait..."
+-msgstr "Avbryter läsning, var god vänta..."
++msgstr "Avbryter läsning, vänta..."
+ 
+ #: src/lang.c:52
+ msgid "All groups"
+@@ -82,14 +82,18 @@
+ "will be posted to the following newsgroups:\n"
+ msgstr[0] ""
+ "\n"
+-"Din artikel: \"%s\" kommer att publiceras i följande nyhetsgrupp:\n"
++"Din artikel:\n"
++"  ”%s”\n"
++"kommer att publiceras i följande nyhetsgrupp:\n"
+ msgstr[1] ""
+ "\n"
+-"Din artikel: \"%s\" kommer att publiceras i följande nyhetsgrupper:\n"
++"Din artikel:\n"
++"  ”%s”\n"
++"kommer att publiceras i följande nyhetsgrupper:\n"
+ 
+ #: src/lang.c:61
+ msgid "Article not posted!"
+-msgstr "Artikel inte postad!"
++msgstr "Artikeln postades inte!"
+ 
+ #: src/lang.c:62
+ msgid "Article not saved"
+@@ -105,7 +109,7 @@
+ 
+ #: src/lang.c:65
+ msgid "Parent article has been killed"
+-msgstr "Föräldraartikeln har dödats"
++msgstr "Föräldraartikeln har markerats som borttagen"
+ 
+ #: src/lang.c:66
+ msgid "Parent article is unavailable"
+@@ -114,7 +118,7 @@
+ #: src/lang.c:67
+ #, c-format
+ msgid "Article posted: %s"
+-msgstr "Artikel publicerad: %s"
++msgstr "Artikeln publicerades: %s"
+ 
+ #: src/lang.c:68
+ #, c-format
+@@ -128,7 +132,7 @@
+ 
+ #: src/lang.c:70
+ msgid "Article unavailable"
+-msgstr "Artikel ej tillgänglig"
++msgstr "Artikel inte tillgänglig"
+ 
+ #: src/lang.c:71
+ msgid "Article undeleted."
+@@ -214,7 +218,7 @@
+ "# Do not edit this comment block\n"
+ "#\n"
+ msgstr ""
+-"# Redigera inte detta kommentarblock\n"
++"# Redigera inte detta kommentarsblock\n"
+ "#\n"
+ 
+ #: src/lang.c:92
+@@ -291,7 +295,7 @@
+ 
+ #: src/lang.c:110
+ msgid "#  group_format=STRING (eg. %n %m %R %L  %s  %F)\n"
+-msgstr "# group_format=STRING (t.ex. %n %m %R %L %s %F)\n"
++msgstr "# group_format=STRING (t.ex. %n %m %R %L  %s  %F)\n"
+ 
+ #: src/lang.c:111
+ msgid "#  hide_inline_data=NUM (any combination is allowed)\n"
+@@ -306,16 +310,17 @@
+ "#    1 = uuencoded and yenc data will be condensed to a single tag line showing\n"
+ "#        size and filename, similar to how MIME attachments are displayed\n"
+ msgstr ""
+-"#   1 = uuencoded- och yenc-data komprimeras till en enda taggrad som visar\n"
+-"#      storlek och filnamn, på samma sätt som MIME-bilagor visas.\n"
++"# 1 = uuencoded- och yenc-data dras ihop till en enda taggrad som visar\n"
++"#     storlek och filnamn, på samma sätt som MIME-bilagor visas\n"
+ 
+ #: src/lang.c:114
+ msgid ""
+ "#    2 = Also hide partial, as for 1, but any line that looks like uuencoded\n"
+ "#        or yenc data will be folded into a tag line.\n"
+ msgstr ""
+-"#   2 = Dölj också delvis, som för 1, men alla rader som ser ut som uuencoded\n"
+-"#      eller yenc-data kommer att vikas in i en taggrad.\n"
++"# 2 = Dölj också ofullständiga data, som för 1, men alla rader som ser ut\n"
++"#     som uuencoded-"
++" eller yenc-data viks ihop till en taggrad.\n"
+ 
+ #: src/lang.c:115
+ msgid "#    4 = Hide Inline PGP\n"
+@@ -556,7 +561,7 @@
+ 
+ #: src/lang.c:188
+ msgid "#  thread_format=STRING (eg. %n %m [%L]  %T  %F)\n"
+-msgstr "# thread_format=STRING (t.ex. %n %m [%L] %T %F)\n"
++msgstr "# thread_format=STRING (t.ex. %n %m [%L]  %T  %F)\n"
+ 
+ #: src/lang.c:189
+ msgid "#  thread_perc=NUM\n"
+@@ -672,7 +677,7 @@
+ 
+ #: src/lang.c:214
+ msgid "Attributes Menu Commands"
+-msgstr "Kommandon i menyn Attribut"
++msgstr "Kommandon i attributmenyn"
+ 
+ #: src/lang.c:215
+ #, c-format
+@@ -699,12 +704,12 @@
+ 
+ #: src/lang.c:221
+ msgid "    Please enter username: "
+-msgstr "    Vänligen ange användarnamn: "
++msgstr "    Ange användarnamn: "
+ 
+ #: src/lang.c:222
+ #, c-format
+ msgid "Authorized for user: %s\n"
+-msgstr "Behörig för användare: %s\n"
++msgstr "Behörighet för användare: %s\n"
+ 
+ #: src/lang.c:223
+ #, c-format
+@@ -713,12 +718,12 @@
+ 
+ #: src/lang.c:224
+ msgid "No supported authorization method available in current state!\n"
+-msgstr "Ingen stödd auktoriseringsmetod tillgänglig i nuvarande tillstånd!\n"
++msgstr "Det finns ingen tillgänglig auktoriseringsmetod som har stöd i nuvarande tillstånd!\n"
+ 
+ #: src/lang.c:226
+ #, c-format
+ msgid "Author search backwards [%s]> "
+-msgstr "Författarsökning baklänges [%s]> "
++msgstr "Författarsökning bakåt [%s]> "
+ 
+ #: src/lang.c:227
+ #, c-format
+@@ -736,12 +741,12 @@
+ 
+ #: src/lang.c:229
+ msgid "Autosubscribing groups...\n"
+-msgstr "Prenumererar automatiskt på grupper...\n"
++msgstr "Prenumererar automatiskt på grupper…\n"
+ 
+ #: src/lang.c:230
+ #, c-format
+ msgid "Autoselecting articles (use '%s' to see all unread) ..."
+-msgstr "Autoval av artiklar (använd '%s' för att se alla olästa) ..."
++msgstr "Väljer automatiskt artiklar (använd ”%s” för att se alla olästa) …"
+ 
+ #: src/lang.c:232
+ #, c-format
+@@ -751,7 +756,7 @@
+ #: src/lang.c:234
+ #, c-format
+ msgid "Unrecognized attribute: %s"
+-msgstr "Oigenkänt attribut: %s"
++msgstr "Okänt attribut: %s"
+ 
+ #: src/lang.c:235
+ #, c-format
+@@ -761,7 +766,7 @@
+ #: src/lang.c:237
+ #, c-format
+ msgid "Bad command. Type '%s' for help."
+-msgstr "Felaktigt kommando. Skriv \"%s\" för hjälp."
++msgstr "Felaktigt kommando. Skriv ”%s” för hjälp."
+ 
+ #: src/lang.c:238
+ msgid "Marked base article as read"
+@@ -778,7 +783,7 @@
+ 
+ #: src/lang.c:241
+ msgid "*** Beginning of article ***"
+-msgstr "*** Början av artikel ***"
++msgstr "*** Början av artikeln ***"
+ 
+ #: src/lang.c:242
+ msgid "*** Beginning of page ***"
+@@ -791,7 +796,7 @@
+ 
+ #: src/lang.c:245
+ msgid "Cancelling article..."
+-msgstr "Återkallar artikel..."
++msgstr "Återkallar artikel…"
+ 
+ #: src/lang.c:247
+ #, c-format
+@@ -819,7 +824,7 @@
+ 
+ #: src/lang.c:254
+ msgid "*** Posting not allowed ***"
+-msgstr "*** Postning inte tillåten ***"
++msgstr "*** Det är inte tillåtet att posta ***"
+ 
+ #: src/lang.c:255
+ #, c-format
+@@ -833,7 +838,7 @@
+ 
+ #: src/lang.c:259
+ msgid "Can't supersede in mailgroups, try repost instead."
+-msgstr "Kan inte ersätta i e-postgrupper, försök återpublicera istället."
++msgstr "Kan inte ersätta i e-postgrupper, försök återpublicera i stället."
+ 
+ #: src/lang.c:260
+ #, c-format
+@@ -843,7 +848,7 @@
+ #: src/lang.c:261
+ #, c-format
+ msgid "Catchup %s..."
+-msgstr "Markerar allt i %s som läst..."
++msgstr "Markerar allt i %s som läst…"
+ 
+ #: src/lang.c:262
+ msgid "Catchup all groups entered during this session?"
+@@ -888,11 +893,11 @@
+ 
+ #: src/lang.c:271
+ msgid "Checking for new groups... "
+-msgstr "Letar efter nya grupper... "
++msgstr "Letar efter nya grupper… "
+ 
+ #: src/lang.c:272
+ msgid "Checking for news...\n"
+-msgstr "Kollar efter nyheter...\n"
++msgstr "Kontrollerar om det finns nyheter...\n"
+ 
+ #: src/lang.c:273
+ #, c-format
+@@ -921,7 +926,7 @@
+ 
+ #: src/lang.c:281
+ msgid "Mark not selected articles read?"
+-msgstr "Markera ej valda artiklar som lästa?"
++msgstr "Markera inte valda artiklar som lästa?"
+ 
+ #: src/lang.c:282
+ msgid "Connection Info"
+@@ -952,7 +957,7 @@
+ "-------------------\n"
+ msgstr ""
+ "\n"
+-"Lokal spoolkonfiguration:\n"
++"Konfiguration för lokal spool:\n"
+ "-------------------\n"
+ 
+ #: src/lang.c:298
+@@ -984,7 +989,7 @@
+ 
+ #: src/lang.c:305
+ msgid " DEFLATE (not supported)\n"
+-msgstr " DEFLATE (stöds inte)\n"
++msgstr " DEFLATE (kan inte användas)\n"
+ 
+ #: src/lang.c:308
+ msgid "(disabled)"
+@@ -1043,7 +1048,7 @@
+ #: src/lang.c:323
+ #, c-format
+ msgid "Reading untrusted via NNTPS (%s; "
+-msgstr "Läser via ej betrodd NNTPS-anslutning (%s; "
++msgstr "Läser via inte betrodd NNTPS-anslutning (%s; "
+ 
+ #: src/lang.c:324
+ #, c-format
+@@ -1068,7 +1073,7 @@
+ #: src/lang.c:328
+ #, c-format
+ msgid "Subject: %s\n"
+-msgstr "Subjekt: %s\n"
++msgstr "Ämne: %s\n"
+ 
+ #: src/lang.c:329
+ msgid ""
+@@ -1105,7 +1110,7 @@
+ 
+ #: src/lang.c:338
+ msgid "Server certificate verification FAILED: <can't get reason>\n"
+-msgstr "Verifiering av servercertifikat misslyckades: <kan inte få orsaken>\n"
++msgstr "Verifiering av servercertifikat misslyckades: <kan inte hämta orsaken>\n"
+ 
+ #: src/lang.c:342
+ #, c-format
+@@ -1123,12 +1128,12 @@
+ 
+ #: src/lang.c:351
+ msgid "Creating active file for saved groups...\n"
+-msgstr "Skapar active-fil för sparade grupper...\n"
++msgstr "Skapar active-fil för sparade grupper…\n"
+ 
+ #: src/lang.c:352
+ #, c-format
+ msgid "Creating %s file...\n"
+-msgstr "Skapar filen %s...\n"
++msgstr "Skapar filen %s…\n"
+ 
+ #: src/lang.c:354 src/lang.c:1875 src/lang.c:1895
+ msgid "Default"
+@@ -1140,11 +1145,11 @@
+ 
+ #: src/lang.c:356
+ msgid "Deleting temporary files..."
+-msgstr "Radering av temporära filer..."
++msgstr "Tar bort temporära filer..."
+ 
+ #: src/lang.c:358
+ msgid "*** End of article ***"
+-msgstr "*** Slut på artikel ***"
++msgstr "*** Slut på artikeln ***"
+ 
+ #: src/lang.c:359
+ msgid "*** End of articles ***"
+@@ -1218,7 +1223,7 @@
+ "Warning: Approved: header used.\n"
+ msgstr ""
+ "\n"
+-"Varning: Approved:-huvud används.\n"
++"Varning: rubriken Approved: används.\n"
+ 
+ #: src/lang.c:376
+ #, c-format
+@@ -1228,12 +1233,12 @@
+ #: src/lang.c:377
+ #, c-format
+ msgid "  Line %d: \"%s\": unrecognized attribute.\n"
+-msgstr "  Rad %d: \"%s\": oigenkänt attribut.\n"
++msgstr "  Rad %d: ”%s”: okänt attribut.\n"
+ 
+ #: src/lang.c:378
+ #, c-format
+ msgid "  Line %d: \"%s\": malformed line, '=' missing.\n"
+-msgstr "  Rad %d: \"%s\": felformad rad, '=' saknas.\n"
++msgstr "  Rad %d: ”%s”: felaktig rad, ”=” saknas.\n"
+ 
+ #: src/lang.c:382
+ #, c-format
+@@ -1242,7 +1247,7 @@
+ "Error: Bad address in \"%s\" header.\n"
+ msgstr ""
+ "\n"
+-"Fel: Felaktig adress i \"%s\"-huvudet.\n"
++"Fel: felaktig adress i rubriken ”%s”.\n"
+ 
+ #. TRANSLATORS: do not translate header names like 'Message-ID:'
+ #: src/lang.c:384
+@@ -1251,7 +1256,7 @@
+ "Error: Bad FQDN in Message-ID: header.\n"
+ msgstr ""
+ "\n"
+-"Fel: Felaktigt FQDN i Message-ID:-huvudet.\n"
++"Fel: felaktigt fullständigt kvalificerat domännamn i rubriken Message-ID:.\n"
+ 
+ #: src/lang.c:386
+ #, c-format
+@@ -1279,7 +1284,7 @@
+ "Error: Control-message without Approved-header.\n"
+ msgstr ""
+ "\n"
+-"Fel: Kontrollmeddelande utan Approved-huvud.\n"
++"Fel: kontrollmeddelande utan rubriken Approved:.\n"
+ 
+ #: src/lang.c:395
+ #, c-format
+@@ -1308,12 +1313,12 @@
+ #: src/lang.c:403
+ #, c-format
+ msgid "Unparsable date: \"%s\""
+-msgstr "Oanalyserbart datum: \"%s\""
++msgstr "datum kan inte tolkas: ”%s”"
+ 
+ #: src/lang.c:404
+ #, c-format
+ msgid "Error: Custom format empty. Using default \"%s\"."
+-msgstr "Fel: Anpassat format är tomt. Använder standardformatet \"%s\"."
++msgstr "Fel: anpassat format är tomt. Använder standardformatet ”%s”."
+ 
+ #: src/lang.c:405
+ msgid ""
+@@ -1329,12 +1334,12 @@
+ "Error: Followup-To \"poster\" and a newsgroup is not allowed!\n"
+ msgstr ""
+ "\n"
+-"Fel: Followup-To \"poster\" och en nyhetsgrupp är inte tillåtet!\n"
++"Fel: Followup-To ”poster” och en nyhetsgrupp kan inte användas tillsammans!\n"
+ 
+ #: src/lang.c:408
+ #, c-format
+ msgid "Error: Custom format exceeds screen width. Using default \"%s\"."
+-msgstr "Fel: Anpassat format överskrider skärmbredden. Använder standardformatet \"%s\"."
++msgstr "Fel: anpassat format överskrider skärmbredden. Använder standardformatet ”%s”."
+ 
+ #: src/lang.c:409
+ msgid "Internal error in GNKSA routine - send bug report.\n"
+@@ -1369,28 +1374,28 @@
+ "Invalid domain. Send bug report if your top level domain really exists.\n"
+ "Use .invalid as top level domain for munged addresses.\n"
+ msgstr ""
+-"Ogiltig domän. Skicka felrapport om din toppdomän verkligen existerar.\n"
+-"Använd .invalid som toppdomän för munged-adresser.\n"
++"Ogiltig domän. Skicka en felrapport om din toppdomän verkligen finns.\n"
++"Använd .invalid som toppdomän för förvanskade adresser.\n"
+ 
+ #: src/lang.c:417
+ msgid ""
+ "Illegal domain. Send bug report if your top level domain really exists.\n"
+ "Use .invalid as top level domain for munged addresses.\n"
+ msgstr ""
+-"Olaglig domän. Skicka felrapport om din toppdomän verkligen existerar.\n"
+-"Använd .invalid som toppdomän för munged-adresser.\n"
++"Otillåten domän. Skicka en felrapport om din toppdomän verkligen finns.\n"
++"Använd .invalid som toppdomän för förvanskade adresser.\n"
+ 
+ #: src/lang.c:418
+ msgid ""
+ "Unknown domain. Send bug report if your top level domain really exists.\n"
+ "Use .invalid as top level domain for munged addresses.\n"
+ msgstr ""
+-"Okänd domän. Skicka felrapport om din toppdomän verkligen existerar.\n"
+-"Använd .invalid som toppdomän för munged-adresser.\n"
++"Okänd domän. Skicka en felrapport om din toppdomän verkligen finns.\n"
++"Använd .invalid som toppdomän för förvanskade adresser.\n"
+ 
+ #: src/lang.c:419
+ msgid "Illegal character in FQDN.\n"
+-msgstr "Olagligt tecken i FQDN.\n"
++msgstr "Otillåtet tecken i FQDN.\n"
+ 
+ #: src/lang.c:420
+ msgid "Zero length FQDN component not allowed.\n"
+@@ -1410,11 +1415,11 @@
+ 
+ #: src/lang.c:424
+ msgid "Domain literal has impossible numeric value.\n"
+-msgstr "Domänlitteral har omöjligt numeriskt värde.\n"
++msgstr "Domänliteral har ett omöjligt numeriskt värde.\n"
+ 
+ #: src/lang.c:425
+ msgid "Domain literal is for private use only and not allowed for global use.\n"
+-msgstr "Domänliteralen är endast för privat bruk och tillåts inte för global användning.\n"
++msgstr "Domänliteral är endast för privat bruk och får inte användas globalt.\n"
+ 
+ #: src/lang.c:426
+ msgid "Right bracket missing in domain literal.\n"
+@@ -1422,7 +1427,7 @@
+ 
+ #: src/lang.c:427
+ msgid "Missing localpart of mail address.\n"
+-msgstr "Saknar lokal del av postadress.\n"
++msgstr "E-postadressens lokala del saknas.\n"
+ 
+ #: src/lang.c:428
+ msgid "Illegal character in localpart of mail address.\n"
+@@ -1437,48 +1442,48 @@
+ "Illegal character in realname.\n"
+ "Unquoted words may not contain '!()<>@,;:\\.[]' in route addresses.\n"
+ msgstr ""
+-"Olagligt tecken i verkligt namn.\n"
+-"Ociterade ord får inte innehålla '!()<>@,;:\\.[]' i ruttadresser.\n"
++"Otillåtet tecken i verkligt namn.\n"
++"Ord utan citattecken får inte innehålla '!()<>@,;:\\.[]' i ruttadresser.\n"
+ 
+ #: src/lang.c:431
+ msgid ""
+ "Illegal character in realname.\n"
+ "Quoted words may not contain '()<>\\'.\n"
+ msgstr ""
+-"Olagligt tecken i verkligt namn.\n"
+-"Citerade ord får inte innehålla '()<>\\'.\n"
++"Otillåtet tecken i verkligt namn.\n"
++"Ord inom citattecken får inte innehålla '()<>\\'.\n"
+ 
+ #: src/lang.c:432
+ msgid ""
+ "Illegal character in realname.\n"
+ "Encoded words may not contain '!()<>@,;:\"\\.[]/=' in parameter.\n"
+ msgstr ""
+-"Olagligt tecken i verkligt namn.\n"
++"Otillåtet tecken i verkligt namn.\n"
+ "Kodade ord får inte innehålla '!()<>@,;:\"\\.[]/=' i parametern.\n"
+ 
+ #: src/lang.c:433
+ msgid "Bad syntax in encoded word used in realname.\n"
+-msgstr "Dålig syntax i det kodade ord som används i det riktiga namnet.\n"
++msgstr "Felaktig syntax i det kodade ord som används i det verkliga namnet.\n"
+ 
+ #: src/lang.c:434
+ msgid ""
+ "Illegal character in realname.\n"
+ "Unquoted words may not contain '()<>\\' in old-style addresses.\n"
+ msgstr ""
+-"Olagligt tecken i riktigt namn.\n"
+-"Ociterade ord får inte innehålla '()<>\\' i gammaldags adresser.\n"
++"Otillåtet tecken i verkligt namn.\n"
++"Ord utan citattecken får inte innehålla '()<>\\' i gammaldags adresser.\n"
+ 
+ #: src/lang.c:435
+ msgid ""
+ "Illegal character in realname.\n"
+ "Control characters and unencoded 8-bit characters > 127 are not allowed.\n"
+ msgstr ""
+-"Olagliga tecken i riktiga namn.\n"
++"Otillåtna tecken i verkliga namn.\n"
+ "Kontrolltecken och okodade 8-bitars tecken > 127 är inte tillåtna.\n"
+ 
+ #: src/lang.c:436
+ msgid "Missing realname.\n"
+-msgstr "Saknar riktigt namn.\n"
++msgstr "Verkligt namn saknas.\n"
+ 
+ #: src/lang.c:437
+ #, c-format
+@@ -1491,7 +1496,7 @@
+ "Error: No blank line found after header.\n"
+ msgstr ""
+ "\n"
+-"Fel: Ingen blankrad hittades efter huvudet.\n"
++"Fel: ingen blankrad hittades efter rubriken.\n"
+ 
+ #: src/lang.c:439
+ msgid ""
+@@ -1499,7 +1504,7 @@
+ "Error: Illegal Distribution \"all\" used.\n"
+ msgstr ""
+ "\n"
+-"Fel: Det otillåtna Distribution-värdet \"all\" används.\n"
++"Fel: det otillåtna Distribution-värdet ”all” används.\n"
+ 
+ #: src/lang.c:440
+ #, c-format
+@@ -1517,7 +1522,7 @@
+ "Error: illegal header combination \"%s\" and \"%s\" used.\n"
+ msgstr ""
+ "\n"
+-"Fel: otillåten kombination av huvudena \"%s\" och \"%s\" används.\n"
++"Fel: otillåten kombination av rubrikerna ”%s” och ”%s” används.\n"
+ 
+ #: src/lang.c:444
+ msgid ""
+@@ -1554,7 +1559,7 @@
+ "Error: Article starts with blank line instead of header\n"
+ msgstr ""
+ "\n"
+-"Fel: Artikeln börjar med en blankrad istället för ett huvud\n"
++"Fel: artikeln börjar med en blankrad i stället för en rubrik\n"
+ 
+ #: src/lang.c:457
+ #, c-format
+@@ -1564,7 +1569,7 @@
+ "%s\n"
+ msgstr ""
+ "\n"
+-"Fel: Huvudet på rad %d har inte ett kolon efter huvudnamnet:\n"
++"Fel: rubriken på rad %d har inte ett kolon efter rubriknamnet:\n"
+ "%s\n"
+ 
+ #: src/lang.c:458
+@@ -1574,7 +1579,7 @@
+ "Error: The \"%s:\" line is empty.\n"
+ msgstr ""
+ "\n"
+-"Fel: Raden \"%s:\" är tom.\n"
++"Fel: raden ”%s:” är tom.\n"
+ 
+ #: src/lang.c:459
+ #, c-format
+@@ -1583,7 +1588,7 @@
+ "Error: The \"%s:\" line is missing from the article header.\n"
+ msgstr ""
+ "\n"
+-"Fel: Raden \"%s:\" saknas i artikelhuvudet.\n"
++"Fel: raden ”%s:” saknas i artikelrubriken.\n"
+ 
+ #: src/lang.c:460
+ #, c-format
+@@ -1602,7 +1607,7 @@
+ "%s\n"
+ msgstr ""
+ "\n"
+-"Fel: Huvudet på rad %d har inte ett mellanslag efter kolonet:\n"
++"Fel: rubriken på rad %d har inte ett mellanslag efter kolonet:\n"
+ "%s\n"
+ 
+ #: src/lang.c:462
+@@ -1612,7 +1617,7 @@
+ "Error: Duplicated header \"%s:\" in line %d.\n"
+ msgstr ""
+ "\n"
+-"Fel: Dubblett av huvudet \"%s:\" på rad %d.\n"
++"Fel: dubblett av rubriken ”%s:” på rad %d.\n"
+ 
+ #: src/lang.c:463
+ #, c-format
+@@ -1622,7 +1627,7 @@
+ "%s\n"
+ msgstr ""
+ "\n"
+-"Fel: Huvudet på rad %d har inget namn:\n"
++"Fel: rubriken på rad %d saknar namn:\n"
+ "%s\n"
+ 
+ #: src/lang.c:464
+@@ -1666,7 +1671,7 @@
+ 
+ #: src/lang.c:480
+ msgid "MIME parse error: Start boundary whilst reading headers\n"
+-msgstr "MIME-tolkningsfel: Startavgränsare vid läsning av huvuden\n"
++msgstr "MIME-tolkningsfel: startavgränsare vid läsning av rubriker\n"
+ 
+ #: src/lang.c:481
+ msgid ""
+@@ -1702,22 +1707,22 @@
+ #: src/lang.c:490
+ #, c-format
+ msgid "No permissions to go into %s\n"
+-msgstr "Inga rättigheter att gå in i %s\n"
++msgstr "Saknar behörighet att gå in i %s\n"
+ 
+ #: src/lang.c:491
+ #, c-format
+ msgid "No read permissions for %s\n"
+-msgstr "Inga läsrättigheter för %s\n"
++msgstr "Saknar läsbehörighet för %s\n"
+ 
+ #: src/lang.c:492
+ #, c-format
+ msgid "File %s does not exist\n"
+-msgstr "Filen %s existerar inte\n"
++msgstr "Filen %s finns inte\n"
+ 
+ #: src/lang.c:493
+ #, c-format
+ msgid "No write permissions for %s\n"
+-msgstr "Inga skrivrättigheter för %s\n"
++msgstr "Saknar skrivbehörighet för %s\n"
+ 
+ #: src/lang.c:495
+ #, c-format
+@@ -1727,7 +1732,7 @@
+ #: src/lang.c:499
+ #, c-format
+ msgid "Error: obsolete \"Control:\"-message: %s\n"
+-msgstr "Fel: Föråldrat \"Control:\"-meddelande: %s\n"
++msgstr "Fel: föråldrat ”Control:”-meddelande: %s\n"
+ 
+ #: src/lang.c:500
+ #, c-format
+@@ -1736,17 +1741,17 @@
+ "Error: Forbidden obsolete header \"%s:\" in line %d used.\n"
+ msgstr ""
+ "\n"
+-"Fel: Förbjudet föråldrat huvud \"%s:\" används på rad %d.\n"
++"Fel: förbjuden föråldrad rubrik ”%s:” används på rad %d.\n"
+ 
+ #: src/lang.c:501
+ #, c-format
+ msgid "%s: -%c option requires an argument\n"
+-msgstr "%s: -%c flaggan kräver ett argument\n"
++msgstr "%s: flaggan -%c kräver ett argument\n"
+ 
+ #: src/lang.c:502
+ #, c-format
+ msgid "%s: -%c unknown option\n"
+-msgstr "%s: -%c okänd flagga\n"
++msgstr "%s: okänd flagga -%c\n"
+ 
+ #: src/lang.c:504
+ msgid "Can't get user information (/etc/passwd missing?)"
+@@ -1765,25 +1770,25 @@
+ "Error: \"Sender:\" header not allowed (line %d), it will be added for you.\n"
+ msgstr ""
+ "\n"
+-"Fel: \"Sender:\"-huvudet tillåts inte (rad %d); det läggs till åt dig.\n"
++"Fel: rubriken ”Sender:” är inte tillåten (rad %d); den läggs till automatiskt.\n"
+ 
+ #: src/lang.c:511
+ #, c-format
+ msgid "Server has non of the groups listed in %s"
+-msgstr "Servern har inte någon av de grupper som anges i %s"
++msgstr "Servern har ingen av grupperna som anges i %s"
+ 
+ #: src/lang.c:512
+ #, c-format
+ msgid "Error: unlink %s"
+-msgstr "Fel: avlänkning %s"
++msgstr "Fel när länken till %s tas bort"
+ 
+ #: src/lang.c:513
+ msgid "Unknown display level"
+-msgstr "Okänd displaynivå"
++msgstr "Okänd visningsnivå"
+ 
+ #: src/lang.c:515
+ msgid "Unreachable?\n"
+-msgstr "Ej nåbar?\n"
++msgstr "Inte nåbar?\n"
+ 
+ #: src/lang.c:517
+ #, c-format
+@@ -1792,7 +1797,7 @@
+ "Error: Unwanted header \"%s:\" in line %d used.\n"
+ msgstr ""
+ "\n"
+-"Fel: Oönskat huvud \"%s:\" används på rad %d.\n"
++"Fel: oönskad rubrik ”%s:” används på rad %d.\n"
+ 
+ #: src/lang.c:518
+ #, c-format
+@@ -1805,7 +1810,7 @@
+ 
+ #: src/lang.c:520
+ msgid "Exiting..."
+-msgstr "Avslutar..."
++msgstr "Avslutar…"
+ 
+ #: src/lang.c:521
+ msgid "leaving external mail-reader"
+@@ -1814,12 +1819,12 @@
+ #: src/lang.c:522
+ #, c-format
+ msgid "Extracting %s..."
+-msgstr "Extrahering av %s..."
++msgstr "Extraherar %s…"
+ 
+ #: src/lang.c:524
+ #, c-format
+ msgid "Error writing %s file. Filesystem full? File reset to previous state."
+-msgstr "Fel vid skrivning av %s-fil. Filsystemet fullt? Filen återställs till tidigare tillstånd."
++msgstr "Fel vid skrivning av %s-fil. Är filsystemet fullt? Filen återställs till tidigare tillstånd."
+ 
+ #: src/lang.c:525
+ #, c-format
+@@ -1829,7 +1834,7 @@
+ #: src/lang.c:526
+ #, c-format
+ msgid "Filtering global rules (%d/%d) ('q' to quit)..."
+-msgstr "Filtrering av globala regler (%d/%d) ('q' för att avsluta)..."
++msgstr "Filtrering av globala regler (%d/%d) ('q' för att avsluta)…"
+ 
+ #: src/lang.c:527
+ msgid "Rule created by: "
+@@ -1877,9 +1882,9 @@
+ "# from=STRÄNG       Valfritt. From:-rad (t.ex. *Craig Shergold*).\n"
+ "# msgid=STRÄNG      Valfritt. Message-ID:-rad (t.ex. <123@example.net>) med\n"
+ "#                     fullständiga referenser.\n"
+-"# msgid_last=STRING Valfritt. Som ovan, men endast med sista referensen.\n"
+-"# msgid_only=STRING Valfritt. Som ovan, men utan referenser.\n"
+-"# refs_only=STRING  Valfritt. References:-rad (t.ex. <123@example.net>)\n"
++"# msgid_last=STRÄNG Valfritt. Som ovan, men endast med sista referensen.\n"
++"# msgid_only=STRÄNG Valfritt. Som ovan, men utan referenser.\n"
++"# refs_only=STRÄNG  Valfritt. References:-rad (t.ex. <123@example.net>)\n"
+ "#                     utan Message-ID:\n"
+ "# lines=[<>]?NUM    Valfritt. Lines:-rad. ’<’ eller ’>’ är valfritt.\n"
+ "# gnksa=[<>]?NUM    Valfritt. GNKSA parse_from() returnerar kod. ’<’ eller ’>’ valfritt.\n"
+@@ -1920,11 +1925,11 @@
+ 
+ #: src/lang.c:561
+ msgid "Skipping Xref filter"
+-msgstr "Hoppa över Xref-filter"
++msgstr "Hoppar över Xref-filter"
+ 
+ #: src/lang.c:563
+ msgid "Apply pattern to    : "
+-msgstr "Tillämpa mönster till    : "
++msgstr "Tillämpa mönster på    : "
+ 
+ #: src/lang.c:564
+ #, c-format
+@@ -1956,7 +1961,7 @@
+ 
+ #: src/lang.c:568
+ msgid "-- end of forwarded message --\n"
+-msgstr "-- slutet av vidarebefordrat meddelande --\n"
++msgstr "-- slut på vidarebefordrat meddelande --\n"
+ 
+ #. TRANSLATORS: do not translate header names like 'From:'
+ #: src/lang.c:570
+@@ -1987,26 +1992,26 @@
+ #: src/lang.c:579
+ #, c-format
+ msgid "Please use %.100s instead"
+-msgstr "Vänligen använd %.100s istället"
++msgstr "Använd %.100s i stället"
+ 
+ #: src/lang.c:580
+ #, c-format
+ msgid "%s is bogus"
+-msgstr "%s är falskt"
++msgstr "%s är felaktigt"
+ 
+ #: src/lang.c:581
+ #, c-format
+ msgid "Group %s is moderated. Continue?"
+-msgstr "Grupp %s är modererad. Fortsätta?"
++msgstr "Gruppen %s är modererad. Fortsätt?"
+ 
+ #: src/lang.c:582
+ #, c-format
+ msgid "Rereading %s..."
+-msgstr "Läser om %s..."
++msgstr "Läser om %s…"
+ 
+ #: src/lang.c:583
+ msgid "Top Level Commands"
+-msgstr "Toppnivåkommandon"
++msgstr "Kommandon på toppnivå"
+ 
+ #: src/lang.c:584
+ msgid "Group Selection"
+@@ -2020,7 +2025,7 @@
+ 
+ #: src/lang.c:586
+ msgid "*** Group descriptions are disabled according to current select_format ***"
+-msgstr "*** Gruppbeskrivningar inaktiveras enligt aktuellt select_format ***"
++msgstr "*** Gruppbeskrivningar är inaktiverade enligt aktuellt select_format ***"
+ 
+ #: src/lang.c:588
+ msgid "One or more lines of comment. <CR> to add a line or proceed if line is empty."
+@@ -2029,21 +2034,21 @@
+ #. TRANSLATORS: do not translate header names like 'From:'
+ #: src/lang.c:590
+ msgid "From: line to add to filter file. <SPACE> toggles & <CR> sets."
+-msgstr "From:-rad att lägga till i filterfilen. <SPACE> växlar och <CR> ställer in."
++msgstr "From:-rad som ska läggas till i filterfilen. <SPACE> växlar och <CR> ställer in."
+ 
+ #: src/lang.c:591
+ msgid "Linecount of articles to be filtered. < for less, > for more, = for equal."
+-msgstr "Radtal för artiklar som ska filtreras. < för mindre, > för mer, = för lika."
++msgstr "Antal rader i artiklar som ska filtreras. < för mindre än, > för större än, = för lika med."
+ 
+ #. TRANSLATORS: do not translate header names like 'Message-ID:'
+ #: src/lang.c:593
+ msgid "Message-ID: line to add to filter file. <SPACE> toggles & <CR> sets."
+-msgstr "Message-ID:-rad att lägga till i filterfilen. <SPACE> växlar och <CR> ställer in."
++msgstr "Message-ID:-rad som ska läggas till i filterfilen. <SPACE> växlar och <CR> ställer in."
+ 
+ #. TRANSLATORS: do not translate header names like 'Subject:'
+ #: src/lang.c:595
+ msgid "Subject: line to add to filter file. <SPACE> toggles & <CR> sets."
+-msgstr "Subject:-rad att lägga till i filterfilen. <SPACE> växlar och <CR> ställer in."
++msgstr "Subject:-rad som ska läggas till i filterfilen. <SPACE> växlar och <CR> ställer in."
+ 
+ #. TRANSLATORS: do not translate header names like 'Subject:' and 'From:'
+ #: src/lang.c:597
+@@ -2064,7 +2069,7 @@
+ 
+ #: src/lang.c:601
+ msgid "Apply select to current group or all groups. <SPACE> toggles & <CR> sets."
+-msgstr "Tillämpa val på aktuell grupp eller alla grupper. <SPACE> växlar, <CR> ställer in."
++msgstr "Tillämpa urval på aktuell grupp eller alla grupper. <SPACE> växlar, <CR> ställer in."
+ 
+ #: src/lang.c:602
+ msgid "kill an article via a menu"
+@@ -2072,11 +2077,11 @@
+ 
+ #: src/lang.c:603
+ msgid "auto-select (hot) an article via a menu"
+-msgstr "välj automatiskt en artikel (gör den het) via en meny"
++msgstr "välj automatiskt (hot) en artikel via en meny"
+ 
+ #: src/lang.c:604
+ msgid "Browse URLs in article"
+-msgstr "Bläddra URL:er i artikel"
++msgstr "Bläddra bland webbadresser i artikeln"
+ 
+ #: src/lang.c:605
+ msgid "0 - 9\t  display article by number in current thread"
+@@ -2096,7 +2101,7 @@
+ 
+ #: src/lang.c:610
+ msgid "post followup to current article quoting complete headers"
+-msgstr "posta uppföljning till aktuell artikel och citera fullständiga huvuden"
++msgstr "posta uppföljning till aktuell artikel och citera fullständiga rubriker"
+ 
+ #: src/lang.c:611
+ msgid "repost chosen article to another group"
+@@ -2124,7 +2129,7 @@
+ 
+ #: src/lang.c:618
+ msgid "display last page of article"
+-msgstr "visa sista sidan av artikel"
++msgstr "visa sista sidan av artikeln"
+ 
+ #: src/lang.c:619
+ msgid "mark rest of thread as read and advance to next unread"
+@@ -2136,7 +2141,7 @@
+ 
+ #: src/lang.c:621
+ msgid "display first article in next thread"
+-msgstr "visa första artikel i nästa tråd"
++msgstr "visa första artikeln i nästa tråd"
+ 
+ #: src/lang.c:622
+ msgid "display next unread article"
+@@ -2160,11 +2165,11 @@
+ 
+ #: src/lang.c:627
+ msgid "quickly auto-select (hot) an article using defaults"
+-msgstr "välj snabbt en artikel automatiskt (gör den het) med standardinställningarna"
++msgstr "välj snabbt automatiskt (hot) en artikel med standardinställningarna"
+ 
+ #: src/lang.c:628
+ msgid "return to group selection level"
+-msgstr "återgå till gruppvalsnivå"
++msgstr "återgå till nivån för gruppval"
+ 
+ #: src/lang.c:629
+ msgid "reply through mail to author"
+@@ -2176,7 +2181,7 @@
+ 
+ #: src/lang.c:631
+ msgid "reply through mail to author quoting complete headers"
+-msgstr "svara via e-post till författaren och citera fullständiga huvuden"
++msgstr "svara via e-post till författaren och citera fullständiga rubriker"
+ 
+ #: src/lang.c:632
+ msgid "search backwards within this article"
+@@ -2200,7 +2205,7 @@
+ 
+ #: src/lang.c:637
+ msgid "toggle display of all headers"
+-msgstr "växla visning av alla huvuden"
++msgstr "växla visning av alla rubriker"
+ 
+ #: src/lang.c:638
+ msgid "toggle word highlighting on/off"
+@@ -2228,7 +2233,7 @@
+ 
+ #: src/lang.c:644
+ msgid "View/pipe/save multimedia attachments"
+-msgstr "visa/sänd via rörledning/spara multimediabilagor"
++msgstr "visa/skicka via rörledning/spara multimediabilagor"
+ 
+ #: src/lang.c:645
+ msgid "choose first attachment in list"
+@@ -2244,15 +2249,15 @@
+ 
+ #: src/lang.c:649
+ msgid "pipe attachment into command"
+-msgstr "sänd bilagan till ett kommando via en rörledning"
++msgstr "skicka bilagan till ett kommando via en rörledning"
+ 
+ #: src/lang.c:650
+ msgid "pipe raw attachment into command"
+-msgstr "sänd bilagan i råformat till ett kommando via en rörledning"
++msgstr "skicka bilagan i råformat till ett kommando via en rörledning"
+ 
+ #: src/lang.c:652
+ msgid "save attachment to disk"
+-msgstr "spara bilaga till disk"
++msgstr "spara bilaga på disk"
+ 
+ #: src/lang.c:653
+ msgid "search for attachments forwards"
+@@ -2260,11 +2265,11 @@
+ 
+ #: src/lang.c:654
+ msgid "search for attachments backwards"
+-msgstr "sök efter bilagor baklänges"
++msgstr "sök efter bilagor bakåt"
+ 
+ #: src/lang.c:655
+ msgid "view attachment"
+-msgstr "visa bifogad fil"
++msgstr "visa bilaga"
+ 
+ #: src/lang.c:656
+ msgid "tag attachment"
+@@ -2272,7 +2277,7 @@
+ 
+ #: src/lang.c:657
+ msgid "tag attachments that match user specified pattern"
+-msgstr "märka bilagor som matchar användarens angivna mönster"
++msgstr "märk bilagor som matchar användarens angivna mönster"
+ 
+ #: src/lang.c:658
+ msgid "reverse tagging on all attachments (toggle)"
+@@ -2300,15 +2305,15 @@
+ 
+ #: src/lang.c:664
+ msgid "reset attribute to a default value"
+-msgstr "återställa attribut till ett standardvärde"
++msgstr "återställ attribut till ett standardvärde"
+ 
+ #: src/lang.c:665
+ msgid "search backwards for an attribute"
+-msgstr "sök baklänges efter ett attribut"
++msgstr "sök bakåt efter ett attribut"
+ 
+ #: src/lang.c:666
+ msgid "search forwards for an attribute"
+-msgstr "sök framåt för ett attribut"
++msgstr "sök framåt efter ett attribut"
+ 
+ #: src/lang.c:667
+ msgid "select attribute"
+@@ -2321,7 +2326,7 @@
+ #: src/lang.c:669
+ #, c-format
+ msgid "report bug or comment via mail to %s"
+-msgstr "rapportera fel eller kommentar via e-post till %s"
++msgstr "rapportera ett fel eller lämna en kommentar via e-post till %s"
+ 
+ #: src/lang.c:670
+ msgid "choose first option in list"
+@@ -2373,15 +2378,15 @@
+ 
+ #: src/lang.c:682
+ msgid "get help"
+-msgstr "få hjälp"
++msgstr "visa hjälp"
+ 
+ #: src/lang.c:683
+ msgid "display last article viewed"
+-msgstr "visa senaste artikel som visats"
++msgstr "visa senast visade artikel"
+ 
+ #: src/lang.c:684
+ msgid "down one line"
+-msgstr "en rad ner"
++msgstr "en rad ned"
+ 
+ #: src/lang.c:685
+ msgid "up one line"
+@@ -2389,11 +2394,11 @@
+ 
+ #: src/lang.c:686
+ msgid "go to article chosen by Message-ID"
+-msgstr "gå till artikeln som valts av Message-ID"
++msgstr "gå till artikel som valts med Message-ID"
+ 
+ #: src/lang.c:687
+ msgid "mail article/thread/hot/pattern/tagged articles to someone"
+-msgstr "skicka artikel/tråd/heta/mönstermatchande/märkta artiklar via e-post"
++msgstr "skicka artikel/tråd/hot-markerade/artiklar som matchar mönstret/märkta artiklar till någon via e-post"
+ 
+ #: src/lang.c:688
+ msgid "menu of configurable options"
+@@ -2401,7 +2406,7 @@
+ 
+ #: src/lang.c:689
+ msgid "down one page"
+-msgstr "ner en sida"
++msgstr "ned en sida"
+ 
+ #: src/lang.c:690
+ msgid "up one page"
+@@ -2409,7 +2414,7 @@
+ 
+ #: src/lang.c:692
+ msgid "post (write) article to current group"
+-msgstr "posta (skriva) artikel till aktuell grupp"
++msgstr "posta (skriv) artikel till aktuell grupp"
+ 
+ #: src/lang.c:693
+ msgid "post postponed articles"
+@@ -2417,7 +2422,7 @@
+ 
+ #: src/lang.c:695
+ msgid "list articles posted by you (from posted file)"
+-msgstr "lista dina postade artiklar (från filen posted)"
++msgstr "lista artiklar du postat (från filen posted)"
+ 
+ #: src/lang.c:696
+ msgid "return to previous menu"
+@@ -2429,11 +2434,11 @@
+ 
+ #: src/lang.c:698
+ msgid "redraw page"
+-msgstr "rita om sida"
++msgstr "rita om sidan"
+ 
+ #: src/lang.c:699
+ msgid "save article/thread/hot/pattern/tagged articles to file"
+-msgstr "spara artikel/tråd/heta/mönstermatchande/märkta artiklar till fil"
++msgstr "spara artikel/tråd/hot-markerade/artiklar som matchar mönstret/märkta artiklar till fil"
+ 
+ #: src/lang.c:700
+ msgid "save marked articles automatically without user prompts"
+@@ -2449,11 +2454,11 @@
+ 
+ #: src/lang.c:703
+ msgid "search for articles by author backwards"
+-msgstr "sök efter artiklar med författare bakåt"
++msgstr "sök bakåt efter artiklar av författare"
+ 
+ #: src/lang.c:704
+ msgid "search for articles by author forwards"
+-msgstr "sök efter artiklar med författare framåt"
++msgstr "sök framåt efter artiklar av författare"
+ 
+ #: src/lang.c:705
+ msgid "search all articles for a given string (this may take some time)"
+@@ -2465,15 +2470,15 @@
+ 
+ #: src/lang.c:707
+ msgid "search for articles by Subject line backwards"
+-msgstr "sök efter artiklar efter ämnesrad bakåt"
++msgstr "sök bakåt efter artiklar med Subject:-rad"
+ 
+ #: src/lang.c:708
+ msgid "search for articles by Subject line forwards"
+-msgstr "sök efter artiklar med ämnesraden framåt"
++msgstr "sök framåt efter artiklar med Subject:-rad"
+ 
+ #: src/lang.c:709
+ msgid "repeat last search"
+-msgstr "repetera senaste sökning"
++msgstr "upprepa senaste sökning"
+ 
+ #: src/lang.c:710
+ msgid "tag current article for reposting/mailing/piping/printing/saving"
+@@ -2481,7 +2486,7 @@
+ 
+ #: src/lang.c:711
+ msgid "toggle info message in last line (subject/description)"
+-msgstr "växla info meddelande i sista raden (ämne/beskrivning)"
++msgstr "växla informationsmeddelande på sista raden (ämne/beskrivning)"
+ 
+ #: src/lang.c:712
+ msgid "toggle inverse video"
+@@ -2493,7 +2498,7 @@
+ 
+ #: src/lang.c:714
+ msgid "cycle the display of authors email address, real name, both or neither"
+-msgstr "cykla visning av författarens e-postadress, riktiga namn, båda eller ingetdera"
++msgstr "växla mellan visning av författarens e-postadress, verkliga namn, båda eller ingetdera"
+ 
+ #: src/lang.c:715
+ msgid "show version information"
+@@ -2513,11 +2518,11 @@
+ 
+ #: src/lang.c:719
+ msgid "choose first thread in list"
+-msgstr "välj första tråd i lista"
++msgstr "välj första tråden i listan"
+ 
+ #: src/lang.c:720
+ msgid "choose last thread in list"
+-msgstr "välj sista tråd i lista"
++msgstr "välj sista tråden i listan"
+ 
+ #: src/lang.c:721
+ msgid "list articles within current thread (bring up Thread sub-menu)"
+@@ -2537,11 +2542,11 @@
+ 
+ #: src/lang.c:725
+ msgid "mark current/range/selected/pattern/tagged as read after prompting"
+-msgstr "markera aktuellt/område/valt/mönster/märkt som läst efter uppmaning"
++msgstr "markera aktuell artikel/intervall/valda/mönstermatchande/märkta som lästa efter bekräftelse"
+ 
+ #: src/lang.c:726
+ msgid "mark current/range/selected/pattern/tagged as unread after prompting"
+-msgstr "markera aktuell/område/vald/mönster/märkt som oläst efter uppmaning"
++msgstr "markera aktuell artikel/intervall/valda/mönstermatchande/märkta som olästa efter bekräftelse"
+ 
+ #: src/lang.c:727
+ msgid "toggle display of all/selected articles"
+@@ -2561,7 +2566,7 @@
+ 
+ #: src/lang.c:731
+ msgid "select group (make \"hot\")"
+-msgstr "välj grupp (gör \"het\")"
++msgstr "välj grupp (markera som hot)"
+ 
+ #: src/lang.c:732
+ msgid "select thread"
+@@ -2573,7 +2578,7 @@
+ 
+ #: src/lang.c:734
+ msgid "select threads that match user specified pattern"
+-msgstr "välja trådar som matchar användarens specificerade mönster"
++msgstr "välj trådar som matchar användarens angivna mönster"
+ 
+ #: src/lang.c:735
+ msgid "0 - 9\t  choose thread by number"
+@@ -2581,7 +2586,7 @@
+ 
+ #: src/lang.c:736
+ msgid "toggle limit number of articles to get, and reload"
+-msgstr "växla begränsa antalet artiklar som ska hämtas och ladda om"
++msgstr "växla begränsningen av antalet artiklar som ska hämtas och läs om"
+ 
+ #: src/lang.c:737
+ msgid "toggle display of all/unread articles"
+@@ -2605,19 +2610,19 @@
+ 
+ #: src/lang.c:742
+ msgid "search for articles forwards"
+-msgstr "sök efter artiklar framåt"
++msgstr "sök framåt efter artiklar"
+ 
+ #: src/lang.c:743
+ msgid "search for articles backwards"
+-msgstr "sök efter artiklar baklänges"
++msgstr "sök bakåt efter artiklar"
+ 
+ #: src/lang.c:744
+ msgid "toggle info message in last line (Message-ID)"
+-msgstr "växla info meddelande i sista raden (Message-ID)"
++msgstr "växla informationsmeddelande på sista raden (Message-ID)"
+ 
+ #: src/lang.c:745
+ msgid "Open article by Message-ID"
+-msgstr "Öppna artikel genom Message-ID"
++msgstr "Öppna artikel med Message-ID"
+ 
+ #: src/lang.c:746
+ msgid "add new scope"
+@@ -2633,7 +2638,7 @@
+ 
+ #: src/lang.c:749
+ msgid "choose first scope in list"
+-msgstr "välj första omfång i listan"
++msgstr "välj första omfånget i listan"
+ 
+ #: src/lang.c:750
+ msgid "0 - 9\t  choose scope by number"
+@@ -2641,7 +2646,7 @@
+ 
+ #: src/lang.c:751
+ msgid "choose last scope in list"
+-msgstr "välj sista omfång i listan"
++msgstr "välj sista omfånget i listan"
+ 
+ #: src/lang.c:752
+ msgid "move scope"
+@@ -2665,7 +2670,7 @@
+ 
+ #: src/lang.c:757
+ msgid "choose first group in list"
+-msgstr "välj första grupp i lista"
++msgstr "välj första gruppen i listan"
+ 
+ #: src/lang.c:758
+ msgid "choose group by name"
+@@ -2677,15 +2682,15 @@
+ 
+ #: src/lang.c:760
+ msgid "choose range of groups to be affected by next command"
+-msgstr "välj ett antal grupper som ska påverkas av nästa kommando"
++msgstr "välj gruppintervall som ska påverkas av nästa kommando"
+ 
+ #: src/lang.c:761
+ msgid "choose last group in list"
+-msgstr "välj sista grupp i lista"
++msgstr "välj sista gruppen i listan"
+ 
+ #: src/lang.c:763
+ msgid "list groups which an article has been posted to (by Message-ID)"
+-msgstr "lista grupper som en artikel har skickats till (av Message-ID)"
++msgstr "lista grupper som en artikel har postats till (med Message-ID)"
+ 
+ #: src/lang.c:764
+ msgid " \t  (go to article if at least one of the groups is available)"
+@@ -2717,11 +2722,11 @@
+ 
+ #: src/lang.c:772
+ msgid "reset .newsrc (all available articles in groups marked unread)"
+-msgstr "återställa .newsrc (alla tillgängliga artiklar i grupper markerade som olästa)"
++msgstr "återställ .newsrc (alla tillgängliga artiklar i grupper markeras som olästa)"
+ 
+ #: src/lang.c:773
+ msgid "search backwards for a group name"
+-msgstr "sök baklänges efter ett gruppnamn"
++msgstr "sök bakåt efter ett gruppnamn"
+ 
+ #: src/lang.c:774
+ msgid " \t  (all searches are case-insensitive and wrap around)"
+@@ -2737,16 +2742,16 @@
+ 
+ #: src/lang.c:777
+ msgid "subscribe to groups that match pattern"
+-msgstr "prenumerera på grupper som matchar mönster"
++msgstr "prenumerera på grupper som matchar mönstret"
+ 
+ #: src/lang.c:778
+ msgid "reread active file to check for any new news"
+-msgstr "läsa om aktiv fil för att kontrollera om det finns några nya nyheter"
++msgstr "läs om den aktiva filen för att kontrollera om det finns nya nyheter"
+ 
+ #. TODO: text is also used if reading from local spool
+ #: src/lang.c:780
+ msgid "show NNTP[S] connection details"
+-msgstr "visa detaljer om NNTP[S]-anslutning"
++msgstr "visa uppgifter om NNTP[S]-anslutning"
+ 
+ #: src/lang.c:781
+ msgid "toggle display of group name only or group name plus description"
+@@ -2754,27 +2759,27 @@
+ 
+ #: src/lang.c:782
+ msgid "toggle display to show all/unread subscribed groups"
+-msgstr "växla visning för att visa alla/ej lästa prenumererade grupper"
++msgstr "växla visning för att visa alla/olästa prenumererade grupper"
+ 
+ #: src/lang.c:783
+ msgid "unsubscribe from chosen group"
+-msgstr "säg upp prenumeration av vald grupp"
++msgstr "avsluta prenumerationen på vald grupp"
+ 
+ #: src/lang.c:784
+ msgid "unsubscribe from groups that match pattern"
+-msgstr "säg upp prenumeration av grupper som matchar mönster"
++msgstr "avsluta prenumerationen på grupper som matchar mönstret"
+ 
+ #: src/lang.c:785
+ msgid "sort the list of groups"
+-msgstr "sortera listan av grupper"
++msgstr "sortera listan över grupper"
+ 
+ #: src/lang.c:786
+ msgid "toggle display to show all/subscribed groups"
+-msgstr "växla display för att visa alla/prenumererade grupper"
++msgstr "växla visning för att visa alla/prenumererade grupper"
+ 
+ #: src/lang.c:787
+ msgid "tag/untag all parts of current multipart-message in order"
+-msgstr "märka/avmarkera alla delar av aktuellt flerpartsmeddelande i ordning"
++msgstr "märk/avmarkera alla delar av aktuellt flerpartsmeddelande i ordning"
+ 
+ #: src/lang.c:788
+ msgid "0 - 9\t  choose article by number"
+@@ -2790,15 +2795,15 @@
+ 
+ #: src/lang.c:791
+ msgid "choose first article in list"
+-msgstr "välj första artikel i lista"
++msgstr "välj första artikeln i listan"
+ 
+ #: src/lang.c:792
+ msgid "choose last article in list"
+-msgstr "välj sista artikel i lista"
++msgstr "välj sista artikeln i listan"
+ 
+ #: src/lang.c:793
+ msgid "mark art, range or tagged arts as read; move crsr to next unread art"
+-msgstr "markera artikel/intervall/märkta som lästa; flytta markören till nästa olästa"
++msgstr "markera artikel/intervall/märkta som lästa; flytta markören till nästa olästa artikel"
+ 
+ #: src/lang.c:794
+ msgid "mark article, range or tagged articles as unread"
+@@ -2817,32 +2822,32 @@
+ "Display properties\n"
+ "------------------"
+ msgstr ""
+-"Visa egenskaper\n"
+-"---------------"
++"Visningsegenskaper\n"
++"-------------------"
+ 
+ #: src/lang.c:798
+ msgid ""
+ "Miscellaneous\n"
+ "-------------"
+ msgstr ""
+-"Diverse\n"
+-"-------"
++"Övrigt\n"
++"------"
+ 
+ #: src/lang.c:799
+ msgid ""
+ "Moving around\n"
+ "-------------"
+ msgstr ""
+-"Flytta runt\n"
+-"-----------"
++"Navigering\n"
++"----------"
+ 
+ #: src/lang.c:800
+ msgid ""
+ "Group/thread/article operations\n"
+ "-------------------------------"
+ msgstr ""
+-"Operationer för grupp/tråd/artikel\n"
+-"----------------------------------"
++"Åtgärder för grupp/tråd/artikel\n"
++"--------------------------------"
+ 
+ #: src/lang.c:801
+ msgid ""
+@@ -2857,8 +2862,8 @@
+ "Attribute operations\n"
+ "--------------------"
+ msgstr ""
+-"Attributoperationer\n"
+-"--------------------"
++"Attributåtgärder\n"
++"-----------------"
+ 
+ #: src/lang.c:803
+ msgid ""
+@@ -2889,28 +2894,28 @@
+ "URL operations\n"
+ "--------------"
+ msgstr ""
+-"URL-operationer\n"
+-"--------------"
++"Webbadressåtgärder\n"
++"------------------"
+ 
+ #: src/lang.c:807
+ msgid "choose first URL in list"
+-msgstr "välj första URL i listan"
++msgstr "välj första webbadressen i listan"
+ 
+ #: src/lang.c:808
+ msgid "0 - 9\t  choose URL by number"
+-msgstr "0 - 9\t välj URL efter nummer"
++msgstr "0 - 9\t  välj webbadress efter nummer"
+ 
+ #: src/lang.c:809
+ msgid "choose last URL in list"
+-msgstr "välj den sista URL:en i listan"
++msgstr "välj sista webbadressen i listan"
+ 
+ #: src/lang.c:810
+ msgid "search for URLs forwards"
+-msgstr "sök efter URL:er framåt"
++msgstr "sök framåt efter webbadresser"
+ 
+ #: src/lang.c:811
+ msgid "search for URLs backwards"
+-msgstr "sök efter webbadresser baklänges"
++msgstr "sök bakåt efter webbadresser"
+ 
+ #: src/lang.c:812
+ msgid "Open URL in browser"
+@@ -2918,21 +2923,21 @@
+ 
+ #: src/lang.c:813
+ msgid "toggle info message in last line (URL)"
+-msgstr "växla info meddelande i sista raden (URL)"
++msgstr "växla informationsmeddelande på sista raden (URL)"
+ 
+ #: src/lang.c:814
+ msgid "Hot article"
+ msgid_plural "Hot articles"
+-msgstr[0] "Het artikel"
+-msgstr[1] "Heta artiklar"
++msgstr[0] "Hot-artikel"
++msgstr[1] "Hot-artikel"
+ 
+ #: src/lang.c:816
+ msgid "Group Level Commands"
+-msgstr "Gruppnivåkommandon"
++msgstr "Kommandon på gruppnivå"
+ 
+ #: src/lang.c:817
+ msgid "Kill filter added"
+-msgstr "Bortfiltreringsregel tillagd"
++msgstr "Bortfiltreringsregel har lagts till"
+ 
+ #: src/lang.c:818
+ msgid "Auto-selection filter added"
+@@ -2940,7 +2945,7 @@
+ 
+ #: src/lang.c:819
+ msgid "All parts tagged"
+-msgstr "Alla delar märkta"
++msgstr "Alla delar har märkts"
+ 
+ #: src/lang.c:820
+ msgid "All parts untagged"
+@@ -2949,20 +2954,20 @@
+ #: src/lang.c:821
+ #, c-format
+ msgid "Building References-trees (%d/%d)..."
+-msgstr "Bygger referensträd (%d/%d)..."
++msgstr "Bygger referensträd (%d/%d)…"
+ 
+ #: src/lang.c:822
+ msgid "Storing article for later posting"
+-msgstr "Lagring av artikel för senare publicering"
++msgstr "Lagrar artikel för senare postning"
+ 
+ #: src/lang.c:823
+ msgid "Please enter a valid character"
+-msgstr "Vänligen ange ett giltigt tecken"
++msgstr "Ange ett giltigt tecken"
+ 
+ #: src/lang.c:824
+ #, c-format
+ msgid "Missing part #%d"
+-msgstr "Saknar del #%d"
++msgstr "Del #%d saknas"
+ 
+ #: src/lang.c:825
+ msgid "*** No postponed articles ***"
+@@ -2978,7 +2983,7 @@
+ 
+ #: src/lang.c:828
+ msgid "You are not subscribed to this group"
+-msgstr "Du är inte prenumerant av denna grupp"
++msgstr "Du prenumererar inte på denna grupp"
+ 
+ #: src/lang.c:829
+ msgid "No previous expression"
+@@ -2986,15 +2991,15 @@
+ 
+ #: src/lang.c:830
+ msgid "Operation disabled in no-overwrite mode"
+-msgstr "Funktionen inaktiverad i läge utan överskrivning"
++msgstr "Åtgärden är inte tillgänglig i läget utan överskrivning"
+ 
+ #. TODO: replace hard coded key-name in txt_info_postponed_sp[]
+ #: src/lang.c:832
+ #, c-format
+ msgid "%d postponed article, reuse with ^O...\n"
+ msgid_plural "%d postponed articles, reuse with ^O...\n"
+-msgstr[0] "%d uppskjuten artikel, återanvändning med ^O...\n"
+-msgstr[1] "%d uppskjutna artiklar, återanvändning med ^O...\n"
++msgstr[0] "%d uppskjuten artikel, återanvänd med ^O…\n"
++msgstr[1] "%d uppskjutna artiklar, återanvänd med ^O…\n"
+ 
+ #: src/lang.c:833
+ msgid ""
+@@ -3060,12 +3065,12 @@
+ #: src/lang.c:855
+ #, c-format
+ msgid "Invalid disabled_nntp_cmds \"%s\", discarding it"
+-msgstr "Ogiltigt disabled_nntp_cmds \"%s\", kasseras"
++msgstr "Ogiltigt disabled_nntp_cmds ”%s”, förkastar det"
+ 
+ #: src/lang.c:857
+ #, c-format
+ msgid "Invalid From:-header \"%s\". Check your mail_address setting."
+-msgstr "Ogiltig From:-huvud \"%s\". Kontrollera din mail_address-inställning."
++msgstr "Ogiltig From:-rubrik ”%s”. Kontrollera inställningen mail_address."
+ 
+ #: src/lang.c:859
+ msgid "Charset name contains invalid characters"
+@@ -3073,12 +3078,12 @@
+ 
+ #: src/lang.c:862
+ msgid "Invalid multibyte sequence found\n"
+-msgstr "Ogiltig multibyte-sekvens hittades\n"
++msgstr "Ogiltig flerbyteteckensekvens hittades\n"
+ 
+ #: src/lang.c:865
+ #, c-format
+ msgid "Invalid Sender:-header \"%s\""
+-msgstr "Ogiltigt Sender:-huvud \"%s\""
++msgstr "Ogiltig Sender:-rubrik ”%s”"
+ 
+ #: src/lang.c:867
+ msgid "Inverse video disabled"
+@@ -3090,22 +3095,22 @@
+ 
+ #: src/lang.c:870
+ msgid " Keeping serverrc.add_cmd_line_opts."
+-msgstr " Behålla serverrc.add_cmd_line_opts."
++msgstr " Behåller serverrc.add_cmd_line_opts."
+ 
+ #: src/lang.c:871
+ #, c-format
+ msgid "Missing definition for %s\n"
+-msgstr "Saknar definition för %s\n"
++msgstr "Definition för %s saknas\n"
+ 
+ #: src/lang.c:872
+ #, c-format
+ msgid "Invalid key definition '%s'\n"
+-msgstr "Ogiltig tangentdefinition '%s'\n"
++msgstr "Ogiltig tangentdefinition ”%s”\n"
+ 
+ #: src/lang.c:873
+ #, c-format
+ msgid "Invalid keyname '%s'\n"
+-msgstr "Ogiltigt tangentnamn '%s'\n"
++msgstr "Ogiltigt tangentnamn ”%s”\n"
+ 
+ #: src/lang.c:874
+ #, c-format
+@@ -3148,7 +3153,7 @@
+ 
+ #: src/lang.c:885
+ msgid "Kill time in days   : "
+-msgstr "Filtrets tid i dagar : "
++msgstr "Filtrets varaktighet i dagar: "
+ 
+ #: src/lang.c:887
+ msgid "Last"
+@@ -3156,7 +3161,7 @@
+ 
+ #: src/lang.c:888
+ msgid "-- Last response --"
+-msgstr "-- Sista svaret --"
++msgstr "-- Senaste svaret --"
+ 
+ #: src/lang.c:889
+ #, c-format
+@@ -3189,7 +3194,7 @@
+ #: src/lang.c:901
+ #, c-format
+ msgid "Mail article(s) to [%.*s]> "
+-msgstr "Skicka artikel(ar) till [%.*s]> "
++msgstr "Skicka artikel/artiklar till [%.*s]> "
+ 
+ #: src/lang.c:902
+ #, c-format
+@@ -3198,12 +3203,12 @@
+ 
+ #: src/lang.c:903
+ msgid "Mail bug report..."
+-msgstr "Maila felrapport..."
++msgstr "Skickar felrapport…"
+ 
+ #: src/lang.c:904
+ #, c-format
+ msgid "Mail BUG REPORT to %s?"
+-msgstr "Skicka FELRAPPORT till %s?"
++msgstr "Skicka FELRAPPORT via e-post till %s?"
+ 
+ #: src/lang.c:905
+ msgid "Mailed"
+@@ -3212,7 +3217,7 @@
+ #: src/lang.c:906
+ #, c-format
+ msgid "Mailing to %s..."
+-msgstr "Skickar till %s..."
++msgstr "Skickar till %s…"
+ 
+ #: src/lang.c:907
+ msgid ""
+@@ -3221,9 +3226,9 @@
+ "# The 4th field is the basedir (i.e. ~/Mail or ~/News)\n"
+ "#\n"
+ msgstr ""
+-"# [Mail/Save] aktiv fil. Formatet är som för en aktiv fil för nyheter:\n"
++"# [Mail/Save] aktiv fil. Formatet liknar nyheternas aktiva fil:\n"
+ "# gruppnamn max.artnum min.artnum /dir\n"
+-"# Det fjärde fältet är basedir (t.ex. ~/Mail eller ~/News)\n"
++"# Det fjärde fältet är baskatalogen (t.ex. ~/Mail eller ~/News)\n"
+ "#\n"
+ 
+ #: src/lang.c:910
+@@ -3269,7 +3274,7 @@
+ #: src/lang.c:919
+ #, c-format
+ msgid "Mark group %s as read?"
+-msgstr "Markera grupp %s som läst?"
++msgstr "Markera gruppen %s som läst?"
+ 
+ #: src/lang.c:920
+ #, c-format
+@@ -3279,7 +3284,7 @@
+ #: src/lang.c:921
+ #, c-format
+ msgid "Matching %s groups..."
+-msgstr "Matchar %s grupper..."
++msgstr "Letar efter %s grupper…"
+ 
+ #: src/lang.c:924
+ #, c-format
+@@ -3289,7 +3294,7 @@
+ #: src/lang.c:925
+ #, c-format
+ msgid "content subtype %s"
+-msgstr "subtyp för innehåll %s"
++msgstr "innehållsundertyp %s"
+ 
+ #: src/lang.c:926
+ #, c-format
+@@ -3299,7 +3304,7 @@
+ #: src/lang.c:927
+ #, c-format
+ msgid "%*s[-- charset %s not supported --]\n"
+-msgstr "%*s[-- charset %s stöds inte --]\n"
++msgstr "%*s[-- teckenkodning %s kan inte användas --]\n"
+ 
+ #: src/lang.c:928
+ #, c-format
+@@ -3344,8 +3349,8 @@
+ "to understand the new format, and some of what follows may look strange.\n"
+ "\n"
+ msgstr ""
+-"Detta meddelande har sammanställts i MIME-formatet \"multipart/mixed\". Om du\n"
+-"läser detta prefix har din e-postläsare förmodligen ännu inte modifierats\n"
++"Detta meddelande har skapats i MIME-formatet ”multipart/mixed”. Om du\n"
++"läser detta prefix har din e-postläsare förmodligen ännu inte ändrats\n"
+ "för att förstå det nya formatet, och en del av det som följer kan se konstigt ut.\n"
+ "\n"
+ 
+@@ -3357,17 +3362,17 @@
+ #: src/lang.c:946
+ #, c-format
+ msgid "%s=view; %s=pipe; %s=pipe raw; %s=save; %s=tag; %s=tag pattern; %s=untag all"
+-msgstr "%s=visa; %s=rör; %s=rått rör; %s=spara; %s=märk; %s=mönster; %s=avmärk alla"
++msgstr "%s=visa; %s=skicka via rörledning; %s=skicka rå; %s=spara; %s=märk; %s=märk efter mönster; %s=avmärk alla"
+ 
+ #: src/lang.c:948
+ #, c-format
+ msgid "%s=view; %s=save; %s=tag; %s=tag pattern; %s=untag all"
+-msgstr "%s=visa; %s=spara; %s=märk; %s=märk mönster; %s=avmärk alla"
++msgstr "%s=visa; %s=spara; %s=märk; %s=märk efter mönster; %s=avmärk alla"
+ 
+ #: src/lang.c:950
+ #, c-format
+ msgid "%s=reverse tagging; %s=search forwards; %s=search backwards; %s=repeat search"
+-msgstr "%s=omvänd taggning; %s=sökning framåt; %s=sökning bakåt; %s=upprepa sökning"
++msgstr "%s=omvänd märkning; %s=sök framåt; %s=sök bakåt; %s=upprepa sökning"
+ 
+ #: src/lang.c:951 src/lang.c:955
+ #, c-format
+@@ -3377,12 +3382,12 @@
+ #: src/lang.c:952
+ #, c-format
+ msgid "%s=author search; %s=catchup; %s=line down; %s=line up; %s=mark read; %s=list thread"
+-msgstr "%s=författare; %s=läs allt; %s=rad ned; %s=rad upp; %s=läsmarkera; %s=trådlista"
++msgstr "%s=författarsökning; %s=läs allt; %s=rad ned; %s=rad upp; %s=markera som läst; %s=trådlista"
+ 
+ #: src/lang.c:953
+ #, c-format
+ msgid "%s=line up; %s=line down; %s=page up; %s=page down; %s=top; %s=bottom"
+-msgstr "%s=rad upp; %s=rad ner; %s=sida upp; %s=sida ned; %s=topp; %s=botten"
++msgstr "%s=rad upp; %s=rad ned; %s=sida upp; %s=sida ned; %s=topp; %s=botten"
+ 
+ #: src/lang.c:954
+ #, c-format
+@@ -3392,17 +3397,17 @@
+ #: src/lang.c:956
+ #, c-format
+ msgid "%s=author search; %s=body search; %s=catchup; %s=followup; %s=mark read"
+-msgstr "%s=författare; %s=textsökning; %s=läs allt; %s=följ upp; %s=läsmarkera"
++msgstr "%s=författarsökning; %s=brödtextsökning; %s=läs allt; %s=följ upp; %s=markera som läst"
+ 
+ #: src/lang.c:958 src/lang.c:967
+ #, c-format
+ msgid "%s=search forwards; %s=search backwards; %s=repeat search"
+-msgstr "%s=sökning framåt; %s=sökning bakåt; %s=upprepa sökning"
++msgstr "%s=sök framåt; %s=sök bakåt; %s=upprepa sökning"
+ 
+ #: src/lang.c:959
+ #, c-format
+ msgid "%s=add; %s=move; %s=rename; %s=delete"
+-msgstr "%s=lägga till; %s=flytta; %s=byta namn; %s=ta bort"
++msgstr "%s=lägg till; %s=flytta; %s=byt namn; %s=ta bort"
+ 
+ #: src/lang.c:961
+ #, c-format
+@@ -3412,7 +3417,7 @@
+ #: src/lang.c:962
+ #, c-format
+ msgid "%s=line down; %s=line up; %s=help; %s=move; %s=quit; %s=toggle all/unread"
+-msgstr "%s=rad ner; %s=rad upp; %s=hjälp; %s=flytta; %s=avsluta; %s=växla alla/olästa"
++msgstr "%s=rad ned; %s=rad upp; %s=hjälp; %s=flytta; %s=avsluta; %s=växla alla/olästa"
+ 
+ #: src/lang.c:963
+ #, c-format
+@@ -3427,7 +3432,7 @@
+ #: src/lang.c:965
+ #, c-format
+ msgid "%s=help; %s=line down; %s=line up; %s=quit; %s=tag; %s=mark unread"
+-msgstr "%s=hjälp; %s=rad ner; %s=rad upp; %s=avsluta; %s=märk; %s=markera oläst"
++msgstr "%s=hjälp; %s=rad ned; %s=rad upp; %s=avsluta; %s=märk; %s=markera oläst"
+ 
+ #: src/lang.c:968
+ msgid "--More--"
+@@ -3441,12 +3446,12 @@
+ #: src/lang.c:972
+ #, c-format
+ msgid "Moving %s..."
+-msgstr "Flyttar %s..."
++msgstr "Flyttar %s…"
+ 
+ #. TRANSLATORS: do not translate header names like 'Message-ID:'
+ #: src/lang.c:974
+ msgid "Message-ID: & last Reference  "
+-msgstr "Message-ID: & senaste referens "
++msgstr "Message-ID: och senaste referensen "
+ 
+ #. TRANSLATORS: do not translate header names like 'Message-ID:'
+ #: src/lang.c:976
+@@ -3466,11 +3471,11 @@
+ #: src/lang.c:981
+ #, c-format
+ msgid "Position %s in group list (1,2,..,$) [%d]> "
+-msgstr "Position %s i grupplistan (1,2,...,$) [%d]> "
++msgstr "Position %s i grupplistan (1,2,..,$) [%d]> "
+ 
+ #: src/lang.c:982
+ msgid "Try and save newsrc file again?"
+-msgstr "Försöka att spara filen newsrc igen?"
++msgstr "Försök spara filen newsrc igen?"
+ 
+ #: src/lang.c:983
+ #, c-format
+@@ -3480,7 +3485,7 @@
+ #: src/lang.c:984
+ #, c-format
+ msgid "%s file saved successfully.\n"
+-msgstr "%s filen sparades framgångsrikt.\n"
++msgstr "%s-filen sparades utan fel.\n"
+ 
+ #: src/lang.c:985
+ msgid "-- Next response --"
+@@ -3524,7 +3529,7 @@
+ 
+ #: src/lang.c:995
+ msgid "No last message"
+-msgstr "Inget sista meddelande"
++msgstr "Inget senaste meddelande"
+ 
+ #: src/lang.c:996
+ msgid "No mail address"
+@@ -3548,7 +3553,7 @@
+ 
+ #: src/lang.c:1001
+ msgid "No next unread article"
+-msgstr "Slut på olästa artiklar"
++msgstr "Ingen nästa oläst artikel"
+ 
+ #: src/lang.c:1002
+ msgid "No previous group"
+@@ -3600,7 +3605,7 @@
+ #: src/lang.c:1014
+ #, c-format
+ msgid "%s: Terminal must have cursor motion (cm)\n"
+-msgstr "%s: Terminalen måste ha markörrörelse (cm)\n"
++msgstr "%s: Terminalen måste ha markörförflyttning (cm)\n"
+ 
+ #: src/lang.c:1015
+ #, c-format
+@@ -3685,7 +3690,7 @@
+ 
+ #: src/lang.c:1038
+ msgid "Options Menu Commands"
+-msgstr "Kommandon i menyn Alternativ"
++msgstr "Kommandon i alternativmenyn"
+ 
+ #: src/lang.c:1039
+ #, c-format
+@@ -3700,12 +3705,12 @@
+ #: src/lang.c:1044
+ #, c-format
+ msgid "Error in regex: %s at pos. %d '%s'"
+-msgstr "Fel i regex: %s vid pos. %d '%s'"
++msgstr "Fel i regex: %s vid position %d ”%s”"
+ 
+ #: src/lang.c:1045
+ #, c-format
+ msgid "Error in regex: pcre internal error %d"
+-msgstr "Fel i regex: pcre internt fel %d"
++msgstr "Fel i regex: internt PCRE-fel %d"
+ 
+ #: src/lang.c:1046
+ msgid "[-- PGP SIGNED MESSAGE --]\n"
+@@ -3714,11 +3719,11 @@
+ #: src/lang.c:1048
+ #, c-format
+ msgid "Error in regex: study - pcre internal error %s"
+-msgstr "Fel i regex: studie - pcre internt fel %s"
++msgstr "Fel i regex: study – internt PCRE-fel %s"
+ 
+ #: src/lang.c:1050
+ msgid "Post a followup..."
+-msgstr "Posta en uppföljning..."
++msgstr "Posta en uppföljning…"
+ 
+ #. TODO: replace hard coded key-name in txt_post_error_ask_postpone
+ #: src/lang.c:1052
+@@ -3727,9 +3732,9 @@
+ "error is temporary or otherwise correctable, you can postpone the article\n"
+ "and pick it up again with ^O later.\n"
+ msgstr ""
+-"Ett fel har inträffat när artikeln publicerades. Om du tror att detta\n"
+-"fel är tillfälligt eller på annat sätt går att rätta till, kan du skjuta upp artikeln\n"
+-"och plocka upp den igen med ^O senare.\n"
++"Ett fel har inträffat när artikeln postades. Om du tror att detta\n"
++"fel är tillfälligt eller på annat sätt går att rätta till kan du skjuta upp artikeln\n"
++"och hämta den igen senare med ^O.\n"
+ 
+ #: src/lang.c:1055
+ msgid "Posted articles history"
+@@ -3741,7 +3746,7 @@
+ 
+ #: src/lang.c:1057
+ msgid "Lookup failed"
+-msgstr "Uppslagning misslyckades"
++msgstr "Uppslagningen misslyckades"
+ 
+ #: src/lang.c:1058
+ msgid "Operation not available for replies by mail"
+@@ -3749,12 +3754,12 @@
+ 
+ #: src/lang.c:1059
+ msgid "Already in posted articles history level"
+-msgstr "Redan i historiken över postade artiklar"
++msgstr "Redan på nivån för historik över postade artiklar"
+ 
+ #: src/lang.c:1060
+ #, c-format
+ msgid "Post to newsgroup(s) [%s]> "
+-msgstr "Posta till diskussionsgrupp(er) [%s]> "
++msgstr "Posta till nyhetsgrupp(er) [%s]> "
+ 
+ #: src/lang.c:1061
+ msgid "-- post processing started --"
+@@ -3775,7 +3780,7 @@
+ 
+ #: src/lang.c:1065
+ msgid "Posting article..."
+-msgstr "Postar artikel..."
++msgstr "Postar artikel…"
+ 
+ #: src/lang.c:1067
+ #, c-format
+@@ -3785,21 +3790,21 @@
+ #: src/lang.c:1069
+ #, c-format
+ msgid "Posting: %.*s ..."
+-msgstr "Postar: %.*s ..."
++msgstr "Postar: %.*s …"
+ 
+ #: src/lang.c:1070
+ #, c-format
+ msgid "Post postponed articles [%%s]? (%s/%s/%s/%s/%s): "
+-msgstr "Lägg upp uppskjutna artiklar [%%s]? (%s/%s/%s/%s/%s): "
++msgstr "Posta uppskjutna artiklar [%%s]? (%s/%s/%s/%s/%s): "
+ 
+ #: src/lang.c:1072
+ #, c-format
+ msgid "Preparing for filtering on Path header (%d/%d)..."
+-msgstr "Förbereder för filtrering på Path-huvud (%d/%d)..."
++msgstr "Förbereder för filtrering på rubriken Path: (%d/%d)…"
+ 
+ #: src/lang.c:1074
+ msgid "Processing attributes..."
+-msgstr "Bearbetning av attribut..."
++msgstr "Bearbetar attribut…"
+ 
+ #: src/lang.c:1075
+ msgid "Processing mail messages marked for deletion."
+@@ -3807,7 +3812,7 @@
+ 
+ #: src/lang.c:1076
+ msgid "Processing saved articles marked for deletion."
+-msgstr "Bearbetning av sparade artiklar som markerats för borttagning."
++msgstr "Bearbetar sparade artiklar som markerats för borttagning."
+ 
+ #: src/lang.c:1077
+ #, c-format
+@@ -3816,7 +3821,7 @@
+ 
+ #: src/lang.c:1078
+ msgid "Article unchanged, abort mailing?"
+-msgstr "Artikel oförändrad, avbryta utskick?"
++msgstr "Artikeln är oförändrad. Avbryt utskicket?"
+ 
+ #: src/lang.c:1079
+ #, c-format
+@@ -3827,11 +3832,11 @@
+ 
+ #: src/lang.c:1081
+ msgid "Add quick kill filter?"
+-msgstr "Lägga till snabbfilter för bortfiltrering?"
++msgstr "Lägg till snabbfilter för bortfiltrering?"
+ 
+ #: src/lang.c:1082
+ msgid "Add quick selection filter?"
+-msgstr "Lägga till snabbvalsfiltret?"
++msgstr "Lägg till snabbfilter för urval?"
+ 
+ #: src/lang.c:1083
+ msgid "Do you really want to quit?"
+@@ -3845,13 +3850,13 @@
+ #: src/lang.c:1085
+ msgid "You have a tagged article in this group - quit anyway?"
+ msgid_plural "You have tagged articles in this group - quit anyway?"
+-msgstr[0] "Du har en taggad artikel i den här gruppen – avsluta ändå?"
+-msgstr[1] "Du har taggat artiklar i denna grupp – avsluta ändå?"
++msgstr[0] "Du har en märkt artikel i den här gruppen – avsluta ändå?"
++msgstr[1] "Du har märkta artiklar i den här gruppen – avsluta ändå?"
+ 
+ #: src/lang.c:1086
+ #, c-format
+ msgid "%s=quit, %s=edit, %s=postpone: "
+-msgstr "%s=avsluta, %s=redigera, %s=uppskjut: "
++msgstr "%s=avsluta, %s=redigera, %s=skjut upp: "
+ 
+ #: src/lang.c:1087
+ #, c-format
+@@ -3869,7 +3874,7 @@
+ 
+ #: src/lang.c:1091
+ msgid "Invalid range - valid are '0-9.$' e.g. 1-$"
+-msgstr "Ogiltigt intervall - giltigt är '0-9.$' t.ex. 1-$"
++msgstr "Ogiltigt intervall – giltiga värden är '0-9.$', t.ex. 1-$"
+ 
+ #: src/lang.c:1093
+ msgid "Do you want to abort this operation?"
+@@ -3881,15 +3886,15 @@
+ 
+ #: src/lang.c:1096
+ msgid "Reading all articles..."
+-msgstr "Läser alla artiklar..."
++msgstr "Läser alla artiklar…"
+ 
+ #: src/lang.c:1097
+ msgid "Reading all groups..."
+-msgstr "Läser alla grupper..."
++msgstr "Läser alla grupper…"
+ 
+ #: src/lang.c:1098
+ msgid "Reading ('q' to quit)..."
+-msgstr "Läser (\"q\" för att avsluta)..."
++msgstr "Läser (\"q\" för att avsluta)…"
+ 
+ #: src/lang.c:1099
+ #, c-format
+@@ -3933,19 +3938,19 @@
+ #: src/lang.c:1109
+ #, c-format
+ msgid "Reading keymap file: %s\n"
+-msgstr "Läser keymap-fil: %s\n"
++msgstr "Läser tangentbindningsfil: %s\n"
+ 
+ #: src/lang.c:1110
+ msgid "Reading groups from active file... "
+-msgstr "Läser grupper från aktiv fil... "
++msgstr "Läser grupper från den aktiva filen… "
+ 
+ #: src/lang.c:1111
+ msgid "Reading groups from newsrc file... "
+-msgstr "Läser grupper från newsrc-filen ... "
++msgstr "Läser grupper från newsrc-filen… "
+ 
+ #: src/lang.c:1112
+ msgid "Reading newsgroups file... "
+-msgstr "Läser nyhetsgruppsfil... "
++msgstr "Läser nyhetsgruppsfil… "
+ 
+ #: src/lang.c:1113
+ #, c-format
+@@ -3954,11 +3959,11 @@
+ 
+ #: src/lang.c:1114
+ msgid "Reading unread articles..."
+-msgstr "Läsa olästa artiklar..."
++msgstr "Läser olästa artiklar…"
+ 
+ #: src/lang.c:1115
+ msgid "Reading unread groups..."
+-msgstr "Läser olästa grupper..."
++msgstr "Läser olästa grupper…"
+ 
+ #. TRANSLATORS: do not translate header names like 'References:'
+ #: src/lang.c:1117
+@@ -3973,7 +3978,7 @@
+ #: src/lang.c:1121
+ #, c-format
+ msgid "Bogus group %s removed."
+-msgstr "Falsk grupp %s borttagen."
++msgstr "Felaktig grupp %s togs bort."
+ 
+ #: src/lang.c:1122
+ msgid "Removed from this rule: "
+@@ -3982,11 +3987,11 @@
+ #: src/lang.c:1123
+ #, c-format
+ msgid "Error: rename %s to %s"
+-msgstr "Fel: byt namn på %s till %s"
++msgstr "Fel: kan inte byta namn från %s till %s"
+ 
+ #: src/lang.c:1124
+ msgid "Reply to author..."
+-msgstr "Svara till författaren..."
++msgstr "Svara författaren via e-post…"
+ 
+ #: src/lang.c:1125
+ msgid "Repost"
+@@ -3994,13 +3999,13 @@
+ 
+ #: src/lang.c:1126
+ msgid "Reposting article..."
+-msgstr "Återpublicerar artikel..."
++msgstr "Postar om artikel…"
+ 
+ #. TODO: plural-forms? (do we have a counter?)
+ #: src/lang.c:1128
+ #, c-format
+ msgid "Repost article(s) to group(s) [%s]> "
+-msgstr "Skicka om artikel(er) till grupp(er) [%s]> "
++msgstr "Posta om artikel/artiklar till nyhetsgrupp(er) [%s]> "
+ 
+ #: src/lang.c:1129
+ msgid "Reset newsrc?"
+@@ -4015,11 +4020,11 @@
+ #: src/lang.c:1131
+ #, c-format
+ msgid "Responses have been directed to poster. %s=mail, %s=post, %s=quit: "
+-msgstr "Svar har styrts till författaren. %s=e-post, %s=posta, %s=avsluta: "
++msgstr "Svar har styrts till artikelförfattaren. %s=e-post, %s=posta, %s=avsluta: "
+ 
+ #: src/lang.c:1132
+ msgid "Press <RETURN> to continue..."
+-msgstr "Tryck <RETURN> för att fortsätta..."
++msgstr "Tryck på <RETURN> för att fortsätta…"
+ 
+ #: src/lang.c:1134
+ #, c-format
+@@ -4039,7 +4044,7 @@
+ 
+ #: src/lang.c:1139
+ msgid "Auto-select Article Menu"
+-msgstr "Meny för automatiskt artikelval"
++msgstr "Meny för automatiskt urval av artiklar"
+ 
+ #: src/lang.c:1140
+ #, c-format
+@@ -4089,7 +4094,7 @@
+ "\n"
+ msgstr ""
+ "# %s konfigurationsfil för server\n"
+-"# Den här filen sparades automatiskt av %s %s %s (\"%s\")\n"
++"# Den här filen sparades automatiskt av %s %s %s (”%s”)\n"
+ "#\n"
+ "# Redigera inte medan %s körs, eftersom alla dina ändringar i den här filen\n"
+ "# kommer att skrivas över när du lämnar %s.\n"
+@@ -4119,7 +4124,7 @@
+ "# tinrc overrides\n"
+ msgstr ""
+ "\n"
+-"# tinrc åsidosätter\n"
++"# tinrc-åsidosättningar\n"
+ 
+ #: src/lang.c:1158
+ msgid "Serverrc Menu"
+@@ -4150,11 +4155,11 @@
+ #: src/lang.c:1166
+ #, c-format
+ msgid "Save '%s' (%s/%s)?"
+-msgstr "Spara \"%s\" (%s/%s)?"
++msgstr "Spara ”%s” (%s/%s)?"
+ 
+ #: src/lang.c:1167
+ msgid "Save configuration before continuing?"
+-msgstr "Spara konfiguration före du fortsätter?"
++msgstr "Spara konfiguration innan du fortsätter?"
+ 
+ #: src/lang.c:1168
+ msgid "Save filename> "
+@@ -4167,12 +4172,12 @@
+ #: src/lang.c:1170
+ #, c-format
+ msgid "%s unread (%s hot) %s in %s\n"
+-msgstr "%s olästa (%s heta) %s i %s\n"
++msgstr "%s olästa (%s hot) %s i %s\n"
+ 
+ #: src/lang.c:1171
+ #, c-format
+ msgid "Saved %s...\n"
+-msgstr "Sparade %s...\n"
++msgstr "Sparade %s…\n"
+ 
+ #: src/lang.c:1172
+ msgid "Nothing was saved"
+@@ -4190,16 +4195,16 @@
+ #: src/lang.c:1174
+ #, c-format
+ msgid "-- %s saved to %s%s --"
+-msgstr "-- %s sparad till %s%s --"
++msgstr "-- %s sparades till %s%s --"
+ 
+ #: src/lang.c:1175
+ #, c-format
+ msgid "-- %s saved to %s - %s --"
+-msgstr "-- %s sparad till %s - %s --"
++msgstr "-- %s sparades till %s – %s --"
+ 
+ #: src/lang.c:1176
+ msgid "Saving..."
+-msgstr "Sparar..."
++msgstr "Sparar…"
+ 
+ #: src/lang.c:1177
+ #, c-format
+@@ -4209,7 +4214,7 @@
+ #: src/lang.c:1179
+ #, c-format
+ msgid "%s: screen is too small\n"
+-msgstr "%s: skärm är för liten\n"
++msgstr "%s: skärmen är för liten\n"
+ 
+ #: src/lang.c:1181
+ #, c-format
+@@ -4218,7 +4223,7 @@
+ 
+ #: src/lang.c:1182
+ msgid "Delete scope?"
+-msgstr "Ta bort omfång?"
++msgstr "Ta bort omfånget?"
+ 
+ #: src/lang.c:1183
+ msgid "Enter scope> "
+@@ -4234,7 +4239,7 @@
+ 
+ #: src/lang.c:1186
+ msgid "Global scope, operation not allowed"
+-msgstr "Globalt omfång, åtgärden tillåts inte"
++msgstr "Globalt omfång – åtgärden är inte tillåten"
+ 
+ #: src/lang.c:1187
+ msgid "Rename scope> "
+@@ -4269,12 +4274,12 @@
+ 
+ #: src/lang.c:1194
+ msgid "Searching..."
+-msgstr "Söker..."
++msgstr "Söker…"
+ 
+ #: src/lang.c:1195
+ #, c-format
+ msgid "Searching article %d of %d ('q' to abort)..."
+-msgstr "Söker artikel %d av %d ('q' för att avbryta)..."
++msgstr "Söker artikel %d av %d ('q' för att avbryta)…"
+ 
+ #: src/lang.c:1196
+ msgid "Select article> "
+@@ -4282,7 +4287,7 @@
+ 
+ #: src/lang.c:1197
+ msgid "Select option number before text or use arrow keys and <CR>. 'q' to quit."
+-msgstr "Välj alternativnummer före texten eller använd piltangenter och <CR>. \"q\" avsluta."
++msgstr "Välj alternativnummer före texten eller använd piltangenter och <CR>. ”q” för att avsluta."
+ 
+ #: src/lang.c:1198
+ msgid "Select group> "
+@@ -4300,11 +4305,11 @@
+ #: src/lang.c:1201
+ #, c-format
+ msgid "%s %s %s (\"%s\"): send a DETAILED bug report to %s\n"
+-msgstr "%s %s %s (\"%s\"): skicka en DETALJERAD felrapport till %s\n"
++msgstr "%s %s %s (”%s”): skicka en DETALJERAD felrapport till %s\n"
+ 
+ #: src/lang.c:1202
+ msgid "Serverrc Menu Commands"
+-msgstr "Serverrc-menykommandon"
++msgstr "Kommandon i serverrc-menyn"
+ 
+ #: src/lang.c:1203
+ msgid "servers active-file"
+@@ -4313,15 +4318,15 @@
+ #: src/lang.c:1204
+ #, c-format
+ msgid "Skipped %s"
+-msgstr "Utelämnad %s"
++msgstr "Hoppade över %s"
+ 
+ #: src/lang.c:1205
+ msgid "Cannot move into new newsgroups. Subscribe first..."
+-msgstr "Det går inte att flytta till nya nyhetsgrupper. Prenumerera först..."
++msgstr "Det går inte att flytta till nya nyhetsgrupper. Prenumerera först…"
+ 
+ #: src/lang.c:1206
+ msgid "<SPACE>"
+-msgstr "<BLANKSTEG>"
++msgstr "<MELLANSLAG>"
+ 
+ #: src/lang.c:1207
+ #, c-format
+@@ -4336,7 +4341,7 @@
+ #: src/lang.c:1211
+ #, c-format
+ msgid "List Thread (%d of %d)"
+-msgstr "Lista tråd (%d av %d)"
++msgstr "Listar tråd (%d av %d)"
+ 
+ #: src/lang.c:1212
+ #, c-format
+@@ -4345,38 +4350,38 @@
+ 
+ #: src/lang.c:1213
+ msgid "Enter wildcard subscribe pattern> "
+-msgstr "Ange jokertecken för prenumerationsmönster> "
++msgstr "Ange prenumerationsmönster med jokertecken> "
+ 
+ #: src/lang.c:1214
+ #, c-format
+ msgid "subscribed to %d group"
+ msgid_plural "subscribed to %d groups"
+-msgstr[0] "prenumererar på %d grupp"
+-msgstr[1] "prenumererar på %d grupper"
++msgstr[0] "prenumererade på %d grupp"
++msgstr[1] "prenumererade på %d grupper"
+ 
+ #: src/lang.c:1215
+ #, c-format
+ msgid "Subscribed to %s"
+-msgstr "Prenumererar på %s"
++msgstr "Prenumererade på %s"
+ 
+ #: src/lang.c:1216
+ msgid "Subscribing... "
+-msgstr "Prenumeration... "
++msgstr "Prenumererar… "
+ 
+ #: src/lang.c:1217
+ #, c-format
+ msgid "Repost or supersede article(s) [%%s]? (%s/%s/%s): "
+-msgstr "Skicka om eller ersätta artikel(er) [%%s]? (%s/%s/%s): "
++msgstr "Skicka om eller ersätt artikel/artiklar [%%s]? (%s/%s/%s): "
+ 
+ #. TODO: plural-forms? (do we have a counter?)
+ #: src/lang.c:1219
+ #, c-format
+ msgid "Supersede article(s) to group(s) [%s]> "
+-msgstr "Ersätt artikel(er) till grupp(er) [%s]> "
++msgstr "Ersätt artikel/artiklar i nyhetsgrupp(er) [%s]> "
+ 
+ #: src/lang.c:1220
+ msgid "Superseding article ..."
+-msgstr "Ersätter artikel ..."
++msgstr "Ersätter artikel…"
+ 
+ #: src/lang.c:1221
+ #, c-format
+@@ -4401,12 +4406,12 @@
+ #: src/lang.c:1225
+ msgid "Tagged article"
+ msgid_plural "Tagged articles"
+-msgstr[0] "Taggad artikel"
+-msgstr[1] "Taggade artiklar"
++msgstr[0] "Märkt artikel"
++msgstr[1] "Märkta artiklar"
+ 
+ #: src/lang.c:1226
+ msgid "Tagged thread"
+-msgstr "Taggad tråd"
++msgstr "Märkt tråd"
+ 
+ #: src/lang.c:1228
+ msgid "TeX "
+@@ -4415,11 +4420,11 @@
+ #: src/lang.c:1229
+ #, c-format
+ msgid "Version: %s %s release %s (\"%s\")"
+-msgstr "Version: %s %s utgåva %s (\"%s\")"
++msgstr "Version: %s %s utgåva %s (”%s”)"
+ 
+ #: src/lang.c:1230
+ msgid "# Default action/prompt strings\n"
+-msgstr "# Standardsträngar för åtgärd/prompt\n"
++msgstr "# Standardsträngar för åtgärder och frågor\n"
+ 
+ #. TRANSLATORS: do not translate header names like 'Subject:', 'From:', ...
+ #: src/lang.c:1232
+@@ -4432,7 +4437,7 @@
+ "# case=ON/OFF    ON=filter case sensitive OFF=ignore case\n"
+ "# expire=ON/OFF  ON=limit to default_filter_days OFF=don't ever expire\n"
+ msgstr ""
+-"# Standardvärden för snabba filter (1 tangent) för bortfiltrering och val\n"
++"# Standardvärden för snabbfilter (1 tangent) för bortfiltrering och urval\n"
+ "# header=NUM  0,1=Subject: 2,3=From: 4=Message-ID: och hela References:-raden\n"
+ "#             5=Message-ID: och endast sista posten i References:\n"
+ "#             6=Endast Message-ID:-posten 7=Lines:\n"
+@@ -4479,19 +4484,19 @@
+ 
+ #: src/lang.c:1253
+ msgid "Threading articles..."
+-msgstr "Trådar artiklar..."
++msgstr "Skapar trådar av artiklar…"
+ 
+ #: src/lang.c:1254
+ msgid "Threading by multipart"
+-msgstr "Trådning genom multipart"
++msgstr "Trådning med multipart"
+ 
+ #: src/lang.c:1256
+ msgid "No ALP negotiated."
+-msgstr "Ingen ALP förhandlad."
++msgstr "ALP har inte förhandlats."
+ 
+ #: src/lang.c:1258
+ msgid "<failed to retrieve cipher>"
+-msgstr "<kunde inte hämta chiffer>"
++msgstr "<kunde inte hämta krypteringssvit>"
+ 
+ #: src/lang.c:1259
+ msgid "<failed to retrieve issuer>"
+@@ -4499,7 +4504,7 @@
+ 
+ #: src/lang.c:1260
+ msgid "<failed to retrieve subject>"
+-msgstr "<kunde inte hämta subjekt>"
++msgstr "<kunde inte hämta ämne>"
+ 
+ #: src/lang.c:1261
+ msgid "<failed to retrieve version>"
+@@ -4508,7 +4513,7 @@
+ #: src/lang.c:1262
+ #, c-format
+ msgid "%s handshake done: %s\n"
+-msgstr "%s handskakning klar: %s\n"
++msgstr "%s-handskakning klar: %s\n"
+ 
+ #: src/lang.c:1265
+ #, c-format
+@@ -4531,7 +4536,7 @@
+ 
+ #: src/lang.c:1269
+ msgid "unexpected certificate verification status!"
+-msgstr "oväntad status för verifiering av certifikat!"
++msgstr "Oväntad status för certifikatverifiering!"
+ 
+ #: src/lang.c:1272
+ #, c-format
+@@ -4545,7 +4550,7 @@
+ #: src/lang.c:1275
+ #, c-format
+ msgid "TLS handshake done: %s\n"
+-msgstr "TLS handskakning klar: %s\n"
++msgstr "TLS-handskakning klar: %s\n"
+ 
+ #: src/lang.c:1278
+ #, c-format
+@@ -4555,11 +4560,11 @@
+ #: src/lang.c:1281
+ #, c-format
+ msgid "Toggled word highlighting %s"
+-msgstr "Växlade ordmarkering %s"
++msgstr "Växlade ordmarkering: %s"
+ 
+ #: src/lang.c:1282
+ msgid "Toggled rot13 encoding"
+-msgstr "Växlade rot13-kodning"
++msgstr "Växlade ROT13-kodning"
+ 
+ #: src/lang.c:1283
+ #, c-format
+@@ -4574,17 +4579,17 @@
+ #: src/lang.c:1285
+ #, c-format
+ msgid "Verbatim handling: %s"
+-msgstr "Ordagrant citat: %s"
++msgstr "Hantering av ordagrann text: %s"
+ 
+ #: src/lang.c:1287
+ #, c-format
+ msgid "%d Trying to dotlock %s"
+-msgstr "%d Försöker dotlocka %s"
++msgstr "%d Försöker skapa låsfil för %s"
+ 
+ #: src/lang.c:1288
+ #, c-format
+ msgid "%d Trying to lock %s"
+-msgstr "%d Försöker att låsa %s"
++msgstr "%d Försöker låsa %s"
+ 
+ #: src/lang.c:1290
+ #, c-format
+@@ -4597,11 +4602,11 @@
+ 
+ #: src/lang.c:1293
+ msgid "Untagged article"
+-msgstr "Otaggad artikel"
++msgstr "Avmärkt artikel"
+ 
+ #: src/lang.c:1294
+ msgid "Untagged thread"
+-msgstr "Otaggad tråd"
++msgstr "Avmärkt tråd"
+ 
+ #: src/lang.c:1295
+ msgid "Enter wildcard unsubscribe pattern> "
+@@ -4619,7 +4624,7 @@
+ #: src/lang.c:1298
+ #, c-format
+ msgid "%s successfully decoded."
+-msgstr "%s lyckades avkodas."
++msgstr "%s avkodades utan fel."
+ 
+ #: src/lang.c:1300
+ msgid "unchanged"
+@@ -4637,8 +4642,8 @@
+ #, c-format
+ msgid "unsubscribed from %d group"
+ msgid_plural "unsubscribed from %d groups"
+-msgstr[0] "avregistrerad från %d grupp"
+-msgstr[1] "avregistrerad från %d grupper"
++msgstr[0] "avslutade prenumeration på %d grupp"
++msgstr[1] "avslutade prenumeration på %d grupper"
+ 
+ #: src/lang.c:1307
+ #, c-format
+@@ -4647,24 +4652,24 @@
+ 
+ #: src/lang.c:1308
+ msgid "Unsubscribing... "
+-msgstr "Avsluta prenumerationen... "
++msgstr "Avslutar prenumeration… "
+ 
+ #: src/lang.c:1309
+ msgid "Unthreading articles..."
+-msgstr "Avtrådning av artiklar..."
++msgstr "Tar bort trådning av artiklar…"
+ 
+ #: src/lang.c:1310
+ #, c-format
+ msgid "Updating %s..."
+-msgstr "Uppdaterar %s..."
++msgstr "Uppdaterar %s…"
+ 
+ #: src/lang.c:1311
+ msgid "URL Menu"
+-msgstr "URL-meny"
++msgstr "Webbadressmeny"
+ 
+ #: src/lang.c:1312
+ msgid "URL Menu Commands"
+-msgstr "Kommandon i URL-menyn"
++msgstr "Kommandon i webbadressmenyn"
+ 
+ #: src/lang.c:1313
+ #, c-format
+@@ -4673,7 +4678,7 @@
+ 
+ #: src/lang.c:1314
+ msgid "Select URL> "
+-msgstr "Välj URL> "
++msgstr "Välj webbadress> "
+ 
+ #: src/lang.c:1315
+ msgid "No URLs in this article"
+@@ -4682,20 +4687,20 @@
+ #: src/lang.c:1317
+ #, c-format
+ msgid "SASL MECHS    : %s\n"
+-msgstr "SASL MECHS : %s\n"
++msgstr "SASL-MEKANISMER: %s\n"
+ 
+ #: src/lang.c:1318
+ #, c-format
+ msgid "SASL MECH used: %s\n"
+-msgstr "SASL MECH används: %s\n"
++msgstr "Använd SASL-MEKANISM: %s\n"
+ 
+ #: src/lang.c:1320
+ msgid "  -c       mark all news as read in subscribed newsgroups (batch mode)"
+-msgstr "  -c       markera allt som läst i prenumererade nyhetsgrupper (batchläge)"
++msgstr "  -c       markera alla nyheter som lästa i prenumererade nyhetsgrupper (batchläge)"
+ 
+ #: src/lang.c:1321
+ msgid "  -Z       return status indicating if any unread news (batch mode)"
+-msgstr "  -Z       returnera status som anger om olästa nyheter finns (batchläge)"
++msgstr "  -Z       returnera status som anger om det finns olästa nyheter (batchläge)"
+ 
+ #: src/lang.c:1322
+ msgid "  -q       don't check for new newsgroups"
+@@ -4729,7 +4734,7 @@
+ 
+ #: src/lang.c:1329
+ msgid "  -i file  import (append) raw proto article to postponed.articles"
+-msgstr "  -i fil   importera (lägg till) rå protoartikel till postponed.articles"
++msgstr "  -i fil   importera (lägg till) rå protokollartikel i postponed.articles"
+ 
+ #: src/lang.c:1330
+ #, c-format
+@@ -4747,7 +4752,7 @@
+ #: src/lang.c:1335
+ #, c-format
+ msgid "  -m dir   mailbox directory [default=%s]"
+-msgstr "  -m kat   brevlådekatalog [standard=%s]"
++msgstr "  -m kat   postlådekatalog [standard=%s]"
+ 
+ #: src/lang.c:1336
+ #, c-format
+@@ -4756,8 +4761,7 @@
+ "Mail bug reports/comments to %s"
+ msgstr ""
+ "\n"
+-"Skicka felrapporter/kommentarer till %s\n"
+-"Rapportera synpunkter på översättningen till <tp-sv@listor.tp-sv.se>."
++"Skicka felrapporter och kommentarer till %s"
+ 
+ #: src/lang.c:1337
+ msgid "  -N       mail new news to your posts (batch mode)"
+@@ -4765,7 +4769,7 @@
+ 
+ #: src/lang.c:1338
+ msgid "  -M user  mail new news to specified user (batch mode)"
+-msgstr "  -M anv   skicka nya nyheter till angiven användare (batchläge)"
++msgstr "  -M anv   skicka nya nyheter via e-post till angiven användare (batchläge)"
+ 
+ #: src/lang.c:1339
+ #, c-format
+@@ -4775,7 +4779,7 @@
+ #: src/lang.c:1341
+ #, c-format
+ msgid "  -t sec   override nntp_read_timeout_secs setting [default=%d]"
+-msgstr "  -t sek   åsidosätt nntp_read_timeout_secs [standard=%d]"
++msgstr "  -t sek   åsidosätt inställningen nntp_read_timeout_secs [standard=%d]"
+ 
+ #: src/lang.c:1343
+ msgid "  -x       no-posting mode"
+@@ -4804,7 +4808,7 @@
+ 
+ #: src/lang.c:1349
+ msgid "  -z       start if any unread news"
+-msgstr "  -z       starta om det finns olästa diskussioner"
++msgstr "  -z       starta om det finns olästa nyheter"
+ 
+ #: src/lang.c:1350
+ #, c-format
+@@ -4813,9 +4817,9 @@
+ "\n"
+ "Usage: %s [options] [newsgroup[,...]]"
+ msgstr ""
+-"En applikation för att läsa diskussionsgrupper.\n"
+-"\n"
+-"Användning: %s [flaggor] [diskussionsgrupp[,...]]"
++"En Usenet-läsare.\n"
++"\n"
++"Användning: %s [flaggor] [nyhetsgrupp[,...]]"
+ 
+ #: src/lang.c:1351
+ #, c-format
+@@ -4828,7 +4832,7 @@
+ 
+ #: src/lang.c:1353
+ msgid "  -V       print version & date information"
+-msgstr "  -V       skriv ut version & datuminformation"
++msgstr "  -V       skriv ut versions- och datuminformation"
+ 
+ #: src/lang.c:1354
+ msgid "Use MIME display program for this message?"
+@@ -4837,22 +4841,22 @@
+ #: src/lang.c:1355
+ #, c-format
+ msgid "%s only useful without batch mode operations.%s\n"
+-msgstr "%s endast användbar utan batch-läge.%s\n"
++msgstr "%s kan endast användas utan åtgärder i batchläge.%s\n"
+ 
+ #: src/lang.c:1356
+ #, c-format
+ msgid "%s only useful for batch mode operations.%s\n"
+-msgstr "%s endast användbart för batch-läge.%s\n"
++msgstr "%s kan endast användas för åtgärder i batchläge.%s\n"
+ 
+ #: src/lang.c:1357
+ #, c-format
+ msgid "%s only useful for batch or debug mode operations.%s\n"
+-msgstr "%s endast användbart för batch- eller felsökningsläge%s\n"
++msgstr "%s kan endast användas för åtgärder i batch- eller felsökningsläge.%s\n"
+ 
+ #: src/lang.c:1358
+ #, c-format
+ msgid "Useless combination %s and %s. Ignoring %s.%s\n"
+-msgstr "Värdelös kombination av %s och %s. Ignorera %s.%s\n"
++msgstr "Oanvändbar kombination av %s och %s. Ignorerar %s.%s\n"
+ 
+ #: src/lang.c:1359
+ msgid "uuencoded file"
+@@ -4892,12 +4896,12 @@
+ 
+ #: src/lang.c:1370
+ msgid "[-- Verbatim block hidden --]"
+-msgstr "[-- Verbatim-block dolt --]"
++msgstr "[-- Block med ordagrann text dolt --]"
+ 
+ #: src/lang.c:1371
+ #, c-format
+ msgid "View '%s' (%s/%s)?"
+-msgstr "Visa \"%s\" (%s/%s)?"
++msgstr "Visa ”%s” (%s/%s)?"
+ 
+ #. TRANSLATORS: for nplurals>=3
+ #: src/lang.c:1374
+@@ -4925,7 +4929,7 @@
+ "Warning: article unchanged after editing\n"
+ msgstr ""
+ "\n"
+-"Varning: artikeln oförändrad efter redigering\n"
++"Varning: artikeln är oförändrad efter redigering\n"
+ 
+ #. TRANSLATORS: do not translate header names like 'Subject:'
+ #: src/lang.c:1377
+@@ -4934,7 +4938,7 @@
+ "Warning: \"Subject:\" contains only whitespaces.\n"
+ msgstr ""
+ "\n"
+-"Varning: \"Subject:\" innehåller endast blanktecken.\n"
++"Varning: ”Subject:” innehåller endast blanksteg.\n"
+ 
+ #. TRANSLATORS: do not translate header names like 'Subject:' or 'References:'
+ #: src/lang.c:1379
+@@ -4978,9 +4982,11 @@
+ msgstr ""
+ "Läs noga!\n"
+ "\n"
+-"  Du är på väg att återkalla en artikel som till synes är skriven av dig. Detta kommer att radera\n"
+-"  artikeln från de flesta nyhetsservrar i hela världen, men det finns ingen\n"
+-"  garanti för att det kommer att fungera.\n"
++"  Du är på väg att återkalla en artikel som till synes har skrivits av dig.\n"
++"  Detta raderar"
++" artikeln från de flesta nyhetsservrar världen över, men\n"
++"  det finns ingen"
++" garanti för att det lyckas.\n"
+ "\n"
+ "Detta är artikeln du är på väg att återkalla:\n"
+ "\n"
+@@ -4999,7 +5005,7 @@
+ "Warning: Undesired Distribution \"world\" used.\n"
+ msgstr ""
+ "\n"
+-"Varning: Det oönskade Distribution-värdet \"world\" används.\n"
++"Varning: det oönskade Distribution-värdet ”world” används.\n"
+ 
+ #: src/lang.c:1393
+ msgid ""
+@@ -5010,10 +5016,10 @@
+ "         not be encoded properly.\n"
+ msgstr ""
+ "\n"
+-"Varning för detta: Du använder en icke-plain överföringskodning (t.ex. base64 eller\n"
++"Varning: du använder en överföringskodning som inte är plain (t.ex. base64 eller\n"
+ "         quoted-printable) och ett externt inews-program för att skicka in din\n"
+ "         artikel. Om en signatur bifogas av det inews-programmet kommer den\n"
+-"         inte kodas korrekt.\n"
++"         inte att kodas korrekt.\n"
+ 
+ #. TRANSLATORS: for nplurals>=3
+ #: src/lang.c:1400
+@@ -5029,11 +5035,11 @@
+ msgstr[0] ""
+ "\n"
+ "Rad %d är längre än %d oktett och bör radbrytas, men kodningen\n"
+-"är varken inställd på %s eller %s.\n"
++"är varken inställd på %s eller på %s.\n"
+ msgstr[1] ""
+ "\n"
+ "Rad %d är längre än %d oktetter och bör radbrytas, men kodningen\n"
+-"är varken inställd på %s eller %s.\n"
++"är varken inställd på %s eller på %s.\n"
+ 
+ #. TRANSLATORS: for nplurals>=3
+ #: src/lang.c:1408
+@@ -5051,13 +5057,14 @@
+ msgstr[0] ""
+ "\n"
+ "Rad %d är längre än %d oktett och bör radbrytas, men kodningen är inställd\n"
+-"på %s utan att MIME_BREAK_LONG_LINES är aktiverat eller inlägget\n"
+-"innehåller inga 8-bitars tecken, och därför kommer ingen radbrytning att ske.\n"
++"på %s utan att MIME_BREAK_LONG_LINES är aktiverat, eller så "
++"innehåller\n"
++"inlägget inga 8-bitars tecken och därför sker ingen radbrytning.\n"
+ msgstr[1] ""
+ "\n"
+ "Rad %d är längre än %d oktetter och bör radbrytas, men kodningen är inställd\n"
+-"på %s utan att MIME_BREAK_LONG_LINES är aktiverat eller så innehåller\n"
+-"inlägget inga 8-bitars tecken och därför kommer ingen radbrytning att ske.\n"
++"på %s utan att MIME_BREAK_LONG_LINES är aktiverat, eller så innehåller\n"
++"inlägget inga 8-bitars tecken och därför sker ingen radbrytning.\n"
+ 
+ #. TRANSLATORS: for nplurals>=3
+ #: src/lang.c:1417
+@@ -5086,7 +5093,7 @@
+ "Warning: \"%s\" in \"%s\" is from a reserved hierarchy!\n"
+ msgstr ""
+ "\n"
+-"Varning: \"%s\" i \"%s\" kommer från en reserverad hierarki!\n"
++"Varning: ”%s” i ”%s” kommer från en reserverad hierarki!\n"
+ 
+ #: src/lang.c:1424
+ #, c-format
+@@ -5104,7 +5111,7 @@
+ "Warning: Invalid %s, \"%s\" not allowed.\n"
+ msgstr ""
+ "\n"
+-"Varning: Ogiltig %s, \"%s\" tillåts inte.\n"
++"Varning: ogiltig %s, ”%s” är inte tillåten.\n"
+ 
+ #: src/lang.c:1426
+ #, c-format
+@@ -5119,7 +5126,7 @@
+ "\n"
+ "Du uppgraderar till tin %s från en tidigare version.\n"
+ "Vissa värden i din %s-fil har ändrats!\n"
+-"Läs WHATSNEW, etc...\n"
++"Läs WHATSNEW med mera.\n"
+ 
+ #: src/lang.c:1428
+ #, c-format
+@@ -5156,7 +5163,7 @@
+ "Warning: manually supplied MIME-header, but \"%s\" is missing.\n"
+ msgstr ""
+ "\n"
+-"Varning: manuellt angivet MIME-huvud, men \"%s\" saknas.\n"
++"Varning: manuellt angiven MIME-rubrik, men ”%s” saknas.\n"
+ 
+ #: src/lang.c:1436
+ msgid "Warning: multiple addresses given."
+@@ -5183,10 +5190,10 @@
+ "         \"%s\".\n"
+ msgstr ""
+ "\n"
+-"Varning: Med flera adresser i \"From\" krävs ett \"Sender\"-huvud,\n"
+-"         men genereringen av det är inaktiverad av den globala\n"
+-"         inställningen \"disable_sender=ON\" i\n"
+-"         \"%s\".\n"
++"Varning: med flera adresser i ”From” krävs en ”Sender”-rubrik,\n"
++"         men genereringen av den är inaktiverad av den globala\n"
++"         inställningen ”disable_sender=ON” i\n"
++"         ”%s”.\n"
+ 
+ #. TRANSLATORS: for nplurals>=3
+ #: src/lang.c:1446
+@@ -5237,7 +5244,7 @@
+ #: src/lang.c:1458
+ #, c-format
+ msgid "Warning: this mail address may contain a spamtrap. %s=continue, %s=abort? "
+-msgstr "Varning: den här e-postadressen kan innehålla en spamtrap. %s=fortsätt, %s=avbryt? "
++msgstr "Varning: den här e-postadressen kan innehålla en skräppostfälla. %s=fortsätt, %s=avbryt? "
+ 
+ #: src/lang.c:1459
+ #, c-format
+@@ -5255,7 +5262,7 @@
+ "Warning: uppercase letter in \"%s:\"\n"
+ msgstr ""
+ "\n"
+-"Varning: versal i \"%s:\".\n"
++"Varning: versal i ”%s:”.\n"
+ 
+ #: src/lang.c:1461
+ msgid ""
+@@ -5263,7 +5270,7 @@
+ "Warning: Signatures should start with '-- \\n' not with '--\\n'.\n"
+ msgstr ""
+ "\n"
+-"Varning för signaturer: Signaturer ska börja med \"-- \\n\", inte med \"--\\n\".\n"
++"Varning: signaturer ska börja med \"-- \\n\", inte med \"--\\n\".\n"
+ 
+ #: src/lang.c:1462
+ msgid "Warning: the group is moderated.\n"
+@@ -5289,7 +5296,7 @@
+ 
+ #: src/lang.c:1466
+ msgid "Writing attributes file..."
+-msgstr "Skriver attributfil..."
++msgstr "Skriver attributfil…"
+ 
+ #: src/lang.c:1467
+ #, c-format
+@@ -5298,7 +5305,7 @@
+ 
+ #: src/lang.c:1468
+ msgid "Writing overview cache..."
+-msgstr "Skriver översiktscache..."
++msgstr "Skriver översiktscache…"
+ 
+ #: src/lang.c:1470
+ #, c-format
+@@ -5309,7 +5316,7 @@
+ 
+ #: src/lang.c:1472
+ msgid "Can't run slrnface: couldn't construct fifo name."
+-msgstr "Kan inte köra slrnface: kunde inte konstruera fifo-namn."
++msgstr "Kan inte köra slrnface: kunde inte skapa FIFO-namn."
+ 
+ #: src/lang.c:1473
+ #, c-format
+@@ -5329,15 +5336,15 @@
+ #: src/lang.c:1477
+ #, c-format
+ msgid "Can't run slrnface: Environment variable %s not found."
+-msgstr "Kan inte köra slrnface: Miljövariabeln %s hittades inte."
++msgstr "Kan inte köra slrnface: miljövariabeln %s hittades inte."
+ 
+ #: src/lang.c:1479
+ msgid "Can't run slrnface: Not running in an xterm."
+-msgstr "Kan inte köra slrnface: Körs inte i en xterm."
++msgstr "Kan inte köra slrnface: körs inte i en xterm."
+ 
+ #: src/lang.c:1482
+ msgid "couldn't connect to display"
+-msgstr "kunde inte ansluta till skärmen"
++msgstr "kunde inte ansluta till visningen"
+ 
+ #: src/lang.c:1483
+ msgid "can't open FIFO"
+@@ -5353,11 +5360,11 @@
+ 
+ #: src/lang.c:1486
+ msgid "couldn't find controlling terminal"
+-msgstr "kunde inte hitta kontrollterminalen"
++msgstr "kunde inte hitta styrande terminal"
+ 
+ #: src/lang.c:1487
+ msgid "terminal doesn't export width and height"
+-msgstr "terminalen exporterar inte bredd och höjd"
++msgstr "terminalen anger inte bredd och höjd"
+ 
+ #: src/lang.c:1488
+ msgid "WINDOWID not found in environment"
+@@ -5389,14 +5396,14 @@
+ #. TRANSLATORS: do not translate header names like 'Xref:'
+ #: src/lang.c:1502
+ msgid "Xref: line (case insensitive)"
+-msgstr "Xref: rad (skiftlägesokänslig)"
++msgstr "Xref:-rad (skiftlägesokänslig)"
+ 
+ #: src/lang.c:1504
+ #, c-format
+ msgid "Added %d group"
+ msgid_plural "Added %d groups"
+-msgstr[0] "Lagt till %d grupp"
+-msgstr[1] "Lagt till %d grupper"
++msgstr[0] "Lade till %d grupp"
++msgstr[1] "Lade till %d grupper"
+ 
+ #: src/lang.c:1505
+ msgid "No unsubscribed groups to show"
+@@ -5404,7 +5411,7 @@
+ 
+ #: src/lang.c:1506
+ msgid "Showing subscribed to groups only"
+-msgstr "Visar endast prenumererade grupper"
++msgstr "Visar endast grupper med prenumeration"
+ 
+ #: src/lang.c:1507
+ msgid "yenc file"
+@@ -5412,12 +5419,12 @@
+ 
+ #: src/lang.c:1508
+ msgid "corrupt yenc"
+-msgstr "korrupt yenc"
++msgstr "skadad yenc"
+ 
+ #: src/lang.c:1509
+ #, c-format
+ msgid "crc checksum %s"
+-msgstr "crc-kontrollsumma %s"
++msgstr "CRC-kontrollsumma %s"
+ 
+ #: src/lang.c:1510
+ msgid "incomplete yenc"
+@@ -5453,7 +5460,7 @@
+ 
+ #: src/lang.c:1517
+ msgid "You have mail"
+-msgstr "Du har post"
++msgstr "Du har e-post"
+ 
+ #: src/lang.c:1522
+ #, c-format
+@@ -5468,13 +5475,14 @@
+ "         M)enu option.\n"
+ msgstr ""
+ "\n"
+-"Varning för detta: Postningen är i %s och innehåller tecken som inte finns\n"
+-"         i ditt valda MM_NETWORK_CHARSET: %s.\n"
+-"         Dessa tecken kommer att ersättas av '?' om du publicerar denna\n"
+-"         artikel oförändrad. För att undvika att din artikel förvrängs, vänligen antingen\n"
+-"         redigera den och ta bort dessa tecken eller ändra inställningen för\n"
+-"         MM_NETWORK_CHARSET till ett värde som passar för din postning via\n"
+-"         M)enu-alternativet.\n"
++"Varning: inlägget använder %s och innehåller tecken som inte ingår\n"
++"         i den valda MM_NETWORK_CHARSET: %s.\n"
++"         Dessa tecken ersätts av '?' om du postar artikeln\n"
++"         oförändrad. För att undvika att artikeln förvanskas redigerar du den\n"
++"         och tar bort tecknen, eller ändrar inställningen"
++" MM_NETWORK_CHARSET\n"
++"         till ett värde som passar inlägget via"
++" alternativet i M)enyn.\n"
+ 
+ #: src/lang.c:1533
+ msgid "  -D mode  debug mode"
+@@ -5495,13 +5503,14 @@
+ msgstr ""
+ "Läs noga!\n"
+ "\n"
+-"  Du är på väg att återkalla en artikel som till synes inte är skriven av dig.  Detta kommer att\n"
+-"  radera artikeln från massor av nyhetsservrar över hela världen;\n"
+-"  Usenets majoritet anser att detta är ganska olämpligt, för att uttrycka sig milt.\n"
+-"  Tryck bara på 'd' om du är helt säker på att du är redo att ta\n"
+-"  smällen.\n"
+-"\n"
+-"Detta är den artikel du är på väg att återkalla:\n"
++"  Du är på väg att återkalla en artikel som till synes inte har skrivits av dig.\n"
++"  Detta "
++"raderar artikeln från många nyhetsservrar världen över.\n"
++"  De flesta Usenet-användare anser att detta är olämpligt, milt uttryckt.\n"
++"  Tryck bara på 'd' om du är helt säker på att du är beredd att ta\n"
++"  konsekvenserna.\n"
++"\n"
++"Detta är artikeln du är på väg att återkalla:\n"
+ "\n"
+ 
+ #: src/lang.c:1546
+@@ -5564,7 +5573,7 @@
+ "Error: Followup-To set to more than one newsgroup!\n"
+ msgstr ""
+ "\n"
+-"Felmeddelande: Followup-To satt till mer än en nyhetsgrupp!\n"
++"Fel: Followup-To är satt till mer än en nyhetsgrupp!\n"
+ 
+ #. TRANSLATORS: for nplurals>=3
+ #: src/lang.c:1573
+@@ -5577,10 +5586,10 @@
+ "Error: cross-posting to %d newsgroups and no Followup-To line!\n"
+ msgstr[0] ""
+ "\n"
+-"Fel: korspostering till %d nyhetsgrupp och ingen Followup-To-rad!\n"
++"Fel: korspostning till %d nyhetsgrupp utan Followup-To-rad!\n"
+ msgstr[1] ""
+ "\n"
+-"Fel: korspostering till %d nyhetsgrupper och ingen Followup-To-rad!\n"
++"Fel: korspostning till %d nyhetsgrupper utan Followup-To-rad!\n"
+ 
+ #: src/lang.c:1574
+ #, c-format
+@@ -5589,7 +5598,7 @@
+ "Error: \"%s\" is not a valid newsgroup!\n"
+ msgstr ""
+ "\n"
+-"Felmeddelande: \"%s\" är inte en giltig nyhetsgrupp!\n"
++"Fel: ”%s” är inte en giltig nyhetsgrupp!\n"
+ 
+ #: src/lang.c:1576
+ msgid ""
+@@ -5597,7 +5606,7 @@
+ "Warning: Followup-To set to more than one newsgroup!\n"
+ msgstr ""
+ "\n"
+-"Varning för att Followup-To sätts till mer än en nyhetsgrupp!\n"
++"Varning: Followup-To är satt till mer än en nyhetsgrupp!\n"
+ 
+ #. TRANSLATORS: for nplurals>=3
+ #: src/lang.c:1578
+@@ -5610,10 +5619,10 @@
+ "Warning: cross-posting to %d newsgroups and no Followup-To line!\n"
+ msgstr[0] ""
+ "\n"
+-"Varning: korspostering till %d nyhetsgrupp och ingen Followup-To-rad!\n"
++"Varning: korspostning till %d nyhetsgrupp utan Followup-To-rad!\n"
+ msgstr[1] ""
+ "\n"
+-"Varning: korspostering till %d nyhetsgrupper och ingen Followup-To-rad!\n"
++"Varning: korspostning till %d nyhetsgrupper utan Followup-To-rad!\n"
+ 
+ #: src/lang.c:1579
+ #, c-format
+@@ -5623,8 +5632,9 @@
+ "it may be invalid at this site!\n"
+ msgstr ""
+ "\n"
+-"Varning: \"%s\" finns inte i din newsrc, det kan vara ogiltigt\n"
+-"på denna webbplats!\n"
++"Varning: ”%s” finns inte i din newsrc;\n"
++"det kan vara ogiltigt "
++"på denna nyhetsserver!\n"
+ 
+ #: src/lang.c:1580
+ #, c-format
+@@ -5633,7 +5643,7 @@
+ "Warning: \"%s\" is not a valid newsgroup at this site!\n"
+ msgstr ""
+ "\n"
+-"Varning för att \"%s\" är inte en giltig nyhetsgrupp på den här webbplatsen!\n"
++"Varning: ”%s” är inte en giltig nyhetsgrupp på denna nyhetsserver!\n"
+ 
+ #: src/lang.c:1584
+ #, c-format
+@@ -5648,11 +5658,11 @@
+ #: src/lang.c:1590
+ #, c-format
+ msgid "%d files successfully written from %d articles. %d %s occurred."
+-msgstr "%d filer framgångsrikt skrivna från %d artiklar. %d %s inträffade."
++msgstr "%d filer skrevs utan fel från %d artiklar. %d %s inträffade."
+ 
+ #: src/lang.c:1591
+ msgid "Missing parts."
+-msgstr "Saknade delar."
++msgstr "Delar saknas."
+ 
+ #: src/lang.c:1592
+ msgid "No beginning."
+@@ -5660,7 +5670,7 @@
+ 
+ #: src/lang.c:1593
+ msgid "No data."
+-msgstr "Inget data."
++msgstr "Inga data."
+ 
+ #: src/lang.c:1594
+ msgid "Unknown error."
+@@ -5678,13 +5688,13 @@
+ 
+ #: src/lang.c:1603
+ msgid "perform PGP operations on article"
+-msgstr "genomför PGP-operationer på artikel"
++msgstr "utför PGP-åtgärder på artikel"
+ 
+ #: src/lang.c:1604
+ msgid "Add key to public keyring?"
+ msgid_plural "Add keys to public keyring?"
+-msgstr[0] "Lägg till nyckel till offentlig nyckelring?"
+-msgstr[1] "Lägg till nycklar till den offentliga nyckelringen?"
++msgstr[0] "Lägg till nyckeln i den offentliga nyckelringen?"
++msgstr[1] "Lägg till nycklarna i den offentliga nyckelringen?"
+ 
+ #: src/lang.c:1605
+ #, c-format
+@@ -5694,7 +5704,7 @@
+ #: src/lang.c:1606
+ #, c-format
+ msgid "%s=sign, %s=sign & include public key, %s=quit: "
+-msgstr "%s=signera, %s=signera & inkludera publik nyckel, %s=avsluta: "
++msgstr "%s=signera, %s=signera och inkludera offentlig nyckel, %s=avsluta: "
+ 
+ #: src/lang.c:1607
+ #, c-format
+@@ -5758,7 +5768,7 @@
+ #: src/lang.c:1625
+ #, c-format
+ msgid "%s=quit, %s=edit, %s=send [%%s]: "
+-msgstr "%s=sluta, %s=redigera, %s=sänd [%%s]: "
++msgstr "%s=avsluta, %s=redigera, %s=skicka [%%s]: "
+ 
+ #: src/lang.c:1626
+ #, c-format
+@@ -5768,7 +5778,7 @@
+ #: src/lang.c:1630
+ #, c-format
+ msgid "%s argument is not numeric: %s"
+-msgstr "%s argumentet är inte numeriskt: %s"
++msgstr "argumentet %s är inte numeriskt: %s"
+ 
+ #: src/lang.c:1633
+ msgid "Try cache_overview_files to speed up things.\n"
+@@ -5776,7 +5786,7 @@
+ 
+ #: src/lang.c:1634
+ msgid "Tin will use local index files instead.\n"
+-msgstr "Tin kommer att använda lokala indexfiler istället.\n"
++msgstr "Tin använder lokala indexfiler i stället.\n"
+ 
+ #: src/lang.c:1635
+ msgid "Cannot find NNTP server name"
+@@ -5789,17 +5799,17 @@
+ #: src/lang.c:1637
+ #, c-format
+ msgid "Connecting to %s:%u..."
+-msgstr "Ansluter till %s:%u..."
++msgstr "Ansluter till %s:%u…"
+ 
+ #: src/lang.c:1638
+ msgid "NNTP connection error. Exiting..."
+-msgstr "Fel i NNTP-anslutningen. Avslutar..."
++msgstr "Fel i NNTP-anslutningen. Avslutar…"
+ 
+ #. TODO: plural-forms
+ #: src/lang.c:1640
+ #, c-format
+ msgid "NNTP connection error: nntp_read_timeout_secs %d elapsed. Exiting..."
+-msgstr "NNTP-anslutningsfel: nntp_read_timeout_secs %d har löpt ut. Avslutar..."
++msgstr "NNTP-anslutningsfel: nntp_read_timeout_secs %d har löpt ut. Avslutar…"
+ 
+ #: src/lang.c:1641
+ #, c-format
+@@ -5808,12 +5818,12 @@
+ 
+ #: src/lang.c:1642
+ msgid "Disconnecting from server..."
+-msgstr "Kopplar bort från servern..."
++msgstr "Kopplar bort från servern…"
+ 
+ #: src/lang.c:1643
+ #, c-format
+ msgid "Failed to connect to NNTP server %s. Exiting..."
+-msgstr "Misslyckades med att ansluta till NNTP-servern %s. Avslutar..."
++msgstr "Misslyckades med att ansluta till NNTP-servern %s. Avslutar…"
+ 
+ #: src/lang.c:1644
+ msgid "205  Closing connection"
+@@ -5836,11 +5846,11 @@
+ #: src/lang.c:1649
+ #, c-format
+ msgid "reconnect (%d) limit %d reached, giving up."
+-msgstr "återansluta (%d) gräns %d nådd, ger upp."
++msgstr "Gränsen %d för återanslutningar (%d) har nåtts, ger upp."
+ 
+ #: src/lang.c:1651
+ msgid "Connection to news server has timed out. Reconnect?"
+-msgstr "Anslutningen till nyhetsservern har tidsavbrutits. Återansluta?"
++msgstr "Anslutningen till nyhetsservern har gjort timeout. Återanslut?"
+ 
+ #: src/lang.c:1652
+ #, c-format
+@@ -5853,7 +5863,7 @@
+ 
+ #: src/lang.c:1654
+ msgid "Continuing..."
+-msgstr "Fortsätter..."
++msgstr "Fortsätter…"
+ 
+ #: src/lang.c:1655
+ msgid "Read timeout from server - quit tin?"
+@@ -5895,7 +5905,7 @@
+ 
+ #: src/lang.c:1667
+ msgid "  -l       use only LIST instead of GROUP (-n) command"
+-msgstr "  -l       använd endast LIST istället för kommandot GROUP (-n)"
++msgstr "  -l       använd endast LIST i stället för kommandot GROUP (-n)"
+ 
+ #: src/lang.c:1668
+ msgid "  -n       only read subscribed .newsrc groups from NNTP server"
+@@ -5928,7 +5938,7 @@
+ 
+ #: src/lang.c:1675
+ msgid "Giving up...\n"
+-msgstr "Ger upp...\n"
++msgstr "Ger upp…\n"
+ 
+ #: src/lang.c:1677
+ #, c-format
+@@ -5941,7 +5951,7 @@
+ "Tin will try to use XHDR XREF instead (slows down things a bit).\n"
+ msgstr ""
+ "Din server har inte Xref: i sin XOVER-information.\n"
+-"Tin kommer att försöka använda XHDR XREF istället (saktar ner saker lite).\n"
++"Tin försöker använda XHDR XREF i stället (det går lite långsammare).\n"
+ 
+ #: src/lang.c:1683
+ #, c-format
+@@ -5954,7 +5964,7 @@
+ 
+ #: src/lang.c:1687
+ msgid "  -l       read only active file instead of scanning spool (-n) command"
+-msgstr "  -l       läs endast active-filen istället för att söka igenom spoolen (-n)"
++msgstr "  -l       läs endast active-filen i stället för att söka igenom spoolen (-n)"
+ 
+ #: src/lang.c:1688
+ msgid "  -n       only read subscribed .newsrc groups from spool"
+@@ -5966,7 +5976,7 @@
+ 
+ #: src/lang.c:1693
+ msgid "Posting using external inews failed. Use built in inews instead?"
+-msgstr "Postning med externa inews misslyckades. Använd inbyggda inews istället?"
++msgstr "Postning med externa inews misslyckades. Använd inbyggda inews i stället?"
+ 
+ #: src/lang.c:1694
+ msgid "It worked! Should I always use my built in inews from now on?"
+@@ -5981,7 +5991,7 @@
+ 
+ #: src/lang.c:1699
+ msgid "output article/thread/hot/pattern/tagged articles to printer"
+-msgstr "skriv ut artikel/tråd/heta/mönstermatchande/märkta artiklar"
++msgstr "skriv ut artikel/tråd/hot-markerade/artiklar som matchar mönstret/märkta artiklar"
+ 
+ #: src/lang.c:1700
+ msgid "Print"
+@@ -5989,7 +5999,7 @@
+ 
+ #: src/lang.c:1701
+ msgid "Printing..."
+-msgstr "Skriver ut..."
++msgstr "Skriver ut…"
+ 
+ #: src/lang.c:1705
+ #, c-format
+@@ -6000,7 +6010,7 @@
+ 
+ #: src/lang.c:1706
+ msgid "pipe article/thread/hot/pattern/tagged articles into command"
+-msgstr "sänd artikel/tråd/heta/mönstermatchande/märkta artiklar via rörledning"
++msgstr "skicka artikel/tråd/hot-markerade/artiklar som matchar mönstret/märkta artiklar via rörledning"
+ 
+ #: src/lang.c:1707
+ msgid "No command"
+@@ -6008,16 +6018,16 @@
+ 
+ #: src/lang.c:1708
+ msgid "Pipe"
+-msgstr "Rör"
++msgstr "Skicka via rörledning"
+ 
+ #: src/lang.c:1709
+ #, c-format
+ msgid "Pipe to command [%.*s]> "
+-msgstr "Rör till kommando [%.*s]> "
++msgstr "Skicka till kommando via rörledning [%.*s]> "
+ 
+ #: src/lang.c:1710
+ msgid "Piping..."
+-msgstr "Skickar via rörledning..."
++msgstr "Skickar via rörledning…"
+ 
+ #: src/lang.c:1712
+ msgid "Piping not enabled."
+@@ -6158,12 +6168,12 @@
+ #: src/lang.c:1763
+ #, c-format
+ msgid "Group %.*s ('q' to quit)..."
+-msgstr "Grupp %.*s (\"q\" för att avsluta)..."
++msgstr "Grupp %.*s (\"q\" för att avsluta)…"
+ 
+ #: src/lang.c:1765
+ #, c-format
+ msgid "Group %.*s..."
+-msgstr "Grupp %.*s..."
++msgstr "Grupp %.*s…"
+ 
+ #: src/lang.c:1769
+ msgid "Server unavailable\n"
