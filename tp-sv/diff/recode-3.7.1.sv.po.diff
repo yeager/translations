@@ -1,0 +1,417 @@
+--- a/recode-3.7.1.sv.po
++++ b/recode-3.7.1.sv.po
+@@ -27,7 +27,7 @@
+ 
+ #: src/main.c:113
+ msgid "Non canonical input"
+-msgstr "Indata ej kanonisk"
++msgstr "Icke-kanonisk indata"
+ 
+ #: src/main.c:116
+ msgid "Ambiguous output"
+@@ -43,15 +43,15 @@
+ 
+ #: src/main.c:125
+ msgid "System detected problem"
+-msgstr "Systemproblem upptäcktes"
++msgstr "Systemet upptäckte ett problem"
+ 
+ #: src/main.c:128
+ msgid "Misuse of recoding library"
+-msgstr "Felaktig användning av omkodningsbibliotek"
++msgstr "Felaktig användning av omkodningsbiblioteket"
+ 
+ #: src/main.c:131
+ msgid "Internal recoding bug"
+-msgstr "Internt omkodningsfel"
++msgstr "Intern omkodningsbugg"
+ 
+ #: src/main.c:173
+ msgid ""
+@@ -90,7 +90,7 @@
+ #: src/main.c:198
+ #, c-format
+ msgid "Try `%s %s' for more information.\n"
+-msgstr "Försök med \"%s %s\" för mer information.\n"
++msgstr "Prova `%s %s' för mer information.\n"
+ 
+ #: src/main.c:202
+ msgid "Recode converts files between various character sets and surfaces.\n"
+@@ -112,8 +112,8 @@
+ "for the equivalent short option also.  Similarly for optional arguments.\n"
+ msgstr ""
+ "\n"
+-"Om en lång flagga har ett obligatoriskt argument så är argumentet även\n"
+-"obligatoriskt för motsvarade korta flagga.  Motsvarande för valfria argument.\n"
++"Om en lång flagga visar att ett argument är obligatoriskt, är det även\n"
++"obligatoriskt för motsvarande korta flagga. Detsamma gäller valfria argument.\n"
+ 
+ #: src/main.c:215
+ msgid ""
+@@ -129,13 +129,13 @@
+ msgstr ""
+ "\n"
+ "Listningar:\n"
+-"  -l, --list[=FORMAT]        visa en eller alla kända teckenuppsättningar\n"
+-"  -k, --known=PAR            begränsa teckenuppsättningar till de i PAR-listan\n"
+-"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN för LN till standard ut\n"
+-"                             och avsluta.\n"
+-"  -T, --find-subsets         skriv ut teckenuppsättningar som är delmängder\n"
+-"                             av andra\n"
+-"  -C, --copyright            visa copyrightinformation och kopieringsvillkor\n"
++"  -l, --list[=FORMAT]        visa en eller alla kända teckenuppsättningar och alias\n"
++"  -k, --known=PAR            begränsa teckenuppsättningar enligt listan över kända PAR\n"
++"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN på standardutdata med LN och\n"
++"                             avsluta\n"
++"  -T, --find-subsets         rapportera alla teckenuppsättningar som är\n"
++"                             delmängder av andra\n"
++"  -C, --copyright            visa upphovsrätt och kopieringsvillkor\n"
+ "      --help                 visa denna hjälptext och avsluta\n"
+ "      --version              visa versionsinformation och avsluta\n"
+ 
+@@ -150,12 +150,12 @@
+ "  -i, -p, --sequence=STRATEGY  ignored for backwards compatibility\n"
+ msgstr ""
+ "\n"
+-"Exekveringsalternativ:\n"
+-"  -v, --verbose           förklara delsteg och rapportera framsteg\n"
++"Driftlägen:\n"
++"  -v, --verbose           förklara stegen och rapportera förloppet\n"
+ "  -q, --quiet, --silent   undertryck meddelanden om irreversibla omkodningar\n"
+-"  -f, --force             gör omkodning även när den är irreversibel\n"
+-"  -t, --touch             gör \"touch\" på filer som omkodas över sig själva\n"
+-"  -i, -p, --sequence=STRATEGI  hoppas över för bakåtkompatibilitet\n"
++"  -f, --force             tvinga fram omkodningar även om de inte är reversibla\n"
++"  -t, --touch             uppdatera tidsstämpeln på de omkodade filerna efter ersättning\n"
++"  -i, -p, --sequence=STRATEGI  ignoreras för bakåtkompatibilitet\n"
+ 
+ #: src/main.c:237
+ msgid ""
+@@ -170,13 +170,13 @@
+ msgstr ""
+ "\n"
+ "Finjustering:\n"
+-"  -s, --strict           använd strikt omkodning, kassera oöversättbara tecken\n"
+-"  -d, --diacritics       omkoda endast diakritiska tecken eller motsvarande\n"
+-"                         till HTML/LaTeX/BibTeX\n"
++"  -s, --strict           använd strikta mappningar; kassera tecken som inte kan omkodas\n"
++"  -d, --diacritics       omkoda endast diakritiska och liknande tecken för\n"
++"                         HTML/LaTeX/BibTeX\n"
+ "  -S, --source[=LN]      begränsa omkodning till strängar och kommentarer\n"
+ "                         som för LN\n"
+-"  -c, --colons           använd kolon istället för \" för trematecken\n"
+-"  -g, --graphics         approximera linjer i IBMPC med ASCII-grafik\n"
++"  -c, --colons           använd kolon i stället för dubbla citattecken för trema\n"
++"  -g, --graphics         approximera IBMPC-linjaler med ASCII-grafik\n"
+ "  -x, --ignore=TECKENUPPSÄTTNING\n"
+ "                         ignorera TECKENUPPSÄTTNING när omkodningsväg väljs\n"
+ 
+@@ -187,17 +187,17 @@
+ "FORMAT is `decimal', `octal', `hexadecimal' or `full' (or one of `dohf').\n"
+ msgstr ""
+ "\n"
+-"Flagga -l utan FORMAT och TECKENUPPSÄTTNING visar alla tillgängliga\n"
+-"teckenuppsättningar och ytor.  FORMAT är \"decimal\", \"octal\", \"hexadecimal\"\n"
+-"eller \"full\" (eller en av \"dohf\").\n"
++"Flaggan -l utan FORMAT eller TECKENUPPSÄTTNING listar tillgängliga\n"
++"teckenuppsättningar och ytor. FORMAT är `decimal', `octal', `hexadecimal'\n"
++"eller `full' (eller en av `dohf').\n"
+ 
+ #: src/main.c:254
+ msgid ""
+ "Unless DEFAULT_CHARSET is set in environment, CHARSET defaults to the locale\n"
+ "dependent encoding, determined by LC_ALL, LC_CTYPE, LANG.\n"
+ msgstr ""
+-"Om miljövariabeln DEFAULT_CHARSET inte är satt blir standardvärdet för\n"
+-"TECKENUPPSÄTTNING den lokalspecifika kodningen, som bestäms av\n"
++"Om DEFAULT_CHARSET inte har satts i miljön blir standardvärdet för\n"
++"TECKENUPPSÄTTNING den kodning som beror på språkmiljön och bestäms av\n"
+ "miljövariablerna LC_ALL, LC_CTYPE och LANG.\n"
+ 
+ #: src/main.c:259
+@@ -206,14 +206,14 @@
+ "both being tabular charsets, with PAIRS of the form `BEF1:AFT1,BEF2:AFT2,...'\n"
+ "and BEFs and AFTs being codes are given as decimal numbers.\n"
+ msgstr ""
+-"Med -k, möjliga startuppsättningar visas för den givna slutuppsättningen,\n"
+-"där båda teckenuppsättningar är på tabellform. PAR har formatet\n"
+-"\"START1:SLUT1,START2:SLUT2,...\" och START... och SLUT... är koder\n"
+-"som anges med decimala tal.\n"
++"Med -k listas möjliga ursprungliga teckenuppsättningar för den angivna\n"
++"målteckenuppsättningen; båda är tabellbaserade teckenuppsättningar. PAR har\n"
++"formen `BEF1:AFT1,BEF2:AFT2,...' och BEF:erna och AFT:erna, som är koder,\n"
++"anges som decimaltal.\n"
+ 
+ #: src/main.c:264
+ msgid "LN is some language, it may be `c', `perl' or `po'; `c' is the default.\n"
+-msgstr "LN är ett språk, det kan vara \"c\", \"perl\" eller \"po\"; \"c\" är standardvärde.\n"
++msgstr "LN är ett språk och kan vara `c', `perl' eller `po'; `c' är standard.\n"
+ 
+ #: src/main.c:267
+ msgid ""
+@@ -225,12 +225,14 @@
+ "with an empty surface name means no surfaces at all.  See the manual.\n"
+ msgstr ""
+ "\n"
+-"BEGÄRAN är DELBEGÄRAN[,DELBEGÄRAN]..., DELBEGÄRAN är KODNING[..KODNING]...\n"
+-"KODNING är [TECKENUPPSÄTTNING][/[YTA]].... BEGÄRAN ser ofta ut som START..SLUT,\n"
+-"där START och SLUT är teckenuppsättningar.  En utelämnad TECKENUPPSÄTTNING\n"
+-"innebär den normala teckenuppsättningen,\n"
+-"en utelämnad [/YTA]... innebär den normala ytan för TECKENUPPSÄTTNING.\n"
+-"Ett / utan ytnamn innebär ingen yta alls.  Se manualen för detaljer.\n"
++"BEGÄRAN är DELBEGÄRAN[,DELBEGÄRAN]...; DELBEGÄRAN är KODNING[..KODNING]...\n"
++"KODNING är [TECKENUPPSÄTTNING][/[YTA]]...; BEGÄRAN ser ofta ut som START..SLUT,\n"
++"där START och SLUT är teckenuppsättningar. En utelämnad TECKENUPPSÄTTNING\n"
++"innebär den vanliga teckenuppsättningen; "
++"en utelämnad [/YTA]... innebär de\n"
++"underförstådda ytorna för TECKENUPPSÄTTNING. "
++"Ett / med ett tomt ytnamn innebär\n"
++"inga ytor alls. Se manualen.\n"
+ 
+ #: src/main.c:275
+ msgid ""
+@@ -239,9 +241,9 @@
+ "FILE is specified, then act as a filter and recode stdin to stdout.\n"
+ msgstr ""
+ "\n"
+-"Varje FIL omkodas över sig själv och förstör originalet.  Om ingen\n"
+-"FIL anges så fungerar det som ett filter som omkodar standard in\n"
+-"till standard ut.\n"
++"Varje FIL omkodas över sig själv och förstör originalet. Om ingen\n"
++"FIL anges fungerar programmet som ett filter och omkodar standardindata\n"
++"till standardutdata.\n"
+ 
+ #: src/main.c:280
+ msgid ""
+@@ -254,32 +256,32 @@
+ #: src/main.c:378
+ #, c-format
+ msgid "Sequence `%s' is ambiguous"
+-msgstr "Sekvens \"%s\" är tvetydig"
++msgstr "Sekvens `%s' är tvetydig"
+ 
+ #: src/main.c:383
+ #, c-format
+ msgid "Sequence `%s' is unknown"
+-msgstr "Sekvens \"%s\" är okänd"
++msgstr "Sekvens `%s' är okänd"
+ 
+ #: src/main.c:407 src/main.c:467
+ #, c-format
+ msgid "Language `%s' is ambiguous"
+-msgstr "Språk \"%s\" är tvetydigt"
++msgstr "Språk `%s' är tvetydigt"
+ 
+ #: src/main.c:412 src/main.c:472
+ #, c-format
+ msgid "Language `%s' is unknown"
+-msgstr "Språk \"%s\" är okänt"
++msgstr "Språk `%s' är okänt"
+ 
+ #: src/main.c:507
+ #, c-format
+ msgid "Format `%s' is ambiguous"
+-msgstr "Format \"%s\" är tvetydigt"
++msgstr "Format `%s' är tvetydigt"
+ 
+ #: src/main.c:512
+ #, c-format
+ msgid "Format `%s' is unknown"
+-msgstr "Format \"%s\" är okänt"
++msgstr "Format `%s' är okänt"
+ 
+ #: src/main.c:573
+ msgid "Written by François Pinard <pinard@iro.umontreal.ca>.\n"
+@@ -305,12 +307,12 @@
+ #: src/main.c:622
+ #, c-format
+ msgid "Symbol `%s' is unknown"
+-msgstr "Symbol \"%s\" är okänd"
++msgstr "Symbol `%s' är okänd"
+ 
+ #: src/main.c:662 src/main.c:676
+ #, c-format
+ msgid "Charset `%s' is unknown or ambiguous"
+-msgstr "Teckenuppsättning \"%s\" är okänd eller tvetydig"
++msgstr "Teckenuppsättning `%s' är okänd eller tvetydig"
+ 
+ #: src/main.c:707
+ #, c-format
+@@ -320,17 +322,17 @@
+ #: src/main.c:750
+ #, c-format
+ msgid "Syntax is deprecated, please prefer `%s'"
+-msgstr "Föråldrad syntax, använd hellre \"%s\""
++msgstr "Föråldrad syntax; använd hellre `%s'"
+ 
+ #: src/main.c:756
+ #, c-format
+ msgid "Request `%s' is erroneous"
+-msgstr "Begäran \"%s\" är felaktig"
++msgstr "Begäran `%s' är felaktig"
+ 
+ #: src/main.c:834
+ #, c-format
+ msgid "Recoding %s..."
+-msgstr "Omkodar %s..."
++msgstr "Omkodar %s…"
+ 
+ #: src/main.c:844
+ #, c-format
+@@ -340,27 +342,27 @@
+ #: src/main.c:877
+ #, c-format
+ msgid " failed: %s in step `%s..%s'\n"
+-msgstr " misslyckades: %s i steg \"%s..%s\"\n"
++msgstr " misslyckades: %s i steg `%s..%s'\n"
+ 
+ #: src/main.c:884
+ #, c-format
+ msgid "%s failed: %s in step `%s..%s'"
+-msgstr "%s misslyckades: %s i steg \"%s..%s\""
++msgstr "%s misslyckades: %s i steg `%s..%s'"
+ 
+ #: src/main.c:903
+ #, c-format
+ msgid "%s in step `%s..%s'"
+-msgstr "%s i steg \"%s..%s\""
++msgstr "%s i steg `%s..%s'"
+ 
+ #: src/names.c:352
+ #, c-format
+ msgid "Charset %s already exists and is not %s"
+-msgstr "Teckenuppsättning %s finns och är inte %s"
++msgstr "Teckenuppsättning %s finns redan och är inte %s"
+ 
+ #: src/names.c:847
+ #, c-format
+ msgid "Cannot list `%s', no names available for this charset"
+-msgstr "Kan inte visa \"%s\", inga namn tillgängliga för denna teckenuppsättning"
++msgstr "Kan inte lista `%s'; inga namn är tillgängliga för den här teckenuppsättningen"
+ 
+ #: src/names.c:999 src/names.c:1045
+ #, c-format
+@@ -370,21 +372,21 @@
+ #: src/names.c:1064
+ #, c-format
+ msgid "Sorry, no names available for `%s'"
+-msgstr "Ledsen, men det finns inga namn tillgängliga för \"%s\""
++msgstr "Inga namn är tillgängliga för `%s'"
+ 
+ #: src/outer.c:114
+ #, c-format
+ msgid "Resurfacer set more than once for `%s'"
+-msgstr "Ytkodning satt mer än en gång för \"%s\""
++msgstr "Ytkodning har angetts mer än en gång för `%s'"
+ 
+ #: src/outer.c:121
+ #, c-format
+ msgid "Unsurfacer set more than once for `%s'"
+-msgstr "Ytavkodning satt mer än en gång för \"%s\""
++msgstr "Ytavkodning har angetts mer än en gång för `%s'"
+ 
+ #: src/outer.c:469 src/recode.c:68 src/recode.c:80
+ msgid "Virtual memory exhausted"
+-msgstr "Virtuellt minne slut"
++msgstr "Slut på virtuellt minne"
+ 
+ #: src/recode.c:108
+ #, c-format
+@@ -398,12 +400,12 @@
+ 
+ #: src/recode.c:123
+ msgid "Cannot invert given one-to-one table"
+-msgstr "Kan inte invertera en given ett-till-ett tabell"
++msgstr "Kan inte invertera den angivna ett-till-ett-tabellen"
+ 
+ #: src/recode.c:179 src/recode.c:191
+ #, c-format
+ msgid "Following diagnostics for `%s' to `%s'"
+-msgstr "Följande diagnostik är för \"%s\" till \"%s\""
++msgstr "Följande diagnostik gäller omkodning från `%s' till `%s'"
+ 
+ #: src/recode.c:184 src/recode.c:196
+ #, c-format
+@@ -412,11 +414,11 @@
+ 
+ #: src/recode.c:227
+ msgid "Cannot complete table from set of known pairs"
+-msgstr "Kan inte göra en tabell från mängden av kända par"
++msgstr "Kan inte komplettera tabellen utifrån mängden kända par"
+ 
+ #: src/recode.c:484
+ msgid "Identity recoding, not worth a table"
+-msgstr "Ingen omkodning behövs, den är inte värd en tabell"
++msgstr "Identitetsomkodning – inte värt en tabell"
+ 
+ #: src/recode.c:491
+ msgid "Recoding is too complex for a mere table"
+@@ -425,7 +427,7 @@
+ #: src/recode.c:523
+ #, c-format
+ msgid "%sConversion table generated mechanically by %s %s"
+-msgstr "%sKonverteringstabell automatgenererad av %s %s"
++msgstr "%sKonverteringstabell genererad automatiskt av %s %s"
+ 
+ #: src/recode.c:525
+ #, c-format
+@@ -451,7 +453,7 @@
+ 
+ #: src/request.c:38 src/request.c:40
+ msgid "ucs2"
+-msgstr "usc2"
++msgstr "ucs2"
+ 
+ #: src/request.c:38 src/request.c:40
+ msgid "variable"
+@@ -467,15 +469,15 @@
+ 
+ #: src/request.c:227
+ msgid "Virtual memory exhausted!"
+-msgstr "Virtuellt minne slut!"
++msgstr "Slut på virtuellt minne!"
+ 
+ #: src/request.c:251
+ msgid "Step initialisation failed"
+-msgstr "Steginitiering misslyckades"
++msgstr "Initiering av steg misslyckades"
+ 
+ #: src/request.c:258
+ msgid "Step initialisation failed (unprocessed options)"
+-msgstr "Steginitiering misslyckades (obearbetade flaggor)"
++msgstr "Initiering av steg misslyckades (obearbetade flaggor)"
+ 
+ #: src/request.c:572
+ #, c-format
+@@ -485,26 +487,26 @@
+ #: src/request.c:739
+ #, c-format
+ msgid "Shrunk to: %s\n"
+-msgstr "Krympte till: %s\n"
++msgstr "Reducerades till: %s\n"
+ 
+ #: src/request.c:846 src/request.c:955
+ #, c-format
+ msgid "Unrecognised surface name `%s'"
+-msgstr "Okänt ytnamn \"%s\""
++msgstr "Okänt ytnamn `%s'"
+ 
+ #: src/request.c:926
+ #, c-format
+ msgid "No way to recode from `%s' to `%s'"
+-msgstr "Omöjligt koda om från \"%s\" till \"%s\""
++msgstr "Det går inte att koda om från `%s' till `%s'"
+ 
+ #: src/request.c:1036
+ msgid "Expecting `..' in request"
+-msgstr "Förväntar \"..\" i begäran"
++msgstr "Förväntar `..' i begäran"
+ 
+ #: src/task.c:457
+ #, c-format
+ msgid "Child process wait status is 0x%0.2x"
+-msgstr "Barnprocessens väntestatus är 0x%0.2x"
++msgstr "Underprocessens väntestatus är 0x%0.2x"
+ 
+ #: src/testdump.c:300
+ msgid ""

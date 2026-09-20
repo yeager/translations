@@ -1,0 +1,1710 @@
+--- a/radius-1.6.91.sv.po
++++ b/radius-1.6.91.sv.po
+@@ -23,22 +23,22 @@
+ #: lib/avl.c:88
+ #, c-format
+ msgid "make_pair(): attribute %d not found in dictionary"
+-msgstr "make_pari(): attribut %d hittades inte i ordbok"
++msgstr "make_pair(): attribut %d hittades inte i ordboken"
+ 
+ #: lib/client.c:125
+ #, c-format
+ msgid "Actual request length does not match reported length (%d, %d)"
+-msgstr "Faktiska längden på begäran matchar inte den rapporterade längden (%d, %d)"
++msgstr "Den faktiska längden på begäran stämmer inte överens med den rapporterade längden (%d, %d)"
+ 
+ #: lib/client.c:139
+ #, c-format
+ msgid "Received invalid reply digest from server"
+-msgstr "Ogiltigt svar från servern mottaget"
++msgstr "Tog emot en ogiltig kontrollsumma i svaret från servern"
+ 
+ #: lib/client.c:221
+ #, c-format
+ msgid "select() interrupted"
+-msgstr "select() avbruten"
++msgstr "select() avbröts"
+ 
+ #: lib/client.c:250
+ #, c-format
+@@ -58,7 +58,7 @@
+ #: lib/client.c:424 radiusd/files.c:931 radiusd/files.c:1126
+ #, c-format
+ msgid "wrong number of fields"
+-msgstr "fel antal fält"
++msgstr "felaktigt antal fält"
+ 
+ #: lib/client.c:433
+ #, c-format
+@@ -111,12 +111,12 @@
+ #: lib/dict.c:419 lib/dict.c:608 lib/dict.c:652
+ #, c-format
+ msgid "value not a number (near %s)"
+-msgstr "värde inte ett tal (nära %s)"
++msgstr "värdet är inte ett tal (nära %s)"
+ 
+ #: lib/dict.c:430
+ #, c-format
+ msgid "no parser registered for this attribute"
+-msgstr "ingen tolk registrerad för detta attribut"
++msgstr "ingen tolk har registrerats för detta attribut"
+ 
+ #: lib/dict.c:439
+ msgid "invalid type"
+@@ -155,7 +155,7 @@
+ #: lib/dict.c:671
+ #, c-format
+ msgid "blocks cannot be nested"
+-msgstr "block kan inte nästlas"
++msgstr "block kan inte kapslas"
+ 
+ #: lib/dict.c:673
+ #, c-format
+@@ -165,7 +165,7 @@
+ #: lib/dict.c:685
+ #, c-format
+ msgid "block syntax: expected `VENDOR' but found `%s'"
+-msgstr "blocksyntax: förväntade `VENDOR' men hittade `%s'"
++msgstr "blocksyntax: `VENDOR' förväntades men `%s' hittades"
+ 
+ #: lib/dict.c:708
+ #, c-format
+@@ -192,13 +192,13 @@
+ #: lib/raddb.c:74 lib/users-lex.l:232 radiusd/config.y:914 radiusd/stat.c:77
+ #, c-format
+ msgid "can't stat `%s'"
+-msgstr "kan inte ta status på \"%s\""
++msgstr "kan inte hämta status för `%s'"
+ 
+ #: lib/raddb.c:81 lib/raddb.c:86 radiusd/rewrite.y:1297 radiusd/rewrite.y:2747
+ #: radiusd/scheme.c:184 radiusd/stat.c:71
+ #, c-format
+ msgid "can't open file `%s'"
+-msgstr "kan inte öppna filen \"%s\""
++msgstr "kan inte öppna filen `%s'"
+ 
+ #: lib/raddb.c:98
+ #, c-format
+@@ -213,27 +213,27 @@
+ #: lib/radutmp.c:51
+ #, c-format
+ msgid "grad_ut_setent(): cannot open `%s'"
+-msgstr "grad_ut_setent(): kan inte öppna \"%s\""
++msgstr "grad_ut_setent(): kan inte öppna `%s'"
+ 
+ #: lib/radutmp.c:189
+ #, c-format
+ msgid "login: entry for NAS %s port %d duplicate"
+-msgstr "inloggning: post för NAS %s port %d dubblett"
++msgstr "inloggning: post för NAS %s och port %d är en dubblett"
+ 
+ #: lib/radutmp.c:195
+ #, c-format
+ msgid "login: entry for NAS %s port %d wrong order"
+-msgstr "inloggning: inmatning för NAS %s port %d fel ordning"
++msgstr "inloggning: post för NAS %s och port %d har fel ordning"
+ 
+ #: lib/radutmp.c:207
+ #, c-format
+ msgid "logout: entry for NAS %s port %d has wrong ID (expected %s found %s)"
+-msgstr "utloggning: post för NAS %s port %d har fel ID (förväntat %s hittat %s)"
++msgstr "utloggning: post för NAS %s och port %d har fel ID (förväntade %s, hittade %s)"
+ 
+ #: lib/radutmp.c:231
+ #, c-format
+ msgid "logout: login entry for NAS %s port %d not found"
+-msgstr "utloggning: inloggningsuppgifter för NAS %s port %d hittades inte"
++msgstr "utloggning: inloggningspost för NAS %s och port %d hittades inte"
+ 
+ #: lib/radutmp.c:250 radiusd/acct.c:664
+ #, c-format
+@@ -248,33 +248,33 @@
+ #: lib/users-lex.l:245
+ #, c-format
+ msgid "`%s' already included here"
+-msgstr "`%s' redan inkluderat här"
++msgstr "`%s' är redan inkluderat här"
+ 
+ #: lib/users-lex.l:249
+ #, c-format
+ msgid "`%s' already included at top level"
+-msgstr "`%s' redan inkluderat på högsta nivå"
++msgstr "`%s' är redan inkluderat på högsta nivå"
+ 
+ #: lib/users-lex.l:257 radiusd/builddbm.c:142
+ #, c-format
+ msgid "can't open `%s'"
+-msgstr "kan inte öppna \"%s\""
++msgstr "kan inte öppna `%s'"
+ 
+ #: lib/users-gram.y:106 radiusd/files.c:181
+ #, c-format
+ msgid "discarding user `%s'"
+-msgstr "förkastar användare `%s'"
++msgstr "förkastar användaren `%s'"
+ 
+ #: lib/users-gram.y:216 radiusd/rewrite.y:1859 gram.y:661 gram.y:841
+ #: radtest/gram.y:661 radtest/gram.y:841
+ #, c-format
+ msgid "unknown attribute `%s'"
+-msgstr "okänt attribut \"%s\""
++msgstr "okänt attribut `%s'"
+ 
+ #: lib/users-gram.y:245
+ #, c-format
+ msgid "%s: not an absolute pathname"
+-msgstr "%s: inte ett absolut sökvägsnamn"
++msgstr "%s: inte en absolut sökväg"
+ 
+ #: lib/users-gram.y:258
+ msgid "attribute"
+@@ -298,12 +298,12 @@
+ #: lib/users-gram.y:379
+ #, c-format
+ msgid "enabled userfile parser debugging"
+-msgstr "aktiverade tolkens felsökning av användarfil"
++msgstr "aktiverade felsökning av användarfilstolken"
+ 
+ #: lib/users-gram.y:380
+ #, c-format
+ msgid "disabled userfile parser debugging"
+-msgstr "inaktiverade tolkens felsökning av användarfil"
++msgstr "inaktiverade felsökning av användarfilstolken"
+ 
+ #: lib/util.c:245
+ #, c-format
+@@ -313,7 +313,7 @@
+ #: lib/printutmp.c:488
+ #, c-format
+ msgid "missing closing quote in string started near `%s'"
+-msgstr "saknad avslutande citattecken i sträng som börjar nära `%s'"
++msgstr "ett avslutande citattecken saknas i strängen som börjar nära `%s'"
+ 
+ #: lib/printutmp.c:564
+ #, c-format
+@@ -323,12 +323,12 @@
+ #: lib/printutmp.c:586
+ #, c-format
+ msgid "wrong number of arguments to form %s"
+-msgstr "fel antal argument för att bilda %s"
++msgstr "felaktigt antal argument för att bilda %s"
+ 
+ #: lib/printutmp.c:614
+ #, c-format
+ msgid "form `%s' not closed"
+-msgstr "formulär `%s' inte stängt"
++msgstr "formulär `%s' är inte stängt"
+ 
+ #: lib/radcli.c:36
+ msgid "Common options"
+@@ -353,8 +353,9 @@
+ msgstr ""
+ "\n"
+ "Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+-"Detta är fri programvara: du är fri att ändra och vidarebefordra den. Det finns\n"
+-"INGEN GARANTI, i den utsträckning som lagen tillåter.\n"
++"Detta är fri programvara: du får fritt ändra och vidaredistribuera den.\n"
++"Det finns "
++"INGEN GARANTI, i den utsträckning som lagen medger.\n"
+ "\n"
+ 
+ #: lib/radcli.c:68
+@@ -380,7 +381,7 @@
+ #: lib/parseopt/help.c:111
+ #, c-format
+ msgid "error in ARGP_HELP_FMT: %s value is out of range"
+-msgstr "fel i ARGP_HELP_FMT: %s värdet ligger utanför intervallet"
++msgstr "fel i ARGP_HELP_FMT: %s-värdet ligger utanför intervallet"
+ 
+ #: lib/parseopt/help.c:118
+ #, c-format
+@@ -390,12 +391,12 @@
+ #: lib/parseopt/help.c:124
+ #, c-format
+ msgid "%s: unknown ARGP_HELP_FMT parameter"
+-msgstr "%s: okänd parameter till ARGP_HELP_FMT"
++msgstr "%s: okänd ARGP_HELP_FMT-parameter"
+ 
+ #: lib/parseopt/help.c:150
+ #, c-format
+ msgid "ARGP_HELP_FMT: missing delimiter near %s"
+-msgstr "ARGP_HELP_FMT: saknad avgränsare nära %s"
++msgstr "ARGP_HELP_FMT: avgränsare saknas nära %s"
+ 
+ #: lib/parseopt/help.c:301
+ msgid "Usage:"
+@@ -432,7 +433,7 @@
+ #, c-format
+ msgid "Report bugs and suggestions to <%s>\n"
+ msgstr ""
+-"Rapportera buggar och förslag till <%s>\n"
++"Rapportera fel och förslag till <%s>\n"
+ "Rapportera fel i översättningen till <tp-sv@listor.tp-sv.se>\n"
+ 
+ #: lib/parseopt/help.c:817
+@@ -452,7 +453,7 @@
+ #: lib/parseopt/parseopt.c:142
+ #, c-format
+ msgid "option '%s%*.*s' is ambiguous; possibilities:"
+-msgstr "flaggan '%s%*.*s' är tvetydig; möjligheter:"
++msgstr "flaggan '%s%*.*s' är tvetydig; möjliga tolkningar:"
+ 
+ #: lib/parseopt/parseopt.c:174
+ #, c-format
+@@ -462,12 +463,12 @@
+ #: lib/parseopt/parseopt.c:337
+ #, c-format
+ msgid "option '%s%s' requires argument"
+-msgstr "flaggan '%s%s' kräver argument"
++msgstr "flaggan '%s%s' kräver ett argument"
+ 
+ #: lib/parseopt/parseopt.c:351
+ #, c-format
+ msgid "option '%s%s' does not take argument"
+-msgstr "flaggan '%s%s' tar inte emot argument"
++msgstr "flaggan '%s%s' tar inte emot något argument"
+ 
+ #: lib/parseopt/parseopt.c:369
+ #, c-format
+@@ -481,7 +482,7 @@
+ 
+ #: lib/parseopt/parseopt.c:580
+ msgid "Informative options"
+-msgstr "Informativa flaggor"
++msgstr "Informationsflaggor"
+ 
+ #: lib/parseopt/parseopt.c:585
+ msgid "produce this help text"
+@@ -503,12 +504,12 @@
+ #: radiusd/acct.c:298
+ #, c-format
+ msgid "NAS %s started (Accounting-On packet seen)"
+-msgstr "NAS %s startad (Accounting-On-paket sett)"
++msgstr "NAS %s startade (Accounting-On-paket mottaget)"
+ 
+ #: radiusd/acct.c:306
+ #, c-format
+ msgid "NAS %s shut down (Accounting-Off packet seen)"
+-msgstr "NAS %s avstängd (Accounting-Off-paket sett)"
++msgstr "NAS %s stängdes av (Accounting-Off-paket mottaget)"
+ 
+ #: radiusd/acct.c:318
+ #, c-format
+@@ -523,12 +524,12 @@
+ #: radiusd/acct.c:420
+ #, c-format
+ msgid "System accounting is disabled"
+-msgstr "Systemredovisning är inaktiverat"
++msgstr "Systemredovisning är inaktiverad"
+ 
+ #: radiusd/acct.c:463
+ #, c-format
+ msgid "Cannot stat path component: %s"
+-msgstr "Kan inte ta status på sökvägskomponenten: %s"
++msgstr "Kan inte hämta status för sökvägskomponenten: %s"
+ 
+ #: radiusd/acct.c:480
+ #, c-format
+@@ -538,7 +539,7 @@
+ #: radiusd/acct.c:486
+ #, c-format
+ msgid "Path component is not a directory: %s"
+-msgstr "Sökvägskomponent är inte en katalog: %s"
++msgstr "Sökvägskomponenten är inte en katalog: %s"
+ 
+ #: radiusd/acct.c:502
+ #, c-format
+@@ -557,7 +558,7 @@
+ 
+ #: radiusd/acct.c:592 radiusd/radutil.c:460
+ msgid "wrong return type"
+-msgstr "fel returtyp"
++msgstr "felaktig returtyp"
+ 
+ #: radiusd/auth.c:195
+ #, c-format
+@@ -581,7 +582,7 @@
+ #: radiusd/auth.c:314
+ #, c-format
+ msgid "Access denied by huntgroup %s:%d"
+-msgstr "Åtkomst nekad av huntgroup %s:%d"
++msgstr "Åtkomst nekades av huntgruppen %s:%d"
+ 
+ #: radiusd/auth.c:586
+ #, c-format
+@@ -591,7 +592,7 @@
+ #: radiusd/auth.c:621
+ #, c-format
+ msgid "PAM authentication not available"
+-msgstr "PAM-autentisering inte tillgänglig"
++msgstr "PAM-autentisering är inte tillgänglig"
+ 
+ #: radiusd/auth.c:876 radiusd/auth.c:986
+ msgid "No such user"
+@@ -603,7 +604,7 @@
+ 
+ #: radiusd/auth.c:896
+ msgid "denied by Scheme procedure "
+-msgstr "nekad av Scheme-procedur "
++msgstr "nekades av en Scheme-procedur "
+ 
+ #: radiusd/auth.c:930
+ #, c-format
+@@ -617,16 +618,16 @@
+ 
+ #: radiusd/auth.c:971
+ msgid "Rejected"
+-msgstr "Nekades"
++msgstr "Avvisades"
+ 
+ #: radiusd/auth.c:979
+ msgid "Ignored"
+-msgstr "Ignorerad"
++msgstr "Ignorerades"
+ 
+ #: radiusd/auth.c:995 radiusd/auth.c:1008 radiusd/auth.c:1019
+ #: radiusd/auth.c:1157
+ msgid "Login incorrect"
+-msgstr "Inloggning felaktig"
++msgstr "Felaktig inloggning"
+ 
+ #: radiusd/auth.c:1010
+ msgid "Account expired"
+@@ -677,7 +678,7 @@
+ #: radiusd/builddbm.c:100
+ #, c-format
+ msgid "can't store datum for %s"
+-msgstr "kan inte lagra referenspunkt för %s"
++msgstr "kan inte lagra data för %s"
+ 
+ #: radiusd/builddbm.c:357
+ #, c-format
+@@ -692,7 +693,7 @@
+ #: radiusd/checkrad.c:244
+ #, c-format
+ msgid "timed out in waiting SNMP response from NAS %s"
+-msgstr "tidsgräns nådd i väntan på SNMP-svar från NAS %s"
++msgstr "Tidsgränsen nåddes medan SNMP-svar väntades från NAS %s"
+ 
+ #: radiusd/checkrad.c:294
+ #, c-format
+@@ -717,7 +718,7 @@
+ #: radiusd/checkrad.c:336 radiusd/checkrad.c:345 radiusd/snmpserv.c:2685
+ #, c-format
+ msgid "can't create SNMP PDU: %s"
+-msgstr "kan inte skapa SNMP PDU: %s"
++msgstr "kan inte skapa SNMP-PDU: %s"
+ 
+ #: radiusd/checkrad.c:417
+ #, c-format
+@@ -727,17 +728,17 @@
+ #: radiusd/checkrad.c:481
+ #, c-format
+ msgid "timed out in waiting for finger response from NAS %s"
+-msgstr "tidsgräns nådd i väntan på fingersvar från NAS %s"
++msgstr "Tidsgränsen nåddes medan finger-svar väntades från NAS %s"
+ 
+ #: radiusd/checkrad.c:567
+ #, c-format
+ msgid "path variable not set"
+-msgstr "path-variabel inte angiven"
++msgstr "sökvägsvariabel är inte angiven"
+ 
+ #: radiusd/checkrad.c:593
+ #, c-format
+ msgid "expr variable not set"
+-msgstr "expr-variabel inte inställd"
++msgstr "expr-variabel är inte angiven"
+ 
+ #: radiusd/config.y:175
+ msgid "unknown block statement"
+@@ -751,7 +752,7 @@
+ #: radiusd/config.y:431
+ #, c-format
+ msgid "%s:%d: unexpected EOF in comment started at line %d"
+-msgstr "%s:%d: oväntat filslut i kommentar som börjar på rad %d"
++msgstr "%s:%d: oväntat filslut i en kommentar som började på rad %d"
+ 
+ #: radiusd/config.y:649
+ #, c-format
+@@ -771,7 +772,7 @@
+ #: radiusd/config.y:769
+ #, c-format
+ msgid "%s:%d: wrong datatype (should be %s)"
+-msgstr "%s:%d: fel datatyp (borde vara %s)"
++msgstr "%s:%d: felaktig datatyp (ska vara %s)"
+ 
+ #: radiusd/config.y:779
+ msgid "too few arguments"
+@@ -785,7 +786,7 @@
+ #: radiusd/config.y:921
+ #, c-format
+ msgid "can't open config file `%s'"
+-msgstr "kan inte öppna konfigurationsfilen \"%s\""
++msgstr "kan inte öppna konfigurationsfilen `%s'"
+ 
+ #: radiusd/config.y:931
+ #, c-format
+@@ -825,7 +826,7 @@
+ #: radiusd/exec.c:106
+ #, c-format
+ msgid "cannot set effective gid to %lu"
+-msgstr "kan inte ställa in effektiv gid till %lu"
++msgstr "kan inte ange effektivt gid till %lu"
+ 
+ #: radiusd/exec.c:125
+ #, c-format
+@@ -835,7 +836,7 @@
+ #: radiusd/exec.c:131
+ #, c-format
+ msgid "second setuid(%lu) failed"
+-msgstr "andra setuid(%lu) misslyckades"
++msgstr "det andra anropet setuid(%lu) misslyckades"
+ 
+ #: radiusd/exec.c:139
+ #, c-format
+@@ -845,17 +846,17 @@
+ #: radiusd/exec.c:149
+ #, c-format
+ msgid "seteuid(0) succeeded when it should not"
+-msgstr "seteuid(0) lyckades när det inte borde"
++msgstr "seteuid(0) lyckades när det inte borde ha gjort det"
+ 
+ #: radiusd/exec.c:153
+ #, c-format
+ msgid "cannot drop non-root setuid privileges"
+-msgstr "kan inte släppa icke-root setuid-privilegier"
++msgstr "kan inte släppa icke-root-setuid-privilegier"
+ 
+ #: radiusd/exec.c:172
+ #, c-format
+ msgid "radius_exec_command(): won't execute, not an absolute pathname: %s"
+-msgstr "radius_exec_command(): körs inte, inte ett absolut sökvägsnamn: %s"
++msgstr "radius_exec_command(): kommer inte att köras; inte en absolut sökväg: %s"
+ 
+ #: radiusd/exec.c:178 radiusd/exec.c:274
+ #, c-format
+@@ -870,27 +871,27 @@
+ #: radiusd/exec.c:226 radiusd/exec.c:356
+ #, c-format
+ msgid "can't run external program `%s' (reason reported via syslog channel user.err)"
+-msgstr "kan inte köra externt program \"%s\" (anledning rapportera via syslog-kanalen user.err)"
++msgstr "kan inte köra externt program `%s' (orsaken rapporteras via syslog-kanalen user.err)"
+ 
+ #: radiusd/exec.c:237 radiusd/exec.c:365
+ #, c-format
+ msgid "external program `%s' %s"
+-msgstr "externt program \"%s\" %s"
++msgstr "externt program `%s' %s"
+ 
+ #: radiusd/exec.c:263
+ #, c-format
+ msgid "radius_exec_program(): won't execute, not an absolute pathname: %s"
+-msgstr "radius_exec_program(): körs inte, inte ett absolut sökvägsnamn: %s"
++msgstr "radius_exec_program(): kommer inte att köras; inte en absolut sökväg: %s"
+ 
+ #: radiusd/exec.c:270
+ #, c-format
+ msgid "couldn't open pipe"
+-msgstr "kunde inte öppna rör"
++msgstr "kunde inte öppna ett rör"
+ 
+ #: radiusd/exec.c:290 radiusd/exec.c:325
+ #, c-format
+ msgid "can't close pipe"
+-msgstr "kan inte stänga rör"
++msgstr "kan inte stänga röret"
+ 
+ #: radiusd/exec.c:293
+ #, c-format
+@@ -900,7 +901,7 @@
+ #: radiusd/exec.c:337 radiusd/exec.c:702
+ #, c-format
+ msgid "<stdout of %s>:%d: %s"
+-msgstr "<stdout för %s>:%d: %s"
++msgstr "<stdout från %s>:%d: %s"
+ 
+ #: radiusd/exec.c:498
+ #, c-format
+@@ -915,7 +916,7 @@
+ #: radiusd/exec.c:569
+ #, c-format
+ msgid "cannot run filter %s"
+-msgstr "kan inte köra filter %s"
++msgstr "kan inte köra filtret %s"
+ 
+ #: radiusd/exec.c:587
+ #, c-format
+@@ -925,7 +926,7 @@
+ #: radiusd/exec.c:689 radiusd/exec.c:744
+ #, c-format
+ msgid "reading from filter %s"
+-msgstr "läser från filter %s"
++msgstr "läser från filtret %s"
+ 
+ #: radiusd/exec.c:711
+ #, c-format
+@@ -940,22 +941,22 @@
+ #: radiusd/exec.c:832
+ #, c-format
+ msgid "%s:%d: filter already declared at %s:%d"
+-msgstr "%s:%d: filter är redan deklarerat vid %s:%d"
++msgstr "%s:%d: filtret är redan deklarerat vid %s:%d"
+ 
+ #: radiusd/files.c:220
+ #, c-format
+ msgid "discarding entry `%s'"
+-msgstr "förkastar post \"%s\""
++msgstr "förkastar posten `%s'"
+ 
+ #: radiusd/files.c:418
+ #, c-format
+ msgid "zero length username not permitted"
+-msgstr "användarnamn med nollängd tillåts inte"
++msgstr "användarnamn med längden noll är inte tillåtet"
+ 
+ #: radiusd/files.c:553
+ #, c-format
+ msgid "unknown attribute `%s/%s'"
+-msgstr "okänt attribut \"%s/%s\""
++msgstr "okänt attribut `%s/%s'"
+ 
+ #: radiusd/files.c:565 radiusd/files.c:591
+ #, c-format
+@@ -972,7 +973,7 @@
+ #: radiusd/files.c:580
+ #, c-format
+ msgid "grad_create_pair failed on %s"
+-msgstr "grad_create_pair misslyckades på %s"
++msgstr "grad_create_pair misslyckades för %s"
+ 
+ #: radiusd/files.c:612
+ msgid "not defined"
+@@ -981,7 +982,7 @@
+ #: radiusd/files.c:650
+ #, c-format
+ msgid "cannot execute `%s'"
+-msgstr "kan inte köra \"%s\""
++msgstr "kan inte köra `%s'"
+ 
+ #: radiusd/files.c:1047
+ msgid "unknown method"
+@@ -990,7 +991,7 @@
+ #: radiusd/files.c:1131
+ #, c-format
+ msgid "user `%s' already found in %s"
+-msgstr "användaren \"%s\" hittades redan i %s"
++msgstr "användaren `%s' hittades redan i %s"
+ 
+ #: radiusd/files.c:1157
+ #, c-format
+@@ -1007,12 +1008,12 @@
+ #: radiusd/files.c:1719
+ #, c-format
+ msgid "DBM files found but no -b flag given - NOT using DBM"
+-msgstr "DBM-filer hittades men ingen flagga -b angavs - använder INTE DBM"
++msgstr "DBM-filer hittades, men flaggan -b angavs inte – använder INTE DBM"
+ 
+ #: radiusd/files.c:1723
+ #, c-format
+ msgid "can't load %s: exited"
+-msgstr "kan inte läsa in %s: avslutade"
++msgstr "kan inte läsa in %s: processen avslutades"
+ 
+ #: radiusd/files.c:1726
+ #, c-format
+@@ -1022,7 +1023,7 @@
+ #: radiusd/files.c:1797
+ #, c-format
+ msgid "SQL Error: SQL client could not be initialized"
+-msgstr "SQL-fel: SQL-klient kunde inte initieras"
++msgstr "SQL-fel: SQL-klienten kunde inte initieras"
+ 
+ #: radiusd/files.c:1813
+ #, c-format
+@@ -1032,12 +1033,12 @@
+ #: radiusd/files.c:1884
+ #, c-format
+ msgid "can't create parser output file `%s'"
+-msgstr "kan inte skapa tolkens utdatafil \"%s\""
++msgstr "kan inte skapa tolkens utdatafil `%s'"
+ 
+ #: radiusd/files.c:1898
+ #, c-format
+ msgid "dumped users database to %s"
+-msgstr "dumpade användardatabas till %s"
++msgstr "skrev användardatabasen till %s"
+ 
+ #: radiusd/forward.c:109
+ #, c-format
+@@ -1047,17 +1048,17 @@
+ #: radiusd/forward.c:178
+ #, c-format
+ msgid "Forwarding host %s not listed in clients"
+-msgstr "Vidarebefordringsvärd %s är inte listad i klienter"
++msgstr "Vidarebefordringsvärden %s finns inte med bland klienterna"
+ 
+ #: radiusd/forward.c:197
+ #, c-format
+ msgid "Can't open forwarding socket"
+-msgstr "Kan inte öppna uttag för vidarebefordring"
++msgstr "Kan inte öppna ett uttag för vidarebefordring"
+ 
+ #: radiusd/forward.c:207
+ #, c-format
+ msgid "Can't bind forwarding socket"
+-msgstr "Kan inte binda uttag för vidarebefordran"
++msgstr "Kan inte binda ett uttag för vidarebefordring"
+ 
+ #: radiusd/log.c:152
+ msgid "none"
+@@ -1077,7 +1078,7 @@
+ 
+ #: radiusd/log.c:156
+ msgid "Proxy"
+-msgstr "Ombud"
++msgstr "Proxy"
+ 
+ #: radiusd/log.c:157
+ msgid "SNMP"
+@@ -1128,7 +1129,7 @@
+ #: radiusd/log.c:531
+ #, c-format
+ msgid "can't access log file `%s'"
+-msgstr "kommer inte åt loggfilen \"%s\""
++msgstr "kommer inte åt loggfilen `%s'"
+ 
+ #. TRANSLATORS: the subject will always be printed before this msgid.
+ #. for example: "child 222 exited with status 0"
+@@ -1142,13 +1143,13 @@
+ #: radiusd/log.c:645
+ #, c-format
+ msgid "terminated on signal %d"
+-msgstr "avslutad vid signal %d"
++msgstr "avslutades av signal %d"
+ 
+ #. TRANSLATORS: the subject will always be printed before this msgid.
+ #: radiusd/log.c:649
+ #, c-format
+ msgid "terminated"
+-msgstr "avslutat"
++msgstr "avslutades"
+ 
+ #: radiusd/log.c:764
+ #, c-format
+@@ -1157,17 +1158,17 @@
+ 
+ #: radiusd/log.c:927
+ msgid "no levels applicable for this category"
+-msgstr "inga nivåer tillämpliga för denna kategori"
++msgstr "inga nivåer är tillämpliga för denna kategori"
+ 
+ #: radiusd/log.c:953
+ #, c-format
+ msgid "%s:%d: channel `%s' not defined"
+-msgstr "%s:%d: kanal \"%s\" är inte definierad"
++msgstr "%s:%d: kanal `%s' är inte definierad"
+ 
+ #: radiusd/log.c:997 radiusd/snmpserv.c:344
+ #, c-format
+ msgid "%s:%d: list item %d has wrong datatype"
+-msgstr "%s:%d: listobjekt %d har fel datatyp"
++msgstr "%s:%d: listobjekt %d har felaktig datatyp"
+ 
+ #: radiusd/log.c:1013
+ #, c-format
+@@ -1177,7 +1178,7 @@
+ #: radiusd/menu.c:43 radiusd/menu.c:202
+ #, c-format
+ msgid "can't open menu `%s'"
+-msgstr "kan inte öppna menyn \"%s\""
++msgstr "kan inte öppna menyn `%s'"
+ 
+ #: radiusd/menu.c:94
+ #, c-format
+@@ -1200,17 +1201,17 @@
+ #: radiusd/mlc.c:133
+ #, c-format
+ msgid "assuming `%s' is logged in"
+-msgstr "antar att \"%s\" är inloggad"
++msgstr "antar att `%s' är inloggad"
+ 
+ #: radiusd/mlc.c:136
+ #, c-format
+ msgid "assuming `%s' is NOT logged in"
+-msgstr "antar att \"%s\" INTE är inloggad"
++msgstr "antar att `%s' INTE är inloggad"
+ 
+ #: radiusd/pam.c:62
+ #, c-format
+ msgid "rad_pam_conv(): no application-specific data passed"
+-msgstr "rad_pam_conv(): inga applikationsspecifika data överförda"
++msgstr "rad_pam_conv(): inga programspecifika data skickades med"
+ 
+ #: radiusd/proxy.c:198
+ #, c-format
+@@ -1220,7 +1221,7 @@
+ #: radiusd/radck.c:81
+ #, c-format
+ msgid "Match-Profile refers to non-existing profile (%s)"
+-msgstr "Match-Profile hänvisar till en icke-befintlig profil (%s)"
++msgstr "Match-Profile hänvisar till en obefintlig profil (%s)"
+ 
+ #: radiusd/radck.c:125
+ #, c-format
+@@ -1249,7 +1250,7 @@
+ 
+ #: radiusd/radck.c:275
+ msgid "Match-Profile refers to a DEFAULT entry"
+-msgstr "Match-Profile refererar till en STANDARD-post"
++msgstr "Match-Profile hänvisar till en DEFAULT-post"
+ 
+ #: radiusd/radck.c:284
+ msgid "Simultaneous-Use is used, but multiple login checking is not enabled"
+@@ -1262,7 +1263,7 @@
+ #: radiusd/radck.c:332
+ #, c-format
+ msgid "Auth-Type = System can only be used when running with root privileges"
+-msgstr "Auth-Type = Systemet kan bara användas när det körs med root-privilegier"
++msgstr "Auth-Type = System kan bara användas när programmet körs med root-privilegier"
+ 
+ #: radiusd/radck.c:342 radiusd/radck.c:379
+ msgid "User-Password attribute ignored for this Auth-Type"
+@@ -1301,12 +1302,12 @@
+ 
+ #: radiusd/radius.c:426
+ msgid "Dropping packet"
+-msgstr "Kastar paket"
++msgstr "Kasserar paket"
+ 
+ #: radiusd/radius.c:449
+ #, c-format
+ msgid "Retransmitting %s reply"
+-msgstr "Återutsändning av %s svar"
++msgstr "Sänder om svaret %s"
+ 
+ #: radiusd/radius.c:454
+ msgid "request failed"
+@@ -1315,7 +1316,7 @@
+ #: radiusd/radius.c:522
+ #, c-format
+ msgid "Unrecognized proxy reply from server %s, proxy ID %d"
+-msgstr "Proxysvaret från server %s känns inte igen, proxy-id %d"
++msgstr "Proxy-svaret från servern %s känns inte igen, proxy-ID %d"
+ 
+ #: radiusd/radius.c:556
+ #, c-format
+@@ -1329,7 +1330,7 @@
+ 
+ #: radiusd/radiusd.c:146
+ msgid "radiusd compiled without DBM support"
+-msgstr "radiusd kompilerad utan DBM-stöd"
++msgstr "radiusd är kompilerad utan DBM-stöd"
+ 
+ #: radiusd/radiusd.c:156
+ #, c-format
+@@ -1352,7 +1353,7 @@
+ 
+ #: radiusd/radiusd.c:233
+ msgid "Stay in foreground"
+-msgstr "Kvarstå i förgrund"
++msgstr "Fortsätt köra i förgrunden"
+ 
+ #: radiusd/radiusd.c:244
+ msgid "Select operation mode: test, checkconf, builddbm."
+@@ -1364,7 +1365,7 @@
+ 
+ #: radiusd/radiusd.c:266
+ msgid "Store pidfile in DIR"
+-msgstr "Lagra pid-fil i KAT"
++msgstr "Spara pidfil i KAT"
+ 
+ #: radiusd/radiusd.c:278
+ msgid "Show compilation defaults"
+@@ -1385,7 +1386,7 @@
+ 
+ #: radiusd/radiusd.c:304
+ msgid "Daemon configuration options. Please use raddb/config instead."
+-msgstr "Konfigurationsflaggor för daemon. Använd istället raddb/config."
++msgstr "Konfigurationsflaggor för demonen. Använd i stället raddb/config."
+ 
+ #: radiusd/radiusd.c:309
+ msgid "Do detailed authentication logging"
+@@ -1422,11 +1423,11 @@
+ #: radiusd/radiusd.c:380 radlast/radlast.c:241 radlast/radlast.c:310
+ #: radtest/main.c:157 radtest/main.c:181 radzap/radzap.c:115
+ msgid "NUMBER"
+-msgstr "NUMMER"
++msgstr "TAL"
+ 
+ #: radiusd/radiusd.c:390
+ msgid "Strip prefixes/suffixes off user names before logging"
+-msgstr "Ta bort prefix/suffix från användarnamn innan inloggning"
++msgstr "Ta bort prefix och suffix från användarnamn före loggning"
+ 
+ #: radiusd/radiusd.c:401 radiusd/tsh.c:86
+ msgid "Set debugging level"
+@@ -1450,7 +1451,7 @@
+ 
+ #: radiusd/radiusd.c:447
+ msgid "Sorry, your account is currently closed\n"
+-msgstr "Ditt konto är tyvärr stängt\n"
++msgstr "Tyvärr är ditt konto för närvarande stängt\n"
+ 
+ #: radiusd/radiusd.c:449
+ msgid "Password has expired\n"
+@@ -1494,7 +1495,7 @@
+ 
+ #: radiusd/radiusd.c:461
+ msgid "You are calling outside your allowed timespan\n"
+-msgstr "Du anropar utanför ditt tillåtna tidsspann\n"
++msgstr "Du ringer utanför ditt tillåtna tidsintervall\n"
+ 
+ #: radiusd/radiusd.c:499
+ #, c-format
+@@ -1516,7 +1517,7 @@
+ #: radiusd/radiusd.c:541
+ #, c-format
+ msgid "Radiusd is not listening on any port. Trying to continue anyway..."
+-msgstr "Radiusd lyssnar inte på någon port. Försöker fortsätta ändå..."
++msgstr "Radiusd lyssnar inte på någon port. Försöker fortsätta ändå…"
+ 
+ #: radiusd/radiusd.c:598
+ #, c-format
+@@ -1526,7 +1527,7 @@
+ #: radiusd/radiusd.c:621
+ #, c-format
+ msgid "Cannot open output file %s"
+-msgstr "Kan inte öppna utdatafil %s"
++msgstr "Kan inte öppna utdatafilen %s"
+ 
+ #: radiusd/radiusd.c:639
+ #, c-format
+@@ -1541,7 +1542,7 @@
+ #: radiusd/radiusd.c:827
+ #, c-format
+ msgid "RADIUSD SUSPENDED"
+-msgstr "RADIUSD AVSTÄNGD"
++msgstr "RADIUSD TILLFÄLLIGT AVSTÄNGD"
+ 
+ #: radiusd/radiusd.c:857
+ #, c-format
+@@ -1551,7 +1552,7 @@
+ #: radiusd/radiusd.c:869
+ #, c-format
+ msgid "Dumping users db to `%s'"
+-msgstr "Dumpar användardatabasen till `%s'"
++msgstr "Skriver användardatabasen till `%s'"
+ 
+ #: radiusd/radiusd.c:926
+ #, c-format
+@@ -1561,17 +1562,17 @@
+ #: radiusd/radiusd.c:929
+ #, c-format
+ msgid "can't restart: not started as absolute pathname"
+-msgstr "kan inte starta om: startades inte som absolut sökväg"
++msgstr "kan inte starta om: programmet startades inte med en absolut sökväg"
+ 
+ #: radiusd/radiusd.c:941
+ #, c-format
+ msgid "radiusd_restart: cannot fork"
+-msgstr "radiusd_restart: kan inte förgrena sig"
++msgstr "radiusd_restart: kan inte skapa en underprocess"
+ 
+ #: radiusd/radiusd.c:956
+ #, c-format
+ msgid "restarting radius"
+-msgstr "omstartradie"
++msgstr "startar om radius"
+ 
+ #: radiusd/radiusd.c:959
+ #, c-format
+@@ -1606,12 +1607,12 @@
+ #: radiusd/radiusd.c:1493
+ #, c-format
+ msgid "Ignoring exec-program-user"
+-msgstr "Ignorera exec-program-user"
++msgstr "Ignorerar exec-program-user"
+ 
+ #: radiusd/radutil.c:178
+ #, c-format
+ msgid "INTERNAL ERROR (%s:%d): attribute %d has bad type (%d)"
+-msgstr "INTERNT FEL (%s:%d): attribut %d har fel typ (%d)"
++msgstr "INTERNT FEL (%s:%d): attribut %d har felaktig typ (%d)"
+ 
+ #: radiusd/radutil.c:509
+ #, c-format
+@@ -1621,22 +1622,22 @@
+ #: radiusd/request.c:225
+ #, c-format
+ msgid "Proxy %s request expired in queue"
+-msgstr "Proxy %s begäran har utgått i kön"
++msgstr "Proxy %s-begäran har gått ut i kön"
+ 
+ #: radiusd/request.c:244
+ #, c-format
+ msgid "Killing unresponsive %s child %lu"
+-msgstr "Avslutar icke-responsiv %s underprocess %lu"
++msgstr "Avslutar den %s-underprocessen %lu som inte svarar"
+ 
+ #: radiusd/request.c:249
+ #, c-format
+ msgid "Cannot terminate child %lu. Attempting to kill inexisting process?"
+-msgstr "Kan inte avsluta barnprocess %lu. Försöker du avsluta en icke-befintlig process?"
++msgstr "Kan inte avsluta underprocessen %lu. Försöker avsluta en obefintlig process?"
+ 
+ #: radiusd/request.c:259
+ #, c-format
+ msgid "Terminating unresponsive %s child %lu, status: %s"
+-msgstr "Avslutar icke-responsiv %s underordnad %lu, status: %s"
++msgstr "Avslutar den %s-underprocessen %lu som inte svarar, status: %s"
+ 
+ #: radiusd/request.c:262
+ msgid "OK"
+@@ -1652,7 +1653,7 @@
+ 
+ #: radiusd/request.c:365
+ msgid "too many requests in queue"
+-msgstr "för många förfrågningar i kö"
++msgstr "för många förfrågningar i kön"
+ 
+ #: radiusd/request.c:372
+ msgid "too many requests of this type"
+@@ -1665,7 +1666,7 @@
+ #: radiusd/rewrite.y:845 gram.y:397 radtest/gram.y:397
+ #, c-format
+ msgid "redefinition of function `%s'"
+-msgstr "omdefiniering av funktionen `%s'"
++msgstr "omdefinition av funktionen `%s'"
+ 
+ #: radiusd/rewrite.y:847 radiusd/rewrite.y:5611
+ #, c-format
+@@ -1674,7 +1675,7 @@
+ 
+ #: radiusd/rewrite.y:1033
+ msgid "nothing to break from"
+-msgstr "inget att bryta sig loss från"
++msgstr "inget att bryta sig ur"
+ 
+ #: radiusd/rewrite.y:1047
+ msgid "nothing to continue"
+@@ -1688,7 +1689,7 @@
+ #: radiusd/rewrite.y:1608
+ #, c-format
+ msgid "unexpected EOF in comment started at line %lu"
+-msgstr "oväntad EOF i kommentar som började på rad %lu"
++msgstr "oväntat filslut i en kommentar som började på rad %lu"
+ 
+ #: radiusd/rewrite.y:1669
+ #, c-format
+@@ -1707,7 +1708,7 @@
+ #: radiusd/rewrite.y:2422
+ #, c-format
+ msgid "%s implicit coercion %s %s"
+-msgstr "%s implicit tvång %s %s"
++msgstr "%s implicit typkonvertering %s %s"
+ 
+ #: radiusd/rewrite.y:2487
+ msgid "operation not applicable to strings"
+@@ -1747,7 +1748,7 @@
+ 
+ #: radiusd/rewrite.y:2713
+ msgid "from Undefined"
+-msgstr "från Undefined"
++msgstr "från Odefinierad"
+ 
+ #: radiusd/rewrite.y:2715
+ msgid "from integer"
+@@ -1780,7 +1781,7 @@
+ #: radiusd/rewrite.y:3050
+ #, c-format
+ msgid "missing return statement"
+-msgstr "saknad returneringssats"
++msgstr "retursats saknas"
+ 
+ #: radiusd/rewrite.y:3201 radiusd/rewrite.y:3211
+ #, c-format
+@@ -1794,7 +1795,7 @@
+ 
+ #: radiusd/rewrite.y:3907
+ msgid "out of pushdown space"
+-msgstr "utanför pushdown-utrymme"
++msgstr "slut på pushdown-utrymme"
+ 
+ #: radiusd/rewrite.y:3921 radiusd/rewrite.y:3952
+ msgid "heap overrun"
+@@ -1806,11 +1807,11 @@
+ 
+ #: radiusd/rewrite.y:4005 radiusd/rewrite.y:4048
+ msgid "out of popup"
+-msgstr "utanför popup"
++msgstr "slut på popup-utrymme"
+ 
+ #: radiusd/rewrite.y:4117 radiusd/rewrite.y:4127
+ msgid "rewrite runtime error"
+-msgstr "skriv om runtime-fel"
++msgstr "körningsfel vid omskrivning"
+ 
+ #: radiusd/rewrite.y:4225
+ msgid "no request supplied"
+@@ -1827,11 +1828,11 @@
+ #: radiusd/rewrite.y:4786
+ #, c-format
+ msgid "rewrite regex failure: %s. Input: %s"
+-msgstr "omskrivning av reguljära uttryck misslyckades: %s. Inmatning: %s"
++msgstr "fel i reguljärt uttryck vid omskrivning: %s. Indata: %s"
+ 
+ #: radiusd/rewrite.y:4839
+ msgid "pc out of range"
+-msgstr "pc utanför intervall"
++msgstr "pc ligger utanför intervallet"
+ 
+ #: radiusd/rewrite.y:5292
+ msgid "Invalid backreference"
+@@ -1844,17 +1845,17 @@
+ #: radiusd/rewrite.y:5609
+ #, c-format
+ msgid "redefinition of function %s"
+-msgstr "omdefiniering av funktion %s"
++msgstr "omdefinition av funktionen %s"
+ 
+ #: radiusd/rewrite.y:5665
+ #, c-format
+ msgid "function %s not defined"
+-msgstr "funktionen %s inte definierad"
++msgstr "funktionen %s är inte definierad"
+ 
+ #: radiusd/rewrite.y:5669
+ #, c-format
+ msgid "function %s returns wrong data type"
+-msgstr "funktionen %s returnerar fel datatyp"
++msgstr "funktionen %s returnerar felaktig datatyp"
+ 
+ #: radiusd/rewrite.y:5677
+ #, c-format
+@@ -1912,7 +1913,7 @@
+ #: radiusd/scheme.c:229
+ #, c-format
+ msgid "Procedure `%s' failed: see error output for details"
+-msgstr "Proceduren `%s' misslyckades: se felmeddelandet för mer information"
++msgstr "Proceduren `%s' misslyckades: se felutdata för detaljer"
+ 
+ #: radiusd/scheme.c:305 radiusd/scheme.c:341
+ #, c-format
+@@ -1932,17 +1933,17 @@
+ #: radiusd/scheme.c:645
+ #, c-format
+ msgid "Guile extensions disabled in config"
+-msgstr "Guile-tillägg inaktiverade i konfigurationen"
++msgstr "Guile-tillägg är inaktiverade i konfigurationen"
+ 
+ #: radiusd/scheme.c:662
+ #, c-format
+ msgid "Guile authentication not available"
+-msgstr "Guile-autentisering inte tillgänglig"
++msgstr "Guile-autentisering är inte tillgänglig"
+ 
+ #: radiusd/snmpserv.c:279
+ #, c-format
+ msgid "%s:%d: community %s already declared"
+-msgstr "%s:%d: gemenskap %s redan deklarerad"
++msgstr "%s:%d: SNMP-communityn %s är redan deklarerad"
+ 
+ #: radiusd/snmpserv.c:375 radiusd/snmpserv.c:409
+ #, c-format
+@@ -1952,7 +1953,7 @@
+ #: radiusd/snmpserv.c:383
+ #, c-format
+ msgid "%s:%d: undefined community %s"
+-msgstr "%s:%d: odefinierad gemenskap %s"
++msgstr "%s:%d: odefinierad SNMP-community %s"
+ 
+ #: radiusd/snmpserv.c:1332
+ #, c-format
+@@ -1962,7 +1963,7 @@
+ #: radiusd/snmpserv.c:1684
+ #, c-format
+ msgid "auth server re-initializing on SNMP request"
+-msgstr "autentiseringsserver startar om vid SNMP-begäran"
++msgstr "autentiseringsservern startar om vid SNMP-begäran"
+ 
+ #: radiusd/snmpserv.c:1964
+ #, c-format
+@@ -1977,12 +1978,12 @@
+ #: radiusd/snmpserv.c:1972
+ #, c-format
+ msgid "server continuing on SNMP request"
+-msgstr "servern fortsätter på SNMP-begäran"
++msgstr "servern fortsätter efter SNMP-begäran"
+ 
+ #: radiusd/snmpserv.c:1976
+ #, c-format
+ msgid "server suspending on SNMP request"
+-msgstr "servern avbryter vid SNMP-begäran"
++msgstr "servern stängs tillfälligt av vid SNMP-begäran"
+ 
+ #: radiusd/snmpserv.c:1980
+ #, c-format
+@@ -1997,12 +1998,12 @@
+ #: radiusd/snmpserv.c:2702
+ #, c-format
+ msgid "DENIED attempt to access community %s from %s"
+-msgstr "NEKAT försök att komma åt gemenskap %s från %s"
++msgstr "NEKAT åtkomstförsök till SNMP-communityn %s från %s"
+ 
+ #: radiusd/snmpserv.c:2757
+ #, c-format
+ msgid "Dropping SNMP request from client %s: %s"
+-msgstr "Kastar SNMP-begäran från klient %s: %s"
++msgstr "Kasserar SNMP-begäran från klient %s: %s"
+ 
+ #: radiusd/sql.c:315
+ #, c-format
+@@ -2015,11 +2016,11 @@
+ 
+ #: radiusd/sql.c:335
+ msgid "required argument missing"
+-msgstr "krävt argument saknas"
++msgstr "obligatoriskt argument saknas"
+ 
+ #: radiusd/sql.c:360 radiusd/sql.c:387
+ msgid "number parse error"
+-msgstr "nummeranalysfel"
++msgstr "fel vid tolkning av tal"
+ 
+ #: radiusd/sql.c:379 radiusd/sql.c:397 radiusd/sql.c:405
+ msgid "expected boolean value"
+@@ -2049,7 +2050,7 @@
+ #: radiusd/sql.c:515
+ #, c-format
+ msgid "%s: SQL interface not specified"
+-msgstr "%s: SQL-gränssnitt inte angivet"
++msgstr "%s: SQL-gränssnitt är inte angivet"
+ 
+ #: radiusd/sql.c:584
+ #, c-format
+@@ -2064,7 +2065,7 @@
+ #: radiusd/sql.c:593
+ #, c-format
+ msgid "SQL configuration changed: closing existing connections"
+-msgstr "SQL-konfigurationen har ändrats: stäng befintliga anslutningar"
++msgstr "SQL-konfigurationen har ändrats: stänger befintliga anslutningar"
+ 
+ #: radiusd/sql.c:812
+ #, c-format
+@@ -2081,7 +2082,7 @@
+ #: radiusd/sql.c:906
+ #, c-format
+ msgid "SQL Auth specified in users file, but not in sqlserver file"
+-msgstr "SQL Auth anges i användarfilen, men inte i sqlserver-filen"
++msgstr "SQL Auth är angivet i användarfilen, men inte i sqlserver-filen"
+ 
+ #: radiusd/sql.c:998
+ #, c-format
+@@ -2094,12 +2095,12 @@
+ 
+ #: radiusd/sql.c:1290
+ msgid "Radiusd is compiled without SQL support"
+-msgstr "Radiusd är kompilerat utan SQL-stöd"
++msgstr "Radiusd är kompilerad utan SQL-stöd"
+ 
+ #: radiusd/stat.c:84
+ #, c-format
+ msgid "SNMP system disabled: file `%s' has incorrect permissions"
+-msgstr "SNMP-systemet inaktiverat: filen `%s' har felaktiga behörigheter"
++msgstr "SNMP-systemet är inaktiverat: filen `%s' har felaktiga behörigheter"
+ 
+ #: radiusd/stat.c:103
+ #, c-format
+@@ -2126,7 +2127,7 @@
+ #: radiusd/stat.c:290
+ #, c-format
+ msgid "stat_update(): portno %d: can't find nas for IP %s"
+-msgstr "stat_update(): portno %d: kan inte hitta nas för IP %s"
++msgstr "stat_update(): portno %d: kan inte hitta NAS för IP-adressen %s"
+ 
+ #: radiusd/stat.c:301
+ #, c-format
+@@ -2135,11 +2136,11 @@
+ 
+ #: radiusd/stat.c:315
+ msgid "negative port idle time"
+-msgstr "negativ portinaktiv tid"
++msgstr "negativ inaktivitetstid för port"
+ 
+ #: radiusd/stat.c:339
+ msgid "negative port session time"
+-msgstr "negativ port-sessionstid"
++msgstr "negativ sessionstid för port"
+ 
+ #: radiusd/stat.c:471
+ #, c-format
+@@ -2211,7 +2212,7 @@
+ #: radiusd/version.c:190
+ #, c-format
+ msgid " pidfile directory:       %s\n"
+-msgstr " pidfile-katalog:    %s\n"
++msgstr " pidfilskatalog:     %s\n"
+ 
+ #: radiusd/version.c:191
+ #, c-format
+@@ -2220,22 +2221,22 @@
+ "Report bugs to <%s>\n"
+ msgstr ""
+ "\n"
+-"Rapportera buggar till <%s>\n"
++"Rapportera fel till <%s>\n"
+ "Rapportera fel i översättningen till <tp-sv@listor.tp-sv.se>.\n"
+ 
+ #: radiusd/rpp.c:353
+ #, c-format
+ msgid "child %lu %s"
+-msgstr "barnprocess %lu %s"
++msgstr "underprocess %lu %s"
+ 
+ #: radiusd/rpp.c:496
+ #, c-format
+ msgid "Killing process %lu: %s"
+-msgstr "Avslutar process %lu: %s"
++msgstr "Avslutar processen %lu: %s"
+ 
+ #: radiusd/rpp.c:563
+ msgid "error writing header"
+-msgstr "fel vid skrivning av rubrik"
++msgstr "fel vid skrivning av pakethuvud"
+ 
+ #: radiusd/rpp.c:567
+ msgid "error writing data"
+@@ -2244,17 +2245,17 @@
+ #: radiusd/rpp.c:598
+ #, c-format
+ msgid "Child exiting on timeout."
+-msgstr "Barnprocessen avslutar vid överstigen tidsgräns."
++msgstr "Underprocessen avslutas på grund av tidsgräns."
+ 
+ #: radiusd/rpp.c:645
+ #, c-format
+ msgid "Child received malformed header (len = %d, error = %s)"
+-msgstr "Barnprocess fick felaktig rubrik (längd = %d, fel = %s)"
++msgstr "Underprocessen tog emot ett felaktigt pakethuvud (längd = %d, fel = %s)"
+ 
+ #: radiusd/rpp.c:657
+ #, c-format
+ msgid "Child received malformed data"
+-msgstr "Barnprocess fick felaktigt data"
++msgstr "Underprocessen tog emot felaktiga data"
+ 
+ #: radiusd/rpp.c:705
+ msgid "error reading data"
+@@ -2262,7 +2263,7 @@
+ 
+ #: radiusd/rpp.c:718
+ msgid "error reading data; wrong data size returned"
+-msgstr "fel vid läsning av data; felaktig datastorlek returnerad"
++msgstr "fel vid läsning av data; felaktig datastorlek returnerades"
+ 
+ #: radiusd/tsh.c:71
+ msgid "Print this help screen"
+@@ -2274,15 +2275,15 @@
+ 
+ #: radiusd/tsh.c:73
+ msgid "Query the given NAS"
+-msgstr "Fråga den angivna NAS"
++msgstr "Fråga den angivna NAS:en"
+ 
+ #: radiusd/tsh.c:75
+ msgid "Enter Guile"
+-msgstr "Ange Guile"
++msgstr "Starta Guile"
+ 
+ #: radiusd/tsh.c:77
+ msgid "[NUMBER]"
+-msgstr "[NUMMER]"
++msgstr "[TAL]"
+ 
+ #: radiusd/tsh.c:78
+ msgid "Print or set the Rewrite stack size"
+@@ -2294,11 +2295,11 @@
+ 
+ #: radiusd/tsh.c:81
+ msgid "Run given Rewrite function"
+-msgstr "Kör angiven omskrivningsfunktion"
++msgstr "Kör den angivna omskrivningsfunktionen"
+ 
+ #: radiusd/tsh.c:83
+ msgid "Source the given Rewrite file"
+-msgstr "Läs den angivna omskrivningsfilen"
++msgstr "Läs in den angivna omskrivningsfilen"
+ 
+ #: radiusd/tsh.c:84
+ msgid "TIMESPAN [DOW [HH [MM]]]"
+@@ -2342,7 +2343,7 @@
+ #: radiusd/tsh.c:170
+ #, c-format
+ msgid "%s: unknown nas\n"
+-msgstr "%s: okänd nas\n"
++msgstr "%s: okänd NAS\n"
+ 
+ #: radiusd/tsh.c:206
+ #, c-format
+@@ -2362,7 +2363,7 @@
+ #: radlast/radlast.c:117 radlast/radlast.c:131
+ #, c-format
+ msgid "%s%s: invalid number"
+-msgstr "%s%s: ogiltigt nummer"
++msgstr "%s%s: ogiltigt tal"
+ 
+ #: radlast/radlast.c:158 radzap/radzap.c:54
+ #, c-format
+@@ -2371,11 +2372,11 @@
+ 
+ #: radlast/radlast.c:175
+ msgid "radlast specific switches:"
+-msgstr "radlastspecifika omkopplare:"
++msgstr "radlast-specifika flaggor:"
+ 
+ #: radlast/radlast.c:240
+ msgid "show at most NUMBER records"
+-msgstr "visa högst NUMMER poster"
++msgstr "visa högst ANTAL poster"
+ 
+ #: radlast/radlast.c:252
+ msgid "use FILE as radwtmp"
+@@ -2383,15 +2384,15 @@
+ 
+ #: radlast/radlast.c:264
+ msgid "show logins with IPADDR"
+-msgstr "visa inloggningar med IPADR"
++msgstr "visa inloggningar med IP-ADRESS"
+ 
+ #: radlast/radlast.c:275
+ msgid "mark records with missed stops with bump (!)"
+-msgstr "markera poster med missade stopp med bump (!)"
++msgstr "markera poster med missade stopp med markeringen (!)"
+ 
+ #: radlast/radlast.c:286
+ msgid "show logins from given NAS"
+-msgstr "visa inloggningar från angiven NAS"
++msgstr "visa inloggningar från den angivna NAS:en"
+ 
+ #: radlast/radlast.c:287 radzap/radzap.c:103
+ msgid "NASNAME"
+@@ -2403,19 +2404,19 @@
+ 
+ #: radlast/radlast.c:309
+ msgid "show logins from given port"
+-msgstr "visa inloggningar från angiven port"
++msgstr "visa inloggningar från den angivna porten"
+ 
+ #: radlast/radlast.c:321
+ msgid "show the login session duration in seconds"
+-msgstr "visa inloggningssessionens varaktighet i sekunder"
++msgstr "visa inloggningssessionens längd i sekunder"
+ 
+ #: radlast/radlast.c:332
+ msgid "widen the duration field to show seconds"
+-msgstr "bredda fältet för varaktighet så att det visar sekunder"
++msgstr "bredda längdfältet så att det visar sekunder"
+ 
+ #: radlast/radlast.c:344
+ msgid "report last logins from Radius database."
+-msgstr "rapportera senaste inloggningarna från Radius-databasen."
++msgstr "rapportera de senaste inloggningarna från Radius-databasen."
+ 
+ #: radlast/radlast.c:346
+ msgid "[OPTIONS] [USER...]"
+@@ -2468,15 +2469,15 @@
+ 
+ #: gram.y:308 radtest/gram.y:308
+ msgid "not enough 'while's to break from"
+-msgstr "inte tillräckligt med \"while\" för att bryta sig loss från"
++msgstr "för få while-satser att bryta sig ur"
+ 
+ #: gram.y:316 radtest/gram.y:316
+ msgid "not enough 'while's to continue"
+-msgstr "inte tillräckligt med \"while\" för att fortsätta"
++msgstr "för få while-satser för continue"
+ 
+ #: gram.y:360 radtest/gram.y:360
+ msgid "return outside of a function definition"
+-msgstr "returnera utanför en funktionsdefinition"
++msgstr "return-sats utanför en funktionsdefinition"
+ 
+ #: gram.y:372 gram.y:753 radtest/gram.y:372 radtest/gram.y:753
+ #, c-format
+@@ -2485,7 +2486,7 @@
+ 
+ #: gram.y:385 radtest/gram.y:385
+ msgid "nested function definitions are not allowed"
+-msgstr "nästlade funktionsdefinitioner är inte tillåtna"
++msgstr "kapslade funktionsdefinitioner är inte tillåtna"
+ 
+ #: gram.y:388 radtest/gram.y:388
+ msgid "the current function definition begins here"
+@@ -2494,15 +2495,15 @@
+ #: gram.y:399 radtest/gram.y:399
+ #, c-format
+ msgid "`%s' previously defined here"
+-msgstr "`%s' tidigare definierat här"
++msgstr "`%s' definierades tidigare här"
+ 
+ #: gram.y:478 radtest/gram.y:478
+ msgid "warning: truncating binary string"
+-msgstr "varning: avkortning av binär sträng"
++msgstr "varning: binär sträng kortas av"
+ 
+ #: gram.y:511 radtest/gram.y:511
+ msgid "expected integer value or request code name"
+-msgstr "förväntat heltal eller begäran av kodnamn"
++msgstr "förväntade ett heltalsvärde eller namnet på en begärandekod"
+ 
+ #: gram.y:670 radtest/gram.y:670
+ msgid "warning: '*' is meaningless for this attribute type"
+@@ -2533,7 +2534,7 @@
+ 
+ #: radtest/main.c:107
+ msgid "radtest specific switches:"
+-msgstr "radtest-specifika omkopplare:"
++msgstr "radtest-specifika flaggor:"
+ 
+ #: radtest/main.c:112
+ msgid "assign a VALUE to VARIABLE"
+@@ -2549,7 +2550,7 @@
+ 
+ #: radtest/main.c:134
+ msgid "read input from FILE; stops further processing of the command line"
+-msgstr "läser in data från FIL; avbryter vidare bearbetning av kommandoraden"
++msgstr "läs in indata från FIL; avbryt fortsatt bearbetning av kommandoraden"
+ 
+ #: radtest/main.c:145
+ msgid "don't read the configuration file"
+@@ -2557,11 +2558,11 @@
+ 
+ #: radtest/main.c:156
+ msgid "set number of retries"
+-msgstr "ställ in antal försök"
++msgstr "ställ in antal återförsök"
+ 
+ #: radtest/main.c:168
+ msgid "set radius server parameters"
+-msgstr "ställ in radieserverparametrar"
++msgstr "ställ in Radius-serverparametrar"
+ 
+ #: radtest/main.c:169
+ msgid "SERVER"
+@@ -2610,12 +2611,12 @@
+ #: radtest/main.c:371
+ #, c-format
+ msgid "No servers specfied. Use -s option.\n"
+-msgstr "Inga servrar angivna. Använd flaggan -s.\n"
++msgstr "Inga servrar har angetts. Använd flaggan -s.\n"
+ 
+ #: radtest/main.c:400
+ #, c-format
+ msgid "assign: missing closing quote\n"
+-msgstr "assign: saknad avslutande citattecken\n"
++msgstr "assign: ett avslutande citattecken saknas\n"
+ 
+ #: radtest/main.c:419 radtest/main.c:428
+ #, c-format
+@@ -2635,7 +2636,7 @@
+ #.
+ #: radtest/runtime.c:264
+ msgid "addition"
+-msgstr "tillägg"
++msgstr "addition"
+ 
+ #: radtest/runtime.c:265
+ msgid "subtraction"
+@@ -2697,7 +2698,7 @@
+ 
+ #: radtest/runtime.c:487 radtest/runtime.c:581 radtest/runtime.c:1420
+ msgid "input line too long"
+-msgstr "inmatningsraden är för lång"
++msgstr "indataraden är för lång"
+ 
+ #: radtest/runtime.c:628 radtest/runtime.c:677
+ msgid "invalid data type"
+@@ -2712,7 +2713,7 @@
+ 
+ #: radtest/runtime.c:784
+ msgid "ipaddress"
+-msgstr "ipadress"
++msgstr "IP-adress"
+ 
+ #: radtest/runtime.c:786
+ msgid "binary string"
+@@ -2735,7 +2736,7 @@
+ 
+ #: radtest/runtime.c:797
+ msgid "to ipaddress"
+-msgstr "till ip-adress"
++msgstr "till IP-adress"
+ 
+ #: radtest/runtime.c:799
+ msgid "to binary string"
+@@ -2747,7 +2748,7 @@
+ 
+ #: radtest/runtime.c:801
+ msgid "to A/V list"
+-msgstr "till A/V-listan"
++msgstr "till A/V-lista"
+ 
+ #. TRANSLATORS: First %s is replaced with a type name,
+ #. second %s -- with a type name with an appropriate preposition.
+@@ -2765,7 +2766,7 @@
+ 
+ #: radtest/runtime.c:1281
+ msgid "invalid data type in send statement (expected A/V list)"
+-msgstr "ogiltig datatyp i sändningsuttryck (förväntad A/V-lista)"
++msgstr "ogiltig datatyp i send-sats (A/V-lista förväntades)"
+ 
+ #: radtest/runtime.c:1297
+ #, c-format
+@@ -2779,7 +2780,7 @@
+ 
+ #: radtest/runtime.c:1308
+ msgid "expected A/V pair list"
+-msgstr "förväntad lista över A/V-par"
++msgstr "förväntade A/V-parlista"
+ 
+ #: radtest/runtime.c:1336
+ msgid "invalid data type in exit statement"
+@@ -2791,11 +2792,11 @@
+ 
+ #: radtest/runtime.c:1566
+ msgid "not enough arguments to shift"
+-msgstr "inte tillräckligt med argument för att byta"
++msgstr "för få argument till shift"
+ 
+ #: radwho/radwho.c:153
+ msgid "radwho specific switches:"
+-msgstr "radwho-specifika växlar:"
++msgstr "radwho-specifika flaggor:"
+ 
+ #: radwho/radwho.c:158
+ msgid "print all entries, not only active ones"
+@@ -2811,11 +2812,11 @@
+ 
+ #: radwho/radwho.c:180
+ msgid "DATEFMT"
+-msgstr "DATUMFMT"
++msgstr "DATUMFORMAT"
+ 
+ #: radwho/radwho.c:191
+ msgid "print STRING instead of an empty column"
+-msgstr "skriv ut STRING istället för en tom kolumn"
++msgstr "skriv ut STRÄNG i stället för en tom kolumn"
+ 
+ #: radwho/radwho.c:192
+ msgid "STRING"
+@@ -2823,7 +2824,7 @@
+ 
+ #: radwho/radwho.c:203
+ msgid "Use FILE instead of /var/log/radutmp"
+-msgstr "Använd FIL istället för /var/log/radutmp"
++msgstr "Använd FIL i stället för /var/log/radutmp"
+ 
+ #: radwho/radwho.c:215
+ msgid "act as a finger daemon"
+@@ -2835,11 +2836,11 @@
+ 
+ #: radwho/radwho.c:237
+ msgid "display session ID in the second column"
+-msgstr "visa sessions-id i den andra kolumnen"
++msgstr "visa sessions-ID i den andra kolumnen"
+ 
+ #: radwho/radwho.c:256
+ msgid "Long output. All fields will be printed."
+-msgstr "Lång utdata. Alla fält kommer att skrivas ut."
++msgstr "Utökad utdata. Alla fält skrivs ut."
+ 
+ #: radwho/radwho.c:266
+ msgid "display also local users"
+@@ -2859,7 +2860,7 @@
+ 
+ #: radwho/radwho.c:299
+ msgid "secure mode: requires that the username be specified"
+-msgstr "säker läge: kräver att användarnamnet anges"
++msgstr "säkert läge: kräver att användarnamnet anges"
+ 
+ #: radwho/radwho.c:312
+ msgid "display who is logged on by Radius"
+@@ -2868,7 +2869,7 @@
+ #: radwho/radwho.c:379
+ #, c-format
+ msgid "must provide username\n"
+-msgstr "måste ange användarnamn\n"
++msgstr "ett användarnamn måste anges\n"
+ 
+ #: radwho/radwho.c:415
+ #, c-format
+@@ -2877,7 +2878,7 @@
+ 
+ #: radzap/radzap.c:63
+ msgid "radzap specific switches:"
+-msgstr "radzap-specifika omkopplare:"
++msgstr "radzap-specifika flaggor:"
+ 
+ #: radzap/radzap.c:68
+ msgid "ask for confirmation before zapping"
+@@ -2889,15 +2890,15 @@
+ 
+ #: radzap/radzap.c:90
+ msgid "operate on FILE instead of /var/log/radutmp"
+-msgstr "använd FIL istället för /var/log/radutmp"
++msgstr "använd FIL i stället för /var/log/radutmp"
+ 
+ #: radzap/radzap.c:102
+ msgid "zap user from given NAS"
+-msgstr "zap-användare från angiven NAS"
++msgstr "zappa användare från den angivna NAS:en"
+ 
+ #: radzap/radzap.c:114
+ msgid "zap user coming from given port"
+-msgstr "zap-användare som kommer från given port"
++msgstr "zappa användare som kommer från den angivna porten"
+ 
+ #: radzap/radzap.c:126
+ msgid "do not ask for confirmation before zapping"
+@@ -2914,7 +2915,7 @@
+ #: radzap/radzap.c:201
+ #, c-format
+ msgid "radzap: zapping %s from %s, port %d"
+-msgstr "radzap: zapping %s från %s, port %d"
++msgstr "radzap: zappar %s från %s, port %d"
+ 
+ #: radzap/radzap.c:209
+ #, c-format
+@@ -2924,7 +2925,7 @@
+ #: radzap/radzap.c:247
+ #, c-format
+ msgid "at least one port, nas or user must be specified"
+-msgstr "minst en port, nas eller användare måste anges"
++msgstr "minst en port, NAS eller användare måste anges"
+ 
+ #: radzap/radzap.c:269
+ #, c-format
+@@ -2933,11 +2934,11 @@
+ 
+ #: sql/disp.c:138
+ msgid "Failed query was"
+-msgstr "Misslyckade frågan var"
++msgstr "Den misslyckade frågan var"
+ 
+ #: sql/mysql.c:78
+ msgid "gave up on connect"
+-msgstr "gav upp anslutningen"
++msgstr "gav upp anslutningsförsöket"
+ 
+ #: sql/mysql.c:106
+ #, c-format
+@@ -2947,7 +2948,7 @@
+ #: sql/mysql.c:162
+ #, c-format
+ msgid "[MYSQL]: can't get result"
+-msgstr "[MYSQL]: kan inte få resultat"
++msgstr "[MYSQL]: kan inte hämta resultat"
+ 
+ #: sql/odbc.c:229
+ #, c-format

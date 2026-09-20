@@ -1,0 +1,531 @@
+# Swedish messages for recode
+# Copyright © 1996, 1998, 2001, 2019 Free Software Foundation, Inc.
+# This file is distributed under the same license as the recode package.
+# Jan Djärv <Jan.Djarv@mbox200.swipnet.se>, 1996, 1998, 2001.
+# Sebastian Rasmussen <sebras@gmail.com>, 2019.
+# Revision: 1.16
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: recode 3.7.1\n"
+"Report-Msgid-Bugs-To: rrt@sc3d.org\n"
+"POT-Creation-Date: 2018-09-24 21:14+0100\n"
+"PO-Revision-Date: 2020-05-15 07:02+0800\n"
+"Last-Translator: Sebastian Rasmussen <sebras@gmail.com>\n"
+"Language-Team: Swedish <tp-sv-list@lists.sourceforge.net>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: src/main.c:110
+msgid "No error"
+msgstr "Inget fel"
+
+#: src/main.c:113
+msgid "Non canonical input"
+msgstr "Icke-kanonisk indata"
+
+#: src/main.c:116
+msgid "Ambiguous output"
+msgstr "Tvetydig utdata"
+
+#: src/main.c:119
+msgid "Untranslatable input"
+msgstr "Oöversättbar indata"
+
+#: src/main.c:122
+msgid "Invalid input"
+msgstr "Felaktig indata"
+
+#: src/main.c:125
+msgid "System detected problem"
+msgstr "Systemet upptäckte ett problem"
+
+#: src/main.c:128
+msgid "Misuse of recoding library"
+msgstr "Felaktig användning av omkodningsbiblioteket"
+
+#: src/main.c:131
+msgid "Internal recoding bug"
+msgstr "Intern omkodningsbugg"
+
+#: src/main.c:173
+msgid ""
+"This program is free software; you can redistribute it and/or modify\n"
+"it under the terms of the GNU General Public License as published by\n"
+"the Free Software Foundation; either version 3, or (at your option)\n"
+"any later version.\n"
+"\n"
+"This program is distributed in the hope that it will be useful,\n"
+"but WITHOUT ANY WARRANTY; without even the implied warranty of\n"
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n"
+"GNU General Public License for more details.\n"
+"\n"
+"You should have received a copy of the GNU General Public License\n"
+"along with this program; if not, write to the Free Software Foundation,\n"
+"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+msgstr ""
+"Följande text är en informell översättning som enbart tillhandahålls i\n"
+"informativt syfte. För alla juridiska tolkningar gäller den engelska\n"
+"originaltexten.\n"
+"\n"
+"Detta program är fri programvara.  Du kan distribuera den och/eller modifiera\n"
+"den under villkoren i GNU General Public License, publicerad av\n"
+"Free Software Foundation, antingen version 3, eller (om du så vill)\n"
+"någon senare version.\n"
+"\n"
+"Detta program distribueras i hopp om att det ska vara användbart,\n"
+"men UTAN NÅGON SOM HELST GARANTI, även utan den underförstådda garantin\n"
+"om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General\n"
+"Public License för ytterligare information.\n"
+"\n"
+"Du bör ha fått en kopia av GNU General Public License\n"
+"tillsammans med detta program. Om inte, skriv till Free Software Foundation,\n"
+"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+
+#: src/main.c:198
+#, c-format
+msgid "Try `%s %s' for more information.\n"
+msgstr "Prova `%s %s' för mer information.\n"
+
+#: src/main.c:202
+msgid "Recode converts files between various character sets and surfaces.\n"
+msgstr "Recode konverterar filer mellan olika teckenuppsättningar och ytor.\n"
+
+#: src/main.c:206
+#, c-format
+msgid ""
+"\n"
+"Usage: %s [OPTION]... [ [CHARSET] | REQUEST [FILE]... ]\n"
+msgstr ""
+"\n"
+"Användning: %s [FLAGGA]... [ [TECKENUPPSÄTTNING] | BEGÄRAN [FIL]...]\n"
+
+#: src/main.c:209
+msgid ""
+"\n"
+"If a long option shows an argument as mandatory, then it is mandatory\n"
+"for the equivalent short option also.  Similarly for optional arguments.\n"
+msgstr ""
+"\n"
+"Om en lång flagga visar att ett argument är obligatoriskt, är det även\n"
+"obligatoriskt för motsvarande korta flagga. Detsamma gäller valfria argument.\n"
+
+#: src/main.c:215
+msgid ""
+"\n"
+"Listings:\n"
+"  -l, --list[=FORMAT]        list one or all known charsets and aliases\n"
+"  -k, --known=PAIRS          restrict charsets according to known PAIRS list\n"
+"  -h, --header[=[LN/]NAME]   write table NAME on stdout using LN, then exit\n"
+"  -T, --find-subsets         report all charsets being subset of others\n"
+"  -C, --copyright            display Copyright and copying conditions\n"
+"      --help                 display this help and exit\n"
+"      --version              output version information and exit\n"
+msgstr ""
+"\n"
+"Listningar:\n"
+"  -l, --list[=FORMAT]        visa en eller alla kända teckenuppsättningar och alias\n"
+"  -k, --known=PAR            begränsa teckenuppsättningar enligt listan över kända PAR\n"
+"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN på standardutdata med LN och\n"
+"                             avsluta\n"
+"  -T, --find-subsets         rapportera alla teckenuppsättningar som är\n"
+"                             delmängder av andra\n"
+"  -C, --copyright            visa upphovsrätt och kopieringsvillkor\n"
+"      --help                 visa denna hjälptext och avsluta\n"
+"      --version              visa versionsinformation och avsluta\n"
+
+#: src/main.c:227
+msgid ""
+"\n"
+"Operation modes:\n"
+"  -v, --verbose           explain sequence of steps and report progress\n"
+"  -q, --quiet, --silent   inhibit messages about irreversible recodings\n"
+"  -f, --force             force recodings even when not reversible\n"
+"  -t, --touch             touch the recoded files after replacement\n"
+"  -i, -p, --sequence=STRATEGY  ignored for backwards compatibility\n"
+msgstr ""
+"\n"
+"Driftlägen:\n"
+"  -v, --verbose           förklara stegen och rapportera förloppet\n"
+"  -q, --quiet, --silent   undertryck meddelanden om irreversibla omkodningar\n"
+"  -f, --force             tvinga fram omkodningar även om de inte är reversibla\n"
+"  -t, --touch             uppdatera tidsstämpeln på de omkodade filerna efter ersättning\n"
+"  -i, -p, --sequence=STRATEGI  ignoreras för bakåtkompatibilitet\n"
+
+#: src/main.c:237
+msgid ""
+"\n"
+"Fine tuning:\n"
+"  -s, --strict           use strict mappings; discard untranslatable characters\n"
+"  -d, --diacritics       convert only diacritics or alike for HTML/LaTeX/BibTeX\n"
+"  -S, --source[=LN]      limit recoding to strings and comments as for LN\n"
+"  -c, --colons           use colons instead of double quotes for diaeresis\n"
+"  -g, --graphics         approximate IBMPC rulers by ASCII graphics\n"
+"  -x, --ignore=CHARSET   ignore CHARSET while choosing a recoding path\n"
+msgstr ""
+"\n"
+"Finjustering:\n"
+"  -s, --strict           använd strikta mappningar; kassera tecken som inte kan omkodas\n"
+"  -d, --diacritics       omkoda endast diakritiska och liknande tecken för\n"
+"                         HTML/LaTeX/BibTeX\n"
+"  -S, --source[=LN]      begränsa omkodning till strängar och kommentarer\n"
+"                         som för LN\n"
+"  -c, --colons           använd kolon i stället för dubbla citattecken för trema\n"
+"  -g, --graphics         approximera IBMPC-linjaler med ASCII-grafik\n"
+"  -x, --ignore=TECKENUPPSÄTTNING\n"
+"                         ignorera TECKENUPPSÄTTNING när omkodningsväg väljs\n"
+
+#: src/main.c:248
+msgid ""
+"\n"
+"Option -l with no FORMAT nor CHARSET list available charsets and surfaces.\n"
+"FORMAT is `decimal', `octal', `hexadecimal' or `full' (or one of `dohf').\n"
+msgstr ""
+"\n"
+"Flaggan -l utan FORMAT eller TECKENUPPSÄTTNING listar tillgängliga\n"
+"teckenuppsättningar och ytor. FORMAT är `decimal', `octal', `hexadecimal'\n"
+"eller `full' (eller en av `dohf').\n"
+
+#: src/main.c:254
+msgid ""
+"Unless DEFAULT_CHARSET is set in environment, CHARSET defaults to the locale\n"
+"dependent encoding, determined by LC_ALL, LC_CTYPE, LANG.\n"
+msgstr ""
+"Om DEFAULT_CHARSET inte har satts i miljön blir standardvärdet för\n"
+"TECKENUPPSÄTTNING den kodning som beror på språkmiljön och bestäms av\n"
+"miljövariablerna LC_ALL, LC_CTYPE och LANG.\n"
+
+#: src/main.c:259
+msgid ""
+"With -k, possible before charsets are listed for the given after CHARSET,\n"
+"both being tabular charsets, with PAIRS of the form `BEF1:AFT1,BEF2:AFT2,...'\n"
+"and BEFs and AFTs being codes are given as decimal numbers.\n"
+msgstr ""
+"Med -k listas möjliga ursprungliga teckenuppsättningar för den angivna\n"
+"målteckenuppsättningen; båda är tabellbaserade teckenuppsättningar. PAR har\n"
+"formen `BEF1:AFT1,BEF2:AFT2,...' och BEF:erna och AFT:erna, som är koder,\n"
+"anges som decimaltal.\n"
+
+#: src/main.c:264
+msgid "LN is some language, it may be `c', `perl' or `po'; `c' is the default.\n"
+msgstr "LN är ett språk och kan vara `c', `perl' eller `po'; `c' är standard.\n"
+
+#: src/main.c:267
+msgid ""
+"\n"
+"REQUEST is SUBREQUEST[,SUBREQUEST]...; SUBREQUEST is ENCODING[..ENCODING]...\n"
+"ENCODING is [CHARSET][/[SURFACE]]...; REQUEST often looks like BEFORE..AFTER,\n"
+"with BEFORE and AFTER being charsets.  An omitted CHARSET implies the usual\n"
+"charset; an omitted [/SURFACE]... means the implied surfaces for CHARSET; a /\n"
+"with an empty surface name means no surfaces at all.  See the manual.\n"
+msgstr ""
+"\n"
+"BEGÄRAN är DELBEGÄRAN[,DELBEGÄRAN]...; DELBEGÄRAN är KODNING[..KODNING]...\n"
+"KODNING är [TECKENUPPSÄTTNING][/[YTA]]...; BEGÄRAN ser ofta ut som START..SLUT,\n"
+"där START och SLUT är teckenuppsättningar. En utelämnad TECKENUPPSÄTTNING\n"
+"innebär den vanliga teckenuppsättningen; "
+"en utelämnad [/YTA]... innebär de\n"
+"underförstådda ytorna för TECKENUPPSÄTTNING. "
+"Ett / med ett tomt ytnamn innebär\n"
+"inga ytor alls. Se manualen.\n"
+
+#: src/main.c:275
+msgid ""
+"\n"
+"Each FILE is recoded over itself, destroying the original.  If no\n"
+"FILE is specified, then act as a filter and recode stdin to stdout.\n"
+msgstr ""
+"\n"
+"Varje FIL omkodas över sig själv och förstör originalet. Om ingen\n"
+"FIL anges fungerar programmet som ett filter och omkodar standardindata\n"
+"till standardutdata.\n"
+
+#: src/main.c:280
+msgid ""
+"\n"
+"Report bugs at https://github.com/rrthomas/recode\n"
+msgstr ""
+"\n"
+"Rapportera fel till https://github.com/rrthomas/recode\n"
+
+#: src/main.c:378
+#, c-format
+msgid "Sequence `%s' is ambiguous"
+msgstr "Sekvens `%s' är tvetydig"
+
+#: src/main.c:383
+#, c-format
+msgid "Sequence `%s' is unknown"
+msgstr "Sekvens `%s' är okänd"
+
+#: src/main.c:407 src/main.c:467
+#, c-format
+msgid "Language `%s' is ambiguous"
+msgstr "Språk `%s' är tvetydigt"
+
+#: src/main.c:412 src/main.c:472
+#, c-format
+msgid "Language `%s' is unknown"
+msgstr "Språk `%s' är okänt"
+
+#: src/main.c:507
+#, c-format
+msgid "Format `%s' is ambiguous"
+msgstr "Format `%s' är tvetydigt"
+
+#: src/main.c:512
+#, c-format
+msgid "Format `%s' is unknown"
+msgstr "Format `%s' är okänt"
+
+#: src/main.c:573
+msgid "Written by François Pinard <pinard@iro.umontreal.ca>.\n"
+msgstr "Skrivet av François Pinard <pinard@iro.umontreal.ca>.\n"
+
+#: src/main.c:576
+msgid ""
+"\n"
+"Copyright (C) 1990-2018 Free Software Foundation, Inc.\n"
+msgstr ""
+"\n"
+"Copyright © 1990-2018 Free Software Foundation, Inc.\n"
+
+#: src/main.c:580
+msgid ""
+"This is free software; see the source for copying conditions.  There is NO\n"
+"warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
+msgstr ""
+"Detta är fri programvara; se källkoden för kopieringsvillkor.  Det finns\n"
+"INGEN garanti; inte ens för SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT\n"
+"ÄNDAMÅL.\n"
+
+#: src/main.c:622
+#, c-format
+msgid "Symbol `%s' is unknown"
+msgstr "Symbol `%s' är okänd"
+
+#: src/main.c:662 src/main.c:676
+#, c-format
+msgid "Charset `%s' is unknown or ambiguous"
+msgstr "Teckenuppsättning `%s' är okänd eller tvetydig"
+
+#: src/main.c:707
+#, c-format
+msgid "Required argument is missing"
+msgstr "Obligatoriskt argument saknas"
+
+#: src/main.c:750
+#, c-format
+msgid "Syntax is deprecated, please prefer `%s'"
+msgstr "Föråldrad syntax; använd hellre `%s'"
+
+#: src/main.c:756
+#, c-format
+msgid "Request `%s' is erroneous"
+msgstr "Begäran `%s' är felaktig"
+
+#: src/main.c:834
+#, c-format
+msgid "Recoding %s..."
+msgstr "Omkodar %s…"
+
+#: src/main.c:844
+#, c-format
+msgid " done\n"
+msgstr " klart\n"
+
+#: src/main.c:877
+#, c-format
+msgid " failed: %s in step `%s..%s'\n"
+msgstr " misslyckades: %s i steg `%s..%s'\n"
+
+#: src/main.c:884
+#, c-format
+msgid "%s failed: %s in step `%s..%s'"
+msgstr "%s misslyckades: %s i steg `%s..%s'"
+
+#: src/main.c:903
+#, c-format
+msgid "%s in step `%s..%s'"
+msgstr "%s i steg `%s..%s'"
+
+#: src/names.c:352
+#, c-format
+msgid "Charset %s already exists and is not %s"
+msgstr "Teckenuppsättning %s finns redan och är inte %s"
+
+#: src/names.c:847
+#, c-format
+msgid "Cannot list `%s', no names available for this charset"
+msgstr "Kan inte lista `%s'; inga namn är tillgängliga för den här teckenuppsättningen"
+
+#: src/names.c:999 src/names.c:1045
+#, c-format
+msgid "Dec  Oct Hex   UCS2  Mne  %s\n"
+msgstr "Dec  Okt Hex   UCS2  Mne  %s\n"
+
+#: src/names.c:1064
+#, c-format
+msgid "Sorry, no names available for `%s'"
+msgstr "Inga namn är tillgängliga för `%s'"
+
+#: src/outer.c:114
+#, c-format
+msgid "Resurfacer set more than once for `%s'"
+msgstr "Ytkodning har angetts mer än en gång för `%s'"
+
+#: src/outer.c:121
+#, c-format
+msgid "Unsurfacer set more than once for `%s'"
+msgstr "Ytavkodning har angetts mer än en gång för `%s'"
+
+#: src/outer.c:469 src/recode.c:68 src/recode.c:80
+msgid "Virtual memory exhausted"
+msgstr "Slut på virtuellt minne"
+
+#: src/recode.c:108
+#, c-format
+msgid "Codes %3d and %3u both recode to %3d"
+msgstr "Teckenkoderna %3d och %3u omkodas båda till %3d"
+
+#: src/recode.c:122
+#, c-format
+msgid "No character recodes to %3u"
+msgstr "Inget tecken omkodas till %3u"
+
+#: src/recode.c:123
+msgid "Cannot invert given one-to-one table"
+msgstr "Kan inte invertera den angivna ett-till-ett-tabellen"
+
+#: src/recode.c:179 src/recode.c:191
+#, c-format
+msgid "Following diagnostics for `%s' to `%s'"
+msgstr "Följande diagnostik gäller omkodning från `%s' till `%s'"
+
+#: src/recode.c:184 src/recode.c:196
+#, c-format
+msgid "Pair no. %u: <%3d, %3d> conflicts with <%3d, %3d>"
+msgstr "Par nr. %u: <%3d, %3d> är i konflikt med <%3d, %3d>"
+
+#: src/recode.c:227
+msgid "Cannot complete table from set of known pairs"
+msgstr "Kan inte komplettera tabellen utifrån mängden kända par"
+
+#: src/recode.c:484
+msgid "Identity recoding, not worth a table"
+msgstr "Identitetsomkodning – inte värt en tabell"
+
+#: src/recode.c:491
+msgid "Recoding is too complex for a mere table"
+msgstr "Omkodning är för komplex för en enkel tabell"
+
+#: src/recode.c:523
+#, c-format
+msgid "%sConversion table generated mechanically by %s %s"
+msgstr "%sKonverteringstabell genererad automatiskt av %s %s"
+
+#: src/recode.c:525
+#, c-format
+msgid "%sfor sequence %s.%s"
+msgstr "%sför sekvens %s.%s"
+
+#: src/recode.c:747
+msgid "No table to print"
+msgstr "Ingen tabell att skriva ut"
+
+#: src/request.c:34
+msgid "reversible"
+msgstr "reversibel"
+
+#: src/request.c:36
+#, c-format
+msgid "%s to %s"
+msgstr "%s till %s"
+
+#: src/request.c:37 src/request.c:39
+msgid "byte"
+msgstr "byte"
+
+#: src/request.c:38 src/request.c:40
+msgid "ucs2"
+msgstr "ucs2"
+
+#: src/request.c:38 src/request.c:40
+msgid "variable"
+msgstr "variabel"
+
+#: src/request.c:108
+msgid "*Unachievable*"
+msgstr "*Omöjligt*"
+
+#: src/request.c:110
+msgid "*mere copy*"
+msgstr "*endast kopiering*"
+
+#: src/request.c:227
+msgid "Virtual memory exhausted!"
+msgstr "Slut på virtuellt minne!"
+
+#: src/request.c:251
+msgid "Step initialisation failed"
+msgstr "Initiering av steg misslyckades"
+
+#: src/request.c:258
+msgid "Step initialisation failed (unprocessed options)"
+msgstr "Initiering av steg misslyckades (obearbetade flaggor)"
+
+#: src/request.c:572
+#, c-format
+msgid "Request: %s\n"
+msgstr "Begäran: %s\n"
+
+#: src/request.c:739
+#, c-format
+msgid "Shrunk to: %s\n"
+msgstr "Reducerades till: %s\n"
+
+#: src/request.c:846 src/request.c:955
+#, c-format
+msgid "Unrecognised surface name `%s'"
+msgstr "Okänt ytnamn `%s'"
+
+#: src/request.c:926
+#, c-format
+msgid "No way to recode from `%s' to `%s'"
+msgstr "Det går inte att koda om från `%s' till `%s'"
+
+#: src/request.c:1036
+msgid "Expecting `..' in request"
+msgstr "Förväntar `..' i begäran"
+
+#: src/task.c:457
+#, c-format
+msgid "Child process wait status is 0x%0.2x"
+msgstr "Underprocessens väntestatus är 0x%0.2x"
+
+#: src/testdump.c:300
+msgid ""
+"UCS2   Mne   Description\n"
+"\n"
+msgstr ""
+"UCS2   Mne   Beskrivning\n"
+"\n"
+
+#~ msgid "  -p, --sequence=pipe     use pipe machinery for sequencing passes\n"
+#~ msgstr "  -p, --sequence=pipe     använd rör mellan delsteg\n"
+
+#~ msgid "  -p, --sequence=pipe     same as -i (on this system)\n"
+#~ msgstr "  -p, --sequence=pipe     samma sak som -i (på detta system)\n"
+
+#~ msgid ""
+#~ "\n"
+#~ "Report bugs to <recode-bugs@iro.umontreal.ca>.\n"
+#~ msgstr ""
+#~ "\n"
+#~ "Rapportera fel till <recode-bugs@iro.umontreal.ca>.\n"
+#~ "Rapportera fel på översättningen till <sv@li.org>.\n"
