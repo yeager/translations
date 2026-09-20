@@ -1,0 +1,334 @@
+--- a/sysstat-12.8.0.sv.po
++++ b/sysstat-12.8.0.sv.po
+@@ -38,7 +38,6 @@
+ "Flaggor är:\n"
+ "[ --dec={ 0 | 1 | 2 } ] [ --human ] [ --pretty ] [ -o JSON ]\n"
+ "[ -h ] [ -k | -m ] [ -t ] [ -U ] [ -V ] [ -y ] [ --debuginfo ]\n"
+-"\n"
+ 
+ #: cifsiostat.c:86
+ #, c-format
+@@ -50,7 +49,6 @@
+ "Flaggor är:\n"
+ "[ --dec={ 0 | 1 | 2 } ] [ --human ] [ --pretty ] [ -o JSON ]\n"
+ "[ -h ] [ -k | -m ] [ -t ] [ -U ] [ -V ] [ -y ]\n"
+-"\n"
+ 
+ #: cifsiostat.c:584
+ #, c-format
+@@ -85,7 +83,7 @@
+ msgstr ""
+ "Flaggor är:\n"
+ "[ -c ] [ -d ] [ -h ] [ -k | -m ] [ -N ] [ -s ] [ -t ] [ -U ] [ -V ] [ -x ] [ -y ] [ -z ]\n"
+-"[ { -f | +f } <katalog> ] [ -j { ID | LABEL | PATH | UUID | ... } ]\n"
++"[ { -f | +f } <KAT> ] [ -j { ID | LABEL | PATH | UUID | ... } ]\n"
+ "[ --compact ] [ --dec={ 0 | 1 | 2 } ] [ --human ] [ --pretty ] [ -o JSON ]\n"
+ "[ [ -H ] -g <gruppnamn> ] [ -p [ <enhet> [,...] | ALL ] ]\n"
+ "[ <enhet> [...] | ALL ] [ --debuginfo ]\n"
+@@ -101,17 +99,16 @@
+ "[ <device> [...] | ALL ]\n"
+ msgstr ""
+ "Flaggor är:\n"
+-" -c ] [ -d ] [ -h ] [ -k | -m ] [ -N ] [ -s ] [ -t ] [ -U ] [ -V ] [ -x ] [ -y ] [ -z ]\n"
+-"[ { -f | +f } <katalog> ] [ -j { ID | LABEL | PATH | UUID | ... } ]\n"
++"[ -c ] [ -d ] [ -h ] [ -k | -m ] [ -N ] [ -s ] [ -t ] [ -U ] [ -V ] [ -x ] [ -y ] [ -z ]\n"
++"[ { -f | +f } <KAT> ] [ -j { ID | LABEL | PATH | UUID | ... } ]\n"
+ "[ --compact ] [ --dec={ 0 | 1 | 2 } ] [ --human ] [ --pretty ] [ -o JSON ]\n"
+ "[ [ -H ] -g <gruppnamn> ] [ -p [ <enhet> [,...] | ALL ] ]\n"
+ "[ <enhet> [...] | ALL ]\n"
+-"\n"
+ 
+ #: iostat.c:2183 sa_common.c:2596
+ #, c-format
+ msgid "Invalid type of persistent device name\n"
+-msgstr "Ogiltig typ av persistent enhetsnamn\n"
++msgstr "Ogiltig typ av permanent enhetsnamn\n"
+ 
+ #: mpstat.c:141
+ #, c-format
+@@ -124,8 +121,7 @@
+ "Flaggor är:\n"
+ "[ -A ] [ -H ] [ -n ] [ -T ] [ -U ] [ -u ] [ -V ]\n"
+ "[ -I { SUM | CPU | SCPU | ALL } ] [ -N { <nodlista> | ALL } ]\n"
+-"[ --dec={ 0 | 1 | 2 } ] [ -o JSON ] [ -P { <cpulista> | ALL } ]\n"
+-"\n"
++"[ --dec={ 0 | 1 | 2 } ] [ -o JSON ] [ -P { <CPU-lista> | ALL } ]\n"
+ 
+ # sar.c:
+ #: mpstat.c:1735 pidstat.c:3530 sar.c:390
+@@ -148,8 +144,8 @@
+ msgstr ""
+ "Flaggor är:\n"
+ "[ -d ] [ -H ] [ -h ] [ -I ] [ -l ] [ -R ] [ -r ] [ -s ] [ -t ] [ -U [ <användarnamn> ] ]\n"
+-"[ -u ] [ -V ] [ -v ] [ -w ] [ -C <kommando> ] [ -G <process_namn> ]\n"
+-"[ -p { <pid> [,...] | SELF | ALL } ] [ -T { TASK | CHILD | ALL } ]\n"
++"[ -u ] [ -V ] [ -v ] [ -w ] [ -C <kommando> ] [ -G <processnamn> ]\n"
++"[ -p { <PID> [,...] | SELF | ALL } ] [ -T { TASK | CHILD | ALL } ]\n"
+ "[ --dec={ 0 | 1 | 2 } ] [ --human ] [ -o JSON ]\n"
+ 
+ #: pidstat.c:230 sa_common.c:379
+@@ -192,28 +188,28 @@
+ "Try to convert it to current format. Enter:\n"
+ "\n"
+ msgstr ""
+-"Försök att konvertera den till nuvarande format. Ange:\n"
++"Försök att konvertera den till aktuellt format. Ange:\n"
+ "\n"
+ 
+ #: sa_common.c:362
+ #, c-format
+ msgid "You should then be able to read the new file created (%s.new)\n"
+-msgstr "Du bör då kunna läsa den nya filen som skapats (%s.new)\n"
++msgstr "Därefter bör du kunna läsa den nya filen som skapats (%s.new)\n"
+ 
+ #: sa_common.c:1588
+ #, c-format
+ msgid "Error while reading system activity file: %s\n"
+-msgstr "Fel vid inläsning av systemaktivitetsfil: %s\n"
++msgstr "Fel vid läsning av systemaktivitetsfil: %s\n"
+ 
+ #: sa_common.c:1598
+ #, c-format
+ msgid "End of system activity file unexpected\n"
+-msgstr "Oväntat slut på systemaktivitetsfil\n"
++msgstr "Oväntat filslut i systemaktivitetsfil\n"
+ 
+ #: sa_common.c:1754
+ #, c-format
+ msgid "Invalid data read\n"
+-msgstr "Ogiltig data läst\n"
++msgstr "Ogiltiga data lästes in\n"
+ 
+ #: sa_common.c:2017
+ #, c-format
+@@ -223,7 +219,7 @@
+ #: sa_common.c:2352
+ #, c-format
+ msgid "Requested activities not available in file %s\n"
+-msgstr "Begärda aktiviteter inte tillgängliga i filen %s\n"
++msgstr "Begärda aktiviteter är inte tillgängliga i filen %s\n"
+ 
+ #: sa_common.c:3831
+ msgid "Maximum:"
+@@ -245,7 +241,7 @@
+ "CPU activity not found in file. Aborting...\n"
+ msgstr ""
+ "\n"
+-"Processoraktivitet hittades inte i fil. Avbryter…\n"
++"Processoraktivitet hittades inte i filen. Avbryter…\n"
+ 
+ #: sa_conv.c:408 sa_conv.c:1636
+ #, c-format
+@@ -254,7 +250,7 @@
+ "%s: Invalid data found. Aborting...\n"
+ msgstr ""
+ "\n"
+-"%s: Ogiltig data hittad. Avbryter…\n"
++"%s: Ogiltiga data hittades. Avbryter…\n"
+ 
+ #: sa_conv.c:1949
+ #, c-format
+@@ -273,7 +269,7 @@
+ #: sa_conv.c:2062
+ #, c-format
+ msgid "HZ: Using current value: %lu\n"
+-msgstr "HZ: Använder nuvarande värde: %lu\n"
++msgstr "HZ: Använder aktuellt värde: %lu\n"
+ 
+ #: sa_conv.c:2093
+ #, c-format
+@@ -304,7 +300,7 @@
+ #: sadc.c:1027
+ #, c-format
+ msgid "Cannot append data to that file (%s)\n"
+-msgstr "Kan inte lägga till data till den filen (%s)\n"
++msgstr "Kan inte lägga till data i den filen (%s)\n"
+ 
+ #: sadf.c:118
+ #, c-format
+@@ -323,16 +319,16 @@
+ msgstr ""
+ "Flaggor är:\n"
+ "[ -C ] [ -c | -d | -g | -j | -l | -p | -r | -x ] [ -H ] [ -h ] [ -T | -t | -U ] [ -V ]\n"
+-"[ -O <flaggor> [,...] ] [ -P { <cpu> [,...] | ALL } ]\n"
+-"[ --dev=<dev_list> ] [ --fs=<fs_list> ] [ --iface=<iface_list> ] [ --int=<int_list> ]\n"
+-"\n"
+-"[ -s [ <tid-start> ] ] [ -e [ <slut-tid> ] ]\n"
++"[ -O <flaggor> [,...] ] [ -P { <CPU> [,...] | ALL } ]\n"
++"[ --dev=<enhetslista> ] [ --fs=<filsystemlista> ] [ --iface=<gränssnittslista> ] [ --int=<avbrottslista> ]"
++"\n"
++"[ -s [ <starttid> ] ] [ -e [ <sluttid> ] ]\n"
+ "[ -- <sar-flaggor> ]\n"
+ 
+ #: sadf.c:2039
+ #, c-format
+ msgid "PCP support not compiled in\n"
+-msgstr "PCP-stöd är inte inkompilerat\n"
++msgstr "PCP-stöd har inte kompilerats in\n"
+ 
+ #: sadf_misc.c:1244
+ #, c-format
+@@ -342,7 +338,7 @@
+ #: sadf_misc.c:1253
+ #, c-format
+ msgid "Genuine sa datafile: %s (%x)\n"
+-msgstr "Genuin sa-datafil: %s (%x)\n"
++msgstr "Äkta sa-datafil: %s (%x)\n"
+ 
+ #: sadf_misc.c:1254
+ msgid "no"
+@@ -375,12 +371,12 @@
+ #: sadf_misc.c:1278
+ #, c-format
+ msgid "File composition: (%u,%u,%u),(%u,%u,%u),(%u,%u,%u)\n"
+-msgstr "Filsammansättning:(%u,%u,%u),(%u,%u,%u),(%u,%u,%u)\n"
++msgstr "Filsammansättning: (%u,%u,%u),(%u,%u,%u),(%u,%u,%u)\n"
+ 
+ #: sadf_misc.c:1283
+ #, c-format
+ msgid "Size of a long int: %d\n"
+-msgstr "Storlek på en lång int: %d\n"
++msgstr "Storlek på en long int: %d\n"
+ 
+ #: sadf_misc.c:1285
+ #, c-format
+@@ -390,7 +386,7 @@
+ #: sadf_misc.c:1287
+ #, c-format
+ msgid "Extra structures available: %c\n"
+-msgstr "Extra strukturer tillgängliga: %c\n"
++msgstr "Ytterligare strukturer tillgängliga: %c\n"
+ 
+ #: sadf_misc.c:1290
+ #, c-format
+@@ -404,7 +400,7 @@
+ #: sadf_misc.c:1309
+ #, c-format
+ msgid " \t[Unknown format]"
+-msgstr "\t[Okänt format]"
++msgstr " \t[Okänt format]"
+ 
+ #: sar.c:128
+ #, c-format
+@@ -426,14 +422,14 @@
+ "[ -A ] [ -B ] [ -b ] [ -C ] [ -D ] [ -d ] [ -F [ MOUNT ] ] [ -H ] [ -h ]\n"
+ "[ -p ] [ -r [ ALL ] ] [ -S ] [ -t ] [ -u [ ALL ] ] [ -V ]\n"
+ "[ -v ] [ -W ] [ -w ] [ -x ] [ -y ] [ -z ]\n"
+-"[ -I [ SUM | ALL ] ] [ -P { <cpulista> | ALL } ]\n"
++"[ -I [ SUM | ALL ] ] [ -P { <CPU-lista> | ALL } ]\n"
+ "[ -m { <nyckelord> [,...] | ALL } ] [ -n { <nyckelord> [,...] | ALL } ]\n"
+ "[ -q [ <nyckelord> [,...] | ALL ] ]\n"
+-"[ --dev=<enhets-lista> ] [ --fs=<filsystem-lista> ] [ --iface=<gränssnitts-lista> ] [--int=<heltals-lista> ]\n"
++"[ --dev=<enhetslista> ] [ --fs=<filsystemlista> ] [ --iface=<gränssnittslista> ] [ --int=<avbrottslista> ]\n"
+ "[ --dec={ 0 | 1 | 2 } ] [ --help ] [ --human ] [ --pretty ] [ --sadc ]\n"
+ "[ -j { SID | ID | LABEL | PATH | UUID | ... } ]\n"
+ "[ -f [ <filnamn> ] | -o [ <filnamn> ] | -[0-9]+ ]\n"
+-"[ -i <interval> ] [ -s [ <start-tid> ] ] [ -e [ <slut-tid> ] ]\n"
++"[ -i <intervall> ] [ -s [ <starttid> ] ] [ -e [ <sluttid> ] ]\n"
+ 
+ #: sar.c:155
+ #, c-format
+@@ -493,16 +489,16 @@
+ "\t\tTEMP\tDevices temperature\n"
+ "\t\tUSB\tUSB devices plugged into the system\n"
+ msgstr ""
+-"\t-m { <nyckelord> [,…] | ALL }\n"
+-"\t\tStatistik över strömhantering [A_PWR_…]\n"
++"\t-m { <nyckelord> [,...] | ALL }\n"
++"\t\tStatistik över strömhantering [A_PWR_...]\n"
+ "\t\tNyckelord är:\n"
+-"\t\tBAT Batterikapacitet\n"
++"\t\tBAT\tBatterikapacitet\n"
+ "\t\tCPU\tProcessorns momentana klockfrekvens\n"
+ "\t\tFAN\tFläkthastigheter\n"
+ "\t\tFREQ\tProcessorns genomsnittliga klockfrekvens\n"
+ "\t\tIN\tSpänningsingångar\n"
+ "\t\tTEMP\tEnhetstemperaturer\n"
+-"\t\tUSB\tUSB-enheter som finns kopplade till systemet\n"
++"\t\tUSB\tUSB-enheter som är anslutna till systemet\n"
+ 
+ #: sar.c:174
+ #, c-format
+@@ -531,9 +527,9 @@
+ "\t\tFC\tFibre channel HBAs\n"
+ "\t\tSOFT\tSoftware-based network processing\n"
+ msgstr ""
+-"\t-n { <nyckelord> [,…] | ALL }\n"
+-"\t\tStatistik över nätverk [A_NET_…]\n"
+-"\t\tNyckelord:\n"
++"\t-n { <nyckelord> [,...] | ALL }\n"
++"\t\tStatistik över nätverk [A_NET_...]\n"
++"\t\tNyckelord är:\n"
+ "\t\tDEV\tNätverksgränssnitt\n"
+ "\t\tEDEV\tNätverksgränssnitt (fel)\n"
+ "\t\tNFS\tNFS-klient\n"
+@@ -552,7 +548,7 @@
+ "\t\tICMP6\tICMP-trafik\t(v6)\n"
+ "\t\tEICMP6\tICMP-trafik\t(v6) (fel)\n"
+ "\t\tUDP6\tUDP-trafik\t(v6)\n"
+-"\t\tFC\tFiberkanal HBA:er\n"
++"\t\tFC\tFiber Channel-HBA:er\n"
+ "\t\tSOFT\tProgramvarubaserad nätverksbearbetning\n"
+ 
+ #: sar.c:197
+@@ -567,12 +563,12 @@
+ "\t\tMEM\tPressure-stall memory statistics [A_PSI_MEM]\n"
+ msgstr ""
+ "\t-q [ <nyckelord> [,...] | PSI | ALL ]\n"
+-"\t\tSystemlast och tryck/uppehållsstatistik\n"
++"\t\tSystemlast och statistik över tryckstopp\n"
+ "\t\tNyckelord är:\n"
+ "\t\tLOAD\tKölängd och statistik över genomsnittlig last [A_QUEUE]\n"
+-"\t\tCPU\tTryck/uppehållsstatistik för CPU [A_PSI_CPU]\n"
+-"\t\tIO\tTryck/uppehållsstatistik för I/O [A_PSI_IO]\n"
+-"\t\tMEM\tTryck/uppehållsstatistik för minne [A_PSI_MEM]\n"
++"\t\tCPU\tStatistik över tryckstopp för CPU [A_PSI_CPU]\n"
++"\t\tIO\tStatistik över tryckstopp för I/O [A_PSI_IO]\n"
++"\t\tMEM\tStatistik över tryckstopp för minne [A_PSI_MEM]\n"
+ 
+ #: sar.c:204
+ #, c-format
+@@ -610,7 +606,7 @@
+ #: sar.c:211
+ #, c-format
+ msgid "\t-w\tTask creation and system switching statistics [A_PCSW]\n"
+-msgstr "\t-w\tStatistik över processkapande och systemväxling [A_PCSW]\n"
++msgstr "\t-w\tStatistik över processkapande och kontextväxlingar [A_PCSW]\n"
+ 
+ #: sar.c:212
+ #, c-format
+@@ -620,22 +616,22 @@
+ #: sar.c:226
+ #, c-format
+ msgid "Data collector will be sought in PATH\n"
+-msgstr "Datainsamlare kommer att eftersökas i SÖKVÄG\n"
++msgstr "Datainsamlare kommer att sökas i PATH\n"
+ 
+ #: sar.c:229
+ #, c-format
+ msgid "Data collector found: %s\n"
+-msgstr "Datainsamlare hittade: %s\n"
++msgstr "Datainsamlare hittades: %s\n"
+ 
+ #: sar.c:294
+ #, c-format
+ msgid "End of data collecting unexpected\n"
+-msgstr "Oväntat slut på datainsamling\n"
++msgstr "Oväntat slut på datainsamlingen\n"
+ 
+ #: sar.c:299
+ #, c-format
+ msgid "Inconsistent input data\n"
+-msgstr "Inkonsekvent indata\n"
++msgstr "Inkonsistenta indata\n"
+ 
+ #: sar.c:914
+ #, c-format
+@@ -665,7 +661,6 @@
+ msgstr ""
+ "Flaggor är:\n"
+ "[ --human ] [ -k | -m ] [ -o JSON ] [ -t ] [ -U ] [ -V ] [ -y ] [ -z ]\n"
+-"\n"
+ 
+ #: tapestat.c:290
+ #, c-format
