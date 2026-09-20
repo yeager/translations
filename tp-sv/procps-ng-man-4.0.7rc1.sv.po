@@ -5172,7 +5172,7 @@ msgstr "B<S>"
 #. type: Plain text
 #: ../man/ps.1:690
 msgid "Sum up some information, such as CPU usage, from dead child processes into their parent.  This is useful for examining a system where a parent process repeatedly forks off short-lived children to do work."
-msgstr "Summera viss information, till exempel CPU-användning, från döda barnprocesser till deras föräldraprocess. Detta är användbart vid granskning av system där en föräldraprocess upprepade gånger fork:ar kortlivade barnprocesser för att utföra arbete."
+msgstr "Summera viss information, till exempel CPU-användning, från döda barnprocesser till deras föräldraprocess. Detta är användbart vid granskning av system där en föräldraprocess upprepade gånger förgrenar kortlivade barnprocesser för att utföra arbete."
 
 #. type: TP
 #: ../man/ps.1:690
@@ -5376,7 +5376,7 @@ msgstr "1"
 #: ../man/ps.1:813
 #, no-wrap
 msgid "forked but didn't exec"
-msgstr "forkade men körde inte exec"
+msgstr "förgrenade men körde inte exec"
 
 #. type: tbl table
 #: ../man/ps.1:814
@@ -8274,7 +8274,7 @@ msgid ""
 "with shared memory proportionally accounted to all tasks mapping it."
 msgstr ""
 "Proportionell andelsstorlek,\n"
-"det ej utväxlade fysiska minnet,\n"
+"det inte utväxlade fysiska minnet,\n"
 "där delat minne fördelas proportionellt på alla uppgifter som avbildar det."
 
 #. type: tbl table
@@ -8379,7 +8379,7 @@ msgid ""
 "kibibytes).  (alias\n"
 "B<rssize>, B<rsz>)."
 msgstr ""
-"storlek på resident mängd: det ej utväxlade fysiska minne som en uppgift "
+"storlek på resident mängd: det inte utväxlade fysiska minne som en uppgift "
 "har använt (i kibibyte). (alias\n"
 "B<rssize>, B<rsz>)."
 
@@ -9438,7 +9438,7 @@ msgid ""
 "Unique set size, the non-swapped physical memory, which\n"
 "is not shared with an another task."
 msgstr ""
-"unik mängdstorlek: det ej utväxlade fysiska minne\n"
+"unik mängdstorlek: det inte utväxlade fysiska minne\n"
 "som "
 "inte delas med någon annan uppgift."
 
@@ -11332,7 +11332,7 @@ msgstr "Autogruppidentifieraren som hör ihop med en process. Denna funktion fun
 #. type: Plain text
 #: ../man/top.1:713
 msgid "When /proc/sys/kernel/sched_autogroup_enabled is set, a new autogroup is created with each new session (\\*(Xa SID).  All subsequently forked processes in that session inherit membership in this autogroup.  The kernel then attempts to equalize distribution of CPU cycles across such groups.  Thus, an autogroup with many \\*(PU intensive processes (e.g make -j)  will not dominate an autogroup with only one or two processes."
-msgstr "När /proc/sys/kernel/sched_autogroup_enabled är angiven skapas en ny autogrupp för varje ny session (\\*(Xa SID). Alla processer som sedan skapas genom fork i sessionen ärver medlemskapet i autogruppen. Kärnan försöker sedan jämna ut fördelningen av CPU-cykler mellan sådana grupper. En autogrupp med många \\*(PU-intensiva processer (till exempel make -j) dominerar därför inte en autogrupp med endast en eller två processer."
+msgstr "När /proc/sys/kernel/sched_autogroup_enabled är angiven skapas en ny autogrupp för varje ny session (\\*(Xa SID). Alla processer som sedan skapas genom förgrening i sessionen ärver medlemskapet i autogruppen. Kärnan försöker sedan jämna ut fördelningen av CPU-cykler mellan sådana grupper. En autogrupp med många \\*(PU-intensiva processer (till exempel make -j) dominerar därför inte en autogrupp med endast en eller två processer."
 
 #. type: Plain text
 #: ../man/top.1:715

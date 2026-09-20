@@ -153,7 +153,7 @@
  
  #. #define FORM_LINK_CHECKBOX_ADV_MSG
  #: LYMessages.c:114
-@@ -365,38 +365,38 @@
+@@ -365,51 +365,51 @@
  #: LYMessages.c:152
  #, c-format
  msgid "(Option list \"%s\"); Hit return to select option."
@@ -199,7 +199,14 @@
  
  #: LYMessages.c:165
  msgid "Submitting form..."
-@@ -409,7 +409,7 @@
+-msgstr "Skickar formulär..."
++msgstr "Skickar formulär…"
+ 
+ #: LYMessages.c:166
+ msgid "Resetting form..."
+-msgstr "Nollställer formulär..."
++msgstr "Nollställer formulär…"
+ 
  #. #define RELOADING_FORM
  #: LYMessages.c:168
  msgid "Reloading document.  Any form entries will be lost!"
@@ -298,7 +305,7 @@
  
  #: LYMessages.c:215
  msgid "Mail disallowed!  Cannot submit."
-@@ -563,7 +563,7 @@
+@@ -563,20 +563,20 @@
  
  #: LYMessages.c:217
  msgid "Mailto form submission Cancelled!!!"
@@ -307,7 +314,8 @@
  
  #: LYMessages.c:218
  msgid "Sending form content..."
-@@ -571,12 +571,12 @@
+-msgstr "Skickar formulärdata..."
++msgstr "Skickar formulärdata…"
  
  #: LYMessages.c:219
  msgid "No email address is present in mailto URL!"
@@ -337,6 +345,15 @@
  
  #: LYMessages.c:230
  msgid "Send this comment?"
+@@ -608,7 +608,7 @@
+ 
+ #: LYMessages.c:232
+ msgid "Sending your message..."
+-msgstr "Skickar ditt meddelande..."
++msgstr "Skickar ditt meddelande…"
+ 
+ #: LYMessages.c:233
+ msgid "Sending your comment:"
 @@ -625,12 +625,12 @@
  
  #: LYMessages.c:239
@@ -398,15 +415,43 @@
  
  #: LYMessages.c:268
  msgid "This special URL cannot be downloaded!"
-@@ -729,7 +729,7 @@
+@@ -719,30 +719,30 @@
+ #. #define CLICKABLE_IMAGES_ON
+ #: LYMessages.c:273
+ msgid "Links will be included for all images!  Reloading..."
+-msgstr "Länkar skapas för alla bilder! Hämtar om..."
++msgstr "Länkar skapas för alla bilder! Hämtar om…"
+ 
+ #. #define CLICKABLE_IMAGES_OFF
+ #: LYMessages.c:275
+ msgid "Standard image handling restored!  Reloading..."
+-msgstr "Normal bildhantering återställd! Hämtar om..."
++msgstr "Normal bildhantering återställd! Hämtar om…"
+ 
  #. #define PSEUDO_INLINE_ALTS_ON
  #: LYMessages.c:277
  msgid "Pseudo_ALTs will be inserted for inlines without ALT strings!  Reloading..."
 -msgstr "\"Pseudo-ALT\" sätts in för bilder som saknar ALT-strängar! Hämtar om..."
-+msgstr "Pseudo-ALT sätts in för inlinebilder som saknar ALT-strängar! Hämtar om..."
++msgstr "\"Pseudo-ALT\" sätts in för bilder som saknar ALT-strängar! Hämtar om…"
  
  #. #define PSEUDO_INLINE_ALTS_OFF
  #: LYMessages.c:279
+ msgid "Inlines without an ALT string specified will be ignored!  Reloading..."
+-msgstr "Bilder utan ALT-strängar ignoreras! Hämtar om..."
++msgstr "Bilder utan ALT-strängar ignoreras! Hämtar om…"
+ 
+ #: LYMessages.c:280
+ msgid "Raw 8-bit or CJK mode toggled OFF!  Reloading..."
+-msgstr "Rått 8-bitars- eller CJK-läge AV! Hämtar om..."
++msgstr "Rått 8-bitars- eller CJK-läge AV! Hämtar om…"
+ 
+ #: LYMessages.c:281
+ msgid "Raw 8-bit or CJK mode toggled ON!  Reloading..."
+-msgstr "Rått 8-bitars- eller CJK-läge PÅ! Hämtar om..."
++msgstr "Rått 8-bitars- eller CJK-läge PÅ! Hämtar om…"
+ 
+ #. #define HEAD_D_L_OR_CANCEL
+ #: LYMessages.c:283
 @@ -764,7 +764,7 @@
  
  #: LYMessages.c:288
@@ -731,6 +776,25 @@
  
  #: LYMessages.c:470
  msgid "Cannot write to file."
+@@ -1379,15 +1379,15 @@
+ 
+ #: LYMessages.c:473
+ msgid "Reading directory..."
+-msgstr "Läser katalog..."
++msgstr "Läser katalog…"
+ 
+ #: LYMessages.c:474
+ msgid "Building directory listing..."
+-msgstr "Bygger kataloglista..."
++msgstr "Bygger kataloglista…"
+ 
+ #: LYMessages.c:475
+ msgid "Saving..."
+-msgstr "Sparar..."
++msgstr "Sparar…"
+ 
+ #: LYMessages.c:476
+ #, c-format
 @@ -1413,7 +1413,7 @@
  #. #define CANNOT_EDIT_REMOTE_FILES
  #: LYMessages.c:482
@@ -837,7 +901,7 @@
  #: LYMessages.c:530
  msgid "Posting to newsgroup(s)..."
 -msgstr "Postar till diskussionsgrupp(er)..."
-+msgstr "Skickar till nyhetsgrupp(er)…"
++msgstr "Postar till diskussionsgrupp(er)…"
  
  #: LYMessages.c:532
  msgid "*** You have unread mail. ***"
@@ -878,12 +942,12 @@
  #: LYMessages.c:549
  msgid "Please wait..."
 -msgstr "Var god vänta..."
-+msgstr "Vänta…"
++msgstr "Var god vänta…"
  
  #: LYMessages.c:550
  msgid "Mailing file.  Please wait..."
 -msgstr "Skickar fil. Var god vänta..."
-+msgstr "Skickar fil. Vänta…"
++msgstr "Skickar fil. Var god vänta…"
  
  #: LYMessages.c:551
  msgid "ERROR - Unable to mail file"
@@ -928,7 +992,7 @@
  #: LYMessages.c:564
  msgid "Printing file.  Please wait..."
 -msgstr "Skriver ut fil. Var god vänta..."
-+msgstr "Skriver ut fil. Vänta…"
++msgstr "Skriver ut fil. Var god vänta…"
  
  #: LYMessages.c:565
  msgid "Please enter a valid internet mail address: "
@@ -950,6 +1014,15 @@
  
  #: LYMessages.c:581
  #, c-format
+@@ -1759,7 +1759,7 @@
+ 
+ #: LYMessages.c:586
+ msgid ", guessing..."
+-msgstr ", gissar..."
++msgstr ", gissar…"
+ 
+ #: LYMessages.c:587
+ msgid "Permissions for "
 @@ -1771,15 +1771,15 @@
  
  #: LYMessages.c:589
@@ -1012,6 +1085,15 @@
  
  #: LYMessages.c:609
  msgid "Failed to set DISPLAY variable!"
+@@ -1888,7 +1888,7 @@
+ 
+ #: LYMessages.c:624
+ msgid "Saving Options..."
+-msgstr "Sparar inställningar..."
++msgstr "Sparar inställningar…"
+ 
+ #: LYMessages.c:625
+ msgid "Options saved!"
 @@ -1909,7 +1909,7 @@
  #. #define ANY_KEY_CHANGE_RET_ACCEPT
  #: LYMessages.c:630
@@ -1054,7 +1136,7 @@
  #: LYMessages.c:660
  msgid "Discarding POST data..."
 -msgstr "Kastar POST-data..."
-+msgstr "Förkastar POST-data…"
++msgstr "Kastar POST-data…"
  
  #: LYMessages.c:661
  msgid "Document will not be reloaded!"
@@ -1105,7 +1187,7 @@
  
  #: LYMessages.c:687
  msgid "No previously visited links available!"
-@@ -2087,7 +2087,7 @@
+@@ -2087,15 +2087,15 @@
  
  #: LYMessages.c:688
  msgid "Memory exhausted!  Program aborted!"
@@ -1114,7 +1196,8 @@
  
  #: LYMessages.c:689
  msgid "Memory exhausted!  Aborting..."
-@@ -2095,7 +2095,7 @@
+-msgstr "Minnet slut! Avbryter..."
++msgstr "Minnet slut! Avbryter…"
  
  #: LYMessages.c:690
  msgid "Not enough memory!"
@@ -1523,6 +1606,20 @@
  
  #: LYMessages.c:894
  msgid "Linewrap OFF!"
+@@ -2836,11 +2836,11 @@
+ 
+ #: LYMessages.c:896
+ msgid "Parsing nested-tables toggled OFF!  Reloading..."
+-msgstr "Tolkning av nästlade tabeller AV! Hämtar om..."
++msgstr "Tolkning av nästlade tabeller AV! Hämtar om…"
+ 
+ #: LYMessages.c:897
+ msgid "Parsing nested-tables toggled ON!  Reloading..."
+-msgstr "Tolkning av nästlade tabeller PÅ! Hämtar om..."
++msgstr "Tolkning av nästlade tabeller PÅ! Hämtar om…"
+ 
+ #: LYMessages.c:898
+ msgid "Shifting is disabled while line-wrap is in effect"
 @@ -2863,7 +2863,7 @@
  #: WWW/Library/Implementation/HTAABrow.c:591
  #, c-format
@@ -1631,6 +1728,15 @@
  "\n"
  
  #: WWW/Library/Implementation/HTNews.c:1898
+@@ -3076,7 +3076,7 @@
+ 
+ #: WWW/Library/Implementation/HTNews.c:2595
+ msgid "Connecting to NewsHost ..."
+-msgstr "Ansluter till diskussionsvärd..."
++msgstr "Ansluter till diskussionsvärd…"
+ 
+ #: WWW/Library/Implementation/HTNews.c:2647
+ #, c-format
 @@ -3086,7 +3086,7 @@
  #: WWW/Library/Implementation/HTNews.c:2753
  #, c-format
@@ -1797,7 +1903,7 @@
  #, c-format
  msgid "UNVERIFIED connection to %s (cert=%s)"
 -msgstr "OVERIFIERAD anslutning mot %s (cert=%s)"
-+msgstr "EJ VERIFIERAD anslutning till %s (cert=%s)"
++msgstr "INTE VERIFIERAD anslutning till %s (cert=%s)"
  
  # %d = SSL_get_cipher_bits(handle,NULL)
  # %s = SSL_get_cipher_version(handle)
@@ -1892,6 +1998,24 @@
  
  #: WWW/Library/Implementation/HTWAIS.c:692
  msgid "Syntax error in WAIS URL"
+@@ -3523,7 +3523,7 @@
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:869
+ msgid "Searching WAIS database..."
+-msgstr "Söker WAIS-databas..."
++msgstr "Söker WAIS-databas…"
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:879
+ msgid "Search interrupted."
+@@ -3542,7 +3542,7 @@
+ #.
+ #: WWW/Library/Implementation/HTWAIS.c:988
+ msgid "Fetching WAIS document..."
+-msgstr "Hämtar WAIS-dokument..."
++msgstr "Hämtar WAIS-dokument…"
+ 
+ #. display_search_response(target, retrieval_response,
+ #. wais_database, keywords);
 @@ -3665,7 +3665,7 @@
  
  #: src/GridText.c:6262
@@ -2150,7 +2274,7 @@
  #: src/LYLocal.c:2387
  msgid "Just a moment, ..."
 -msgstr "Ett ögonblick, ..."
-+msgstr "Ett ögonblick…"
++msgstr "Ett ögonblick, …"
  
  #: src/LYLocal.c:2404
  msgid "Error building install args"
@@ -2238,7 +2362,7 @@
  #: src/LYMainLoop.c:4359
  msgid "charset for this document specified explicitly, sorry..."
 -msgstr "teckenuppsättning för detta dokumentet explicit deklarerat, ursäkta..."
-+msgstr "Teckenuppsättning för dokumentet har angetts uttryckligen, ursäkta…"
++msgstr "teckenuppsättning för detta dokumentet explicit deklarerat, ursäkta…"
  
  #: src/LYMainLoop.c:5265
  msgid "cd to:"
@@ -2247,7 +2371,7 @@
  
  #: src/LYMainLoop.c:5288
  msgid "A component of path is not a directory"
-@@ -4574,7 +4576,7 @@
+@@ -4574,16 +4576,16 @@
  
  #: src/LYMainLoop.c:5291
  msgid "failed to change directory"
@@ -2256,7 +2380,9 @@
  
  #: src/LYMainLoop.c:6517
  msgid "Reparsing document under current settings..."
-@@ -4583,7 +4585,7 @@
+-msgstr "Tolkar om dokumentet med aktuella inställningar..."
++msgstr "Tolkar om dokumentet med aktuella inställningar…"
+ 
  #: src/LYMainLoop.c:6811
  #, c-format
  msgid "Fatal error - could not open output file %s\n"
@@ -2284,6 +2410,15 @@
  
  #: src/LYMainLoop.c:7269
  msgid "No URL in the clipboard."
+@@ -4629,7 +4631,7 @@
+ 
+ #: src/LYMainLoop.c:8084
+ msgid "      Exiting..."
+-msgstr "      Avslutar..."
++msgstr "      Avslutar…"
+ 
+ #: src/LYMainLoop.c:8127
+ msgid "-more-"
 @@ -4638,7 +4640,7 @@
  #. Enable scrolling.
  #: src/LYNews.c:186
@@ -3287,24 +3422,12 @@
  "du markera kryssrutan:\n"
  
  #: src/LYrcFile.c:994
-@@ -6419,13 +6467,13 @@
- "called \"lynx.cfg\".  It has different content and a different format.\n"
- "It is not this file.\n"
- msgstr ""
--"Vanligtvis behöver du inte redigera denna fil manuellt, eftersom\n"
--"inställningarna kan nås från alternativmenyn, och nästa gång alternativen\n"
--"lagras från alternativmenyn kommer denna fil helt att skrivas över.\n"
+@@ -6422,7 +6470,7 @@
+ "Vanligtvis behöver du inte redigera denna fil manuellt, eftersom\n"
+ "inställningarna kan nås från alternativmenyn, och nästa gång alternativen\n"
+ "lagras från alternativmenyn kommer denna fil helt att skrivas över.\n"
 -"Du har varnats...\n"
--"\n"
--"Om du letar efter den generella konfigurationsfilen heter den normalt\n"
--"\"lynx.cfg\". Den har ett annat innehåll och ett annat format.\n"
-+"Vanligtvis behöver du inte redigera den här filen manuellt, eftersom\n"
-+"inställningarna här kan styras från inställningsskärmen och filen skrivs\n"
-+"om helt nästa gång inställningar sparas från inställningsskärmen.\n"
 +"Du har varnats…\n"
-+"\n"
-+"Om du letar efter den allmänna konfigurationsfilen heter den normalt\n"
-+"”lynx.cfg”. Den har ett annat innehåll och format.\n"
- "Det är inte den här filen.\n"
- 
- #~ msgid "HREF in BASE tag is not an absolute URL."
+ "\n"
+ "Om du letar efter den generella konfigurationsfilen heter den normalt\n"
+ "\"lynx.cfg\". Den har ett annat innehåll och ett annat format.\n"

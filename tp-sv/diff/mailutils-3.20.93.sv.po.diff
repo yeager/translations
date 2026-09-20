@@ -1052,36 +1052,15 @@
  
  #: libmu_sieve/comparator.c:263
  #, c-format
-@@ -2115,24 +2115,24 @@
- 
- #: libmu_sieve/conf.c:208
- msgid "Sieve options"
--msgstr "Sieve-flaggor"
-+msgstr "Sieve-alternativ"
- 
- #: libmu_sieve/conf.c:209 libmu_sieve/conf.c:212 libmu_sieve/conf.c:215
- #: movemail/movemail.c:336
- msgid "DIR"
--msgstr "KAT"
-+msgstr "DIR"
- 
- #: libmu_sieve/conf.c:210
- msgid "append DIR to the list of directories searched for include files"
--msgstr "lägg till KAT i listan över kataloger som genomsöks efter include-filer"
-+msgstr "lägg till DIR i listan över kataloger som genomsöks efter include-filer"
+@@ -2128,7 +2128,7 @@
  
  #: libmu_sieve/conf.c:213
  msgid "append DIR to the list of directories searched for library files"
 -msgstr "lägg till KAT till listan över kataloger som genomsöks efter biblioteksfiler"
-+msgstr "lägg till DIR i listan över kataloger som genomsöks efter biblioteksfiler"
++msgstr "lägg till KAT i listan över kataloger som genomsöks efter biblioteksfiler"
  
  #: libmu_sieve/conf.c:216
  msgid "add DIR to the beginning of the list of directories searched for library files"
--msgstr "lägg till KAT i början av listan över kataloger som genomsöks efter biblioteksfiler"
-+msgstr "lägg till DIR i början av listan över kataloger som genomsöks efter biblioteksfiler"
- 
- #: libmu_sieve/conf.c:220
- msgid "clear Sieve include path"
 @@ -2155,7 +2155,7 @@
  #: libmu_sieve/mem.c:92
  #, c-format
@@ -1421,12 +1400,7 @@
  
  #: libmu_sieve/extensions/vacation.c:667
  #, c-format
-@@ -2612,15 +2612,15 @@
- 
- #: mda/mda/mda.c:26 mda/lmtpd/lmtpd.c:110
- msgid "General options"
--msgstr "Allmänna flaggor"
-+msgstr "Allmänna alternativ"
+@@ -2616,11 +2616,11 @@
  
  #: mda/mda/mda.c:28 mda/lmtpd/lmtpd.c:121
  msgid "log to standard error"
@@ -3060,7 +3034,7 @@
  #: libmailutils/diag/errors:50
  msgid "Malformed or unsupported mailer URL"
 -msgstr "Felformaterat eller icke-stödd URL för e-postprogram"
-+msgstr "Felaktigt formaterad eller ej stödd URL för e-postprogram"
++msgstr "Felaktigt formaterad eller inte stödd URL för e-postprogram"
  
  #: libmailutils/diag/errors:51
  msgid "SMTP RCPT command failed"
@@ -3247,15 +3221,6 @@
  
  #: libmailutils/mimetypes/grammar.y:541
  #, c-format
-@@ -5720,7 +5720,7 @@
- #: libmailutils/opt/help.c:344
- #, c-format
- msgid "Mandatory or optional arguments to long options are also mandatory or optional for any corresponding short options."
--msgstr "Obligatoriska respektive valfria argument för långa flaggor är obligatoriska respektive valfria även för korta flaggor."
-+msgstr "Obligatoriska respektive valfria argument för långa alternativ är även obligatoriska respektive valfria för motsvarande korta alternativ."
- 
- #. TRANSLATORS: The placeholder indicates the bug-reporting address
- #. for this package.  Please add _another line_ saying
 @@ -5736,7 +5736,7 @@
  #: libmailutils/opt/help.c:399
  #, c-format
@@ -4237,13 +4202,13 @@
  #, c-format
  msgid "option is not yet implemented: %s"
 -msgstr "flagga ännu inte implementerad: %s"
-+msgstr "alternativet är ännu inte implementerat: %s"
++msgstr "flaggan är ännu inte implementerad: %s"
  
  #: mh/mh_getopt.c:355
  #, c-format
  msgid "ignoring not implemented option %s"
 -msgstr "ignorerar icke-implementerad flagga %s"
-+msgstr "ignorerar ej implementerat alternativ %s"
++msgstr "ignorerar inte implementerad flagga %s"
  
  #: mh/mh_init.c:298
  #, c-format
@@ -4271,7 +4236,7 @@
  
  #: mh/mh_init.c:801
  #, c-format
-@@ -7225,12 +7225,10 @@
+@@ -7225,11 +7225,9 @@
  "is the path to use for all MH folder operations.  The suggested MH\n"
  "path for you is %s...\n"
  msgstr ""
@@ -4280,14 +4245,12 @@
 -"för att styra vissa MH-operationer.  Det enda som krävs är sök-\n"
 -"vägen är den sökväg som ska användas för alla MH-mapp-\n"
 -"operationer.  Den föreslagna MH-sökvägen för dig är\n"
--"%s…\n"
 +"Innan du börjar använda MH måste det finnas en fil"
 +" med namnet .mh_profile i din inloggningskatalog (%s). Den innehåller information"
 +" som styr vissa MH-operationer. Det enda som krävs är sökvägen för alla MH-mappoperationer. Den föreslagna MH-sökvägen är "
-+"%s...\n"
+ "%s…\n"
  
  #. TRANSLATORS: This is a question and will be followed
- #. by question mark on output.
 @@ -7244,7 +7242,7 @@
  #: mh/mh_init.c:830
  #, c-format
@@ -4494,7 +4457,7 @@
  
  #: mh/mhn.c:24
  msgid "manipulate MIME messages"
-@@ -7561,11 +7559,11 @@
+@@ -7561,7 +7559,7 @@
  
  #: mh/mhn.c:186
  msgid "specify file to operate upon"
@@ -4503,11 +4466,6 @@
  
  #: mh/mhn.c:189
  msgid "MIME editing options"
--msgstr "Flaggor för MIME-redigering"
-+msgstr "Alternativ för MIME-redigering"
- 
- #: mh/mhn.c:191
- msgid "compose the MIME message (default)"
 @@ -7573,7 +7571,7 @@
  
  #: mh/mhn.c:195
@@ -4554,12 +4512,7 @@
  
  #: mh/mhn.c:228
  msgid "use this charset to represent attachment file names"
-@@ -7621,23 +7619,23 @@
- 
- #: mh/mhn.c:231
- msgid "Other options"
--msgstr "Övriga flaggor"
-+msgstr "Övriga alternativ"
+@@ -7625,19 +7623,19 @@
  
  #: mh/mhn.c:232
  msgid "PART"
@@ -4618,7 +4571,7 @@
  #, c-format
  msgid "Press <return> to show content..."
 -msgstr "Tryck <Return> för att visa innehåll…"
-+msgstr "Tryck <return> för att visa innehållet..."
++msgstr "Tryck <return> för att visa innehållet…"
  
  #: mh/mhn.c:1395
  #, c-format
@@ -5900,7 +5853,7 @@
  #, c-format
  msgid "You may not specify more than one '-aldp' option"
 -msgstr "Du kan inte ange fler än en \"-aldp\"-flagga"
-+msgstr "Du kan inte ange fler än ett alternativ -aldp"
++msgstr "Du kan inte ange fler än en ”-aldp”-flagga"
  
  #: pop3d/popauth.c:101
  #, c-format
@@ -6492,7 +6445,7 @@
  #, c-format
  msgid "unknown or unsupported directive %s"
 -msgstr "okänt direktiv eller direktiv som inte stöds %s"
-+msgstr "okänt eller ej stött direktiv %s"
++msgstr "okänt eller inte stött direktiv %s"
  
  #: mu/libexec/dbm.c:1475
  #, c-format
@@ -6510,7 +6463,7 @@
  #: mu/libexec/dbm.c:1714
  msgid "Create Options"
 -msgstr "Alternativ för skapa"
-+msgstr "Alternativ för create"
++msgstr "Flaggor för create"
  
  #. TRANSLATORS: names in parentheses are dbm commands: don't translate
  #. them.
@@ -6550,12 +6503,7 @@
  
  #: mu/libexec/dbm.c:1735
  msgid "NAMES"
-@@ -10214,20 +10212,20 @@
- #. TRANSLATORS: list and dump are dbm command names.
- #: mu/libexec/dbm.c:1740
- msgid "List and Dump Options"
--msgstr "Flaggor för List och Dump"
-+msgstr "Alternativ för list och dump"
+@@ -10218,11 +10216,11 @@
  
  #: mu/libexec/dbm.c:1742
  msgid "select output format"
@@ -6569,13 +6517,7 @@
  
  #. TRANSLATORS: list, dump, and delete are dbm command names.
  #: mu/libexec/dbm.c:1749
- msgid "List, Dump and Delete Options"
--msgstr "Flaggor för List, Dump och Delete"
-+msgstr "Alternativ för list, dump och delete"
- 
- #: mu/libexec/dbm.c:1751
- msgid "treat keys as globbing patterns"
-@@ -10239,15 +10237,15 @@
+@@ -10239,7 +10237,7 @@
  
  #: mu/libexec/dbm.c:1757
  msgid "case-insensitive matches"
@@ -6584,8 +6526,7 @@
  
  #: mu/libexec/dbm.c:1760
  msgid "Options for Use with Format 0.0"
--msgstr "Flaggor att använda med Format 0.0"
-+msgstr "Alternativ för användning med format 0.0"
+@@ -10247,7 +10245,7 @@
  
  #: mu/libexec/dbm.c:1762
  msgid "data length accounts for terminating zero"
@@ -6874,7 +6815,7 @@
  #: mu/libexec/imap.c:1314
  msgid "args..."
 -msgstr "arg…"
-+msgstr "args..."
++msgstr "args…"
  
  #: mu/libexec/imap.c:1315
  msgid "search the mailbox"

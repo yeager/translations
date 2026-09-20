@@ -2746,7 +2746,7 @@ msgstr "  -2     skriv ej kolumn 2 (rader som är unika för FIL2)\n"
 
 #: src/comm.c:129
 msgid "  -3     suppress column 3 (lines that appear in both files)\n"
-msgstr "  -3     skriv ej kolumn 3 (rader som förekommer i båda filerna)\n"
+msgstr "  -3     skriv inte kolumn 3 (rader som förekommer i båda filerna)\n"
 
 #: src/comm.c:132
 msgid ""
@@ -3448,7 +3448,7 @@ msgid ""
 msgstr ""
 "      --update[=UPPDATERA]\n"
 "         styr vilka befintliga filer som uppdateras;\n"
-"         UPPDATERA={all,none,none-fail,older(standard)}\n"
+"         UPPDATERA={all,none,none-fail,older(default)}\n"
 
 #: src/cp.c:291 src/mv.c:321
 msgid ""
@@ -11510,7 +11510,7 @@ msgstr "%s: kan inte backa till början"
 #: src/shred.c:480
 #, c-format
 msgid "%s: pass %lu/%lu (%s)..."
-msgstr "%s: pass %lu/%lu (%s)..."
+msgstr "%s: pass %lu/%lu (%s)…"
 
 #: src/shred.c:529
 #, c-format
@@ -11530,12 +11530,12 @@ msgstr "%s: filen är för stor"
 #: src/shred.c:584
 #, c-format
 msgid "%s: pass %lu/%lu (%s)...%s"
-msgstr "%s: pass %lu/%lu (%s)...%s"
+msgstr "%s: pass %lu/%lu (%s)…%s"
 
 #: src/shred.c:600
 #, c-format
 msgid "%s: pass %lu/%lu (%s)...%s/%s %d%%"
-msgstr "%s: pass %lu/%lu (%s)...%s/%s %d %%"
+msgstr "%s: pass %lu/%lu (%s)…%s/%s %d %%"
 
 #: src/shred.c:857
 #, c-format
@@ -11954,7 +11954,7 @@ msgid ""
 "         multiple options specify multiple directories\n"
 msgstr ""
 "  -T, --temporary-directory=KAT\n"
-"         använd KAT för tillfälliga filer, ej $TMPDIR eller %s;\n"
+"         använd KAT för tillfälliga filer, inte $TMPDIR eller %s;\n"
 "         flera flaggor anger flera kataloger\n"
 
 #: src/sort.c:563
@@ -15104,7 +15104,7 @@ msgid ""
 "  [:xdigit:]      all hexadecimal digits\n"
 "  [=CHAR=]        all characters which are equivalent to CHAR\n"
 msgstr ""
-"  [:graph:]       alla skrivbara tecken, ej blanka\n"
+"  [:graph:]       alla skrivbara tecken, inte blanka\n"
 "  [:lower:]       alla gemena bokstäver\n"
 "  [:print:]       alla skrivbara tecken, inklusive mellanrum\n"
 "  [:punct:]       alla tecken för interpunktion\n"
@@ -15627,7 +15627,7 @@ msgid ""
 msgstr ""
 "      --group[=METOD]\n"
 "         visa alla poster, separera grupper med en tom rad;\n"
-"         METOD={separate(standard),prepend,append,both}\n"
+"         METOD={separate(default),prepend,append,both}\n"
 
 #: src/uniq.c:198
 msgid ""
