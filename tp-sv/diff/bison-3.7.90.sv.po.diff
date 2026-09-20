@@ -14,19 +14,19 @@
  #, c-format
  msgid "Conflict between rule %d and token %s resolved as shift"
 -msgstr "Konflikt mellan regel %d och element %s löstes som skift"
-+msgstr "Konflikt mellan regel %d och terminalsymbol %s löstes genom skiftning"
++msgstr "Konflikt mellan regel %d och token %s löstes genom skiftning"
  
  #: src/conflicts.c:98
  #, c-format
  msgid "Conflict between rule %d and token %s resolved as reduce"
 -msgstr "Konflikt mellan regel %d och element %s löstes som reducera"
-+msgstr "Konflikt mellan regel %d och terminalsymbol %s löstes genom reduktion"
++msgstr "Konflikt mellan regel %d och token %s löstes genom reduktion"
  
  #: src/conflicts.c:107
  #, c-format
  msgid "Conflict between rule %d and token %s resolved as an error"
 -msgstr "Konflikt mellan regel %d och element %s löstes som ett fel"
-+msgstr "Konflikt mellan regel %d och terminalsymbol %s löstes som ett fel"
++msgstr "Konflikt mellan regel %d och token %s löstes som ett fel"
  
  #: src/conflicts.c:610
  #, c-format
@@ -112,7 +112,7 @@
  #, c-format
  msgid "shift/reduce conflict on token %s"
 -msgstr "skifta/reducera konflikt vid element %s"
-+msgstr "skifta/reducera-konflikt vid terminalsymbol %s"
++msgstr "skifta/reducera-konflikt vid token %s"
  
  #: src/counterexample.c:1298 src/counterexample.c:1340
  msgid ":"
@@ -122,8 +122,8 @@
  msgid_plural "reduce/reduce conflict on tokens %s"
 -msgstr[0] "Reducera/reducerakonflikt vid element %s"
 -msgstr[1] "Reducera/reducerakonflikt vid element %s"
-+msgstr[0] "reducera/reducera-konflikt vid terminalsymbol %s"
-+msgstr[1] "reducera/reducera-konflikt vid terminalsymbolerna %s"
++msgstr[0] "reducera/reducera-konflikt vid token %s"
++msgstr[1] "reducera/reducera-konflikt vid tokenna %s"
  
  #: src/files.c:144
  #, c-format
@@ -132,7 +132,7 @@
  #: src/getargs.c:212
  msgid "explicitly associate lookahead tokens to items"
 -msgstr "koppla uttryckligen framåtblickande element till objekt"
-+msgstr "koppla uttryckligen framåtblickande terminalsymboler till objekt"
++msgstr "koppla uttryckligen framåtblickande token till objekt"
  
  #: src/getargs.c:213
  msgid "describe shift/reduce conflicts solving"
@@ -194,7 +194,7 @@
  #: src/i18n-strings.c:36
  msgid "invalid token"
 -msgstr "felaktigt element"
-+msgstr "ogiltig terminalsymbol"
++msgstr "ogiltig token"
  
  #: src/location.c:138 src/scan-gram.l:957
  #, c-format
@@ -203,7 +203,7 @@
  #, c-format
  msgid "rule given for %s, which is a token"
 -msgstr "regel given för %s, som är ett element"
-+msgstr "regel angiven för %s, som är en terminalsymbol"
++msgstr "regel angiven för %s, som är en token"
  
  #: src/reader.c:321
  #, c-format
@@ -218,7 +218,7 @@
  #, c-format
  msgid "token for %%prec is not defined: %s"
 -msgstr "elementet för %%prec är inte definierat: %s"
-+msgstr "terminalsymbolen för %%prec är inte definierad: %s"
++msgstr "tokenen för %%prec är inte definierad: %s"
  
  #: src/reader.c:432
  #, c-format
@@ -233,7 +233,7 @@
  #, c-format
  msgid "the start symbol %s is a token"
 -msgstr "startsymbolen %s är ett element"
-+msgstr "startsymbolen %s är en terminalsymbol"
++msgstr "starttokenen %s är en token"
  
  #: src/reader.c:951
  #, c-format
@@ -307,7 +307,7 @@
  #, c-format
  msgid "symbol %s redeclared as a token"
 -msgstr "symbolen %s omdeklarerad som ett element"
-+msgstr "symbolen %s omdeklarerad som en terminalsymbol"
++msgstr "tokenen %s omdeklarerad som en token"
  
  #: src/symtab.c:348
  #, c-format
@@ -316,13 +316,13 @@
  #, c-format
  msgid "symbol %s is used, but is not defined as a token and has no rules; did you mean %s?"
 -msgstr "symbolen %s används, men är inte definierad som ett element och har inga regler; menade du %s?"
-+msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har inga regler; menade du %s?"
++msgstr "tokenen %s används, men är inte definierad som en token och har inga regler; menade du %s?"
  
  #: src/symtab.c:398
  #, c-format
  msgid "symbol %s is used, but is not defined as a token and has no rules"
 -msgstr "symbolen %s används, men är inte definierad som ett element och har inga regler"
-+msgstr "symbolen %s används, men är inte definierad som en terminalsymbol och har inga regler"
++msgstr "tokenen %s används, men är inte definierad som en token och har inga regler"
  
  #: src/symtab.c:537
  #, c-format
@@ -331,19 +331,19 @@
  #, c-format
  msgid "nonterminals cannot be given a token code"
 -msgstr "icketerminaler kan inte ges en elementkod"
-+msgstr "icketerminaler kan inte ges en terminalsymbolskod"
++msgstr "icketerminaler kan inte ges en tokenkod"
  
  #: src/symtab.c:594
  #, c-format
  msgid "redefining code of token %s"
 -msgstr "omdefinition av koden för elementet %s"
-+msgstr "omdefinition av koden för terminalsymbolen %s"
++msgstr "omdefinition av koden för tokenen %s"
  
  #: src/symtab.c:597
  #, c-format
  msgid "code of token %s too large"
 -msgstr "koden för elementet %s är för stor"
-+msgstr "koden för terminalsymbolen %s är för stor"
++msgstr "koden för tokenen %s är för stor"
  
  #: src/symtab.c:634
  #, c-format
@@ -364,7 +364,7 @@
  #, c-format
  msgid "code %d reassigned to token %s"
 -msgstr "koden %d omtilldelad till elementet %s"
-+msgstr "koden %d omtilldelad till terminalsymbolen %s"
++msgstr "koden %d omtilldelad till tokenen %s"
  
  #: src/symtab.c:755
  #, c-format
@@ -373,7 +373,7 @@
  #, c-format
  msgid "token number too large"
 -msgstr "elementnumret är för stort"
-+msgstr "terminalsymbolens nummer är för stort"
++msgstr "tokenens nummer är för stort"
  
  #: src/symtab.c:1332
  #, c-format
