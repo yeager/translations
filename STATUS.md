@@ -4,6 +4,8 @@ Senast uppdaterad: 2026-09-20
 
 **Obligatorisk QA-regel (2026-09-18):** Varje projekt som bearbetas, även när svenska redan är 100 % färdig, ska alltid köras genom den aktuella `l10n-lint`-granskningen. För format som verktyget ännu inte stöder dokumenteras det förväntade formatfelet och katalogen valideras dessutom med relevant formatspecifik kontroll.
 
+**Bitwarden Browser – säkerhet och export (2026-09-20):** 18 kontextgranskade strängar för huvudlösenordspolicyer, begränsade exporter, skadade bilagor, SSO, e-postverifiering och tvåfaktorsautentisering är inskickade till CrowdIn och API-bekräftade med HTTP 201. `l10n-lint` passerar utan fel eller varningar. Säkerhetskopian är `Bitwarden/sv-bitwarden-browser-security-export-batch5-20260920.json`; den importerade TM-versionen har även passerat GitHub Actions.
+
 **Bitwarden Browser – säker delning (2026-09-20):** 21 kontextgranskade strängar för tidsbegränsade delningslänkar, e-postverifiering, återkallad åtkomst och dekrypteringsfel är inskickade till CrowdIn och API-bekräftade med HTTP 201. `l10n-lint` passerar utan fel eller varningar. Backup: `Bitwarden/sv-bitwarden-browser-secure-sharing-batch4-20260920.json`.
 
 **Bitwarden Browser – delade valv (2026-09-20):** 30 kontextgranskade gränssnittstexter för delade valv, objektbehörigheter, personliga valv, filter och mappar är inskickade till CrowdIn och API-bekräftade med HTTP 201. `l10n-lint` rapporterar inga fel; den enda varningen gäller två medvetet identiska pluralsträngar med samma källa och mål. Backup: `Bitwarden/sv-bitwarden-browser-shared-vaults-batch3-20260920.json`.
