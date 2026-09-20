@@ -1254,3 +1254,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – inställningar för adressgeokodning (2026-09-19):** Fyra verifierade UI-luckor för geokodningsmoduler/-tabeller, adresstyper och leads är API-publicerade med HTTP 201. Konfigurationsvärdena `billing`, `shipping`, `primary`, `alt` och `flex_relate` är avsiktligt bevarade som maskinläsbara värden. Backup: `SuiteCRM-Core/sv-geocode-address-types-810-20260919.json`.
 
 **SuiteCRM Core – kartors adresstyper och markörgrupper (2026-09-20):** Sex verifierade UI-luckor är kontextöversatta och publicerade med HTTP 201: ärenden, prospekt/mål, relaterade objekt, adress-/markörgrupper och kartvisning. Maskinläsbara fältexempel är bevarade. Backup: `SuiteCRM-Core/sv-maps-markers-810-20260920.json`.
+
+**SuiteCRM Core – kartors gruppfält och geokodningsinställningar (2026-09-20):** Arton API-verifierade UI- och konfigurationstexter är kontextöversatta och publicerade med HTTP 201 för markörgrupper, Google-/proxygeokodning och säkra exportgränser. Fältnycklar, API-namn och `MD5` är bevarade. Backup: `SuiteCRM-Core/suitecrm-geocode-groups-810-20260920.json`.
