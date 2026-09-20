@@ -1262,3 +1262,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – Studio och e-postvalidering (2026-09-20):** Fem API-verifierade UI-luckor är kontextöversatta och publicerade med HTTP 201: återställning, anpassade fälts säkra databorttagning, e-postadress/bilaga och varning för tom ämnesrad. Den bokstavliga `\\n\\n`-strukturen i borttagningsdialogen är bevarad. Backup: `SuiteCRM-Core/suitecrm-studio-email-810-20260920.json`.
 
 **SuiteCRM Core – felrapporter, kontakter och e-postrelationer (2026-09-20):** Elva API-verifierade UI-luckor är kontextöversatta och publicerade med HTTP 201: felrapporter, e-postmarknadsföring, valfri/ogiltig e-postadress, avregistrering, arkivering, ärendeskapande och säker bekräftelse vid borttagning av kontakt från ärende. Backup: `SuiteCRM-Core/suitecrm-bugs-contacts-810-20260920.json`.
+
+**SuiteCRM Core – säkerhetsgruppsetiketter (2026-09-20):** Sex API-verifierade, saknade etiketter för säkerhetsgrupper är publicerade med HTTP 201 i de aktuella moduler där gruppåtkomst visas. Backup: `SuiteCRM-Core/suitecrm-security-group-labels-810-20260920.json`.
