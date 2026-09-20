@@ -1,0 +1,102 @@
+[
+  {
+    "unit": 110185898,
+    "target": "Ange de exakta stegen för att återskapa problemet, med början från ett tomt projekt om möjligt. Vi följer dessa exakta steg för att återskapa felet så att vi kan rätta det. Om vi inte kan återskapa problemet är det mycket svårt att hitta eller rätta det.",
+    "suggestion": 4014915
+  },
+  {
+    "unit": 110185899,
+    "target": "Här är ett exempel på användbara steg för att återskapa:",
+    "suggestion": 4014916
+  },
+  {
+    "unit": 110185902,
+    "target": "Skapa en region som börjar vid takt 1 och slutar vid takt 5",
+    "suggestion": 4014918
+  },
+  {
+    "unit": 110185903,
+    "target": "Lägg till en not i regionen som börjar vid takt 2 och slutar vid takt 4",
+    "suggestion": 4014919
+  },
+  {
+    "unit": 110185904,
+    "target": "Dela noten vid takt 3",
+    "suggestion": 4014920
+  },
+  {
+    "unit": 110185905,
+    "target": "Ta bort den andra noten",
+    "suggestion": 4014921
+  },
+  {
+    "unit": 110185907,
+    "target": "Information om operativsystemets och Zrythms version",
+    "suggestion": 4014922
+  },
+  {
+    "unit": 110185908,
+    "target": "Du kan kopiera Zrythm-versionen från dialogrutan Om eller, vilket föredras, använda alternativet :option:`--version <zrythm --version>` när du startar Zrythm i en terminal.",
+    "suggestion": 4014923
+  },
+  {
+    "unit": 110185909,
+    "target": "Du kan hämta information om operativsystemet från dialogrutan Om genom att klicka på :guilabel:`Felsökning` och sedan :guilabel:`Felsökningsinformation`.",
+    "suggestion": 4014924
+  },
+  {
+    "unit": 110185911,
+    "target": "Loggfilen finns på :ref:`platsen som anges här <appendix/files-and-directories:Log File>`. Ange minst de sista 100 raderna. Du kan bli ombedd att tillhandahålla hela loggfilen. Komprimera den först.",
+    "suggestion": 4014925
+  },
+  {
+    "unit": 110185912,
+    "target": "Mjuka fel",
+    "suggestion": 4014926
+  },
+  {
+    "unit": 110185913,
+    "target": "I detta fall visar Zrythm en dialogruta för felrapportering. Följ anvisningarna i dialogrutan för att rapportera problemet.",
+    "suggestion": 4014927
+  },
+  {
+    "unit": 110185915,
+    "target": "Om Zrythm har kraschat kanske en dialogruta för felrapportering inte visas eller så innehåller loggfilen inte tillräcklig information för att hjälpa oss att rätta problemet. Följ då stegen nedan för att generera en kärndump eller en stackspårning.",
+    "suggestion": 4014928
+  },
+  {
+    "unit": 110185916,
+    "target": "Generera kärndumpar på GNU/Linux",
+    "suggestion": 4014929
+  },
+  {
+    "unit": 110185917,
+    "target": "Du behöver skriva några kommandon i en terminal. Kontrollera också att ``systemd-coredump`` eller motsvarande paket är installerat i distributionen.",
+    "suggestion": 4014930
+  },
+  {
+    "unit": 110185918,
+    "target": "Följande steg gäller systemd-användare, vilket är de allra flesta GNU/Linux-användare. För användare utan systemd kan du vanligen hämta kärnfilen i den aktuella katalogen efter att ha kört de två första kommandona nedan och kört Zrythm tills det kraschar.",
+    "suggestion": 4014931
+  },
+  {
+    "unit": 110185919,
+    "target": "Aktivera först kärndumpar:",
+    "suggestion": 4014932
+  },
+  {
+    "unit": 110185920,
+    "target": "Säg till Linux att lägga till PID, process-ID, i kärndumpen:",
+    "suggestion": 4014933
+  },
+  {
+    "unit": 110185921,
+    "target": "Kör Zrythm och få det att krascha. En mellanliggande kärndumpfil bör nu genereras i :file:`/var/lib/systemd/coredump`. Använd ``coredumpctl`` för att kontrollera:",
+    "suggestion": 4014934
+  },
+  {
+    "unit": 110185922,
+    "target": "Du bör se något som liknar följande:",
+    "suggestion": 4014935
+  }
+]
