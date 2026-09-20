@@ -1,0 +1,261 @@
+--- a/wdiff-1.2.3.sv.po
++++ b/wdiff-1.2.3.sv.po
+@@ -52,7 +52,7 @@
+ #: src/mdiff.c:1251
+ #, c-format
+ msgid "Read summary:"
+-msgstr "Lässummering:"
++msgstr "Lässammanfattning:"
+ 
+ #: src/mdiff.c:1252
+ #, c-format
+@@ -91,7 +91,7 @@
+ #: src/mdiff.c:1914 src/mdiff.c:2297
+ #, c-format
+ msgid "Work summary:"
+-msgstr "Arbetssummering:"
++msgstr "Arbetssammanfattning:"
+ 
+ #: src/mdiff.c:1915 src/mdiff.c:2298
+ #, c-format
+@@ -118,7 +118,7 @@
+ #, c-format
+ msgid " %d overlap\n"
+ msgid_plural " %d overlaps\n"
+-msgstr[0] " %d överlapp\n"
++msgstr[0] " %d överlappning\n"
+ msgstr[1] " %d överlappningar\n"
+ 
+ #: src/mdiff.c:2352 src/wdiff.c:227
+@@ -147,28 +147,28 @@
+ #, c-format
+ msgid "  %d %.0f%% common"
+ msgid_plural "  %d %.0f%% common"
+-msgstr[0] "  %d %.0f %% gemensam"
++msgstr[0] "  %d %.0f %% gemensamt"
+ msgstr[1] "  %d %.0f %% gemensamma"
+ 
+ #: src/mdiff.c:3715 src/wdiff.c:1173
+ #, c-format
+ msgid "  %d %.0f%% deleted"
+ msgid_plural "  %d %.0f%% deleted"
+-msgstr[0] "  %d %.0f %% borttagen"
++msgstr[0] "  %d %.0f %% borttaget"
+ msgstr[1] "  %d %.0f %% borttagna"
+ 
+ #: src/mdiff.c:3718 src/mdiff.c:3734 src/wdiff.c:1176 src/wdiff.c:1192
+ #, c-format
+ msgid "  %d %.0f%% changed"
+ msgid_plural "  %d %.0f%% changed"
+-msgstr[0] "  %d %.0f %% ändrad"
++msgstr[0] "  %d %.0f %% ändrat"
+ msgstr[1] "  %d %.0f %% ändrade"
+ 
+ #: src/mdiff.c:3731 src/wdiff.c:1189
+ #, c-format
+ msgid "  %d %.0f%% inserted"
+ msgid_plural "  %d %.0f%% inserted"
+-msgstr[0] "  %d %.0f %% tillagd"
++msgstr[0] "  %d %.0f %% tillagt"
+ msgstr[1] "  %d %.0f %% tillagda"
+ 
+ #: src/mdiff.c:3762 src/wdiff.c:1232 src/wdiff2.c:172
+@@ -181,8 +181,8 @@
+ "mdiff - Studies multiple files and searches for similar sequences, it then\n"
+ "produces possibly detailed lists of differences and similarities.\n"
+ msgstr ""
+-"mdiff - Läser flera filer och letar efter liknande sekvenser, därefter\n"
+-"visas en möjligen detaljerad lista med skillnader och likheter.\n"
++"mdiff – Analyserar flera filer och söker efter liknande sekvenser; skapar därefter"
++" eventuellt detaljerade listor över skillnader och likheter.\n"
+ 
+ #: src/mdiff.c:3772
+ #, c-format
+@@ -203,7 +203,7 @@
+ 
+ #: src/mdiff.c:3778
+ msgid "  -v, --verbose          report a few statistics on stderr\n"
+-msgstr "  -v, --verbose          rapportera en del statistik på standard fel\n"
++msgstr "  -v, --verbose          rapportera en del statistik på standardfel\n"
+ 
+ #: src/mdiff.c:3779 src/unify.c:295
+ msgid "      --help             display this help then exit\n"
+@@ -223,7 +223,7 @@
+ 
+ #: src/mdiff.c:3783
+ msgid "  -T, --initial-tab       produce TAB instead of initial space\n"
+-msgstr "  -T, --initial-tab       skriv TAB istället för inledande mellanslag\n"
++msgstr "  -T, --initial-tab       skriv TAB i stället för inledande mellanslag\n"
+ 
+ #: src/mdiff.c:3784
+ msgid "  -l, --paginate          paginate output through `pr'\n"
+@@ -279,7 +279,7 @@
+ 
+ #: src/mdiff.c:3799
+ msgid "  -k, --less-mode            variation of printer mode for \"less\"\n"
+-msgstr "  -k, --less-mode            speciell variant av -o för \"less\"\n"
++msgstr "  -k, --less-mode            särskild variant av skrivarläge för ”less”\n"
+ 
+ #: src/mdiff.c:3800
+ msgid "  -m, --avoid-wraps          do not extend fields through newlines\n"
+@@ -360,7 +360,7 @@
+ #: src/pipes.c:47
+ #, c-format
+ msgid "error redirecting stream"
+-msgstr "fel vid omdirigering av data"
++msgstr "fel vid omdirigering av dataström"
+ 
+ #: src/pipes.c:51
+ #, c-format
+@@ -375,11 +375,11 @@
+ #: src/unify.c:274
+ #, c-format
+ msgid "try `%s --help' for more information\n"
+-msgstr "försök med \"%s --help\" för mer information.\n"
++msgstr "försök med ”%s --help” för mer information\n"
+ 
+ #: src/unify.c:279
+ msgid "unify - Transforms context diffs into unidiffs, or vice-versa.\n"
+-msgstr "unify - Konvertera sammanhangsskillnad till enad, eller vice versa.\n"
++msgstr "unify – Konverterar sammanhangsdiffar till enade diffar eller tvärtom.\n"
+ 
+ #: src/unify.c:283
+ #, c-format
+@@ -392,15 +392,15 @@
+ 
+ #: src/unify.c:287
+ msgid "  -e, --echo-comments    echo comments to standard error\n"
+-msgstr "  -e, --echo-comments    skriv kommentarer till standard fel\n"
++msgstr "  -e, --echo-comments    skriv kommentarer till standardfel\n"
+ 
+ #: src/unify.c:288
+ msgid "  -o, --old-diffs        output old-style diffs, no matter what\n"
+-msgstr "  -o, --old-diffs        visa under alla omständigheter skillnader på gammal stil\n"
++msgstr "  -o, --old-diffs        visa skillnader i gammal stil oavsett vad\n"
+ 
+ #: src/unify.c:289
+ msgid "  -p, --patch-format     generate patch format\n"
+-msgstr "  -p, --patch-format     generera format för \"patch\"\n"
++msgstr "  -p, --patch-format     generera patchformat\n"
+ 
+ #: src/unify.c:290
+ msgid "  -P                     same as -p\n"
+@@ -456,7 +456,7 @@
+ #: src/unify.c:548
+ #, c-format
+ msgid "invalid unified diff header at line %ld"
+-msgstr "ogiltigt huvud för enad skillnad på rad %ld"
++msgstr "ogiltig rubrik för enad diff på rad %ld"
+ 
+ #: src/unify.c:590
+ #, c-format
+@@ -466,7 +466,7 @@
+ #: src/unify.c:620
+ #, c-format
+ msgid "context diff missing `old' header at line %ld"
+-msgstr "sammanhangsskillnad saknar \"gammalt\" huvud på rad %ld"
++msgstr "sammanhangsdiff saknar ”gammal” rubrik på rad %ld"
+ 
+ #: src/unify.c:664 src/unify.c:683 src/unify.c:753 src/unify.c:771
+ #, c-format
+@@ -476,12 +476,12 @@
+ #: src/unify.c:718
+ #, c-format
+ msgid "context diff missing `new' header at line %ld"
+-msgstr "sammanhangsskillnad saknar \"nytt\" huvud på rad %ld"
++msgstr "sammanhangsdiff saknar ”ny” rubrik på rad %ld"
+ 
+ #: src/wdiff.c:581 src/wdiff.c:700
+ #, c-format
+ msgid "no suitable temporary directory exists"
+-msgstr "ingen lämplig temporärkatalog existerar"
++msgstr "det finns ingen lämplig temporärkatalog"
+ 
+ #: src/wdiff.c:1039
+ #, c-format
+@@ -523,7 +523,7 @@
+ 
+ #: src/wdiff.c:1237
+ msgid "wdiff - Compares words in two files and report differences.\n"
+-msgstr "wdiff - Jämför ord i två filer och rapportera skillnader.\n"
++msgstr "wdiff – Jämför ord i två filer och rapporterar skillnader.\n"
+ 
+ #: src/wdiff.c:1241
+ #, c-format
+@@ -536,7 +536,7 @@
+ 
+ #: src/wdiff.c:1246 src/wdiff2.c:186
+ msgid "Mandatory arguments to long options are mandatory for short options too.\n"
+-msgstr "Obligatoriska argument för långa flaggor är obligatoriska för korta flaggor\n"
++msgstr "Obligatoriska argument för långa flaggor är även obligatoriska för korta flaggor.\n"
+ 
+ #: src/wdiff.c:1249 src/wdiff2.c:189
+ msgid "  -C, --copyright            display copyright then exit\n"
+@@ -560,19 +560,19 @@
+ 
+ #: src/wdiff.c:1257 src/wdiff2.c:196
+ msgid "  -l, --less-mode            variation of printer mode for \"less\"\n"
+-msgstr "  -l, --less-mode            variation av --printer för \"less\"\n"
++msgstr "  -l, --less-mode            variant av skrivarläge för ”less”\n"
+ 
+ #: src/wdiff.c:1258 src/wdiff2.c:197
+ msgid "  -n, --avoid-wraps          do not extend fields through newlines\n"
+-msgstr "  -n, --avoid-wraps          utöka inte fält genom nyrad\n"
++msgstr "  -n, --avoid-wraps          låt inte fält fortsätta över radbrytningar\n"
+ 
+ #: src/wdiff.c:1259 src/wdiff2.c:198
+ msgid "  -p, --printer              overstrike as for printers\n"
+-msgstr "  -p, --printer              överskrivning som för skrivare\n"
++msgstr "  -p, --printer              överstrykning som för skrivare\n"
+ 
+ #: src/wdiff.c:1260 src/wdiff2.c:200
+ msgid "  -s, --statistics           say how many words deleted, inserted etc.\n"
+-msgstr "  -s, --statistics           visa hur många ord borttagna, insatta etc.\n"
++msgstr "  -s, --statistics           visa hur många ord som har tagits bort, lagts till osv.\n"
+ 
+ #: src/wdiff.c:1261 src/wdiff2.c:201
+ msgid "  -t, --terminal             use termcap as for terminal displays\n"
+@@ -584,19 +584,19 @@
+ 
+ #: src/wdiff.c:1263 src/wdiff2.c:203
+ msgid "  -w, --start-delete=STRING  string to mark beginning of delete region\n"
+-msgstr "  -w, --start-delete=STRÄNG  sträng som markerar början av en borttagen region\n"
++msgstr "  -w, --start-delete=STRÄNG  sträng som markerar början av borttagningsområdet\n"
+ 
+ #: src/wdiff.c:1264 src/wdiff2.c:204
+ msgid "  -x, --end-delete=STRING    string to mark end of delete region\n"
+-msgstr "  -x, --end-delete=STRÄNG    sträng som markerar slutet av en borttagen region\n"
++msgstr "  -x, --end-delete=STRÄNG    sträng som markerar slutet av borttagningsområdet\n"
+ 
+ #: src/wdiff.c:1265 src/wdiff2.c:205
+ msgid "  -y, --start-insert=STRING  string to mark beginning of insert region\n"
+-msgstr "  -y, --start-insert=STRÄNG  sträng som markerar början av en insatt region\n"
++msgstr "  -y, --start-insert=STRÄNG  sträng som markerar början av infogningsområdet\n"
+ 
+ #: src/wdiff.c:1266 src/wdiff2.c:206
+ msgid "  -z, --end-insert=STRING    string to mark end of insert region\n"
+-msgstr "  -z, --end-insert=STRÄNG    sträng som markerar slutet av en insatt region\n"
++msgstr "  -z, --end-insert=STRÄNG    sträng som markerar slutet av infogningsområdet\n"
+ 
+ #: src/wdiff.c:1385
+ #, c-format
+@@ -627,8 +627,8 @@
+ "wdiff - Compute word differences by internally launching `mdiff -W'.\n"
+ "This program exists mainly to support the now oldish `wdiff' syntax.\n"
+ msgstr ""
+-"wdiff - Beräkna ordskillnader genom att internt köra \"mdiff -W\".\n"
+-"Detta program finns huvudsakligen för att stödja den nu gamla \"wdiff\"-syntaxen.\n"
++"wdiff – Beräknar ordskillnader genom att internt köra ”mdiff -W”.\n"
++"Detta program finns huvudsakligen för att stödja den numera gamla syntaxen för ”wdiff”.\n"
+ 
+ #: src/wdiff2.c:182
+ #, c-format
+@@ -637,7 +637,7 @@
+ 
+ #: src/wdiff2.c:199
+ msgid "  -q, --quiet                inhibit the `mdiff' call message\n"
+-msgstr "  -q, --quiet                undertryck meddelandet för \"mdiff\"-anropet\n"
++msgstr "  -q, --quiet                undertryck meddelandet om anropet till ”mdiff”\n"
+ 
+ #: src/wdiff2.c:208
+ msgid "This program also tells how `mdiff' could have been called directly.\n"
