@@ -1266,3 +1266,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – säkerhetsgruppsetiketter (2026-09-20):** Sex API-verifierade, saknade etiketter för säkerhetsgrupper är publicerade med HTTP 201 i de aktuella moduler där gruppåtkomst visas. Backup: `SuiteCRM-Core/suitecrm-security-group-labels-810-20260920.json`.
 
 **SuiteCRM Core – säkerhets- och e-postetiketter (2026-09-20):** Sju API-verifierade UI-luckor är kontextöversatta och publicerade med HTTP 201: säkerhetsgrupper, skickat e-postsvar och e-postadress i aktuella administrations- och relationsmoduler. Backup: `SuiteCRM-Core/suitecrm-security-email-labels-810-20260920.json`.
+
+**SuiteCRM Core – installation och e-postkonton (2026-09-20):** Sju API-verifierade UI- och bekräftelsetexter är kontextöversatta och publicerade med HTTP 201: installationsslutförande, användarskapande, mallöverskrivning, massutskick, personliga/gruppkonton och test av utgående e-postserver. HTML, länkar, tabellattribut och bildreferens är bevarade. Backup: `SuiteCRM-Core/suitecrm-setup-email-810-20260920.json`.
