@@ -1,0 +1,448 @@
+--- a/sed-4.9.87.sv.po
++++ b/sed-4.9.87.sv.po
+@@ -23,7 +23,7 @@
+ #: lib/copy-acl.c:55
+ #, c-format
+ msgid "preserving permissions for %s"
+-msgstr "bevarar rättigheter för %s"
++msgstr "bevarar behörigheter för %s"
+ 
+ #: lib/dfa.c:905
+ msgid "unbalanced ["
+@@ -43,19 +43,19 @@
+ 
+ #: lib/dfa.c:1339
+ msgid "? at start of expression"
+-msgstr "? i början på uttryck"
++msgstr "? i början av uttrycket"
+ 
+ #: lib/dfa.c:1351
+ msgid "* at start of expression"
+-msgstr "* i början på uttryck"
++msgstr "* i början av uttrycket"
+ 
+ #: lib/dfa.c:1365
+ msgid "+ at start of expression"
+-msgstr "+ i början på uttryck"
++msgstr "+ i början av uttrycket"
+ 
+ #: lib/dfa.c:1420
+ msgid "{...} at start of expression"
+-msgstr "{...} i början på uttryck"
++msgstr "{...} i början av uttrycket"
+ 
+ #: lib/dfa.c:1423
+ msgid "invalid content of \\{\\}"
+@@ -67,20 +67,20 @@
+ 
+ #: lib/dfa.c:1575
+ msgid "stray \\ before unprintable character"
+-msgstr "löst \\ före ej utskrivbart tecken"
++msgstr "fristående \\ före ej utskrivbart tecken"
+ 
+ #: lib/dfa.c:1577
+ msgid "stray \\ before white space"
+-msgstr "löst \\ före blanktecken"
++msgstr "fristående \\ före blanktecken"
+ 
+ #: lib/dfa.c:1588
+ #, c-format
+ msgid "stray \\ before %s"
+-msgstr "löst \\ före %s"
++msgstr "fristående \\ före %s"
+ 
+ #: lib/dfa.c:1589 lib/dfa.c:1592
+ msgid "stray \\"
+-msgstr "löst \\"
++msgstr "fristående \\"
+ 
+ #: lib/dfa.c:1943
+ msgid "unbalanced ("
+@@ -106,7 +106,7 @@
+ #: lib/getopt.c:289
+ #, c-format
+ msgid "%s: option '%s%s' is ambiguous; possibilities:"
+-msgstr "%s: flaggan ”%s%s” är tvetydig. Möjligheter:"
++msgstr "%s: flaggan ”%s%s” är tvetydig; möjliga tolkningar:"
+ 
+ #: lib/getopt.c:323
+ #, c-format
+@@ -116,7 +116,7 @@
+ #: lib/getopt.c:349
+ #, c-format
+ msgid "%s: option '%s%s' doesn't allow an argument\n"
+-msgstr "%s: flaggan ”%s%s” tar inget argument\n"
++msgstr "%s: flaggan ”%s%s” tar inte något argument\n"
+ 
+ #: lib/getopt.c:364
+ #, c-format
+@@ -135,7 +135,7 @@
+ 
+ #: lib/obstack.c:351 lib/obstack.c:353 lib/xalloc-die.c:34
+ msgid "memory exhausted"
+-msgstr "minnet slut"
++msgstr "minnet är slut"
+ 
+ #. TRANSLATORS:
+ #. Get translations for open and closing quotation marks.
+@@ -188,7 +188,7 @@
+ 
+ #: lib/regcomp.c:137
+ msgid "Trailing backslash"
+-msgstr "Eftersläpande omvänt snedstreck"
++msgstr "Efterföljande omvänt snedstreck"
+ 
+ #: lib/regcomp.c:140
+ msgid "Invalid back reference"
+@@ -196,15 +196,15 @@
+ 
+ #: lib/regcomp.c:143
+ msgid "Unmatched [, [^, [:, [., or [="
+-msgstr "Obalanserad [, [^, [:, [., eller [="
++msgstr "Omatchad [, [^, [:, [., eller [="
+ 
+ #: lib/regcomp.c:146
+ msgid "Unmatched ( or \\("
+-msgstr "Obalanserad ( eller \\("
++msgstr "Omatchad ( eller \\("
+ 
+ #: lib/regcomp.c:149
+ msgid "Unmatched \\{"
+-msgstr "Obalanserad \\{"
++msgstr "Omatchad \\{"
+ 
+ #: lib/regcomp.c:152
+ msgid "Invalid content of \\{\\}"
+@@ -216,7 +216,7 @@
+ 
+ #: lib/regcomp.c:158
+ msgid "Memory exhausted"
+-msgstr "Minnet slut"
++msgstr "Minnet är slut"
+ 
+ #: lib/regcomp.c:161
+ msgid "Invalid preceding regular expression"
+@@ -232,7 +232,7 @@
+ 
+ #: lib/regcomp.c:170
+ msgid "Unmatched ) or \\)"
+-msgstr "Obalanserad ) eller \\)"
++msgstr "Omatchad ) eller \\)"
+ 
+ #: lib/regcomp.c:650
+ msgid "No previous regular expression"
+@@ -241,7 +241,7 @@
+ #: lib/set-acl.c:46
+ #, c-format
+ msgid "setting permissions for %s"
+-msgstr "sätter rättigheter för %s"
++msgstr "sätter behörigheter för %s"
+ 
+ #: lib/version-etc.c:73
+ #, c-format
+@@ -268,9 +268,9 @@
+ "This is free software: you are free to change and redistribute it.\n"
+ "There is NO WARRANTY, to the extent permitted by law.\n"
+ msgstr ""
+-"Licens GPLv3+: GNU GPL version 3 eller senare <%s>\n"
+-"Det här är fri programvara: du får ändra och distribuera den.\n"
+-"Det finns INGEN GARANTI, så långt som tillåts enligt lag.\n"
++"Licens GPLv3+: GNU GPL version 3 eller senare <%s>.\n"
++"Det här är fri programvara: du får ändra och återdistribuera den.\n"
++"Det finns INGEN GARANTI, i den utsträckning lagen tillåter.\n"
+ 
+ #. TRANSLATORS: %s denotes an author name.
+ #: lib/version-etc.c:105
+@@ -404,7 +404,7 @@
+ #: lib/version-etc.c:259
+ #, c-format
+ msgid "General help using GNU software: <%s>\n"
+-msgstr "Allmän hjälp för GNU-programvara: <%s>\n"
++msgstr "Allmän hjälp med användning av GNU-programvara: <%s>\n"
+ 
+ #: sed/compile.c:121
+ #, c-format
+@@ -414,7 +414,7 @@
+ #: sed/compile.c:124
+ #, c-format
+ msgid "%s: -e expression #%d, char %td: "
+-msgstr "%s: -e uttryck #%d, tecken %td: "
++msgstr "%s: -e uttryck nr %d, tecken %td: "
+ 
+ #: sed/compile.c:215
+ #, c-format
+@@ -434,37 +434,37 @@
+ #: sed/compile.c:457
+ #, c-format
+ msgid "delimiter character is not a single-byte character"
+-msgstr "avgränsningstecknet är inte en ensam byte"
++msgstr "avgränsningstecknet är inte ett enkelbytetecken"
+ 
+ #: sed/compile.c:491
+ #, c-format
+ msgid "%s: warning: using \"\\%c\" in the 's' command is not portable\n"
+-msgstr "%s: varning: att använda ”\\%c” i ”s”-kommandot är inte porterbart\n"
++msgstr "%s: varning: att använda ”\\%c” i ”s”-kommandot är inte portabelt\n"
+ 
+ #: sed/compile.c:531 sed/compile.c:538 sed/compile.c:544 sed/compile.c:588
+ #, c-format
+ msgid "unknown option to 's'"
+-msgstr "flaggan okänd för ”s”"
++msgstr "okänd flagga för ”s”"
+ 
+ #: sed/compile.c:550
+ #, c-format
+ msgid "multiple 'p' options to 's' command"
+-msgstr "flera ”p”-flaggor till ”s”-kommandot"
++msgstr "flera ”p”-flaggor för ”s”-kommandot"
+ 
+ #: sed/compile.c:556
+ #, c-format
+ msgid "multiple 'g' options to 's' command"
+-msgstr "flera ”g”-flaggor till ”s”-kommandot"
++msgstr "flera ”g”-flaggor för ”s”-kommandot"
+ 
+ #: sed/compile.c:567
+ #, c-format
+ msgid "multiple number options to 's' command"
+-msgstr "flera sifferflaggor till ”s”-kommandot"
++msgstr "flera sifferflaggor för ”s”-kommandot"
+ 
+ #: sed/compile.c:570
+ #, c-format
+ msgid "number option to 's' command may not be zero"
+-msgstr "sifferflagga till kommandot ”s” får inte vara noll"
++msgstr "sifferflagga för ”s”-kommandot får inte vara noll"
+ 
+ #: sed/compile.c:839
+ #, c-format
+@@ -509,7 +509,7 @@
+ #: sed/compile.c:1008
+ #, c-format
+ msgid "expected newer version of sed"
+-msgstr "nyare version av sed förväntades"
++msgstr "nyare version av sed krävs"
+ 
+ #: sed/compile.c:1022
+ #, c-format
+@@ -519,7 +519,7 @@
+ #: sed/compile.c:1024
+ #, c-format
+ msgid "'}' doesn't want any addresses"
+-msgstr "”}” vill inte ha några adresser"
++msgstr "”}” tar inga adresser"
+ 
+ #: sed/compile.c:1052 sed/compile.c:1059
+ #, c-format
+@@ -529,7 +529,7 @@
+ #: sed/compile.c:1069
+ #, c-format
+ msgid ": doesn't want any addresses"
+-msgstr ": vill inte ha några adresser"
++msgstr ": tar inga adresser"
+ 
+ #: sed/compile.c:1073
+ #, c-format
+@@ -569,7 +569,7 @@
+ #: sed/compile.c:1524
+ #, c-format
+ msgid "unmatched '{'"
+-msgstr "obalanserad ”{”"
++msgstr "Omatchad ”{”"
+ 
+ #: sed/compile.c:1550
+ #, c-format
+@@ -594,7 +594,7 @@
+ #: sed/execute.c:599
+ #, c-format
+ msgid "couldn't edit %s: not a regular file"
+-msgstr "kunde inte redigera %s: inte en vanlig fil"
++msgstr "kunde inte redigera %s: är inte en vanlig fil"
+ 
+ #: sed/execute.c:610
+ #, c-format
+@@ -609,12 +609,12 @@
+ #: sed/execute.c:636 sed/utils.c:220
+ #, c-format
+ msgid "couldn't open temporary file %s: %s"
+-msgstr "kunde inte öppna temporära filen %s: %s"
++msgstr "kunde inte öppna den temporära filen %s: %s"
+ 
+ #: sed/execute.c:752
+ #, c-format
+ msgid "line number overflow"
+-msgstr "radnummeröverspill"
++msgstr "överflöde i radnumret"
+ 
+ #: sed/execute.c:1177 sed/execute.c:1371
+ msgid "error in subprocess"
+@@ -653,7 +653,7 @@
+ 
+ #: sed/regexp.c:181
+ msgid "regex input buffer length overflow"
+-msgstr "överspill på indatabuffertlängd för reguljära uttryck"
++msgstr "överflöde i inmatningsbuffertens längd för reguljära uttryck"
+ 
+ #: sed/sed.c:38
+ msgid "Jay Fenlason"
+@@ -685,8 +685,8 @@
+ "GNU sed home page: <https://www.gnu.org/software/sed/>.\n"
+ "General help using GNU software: <https://www.gnu.org/gethelp/>.\n"
+ msgstr ""
+-"Webbsida för GNU sed: <https://www.gnu.org/software/sed/>.\n"
+-"Allmän hjälp för GNU-programvara: <https://www.gnu.org/gethelp/>.\n"
++"Webbplats för GNU sed: <https://www.gnu.org/software/sed/>.\n"
++"Allmän hjälp med användning av GNU-programvara: <https://www.gnu.org/gethelp/>.\n"
+ 
+ #: sed/sed.c:110
+ #, c-format
+@@ -717,7 +717,7 @@
+ "Usage: %s [OPTION]... {script-only-if-no-other-script} [input-file]...\n"
+ "\n"
+ msgstr ""
+-"Användning: %s [FLAGGA]… {skript-endast-om-inga-andra} [indatafil]…\n"
++"Användning: %s [FLAGGA]... {skript-endast-om-inget-annat-skript} [indatafil]...\n"
+ "\n"
+ 
+ #: sed/sed.c:138
+@@ -727,7 +727,7 @@
+ "                 suppress automatic printing of pattern space\n"
+ msgstr ""
+ "  -n, --quiet, --silent\n"
+-"                 förhindrar automatisk utskrift av mönsterutrymme\n"
++"                 undertrycker automatisk utskrift av mönsterutrymme\n"
+ 
+ #: sed/sed.c:140
+ #, c-format
+@@ -736,7 +736,7 @@
+ "                 annotate program execution\n"
+ msgstr ""
+ "      --debug\n"
+-"                 kommentera körning av program\n"
++"                 kommenterar programexekveringen\n"
+ 
+ #: sed/sed.c:142
+ #, c-format
+@@ -764,7 +764,7 @@
+ "                 follow symlinks when processing in place\n"
+ msgstr ""
+ "  --follow-symlinks\n"
+-"                 följ symlänkar när behandling sker på plats\n"
++"                 följ symboliska länkar vid bearbetning på plats\n"
+ 
+ #: sed/sed.c:151
+ #, c-format
+@@ -773,8 +773,8 @@
+ "                 edit files in place (makes backup if SUFFIX supplied)\n"
+ msgstr ""
+ "  -i[ÄNDELSE], --in-place[=ÄNDELSE]\n"
+-"                 redigera filer på plats (skapar säkerhetskopia om ÄNDELSE\n"
+-"                 tillhandahålls)\n"
++"                 redigera filer på plats (skapar en säkerhetskopia om ÄNDELSE\n"
++"                 anges)\n"
+ 
+ #: sed/sed.c:154
+ #, c-format
+@@ -783,7 +783,7 @@
+ "                 open files in binary mode (CR+LFs are not processed specially)\n"
+ msgstr ""
+ "  -b, --binary\n"
+-"                 öppna filer i binärläge (CR+LF särbehandlas inte)\n"
++"                 öppna filer i binärt läge (CR+LF behandlas inte särskilt)\n"
+ 
+ #: sed/sed.c:158
+ #, c-format
+@@ -810,9 +810,9 @@
+ "                 use extended regular expressions in the script\n"
+ "                 (for portability use POSIX -E).\n"
+ msgstr ""
+-"  -r, --regexp-extended\n"
++"  -E, -r, --regexp-extended\n"
+ "                 använd utökade reguljära uttryck i skriptet\n"
+-"                 (för portabilitet använd POSIX -E).\n"
++"                 (använd POSIX -E för portabilitet).\n"
+ 
+ #: sed/sed.c:165
+ #, c-format
+@@ -822,7 +822,7 @@
+ "                 continuous long stream.\n"
+ msgstr ""
+ "  -s, --separate\n"
+-"                 betrakta filer som separata istället för som en\n"
++"                 betrakta filer som separata i stället för som en enda\n"
+ "                 kontinuerlig lång dataström.\n"
+ 
+ #: sed/sed.c:168
+@@ -852,7 +852,7 @@
+ "                 separate lines by NUL characters\n"
+ msgstr ""
+ "  -z, --null-data\n"
+-"                 separera rader med nolltecken\n"
++"                 avgränsa rader med NUL-tecken\n"
+ 
+ #: sed/sed.c:175
+ #, c-format
+@@ -875,19 +875,19 @@
+ "\n"
+ msgstr ""
+ "\n"
+-"Om ingen av flaggorna -e, --expression, -f, eller --file ges, blir det\n"
++"Om ingen av flaggorna -e, --expression, -f eller --file anges blir det\n"
+ "första argumentet som inte är en flagga det sed-skript som tolkas. Alla\n"
+-"återstående argument är namn på indatafiler. Om inga indatafiler är angivna\n"
+-"läses standard in.\n"
++"återstående argument är namn på indatafiler. Om inga indatafiler anges\n"
++"läses standardindata.\n"
+ "\n"
+ 
+ #: sed/sed.c:371
+ msgid "failed to set binary mode on STDIN"
+-msgstr "misslyckades med att ställa in binärläge för STDIN"
++msgstr "misslyckades med att ställa in binärt läge för STDIN"
+ 
+ #: sed/sed.c:373
+ msgid "failed to set binary mode on STDOUT"
+-msgstr "misslyckades med att ställa in binärläge för STDOUT"
++msgstr "misslyckades med att ställa in binärt läge för STDOUT"
+ 
+ #: sed/utils.c:129
+ #, c-format
+@@ -897,19 +897,19 @@
+ #: sed/utils.c:148
+ #, c-format
+ msgid "couldn't attach to %s: %s"
+-msgstr "kunde inte fästa vid %s: %s"
++msgstr "kunde inte ansluta till %s: %s"
+ 
+ #: sed/utils.c:212
+ #, c-format
+ msgid "failed to set binary mode on '%s'"
+-msgstr "misslyckades med att ställa in binärläge för ”%s”"
++msgstr "misslyckades med att ställa in binärt läge för ”%s”"
+ 
+ #: sed/utils.c:233
+ #, c-format
+ msgid "couldn't write %jd item to %s: %s"
+ msgid_plural "couldn't write %jd items to %s: %s"
+-msgstr[0] "kunde inte skriva %jd objekt till %s: %s"
+-msgstr[1] "kunde inte skriva %jd objekt till %s: %s"
++msgstr[0] "kunde inte skriva %jd element till %s: %s"
++msgstr[1] "kunde inte skriva %jd element till %s: %s"
+ 
+ #: sed/utils.c:245 sed/utils.c:258
+ #, c-format
+@@ -924,12 +924,12 @@
+ #: sed/utils.c:357
+ #, c-format
+ msgid "couldn't readlink %s: %s"
+-msgstr "kunde inte läsa %s med readlink: %s"
++msgstr "kunde inte läsa den symboliska länken %s: %s"
+ 
+ #: sed/utils.c:360
+ #, c-format
+ msgid "couldn't follow symlink %s: %s"
+-msgstr "kunde inte följa symlänken %s: %s"
++msgstr "kunde inte följa den symboliska länken %s: %s"
+ 
+ #: sed/utils.c:407
+ #, c-format
