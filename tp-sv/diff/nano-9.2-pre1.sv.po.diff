@@ -120,7 +120,7 @@
  
  #. TRANSLATORS: Keep the next two messages at most 78 characters.
  #: src/files.c:801
-@@ -294,7 +294,7 @@
+@@ -294,15 +294,15 @@
  #: src/files.c:852
  #, c-format
  msgid "File \"%s\" not found"
@@ -129,6 +129,16 @@
  
  #: src/files.c:859
  msgid "Reading from FIFO..."
+-msgstr "Läser från FIFO..."
++msgstr "Läser från FIFO…"
+ 
+ #: src/files.c:887
+ msgid "Reading..."
+-msgstr "Läser..."
++msgstr "Läser…"
+ 
+ #: src/files.c:994 src/text.c:2365 src/text.c:2636
+ #, c-format
 @@ -313,11 +313,11 @@
  #: src/text.c:2671
  #, c-format
@@ -185,7 +195,7 @@
  
  #: src/files.c:1197
  #, c-format
-@@ -375,7 +375,7 @@
+@@ -375,15 +375,15 @@
  #: src/files.c:1511
  #, c-format
  msgid "Invalid backup directory: %s\n"
@@ -194,7 +204,8 @@
  
  #: src/files.c:1562
  msgid "Making backup..."
-@@ -383,7 +383,7 @@
+-msgstr "Skapar säkerhetskopia..."
++msgstr "Skapar säkerhetskopia…"
  
  #: src/files.c:1594
  msgid "Too many existing backup files"
@@ -221,7 +232,7 @@
  
  #. TRANSLATORS: The %s is the reason of failure.
  #: src/files.c:1705
-@@ -428,7 +428,7 @@
+@@ -428,32 +428,32 @@
  #: src/files.c:1782 src/text.c:2570 src/text.c:2986
  #, c-format
  msgid "Error writing temp file: %s"
@@ -230,7 +241,14 @@
  
  #: src/files.c:1789
  msgid "Writing to FIFO..."
-@@ -441,19 +441,19 @@
+-msgstr "Skriver till FIFO..."
++msgstr "Skriver till FIFO…"
+ 
+ #: src/files.c:1836
+ msgid "Writing..."
+-msgstr "Skriver..."
++msgstr "Skriver…"
+ 
  #: src/files.c:1889
  #, c-format
  msgid "Error reading temp file: %s"
@@ -1860,7 +1878,13 @@
  
  #: src/search.c:106
  msgid " (to replace) in selection"
-@@ -2538,7 +2541,7 @@
+@@ -2533,12 +2536,12 @@
+ #. * more than half a second.
+ #: src/search.c:233 src/search.c:306
+ msgid "Searching..."
+-msgstr "Söker..."
++msgstr "Söker…"
+ 
  #: src/search.c:415
  #, c-format
  msgid "\"%.*s%s\" not found"
@@ -2026,7 +2050,17 @@
  
  #. TRANSLATORS: This is a prompt.
  #: src/text.c:2303
-@@ -2761,21 +2764,21 @@
+@@ -2753,43 +2756,43 @@
+ #. TRANSLATORS: Shown after fixing misspellings in one word.
+ #: src/text.c:2316
+ msgid "Next word..."
+-msgstr "Nästa ord..."
++msgstr "Nästa ord…"
+ 
+ #: src/text.c:2369
+ msgid "Invoking spell checker..."
+-msgstr "Startar stavningskontroll..."
++msgstr "Startar stavningskontroll…"
  
  #: src/text.c:2454 src/text.c:2680
  msgid "Could not get size of pipe buffer"
@@ -2052,7 +2086,9 @@
  
  #: src/text.c:2642
  msgid "Invoking linter..."
-@@ -2784,12 +2787,12 @@
+-msgstr "Startar felkontroll..."
++msgstr "Startar felkontroll…"
+ 
  #: src/text.c:2790
  #, c-format
  msgid "Got 0 parsable lines from command: %s"
@@ -2113,7 +2149,12 @@
  
  #: src/utils.c:288 src/utils.c:299
  msgid "Nano is out of memory!\n"
-@@ -2868,11 +2871,11 @@
+@@ -2864,15 +2867,15 @@
+ 
+ #: src/winio.c:98
+ msgid "Recording a macro..."
+-msgstr "Spelar in ett makro..."
++msgstr "Spelar in ett makro…"
  
  #: src/winio.c:108
  msgid "Stopped recording"
@@ -2186,6 +2227,15 @@
  
  #: src/winio.c:3689
  msgid "The Free Software Foundation"
+@@ -2967,7 +2970,7 @@
+ 
+ #: src/winio.c:3692
+ msgid "and anyone else we forgot..."
+-msgstr "och alla andra vi har glömt..."
++msgstr "och alla andra vi har glömt…"
+ 
+ #: src/winio.c:3693
+ msgid "Thank you for using nano!"
 @@ -3014,7 +3017,7 @@
  
  #: lib/regcomp.c:131

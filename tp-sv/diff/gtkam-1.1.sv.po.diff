@@ -1,6 +1,15 @@
 --- a/gtkam-1.1.sv.po
 +++ b/gtkam-1.1.sv.po
-@@ -50,7 +50,7 @@
+@@ -41,7 +41,7 @@
+ 
+ #: src/gtkam-chooser.c:270
+ msgid "Initializing camera..."
+-msgstr "Initierar kameran..."
++msgstr "Initierar kameran…"
+ 
+ #: src/gtkam-chooser.c:284
+ msgid "Could not initialize camera."
+@@ -50,11 +50,11 @@
  #: src/gtkam-chooser.c:361
  #, c-format
  msgid "Could not get abilities of model '%s'."
@@ -9,7 +18,12 @@
  
  #: src/gtkam-chooser.c:409
  msgid "Detecting cameras..."
-@@ -98,11 +98,11 @@
+-msgstr "Identifierar kameror..."
++msgstr "Identifierar kameror…"
+ 
+ #: src/gtkam-chooser.c:418
+ msgid "No cameras detected."
+@@ -98,15 +98,15 @@
  
  #: src/gtkam-chooser.c:739
  msgid "Could not get number of supported camera models"
@@ -23,6 +37,11 @@
  
  #: src/gtkam-config.c:163
  msgid "Applying configuration..."
+-msgstr "Verkställer konfiguration..."
++msgstr "Verkställer konfiguration…"
+ 
+ #: src/gtkam-config.c:179
+ msgid "Could not apply configuration."
 @@ -122,7 +122,7 @@
  
  #: src/gtkam-config.c:326
@@ -41,6 +60,51 @@
  
  #: src/gtkam-config.c:603
  msgid "No additional information available. (3)"
+@@ -150,7 +150,7 @@
+ 
+ #: src/gtkam-config.c:736
+ msgid "Getting configuration..."
+-msgstr "Hämtar konfiguration..."
++msgstr "Hämtar konfiguration…"
+ 
+ #: src/gtkam-config.c:751
+ msgid "Could not get configuration."
+@@ -158,7 +158,7 @@
+ 
+ #: src/gtkam-debug.c:237
+ msgid "Save As..."
+-msgstr "Spara som..."
++msgstr "Spara som…"
+ 
+ #: src/gtkam-debug.c:259
+ #, c-format
+@@ -188,7 +188,7 @@
+ #: src/gtkam-delete.c:179
+ #, c-format
+ msgid "Deleting all files in '%s'..."
+-msgstr "Tar bort alla filer i \"%s\"..."
++msgstr "Tar bort alla filer i \"%s\"…"
+ 
+ #: src/gtkam-delete.c:200
+ #, c-format
+@@ -198,7 +198,7 @@
+ #: src/gtkam-delete.c:236
+ #, c-format
+ msgid "Deleting file '%s' from folder '%s'..."
+-msgstr "Tar bort fil \"%s\" från mapp \"%s\"..."
++msgstr "Tar bort fil \"%s\" från mapp \"%s\"…"
+ 
+ #: src/gtkam-delete.c:257
+ #, c-format
+@@ -227,7 +227,7 @@
+ #: src/gtkam-exif.c:137
+ #, c-format
+ msgid "Getting EXIF information for file '%s' in folder '%s'..."
+-msgstr "Hämtar EXIF-information för fil \"%s\" i mapp \"%s\"..."
++msgstr "Hämtar EXIF-information för fil \"%s\" i mapp \"%s\"…"
+ 
+ #: src/gtkam-exif.c:153
+ #, c-format
 @@ -248,12 +248,12 @@
  
  #: src/gtkam-gimp.c:67 src/gtkam-gimp.c:68
@@ -56,6 +120,39 @@
  
  #: src/gtkam-gimp.c:75 src/gtkam-gimp.c:76
  msgid "Loads files from digital cameras"
+@@ -262,12 +262,12 @@
+ #. TRANSLATORS: do not translate <Toolbox>/File/Acquire, but only the Load from Camera part
+ #: src/gtkam-gimp.c:81
+ msgid "<Toolbox>/File/Acquire/Load from Camera..."
+-msgstr "<Toolbox>/File/Acquire/Läs in från kamera..."
++msgstr "<Toolbox>/File/Acquire/Läs in från kamera…"
+ 
+ #: src/gtkam-gimp.c:194 src/gtkam-list.c:507
+ #, c-format
+ msgid "Downloading '%s' from '%s'..."
+-msgstr "Hämtar \"%s\" från \"%s\"..."
++msgstr "Hämtar \"%s\" från \"%s\"…"
+ 
+ #: src/gtkam-gimp.c:212
+ #, c-format
+@@ -281,7 +281,7 @@
+ #: src/gtkam-info.c:165
+ #, c-format
+ msgid "Setting information for file '%s' in '%s'..."
+-msgstr "Ställer in information för fil \"%s\" i \"%s\"..."
++msgstr "Ställer in information för fil \"%s\" i \"%s\"…"
+ 
+ #: src/gtkam-info.c:186
+ #, c-format
+@@ -291,7 +291,7 @@
+ #: src/gtkam-info.c:270
+ #, c-format
+ msgid "Getting information about file '%s' in folder '%s'..."
+-msgstr "Hämtar information om filen \"%s\" i mappen \"%s\"..."
++msgstr "Hämtar information om filen \"%s\" i mappen \"%s\"…"
+ 
+ #: src/gtkam-info.c:282
+ #, c-format
 @@ -304,7 +304,7 @@
  
  #: src/gtkam-info.c:316 src/gtkam-info.c:425 src/gtkam-info.c:474
@@ -74,7 +171,32 @@
  
  #: src/gtkam-info.c:389
  msgid "Read"
-@@ -384,7 +384,7 @@
+@@ -342,15 +342,15 @@
+ #: src/gtkam-list.c:322
+ #, c-format
+ msgid "Downloading thumbnail of '%s' from folder '%s'..."
+-msgstr "Hämtar miniatyrbild av \"%s\" från mapp \"%s\"..."
++msgstr "Hämtar miniatyrbild av \"%s\" från mapp \"%s\"…"
+ 
+ #: src/gtkam-list.c:806
+ msgid "/_View with..."
+-msgstr "/_Visa med..."
++msgstr "/_Visa med…"
+ 
+ #: src/gtkam-list.c:807
+ msgid "/View with.../Built-in viewer"
+-msgstr "/Visa med.../Inbyggda visaren"
++msgstr "/Visa med…/Inbyggda visaren"
+ 
+ #: src/gtkam-list.c:809
+ msgid "/View file _properties"
+@@ -379,12 +379,12 @@
+ #: src/gtkam-list.c:906 src/gtkam-tree.c:694
+ #, c-format
+ msgid "Listing files in folder '%s'..."
+-msgstr "Listar filer i mappen \"%s\"..."
++msgstr "Listar filer i mappen \"%s\"…"
+ 
  #: src/gtkam-list.c:923 src/gtkam-tree.c:711
  #, c-format
  msgid "Could not get file list for folder '%s'"
@@ -123,7 +245,12 @@
  
  #: src/gtkam-main.c:552 src/gtkam-main.c:554 src/gtkam-main.c:561
  msgid "_All"
-@@ -496,7 +496,7 @@
+@@ -492,11 +492,11 @@
+ 
+ #: src/gtkam-main.c:565
+ msgid "_Add Camera..."
+-msgstr "_Lägg till kamera..."
++msgstr "_Lägg till kamera…"
  
  #: src/gtkam-main.c:566
  msgid "_Rescan"
@@ -132,6 +259,15 @@
  
  #: src/gtkam-main.c:567
  msgid "_Help"
+@@ -521,7 +521,7 @@
+ #: src/gtkam-mkdir.c:152
+ #, c-format
+ msgid "Creating folder '%s' in folder '%s'..."
+-msgstr "Skapar mapp \"%s\" i mappen \"%s\"..."
++msgstr "Skapar mapp \"%s\" i mappen \"%s\"…"
+ 
+ #: src/gtkam-mkdir.c:186
+ #, c-format
 @@ -531,7 +531,7 @@
  #: src/gtkam-mkdir.c:213
  #, c-format
@@ -141,7 +277,12 @@
  
  #: src/gtkam-mkdir.c:229
  msgid "New directory"
-@@ -557,7 +557,7 @@
+@@ -553,11 +553,11 @@
+ 
+ #: src/gtkam-preview.c:311 src/gtkam-tree.c:1102
+ msgid "Capturing image..."
+-msgstr "Fångar bild..."
++msgstr "Fångar bild…"
  
  #: src/gtkam-preview.c:322
  msgid "Download directory not selected."
@@ -163,6 +304,15 @@
 +msgstr "Hämtningsmålkatalog"
  
  #: src/gtkam-save.c:299 src/gtkam-tree.c:623
+ #, c-format
+@@ -644,7 +644,7 @@
+ #: src/gtkam-save.c:514 src/gtkam-tree.c:749
+ #, c-format
+ msgid "Downloading %i files..."
+-msgstr "Hämtar %i filer..."
++msgstr "Hämtar %i filer…"
+ 
+ #: src/gtkam-save.c:561 src/gtkam-tree.c:764
  #, c-format
 @@ -661,7 +661,7 @@
  
@@ -218,7 +368,7 @@
  
  #: src/gtkam-save.c:702
  msgid "Use filename(s) provided by the camera"
-@@ -717,7 +717,7 @@
+@@ -717,21 +717,21 @@
  
  #: src/gtkam-save.c:729
  msgid "Start numbering with: "
@@ -227,7 +377,24 @@
  
  #: src/gtkam-save.c:771
  #, c-format
-@@ -746,17 +746,17 @@
+ msgid "Save '%s'..."
+-msgstr "Spara \"%s\"..."
++msgstr "Spara \"%s\"…"
+ 
+ #: src/gtkam-save.c:791
+ msgid "Save photos..."
+-msgstr "Spara foton..."
++msgstr "Spara foton…"
+ 
+ #: src/gtkam-tree.c:296
+ #, c-format
+ msgid "Listing folders in '%s'..."
+-msgstr "Listar mappar i \"%s\"..."
++msgstr "Listar mappar i \"%s\"…"
+ 
+ #: src/gtkam-tree.c:317
+ #, c-format
+@@ -746,22 +746,22 @@
  #: src/gtkam-tree.c:422
  #, c-format
  msgid "Uploading '%s' into folder '%s'..."
@@ -248,7 +415,19 @@
  
  #: src/gtkam-tree.c:547
  #, c-format
-@@ -791,7 +791,7 @@
+ msgid "Removing directory '%s'..."
+-msgstr "Tar bort katalogen \"%s\"..."
++msgstr "Tar bort katalogen \"%s\"…"
+ 
+ #: src/gtkam-tree.c:566
+ #, c-format
+@@ -786,29 +786,29 @@
+ #: src/gtkam-tree.c:790
+ #, c-format
+ msgid "Listing subfolders in folder '%s'..."
+-msgstr "Listar undermappar i mappen \"%s\"..."
++msgstr "Listar undermappar i mappen \"%s\"…"
+ 
  #: src/gtkam-tree.c:809
  #, c-format
  msgid "Could not get subfolders list for folder '%s'"
@@ -257,7 +436,28 @@
  
  #: src/gtkam-tree.c:872
  #, c-format
-@@ -820,7 +820,7 @@
+ msgid "Download '%s' subtree to..."
+-msgstr "Hämta underträdet \"%s\" till..."
++msgstr "Hämta underträdet \"%s\" till…"
+ 
+ #: src/gtkam-tree.c:910
+ msgid "Getting information about the camera..."
+-msgstr "Hämtar information om kameran..."
++msgstr "Hämtar information om kameran…"
+ 
+ #: src/gtkam-tree.c:914
+ msgid "Getting information about the driver..."
+-msgstr "Hämtar information om drivrutinen..."
++msgstr "Hämtar information om drivrutinen…"
+ 
+ #: src/gtkam-tree.c:918
+ msgid "Getting manual..."
+-msgstr "Hämtar bruksanvisningen..."
++msgstr "Hämtar bruksanvisningen…"
+ 
+ #: src/gtkam-tree.c:949
+ msgid "Could not retrieve information."
+@@ -820,15 +820,15 @@
  
  #: src/gtkam-tree.c:1120
  msgid "Could not capture."
@@ -266,6 +466,30 @@
  
  #: src/gtkam-tree.c:1159
  msgid "/Upload file..."
+-msgstr "/Skicka upp fil..."
++msgstr "/Skicka upp fil…"
+ 
+ #: src/gtkam-tree.c:1160
+ msgid "/Make directory..."
+-msgstr "/Skapa katalog..."
++msgstr "/Skapa katalog…"
+ 
+ #: src/gtkam-tree.c:1161
+ msgid "/Delete directory"
+@@ -836,11 +836,11 @@
+ 
+ #: src/gtkam-tree.c:1162
+ msgid "/Save directory tree..."
+-msgstr "/Spara katalogträd..."
++msgstr "/Spara katalogträd…"
+ 
+ #: src/gtkam-tree.c:1164
+ msgid "/Capture image..."
+-msgstr "/Fånga bild..."
++msgstr "/Fånga bild…"
+ 
+ #: src/gtkam-tree.c:1165
+ msgid "/View camera preferences"
 @@ -848,7 +848,7 @@
  
  #: src/gtkam-tree.c:1167
@@ -275,7 +499,7 @@
  
  #: src/gtkam-tree.c:1168
  msgid "/View camera manual"
-@@ -856,7 +856,7 @@
+@@ -856,11 +856,11 @@
  
  #: src/gtkam-tree.c:1169
  msgid "/View driver details"
@@ -284,7 +508,27 @@
  
  #: src/gtkam-tree.c:1171
  msgid "/Select camera..."
-@@ -885,11 +885,11 @@
+-msgstr "/Välj kamera..."
++msgstr "/Välj kamera…"
+ 
+ #: src/gtkam-tree.c:1172
+ msgid "/Remove camera"
+@@ -868,7 +868,7 @@
+ 
+ #: src/gtkam-tree.c:1202
+ msgid "_Add camera..."
+-msgstr "_Lägg till kamera..."
++msgstr "_Lägg till kamera…"
+ 
+ #: src/gtkam-tree.c:1302
+ msgid "Please right-click to access additional menus"
+@@ -880,21 +880,21 @@
+ 
+ #: src/gtkam-tree.c:1424
+ msgid "Loading cameras..."
+-msgstr "Läser in kameror..."
++msgstr "Läser in kameror…"
+ 
  #: src/gtkam-util.c:44
  #, c-format
  msgid "Could not display '%s'. Either the image type ('%s') is not supported by gtk or the file itself is corrupt."
@@ -297,4 +541,10 @@
 +msgstr "INKLUDERA ALLTID FÖLJANDE RADER NÄR DU SKICKAR FELSÖKNINGSMEDDELANDEN TILL SÄNDLISTAN:"
  
  #: src/gtkam-viewer.c:245
+ #, c-format
+ msgid "Downloading '%s' from folder '%s'..."
+-msgstr "Hämtar \"%s\" från mappen \"%s\"..."
++msgstr "Hämtar \"%s\" från mappen \"%s\"…"
+ 
+ #: src/gtkam-viewer.c:298
  #, c-format

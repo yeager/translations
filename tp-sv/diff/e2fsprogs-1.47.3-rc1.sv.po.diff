@@ -377,6 +377,15 @@
  
  #. @-expanded: Moving journal from /%s to hidden inode.\n
  #. @-expanded: \n
+@@ -1109,7 +1109,7 @@
+ "\n"
+ msgstr ""
+ "Hittade ogiltiga V2-journalsuperblockfält (från V1-journal).\n"
+-"Tömmer fält efter V1-journalsuperblock ...\n"
++"Tömmer fält efter V1-journalsuperblock …\n"
+ "\n"
+ 
+ #. @-expanded: Run journal anyway
 @@ -1120,7 +1120,7 @@
  #. @-expanded: Recovery flag not set in backup superblock, so running journal anyway.\n
  #: e2fsck/problem.c:333
@@ -823,6 +832,15 @@
  
  #. @-expanded: \n
  #. @-expanded: Running additional passes to resolve blocks claimed by more than one inode...\n
+@@ -2260,7 +2259,7 @@
+ "Pass 1B: Rescanning for @m @bs\n"
+ msgstr ""
+ "\n"
+-"Kör ytterligare pass för att lösa upp block som används av mer än en inod ...\n"
++"Kör ytterligare pass för att lösa upp block som används av mer än en inod …\n"
+ "Pass 1B: Söker igen efter block som används flera gånger\n"
+ 
+ #. @-expanded: multiply-claimed block(s) in inode %i:
 @@ -2339,8 +2338,7 @@
  "@m @bs already reassigned or cloned.\n"
  "\n"
@@ -1387,6 +1405,24 @@
  
  #: e2fsck/unix.c:1440
  msgid "Error: ext2fs library version out of date!\n"
+@@ -3781,7 +3776,7 @@
+ #: e2fsck/unix.c:1557
+ #, c-format
+ msgid "%s: %s trying backup blocks...\n"
+-msgstr "%s: %s försöker med reservblock ...\n"
++msgstr "%s: %s försöker med reservblock …\n"
+ 
+ #: e2fsck/unix.c:1559
+ msgid "Superblock invalid,"
+@@ -3789,7 +3784,7 @@
+ 
+ #: e2fsck/unix.c:1560
+ msgid "Group descriptors look bad..."
+-msgstr "Gruppbeskrivarna ser trasiga ut ..."
++msgstr "Gruppbeskrivarna ser trasiga ut …"
+ 
+ #: e2fsck/unix.c:1570
+ #, c-format
 @@ -3807,9 +3802,8 @@
  "(Or the filesystem superblock is corrupt)\n"
  "\n"
@@ -1468,7 +1504,12 @@
  
  #: e2fsck/unix.c:2019
  #, c-format
-@@ -3938,7 +3933,7 @@
+@@ -3934,11 +3929,11 @@
+ 
+ #: e2fsck/unix.c:2063
+ msgid "Restarting e2fsck from the beginning...\n"
+-msgstr "Startar om e2fsck från början ...\n"
++msgstr "Startar om e2fsck från början …\n"
  
  #: e2fsck/unix.c:2067
  msgid "while resetting context"
@@ -1897,6 +1938,15 @@
  
  #: misc/fsck.c:604
  #, c-format
+@@ -5331,7 +5326,7 @@
+ #: misc/fsck.c:626
+ #, c-format
+ msgid "Warning... %s for device %s exited with signal %d.\n"
+-msgstr "Varning... %s för enhet %s avslutade med signal %d.\n"
++msgstr "Varning… %s för enhet %s avslutade med signal %d.\n"
+ 
+ #: misc/fsck.c:632
+ #, c-format
 @@ -5395,7 +5390,7 @@
  
  #: misc/fuse2fs.c:731
@@ -2053,6 +2103,15 @@
  "\t%s\n"
  
  #: misc/mke2fs.c:1272 misc/tune2fs.c:1182
+@@ -5956,7 +5950,7 @@
+ 
+ #: misc/mke2fs.c:1428
+ msgid "Aborting...\n"
+-msgstr "Avbryter...\n"
++msgstr "Avbryter…\n"
+ 
+ #: misc/mke2fs.c:1469
+ #, c-format
 @@ -5995,7 +5989,7 @@
  
  #: misc/mke2fs.c:1795

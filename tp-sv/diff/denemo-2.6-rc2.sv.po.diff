@@ -1596,7 +1596,12 @@
  
  #: ../src/command/scorelayout.c:1056
  msgid "Create Titles for Movement"
-@@ -2392,19 +2393,19 @@
+@@ -2388,23 +2389,23 @@
+ 
+ #: ../src/command/scorelayout.c:1065
+ msgid "Create page breaks, blank pages ...for this layout"
+-msgstr "Skapa sidbrytningar, tomma sidor ... för den här layouten"
++msgstr "Skapa sidbrytningar, tomma sidor … för den här layouten"
  
  #: ../src/command/scorelayout.c:1347
  msgid "This brace connects together several staffs - you can delete it for a customized layout."
@@ -6750,7 +6755,7 @@
  "För att markera en plats i partituret som du vill titta tillbaka på drar du en linje nedåt som visas som en röd markering - det är bara en annan färg på skuggningen."
  
  #: ../src/source/source.c:284
-@@ -9099,7 +9102,7 @@
+@@ -9099,18 +9102,18 @@
  
  #: ../src/source/source.c:289
  msgid "Remove all Shadings/Markers"
@@ -6759,7 +6764,11 @@
  
  #: ../src/source/source.c:528
  msgid "... or Set Page Number:"
-@@ -9110,7 +9113,7 @@
+-msgstr "... eller Ställ in sidnummer:"
++msgstr "… eller Ställ in sidnummer:"
+ 
+ #. ClefChooser
+ #: ../src/ui/clefdialog.c:36
  #: ../actions/menus/ObjectMenu/ClefMenu/ClefChooser.scm:2
  #: ../actions/menus/ObjectMenu/ClefMenu/TypesetOnlyClef.scm:3
  msgid "Treble"
@@ -8590,7 +8599,7 @@
  
  #: ../actions/denemo.scm:994
  msgid ""
-@@ -11623,10 +11626,10 @@
+@@ -11623,14 +11626,14 @@
  "Example: m2 minor second, M2 major second, p5 fifth, T tritone.\n"
  "Or:  c' e' for a major third."
  msgstr ""
@@ -8603,6 +8612,11 @@
  
  #: ../actions/denemo.scm:1124
  msgid "This definition is not loaded ... trying to load"
+-msgstr "Denna definition är inte laddad ... försöker ladda"
++msgstr "Denna definition är inte laddad … försöker ladda"
+ 
+ #: ../actions/denemo.scm:1246 ../actions/denemo.scm:1250
+ #: ../actions/denemo.scm:1312
 @@ -11677,11 +11680,11 @@
  
  #: ../actions/denemo.scm:1352 ../actions/denemo.scm:1443
@@ -8949,7 +8963,7 @@
  
  #: ../actions/menus/MainMenu/EditMenu/EditSimilar.scm:397
  msgid "Must choose type of object to be edited/deleted"
-@@ -12111,25 +12114,25 @@
+@@ -12111,57 +12114,57 @@
  "Attributes and Directives attached to noteheads, chords (including notes and rests) and standalone objects are supported - position the cursor on a notehead for directives on that notehead or off the noteheads for directives on a chord/note/rest, or on any other sort of object in the music. \n"
  "Alternatively, use \"Choose, Seek and Edit\" command to select from a list of types of directives in the movement to seek for."
  msgstr ""
@@ -8981,7 +8995,8 @@
  
  #: ../actions/menus/MainMenu/EditMenu/EditSimilar.xml.h:1
  msgid "Edit Here (and ...)"
-@@ -12137,31 +12140,31 @@
+-msgstr "Redigera här (och ...)"
++msgstr "Redigera här (och …)"
  
  #: ../actions/menus/MainMenu/EditMenu/EditSimilar.xml.h:2
  msgid "Seek and edit Denemo Directives starting with the one at the cursor and optionally similar ones following. Position the cursor on a particular notehead to edit directives attached to individual noteheads (such as fingering), otherwise you will edit directives attached at the chord level (such as beaming)."
@@ -11254,6 +11269,20 @@
  
  #: ../actions/menus/ObjectMenu/ChordMenu/ChangePrintDuration/ChangePrintDurationLonga.xml.h:2
  msgid "Change one chord member to appear like a longa duration without changing the original logic like measure calculation or the duration of newly added chord members."
+@@ -15998,11 +16001,11 @@
+ 
+ #: ../actions/menus/ObjectMenu/Directives/Markings/AlternativeBars/EndVolta.scm:9
+ msgid "This closes a 1st, 2nd, ... n'th time bar"
+-msgstr "Detta stänger en 1:a, 2:a, ... nionde gången taktstreck"
++msgstr "Detta stänger en 1:a, 2:a, … nionde gången taktstreck"
+ 
+ #: ../actions/menus/ObjectMenu/Directives/Markings/AlternativeBars/EndVolta.xml.h:1
+ msgid "End Volta (1st, 2nd ... Time Bar)"
+-msgstr "Slut Volta (1:a, 2:a ... Time taktstreck)"
++msgstr "Slut Volta (1:a, 2:a … Time taktstreck)"
+ 
+ #: ../actions/menus/ObjectMenu/Directives/Markings/AlternativeBars/EndVolta.xml.h:2
+ msgid "Ends a volta, that is a n'th time bar; without this the opening of a first (Nth) time bar will not be printed."
 @@ -16271,7 +16274,7 @@
  #: ../actions/menus/ObjectMenu/Directives/Markings/FretDiagram.scm:86
  #: ../actions/menus/ObjectMenu/Directives/Markings/FretDiagram.xml.h:1
@@ -11263,7 +11292,12 @@
  
  #: ../actions/menus/ObjectMenu/Directives/Markings/FretDiagram.scm:25
  msgid "Barre from string (or cancel for none) "
-@@ -16508,7 +16511,7 @@
+@@ -16504,11 +16507,11 @@
+ 
+ #: ../actions/menus/ObjectMenu/Directives/Markings/RehearsalMark.xml.h:2
+ msgid "Inserts a rehearsal mark in the score. The default is to typeset as the letters A, B, ... The display shows simply A for all bookmarks. This mark also acts as a Denemo bookmark which can be searched for."
+-msgstr "Infogar en repetitionsmarkering i partituret. Standardinställningen är att sätta som bokstäverna A, B, ... På displayen visas bara A för alla bokmärken. Detta märke fungerar också som ett Denemo-bokmärke som kan sökas efter."
++msgstr "Infogar en repetitionsmarkering i partituret. Standardinställningen är att sätta som bokstäverna A, B, … På displayen visas bara A för alla bokmärken. Detta märke fungerar också som ett Denemo-bokmärke som kan sökas efter."
  
  #: ../actions/menus/ObjectMenu/Directives/Markings/Spanning/CadenzaOn.xml.h:1
  msgid "Start Cadenza"
@@ -12653,7 +12687,27 @@
  
  #: ../actions/menus/ObjectMenu/MovementMenu/Typesetter/TransposeMovementPrint.scm:6
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TransposeScorePrint.scm:51
-@@ -21602,117 +21605,117 @@
+@@ -21588,131 +21591,126 @@
+ "        e.g. d e means a tone higher.\n"
+ "        "
+ msgstr ""
+-"Ange transponeringsintervallet som två notnamn.\n"
+-"         Till exempel betyder \"c g\" att du transponerar upp en kvint.\n"
+-"        Notnamnen använder nederländsk notation: a,b,c ... är desamma, men\n"
+-"        \"es\" = ♭, så t.ex. betyder bes b♭\n"
+-"        \"is\" = ♯, så t.ex. betyder fis f♯\n"
+-"        Använd kommatecken för oktav(er) nedåt,\n"
+-"        enkla citattecken för oktav(er) uppåt\n"
+-"        t.ex. betyder c c' en oktav upp.\n"
+-"        Du behöver inte börja med c\n"
+-"        t.ex. d e betyder en ton högre.\n"
+-"        "
++"Ange transponeringsintervallet som två notnamn. "
++"         Till exempel betyder \"c g\" att du transponerar upp en kvint. "
++"        Notnamnen använder nederländsk notation: a,b,c … är desamma, men "
++"        \"es\" = ♭, så t.ex. betyder bes b♭ "
++"        \"is\" = ♯, så t.ex. betyder cis c♯"
++"."
  
  #: ../actions/menus/ObjectMenu/MovementMenu/Typesetter/TransposeMovementPrint.xml.h:1
  msgid "Transpose on Print"
@@ -12795,7 +12849,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Beaming/NoBeam.scm:13
  msgid "No beam possible here"
-@@ -22221,19 +22224,19 @@
+@@ -22221,19 +22219,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/GraceNotes/GraceTermination.xml.h:2
  msgid "Appends two grace notes, slurred to current note. Follow with a duration key to set duration of grace notes to be appended."
@@ -12819,7 +12873,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/GraceNotes/InsertTwoGraceNotesBeamed.xml.h:1
  msgid "Insert Two"
-@@ -22241,40 +22244,40 @@
+@@ -22241,40 +22239,40 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/GraceNotes/InsertTwoGraceNotesBeamed.xml.h:2
  msgid "Inserts two grace notes at the cursor beaming them together. Follow with a duration key."
@@ -12869,7 +12923,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/InsertNote/DuplicateChord.xml.h:1
  msgid "Duplicate Note/Chord"
-@@ -22295,31 +22298,31 @@
+@@ -22295,31 +22293,31 @@
  #.
  #: ../actions/menus/ObjectMenu/NotesRests/InsertNote/FillMeasure.xml.h:1
  msgid "Fill Measure"
@@ -12908,7 +12962,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/InsertNote/PercentRepeat.scm:4
  msgid "This Denemo Directive is part of a set of four creating a \"Percent Repeat\". Be sure to delete them all if you delete one of them."
-@@ -22328,11 +22331,11 @@
+@@ -22328,11 +22326,11 @@
  #: ../actions/menus/ObjectMenu/NotesRests/InsertNote/PercentRepeat.scm:6
  #: ../actions/menus/ObjectMenu/NotesRests/InsertNote/PercentRepeat.scm:11
  msgid "Percent Repeat"
@@ -12922,7 +12976,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/InsertNote/PercentRepeat.scm:11
  msgid "Give frequency of numbering 0, 1,..."
-@@ -22340,11 +22343,11 @@
+@@ -22340,11 +22338,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/InsertNote/PercentRepeat.xml.h:1
  msgid "Insert Percent Style Repeat"
@@ -12936,7 +12990,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/AccentSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleAccent.xml.h:1
-@@ -22353,7 +22356,7 @@
+@@ -22353,7 +22351,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/AccentSelectionSwitcher.xml.h:2
  msgid "Adds the &gt; accent"
@@ -12945,7 +12999,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ArpeggioSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleArpeggio.xml.h:1
-@@ -22363,7 +22366,7 @@
+@@ -22363,7 +22361,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ArpeggioSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:87
  msgid "Mark/Unmark the selected notes arpeggio"
@@ -12954,7 +13008,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ArticulationOutsideSlur.xml.h:1
  msgid "Articulation Outside Slur (Off/On)"
-@@ -22371,7 +22374,7 @@
+@@ -22371,7 +22369,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ArticulationOutsideSlur.xml.h:2
  msgid "The articulation(s) on this note will be placed outside the slur (furthest from the note). Repeat the command to return the slur to the outside."
@@ -12963,7 +13017,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/DownbowSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleDownBow.xml.h:1
-@@ -22381,7 +22384,7 @@
+@@ -22381,7 +22379,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/DownbowSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:85
  msgid "Mark/Unmark selection or current object"
@@ -12972,7 +13026,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/FermataSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleFermata.xml.h:1
-@@ -22391,7 +22394,7 @@
+@@ -22391,7 +22389,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/FermataSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:118
  msgid "Mark/Unmark current selection or object with a fermata"
@@ -12981,7 +13035,7 @@
  
  #. (d-DirectivePut-chord-gy "Flageolet" 12)
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/FlageoletSelectionSwitcher.xml.h:1
-@@ -22401,7 +22404,7 @@
+@@ -22401,7 +22399,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/FlageoletSelectionSwitcher.xml.h:2
  msgid "Mark/Unmark current selection of object with a Flageolet"
@@ -12990,7 +13044,7 @@
  
  #. (d-DirectivePut-chord-gy "Harmonic" 12)
  #. (d-DirectivePut-chord-gx "Harmonic" -2)
-@@ -22413,7 +22416,7 @@
+@@ -22413,7 +22411,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/HarmonicSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:86
  msgid "Mark/Unmark current selection or object with a harmonic"
@@ -12999,7 +13053,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/LheelSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleLheel.xml.h:1
-@@ -22441,7 +22444,7 @@
+@@ -22441,7 +22439,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/MarcatoSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:123
  msgid "Mark/Unmark the selected notes marcato"
@@ -13008,7 +13062,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/PortatoSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/TogglePortato.xml.h:1
-@@ -22488,7 +22491,7 @@
+@@ -22488,7 +22486,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/StaccatissimoSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:120
  msgid "Toggles Staccatissimo"
@@ -13017,7 +13071,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/StaccatoSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleStaccato.xml.h:1
-@@ -22498,7 +22501,7 @@
+@@ -22498,7 +22496,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/StaccatoSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:119
  msgid "Adds the staccato dot or removes it"
@@ -13026,7 +13080,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/StoppedSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleStopped.xml.h:1
-@@ -22518,7 +22521,7 @@
+@@ -22518,7 +22516,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/TenutoSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:121
  msgid "Toggles the Tenuto Line _ On/Off"
@@ -13035,7 +13089,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ThumbSelectionSwitcher.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleThumb.xml.h:1
-@@ -22531,31 +22534,31 @@
+@@ -22531,31 +22529,31 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleAccent.xml.h:2
  msgid "Mark/Unmark the current chord accented"
@@ -13074,7 +13128,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleLongFermata.xml.h:1
  msgid "LongFermata (Off/On)"
-@@ -22571,11 +22574,11 @@
+@@ -22571,11 +22569,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleMarcato.xml.h:2
  msgid "Mark/Unmark the current chord marcato"
@@ -13088,7 +13142,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/ToggleRheel.xml.h:2
  msgid "Mark/Unmark the current note rheel"
-@@ -22648,7 +22651,7 @@
+@@ -22648,7 +22646,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/Tongue.xml.h:2
  msgid "Adds a tonguing indication, (a number of staccato dots) to the current note."
@@ -13097,7 +13151,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Articulations/UpBowSelectionSwitcher.xml.h:2
  #: ../actions/palettes.xml.h:84
-@@ -22665,7 +22668,7 @@
+@@ -22665,7 +22663,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/ChordSymbols/CompactChordSymbol.scm:27
  msgid "Give text of chord symbol"
@@ -13106,7 +13160,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/ChordSymbols/CompactChordSymbol.scm:30
  msgid "Give horizontal scale"
-@@ -22685,15 +22688,15 @@
+@@ -22685,15 +22683,15 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/ChordSymbols/CompactChordSymbol.scm:57
  msgid "Insert Root note of chord for symbol to attach to"
@@ -13125,7 +13179,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/CrescendoTextSpanner.scm:3
  msgid "\\bold cresc. (or poco if continuing the cresc.)"
-@@ -22707,7 +22710,7 @@
+@@ -22707,7 +22705,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/CrescendoTextSpanner.scm:31
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/CrescendoTextSpanner.xml.h:1
  msgid "Crescendo Text Spanner"
@@ -13134,7 +13188,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/CrescendoTextSpanner.scm:31
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/DecrescendoTextSpanner.scm:31
-@@ -22716,16 +22719,16 @@
+@@ -22716,16 +22714,16 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/CrescendoTextSpanner.xml.h:2
  msgid "Prints text to start or continue a crescendo extending over a passage. Use for cresc. poco a poco, for example. Terminate with End Crescendo marking or a dynamic mark, else nothing will be printed. LilyPond markup, such as \\\\bold can be used."
@@ -13154,7 +13208,7 @@
  
  #. End of scheme script
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/Cresc.xml.h:1
-@@ -22746,15 +22749,15 @@
+@@ -22746,15 +22744,15 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/DecrescendoTextSpanner.scm:31
  msgid "Decrescendo Text Spanner"
@@ -13173,7 +13227,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/Dim.scm:14
  msgid "dim. start deleted. The end diminuendo should also be deleted ..."
-@@ -22766,11 +22769,11 @@
+@@ -22766,11 +22764,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/Dim.xml.h:2
  msgid "Starts a textual diminuendo. Terminate with End Diminuendo or a dynamic."
@@ -13187,7 +13241,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/DynamicsExtraSpace.scm:4
  msgid "Give extra spacing required"
-@@ -22778,11 +22781,11 @@
+@@ -22778,11 +22776,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/DynamicsExtraSpace.xml.h:1
  msgid "Extra Spacing"
@@ -13201,7 +13255,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/LengthenHairpin.scm:4
  msgid "Hairpin Length"
-@@ -22794,19 +22797,19 @@
+@@ -22794,19 +22792,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/LengthenHairpin.xml.h:1
  msgid "Lengthen Hairpin"
@@ -13225,7 +13279,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Dynamics/TerminateHairpinAtBarline.xml.h:2
  msgid "Ends a cresc. or dim, hairpin at the barline following the current note/chord. This command inserts a standalone Denemo Directive after the note/chord at the cursor."
-@@ -22816,7 +22819,7 @@
+@@ -22816,7 +22814,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/AdjustFiguredBassHeights.scm:3
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/AdjustFiguredBassHeights.scm:12
  msgid "Figured Bass Height"
@@ -13234,7 +13288,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/AdjustBassFigureHeight.scm:12
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/AdjustFiguredBassHeights.scm:12
-@@ -22829,7 +22832,7 @@
+@@ -22829,7 +22827,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/AdjustBassFigureHeight.xml.h:2
  msgid "Sets the height of the bass figure above the note. The unit is the distance between adjacent lines in the staff."
@@ -13243,7 +13297,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/AdjustFiguredBassHeights.scm:3
  msgid "Give number of groups: "
-@@ -22850,7 +22853,7 @@
+@@ -22850,7 +22848,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/AutoBassFigureHeight.xml.h:2
  msgid "Sets the heights of the bass figures above the notes throughout the score to avoid ungainly positions. The bass figures must be on the lowest staff"
@@ -13252,7 +13306,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/FiguredBassTweak.xml.h:1
  msgid "Tweak Default Appearance"
-@@ -22858,20 +22861,20 @@
+@@ -22858,20 +22856,20 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/FiguredBassTweak.xml.h:2
  msgid "Alters the default figured bass appearance to a more 18th c. look."
@@ -13277,7 +13331,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/PlaceFiguredBassBelow.xml.h:2
  msgid "Places an instruction (between $ ... $) which tells the engraver to place the figures below from this note on. Any figure for this note should follow the last $"
-@@ -22879,11 +22882,11 @@
+@@ -22879,11 +22877,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/SingleExtender.scm:4
  msgid "Figured Bass Extenders"
@@ -13291,7 +13345,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/FiguredBass/SingleExtender.xml.h:1
  msgid "Single Extender"
-@@ -23295,19 +23298,19 @@
+@@ -23295,19 +23293,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Strings/Fingerings/Fingering.xml.h:1
  msgid "Set Finger"
@@ -13315,7 +13369,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Strings/Fingerings/ToggleFingeringVisibility.xml.h:2
  msgid "Hides/Shows the fingering on the note at the cursor height in the typeset score."
-@@ -23319,11 +23322,11 @@
+@@ -23319,11 +23317,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Strings/Fingerings/TweakFingeringPosition.scm:12
  msgid "Give horizontal shift required: "
@@ -13329,7 +13383,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Strings/Fingerings/TweakFingeringPosition.xml.h:1
  msgid "Tweak Position"
-@@ -23331,7 +23334,7 @@
+@@ -23331,7 +23329,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Strings/Fingerings/TweakFingeringPosition.xml.h:2
  msgid "Shifts the position of the fingering indication by the amounts given."
@@ -13338,7 +13392,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Strings/RHFinger.xml.h:1
  msgid "Right Hand Fingering"
-@@ -23344,20 +23347,20 @@
+@@ -23344,20 +23342,20 @@
  #. d-StringNum
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/Strings/StringNum.xml.h:1
  msgid "String Number"
@@ -13363,7 +13417,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/ArbitraryTextAbove.scm:3
  msgid "Give string"
-@@ -23384,15 +23387,15 @@
+@@ -23384,15 +23382,15 @@
  "To apply italic or bold to a group of words enclose them in {}, e.g. \\bold {These words are bold}.\n"
  "Other markup commands \\super, \\tiny etc, see LilyPond documentation."
  msgstr ""
@@ -13385,7 +13439,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Congruentia.xml.h:1
  msgid "Congruentia"
-@@ -23400,7 +23403,7 @@
+@@ -23400,7 +23398,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Congruentia.xml.h:2
  msgid "Print congruentia / canon symbol"
@@ -13394,7 +13448,7 @@
  
  #. End of scheme script
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DalSegno.xml.h:1
-@@ -23413,7 +23416,7 @@
+@@ -23413,7 +23411,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DCAlFine.scm:9
  msgid "Replacing Text"
@@ -13403,7 +13457,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DCAlFine.scm:9
  msgid "Give new text"
-@@ -23429,7 +23432,7 @@
+@@ -23429,7 +23427,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DCAlFine.xml.h:1
  msgid "D. C. al fine"
@@ -13412,7 +13466,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DCAlFine.xml.h:2
  msgid "Puts Da Capo al fine over the chord at the cursor."
-@@ -23445,7 +23448,7 @@
+@@ -23445,7 +23443,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DynamicMarkings/Forte.xml.h:2
  msgid "Attaches Forte to chord and MIDI volume"
@@ -13421,7 +13475,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DynamicMarkings/Fortissimo.xml.h:1
  msgid "Fortissimo"
-@@ -23463,7 +23466,7 @@
+@@ -23463,7 +23461,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DynamicMarkings/Largo.xml.h:2
  msgid "Print Largo above note at cursor"
@@ -13430,7 +13484,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DynamicMarkings/MezzoForte.xml.h:1
  msgid "Mezzo Forte"
-@@ -23471,7 +23474,7 @@
+@@ -23471,7 +23469,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DynamicMarkings/MezzoForte.xml.h:2
  msgid "Attach mf indication to a chord."
@@ -13439,7 +13493,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DynamicMarkings/MezzoPiano.xml.h:1
  msgid "Mezzo Piano"
-@@ -23479,7 +23482,7 @@
+@@ -23479,7 +23477,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/DynamicMarkings/MezzoPiano.xml.h:2
  msgid "prints mp and outputs MIDI vol change#"
@@ -13448,7 +13502,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Footnote.scm:9
  msgid "Fn"
-@@ -23488,7 +23491,7 @@
+@@ -23488,7 +23486,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Footnote.scm:20
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Footnote.scm:23
  msgid "Footnote Mark"
@@ -13457,7 +13511,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Footnote.scm:20
  msgid "Give horizontal offset for the marker"
-@@ -23500,7 +23503,7 @@
+@@ -23500,7 +23498,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Footnote.scm:65
  msgid "No note or chord at cursor to attach footnote to"
@@ -13466,7 +13520,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Footnote.xml.h:2
  msgid "Prints a footnote at the bottom of the current page. The mark is placed above the note at the cursor."
-@@ -23535,7 +23538,7 @@
+@@ -23535,7 +23533,7 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/ParenthesizeNote.xml.h:2
  #: ../actions/menus/ObjectMenu/NotesRests/ParenthesizeNote.xml.h:2
  msgid "Enclose the note at the cursor in ( ) when printed."
@@ -13475,7 +13529,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Spanning/TextSpanStart.scm:16
  msgid "Sorry, not yet implemented"
-@@ -23547,7 +23550,7 @@
+@@ -23547,7 +23545,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Spanning/TextSpanStart.scm:33
  msgid "Text Spanner"
@@ -13484,7 +13538,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Spanning/TextSpanStart.scm:33
  msgid "Give text "
-@@ -23559,15 +23562,15 @@
+@@ -23559,15 +23557,15 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Spanning/TextSpanStart.xml.h:2
  msgid "Starts text which spans several notes, e.g. rallentando poco a poco. Terminate with Stop Text Span command."
@@ -13503,7 +13557,7 @@
  
  #. End of scheme script
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/AllegroAssai.xml.h:1
-@@ -23576,7 +23579,7 @@
+@@ -23576,7 +23574,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/AllegroAssai.xml.h:2
  msgid "Gives Allegro Assai tempo indication"
@@ -13512,7 +13566,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/Allegro.xml.h:1
  msgid "Allegro"
-@@ -23584,7 +23587,7 @@
+@@ -23584,7 +23582,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/Allegro.xml.h:2
  msgid "Print Allegro in bold italics above the chord."
@@ -13521,7 +13575,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/Andante.xml.h:1
  msgid "Andante"
-@@ -23592,11 +23595,11 @@
+@@ -23592,11 +23590,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/Andante.xml.h:2
  msgid "Print Andante in bold italics above the chord."
@@ -13535,7 +13589,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/Presto.xml.h:1
  msgid "Presto"
-@@ -23604,7 +23607,7 @@
+@@ -23604,7 +23602,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TempoIndications/Presto.xml.h:2
  msgid "Print Presto in bold italics above the chord."
@@ -13544,7 +13598,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TextAbove.scm:6
  msgid "Give text to appear above music: "
-@@ -23612,7 +23615,7 @@
+@@ -23612,7 +23610,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/TextAbove.xml.h:2
  msgid "Prints your text above the music at this point"
@@ -13553,7 +13607,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/ToggleCoda.xml.h:1
  msgid "Coda (Off/On)"
-@@ -23620,15 +23623,15 @@
+@@ -23620,15 +23618,15 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/ToggleCoda.xml.h:2
  msgid "Adds/Removes a Coda to the note"
@@ -13572,7 +13626,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/ToggleSegno.xml.h:1
  msgid "Segno (Off/On)"
-@@ -23636,19 +23639,19 @@
+@@ -23636,19 +23634,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/ToggleSegno.xml.h:2
  msgid "Adds/Removes a Segno to the note"
@@ -13596,7 +13650,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Vibrato.scm:20
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Vibrato.scm:29
-@@ -23671,7 +23674,7 @@
+@@ -23671,7 +23669,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Markings/TextMarks/Vibrato.xml.h:2
  msgid "Start or Stop a wavy line above the notes. The waves can be made longer/shorter via the wavelength given and can be made to swell and or diminish, several times if desired by giving one or more amplitudes."
@@ -13605,7 +13659,7 @@
  
  #. InsertMarkedMidi
  #: ../actions/menus/ObjectMenu/NotesRests/MIDI/InsertMarkedMidi.xml.h:1
-@@ -23680,23 +23683,23 @@
+@@ -23680,23 +23678,23 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/MIDI/InsertMarkedMidi.xml.h:2
  msgid "Inserts the marked MIDI note from the current track, using the duration suggested. Use duration keys to insert the same note with a different duration."
@@ -13634,7 +13688,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadControl/ChooseNotehead.scm:6
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadControl/NeoMensuralNotehead.xml.h:1
-@@ -23709,7 +23712,7 @@
+@@ -23709,7 +23707,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadControl/ChooseNotehead.scm:11
  msgid "Harmonic Mixed"
@@ -13643,7 +13697,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadControl/ChooseNotehead.scm:14
  msgid "XCircle"
-@@ -23729,7 +23732,7 @@
+@@ -23729,7 +23727,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadControl/IndividualNoteheadSize.scm:10
  msgid "Notehead Font Magnification"
@@ -13652,7 +13706,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadControl/IndividualNoteheadSize.scm:10
  msgid "Give size required: "
-@@ -23737,15 +23740,15 @@
+@@ -23737,15 +23735,15 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadControl/IndividualNoteheadSize.xml.h:1
  msgid "Individual Note Head Size"
@@ -13671,7 +13725,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadSizes/NormalSizeNotehead.xml.h:1
  msgid "(Print) Normal Size"
-@@ -23753,7 +23756,7 @@
+@@ -23753,7 +23751,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadSizes/NormalSizeNotehead.xml.h:2
  msgid "Prints out note heads in normal size"
@@ -13680,7 +13734,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadSizes/SmallNotehead.xml.h:1
  msgid "(Print) Small Size"
-@@ -23761,7 +23764,7 @@
+@@ -23761,7 +23759,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadSizes/SmallNotehead.xml.h:2
  msgid "Prints out note heads in small size"
@@ -13689,7 +13743,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadSizes/TinyNotehead.xml.h:1
  msgid "(Print) Tiny Size"
-@@ -23769,7 +23772,7 @@
+@@ -23769,7 +23767,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/NoteheadSizes/TinyNotehead.xml.h:2
  msgid "Prints out note heads in tiny size"
@@ -13698,7 +13752,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/OmitChord-Note-Rest.xml.h:1
  msgid "Omit (Print)"
-@@ -23789,7 +23792,7 @@
+@@ -23789,7 +23787,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/BassDrum.xml.h:2
  msgid "Insert Bass Drum in the prevailing duration."
@@ -13707,7 +13761,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/DrumGM2Custom.xml.h:1
  msgid "Drum GM2 Custom"
-@@ -23797,7 +23800,7 @@
+@@ -23797,7 +23795,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/DrumGM2Custom.xml.h:2
  msgid "Convert General Midi drum-staffs to user-notation drum-staffs. Please edit the script to enter your own values."
@@ -13716,7 +13770,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/HiHatFoot.xml.h:1
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/HiHat.xml.h:1
-@@ -23807,15 +23810,15 @@
+@@ -23807,15 +23805,15 @@
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/HiHatFoot.xml.h:2
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/HiHat.xml.h:2
  msgid "Insert HiHat with foot in the prevailing duration."
@@ -13735,7 +13789,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/RideBell.xml.h:1
  msgid "Ride Bell"
-@@ -23827,11 +23830,11 @@
+@@ -23827,11 +23825,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/Ride.xml.h:1
  msgid "Ride"
@@ -13749,7 +13803,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/TimbalesStyle.xml.h:1
  msgid "Timbales Style Staff"
-@@ -23839,12 +23842,12 @@
+@@ -23839,12 +23837,12 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Percussion/TimbalesStyle.xml.h:2
  msgid "Changes to print as a drum staff in timbales style"
@@ -13764,7 +13818,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Playback/ChangeSoundingDuration.scm:7
  msgid "Choose a duration in \"ticks\" (𝅘𝅥 = 384 ticks): "
-@@ -23852,7 +23855,7 @@
+@@ -23852,7 +23850,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Playback/ChangeSoundingDuration.xml.h:2
  msgid "Changes the duration of the note a the cursor for playback purposes, typesetting unaffected."
@@ -13773,7 +13827,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/ReplaceChord.xml.h:1
  msgid "Replace LilyPond"
-@@ -23864,11 +23867,11 @@
+@@ -23864,11 +23862,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/ConvertToWholeMeasureRests.xml.h:1
  msgid "Convert to Whole Measure Rests"
@@ -13787,7 +13841,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/DisplaceRestHorizontally.xml.h:1
  msgid "Displace Rest Horizontally"
-@@ -23880,11 +23883,11 @@
+@@ -23880,11 +23878,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/EnterRest.xml.h:1
  msgid "Insert Rest"
@@ -13801,7 +13855,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/InsertBreveRest.xml.h:1
  msgid "Breve Rest"
-@@ -23896,7 +23899,7 @@
+@@ -23896,7 +23894,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/InsertLongaRest.xml.h:1
  msgid "Longa Rest"
@@ -13810,7 +13864,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/InsertLongaRest.xml.h:2
  msgid "Insert a rest with longa duration"
-@@ -23904,11 +23907,11 @@
+@@ -23904,11 +23902,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/InsertWholeMeasureRest.xml.h:1
  msgid "Insert Whole Measure Rest"
@@ -13824,7 +13878,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/MoveRest.xml.h:1
  msgid "Displace Rest Vertically"
-@@ -23920,11 +23923,11 @@
+@@ -23920,11 +23918,11 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/MultiMeasureRestNumber.xml.h:1
  msgid "Multi-Measure Rest Number (Off/On)"
@@ -13838,7 +13892,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/RestEntry/MultiMeasureRests.scm:76
  msgid "Grouped in mm rest"
-@@ -24255,23 +24258,23 @@
+@@ -24255,23 +24253,23 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/StemControl/HelpForStemControl.xml.h:1
  msgid "Help for Stem Control"
@@ -13867,7 +13921,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/ConvertIncorrectSlursToTies.xml.h:1
  msgid "Convert Incorrect Slurs to Ties"
-@@ -24279,7 +24282,7 @@
+@@ -24279,7 +24277,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/ConvertIncorrectSlursToTies.xml.h:2
  msgid "Corrects for the slur/tie error common in imported scores. Scans entire score for pairs of identical notes slurred together as a pair. Changes these to a tied note. Do not use in the unusual case of identical notes slurred (e.g. across strings)."
@@ -13876,7 +13930,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/InsertTiedNoteDuration.xml.h:1
  msgid "Attach Tied Note"
-@@ -24287,7 +24290,7 @@
+@@ -24287,7 +24285,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/InsertTiedNoteDuration.xml.h:2
  msgid "Toggles a tie on the note at the cursor and moves right for inserting a note to tie to with duration key. Gives audible feedback."
@@ -13885,7 +13939,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/LaissezVibrer.scm:15
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/RepeatTie.scm:15
-@@ -24300,19 +24303,19 @@
+@@ -24300,19 +24298,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/LaissezVibrer.xml.h:2
  msgid "Places a tie after the note at the cursor, tying to nothing. Use for laissez vibrer or when a tie comes at a final repeat."
@@ -13909,7 +13963,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/ShapeTieFlatter.scm:10
  msgid "Give extra to flatten by (+/-):"
-@@ -24320,7 +24323,7 @@
+@@ -24320,7 +24318,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/ShapeTieFlatter.xml.h:1
  msgid "Flatter/More Curved"
@@ -13918,7 +13972,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/ShapeTieFlatter.xml.h:2
  msgid "Makes the next tie more or less curved depending on the value given. The change is relative to the current shape, not the default shape."
-@@ -24328,7 +24331,7 @@
+@@ -24328,7 +24326,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/ShapeTieHigher.scm:10
  msgid "Height of Tie"
@@ -13927,7 +13981,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/ShapeTieHigher.scm:10
  msgid "Give amount to raise (unit = staff line space):"
-@@ -24344,23 +24347,23 @@
+@@ -24344,23 +24342,23 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/ShapeTieWider.scm:14
  msgid "Width of Tie"
@@ -13956,7 +14010,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/TieShape.scm:5
  msgid "Flatten/Bend More"
-@@ -24368,7 +24371,7 @@
+@@ -24368,7 +24366,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/TieShape.scm:6
  msgid "Raise/Lower"
@@ -13965,7 +14019,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/Shape/TieShape.xml.h:2
  msgid "Gives a choice of modifications to make to the following tie."
-@@ -24376,26 +24379,26 @@
+@@ -24376,26 +24374,26 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/TieStyle.xml.h:2
  msgid "Make the tie on this note dashed or dotted."
@@ -13997,7 +14051,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/ToggleNoteTie.xml.h:2
  #: ../actions/palettes.xml.h:193
-@@ -24404,38 +24407,38 @@
+@@ -24404,38 +24402,38 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TiedNotes/ToggleNoteUpTie.xml.h:1
  msgid "Individual Note Up-Tie (Off/On)"
@@ -14044,7 +14098,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealDialogDown.xml.h:1
  msgid "Arbitrary transpose down"
-@@ -24447,7 +24450,7 @@
+@@ -24447,7 +24445,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealDialogUp.xml.h:1
  msgid "Arbitrary transpose up"
@@ -14053,7 +14107,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealDialogUp.xml.h:2
  msgid "Transpose/shift the cursor note or selection an arbitrary number of tones up. User can specify interval through a dialog."
-@@ -24455,7 +24458,7 @@
+@@ -24455,7 +24453,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealHalfDown.xml.h:1
  msgid "Half tone down"
@@ -14062,7 +14116,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealHalfDown.xml.h:2
  msgid "Transpose/shift the cursor note or selection one half tone down"
-@@ -24463,7 +24466,7 @@
+@@ -24463,7 +24461,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealHalfUp.xml.h:1
  msgid "Half tone up"
@@ -14071,7 +14125,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealHalfUp.xml.h:2
  msgid "Transpose/shift the cursor note or selection one half tone up"
-@@ -24471,31 +24474,31 @@
+@@ -24471,31 +24469,31 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftRealOctaveDown.xml.h:2
  msgid "Shifts current notes/selection down one octave while preserving accidental status. This means real transposition"
@@ -14110,7 +14164,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Transpose/ShiftUp.xml.h:2
  msgid "Transpose/shift the cursor note or selection one step up, stay in the keysignature."
-@@ -24507,7 +24510,7 @@
+@@ -24507,7 +24505,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TremoloDownward.xml.h:2
  msgid "Slopes the tremolo slash downwards instead of upwards."
@@ -14119,7 +14173,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tremolo.scm:21
  msgid "divide 𝅘𝅥𝅮 1/8"
-@@ -24539,7 +24542,7 @@
+@@ -24539,7 +24537,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TremoloUpward.xml.h:2
  msgid "Slopes tremolo mark on stem upward."
@@ -14128,7 +14182,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tremolo.xml.h:1
  msgid "Tremolo"
-@@ -24547,19 +24550,19 @@
+@@ -24547,19 +24545,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tremolo.xml.h:2
  msgid "Prints the note at the cursor with the tremolo marking for the subdivisions specified."
@@ -14152,7 +14206,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/CreateTriplet.xml.h:2
  msgid "If a MIDI controller is active takes the current note and appends two more making all three a triplet, otherwise same as Toggle Tripleting command."
-@@ -24571,15 +24574,15 @@
+@@ -24571,15 +24569,15 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/CurvedTupletBrackets.scm:60
  msgid "Tuplet Brackets Curved"
@@ -14171,7 +14225,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/NoTupletNumbers.xml.h:1
  msgid "No Tuplet Numbers"
-@@ -24587,7 +24590,7 @@
+@@ -24587,7 +24585,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/NoTupletNumbers.xml.h:2
  msgid "Stop the printing of tuplet numbers from this point."
@@ -14180,7 +14234,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/StartTuplet.scm:7
  msgid "Enter tuplet numerator "
-@@ -24605,7 +24608,7 @@
+@@ -24605,7 +24603,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/StartTuplet.scm:11
  msgid "Enter tuplet denominator"
@@ -14189,7 +14243,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/StartTuplet.scm:11
  msgid "Enter the fraction's denominator:"
-@@ -24613,19 +24616,19 @@
+@@ -24613,19 +24611,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/StartTuplet.xml.h:1
  msgid "Start Arbitrary Tuplet"
@@ -14213,7 +14267,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/ToggleTupletBracketsIfBeamed.xml.h:1
  msgid "Tuplet Brackets if not Beamed"
-@@ -24637,19 +24640,19 @@
+@@ -24637,19 +24635,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/ToggleTupletBrackets.xml.h:1
  msgid "Tuplet Brackets On/Off"
@@ -14237,7 +14291,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/Tripletize.scm:14
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/TripletizeSlurred.scm:17
-@@ -24658,19 +24661,19 @@
+@@ -24658,19 +24656,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/TripletizeSlurred.xml.h:1
  msgid "Triplet-ize (Slurred)"
@@ -14261,7 +14315,7 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/TupletBrackets.scm:3
  msgid "No Brackets"
-@@ -24686,19 +24689,19 @@
+@@ -24686,19 +24684,19 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/Tuplets/TupletBrackets.xml.h:1
  msgid "Tuplet Brackets"
@@ -14285,7 +14339,16 @@
  
  #: ../actions/menus/ObjectMenu/NotesRests/TwoNoteTremolo.scm:4
  msgid "This Denemo Directive is part of a set of four creating a \"Two note (or chord) tremolo\". Be sure to delete them all if you delete one of them."
-@@ -24746,7 +24749,7 @@
+@@ -24713,7 +24711,7 @@
+ "Give number of times the two notes/chords should be sounded 2,4... \n"
+ "(must total up to proper note duration)"
+ msgstr ""
+-"Ange antal gånger de två tonerna/ackorden ska ljuda 2,4...\n"
++"Ange antal gånger de två tonerna/ackorden ska ljuda 2,4…\n"
+ "(måste summeras till rätt notlängd)"
+ 
+ #: ../actions/menus/ObjectMenu/NotesRests/TwoNoteTremolo.scm:49
+@@ -24746,7 +24744,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/CheckScore.scm:102
  msgid "Incorrect measure duration"
@@ -14294,7 +14357,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/CheckScore.scm:127
  msgid "Final Measures not all equal duration"
-@@ -24755,12 +24758,12 @@
+@@ -24755,12 +24753,12 @@
  #: ../actions/menus/ObjectMenu/Score/CheckScore.scm:142
  #: ../actions/menus/ObjectMenu/Score/CheckScoreSkipping.scm:22
  msgid "No problem detected in this score"
@@ -14309,7 +14372,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/CheckScoreSkipping.scm:4
  msgid "Give number of errors to skip"
-@@ -24772,15 +24775,15 @@
+@@ -24772,15 +24770,15 @@
  
  #: ../actions/menus/ObjectMenu/Score/CheckScoreSkipping.xml.h:2
  msgid "Checks the score ignoring the first so many errors. Use this to skip errors that are ok to leave in."
@@ -14328,7 +14391,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/CompareWithNextScore.scm:9
  msgid "Only one tab is open"
-@@ -25105,7 +25108,7 @@
+@@ -25105,7 +25103,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/GraphicTitlePage.scm:109
  msgid "Graphic Title Page Deleted"
@@ -14337,7 +14400,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/GraphicTitlePage.xml.h:1
  msgid "Create or Edit Graphic Title Page"
-@@ -25113,7 +25116,7 @@
+@@ -25113,7 +25111,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/GraphicTitlePage.xml.h:2
  msgid "Places text/graphics from an encapsulated postscript file at the start of the score. Use this for a title page prepared in your vector graphics editor."
@@ -14346,7 +14409,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/IncipitFromSelection.scm:30
  msgid "Incipit"
-@@ -25121,7 +25124,7 @@
+@@ -25121,7 +25119,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/IncipitFromSelection.xml.h:1
  msgid "Incipit from Selection"
@@ -14355,7 +14418,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/IncipitFromSelection.xml.h:2
  msgid "Creates an incipit from the selection. This music will be printed on the title page. Only one voice is supported."
-@@ -25138,7 +25141,7 @@
+@@ -25138,7 +25136,7 @@
  "Blank to delete"
  msgstr ""
  "Ange titel för innehållsförteckningen\n"
@@ -14364,7 +14427,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/TocTitle.scm:11
  msgid "Page Break before Table of Contents"
-@@ -25158,7 +25161,7 @@
+@@ -25158,7 +25156,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/BookTitles/TocTitle.xml.h:2
  msgid "Gives a heading for a table of contents, inserting the table in the book."
@@ -14373,7 +14436,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/FilledTitleLine.scm:8
  msgid "Extra space above this line: "
-@@ -25169,24 +25172,24 @@
+@@ -25169,24 +25167,24 @@
  "Give text to appear at the left\n"
  "LilyPond syntax can be included."
  msgstr ""
@@ -14404,7 +14467,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/FilledTitleLine.xml.h:1
  msgid "Filled Title Line"
-@@ -25194,11 +25197,11 @@
+@@ -25194,11 +25192,11 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/FilledTitleLine.xml.h:2
  msgid "Prints three pieces of text left, right and centered on a single line. Each field can be a different size etc."
@@ -14418,7 +14481,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/ScoreTagline.xml.h:2
  msgid "Centered at the bottom of the last page."
-@@ -25238,15 +25241,15 @@
+@@ -25238,15 +25236,15 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/ScoreVersion.xml.h:1
  msgid "Score Version"
@@ -14437,7 +14500,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreBreakbefore.xml.h:1
  msgid "Breakbefore"
-@@ -25254,15 +25257,15 @@
+@@ -25254,15 +25252,15 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreBreakbefore.xml.h:2
  msgid "This forces the title to start on a new page (set to ##t or ##f)."
@@ -14456,7 +14519,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreDedication.xml.h:1
  msgid "Dedication"
-@@ -25270,7 +25273,7 @@
+@@ -25270,7 +25268,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreDedication.xml.h:2
  msgid "The dedicatee of the music, centered at the top of the first page."
@@ -14465,7 +14528,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreInstrument.xml.h:1
  msgid "Instrument"
-@@ -25282,11 +25285,11 @@
+@@ -25282,11 +25280,11 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreMeter.xml.h:1
  msgid "Meter"
@@ -14479,7 +14542,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScorePoet.xml.h:1
  msgid "Poet"
-@@ -25294,7 +25297,7 @@
+@@ -25294,7 +25292,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScorePoet.xml.h:2
  msgid "Name of the poet, flush-left below the subsubtitle."
@@ -14488,7 +14551,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreSubsubtitle.xml.h:1
  msgid "Subsubtitle"
-@@ -25302,11 +25305,11 @@
+@@ -25302,11 +25300,11 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreSubsubtitle.xml.h:2
  msgid "Subsubtitle, centered below the subtitle."
@@ -14502,7 +14565,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreTitles.xml.h:2
  msgid "Set titles for whole score."
-@@ -25314,7 +25317,7 @@
+@@ -25314,7 +25312,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/ScoreTitle.xml.h:2
  msgid "Prints the name given as a title centered at the start of the score."
@@ -14511,7 +14574,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.scm:4
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.scm:26
-@@ -25323,11 +25326,11 @@
+@@ -25323,11 +25321,11 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.scm:4
  msgid "Give chapter title::"
@@ -14525,7 +14588,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.scm:39
  msgid "A Chapter start/end is already present at movement #"
-@@ -25335,12 +25338,12 @@
+@@ -25335,12 +25333,12 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.scm:43
  msgid "End Chapter"
@@ -14540,7 +14603,7 @@
  
  #. procedure starts here
  #. already at a chapter start
-@@ -25350,7 +25353,7 @@
+@@ -25350,7 +25348,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.scm:82
  msgid "This is the end of a Chapter, start the next chapter on the next movement"
@@ -14549,7 +14612,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.scm:86
  msgid "Chapter Title"
-@@ -25362,7 +25365,7 @@
+@@ -25362,7 +25360,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/SimpleTitles/SimpleChapter.xml.h:2
  msgid "Asks for a Chapter Title and end movement number. Makes the current movement the start of a chapter which ends at a later movement."
@@ -14558,7 +14621,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/TaglineLink.scm:9
  msgid "Source file at http://denemo.org"
-@@ -25372,7 +25375,7 @@
+@@ -25372,7 +25370,7 @@
  #: ../actions/menus/ObjectMenu/Score/Titles/TaglineLink.scm:13
  #: ../actions/menus/ObjectMenu/Score/Titles/TaglineLink.xml.h:1
  msgid "Tagline with Link"
@@ -14567,7 +14630,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/TaglineLink.scm:12
  msgid "Give URL to link to"
-@@ -25380,7 +25383,7 @@
+@@ -25380,7 +25378,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/TaglineLink.scm:13
  msgid "Give text for tagline"
@@ -14576,7 +14639,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/TaglineLink.scm:20
  msgid "Tagline deleted"
-@@ -25388,7 +25391,7 @@
+@@ -25388,7 +25386,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Titles/TaglineLink.xml.h:2
  msgid "Creates a tagline with a link in PDF output."
@@ -14585,7 +14648,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/AccidentalStyle.scm:12
  msgid "Modern Voice"
-@@ -25402,15 +25405,15 @@
+@@ -25402,15 +25400,15 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/AccidentalStyle.scm:14
  msgid "Piano Cautionary"
@@ -14604,7 +14667,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/AccidentalStyle.scm:18
  msgid "Dodecaphonic"
-@@ -25426,24 +25429,24 @@
+@@ -25426,24 +25424,24 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/AccidentalStyle.xml.h:2
  msgid "Choose the style for typesetting accidentals. Determines whether or not an accidental is printed in particular circumstances (such as repeated notes in different measures, octaves, voices etc)."
@@ -14634,7 +14697,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/AllowVoltaHook.scm:4
  msgid "Give barline to end at: "
-@@ -25455,24 +25458,24 @@
+@@ -25455,24 +25453,24 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/AllowVoltaHook.xml.h:2
  msgid "Choose an additional type of barline to close a second (or n'th) time bar with a downward tick."
@@ -14664,7 +14727,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/CustomBarline.scm:38
  #: ../actions/menus/ObjectMenu/Score/Typesetter/CustomBarline.scm:39
-@@ -25481,15 +25484,15 @@
+@@ -25481,15 +25479,15 @@
  #: ../actions/menus/ObjectMenu/Score/Typesetter/CustomBarline.scm:42
  #: ../actions/menus/ObjectMenu/Score/Typesetter/CustomBarline.xml.h:1
  msgid "Custom Barline"
@@ -14683,7 +14746,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/CustomBarline.scm:40
  msgid "Give char(s) for line start appearance"
-@@ -25505,7 +25508,7 @@
+@@ -25505,7 +25503,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/CustomBarline.scm:57
  msgid "Custom Bar Lines unchanged"
@@ -14692,7 +14755,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/CustomBarline.xml.h:2
  msgid "Create a custom barline. These can be named, or can simply override a standard LilyPond bar line type. A bar line is defined by four forms, which describe 1) the appearance normally (during a line), 2) appearance when the barline is at the beginning or 3) end of a line , and 4) what to show when joining staffs together as with a Piano Staff. Barline forms are made of characters including |,:,.,[,],: and others in the LilyPond documentation."
-@@ -25513,19 +25516,19 @@
+@@ -25513,19 +25511,19 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/DeactivateTimeSignatureStencil.scm:10
  msgid "Time Signatures will not be typeset for this score"
@@ -14716,7 +14779,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/DenemoBar.scm:9
  msgid "Literal Barlines now ON. Execute the command a second time to turn it off. This command is for un-metered music. You will have to manually beam the music. Do not use this for an upbeat (pickup, anacrusis), there is a proper command for that."
-@@ -25533,24 +25536,24 @@
+@@ -25533,24 +25531,24 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/DenemoBar.xml.h:1
  msgid "Typeset Barlines Literally (Off/On)"
@@ -14746,7 +14809,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/Numbering/BarNumberAlignment.scm:2
  msgid "Align to right"
-@@ -25562,43 +25565,43 @@
+@@ -25562,43 +25560,43 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/Numbering/BarNumberAlignment.scm:7
  msgid "Default bar number alignment restored"
@@ -14800,7 +14863,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/Numbering/CenterPageNumber.scm:6
  msgid "Default page number position reinstated"
-@@ -26000,16 +26003,16 @@
+@@ -26000,16 +25998,16 @@
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/ScoreMarkupSpacingDist.scm:1
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/ScoreMarkupSpacingDist.xml.h:1
  msgid "Score to Title Spacing"
@@ -14820,7 +14883,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/ScoreSystemSpacingDist.xml.h:2
  msgid "Set the distance between the last system of a movement and the first system of the movement that follows it, when no (title or top-level) markup exists between them."
-@@ -26017,11 +26020,11 @@
+@@ -26017,11 +26015,11 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/SpacingParameters.scm:3
  msgid "Last title to start of movement"
@@ -14834,7 +14897,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/SpacingParameters.scm:5
  msgid "End of movement to next (untitled) movement"
-@@ -26070,11 +26073,11 @@
+@@ -26070,11 +26068,11 @@
  #. StaffToSpacing
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/Staff-Spacing/StaffToStaffSpacing.scm:2
  msgid "Spacing for Un-grouped staffs (no braces)"
@@ -14848,7 +14911,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/Staff-Spacing/StaffToStaffSpacing.scm:4
  msgid "Spacing for Staff Group"
-@@ -26115,11 +26118,11 @@
+@@ -26115,11 +26113,11 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/Staff-Spacing/StaffToStaffSpacing.xml.h:1
  msgid "Spacing between Staffs"
@@ -14862,7 +14925,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/SystemsPerPage.scm:5
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/SystemsPerPage.scm:8
-@@ -26141,16 +26144,16 @@
+@@ -26141,16 +26139,16 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/SystemSystemPadding.scm:17
  msgid "Give extra padding (1=no extra space, staff units)"
@@ -14882,7 +14945,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/PrintLayout/VerticalSpacing/SystemSystemSpacingDist.xml.h:2
  msgid "Set the distance between systems."
-@@ -26228,24 +26231,24 @@
+@@ -26228,24 +26226,24 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/SetBeamExceptions.scm:125
  msgid "Beaming Rules added from the selection"
@@ -14912,7 +14975,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/SetBeamExceptions.scm:156
  msgid "Delete All (and revert to default rules)"
-@@ -26257,11 +26260,11 @@
+@@ -26257,11 +26255,11 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/SetBeamExceptions.scm:168
  msgid "Chosen duration does not fit time signature"
@@ -14926,7 +14989,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/SetBeamExceptions.scm:172
  msgid "Give groupings for "
-@@ -26273,7 +26276,7 @@
+@@ -26273,7 +26271,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/SetBeamExceptions.xml.h:1
  msgid "Set Beaming Rules"
@@ -14935,7 +14998,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/SetBeamExceptions.xml.h:2
  msgid "Sets the rules to be used for beaming. With no selection gets the beat for beams to be divided for the prevailing time signature at the cursor. If a there is a selection this will be used as the set of rules. In this case indicate the beaming desired using the manual beam commands [ and ], giving all the beaming rules wanted using several measures if needed (no other rules are used). Repeat with different selections to add further rules."
-@@ -26289,15 +26292,15 @@
+@@ -26289,19 +26287,19 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TieWaitForNote.xml.h:1
  msgid "Ties Extend to Matching Note"
@@ -14954,7 +15017,12 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TinyStaffAllMovements.xml.h:2
  msgid "Gets a staff number 1 ... n from user and makes that staff tiny in all movements."
-@@ -26312,8 +26315,8 @@
+-msgstr "Hämtar en notsystem nummer 1 ... n från användaren och gör den staven liten i alla satser."
++msgstr "Hämtar en notsystem nummer 1 … n från användaren och gör den staven liten i alla satser."
+ 
+ #: ../actions/menus/ObjectMenu/Score/Typesetter/ToggleCurveControl.scm:15
+ msgid "Curve Control Points On"
+@@ -26312,8 +26310,8 @@
  "Typeset score will have curves marked with control points\n"
  "Use these for accurate reshaping of curves via wysiwyg operations on the typeset score with mouse"
  msgstr ""
@@ -14965,7 +15033,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/ToggleCurveControl.xml.h:1
  msgid "Typeset Curve Control Points (Off/On)"
-@@ -26321,15 +26324,15 @@
+@@ -26321,15 +26319,15 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/ToggleCurveControl.xml.h:2
  msgid "Typesets with curve control points marked. Use these for accurate tweaking of shape via clicking and dragging with mouse on final typeset score."
@@ -14984,7 +15052,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/ToggleFigures.xml.h:1
  msgid "Bass Figures (Off/On)"
-@@ -26337,23 +26340,23 @@
+@@ -26337,23 +26335,23 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/ToggleFigures.xml.h:2
  msgid "Turns on/off visibility of figured bass on typesetting for whole score."
@@ -15013,7 +15081,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/ToggleWysiwygMarks.scm:16
  msgid "Wysiwyg Marks On"
-@@ -26364,16 +26367,16 @@
+@@ -26364,16 +26362,16 @@
  "Typeset score will have graphical objects marked with red dots\n"
  "Use these for accurate tweaking of positions via wysiwyg operations on the typeset score with mouse"
  msgstr ""
@@ -15034,7 +15102,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TransposeOctaveUp.scm:2
  msgid "Print out 8va up"
-@@ -26385,15 +26388,15 @@
+@@ -26385,15 +26383,15 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TransposeOctaveUp.xml.h:2
  msgid "Instructs the LilyPond Engraver to transpose this score one octave up."
@@ -15053,7 +15121,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TransposeOnPrint.scm:5
  msgid "--- Transpose to -->"
-@@ -26405,7 +26408,7 @@
+@@ -26405,7 +26403,7 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TransposeOnPrint.xml.h:2
  msgid "Gets an interval from the user: the entire score is transposed by this interval on typesetting - key signatures are transposed as well as notes and chord symbols."
@@ -15062,7 +15130,31 @@
  
  #: ../actions/menus/ObjectMenu/Score/Typesetter/TransposeScorePrint.scm:51
  msgid ""
-@@ -26455,7 +26458,7 @@
+@@ -26421,17 +26419,12 @@
+ "    e.g. d e means a tone higher.\n"
+ "    "
+ msgstr ""
+-"Ange transponeringsintervallet som två notnamn.\n"
+-"     Till exempel betyder \"c g\" att du transponerar upp en kvint.\n"
+-"    Notnamnen använder nederländsk notation: a,b,c ... är desamma, men\n"
+-"    \"es\" = ♭, så t.ex. betyder bes b♭\n"
+-"    \"is\" = ♯, så t.ex. betyder fis f♯\n"
+-"    Använd kommatecken för oktav(er) nedåt,\n"
+-"    enkla citattecken för oktav(er) uppåt\n"
+-"    t.ex. betyder c c' en oktav upp.\n"
+-"    Du behöver inte börja med c\n"
+-"    t.ex. d e betyder en ton högre.\n"
+-"    "
++"Ange transponeringsintervallet som två notnamn. "
++"     Till exempel betyder \"c g\" att du transponerar upp en kvint. "
++"    Notnamnen använder nederländsk notation: a,b,c … är desamma, men "
++"    \"es\" = ♭, så t.ex. betyder bes b♭ "
++"    \"is\" = ♯, så t.ex. betyder cis c♯"
++"."
+ 
+ #: ../actions/menus/ObjectMenu/Score/Typesetter/TransposeScorePrint.scm:61
+ msgid "Will be transposed to:"
+@@ -26455,7 +26448,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/CaptureScore/CaptureMeasuresForStaff.xml.h:1
  msgid "Capture Measures (one staff)"
@@ -15071,7 +15163,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/CaptureScore/CaptureMeasuresForStaff.xml.h:2
  msgid "Creates blank measures one for each measure captured as a screenshot from one of a set of parts. Display the source score on the screen using any program. Click on opposite corners of each measure in turn to capture that measure as an image into Denemo. Right-click or scroll-wheel to switch corners to adjust. Press any key to finish. This command is for capturing in parts form; to capture in full score use CaptureMeasures command"
-@@ -26467,32 +26470,32 @@
+@@ -26467,32 +26460,32 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/CaptureScore/DeleteCapturedMeasureForStaff.xml.h:2
  msgid "Deletes the captured measure image for the current measure of the current staff."
@@ -15111,7 +15203,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/CheckTiesInStaff.xml.h:2
  msgid "Checks for wrongly tied notes in the current voice/staff."
-@@ -26500,39 +26503,39 @@
+@@ -26500,39 +26493,39 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/CreateCuesForStaff.xml.h:1
  msgid "Create Cues"
@@ -15160,7 +15252,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/DeleteFromCursorToEnd.scm:4
  #: ../actions/menus/ObjectMenu/StaffMenu/DeleteMeasuresBeforeCursor.scm:4
-@@ -26546,7 +26549,7 @@
+@@ -26546,7 +26539,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/DeleteFromCursorToEnd.xml.h:1
  msgid "Delete Measures From Cursor"
@@ -15169,7 +15261,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/DeleteFromCursorToEnd.xml.h:2
  msgid "Deletes all measures from the cursor to the end, either in one or all staffs."
-@@ -26554,11 +26557,11 @@
+@@ -26554,11 +26547,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/DeleteMeasuresBeforeCursor.xml.h:1
  msgid "Delete Measures Before Cursor"
@@ -15183,7 +15275,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/DeleteTextAnnotationsFromCursor.xml.h:1
  msgid "Delete Text Annotations"
-@@ -26566,31 +26569,31 @@
+@@ -26566,31 +26559,31 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/DeleteTextAnnotationsFromCursor.xml.h:2
  msgid "Deletes standalone text annotations from the cursor to the end of the staff."
@@ -15222,7 +15314,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/DisplayEffects/ToggleDisplayAllStaffs.xml.h:1
  msgid "Display All (Other) Staffs (Off/On)"
-@@ -26602,19 +26605,19 @@
+@@ -26602,19 +26595,19 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/FillEmptyMeasures.xml.h:1
  msgid "Fill Empty Measures"
@@ -15246,7 +15338,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/AddInstrumentStaff.xml.h:1
  msgid "Add Staff for Instrument"
-@@ -26622,11 +26625,11 @@
+@@ -26622,11 +26615,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/AddInstrumentStaff.xml.h:2
  msgid "Adds a staff at the bottom for the instrument selected from the templates/instruments directory. The name and range of the instrument is set with any transposition for playback if needed."
@@ -15260,7 +15352,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/AddMirrorStaff.xml.h:2
  msgid "Adds a staff whose music is automatically mirrored from another staff of your choice. Use this e.g. to create a staff with two divisi parts, while keeping the second part as a separate staff, or to typeset both Fret Diagrams and Chord Symbols from the same music. Note that initial clef/key/time are copied not mirrored. Staff number to mirror is chosen interactively or passed as a parameter to the command."
-@@ -26638,7 +26641,7 @@
+@@ -26638,7 +26631,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/CouleStaff.xml.h:1
  msgid "Add Staff for Coulés"
@@ -15269,7 +15361,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/CouleStaff.xml.h:2
  msgid "Adds a voice to the current staff which typesets notes as a slanting line - a coulé. The main voice provides the chord notes, and this provides the coulé between them."
-@@ -26646,15 +26649,15 @@
+@@ -26646,15 +26639,15 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/CreateClickStaff.scm:8
  msgid "Fill in the upbeat in the click track before playing"
@@ -15288,7 +15380,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/CreateClickStaff.scm:51
  msgid "Edit clicks"
-@@ -26666,11 +26669,11 @@
+@@ -26666,11 +26659,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/CreateClickStaff.xml.h:1
  msgid "Create/Populate Click Staff"
@@ -15302,7 +15394,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/DynamicsStaff.scm:32
  msgid ""
-@@ -26684,7 +26687,7 @@
+@@ -26684,7 +26677,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/DynamicsStaff.xml.h:1
  msgid "Add Staff for Dynamics"
@@ -15311,7 +15403,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/DynamicsStaff.xml.h:2
  msgid "This line (\"staff\") is for holding cresc. dim hairpins and dynamic markings so that they can be positioned (using dummy notes, colored blue) and will align with each other.\\nCreate this between the staffs for a piano work or on any staff where alignment of hairpins and dynamic marks is needed. WARNING: Do not start/end staff-groupings on this staff. Do not place clef changes or other non-duration items in this staff - it may trigger the creation of a separate staff on typesetting! This Dynamics \"staff\" must have the same part name as the staff the dynamics should appear on."
-@@ -26700,11 +26703,12 @@
+@@ -26700,11 +26693,12 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MarksStaff.xml.h:1
  msgid "Add Staff for Marks"
@@ -15326,7 +15418,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/CreateClickStaffForMidi.scm:80
  msgid "Click Track Creation"
-@@ -26720,7 +26724,7 @@
+@@ -26720,7 +26714,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/CreateClickStaffForMidi.xml.h:2
  msgid "Creates a staff (a click track) at the top of this score from the imported MIDI file, using tempo and time signature information (if present). The measures are filled with drum beats so that pitches in the MIDI tracks can be displayed above them. When you have finished the import you can delete this staff."
@@ -15335,7 +15427,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/LoadMidiTrack.scm:11
  msgid "MIDI Track Selection"
-@@ -26746,7 +26750,7 @@
+@@ -26746,7 +26740,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/LoadMidiTrack.xml.h:2
  msgid "Creates a staff below the click track for the MIDI track selected. The staff is empty except for time signature and tempo changes. The MIDI pitches from the track are displayed above the click track and notes can be inserted by double-clicking on a MIDI pitch and entering the rhythm."
@@ -15344,7 +15436,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/NextMidiTrack.scm:6
  msgid "This is the last track"
-@@ -26754,12 +26758,12 @@
+@@ -26754,12 +26748,12 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/NextMidiTrack.xml.h:1
  msgid "Load Next Midi Track"
@@ -15359,7 +15451,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/PreviousMidiTrack.scm:6
  msgid "This is the first track"
-@@ -26772,39 +26776,39 @@
+@@ -26772,39 +26766,39 @@
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/MIDI/PreviousMidiTrack.xml.h:2
  #: ../actions/palettes.xml.h:180
  msgid "Creates a staff for the imported MIDI track previous to the current one, making that the current one."
@@ -15408,7 +15500,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/PianoStaff.scm:8
  msgid "Replace Current Staff?"
-@@ -26816,28 +26820,28 @@
+@@ -26816,28 +26810,28 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/InsertStaff/PianoStaff.xml.h:1
  msgid "Add Piano Staff"
@@ -15443,7 +15535,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Ossia/CreateOssiaStaff.xml.h:1
  msgid "Create Ossia Staff"
-@@ -26845,23 +26849,23 @@
+@@ -26845,23 +26839,23 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Ossia/CreateOssiaStaff.xml.h:2
  msgid "Creates a small staff above the current staff for inserting cues, ossia passages etc. Use Show Ossia and Hide Ossia to show specific measures."
@@ -15472,7 +15564,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Ossia/ShowOssia.scm:8
  msgid "Show"
-@@ -26869,11 +26873,11 @@
+@@ -26869,11 +26863,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Ossia/ShowOssia.xml.h:1
  msgid "Show Ossia"
@@ -15486,7 +15578,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Playback/MuteStaff.scm:30
  msgid ""
-@@ -26898,11 +26902,11 @@
+@@ -26898,11 +26892,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Playback/StaffRemoveCustomDurations.xml.h:1
  msgid "Remove Custom Durations (Swing/Graces)"
@@ -15500,7 +15592,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Playback/StaffSoundGraceNotes.xml.h:1
  msgid "Sound Grace Notes"
-@@ -26915,11 +26919,11 @@
+@@ -26915,11 +26909,11 @@
  #: ../actions/menus/ObjectMenu/StaffMenu/Playback/SwingStaff.scm:31
  #: ../actions/menus/ObjectMenu/StaffMenu/Playback/SwingStaff.xml.h:1
  msgid "Swing Staff"
@@ -15514,7 +15606,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Playback/SwingStaff.xml.h:2
  msgid "Changes the playback duration of pairs of 𝅘𝅥𝅮 notes for swing or notes inègales. Does not affect typesetting."
-@@ -26928,15 +26932,15 @@
+@@ -26928,15 +26922,15 @@
  #. clears any extras in the staff-prolog
  #: ../actions/menus/ObjectMenu/StaffMenu/PrintEffects/ClearStaffProlog.xml.h:1
  msgid "Normal Staff"
@@ -15533,7 +15625,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/PrintEffects/TransposeStaffOutput.scm:7
  msgid ""
-@@ -26954,11 +26958,11 @@
+@@ -26954,11 +26948,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/PrintEffects/TransposeStaffOutput.xml.h:1
  msgid "Transpose Output"
@@ -15547,7 +15639,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/SimplifyTies.xml.h:1
  msgid "Simplify Ties"
-@@ -26966,11 +26970,11 @@
+@@ -26966,11 +26960,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/SimplifyTies.xml.h:2
  msgid "Converts tied notes to longer notes and removes spurious ties."
@@ -15561,7 +15653,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/BraceEnd.scm:5
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/BraceEnd.xml.h:1
-@@ -26979,31 +26983,31 @@
+@@ -26979,31 +26973,31 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/BraceEnd.scm:10
  msgid "Add an End Brace Marker"
@@ -15600,7 +15692,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/CheckBraces.scm:39
  msgid "Too few staff braces open at staff number "
-@@ -27019,15 +27023,15 @@
+@@ -27019,15 +27013,15 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/CheckBraces.xml.h:1
  msgid "Check Braces"
@@ -15619,7 +15711,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/ChoirStaffStart.xml.h:2
  msgid "Start grouping single staves together in order to form multi-stave systems. In a ChoirStaff, the group starts with a bracket, but bar lines are not connected."
-@@ -27039,7 +27043,7 @@
+@@ -27039,7 +27033,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/DeleteStaffGroupings.xml.h:2
  msgid "Clear the staff from all groupings"
@@ -15628,7 +15720,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/GrandStaffStart.xml.h:1
  msgid "GrandStaff Start"
-@@ -27051,7 +27055,7 @@
+@@ -27051,7 +27045,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/GroupStaffStart.xml.h:1
  msgid "GroupStaff Start"
@@ -15637,7 +15729,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/GroupStaffStart.xml.h:2
  msgid "Start grouping single staves together in order to form multi-stave systems. In the GroupStaff context, the group is started with a bracket and bar lines are drawn through all the staves."
-@@ -27059,7 +27063,7 @@
+@@ -27059,7 +27053,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/PianoStaffStart.xml.h:1
  msgid "PianoStaff Start"
@@ -15646,7 +15738,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffGroupings/PianoStaffStart.xml.h:2
  msgid "Start grouping single staves together in order to form multi-stave systems. The PianoStaff is identical to a GrandStaff, except that it supports printing the instrument name directly."
-@@ -27067,7 +27071,7 @@
+@@ -27067,7 +27061,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffMultiMeasureRests.xml.h:2
  msgid "Groups of whole measure rests of two or more are changed to multi-measure rests for the whole staff."
@@ -15655,7 +15747,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/Ambitus.xml.h:1
  msgid "(Print) Ambitus On/Off"
-@@ -27075,11 +27079,11 @@
+@@ -27075,11 +27069,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/Ambitus.xml.h:2
  msgid "Toggle the ambitus engraver for this staff on or off"
@@ -15669,7 +15761,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/AssignInstrument.scm:16
  msgid "Copy and Paste the music from the old staff to the new, and then delete the old staff"
-@@ -27091,11 +27095,11 @@
+@@ -27091,11 +27085,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/AssignInstrument.xml.h:2
  msgid "Assigns the current staff to an instrument selected by the user."
@@ -15683,7 +15775,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/ChordChartStaff.scm:56
  msgid "Double"
-@@ -27135,7 +27139,7 @@
+@@ -27135,7 +27129,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/ChordChartStaff.xml.h:1
  msgid "Chord Chart Staff"
@@ -15692,7 +15784,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/ChordChartStaff.xml.h:2
  msgid "Prints Chord symbols separated by bar lines. Repeats, time signatures and text are also printed for this staff."
-@@ -27147,7 +27151,7 @@
+@@ -27147,7 +27141,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/ChordStaff.xml.h:2
  msgid "Typesets the music on this staff as chord symbols (off/on)."
@@ -15701,7 +15793,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/FretDiagrams/FretBoards.scm:5
  msgid "Guitar"
-@@ -27163,15 +27167,15 @@
+@@ -27163,15 +27157,15 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/FretDiagrams/FretBoards.scm:16
  msgid "This score cannot be typeset until you have entered some chords in this staff (which will then be typeset as fret diagrams)"
@@ -15720,7 +15812,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/InstrumentName.scm:8
  msgid "Instrument Name should not be set on a Dynamics Line or Chord Symbols"
-@@ -27186,8 +27190,8 @@
+@@ -27186,8 +27180,8 @@
  "Give name of instrument/voice/part\n"
  "for current staff:"
  msgstr ""
@@ -15731,7 +15823,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/InstrumentName.scm:44
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/InstrumentName.xml.h:1
-@@ -27205,7 +27209,7 @@
+@@ -27205,7 +27199,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/InstrumentName.xml.h:2
  msgid "Print Instrument name before staff at start of score,"
@@ -15740,7 +15832,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/MidiInstrumentName.scm:11
  msgid "MIDI Instrument Name"
-@@ -27213,7 +27217,7 @@
+@@ -27213,7 +27207,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/MidiInstrumentName.scm:11
  msgid "Give name of MIDI instrument for current staff:"
@@ -15749,7 +15841,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/MidiInstrumentName.xml.h:1
  msgid "MIDI Instrument"
-@@ -27233,7 +27237,7 @@
+@@ -27233,7 +27227,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/NonPrintingStaff.xml.h:2
  msgid "Turns the on/off whether this staff will be typeset. The staff still displays normally but will be dropped for the print view."
@@ -15758,7 +15850,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/PianoStaffName.scm:5
  msgid "Give name of instrument for staff group starting here:"
-@@ -27249,11 +27253,11 @@
+@@ -27249,11 +27243,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/RhythmicStaff.xml.h:1
  msgid "Rhythmic Staff"
@@ -15772,7 +15864,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffLines.scm:3
  msgid "Staff Lines"
-@@ -27269,7 +27273,7 @@
+@@ -27269,7 +27263,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffLines.xml.h:2
  msgid "Sets the number of lines for the current staff."
@@ -15781,7 +15873,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffRangeFromChord.scm:4
  msgid "The cursor must be on a chord with the highest note and lowest note set to the range desired."
-@@ -27277,7 +27281,7 @@
+@@ -27277,7 +27271,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffRangeFromChord.xml.h:1
  msgid "Set Staff Range"
@@ -15790,7 +15882,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/SetStaffRangeFromChord.xml.h:2
  msgid "Sets the highest and lowest notes valid for the current staff to the highest and lowest pitches of the chord at the cursor. Notes outside that range will be typeset but will display as red notes to warn you that you are outside the range of the current instrument."
-@@ -27326,11 +27330,11 @@
+@@ -27326,11 +27320,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/StaffOctaveUp.xml.h:1
  msgid "(Print) Octave Up"
@@ -15804,7 +15896,16 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/StaffPropertiesMenu/StaffSize.scm:4
  msgid "Setting Staff Size"
-@@ -27529,11 +27533,11 @@
+@@ -27451,7 +27445,7 @@
+ 
+ #: ../actions/menus/ObjectMenu/StaffMenu/Voices/InitialVoiceAuto.xml.h:2
+ msgid "Undoes the effect of the InitialVoiceOne, Two ... commands. The voice has variable stem direction, slur placement etc."
+-msgstr "Ångrar effekten av kommandona InitialVoiceOne, Two .... Stämman har variabel riktning på stammen, placering av legatobåge etc."
++msgstr "Ångrar effekten av kommandona InitialVoiceOne, Two … Stämman har variabel riktning på stammen, placering av legatobåge etc."
+ 
+ #: ../actions/menus/ObjectMenu/StaffMenu/Voices/InitialVoiceFour.scm:4
+ msgid "Voice Four"
+@@ -27529,11 +27523,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/MergeRests.scm:6
  msgid "Turning off merging of rests, use Merge Rests command to turn it on"
@@ -15818,7 +15919,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/MergeRests.xml.h:2
  msgid "Merges rests where two voices have a common rest. Applies to the whole movement. For multi-measure rests you need to additionally suppress one of the multi-measure rest counts."
-@@ -27541,7 +27545,7 @@
+@@ -27541,7 +27535,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/NewVoice.xml.h:2
  msgid "Adds a voice to the current staff, initially displayed on a staff of its own, for readability. It will print on the staff above, and can be displayed there using Join Voices command if desired."
@@ -15827,7 +15928,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/NoteColumnShift.scm:5
  msgid "Horizontal Shift"
-@@ -27549,11 +27553,11 @@
+@@ -27549,11 +27543,11 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/NoteColumnShift.scm:5
  msgid "Give amount (staff spaces)"
@@ -15841,7 +15942,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/NoteColumnShift.xml.h:2
  msgid "On printing the current note/chord will be shifted from notes in other voices by the amount you give. Use this to alter which voice is shifted leftwards/rightwards."
-@@ -27561,7 +27565,7 @@
+@@ -27561,7 +27555,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/IgnoreClashingNoteColumns.scm:6
  msgid "Clashing Note Columns will generate a warning from the LilyPond typesetter"
@@ -15850,7 +15951,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/IgnoreClashingNoteColumns.scm:10
  msgid "Ignore Clashing Columns"
-@@ -27573,7 +27577,7 @@
+@@ -27573,7 +27567,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/IgnoreClashingNoteColumns.xml.h:2
  msgid "Turns warnings from the LilyPond typesetter about clashing note columns off or on. These can be harmless but can cause a warning to check the score."
@@ -15859,7 +15960,7 @@
  
  #. partcombineApart
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineApart.scm:2
-@@ -27582,8 +27586,8 @@
+@@ -27582,8 +27576,8 @@
  "Use with the Part Combine command.\n"
  "You can delete the directive as any other object."
  msgstr ""
@@ -15870,7 +15971,7 @@
  "Du kan ta bort direktivet som vilket annat objekt som helst."
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineApart.xml.h:1
-@@ -27593,7 +27597,7 @@
+@@ -27593,7 +27587,7 @@
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineApart.xml.h:2
  #: ../actions/palettes.xml.h:115
  msgid "When part combining, from this point the parts will be kept apart even though they could be combined."
@@ -15879,7 +15980,7 @@
  
  #. partcombineAutomatic
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineAutomatic.scm:2
-@@ -27602,8 +27606,8 @@
+@@ -27602,8 +27596,8 @@
  "Use with the Part Combine command.\n"
  "You can delete the directive as any other object."
  msgstr ""
@@ -15890,7 +15991,7 @@
  "Du kan ta bort direktivet som vilket annat objekt som helst."
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineAutomatic.xml.h:1
-@@ -27613,7 +27617,7 @@
+@@ -27613,7 +27607,7 @@
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineAutomatic.xml.h:2
  #: ../actions/palettes.xml.h:114
  msgid "Reverts to the default part combining."
@@ -15899,7 +16000,7 @@
  
  #. partcombineChords
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineChords.scm:2
-@@ -27622,32 +27626,32 @@
+@@ -27622,32 +27616,32 @@
  "Use with the Part Combine command.\n"
  "You can delete the directive as any other object."
  msgstr ""
@@ -15939,7 +16040,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombine.scm:38
  msgid "Must be on a staff with two voices"
-@@ -27660,8 +27664,8 @@
+@@ -27660,8 +27654,8 @@
  "Use with the Part Combine command.\n"
  "You can delete the directive as any other object."
  msgstr ""
@@ -15950,7 +16051,7 @@
  "Du kan ta bort direktivet som vilket annat objekt som helst."
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineUnisono.xml.h:1
-@@ -27671,7 +27675,7 @@
+@@ -27671,7 +27665,7 @@
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombineUnisono.xml.h:2
  #: ../actions/palettes.xml.h:113
  msgid "Combine parts as unison."
@@ -15959,7 +16060,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/Part-Combining/PartCombine.xml.h:1
  msgid "Part Combine Two Voices"
-@@ -27687,44 +27691,44 @@
+@@ -27687,44 +27681,44 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/SetCurrentStaffAsVoice.xml.h:1
  msgid "Staff to Voice"
@@ -16014,7 +16115,7 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/ShiftOn.xml.h:2
  #: ../actions/palettes.xml.h:107
-@@ -27737,36 +27741,36 @@
+@@ -27737,36 +27731,36 @@
  
  #: ../actions/menus/ObjectMenu/StaffMenu/Voices/TransposeVoices.xml.h:2
  msgid "Prints the voices transposed by the interval given. This is in addition to any score-wide transposition and any staff-wide transposition"
@@ -16059,7 +16160,7 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/CadenzaTime.scm:14
  msgid "Cadenza"
-@@ -27774,11 +27778,11 @@
+@@ -27774,11 +27768,11 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/CadenzaTime.xml.h:1
  msgid "Start Cadenza Time"
@@ -16073,7 +16174,7 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/ChooseTimeSignature.xml.h:2
  msgid "Choose from a set of typical time signatures"
-@@ -27786,11 +27790,11 @@
+@@ -27786,11 +27780,11 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/ChordChartTimeSignature.xml.h:1
  msgid "Chord Chart Time Signature"
@@ -16087,7 +16188,7 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/EndCadenzaTime.scm:10
  msgid "End Cad."
-@@ -27802,11 +27806,11 @@
+@@ -27802,11 +27796,11 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/EndCadenzaTime.xml.h:1
  msgid "End Cadenza Time"
@@ -16101,7 +16202,7 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/HideTimesig.xml.h:2
  msgid "On printing, omit the time signature change at the cursor, or the initial time signature if the cursor is not on a time signature change."
-@@ -27819,23 +27823,23 @@
+@@ -27819,23 +27813,23 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/InsertBeamingRule.xml.h:1
  msgid "Beaming Rule Change"
@@ -16130,7 +16231,7 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/SingleDigitTimeSig.xml.h:1
  msgid "(Print) Single Digit"
-@@ -27847,31 +27851,31 @@
+@@ -27847,31 +27841,31 @@
  
  #: ../actions/menus/ObjectMenu/TimeSig/TimesigWithBeatStructure.xml.h:1
  msgid "Time Signature with Beaming Rule"
@@ -16169,7 +16270,7 @@
  
  #: ../actions/palettes.xml.h:2
  msgid "Selects &#x1D15D; as the duration for inserting notes or rests"
-@@ -27919,15 +27923,15 @@
+@@ -27919,15 +27913,15 @@
  
  #: ../actions/palettes.xml.h:14
  msgid "Begin Slur from note/chord at cursor, or remove a Begin Slur"
@@ -16188,7 +16289,7 @@
  
  #: ../actions/palettes.xml.h:17
  msgid "Insert a tempo change at cursor"
-@@ -27939,23 +27943,23 @@
+@@ -27939,23 +27933,23 @@
  
  #: ../actions/palettes.xml.h:19
  msgid "Start Crescendo from note/chord at cursor"
@@ -16217,7 +16318,7 @@
  
  #: ../actions/palettes.xml.h:26
  msgid "Help with chord symbol entry methods."
-@@ -27963,35 +27967,35 @@
+@@ -27963,35 +27957,35 @@
  
  #: ../actions/palettes.xml.h:27
  msgid "Start Crescrendo from note/chord at cursor"
@@ -16265,7 +16366,7 @@
  
  #: ../actions/palettes.xml.h:32
  msgid "Pianoforte"
-@@ -27999,11 +28003,11 @@
+@@ -27999,11 +27993,11 @@
  
  #: ../actions/palettes.xml.h:37
  msgid "Inserts an 8va mark (transposing the notes accordingly) or terminates one already started."
@@ -16279,7 +16380,7 @@
  
  #: ../actions/palettes.xml.h:39
  msgid "When appending, appends a &#x1D15D; &#10;With the cursor on a note inserts a &#x1D15D;  before the current note&#10;If MIDI-in is active, the note will be pitchless (displays yellow, percussion-sounding)&#10; - the MIDI keyboard will provide the pitch.&#10;Changes prevailing duration."
-@@ -28085,7 +28089,7 @@
+@@ -28085,7 +28079,7 @@
  
  #: ../actions/palettes.xml.h:51
  msgid "Dot, double dot or undot the note at the cursor"
@@ -16288,7 +16389,7 @@
  
  #: ../actions/palettes.xml.h:53
  msgid "Change the current note to a &#x1D15D;"
-@@ -28118,13 +28122,13 @@
+@@ -28118,13 +28112,13 @@
  #: ../actions/palettes.xml.h:60
  msgid "Doubles the duration of the note/chord/rest at the cursor or the selection.&#10;E.g.&#10;Quarter Note becomes Half Note."
  msgstr ""
@@ -16305,7 +16406,7 @@
  
  #: ../actions/palettes.xml.h:62
  msgid "Changes the note the cursor is on to the note A.&#10;If the cursor is in the appending position, appends a note using the prevailing duration."
-@@ -28170,11 +28174,11 @@
+@@ -28170,11 +28164,11 @@
  
  #: ../actions/palettes.xml.h:73
  msgid "Sharpen the note at the cursor or next entered note if the cursor is in the appending position"
@@ -16319,7 +16420,7 @@
  
  #: ../actions/palettes.xml.h:83
  msgid "Stringed Instruments"
-@@ -28183,14 +28187,14 @@
+@@ -28183,14 +28177,14 @@
  #: ../actions/palettes.xml.h:98
  msgid "The given number as right hand fingering, using the conventional p,m,i indicators.&#10;Use Cancel to delete"
  msgstr ""
@@ -16338,7 +16439,7 @@
  
  #: ../actions/palettes.xml.h:100
  msgid "Places a diamond shape notehead at the cursor.&#10;Invoke this command with the cursor above the note to be fingered/fretted to notate an artificial harmonic."
-@@ -28205,15 +28209,15 @@
+@@ -28205,15 +28199,15 @@
  #: ../actions/palettes.xml.h:102
  msgid "Adds a voice to the current staff, initially displayed on a staff of its own, for readability.&#10;It will print on the staff above, and can be displayed there using Join Voices command if desired."
  msgstr ""
@@ -16359,7 +16460,7 @@
  
  #: ../actions/palettes.xml.h:104
  msgid "The two voices will be printed only once when they are the same, otherwise they will be printed as parts.&#10;(Off/On)"
-@@ -28230,14 +28234,14 @@
+@@ -28230,14 +28224,14 @@
  #: ../actions/palettes.xml.h:108
  msgid "On printing the current note/chord will be shifted from notes in other voices by the amount you give.&#10;Use with Voice Presets to ensure this chord is in a different voice."
  msgstr ""
@@ -16378,7 +16479,7 @@
  
  #: ../actions/palettes.xml.h:116
  msgid "Turns warnings from the LilyPond typesetter about clashing note columns off or on.&#10;These can be harmless but can cause a warning to check the score."
-@@ -28247,13 +28251,13 @@
+@@ -28247,13 +28241,13 @@
  
  #: ../actions/palettes.xml.h:122
  msgid "Adds the > accent"
@@ -16395,7 +16496,7 @@
  
  #: ../actions/palettes.xml.h:125
  msgid "Barlines"
-@@ -28266,14 +28270,15 @@
+@@ -28266,14 +28260,15 @@
  #: ../actions/palettes.xml.h:133
  msgid "Create a custom barline.&#10;These can be named, or can simply override a standard LilyPond bar line type.&#10;A bar line is defined by four forms, which describe 1) the appearance normally (during a line), &#10;2) appearance when the barline is at the beginning or &#10;3) end of a line , and &#10;4) what to show when joining staffs together as with a Piano Staff.&#10;Barline forms are made of characters including |,:,.,[,],:&#10;and others in the LilyPond documentation."
  msgstr ""
@@ -16419,7 +16520,7 @@
  
  #: ../actions/palettes.xml.h:134
  msgid "Repeats"
-@@ -28281,118 +28286,117 @@
+@@ -28281,118 +28276,117 @@
  
  #: ../actions/palettes.xml.h:135
  msgid "(Print) start a first time bar, must be followed by EndVolta."
@@ -16578,7 +16679,7 @@
  
  #: ../actions/palettes.xml.h:170
  msgid "Hides dots on the current chord/rest.&#10;Makes it conditional on the current layout."
-@@ -28407,20 +28411,20 @@
+@@ -28407,20 +28401,20 @@
  #: ../actions/palettes.xml.h:172
  msgid "Attach a chord symbol to the note at the cursor position.&#10;E.G.cis:dim7 for c-sharp diminished 7th.&#10;See Lilypond docs for notation"
  msgstr ""
@@ -16606,7 +16707,7 @@
  
  #: ../actions/palettes.xml.h:175
  msgid "Opens a MIDI file for transcribing.&#10;Load each track in turn and insert the MIDI notes by playing the durations."
-@@ -28431,38 +28435,38 @@
+@@ -28431,38 +28425,38 @@
  #: ../actions/palettes.xml.h:176
  msgid "Starts playing the score from the playhead start (green marker bar) and simultaneously records your playing from MIDI in.&#10;        You can stop the playback at any time and then the first MIDI note you entered is marked.&#10;&#10;        Entering duration keys now enters the notes you played into the score.&#10;&#10;        If you have no click track at the top one is created."
  msgstr ""
@@ -16658,7 +16759,7 @@
  
  #: ../actions/palettes.xml.h:187
  msgid "Ties"
-@@ -28470,32 +28474,32 @@
+@@ -28470,32 +28464,32 @@
  
  #: ../actions/palettes.xml.h:188
  msgid "Gives a choice of shape modifications to make to the following tie."
@@ -16702,7 +16803,7 @@
  
  #: ../actions/palettes.xml.h:198
  msgid "Allows the user to create a customized ornament (or load one previously created)&#10;into this score's definitions.&#10;Ornament names should be start in lower case&#10;and have no numerals.&#10;If a standard ornament is used, e.g.&#10;trill,&#10;then this will replace the standard ornament throughout the score."
-@@ -28511,22 +28515,22 @@
+@@ -28511,22 +28505,22 @@
  #: ../actions/palettes.xml.h:199
  msgid "Edit the definition (size or appearance) of a custom ornament definition.&#10;The definition must already have been created in this score."
  msgstr ""
@@ -16731,7 +16832,7 @@
  
  #: ../actions/palettes.xml.h:203
  msgid "Prints Chord symbols separated by bar lines.&#10;Repeats, time signatures and text are also printed for this staff."
-@@ -28537,34 +28541,34 @@
+@@ -28537,34 +28531,34 @@
  #: ../actions/palettes.xml.h:204
  msgid "Insert a previously created barline.&#10;(Any other LilyPond definitions  - see Score->LilyPond Definition - are here too)."
  msgstr ""
@@ -16775,7 +16876,7 @@
  
  #: ../actions/palettes.xml.h:213
  msgid "Set the prevailing duration to &#x1D15E; (subsequent chords entered will have this duration)"
-@@ -28572,7 +28576,7 @@
+@@ -28572,7 +28566,7 @@
  
  #: ../actions/palettes.xml.h:214
  msgid "Set the prevailing duration to &#x1D15F; (subsequent chords entered will have this duration)"
@@ -16784,7 +16885,7 @@
  
  #: ../actions/palettes.xml.h:215
  msgid "Insert a repeated chord sign."
-@@ -28593,15 +28597,15 @@
+@@ -28593,15 +28587,15 @@
  #: ../actions/palettes.xml.h:218
  msgid "Inserts a non-printing whole measure after the current measure with a directive to omit the barline.&#10;This gives a one measure spacer."
  msgstr ""
@@ -16805,7 +16906,7 @@
  
  #: ../actions/palettes.xml.h:223
  msgid "Mutes the current staff.&#10;Affects only playback."
-@@ -28611,7 +28615,7 @@
+@@ -28611,7 +28605,7 @@
  
  #: ../actions/palettes.xml.h:224
  msgid "Playback from start marker to end marker (Set these markers in the playback controls)"
@@ -16814,7 +16915,7 @@
  
  #: ../actions/palettes.xml.h:226
  msgid "Plays all staffs for the duration of the selection or from the current cursor position to the end of the movement if no selection."
-@@ -28647,15 +28651,15 @@
+@@ -28647,15 +28641,15 @@
  
  #: ../actions/palettes.xml.h:234
  msgid "Inserts (or deletes) a melisma start."
@@ -16833,7 +16934,7 @@
  
  #: ../actions/palettes.xml.h:237
  msgid "Ends a ligature."
-@@ -28687,15 +28691,15 @@
+@@ -28687,15 +28681,15 @@
  
  #: ../actions/palettes.xml.h:244
  msgid "Inserts a Divisio Minor."
@@ -16852,7 +16953,7 @@
  
  #: ../actions/palettes.xml.h:247
  msgid "Inserts a finalis."
-@@ -28703,7 +28707,7 @@
+@@ -28703,7 +28697,7 @@
  
  #: ../actions/palettes.xml.h:248
  msgid "Insert or Append Chords"
@@ -16861,7 +16962,7 @@
  
  #: ../actions/palettes.xml.h:249
  msgid "c e g"
-@@ -28819,7 +28823,7 @@
+@@ -28819,7 +28813,7 @@
  
  #: ../actions/Simple.scm:8
  msgid "Score Check: Error in this measure"
@@ -16870,7 +16971,7 @@
  
  #: ../actions/Simple.scm:9
  msgid "Print Anyway"
-@@ -28831,12 +28835,12 @@
+@@ -28831,12 +28825,12 @@
  
  #: ../org.denemo.Denemo.appdata.xml.in.h:2
  msgid "Denemo is a music notation program that lets you rapidly enter notation. Music can be typed in at the PC-Keyboard, or played in via MIDI controller. The typesetting is done in the background by LilyPond while you work, and is generally flawless publication quality. Any final tweaks to can be done on the final typeset score with the mouse if needed. This represents an enormous practical improvement over the most programs which require you to re-position colliding notation constantly as you enter the music."
