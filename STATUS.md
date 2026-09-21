@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – administrations- och databasinställningar, grupp 24 (2026-09-21):** 17 lokalt XLIFF-granskade poster är CrowdIn-publicerade: sessionshistorik och -stickprov, databasaktivitet via pg_ash, API-gränser för granskningshändelser samt administrationsområdets missbruk, nycklar, pushregler och loggar. Produktnamn, API och måttvärden är bevarade. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – sammanfogningsbegäranden, grupp 23 (2026-09-21):** 34 lokalt XLIFF-granskade poster är CrowdIn-publicerade: granskningstillstånd, staplade sammanfogningsbegäranden, skyddade variabler/körare, diff-fel, granskare, konflikter, AI-skapade beskrivningar och versionsmarkörer. Alla format- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – sammanfogningsbegäranden, grupp 22 (2026-09-21):** 32 lokalt XLIFF-granskade poster är CrowdIn-publicerade: automatisk granskartilldelning och kodägare, utkast, cherry-pick och återställning, hopslagning, difftrådar samt konflikt- och aktivitetsmeddelanden. Kod-, gren- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
