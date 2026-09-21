@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**3D Slicer – XLIFF-granskning, grupp 1 (2026-09-21):** Alla fyra svenska komponenter har hämtats som XLIFF och körts med aktuell `l10n-lint`: 0 formatfel. Nio granskade huvudgränssnittsrättningar är publicerade och API-bekräftade, inklusive typografisk ellips, **klippningsplan**, tilläggskatalogens namn och webbplats, korrekt C++-typen `long long` och konsekventa egenskapsdialoger. CTK:s `%2s`-platshållare och VMTK:s konsonantstrykningsriktiga **klippunkter** fanns redan korrekt publicerade. XLIFF-arkiv: `3D-Slicer/xliff-20260921/`. Resterande semantiska varningar granskas radvis i kommande grupper.
+
 **GitLab – säkerhets- och gränssnittskvalitet, grupp 2 (2026-09-21):** Sju ytterligare XLIFF-poster är lokalt kontextgranskade och publicerade via CrowdIn: personliga åtkomsttoken med 2FA, DAST-konsolens felsökningsmeddelanden, en CI/CD-licenspolicy, Duo Chats kunskapsgraf, CloudSeed-beskrivningen och start av utvecklingsmiljö. Platshållare och produktidentiteter är bevarade. Hela exporten har fortsatt 0 `l10n-lint`-fel.
 
 **GitLab – säkerhets- och CI/CD-terminologi, grupp 1 (2026-09-21):** 18 radgranskade poster är rättade och API-publicerade efter lokal XLIFF-granskning. Gruppen täcker containerregister, lagringsgränser, webhook-händelser, skanningsprofiler, push-skydd för hemligheter, policyundantag, sårbarhetsrapporter, SSO/SAML-flöden och sammanslagningsstatus. Anglicismerna *pusha*, *committa*, *patchad* och *mergebar* är ersatta med kontextuella svenska formuleringar, bland annat **skicka upp**, **incheckning**, **korrigerad version** och **kan inte sammanfogas**. `l10n-lint` ger fortsatt 0 fel på hela XLIFF-exporten.
