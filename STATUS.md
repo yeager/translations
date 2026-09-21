@@ -1,3 +1,4 @@
+- **GitLab – skanningsresultatpolicyer, grupp 66 (2026-09-21):** 28 poster radgranskade för godkännandeinställningar, token, skyddade grenar, pushskydd, åsidosättningar och obligatoriska skannrar. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsresultatpolicyer, grupp 65 (2026-09-21):** 28 poster radgranskade för KEV, kända utnyttjanden, licenser, kriteriegränser, godkännanden och risknivåer. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsresultatpolicyer, grupp 64 (2026-09-21):** 27 poster radgranskade för EPSS, åtgärder, undantag, felsäkra lägen, byggpipelines, CI/CD-token och licenskrav. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsresultatpolicyer, grupp 63 (2026-09-21):** 27 poster radgranskade för kriterier, policykringgående, EPSS-risk, CI-variabler, grenmönster, licenser och automatisering. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
