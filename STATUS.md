@@ -1,3 +1,4 @@
+- **GitLab – behållarregister: skydd och rensningsstatus (20 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsprinciper, återstående fält (15 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel. Sammansatta mallsträngar är granskade och publicerade.
 - **GitLab – beroenden och SBOM (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsprofiler (24 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
