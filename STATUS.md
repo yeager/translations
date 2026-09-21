@@ -1,3 +1,4 @@
+- **GitLab – paketregister: versioner och borttagning (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – paketregister: skydd och ekosystem (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – virtuellt register: pluralformer (18 poster, 2026-09-21):** Radgranskade och publicerade via CrowdIns plural-API; l10n-lint v1.21.6: 0 fel. Alla oöversatta VirtualRegistry-poster i aktuell XLIFF är nu hanterade.
 - **GitLab – virtuellt register: återstående gränssnitt (21 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel. Alla oöversatta vanliga VirtualRegistry-poster är nu hanterade; pluralerna slutförs i följande batch.
