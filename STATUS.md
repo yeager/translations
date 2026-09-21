@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**Swedish TM – GitLab-säkerhetsgranskning (2026-09-21):** `swedish-tm` är uppdaterat och pushat med **312** spårbara, radgranskade GitLab-par från den lokala XLIFF-diffen. Varje segment behåller projekt, komponent, CrowdIn-ID, källtext, publiceringsstatus och kontrollsumma; katalogen `reviewed/catalogs/gitlab.{po,tmx}` validerar tillsammans med övriga minnen.
+
 **GitLab – säkerhetspolicyer, grupp 15 (2026-09-21):** Nio XLIFF-poster för risk- och sårbarhetsallvarlighetsgrad, policyundantag och skadliga beroenden är kontextgranskade och CrowdIn-publicerade. Alla `%{…}`-platshållare är validerade; `l10n-lint` v1.21.6 passerar fortsatt med 0 fel på hela exporten.
 
 **GitLab – SAST och sårbarhetsresultat, grupp 14 (2026-09-21):** 20 lokalt XLIFF-granskade och CrowdIn-publicerade poster täcker SAST-konfiguration i CI/CD, kodsårbarheter, standardgrenar, IaC, kritiska fynd, JSON-rapporter och Duo SAST:s hantering av falska positiva resultat. Källfilnamn och formatvärden är bevarade. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
