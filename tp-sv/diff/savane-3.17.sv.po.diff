@@ -1103,7 +1103,7 @@
  
  #: frontend/php/projects.php:439
  msgid "Communication Tools"
-@@ -1952,21 +1959,21 @@
+@@ -1952,7 +1959,7 @@
  
  #: frontend/php/projects.php:447
  msgid "Tech Support Manager"
@@ -1112,13 +1112,7 @@
  
  #: frontend/php/projects.php:459 frontend/php/include/context.php:206
  #: frontend/php/include/trackers/cookbook.php:66
- #: frontend/php/project/admin/index.php:85
- #: frontend/php/project/admin/editgroupfeatures.php:359
- msgid "Mailing Lists"
--msgstr "Sändlistor"
-+msgstr "E-postlistor"
- 
- #: frontend/php/projects.php:470
+@@ -1965,8 +1972,8 @@
  #, php-format
  msgid "(%s public mailing list)"
  msgid_plural "(%s public mailing lists)"
@@ -1234,15 +1228,6 @@
  
  #: frontend/php/account/lostpw-confirm.php:120
  #, php-format
-@@ -2217,7 +2224,7 @@
- "somebody else, e.g. do not mail this to a public mailinglist!\n"
- "\n"
- msgstr ""
--"Se i alla fall till att du inte avslöjar denna URL för någon annan, t.ex. skicka den inte till en offentlig sändlista!\n"
-+"Se i alla fall till att du inte avslöjar denna URL för någon annan, t.ex. skicka den inte till en offentlig e-postlista!\n"
- "\n"
- 
- #: frontend/php/account/lostpw-confirm.php:166
 @@ -2226,7 +2233,7 @@
  
  #: frontend/php/account/lostpw-confirm.php:168
@@ -1481,7 +1466,7 @@
  #: frontend/php/account/register.php:111
  msgid "That username is blocked to avoid conflict with mailing-list addresses."
 -msgstr "Det användarnamnet är blockerat för att undvika konflikt med adresser för sändlistor."
-+msgstr "Det användarnamnet är spärrat för att undvika konflikt med e-postlistadresser."
++msgstr "Det användarnamnet är spärrat för att undvika konflikt med sändlisteadresser."
  
  #: frontend/php/account/register.php:119 frontend/php/my/admin/change.php:143
  msgid "You must supply a password."
@@ -1563,17 +1548,12 @@
  
  #: frontend/php/account/su.php:98
  msgid "You shouldn't have come to this page."
-@@ -2605,11 +2610,11 @@
- #: frontend/php/mail/index.php:64
- #, php-format
- msgid "No mailing lists found for %s."
--msgstr "Inga sändlistor hittades för %s."
-+msgstr "Inga e-postlistor hittades för %s."
+@@ -2609,7 +2614,7 @@
  
  #: frontend/php/mail/index.php:66
  msgid "Group administrators can add mailing lists using the admin interface."
 -msgstr "Gruppadministratörer kan lägga till sändlistor via administratörsgränssnittet."
-+msgstr "Gruppadministratörer kan lägga till e-postlistor i administrationsgränssnittet."
++msgstr "Gruppadministratörer kan lägga till sändlistor i administrationsgränssnittet."
  
  #: frontend/php/mail/index.php:101
  #, php-format
@@ -1604,7 +1584,7 @@
  "No mailing list address was found, the configuration of the\n"
  "server is probably broken, contact the admins!"
 -msgstr "Ingen sändlista hittades, serverns konfiguration är troligen trasig, kontakta administratörerna!"
-+msgstr "Ingen e-postlistadress hittades. Serverkonfigurationen är troligen felaktig. Kontakta administratörerna!"
++msgstr "Ingen sändlistadress hittades. Serverkonfigurationen är troligen felaktig. Kontakta administratörerna!"
  
  #: frontend/php/mail/index.php:134
  msgid "Subscribe to the list."
@@ -1626,22 +1606,16 @@
  "Mailing lists are misconfigured. Post a support request to ask\n"
  "your site administrator to review group type setup."
 -msgstr "E-postlistorna är felkonfigurerade. Skicka en supportförfrågan till din webbplatsadministratör och be hen att granska inställningarna för grupptypen."
-+msgstr "E-postlistorna är felkonfigurerade. Skicka en supportbegäran och be webbplatsadministratören granska inställningarna för grupptypen."
++msgstr "Sändlistorna är felkonfigurerade. Skicka en supportbegäran och be webbplatsadministratören granska inställningarna för grupptypen."
  
  #: frontend/php/mail/admin/index.php:122
  #, php-format
-@@ -2681,17 +2686,17 @@
- 
- #: frontend/php/mail/admin/index.php:131
- msgid "Mailing list not found."
--msgstr "Sändlistan hittades inte."
-+msgstr "E-postlistan hittades inte."
- 
+@@ -2686,12 +2691,12 @@
  #: frontend/php/mail/admin/index.php:154
  #, php-format
  msgid "You are about to delete the mailing list %s, please confirm:"
 -msgstr "Du är på väg att ta bort sändlistan %s, vänligen bekräfta:"
-+msgstr "Du är på väg att ta bort e-postlistan %s. Bekräfta:"
++msgstr "Du är på väg att ta bort sändlistan %s. Bekräfta:"
  
  #: frontend/php/mail/admin/index.php:238
  #, php-format
@@ -1669,34 +1643,18 @@
  
  #: frontend/php/mail/admin/index.php:339 frontend/php/mail/admin/index.php:430
  msgid "private"
-@@ -2724,7 +2729,7 @@
- 
- #: frontend/php/mail/admin/index.php:363
- msgid "Update Mailing List"
--msgstr "Uppdatera sändlista"
-+msgstr "Uppdatera e-postlista"
- 
- #: frontend/php/mail/admin/index.php:370
- msgid ""
 @@ -2732,8 +2737,8 @@
  "Public lists are visible to non-members; private lists\n"
  "are not advertised, subscribing requires approval."
  msgstr ""
 -"Här kan du administrera listinformation.\n"
 -"Offentliga listor är synliga för icke-medlemmar; privata\n"
-+"Här kan du administrera information om e-postlistan. "
++"Här kan du administrera information om sändlistan. "
 +"Offentliga listor syns för personer som inte är medlemmar. Privata "
  "listor annonseras inte, och prenumeration kräver godkännande."
  
  #: frontend/php/mail/admin/index.php:375
-@@ -2742,17 +2747,17 @@
- 
- #: frontend/php/mail/admin/index.php:399
- msgid "Create a new mailing list:"
--msgstr "Skapa en ny sändlista:"
-+msgstr "Skapa en ny e-postlista:"
- 
- #: frontend/php/register/requirements.php:46
+@@ -2748,11 +2753,11 @@
  #: frontend/php/include/sitemenu.php:186
  #: frontend/site-specific/gnu/homepage.php:60
  msgid "Hosting requirements"
@@ -1914,7 +1872,7 @@
  "a group mailing list) before requesting formal inclusion using\n"
  "this form."
 -msgstr "Skriv namnet på den grupp du vill bidra till nedan. Att gå med i en grupp innebär att du får skrivrättigheter till gruppens arkiv och medför ett visst ansvar. Därför bör du vanligtvis först kontakta gruppmedlemmarna (t.ex. via gruppens sändlista) innan du ansöker om formellt medlemskap via detta formulär."
-+msgstr "Skriv namnet på den grupp du vill bidra till nedan. Att gå med i en grupp innebär skrivbehörighet till gruppens källkodsförråd och medför ansvar. Därför bör du vanligtvis först kontakta gruppmedlemmarna (t.ex. via gruppens e-postlista) innan du ansöker om formellt medlemskap med detta formulär."
++msgstr "Skriv namnet på den grupp du vill bidra till nedan. Att gå med i en grupp innebär skrivbehörighet till gruppens källkodsförråd och medför ansvar. Därför bör du vanligtvis först kontakta gruppmedlemmarna (t.ex. via gruppens sändlista) innan du ansöker om formellt medlemskap med detta formulär."
  
  #: frontend/php/my/groups.php:258
  msgid "Group to look for"
@@ -2920,7 +2878,7 @@
  #: frontend/php/include/context.php:206
  msgid "Mailing Lists Administration"
 -msgstr "Sändlisteadministration"
-+msgstr "Administration av e-postlistor"
++msgstr "Administration av sändlistor"
  
  #: frontend/php/include/context.php:219
  msgid "Administration Summary"
@@ -3109,74 +3067,65 @@
  #, php-format
  msgid "You requested password reset of the list %1$s at %2$s."
 -msgstr "Du har begärt återställning av lösenordet för listan %1$s på %2$s."
-+msgstr "Du har begärt återställning av lösenordet för e-postlistan %1$s på %2$s."
++msgstr "Du har begärt återställning av lösenordet för sändlistan %1$s på %2$s."
  
  #: frontend/php/include/mailman.php:131
  #, php-format
  msgid "You requested creation of the list %1$s at %2$s."
 -msgstr "Du begärde att listan %1$s skulle skapas på %2$s."
-+msgstr "Du begärde att e-postlistan %1$s skulle skapas på %2$s."
++msgstr "Du begärde att sändlistan %1$s skulle skapas på %2$s."
  
  #: frontend/php/include/mailman.php:140
  msgid "Hello,"
-@@ -4589,7 +4593,7 @@
- #: frontend/php/include/mailman.php:144
- #, php-format
- msgid "The new list administrator password of the mailing list %s is:"
--msgstr "Det nya administratörslösenordet för sändlistan %s är:"
-+msgstr "Det nya administratörslösenordet för e-postlistan %s är:"
- 
- #: frontend/php/include/mailman.php:149
- msgid ""
 @@ -4605,59 +4609,59 @@
  #: frontend/php/include/mailman.php:165
  #, php-format
  msgid "Mailman list %s"
 -msgstr "Mailman-lista %s"
-+msgstr "Mailman-e-postlista %s"
++msgstr "Mailman-sändlista %s"
  
  #. TRANSLATORS: the argument is mailing list name.
  #: frontend/php/include/mailman.php:194
  #, php-format
  msgid "List %s added"
 -msgstr "Listan %s lades till"
-+msgstr "E-postlistan %s lades till"
++msgstr "Sändlistan %s lades till"
  
  #: frontend/php/include/mailman.php:194
  #, php-format
  msgid "Error adding list %s"
 -msgstr "Fel vid tillägg av lista %s"
-+msgstr "Fel vid tillägg av e-postlistan %s"
++msgstr "Fel vid tillägg av sändlistan %s"
  
  #: frontend/php/include/mailman.php:195
  #, php-format
  msgid "List %s deleted"
 -msgstr "Listan %s raderades"
-+msgstr "E-postlistan %s togs bort"
++msgstr "Sändlistan %s togs bort"
  
  #: frontend/php/include/mailman.php:195
  #, php-format
  msgid "Error deleting list %s"
 -msgstr "Fel vid radering av lista %s"
-+msgstr "Fel när e-postlistan %s skulle tas bort"
++msgstr "Fel när sändlistan %s skulle tas bort"
  
  #: frontend/php/include/mailman.php:196
  #, php-format
  msgid "List %s updated"
 -msgstr "Listan %s uppdaterad"
-+msgstr "E-postlistan %s uppdaterades"
++msgstr "Sändlistan %s uppdaterades"
  
  #: frontend/php/include/mailman.php:196
  #, php-format
  msgid "Error updating list %s"
 -msgstr "Fel vid uppdatering av listan %s"
-+msgstr "Fel vid uppdatering av e-postlistan %s"
++msgstr "Fel vid uppdatering av sändlistan %s"
  
  #: frontend/php/include/mailman.php:296
  #, php-format
  msgid "List %s not found in the database"
 -msgstr "Listan %s hittades inte i databasen"
-+msgstr "E-postlistan %s hittades inte i databasen"
++msgstr "Sändlistan %s hittades inte i databasen"
  
  #: frontend/php/include/trackers_run/mod.php:112
  msgid "This item is private. However, you are allowed to read it as you submitted it."
@@ -5233,13 +5182,7 @@
  
  #. TRANSLATORS: this string separates error title from further description,
  #. like _("Invalid User") . _(': ') . _("That user does not exist.")
-@@ -7219,16 +7229,16 @@
- 
- #: frontend/php/include/exit.php:161
- msgid "This project has turned off mailing lists"
--msgstr "Detta projekt har stängt av sändlistor"
-+msgstr "Detta projekt har stängt av e-postlistor"
- 
+@@ -7224,11 +7234,11 @@
  #: frontend/php/include/exit.php:167
  #, php-format
  msgid "User #%s not found."
@@ -5368,7 +5311,7 @@
  "jobs, and add mailing lists. They actually also have manager rights on every\n"
  "tracker and are allowed to read private items."
 -msgstr "Gruppadministratörer kan hantera medlemmar, konfigurera ärendehanterare, publicera jobb och lägga till sändlistor. De har faktiskt också administratörsrättigheter för varje ärendehanterare och får läsa privata objekt."
-+msgstr "Gruppadministratörer kan hantera medlemmar, konfigurera ärendehanterare, publicera jobb och lägga till e-postlistor. De har också samma behörighet som ansvariga för varje ärendehanterare och får läsa privata ärenden."
++msgstr "Gruppadministratörer kan hantera medlemmar, konfigurera ärendehanterare, publicera jobb och lägga till sändlistor. De har också samma behörighet som ansvariga för varje ärendehanterare och får läsa privata ärenden."
  
  #. TRANSLATORS: the argument is site name (like Savannah).
  #: frontend/php/include/sendmail.php:55
@@ -5604,19 +5547,10 @@
  #: frontend/php/include/pagemenu.php:479 frontend/php/include/pagemenu.php:494
  msgid "List existing mailing lists"
 -msgstr "Lista existerande sändlistor"
-+msgstr "Lista befintliga e-postlistor"
++msgstr "Lista befintliga sändlistor"
  
  #: frontend/php/include/pagemenu.php:483 frontend/php/include/pagemenu.php:716
  msgid "Configure:"
-@@ -7758,7 +7767,7 @@
- 
- #: frontend/php/include/pagemenu.php:492
- msgid "Mailing lists"
--msgstr "Sändlistor"
-+msgstr "E-postlistor"
- 
- #: frontend/php/include/pagemenu.php:530 frontend/php/include/pagemenu.php:534
- msgid "Source code"
 @@ -7778,7 +7787,7 @@
  
  #: frontend/php/include/pagemenu.php:579
@@ -6323,7 +6257,7 @@
  #: frontend/php/project/admin/squadadmin.php:267
  msgid "That username may conflict with mailing list addresses."
 -msgstr "Användarnamnet kan komma i konflikt med adresserna i sändlistan."
-+msgstr "Användarnamnet kan komma i konflikt med e-postlistans adresser."
++msgstr "Användarnamnet kan komma i konflikt med sändlistans adresser."
  
  #: frontend/php/project/admin/squadadmin.php:287
  msgid "Error during squad creation"
@@ -7155,7 +7089,7 @@
  "så att du kan dra full nytta av %2$s."
  
  #: frontend/site-specific/gnu/account/first.php:56
-@@ -9766,12 +9797,12 @@
+@@ -9766,7 +9797,7 @@
  "Note that <a href=\"%s\">unused accounts</a>\n"
  "may be removed without notice."
  msgstr ""
@@ -7164,12 +7098,6 @@
  "kan tas bort utan förvarning."
  
  #: frontend/site-specific/gnu/mail/about_list_creation.php:46
- msgid "New mailing lists at Savannah"
--msgstr "Nya sändlistor på Savannah"
-+msgstr "Nya e-postlistor på Savannah"
- 
- #: frontend/site-specific/gnu/mail/about_list_creation.php:48
- #, php-format
 @@ -9780,17 +9811,18 @@
  "features enabled by default, in addition to the usual\n"
  "<a href=\"%s\">GNU Mailman</a> defaults."
@@ -7177,7 +7105,7 @@
 -"Nya sändlistor som skapas via Savannah har följande\n"
 -"funktioner aktiverade som standard, utöver de vanliga\n"
 -"<a href=\"%s\">GNU Mailman-standardinställningarna</a>."
-+"Nya e-postlistor som skapas via Savannah har följande "
++"Nya sändlistor som skapas via Savannah har följande "
 +"funktioner aktiverade\n"
 +"som standard, utöver de vanliga standardinställningarna för\n"
 +"<a href=\"%s\">GNU Mailman</a>."
@@ -7208,7 +7136,7 @@
 +"När en ny medlem ansluter sig till listan hålls det första inlägget kvar för\n"
 +"listägarens granskning (<tt>default_member_moderation</tt>, under\n"
 +"”Sekretess &gt; Avsändarfilter”). Detta behövs eftersom\n"
-+"smarta spamsystem numera automatiskt kan prenumerera på Mailmans e-postlistor och\n"
++"smarta spamsystem numera automatiskt kan prenumerera på Mailmans sändlistor och\n"
 +"sedan börja skicka skräppost. Om prenumerationen "
 +"är giltig\n"
 +"(vilket den vanligtvis är) rekommenderar vi dock starkt att du "
@@ -7222,8 +7150,8 @@
  "owners, the listhelper automated system, and the listhelper\n"
  "human volunteers.  This is when spam is detected and deleted."
 -msgstr "Första gången en person skickar ett inlägg till en lista från en viss e-postadress hålls meddelandet kvar för granskning, eventuellt av listägarna, det automatiska systemet listhelper och listhelpers frivilliga medarbetare. Det är då spam upptäcks och raderas."
-+msgstr "Första gången en person skickar ett inlägg till en e-postlista med en viss\n"
-+"e-postadress hålls meddelandet kvar för granskning, eventuellt av e-postlistans\n"
++msgstr "Första gången en person skickar ett inlägg till en sändlista med en viss\n"
++"e-postadress hålls meddelandet kvar för granskning, eventuellt av sändlistans\n"
 +"ägare, det automatiska systemet listhelper och listhelpers frivilliga. Det är då\n"
 +"skräppost upptäcks och tas bort."
  
@@ -7237,7 +7165,7 @@
 -"ses av den lilla gruppen frivilliga listhelper-användare bör du <tt>där</tt>för inaktivera\n"
 -"listhelper (ta bort listhelper@nongnu.org från moderatorfältet\n"
 -"på sidan \"Allmänna alternativ\") och själv hantera\n"
-+"Om du är orolig för att e-postlistans meddelanden ska\n"
++"Om du är orolig för att sändlistans meddelanden ska\n"
 +"ses av den lilla gruppen frivilliga i listhelper bör du därför inaktivera\n"
 +"listhelper (ta bort listhelper@nongnu.org från fältet <tt>moderator</tt>\n"
 +"på sidan ”Allmänna alternativ”) och själv hantera\n"
@@ -7533,19 +7461,17 @@
  
  #: frontend/site-specific/gnu/contact.php:62
  #, php-format
-@@ -10182,9 +10255,9 @@
+@@ -10182,8 +10255,8 @@
  "about a specific project hosted here), you can use the <a\n"
  "href=\"%s\">savannah-users mailing list</a>."
  msgstr ""
 -"<b>För</b>allmän hjälp och diskussioner om användningen av Savannah (inte\n"
 -"om ett specifikt projekt som finns här) kan du använda <a\n"
--"href=\"%s\">sändlistan savannah-users</a>."
 +"För allmän hjälp och diskussion om användningen av Savannah (<b>inte</b>\n"
 +"om ett specifikt projekt som hyses här) kan du använda <a\n"
-+"href=\"%s\">e-postlistan savannah-users</a>."
+ "href=\"%s\">sändlistan savannah-users</a>."
  
  #: frontend/site-specific/gnu/contact.php:69
- msgid ""
 @@ -10192,13 +10265,13 @@
  "infrastructure (once again: <b>not</b> for a specific project), the best\n"
  "way is to"
@@ -7573,7 +7499,7 @@
 -"arkiven</a>."
 +"Som alternativ till att skapa ett ärende i ärendehanteraren kan du, efter att ha\n"
 +"<a href=\"%s\">sökt i arkiven</a>, skicka e-post till\n"
-+"e-postlistan <a href=\"%s\">savannah-help-public"
++"sändlistan <a href=\"%s\">savannah-help-public"
 +"</a>."
  
  #: frontend/site-specific/gnu/contact.php:87
@@ -7583,7 +7509,7 @@
  "(unlike all the others here)."
 -msgstr "Slutligen, för att rapportera säkerhetsrelaterade eller konfidentiella frågor, kan du använda listan savannah-help-private, som inte arkiveras offentligt (till skillnad från alla andra här)."
 +msgstr "Slutligen kan du för att rapportera säkerhetsrelaterade eller konfidentiella\n"
-+"ärenden använda e-postlistan savannah-help-private, som inte arkiveras\n"
++"ärenden använda sändlistan savannah-help-private, som inte arkiveras\n"
 +"offentligt (till skillnad från alla andra här)."
  
  #: frontend/site-specific/gnu/contact.php:96
@@ -7871,15 +7797,6 @@
  
  #: frontend/site-specific/gnu/homepage.php:96
  #, php-format
-@@ -10602,7 +10691,7 @@
- "mailing list:"
- msgstr ""
- "Vi rekommenderar starkt alla Savannah-användare att prenumerera\n"
--"på denna sändlista:"
-+"på denna e-postlista:"
- 
- #: frontend/site-specific/gnu/homepage.php:112
- #, php-format
 @@ -10611,37 +10700,40 @@
  "    low-volume notifications of important issues and changes at Savannah."
  msgstr ""
@@ -7892,7 +7809,7 @@
  "And this mailing list is a place for Savannah users to communicate and\n"
  "ask questions:"
 -msgstr "Denna sändlista är en plats där Savannah-användare kan kommunicera och ställa frågor:"
-+msgstr "Den här e-postlistan är en plats där Savannah-användare kan kommunicera och\n"
++msgstr "Den här sändlistan är en plats där Savannah-användare kan kommunicera och\n"
 +"ställa frågor:"
  
  #: frontend/site-specific/gnu/homepage.php:124
