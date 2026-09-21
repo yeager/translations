@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – efterlevnadskontroller för MFA och pipelineåtkomst, grupp 36 (2026-09-21):** 15 lokalt XLIFF-granskade poster är CrowdIn-publicerade: MFA på organisationsnivå, signerade incheckningar, uppdaterade grenar, kodägargodkännanden, lösta diskussioner och begränsning av pipeline-/variabelåtkomst samt uppskick/sammanfogning. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – efterlevnadskontroller för hemligheter och godkännanden, grupp 35 (2026-09-21):** 20 lokalt XLIFF-granskade poster är CrowdIn-publicerade: hemlighetsidentifiering, licensgranskning, interna projekt, godkännanderegler, kodägare, statuskontroller och Package Hunter-fynd. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – efterlevnadskontroller för behörighet och synlighet, grupp 34 (2026-09-21):** 25 lokalt XLIFF-granskade poster är CrowdIn-publicerade: inaktiva användare, licenser, kodägare, hemlighetsidentifiering, statuskontroller, projektets synlighet/arkivering, signerade incheckningar och skyddade grenar. Säkerhetssemantiken är radgranskad; `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
