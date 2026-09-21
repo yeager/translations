@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – beroendeskanningens SBOM-gränser, grupp 20 (2026-09-21):** Fyra lokalt XLIFF-granskade och CrowdIn-publicerade poster täcker timvisa begränsningar av SBOM-uppladdningar och nedladdningar av skanningsresultat. API- och SBOM-identiteter är bevarade. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – tvåfaktorsautentisering, grupp 19 (2026-09-21):** 17 lokalt XLIFF-granskade poster är CrowdIn-publicerade: e-post- och autentiseringsappskoder, engångs- och återställningskoder, SSH-baserad kontoåterställning samt enhetsverifiering. Säkerhetsflöden och knapp-/länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – skyddade miljöer, grupp 18 (2026-09-21):** 29 lokalt XLIFF-granskade poster är CrowdIn-publicerade: miljöskydd, godkännare, arv, driftsättnings- och godkännanderegler, åtkomstnivåer samt felhantering. Projekt-, API- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
