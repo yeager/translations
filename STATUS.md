@@ -1,3 +1,4 @@
+- **GitLab – DAST på begäran, grupp 73 (2026-09-21):** 4 poster radgranskade för granskarbehörighet, osparade ändringar och projektarkivskrav. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – DAST på begäran, grupp 72 (2026-09-21):** 30 säkerhetskritiska poster radgranskade för skanningsresultat, körartaggar, konfiguration, scheman, tidszoner och förskanningsverifiering. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – DAST på begäran, grupp 71 (2026-09-21):** 30 säkerhetskritiska poster radgranskade för DAST, SQL-injektioner, skanningsscheman, körartaggar, profiler och felhantering. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – hemlighetsrotation, grupp 70 (2026-09-21):** 17 säkerhetskritiska poster radgranskade för rotationsintervall, försenade hemligheter, påminnelser och uppdateringslänkar. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
