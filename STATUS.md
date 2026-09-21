@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – efterlevnadskontroller för källgrenar och SLO, grupp 49 (2026-09-21):** Två lokalt XLIFF-granskade poster är CrowdIn-publicerade: uppdaterad källgren före sammanfogning och åtgärd av sårbarheter inom SLO-gränser. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – efterlevnadskontroller för administratörsbalans och CI/CD, grupp 48 (2026-09-21):** Två lokalt XLIFF-granskade poster är CrowdIn-publicerade: lämplig administratörsbalans och giltig CI/CD-konfiguration. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – efterlevnadskontroller för beroenden och felspårning, grupp 47 (2026-09-21):** Två lokalt XLIFF-granskade poster är CrowdIn-publicerade: beroendeskanning i standardgrenens pipeline och aktiverad felspårning. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
