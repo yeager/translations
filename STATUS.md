@@ -1,3 +1,4 @@
+- **GitLab – Secrets Manager-prov och fakturering, grupp 58 (2026-09-21):** 10 poster radgranskade för provkrediter, debitering efter förbrukning, frister, licens och prenumeration. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – hemlighetsidentifiering, grupp 57 (2026-09-21):** 15 säkerhetskritiska poster radgranskade för undantag, pushskydd, administrativt framtvingande och kontroll av token-giltighet. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Secrets Manager-behörigheter, grupp 56 (2026-09-21):** 25 säkerhetskritiska poster radgranskade för aktivering, behörighetsomfattningar, autentisering, API-åtkomst, hemlighetsvärden och permanent borttagning. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – sårbarhetshantering, grupp 55 (2026-09-21):** 8 poster radgranskade för export, intern spårning, attribut, sårbarhetslistor och tidsbegränsade länkar. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
