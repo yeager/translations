@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – CI/CD-jobbtoken och skyddade pipelines, grupp 7 (2026-09-21):** 24 säkerhetsnära XLIFF-poster är kontextgranskade och CrowdIn-publicerade: tokeners tillåtelselistor och behörigheter, rensning/loggning, driftsättningsstrategi, AI-utlösta pipelines, skyddade grenar och separata cachar. Särskilt är den automatiska AI-agentkörningen uttryckligen översatt med dess frånvaro av granskning/manuell interaktion. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
+
 **GitLab – CI/CD-åtkomstkontroller, grupp 6 (2026-09-21):** 11 XLIFF-poster är kontextgranskade och CrowdIn-publicerade: stegvis loggning, policy-/resursrelationer, projektomfång, ytterligare behörigheter, pipelinevariabler, Git-uppskick och jobbtokeners tillåtelselista. Svenska säkerhetsåtgärder är tydliga och token-/namnrymdsplatshållare är intakta. `l10n-lint` v1.21.6 ger 0 fel på hela exporten.
 
 **GitLab – CI/CD-analys och jobbtoken, grupp 5 (2026-09-21):** 24 XLIFF-poster är kontextgranskade och CrowdIn-publicerade: CI/CD-konfiguration, jobbtoken, pipelineanalys, instansrunnrars körningstid, versionsstatistik, fel-/framgångsfrekvenser och pipelineutfall. Aktuell `l10n-lint` v1.21.6 ger fortsatt 0 fel på hela XLIFF-exporten.
