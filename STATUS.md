@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – säkerhets- och CI/CD-terminologi, grupp 1 (2026-09-21):** 18 radgranskade poster är rättade och API-publicerade efter lokal XLIFF-granskning. Gruppen täcker containerregister, lagringsgränser, webhook-händelser, skanningsprofiler, push-skydd för hemligheter, policyundantag, sårbarhetsrapporter, SSO/SAML-flöden och sammanslagningsstatus. Anglicismerna *pusha*, *committa*, *patchad* och *mergebar* är ersatta med kontextuella svenska formuleringar, bland annat **skicka upp**, **incheckning**, **korrigerad version** och **kan inte sammanfogas**. `l10n-lint` ger fortsatt 0 fel på hela XLIFF-exporten.
+
 **GitLab – samlad XLIFF-granskning (2026-09-21):** Den svenska CrowdIn-exporten omfattar **33 413** poster och är hämtad som XLIFF via webbläsaren. Aktuell `l10n-lint` fann sex verkliga platshållarfel: konfigurationslänk i en bypass-räknare, båda formerna av säkerhetsrapporternas `%d`-antal samt två Rails-platshållare. De är korrigerade lokalt och publicerade via CrowdIn API; efterkontrollen ger **0 fel**. Återstående **7 146** varningar är huvudsakligen tekniska namn, källidentiska API-valideringar och äldre språkposter. De prioriteras semantiskt i lokala batcher, med säkerhets-, CI/CD- och UI-texter först. Officiell arbetskopia: `GitLab/gitlab-sv-SE_sv-SE-reviewed-20260921.xliff`.
 
 **Obligatorisk QA-regel (2026-09-18):** Varje projekt som bearbetas, även när svenska redan är 100 % färdig, ska alltid köras genom den aktuella `l10n-lint`-granskningen. För format som verktyget ännu inte stöder dokumenteras det förväntade formatfelet och katalogen valideras dessutom med relevant formatspecifik kontroll.
