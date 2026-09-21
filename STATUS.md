@@ -1,3 +1,4 @@
+- **GitLab – modellregister: återstående gränssnitt (5 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel. Alla oöversatta vanliga MlModelRegistry-poster i aktuell XLIFF är nu hanterade.
 - **GitLab – modellregister: körningar och versionskort (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – modellregister: parametrar och modellversioner (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – modellregister: modellkort och MLflow (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
