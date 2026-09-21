@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – efterlevnadskontroller för kod och containers, grupp 46 (2026-09-21):** Fyra lokalt XLIFF-granskade poster är CrowdIn-publicerade: rensning av inaktuella grenar, kodägargodkännanden, kodkvalitets- och containerskanning i standardgrenens pipeline. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – efterlevnadskontroller för godkännanden och administratörer, grupp 45 (2026-09-21):** Två lokalt XLIFF-granskade poster är CrowdIn-publicerade: återställning av godkännanden efter nya incheckningar och minst två administratörer per arkiv. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – efterlevnadskontroller för diskussioner och fynd, grupp 44 (2026-09-21):** Två lokalt XLIFF-granskade poster är CrowdIn-publicerade: lösta diskussioner före sammanfogning och prioritering av Package Hunter-fynd. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
