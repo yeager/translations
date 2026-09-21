@@ -1,0 +1,510 @@
+# Swedish translation of wyslij-po.
+# Copyright © 2017, 2021 Free Software Foundation, Inc.
+# This file is distributed under the same license as the wyslij-po package.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2017, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: wyslij-po 3.3\n"
+"Report-Msgid-Bugs-To: bug-wyslij-po@gnu.org.ua\n"
+"POT-Creation-Date: 2021-02-12 15:31+0200\n"
+"PO-Revision-Date: 2021-08-04 23:08+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: src/main.c:19
+msgid "Submit PO files to the Translation Project"
+msgstr "Skicka PO-filer till Translation Project"
+
+#: src/main.c:20
+msgid "FILE ..."
+msgstr "FIL …"
+
+#: src/main.c:81
+msgid "General Options:"
+msgstr "Allmänna flaggor:"
+
+#: src/main.c:83
+msgid "do nothing, print what would have been done"
+msgstr "gör inget, skriv ut vad som skulle ha gjorts"
+
+#: src/main.c:86
+msgid "produce verbose output"
+msgstr "skriv ut utförliga utdata"
+
+#: src/main.c:88
+msgid "FILE"
+msgstr "FIL"
+
+#: src/main.c:89
+msgid "set the name of langtab file"
+msgstr "ställ in namnet på langtab-filen"
+
+#: src/main.c:91
+msgid "COMMAND"
+msgstr "KOMMANDO"
+
+#: src/main.c:92
+msgid "use this COMMAND for compression"
+msgstr "använd detta KOMMANDO för komprimering"
+
+#: src/main.c:96
+msgid "Mail Address Control:"
+msgstr "E-postadresskontroll:"
+
+#: src/main.c:97 src/main.c:109
+msgid "EMAIL"
+msgstr "E-POST"
+
+#: src/main.c:98
+msgid "send to this email address"
+msgstr "skicka till denna e-postadress"
+
+#: src/main.c:100 src/main.c:103
+msgid "EMAIL-LIST"
+msgstr "E-POSTLISTA"
+
+#: src/main.c:101
+msgid "set Carbon-copy recipients"
+msgstr "ställ in mottagare av kopia"
+
+#: src/main.c:104
+msgid "set Blind carbon-copy recipients"
+msgstr "ställ in mottagare av blindkopia"
+
+#: src/main.c:106
+msgid "FOLDER"
+msgstr "MAPP"
+
+#: src/main.c:107
+msgid "direct Fcc to the given folder"
+msgstr "spara filkopia direkt i angiven mapp"
+
+#: src/main.c:110
+msgid "set sender address"
+msgstr "ställ in avsändaradress"
+
+#: src/main.c:113
+msgid "PO File Verification Options:"
+msgstr "Flaggor för verifiering av PO-filer:"
+
+#: src/main.c:115
+msgid "verify PO modification time"
+msgstr "verifiera ändringstid för PO-fil"
+
+#: src/main.c:118
+msgid "make sure the submitted PO file is for the latest package version"
+msgstr "säkerställ att den inskickade PO-filen är för den senaste paketversionen"
+
+#: src/main.c:148
+msgid "not a boolean"
+msgstr "inte ett booleskt värde"
+
+#: src/main.c:172
+msgid "Use <command> for compression."
+msgstr "Använd <kommando> för komprimering."
+
+#: src/main.c:173
+msgid "command"
+msgstr "kommando"
+
+#: src/main.c:175
+msgid "Set the name of the langtab file."
+msgstr "Ställ in namnet på langtab-filen."
+
+#: src/main.c:176
+msgid "file"
+msgstr "fil"
+
+#: src/main.c:178
+msgid "Set recipient address. Multiple emails are allowed."
+msgstr "Ställ in mottagaradress. Flera e-postadresser kan anges."
+
+#: src/main.c:179 src/main.c:191
+msgid "email"
+msgstr "e-postadress"
+
+#: src/main.c:181
+msgid "Set carbon copy recipients."
+msgstr "Ställ in mottagare av kopia."
+
+#: src/main.c:182 src/main.c:185
+msgid "emails"
+msgstr "e-postadresser"
+
+#: src/main.c:184
+msgid "Set blind carbon copy recipients."
+msgstr "Ställ in mottagare av blindkopia."
+
+#: src/main.c:187
+msgid "Save copy in <folder>."
+msgstr "Spara kopia i <mapp>."
+
+#: src/main.c:188
+msgid "folder"
+msgstr "mapp"
+
+#: src/main.c:190
+msgid "Set sender address"
+msgstr "Ställ in avsändaradress"
+
+#: src/main.c:193
+msgid "Read sender address from the PO file."
+msgstr "Läs avsändaradress från PO-filen."
+
+#: src/main.c:195
+msgid "Verify PO modification time"
+msgstr "Verifiera ändringstid för PO-fil"
+
+#: src/main.c:196 src/main.c:199
+msgid "arg: bool"
+msgstr "arg: boolesk"
+
+#: src/main.c:198
+msgid "Verify package version."
+msgstr "Verifiera paketversion."
+
+#: src/main.c:201
+#, c-format
+msgid "URL of textual domain page. Characters %s are replaced with the textual domain name. The default value is http://translationproject.org/domain/%s.html"
+msgstr "URL för textdomänsidan. Tecknen %s ersätts med textdomänens namn. Standardvärdet är http://translationproject.org/domain/%s.html"
+
+#: src/main.c:205
+msgid "Regular expression to extract the latest POT file name from tp-url."
+msgstr "Reguljärt uttryck för att extrahera det senaste POT-filnamnet från tp-url."
+
+#: src/main.c:249
+#, c-format
+msgid "executing %s...\n"
+msgstr "kör %s…\n"
+
+#: src/main.c:254
+#, c-format
+msgid "%s: cannot create stream for `%s': %s"
+msgstr "%s: kan inte skapa ström för ”%s”: %s"
+
+#: src/main.c:264
+#, c-format
+msgid "%s: cannot create base64 encoder stream: %s"
+msgstr "%s: kan inte skapa ström för base64-kodare: %s"
+
+#: src/main.c:275
+#, c-format
+msgid "%s: cannot pipe to `%s': %s"
+msgstr "%s: kan inte skapa rör till ”%s”: %s"
+
+#: src/main.c:325
+msgid "Message:"
+msgstr "Meddelande:"
+
+#: src/main.c:330
+msgid "Message headers:"
+msgstr "Meddelanderubriker:"
+
+#: src/main.c:339
+msgid "NOT submitting\n"
+msgstr "Skickar INTE\n"
+
+#: src/main.c:344
+#, c-format
+msgid "Submitting %s\n"
+msgstr "Skickar %s\n"
+
+#: src/main.c:347
+#, c-format
+msgid "%s: Sending message failed: %s"
+msgstr "%s: Det gick inte att skicka meddelandet: %s"
+
+#: src/main.c:386
+#, c-format
+msgid "Creating mailer `%s' failed: %s"
+msgstr "Kunde inte skapa e-postprogrammet ”%s”: %s"
+
+#: src/main.c:409
+#, c-format
+msgid "Opening mailer `%s' failed: %s"
+msgstr "Kunde inte öppna e-postprogrammet ”%s”: %s"
+
+#: src/main.c:425
+#, c-format
+msgid "Closing mailer failed: %s"
+msgstr "Kunde inte stänga e-postprogrammet: %s"
+
+#. TRANSLATORS: Translate "(C)" to the copyright symbol
+#. (C-in-a-circle), if this symbol is available in the user's
+#. locale.  Otherwise, do not translate "(C)"; leave it as-is.
+#: src/main.c:448
+msgid "(C)"
+msgstr "©"
+
+#: src/main.c:449
+msgid ""
+"\n"
+"License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>\n"
+"This is free software: you are free to change and redistribute it.\n"
+"There is NO WARRANTY, to the extent permitted by law.\n"
+"\n"
+msgstr ""
+"\n"
+"Licens GPLv3+: GNU GPL version 3 eller senare <http://gnu.org/licenses/gpl.html>\n"
+"Detta är fri programvara; du kan fritt ändra och återdistribuera den.\n"
+"Den kommer UTAN GARANTI, så långt lagen tillåter.\n"
+"\n"
+
+#. TRANSLATORS: %s denotes an author name.
+#: src/main.c:457
+#, c-format
+msgid "Written by %s.\n"
+msgstr "Skriven av %s.\n"
+
+#: src/main.c:513
+msgid "Not enough arguments"
+msgstr "För få argument"
+
+#: src/http.c:64
+#, c-format
+msgid "cannot get protocol from the url `%s': %s"
+msgstr "kan inte hämta protokoll från URL:en ”%s”: %s"
+
+#: src/http.c:71
+#, c-format
+msgid "%s: unsupported protocol"
+msgstr "%s: protokollet stöds inte"
+
+#: src/http.c:78 src/http.c:88
+#, c-format
+msgid "cannot extract host information from the url `%s': %s"
+msgstr "kan inte extrahera värdinformation från URL:en ”%s”: %s"
+
+#: src/http.c:114
+#, c-format
+msgid "cannot expand string `%s': %s"
+msgstr "kan inte expandera strängen ”%s”: %s"
+
+#: src/http.c:122
+#, c-format
+msgid "Cannot create url from `%s': %s"
+msgstr "Kan inte skapa URL från ”%s”: %s"
+
+#: src/http.c:148
+msgid "mu_stream_write: wrote 0 bytes"
+msgstr "mu_stream_write: skrev 0 byte"
+
+#: src/http.c:161
+#, c-format
+msgid "http_wait failed: %s"
+msgstr "http_wait misslyckades: %s"
+
+#: src/http.c:168
+msgid "mu_stream_write timed out"
+msgstr "Tidsgränsen överskreds för mu_stream_write"
+
+#: src/http.c:204
+#, c-format
+msgid "http_stream_wait failed: %s"
+msgstr "http_stream_wait misslyckades: %s"
+
+#: src/http.c:247
+#, c-format
+msgid "Connecting to %s:%u\n"
+msgstr "Ansluter till %s:%u\n"
+
+#: src/http.c:268
+#, c-format
+msgid "Getting /%s\n"
+msgstr "Hämtar /%s\n"
+
+#: src/http.c:286
+#, c-format
+msgid "Got %-12.12s\n"
+msgstr "Fick %-12.12s\n"
+
+#: src/http.c:293
+#, c-format
+msgid "Invalid HTTP response (got %s)"
+msgstr "Ogiltigt HTTP-svar (fick %s)"
+
+#: src/http.c:301
+#, c-format
+msgid "Invalid HTTP response (got %*.*s)"
+msgstr "Ogiltigt HTTP-svar (fick %*.*s)"
+
+#: src/http.c:310
+msgid "Invalid HTTP response: not enough data"
+msgstr "Ogiltigt HTTP-svar: otillräckliga data"
+
+#: src/http.c:316
+#, c-format
+msgid "Invalid HTTP response (near %s)"
+msgstr "Ogiltigt HTTP-svar (nära %s)"
+
+#: src/http.c:322
+msgid "Page not found"
+msgstr "Sidan hittades inte"
+
+#: src/http.c:328
+#, c-format
+msgid "Got error %d"
+msgstr "Fick fel %d"
+
+#: src/http.c:345
+#, c-format
+msgid "Verifying POT file version for `%s'\n"
+msgstr "Verifierar POT-filversion för ”%s”\n"
+
+#: src/http.c:360
+msgid "URL of the latest POT file not found"
+msgstr "URL för den senaste POT-filen hittades inte"
+
+#: src/http.c:382
+#, c-format
+msgid "POT project string (%s) does not match latest version (%s)"
+msgstr "POT-projektsträngen (%s) stämmer inte överens med den senaste versionen (%s)"
+
+#: src/http.c:400
+#, c-format
+msgid "Cannot compile regex: %s"
+msgstr "Kan inte kompilera reguljärt uttryck: %s"
+
+#: src/http.c:405
+msgid "Invalid regex: no subexpressions"
+msgstr "Ogiltigt reguljärt uttryck: inga deluttryck"
+
+#: src/po.c:40
+#, c-format
+msgid "%s: read error: %s"
+msgstr "%s: läsfel: %s"
+
+# osäker
+#: src/po.c:42
+#, c-format
+msgid "%s: short read"
+msgstr "%s: kort läsning"
+
+#: src/po.c:144
+#, c-format
+msgid "cannot open file %s: %s"
+msgstr "kan inte öppna filen %s: %s"
+
+#: src/po.c:201
+#, c-format
+msgid "%s:%u: unexpected keyword (instead of \"msgid\")"
+msgstr "%s:%u: oväntat nyckelord (i stället för ”msgid”)"
+
+#: src/po.c:208
+#, c-format
+msgid "%s:%u: unexpected keyword (instead of \"msgstr\")"
+msgstr "%s:%u: oväntat nyckelord (i stället för ”msgstr”)"
+
+#: src/po.c:231
+#, c-format
+msgid "cannot split \"%s\": %s"
+msgstr "kan inte dela ”%s”: %s"
+
+#: src/po.c:251
+#, c-format
+msgid "cannot create header: %s"
+msgstr "kan inte skapa rubrik: %s"
+
+#: src/po.c:275
+#, c-format
+msgid "Cannot parse Language-Team: %s"
+msgstr "Kan inte tolka Language-Team: %s"
+
+#: src/po.c:290
+msgid "Cannot build language name"
+msgstr "Kan inte skapa språknamn"
+
+#: src/po.c:297
+#, c-format
+msgid "Unknown language: %s"
+msgstr "Okänt språk: %s"
+
+#: src/po.c:310
+#, c-format
+msgid "%s: No %s"
+msgstr "%s: Ingen %s"
+
+#: src/po.c:315
+#, c-format
+msgid "%s: Cannot parse %s"
+msgstr "%s: Kan inte tolka %s"
+
+#: src/po.c:326
+msgid "Verifying creation vs. revision date\n"
+msgstr "Verifierar skapandedatum mot ändringsdatum\n"
+
+#: src/po.c:331
+#, c-format
+msgid "%s: po revision date is prior to pot creation date"
+msgstr "%s: PO-filens ändringsdatum ligger före POT-filens skapandedatum"
+
+#: src/po.c:351
+#, c-format
+msgid "Restoring canonical file name for `%s'\n"
+msgstr "Återställer kanoniskt filnamn för ”%s”\n"
+
+#: src/po.c:356
+msgid "No Project-Id-Version"
+msgstr "Project-Id-Version saknas"
+
+#: src/po.c:363
+#, c-format
+msgid "Cannot parse Project-Id-Version: %s"
+msgstr "Kan inte tolka Project-Id-Version: %s"
+
+#: src/po.c:369
+msgid "Malformed Project-Id-Version"
+msgstr "Felformaterad Project-Id-Version"
+
+#: src/po.c:385
+#, c-format
+msgid "Can't get the Language header: %s"
+msgstr "Kan inte hämta Language-rubriken: %s"
+
+#: src/po.c:392
+msgid "Can't determine target language: neither Language nor Language-Team header is present in the PO file"
+msgstr "Kan inte avgöra målspråket: varken Language- eller Language-Team-rubriken finns i PO-filen"
+
+#: src/po.c:415
+#, c-format
+msgid "%s: cannot parse last translator address `%s': %s"
+msgstr "%s: kan inte tolka den senaste översättaradressen ”%s”: %s"
+
+#: src/po.c:423
+#, c-format
+msgid "%s: cannot retrieve email address from Last-Translator: %s"
+msgstr "%s: kan inte hämta e-postadress från Last-Translator: %s"
+
+#: src/po.c:432
+#, c-format
+msgid "%s: No Last-Translator"
+msgstr "%s: Last-Translator saknas"
+
+# Inte kommandot source.
+# Språktabellen läses för att koppla språkkoder till namn på översättningsgrupper.
+#: src/po.c:451
+#, c-format
+msgid "Sourcing language table `%s'\n"
+msgstr "Läser språktabellen ”%s”\n"
+
+#: src/po.c:455
+#, c-format
+msgid "Cannot open %s: %s"
+msgstr "Kan inte öppna %s: %s"
+
+#: src/po.c:464
+#, c-format
+msgid "Cannot create assoc table: %s"
+msgstr "Kan inte skapa associationstabell: %s"
+
+#: src/po.c:490
+#, c-format
+msgid "%s:%u: too few fields"
+msgstr "%s:%u: för få fält"

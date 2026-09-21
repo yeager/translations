@@ -1,0 +1,583 @@
+--- a/xz-5.8.4-pre1.sv.po
++++ b/xz-5.8.4-pre1.sv.po
+@@ -99,24 +99,24 @@
+ #: src/xz/coder.c
+ #, c-format
+ msgid "Error in --filters%s=FILTERS option:"
+-msgstr "Fel i flagga för --filters%s=FILTER:"
++msgstr "Fel i flaggan --filters%s=FILTERS:"
+ 
+ #: src/xz/coder.c
+ msgid "Memory usage limit is too low for the given filter setup."
+-msgstr "Begränsning av minnesanvändning är allt för låg för den angivna filteruppsättningen."
++msgstr "Begränsningen av minnesanvändning är alltför låg för den angivna filteruppsättningen."
+ 
+ #: src/xz/coder.c
+ #, c-format
+ msgid "filter chain %u used by --block-list but not specified with --filters%u="
+-msgstr "filterkedja %u används av --block-list men inte specificerad med --filters%u="
++msgstr "filterkedja %u används av --block-list men har inte angetts med --filters%u="
+ 
+ #: src/xz/coder.c
+ msgid "Using a preset in raw mode is discouraged."
+-msgstr "Det avråds från att använda en förinställning i rått läge."
++msgstr "Det avråds från att använda en förinställning i råläge."
+ 
+ #: src/xz/coder.c
+ msgid "The exact options of the presets may vary between software versions."
+-msgstr "De exakta flaggorna för förinställningar kan variera mellan programversioner."
++msgstr "Förinställningarnas exakta flaggor kan variera mellan programversioner."
+ 
+ #: src/xz/coder.c
+ msgid "The .lzma format supports only the LZMA1 filter"
+@@ -152,32 +152,32 @@
+ #: src/xz/coder.c
+ #, c-format
+ msgid "Decompression will need %s MiB of memory."
+-msgstr "Dekomprimering kommer att kräva %s MiB minne."
++msgstr "Dekomprimeringen kräver %s MiB minne."
+ 
+ #: src/xz/coder.c
+ #, c-format
+ msgid "Reduced the number of threads from %s to %s to not exceed the memory usage limit of %s MiB"
+-msgstr "Reducerade antalet trådar från %s till %s för att inte överstiga begränsningen av minnesanvändning på %s MiB"
++msgstr "Antalet trådar minskades från %s till %s för att inte överskrida minnesgränsen på %s MiB"
+ 
+ #: src/xz/coder.c
+ #, c-format
+ msgid "Reduced the number of threads from %s to one. The automatic memory usage limit of %s MiB is still being exceeded. %s MiB of memory is required. Continuing anyway."
+-msgstr "Reducerade antalet trådar från %s till en. Den automatiska minnesanvändningsgränsen på %s MiB överskrids fortfarande. %s MiB minne krävs. Fortsätter i alla fall."
++msgstr "Antalet trådar minskades från %s till en. Den automatiska minnesgränsen på %s MiB överskrids fortfarande. %s MiB minne krävs. Fortsätter ändå."
+ 
+ #: src/xz/coder.c
+ #, c-format
+ msgid "Switching to single-threaded mode to not exceed the memory usage limit of %s MiB"
+-msgstr "Ändrar till enkeltrådat läge för att inte överskrida minnesanvändningsgränsen på %s MiB"
++msgstr "Växlar till entrådsläge för att inte överskrida minnesgränsen på %s MiB"
+ 
+ #: src/xz/coder.c
+ #, c-format
+ msgid "Adjusted LZMA%c dictionary size from %s MiB to %s MiB to not exceed the memory usage limit of %s MiB"
+-msgstr "Justerade storlek för LZMA%c-lexikon från %s MiB till %s MiB för att inte överstiga begränsningen av minnesanvändning på %s MiB"
++msgstr "Storleken på LZMA%c-lexikon minskades från %s MiB till %s MiB för att inte överskrida minnesgränsen på %s MiB"
+ 
+ #: src/xz/coder.c
+ #, c-format
+ msgid "Adjusted LZMA%c dictionary size for --filters%u from %s MiB to %s MiB to not exceed the memory usage limit of %s MiB"
+-msgstr "Justerade storlek för LZMA%c-lexikon för --filters%u från %s MiB till %s MiB för att inte överskrida minnesanvändningsgränsen på %s MiB"
++msgstr "Storleken på LZMA%c-lexikon för --filters%u minskades från %s MiB till %s MiB för att inte överskrida minnesgränsen på %s MiB"
+ 
+ #: src/xz/coder.c
+ #, c-format
+@@ -207,7 +207,7 @@
+ #: src/xz/file_io.c
+ #, c-format
+ msgid "%s: File seems to have been moved, not removing"
+-msgstr "%s: Filen verkar ha flyttats, tar inte bort"
++msgstr "%s: Filen verkar ha flyttats och tas inte bort"
+ 
+ #: src/xz/file_io.c
+ #, c-format
+@@ -237,7 +237,7 @@
+ #: src/xz/file_io.c
+ #, c-format
+ msgid "%s: Synchronizing the directory of the file failed: %s"
+-msgstr "%s:Synkroniseringen av filens katalog misslyckades:: %s"
++msgstr "%s: Synkroniseringen av filens katalog misslyckades: %s"
+ 
+ #: src/xz/file_io.c
+ #, c-format
+@@ -291,12 +291,12 @@
+ #: src/xz/file_io.c
+ #, c-format
+ msgid "%s: Opening the directory failed: %s"
+-msgstr "%s: Att öppna katalogen misslyckades: %s"
++msgstr "%s: Det gick inte att öppna katalogen: %s"
+ 
+ #: src/xz/file_io.c
+ #, c-format
+ msgid "%s: Destination is not a regular file"
+-msgstr "%s: Destinationen är inte en vanlig fil"
++msgstr "%s: Målet är inte en vanlig fil"
+ 
+ #: src/xz/file_io.c
+ #, c-format
+@@ -306,7 +306,7 @@
+ #: src/xz/file_io.c
+ #, c-format
+ msgid "%s: Closing the file failed: %s"
+-msgstr "%s: Stängning av filen misslyckades: %s"
++msgstr "%s: Det gick inte att stänga filen: %s"
+ 
+ #: src/xz/file_io.c
+ #, c-format
+@@ -321,7 +321,7 @@
+ #: src/xz/file_io.c
+ #, c-format
+ msgid "%s: Error seeking the file: %s"
+-msgstr "%s: Fel vid sökning i fil: %s"
++msgstr "%s: Fel vid sökning i filen: %s"
+ 
+ #: src/xz/file_io.c
+ #, c-format
+@@ -339,7 +339,7 @@
+ 
+ #: src/xz/hardware.c
+ msgid "Amount of physical memory (RAM):"
+-msgstr "Totalt mängd fysiskt minne (RAM):"
++msgstr "Total mängd fysiskt minne (RAM):"
+ 
+ #: src/xz/hardware.c
+ msgid "Number of processor threads:"
+@@ -403,7 +403,7 @@
+ 
+ #: src/xz/list.c
+ msgid "Sizes in headers:"
+-msgstr "Storlek i huvuden:"
++msgstr "Storlekar i huvuden:"
+ 
+ #: src/xz/list.c
+ msgid "Number of files:"
+@@ -471,7 +471,7 @@
+ 
+ #: src/xz/list.c
+ msgid "Filters"
+-msgstr "Filters"
++msgstr "Filter"
+ 
+ #. TRANSLATORS: Indicates that there is no integrity check.
+ #. This string is used in tables. In older xz version this
+@@ -536,7 +536,7 @@
+ #: src/xz/list.c
+ #, c-format
+ msgid "%s: File is empty"
+-msgstr "%s: Fil är tom"
++msgstr "%s: Filen är tom"
+ 
+ #: src/xz/list.c
+ #, c-format
+@@ -549,7 +549,7 @@
+ #. use two lines here. Test with "xz -l foo.xz".
+ #: src/xz/list.c
+ msgid "Strms  Blocks   Compressed Uncompressed  Ratio  Check   Filename"
+-msgstr "Strmr  Block    Komprimerd  Okomprimerd  Förh.  Kntrll  Filnamn"
++msgstr "Strömmar  Block  Komprimerad  Okomprimerad  Förhållande  Kontroll  Filnamn"
+ 
+ #: src/xz/list.c
+ msgid "Yes"
+@@ -561,11 +561,11 @@
+ 
+ #: src/xz/list.c
+ msgid "Minimum XZ Utils version:"
+-msgstr "Minsta XZ Utils version:"
++msgstr "Minsta version av XZ Utils:"
+ 
+ #: src/xz/list.c
+ msgid "Error: The total compressed or uncompressed size of the files is too large"
+-msgstr ""
++msgstr "Fel: Filernas sammanlagda komprimerade eller okomprimerade storlek är för stor"
+ 
+ #. TRANSLATORS: %s is an integer. Only the plural form of this
+ #. message is used (e.g. "2 files"). Test with "xz -l foo.xz bar.xz".
+@@ -578,7 +578,7 @@
+ 
+ #: src/xz/list.c
+ msgid "Totals:"
+-msgstr "Total:"
++msgstr "Totalt:"
+ 
+ #: src/xz/list.c
+ msgid "--list works only on .xz files (--format=xz or --format=auto)"
+@@ -590,7 +590,7 @@
+ 
+ #: src/xz/list.c
+ msgid "--list does not support reading from standard input"
+-msgstr "--list saknar stöd för att läsa från standard in"
++msgstr "Det går inte att läsa från standard in med --list"
+ 
+ #: src/xz/main.c
+ #, c-format
+@@ -605,11 +605,11 @@
+ #: src/xz/main.c
+ #, c-format
+ msgid "%s: Null character found when reading filenames; maybe you meant to use '--files0' instead of '--files'?"
+-msgstr "%s: Nulltecken hittades vid läsning av filnamn; kanske du menade att använda ”--files0” istället för ”--files”?"
++msgstr "%s: Nulltecken hittades vid läsning av filnamn; kanske du menade att använda ”--files0” i stället för ”--files”?"
+ 
+ #: src/xz/main.c
+ msgid "Compression and decompression with --robot are not supported yet."
+-msgstr "Komprimering och dekomprimering med --robot stöds inte än."
++msgstr "Komprimering och dekomprimering med --robot stöds inte ännu."
+ 
+ #: src/xz/main.c
+ msgid "Cannot read data from standard input when reading filenames from standard input"
+@@ -634,7 +634,7 @@
+ 
+ #: src/xz/message.c
+ msgid "No integrity check; not verifying file integrity"
+-msgstr "Ingen integritetskontroll; kan inte verifiera filintegritet"
++msgstr "Ingen integritetskontroll; filintegriteten verifieras inte"
+ 
+ #: src/xz/message.c
+ msgid "Unsupported type of integrity check; not verifying file integrity"
+@@ -642,11 +642,11 @@
+ 
+ #: src/xz/message.c
+ msgid "Memory usage limit reached"
+-msgstr "Begränsning av minnesanvändning uppnådd"
++msgstr "Minnesanvändningsgränsen har uppnåtts"
+ 
+ #: src/xz/message.c
+ msgid "File format not recognized"
+-msgstr "Filformat okänt"
++msgstr "Filformatet känns inte igen"
+ 
+ #: src/xz/message.c
+ msgid "Unsupported options"
+@@ -654,7 +654,7 @@
+ 
+ #: src/xz/message.c
+ msgid "Compressed data is corrupt"
+-msgstr "Komprimerad data är korrupt"
++msgstr "Komprimerade data är skadade"
+ 
+ #: src/xz/message.c
+ msgid "Unexpected end of input"
+@@ -663,7 +663,7 @@
+ #: src/xz/message.c
+ #, c-format
+ msgid "%s MiB of memory is required. The limiter is disabled."
+-msgstr "%s MiB minne krävs. Begränsaren inaktiverad."
++msgstr "%s MiB minne krävs. Begränsaren är inaktiverad."
+ 
+ #: src/xz/message.c
+ #, c-format
+@@ -688,22 +688,22 @@
+ #: src/xz/message.c
+ #, c-format
+ msgid "Usage: %s [OPTION]... [FILE]...\n"
+-msgstr "Användning: %s [ALTERNATIV]... [FIL]...\n"
++msgstr "Användning: %s [FLAGGA]... [FIL]...\n"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Compress or decompress FILEs in the .xz format."
+-msgstr "Komprimera eller dekomprimera FILER i formatet .xz."
++msgstr "Komprimera eller dekomprimera FILER i .xz-formatet."
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Mandatory arguments to long options are mandatory for short options too."
+-msgstr "Obligatoriska argument för långa alternativ är också obligatoriska för korta alternativ."
++msgstr "Obligatoriska argument för långa flaggor är också obligatoriska för korta flaggor."
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Operation mode:"
+-msgstr "Operationsläge:"
++msgstr "Åtgärdsläge:"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -728,7 +728,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Operation modifiers:"
+-msgstr "Operationsmodifierare:"
++msgstr "Modifierare för åtgärd:"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -738,12 +738,12 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "force overwrite of output file and (de)compress links"
+-msgstr "tvinga överskrift av utdatafilen och (av)komprimera länkar"
++msgstr "tvinga överskrivning av utdatafilen och (av)komprimera länkar"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "write to standard output and don't delete input files"
+-msgstr "skriv till standardutdata och ta inte bort indatafiler"
++msgstr "skriv till standard ut och ta inte bort indatafiler"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -776,17 +776,17 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "read filenames to process from FILE; if FILE is omitted, filenames are read from the standard input; filenames must be terminated with the newline character"
+-msgstr "läs filnamn att bearbeta från FIL; om FIL utelämnas läses filnamnen från standardinmatningen; filnamn måste avslutas med nyradstecknet"
++msgstr "läs filnamn som ska bearbetas från FIL; om FIL utelämnas läses filnamn från standard in; filnamn måste avslutas med nyradstecknet"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "like --files but use the null character as terminator"
+-msgstr "som --filer men använd null-tecknet som terminator"
++msgstr "som --files men använd nolltecknet som avslutare"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Basic file format and compression options:"
+-msgstr "Grundläggande filformat och komprimeringsalternativ:"
++msgstr "Grundläggande flaggor för filformat och komprimering:"
+ 
+ #: src/xz/message.c
+ msgid "FORMAT"
+@@ -804,7 +804,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "integrity check type: 'none' (use with caution), 'crc32', 'crc64' (default), or 'sha256'"
+-msgstr "integritetskontrolltyp: 'ingen' (använd med försiktighet), 'crc32', 'crc64' (standard) eller 'sha256'"
++msgstr "integritetskontrolltyp: 'none' (använd med försiktighet), 'crc32', 'crc64' (standard) eller 'sha256'"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -814,7 +814,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "compression preset; default is 6; take compressor *and* decompressor memory usage into account before using 7-9!"
+-msgstr "förinställd komprimering; standard är 6; ta hänsyn till användningen av kompressor *och* dekomprimeringsminne innan du använder 7-9!"
++msgstr "komprimeringsförinställning; standard är 6; ta hänsyn till kompressorns *och* dekompressorns minnesanvändning innan du använder 7–9!"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -830,7 +830,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "use at most NUM threads; the default is 0 which uses as many threads as there are processor cores"
+-msgstr "använd som mest NUM trådar; standard är 0 som använder lika många trådar som det finns processorkärnor"
++msgstr "använd högst NUM trådar; standard är 0, vilket använder lika många trådar som det finns processorkärnor"
+ 
+ #: src/xz/message.c
+ msgid "SIZE"
+@@ -839,7 +839,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "start a new .xz block after every SIZE bytes of input; use this to set the block size for threaded compression"
+-msgstr "starta ett nytt .xz-block efter varje STORLEK-byte med inmatning; använd detta för att ställa in blockstorleken för flertrådad kompression"
++msgstr "starta ett nytt .xz-block efter var STORLEK byte indata; använd detta för att ställa in blockstorleken för flertrådad komprimering"
+ 
+ #: src/xz/message.c
+ msgid "BLOCKS"
+@@ -853,7 +853,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "when compressing, if more than NUM milliseconds has passed since the previous flush and reading more input would block, all pending data is flushed out"
+-msgstr "vid komprimering, om mer än NUM millisekunder har gått sedan föregående tömning och läsning av mer indata skulle blockeras, rensas all väntande data ut"
++msgstr "vid komprimering, om mer än NUM millisekunder har gått sedan föregående tömning och läsning av mer indata skulle blockeras, töms alla väntande data"
+ 
+ #: src/xz/message.c
+ msgid "LIMIT"
+@@ -868,7 +868,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "if compression settings exceed the memory usage limit, give an error instead of adjusting the settings downwards"
+-msgstr "om komprimeringsinställningarna överskrider minnesanvändningsgränsen, ge ett felmeddelande istället för att justera inställningarna nedåt"
++msgstr "om komprimeringsinställningarna överskrider minnesanvändningsgränsen, avbryt med ett fel i stället för att justera inställningarna nedåt"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -882,22 +882,22 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "set the filter chain using the liblzma filter string syntax; use --filters-help for more information"
+-msgstr "ställ in filterkedjan med hjälp av liblzma-filtersträngsyntaxen; använd --filters-help för mer information"
++msgstr "ställ in filterkedjan med liblzma-filtersträngssyntaxen; använd --filters-help för mer information"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "set additional filter chains using the liblzma filter string syntax to use with --block-list"
+-msgstr "ställ in ytterligare filterkedjor med hjälp av liblzma-filtersträngsyntaxen att använda med --block-list"
++msgstr "ställ in ytterligare filterkedjor med liblzma-filtersträngssyntaxen för användning med --block-list"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "display more information about the liblzma filter string syntax and exit"
+-msgstr "visa mer information om liblzma filtersträngsyntax och avsluta"
++msgstr "visa mer information om liblzma-filtersträngssyntaxen och avsluta"
+ 
+ #. TRANSLATORS: Short for OPTIONS.
+ #: src/xz/message.c
+ msgid "OPTS"
+-msgstr "ALTERNATIV"
++msgstr "FLAGGOR"
+ 
+ #. TRANSLATORS: Use semicolon (or its fullwidth form)
+ #. in "(valid values; default)" even if it is weird in
+@@ -907,7 +907,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "LZMA1 or LZMA2; OPTS is a comma-separated list of zero or more of the following options (valid values; default):"
+-msgstr "LZMA1 eller LZMA2; OPTS är en kommaseparerad lista med noll eller fler av följande alternativ (giltiga värden; standard):"
++msgstr "LZMA1 eller LZMA2; FLAGGOR är en kommaseparerad lista med noll eller fler av följande flaggor (giltiga värden; standard):"
+ 
+ #. TRANSLATORS: Short for PRESET. A longer string is
+ #. fine but wider than 4 columns makes --long-help
+@@ -919,7 +919,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "reset options to a preset"
+-msgstr "återställ alternativ till en förinställning"
++msgstr "återställ filterflaggor till en förinställning"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -957,7 +957,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "nice length of a match"
+-msgstr "fin längd på en match"
++msgstr "önskvärd träfflängd"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -967,7 +967,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "maximum search depth; 0=automatic (default)"
+-msgstr "maximalt sökdjup; 0=automatisk (standard)"
++msgstr "maximalt sökdjup; 0=automatiskt (standard)"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -1012,17 +1012,17 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Valid OPTS for all BCJ filters:"
+-msgstr "Giltiga ALTERNATIV för alla BCJ-filter:"
++msgstr "Giltiga FLAGGOR för alla BCJ-filter:"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "start offset for conversions (default=0)"
+-msgstr "startoffset för omvandlingar (standard=0)"
++msgstr "startförskjutning för konverteringar (standard=0)"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Delta filter; valid OPTS (valid values; default):"
+-msgstr "Delta filter; giltiga ALTERNATIV (giltiga värden; standard):"
++msgstr "Deltafilter; giltiga FLAGGOR (giltiga värden; standard):"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -1032,22 +1032,22 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "Other options:"
+-msgstr "Andra alternativ:"
++msgstr "Andra flaggor:"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "suppress warnings; specify twice to suppress errors too"
+-msgstr "dämpa varningar; ange två gånger för att dämpa fel också"
++msgstr "undertryck varningar; ange två gånger för att även undertrycka fel"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "be verbose; specify twice for even more verbose"
+-msgstr "var utförlig; specificera två gånger för ännu mer utförlighet"
++msgstr "visa utförlig information; ange två gånger för ännu mer utförlighet"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "make warnings not affect the exit status"
+-msgstr "åt inte varningar påverka avslutningsstatus"
++msgstr "låt inte varningar påverka avslutningsstatusen"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -1062,7 +1062,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "display the short help (lists only the basic options)"
+-msgstr "visa den korta hjälpen (visar endast de grundläggande alternativen)"
++msgstr "visa den korta hjälpen (visar endast de grundläggande flaggorna)"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -1077,7 +1077,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+ msgid "display the long help (lists also the advanced options)"
+-msgstr "visa den långa hjälpen (visar även de avancerade alternativen)"
++msgstr "visa den långa hjälpen (visar även de avancerade flaggorna)"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -1087,7 +1087,7 @@
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c src/lzmainfo/lzmainfo.c
+ msgid "With no FILE, or when FILE is -, read standard input."
+-msgstr "Med FIL, eller när FIL är -, läs standard in."
++msgstr "Utan FIL, eller när FIL är -, läs från standard in."
+ 
+ #. TRANSLATORS: This message indicates the bug reporting
+ #. address for this package. Please add another line saying
+@@ -1118,7 +1118,7 @@
+ #: src/xz/message.c
+ #, c-format
+ msgid "Filter chains are set using the --filters=FILTERS or --filters1=FILTERS ... --filters9=FILTERS options. Each filter in the chain can be separated by spaces or '--'. Alternatively a preset %s can be specified instead of a filter chain."
+-msgstr "Filterkedjor ställs in med alternativen --filters=FILTERS eller --filters1=FILTER ... --filters9=FILTER. Varje filter i kedjan kan separeras med mellanslag eller '--'. Alternativt kan en förinställd %s specificeras istället för en filterkedja."
++msgstr "Filterkedjor ställs in med flaggorna --filters=FILTERS eller --filters1=FILTERS ... --filters9=FILTERS. Varje filter i kedjan kan separeras med mellanslag eller '--'. Alternativt kan en förinställning %s anges i stället för en filterkedja."
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/xz/message.c
+@@ -1127,7 +1127,7 @@
+ 
+ #: src/xz/options.c src/liblzma/common/string_conversion.c
+ msgid "Options must be 'name=value' pairs separated with commas"
+-msgstr "Alternativ måste vara ”namn=värde”-par separerade med kommatecken"
++msgstr "Flaggor måste vara ”namn=värde”-par separerade med kommatecken"
+ 
+ #: src/xz/options.c
+ #, c-format
+@@ -1136,7 +1136,7 @@
+ 
+ #: src/xz/options.c src/liblzma/common/string_conversion.c
+ msgid "Invalid option value"
+-msgstr "Ogiltigt alternativvärde"
++msgstr "Ogiltigt flaggvärde"
+ 
+ #: src/xz/options.c
+ #, c-format
+@@ -1191,12 +1191,12 @@
+ #: src/lzmainfo/lzmainfo.c
+ #, c-format
+ msgid "Usage: %s [--help] [--version] [FILE]...\n"
+-msgstr "Användning: %s [--help] [--version] [FIL]…\n"
++msgstr "Användning: %s [--help] [--version] [FIL]...\n"
+ 
+ #. This is word wrapped at spaces. The Unicode character U+00A0 works as a non-breaking space. Tab (\t) is interpreted as a zero-width space (the tab itself is not displayed); U+200B is NOT supported. Manual word wrapping with \n is supported but requires care.
+ #: src/lzmainfo/lzmainfo.c
+ msgid "Show information stored in the .lzma file header."
+-msgstr "Visa information som lagrats i .lzma-filhuvudet"
++msgstr "Visa information som lagrats i .lzma-filhuvudet."
+ 
+ #: src/lzmainfo/lzmainfo.c
+ msgid "File is too small to be a .lzma file"
+@@ -1224,11 +1224,11 @@
+ 
+ #: src/liblzma/common/string_conversion.c
+ msgid "Unknown option name"
+-msgstr "Okänt alternativnamn"
++msgstr "Okänt flaggnamn"
+ 
+ #: src/liblzma/common/string_conversion.c
+ msgid "Option value cannot be empty"
+-msgstr "Alternativvärdet får inte vara tomt"
++msgstr "Flaggvärdet får inte vara tomt"
+ 
+ #: src/liblzma/common/string_conversion.c
+ msgid "Value out of range"
+@@ -1236,7 +1236,7 @@
+ 
+ #: src/liblzma/common/string_conversion.c
+ msgid "This option does not support any multiplier suffixes"
+-msgstr "Det här alternativet stöder inte några multiplikatorsuffix"
++msgstr "Den här flaggan stöder inga multiplikatorsuffix"
+ 
+ #. TRANSLATORS: Don't translate the
+ #. suffixes "KiB", "MiB", or "GiB"

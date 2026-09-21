@@ -1,0 +1,1351 @@
+--- a/vmm-0.7.0.sv.po
++++ b/vmm-0.7.0.sv.po
+@@ -43,28 +43,28 @@
+ #: VirtualMailManager/handler.py:853
+ #, python-format
+ msgid "The account '%s' does not exist."
+-msgstr "Kontot ”%s” existerar inte."
++msgstr "Domänen ”%s” finns inte."
+ 
+ #: VirtualMailManager/account.py:217 VirtualMailManager/account.py:238
+ #: VirtualMailManager/cli/handler.py:76 VirtualMailManager/handler.py:615
+ #, python-format
+ msgid "The account '%s' already exists."
+-msgstr "Kontot ”%s” existerar redan."
++msgstr "Kontot ”%s” finns redan."
+ 
+ #: VirtualMailManager/account.py:220 VirtualMailManager/handler.py:779
+ #, python-format
+ msgid "Could not accept password: '%s'"
+-msgstr "Det gick inte att acceptera lösenord: ”%s”"
++msgstr "kunde inte godta lösenordet ”%s”"
+ 
+ #: VirtualMailManager/account.py:241
+ #, python-format
+ msgid "No password set for account: '%s'"
+-msgstr "Inget lösenord inställt för kontot: ”%s”"
++msgstr "inget lösenord har angetts för kontot ”%s”"
+ 
+ #: VirtualMailManager/account.py:273
+ #, python-format
+ msgid "Unknown field: '%s'"
+-msgstr "Okänt fält: ”%s”"
++msgstr "okänt fält: ”%s”"
+ 
+ #. TP: A service (e.g. pop3 or imap) may be enabled/usable or
+ #. disabled/unusable for a user.
+@@ -79,12 +79,12 @@
+ #: VirtualMailManager/account.py:424
+ #, python-format
+ msgid "Could not fetch information for account: '%s'"
+-msgstr "Det gick inte att hämta information för konto: ”%s”"
++msgstr "kunde inte hämta information om kontot ”%s”"
+ 
+ #: VirtualMailManager/account.py:468
+ #, python-format
+ msgid "There are %(count)d aliases with the destination address '%(address)s'."
+-msgstr "Det finns %(count)d alias med destinationsadress ”%(address)s”."
++msgstr "Det finns %(count)d alias med destinationsadressen ”%(address)s”."
+ 
+ #: VirtualMailManager/account.py:497
+ msgid "UID must be an integer."
+@@ -97,7 +97,7 @@
+ #: VirtualMailManager/account.py:508
+ #, python-format
+ msgid "There is no account with the UID: '%d'"
+-msgstr "Det finns inget konto med UID: ”%d”"
++msgstr "det finns inget konto med UID ”%d”"
+ 
+ #: VirtualMailManager/alias.py:59
+ #, python-format
+@@ -107,9 +107,9 @@
+ "%(count_new)i additional destination(s) will render this alias unusable.\n"
+ "Hint: Increase Postfix' virtual_alias_expansion_limit"
+ msgstr ""
+-"Det går inte att lägga till %(count_new)i nya destinationer till alias ”%(address)s”.\n"
+-"För närvarande expanderar detta alias till %(count)i/%(limit)i mottagare.\n"
+-"%(count_new)i ytterligare destinationer kommer att göra detta alias oanvändbart.\n"
++"Det går inte att lägga till %(count_new)i nya destinationer till aliaset ”%(address)s”.\n"
++"För närvarande utökas aliaset till %(count)i/%(limit)i mottagare.\n"
++"%(count_new)i ytterligare destinationer gör aliaset oanvändbart.\n"
+ "Tips: Öka Postfix virtual_alias_expansion_limit"
+ 
+ #: VirtualMailManager/alias.py:66
+@@ -120,21 +120,21 @@
+ "So its unusable, all messages addressed to this alias will be bounced.\n"
+ "Hint: Delete some destination addresses."
+ msgstr ""
+-"Det går inte att lägga till %(count_new)i nya destinationer till alias ”%(address)s”.\n"
+-"Detta alias överstiger redan sin expansionsbegränsning (%(count)i/%(limit)i).\n"
+-"Så det är oanvändbart, alla meddelanden som adresseras till detta alias kommer att studsa.\n"
++"Det går inte att lägga till %(count_new)i nya destinationer till aliaset ”%(address)s”.\n"
++"Aliaset överskrider redan sin utökningsgräns (%(count)i/%(limit)i).\n"
++"Det är därför oanvändbart; alla meddelanden till aliaset studsar.\n"
+ "Tips: Ta bort några destinationsadresser."
+ 
+ #: VirtualMailManager/alias.py:153 VirtualMailManager/alias.py:170
+ #: VirtualMailManager/alias.py:177 VirtualMailManager/handler.py:680
+ #, python-format
+ msgid "The alias '%s' does not exist."
+-msgstr "Aliaset ”%s” existerar inte."
++msgstr "Aliaset ”%s” finns inte."
+ 
+ #: VirtualMailManager/alias.py:161
+ #, python-format
+ msgid "No suitable destinations left to remove from alias '%s'."
+-msgstr "Inga lämpliga destinationer kvar att ta bort från alias ”%s”."
++msgstr "inga lämpliga destinationer återstår att ta bort från aliaset ”%s”"
+ 
+ #: VirtualMailManager/aliasdomain.py:49
+ #, python-format
+@@ -144,27 +144,27 @@
+ #: VirtualMailManager/aliasdomain.py:68
+ #, python-format
+ msgid "The alias domain '%s' already exists."
+-msgstr "Aliasdomänen ”%s” existerar redan."
++msgstr "Aliasdomänen ”%s” finns redan."
+ 
+ #: VirtualMailManager/aliasdomain.py:71 VirtualMailManager/aliasdomain.py:105
+ msgid "No destination domain set for the alias domain."
+-msgstr "Ingen destinationsdomän inställd för aliasdomänen."
++msgstr "ingen destinationsdomän har angetts för aliasdomänen"
+ 
+ #: VirtualMailManager/aliasdomain.py:74 VirtualMailManager/aliasdomain.py:108
+ #, python-format
+ msgid "The target domain '%s' does not exist."
+-msgstr "Måldomänen ”%s” existerar inte."
++msgstr "Måldomänen ”%s” finns inte."
+ 
+ #: VirtualMailManager/aliasdomain.py:87 VirtualMailManager/aliasdomain.py:111
+ #: VirtualMailManager/aliasdomain.py:132
+ #, python-format
+ msgid "The alias domain '%s' does not exist."
+-msgstr "Aliasdomänen ”%s” existerar inte."
++msgstr "Aliasdomänen ”%s” finns inte."
+ 
+ #: VirtualMailManager/aliasdomain.py:97
+ #, python-format
+ msgid "There is no primary domain for the alias domain '%s'."
+-msgstr "Det finns ingen primärdomän för aliasdomänen ”%s”."
++msgstr "det finns ingen primärdomän för aliasdomänen ”%s”"
+ 
+ #: VirtualMailManager/aliasdomain.py:114
+ #, python-format
+@@ -180,10 +180,11 @@
+ "unusable.\n"
+ "Hint: Increase Postfix' virtual_alias_expansion_limit"
+ msgstr ""
+-"Det går inte att lägga till %(count_new)i nya destinationer till matcha-alla-alias för\n"
+-"domän ”%(domain)s”. För närvarande expanderar detta alias till %(count)i/%(limit)i\n"
+-"mottagare. %(count_new)i ytterligare destinationer kommer att göra detta\n"
+-"alias oanvändbart.\n"
++"Det går inte att lägga till %(count_new)i nya destinationer till uppsamlingsaliaset för\n"
++"domänen ”%(domain)s”. För närvarande utökas aliaset till %(count)i/%(limit)i\n"
++"mottagare. %(count_new)i ytterligare destinationer gör "
++"aliaset\n"
++"oanvändbart.\n"
+ "Tips: Öka Postfix virtual_alias_expansion_limit"
+ 
+ #: VirtualMailManager/catchall.py:75
+@@ -194,21 +195,22 @@
+ "So its unusable, all messages addressed to this alias will be bounced.\n"
+ "Hint: Delete some destination addresses."
+ msgstr ""
+-"Det går inte att lägga till %(count_new)i nya destinationer till matcha-alla-alias för\n"
+-"domän ”%(domain)s”. Detta alias överstiger redan sin expansionsbegränsning (%(count)i/%(limit)i).\n"
+-"Så det är oanvändbart, alla meddelanden som adresseras till detta alias kommer att studsa.\n"
++"Det går inte att lägga till %(count_new)i nya destinationer till uppsamlingsaliaset för "
++"domänen\n"
++"”%(domain)s”. Aliaset överskrider redan sin utökningsgräns (%(count)i/%(limit)i).\n"
++"Det är därför oanvändbart; alla meddelanden till aliaset studsar.\n"
+ "Tips: Ta bort några destinationsadresser."
+ 
+ #: VirtualMailManager/catchall.py:149 VirtualMailManager/catchall.py:167
+ #: VirtualMailManager/catchall.py:174
+ #, python-format
+ msgid "There are no catch-all aliases defined for domain '%s'."
+-msgstr "Det finns inga matcha-alla-alias definierade för domän ”%s”."
++msgstr "det finns inga uppsamlingsalias definierade för domänen ”%s”"
+ 
+ #: VirtualMailManager/catchall.py:157
+ #, python-format
+ msgid "No suitable destinations left to remove from the catch-all alias of domain '%s'."
+-msgstr "Inga lämpliga destinationer kvar att ta bort från matcha-alla-alias för domän ”%s”."
++msgstr "inga lämpliga destinationer återstår att ta bort från uppsamlingsaliaset för domänen ”%s”"
+ 
+ #. TP: Please preserve the trailing space.
+ #: VirtualMailManager/cli/__init__.py:80
+@@ -218,15 +220,15 @@
+ #. TP: Please preserve the trailing space.
+ #: VirtualMailManager/cli/__init__.py:82
+ msgid "Retype new password: "
+-msgstr "Mata in lösenord på nytt: "
++msgstr "Skriv det nya lösenordet igen: "
+ 
+ #: VirtualMailManager/cli/__init__.py:87 VirtualMailManager/cli/config.py:55
+ msgid "Too many failures - try again later."
+-msgstr "Allt för många fel - försök igen senare."
++msgstr "för många fel – försök igen senare."
+ 
+ #: VirtualMailManager/cli/__init__.py:93
+ msgid "Sorry, passwords do not match."
+-msgstr "Lösenord matchar tyvärr inte."
++msgstr "lösenorden stämmer inte överens."
+ 
+ #: VirtualMailManager/cli/__init__.py:97
+ msgid "Sorry, empty passwords are not permitted."
+@@ -234,12 +236,12 @@
+ 
+ #: VirtualMailManager/cli/config.py:32
+ msgid "Enter new value for option $option [$current_value]: "
+-msgstr "Ange nytt värde för flagga $option [$current_value]: "
++msgstr "Ange nytt värde för alternativet $option [$current_value]: "
+ 
+ #: VirtualMailManager/cli/config.py:36
+ #, python-format
+ msgid "Using configuration file: %s\n"
+-msgstr "Använder konfigurationsfil: %s\n"
++msgstr "Använder konfigurationsfilen: %s\n"
+ 
+ #: VirtualMailManager/cli/config.py:38
+ #, python-format
+@@ -254,17 +256,17 @@
+ #: VirtualMailManager/cli/handler.py:65
+ #, python-format
+ msgid "Invalid section: '%s'"
+-msgstr "Ogiltigt avsnitt: ”%s”"
++msgstr "ogiltigt avsnitt: ”%s”"
+ 
+ #: VirtualMailManager/cli/main.py:30 VirtualMailManager/cli/main.py:54
+ #: VirtualMailManager/cli/main.py:56
+ #, python-format
+ msgid "Error: %s"
+-msgstr "Fel: %s"
++msgstr "fel: %s"
+ 
+ #: VirtualMailManager/cli/main.py:41
+ msgid "You must specify a subcommand at least."
+-msgstr "Du måste åtminstone ange ett underkommando."
++msgstr "du måste ange minst ett underkommando."
+ 
+ #. TP: We have to cry, because root has killed/interrupted vmm
+ #. with Ctrl+C or Ctrl+D.
+@@ -279,12 +281,12 @@
+ #: VirtualMailManager/cli/main.py:59
+ #, python-format
+ msgid "Error: Unknown section: '%s'"
+-msgstr "Fel: Okänt avsnitt: ”%s”"
++msgstr "fel: okänt avsnitt: ”%s”"
+ 
+ #: VirtualMailManager/cli/main.py:62
+ #, python-format
+ msgid "Error: No option '%(option)s' in section: '%(section)s'"
+-msgstr "Fel: Ingen flagga ”%(option)s” i avsnitt: ”%(section)s”"
++msgstr "fel: inget alternativ ”%(option)s” i avsnittet ”%(section)s”"
+ 
+ #: VirtualMailManager/cli/subcommands.py:53
+ #, python-format
+@@ -294,7 +296,7 @@
+ #: VirtualMailManager/cli/subcommands.py:173
+ #, python-format
+ msgid "Creating account for postmaster@%s"
+-msgstr "Skapar konto för postmaster@%s"
++msgstr "Skapar kontot för postmaster@%s"
+ 
+ #: VirtualMailManager/cli/subcommands.py:207
+ #: VirtualMailManager/cli/subcommands.py:213
+@@ -322,12 +324,12 @@
+ #: VirtualMailManager/cli/subcommands.py:228
+ #: VirtualMailManager/cli/subcommands.py:1236
+ msgid "relocated users"
+-msgstr "omplacerade användare"
++msgstr "omdirigerade användare"
+ 
+ #: VirtualMailManager/cli/subcommands.py:223
+ #: VirtualMailManager/cli/subcommands.py:229
+ msgid "catch-all destinations"
+-msgstr "matcha-alla-destinationer"
++msgstr "uppsamlingsdestinationer"
+ 
+ #: VirtualMailManager/cli/subcommands.py:263
+ #: VirtualMailManager/cli/subcommands.py:389
+@@ -372,17 +374,17 @@
+ "{program} is free software and comes with ABSOLUTELY NO WARRANTY."
+ msgstr ""
+ "{copyright}\n"
+-"{program} är fri programvara och kommer med ABSOLUT INGEN GARANTI."
++"{program} är fri programvara och lämnas UTAN NÅGON SOM HELST GARANTI."
+ 
+ #: VirtualMailManager/cli/subcommands.py:487
+ #, python-format
+ msgid "%(prog)s - command line tool to manage email domains/accounts/aliases/..."
+-msgstr "%(prog)s - kommandoradsverktyg för att hantera e-postdomäner/konton/alias/..."
++msgstr "%(prog)s – kommandoradsverktyg för att hantera e-postdomäner, konton, alias …"
+ 
+ #: VirtualMailManager/cli/subcommands.py:489
+ #, python-format
+ msgid "use \"%(prog)s <subcommand> -h\" for information about the given subcommand"
+-msgstr "använd \"%(prog)s <subcommand> -h\" för information om det angivna underkommandot"
++msgstr "använd ”%(prog)s <subcommand> -h” för information om det angivna underkommandot"
+ 
+ #: VirtualMailManager/cli/subcommands.py:493
+ #, python-format
+@@ -399,20 +401,20 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:503
+ msgid "show the actual value of the configuration option"
+-msgstr "visa det faktiska värdet för konfigurationsflaggan"
++msgstr "visa aktuellt värde för konfigurationsalternativet"
+ 
+ #: VirtualMailManager/cli/subcommands.py:504
+ msgid "This subcommand is used to display the actual value of the given configuration option."
+-msgstr "Detta underkommando används för att visa det faktiska värdet för den angivna konfigurationsflaggan."
++msgstr "Detta underkommando används för att visa aktuellt värde för det angivna konfigurationsalternativet."
+ 
+ #: VirtualMailManager/cli/subcommands.py:506
+ #: VirtualMailManager/cli/subcommands.py:518
+ msgid "the name of a configuration option"
+-msgstr "namnet på en konfigurationsflagga"
++msgstr "namnet på ett konfigurationsalternativ"
+ 
+ #: VirtualMailManager/cli/subcommands.py:510
+ msgid "set a new value for the configuration option"
+-msgstr "ställ in ett nytt värde för konfigurationsflaggan"
++msgstr "ställ in ett nytt värde för konfigurationsalternativet"
+ 
+ #: VirtualMailManager/cli/subcommands.py:511
+ msgid ""
+@@ -420,13 +422,13 @@
+ "\n"
+ "Note: This subcommand will create a new vmm.cfg without any comments. Your current configuration file will be backed as vmm.cfg.bak."
+ msgstr ""
+-"Använd detta underkommando för att ställa in eller uppdatera värdet för en enskild konfigurationsflagga. option är konfigurationsflaggan, value är flaggans nya värde.\n"
++"Använd detta underkommando för att ställa in eller uppdatera värdet för ett enskilt konfigurationsalternativ. option är konfigurationsalternativet och value är dess nya värde.\n"
+ "\n"
+ "Obs: Detta underkommando skapar en ny vmm.cfg utan kommentarer. Din nuvarande konfigurationsfil säkerhetskopieras som vmm.cfg.bak."
+ 
+ #: VirtualMailManager/cli/subcommands.py:519
+ msgid "the option's new value"
+-msgstr "flaggans nya värde"
++msgstr "konfigurationsalternativets nya värde"
+ 
+ #: VirtualMailManager/cli/subcommands.py:524
+ msgid "start interactive configuration mode"
+@@ -442,21 +444,21 @@
+ msgstr ""
+ "Startar den interaktiva konfigurationen för alla konfigurationsavsnitt.\n"
+ "\n"
+-"I denna process kommer det aktuella värdet för varje flagga att visas i hakparenteser. Om inget värde är konfigurerat kommer standardvärdet för varje flagga att visas i hakparenteser. Tryck på returknappen för att acceptera det visade värdet.\n"
+-"\n"
+-"Om det valfria argumentet section anges visas endast konfigurationsflaggor från det angivna avsnittet och kan konfigureras. Följande avsnitt är tillgängliga:\n"
++"Under processen visas det aktuella värdet för varje alternativ inom hakparenteser. Om inget värde har konfigurerats visas standardvärdet för varje alternativ inom hakparenteser. Tryck på returtangenten för att godta det visade värdet.\n"
++"\n"
++"Om det valfria argumentet section anges visas och kan endast konfigurationsalternativen i det angivna avsnittet ändras. Följande avsnitt är tillgängliga:\n"
+ 
+ #: VirtualMailManager/cli/subcommands.py:537
+ msgid "configure only options of the given section"
+-msgstr "konfigurera endast flaggor i det angivna avsnittet"
++msgstr "konfigurera endast alternativen i det angivna avsnittet"
+ 
+ #: VirtualMailManager/cli/subcommands.py:541
+ msgid "get the address of the user with the given UID"
+-msgstr "hämta adressen för användaren med det angivna UID:t"
++msgstr "hämta adressen för användaren med angivet UID"
+ 
+ #: VirtualMailManager/cli/subcommands.py:542
+ msgid "If only the uid is available, for example from process list, the subcommand getuser will show the user's address."
+-msgstr "Om endast uid är tillgänglig, till exempel från processlistan, kommer underkommandot getuser att visa användarens adress."
++msgstr "Om endast UID:t är tillgängligt, till exempel från processlistan, visar underkommandot getuser användarens adress."
+ 
+ #: VirtualMailManager/cli/subcommands.py:545
+ msgid "a user's unique identifier"
+@@ -464,7 +466,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:549
+ msgid "list all addresses or search for addresses by pattern"
+-msgstr "lista eller sök adresser efter mönster"
++msgstr "lista alla adresser eller sök efter adresser med mönster"
+ 
+ #: VirtualMailManager/cli/subcommands.py:550
+ msgid ""
+@@ -474,11 +476,11 @@
+ "\n"
+ "If you do not include an '@'-character in your pattern, the command will only match your pattern against the fqdn of the addresses. A pattern like %user%@%example% will match against any address that contains the term 'user' in its local-part AND 'example' in its fqdn. "
+ msgstr ""
+-"Detta kommando listar alla definierade adresser. Adresser som tillhör aliasdomäner prefixas med ett ”-”, adresser för vanliga domäner med ett ”+”. Dessutom anger bokstäverna ”u”, ”a” och ”r” typen av varje adress: användare, alias respektive omplacerad. Utskriften kan begränsas med ett valfritt mönster.\n"
+-"\n"
+-"För att göra en jokerteckensökning kan tecknet % användas i början och/eller slutet av mönstret.\n"
+-"\n"
+-"Om du inte inkluderar ett ”@”-tecken i ditt mönster kommer kommandot endast att matcha ditt mönster mot fqdn för adresserna. Ett mönster som %user%@%example% matchar mot alla adresser som innehåller termen ”user” i sin lokaldel OCH ”example” i sin fqdn. "
++"Detta kommando listar alla definierade adresser. Adresser som tillhör aliasdomäner inleds med ”-”, och adresser för vanliga domäner med ”+”. Dessutom anger bokstäverna ”u”, ”a” och ”r” typen för varje adress: användare, alias respektive omdirigerad. Utdata kan begränsas med ett valfritt mönster.\n"
++"\n"
++"För att göra en jokerteckensökning kan tecknet % användas i början eller slutet av mönstret.\n"
++"\n"
++"Om du inte inkluderar tecknet ”@” i mönstret matchar kommandot mönstret endast mot adressernas FQDN. Mönstret %user%@%example% matchar alla adresser som innehåller termen ”user” i sin lokaldel och ”example” i sin FQDN. "
+ 
+ #: VirtualMailManager/cli/subcommands.py:563
+ #: VirtualMailManager/cli/subcommands.py:580
+@@ -490,7 +492,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:568
+ msgid "list all aliases or search for aliases by pattern"
+-msgstr "lista alla alias eller sök efter alias efter mönster"
++msgstr "lista alla alias eller sök efter alias med mönster"
+ 
+ #: VirtualMailManager/cli/subcommands.py:569
+ msgid ""
+@@ -500,15 +502,15 @@
+ "\n"
+ "If you do not include an '@'-character in your pattern, the command will only match your pattern against the fqdn of the addresses. A pattern like %user%@%example% will match against any address that contains the term 'user' in its local-part AND 'example' in its fqdn. "
+ msgstr ""
+-"Detta kommando listar alla definierade alias. Alias som tillhör aliasdomäner prefixas med ett ”-”, adresser för vanliga domäner med ett ”+”. Utskriften kan begränsas med ett valfritt mönster.\n"
+-"\n"
+-"För att göra en jokerteckensökning kan tecknet % användas i början och/eller slutet av mönstret.\n"
+-"\n"
+-"Om du inte inkluderar ett ”@”-tecken i ditt mönster kommer kommandot endast att matcha ditt mönster mot fqdn för adresserna. Ett mönster som %user%@%example% matchar mot alla adresser som innehåller termen ”user” i sin lokaldel OCH ”example” i sin fqdn. "
++"Detta kommando listar alla definierade alias. Alias som tillhör aliasdomäner inleds med ”-”, och adresser för vanliga domäner med ”+”. Utdata kan begränsas med ett valfritt mönster.\n"
++"\n"
++"För att göra en jokerteckensökning kan tecknet % användas i början eller slutet av mönstret.\n"
++"\n"
++"Om du inte inkluderar tecknet ”@” i mönstret matchar kommandot mönstret endast mot adressernas FQDN. Mönstret %user%@%example% matchar alla adresser som innehåller termen ”user” i sin lokaldel och ”example” i sin FQDN. "
+ 
+ #: VirtualMailManager/cli/subcommands.py:585
+ msgid "list all domains or search for domains by pattern"
+-msgstr "lista alla domäner eller söker efter domäner efter mönster"
++msgstr "lista alla domäner eller sök efter domäner med mönster"
+ 
+ # https://bitbucket.org/pvo/vmm/issues/10/translation-problem - see workaround to pass msgfmt
+ #: VirtualMailManager/cli/subcommands.py:586
+@@ -518,13 +520,13 @@
+ "\n"
+ "To perform a wild card search, the % character can be used at the start and/or the end of the pattern."
+ msgstr ""
+-"Underkommandot listar alla tillgängliga domäner. Alla domännamn kommer att prefixas med antingen `[+]', om domänen är en primär domän, eller med `[-]', om det är ett aliasdomännamn. Resultatet kan begränsas med ett ytterligare mönster.\n"
+-"\n"
+-"För att utföra en jokerteckensökning, kan tecknet % c användas i början och/eller slutet av mönstret."
++"Underkommandot listar alla tillgängliga domäner. Alla domännamn inleds med antingen `[+]', om domänen är en primärdomän, eller med `[-]', om den är en aliasdomän. Utdata kan begränsas med ett valfritt mönster.\n"
++"\n"
++"För att göra en jokerteckensökning kan tecknet % c användas i början eller slutet av mönstret."
+ 
+ #: VirtualMailManager/cli/subcommands.py:598
+ msgid "list all relocated users or search for relocated users by pattern"
+-msgstr "lista alla omplacerade användare eller sök efter omplacerade användare efter mönster"
++msgstr "lista alla omdirigerade användare eller sök efter omdirigerade användare med mönster"
+ 
+ #: VirtualMailManager/cli/subcommands.py:600
+ msgid ""
+@@ -567,7 +569,7 @@
+ "This subcommand lists all password schemes which could be used in the vmm.cfg as value of the misc.password_scheme option. The output varies, depending on the used Dovecot version and the system's libc.\n"
+ "Additionally a few usable encoding suffixes will be displayed. One of them can be appended to the password scheme."
+ msgstr ""
+-"Detta underkommando listar alla lösenordsscheman som kan användas i vmm.cfg som värde för flaggan misc.password_scheme. Utskriften varierar beroende på använd Dovecot-version och systemets libc.\n"
++"Detta underkommando listar alla lösenordsscheman som kan användas som värde för alternativet misc.password_scheme i vmm.cfg. Utdata varierar beroende på Dovecot-versionen och systemets libc.\n"
+ "Dessutom visas några användbara kodningssuffix. Ett av dem kan läggas till lösenordsschemat."
+ 
+ #: VirtualMailManager/cli/subcommands.py:649
+@@ -582,7 +584,7 @@
+ msgstr ""
+ "Lägger till den nya domänen i databasen och skapar domänkatalogen.\n"
+ "\n"
+-"Om det valfria argumentet transport anges åsidosätter det standardtransporten (domain.transport) från vmm.cfg. Den angivna transporten blir standardtransport för alla nya konton i denna domän."
++"Om det valfria argumentet transport anges åsidosätter det standardtransporten (domain.transport) från vmm.cfg. Den angivna transporten blir standardtransport för alla nya konton i domänen."
+ 
+ #: VirtualMailManager/cli/subcommands.py:657
+ #: VirtualMailManager/cli/subcommands.py:675
+@@ -606,7 +608,7 @@
+ #: VirtualMailManager/cli/subcommands.py:828
+ #: VirtualMailManager/cli/subcommands.py:874
+ msgid "the note that should be set"
+-msgstr "anteckningen som ska sättas"
++msgstr "anteckningen som ska anges"
+ 
+ #: VirtualMailManager/cli/subcommands.py:661
+ #: VirtualMailManager/cli/subcommands.py:750
+@@ -624,9 +626,9 @@
+ "\n"
+ "For a more detailed information about the domain the optional argument details can be specified. A possible details value can be one of the following six keywords:\n"
+ msgstr ""
+-"Detta underkommando visar viss information om den angivna domänen.\n"
+-"\n"
+-"För mer detaljerad information om domänen kan det valfria argumentet details anges. Ett möjligt details-värde kan vara ett av följande sex nyckelord:\n"
++"Detta underkommando visar information om den angivna domänen.\n"
++"\n"
++"För mer detaljerad information om domänen kan det valfria argumentet details anges. Ett details-värde kan vara ett av följande sex nyckelord:\n"
+ 
+ #: VirtualMailManager/cli/subcommands.py:677
+ #: VirtualMailManager/cli/subcommands.py:845
+@@ -639,16 +641,16 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:682
+ msgid "With this subcommand, it is possible to attach a note to the specified domain. In order to delete an existing note, pass the -d option."
+-msgstr "Med detta underkommando kan du fästa en anteckning till den angivna domänen. För att ta bort en befintlig anteckning, ange flaggan -d."
++msgstr "Med detta underkommando kan du lägga till en anteckning till den angivna domänen. Ange flaggan -d för att ta bort en befintlig anteckning."
+ 
+ #: VirtualMailManager/cli/subcommands.py:688
+ #: VirtualMailManager/cli/subcommands.py:872
+ msgid "delete the note, if any"
+-msgstr "ta bort anteckningen, om någon"
++msgstr "ta bort anteckningen om den finns"
+ 
+ #: VirtualMailManager/cli/subcommands.py:694
+ msgid "update the quota limit of the specified domain"
+-msgstr "uppdatera kvotbegränsningen för den angivna domänen"
++msgstr "uppdatera den angivna domänens kvotgräns"
+ 
+ #: VirtualMailManager/cli/subcommands.py:695
+ msgid ""
+@@ -658,29 +660,29 @@
+ "\n"
+ "The new quota limit will affect only those accounts for which the limit has not been overridden. If you want to restore the default to all accounts, you may pass the optional argument --force. When the argument messages was omitted the default number of messages 0 (zero) will be applied."
+ msgstr ""
+-"Detta underkommando används för att konfigurera en ny kvotgräns för domänens konton – inte för själva domänen.\n"
++"Detta underkommando används för att konfigurera en ny kvotgräns för domänens konton, inte för själva domänen.\n"
+ "\n"
+ "Standardkvotgränsen för konton definieras i vmm.cfg (domain.quota_bytes och domain.quota_messages).\n"
+ "\n"
+-"Den nya kvotgränsen påverkar bara de konton där gränsen inte har åsidosatts. Om du vill återställa standarden för alla konton kan du ange det valfria argumentet --force. När argumentet messages utelämnas används standardantalet meddelanden 0 (noll)."
++"Den nya kvotgränsen påverkar bara konton där gränsen inte har åsidosatts. Om du vill återställa standardvärdet för alla konton kan du ange den valfria flaggan --force. När argumentet messages utelämnas används standardantalet 0 (noll) meddelanden."
+ 
+ #: VirtualMailManager/cli/subcommands.py:708
+ #: VirtualMailManager/cli/subcommands.py:909
+ msgid "quota limit in {kilo,mega,giga}bytes e.g. 2G or 2048M"
+-msgstr "kvotgräns i {kilo,mega,giga}byte t.ex. 2G eller 2048M"
++msgstr "kvotgräns i {kilo,mega,giga}byte, till exempel 2G eller 2048M"
+ 
+ #: VirtualMailManager/cli/subcommands.py:712
+ #: VirtualMailManager/cli/subcommands.py:913
+ msgid "quota limit in number of messages (default: 0)"
+-msgstr "kvotgräns i antal meddelanden (standard: 0)"
++msgstr "kvotgräns i antal meddelanden (standardvärde: 0)"
+ 
+ #: VirtualMailManager/cli/subcommands.py:714
+ msgid "enforce the limit for all accounts"
+-msgstr "tvinga gränsen för alla konton"
++msgstr "tillämpa gränsen för alla konton"
+ 
+ #: VirtualMailManager/cli/subcommands.py:718
+ msgid "enables/disables the specified services"
+-msgstr "aktiverar/inaktiverar angivna tjänster"
++msgstr "aktivera eller inaktivera angivna tjänster"
+ 
+ #: VirtualMailManager/cli/subcommands.py:719
+ msgid ""
+@@ -690,11 +692,11 @@
+ "Possible service names are: imap, pop3, sieve and smtp.\n"
+ "The new service set will affect only those accounts for which the set has not been overridden. If you want to restore the default to all accounts, you may pass the option--force."
+ msgstr ""
+-"För att ange vilka tjänster som kan användas av domänens användare – med angivet fqdn – använd detta underkommando.\n"
+-"\n"
+-"Om du anger tjänster efter -e kommer varje angiven tjänst att aktiveras/kunna användas. Om du anger dem efter -d kommer varje angiven tjänst att inaktiveras/inte kunna användas.\n"
+-"Möjliga tjänstenamn är: imap, pop3, sieve och smtp.\n"
+-"Den nya tjänsteuppsättningen påverkar bara de konton där uppsättningen inte har åsidosatts. Om du vill återställa standarden för alla konton kan du ange flaggan --force."
++"Använd detta underkommando för att ange vilka tjänster som kan användas av domänens användare med angivet FQDN.\n"
++"\n"
++"Om du anger tjänster efter -e aktiveras varje angiven tjänst. Om du anger dem efter -d inaktiveras varje angiven tjänst.\n"
++"Möjliga tjänstenamn är imap, pop3, sieve och smtp.\n"
++"Den nya tjänsteuppsättningen påverkar bara konton där uppsättningen inte har åsidosatts. Om du vill återställa standardvärdet för alla konton kan du ange flaggan --force."
+ 
+ #: VirtualMailManager/cli/subcommands.py:732
+ #: VirtualMailManager/cli/subcommands.py:928
+@@ -708,11 +710,11 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:738
+ msgid "enforce the service set for all accounts"
+-msgstr "tvinga tjänsteuppsättningen för alla konton"
++msgstr "tillämpa tjänsteuppsättningen för alla konton"
+ 
+ #: VirtualMailManager/cli/subcommands.py:742
+ msgid "update the transport of the specified domain"
+-msgstr "uppdatera transporten för den angivna domänen"
++msgstr "uppdatera den angivna domänens transport"
+ 
+ #: VirtualMailManager/cli/subcommands.py:743
+ msgid ""
+@@ -720,13 +722,13 @@
+ "\n"
+ "The new transport will affect only those accounts for which the transport has not been overridden. If you want to restore the default to all accounts, you may give the option --force."
+ msgstr ""
+-"En ny transport för den angivna domänen kan ställas in med detta underkommando.\n"
+-"\n"
+-"Den nya transporten påverkar bara de konton där transporten inte har åsidosatts. Om du vill återställa standarden för alla konton kan du ange flaggan --force."
++"Med detta underkommando kan du ställa in en ny transport för den angivna domänen.\n"
++"\n"
++"Den nya transporten påverkar bara konton där transporten inte har åsidosatts. Om du vill återställa standardvärdet för alla konton kan du ange flaggan --force."
+ 
+ #: VirtualMailManager/cli/subcommands.py:753
+ msgid "enforce the transport for all accounts"
+-msgstr "tvinga transporten för alla konton"
++msgstr "tillämpa transporten för alla konton"
+ 
+ #: VirtualMailManager/cli/subcommands.py:757
+ msgid "delete the given domain and all its alias domains"
+@@ -742,38 +744,38 @@
+ "\n"
+ "If you really always know what you are doing, edit your vmm.cfg and set the option domain.force_deletion to true."
+ msgstr ""
+-"Detta underkommando tar bort domänen som anges av fqdn.\n"
+-"\n"
+-"När flaggan --delete-directory anges tar vmm bort katalogen för den angivna domänen. Detta åsidosätter inställningen domain.delete_directory i vmm.cfg.\n"
+-"\n"
+-"Om det finns konton, alias och/eller omplacerade användare tilldelade den angivna domänen avbryter vmm den begärda åtgärden och visar ett felmeddelande. Om du vet vad du gör kan du ange det valfria argumentet --force.\n"
+-"\n"
+-"Om du verkligen alltid vet vad du gör, redigera vmm.cfg och sätt alternativet domain.force_deletion till true."
++"Detta underkommando tar bort domänen som anges av FQDN.\n"
++"\n"
++"När flaggan --delete-directory anges tar vmm bort katalogen för den angivna domänen. Detta åsidosätter alternativet domain.delete_directory i vmm.cfg.\n"
++"\n"
++"Om konton, alias eller omdirigerade användare har tilldelats den angivna domänen avbryter vmm den begärda åtgärden och visar ett felmeddelande. Om du vet vad du gör kan du ange den valfria flaggan --force.\n"
++"\n"
++"Om du alltid vet vad du gör kan du redigera vmm.cfg och ange true för alternativet domain.force_deletion."
+ 
+ #: VirtualMailManager/cli/subcommands.py:773
+ msgid "also delete all accounts, aliases and/or relocated users"
+-msgstr "ta också bort alla konton, alias och/eller omplacerade användare"
++msgstr "ta också bort alla konton, alias eller omdirigerade användare"
+ 
+ #: VirtualMailManager/cli/subcommands.py:781
+ msgid "create a new alias for an existing domain"
+-msgstr "skapa ett nytt alias för en existerande domän"
++msgstr "skapa ett nytt alias för en befintlig domän"
+ 
+ #: VirtualMailManager/cli/subcommands.py:782
+ msgid "This subcommand adds the new alias domain (fqdn) to the destination domain that should be aliased."
+-msgstr "Detta underkommando lägger till den nya aliasdomänen (fqdn) till destinationsdomänen som ska aliaseras."
++msgstr "Detta underkommando lägger till den nya aliasdomänen (FQDN) till destinationsdomänen som ska aliaseras."
+ 
+ #: VirtualMailManager/cli/subcommands.py:786
+ #: VirtualMailManager/cli/subcommands.py:803
+ msgid "the fqdn of the destination domain"
+-msgstr "fqdn för destinationsdomänen"
++msgstr "destinationsdomänens FQDN"
+ 
+ #: VirtualMailManager/cli/subcommands.py:790
+ msgid "show the destination of the given alias domain"
+-msgstr "visa destinationen för den angivna aliasdomänen"
++msgstr "visa den angivna aliasdomänens destination"
+ 
+ #: VirtualMailManager/cli/subcommands.py:791
+ msgid "This subcommand shows to which domain the alias domain fqdn is assigned to."
+-msgstr "Detta underkommando visar vilken domän aliasdomänens fqdn är tilldelad."
++msgstr "Detta underkommando visar vilken domän aliasdomänen FQDN har tilldelats till."
+ 
+ #: VirtualMailManager/cli/subcommands.py:797
+ msgid "assign the given alias domain to an other domain"
+@@ -781,7 +783,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:798
+ msgid "If the destination of the existing alias domain fqdn should be switched to another destination use this subcommand."
+-msgstr "Om destinationen för aliasdomänens fqdn ska bytas till en annan destination, använd detta underkommando."
++msgstr "Använd detta underkommando om destinationen för den befintliga aliasdomänen FQDN ska ändras till en annan destination."
+ 
+ #: VirtualMailManager/cli/subcommands.py:807
+ msgid "delete the specified alias domain"
+@@ -789,7 +791,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:808
+ msgid "Use this subcommand if the alias domain fqdn should be removed."
+-msgstr "Använd detta underkommando om aliasdomänens fqdn ska tas bort."
++msgstr "Använd detta underkommando om aliasdomänen FQDN ska tas bort."
+ 
+ #: VirtualMailManager/cli/subcommands.py:817
+ msgid "create a new e-mail user with the given address"
+@@ -803,7 +805,7 @@
+ msgstr ""
+ "Använd detta underkommando för att skapa ett nytt e-postkonto för den angivna adressen.\n"
+ "\n"
+-"Om lösenordet inte tillhandahålls kommer vmm att fråga efter det interaktivt. När inget lösenord anges och account.random_password är satt till true kommer vmm att generera ett slumpmässigt lösenord och skriva ut det till stdout efter att kontot har skapats."
++"Om inget lösenord anges frågar vmm efter det interaktivt. När inget lösenord anges och account.random_password är true skapar vmm ett slumpmässigt lösenord och skriver ut det till standard ut efter att kontot har skapats."
+ 
+ #: VirtualMailManager/cli/subcommands.py:826
+ #: VirtualMailManager/cli/subcommands.py:843
+@@ -815,7 +817,7 @@
+ #: VirtualMailManager/cli/subcommands.py:944
+ #: VirtualMailManager/cli/subcommands.py:961
+ msgid "an account's e-mail address (local-part@fqdn)"
+-msgstr "ett kontos e-postadress (local-part@fqdn)"
++msgstr "ett kontos e-postadress (lokaldel@FQDN)"
+ 
+ #: VirtualMailManager/cli/subcommands.py:830
+ msgid "the new user's password"
+@@ -832,14 +834,14 @@
+ "If the optional argument details is given some more information will be displayed.\n"
+ "Possible values for details are:\n"
+ msgstr ""
+-"Detta underkommando visar viss information om kontot som anges av den angivna adressen.\n"
++"Detta underkommando visar information om kontot som anges av den angivna adressen.\n"
+ "\n"
+ "Om det valfria argumentet details anges visas ytterligare information.\n"
+ "Möjliga värden för details är:\n"
+ 
+ #: VirtualMailManager/cli/subcommands.py:849
+ msgid "set, update or delete the real name for an address"
+-msgstr "ställ in, uppdatera eller ta bort det riktiga namnet för en adress"
++msgstr "ställ in, uppdatera eller ta bort det verkliga namnet för en adress"
+ 
+ #: VirtualMailManager/cli/subcommands.py:850
+ msgid ""
+@@ -847,17 +849,17 @@
+ "\n"
+ "In order to delete the value stored for the account, pass the -d option."
+ msgstr ""
+-"Användarens riktiga namn kan ställas in/uppdateras med detta underkommando.\n"
+-"\n"
+-"För att ta bort värdet som lagrats för kontot, ange flaggan -d."
++"Användarens verkliga namn kan ställas in eller uppdateras med detta underkommando.\n"
++"\n"
++"Ange flaggan -d för att ta bort värdet som lagrats för kontot."
+ 
+ #: VirtualMailManager/cli/subcommands.py:858
+ msgid "delete the user's name if any"
+-msgstr "ta bort användarens namn, om något"
++msgstr "ta bort användarens namn om det finns"
+ 
+ #: VirtualMailManager/cli/subcommands.py:859
+ msgid "a user's real name"
+-msgstr "en användares riktiga namn"
++msgstr "en användares verkliga namn"
+ 
+ #: VirtualMailManager/cli/subcommands.py:864
+ msgid "set, update or delete the note of the given address"
+@@ -865,7 +867,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:865
+ msgid "With this subcommand, it is possible to attach a note to the specified account. In order to delete an existing note, pass the -d option."
+-msgstr "Med detta underkommando kan du fästa en anteckning till det angivna kontot. För att ta bort en befintlig anteckning, ange flaggan -d."
++msgstr "Med detta underkommando kan du lägga till en anteckning till det angivna kontot. Ange flaggan -d för att ta bort en befintlig anteckning."
+ 
+ #: VirtualMailManager/cli/subcommands.py:878
+ msgid "update the password for the given address"
+@@ -877,9 +879,9 @@
+ "\n"
+ "If neither a password nor a password hash was provided, vmm will prompt for the new password interactively. When the scheme was omitted, vmm will use misc.password_scheme from vmm.cfg. "
+ msgstr ""
+-"Lösenordet för ett konto kan uppdateras med detta underkommando.\n"
+-"\n"
+-"Om varken lösenord eller lösenordshash angavs kommer vmm att fråga efter det nya lösenordet interaktivt. När schema utelämnades använder vmm misc.password_scheme från vmm.cfg. "
++"Med detta underkommando kan du uppdatera ett kontos lösenord.\n"
++"\n"
++"Om varken lösenord eller lösenordshash anges frågar vmm efter det nya lösenordet interaktivt. Om schema utelämnas använder vmm misc.password_scheme från vmm.cfg. "
+ 
+ #: VirtualMailManager/cli/subcommands.py:889
+ msgid "the user's new password"
+@@ -891,11 +893,11 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:893
+ msgid "set the given password hash as-is as new password"
+-msgstr "sätt angiven lösenordshash oförändrad som nytt lösenord"
++msgstr "använd angiven lösenordshash oförändrad som nytt lösenord"
+ 
+ #: VirtualMailManager/cli/subcommands.py:898
+ msgid "update the quota limit for the given address"
+-msgstr "uppdatera kvotbegränsningen för den angivna adressen"
++msgstr "uppdatera den angivna adressens kvotgräns"
+ 
+ #: VirtualMailManager/cli/subcommands.py:899
+ msgid ""
+@@ -907,13 +909,13 @@
+ msgstr ""
+ "Detta underkommando används för att ange en ny kvotgräns för det angivna kontot.\n"
+ "\n"
+-"När argumentet messages utelämnas används standardantalet meddelanden 0 (noll).\n"
+-"\n"
+-"Istället för en lagringsgräns, ange nyckelordet 'domain' för att ta bort den kontospecifika åsidosättningen, vilket gör att domänens värde gäller."
++"När argumentet messages utelämnas används standardantalet 0 (noll) meddelanden.\n"
++"\n"
++"Ange nyckelordet 'domain' i stället för en lagringsgräns för att ta bort den kontospecifika åsidosättningen, så att domänens värde används."
+ 
+ #: VirtualMailManager/cli/subcommands.py:917
+ msgid "enable/disable the specified services"
+-msgstr "aktivera/inaktivera angivna tjänster"
++msgstr "aktivera eller inaktivera angivna tjänster"
+ 
+ #: VirtualMailManager/cli/subcommands.py:918
+ msgid ""
+@@ -921,13 +923,13 @@
+ "\n"
+ "If you want to activate services, list them after -e. In order to deactivate them, list them after -d. If you want to reset the service states to the domain defaults, use -r without any more parameters "
+ msgstr ""
+-"För att ge en användare åtkomst till de angivna tjänsterna, använd detta kommando.\n"
+-"\n"
+-"Om du vill aktivera tjänster listar du dem efter -e. För att inaktivera dem listar du dem efter -d. Om du vill återställa tjänstetillstånden till domänens standardvärden, använd -r utan fler parametrar "
++"Använd detta kommando för att ge en användare åtkomst till de angivna tjänsterna.\n"
++"\n"
++"Lista tjänster efter -e för att aktivera dem. Lista dem efter -d för att inaktivera dem. Använd -r utan fler parametrar för att återställa tjänsternas tillstånd till domänens standardvärden. "
+ 
+ #: VirtualMailManager/cli/subcommands.py:933
+ msgid "restore domain defaults"
+-msgstr "återställ domänstandarder"
++msgstr "återställ domänens standardvärden"
+ 
+ #: VirtualMailManager/cli/subcommands.py:937
+ msgid "update the transport of the given address"
+@@ -939,9 +941,9 @@
+ "\n"
+ "Instead of a transport pass the keyword 'domain' to remove the account-specific override, causing the domain's value to be in effect."
+ msgstr ""
+-"Med detta underkommando kan en annan transport anges för ett konto.\n"
+-"\n"
+-"Istället för en transport, ange nyckelordet 'domain' för att ta bort den kontospecifika åsidosättningen, vilket gör att domänens värde gäller."
++"Med detta underkommando kan du ange en annan transport för ett konto.\n"
++"\n"
++"Ange nyckelordet 'domain' i stället för en transport för att ta bort den kontospecifika åsidosättningen, så att domänens värde används."
+ 
+ #: VirtualMailManager/cli/subcommands.py:950
+ msgid "delete the specified user"
+@@ -957,9 +959,9 @@
+ msgstr ""
+ "Använd detta underkommando för att ta bort kontot med den angivna adressen.\n"
+ "\n"
+-"När flaggan --delete-directory finns kommer vmm även att ta bort kontots hemkatalog. Detta åsidosätter inställningen account.delete_directory i vmm.cfg.\n"
+-"\n"
+-"Om det finns ett eller flera alias med en identisk destinationsadress kommer vmm att avbryta den begärda åtgärden och visa ett felmeddelande. För att förhindra detta, ange det valfria argumentet --force."
++"När flaggan --delete-directory anges tar vmm även bort kontots hemkatalog. Detta åsidosätter alternativet account.delete_directory i vmm.cfg.\n"
++"\n"
++"Om ett eller flera alias har samma destinationsadress avbryter vmm den begärda åtgärden och visar ett felmeddelande. Ange den valfria flaggan --force för att förhindra detta."
+ 
+ #: VirtualMailManager/cli/subcommands.py:963
+ msgid "delete the account's home directory"
+@@ -971,7 +973,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:972
+ msgid "create a new alias e-mail address with one or more destinations"
+-msgstr "skapa en ny alias-e-postadress med en eller flera destinationer"
++msgstr "skapa en ny aliasadress med en eller flera destinationer"
+ 
+ #: VirtualMailManager/cli/subcommands.py:974
+ msgid ""
+@@ -981,20 +983,20 @@
+ msgstr ""
+ "Detta underkommando används för att skapa en ny aliasadress med en eller flera destinationsadresser.\n"
+ "\n"
+-"Inom destinationsadressen kommer platshållarna ”%n”, ”%d” och ”%=” att ersättas av respektive lokaldelen, domänen eller e-postadressen med ”@” ersatt av ”=”. I kombination med aliasdomäner möjliggör detta domänspecifika destinationer."
++"I destinationsadressen ersätts platshållarna ”%n”, ”%d” och ”%=” med lokaldelen, domänen respektive e-postadressen där ”@” har ersatts med ”=”. I kombination med aliasdomäner möjliggör detta domänspecifika destinationer."
+ 
+ #: VirtualMailManager/cli/subcommands.py:983
+ #: VirtualMailManager/cli/subcommands.py:993
+ #: VirtualMailManager/cli/subcommands.py:1005
+ msgid "an alias' e-mail address (local-part@fqdn)"
+-msgstr "ett alias e-postadress (local-part@fqdn)"
++msgstr "en aliasadress (lokaldel@FQDN)"
+ 
+ #: VirtualMailManager/cli/subcommands.py:985
+ #: VirtualMailManager/cli/subcommands.py:1007
+ #: VirtualMailManager/cli/subcommands.py:1027
+ #: VirtualMailManager/cli/subcommands.py:1046
+ msgid "a destination's e-mail address (local-part@fqdn)"
+-msgstr "en destinations e-postadress (local-part@fqdn)"
++msgstr "en destinations e-postadress (lokaldel@FQDN)"
+ 
+ #: VirtualMailManager/cli/subcommands.py:989
+ msgid "show the destination(s) of the specified alias"
+@@ -1002,7 +1004,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:990
+ msgid "Information about the alias with the given address can be displayed with this subcommand."
+-msgstr "Information om aliaset med den angivna adressen kan visas med detta underkommando."
++msgstr "Med detta underkommando kan du visa information om aliaset med den angivna adressen."
+ 
+ #: VirtualMailManager/cli/subcommands.py:997
+ msgid "delete the specified alias e-mail address or one of its destinations"
+@@ -1016,11 +1018,11 @@
+ msgstr ""
+ "Detta underkommando används för att ta bort en eller flera destinationer från aliaset med den angivna adressen.\n"
+ "\n"
+-"När ingen destinationsadress angavs tas aliaset med alla dess destinationer bort."
++"När ingen destinationsadress anges tas aliaset med alla dess destinationer bort."
+ 
+ #: VirtualMailManager/cli/subcommands.py:1014
+ msgid "add one or more catch-all destinations for a domain"
+-msgstr "lägg till en eller flera matcha-alla-destinationer för en domän"
++msgstr "lägg till en eller flera uppsamlingsdestinationer för en domän"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1015
+ msgid ""
+@@ -1028,59 +1030,59 @@
+ "\n"
+ "WARNING: Catch-all addresses can cause mail server flooding because spammers like to deliver mail to all possible combinations of names, e.g. to all addresses between abba@example.org and zztop@example.org."
+ msgstr ""
+-"Detta underkommando möjliggör att ange destinationsadresser för en domän, som ska ta emot e-post adresserad till okända lokaldelar inom den domänen. Dessa matcha-alla-alias kommer därför att ”fånga allt” till vilken adress som helst i domänen (om inte ett mer specifikt alias, en brevlåda eller en omplacerad post finns).\n"
+-"\n"
+-"VARNING: Matcha-alla-adresser kan orsaka överbelastning av e-postservern eftersom spammare gärna skickar e-post till alla möjliga namn, t.ex. till alla adresser mellan abba@example.org och zztop@example.org."
++"Med detta underkommando kan du ange destinationsadresser för en domän som ska ta emot e-post adresserad till okända lokaldelar i domänen. Dessa uppsamlingsalias tar därmed emot e-post till alla adresser i domänen, om det inte finns ett mer specifikt alias, en brevlåda eller en omdirigerad post.\n"
++"\n"
++"VARNING: Uppsamlingsadresser kan överbelasta e-postservern eftersom spammare gärna skickar e-post till alla möjliga namnkombinationer, till exempel alla adresser mellan abba@example.org och zztop@example.org."
+ 
+ #: VirtualMailManager/cli/subcommands.py:1031
+ msgid "show the catch-all destination(s) of the specified domain"
+-msgstr "visa matcha-alla-destinationen för den angivna domänen"
++msgstr "visa uppsamlingsdestinationerna för den angivna domänen"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1033
+ msgid "This subcommand displays information about catch-all aliases defined for a domain."
+-msgstr "Detta underkommando visar information om matcha-alla-alias definierade för en domän."
++msgstr "Detta underkommando visar information om uppsamlingsalias som har definierats för en domän."
+ 
+ #: VirtualMailManager/cli/subcommands.py:1039
+ msgid "delete the specified catch-all destination or all of a domain's destinations"
+-msgstr "ta bort den angivna matcha-alla-destinationen eller en domäns alla destinationer"
++msgstr "ta bort angiven uppsamlingsdestination eller alla en domäns destinationer"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1041
+ msgid "With this subcommand, catch-all aliases defined for a domain can be removed, either all of them, or those destinations which were specified explicitly."
+-msgstr "Med detta underkommando kan matcha-alla-alias definierade för en domän tas bort, antingen allihop eller de destinationer som angavs uttryckligen."
++msgstr "Med detta underkommando kan du ta bort uppsamlingsalias som har definierats för en domän, antingen alla eller de uttryckligen angivna destinationerna."
+ 
+ #: VirtualMailManager/cli/subcommands.py:1053
+ msgid "create a new record for a relocated user"
+-msgstr "skapa en ny post för en omplacerad användare"
++msgstr "skapa en ny post för en omdirigerad användare"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1054
+ msgid "A new relocated user can be created with this subcommand."
+-msgstr "En ny omplacerad användare kan skapas med detta underkommando."
++msgstr "Med detta underkommando kan du skapa en ny omdirigerad användare."
+ 
+ #: VirtualMailManager/cli/subcommands.py:1056
+ #: VirtualMailManager/cli/subcommands.py:1066
+ #: VirtualMailManager/cli/subcommands.py:1074
+ msgid "a relocated user's e-mail address (local-part@fqdn)"
+-msgstr "en omplacerad användares e-postadress (local-part@fqdn)"
++msgstr "en omdirigerad användares e-postadress (lokaldel@FQDN)"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1059
+ msgid "e-mail address where the user can be reached now"
+-msgstr "e-postadress där användaren kan nås nu"
++msgstr "e-postadress där användaren nu kan nås"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1063
+ msgid "print information about a relocated user"
+-msgstr "skriv ut information om en omplacerad användare"
++msgstr "skriv ut information om en omdirigerad användare"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1064
+ msgid "This subcommand shows the new address of the relocated user with the given address."
+-msgstr "Detta underkommando visar den nya adressen för den omplacerade användaren med den angivna adressen."
++msgstr "Detta underkommando visar den nya adressen för den omdirigerade användaren med den angivna adressen."
+ 
+ #: VirtualMailManager/cli/subcommands.py:1071
+ msgid "delete the record of the relocated user"
+-msgstr "ta bort posten för den omplacerade användaren"
++msgstr "ta bort posten för den omdirigerade användaren"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1072
+ msgid "Use this subcommand in order to delete the relocated user with the given address."
+-msgstr "Använd detta underkommando för att ta bort den omplacerade användaren med den angivna adressen."
++msgstr "Använd detta underkommando för att ta bort den omdirigerade användaren med den angivna adressen."
+ 
+ #. TP: e.g.: [  0.00%] 21.09 KiB/1.00 GiB
+ #: VirtualMailManager/cli/subcommands.py:1128
+@@ -1106,7 +1108,7 @@
+ #: VirtualMailManager/cli/subcommands.py:1227
+ #: VirtualMailManager/cli/subcommands.py:1271
+ msgid "\tNone"
+-msgstr "\tIngen"
++msgstr "\tInga"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1183
+ msgid "Alias information"
+@@ -1115,29 +1117,29 @@
+ #: VirtualMailManager/cli/subcommands.py:1185
+ #, python-format
+ msgid "\tMail for %s will be redirected to:"
+-msgstr "\tPost till %s kommer att omdirigeras till:"
++msgstr "\tPost till %s omdirigeras till:"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1192
+ msgid "Catch-all information"
+-msgstr "Matcha-alla-information"
++msgstr "Information om uppsamling"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1194
+ #, python-format
+ msgid "\tMail to unknown local-parts in domain %s will be sent to:"
+-msgstr "\tPost till okända lokala delar i domän %s kommer att skickas till:"
++msgstr "\tPost till okända lokaldelar i domänen %s skickas till:"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1202
+ msgid "Relocated information"
+-msgstr "Omplaceringsinformation"
++msgstr "Omdirigeringsinformation"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1204
+ #, python-format
+ msgid "\tUser '%(addr)s' has moved to '%(dest)s'"
+-msgstr "\tAnvändare ”%(addr)s” har flyttat till ”%(dest)s”"
++msgstr "\tAnvändaren ”%(addr)s” har flyttat till ”%(dest)s”"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1218
+ msgid "Existing domains"
+-msgstr "Existerande domäner"
++msgstr "Befintliga domäner"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1218
+ msgid "Matching domains"
+@@ -1153,11 +1155,11 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:1238
+ msgid "user accounts and relocated users"
+-msgstr "användarkonton och omplacerade användare"
++msgstr "användarkonton och omdirigerade användare"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1239
+ msgid "aliases and relocated users"
+-msgstr "alias och omplacerade användare"
++msgstr "alias och omdirigerade användare"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1240
+ msgid "addresses"
+@@ -1176,7 +1178,7 @@
+ #: VirtualMailManager/cli/subcommands.py:1249
+ #, python-format
+ msgid "Invalid address type for list: '%s'"
+-msgstr "Ogiltig adresstyp för lista: ”%s”"
++msgstr "ogiltig adresstyp för listning: ”%s”"
+ 
+ #. TP: the letters 'u', 'a' and 'r' are abbreviations of user,
+ #. alias and relocated user
+@@ -1194,7 +1196,7 @@
+ 
+ #: VirtualMailManager/cli/subcommands.py:1277
+ msgid "Alias domain information"
+-msgstr "Aliasdomäninformation"
++msgstr "Information om aliasdomän"
+ 
+ #: VirtualMailManager/cli/subcommands.py:1283
+ #, python-format
+@@ -1208,12 +1210,12 @@
+ #: VirtualMailManager/common.py:62
+ #, python-format
+ msgid "No such file: '%s'"
+-msgstr "Ingen sådan fil: ”%s”"
++msgstr "ingen sådan fil: ”%s”"
+ 
+ #: VirtualMailManager/common.py:65
+ #, python-format
+ msgid "File is not executable: '%s'"
+-msgstr "Filen är inte körbar: ”%s”"
++msgstr "filen är inte körbar: ”%s”"
+ 
+ #: VirtualMailManager/common.py:82
+ msgid "GiB"
+@@ -1249,17 +1251,17 @@
+ #: VirtualMailManager/common.py:217
+ #, python-format
+ msgid "%s [domain default]"
+-msgstr "%s [domänstandard]"
++msgstr "%s [domänens standardvärde]"
+ 
+ #: VirtualMailManager/config.py:90
+ #, python-format
+ msgid "Not a boolean: '%s'"
+-msgstr "Inte ett booleskt värde: ”%s”"
++msgstr "inte ett booleskt värde: ”%s”"
+ 
+ #: VirtualMailManager/config.py:128
+ #, python-format
+ msgid "Bad format: '%s' - expected: section.option"
+-msgstr "Felaktigt format: ”%s” - förväntat: avsnitt.flagga"
++msgstr "felaktigt format: ”%s” – förväntat: avsnitt.alternativ"
+ 
+ #: VirtualMailManager/config.py:373
+ #, python-format
+@@ -1269,43 +1271,43 @@
+ #: VirtualMailManager/config.py:383 VirtualMailManager/config.py:391
+ #, python-format
+ msgid "Check of configuration file %s failed.\n"
+-msgstr "Kontroll av konfigurationsfil %s misslyckades.\n"
++msgstr "kontroll av konfigurationsfilen %s misslyckades.\n"
+ 
+ #: VirtualMailManager/config.py:385
+ msgid "Missing options, which have no default value.\n"
+-msgstr "Saknar flaggor som saknar standardvärden.\n"
++msgstr "alternativ utan standardvärde saknas.\n"
+ 
+ #: VirtualMailManager/config.py:393 VirtualMailManager/config.py:395
+ msgid "Invalid configuration values.\n"
+-msgstr "Ogiltiga konfigurationsvärden.\n"
++msgstr "ogiltiga konfigurationsvärden.\n"
+ 
+ #: VirtualMailManager/config.py:441 VirtualMailManager/config.py:471
+ #, python-format
+ msgid "Unknown pgsql SSL mode: '%s'"
+-msgstr "Okänt pgsql SSL-läge: ”%s”"
++msgstr "okänt pgsql-SSL-läge: ”%s”"
+ 
+ #: VirtualMailManager/config.py:448 VirtualMailManager/config.py:484
+ #: VirtualMailManager/maillocation.py:68
+ #, python-format
+ msgid "Unsupported mailbox format: '%s'"
+-msgstr "Brevlådeformat stöds inte: ”%s”"
++msgstr "brevlådeformatet stöds inte: ”%s”"
+ 
+ #: VirtualMailManager/config.py:464 VirtualMailManager/handler.py:252
+ #: VirtualMailManager/handler.py:328 VirtualMailManager/handler.py:333
+ #: VirtualMailManager/handler.py:361
+ #, python-format
+ msgid "No such directory: %s"
+-msgstr "Ingen sådan katalog: %s"
++msgstr "ingen sådan katalog: %s"
+ 
+ #: VirtualMailManager/config.py:495
+ #, python-format
+ msgid "Not a valid size value: '%s'"
+-msgstr "Inte ett giltigt storleksvärde: ”%s”"
++msgstr "inte ett giltigt storleksvärde: ”%s”"
+ 
+ #: VirtualMailManager/config.py:507
+ #, python-format
+ msgid "Not a valid Dovecot version: '%s'"
+-msgstr "Inte en giltig Dovecot-version: ”%s”"
++msgstr "inte en giltig Dovecot-version: ”%s”"
+ 
+ #: VirtualMailManager/config.py:510
+ #, python-format
+@@ -1320,7 +1322,7 @@
+ #: VirtualMailManager/domain.py:117
+ #, python-format
+ msgid "There are %(account_count)u accounts, %(alias_count)u aliases and %(relocated_count)u relocated users."
+-msgstr "Det finns %(account_count)u konton, %(alias_count)u alias och %(relocated_count)u omplacerade användare."
++msgstr "Det finns %(account_count)u konton, %(alias_count)u alias och %(relocated_count)u omdirigerade användare."
+ 
+ #: VirtualMailManager/domain.py:132
+ #, python-format
+@@ -1339,27 +1341,27 @@
+ #: VirtualMailManager/emailaddress.py:72
+ #, python-format
+ msgid "Missing the '@' sign in address: '%s'"
+-msgstr "Saknar snabel-a ”@” i adress: ”%s”"
++msgstr "tecknet ”@” saknas i adressen: ”%s”"
+ 
+ #: VirtualMailManager/emailaddress.py:75
+ #, python-format
+ msgid "Too many '@' signs in address: '%s'"
+-msgstr "För många snabel-a ”@” i adress: ”%s”"
++msgstr "för många ”@”-tecken i adressen: ”%s”"
+ 
+ #: VirtualMailManager/emailaddress.py:78
+ #, python-format
+ msgid "Missing local-part in address: '%s'"
+-msgstr "Saknar lokal-del i adress: ”%s”"
++msgstr "lokaldelen saknas i adressen: ”%s”"
+ 
+ #: VirtualMailManager/emailaddress.py:81
+ #, python-format
+ msgid "Missing domain name in address: '%s'"
+-msgstr "Saknar domännamn i adress: ”%s”"
++msgstr "domännamnet saknas i adressen: ”%s”"
+ 
+ #: VirtualMailManager/emailaddress.py:144
+ #, python-format
+ msgid "The local-part '%s' is too long."
+-msgstr "Lokaldelen ”%s” är allt för lång."
++msgstr "lokaldelen ”%s” är för lång."
+ 
+ #: VirtualMailManager/emailaddress.py:149
+ #, python-format
+@@ -1369,7 +1371,7 @@
+ #: VirtualMailManager/ext/postconf.py:83
+ #, python-format
+ msgid "The value '%s' does not look like a valid Postfix configuration parameter name."
+-msgstr "Värdet ”%s” ser inte ut som ett giltigt namn på en Postfix-konfigurationsparameter."
++msgstr "värdet ”%s” ser inte ut som ett giltigt Postfix-konfigurationsparameternamn."
+ 
+ #: VirtualMailManager/handler.py:57
+ msgid "an account"
+@@ -1381,7 +1383,7 @@
+ 
+ #: VirtualMailManager/handler.py:59
+ msgid "a relocated user"
+-msgstr "en omplacerad användare"
++msgstr "en omdirigerad användare"
+ 
+ #: VirtualMailManager/handler.py:84
+ msgid ""
+@@ -1389,12 +1391,12 @@
+ "\tGood bye!\n"
+ msgstr ""
+ "Du är inte root.\n"
+-"\tHejdå!\n"
++"\tHej då!\n"
+ 
+ #: VirtualMailManager/handler.py:103
+ #, python-format
+ msgid "Could not find '%(cfg_file)s' in: '%(cfg_path)s'"
+-msgstr "Det gick inte att hitta ”%(cfg_file)s” i: ”%(cfg_path)s”"
++msgstr "kunde inte hitta ”%(cfg_file)s” i ”%(cfg_path)s”"
+ 
+ #. TP: Please keep the backticks around the command. `chmod 0600 …`
+ #: VirtualMailManager/handler.py:116
+@@ -1403,8 +1405,8 @@
+ "wrong permissions for '%(file)s': %(perms)s\n"
+ "`chmod 0600 %(file)s` would be great."
+ msgstr ""
+-"felaktiga rättigheter för ”%(file)s”: %(perms)s\n"
+-"”chmod 0600 %(file)s” hade varit utmärkt."
++"felaktiga behörigheter för ”%(file)s”: %(perms)s\n"
++"`chmod 0600 %(file)s` rekommenderas."
+ 
+ #: VirtualMailManager/handler.py:137
+ #, python-format
+@@ -1413,7 +1415,7 @@
+ "(%(cfg_file)s: section 'misc', option 'base_directory')"
+ msgstr ""
+ "”%(path)s” är inte en katalog.\n"
+-"(%(cfg_file)s: avsnitt ”misc”, flagga ”base_directory”)"
++"(%(cfg_file)s: avsnitt ”misc”, alternativ ”base_directory”)"
+ 
+ #: VirtualMailManager/handler.py:146
+ #, python-format
+@@ -1422,7 +1424,7 @@
+ "(%(cfg_file)s: section 'bin', option '%(option)s')"
+ msgstr ""
+ "\n"
+-"(%(cfg_file)s: avsnitt ”bin”, flagga ”%(option)s”)"
++"(%(cfg_file)s: avsnitt ”bin”, alternativ ”%(option)s”)"
+ 
+ #. TP: %(a_type)s will be one of: 'an account', 'an alias' or
+ #. 'a relocated user'
+@@ -1443,7 +1445,7 @@
+ 
+ #: VirtualMailManager/handler.py:300
+ msgid "Skipped mailbox folders:"
+-msgstr "Överhoppade brevlådekataloger:"
++msgstr "Överhoppade brevlådemappar:"
+ 
+ #: VirtualMailManager/handler.py:320
+ #, python-format
+@@ -1453,11 +1455,11 @@
+ #: VirtualMailManager/handler.py:325 VirtualMailManager/handler.py:358
+ #, python-format
+ msgid "Found \"..\" in domain directory path: %s"
+-msgstr "Hittade ”..” i domänkatalogens sökväg: %s"
++msgstr "hittade ”..” i domänkatalogens sökväg: %s"
+ 
+ #: VirtualMailManager/handler.py:338
+ msgid "Detected owner/group mismatch in home directory."
+-msgstr "Identifierade felaktig ägar-/gruppöverensstämmelse i hemkatalog."
++msgstr "upptäckte att ägare och grupp inte stämmer överens i hemkatalogen."
+ 
+ #: VirtualMailManager/handler.py:354
+ #, python-format
+@@ -1467,7 +1469,7 @@
+ #: VirtualMailManager/handler.py:365
+ #, python-format
+ msgid "Detected group mismatch in domain directory: %s"
+-msgstr "Identifierade felaktig gruppöverensstämmelse i domänkatalog: %s"
++msgstr "upptäckte att gruppen inte stämmer överens i domänkatalogen: %s"
+ 
+ #: VirtualMailManager/handler.py:435
+ #, python-format
+@@ -1478,12 +1480,12 @@
+ #: VirtualMailManager/handler.py:867 VirtualMailManager/handler.py:874
+ #, python-format
+ msgid "Unknown service: '%s'"
+-msgstr "Okänd tjänst: ”%s”"
++msgstr "okänd tjänst: ”%s”"
+ 
+ #: VirtualMailManager/handler.py:491 VirtualMailManager/handler.py:752
+ #, python-format
+ msgid "Invalid argument: '%s'"
+-msgstr "Ogiltigt argument: ”%s”"
++msgstr "ogiltigt argument: ”%s”"
+ 
+ #: VirtualMailManager/handler.py:571 VirtualMailManager/handler.py:592
+ #: VirtualMailManager/handler.py:603
+@@ -1494,13 +1496,13 @@
+ #: VirtualMailManager/handler.py:635 VirtualMailManager/handler.py:700
+ #: VirtualMailManager/handler.py:714 VirtualMailManager/handler.py:744
+ msgid "Ignored destination addresses:"
+-msgstr "Hoppade över destinationsadresser:"
++msgstr "Ignorerade destinationsadresser:"
+ 
+ #: VirtualMailManager/handler.py:640 VirtualMailManager/handler.py:719
+ #: VirtualMailManager/handler.py:891
+ #, python-format
+ msgid "The destination account/alias '%s' does not exist."
+-msgstr "Destinationskonto/alias ”%s” finns inte."
++msgstr "destinationskontot eller -aliaset ”%s” finns inte."
+ 
+ #: VirtualMailManager/handler.py:664
+ #, python-format
+@@ -1510,20 +1512,20 @@
+ "    '%(directory)s'\n"
+ "    Reason: %(reason)s"
+ msgstr ""
+-"Kontot har framgångsrikt tagits bort från databasen.\n"
+-"    Men ett fel inträffade vid borttagning av följande katalog:\n"
++"Kontot har tagits bort från databasen.\n"
++"    Men ett fel inträffade när följande katalog skulle tas bort:\n"
+ "    ”%(directory)s”\n"
+ "    Orsak: %(reason)s"
+ 
+ #: VirtualMailManager/handler.py:791
+ #, python-brace-format
+ msgid "Missing {SCHEME} prefix from password hash."
+-msgstr "Saknar {SCHEME}-prefix i lösenordshashen."
++msgstr "prefixet {SCHEME} saknas i lösenordshashen."
+ 
+ #: VirtualMailManager/handler.py:836
+ #, python-format
+ msgid "Could not accept transport: '%s'"
+-msgstr "Det gick inte att acceptera transport: ”%s”"
++msgstr "kunde inte godta transporten ”%s”"
+ 
+ #: VirtualMailManager/handler.py:849
+ #, python-format
+@@ -1534,36 +1536,36 @@
+ #: VirtualMailManager/relocated.py:112
+ #, python-format
+ msgid "The relocated user '%s' does not exist."
+-msgstr "Den omplacerade användaren ”%s” finns inte."
++msgstr "den omdirigerade användaren ”%s” finns inte."
+ 
+ #: VirtualMailManager/mailbox.py:259
+ #, python-format
+ msgid "Failed to create mailboxes: %r\n"
+-msgstr "Misslyckades med att skapa brevlådor: %r\n"
++msgstr "misslyckades med att skapa brevlådorna: %r\n"
+ 
+ #: VirtualMailManager/maillocation.py:72
+ msgid "Empty directory name"
+-msgstr "Tomt katalognamn"
++msgstr "tomt katalognamn"
+ 
+ #: VirtualMailManager/maillocation.py:74
+ #, python-format
+ msgid "Directory name is too long: '%s'"
+-msgstr "Katalognamn är för långt: ”%s”"
++msgstr "katalognamnet är för långt: ”%s”"
+ 
+ #: VirtualMailManager/password.py:356
+ #, python-format
+ msgid "Unsupported password scheme: '%s'"
+-msgstr "Lösenordsschema stöds inte: ”%s”"
++msgstr "lösenordsschemat stöds inte: ”%s”"
+ 
+ #: VirtualMailManager/password.py:359
+ #, python-format
+ msgid "The password scheme '%(scheme)s' requires Dovecot >= v%(version)s."
+-msgstr "Lösenordsschema ”%(scheme)s” kräver Dovecot >= v%(version)s."
++msgstr "lösenordsschemat ”%(scheme)s” kräver Dovecot >= v%(version)s."
+ 
+ #: VirtualMailManager/password.py:365
+ #, python-format
+ msgid "Unsupported password encoding: '%s'"
+-msgstr "Lösenordskodning stöds inte: ”%s”"
++msgstr "lösenordskodningen stöds inte: ”%s”"
+ 
+ #: VirtualMailManager/relocated.py:61 VirtualMailManager/relocated.py:75
+ msgid "The destination address' domain name must not be localhost."
+@@ -1571,9 +1573,9 @@
+ 
+ #: VirtualMailManager/relocated.py:78
+ msgid "Address and destination are identical."
+-msgstr "Adress och destination är identiska."
++msgstr "adressen och destinationen är identiska."
+ 
+ #: VirtualMailManager/relocated.py:82
+ #, python-format
+ msgid "The relocated user '%s' already exists."
+-msgstr "Den omplacerade användaren ”%s” finns redan."
++msgstr "den omdirigerade användaren ”%s” finns redan."

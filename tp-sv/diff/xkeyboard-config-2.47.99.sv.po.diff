@@ -1,0 +1,1587 @@
+--- a/xkeyboard-config-2.47.99.sv.po
++++ b/xkeyboard-config-2.47.99.sv.po
+@@ -22,27 +22,27 @@
+ 
+ #: rules/base.xml:9
+ msgid "Generic 86-key PC"
+-msgstr "Allmän 86-tangenters PC"
++msgstr "Allmän PC med 86 tangenter"
+ 
+ #: rules/base.xml:16
+ msgid "Generic 101-key PC"
+-msgstr "Allmän 101-tangenters PC"
++msgstr "Allmän PC med 101 tangenter"
+ 
+ #: rules/base.xml:23
+ msgid "Generic 102-key PC"
+-msgstr "Allmän 102-tangenters PC"
++msgstr "Allmän PC med 102 tangenter"
+ 
+ #: rules/base.xml:30
+ msgid "Generic 104-key PC"
+-msgstr "Allmän 104-tangenters PC"
++msgstr "Allmän PC med 104 tangenter"
+ 
+ #: rules/base.xml:37
+ msgid "Generic 104-key PC with L-shaped Enter key"
+-msgstr "Allmän 104-tangenters PC med L-formad returtangent"
++msgstr "Allmän PC med 104 tangenter och L-formad returtangent"
+ 
+ #: rules/base.xml:44
+ msgid "Generic 105-key PC"
+-msgstr "Allmän 105-tangenters PC"
++msgstr "Allmän PC med 105 tangenter"
+ 
+ #: rules/base.xml:51
+ msgid "A4Tech KB-21"
+@@ -70,7 +70,7 @@
+ 
+ #: rules/base.xml:93
+ msgid "Acer laptop"
+-msgstr "Bärbar Acer-dator"
++msgstr "Acer-bärbar dator"
+ 
+ #: rules/base.xml:100
+ msgid "Advance Scorpius KI"
+@@ -94,7 +94,7 @@
+ 
+ #: rules/base.xml:135
+ msgid "Asus laptop"
+-msgstr "Bärbar Asus-dator"
++msgstr "Asus-bärbar dator"
+ 
+ #: rules/base.xml:142
+ msgid "Azona RF2300 Wireless Internet"
+@@ -114,7 +114,7 @@
+ 
+ #: rules/base.xml:170
+ msgid "Brazilian ABNT2"
+-msgstr "Brasiliansk ABNT2"
++msgstr "Brasilianskt ABNT2-tangentbord"
+ 
+ #: rules/base.xml:177
+ msgid "Brother Internet"
+@@ -162,7 +162,7 @@
+ 
+ #: rules/base.xml:254
+ msgid "Cherry Blue Line CyBo@rd (alt.)"
+-msgstr "Cherry Blue Line CyBo@rd (alternativ)"
++msgstr "Cherry Blue Line CyBo@rd (alt.)"
+ 
+ #: rules/base.xml:261
+ msgid "Cherry B.UNLIMITED"
+@@ -210,7 +210,7 @@
+ 
+ #: rules/base.xml:338
+ msgid "Compaq Armada laptop"
+-msgstr "Compaq Armada bärbar dator"
++msgstr "Compaq Armada-bärbar dator"
+ 
+ #: rules/base.xml:345
+ msgid "Compaq Easy Access"
+@@ -234,7 +234,7 @@
+ 
+ #: rules/base.xml:380
+ msgid "Compaq Presario laptop"
+-msgstr "Compaq Presario bärbar dator"
++msgstr "Compaq Presario-bärbar dator"
+ 
+ #: rules/base.xml:387
+ msgid "Creative Desktop Wireless 7000"
+@@ -246,11 +246,11 @@
+ 
+ #: rules/base.xml:401
+ msgid "Dell 101-key PC"
+-msgstr "Dell 101-tangenters PC"
++msgstr "Dell PC med 101 tangenter"
+ 
+ #: rules/base.xml:408
+ msgid "Dell Latitude laptop"
+-msgstr "Bärbar Dell Latitude-dator"
++msgstr "Dell Latitude-bärbar dator"
+ 
+ #: rules/base.xml:415
+ msgid "Dell Inspiron 6000/8000 laptop"
+@@ -258,11 +258,11 @@
+ 
+ #: rules/base.xml:422
+ msgid "Dell Precision M laptop"
+-msgstr "Bärbar Dell Precision M-dator"
++msgstr "Dell Precision M-bärbar dator"
+ 
+ #: rules/base.xml:429
+ msgid "Dell Precision M65 laptop"
+-msgstr "Bärbar Dell Precision M65-dator"
++msgstr "Dell Precision M65-bärbar dator"
+ 
+ #: rules/base.xml:436
+ msgid "Dell SK-8125"
+@@ -410,7 +410,7 @@
+ 
+ #: rules/base.xml:688
+ msgid "Japanese 106-key"
+-msgstr "Japansk 106-tangenters"
++msgstr "Japanskt tangentbord med 106 tangenter"
+ 
+ #: rules/base.xml:695
+ msgid "Keytronic FlexPro"
+@@ -422,7 +422,7 @@
+ 
+ #: rules/base.xml:709
+ msgid "Korean 106-key"
+-msgstr "Koreansk 106-tangenters"
++msgstr "Koreanskt tangentbord med 106 tangenter"
+ 
+ #: rules/base.xml:716
+ msgid "Logitech"
+@@ -562,7 +562,7 @@
+ 
+ #: rules/base.xml:962
+ msgid "Microsoft Office Keyboard"
+-msgstr "Microsoft Office-tangentbord"
++msgstr "Microsoft Office Keyboard"
+ 
+ #: rules/base.xml:969
+ msgid "Microsoft Surface"
+@@ -630,7 +630,7 @@
+ 
+ #: rules/base.xml:1081
+ msgid "Silvercrest Multimedia Wireless"
+-msgstr "SILVERCREST Multimedia Wireless"
++msgstr "Silvercrest Multimedia Wireless"
+ 
+ #: rules/base.xml:1088
+ msgid "SteelSeries Apex 300 (Apex RAW)"
+@@ -666,7 +666,7 @@
+ 
+ #: rules/base.xml:1144
+ msgid "Sun Type 7 USB (Japanese)/Japanese 106-key"
+-msgstr "Sun Type 7 USB (japansk)/Japansk 106-tangenters"
++msgstr "Sun Type 7 USB (japansk)/japanskt tangentbord med 106 tangenter"
+ 
+ #: rules/base.xml:1151
+ msgid "Sun Type 7 USB (Unix)"
+@@ -686,7 +686,7 @@
+ 
+ #: rules/base.xml:1179
+ msgid "Symplon PaceBook tablet"
+-msgstr "Symplon PaceBook tablet"
++msgstr "Symplon PaceBook-surfplatta"
+ 
+ #: rules/base.xml:1186
+ msgid "Targa Visionary 811"
+@@ -840,7 +840,7 @@
+ 
+ #: rules/base.xml:1452
+ msgid "Arabic (Macintosh, phonetic)"
+-msgstr "Arabisk (fonetisk Macintosh)"
++msgstr "Arabisk (Macintosh, fonetisk)"
+ 
+ #: rules/base.xml:1458
+ msgid "Arabic (OLPC)"
+@@ -895,11 +895,11 @@
+ 
+ #: rules/base.xml:1568
+ msgid "Berber (Morocco, Tifinagh alt.)"
+-msgstr "Berberisk (Marocko, Tifinagh-aternativ)"
++msgstr "Berberisk (Marocko, alternativ Tifinagh)"
+ 
+ #: rules/base.xml:1579
+ msgid "Berber (Morocco, Tifinagh phonetic, alt.)"
+-msgstr "Berberisk (Marocko, Tifinagh fonetisk, alternativ)"
++msgstr "Berberisk (Marocko, alternativ fonetisk Tifinagh)"
+ 
+ #: rules/base.xml:1590
+ msgid "Berber (Morocco, Tifinagh extended)"
+@@ -1073,7 +1073,7 @@
+ 
+ #: rules/base.xml:1888
+ msgid "Belgian (no dead keys)"
+-msgstr "Belgisk (inga stumma tangenter)"
++msgstr "Belgisk (inga döda tangenter)"
+ 
+ #: rules/base.xml:1894
+ msgid "Belgian (Wang 724 AZERTY)"
+@@ -1095,15 +1095,15 @@
+ 
+ #: rules/base.xml:1929
+ msgid "Kabyle (AZERTY, with dead keys)"
+-msgstr "Kabylisk (AZERTY, med stumma tangenter)"
++msgstr "Kabylisk (AZERTY, med döda tangenter)"
+ 
+ #: rules/base.xml:1939
+ msgid "Kabyle (QWERTY, UK, with dead keys)"
+-msgstr "Kabylisk (QWERTY, Storbritannien, med stumma tangenter)"
++msgstr "Kabylisk (QWERTY, Storbritannien, med döda tangenter)"
+ 
+ #: rules/base.xml:1949
+ msgid "Kabyle (QWERTY, US, with dead keys)"
+-msgstr "Kabylisk (QWERTY, USA, med stumma tangenter)"
++msgstr "Kabylisk (QWERTY, USA, med döda tangenter)"
+ 
+ #: rules/base.xml:1960
+ msgid "Arabic (Algeria)"
+@@ -1145,19 +1145,19 @@
+ 
+ #: rules/base.xml:2019
+ msgid "Braille (one-handed, left)"
+-msgstr "Punktskrift (en hand. vänster)"
++msgstr "Punktskrift (enhands, vänster)"
+ 
+ #: rules/base.xml:2025
+ msgid "Braille (one-handed, left, inverted thumb)"
+-msgstr "Punktskrift (en hand, vänster, omvänd tumme)"
++msgstr "Punktskrift (enhands, vänster, omvänd tumme)"
+ 
+ #: rules/base.xml:2031
+ msgid "Braille (one-handed, right)"
+-msgstr "Punktskrift (en hand, höger)"
++msgstr "Punktskrift (enhands, höger)"
+ 
+ #: rules/base.xml:2037
+ msgid "Braille (one-handed, right, inverted thumb)"
+-msgstr "Punktskrift (en hand, höger, omvänd tumme)"
++msgstr "Punktskrift (enhands, höger, omvänd tumme)"
+ 
+ #. Keyboard indicator for Bulgarian layouts
+ #: rules/base.xml:2046
+@@ -1248,7 +1248,7 @@
+ 
+ #: rules/base.xml:2175
+ msgid "Hanyu Pinyin Letters (with AltGr dead keys)"
+-msgstr "Hanyu Pinyin-bokstäver (med stumma AltGr-tangenter)"
++msgstr "Hanyu Pinyin-bokstäver (med döda AltGr-tangenter)"
+ 
+ #: rules/base.xml:2184
+ msgid "Mongolian (Bichig)"
+@@ -1284,7 +1284,7 @@
+ 
+ #: rules/base.xml:2256
+ msgid "Tibetan (with ASCII numerals)"
+-msgstr "Tibetansk (med ASCII-taltecken)"
++msgstr "Tibetansk (med ASCII-siffror)"
+ 
+ #. Keyboard indicator for Uigur layouts
+ #: rules/base.xml:2266
+@@ -1387,7 +1387,7 @@
+ 
+ #: rules/base.xml:2407
+ msgid "Danish (no dead keys)"
+-msgstr "Dansk (inga stumma tangenter)"
++msgstr "Dansk (inga döda tangenter)"
+ 
+ #: rules/base.xml:2413
+ msgid "Danish (Windows)"
+@@ -1399,7 +1399,7 @@
+ 
+ #: rules/base.xml:2425
+ msgid "Danish (Macintosh, no dead keys)"
+-msgstr "Dansk (Macintosh, inga stumma tangenter)"
++msgstr "Dansk (Macintosh, inga döda tangenter)"
+ 
+ #: rules/base.xml:2431
+ msgid "Danish (Dvorak)"
+@@ -1430,19 +1430,19 @@
+ 
+ #: rules/base.xml:2466
+ msgid "Uzbek (Afghanistan)"
+-msgstr "Uzbekisk (Afganistan)"
++msgstr "Uzbekisk (Afghanistan)"
+ 
+ #: rules/base.xml:2477
+ msgid "Dari (Afghanistan, OLPC)"
+-msgstr "Dari (Afganistan, OLPC)"
++msgstr "Dari (Afghanistan, OLPC)"
+ 
+ #: rules/base.xml:2485
+ msgid "Pashto (Afghanistan, OLPC)"
+-msgstr "Pashto (Afganistan, OLPC)"
++msgstr "Pashto (Afghanistan, OLPC)"
+ 
+ #: rules/base.xml:2496
+ msgid "Uzbek (Afghanistan, OLPC)"
+-msgstr "Uzbekisk (Afganistan, OLPC)"
++msgstr "Uzbekisk (Afghanistan, OLPC)"
+ 
+ #. Keyboard indicator for Dhivehi layouts
+ #: rules/base.xml:2508
+@@ -1635,7 +1635,7 @@
+ 
+ #: rules/base.xml:2901
+ msgid "English (UK, intl., with dead keys)"
+-msgstr "Engelsk (Storbritannien, internationell, med stumma tangenter)"
++msgstr "Engelsk (Storbritannien, internationell, med döda tangenter)"
+ 
+ #: rules/base.xml:2907
+ msgid "English (UK, Dvorak)"
+@@ -1643,7 +1643,7 @@
+ 
+ #: rules/base.xml:2913
+ msgid "English (UK, Dvorak, with UK punctuation)"
+-msgstr "Engelsk (Storbritannien, Dvorak, med brittisk-engelska skiljetecken)"
++msgstr "Engelsk (Storbritannien, Dvorak, med brittisk-engelsk interpunktion)"
+ 
+ #: rules/base.xml:2919
+ msgid "English (UK, Macintosh)"
+@@ -1688,7 +1688,7 @@
+ 
+ #: rules/base.xml:2991
+ msgid "English (US, intl., with dead keys)"
+-msgstr "Engelsk (USA, internationell, med stumma tangenter)"
++msgstr "Engelsk (USA, internationell, med döda tangenter)"
+ 
+ #: rules/base.xml:2997
+ msgid "English (US, alt. intl.)"
+@@ -1696,7 +1696,7 @@
+ 
+ #: rules/base.xml:3003
+ msgid "English (intl., with AltGr dead keys)"
+-msgstr "Engelsk (internationell med stumma AltGr-tangenter)"
++msgstr "Engelsk (internationell, med döda AltGr-tangenter)"
+ 
+ #: rules/base.xml:3014
+ msgid "English (Macintosh, ABC, ANSI)"
+@@ -1736,7 +1736,7 @@
+ 
+ #: rules/base.xml:3068
+ msgid "English (Dvorak, intl., with dead keys)"
+-msgstr "Engelsk (Dvorak, internationell med stumma tangenter)"
++msgstr "Engelsk (Dvorak, internationell, med döda tangenter)"
+ 
+ #: rules/base.xml:3074
+ msgid "English (Dvorak, alt. intl.)"
+@@ -1744,11 +1744,11 @@
+ 
+ #: rules/base.xml:3080
+ msgid "English (Dvorak, one-handed, left)"
+-msgstr "Engelsk (Dvorak, en hand, vänster)"
++msgstr "Engelsk (Dvorak, enhands, vänster)"
+ 
+ #: rules/base.xml:3086
+ msgid "English (Dvorak, one-handed, right)"
+-msgstr "Engelsk (Dvorak, en hand, höger)"
++msgstr "Engelsk (Dvorak, enhands, höger)"
+ 
+ #: rules/base.xml:3092
+ msgid "English (classic Dvorak)"
+@@ -1780,7 +1780,7 @@
+ 
+ #: rules/base.xml:3134
+ msgid "English (Workman, intl., with dead keys)"
+-msgstr "Engelsk (Workman, internationell med stumma tangenter)"
++msgstr "Engelsk (Workman, internationell, med döda tangenter)"
+ 
+ #: rules/base.xml:3140
+ msgid "English (the divide/multiply toggle the layout)"
+@@ -1836,7 +1836,7 @@
+ 
+ #: rules/base.xml:3227
+ msgid "Estonian (no dead keys)"
+-msgstr "Estnisk (inga stumma tangenter)"
++msgstr "Estnisk (inga döda tangenter)"
+ 
+ #: rules/base.xml:3233
+ msgid "Estonian (Dvorak)"
+@@ -1857,7 +1857,7 @@
+ 
+ #: rules/base.xml:3261
+ msgid "Faroese (no dead keys)"
+-msgstr "Färöisk (inga stumma tangenter)"
++msgstr "Färöisk (inga döda tangenter)"
+ 
+ #. Keyboard indicator for Filipino layouts
+ #: rules/base.xml:3270
+@@ -1923,7 +1923,7 @@
+ 
+ #: rules/base.xml:3435
+ msgid "Finnish (classic, no dead keys)"
+-msgstr "Finsk (klassisk, inga stumma tangenter)"
++msgstr "Finsk (klassisk, inga döda tangenter)"
+ 
+ #: rules/base.xml:3441
+ msgid "Finnish (Macintosh)"
+@@ -1939,7 +1939,7 @@
+ 
+ #: rules/base.xml:3472
+ msgid "French (no dead keys)"
+-msgstr "Fransk (inga stumma tangenter)"
++msgstr "Fransk (inga döda tangenter)"
+ 
+ #: rules/base.xml:3478
+ msgid "French (alt.)"
+@@ -1947,7 +1947,7 @@
+ 
+ #: rules/base.xml:3484
+ msgid "French (alt., no dead keys)"
+-msgstr "Fransk (alternativ, inga stumma tangenter)"
++msgstr "Fransk (alternativ, inga döda tangenter)"
+ 
+ #: rules/base.xml:3490
+ msgid "French (alt., Latin-9 only)"
+@@ -1955,11 +1955,11 @@
+ 
+ #: rules/base.xml:3496
+ msgid "French (legacy, alt.)"
+-msgstr "Franska (äldre, alternativ)"
++msgstr "Fransk (äldre, alternativ)"
+ 
+ #: rules/base.xml:3502
+ msgid "French (legacy, alt., no dead keys)"
+-msgstr "Fransk (äldre, alternativ, inga stumma tangenter)"
++msgstr "Fransk (äldre, alternativ, inga döda tangenter)"
+ 
+ #: rules/base.xml:3508
+ msgid "French (AZERTY)"
+@@ -1995,7 +1995,7 @@
+ 
+ #: rules/base.xml:3556
+ msgid "French (Macintosh)"
+-msgstr "Franska (Macintosh)"
++msgstr "Fransk (Macintosh)"
+ 
+ #: rules/base.xml:3562
+ msgid "French (US)"
+@@ -2088,19 +2088,19 @@
+ 
+ #: rules/base.xml:3765
+ msgid "German (dead acute)"
+-msgstr "Tysk (stumma akutaccent)"
++msgstr "Tysk (död akutaccent)"
+ 
+ #: rules/base.xml:3771
+ msgid "German (dead grave acute)"
+-msgstr "Tysk (stum grav accent)"
++msgstr "Tysk (döda grav- och akutaccenter)"
+ 
+ #: rules/base.xml:3777
+ msgid "German (dead tilde)"
+-msgstr "Tysk (stumma tilde)"
++msgstr "Tysk (död tilde)"
+ 
+ #: rules/base.xml:3783
+ msgid "German (no dead keys)"
+-msgstr "Tysk (inga stumma tangenter)"
++msgstr "Tysk (inga döda tangenter)"
+ 
+ #: rules/base.xml:3789
+ msgid "German (E1)"
+@@ -2128,7 +2128,7 @@
+ 
+ #: rules/base.xml:3825
+ msgid "German (Macintosh, no dead keys)"
+-msgstr "Tysk (Macintosh, inga stumma tangenter)"
++msgstr "Tysk (Macintosh, inga döda tangenter)"
+ 
+ #: rules/base.xml:3831
+ msgid "German (Neo 2)"
+@@ -2148,11 +2148,11 @@
+ 
+ #: rules/base.xml:3861
+ msgid "Romanian (Germany)"
+-msgstr "Rumänska (Tyskland)"
++msgstr "Rumänsk (Tyskland)"
+ 
+ #: rules/base.xml:3870
+ msgid "Romanian (Germany, no dead keys)"
+-msgstr "Rumänsk (Tyskland, inga stumma tangenter)"
++msgstr "Rumänsk (Tyskland, inga döda tangenter)"
+ 
+ #: rules/base.xml:3881
+ msgid "Russian (Germany, phonetic)"
+@@ -2168,7 +2168,7 @@
+ 
+ #: rules/base.xml:3915
+ msgid "German (Austria, no dead keys)"
+-msgstr "Tysk (Österrike, inga stumma tangenter)"
++msgstr "Tysk (Österrike, inga döda tangenter)"
+ 
+ #: rules/base.xml:3921
+ msgid "German (Austria, Macintosh)"
+@@ -2180,7 +2180,7 @@
+ 
+ #: rules/base.xml:3946
+ msgid "German (Switzerland, no dead keys)"
+-msgstr "Tysk (Schweiz, inga stumma tangenter)"
++msgstr "Tysk (Schweiz, inga döda tangenter)"
+ 
+ #: rules/base.xml:3954
+ msgid "German (Switzerland, Macintosh)"
+@@ -2196,7 +2196,7 @@
+ 
+ #: rules/base.xml:3979
+ msgid "French (Switzerland, no dead keys)"
+-msgstr "Fransk (Schweiz, inga stumma tangenter)"
++msgstr "Fransk (Schweiz, inga döda tangenter)"
+ 
+ #: rules/base.xml:3990
+ msgid "French (Switzerland, Macintosh)"
+@@ -2217,7 +2217,7 @@
+ 
+ #: rules/base.xml:4021
+ msgid "Greek (no dead keys)"
+-msgstr "Grekisk (inga stumma tangenter)"
++msgstr "Grekisk (inga döda tangenter)"
+ 
+ #: rules/base.xml:4027
+ msgid "Greek (polytonic)"
+@@ -2263,7 +2263,7 @@
+ 
+ #: rules/base.xml:4095
+ msgid "Hungarian (no dead keys)"
+-msgstr "Ungersk (inga stumma tangenter)"
++msgstr "Ungersk (inga döda tangenter)"
+ 
+ #: rules/base.xml:4101
+ msgid "Hungarian (QWERTY)"
+@@ -2271,67 +2271,67 @@
+ 
+ #: rules/base.xml:4107
+ msgid "Hungarian (QWERTZ, 101-key, comma, dead keys)"
+-msgstr "Ungersk (QWERTZ, 101 tangenter, komma, stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 101 tangenter, komma, döda tangenter)"
+ 
+ #: rules/base.xml:4113
+ msgid "Hungarian (QWERTZ, 101-key, comma, no dead keys)"
+-msgstr "Ungersk (QWERTZ, 101 tangenter, komma, inga stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 101 tangenter, komma, inga döda tangenter)"
+ 
+ #: rules/base.xml:4119
+ msgid "Hungarian (QWERTZ, 101-key, dot, dead keys)"
+-msgstr "Ungersk (QWERTZ, 101 tangenter, punkt, stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 101 tangenter, punkt, döda tangenter)"
+ 
+ #: rules/base.xml:4125
+ msgid "Hungarian (QWERTZ, 101-key, dot, no dead keys)"
+-msgstr "Ungersk (QWERTZ, 101 tangenter, punkt, inga stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 101 tangenter, punkt, inga döda tangenter)"
+ 
+ #: rules/base.xml:4131
+ msgid "Hungarian (QWERTY, 101-key, comma, dead keys)"
+-msgstr "Ungersk (QWERTY, 101 tangenter, komma, stumma tangenter)"
++msgstr "Ungersk (QWERTY, 101 tangenter, komma, döda tangenter)"
+ 
+ #: rules/base.xml:4137
+ msgid "Hungarian (QWERTY, 101-key, comma, no dead keys)"
+-msgstr "Ungersk (QWERTY, 101 tangenter, komma, inga stumma tangenter)"
++msgstr "Ungersk (QWERTY, 101 tangenter, komma, inga döda tangenter)"
+ 
+ #: rules/base.xml:4143
+ msgid "Hungarian (QWERTY, 101-key, dot, dead keys)"
+-msgstr "Ungersk (QWERTY, 101 tangenter, punkt, stumma tangenter)"
++msgstr "Ungersk (QWERTY, 101 tangenter, punkt, döda tangenter)"
+ 
+ #: rules/base.xml:4149
+ msgid "Hungarian (QWERTY, 101-key, dot, no dead keys)"
+-msgstr "Ungersk (QWERTY, 101 tangenter, punkt, inga stumma tangenter)"
++msgstr "Ungersk (QWERTY, 101 tangenter, punkt, inga döda tangenter)"
+ 
+ #: rules/base.xml:4155
+ msgid "Hungarian (QWERTZ, 102-key, comma, dead keys)"
+-msgstr "Ungersk (QWERTZ, 102 tangenter, komma, stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 102 tangenter, komma, döda tangenter)"
+ 
+ #: rules/base.xml:4161
+ msgid "Hungarian (QWERTZ, 102-key, comma, no dead keys)"
+-msgstr "Ungersk (QWERTZ, 102 tangenter, komma, inga stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 102 tangenter, komma, inga döda tangenter)"
+ 
+ #: rules/base.xml:4167
+ msgid "Hungarian (QWERTZ, 102-key, dot, dead keys)"
+-msgstr "Ungersk (QWERTZ, 102 tangenter, punkt, stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 102 tangenter, punkt, döda tangenter)"
+ 
+ #: rules/base.xml:4173
+ msgid "Hungarian (QWERTZ, 102-key, dot, no dead keys)"
+-msgstr "Ungersk (QWERTZ, 102 tangenter, punkt, inga stumma tangenter)"
++msgstr "Ungersk (QWERTZ, 102 tangenter, punkt, inga döda tangenter)"
+ 
+ #: rules/base.xml:4179
+ msgid "Hungarian (QWERTY, 102-key, comma, dead keys)"
+-msgstr "Ungersk (QWERTY, 102 tangenter, komma, stumma tangenter)"
++msgstr "Ungersk (QWERTY, 102 tangenter, komma, döda tangenter)"
+ 
+ #: rules/base.xml:4185
+ msgid "Hungarian (QWERTY, 102-key, comma, no dead keys)"
+-msgstr "Ungersk (QWERTY, 102 tangenter, komma, inga stumma tangenter)"
++msgstr "Ungersk (QWERTY, 102 tangenter, komma, inga döda tangenter)"
+ 
+ #: rules/base.xml:4191
+ msgid "Hungarian (QWERTY, 102-key, dot, dead keys)"
+-msgstr "Ungersk (QWERTY, 102 tangenter, punkt, stumma tangenter)"
++msgstr "Ungersk (QWERTY, 102 tangenter, punkt, döda tangenter)"
+ 
+ #: rules/base.xml:4197
+ msgid "Hungarian (QWERTY, 102-key, dot, no dead keys)"
+-msgstr "Ungersk (QWERTY, 102 tangenter, punkt, inga stumma tangenter)"
++msgstr "Ungersk (QWERTY, 102 tangenter, punkt, inga döda tangenter)"
+ 
+ #. Keyboard indicator for Icelandic layouts
+ #: rules/base.xml:4206
+@@ -2411,7 +2411,7 @@
+ 
+ #: rules/base.xml:4410
+ msgid "Gujarati"
+-msgstr "Gujaratisk"
++msgstr "Gujarati"
+ 
+ #: rules/base.xml:4421
+ msgid "Gujarati (KaGaPa, phonetic)"
+@@ -2533,7 +2533,7 @@
+ 
+ #: rules/base.xml:4643
+ msgid "Santali (Ol Chiki)"
+-msgstr "Santali (Ol chiki)"
++msgstr "Santali (Ol Chiki)"
+ 
+ #. Keyboard indicator for Tamil layouts
+ #: rules/base.xml:4654 rules/base.xml:4665 rules/base.xml:4676
+@@ -2574,7 +2574,7 @@
+ 
+ #: rules/base.xml:4721
+ msgid "Telugu"
+-msgstr "Telugo"
++msgstr "Telugu"
+ 
+ #: rules/base.xml:4732
+ msgid "Telugu (KaGaPa, phonetic)"
+@@ -2667,7 +2667,7 @@
+ 
+ #: rules/base.xml:4916
+ msgid "Italian (no dead keys)"
+-msgstr "Italiensk (inga stumma tangenter)"
++msgstr "Italiensk (inga döda tangenter)"
+ 
+ #: rules/base.xml:4922
+ msgid "Italian (Windows)"
+@@ -2767,7 +2767,7 @@
+ 
+ #: rules/base.xml:5101
+ msgid "Korean (101/104-key compatible)"
+-msgstr "Koreansk (101/104-tangenters kompatibel)"
++msgstr "Koreansk (kompatibel med 101/104 tangenter)"
+ 
+ #. Keyboard indicator for Kyrgyz layouts
+ #. Keyboard indicator for Kikuyu layouts
+@@ -2881,7 +2881,7 @@
+ 
+ #: rules/base.xml:5289
+ msgid "Macedonian (no dead keys)"
+-msgstr "Makedonsk (inga stumma tangenter)"
++msgstr "Makedonsk (inga döda tangenter)"
+ 
+ #. Keyboard indicator for Malay layouts
+ #: rules/base.xml:5298
+@@ -3012,7 +3012,7 @@
+ 
+ #: rules/base.xml:5506
+ msgid "Norwegian (no dead keys)"
+-msgstr "Norsk (inga stumma tangenter)"
++msgstr "Norsk (inga döda tangenter)"
+ 
+ #: rules/base.xml:5512
+ msgid "Norwegian (Windows)"
+@@ -3024,7 +3024,7 @@
+ 
+ #: rules/base.xml:5524
+ msgid "Norwegian (Macintosh, no dead keys)"
+-msgstr "Norsk (Macintosh, inga stumma tangenter)"
++msgstr "Norsk (Macintosh, inga döda tangenter)"
+ 
+ #: rules/base.xml:5530
+ msgid "Norwegian (Colemak)"
+@@ -3139,7 +3139,7 @@
+ 
+ #: rules/base.xml:5752
+ msgid "Portuguese (no dead keys)"
+-msgstr "Portugisisk (inga stumma tangenter)"
++msgstr "Portugisisk (inga döda tangenter)"
+ 
+ #: rules/base.xml:5758
+ msgid "Portuguese (Macintosh)"
+@@ -3147,7 +3147,7 @@
+ 
+ #: rules/base.xml:5764
+ msgid "Portuguese (Macintosh, no dead keys)"
+-msgstr "Portugisisk (Macintosh, inga stumma tangenter)"
++msgstr "Portugisisk (Macintosh, inga döda tangenter)"
+ 
+ #: rules/base.xml:5770
+ msgid "Portuguese (Nativo)"
+@@ -3167,7 +3167,7 @@
+ 
+ #: rules/base.xml:5807
+ msgid "Portuguese (Brazil, no dead keys)"
+-msgstr "Portugisisk (Brasilien, inga stumma tangenter)"
++msgstr "Portugisisk (Brasilien, inga döda tangenter)"
+ 
+ #: rules/base.xml:5813
+ msgid "Portuguese (Brazil, Dvorak)"
+@@ -3187,7 +3187,7 @@
+ 
+ #: rules/base.xml:5837
+ msgid "Portuguese (Brazil, IBM/Lenovo ThinkPad, no dead keys)"
+-msgstr "Portugisisk (Brasilien, IBM/Lenovo ThinkPad, inga stumma tangenter)"
++msgstr "Portugisisk (Brasilien, IBM/Lenovo ThinkPad, inga döda tangenter)"
+ 
+ #: rules/base.xml:5843
+ msgid "Esperanto (Brazil, Nativo)"
+@@ -3239,11 +3239,11 @@
+ 
+ #: rules/base.xml:5943
+ msgid "Russian (engineering, RU)"
+-msgstr "Rysk (ingenjör, RU)"
++msgstr "Rysk (ingenjörslayout, RU)"
+ 
+ #: rules/base.xml:5950
+ msgid "Russian (engineering, EN)"
+-msgstr "Rysk (ingenjör, EN)"
++msgstr "Rysk (ingenjörslayout, EN)"
+ 
+ #: rules/base.xml:5956
+ msgid "Russian (legacy)"
+@@ -3360,7 +3360,7 @@
+ 
+ #: rules/base.xml:6183
+ msgid "Sinhala (US)"
+-msgstr "Sinhala (USA)"
++msgstr "Singalesisk (USA)"
+ 
+ #: rules/base.xml:6191
+ msgid "Tamil (Sri Lanka, TamilNet '99)"
+@@ -3419,11 +3419,11 @@
+ 
+ #: rules/base.xml:6287
+ msgid "Spanish (no dead keys)"
+-msgstr "Spansk (inga stumma tangenter)"
++msgstr "Spansk (inga döda tangenter)"
+ 
+ #: rules/base.xml:6293
+ msgid "Spanish (dead tilde)"
+-msgstr "Spansk (stumma tilde)"
++msgstr "Spansk (dött tilde)"
+ 
+ #: rules/base.xml:6299
+ msgid "Spanish (Windows)"
+@@ -3455,11 +3455,11 @@
+ 
+ #: rules/base.xml:6367
+ msgid "Spanish (Latin American, no dead keys)"
+-msgstr "Spansk (latinamerikansk, inga stumma tangenter)"
++msgstr "Spansk (latinamerikansk, inga döda tangenter)"
+ 
+ #: rules/base.xml:6373
+ msgid "Spanish (Latin American, dead tilde)"
+-msgstr "Spansk (latinamerikansk, stumma tilde)"
++msgstr "Spansk (latinamerikansk, dött tilde)"
+ 
+ #: rules/base.xml:6379
+ msgid "Spanish (Latin American, Dvorak)"
+@@ -3497,7 +3497,7 @@
+ 
+ #: rules/base.xml:6448
+ msgid "Swedish (no dead keys)"
+-msgstr "Svensk (inga stumma tangenter)"
++msgstr "Svensk (inga döda tangenter)"
+ 
+ #: rules/base.xml:6454
+ msgid "Swedish (Dvorak)"
+@@ -3631,7 +3631,7 @@
+ 
+ #: rules/base.xml:6697
+ msgid "Turkish (intl., with dead keys)"
+-msgstr "Turkisk (internationell med stumma tangenter)"
++msgstr "Turkisk (internationell med döda tangenter)"
+ 
+ #: rules/base.xml:6705
+ msgid "Kurdish (Turkey, Latin Q)"
+@@ -3714,7 +3714,7 @@
+ 
+ #: rules/base.xml:6855
+ msgid "Urdu (Pak Urdu Phonetic)"
+-msgstr "Urdu (Pak urdu fonetisk)"
++msgstr "Urdu (pakistansk urdu, fonetisk)"
+ 
+ #: rules/base.xml:6863
+ msgid "Arabic (Pakistan)"
+@@ -3769,43 +3769,43 @@
+ 
+ #: rules/base.xml:6957
+ msgid "A user-defined custom Layout"
+-msgstr "En användardefinierad anpassad layout"
++msgstr "En användardefinierad layout"
+ 
+ #: rules/base.xml:6971
+ msgid "Switching to another layout"
+-msgstr "Byta till en annan layout"
++msgstr "Växla till en annan layout"
+ 
+ #: rules/base.xml:6976
+ msgid "Right Alt (while pressed)"
+-msgstr "Höger Alt-tangent (då den trycks ned)"
++msgstr "Höger Alt-tangent (medan den hålls nedtryckt)"
+ 
+ #: rules/base.xml:6982
+ msgid "Left Alt (while pressed)"
+-msgstr "Vänster Alt (då den trycks ned)"
++msgstr "Vänster Alt-tangent (medan den hålls nedtryckt)"
+ 
+ #: rules/base.xml:6988
+ msgid "Left Win (while pressed)"
+-msgstr "Vänster Win-tangent (då den trycks ned)"
++msgstr "Vänster Win-tangent (medan den hålls nedtryckt)"
+ 
+ #: rules/base.xml:6994
+ msgid "Right Win (while pressed)"
+-msgstr "Höger Win-tangent (då den trycks ned)"
++msgstr "Höger Win-tangent (medan den hålls nedtryckt)"
+ 
+ #: rules/base.xml:7000
+ msgid "Any Win (while pressed)"
+-msgstr "Valfri Win (då den trycks ned)"
++msgstr "Valfri Win-tangent (medan den hålls nedtryckt)"
+ 
+ #: rules/base.xml:7006
+ msgid "Menu (while pressed), Shift+Menu for Menu"
+-msgstr "Meny (då den trycks ned), Skift + Meny för Meny"
++msgstr "Meny (medan den hålls nedtryckt), Skift+Meny för Meny"
+ 
+ #: rules/base.xml:7012
+ msgid "Caps Lock (while pressed), Alt+Caps Lock for the original Caps Lock action"
+-msgstr "Caps Lock (då den trycks ned), Alt+Caps Lock för ursprunglig Caps Lock-åtgärd"
++msgstr "Caps Lock (medan den hålls nedtryckt), Alt+Caps Lock för ursprunglig Caps Lock-åtgärd"
+ 
+ #: rules/base.xml:7018
+ msgid "Right Ctrl (while pressed)"
+-msgstr "Höger Ctrl-tangent (då den trycks ned)"
++msgstr "Höger Ctrl-tangent (medan den hålls nedtryckt)"
+ 
+ #: rules/base.xml:7024 rules/base.xml:7309 rules/base.xml:7857
+ msgid "Right Alt"
+@@ -3822,15 +3822,15 @@
+ 
+ #: rules/base.xml:7042
+ msgid "Shift+Caps Lock"
+-msgstr "Skift + Caps Lock"
++msgstr "Skift+Caps Lock"
+ 
+ #: rules/base.xml:7048
+ msgid "Caps Lock to first layout; Shift+Caps Lock to second layout"
+-msgstr "Caps Lock till första layouten; Skift + Caps Lock till andra layouten"
++msgstr "Caps Lock till första layouten; Skift+Caps Lock till andra layouten"
+ 
+ #: rules/base.xml:7054
+ msgid "Left Win to first layout; Right Win/Menu to second layout"
+-msgstr "Vänster Win till första layouten; Höger Win/Meny till andra layouten"
++msgstr "Vänster Win-tangent till första layouten; Höger Win-tangent/Meny till andra layouten"
+ 
+ #: rules/base.xml:7060
+ msgid "Left Ctrl to first layout; Right Ctrl to second layout"
+@@ -3838,71 +3838,71 @@
+ 
+ #: rules/base.xml:7066
+ msgid "Alt+Caps Lock"
+-msgstr "Alt + Caps Lock"
++msgstr "Alt+Caps Lock"
+ 
+ #: rules/base.xml:7072
+ msgid "Both Shifts together"
+-msgstr "Båda Skift tillsammans"
++msgstr "Båda Skift-tangenterna tillsammans"
+ 
+ #: rules/base.xml:7078
+ msgid "Both Alts together"
+-msgstr "Båda Alt tillsammans"
++msgstr "Båda Alt-tangenterna tillsammans"
+ 
+ #: rules/base.xml:7084
+ msgid "Both Alts together; AltGr alone chooses third level"
+-msgstr "Båda Alt tillsammans, AltGr ensam väljer tredje nivån"
++msgstr "Båda Alt-tangenterna tillsammans; AltGr ensam väljer tredje nivån"
+ 
+ #: rules/base.xml:7090
+ msgid "Both Ctrls together"
+-msgstr "Båda Ctrl tillsammans"
++msgstr "Båda Ctrl-tangenterna tillsammans"
+ 
+ #: rules/base.xml:7096
+ msgid "Ctrl+Shift"
+-msgstr "Ctrl + Skift"
++msgstr "Ctrl+Skift"
+ 
+ #: rules/base.xml:7102
+ msgid "Left Ctrl+Left Shift"
+-msgstr "Vänster Ctrl + vänster Skift"
++msgstr "Vänster Ctrl+Vänster Skift"
+ 
+ #: rules/base.xml:7108
+ msgid "Right Ctrl+Right Shift"
+-msgstr "Höger Ctrl + höger Skift"
++msgstr "Höger Ctrl+Höger Skift"
+ 
+ #: rules/base.xml:7114
+ msgid "Left Ctrl+Left Shift chooses previous layout, Right Ctrl + Right Shift chooses next layout"
+-msgstr "Vänster Ctrl + vänster Skift väljer föregående layout, höger Ctrl + höger Skift väljer nästa layout"
++msgstr "Vänster Ctrl+Vänster Skift väljer föregående layout, Höger Ctrl+Höger Skift väljer nästa layout"
+ 
+ #: rules/base.xml:7120
+ msgid "Alt+Ctrl"
+-msgstr "Alt + Ctrl"
++msgstr "Alt+Ctrl"
+ 
+ #: rules/base.xml:7126
+ msgid "Left Alt+Left Ctrl"
+-msgstr "Vänster Alt + vänster Ctrl"
++msgstr "Vänster Alt+Vänster Ctrl"
+ 
+ #: rules/base.xml:7132
+ msgid "Right Alt+Right Ctrl"
+-msgstr "Höger Alt + höger Ctrl"
++msgstr "Höger Alt+Höger Ctrl"
+ 
+ #: rules/base.xml:7138
+ msgid "Left Ctrl+Left Alt chooses previous layout, Right Ctrl + Right Alt chooses next layout"
+-msgstr "Vänster Ctrl + vänster Alt väljer föregående layout, höger Ctrl + höger Alt väljer nästa layout"
++msgstr "Vänster Ctrl+Vänster Alt väljer föregående layout, Höger Ctrl+Höger Alt väljer nästa layout"
+ 
+ #: rules/base.xml:7144
+ msgid "Alt+Shift"
+-msgstr "Alt + Skift"
++msgstr "Alt+Skift"
+ 
+ #: rules/base.xml:7150
+ msgid "Left Alt+Left Shift"
+-msgstr "Vänster Alt + vänster Skift"
++msgstr "Vänster Alt+Vänster Skift"
+ 
+ #: rules/base.xml:7156
+ msgid "Right Alt+Right Shift"
+-msgstr "Höger Alt + höger Skift"
++msgstr "Höger Alt+Höger Skift"
+ 
+ #: rules/base.xml:7162
+ msgid "Left Alt+Left Shift chooses previous layout, Right Alt + Right Shift chooses next layout"
+-msgstr "Vänster Alt + vänster Skift väljer föregående layout, höger Alt + höger Skift väljer nästa layout"
++msgstr "Vänster Alt+Vänster Skift väljer föregående layout, Höger Alt+Höger Skift väljer nästa layout"
+ 
+ #: rules/base.xml:7168 rules/base.xml:7273 rules/base.xml:7887
+ msgid "Menu"
+@@ -3914,15 +3914,15 @@
+ 
+ #: rules/base.xml:7180
+ msgid "Alt+Space"
+-msgstr "Alt + Blanksteg"
++msgstr "Alt+Blanksteg"
+ 
+ #: rules/base.xml:7186
+ msgid "Win+Space"
+-msgstr "Win + Blanksteg"
++msgstr "Win+Blanksteg"
+ 
+ #: rules/base.xml:7192
+ msgid "Ctrl+Space"
+-msgstr "Ctrl + Blanksteg"
++msgstr "Ctrl+Blanksteg"
+ 
+ #: rules/base.xml:7198 rules/base.xml:7291 rules/base.xml:7875
+ msgid "Right Win"
+@@ -3930,11 +3930,11 @@
+ 
+ #: rules/base.xml:7204
+ msgid "Left Shift"
+-msgstr "Vänster skift"
++msgstr "Vänster Skift"
+ 
+ #: rules/base.xml:7210
+ msgid "Right Shift"
+-msgstr "Höger skift"
++msgstr "Höger Skift"
+ 
+ #: rules/base.xml:7216 rules/base.xml:7899
+ msgid "Left Ctrl"
+@@ -3950,11 +3950,11 @@
+ 
+ #: rules/base.xml:7234
+ msgid "Ctrl+Left Win to first layout; Ctrl+Menu to second layout"
+-msgstr "Ctrl + vänster Win till första layouten; Ctrl + Meny till andra layouten"
++msgstr "Ctrl+Vänster Win till första layouten; Ctrl+Meny till andra layouten"
+ 
+ #: rules/base.xml:7240
+ msgid "Left Ctrl+Left Win"
+-msgstr "Vänster Ctrl + vänster Win"
++msgstr "Vänster Ctrl+Vänster Win"
+ 
+ #: rules/base.xml:7248
+ msgid "Key to choose the 2nd level"
+@@ -3970,15 +3970,15 @@
+ 
+ #: rules/base.xml:7279
+ msgid "Any Win"
+-msgstr "Valfri Win"
++msgstr "Valfri Win-tangent"
+ 
+ #: rules/base.xml:7297
+ msgid "Any Alt"
+-msgstr "Valfri Alt"
++msgstr "Valfri Alt-tangent"
+ 
+ #: rules/base.xml:7315
+ msgid "Right Alt; Shift+Right Alt as Compose"
+-msgstr "Höger Alt, Skift + höger Alt som Compose"
++msgstr "Höger Alt; Skift+Höger Alt som Compose"
+ 
+ #: rules/base.xml:7321
+ msgid "Right Alt never chooses 3rd level"
+@@ -3998,15 +3998,15 @@
+ 
+ #: rules/base.xml:7357
+ msgid "Caps Lock; acts as onetime lock when pressed together with another 3rd-level chooser"
+-msgstr "Caps Lock; agerar som engångslås när nedtryckt tillsammans med en annan tredjenivåväljare"
++msgstr "Caps Lock; fungerar som engångslås när den trycks ned tillsammans med en annan tredjenivåväljare"
+ 
+ #: rules/base.xml:7363
+ msgid "Backslash; acts as onetime lock when pressed together with another 3rd level chooser"
+-msgstr "Omvänt snedstreck; agerar som engångslås när nedtryckt tillsammans med en annan tredjenivåväljare"
++msgstr "Omvänt snedstreck; fungerar som engångslås när det trycks ned tillsammans med en annan tredjenivåväljare"
+ 
+ #: rules/base.xml:7369
+ msgid "The \"&lt; &gt;\" key; acts as onetime lock when pressed together with another 3rd level chooser"
+-msgstr "Tangenten \"&lt; &gt;\" agerar som ett engångslås om den trycks ned tillsammans med en annan tredjenivåväljare"
++msgstr "Tangenten \"&lt; &gt;\"; fungerar som engångslås när den trycks ned tillsammans med en annan tredjenivåväljare"
+ 
+ #: rules/base.xml:7377
+ msgid "Ctrl position"
+@@ -4022,7 +4022,7 @@
+ 
+ #: rules/base.xml:7394
+ msgid "Swap Ctrl and Caps Lock"
+-msgstr "Byt Ctrl och Caps Lock"
++msgstr "Byt plats på Ctrl och Caps Lock"
+ 
+ #: rules/base.xml:7400
+ msgid "Caps Lock as Ctrl, Left Control switches to another layout"
+@@ -4050,7 +4050,7 @@
+ 
+ #: rules/base.xml:7436
+ msgid "Menu as Right Ctrl"
+-msgstr "Meny som Höger Ctrl"
++msgstr "Meny som höger Ctrl"
+ 
+ #: rules/base.xml:7442
+ msgid "Swap Left Alt with Left Ctrl"
+@@ -4070,7 +4070,7 @@
+ 
+ #: rules/base.xml:7465
+ msgid "Left Alt as Ctrl, Left Ctrl as Win, Left Win as Left Alt"
+-msgstr "Vänster Alt som Ctrl, vänster Ctrl som Win, vänster Win som vänster Alt"
++msgstr "Vänster Alt som Ctrl, Vänster Ctrl som Win, Vänster Win som Vänster Alt"
+ 
+ #: rules/base.xml:7473
+ msgid "Use keyboard LED to show alternative layout"
+@@ -4102,11 +4102,11 @@
+ 
+ #: rules/base.xml:7528
+ msgid "Unicode arrows and math operators on default level"
+-msgstr "Unicode-pilar och matematikoperatorer på standardnivå)"
++msgstr "Unicode-pilar och matematikoperatorer på standardnivå"
+ 
+ #: rules/base.xml:7534
+ msgid "Legacy Wang 724"
+-msgstr "Gammalt Wang 724"
++msgstr "Äldre Wang 724"
+ 
+ #: rules/base.xml:7540
+ msgid "Wang 724 keypad with Unicode arrows and math operators"
+@@ -4114,7 +4114,7 @@
+ 
+ #: rules/base.xml:7546
+ msgid "Wang 724 keypad with Unicode arrows and math operators on default level"
+-msgstr "Wang 724 numeriskt tangentbord med Unicode-pilar och matematikoperatorer på standardnivå)"
++msgstr "Wang 724 numeriskt tangentbord med Unicode-pilar och matematikoperatorer på standardnivå"
+ 
+ #: rules/base.xml:7552
+ msgid "Hexadecimal"
+@@ -4193,7 +4193,7 @@
+ 
+ #: rules/base.xml:7669
+ msgid "Swap Esc and Caps Lock"
+-msgstr "Byt Esc och Caps Lock"
++msgstr "Byt plats på Esc och Caps Lock"
+ 
+ #: rules/base.xml:7675
+ msgid "Make Caps Lock an additional Esc"
+@@ -4201,7 +4201,7 @@
+ 
+ #: rules/base.xml:7681
+ msgid "Make Caps Lock an additional Esc, but Shift + Caps Lock is the regular Caps Lock"
+-msgstr "Gör Caps Lock till ytterligare en Esc-tangent, men Skift + Caps Lock är vanlig Caps Lock"
++msgstr "Gör Caps Lock till ytterligare en Esc-tangent, men Skift+Caps Lock är den vanliga Caps Lock-funktionen"
+ 
+ #: rules/base.xml:7687
+ msgid "Make Caps Lock an additional Backspace"
+@@ -4221,7 +4221,7 @@
+ 
+ #: rules/base.xml:7711
+ msgid "Make Caps Lock an additional Menu key"
+-msgstr "Gör Caps Lock till ytterligare en Menytangent"
++msgstr "Gör Caps Lock till ytterligare en Meny-tangent"
+ 
+ #: rules/base.xml:7717
+ msgid "Make Caps Lock an additional Num Lock"
+@@ -4229,11 +4229,11 @@
+ 
+ #: rules/base.xml:7723
+ msgid "Make Caps Lock an additional Ctrl and Shift + Caps Lock the regular Caps Lock"
+-msgstr "Gör Caps Lock till ytterligare en Ctrl-tangent, och Skift + Caps Lock är vanlig Caps Lock"
++msgstr "Gör Caps Lock till ytterligare en Ctrl-tangent, och Skift+Caps Lock är den vanliga Caps Lock-funktionen"
+ 
+ #: rules/base.xml:7729
+ msgid "Make Caps Lock act as an additional Ctrl modifier, but keep identifying as Caps Lock"
+-msgstr "Gör Caps Lock till en ytterligare Ctrl-modifierare, men fortsätt identifiera som Caps Lock"
++msgstr "Gör Caps Lock till en ytterligare Ctrl-modifierare, men behåll identifieringen som Caps Lock"
+ 
+ #: rules/base.xml:7735
+ msgid "Caps Lock gives digits on the digits row (Azerty layouts)"
+@@ -4241,7 +4241,7 @@
+ 
+ #: rules/base.xml:7741
+ msgid "Shift + Caps locks the digits on the digits row, Caps Lock alone behaves as usual (Azerty layouts)"
+-msgstr "Skift + Caps Lock låser siffror på sifferraden, Caps Lock ensamt beter sig som vanligt (Azerty-layouter)"
++msgstr "Skift+Caps Lock låser siffrorna på sifferraden, Caps Lock ensamt fungerar som vanligt (Azerty-layouter)"
+ 
+ #: rules/base.xml:7747
+ msgid "Caps Lock is disabled"
+@@ -4249,11 +4249,11 @@
+ 
+ #: rules/base.xml:7755
+ msgid "Alt and Win behavior"
+-msgstr "Alt- och Win-tangentbeteende"
++msgstr "Beteende för Alt- och Win-tangenter"
+ 
+ #: rules/base.xml:7760
+ msgid "Add the standard behavior to Menu key"
+-msgstr "Lägg till standardbeteendet till Meny-tangenten"
++msgstr "Lägg till standardbeteende för Meny-tangenten"
+ 
+ #: rules/base.xml:7766
+ msgid "Menu is mapped to Win"
+@@ -4261,19 +4261,19 @@
+ 
+ #: rules/base.xml:7772
+ msgid "Alt and Meta are on Alt"
+-msgstr "Alt och Meta finns på Alt"
++msgstr "Alt och Meta finns på Alt-tangenten"
+ 
+ #: rules/base.xml:7778
+ msgid "Alt is mapped to Win and the usual Alt"
+-msgstr "Alt är mappad till Win och vanlig Alt"
++msgstr "Alt är mappad till Win och den vanliga Alt-funktionen"
+ 
+ #: rules/base.xml:7784
+ msgid "Ctrl is mapped to Win and the usual Ctrl"
+-msgstr "Ctrl är mappad till Win och vanlig Ctrl"
++msgstr "Ctrl är mappad till Win och den vanliga Ctrl-funktionen"
+ 
+ #: rules/base.xml:7790
+ msgid "Ctrl is mapped to Right Win and the usual Ctrl"
+-msgstr "Ctrl är mappad till högra Win-tangenten och vanlig Ctrl"
++msgstr "Ctrl är mappad till höger Win-tangent och den vanliga Ctrl-funktionen"
+ 
+ #: rules/base.xml:7796
+ msgid "Ctrl is mapped to Alt, Alt to Win"
+@@ -4293,23 +4293,23 @@
+ 
+ #: rules/base.xml:7820
+ msgid "Alt is mapped to Right Win, Super to Menu"
+-msgstr "Alt är mappad till högra Win-tangenten och Super till Meny"
++msgstr "Alt är mappad till höger Win-tangent, Super till Meny"
+ 
+ #: rules/base.xml:7826
+ msgid "Left Alt is swapped with Left Win"
+-msgstr "Vänster Alt är utbytt med vänster Win-tangent"
++msgstr "Vänster Alt har bytt plats med vänster Win-tangent"
+ 
+ #: rules/base.xml:7832
+ msgid "Right Alt is swapped with Right Win"
+-msgstr "Höger Alt är utbytt med höger Win-tangent"
++msgstr "Höger Alt har bytt plats med höger Win-tangent"
+ 
+ #: rules/base.xml:7838
+ msgid "Alt is swapped with Win"
+-msgstr "Alt är utbytt med Win-tangent"
++msgstr "Alt har bytt plats med Win-tangenten"
+ 
+ #: rules/base.xml:7844
+ msgid "Win is mapped to PrtSc and the usual Win"
+-msgstr "Win är mappad till PrtSc och vanlig Win"
++msgstr "Win är mappad till PrtSc och den vanliga Win-funktionen"
+ 
+ #: rules/base.xml:7852
+ msgid "Position of Compose key"
+@@ -4317,27 +4317,27 @@
+ 
+ #: rules/base.xml:7869
+ msgid "3rd level of Left Win"
+-msgstr "Tredje nivån av vänster Win"
++msgstr "Tredje nivån för vänster Win-tangent"
+ 
+ #: rules/base.xml:7881
+ msgid "3rd level of Right Win"
+-msgstr "Tredje nivån av höger Win"
++msgstr "Tredje nivån för höger Win-tangent"
+ 
+ #: rules/base.xml:7893
+ msgid "3rd level of Menu"
+-msgstr "Tredje nivån av Meny"
++msgstr "Tredje nivån för Meny-tangenten"
+ 
+ #: rules/base.xml:7905
+ msgid "3rd level of Left Ctrl"
+-msgstr "Tredje nivån av vänster Ctrl"
++msgstr "Tredje nivån för vänster Ctrl"
+ 
+ #: rules/base.xml:7917
+ msgid "3rd level of Right Ctrl"
+-msgstr "Tredje nivån av höger Ctrl"
++msgstr "Tredje nivån för höger Ctrl"
+ 
+ #: rules/base.xml:7929
+ msgid "3rd level of Caps Lock"
+-msgstr "Tredje nivån av Caps Lock"
++msgstr "Tredje nivån för Caps Lock"
+ 
+ #: rules/base.xml:7941
+ msgid "3rd level of the \"&lt; &gt;\" key"
+@@ -4393,7 +4393,7 @@
+ 
+ #: rules/base.xml:8025
+ msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
+-msgstr "Specialtangenter (Ctrl+Alt+‹tangent›) hanteras i en server"
++msgstr "Specialtangenter (Ctrl+Alt+&lt;tangent&gt;) hanteras i en server"
+ 
+ #: rules/base.xml:8031
+ msgid "Apple Aluminium emulates Pause, PrtSc, Scroll Lock"
+@@ -4421,19 +4421,19 @@
+ 
+ #: rules/base.xml:8067
+ msgid "Both Shifts together enable Caps Lock"
+-msgstr "Båda Skift tillsammans aktiverar Caps Lock"
++msgstr "Båda Skift-tangenterna tillsammans aktiverar Caps Lock"
+ 
+ #: rules/base.xml:8073
+ msgid "Both Shifts together enable Caps Lock; one Shift key disables it"
+-msgstr "Båda Skift tillsammans aktiverar Caps Lock, en Skifttangent inaktiverar"
++msgstr "Båda Skift-tangenterna tillsammans aktiverar Caps Lock; en Skift-tangent inaktiverar den"
+ 
+ #: rules/base.xml:8079
+ msgid "Both Shifts together enable Shift Lock"
+-msgstr "Båda Skift tillsammans aktiverar Shift Lock"
++msgstr "Båda Skift-tangenterna tillsammans aktiverar Shift Lock"
+ 
+ #: rules/base.xml:8085
+ msgid "Shift + Num Lock enables PointerKeys"
+-msgstr "Skift + Num Lock aktiverar pekartangenter"
++msgstr "Skift+Num Lock aktiverar pekartangenter"
+ 
+ #: rules/base.xml:8091
+ msgid "Allow breaking grabs with keyboard actions (warning: security risk)"
+@@ -4445,7 +4445,7 @@
+ 
+ #: rules/base.xml:8105
+ msgid "Currency signs"
+-msgstr "Valutatecken"
++msgstr "Valutasymboler"
+ 
+ #: rules/base.xml:8110
+ msgid "Euro on E, third level"
+@@ -4469,7 +4469,7 @@
+ 
+ #: rules/base.xml:8140
+ msgid "Rupee on 4"
+-msgstr "Rupee på 4"
++msgstr "Rupie på 4"
+ 
+ #: rules/base.xml:8147
+ msgid "Key to choose the 5th level"
+@@ -4497,19 +4497,19 @@
+ 
+ #: rules/base.xml:8182
+ msgid "The \"&lt; &gt;\" key chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
+-msgstr "Tangenten \"&lt; &gt;\" väljer femte nivån och agerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
++msgstr "Tangenten \"&lt; &gt;\" väljer femte nivån och fungerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
+ 
+ #: rules/base.xml:8188
+ msgid "Right Alt chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
+-msgstr "Höger Alt väljer femte nivån och agerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
++msgstr "Höger Alt väljer femte nivån och fungerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
+ 
+ #: rules/base.xml:8194
+ msgid "Left Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
+-msgstr "Vänster Win väljer femte nivån och agerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
++msgstr "Vänster Win väljer femte nivån och fungerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
+ 
+ #: rules/base.xml:8200
+ msgid "Right Win chooses 5th level and acts as a one-time lock if pressed with another 5th level chooser"
+-msgstr "Höger Win väljer femte nivån och agerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
++msgstr "Höger Win väljer femte nivån och fungerar som ett engångslås om den trycks ned tillsammans med en annan femtenivåväljare"
+ 
+ #: rules/base.xml:8208
+ msgid "Non-breaking space input"
+@@ -4545,31 +4545,31 @@
+ 
+ #: rules/base.xml:8255
+ msgid "Zero-width non-joiner at the 2nd level"
+-msgstr "Noll-bredd, icke-sammanfogande på andra nivån"
++msgstr "Icke-sammanfogande tecken med nollbredd på andra nivån"
+ 
+ #: rules/base.xml:8261
+ msgid "Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level"
+-msgstr "Noll-bredd, icke-sammanfogande på andra nivån, noll-bredd, sammanfogande på tredje nivån"
++msgstr "Icke-sammanfogande tecken med nollbredd på andra nivån, sammanfogande tecken med nollbredd på tredje nivån"
+ 
+ #: rules/base.xml:8267
+ msgid "Zero-width non-joiner at the 2nd level, zero-width joiner at the 3rd level, non-breaking space at the 4th level"
+-msgstr "Noll-bredd, icke-sammanfogande på andra nivån, noll-bredd, sammanfogande på tredje nivån, icke-brytande blanksteg på fjärde nivån"
++msgstr "Icke-sammanfogande tecken med nollbredd på andra nivån, sammanfogande tecken med nollbredd på tredje nivån, icke-brytande blanksteg på fjärde nivån"
+ 
+ #: rules/base.xml:8273
+ msgid "Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level"
+-msgstr "Noll-bredd, icke-sammanfogande på andra nivån, icke-brytande blanksteg på tredje nivån"
++msgstr "Icke-sammanfogande tecken med nollbredd på andra nivån, icke-brytande blanksteg på tredje nivån"
+ 
+ #: rules/base.xml:8279
+ msgid "Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, zero-width joiner at the 4th level"
+-msgstr "Noll-bredd, icke-sammanfogande på andra nivån, icke-brytande blanksteg på tredje nivån, noll-bredd sammanfogande på fjärde nivån"
++msgstr "Icke-sammanfogande tecken med nollbredd på andra nivån, icke-brytande blanksteg på tredje nivån, sammanfogande tecken med nollbredd på fjärde nivån"
+ 
+ #: rules/base.xml:8285
+ msgid "Zero-width non-joiner at the 2nd level, non-breaking space at the 3rd level, thin non-breaking space at the 4th level"
+-msgstr "Noll-bredd, icke-sammanfogande på andra nivån, icke-brytande blanksteg på tredje nivån, tunt icke-brytande blanksteg på fjärde nivån"
++msgstr "Icke-sammanfogande tecken med nollbredd på andra nivån, icke-brytande blanksteg på tredje nivån, tunt icke-brytande blanksteg på fjärde nivån"
+ 
+ #: rules/base.xml:8291
+ msgid "Zero-width non-joiner at the 3rd level, zero-width joiner at the 4th level"
+-msgstr "Noll-bredd, icke-sammanfogande på tredje nivån, noll-bredd, sammanfogande på fjärde nivån"
++msgstr "Icke-sammanfogande tecken med nollbredd på tredje nivån, sammanfogande tecken med nollbredd på fjärde nivån"
+ 
+ #: rules/base.xml:8298
+ msgid "Japanese keyboard options"
+@@ -4577,7 +4577,7 @@
+ 
+ #: rules/base.xml:8303
+ msgid "Kana Lock key is locking"
+-msgstr "Kana Lock-tangent låser"
++msgstr "Kana Lock-tangenten är låsande"
+ 
+ #: rules/base.xml:8309
+ msgid "NICOLA-F style Backspace"
+@@ -4633,7 +4633,7 @@
+ 
+ #: rules/base.xml:8388
+ msgid "Key sequence to kill the X server"
+-msgstr "Tangentsekvens för att döda X-servern"
++msgstr "Tangentsekvens för att avsluta X-servern"
+ 
+ #: rules/base.xml:8393
+ msgid "Ctrl+Alt+Backspace"
+@@ -4653,7 +4653,7 @@
+ 
+ #: rules/base.xml:8417
+ msgid "Use user-defined custom XKB types"
+-msgstr "Använd användardefinierade anpassade XKB-typer"
++msgstr "Använd användardefinierade XKB-typer"
+ 
+ #: rules/base.extras.xml:9
+ msgid "xx"
+@@ -4710,7 +4710,7 @@
+ # Unified Layout
+ #: rules/base.extras.xml:84
+ msgid "APL symbols (unified)"
+-msgstr "APL-symboler (enad)"
++msgstr "APL-symboler (enhetlig)"
+ 
+ #: rules/base.extras.xml:90
+ msgid "apl2"
+@@ -4734,7 +4734,7 @@
+ 
+ #: rules/base.extras.xml:105
+ msgid "APL symbols (APLX unified)"
+-msgstr "APL-symboler (APLX enad)"
++msgstr "APL-symboler (APLX enhetlig)"
+ 
+ #: rules/base.extras.xml:113
+ msgid "bqn"
+@@ -4766,11 +4766,11 @@
+ 
+ #: rules/base.extras.xml:171
+ msgid "German (with Hungarian letters, no dead keys)"
+-msgstr "Tysk (med ungerska bokstäver, inga stumma tangenter)"
++msgstr "Tysk (med ungerska bokstäver, inga döda tangenter)"
+ 
+ #: rules/base.extras.xml:181
+ msgid "Polish (Germany, no dead keys)"
+-msgstr "Polsk (Tyskland, inga stumma tangenter)"
++msgstr "Polsk (Tyskland, inga döda tangenter)"
+ 
+ #: rules/base.extras.xml:191
+ msgid "German (Sun Type 6/7)"
+@@ -4790,7 +4790,7 @@
+ 
+ #: rules/base.extras.xml:215
+ msgid "German (Bone, eszett in the home row)"
+-msgstr "Tysk (Bone, tyskt s på hemrad)"
++msgstr "Tysk (Bone, eszett på hemraden)"
+ 
+ #: rules/base.extras.xml:221
+ msgid "German (Neo, QWERTZ)"
+@@ -4898,15 +4898,15 @@
+ 
+ #: rules/base.extras.xml:425
+ msgid "Latvian (apostrophe, dead quotes)"
+-msgstr "Lettisk (apostrof, stumma citattecken)"
++msgstr "Lettisk (apostrof, döda citattecken)"
+ 
+ #: rules/base.extras.xml:446
+ msgid "English (US, intl., AltGr Unicode combining)"
+-msgstr "Engelsk (USA, internationell, AltGr med kombinerad Unicode)"
++msgstr "Engelsk (USA, internationell, AltGr med kombinerande Unicode)"
+ 
+ #: rules/base.extras.xml:452
+ msgid "English (US, intl., AltGr Unicode combining, alt.)"
+-msgstr "Engelsk (USA, internationell, AltGr med kombinerad Unicode, alternativ)"
++msgstr "Engelsk (USA, internationell, AltGr med kombinerande Unicode, alternativ)"
+ 
+ #: rules/base.extras.xml:458
+ msgid "Atsina"
+@@ -4946,11 +4946,11 @@
+ 
+ #: rules/base.extras.xml:538
+ msgid "English (Carpalx, intl., with dead keys)"
+-msgstr "Engelsk (Carpalx, internationell med stumma tangenter)"
++msgstr "Engelsk (Carpalx, internationell med döda tangenter)"
+ 
+ #: rules/base.extras.xml:544
+ msgid "English (Carpalx, intl., with AltGr dead keys)"
+-msgstr "Engelsk (Carpalx, internationell med stumma AltGr-tangenter)"
++msgstr "Engelsk (Carpalx, internationell med döda AltGr-tangenter)"
+ 
+ #: rules/base.extras.xml:550
+ msgid "English (Carpalx, full optimization)"
+@@ -4958,11 +4958,11 @@
+ 
+ #: rules/base.extras.xml:556
+ msgid "English (Carpalx, full optimization, intl., with dead keys)"
+-msgstr "Engelsk (Carpalx, fullständig optimering, internationell med stumma tangenter)"
++msgstr "Engelsk (Carpalx, fullständig optimering, internationell med döda tangenter)"
+ 
+ #: rules/base.extras.xml:562
+ msgid "English (Carpalx, full optimization, intl., with AltGr dead keys)"
+-msgstr "Engelsk (Carpalx, fullständig optimering, internationell med stumma AltGr-tangenter)"
++msgstr "Engelsk (Carpalx, fullständig optimering, internationell med döda AltGr-tangenter)"
+ 
+ #: rules/base.extras.xml:568
+ msgid "English (3l)"
+@@ -4990,11 +4990,11 @@
+ 
+ #: rules/base.extras.xml:607
+ msgid "English (Western European AltGr dead keys)"
+-msgstr "Engelsk (västeuropeisk med stumma AltGr-tangenter)"
++msgstr "Engelsk (västeuropeisk med döda AltGr-tangenter)"
+ 
+ #: rules/base.extras.xml:641
+ msgid "Polish (intl., with dead keys)"
+-msgstr "Polsk (internationell med stumma tangenter)"
++msgstr "Polsk (internationell med döda tangenter)"
+ 
+ #: rules/base.extras.xml:647
+ msgid "Polish (Colemak)"
+@@ -5027,7 +5027,7 @@
+ 
+ #: rules/base.extras.xml:705
+ msgid "Crimean Tatar (Dobruja Q)"
+-msgstr "Krimtatariska (Dobruja Q)"
++msgstr "Krimtatarisk (Dobruja Q)"
+ 
+ #: rules/base.extras.xml:714
+ msgid "Romanian (ergonomic Touchtype)"
+@@ -5039,7 +5039,7 @@
+ 
+ #: rules/base.extras.xml:741
+ msgid "Serbian (combining accents instead of dead keys)"
+-msgstr "Serbisk (kombinerade accenter i stället för stumma tangenter)"
++msgstr "Serbisk (kombinerande accenter i stället för döda tangenter)"
+ 
+ #: rules/base.extras.xml:762
+ msgid "Church Slavonic"
+@@ -5083,7 +5083,7 @@
+ 
+ #: rules/base.extras.xml:893
+ msgid "Russian (Programmer)"
+-msgstr "Rysk (programmerare)"
++msgstr "Rysk (för programmerare)"
+ 
+ #: rules/base.extras.xml:903
+ msgid "Russian (plus typographic symbols)"
+@@ -5115,7 +5115,7 @@
+ 
+ #: rules/base.extras.xml:1018
+ msgid "Hebrew (Biblical, SIL phonetic)"
+-msgstr "Hebreiska (biblisk, SIL-fonetisk)"
++msgstr "Hebreisk (biblisk, SIL-fonetisk)"
+ 
+ #: rules/base.extras.xml:1060
+ msgid "Arabic (Sun Type 6/7)"
+@@ -5155,7 +5155,7 @@
+ 
+ #: rules/base.extras.xml:1161
+ msgid "Czech (coder)"
+-msgstr "Tjeckisk (kodare)"
++msgstr "Tjeckisk (för programmerare)"
+ 
+ #: rules/base.extras.xml:1167
+ msgid "Czech (US, Colemak, UCW support)"
+@@ -5191,7 +5191,7 @@
+ 
+ #: rules/base.extras.xml:1290
+ msgid "French (US with dead keys, alt.)"
+-msgstr "Fransk (USA med stumma tangenter, alternativ)"
++msgstr "Fransk (USA med döda tangenter, alternativ)"
+ 
+ #: rules/base.extras.xml:1296
+ msgid "French (US, AZERTY)"
+@@ -5349,7 +5349,7 @@
+ 
+ #: rules/base.extras.xml:1776
+ msgid "International Phonetic Alphabet"
+-msgstr "Internationella fonetiska alfabetet (IPA)"
++msgstr "Internationella fonetiska alfabetet"
+ 
+ #: rules/base.extras.xml:1782
+ msgid "International Phonetic Alphabet (QWERTY)"
+@@ -5373,15 +5373,15 @@
+ 
+ #: rules/base.extras.xml:1898
+ msgid "Number key 4 when pressed in isolation"
+-msgstr "Nummertangent 4 då endast den trycks ned"
++msgstr "Siffertangent 4 när den trycks ned ensam"
+ 
+ #: rules/base.extras.xml:1904
+ msgid "Number key 9 when pressed in isolation"
+-msgstr "Nummertangent 9 då endast den trycks ned"
++msgstr "Siffertangent 9 när den trycks ned ensam"
+ 
+ #: rules/base.extras.xml:1919
+ msgid "Make Caps Lock an additional Esc, and Shift + Caps Lock is the Compose"
+-msgstr "Gör Caps Lock till ytterligare en Esc-tangent, och Skift + Caps Lock är Compose"
++msgstr "Gör Caps Lock till ytterligare en Esc-tangent, och Skift+Caps Lock fungerar som Compose"
+ 
+ #: rules/base.extras.xml:1927
+ msgid "Parentheses position"
+@@ -5389,7 +5389,7 @@
+ 
+ #: rules/base.extras.xml:1932
+ msgid "Swap with square brackets"
+-msgstr "Byt med hakparenteser"
++msgstr "Byt plats med hakparenteser"
+ 
+ #~ msgid "Japanese (Kana 86)"
+ #~ msgstr "Japansk (Kana 86)"

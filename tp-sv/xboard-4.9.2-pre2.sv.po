@@ -1,0 +1,3248 @@
+# Swedish translation of xboard.
+# Copyright (C) 2023 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xboard package.
+#
+# Kristian Nordin <kristian.po@proton.me>, 2023, 2024, 2026.
+#
+# Ordlista
+# match = match, först given poäng, bäst av 3 partier o.s.v
+# game = parti
+# draw = remi
+# promovering = byta bonde mot annan pjäs. Källa: Svensk översättning av FIDE LAWS of CHESS
+# underpromovering = byta bonde mot annan pjäs än drottning
+# FEN = Forsyth-Edward Notation, notation för spelställningar
+# PGN = Ett rankingssystem
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xboard 4.9.2-pre2\n"
+"Report-Msgid-Bugs-To: bug-xboard@gnu.org\n"
+"POT-Creation-Date: 2026-03-21 18:29-0700\n"
+"PO-Revision-Date: 2026-09-05 22:12+0200\n"
+"Last-Translator: Kristian Nordin <kristian.po@proton.me>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Bugs: Report translation errors to the Language-Team address.\n"
+"X-Generator: Poedit 3.9\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+
+#: args.h:862
+#, c-format
+msgid "%s in settings file\n"
+msgstr "%s i inställningsfilen\n"
+
+#: args.h:896
+#, c-format
+msgid "Bad integer value %s"
+msgstr "Felaktigt heltalsvärde %s"
+
+#: args.h:1002 args.h:1309
+#, c-format
+msgid "Unrecognized argument %s"
+msgstr "Okänt argument %s"
+
+#: args.h:1033
+#, c-format
+msgid "No value provided for argument %s"
+msgstr "Inget värde angivet för argument %s"
+
+#: args.h:1093
+#, c-format
+msgid "Incomplete \\ escape in value for %s"
+msgstr "Ofullständig \\-escape-sekvens i värdet för %s"
+
+#: args.h:1231
+#, c-format
+msgid "Failed to open indirection file %s"
+msgstr "Misslyckades att öppna indirektionsfil %s"
+
+#: args.h:1248
+#, c-format
+msgid "Unrecognized boolean argument value %s"
+msgstr "Okänt booleskt argumentvärde %s"
+
+#. TRANSLATORS: "first" is the first of possibly two chess engines.  It is inserted into strings
+#. such as "%s engine" / "%s chess program" / "%s machine" - all meaning the same thing.
+#: backend.c:793
+msgid "first"
+msgstr "första"
+
+#. TRANSLATORS: "second" is the second of possibly two chess engines.  It is inserted into strings
+#. such as "%s engine" / "%s chess program" / "%s machine" - all meaning the same thing.
+#: backend.c:796
+msgid "second"
+msgstr "andra"
+
+#: backend.c:879
+#, c-format
+msgid "protocol version %d not supported"
+msgstr "protokollversion %d stöds inte"
+
+#: backend.c:1029
+msgid "You did not specify the engine executable"
+msgstr "Du angav inte den körbara filen för motorn"
+
+#: backend.c:1067
+#, c-format
+msgid "bad timeControl option %s"
+msgstr "felaktig timeControl-flagga %s"
+
+#: backend.c:1082
+#, c-format
+msgid "bad searchTime option %s"
+msgstr "felaktig searchTime-flagga %s"
+
+# ICS  = Internet Chess Server
+#: backend.c:1196
+#, c-format
+msgid "Variant %s supported only in ICS mode"
+msgstr "Variant %s stöds endast i ICS-läge"
+
+#: backend.c:1214
+#, c-format
+msgid "Unknown variant name %s"
+msgstr "Okänt variantnamn %s"
+
+#: backend.c:1471
+msgid "Starting chess program"
+msgstr "Startar schackprogram"
+
+#: backend.c:1494
+msgid "Bad game file"
+msgstr "Felaktig partifil"
+
+#: backend.c:1501
+msgid "Bad position file"
+msgstr "Felaktig positionsfil"
+
+#: backend.c:1515
+msgid "Pick new game"
+msgstr "Välj nytt parti"
+
+#: backend.c:1587
+msgid ""
+"You restarted an already completed tourney.\n"
+"One more cycle will now be added to it.\n"
+"Games commence in 10 sec."
+msgstr ""
+"Du startade om en redan avslutad turnering.\n"
+"Ytterligare en cykel kommer att läggas till.\n"
+"Partierna börjar om 10 sekunder."
+
+#: backend.c:1594
+#, c-format
+msgid "All games in tourney '%s' are already played or playing"
+msgstr "Alla partier i turneringen ”%s” är redan spelade eller spelas"
+
+#: backend.c:1601
+msgid "Can't have a match with no chess programs"
+msgstr "Kan inte ha en match utan schackprogram"
+
+#: backend.c:1654
+#, c-format
+msgid "Could not open comm port %s"
+msgstr "Kunde inte öppna kommunikationsport %s"
+
+#: backend.c:1657
+#, c-format
+msgid "Could not connect to host %s, port %s"
+msgstr "Kunde inte ansluta till värd %s, port %s"
+
+#: backend.c:1713
+#, c-format
+msgid "Unknown initialMode %s"
+msgstr "Okänd initialMode %s"
+
+#: backend.c:1739
+msgid "AnalyzeFile mode requires a game file"
+msgstr "Läget AnalyzeFile kräver en partifil"
+
+#: backend.c:1772
+msgid "Analysis mode requires a chess engine"
+msgstr "Analysläget kräver en schackmotor"
+
+#: backend.c:1776
+msgid "Analysis mode does not work with ICS mode"
+msgstr "Analysläget fungerar inte med ICS-läge"
+
+#: backend.c:1787
+msgid "MachineWhite mode requires a chess engine"
+msgstr "Läget MachineWhite kräver en schackmotor"
+
+#: backend.c:1792
+msgid "MachineWhite mode does not work with ICS mode"
+msgstr "Läget MachineWhite fungerar inte med ICS-läge"
+
+#: backend.c:1799
+msgid "MachineBlack mode requires a chess engine"
+msgstr "Läget MachineBlack kräver en schackmotor"
+
+#: backend.c:1804
+msgid "MachineBlack mode does not work with ICS mode"
+msgstr "Läget MachineBlack fungerar inte med ICS-läge"
+
+#: backend.c:1811
+msgid "TwoMachines mode requires a chess engine"
+msgstr "Läget TwoMachines kräver en schackmotor"
+
+#: backend.c:1816
+msgid "TwoMachines mode does not work with ICS mode"
+msgstr "Läget TwoMachines fungerar inte med ICS-läge"
+
+#: backend.c:1827
+msgid "Training mode requires a game file"
+msgstr "Träningsläget kräver en partifil"
+
+#: backend.c:1990 backend.c:2045 backend.c:2068 backend.c:2470
+msgid "Error writing to ICS"
+msgstr "Fel vid skrivning till ICS"
+
+#: backend.c:2005
+msgid "Error reading from keyboard"
+msgstr "Fel vid läsning från tangentbordet"
+
+#: backend.c:2008
+msgid "Got end of file from keyboard"
+msgstr "Fick filslut från tangentbordet"
+
+#: backend.c:2316
+#, c-format
+msgid "Unknown wild type %d"
+msgstr "Okänd wild-typ %d"
+
+#: backend.c:2387 usystem.c:302
+msgid "Error writing to display"
+msgstr "Fel vid skrivning till displayen"
+
+#. TRANSLATORS: to 'kibitz' is to send a message to all players and the game observers.
+#: backend.c:3156
+#, c-format
+msgid "your opponent kibitzes: %s"
+msgstr "din motståndare kibitzar: %s"
+
+#: backend.c:3696
+msgid "Error gathering move list: two headers"
+msgstr "Fel vid insamling av draglista: två rubriker"
+
+#: backend.c:3743
+msgid "Error gathering move list: nested"
+msgstr "Fel vid insamling av draglista: nästlad"
+
+#: backend.c:3847 backend.c:4276 backend.c:4480 backend.c:5045 backend.c:5049
+#: backend.c:7418 backend.c:13513 backend.c:15294 backend.c:15381
+#: backend.c:15430 backend.c:15436 backend.c:15441 backend.c:15446
+msgid "vs."
+msgstr "vs."
+
+#: backend.c:3975
+msgid "Illegal move (rejected by ICS)"
+msgstr "Ogiltigt drag (avvisat av ICS)"
+
+#: backend.c:4324
+msgid "Connection closed by ICS"
+msgstr "Anslutningen stängdes av ICS"
+
+#: backend.c:4326
+msgid "Error reading from ICS"
+msgstr "Fel vid läsning från ICS"
+
+#: backend.c:4403
+#, c-format
+msgid ""
+"Failed to parse board string:\n"
+"\"%s\""
+msgstr ""
+"Misslyckades att tolka brädsträngen:\n"
+"”%s”"
+
+#: backend.c:4412 backend.c:11013
+msgid "Game too long; increase MAX_MOVES and recompile"
+msgstr "Partiet är för långt; öka MAX_MOVES och kompilera om"
+
+#: backend.c:4531
+msgid "Error gathering move list: extra board"
+msgstr "Fel vid insamling av draglista: extra bräde"
+
+#: backend.c:4969 backend.c:4991
+#, c-format
+msgid "Couldn't parse move \"%s\" from ICS"
+msgstr "Kunde inte tolka draget ”%s” från ICS"
+
+#: backend.c:5262
+#, c-format
+msgid "say Internal error; bad moveType %d (%d,%d-%d,%d)"
+msgstr "säg Internt fel; felaktig moveType %d (%d,%d-%d,%d)"
+
+#: backend.c:5333
+msgid "You cannot do this while you are playing or observing"
+msgstr "Du kan inte göra detta medan du spelar eller observerar"
+
+#: backend.c:6411
+msgid "Recompile to support this BOARD_RANKS or BOARD_FILES!"
+msgstr "Kompilera om för att ge stöd för denna BOARD_RANKS eller BOARD_FILES!"
+
+#: backend.c:6949
+msgid "You are playing Black"
+msgstr "Du spelar svart"
+
+#: backend.c:6958 backend.c:6986
+msgid "You are playing White"
+msgstr "Du spelar vit"
+
+#: backend.c:6968 backend.c:6994 backend.c:7116 backend.c:7141 backend.c:7157
+#: backend.c:16241
+msgid "It is White's turn"
+msgstr "Det är vits tur"
+
+#: backend.c:6972 backend.c:6998 backend.c:7124 backend.c:7147 backend.c:7179
+#: backend.c:16233
+msgid "It is Black's turn"
+msgstr "Det är svarts tur"
+
+#: backend.c:7011
+msgid "Displayed position is not current"
+msgstr "Den visade positionen är inte aktuell"
+
+#: backend.c:7214
+msgid "rights granted"
+msgstr "rättigheter beviljade"
+
+#: backend.c:7214
+msgid "rights revoked"
+msgstr "rättigheter återkallade"
+
+#: backend.c:7269
+msgid "Illegal move"
+msgstr "Ogiltigt drag"
+
+#: backend.c:7364
+msgid "End of game"
+msgstr "Partiet är slut"
+
+#: backend.c:7367
+msgid "Incorrect move"
+msgstr "Felaktigt drag"
+
+# promovering = byta bonde mot annan pjäs. Källa: Svensk översättning av FIDE LAWS of CHESS
+# underpromovering = byta bonde mot annan pjäs än drottning
+#: backend.c:7849 backend.c:8004
+msgid "Pull pawn backwards to under-promote"
+msgstr "Dra bonden bakåt för underpromovering"
+
+#: backend.c:7966
+msgid "only marked squares are legal"
+msgstr "endast markerade rutor är tillåtna"
+
+#: backend.c:8201
+msgid ""
+"To edit the position you can:\n"
+"* Move pieces around with left mouse button\n"
+"* Copy pieces by moving with Ctrl key pressed\n"
+"   OR by starting the move with a double-click\n"
+"* Click a K, R or P a second time to toggle its rights\n"
+"* 'Lift' a piece with right-click for multi-dropping\n"
+"* Drop a piece of the lifted type by left-click on empty\n"
+"* Right-click on empty to finish dropping\n"
+"* Adjust the type of a dropped piece by clicking it again\n"
+"* Click the active clock (repeatedly) to clear the board\n"
+"* Click the inactive clock to change the side to move"
+msgstr ""
+"För att redigera positionen kan du:\n"
+"* Flytta runt pjäser med vänstra musknappen\n"
+"* Kopiera pjäser genom att flytta dem med Ctrl-tangenten nedtryckt\n"
+"   ELLER genom att påbörja draget med dubbelklick\n"
+"* Klicka på en K, R eller P en andra gång för att växla dess rättigheter\n"
+"* ”Lyft” en pjäs med ett högerklick för flersläpp\n"
+"* Släpp en pjäs av den lyfta typen genom att vänsterklicka på en tom ruta\n"
+"* Högerklicka på en tom ruta för att avsluta släppet\n"
+"* Justera typen för en släppt pjäs genom att klicka på den igen\n"
+"* Klicka upprepade gånger på den aktiva klockan för att rensa brädet\n"
+"* Klicka på den inaktiva klockan för att ändra vem som ska göra nästa drag"
+
+#: backend.c:8217
+msgid "white"
+msgstr "vit"
+
+#: backend.c:8217
+msgid "black"
+msgstr "svart"
+
+#: backend.c:8340
+msgid "Swiss tourney finished"
+msgstr "Schweizisk turnering avslutad"
+
+#: backend.c:8882
+msgid "could not load EGBB library"
+msgstr "kunde inte läsa in EGBB-biblioteket"
+
+#: backend.c:8885
+msgid "wrong EGBB version"
+msgstr "felaktig EGBB-version"
+
+#: backend.c:8998
+msgid "Invalid pairing from pairing engine"
+msgstr "Ogiltig lottning från lottningsmotorn"
+
+#: backend.c:9173
+#, c-format
+msgid "Illegal move \"%s\" from %s machine"
+msgstr "Ogiltigt drag ”%s” från %s-maskinen"
+
+# Forsyth-Edward Notation, notation för spelställningar
+#: backend.c:9510
+msgid "Bad FEN received from engine"
+msgstr "Felaktig FEN mottagen från motorn"
+
+#: backend.c:9616
+msgid "Engine did not send setup for non-standard variant"
+msgstr "Motorn skickade inte uppställningen för icke-standardvarianten"
+
+#: backend.c:9700 backend.c:15148 backend.c:15216
+#, c-format
+msgid "%s does not support analysis"
+msgstr "%s saknar stöd för analys"
+
+#: backend.c:9766
+#, c-format
+msgid "Illegal move \"%s\" (rejected by %s chess program)"
+msgstr "Ogiltigt drag ”%s” (avvisades av schackprogrammet %s)"
+
+#: backend.c:9797
+#, c-format
+msgid "Failed to start %s chess program %s on %s: %s\n"
+msgstr "Misslyckades att starta schackprogrammet %s %s på %s: %s\n"
+
+#: backend.c:9819
+#, c-format
+msgid "Hint: %s"
+msgstr "Ledtråd: %s"
+
+#: backend.c:9824
+#, c-format
+msgid ""
+"Illegal hint move \"%s\"\n"
+"from %s chess program"
+msgstr ""
+"Ogiltigt dragförslag ”%s”\n"
+"från schackprogrammet %s"
+
+#: backend.c:9999
+msgid "Machine accepts your draw offer"
+msgstr "Maskinen accepterar ditt remianbud"
+
+#: backend.c:10002
+msgid ""
+"Machine offers a draw.\n"
+"Select Action / Draw to accept."
+msgstr ""
+"Maskinen erbjuder remi.\n"
+"Välj Åtgärd / Remi för att acceptera."
+
+#. TRANSLATORS: PV = principal variation, the variation the chess engine thinks is the best for everyone.
+#: backend.c:10123
+msgid "failed writing PV"
+msgstr "misslyckades att skriva PV"
+
+#: backend.c:10431
+#, c-format
+msgid "Ambiguous move in ICS output: \"%s\""
+msgstr "Tvetydigt drag i ICS-utdata: ”%s”"
+
+#: backend.c:10441
+#, c-format
+msgid "Illegal move in ICS output: \"%s\""
+msgstr "Ogiltigt drag i ICS-utdata: ”%s”"
+
+#: backend.c:10452
+msgid "Gap in move list"
+msgstr "Lucka i draglistan"
+
+#: backend.c:11170
+#, c-format
+msgid "Variant %s not supported by %s"
+msgstr "Variant %s stöds inte av %s"
+
+#: backend.c:11177
+#, c-format
+msgid ", but %s is"
+msgstr ", men %s är"
+
+#: backend.c:11351
+#, c-format
+msgid "Startup failure on '%s'"
+msgstr "Uppstartsfel för ”%s”"
+
+#: backend.c:11382
+msgid "Waiting for first chess program"
+msgstr "Väntar på det första schackprogrammet"
+
+#: backend.c:11387 backend.c:15455
+msgid "Waiting for second chess program"
+msgstr "Väntar på det andra schackprogrammet"
+
+#: backend.c:11436
+msgid "Could not write on tourney file"
+msgstr "Kunde inte skriva till turneringsfilen"
+
+#: backend.c:11512
+msgid ""
+"You cannot replace an engine while it is engaged!\n"
+"Terminate its game first."
+msgstr ""
+"Du kan inte byta motor medan den är upptagen!\n"
+"Avsluta först motorns parti."
+
+#: backend.c:11526
+msgid "No engine with the name you gave is installed"
+msgstr "Ingen motor med det angivna namnet är installerad"
+
+#: backend.c:11528
+msgid ""
+"First change an engine by editing the participants list\n"
+"of the Tournament Options dialog"
+msgstr ""
+"Ändra först en motor genom att redigera deltagarlistan\n"
+"i dialogrutan för turneringsalternativ"
+
+#: backend.c:11529
+msgid "You can only change one engine at the time"
+msgstr "Du kan bara ändra en motor åt gången"
+
+#: backend.c:11544 backend.c:11722
+#, c-format
+msgid "No engine %s is installed"
+msgstr "Motor %s är inte installerad"
+
+#: backend.c:11564
+msgid ""
+"You must supply a tournament file,\n"
+"for storing the tourney progress"
+msgstr ""
+"Du måste ange en turneringsfil\n"
+"för att spara turneringens förlopp"
+
+#: backend.c:11574
+msgid "Not enough participants"
+msgstr "För få deltagare"
+
+#: backend.c:11807
+msgid "Bad tournament file"
+msgstr "Felaktig turneringsfil"
+
+#: backend.c:11819
+msgid "Waiting for other game(s)"
+msgstr "Väntar på andra partier"
+
+#: backend.c:11832
+msgid "No pairing engine specified"
+msgstr "Ingen lottningsmotor angiven"
+
+#: backend.c:12319
+#, c-format
+msgid "Average solving time %4.2f sec (total time %4.2f sec) "
+msgstr "Genomsnittlig lösningstid %4.2f sek (total tid %4.2f sek) "
+
+#: backend.c:12321
+#, c-format
+msgid "%d avoid-moves played "
+msgstr "%d undvikna drag spelade "
+
+#: backend.c:12323
+#, c-format
+msgid "Solved %d out of %d (%3.1f%%) "
+msgstr "Löste %d av %d (%3.1f%%) "
+
+#: backend.c:12326
+#, c-format
+msgid "Match %s vs. %s: final score %d-%d-%d"
+msgstr "Match %s vs. %s: slutresultat %d-%d-%d"
+
+#: backend.c:12822 backend.c:12858
+#, c-format
+msgid "Illegal move: %d.%s%s"
+msgstr "Ogiltigt drag: %d.%s%s"
+
+#: backend.c:12847
+#, c-format
+msgid "Ambiguous move: %d.%s%s"
+msgstr "Tvetydigt drag: %d.%s%s"
+
+#: backend.c:12901 backend.c:13955 backend.c:14155 backend.c:14530
+#, c-format
+msgid "Can't open \"%s\""
+msgstr "Kan inte öppna ”%s”"
+
+#: backend.c:12913 menus.c:109
+msgid "Cannot build game list"
+msgstr "Kan inte skapa partilista"
+
+#: backend.c:12998
+msgid "No more games in this message"
+msgstr "Inga fler partier i detta meddelande"
+
+#: backend.c:13038
+msgid "No game has been loaded yet"
+msgstr "Inget parti har lästs in ännu"
+
+#: backend.c:13042 backend.c:13936 ngamelist.c:120
+msgid "Can't back up any further"
+msgstr "Kan inte gå längre tillbaka"
+
+#: backend.c:13489
+msgid "Game number out of range"
+msgstr "Partinumret är utanför intervallet"
+
+#: backend.c:13500
+msgid "Can't seek on game file"
+msgstr "Kan inte söka i partifilen"
+
+#: backend.c:13558
+msgid "Game not found in file"
+msgstr "Partiet hittades inte i filen"
+
+#: backend.c:13690 backend.c:14033
+msgid "Bad FEN position in file"
+msgstr "Felaktig FEN-position i filen"
+
+#: backend.c:13848
+msgid "No moves in game"
+msgstr "Inga drag i partiet"
+
+#: backend.c:13932
+msgid "No position has been loaded yet"
+msgstr "Ingen position har lästs in ännu"
+
+#: backend.c:13993 backend.c:14004
+msgid "Can't seek on position file"
+msgstr "Kan inte söka i positionsfilen"
+
+#: backend.c:14011 backend.c:14023
+msgid "Position not found in file"
+msgstr "Positionen hittades inte i filen"
+
+#: backend.c:14070
+msgid "Black to play"
+msgstr "Svart vid draget"
+
+#: backend.c:14073
+msgid "White to play"
+msgstr "Vit vid draget"
+
+#: backend.c:14160 backend.c:14535
+msgid "Waiting for access to save file"
+msgstr "Väntar på åtkomst till sparfilen"
+
+#: backend.c:14162
+msgid "Saving game"
+msgstr "Sparar parti"
+
+# Seek/Seeks är maskiner eller spelare som väntar/söker efter onlineparti att spela
+#: backend.c:14163
+msgid "Bad Seek"
+msgstr "Felaktig sökning"
+
+#: backend.c:14537
+msgid "Saving position"
+msgstr "Sparar position"
+
+#: backend.c:14665
+msgid ""
+"You have edited the game history.\n"
+"Use Reload Same Game and make your move again."
+msgstr ""
+"Du har redigerat partihistoriken.\n"
+"Använd Ladda om samma parti och gör ditt drag igen."
+
+#: backend.c:14670
+msgid ""
+"You have entered too many moves.\n"
+"Back up to the correct position and try again."
+msgstr ""
+"Du har angett för många drag.\n"
+"Gå tillbaka till rätt position och försök igen."
+
+#: backend.c:14675
+msgid ""
+"Displayed position is not current.\n"
+"Step forward to the correct position and try again."
+msgstr ""
+"Den visade positionen är inte aktuell.\n"
+"Gå framåt till rätt position och försök igen."
+
+#: backend.c:14722
+msgid "You have not made a move yet"
+msgstr "Du har inte gjort något drag än"
+
+#: backend.c:14743
+msgid ""
+"The cmail message is not loaded.\n"
+"Use Reload CMail Message and make your move again."
+msgstr ""
+"CMail-meddelandet har inte lästs in.\n"
+"Använd Läs in CMail-meddelande och gör ditt drag igen."
+
+#: backend.c:14748
+msgid "No unfinished games"
+msgstr "Inga oavslutade partier"
+
+#: backend.c:14754
+#, c-format
+msgid ""
+"You have already mailed a move.\n"
+"Wait until a move arrives from your opponent.\n"
+"To resend the same move, type\n"
+"\"cmail -remail -game %s\"\n"
+"on the command line."
+msgstr ""
+"Du har redan skickat ditt drag med e-post.\n"
+"Vänta tills ett drag kommer från din motståndare.\n"
+"För att skicka samma drag igen, skriv\n"
+"\"cmail -remail -game %s\"\n"
+"på kommandoraden."
+
+#: backend.c:14769
+msgid "Failed to invoke cmail"
+msgstr "Misslyckades att anropa cmail"
+
+#: backend.c:14831
+#, c-format
+msgid "Waiting for reply from opponent\n"
+msgstr "Väntar på svar från motståndaren\n"
+
+#: backend.c:14853
+#, c-format
+msgid "Still need to make move for game\n"
+msgstr "Du behöver fortfarande göra draget i partiet\n"
+
+#: backend.c:14857
+#, c-format
+msgid "Still need to make moves for both games\n"
+msgstr "Du behöver fortfarande göra drag i båda partierna\n"
+
+#: backend.c:14861
+#, c-format
+msgid "Still need to make moves for all %d games\n"
+msgstr "Du behöver fortfarande göra drag i alla %d partier\n"
+
+#: backend.c:14868
+#, c-format
+msgid "Still need to make a move for game %s\n"
+msgstr "Du behöver fortfarande göra ett drag i parti %s\n"
+
+#: backend.c:14874
+#, c-format
+msgid "No unfinished games\n"
+msgstr "Inga oavslutade partier\n"
+
+#: backend.c:14876
+#, c-format
+msgid "Ready to send mail\n"
+msgstr "Klar att skicka e-post\n"
+
+#: backend.c:14881
+#, c-format
+msgid "Still need to make moves for games %s\n"
+msgstr "Du behöver fortfarande göra drag i partierna %s\n"
+
+#: backend.c:15091
+msgid "Edit comment"
+msgstr "Redigera kommentar"
+
+#: backend.c:15093
+#, c-format
+msgid "Edit comment on %d.%s%s"
+msgstr "Redigera kommentar vid %d.%s%s"
+
+#: backend.c:15155
+#, c-format
+msgid "You are not observing a game"
+msgstr "Du observerar inget parti"
+
+#: backend.c:15476
+#, c-format
+msgid "Starting %s chess program"
+msgstr "Startar schackprogrammet %s"
+
+#: backend.c:15504 backend.c:16785
+msgid ""
+"Wait until your turn,\n"
+"or select 'Move Now'."
+msgstr ""
+"Vänta på din tur\n"
+"eller välj ”Gör drag nu”."
+
+#: backend.c:15647
+msgid "Training mode off"
+msgstr "Träningsläge av"
+
+#: backend.c:15655
+msgid "Training mode on"
+msgstr "Träningsläge på"
+
+#: backend.c:15658
+msgid "Already at end of game"
+msgstr "Redan vid partiets slut"
+
+#: backend.c:15748
+msgid "Warning: You are still playing a game"
+msgstr "Varning: Du spelar fortfarande ett parti"
+
+#: backend.c:15751
+msgid "Warning: You are still observing a game"
+msgstr "Varning: Du observerar fortfarande ett parti"
+
+#: backend.c:15754
+msgid "Warning: You are still examining a game"
+msgstr "Varning: Du granskar fortfarande ett parti"
+
+#: backend.c:15805
+msgid "Set White to Move"
+msgstr "Låt vit göra draget"
+
+#: backend.c:15807
+msgid "Set Black to Move"
+msgstr "Låt svart göra draget"
+
+#: backend.c:15846
+msgid "Keep Ctrl pressed to duplicate pieces"
+msgstr "Håll ner Ctrl för att duplicera pjäser"
+
+#: backend.c:15847 backend.c:16080
+msgid "Clear Board"
+msgstr "Rensa brädet"
+
+#: backend.c:15858
+msgid "Close ICS engine analyze..."
+msgstr "Stäng ICS-motoranalys…"
+
+#: backend.c:16051
+msgid "Clear More"
+msgstr "Rensa ytterligare"
+
+#: backend.c:16056
+msgid "Restore Position"
+msgstr "Återställ position"
+
+#: backend.c:16074
+msgid "Resume Edit"
+msgstr "Återuppta redigering"
+
+#: backend.c:16258
+msgid "That square is occupied"
+msgstr "Den rutan är upptagen"
+
+#: backend.c:16282 backend.c:16308
+msgid "There is no pending offer on this move"
+msgstr "Det finns inget pågående erbjudande för detta drag"
+
+#: backend.c:16344 backend.c:16355
+msgid "Your opponent is not out of time"
+msgstr "Din motståndares tid har inte gått ut"
+
+#: backend.c:16423
+msgid "You must make your move before offering a draw"
+msgstr "Du måste göra ditt drag innan du kan erbjuda remi"
+
+#: backend.c:16767
+msgid "You are not examining a game"
+msgstr "Du granskar inte ett parti"
+
+#: backend.c:16771
+msgid "You can't revert while pausing"
+msgstr "Du kan inte gå tillbaka medan du pausar"
+
+#: backend.c:16825 backend.c:16832
+msgid "It is your turn"
+msgstr "Det är din tur"
+
+#: backend.c:16883 backend.c:16890 backend.c:16976 backend.c:16983
+msgid "Wait until your turn."
+msgstr "Vänta på din tur."
+
+#: backend.c:16895
+msgid "No hint available"
+msgstr "Ingen ledtråd tillgänglig"
+
+#: backend.c:16910 backend.c:16941 ngamelist.c:356
+msgid "Game list not loaded or empty"
+msgstr "Partilistan är inte inläst eller är tom"
+
+#: backend.c:16948
+msgid "Book file exists! Try again for overwrite."
+msgstr "Öppningsboksfilen finns redan! Försök igen för att skriva över den."
+
+#: backend.c:17433
+#, c-format
+msgid "Error writing to %s chess program"
+msgstr "Fel vid skrivning till schackprogrammet %s"
+
+#: backend.c:17436 backend.c:17467
+#, c-format
+msgid "%s program exits in draw position (%s)"
+msgstr "Programmet %s slutar i en remiställning (%s)"
+
+#: backend.c:17462
+#, c-format
+msgid "Error: %s chess program (%s) exited unexpectedly"
+msgstr "Fel: schackprogrammet %s (%s) avslutades oväntat"
+
+#: backend.c:17480
+#, c-format
+msgid "Error reading from %s chess program (%s)"
+msgstr "Fel vid läsning från schackprogrammet %s (%s)"
+
+#: backend.c:17921
+msgid "Make Persistent (save)"
+msgstr "Gör beständig (spara)"
+
+#: backend.c:17935
+#, c-format
+msgid "%s engine has too many options\n"
+msgstr "Motorn %s har för många alternativ\n"
+
+#: backend.c:18089
+msgid "Displayed move is not current"
+msgstr "Det visade draget är inte aktuellt"
+
+#: backend.c:18098
+msgid "Could not parse move"
+msgstr "Kunde inte tolka draget"
+
+#: backend.c:18223 backend.c:18245
+msgid "Both flags fell"
+msgstr "Båda flaggorna föll"
+
+#: backend.c:18225
+msgid "White's flag fell"
+msgstr "Vits flagga föll"
+
+#: backend.c:18247
+msgid "Black's flag fell"
+msgstr "Svarts flagga föll"
+
+#: backend.c:18378
+msgid "Clock adjustment not allowed in auto-flag mode"
+msgstr "Klockjusteringar tillåts inte i auto-flag-läget"
+
+#: backend.c:19384
+msgid "Bad FEN position in clipboard"
+msgstr "Felaktig FEN-position i urklippet"
+
+#: book.c:618 book.c:898
+msgid "Polyglot book not valid"
+msgstr "Polyglot-boken är inte giltig"
+
+#: book.c:742
+msgid "Book Fault"
+msgstr "Öppningsboksfel"
+
+#: book.c:901
+msgid "Hash keys are different"
+msgstr "Hashnycklarna är olika"
+
+#: book.c:1082
+msgid "Could not create book"
+msgstr "Kunde inte skapa öppningsbok"
+
+#: dialogs.c:278
+msgid "Tournament file:          "
+msgstr "Turneringsfil:          "
+
+#: dialogs.c:279
+msgid "For concurrent playing of tourney with multiple XBoards:"
+msgstr "För samtidiga turneringspartier med flera XBoard:"
+
+#: dialogs.c:280
+msgid "Sync after round"
+msgstr "Synkronisera efter omgång"
+
+#: dialogs.c:281
+msgid "Sync after cycle"
+msgstr "Synkronisera efter cykel"
+
+#: dialogs.c:282
+msgid "Tourney participants:"
+msgstr "Turneringsdeltagare:"
+
+#: dialogs.c:283
+msgid "Select Engine:"
+msgstr "Välj motor:"
+
+#: dialogs.c:291
+msgid "Tourney type (0 = round-robin, 1 = gauntlet):"
+msgstr "Turneringstyp (0 = alla mot alla, 1 = gauntlet):"
+
+#: dialogs.c:292
+msgid "Number of tourney cycles (or Swiss rounds):"
+msgstr "Antal turneringscykler (eller schweizeromgångar):"
+
+#: dialogs.c:293
+msgid "Default Number of Games in Match (or Pairing):"
+msgstr "Standardantal partier i matchen (eller lottningen):"
+
+#: dialogs.c:294
+msgid "Pause between Match Games (msec):"
+msgstr "Paus mellan matchpartier (msek):"
+
+#: dialogs.c:295
+msgid "Save Tourney Games on:"
+msgstr "Spara turneringspartier i:"
+
+#: dialogs.c:296
+msgid "Game File with Opening Lines:"
+msgstr "Partifil med öppningsvarianter:"
+
+#: dialogs.c:297
+msgid "Game Number (-1 or -2 = Auto-Increment):"
+msgstr "Partinummer (-1 eller -2 = öka automatiskt):"
+
+#: dialogs.c:298
+msgid "File with Start Positions:"
+msgstr "Fil med startpositioner:"
+
+#: dialogs.c:299
+msgid "Position Number (-1 or -2 = Auto-Increment):"
+msgstr "Positionsnummer (-1 eller -2 = öka automatiskt):"
+
+#: dialogs.c:300
+msgid "Rewind Index after this many Games (0 = never):"
+msgstr "Återställ index efter så här många partier (0 = aldrig):"
+
+#: dialogs.c:301
+msgid "Disable own engine books by default"
+msgstr "Inaktivera motorernas egna öppningsböcker som standard"
+
+#: dialogs.c:302 dialogs.c:1873
+msgid "Time Control"
+msgstr "Tidskontroll"
+
+#: dialogs.c:303
+msgid "Common Engine"
+msgstr "Gemensam motor"
+
+#: dialogs.c:304 dialogs.c:439
+msgid "General Options"
+msgstr "Allmänna alternativ"
+
+#: dialogs.c:305
+msgid "Continue Later"
+msgstr "Fortsätt senare"
+
+#: dialogs.c:306
+msgid "Replace Engine"
+msgstr "Ersätt motor"
+
+#: dialogs.c:307
+msgid "Upgrade Engine"
+msgstr "Uppgradera motor"
+
+#: dialogs.c:308
+msgid "Clone Tourney"
+msgstr "Klona turnering"
+
+#: dialogs.c:348
+msgid "First you must specify an existing tourney file to clone"
+msgstr "För att klona måste du först ange en befintlig turneringsfil"
+
+#: dialogs.c:364 dialogs.c:1556
+msgid "# no engines are installed"
+msgstr "# inga motorer är installerade"
+
+#: dialogs.c:372
+msgid "Internal error: PARTICIPANTS set wrong"
+msgstr "Internt fel: PARTICIPANTS är felaktigt inställd"
+
+#: dialogs.c:380
+msgid "Tournament Options"
+msgstr "Turneringsalternativ"
+
+#: dialogs.c:399
+msgid "Absolute Analysis Scores"
+msgstr "Absoluta analyspoäng"
+
+#: dialogs.c:400
+msgid "Almost Always Queen (Detour Under-Promote)"
+msgstr "Nästan alltid dam (undvik underpromovering)"
+
+#: dialogs.c:401 menus.c:744
+msgid "Animate Dragging"
+msgstr "Animera dragning"
+
+#: dialogs.c:402 menus.c:745
+msgid "Animate Moving"
+msgstr "Animera drag"
+
+#: dialogs.c:403 menus.c:746
+msgid "Auto Flag"
+msgstr "Automatisk flagga"
+
+#: dialogs.c:404 menus.c:747
+msgid "Auto Flip View"
+msgstr "Vänd vyn automatiskt"
+
+#: dialogs.c:405 menus.c:748
+msgid "Blindfold"
+msgstr "Ögonbindel"
+
+#. TRANSLATORS: The drop menu is used to drop a piece onto the board,
+#. e.g., while playing bughouse chess or editing a position.
+#: dialogs.c:408
+msgid "Drop Menu"
+msgstr "Släppmeny"
+
+#: dialogs.c:409
+msgid "Enable Variation Trees"
+msgstr "Aktivera variantträd"
+
+#: dialogs.c:410
+msgid "Headers in Engine Output Window"
+msgstr "Rubriker i motorutdatafönstret"
+
+#: dialogs.c:411
+msgid "Hide Thinking from Human"
+msgstr "Dölj tänkande för människospelaren"
+
+#: dialogs.c:412 menus.c:753
+msgid "Highlight Last Move"
+msgstr "Markera senaste drag"
+
+#: dialogs.c:413
+msgid "Highlight with Arrow"
+msgstr "Markera med pil"
+
+#: dialogs.c:414 menus.c:756
+msgid "One-Click Moving"
+msgstr "Flytta med ett klick"
+
+#: dialogs.c:415
+msgid "Periodic Updates (in Analysis Mode)"
+msgstr "Periodiska uppdateringar (i analysläge)"
+
+#: dialogs.c:417
+msgid "Play Move(s) of Clicked PV (Analysis)"
+msgstr "Gör drag från klickad PV (analys)"
+
+#: dialogs.c:418 dialogs.c:621 menus.c:758
+msgid "Ponder Next Move"
+msgstr "Tänk på nästa drag"
+
+#: dialogs.c:419
+msgid "Popup Exit Messages"
+msgstr "Popup-fönster med avslutsmeddelanden"
+
+#: dialogs.c:420 menus.c:760
+msgid "Popup Move Errors"
+msgstr "Popup-fönster med dragfel"
+
+#: dialogs.c:421
+msgid "Scores in Move List"
+msgstr "Poäng i draglistan"
+
+#: dialogs.c:422
+msgid "Show Coordinates"
+msgstr "Visa koordinater"
+
+#: dialogs.c:423
+msgid "Show Target Squares"
+msgstr "Visa målrutor"
+
+#: dialogs.c:424
+msgid "Sticky Windows"
+msgstr "Fasta fönster"
+
+#: dialogs.c:425 menus.c:763
+msgid "Test Legality"
+msgstr "Testa dragens giltighet"
+
+#: dialogs.c:426
+msgid "Top-Level Dialogs"
+msgstr "Dialogrutor på toppnivå"
+
+#: dialogs.c:427
+msgid "Flash Moves (0 = no flashing):"
+msgstr "Blinkande drag (0 = ingen blinkning):"
+
+#: dialogs.c:428
+msgid "Flash Rate (high = fast):"
+msgstr "Blinkningshastighet (hög = snabbt):"
+
+#: dialogs.c:429
+msgid "Animation Speed (high = slow):"
+msgstr "Animeringshastighet (hög = långsam):"
+
+#: dialogs.c:430
+msgid "Zoom factor in Evaluation Graph:"
+msgstr "Zoomfaktor i utvärderingsgrafen:"
+
+#: dialogs.c:450
+msgid "Normal"
+msgstr "Normal"
+
+#: dialogs.c:451
+msgid "Makruk"
+msgstr "Makruk"
+
+# Fischer Random Chess
+#: dialogs.c:452
+msgid "FRC"
+msgstr "FRC"
+
+#: dialogs.c:453
+msgid "Shatranj"
+msgstr "Shatranj"
+
+#: dialogs.c:454
+msgid "Wild castle"
+msgstr "Wild castle"
+
+# Schackvariant
+#: dialogs.c:455
+msgid "Knightmate"
+msgstr "Knightmate"
+
+#: dialogs.c:456
+msgid "No castle"
+msgstr "No castle"
+
+#: dialogs.c:457
+msgid "Cylinder *"
+msgstr "Cylinder *"
+
+#: dialogs.c:458
+msgid "3-checks"
+msgstr "3-checks"
+
+#: dialogs.c:459
+msgid "berolina *"
+msgstr "berolina *"
+
+#: dialogs.c:460
+msgid "atomic"
+msgstr "atomic"
+
+#: dialogs.c:461
+msgid "two kings"
+msgstr "two kings"
+
+#: dialogs.c:462
+msgid " "
+msgstr " "
+
+#: dialogs.c:463
+msgid "Spartan"
+msgstr "Spartan"
+
+#: dialogs.c:464
+msgid "Board size ( -1 = default for selected variant):"
+msgstr "Brädstorlek ( -1 = standard för vald variant):"
+
+#: dialogs.c:465
+msgid "Number of Board Ranks:"
+msgstr "Antal brädrader:"
+
+#: dialogs.c:466
+msgid "Number of Board Files:"
+msgstr "Antal brädlinjer:"
+
+#: dialogs.c:467
+msgid "Holdings Size:"
+msgstr "Storlek på innehav:"
+
+#: dialogs.c:469
+msgid ""
+"Variants marked with * can only be played\n"
+"with legality testing off."
+msgstr ""
+"Varianter markerade med * kan endast spelas\n"
+"med giltighetskontroll avstängd."
+
+#: dialogs.c:471
+msgid "ASEAN"
+msgstr "ASEAN"
+
+#: dialogs.c:472
+msgid "Great Shatranj (10x8)"
+msgstr "Great Shatranj (10x8)"
+
+#: dialogs.c:473
+msgid "Seirawan"
+msgstr "Seirawan"
+
+#: dialogs.c:474
+msgid "Falcon (10x8)"
+msgstr "Falcon (10x8)"
+
+#: dialogs.c:475
+msgid "Superchess"
+msgstr "Superchess"
+
+#: dialogs.c:476
+msgid "Capablanca (10x8)"
+msgstr "Capablanca (10x8)"
+
+#: dialogs.c:477
+msgid "Crazyhouse"
+msgstr "Crazyhouse"
+
+#: dialogs.c:478
+msgid "Gothic (10x8)"
+msgstr "Gothic (10x8)"
+
+#: dialogs.c:479
+msgid "Bughouse"
+msgstr "Bughouse"
+
+#: dialogs.c:480
+msgid "Janus (10x8)"
+msgstr "Janus (10x8)"
+
+#: dialogs.c:481
+msgid "Suicide"
+msgstr "Suicide"
+
+#: dialogs.c:482
+msgid "CRC (10x8)"
+msgstr "CRC (10x8)"
+
+#: dialogs.c:483
+msgid "give-away"
+msgstr "give-away"
+
+#: dialogs.c:484
+msgid "grand (10x10)"
+msgstr "grand (10x10)"
+
+#: dialogs.c:485
+msgid "losers"
+msgstr "losers"
+
+#: dialogs.c:486
+msgid "shogi (9x9)"
+msgstr "shogi (9x9)"
+
+#: dialogs.c:487
+msgid "fairy"
+msgstr "fairy"
+
+#: dialogs.c:488
+msgid "xiangqi (9x10)"
+msgstr "xiangqi (9x10)"
+
+#: dialogs.c:489
+msgid "mighty lion"
+msgstr "mighty lion"
+
+#: dialogs.c:490
+msgid "Janggi (9x10)"
+msgstr "Janggi (9x10)"
+
+#: dialogs.c:491
+msgid "elven chess (10x10)"
+msgstr "elven chess (10x10)"
+
+#: dialogs.c:492
+msgid "courier (12x8)"
+msgstr "courier (12x8)"
+
+#: dialogs.c:493
+msgid "Duck Chess"
+msgstr "Duck Chess"
+
+#: dialogs.c:495
+msgid "chu shogi (12x12)"
+msgstr "chu shogi (12x12)"
+
+#: dialogs.c:538
+#, c-format
+msgid "Warning: second engine (%s) does not support this!"
+msgstr "Varning: Den andra motorn (%s) saknar stöd för detta!"
+
+#: dialogs.c:567
+#, c-format
+msgid "Only bughouse is not available in viewer mode."
+msgstr "Endast bughouse är inte tillgängligt i visningsläge."
+
+#: dialogs.c:568
+#, c-format
+msgid ""
+"All variants not supported by the first engine\n"
+"(currently %s) are disabled."
+msgstr ""
+"Alla varianter som inte stöds av den första motorn\n"
+"(för närvarande %s) är inaktiverade."
+
+#: dialogs.c:590
+msgid "New Variant"
+msgstr "Ny variant"
+
+#: dialogs.c:622
+msgid "Maximum Number of CPUs per Engine:"
+msgstr "Maximalt antal CPU:er per motor:"
+
+#: dialogs.c:623
+msgid "Polygot Directory:"
+msgstr "Polygot-katalog:"
+
+#: dialogs.c:624
+msgid "Hash-Table Size (MB):"
+msgstr "Hashtabellsstorlek (MB):"
+
+#: dialogs.c:625
+msgid "EGTB Path:"
+msgstr "EGTB-sökväg:"
+
+#: dialogs.c:626
+msgid "EGTB Cache Size (MB):"
+msgstr "EGTB-cache-storlek (MB):"
+
+#: dialogs.c:627
+msgid "Use GUI Book"
+msgstr "Använd GUI-öppningsbok"
+
+#: dialogs.c:628
+msgid "Opening-Book Filename:"
+msgstr "Öppningsbokens filnamn:"
+
+#: dialogs.c:629
+msgid "Book Depth (moves):"
+msgstr "Öppningsboksdjup (drag):"
+
+#: dialogs.c:630
+msgid "Book Variety (0) vs. Strength (100):"
+msgstr "Öppningsboksvariation (0) kontra styrka (100):"
+
+#: dialogs.c:631
+msgid "Engine #1 Has Own Book"
+msgstr "Motor #1 har en egen öppningsbok"
+
+#: dialogs.c:632
+msgid "Engine #2 Has Own Book          "
+msgstr "Motor #2 har en egen öppningsbok          "
+
+#: dialogs.c:643
+msgid "Common Engine Settings"
+msgstr "Gemensamma motorinställningar"
+
+#: dialogs.c:649
+msgid "Detect all Mates"
+msgstr "Upptäck alla schackmattar"
+
+#: dialogs.c:650
+msgid "Verify Engine Result Claims"
+msgstr "Verifiera motorns påståenden om resultat"
+
+#: dialogs.c:651
+msgid "Draw if Insufficient Mating Material"
+msgstr "Remi vid otillräckligt mattmaterial"
+
+#: dialogs.c:652
+msgid "Adjudicate Trivial Draws (3-Move Delay)"
+msgstr "Döm triviala remier (3-dragsfördröjning)"
+
+#: dialogs.c:653
+msgid "N-Move Rule:"
+msgstr "N-dragsregel:"
+
+#: dialogs.c:654
+msgid "N-fold Repeats:"
+msgstr "N-faldiga upprepningar:"
+
+#: dialogs.c:655
+msgid "Draw after N Moves Total:"
+msgstr "Remi efter totalt N drag:"
+
+#: dialogs.c:656
+msgid "Win / Loss Threshold:"
+msgstr "Tröskelvärde för vinst/förlust:"
+
+#: dialogs.c:657
+msgid "Negate Score of Engine #1"
+msgstr "Negera poängen för motor #1"
+
+#: dialogs.c:658
+msgid "Negate Score of Engine #2"
+msgstr "Negera poängen för motor #2"
+
+#: dialogs.c:665
+msgid "Adjudicate non-ICS Games"
+msgstr "Döm icke-ICS-partier"
+
+#: dialogs.c:678
+msgid "Auto-Kibitz"
+msgstr "Kibitza automatiskt"
+
+#: dialogs.c:679
+msgid "Auto-Comment"
+msgstr "Kommentera automatiskt"
+
+#: dialogs.c:680
+msgid "Auto-Observe"
+msgstr "Observera automatiskt"
+
+#: dialogs.c:681
+msgid "Auto-Raise Board"
+msgstr "Höj brädet automatiskt"
+
+#: dialogs.c:682
+msgid "Auto-Create Logon Script"
+msgstr "Skapa inloggningsskript automatiskt"
+
+#: dialogs.c:683
+msgid "Background Observe while Playing"
+msgstr "Observera i bakgrunden medan du spelar"
+
+#: dialogs.c:684
+msgid "Dual Board for Background-Observed Game"
+msgstr "Dubbelt bräde för parti som observeras i bakgrunden"
+
+#: dialogs.c:685
+msgid "Get Move List"
+msgstr "Hämta draglista"
+
+#: dialogs.c:686
+msgid "Quiet Play"
+msgstr "Tyst spel"
+
+#: dialogs.c:687
+msgid "Seek Graph"
+msgstr "Sökgraf"
+
+#: dialogs.c:688
+msgid "Auto-Refresh Seek Graph"
+msgstr "Uppdatera sökgraf automatiskt"
+
+#: dialogs.c:689
+msgid "Auto-InputBox PopUp"
+msgstr "Visa inmatningsruta automatiskt"
+
+#: dialogs.c:690
+msgid "Quit after game"
+msgstr "Avsluta efter parti"
+
+#: dialogs.c:691
+msgid "Premove"
+msgstr "Förhandsdrag"
+
+#: dialogs.c:692
+msgid "Premove for White"
+msgstr "Förhandsdrag för vit"
+
+#: dialogs.c:693
+msgid "First White Move:"
+msgstr "Vits första drag:"
+
+#: dialogs.c:694
+msgid "Premove for Black"
+msgstr "Förhandsdrag för svart"
+
+#: dialogs.c:695
+msgid "First Black Move:"
+msgstr "Svarts första drag:"
+
+#: dialogs.c:697
+msgid "Alarm"
+msgstr "Larm"
+
+#: dialogs.c:698
+msgid "Alarm Time (msec):"
+msgstr "Larmtid (msek):"
+
+#: dialogs.c:700
+msgid "Colorize Messages"
+msgstr "Färglägg meddelanden"
+
+#: dialogs.c:701
+msgid "Shout Text Colors:"
+msgstr "Textfärger för rop:"
+
+#: dialogs.c:702
+msgid "S-Shout Text Colors:"
+msgstr "Textfärger för S-rop:"
+
+#: dialogs.c:703
+msgid "Channel #1 Text Colors:"
+msgstr "Textfärger för kanal #1:"
+
+#: dialogs.c:704
+msgid "Other Channel Text Colors:"
+msgstr "Textfärger för andra kanaler:"
+
+#: dialogs.c:705
+msgid "Kibitz Text Colors:"
+msgstr "Textfärger för kibitz:"
+
+#: dialogs.c:706
+msgid "Tell Text Colors:"
+msgstr "Textfärger för tell:"
+
+#: dialogs.c:707
+msgid "Challenge Text Colors:"
+msgstr "Textfärger för utmaning:"
+
+#: dialogs.c:708
+msgid "Request Text Colors:"
+msgstr "Textfärger för begäran:"
+
+#: dialogs.c:709
+msgid "Seek Text Colors:"
+msgstr "Textfärger för seek:"
+
+#: dialogs.c:710
+msgid "Other Text Colors:"
+msgstr "Övriga textfärger:"
+
+#: dialogs.c:717
+msgid "ICS Options"
+msgstr "ICS-alternativ"
+
+#: dialogs.c:722
+msgid "Exact position match"
+msgstr "Exakt positionsmatchning"
+
+#: dialogs.c:722
+msgid "Shown position is subset"
+msgstr "Den visade positionen är en delmängd"
+
+#: dialogs.c:722
+msgid "Same material with exactly same Pawn chain"
+msgstr "Samma material med exakt samma bondekedja"
+
+#: dialogs.c:723
+msgid "Same material"
+msgstr "Samma material"
+
+#: dialogs.c:723
+msgid "Material range (top board half optional)"
+msgstr "Materialområde (brädets övre hälft är valfri)"
+
+#: dialogs.c:723
+msgid "Material difference (optional stuff balanced)"
+msgstr "Materialskillnad (valfritt material är balanserat)"
+
+#: dialogs.c:738
+msgid "Auto-Display Tags"
+msgstr "Visa taggar automatiskt"
+
+#: dialogs.c:739
+msgid "Auto-Display Comment"
+msgstr "Visa kommentar automatiskt"
+
+#: dialogs.c:740
+msgid ""
+"Auto-Play speed of loaded games\n"
+"(0 = instant, -1 = off):"
+msgstr ""
+"Automatisk uppspelningshastighet för inlästa partier\n"
+"(0 = omedelbart, -1 = av):"
+
+#: dialogs.c:741
+msgid "Seconds per Move:"
+msgstr "Sekunder per drag:"
+
+#: dialogs.c:742
+msgid ""
+"\n"
+"options to use in game-viewer mode:"
+msgstr ""
+"\n"
+"alternativ att använda i partivisarläge:"
+
+#: dialogs.c:744
+msgid ""
+"\n"
+"Thresholds for position filtering in game list:"
+msgstr ""
+"\n"
+"Tröskelvärden för positionsfiltrering i partilistan:"
+
+# Elo = ett rankingsystem
+#: dialogs.c:745
+msgid "Elo of strongest player at least:"
+msgstr "Lägsta Elo för den starkaste spelaren:"
+
+# Elo = ett rankingsystem
+#: dialogs.c:746
+msgid "Elo of weakest player at least:"
+msgstr "Lägsta Elo för den svagaste spelaren:"
+
+#: dialogs.c:747
+msgid "No games before year:"
+msgstr "Inga partier före år:"
+
+#: dialogs.c:748
+msgid "Minimum nr consecutive positions:"
+msgstr "Minsta antal positioner i följd:"
+
+#: dialogs.c:750
+msgid "Search mode:"
+msgstr "Sökläge:"
+
+#: dialogs.c:751
+msgid "Also match reversed colors"
+msgstr "Matcha även omvända färger"
+
+#: dialogs.c:752
+msgid "Also match left-right flipped position"
+msgstr "Matcha även vänster-högervända positioner"
+
+#: dialogs.c:761
+msgid "Load Game Options"
+msgstr "Alternativ för att läsa in parti"
+
+#: dialogs.c:773
+msgid "Auto-Save Games"
+msgstr "Spara partier automatiskt"
+
+#: dialogs.c:774
+msgid "Own Games Only"
+msgstr "Endast egna partier"
+
+#: dialogs.c:775
+msgid "Save Games on File:"
+msgstr "Spara partier i fil:"
+
+#: dialogs.c:776
+msgid "Save Final Positions on File:"
+msgstr "Spara slutpositioner i fil:"
+
+# PGN = filformat som partier sparas i.
+#: dialogs.c:777
+msgid "PGN Event Header:"
+msgstr "PGN-händelserubrik:"
+
+#: dialogs.c:778
+msgid "Old Save Style (as opposed to PGN)"
+msgstr "Gammalt sparformat (i stället för PGN)"
+
+#: dialogs.c:779
+msgid "Include Number Tag in tourney PGN"
+msgstr "Inkludera nummeretikett i turnerings-PGN"
+
+#: dialogs.c:780
+msgid "Save Score/Depth Info in PGN"
+msgstr "Spara information om poäng/djup i PGN"
+
+#: dialogs.c:781
+msgid "Save Out-of-Book Info in PGN           "
+msgstr "Spara information utanför öppningsboken i PGN           "
+
+#: dialogs.c:788
+msgid "Save Game Options"
+msgstr "Alternativ för att spara parti"
+
+#: dialogs.c:797
+msgid "No Sound"
+msgstr "Inget ljud"
+
+#: dialogs.c:798
+msgid "Default Beep"
+msgstr "Standardpip"
+
+#: dialogs.c:799
+msgid "Above WAV File"
+msgstr "Ovanför WAV-fil"
+
+#: dialogs.c:800
+msgid "Car Horn"
+msgstr "Biltuta"
+
+#: dialogs.c:801
+msgid "Cymbal"
+msgstr "Cymbal"
+
+#: dialogs.c:802
+msgid "Ding"
+msgstr "Pling"
+
+#: dialogs.c:803
+msgid "Gong"
+msgstr "Gong"
+
+#: dialogs.c:804
+msgid "Laser"
+msgstr "Laser"
+
+#: dialogs.c:805
+msgid "Penalty"
+msgstr "Straff"
+
+#: dialogs.c:806
+msgid "Phone"
+msgstr "Telefon"
+
+#: dialogs.c:807
+msgid "Pop"
+msgstr "Pop"
+
+#: dialogs.c:808
+msgid "Roar"
+msgstr "Ryt"
+
+#: dialogs.c:809
+msgid "Slap"
+msgstr "Klapp"
+
+#: dialogs.c:810
+msgid "Wood Thunk"
+msgstr "Träddunk"
+
+#: dialogs.c:812
+msgid "User File"
+msgstr "Användarfil"
+
+#: dialogs.c:835
+msgid "User WAV File:"
+msgstr "Användarens WAV-fil:"
+
+#: dialogs.c:836
+msgid "Sound Program:"
+msgstr "Ljudprogram:"
+
+#: dialogs.c:837
+msgid "Try-Out Sound:"
+msgstr "Prova ljud:"
+
+#: dialogs.c:838
+msgid "Play"
+msgstr "Spela"
+
+#: dialogs.c:839
+msgid "Move:"
+msgstr "Drag:"
+
+#: dialogs.c:840
+msgid "Win:"
+msgstr "Vinst:"
+
+#: dialogs.c:841
+msgid "Lose:"
+msgstr "Förlust:"
+
+#: dialogs.c:842
+msgid "Draw:"
+msgstr "Remi:"
+
+#: dialogs.c:843
+msgid "Unfinished:"
+msgstr "Oavslutade:"
+
+#: dialogs.c:844
+msgid "Alarm:"
+msgstr "Larm:"
+
+#: dialogs.c:845
+msgid "Challenge:"
+msgstr "Utmaning:"
+
+#: dialogs.c:847
+msgid "Sounds Directory:"
+msgstr "Ljudkatalog:"
+
+#: dialogs.c:848
+msgid "Shout:"
+msgstr "Rop:"
+
+#: dialogs.c:849
+msgid "S-Shout:"
+msgstr "S-rop:"
+
+#: dialogs.c:850
+msgid "Channel:"
+msgstr "Kanal:"
+
+#: dialogs.c:851
+msgid "Channel 1:"
+msgstr "Kanal 1:"
+
+#: dialogs.c:852
+msgid "Tell:"
+msgstr "Tell:"
+
+#: dialogs.c:853
+msgid "Kibitz:"
+msgstr "Kibitz:"
+
+#: dialogs.c:854
+msgid "Request:"
+msgstr "Förfrågan:"
+
+#: dialogs.c:855
+msgid "Lion roar:"
+msgstr "Lejonryt:"
+
+#: dialogs.c:856
+msgid "Seek:"
+msgstr "Seek:"
+
+#: dialogs.c:874
+msgid "Sound Options"
+msgstr "Ljudalternativ"
+
+#: dialogs.c:890
+msgid "Selectable themes:"
+msgstr "Valbara teman:"
+
+#: dialogs.c:892
+msgid "New name for current theme:"
+msgstr "Nytt namn för aktuellt tema:"
+
+#: dialogs.c:895
+msgid "White Piece Color:"
+msgstr "Vit pjäsfärg:"
+
+#. TRANSLATORS: The role of R here is to be a single letter that represents the colour red.
+#: dialogs.c:898 dialogs.c:907 dialogs.c:913 dialogs.c:919 dialogs.c:925
+#: dialogs.c:931
+msgid "R"
+msgstr "R"
+
+#. TRANSLATORS: The role of G here is to be a single letter that represents the colour green.
+#: dialogs.c:900 dialogs.c:908 dialogs.c:914 dialogs.c:920 dialogs.c:926
+#: dialogs.c:932
+msgid "G"
+msgstr "G"
+
+#. TRANSLATORS: The role of B here is to be a single letter that represents the colour blue.
+#: dialogs.c:902 dialogs.c:909 dialogs.c:915 dialogs.c:921 dialogs.c:927
+#: dialogs.c:933 dialogs.c:1680 dialogs.c:1686 dialogs.c:1692 dialogs.c:1698
+#: dialogs.c:1704 dialogs.c:1710 dialogs.c:1716
+msgid "B"
+msgstr "B"
+
+# Mörkare
+#. TRANSLATORS: The role of D here is to be a single letter that represents making a colour darker.
+#: dialogs.c:904 dialogs.c:910 dialogs.c:916 dialogs.c:922 dialogs.c:928
+#: dialogs.c:934
+msgid "D"
+msgstr "M"
+
+#: dialogs.c:905
+msgid "Black Piece Color:"
+msgstr "Svart pjäsfärg:"
+
+#: dialogs.c:911
+msgid "Light Square Color:"
+msgstr "Ljus rutfärg:"
+
+#: dialogs.c:917
+msgid "Dark Square Color:"
+msgstr "Mörk rutfärg:"
+
+#: dialogs.c:923
+msgid "Highlight Color:"
+msgstr "Markeringsfärg:"
+
+#: dialogs.c:929
+msgid "Premove Highlight Color:"
+msgstr "Markeringsfärg för förhandsdrag"
+
+#: dialogs.c:935
+msgid "Flip Pieces Shogi Style        (Colored buttons restore default)"
+msgstr "Vänd pjäser i shogi-stil        (Färgade knappar återställer standard)"
+
+#: dialogs.c:937
+msgid "Mono Mode"
+msgstr "Enfärgsläge"
+
+#: dialogs.c:938
+msgid "Logo Size (0=off, requires restart):"
+msgstr "Logotypstorlek (0=av, kräver omstart):"
+
+#: dialogs.c:939
+msgid "Line Gap (-1 = default for board size):"
+msgstr "Linjemellanrum (-1 = brädstorlekens standard):"
+
+#: dialogs.c:940
+msgid "Use Board Textures"
+msgstr "Använd brädtexturer"
+
+#: dialogs.c:941
+msgid "Dark-Squares Texture File:"
+msgstr "Texturfil för mörka rutor:"
+
+#: dialogs.c:942
+msgid "Light-Squares Texture File:"
+msgstr "Texturfil för ljusa rutor:"
+
+#: dialogs.c:943
+msgid "Use external piece bitmaps with their own colors"
+msgstr "Använd externa pjäsbilder med deras egna färger"
+
+#: dialogs.c:944
+msgid "Directory with Pieces Images:"
+msgstr "Katalog med pjäsbilder:"
+
+#: dialogs.c:1015
+msgid "# no themes are defined"
+msgstr "# inga teman har definierats"
+
+#: dialogs.c:1027
+msgid "Board Options"
+msgstr "Brädalternativ"
+
+#: dialogs.c:1099 menus.c:662
+msgid "ICS text menu"
+msgstr "ICS-textmeny"
+
+#: dialogs.c:1128
+msgid "clear"
+msgstr "rensa"
+
+#: dialogs.c:1129
+msgid "save changes"
+msgstr "spara ändringar"
+
+#: dialogs.c:1227
+msgid "add next move"
+msgstr "lägg till nästa drag"
+
+#: dialogs.c:1228
+msgid "commit changes"
+msgstr "genomför ändringar"
+
+#: dialogs.c:1249
+msgid "Edit book"
+msgstr "Redigera öppningsbok"
+
+#: dialogs.c:1266 dialogs.c:1273 menus.c:658
+msgid "Tags"
+msgstr "Taggar"
+
+#: dialogs.c:1397
+msgid "ICS input box"
+msgstr "ICS inmatningsruta"
+
+#: dialogs.c:1429
+msgid "Type a move"
+msgstr "Skriv ett drag"
+
+#: dialogs.c:1455
+msgid "Engine has no options"
+msgstr "Motorn har inga alternativ"
+
+#: dialogs.c:1457
+msgid "Engine Settings"
+msgstr "Motorinställningar"
+
+#: dialogs.c:1500
+msgid "Select engine from list:"
+msgstr "Välj motor från listan:"
+
+#: dialogs.c:1503
+msgid "or specify one below:"
+msgstr "eller ange en nedan:"
+
+#: dialogs.c:1504
+msgid "Engine Command:"
+msgstr "Motorkommando:"
+
+#: dialogs.c:1505
+msgid "------------- User preferences (optional) ---------------"
+msgstr "Motorkommando:"
+
+#: dialogs.c:1506
+msgid "Nickname (optional):"
+msgstr "Smeknamn (valfritt):"
+
+#: dialogs.c:1507
+msgid "Use nickname in PGN player tags of engine-engine games"
+msgstr "Använd smeknamn i PGN-spelartaggar för motor-motor-partier"
+
+#: dialogs.c:1508
+msgid "Force current variant with this engine"
+msgstr "Tvinga fram aktuell variant med denna motor"
+
+#: dialogs.c:1509
+msgid "Must not use GUI book"
+msgstr "Får inte använda GUI-öppningsbok"
+
+#: dialogs.c:1510
+msgid "Add this engine to the list"
+msgstr "Lägg till den här motorn i listan"
+
+#: dialogs.c:1511
+msgid "--------- Advanced (only change in exceptional cases) ----------"
+msgstr "--------- Avancerat (ändra endast i undantagsfall) ----------"
+
+#: dialogs.c:1512
+msgid "Engine Protocol:"
+msgstr "Motorprotokoll:"
+
+#: dialogs.c:1513
+msgid "Engine Directory:"
+msgstr "Motorkatalog:"
+
+#: dialogs.c:1514
+msgid "(Directory will be derived from engine path when empty)"
+msgstr "(Katalogen härleds från motorsökvägen när den är tom)"
+
+#: dialogs.c:1580
+msgid "Load first engine"
+msgstr "Läs in första motorn"
+
+#: dialogs.c:1586
+msgid "Load second engine"
+msgstr "Läs in andra motorn"
+
+#: dialogs.c:1609
+msgid "shuffle"
+msgstr "blanda"
+
+#: dialogs.c:1610
+msgid "Fischer castling"
+msgstr "Fischers rokad"
+
+#: dialogs.c:1611
+msgid "Start-position number:"
+msgstr "Startpositionsnummer:"
+
+#: dialogs.c:1612
+msgid "randomize"
+msgstr "slumpa"
+
+#: dialogs.c:1613
+msgid "pick fixed"
+msgstr "välj fast"
+
+#: dialogs.c:1630
+msgid "New Shuffle Game"
+msgstr "Nytt blandningsparti"
+
+#: dialogs.c:1677
+msgid "Clocks (requires restart):"
+msgstr "Klockor (kräver omstart):"
+
+#: dialogs.c:1678 dialogs.c:1684 dialogs.c:1690 dialogs.c:1696 dialogs.c:1702
+#: dialogs.c:1708 dialogs.c:1714
+msgid "+"
+msgstr "+"
+
+#: dialogs.c:1679 dialogs.c:1685 dialogs.c:1691 dialogs.c:1697 dialogs.c:1703
+#: dialogs.c:1709 dialogs.c:1715
+msgid "-"
+msgstr "-"
+
+#: dialogs.c:1681 dialogs.c:1687 dialogs.c:1693 dialogs.c:1699 dialogs.c:1705
+#: dialogs.c:1711 dialogs.c:1717
+msgid "I"
+msgstr "I"
+
+#: dialogs.c:1682 dialogs.c:1688 dialogs.c:1694 dialogs.c:1700 dialogs.c:1706
+#: dialogs.c:1712 dialogs.c:1718
+msgid "*"
+msgstr "*"
+
+#: dialogs.c:1683
+msgid "Message (above board):"
+msgstr "Meddelande (ovanför brädet):"
+
+#: dialogs.c:1689
+msgid "ICS Chat/Console:"
+msgstr "ICS-chatt/konsol:"
+
+#: dialogs.c:1695
+msgid "Edit tags / book / engine list:"
+msgstr "Redigera tagg-/öppningsboks-/motorlista:"
+
+#: dialogs.c:1701
+msgid "Edit comments:"
+msgstr "Redigera kommentarer:"
+
+#: dialogs.c:1707
+msgid "Move history / Engine Output:"
+msgstr "Draghistorik/motorutdata:"
+
+#: dialogs.c:1713
+msgid "Game list:"
+msgstr "Partilista:"
+
+#: dialogs.c:1719
+msgid ""
+"\n"
+"The * buttons will set the font to the one selected below:"
+msgstr ""
+"\n"
+"*-knapparna ställer in typsnittet till det som valts nedan:"
+
+#: dialogs.c:1773
+msgid "This only works in the GTK build"
+msgstr "Detta fungerar endast i GTK-bygget"
+
+#: dialogs.c:1774
+msgid "Fonts"
+msgstr "Typsnitt"
+
+#: dialogs.c:1797
+msgid "classical"
+msgstr "klassisk"
+
+#: dialogs.c:1798
+msgid "incremental"
+msgstr "inkrementell"
+
+#: dialogs.c:1799
+msgid "fixed max"
+msgstr "fast max"
+
+#: dialogs.c:1800
+msgid "Divide entered times by 60"
+msgstr "Dela angivna tider med 60"
+
+#: dialogs.c:1801
+msgid "Moves per session:"
+msgstr "Drag per omgång:"
+
+#: dialogs.c:1802
+msgid "Initial time (min):"
+msgstr "Starttid (min):"
+
+#: dialogs.c:1803
+msgid "Increment or max (sec/move):"
+msgstr "Ökning eller max (sek/drag):"
+
+#: dialogs.c:1804
+msgid "Time-Odds factors:"
+msgstr "Tidsoddskvoter:"
+
+#: dialogs.c:1805
+msgid "Engine #1"
+msgstr "Motor #1"
+
+#: dialogs.c:1806
+msgid "Engine #2 / Human"
+msgstr "Motor #2/människa"
+
+#: dialogs.c:1847 dialogs.c:1850 dialogs.c:1855 dialogs.c:1856
+#: gtk/xoptions.c:174
+msgid "Unused"
+msgstr "Oanvänd"
+
+#: dialogs.c:1865
+msgid "Changing time control during a game is not implemented"
+msgstr "Det går inte att ändra tidskontrollen under ett parti"
+
+#: dialogs.c:1902
+msgid "Error writing to chess program"
+msgstr "Fel vid skrivning till schackprogrammet"
+
+#: dialogs.c:1970 gtk/xoptions.c:1803 xaw/xoptions.c:1336
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: dialogs.c:1975 dialogs.c:2732 dialogs.c:2736
+msgid "King"
+msgstr "Kung"
+
+#: dialogs.c:1978
+msgid "Captain"
+msgstr "Kapten"
+
+#: dialogs.c:1979
+msgid "Lieutenant"
+msgstr "Löjtnant"
+
+#: dialogs.c:1980
+msgid "General"
+msgstr "General"
+
+#: dialogs.c:1981
+msgid "Warlord"
+msgstr "Krigsherre"
+
+#: dialogs.c:1983 dialogs.c:2731 dialogs.c:2735 dialogs.c:2754
+msgid "Knight"
+msgstr "Springare"
+
+#: dialogs.c:1984 dialogs.c:2731 dialogs.c:2735 dialogs.c:2754
+msgid "Bishop"
+msgstr "Löpare"
+
+#: dialogs.c:1985 dialogs.c:2731 dialogs.c:2735 dialogs.c:2754
+msgid "Rook"
+msgstr "Torn"
+
+#: dialogs.c:1989 dialogs.c:2733 dialogs.c:2737
+msgid "Archbishop"
+msgstr "Ärkebiskop"
+
+#: dialogs.c:1990 dialogs.c:2733 dialogs.c:2737
+msgid "Chancellor"
+msgstr "Kansler"
+
+#: dialogs.c:1992 dialogs.c:2732 dialogs.c:2736 dialogs.c:2754
+msgid "Queen"
+msgstr "Drottning"
+
+#: dialogs.c:1994
+msgid "Lion"
+msgstr "Lejon"
+
+#: dialogs.c:1998
+msgid "Defer"
+msgstr "Skjut upp"
+
+#: dialogs.c:1999 dialogs.c:2733 dialogs.c:2737
+msgid "Promote"
+msgstr "Promovera"
+
+#: dialogs.c:2056
+msgid "Chats:"
+msgstr "Chattar:"
+
+#: dialogs.c:2057 dialogs.c:2058 dialogs.c:2059 dialogs.c:2060 dialogs.c:2061
+#: dialogs.c:2167 dialogs.c:2234 dialogs.c:2266
+msgid "New Chat"
+msgstr "Ny chatt"
+
+#: dialogs.c:2064
+msgid "Chat partner:"
+msgstr "Chattpartner:"
+
+#: dialogs.c:2065
+msgid "End Chat"
+msgstr "Avsluta chatt"
+
+#: dialogs.c:2066
+msgid "Hide"
+msgstr "Göm"
+
+#: dialogs.c:2295
+msgid "ICS Interaction"
+msgstr "ICS-interaktion"
+
+#: dialogs.c:2380
+msgid "factory"
+msgstr "fabrik"
+
+#: dialogs.c:2381
+msgid "up"
+msgstr "upp"
+
+#: dialogs.c:2382
+msgid "down"
+msgstr "ner"
+
+#: dialogs.c:2401
+msgid "No tag selected"
+msgstr "Ingen etikett vald"
+
+#: dialogs.c:2432
+msgid "Game-list options"
+msgstr "Alternativ för partilistan"
+
+#: dialogs.c:2510 dialogs.c:2524
+msgid "Error"
+msgstr "Fel"
+
+#: dialogs.c:2553
+msgid "Fatal Error"
+msgstr "Kritiskt fel"
+
+#: dialogs.c:2553
+msgid "Exiting"
+msgstr "Avslutar"
+
+#: dialogs.c:2564
+msgid "Information"
+msgstr "Information"
+
+#: dialogs.c:2571
+msgid "Note"
+msgstr "Anteckning"
+
+#: dialogs.c:2731 dialogs.c:3027 dialogs.c:3030
+msgid "White"
+msgstr "Vit"
+
+#: dialogs.c:2731 dialogs.c:2735 dialogs.c:2754
+msgid "Pawn"
+msgstr "Bonde"
+
+#: dialogs.c:2732 dialogs.c:2736
+msgid "Elephant"
+msgstr "Elefant"
+
+#: dialogs.c:2732 dialogs.c:2736
+msgid "Cannon"
+msgstr "Kanon"
+
+#: dialogs.c:2733 dialogs.c:2737
+msgid "Demote"
+msgstr "Nedgradera"
+
+#: dialogs.c:2734 dialogs.c:2738
+msgid "Empty square"
+msgstr "Tom ruta"
+
+#: dialogs.c:2734 dialogs.c:2738
+msgid "Clear board"
+msgstr "Rensa brädet"
+
+#: dialogs.c:2735 dialogs.c:3040 dialogs.c:3043
+msgid "Black"
+msgstr "Svart"
+
+#: dialogs.c:2835
+msgid "_File"
+msgstr "_Arkiv"
+
+#: dialogs.c:2836
+msgid "_Edit"
+msgstr "_Redigera"
+
+#: dialogs.c:2837
+msgid "_View"
+msgstr "_Vy"
+
+#: dialogs.c:2838
+msgid "_Mode"
+msgstr "_Läge"
+
+#: dialogs.c:2839
+msgid "_Action"
+msgstr "_Åtgärd"
+
+#: dialogs.c:2840
+msgid "E_ngine"
+msgstr "_Motor"
+
+#: dialogs.c:2841
+msgid "_Options"
+msgstr "_Alternativ"
+
+#: dialogs.c:2842
+msgid "_Help"
+msgstr "_Hjälp"
+
+#: dialogs.c:2852
+msgid "<<"
+msgstr "<<"
+
+#: dialogs.c:2853
+msgid "<"
+msgstr "<"
+
+#: dialogs.c:2855
+msgid ">"
+msgstr ">"
+
+#: dialogs.c:2856
+msgid ">>"
+msgstr ">>"
+
+#: dialogs.c:3153
+msgid "Directories:"
+msgstr "Kataloger:"
+
+#: dialogs.c:3154
+msgid "Files:"
+msgstr "Filer:"
+
+#: dialogs.c:3155
+msgid "by name"
+msgstr "efter namn"
+
+#: dialogs.c:3156
+msgid "by type"
+msgstr "efter typ"
+
+#: dialogs.c:3159
+msgid "Filename:"
+msgstr "Filnamn:"
+
+#: dialogs.c:3160
+msgid "New directory"
+msgstr "Ny katalog"
+
+#: dialogs.c:3161
+msgid "File type:"
+msgstr "Filtyp:"
+
+#: dialogs.c:3236
+msgid "Contents of"
+msgstr "Innehåll i"
+
+#: dialogs.c:3262
+msgid "  next page"
+msgstr "  nästa sida"
+
+#: dialogs.c:3279
+msgid "FIRST TYPE DIRECTORY NAME HERE"
+msgstr "SKRIV IN KATALOGNAMNET FÖR FÖRSTA TYPEN HÄR"
+
+#: dialogs.c:3280
+msgid "TRY ANOTHER NAME"
+msgstr "PROVA ETT ANNAT NAMN"
+
+#: draw.c:429
+msgid ""
+"No default pieces installed!\n"
+"Select your own using '-pieceImageDirectory'."
+msgstr ""
+"Inga standardpjäser installerade!\n"
+"Välj dina egna med ”-pieceImageDirectory”."
+
+#: engineoutput.c:103 menus.c:653
+#, c-format
+msgid "Engine Output"
+msgstr "Motorutdata"
+
+#: engineoutput.c:113
+#, c-format
+msgid "%s (%d reversible ply)"
+msgid_plural "%s (%d reversible plies)"
+msgstr[0] ""
+msgstr[1] ""
+
+# Nodes per second
+#: engineoutput.c:556 engineoutput.c:559 nengineoutput.c:74 nengineoutput.c:82
+msgid "NPS"
+msgstr "NPS"
+
+#: gamelist.c:371
+#, c-format
+msgid "Reading game file (%d)"
+msgstr "Läser in partifilen (%d)"
+
+#: gtk/xboard.c:980 xaw/xboard.c:1063
+#, c-format
+msgid "%s: can't cd to CHESSDIR: "
+msgstr "%s: kan inte byta till CHESSDIR: "
+
+#: gtk/xboard.c:989 xaw/xboard.c:1072
+#, c-format
+msgid "Failed to open file '%s'\n"
+msgstr "Misslyckades att öppna filen ”%s”\n"
+
+#: gtk/xboard.c:1004 xaw/xboard.c:1081
+msgid "Recompile with larger BOARD_RANKS or BOARD_FILES to support this size"
+msgstr "Kompilera om med fler BOARD_RANKS eller BOARD_FILES för att ge stöd för denna storlek"
+
+#: gtk/xboard.c:1023 xaw/xboard.c:1113
+#, c-format
+msgid "%s: bad boardSize syntax %s\n"
+msgstr "%s: felaktig boardSize-syntax %s\n"
+
+#: gtk/xboard.c:1064 xaw/xboard.c:1152
+#, c-format
+msgid "%s: unrecognized boardSize name %s\n"
+msgstr "%s: okänt boardSize-namn %s\n"
+
+#: gtk/xboard.c:1108 xaw/xboard.c:1189
+#, c-format
+msgid "%s: too few colors available; trying monochrome mode\n"
+msgstr "%s: för få färger tillgängliga; testar monokromt läge\n"
+
+#: gtk/xboard.c:1423 xaw/xboard.c:1481
+#, c-format
+msgid "Unable to create font set for %s.\n"
+msgstr "Kan inte skapa typsnittsuppsättning för %s.\n"
+
+#: gtk/xboard.c:1448 xaw/xboard.c:1504
+#, c-format
+msgid "%s: no fonts match pattern %s\n"
+msgstr "%s: inga typsnitt matchar mönstret %s\n"
+
+#: gtk/xboard.c:1950 xaw/xboard.c:1996
+msgid "Can't open temp file"
+msgstr "Kan inte öppna tillfällig fil"
+
+#: gtk/xboard.c:2476
+msgid "Failed to open file"
+msgstr "Misslyckades att öppna fil"
+
+#: gtk/xoptions.c:1180
+msgid "*** Board window shows preview of selection ***"
+msgstr "*** Brädfönstret visar en förhandsvisning av markeringen ***"
+
+#: gtk/xoptions.c:1529
+msgid "Browse"
+msgstr "Bläddra"
+
+#: gtk/xoptions.c:1800 xaw/xoptions.c:1332
+msgid "OK"
+msgstr "OK"
+
+#: menus.c:127
+msgid "Load game file name?"
+msgstr "Läs in partifilnamn?"
+
+#: menus.c:174
+msgid "Load position file name?"
+msgstr "Läs in positionsfilnamn?"
+
+#: menus.c:180 menus.c:593
+msgid "Save game file name?"
+msgstr "Spara partifilnamn?"
+
+#: menus.c:189
+msgid "Save position file name?"
+msgstr "Spara positionsfilnamn?"
+
+#: menus.c:346
+msgid " (with Zippy code)"
+msgstr " (med Zippy-kod)"
+
+#: menus.c:351
+#, c-format
+msgid ""
+"%s%s\n"
+"\n"
+"Copyright 1991 Digital Equipment Corporation\n"
+"Enhancements Copyright 1992-2016 Free Software Foundation\n"
+"Enhancements Copyright 2005 Alessandro Scotti\n"
+"\n"
+"%s is free software and carries NO WARRANTY;see the file COPYING for more information.\n"
+"\n"
+"Visit XBoard on the web at: http://www.gnu.org/software/xboard/\n"
+"Check out the newest features at: http://www.gnu.org/software/xboard/whats_new.html\n"
+"\n"
+"Report bugs via email at: <bug-xboard@gnu.org>\n"
+"\n"
+msgstr ""
+"%s%s\n"
+"\n"
+"Copyright 1991 Digital Equipment Corporation\n"
+"Enhancements Copyright 1992-2016 Free Software Foundation\n"
+"Enhancements Copyright 2005 Alessandro Scotti\n"
+"\n"
+"%s är fri programvara UTAN GARANTI; se filen COPYING för mer\n"
+"information.\n"
+"\n"
+"Besök XBoard på webben: http://www.gnu.org/software/xboard/\n"
+"Se de senaste funktionerna: http://www.gnu.org/software/xboard/whats_new.html\n"
+"\n"
+"Rapportera fel till <bug-xboard@gnu.org>\n"
+"Skicka synpunkter på översättningen till <tp-sv@listor.tp-sv.se>\n"
+"\n"
+
+#: menus.c:362 menus.c:780
+msgid "About XBoard"
+msgstr "Om XBoard"
+
+#: menus.c:382
+msgid "Registered Engines"
+msgstr "Registrerade motorer"
+
+#: menus.c:388
+msgid "Predefined Themes"
+msgstr "Fördefinierade teman"
+
+#: menus.c:394
+msgid "ICS Text-Menu Definition"
+msgstr "Definition av ICS-textmeny"
+
+#: menus.c:604
+msgid "New Game"
+msgstr "Nytt parti"
+
+#: menus.c:605
+msgid "New Shuffle Game..."
+msgstr "Nytt blandparti…"
+
+#: menus.c:606
+msgid "New Variant..."
+msgstr "Ny variant…"
+
+#: menus.c:608
+msgid "Load Game"
+msgstr "Läs in parti"
+
+#: menus.c:609
+msgid "Load Position"
+msgstr "Läs in position"
+
+#: menus.c:610
+msgid "Next Position"
+msgstr "Nästa position"
+
+#: menus.c:611
+msgid "Prev Position"
+msgstr "Föregående position"
+
+#: menus.c:613
+msgid "Save Game"
+msgstr "Spara parti"
+
+#: menus.c:614
+msgid "Save Position"
+msgstr "Spara position"
+
+#: menus.c:615
+msgid "Save Selected Games"
+msgstr "Spara valda partier"
+
+#: menus.c:616
+msgid "Save Games as Book"
+msgstr "Spara partier som öppningsbok"
+
+#: menus.c:618
+msgid "Mail Move"
+msgstr "Skicka drag med e-post"
+
+#: menus.c:619
+msgid "Reload CMail Message"
+msgstr "Läs in CMail-meddelande igen"
+
+#: menus.c:621
+msgid "Quit "
+msgstr "Avsluta "
+
+#: menus.c:626
+msgid "Copy Game"
+msgstr "Kopiera parti"
+
+#: menus.c:627
+msgid "Copy Position"
+msgstr "Kopiera position"
+
+#: menus.c:628
+msgid "Copy Game List"
+msgstr "Kopiera partilista"
+
+#: menus.c:630
+msgid "Paste Game"
+msgstr "Klistra in parti"
+
+#: menus.c:631
+msgid "Paste Position"
+msgstr "Klistra in position"
+
+#: menus.c:633 menus.c:678
+msgid "Edit Game"
+msgstr "Redigera parti"
+
+#: menus.c:634 menus.c:679
+msgid "Edit Position"
+msgstr "Redigera position"
+
+#: menus.c:635
+msgid "Edit Tags"
+msgstr "Redigera taggar"
+
+#: menus.c:636
+msgid "Edit Comment"
+msgstr "Redigera kommentar"
+
+#: menus.c:637
+msgid "Edit Book"
+msgstr "Redigera öppningsbok"
+
+#: menus.c:639
+msgid "Revert"
+msgstr "Återställ"
+
+#: menus.c:640
+msgid "Annotate"
+msgstr "Annotera"
+
+#: menus.c:641
+msgid "Truncate Game"
+msgstr "Korta av partiet"
+
+#: menus.c:643
+msgid "Backward"
+msgstr "Bakåt"
+
+#: menus.c:644
+msgid "Forward"
+msgstr "Framåt"
+
+#: menus.c:645
+msgid "Back to Start"
+msgstr "Tillbaka till start"
+
+#: menus.c:646
+msgid "Forward to End"
+msgstr "Framåt till slutet"
+
+#: menus.c:651
+msgid "Flip View"
+msgstr "Vänd vyn"
+
+#: menus.c:654
+msgid "Move History"
+msgstr "Draghistorik"
+
+#: menus.c:655
+msgid "Evaluation Graph"
+msgstr "Utvärderingsgraf"
+
+#: menus.c:656
+msgid "Game List"
+msgstr "Partilista"
+
+#: menus.c:659
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: menus.c:660
+msgid "ICS Input Box"
+msgstr "ICS-inmatningsruta"
+
+#: menus.c:661
+msgid "ICS/Chat Console"
+msgstr "ICS/chattkonsol"
+
+#: menus.c:663
+msgid "Edit ICS menu..."
+msgstr "Redigera ICS-meny…"
+
+#: menus.c:665
+msgid "Edit Theme List..."
+msgstr "Redigera temalista…"
+
+#: menus.c:666
+msgid "Board..."
+msgstr "Bräde…"
+
+#: menus.c:667
+msgid "Fonts..."
+msgstr "Typsnitt…"
+
+#: menus.c:668
+msgid "Game List Tags..."
+msgstr "Partilisteetiketter…"
+
+#: menus.c:673
+msgid "Machine White"
+msgstr "Maskin som vit"
+
+#: menus.c:674
+msgid "Machine Black"
+msgstr "Maskin som svart"
+
+#: menus.c:675
+msgid "Two Machines"
+msgstr "Två maskiner"
+
+#: menus.c:676
+msgid "Analysis Mode"
+msgstr "Analysläge"
+
+#: menus.c:677
+msgid "Analyze Game"
+msgstr "Analysera parti"
+
+#: menus.c:680
+msgid "Training"
+msgstr "Träning"
+
+#: menus.c:681
+msgid "ICS Client"
+msgstr "ICS-klient"
+
+#: menus.c:683
+msgid "Machine Match"
+msgstr "Maskinmatch"
+
+#: menus.c:684
+msgid "Pause"
+msgstr "Paus"
+
+#: menus.c:689
+msgid "Accept"
+msgstr "Acceptera"
+
+#: menus.c:690
+msgid "Decline"
+msgstr "Avböj"
+
+#: menus.c:691
+msgid "Rematch"
+msgstr "Returmatch"
+
+#: menus.c:693
+msgid "Call Flag"
+msgstr "Begär vinst på tid"
+
+#: menus.c:694
+msgid "Draw"
+msgstr "Remi"
+
+#: menus.c:695
+msgid "Adjourn"
+msgstr "Ajournera"
+
+#: menus.c:696
+msgid "Abort"
+msgstr "Avbryt"
+
+#: menus.c:697
+msgid "Resign"
+msgstr "Ge upp"
+
+#: menus.c:699
+msgid "Stop Observing"
+msgstr "Sluta observera"
+
+#: menus.c:700
+msgid "Stop Examining"
+msgstr "Sluta analysera"
+
+#: menus.c:701
+msgid "Upload to Examine"
+msgstr "Ladda upp för analys"
+
+#: menus.c:703
+msgid "Adjudicate to White"
+msgstr "Döm till vits fördel"
+
+#: menus.c:704
+msgid "Adjudicate to Black"
+msgstr "Döm till svarts fördel"
+
+#: menus.c:705
+msgid "Adjudicate Draw"
+msgstr "Döm remi"
+
+#: menus.c:710
+msgid "Edit Engine List..."
+msgstr "Redigera motorlista…"
+
+#: menus.c:712
+msgid "Load New 1st Engine..."
+msgstr "Läs in ny förstamotor..."
+
+#: menus.c:713
+msgid "Load New 2nd Engine..."
+msgstr "Läs in en ny andremotor..."
+
+#: menus.c:715
+msgid "Engine #1 Settings..."
+msgstr "Inställningar för motor #1…"
+
+#: menus.c:716
+msgid "Engine #2 Settings..."
+msgstr "Inställningar för motor #2…"
+
+#: menus.c:717
+msgid "Common Settings..."
+msgstr "Gemensamma inställningar…"
+
+#: menus.c:719
+msgid "Hint"
+msgstr "Ledtråd"
+
+#: menus.c:720
+msgid "Book"
+msgstr "Öppningsbok"
+
+#: menus.c:722
+msgid "Move Now"
+msgstr "Gör drag nu"
+
+#: menus.c:723
+msgid "Retract Move"
+msgstr "Ta tillbaka drag"
+
+#: menus.c:728
+msgid "Mute all Sounds"
+msgstr "Stäng av alla ljud"
+
+#: menus.c:731
+msgid "General..."
+msgstr "Allmänt..."
+
+#: menus.c:733
+msgid "Time Control..."
+msgstr "Tidskontroll..."
+
+#: menus.c:734
+msgid "Adjudications..."
+msgstr "Domslut…"
+
+# Internet Chess Engine
+#: menus.c:735
+msgid "ICS..."
+msgstr "ICS..."
+
+#: menus.c:736
+msgid "Tournament..."
+msgstr "Turnering..."
+
+#: menus.c:737
+msgid "Load Game..."
+msgstr "Läs in parti..."
+
+#: menus.c:738
+msgid "Save Game..."
+msgstr "Spara parti..."
+
+#: menus.c:739
+msgid "Game List..."
+msgstr "Partilista..."
+
+#: menus.c:740
+msgid "Sounds..."
+msgstr "Ljud..."
+
+#: menus.c:743
+msgid "Always Queen"
+msgstr "Alltid drottning"
+
+#: menus.c:749
+msgid "Flash Moves"
+msgstr "Blinkande drag"
+
+#: menus.c:751
+msgid "Highlight Dragging"
+msgstr "Markera vid dragning"
+
+#: menus.c:754
+msgid "Highlight With Arrow"
+msgstr "Markera med pil"
+
+#: menus.c:755
+msgid "Move Sound"
+msgstr "Dragljud"
+
+#: menus.c:757
+msgid "Periodic Updates"
+msgstr "Periodiska uppdateringar"
+
+#: menus.c:759
+msgid "Popup Exit Message"
+msgstr "Popup-fönster för avslutsmeddelanden"
+
+#: menus.c:761
+msgid "Show Coords"
+msgstr "Visa koordinater"
+
+#: menus.c:762
+msgid "Hide Thinking"
+msgstr "Dölj tänkande"
+
+#: menus.c:766
+msgid "Save Settings Now"
+msgstr "Spara inställningar nu"
+
+#: menus.c:767
+msgid "Save Settings on Exit"
+msgstr "Spara inställningar vid avslut"
+
+#: menus.c:772
+msgid "Info XBoard"
+msgstr "Info XBoard"
+
+#: menus.c:773
+msgid "Man XBoard"
+msgstr "XBoard-manual"
+
+#: menus.c:775
+msgid "XBoard Home Page"
+msgstr "XBoards hemsida"
+
+#: menus.c:776
+msgid "On-line User Guide"
+msgstr "Användarguide på nätet"
+
+#: menus.c:777
+msgid "Development News"
+msgstr "Utvecklingsnyheter"
+
+#: menus.c:778
+msgid "e-Mail Bug Report"
+msgstr "Skicka felrapport med e-post"
+
+#: menus.c:817
+msgid "File"
+msgstr "Fil"
+
+#: menus.c:818
+msgid "Edit"
+msgstr "Redigera"
+
+#: menus.c:819
+msgid "View"
+msgstr "Vy"
+
+#: menus.c:820
+msgid "Mode"
+msgstr "Läge"
+
+#: menus.c:821
+msgid "Action"
+msgstr "Åtgärd"
+
+#: menus.c:822
+msgid "Engine"
+msgstr "Motor"
+
+#: menus.c:823
+msgid "Options"
+msgstr "Alternativ"
+
+#: menus.c:824
+msgid "Help"
+msgstr "Hjälp"
+
+#: nengineoutput.c:70 nengineoutput.c:78
+msgid "engine name"
+msgstr "motornamn"
+
+#. TRANSLATORS: Here, "move" is used as a noun, e.g., "the move Nf3".
+#: nengineoutput.c:73 nengineoutput.c:81
+msgid "move"
+msgstr "draget"
+
+#: nengineoutput.c:147
+msgid "Engine output"
+msgstr "Motorns utdata"
+
+#: nengineoutput.c:151
+msgid ""
+"Mismatch of STRIDE in nengineoutput.c\n"
+"Change and recompile!"
+msgstr ""
+"STRIDE stämmer inte överens i nengineoutput.c\n"
+"Ändra och kompilera om!"
+
+#: nevalgraph.c:60
+msgid "Evaluation graph"
+msgstr "Utvärderingsgraf"
+
+#: nevalgraph.c:60
+msgid "Blunder graph"
+msgstr "Misstagsgraf"
+
+#: nevalgraph.c:98
+msgid "Blunder"
+msgstr "Grovt misstag"
+
+#: nevalgraph.c:98
+msgid "Eval"
+msgstr "Utv."
+
+#: ngamelist.c:78
+msgid "find position"
+msgstr "hitta position"
+
+#: ngamelist.c:79
+msgid "narrow"
+msgstr "begränsa"
+
+#: ngamelist.c:80
+msgid "thresholds"
+msgstr "tröskelvärden"
+
+#: ngamelist.c:81
+msgid "tags"
+msgstr "taggar"
+
+#: ngamelist.c:82
+msgid "next"
+msgstr "nästa"
+
+#: ngamelist.c:83
+msgid "close"
+msgstr "stäng"
+
+#: ngamelist.c:107
+msgid "No game selected"
+msgstr "Inget parti valt"
+
+#: ngamelist.c:113
+msgid "Can't go forward any further"
+msgstr "Kan inte gå framåt längre"
+
+#: ngamelist.c:183
+#, c-format
+msgid "Scanning through games (%d)"
+msgstr "Skannar igenom partier (%d)"
+
+#: ngamelist.c:202
+msgid "previous page"
+msgstr "föregående sida"
+
+#: ngamelist.c:205
+msgid "next page"
+msgstr "nästa sida"
+
+#: ngamelist.c:208
+msgid "no games matched your request"
+msgstr "inga partier stämde överens med din begäran"
+
+#: ngamelist.c:210
+#, c-format
+msgid "%s - %d/%d games (%d-%d-%d)"
+msgstr "%s - %d/%d partier (%d-%d-%d)"
+
+#: ngamelist.c:275
+msgid "There is no game list"
+msgstr "Det finns ingen partilista"
+
+#: nhistory.c:109
+msgid "Move list"
+msgstr "Draglista"
+
+#: usystem.c:208
+#, c-format
+msgid "%s: unrecognized color %s\n"
+msgstr "%s: okänd färg %s\n"
+
+#: usystem.c:216
+#, c-format
+msgid "%s: can't parse foreground color in '%s'\n"
+msgstr "%s: kan inte tolka förgrundsfärg i ”%s”\n"
+
+#: usystem.c:245
+#, c-format
+msgid "%s: can't parse color names; disabling colorization\n"
+msgstr "%s: kan inte tolka färgnamn; inaktiverar färgsättning\n"
+
+#: usystem.c:347
+#, c-format
+msgid "ERROR: Unknown user %s (in path %s)\n"
+msgstr "FEL: Okänd användare %s (i sökväg %s)\n"
+
+#: usystem.c:556
+msgid "Socket support is not configured in"
+msgstr "Stöd för uttag är inte konfigurerat i"
+
+#: usystem.c:645
+msgid "internal rcmd not implemented for Unix"
+msgstr "intern rcmd är inte implementerad i Unix"
+
+#: xaw/xboard.c:1195
+#, c-format
+msgid "white pixel = 0x%lx, black pixel = 0x%lx\n"
+msgstr "vit pixel = 0x%lx, svart pixel = 0x%lx\n"
+
+#: xaw/xoptions.c:369 xaw/xoptions.c:1077
+msgid "browse"
+msgstr "bläddra"
+
+#: xaw/xoptions.c:435 xaw/xoptions.c:436
+msgid "Ctrl"
+msgstr "Ctrl"
+
+#: xaw/xoptions.c:441 xaw/xoptions.c:442
+msgid "Alt"
+msgstr "Alt"
+
+#: xaw/xoptions.c:447 xaw/xoptions.c:448
+msgid "Shift"
+msgstr "Skift"
+
+#~ msgid "It is not White's turn"
+#~ msgstr "Det är inte vits tur"
+
+#~ msgid "It is not Black's turn"
+#~ msgstr "Det är inte svarts tur"
+
+#~ msgid "Click clock to clear board"
+#~ msgstr "Klicka på klockan för att rensa brädet"
+
+#~ msgid "UCI"
+#~ msgstr "UCI"
+
+#~ msgid "USI/UCCI (uses specified -uxiAdapter)"
+#~ msgstr "USI/UCCI (använder angiven -uxiAdapter)"
+
+#~ msgid "WB protocol v1 (do not wait for engine features)"
+#~ msgstr "WB-protokoll v1 (vänta inte på motorfunktioner)"

@@ -1,0 +1,223 @@
+--- a/wyslij-po-3.3.sv.po
++++ b/wyslij-po-3.3.sv.po
+@@ -36,7 +36,7 @@
+ 
+ #: src/main.c:86
+ msgid "produce verbose output"
+-msgstr "producera utförlig utskrift"
++msgstr "skriv ut utförliga utdata"
+ 
+ #: src/main.c:88
+ msgid "FILE"
+@@ -84,7 +84,7 @@
+ 
+ #: src/main.c:107
+ msgid "direct Fcc to the given folder"
+-msgstr "direkt filkopia till angiven mapp"
++msgstr "spara filkopia direkt i angiven mapp"
+ 
+ #: src/main.c:110
+ msgid "set sender address"
+@@ -92,7 +92,7 @@
+ 
+ #: src/main.c:113
+ msgid "PO File Verification Options:"
+-msgstr "PO-filverifieringsflaggor:"
++msgstr "Flaggor för verifiering av PO-filer:"
+ 
+ #: src/main.c:115
+ msgid "verify PO modification time"
+@@ -104,7 +104,7 @@
+ 
+ #: src/main.c:148
+ msgid "not a boolean"
+-msgstr "inte boolesk"
++msgstr "inte ett booleskt värde"
+ 
+ #: src/main.c:172
+ msgid "Use <command> for compression."
+@@ -124,7 +124,7 @@
+ 
+ #: src/main.c:178
+ msgid "Set recipient address. Multiple emails are allowed."
+-msgstr "Ställ in mottagaradress. Flera e-postadresser tillåts."
++msgstr "Ställ in mottagaradress. Flera e-postadresser kan anges."
+ 
+ #: src/main.c:179 src/main.c:191
+ msgid "email"
+@@ -173,7 +173,7 @@
+ #: src/main.c:201
+ #, c-format
+ msgid "URL of textual domain page. Characters %s are replaced with the textual domain name. The default value is http://translationproject.org/domain/%s.html"
+-msgstr "URL för textdomänsida. Tecknen %s ersätts med textdomänens namn. Standardvärdet är http://translationproject.org/domain/%s.html"
++msgstr "URL för textdomänsidan. Tecknen %s ersätts med textdomänens namn. Standardvärdet är http://translationproject.org/domain/%s.html"
+ 
+ #: src/main.c:205
+ msgid "Regular expression to extract the latest POT file name from tp-url."
+@@ -192,7 +192,7 @@
+ #: src/main.c:264
+ #, c-format
+ msgid "%s: cannot create base64 encoder stream: %s"
+-msgstr "%s: kan inte skapa base64-kodarström: %s"
++msgstr "%s: kan inte skapa ström för base64-kodare: %s"
+ 
+ #: src/main.c:275
+ #, c-format
+@@ -205,7 +205,7 @@
+ 
+ #: src/main.c:330
+ msgid "Message headers:"
+-msgstr "Meddelandehuvuden:"
++msgstr "Meddelanderubriker:"
+ 
+ #: src/main.c:339
+ msgid "NOT submitting\n"
+@@ -219,22 +219,22 @@
+ #: src/main.c:347
+ #, c-format
+ msgid "%s: Sending message failed: %s"
+-msgstr "%s: Sändning av meddelande misslyckades: %s"
++msgstr "%s: Det gick inte att skicka meddelandet: %s"
+ 
+ #: src/main.c:386
+ #, c-format
+ msgid "Creating mailer `%s' failed: %s"
+-msgstr "Misslyckades med att skapa posthanterare ”%s”: %s"
++msgstr "Kunde inte skapa e-postprogrammet ”%s”: %s"
+ 
+ #: src/main.c:409
+ #, c-format
+ msgid "Opening mailer `%s' failed: %s"
+-msgstr "Misslyckades med att öppna posthanterare ”%s”: %s"
++msgstr "Kunde inte öppna e-postprogrammet ”%s”: %s"
+ 
+ #: src/main.c:425
+ #, c-format
+ msgid "Closing mailer failed: %s"
+-msgstr "Misslyckades med att stänga posthanterare: %s"
++msgstr "Kunde inte stänga e-postprogrammet: %s"
+ 
+ #. TRANSLATORS: Translate "(C)" to the copyright symbol
+ #. (C-in-a-circle), if this symbol is available in the user's
+@@ -270,7 +270,7 @@
+ #: src/http.c:64
+ #, c-format
+ msgid "cannot get protocol from the url `%s': %s"
+-msgstr "kan inte erhålla protokoll från URL ”%s”: %s"
++msgstr "kan inte hämta protokoll från URL:en ”%s”: %s"
+ 
+ #: src/http.c:71
+ #, c-format
+@@ -280,7 +280,7 @@
+ #: src/http.c:78 src/http.c:88
+ #, c-format
+ msgid "cannot extract host information from the url `%s': %s"
+-msgstr "kan inte extrahera värdinformation från URL ”%s”: %s"
++msgstr "kan inte extrahera värdinformation från URL:en ”%s”: %s"
+ 
+ #: src/http.c:114
+ #, c-format
+@@ -303,7 +303,7 @@
+ 
+ #: src/http.c:168
+ msgid "mu_stream_write timed out"
+-msgstr "tidsgräns överskreds för mu_stream_write"
++msgstr "Tidsgränsen överskreds för mu_stream_write"
+ 
+ #: src/http.c:204
+ #, c-format
+@@ -365,7 +365,7 @@
+ #: src/http.c:382
+ #, c-format
+ msgid "POT project string (%s) does not match latest version (%s)"
+-msgstr "POT-projektsträng (%s) matchar inte senaste versionen (%s)"
++msgstr "POT-projektsträngen (%s) stämmer inte överens med den senaste versionen (%s)"
+ 
+ #: src/http.c:400
+ #, c-format
+@@ -395,12 +395,12 @@
+ #: src/po.c:201
+ #, c-format
+ msgid "%s:%u: unexpected keyword (instead of \"msgid\")"
+-msgstr "%s:%u: oväntat nyckelord (istället för ”msgid”)"
++msgstr "%s:%u: oväntat nyckelord (i stället för ”msgid”)"
+ 
+ #: src/po.c:208
+ #, c-format
+ msgid "%s:%u: unexpected keyword (instead of \"msgstr\")"
+-msgstr "%s:%u: oväntat nyckelord (istället för ”msgstr”)"
++msgstr "%s:%u: oväntat nyckelord (i stället för ”msgstr”)"
+ 
+ #: src/po.c:231
+ #, c-format
+@@ -410,7 +410,7 @@
+ #: src/po.c:251
+ #, c-format
+ msgid "cannot create header: %s"
+-msgstr "kan inte skapa huvud: %s"
++msgstr "kan inte skapa rubrik: %s"
+ 
+ #: src/po.c:275
+ #, c-format
+@@ -419,7 +419,7 @@
+ 
+ #: src/po.c:290
+ msgid "Cannot build language name"
+-msgstr "Kan inte bygga språknamn"
++msgstr "Kan inte skapa språknamn"
+ 
+ #: src/po.c:297
+ #, c-format
+@@ -438,12 +438,12 @@
+ 
+ #: src/po.c:326
+ msgid "Verifying creation vs. revision date\n"
+-msgstr "Verifierar datum för skapande gentemot ändringsdatum\n"
++msgstr "Verifierar skapandedatum mot ändringsdatum\n"
+ 
+ #: src/po.c:331
+ #, c-format
+ msgid "%s: po revision date is prior to pot creation date"
+-msgstr "%s: ändringsdatum för po-fil är innan datum för pot-filens skapande"
++msgstr "%s: PO-filens ändringsdatum ligger före POT-filens skapandedatum"
+ 
+ #: src/po.c:351
+ #, c-format
+@@ -452,7 +452,7 @@
+ 
+ #: src/po.c:356
+ msgid "No Project-Id-Version"
+-msgstr "Ingen Project-Id-Version"
++msgstr "Project-Id-Version saknas"
+ 
+ #: src/po.c:363
+ #, c-format
+@@ -466,11 +466,11 @@
+ #: src/po.c:385
+ #, c-format
+ msgid "Can't get the Language header: %s"
+-msgstr "Kan inte erhålla Language-huvud: %s"
++msgstr "Kan inte hämta Language-rubriken: %s"
+ 
+ #: src/po.c:392
+ msgid "Can't determine target language: neither Language nor Language-Team header is present in the PO file"
+-msgstr "Kan inte avgöra målspråk: varken Language- eller Language-Team-huvud finns i PO-filen"
++msgstr "Kan inte avgöra målspråket: varken Language- eller Language-Team-rubriken finns i PO-filen"
+ 
+ #: src/po.c:415
+ #, c-format
+@@ -480,12 +480,12 @@
+ #: src/po.c:423
+ #, c-format
+ msgid "%s: cannot retrieve email address from Last-Translator: %s"
+-msgstr "%s: kan inte erhålla e-postadress från Last-Translator: %s"
++msgstr "%s: kan inte hämta e-postadress från Last-Translator: %s"
+ 
+ #: src/po.c:432
+ #, c-format
+ msgid "%s: No Last-Translator"
+-msgstr "%s: Ingen Last-Translator"
++msgstr "%s: Last-Translator saknas"
+ 
+ # Inte kommandot source.
+ # Språktabellen läses för att koppla språkkoder till namn på översättningsgrupper.
