@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – SAML, identitet och LDAP, grupper 30–31 (2026-09-21):** 45 lokalt XLIFF-granskade poster är CrowdIn-publicerade: SSO/SAML-sessioner, kontokoppling, LDAP-servrar och användarfilter, gruppsynkronisering, behörighetsnivåer, begränsad åtkomst och synkroniseringsfel. SAML-, LDAP-, grupp- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – åtkomsttoken och gruppsäkerhetsinställningar, grupper 28–29 (2026-09-21):** 24 lokalt XLIFF-granskade poster är CrowdIn-publicerade: detaljerade tokenomfång och lagringsperioder, tokenutgångs-webhooks, registrering av körare, CI/CD-jobbtoken, grupparv, containerregister, begränsning av kloning/förgrening samt kontroller och automatiska Duo-granskningar för sammanfogningsbegäranden. Alla grupp-, API- och tidsplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – tjänstekonton och behörigheter, grupp 27 (2026-09-21):** 27 lokalt XLIFF-granskade poster är CrowdIn-publicerade: skapande, uppdatering och borttagning av tjänstekonton, personliga åtkomsttoken, grupp-/projekt-ID, prenumerationsgränser och namnrymdsbehörigheter. ID- och resursplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
