@@ -1,3 +1,4 @@
+- **GitLab – paketregister: metadata och åtkomst (20 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – paketregister: vidarebefordran och installation (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – paketregister: versioner och borttagning (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – paketregister: skydd och ekosystem (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
