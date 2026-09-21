@@ -1,4 +1,5 @@
-- **GitLab – paketregister: npm (2 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel. Alla oöversatta vanliga PackageRegistry-poster i aktuell XLIFF är nu hanterade.
+- **GitLab – paketregister: pluralformer (6 poster, 2026-09-21):** Radgranskade och publicerade via CrowdIns plural-API; l10n-lint v1.21.6: 0 fel. Alla oöversatta PackageRegistry-poster i aktuell XLIFF är nu hanterade.
+- **GitLab – paketregister: npm (2 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel. Alla oöversatta vanliga PackageRegistry-poster är hanterade; pluralerna slutförs i följande batch.
 - **GitLab – paketregister: skydd och bekräftelser (20 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – paketregister: metadata och felhantering (20 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – paketregister: publicering och externa register (20 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
