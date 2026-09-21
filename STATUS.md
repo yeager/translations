@@ -1,3 +1,4 @@
+- **GitLab – efterlevnadskontroller, grupp 53 (2026-09-21):** 25 poster granskade för projektsynlighet, skyddade grenar, pushskydd, webhooks, Package Hunter, IaC- och behållarskanning. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – efterlevnadskontroller, grupp 52 (2026-09-21):** 20 kontroller granskade för DAST, IaC, regelstyrda godkännanden, grenar, pushar och merge requests. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – efterlevnadskontroller, grupp 51 (2026-09-21):** 12 poster granskade med kontext för projektarkiv, inaktiva användare, kontroller, ramverk, tvingade pushar och CI/CD-konfiguration. Publicerat i CrowdIn och kontrollerat med l10n-lint v1.21.6: 0 fel.
 # Status för svenska översättningar
