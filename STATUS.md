@@ -162,7 +162,7 @@ Senast uppdaterad: 2026-09-21
 
 **GitLab – autentisering, hemligheter och autentiseringsuppgifter, grupp 16 (2026-09-21):** 26 lokalt XLIFF-granskade poster är CrowdIn-publicerade: administratörs- och Docker Hub-autentiseringsuppgifter, hemliga åtkomstnycklar, API- och tjänstetoken, klusterautentisering, hemlighetsidentifiering samt inventering av GPG-, SSH- och åtkomsttoken. Platshållare, kodslutpunkter och produktnamn är bevarade. Aktuell `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
-**Swedish TM – GitLab-säkerhetsgranskning (2026-09-21):** `swedish-tm` är uppdaterat och pushat med **2 398** spårbara, radgranskade GitLab-par från den lokala XLIFF-diffen. Varje segment behåller projekt, komponent, CrowdIn-ID, källtext, publiceringsstatus och kontrollsumma; katalogen `reviewed/catalogs/gitlab.{po,tmx}` validerar tillsammans med övriga minnen.
+**Swedish TM – GitLab-säkerhetsgranskning (2026-09-21):** `swedish-tm` är uppdaterat och pushat med **2 670** spårbara, radgranskade GitLab-par från den lokala XLIFF-diffen. Varje segment behåller projekt, komponent, CrowdIn-ID, källtext, publiceringsstatus och kontrollsumma; katalogen `reviewed/catalogs/gitlab.{po,tmx}` validerar tillsammans med övriga minnen.
 
 **GitLab – säkerhetspolicyer, grupp 15 (2026-09-21):** Nio XLIFF-poster för risk- och sårbarhetsallvarlighetsgrad, policyundantag och skadliga beroenden är kontextgranskade och CrowdIn-publicerade. Alla `%{…}`-platshållare är validerade; `l10n-lint` v1.21.6 passerar fortsatt med 0 fel på hela exporten.
 
