@@ -4927,7 +4927,7 @@ msgstr " --part-type <enh> <part> [<typ>]  skriv ut eller ändra partitionstyp\n
 
 #: disk-utils/sfdisk.c:2155
 msgid " --part-uuid <dev> <part> [<uuid>] print or change partition uuid\n"
-msgstr " --part-uuid <eng> <part> [<uuid>] skriv ut eller ändra partitions-UUID\n"
+msgstr " --part-uuid <enh> <part> [<uuid>] skriv ut eller ändra partitions-UUID\n"
 
 #: disk-utils/sfdisk.c:2156
 msgid " --part-attrs <dev> <part> [<str>] print or change partition attributes\n"
@@ -10835,7 +10835,7 @@ msgstr "<storlek> och <position>"
 
 #: misc-utils/blkid.c:111
 msgid " <dev> specify device(s) to probe (default: all devices)\n"
-msgstr " <dev> ange enhet(er) att avsöka (standardvärde: alla enheter)\n"
+msgstr " <enh> ange enhet(er) att avsöka (standardvärde: alla enheter)\n"
 
 #: misc-utils/blkid.c:243
 msgid "(mounted, mtpt unknown)"
@@ -13485,7 +13485,7 @@ msgstr " -z, --zoned          skriv ut zonrelaterad information\n"
 
 #: misc-utils/lsblk.c:2356
 msgid "     --sysroot <dir>  use specified directory as system root\n"
-msgstr "     --sysroot <katalog>  använd angiven katalog som systemrot\n"
+msgstr "     --sysroot <kat>  använd angiven katalog som systemrot\n"
 
 #: misc-utils/lsblk.c:2357
 msgid ""
@@ -14522,7 +14522,7 @@ msgstr "kunde inte skapa epoll"
 #: misc-utils/whereis.c:206
 #, c-format
 msgid " %s [options] [-BMS <dir>... -f] <name>\n"
-msgstr " %s [flaggor] [-BMS <katalog>... -f] <namn>\n"
+msgstr " %s [flaggor] [-BMS <kat>... -f] <namn>\n"
 
 #: misc-utils/whereis.c:209
 msgid "Locate the binary, source, and manual-page files for a command.\n"
@@ -14656,7 +14656,7 @@ msgstr " -a, --all            rensa alla magiska strängar (VAR FÖRSIKTIG!)"
 
 #: misc-utils/wipefs.c:637
 msgid " -b, --backup[=<dir>] create a signature backup in <dir> or $HOME"
-msgstr " -b, --backup[=<katalog>] skapa en signatursäkerhetskopia i <katalog> eller $HOME"
+msgstr " -b, --backup[=<kat>] skapa en signatursäkerhetskopia i <kat> eller $HOME"
 
 #: misc-utils/wipefs.c:638
 msgid " -f, --force          force erasure"
@@ -15650,7 +15650,7 @@ msgstr "Hantera beständiga reservationer på en enhet.\n"
 
 #: sys-utils/blkpr.c:335
 msgid " -c, --command <cmd>      command for persistent reservations\n"
-msgstr " -c, --command <cmd>      kommando för permanenta reservationer\n"
+msgstr " -c, --command <kmd>      kommando för permanenta reservationer\n"
 
 #: sys-utils/blkpr.c:336
 msgid " -k, --key <num>          key to operate on\n"
@@ -15670,7 +15670,7 @@ msgstr " -t, --type <typ>         kommandotyp\n"
 
 #: sys-utils/blkpr.c:347
 msgid " <cmd> is a command; available commands are:\n"
-msgstr " <cmd> är ett kommando; tillgängliga kommandon är:\n"
+msgstr " <kmd> är ett kommando; tillgängliga kommandon är:\n"
 
 #: sys-utils/blkpr.c:351
 msgid " <flag> is a command flag; available flags are:\n"
@@ -20055,7 +20055,7 @@ msgstr " -r, --raw               använd råformat för utdata (för -e, -p och 
 
 #: sys-utils/lscpu.c:1213
 msgid " -s, --sysroot <dir>     use specified directory as system root\n"
-msgstr " -s, --sysroot <katalog>      använd angiven katalog som systemrot\n"
+msgstr " -s, --sysroot <kat>      använd angiven katalog som systemrot\n"
 
 #: sys-utils/lscpu.c:1214
 msgid " -x, --hex               print hexadecimal masks rather than lists of CPUs\n"
@@ -20746,7 +20746,7 @@ msgstr " -S, --split <lista>  dela upp intervall efter angivna kolumner\n"
 
 #: sys-utils/lsmem.c:679
 msgid " -s, --sysroot <dir>  use the specified directory as system root\n"
-msgstr " -s, --sysroot <katalog>   använd den angivna katalogen som systemrot\n"
+msgstr " -s, --sysroot <kat>   använd den angivna katalogen som systemrot\n"
 
 #: sys-utils/lsmem.c:680
 msgid "     --summary[=when] print summary information (never,always or only)\n"
@@ -26088,7 +26088,7 @@ msgstr ""
 "=                       Visa aktuellt radnummer\n"
 "/<reguljärt uttryck>    Sök efter den k:te förekomsten av det reguljära uttrycket [1]\n"
 "n                       Sök efter den k:te förekomsten av det senaste reguljära uttrycket [1]\n"
-"!<cmd> eller :!<cmd>    Exekvera <cmd> i ett underskal\n"
+"!<kmd> eller :!<kmd>    Exekvera <kmd> i ett underskal\n"
 "v                       Starta ”%s” vid den aktuella raden\n"
 "ctrl-L                  Rita om skärmen\n"
 ":n                      Gå till k:te nästa fil [1]\n"
