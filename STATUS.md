@@ -1,3 +1,4 @@
+- **GitLab – Secrets Manager-skydd och återställning, grupp 60 (2026-09-21):** 28 poster radgranskade för hemligheters livscykel, skyddade grenar, bekräftelse, återställning, läckageskydd och instansaktivering. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Secrets Manager-UI, grupp 59 (2026-09-21):** 30 poster radgranskade för lagring, export, återställningsvarningar, OpenBao, registrering, betaversion och kreditdebitering. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Secrets Manager-prov och fakturering, grupp 58 (2026-09-21):** 10 poster radgranskade för provkrediter, debitering efter förbrukning, frister, licens och prenumeration. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – hemlighetsidentifiering, grupp 57 (2026-09-21):** 15 säkerhetskritiska poster radgranskade för undantag, pushskydd, administrativt framtvingande och kontroll av token-giltighet. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
