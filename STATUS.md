@@ -1,3 +1,4 @@
+- **GitLab – policylager, grupp 93 (2026-09-21):** 11 poster radgranskade för utlösare, driftsättningsförutsättningar, versioner, varningar och projektstyrning. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – falska positiva resultat i hemlighetsidentifiering, grupp 92 (2026-09-21):** 3 säkerhetskritiska poster radgranskade för identifiering av falska positiva resultat och standardgrenen. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – beroenden och riskrapportering, grupp 91 (2026-09-21):** 24 säkerhets- och leveranskedjeposter radgranskade för CycloneDX, transitiva beroenden, paket, policyöverträdelser, sårbarheter och riskexporter. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – sårbarhetsstatus, grupp 90 (2026-09-21):** 12 säkerhetskritiska poster radgranskade för CVSS, EPSS, CVE/CWE, risk, skannarversion och status. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
