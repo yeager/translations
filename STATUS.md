@@ -1,3 +1,4 @@
+- **GitLab – körningspolicyer för scanning, grupp 83 (2026-09-21):** 28 säkerhetskritiska poster radgranskade för YAML-injicering, pipelinefiler, skannarprofiler, agenter, scheman, CI-kriterier och infrastrukturnivå. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – körningspolicyer för scanning, grupp 82 (2026-09-21):** 25 säkerhetskritiska poster radgranskade för injicering av CI-pipelines, tidsfönster, körare, DAST-profiler och CI-variabler. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – policylager, grupp 81 (2026-09-21):** 28 säkerhetskritiska poster radgranskade för policyer, undantag, projektomfattning, CI/CD, driftsättningsgrindar och utvärderingar. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – minsta behörighet, grupp 80 (2026-09-21):** 20 säkerhetskritiska poster radgranskade för Minimal åtkomst, platsbegränsningar, administratörsflöden och gruppbehörigheter. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
