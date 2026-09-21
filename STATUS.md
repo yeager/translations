@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – skyddade miljöer, grupp 18 (2026-09-21):** 29 lokalt XLIFF-granskade poster är CrowdIn-publicerade: miljöskydd, godkännare, arv, driftsättnings- och godkännanderegler, åtkomstnivåer samt felhantering. Projekt-, API- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – driftsättningstoken, grupp 17 (2026-09-21):** 33 lokalt XLIFF-granskade poster är CrowdIn-publicerade: grupp- och projekttoken, samtliga register- och paketbehörigheter, utgångsdatum, återkallande samt CI/CD-exponering. Åtkomstnivåerna (läsning, skrivning och radering) och kodplatshållare är bevarade. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – autentisering, hemligheter och autentiseringsuppgifter, grupp 16 (2026-09-21):** 26 lokalt XLIFF-granskade poster är CrowdIn-publicerade: administratörs- och Docker Hub-autentiseringsuppgifter, hemliga åtkomstnycklar, API- och tjänstetoken, klusterautentisering, hemlighetsidentifiering samt inventering av GPG-, SSH- och åtkomsttoken. Platshållare, kodslutpunkter och produktnamn är bevarade. Aktuell `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
