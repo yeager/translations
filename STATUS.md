@@ -1,3 +1,4 @@
+- **GitLab – virtuellt register: register och uppströmskällor (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – virtuellt register: Maven och registerhantering (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – virtuellt register: åtkomst och felhantering (30 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – virtuellt register: uppströmskällor och cache (32 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
