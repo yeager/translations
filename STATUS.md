@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – DAST-profiler, radgranskning klar (2026-09-21):** De sista 26 språkbara profilposterna är kontextgranskade och CrowdIn-publicerade: skanningsmetod/-läge, spindelgenomsökning, profilhantering, cookier/huvuden, återförsök och avancerade DOM-väljare. De enda fem mål som avsiktligt är oförändrade är `/graphql`, den generiska etiketten `URL` och tre bokstavliga exempel-URL:er med HAR/OpenAPI/Postman-format. DAST-profilernas svenska gränssnitt är därmed radgranskat; hela exporten passerar `l10n-lint` v1.21.6 utan fel.
+
 **GitLab – DAST-profiler, grupp 12 (2026-09-21):** 31 XLIFF-poster är kontextgranskade och CrowdIn-publicerade: URL- och mönsterundantag, sid-/element-/navigeringsgränser, genomsökningsdjup, svarsstorlek, parallella aktiva kontroller, cache, validering samt den uttryckliga spärren mot aktiv skanning av ovaliderade webbplatser. DAST har nu 31 oförändrade mål kvar i exporten; de utgör korta profiltexter, parameternamn och bokstavliga URL-/filformatvärden som fortsätter granskas separat. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
 
 **GitLab – DAST-profiler, grupp 11 (2026-09-21):** 24 XLIFF-poster är kontextgranskade och CrowdIn-publicerade. Denna grupp täcker cache-/OOM-varning, Docker-register, Chromium- och protokollloggar, user-agent, aktiva/passiva kontroller, mål-URL/sökväg, inloggningsresultat samt PKCS12 och ömsesidig TLS. Kodvärden, headers och dokumentationsplatshållaren är intakta. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
