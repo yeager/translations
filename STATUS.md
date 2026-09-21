@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – CI/CD-analys och jobbtoken, grupp 5 (2026-09-21):** 24 XLIFF-poster är kontextgranskade och CrowdIn-publicerade: CI/CD-konfiguration, jobbtoken, pipelineanalys, instansrunnrars körningstid, versionsstatistik, fel-/framgångsfrekvenser och pipelineutfall. Aktuell `l10n-lint` v1.21.6 ger fortsatt 0 fel på hela XLIFF-exporten.
+
 **GitLab – granskningsströmmar och åtkomst, grupp 4 (2026-09-21):** 19 kontextgranskade XLIFF-poster är publicerade: granskningsströmmars mål, filter, namnrymder och nycklar; autentiserade Git HTTP-gränser; identitetsleverantör; Secret Push Protection; importautentisering och sändningsmeddelandens känsliga data. Verktygen är uppdaterade före publicering: `l10n-lint` **v1.21.6** ger 0 fel och `hunspell-sv` **v2026.09.21.1** språkpolicy passerar 35 källstödda regler, 17 rättningar och 234 fall.
 
 **GitLab – säkerhet och identitet, grupp 3 (2026-09-21):** 16 XLIFF-poster är kontextgranskade och API-publicerade: LDAP-hanterad åtkomst, Secret Detection, avancerad SAST, WebAuthn, Artifact Registry-behörigheter, AWS hemliga åtkomstnycklar och OAuth-applikationshemligheter. Platshållare och säkerhetssemantik är validerade med aktuell `l10n-lint` (0 fel på hela exporten).
