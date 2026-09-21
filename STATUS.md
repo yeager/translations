@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – granskningsströmmar och åtkomst, grupp 4 (2026-09-21):** 19 kontextgranskade XLIFF-poster är publicerade: granskningsströmmars mål, filter, namnrymder och nycklar; autentiserade Git HTTP-gränser; identitetsleverantör; Secret Push Protection; importautentisering och sändningsmeddelandens känsliga data. Verktygen är uppdaterade före publicering: `l10n-lint` **v1.21.6** ger 0 fel och `hunspell-sv` **v2026.09.21.1** språkpolicy passerar 35 källstödda regler, 17 rättningar och 234 fall.
+
 **GitLab – säkerhet och identitet, grupp 3 (2026-09-21):** 16 XLIFF-poster är kontextgranskade och API-publicerade: LDAP-hanterad åtkomst, Secret Detection, avancerad SAST, WebAuthn, Artifact Registry-behörigheter, AWS hemliga åtkomstnycklar och OAuth-applikationshemligheter. Platshållare och säkerhetssemantik är validerade med aktuell `l10n-lint` (0 fel på hela exporten).
 
 **3D Slicer – XLIFF-granskning, grupp 1 (2026-09-21):** Alla fyra svenska komponenter har hämtats som XLIFF och körts med aktuell `l10n-lint`: 0 formatfel. Nio granskade huvudgränssnittsrättningar är publicerade och API-bekräftade, inklusive typografisk ellips, **klippningsplan**, tilläggskatalogens namn och webbplats, korrekt C++-typen `long long` och konsekventa egenskapsdialoger. CTK:s `%2s`-platshållare och VMTK:s konsonantstrykningsriktiga **klippunkter** fanns redan korrekt publicerade. XLIFF-arkiv: `3D-Slicer/xliff-20260921/`. Resterande semantiska varningar granskas radvis i kommande grupper.
