@@ -1,5 +1,14 @@
 --- a/mailfromd-8.17.91.sv.po
 +++ b/mailfromd-8.17.91.sv.po
+@@ -22,7 +22,7 @@
+ #: gacopyz/gacopyz.c:21 gacopyz/io.c:176
+ #, c-format
+ msgid "send header: size=%lu, cmd=%c"
+-msgstr "sändningshuvud: storlek=%lu, cmd=%c"
++msgstr "sändningsrubrik: storlek=%lu, cmd=%c"
+ 
+ #: gacopyz/gacopyz.c:25 gacopyz/gacopyz.c:27 gacopyz/io.c:179
+ msgid "send data"
 @@ -31,7 +31,7 @@
  #: gacopyz/gacopyz.c:42
  #, c-format
@@ -95,7 +104,7 @@
  #, c-format
  msgid "read header: size=%lu, cmd=%c"
 -msgstr "läs header: storlek=%lu, cmd=%c"
-+msgstr "läser huvud: storlek=%lu, cmd=%c"
++msgstr "läser rubrik: storlek=%lu, cmd=%c"
  
  #: gacopyz/gacopyz.c:807 gacopyz/gacopyz.c:809 gacopyz/io.c:223
  msgid "read data"
@@ -1012,6 +1021,15 @@
  
  #: src/builtin/dkim.bi:274
  #, c-format
+@@ -1588,7 +1588,7 @@
+ #: src/builtin/dkim.bi:286
+ #, c-format
+ msgid "Sendmail address header postprocessing failed: %s"
+-msgstr "Efterbehandlingen av adresshuvudet i Sendmail misslyckades: %s"
++msgstr "Efterbehandlingen av adressrubriken i Sendmail misslyckades: %s"
+ 
+ #: src/builtin/dkim.bi:293
+ msgid "DKIM failed"
 @@ -1597,52 +1597,52 @@
  #: src/builtin/dns.bi:37
  #, c-format
@@ -1286,20 +1304,15 @@
  
  #: src/builtin/msg.bi:291
  #, c-format
-@@ -2023,11 +2023,11 @@
+@@ -2023,7 +2023,7 @@
  
  #: src/builtin/msg.bi:344
  msgid "header size out of representable range"
 -msgstr "rubrikstorlek utanför representativt intervall"
-+msgstr "huvudets storlek ligger utanför det representerbara intervallet"
++msgstr "rubrikens storlek ligger utanför det representerbara intervallet"
  
  #: src/builtin/msg.bi:419
  msgid "header not found"
--msgstr "rubriken hittades inte"
-+msgstr "huvudet hittades inte"
- 
- #: src/builtin/msg.bi:544 src/builtin/msg.bi:579
- msgid "end of input"
 @@ -2036,7 +2036,7 @@
  #: src/builtin/msg.bi:877
  #, c-format
@@ -1403,7 +1416,7 @@
  #, c-format
  msgid "spamd responded with bad Spam header '%s'"
 -msgstr "spamd svarade med felaktigt spamhuvud '%s'"
-+msgstr "spamd svarade med ett felaktigt spamhuvud ”%s”"
++msgstr "spamd svarade med en felaktig spamrubrik ”%s”"
  
  #: src/builtin/sa.bi:533
  #, c-format
@@ -1689,7 +1702,7 @@
  #: src/gram.y:1200
  msgid "header action is not allowed in end block"
 -msgstr "rubrikåtgärd är inte tillåten i slutblock"
-+msgstr "huvudåtgärd är inte tillåten i slutblocket"
++msgstr "rubrikåtgärd är inte tillåten i slutblocket"
  
  #: src/gram.y:1218
  msgid "arguments are ignored for accept"
@@ -2827,24 +2840,21 @@
  
  #: pmult/pmult.c:839
  msgid "disable signal handling in the main thread (use for debugging)."
-@@ -4161,17 +4161,17 @@
+@@ -4161,7 +4161,7 @@
  #: pmult/pmult.c:2027
  #, c-format
  msgid "%scannot get the size of the header stream: %s"
 -msgstr "%s kan inte få storleken på rubrikströmmen: %s"
-+msgstr "%skan inte hämta storleken på huvudets dataström: %s"
++msgstr "%skan inte hämta storleken på rubrikens dataström: %s"
  
  #: pmult/pmult.c:2035
  #, c-format
- msgid "%scannot create header: %s"
--msgstr "%skan inte skapa rubrik: %s"
-+msgstr "%skan inte skapa huvud: %s"
- 
+@@ -4171,7 +4171,7 @@
  #: pmult/pmult.c:2164
  #, c-format
  msgid "reading from header stream failed: %s"
 -msgstr "läsning från header stream misslyckades: %s"
-+msgstr "läsning från huvudets dataström misslyckades: %s"
++msgstr "läsning från rubrikens dataström misslyckades: %s"
  
  #: pmult/pmult.c:2214
  #, c-format

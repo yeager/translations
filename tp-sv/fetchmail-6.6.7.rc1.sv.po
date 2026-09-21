@@ -94,7 +94,7 @@ msgstr " (för stort)"
 
 #, c-format
 msgid "couldn't fetch headers, message %s@%s:%d (%d octets)\n"
-msgstr "kunde inte hämta huvuden, meddelandet %s@%s:%d (%d oktetter)\n"
+msgstr "kunde inte hämta rubriker, meddelandet %s@%s:%d (%d oktetter)\n"
 
 #, c-format
 msgid "reading message %s@%s:%d of %d"
@@ -106,7 +106,7 @@ msgstr " (%d oktetter)"
 
 #, c-format
 msgid " (%d header octets)"
-msgstr " (%d huvudoktetter)"
+msgstr " (%d rubrikoktetter)"
 
 #, c-format
 msgid " (%d body octets)"
@@ -365,7 +365,7 @@ msgid "socket"
 msgstr "uttag"
 
 msgid "missing or bad RFC822 header"
-msgstr "saknat eller felaktigt RFC 822-huvud"
+msgstr "saknat eller felaktigt RFC 822-rubrik"
 
 msgid "client/server synchronization"
 msgstr "klient-/serversynkronisering"
@@ -432,7 +432,7 @@ msgid ""
 msgstr ""
 "%s: Miljövariabeln QMAILINJECT är satt.\n"
 "Detta är farligt eftersom det kan få qmail-inject eller qmail:s sendmail-omslag\n"
-"att mixtra med dina From:- eller Message-ID:-huvuden.\n"
+"att mixtra med dina From:- eller Message-ID:-rubriker.\n"
 "Prova \"env QMAILINJECT= %s DINA ARGUMENT HÄR\"\n"
 "%s: Avbryt.\n"
 
@@ -447,7 +447,7 @@ msgstr ""
 "%s: Miljövariabeln NULLMAILER_FLAGS är satt.\n"
 "Detta är farligt eftersom det kan få nullmailer-inject eller nullmailer:s\n"
 "sendmail-omslag att mixtra med dina From:-, Message-ID:- eller\n"
-"Return-Path:-huvuden.\n"
+"Return-Path:-rubriker.\n"
 "Prova \"env NULLMAILER_FLAGS= %s DINA ARGUMENT HÄR\"\n"
 "%s: Avbryt.\n"
 
@@ -478,7 +478,7 @@ msgid ""
 "DO repair your /etc/hosts, DNS, NIS or LDAP instead.\n"
 msgstr ""
 "Försöker fortsätta med opreciserat värdnamn.\n"
-"Rapportera INTE trasiga Received:-huvuden, HELO/EHLO-rader eller liknande\n"
+"Rapportera INTE trasiga Received:-rubriker, HELO/EHLO-rader eller liknande\n"
 "problem!  REPARERA din /etc/hosts, DNS, NIS eller LDAP istället.\n"
 
 #, c-format
@@ -1240,11 +1240,11 @@ msgstr "  Routning av kuvertadresser är avaktiverad\n"
 
 #, c-format
 msgid "  Envelope header is assumed to be: %s\n"
-msgstr "  Kuverthuvudet antas vara: %s\n"
+msgstr "  Kuvertrubriken antas vara: %s\n"
 
 #, c-format
 msgid "  Number of envelope headers to be skipped over: %d\n"
-msgstr "  Antal kuverthuvuden som hoppas över: %d\n"
+msgstr "  Antal kuvertrubriker som hoppas över: %d\n"
 
 #, c-format
 msgid "  Prefix %s will be removed from user id\n"
@@ -1295,16 +1295,16 @@ msgid "  %d UIDs saved.\n"
 msgstr "  %d UID:er har sparats.\n"
 
 msgid "  Poll trace information will be added to the Received header.\n"
-msgstr "  Kontrollspårningsinformation läggs till i Received-huvudet.\n"
+msgstr "  Kontrollspårningsinformation läggs till i Received-rubriken.\n"
 
 msgid "  No poll trace information will be added to the Received header.\n"
-msgstr "  Ingen kontrollspårningsinformation läggs till i Received-huvudet.\n"
+msgstr "  Ingen kontrollspårningsinformation läggs till i Received-rubriken.\n"
 
 msgid "  Messages with bad headers will be rejected.\n"
-msgstr "  Meddelanden med felaktiga huvuden kommer att avvisas.\n"
+msgstr "  Meddelanden med felaktiga rubriker kommer att avvisas.\n"
 
 msgid "  Messages with bad headers will be passed on.\n"
-msgstr "  Meddelanden med felaktiga huvuden skickas vidare.\n"
+msgstr "  Meddelanden med felaktiga rubriker skickas vidare.\n"
 
 #, c-format
 msgid "  Pass-through properties \"%s\".\n"
@@ -1734,7 +1734,7 @@ msgstr "större"
 
 #, c-format
 msgid "Invalid bad-header policy `%s' specified.\n"
-msgstr "Ogiltig policy ”%s” för felaktiga huvuden angavs.\n"
+msgstr "Ogiltig policy ”%s” för felaktiga rubriker angavs.\n"
 
 #, c-format
 msgid "Invalid protocol `%s' specified.\n"
@@ -1857,7 +1857,7 @@ msgid ""
 "                    specify policy for handling messages with bad headers\n"
 msgstr ""
 "      --bad-header {reject|accept}\n"
-"                    ange policy för hantering av meddelanden med felaktiga huvuden\n"
+"                    ange policy för hantering av meddelanden med felaktiga rubriker\n"
 
 msgid "  -p, --proto[col]  specify retrieval protocol (see man page)\n"
 msgstr "  -p, --proto[col]  ange protokoll för hämtning (se manualsidan)\n"
@@ -1888,7 +1888,7 @@ msgid "  -t, --timeout     server nonresponse timeout\n"
 msgstr "  -t, --timeout     tidsgräns för uteblivet svar från servern\n"
 
 msgid "  -E, --envelope    envelope address header\n"
-msgstr "  -E, --envelope    kuvertadresshuvud\n"
+msgstr "  -E, --envelope    kuvertadressrubrik\n"
 
 msgid "  -Q, --qvirtual    prefix to remove from local user id\n"
 msgstr "  -Q, --qvirtual    prefix att ta bort från lokalt användar-ID\n"
@@ -1897,7 +1897,7 @@ msgid "      --principal   mail service principal\n"
 msgstr "      --principal   posttjänsthuvudnamn\n"
 
 msgid "      --tracepolls  add poll-tracing information to Received header\n"
-msgstr "      --tracepolls  lägg till kontrollspårningsinformation i Received-huvudet\n"
+msgstr "      --tracepolls  lägg till kontrollspårningsinformation i Received-rubriken\n"
 
 msgid "  -u, --user[name]  specify users's login on server\n"
 msgstr "  -u, --user[name]  ange användarens inloggning på servern\n"
@@ -1921,7 +1921,7 @@ msgid "      --limitflush  delete oversized messages\n"
 msgstr "      --limitflush  radera för stora meddelanden\n"
 
 msgid "  -n, --norewrite   don't rewrite header addresses\n"
-msgstr "  -n, --norewrite   skriv inte om huvudadresser\n"
+msgstr "  -n, --norewrite   skriv inte om rubrikadresser\n"
 
 msgid "  -l, --limit       don't fetch messages over given size\n"
 msgstr "  -l, --limit       hämta inte meddelanden över en viss storlek\n"
@@ -2734,7 +2734,7 @@ msgid "found Received address `%s'\n"
 msgstr "hittade Received-adressen ”%s”\n"
 
 msgid "incorrect header line found - see manpage for bad-header option\n"
-msgstr "felaktig huvudrad hittades – se alternativet bad-header i manualsidan\n"
+msgstr "felaktig rubrikrad hittades – se alternativet bad-header i manualsidan\n"
 
 #, c-format
 msgid "line: %s"
@@ -2749,11 +2749,11 @@ msgid "Parsing Received names \"%-.*s\"\n"
 msgstr "Tolkar Received-namnen ”%-.*s”\n"
 
 msgid "No envelope recipient found, resorting to header guessing.\n"
-msgstr "Ingen kuvertmottagare hittades; gissar utifrån huvuden.\n"
+msgstr "Ingen kuvertmottagare hittades; gissar utifrån rubriker.\n"
 
 #, c-format
 msgid "Guessing from header \"%-.*s\".\n"
-msgstr "Gissar utifrån huvudet ”%-.*s”.\n"
+msgstr "Gissar utifrån rubriken ”%-.*s”.\n"
 
 #, c-format
 msgid "no local matches, forwarding to %s\n"

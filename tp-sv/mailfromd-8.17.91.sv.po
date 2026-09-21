@@ -22,7 +22,7 @@ msgstr ""
 #: gacopyz/gacopyz.c:21 gacopyz/io.c:176
 #, c-format
 msgid "send header: size=%lu, cmd=%c"
-msgstr "sändningshuvud: storlek=%lu, cmd=%c"
+msgstr "sändningsrubrik: storlek=%lu, cmd=%c"
 
 #: gacopyz/gacopyz.c:25 gacopyz/gacopyz.c:27 gacopyz/io.c:179
 msgid "send data"
@@ -178,7 +178,7 @@ msgstr "%s: skrev 0 byte"
 #: gacopyz/gacopyz.c:799 gacopyz/io.c:216
 #, c-format
 msgid "read header: size=%lu, cmd=%c"
-msgstr "läser huvud: storlek=%lu, cmd=%c"
+msgstr "läser rubrik: storlek=%lu, cmd=%c"
 
 #: gacopyz/gacopyz.c:807 gacopyz/gacopyz.c:809 gacopyz/io.c:223
 msgid "read data"
@@ -1588,7 +1588,7 @@ msgstr "fel: %s"
 #: src/builtin/dkim.bi:286
 #, c-format
 msgid "Sendmail address header postprocessing failed: %s"
-msgstr "Efterbehandlingen av adresshuvudet i Sendmail misslyckades: %s"
+msgstr "Efterbehandlingen av adressrubriken i Sendmail misslyckades: %s"
 
 #: src/builtin/dkim.bi:293
 msgid "DKIM failed"
@@ -2023,11 +2023,11 @@ msgstr "kan inte skapa filter för kodning %s: %s"
 
 #: src/builtin/msg.bi:344
 msgid "header size out of representable range"
-msgstr "huvudets storlek ligger utanför det representerbara intervallet"
+msgstr "rubrikens storlek ligger utanför det representerbara intervallet"
 
 #: src/builtin/msg.bi:419
 msgid "header not found"
-msgstr "huvudet hittades inte"
+msgstr "rubriken hittades inte"
 
 #: src/builtin/msg.bi:544 src/builtin/msg.bi:579
 msgid "end of input"
@@ -2154,7 +2154,7 @@ msgstr "SPAMD-version som inte stöds: %s"
 #: src/builtin/sa.bi:438
 #, c-format
 msgid "spamd responded with bad Spam header '%s'"
-msgstr "spamd svarade med ett felaktigt spamhuvud ”%s”"
+msgstr "spamd svarade med en felaktig spamrubrik ”%s”"
 
 #: src/builtin/sa.bi:533
 #, c-format
@@ -2560,7 +2560,7 @@ msgstr "Sendmail-åtgärder är inte tillåtna i slutblocket"
 
 #: src/gram.y:1200
 msgid "header action is not allowed in end block"
-msgstr "huvudåtgärd är inte tillåten i slutblocket"
+msgstr "rubrikåtgärd är inte tillåten i slutblocket"
 
 #: src/gram.y:1218
 msgid "arguments are ignored for accept"
@@ -4161,17 +4161,17 @@ msgstr "%smisslyckades med att ansluta till %s (milter %s)"
 #: pmult/pmult.c:2027
 #, c-format
 msgid "%scannot get the size of the header stream: %s"
-msgstr "%skan inte hämta storleken på huvudets dataström: %s"
+msgstr "%skan inte hämta storleken på rubrikens dataström: %s"
 
 #: pmult/pmult.c:2035
 #, c-format
 msgid "%scannot create header: %s"
-msgstr "%skan inte skapa huvud: %s"
+msgstr "%skan inte skapa rubrik: %s"
 
 #: pmult/pmult.c:2164
 #, c-format
 msgid "reading from header stream failed: %s"
-msgstr "läsning från huvudets dataström misslyckades: %s"
+msgstr "läsning från rubrikens dataström misslyckades: %s"
 
 #: pmult/pmult.c:2214
 #, c-format

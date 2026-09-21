@@ -206,12 +206,7 @@
  
  #: frm/common.c:509 frm/common.c:590
  #, c-format
-@@ -473,11 +473,11 @@
- 
- #: frm/frm.c:142
- msgid "header field to display"
--msgstr "rubrikfält att visa"
-+msgstr "huvudfält att visa"
+@@ -477,7 +477,7 @@
  
  #: frm/frm.c:145
  msgid "include the To: information"
@@ -220,15 +215,6 @@
  
  #: frm/frm.c:148
  msgid "display message numbers"
-@@ -485,7 +485,7 @@
- 
- #: frm/frm.c:151
- msgid "do not display headers"
--msgstr "visa inte rubriker"
-+msgstr "visa inte huvuden"
- 
- #: frm/frm.c:154
- msgid "print a message if the mailbox contains some unread mail"
 @@ -503,11 +503,11 @@
  #. "old" and "read". They are keywords.
  #: frm/frm.c:162
@@ -1161,20 +1147,15 @@
  
  #: libmu_sieve/util.c:442
  #, c-format
-@@ -2329,11 +2329,11 @@
+@@ -2329,7 +2329,7 @@
  #: libmu_sieve/extensions/editheader.c:56
  #: libmu_sieve/extensions/editheader.c:106
  msgid "cannot get message header"
 -msgstr "kan inte få meddelanderubrik"
-+msgstr "kan inte hämta meddelandehuvud"
++msgstr "kan inte hämta meddelanderubrik"
  
  #: libmu_sieve/extensions/editheader.c:67
  msgid "cannot append message header"
--msgstr "kan inte lägga till meddelanderubrik"
-+msgstr "kan inte lägga till meddelandehuvud"
- 
- #: libmu_sieve/extensions/editheader.c:213
- #, c-format
 @@ -2349,7 +2349,7 @@
  #: sieve/sieve.c:548
  #, c-format
@@ -1195,7 +1176,7 @@
  #, c-format
  msgid "cannot get '%s:' header: %s"
 -msgstr "kan inte få \"%s:\" rubrik: %s"
-+msgstr "kan inte hämta huvudet ”%s:”: %s"
++msgstr "kan inte hämta rubriken ”%s:”: %s"
  
  #: libmu_sieve/extensions/moderator.c:204
  #, c-format
@@ -1219,7 +1200,7 @@
  #, c-format
  msgid "no Content-Type header found"
 -msgstr "ingen Content-Type-rubrik hittades"
-+msgstr "inget Content-Type-huvud hittades"
++msgstr "inget Content-Type-rubrik hittades"
  
  #: libmu_sieve/extensions/moderator.c:284
  #, c-format
@@ -1232,7 +1213,7 @@
  
  #: libmu_sieve/extensions/moderator.c:342
  #, c-format
-@@ -2428,24 +2428,24 @@
+@@ -2428,20 +2428,20 @@
  
  #: libmu_sieve/extensions/pipe.c:117
  msgid "cannot create command stream"
@@ -1257,11 +1238,6 @@
  
  #: libmu_sieve/extensions/pipe.c:147
  msgid "copying headers failed"
--msgstr "kopiering av rubriker misslyckades"
-+msgstr "kopiering av huvuden misslyckades"
- 
- #: libmu_sieve/extensions/pipe.c:157
- msgid "copying body failed"
 @@ -2453,7 +2453,7 @@
  
  #: libmu_sieve/extensions/pipe.c:167
@@ -1285,13 +1261,13 @@
  #, c-format
  msgid "spamd responded with bad Spam header '%s'"
 -msgstr "spamd svarade med felaktig Spam-rubrik \"%s\""
-+msgstr "spamd svarade med ett felaktigt spamhuvud ”%s”"
++msgstr "spamd svarade med en felaktig spamrubrik ”%s”"
  
  #: libmu_sieve/extensions/spamd.c:486
  #, c-format
  msgid "cannot get message header: %s"
 -msgstr "kan inte få meddelanderubrik: %s"
-+msgstr "kan inte hämta meddelandehuvud: %s"
++msgstr "kan inte hämta meddelanderubrik: %s"
  
  #: libmu_sieve/extensions/timestamp.c:68
  #, c-format
@@ -1376,7 +1352,7 @@
  
  #: libmu_sieve/extensions/vacation.c:372
  #, c-format
-@@ -2578,12 +2578,12 @@
+@@ -2578,7 +2578,7 @@
  #: libmu_sieve/extensions/vacation.c:498
  #, c-format
  msgid "%lu: cannot compile reply prefix regexp: %s: %s"
@@ -1384,12 +1360,6 @@
 +msgstr "%lu: kan inte kompilera reguljärt uttryck för svarsprefix: %s: %s"
  
  #: libmu_sieve/extensions/vacation.c:583 libmu_sieve/extensions/vacation.c:595
- #, c-format
- msgid "%lu: cannot add header %s: %s"
--msgstr "%lu: kan inte lägga till rubriken %s: %s"
-+msgstr "%lu: kan inte lägga till huvudet %s: %s"
- 
- #: libmu_sieve/extensions/vacation.c:623
  #, c-format
 @@ -2598,7 +2598,7 @@
  #: libmu_sieve/extensions/vacation.c:654
@@ -1631,7 +1601,7 @@
  #: mda/lib/script.c:114
  msgid "use this header to identify messages when logging Sieve actions"
 -msgstr "använd denna rubrik för att identifiera meddelanden vid loggning av Sieve-åtgärder"
-+msgstr "använd det här huvudet för att identifiera meddelanden vid loggning av Sieve-åtgärder"
++msgstr "använd den här rubriken för att identifiera meddelanden vid loggning av Sieve-åtgärder"
  
  #: mda/lib/script.c:116 mh/inc.c:122 mimeview/mimeview.c:114 sieve/sieve.c:206
  msgid "FLAGS"
@@ -1690,7 +1660,7 @@
  #: mda/lib/script.c:193
  msgid "When logging Sieve actions, identify messages by the value of this header."
 -msgstr "Vid loggning av Sieve-åtgärder identifieras meddelanden med hjälp av värdet för denna rubrik."
-+msgstr "Vid loggning av Sieve-åtgärder identifieras meddelanden med värdet i det här huvudet."
++msgstr "Vid loggning av Sieve-åtgärder identifieras meddelanden med värdet i den här rubriken."
  
  #: mda/lib/script.c:228
  #, c-format
@@ -1806,7 +1776,7 @@
  #: mail/mail.c:204
  msgid "write a header summary and exit"
 -msgstr "skriv en rubriksammanfattning och avsluta"
-+msgstr "skriv en sammanfattning av huvuden och avsluta"
++msgstr "skriv en sammanfattning av rubriker och avsluta"
  
  #: mail/mail.c:208
  msgid "ignore interrupts"
@@ -1815,7 +1785,7 @@
  #: mail/mail.c:216
  msgid "do not display initial header summary"
 -msgstr "visa inte initial rubriksammanfattning"
-+msgstr "visa inte den inledande sammanfattningen av huvuden"
++msgstr "visa inte den inledande sammanfattningen av rubriker"
  
  #: mail/mail.c:220
  msgid "print all mail to standard output"
@@ -1829,15 +1799,6 @@
  
  # Fel engelska??
  #: mail/mail.c:229
-@@ -3346,7 +3346,7 @@
- 
- #: mail/mail.c:237
- msgid "read recipients from the message header"
--msgstr "läs mottagare från meddelanderubriken"
-+msgstr "läs mottagare från meddelandehuvudet"
- 
- #: mail/mail.c:240 mu/libexec/dbm.c:1723
- msgid "USER"
 @@ -3354,23 +3354,23 @@
  
  #: mail/mail.c:241
@@ -1853,7 +1814,7 @@
  #: mail/mail.c:245
  msgid "append given header to the message being sent"
 -msgstr "lägg till en angiven rubrik till meddelandet som skickas"
-+msgstr "lägg till angivet huvud i meddelandet som skickas"
++msgstr "lägg till angiven rubrik i meddelandet som skickas"
  
  #: mail/mail.c:249
  msgid "force multipart/alternative content type"
@@ -2002,7 +1963,7 @@
  #: mail/mailvar.c:108
  msgid "output character set for decoded header fields"
 -msgstr "skriv ut teckenuppsättning för avkodade rubrikfält"
-+msgstr "teckenuppsättning för utdata från avkodade huvudfält"
++msgstr "teckenuppsättning för utdata från avkodade rubrikfält"
  
  #. TRANSLATORS: "pipe" is the command name.
  #: mail/mailvar.c:112
@@ -2022,7 +1983,7 @@
  #: mail/mailvar.c:125
  msgid "get date from the 'Date:' header, instead of the envelope"
 -msgstr "hämta datum från \"Date:\"-rubriken, istället för kuvertet"
-+msgstr "hämta datum från huvudet ”Date:” i stället för från kuvertet"
++msgstr "hämta datum från rubriken ”Date:” i stället för från kuvertet"
  
  #: mail/mailvar.c:129
  msgid "set Mailutils debug level"
@@ -2041,7 +2002,7 @@
  #: mail/mailvar.c:158
  msgid "get sender address from the 'From:' header, instead of the envelope"
 -msgstr "hämta avsändaradressen från \"From:\"-rubriken, istället för från kuvertet"
-+msgstr "hämta avsändaradressen från huvudet ”From:” i stället för från kuvertet"
++msgstr "hämta avsändaradressen från rubriken ”From:” i stället för från kuvertet"
  
  #: mail/mailvar.c:162
  msgid "last executed command line"
@@ -2050,7 +2011,7 @@
  #: mail/mailvar.c:168
  msgid "format string to use for the header summary"
 -msgstr "formatsträng att använda för rubriksammanfattningen"
-+msgstr "formatsträng för sammanfattningen av huvuden"
++msgstr "formatsträng för sammanfattningen av rubriker"
  
  #: mail/mailvar.c:172
  msgid "hold the read or saved messages in the system mailbox"
@@ -2138,7 +2099,7 @@
  #: mail/mailvar.c:284
  msgid "if the message was sent by me, print its recipient address in the header summary"
 -msgstr "om meddelandet skickades av mig, skriv ut mottagarens adress i rubriksammandraget"
-+msgstr "om meddelandet skickades av mig, skriv ut mottagarens adress i sammanfattningen av huvuden"
++msgstr "om meddelandet skickades av mig, skriv ut mottagarens adress i sammanfattningen av rubriker"
  
  #: mail/mailvar.c:288
  msgid "number of lines to be displayed by 'top' or 'Top'"
@@ -2147,7 +2108,7 @@
  #: mail/mailvar.c:304
  msgid "add the 'User-Agent' header to the outgoing messages"
 -msgstr "lägg till rubriken \"User-Agent\" i de utgående meddelandena"
-+msgstr "lägg till huvudet ”User-Agent” i de utgående meddelandena"
++msgstr "lägg till rubriken ”User-Agent” i de utgående meddelandena"
  
  #: mail/mailvar.c:309
  msgid "always compose MIME messages"
@@ -2229,21 +2190,6 @@
  
  #: mail/retain.c:118 mail/retain.c:128
  msgid "Sender address is obtained from the envelope\n"
-@@ -3967,12 +3967,12 @@
- #: mail/send.c:72
- #, c-format
- msgid "Cannot create header list: %s"
--msgstr "Kan inte skapa rubriklista: %s"
-+msgstr "Kan inte skapa huvudlista: %s"
- 
- #: mail/send.c:94
- #, c-format
- msgid "Invalid header: %s"
--msgstr "Ogiltig rubrik: %s"
-+msgstr "Ogiltigt huvud: %s"
- 
- #: mail/send.c:266
- #, c-format
 @@ -3996,12 +3996,12 @@
  #: mail/send.c:449
  #, c-format
@@ -2264,7 +2210,7 @@
  #, c-format
  msgid "%s: not setting header"
 -msgstr "%s: sätter inte rubrik"
-+msgstr "%s: anger inte huvud"
++msgstr "%s: anger inte rubrik"
  
  #: mail/send.c:711
  msgid "Errors parsing message"
@@ -2273,21 +2219,6 @@
  
  #: mail/send.c:735
  msgid "No recipients specified"
-@@ -4029,12 +4029,12 @@
- #: mail/send.c:790 mail/send.c:929
- #, c-format
- msgid "Cannot create header: %s"
--msgstr "Kan inte skapa rubrik: %s"
-+msgstr "Kan inte skapa huvud: %s"
- 
- #: mail/send.c:825 mail/send.c:851
- #, c-format
- msgid "%d: not a header line"
--msgstr "%d: inte en rubrikrad"
-+msgstr "%d: inte en huvudrad"
- 
- #: mail/send.c:910 mail/util.c:997 mail/util.c:1065
- #, c-format
 @@ -4044,7 +4044,7 @@
  #: mail/send.c:1030
  #, c-format
@@ -2365,7 +2296,7 @@
  #, c-format
  msgid "Cannot create temporary header: %s"
 -msgstr "Kan inte skapa temporär rubrik: %s"
-+msgstr "Kan inte skapa tillfälligt huvud: %s"
++msgstr "Kan inte skapa tillfällig rubrik: %s"
  
  #: mail/util.c:1109 mail/util.c:1128
  #, c-format
@@ -3657,7 +3588,7 @@
  #: mh/anno.c:34
  msgid "add FIELD: date header"
 -msgstr "lägg till FÄLT: datumrubrik"
-+msgstr "lägg till huvudet FIELD: date"
++msgstr "lägg till rubriken FIELD: date"
  
  #: mh/anno.c:36 mh/pick.c:132
  msgid "FIELD"
@@ -3666,7 +3597,7 @@
  #: mh/anno.c:37
  msgid "add this FIELD to the message header"
 -msgstr "lägg till detta FÄLT i meddelanderubriken"
-+msgstr "lägg till FIELD i meddelandehuvudet"
++msgstr "lägg till FIELD i meddelanderubriken"
  
  #: mh/anno.c:40
  msgid "field value for the component"
@@ -4001,7 +3932,7 @@
  #: mh/forw.c:88
  msgid "add Forwarded: header to each forwarded message"
 -msgstr "lägg till Forwarded:-rubrik till varje vidarebefordrat meddelande"
-+msgstr "lägg till huvudet Forwarded: i varje vidarebefordrat meddelande"
++msgstr "lägg till rubriken Forwarded: i varje vidarebefordrat meddelande"
  
  #: mh/forw.c:109 mu/libexec/logger.c:151
  msgid "read message from FILE"
@@ -4415,7 +4346,7 @@
  #, c-format
  msgid "cannot get headers: %s"
 -msgstr "kan inte få rubriker: %s"
-+msgstr "kan inte hämta huvuden: %s"
++msgstr "kan inte hämta rubriker: %s"
  
  #: mh/mhl.c:23
  msgid "Produce formatted listings of MH messages"
@@ -4493,7 +4424,7 @@
  
  #: mh/mhn.c:208
  msgid "display the contents of the messages"
-@@ -7605,15 +7603,15 @@
+@@ -7605,11 +7603,11 @@
  
  #: mh/mhn.c:220
  msgid "Saving options"
@@ -4507,11 +4438,6 @@
  
  #: mh/mhn.c:225
  msgid "use filenames from the content headers"
--msgstr "använd filnamn från innehållsrubrikerna"
-+msgstr "använd filnamn från innehållshuvudena"
- 
- #: mh/mhn.c:228
- msgid "use this charset to represent attachment file names"
 @@ -7625,19 +7623,19 @@
  
  #: mh/mhn.c:232
@@ -4623,7 +4549,7 @@
  
  #: mh/mhn.c:1772
  #, c-format
-@@ -7746,32 +7744,32 @@
+@@ -7746,12 +7744,12 @@
  #: mh/mhn.c:1805 mh/mhn.c:2139
  #, c-format
  msgid "%s:%lu: content id redefined"
@@ -4638,16 +4564,7 @@
  
  #: mh/mhn.c:1977
  #, c-format
- msgid "error reading headers: %s"
--msgstr "fel vid läsning av rubriker: %s"
-+msgstr "fel vid läsning av huvuden: %s"
- 
- #: mh/mhn.c:2066 mimeview/mimeview.c:215
- #, c-format
- msgid "cannot create header: %s"
--msgstr "kan inte skapa rubrik: %s"
-+msgstr "kan inte skapa huvud: %s"
- 
+@@ -7766,12 +7764,12 @@
  #: mh/mhn.c:2160
  #, c-format
  msgid "%s:%lu: cannot split line: %s"
@@ -4772,7 +4689,7 @@
  #, c-format
  msgid "cannot get header: %s"
 -msgstr "kan inte få rubrik: %s"
-+msgstr "kan inte hämta huvud: %s"
++msgstr "kan inte hämta rubrik: %s"
  
  #: mh/pick-gram.y:447
  #, c-format
@@ -4785,15 +4702,6 @@
  
  #: mh/pick.c:131
  msgid "Search patterns"
-@@ -7980,7 +7978,7 @@
- 
- #: mh/pick.c:133
- msgid "search the named header field"
--msgstr "sök i det namngivna rubrikfältet"
-+msgstr "sök i det namngivna huvudfältet"
- 
- #: mh/pick.c:136
- msgid "set pattern to look for"
 @@ -7988,7 +7986,7 @@
  
  #: mh/pick.c:140
@@ -4813,7 +4721,7 @@
  #: mh/pick.c:165
  msgid "search in the named date header field (default is 'Date')"
 -msgstr "sök i det namngivna datumrubrikfältet (standard är \"Date\")"
-+msgstr "sök i det namngivna datumhuvudfältet (standard är `Date`)"
++msgstr "sök i det namngivna datumrubrikfältet (standard är `Date`)"
  
  #: mh/pick.c:167 mh/pick.c:170
  msgid "DATE"
@@ -4920,7 +4828,7 @@
  #: mh/repl.c:104
  msgid "add Replied: header to the message being replied to"
 -msgstr "lägg till Replied:-rubriken till det meddelande som besvaras"
-+msgstr "lägg till huvudet Replied: i meddelandet som besvaras"
++msgstr "lägg till rubriken Replied: i meddelandet som besvaras"
  
  #: mh/repl.c:119
  msgid "specify whom to place on the Cc: list of the reply"
@@ -4994,15 +4902,6 @@
  
  #: mh/scan.c:43
  msgid "clear screen after displaying the list"
-@@ -8281,7 +8279,7 @@
- 
- #: mh/scan.c:52
- msgid "display header"
--msgstr "visa rubrik"
-+msgstr "visa huvud"
- 
- #: mh/scan.c:58
- msgid "list messages in reverse order"
 @@ -8307,7 +8305,7 @@
  
  #: mh/send.c:26
@@ -5060,7 +4959,7 @@
  #: mh/send.c:155
  msgid "make header fields no longer than NUMBER columns"
 -msgstr "gör rubrikfälten inte längre än ANTAL kolumner"
-+msgstr "gör huvudfälten högst NUMBER kolumner breda"
++msgstr "gör rubrikfälten högst NUMBER kolumner breda"
  
  #: mh/send.c:189 mh/send.c:680
  #, c-format
@@ -5550,7 +5449,7 @@
  #, c-format
  msgid "%lu: cannot get header: %s"
 -msgstr "%lu: kan inte hämta rubriker: %s"
-+msgstr "%lu: kan inte hämta huvud: %s"
++msgstr "%lu: kan inte hämta rubrik: %s"
  
  #: movemail/movemail.c:1166
  #, c-format
@@ -5565,7 +5464,7 @@
  #, c-format
  msgid "%lu: cannot set header: %s"
 -msgstr "%lu: kan inte ställa in rubrik: %s"
-+msgstr "%lu: kan inte ange huvud: %s"
++msgstr "%lu: kan inte ange rubrik: %s"
  
  #: movemail/movemail.c:1291
  #, c-format
@@ -6011,7 +5910,7 @@
  #: readmsg/readmsg.c:177
  msgid "display entire headers"
 -msgstr "visa hela rubriker"
-+msgstr "visa alla huvuden"
++msgstr "visa alla rubriker"
  
  #: readmsg/readmsg.c:179
  msgid "LIST"
@@ -6020,7 +5919,7 @@
  #: readmsg/readmsg.c:180
  msgid "list of header names separated by whitespace or commas"
 -msgstr "lista över rubriknamn separerade med blanksteg eller kommatecken"
-+msgstr "lista med huvudnamn separerade med blanksteg eller kommatecken"
++msgstr "lista med rubriknamn separerade med blanksteg eller kommatecken"
  
  #: readmsg/readmsg.c:183
  msgid "folder to use"
@@ -6029,11 +5928,11 @@
  #: readmsg/readmsg.c:185
  msgid "exclude all headers"
 -msgstr "exkludera alla rubriker"
-+msgstr "uteslut alla huvuden"
++msgstr "uteslut alla rubriker"
  
  #: readmsg/readmsg.c:188
  msgid "output formfeeds between messages"
-@@ -9658,19 +9656,19 @@
+@@ -9658,11 +9656,11 @@
  
  #: readmsg/readmsg.c:206
  msgid "decode MIME messages on output"
@@ -6047,13 +5946,12 @@
  
  #: readmsg/readmsg.c:215
  msgid "Display entire headers."
--msgstr "Visa alla rubriker."
-+msgstr "Visa alla huvuden."
+@@ -9670,7 +9668,7 @@
  
  #: readmsg/readmsg.c:217
  msgid "Display only headers from this list.  Argument is a list of header names separated by whitespace or commas."
 -msgstr "Lista endast rubriker från denna lista. Argument är en lista över rubriknamn separerade med blanksteg eller kommatecken."
-+msgstr "Lista endast huvuden från den här listan. Argumentet är en lista med huvudnamn separerade med blanksteg eller kommatecken."
++msgstr "Lista endast rubriker från den här listan. Argumentet är en lista med rubriknamn separerade med blanksteg eller kommatecken."
  
  #: readmsg/readmsg.c:219
  msgid "list"
@@ -6062,7 +5960,7 @@
  #: readmsg/readmsg.c:223
  msgid "Exclude all headers."
 -msgstr "Exkludera alla rubriker."
-+msgstr "Uteslut alla huvuden."
++msgstr "Uteslut alla rubriker."
  
  #: readmsg/readmsg.c:225
  msgid "Output formfeed character between messages."
@@ -6071,7 +5969,7 @@
  #, c-format
  msgid "cannot get number of headers: %s"
 -msgstr "kan inte få antal rubriker: %s"
-+msgstr "kan inte hämta antalet huvuden: %s"
++msgstr "kan inte hämta antalet rubriker: %s"
  
  #: readmsg/readmsg.c:382
  #, c-format
@@ -6499,7 +6397,7 @@
  #: mu/libexec/dbm.c:1733
  msgid "ignore meta-information from input file headers"
 -msgstr "ignorera metainformation från inmatningsfilens huvuden"
-+msgstr "ignorera metainformation från indatafilens huvuden"
++msgstr "ignorera metainformation från indatafilens rubriker"
  
  #: mu/libexec/dbm.c:1735
  msgid "NAMES"
@@ -6513,7 +6411,7 @@
  #: mu/libexec/dbm.c:1745
  msgid "suppress format header"
 -msgstr "undertryck formatrubrik"
-+msgstr "utelämna formathuvud"
++msgstr "utelämna formatrubrik"
  
  #. TRANSLATORS: list, dump, and delete are dbm command names.
  #: mu/libexec/dbm.c:1749
@@ -6578,7 +6476,7 @@
  #: mu/libexec/flt2047.c:23
  msgid "decode/encode email message headers"
 -msgstr "avkoda/koda rubriker för e-postmeddelanden"
-+msgstr "avkoda eller koda e-postmeddelandehuvuden"
++msgstr "avkoda eller koda e-postmeddelanderubriker"
  
  #: mu/libexec/flt2047.c:24
  msgid "[text]"
@@ -6959,7 +6857,7 @@
  #: mu/libexec/pop.c:588
  msgid "display message headers and first NUMBER (default 5) lines of its body"
 -msgstr "visa meddelandets rubriker och första ANTAL (standard 5) raderna av dess kropp"
-+msgstr "visa meddelandets huvuden och de första NUMBER raderna av dess brödtext (standard 5)"
++msgstr "visa meddelandets rubriker och de första NUMBER raderna av dess brödtext (standard 5)"
  
  #: mu/libexec/pop.c:592
  msgid "show unique message identifiers"
