@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – sammanfogningsbegäranden, grupp 23 (2026-09-21):** 34 lokalt XLIFF-granskade poster är CrowdIn-publicerade: granskningstillstånd, staplade sammanfogningsbegäranden, skyddade variabler/körare, diff-fel, granskare, konflikter, AI-skapade beskrivningar och versionsmarkörer. Alla format- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – sammanfogningsbegäranden, grupp 22 (2026-09-21):** 32 lokalt XLIFF-granskade poster är CrowdIn-publicerade: automatisk granskartilldelning och kodägare, utkast, cherry-pick och återställning, hopslagning, difftrådar samt konflikt- och aktivitetsmeddelanden. Kod-, gren- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – medlemmar, LDAP och åtkomstbegäranden, grupp 21 (2026-09-21):** 56 lokalt XLIFF-granskade poster är CrowdIn-publicerade: gruppinbjudningar, direkt/ärvt medlemskap, LDAP-åsidosättning, roller, utgångsdatum, åtkomstbegäranden, spärrning och administratörsgodkända rollbefordringar. Behörighets- och gruppplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
