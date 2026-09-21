@@ -1984,7 +1984,7 @@
  #: src/nl.c:201
  msgid "  -h, --header-numbering=STYLE    use STYLE for numbering header lines\n"
 -msgstr "  -h, --header-numbering=STIL     använd STIL för att numrera rader i huvud\n"
-+msgstr "  -h, --header-numbering=STIL     använd STIL för att numrera rader i sidhuvudet\n"
++msgstr "  -h, --header-numbering=STIL     använd STIL för att numrera rader i sidrubriken\n"
  
  #: src/nl.c:204
  msgid "  -i, --line-increment=NUMBER     line number increment at each line\n"
@@ -2017,7 +2017,13 @@
  "  rz     högerjusterat, inledande nollor\n"
  "\n"
  
-@@ -8820,7 +8823,7 @@
+@@ -8815,12 +8818,12 @@
+ #: src/nl.c:521
+ #, c-format
+ msgid "invalid header numbering style: %s"
+-msgstr "felaktig stil för numrering av sidhuvud: %s"
++msgstr "felaktig stil för numrering av sidrubrik: %s"
+ 
  #: src/nl.c:529
  #, c-format
  msgid "invalid body numbering style: %s"
@@ -2384,7 +2390,7 @@
  msgstr ""
  "  -D, --date-format=FORMAT\n"
 -"         använd FORMAT för huvuddatum\n"
-+"         använd FORMAT för datumet i sidhuvudet\n"
++"         använd FORMAT för datumet i sidrubriken\n"
  
  #: src/pr.c:2805
  msgid ""
@@ -3542,6 +3548,15 @@
  
  #: src/tac.c:534
  #, c-format
+@@ -14001,7 +14007,7 @@
+ "With more than one FILE, precede each with a header giving the file name.\n"
+ msgstr ""
+ "Skriv de sista %d raderna från varje FIL till standard ut.\n"
+-"Vid fler än en FIL, inled varje med ett huvud med filnamnet.\n"
++"Vid fler än en FIL, inled varje med en rubrik med filnamnet.\n"
+ 
+ #: src/tail.c:295
+ msgid ""
 @@ -14027,9 +14033,9 @@
  "         output appended data as the file grows;\n"
  "         an absent option argument means 'descriptor'\n"
@@ -3554,6 +3569,24 @@
 +"         ett utelämnat argument betyder ”descriptor”\n"
  
  #: src/tail.c:309
+ msgid ""
+@@ -14083,7 +14089,7 @@
+ "         never output headers giving file names\n"
+ msgstr ""
+ "  -q, --quiet, --silent\n"
+-"         skriv aldrig ut huvuden med filnamn\n"
++"         skriv aldrig ut rubriker med filnamn\n"
+ 
+ #: src/tail.c:335
+ msgid ""
+@@ -14113,7 +14119,7 @@
+ "         always output headers giving file names\n"
+ msgstr ""
+ "  -v, --verbose\n"
+-"         skriv alltid ut huvuden med filnamn\n"
++"         skriv alltid ut rubriker med filnamn\n"
+ 
+ #: src/tail.c:356
  msgid ""
 @@ -14140,7 +14146,7 @@
  "named file in a way that accommodates renaming, removal and creation.\n"

@@ -193,13 +193,13 @@
  #, c-format
  msgid "cannot install header: %s"
 -msgstr "det går inte att installera huvudet: %s"
-+msgstr "kan inte installera huvudet: %s"
++msgstr "kan inte installera rubriken: %s"
  
  #: src/ctl.c:441
  #, c-format
  msgid "cannot install output header: %s"
 -msgstr "det går inte att installera utdatahuvudet: %s"
-+msgstr "kan inte installera utdatahuvudet: %s"
++msgstr "kan inte installera utdatarubriken: %s"
  
  #: src/ctl.c:766
  #, c-format
@@ -346,7 +346,7 @@
  #: src/pies.c:238
  msgid "Notification message text (with headers)."
 -msgstr "Text för notifieringsmeddelande (med huvuden)."
-+msgstr "Text för meddelandet (med huvuden)."
++msgstr "Text för meddelandet (med rubriker)."
  
  #: src/pies.c:244
  msgid "Execute this command."
@@ -670,6 +670,24 @@
 +msgstr "ange detaljnivå för felsökning"
  
  #: src/pies.c:2973
+ #, c-format
+@@ -1259,7 +1259,7 @@
+ #: src/piesctl.c:382
+ #, c-format
+ msgid "cannot install header %s: %s"
+-msgstr "det går inte att installera huvudet %s: %s"
++msgstr "det går inte att installera rubriken %s: %s"
+ 
+ #: src/piesctl.c:526
+ msgid "HTTP read error"
+@@ -1273,7 +1273,7 @@
+ #: src/piesctl.c:599
+ #, c-format
+ msgid "malformed header line: %s"
+-msgstr "felaktig huvudrad: %s"
++msgstr "felaktig rubrikrad: %s"
+ 
+ #: src/piesctl.c:633
  #, c-format
 @@ -1311,7 +1311,7 @@
  #: src/piesctl.c:704

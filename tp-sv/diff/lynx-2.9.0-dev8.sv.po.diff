@@ -1629,7 +1629,7 @@
  
  #: WWW/Library/Implementation/HTAABrow.c:703
  #, c-format
-@@ -2872,11 +2872,11 @@
+@@ -2872,24 +2872,24 @@
  
  #: WWW/Library/Implementation/HTAABrow.c:976
  msgid "This client doesn't know how to compose proxy authorization information for scheme"
@@ -1643,7 +1643,9 @@
  
  #: WWW/Library/Implementation/HTAABrow.c:1162
  #, c-format
-@@ -2885,11 +2885,11 @@
+ msgid "Invalid header '%s%s%s%s%s'"
+-msgstr "Felaktigt huvud \"%s%s%s%s%s\""
++msgstr "Felaktigt rubrik \"%s%s%s%s%s\""
  
  #: WWW/Library/Implementation/HTAABrow.c:1266
  msgid "Proxy authorization required -- retrying"
@@ -1971,7 +1973,7 @@
  
  #: WWW/Library/Implementation/HTWAIS.c:515
  msgid " (bad file name)"
-@@ -3439,7 +3439,7 @@
+@@ -3439,11 +3439,11 @@
  
  #: WWW/Library/Implementation/HTWAIS.c:541
  msgid "(bad doc id)"
@@ -1980,6 +1982,20 @@
  
  #: WWW/Library/Implementation/HTWAIS.c:557
  msgid "(Short Header record, can't display)"
+-msgstr "(Kort huvudpost, kan inte visa)"
++msgstr "(Kort rubrikpost, kan inte visa)"
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:564
+ msgid ""
+@@ -3451,7 +3451,7 @@
+ "Long Header record, can't display\n"
+ msgstr ""
+ "\n"
+-"Lång huvudpost, kan inte visa\n"
++"Lång rubrikpost, kan inte visa\n"
+ 
+ #: WWW/Library/Implementation/HTWAIS.c:571
+ msgid ""
 @@ -3459,7 +3459,7 @@
  "Text record\n"
  msgstr ""
@@ -2616,7 +2632,7 @@
  #: src/LYOptions.c:4133
  msgid "Headers Transferred to Remote Servers"
 -msgstr "Frågehuvud överfört till fjärrservrar"
-+msgstr "HTTP-huvuden som överförs till fjärrservrar"
++msgstr "HTTP-rubriker som överförs till fjärrservrar"
  
  #. ***************************************************************
  #. Mail Address: INPUT
@@ -2865,7 +2881,7 @@
  #: src/LYShowInfo.c:483
  msgid "Server Headers:"
 -msgstr "Serverhuvuden:"
-+msgstr "HTTP-huvuden:"
++msgstr "HTTP-rubriker:"
  
  #: src/LYStyle.c:332
  #, c-format
@@ -3112,17 +3128,17 @@
 +"preferred_charset anger den teckenuppsättning"
 +" i MIME-notation (t.ex.\n"
 +"ISO-8859-2, ISO-8859-5) som Lynx anger som önskad i begäranden till\n"
-+"HTTP-servrar genom huvudet Accept-Charset. Värdet "
++"HTTP-servrar genom rubriken Accept-Charset. Värdet "
 +"bör INTE innehålla\n"
 +"ISO-8859-1 eller US-ASCII, eftersom dessa värden alltid "
 +"antas som\n"
 +"standard. Värdet kan vara en kommaseparerad lista.\n"
 +"Om en fil i den teckenuppsättningen är tillgänglig skickar servern den.\n"
-+"Om inget Accept-Charset-huvud finns är standardvärdet att alla\n"
++"Om inget Accept-Charset-rubrik finns är standardvärdet att alla\n"
 +"teckenuppsättningar "
-+"är acceptabla. Om ett Accept-Charset-huvud finns\n"
++"är acceptabla. Om ett Accept-Charset-rubrik finns\n"
 +"och servern inte "
-+"kan skicka ett svar som är acceptabelt enligt huvudet\n"
++"kan skicka ett svar som är acceptabelt enligt rubriken\n"
 +"BÖR "
 +"servern skicka ett felsvar, även om det också är tillåtet att skicka\n"
 +"ett oacceptabelt svar.\n"

@@ -849,7 +849,13 @@
  
  #. type: Plain text
  #: ../man/uptime.1:19
-@@ -2995,7 +2995,7 @@
+@@ -2990,12 +2990,12 @@
+ #. type: Plain text
+ #: ../man/uptime.1:27
+ msgid "This is the same information contained in the header line displayed by B<w>(1)."
+-msgstr "Detta är samma information som finns i huvudraden som visas av B<w>(1)."
++msgstr "Detta är samma information som finns i rubrikraden som visas av B<w>(1)."
+ 
  #. type: Plain text
  #: ../man/uptime.1:36
  msgid "System load averages is the average number of processes that are either in a runnable or uninterruptible state.  A process in a runnable state is either using the CPU or waiting to use the CPU.  A process in uninterruptible state is waiting for some I/O access, eg waiting for disk.  The averages are taken over the three time intervals.  Load averages are not normalized for the number of CPUs in a system, so a load average of 1 means a single CPU system is loaded all the time while on a 4 CPU system it means it was idle 75% of the time."
@@ -912,6 +918,15 @@
  
  #. type: Plain text
  #: ../man/vmstat.8:29
+@@ -3185,7 +3185,7 @@
+ #. type: Plain text
+ #: ../man/vmstat.8:61
+ msgid "Display the header only once rather than periodically."
+-msgstr "Visa endast huvudet en gång istället för periodiskt."
++msgstr "Visa endast rubriken en gång istället för periodiskt."
+ 
+ #. type: TP
+ #: ../man/vmstat.8:61
 @@ -3229,7 +3229,7 @@
  #. type: Plain text
  #: ../man/vmstat.8:74
@@ -1163,6 +1178,15 @@
  
  #. type: Plain text
  #: ../man/w.1:148
+@@ -3744,7 +3744,7 @@
+ #. type: Plain text
+ #: ../man/watch.1:30
+ msgid "B<watch> runs I<command> repeatedly, displaying its output and errors (the first screenful). This allows you to watch the program output change over time. By default, I<command> is run every 2 seconds and B<watch> will run until interrupted.  A header informs of the start and running time of I<command> as well as its exit code."
+-msgstr "B<watch> kör I<kommando> upprepade gånger, och visar dess utmatning och fel (den första skärmen).  Detta gör att du kan se programmets utdata ändras över tiden.  Som standard körs I<kommando> varannan sekund och B<watch> körs tills det avbryts. Ett sidhuvud informerar om start- och körtiden för I<kommando> såväl som dess avslutningskod."
++msgstr "B<watch> kör I<kommando> upprepade gånger, och visar dess utmatning och fel (den första skärmen).  Detta gör att du kan se programmets utdata ändras över tiden.  Som standard körs I<kommando> varannan sekund och B<watch> körs tills det avbryts. Ett sidrubrik informerar om start- och körtiden för I<kommando> såväl som dess avslutningskod."
+ 
+ #. type: TP
+ #: ../man/watch.1:31
 @@ -3810,7 +3810,7 @@
  #. type: Plain text
  #: ../man/watch.1:57
@@ -1608,6 +1632,15 @@
  
  #. type: TP
  #: ../man/ps.1:455
+@@ -4860,7 +4860,7 @@
+ #. type: Plain text
+ #: ../man/ps.1:518
+ msgid "User-defined format.  I<format> is a single argument in the form of a blank-separated or comma-separated list, which offers a way to specify individual output columns.  The recognized keywords are described in the B<STANDARD FORMAT SPECIFIERS> section below.  Headers may be renamed (B<ps -o pid,\\:ruser=RealUser -o comm=Command>)  as desired.  If all column headers are empty (B<ps -o pid= -o comm=>)  then the header line will not be output.  Column width will increase as needed for wide headers; this may be used to widen up columns such as WCHAN (B<ps -o pid,\\:wchan=\\:WIDE-\\:WCHAN-\\:COLUMN -o comm>).  Explicit width control (B<ps opid,\\:wchan:42,\\:cmd>)  is offered too.  The behavior of B<ps -o pid=X,\\:comm=Y> varies with personality; output may be one column named \"X,\\:comm=Y\" or two columns named \"X\" and \"Y\".  Use multiple B<-o> options when in doubt.  Use the B<PS_FORMAT> environment variable to specify a default as desired; DefSysV and DefBSD are macros that may be used to choose the default Unix or BSD columns."
+-msgstr "Användardefinierat format. I<format> är ett enda argument i form av en blankseparerad eller kommaseparerad lista, vilket ger ett sett att ange individuella utdatakolumner. De kända nyckelorden beskrivs i avsnittet B<STANDARDFORMATSPECIFICERARE> nedan. Namn på huvuden kan ändras (B<ps -o pid,\\:ruser=VerkligAnvändare -o comm=Kommando>) som önskas. Om alla kolumnhuvuden är tomma (B<ps -o pid= -o comm=>) kommer huvudraden inte att skrivas ut. Kolumnbredder kommer öka efter behov för breda huvuden; detta kan användas för att bredda kolumner såsom WCHAN (B<ps -o pid,\\:wchan=\\:BRED-\\:WCHAN-\\:KOLUMN -o comm>). Explicit breddstyrning (B<ps opid,\\:wchan:42,\\:cmd>) finns också.. Beteendet hos B<ps -o pid=X,\\:comm=Y> varierar med personligheten; utmatningen kan vara en kolumn med namnen ”X,\\:comm=Y” eller två kolumner med namen ”X” och ”Y”. Använd flera B<-o>-flaggor vid tveksamhet. Använd miljövariabeln B<PS_FORMAT> för att ange en standard som önskas; DefSysV och DefBSD är makron som kan användas för att som välja Unix- eller BSD-standardkolumner."
++msgstr "Användardefinierat format. I<format> är ett enda argument i form av en blankseparerad eller kommaseparerad lista, vilket ger ett sett att ange individuella utdatakolumner. De kända nyckelorden beskrivs i avsnittet B<STANDARDFORMATSPECIFICERARE> nedan. Namn på rubriker kan ändras (B<ps -o pid,\\:ruser=VerkligAnvändare -o comm=Kommando>) som önskas. Om alla kolumnrubriker är tomma (B<ps -o pid= -o comm=>) kommer rubrikraden inte att skrivas ut. Kolumnbredder kommer öka efter behov för breda rubriker; detta kan användas för att bredda kolumner såsom WCHAN (B<ps -o pid,\\:wchan=\\:BRED-\\:WCHAN-\\:KOLUMN -o comm>). Explicit breddstyrning (B<ps opid,\\:wchan:42,\\:cmd>) finns också.. Beteendet hos B<ps -o pid=X,\\:comm=Y> varierar med personligheten; utmatningen kan vara en kolumn med namnen ”X,\\:comm=Y” eller två kolumner med namen ”X” och ”Y”. Använd flera B<-o>-flaggor vid tveksamhet. Använd miljövariabeln B<PS_FORMAT> för att ange en standard som önskas; DefSysV och DefBSD är makron som kan användas för att som välja Unix- eller BSD-standardkolumner."
+ 
+ #. type: TP
+ #: ../man/ps.1:518
 @@ -4920,7 +4920,7 @@
  #. type: Plain text
  #: ../man/ps.1:538
@@ -1711,6 +1744,15 @@
  
  #. type: Plain text
  #: ../man/ps.1:631
+@@ -5139,7 +5139,7 @@
+ #. type: Plain text
+ #: ../man/ps.1:649
+ msgid "Print no header line at all.  B<--no-heading> is an alias for this option."
+-msgstr "Skriv inte ut något huvud alls. B<--no-heading> är ett alias för denna flagga."
++msgstr "Skriv inte ut något rubrik alls. B<--no-heading> är ett alias för denna flagga."
+ 
+ #. type: TP
+ #: ../man/ps.1:649
 @@ -5150,12 +5150,12 @@
  #. type: Plain text
  #: ../man/ps.1:663
@@ -2898,7 +2940,7 @@
  #: ../man/top.1:159
  msgid "When started for the first time, you'll be presented with these traditional elements on the main \\*(We screen: 1) Summary Area; 2) Fields/Columns Header; 3) Task Area.  Each of these will be explored in the sections that follow.  There is also an Input/Message line between the Summary Area and Columns Header which needs no further explanation."
 -msgstr "När det startas för första gången kommer du få se dessa traditionella elementen på hvudskärmen i \\*(We: 1) sammanfattningsområde; 2) fält-/kolumnhuvud; 3) uppgiftsområde. Var och en av dessa kommer utforskas i avsnitten som följer nedan. Det finns även en inmatnings-/meddelanderad mellan sammanfattnigsområdet och kolumhuvudet som inte behöver någon ytterligare förklaring."
-+msgstr "När \\*(We startas för första gången visas dessa traditionella delar på huvudskärmen: 1) sammanfattningsområdet, 2) fält-/kolumnhuvudet och 3) uppgiftsområdet. De behandlas i de följande avsnitten. Mellan sammanfattningsområdet och kolumnhuvudet finns också en inmatnings-/meddelanderad som inte behöver någon ytterligare förklaring."
++msgstr "När \\*(We startas för första gången visas dessa traditionella delar på rubrikskärmen: 1) sammanfattningsområdet, 2) fält-/kolumnrubriken och 3) uppgiftsområdet. De behandlas i de följande avsnitten. Mellan sammanfattningsområdet och kolumnrubriken finns också en inmatnings-/meddelanderad som inte behöver någon ytterligare förklaring."
  
  #. type: Plain text
  #: ../man/top.1:167
