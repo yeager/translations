@@ -1,3 +1,4 @@
+- **GitLab – hemlighetsrotation, grupp 70 (2026-09-21):** 17 säkerhetskritiska poster radgranskade för rotationsintervall, försenade hemligheter, påminnelser och uppdateringslänkar. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – beroendebrandvägg, grupp 69 (2026-09-21):** 19 säkerhetskritiska poster radgranskade för policyregler, licenskompatibilitet, skadliga paket och leveranskedja. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsresultatpolicyer, grupp 68 (2026-09-21):** 28 poster radgranskade för KEV/EPSS, licensvillkor, godkännanden, osignerade incheckningar, token och sårbarhetsblockering. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsresultatpolicyer, grupp 67 (2026-09-21):** 26 poster radgranskade för undantag, token, tjänstekonton, licenser, sannolikhet, allvarlighetsgrad och målpipelines. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
