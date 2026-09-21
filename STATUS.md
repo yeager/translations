@@ -1,3 +1,4 @@
+- **GitLab – skanningsprofiler (24 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – virtuellt register, rensningsstatus (25 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – virtuellt register, rensningsprincip (28 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Secrets Manager, provkrediter (2 strängar, 2026-09-21):** Terminologiskt granskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
