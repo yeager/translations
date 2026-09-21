@@ -570,7 +570,7 @@
  
  #: dwarf2.c:3622 dwarf2.c:3938 dwarf2.c:4511
  #, c-format
-@@ -753,7 +753,7 @@
+@@ -753,12 +753,12 @@
  #: dwarf2.c:4428
  #, c-format
  msgid "DWARF error: found dwarf version '%u', this reader only handles version 2, 3, 4 and 5 information"
@@ -578,6 +578,12 @@
 +msgstr "DWARF-fel: hittade DWARF-version '%u', den här läsaren hanterar endast information i version 2, 3, 4 och 5"
  
  #: dwarf2.c:4475
+ #, c-format
+ msgid "DWARF error: found address size '%u', this reader can not handle sizes greater than '%u'"
+-msgstr "DWARF-fel: hittade adressstorlek '%u', den här läsaren kan inte hantera storlekar större än '%u'"
++msgstr "DWARF-fel: hittade adresstorlek '%u', den här läsaren kan inte hantera storlekar större än '%u'"
+ 
+ #: ecoff.c:1011
  #, c-format
 @@ -845,46 +845,46 @@
  #: elf-attrs.c:768
@@ -3684,7 +3690,7 @@
  #, c-format
  msgid "error: %pB: size of section %pA is not multiple of address size"
 -msgstr "fel: %pB: storleken på avsnittet %pA är inte en multipel av adressstorleken"
-+msgstr "fel: %pB: storleken på sektionen %pA är inte en multipel av adressstorleken"
++msgstr "fel: %pB: storleken på sektionen %pA är inte en multipel av adresstorleken"
  
  #: elflink.c:12537
  #, c-format
