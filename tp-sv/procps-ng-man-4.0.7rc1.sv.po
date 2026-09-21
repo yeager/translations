@@ -576,7 +576,7 @@ msgstr "B<kill> skickar en signal till en eller flera processer enligt I<pid> el
 #. type: Plain text
 #: ../man/kill.1:112
 msgid "The B<-q> option uses an alternative signaling method to to additionally transmit an integral I<value> to a receiving process.  If that process has installed a handler for the signal and specified the SA_SIGINFO flag to B<sigaction>(2), then it can obtain this datum via the I<\\%si_value> field of the I<\\%siginfo_t> structure."
-msgstr "Flaggan B<-q> använder B<sigqueue>(3) i stället för B<kill>(2) för att dessutom skicka ett heltalsvärde I<value> till en mottagande process. Om processen har installerat en hanterare för signalen och angett flaggan SA_SIGINFO till B<sigaction>(2), kan den hämta detta värde via fältet I<\\%si_value> i strukturen I<\\%siginfo_t>."
+msgstr "Flaggan B<-q> använder B<sigqueue>(3) i stället för B<kill>(2) för att dessutom skicka ett heltalsvärde I<värde> till en mottagande process. Om processen har installerat en hanterare för signalen och angett flaggan SA_SIGINFO till B<sigaction>(2), kan den hämta detta värde via fältet I<\\%si_value> i strukturen I<\\%siginfo_t>."
 
 #. type: TP
 #: ../man/kill.1:113 ../man/pgrep.1:57
@@ -4739,7 +4739,7 @@ msgstr "Visa säkerhetskontextsformat (för SELinux). (B<-o pid,context,cmd>)."
 #. type: Plain text
 #: ../man/ps.1:423
 msgid "Do full-format listing.  This option can be combined with many other Unix-style options to add additional columns.  It also causes the command arguments to be printed.  When used with B<-L>, the NLWP (number of threads) and LWP (thread ID) columns will be added.  See the B<c> option, the format keyword B<args>, and the format keyword B<comm>.  (B<-o uid,pid,ppid,c,stime,tty,time,cmd>)."
-msgstr "Gör en lista i fullständigt format. Denna flagga kan kombineras med många andra Unix-flaggor för att lägga till fler kolumner. Den gör också att kommandoargumenten skrivs ut. Tillsammans med B<-L> läggs kolumnerna NLWP (antal trådar) och LWP (tråd-ID) till. Se flaggan B<c>, formatnyckelordet B<args> och formatnyckelordet B<comm>. (B<-o uid,pid,ppid,c,stime,tty,time,cmd>)."
+msgstr "Gör en lista i fullständigt format. Denna flagga kan kombineras med många andra Unix-flaggor för att lägga till fler kolumner. Den gör också att kommandoargumenten skrivs ut. Tillsammans med B<-L> läggs kolumnerna NLWP (antal trådar) och LWP (tråd-ID) till. Se flaggan B<c>, formatnyckelordet B<arg> och formatnyckelordet B<comm>. (B<-o uid,pid,ppid,c,stime,tty,time,cmd>)."
 
 #. type: TP
 #: ../man/ps.1:423
@@ -4948,7 +4948,7 @@ msgstr "B<c>"
 #. type: Plain text
 #: ../man/ps.1:562
 msgid "Show the true command name.  This is derived from the name of the executable file, rather than from the argv value.  Command arguments and any modifications to them are thus not shown.  This option effectively turns the B<args> format keyword into the B<comm> format keyword; it is useful with the B<-f> format option and with the various BSD-style format options, which all normally display the command arguments.  See the B<-f> option, the format keyword B<args>, and the format keyword B<comm>."
-msgstr "Visa det verkliga kommandonamnet. Det härleds från namnet på den körbara filen, inte från argv-värdet. Kommandoargument och ändringar av dem visas därför inte. Flaggan gör i praktiken formatnyckelordet B<args> till B<comm> och är användbar med formatflaggan B<-f> och olika BSD-formatflaggor, som normalt visar kommandoargumenten. Se flaggan B<-f>, formatnyckelordet B<args> och formatnyckelordet B<comm>."
+msgstr "Visa det verkliga kommandonamnet. Det härleds från namnet på den körbara filen, inte från argv-värdet. Kommandoargument och ändringar av dem visas därför inte. Flaggan gör i praktiken formatnyckelordet B<arg> till B<comm> och är användbar med formatflaggan B<-f> och olika BSD-formatflaggor, som normalt visar kommandoargumenten. Se flaggan B<-f>, formatnyckelordet B<arg> och formatnyckelordet B<comm>."
 
 #. type: TP
 #: ../man/ps.1:562
@@ -6288,7 +6288,7 @@ msgstr "Denna version av B<ps> försöker känna igen de flesta nyckelord som an
 #. type: Plain text
 #: ../man/ps.1:966
 msgid "The following user-defined format specifiers may contain spaces: B<args>, B<cmd>, B<comm>, B<command>, B<fname>, B<ucmd>, B<ucomm>, B<lstart>, B<bsdstart>, B<start>."
-msgstr "Följande användardefinierade formatspecificerare kan innehålla blanktecken: B<args>, B<cmd>, B<comm>, B<command>, B<fname>, B<ucmd>, B<ucomm>, B<lstart>, B<bsdstart>, B<start>."
+msgstr "Följande användardefinierade formatspecificerare kan innehålla blanktecken: B<arg>, B<kmd>, B<comm>, B<kommando>, B<fname>, B<ucmd>, B<ucomm>, B<lstart>, B<bsdstart>, B<start>."
 
 #. type: Plain text
 #: ../man/ps.1:968
@@ -6408,7 +6408,7 @@ msgstr ""
 "B<ps>\n"
 "i stället det körbara namnet inom hakparenteser.\n"
 "(alias\n"
-"B<cmd>, B<command>).\n"
+"B<kmd>, B<kommando>).\n"
 "Se även formatnyckelordet\n"
 "B<comm>,\n"
 "flaggan\n"
@@ -6774,9 +6774,9 @@ msgid ""
 "B<args>, B<command>)."
 msgstr ""
 "se\n"
-"B<args>.\n"
+"B<arg>.\n"
 "(alias\n"
-"B<args>, B<command>)."
+"B<arg>, B<kommando>)."
 
 #. type: tbl table
 #: ../man/ps.1:1164
@@ -6799,7 +6799,7 @@ msgstr ""
 "(alias\n"
 "B<ucmd>, B<ucomm>).\n"
 "Se även formatnyckelordet\n"
-"B<args>, flaggan\n"
+"B<arg>, flaggan\n"
 "B<-f>\n"
 "och flaggan\n"
 "B<c>.\n"
@@ -6852,9 +6852,9 @@ msgid ""
 "B<args>, B<command>)."
 msgstr ""
 "Se\n"
-"B<args>.\n"
+"B<arg>.\n"
 "(alias\n"
-"B<args>, B<command>)."
+"B<arg>, B<kommando>)."
 
 #. type: tbl table
 #: ../man/ps.1:1187
@@ -7256,7 +7256,7 @@ msgstr ""
 "kan hämtas och fältbredden tillåter det, annars som ett decimalt värde. Flaggan\n"
 "B<n>\n"
 "kan användas för att framtvinga decimal visning. (alias\n"
-"B<uname>, B<user>)."
+"B<uname>, B<användare>)."
 
 #. type: tbl table
 #: ../man/ps.1:1301
@@ -7284,9 +7284,9 @@ msgstr ""
 "sökvägen till den körbara.\n"
 "Användbart om sökvägen inte kan skrivas ut via\n"
 "formatflaggorna\n"
-"B<cmd>, B<comm>\n"
+"B<kmd>, B<comm>\n"
 "eller\n"
-"B<args>."
+"B<arg>."
 
 #. type: tbl table
 #: ../man/ps.1:1310 ../man/ps.1:1333 ../man/ps.1:1340
@@ -9369,7 +9369,7 @@ msgstr ""
 "se\n"
 "B<euser>.\n"
 "(alias\n"
-"B<euser>, B<user>)."
+"B<euser>, B<användare>)."
 
 #. type: tbl table
 #: ../man/ps.1:1952
@@ -14437,7 +14437,7 @@ msgstr ""
 #. type: Plain text
 #: ../man/top.1:2662
 msgid "The two types of Inspect entries areI< not> interchangeable.  Those designated \\[oq]B<file>\\[cq] will be accessed using fopen and must reference a single file in the \\[oq].fmts\\[cq] element.  Entries specifying \\[oq]B<pipe>\\[cq] will employ popen, their \\[oq].fmts\\[cq] element could contain many pipelined commands and, none can be interactive."
-msgstr "De två typerna av inspektionsposter kan I<inte> bytas ut mot varandra. De som anges som \\[oq]B<file>\\[cq] öppnas med fopen och måste referera till en enda fil i elementet \\[oq].fmts\\[cq]. Poster som anger \\[oq]B<pipe>\\[cq] använder popen. Deras \\[oq].fmts\\[cq]-element kan innehålla flera kommandon i en rörledning, men inget av dem får vara interaktivt."
+msgstr "De två typerna av inspektionsposter kan I<inte> bytas ut mot varandra. De som anges som \\[oq]B<fil>\\[cq] öppnas med fopen och måste referera till en enda fil i elementet \\[oq].fmts\\[cq]. Poster som anger \\[oq]B<pipe>\\[cq] använder popen. Deras \\[oq].fmts\\[cq]-element kan innehålla flera kommandon i en rörledning, men inget av dem får vara interaktivt."
 
 #. type: Plain text
 #: ../man/top.1:2668
@@ -14922,7 +14922,7 @@ msgid ""
 msgstr ""
 "struct result *B<procps_get> (\n"
 "    struct info *I<info>,\n"
-"[   const char *I<name>,      ]   endast B<diskstats>-API:t\n"
+"[   const char *I<namn>,      ]   endast B<diskstats>-API:t\n"
 "    enum item I<item>);\n"
 
 #. type: Plain text
@@ -14937,7 +14937,7 @@ msgid ""
 msgstr ""
 "struct stack *B<procps_select> (\n"
 "    struct info *I<info>,\n"
-"[   const char *I<name>,      ]   endast B<diskstats>-API:t\n"
+"[   const char *I<namn>,      ]   endast B<diskstats>-API:t\n"
 "    enum item *I<items>,\n"
 "    int I<numitems>);\n"
 
@@ -15078,7 +15078,7 @@ msgstr "För funktionerna B<new> och B<unref> måste adressen till en I<info>-st
 #. type: Plain text
 #: ../man/procps.3:133
 msgid "In the case of the B<diskstats> interface, a I<name> parameter on the B<get> and B<select> functions identifies a disk or partition name"
-msgstr "I gränssnittet B<diskstats> identifierar parametern I<name> till funktionerna B<get> och B<select> namnet på en disk eller partition"
+msgstr "I gränssnittet B<diskstats> identifierar parametern I<namn> till funktionerna B<get> och B<select> namnet på en disk eller partition"
 
 #. type: Plain text
 #: ../man/procps.3:137
@@ -15264,7 +15264,7 @@ msgid ""
 "const charB< *procps_ns_get_name> (int I<id>);\n"
 "int       B<  procps_ns_read_pid> (int I<pid>, struct procps_ns *I<nsp>);\n"
 msgstr ""
-"int       B<  procps_ns_get_id> (const char *I<name>);\n"
+"int       B<  procps_ns_get_id> (const char *I<namn>);\n"
 "const charB< *procps_ns_get_name> (int I<id>);\n"
 "int       B<  procps_ns_read_pid> (int I<pid>, struct procps_ns *I<nsp>);\n"
 
@@ -15385,7 +15385,7 @@ msgstr "B<procps_users>() returnerar antalet användare på systemet. Värdet h�
 #. type: Plain text
 #: ../man/procps_misc.3:144
 msgid "B<procps_ns_get_id>()  returns the integer id (enum namespace_type) of the namespace for the given namespace I<name>."
-msgstr "B<procps_ns_get_id>() returnerar heltals-ID:t (enum namespace_type) för namnrymden med det angivna namnet I<name>."
+msgstr "B<procps_ns_get_id>() returnerar heltals-ID:t (enum namespace_type) för namnrymden med det angivna namnet I<namn>."
 
 #. type: Plain text
 #: ../man/procps_misc.3:147

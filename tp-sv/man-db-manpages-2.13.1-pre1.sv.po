@@ -147,13 +147,13 @@ msgstr "Anpassa inte utdata till terminalens bredd. Vanligen kapas utdata vid te
 #: ../../man/man1/apropos.man1:103 ../../man/man1/whatis.man1:107
 #, no-wrap
 msgid "B<-s> I<list\\/>, B<--sections=>I<list\\/>, B<--section=>I<list>"
-msgstr "B<-s> I<list\\/>, B<--sections=>I<list\\/>, B<--section=>I<list>"
+msgstr "B<-s> I<list\\/>, B<--sections=>I<list\\/>, B<--section=>I<lista>"
 
 #
 #. type: Plain text
 #: ../../man/man1/apropos.man1:118 ../../man/man1/whatis.man1:122
 msgid "Search only the given manual sections.  I<list> is a colon- or comma-separated list of sections.  If an entry in I<list> is a simple section, for example \"3\", then the displayed list of descriptions will include pages in sections \"3\", \"3perl\", \"3x\", and so on; while if an entry in I<list> has an extension, for example \"3perl\", then the list will only include pages in that exact part of the manual section."
-msgstr "Sök endast i de angivna manualavsnitten. I<list> är en kolon- eller kommaseparerad lista med avsnitt. Om en post i I<list> är ett enkelt avsnitt, till exempel ”3”, omfattar den visade listan med beskrivningar sidor i avsnitten ”3”, ”3perl”, ”3x” och så vidare. Om en post i I<list> har en filändelse, till exempel ”3perl”, omfattar listan däremot endast den exakta delen av manualavsnittet."
+msgstr "Sök endast i de angivna manualavsnitten. I<lista> är en kolon- eller kommaseparerad lista med avsnitt. Om en post i I<lista> är ett enkelt avsnitt, till exempel ”3”, omfattar den visade listan med beskrivningar sidor i avsnitten ”3”, ”3perl”, ”3x” och så vidare. Om en post i I<lista> har en filändelse, till exempel ”3perl”, omfattar listan däremot endast den exakta delen av manualavsnittet."
 
 #. type: TP
 #: ../../man/man1/apropos.man1:118 ../../man/man1/man.man1:571
@@ -177,7 +177,7 @@ msgstr "Det angivna I<system> kan vara en kombination av kommaavgränsade operat
 #: ../../man/man1/whatis.man1:142 ../../man/man8/catman.man8:59
 #, no-wrap
 msgid "B<-M\\ >I<path>,\\ B<--manpath=>I<path>"
-msgstr "B<-M\\ >I<path>,\\ B<--manpath=>I<path>"
+msgstr "B<-M\\ >I<sökväg>,\\ B<--manpath=>I<sökväg>"
 
 #. type: Plain text
 #: ../../man/man1/apropos.man1:152 ../../man/man1/whatis.man1:156
@@ -203,7 +203,7 @@ msgstr "B<%program%> fastställer normalt den aktuella språkmiljön genom ett a
 #: ../../man/man8/catman.man8:64 ../../man/man8/mandb.man8:125
 #, no-wrap
 msgid "B<-C\\ >I<file>,\\ B<--config-file=>I<file>"
-msgstr "B<-C\\ >I<file>,\\ B<--config-file=>I<file>"
+msgstr "B<-C\\ >I<fil>,\\ B<--config-file=>I<fil>"
 
 #. type: Plain text
 #: ../../man/man1/apropos.man1:173 ../../man/man1/man.man1:417
@@ -371,7 +371,7 @@ msgstr "lexgrog – tolka rubrikinformation i manualsidor"
 #. type: Plain text
 #: ../../man/man1/lexgrog.man1:55
 msgid "B<lexgrog> [\\|B<-m>\\||\\|B<-c>\\|] [\\|B<-dfw?V>\\|] [\\|B<-E> I<encoding>\\|] I<file> \\&.\\|.\\|."
-msgstr "B<lexgrog> [\\|B<-m>\\||\\|B<-c>\\|] [\\|B<-dfw?V>\\|] [\\|B<-E> I<encoding>\\|] I<file> \\&.\\|.\\|."
+msgstr "B<lexgrog> [\\|B<-m>\\||\\|B<-c>\\|] [\\|B<-dfw?V>\\|] [\\|B<-E> I<encoding>\\|] I<fil> \\&.\\|.\\|."
 
 #. type: Plain text
 #: ../../man/man1/lexgrog.man1:71
@@ -560,7 +560,7 @@ msgstr "%man% – ett gränssnitt till systemets referensmanualer"
 #. type: Plain text
 #: ../../man/man1/man.man1:25
 msgid "B<%man%> [\\|I<man options>\\|] [\\|[\\|I<section>\\|] I<page>\\ \\|.\\|.\\|.\\|]\\ .\\|.\\|.\\&"
-msgstr "B<%man%> [\\|I<man options>\\|] [\\|[\\|I<section>\\|] I<page>\\ \\|.\\|.\\|.\\|]\\ .\\|.\\|.\\&"
+msgstr "B<%man%> [\\|I<man options>\\|] [\\|[\\|I<avsnitt>\\|] I<page>\\ \\|.\\|.\\|.\\|]\\ .\\|.\\|.\\&"
 
 #.  The --global-apropos command line
 #. type: Plain text
@@ -572,7 +572,7 @@ msgstr "B<%man%> B<-k> [\\|I<apropos options>\\|] I<regexp> \\&.\\|.\\|.\\&"
 #. type: Plain text
 #: ../../man/man1/man.man1:39
 msgid "B<%man%> B<-K> [\\|I<man options>\\|] [\\|I<section>\\|] I<term>\\ .\\|.\\|.\\&"
-msgstr "B<%man%> B<-K> [\\|I<man options>\\|] [\\|I<section>\\|] I<term>\\ .\\|.\\|.\\&"
+msgstr "B<%man%> B<-K> [\\|I<man options>\\|] [\\|I<avsnitt>\\|] I<term>\\ .\\|.\\|.\\&"
 
 #.  The --local command line
 #. type: Plain text
@@ -584,7 +584,7 @@ msgstr "B<%man%> B<-f> [\\|I<whatis> I<options>\\|] I<page> \\&.\\|.\\|.\\&"
 #. type: Plain text
 #: ../../man/man1/man.man1:54
 msgid "B<%man%> B<-l> [\\|I<man options>\\|] I<file> \\&.\\|.\\|.\\&"
-msgstr "B<%man%> B<-l> [\\|I<man options>\\|] I<file> \\&.\\|.\\|.\\&"
+msgstr "B<%man%> B<-l> [\\|I<man options>\\|] I<fil> \\&.\\|.\\|.\\&"
 
 #. type: Plain text
 #: ../../man/man1/man.man1:60
@@ -594,12 +594,12 @@ msgstr "B<%man%> B<-w>\\||\\|B<-W> [\\|I<man options>\\|] I<page> \\&.\\|.\\|.\\
 #. type: Plain text
 #: ../../man/man1/man.man1:88
 msgid "B<%man%> is the system's manual pager.  Each I<page> argument given to B<%man%> is normally the name of a program, utility or function.  The I<manual page> associated with each of these arguments is then found and displayed.  A I<section>, if provided, will direct B<%man%> to look only in that I<section> of the manual.  The default action is to search in all of the available I<sections> following a pre-defined order (see B<DEFAULTS>), and to show only the first I<page> found, even if I<page> exists in several I<sections>."
-msgstr "B<%man%> är systemets manualsidesvisare. Varje I<page>-argument till B<%man%> är vanligen namnet på ett program, verktyg eller en funktion. Den I<manual page> som hör till vart och ett av argumenten hittas och visas sedan. Om I<section> anges söker B<%man%> endast i det avsnittet av manualen. Som standard söks alla tillgängliga I<sections> i en fördefinierad ordning (se B<DEFAULTS>), och endast den första hittade I<page> visas, även om I<page> finns i flera I<sections>."
+msgstr "B<%man%> är systemets manualsidesvisare. Varje I<page>-argument till B<%man%> är vanligen namnet på ett program, verktyg eller en funktion. Den I<manual page> som hör till vart och ett av argumenten hittas och visas sedan. Om I<avsnitt> anges söker B<%man%> endast i det avsnittet av manualen. Som standard söks alla tillgängliga I<sections> i en fördefinierad ordning (se B<DEFAULTS>), och endast den första hittade I<page> visas, även om I<page> finns i flera I<sections>."
 
 #. type: Plain text
 #: ../../man/man1/man.man1:92
 msgid "The table below shows the I<section> numbers of the manual followed by the types of pages they contain."
-msgstr "Tabellen nedan visar manualens I<section>-nummer följda av vilka sidtyper de innehåller."
+msgstr "Tabellen nedan visar manualens I<avsnitt>-nummer följda av vilka sidtyper de innehåller."
 
 #. type: tbl table
 #: ../../man/man1/man.man1:98
@@ -1075,7 +1075,7 @@ msgstr "B<-S> I<list\\/>, B<-s> I<list\\/>, B<--sections=>I<list\\/>"
 #. type: Plain text
 #: ../../man/man1/man.man1:625
 msgid "The given I<list> is a colon- or comma-separated list of sections, used to determine which manual sections to search and in what order.  This option overrides the $B<MANSECT> environment variable.  (The B<-s> spelling is for compatibility with System V.)"
-msgstr "Det angivna I<list> är en kolon- eller kommaseparerad lista med avsnitt som avgör vilka manualavsnitt som söks och i vilken ordning. Flaggan åsidosätter miljövariabeln $B<MANSECT>. (Skrivningen B<-s> finns för kompatibilitet med System V.)"
+msgstr "Det angivna I<lista> är en kolon- eller kommaseparerad lista med avsnitt som avgör vilka manualavsnitt som söks och i vilken ordning. Flaggan åsidosätter miljövariabeln $B<MANSECT>. (Skrivningen B<-s> finns för kompatibilitet med System V.)"
 
 #. type: TP
 #: ../../man/man1/man.man1:625
@@ -1611,7 +1611,7 @@ msgstr "%manpath% - bestäm sökvägen för manualsidor"
 #. type: Plain text
 #: ../../man/man1/manpath.man1:23
 msgid "B<%manpath%> [\\|B<-qgdc?V>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-C> I<file>\\|]"
-msgstr "B<%manpath%> [\\|B<-qgdc?V>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-C> I<file>\\|]"
+msgstr "B<%manpath%> [\\|B<-qgdc?V>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-C> I<fil>\\|]"
 
 #. type: Plain text
 #: ../../man/man1/manpath.man1:33
@@ -1662,7 +1662,7 @@ msgstr "%whatis% – visa enradiga manualsidebeskrivningar"
 #. type: Plain text
 #: ../../man/man1/whatis.man1:32
 msgid "B<%whatis%> [\\|B<-dlv?V>\\|] [\\|B<-r>\\||\\|B<-w>\\|] [\\|B<-s> I<list>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<path>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-C> I<file>\\|] I<name> \\&.\\|.\\|."
-msgstr "B<%whatis%> [\\|B<-dlv?V>\\|] [\\|B<-r>\\||\\|B<-w>\\|] [\\|B<-s> I<list>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<path>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-C> I<file>\\|] I<name> \\&.\\|.\\|."
+msgstr "B<%whatis%> [\\|B<-dlv?V>\\|] [\\|B<-r>\\||\\|B<-w>\\|] [\\|B<-s> I<lista>\\|] [\\|B<-m> I<system>\\|[\\|,.\\|.\\|.\\|]\\|] [\\|B<-M> I<sökväg>\\|] [\\|B<-L> I<locale>\\|] [\\|B<-C> I<fil>\\|] I<name> \\&.\\|.\\|."
 
 #. type: Plain text
 #: ../../man/man1/whatis.man1:39
@@ -1717,12 +1717,12 @@ msgstr "%zsoelim% – hantera .so-begäranden i roff-indata"
 #. type: Plain text
 #: ../../man/man1/zsoelim.man1:20
 msgid "B<%zsoelim%> [\\|B<-CVh>\\|] [\\|I<file> \\&.\\|.\\|.\\|]"
-msgstr "B<%zsoelim%> [\\|B<-CVh>\\|] [\\|I<file> \\&.\\|.\\|.\\|]"
+msgstr "B<%zsoelim%> [\\|B<-CVh>\\|] [\\|I<fil> \\&.\\|.\\|.\\|]"
 
 #. type: Plain text
 #: ../../man/man1/zsoelim.man1:26
 msgid "B<%zsoelim%> parses I<file> arguments, or if none are specified, its standard input for lines of the form:"
-msgstr "B<%zsoelim%> tolkar I<file>-argument eller, om inga anges, standard in för rader med formen:"
+msgstr "B<%zsoelim%> tolkar I<fil>-argument eller, om inga anges, standard in för rader med formen:"
 
 #. type: Plain text
 #: ../../man/man1/zsoelim.man1:29
@@ -1890,7 +1890,7 @@ msgstr "Rader i detta format definierar olika konfigurationsvariabler; se standa
 #: ../../man/man5/manpath.man5:184
 #, no-wrap
 msgid "B<SECTION> I<section> .\\|.\\|."
-msgstr "B<SECTION> I<section> .\\|.\\|."
+msgstr "B<SECTION> I<avsnitt> .\\|.\\|."
 
 #. type: Plain text
 #: ../../man/man5/manpath.man5:192
@@ -1921,7 +1921,7 @@ msgstr "B<MINCATWIDTH>I<\\ width>"
 #. type: Plain text
 #: ../../man/man5/manpath.man5:219
 msgid "If the terminal width is less than I<width>, cat pages will not be created (if missing) or displayed.  The default is 80."
-msgstr "Är terminalbredden mindre än I<width> skapas eller visas cat-sidor inte. Standardvärdet är 80."
+msgstr "Är terminalbredden mindre än I<bredd> skapas eller visas cat-sidor inte. Standardvärdet är 80."
 
 #. type: TP
 #: ../../man/man5/manpath.man5:219
@@ -1932,7 +1932,7 @@ msgstr "B<MAXCATWIDTH>I<\\ width>"
 #. type: Plain text
 #: ../../man/man5/manpath.man5:225
 msgid "If the terminal width is greater than I<width>, cat pages will not be created (if missing) or displayed.  The default is 80."
-msgstr "Är terminalbredden större än I<width> skapas eller visas cat-sidor inte. Standardvärdet är 80."
+msgstr "Är terminalbredden större än I<bredd> skapas eller visas cat-sidor inte. Standardvärdet är 80."
 
 #. type: TP
 #: ../../man/man5/manpath.man5:225
@@ -1943,7 +1943,7 @@ msgstr "B<CATWIDTH>I<\\ width>"
 #. type: Plain text
 #: ../../man/man5/manpath.man5:235
 msgid "If I<width> is non-zero, cat pages will always be formatted for a terminal of the given width, regardless of the width of the terminal actually being used.  This overrides B<MINCATWIDTH> and B<MAXCATWIDTH>."
-msgstr "Om I<width> inte är noll formateras cat-sidor alltid för terminaler med den angivna bredden, oavsett bredden på terminalen som används. Detta åsidosätter B<MINCATWIDTH> och B<MAXCATWIDTH>."
+msgstr "Om I<bredd> inte är noll formateras cat-sidor alltid för terminaler med den angivna bredden, oavsett bredden på terminalen som används. Detta åsidosätter B<MINCATWIDTH> och B<MAXCATWIDTH>."
 
 #. type: Plain text
 #: ../../man/man5/manpath.man5:240
@@ -1983,7 +1983,7 @@ msgstr "%catman% - skapa eller uppdatera de förformaterade manualsidorna"
 #. type: Plain text
 #: ../../man/man8/catman.man8:24
 msgid "B<%catman%> [\\|B<-d?V>\\|] [\\|B<-M> I<path>\\|] [\\|B<-C> I<file>\\|] [\\|I<section>\\|] \\&.\\|.\\|."
-msgstr "B<%catman%> [\\|B<-d?V>\\|] [\\|B<-M> I<path>\\|] [\\|B<-C> I<file>\\|] [\\|I<section>\\|] \\&.\\|.\\|."
+msgstr "B<%catman%> [\\|B<-d?V>\\|] [\\|B<-M> I<sökväg>\\|] [\\|B<-C> I<fil>\\|] [\\|I<avsnitt>\\|] \\&.\\|.\\|."
 
 #. type: Plain text
 #: ../../man/man8/catman.man8:32
@@ -2018,12 +2018,12 @@ msgstr "%mandb% - skapa eller uppdatera indexcachar för manualsidor"
 #. type: Plain text
 #: ../../man/man8/mandb.man8:23
 msgid "B<%mandb%> [\\|B<-dqsucpt?V>\\|] [\\|B<-C> I<file>\\|] [\\|I<manpath>\\|]"
-msgstr "B<%mandb%> [\\|B<-dqsucpt?V>\\|] [\\|B<-C> I<file>\\|] [\\|I<manpath>\\|]"
+msgstr "B<%mandb%> [\\|B<-dqsucpt?V>\\|] [\\|B<-C> I<fil>\\|] [\\|I<manpath>\\|]"
 
 #. type: Plain text
 #: ../../man/man8/mandb.man8:30
 msgid "B<%mandb%> [\\|B<-dqsut>\\|] [\\|B<-C> I<file>\\|] B<-f> I<filename>\\ .\\|.\\|."
-msgstr "B<%mandb%> [\\|B<-dqsut>\\|] [\\|B<-C> I<file>\\|] B<-f> I<filename>\\ .\\|.\\|."
+msgstr "B<%mandb%> [\\|B<-dqsut>\\|] [\\|B<-C> I<fil>\\|] B<-f> I<filename>\\ .\\|.\\|."
 
 #. type: Plain text
 #: ../../man/man8/mandb.man8:38
