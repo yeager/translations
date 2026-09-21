@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – säkerhet och identitet, grupp 3 (2026-09-21):** 16 XLIFF-poster är kontextgranskade och API-publicerade: LDAP-hanterad åtkomst, Secret Detection, avancerad SAST, WebAuthn, Artifact Registry-behörigheter, AWS hemliga åtkomstnycklar och OAuth-applikationshemligheter. Platshållare och säkerhetssemantik är validerade med aktuell `l10n-lint` (0 fel på hela exporten).
+
 **3D Slicer – XLIFF-granskning, grupp 1 (2026-09-21):** Alla fyra svenska komponenter har hämtats som XLIFF och körts med aktuell `l10n-lint`: 0 formatfel. Nio granskade huvudgränssnittsrättningar är publicerade och API-bekräftade, inklusive typografisk ellips, **klippningsplan**, tilläggskatalogens namn och webbplats, korrekt C++-typen `long long` och konsekventa egenskapsdialoger. CTK:s `%2s`-platshållare och VMTK:s konsonantstrykningsriktiga **klippunkter** fanns redan korrekt publicerade. XLIFF-arkiv: `3D-Slicer/xliff-20260921/`. Resterande semantiska varningar granskas radvis i kommande grupper.
 
 **GitLab – säkerhets- och gränssnittskvalitet, grupp 2 (2026-09-21):** Sju ytterligare XLIFF-poster är lokalt kontextgranskade och publicerade via CrowdIn: personliga åtkomsttoken med 2FA, DAST-konsolens felsökningsmeddelanden, en CI/CD-licenspolicy, Duo Chats kunskapsgraf, CloudSeed-beskrivningen och start av utvecklingsmiljö. Platshållare och produktidentiteter är bevarade. Hela exporten har fortsatt 0 `l10n-lint`-fel.
