@@ -1,3 +1,4 @@
+- **GitLab – efterlevnadsramverk: ramverk och externa kontroller (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – efterlevnadsramverk: krav och standardramverk (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – efterlevnadsramverk: kontroller och policyer (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – modellregister: pluralformer (2 poster, 2026-09-21):** Radgranskade och publicerade via CrowdIns plural-API; l10n-lint v1.21.6: 0 fel. Alla oöversatta MlModelRegistry-poster i aktuell XLIFF är nu hanterade.
