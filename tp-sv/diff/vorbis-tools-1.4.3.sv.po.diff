@@ -1,0 +1,2147 @@
+--- a/vorbis-tools-1.4.3.sv.po
++++ b/vorbis-tools-1.4.3.sv.po
+@@ -42,7 +42,7 @@
+ #: ogg123/callbacks.c:82
+ #, c-format
+ msgid "ERROR: Unsupported option value to %s device.\n"
+-msgstr "FEL: Okänt flaggvärde till enheten %s.\n"
++msgstr "FEL: Flaggvärdet till enheten %s stöds inte.\n"
+ 
+ #: ogg123/callbacks.c:86
+ #, c-format
+@@ -57,7 +57,7 @@
+ #: ogg123/callbacks.c:93
+ #, c-format
+ msgid "ERROR: An output file cannot be given for %s device.\n"
+-msgstr "FEL: En utfil kan inte anges för enheten %s.\n"
++msgstr "FEL: En utdatafil kan inte anges för enheten %s.\n"
+ 
+ #: ogg123/callbacks.c:96
+ #, c-format
+@@ -72,7 +72,7 @@
+ #: ogg123/callbacks.c:103
+ #, c-format
+ msgid "ERROR: This error should never happen (%d).  Panic!\n"
+-msgstr "FEL: Detta fel skall aldrig inträffa (%d).  Panik!\n"
++msgstr "FEL: Detta fel ska aldrig inträffa (%d). Panik!\n"
+ 
+ #: ogg123/callbacks.c:128 ogg123/callbacks.c:133
+ msgid "ERROR: Out of memory in new_audio_reopen_arg().\n"
+@@ -175,7 +175,7 @@
+ 
+ #: ogg123/cfgfile_options.c:433
+ msgid "Key not found"
+-msgstr "Nyckel hittades inte"
++msgstr "Nyckeln hittades inte"
+ 
+ #: ogg123/cfgfile_options.c:435
+ msgid "No key"
+@@ -187,7 +187,7 @@
+ 
+ #: ogg123/cfgfile_options.c:439
+ msgid "Bad type in options list"
+-msgstr "Felaktig typ i argumentlista"
++msgstr "Felaktig typ i flagglistan"
+ 
+ #: ogg123/cfgfile_options.c:441
+ msgid "Unknown error"
+@@ -200,7 +200,7 @@
+ #: ogg123/cmdline_options.c:91
+ #, c-format
+ msgid "Input buffer size smaller than minimum size of %dkB."
+-msgstr "In-buffertens storlek mindre än minimistorleken %dkB."
++msgstr "Indatabuffertens storlek är mindre än minimistorleken %dkB."
+ 
+ #: ogg123/cmdline_options.c:103
+ #, c-format
+@@ -208,8 +208,8 @@
+ "=== Error \"%s\" while parsing config option from command line.\n"
+ "=== Option was: %s\n"
+ msgstr ""
+-"=== Fel ”%s” under tolkning av konfigurationsflaggor från kommandoraden.\n"
+-"=== Flaggan var: %s\n"
++"=== Fel ”%s” vid tolkning av konfigurationsalternativ från kommandoraden.\n"
++"=== Alternativet var: %s\n"
+ 
+ #: ogg123/cmdline_options.c:110
+ #, c-format
+@@ -219,25 +219,25 @@
+ #: ogg123/cmdline_options.c:119
+ #, c-format
+ msgid "=== No such device %s.\n"
+-msgstr "=== Ingen enhet %s.\n"
++msgstr "=== Ingen sådan enhet: %s.\n"
+ 
+ #: ogg123/cmdline_options.c:139
+ #, c-format
+ msgid "=== Driver %s is not a file output driver.\n"
+-msgstr "=== Drivrutin %s är inte för filer.\n"
++msgstr "=== Drivrutinen %s är inte en utdatafilsdrivrutin.\n"
+ 
+ #: ogg123/cmdline_options.c:144
+ msgid "=== Cannot specify output file without previously specifying a driver.\n"
+-msgstr "=== Kan inte ange utfil utan att tidigare ange en drivrutin.\n"
++msgstr "=== Kan inte ange utdatafil utan att först ange en drivrutin.\n"
+ 
+ #: ogg123/cmdline_options.c:163
+ #, c-format
+ msgid "=== Incorrect option format: %s.\n"
+-msgstr "=== Felaktigt format på argument: %s.\n"
++msgstr "=== Felaktigt flaggformat: %s.\n"
+ 
+ #: ogg123/cmdline_options.c:178
+ msgid "--- Prebuffer value invalid. Range is 0-100.\n"
+-msgstr "--- Ogiltigt värde till prebuffer. Möjligt intervall är 0-100.\n"
++msgstr "--- Ogiltigt värde för prebuffer. Intervallet är 0-100.\n"
+ 
+ #: ogg123/cmdline_options.c:202
+ #, c-format
+@@ -246,33 +246,33 @@
+ 
+ #: ogg123/cmdline_options.c:209
+ msgid "--- Cannot play every 0th chunk!\n"
+-msgstr "--- Kan inte spela var 0:te block!\n"
++msgstr "--- Kan inte spela upp vart 0:e block!\n"
+ 
+ #: ogg123/cmdline_options.c:217
+ msgid ""
+ "--- Cannot play every chunk 0 times.\n"
+ "--- To do a test decode, use the null output driver.\n"
+ msgstr ""
+-"--- Kan inte spela varje block 0 gånger.\n"
+-"--- För att göra en testavkodning, använd null-drivrutinen för utdata.\n"
++"--- Kan inte spela upp varje block 0 gånger.\n"
++"--- Använd utdata-drivrutinen null för testavkodning.\n"
+ 
+ #: ogg123/cmdline_options.c:233
+ #, c-format
+ msgid "--- Cannot open playlist file %s.  Skipped.\n"
+-msgstr "--- Kan inte öppna spellistefilen %s.  Hoppas över.\n"
++msgstr "--- Kan inte öppna spellistefilen %s. Hoppas över.\n"
+ 
+ #: ogg123/cmdline_options.c:249
+ msgid "=== Option conflict: End time is before start time.\n"
+-msgstr "=== Flaggkonflikt: Sluttiden är före starttiden.\n"
++msgstr "=== Flaggkonflikt: sluttiden är före starttiden.\n"
+ 
+ #: ogg123/cmdline_options.c:262
+ #, c-format
+ msgid "--- Driver %s specified in configuration file invalid.\n"
+-msgstr "--- Drivrutin %s angiven i konfigurationsfil ogiltig.\n"
++msgstr "--- Drivrutinen %s som anges i konfigurationsfilen är ogiltig.\n"
+ 
+ #: ogg123/cmdline_options.c:272
+ msgid "=== Could not load default driver and no driver specified in config file. Exiting.\n"
+-msgstr "=== Kunde inte ladda standard-drivrutin, och ingen är specificerad i konfigurationsfilen. Avslutar.\n"
++msgstr "=== Kunde inte läsa in standarddrivrutinen och ingen drivrutin anges i konfigurationsfilen. Avslutar.\n"
+ 
+ #: ogg123/cmdline_options.c:307
+ #, c-format
+@@ -300,13 +300,13 @@
+ "\n"
+ msgstr ""
+ "Användning: ogg123 [flaggor] fil …\n"
+-"Spela Ogg audio-filer och nätverksströmmar.\n"
++"Spela upp Ogg-ljudfiler och nätverksströmmar.\n"
+ "\n"
+ 
+ #: ogg123/cmdline_options.c:314
+ #, c-format
+ msgid "Available codecs: "
+-msgstr "Tillgängliga omkodare: "
++msgstr "Tillgängliga avkodare: "
+ 
+ #: ogg123/cmdline_options.c:317
+ #, c-format
+@@ -335,12 +335,12 @@
+ #: ogg123/cmdline_options.c:330
+ #, c-format
+ msgid "Output options\n"
+-msgstr "Utmatningsflaggor\n"
++msgstr "Utdataflaggor\n"
+ 
+ #: ogg123/cmdline_options.c:331
+ #, c-format
+ msgid "  -d dev, --device dev    Use output device \"dev\". Available devices:\n"
+-msgstr "  -d enh, --device enh    Använd utmatningsenheten ”enh”. Tillgängliga enheter:\n"
++msgstr "  -d enh, --device enh    Använd utdataenheten ”enh”. Tillgängliga enheter:\n"
+ 
+ #: ogg123/cmdline_options.c:333
+ #, c-format
+@@ -358,13 +358,13 @@
+ "  -f file, --file file    Set the output filename for a file device\n"
+ "                          previously specified with --device.\n"
+ msgstr ""
+-"  -f fil, --file fil      Ange utmatningsfilnamnet för en filenhet som tidigare\n"
+-"                          angivits med --device.\n"
++"  -f fil, --file fil      Ange utdatafilnamnet för en filenhet som tidigare\n"
++"                          angetts med --device.\n"
+ 
+ #: ogg123/cmdline_options.c:354
+ #, c-format
+ msgid "  --audio-buffer n        Use an output audio buffer of 'n' kilobytes\n"
+-msgstr "  --audio-buffer n        Använd en utmatningsljudbuffert på ”n” kilobyte\n"
++msgstr "  --audio-buffer n        Använd en utdata-ljudbuffert på ”n” kilobyte\n"
+ 
+ #: ogg123/cmdline_options.c:355
+ #, c-format
+@@ -376,7 +376,7 @@
+ msgstr ""
+ "  -o k:v, --device-option k:v\n"
+ "                          Skicka specialflaggan ”k” med värdet ”v” till\n"
+-"                          enheten som angavs tidigare med --device.  Se\n"
++"                          enheten som tidigare angavs med --device. Se\n"
+ "                          manualsidan för ogg123 för tillgängliga enhetsflaggor.\n"
+ 
+ #: ogg123/cmdline_options.c:361
+@@ -387,27 +387,27 @@
+ #: ogg123/cmdline_options.c:362
+ #, c-format
+ msgid "  -@ file, --list file    Read playlist of files and URLs from \"file\"\n"
+-msgstr "  -@ fil, --list fil      Läs spellista av filer och URL:ar från ”fil”\n"
++msgstr "  -@ fil, --list fil      Läs en spellista med filer och URL:er från ”fil”\n"
+ 
+ #: ogg123/cmdline_options.c:363
+ #, c-format
+ msgid "  -r, --repeat            Repeat playlist indefinitely\n"
+-msgstr "  -r, --repeat            Repetera spellistan i oändlighet\n"
++msgstr "  -r, --repeat            Upprepa spellistan i oändlighet\n"
+ 
+ #: ogg123/cmdline_options.c:364
+ #, c-format
+ msgid "  -R, --remote            Use remote control interface\n"
+-msgstr "  -R, --remote            Använd fjärrkontrollsgränssnitt\n"
++msgstr "  -R, --remote            Använd fjärrstyrningsgränssnittet\n"
+ 
+ #: ogg123/cmdline_options.c:365
+ #, c-format
+ msgid "  -z, --shuffle           Shuffle list of files before playing\n"
+-msgstr "  -z, --shuffle           Blanda listan av filer före spelning\n"
++msgstr "  -z, --shuffle           Blanda fillistan före uppspelning\n"
+ 
+ #: ogg123/cmdline_options.c:366
+ #, c-format
+ msgid "  -Z, --random            Play files randomly until interrupted\n"
+-msgstr "  -Z, --random            Spela filer slumpvis tills det avbryts\n"
++msgstr "  -Z, --random            Spela upp filer slumpvis tills det avbryts\n"
+ 
+ #: ogg123/cmdline_options.c:369
+ #, c-format
+@@ -422,7 +422,7 @@
+ #: ogg123/cmdline_options.c:371
+ #, c-format
+ msgid "  -p n, --prebuffer n     Load n%% of the input buffer before playing\n"
+-msgstr "  -p n, --prebuffer n     Läs n %% av indatabufferten före spelning\n"
++msgstr "  -p n, --prebuffer n     Läs in n %% av indatabufferten före uppspelning\n"
+ 
+ #: ogg123/cmdline_options.c:374
+ #, c-format
+@@ -439,22 +439,22 @@
+ #: ogg123/cmdline_options.c:376
+ #, c-format
+ msgid "  -K n, --end n           End at 'n' seconds (or hh:mm:ss format)\n"
+-msgstr "  -K n, --end n           Sluta vid ”n” sekunder (eller formatet hh:mm:ss)\n"
++msgstr "  -K n, --end n           Avsluta vid ”n” sekunder (eller formatet hh:mm:ss)\n"
+ 
+ #: ogg123/cmdline_options.c:377
+ #, c-format
+ msgid "  -x n, --nth n           Play every 'n'th block\n"
+-msgstr "  -x n, --nth n           Spela var ”n”:e block\n"
++msgstr "  -x n, --nth n           Spela upp vart ”n”:e block\n"
+ 
+ #: ogg123/cmdline_options.c:378
+ #, c-format
+ msgid "  -y n, --ntimes n        Repeat every played block 'n' times\n"
+-msgstr "  -y n, --ntimes n        Repetera varje spelat block ”n” gånger\n"
++msgstr "  -y n, --ntimes n        Upprepa varje uppspelat block ”n” gånger\n"
+ 
+ #: ogg123/cmdline_options.c:381 vorbiscomment/vcomment.c:650
+ #, c-format
+ msgid "Miscellaneous options\n"
+-msgstr "Diverse flaggor\n"
++msgstr "Övriga flaggor\n"
+ 
+ #: ogg123/cmdline_options.c:382
+ #, c-format
+@@ -464,10 +464,10 @@
+ "                          and will terminate if two SIGINTs are received\n"
+ "                          within the specified timeout 's'. (default 500)\n"
+ msgstr ""
+-"  -l s, --delay s         Ange avslutstid i millisekunder.  ogg123\n"
+-"                          kommer hoppa över till nästa sång vid SIGINT (Ctrl-C),\n"
+-"                          och kommer avsluta om två SIGINT:ar mottas inom\n"
+-"                          den angivna tidsgränsen ”s”.  (standard 500)\n"
++"  -l s, --delay s         Ange tidsgränsen för avslutning i millisekunder. ogg123\n"
++"                          hoppar över till nästa låt vid SIGINT (Ctrl-C)\n"
++"                          och avslutas om två SIGINT tas emot inom den\n"
++"                          angivna tidsgränsen ”s”. (standard 500)\n"
+ 
+ #: ogg123/cmdline_options.c:387 vorbiscomment/vcomment.c:658
+ #, c-format
+@@ -477,7 +477,7 @@
+ #: ogg123/cmdline_options.c:388
+ #, c-format
+ msgid "  -q, --quiet             Don't display anything (no title)\n"
+-msgstr "  -q, --quiet             Visa ingenting (ingen titel)\n"
++msgstr "  -q, --quiet             Visa inget (ingen titel)\n"
+ 
+ #: ogg123/cmdline_options.c:389
+ #, c-format
+@@ -487,7 +487,7 @@
+ #: ogg123/cmdline_options.c:390
+ #, c-format
+ msgid "  -V, --version           Display ogg123 version\n"
+-msgstr "  -V, --version           Visa ogg123-version\n"
++msgstr "  -V, --version           Visa ogg123-versionen\n"
+ 
+ #: ogg123/file_transport.c:64 ogg123/http_transport.c:215
+ #: ogg123/oggvorbis_format.c:106 ogg123/speex_format.c:152
+@@ -500,19 +500,19 @@
+ #: ogg123/format.c:90
+ #, c-format
+ msgid "ERROR: Could not allocate memory in malloc_decoder_stats()\n"
+-msgstr "FEL: Kunde inte reservera minne i malloc_decoder_stats()\n"
++msgstr "FEL: Kunde inte allokera minne i malloc_decoder_stats()\n"
+ 
+ #: ogg123/http_transport.c:145
+ msgid "ERROR: Could not set signal mask."
+-msgstr "FEL: Kunde inte sätta signalmask."
++msgstr "FEL: Kunde inte ställa in signalsmasken."
+ 
+ #: ogg123/http_transport.c:202
+ msgid "ERROR: Unable to create input buffer.\n"
+-msgstr "FEL: Kan inte skapa inbuffert.\n"
++msgstr "FEL: Kan inte skapa indatabuffert.\n"
+ 
+ #: ogg123/ogg123.c:81
+ msgid "default output device"
+-msgstr "förvald utenhet"
++msgstr "standardutdataenhet"
+ 
+ #: ogg123/ogg123.c:83
+ msgid "shuffle playlist"
+@@ -520,12 +520,12 @@
+ 
+ #: ogg123/ogg123.c:85
+ msgid "repeat playlist forever"
+-msgstr "repetera spellistan i evighet"
++msgstr "upprepa spellistan i oändlighet"
+ 
+ #: ogg123/ogg123.c:231
+ #, c-format
+ msgid "Could not skip to %f in audio stream."
+-msgstr "Kunde inte hoppa över till %f i ljudströmmen."
++msgstr "kunde inte hoppa till %f i ljudströmmen."
+ 
+ #: ogg123/ogg123.c:376
+ #, c-format
+@@ -534,7 +534,7 @@
+ "Audio Device:   %s"
+ msgstr ""
+ "\n"
+-"Ljudenhet:    %s"
++"Ljudenhet: %s"
+ 
+ #: ogg123/ogg123.c:377
+ #, c-format
+@@ -558,7 +558,7 @@
+ #: ogg123/ogg123.c:565
+ #, c-format
+ msgid "No module could be found to read from %s.\n"
+-msgstr "Hittar ingen modul för att läsa från %s.\n"
++msgstr "Hittar ingen modul som kan läsa från %s.\n"
+ 
+ #: ogg123/ogg123.c:570
+ #, c-format
+@@ -568,30 +568,30 @@
+ #: ogg123/ogg123.c:576
+ #, c-format
+ msgid "The file format of %s is not supported.\n"
+-msgstr "Filformatet på %s stöds inte.\n"
++msgstr "Filformatet för %s stöds inte.\n"
+ 
+ #: ogg123/ogg123.c:586
+ #, c-format
+ msgid "Error opening %s using the %s module.  The file may be corrupted.\n"
+-msgstr "Fel under öppnandet av %s med %s-modulen.  Filen kan vara skadad.\n"
++msgstr "Fel vid öppning av %s med modulen %s. Filen kan vara skadad.\n"
+ 
+ #: ogg123/ogg123.c:605
+ #, c-format
+ msgid "Playing: %s"
+-msgstr "Spelar: %s"
++msgstr "Spelar upp: %s"
+ 
+ #: ogg123/ogg123.c:616
+ #, c-format
+ msgid "Could not skip %f seconds of audio."
+-msgstr "Misslyckades med att hoppa över %f sekunder ljud."
++msgstr "kunde inte hoppa över %f sekunder av ljudet."
+ 
+ #: ogg123/ogg123.c:671
+ msgid "ERROR: Decoding failure.\n"
+-msgstr "FEL: Avkodning misslyckades.\n"
++msgstr "FEL: Avkodningen misslyckades.\n"
+ 
+ #: ogg123/ogg123.c:720
+ msgid "ERROR: buffer write failed.\n"
+-msgstr "FEL: en buffertskrivning misslyckades.\n"
++msgstr "FEL: Buffertskrivning misslyckades.\n"
+ 
+ #: ogg123/ogg123.c:757
+ msgid "Done."
+@@ -599,7 +599,7 @@
+ 
+ #: ogg123/oggvorbis_format.c:208
+ msgid "--- Hole in the stream; probably harmless\n"
+-msgstr "--- Hål i strömmen; antagligen ofarligt\n"
++msgstr "--- Hål i strömmen; troligen ofarligt\n"
+ 
+ #: ogg123/oggvorbis_format.c:214 oggdec/oggdec.c:323
+ #, c-format
+@@ -614,12 +614,12 @@
+ #: ogg123/oggvorbis_format.c:366
+ #, c-format
+ msgid "Vorbis format: Version %d"
+-msgstr "Vorbisformat: Version %d"
++msgstr "Vorbisformat: version %d"
+ 
+ #: ogg123/oggvorbis_format.c:370
+ #, c-format
+ msgid "Bitrate hints: upper=%ld nominal=%ld lower=%ld window=%ld"
+-msgstr "Förslag för bithastigheter: övre=%ld nominell=%ld undre=%ld fönster=%ld"
++msgstr "Bithastighetsförslag: övre=%ld nominell=%ld undre=%ld fönster=%ld"
+ 
+ #: ogg123/oggvorbis_format.c:378 ogg123/speex_format.c:416
+ #, c-format
+@@ -649,12 +649,12 @@
+ #: ogg123/speex_format.c:366
+ #, c-format
+ msgid "Ogg Speex stream: %d channel, %d Hz, %s mode (VBR)"
+-msgstr "Ogg Speex-ström: %d kanaler, %d Hz, läge %s (VBR)"
++msgstr "Ogg Speex-ström: %d kanaler, %d Hz, %s-läge (VBR)"
+ 
+ #: ogg123/speex_format.c:372
+ #, c-format
+ msgid "Ogg Speex stream: %d channel, %d Hz, %s mode"
+-msgstr "Ogg Speex-ström: %d kanaler, %d Hz, läge %s"
++msgstr "Ogg Speex-ström: %d kanaler, %d Hz, %s-läge"
+ 
+ #: ogg123/speex_format.c:378
+ #, c-format
+@@ -665,7 +665,7 @@
+ #: ogg123/speex_format.c:424 ogg123/speex_format.c:434
+ #: ogg123/speex_format.c:441
+ msgid "Invalid/corrupted comments"
+-msgstr "Ogiltig/trasig kommentar"
++msgstr "Ogiltiga eller skadade kommentarer"
+ 
+ #: ogg123/speex_format.c:478
+ msgid "Cannot read header"
+@@ -674,28 +674,28 @@
+ #: ogg123/speex_format.c:483
+ #, c-format
+ msgid "Mode number %d does not (any longer) exist in this version"
+-msgstr "Läge nummer %d finns inte (längre) i denna version"
++msgstr "Läge nummer %d finns inte längre i denna version"
+ 
+ #: ogg123/speex_format.c:492
+ msgid ""
+ "The file was encoded with a newer version of Speex.\n"
+ " You need to upgrade in order to play it.\n"
+ msgstr ""
+-"Filen var kodad med en nyare version av Speex.\n"
+-" Du behöver uppgradera för att kunna spela den.\n"
++"Filen kodades med en nyare version av Speex.\n"
++" Du behöver uppgradera för att kunna spela upp den.\n"
+ 
+ #: ogg123/speex_format.c:496
+ msgid ""
+ "The file was encoded with an older version of Speex.\n"
+ "You would need to downgrade the version in order to play it."
+ msgstr ""
+-"Filen var kodad med en äldre version av Speex.\n"
+-"Du skulle behöva nedgradera versionen för att kunna spela den."
++"Filen kodades med en äldre version av Speex.\n"
++"Du behöver nedgradera versionen för att kunna spela upp den."
+ 
+ #: ogg123/status.c:61
+ #, c-format
+ msgid "%sPrebuf to %.1f%%"
+-msgstr "%sFörbuffra till %.1f %%"
++msgstr "%sFörbuffra till %.1f%%"
+ 
+ #: ogg123/status.c:66
+ #, c-format
+@@ -711,7 +711,7 @@
+ #: ogg123/status.c:273 ogg123/status.c:305 ogg123/status.c:324
+ #, c-format
+ msgid "Memory allocation error in stats_init()\n"
+-msgstr "Minnestilldelningsfel i stats_init()\n"
++msgstr "Minnesallokeringsfel i stats_init()\n"
+ 
+ #: ogg123/status.c:234
+ #, c-format
+@@ -736,12 +736,12 @@
+ #: ogg123/status.c:294
+ #, c-format
+ msgid " Input Buffer %5.1f%%"
+-msgstr " Inbuffert %5.1f%%"
++msgstr " Indatabuffert %5.1f%%"
+ 
+ #: ogg123/status.c:313
+ #, c-format
+ msgid " Output Buffer %5.1f%%"
+-msgstr " Utbuffert %5.1f%%"
++msgstr " Utdatabuffert %5.1f%%"
+ 
+ #: ogg123/transport.c:71
+ #, c-format
+@@ -754,27 +754,27 @@
+ 
+ #: ogg123/vorbis_comments.c:42
+ msgid "ReplayGain (Reference loudness):"
+-msgstr "ReplayGain (Referensljudnivå):"
++msgstr "ReplayGain (referensljudnivå):"
+ 
+ #: ogg123/vorbis_comments.c:43
+ msgid "ReplayGain (Track):"
+-msgstr "ReplayGain (Spår):"
++msgstr "ReplayGain (spår):"
+ 
+ #: ogg123/vorbis_comments.c:44
+ msgid "ReplayGain (Album):"
+-msgstr "ReplayGain (Album):"
++msgstr "ReplayGain (album):"
+ 
+ #: ogg123/vorbis_comments.c:45
+ msgid "ReplayGain Peak (Track):"
+-msgstr "ReplayGain Topp (Spår):"
++msgstr "ReplayGain-topp (spår):"
+ 
+ #: ogg123/vorbis_comments.c:46
+ msgid "ReplayGain Peak (Album):"
+-msgstr "ReplayGain Topp (Album):"
++msgstr "ReplayGain-topp (album):"
+ 
+ #: ogg123/vorbis_comments.c:47
+ msgid "Copyright"
+-msgstr "Copyright"
++msgstr "Upphovsrätt"
+ 
+ #: ogg123/vorbis_comments.c:48 ogg123/vorbis_comments.c:49
+ msgid "Comment:"
+@@ -788,7 +788,7 @@
+ #: ogg123/vorbis_comments.c:133
+ #, c-format
+ msgid "Picture: Type \"%s\"%s URI %s"
+-msgstr "Bild: Typ ”%s”%s URI %s"
++msgstr "Bild: Typ ”%s”%s, URI %s"
+ 
+ #: ogg123/vorbis_comments.c:137
+ #, c-format
+@@ -802,7 +802,7 @@
+ 
+ #: ogg123/vorbis_comments.c:144
+ msgid "Picture: <corrupted>"
+-msgstr "Bild: <trasig>"
++msgstr "Bild: <skadad>"
+ 
+ #: oggdec/oggdec.c:51
+ #, c-format
+@@ -820,31 +820,32 @@
+ "Usage: oggdec [options] file1.ogg [file2.ogg ... fileN.ogg]\n"
+ "\n"
+ msgstr "Användning: oggdec [flaggor] fil1.ogg [fil2.ogg … filN.ogg]\n"
++"\n"
+ 
+ #: oggdec/oggdec.c:60
+ #, c-format
+ msgid "Supported options:\n"
+-msgstr "Flaggor som stödjs:\n"
++msgstr "Flaggor som stöds:\n"
+ 
+ #: oggdec/oggdec.c:61
+ #, c-format
+ msgid " --quiet, -Q      Quiet mode. No console output.\n"
+-msgstr " --quiet, -Q      Tyst läge.  Ingen konsolutskrift.\n"
++msgstr " --quiet, -Q      Tyst läge. Ingen konsolutdata.\n"
+ 
+ #: oggdec/oggdec.c:62
+ #, c-format
+ msgid " --help,  -h      Produce this help message.\n"
+-msgstr " --help,  -h      Skapa detta hjälpmeddelande.\n"
++msgstr " --help,  -h      Visa detta hjälpmeddelande.\n"
+ 
+ #: oggdec/oggdec.c:63
+ #, c-format
+ msgid " --version, -V    Print out version number.\n"
+-msgstr " --version, -V    Skriv ut versionsnummer.\n"
++msgstr " --version, -V    Skriv ut versionsnumret.\n"
+ 
+ #: oggdec/oggdec.c:64
+ #, c-format
+ msgid " --bits, -b       Bit depth for output (8 and 16 supported)\n"
+-msgstr " --bits, -b       Bitdjup för utdata (8 och 16 stödjs)\n"
++msgstr " --bits, -b       Bitdjup för utdata (8 och 16 kan användas)\n"
+ 
+ #: oggdec/oggdec.c:65
+ #, c-format
+@@ -852,8 +853,8 @@
+ " --endianness, -e Output endianness for 16-bit output; 0 for\n"
+ "                  little endian (default), 1 for big endian.\n"
+ msgstr ""
+-" --endianness, -e Byteordning i utdata 16-bitars utdata; 0 för\n"
+-"                  omvänd byteordning (standard), 1 för rak byteordning\n"
++" --endianness, -e Byteordning för 16-bitars utdata; 0 för\n"
++"                  little endian (standard), 1 för big endian.\n"
+ 
+ #: oggdec/oggdec.c:67
+ #, c-format
+@@ -861,13 +862,13 @@
+ " --sign, -s       Sign for output PCM; 0 for unsigned, 1 for\n"
+ "                  signed (default 1).\n"
+ msgstr ""
+-" --sign, -s       Tecken för PCM-utdata; 0 för teckenlöst, 1 för\n"
++" --sign, -s       Tecken för PCM-utdata; 0 för utan tecken, 1 för\n"
+ "                  med tecken (standard 1).\n"
+ 
+ #: oggdec/oggdec.c:69
+ #, c-format
+ msgid " --raw, -R        Raw (headerless) output.\n"
+-msgstr " --raw, -R        Rå (utan huvud) utdata.\n"
++msgstr " --raw, -R        Rå utdata utan huvud.\n"
+ 
+ #: oggdec/oggdec.c:70
+ #, c-format
+@@ -876,8 +877,8 @@
+ "                  if there is only one input file, except in\n"
+ "                  raw mode.\n"
+ msgstr ""
+-" --output, -o     Utdata till angivet filnamn.  Kan bara användas\n"
+-"                  om det bara är en indatafil, utom i rått läge.\n"
++" --output, -o     Skriv till angivet filnamn. Kan endast användas\n"
++"                  med en indatafil, utom i rått läge.\n"
+ 
+ #: oggdec/oggdec.c:116
+ #, c-format
+@@ -887,22 +888,22 @@
+ #: oggdec/oggdec.c:157 oggdec/oggdec.c:176
+ #, c-format
+ msgid "ERROR: Failed to write Wave header: %s\n"
+-msgstr "FEL: Misslyckades att skriva Wave-huvud: %s\n"
++msgstr "FEL: Misslyckades med att skriva Wave-huvudet: %s\n"
+ 
+ #: oggdec/oggdec.c:197
+ #, c-format
+ msgid "ERROR: Failed to open input file: %s\n"
+-msgstr "FEL: Misslyckades att öppna infilen: %s\n"
++msgstr "FEL: Misslyckades med att öppna indatafilen: %s\n"
+ 
+ #: oggdec/oggdec.c:219
+ #, c-format
+ msgid "ERROR: Failed to open output file: %s\n"
+-msgstr "FEL: Misslyckades att öppna utfilen: %s\n"
++msgstr "FEL: Misslyckades med att öppna utdatafilen: %s\n"
+ 
+ #: oggdec/oggdec.c:268
+ #, c-format
+ msgid "ERROR: Failed to open input as Vorbis\n"
+-msgstr "FEL: Misslyckades att öppna indata som Vorbis\n"
++msgstr "FEL: Misslyckades med att öppna indata som Vorbis\n"
+ 
+ #: oggdec/oggdec.c:294
+ #, c-format
+@@ -922,7 +923,7 @@
+ #: oggdec/oggdec.c:310
+ #, c-format
+ msgid "Logical bitstreams with changing parameters are not supported\n"
+-msgstr "Logiska bitströmmar med parametrar som ändras stödjs inte\n"
++msgstr "Logiska bitströmmar med ändrade parametrar stöds inte\n"
+ 
+ #: oggdec/oggdec.c:317
+ #, c-format
+@@ -932,17 +933,17 @@
+ #: oggdec/oggdec.c:339
+ #, c-format
+ msgid "Error writing to file: %s\n"
+-msgstr "Fel när fil skrevs: %s\n"
++msgstr "Fel vid skrivning till filen: %s\n"
+ 
+ #: oggdec/oggdec.c:384
+ #, c-format
+ msgid "ERROR: No input files specified. Use -h for help\n"
+-msgstr "FEL: Inga infiler angivna.  Använd -h för hjälp\n"
++msgstr "FEL: Inga indatafiler angavs. Använd -h för hjälp\n"
+ 
+ #: oggdec/oggdec.c:389
+ #, c-format
+ msgid "ERROR: Can only specify one input file if output filename is specified\n"
+-msgstr "FEL: Man kan bara ange en infil om utfilnamn anges\n"
++msgstr "FEL: Endast en indatafil kan anges när utdatafilnamn anges\n"
+ 
+ #: oggenc/audio.c:47
+ msgid "WAV file reader"
+@@ -963,42 +964,42 @@
+ #: oggenc/audio.c:129 oggenc/audio.c:457
+ #, c-format
+ msgid "Warning: Unexpected EOF in reading WAV header\n"
+-msgstr "Varning: Oväntad EOF under läsning av WAV-huvud\n"
++msgstr "Varning: Oväntat filslut vid läsning av WAV-huvudet\n"
+ 
+ #: oggenc/audio.c:140
+ #, c-format
+ msgid "Skipping chunk of type \"%s\", length %d\n"
+-msgstr "Hoppar över bit av typ ”%s”, längd %d\n"
++msgstr "Hoppar över block av typen ”%s”, längd %d\n"
+ 
+ #: oggenc/audio.c:166
+ #, c-format
+ msgid "Warning: Unexpected EOF in AIFF chunk\n"
+-msgstr "Varning: Oväntad EOF i AIFF-block\n"
++msgstr "Varning: Oväntat filslut i AIFF-blocket\n"
+ 
+ #: oggenc/audio.c:264
+ #, c-format
+ msgid "Warning: No common chunk found in AIFF file\n"
+-msgstr "Varning: Inget gemensamt block i AIFF-fil\n"
++msgstr "Varning: Inget gemensamt block hittades i AIFF-filen\n"
+ 
+ #: oggenc/audio.c:270
+ #, c-format
+ msgid "Warning: Truncated common chunk in AIFF header\n"
+-msgstr "Varning: Avhugget gemensamt block i AIFF-huvud\n"
++msgstr "Varning: Det gemensamma blocket i AIFF-huvudet är avkortat\n"
+ 
+ #: oggenc/audio.c:278
+ #, c-format
+ msgid "Warning: Unexpected EOF in reading AIFF header\n"
+-msgstr "Varning: Oväntad EOF under läsning av AIFF-huvud\n"
++msgstr "Varning: Oväntat filslut vid läsning av AIFF-huvudet\n"
+ 
+ #: oggenc/audio.c:289
+ #, c-format
+ msgid "Warning: Unsupported count of channels in AIFF header\n"
+-msgstr "Varning: Ej stött antal kanaler i AIFF-huvud\n"
++msgstr "Varning: Antalet kanaler i AIFF-huvudet stöds inte\n"
+ 
+ #: oggenc/audio.c:298
+ #, c-format
+ msgid "Warning: AIFF-C header truncated.\n"
+-msgstr "Varning: AIFF-C-huvud avhugget.\n"
++msgstr "Varning: AIFF-C-huvudet är avkortat.\n"
+ 
+ #: oggenc/audio.c:312
+ #, c-format
+@@ -1008,17 +1009,17 @@
+ #: oggenc/audio.c:319
+ #, c-format
+ msgid "Warning: No SSND chunk found in AIFF file\n"
+-msgstr "Varning: Hittar inget SSND-block i AIFF-fil\n"
++msgstr "Varning: Hittar inget SSND-block i AIFF-filen\n"
+ 
+ #: oggenc/audio.c:325
+ #, c-format
+ msgid "Warning: Corrupted SSND chunk in AIFF header\n"
+-msgstr "Varning: Felaktigt SSND-block i AIFF-huvud\n"
++msgstr "Varning: SSND-blocket i AIFF-huvudet är skadat\n"
+ 
+ #: oggenc/audio.c:331
+ #, c-format
+ msgid "Warning: Unexpected EOF reading AIFF header\n"
+-msgstr "Varning: Oväntad EOF under läsning av AIFF-huvud\n"
++msgstr "Varning: Oväntat filslut vid läsning av AIFF-huvudet\n"
+ 
+ #: oggenc/audio.c:381
+ #, c-format
+@@ -1026,13 +1027,13 @@
+ "Warning: OggEnc does not support this type of AIFF/AIFC file\n"
+ " Must be 8 or 16 bit PCM.\n"
+ msgstr ""
+-"Varning: OggEnc stödjer inte denna typ av AIFF/AIFC-fil.\n"
+-"Måste vara 8 eller 16 bitars PCM.\n"
++"Varning: OggEnc stöder inte denna typ av AIFF/AIFC-fil.\n"
++"Måste vara 8- eller 16-bitars PCM.\n"
+ 
+ #: oggenc/audio.c:437
+ #, c-format
+ msgid "Warning: Unrecognised format chunk in WAV header\n"
+-msgstr "Varning: okänt format på block i Wav-huvud\n"
++msgstr "Varning: Okänt formatblock i WAV-huvudet\n"
+ 
+ #: oggenc/audio.c:450
+ #, c-format
+@@ -1040,13 +1041,13 @@
+ "Warning: INVALID format chunk in wav header.\n"
+ " Trying to read anyway (may not work)...\n"
+ msgstr ""
+-"Varning: OGILTIGT format på block i wav-huvud.\n"
+-" Försöker läsa i alla fall (kanske inte fungerar)...\n"
++"Varning: OGILTIGT formatblock i WAV-huvudet.\n"
++"Försöker läsa ändå (det kanske inte fungerar) …\n"
+ 
+ #: oggenc/audio.c:470
+ #, c-format
+ msgid "Warning: Unsupported count of channels in WAV header\n"
+-msgstr "Varning: Ej stött antal kanaler i WAV-huvud\n"
++msgstr "Varning: Antalet kanaler i WAV-huvudet stöds inte\n"
+ 
+ #: oggenc/audio.c:535
+ #, c-format
+@@ -1054,8 +1055,8 @@
+ "ERROR: Wav file is unsupported type (must be standard PCM\n"
+ " or type 3 floating point PCM\n"
+ msgstr ""
+-"FEL: Wav-fil har ej stödd typ (måste vara standard PCM\n"
+-" eller typ 3 flyttals-PCM\n"
++"FEL: WAV-filen har en typ som inte stöds (måste vara standard-PCM\n"
++"eller flyttals-PCM av typ 3\n"
+ 
+ #: oggenc/audio.c:544
+ #, c-format
+@@ -1063,8 +1064,8 @@
+ "Warning: WAV 'block alignment' value is incorrect, ignoring.\n"
+ "The software that created this file is incorrect.\n"
+ msgstr ""
+-"Varning: WAV:s ”block alignment”-värde är felaktigt, ignoreras.\n"
+-"Programmet som skapade denna fil är felaktigt.\n"
++"Varning: WAV:s värde för ”block alignment” är felaktigt och ignoreras.\n"
++"Programmet som skapade filen är felaktigt.\n"
+ 
+ #: oggenc/audio.c:613
+ #, c-format
+@@ -1072,25 +1073,25 @@
+ "ERROR: Wav file is unsupported subformat (must be 8,16, or 24 bit PCM\n"
+ "or floating point PCM\n"
+ msgstr ""
+-"FEL: Wav-filen har ej stött underformat (måste vara 8-, 16- eller 24-bitars PCM\n"
++"FEL: WAV-filen har ett underformat som inte stöds (måste vara 8-, 16- eller 24-bitars PCM\n"
+ "eller flyttals-PCM\n"
+ 
+ #: oggenc/audio.c:689
+ #, c-format
+ msgid "Big endian 24 bit PCM data is not currently supported, aborting.\n"
+-msgstr "24-bitars PCM-data med rak byteordning stödjs inte för närvarande, avbryter.\n"
++msgstr "24-bitars PCM-data med big endian-byteordning stöds inte för närvarande; avbryter.\n"
+ 
+ #: oggenc/audio.c:695
+ #, c-format
+ msgid "Internal error: attempt to read unsupported bitdepth %d\n"
+-msgstr "Internt fel: försök att läsa bitdjup %d som inte stödjs\n"
++msgstr "Internt fel: försök att läsa ett bitdjup som inte stöds: %d\n"
+ 
+ #: oggenc/audio.c:797
+ #, c-format
+ msgid "BUG: Got zero samples from resampler: your file will be truncated. Please report this.\n"
+ msgstr ""
+-"FEL: Fick noll sampel från omsamplaren: din fil kommer huggas av.  Rapportera\n"
+-"gärna detta.\n"
++"BUGG: Fick noll samplingsvärden från omsamplaren: filen kommer att avkortas. Rapportera"
++" detta.\n"
+ 
+ #: oggenc/audio.c:815
+ #, c-format
+@@ -1100,118 +1101,118 @@
+ #: oggenc/encode.c:70
+ #, c-format
+ msgid "Setting advanced encoder option \"%s\" to %s\n"
+-msgstr "Ställer in den avancerade kodningsflaggan ”%s” till %s\n"
++msgstr "Ställer in det avancerade kodningsalternativet ”%s” till %s\n"
+ 
+ #: oggenc/encode.c:73
+ #, c-format
+ msgid "Setting advanced encoder option \"%s\"\n"
+-msgstr "Ställer in den avancerade kodningsflaggan ”%s”\n"
++msgstr "Ställer in det avancerade kodningsalternativet ”%s”\n"
+ 
+ #: oggenc/encode.c:114
+ #, c-format
+ msgid "Changed lowpass frequency from %f kHz to %f kHz\n"
+-msgstr "Ändrad lågpassfrekvens från %f kHz till %f kHz\n"
++msgstr "Ändrade lågpassfrekvensen från %f kHz till %f kHz\n"
+ 
+ #: oggenc/encode.c:117
+ #, c-format
+ msgid "Unrecognised advanced option \"%s\"\n"
+-msgstr "Okänd avancerad flagga ”%s”\n"
++msgstr "Okänt avancerat kodningsalternativ ”%s”\n"
+ 
+ #: oggenc/encode.c:124
+ #, c-format
+ msgid "Failed to set advanced rate management parameters\n"
+-msgstr "Misslyckades att ställa in avancerade parametrar för hastighetshantering\n"
++msgstr "Misslyckades med att ställa in avancerade parametrar för bithastighetshantering\n"
+ 
+ #: oggenc/encode.c:128 oggenc/encode.c:316
+ #, c-format
+ msgid "This version of libvorbisenc cannot set advanced rate management parameters\n"
+-msgstr "Denna version av libvorbisenc kan inte ställa in avancerade parametrar för hastighetshantering\n"
++msgstr "Den här versionen av libvorbisenc kan inte ställa in avancerade parametrar för bithastighetshantering\n"
+ 
+ #: oggenc/encode.c:202
+ #, c-format
+ msgid "WARNING: failed to add Kate karaoke style\n"
+-msgstr "VARNING: misslyckades att lägga till karaokestilen Kate\n"
++msgstr "VARNING: Kunde inte lägga till Kate-karaokestil\n"
+ 
+ #: oggenc/encode.c:238
+ #, c-format
+ msgid "255 channels should be enough for anyone. (Sorry, but Vorbis doesn't support more)\n"
+-msgstr "255 kanaler bör vara tillräckligt för vem som helst.  (Ledsen, men Vorbis stödjer inte fler)\n"
++msgstr "255 kanaler bör räcka för vem som helst. (Tyvärr stöder Vorbis inte fler)\n"
+ 
+ #: oggenc/encode.c:246
+ #, c-format
+ msgid "Requesting a minimum or maximum bitrate requires --managed\n"
+-msgstr "Att begära en minsta och högsta bithastighet kräver --managed\n"
++msgstr "Begäran om minsta eller högsta bithastighet kräver --managed\n"
+ 
+ #: oggenc/encode.c:264
+ #, c-format
+ msgid "Mode initialisation failed: invalid parameters for quality\n"
+-msgstr "Lägesinitieringen misslyckades: ogiltiga kvalitetsparametrar\n"
++msgstr "Lägesinitieringen misslyckades: ogiltiga parametrar för kvalitet\n"
+ 
+ #: oggenc/encode.c:309
+ #, c-format
+ msgid "Set optional hard quality restrictions\n"
+-msgstr "Sätt frivilliga hårda kvalitetsbegränsningar\n"
++msgstr "Ställ in valfria hårda kvalitetsbegränsningar\n"
+ 
+ #: oggenc/encode.c:311
+ #, c-format
+ msgid "Failed to set bitrate min/max in quality mode\n"
+-msgstr "Misslyckades att sätta min/max bithastighet i kvalitetsläge\n"
++msgstr "Misslyckades med att ställa in lägsta/högsta bithastighet i kvalitetsläge\n"
+ 
+ #: oggenc/encode.c:327
+ #, c-format
+ msgid "Mode initialisation failed: invalid parameters for bitrate\n"
+-msgstr "Lägesinitieringen misslyckades: ogiltiga bithastighetsparametrar\n"
++msgstr "Lägesinitieringen misslyckades: ogiltiga parametrar för bithastighet\n"
+ 
+ #: oggenc/encode.c:374
+ #, c-format
+ msgid "WARNING: no language specified for %s\n"
+-msgstr "VARNING: inget språk angivet för %s\n"
++msgstr "VARNING: Inget språk angavs för %s\n"
+ 
+ #: oggenc/encode.c:396
+ msgid "Failed writing fishead packet to output stream\n"
+-msgstr "Misslyckades att skriva fishead-paket till utströmmen\n"
++msgstr "Misslyckades med att skriva fishead-paketet till utdataströmmen\n"
+ 
+ #: oggenc/encode.c:422 oggenc/encode.c:443 oggenc/encode.c:479
+ #: oggenc/encode.c:499
+ msgid "Failed writing header to output stream\n"
+-msgstr "Misslyckades att skriva huvud till utströmmen\n"
++msgstr "Misslyckades med att skriva huvudet till utdataströmmen\n"
+ 
+ #: oggenc/encode.c:433
+ msgid "Failed encoding Kate header\n"
+-msgstr "Misslyckades att koda ett Kate-huvud\n"
++msgstr "Misslyckades med att koda Kate-huvudet\n"
+ 
+ #: oggenc/encode.c:455 oggenc/encode.c:462
+ msgid "Failed writing fisbone header packet to output stream\n"
+-msgstr "Misslyckades att skriva fisbone-huvudpaket till utströmmen\n"
++msgstr "Misslyckades med att skriva fisbone-huvudpaketet till utdataströmmen\n"
+ 
+ #: oggenc/encode.c:510
+ msgid "Failed writing skeleton eos packet to output stream\n"
+-msgstr "Misslyckades att skriva skelett-eos-paket till utströmmen\n"
++msgstr "Misslyckades med att skriva skeleton-EOS-paketet till utdataströmmen\n"
+ 
+ #: oggenc/encode.c:581 oggenc/encode.c:585
+ msgid "Failed encoding karaoke style - continuing anyway\n"
+-msgstr "Misslyckades att koda karaokestil — fortsätter ändå\n"
++msgstr "Misslyckades med att koda karaokestilen, fortsätter ändå\n"
+ 
+ #: oggenc/encode.c:589
+ msgid "Failed encoding karaoke motion - continuing anyway\n"
+-msgstr "Misslyckades att koda karaokerörelse — fortsätter ändå\n"
++msgstr "Misslyckades med att koda karaokerörelsen, fortsätter ändå\n"
+ 
+ #: oggenc/encode.c:594
+ msgid "Failed encoding lyrics - continuing anyway\n"
+-msgstr "Misslyckades att koda texten — fortsätter ändå\n"
++msgstr "Misslyckades med att koda sångtexten, fortsätter ändå\n"
+ 
+ #: oggenc/encode.c:606 oggenc/encode.c:621 oggenc/encode.c:657
+ msgid "Failed writing data to output stream\n"
+-msgstr "Misslyckades att skriva data till utströmmen\n"
++msgstr "Misslyckades med att skriva data till utdataströmmen\n"
+ 
+ #: oggenc/encode.c:641
+ msgid "Failed encoding Kate EOS packet\n"
+-msgstr "Misslyckades att koda Kate-EOS-paket\n"
++msgstr "Misslyckades med att koda Kate-EOS-paketet\n"
+ 
+ #: oggenc/encode.c:716
+ #, c-format
+ msgid "\t[%5.1f%%] [%2dm%.2ds remaining] %c "
+-msgstr "\t[%5.1f %%] [%2d m %.2d s återstår] %c "
++msgstr "\t[%5.1f%%] [%2dm%.2ds återstår] %c "
+ 
+ #: oggenc/encode.c:726
+ #, c-format
+@@ -1238,7 +1239,7 @@
+ msgstr ""
+ "\n"
+ "\n"
+-"Kodning klar.\n"
++"Kodningen är klar.\n"
+ 
+ #: oggenc/encode.c:750
+ #, c-format
+@@ -1252,7 +1253,7 @@
+ #: oggenc/encode.c:754
+ #, c-format
+ msgid "\tElapsed time: %dm %04.1fs\n"
+-msgstr "\tFörlupen tid: %dm %04.1fs\n"
++msgstr "\tFörfluten tid: %dm %04.1fs\n"
+ 
+ #: oggenc/encode.c:757
+ #, c-format
+@@ -1319,7 +1320,7 @@
+ msgstr ""
+ "Kodar %s%s%s till \n"
+ "      %s%s%s \n"
+-"med kvalitetsnivå %2.2f med användning av begränsad VBR "
++"med kvalitetsnivå %2.2f med begränsad VBR "
+ 
+ #: oggenc/encode.c:818
+ #, c-format
+@@ -1351,12 +1352,12 @@
+ #: oggenc/lyrics.c:73 vcut/vcut.c:53
+ #, c-format
+ msgid "Out of memory\n"
+-msgstr "Slut på minne\n"
++msgstr "Minnet är slut\n"
+ 
+ #: oggenc/lyrics.c:79
+ #, c-format
+ msgid "WARNING: subtitle %s is not valid UTF-8\n"
+-msgstr "VARNING: undertitel %s är inte giltig UTF-8\n"
++msgstr "VARNING: undertexten %s är inte giltig UTF-8\n"
+ 
+ #: oggenc/lyrics.c:141 oggenc/lyrics.c:157 oggenc/lyrics.c:337
+ #: oggenc/lyrics.c:353
+@@ -1367,7 +1368,7 @@
+ #: oggenc/lyrics.c:146
+ #, c-format
+ msgid "WARNING - line %u: non consecutive ids: %s - pretending not to have noticed\n"
+-msgstr "VARNING — rad %u: ej id i följd: %s — låtsas att inte ha upptäckt det\n"
++msgstr "VARNING — rad %u: ID:n följer inte på varandra: %s — låtsas att inte ha upptäckt det\n"
+ 
+ #: oggenc/lyrics.c:162
+ #, c-format
+@@ -1377,12 +1378,12 @@
+ #: oggenc/lyrics.c:184
+ #, c-format
+ msgid "WARNING - line %u: text is too long - truncated\n"
+-msgstr "VARNING — rad %u: texten är för lång — huggs av\n"
++msgstr "VARNING — rad %u: texten är för lång — texten har avkortats\n"
+ 
+ #: oggenc/lyrics.c:197
+ #, c-format
+ msgid "WARNING - line %u: missing data - truncated file?\n"
+-msgstr "VARNING — rad %u: saknade data — avhuggen fil?\n"
++msgstr "VARNING — rad %u: data saknas — avkortad fil?\n"
+ 
+ #: oggenc/lyrics.c:210
+ #, c-format
+@@ -1402,12 +1403,12 @@
+ #: oggenc/lyrics.c:288
+ #, c-format
+ msgid "WARNING: failed to allocate memory - enhanced LRC tag will be ignored\n"
+-msgstr "VARNING: misslyckades att allokera minne — utökad LRC-tagg kommer ignoreras\n"
++msgstr "VARNING: Misslyckades med att allokera minne — den utökade LRC-taggen kommer att ignoreras\n"
+ 
+ #: oggenc/lyrics.c:419
+ #, c-format
+ msgid "ERROR: No lyrics filename to load from\n"
+-msgstr "FEL: Inget textfilnamn att läsa ifrån\n"
++msgstr "FEL: Det finns inget filnamn för sångtext att läsa från\n"
+ 
+ #: oggenc/lyrics.c:425
+ #, c-format
+@@ -1417,7 +1418,7 @@
+ #: oggenc/lyrics.c:444
+ #, c-format
+ msgid "ERROR: Failed to load %s - can't determine format\n"
+-msgstr "FEL: Misslyckades att läsa %s — kan inte avgöra formatet\n"
++msgstr "FEL: Misslyckades med att läsa in %s — kan inte fastställa formatet\n"
+ 
+ #: oggenc/oggenc.c:113
+ msgid "RAW file reader"
+@@ -1426,27 +1427,27 @@
+ #: oggenc/oggenc.c:131
+ #, c-format
+ msgid "ERROR: No input files specified. Use -h for help.\n"
+-msgstr "FEL: Inga infiler angivna.  Använd -h för hjälp.\n"
++msgstr "FEL: Inga indatafiler angavs. Använd -h för hjälp.\n"
+ 
+ #: oggenc/oggenc.c:146
+ #, c-format
+ msgid "ERROR: Multiple files specified when using stdin\n"
+-msgstr "FEL: Flera filer angivna med stdin\n"
++msgstr "FEL: Flera filer angavs med standard in\n"
+ 
+ #: oggenc/oggenc.c:153
+ #, c-format
+ msgid "ERROR: Multiple input files with specified output filename: suggest using -n\n"
+-msgstr "FEL: Flera infiler med angivet utfilnamn: rekommenderar att använda -n\n"
++msgstr "FEL: Flera indatafiler angavs med ett angivet utdatafilnamn: använd -n\n"
+ 
+ #: oggenc/oggenc.c:217
+ #, c-format
+ msgid "WARNING: Insufficient lyrics languages specified, defaulting to final lyrics language.\n"
+-msgstr "VARNING: Otillräckligt textspråk angivet, faller tillbaka på sista textspråket.\n"
++msgstr "VARNING: För få språk för sångtext angavs, använder språket för den sista sångtexten.\n"
+ 
+ #: oggenc/oggenc.c:241
+ #, c-format
+ msgid "ERROR: Cannot open input file \"%s\": %s\n"
+-msgstr "FEL: Kan inte öppna infil ”%s”: %s\n"
++msgstr "FEL: Kan inte öppna indatafilen ”%s”: %s\n"
+ 
+ #: oggenc/oggenc.c:272
+ #, c-format
+@@ -1456,32 +1457,32 @@
+ #: oggenc/oggenc.c:281
+ #, c-format
+ msgid "ERROR: Input file \"%s\" is not a supported format\n"
+-msgstr "FEL: Infil ”%s” är inte i ett känt format\n"
++msgstr "FEL: Indatafilen ”%s” har inte ett format som stöds\n"
+ 
+ #: oggenc/oggenc.c:291
+ #, c-format
+ msgid "ERROR: Input file \"%s\" has invalid sampling rate\n"
+-msgstr "FEL: Infilen ”%s” har felaktig samplingshastighet\n"
++msgstr "FEL: Indatafilen ”%s” har en ogiltig samplingsfrekvens\n"
+ 
+ #: oggenc/oggenc.c:351
+ #, c-format
+ msgid "WARNING: No filename, defaulting to \"%s\"\n"
+-msgstr "VARNING: Inget filnamn, använder standardnamnet ”%s”\n"
++msgstr "VARNING: Inget filnamn angavs, använder ”%s” som standard\n"
+ 
+ #: oggenc/oggenc.c:358
+ #, c-format
+ msgid "ERROR: Could not create required subdirectories for output filename \"%s\"\n"
+-msgstr "FEL: Kunde inte skapa kataloger nödvändiga för utfil ”%s”\n"
++msgstr "FEL: Kunde inte skapa de underkataloger som krävs för utdatafilnamnet ”%s”\n"
+ 
+ #: oggenc/oggenc.c:366
+ #, c-format
+ msgid "ERROR: Input filename is the same as output filename \"%s\"\n"
+-msgstr "FEL: Infilnamnet är samma som utfilnamnet ”%s”\n"
++msgstr "FEL: Indatafilnamnet är samma som utdatafilnamnet ”%s”\n"
+ 
+ #: oggenc/oggenc.c:378
+ #, c-format
+ msgid "ERROR: Cannot open output file \"%s\": %s\n"
+-msgstr "FEL: Kan inte öppna utfil ”%s”: %s\n"
++msgstr "FEL: Kan inte öppna utdatafilen ”%s”: %s\n"
+ 
+ #: oggenc/oggenc.c:434
+ #, c-format
+@@ -1537,9 +1538,9 @@
+ msgstr ""
+ "FLAGGOR:\n"
+ " Allmänt:\n"
+-" -Q, --quiet          Producera ingen utdata till standard fel\n"
+-" -h, --help           Skriv denna hjälptext\n"
+-" -V, --version        Skriv versionsnumret\n"
++" -Q, --quiet          Skapa ingen utdata på standard fel\n"
++" -h, --help           Skriv ut den här hjälptexten\n"
++" -V, --version        Skriv ut versionsnumret\n"
+ 
+ #: oggenc/oggenc.c:519
+ #, c-format
+@@ -1552,11 +1553,11 @@
+ " --raw-endianness     1 for bigendian, 0 for little (defaults to 0)\n"
+ msgstr ""
+ " -k, --skeleton       Lägger till en Ogg Skeleton-bitström\n"
+-" -r, --raw            Rått läge.  Indatafiler läses direkt som PCM-data\n"
+-" -B, --raw-bits=n     Sätter bitar/sampel för rå indata; standard är 16\n"
+-" -C, --raw-chan=n     Sätter antal kanaler för rå indata; standard är 2\n"
+-" -R, --raw-rate=n     Sätter sampel/s för rå indata; standard är 44100\n"
+-" --raw-endianness     1 för rak byteordning, 0 för omvänd (standard är 0)\n"
++" -r, --raw            Råläge. Indatafiler läses direkt som PCM-data\n"
++" -B, --raw-bits=n     Anger bitar per sampel för rå indata; standardvärdet är 16\n"
++" -C, --raw-chan=n     Anger antalet kanaler för rå indata; standardvärdet är 2\n"
++" -R, --raw-rate=n     Anger sampel per sekund för rå indata; standardvärdet är 44100\n"
++" --raw-endianness     1 för big endian, 0 för little endian (standardvärdet är 0)\n"
+ 
+ #: oggenc/oggenc.c:526
+ #, c-format
+@@ -1568,12 +1569,12 @@
+ "                      See the --managed option to use a managed bitrate\n"
+ "                      targetting the selected bitrate.\n"
+ msgstr ""
+-" -b, --bitrate        Välj en nominell bithastighet att koda i.  Försök\n"
+-"                      att koda med en bithastighet som har detta som\n"
+-"                      genomsnitt.  Tar ett argument i kb/s.  Som standard\n"
+-"                      producerar detta en VBR-kodning, ekvivalent med att\n"
+-"                      välja -q eller --quality.  Se flaggan --managed för\n"
+-"                      att använda en styrd bithastighet med den valda\n"
++" -b, --bitrate        Välj en nominell bithastighet för kodning. Försök\n"
++"                      att koda med en bithastighet som i genomsnitt motsvarar\n"
++"                      denna. Tar ett argument i kb/s. Som standard\n"
++"                      skapar detta en VBR-kodning, vilket motsvarar att\n"
++"                      använda -q eller --quality. Se flaggan --managed för\n"
++"                      att använda styrd bithastighet med den valda\n"
+ "                      bithastigheten som mål.\n"
+ 
+ #: oggenc/oggenc.c:533
+@@ -1585,12 +1586,12 @@
+ "                      you have a strong need for detailed control over\n"
+ "                      bitrate, such as for streaming.\n"
+ msgstr ""
+-" --managed            Aktivera styrmotorn för bithastigheten.  Detta kommer\n"
+-"                      ge mycket större kontroll över den precisa bithastigheten\n"
+-"                      som används, men kodningen kommer bli mycket långsammare.\n"
+-"                      Använd det inte om du inte har ett stort behov av\n"
+-"                      detaljerad kontroll av bithastigheten, såsom för\n"
+-"                      strömning.\n"
++" --managed            Aktivera bithastighetshanteraren. Detta ger\n"
++"                      mycket större kontroll över de exakta bithastigheter\n"
++"                      som används, men kodningen blir mycket långsammare.\n"
++"                      Använd den inte om du inte har ett starkt behov av\n"
++"                      detaljerad kontroll över bithastigheten, till exempel\n"
++"                      för strömning.\n"
+ 
+ #: oggenc/oggenc.c:539
+ #, c-format
+@@ -1603,14 +1604,14 @@
+ "                      streaming applications. Using this will automatically\n"
+ "                      enable managed bitrate mode (see --managed).\n"
+ msgstr ""
+-" -m, --min-bitrate    Ange en minsta bithastighet (i kb/s).  Användbart\n"
+-"                      för kodning för en kanal med fast storlek.  Att\n"
+-"                      använda detta kommer automatiskt aktivera läget för\n"
+-"                      styrd bithastighet (se --managed).\n"
+-" -M, --max-bitrate    Ange en högsta bithastighet i kb/s.  Användbart för\n"
+-"                      strömningstillämpningar.  Att använda detta kommer\n"
+-"                      automatiskt aktivera läget för styrd bithastighet\n"
++" -m, --min-bitrate    Ange en lägsta bithastighet (i kb/s). Användbart\n"
++"                      vid kodning för en kanal med fast kapacitet. Detta\n"
++"                      aktiverar automatiskt läget för styrd bithastighet\n"
+ "                      (se --managed).\n"
++" -M, --max-bitrate    Ange en högsta bithastighet i kb/s. Användbart för\n"
++"                      strömmande program. Detta aktiverar automatiskt\n"
++"                      läget för styrd bithastighet"
++" (se --managed).\n"
+ 
+ #: oggenc/oggenc.c:547
+ #, c-format
+@@ -1622,12 +1623,13 @@
+ "                      for advanced users only, and should be used with\n"
+ "                      caution.\n"
+ msgstr ""
+-" --advanced-encode-option flagga=värde\n"
+-"                      Sätter en avancerad kodarflagga till det angivna värdet.\n"
+-"                      De giltiga flaggorna (och deras värden) är dokumenterade\n"
+-"                      i manualsidan som kommer med detta program.  De är\n"
+-"                      endast för avancerade användare, och skall användas med\n"
+-"                      försiktighet.\n"
++" --advanced-encode-option alternativ=värde\n"
++"                      Anger ett avancerat kodningsalternativ med angivet\n"
++"                      värde. Giltiga alternativ (och deras värden)\n"
++"                      dokumenteras i manualsidan som följer med programmet.\n"
++"                      De är"
++" endast för avancerade användare och bör användas\n"
++"                      med försiktighet.\n"
+ 
+ #: oggenc/oggenc.c:554
+ #, c-format
+@@ -1638,11 +1640,11 @@
+ "                      Fractional qualities (e.g. 2.75) are permitted\n"
+ "                      The default quality level is 3.\n"
+ msgstr ""
+-" -q, --quality        Ange kvalitet, mellan -1 (väldigt låg) och 10 (väldigt\n"
+-"                      hög), istället för att ange en viss bithastighet.\n"
+-"                      Detta är det normala användningsläget.  Kvalitet med\n"
+-"                      decimaldelar (t.ex. 2.75) är tillåtna.\n"
+-"                      Standardnivån på kvaliteten är 3.\n"
++" -q, --quality        Ange kvalitet mellan -1 (mycket låg) och 10 (mycket\n"
++"                      hög) i stället för en viss bithastighet. Detta är\n"
++"                      det normala driftläget. Kvalitetsvärden med\n"
++"                      decimaldelar (t.ex. 2.75) tillåts.\n"
++"                      Standardkvalitetsnivån är 3.\n"
+ 
+ #: oggenc/oggenc.c:560
+ #, c-format
+@@ -1654,11 +1656,11 @@
+ "                      multiple files, this will be incremented for each\n"
+ "                      stream after the first.\n"
+ msgstr ""
+-" --resample n         Sampla om indata till samplingshastighet n (Hz)\n"
+-" --downmix            Mixa ner stereo till mono.  Endast möjlig vid\n"
++" --resample n         Sampla om indata till samplingsfrekvens n (Hz)\n"
++" --downmix            Mixa ner stereo till mono. Endast möjligt för\n"
+ "                      stereoindata.\n"
+-" -s, --serial         Ange ett serienummer för strömmen.  Om flera filer\n"
+-"                      kodas kommer detta ökas för varje ström efter den\n"
++" -s, --serial         Ange ett serienummer för strömmen. Om flera filer\n"
++"                      kodas ökas detta för varje ström efter den\n"
+ "                      första.\n"
+ 
+ #: oggenc/oggenc.c:567
+@@ -1671,9 +1673,10 @@
+ "\n"
+ msgstr ""
+ " --discard-comments   Hindrar kommentarer i FLAC- och Ogg FLAC-filer från\n"
+-"                      att kopieras till Ogg Vorbis-filen med utdata.\n"
+-" --ignorelength       Bortse från datalängden i Wave-huvuden.  Detta gör stöd\n"
+-"                      för filer > 4GB och STANDARD IN dataströmmar-möjligt.\n"
++"                      att kopieras till Ogg Vorbis-utdatafilen.\n"
++" --ignorelength       Bortse från datalängden i Wave-huvuden. Detta\n"
++"                      möjliggör stöd för filer större än 4 GB och\n"
++"                      dataströmmar på standard in.\n"
+ "\n"
+ 
+ #: oggenc/oggenc.c:573
+@@ -1687,10 +1690,10 @@
+ "                      %%%% gives a literal %%.\n"
+ msgstr ""
+ " Namngivning:\n"
+-" -o, --output=fn      Skriv filen till fn (endast giltigt i enkelfilsläge)\n"
+-" -n, --names=sträng   Skapa filnamn som denna sträng, med %%a, %%t, %%l,\n"
+-"                      %%n, %%d ersatta med artist, titel, album, spårnummer\n"
+-"                      respektive datum (se nedan för att specificera dessa).\n"
++" -o, --output=filnamn Skriv filen till filnamn (endast giltigt i enkelfilsläge)\n"
++" -n, --names=sträng   Skapa filnamn enligt den här strängen, där %%a, %%t, %%l,\n"
++"                      %%n och %%d ersätts med artist, titel, album, spårnummer\n"
++"                      respektive datum (se nedan hur dessa anges).\n"
+ "                      %%%% ger ett bokstavligt %%.\n"
+ 
+ #: oggenc/oggenc.c:580
+@@ -1705,15 +1708,15 @@
+ "                      Default settings for the above two arguments are platform\n"
+ "                      specific.\n"
+ msgstr ""
+-" -X, --name-remove=s  Ta bort de angivna tecknen från parametrar till\n"
+-"                      formatsträngen -n.  Användbart för att få giltiga\n"
+-"                      filnamn.\n"
+-" -P, --name-replace=s Ersätt tecken borttagna av --name-remove med de\n"
+-"                      angivna tecknen.  Om denna sträng är kortare än\n"
+-"                      listan till --name-remove eller inte anges, tas de\n"
+-"                      extra tecknen bara bort.\n"
+-"                      Standardinställningen för de ovanstående två argumenten\n"
+-"                      är plattformsspecifik.\n"
++" -X, --name-remove=s  Ta bort de angivna tecknen från parametrarna till\n"
++"                      formatsträngen -n. Användbart för att säkerställa\n"
++"                      giltiga filnamn.\n"
++" -P, --name-replace=s Ersätt tecken som tagits bort av --name-remove med\n"
++"                      angivna tecken. Om den här strängen är kortare än\n"
++"                      listan för --name-remove eller inte anges, tas de\n"
++"                      återstående tecknen bara bort.\n"
++"                      Standardinställningarna för de två argumenten ovan\n"
++"                      är plattformsspecifika.\n"
+ 
+ #: oggenc/oggenc.c:589
+ #, c-format
+@@ -1726,14 +1729,14 @@
+ "                      format \"tag=value\".\n"
+ " -d, --date           Date for track (usually date of performance)\n"
+ msgstr ""
+-" --utf8               Säger till oggenc att kommandoradsparametrarna för\n"
+-"                      datum, titel, album, artist, genre och kommentar redan\n"
+-"                      är i UTF-8.  På Windows gäller denna flagga även\n"
+-"                      filnamn\n"
++" --utf8               Anger för oggenc att kommandoradsparametrarna datum,\n"
++"                      titel, album, artist, genre och kommentar redan\n"
++"                      är i UTF-8. På Windows gäller denna flagga även för\n"
++"                      filnamn.\n"
+ " -c, --comment=k      Lägg till den angivna strängen som en extra kommentar.\n"
+-"                      Detta kan användas flera gånger.  Argumentet skall ha\n"
+-"                      formen \"tagg=värde\".\n"
+-" -d, --date           Datum för spåret (vanligen datum för uppträdande)\n"
++"                      Detta kan användas flera gånger. Argumentet ska ha\n"
++"                      formen ”tagg=värde”.\n"
++" -d, --date           Datum för spåret (vanligen datumet för framförandet)\n"
+ 
+ #: oggenc/oggenc.c:597
+ #, c-format
+@@ -1756,9 +1759,9 @@
+ " -L, --lyrics         Include lyrics from given file (.srt or .lrc format)\n"
+ " -Y, --lyrics-language  Sets the language for the lyrics\n"
+ msgstr ""
+-" -L, --lyrics         Inkludera texten från den angivna filen\n"
+-"                      (format .srt eller .lrc)\n"
+-" -Y, --lyrics-language  Anger språket för texten\n"
++" -L, --lyrics         Inkludera sångtext från angiven fil\n"
++"                      (formatet .srt eller .lrc)\n"
++" -Y, --lyrics-language  Anger språket för sångtexten\n"
+ 
+ #: oggenc/oggenc.c:606
+ #, c-format
+@@ -1776,17 +1779,18 @@
+ "                      it used for all the files)\n"
+ "\n"
+ msgstr ""
+-"                      Om flera infiler anges kommer multipla instanser av de\n"
+-"                      åtta föregående argumenten användas, i den ordning de\n"
+-"                      angetts.  Om färre titlar anges än filer, kommer OggEnc\n"
+-"                      skriva en varning, och återanvända den sista av dem för\n"
+-"                      de återstående filerna.  Om färre spårnummer anges,\n"
+-"                      kommer de återstående filerna vara onumrerade.  Om färre\n"
+-"                      texter anges, kommer de återstående filerna inte ha\n"
+-"                      text tillagt.  För de andra kommer den sista taggen\n"
+-"                      återanvändas för alla andra utan varning (så att du kan\n"
+-"                      ange ett datum en gång, till exempel, och använda det\n"
+-"                      för alla filerna)\n"
++"                      Om flera indatafiler anges används flera instanser av\n"
++"                      de föregående åtta argumenten, i den ordning de\n"
++"                      anges. Om färre titlar än filer anges skriver OggEnc\n"
++"                      ut en varning och återanvänder den sista titeln för\n"
++"                      återstående filer. Om färre spårnummer anges"
++" blir"
++"\n"
++"                      återstående filer onumrerade. Om färre sångtexter\n"
++"                      anges läggs ingen sångtext till för återstående filer.\n"
++"                      För de andra återanvänds den sista taggen för alla\n"
++"                      andra utan varning (du kan alltså till exempel ange\n"
++"                      ett datum en gång och använda det för alla filer).\n"
+ "\n"
+ 
+ #: oggenc/oggenc.c:619
+@@ -1805,38 +1809,42 @@
+ " Lyrics files may be in SubRip (.srt) or LRC (.lrc) format\n"
+ "\n"
+ msgstr ""
+-"INFILER:\n"
+-" Infiler till OggEnc måste för närvarande vara 24-, 16- eller 8-bitars PCM\n"
+-" Wave-, AIFF- eller AIFF/C-filer, 32-bitars IEEE flyttals-Wave och eventuellt\n"
+-" FLAC eller Ogg FLAC.  Filer kan vara i mono eller stereo (eller fler kanaler)\n"
+-" och godtycklig samplingshastighet.  Alternativt kan flaggan --raw användas för\n"
+-" en rå PCM-datafil, som måste vara 16-bitars stereo PCM med omvänd byteordning\n"
+-" (”Wave utan huvud”), om inte ytterligare parametrar för rått läge anges.  Du\n"
+-" kan ange att filen skall tas från standard in genom att använda - som\n"
+-" infilnamn.  I detta läge skrivs utdata till standard ut om inte ett\n"
+-" utfilnamn anges med -o\n"
+-" Texter kan vara i formatet SubRip (.srt) eller LRC (.lrc).\n"
++"INDATAFILER:\n"
++" OggEncs indatafiler måste för närvarande vara 24-, 16- eller 8-bitars PCM\n"
++" Wave-, AIFF- eller AIFF/C-filer, 32-bitars IEEE-flyttals-Wave samt valfritt\n"
++" FLAC eller Ogg FLAC. Filer kan ha mono, stereo eller fler kanaler"
++" och valfri\n"
++" samplingsfrekvens. Alternativt kan flaggan --raw användas för"
++" en rå PCM-datafil\n"
++" som måste vara 16-bitars PCM med stereo och little endian"
++" (”Wave utan huvud”),\n"
++" om inte ytterligare parametrar för råläge anges.\n"
++" Du"
++" kan ange att filen ska hämtas från standard in genom att använda - som\n"
++" indatafilnamn. I detta läge skrivs utdata till standard ut om inget\n"
++" utdatafilnamn anges med -o.\n"
++" Sångtextfiler kan ha formatet SubRip (.srt) eller LRC (.lrc).\n"
+ "\n"
+ 
+ #: oggenc/oggenc.c:725
+ #, c-format
+ msgid "WARNING: Ignoring illegal escape character '%c' in name format\n"
+-msgstr "VARNING: Ignorerar otillåtet specialtecken '%c' i namnformat\n"
++msgstr "VARNING: Ignorerar ogiltigt escape-tecken ”%c” i namnformatet\n"
+ 
+ #: oggenc/oggenc.c:754 oggenc/oggenc.c:890 oggenc/oggenc.c:904
+ #, c-format
+ msgid "Enabling bitrate management engine\n"
+-msgstr "Aktiverar motorn för hantering av bithastighet\n"
++msgstr "Aktiverar bithastighetshanteraren\n"
+ 
+ #: oggenc/oggenc.c:763
+ #, c-format
+ msgid "WARNING: Raw endianness specified for non-raw data. Assuming input is raw.\n"
+-msgstr "VARNING: Rå byteordning angiven för icke råa data.  Antar att indata är rå.\n"
++msgstr "VARNING: Byteordning för rådata angavs för data som inte är rådata. Antar att indata är rådata.\n"
+ 
+ #: oggenc/oggenc.c:766
+ #, c-format
+ msgid "WARNING: Couldn't read endianness argument \"%s\"\n"
+-msgstr "VARNING: Kunde inte läsa byteordningsargumentet ”%s”\n"
++msgstr "VARNING: Kunde inte läsa argumentet för byteordning ”%s”\n"
+ 
+ #: oggenc/oggenc.c:773
+ #, c-format
+@@ -1846,7 +1854,7 @@
+ #: oggenc/oggenc.c:779
+ #, c-format
+ msgid "WARNING: Resample rate specified as %d Hz. Did you mean %d Hz?\n"
+-msgstr "VARNING: Omsamplingsfrekvensen angiven som %d Hz.  Menade du %d Hz?\n"
++msgstr "VARNING: Omsamplingsfrekvens angavs som %d Hz. Menade du %d Hz?\n"
+ 
+ #: oggenc/oggenc.c:790
+ #, c-format
+@@ -1856,7 +1864,7 @@
+ #: oggenc/oggenc.c:804
+ #, c-format
+ msgid "No value for advanced encoder option found\n"
+-msgstr "Inget värde för den avancerade kodarflaggan funnet\n"
++msgstr "Hittade inget värde för det avancerade kodningsalternativet\n"
+ 
+ #: oggenc/oggenc.c:826
+ #, c-format
+@@ -1866,114 +1874,113 @@
+ #: oggenc/oggenc.c:837
+ #, c-format
+ msgid "WARNING: Illegal comment used (\"%s\"), ignoring.\n"
+-msgstr "VARNING: Ogiltig kommentar använd (”%s”), ignorerar.\n"
++msgstr "VARNING: En otillåten kommentar användes (”%s”), ignorerar den.\n"
+ 
+ #: oggenc/oggenc.c:876
+ #, c-format
+ msgid "WARNING: nominal bitrate \"%s\" not recognised\n"
+-msgstr "VARNING: nominell bithastighet ”%s” inte förstådd\n"
++msgstr "VARNING: Nominell bithastighet ”%s” känns inte igen\n"
+ 
+ #: oggenc/oggenc.c:884
+ #, c-format
+ msgid "WARNING: minimum bitrate \"%s\" not recognised\n"
+-msgstr "VARNING: minsta bithastighet ”%s” inte förstådd\n"
++msgstr "VARNING: Lägsta bithastighet ”%s” känns inte igen\n"
+ 
+ #: oggenc/oggenc.c:898
+ #, c-format
+ msgid "WARNING: maximum bitrate \"%s\" not recognised\n"
+-msgstr "VARNING: högsta bithastighet ”%s” inte förstådd\n"
++msgstr "VARNING: Högsta bithastighet ”%s” känns inte igen\n"
+ 
+ #: oggenc/oggenc.c:911
+ #, c-format
+ msgid "Quality option \"%s\" not recognised, ignoring\n"
+-msgstr "Kvalitetsflaggan ”%s” inte förstådd, ignorerar\n"
++msgstr "Kvalitetsflaggan ”%s” känns inte igen, ignorerar den\n"
+ 
+ #: oggenc/oggenc.c:918
+ #, c-format
+ msgid "WARNING: quality setting too high, setting to maximum quality.\n"
+-msgstr "VARNING: kvalitetsinställningen är för hög, sätter till maximal kvalitet.\n"
++msgstr "VARNING: Kvalitetsinställningen är för hög, ställer in maximal kvalitet.\n"
+ 
+ #: oggenc/oggenc.c:925
+ #, c-format
+ msgid "WARNING: Multiple name formats specified, using final\n"
+-msgstr "VARNING: Flera namnformat angivna, använder det sista\n"
++msgstr "VARNING: Flera namnformat angavs, använder det sista\n"
+ 
+ #: oggenc/oggenc.c:934
+ #, c-format
+ msgid "WARNING: Multiple name format filters specified, using final\n"
+-msgstr "VARNING: Flera namnformatfilter angivna, använder det sista\n"
++msgstr "VARNING: Flera namnformatfilter angavs, använder det sista\n"
+ 
+ #: oggenc/oggenc.c:943
+ #, c-format
+ msgid "WARNING: Multiple name format filter replacements specified, using final\n"
+-msgstr "VARNING: Flera ersättningar för namnformatfilter angivna, använder den sista\n"
++msgstr "VARNING: Flera ersättningar för namnformatfilter angavs, använder den sista\n"
+ 
+ #: oggenc/oggenc.c:951
+ #, c-format
+ msgid "WARNING: Multiple output files specified, suggest using -n\n"
+-msgstr "VARNING: Flera utdatafiler angivna, föreslår användning av -n\n"
++msgstr "VARNING: Flera utdatafiler angavs, använd -n\n"
+ 
+ #: oggenc/oggenc.c:970
+ #, c-format
+ msgid "WARNING: Raw bits/sample specified for non-raw data. Assuming input is raw.\n"
+-msgstr "VARNING: Råa bitar/sampling angivet för icke rå data.  Antar att indata är rå.\n"
++msgstr "VARNING: Bitar per sampel för rådata angavs för data som inte är rådata. Antar att indata är rådata.\n"
+ 
+ #: oggenc/oggenc.c:975 oggenc/oggenc.c:979
+ #, c-format
+ msgid "WARNING: Invalid bits/sample specified, assuming 16.\n"
+-msgstr "VARNING: Ogiltig bitar/sampling angiven, antar 16.\n"
++msgstr "VARNING: Ogiltigt antal bitar per sampel angavs, antar 16.\n"
+ 
+ #: oggenc/oggenc.c:986
+ #, c-format
+ msgid "WARNING: Raw channel count specified for non-raw data. Assuming input is raw.\n"
+-msgstr "VARNING: Rått kanalantal angivet för icke rå data.  Antar att indata är rå.\n"
++msgstr "VARNING: Kanalantal för rådata angavs för data som inte är rådata. Antar att indata är rådata.\n"
+ 
+ #: oggenc/oggenc.c:991
+ #, c-format
+ msgid "WARNING: Invalid channel count specified, assuming 2.\n"
+-msgstr "VARNING: Ogiltigt kanalantal angivet, antar 2.\n"
++msgstr "VARNING: Ogiltigt kanalantal angavs, antar 2.\n"
+ 
+ #: oggenc/oggenc.c:1002
+ #, c-format
+ msgid "WARNING: Raw sample rate specified for non-raw data. Assuming input is raw.\n"
+-msgstr "VARNING: Rå samplingshastighet angiven för icke rå data.  Antar att indata är rå.\n"
++msgstr "VARNING: Samplingsfrekvens för rådata angavs för data som inte är rådata. Antar att indata är rådata.\n"
+ 
+ #: oggenc/oggenc.c:1007
+ #, c-format
+ msgid "WARNING: Invalid sample rate specified, assuming 44100.\n"
+-msgstr "VARNING: Ogiltig samplingshastighet angiven, antar 44100.\n"
++msgstr "VARNING: Ogiltig samplingsfrekvens angavs, antar 44100.\n"
+ 
+ #: oggenc/oggenc.c:1019 oggenc/oggenc.c:1031
+ #, c-format
+ msgid "WARNING: Kate support not compiled in; lyrics will not be included.\n"
+-msgstr "VARNING: Katestöd inte inkompilerat; texter kommer inte inkluderas.\n"
++msgstr "VARNING: Kate-stöd är inte inkompilerat; sångtext inkluderas inte.\n"
+ 
+ #: oggenc/oggenc.c:1027
+ #, c-format
+ msgid "WARNING: language can not be longer than 15 characters; truncated.\n"
+-msgstr "VARNING: språk kan inte vara längre än 15 tecken; avhugget.\n"
++msgstr "VARNING: Språk får inte vara längre än 15 tecken; har avkortats.\n"
+ 
+ #: oggenc/oggenc.c:1035
+ #, c-format
+ msgid "WARNING: Unknown option specified, ignoring->\n"
+-msgstr "VARNING: Okänd flagga angiven, ignorerar→\n"
++msgstr "VARNING: Okänd flagga angavs, ignorerar ->\n"
+ 
+ #: oggenc/oggenc.c:1051 vorbiscomment/vcomment.c:449
+ #, c-format
+ msgid "'%s' is not valid UTF-8, cannot add\n"
+ msgstr ""
+ "”%s” är inte giltig UTF-8, kan inte lägga till\n"
+-"\n"
+ 
+ #: oggenc/oggenc.c:1072 vorbiscomment/vcomment.c:457
+ #, c-format
+ msgid "Couldn't convert comment to UTF-8, cannot add\n"
+-msgstr "Kunde inte konvertera kommentaren till UTF-8, kan inte lägga till\n"
++msgstr "Kunde inte konvertera kommentaren till UTF-8, kan inte lägga till den\n"
+ 
+ #: oggenc/oggenc.c:1093
+ #, c-format
+ msgid "WARNING: Insufficient titles specified, defaulting to final title.\n"
+-msgstr "VARNING: Otillräckligt med titlar angivna, använder den sista titeln.\n"
++msgstr "VARNING: För få titlar angavs, använder den sista titeln.\n"
+ 
+ #: oggenc/platform.c:176
+ #, c-format
+@@ -1998,19 +2005,19 @@
+ "\tPlayback length: %ldm:%02ld.%03lds\n"
+ "\tAverage bitrate: %f kb/s\n"
+ msgstr ""
+-"%s ström %d:\n"
++"%s-ström %d:\n"
+ "\tTotal datalängd: %<PRId64> byte\n"
+-"\tSpellängd: %ldm:%02ld.%03lds\n"
++"\tUppspelningstid: %ldm:%02ld.%03lds\n"
+ "\tGenomsnittlig bithastighet: %f kb/s\n"
+ 
+ #: ogginfo/ogginfo2.c:127
+ #, c-format
+ msgid "WARNING: EOS not set on stream %d\n"
+-msgstr "VARNING: Strömslut inte satt på ström %d\n"
++msgstr "VARNING: EOS är inte satt för ström %d\n"
+ 
+ #: ogginfo/ogginfo2.c:216
+ msgid "WARNING: Invalid header page, no packet found\n"
+-msgstr "VARNING: Ogiltig huvudsida, inga paket funna\n"
++msgstr "VARNING: Ogiltig huvudsida, inget paket hittades\n"
+ 
+ #: ogginfo/ogginfo2.c:246
+ #, c-format
+@@ -2025,12 +2032,12 @@
+ #: ogginfo/ogginfo2.c:278
+ #, c-format
+ msgid "WARNING: Hole in data (%d bytes) found at approximate offset %<PRId64> bytes. Corrupted Ogg.\n"
+-msgstr "VARNING: Hål i data (%d byte) funnet vid ungefärligt avstånd %<PRId64> byte. Trasig Ogg.\n"
++msgstr "VARNING: Hål i data (%d byte) hittades vid ungefärlig förskjutning %<PRId64> byte. Ogg-filen är skadad.\n"
+ 
+ #: ogginfo/ogginfo2.c:305
+ #, c-format
+ msgid "Error opening input file \"%s\": %s\n"
+-msgstr "Fel när infil öppnades ”%s”: %s\n"
++msgstr "Fel vid öppning av indatafilen ”%s”: %s\n"
+ 
+ #: ogginfo/ogginfo2.c:310
+ #, c-format
+@@ -2047,11 +2054,11 @@
+ 
+ #: ogginfo/ogginfo2.c:327
+ msgid "Page found for stream after EOS flag"
+-msgstr "Sidan finns inte för ström efter strömslutflaggan"
++msgstr "Kunde inte hitta en processor för strömmen, ger upp"
+ 
+ #: ogginfo/ogginfo2.c:330
+ msgid "Ogg muxing constraints violated, new stream before EOS of all previous streams"
+-msgstr "Ogg-multiplexningsbegränsningar brutna, ny ström före strömslut i alla tidigare strömmar"
++msgstr "Ogg-multiplexeringsbegränsningarna överträddes: ny ström före EOS för alla tidigare strömmar"
+ 
+ #: ogginfo/ogginfo2.c:334
+ msgid "Error unknown."
+@@ -2063,8 +2070,8 @@
+ "WARNING: illegally placed page(s) for logical stream %d\n"
+ "This indicates a corrupt Ogg file: %s.\n"
+ msgstr ""
+-"VARNING: otillåtet placerad sida för logisk ström %d\n"
+-"Detta indikerar en trasig Ogg-fil: %s.\n"
++"VARNING: Otillåtet placerade sidor för logisk ström %d\n"
++"Detta tyder på en skadad Ogg-fil: %s.\n"
+ 
+ #: ogginfo/ogginfo2.c:349
+ #, c-format
+@@ -2074,17 +2081,17 @@
+ #: ogginfo/ogginfo2.c:352
+ #, c-format
+ msgid "WARNING: stream start flag not set on stream %d\n"
+-msgstr "VARNING: strömstartflaggan inte satt på ström %d\n"
++msgstr "VARNING: Strömstartsflaggan är inte satt för ström %d\n"
+ 
+ #: ogginfo/ogginfo2.c:355
+ #, c-format
+ msgid "WARNING: stream start flag found in mid-stream on stream %d\n"
+-msgstr "VARNING: strömstartflagga funnen mitt i strömmen i ström %d\n"
++msgstr "VARNING: Strömstartsflaggan hittades mitt i ström %d\n"
+ 
+ #: ogginfo/ogginfo2.c:361
+ #, c-format
+ msgid "WARNING: sequence number gap in stream %d. Got page %ld when expecting page %ld. Indicates missing data.\n"
+-msgstr "VARNING: sekvensnummerhopp i ström %d.  Fick sida %ld när sida %ld förväntades.  Indikerar saknade data.\n"
++msgstr "VARNING: Lucka i sekvensnumren för ström %d. Fick sida %ld när sida %ld förväntades. Tyder på att data saknas.\n"
+ 
+ #: ogginfo/ogginfo2.c:376
+ #, c-format
+@@ -2097,7 +2104,7 @@
+ "ERROR: No Ogg data found in file \"%s\".\n"
+ "Input probably not Ogg.\n"
+ msgstr ""
+-"FEL: Ingen Ogg-data funnen i filen ”%s”.\n"
++"FEL: Hittade inga Ogg-data i filen ”%s”.\n"
+ "Indata är förmodligen inte Ogg.\n"
+ 
+ #: ogginfo/ogginfo2.c:395
+@@ -2130,12 +2137,14 @@
+ "© 2003-2005 Michael Smith <msmith@xiph.org>\n"
+ "\n"
+ "Användning: ogginfo [flaggor] fil1.ogg [fil2.ogx … filN.ogv]\n"
+-"Flaggor som stödjs:\n"
+-"\t-h Visa detta hjälpmeddelande\n"
+-"\t-q Gör mindre pratsam.  En gång tar bort informationsmeddelande om\n"
+-"\t   detaljer, två gånger tar bort varningar.\n"
+-"\t-v Gör mer pratsam.  Detta kan aktivera mer detaljerade kontroller\n"
+-"\t   för några strömtyper.\n"
++"Flaggor som stöds:\n"
++"\t-h Visa det här hjälpmeddelandet\n"
++"\t-q Gör utdata mindre utförlig. En gång tar bort detaljerade\n"
++"\t   informationsmeddelanden"
++", två gånger tar bort varningar.\n"
++"\t-v Gör utdata mer utförlig. Detta kan aktivera mer detaljerade\n"
++"\t   kontroller"
++" för vissa strömtyper.\n"
+ 
+ #: ogginfo/ogginfo2.c:410
+ #, c-format
+@@ -2153,14 +2162,14 @@
+ msgstr ""
+ "Användning: ogginfo [flaggor] fil1.ogg [fil2.ogx … filN.ogv]\n"
+ "\n"
+-"ogginfo är ett verktyg för att skriva ut information om Oggfiler\n"
++"ogginfo är ett verktyg för att skriva ut information om Ogg-filer\n"
+ "och för att diagnostisera problem med dem.\n"
+ "Fullständig hjälp visas med ”ogginfo -h”.\n"
+ 
+ #: ogginfo/ogginfo2.c:456
+ #, c-format
+ msgid "No input files specified. \"ogginfo -h\" for help\n"
+-msgstr "Ingen infil angiven.  ”ogginfo -h” för hjälp\n"
++msgstr "Ingen indatafil angavs. ”ogginfo -h” för hjälp\n"
+ 
+ #: share/getopt.c:673
+ #, c-format
+@@ -2220,12 +2229,12 @@
+ #: vcut/vcut.c:129
+ #, c-format
+ msgid "Couldn't flush output stream\n"
+-msgstr "Kunde inte tömma utströmmen\n"
++msgstr "Kunde inte tömma utdataströmmen\n"
+ 
+ #: vcut/vcut.c:149
+ #, c-format
+ msgid "Couldn't close output file\n"
+-msgstr "Kunde inte stänga utfilen\n"
++msgstr "Kunde inte stänga utdatafilen\n"
+ 
+ #: vcut/vcut.c:210
+ #, c-format
+@@ -2235,12 +2244,12 @@
+ #: vcut/vcut.c:250
+ #, c-format
+ msgid "Usage: vcut infile.ogg outfile1.ogg outfile2.ogg [cutpoint | +cuttime]\n"
+-msgstr "Användning: vcut infil.ogg utfil1.ogg utfil2.ogg [klippunkt | +skärtid]\n"
++msgstr "Användning: vcut indatafil.ogg utdatafil1.ogg utdatafil2.ogg [klippunkt | +klipptid]\n"
+ 
+ #: vcut/vcut.c:252
+ #, c-format
+ msgid "To avoid creating an output file, specify \".\" as its name.\n"
+-msgstr "För att undvika att skapa en utfil, ange ”.” som dess namn.\n"
++msgstr "Ange ”.” som filnamn om du vill undvika att skapa en utdatafil.\n"
+ 
+ #: vcut/vcut.c:263
+ #, c-format
+@@ -2250,7 +2259,7 @@
+ #: vcut/vcut.c:278 vcut/vcut.c:282
+ #, c-format
+ msgid "Couldn't parse cutpoint \"%s\"\n"
+-msgstr "Kunde inte tolka klippunkt \"%s\"\n"
++msgstr "Kunde inte tolka klippunkten ”%s”\n"
+ 
+ #: vcut/vcut.c:287
+ #, c-format
+@@ -2260,7 +2269,7 @@
+ #: vcut/vcut.c:289
+ #, c-format
+ msgid "Processing: Cutting at %lld samples\n"
+-msgstr "Bearbetar: Klipper vid %lld samplingar\n"
++msgstr "Bearbetar: Klipper vid %lld sampel\n"
+ 
+ #: vcut/vcut.c:300
+ #, c-format
+@@ -2275,7 +2284,7 @@
+ #: vcut/vcut.c:392
+ #, c-format
+ msgid "Cutpoint not found\n"
+-msgstr "Skärpunkt hittades inte\n"
++msgstr "Klippunkten hittades inte\n"
+ 
+ #: vcut/vcut.c:398
+ #, c-format
+@@ -2285,37 +2294,37 @@
+ #: vcut/vcut.c:442
+ #, c-format
+ msgid "Can't produce a file starting between sample positions %<PRId64> and %<PRId64>.\n"
+-msgstr "Kan inte producera en fil som startar mellan samplingspositioner %<PRId64> och %<PRId64>.\n"
++msgstr "Kan inte skapa en fil som börjar mellan sampelpositionerna %<PRId64> och %<PRId64>.\n"
+ 
+ #: vcut/vcut.c:446
+ #, c-format
+ msgid "Specify \".\" as the second output file to suppress this error.\n"
+-msgstr "Ange ”.” som den andra utfilen för att undertrycka detta fel.\n"
++msgstr "Ange ”.” som den andra utdatafilen för att undertrycka detta fel.\n"
+ 
+ #: vcut/vcut.c:484
+ #, c-format
+ msgid "Couldn't write packet to output file\n"
+-msgstr "Misslyckades att skriva paket till utfilen\n"
++msgstr "Kunde inte skriva paketet till utdatafilen\n"
+ 
+ #: vcut/vcut.c:505
+ #, c-format
+ msgid "BOS not set on first page of stream\n"
+-msgstr "BOS inte satt på första sidan av strömmen\n"
++msgstr "BOS är inte satt på första sidan av strömmen\n"
+ 
+ #: vcut/vcut.c:520
+ #, c-format
+ msgid "Multiplexed bitstreams are not supported\n"
+-msgstr "Multiplexade bitströmmar stödjs inte\n"
++msgstr "Multiplexade bitströmmar kan inte användas\n"
+ 
+ #: vcut/vcut.c:531
+ #, c-format
+ msgid "Internal stream parsing error\n"
+-msgstr "Internt fel vid tolkning av ström\n"
++msgstr "Internt fel vid tolkning av strömmen\n"
+ 
+ #: vcut/vcut.c:545
+ #, c-format
+ msgid "Header packet corrupt\n"
+-msgstr "Trasigt huvudpaket\n"
++msgstr "Huvudpaketet är skadat\n"
+ 
+ #: vcut/vcut.c:551
+ #, c-format
+@@ -2325,12 +2334,12 @@
+ #: vcut/vcut.c:561
+ #, c-format
+ msgid "Error in header: not vorbis?\n"
+-msgstr "Fel i huvudet: inte vorbis?\n"
++msgstr "Fel i huvudet: inte Vorbis?\n"
+ 
+ #: vcut/vcut.c:612
+ #, c-format
+ msgid "Input not ogg.\n"
+-msgstr "Indata inte ogg.\n"
++msgstr "Indata är inte Ogg.\n"
+ 
+ #: vcut/vcut.c:616
+ #, c-format
+@@ -2340,32 +2349,32 @@
+ #: vcut/vcut.c:626
+ #, c-format
+ msgid "WARNING: input file ended unexpectedly\n"
+-msgstr "VARNING: infilen tog oväntat slut\n"
++msgstr "VARNING: Indatafilen tog slut oväntat\n"
+ 
+ #: vcut/vcut.c:630
+ #, c-format
+ msgid "WARNING: found EOS before cutpoint\n"
+-msgstr "VARNING: hittade strömslut före klippunkt\n"
++msgstr "VARNING: Hittade EOS före klippunkten\n"
+ 
+ #: vorbiscomment/vcedit.c:130 vorbiscomment/vcedit.c:158
+ msgid "Couldn't get enough memory for input buffering."
+-msgstr "Kunde inte få tillräckligt med minne för indatabuffring."
++msgstr "Kunde inte allokera tillräckligt med minne för indatabuffringen."
+ 
+ #: vorbiscomment/vcedit.c:181 vorbiscomment/vcedit.c:529
+ msgid "Error reading first page of Ogg bitstream."
+-msgstr "Fel vid läsning av första sidan från en Ogg-bitström."
++msgstr "Fel vid läsning av första sidan i en Ogg-bitström."
+ 
+ #: vorbiscomment/vcedit.c:186 vorbiscomment/vcedit.c:535
+ msgid "Error reading initial header packet."
+-msgstr "Fel vid läsning av initialt huvudpaket."
++msgstr "Fel vid läsning av det inledande huvudpaketet."
+ 
+ #: vorbiscomment/vcedit.c:236
+ msgid "Couldn't get enough memory to register new stream serial number."
+-msgstr "Kunde inte få tillräckligt med minne för att registrera en ny ströms serienummer."
++msgstr "Kunde inte allokera tillräckligt med minne för att registrera serienumret för den nya strömmen."
+ 
+ #: vorbiscomment/vcedit.c:491
+ msgid "Input truncated or empty."
+-msgstr "Indata avhugget eller tomt."
++msgstr "Indata är avkortad eller tom."
+ 
+ #: vorbiscomment/vcedit.c:493
+ msgid "Input is not an Ogg bitstream."
+@@ -2377,7 +2386,7 @@
+ 
+ #: vorbiscomment/vcedit.c:555
+ msgid "EOF before recognised stream."
+-msgstr "Filslut före någon igenkänd ström."
++msgstr "Filslut före en igenkänd ström."
+ 
+ #: vorbiscomment/vcedit.c:568
+ msgid "Ogg bitstream does not contain a supported data-type."
+@@ -2385,24 +2394,24 @@
+ 
+ #: vorbiscomment/vcedit.c:611
+ msgid "Corrupt secondary header."
+-msgstr "Felaktigt sekundär-huvud."
++msgstr "Skadat sekundärhuvud."
+ 
+ #: vorbiscomment/vcedit.c:630
+ msgid "EOF before end of Vorbis headers."
+-msgstr "Filslut före slutet på Vorbishuvuden."
++msgstr "Filslut före slutet av Vorbis-huvudena."
+ 
+ #: vorbiscomment/vcedit.c:785
+ msgid "Corrupt or missing data, continuing..."
+-msgstr "Data felaktigt eller saknas, fortsätter..."
++msgstr "Data är skadade eller saknas, fortsätter…"
+ 
+ #: vorbiscomment/vcedit.c:822
+ msgid "Error writing stream to output. Output stream may be corrupted or truncated."
+-msgstr "Fel under skrivande av utström.  Kan vara felaktig eller avhuggen."
++msgstr "Fel vid skrivning av ström till utdata. Utdataströmmen kan vara skadad eller avkortad."
+ 
+ #: vorbiscomment/vcomment.c:259 vorbiscomment/vcomment.c:287
+ #, c-format
+ msgid "Failed to open file as Vorbis: %s\n"
+-msgstr "Misslyckades att öppna fil som Vorbis: %s\n"
++msgstr "Misslyckades med att öppna filen som Vorbis: %s\n"
+ 
+ #: vorbiscomment/vcomment.c:308
+ #, c-format
+@@ -2417,7 +2426,7 @@
+ #: vorbiscomment/vcomment.c:326
+ #, c-format
+ msgid "Failed to write comments to output file: %s\n"
+-msgstr "Misslyckades att skriva kommentar till utfil: %s\n"
++msgstr "Misslyckades med att skriva kommentarerna till utdatafilen: %s\n"
+ 
+ #: vorbiscomment/vcomment.c:345
+ #, c-format
+@@ -2427,7 +2436,7 @@
+ #: vorbiscomment/vcomment.c:472
+ #, c-format
+ msgid "Couldn't un-escape comment, cannot add\n"
+-msgstr "Kunde inte av-escape:a kommentaren, kan inte lägga till\n"
++msgstr "Kunde inte tolka escape-sekvenser i kommentaren, kan inte lägga till den\n"
+ 
+ #: vorbiscomment/vcomment.c:623
+ #, c-format
+@@ -2455,8 +2464,8 @@
+ msgstr ""
+ "Användning: \n"
+ "  vorbiscomment [-Vh]\n"
+-"  vorbiscomment [-lRe] infil\n"
+-"  vorbiscomment <-a|-w> [-Re] [-c fil] [-t tagg] infil [utfil]\n"
++"  vorbiscomment [-lRe] indatafil\n"
++"  vorbiscomment <-a|-w> [-Re] [-c fil] [-t tagg] indatafil [utdatafil]\n"
+ 
+ #: vorbiscomment/vcomment.c:635
+ #, c-format
+@@ -2476,7 +2485,7 @@
+ #: vorbiscomment/vcomment.c:640
+ #, c-format
+ msgid "  -a, --append            Update comments\n"
+-msgstr "  -a, --append            Uppdatera kommentarer\n"
++msgstr "  -a, --append            Uppdatera kommentarerna\n"
+ 
+ #: vorbiscomment/vcomment.c:641
+ #, c-format
+@@ -2495,16 +2504,16 @@
+ "                          If no value is given all tags with that name are removed\n"
+ "                          This implies -a,\n"
+ msgstr ""
+-"  -d \"namn[=värde]\", --rm \"namn[=värde]\"\n"
+-"                          Ange en kommentarstagg på kommandoraden att ta bort\n"
+-"                          Om inget värde ges kommer alla taggar med det namnet\n"
+-"                          tas bort\n"
+-"                          Detta implicerar -a,\n"
++"  -d ”namn[=värde]”, --rm ”namn[=värde]”\n"
++"                          Ange en kommentartagg på kommandoraden som ska tas bort\n"
++"                          Om inget värde anges tas alla taggar med det namnet\n"
++"                          bort\n"
++"                          Detta medför -a.\n"
+ 
+ #: vorbiscomment/vcomment.c:647
+ #, c-format
+ msgid "  -w, --write             Write comments, replacing the existing ones\n"
+-msgstr "  -w, --write             Skriv kommentarer, ersätt de befintliga\n"
++msgstr "  -w, --write             Skriv kommentarer och ersätt de befintliga\n"
+ 
+ #: vorbiscomment/vcomment.c:651
+ #, c-format
+@@ -2514,8 +2523,8 @@
+ "                          When editing, read comments from the specified file.\n"
+ msgstr ""
+ "  -c fil, --commentfile fil\n"
+-"                          Vid listning, skriv kommentarer till angiven fil.\n"
+-"                          Vid redigering, läs kommentarer från angiven fil.\n"
++"                          Vid listning skrivs kommentarer till angiven fil.\n"
++"                          Vid redigering läses kommentarer från angiven fil.\n"
+ 
+ #: vorbiscomment/vcomment.c:654
+ #, c-format
+@@ -2526,7 +2535,7 @@
+ #, c-format
+ msgid "  -e, --escapes           Use \\n-style escapes to allow multiline comments.\n"
+ msgstr ""
+-"  -e, --escapes           Använd kontrollsekvenser i \\n-stil för att tillåta\n"
++"  -e, --escapes           Använd escape-sekvenser i \\n-stil för att tillåta\n"
+ "                          flerradiga kommentarer.\n"
+ 
+ #: vorbiscomment/vcomment.c:659
+@@ -2541,8 +2550,10 @@
+ "is handled via temporary file, such that the input file is not modified if any\n"
+ "errors are encountered during processing.\n"
+ msgstr ""
+-"Om ingen utfil är angiven kommer vorbiscomment ändra infilen.  Detta hanteras\n"
+-"via en temporärfil, så att infilen inte ändras om några fel uppstår under\n"
++"Om ingen utdatafil anges ändrar vorbiscomment indatafilen. Detta\n"
++"hanteras genom"
++" en tillfällig fil, så att indatafilen inte ändras om\n"
++"fel uppstår under "
+ "bearbetningen.\n"
+ 
+ #: vorbiscomment/vcomment.c:667
+@@ -2554,11 +2565,13 @@
+ "can be given on the commandline with -t \"name=value\". Use of either -c or -t\n"
+ "disables reading from stdin.\n"
+ msgstr ""
+-"vorbiscomment hanterar kommentarer i formatet ”namn=värde”, en per rad.  Som\n"
+-"standard skrivs kommentarer ut till standard ut när de listas, och läses från\n"
+-"standard in när de redigeras.  Alternativt kan en fil anges med flaggan -c,\n"
+-"eller så kan taggar anges på kommandoraden med -t ”namn=värde”. Om antingen\n"
+-"-c eller -t används så stängs läsningen från standard in av.\n"
++"vorbiscomment hanterar kommentarer i formatet ”namn=värde”, en per rad. Som\n"
++"standard skrivs kommentarer till standard ut vid listning och läses från\n"
++"standard in vid redigering. Alternativt kan en fil anges med flaggan -c "
++"eller\n"
++"taggar anges på kommandoraden med -t ”namn=värde”. Användning av "
++"-c eller -t\n"
++"inaktiverar läsning från standard in.\n"
+ 
+ #: vorbiscomment/vcomment.c:674
+ #, c-format
+@@ -2568,8 +2581,8 @@
+ "  vorbiscomment -a in.ogg -t \"ARTIST=Some Guy\" -t \"TITLE=A Title\"\n"
+ msgstr ""
+ "Exempel:\n"
+-"  vorbiscomment -a in.ogg -c kommentarer.txt\n"
+-"  vorbiscomment -a in.ogg -t \"ARTIST=Någon Person\" -t \"TITLE=En titel\"\n"
++"  vorbiscomment -a in.ogg -c comments.txt\n"
++"  vorbiscomment -a in.ogg -t ”ARTIST=Some Guy” -t ”TITLE=A Title”\n"
+ 
+ #: vorbiscomment/vcomment.c:679
+ #, c-format
+@@ -2580,16 +2593,18 @@
+ "since comments can contain newlines. To handle that, use escaping (-e,\n"
+ "--escape).\n"
+ msgstr ""
+-"OBS: Rått läge (--raw, -R) läser och skriver kommentarer i UTF-8 istället för\n"
++"OBS: Råläge (--raw, -R) läser och skriver kommentarer i UTF-8 i stället för\n"
+ "att konvertera till användarens teckenuppsättning, vilket är användbart i\n"
+-"skript.  Detta är dock inte tillräckligt i allmänhet för att kommentarer skall\n"
+-"kunna gå hela varvet runt i alla lägen, eftersom kommentarer kan innehålla\n"
+-"nyrader.  För att hantera det, använd flyktföljder (-e, --escape).\n"
++"skript. Detta räcker dock inte alltid för att kommentarer ska "
++"kunna läsas och\n"
++"skrivas tillbaka utan ändringar, eftersom de kan innehålla "
++"radbrytningar.\n"
++"Använd escape-sekvenser (-e, --escape) för att hantera det.\n"
+ 
+ #: vorbiscomment/vcomment.c:761
+ #, c-format
+ msgid "Internal error parsing command options\n"
+-msgstr "Internt fel vid tolkning av kommandoflaggor\n"
++msgstr "Internt fel vid tolkning av kommandoradsflaggor\n"
+ 
+ #: vorbiscomment/vcomment.c:780
+ #, c-format
+@@ -2599,39 +2614,39 @@
+ #: vorbiscomment/vcomment.c:864
+ #, c-format
+ msgid "Error opening input file '%s'.\n"
+-msgstr "Misslyckades att öppna infil \"%s\".\n"
++msgstr "Fel vid öppning av indatafilen ”%s”.\n"
+ 
+ #: vorbiscomment/vcomment.c:873
+ #, c-format
+ msgid "Input filename may not be the same as output filename\n"
+-msgstr "Infilnamn får inte vara samma som utfilnamn\n"
++msgstr "Indatafilnamnet får inte vara samma som utdatafilnamnet\n"
+ 
+ #: vorbiscomment/vcomment.c:884
+ #, c-format
+ msgid "Error opening output file '%s'.\n"
+-msgstr "Misslyckades att öppna utfil \"%s\".\n"
++msgstr "Fel vid öppning av utdatafilen ”%s”.\n"
+ 
+ #: vorbiscomment/vcomment.c:899
+ #, c-format
+ msgid "Error opening comment file '%s'.\n"
+-msgstr "Misslyckades att öppna kommentarfil \"%s\".\n"
++msgstr "Fel vid öppning av kommentarsfilen ”%s”.\n"
+ 
+ #: vorbiscomment/vcomment.c:916
+ #, c-format
+ msgid "Error opening comment file '%s'\n"
+-msgstr "Misslyckades att öppna kommentarfil \"%s\"\n"
++msgstr "Fel vid öppning av kommentarsfilen ”%s”\n"
+ 
+ #: vorbiscomment/vcomment.c:950
+ #, c-format
+ msgid "Error removing old file %s\n"
+-msgstr "Fel när gammal fil togs bort %s\n"
++msgstr "Fel vid borttagning av gammal fil %s\n"
+ 
+ #: vorbiscomment/vcomment.c:952
+ #, c-format
+ msgid "Error renaming %s to %s\n"
+-msgstr "Fel vid byte av namn från %s till %s\n"
++msgstr "Fel vid byte av namn på %s till %s\n"
+ 
+ #: vorbiscomment/vcomment.c:961
+ #, c-format
+ msgid "Error removing erroneous temporary file %s\n"
+-msgstr "Fel när felaktig temporärfil togs bort %s\n"
++msgstr "Fel vid borttagning av felaktig tillfällig fil %s\n"

@@ -1,0 +1,811 @@
+--- a/wcd-6.0.6-beta3.sv.po
++++ b/wcd-6.0.6-beta3.sv.po
+@@ -27,22 +27,22 @@
+ #: wcd.c:183 wcd.c:237 wcd.c:257
+ #, c-format
+ msgid "Unable to read file %s: %s\n"
+-msgstr "Det gick inte att läsa fil %s: %s\n"
++msgstr "Kunde inte läsa filen %s: %s\n"
+ 
+ #: wcd.c:246
+ #, c-format
+ msgid "Unable to read file %s: Not a regular file.\n"
+-msgstr "Det gick inte att läsa fil %s: Inte en vanlig fil.\n"
++msgstr "Kunde inte läsa filen %s: inte en vanlig fil.\n"
+ 
+ #: wcd.c:259 wcd.c:346
+ #, c-format
+ msgid "Unable to write file %s: %s\n"
+-msgstr "Det gick inte att skriva fil %s: %s\n"
++msgstr "Kunde inte skriva filen %s: %s\n"
+ 
+ #: wcd.c:348
+ #, c-format
+ msgid "Unable to close file %s: %s\n"
+-msgstr "Det gick inte att stänga fil %s: %s\n"
++msgstr "Kunde inte stänga filen %s: %s\n"
+ 
+ #: wcd.c:409 wcd.c:414 wfixpath.c:65
+ #, c-format
+@@ -62,16 +62,16 @@
+ #: wcd.c:770
+ #, c-format
+ msgid "Please wait. Scanning disk. Building treedata-file %s from %s\n"
+-msgstr "Läser av disk. Bygger träddatafil %s från %s\n"
++msgstr "Vänta. Söker igenom disken. Bygger träddatafilen %s från %s\n"
+ 
+ #: wcd.c:832 wcd.c:2223 wcd.c:2246 wcd.c:2326
+ #, c-format
+ msgid "Writing file \"%s\"\n"
+-msgstr "Skriver fil \"%s\"\n"
++msgstr "Skriver filen ”%s”\n"
+ 
+ #: wcd.c:837
+ msgid "Write access to tree-file denied.\n"
+-msgstr "Nekades skrivåtkomst till trädfil.\n"
++msgstr "Skrivåtkomst till träddatafilen nekades.\n"
+ 
+ #: wcd.c:838
+ msgid "Set TEMP environment variable if this is a read-only disk.\n"
+@@ -85,7 +85,7 @@
+ #: wcd.c:971
+ #, c-format
+ msgid "Unable to remove symbolic link %s: %s\n"
+-msgstr "Det gick inte att ta bort den symboliska länken %s: %s\n"
++msgstr "Kunde inte ta bort den symboliska länken %s: %s\n"
+ 
+ #: wcd.c:975
+ #, c-format
+@@ -100,12 +100,12 @@
+ #: wcd.c:1080 wcd.c:1090
+ #, c-format
+ msgid "Removed directory %s\n"
+-msgstr "Tog bort katalog %s\n"
++msgstr "Tog bort katalogen %s\n"
+ 
+ #: wcd.c:1122 wcd.c:1191 wcd.c:1259
+ #, c-format
+ msgid "line too long in %s ( > %d). The treefile could be corrupt, else fix by increasing WCD_MAXPATH in source code.\n"
+-msgstr "rad för lång i %s (> %d). Trädfilen kan vara skadad. Åtgärda annars genom att öka WCD_MAXPATH i källkoden.\n"
++msgstr "Rad för lång i %s (> %d). Träddatafilen kan vara skadad. Åtgärda annars genom att öka WCD_MAXPATH i källkoden.\n"
+ 
+ #: wcd.c:1123 wcd.c:1192 wcd.c:1260
+ #, c-format
+@@ -133,7 +133,7 @@
+ #: wcd.c:1938
+ #, c-format
+ msgid "directory:  Name of directory to change to.\n"
+-msgstr "katalog: Namn på katalog att ändra till.\n"
++msgstr "katalog: Namnet på katalogen att byta till.\n"
+ 
+ #: wcd.c:1939
+ #, c-format
+@@ -152,12 +152,12 @@
+ #: wcd.c:1942
+ #, c-format
+ msgid "  -a                      Add current path to treefile\n"
+-msgstr "  -a                      Lägg till aktuell sökväg till trädfil\n"
++msgstr "  -a                      Lägg till den aktuella sökvägen i träddatafilen\n"
+ 
+ #: wcd.c:1943
+ #, c-format
+ msgid "  -aa                     Add current and all parent paths to treefile\n"
+-msgstr "  -aa                     Lägg till nuvarande och alla överordnade sökvägar till trädfil\n"
++msgstr "  -aa                     Lägg till den aktuella och alla överordnade sökvägar i träddatafilen\n"
+ 
+ #: wcd.c:1944
+ #, c-format
+@@ -167,42 +167,42 @@
+ #: wcd.c:1945
+ #, c-format
+ msgid "  -b                      Ban current path\n"
+-msgstr "  -b                      Förbjud nuvarande sökväg\n"
++msgstr "  -b                      Förbjud den aktuella sökvägen\n"
+ 
+ #: wcd.c:1946
+ #, c-format
+ msgid "  -c,  --direct-cd        direct CD mode\n"
+-msgstr "  -c,  --direct-cd        direkt CD-läge\n"
++msgstr "  -c,  --direct-cd        direkt cd-läge\n"
+ 
+ #: wcd.c:1947
+ #, c-format
+ msgid "  -d DRIVE                set DRIVE for stack & go files (DOS)\n"
+-msgstr "  -d DISK                 ange DISK för stack- & go-filer (DOS)\n"
++msgstr "  -d DISK                 ange DISK för stack- och go-filer (DOS)\n"
+ 
+ #: wcd.c:1948
+ #, c-format
+ msgid "  -e                      add current path to Extra treefile\n"
+-msgstr "  -e                      lägg till nuvarande sökväg till extra trädfil\n"
++msgstr "  -e                      lägg till den aktuella sökvägen i extra träddatafil\n"
+ 
+ #: wcd.c:1949
+ #, c-format
+ msgid "  -ee                     add current and all parent paths to Extra treefile\n"
+-msgstr "  -ee                     lägg till nuvarande och alla överordnade sökvägar till extra trädfil\n"
++msgstr "  -ee                     lägg till den aktuella och alla överordnade sökvägar i extra träddatafil\n"
+ 
+ #: wcd.c:1950
+ #, c-format
+ msgid "  -E PATH                 add tree from PATH to Extra treefile\n"
+-msgstr "  -E SÖKVÄG               lägg till träd från SÖKVÄG till extra trädfil\n"
++msgstr "  -E SÖKVÄG               lägg till träd från SÖKVÄG i extra träddatafil\n"
+ 
+ #: wcd.c:1951
+ #, c-format
+ msgid "  -f FILE                 use extra treeFile\n"
+-msgstr "  -f FIL                  använd extra trädfil\n"
++msgstr "  -f FIL                  använd extra träddatafil\n"
+ 
+ #: wcd.c:1952
+ #, c-format
+ msgid "  +f FILE                 add extra treeFile\n"
+-msgstr "  +f FIL                  lägg till extra trädfil\n"
++msgstr "  +f FIL                  lägg till extra träddatafil\n"
+ 
+ #: wcd.c:1953
+ #, c-format
+@@ -212,22 +212,22 @@
+ #: wcd.c:1954
+ #, c-format
+ msgid "  -gd                     Graphics, dump tree\n"
+-msgstr "  -gd                     Grafisk, dumpa träd\n"
++msgstr "  -gd                     Grafik, dumpa träd\n"
+ 
+ #: wcd.c:1955
+ #, c-format
+ msgid "  -G PATH                 set PATH Go-script\n"
+-msgstr "  -G SÖKVÄG               ställ in SÖKVÄG Go-script\n"
++msgstr "  -G SÖKVÄG               ange SÖKVÄG för Go-skriptet\n"
+ 
+ #: wcd.c:1956
+ #, c-format
+ msgid "  -GN, --no-go-script     No Go-script\n"
+-msgstr "  -GN, --no-go-script     Inget Go-script\n"
++msgstr "  -GN, --no-go-script     inget Go-skript\n"
+ 
+ #: wcd.c:1957
+ #, c-format
+ msgid "  -h,  --help             show this Help\n"
+-msgstr "  -h,  --help             visa denna hjälp\n"
++msgstr "  -h,  --help             visa den här hjälpen\n"
+ 
+ #: wcd.c:1960
+ #, c-format
+@@ -237,7 +237,7 @@
+ #: wcd.c:1961
+ #, c-format
+ msgid "  +i,  --no-ignore-case   regard case\n"
+-msgstr "  +i,  --no-ignore-case   skiftlägeskänslig\n"
++msgstr "  +i,  --no-ignore-case   ta hänsyn till skiftläge\n"
+ 
+ #: wcd.c:1963
+ #, c-format
+@@ -247,7 +247,7 @@
+ #: wcd.c:1964
+ #, c-format
+ msgid "  +i,  --no-ignore-case   regard case (default)\n"
+-msgstr "  +i,  --no-ignore-case   skiftlägeskänslig (standard)\n"
++msgstr "  +i,  --no-ignore-case   ta hänsyn till skiftläge (standard)\n"
+ 
+ #: wcd.c:1967
+ #, c-format
+@@ -257,12 +257,12 @@
+ #: wcd.c:1968
+ #, c-format
+ msgid "  +I,  --no-ignore-diacritics  regard diacritics (default)\n"
+-msgstr "  +I,  --no-ignore-diacritics  diakritiska tecken (standard)\n"
++msgstr "  +I,  --no-ignore-diacritics  ta hänsyn till diakritiska tecken (standard)\n"
+ 
+ #: wcd.c:1969
+ #, c-format
+ msgid "  -j,  --just-go          Just go mode\n"
+-msgstr "  -j,  --just-go          \"kör-på\"-läge\n"
++msgstr "  -j,  --just-go          direktläge\n"
+ 
+ #: wcd.c:1970
+ #, c-format
+@@ -277,7 +277,7 @@
+ #: wcd.c:1972
+ #, c-format
+ msgid "  -l ALIAS                aLias current directory\n"
+-msgstr "  -l ALIAS                aLias nuvarande katalog\n"
++msgstr "  -l ALIAS                alias för aktuell katalog\n"
+ 
+ #: wcd.c:1973
+ #, c-format
+@@ -287,27 +287,27 @@
+ #: wcd.c:1974
+ #, c-format
+ msgid "  -L,  --license          show software License\n"
+-msgstr "  -L,  --license          visa programvarulicens\n"
++msgstr "  -L,  --license          visa programvarulicensen\n"
+ 
+ #: wcd.c:1975
+ #, c-format
+ msgid "  -m DIR                  Make DIR, add to treefile\n"
+-msgstr "  -m KAT                  Skapa KAT, lägg till i trädfil\n"
++msgstr "  -m KAT                  skapa KAT, lägg till i träddatafilen\n"
+ 
+ #: wcd.c:1976
+ #, c-format
+ msgid "  -M DIR                  Make DIR, add to extra treefile\n"
+-msgstr "  -M KAT                  Skapa KAT, lägg till i extra trädfil\n"
++msgstr "  -M KAT                  skapa KAT, lägg till i extra träddatafil\n"
+ 
+ #: wcd.c:1977
+ #, c-format
+ msgid "  -n PATH                 use relative treefile in PATH\n"
+-msgstr "  -n SÖKVÄG               använd relativ trädfil i SÖKVÄG\n"
++msgstr "  -n SÖKVÄG               använd relativ träddatafil i SÖKVÄG\n"
+ 
+ #: wcd.c:1978
+ #, c-format
+ msgid "  +n PATH                 add relative treefile in PATH\n"
+-msgstr "  +n SÖKVÄG               lägg till relativ trädfil i SÖKVÄG\n"
++msgstr "  +n SÖKVÄG               lägg till relativ träddatafil i SÖKVÄG\n"
+ 
+ #: wcd.c:1979
+ #, c-format
+@@ -317,22 +317,22 @@
+ #: wcd.c:1980
+ #, c-format
+ msgid "  -o                      use stdOut\n"
+-msgstr "  -o                      använd stdout\n"
++msgstr "  -o                      använd standard ut\n"
+ 
+ #: wcd.c:1981
+ #, c-format
+ msgid "  -od, --to-stdout        dump matches\n"
+-msgstr "  -od, --to-stdout        dumpa matchningar\n"
++msgstr "  -od, --to-stdout        skriv ut träffar\n"
+ 
+ #: wcd.c:1982
+ #, c-format
+ msgid "  -q,  --quiet            Quieter operation\n"
+-msgstr "  -q,  --quiet            Tystare drift\n"
++msgstr "  -q,  --quiet            tystare körning\n"
+ 
+ #: wcd.c:1983
+ #, c-format
+ msgid "  -r DIR                  Remove DIR\n"
+-msgstr "  -r KAT                  Ta bort KAT\n"
++msgstr "  -r KAT                  ta bort KAT\n"
+ 
+ #: wcd.c:1984
+ #, c-format
+@@ -342,17 +342,17 @@
+ #: wcd.c:1985
+ #, c-format
+ msgid "  -s                      Scan disk from $HOME\n"
+-msgstr "  -s                      Läs av disk från $HOME\n"
++msgstr "  -s                      sök igenom disken från $HOME\n"
+ 
+ #: wcd.c:1986
+ #, c-format
+ msgid "  -S PATH                 Scan disk from PATH\n"
+-msgstr "  -S SÖKVÄG               Läs av disk från SÖKVÄG\n"
++msgstr "  -S SÖKVÄG               sök igenom disken från SÖKVÄG\n"
+ 
+ #: wcd.c:1987
+ #, c-format
+ msgid "  +S PATH                 Scan disk from PATH, create relative treefile\n"
+-msgstr "  +S SÖKVÄG               Läs av disk från SÖKVÄG, skapa en relativ trädfil\n"
++msgstr "  +S SÖKVÄG               sök igenom disken från SÖKVÄG, skapa relativ träddatafil\n"
+ 
+ #: wcd.c:1988
+ #, c-format
+@@ -377,27 +377,27 @@
+ #: wcd.c:1992
+ #, c-format
+ msgid "  -Tc, --compact-tree     Compact tree\n"
+-msgstr "  -Tc, --compact-tree     Kompakt träd\n"
++msgstr "  -Tc, --compact-tree     kompakt trädvy\n"
+ 
+ #: wcd.c:1993
+ #, c-format
+ msgid "  -Td, --cjk-width        support legacy CJK fonts\n"
+-msgstr "  -Td, --cjk-width        stödjer äldre CJK-teckensnitt\n"
++msgstr "  -Td, --cjk-width        stöd för äldre CJK-teckensnitt\n"
+ 
+ #: wcd.c:1994
+ #, c-format
+ msgid "  -u USER                 use USER's treefile\n"
+-msgstr "  -u ANVÄNDARE            använd ANVÄNDARENS trädfil\n"
++msgstr "  -u ANVÄNDARE            använd ANVÄNDARENS träddatafil\n"
+ 
+ #: wcd.c:1995
+ #, c-format
+ msgid "  +u USER                 add USER's treefile\n"
+-msgstr "  +u ANVÄNDARE            lägg till ANVÄNDARENS trädfil\n"
++msgstr "  +u ANVÄNDARE            lägg till ANVÄNDARENS träddatafil\n"
+ 
+ #: wcd.c:1996
+ #, c-format
+ msgid "  -v,  --verbose          Verbose operation\n"
+-msgstr "  -v,  --verbose          Utförlig information\n"
++msgstr "  -v,  --verbose          utförlig körning\n"
+ 
+ #: wcd.c:1997
+ #, c-format
+@@ -412,37 +412,37 @@
+ #: wcd.c:1999
+ #, c-format
+ msgid "  -x PATH                 eXclude PATH during disk scan\n"
+-msgstr "  -x SÖKVÄG               eXkludera sökväg under diskavläsning\n"
++msgstr "  -x SÖKVÄG               uteslut SÖKVÄG vid disksökning\n"
+ 
+ #: wcd.c:2000
+ #, c-format
+ msgid "  -xf FILE                eXclude paths from FILE\n"
+-msgstr "  -xf FIL                 eXkludera sökvägar från FIL\n"
++msgstr "  -xf FIL                 uteslut sökvägar från FIL\n"
+ 
+ #: wcd.c:2001
+ #, c-format
+ msgid "  -y,  --assume-yes       assume Yes on all queries\n"
+-msgstr "  -y,  --assume-yes       Ja på alla frågor\n"
++msgstr "  -y,  --assume-yes       anta Ja som svar på alla frågor\n"
+ 
+ #: wcd.c:2002
+ #, c-format
+ msgid "  -z NUMBER               set max stack siZe\n"
+-msgstr "  -z NUMMER               ställ in max stackstorlek\n"
++msgstr "  -z NUMMER               ange högsta stackstorlek\n"
+ 
+ #: wcd.c:2003
+ #, c-format
+ msgid "  -[NUMBER]               push dir (NUMBER times)\n"
+-msgstr "  -[TAL]                  push-katalog (TAL gånger)\n"
++msgstr "  -[TAL]                  lägg katalog på stacken (TAL gånger)\n"
+ 
+ #: wcd.c:2004
+ #, c-format
+ msgid "  +[NUMBER]               pop dir (NUMBER times)\n"
+-msgstr "  +[TAL]                  pop-katalog (TAL gånger)\n"
++msgstr "  +[TAL]                  ta bort katalog från stacken (TAL gånger)\n"
+ 
+ #: wcd.c:2005
+ #, c-format
+ msgid "  =                       show stack\n"
+-msgstr "  =                       visa stack\n"
++msgstr "  =                       visa stacken\n"
+ 
+ #: wcd.c:2014 wcd.c:2144
+ #, c-format
+@@ -461,22 +461,22 @@
+ #: wcd.c:2019
+ #, c-format
+ msgid "DOS 16 bit version (WATCOMC).\n"
+-msgstr "DOS 16 bitars-version (WATCOMC).\n"
++msgstr "DOS 16-bitarsversion (WATCOMC).\n"
+ 
+ #: wcd.c:2021
+ #, c-format
+ msgid "DOS 16 bit version (TURBOC).\n"
+-msgstr "DOS 16 bitars-version (TURBOC).\n"
++msgstr "DOS 16-bitarsversion (TURBOC).\n"
+ 
+ #: wcd.c:2023
+ #, c-format
+ msgid "DOS 32 bit version (DJGPP).\n"
+-msgstr "DOS 32 bitars-version (DJGPP).\n"
++msgstr "DOS 32-bitarsversion (DJGPP).\n"
+ 
+ #: wcd.c:2025
+ #, c-format
+ msgid "DOS 32 bit version (WATCOMC).\n"
+-msgstr "DOS 32 bitars-version (WATCOMC).\n"
++msgstr "DOS 32-bitarsversion (WATCOMC).\n"
+ 
+ #: wcd.c:2032
+ #, c-format
+@@ -531,7 +531,7 @@
+ #: wcd.c:2071
+ #, c-format
+ msgid "This version is for native MSYS.\n"
+-msgstr "Denna version är för inbyggd MSYS.\n"
++msgstr "Den här versionen är avsedd för inbyggt MSYS.\n"
+ 
+ #: wcd.c:2074
+ #, c-format
+@@ -576,7 +576,7 @@
+ #: wcd.c:2107
+ #, c-format
+ msgid "Native language support included.\n"
+-msgstr "Stöd för lokalt språk ingår.\n"
++msgstr "Språkstöd ingår.\n"
+ 
+ #: wcd.c:2108
+ #, c-format
+@@ -586,7 +586,7 @@
+ #: wcd.c:2110
+ #, c-format
+ msgid "No native language support included.\n"
+-msgstr "Stöd för lokalt språk ingår inte.\n"
++msgstr "Språkstöd ingår inte.\n"
+ 
+ #: wcd.c:2113
+ #, c-format
+@@ -606,7 +606,7 @@
+ #: wcd.c:2123
+ #, c-format
+ msgid "  Euro symbol: "
+-msgstr "  Euro-symbol: "
++msgstr "  Eurosymbol: "
+ 
+ #: wcd.c:2125
+ #, c-format
+@@ -644,11 +644,11 @@
+ "Kai Uwe Rommel and Igor Mandrichenko on recmatch()\n"
+ msgstr ""
+ "Copyright (C) 1996-%d Erwin Waterlander\n"
+-"Copyright (C) 1994-2002 Ondrej Popp med C3PO\n"
+-"Copyright (C) 1995-1996 DJ Delorie med _fixpath()\n"
+-"Copyright (C) 1995-1996 Borja Etxebarria & Olivier Sirol med Ninux Czo-katalog\n"
++"Copyright (C) 1994-2002 Ondrej Popp on C3PO\n"
++"Copyright (C) 1995-1996 DJ Delorie on _fixpath()\n"
++"Copyright (C) 1995-1996 Borja Etxebarria & Olivier Sirol on Ninux Czo Directory\n"
+ "Copyright (C) 1990-1992 Mark Adler, Richard B. Wales, Jean-loup Gailly,\n"
+-"Kai Uwe Rommel och Igor Mandrichenko med recmatch()\n"
++"Kai Uwe Rommel and Igor Mandrichenko on recmatch()\n"
+ 
+ #: wcd.c:2152
+ #, c-format
+@@ -659,10 +659,10 @@
+ "Rugxulo is the original author of query_con_codepage() (public domain).\n"
+ "\n"
+ msgstr ""
+-"Källkoden för att skanna Windows LAN skrevs och släpptes ursprungligen\n"
+-"för fri användning av Felix Kasza.\n"
+-"Använder Markus Kuhns fria implementationer av wcwidth() och wcswidth().\n"
+-"Rugxulo är den ursprungliga författaren till query_con_codepage() (fri användning)\n"
++"Källkoden för att söka igenom Windows LAN skrevs ursprungligen och gjordes\n"
++"tillgänglig som allmän egendom av Felix Kasza.\n"
++"Markus Kuhns fria implementationer av wcwidth() och wcswidth() används.\n"
++"Rugxulo är ursprunglig författare till query_con_codepage() (allmän egendom).\n"
+ "\n"
+ 
+ #: wcd.c:2158
+@@ -719,11 +719,11 @@
+ #: wcd.c:2564
+ #, c-format
+ msgid "Failed to unset environment variable TERM: %s\n"
+-msgstr "Misslyckades med att nollställa miljövariabeln TERM: %s\n"
++msgstr "Misslyckades med att ta bort miljövariabeln TERM: %s\n"
+ 
+ #: wcd.c:2622 wcd.c:2651
+ msgid "Environment variable HOME or WCDHOME is not set.\n"
+-msgstr "Miljövariabeln HOME eller WCDHOME är inte inställd.\n"
++msgstr "Miljövariabeln HOME eller WCDHOME är inte satt.\n"
+ 
+ #: wcd.c:2834
+ #, c-format
+@@ -744,7 +744,7 @@
+ 
+ #: wcd.c:2881
+ msgid "Graphics mode only supported in wcd with curses-based interface.\n"
+-msgstr "Wcd stöder endast grafiskt läge med curses-baserat gränssnitt.\n"
++msgstr "Grafiskt läge stöds endast i wcd med ett curses-baserat gränssnitt.\n"
+ 
+ #: wcd.c:3162
+ #, c-format
+@@ -754,7 +754,7 @@
+ #: wcd.c:3261
+ #, c-format
+ msgid "Unable to read file %s or %s\n"
+-msgstr "Det gick inte att läsa filen %s eller %s\n"
++msgstr "Kunde inte läsa filen %s eller %s\n"
+ 
+ #: wcd.c:3411
+ #, c-format
+@@ -783,17 +783,17 @@
+ 
+ #: wcd.c:3678
+ msgid "Perhaps you need to rescan the disk or path is banned.\n"
+-msgstr "Du kanske behöver läsa av disken igen eller så är sökvägen förbjuden.\n"
++msgstr "Du kan behöva söka igenom disken igen, eller så är sökvägen spärrad.\n"
+ 
+ #: wcd.c:3807
+ #, c-format
+ msgid "Cannot change to %s\n"
+-msgstr "Det går inte att ändra till %s\n"
++msgstr "Kan inte byta till %s\n"
+ 
+ #: wcddir.c:109
+ #, c-format
+ msgid "%lu (\"%s\") reported by \"%s\".\n"
+-msgstr "%lu (\"%s\") rapporterad av \"%s\".\n"
++msgstr "%lu (”%s”) rapporterades av ”%s”.\n"
+ 
+ #: wcddir.c:131
+ msgid "access denied.\n"
+@@ -811,46 +811,46 @@
+ 
+ #: wcddir.c:335
+ msgid "Unable to get current working directory: "
+-msgstr "Det går inte att hämta aktuell arbetskatalog: "
++msgstr "Kunde inte hämta aktuell arbetskatalog: "
+ 
+ #: wcddir.c:362
+ #, c-format
+ msgid "Unable to change to directory %s: "
+-msgstr "Det gick inte att ändra till katalog %s: "
++msgstr "Kunde inte byta till katalogen %s: "
+ 
+ #: wcddir.c:392
+ #, c-format
+ msgid "Unable to create directory %s: "
+-msgstr "Det gick inte att skapa katalog %s: "
++msgstr "Kunde inte skapa katalogen %s: "
+ 
+ #: wcddir.c:420
+ #, c-format
+ msgid "Unable to remove directory %s: "
+-msgstr "Det gick inte att ta bort katalog %s: "
++msgstr "Kunde inte ta bort katalogen %s: "
+ 
+ #: wcddir.c:543 wcddir.c:554
+ #, c-format
+ msgid "Unable to create directory %s: %s\n"
+-msgstr "Det gick inte att skapa katalog %s: %s\n"
++msgstr "Kunde inte skapa katalogen %s: %s\n"
+ 
+ #: wcddir.c:660
+ #, c-format
+ msgid "Unable to get current working directory: %s\n"
+-msgstr "Det gick inte att hämta aktuell arbetskatalog: %s\n"
++msgstr "Kunde inte hämta aktuell arbetskatalog: %s\n"
+ 
+ #: wcddir.c:674
+ #, c-format
+ msgid "Unable to change to directory %s: %s\n"
+-msgstr "Det gick inte att byta till katalog %s: %s\n"
++msgstr "Kunde inte byta till katalogen %s: %s\n"
+ 
+ #: wcddir.c:683
+ #, c-format
+ msgid "Unable to remove directory %s: %s\n"
+-msgstr "Det gick inte att ta bort katalog %s: %s\n"
++msgstr "Kunde inte ta bort katalogen %s: %s\n"
+ 
+ #: stack.c:101
+ msgid "Error parsing stack\n"
+-msgstr "Fel vid analys av stack\n"
++msgstr "Fel vid tolkning av stacken\n"
+ 
+ #: display.c:263
+ msgid "internal error in maxLength(), list == NULL\n"
+@@ -863,7 +863,7 @@
+ #: display.c:524 display.c:1150 display.c:1538
+ #, c-format
+ msgid "Perfect match for %d directories."
+-msgstr "Perfekt matchning för %d kataloger."
++msgstr "Exakt matchning för %d kataloger."
+ 
+ #: display.c:526 display.c:1152 display.c:1540
+ #, c-format
+@@ -873,7 +873,7 @@
+ #: display.c:530 display.c:1164 display.c:1542 display.c:1585
+ #, c-format
+ msgid "Please choose one (<Enter> to abort): "
+-msgstr "Välj (<Retur> för att avbryta): "
++msgstr "Välj en (<Retur> för att avbryta): "
+ 
+ #: display.c:532 display.c:608 display.c:640 display.c:1157
+ #, c-format
+@@ -882,7 +882,7 @@
+ 
+ #: display.c:684 display.c:1180
+ msgid "Screenheight must be > 20 for help."
+-msgstr "Skärmhöjden måste vara > 20 för att visa hjälp."
++msgstr "Skärmhöjden måste vara större än 20 för hjälp."
+ 
+ #: display.c:689 display.c:1183
+ msgid "w or <Up>         page up"
+@@ -935,28 +935,28 @@
+ #: display.c:1194 graphics.c:1979 graphics.c:1996 graphics.c:2019
+ #: graphics.c:2036
+ msgid "Press any key."
+-msgstr "Tryck valfri knapp."
++msgstr "Tryck på valfri knapp."
+ 
+ #: display.c:1256 graphics.c:2289
+ msgid "Error opening terminal, falling back to stdout interface.\n"
+-msgstr "Fel vid öppning av terminal, återgår till stdout-gränssnitt.\n"
++msgstr "Fel vid öppning av terminalen, återgår till standard ut-gränssnittet.\n"
+ 
+ #: display.c:1277
+ msgid "screen height must be larger than 3 lines.\n"
+-msgstr "skärmhöjden måste vara större än 3 rader.\n"
++msgstr "Skärmhöjden måste vara större än 3 rader.\n"
+ 
+ #: display.c:1318 graphics.c:2314
+ msgid "error creating scroll window.\n"
+-msgstr "fel vid skapandet av bläddringsfönster.\n"
++msgstr "Fel vid skapande av bläddringsfönster.\n"
+ 
+ #: display.c:1334 graphics.c:2330
+ msgid "error creating input window.\n"
+-msgstr "fel när inmatningsfönstret skapades.\n"
++msgstr "Fel vid skapande av inmatningsfönster.\n"
+ 
+ #: graphics.c:290
+ #, c-format
+ msgid "Wcd: error: path too long"
+-msgstr "Wcd: fel: för lång sökväg"
++msgstr "Wcd: fel: sökvägen är för lång"
+ 
+ #: graphics.c:1940
+ msgid "/ = search forward,  ? = search backward,  : = help"
+@@ -992,27 +992,27 @@
+ 
+ #: graphics.c:1969
+ msgid "* or v or <Space> go forward to dir with same name"
+-msgstr "* eller v eller <Mellanslag> gå framåt till katalog med samma namn"
++msgstr "* eller v eller <Mellanslag> gå framåt till katalogen med samma namn"
+ 
+ #: graphics.c:1970
+ msgid "# or p or <BS>    go backward to dir with same name"
+-msgstr "# eller p eller <BS>  gå bakåt till katalog med samma namn"
++msgstr "# eller p eller <BS>  gå bakåt till katalogen med samma namn"
+ 
+ #: graphics.c:1971
+ msgid "^ or a            go to beginning of line"
+-msgstr "^ eller a          gå till början av rad"
++msgstr "^ eller a          gå till början av raden"
+ 
+ #: graphics.c:1972
+ msgid "$ or e            go to end of line"
+-msgstr "$ eller e          gå till slutet av rad"
++msgstr "$ eller e          gå till slutet av raden"
+ 
+ #: graphics.c:1973
+ msgid "1                 go to root dir"
+-msgstr "1                  gå till root-katalog"
++msgstr "1                  gå till rotkatalogen"
+ 
+ #: graphics.c:1974
+ msgid "g or G            go to last dir"
+-msgstr "g eller G          gå till senaste katalog"
++msgstr "g eller G          gå till den senaste katalogen"
+ 
+ #: graphics.c:1975
+ msgid "f                 go page forward"
+@@ -1036,7 +1036,7 @@
+ 
+ #: graphics.c:1986
+ msgid "A                 switch alternative tree navigation on/off"
+-msgstr "A                 växla alternativ trädnavigering av/på"
++msgstr "A                 växla alternativ trädnavigering på/av"
+ 
+ #: graphics.c:1987
+ msgid "t                 switch centered mode on/off"
+@@ -1072,7 +1072,7 @@
+ 
+ #: graphics.c:2002
+ msgid "SEARCH MODE with wildcard and subdir support:"
+-msgstr "SÖKLÄGE    med stöd för jokertecken och underkataloger:"
++msgstr "SÖKLÄGE med stöd för jokertecken och underkataloger:"
+ 
+ #: graphics.c:2003
+ msgid "<Left>            go left"
+@@ -1100,35 +1100,35 @@
+ 
+ #: graphics.c:2009
+ msgid "CTRL-a            go to beginning of line"
+-msgstr "CTRL-a            gå till början av rad"
++msgstr "CTRL-a            gå till början av raden"
+ 
+ #: graphics.c:2010
+ msgid "CTRL-e            go to end of line"
+-msgstr "CTRL-e            gå till slutet av rad"
++msgstr "CTRL-e            gå till slutet av raden"
+ 
+ #: graphics.c:2011
+ msgid "CTRL-g            go to last dir"
+-msgstr "CTRL-g            gå till senaste katalog"
++msgstr "CTRL-g            gå till den senaste katalogen"
+ 
+ #: graphics.c:2012
+ msgid "CTRL-f            go page forward"
+-msgstr "CTRL-f            gå sida framåt"
++msgstr "CTRL-f            gå en sida framåt"
+ 
+ #: graphics.c:2013
+ msgid "CTRL-b            go page backward"
+-msgstr "CTRL-b            gå sida bakåt"
++msgstr "CTRL-b            gå en sida bakåt"
+ 
+ #: graphics.c:2014
+ msgid "CTRL-u            go half page up"
+-msgstr "CTRL-u            gå halv sida upp"
++msgstr "CTRL-u            gå en halv sida upp"
+ 
+ #: graphics.c:2015
+ msgid "CTRL-d            go half page down"
+-msgstr "CTRL-d            gå halv sida ner"
++msgstr "CTRL-d            gå en halv sida nedåt"
+ 
+ #: graphics.c:2016
+ msgid "<Esc> or CTRL-x   abort SEARCH MODE"
+-msgstr "<Esc> eller CTRL-x  avbryt SÖKLÄGE"
++msgstr "<Esc> eller CTRL-x  avbryt sökläget"
+ 
+ #: graphics.c:2017
+ msgid "CTRL-n            repeat last / or ? search"
+@@ -1136,7 +1136,7 @@
+ 
+ #: graphics.c:2025
+ msgid "ZOOMING:"
+-msgstr "ZOOMA:"
++msgstr "ZOOMNING:"
+ 
+ #: graphics.c:2026
+ msgid "z or i or CTRL-i  zoom in"
+@@ -1148,19 +1148,19 @@
+ 
+ #: graphics.c:2028
+ msgid "c                 condense: fold current level"
+-msgstr "c                 tät: fäll in aktuell nivå"
++msgstr "c                 komprimera: fäll in aktuell nivå"
+ 
+ #: graphics.c:2029
+ msgid "C                 condense: fold subdir level"
+-msgstr "C                 tät: fäll in underliggande katalognivå"
++msgstr "C                 komprimera: fäll in underliggande katalognivå"
+ 
+ #: graphics.c:2030
+ msgid "w                 condense: fold current and subdir levels"
+-msgstr "w                 tät: fäll in aktuell och underliggande katalognivåer"
++msgstr "w                 komprimera: fäll in aktuell och underliggande katalognivåer"
+ 
+ #: graphics.c:2031
+ msgid "y or CTRL-y       uncondense: unfold current and subdir levels"
+-msgstr "y eller CTRL-y    expanderad: fäll ut aktuell och underliggande katalognivåer"
++msgstr "y eller CTRL-y    expandera: fäll ut aktuell och underliggande katalognivåer"
+ 
+ #: graphics.c:2032
+ msgid "r or CTRL-r       uncondense: unfold all directories"
+@@ -1180,33 +1180,33 @@
+ 
+ #: graphics.c:2039
+ msgid "Screenheight must be > 21 for help."
+-msgstr "Skärmhöjden måste vara > 21 för hjälp."
++msgstr "Skärmhöjden måste vara större än 21 för hjälp."
+ 
+ #: graphics.c:2271 graphics.c:2757
+ #, c-format
+ msgid "Cannot find the current path %s in the directory tree.\n"
+-msgstr "Det gick inte att hitta den aktuella sökvägen %s i katalogträdet.\n"
++msgstr "Hittade inte den aktuella sökvägen %s i katalogträdet.\n"
+ 
+ #: finddirs.c:241 finddirs.c:249 finddirs.c:273 finddirs.c:300 finddirs.c:314
+ #, c-format
+ msgid "Unable to remove file %s: %s\n"
+-msgstr "Det gick inte att ta bort fil %s: %s\n"
++msgstr "Kunde inte ta bort filen %s: %s\n"
+ 
+ #: finddirs.c:322 finddirs.c:486
+ #, c-format
+ msgid "Unable to close directory %s: %s\n"
+-msgstr "Det gick inte att stänga katalog %s: %s\n"
++msgstr "Kunde inte stänga katalogen %s: %s\n"
+ 
+ #: finddirs.c:365
+ #, c-format
+ msgid "finddirs(): can't determine path in directory %s\n"
+-msgstr "finddirs(): det går inte att bestämma sökväg i katalog %s\n"
++msgstr "finddirs(): kan inte fastställa sökvägen i katalogen %s\n"
+ 
+ #: finddirs.c:366
+ msgid "path probably too long.\n"
+-msgstr "sökvägen förmodligen för lång.\n"
++msgstr "Sökvägen är troligen för lång.\n"
+ 
+ #: c3po/Error.c:41
+ #, c-format
+ msgid "in '%s', insufficient memory for allocation\n"
+-msgstr "i '%s', otillräckligt minne för allokering\n"
++msgstr "i ”%s”, inte tillräckligt med minne för allokering\n"
