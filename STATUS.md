@@ -1,3 +1,4 @@
+- **GitLab – skyddade grenar, grupp 76 (2026-09-21):** 23 säkerhetskritiska poster radgranskade för taggar, CODEOWNERS, kodägargodkännanden, grenregler och skyddsborttagning. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skyddade grenar, grupp 75 (2026-09-21):** 30 säkerhetskritiska poster radgranskade för tvingade pushar, godkännanden, CI/CD-behörigheter, kodägare och ärvda grenregler. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – förskanningsverifiering, grupp 74 (2026-09-21):** 20 säkerhetskritiska poster radgranskade för autentisering, målutforskning, interna länkar, konfigurationsändringar och verifieringsstatus. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – DAST på begäran, grupp 73 (2026-09-21):** 4 poster radgranskade för granskarbehörighet, osparade ändringar och projektarkivskrav. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
