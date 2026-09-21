@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – efterlevnadskontroller för kodägare och pipelineinställningar, grupp 39 (2026-09-21):** Tolv lokalt XLIFF-granskade poster är CrowdIn-publicerade: direkta/framtvingade uppskick, krav på grenuppdatering, kodägare, ärendespårning, jobbtokenomfång, linjär historik, sammanfogningsbehörigheter och pipelineåtkomst. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – efterlevnadskontroller för Terraform och CI/CD-variabler, grupp 38 (2026-09-21):** Tio lokalt XLIFF-granskade poster är CrowdIn-publicerade: Terraform, externa kontroller, Package Hunter, godkännandeinställningar, Ultimate-licens och CI/CD-variabler begränsade till underhållare. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – efterlevnadskontroller för SLO, CI/CD och grenskydd, grupp 37 (2026-09-21):** Tio lokalt XLIFF-granskade poster är CrowdIn-publicerade: tjänstenivåmål för sårbarheter, Terraform, CI/CD, statussida, rensning av inaktuella grenar, kodägare, containerskanning och skyddsregler. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
