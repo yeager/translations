@@ -1,3 +1,4 @@
+- **GitLab – artefaktregister: OCI och registerdetaljer (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – artefaktregister: lagringsplatser och manifest (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – artefaktregister: åtkomst och konfiguration (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – paketregister: pluralformer (6 poster, 2026-09-21):** Radgranskade och publicerade via CrowdIns plural-API; l10n-lint v1.21.6: 0 fel. Alla oöversatta PackageRegistry-poster i aktuell XLIFF är nu hanterade.
