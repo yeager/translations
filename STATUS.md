@@ -1,3 +1,4 @@
+- **GitLab – sårbarhetsstatus, grupp 90 (2026-09-21):** 12 säkerhetskritiska poster radgranskade för CVSS, EPSS, CVE/CWE, risk, skannarversion och status. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – licensskanning och SBOM, grupp 89 (2026-09-21):** 6 säkerhetskritiska poster radgranskade för CycloneDX, licensskanning, policy och ofullständiga SBOM-rapporter. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skyddade taggar, grupp 88 (2026-09-21):** 11 säkerhetskritiska poster radgranskade för taggskydd, skapande, uppdatering och matchningsregler. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skyddade miljöer, grupp 87 (2026-09-21):** 30 säkerhetskritiska poster radgranskade för driftsättningsbehörigheter, godkännanden, miljönivåer, överordnade grupper och skyddsborttagning. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
