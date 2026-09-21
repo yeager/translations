@@ -1,3 +1,4 @@
+- **GitLab – minsta behörighet, grupp 80 (2026-09-21):** 20 säkerhetskritiska poster radgranskade för Minimal åtkomst, platsbegränsningar, administratörsflöden och gruppbehörigheter. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – CI/CD-jobbtoken, grupp 79 (2026-09-21):** 20 säkerhetskritiska poster radgranskade för finkorniga behörigheter, roller, API-slutpunkter, resurser och Terraform-tillstånd. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – grupp-SAML och SCIM, grupp 78 (2026-09-21):** 20 säkerhetskritiska poster radgranskade för NameID, sessionsupphörande, SCIM-token, certifikatfingeravtryck, gruppsynkronisering och Duo-platser. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – grupp-SAML och SCIM, grupp 77 (2026-09-21):** 30 säkerhetskritiska poster radgranskade för SSO, identitetsleverantör, SCIM-token, certifikat, omautentisering och begränsad åtkomst. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
