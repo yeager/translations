@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – incidenthantering, grupp 25 (2026-09-21):** 41 lokalt XLIFF-granskade poster är CrowdIn-publicerade: incidentmallar, inkommande larm, SLA-nedräkning, allvarlighetsgrader, ansvariga, larmning och eskaleringspolicyer samt publicering på statussidan. Tids- och siffervariabler är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – administrations- och databasinställningar, grupp 24 (2026-09-21):** 17 lokalt XLIFF-granskade poster är CrowdIn-publicerade: sessionshistorik och -stickprov, databasaktivitet via pg_ash, API-gränser för granskningshändelser samt administrationsområdets missbruk, nycklar, pushregler och loggar. Produktnamn, API och måttvärden är bevarade. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – sammanfogningsbegäranden, grupp 23 (2026-09-21):** 34 lokalt XLIFF-granskade poster är CrowdIn-publicerade: granskningstillstånd, staplade sammanfogningsbegäranden, skyddade variabler/körare, diff-fel, granskare, konflikter, AI-skapade beskrivningar och versionsmarkörer. Alla format- och länkplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
