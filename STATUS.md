@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – DAST-profiler, grupp 9 (2026-09-21):** 26 lokalt XLIFF-granskade och CrowdIn-publicerade poster täcker skanner-/webbplatsprofiler, DOM- och genomsökningstidsgränser, loggnivåer, cookienamn, begärandehuvuden och URL-/värd-/sökvägsundantag. Därmed är säkerhetskritiska kontrollbegränsningar tydliga på svenska. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
+
 **GitLab – DAST-profiler, grupp 8 (2026-09-21):** 19 XLIFF-poster är kontextgranskade och CrowdIn-publicerade. Gruppen omfattar konfiguration och variabler, cookies och begärandehuvuden, OTP-/flerstegsinloggning, webbplatsprofiler, passiv/aktiv skanning samt de uttryckliga säkerhetsriskerna med att aktivt angripa ett mål. API-, URL- och markdownplatshållare är bevarade. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
 
 **GitLab – CI/CD-jobbtoken och skyddade pipelines, grupp 7 (2026-09-21):** 24 säkerhetsnära XLIFF-poster är kontextgranskade och CrowdIn-publicerade: tokeners tillåtelselistor och behörigheter, rensning/loggning, driftsättningsstrategi, AI-utlösta pipelines, skyddade grenar och separata cachar. Särskilt är den automatiska AI-agentkörningen uttryckligen översatt med dess frånvaro av granskning/manuell interaktion. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
