@@ -1,3 +1,4 @@
+- **GitLab – artefaktregister: yarn (1 sträng, 2026-09-21):** Radgranskad och publicerad i CrowdIn; l10n-lint v1.21.6: 0 fel. Alla oöversatta vanliga ArtifactRegistry-poster i aktuell XLIFF är nu hanterade.
 - **GitLab – artefaktregister: organisation och åtkomst (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – artefaktregister: lagringsplatser och roller (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – artefaktregister: OCI och registerdetaljer (15 strängar, 2026-09-21):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
