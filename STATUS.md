@@ -1,3 +1,4 @@
+- **GitLab – skyddade taggar, grupp 88 (2026-09-21):** 11 säkerhetskritiska poster radgranskade för taggskydd, skapande, uppdatering och matchningsregler. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skyddade miljöer, grupp 87 (2026-09-21):** 30 säkerhetskritiska poster radgranskade för driftsättningsbehörigheter, godkännanden, miljönivåer, överordnade grupper och skyddsborttagning. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – standardgrensskydd, grupp 86 (2026-09-21):** 15 säkerhetskritiska poster radgranskade för pushbehörigheter, tvingade pushar, första incheckning, skyddsnivåer och merge requests. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – beroendeproxy, grupp 85 (2026-09-21):** 26 säkerhets- och leveranskedjeposter radgranskade för externa register, Docker-avbildningar, cache, sammandrag och anslutningsinställningar. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
