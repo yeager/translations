@@ -1378,7 +1378,7 @@
  #: ../man/ps.1:72
  msgid "The use of BSD-style options will add process state (stat=STAT) to the default display and show the command args (args=COMMAND) instead of the executable name.  You can override this with the B<PS_FORMAT> environment variable.  The use of BSD-style options will also change the process selection to include processes on other terminals (TTYs) that are owned by you; alternately, this may be described as setting the selection to be the set of all processes filtered to exclude processes owned by other users or not on a terminal.  These effects are not considered when options are described as being \"identical\" below, so B<-M> will be considered identical to B<Z> and so on."
 -msgstr "Användningen av flaggor i BSD-stil kommer lägga till porcesstatus (stat=STAT) till standardutmatningen och visa kommandoargumenten (args=KOMMANDO) istället för den körbaras namn. Man kan åsidsätta detta med miljövariabeln B<PS_FORMAT>. Användningen av flaggor i BSD-stil kommer även ändra processvalet till att inkludera processer på andra terminaler (TTY:er) som ägs av dig; alternativt kan detta beskrivas som att ställa in valet till att vara mängden av alla processer filtrerad till att utesluta processer som ägs av andr användare eller inte av en termina. Dessa effekter betraktas inte när flaggor beskrivs som att vara ”identiska” nedan, så B<-M> kommer anses identiskt med B<Z> och så vidare."
-+msgstr "Användning av flaggor i BSD-stil lägger till process-status (stat=STAT) i standardutdata och visar kommandoargumenten (args=COMMAND) i stället för det körbara namnet. Du kan åsidosätta detta med miljövariabeln B<PS_FORMAT>. Flaggor i BSD-stil ändrar även urvalet så att processer på andra terminaler (TTY:er) som du äger inkluderas. Det kan också beskrivas som att urvalet omfattar alla processer, filtrerade så att processer som ägs av andra användare eller saknar terminal utesluts. Dessa effekter beaktas inte när flaggor nedan beskrivs som ”identiska”; B<-M> anses därför identisk med B<Z> och så vidare."
++msgstr "Användning av flaggor i BSD-stil lägger till processtatus (stat=STAT) i standardutdata och visar kommandoargumenten (args=COMMAND) i stället för det körbara namnet. Du kan åsidosätta detta med miljövariabeln B<PS_FORMAT>. Flaggor i BSD-stil ändrar även urvalet så att processer på andra terminaler (TTY:er) som du äger inkluderas. Det kan också beskrivas som att urvalet omfattar alla processer, filtrerade så att processer som ägs av andra användare eller saknar terminal utesluts. Dessa effekter beaktas inte när flaggor nedan beskrivs som ”identiska”; B<-M> anses därför identisk med B<Z> och så vidare."
  
  #. type: Plain text
  #: ../man/ps.1:77
@@ -3445,7 +3445,7 @@
  msgstr ""
 -"    visat          processtatus (\\[rq]S\\[rq])\n"
 -"    —————          ——————————————————\n"
-+"    visas          process-status (\\[oq]S\\[cq])\n"
++"    visas          processtatus (\\[oq]S\\[cq])\n"
 +"    ---------      --------------------\n"
  "    kör            R\n"
 -"    sover          S + resten\n"
@@ -5593,7 +5593,7 @@
  #: ../man/top.1:1883
  msgid "Changes highlighting for \"running\" tasks.  For additional insight into this task state, \\*(Xt 3a. DESCRIPTIONS of Fields, the \\[oq]S\\[cq] field (Process Status)."
 -msgstr "Byter markering för ”körande” uppgifter. För ytterligare kunskap om detta uppgiftstillstånd, \\*(Xt 3a. BESKRIVNING av fält, fältet \\[rq]S\\[rq] (processtatus)."
-+msgstr "Ändrar markeringen för ”körande” uppgifter. Mer information om detta uppgiftstillstånd finns i \\*(Xt 3a. BESKRIVNINGAR AV FÄLT, fältet \\[oq]S\\[cq] (process-status)."
++msgstr "Ändrar markeringen för ”körande” uppgifter. Mer information om detta uppgiftstillstånd finns i \\*(Xt 3a. BESKRIVNINGAR AV FÄLT, fältet \\[oq]S\\[cq] (processtatus)."
  
  #. type: Plain text
  #: ../man/top.1:1886
