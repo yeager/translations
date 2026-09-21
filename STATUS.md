@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – säkerhetspolicyer, grupp 15 (2026-09-21):** Nio XLIFF-poster för risk- och sårbarhetsallvarlighetsgrad, policyundantag och skadliga beroenden är kontextgranskade och CrowdIn-publicerade. Alla `%{…}`-platshållare är validerade; `l10n-lint` v1.21.6 passerar fortsatt med 0 fel på hela exporten.
+
 **GitLab – SAST och sårbarhetsresultat, grupp 14 (2026-09-21):** 20 lokalt XLIFF-granskade och CrowdIn-publicerade poster täcker SAST-konfiguration i CI/CD, kodsårbarheter, standardgrenar, IaC, kritiska fynd, JSON-rapporter och Duo SAST:s hantering av falska positiva resultat. Källfilnamn och formatvärden är bevarade. Hela exporten passerar `l10n-lint` v1.21.6 utan fel.
 
 **GitLab – DAST-profiler, radgranskning klar (2026-09-21):** De sista 26 språkbara profilposterna är kontextgranskade och CrowdIn-publicerade: skanningsmetod/-läge, spindelgenomsökning, profilhantering, cookier/huvuden, återförsök och avancerade DOM-väljare. De enda fem mål som avsiktligt är oförändrade är `/graphql`, den generiska etiketten `URL` och tre bokstavliga exempel-URL:er med HAR/OpenAPI/Postman-format. DAST-profilernas svenska gränssnitt är därmed radgranskat; hela exporten passerar `l10n-lint` v1.21.6 utan fel.
