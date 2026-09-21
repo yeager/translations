@@ -925,6 +925,15 @@
  
  #: src/lang.c:632
  msgid "search backwards within this article"
+@@ -2188,7 +2193,7 @@
+ 
+ #: src/lang.c:634
+ msgid "show article in raw-mode (including all headers)"
+-msgstr "visa artikeln i råläge (inklusive alla huvuden)"
++msgstr "visa artikeln i råläge (inklusive alla rubriker)"
+ 
+ #: src/lang.c:635
+ msgid "skip next block of included text"
 @@ -2200,7 +2205,7 @@
  
  #: src/lang.c:637
@@ -3301,6 +3310,15 @@
  
  #: src/lang.c:1712
  msgid "Piping not enabled."
+@@ -6090,7 +6100,7 @@
+ "%s\n"
+ msgstr ""
+ "\n"
+-"Varning: huvudet på rad %d börjar med det ovanliga tecknet '%c':\n"
++"Varning: rubriken på rad %d börjar med det ovanliga tecknet '%c':\n"
+ "%s\n"
+ 
+ #: src/lang.c:1736
 @@ -6158,12 +6168,12 @@
  #: src/lang.c:1763
  #, c-format
@@ -3316,3 +3334,351 @@
  
  #: src/lang.c:1769
  msgid "Server unavailable\n"
+@@ -6697,11 +6707,11 @@
+ 
+ #: src/lang.c:2166
+ msgid "With headers"
+-msgstr "Med huvuden"
++msgstr "Med rubriker"
+ 
+ #: src/lang.c:2167
+ msgid "Without headers"
+-msgstr "Utan huvuden"
++msgstr "Utan rubriker"
+ 
+ #: src/lang.c:2174
+ msgid "NFKC"
+@@ -7486,11 +7496,11 @@
+ 
+ #: src/lang.c:2594 src/lang.c:2604
+ msgid "Space separated list of header fields"
+-msgstr "Mellanslagsseparerad lista över huvudfält"
++msgstr "Mellanslagsseparerad lista över rubrikfält"
+ 
+ #: src/lang.c:2595
+ msgid "Display these header fields (or *)"
+-msgstr "Visa dessa huvudfält (eller *)"
++msgstr "Visa dessa rubrikfält (eller *)"
+ 
+ #: src/lang.c:2596
+ msgid ""
+@@ -7500,15 +7510,15 @@
+ "# 'X-' (like X-Alan or X-Pape). You can list more than one by delimiting with\n"
+ "# spaces. Not defining anything turns off this option.\n"
+ msgstr ""
+-"# Vilka nyhetshuvuden du vill se. Om du vill se _alla_ huvudena,\n"
++"# Vilka nyhetsrubriker du vill se. Om du vill se _alla_ rubrikerna,\n"
+ "# placera ett \"*\" som detta värde. Detta är det enda sättet ett jokertecken kan användas på.\n"
+-"# Om du anger 'X-' som värde visas alla huvuden som börjar med\n"
++"# Om du anger 'X-' som värde visas alla rubriker som börjar med\n"
+ "# 'X-' (som X-Alan eller X-Pape). Du kan lista fler än en genom att avgränsa med\n"
+ "# mellanslag. Om du inte definierar något stängs detta alternativ av.\n"
+ 
+ #: src/lang.c:2605
+ msgid "Do not display these header fields"
+-msgstr "Visa inte dessa huvudfält"
++msgstr "Visa inte dessa rubrikfält"
+ 
+ #: src/lang.c:2606
+ msgid ""
+@@ -7521,7 +7531,7 @@
+ "# Not defining anything turns off this option.\n"
+ msgstr ""
+ "# Motsatsen till \"news_headers_to_display\". Om du exempelvis tycker att\n"
+-"# X-huvuden är En Bra Sak(tm), men att Alan och Pape är skurkar, kan\n"
++"# X-rubriker är En Bra Sak(tm), men att Alan och Pape är skurkar, kan\n"
+ "# du kombinera alternativen så här:\n"
+ "# news_headers_to_display=X-\n"
+ "# news_headers_to_not_display=X-Alan X-Pape\n"
+@@ -7751,7 +7761,7 @@
+ "# which will be removed before showing the header.\n"
+ msgstr ""
+ "# Ett reguljärt uttryck som tin kommer att använda för att hitta ämnesprefix\n"
+-"# som kommer att tas bort innan huvudet visas.\n"
++"# som kommer att tas bort innan rubriken visas.\n"
+ 
+ #: src/lang.c:2720
+ msgid "A regex used to find Subject suffixes to remove.  Use '|' as separator."
+@@ -8030,7 +8040,7 @@
+ "# If ON using slrnface(1) to interpret the ''X-Face:'' header.\n"
+ "# Only useful when running in an xterm.\n"
+ msgstr ""
+-"# Om ON använder slrnface(1) för att tolka huvudet ''X-Face:''.\n"
++"# Om ON använder slrnface(1) för att tolka rubriken ''X-Face:''.\n"
+ "# Endast användbart när du kör i en xterm.\n"
+ 
+ #: src/lang.c:2873
+@@ -8175,26 +8185,26 @@
+ 
+ #: src/lang.c:2956
+ msgid "Color of article header lines"
+-msgstr "Färg på artikelns huvudrader"
++msgstr "Färg på artikelns rubrikrader"
+ 
+ #: src/lang.c:2957
+ msgid ""
+ "# Color of header-lines\n"
+ "# Default: 2 (green)\n"
+ msgstr ""
+-"# Färg på huvudraderna\n"
++"# Färg på rubrikraderna\n"
+ "# Standard: 2 (grön)\n"
+ 
+ #: src/lang.c:2963
+ msgid "Color of actual news header fields"
+-msgstr "Färg på faktiska fält i nyhetshuvudet"
++msgstr "Färg på faktiska fält i nyhetsrubriken"
+ 
+ #: src/lang.c:2964
+ msgid ""
+ "# Color of actual news header fields\n"
+ "# Default: 9 (light red)\n"
+ msgstr ""
+-"# Färgen på de faktiska fälten i nyhetshuvudet\n"
++"# Färgen på de faktiska fälten i nyhetsrubriken\n"
+ "# Standard: 9 (ljusröd)\n"
+ 
+ #: src/lang.c:2970
+@@ -8519,7 +8529,7 @@
+ 
+ #: src/lang.c:3154
+ msgid "# If ON show empty Followup-To header when editing an article\n"
+-msgstr "# Om ON visar tom Followup-To-huvud när du redigerar en artikel\n"
++msgstr "# Om ON visar tom Followup-To-rubrik när du redigerar en artikel\n"
+ 
+ #: src/lang.c:3158
+ msgid "Enter path/! command/--none to create your default signature. <CR> sets."
+@@ -8640,15 +8650,15 @@
+ 
+ #: src/lang.c:3222
+ msgid "If ON, include User-Agent: header. <SPACE> toggles & <CR> sets."
+-msgstr "Om ON, inkludera User-Agent:-huvudet. <SPACE> växlar och <CR> ställer in."
++msgstr "Om ON, inkludera User-Agent:-rubriken. <SPACE> växlar och <CR> ställer in."
+ 
+ #: src/lang.c:3223
+ msgid "Insert ''User-Agent:'' header"
+-msgstr "Infoga ''User-Agent:''-huvud"
++msgstr "Infoga ''User-Agent:''-rubrik"
+ 
+ #: src/lang.c:3224
+ msgid "# If ON include advertising User-Agent: header\n"
+-msgstr "# Om ON inkluderas ett User-Agent:-huvud som anger programmet\n"
++msgstr "# Om ON inkluderas en User-Agent:-rubrik som anger programmet\n"
+ 
+ #: src/lang.c:3229
+ msgid "Enter charset name for MIME (e.g. US-ASCII, ISO-8859-1, EUC-KR), <CR> to set."
+@@ -8667,7 +8677,7 @@
+ "# If MIME_STRICT_CHARSET is defined at compile-time, charset other than\n"
+ "# mm_charset is considered not displayable and represented as '?'.\n"
+ msgstr ""
+-"# Teckenkodning som stöds lokalt och används i MIME- och Content-Type-huvuden.\n"
++"# Teckenkodning som stöds lokalt och används i MIME- och Content-Type-rubriker.\n"
+ "# Om den inte anges används miljövariabeln MM_CHARSET.\n"
+ "# Om ingetdera anges används US-ASCII eller standardvärdet från kompileringen.\n"
+ "# Om MIME_STRICT_CHARSET definierats vid kompileringen anses andra\n"
+@@ -8679,7 +8689,7 @@
+ 
+ #: src/lang.c:3242
+ msgid "# Charset used for MIME (Content-Type) header in postings.\n"
+-msgstr "# Teckenkodning för MIME-huvudet (Content-Type) i inlägg.\n"
++msgstr "# Teckenkodning för MIME-rubriken (Content-Type) i inlägg.\n"
+ 
+ #: src/lang.c:3246
+ msgid "Enter local charset name (e.g. US-ASCII, ISO-8859-1, EUC-KR), <CR> to set."
+@@ -8725,7 +8735,7 @@
+ 
+ #: src/lang.c:3271
+ msgid "Use 8-bit characters in news headers"
+-msgstr "Använd 8-bitars tecken i nyhetshuvuden"
++msgstr "Använd 8-bitars tecken i nyhetsrubriker"
+ 
+ #: src/lang.c:3272
+ msgid ""
+@@ -8734,9 +8744,9 @@
+ "# 8-bit chars in header are encoded regardless of the value of this\n"
+ "# parameter unless post_mime_encoding is 8bit as well.\n"
+ msgstr ""
+-"# Om ON, kodas INTE 8-bitars tecken i nyhetshuvuden.\n"
++"# Om ON, kodas INTE 8-bitars tecken i nyhetsrubriker.\n"
+ "# Standardinställningen är OFF. Därför kodas 8-bitars tecken som standard.\n"
+-"# 8-bitars tecken i huvudet kodas oavsett värdet på denna\n"
++"# 8-bitars tecken i rubriken kodas oavsett värdet på denna\n"
+ "# parameter, såvida inte post_mime_encoding också är 8bit.\n"
+ 
+ #: src/lang.c:3279
+@@ -8757,7 +8767,7 @@
+ 
+ #: src/lang.c:3292
+ msgid "Use 8-bit characters in mail headers"
+-msgstr "Använd 8-bitars tecken i e-posthuvuden"
++msgstr "Använd 8-bitars tecken i e-postrubriker"
+ 
+ #: src/lang.c:3293
+ msgid ""
+@@ -8768,11 +8778,11 @@
+ "# prohibits 8-bit characters in mail headers so that you are advised NOT to\n"
+ "# turn it ON unless you have some compelling reason.\n"
+ msgstr ""
+-"# Om ON, kodas INTE 8-bitars tecken i e-posthuvuden.\n"
++"# Om ON, kodas INTE 8-bitars tecken i e-postrubriker.\n"
+ "# Standardinställningen är OFF. Därför kodas 8-bitars tecken som standard.\n"
+-"# 8-bitars tecken i huvuden kodas oavsett värdet på denna parameter\n"
++"# 8-bitars tecken i rubriker kodas oavsett värdet på denna parameter\n"
+ "# såvida inte mail_mime_encoding också är 8bit. Observera att RFC 2822\n"
+-"# förbjuder 8-bitars tecken i e-posthuvuden, så du rekommenderas att INTE\n"
++"# förbjuder 8-bitars tecken i e-postrubriker, så du rekommenderas att INTE\n"
+ "# aktivera detta om du inte har någon tvingande anledning.\n"
+ 
+ #: src/lang.c:3304
+@@ -8830,7 +8840,7 @@
+ "# Use 'none' to not generate Cancel-Lock headers.\n"
+ msgstr ""
+ "# Hash-algoritm för Cancel-Lock/Cancel-Key (standard 'sha1')\n"
+-"# Använd 'none' för att inte generera Cancel-Lock-huvuden.\n"
++"# Använd 'none' för att inte generera Cancel-Lock-rubriker.\n"
+ 
+ #: src/lang.c:3340
+ msgid "Enter address elements about which you want to be warned. <CR> sets."
+@@ -8978,7 +8988,7 @@
+ 
+ #: src/lang.c:3410
+ msgid "# If ON print all of article header otherwise just the important lines\n"
+-msgstr "# Om ON skriv ut hela artikelhuvudet annars bara de viktiga raderna\n"
++msgstr "# Om ON skriv ut hela artikelrubriken annars bara de viktiga raderna\n"
+ 
+ #: src/lang.c:3414
+ msgid "The printer program with options that is to be used to print articles/threads."
+@@ -9065,8 +9075,8 @@
+ "# Interaktiv e-postläsare\n"
+ "# Möjliga värden är (standardvärdet är markerat med *):\n"
+ "# * 0 = ingen interaktiv postläsare\n"
+-"# 1 = använd interaktiv postläsare med huvuden i filen\n"
+-"# 2 = Använd interaktiv postläsare utan huvuden i filen\n"
++"# 1 = använd interaktiv postläsare med rubriker i filen\n"
++"# 2 = Använd interaktiv postläsare utan rubriker i filen\n"
+ 
+ #: src/lang.c:3459
+ msgid "Remove ~/.article after posting"
+@@ -9327,7 +9337,7 @@
+ 
+ #: src/lang.c:3599
+ msgid "Format string for display of mime header"
+-msgstr "Formatsträng för visning av mime-huvud"
++msgstr "Formatsträng för visning av mime-rubrik"
+ 
+ #: src/lang.c:3600
+ msgid ""
+@@ -9352,7 +9362,7 @@
+ "#   %Z              Size in bytes\n"
+ "#   %z              Like %Z but with description\n"
+ msgstr ""
+-"# Formatsträng för mime-huvud på artikelnivå\n"
++"# Formatsträng för mime-rubrik på artikelnivå\n"
+ "# Standard: [-- %T%S%*n%z%*l%!c%!d%*e --]\n"
+ "# Möjliga värden är:\n"
+ "# %% '%'\n"
+@@ -9375,7 +9385,7 @@
+ 
+ #: src/lang.c:3624
+ msgid "Format string for display of uue header"
+-msgstr "Formatsträng för visning av uue-huvud"
++msgstr "Formatsträng för visning av uue-rubrik"
+ 
+ #: src/lang.c:3625
+ msgid ""
+@@ -9397,7 +9407,7 @@
+ "#   %Z              Size in bytes\n"
+ "#   %z              Like %Z but with description\n"
+ msgstr ""
+-"# Formatsträng för uue-huvud på artikelnivå\n"
++"# Formatsträng för uue-rubrik på artikelnivå\n"
+ "# Standard: [-- %T%S%*n%I%!d%*e --]\n"
+ "# Möjliga värden är:\n"
+ "# %% '%'\n"
+@@ -9417,7 +9427,7 @@
+ 
+ #: src/lang.c:3646
+ msgid "Format string for display of yenc header"
+-msgstr "Formatsträng för visning av yenc-huvud"
++msgstr "Formatsträng för visning av yenc-rubrik"
+ 
+ #: src/lang.c:3647
+ msgid ""
+@@ -9449,7 +9459,7 @@
+ "#   %Z              Size in bytes\n"
+ "#   %z              Like %Z but with description\n"
+ msgstr ""
+-"# Formatsträng för yenc-huvud på artikelnivå\n"
++"# Formatsträng för yenc-rubrik på artikelnivå\n"
+ "# Standard: [-- %*N%!d%I [%F%G]%V%W%X --]\n"
+ "# Möjliga värden är:\n"
+ "#   %%              ’%’\n"
+@@ -9587,11 +9597,11 @@
+ 
+ #: src/lang.c:3762
+ msgid "Set Followup-To: header to this group(s). <CR> sets, <ESC> cancels."
+-msgstr "Sätt Followup-To:-huvudet till dessa grupper. <CR> ställer in, <ESC> avbryter."
++msgstr "Sätt Followup-To:-rubriken till dessa grupper. <CR> ställer in, <ESC> avbryter."
+ 
+ #: src/lang.c:3763
+ msgid "Followup-To: header"
+-msgstr "Followup-To:-huvud"
++msgstr "Followup-To:-rubrik"
+ 
+ #: src/lang.c:3768
+ msgid "Enter default mail address (and fullname). <CR> sets, <ESC> cancels."
+@@ -9627,11 +9637,11 @@
+ 
+ #: src/lang.c:3800
+ msgid "Value of the Organization: header. <CR> sets, <ESC> cancels."
+-msgstr "Värde för Organization:-huvudet. <CR> ställer in, <ESC> avbryter."
++msgstr "Värde för Organization:-rubriken. <CR> ställer in, <ESC> avbryter."
+ 
+ #: src/lang.c:3801
+ msgid "Organization: header"
+-msgstr "Organization:-huvud"
++msgstr "Organization:-rubrik"
+ 
+ #: src/lang.c:3806
+ msgid "Filename for saved articles. <CR> sets, <ESC> cancels."
+@@ -9651,11 +9661,11 @@
+ 
+ #: src/lang.c:3818 src/lang.c:3842
+ msgid "Header for filter rule. <CR> sets, <ESC> cancels."
+-msgstr "Huvud för filterregeln. <CR> ställer in, <ESC> avbryter."
++msgstr "Rubrik för filterregeln. <CR> ställer in, <ESC> avbryter."
+ 
+ #: src/lang.c:3819
+ msgid "Quick (1 key) select filter header"
+-msgstr "Snabbvalsfilter (1 tangent): huvud"
++msgstr "Snabbvalsfilter (1 tangent): rubrik"
+ 
+ #: src/lang.c:3824 src/lang.c:3848
+ msgid "ON = case sensitive, OFF = ignore case. <CR> sets, <ESC> cancels."
+@@ -9679,7 +9689,7 @@
+ 
+ #: src/lang.c:3843
+ msgid "Quick (1 key) kill filter header"
+-msgstr "Snabbt bortfilter (1 tangent): huvud"
++msgstr "Snabbt bortfilter (1 tangent): rubrik"
+ 
+ #: src/lang.c:3849
+ msgid "Quick (1 key) kill filter case"
+@@ -9787,7 +9797,7 @@
+ 
+ #: src/lang.c:3935
+ msgid "Insert ''X-Comment-To:'' header"
+-msgstr "Infoga huvudet ''X-Comment-To:''"
++msgstr "Infoga rubriken ''X-Comment-To:''"
+ 
+ #: src/lang.c:3941
+ msgid "Enter name of file containing trusted CA certificates. <CR> sets."
+@@ -9822,7 +9832,7 @@
+ "         Either remove (manually encode) 8bit chars or set post_8bit_header.\n"
+ msgstr ""
+ "\n"
+-"Varning: Manuellt angivet MIME-huvud utan att post_8bit_header är inställt.\n"
++"Varning: Manuellt angivet MIME-rubrik utan att post_8bit_header är inställt.\n"
+ "         Ta antingen bort (koda manuellt) 8-bitars tecken eller ställ in post_8bit_header.\n"
+ 
+ #. -> lang.c

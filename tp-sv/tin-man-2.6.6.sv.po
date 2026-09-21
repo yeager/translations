@@ -494,7 +494,7 @@ msgstr "B<-i>I< proto_article>"
 #. type: Plain text
 #: doc/tin.1:202
 msgid "Import (append) a proto article to the I<${TIN_HOMEDIR:-\"$HOME\"}/.tin/postponed.articles> file.  The proto article then can be posted via B<Postponed> '(B<O>', \\&'B<^O>') or ''B<-w>'' or even 'B<-o>''.  The proto article should not be MIME encoded and have at least the following headers: ''From:'', ''Subject:'' and ''Newsgroups:''.  Be aware that if ''B<-i>'' is used in conjunction with ''B<-o>'' all pending postponed articles will be posted, not just the one given with ''B<-i>''."
-msgstr "Importera (lägg till) en protoartikel i filen I<${TIN_HOMEDIR:-\"$HOME\"}/.tin/postponed.articles>. Protoartikeln kan sedan postas via B<Postponed> ('B<O>', \\&'B<^O>'), ''B<-w>'' eller till och med 'B<-o>''. Protoartikeln bör inte vara MIME-kodad och måste minst ha följande huvuden: ''From:'', ''Subject:'' och ''Newsgroups:''. Observera att om ''B<-i>'' används tillsammans med ''B<-o>'' postas alla väntande uppskjutna artiklar, inte bara den som angetts med ''B<-i>''."
+msgstr "Importera (lägg till) en protoartikel i filen I<${TIN_HOMEDIR:-\"$HOME\"}/.tin/postponed.articles>. Protoartikeln kan sedan postas via B<Postponed> ('B<O>', \\&'B<^O>'), ''B<-w>'' eller till och med 'B<-o>''. Protoartikeln bör inte vara MIME-kodad och måste minst ha följande rubriker: ''From:'', ''Subject:'' och ''Newsgroups:''. Observera att om ''B<-i>'' används tillsammans med ''B<-o>'' postas alla väntande uppskjutna artiklar, inte bara den som angetts med ''B<-i>''."
 
 #. type: TP
 #: doc/tin.1:202
@@ -1530,7 +1530,7 @@ msgstr "B<LookupMessage 'L'>"
 #. type: Plain text
 #: doc/tin.1:705
 msgid "Look up article by ''Message-ID:''. If none of the groups listed in the ''Newsgroups:''-header of the referenced article is available, just the contents of the ''Newsgroups:''-header will be displayed in the last line.  At this level this command only works if reading via NNTP and the server supports [X]HDR (B<RFC\\ 2980>, B<RFC\\ 3977>) or XPAT (B<RFC\\ 2980>)."
-msgstr "Sök upp artikeln med ''Message-ID:''. Om ingen av grupperna som anges i ''Newsgroups:''-huvudet i den refererade artikeln är tillgänglig, visas endast innehållet i ''Newsgroups:''-huvudet i den sista raden.  På denna nivå fungerar detta kommando endast om du läser via NNTP och servern stöder [X]HDR (B<RFC\\ 2980>, B<RFC\\ 3977>) eller XPAT (B<RFC\\ 2980>)."
+msgstr "Sök upp artikeln med ''Message-ID:''. Om ingen av grupperna som anges i ''Newsgroups:''-rubriken i den refererade artikeln är tillgänglig, visas endast innehållet i ''Newsgroups:''-rubriken i den sista raden.  På denna nivå fungerar detta kommando endast om du läser via NNTP och servern stöder [X]HDR (B<RFC\\ 2980>, B<RFC\\ 3977>) eller XPAT (B<RFC\\ 2980>)."
 
 #. type: TP
 #: doc/tin.1:705
@@ -2453,7 +2453,7 @@ msgstr "B<PageReplyQuoteHeaders '^E'>"
 #. type: Plain text
 #: doc/tin.1:1230
 msgid "Reply through mail to the author of the current article with a copy of the article with all headers included."
-msgstr "Svara via e-post till författaren av den aktuella artikeln med en kopia av artikeln inklusive alla huvuden."
+msgstr "Svara via e-post till författaren av den aktuella artikeln med en kopia av artikeln inklusive alla rubriker."
 
 #. type: TP
 #: doc/tin.1:1230
@@ -2475,7 +2475,7 @@ msgstr "B<PageToggleRaw '^H'>"
 #. type: Plain text
 #: doc/tin.1:1241
 msgid "Toggles the display mode (raw including all headers vs. cooked)."
-msgstr "Växlar mellan visningsläget (rått inklusive alla huvuden vs. bearbetat)."
+msgstr "Växlar mellan visningsläget (rått inklusive alla rubriker vs. bearbetat)."
 
 #. type: TP
 #: doc/tin.1:1245
@@ -2497,7 +2497,7 @@ msgstr "B<PageFollowupQuoteHeaders '^W'>"
 #. type: Plain text
 #: doc/tin.1:1252
 msgid "Post a followup to the current article with a copy of the article with all headers included."
-msgstr "Lägg upp en uppföljning till den aktuella artikeln med en kopia av artikeln inklusive alla huvuden."
+msgstr "Lägg upp en uppföljning till den aktuella artikeln med en kopia av artikeln inklusive alla rubriker."
 
 #. type: TP
 #: doc/tin.1:1252
@@ -2519,7 +2519,7 @@ msgstr "B<PageToggleAllHeaders '*'>"
 #. type: Plain text
 #: doc/tin.1:1259
 msgid "Toggles the display of all headers vs. headers in B<news_headers_to_display>."
-msgstr "Växlar mellan visning av alla huvuden och huvuden i B<news_headers_to_display>."
+msgstr "Växlar mellan visning av alla rubriker och rubriker i B<news_headers_to_display>."
 
 #. type: TP
 #: doc/tin.1:1259
@@ -3177,12 +3177,12 @@ msgstr "Om ON lägg till publicerade artiklar som startar en ny tråd för att f
 #: doc/tin.1:1679
 #, no-wrap
 msgid "B<Insert ''User-Agent:''-header (advertising)>"
-msgstr "B<Infoga ''User-Agent:''-huvud (reklam)>"
+msgstr "B<Infoga ''User-Agent:''-rubrik (reklam)>"
 
 #. type: Plain text
 #: doc/tin.1:1682 doc/tin.5:1445
 msgid "Turn ON advertising in header (''User-Agent:''). Default is ON."
-msgstr "Aktivera reklam i huvudet (''User-Agent:''). Standardinställningen är ON."
+msgstr "Aktivera reklam i rubriken (''User-Agent:''). Standardinställningen är ON."
 
 #. type: TP
 #: doc/tin.1:1682
@@ -3452,12 +3452,12 @@ msgstr "Färg på avsändare (Från:)"
 #: doc/tin.1:1781
 #, no-wrap
 msgid "B<Color of article header lines (col_head)>"
-msgstr "B<Färg på artikelns huvudrader (col_head)>"
+msgstr "B<Färg på artikelns rubrikrader (col_head)>"
 
 #. type: Plain text
 #: doc/tin.1:1784 doc/tin.5:1547
 msgid "Color of header-lines"
-msgstr "Färg på huvudrader"
+msgstr "Färg på rubrikrader"
 
 #. type: TP
 #: doc/tin.1:1784
@@ -3562,12 +3562,12 @@ msgstr "Färg på mini-hjälpmenyn"
 #: doc/tin.1:1815
 #, no-wrap
 msgid "B<Color of actual news header fields (col_newsheaders)>"
-msgstr "B<Färg på faktiska fält i nyhetshuvudet (col_newsheaders)>"
+msgstr "B<Färg på faktiska fält i nyhetsrubriken (col_newsheaders)>"
 
 #. type: Plain text
 #: doc/tin.1:1818 doc/tin.5:1581
 msgid "Color of actual news header fields"
-msgstr "Färg på faktiska nyhetshuvudfält"
+msgstr "Färg på faktiska nyhetsrubrikfält"
 
 #. type: TP
 #: doc/tin.1:1818
@@ -3834,7 +3834,7 @@ msgstr "B<(default_filter_kill_header)>"
 #. type: Plain text
 #: doc/tin.1:1917 doc/tin.5:1679
 msgid "Default for quick (1 key) kill filter header."
-msgstr "Standardhuvud för snabbfilter för bortfiltrering (1 tangent)."
+msgstr "Standardrubrik för snabbfilter för bortfiltrering (1 tangent)."
 
 #. type: IP
 #: doc/tin.1:1918 doc/tin.1:1952 doc/tin.1:2072 doc/tin.1:2134 doc/tin.1:2343
@@ -4333,7 +4333,7 @@ msgstr "B<Använd interaktiv e-postläsare (interactive_mailer)>"
 #. type: Plain text
 #: doc/tin.1:2113
 msgid "Interactive mailreader: if greater than 0 your mailreader will be invoked earlier for reply so you can use more of its features (e.g., MIME, pgp, ...). 1 means include headers, 2 means don't include headers (old use_mailreader_i=ON option). 0 turns off usage. This option has to suit B<mailer_format>. Default is 0."
-msgstr "Interaktiv e-postläsare: om större än 0 kommer din e-postläsare att anropas tidigare för svar så att du kan använda fler av dess funktioner (t.ex. MIME, pgp, ...). 1 betyder inkludera huvuden, 2 betyder inkludera inte huvuden (gammal use_mailreader_i=ON-alternativ). 0 stänger av användningen. Detta alternativ måste passa B<mailer_format>. Standardvärdet är 0."
+msgstr "Interaktiv e-postläsare: om större än 0 kommer din e-postläsare att anropas tidigare för svar så att du kan använda fler av dess funktioner (t.ex. MIME, pgp, ...). 1 betyder inkludera rubriker, 2 betyder inkludera inte rubriker (gammal use_mailreader_i=ON-alternativ). 0 stänger av användningen. Detta alternativ måste passa B<mailer_format>. Standardvärdet är 0."
 
 #.  TODO: fix menu description
 #.        mono_mark* currently do allow "Reverse video" even if
@@ -4406,12 +4406,12 @@ msgstr "Standardvärdet är 0 (B<Filtrera bort endast olästa art.>)."
 #: doc/tin.1:2151
 #, no-wrap
 msgid "B<Use 8-bit characters in mail headers (mail_8bit_header)>"
-msgstr "B<Använd 8-bitars tecken i e-posthuvuden (mail_8bit_header)>"
+msgstr "B<Använd 8-bitars tecken i e-postrubriker (mail_8bit_header)>"
 
 #. type: Plain text
 #: doc/tin.1:2157 doc/tin.5:1929
 msgid "Allows 8-bit characters unencoded in the header of mail message. Default is OFF. Turning it ON is effective only if B<mail_mime_encoding> is also set to 8bit. Leaving it OFF is safe for most users and compliant to Internet Mail Standard (B<RFC\\ 5322> and B<RFC\\ 2047>)."
-msgstr "Tillåter 8-bitars tecken som inte är kodade i huvudet på e-postmeddelandet. Standardinställningen är AV. Att slå på den är endast effektivt om B<mail_mime_encoding> också är inställd på 8bit. Att lämna den AV är säkert för de flesta användare och överensstämmer med Internet Mail Standard (B<RFC\\ 5322> och B<RFC\\ 2047>)."
+msgstr "Tillåter 8-bitars tecken som inte är kodade i rubriken på e-postmeddelandet. Standardinställningen är AV. Att slå på den är endast effektivt om B<mail_mime_encoding> också är inställd på 8bit. Att lämna den AV är säkert för de flesta användare och överensstämmer med Internet Mail Standard (B<RFC\\ 5322> och B<RFC\\ 2047>)."
 
 #. type: TP
 #: doc/tin.1:2157
@@ -4562,7 +4562,7 @@ msgstr "B<MM_CHARSET (mm_charset)>"
 #. type: Plain text
 #: doc/tin.1:2258 doc/tin.5:2028
 msgid "Charset supported locally, which is also used for MIME header (charset parameter and charset name in header encoding) in mail and news postings. If B<MIME_STRICT_CHARSET> is defined at compile time, text in charset other than the value of this parameter is considered not displayable and represented as '?'. Otherwise, all character sets are regarded as compatible with the display. If it's not set, the value of the environment variable $B<MM_CHARSET> is used. US-ASCII or compile-time default is used in case neither of them is defined. If your system supports B<\\%iconv>(3)  or B<\\%ucnv_*>(), this option is disabled and you should use B<mm_network_charset> instead."
-msgstr "Teckenkodning som stöds lokalt, som också används för MIME-huvud (teckenkodningsparameter och teckenkodningsnamn i rubrikkodning) i e-post och nyhetsinlägg. Om B<MIME_STRICT_CHARSET> definieras vid kompileringstidpunkten, betraktas text i andra teckenkodningar än värdet för denna parameter som icke-visningsbar och representeras som '?'. I annat fall betraktas alla teckenkodningar som kompatibla med visningen. Om det inte är inställt används värdet för miljövariabeln $B<MM_CHARSET>. US-ASCII eller kompileringstidens standardvärde används om inget av dem är definierat. Om ditt system stöder B<\\%iconv>(3) eller B<\\%ucnv_*>(), är detta alternativ inaktiverat och du bör istället använda B<mm_network_charset>."
+msgstr "Teckenkodning som stöds lokalt, som också används för MIME-rubrik (teckenkodningsparameter och teckenkodningsnamn i rubrikkodning) i e-post och nyhetsinlägg. Om B<MIME_STRICT_CHARSET> definieras vid kompileringstidpunkten, betraktas text i andra teckenkodningar än värdet för denna parameter som icke-visningsbar och representeras som '?'. I annat fall betraktas alla teckenkodningar som kompatibla med visningen. Om det inte är inställt används värdet för miljövariabeln $B<MM_CHARSET>. US-ASCII eller kompileringstidens standardvärde används om inget av dem är definierat. Om ditt system stöder B<\\%iconv>(3) eller B<\\%ucnv_*>(), är detta alternativ inaktiverat och du bör istället använda B<mm_network_charset>."
 
 #. type: TP
 #: doc/tin.1:2258
@@ -4573,7 +4573,7 @@ msgstr "B<MM_NETWORK_CHARSET (mm_network_charset)>"
 #. type: Plain text
 #: doc/tin.1:2271 doc/tin.5:2041
 msgid "Charset used for posting and MIME headers; replaces B<mm_charset>.  Conversion between B<mm_network_charset> and local charset (determined via B<\\%nl_langinfo>(3))  is done via B<\\%iconv>(3)  or B<\\%ucnv_*>().  If none of these functions are available on your system this option is disabled and you have to use B<mm_charset> instead. B<mm_network_charset> is limited to one of the following charsets:"
-msgstr "Teckenkodning som används för inlägg och MIME-huvuden; ersätter B<mm_charset>. Konvertering mellan B<mm_network_charset> och lokal teckenkodning (bestäms via B<\\%nl_langinfo>(3)) görs via B<\\%iconv>(3) eller B<\\%ucnv_*>().  Om ingen av dessa funktioner är tillgängliga på ditt system är detta alternativ inaktiverat och du måste använda B<mm_charset> istället. B<mm_network_charset> är begränsat till ett av följande teckenkodningar:"
+msgstr "Teckenkodning som används för inlägg och MIME-rubriker; ersätter B<mm_charset>. Konvertering mellan B<mm_network_charset> och lokal teckenkodning (bestäms via B<\\%nl_langinfo>(3)) görs via B<\\%iconv>(3) eller B<\\%ucnv_*>().  Om ingen av dessa funktioner är tillgängliga på ditt system är detta alternativ inaktiverat och du måste använda B<mm_charset> istället. B<mm_network_charset> är begränsat till ett av följande teckenkodningar:"
 
 #. type: Plain text
 #: doc/tin.1:2277 doc/tin.5:2047
@@ -4644,23 +4644,23 @@ msgstr "Dessa är interna timers som används av B<tin> en för att hålla reda 
 #: doc/tin.1:2307
 #, no-wrap
 msgid "B<Display these header fields (or *) (news_headers_to_display)>"
-msgstr "B<Visa dessa huvudfält (eller *) (news_headers_to_display)>"
+msgstr "B<Visa dessa rubrikfält (eller *) (news_headers_to_display)>"
 
 #. type: Plain text
 #: doc/tin.1:2314 doc/tin.5:2103
 msgid "Which news headers you wish to see. If you want to see _all_ the headers, place an '*' as this value. This is the only way a wildcard can be used.  If you enter 'X-' as the value, you will see all headers beginning with 'X-' (like X-Alan or X-Pape). You can list more than one by delimiting with spaces. Not defining anything turns off this option."
-msgstr "Vilka nyhetshuvuden du vill se. Om du vill se _alla_ huvuden, ange ett '*' som värde. Detta är det enda sättet att använda jokertecken. Om du anger 'X-' som värde visas alla huvuden som börjar med 'X-' (som X-Alan eller X-Pape). Du kan ange flera genom att avgränsa dem med mellanslag. Om du inte anger något inaktiveras denna funktion."
+msgstr "Vilka nyhetsrubriker du vill se. Om du vill se _alla_ rubriker, ange ett '*' som värde. Detta är det enda sättet att använda jokertecken. Om du anger 'X-' som värde visas alla rubriker som börjar med 'X-' (som X-Alan eller X-Pape). Du kan ange flera genom att avgränsa dem med mellanslag. Om du inte anger något inaktiveras denna funktion."
 
 #. type: TP
 #: doc/tin.1:2314
 #, no-wrap
 msgid "B<Do not display these header fields (news_headers_to_not_display)>"
-msgstr "B<Visa inte dessa huvudfält (news_headers_to_not_display)>"
+msgstr "B<Visa inte dessa rubrikfält (news_headers_to_not_display)>"
 
 #. type: Plain text
 #: doc/tin.1:2323 doc/tin.5:2112
 msgid "Same as B<news_headers_to_display> except it denotes the opposite. An example of using both options might be if you thought 'X-' headers were A Good Thing(tm), but thought Alan and Pape were miscreants... well then you would do something like this: B<news_headers_to_display=X-> B<news_headers_to_not_display=X-Alan X-Pape> Not defining anything turns off this option."
-msgstr "Samma som B<news_headers_to_display> förutom att det betecknar motsatsen. Ett exempel på hur man kan använda båda flaggorna är om man tycker att 'X-' huvuden är bra (tm), men tycker att Alan och Pape är skurkar... då skulle man göra något så här: B<news_headers_to_display=X-> B<news_headers_to_not_display=X-Alan X-Pape> Om man inte definierar något stängs denna flagga av."
+msgstr "Samma som B<news_headers_to_display> förutom att det betecknar motsatsen. Ett exempel på hur man kan använda båda flaggorna är om man tycker att 'X-' rubriker är bra (tm), men tycker att Alan och Pape är skurkar... då skulle man göra något så här: B<news_headers_to_display=X-> B<news_headers_to_not_display=X-Alan X-Pape> Om man inte definierar något stängs denna flagga av."
 
 #. type: TP
 #: doc/tin.1:2323
@@ -4734,34 +4734,34 @@ msgstr "Vissa normaliseringslägen är endast tillgängliga om de stöds av bibl
 #: doc/tin.1:2359
 #, no-wrap
 msgid "B<Format string for the display of mime header at Article level (page_mime_format)>"
-msgstr "B<Formatsträng för visning av mime-huvud på artikelnivå (page_mime_format)>"
+msgstr "B<Formatsträng för visning av mime-rubrik på artikelnivå (page_mime_format)>"
 
 #. type: Plain text
 #: doc/tin.1:2364
 msgid "Format string B<tin> uses for mime header at Page level. See the section \"CUSTOMIZING THE SCREEN FORMAT\".  Default is \"[-- %T%S%*n%z%*l%!c%!d%*e --]\"."
-msgstr "Formatsträng som B<tin> används för MIME-huvud på sidnivå. Se avsnittet \"ANPASSA SKÄRMFORMATET\".  Standard är \"[-- %T%S%*n%z%*l%!c%!d%*e --]\"."
+msgstr "Formatsträng som B<tin> används för MIME-rubrik på sidnivå. Se avsnittet \"ANPASSA SKÄRMFORMATET\".  Standard är \"[-- %T%S%*n%z%*l%!c%!d%*e --]\"."
 
 #. type: TP
 #: doc/tin.1:2364
 #, no-wrap
 msgid "B<Format string for the display of uue header at Article level (page_uue_format)>"
-msgstr "B<Formatsträng för visning av uue-huvud på artikelnivå (page_uue_format)>"
+msgstr "B<Formatsträng för visning av uue-rubrik på artikelnivå (page_uue_format)>"
 
 #. type: Plain text
 #: doc/tin.1:2369
 msgid "Format string B<tin> uses for uue header at Page level. See the section \"CUSTOMIZING THE SCREEN FORMAT\".  Default is \"[-- %T%S%*n%I%!d%*e --]\"."
-msgstr "Formatsträng som B<tin> använder för uue-huvudet på sidnivå. Se avsnittet \"ANPASSA SKÄRMFORMATET\".  Standard är \"[-- %T%S%*n%I%!d%*e --]\"."
+msgstr "Formatsträng som B<tin> använder för uue-rubriken på sidnivå. Se avsnittet \"ANPASSA SKÄRMFORMATET\".  Standard är \"[-- %T%S%*n%I%!d%*e --]\"."
 
 #. type: TP
 #: doc/tin.1:2369
 #, no-wrap
 msgid "B<Format string for the display of yenc header at Article level (page_yenc_format)>"
-msgstr "B<Formatsträng för visning av yenc-huvud på artikelnivå (page_yenc_format)>"
+msgstr "B<Formatsträng för visning av yenc-rubrik på artikelnivå (page_yenc_format)>"
 
 #. type: Plain text
 #: doc/tin.1:2374
 msgid "Format string B<tin> uses for yenc header at Page level. See the section \"CUSTOMIZING THE SCREEN FORMAT\".  Default is \"[-- %*N%!d%I [%F%G]%V%W%X --]\"."
-msgstr "Formatsträng som B<tin> använder för yenc-huvudet på sidnivå. Se avsnittet \"ANPASSA SKÄRMFORMATET\".  Standard är \"[-- %*N%!d%I [%F%G]%V%W%X --]\"."
+msgstr "Formatsträng som B<tin> använder för yenc-rubriken på sidnivå. Se avsnittet \"ANPASSA SKÄRMFORMATET\".  Standard är \"[-- %*N%!d%I [%F%G]%V%W%X --]\"."
 
 #. type: TP
 #: doc/tin.1:2374
@@ -4778,12 +4778,12 @@ msgstr "Om ON placera markören vid den första olästa artikeln i gruppen, anna
 #: doc/tin.1:2378
 #, no-wrap
 msgid "B<Use 8-bit characters in news headers (post_8bit_header)>"
-msgstr "B<Använd 8-bitars tecken i nyhetshuvuden (post_8bit_header)>"
+msgstr "B<Använd 8-bitars tecken i nyhetsrubriker (post_8bit_header)>"
 
 #. type: Plain text
 #: doc/tin.1:2389 doc/tin.5:2176
 msgid "Allows 8-bit characters unencoded in the header of a news article, if set this also disables the generation of MIME-headers when they are usually required. Default is OFF. Only enacted if B<post_mime_encoding> is also set to 8bit. In a number of local hierarchies where 8-bit characters are used, using unencoded (raw)  8-bit characters in header is acceptable and sometimes even recommended so that you need to check the convention adopted in the local hierarchy of your interest to determine what to do with this and B<post_mime_encoding>."
-msgstr "Tillåter 8-bitars tecken som inte är kodade i huvudet på en nyhetsartikel. Om detta är inställt inaktiveras även genereringen av MIME-huvuden när dessa normalt krävs. Standardinställningen är AV. Gäller endast om B<post_mime_encoding> också är inställt på 8bit. I ett antal lokala hierarkier där 8-bitars tecken används är det acceptabelt och ibland till och med rekommenderat att använda okodade (råa) 8-bitars tecken i huvudet, så du måste kontrollera vilken konvention som används i den lokala hierarkin du är intresserad av för att avgöra vad du ska göra med detta och B<post_mime_encoding>."
+msgstr "Tillåter 8-bitars tecken som inte är kodade i rubriken på en nyhetsartikel. Om detta är inställt inaktiveras även genereringen av MIME-rubriker när dessa normalt krävs. Standardinställningen är AV. Gäller endast om B<post_mime_encoding> också är inställt på 8bit. I ett antal lokala hierarkier där 8-bitars tecken används är det acceptabelt och ibland till och med rekommenderat att använda okodade (råa) 8-bitars tecken i rubriken, så du måste kontrollera vilken konvention som används i den lokala hierarkin du är intresserad av för att avgöra vad du ska göra med detta och B<post_mime_encoding>."
 
 #. type: TP
 #: doc/tin.1:2389
@@ -4848,12 +4848,12 @@ msgstr "Spara publicerade artiklar i angiven fil. Om det angivna filnamnet inte 
 #: doc/tin.1:2425
 #, no-wrap
 msgid "B<Print all headers when printing (print_header)>"
-msgstr "B<Skriv ut alla huvuden vid utskrift (print_header)>"
+msgstr "B<Skriv ut alla rubriker vid utskrift (print_header)>"
 
 #. type: Plain text
 #: doc/tin.1:2429 doc/tin.5:2217
 msgid "If ON, then the full article header is sent to the printer. Otherwise only the ''Subject:'' and ''From:'' fields are output. Default is OFF."
-msgstr "Om ON är aktiverat skickas hela artikelhuvudet till skrivaren. Annars skrivs endast fälten ''Subject:'' och ''From:'' ut. Standardinställningen är OFF."
+msgstr "Om ON är aktiverat skickas hela artikelrubriken till skrivaren. Annars skrivs endast fälten ''Subject:'' och ''From:'' ut. Standardinställningen är OFF."
 
 #. type: TP
 #: doc/tin.1:2429
@@ -4886,7 +4886,7 @@ msgstr "B<Visa tom Followup-To i redigeraren (prompt_followupto)>"
 #. type: Plain text
 #: doc/tin.1:2446
 msgid "If ON show empty ''Followup-To:'' header when editing an article. Default is OFF."
-msgstr "Om ON visa tom ''Followup-To:''-huvud när du redigerar en artikel. Standard är OFF."
+msgstr "Om ON visa tom ''Followup-To:''-rubrik när du redigerar en artikel. Standard är OFF."
 
 #. type: TP
 #: doc/tin.1:2446
@@ -5786,7 +5786,7 @@ msgstr "B<Använd slrnface för att visa ''X-Face:''s (use_slrnface)>"
 #. type: Plain text
 #: doc/tin.1:2885
 msgid "If enabled B<tin> uses B<\\%slrnface>(1)  to interpret the ''X-Face:'' header. For this option to have any effect, B<tin> must be running in an B<\\%xterm>(1x)  and B<\\%slrnface>(1)  must be in your $B<PATH>. Default is OFF."
-msgstr "Om aktiverat använder B<tin> B<\\%slrnface>(1)  för att tolka ''X-Face:''-huvudet. För att detta alternativ ska ha någon effekt måste B<tin> köras i en B<\\%xterm>(1x)  och B<\\%slrnface>(1)  måste finnas i din $B<PATH>. Standardinställningen är AV."
+msgstr "Om aktiverat använder B<tin> B<\\%slrnface>(1)  för att tolka ''X-Face:''-rubriken. För att detta alternativ ska ha någon effekt måste B<tin> köras i en B<\\%xterm>(1x)  och B<\\%slrnface>(1)  måste finnas i din $B<PATH>. Standardinställningen är AV."
 
 #. type: TP
 #: doc/tin.1:2885
@@ -6082,12 +6082,12 @@ msgstr "Använd kommandot B<DisplayPostHist> ('B<W>') för att visa en historik 
 #. type: Plain text
 #: doc/tin.1:3144
 msgid "Use the B<PageFollowupQuote> ('B<f>'), B<PageFollowup> ('B<F>')  or B<PageFollowupQuoteHeaders> ('B<^W>') command to post a follow-up article to an already posted article. The B<PageFollowupQuote> command will copy the text of the original article into the editor. The B<PageFollowupQuoteHeaders> command will copy the text and all headers of the original article into the editor. The editing procedure is the same as when posting an article with the B<Post> ('B<w>') command."
-msgstr "Använd kommandot B<PageFollowupQuote> (”B<f> ”), B<PageFollowup> (”B<F> ”) eller B<PageFollowupQuoteHeaders> (”B<^W> ”) för att publicera en uppföljningsartikel till en redan publicerad artikel. Kommandot B<PageFollowupQuote> kopierar texten i den ursprungliga artikeln till redigeraren. Kommandot B<PageFollowupQuoteHeaders> kopierar texten och alla huvuden i den ursprungliga artikeln till redigeraren. Redigeringsproceduren är densamma som när du publicerar en artikel med kommandot B<Post> (”B<w> ”)."
+msgstr "Använd kommandot B<PageFollowupQuote> (”B<f> ”), B<PageFollowup> (”B<F> ”) eller B<PageFollowupQuoteHeaders> (”B<^W> ”) för att publicera en uppföljningsartikel till en redan publicerad artikel. Kommandot B<PageFollowupQuote> kopierar texten i den ursprungliga artikeln till redigeraren. Kommandot B<PageFollowupQuoteHeaders> kopierar texten och alla rubriker i den ursprungliga artikeln till redigeraren. Redigeringsproceduren är densamma som när du publicerar en artikel med kommandot B<Post> (”B<w> ”)."
 
 #. type: Plain text
 #: doc/tin.1:3158
 msgid "Use the B<PageReplyQuote> ('B<r>'), B<PageReply> ('B<R>') or B<PageReplyQuoteHeaders> ('B<^E>') command to reply direct through mail to the author of an already posted article. The B<PageReplyQuote> command will copy the text of the original article into the editor. The B<PageReplyQuoteHeaders> command will copy the text and all headers of the original article into the editor. The editing procedure is the same as when posting an article with the B<Post> ('B<w>') command. After saving and exiting the editor you are asked if you wish to abort sending the article via B<PostAbort> ('B<a>'), edit the article again via B<PostEdit> ('B<e>') or send the article to the author via B<PostSend> ('B<s>')."
-msgstr "Använd kommandot B<PageReplyQuote> ('B<r>'), B<PageReply> ('B<R>') eller B<PageReplyQuoteHeaders> ('B<^E>') för att svara direkt via e-post till författaren av en redan publicerad artikel. Kommandot B<PageReplyQuote> kopierar texten i den ursprungliga artikeln till redigeraren. Kommandot B<PageReplyQuoteHeaders> kopierar texten och alla huvuden från den ursprungliga artikeln till redigeraren. Redigeringsproceduren är densamma som när du publicerar en artikel med kommandot B<Post> ('B<w>'). När du har sparat och stängt redigeraren frågas du om du vill avbryta sändningen av artikeln via B<PostAbort> ('B<a>'), redigera artikeln igen via B<PostEdit> ('B<e>') eller skicka artikeln till författaren via B<PostSend> ('B<s>')."
+msgstr "Använd kommandot B<PageReplyQuote> ('B<r>'), B<PageReply> ('B<R>') eller B<PageReplyQuoteHeaders> ('B<^E>') för att svara direkt via e-post till författaren av en redan publicerad artikel. Kommandot B<PageReplyQuote> kopierar texten i den ursprungliga artikeln till redigeraren. Kommandot B<PageReplyQuoteHeaders> kopierar texten och alla rubriker från den ursprungliga artikeln till redigeraren. Redigeringsproceduren är densamma som när du publicerar en artikel med kommandot B<Post> ('B<w>'). När du har sparat och stängt redigeraren frågas du om du vill avbryta sändningen av artikeln via B<PostAbort> ('B<a>'), redigera artikeln igen via B<PostEdit> ('B<e>') eller skicka artikeln till författaren via B<PostSend> ('B<s>')."
 
 #. type: SS
 #: doc/tin.1:3158
@@ -6588,7 +6588,7 @@ msgstr "Om både längden och den minsta eller största skärmbredden ska anges 
 #. type: Plain text
 #: doc/tin.1:3535
 msgid "The look of the Attachment level and the mime, uue and yenc header at Page level can be customized too via format strings.  The following variables are available:"
-msgstr "Utseendet på bilagans nivå och mime-, uue- och yenc-huvudet på sidnivå kan också anpassas via formatsträngar. Följande variabler är tillgängliga:"
+msgstr "Utseendet på bilagans nivå och mime-, uue- och yenc-rubriken på sidnivå kan också anpassas via formatsträngar. Följande variabler är tillgängliga:"
 
 #. type: ta
 #: doc/tin.1:3538
@@ -7590,7 +7590,7 @@ msgstr "B<DISTRIBUTION>"
 #. type: Plain text
 #: doc/tin.1:4010
 msgid "Set the article header field ''Distribution:'' to the contents of the variable instead of the system default."
-msgstr "Ställ in artikelhuvudfältet ''Distribution:'' till innehållet i variabeln istället för systemets standardinställning."
+msgstr "Ställ in artikelrubrikfältet ''Distribution:'' till innehållet i variabeln istället för systemets standardinställning."
 
 #. type: TP
 #: doc/tin.1:4010
@@ -7659,7 +7659,7 @@ msgstr "B<ORGANIZATION>"
 #. type: Plain text
 #: doc/tin.1:4045
 msgid "Set the article header field ''Organization:'' to the contents of the variable instead of the system default. If it points to a readable file a random line from that file will be used. If reading news on an Apollo DomainOS machine the environment variable $B<NEWSORG> has to be used instead of $B<ORGANIZATION>."
-msgstr "Ställ in artikelhuvudfältet ''Organisation:'' till innehållet i variabeln istället för systemets standardinställning. Om den pekar på en läsbar fil kommer en slumpmässig rad från den filen att användas. Om du läser nyheter på en Apollo DomainOS-maskin måste miljövariabeln $B<NEWSORG> användas istället för $B<ORGANIZATION>."
+msgstr "Ställ in artikelrubrikfältet ''Organisation:'' till innehållet i variabeln istället för systemets standardinställning. Om den pekar på en läsbar fil kommer en slumpmässig rad från den filen att användas. Om du läser nyheter på en Apollo DomainOS-maskin måste miljövariabeln $B<NEWSORG> användas istället för $B<ORGANIZATION>."
 
 #. type: TP
 #: doc/tin.1:4045
@@ -7681,7 +7681,7 @@ msgstr "B<REPLYTO>"
 #. type: Plain text
 #: doc/tin.1:4053
 msgid "Set the article header field ''Reply-To:'' to the return address specified by the variable. This is useful if you wish to receive replies at a different address."
-msgstr "Ställ in artikelhuvudfältet ''Reply-To:'' till den returadress som anges av variabeln. Detta är användbart om du vill ta emot svar på en annan adress."
+msgstr "Ställ in artikelrubrikfältet ''Reply-To:'' till den returadress som anges av variabeln. Detta är användbart om du vill ta emot svar på en annan adress."
 
 #. type: TP
 #: doc/tin.1:4053
@@ -8431,7 +8431,7 @@ msgstr "Varje enskild mailcap-post består av en specifikation av innehållstyp,
 #. type: Plain text
 #: doc/tin.5:76
 msgid "The \"type\" field is simply any valid content type name.  It is the string that will be matched against the ''Content-Type:'' header to decide if this is the mailcap entry that matches the current message.  Additionally, the type field may specify a subtype or a wildcard to match all subtypes."
-msgstr "Fältet \"type\" är helt enkelt ett giltigt namn på en innehållstyp. Det är den sträng som kommer att matchas mot huvudet ''Content-Type:'' för att avgöra om detta är den mailcap-post som matchar det aktuella meddelandet. Dessutom kan fältet type ange en undertyp eller ett jokertecken för att matcha alla undertyper."
+msgstr "Fältet \"type\" är helt enkelt ett giltigt namn på en innehållstyp. Det är den sträng som kommer att matchas mot rubriken ''Content-Type:'' för att avgöra om detta är den mailcap-post som matchar det aktuella meddelandet. Dessutom kan fältet type ange en undertyp eller ett jokertecken för att matcha alla undertyper."
 
 #. type: Plain text
 #: doc/tin.5:82
@@ -8446,7 +8446,7 @@ msgstr "Fältet \"kommando\" är ett valfritt UNIX-kommando och används för at
 #. type: Plain text
 #: doc/tin.5:103
 msgid "Semicolons and backslashes within the command or any flag field must be quoted with backslashes.  If the field contains \"%s\", those two characters will be replaced by the name of a file that contains the body of the message.  If it contains \"%t\", those two characters will be replaced by the content-type field, including the subtype, if any.  If it contains \"%{\" followed by a parameter name and a closing \"}\", then all those characters will be replaced by the value of the named parameter, if any, from the \\&''Content-Type:'' header.  Finally, if the field contains \"\\(rs%\", those two characters will be replaced by a single \"%\" character."
-msgstr "Semikolon och bakstreck inom kommandot eller något flaggfält måste anges med bakstreck. Om fältet innehåller \"%s\" kommer dessa två tecken att ersättas med namnet på en fil som innehåller meddelandets brödtext. Om det innehåller \"%t\" kommer dessa två tecken att ersättas med fältet content-type, inklusive undertypen, om sådan finns.  Om det innehåller \"%{\" följt av ett parameternamn och ett avslutande \"}\", ersätts alla dessa tecken med värdet för den namngivna parametern, om sådan finns, från huvudet \\&''Content-Type:''. Slutligen, om fältet innehåller \"\\(rs%\", ersätts dessa två tecken med ett enda \"%\"-tecken."
+msgstr "Semikolon och bakstreck inom kommandot eller något flaggfält måste anges med bakstreck. Om fältet innehåller \"%s\" kommer dessa två tecken att ersättas med namnet på en fil som innehåller meddelandets brödtext. Om det innehåller \"%t\" kommer dessa två tecken att ersättas med fältet content-type, inklusive undertypen, om sådan finns.  Om det innehåller \"%{\" följt av ett parameternamn och ett avslutande \"}\", ersätts alla dessa tecken med värdet för den namngivna parametern, om sådan finns, från rubriken \\&''Content-Type:''. Slutligen, om fältet innehåller \"\\(rs%\", ersätts dessa två tecken med ett enda \"%\"-tecken."
 
 #. type: Plain text
 #: doc/tin.5:105
@@ -8473,7 +8473,7 @@ msgstr "B<composetyped>"
 #. type: Plain text
 #: doc/tin.5:128
 msgid "The \"composetyped\" field is similar to the \"compose\" field, but is to be used when the composing program needs to specify the ''Content-Type:'' header field to be applied to the composed data.  The \"compose\" field is simpler, and is preferred for use with existing (non-mail-oriented) programs for composing data in a given format.  The \"composetyped\" field is necessary when the Content-Type information must include auxiliary parameters, and the composition program must then know enough about mail formats to produce output that includes the mail type information."
-msgstr "Fältet \"composetyped\" liknar fältet \"compose\", men ska användas när det komponerande programmet behöver ange huvudfältet \"Content-Type:\" som ska tillämpas på den komponerade datan. Fältet \"compose\" är enklare och föredras för användning med befintliga (icke-e-postorienterade) program för att komponera data i ett givet format.  Fältet \"composetyped\" är nödvändigt när informationen om innehållstyp måste inkludera hjälpparametrar, och programmet för att skapa meddelanden måste då ha tillräcklig kunskap om e-postformat för att kunna producera utdata som inkluderar information om e-posttypen."
+msgstr "Fältet \"composetyped\" liknar fältet \"compose\", men ska användas när det komponerande programmet behöver ange rubrikfältet \"Content-Type:\" som ska tillämpas på den komponerade datan. Fältet \"compose\" är enklare och föredras för användning med befintliga (icke-e-postorienterade) program för att komponera data i ett givet format.  Fältet \"composetyped\" är nödvändigt när informationen om innehållstyp måste inkludera hjälpparametrar, och programmet för att skapa meddelanden måste då ha tillräcklig kunskap om e-postformat för att kunna producera utdata som inkluderar information om e-posttypen."
 
 #. type: TP
 #: doc/tin.5:128
@@ -9036,7 +9036,7 @@ msgstr "B<followup_to>"
 #. type: Plain text
 #: doc/tin.5:501
 msgid "Set ''Followup-To:'' header to the specified group(s)."
-msgstr "Ställ in ''Followup-To:''-huvudet till den eller de angivna grupperna."
+msgstr "Ställ in ''Followup-To:''-rubriken till den eller de angivna grupperna."
 
 #. type: TP
 #: doc/tin.5:501 doc/tin.5:831
@@ -9163,7 +9163,7 @@ msgstr "B<organization>"
 #. type: Plain text
 #: doc/tin.5:576
 msgid "This can be used to set the article header field ''Organization:''. It overrides the setting (if any) of organization in I</etc/tin/tin.defaults> and $B<ORGANIZATION> (or $B<NEWSORG> on Apollo DomainOS). If it points to a readable file a random line from that file will be used. Note that some news servers might still overwrite the \\&''Organization:'' header."
-msgstr "Detta kan användas för att ställa in artikelhuvudfältet ''Organisation:''. Det åsidosätter inställningen (om sådan finns) för organisation i I</etc/tin/tin.defaults> och $B<ORGANIZATION> (eller $B<NEWSORG> på Apollo DomainOS). Om det pekar på en läsbar fil kommer en slumpmässig rad från den filen att användas. Observera att vissa nyhetsservrar fortfarande kan skriva över huvudet \\&''Organisation:''."
+msgstr "Detta kan användas för att ställa in artikelrubrikfältet ''Organisation:''. Det åsidosätter inställningen (om sådan finns) för organisation i I</etc/tin/tin.defaults> och $B<ORGANIZATION> (eller $B<NEWSORG> på Apollo DomainOS). Om det pekar på en läsbar fil kommer en slumpmässig rad från den filen att användas. Observera att vissa nyhetsservrar fortfarande kan skriva över rubriken \\&''Organisation:''."
 
 #. type: TP
 #: doc/tin.5:576 doc/tin.5:2161
@@ -9360,7 +9360,7 @@ msgstr "B<x_comment_to>"
 #. type: Plain text
 #: doc/tin.5:674
 msgid "Insert ''X-Comment-To:'' header, this is only useful in FIDO groups."
-msgstr "Infoga huvudet ''X-Comment-To:'', detta är endast användbart i FIDO-grupper."
+msgstr "Infoga rubriken ''X-Comment-To:'', detta är endast användbart i FIDO-grupper."
 
 #. type: TP
 #: doc/tin.5:674
@@ -9371,7 +9371,7 @@ msgstr "B<x_headers>"
 #. type: Plain text
 #: doc/tin.5:683
 msgid "A string including header-name and the contents of the header that will be automatically added when posting. If the string starts with a / or \\[ti] then it is assumed to be the name of a file containing the header and its content to be inserted. If the string starts with a ! then what follows is assumed to be the path to a program to be executed to generate the header and its content. %G is expanded to the current news.group.name and %P is expanded to the news.group.name with all '.\\&' replaced by '/'."
-msgstr "En sträng som innehåller rubriknamn och innehållet i huvudet som automatiskt läggs till vid publicering. Om strängen börjar med / eller \\[ti] antas den vara namnet på en fil som innehåller huvudet och dess innehåll som ska infogas. Om strängen börjar med ! antas det som följer vara sökvägen till ett program som ska köras för att generera huvudet och dess innehåll. %G expanderas till det aktuella news.group.name och %P expanderas till news.group.name med alla '.\\&' ersatta med '/'."
+msgstr "En sträng som innehåller rubriknamn och innehållet i rubriken som automatiskt läggs till vid publicering. Om strängen börjar med / eller \\[ti] antas den vara namnet på en fil som innehåller rubriken och dess innehåll som ska infogas. Om strängen börjar med ! antas det som följer vara sökvägen till ett program som ska köras för att generera rubriken och dess innehåll. %G expanderas till det aktuella news.group.name och %P expanderas till news.group.name med alla '.\\&' ersatta med '/'."
 
 #. type: TP
 #: doc/tin.5:683
@@ -9529,7 +9529,7 @@ msgid ""
 "x_headers=\\[ti]/.tin/headers\n"
 "undeclared_charset=ISO-8859-1\n"
 msgstr ""
-"# inkludera extra huvuden\n"
+"# inkludera extra rubriker\n"
 "# anta ISO-8859-1 som teckenkodning om ingen teckenkodning deklareras\n"
 "# i alla utom fido7.*-grupper\n"
 "scope=*,!fido7.*\n"
@@ -9685,7 +9685,7 @@ msgstr "Matcha mot ''Subject:''. Den matchningstyp som används (wildmat eller r
 #. type: Plain text
 #: doc/tin.5:840
 msgid "Match against ''From:''.  B<\\%tin>(1)  converts the contents of the ''From:'' header to an old style e-mail address, e.g., ''some@body.example (John Doe)'' instead of ''John Doe E<lt>some@body.exampleE<gt>'', before trying to match the patterns in the filter rule. The matching type used (wildmat or regex) depends on the setting of the tinrc variable B<wildcard>."
-msgstr "Matcha mot ''From:''.  B<\\%tin>(1)  konverterar innehållet i ''From:''-huvudet till en gammal stil e-postadress, t.ex. ''some@body.example (John Doe)'' istället för ''John Doe E<lt>some@body.exampleE<gt>'', innan den försöker matcha mönstren i filterregeln. Vilken matchningstyp som används (wildmat eller regex) beror på inställningen för variabeln tinrc B<wildcard>."
+msgstr "Matcha mot ''From:''.  B<\\%tin>(1)  konverterar innehållet i ''From:''-rubriken till en gammal stil e-postadress, t.ex. ''some@body.example (John Doe)'' istället för ''John Doe E<lt>some@body.exampleE<gt>'', innan den försöker matcha mönstren i filterregeln. Vilken matchningstyp som används (wildmat eller regex) beror på inställningen för variabeln tinrc B<wildcard>."
 
 #. type: TP
 #: doc/tin.5:840
@@ -11391,7 +11391,7 @@ msgstr "B<interactive_mailer>"
 #. type: Plain text
 #: doc/tin.5:1888
 msgid "If greater than 0 your mailreader will be invoked earlier for reply so you can use more of its features (e.g., MIME, pgp, ...). 1 means include headers, 2 means don't include headers (old use_mailreader_i=ON option). 0 turns off usage. This option has to suit B<mailer_format>. Default is 0."
-msgstr "Om värdet är större än 0 kommer din e-postläsare att startas tidigare för svar så att du kan använda fler av dess funktioner (t.ex. MIME, pgp, ...). 1 betyder inkludera huvuden, 2 betyder inkludera inte huvuden (gammal use_mailreader_i=ON-alternativ). 0 stänger av användningen. Detta alternativ måste passa B<mailer_format>. Standardvärdet är 0."
+msgstr "Om värdet är större än 0 kommer din e-postläsare att startas tidigare för svar så att du kan använda fler av dess funktioner (t.ex. MIME, pgp, ...). 1 betyder inkludera rubriker, 2 betyder inkludera inte rubriker (gammal use_mailreader_i=ON-alternativ). 0 stänger av användningen. Detta alternativ måste passa B<mailer_format>. Standardvärdet är 0."
 
 #. type: TP
 #: doc/tin.5:1888
@@ -11619,7 +11619,7 @@ msgstr "B<page_mime_format>"
 #. type: Plain text
 #: doc/tin.5:2149
 msgid "Format string B<\\%tin>(1)  uses for mime header at Page level.  Default is \"[-- %T%S%*n%z%*l%!c%!d%*e --]\"."
-msgstr "Formatsträngen B<\\%tin>(1) används för MIME-huvudet på sidnivå. Standardvärdet är \"[-- %T%S%*n%z%*l%!c%!d%*e --]\"."
+msgstr "Formatsträngen B<\\%tin>(1) används för MIME-rubriken på sidnivå. Standardvärdet är \"[-- %T%S%*n%z%*l%!c%!d%*e --]\"."
 
 #. type: TP
 #: doc/tin.5:2149
@@ -11630,7 +11630,7 @@ msgstr "B<page_uue_format>"
 #. type: Plain text
 #: doc/tin.5:2155
 msgid "Format string B<\\%tin>(1)  uses for uue header at Page level.  Default is \"[-- %T%S%*n%I%!d%*e --]\"."
-msgstr "Formatsträngen B<\\%tin>(1) används för uue-huvudet på sidnivå. Standardvärdet är \"[-- %T%S%*n%I%!d%*e --]\"."
+msgstr "Formatsträngen B<\\%tin>(1) används för uue-rubriken på sidnivå. Standardvärdet är \"[-- %T%S%*n%I%!d%*e --]\"."
 
 #. type: TP
 #: doc/tin.5:2155
@@ -11641,7 +11641,7 @@ msgstr "B<page_yenc_format>"
 #. type: Plain text
 #: doc/tin.5:2161
 msgid "Format string B<\\%tin>(1)  uses for yenc header at Page level.  Default is \"[-- %*N%!d%I [%F%G]%V%W%X --]\"."
-msgstr "Formatsträngen B<\\%tin>(1) används för yenc-huvudet på sidnivå. Standardinställningen är \"[-- %*N%!d%I [%F%G]%V%W%X --]\"."
+msgstr "Formatsträngen B<\\%tin>(1) används för yenc-rubriken på sidnivå. Standardinställningen är \"[-- %*N%!d%I [%F%G]%V%W%X --]\"."
 
 #. type: Plain text
 #: doc/tin.5:2189
@@ -11668,7 +11668,7 @@ msgstr "Skrivarprogrammet med flaggor som ska användas för att skriva ut artik
 #. type: Plain text
 #: doc/tin.5:2235
 msgid "If ON show empty ''Followup-To:'' header when editing an article.  Default is OFF."
-msgstr "Om ON visa tom ''Followup-To:''-huvud när du redigerar en artikel. Standardinställningen är OFF."
+msgstr "Om ON visa tom ''Followup-To:''-rubrik när du redigerar en artikel. Standardinställningen är OFF."
 
 #. type: TP
 #: doc/tin.5:2241
@@ -12145,7 +12145,7 @@ msgstr "B<use_slrnface>"
 #. type: Plain text
 #: doc/tin.5:2728
 msgid "If enabled B<\\%slrnface>(1)  will be used to interpret the ''X-Face:'' header. For this option to have any effect, B<\\%tin>(1)  must be running in an B<\\%xterm>(1x)  and B<\\%slrnface>(1)  must be in your $B<PATH>. Default is OFF."
-msgstr "Om aktiverat kommer B<\\%slrnface>(1) att användas för att tolka ''X-Face:''-huvudet. För att denna option ska ha någon effekt måste B<\\%tin>(1) köras i en B<\\%xterm>(1x) och B<\\%slrnface>(1) måste finnas i din $B<PATH>. Standardinställningen är AV."
+msgstr "Om aktiverat kommer B<\\%slrnface>(1) att användas för att tolka ''X-Face:''-rubriken. För att denna option ska ha någon effekt måste B<\\%tin>(1) köras i en B<\\%xterm>(1x) och B<\\%slrnface>(1) måste finnas i din $B<PATH>. Standardinställningen är AV."
 
 #. type: TP
 #: doc/tin.5:2728
@@ -12274,7 +12274,7 @@ msgstr "Definierar katalogen som innehåller den körbara filen B<\\%inews>(1)."
 #. type: Plain text
 #: doc/tin.5:2876
 msgid "Default charset to be used in MIME's ''Content-Type:'' header.  $B<MM_CHARSET> overrides any specified value."
-msgstr "Standardteckenkodning som ska användas i MIME:s ''Content-Type:''-huvud. $B<MM_CHARSET> åsidosätter alla angivna värden."
+msgstr "Standardteckenkodning som ska användas i MIME:s ''Content-Type:''-rubrik. $B<MM_CHARSET> åsidosätter alla angivna värden."
 
 #. type: Plain text
 #: doc/tin.5:2879
@@ -12306,7 +12306,7 @@ msgstr "B<disable_sender>"
 #. type: Plain text
 #: doc/tin.5:2893
 msgid "Don't generate a ''Sender:'' header. This has an effect only if B<inews_prog> is set to --internal."
-msgstr "Skapa inte en ''Sender:''-huvud. Detta har endast effekt om B<inews_prog> är inställt på --internal."
+msgstr "Skapa inte en ''Sender:''-rubrik. Detta har endast effekt om B<inews_prog> är inställt på --internal."
 
 #. type: TP
 #: doc/tin.5:2893
