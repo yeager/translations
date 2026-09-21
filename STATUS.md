@@ -1406,3 +1406,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **mGBA (2026-09-21, batch 3):** **26** återstående registerposter för GBA-ljud, DMA och timers är granskade i hårdvarukontext och publicerade via Hosted Weblate API (HTTP 200). `l10n-lint` passerar backupen utan fel. Backup: `mGBA/sv-mgba-ioviewer-audio-batch3-20260921.{json,po}`.
 
 **mGBA (2026-09-21, batch 4):** **27** IOViewer-poster för timers, Game Pak-buss, CGB-skärmstatus och avsökningslogik granskades radvis och publicerades via Hosted Weblate (HTTP 200). `l10n-lint` passerar backupen utan fel. Backup: `mGBA/sv-mgba-ioviewer-timer-bus-batch4-20260921.{json,po}`.
+
+**mGBA (2026-09-21, batch 5 och slutförande):** De sista **25** UI-, kamera-, scripting- och felsökningsposterna är granskade och publicerade via Hosted Weblate (HTTP 200). En luddig Memory Dump-post med ändrad källtext granskades också på nytt och korrigerades. Aktuell Weblate-status är **1 275/1 275**, utan luddiga poster. `l10n-lint` passerar batchbackuperna utan fel. Backuper: `mGBA/sv-mgba-settings-debug-batch5-20260921.{json,po}` och `mGBA/sv-mgba-memory-dump-fuzzy-fix-20260921.{json,po}`.
