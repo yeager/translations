@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – efterlevnadskontroller för IaC och statussida, grupp 43 (2026-09-21):** Fem lokalt XLIFF-granskade poster är CrowdIn-publicerade: CI/CD-jobbtokenomfång, IaC-skanning, Terraform, linjär incheckningshistorik och statussida. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – efterlevnadskontroller för MFA och administratörer, grupp 42 (2026-09-21):** Sju lokalt XLIFF-granskade poster är CrowdIn-publicerade: rensning av inaktuella grenar, MFA för bidragsgivare, kodägargodkännanden, administratörsredundans och versionshantering. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – efterlevnadskontroller för pushskydd och godkännanden, grupp 41 (2026-09-21):** Fem lokalt XLIFF-granskade poster är CrowdIn-publicerade: statussida, strikta behörigheter, förbud mot författares egna godkännanden, pushskydd och återställning av godkännanden. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
