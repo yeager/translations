@@ -1,3 +1,4 @@
+- **GitLab – skanningsresultatpolicyer, grupp 64 (2026-09-21):** 27 poster radgranskade för EPSS, åtgärder, undantag, felsäkra lägen, byggpipelines, CI/CD-token och licenskrav. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsresultatpolicyer, grupp 63 (2026-09-21):** 27 poster radgranskade för kriterier, policykringgående, EPSS-risk, CI-variabler, grenmönster, licenser och automatisering. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – skanningsresultatpolicyer, grupp 62 (2026-09-21):** 24 poster radgranskade för token, licenser, undantag, policykringgående, skyddade grenar och godkännanderegler. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – granskningshändelseströmmar, grupp 61 (2026-09-21):** 16 poster radgranskade för AWS, Google Cloud Logging, privata nycklar, HTTP-rubriker och leveransmål. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
