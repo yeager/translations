@@ -1,3 +1,4 @@
+- **GitLab – virtuellt register, rensningsstatus (25 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – virtuellt register, rensningsprincip (28 strängar, 2026-09-21):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Secrets Manager, provkrediter (2 strängar, 2026-09-21):** Terminologiskt granskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – policylager, grupp 93 (2026-09-21):** 11 poster radgranskade för utlösare, driftsättningsförutsättningar, versioner, varningar och projektstyrning. Publicerat i CrowdIn; l10n-lint v1.21.6: 0 fel.
