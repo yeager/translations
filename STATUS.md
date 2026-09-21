@@ -3,6 +3,8 @@
 Senast uppdaterad: 2026-09-21
 
 
+**GitLab – tjänstekonton och behörigheter, grupp 27 (2026-09-21):** 27 lokalt XLIFF-granskade poster är CrowdIn-publicerade: skapande, uppdatering och borttagning av tjänstekonton, personliga åtkomsttoken, grupp-/projekt-ID, prenumerationsgränser och namnrymdsbehörigheter. ID- och resursplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
+
 **GitLab – incidentinställningar och tidslinje, grupp 26 (2026-09-21):** 42 lokalt XLIFF-granskade poster är CrowdIn-publicerade: SLA-timer, Grafana/PagerDuty-integrationer, incidentbilder och mått, händelsetaggar samt felhantering för tidslinjehändelser och data. Länk-, fil- och felplatshållare är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
 
 **GitLab – incidenthantering, grupp 25 (2026-09-21):** 41 lokalt XLIFF-granskade poster är CrowdIn-publicerade: incidentmallar, inkommande larm, SLA-nedräkning, allvarlighetsgrader, ansvariga, larmning och eskaleringspolicyer samt publicering på statussidan. Tids- och siffervariabler är intakta. `l10n-lint` **v1.21.6** ger 0 fel på hela exporten.
