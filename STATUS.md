@@ -1995,3 +1995,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 180: 27 AI-styrnings-, åtkomstavtals-, analys-, kontosäkerhets-, profil- och prenumerationssträngar översatta, l10n-lint-granskade (0 fel) och API-publicerade (HTTP 201 för samtliga). Batchen är synkad till `swedish-tm`.
 
 - 2026-09-22 — GitLab/Crowdin batch 181: 36 åtkomst-, autentiserings-, SSH-, WebAuthn-, API- och skyddssträngar översatta, l10n-lint-granskade (0 fel) och API-publicerade (HTTP 201 för samtliga). Batchen är synkad till `swedish-tm`.
+
+- 2026-09-22 — GitLab/Crowdin batch 182: 43 SAML-, LDAP-, SSH-, OAuth-, API-, åtkomst- och behörighetssträngar översatta, l10n-lint-granskade (0 fel) och API-publicerade. Tre avslutande API-svar var dubblettskydd, vilket bekräftar redan registrerade översättningar. Batchen är synkad till `swedish-tm`.
