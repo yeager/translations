@@ -1915,3 +1915,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 133: 26 distributions-, miljö-, kanarieutrullnings- och produktionssträngar översatta och granskade. Kubernetes-behörigheter, stegvis utrullning, produktionsskydd och platshållare validerade med l10n-lint (0 fel) före API-publicering.
 
 - 2026-09-22 — GitLab/Crowdin batch 134: 15 projekt-, grupp-, ägarskaps- och namnrymdsöverföringssträngar översatta och granskade. Köstatus, behörigheter, kontoavveckling, containerregister och platshållare validerade med l10n-lint (0 fel) före API-publicering.
+
+- 2026-09-22 — GitLab/Crowdin batch 135: 24 arbetsobjekt-, status- och Duo-strängar översatta och granskade, validerade med l10n-lint (0 fel) och publicerade via API. Sträng 491452 hade tagits bort från Crowdin (404) efter exporten; den återställdes till oöversatt lokalt och inväntar nästa export.
