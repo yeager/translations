@@ -1861,3 +1861,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 106):** Två ytterligare felmeddelanden för blobbar och utgåvor granskades och publicerades via CrowdIn (HTTP 201).
 
 **GitLab (2026-09-22, batch 107):** Fyra felmeddelanden för sidprenumerationer, RTF-redigeraren och inställningar granskades och publicerades via CrowdIn.
+
+- 2026-09-22 — GitLab/Crowdin batch 108: 30 UI- och AI-/Amazon Q-termer granskade rad för rad lokalt, validerade med l10n-lint och publicerade via Crowdin API. OpenCode hade redan en identisk översättning och accepterades därför som befintlig post.
