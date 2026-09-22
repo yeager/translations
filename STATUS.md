@@ -1827,3 +1827,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 89):** **25** poster för pipelineutlösare, tokenåterkallande, hemlighetsidentifiering, profiler, projektåtkomsttoken, importautentisering och webhooks granskades och publicerades via CrowdIn (HTTP 201). Säkerhetsvarningen om återkallning av utlösartoken är bevarad. `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
 
 **GitLab (2026-09-22, batch 90):** **21** poster för säkerhetsinventering, SAST-profiler, sårbarhetsurval, AWS OpenSearch/IAM, Service Desk-verifiering, licensöverensstämmelse och åtkomsttoken har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
+
+**GitLab (2026-09-22, batch 91):** **25** poster för pipelineutlösarbehörighet, beroendelistor, hemligheter, CI/CD-jobbtoken, sårbarhetsstatistik, åtkomsttoken och imitationstoken har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
