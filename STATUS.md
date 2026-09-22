@@ -1843,3 +1843,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 97):** **21** poster för AI Gateway, självhostade modeller, agentorkestrering, nätverks-/gruppåtkomstkontroller samt Duo-ärvning och krediter har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
 
 **GitLab (2026-09-22, batch 98):** **21** poster för Duo Agent Platform, TLS, tjänsteändpunkter, kodkomplettering, instansspärrar och sessionsgodkännande av verktyg har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
+
+**GitLab (2026-09-22, batch 99):** **21** poster för Duo Agent Platform/CLI, TLS, promptcache, kreditförbrukning, agenter, flöden, direkta anslutningar och projektroller har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
