@@ -1811,3 +1811,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 81):** **13** poster för Kubernetes-klusteragenters åtkomsttoken granskades och publicerades via CrowdIn (HTTP 201). Tokenvisning, återkallande, giltighet, terminalanslutning och revisionsspår är översatta med rätt säkerhetskontext. `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
 
 **GitLab (2026-09-22, batch 82):** **30** poster för efterlevnadsramverk, rapporter, kontroller, beviskedja, policyer och API-konfiguration har granskats och publicerats via CrowdIn (HTTP 201). Terminologi för krav, kontroller och standardramverk är konsekvent. `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
+
+**GitLab (2026-09-22, batch 83):** **23** poster för efterlevnadsramverk och överträdelser granskades och publicerades via CrowdIn (HTTP 201): mallar, JSON-import, instansnivå, kontroller, krav, uppladdningsfel och revisionshändelser. `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
