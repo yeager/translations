@@ -1919,3 +1919,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 135: 24 arbetsobjekt-, status- och Duo-strängar översatta och granskade, validerade med l10n-lint (0 fel) och publicerade via API. Sträng 491452 hade tagits bort från Crowdin (404) efter exporten; den återställdes till oöversatt lokalt och inväntar nästa export.
 
 - 2026-09-22 — GitLab/Crowdin batch 136: 5 beroendeliste-, Geo-export- och licensöverensstämmelsesträngar översatta och granskade. Ledande blanksteg och platshållare validerade med l10n-lint (0 fel) före API-publicering.
+
+- 2026-09-22 — GitLab/Crowdin batch 137: 2 nätverkssäkerhetssträngar för utgående begäranden och skydd mot DNS-ombindning översatta, validerade med l10n-lint (0 fel) och publicerade via API.
