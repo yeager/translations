@@ -1,6 +1,6 @@
 --- a/vmm-0.7.0.sv.po
 +++ b/vmm-0.7.0.sv.po
-@@ -43,28 +43,28 @@
+@@ -43,23 +43,23 @@
  #: VirtualMailManager/handler.py:853
  #, python-format
  msgid "The account '%s' does not exist."
@@ -18,28 +18,22 @@
  #, python-format
  msgid "Could not accept password: '%s'"
 -msgstr "Det gick inte att acceptera lösenord: ”%s”"
-+msgstr "kunde inte godta lösenordet ”%s”"
++msgstr "Kunde inte godta lösenordet ”%s”"
  
  #: VirtualMailManager/account.py:241
  #, python-format
  msgid "No password set for account: '%s'"
 -msgstr "Inget lösenord inställt för kontot: ”%s”"
-+msgstr "inget lösenord har angetts för kontot ”%s”"
++msgstr "Inget lösenord har angetts för kontot ”%s”"
  
  #: VirtualMailManager/account.py:273
  #, python-format
- msgid "Unknown field: '%s'"
--msgstr "Okänt fält: ”%s”"
-+msgstr "okänt fält: ”%s”"
- 
- #. TP: A service (e.g. pop3 or imap) may be enabled/usable or
- #. disabled/unusable for a user.
 @@ -79,12 +79,12 @@
  #: VirtualMailManager/account.py:424
  #, python-format
  msgid "Could not fetch information for account: '%s'"
 -msgstr "Det gick inte att hämta information för konto: ”%s”"
-+msgstr "kunde inte hämta information om kontot ”%s”"
++msgstr "Kunde inte hämta information om kontot ”%s”"
  
  #: VirtualMailManager/account.py:468
  #, python-format
@@ -54,7 +48,7 @@
  #, python-format
  msgid "There is no account with the UID: '%d'"
 -msgstr "Det finns inget konto med UID: ”%d”"
-+msgstr "det finns inget konto med UID ”%d”"
++msgstr "Det finns inget konto med UID ”%d”"
  
  #: VirtualMailManager/alias.py:59
  #, python-format
@@ -94,7 +88,7 @@
  #, python-format
  msgid "No suitable destinations left to remove from alias '%s'."
 -msgstr "Inga lämpliga destinationer kvar att ta bort från alias ”%s”."
-+msgstr "inga lämpliga destinationer återstår att ta bort från aliaset ”%s”"
++msgstr "Inga lämpliga destinationer återstår att ta bort från aliaset ”%s”"
  
  #: VirtualMailManager/aliasdomain.py:49
  #, python-format
@@ -108,7 +102,7 @@
  #: VirtualMailManager/aliasdomain.py:71 VirtualMailManager/aliasdomain.py:105
  msgid "No destination domain set for the alias domain."
 -msgstr "Ingen destinationsdomän inställd för aliasdomänen."
-+msgstr "ingen destinationsdomän har angetts för aliasdomänen"
++msgstr "Ingen destinationsdomän har angetts för aliasdomänen"
  
  #: VirtualMailManager/aliasdomain.py:74 VirtualMailManager/aliasdomain.py:108
  #, python-format
@@ -127,7 +121,7 @@
  #, python-format
  msgid "There is no primary domain for the alias domain '%s'."
 -msgstr "Det finns ingen primärdomän för aliasdomänen ”%s”."
-+msgstr "det finns ingen primärdomän för aliasdomänen ”%s”"
++msgstr "Det finns ingen primärdomän för aliasdomänen ”%s”"
  
  #: VirtualMailManager/aliasdomain.py:114
  #, python-format
@@ -165,13 +159,13 @@
  #, python-format
  msgid "There are no catch-all aliases defined for domain '%s'."
 -msgstr "Det finns inga matcha-alla-alias definierade för domän ”%s”."
-+msgstr "det finns inga uppsamlingsalias definierade för domänen ”%s”"
++msgstr "Det finns inga uppsamlingsalias definierade för domänen ”%s”"
  
  #: VirtualMailManager/catchall.py:157
  #, python-format
  msgid "No suitable destinations left to remove from the catch-all alias of domain '%s'."
 -msgstr "Inga lämpliga destinationer kvar att ta bort från matcha-alla-alias för domän ”%s”."
-+msgstr "inga lämpliga destinationer återstår att ta bort från uppsamlingsaliaset för domänen ”%s”"
++msgstr "Inga lämpliga destinationer återstår att ta bort från uppsamlingsaliaset för domänen ”%s”"
  
  #. TP: Please preserve the trailing space.
  #: VirtualMailManager/cli/__init__.py:80
@@ -185,12 +179,12 @@
  #: VirtualMailManager/cli/__init__.py:87 VirtualMailManager/cli/config.py:55
  msgid "Too many failures - try again later."
 -msgstr "Allt för många fel - försök igen senare."
-+msgstr "för många fel – försök igen senare."
++msgstr "För många fel – försök igen senare."
  
  #: VirtualMailManager/cli/__init__.py:93
  msgid "Sorry, passwords do not match."
 -msgstr "Lösenord matchar tyvärr inte."
-+msgstr "lösenorden stämmer inte överens."
++msgstr "Lösenorden stämmer inte överens."
  
  #: VirtualMailManager/cli/__init__.py:97
  msgid "Sorry, empty passwords are not permitted."
@@ -209,24 +203,12 @@
  
  #: VirtualMailManager/cli/config.py:38
  #, python-format
-@@ -254,17 +256,17 @@
- #: VirtualMailManager/cli/handler.py:65
- #, python-format
- msgid "Invalid section: '%s'"
--msgstr "Ogiltigt avsnitt: ”%s”"
-+msgstr "ogiltigt avsnitt: ”%s”"
- 
- #: VirtualMailManager/cli/main.py:30 VirtualMailManager/cli/main.py:54
- #: VirtualMailManager/cli/main.py:56
- #, python-format
- msgid "Error: %s"
--msgstr "Fel: %s"
-+msgstr "fel: %s"
+@@ -264,7 +266,7 @@
  
  #: VirtualMailManager/cli/main.py:41
  msgid "You must specify a subcommand at least."
 -msgstr "Du måste åtminstone ange ett underkommando."
-+msgstr "du måste ange minst ett underkommando."
++msgstr "Du måste ange minst ett underkommando."
  
  #. TP: We have to cry, because root has killed/interrupted vmm
  #. with Ctrl+C or Ctrl+D.
@@ -235,13 +217,13 @@
  #, python-format
  msgid "Error: Unknown section: '%s'"
 -msgstr "Fel: Okänt avsnitt: ”%s”"
-+msgstr "fel: okänt avsnitt: ”%s”"
++msgstr "Fel: okänt avsnitt: ”%s”"
  
  #: VirtualMailManager/cli/main.py:62
  #, python-format
  msgid "Error: No option '%(option)s' in section: '%(section)s'"
 -msgstr "Fel: Ingen flagga ”%(option)s” i avsnitt: ”%(section)s”"
-+msgstr "fel: inget alternativ ”%(option)s” i avsnittet ”%(section)s”"
++msgstr "Fel: inget alternativ ”%(option)s” i avsnittet ”%(section)s”"
  
  #: VirtualMailManager/cli/subcommands.py:53
  #, python-format
@@ -1000,7 +982,7 @@
  #, python-format
  msgid "Invalid address type for list: '%s'"
 -msgstr "Ogiltig adresstyp för lista: ”%s”"
-+msgstr "ogiltig adresstyp för listning: ”%s”"
++msgstr "Ogiltig adresstyp för listning: ”%s”"
  
  #. TP: the letters 'u', 'a' and 'r' are abbreviations of user,
  #. alias and relocated user
@@ -1013,22 +995,7 @@
  
  #: VirtualMailManager/cli/subcommands.py:1283
  #, python-format
-@@ -1208,12 +1210,12 @@
- #: VirtualMailManager/common.py:62
- #, python-format
- msgid "No such file: '%s'"
--msgstr "Ingen sådan fil: ”%s”"
-+msgstr "ingen sådan fil: ”%s”"
- 
- #: VirtualMailManager/common.py:65
- #, python-format
- msgid "File is not executable: '%s'"
--msgstr "Filen är inte körbar: ”%s”"
-+msgstr "filen är inte körbar: ”%s”"
- 
- #: VirtualMailManager/common.py:82
- msgid "GiB"
-@@ -1249,17 +1251,17 @@
+@@ -1249,7 +1251,7 @@
  #: VirtualMailManager/common.py:217
  #, python-format
  msgid "%s [domain default]"
@@ -1037,70 +1004,45 @@
  
  #: VirtualMailManager/config.py:90
  #, python-format
- msgid "Not a boolean: '%s'"
--msgstr "Inte ett booleskt värde: ”%s”"
-+msgstr "inte ett booleskt värde: ”%s”"
- 
+@@ -1259,7 +1261,7 @@
  #: VirtualMailManager/config.py:128
  #, python-format
  msgid "Bad format: '%s' - expected: section.option"
 -msgstr "Felaktigt format: ”%s” - förväntat: avsnitt.flagga"
-+msgstr "felaktigt format: ”%s” – förväntat: avsnitt.alternativ"
++msgstr "Felaktigt format: ”%s” – förväntat: avsnitt.alternativ"
  
  #: VirtualMailManager/config.py:373
  #, python-format
-@@ -1269,43 +1271,43 @@
+@@ -1269,11 +1271,11 @@
  #: VirtualMailManager/config.py:383 VirtualMailManager/config.py:391
  #, python-format
  msgid "Check of configuration file %s failed.\n"
 -msgstr "Kontroll av konfigurationsfil %s misslyckades.\n"
-+msgstr "kontroll av konfigurationsfilen %s misslyckades.\n"
++msgstr "Kontroll av konfigurationsfilen %s misslyckades.\n"
  
  #: VirtualMailManager/config.py:385
  msgid "Missing options, which have no default value.\n"
 -msgstr "Saknar flaggor som saknar standardvärden.\n"
-+msgstr "alternativ utan standardvärde saknas.\n"
++msgstr "Alternativ utan standardvärde saknas.\n"
  
  #: VirtualMailManager/config.py:393 VirtualMailManager/config.py:395
  msgid "Invalid configuration values.\n"
--msgstr "Ogiltiga konfigurationsvärden.\n"
-+msgstr "ogiltiga konfigurationsvärden.\n"
- 
+@@ -1282,13 +1284,13 @@
  #: VirtualMailManager/config.py:441 VirtualMailManager/config.py:471
  #, python-format
  msgid "Unknown pgsql SSL mode: '%s'"
 -msgstr "Okänt pgsql SSL-läge: ”%s”"
-+msgstr "okänt pgsql-SSL-läge: ”%s”"
++msgstr "Okänt pgsql-SSL-läge: ”%s”"
  
  #: VirtualMailManager/config.py:448 VirtualMailManager/config.py:484
  #: VirtualMailManager/maillocation.py:68
  #, python-format
  msgid "Unsupported mailbox format: '%s'"
 -msgstr "Brevlådeformat stöds inte: ”%s”"
-+msgstr "brevlådeformatet stöds inte: ”%s”"
++msgstr "Brevlådeformatet stöds inte: ”%s”"
  
  #: VirtualMailManager/config.py:464 VirtualMailManager/handler.py:252
  #: VirtualMailManager/handler.py:328 VirtualMailManager/handler.py:333
- #: VirtualMailManager/handler.py:361
- #, python-format
- msgid "No such directory: %s"
--msgstr "Ingen sådan katalog: %s"
-+msgstr "ingen sådan katalog: %s"
- 
- #: VirtualMailManager/config.py:495
- #, python-format
- msgid "Not a valid size value: '%s'"
--msgstr "Inte ett giltigt storleksvärde: ”%s”"
-+msgstr "inte ett giltigt storleksvärde: ”%s”"
- 
- #: VirtualMailManager/config.py:507
- #, python-format
- msgid "Not a valid Dovecot version: '%s'"
--msgstr "Inte en giltig Dovecot-version: ”%s”"
-+msgstr "inte en giltig Dovecot-version: ”%s”"
- 
- #: VirtualMailManager/config.py:510
- #, python-format
 @@ -1320,7 +1322,7 @@
  #: VirtualMailManager/domain.py:117
  #, python-format
@@ -1115,31 +1057,31 @@
  #, python-format
  msgid "Missing the '@' sign in address: '%s'"
 -msgstr "Saknar snabel-a ”@” i adress: ”%s”"
-+msgstr "tecknet ”@” saknas i adressen: ”%s”"
++msgstr "Tecknet ”@” saknas i adressen: ”%s”"
  
  #: VirtualMailManager/emailaddress.py:75
  #, python-format
  msgid "Too many '@' signs in address: '%s'"
 -msgstr "För många snabel-a ”@” i adress: ”%s”"
-+msgstr "för många ”@”-tecken i adressen: ”%s”"
++msgstr "För många ”@”-tecken i adressen: ”%s”"
  
  #: VirtualMailManager/emailaddress.py:78
  #, python-format
  msgid "Missing local-part in address: '%s'"
 -msgstr "Saknar lokal-del i adress: ”%s”"
-+msgstr "lokaldelen saknas i adressen: ”%s”"
++msgstr "Lokaldelen saknas i adressen: ”%s”"
  
  #: VirtualMailManager/emailaddress.py:81
  #, python-format
  msgid "Missing domain name in address: '%s'"
 -msgstr "Saknar domännamn i adress: ”%s”"
-+msgstr "domännamnet saknas i adressen: ”%s”"
++msgstr "Domännamnet saknas i adressen: ”%s”"
  
  #: VirtualMailManager/emailaddress.py:144
  #, python-format
  msgid "The local-part '%s' is too long."
 -msgstr "Lokaldelen ”%s” är allt för lång."
-+msgstr "lokaldelen ”%s” är för lång."
++msgstr "Lokaldelen ”%s” är för lång."
  
  #: VirtualMailManager/emailaddress.py:149
  #, python-format
@@ -1148,7 +1090,7 @@
  #, python-format
  msgid "The value '%s' does not look like a valid Postfix configuration parameter name."
 -msgstr "Värdet ”%s” ser inte ut som ett giltigt namn på en Postfix-konfigurationsparameter."
-+msgstr "värdet ”%s” ser inte ut som ett giltigt Postfix-konfigurationsparameternamn."
++msgstr "Värdet ”%s” ser inte ut som ett giltigt Postfix-konfigurationsparameternamn."
  
  #: VirtualMailManager/handler.py:57
  msgid "an account"
@@ -1172,7 +1114,7 @@
  #, python-format
  msgid "Could not find '%(cfg_file)s' in: '%(cfg_path)s'"
 -msgstr "Det gick inte att hitta ”%(cfg_file)s” i: ”%(cfg_path)s”"
-+msgstr "kunde inte hitta ”%(cfg_file)s” i ”%(cfg_path)s”"
++msgstr "Kunde inte hitta ”%(cfg_file)s” i ”%(cfg_path)s”"
  
  #. TP: Please keep the backticks around the command. `chmod 0600 …`
  #: VirtualMailManager/handler.py:116
@@ -1214,17 +1156,12 @@
  
  #: VirtualMailManager/handler.py:320
  #, python-format
-@@ -1453,11 +1455,11 @@
- #: VirtualMailManager/handler.py:325 VirtualMailManager/handler.py:358
- #, python-format
- msgid "Found \"..\" in domain directory path: %s"
--msgstr "Hittade ”..” i domänkatalogens sökväg: %s"
-+msgstr "hittade ”..” i domänkatalogens sökväg: %s"
+@@ -1457,7 +1459,7 @@
  
  #: VirtualMailManager/handler.py:338
  msgid "Detected owner/group mismatch in home directory."
 -msgstr "Identifierade felaktig ägar-/gruppöverensstämmelse i hemkatalog."
-+msgstr "upptäckte att ägare och grupp inte stämmer överens i hemkatalogen."
++msgstr "Upptäckte att ägare och grupp inte stämmer överens i hemkatalogen."
  
  #: VirtualMailManager/handler.py:354
  #, python-format
@@ -1233,25 +1170,10 @@
  #, python-format
  msgid "Detected group mismatch in domain directory: %s"
 -msgstr "Identifierade felaktig gruppöverensstämmelse i domänkatalog: %s"
-+msgstr "upptäckte att gruppen inte stämmer överens i domänkatalogen: %s"
++msgstr "Upptäckte att gruppen inte stämmer överens i domänkatalogen: %s"
  
  #: VirtualMailManager/handler.py:435
  #, python-format
-@@ -1478,12 +1480,12 @@
- #: VirtualMailManager/handler.py:867 VirtualMailManager/handler.py:874
- #, python-format
- msgid "Unknown service: '%s'"
--msgstr "Okänd tjänst: ”%s”"
-+msgstr "okänd tjänst: ”%s”"
- 
- #: VirtualMailManager/handler.py:491 VirtualMailManager/handler.py:752
- #, python-format
- msgid "Invalid argument: '%s'"
--msgstr "Ogiltigt argument: ”%s”"
-+msgstr "ogiltigt argument: ”%s”"
- 
- #: VirtualMailManager/handler.py:571 VirtualMailManager/handler.py:592
- #: VirtualMailManager/handler.py:603
 @@ -1494,13 +1496,13 @@
  #: VirtualMailManager/handler.py:635 VirtualMailManager/handler.py:700
  #: VirtualMailManager/handler.py:714 VirtualMailManager/handler.py:744
@@ -1264,7 +1186,7 @@
  #, python-format
  msgid "The destination account/alias '%s' does not exist."
 -msgstr "Destinationskonto/alias ”%s” finns inte."
-+msgstr "destinationskontot eller -aliaset ”%s” finns inte."
++msgstr "Destinationskontot eller -aliaset ”%s” finns inte."
  
  #: VirtualMailManager/handler.py:664
  #, python-format
@@ -1283,57 +1205,55 @@
  #, python-brace-format
  msgid "Missing {SCHEME} prefix from password hash."
 -msgstr "Saknar {SCHEME}-prefix i lösenordshashen."
-+msgstr "prefixet {SCHEME} saknas i lösenordshashen."
++msgstr "Prefixet {SCHEME} saknas i lösenordshashen."
  
  #: VirtualMailManager/handler.py:836
  #, python-format
  msgid "Could not accept transport: '%s'"
 -msgstr "Det gick inte att acceptera transport: ”%s”"
-+msgstr "kunde inte godta transporten ”%s”"
++msgstr "Kunde inte godta transporten ”%s”"
  
  #: VirtualMailManager/handler.py:849
  #, python-format
-@@ -1534,36 +1536,36 @@
+@@ -1534,12 +1536,12 @@
  #: VirtualMailManager/relocated.py:112
  #, python-format
  msgid "The relocated user '%s' does not exist."
 -msgstr "Den omplacerade användaren ”%s” finns inte."
-+msgstr "den omdirigerade användaren ”%s” finns inte."
++msgstr "Den omdirigerade användaren ”%s” finns inte."
  
  #: VirtualMailManager/mailbox.py:259
  #, python-format
  msgid "Failed to create mailboxes: %r\n"
 -msgstr "Misslyckades med att skapa brevlådor: %r\n"
-+msgstr "misslyckades med att skapa brevlådorna: %r\n"
++msgstr "Misslyckades med att skapa brevlådorna: %r\n"
  
  #: VirtualMailManager/maillocation.py:72
  msgid "Empty directory name"
--msgstr "Tomt katalognamn"
-+msgstr "tomt katalognamn"
- 
+@@ -1548,22 +1550,22 @@
  #: VirtualMailManager/maillocation.py:74
  #, python-format
  msgid "Directory name is too long: '%s'"
 -msgstr "Katalognamn är för långt: ”%s”"
-+msgstr "katalognamnet är för långt: ”%s”"
++msgstr "Katalognamnet är för långt: ”%s”"
  
  #: VirtualMailManager/password.py:356
  #, python-format
  msgid "Unsupported password scheme: '%s'"
 -msgstr "Lösenordsschema stöds inte: ”%s”"
-+msgstr "lösenordsschemat stöds inte: ”%s”"
++msgstr "Lösenordsschemat stöds inte: ”%s”"
  
  #: VirtualMailManager/password.py:359
  #, python-format
  msgid "The password scheme '%(scheme)s' requires Dovecot >= v%(version)s."
 -msgstr "Lösenordsschema ”%(scheme)s” kräver Dovecot >= v%(version)s."
-+msgstr "lösenordsschemat ”%(scheme)s” kräver Dovecot >= v%(version)s."
++msgstr "Lösenordsschemat ”%(scheme)s” kräver Dovecot >= v%(version)s."
  
  #: VirtualMailManager/password.py:365
  #, python-format
  msgid "Unsupported password encoding: '%s'"
 -msgstr "Lösenordskodning stöds inte: ”%s”"
-+msgstr "lösenordskodningen stöds inte: ”%s”"
++msgstr "Lösenordskodningen stöds inte: ”%s”"
  
  #: VirtualMailManager/relocated.py:61 VirtualMailManager/relocated.py:75
  msgid "The destination address' domain name must not be localhost."
@@ -1342,10 +1262,10 @@
  #: VirtualMailManager/relocated.py:78
  msgid "Address and destination are identical."
 -msgstr "Adress och destination är identiska."
-+msgstr "adressen och destinationen är identiska."
++msgstr "Adressen och destinationen är identiska."
  
  #: VirtualMailManager/relocated.py:82
  #, python-format
  msgid "The relocated user '%s' already exists."
 -msgstr "Den omplacerade användaren ”%s” finns redan."
-+msgstr "den omdirigerade användaren ”%s” finns redan."
++msgstr "Den omdirigerade användaren ”%s” finns redan."
