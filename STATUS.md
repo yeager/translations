@@ -1859,3 +1859,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 105):** **6** felmeddelanden för arbetsobjekt, filkontroller, sammanslagningsbegäranden, biljetter, beräkningsanvändning och inställningar granskades och publicerades via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel.
 
 **GitLab (2026-09-22, batch 106):** Två ytterligare felmeddelanden för blobbar och utgåvor granskades och publicerades via CrowdIn (HTTP 201).
+
+**GitLab (2026-09-22, batch 107):** Fyra felmeddelanden för sidprenumerationer, RTF-redigeraren och inställningar granskades och publicerades via CrowdIn.
