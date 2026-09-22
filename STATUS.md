@@ -1865,3 +1865,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 108: 30 UI- och AI-/Amazon Q-termer granskade rad för rad lokalt, validerade med l10n-lint och publicerade via Crowdin API. OpenCode hade redan en identisk översättning och accepterades därför som befintlig post.
 
 - 2026-09-22 — GitLab/Crowdin batch 109: 28 GitLab Duo-, agent- och granskningssträngar översatta med platsmarkörer och produkttermer bevarade, granskade med l10n-lint och publicerade via Crowdin API.
+
+- 2026-09-22 — GitLab/Crowdin batch 110: 27 säkerhets-, klusteragent- och efterlevnadsexportsträngar översatta och terminologiskt granskade. Platshållare, OIDC, Kubernetes-behörigheter och CSV-/rapportformat kontrollerade med l10n-lint före publicering via Crowdin API.
