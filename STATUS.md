@@ -1,3 +1,4 @@
+- **GitLab – Observability: slutpunkter och instrumentpaneler (15 strängar, 2026-09-22):** Radgranskade och publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **Shotcut – aktuell upstreamgranskning (2026-09-22):** 211 nya/uppdaterade svenska TS-strängar har radgranskats; l10n-lint: 0 fel; `lrelease`: 4 210 slutförda. GitHub-fork/PR väntar på att API-rategränsen släpper.
 - **GitLab – Observability: CI/CD-telemetri och loggar (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Observability: OpenTelemetry och APM (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
