@@ -1837,3 +1837,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 94):** **15** centrala CI-säkerhetssträngar för DAST, kontainer-, beroende- och SAST-skanning, hemlighetsidentifiering, sårbarhetsresultat och licensöverensstämmelse har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
 
 **GitLab (2026-09-22, batch 95):** **23** poster för avancerad sökning, indexering, administratörsanvändare, agentartefakter, CI/CD-variabler och förgreningsrelationer har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
+
+**GitLab (2026-09-22, batch 96):** **21** poster för GitLab Duo-tillgänglighet och -styrning, gruppernas opt-in/opt-out, Amazon Q, modellhantering, tillåtelselistor och anslutningar har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
