@@ -1873,3 +1873,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 112: 38 SBOM-, licens-, sårbarhets- och allvarlighetsgradssträngar granskade rad för rad och publicerade. API:t bekräftade 13 nya poster; övriga hade redan samma godkända översättning. l10n-lint kördes före publicering.
 
 - 2026-09-22 — GitLab/Crowdin batch 113: 35 strängar för hemlighetsidentifiering, granskningshändelser, autentiseringsuppgifter och offlineöverföring översatta och granskade. Säkerhetstermer, SSO, AWS S3 och kod-/länkplatshållare validerade med l10n-lint före API-publicering.
+
+- 2026-09-22 — GitLab/Crowdin batch 114: 32 åtkomst-, medlemskaps-, roll- och skyddade grensträngar översatta och granskade. IAM, SSO, policy, fakturering och sammanfogningsbegäransterminologi kontrollerad med l10n-lint innan publicering via API.
