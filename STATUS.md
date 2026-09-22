@@ -1879,3 +1879,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 115: 15 CI/CD-, trigger- och distributionstokensträngar översatta och granskade. Tokenomfång, förfallodatum, API-anrop och kodplatshållare validerade med l10n-lint före publicering via API.
 
 - 2026-09-22 — GitLab/Crowdin batch 116: 30 incidenthanterings-, DORA-, beredskaps- och eskaleringssträngar översatta och granskade. Flödesvillkor, aviseringar, scheman och platshållare validerade med l10n-lint före API-publicering.
+
+- 2026-09-22 — GitLab/Crowdin batch 117: 22 paketregister-, beroendeproxy- och virtuell registersträngar översatta och granskade. Paketformat, API-begäranden, behörigheter och lagringskvoter validerade med l10n-lint 1.21.6 före API-publicering.
