@@ -4341,7 +4341,7 @@
  
  #: m2/lang.opt:315
  #, no-c-format
-@@ -9074,12 +9074,12 @@
+@@ -9074,7 +9074,7 @@
  #: m2/lang.opt:327
  #, no-c-format
  msgid "Link the standard Modula-2 libraries statically in the compilation."
@@ -4349,12 +4349,6 @@
 +msgstr "Länka standardbiblioteken för Modula-2 statiskt vid kompilering."
  
  #: m2/lang.opt:472 m2/lang.opt:476
- #, no-c-format
- msgid "save temporary preprocessed files."
--msgstr "spara temporära preprocessade filer."
-+msgstr "Spara temporära preprocessade filer."
- 
- #: fortran/lang.opt:146
  #, no-c-format
 @@ -9089,7 +9089,7 @@
  #: fortran/lang.opt:198
@@ -7286,12 +7280,12 @@
  #: calls.cc:1463
  msgid "a callee-copied argument is stored in the current function's frame"
 -msgstr "ett anropad-kopierat argument lagras i den aktuella funktionens ram"
-+msgstr "Ett argument som kopierats av den anropade lagras i den aktuella funktionens ram."
++msgstr "ett argument som kopierats av den anropade lagras i den aktuella funktionens ram."
  
  #: calls.cc:1533
  msgid "argument must be passed by copying"
 -msgstr "argument måste skickas med kopiering"
-+msgstr "Argumentet måste överföras genom kopiering."
++msgstr "argumentet måste överföras genom kopiering."
  
  #: calls.cc:2565
  msgid "machine description does not have a sibcall_epilogue instruction pattern"
@@ -10413,7 +10407,7 @@
  #, gcc-internal-format
  msgid "invalid OpenMP non-rectangular loop step; %<(%E - %E) * %E%> is not a multiple of loop %d step %qE"
 -msgstr "felaktig OpenMP ickerektangulärt slingsteg; %<(%E - %E) * %E%> är inte en multipel av slinga %d steg %qE"
-+msgstr "Felaktigt OpenMP-icke-rektangulärt slingsteg; %<(%E - %E) * %E%> är inte en multipel av slinga %d med steg %qE"
++msgstr "felaktigt OpenMP-icke-rektangulärt slingsteg; %<(%E - %E) * %E%> är inte en multipel av slinga %d med steg %qE"
  
  #: omp-general.cc:1320
  #, gcc-internal-format
@@ -13454,13 +13448,13 @@
  #, gcc-internal-format
  msgid "outer iteration variable %qD multiplier expression %qE is not integral"
 -msgstr "den yttre iterationsvariabeln %qD multiplikationsuttryck %qE är inte ett heltal"
-+msgstr "Multiplikationsuttrycket %qD för den yttre iterationsvariabeln %qE är inte ett heltal"
++msgstr "multiplikationsuttrycket %qD för den yttre iterationsvariabeln %qE är inte ett heltal"
  
  #: c-family/c-omp.cc:1595
  #, gcc-internal-format
  msgid "outer iteration variable %qD addend expression %qE is not integral"
 -msgstr "yttre iterationsvariabel %qD tilläggsuttryck %qE är inte ett heltal"
-+msgstr "Tilläggsuttrycket %qD för den yttre iterationsvariabeln %qE är inte ett heltal"
++msgstr "tilläggsuttrycket %qD för den yttre iterationsvariabeln %qE är inte ett heltal"
  
  #: c-family/c-omp.cc:1734 c-family/c-omp.cc:1828
  #, gcc-internal-format
@@ -16787,13 +16781,13 @@
  #, gcc-internal-format
  msgid "constant value required for builtin %qF argument %d"
 -msgstr "konstant värde behövs till den inbyggda %qF argument %d"
-+msgstr "Ett konstant värde krävs för den inbyggda %qF:s argument %d"
++msgstr "ett konstant värde krävs för den inbyggda %qF:s argument %d"
  
  #: config/s390/s390-c.cc:759
  #, gcc-internal-format
  msgid "valid values for builtin %qF argument %d are 64, 128, 256, 512, 1024, 2048, and 4096"
 -msgstr "giltiga värden till inbyggd %qF argument %d är 64, 128, 256, 512, 1024, 2048 och 4096"
-+msgstr "Giltiga värden för den inbyggda %qF:s argument %d är 64, 128, 256, 512, 1024, 2048 och 4096"
++msgstr "giltiga värden för den inbyggda %qF:s argument %d är 64, 128, 256, 512, 1024, 2048 och 4096"
  
  #: config/s390/s390-c.cc:941
  #, gcc-internal-format
@@ -29379,7 +29373,7 @@
  #, gcc-internal-format
  msgid "incorrect %qT type of argument %d, expected %qT"
 -msgstr "felaktig typ %qT på argument %d, %qT förväntades"
-+msgstr "Argumentet av typen %qT på plats %d har felaktig typ; %qT förväntades"
++msgstr "argumentet av typen %qT på plats %d har felaktig typ; %qT förväntades"
  
  #: cp/reflect.cc:496
  #, gcc-internal-format
@@ -29547,7 +29541,7 @@
  #, gcc-internal-format
  msgid "incorrect %qT type of argument %d, expected %qs"
 -msgstr "felaktig typ %qT på argument %d, %qs förväntades"
-+msgstr "Argumentet av typen %qT på plats %d har felaktig typ; %qs förväntades"
++msgstr "argumentet av typen %qT på plats %d har felaktig typ; %qs förväntades"
  
  #: cp/reflect.cc:7974
  #, gcc-internal-format
@@ -32082,15 +32076,6 @@
  
  #: fortran/io.cc:931
  #, gcc-internal-format, gfc-internal-format
-@@ -78951,7 +78947,7 @@
- #: fortran/io.cc:941
- #, gcc-internal-format, gfc-internal-format
- msgid "positive width required at %L"
--msgstr "positiv bredd krävs vid %L"
-+msgstr "Positiv bredd krävs vid %L"
- 
- #: fortran/io.cc:964 fortran/io.cc:971
- #, gcc-internal-format, gfc-internal-format
 @@ -78981,7 +78977,7 @@
  #: fortran/io.cc:1134 fortran/io.cc:1140
  #, gcc-internal-format, gfc-internal-format
@@ -32448,13 +32433,7 @@
  
  #: fortran/match.cc:6827
  #, gcc-internal-format, gfc-internal-format
-@@ -80542,12 +80538,12 @@
- #: fortran/match.cc:7727
- #, gcc-internal-format, gfc-internal-format
- msgid "parse error in SELECT TYPE statement at %C"
--msgstr "parsningsfel i SELECT TYPE-sats vid %C"
-+msgstr "Parsningsfel i SELECT TYPE-sats vid %C"
- 
+@@ -80547,7 +80543,7 @@
  #: fortran/match.cc:7752
  #, gcc-internal-format, gfc-internal-format
  msgid "Selector in SELECT TYPE at %C is not a named variable; use associate-name=>"
@@ -32462,15 +32441,6 @@
 +msgstr "Väljare i SELECT TYPE vid %C är inte en namngiven variabel; använd associationsnamn=>"
  
  #: fortran/match.cc:7940
- #, gcc-internal-format, gfc-internal-format
-@@ -80562,7 +80558,7 @@
- #: fortran/match.cc:8045
- #, gcc-internal-format, gfc-internal-format
- msgid "parse error in SELECT RANK statement at %C"
--msgstr "parsningsfel i SELECT RANK-sats vid %C"
-+msgstr "Parsningsfel i SELECT RANK-sats vid %C"
- 
- #: fortran/match.cc:8081
  #, gcc-internal-format, gfc-internal-format
 @@ -80582,7 +80578,7 @@
  #: fortran/match.cc:8183
@@ -32936,7 +32906,7 @@
  #, gcc-internal-format
  msgid "selector %qs does not accept any properties at %C"
 -msgstr "selektorn %qs tar inte några egenskaper vid %C"
-+msgstr "Selektorn %qs accepterar inga egenskaper vid %C"
++msgstr "selektorn %qs accepterar inga egenskaper vid %C"
  
  #: fortran/openmp.cc:6558
  #, gcc-internal-format
@@ -32945,19 +32915,19 @@
  #, gcc-internal-format, gfc-internal-format
  msgid "expected expression at %C"
 -msgstr "uttryck förväntades vid %C"
-+msgstr "Ett uttryck förväntades vid %C"
++msgstr "ett uttryck förväntades vid %C"
  
  #: fortran/openmp.cc:6662
  #, gcc-internal-format, gfc-internal-format
  msgid "expected simd clause at %C"
 -msgstr "simd-klausul förväntades vid %C"
-+msgstr "En simd-klausul förväntades vid %C"
++msgstr "en simd-klausul förväntades vid %C"
  
  #: fortran/openmp.cc:6738
  #, gcc-internal-format, gfc-internal-format
  msgid "expected context selector set name at %C"
 -msgstr "kontextväljarmängdsnamn förväntades vid %C"
-+msgstr "Ett kontextväljarmängdsnamn förväntades vid %C"
++msgstr "ett kontextväljarmängdsnamn förväntades vid %C"
  
  #: fortran/openmp.cc:6745
  #, gcc-internal-format
@@ -32966,7 +32936,7 @@
  #, gcc-internal-format
  msgid "expected dummy parameter name, %<omp_num_args%> or constant positive integer at %C"
 -msgstr "ett attrapparameternamn, %<omp_num_args%> eller konstant positivt heltal förväntades vid %C"
-+msgstr "Ett dummyparameternamn, %<omp_num_args%> eller ett konstant positivt heltal förväntades vid %C"
++msgstr "ett dummyparameternamn, %<omp_num_args%> eller ett konstant positivt heltal förväntades vid %C"
  
  #: fortran/openmp.cc:7069
  #, gcc-internal-format
@@ -32984,7 +32954,7 @@
  #, gcc-internal-format
  msgid "too many %<otherwise%> or %<default%> clauses in %<metadirective%> at %C"
 -msgstr "för många klausuler %<otherwise%> eller %<default%> i %<metadirective%> vid %C"
-+msgstr "För många %<otherwise%>- eller %<default%>-klausuler i %<metadirective%> vid %C"
++msgstr "för många %<otherwise%>- eller %<default%>-klausuler i %<metadirective%> vid %C"
  
  #: fortran/openmp.cc:7179
  #, gcc-internal-format
@@ -32993,7 +32963,7 @@
  #, gcc-internal-format
  msgid "declarative directive variants are not supported"
 -msgstr "deklarativa direktivvarianter stödjs ej"
-+msgstr "Deklarativa direktivvarianter kan inte användas"
++msgstr "deklarativa direktivvarianter kan inte användas"
  
  #: fortran/openmp.cc:7228
  #, gcc-internal-format, gfc-internal-format
@@ -33650,7 +33620,7 @@
  #, gcc-internal-format
  msgid "exponent-letter %<q%> in real-literal-constant at %C"
 -msgstr "exponentbokstav %<q%> i reell litteral konstant vid %C"
-+msgstr "Exponentbokstav %<q%> i reell litteralkonstant vid %C"
++msgstr "exponentbokstav %<q%> i reell litteralkonstant vid %C"
  
  #: fortran/primary.cc:697
  #, gcc-internal-format
@@ -33770,7 +33740,7 @@
  #, gcc-internal-format
  msgid "component %qs at %L has already been set by a parent derived type constructor"
 -msgstr "komponent %qs vid %L har redan satts av en härledd föräldratyps konstruerare"
-+msgstr "Komponenten %qs vid %L har redan angetts av en härledd föräldertypskonstruerare"
++msgstr "komponenten %qs vid %L har redan angetts av en härledd föräldertypskonstruerare"
  
  #: fortran/primary.cc:3909
  #, gcc-internal-format, gfc-internal-format
@@ -34539,15 +34509,6 @@
  
  #: fortran/resolve.cc:17551
  #, gcc-internal-format
-@@ -87061,7 +87057,7 @@
- #: fortran/resolve.cc:17597
- #, gcc-internal-format
- msgid "the component %qs is a PRIVATE type and cannot be a component of %qs, which is PUBLIC at %L"
--msgstr "komponenten %qs är en PRIVATE-typ och kan inte vara en komponent i %qs, som är PUBLIC vid %L"
-+msgstr "Komponenten %qs är en PRIVATE-typ och kan inte vara en komponent i %qs, som är PUBLIC vid %L"
- 
- #: fortran/resolve.cc:17605
- #, gcc-internal-format, gfc-internal-format
 @@ -87071,7 +87067,7 @@
  #: fortran/resolve.cc:17614
  #, gcc-internal-format, gfc-internal-format
@@ -34769,25 +34730,25 @@
  #, gcc-internal-format, gfc-internal-format
  msgid "start of implied-do loop at %L could not be simplified to a constant value"
 -msgstr "början av implicerad do-slinga vid %L kan inte förenklas till ett konstant värde"
-+msgstr "Början av implicerad DO-slinga vid %L kan inte förenklas till ett konstant värde"
++msgstr "början av implicerad DO-slinga vid %L kan inte förenklas till ett konstant värde"
  
  #: fortran/resolve.cc:19456
  #, gcc-internal-format, gfc-internal-format
  msgid "end of implied-do loop at %L could not be simplified to a constant value"
 -msgstr "slutet av implicerad do-slinga vid %L kan inte förenklas till ett konstant värde"
-+msgstr "Slutet av implicerad DO-slinga vid %L kan inte förenklas till ett konstant värde"
++msgstr "slutet av implicerad DO-slinga vid %L kan inte förenklas till ett konstant värde"
  
  #: fortran/resolve.cc:19464
  #, gcc-internal-format, gfc-internal-format
  msgid "step of implied-do loop at %L could not be simplified to a constant value"
 -msgstr "steget i implicerad do-slinga vid %L kan inte förenklas till ett konstant värde"
-+msgstr "Steget i implicerad DO-slinga vid %L kan inte förenklas till ett konstant värde"
++msgstr "steget i implicerad DO-slinga vid %L kan inte förenklas till ett konstant värde"
  
  #: fortran/resolve.cc:19471
  #, gcc-internal-format, gfc-internal-format
  msgid "step of implied-do loop at %L shall not be zero"
 -msgstr "steget i implicerad do-slinga vid %L skall inte vara noll"
-+msgstr "Steget i implicerad DO-slinga vid %L får inte vara noll"
++msgstr "steget i implicerad DO-slinga vid %L får inte vara noll"
  
  #: fortran/resolve.cc:19596
  #, gcc-internal-format, gfc-internal-format
@@ -34847,7 +34808,7 @@
  #, gcc-internal-format
  msgid "file %qs left but not entered"
 -msgstr "gått ifrån men inte till filen %qs"
-+msgstr "Filen %qs har lämnats men inte öppnats"
++msgstr "filen %qs har lämnats men inte öppnats"
  
  #: fortran/scanner.cc:2233
  #, gcc-internal-format
@@ -34947,13 +34908,7 @@
  
  #: fortran/simplify.cc:8921
  #, gcc-internal-format, gfc-internal-format
-@@ -88104,17 +88100,17 @@
- #: fortran/simplify.cc:8937
- #, gcc-internal-format, gfc-internal-format
- msgid "invalid argument of SQRT at %L"
--msgstr "ogiltigt argument till SQRT vid %L"
-+msgstr "Ogiltigt argument till SQRT vid %L"
- 
+@@ -88109,12 +88105,12 @@
  #: fortran/simplify.cc:9285
  #, gcc-internal-format, gfc-internal-format
  msgid "Out of bounds in IMAGE_INDEX at %L for dimension %d, SUB has %ld and COARRAY lower bound is %ld)"
@@ -35012,7 +34967,7 @@
  #, gcc-internal-format
  msgid "internal procedure %qs at %L conflicts with DUMMY argument"
 -msgstr "den interna proceduren %qs vid %L står i konflikt med DUMMY-argument"
-+msgstr "Den interna proceduren %qs vid %L står i konflikt med DUMMY-argumentet"
++msgstr "den interna proceduren %qs vid %L står i konflikt med DUMMY-argumentet"
  
  #: fortran/symbol.cc:589
  #, gcc-internal-format, gfc-internal-format
@@ -35315,7 +35270,7 @@
  
  #: fortran/trans-intrinsic.cc:13010
  #, gcc-internal-format, gfc-internal-format
-@@ -88861,17 +88857,17 @@
+@@ -88861,7 +88857,7 @@
  #: fortran/trans-openmp.cc:964 fortran/trans-openmp.cc:1487
  #, gcc-internal-format
  msgid "Sorry, polymorphic arrays not yet supported for firstprivate"
@@ -35324,10 +35279,7 @@
  
  #: fortran/trans-openmp.cc:1642
  #, gcc-internal-format
- msgid "implicit mapping of assumed size array %qD"
--msgstr "implicit avbildning av vektorn %qD med antagen storlek"
-+msgstr "Implicit avbildning av vektorn %qD med antagen storlek"
- 
+@@ -88871,7 +88867,7 @@
  #: fortran/trans-openmp.cc:2217
  #, gcc-internal-format
  msgid "Mapping of unlimited polymorphic list item %qD is unspecified behavior and unsupported"
@@ -35347,7 +35299,7 @@
  #, gcc-internal-format
  msgid "non-rectangular loop nest with non-constant step for %qs"
 -msgstr "icke-rektangulär slinga nästar med ett icke-konstant steg till %qs"
-+msgstr "Icke-rektangulär slingnästning med icke-konstant steg för %qs"
++msgstr "icke-rektangulär slingnästning med icke-konstant steg för %qs"
  
  #: fortran/trans-openmp.cc:6912
  #, gcc-internal-format
@@ -35357,25 +35309,7 @@
  
  #: fortran/trans-openmp.cc:9480
  #, gcc-internal-format
-@@ -88966,37 +88962,37 @@
- #: fortran/trans-openmp.cc:9962
- #, gcc-internal-format
- msgid "variant %qs at %L is not a function or subroutine"
--msgstr "varianten %qs vid %L är varken en funktion eller subrutin"
-+msgstr "Varianten %qs vid %L är varken en funktion eller subrutin"
- 
- #: fortran/trans-openmp.cc:9968
- #, gcc-internal-format
- msgid "variant %qs at %L is the same as base function"
--msgstr "varianten %qs vid %L är samma som basfunktionen"
-+msgstr "Varianten %qs vid %L är samma som basfunktionen"
- 
- #: fortran/trans-openmp.cc:10010
- #, gcc-internal-format
- msgid "variant %qs and base %qs at %L have incompatible types: %s"
--msgstr "varianten %qs och basen %qs vid %L har inkompatibla typer: %s"
-+msgstr "Varianten %qs och basen %qs vid %L har inkompatibla typer: %s"
- 
+@@ -88981,22 +88977,22 @@
  #: fortran/trans-openmp.cc:10016
  #, gcc-internal-format
  msgid "%<append_args%> clause implies that %qs has %d dummy arguments of integer type with %<omp_interop_kind%> kind"
@@ -35477,7 +35411,7 @@
  #, gcc-internal-format
  msgid "invalid embedcfg: duplicate Patterns entry"
 -msgstr "felakig embedcfg: dubbla Patterns-poster"
-+msgstr "Felaktig embedcfg: dubbla Patterns-poster"
++msgstr "felaktig embedcfg: dubbla Patterns-poster"
  
  #: go/gofrontend/embed.cc:336
  #, gcc-internal-format
@@ -35486,7 +35420,7 @@
  #, gcc-internal-format
  msgid "unrecognized string escape"
 -msgstr "okänd strängflyktföljd"
-+msgstr "Okänd escape-sekvens i sträng"
++msgstr "okänd escape-sekvens i sträng"
  
  #: go/gofrontend/embed.cc:626
  #, gcc-internal-format
@@ -35495,7 +35429,7 @@
  #, gcc-internal-format
  msgid "could not parse file offset"
 -msgstr "det gick inte tolka filavstånd"
-+msgstr "Det gick inte att tolka filavståndet"
++msgstr "det gick inte att tolka filavståndet"
  
  #: lto/lto-common.cc:2112
  #, gcc-internal-format
@@ -35504,7 +35438,7 @@
  #, gcc-internal-format
  msgid "resolution sub id %wx not in object file"
 -msgstr "upplösnings-under-id %wx är inte en objektfil"
-+msgstr "Upplösningsunder-id %wx finns inte i objektfilen"
++msgstr "upplösningsunder-id %wx finns inte i objektfilen"
  
  #: lto/lto-common.cc:2285
  #, gcc-internal-format
@@ -35517,21 +35451,12 @@
  
  #: lto/lto-lang.cc:328
  #, gcc-internal-format
-@@ -89363,7 +89359,7 @@
- #: lto/lto-object.cc:104
- #, gcc-internal-format, gfc-internal-format
- msgid "open %s failed: %s"
--msgstr "öppning av %s misslyckades: %s"
-+msgstr "Öppning av %s misslyckades: %s"
- 
- #: lto/lto-object.cc:148
- #, gcc-internal-format, gfc-internal-format
 @@ -89373,7 +89369,7 @@
  #: lto/lto-object.cc:189
  #, gcc-internal-format, gfc-internal-format
  msgid "close: %s"
 -msgstr "stäng: %s"
-+msgstr "Stängning: %s"
++msgstr "stängning: %s"
  
  #: lto/lto-object.cc:245
  #, gcc-internal-format, gfc-internal-format
@@ -35540,7 +35465,7 @@
  #, gcc-internal-format
  msgid "min partition size cannot be greater than max partition size"
 -msgstr "min partitionsstorlek kan inte vara större än max partitionsstorlek"
-+msgstr "Minsta partitionsstorleken kan inte vara större än största partitionsstorleken"
++msgstr "minsta partitionsstorleken kan inte vara större än största partitionsstorleken"
  
  #: lto/lto-symtab.cc:176
  #, gcc-internal-format
@@ -35564,7 +35489,7 @@
  #, gcc-internal-format
  msgid "size of %qD differ from the size of original declaration"
 -msgstr "storleken på %qD skiljer från storleken på originaldeklarationen"
-+msgstr "Storleken på %qD skiljer sig från storleken i originaldeklarationen"
++msgstr "storleken på %qD skiljer sig från storleken i originaldeklarationen"
  
  #: lto/lto-symtab.cc:764
  #, gcc-internal-format
@@ -35573,13 +35498,13 @@
  #, gcc-internal-format
  msgid "variable %qD redeclared as function"
 -msgstr "variabeln %qD omdeklarerad som en funktion"
-+msgstr "Variabeln %qD har omdeklarerats som en funktion"
++msgstr "variabeln %qD har omdeklarerats som en funktion"
  
  #: lto/lto-symtab.cc:860
  #, gcc-internal-format
  msgid "function %qD redeclared as variable"
 -msgstr "funktionen %qD omdeklarerad som en variabel"
-+msgstr "Funktionen %qD har omdeklarerats som en variabel"
++msgstr "funktionen %qD har omdeklarerats som en variabel"
  
  #: lto/lto-symtab.cc:872
  #, gcc-internal-format
@@ -35588,7 +35513,7 @@
  #, gcc-internal-format
  msgid "overflow in implicit constant conversion"
 -msgstr "spill i implicit konstantkonvertering"
-+msgstr "Överflöde vid implicit konstantkonvertering"
++msgstr "överflöde vid implicit konstantkonvertering"
  
  #: m2/gm2-gcc/m2decl.cc:122
  #, gcc-internal-format
@@ -35597,7 +35522,7 @@
  #, gcc-internal-format
  msgid "inconsistent because %qs"
 -msgstr "inkonsistent för att %qs"
-+msgstr "Inkonsekvent eftersom %qs"
++msgstr "inkonsekvent eftersom %qs"
  
  #: m2/gm2-gcc/m2decl.cc:312
  #, gcc-internal-format
@@ -35606,7 +35531,7 @@
  #, gcc-internal-format
  msgid "not expecting different types to binary operator"
 -msgstr "olika typer till binär operator förväntades inte"
-+msgstr "Olika typer för den binära operatorn förväntades inte"
++msgstr "olika typer för den binära operatorn förväntades inte"
  
  #: m2/gm2-gcc/m2expr.cc:2795
  #, gcc-internal-format
@@ -35630,7 +35555,7 @@
  #, gcc-internal-format
  msgid "low bound for the array is outside the ztype limits"
 -msgstr "lägre gränsen för vektor är utanför ztype-gränserna"
-+msgstr "Den lägre gränsen för vektorn ligger utanför ZTYPE-gränserna"
++msgstr "den lägre gränsen för vektorn ligger utanför ZTYPE-gränserna"
  
  #: m2/gm2-gcc/m2type.cc:318
  #, gcc-internal-format
@@ -35639,25 +35564,25 @@
  #, gcc-internal-format
  msgid "set type must be initialized"
 -msgstr "mängdtyper måste initieras"
-+msgstr "Mängdtypen måste initieras"
++msgstr "mängdtypen måste initieras"
  
  #: m2/gm2-gcc/m2type.cc:2405
  #, gcc-internal-format
  msgid "record type must be initialized"
 -msgstr "posttyper måste initieras"
-+msgstr "Posttypen måste initieras"
++msgstr "posttypen måste initieras"
  
  #: m2/gm2-gcc/m2type.cc:2458
  #, gcc-internal-format
  msgid "array cannot be initialized with a %qs"
 -msgstr "vektorer kan inte initierare med en %qs"
-+msgstr "Vektorn kan inte initieras med en %qs"
++msgstr "vektorn kan inte initieras med en %qs"
  
  #: m2/gm2-gcc/m2type.cc:2464
  #, gcc-internal-format
  msgid "array type must be initialized"
 -msgstr "vektortyper måste initieras"
-+msgstr "Vektortypen måste initieras"
++msgstr "vektortypen måste initieras"
  
  #: m2/gm2-gcc/m2type.cc:2471
  #, gcc-internal-format
@@ -35666,13 +35591,13 @@
  #, gcc-internal-format
  msgid "low bound for the subrange has overflowed"
 -msgstr "lägsta gränsen för delintervallet har spillt över"
-+msgstr "Den lägsta gränsen för delintervallet har överflödat"
++msgstr "den lägsta gränsen för delintervallet har överflödat"
  
  #: m2/gm2-gcc/m2type.cc:2549
  #, gcc-internal-format
  msgid "high bound for the subrange has overflowed"
 -msgstr "högsta gränsen för delintervallet har spillt över"
-+msgstr "Den högsta gränsen för delintervallet har överflödat"
++msgstr "den högsta gränsen för delintervallet har överflödat"
  
  #: m2/gm2-gcc/m2type.cc:2846
  #, gcc-internal-format
@@ -35681,7 +35606,7 @@
  #, gcc-internal-format
  msgid "class attributes are not available in Objective-C 1.0"
 -msgstr "klassattribut är finns inte i Objective-C 1.0"
-+msgstr "Klassattribut finns inte i Objective-C 1.0"
++msgstr "klassattribut finns inte i Objective-C 1.0"
  
  #: objc/objc-act.cc:594
  #, gcc-internal-format
@@ -35690,31 +35615,16 @@
  #, gcc-internal-format
  msgid "property declaration not in %<@interface%>, %<@protocol%> or %<category%> context"
 -msgstr "egenskapsdeklaration som inte är i %<@interface%>- %<@protocol%>- eller %<category%>-kontext"
-+msgstr "Egenskapsdeklaration utanför %<@interface%>-, %<@protocol%>- eller %<category%>-kontext"
++msgstr "egenskapsdeklaration utanför %<@interface%>-, %<@protocol%>- eller %<category%>-kontext"
  
  #: objc/objc-act.cc:870
  #, gcc-internal-format
-@@ -89823,7 +89819,7 @@
- #: objc/objc-act.cc:878
- #, gcc-internal-format
- msgid "property cannot be an array"
--msgstr "en egenskap kan inte vara en vektor"
-+msgstr "En egenskap kan inte vara en vektor"
- 
- #. A @property is not an actual variable, but it is a way to
- #. describe a pair of accessor methods, so its type (which is
-@@ -89835,12 +89831,12 @@
- #: objc/objc-act.cc:891
- #, gcc-internal-format
- msgid "property cannot be a bit-field"
--msgstr "en egenskap kan inte vara ett bitfält"
-+msgstr "En egenskap kan inte vara ett bitfält"
- 
+@@ -89840,7 +89836,7 @@
  #: objc/objc-act.cc:915
  #, gcc-internal-format
  msgid "multiple property %qE methods specified, the latest one will be used"
 -msgstr "multipla egenskap %qE-metoder angivna, den senaste kommer användas"
-+msgstr "Flera egenskapsmetoder för %qE har angetts; den senaste kommer att användas"
++msgstr "flera egenskapsmetoder för %qE har angetts; den senaste kommer att användas"
  
  #: objc/objc-act.cc:917
  #, gcc-internal-format
@@ -35741,7 +35651,7 @@
  #, gcc-internal-format
  msgid "redeclaration of property %qD"
 -msgstr "omdeklaration av egenskap %qD"
-+msgstr "Omdeklaration av egenskapen %qD"
++msgstr "omdeklaration av egenskapen %qD"
  
  #: objc/objc-act.cc:1131 objc/objc-act.cc:1197 objc/objc-act.cc:1208
  #: objc/objc-act.cc:1222 objc/objc-act.cc:1233 objc/objc-act.cc:1245
@@ -35750,7 +35660,7 @@
  #, gcc-internal-format
  msgid "originally specified here"
 -msgstr "ursprungligen specificerad här"
-+msgstr "Angavs ursprungligen här"
++msgstr "angavs ursprungligen här"
  
  #: objc/objc-act.cc:1193
  #, gcc-internal-format
@@ -35759,13 +35669,13 @@
  #, gcc-internal-format
  msgid "nullability specifier %qE cannot be applied to non-pointer type %qT"
 -msgstr "nollbarhetsspecificeraren %qE kan inte tillämpas på typen %qT som inte är en pekare"
-+msgstr "Nullbarhetsspecificeraren %qE kan inte tillämpas på typen %qT som inte är en pekare"
++msgstr "nullbarhetsspecificeraren %qE kan inte tillämpas på typen %qT som inte är en pekare"
  
  #: objc/objc-act.cc:1328
  #, gcc-internal-format
  msgid "nullability specifier %qE cannot be applied to multi-level pointer type %qT"
 -msgstr "nollbarhetsspecificerare %qE kan inte tillämpas på flernivåpekartypen %qT"
-+msgstr "Nullbarhetsspecificeraren %qE kan inte tillämpas på pekartypen %qT med flera nivåer"
++msgstr "nullbarhetsspecificeraren %qE kan inte tillämpas på pekartypen %qT med flera nivåer"
  
  #: objc/objc-act.cc:1781
  #, gcc-internal-format
@@ -35780,7 +35690,7 @@
  #, gcc-internal-format
  msgid "method declaration not in @interface context"
 -msgstr "metoddeklaration som inte är i @interface-kontext"
-+msgstr "Metoddeklaration utanför @interface-kontext"
++msgstr "metoddeklaration utanför @interface-kontext"
  
  #: objc/objc-act.cc:2164
  #, gcc-internal-format
@@ -35789,7 +35699,7 @@
  #, gcc-internal-format
  msgid "method definition not in @implementation context"
 -msgstr "metoddefinition som inte är i @implementation-kontext"
-+msgstr "Metoddefinition utanför @implementation-kontext"
++msgstr "metoddefinition utanför @implementation-kontext"
  
  #: objc/objc-act.cc:2197
  #, gcc-internal-format
@@ -35798,19 +35708,19 @@
  #, gcc-internal-format
  msgid "class %qs does not implement the %qE protocol"
 -msgstr "klass %qs implementerar inte protokollet %qE"
-+msgstr "Klassen %qs implementerar inte protokollet %qE"
++msgstr "klassen %qs implementerar inte protokollet %qE"
  
  #: objc/objc-act.cc:2430
  #, gcc-internal-format
  msgid "type %qs does not conform to the %qE protocol"
 -msgstr "typ %qs följer inte protokollet %qE"
-+msgstr "Typen %qs överensstämmer inte med protokollet %qE"
++msgstr "typen %qs överensstämmer inte med protokollet %qE"
  
  #: objc/objc-act.cc:2725
  #, gcc-internal-format
  msgid "comparison of distinct Objective-C types lacks a cast"
 -msgstr "jämförelse av skilda Objective-C-typer saknar en konvertering"
-+msgstr "Jämförelse av olika Objective-C-typer saknar en typkonvertering"
++msgstr "jämförelse av olika Objective-C-typer saknar en typkonvertering"
  
  #: objc/objc-act.cc:2729
  #, gcc-internal-format
@@ -35819,19 +35729,19 @@
  #, gcc-internal-format
  msgid "passing argument %d of %qE from distinct Objective-C type"
 -msgstr "skickar argument %d till %qE från distinkt Objective-C-typ"
-+msgstr "Argument %d till %qE skickas från en annan Objective-C-typ"
++msgstr "argument %d till %qE skickas från en annan Objective-C-typ"
  
  #: objc/objc-act.cc:2884
  #, gcc-internal-format
  msgid "statically allocated instance of Objective-C class %qE"
 -msgstr "statiskt allokerad instans av Objective-C-klass %qE"
-+msgstr "En statiskt allokerad instans av Objective-C-klassen %qE"
++msgstr "en statiskt allokerad instans av Objective-C-klassen %qE"
  
  #: objc/objc-act.cc:2893
  #, gcc-internal-format
  msgid "redeclaration of Objective-C class %qs"
 -msgstr "omdeklaration av Objective-C-klass %qs"
-+msgstr "Omdeklaration av Objective-C-klassen %qs"
++msgstr "omdeklaration av Objective-C-klassen %qs"
  
  #. This case happens when we are given an 'interface' which
  #. is not a valid class name.  For example if a typedef was
@@ -35840,7 +35750,7 @@
  #, gcc-internal-format
  msgid "protocol %qE has circular dependency"
 -msgstr "protokollet %qE har cirkulärt beroende"
-+msgstr "Protokollet %qE har ett cirkulärt beroende"
++msgstr "protokollet %qE har ett cirkulärt beroende"
  
  #: objc/objc-act.cc:3032 objc/objc-act.cc:5866
  #, gcc-internal-format
@@ -35849,13 +35759,13 @@
  #, gcc-internal-format
  msgid "interface %qE does not have valid constant string layout"
 -msgstr "gränssnitt %qE har inte giltig konstantsträngslayout"
-+msgstr "Gränssnittet %qE har ingen giltig layout för konstantsträngar"
++msgstr "gränssnittet %qE har ingen giltig layout för konstantsträngar"
  
  #: objc/objc-act.cc:3351
  #, gcc-internal-format
  msgid "cannot find reference tag for class %qE"
 -msgstr "det går inte att hitta en referenstagg för klass %qE"
-+msgstr "Det går inte att hitta en referenstagg för klassen %qE"
++msgstr "det går inte att hitta en referenstagg för klassen %qE"
  
  #: objc/objc-act.cc:3496
  #, gcc-internal-format
@@ -35864,13 +35774,13 @@
  #, gcc-internal-format
  msgid "cannot find class %qE"
 -msgstr "det går inte att hitta klass %qE"
-+msgstr "Det går inte att hitta klassen %qE"
++msgstr "det går inte att hitta klassen %qE"
  
  #: objc/objc-act.cc:3518
  #, gcc-internal-format
  msgid "class %qE already exists"
 -msgstr "klass %qE finns redan"
-+msgstr "Klassen %qE finns redan"
++msgstr "klassen %qE finns redan"
  
  #: objc/objc-act.cc:3560 objc/objc-act.cc:7020
  #, gcc-internal-format
@@ -35894,43 +35804,28 @@
  #, gcc-internal-format
  msgid "inconsistent instance variable specification"
 -msgstr "inkonsistent specifikation av instansvariabel"
-+msgstr "Inkonsekvent specifikation av instansvariabel"
++msgstr "inkonsekvent specifikation av instansvariabel"
  
  #: objc/objc-act.cc:4848
  #, gcc-internal-format
-@@ -90218,27 +90214,27 @@
+@@ -90218,7 +90214,7 @@
  #: objc/objc-act.cc:5267
  #, gcc-internal-format
  msgid "multiple methods named %<%c%E%> found"
 -msgstr "multipla metoder med namnet %<%c%E%> funna"
-+msgstr "Flera metoder med namnet %<%c%E%> hittades"
++msgstr "flera metoder med namnet %<%c%E%> hittades"
  
  #: objc/objc-act.cc:5270
  #, gcc-internal-format
- msgid "using %<%c%s%>"
--msgstr "använder %<%c%s%>"
-+msgstr "Använder %<%c%s%>"
- 
+@@ -90228,7 +90224,7 @@
  #: objc/objc-act.cc:5279
  #, gcc-internal-format
  msgid "multiple selectors named %<%c%E%> found"
 -msgstr "multipla väljare med namnet %<%c%E%> funna"
-+msgstr "Flera väljare med namnet %<%c%E%> hittades"
++msgstr "flera väljare med namnet %<%c%E%> hittades"
  
  #: objc/objc-act.cc:5282
  #, gcc-internal-format
- msgid "found %<%c%s%>"
--msgstr "hittade %<%c%s%>"
-+msgstr "Hittade %<%c%s%>"
- 
- #: objc/objc-act.cc:5291
- #, gcc-internal-format
- msgid "also found %<%c%s%>"
--msgstr "hittade också %<%c%s%>"
-+msgstr "Hittade också %<%c%s%>"
- 
- #. If 'rtype' is NULL_TREE at this point it means that
- #. we have seen no @interface corresponding to that
 @@ -90302,7 +90298,7 @@
  #: objc/objc-act.cc:5797
  #, gcc-internal-format
@@ -35945,13 +35840,13 @@
  #, gcc-internal-format
  msgid "instance variable %qE accessed in class method"
 -msgstr "instansvariabel %qE använd i klassmetod"
-+msgstr "Instansvariabeln %qE används i en klassmetod"
++msgstr "instansvariabeln %qE används i en klassmetod"
  
  #: objc/objc-act.cc:6169 objc/objc-act.cc:6189
  #, gcc-internal-format
  msgid "method %<%c%E%> declared %<@optional%> and %<@required%> at the same time"
 -msgstr "metoden %<%c%E%> deklarerad %<@optional%> och %<@required%> samtidigt"
-+msgstr "Metoden %<%c%E%> har deklarerats som både %<@optional%> och %<@required%>"
++msgstr "metoden %<%c%E%> har deklarerats som både %<@optional%> och %<@required%>"
  
  #: objc/objc-act.cc:6173
  #, gcc-internal-format
@@ -35960,7 +35855,7 @@
  #, gcc-internal-format
  msgid "illegal reference type specified for instance variable %qs"
 -msgstr "otillåten referenstyp angiven för instansvariabel %qs"
-+msgstr "Otillåten referenstyp har angetts för instansvariabeln %qs"
++msgstr "otillåten referenstyp har angetts för instansvariabeln %qs"
  
  #: objc/objc-act.cc:6393
  #, gcc-internal-format
@@ -35969,7 +35864,7 @@
  #, gcc-internal-format
  msgid "destructor for %qE shall not be run either"
 -msgstr "destruerare för %qE skall inte heller köras"
-+msgstr "Destrueraren för %qE ska inte heller köras"
++msgstr "destrueraren för %qE ska inte heller köras"
  
  #. Vtable pointers are Real Bad(tm), since Obj-C cannot
  #. initialize them.
@@ -35978,7 +35873,7 @@
  #, gcc-internal-format
  msgid "instance variable %qE is %s; this will be a hard error in the future"
 -msgstr "instansvariabeln %qE är %s, detta kommer bli ett fel i framtiden"
-+msgstr "Instansvariabeln %qE är %s; detta kommer att bli ett fel i framtiden"
++msgstr "instansvariabeln %qE är %s; detta kommer att bli ett fel i framtiden"
  
  #: objc/objc-act.cc:6625
  #, gcc-internal-format
@@ -35987,7 +35882,7 @@
  #, gcc-internal-format
  msgid "cannot find interface declaration for %qE, superclass of %qE"
 -msgstr "hittar inte gränssnittsdeklaration för %qE, superklass till %qE"
-+msgstr "Det går inte att hitta gränssnittsdeklarationen för %qE, superklass till %qE"
++msgstr "det går inte att hitta gränssnittsdeklarationen för %qE, superklass till %qE"
  
  #: objc/objc-act.cc:7002
  #, gcc-internal-format
@@ -35996,13 +35891,13 @@
  #, gcc-internal-format
  msgid "class %qE defined without specifying a base class"
 -msgstr "klassen %qE definierad utan att ange en basklass"
-+msgstr "Klassen %qE har definierats utan att en basklass angetts"
++msgstr "klassen %qE har definierats utan att en basklass angetts"
  
  #: objc/objc-act.cc:7092 objc/objc-act.cc:7094
  #, gcc-internal-format
  msgid "duplicate interface declaration for class %qE"
 -msgstr "dubblerad gränssnittsdeklaration av klass %qE"
-+msgstr "Dubblerad gränssnittsdeklaration för klassen %qE"
++msgstr "dubblerad gränssnittsdeklaration för klassen %qE"
  
  #: objc/objc-act.cc:7419 objc/objc-act.cc:7615
  #, gcc-internal-format
@@ -36011,7 +35906,7 @@
  #, gcc-internal-format
  msgid "ivar %qs used by %<@synthesize%> declaration must be an existing ivar"
 -msgstr "ivar %qs använd av %<@synthesize%>-deklaration skall vara en befintlig ivar"
-+msgstr "Instansvariabeln %qs som används av %<@synthesize%>-deklarationen måste vara en befintlig instansvariabel"
++msgstr "instansvariabeln %qs som används av %<@synthesize%>-deklarationen måste vara en befintlig instansvariabel"
  
  #: objc/objc-act.cc:7810
  #, gcc-internal-format
@@ -36038,7 +35933,7 @@
  #, gcc-internal-format
  msgid "no %qs getter found"
 -msgstr "någon %qs-hämtare finns inte"
-+msgstr "Ingen %qs-hämtare hittades"
++msgstr "ingen %qs-hämtare hittades"
  
  #: objc/objc-act.cc:9917
  #, gcc-internal-format
@@ -36047,7 +35942,7 @@
  #, gcc-internal-format
  msgid "trying to encode non-integer type as a bit-field"
 -msgstr "försöker koda icke-heltal typ som ett bitfält"
-+msgstr "Försöker koda en icke-heltalstyp som ett bitfält"
++msgstr "försöker koda en icke-heltalstyp som ett bitfält"
  
  #: objc/objc-gnu-runtime-abi-01.cc:134
  #, gcc-internal-format
@@ -36056,7 +35951,7 @@
  #, gcc-internal-format
  msgid "non-objective-c type %qT cannot be caught"
 -msgstr "typen %qT som inte är objective-c kan inte fångas"
-+msgstr "Typen %qT som inte är Objective-C kan inte fångas"
++msgstr "typen %qT som inte är Objective-C kan inte fångas"
  
  #: objc/objc-next-runtime-abi-01.cc:146
  #, gcc-internal-format
@@ -36071,7 +35966,7 @@
  #, gcc-internal-format
  msgid "creating selector for nonexistent method %qE"
 -msgstr "skapar väljare för icke existerande metod %qE"
-+msgstr "Skapar väljare för en icke-existerande metod %qE"
++msgstr "skapar väljare för en icke-existerande metod %qE"
  
  #: rust/backend/rust-constexpr.cc:936
  #, gcc-internal-format
