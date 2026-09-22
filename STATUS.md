@@ -1911,3 +1911,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 131: 25 projektmall-, styrnings- och ramverkssträngar översatta och granskade. Efterlevnadscenter, policyomfång, ramverks-ID:n, undergruppstillämpning och platshållare validerade med l10n-lint (0 fel) före API-publicering.
 
 - 2026-09-22 — GitLab/Crowdin batch 132: 23 artefakt-, jobblogg-, objektlagrings- och bevarandesträngar översatta och granskade. Maskerade CI/CD-variabler, reguljära uttryck, förfallodatum, arkivering och platshållare validerade med l10n-lint (0 fel) före API-publicering.
+
+- 2026-09-22 — GitLab/Crowdin batch 133: 26 distributions-, miljö-, kanarieutrullnings- och produktionssträngar översatta och granskade. Kubernetes-behörigheter, stegvis utrullning, produktionsskydd och platshållare validerade med l10n-lint (0 fel) före API-publicering.
