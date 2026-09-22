@@ -1,3 +1,4 @@
+- **GitLab – Runners: kapacitet och projektskydd (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: nodpoolnamn och tillstånd (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: nodpooler och tillgänglighet (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: registrering och aktivitetsöversikt (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
