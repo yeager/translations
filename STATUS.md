@@ -1,3 +1,4 @@
+- **GitLab – Runners: slutgranskning (14 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; komponentens källidentiska poster är 0; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: väntetid och versioner (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: uppgradering och pipelineåtkomst (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: autoskalning och tokenrotation (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
