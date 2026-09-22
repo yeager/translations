@@ -5,7 +5,7 @@
  #: src/bucket.c:534
  msgid "directory overflow"
 -msgstr "katalogöverspill"
-+msgstr "Katalogöverflöde"
++msgstr "katalogöverflöde"
  
  #: src/bucket.c:545 src/falloc.c:302 src/findkey.c:97 src/findkey.c:113
  msgid "malloc error"
@@ -87,7 +87,7 @@
  #: tools/gdbm_dump.c:22
  msgid "dump a GDBM database to a file"
 -msgstr "dumpa en GDBM-databas till en fil"
-+msgstr "Spara en GDBM-databas i en fil"
++msgstr "spara en GDBM-databas i en fil"
  
  #: tools/gdbm_dump.c:23
  msgid "DB_FILE [FILE]"
@@ -96,7 +96,7 @@
  #, c-format
  msgid "too many arguments; try `%s -h' for more info"
 -msgstr "för många argument, försök med ”%s -h” för mer info"
-+msgstr "För många argument; försök med ”%s -h” för mer information"
++msgstr "för många argument; försök med ”%s -h” för mer information"
  
  #: tools/gdbm_dump.c:122 tools/gdbm_load.c:267
  #, c-format
@@ -105,19 +105,10 @@
  #, c-format
  msgid "no such UID: %lu"
 -msgstr "inget sådant UID: %lu"
-+msgstr "Ingen sådan UID: %lu"
++msgstr "ingen sådan UID: %lu"
  
  #: tools/gdbm_load.c:247
  msgid "-r is useless without -U"
-@@ -416,7 +416,7 @@
- #: tools/gdbmshell.c:121
- #, c-format
- msgid "database %s already exists; overwrite"
--msgstr "databasen %s finns redan; skriv över"
-+msgstr "Databasen %s finns redan; skriv över"
- 
- #: tools/gdbmshell.c:152
- #, c-format
 @@ -448,7 +448,7 @@
  "load factor = %3d\n"
  msgstr ""
@@ -132,7 +123,7 @@
  #: tools/gdbmshell.c:476
  msgid "count buffer overflow"
 -msgstr "överspill för antalsbuffert"
-+msgstr "Antalsbufferten har överflödat"
++msgstr "antalsbufferten har överflödat"
  
  #: tools/gdbmshell.c:479
  #, c-format
@@ -141,7 +132,7 @@
  #, c-format
  msgid "not a number (stopped near %s)"
 -msgstr "inte ett tal (stoppade nära %s)"
-+msgstr "Inte ett tal (stannade nära %s)"
++msgstr "inte ett tal (stannade nära %s)"
  
  #: tools/gdbmshell.c:728
  msgid "unexpected datum"
@@ -165,7 +156,7 @@
  #, c-format
  msgid "bucket number out of range (0..%lu)"
 -msgstr "hinknummer utanför intervall (0..%lu)"
-+msgstr "Hinknumret ligger utanför intervallet (0..%lu)"
++msgstr "hinknumret ligger utanför intervallet (0..%lu)"
  
  #: tools/gdbmshell.c:874
  #, c-format
@@ -174,7 +165,7 @@
  #: tools/gdbmshell.c:1140 tools/gdbmshell.c:1145
  msgid "can't open database"
 -msgstr "kan inte öppna databas"
-+msgstr "Kan inte öppna databasen"
++msgstr "kan inte öppna databasen"
  
  #: tools/gdbmshell.c:1150
  msgid "not a regular file"
@@ -224,13 +215,13 @@
  #, c-format
  msgid "command failed with status %d"
 -msgstr "kommando misslyckades med status %d"
-+msgstr "Kommandot misslyckades med status %d"
++msgstr "kommandot misslyckades med status %d"
  
  #: tools/gdbmshell.c:1967
  #, c-format
  msgid "command terminated on signal %d"
 -msgstr "kommando avslutades med signal %d"
-+msgstr "Kommandot avslutades med signal %d"
++msgstr "kommandot avslutades med signal %d"
  
  #. TRANSLATORS: %s is the stream name
  #: tools/gdbmshell.c:2037
@@ -239,7 +230,7 @@
  #: tools/gdbmshell.c:2455
  msgid "source command script"
 -msgstr "kör ”source” på kommandoskript"
-+msgstr "Läs kommandoskript med ”source”"
++msgstr "läs kommandoskript med ”source”"
  
  #: tools/gdbmshell.c:2463
  msgid "close the database"
@@ -248,7 +239,7 @@
  #: tools/gdbmtool.c:48
  msgid "cannot find home directory"
 -msgstr "det går inte att hitta hemkatalog"
-+msgstr "Det går inte att hitta hemkatalogen"
++msgstr "det går inte att hitta hemkatalogen"
  
  #: tools/gdbmtool.c:82
  msgid "examine and/or modify a GDBM database"
@@ -257,7 +248,7 @@
  #: tools/gdbmtool.c:105
  msgid "open database at the given file descriptor"
 -msgstr "öppna databas vid given fildeskriptor"
-+msgstr "Öppna databasen vid den angivna fildeskriptorn"
++msgstr "öppna databasen vid den angivna fildeskriptorn"
  
  #: tools/gdbmtool.c:106
  msgid "extended format (numsync)"
@@ -266,13 +257,13 @@
  #, c-format
  msgid "unknown option %s; try `%s -h' for more info"
 -msgstr "okänd flagga %s, försök med ”%s -h” för mer info"
-+msgstr "Okänd flagga %s; försök med ”%s -h” för mer information"
++msgstr "okänd flagga %s; försök med ”%s -h” för mer information"
  
  #: tools/gdbmtool.c:229
  #, c-format
  msgid "unknown option %c; try `%s -h' for more info"
 -msgstr "okänd flagga %c, försök med ”%s -h” för mer info"
-+msgstr "Okänd flagga %c; försök med ”%s -h” för mer information"
++msgstr "okänd flagga %c; försök med ”%s -h” för mer information"
  
  #: tools/gdbmtool.c:253
  msgid "--file and command cannot be used together"
@@ -281,7 +272,7 @@
  #, c-format
  msgid "duplicate tag: %s"
 -msgstr "duplicera tagg: %s"
-+msgstr "Dubblettagg: %s"
++msgstr "dubblettagg: %s"
  
  #: tools/gram.y:269
  #, c-format
@@ -290,7 +281,7 @@
  #, c-format
  msgid "error in ARGP_HELP_FMT: %s value is out of range\n"
 -msgstr "fel i ARGP_HELP_FMT: %s värde är utanför intervall\n"
-+msgstr "Fel i ARGP_HELP_FMT: värdet %s ligger utanför intervallet\n"
++msgstr "fel i ARGP_HELP_FMT: värdet %s ligger utanför intervallet\n"
  
  #: tools/parseopt.c:331
  #, c-format

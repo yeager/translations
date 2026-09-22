@@ -176,7 +176,7 @@
  #: grub-core/commands/efi/efifwsetup.c:48
  msgid "reboot to firmware setup is not supported by the current firmware"
 -msgstr "omstart till konfiguration av fast programvara stöds inte av aktuell fast programvara"
-+msgstr "Omstart till den fasta programvarans inställningar stöds inte av den aktuella fasta programvaran"
++msgstr "omstart till den fasta programvarans inställningar stöds inte av den aktuella fasta programvaran"
  
  #: grub-core/commands/efi/efifwsetup.c:95
  msgid "Reboot into firmware setup menu."
@@ -958,12 +958,12 @@
  #: grub-core/commands/smbios.c:323
  msgid "only one --get option is usable at a time"
 -msgstr "kan endast använda en --get-flagga i taget"
-+msgstr "Endast en --get-flagga kan användas i taget"
++msgstr "endast en --get-flagga kan användas i taget"
  
  #: grub-core/commands/smbios.c:330
  msgid "one of the --get options is required"
 -msgstr "endast en av --get-flaggorna krävs"
-+msgstr "En av --get-flaggorna krävs"
++msgstr "en av --get-flaggorna krävs"
  
  #: grub-core/commands/smbios.c:336
  msgid "no structure matched the given options"
@@ -1419,7 +1419,7 @@
  #: grub-core/disk/ldm.c:1086
  msgid "your LDM Embedding Partition is too small; embedding won't be possible"
 -msgstr "din LDM Embedding Partition är för liten; inbäddning kommer inte vara möjlig"
-+msgstr "LDM:s inbäddningspartition är för liten; det går inte att bädda in"
++msgstr "lDM:s inbäddningspartition är för liten; det går inte att bädda in"
  
  #. TRANSLATORS: it's a partition for embedding,
  #. not a partition embed into something.
@@ -1863,27 +1863,6 @@
  
  #: grub-core/kern/emu/hostfs.c:76 grub-core/kern/emu/hostfs.c:109
  #, c-format
-@@ -4064,17 +4064,17 @@
- #: grub-core/kern/emu/main.c:102 util/grub-probe.c:733 util/grub-setup.c:85
- #, c-format
- msgid "use FILE as the device map [default=%s]"
--msgstr "använd FIL som enhetsmappning [standard=%s]"
-+msgstr "Använd FIL som enhetsmappning [standard=%s]"
- 
- #. TRANSLATORS: There are many devices in device map.
- #: grub-core/kern/emu/main.c:105
- msgid "use FILE as memdisk"
--msgstr "använd FIL som memdisk"
-+msgstr "Använd FIL som memdisk"
- 
- #: grub-core/kern/emu/main.c:107 util/grub-setup.c:83
- #, c-format
- msgid "use GRUB files in the directory DIR [default=%s]"
--msgstr "använd GRUB-filer i katalogen KAT [standard=%s]"
-+msgstr "Använd GRUB-filer i katalogen KAT [standard=%s]"
- 
- #: grub-core/kern/emu/main.c:108 include/grub/util/install.h:77
- #: util/grub-editenv.c:61 util/grub-fstest.c:536 util/grub-glue-efi.c:58
 @@ -4082,7 +4082,7 @@
  #: util/grub-mklayout.c:56 util/grub-mount.c:478 util/grub-render-label.c:74
  #: util/grub-script-check.c:52 util/grub-setup.c:90 util/grub-syslinux2cfg.c:78
@@ -1912,7 +1891,7 @@
  #: grub-core/kern/emu/main.c:111
  msgid "set TPM device."
 -msgstr "ställ in TPM-enhet."
-+msgstr "Ange TPM-enhet."
++msgstr "ange TPM-enhet."
  
  #: grub-core/kern/emu/main.c:180 util/grub-macbless.c:143
  #: util/grub-mkrelpath.c:61 util/grub-probe.c:875 util/grub-script-check.c:75
@@ -2345,7 +2324,7 @@
  
  #: grub-core/net/net.c:2108 grub-core/net/net.c:2115
  msgid "SHORTNAME"
-@@ -5138,19 +5138,19 @@
+@@ -5138,7 +5138,7 @@
  
  #: grub-core/net/net.c:2119
  msgid "Set an interface's vlan id."
@@ -2354,21 +2333,6 @@
  
  #: grub-core/net/net.c:2121
  msgid "list network routes"
--msgstr "lista nätverksrutter"
-+msgstr "Lista nätverksrutter"
- 
- #: grub-core/net/net.c:2123
- msgid "list network cards"
--msgstr "lista nätverkskort"
-+msgstr "Lista nätverkskort"
- 
- #: grub-core/net/net.c:2125
- msgid "list network addresses"
--msgstr "lista nätverksadresser"
-+msgstr "Lista nätverksadresser"
- 
- #: grub-core/net/tcp.c:723
- msgid "connection refused"
 @@ -5178,30 +5178,30 @@
  
  #: grub-core/normal/cmdline.c:175 grub-core/normal/menu_entry.c:1077
@@ -3822,7 +3786,7 @@
  #: util/grub-reboot.in:53 util/grub-set-default.in:53
  msgid "expect GRUB images under the directory DIR/%s instead of the %s directory"
 -msgstr "förvänta GRUB-avbilder under katalogen KAT/%s istället för katalogen %s"
-+msgstr "Förvänta GRUB-avbilder under katalogen KAT/%s i stället för katalogen %s"
++msgstr "förvänta GRUB-avbilder under katalogen KAT/%s i stället för katalogen %s"
  
  #: util/grub-reboot.in:56
  msgid ""
