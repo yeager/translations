@@ -1955,4 +1955,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 153: 4 Amazon Q-, App Store- och faktureringsfelsträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
 
 - 2026-09-22 — GitLab/Crowdin batch 154: 3 externa auktoriserings- och klassificeringsetikettsträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
-- 2026-09-22 — GitLab/Crowdin batch 155: 20 gruppadministrations-, åtkomst-, Duo-, analys- och attesteringssträngar översatta och granskade. Kontextprefix, platshållare, administratörslås och UI-termer validerade med l10n-lint (0 fel) före API-publicering.
+- 2026-09-22 — GitLab/Crowdin batch 155: 19 gruppadministrations-, åtkomst-, Duo-, analys- och attesteringssträngar översatta, granskade och API-publicerade. Kontextprefix, platshållare, administratörslås och UI-termer validerade med l10n-lint (0 fel). Gruppborttagningssträng 167592 saknas i den aktuella Crowdin-resursen och är dokumenterad som föråldrad lokalt.
