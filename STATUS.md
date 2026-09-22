@@ -1819,3 +1819,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 85):** **25** poster för agentiska beroendeuppdateringar, hemlighetskataloger, trigger-/autentiseringstoken, AWS-nycklar, extern auktorisering och efterlevnadskrav har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
 
 **GitLab (2026-09-22, batch 86):** **25** poster för GitGuardian-hemlighetsskanning, Advanced SAST, åtkomsttoken, SCIM, JWT-jobbtoken, Geo beroendeproxy, auditmål och sårbarhetshistorik har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
+
+**GitLab (2026-09-22, batch 87):** **25** poster för Jira-tjänstens API-/åtkomsttoken, sårbarhetsärenden och behörighetsvarningar samt DAST-jobb och beroendeskanning granskades och publicerades via CrowdIn (HTTP 201). Varningen om Jira-tokenens breda synlighet är tydligt översatt. `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
