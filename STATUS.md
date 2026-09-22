@@ -1931,3 +1931,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 141: 25 kodkvalitets-, testtäcknings- och testrapportssträngar översatta och granskade. Sammanfogningsutfall, CSV-format, gruppplatshållare och tillgänglighetsmarkering för ny flik validerade med l10n-lint (0 fel) före API-publicering.
 
 - 2026-09-22 — GitLab/Crowdin batch 142: 25 sök-, indexerings- och semantisk sökningssträngar översatta och granskade. Tangentbordsinstruktioner, indexering, kluster, cache, platshållare och tillgänglighet validerade med l10n-lint (0 fel) före API-publicering.
+
+- 2026-09-22 — GitLab/Crowdin batch 143: 25 notifierings-, e-post-, prenumerations- och underhållssträngar översatta och granskade. Pipelineprenumerationer, gruppomfattning, RSS och platshållare validerade med l10n-lint (0 fel) före API-publicering.
