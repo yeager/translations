@@ -1883,3 +1883,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 117: 22 paketregister-, beroendeproxy- och virtuell registersträngar översatta och granskade. Paketformat, API-begäranden, behörigheter och lagringskvoter validerade med l10n-lint 1.21.6 före API-publicering.
 
 - 2026-09-22 — GitLab/Crowdin correction: rättade en felaktigt återanvänd text för sparad värdeström; `%{name}` är nu bevarad. Full l10n-lint-körning ger 0 fel (5 812 varningar återstår för separata granskningsposter).
+
+- 2026-09-22 — GitLab/Crowdin batch 119: 5 HIPAA- och granskarbehörighetssträngar översatta och granskade. l10n-lint ger fortsatt 0 fel före API-publicering.
