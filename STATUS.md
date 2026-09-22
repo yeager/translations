@@ -1905,3 +1905,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 128: 25 fel-, analys-, attestations- och arbetsflödessträngar översatta och granskade. Felorsaker, URL:er, platshållare, artefakter, metadata och användaråterkoppling validerade med l10n-lint (0 fel) före API-publicering.
 
 - 2026-09-22 — GitLab/Crowdin batch 129: 28 runner-, klusteragent- och CI-infrastruktursträngar översatta och granskade. Runnerregistrering, cache, behörigheter, värdbaserade runners, URI och platshållare validerade med l10n-lint (0 fel) före API-publicering.
+
+- 2026-09-22 — GitLab/Crowdin batch 130: 28 observations-, logg-, spårnings- och SSL-strängar översatta och granskade. OpenTelemetry, Datadog, SSL, stackspårningar, attribut och spårnings-ID:n validerade med l10n-lint (0 fel) före API-publicering.
