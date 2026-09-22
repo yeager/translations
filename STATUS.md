@@ -1939,3 +1939,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 145: 12 projektinställnings-, auktoriserings- och projektöverföringssträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
 
 - 2026-09-22 — GitLab/Crowdin batch 146: 10 grenregel- och skyddssträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
+
+- 2026-09-22 — GitLab/Crowdin batch 147: 7 strängar för skyddade och oföränderliga taggar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
