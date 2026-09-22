@@ -1,3 +1,4 @@
+- **GitLab – Runners: maskintyper och API-begränsning (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: instansåtkomst och API-gränser (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: gruppåtkomst och avbildningar (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: åtkomst och installation (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
