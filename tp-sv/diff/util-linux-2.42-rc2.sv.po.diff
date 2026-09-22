@@ -540,7 +540,7 @@
  #: misc-utils/lsblk.c:225
  msgid "I/O scheduler name"
 -msgstr "Namn för I/O-schemaläggare"
-+msgstr "namn på I/O-schemaläggare"
++msgstr "Namn på I/O-schemaläggare"
  
  #: misc-utils/lsblk.c:226
  msgid "disk serial number"
@@ -2475,13 +2475,13 @@
  #, c-format
  msgid "CPU %u deconfigure failed (CPU is enabled)"
 -msgstr "CPU %u misslyckades med bortkonfigurering (CPU:n är aktiverad)"
-+msgstr "misslyckades med att avkonfigurera CPU %u (CPU:n är aktiverad)"
++msgstr "Misslyckades med att avkonfigurera CPU %u (CPU:n är aktiverad)"
  
  #: sys-utils/chcpu.c:207
  #, c-format
  msgid "CPU %u configure failed"
 -msgstr "Konfigurering av CPU %u misslyckades"
-+msgstr "misslyckades med att konfigurera CPU %u"
++msgstr "Misslyckades med att konfigurera CPU %u"
  
  #: sys-utils/chcpu.c:210
  #, c-format
@@ -2493,7 +2493,7 @@
  #, c-format
  msgid "CPU %u deconfigure failed"
 -msgstr "Avkonfigurering av CPU %u misslyckades"
-+msgstr "misslyckades med att avkonfigurera CPU %u"
++msgstr "Misslyckades med att avkonfigurera CPU %u"
  
  #: sys-utils/chcpu.c:217
  #, c-format
@@ -3120,7 +3120,7 @@
  #: sys-utils/eject.c:326
  msgid "CD-ROM auto-eject command failed"
 -msgstr "automatiskt utmatningskommando för CD-ROM misslyckades"
-+msgstr "det automatiska utmatningskommandot för CD-ROM misslyckades"
++msgstr "Det automatiska utmatningskommandot för CD-ROM misslyckades"
  
  #: sys-utils/eject.c:340
  msgid "CD-ROM door lock is not supported"
@@ -3134,7 +3134,7 @@
  #: sys-utils/eject.c:344
  msgid "CD-ROM lock door command failed"
 -msgstr "kommandot för att låsa CD-ROM-dörren misslyckades"
-+msgstr "kommandot för att låsa CD-ROM-luckan misslyckades"
++msgstr "Kommandot för att låsa CD-ROM-luckan misslyckades"
  
  #: sys-utils/eject.c:349
  msgid "CD-Drive may NOT be ejected with device button"
@@ -3143,7 +3143,7 @@
  #: sys-utils/eject.c:366
  msgid "CD-ROM load from slot command failed"
 -msgstr "kommandot för att läsa in CD-ROM från fack misslyckades"
-+msgstr "kommandot för att ladda CD-ROM från fack misslyckades"
++msgstr "Kommandot för att ladda CD-ROM från fack misslyckades"
  
  #: sys-utils/eject.c:368
  msgid "IDE/ATAPI CD-ROM changer not supported by this kernel\n"
@@ -3152,7 +3152,7 @@
  #: sys-utils/eject.c:386
  msgid "CD-ROM tray close command failed"
 -msgstr "kommandot för att stänga CD-ROM-släden misslyckades"
-+msgstr "kommandot för att stänga CD-ROM-skivfacket misslyckades"
++msgstr "Kommandot för att stänga CD-ROM-skivfacket misslyckades"
  
  #: sys-utils/eject.c:388
  msgid "CD-ROM tray close command not supported by this kernel\n"
@@ -3166,7 +3166,7 @@
  #: sys-utils/eject.c:433 sys-utils/eject.c:456 sys-utils/eject.c:1020
  msgid "CD-ROM eject command failed"
 -msgstr "kommando för att mata ut CD-ROM misslyckades"
-+msgstr "kommandot för att mata ut CD-ROM misslyckades"
++msgstr "Kommandot för att mata ut CD-ROM misslyckades"
  
  #: sys-utils/eject.c:436
  msgid "no CD-ROM information available"
@@ -6302,11 +6302,11 @@
  #: sys-utils/setarch.c:424
  msgid "Can not get current kernel personality"
 -msgstr "Kan inte få aktuell kärnpersonlighet"
-+msgstr "kan inte hämta aktuell kärnpersonlighet"
++msgstr "Kan inte hämta aktuell kärnpersonlighet"
  
  #: sys-utils/setarch.c:437
  #, c-format
-@@ -22339,11 +22338,11 @@
+@@ -22339,7 +22338,7 @@
  
  #: sys-utils/setarch.c:440 sys-utils/setarch.c:588
  msgid "could not parse personality"
@@ -6315,11 +6315,6 @@
  
  #: sys-utils/setarch.c:498
  msgid "Not enough arguments"
--msgstr "Inte tillräckligt många argument"
-+msgstr "inte tillräckligt många argument"
- 
- #: sys-utils/setarch.c:566
- msgid "unrecognized option '--list'"
 @@ -22361,7 +22360,7 @@
  
  #: sys-utils/setarch.c:592
@@ -6557,15 +6552,6 @@
  
  #: sys-utils/setpriv.c:414
  msgid "AppArmor profile"
-@@ -22642,7 +22641,7 @@
- 
- #: sys-utils/setpriv.c:449
- msgid "Invalid supplementary group id"
--msgstr "Ogiltigt ID för tilläggsgrupp"
-+msgstr "ogiltigt ID för tilläggsgrupp"
- 
- #: sys-utils/setpriv.c:490
- msgid "setresuid failed"
 @@ -22654,32 +22653,32 @@
  
  #: sys-utils/setpriv.c:537
@@ -6626,7 +6612,7 @@
  #: sys-utils/setpriv.c:724
  msgid "Could not load seccomp filter"
 -msgstr "Kunde inte läsa in seccomp-filter"
-+msgstr "kunde inte läsa in seccomp-filtret"
++msgstr "Kunde inte läsa in seccomp-filtret"
  
  #: sys-utils/setpriv.c:903
  msgid "duplicate --no-new-privs option"
@@ -6714,7 +6700,7 @@
  #: sys-utils/setpriv.c:1069
  msgid "No program specified"
 -msgstr "Inget program angivet"
-+msgstr "inget program angavs"
++msgstr "Inget program angavs"
  
  #: sys-utils/setpriv.c:1075
  msgid "--[re]gid requires --keep-groups, --clear-groups, --init-groups, or --groups"
@@ -6893,7 +6879,7 @@
  #: sys-utils/swapoff.c:127
  msgid "Not superuser."
 -msgstr "Inte superanvändare."
-+msgstr "inte superanvändare"
++msgstr "Inte superanvändare"
  
  #: sys-utils/swapoff.c:130 sys-utils/swapoff.c:135
  #, c-format
@@ -7933,7 +7919,7 @@
  
  #: sys-utils/zramctl.c:87
  msgid "the selected compression algorithm"
-@@ -24153,27 +24152,27 @@
+@@ -24153,23 +24152,23 @@
  
  #: sys-utils/zramctl.c:90
  msgid "all memory including allocator fragmentation and metadata overhead"
@@ -7962,11 +7948,6 @@
  
  #: sys-utils/zramctl.c:546
  msgid "Failed to parse mm_stat"
--msgstr "Misslyckades med att tolka mm_stat"
-+msgstr "misslyckades med att tolka mm_stat"
- 
- #: sys-utils/zramctl.c:739
- #, c-format
 @@ -24196,7 +24195,7 @@
  
  #: sys-utils/zramctl.c:749
@@ -9510,15 +9491,6 @@
  
  #: text-utils/more.c:1127
  msgid "Line too long"
-@@ -26015,7 +26013,7 @@
- 
- #: text-utils/more.c:1170
- msgid "No previous command to substitute for"
--msgstr "Inget tidigare kommando att ersätta"
-+msgstr "inget tidigare kommando att ersätta"
- 
- #: text-utils/more.c:1199
- #, c-format
 @@ -26024,15 +26022,15 @@
  
  #: text-utils/more.c:1283
@@ -9602,7 +9574,7 @@
  
  #: text-utils/more.c:1778
  msgid ""
-@@ -26125,16 +26123,16 @@
+@@ -26125,12 +26123,12 @@
  #: text-utils/more.c:1797
  #, c-format
  msgid "\"%s\" line %d"
@@ -9617,11 +9589,6 @@
  
  #: text-utils/more.c:1806
  msgid "No previous regular expression"
--msgstr "Inget föregående reguljärt uttryck"
-+msgstr "inget föregående reguljärt uttryck"
- 
- #: text-utils/more.c:1833 text-utils/more.c:1870
- msgid "Command not available in secure mode"
 @@ -26143,7 +26141,7 @@
  #: text-utils/more.c:1884
  #, c-format
@@ -9708,7 +9675,7 @@
  
  #: text-utils/pg.c:260
  #, c-format
-@@ -26256,38 +26254,38 @@
+@@ -26256,11 +26254,11 @@
  
  #: text-utils/pg.c:368
  msgid "...skipping forward\n"
@@ -9722,48 +9689,33 @@
  
  #: text-utils/pg.c:387
  msgid "No next file"
--msgstr "Ingen nästa fil"
-+msgstr "ingen nästa fil"
+@@ -26268,22 +26266,22 @@
  
  #: text-utils/pg.c:391
  msgid "No previous file"
 -msgstr "Ingen tidigare fil"
-+msgstr "ingen föregående fil"
++msgstr "Ingen föregående fil"
  
  #: text-utils/pg.c:895
  #, c-format
  msgid "Read error from %s file"
 -msgstr "Läsfel från %s-fil"
-+msgstr "läsfel från filen %s"
++msgstr "Läsfel från filen %s"
  
  #: text-utils/pg.c:898
  #, c-format
  msgid "Unexpected EOF in %s file"
 -msgstr "Oväntat filslut i %s-fil"
-+msgstr "oväntat filslut i filen %s"
++msgstr "Oväntat filslut i filen %s"
  
  #: text-utils/pg.c:900
  #, c-format
  msgid "Unknown error in %s file"
 -msgstr "Okänt fel i %s-fil"
-+msgstr "okänt fel i filen %s"
++msgstr "Okänt fel i filen %s"
  
  #: text-utils/pg.c:953
  msgid "Cannot create temporary file"
--msgstr "Kan inte skapa temporär fil"
-+msgstr "kan inte skapa temporär fil"
- 
- #: text-utils/pg.c:962 text-utils/pg.c:1129 text-utils/pg.c:1155
- msgid "RE error: "
-@@ -26299,7 +26297,7 @@
- 
- #: text-utils/pg.c:1137 text-utils/pg.c:1163
- msgid "No remembered search string"
--msgstr "Ingen ihågkommen söksträng"
-+msgstr "ingen ihågkommen söksträng"
- 
- #: text-utils/pg.c:1218
- msgid "cannot open "
 @@ -26311,11 +26309,11 @@
  
  #: text-utils/pg.c:1360

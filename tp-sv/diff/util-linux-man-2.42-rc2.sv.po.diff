@@ -1974,7 +1974,7 @@
  #: ../disk-utils/sfdisk.8.adoc:316
  msgid "MBR extended partition; means 05 for MBR. The original shortcut 'E' is deprecated due to collision with 0x0E MBR partition type."
 -msgstr "MBR-utökad partition; betyder 05 för MBR. Den ursprungliga genvägen \"E\" är föråldrad på grund av kollision med 0x0E MBR-partitionstyp."
-+msgstr "utökad MBR-partition; betyder 05 för MBR. Den ursprungliga genvägen 'E' är föråldrad på grund av kollision med MBR-partitionstypen 0x0E."
++msgstr "Utökad MBR-partition; betyder 05 för MBR. Den ursprungliga genvägen 'E' är föråldrad på grund av kollision med MBR-partitionstypen 0x0E."
  
  #. type: Labeled list
  #: ../disk-utils/sfdisk.8.adoc:317
@@ -9651,7 +9651,7 @@
  #: ../sys-utils/ctrlaltdel.8.adoc:32
  msgid "Make the kernel send the *SIGINT* (interrupt) signal to the *init* process (this is always the process with PID 1). If this option is used, the *init*(8) program must support this feature. Since there are now several *init*(8) programs in the Linux community, please consult the documentation for the version that you are currently using."
 -msgstr "Få kärnan att skicka signalen *SIGINT* (avbrott) till *init*-processen (detta är alltid processen med PID 1). Om denna flagga används måste *init*(8)-programmet stödja denna funktion. Eftersom det nu finns flera *init*(8)-program i Linux-gemenskapen, bör du läsa dokumentationen för den version som du använder för närvarande."
-+msgstr "Låt kärnan skicka signalen *SIGINT* (avbrott) till *init*-processen, som alltid har PID 1. Om flaggan används måste programmet *init*(8) stödja funktionen. Det finns flera *init*(8)-program i Linuxgemenskapen; läs dokumentationen för den version som används."
++msgstr "Låt kärnan skicka signalen *SIGINT* (avbrott) till *init*-processen, som alltid har PID 1. Om flaggan används måste programmet *init*(8) ge stöd för funktionen. Det finns flera *init*(8)-program i Linuxgemenskapen; läs dokumentationen för den version som används."
  
  #. type: Plain text
  #: ../sys-utils/ctrlaltdel.8.adoc:34
@@ -10707,7 +10707,7 @@
  #: ../sys-utils/fstab.5.adoc:119
  msgid "or *x-<name>* for use by fstab-maintaining programs"
 -msgstr "eller *x-<name>* för användning av fstab-underhållande program"
-+msgstr "eller *x-<name>* för program som underhåller fstab"
++msgstr "eller *x-<namn>* för program som underhåller fstab"
  
  #. type: Labeled list
  #: ../sys-utils/fstab.5.adoc:119 ../sys-utils/mount.8.adoc:651
@@ -11310,7 +11310,7 @@
  #: ../sys-utils/hwclock.8.adoc:220
  msgid "*hwclock* uses many different ways to get and set Hardware Clock values. The most normal way is to do I/O to the rtc device special file, which is presumed to be driven by the rtc device driver. Also, Linux systems using the rtc framework with udev, are capable of supporting multiple Hardware Clocks. This may bring about the need to override the default rtc device by specifying one with the *--rtc* option."
 -msgstr "*hwclock* använder många olika sätt att hämta och ställa in värden för maskinvaruklockan. Det mest normala sättet är att göra I/O till specialfilen rtc device, som förutsätts drivas av drivrutinen rtc device. Linux-system som använder rtc-ramverket med udev kan dessutom stödja flera maskinvaruklockor. Detta kan medföra ett behov av att åsidosätta standard rtc-enheten genom att ange en med flaggan *--rtc*."
-+msgstr "*hwclock* använder många olika sätt att läsa och ställa in hårdvaruklockans värden. Det vanligaste är I/O till rtc-enhetens specialfil, som förutsätts drivas av rtc-enhetsdrivrutinen. Linux-system som använder rtc-ramverket med udev kan dessutom stödja flera hårdvaruklockor. Då kan standard-rtc-enheten behöva åsidosättas genom att en annan anges med flaggan *--rtc*."
++msgstr "*hwclock* använder många olika sätt att läsa och ställa in hårdvaruklockans värden. Det vanligaste är I/O till rtc-enhetens specialfil, som förutsätts drivas av rtc-enhetsdrivrutinen. Linux-system som använder rtc-ramverket med udev kan dessutom ge stöd för flera hårdvaruklockor. Då kan standard-rtc-enheten behöva åsidosättas genom att en annan anges med flaggan *--rtc*."
  
  #. type: Plain text
  #: ../sys-utils/hwclock.8.adoc:222
@@ -14068,7 +14068,7 @@
  #: ../sys-utils/mount.8.adoc:943
  msgid "This option is mainly used to support containers in the Linux kernel. It is implemented in Linux kernel versions starting with 2.6.29. Further, this mount option is valid only if *CONFIG_DEVPTS_MULTIPLE_INSTANCES* is enabled in the kernel configuration."
 -msgstr "Denna flagga används främst för att stödja containrar i Linux-kärnan. Det är implementerat i Linux-kärnans versioner från och med 2.6.29. Dessutom är det här monteringsflaggan endast giltigt om *CONFIG_DEVPTS_MULTIPLE_INSTANCES* är aktiverat i kärnkonfigurationen."
-+msgstr "Den här flaggan används främst för att stödja containrar i Linux-kärnan. Den är implementerad i Linux-kärnversioner från och med 2.6.29. Monteringsflaggan är dessutom endast giltig om *CONFIG_DEVPTS_MULTIPLE_INSTANCES* är aktiverat i kärnkonfigurationen."
++msgstr "Den här flaggan används främst för att ge stöd för containrar i Linux-kärnan. Den är implementerad i Linux-kärnversioner från och med 2.6.29. Monteringsflaggan är dessutom endast giltig om *CONFIG_DEVPTS_MULTIPLE_INSTANCES* är aktiverat i kärnkonfigurationen."
  
  #. type: Plain text
  #: ../sys-utils/mount.8.adoc:945
@@ -14529,7 +14529,7 @@
  #: ../sys-utils/mount.8.adoc:1242
  msgid "The lower filesystem can be any filesystem supported by Linux and does not need to be writable. The lower filesystem can even be another overlayfs. The upper filesystem will normally be writable and if it is it must support the creation of trusted.* extended attributes, and must provide a valid d_type in readdir responses, so NFS is not suitable."
 -msgstr "Det lägre filsystemet kan vara vilket filsystem som helst som stöds av Linux och behöver inte vara skrivbart. Det nedre filsystemet kan till och med vara ett annat overlayfs. Det övre filsystemet kommer normalt att vara skrivbart och om det är det måste det stödja skapandet av trusted.*-utökade attribut och måste tillhandahålla en giltig d_type i readdir-svar, så NFS är inte lämpligt."
-+msgstr "Det undre filsystemet kan vara vilket filsystem som helst som stöds av Linux och behöver inte vara skrivbart. Det undre filsystemet kan till och med vara ett annat overlayfs. Det övre filsystemet är normalt skrivbart och måste då stödja skapandet av utökade attribut av typen trusted.* samt tillhandahålla ett giltigt d_type i readdir-svar. Därför är NFS inte lämpligt."
++msgstr "Det undre filsystemet kan vara vilket filsystem som helst som stöds av Linux och behöver inte vara skrivbart. Det undre filsystemet kan till och med vara ett annat overlayfs. Det övre filsystemet är normalt skrivbart och måste då kunna skapa utökade attribut av typen trusted.* samt tillhandahålla ett giltigt d_type i readdir-svar. Därför är NFS inte lämpligt."
  
  #. type: Plain text
  #: ../sys-utils/mount.8.adoc:1244
@@ -14901,7 +14901,7 @@
  #: ../sys-utils/mount.8.adoc:1415
  msgid "This disables / enables the use of write barriers in the journaling code. *barrier=none* disables, *barrier=flush* enables (default). This also requires an IO stack which can support barriers, and if reiserfs gets an error on a barrier write, it will disable barriers again with a warning. Write barriers enforce proper on-disk ordering of journal commits, making volatile disk write caches safe to use, at some performance penalty. If your disks are battery-backed in one way or another, disabling barriers may safely improve performance."
 -msgstr "Detta inaktiverar/aktiverar användningen av skrivbarriärer i journalkoden. *barrier=none* inaktiverar, *barrier=flush* aktiverar (standard). Detta kräver också en IO-stack som kan stödja barriärer, och om reiserfs får ett fel på en barriärskrivning kommer den att inaktivera barriärer igen med en varning. Skrivbarriärer upprätthåller korrekt ordning på disken för journalförbindelser, vilket gör att flyktiga diskskrivcacher är säkra att använda, med viss prestandaförlust. Om dina diskar är batteridrivna på ett eller annat sätt kan det vara säkert att förbättra prestandan genom att inaktivera barriärerna."
-+msgstr "Detta inaktiverar eller aktiverar användningen av skrivbarriärer i journalföringskoden. *barrier=none* inaktiverar och *barrier=flush* aktiverar, vilket är standard. Detta kräver också en I/O-stack som kan stödja barriärer. Om reiserfs får ett fel vid en skrivning med barriär inaktiveras barriärerna igen med en varning. Skrivbarriärer säkerställer korrekt ordning på disken för journalbekräftelser och gör därmed flyktiga skrivcache på diskar säkra att använda, med viss prestandaförlust. Om diskarna har batteribackup kan prestandan förbättras säkert genom att inaktivera barriärerna."
++msgstr "Detta inaktiverar eller aktiverar användningen av skrivbarriärer i journalföringskoden. *barrier=none* inaktiverar och *barrier=flush* aktiverar, vilket är standard. Detta kräver också en I/O-stack som kan hantera barriärer. Om reiserfs får ett fel vid en skrivning med barriär inaktiveras barriärerna igen med en varning. Skrivbarriärer säkerställer korrekt ordning på disken för journalbekräftelser och gör därmed flyktiga skrivcache på diskar säkra att använda, med viss prestandaförlust. Om diskarna har batteribackup kan prestandan förbättras säkert genom att inaktivera barriärerna."
  
  #. type: Title ===
  #: ../sys-utils/mount.8.adoc:1416

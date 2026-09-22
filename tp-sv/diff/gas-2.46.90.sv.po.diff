@@ -453,7 +453,7 @@
  #: config/tc-ia64.c:11578 config/tc-tic30.c:1241 config/tc-tic4x.c:2565
  msgid "Unrecognized or unsupported floating point constant"
 -msgstr "Okänd flyttalskonstant eller så stöds den inte"
-+msgstr "okänd eller icke-stödd flyttalskonstant"
++msgstr "Okänd eller icke-stödd flyttalskonstant"
  
  #: config/obj-aout.c:81
  #, c-format
@@ -1359,7 +1359,7 @@
  #: config/tc-aarch64.c:2282
  msgid "unimplemented relocation suffix"
 -msgstr "oimplementerat omlokaliseringssuffix"
-+msgstr "ej implementerat omlokaliseringssuffix"
++msgstr "inte implementerat omlokaliseringssuffix"
  
  #: config/tc-aarch64.c:2615 config/tc-aarch64.c:2806 config/tc-aarch64.c:2850
  #: config/tc-csky.c:2360
@@ -1736,7 +1736,7 @@
  #: config/tc-aarch64.c:7221
  msgid "C0 - C15 expected"
 -msgstr "C0 - C15 förväntades"
-+msgstr "förväntade C0–C15"
++msgstr "Förväntade C0–C15"
  
  #: config/tc-aarch64.c:7354 config/tc-aarch64.c:7382
  msgid "immediate zero expected"
@@ -2708,12 +2708,12 @@
  #: config/tc-arm.c:892
  msgid "Odd register not allowed here"
 -msgstr "Udda register inte tillåtet här"
-+msgstr "udda register är inte tillåtet här"
++msgstr "Udda register är inte tillåtet här"
  
  #: config/tc-arm.c:893
  msgid "Even register not allowed here"
 -msgstr "Jämnt register inte tillåtet här"
-+msgstr "jämnt register är inte tillåtet här"
++msgstr "Jämnt register är inte tillåtet här"
  
  #: config/tc-arm.c:894
  msgid "instruction cannot be conditional"
@@ -3261,7 +3261,7 @@
  #: config/tc-arm.c:6926
  msgid "VFP single, double or MVE vector register expected"
 -msgstr "VFP-enkel- eller -dubbelregister eller MVE-vektorregister förväntades"
-+msgstr "förväntade VFP-enkel- eller dubbelprecisionsregister eller MVE-vektorregister"
++msgstr "Förväntade VFP-enkel- eller dubbelprecisionsregister eller MVE-vektorregister"
  
  #: config/tc-arm.c:6946
  msgid "parse error"
@@ -3912,12 +3912,12 @@
  #: config/tc-arm.c:15805
  msgid "Type is not allowed for this instruction"
 -msgstr "Typ är inte tillåten för denna instruktion"
-+msgstr "typen är inte tillåten för den här instruktionen"
++msgstr "Typen är inte tillåten för den här instruktionen"
  
  #: config/tc-arm.c:15880
  msgid "MVE vector or ARM register expected"
 -msgstr "MVE-vektor eller ARM-register förväntades"
-+msgstr "förväntade MVE-vektor- eller ARM-register"
++msgstr "Förväntade MVE-vektor- eller ARM-register"
  
  #: config/tc-arm.c:15997
  msgid "immediate must be either 1, 2, 4 or 8"
@@ -4050,7 +4050,7 @@
  
  #: config/tc-arm.c:19725
  msgid "64-bit element size and same destination and source operands makes instruction UNPREDICTABLE"
-@@ -5113,15 +5116,15 @@
+@@ -5113,11 +5116,11 @@
  
  #: config/tc-arm.c:19730
  msgid "elements must be smaller than reversal region"
@@ -4064,11 +4064,6 @@
  
  #: config/tc-arm.c:19825
  msgid "Destination registers may not be the same"
--msgstr "Destinationsregistren får inte vara samma"
-+msgstr "destinationsregistren får inte vara samma"
- 
- #: config/tc-arm.c:20023 config/tc-arm.c:20106
- msgid "bad type for scalar"
 @@ -5129,7 +5132,7 @@
  
  #: config/tc-arm.c:20162
@@ -4092,12 +4087,12 @@
  #: config/tc-arm.c:20579 config/tc-arm.c:20612
  msgid "Use of PC here is UNPREDICTABLE"
 -msgstr "Användning av PC här är OPÅLITLIGT"
-+msgstr "användning av PC här är OFÖRUTSÄGBAR"
++msgstr "Användning av PC här är OFÖRUTSÄGBAR"
  
  #: config/tc-arm.c:20581
  msgid "Use of PC here is deprecated"
 -msgstr "Användning av PC här är föråldrat"
-+msgstr "användning av PC här är föråldrad"
++msgstr "Användning av PC här är föråldrad"
  
  #: config/tc-arm.c:20615
  msgid "instruction does not accept register index"
@@ -4111,7 +4106,7 @@
  #: config/tc-arm.c:20640 config/tc-arm.c:20649
  msgid "Instruction not permitted on this architecture"
 -msgstr "Instruktion inte tillåten för denna arkitektur"
-+msgstr "instruktionen är inte tillåten för den här arkitekturen"
++msgstr "Instruktionen är inte tillåten för den här arkitekturen"
  
  #: config/tc-arm.c:20698
  msgid "bad alignment"
@@ -4147,7 +4142,7 @@
  #: config/tc-arm.c:21321
  msgid "Dot Product instructions cannot be conditional,  the behaviour is UNPREDICTABLE"
 -msgstr "Korsprodukt-instruktioner kan inte vara villkorade, beteende är OFÖRUTSÄGBART"
-+msgstr "punktproduktinstruktioner kan inte vara villkorliga; beteendet är OFÖRUTSÄGBART"
++msgstr "Punktproduktinstruktioner kan inte vara villkorliga; beteendet är OFÖRUTSÄGBART"
  
  #: config/tc-arm.c:21396 config/tc-arm.c:21424 config/tc-arm.c:22106
  msgid "index must be 0 or 1"
@@ -4156,12 +4151,12 @@
  #: config/tc-arm.c:21465
  msgid "Register must be r0-r14 except r13, or APSR_nzcv."
 -msgstr "Registret måste vara r0-r14 förutom r13 eller APSR_nzcv."
-+msgstr "registret måste vara r0–r14 utom r13 eller APSR_nzcv."
++msgstr "Registret måste vara r0–r14 utom r13 eller APSR_nzcv."
  
  #: config/tc-arm.c:21468
  msgid "Register must be an even register between r0-r10."
 -msgstr "Registret måste vara ett jämnt register mellan r0-r10."
-+msgstr "registret måste vara ett jämnt register mellan r0 och r10."
++msgstr "Registret måste vara ett jämnt register mellan r0 och r10."
  
  #: config/tc-arm.c:21493
  msgid "CDE Coprocessor must be in range 0-7"
@@ -5081,7 +5076,7 @@
  #, c-format
  msgid "GOT bad expression with %s."
 -msgstr "GOT felaktigt uttryck med %s."
-+msgstr "felaktigt GOT-uttryck med %s."
++msgstr "Felaktigt GOT-uttryck med %s."
  
  #: config/tc-cr16.c:1036
  #, c-format
@@ -5245,7 +5240,7 @@
  #: config/tc-cris.c:1051
  msgid "Out-of-range .word offset handling is not implemented for .arch common_v10_v32"
 -msgstr ".word-avståndshantering utanför intervall är inte implementerat för .arch common_v10_v32"
-+msgstr "hantering av .word-offset utanför intervallet är inte implementerad för .arch common_v10_v32"
++msgstr "Hantering av .word-offset utanför intervallet är inte implementerad för .arch common_v10_v32"
  
  #: config/tc-cris.c:1096
  msgid ".word case-table handling failed: table too large"
@@ -5262,25 +5257,25 @@
  #, c-format
  msgid "Immediate value not in 5 bit unsigned range: %ld"
 -msgstr "Omedelbart värde inte i teckenlöst 5-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i osignerat 5-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i osignerat 5-bitarsintervall: %ld"
  
  #: config/tc-cris.c:1671
  #, c-format
  msgid "Immediate value not in 4 bit unsigned range: %ld"
 -msgstr "Omedelbart värde inte i teckenlöst 4-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i osignerat 4-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i osignerat 4-bitarsintervall: %ld"
  
  #: config/tc-cris.c:1723
  #, c-format
  msgid "Immediate value not in 6 bit range: %ld"
 -msgstr "Omedelbart värde inte i 6-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i 6-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i 6-bitarsintervall: %ld"
  
  #: config/tc-cris.c:1739
  #, c-format
  msgid "Immediate value not in 6 bit unsigned range: %ld"
 -msgstr "Omedelbart värde inte i teckenlöst 6-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i osignerat 6-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i osignerat 6-bitarsintervall: %ld"
  
  #. Others have a generic warning.
  #: config/tc-cris.c:1848
@@ -5296,37 +5291,37 @@
  #, c-format
  msgid "Immediate value not in 8 bit range: %ld"
 -msgstr "Omedelbart värde inte i 8-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i 8-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i 8-bitarsintervall: %ld"
  
  #: config/tc-cris.c:2143 config/tc-cris.c:2194
  #, c-format
  msgid "Immediate value not in 16 bit range: %ld"
 -msgstr "Omedelbart värde inte i 16-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i 16-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i 16-bitarsintervall: %ld"
  
  #: config/tc-cris.c:2178
  #, c-format
  msgid "Immediate value not in 8 bit signed range: %ld"
 -msgstr "Omedelbart värde inte i 8-bitarsintervall med tecken: %ld"
-+msgstr "omedelbart värde ligger inte i signerat 8-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i signerat 8-bitarsintervall: %ld"
  
  #: config/tc-cris.c:2183
  #, c-format
  msgid "Immediate value not in 8 bit unsigned range: %ld"
 -msgstr "Omedelbart värde inte i teckenlöst8-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i osignerat 8-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i osignerat 8-bitarsintervall: %ld"
  
  #: config/tc-cris.c:2199
  #, c-format
  msgid "Immediate value not in 16 bit signed range: %ld"
 -msgstr "Omedelbart värde inte i 16-bitarsintervall med tecken: %ld"
-+msgstr "omedelbart värde ligger inte i signerat 16-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i signerat 16-bitarsintervall: %ld"
  
  #: config/tc-cris.c:2204
  #, c-format
  msgid "Immediate value not in 16 bit unsigned range: %ld"
 -msgstr "Omedelbart värde inte i teckenlöst 16-bitarsintervall: %ld"
-+msgstr "omedelbart värde ligger inte i osignerat 16-bitarsintervall: %ld"
++msgstr "Omedelbart värde ligger inte i osignerat 16-bitarsintervall: %ld"
  
  #: config/tc-cris.c:2230
  msgid "TLS relocation size does not match operand size"
@@ -5800,7 +5795,7 @@
  #: config/tc-d30v.c:1267
  msgid "Odd numbered register used as target of multi-register instruction"
 -msgstr "Udda numrerat register använt som mål för flerregisterinstruktion"
-+msgstr "udda numrerat register används som mål för flerregisterinstruktion"
++msgstr "Udda numrerat register används som mål för flerregisterinstruktion"
  
  #: config/tc-d30v.c:1331 config/tc-d30v.c:1367
  #, c-format
@@ -6122,7 +6117,7 @@
  #: config/tc-h8300.c:727 config/tc-h8300.c:839 config/tc-h8300.c:849
  msgid "Wrong size pointer register for architecture."
 -msgstr "Felaktig storlekspekarregister för arkitektur."
-+msgstr "felaktig registerpekarstorlek för arkitekturen."
++msgstr "Felaktig registerpekarstorlek för arkitekturen."
  
  #: config/tc-h8300.c:786 config/tc-h8300.c:794 config/tc-h8300.c:823
  msgid "expected @(exp, reg16)"
@@ -7309,7 +7304,7 @@
  #, c-format
  msgid "unimplemented segment %s in operand"
 -msgstr "oimplementerat segment %s i operand"
-+msgstr "ej implementerat segment %s i operand"
++msgstr "inte implementerat segment %s i operand"
  
  #: config/tc-i386.c:14917
  #, c-format
@@ -7721,12 +7716,12 @@
  #: config/tc-ia64.c:926
  msgid "Size of rotating registers exceeds frame size"
 -msgstr "Storlek för roterande register överstiger ramstorlek"
-+msgstr "storleken på roterande register överstiger ramstorleken"
++msgstr "Storleken på roterande register överstiger ramstorleken"
  
  #: config/tc-ia64.c:1013
  msgid "Unwind directive not followed by an instruction."
 -msgstr "Upprullningsdirektiv följs inte av en instruktion."
-+msgstr "upprullningsdirektivet följs inte av en instruktion"
++msgstr "Upprullningsdirektivet följs inte av en instruktion"
  
  #: config/tc-ia64.c:1022 config/tc-ia64.c:7590
  msgid "qualifying predicate not followed by instruction"
@@ -7760,7 +7755,7 @@
  #: config/tc-ia64.c:1694
  msgid "Previous .save incomplete"
 -msgstr "Föregående .save inte komplett"
-+msgstr "föregående .save är ofullständig"
++msgstr "Föregående .save är ofullständig"
  
  #: config/tc-ia64.c:2517
  msgid "spill_mask record unimplemented."
@@ -7774,17 +7769,17 @@
  #: config/tc-ia64.c:2658
  msgid "Ignoring attempt to spill beyond end of region"
 -msgstr "Hoppar över försök att spilla efter områdesslut"
-+msgstr "ignorerar försök att spilla förbi regionens slut"
++msgstr "Ignorerar försök att spilla förbi regionens slut"
  
  #: config/tc-ia64.c:2717
  msgid "Only constant space allocation is supported"
 -msgstr "Endast konstant uttrymmesallokering stöds"
-+msgstr "endast konstant utrymmesallokering stöds"
++msgstr "Endast konstant utrymmesallokering stöds"
  
  #: config/tc-ia64.c:2731
  msgid "Only constant offsets are supported"
 -msgstr "Endast konstantavstånd stöds"
-+msgstr "endast konstanta offsetar stöds"
++msgstr "Endast konstanta offsetar stöds"
  
  #: config/tc-ia64.c:2755
  msgid "Section switching in code is not supported."
@@ -7793,7 +7788,7 @@
  #: config/tc-ia64.c:2797
  msgid "Insn slot not set in unwind record."
 -msgstr "Instr-lucka inte inställd i upprullningspost."
-+msgstr "instruktionslucka är inte angiven i upprullningsposten."
++msgstr "Instruktionslucka är inte angiven i upprullningsposten."
  
  #: config/tc-ia64.c:2871
  msgid "frgr_mem record before region record!"
@@ -7903,7 +7898,7 @@
  
  #: config/tc-ia64.c:4502
  msgid "Empty argument of .endp"
-@@ -10458,19 +10462,19 @@
+@@ -10458,11 +10462,11 @@
  #: config/tc-ia64.c:4531
  #, c-format
  msgid "`%s' should be an operand to this .endp"
@@ -7913,36 +7908,26 @@
  #: config/tc-ia64.c:4572 config/tc-ia64.c:4879 config/tc-ia64.c:5190
  msgid "Comma expected"
 -msgstr "Komma förväntades"
-+msgstr "förväntade kommatecken"
++msgstr "Förväntade kommatecken"
  
  #: config/tc-ia64.c:4612
  msgid "Expected '['"
--msgstr "Förväntade ”[”"
-+msgstr "förväntade ”[”"
- 
- #: config/tc-ia64.c:4621 config/tc-ia64.c:7724
- msgid "Expected ']'"
--msgstr "Förväntade ”]”"
-+msgstr "förväntade ”]”"
- 
- #: config/tc-ia64.c:4626
- msgid "Number of elements must be positive"
 @@ -10479,15 +10483,15 @@
  #: config/tc-ia64.c:4637
  #, c-format
  msgid "Used more than the declared %d rotating registers"
 -msgstr "Använde mer än %d deklarerat antal roterande register"
-+msgstr "använde fler än de %d deklarerade roterande registren"
++msgstr "Använde fler än de %d deklarerade roterande registren"
  
  #: config/tc-ia64.c:4645
  msgid "Used more than the available 96 rotating registers"
 -msgstr "Använde mer än 96 tillgängliga roterande register"
-+msgstr "använde fler än de 96 tillgängliga roterande registren"
++msgstr "Använde fler än de 96 tillgängliga roterande registren"
  
  #: config/tc-ia64.c:4652
  msgid "Used more than the available 48 rotating registers"
 -msgstr "Använde mer än 48 tillgängliga roterande register"
-+msgstr "använde fler än de 48 tillgängliga roterande registren"
++msgstr "Använde fler än de 48 tillgängliga roterande registren"
  
  #: config/tc-ia64.c:4675
  #, c-format
@@ -7951,7 +7936,7 @@
  #: config/tc-ia64.c:4774
  msgid "Comma expected after section name"
 -msgstr "Komma förväntade efter sektionsnamn"
-+msgstr "förväntade kommatecken efter sektionsnamnet"
++msgstr "Förväntade kommatecken efter sektionsnamnet"
  
  #: config/tc-ia64.c:4785
  msgid "Creating sections with .xdataN/.xrealN/.xstringZ is deprecated."
@@ -7965,7 +7950,7 @@
  #: config/tc-ia64.c:4926
  msgid "Directive invalid within a bundle"
 -msgstr "Direktiv ogiltigt inom en bunt"
-+msgstr "direktivet är ogiltigt i en bunt"
++msgstr "Direktivet är ogiltigt i en bunt"
  
  #: config/tc-ia64.c:5025
  msgid "Missing predicate relation type"
@@ -7974,7 +7959,7 @@
  #: config/tc-ia64.c:5031
  msgid "Unrecognized predicate relation type"
 -msgstr "Okänt relationstyp för predikat"
-+msgstr "okänd predikatrelationstyp"
++msgstr "Okänd predikatrelationstyp"
  
  #: config/tc-ia64.c:5077
  msgid "Bad register range"
@@ -7983,7 +7968,7 @@
  #: config/tc-ia64.c:5091
  msgid "Duplicate predicate register ignored"
 -msgstr "Dubblerat predikatregister överhoppat"
-+msgstr "dubblerat predikatregister ignoreras"
++msgstr "Dubblerat predikatregister ignoreras"
  
  #: config/tc-ia64.c:5107
  msgid "Predicate source and target required"
@@ -7992,7 +7977,7 @@
  #: config/tc-ia64.c:5109 config/tc-ia64.c:5121
  msgid "Use of p0 is not valid in this context"
 -msgstr "Användning av p0 är inte giltigt i detta sammanhang"
-+msgstr "användning av p0 är inte giltig i detta sammanhang"
++msgstr "Användning av p0 är inte giltig i detta sammanhang"
  
  #: config/tc-ia64.c:5116
  msgid "At least two PR arguments expected"
@@ -8025,12 +8010,12 @@
  #: config/tc-ia64.c:6071
  msgid "Expected separator `='"
 -msgstr "Förväntade separator ”=”"
-+msgstr "förväntade avgränsaren ”=”"
++msgstr "Förväntade avgränsaren ”=”"
  
  #: config/tc-ia64.c:6107
  msgid "Duplicate equal sign (=) in instruction"
 -msgstr "Dubblerat likhetstecken (=) i instruktion"
-+msgstr "dubblerat likhetstecken (=) i instruktionen"
++msgstr "Dubblerat likhetstecken (=) i instruktionen"
  
  #: config/tc-ia64.c:6114
  #, c-format
@@ -8039,7 +8024,7 @@
  #, c-format
  msgid "Operand %u of `%s' should be %s"
 -msgstr "Operand %u till ”%s” borde vara %s"
-+msgstr "operanden %u till ”%s” bör vara %s"
++msgstr "Operanden %u till ”%s” bör vara %s"
  
  #: config/tc-ia64.c:6233
  msgid "Wrong number of output operands"
@@ -8048,7 +8033,7 @@
  #: config/tc-ia64.c:6237
  msgid "Operand mismatch"
 -msgstr "Operander stämmer inte"
-+msgstr "operanderna matchar inte"
++msgstr "Operanderna matchar inte"
  
  #: config/tc-ia64.c:6319
  #, c-format
@@ -8057,13 +8042,13 @@
  #: config/tc-ia64.c:6403
  msgid "Value truncated to 62 bits"
 -msgstr "Värde trunkerat till 62 bitar"
-+msgstr "värdet trunkeras till 62 bitar"
++msgstr "Värdet trunkeras till 62 bitar"
  
  #: config/tc-ia64.c:6471
  #, c-format
  msgid "Bad operand value: %s"
 -msgstr "Felaktig operandvärde: %s"
-+msgstr "felaktigt operandvärde: %s"
++msgstr "Felaktigt operandvärde: %s"
  
  #. Give an error if a frag containing code is not aligned to a 16 byte
  #. boundary.
@@ -8093,7 +8078,7 @@
  #: config/tc-ia64.c:6689
  msgid "Label must be first in a bundle"
 -msgstr "Etikett måste vara först i en bunt"
-+msgstr "etiketten måste vara först i bunten"
++msgstr "Etiketten måste vara först i bunten"
  
  #: config/tc-ia64.c:6766
  msgid "hint in B unit may be treated as nop"
@@ -12617,13 +12602,13 @@
  #, c-format
  msgid "Invalid CPU is specified: %s"
 -msgstr "Ogiltig CPU angiven: %s"
-+msgstr "ogiltig CPU angavs: %s"
++msgstr "Ogiltig CPU angavs: %s"
  
  #: config/tc-z80.c:224
  #, c-format
  msgid "Invalid EXTENSION is specified: %s"
 -msgstr "Ogiltig EXTENSION angiven: %s"
-+msgstr "ogiltig utökning angavs: %s"
++msgstr "Ogiltig utökning angavs: %s"
  
  #: config/tc-z80.c:279
  #, c-format
@@ -12716,7 +12701,7 @@
  #, c-format
  msgid "Unknown instruction `%s'"
 -msgstr "Okänd instruktion `%s'"
-+msgstr "okänd instruktion ”%s”"
++msgstr "Okänd instruktion ”%s”"
  
  #: config/tc-z80.c:3770
  #, c-format
@@ -12817,7 +12802,7 @@
  #: config/tc-z8k.c:1287
  msgid "Can't find opcode to match operands"
 -msgstr "Kan inte hitta opkod som matchar operander"
-+msgstr "kan inte hitta en opkod som matchar operanderna"
++msgstr "Kan inte hitta en opkod som matchar operanderna"
  
  #: config/tc-z8k.c:1334
  #, c-format
@@ -12880,7 +12865,7 @@
  #: dw2gencfi.c:681
  msgid "CFI state restore without previous remember"
 -msgstr "CFI-tillstånd återställt utan föregående ihågkomst"
-+msgstr "återställning av CFI-tillstånd utan föregående ihågkomst"
++msgstr "Återställning av CFI-tillstånd utan föregående ihågkomst"
  
  #: dw2gencfi.c:740
  msgid "missing separator"
@@ -12894,7 +12879,7 @@
  #: dw2gencfi.c:1065
  msgid "invalid or unsupported encoding in .cfi_personality"
 -msgstr "ogiltig kodning eller kodning utan stöd i .cfi_personality"
-+msgstr "ogiltig eller ej stödd kodning i .cfi_personality"
++msgstr "ogiltig eller inte stödd kodning i .cfi_personality"
  
  #: dw2gencfi.c:1072
  msgid ".cfi_personality requires encoding and symbol arguments"
@@ -12909,7 +12894,7 @@
  #: dw2gencfi.c:1136 dw2gencfi.c:1212
  msgid "invalid or unsupported encoding in .cfi_lsda"
 -msgstr "ogiltig kodning eller kodning utan stöd i .cfi_lsda"
-+msgstr "ogiltig eller ej stödd kodning i .cfi_lsda"
++msgstr "ogiltig eller inte stödd kodning i .cfi_lsda"
  
  #: dw2gencfi.c:1143
  msgid ".cfi_lsda requires encoding and symbol arguments"
@@ -13083,7 +13068,7 @@
  #: ecoff.c:2683
  msgid "Unrecognized .type argument"
 -msgstr "Okänd .type-argument"
-+msgstr "okänt .type-argument"
++msgstr "Okänt .type-argument"
  
  #: ecoff.c:2721
  msgid ".tag pseudo-op used outside of .def/.endef; ignored"
@@ -13173,7 +13158,7 @@
  #, c-format
  msgid "Unary operator %c ignored because bad operand follows"
 -msgstr "Unär operator %c överhoppad efter som en felaktig operand följer"
-+msgstr "unär operator %c ignoreras eftersom en felaktig operand följer"
++msgstr "Unär operator %c ignoreras eftersom en felaktig operand följer"
  
  #: expr.c:1270 expr.c:1292
  msgid "syntax error in .startof. or .sizeof."
@@ -13367,11 +13352,11 @@
  #, c-format
  msgid "Bad cfg of ginsn of func '%s'"
 -msgstr "Felaktig cfg för ginsn för funktionen '%s'"
-+msgstr "felaktig kontrollflödesgraf för ginsn i funktionen ”%s”"
++msgstr "Felaktig kontrollflödesgraf för ginsn i funktionen ”%s”"
  
  #: ginsn.c:1314 ginsn.c:1321
  msgid "ginsn unsupported for target"
-@@ -22907,16 +22913,16 @@
+@@ -22907,11 +22913,11 @@
  
  #: input-scrub.c:301
  msgid "macros nested too deeply"
@@ -13385,12 +13370,6 @@
  
  #: itbl-ops.c:328
  #, c-format
- msgid "Unable to allocate memory for new instructions\n"
--msgstr "Kan inte allokera minne för nya instruktioner\n"
-+msgstr "kan inte allokera minne för nya instruktioner\n"
- 
- #: listing.c:244 messages.c:205 messages.c:207 messages.c:210
- msgid "Warning: "
 @@ -22929,7 +22935,7 @@
  #: listing.c:656
  #, c-format
@@ -13460,7 +13439,7 @@
  #, c-format
  msgid "Missing parameter qualifier for `%s' in macro `%s'"
 -msgstr "Saknar parameterkvalificerare för ”%s” i makro ”%s”"
-+msgstr "parameterkvalificerare för ”%s” saknas i makrot ”%s”"
++msgstr "Parameterkvalificerare för ”%s” saknas i makrot ”%s”"
  
  #: macro.c:529
  #, c-format
@@ -13469,19 +13448,19 @@
  #, c-format
  msgid "Pointless default value for required parameter `%s' in macro `%s'"
 -msgstr "Poänglöst standardvärde för nödvändig parameter ”%s” i makro ”%s”"
-+msgstr "meningslöst standardvärde för obligatorisk parameter ”%s” i makrot ”%s”"
++msgstr "Meningslöst standardvärde för obligatorisk parameter ”%s” i makrot ”%s”"
  
  #: macro.c:556
  #, c-format
  msgid "A parameter named `%s' already exists for macro `%s'"
 -msgstr "En parameter vid namn ”%s” existerar redan för makro ”%s”"
-+msgstr "en parameter med namnet ”%s” finns redan för makrot ”%s”"
++msgstr "En parameter med namnet ”%s” finns redan för makrot ”%s”"
  
  #: macro.c:594
  #, c-format
  msgid "Reserved word `%s' used as parameter in macro `%s'"
 -msgstr "Reserverat ord ”%s” använt som parameter i makro ”%s”"
-+msgstr "reserverat ord ”%s” används som parameter i makrot ”%s”"
++msgstr "Reserverat ord ”%s” används som parameter i makrot ”%s”"
  
  #: macro.c:648
  #, c-format
@@ -13495,7 +13474,7 @@
  #: macro.c:675
  msgid "Missing macro name"
 -msgstr "Saknar makronamn"
-+msgstr "makronamn saknas"
++msgstr "Makronamn saknas"
  
  #: macro.c:684
  #, c-format
@@ -13504,7 +13483,7 @@
  #, c-format
  msgid "Macro `%s' was already defined"
 -msgstr "Makro ”%s” har redan definierats"
-+msgstr "makrot ”%s” har redan definierats"
++msgstr "Makrot ”%s” har redan definierats"
  
  #: macro.c:818 macro.c:820
  msgid "missing `)'"
@@ -13513,7 +13492,7 @@
  #, c-format
  msgid "Parameter named `%s' does not exist for macro `%s'"
 -msgstr "Parameter vid namn ”%s” existerar inte för makro ”%s”"
-+msgstr "parametern ”%s” finns inte för makrot ”%s”"
++msgstr "Parametern ”%s” finns inte för makrot ”%s”"
  
  #: macro.c:1086
  #, c-format
@@ -13531,13 +13510,13 @@
  #, c-format
  msgid "Missing value for required parameter `%s' of macro `%s'"
 -msgstr "Saknar värde för nödvändig parameter ”%s” för makro ”%s”"
-+msgstr "värde för obligatorisk parameter ”%s” i makrot ”%s” saknas"
++msgstr "Värde för obligatorisk parameter ”%s” i makrot ”%s” saknas"
  
  #: macro.c:1278
  #, c-format
  msgid "Attempt to purge non-existing macro `%s'"
 -msgstr "Försök att rensa icke-existerande makro ”%s”"
-+msgstr "försök att rensa ett makro som inte finns: ”%s”"
++msgstr "Försök att rensa ett makro som inte finns: ”%s”"
  
  #: macro.c:1299
  msgid "unexpected end of file in irp or irpc"
@@ -13546,13 +13525,13 @@
  #, c-format
  msgid "Assembler messages:\n"
 -msgstr "Assemblermeddelanden:\n"
-+msgstr "assemblerarmeddelanden:\n"
++msgstr "Assemblerarmeddelanden:\n"
  
  #: messages.c:364
  #, c-format
  msgid "Fatal error: "
 -msgstr "Ödesdigert fel: "
-+msgstr "allvarligt fel: "
++msgstr "Allvarligt fel: "
  
  #: messages.c:386
  #, c-format
@@ -14001,7 +13980,7 @@
  #: symbols.c:1746
  msgid "Invalid operation on symbol"
 -msgstr "Ogiltig åtgärd för symbol"
-+msgstr "ogiltig operation på symbol"
++msgstr "Ogiltig operation på symbol"
  
  #: symbols.c:1796 write.c:2470
  #, c-format
@@ -14025,7 +14004,7 @@
  #, c-format
  msgid "Accessing function `%s' as thread-local object"
 -msgstr "Använder funktion ”%s” som trådlokalt objekt"
-+msgstr "funktionen ”%s” används som ett trådlokalt objekt"
++msgstr "Funktionen ”%s” används som ett trådlokalt objekt"
  
  #: symbols.c:2668
  #, c-format
@@ -14127,7 +14106,7 @@
  #, c-format
  msgid "Infinite loop encountered whilst attempting to compute the addresses of symbols in section %s"
 -msgstr "Oändlig loop påträffad vid försök att beräkna adresserna för symbolerna i sektion %s"
-+msgstr "oändlig slinga påträffades vid beräkning av symbolernas adresser i sektion %s"
++msgstr "Oändlig slinga påträffades vid beräkning av symbolernas adresser i sektion %s"
  
  #, c-format
  #~ msgid "`%s' can't be undefined in `%s' - `%s' {%s section}"
