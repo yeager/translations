@@ -1991,3 +1991,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 179: 23 gruppfakturerings-, kaskadinställnings- och massimportsträngar översatta, l10n-lint-granskade (0 fel) och API-publicerade (HTTP 201 för samtliga). Batchen är synkad till `swedish-tm`.
 
 - 2026-09-22 — M-Commander (MC6)/Codeberg Translate: ny officiell synkning verifierad mot revision `9e4fe2dfdeca0a49a291bd053bbcb459b88634eb`; 2 571/2 596 översatta, 19 luddiga och 42 plattformskontroller. Inga nya källenheter sedan föregående export. Den lokala sammanslagna kandidaten med 47 redan inskickade förslag passerar senaste l10n-lint med 0 fel (sju dokumenterade granskningsvarningar).
+
+- 2026-09-22 — GitLab/Crowdin batch 180: 27 AI-styrnings-, åtkomstavtals-, analys-, kontosäkerhets-, profil- och prenumerationssträngar översatta, l10n-lint-granskade (0 fel) och API-publicerade (HTTP 201 för samtliga). Batchen är synkad till `swedish-tm`.
