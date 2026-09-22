@@ -1815,3 +1815,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 83):** **23** poster för efterlevnadsramverk och överträdelser granskades och publicerades via CrowdIn (HTTP 201): mallar, JSON-import, instansnivå, kontroller, krav, uppladdningsfel och revisionshändelser. `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
 
 **GitLab (2026-09-22, batch 84):** **30** säkerhetssträngar för DAST och webbplatsvalidering granskades och publicerades via CrowdIn (HTTP 201): CI/CD-konfiguration, tidigare skanningar, token, HTTP-huvud/metatagg/textfil och valideringsstegen. Sårbarhetsmått och efterlevnadsöverträdelser ingår också. `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
+
+**GitLab (2026-09-22, batch 85):** **25** poster för agentiska beroendeuppdateringar, hemlighetskataloger, trigger-/autentiseringstoken, AWS-nycklar, extern auktorisering och efterlevnadskrav har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
