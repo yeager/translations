@@ -1953,3 +1953,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 152: 5 dynamiska gränssnittssträngar översatta med platshållare bevarade, validerade med l10n-lint (0 fel) och publicerade via API.
 
 - 2026-09-22 — GitLab/Crowdin batch 153: 4 Amazon Q-, App Store- och faktureringsfelsträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
+
+- 2026-09-22 — GitLab/Crowdin batch 154: 3 externa auktoriserings- och klassificeringsetikettsträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
