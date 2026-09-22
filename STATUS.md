@@ -1849,3 +1849,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **GitLab (2026-09-22, batch 100):** **21** poster för larmhantering, AI-funktionslåsning, konfidentiella arbetsobjekt, externa statuskontroller, policyregler och obligatoriska godkännanden har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
 
 **GitLab (2026-09-22, batch 101):** **21** poster för pipeline-/jobbåtkomst, tvåfaktorsautentisering, OAuth, tjänstekonton och Amazon Q-konfiguration/återanrop har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
+
+**GitLab (2026-09-22, batch 102):** **21** poster för Amazon Q, IAM-roller/-identitetsleverantör, kodgranskning, test- och kodgenerering samt sammanslagningsbegäranden har granskats och publicerats via CrowdIn (HTTP 201). `l10n-lint` rapporterar 0 fel. Backupen är uppdaterad.
