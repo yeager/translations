@@ -1,3 +1,4 @@
+- **GitLab – Runners: skapa och registrera (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: exekverare och konfiguration (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: tilldelning och åtkomst (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: konfiguration och felhantering (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
