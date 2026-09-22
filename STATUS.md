@@ -1947,3 +1947,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin batch 149: 8 analysinstrumentpanelssträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
 
 - 2026-09-22 — GitLab/Crowdin batch 150: 6 Amazon Q- och sammanfogningsbegäranssträngar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
+
+- 2026-09-22 — GitLab/Crowdin batch 151: 5 gruppmedlems- och Duo-strängar översatta, validerade med l10n-lint (0 fel) och publicerade via API.
