@@ -1,3 +1,4 @@
+- **GitLab – Runners: konfiguration och tilldelning (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – Runners: registrering och nodpoolborttagning (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **Swedish TM – GitLab (2 947 poster, 2026-09-22):** Synkad från radgranskade och CrowdIn-publicerade GitLab-poster, inklusive efterlevnadsramverk, efterlevnadsrapport och Runners. Validerad med `reviewed.py` och `validate.py`.
 - **GitLab – Runners: kapacitet och projektskydd (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
