@@ -1,3 +1,4 @@
+- **GitLab – Runners: registrering och infrastruktur (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – efterlevnadsrapport: återstående gränssnitt (22 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; komponentens källidentiska poster är 0; l10n-lint v1.21.6: 0 fel.
 - **GitLab – efterlevnadsrapport: status och policyer (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
 - **GitLab – efterlevnadsrapport: migration och felhantering (15 strängar, 2026-09-22):** Terminologiskt och radvis granskade, publicerade i CrowdIn; l10n-lint v1.21.6: 0 fel.
