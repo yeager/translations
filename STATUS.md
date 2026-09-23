@@ -2030,3 +2030,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab/Crowdin batch 203: 3 produktgränssnittsposter för aktivitetsflöden och GitLab Duo-konvertering granskade och API-publicerade. `l10n-lint`: 0 fel, 0 varningar.
 
 - 2026-09-23 — GitLab batch 204: 23 product-UI strings for clipboard, issues, branches, Mattermost, releases, and merge requests. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
+
+- 2026-09-23 — GitLab batch 205: 13 product-UI strings for branches, issues, merge requests, administration, emoji, and pipelines. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
