@@ -2074,3 +2074,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 225: 20 product-UI project-import, membership, access, and trial strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
 
 - 2026-09-23 — GitLab batch 226: 29 product-UI issue-tracking and external-tracker strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
+
+- 2026-09-23 — GitLab batch 227: 100 product-UI administration, CI/CD, external-integration, Google Cloud, and group-setting strings. `l10n-lint` reported no semantic errors; one HTML-entity punctuation warning was reviewed. API verification returned Duplicate translation for all entries after the initial publication; Swedish QA for file 16 reported 0 findings.
