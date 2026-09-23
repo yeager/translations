@@ -2096,3 +2096,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 243: 100 produktgränssnittssträngar för käll- och målgrenar, prenumerationer, Terraform, testning och integreringar. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
 - **GitLab – licensöverensstämmelse (19 strängar, 2026-09-23):** Radgranskade och publicerade i CrowdIn: licenser och policyöverträdelser, källgrensavgränsning, godkännandekrav samt policy- och kategoristatus.
 - 2026-09-23 — GitLab batch 244: 100 produktgränssnittssträngar för åtkomst, grupper, pipelines, sammanfogningsbegäranden och projektstatus. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
+- **GitLab – SAST, DAST och tillgänglighetsrapportering (9 strängar, 2026-09-23):** Radgranskade och publicerade i CrowdIn: SAST-fynd, DAST-profilers URL-påverkan och status/fel för tillgänglighetsskanning av källgrenen.
