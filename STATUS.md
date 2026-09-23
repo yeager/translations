@@ -2115,3 +2115,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 254: AI-katalog, API-säkerhet och åtkomsttoken; 100 strängar. `l10n-lint`: 0 fel, 9 kontextrelaterade falska positiva versalvarningar; CrowdIn API: 100 publicerade (76 × HTTP 201, 24 befintliga dubbletter); QA: 0 fel.
 - 2026-09-23 — GitLab batch 255: administration, CI/CD och säkerhetsinställningar; 100 strängar. `l10n-lint`: 0 fel, 0 varningar; CrowdIn API: 100 publicerade (79 × HTTP 201, 21 befintliga dubbletter).
 - 2026-09-23 — GitLab batch 256: AI-styrning, åtkomst, aviseringar och godkännanderegler; 100 strängar. `l10n-lint`: 0 fel, 0 varningar; CrowdIn API: 100 publicerade (87 × HTTP 201, 13 befintliga dubbletter).
+- 2026-09-23 — GitLab batch 257: grenar, CI/CD, kluster, säkerhet och efterlevnad; 100 strängar. `l10n-lint`: 0 fel, 2 kontextrelaterade falska positiva varningar; CrowdIn API: 100 publicerade (66 × HTTP 201, 34 befintliga dubbletter).
