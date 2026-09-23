@@ -2026,3 +2026,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab/Crowdin batch 199: 10 produktgränssnittsposter för klustermigrering, kommandopalett och incheckningsflöden granskade och API-publicerade. `l10n-lint`: 0 fel; en förstådd versalvarning för kortetikett.
 - 2026-09-23 — GitLab/Crowdin batch 200: 10 produktgränssnittsposter för incheckningsfel, molnintegreringar, CI/CD-kataloginställningar och sammanfogningskonflikter granskade och API-publicerade. `l10n-lint`: 0 fel, 0 varningar.
 - 2026-09-23 — GitLab/Crowdin batch 201: 10 produktgränssnittsposter för sammanfogningskonflikter, teamarbete och bidragsanalys granskade och API-publicerade. `l10n-lint`: 0 fel, 0 varningar.
+- 2026-09-23 — GitLab/Crowdin batch 202: 10 produktgränssnittsposter för aktiviteter i projekt, ärenden, sammanfogningsbegäranden och uppskick granskade och API-publicerade. `l10n-lint`: 0 fel, 0 varningar.
