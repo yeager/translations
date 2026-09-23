@@ -2093,3 +2093,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 241: 100 produktgränssnittssträngar för körare och SAML. `l10n-lint`: 0 fel; CrowdIn API: 96 × HTTP 201, 4 likvärdiga dubbletter; QA: 0 fel.
 - 2026-09-23 — GitLab batch 242: 100 produktgränssnittssträngar för sökning, Service Desk, Slack och sammanfogningsflöden. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
 - **GitLab – pushskydd för hemligheter och DAST på begäran (15 strängar, 2026-09-23):** Radgranskade och publicerade i CrowdIn: pushskydd, regeluppsättningsfel, utgången skanningstid, hemlighetsvarningar och -rotation samt DAST-genomsökning och validering på begäran. Aktuell l10n-lint gav 0 fel på XLIFF-exporten.
+- 2026-09-23 — GitLab batch 243: 100 produktgränssnittssträngar för käll- och målgrenar, prenumerationer, Terraform, testning och integreringar. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
