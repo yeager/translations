@@ -2056,3 +2056,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 216: 21 product-UI domain, pipeline, project-retention, and GitLab Duo strings. `l10n-lint` reported 0 issues; one equivalent Drone token translation returned Duplicate translation and all other records HTTP 201; Swedish QA for file 16 reported 0 findings.
 
 - 2026-09-23 — GitLab batch 217: 26 product-UI GitLab Duo Agent Platform and agent-action strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
+
+- 2026-09-23 — GitLab batch 218: 17 product-UI GitLab Duo Code Review and feature-discovery strings. `l10n-lint` reported no semantic errors; resname-prefix boundary notes were reviewed. Published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
