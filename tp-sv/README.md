@@ -1,10 +1,12 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 126 156 aktiva poster i 145 av 146 domäner är genomlästa. PO-filerna innehåller sammanlagt 36 847 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 126 157 aktiva poster i 145 av 146 domäner är genomlästa. PO-filerna innehåller sammanlagt 36 847 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.6 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Vid IT-termer används i första hand [Computer Swedens IT-ord](https://it-ord.computersweden.se/). Vid övriga språk- och termbedömningar används [Svenska Akademiens ordböcker](https://svenska.se/), [TEPA](https://termipankki.fi/tepa/sv/), [IATE](https://iate.europa.eu/home), [Rikstermbanken](https://www.rikstermbanken.se/) och [ISOF:s vägledning om fackspråk och terminologi](https://www.isof.se/svenska-spraket/facksprak-och-terminologi). Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
 PO-filernas befintliga uppdelning på fysiska rader bevaras för oförändrade textdelar. Ren PO-omformatering räknas inte som en rättad post.
+
+`NUMBER` och `number` översätts efter betydelse: **tal** för ett numeriskt värde och **antal** för en mängd eller räkning. Ingen generell ersättning används; varje förekomst granskas i sin kontext.
 
 Varje diff jämför den kompletta redigerade PO-filen med den befintliga svenska filen hos Translation Project, i exakt den version som länkas i tabellen. Diffarna har provapplicerats utan tolerans och återskapar respektive redigerad PO-fil byte för byte. Alla publicerade PO-filer klarar `msgfmt --check --check-format`. Befintliga fuzzy-markeringar, kommentarer och upphovsuppgifter är bevarade; gettext hoppar normalt över formatkontroll av fuzzy-poster.
 
