@@ -2107,3 +2107,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 247: 100 produktgränssnittssträngar för användare, kvoter, uppdateringar, SCIM och CI/CD-validering. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
 - **GitLab – säkerhetskonfigurationens projektantal (2 pluralformer, 2026-09-23):** Radgranskade och publicerade i CrowdIn.
 - 2026-09-23 — GitLab batch 248: value-stream-analys, synlighet och åtkomst, webbkrokar, sammanfogningsbegäranden samt arbetsobjekt; 100 strängar. `l10n-lint`: 0 fel, 0 varningar; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
+- 2026-09-23 — GitLab batch 249: arbetsobjekt, arbetsytor, åtkomsttoken och behörigheter; 100 strängar. `l10n-lint`: 0 fel, 0 varningar; CrowdIn API: 100 publicerade (96 befintliga dubbletter, 4 × HTTP 201); QA: 0 fel.
