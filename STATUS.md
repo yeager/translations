@@ -2083,3 +2083,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 231: 100 produktgränssnittssträngar för medlemsroller, sammanfogningsbegäranden, milstolpar och spegling. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
 - 2026-09-23 — GitLab batch 232: 100 produktgränssnittssträngar för namnområden, överföring, navigation, aviseringar och pipelines. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
 - 2026-09-23 — GitLab batch 233: 100 produktgränssnittssträngar för aviseringar, observability, offlineöverföring och introduktion. `l10n-lint`: 0 fel; CrowdIn API: 99 × HTTP 201, 1 likvärdig dubblett; QA: 0 fel.
+- 2026-09-23 — GitLab batch 234: 100 produktgränssnittssträngar för åtkomst, Orbit, organisationer, paket och pipelineeditor. Tre borttagna källsträngar ersattes med aktuella UI-strängar. `l10n-lint`: 0 fel; CrowdIn API: 100 publicerade; QA: 0 fel.
