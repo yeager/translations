@@ -2080,3 +2080,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 228: 100 product-UI group settings, integration, and invitation strings. `l10n-lint` reported only reviewed context-prefix warnings; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings. Batch selection validation is now enforced before publication.
 - 2026-09-23 — GitLab batch 229: 100 produktgränssnittssträngar för Jira, pipelinejobb, utbildning, licensiering, integrering och låsning. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
 - 2026-09-23 — GitLab batch 230: 100 produktgränssnittssträngar för medlemsroller, behörigheter, kvoter, Jira och pipelines. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
+- 2026-09-23 — GitLab batch 231: 100 produktgränssnittssträngar för medlemsroller, sammanfogningsbegäranden, milstolpar och spegling. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
