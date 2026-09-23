@@ -2124,3 +2124,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – affärsmöjligheter, master 7.15 (2026-09-23):** De **38** återstående mastersträngarna i den äldre men fortfarande räknade 7.15-modulen är publicerade med samma kontextgranskade svenska som 8.10. API:t svarade HTTP 201 för samtliga. Backup: `SuiteCRM-Core/suitecrm-opportunities-715-20260923.json`.
 
 **SuiteCRM Core – leads, master 7.15 (2026-09-23):** Hela mastermodulen är nu komplett: **97/97** tidigare saknade svenska UI-texter är kontextgranskade, inskickade och API-återlästa. Den täcker konvertering, kontaktuppgifter, adresser, aktiviteter, möten, kampanjer och säker flytt/kopiering av leadaktiviteter. Backup: `SuiteCRM-Core/suitecrm-leads-715-20260923.json`.
+
+**SuiteCRM Core – uppgifter, master 7.15 (2026-09-23):** Hela mastermodulen är komplett: **33/33** saknade svenska UI-texter för uppgifter, ämne, prioritet, förfallo- och starttider, kontakter, import och tilldelning är kontextgranskade, publicerade med HTTP 201 och API-återlästa. Backup: `SuiteCRM-Core/suitecrm-tasks-715-20260923.json`.
