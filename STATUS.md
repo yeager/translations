@@ -2040,3 +2040,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 208: 26 product-UI deployment and deploy-freeze strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
 
 - 2026-09-23 — GitLab batch 209: 19 product-UI DevOps adoption, security, integration, and merge strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
+
+- 2026-09-23 — GitLab batch 210: 18 product-UI editing, configuration, and email-error strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
