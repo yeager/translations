@@ -2070,3 +2070,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 223: 18 product-UI group creation, deletion, and Harbor Registry strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
 
 - 2026-09-23 — GitLab batch 224: 22 product-UI homepage, activity, identity-verification, and deletion-retention strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
+
+- 2026-09-23 — GitLab batch 225: 20 product-UI project-import, membership, access, and trial strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
