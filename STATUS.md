@@ -2106,3 +2106,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - **GitLab – extern auktorisering och certifikat (15 strängar, 2026-09-23):** Radgranskade: 14 poster publicerade i CrowdIn och en dubblett redan täckt där. Omfattar klientcertifikat/-nycklar, extern auktorisering, klassificeringskontroll, privata nycklar och tidsgräns vid nekad åtkomst.
 - 2026-09-23 — GitLab batch 247: 100 produktgränssnittssträngar för användare, kvoter, uppdateringar, SCIM och CI/CD-validering. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
 - **GitLab – säkerhetskonfigurationens projektantal (2 pluralformer, 2026-09-23):** Radgranskade och publicerade i CrowdIn.
+- 2026-09-23 — GitLab batch 248: value-stream-analys, synlighet och åtkomst, webbkrokar, sammanfogningsbegäranden samt arbetsobjekt; 100 strängar. `l10n-lint`: 0 fel, 0 varningar; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
