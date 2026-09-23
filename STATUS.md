@@ -2034,3 +2034,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 205: 13 product-UI strings for branches, issues, merge requests, administration, emoji, and pipelines. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
 
 - 2026-09-23 — GitLab batch 206: 26 product-UI cycle-analytics event strings for issues and merge requests. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
+
+- 2026-09-23 — GitLab batch 207: 19 product-UI DORA, dashboard, CI/CD, and branch-rule strings. `l10n-lint` reported no errors; the sole capitalization warning is a correct lower-case UI fragment. Published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
