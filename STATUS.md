@@ -2009,3 +2009,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-22 — GitLab/Crowdin QA: sex svenska blankstegsfel rättade och API-publicerade.
 
 - 2026-09-23 — GitLab/Crowdin batch 187: 22 projekt-, CI/CD-, token- och åtkomstinställningar l10n-lint-granskade (0 fel) och API-publicerade.
+
+- 2026-09-23 — GitLab/Crowdin batch 188: 21 Duo-, AI-säkerhets-, promptinjektions- och behörighetssträngar granskade med l10n-lint (0 fel) och API-publicerade.
