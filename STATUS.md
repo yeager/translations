@@ -2102,3 +2102,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - **GitLab – personifieringstoken (3 rättningar, 2026-09-23):** Terminologisk konsekvensrättning från *imitationstoken* till **personifieringstoken** i återkallelse- och kontostatusgränssnittet; publicerat i CrowdIn.
 - **GitLab – API-fuzzning (3 rättningar, 2026-09-23):** Rättade felaktigt medföljande XLIFF-kontextnyckel (*APIFuzzing|*) i tre redan översatta säkerhetstexter och publicerade de rena svenska gränssnittstexterna i CrowdIn.
 - 2026-09-23 — GitLab batch 246: 100 produktgränssnittssträngar för att-göra-listor, överföringar, CI/CD och åtkomst. `l10n-lint`: 0 fel; CrowdIn API: 100 × HTTP 201; QA: 0 fel.
+- **GitLab – autentisering och AI-säkerhet (12 rättningar, 2026-09-23):** Avlägsnade felaktiga CrowdIn/XLIFF-kontextnycklar från svenska UI-texter för autentisering, säkerhetshot och finmaskiga åtkomsttoken; publicerat via CrowdIn.
