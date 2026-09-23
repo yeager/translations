@@ -2523,7 +2523,7 @@ msgstr "En mycket vanlig konfiguration i _/etc/fstab_-filer är därför att ang
 #. type: Plain text
 #: ../disk-utils/fsck.8.adoc:92
 msgid "*fsck* normally does not check whether the device actually exists before calling a filesystem specific checker. Therefore non-existing devices may cause the system to enter filesystem repair mode during boot if the filesystem specific checker returns a fatal error. The _/etc/fstab_ mount option *nofail* may be used to have *fsck* skip non-existing devices. *fsck* also skips non-existing devices that have the special filesystem type *auto*."
-msgstr "*fsck* kontrollerar normalt inte om enheten faktiskt existerar innan en filsystemspecifik kontroll anropas. Därför kan icke-existerande enheter leda till att systemet går in i reparationsläge för filsystemet under uppstarten om den filsystemspecifika kontrollen returnerar ett allvarligt fel. Monteringsflaggan *nofail* i _/etc/fstab_ kan användas för att få *fsck* att hoppa över icke-existerande enheter. *fsck* hoppar också över icke-existerande enheter som har den speciella filsystemtypen *auto*."
+msgstr "*fsck* kontrollerar normalt inte om enheten faktiskt existerar innan en filsystemspecifik kontroll anropas. Därför kan icke-existerande enheter leda till att systemet går in i reparationsläge för filsystemet under uppstarten om den filsystemspecifika kontrollen returnerar ett ödesdigert fel. Monteringsflaggan *nofail* i _/etc/fstab_ kan användas för att få *fsck* att hoppa över icke-existerande enheter. *fsck* hoppar också över icke-existerande enheter som har den speciella filsystemtypen *auto*."
 
 #. type: Labeled list
 #: ../disk-utils/fsck.8.adoc:93
@@ -17245,7 +17245,7 @@ msgstr "Avsluta utan att köra _kommando_ om något fel uppstår vid hantering a
 #. type: Plain text
 #: ../misc-utils/pipesz.1.adoc:63
 msgid "Do not report non-fatal errors to standard error. This option does not affect the normal output of *--get*, *--verbose*, *--help*, or *--version*."
-msgstr "Rapportera inte icke-kritiska fel till standard fel. Flaggan påverkar inte normala utdata från *--get*, *--verbose*, *--help* eller *--version*."
+msgstr "Rapportera inte icke-ödesdigra fel till standard fel. Flaggan påverkar inte normala utdata från *--get*, *--verbose*, *--help* eller *--version*."
 
 #. type: Plain text
 #: ../misc-utils/pipesz.1.adoc:66
