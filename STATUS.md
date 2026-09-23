@@ -2128,3 +2128,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 **SuiteCRM Core – uppgifter, master 7.15 (2026-09-23):** Hela mastermodulen är komplett: **33/33** saknade svenska UI-texter för uppgifter, ämne, prioritet, förfallo- och starttider, kontakter, import och tilldelning är kontextgranskade, publicerade med HTTP 201 och API-återlästa. Backup: `SuiteCRM-Core/suitecrm-tasks-715-20260923.json`.
 
 **SuiteCRM Core – möten, master 7.15 (2026-09-23):** Hela mastermodulen är komplett: **78/78** saknade svenska UI-texter är kontextgranskade, publicerade och API-återlästa. Den täcker inbjudningar, varaktighet, kalenderkonton, återkommande möten, synkronisering, behörighetsinformation och påminnelser. Backup: `SuiteCRM-Core/suitecrm-meetings-715-20260923.json`.
+
+**SuiteCRM Core – ärenden, master 7.15 (2026-09-23):** Hela mastermodulen är komplett: **38/38** saknade svenska UI-texter är kontextgranskade, publicerade med HTTP 201 och API-återlästa. Den täcker ärendelösning, ärendeuppdateringar, bilagor, relationer, tilldelning och listvyer. Backup: `SuiteCRM-Core/suitecrm-cases-715-20260923.json`.
