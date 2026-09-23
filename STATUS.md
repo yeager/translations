@@ -2048,3 +2048,5 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 - 2026-09-23 — GitLab batch 212: 21 product-UI error, export, event, and integration strings. `l10n-lint` reported no errors; the Swedish-localized 6 000 revision was published (HTTP 201), and equivalent existing records returned Duplicate translation. Swedish QA for file 16 reported 0 findings.
 
 - 2026-09-23 — GitLab batch 213: 34 product-UI GitLab Pages and global-search strings. `l10n-lint` reported 0 issues; published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
+
+- 2026-09-23 — GitLab batch 214: 21 product-UI GitHub import, search, and navigation strings. `l10n-lint` reported no errors; the sole HTML-entity punctuation warning was reviewed as non-semantic. Published via CrowdIn API (all HTTP 201); Swedish QA for file 16 reported 0 findings.
