@@ -1,6 +1,6 @@
 # Granskade svenska TP-översättningar
 
-Granskning 2026-09-18: samtliga 125 448 aktiva poster i 144 av 146 domäner är genomlästa. PO-filerna innehåller sammanlagt 36 504 rättade poster. Hela TP-granskningen pågår fortfarande.
+Granskning 2026-09-18: samtliga 126 156 aktiva poster i 145 av 146 domäner är genomlästa. PO-filerna innehåller sammanlagt 36 847 rättade poster. Hela TP-granskningen pågår fortfarande.
 
 Granskningen omfattar betydelse, terminologi, språkbruk och formatsträngar, med l10n-lint 1.21.6 inklusive [rättningen för portabla PRI-format](https://github.com/yeager/l10n-lint/pull/10), senaste rättade svlang, hunspell-sv och aspell-sv samt [Swedish FOSS terminology](https://github.com/yeager/swedish-foss-terminology) och [Swedish TM](https://github.com/yeager/swedish-tm) som stöd. Vid IT-termer används i första hand [Computer Swedens IT-ord](https://it-ord.computersweden.se/). Vid övriga språk- och termbedömningar används [Svenska Akademiens ordböcker](https://svenska.se/), [TEPA](https://termipankki.fi/tepa/sv/), [IATE](https://iate.europa.eu/home), [Rikstermbanken](https://www.rikstermbanken.se/) och [ISOF:s vägledning om fackspråk och terminologi](https://www.isof.se/svenska-spraket/facksprak-och-terminologi). Programmens dokumentation och källkod har kontrollerats där sammanhanget kräver det. CLISP:s ändrade pluraluttryck har dessutom provkörts med en Common Lisp-tolk.
 
@@ -156,7 +156,7 @@ Radernas färg visar rättningsandelen för färdiga domäner: grönt är låg o
 <tr bgcolor="#d9ead3"><td>xdg-user-dirs</td><td>0.17</td><td>Färdig</td><td align="right">28</td><td align="right">0</td><td align="right">0.00 %</td><td>—</td><td>—</td><td><a href="https://translationproject.org/PO-files/sv/xdg-user-dirs-0.17.sv.po">Original</a></td></tr>
 <tr bgcolor="#f4f1c9"><td>xkeyboard-config</td><td>2.47.99</td><td>Färdig</td><td align="right">1303</td><td align="right">157</td><td align="right">12.05 %</td><td><a href="xkeyboard-config-2.47.99.sv.po">PO</a></td><td><a href="diff/xkeyboard-config-2.47.99.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/xkeyboard-config-2.47.99.sv.po">Original</a></td></tr>
 <tr bgcolor="#f4cccc"><td>xz</td><td>5.8.4-pre1</td><td>Färdig</td><td align="right">261</td><td align="right">75</td><td align="right">28.74 %</td><td><a href="xz-5.8.4-pre1.sv.po">PO</a></td><td><a href="diff/xz-5.8.4-pre1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/xz-5.8.4-pre1.sv.po">Original</a></td></tr>
-<tr bgcolor="#eeeeee"><td>xz-man</td><td>5.8.2-pre1</td><td>Pågår</td><td align="right">0 / 708</td><td align="right">—</td><td align="right">—</td><td>—</td><td>—</td><td><a href="https://translationproject.org/PO-files/sv/xz-man-5.8.2-pre1.sv.po">Original</a></td></tr>
+<tr bgcolor="#ea9999"><td>xz-man</td><td>5.8.2-pre1</td><td>Färdig</td><td align="right">708</td><td align="right">343</td><td align="right">48.45 %</td><td><a href="xz-man-5.8.2-pre1.sv.po">PO</a></td><td><a href="diff/xz-man-5.8.2-pre1.sv.po.diff">Diff</a></td><td><a href="https://translationproject.org/PO-files/sv/xz-man-5.8.2-pre1.sv.po">Original</a></td></tr>
 </tbody></table>
 
 För att applicera en diff: lägg motsvarande svenska originalfil i aktuell katalog och kör exempelvis:
