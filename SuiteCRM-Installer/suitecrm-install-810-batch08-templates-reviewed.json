@@ -1,0 +1,26 @@
+[
+  {
+    "stringId": 204340,
+    "source": "<div><table border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\"550\" align=\\\"\\&quot;\\&quot;center\\&quot;\\&quot;\\\"><tbody><tr><td colspan=\\\"2\\\"><p>Here is your account username and temporary password:</p><p>Username : $contact_user_user_name </p><p>Password : $contact_user_user_hash </p><br><p>$config_site_url</p><br><p>After you log in using the above password, you may be required to reset the password to one of your own choice.</p>   </td>         </tr><tr><td colspan=\\\"2\\\"></td>         </tr> </tbody></table> </div>",
+    "target": "<div><table border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\"550\" align=\\\"\\&quot;\\&quot;center\\&quot;\\&quot;\\\"><tbody><tr><td colspan=\\\"2\\\"><p>Här är användarnamnet för ditt konto och ditt tillfälliga lösenord:</p><p>Användarnamn: $contact_user_user_name </p><p>Lösenord: $contact_user_user_hash </p><br><p>$config_site_url</p><br><p>När du har loggat in med lösenordet ovan kan du behöva byta lösenordet till ett eget.</p>   </td>         </tr><tr><td colspan=\\\"2\\\"></td>         </tr> </tbody></table> </div>",
+    "context": "$mod_strings['advanced_password_new_account_email']['body']"
+  },
+  {
+    "stringId": 204342,
+    "source": "\nHere is your account username and temporary password:\nUsername : $contact_user_user_name\nPassword : $contact_user_user_hash\n\n$config_site_url\n\nAfter you log in using the above password, you may be required to reset the password to one of your own choice.",
+    "target": "\nHär är användarnamnet för ditt konto och ditt tillfälliga lösenord:\nAnvändarnamn: $contact_user_user_name\nLösenord: $contact_user_user_hash\n\n$config_site_url\n\nNär du har loggat in med lösenordet ovan kan du behöva byta lösenordet till ett eget.",
+    "context": "$mod_strings['advanced_password_new_account_email']['txt_body']"
+  },
+  {
+    "stringId": 204352,
+    "source": "<div><table border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\"550\" align=\\\"\\&quot;\\&quot;center\\&quot;\\&quot;\\\"><tbody><tr><td colspan=\\\"2\\\"><p>You recently requested on $contact_user_pwd_last_changed to be able to reset your account password. </p><p>Click on the link below to reset your password:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\\\"2\\\"></td>         </tr> </tbody></table> </div>",
+    "target": "<div><table border=\\\"0\\\" cellspacing=\\\"0\\\" cellpadding=\\\"0\\\" width=\"550\" align=\\\"\\&quot;\\&quot;center\\&quot;\\&quot;\\\"><tbody><tr><td colspan=\\\"2\\\"><p>Du begärde den $contact_user_pwd_last_changed att få återställa lösenordet för ditt konto. </p><p>Klicka på länken nedan för att återställa lösenordet:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\\\"2\\\"></td>         </tr> </tbody></table> </div>",
+    "context": "$mod_strings['advanced_password_forgot_password_email']['body']"
+  },
+  {
+    "stringId": 204354,
+    "source": "\nYou recently requested on $contact_user_pwd_last_changed to be able to reset your account password.\n\nClick on the link below to reset your password:\n\n$contact_user_link_guid",
+    "target": "\nDu begärde den $contact_user_pwd_last_changed att få återställa lösenordet för ditt konto.\n\nKlicka på länken nedan för att återställa lösenordet:\n\n$contact_user_link_guid",
+    "context": "$mod_strings['advanced_password_forgot_password_email']['txt_body']"
+  }
+]
