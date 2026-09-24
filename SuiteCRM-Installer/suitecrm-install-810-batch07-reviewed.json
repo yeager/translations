@@ -1,0 +1,146 @@
+[
+  {
+    "stringId": 204182,
+    "source": "Print",
+    "target": "Skriv ut",
+    "context": "$mod_strings['LBL_PRINT']"
+  },
+  {
+    "stringId": 204192,
+    "source": "SuiteCRM Application Admin Name",
+    "target": "Administratörsnamn för SuiteCRM",
+    "context": "$mod_strings['LBL_SITECFG_ADMIN_Name']"
+  },
+  {
+    "stringId": 204194,
+    "source": "Re-enter SuiteCRM Admin User Password",
+    "target": "Ange lösenordet för SuiteCRM-administratören igen",
+    "context": "$mod_strings['LBL_SITECFG_ADMIN_PASS_2']"
+  },
+  {
+    "stringId": 204196,
+    "source": "SuiteCRM Admin User Password",
+    "target": "Lösenord för SuiteCRM-administratören",
+    "context": "$mod_strings['LBL_SITECFG_ADMIN_PASS']"
+  },
+  {
+    "stringId": 204200,
+    "source": "If selected, you must provide an application ID to override the auto-generated ID. The ID ensures that sessions of one SuiteCRM instance are not used by other instances. If you have a cluster of SuiteCRM installations, they all must share the same application ID.",
+    "target": "Om detta väljs måste du ange ett program-ID för att ersätta det automatiskt genererade ID:t. ID:t säkerställer att sessioner från en SuiteCRM-instans inte används av andra instanser. Om du har ett kluster med SuiteCRM-installationer måste de använda samma program-ID.",
+    "context": "$mod_strings['LBL_SITECFG_CUSTOM_ID_DIRECTIONS']"
+  },
+  {
+    "stringId": 204204,
+    "source": "If selected, you must specify a log directory to override the default directory for the SuiteCRM log. Regardless of where the log file is located, access to it through a web browser will be restricted via an .htaccess redirect.",
+    "target": "Om detta väljs måste du ange en loggkatalog som ersätter standardkatalogen för SuiteCRM-loggen. Oavsett var loggfilen finns begränsas åtkomsten via en webbläsare med en .htaccess-omdirigering.",
+    "context": "$mod_strings['LBL_SITECFG_CUSTOM_LOG_DIRECTIONS']"
+  },
+  {
+    "stringId": 204208,
+    "source": "If selected, you must provide a secure folder for storing SuiteCRM session information. This can be done to prevent session data from being vulnerable on shared servers.",
+    "target": "Om detta väljs måste du ange en säker katalog för lagring av SuiteCRM-sessionsinformation. Det kan förhindra att sessionsdata blir sårbara på delade servrar.",
+    "context": "$mod_strings['LBL_SITECFG_CUSTOM_SESSION_DIRECTIONS']"
+  },
+  {
+    "stringId": 204212,
+    "source": "<b>Please fix the following errors before proceeding:</b>",
+    "target": "<b>Åtgärda följande fel innan du fortsätter:</b>",
+    "context": "$mod_strings['LBL_SITECFG_FIX_ERRORS']"
+  },
+  {
+    "stringId": 204220,
+    "source": "If selected, the system will periodically check for updated versions of the application.",
+    "target": "Om detta väljs söker systemet regelbundet efter uppdaterade versioner av programmet.",
+    "context": "$mod_strings['LBL_SITECFG_SUITE_UP_DIRECTIONS']"
+  },
+  {
+    "stringId": 204222,
+    "source": "Automatically Check For Updates?",
+    "target": "Sök automatiskt efter uppdateringar?",
+    "context": "$mod_strings['LBL_SITECFG_SUITE_UP']"
+  },
+  {
+    "stringId": 204226,
+    "source": "Identify Administration User",
+    "target": "Identifiera administrationsanvändaren",
+    "context": "$mod_strings['LBL_SITECFG_TITLE2']"
+  },
+  {
+    "stringId": 204232,
+    "source": "Send Anonymous Usage Statistics?",
+    "target": "Skicka anonym användningsstatistik?",
+    "context": "$mod_strings['LBL_SITECFG_ANONSTATS']"
+  },
+  {
+    "stringId": 204234,
+    "source": "If selected, SuiteCRM will send <b>anonymous</b> statistics about your installation to SuiteCRM Inc. every time your system checks for new versions. This information will help us better understand how the application is used and guide improvements to the product.",
+    "target": "Om detta väljs skickar SuiteCRM <b>anonym</b> statistik om installationen till SuiteCRM Inc. varje gång systemet söker efter nya versioner. Informationen hjälper oss att bättre förstå hur programmet används och att förbättra produkten.",
+    "context": "$mod_strings['LBL_SITECFG_ANONSTATS_DIRECTIONS']"
+  },
+  {
+    "stringId": 204236,
+    "source": "Enter the URL that will be used to access the SuiteCRM instance after installation. The URL will also be used as a base for the URLs in the SuiteCRM application pages. The URL should include the web server or machine name or IP address.",
+    "target": "Ange URL:en som ska användas för att komma åt SuiteCRM-instansen efter installationen. URL:en används även som bas för URL:erna på SuiteCRM-programsidorna. URL:en ska innehålla webbserverns eller datorns namn eller IP-adress.",
+    "context": "$mod_strings['LBL_SITECFG_URL_MSG']"
+  },
+  {
+    "stringId": 204238,
+    "source": "Enter a name for your system. This name will be displayed in the browser title bar when users visit the SuiteCRM application.",
+    "target": "Ange ett namn för systemet. Namnet visas i webbläsarens namnlist när användare besöker SuiteCRM.",
+    "context": "$mod_strings['LBL_SITECFG_SYS_NAME_MSG']"
+  },
+  {
+    "stringId": 204240,
+    "source": "After installation, you will need to use the SuiteCRM admin user (default username = admin) to log in to the SuiteCRM instance. Enter a password for this administrator user. This password can be changed after the initial login. You may also enter another admin username to use besides the default value provided.",
+    "target": "Efter installationen använder du SuiteCRM-administratören (standardanvändarnamn = admin) för att logga in på SuiteCRM-instansen. Ange ett lösenord för administratören. Lösenordet kan ändras efter den första inloggningen. Du kan också ange ett annat administratörsanvändarnamn än standardvärdet.",
+    "context": "$mod_strings['LBL_SITECFG_PASSWORD_MSG']"
+  },
+  {
+    "stringId": 204242,
+    "source": "Select collation (sorting) settings for your system. This settings will create the tables with the specific language you use. In case your language doesn't require special settings please use default value.",
+    "target": "Välj sorteringsinställningar för systemet. Inställningarna skapar tabellerna med språkspecifika regler. Använd standardvärdet om språket inte kräver särskilda inställningar.",
+    "context": "$mod_strings['LBL_SITECFG_COLLATION_MSG']"
+  },
+  {
+    "stringId": 204246,
+    "source": "System Credentials",
+    "target": "Systeminloggningsuppgifter",
+    "context": "$mod_strings['LBL_SYSTEM_CREDS']"
+  },
+  {
+    "stringId": 204248,
+    "source": "System Environment",
+    "target": "Systemmiljö",
+    "context": "$mod_strings['LBL_SYSTEM_ENV']"
+  },
+  {
+    "stringId": 204254,
+    "source": "Pre-Installation requirements",
+    "target": "Krav före installation",
+    "context": "$mod_strings['LBL_PRE_INSTALL_REQ']"
+  },
+  {
+    "stringId": 204264,
+    "source": "All Checks Passed!",
+    "target": "Alla kontroller godkändes!",
+    "context": "$mod_strings['LBL_CHECKS_PASSED']"
+  },
+  {
+    "stringId": 204266,
+    "source": "Warnings found: please check these before you proceed.",
+    "target": "Varningar hittades: kontrollera dem innan du fortsätter.",
+    "context": "$mod_strings['LBL_WARNINGS_FOUND']"
+  },
+  {
+    "stringId": 204268,
+    "source": " Errors found: it is recommended that you resolve these before you proceed.",
+    "target": " Fel hittades: vi rekommenderar att du åtgärdar dem innan du fortsätter.",
+    "context": "$mod_strings['LBL_ERRORS_FOUND']"
+  },
+  {
+    "stringId": 204270,
+    "source": "Error(s) and Warning(s) found: It is recommended that you check and resolve these before you proceed.",
+    "target": "Fel och varningar hittades: vi rekommenderar att du kontrollerar och åtgärdar dem innan du fortsätter.",
+    "context": "$mod_strings['LBL_ERRORS_AND_WARNINGS_FOUND']"
+  }
+]
