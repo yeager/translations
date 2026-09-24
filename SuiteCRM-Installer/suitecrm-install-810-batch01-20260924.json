@@ -1,0 +1,152 @@
+{
+  "project": "SuiteCRM installer",
+  "branch": "release.8.10",
+  "fileId": 5502,
+  "language": "sv-SE",
+  "entries": [
+    {
+      "stringId": 203582,
+      "source": "Advanced Filter",
+      "target": "Avancerat filter",
+      "context": "$mod_strings['LBL_ADVANCED_SEARCH']",
+      "status": 201,
+      "translationId": 2536105
+    },
+    {
+      "stringId": 203598,
+      "source": "UTF-8",
+      "target": "UTF-8",
+      "context": "$mod_strings['DEFAULT_CHARSET']",
+      "status": 201,
+      "translationId": 2536107
+    },
+    {
+      "stringId": 203608,
+      "source": "Allow Call Time Pass Reference is On (this should be set to Off in php.ini)",
+      "target": "Inställningen `allow_call_time_pass_reference` är aktiverad (den ska vara avaktiverad i php.ini)",
+      "context": "$mod_strings['ERR_CHECKSYS_CALL_TIME']",
+      "status": 201,
+      "translationId": 2536141
+    },
+    {
+      "stringId": 203624,
+      "source": "We detect that you are not using a FastCGI handler mapping for PHP. You will need to install/configure a version that is compatible with the SuiteCRM application. Please consult the Compatibility Matrix in the Release Notes for supported Versions. Please see <a href=\"https://php.iis.net/\" target=\"_blank\">https://php.iis.net/</a> for details ",
+      "target": "Vi har upptäckt att du inte använder en FastCGI-hanterarmappning för PHP. Du måste installera eller konfigurera en version som är kompatibel med SuiteCRM. Information om versioner som stöds finns i kompatibilitetsmatrisen i versionsinformationen. Mer information finns på <a href=\"https://php.iis.net/\" target=\"_blank\">https://php.iis.net/</a> ",
+      "context": "$mod_strings['ERR_CHECKSYS_FASTCGI']",
+      "status": 201,
+      "translationId": 2536111
+    },
+    {
+      "stringId": 203626,
+      "source": "For optimal experience using IIS/FastCGI sapi, set fastcgi.logging to 0 in your php.ini file.",
+      "target": "För bästa resultat med IIS/FastCGI SAPI anger du fastcgi.logging till 0 i php.ini-filen.",
+      "context": "$mod_strings['ERR_CHECKSYS_FASTCGI_LOGGING']",
+      "status": 201,
+      "translationId": 2536113
+    },
+    {
+      "stringId": 203634,
+      "source": "Functions associated with the Multibyte Strings PHP extension (mbstring) that are needed by the SuiteCRM application were not found. Generally, the mbstring module is not enabled by default in PHP and must be activated with --enable-mbstring when the PHP binary is built. Please refer to your PHP Manual for more information on how to enable mbstring support.",
+      "target": "Funktioner för PHP-tillägget Multibyte Strings (mbstring), som SuiteCRM behöver, hittades inte. Modulen mbstring är normalt inte aktiverad som standard i PHP och måste aktiveras med --enable-mbstring när PHP-binären byggs. I PHP-handboken finns mer information om hur mbstring-stöd aktiveras.",
+      "context": "$mod_strings['ERR_CHECKSYS_MBSTRING']",
+      "status": 201,
+      "translationId": 2536115
+    },
+    {
+      "stringId": 203636,
+      "source": "The config file exists but is not writeable. Please take the necessary steps to make the file writeable.",
+      "target": "Konfigurationsfilen finns men är inte skrivbar. Gör filen skrivbar.",
+      "context": "$mod_strings['ERR_CHECKSYS_CONFIG_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536117
+    },
+    {
+      "stringId": 203638,
+      "source": "Your config.php does not exist. This will be created on install.",
+      "target": "Filen config.php finns inte. Den skapas vid installationen.",
+      "context": "$mod_strings['ERR_CHECKSYS_CONFIG_NOT_FOUND']",
+      "status": 201,
+      "translationId": 2536143
+    },
+    {
+      "stringId": 203640,
+      "source": "The config override file exists but is not writeable. Please take the necessary steps to make the file writeable. ",
+      "target": "Filen för åsidosatt konfiguration finns men är inte skrivbar. Gör filen skrivbar. ",
+      "context": "$mod_strings['ERR_CHECKSYS_CONFIG_OVERRIDE_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536121
+    },
+    {
+      "stringId": 203642,
+      "source": "The Custom Directory exists but is not writeable. Please take the necessary steps to make the file writeable.",
+      "target": "Katalogen Custom finns men är inte skrivbar. Gör katalogen skrivbar.",
+      "context": "$mod_strings['ERR_CHECKSYS_CUSTOM_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536123
+    },
+    {
+      "stringId": 203644,
+      "source": "The files or directories listed above are not writeable or are missing and cannot be created. Please take the necessary steps to make the directories writeable.",
+      "target": "Filerna eller katalogerna ovan är inte skrivbara, saknas eller kan inte skapas. Gör katalogerna skrivbara.",
+      "context": "$mod_strings['ERR_CHECKSYS_FILES_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536125
+    },
+    {
+      "stringId": 203646,
+      "source": "The Logs Directory is currently not writable",
+      "target": "Katalogen Logs är inte skrivbar",
+      "context": "$mod_strings['ERR_CHECKSYS_LOGS_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536127
+    },
+    {
+      "stringId": 203648,
+      "source": "The Cache Directory is currently not writable",
+      "target": "Katalogen Cache är inte skrivbar",
+      "context": "$mod_strings['ERR_CHECKSYS_CACHE_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536129
+    },
+    {
+      "stringId": 203650,
+      "source": "The Extensions Directory is currently not writable",
+      "target": "Katalogen Extensions är inte skrivbar",
+      "context": "$mod_strings['ERR_CHECKSYS_EXTENSIONS_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536131
+    },
+    {
+      "stringId": 203652,
+      "source": "The Root Directory is currently not writable. You will not be able to proceed with install.",
+      "target": "Rotkatalogen är inte skrivbar. Du kan inte fortsätta installationen.",
+      "context": "$mod_strings['ERR_CHECKSYS_ROOT_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536133
+    },
+    {
+      "stringId": 203654,
+      "source": "The config/secrets directory is currently not writable",
+      "target": "Katalogen config/secrets är inte skrivbar",
+      "context": "$mod_strings['ERR_CHECKSYS_SECRETS_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536135
+    },
+    {
+      "stringId": 203656,
+      "source": "The .env file or the directory it is in is not writable.",
+      "target": "Filen .env eller katalogen där den finns är inte skrivbar.",
+      "context": "$mod_strings['ERR_CHECKSYS_ENV_NOT_WRITABLE']",
+      "status": 201,
+      "translationId": 2536137
+    },
+    {
+      "stringId": 203658,
+      "source": "Functions associated with JSON Parser Libraries that are needed by the SuiteCRM application were not found. You might need to uncomment the extension in the php.ini file, or recompile with the right binary file, depending on your version of PHP. Please refer to your PHP Manual for more information.",
+      "target": "Funktioner för JSON-tolkbibliotek som SuiteCRM behöver hittades inte. Beroende på PHP-version kan du behöva avkommentera tillägget i php.ini-filen eller kompilera om med rätt binärfil. I PHP-handboken finns mer information.",
+      "context": "$mod_strings['ERR_CHECKSYS_JSON_NOT_AVAILABLE']",
+      "status": 201,
+      "translationId": 2536139
+    }
+  ]
+}
