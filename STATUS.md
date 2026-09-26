@@ -2135,3 +2135,4 @@ Säkerhetsprojektet prioriterades och Weblate-katalogen kontrollerades (92 tomma
 
 **SuiteCRM Core – samtal, master 7.15 (2026-09-23):** Alla **65 användarsynliga** saknade svenska UI-texter är kontextgranskade, publicerade och API-återlästa. De täcker samtalslogg, inbjudningar, påminnelser, ombokning, upprepning, synkronisering och åtkomstinformation. En dold blankvärdespost är avsiktligt tom. Backup: `SuiteCRM-Core/suitecrm-calls-715-20260923.json`.
 - 2026-09-26 — GitLab batch 258: beroenden, distribution, Duo, säkerhet och åtkomst; 100 strängar. `l10n-lint`: 0 fel, 0 varningar; CrowdIn API: 100 behandlade (69 × HTTP 201, 31 befintliga dubbletter).
+- 2026-09-26 — Blender UI: separat XLIFF-delta med 99 radgranskade svenska ändringar. Formatkontroll (`msgfmt --check --check-format`) och l10n-lint: 0 fel.
